@@ -1,0 +1,85 @@
+name: Propose a port
+description: Suggest adding a native port to the catalog
+title: "[Port] "
+labels: ["port-data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for proposing a new entry. Read `docs/EDITORIAL_POLICY.md`
+        before submitting. The catalog only lists native ports (decompilation,
+        static recompilation or engine reimplementation) with official,
+        verifiable sources.
+  - type: input
+    id: game
+    attributes:
+      label: Game
+      description: Original game covered by the port.
+    validations:
+      required: true
+  - type: input
+    id: port
+    attributes:
+      label: Port name
+      description: Name of the port / reimplementation project.
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: Official repository
+      description: GitHub, GitLab or Codeberg URL of the project.
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Other official sources
+      description: Releases page, Discord invite or authors' website, if any.
+      placeholder: |
+        - https://github.com/owner/repo/releases
+        - https://discord.gg/...
+    validations:
+      required: false
+  - type: dropdown
+    id: technique
+    attributes:
+      label: Technique
+      options:
+        - decompilation
+        - static-recompilation
+        - engine-reimplementation
+        - other
+    validations:
+      required: true
+  - type: dropdown
+    id: platforms
+    attributes:
+      label: Platforms
+      multiple: true
+      options:
+        - windows
+        - linux
+        - macos
+        - android
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Short summary
+      description: Under 220 characters, factual, no marketing.
+    validations:
+      required: true
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verification
+      options:
+        - label: I checked the repository and the data above is accurate.
+          required: true
+        - label: The links point only to official project sources.
+          required: true
+        - label: No direct links to downloadable files are included.
+          required: true

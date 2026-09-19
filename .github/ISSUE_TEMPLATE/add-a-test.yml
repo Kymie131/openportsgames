@@ -1,0 +1,104 @@
+name: Add a test
+description: Submit a manual test report for a port
+title: "[Test] "
+labels: ["testing"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Test reports are public and versioned in the repository. Read
+        `docs/TESTING_METHODOLOGY.md` first: clean install from the official
+        release, at least 30 minutes of play, complete checklist.
+  - type: input
+    id: port
+    attributes:
+      label: Port
+      description: Slug or name of the port.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Exact version tested
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Hardware profile id
+      description: Use an existing profile in `content/hardware/` or propose a new one.
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: Result
+      options:
+        - works-well
+        - works-with-issues
+        - barely-playable
+        - does-not-run
+    validations:
+      required: true
+  - type: input
+    id: fps
+    attributes:
+      label: Average FPS
+      placeholder: "60"
+    validations:
+      required: true
+  - type: input
+    id: resolution
+    attributes:
+      label: Resolution
+      placeholder: "1920x1080"
+    validations:
+      required: true
+  - type: input
+    id: preset
+    attributes:
+      label: Graphics preset
+      placeholder: "High"
+    validations:
+      required: false
+  - type: dropdown
+    id: input_method
+    attributes:
+      label: Input method
+      options:
+        - keyboard-mouse
+        - gamepad
+        - touch
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Game launches from the official release.
+          required: true
+        - label: Controls work.
+          required: true
+        - label: Audio works.
+          required: true
+        - label: Save and load work.
+          required: true
+        - label: Options menu works.
+          required: true
+        - label: Clean close / no crash on exit.
+          required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Short, factual. No personal data, no file paths with usernames.
+    validations:
+      required: false
+  - type: input
+    id: evidence
+    attributes:
+      label: Evidence URL (optional)
+      description: A YouTube, GitHub or Imgur link showing the test.
+    validations:
+      required: false
