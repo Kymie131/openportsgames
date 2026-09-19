@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discord or discussions
+    url: https://github.com/Kymie131/openportsgames/discussions
+    about: Questions and general discussion about the site.
+  - name: Security reports
+    url: https://github.com/Kymie131/openportsgames/security/advisories/new
+    about: Report vulnerabilities privately. Do not open a public issue.

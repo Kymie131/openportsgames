@@ -1,0 +1,39 @@
+name: Report a broken link or wrong data
+description: Report a dead link or incorrect data on a port page
+title: "[Link/Data] "
+labels: ["bug", "port-data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please fill in what changed or broke. If a link
+        stopped working, the port page will be checked and the entry updated.
+  - type: input
+    id: port
+    attributes:
+      label: Port
+      description: Name of the port / slug of the page.
+      placeholder: e.g. ship-of-harkinian
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong
+      description: Broken link, wrong version, wrong platform, outdated status...
+    validations:
+      required: true
+  - type: input
+    id: correct_url
+    attributes:
+      label: Correct official source (if a link is broken)
+      description: Only official project sources. No mirrors or download links.
+    validations:
+      required: false
+  - type: input
+    id: verified_on
+    attributes:
+      label: Date you checked
+      placeholder: 2026-09-19
+    validations:
+      required: false
