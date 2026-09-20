@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, type ReactNode } from "react";
+import { useState, useSyncExternalStore, type ReactNode } from "react";
 import { LocaleContext } from "./locale-context";
 import { dictionaries, defaultLocale } from "@/lib/i18n/dictionaries";
 import { isLocale, LOCALE_STORAGE_KEY, type Locale } from "@/lib/i18n/locales";
@@ -18,11 +18,17 @@ function detectLocale(): Locale {
     : defaultLocale;
 }
 
+function subscribe() {
+  return () => {};
+}
+
 export function LocaleProvider({ children }: { children: ReactNode }) {
-  const [locale, setLocaleState] = useState<Locale>(detectLocale);
+  const [manualLocale, setManualLocale] = useState<Locale | null>(null);
+  const detected = useSyncExternalStore(subscribe, detectLocale, () => defaultLocale);
+  const locale = manualLocale ?? detected;
 
   function setLocale(next: Locale) {
-    setLocaleState(next);
+    setManualLocale(next);
     document.documentElement.lang = next;
     try {
       window.localStorage.setItem(LOCALE_STORAGE_KEY, next);
