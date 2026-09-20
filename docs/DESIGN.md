@@ -5,8 +5,8 @@ It is a living spec: update it whenever a visual rule changes.
 
 ## Goals
 
-- **Sober and utilitarian.** The catalog's content is the protagonist. No decorative
-  gradients, no stock imagery, no emoji anywhere.
+- **Sober and utilitarian.** The catalog's content is the protagonist. No decorations
+  beyond a subtle ambient color wash; no stock imagery, no emoji anywhere.
 - **Accessible** (WCAG AA contrast, semantic landmarks, visible focus, reduced-motion
   support) and **fast** (static export, no runtime CSS framework, minimal JS).
 - **Fully bilingual** (English default, Spanish) with an on-page switcher. Design must
@@ -27,18 +27,25 @@ after it in the CSS. Tokens are real CSS variables remapped by Tailwind via
 
 | Token | Dark | Light |
 | --- | --- | --- |
-| `background` | `#0C1016` | `#F6F7F9` |
-| `surface` | `#131A23` | `#FFFFFF` |
-| `surface-2` | `#1B242F` | `#ECEEF1` |
-| `foreground` | `#E6ECF3` | `#161C22` |
-| `muted` | `#9AA8B8` | `#5A6673` |
-| `border` | `rgba(148, 163, 184, 0.16)` | `rgba(22, 28, 34, 0.14)` |
-| `ring` | `rgba(59, 130, 246, 0.55)` | same |
-| `accent` + `accent-contrast` | `#3E7BFA` / `#F6FBFF` | `#2B6AE2` / `#FFFFFF` |
+| `background` | `#0B1120` | `#F4F6FB` |
+| `surface` | `#121A2C` | `#FFFFFF` |
+| `surface-2` | `#1A2440` | `#E9EEF8` |
+| `foreground` | `#EAF0FB` | `#1C2436` |
+| `muted` | `#A6B3C9` | `#566172` |
+| `border` | `#2C3A5C` | `#D3DCEF` |
+| `ring` | `#5B9DFF` | `#2F6FE0` |
+| `accent` / `accent-contrast` | `#5B9DFF` / `#0B1120` | `#1F63E0` / `#FFFFFF` |
+| `accent-2` | `#3EC7F4` (cyan) | `#0E9CD8` |
+| `accent-3` | `#A78BFA` (violet) | `#7C5CE0` |
+| `link` / `link-hover` | `#8FB9FF` / `#AAC9FF` | `#1C5BD0` / `#123AA0` |
+| `ok` / `warning` / `danger` | `#45C47E` / `#E2B34F` / `#F2786F` | `#1C8A4E` / `#92600C` / `#B3291F` |
 
-- Single blue accent; surfaces are cold neutral. Semantic variants (success/warning/
-  danger) are used only as small badges, never as page color.
-- Links use `--link` / `--link-hover`.
+- Dark is a deep blue-slate with a blue/cyan/violet accent triad instead of a single
+  accent. `body` carries a fixed, faint radial-gradient wash (the "aurora") that never
+  animates and is invisible under `prefers-reduced-motion` by design (it is static).
+- `.text-gradient` (blue→cyan→violet) is reserved for the brand and the home heading.
+- Links use `--link` / `--link-hover`. Semantic variants (success/warning/danger) are
+  used only as small badges, never as page color.
 
 ## Shape, spacing, elevation
 

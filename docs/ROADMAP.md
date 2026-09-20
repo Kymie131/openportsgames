@@ -9,7 +9,7 @@ this list is done as of the v1 release.
 - **Phase 2** — Home page and legal/compliance groundwork (design copy,
   takedown-aware philosophy; recorded in `docs/`).
 - **Phase 3** — Data layer: zod schemas (ports, platforms, techniques,
-  statuses incl. `takedown`, hardware, tests), 21 port files, hardware
+  statuses incl. `takedown`, hardware, tests), 26 port files, hardware
   profiles, registry + queries, static `/api/ports.json`, content validation
   in CI, a weekly latest-release checker, `docs/PENDING_VERIFICATION.md`.
 - **Phase 4** — Catalog UI: `/ports`, `/pc`, `/android` with MiniSearch,

@@ -14,6 +14,7 @@ export const openmw: Port = {
   release: { version: "0.51.0", date: "2026-06-19" },
   sources: ["https://github.com/OpenMW/openmw"],
   website: "https://openmw.org/",
+  discord: "https://discord.gg/bWuqq2e",
   license: {
     spdx: "GPL-3.0",
   },

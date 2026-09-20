@@ -22,4 +22,9 @@ export const originalSystemById: Record<Port["id"], string> = {
   "fallout2-ce": "Microsoft Windows",
   "openjk": "Microsoft Windows",
   "gemrb": "Microsoft Windows / MS-DOS",
+  "sonic-1-2-2013": "Sega Mega Drive / Genesis",
+  "sonic-mania-decomp": "Microsoft Windows",
+  "downpour-recomp": "Xbox 360",
+  "wiicompiled": "Wii",
+  "openra": "MS-DOS",
 };

@@ -3,46 +3,50 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 /*
- * Design tokens. Cold neutrals with a single sober blue accent.
- * The theme is applied as a class on <html> (.dark or .light) by the
- * theme script in the layout head, so no flash of unthemed content.
- * Values are documented in docs/DESIGN.md.
+ * Design tokens. Deep blue-slate neutrals with a vivid blue, cyan and
+ * violet accent triad. The theme is applied as a class on <html> (.dark
+ * or .light) by the theme script in the layout head, so there is no flash
+ * of unthemed content. Values are documented in docs/DESIGN.md.
  */
 
 :root {
-  --background: #0c1016;
-  --surface: #141a22;
-  --surface-2: #1b2330;
-  --border: #2b3441;
-  --foreground: #e6ecf3;
-  --muted: #9aa6b3;
-  --accent: #4d8bff;
-  --accent-contrast: #0c1016;
-  --accent-hover: #6ba1ff;
-  --link: #8cb4ff;
-  --link-hover: #a9c7ff;
-  --ring: #4d8bff;
-  --ok: #3fb876;
-  --warning: #d6a13f;
-  --danger: #f2736d;
+  --background: #0b1120;
+  --surface: #121a2c;
+  --surface-2: #1a2440;
+  --border: #2c3a5c;
+  --foreground: #eaf0fb;
+  --muted: #a6b3c9;
+  --accent: #5b9dff;
+  --accent-contrast: #0b1120;
+  --accent-hover: #7db8ff;
+  --accent-2: #3ec7f4;
+  --accent-3: #a78bfa;
+  --link: #8fb9ff;
+  --link-hover: #aac9ff;
+  --ring: #5b9dff;
+  --ok: #45c47e;
+  --warning: #e2b34f;
+  --danger: #f2786f;
 }
 
 .light {
-  --background: #f6f7f9;
+  --background: #f4f6fb;
   --surface: #ffffff;
-  --surface-2: #eef1f4;
-  --border: #d8dee5;
-  --foreground: #1b222c;
-  --muted: #58636f;
-  --accent: #1a5fd0;
+  --surface-2: #e9eef8;
+  --border: #d3dcef;
+  --foreground: #1c2436;
+  --muted: #566172;
+  --accent: #1f63e0;
   --accent-contrast: #ffffff;
-  --accent-hover: #154fb0;
-  --link: #1a56db;
-  --link-hover: #123a9e;
+  --accent-hover: #174fc0;
+  --accent-2: #0e9cd8;
+  --accent-3: #7c5ce0;
+  --link: #1c5bd0;
+  --link-hover: #123aa0;
   --ring: #2f6fe0;
-  --ok: #167845;
-  --warning: #7a5600;
-  --danger: #b3261e;
+  --ok: #1c8a4e;
+  --warning: #92600c;
+  --danger: #b3291f;
 }
 
 @theme inline {
@@ -55,6 +59,8 @@
   --color-accent: var(--accent);
   --color-accent-contrast: var(--accent-contrast);
   --color-accent-hover: var(--accent-hover);
+  --color-accent-2: var(--accent-2);
+  --color-accent-3: var(--accent-3);
   --color-link: var(--link);
   --color-link-hover: var(--link-hover);
   --color-ring: var(--ring);
@@ -71,8 +77,32 @@ html {
 
 body {
   background-color: var(--background);
+  background-image:
+    radial-gradient(1100px 750px at 88% -12%, rgb(91 157 255 / 0.14), transparent 62%),
+    radial-gradient(950px 650px at -12% 32%, rgb(62 199 244 / 0.1), transparent 56%),
+    radial-gradient(900px 620px at 50% 112%, rgb(167 139 250 / 0.11), transparent 60%);
+  background-attachment: fixed;
   color: var(--foreground);
   font-family: var(--font-sans);
+}
+
+.light body {
+  background-image:
+    radial-gradient(1100px 750px at 88% -12%, rgb(31 99 224 / 0.08), transparent 62%),
+    radial-gradient(950px 650px at -12% 32%, rgb(14 156 216 / 0.06), transparent 56%),
+    radial-gradient(900px 620px at 50% 112%, rgb(124 92 224 / 0.06), transparent 60%);
+}
+
+.text-gradient {
+  background-image: linear-gradient(
+    95deg,
+    var(--accent) 0%,
+    var(--accent-2) 55%,
+    var(--accent-3) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 ::selection {

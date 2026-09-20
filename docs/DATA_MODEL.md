@@ -25,6 +25,7 @@ are:
 | `release` | `{ version?, date? }` | nullable both; version must be X.Y/X.Y.Z (+suffix) |
 | `sources` | https URL[] | official repositories/releases/websites (minimum 1) |
 | `website`, `docs` | https URL? | official project website / documentation |
+| `discord` | https URL? | official community server (Discord) of the project |
 | `license` | `{ spdx, note? }` | SPDX identifier |
 | `aiDisclosure` | boolean | project discloses AI involvement |
 | `verified` | boolean | release verified by the team |
