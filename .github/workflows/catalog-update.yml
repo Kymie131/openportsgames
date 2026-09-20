@@ -1,0 +1,50 @@
+name: Catalog update check
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 3 * * 1" # weekly, Monday 03:00 UTC
+
+concurrency:
+  group: catalog-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: Check for stale catalog entries
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Build static export
+        # NEXT_PUBLIC_SITE_URL is a stub here; it is only used for metadata.
+        run: npm run build
+        env:
+          NEXT_PUBLIC_SITE_URL: https://openportsgames.example
+
+      - name: Compare latest releases
+        id: check
+        run: node scripts/check-latest-releases.mjs
+
+      - name: Open issue for stale ports
+        if: steps.check.outputs.stale == '1'
+        run: |
+          gh issue create \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "Catalog update needed" \
+            --body "$(cat catalog-check-report.md)" \
+            --label "data"
+        env:
+          GH_TOKEN: ${{ github.token }}
