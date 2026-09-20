@@ -1,26 +1,96 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+ * Design tokens. Cold neutrals with a single sober blue accent.
+ * The theme is applied as a class on <html> (.dark or .light) by the
+ * theme script in the layout head, so no flash of unthemed content.
+ * Values are documented in docs/DESIGN.md.
+ */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0c1016;
+  --surface: #141a22;
+  --surface-2: #1b2330;
+  --border: #2b3441;
+  --foreground: #e6ecf3;
+  --muted: #9aa6b3;
+  --accent: #4d8bff;
+  --accent-contrast: #0c1016;
+  --accent-hover: #6ba1ff;
+  --link: #8cb4ff;
+  --link-hover: #a9c7ff;
+  --ring: #4d8bff;
+  --ok: #3fb876;
+  --warning: #d6a13f;
+  --danger: #f2736d;
+}
+
+.light {
+  --background: #f6f7f9;
+  --surface: #ffffff;
+  --surface-2: #eef1f4;
+  --border: #d8dee5;
+  --foreground: #1b222c;
+  --muted: #58636f;
+  --accent: #1a5fd0;
+  --accent-contrast: #ffffff;
+  --accent-hover: #154fb0;
+  --link: #1a56db;
+  --link-hover: #123a9e;
+  --ring: #2f6fe0;
+  --ok: #167845;
+  --warning: #7a5600;
+  --danger: #b3261e;
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
   --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-contrast: var(--accent-contrast);
+  --color-accent-hover: var(--accent-hover);
+  --color-link: var(--link);
+  --color-link-hover: var(--link-hover);
+  --color-ring: var(--ring);
+  --color-ok: var(--ok);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scrollbar-color: var(--border) transparent;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background-color: color-mix(in srgb, var(--accent) 30%, transparent);
+}
+
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
