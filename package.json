@@ -14,7 +14,8 @@
     "test:watch": "vitest",
     "test:e2e": "playwright test",
     "test:e2e:install": "playwright install chromium",
-    "validate": "vitest run --project content"
+    "validate": "vitest run --project content",
+    "check:updates": "node scripts/check-latest-releases.mjs"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.23",
