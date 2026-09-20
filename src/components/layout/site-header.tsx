@@ -15,6 +15,7 @@ const NAV_ITEMS = [
   { href: "/ports", key: "ports" as const },
   { href: "/pc", key: "pc" as const },
   { href: "/android", key: "android" as const },
+  { href: "/testing", key: "testing" as const },
 ];
 
 export function SiteHeader() {

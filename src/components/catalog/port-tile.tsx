@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ExternalLink } from "lucide-react";
 import type { Port } from "@/lib/ports/schema";
 import { PlatformMark } from "@/components/platforms/platform-mark";
+import { TestBadge, type TestStatus } from "./test-badge";
 import { useT } from "@/lib/i18n/use-i18n";
 import { cn } from "@/lib/utils";
 
@@ -15,24 +16,30 @@ const STATUS_TONE: Record<Port["status"], string> = {
 
 export function PortTile({
   port,
-  tested,
+  testStatus,
 }: {
   port: Port;
-  tested: boolean;
+  testStatus?: TestStatus;
 }) {
   const t = useT();
   const [source] = port.sources;
 
   return (
     <article className="flex h-full flex-col gap-3 rounded-lg border border-border bg-surface p-4 transition-colors duration-150 hover:bg-surface-2">
-      <div className="flex h-14 items-center justify-center rounded-md border border-border bg-surface-2">
+      <Link
+        href={`/ports/${port.id}`}
+        className="flex h-14 items-center justify-center rounded-md border border-border bg-surface-2 transition-colors hover:border-accent-hover"
+        aria-label={port.title}
+      >
         <span className="text-2xl font-semibold tracking-tight text-muted">
           {port.game.charAt(0)}
         </span>
-      </div>
+      </Link>
 
       <div className="flex flex-1 flex-col gap-1">
-        <h3 className="text-base font-semibold leading-snug">{port.title}</h3>
+        <Link href={`/ports/${port.id}`} className="text-base font-semibold leading-snug hover:text-link">
+          {port.title}
+        </Link>
         <p className="text-sm text-muted">{port.game}</p>
       </div>
 
@@ -51,11 +58,7 @@ export function PortTile({
           >
             {t.catalog[`status${cap(port.status)}`]}
           </span>
-          {tested && (
-            <span className="rounded-full bg-[color-mix(in_oklab,var(--ok)_15%,transparent)] px-2 py-0.5 text-xs font-medium text-ok">
-              {t.catalog.tested}
-            </span>
-          )}
+          <TestBadge status={testStatus} />
         </div>
       </div>
 

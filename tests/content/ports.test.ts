@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getPorts, ports } from "@/lib/ports";
+import { getPorts, ports, originalSystemOf } from "@/lib/ports";
 import { todayIso, isBeforeOrOn } from "@/lib/dates";
 
 describe("catalog ports", () => {
@@ -44,6 +44,27 @@ describe("catalog ports", () => {
 
   it("covers at least one Android port per hardware target", () => {
     expect(ports.some((port) => port.platforms.includes("android"))).toBe(true);
+  });
+
+  it("annotates every port with its original system", () => {
+    for (const port of ports) {
+      expect(originalSystemOf(port.id), port.id).toBeTruthy();
+    }
+  });
+
+  it("keeps optional detail fields well-formed", () => {
+    for (const port of ports) {
+      for (const feature of port.features ?? []) {
+        expect(feature, port.id).toMatch(/^.{3,120}$/);
+      }
+      if (port.requirements?.minimum) {
+        expect(port.requirements.minimum, port.id).toMatch(/^.{2,200}$/);
+      }
+      for (const shot of port.screenshots ?? []) {
+        expect(shot.src, port.id).toMatch(/^https:\/\//);
+        expect(shot.credit, port.id).toMatch(/^.{2,80}$/);
+      }
+    }
   });
 });
 

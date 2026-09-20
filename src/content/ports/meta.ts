@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const originalSystemById: Record<Port["id"], string> = {
+  "sm64ex": "Nintendo 64",
+  "ship-of-harkinian": "Nintendo 64",
+  "2ship2harkinian": "Nintendo 64",
+  "star-rod": "Nintendo 64",
+  "open-lara": "PlayStation / Sega Saturn",
+  "devilutionx": "MS-DOS",
+  "nxengine-evo": "Microsoft Windows",
+  "daggerfall-unity": "MS-DOS",
+  "openmw": "Microsoft Windows",
+  "xash3d-fwgs": "Microsoft Windows",
+  "vkquake": "MS-DOS",
+  "yamagi-quake2": "Microsoft Windows",
+  "gzdoom": "MS-DOS",
+  "eduke32": "MS-DOS",
+  "openxcom": "MS-DOS / Amiga",
+  "openttd": "MS-DOS / Amiga",
+  "openrct2": "Microsoft Windows",
+  "fallout1-ce": "MS-DOS",
+  "fallout2-ce": "Microsoft Windows",
+  "openjk": "Microsoft Windows",
+  "gemrb": "Microsoft Windows / MS-DOS",
+};

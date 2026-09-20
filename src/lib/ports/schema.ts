@@ -51,6 +51,24 @@ const normalPort = z.object({
   verified: z.boolean(),
   verifiedAt: isoDate.optional(),
   notes: z.string().max(1000).optional(),
+  originalSystem: z.string().min(2).max(80).optional(),
+  features: z.array(z.string().min(3).max(120)).max(20).optional(),
+  requirements: z
+    .object({
+      minimum: z.string().min(2).max(200).optional(),
+      recommended: z.string().min(2).max(200).optional(),
+    })
+    .optional(),
+  screenshots: z
+    .array(
+      z.object({
+        src: httpsUrl,
+        alt: z.string().min(2).max(120),
+        credit: z.string().min(2).max(80),
+      }),
+    )
+    .max(12)
+    .optional(),
 });
 
 const takedownPort = z.object({
@@ -126,6 +144,10 @@ export type Port = {
   verified: boolean;
   verifiedAt?: string;
   notes?: string;
+  originalSystem?: string;
+  features?: string[];
+  requirements?: { minimum?: string; recommended?: string };
+  screenshots?: { src: string; alt: string; credit: string }[];
 };
 
 export type TakedownPort = {
