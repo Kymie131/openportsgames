@@ -3,10 +3,14 @@ import type { Metadata } from "next";
 import { CatalogPage } from "@/components/catalog/catalog-page";
 import { Container } from "@/components/layout/container";
 import { getPorts, getTestStatuses } from "@/lib/ports";
+import { pageMeta } from "@/lib/seo";
+import { dictionaries } from "@/lib/i18n/dictionaries";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "PC ports",
-};
+  description: dictionaries.en.catalog.subtitlePc,
+  path: "/pc",
+});
 
 export default function PcPage() {
   return (
