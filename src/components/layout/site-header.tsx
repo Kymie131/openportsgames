@@ -3,7 +3,8 @@
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X } from "lucide-react";
+import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
+import { ChevronDown, Menu, X } from "lucide-react";
 import { useT } from "@/lib/i18n/use-i18n";
 import { cn } from "@/lib/utils";
 import { Container } from "./container";
@@ -16,6 +17,14 @@ const NAV_ITEMS = [
   { href: "/pc", key: "pc" as const },
   { href: "/android", key: "android" as const },
   { href: "/testing", key: "testing" as const },
+];
+
+const MORE_ITEMS = [
+  { href: "/guides", key: "guides" as const },
+  { href: "/submit", key: "submit" as const },
+  { href: "/support", key: "support" as const },
+  { href: "/about", key: "about" as const },
+  { href: "/legal", key: "legal" as const },
 ];
 
 export function SiteHeader() {
@@ -47,6 +56,46 @@ export function SiteHeader() {
                 </Link>
               );
             })}
+            <DropdownMenu.Root>
+              <DropdownMenu.Trigger
+                asChild
+                className="rounded-md px-2.5 py-1.5 text-sm text-muted transition-colors duration-150 hover:bg-surface-2 hover:text-foreground outline-none data-[state=open]:bg-surface-2 data-[state=open]:text-foreground"
+              >
+                <button type="button" className="inline-flex items-center gap-1">
+                  {t.nav.more}
+                  <ChevronDown className="size-3.5" aria-hidden="true" />
+                </button>
+              </DropdownMenu.Trigger>
+              <DropdownMenu.Portal>
+                <DropdownMenu.Content
+                  align="end"
+                  sideOffset={6}
+                  className="z-50 min-w-40 rounded-md border border-border bg-background p-1 shadow-md"
+                >
+                  {MORE_ITEMS.map((item) => {
+                    const active = pathname === item.href;
+                    return (
+                      <DropdownMenu.Item
+                        key={item.href}
+                        asChild
+                        className="outline-none"
+                      >
+                        <Link
+                          href={item.href}
+                          aria-current={active ? "page" : undefined}
+                          className={cn(
+                            "rounded-sm px-2.5 py-1.5 text-sm text-muted transition-colors hover:bg-surface-2 hover:text-foreground",
+                            active && "text-foreground",
+                          )}
+                        >
+                          {t.nav[item.key]}
+                        </Link>
+                      </DropdownMenu.Item>
+                    );
+                  })}
+                </DropdownMenu.Content>
+              </DropdownMenu.Portal>
+            </DropdownMenu.Root>
           </nav>
         </div>
         <div className="flex items-center gap-2">
@@ -75,7 +124,7 @@ export function SiteHeader() {
           className="border-t border-border bg-background md:hidden"
         >
           <Container className="flex flex-col gap-1 py-2">
-            {NAV_ITEMS.map((item) => {
+            {[...NAV_ITEMS, ...MORE_ITEMS].map((item) => {
               const active = pathname === item.href;
               return (
                 <Link

@@ -1,0 +1,84 @@
+name: Propose a port
+description: Propose a native port to be added to the OpenPortsGames catalog.
+title: "Port proposal: "
+labels: [proposal]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Port title
+      description: The name used by the project itself.
+    validations:
+      required: true
+  - type: input
+    id: game
+    attributes:
+      label: Game
+      description: The original game the port recreates, and its publisher.
+    validations:
+      required: true
+  - type: dropdown
+    id: technique
+    attributes:
+      label: Technique
+      multiple: false
+      options:
+        - Decompilation
+        - Recompilation
+        - Reimplementation
+        - Source port
+    validations:
+      required: true
+  - type: dropdown
+    id: platforms
+    attributes:
+      label: Platforms
+      multiple: true
+      options:
+        - Windows
+        - Linux
+        - macOS
+        - Android
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      multiple: false
+      options:
+        - Stable
+        - Beta
+        - Alpha
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Latest version
+      description: e.g. 1.2.3, or "rolling" if the project has no tagged releases.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official source (repository or website)
+      description: Only official project sources are accepted; the project must be open source.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Requirements, how the original game files are obtained, confirmation that the project does not distribute game files.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Acceptance criteria
+      options:
+        - label: The project is open source and links to an official repository.
+          required: true
+        - label: The port does not distribute the original game's files.
+          required: true
+        - label: Platforms, status and version are explicit and verifiable.
+          required: true
