@@ -1,8 +1,7 @@
 import { Command } from "lucide-react";
 import type { ComponentType, SVGProps } from "react";
+import type { PlatformKey } from "@/lib/ports/schema";
 import { cn } from "@/lib/utils";
-
-export type PlatformKey = "windows" | "linux" | "macos" | "android";
 
 const strokeProps = {
   fill: "none",
