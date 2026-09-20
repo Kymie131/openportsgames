@@ -1,14 +1,9 @@
 import { NextResponse } from "next/server";
-import { getPorts, hardware, testRecordsValidated } from "@/lib/ports";
+import { buildCatalogJson } from "@/lib/ports/api-json";
+import { absoluteUrl } from "@/lib/site";
 
 export const dynamic = "force-static";
 
 export function GET() {
-  return NextResponse.json({
-    version: 1,
-    exportedAt: new Date().toISOString().slice(0, 10),
-    ports: getPorts(),
-    hardware,
-    tests: testRecordsValidated,
-  });
+  return NextResponse.json(buildCatalogJson(absoluteUrl("/")));
 }

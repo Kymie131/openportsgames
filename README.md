@@ -1,98 +1,97 @@
 # OpenPortsGames
 
-A curated, non-profit library of native game ports: decompilations, static
+A curated, non-profit catalog of **native game ports** — decompilations,
 recompilations and engine reimplementations for PC and Android. Each entry
-points to the official source of the project: repository, releases, Discord
-or the authors' website. Nothing is hosted or linked as a downloadable file.
+points to the official source of the project: repository, releases, website
+or documentation. **Nothing is hosted or linked as a downloadable file.**
 
-Built as a fully static site. No accounts, comments or database in this stage.
+Fully static site: no accounts, no comments, no database, no trackers.
 
-## Principio / Scope
-
-In English: this site catalogs native ports and does not distribute any
-copyrighted content. It has no affiliation with any game company. Game names
-are used only to identify the projects. See `LEGAL` pages and
-`docs/EDITORIAL_POLICY.md` for the full policy.
+- EN/ES interface · dark & light themes · WCAG-minded
+- [Roadmap](docs/ROADMAP.md) · [Design](docs/DESIGN.md)
 
 ## Tech stack
 
-- Next.js (App Router) with TypeScript in strict mode
-- Tailwind CSS v4
+- **Next.js 16** (App Router, TypeScript strict), **Tailwind CSS v4**
 - Fully static export (`output: "export"`), deployable on any static host
-- zod for content schemas, MiniSearch for client-side search
-- next-intl for English/Spanish localization
-- ESLint, Prettier, Vitest, Playwright
+- Custom client-side EN/ES i18n (no next-intl), `zod` for data schemas,
+  MiniSearch for client-side search, Radix UI primitives
+- Vitest (unit + content validation), Playwright (smoke E2E), ESLint/Prettier
 
 ## Requirements
 
-- Node.js LTS (>= 22)
-- npm
+- **Node.js ≥ 22** and npm
 
-## Quick start
+## Quick start (under 5 minutes)
 
 ```bash
-npm install
-npm run dev
+npm install        # Linux: npm install --omit=optional if glibc complains
+npm run dev        # http://localhost:3000
 ```
 
-Open http://localhost:3000.
+Useful commands:
 
-## Scripts
+| Script | What it does |
+| --- | --- |
+| `npm run dev` | Dev server on `http://localhost:3000` |
+| `npm run build` | Static export into `out/` |
+| `npm run lint` / `typecheck` | ESLint / `tsc --noEmit` |
+| `npm test` | All Vitest tests (unit + content) |
+| `npm run validate` | Catalog/hardware/test data validation only |
+| `npm run check:updates` | Report outdated versions (maintainers) |
+| `npx playwright test` | Smoke tests over the export (see below) |
 
-| Script              | Description                              |
-| ------------------- | ---------------------------------------- |
-| `npm run dev`       | Start the dev server                     |
-| `npm run build`     | Static export to `out/`                  |
-| `npm run lint`      | Run ESLint                               |
-| `npm run typecheck` | Type-check with `tsc --noEmit`           |
-| `npm run test`      | Run unit tests (Vitest)                  |
-| `npm run validate`  | Validate catalog, hardware and test data |
-| `npm run test:e2e`  | Run Playwright smoke tests               |
+### Smoke tests
 
-## Project structure
+```bash
+npm run build
+PLAYWRIGHT_CHANNEL=msedge npx playwright test   # replace msedge with your browser channel
+```
+
+## Repository layout
 
 ```
-content/            Catalog data (ports, hardware, tests)
-docs/               Architecture, data model, editorial policy, deployment
 src/
-  app/              App Router pages and routes
-  components/       UI components
-  lib/              Data layer and utilities
+  app/          Routes (server), incl. /api/ports.json and sitemap/robots
+  components/   Client UI (catalog, port detail, docs, header/footer, i18n, theme)
+  content/      Catalog data: ports/*.ts, hardware, tests, meta
+  lib/          Data layer (ports), i18n dictionaries, site/seo/date helpers
 tests/
-  unit/             Unit tests
-  content/          Data validation tests
-  e2e/              Playwright smoke tests
+  unit/         Vitest — utilities and data layer
+  content/      Vitest — data invariants enforced in CI
+  e2e/          Playwright smoke tests
+docs/           Architecture, data model, API, editorial policy, testing,
+                design, deployment, roadmap, pending verification
+scripts/        Latest-release checker, static-preview server
 ```
-
-The catalog data lives in `content/` as JSON files validated with zod. All
-data access goes through a single layer (`src/lib/ports`) so the JSON source
-can later be replaced by a database without touching components.
-
-## Localization
-
-English is the default. The interface and guides are also available in
-Spanish, with browser language detection and a manual EN/ES switcher.
 
 ## Environment variables
 
-Copy `.env.example` to `.env.local` and adjust. `NEXT_PUBLIC_SITE_URL` is
-required for metadata and `sitemap.xml`. `PAYPAL_DONATION_URL` enables the
-optional /support page link.
+Copy `.env.example` to `.env.local` (optional) and adjust:
 
-## Deployment
+| Variable | Purpose |
+| --- | --- |
+| `NEXT_PUBLIC_SITE_URL` | Canonicals, OG, sitemap, robots (no trailing slash) |
+| `NEXT_PUBLIC_BASE_PATH` | Subfolder deploy prefix (GitHub Pages) |
+| `NEXT_PUBLIC_SUPPORT_PAYPAL_URL` | Optional donation link on `/support` |
 
-Supported targets: Cloudflare Pages, Vercel, GitHub Pages. Instructions in
-`docs/DEPLOYMENT.md`.
+## Documentation
+
+- [Architecture](docs/ARCHITECTURE.md) · [Data model](docs/DATA_MODEL.md) · [API](docs/API.md)
+- [Editorial policy](docs/EDITORIAL_POLICY.md) · [Testing methodology](docs/TESTING_METHODOLOGY.md)
+- [Design](docs/DESIGN.md) · [Deployment](docs/DEPLOYMENT.md) · [Roadmap](docs/ROADMAP.md)
+- [Pending verification](docs/PENDING_VERIFICATION.md)
 
 ## Contributing
 
-See `CONTRIBUTING.md`. Issue templates cover proposing a port, adding a test,
-reporting a broken link and requesting a takedown.
+See [CONTRIBUTING.md](CONTRIBUTING.md). Issue templates cover proposing a
+port, reporting a test, reporting wrong data and requesting a takedown
+(the **Submit** page links to them).
 
 ## Licenses
 
-- Code: MIT License (`LICENSE`)
-- Catalog data: CC BY 4.0 (`LICENSE-DATA`)
+- Code: MIT — see `LICENSE`
+- Catalog data: CC BY 4.0 — see `LICENSE-DATA`
 
 Not affiliated with any video game company. Game trademarks belong to their
-respective owners and are used solely to identify the projects.
+owners and are used only to identify the projects.

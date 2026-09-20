@@ -1,25 +1,26 @@
-import { defineConfig, devices } from "@playwright/test";
+import { defineConfig } from "@playwright/test";
 
+/**
+ * Smoke tests run against the static export served locally.
+ * Browsers: use PLAYWRIGHT_CHANNEL (e.g. "msedge") since Playwright's own
+ * chromium is not installed by default; CI does not run these specs.
+ */
 export default defineConfig({
   testDir: "tests/e2e",
+  timeout: 30_000,
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
-  retries: process.env.CI ? 2 : 0,
-  reporter: process.env.CI ? "github" : "list",
+  retries: 0,
+  reporter: [["list"]],
   use: {
-    baseURL: process.env.E2E_BASE_URL ?? "http://localhost:3000",
-    trace: "on-first-retry",
+    baseURL: "http://localhost:4173",
+    channel: process.env.PLAYWRIGHT_CHANNEL || undefined,
+    screenshot: "only-on-failure",
   },
   webServer: {
-    command: "npm run build && npm run start",
-    url: "http://localhost:3000",
-    reuseExistingServer: !process.env.CI,
+    command: "npm run build && node scripts/serve-static.mjs",
+    url: "http://localhost:4173",
+    reuseExistingServer: false,
     timeout: 240_000,
   },
-  projects: [
-    {
-      name: "chromium",
-      use: { ...devices["Desktop Chrome"] },
-    },
-  ],
 });
