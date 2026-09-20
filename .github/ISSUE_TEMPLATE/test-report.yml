@@ -1,0 +1,58 @@
+name: Report a test
+description: Report a test run on the public hardware profiles, by the tester that ran it.
+title: "Test report: "
+labels: [test]
+body:
+  - type: input
+    id: port
+    attributes:
+      label: Port
+      description: The id of the port tested (from its catalog entry).
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version tested
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: Result
+      multiple: false
+      options:
+        - Pass
+        - Fail
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Hardware profile
+      description: The public hardware profile used (listed in the Testing page).
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Test date
+      description: YYYY-MM-DD
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Settings, resolution, crashes or issues observed.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Rules
+      options:
+        - label: I am the tester that ran this test.
+          required: true
+        - label: The test ran on a declared public hardware profile.
+          required: true
+        - label: The result and version are recorded as observed.
+          required: true

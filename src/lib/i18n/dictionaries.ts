@@ -6,6 +6,12 @@ const en = {
     mainNav: "Main",
     openMenu: "Open menu",
     closeMenu: "Close menu",
+    notFound: {
+      title: "Page not found",
+      body: "The address may have changed or the link may be wrong. You can keep browsing the catalog from here.",
+      backToCatalog: "Browse the catalog",
+      backToHome: "Back to home",
+    },
   },
   theme: {
     switchToDark: "Switch to dark theme",
@@ -22,6 +28,12 @@ const en = {
     pc: "PC",
     android: "Android",
     testing: "Testing",
+    more: "More",
+    guides: "Guides",
+    submit: "Submit",
+    support: "Support",
+    about: "About",
+    legal: "Legal",
   },
   platforms: {
     windows: "Windows",
@@ -125,6 +137,156 @@ const en = {
     licenses: "Code is MIT licensed. Catalog data is CC BY 4.0.",
     notAffiliated: "Not affiliated with any video game company.",
     editOnGitHub: "Edit this page on GitHub",
+    groups: {
+      catalog: "Catalog",
+      project: "Project",
+      site: "Site",
+    },
+  },
+  guides: {
+    title: "Guides",
+    subtitle:
+      "What a native port is, how the different techniques work and how to use them legally.",
+    whatTitle: "What is a native port?",
+    what: [
+      "A native port is a modern re-release of a classic game that runs on current platforms such as PC, Linux, macOS or Android without emulators or compatibility layers.",
+      "Most of the projects in this catalog are community efforts. They are built from scratch by studying how the original game works, and they are published as open source.",
+      "The game's own assets (music, levels, sound) are not distributed by these projects: they are read from a copy of the original game that you own.",
+    ],
+    techniquesTitle: "How ports are made",
+    techniquesIntro:
+      "Each technique describes how the project recreates the original game. The one used by every port is listed on its detail page.",
+    techniques: {
+      decompilation:
+        "The project's code is written from scratch to reproduce the original game's behavior, compiled as a native binary. Requires high-quality original code reconstruction — in practice, results are extremely faithful. Examples in the catalog include Zelda titles, Doom and Fallout.",
+      recompilation:
+        "The original machine code is converted automatically into portable C code that is then compiled natively. It is faster to produce and equally faithful, at the cost of being harder to read. A Super Mario 64 recompilation is in the catalog.",
+      reimplementation:
+        "A new engine is written in order to recreate a game or a family of games in a modern way. Projects gain flexibility (new platforms, improved rendering) but faithfulness depends on each asset or behaviour reimplemented.",
+      "source-port":
+        "An engine released by its original developer is updated so it keeps running on modern systems, taking advantage of them. It is the classic path for games whose source code was officially released.",
+    },
+    techniquesNote:
+      "You can browse the catalog by technique from each port's detail page; the technique is always shown in the overview.",
+    copyTitle: "Getting your own copy, legally",
+    copy: [
+      "No project in this catalog distributes the original game files, and this site does not link to downloads of any kind. To play any port you must own the original game.",
+      "The usual and perfectly legal option is to extract the game data from a cartridge, disc or digital copy that you own, using the tools documented by each project. Some games are also sold again officially by their publisher, which is the easiest route.",
+      "Never download third-party bundles: besides being illegal, they are a common way to spread malware. Only official sources — the ones linked here — should be used.",
+    ],
+    faqTitle: "Frequently asked questions",
+    faq: [
+      {
+        q: "Is a native port the same as an emulator?",
+        a: "No. An emulator simulates the original console and runs the original program. A native port runs natively on the target platform, without the console in the middle.",
+      },
+      {
+        q: "Do I need to download files here?",
+        a: "No. OpenPortsGames is a catalog: it only links to the official project sources. No downloads, images or ROMs are hosted.",
+      },
+      {
+        q: "Why do I see a legal notice on some ports?",
+        a: "A few projects have been paused or removed by their authors due to legal action. We mark them as removed and no longer link to them.",
+      },
+      {
+        q: "Is there anything for Android?",
+        a: "Yes. Android is one of the catalog's platforms; some projects ship official Android builds, and they are tagged in the catalog.",
+      },
+    ],
+  },
+  submit: {
+    title: "Submit",
+    subtitle: "How to propose a port or a test, and what the catalog accepts.",
+    proposeTitle: "Propose a port",
+    proposeIntro:
+      "Anyone can propose a port or report a test through GitHub issue templates. Issues are public: their discussion is the review process.",
+    stepsTitle: "How it works",
+    series: [
+      "Open the template for the proposal from the links below.",
+      "Fill in the fields: they are the acceptance criteria, so an incomplete proposal is easier to reject.",
+      "Maintainers answer in the issue; once accepted, the port or test is published from the data the issue collects.",
+    ],
+    templatesTitle: "Templates",
+    portTemplateLabel: "Propose a port",
+    portTemplateDesc: "For projects that meet the acceptance criteria and that we can verify.",
+    testTemplateLabel: "Report a test",
+    testTemplateDesc: "For tests run on the public hardware profiles by declared testers.",
+    openTemplate: "Open template",
+    criteriaTitle: "Acceptance criteria",
+    criteria: [
+      "The project is open source and its source links to an official repository.",
+      "The port does not distribute the original game's files.",
+      "Platforms, status and version are explicit and verifiable in the proposal.",
+      "A test can only be proposed by the tester that ran it, on a declared hardware profile.",
+    ],
+    reviewTitle: "After the review",
+    review: [
+      "Approved proposals are added to the catalog. If new data contradicts an entry, it is corrected or removed. Every change is public in this repository's history.",
+    ],
+  },
+  support: {
+    title: "Support",
+    subtitle: "OpenPortsGames is a non-profit project. No accounts, no pressure.",
+    donationTitle: "Optional donation",
+    donationIntro:
+      "This project has no income, employees or ads. If you want to support it, the most useful help is voluntary and occasional.",
+    donate: "Donate with PayPal",
+    donationSetup:
+      "PayPal support will be available soon. In the meantime, the most valuable help is the non-monetary one below.",
+    noPressure: "There is no pressure to give: this catalog is available to everyone either way.",
+    otherTitle: "Help without money",
+    series: [
+      "Report broken links or wrong data using the report link on each port page.",
+      "Propose ports you know are missing, following the submit guide.",
+      "Run tests on the public hardware profiles and report them as test issues.",
+    ],
+  },
+  about: {
+    title: "About",
+    subtitle: "Why this catalog exists, what it believes in and who maintains it.",
+    missionTitle: "A public catalog of native ports",
+    mission: [
+      "OpenPortsGames is a small, independent catalog that documents modern native ports of classic games, so that everyone can discover them and find their official source.",
+      "It is built like software: the catalog is data, the site is public, and any correction goes through an open review.",
+    ],
+    principlesTitle: "How we work",
+    principles: [
+      "Only official sources. No downloads, images or ROMs hosted, and no links to bundles.",
+      "Evidence over claims: no port is marked as tested without a registered test, and no 'official' status is assumed.",
+      "Honest about removals: projects removed by legal action are marked and unlinked, not hidden.",
+    ],
+    dataTitle: "The catalog as data",
+    data: [
+      "Every port is a file in this repository, validated automatically before publishing.",
+      "The dataset is available under CC BY 4.0 and the site's code under MIT.",
+    ],
+    teamTitle: "Team",
+    team: [
+      "The catalog was started and is maintained by Kymie131. Participation is public: tests, proposals and fixes go through this repository.",
+    ],
+  },
+  legal: {
+    title: "Legal",
+    subtitle: "Disclaimer, takedown policy and privacy policy.",
+    disclaimerTitle: "Disclaimer",
+    disclaimer: [
+      "OpenPortsGames is a non-profit informational catalog. It is not affiliated with, endorsed by or connected to any of the companies that own the games listed.",
+      "Game names and trademarks belong to their respective owners, and are used only to identify and catalogue the ports.",
+      "The ports are authored by their respective communities. This site does not distribute game files, patches, ROMs or ISOs, and cannot be held responsible for their contents.",
+    ],
+    takedownTitle: "Takedown policy",
+    takedown: [
+      "If you hold rights over a work listed here and want it removed, open a takedown issue in the repository or use the report link of the affected port page.",
+      "Valid and documented requests are applied quickly: the entry is marked as removed, unlinked and excluded from the catalog.",
+    ],
+    privacyTitle: "Privacy policy",
+    privacy: [
+      "OpenPortsGames is a static site. It has no accounts, no comments, no database and no analytics or advertising trackers.",
+      "Preferences (language and theme) are stored only in your browser's local storage and never leave your device.",
+      "External links (official project sources, PayPal) open on their own websites, which have their own privacy policies.",
+    ],
+    contactTitle: "Contact",
+    contactBody: "Report issues and questions via this repository's issues section.",
   },
 };
 
@@ -136,6 +298,12 @@ const es: Messages = {
     mainNav: "Principal",
     openMenu: "Abrir menú",
     closeMenu: "Cerrar menú",
+    notFound: {
+      title: "Página no encontrada",
+      body: "La dirección puede haber cambiado o el enlace puede ser incorrecto. Puedes seguir navegando el catálogo desde aquí.",
+      backToCatalog: "Explorar el catálogo",
+      backToHome: "Volver al inicio",
+    },
   },
   theme: {
     switchToDark: "Cambiar a tema oscuro",
@@ -152,6 +320,12 @@ const es: Messages = {
     pc: "PC",
     android: "Android",
     testing: "Pruebas",
+    more: "Más",
+    guides: "Guías",
+    submit: "Enviar",
+    support: "Apoyo",
+    about: "Acerca de",
+    legal: "Legal",
   },
   platforms: {
     windows: "Windows",
@@ -255,6 +429,156 @@ const es: Messages = {
     licenses: "Código bajo licencia MIT. Datos del catálogo bajo CC BY 4.0.",
     notAffiliated: "Sin afiliación con ninguna compañía de videojuegos.",
     editOnGitHub: "Editar esta página en GitHub",
+    groups: {
+      catalog: "Catálogo",
+      project: "Proyecto",
+      site: "Sitio",
+    },
+  },
+  guides: {
+    title: "Guías",
+    subtitle:
+      "Qué es un port nativo, cómo funcionan las distintas técnicas y cómo usarlo todo de forma legal.",
+    whatTitle: "¿Qué es un port nativo?",
+    what: [
+      "Un port nativo es una reedición moderna de un juego clásico que funciona en plataformas actuales como PC, Linux, macOS o Android, sin emuladores ni capas de compatibilidad.",
+      "La mayoría de los proyectos del catálogo son esfuerzos de la comunidad: se construyen desde cero estudiando cómo funciona el juego original y se publican como código abierto.",
+      "Los proyectos no distribuyen los recursos del juego (música, niveles, sonido): se leen de una copia del juego original que tú posees.",
+    ],
+    techniquesTitle: "Cómo se hacen los ports",
+    techniquesIntro:
+      "Cada técnica describe cómo el proyecto recrea el juego original. La que usa cada port figura siempre en su página de detalle.",
+    techniques: {
+      decompilation:
+        "El código del proyecto se escribe desde cero para reproducir el comportamiento del juego original y se compila como binario nativo. Exige reconstruir código original de alta calidad; en la práctica los resultados son extremadamente fieles. En el catálogo hay ejemplos como Zelda, Doom y Fallout.",
+      recompilation:
+        "El código máquina original se convierte automáticamente en código C portable que luego se compila de forma nativa. Es más rápido de producir e igualmente fiel, a costa de ser más difícil de leer. En el catálogo hay una recompilación de Super Mario 64.",
+      reimplementation:
+        "Se escribe un motor nuevo para recrear un juego o una familia de juegos de forma moderna. Los proyectos ganan flexibilidad (nuevas plataformas, renderizado mejorado), pero la fidelidad depende de cada recurso o comportamiento reimplementado.",
+      "source-port":
+        "Un motor liberado por su desarrollador original se actualiza para que siga funcionando en sistemas modernos aprovechándolos. Es la vía clásica para los juegos cuyo código fuente se publicó oficialmente.",
+    },
+    techniquesNote:
+      "Puedes explorar el catálogo por técnica: siempre se indica en la página de detalle de cada port.",
+    copyTitle: "Conseguir tu propia copia, de forma legal",
+    copy: [
+      "Ningún proyecto del catálogo distribuye los archivos del juego original, y este sitio no enlaza a descargas de ningún tipo. Para jugar a cualquier port debes poseer el juego original.",
+      "La opción habitual y perfectamente legal es extraer los datos del juego de un cartucho, disco o copia digital que poseas, con las herramientas que documenta cada proyecto. Algunos juegos también se venden de nuevo oficialmente por su editor, que es la vía más sencilla.",
+      "Nunca descargues paquetes de terceros: además de ser ilegal, son un canal habitual de malware. Usa solo fuentes oficiales — las que se enlazan aquí.",
+    ],
+    faqTitle: "Preguntas frecuentes",
+    faq: [
+      {
+        q: "¿Un port nativo es lo mismo que un emulador?",
+        a: "No. Un emulador simula la consola original y ejecuta el programa original. Un port nativo se ejecuta directamente en la plataforma de destino, sin la consola en el medio.",
+      },
+      {
+        q: "¿Tengo que descargar archivos desde aquí?",
+        a: "No. OpenPortsGames es un catálogo: solo enlaza a las fuentes oficiales de los proyectos. No se alojan descargas, imágenes ni ROMs.",
+      },
+      {
+        q: "¿Por qué veo un aviso legal en algunos ports?",
+        a: "Algunos proyectos han sido pausados o retirados por sus autores por acción legal. Los marcamos como retirados y dejamos de enlazarlos.",
+      },
+      {
+        q: "¿Hay algo para Android?",
+        a: "Sí. Android es una de las plataformas del catálogo; algunos proyectos publican compilaciones oficiales para Android y así figuran en el catálogo.",
+      },
+    ],
+  },
+  submit: {
+    title: "Enviar",
+    subtitle: "Cómo proponer un port o una prueba, y qué acepta el catálogo.",
+    proposeTitle: "Proponer un port",
+    proposeIntro:
+      "Cualquiera puede proponer un port o reportar una prueba mediante las plantillas de issue de GitHub. Las issues son públicas: su discusión es el proceso de revisión.",
+    stepsTitle: "Cómo funciona",
+    series: [
+      "Abre la plantilla para la propuesta desde los enlaces de abajo.",
+      "Completa los campos: son los criterios de aceptación, así que una propuesta incompleta es más fácil de rechazar.",
+      "Los mantenedores responden en la issue; al aceptarse, el port o la prueba se publican a partir de los datos que la issue recoge.",
+    ],
+    templatesTitle: "Plantillas",
+    portTemplateLabel: "Proponer un port",
+    portTemplateDesc: "Para proyectos que cumplan los criterios de aceptación y que podamos verificar.",
+    testTemplateLabel: "Reportar una prueba",
+    testTemplateDesc: "Para pruebas realizadas en los perfiles de hardware públicos por probadores declarados.",
+    openTemplate: "Abrir plantilla",
+    criteriaTitle: "Criterios de aceptación",
+    criteria: [
+      "El proyecto es de código abierto y su código enlaza a un repositorio oficial.",
+      "El port no distribuye los archivos del juego original.",
+      "Plataformas, estado y versión son explícitos y verificables en la propuesta.",
+      "Una prueba solo puede proponerla el probador que la realizó, sobre un perfil de hardware declarado.",
+    ],
+    reviewTitle: "Después de la revisión",
+    review: [
+      "Las propuestas aprobadas se añaden al catálogo. Si nuevos datos contradicen una entrada, se corrige o se retira. Cada cambio es público en el historial de este repositorio.",
+    ],
+  },
+  support: {
+    title: "Apoyo",
+    subtitle: "OpenPortsGames es un proyecto sin fines de lucro. Sin cuentas, sin presión.",
+    donationTitle: "Donación opcional",
+    donationIntro:
+      "Este proyecto no tiene ingresos, empleados ni publicidad. Si quieres apoyarlo, la ayuda más útil es voluntaria y ocasional.",
+    donate: "Donar con PayPal",
+    donationSetup:
+      "El apoyo por PayPal estará disponible pronto. Mientras tanto, la ayuda más valiosa es la que no implica dinero.",
+    noPressure: "No hay ninguna presión para aportar: este catálogo está disponible para todos de todas formas.",
+    otherTitle: "Ayudar sin dinero",
+    series: [
+      "Reporta enlaces rotos o datos incorrectos con el enlace de reporte de cada página de port.",
+      "Propón ports que falten, siguiendo la guía de envío.",
+      "Ejecuta pruebas en los perfiles de hardware públicos y repórtalas como issues de prueba.",
+    ],
+  },
+  about: {
+    title: "Acerca de",
+    subtitle: "Por qué existe este catálogo, qué defiende y quién lo mantiene.",
+    missionTitle: "Un catálogo público de ports nativos",
+    mission: [
+      "OpenPortsGames es un catálogo pequeño e independiente que documenta los ports nativos modernos de juegos clásicos, para que cualquiera pueda descubrirlos y encontrar su fuente oficial.",
+      "Se construye como software: el catálogo son datos, el sitio es público y cualquier corrección pasa por una revisión abierta.",
+    ],
+    principlesTitle: "Cómo trabajamos",
+    principles: [
+      "Solo fuentes oficiales. No se alojan descargas, imágenes ni ROMs, ni se enlazan paquetes.",
+      "Evidencia antes que afirmaciones: ningún port se marca como probado sin una prueba registrada, y no se asume ningún estado 'oficial'.",
+      "Honestos ante las retiradas: los proyectos retirados por acción legal se marcan y se desenlazan, no se ocultan.",
+    ],
+    dataTitle: "El catálogo como datos",
+    data: [
+      "Cada port es un archivo de este repositorio, validado automáticamente antes de publicarse.",
+      "El conjunto de datos está disponible bajo CC BY 4.0 y el código del sitio bajo MIT.",
+    ],
+    teamTitle: "Equipo",
+    team: [
+      "El catálogo fue iniciado y es mantenido por Kymie131. La participación es pública: pruebas, propuestas y correcciones pasan por este repositorio.",
+    ],
+  },
+  legal: {
+    title: "Legal",
+    subtitle: "Aviso legal, política de retirada y política de privacidad.",
+    disclaimerTitle: "Aviso legal",
+    disclaimer: [
+      "OpenPortsGames es un catálogo informativo sin fines de lucro. No está afiliado, respaldado ni conectado con ninguna de las compañías propietarias de los juegos listados.",
+      "Los nombres de juegos y marcas pertenecen a sus respectivos dueños y se usan solo para identificar y catalogar los ports.",
+      "Los ports son obra de sus respectivas comunidades. Este sitio no distribuye archivos de juego, parches, ROMs ni ISOs, y no puede responsabilizarse de su contenido.",
+    ],
+    takedownTitle: "Política de retirada",
+    takedown: [
+      "Si tienes derechos sobre una obra listada aquí y quieres que se retire, abre una issue de retirada en el repositorio o usa el enlace de reporte de la página del port afectado.",
+      "Las solicitudes válidas y documentadas se aplican con rapidez: la entrada se marca como retirada, se desenlaza y queda excluida del catálogo.",
+    ],
+    privacyTitle: "Política de privacidad",
+    privacy: [
+      "OpenPortsGames es un sitio estático. No tiene cuentas, comentarios, base de datos ni rastreadores de analítica o publicidad.",
+      "Las preferencias (idioma y tema) se guardan solo en el almacenamiento local de tu navegador y nunca salen de tu dispositivo.",
+      "Los enlaces externos (fuentes oficiales, PayPal) se abren en sus propios sitios, que tienen sus propias políticas de privacidad.",
+    ],
+    contactTitle: "Contacto",
+    contactBody: "Reporta incidencias y dudas a través de la sección de issues de este repositorio.",
   },
 };
 
