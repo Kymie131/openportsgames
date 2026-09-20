@@ -7,11 +7,11 @@ import { useT } from "@/lib/i18n/use-i18n";
 
 export function CatalogPage({
   ports,
-  testedIds,
+  testStatuses,
   scope,
 }: {
   ports: Port[];
-  testedIds: string[];
+  testStatuses: Record<string, "current" | "stale">;
   scope: CatalogScope;
 }) {
   const t = useT();
@@ -25,7 +25,7 @@ export function CatalogPage({
         <h1 className="text-2xl font-semibold tracking-tight">{title}</h1>
         <p className="text-sm text-muted">{subtitle}</p>
       </header>
-      <CatalogClient ports={ports} testedIds={testedIds} scope={scope} />
+      <CatalogClient ports={ports} testStatuses={testStatuses} scope={scope} />
     </div>
   );
 }

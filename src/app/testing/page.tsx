@@ -1,19 +1,19 @@
 import { Suspense } from "react";
 import type { Metadata } from "next";
-import { CatalogPage } from "@/components/catalog/catalog-page";
+import { TestingPage } from "@/components/testing/testing-page";
 import { Container } from "@/components/layout/container";
-import { getPorts, getTestStatuses } from "@/lib/ports";
+import { hardware } from "@/lib/ports";
 
 export const metadata: Metadata = {
-  title: "Catalog",
+  title: "Testing",
 };
 
-export default function PortsPage() {
+export default function TestingRoute() {
   return (
     <section className="py-8">
-      <Container>
+      <Container className="max-w-3xl">
         <Suspense>
-          <CatalogPage ports={getPorts()} testStatuses={getTestStatuses()} scope="all" />
+          <TestingPage hardware={hardware} />
         </Suspense>
       </Container>
     </section>

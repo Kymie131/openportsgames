@@ -59,11 +59,11 @@ function toParams(state: CatalogState): URLSearchParams {
 
 export function CatalogClient({
   ports,
-  testedIds,
+  testStatuses,
   scope,
 }: {
   ports: Port[];
-  testedIds: string[];
+  testStatuses: Record<string, "current" | "stale">;
   scope: CatalogScope;
 }) {
   const t = useT();
@@ -211,7 +211,7 @@ export function CatalogClient({
         <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {results.map((port) => (
             <li key={port.id}>
-              <PortTile port={port} tested={testedIds.includes(port.id)} />
+              <PortTile port={port} testStatus={testStatuses[port.id]} />
             </li>
           ))}
         </ul>
