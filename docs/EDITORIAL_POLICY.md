@@ -7,7 +7,9 @@ validation and partly by human review. The public-facing **Submit** page
 ## Core rules
 
 1. **Official sources only.** Every `sources`/`website`/`docs` link must be
-   the project's official repository, releases, documentation or website.
+   the project's official repository, releases, documentation or website; an
+   optional `discord` link must point to the project's official community
+   server.
    The site hosts no files and links to no downloads, ROMs or bundles.
 2. **Open source.** A port is listed only if its project is open source and
    its official repository is verifiable.

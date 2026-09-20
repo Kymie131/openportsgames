@@ -43,6 +43,7 @@ const normalPort = z.object({
   sources: z.array(httpsUrl).min(1),
   website: httpsUrl.optional(),
   docs: httpsUrl.optional(),
+  discord: httpsUrl.optional(),
   license: z.object({
     spdx: z.string().regex(LICENSE_SPDX),
     note: z.string().max(120).optional(),
@@ -139,6 +140,7 @@ export type Port = {
   sources: string[];
   website?: string;
   docs?: string;
+  discord?: string;
   license: { spdx: string; note?: string };
   aiDisclosure: boolean;
   verified: boolean;

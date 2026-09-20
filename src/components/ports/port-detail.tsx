@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowLeft, CircleAlert, CircleCheck, ExternalLink, FileText, Globe } from "lucide-react";
+import { ArrowLeft, CircleAlert, CircleCheck, ExternalLink, FileText, Globe, MessageCircle } from "lucide-react";
 import type { HardwareProfile, Port, TestRecord } from "@/lib/ports/schema";
 import type { TestStatus } from "@/components/catalog/test-badge";
 import { TestBadge } from "@/components/catalog/test-badge";
@@ -169,6 +169,19 @@ export function PortDetail({
               >
                 <Globe className="size-4" aria-hidden="true" />
                 {t.detail.website}
+              </a>
+            </li>
+          )}
+          {port.discord && (
+            <li>
+              <a
+                href={port.discord}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-link transition-colors hover:text-link-hover"
+              >
+                <MessageCircle className="size-4" aria-hidden="true" />
+                {t.detail.discord}
               </a>
             </li>
           )}

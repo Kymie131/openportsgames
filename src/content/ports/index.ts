@@ -20,6 +20,11 @@ import { fallout1Ce } from "./fallout1-ce";
 import { fallout2Ce } from "./fallout2-ce";
 import { openJk } from "./openjk";
 import { gemrb } from "./gemrb";
+import { sonic12 } from "./sonic-1-2-2013";
+import { sonicMania } from "./sonic-mania-decomp";
+import { downpourRecomp } from "./downpour-recomp";
+import { wiiCompiled } from "./wiicompiled";
+import { openra } from "./openra";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -43,4 +48,9 @@ export const portCases: Port[] = [
   fallout2Ce,
   openJk,
   gemrb,
+  sonic12,
+  sonicMania,
+  downpourRecomp,
+  wiiCompiled,
+  openra,
 ];

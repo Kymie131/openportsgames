@@ -27,6 +27,7 @@ the same file every consumer reads is the one validated in CI.
       "sources": ["https://github.com/HarbourMasters/2ship2harkinian"],
       "website": "…",
       "docs": "…",
+      "discord": "…",      // optional, official community server
       "license": { "spdx": "CC0-1.0" },
       "aiDisclosure": false,
       "verified": true,
@@ -47,7 +48,7 @@ the same file every consumer reads is the one validated in CI.
 Notes:
 
 - `ports` excludes `takedown` entries.
-- `sources`, `website`, `docs` are always `https:` official links.
+- `sources`, `website`, `docs`, `discord` are always `https:` official links.
 - `release.version` is nullable and `release.date` nullable; content
   invariants are documented in `docs/DATA_MODEL.md`.
 

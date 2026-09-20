@@ -13,6 +13,7 @@ export const xash3d: Port = {
   status: "stable",
   release: { version: null, date: null },
   sources: ["https://github.com/FWGS/xash3d-fwgs"],
+  discord: "https://xash.su/discord/",
   license: {
     spdx: "NOASSERTION",
     note: "no SPDX license file in the repository",
