@@ -2,11 +2,23 @@ import { portCases } from "@/content/ports";
 import { originalSystemById } from "@/content/ports/meta";
 import { hardwareProfiles } from "@/content/hardware";
 import { testRecords } from "@/content/tests";
-import { hardwareSchema, portSchema, testRecordSchema, type HardwareProfile, type Port, type TestRecord } from "./schema";
+import {
+  hardwareSchema,
+  portSchema,
+  testRecordSchema,
+  type HardwareProfile,
+  type Port,
+  type TakedownPort,
+  type TestRecord,
+} from "./schema";
 
 export const ports: Port[] = portCases.flatMap((raw) => {
   const parsed = portSchema.parse(raw);
   return parsed.status === "takedown" ? [] : [parsed];
+});
+export const takedownPorts: TakedownPort[] = portCases.flatMap((raw) => {
+  const parsed = portSchema.parse(raw);
+  return parsed.status === "takedown" ? [parsed] : [];
 });
 export const hardware = hardwareProfiles.map((raw) => hardwareSchema.parse(raw));
 export const testRecordsValidated: TestRecord[] = testRecords.map((raw) =>
@@ -14,6 +26,7 @@ export const testRecordsValidated: TestRecord[] = testRecords.map((raw) =>
 );
 
 const byId = new Map(ports.map((port) => [port.id, port]));
+const takedownById = new Map(takedownPorts.map((port) => [port.id, port]));
 const testByPort = new Map<string, TestRecord[]>();
 for (const test of testRecordsValidated) {
   const list = testByPort.get(test.portId) ?? [];
@@ -31,6 +44,14 @@ export function getPorts(): Port[] {
 
 export function getPort(id: string): Port | undefined {
   return byId.get(id);
+}
+
+export function getTakedownPort(id: string): TakedownPort | undefined {
+  return takedownById.get(id);
+}
+
+export function getPortIdSet(): Set<string> {
+  return new Set([...byId.keys(), ...takedownById.keys()]);
 }
 
 export function getTestedPortIds(): Set<string> {

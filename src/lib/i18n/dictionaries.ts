@@ -45,8 +45,7 @@ const en = {
   },
   catalog: {
     title: "Catalog",
-    subtitle:
-      "Browse native ports: decompilations, recompilations and engine reimplementations.",
+    subtitle: "Browse native ports: decompilations, recompilations and engine reimplementations.",
     subtitlePc: "Native ports for PC: Windows, Linux and macOS.",
     subtitleAndroid: "Native ports compiled for Android.",
     searchPlaceholder: "Search by port, game or developer…",
@@ -94,7 +93,9 @@ const en = {
     of: "of",
     labels: { one: "port", other: "ports" },
     empty: "No ports match the current filters.",
+    emptyHelp: "Try removing a filter or searching for a different name.",
     clearFilters: "Clear filters",
+    loading: "Loading",
     tested: "Tested",
     testedOlder: "Tested · older version",
     version: "Version",
@@ -307,6 +308,10 @@ const en = {
       "If you hold rights over a work listed here and want it removed, open a takedown issue in the repository or use the report link of the affected port page.",
       "Valid and documented requests are applied quickly: the entry is marked as removed, unlinked and excluded from the catalog.",
     ],
+    takedownNoticeTitle: "Port removed",
+    takedownNoticeAbout: "This entry was removed at the request of the rights holder.",
+    takedownNoticeContact: "If you hold rights over this work, see the takedown policy.",
+    takedownNoticeBack: "Back to the catalog",
     privacyTitle: "Privacy policy",
     privacy: [
       "OpenPortsGames is a static site. It has no accounts, no comments, no database and no analytics or advertising trackers.",
@@ -414,7 +419,9 @@ const es: Messages = {
     of: "de",
     labels: { one: "port", other: "ports" },
     empty: "Ningún port coincide con los filtros actuales.",
+    emptyHelp: "Prueba a quitar algún filtro o busca con otro nombre.",
     clearFilters: "Limpiar filtros",
+    loading: "Cargando",
     tested: "Probado",
     testedOlder: "Probado · versión anterior",
     version: "Versión",
@@ -556,9 +563,11 @@ const es: Messages = {
     ],
     templatesTitle: "Plantillas",
     portTemplateLabel: "Proponer un port",
-    portTemplateDesc: "Para proyectos que cumplan los criterios de aceptación y que podamos verificar.",
+    portTemplateDesc:
+      "Para proyectos que cumplan los criterios de aceptación y que podamos verificar.",
     testTemplateLabel: "Reportar una prueba",
-    testTemplateDesc: "Para pruebas realizadas en los perfiles de hardware públicos por probadores declarados.",
+    testTemplateDesc:
+      "Para pruebas realizadas en los perfiles de hardware públicos por probadores declarados.",
     openTemplate: "Abrir plantilla",
     criteriaTitle: "Criterios de aceptación",
     criteria: [
@@ -581,7 +590,8 @@ const es: Messages = {
     donate: "Donar con PayPal",
     donationSetup:
       "El apoyo por PayPal estará disponible pronto. Mientras tanto, la ayuda más valiosa es la que no implica dinero.",
-    noPressure: "No hay ninguna presión para aportar: este catálogo está disponible para todos de todas formas.",
+    noPressure:
+      "No hay ninguna presión para aportar: este catálogo está disponible para todos de todas formas.",
     otherTitle: "Ayudar sin dinero",
     series: [
       "Reporta enlaces rotos o datos incorrectos con el enlace de reporte de cada página de port.",
@@ -624,9 +634,13 @@ const es: Messages = {
     ],
     takedownTitle: "Política de retirada",
     takedown: [
-      "Si tienes derechos sobre una obra listada aquí y quieres que se retire, abre una issue de retirada en el repositorio o usa el enlace de reporte de la página del port afectado.",
-      "Las solicitudes válidas y documentadas se aplican con rapidez: la entrada se marca como retirada, se desenlaza y queda excluida del catálogo.",
+      "Si tienes derechos sobre una obra listada aquí y quieres que se retire, abre un issue de retirada en el repositorio o usa el enlace de reporte de la página del port afectado.",
+      "Las solicitudes válidas y documentadas se aplican rápido: la entrada se marca como retirada, se desvincula y se excluye del catálogo.",
     ],
+    takedownNoticeTitle: "Port retirado",
+    takedownNoticeAbout: "Esta entrada fue retirada a petición del titular de los derechos.",
+    takedownNoticeContact: "Si tienes derechos sobre esta obra, consulta la política de retirada.",
+    takedownNoticeBack: "Volver al catálogo",
     privacyTitle: "Política de privacidad",
     privacy: [
       "OpenPortsGames es un sitio estático. No tiene cuentas, comentarios, base de datos ni rastreadores de analítica o publicidad.",
@@ -634,7 +648,8 @@ const es: Messages = {
       "Los enlaces externos (fuentes oficiales, PayPal) se abren en sus propios sitios, que tienen sus propias políticas de privacidad.",
     ],
     contactTitle: "Contacto",
-    contactBody: "Reporta incidencias y dudas a través de la sección de issues de este repositorio.",
+    contactBody:
+      "Reporta incidencias y dudas a través de la sección de issues de este repositorio.",
   },
 };
 
