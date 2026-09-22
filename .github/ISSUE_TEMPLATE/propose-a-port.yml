@@ -54,6 +54,16 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: openSource
+    attributes:
+      label: Code availability
+      description: Is the port's code open source?
+      options:
+        - open source
+        - closed source
+    validations:
+      required: true
+  - type: dropdown
     id: platforms
     attributes:
       label: Platforms
@@ -63,6 +73,23 @@ body:
         - linux
         - macos
         - android
+    validations:
+      required: true
+  - type: dropdown
+    id: genre
+    attributes:
+      label: Genre
+      options:
+        - platformer
+        - action-adventure
+        - rpg
+        - racing
+        - strategy
+        - shooter
+        - fighting
+        - sports
+        - simulation
+        - open-world
     validations:
       required: true
   - type: textarea
