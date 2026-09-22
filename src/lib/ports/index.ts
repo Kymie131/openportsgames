@@ -46,6 +46,14 @@ export function getHardwareProfile(profileId: string): HardwareProfile | undefin
   return hardware.find((profile) => profile.id === profileId);
 }
 
+export function getTestResults(): Record<string, "pass" | "fail"> {
+  const results: Record<string, "pass" | "fail"> = {};
+  for (const test of testRecordsValidated) {
+    results[test.portId] = test.result;
+  }
+  return results;
+}
+
 export function getTestStatuses(): Record<string, "current" | "stale"> {
   const statuses: Record<string, "current" | "stale"> = {};
   for (const test of testRecordsValidated) {
