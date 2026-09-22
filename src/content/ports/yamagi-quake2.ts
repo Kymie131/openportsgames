@@ -9,6 +9,8 @@ export const yamagiQuake2: Port = {
   publisher: "Activision",
   originalYear: 1997,
   portType: "source-port",
+  genre: "shooter",
+  openSource: true,
   platforms: ["windows", "linux"],
   status: "stable",
   release: { version: "8.70", date: "2026-05-14" },

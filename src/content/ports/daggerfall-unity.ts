@@ -9,6 +9,8 @@ export const daggerfallUnity: Port = {
   publisher: "Bethesda Softworks",
   originalYear: 1996,
   portType: "reimplementation",
+  genre: "rpg",
+  openSource: true,
   platforms: ["windows", "linux", "macos"],
   status: "stable",
   release: { version: "1.1.1-cve-2025", date: "2025-10-05" },

@@ -9,6 +9,8 @@ export const wiiCompiled: Port = {
   publisher: "Nintendo",
   originalYear: 2008,
   portType: "recompilation",
+  genre: "racing",
+  openSource: true,
   platforms: ["windows"],
   status: "beta",
   release: { version: "0.2.32", date: "2026-09-14" },

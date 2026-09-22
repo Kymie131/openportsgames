@@ -9,6 +9,8 @@ export const fallout2Ce: Port = {
   publisher: "Interplay Productions",
   originalYear: 1998,
   portType: "reimplementation",
+  genre: "rpg",
+  openSource: true,
   platforms: ["windows", "linux"],
   status: "stable",
   release: { version: "1.3.0", date: "2024-04-21" },

@@ -9,6 +9,8 @@ export const openXcom: Port = {
   publisher: "MicroProse",
   originalYear: 1994,
   portType: "reimplementation",
+  genre: "strategy",
+  openSource: true,
   platforms: ["windows", "linux", "macos"],
   status: "stable",
   release: { version: "1.0", date: "2014-06-13" },

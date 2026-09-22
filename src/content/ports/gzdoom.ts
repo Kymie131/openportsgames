@@ -9,6 +9,8 @@ export const gzdoom: Port = {
   publisher: "id Software",
   originalYear: 1993,
   portType: "source-port",
+  genre: "shooter",
+  openSource: true,
   platforms: ["windows", "linux", "macos", "android"],
   status: "stable",
   release: { version: "4.14.2", date: "2025-05-03" },

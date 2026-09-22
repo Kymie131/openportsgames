@@ -9,6 +9,8 @@ export const vkQuake: Port = {
   publisher: "GT Interactive",
   originalYear: 1996,
   portType: "source-port",
+  genre: "shooter",
+  openSource: true,
   platforms: ["windows", "linux", "macos"],
   status: "stable",
   release: { version: "1.36.0", date: "2026-08-29" },

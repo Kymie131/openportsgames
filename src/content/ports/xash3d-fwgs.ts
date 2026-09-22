@@ -9,6 +9,8 @@ export const xash3d: Port = {
   publisher: "Sierra On-Line",
   originalYear: 1998,
   portType: "reimplementation",
+  genre: "shooter",
+  openSource: true,
   platforms: ["windows", "linux", "android"],
   status: "stable",
   release: { version: null, date: null },

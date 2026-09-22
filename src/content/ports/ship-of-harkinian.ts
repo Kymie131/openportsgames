@@ -9,6 +9,8 @@ export const shipOfHarkinian: Port = {
   publisher: "Nintendo",
   originalYear: 1998,
   portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
   platforms: ["windows", "linux", "macos", "android"],
   status: "stable",
   release: { version: "9.2.3", date: "2026-04-14" },

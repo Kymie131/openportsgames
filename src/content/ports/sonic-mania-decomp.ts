@@ -9,6 +9,8 @@ export const sonicMania: Port = {
   publisher: "Sega",
   originalYear: 2017,
   portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
   platforms: ["windows", "linux", "macos"],
   status: "stable",
   release: { version: "1.1.1", date: "2025-11-01" },

@@ -9,6 +9,19 @@ export const portTypes = [
   "source-port",
 ] as const;
 export const portStatuses = ["stable", "beta", "alpha", "takedown"] as const;
+export const genres = [
+  "platformer",
+  "action-adventure",
+  "rpg",
+  "racing",
+  "strategy",
+  "shooter",
+  "fighting",
+  "sports",
+  "simulation",
+  "open-world",
+] as const;
+export type Genre = (typeof genres)[number];
 
 const isoDate = z
   .string()
@@ -33,6 +46,8 @@ const normalPort = z.object({
   developers: z.array(z.string().min(2).max(40)).min(1).max(6),
   publisher: z.string().min(2).max(80),
   originalYear: z.number().int().min(1970).max(2099),
+  genre: z.enum(genres),
+  openSource: z.boolean(),
   portType: z.enum(portTypes),
   platforms: z.array(z.enum(platformKeys)).min(1),
   status: z.union([z.enum(["stable", "beta", "alpha"]), z.literal("takedown")]),
@@ -134,6 +149,8 @@ export type Port = {
   developers: string[];
   publisher: string;
   originalYear: number;
+  genre: Genre;
+  openSource: boolean;
   portType: (typeof portTypes)[number];
   platforms: (typeof platformKeys)[number][];
   release: { version: string | null; date: string | null };
