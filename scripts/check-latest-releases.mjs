@@ -3,10 +3,11 @@
 // stored in content. Writes a report and exits 0. Called by CI weekly; the
 // workflow opens an issue when ports are stale.
 import { appendFileSync, readFileSync, writeFileSync } from "node:fs";
-import { join } from "node:path";
+import { join, relative } from "node:path";
 
 const TOKEN = process.env.GITHUB_TOKEN ?? process.env.GH_TOKEN;
 const OUT_FILE = process.env.CHECK_OUTPUT ?? "catalog-check-report.md";
+const STARS_FILE = process.env.STARS_OUTPUT ?? "src/content/github-stars.ts";
 
 const catalogPath = process.env.CATALOG_JSON ?? join("out", "api", "ports.json");
 const catalog = JSON.parse(readFileSync(catalogPath, "utf-8"));
@@ -43,11 +44,22 @@ async function latestForRepo(repo) {
   return null;
 }
 
+async function starsForRepo(repo) {
+  const repoInfo = await ghGet(`/repos/${repo}`);
+  if (repoInfo.ok && repoInfo.body) {
+    return repoInfo.body.stargazers_count ?? 0;
+  }
+  return null;
+}
+
 const rows = [];
+const starsByPort = new Map();
 for (const port of catalog.ports) {
   if (!port.verified || port.release?.version == null) continue;
   const repo = port.sources.map(repoFromSource).find(Boolean);
   const entry = { id: port.id, title: port.title, stored: port.release.version };
+  const stars = repo ? await starsForRepo(repo) : null;
+  if (stars !== null) starsByPort.set(port.id, stars);
   if (!repo) {
     rows.push({ ...entry, status: "skip", detail: "no GitHub source to compare" });
     continue;
@@ -83,6 +95,33 @@ if (stale.length) {
   lines.push("All verified ports match their latest GitHub release.");
 }
 writeFileSync(OUT_FILE, lines.join("\n"), "utf-8");
+
+if (starsByPort.size > 0) {
+  const entries = [...starsByPort.entries()].sort(([a], [b]) => a.localeCompare(b));
+  const body = [
+    "export const githubStars: Record<string, number> = {",
+    ...entries.map(([id, count]) => `  "${id}": ${count},`),
+    "};",
+    "",
+  ].join("\n");
+  let starsChanged = "0";
+  let existing = null;
+  try {
+    existing = readFileSync(STARS_FILE, "utf-8");
+  } catch {
+    existing = null;
+  }
+  if (existing !== body) {
+    starsChanged = "1";
+    writeFileSync(STARS_FILE, body, "utf-8");
+    console.log(relative(".", STARS_FILE), "updated with", entries.length, "port entries.");
+  } else {
+    console.log(relative(".", STARS_FILE), "unchanged.");
+  }
+  if (process.env.GITHUB_OUTPUT) {
+    appendFileSync(process.env.GITHUB_OUTPUT, `stars_changed=${starsChanged}\n`);
+  }
+}
 
 if (process.env.GITHUB_OUTPUT) {
   appendFileSync(process.env.GITHUB_OUTPUT, `stale=${stale.length > 0 ? 1 : 0}\n`);

@@ -19,6 +19,8 @@ are:
 | `developers` | string[] | 1–6 developer/team names |
 | `publisher` | string | |
 | `originalYear` | number | 1970–2099 |
+| `genre` | enum | `platformer`, `action-adventure`, `rpg`, `racing`, `strategy`, `shooter`, `fighting`, `sports`, `simulation`, `open-world` |
+| `openSource` | boolean | whether the project's code is open source |
 | `portType` | enum | `decompilation`, `recompilation`, `reimplementation`, `source-port` |
 | `platforms` | enum[] | `windows`, `linux`, `macos`, `android` |
 | `status` | enum | `stable`, `beta`, `alpha`, or `takedown` |
@@ -35,6 +37,15 @@ are:
 | `features` | string[]? | notable features (max 20) |
 | `requirements` | `{ minimum?, recommended? }`? | free text |
 | `screenshots` | array? | `{ src, alt, credit }`, https, max 12 |
+
+### Catalog state
+
+`src/lib/ports/catalog.ts` defines the query state shared by all three catalog
+pages. A URL round-trips through `parseCatalogState`/`catalogStateToParams`;
+empty values and `all` filters are dropped from the URL. When the catalog is
+sorted by GitHub stars, `src/content/github-stars.ts` maps each port id to its
+count; the map is refreshed by `scripts/check-latest-releases.mjs` on the
+weekly catalog workflow.
 
 ### Takedown variant
 
@@ -69,6 +80,7 @@ artifact before removal). Takedown entries are validated but **excluded** from
 ## Invariants enforced by content tests
 
 - Unique ids across each collection; ids are lowercase kebab slugs.
+- Every port declares a valid `genre` and a boolean `openSource`.
 - `verified: true` ⇒ `release.version != null` and `verifiedAt` is present;
   `version == null` ⇒ `verified: false`.
 - Versions match the relaxed semantic version (X.Y, X.Y.Z, optional suffix).
