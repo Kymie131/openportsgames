@@ -1,69 +1,45 @@
 "use client";
 
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { Search, X } from "lucide-react";
-import type { Port, PlatformKey } from "@/lib/ports/schema";
+import type { Port } from "@/lib/ports/schema";
 import {
   applyCatalog,
+  availableSystems,
   buildIndex,
+  catalogStateToParams,
   defaultCatalogState,
+  parseCatalogState,
   SCOPED_PLATFORMS,
+  type AiFilter,
   type CatalogScope,
   type CatalogState,
+  type GenreFilter,
   type SortKey,
+  type SourceFilter,
   type StateFilter,
   type StatusFilter,
+  type TechniqueFilter,
+  type TestedFilter,
 } from "@/lib/ports/catalog";
 import { PortTile } from "./port-tile";
 import { useT } from "@/lib/i18n/use-i18n";
 import { cn } from "@/lib/utils";
 
-function parseState(params: URLSearchParams, scope: CatalogScope): CatalogState {
-  const scopePlatforms = SCOPED_PLATFORMS[scope];
-  const platform = params.get("platform") ?? "";
-  const status = params.get("status");
-  const state = params.get("state");
-  const sort = params.get("sort");
-  return {
-    query: params.get("q") ?? "",
-    platform:
-      platform === "all" || scopePlatforms.includes(platform as PlatformKey)
-        ? (platform as "all" | PlatformKey)
-        : "all",
-    status: isStatus(status) ? status : "all",
-    state: isState(state) ? state : "all",
-    sort: isSort(sort) ? sort : "relevance",
-  };
-}
-
-function isStatus(value: string | null): value is StatusFilter {
-  return value === "stable" || value === "beta" || value === "alpha" || value === "all";
-}
-function isState(value: string | null): value is StateFilter {
-  return value === "verified" || value === "unverified" || value === "all";
-}
-function isSort(value: string | null): value is SortKey {
-  return value === "relevance" || value === "title" || value === "newest";
-}
-
-function toParams(state: CatalogState): URLSearchParams {
-  const params = new URLSearchParams();
-  if (state.query) params.set("q", state.query);
-  if (state.platform !== "all") params.set("platform", state.platform);
-  if (state.status !== "all") params.set("status", state.status);
-  if (state.state !== "all") params.set("state", state.state);
-  if (state.sort !== "relevance") params.set("sort", state.sort);
-  return params;
-}
-
 export function CatalogClient({
   ports,
   testStatuses,
+  testResults,
+  originalSystems,
+  stars,
   scope,
 }: {
   ports: Port[];
   testStatuses: Record<string, "current" | "stale">;
+  testResults: Record<string, "pass" | "fail">;
+  originalSystems: Record<string, string>;
+  stars: Record<string, number>;
   scope: CatalogScope;
 }) {
   const t = useT();
@@ -71,30 +47,48 @@ export function CatalogClient({
   const router = useRouter();
   const searchParams = useSearchParams();
 
-  const state = parseState(searchParams, scope);
+  const state = parseCatalogState(searchParams);
+  const [draft, setDraft] = useState(state.query);
   const index = useMemo(() => buildIndex(ports), [ports]);
+  const systems = useMemo(() => availableSystems(ports, originalSystems), [ports, originalSystems]);
   const { results, total } = useMemo(
-    () => applyCatalog(ports, index, state, scope),
-    [ports, index, state, scope],
+    () => applyCatalog(ports, index, state, scope, { originalSystems, testResults, stars }),
+    [ports, index, state, scope, originalSystems, testResults, stars],
   );
 
   const scopePlatforms = SCOPED_PLATFORMS[scope];
-  const isDefault =
-    !state.query &&
-    state.platform === "all" &&
-    state.status === "all" &&
-    state.state === "all" &&
-    state.sort === "relevance";
 
-  function update(next: CatalogState) {
-    const params = toParams(next);
-    const href = params.size ? `${pathname}?${params}` : pathname;
+  function patch(patch: Partial<CatalogState>) {
+    const next = { ...state, ...patch };
+    const params = catalogStateToParams(next);
+    const href = params.size ? `${pathname}?${params.toString()}` : pathname;
     void router.replace(href, { scroll: false });
   }
 
-  function patch(patch: Partial<CatalogState>) {
-    update({ ...state, ...patch });
-  }
+  useEffect(() => {
+    if (draft === state.query) return;
+    const id = window.setTimeout(() => {
+      const next = { ...state, query: draft, sort: defaultCatalogState.sort };
+      const params = catalogStateToParams(next);
+      void router.replace(params.size ? `${pathname}?${params.toString()}` : pathname, {
+        scroll: false,
+      });
+    }, 150);
+    return () => window.clearTimeout(id);
+  }, [draft, state, pathname, router]);
+
+  const isDefault =
+    state.query === "" &&
+    state.platform === "all" &&
+    state.status === "all" &&
+    state.state === "all" &&
+    state.technique === "all" &&
+    state.system === "all" &&
+    state.genre === "all" &&
+    state.source === "all" &&
+    state.ai === "all" &&
+    state.tested === "all" &&
+    state.sort === "relevance";
 
   return (
     <div className="flex w-full flex-col gap-4">
@@ -106,16 +100,16 @@ export function CatalogClient({
         <Search className="size-4 shrink-0 text-muted" aria-hidden="true" />
         <input
           type="search"
-          value={state.query}
-          onChange={(event) => patch({ query: event.target.value, sort: defaultCatalogState.sort })}
+          value={draft}
+          onChange={(event) => setDraft(event.target.value)}
           placeholder={t.catalog.searchPlaceholder}
           aria-label={t.catalog.searchPlaceholder}
           className="w-full bg-transparent text-sm text-foreground placeholder:text-muted focus:outline-none"
         />
-        {state.query && (
+        {draft && (
           <button
             type="button"
-            onClick={() => patch({ query: "" })}
+            onClick={() => setDraft("")}
             className="rounded p-0.5 text-muted transition-colors hover:text-foreground"
             aria-label={t.catalog.clearFilters}
           >
@@ -127,11 +121,11 @@ export function CatalogClient({
       {scope !== "android" && (
         <Fieldset legend={t.catalog.filterPlatform}>
           <div
-          className="flex flex-wrap gap-1.5"
-          role="group"
-          aria-label={t.catalog.filterPlatform}
-          data-testid="catalog-platform-filter"
-        >
+            className="flex flex-wrap gap-1.5"
+            role="group"
+            aria-label={t.catalog.filterPlatform}
+            data-testid="catalog-platform-filter"
+          >
             <Chip
               active={state.platform === "all"}
               onClick={() => patch({ platform: "all" })}
@@ -149,8 +143,8 @@ export function CatalogClient({
         </Fieldset>
       )}
 
-      <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
-        <Fieldset legend={t.catalog.filterStatus} className="flex-1">
+      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        <Fieldset legend={t.catalog.filterStatus}>
           <SelectField
             value={state.status}
             onChange={(value) => patch({ status: value as StatusFilter })}
@@ -164,7 +158,7 @@ export function CatalogClient({
           />
         </Fieldset>
 
-        <Fieldset legend={t.catalog.filterState} className="flex-1">
+        <Fieldset legend={t.catalog.filterState}>
           <SelectField
             value={state.state}
             onChange={(value) => patch({ state: value as StateFilter })}
@@ -177,7 +171,95 @@ export function CatalogClient({
           />
         </Fieldset>
 
-        <Fieldset legend={t.catalog.sortLabel} className="flex-1">
+        <Fieldset legend={t.catalog.filterTechnique}>
+          <SelectField
+            value={state.technique}
+            onChange={(value) => patch({ technique: value as TechniqueFilter })}
+            label={t.catalog.filterTechnique}
+            options={[
+              ["all", t.catalog.filterAll],
+              ["decompilation", t.portTypes.decompilation],
+              ["recompilation", t.portTypes.recompilation],
+              ["reimplementation", t.portTypes.reimplementation],
+              ["source-port", t.portTypes["source-port"]],
+            ]}
+          />
+        </Fieldset>
+
+        <Fieldset legend={t.catalog.filterSystem}>
+          <SelectField
+            value={state.system}
+            onChange={(value) => patch({ system: value })}
+            label={t.catalog.filterSystem}
+            options={[
+              ["all", t.catalog.filterAll],
+              ...systems.map((system) => [system, system] as [string, string]),
+            ]}
+          />
+        </Fieldset>
+
+        <Fieldset legend={t.catalog.filterGenre}>
+          <SelectField
+            value={state.genre}
+            onChange={(value) => patch({ genre: value as GenreFilter })}
+            label={t.catalog.filterGenre}
+            options={[
+              ["all", t.catalog.filterAll],
+              ["platformer", t.catalog.genres.platformer],
+              ["action-adventure", t.catalog.genres["action-adventure"]],
+              ["rpg", t.catalog.genres.rpg],
+              ["racing", t.catalog.genres.racing],
+              ["strategy", t.catalog.genres.strategy],
+              ["shooter", t.catalog.genres.shooter],
+              ["fighting", t.catalog.genres.fighting],
+              ["sports", t.catalog.genres.sports],
+              ["simulation", t.catalog.genres.simulation],
+              ["open-world", t.catalog.genres["open-world"]],
+            ]}
+          />
+        </Fieldset>
+
+        <Fieldset legend={t.catalog.filterTested}>
+          <SelectField
+            value={state.tested}
+            onChange={(value) => patch({ tested: value as TestedFilter })}
+            label={t.catalog.filterTested}
+            options={[
+              ["all", t.catalog.filterAll],
+              ["pass", t.catalog.testedPass],
+              ["fail", t.catalog.testedFail],
+              ["untested", t.catalog.testedUntested],
+            ]}
+          />
+        </Fieldset>
+
+        <Fieldset legend={t.catalog.filterSource}>
+          <SelectField
+            value={state.source}
+            onChange={(value) => patch({ source: value as SourceFilter })}
+            label={t.catalog.filterSource}
+            options={[
+              ["all", t.catalog.filterAll],
+              ["open", t.catalog.sourceOpen],
+              ["closed", t.catalog.sourceClosed],
+            ]}
+          />
+        </Fieldset>
+
+        <Fieldset legend={t.catalog.filterAi} className="sm:col-span-2 lg:col-span-1">
+          <SelectField
+            value={state.ai}
+            onChange={(value) => patch({ ai: value as AiFilter })}
+            label={t.catalog.filterAi}
+            options={[
+              ["all", t.catalog.filterAll],
+              ["yes", t.catalog.aiYes],
+              ["no", t.catalog.aiNo],
+            ]}
+          />
+        </Fieldset>
+
+        <Fieldset legend={t.catalog.sortLabel} className="sm:col-span-2 lg:col-span-1">
           <SelectField
             value={state.sort}
             onChange={(value) => patch({ sort: value as SortKey })}
@@ -185,7 +267,9 @@ export function CatalogClient({
             options={[
               ["relevance", t.catalog.sortRelevance],
               ["title", t.catalog.sortTitle],
+              ["title-desc", t.catalog.sortTitleDesc],
               ["newest", t.catalog.sortNewest],
+              ["stars", t.catalog.sortStars],
             ]}
           />
         </Fieldset>
@@ -199,7 +283,10 @@ export function CatalogClient({
         {!isDefault && (
           <button
             type="button"
-            onClick={() => update({ ...defaultCatalogState, platform: "all" })}
+            onClick={() => {
+              setDraft("");
+              patch(defaultCatalogState);
+            }}
             className="text-link transition-colors hover:text-link-hover"
           >
             {t.catalog.clearFilters}
@@ -211,7 +298,7 @@ export function CatalogClient({
         <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {results.map((port) => (
             <li key={port.id}>
-              <PortTile port={port} testStatus={testStatuses[port.id]} />
+              <PortTile port={port} testStatus={testStatuses[port.id]} stars={stars[port.id]} />
             </li>
           ))}
         </ul>

@@ -17,12 +17,16 @@ const STATUS_TONE: Record<Port["status"], string> = {
 export function PortTile({
   port,
   testStatus,
+  stars,
 }: {
   port: Port;
   testStatus?: TestStatus;
+  stars?: number;
 }) {
   const t = useT();
   const [source] = port.sources;
+  const starLabel =
+    stars !== undefined && stars > 0 ? new Intl.NumberFormat("en").format(stars) : undefined;
 
   return (
     <article className="flex h-full flex-col gap-3 rounded-lg border border-border bg-surface p-4 transition-colors duration-150 hover:bg-surface-2">
@@ -65,6 +69,7 @@ export function PortTile({
       {port.release.version && (
         <p className="text-xs text-muted">
           {t.catalog.version} {port.release.version}
+          {starLabel && <span className="ml-2 text-muted">★ {starLabel}</span>}
         </p>
       )}
 
