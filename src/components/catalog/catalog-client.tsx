@@ -277,8 +277,8 @@ export function CatalogClient({
 
       <div className="flex items-center justify-between gap-3 text-sm text-muted">
         <p>
-          <span className="text-foreground">{total}</span> {t.catalog.of}{" "}
-          {ports.length} {t.catalog.labels[total === 1 ? "one" : "other"]}
+          <span className="text-foreground">{total}</span> {t.catalog.of} {ports.length}{" "}
+          {t.catalog.labels[total === 1 ? "one" : "other"]}
         </p>
         {!isDefault && (
           <button
@@ -295,17 +295,43 @@ export function CatalogClient({
       </div>
 
       {results.length > 0 ? (
-        <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {results.map((port) => (
-            <li key={port.id}>
-              <PortTile port={port} testStatus={testStatuses[port.id]} stars={stars[port.id]} />
+            <li key={port.id} className="flex">
+              <PortTile
+                className="w-full"
+                port={port}
+                testStatus={testStatuses[port.id]}
+                stars={stars[port.id]}
+              />
             </li>
           ))}
         </ul>
       ) : (
-        <p className="rounded-lg border border-border bg-surface p-6 text-center text-sm text-muted">
-          {t.catalog.empty}
-        </p>
+        <div className="flex flex-col items-center gap-3 rounded-lg border border-border bg-surface px-6 py-12 text-center">
+          <div
+            className="flex size-11 items-center justify-center rounded-full bg-surface-2 text-muted"
+            aria-hidden="true"
+          >
+            <Search className="size-5" />
+          </div>
+          <div className="flex flex-col gap-1">
+            <p className="text-sm font-medium text-foreground">{t.catalog.empty}</p>
+            <p className="text-sm text-muted">{t.catalog.emptyHelp}</p>
+          </div>
+          {!isDefault && (
+            <button
+              type="button"
+              onClick={() => {
+                setDraft("");
+                patch(defaultCatalogState);
+              }}
+              className="rounded-full border border-border px-3 py-1.5 text-sm text-link transition-colors duration-150 hover:border-accent-hover hover:text-link-hover"
+            >
+              {t.catalog.clearFilters}
+            </button>
+          )}
+        </div>
       )}
     </div>
   );
@@ -328,15 +354,7 @@ function Fieldset({
   );
 }
 
-function Chip({
-  active,
-  onClick,
-  label,
-}: {
-  active: boolean;
-  onClick: () => void;
-  label: string;
-}) {
+function Chip({ active, onClick, label }: { active: boolean; onClick: () => void; label: string }) {
   return (
     <button
       type="button"
