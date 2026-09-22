@@ -8,12 +8,17 @@ describe("catalog api payload", () => {
     const payload = buildCatalogJson("https://example.com", now);
     expect(catalogApiSchema.parse(payload)).toEqual(payload);
     expect(payload.schema).toBe("openportsgames/catalog");
-    expect(payload.version).toBe(1);
+    expect(payload.version).toBe(2);
     expect(payload.generatedAt).toBe("2026-09-19");
     expect(payload.site).toBe("https://example.com");
     expect(payload.ports).toHaveLength(getPorts().length);
     expect(payload.hardware).toHaveLength(hardware.length);
     expect(payload.tests).toHaveLength(testRecordsValidated.length);
+    for (const port of payload.ports) {
+      if ("rawUrl" in port) continue;
+      expect(port.genre, port.id).toBeTruthy();
+      expect(typeof port.openSource, port.id).toBe("boolean");
+    }
   });
 
   it("lists every catalog port id in the payload", () => {
