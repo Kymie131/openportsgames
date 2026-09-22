@@ -25,6 +25,23 @@ import { sonicMania } from "./sonic-mania-decomp";
 import { downpourRecomp } from "./downpour-recomp";
 import { wiiCompiled } from "./wiicompiled";
 import { openra } from "./openra";
+import { starship } from "./starship";
+import { spaghettiKart } from "./spaghettikart";
+import { lighthouse } from "./lighthouse";
+import { goldenEye64Recompiled } from "./goldeneye-64-recompiled";
+import { dk64Recompiled } from "./dk64-recompiled";
+import { waveRace64Recompiled } from "./wave-race-64-recompiled";
+import { roadRash64Recompiled } from "./road-rash-64-recompiled";
+import { fZeroSnesRecompiled } from "./f-zero-snes-recompiled";
+import { dkcRecompiled } from "./dkc-recompiled";
+import { metroidPrimeHuntersRecompiled } from "./metroid-prime-hunters-recompiled";
+import { perfectDarkDabsMod } from "./perfect-dark-dabs-mod";
+import { triAevum } from "./triaevum";
+import { prBoomPlusRt } from "./prboom-plus-rt";
+import { doom3Dude } from "./doom3-dude";
+import { unleashedRecompiled } from "./unleashed-recompiled";
+import { dusklight } from "./dusklight";
+import { meleeNative } from "./melee-native";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -53,4 +70,21 @@ export const portCases: Port[] = [
   downpourRecomp,
   wiiCompiled,
   openra,
+  starship,
+  spaghettiKart,
+  lighthouse,
+  goldenEye64Recompiled,
+  dk64Recompiled,
+  waveRace64Recompiled,
+  roadRash64Recompiled,
+  fZeroSnesRecompiled,
+  dkcRecompiled,
+  metroidPrimeHuntersRecompiled,
+  perfectDarkDabsMod,
+  triAevum,
+  prBoomPlusRt,
+  doom3Dude,
+  unleashedRecompiled,
+  dusklight,
+  meleeNative,
 ];
