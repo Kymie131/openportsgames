@@ -9,6 +9,8 @@ export const openLara: Port = {
   publisher: "Eidos Interactive",
   originalYear: 1996,
   portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
   platforms: ["windows", "linux", "macos", "android"],
   status: "beta",
   release: { version: null, date: null },

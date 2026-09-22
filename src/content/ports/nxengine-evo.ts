@@ -9,6 +9,8 @@ export const nxEngine: Port = {
   publisher: "Studio Pixel",
   originalYear: 2004,
   portType: "reimplementation",
+  genre: "platformer",
+  openSource: true,
   platforms: ["windows", "linux", "macos"],
   status: "stable",
   release: { version: "2.6.5-1", date: "2021-07-08" },

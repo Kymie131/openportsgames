@@ -9,6 +9,8 @@ export const eduke32: Port = {
   publisher: "FormGen",
   originalYear: 1996,
   portType: "source-port",
+  genre: "shooter",
+  openSource: true,
   platforms: ["windows", "linux", "macos"],
   status: "stable",
   release: { version: null, date: null },

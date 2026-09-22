@@ -9,6 +9,8 @@ export const openmw: Port = {
   publisher: "Bethesda Softworks",
   originalYear: 2002,
   portType: "reimplementation",
+  genre: "rpg",
+  openSource: true,
   platforms: ["windows", "linux", "macos", "android"],
   status: "stable",
   release: { version: "0.51.0", date: "2026-06-19" },

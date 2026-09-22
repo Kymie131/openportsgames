@@ -9,6 +9,8 @@ export const openJk: Port = {
   publisher: "LucasArts",
   originalYear: 2003,
   portType: "source-port",
+  genre: "shooter",
+  openSource: true,
   platforms: ["windows", "linux"],
   status: "stable",
   release: { version: null, date: null },

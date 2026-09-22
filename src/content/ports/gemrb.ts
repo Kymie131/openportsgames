@@ -9,6 +9,8 @@ export const gemrb: Port = {
   publisher: "Black Isle Studios",
   originalYear: 1998,
   portType: "reimplementation",
+  genre: "rpg",
+  openSource: true,
   platforms: ["windows", "linux", "macos"],
   status: "stable",
   release: { version: "0.9.5", date: "2026-03-23" },

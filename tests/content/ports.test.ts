@@ -26,6 +26,13 @@ describe("catalog ports", () => {
     }
   });
 
+  it("declares a genre and an open source state on every port", () => {
+    for (const port of ports) {
+      expect(port.genre, port.id).toBeTruthy();
+      expect(typeof port.openSource, port.id).toBe("boolean");
+    }
+  });
+
   it("keeps original-year fields plausible", () => {
     for (const port of ports) {
       expect(port.originalYear, port.id).toBeGreaterThanOrEqual(1970);
