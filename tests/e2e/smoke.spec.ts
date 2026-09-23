@@ -42,7 +42,7 @@ test("API endpoint is a versioned static snapshot", async ({ request }) => {
   expect(response.ok()).toBe(true);
   const payload = await response.json();
   expect(payload.schema).toBe("openportsgames/catalog");
-  expect(payload.version).toBe(1);
+  expect(payload.version).toBe(2);
   expect(payload.ports.length).toBeGreaterThanOrEqual(20);
   expect(Array.isArray(payload.tests)).toBe(true);
   expect(Array.isArray(payload.hardware)).toBe(true);
