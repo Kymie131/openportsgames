@@ -40,6 +40,7 @@ jobs:
         env:
           NEXT_PUBLIC_SITE_URL: https://kymie131.github.io/openportsgames
           NEXT_PUBLIC_BASE_PATH: /openportsgames
+          NEXT_PUBLIC_SUPPORT_PAYPAL_URL: https://www.paypal.com/donate/?hosted_button_id=5WK2PSB9MV4GW
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
