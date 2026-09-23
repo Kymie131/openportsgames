@@ -15,6 +15,7 @@ Conventional Commits.
 - Brand logo in the site header (transparent/dark variants per theme).
 - Console logos: Nintendo 3DS, Game Boy Advance, Nintendo DS.
 - Optional donation link on `/support` via `NEXT_PUBLIC_SUPPORT_PAYPAL_URL`.
+- Team credits section on the `/about` page.
 
 ### Changed
 

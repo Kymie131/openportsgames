@@ -333,7 +333,13 @@ const en = {
     ],
     teamTitle: "Team",
     team: [
-      "The catalog was started and is maintained by Kymie131. Participation is public: tests, proposals and fixes go through this repository.",
+      "The catalog was started and is maintained by Kymie131, together with YaelMora2614 and Ramiro Hernandez. Participation is public: tests, proposals and fixes go through this repository.",
+    ],
+    creditsTitle: "Credits",
+    credits: [
+      { name: "Kymie131", role: "Creator and maintainer" },
+      { name: "YaelMora2614", role: "Developer and tester" },
+      { name: "Ramiro Hernandez", role: "Developer and tester" },
     ],
   },
   legal: {
@@ -705,7 +711,13 @@ const es: Messages = {
     ],
     teamTitle: "Equipo",
     team: [
-      "El catálogo fue iniciado y es mantenido por Kymie131. La participación es pública: pruebas, propuestas y correcciones pasan por este repositorio.",
+      "El catálogo fue iniciado y es mantenido por Kymie131, junto con YaelMora2614 y Ramiro Hernandez. La participación es pública: pruebas, propuestas y correcciones pasan por este repositorio.",
+    ],
+    creditsTitle: "Créditos",
+    credits: [
+      { name: "Kymie131", role: "Creador y mantenedor" },
+      { name: "YaelMora2614", role: "Desarrollador y tester" },
+      { name: "Ramiro Hernandez", role: "Desarrollador y tester" },
     ],
   },
   legal: {

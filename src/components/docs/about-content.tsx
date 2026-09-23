@@ -1,7 +1,7 @@
 "use client";
 
 import { useT } from "@/lib/i18n/use-i18n";
-import { DocHeader, DocList, DocPage, DocSection } from "./editorial";
+import { DocCredits, DocHeader, DocList, DocPage, DocSection } from "./editorial";
 
 export function AboutContent() {
   const t = useT();
@@ -20,6 +20,9 @@ export function AboutContent() {
       </DocSection>
       <DocSection title={t.about.teamTitle}>
         <DocList items={t.about.team} />
+      </DocSection>
+      <DocSection title={t.about.creditsTitle}>
+        <DocCredits items={t.about.credits} />
       </DocSection>
     </DocPage>
   );

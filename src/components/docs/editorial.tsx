@@ -35,3 +35,19 @@ export function DocList({ items }: { items: string[] }) {
     </ul>
   );
 }
+
+export function DocCredits({ items }: { items: { name: string; role: string }[] }) {
+  return (
+    <ul className="flex flex-col gap-2 text-sm leading-6">
+      {items.map((member) => (
+        <li
+          key={member.name}
+          className="flex items-baseline justify-between gap-4 border-b border-border pb-2 last:border-0"
+        >
+          <span className="font-medium text-foreground">{member.name}</span>
+          <span className="text-muted">{member.role}</span>
+        </li>
+      ))}
+    </ul>
+  );
+}
