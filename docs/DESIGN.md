@@ -110,6 +110,40 @@ lg:grid-cols-3 xl:grid-cols-4`), 4 columns is the hard maximum so cards never
   engines (`robots: noindex`) automatically — they are never served as a plain
   404 so the takedown is documented at its original URL.
 
+## Catalog filters and URL state (`catalog/`)
+
+- **Layout**: the catalog is a two-column grid at `lg` (≥1024px):
+  `lg:grid-cols-[minmax(0,1fr)_18rem]`. The results column holds the search
+  box, the count/sort row and the grid; the filter panel is the right column,
+  sticky (`lg:sticky lg:top-24`) below the header. The tile grid is capped at
+  three columns inside the results column (`sm:grid-cols-2 xl:grid-cols-3`).
+  On mobile the panel is a full-height right-hand drawer (Radix `Dialog`) whose
+  footer button "See N results" closes it — filters apply live.
+- **Multi-select semantics**: every filter section is a multi-select. Values
+  within a section are OR-ed, sections are AND-ed (Steam-style), and the state
+  is expressed as arrays in `CatalogState`. Sections: platform, original
+  system, technique, status + verification, genre, source, features
+  (presence of `port.features`), AI disclosure, test status.
+- **Scope**: on `/pc` the platform section only offers PC platforms
+  (Windows/Linux/macOS); on `/android` the platform section is hidden. Filters
+  are never masked or clamped by the scope — a selected platform outside the
+  view simply intersects (e.g. `android` on `/pc` keeps dual-platform ports).
+- **URL state, not component state**: the query lives in `?q=`; every filter is
+  a repeated params (`?platform=windows&platform=linux`). Filtering never
+  happens in the client as a component state, so the URL is shareable and the
+  back button works. The search box debounces (`150ms`) and resets the sort to
+  relevance while typing.
+- **Persistence (10.2)**: with the URL clean and no active filters, a
+  previously stored filter set is restored from `localStorage`
+  (`opg-catalog-filters`) and written to the URL. Filters are never stored when
+  the user already has a URL: the URL is the source of truth and is copied to
+  `localStorage` instead. The free-text query is never persisted. "Clear"
+  wipes both the URL and the stored set.
+- **Panel affordances**: the panel title shows a live count when any filter is
+  active (`Filtros (N)`), and "Clear filters" appears only then. Chips are
+  `aria-pressed` toggles; sections collapse with `aria-expanded`. Platform and
+  original-system sections default to open, the rest collapsed.
+
 ## Theme & locale behavior
 
 - Theme: inline pre-paint script in `<body>` sets `dark`/`light` class and

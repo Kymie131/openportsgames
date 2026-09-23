@@ -114,10 +114,11 @@ body {
   outline-offset: 2px;
 }
 
-/* Mobile navigation drawer (site-header). No tailwindcss-animate plugin is
-   installed, so the Radix data-state transitions are a light keyframe pair.
-   Opening animates; closing is instant because Radix hides the content.
-   prefers-reduced-motion is handled by the global rule below. */
+/* Mobile navigation drawer (site-header) and catalog filter drawer. No
+   tailwindcss-animate plugin is installed, so the Radix data-state
+   transitions are a light keyframe pair. Opening animates; closing is
+   instant because Radix hides the content. prefers-reduced-motion is
+   handled by the global rule below. */
 @keyframes opg-drawer-in {
   from {
     transform: translateX(100%);
@@ -128,8 +129,10 @@ body {
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .opg-drawer-content[data-state="open"] {
+  .opg-drawer-content[data-state="open"],
+  .opg-drawer-content {
     animation: opg-drawer-in 160ms ease-out;
+    will-change: transform;
   }
 }
 
