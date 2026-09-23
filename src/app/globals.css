@@ -114,6 +114,25 @@ body {
   outline-offset: 2px;
 }
 
+/* Mobile navigation drawer (site-header). No tailwindcss-animate plugin is
+   installed, so the Radix data-state transitions are a light keyframe pair.
+   Opening animates; closing is instant because Radix hides the content.
+   prefers-reduced-motion is handled by the global rule below. */
+@keyframes opg-drawer-in {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .opg-drawer-content[data-state="open"] {
+    animation: opg-drawer-in 160ms ease-out;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   ::before,

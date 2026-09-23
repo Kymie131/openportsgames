@@ -59,6 +59,25 @@ after it in the CSS. Tokens are real CSS variables remapped by Tailwind via
   (neutral/accent/ok/warning/danger), `Card`, `ExternalLink`, `Input`, `Select`,
   `Switch`, `Tooltip`, `Dialog`.
 - `layout/*` — `Container`, `SkipLink`, `SiteHeader`, `SiteFooter`.
+
+### Header and navigation (`layout/site-header.tsx`)
+
+- Sticky, ~56px on mobile / ~64px on desktop; neutral at rest and a hairline
+  border + faint shadow only after scrolling past 8px, so the header separates
+  from content without weight.
+- Left: typographic wordmark (`.text-gradient`) linking to `/`. Primary nav
+  (Ports, PC, Android, Guides, Testing) uses a single active state: an accent
+  pill with `aria-current="page"` (matched by prefix, so `/ports/[slug]` keeps
+  Ports active). No duplicate underline.
+- Secondary group (right, 8px gap): language switcher, theme toggle and the
+  discreet "Support" text link (`t.nav.support`).
+- The old "More" dropdown is "Project" (Submit / Support / About / Legal) —
+  the label tells the user what is inside instead of hiding it.
+- Mobile: the hamburger opens a full-height right drawer (Radix Dialog, focus
+  trapped, Escape closes, focus returns to the trigger) with 44px touch
+  targets, the support CTA near the top of the list and language/theme pinned
+  at the bottom. Drawer opening slides in 160ms under
+  `prefers-reduced-motion: no-preference` (`.opg-drawer-content`).
 - `platforms/platform-mark.tsx` — platform glyphs from **Simple Icons** (CC0
   1.0 artwork, see `platform-glyphs.ts`). Glyphs are filled with `currentColor`
   so they inherit the surrounding text/link color and never carry a brand tint
