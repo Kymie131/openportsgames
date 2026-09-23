@@ -15,10 +15,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        # Moving tag (not a SHA pin): commit-SHA pins for actions/checkout
-        # failed to resolve for this workflow even though CI resolves the
-        # same SHA. Kept aligned with the pinned v5 release.
-        uses: actions/checkout@v5
+        # Pinned to the same commit SHA as ci.yml and catalog-update.yml so
+        # all three workflows are consistent. The earlier "Unable to resolve
+        # action ... unable to find version" failure for this SHA was
+        # transient: CI workflows resolved the exact same reference on the
+        # same push. If resolution flakes again here, re-run the failed job
+        # (the actions resolver is eventually consistent); do not fall back
+        # to a moving tag.
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
 
       - name: Setup Node
         uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
