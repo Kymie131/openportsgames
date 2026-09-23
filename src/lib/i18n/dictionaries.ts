@@ -160,6 +160,9 @@ const en = {
     tagline:
       "A curated catalog of native game ports: decompilations, recompilations and engine reimplementations for PC and Android.",
   },
+  home: {
+    browseCatalog: "Browse the catalog",
+  },
   footer: {
     about:
       "A non-profit catalog of native game ports. It links only to official project sources and hosts no downloadable files.",
@@ -485,6 +488,9 @@ const es: Messages = {
   brand: {
     tagline:
       "Un catálogo curado de ports nativos de videojuegos: decompilaciones, recompilaciones y reimplementaciones de motor para PC y Android.",
+  },
+  home: {
+    browseCatalog: "Explorar el catálogo",
   },
   footer: {
     about:
