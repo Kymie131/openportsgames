@@ -21,6 +21,13 @@ export const nxEngine: Port = {
   aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-19",
+  screenshots: [
+    {
+      src: "https://raw.githubusercontent.com/nxengine/nxengine-evo/master/screenshot.png",
+      alt: "Cave Story in NxEngine-Evo",
+      credit: "NxEngine-Evo",
+    },
+  ],
   notes:
     "Refactored continuation of NxEngine, a native engine recreation of the freeware original Cave Story. The repository's official release predates recent commits; builds also track master.",
 };

@@ -17,8 +17,8 @@ Conventional Commits.
 - Optional donation link on `/support` via `NEXT_PUBLIC_SUPPORT_PAYPAL_URL`.
 - Team credits section on the `/about` page.
 - First registered test record (Silent Hill: Downpour) and its Tested badge.
-- Official project screenshots for Downpour Recompilation, TriAevum and
-  Metroid Prime Hunters Recompiled.
+- Official project screenshots for Downpour Recompilation, TriAevum,
+  Metroid Prime Hunters Recompiled, NxEngine-Evo and PrBoom-Plus RT.
 
 ### Changed
 
