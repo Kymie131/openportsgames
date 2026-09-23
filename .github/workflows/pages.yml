@@ -12,7 +12,7 @@ concurrency:
 jobs:
   build:
     name: Build static export
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
         # Pinned to the same commit SHA as ci.yml and catalog-update.yml so
@@ -54,7 +54,7 @@ jobs:
   deploy:
     name: Deploy to GitHub Pages
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       contents: read
       pages: write
