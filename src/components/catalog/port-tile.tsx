@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ExternalLink } from "lucide-react";
 import type { Port } from "@/lib/ports/schema";
 import { PlatformMark } from "@/components/platforms/platform-mark";
+import { SystemMark } from "@/components/platforms/system-mark";
 import { TestBadge, type TestStatus } from "./test-badge";
 import { useT } from "@/lib/i18n/use-i18n";
 import { cn } from "@/lib/utils";
@@ -18,11 +19,13 @@ export function PortTile({
   port,
   testStatus,
   stars,
+  system,
   className,
 }: {
   port: Port;
   testStatus?: TestStatus;
   stars?: number;
+  system?: string;
   className?: string;
 }) {
   const t = useT();
@@ -41,9 +44,16 @@ export function PortTile({
     >
       <Link
         href={`/ports/${port.id}`}
-        className="flex h-14 items-center justify-center rounded-md border border-border bg-surface-2 transition-colors duration-150 hover:border-accent-hover"
+        className="flex h-14 items-center justify-center gap-2 rounded-md border border-border bg-surface-2 transition-colors duration-150 hover:border-accent-hover"
         aria-label={port.title}
       >
+        {system && (
+          <SystemMark
+            system={system}
+            glyphClassName="size-6"
+            labelClassName="text-sm font-semibold tracking-tight text-muted"
+          />
+        )}
         <span className="text-2xl font-semibold tracking-tight text-muted" aria-hidden="true">
           {port.game.charAt(0)}
         </span>

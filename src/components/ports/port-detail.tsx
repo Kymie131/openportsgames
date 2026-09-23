@@ -6,6 +6,7 @@ import type { HardwareProfile, Port, TestRecord } from "@/lib/ports/schema";
 import type { TestStatus } from "@/components/catalog/test-badge";
 import { TestBadge } from "@/components/catalog/test-badge";
 import { PlatformMark } from "@/components/platforms/platform-mark";
+import { SystemMark } from "@/components/platforms/system-mark";
 import { formatDate } from "@/lib/dates";
 import { useLocale, useT } from "@/lib/i18n/use-i18n";
 
@@ -81,7 +82,13 @@ export function PortDetail({
       </div>
 
       <dl className="grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2 lg:grid-cols-3">
-        <Row label={t.detail.originalSystem} value={originalSystem} />
+        <div className="flex flex-col gap-0.5">
+          <dt className="text-xs text-muted">{t.detail.originalSystem}</dt>
+          <dd className="flex items-center gap-1.5 text-sm">
+            <SystemMark system={originalSystem} />
+            <span>{originalSystem}</span>
+          </dd>
+        </div>
         <Row label={t.detail.technique} value={t.portTypes[port.portType]} />
         <Row label={t.detail.license} value={port.license.note ? `${port.license.spdx} · ${port.license.note}` : port.license.spdx} />
         <Row label={t.detail.version} value={port.release.version ?? "—"} />

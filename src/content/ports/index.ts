@@ -42,6 +42,17 @@ import { doom3Dude } from "./doom3-dude";
 import { unleashedRecompiled } from "./unleashed-recompiled";
 import { dusklight } from "./dusklight";
 import { meleeNative } from "./melee-native";
+import { pikmin } from "./pikmin";
+import { petari } from "./petari";
+import { ctrNative } from "./ctr-native";
+import { pokered } from "./pokered";
+import { zelda3 } from "./zelda3";
+import { dkrR } from "./dkr-r";
+import { symphonyRecomp } from "./symphony-recomp";
+import { superMarioBrosRemastered } from "./super-mario-bros-remastered";
+import { crashBandicoot } from "./crash-bandicoot";
+import { minishCap } from "./minish-cap";
+import { marathonRecomp } from "./marathon-recomp";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -87,4 +98,15 @@ export const portCases: Port[] = [
   unleashedRecompiled,
   dusklight,
   meleeNative,
+  pikmin,
+  petari,
+  ctrNative,
+  pokered,
+  zelda3,
+  dkrR,
+  symphonyRecomp,
+  superMarioBrosRemastered,
+  crashBandicoot,
+  minishCap,
+  marathonRecomp,
 ];

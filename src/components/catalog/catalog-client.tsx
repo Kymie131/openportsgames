@@ -303,6 +303,7 @@ export function CatalogClient({
                 port={port}
                 testStatus={testStatuses[port.id]}
                 stars={stars[port.id]}
+                system={originalSystems[port.id]}
               />
             </li>
           ))}

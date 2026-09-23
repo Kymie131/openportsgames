@@ -15,6 +15,14 @@ from the catalog or kept with `verified: false`.
 | OpenJK | Distribution uses a rolling `latest` release. |
 | EDuke32 | Distributed as rolling builds from eduke32.com; no versioned release metadata. |
 | OpenXcom | Only tagged release is `v1.0` (2014); current builds are distributed via openxcom.org. |
+| pikmin | Decompilation with no tagged releases; builds track the repository. |
+| petari | Work-in-progress Super Mario Galaxy decompilation with no releases. |
+| ctr-native | Distributed as `beta-*` prerelease playtest tags. |
+| pokered | Disassembly without release metadata; builds the original Game Boy ROM. |
+| super-mario-bros-remastered | Remake reusing Nintendo-owned assets; distribution is unversioned. |
+| symphony-recomp | Open beta (`v0.5.xb`) releases; no stable version yet. |
+| minish-cap | Research decompilation with no released binary. |
+| marathon-recomp | No tagged releases; builds track the repository. |
 
 These ports are shown in the catalog with a visible "not verified" marker. The
 weekly `catalog-update` action will flag them once versioned releases exist.
@@ -51,7 +59,9 @@ Still **excluded**, with rationale:
   entry to audit.
 - **Sonic '06 (Sonic Project '06)** — a fan-made closed-source remake built
   with Unity, not a native port of the original game; falls outside the
-  catalog's definition (`genre`/`portType` model).
+  catalog's definition (`genre`/`portType` model). The separate native
+  recompilation **MarathonRecomp** (sonicnext-dev) is a different project and is
+  listed in the catalog as `verified: false`.
 - **Midnight Club LA (Xbox360-Native-Ports collection)** — the repository is a
   multi-game dump of several Xbox 360 native ports, which breaks the
   one-port-per-entry model and the weekly release comparison; because its tag
