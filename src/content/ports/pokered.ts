@@ -24,4 +24,18 @@ export const pokered: Port = {
   originalSystem: "Game Boy",
   notes:
     "Fully commented disassembly of the first generation Pokémon games that builds byte-perfect copies via rgbds. Produces the original Game Boy ROM rather than a native modern executable; the pairing projects in the pret organization power many quality-of-life remakes and hacks built from this source.",
+  installGuide: {
+    steps: [
+      "Own a copy of Pokémon Red or Blue for the Game Boy.",
+      "Dump the original ROM from your cartridge with a tool you are legally entitled to use.",
+      "Follow the build instructions to supply the base ROM and produce the playable ROM with rgbds.",
+      "Run the built ROM on your own hardware or the emulator you hold the rights for.",
+    ],
+    stepsEs: [
+      "Ten una copia de Pokémon Red o Blue para Game Boy.",
+      "Vuelca la ROM original desde tu cartucho con una herramienta que tengas permiso legal de usar.",
+      "Sigue las instrucciones de compilación para aportar la ROM base y generar la ROM jugable con rgbds.",
+      "Ejecuta la ROM generada en tu propio hardware o en el emulador del que tengas los derechos.",
+    ],
+  },
 };

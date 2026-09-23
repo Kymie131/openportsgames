@@ -25,4 +25,16 @@ export const openTtd: Port = {
   verifiedAt: "2026-09-19",
   notes:
     "Open source simulation game based on Transport Tycoon Deluxe. Ships with the freely redistributable OpenGFX graphics, so no original game data is required.",
+  installGuide: {
+    steps: [
+      "Install OpenTTD from the official site; the game runs out of the box with the free OpenGFX graphics.",
+      "Optional: for the classic Transport Tycoon Deluxe look, point the graphics and sound settings at a copy of the original game data if you own it.",
+      "Launch the game and start a new scenario; the original assets are used automatically when present.",
+    ],
+    stepsEs: [
+      "Instala OpenTTD desde el sitio oficial; el juego funciona directamente con los gráficos libres OpenGFX.",
+      "Opcional: para el aspecto clásico de Transport Tycoon Deluxe, señala en los ajustes de gráficos y sonido una copia de los datos originales del juego si la posees.",
+      "Lanza el juego y comienza una nueva partida; los recursos originales se usan automáticamente cuando están presentes.",
+    ],
+  },
 };

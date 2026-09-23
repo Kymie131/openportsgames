@@ -24,4 +24,16 @@ export const eduke32: Port = {
   verified: false,
   notes:
     "Native source port of Duke Nukem 3D (also runs Shadow Warrior via VoidSW). Distributed as rolling builds from the official site; requires Duke Nukem 3D gamedata.",
+  installGuide: {
+    steps: [
+      "Own Duke Nukem 3D, the Atomic Edition is the most complete.",
+      "Copy the game data files (DUKE3D.GRP and the .CON files) from your install into the eduke32 folder.",
+      "Run eduke32 or the mapster editor; the game data is read from the same folder.",
+    ],
+    stepsEs: [
+      "Ten una copia de Duke Nukem 3D; la Atomic Edition es la más completa.",
+      "Copia los archivos de datos del juego (DUKE3D.GRP y los archivos .CON) desde tu instalación a la carpeta de eduke32.",
+      "Ejecuta eduke32 o el editor mapster; los datos del juego se leen desde la misma carpeta.",
+    ],
+  },
 };

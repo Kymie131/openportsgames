@@ -25,4 +25,18 @@ export const devilutionX: Port = {
   verifiedAt: "2026-09-19",
   notes:
     "Reverse-engineered engine for Diablo and the Hellfire expansion, rebuilt for modern systems. Requires the original Diablo 1 and Hellfire data files.",
+  installGuide: {
+    steps: [
+      "Own a copy of Diablo, from the original CD or a storefront re-release.",
+      "Install the original game, or copy DIABLO.EXE and DIABDAT.MPQ from an install you hold the rights to.",
+      "Place DIABLO.EXE and DIABDAT.MPQ in the DevilutionX data folder.",
+      "Launch devilutionx; the modern engine runs the original game data.",
+    ],
+    stepsEs: [
+      "Ten una copia de Diablo, del CD original o de una reedición de tienda digital.",
+      "Instala el juego original, o copia DIABLO.EXE y DIABDAT.MPQ de una instalación de la que tengas los derechos.",
+      "Coloca DIABLO.EXE y DIABDAT.MPQ en la carpeta de datos de DevilutionX.",
+      "Lanza devilutionx; el motor moderno ejecuta los datos originales del juego.",
+    ],
+  },
 };

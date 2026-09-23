@@ -26,4 +26,18 @@ export const shipOfHarkinian: Port = {
   verifiedAt: "2026-09-19",
   notes:
     "Native port of Ocarina of Time from the decompilation project. Requires the original North American Ocarina of Time N64 ROM (legally obtained).",
+  installGuide: {
+    steps: [
+      "Own a copy of Ocarina of Time, from the Nintendo 64 cartridge or the Nintendo 3DS release.",
+      "Extract the game data following the project's official extraction guide using the version you own.",
+      "Run the project's extraction tool to build the oot.otr archive and place it next to the executable.",
+      "Launch the port; the game data is read locally from oot.otr and never distributed.",
+    ],
+    stepsEs: [
+      "Ten una copia de Ocarina of Time, del cartucho de Nintendo 64 o de la versión para Nintendo 3DS.",
+      "Extrae los datos del juego siguiendo la guía oficial de extracción del proyecto usando la versión que poseas.",
+      "Ejecuta la herramienta de extracción del proyecto para generar el archivo oot.otr y colócalo junto al ejecutable.",
+      "Lanza el port; los datos del juego se leen localmente desde oot.otr y nunca se redistribuyen.",
+    ],
+  },
 };

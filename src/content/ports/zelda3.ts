@@ -29,4 +29,18 @@ export const zelda3: Port = {
   ],
   notes:
     "Native port of The Legend of Zelda: A Link to the Past produced from the Super Nintendo source code, distributed as the tagged v0.3 release. Requires a legally owned ROM of the game.",
+  installGuide: {
+    steps: [
+      "Own a copy of A Link to the Past for the Super Nintendo (North American).",
+      "Dump the ROM from your cartridge with a tool you are legally entitled to use.",
+      "Rename the dump to zelda3.sfc and place it next to the game executable.",
+      "Launch the port; the original zelda3.sfc data is played locally.",
+    ],
+    stepsEs: [
+      "Ten una copia de A Link to the Past para Super Nintendo (versión americana).",
+      "Vuelca la ROM desde tu cartucho con una herramienta que tengas permiso legal de usar.",
+      "Renombra el volcado a zelda3.sfc y colócalo junto al ejecutable del juego.",
+      "Lanza el port; los datos del original zelda3.sfc se reproducen localmente.",
+    ],
+  },
 };

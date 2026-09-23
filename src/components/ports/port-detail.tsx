@@ -116,6 +116,19 @@ export function PortDetail({
         </section>
       )}
 
+      {port.installGuide && (
+        <section className="flex flex-col gap-2">
+          <h2 className="text-lg font-semibold tracking-tight">
+            {port.installGuide.title ?? t.detail.installTitle}
+          </h2>
+          <ol className="flex list-decimal flex-col gap-1.5 pl-5 text-sm leading-relaxed text-muted">
+            {port.installGuide.steps.map((step, index) => (
+              <li key={index}>{locale === "es" ? (port.installGuide?.stepsEs?.[index] ?? step) : step}</li>
+            ))}
+          </ol>
+        </section>
+      )}
+
       {port.requirements && (port.requirements.minimum || port.requirements.recommended) && (
         <section className="flex flex-col gap-2">
           <h2 className="text-lg font-semibold tracking-tight">{t.detail.requirements}</h2>

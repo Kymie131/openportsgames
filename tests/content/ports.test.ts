@@ -71,6 +71,20 @@ describe("catalog ports", () => {
         expect(shot.src, port.id).toMatch(/^https:\/\//);
         expect(shot.credit, port.id).toMatch(/^.{2,80}$/);
       }
+      if (port.installGuide) {
+        expect(port.installGuide.steps.length, port.id).toBeGreaterThan(0);
+        for (const step of port.installGuide.steps) {
+          expect(step, port.id).toMatch(/^.{3,300}$/);
+        }
+        if (port.installGuide.stepsEs) {
+          expect(port.installGuide.stepsEs.length, port.id).toBe(
+            port.installGuide.steps.length,
+          );
+          for (const step of port.installGuide.stepsEs) {
+            expect(step, port.id).toMatch(/^.{3,300}$/);
+          }
+        }
+      }
     }
   });
 });
