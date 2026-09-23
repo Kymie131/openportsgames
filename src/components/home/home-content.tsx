@@ -20,17 +20,19 @@ export function HomeContent() {
           <p className="text-pretty text-lg leading-8 text-muted">{t.brand.tagline}</p>
         </div>
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
-          <Button asChild size="lg">
+          <Button asChild variant="secondary" size="lg">
             <Link href="/ports">{t.home.browseCatalog}</Link>
           </Button>
-          {SUPPORT_PAYPAL_URL && (
-            <Button asChild variant="secondary" size="lg">
-              <a href={SUPPORT_PAYPAL_URL} target="_blank" rel="noopener noreferrer">
-                <Heart className="size-4" aria-hidden="true" />
-                {t.support.donate}
-              </a>
-            </Button>
-          )}
+          <Button asChild size="lg">
+            <a
+              href={SUPPORT_PAYPAL_URL || "/support"}
+              target={SUPPORT_PAYPAL_URL ? "_blank" : undefined}
+              rel={SUPPORT_PAYPAL_URL ? "noopener noreferrer" : undefined}
+            >
+              <Heart className="size-4" aria-hidden="true" />
+              {t.support.donate}
+            </a>
+          </Button>
         </div>
       </div>
     </Container>

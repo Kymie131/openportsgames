@@ -14,12 +14,16 @@ test("home hero links to the catalog", async ({ page }) => {
   );
 });
 
-test("home hero donate CTA follows the PayPal configuration", async ({ page }) => {
+test("home hero donate CTA is always visible and points to PayPal when configured", async ({
+  page,
+}) => {
   await page.goto("/");
   const donate = page.getByRole("link", { name: "Donate with PayPal" });
-  await expect(donate).toHaveCount(paypalUrl ? 1 : 0);
+  await expect(donate).toBeVisible();
   if (paypalUrl) {
     await expect(donate).toHaveAttribute("href", paypalUrl);
     await expect(donate).toHaveAttribute("rel", /noopener/);
+  } else {
+    await expect(donate).toHaveAttribute("href", "/support");
   }
 });
