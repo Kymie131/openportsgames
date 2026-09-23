@@ -6,6 +6,26 @@ The format is based on Keep a Changelog (https://keepachangelog.com/en/1.1.0/)
 and this project adheres to SemVer (https://semver.org/). Commits follow
 Conventional Commits.
 
+## [Unreleased]
+
+### Added
+
+- Home page: redesigned with live stats, a curated "Featured ports" section and
+  new landing sections.
+- Brand logo in the site header (transparent/dark variants per theme).
+- Console logos: Nintendo 3DS, Game Boy Advance, Nintendo DS.
+- Optional donation link on `/support` via `NEXT_PUBLIC_SUPPORT_PAYPAL_URL`.
+
+### Changed
+
+- Repo line endings normalized to LF (`.editorconfig` + Prettier `endOfLine`).
+- Vitest configuration loaded as ESM (`vitest.config.mts`).
+- `actions/checkout` pinned to a full commit SHA across all workflows.
+
+### Fixed
+
+- Vitest warning about ESM syntax in a CommonJS-loaded config file.
+
 ## [0.1.0] - 2026-09-19
 
 ### Added
