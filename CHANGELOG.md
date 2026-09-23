@@ -16,6 +16,7 @@ Conventional Commits.
 - Console logos: Nintendo 3DS, Game Boy Advance, Nintendo DS.
 - Optional donation link on `/support` via `NEXT_PUBLIC_SUPPORT_PAYPAL_URL`.
 - Team credits section on the `/about` page.
+- First registered test record (Silent Hill: Downpour) and its Tested badge.
 
 ### Changed
 

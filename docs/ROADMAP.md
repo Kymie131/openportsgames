@@ -29,7 +29,6 @@ this list is done as of the v1 release.
 
 ## Beyond v1 (ideas, not commitments)
 
-- Registered test records and the first real badges.
 - Screenshots sourced from official project assets.
 - An RSS/JSON feed of catalog changes.
 - Per-locale `alternate` hreflang links once canonical ES URLs exist.
