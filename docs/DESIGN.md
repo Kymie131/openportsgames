@@ -164,8 +164,9 @@ lg:grid-cols-3 xl:grid-cols-4`), 4 columns is the hard maximum so cards never
   screenshot when `port.screenshots` exist, otherwise the typographic game
   initial fallback — with the badge overlaid. When a port has more than one
   screenshot, a horizontal thumbnail strip below it swaps the hero image
-  (`aria-pressed` on the active thumb). No port currently ships screenshot
-  data, so the gallery UI is ready but inert until content is added.
+  (`aria-pressed` on the active thumb). Screenshots are official project
+  assets referenced by URL; ports without them fall back to the typographic
+  initial.
 
 ## Theme & locale behavior
 

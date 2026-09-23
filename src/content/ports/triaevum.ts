@@ -26,6 +26,28 @@ export const triAevum: Port = {
     "Single-screen Head-Up Display reimplementation",
     "Controller-free setup from a decrypted 3DS ROM",
   ],
+  screenshots: [
+    {
+      src: "https://raw.githubusercontent.com/coccofresco/TriAevum/main/docs/images/default-kokiri-forest.png",
+      alt: "Kokiri Forest in the default build of TriAevum",
+      credit: "TriAevum",
+    },
+    {
+      src: "https://raw.githubusercontent.com/coccofresco/TriAevum/main/docs/images/default-title.png",
+      alt: "Title screen of TriAevum",
+      credit: "TriAevum",
+    },
+    {
+      src: "https://raw.githubusercontent.com/coccofresco/TriAevum/main/docs/images/alpha2-kokiri.png",
+      alt: "Kokiri Forest in the alpha 2 build of TriAevum",
+      credit: "TriAevum",
+    },
+    {
+      src: "https://raw.githubusercontent.com/coccofresco/TriAevum/main/docs/images/alpha2-mounted-linux.png",
+      alt: "Riding Epona on Linux in the alpha 2 build of TriAevum",
+      credit: "TriAevum",
+    },
+  ],
   notes:
     "Native recompilation of The Legend of Zelda: Ocarina of Time 3D from the Nintendo 3DS version. The README states the project's development is entirely AI-assisted under human direction. The follow-up 0.6.0-alpha.3b release was withdrawn by the author; the catalog lists the last usable release. Requires a decrypted ROM from a copy the player owns.",
 };
