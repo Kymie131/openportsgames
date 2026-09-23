@@ -91,6 +91,29 @@ lg:grid-cols-3 xl:grid-cols-4`), 4 columns is the hard maximum so cards never
   engines (`robots: noindex`) automatically — they are never served as a plain
   404 so the takedown is documented at its original URL.
 
+## Console logo badges and media (Gallery)
+
+- **Artwork (`public/logos/console/`)**: real transparent logo PNGs owned by
+  this repo, in kebab-case slugs (`n64.png`, `gamecube.png`, `xbox-360.png`,
+  `ms-dos.png`, ...). `src/content/ports/console-logos.ts` maps each
+  `originalSystem` label to a slug and keeps an explicit `consoleLogoSlugs`
+  availability list; `consoleLogoForSystem` returns `null` when no artwork
+  exists so a badge can never render a broken image. The list is verified
+  against the folder by `tests/content/console-logos.test.ts`.
+- **Never invent artwork**: systems without a real logo keep the textual
+  `SystemMark` fallback. The `.jpg` and duplicate-size submissions were
+  discarded (jpg has no alpha; duplicates add no resolution).
+- **Badge (B-badge)**: the logo sits on a frosted chip (`bg-white/80` +
+  `backdrop-blur-sm`) at the **bottom-right** of the media area, with an
+  `aria-label` of the system name. On catalog tiles it is the centered artwork
+  of the `h-14` strip (replacing the initial + `SystemMark` combo).
+- **Detail media**: every port shows an `aspect-video` hero — the first
+  screenshot when `port.screenshots` exist, otherwise the typographic game
+  initial fallback — with the badge overlaid. When a port has more than one
+  screenshot, a horizontal thumbnail strip below it swaps the hero image
+  (`aria-pressed` on the active thumb). No port currently ships screenshot
+  data, so the gallery UI is ready but inert until content is added.
+
 ## Theme & locale behavior
 
 - Theme: inline pre-paint script in `<body>` sets `dark`/`light` class and

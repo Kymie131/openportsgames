@@ -6,6 +6,7 @@ import type { Port } from "@/lib/ports/schema";
 import { PlatformMark } from "@/components/platforms/platform-mark";
 import { SystemMark } from "@/components/platforms/system-mark";
 import { TestBadge, type TestStatus } from "./test-badge";
+import { consoleLogoForSystem } from "@/content/ports/console-logos";
 import { useT } from "@/lib/i18n/use-i18n";
 import { cn } from "@/lib/utils";
 
@@ -32,6 +33,7 @@ export function PortTile({
   const [source] = port.sources;
   const starLabel =
     stars !== undefined && stars > 0 ? new Intl.NumberFormat("en").format(stars) : undefined;
+  const consoleLogo = consoleLogoForSystem(system);
 
   return (
     <article
@@ -47,16 +49,28 @@ export function PortTile({
         className="flex h-14 items-center justify-center gap-2 rounded-md border border-border bg-surface-2 transition-colors duration-150 hover:border-accent-hover"
         aria-label={port.title}
       >
-        {system && (
-          <SystemMark
-            system={system}
-            glyphClassName="size-6"
-            labelClassName="text-sm font-semibold tracking-tight text-muted"
+        {consoleLogo ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={consoleLogo}
+            alt={system}
+            className="h-10 max-w-[70%] rounded-md bg-white/90 p-1.5 object-contain"
+            loading="lazy"
           />
+        ) : (
+          <>
+            {system && (
+              <SystemMark
+                system={system}
+                glyphClassName="size-6"
+                labelClassName="text-sm font-semibold tracking-tight text-muted"
+              />
+            )}
+            <span className="text-2xl font-semibold tracking-tight text-muted" aria-hidden="true">
+              {port.game.charAt(0)}
+            </span>
+          </>
         )}
-        <span className="text-2xl font-semibold tracking-tight text-muted" aria-hidden="true">
-          {port.game.charAt(0)}
-        </span>
       </Link>
 
       <div className="flex flex-1 flex-col gap-1">
