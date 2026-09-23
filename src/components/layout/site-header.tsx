@@ -10,6 +10,7 @@ import { cn } from "@/lib/utils";
 import { Container } from "./container";
 import { LanguageSwitcher } from "@/components/i18n/language-switcher";
 import { ThemeToggle } from "@/components/theme/theme-toggle";
+import { SUPPORT_PAYPAL_URL } from "@/lib/support";
 
 const NAV_ITEMS = [
   { href: "/", key: "home" as const },
@@ -100,6 +101,16 @@ export function SiteHeader() {
           </nav>
         </div>
         <div className="flex items-center gap-2">
+          {SUPPORT_PAYPAL_URL && (
+            <a
+              href={SUPPORT_PAYPAL_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden rounded-md border border-accent/40 px-3 py-1.5 text-sm text-accent transition-colors duration-150 hover:border-accent hover:text-accent-hover md:inline-flex"
+            >
+              Apoyar
+            </a>
+          )}
           <LanguageSwitcher />
           <ThemeToggle />
           <button
@@ -142,6 +153,17 @@ export function SiteHeader() {
                 </Link>
               );
             })}
+            {SUPPORT_PAYPAL_URL && (
+              <a
+                href={SUPPORT_PAYPAL_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setOpen(false)}
+                className="mt-1 inline-flex w-fit items-center rounded-md border border-accent/40 px-3 py-2 text-sm text-accent transition-colors duration-150 hover:border-accent hover:text-accent-hover"
+              >
+                Apoyar
+              </a>
+            )}
           </Container>
         </nav>
       )}

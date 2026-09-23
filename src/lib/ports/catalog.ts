@@ -102,6 +102,7 @@ export function catalogStateToParams(state: CatalogState): URLSearchParams {
 
 export function buildIndex(ports: Port[]): MiniSearch<Port> {
   const index = new MiniSearch<Port>({
+    idField: "id",
     fields: ["title", "id", "game", "developers", "publisher", "genre", "portType"],
     storeFields: ["id"],
     searchOptions: { prefix: true, fuzzy: 0.2, combineWith: "OR" },
