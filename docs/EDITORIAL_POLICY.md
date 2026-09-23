@@ -1,8 +1,8 @@
 # Editorial policy
 
-Rules the catalog follows, on-chain: they are enforced partly by data
-validation and partly by human review. The public-facing **Submit** page
-(`/submit`) states the acceptance criteria for proposals.
+Rules the catalog follows. They are enforced partly by data validation and
+partly by human review. The public-facing **Submit** page (`/submit`) states
+the acceptance criteria for proposals.
 
 ## Core rules
 

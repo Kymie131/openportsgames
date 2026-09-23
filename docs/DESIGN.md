@@ -94,18 +94,18 @@ lg:grid-cols-3 xl:grid-cols-4`), 4 columns is the hard maximum so cards never
   truncate), metadata (platform glyphs / status / version) as the tertiary row,
   footer with the official source. Equal heights because every text zone is
   clamped to a fixed number of lines.
-- **Badges (B3)**: a single consistent pair — status chip (stable/beta/alpha)
+- **Badges**: a single consistent pair — status chip (stable/beta/alpha)
   and test-status badge, both `rounded-full` and same font size.
-- **Fallback artwork (B4)**: the tile has no screenshot; the strip shows the
+- **Fallback artwork**: the tile has no screenshot; the strip shows the
   game's first letter on `surface-2` — typographic, neutral, no gradient.
-- **Micro-interaction (B5)**: `150ms` hover (within the 120–180ms budget) with
+- **Micro-interaction**: `150ms` hover (within the 120–180ms budget) with
   a subtle lift (`-translate-y-0.5`), accent border and faint shadow. Disabled
   under `prefers-reduced-motion`.
-- **Empty state (B6)**: icon + message + did-you-mean hint + "clear filters"
+- **Empty state**: icon + message + did-you-mean hint + "clear filters"
   action; no bare one-line message.
-- **Loading (B7)**: `PortTileSkeleton` cards with `aria-label` during route
+- **Loading**: `PortTileSkeleton` cards with `aria-label` during route
   loads (`/ports/loading.tsx`), matching the real tile layout.
-- **Takedown ports (A4)**: removed entries keep a detail page that renders a
+- **Takedown ports**: removed entries keep a detail page that renders a
   neutral takedown notice and is excluded from lists, sitemap and search
   engines (`robots: noindex`) automatically — they are never served as a plain
   404 so the takedown is documented at its original URL.
@@ -133,7 +133,7 @@ lg:grid-cols-3 xl:grid-cols-4`), 4 columns is the hard maximum so cards never
   happens in the client as a component state, so the URL is shareable and the
   back button works. The search box debounces (`150ms`) and resets the sort to
   relevance while typing.
-- **Persistence (10.2)**: with the URL clean and no active filters, a
+- **Persistence**: with the URL clean and no active filters, a
   previously stored filter set is restored from `localStorage`
   (`opg-catalog-filters`) and written to the URL. Filters are never stored when
   the user already has a URL: the URL is the source of truth and is copied to
@@ -144,7 +144,7 @@ lg:grid-cols-3 xl:grid-cols-4`), 4 columns is the hard maximum so cards never
   `aria-pressed` toggles; sections collapse with `aria-expanded`. Platform and
   original-system sections default to open, the rest collapsed.
 
-## Console logo badges and media (Gallery)
+## Console logo badges and media
 
 - **Artwork (`public/logos/console/`)**: real transparent logo PNGs owned by
   this repo, in kebab-case slugs (`n64.png`, `gamecube.png`, `xbox-360.png`,
@@ -156,7 +156,7 @@ lg:grid-cols-3 xl:grid-cols-4`), 4 columns is the hard maximum so cards never
 - **Never invent artwork**: systems without a real logo keep the textual
   `SystemMark` fallback. The `.jpg` and duplicate-size submissions were
   discarded (jpg has no alpha; duplicates add no resolution).
-- **Badge (B-badge)**: the logo sits on a frosted chip (`bg-white/80` +
+- **Badge**: the logo sits on a frosted chip (`bg-white/80` +
   `backdrop-blur-sm`) at the **bottom-right** of the media area, with an
   `aria-label` of the system name. On catalog tiles it is the centered artwork
   of the `h-14` strip (replacing the initial + `SystemMark` combo).

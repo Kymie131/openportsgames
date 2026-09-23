@@ -1,94 +1,101 @@
 # OpenPortsGames
 
-OpenPortsGames es una biblioteca pública y sin fines de lucro de ports
-nativos de videojuegos: decompilaciones, recompilaciones estáticas y
-reimplementaciones de motor para PC y Android. Cada ficha apunta a la fuente
-oficial del proyecto: repositorio, releases, Discord o el sitio de sus
-autores. El sitio no aloja ni enlaza archivos descargables.
+Un catálogo curado y sin fines de lucro de **ports nativos de videojuegos**:
+decompilaciones, recompilaciones y reimplementaciones de motor para PC y
+Android. Cada ficha apunta a la fuente oficial del proyecto: repositorio,
+releases, sitio web o documentación. **Nada se aloja ni se enlaza como archivo
+descargable.**
 
-Sitio totalmente estático. Sin cuentas, comentarios ni base de datos en esta
-etapa (ver `docs/ROADMAP.md`).
+Sitio totalmente estático: sin cuentas, sin comentarios, sin base de datos y
+sin rastreadores.
+
+- Interfaz EN/ES · temas claro y oscuro · orientado a WCAG
+- [Roadmap](docs/ROADMAP.md) · [Diseño](docs/DESIGN.md)
 
 ## Stack técnico
 
-- Next.js (App Router) con TypeScript en modo estricto
-- Tailwind CSS v4
+- **Next.js 16** (App Router, TypeScript estricto), **Tailwind CSS v4**
 - Export estático completo (`output: "export"`), desplegable en cualquier
   hosting estático
-- zod para esquemas de contenido, MiniSearch para búsqueda en cliente
-- next-intl para localización inglés/español
-- ESLint, Prettier, Vitest, Playwright
+- i18n EN/ES propia en el cliente (sin next-intl), `zod` para los esquemas de
+  datos, MiniSearch para la búsqueda en cliente, primitivas de Radix UI
+- Vitest (unit + validación de contenido), Playwright (e2e de humo),
+  ESLint/Prettier
 
 ## Requisitos
 
-- Node.js LTS (>= 22)
-- npm
+- **Node.js ≥ 22** y npm
 
-## Puesta en marcha
+## Puesta en marcha (menos de 5 minutos)
 
 ```bash
-npm install
-npm run dev
+npm install        # Linux: npm install --omit=optional si glibc se queja
+npm run dev        # http://localhost:3000
 ```
 
-Abre http://localhost:3000.
+Comandos útiles:
 
-## Scripts
+| Script | Qué hace |
+| --- | --- |
+| `npm run dev` | Servidor de desarrollo en `http://localhost:3000` |
+| `npm run build` | Export estático a `out/` |
+| `npm run lint` / `typecheck` | ESLint / `tsc --noEmit` |
+| `npm test` | Todos los tests de Vitest (unit + contenido) |
+| `npm run validate` | Validación de datos del catálogo únicamente |
+| `npm run check:updates` | Informa de versiones desactualizadas (mantenedores) |
+| `npm run test:e2e` | Tests de humo sobre el export (ver abajo) |
 
-| Script              | Descripcion                      |
-| ------------------- | -------------------------------- |
-| `npm run dev`       | Servidor de desarrollo           |
-| `npm run build`     | Export estatico a `out/`         |
-| `npm run lint`      | ESLint                           |
-| `npm run typecheck` | Tipos con `tsc --noEmit`         |
-| `npm run test`      | Tests unitarios (Vitest)         |
-| `npm run validate`  | Valida ports, hardware y pruebas |
-| `npm run test:e2e`  | Smoke tests de Playwright        |
+### Tests de humo
 
-## Estructura
+```bash
+npm run build
+PLAYWRIGHT_CHANNEL=msedge npm run test:e2e   # cambia msedge por el canal de tu navegador
+```
+
+## Estructura del repositorio
 
 ```
-content/            Datos del catalogo (ports, hardware, pruebas)
-docs/               Arquitectura, modelo de datos, politica editorial
 src/
-  app/              Paginas y rutas del App Router
-  components/       Componentes de interfaz
-  lib/              Capa de datos y utilidades
+  app/          Rutas (server), incl. /api/ports.json y sitemap/robots
+  components/   UI en cliente (catálogo, detalle, docs, header/footer, i18n, tema)
+  content/      Datos del catálogo: ports/*.ts, hardware, pruebas, meta
+  lib/          Capa de datos (ports), diccionarios i18n, helpers de sitio/seo/fechas
 tests/
-  unit/             Tests unitarios
-  content/          Tests de validacion de datos
-  e2e/              Smoke tests de Playwright
+  unit/         Vitest — utilidades y capa de datos
+  content/      Vitest — invariantes de datos exigidas en CI
+  e2e/          Tests de humo de Playwright
+docs/           Arquitectura, modelo de datos, API, política editorial, pruebas,
+                diseño, despliegue, roadmap, verificación pendiente
+scripts/        Comprobador de últimas releases, servidor de previsualización
 ```
-
-Los datos viven en `content/` como JSON validados con zod. Todo el acceso
-pasa por una capa unica (`src/lib/ports`) para poder sustituir el origen JSON
-por una base de datos sin tocar los componentes.
-
-## Localizacion
-
-Ingles por defecto. La interfaz y las guias estan tambien en espanol, con
-deteccion del idioma del navegador y selector manual EN/ES.
 
 ## Variables de entorno
 
-Copia `.env.example` a `.env.local` y ajusta. `NEXT_PUBLIC_SITE_URL` es
-necesaria para metadatos y `sitemap.xml`. `PAYPAL_DONATION_URL` activa el
-enlace opcional de la pagina `/support`.
+Copia `.env.example` a `.env.local` (opcional) y ajusta:
 
-## Despliegue
+| Variable | Propósito |
+| --- | --- |
+| `NEXT_PUBLIC_SITE_URL` | Canónicas, OG, sitemap, robots (sin barra final) |
+| `NEXT_PUBLIC_BASE_PATH` | Prefijo de subcarpeta (GitHub Pages) |
+| `NEXT_PUBLIC_SUPPORT_PAYPAL_URL` | Enlace de donación opcional en `/support` |
 
-Objetivos soportados: Cloudflare Pages, Vercel, GitHub Pages. Instrucciones
-en `docs/DEPLOYMENT.md`.
+## Documentación
 
-## Como contribuir
+- [Arquitectura](docs/ARCHITECTURE.md) · [Modelo de datos](docs/DATA_MODEL.md) · [API](docs/API.md)
+- [Política editorial](docs/EDITORIAL_POLICY.md) · [Metodología de pruebas](docs/TESTING_METHODOLOGY.md)
+- [Diseño](docs/DESIGN.md) · [Despliegue](docs/DEPLOYMENT.md) · [Roadmap](docs/ROADMAP.md)
+- [Verificación pendiente](docs/PENDING_VERIFICATION.md)
 
-Ver `CONTRIBUTING.md`. Las plantillas de issue cubren proponer un port,
-agregar una prueba, reportar un enlace roto y solicitar una retirada.
+## Contribuciones
+
+Ver [CONTRIBUTING.md](CONTRIBUTING.md). Las plantillas de issue cubren
+proponer un port, reportar una prueba, reportar datos incorrectos y solicitar
+una retirada (la página **Submit** enlaza a ellas).
 
 ## Licencias
 
-- Codigo: MIT License (`LICENSE`)
-- Datos del catalogo: CC BY 4.0 (`LICENSE-DATA`)
+- Código: MIT — ver `LICENSE`
+- Datos del catálogo: CC BY 4.0 — ver `LICENSE-DATA`
 
-Sin afiliacion con ninguna compania de videojuegos. Las marcas de los juegos
+Sin afiliación con ninguna compañía de videojuegos. Las marcas de los juegos
 pertenecen a sus propietarios y se usan solo para identificar los proyectos.

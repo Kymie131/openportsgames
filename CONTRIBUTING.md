@@ -29,7 +29,7 @@ templates, which keep reports structured.
 
 ## Adding or updating a port
 
-1. Read `docs/DATA_MODEL.md` for the field list and `content/ports/` for
+1. Read `docs/DATA_MODEL.md` for the field list and `src/content/ports/` for
    existing examples.
 2. Only use links that pass the editorial rules in `docs/EDITORIAL_POLICY.md`.
 3. Set `verified: true` only if you checked the repository or official site

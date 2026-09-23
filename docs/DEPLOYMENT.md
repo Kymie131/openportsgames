@@ -59,8 +59,10 @@ NEXT_PUBLIC_SITE_URL=https://<user>.github.io/openportsgames
 NEXT_PUBLIC_BASE_PATH=/openportsgames
 ```
 
-`next.config.ts` turns on `basePath` when the variable is set; all links,
-assets and routes are prefixed automatically.
+`next.config.ts` turns on `basePath` when the variable is set; links and
+routes are prefixed automatically. URLs pointing into `public/` that are used
+in raw `<img>` tags must be prefixed explicitly (see `assetPath()` in
+`src/lib/utils.ts`).
 
 ## Security headers
 
