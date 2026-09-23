@@ -9,6 +9,8 @@ export const openTtd: Port = {
   publisher: "MicroProse",
   originalYear: 1994,
   portType: "reimplementation",
+  genre: "simulation",
+  openSource: true,
   platforms: ["windows", "linux", "macos"],
   status: "stable",
   release: { version: "15.3", date: "2026-04-04" },

@@ -9,6 +9,8 @@ export const sm64ex: Port = {
   publisher: "Nintendo",
   originalYear: 1996,
   portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
   platforms: ["windows", "linux", "macos"],
   status: "stable",
   release: { version: null, date: null },

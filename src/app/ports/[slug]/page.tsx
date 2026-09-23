@@ -2,11 +2,13 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Container } from "@/components/layout/container";
 import { PortDetail } from "@/components/ports/port-detail";
+import { TakedownNotice } from "@/components/ports/takedown-notice";
 import { JsonLd } from "@/components/seo/json-ld";
 import { pageMeta } from "@/lib/seo";
 import {
   getPort,
-  getPorts,
+  getPortIdSet,
+  getTakedownPort,
   getTestsForPort,
   getTestStatuses,
   originalSystemOf,
@@ -15,7 +17,7 @@ import {
 import { absoluteUrl } from "@/lib/site";
 
 export function generateStaticParams() {
-  return getPorts().map((port) => ({ slug: port.id }));
+  return [...getPortIdSet()].map((id) => ({ slug: id }));
 }
 
 export async function generateMetadata({
@@ -25,7 +27,14 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const port = getPort(slug);
-  if (!port) return {};
+  if (!port) {
+    const takedown = getTakedownPort(slug);
+    if (!takedown) return {};
+    return {
+      title: takedown.title,
+      robots: { index: false, follow: false },
+    };
+  }
   return pageMeta({
     title: port.title,
     description: port.notes ?? `${port.game} native port for ${port.platforms.join(", ")}.`,
@@ -36,7 +45,17 @@ export async function generateMetadata({
 export default async function PortPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const port = getPort(slug);
-  if (!port) notFound();
+  if (!port) {
+    const takedown = getTakedownPort(slug);
+    if (!takedown) notFound();
+    return (
+      <section className="py-8">
+        <Container className="max-w-3xl">
+          <TakedownNotice port={takedown} />
+        </Container>
+      </section>
+    );
+  }
 
   const tests = getTestsForPort(port.id);
   const hardwareById = Object.fromEntries(hardware.map((profile) => [profile.id, profile]));
@@ -55,7 +74,13 @@ export default async function PortPage({ params }: { params: Promise<{ slug: str
           license: port.license.spdx,
           genre: "Native re-release",
           operatingSystem: port.platforms.map((platform) =>
-            platform === "windows" ? "Windows" : platform === "linux" ? "Linux" : platform === "macos" ? "macOS" : "Android",
+            platform === "windows"
+              ? "Windows"
+              : platform === "linux"
+                ? "Linux"
+                : platform === "macos"
+                  ? "macOS"
+                  : "Android",
           ),
           inLanguage: ["en", "es"],
         }}

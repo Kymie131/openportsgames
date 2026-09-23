@@ -4,13 +4,13 @@ Static, versioned snapshot of the complete catalog. It is emitted at build
 time (`src/app/api/ports.json/route.ts` via `src/lib/ports/api-json.ts`):
 the same file every consumer reads is the one validated in CI.
 
-## Payload (v1)
+## Payload (v2)
 
 ```jsonc
 {
   "schema": "openportsgames/catalog", // fixed marker
-  "version": 1,                       // bump when breaking fields change
-  "generatedAt": "2026-09-19",        // build date, YYYY-MM-DD
+  "version": 2,                       // bump when breaking fields change
+  "generatedAt": "2026-09-22",        // build date, YYYY-MM-DD
   "site": "https://openportsgames.example",
   "ports": [
     {
@@ -20,6 +20,8 @@ the same file every consumer reads is the one validated in CI.
       "developers": ["…"],
       "publisher": "…",
       "originalYear": 2000,
+      "genre": "action-adventure",     // added in v2
+      "openSource": true,              // added in v2
       "portType": "decompilation",
       "platforms": ["windows"],
       "status": "stable",
@@ -27,6 +29,7 @@ the same file every consumer reads is the one validated in CI.
       "sources": ["https://github.com/HarbourMasters/2ship2harkinian"],
       "website": "…",
       "docs": "…",
+      "discord": "…",      // optional, official community server
       "license": { "spdx": "CC0-1.0" },
       "aiDisclosure": false,
       "verified": true,
@@ -47,9 +50,11 @@ the same file every consumer reads is the one validated in CI.
 Notes:
 
 - `ports` excludes `takedown` entries.
-- `sources`, `website`, `docs` are always `https:` official links.
+- `sources`, `website`, `docs`, `discord` are always `https:` official links.
 - `release.version` is nullable and `release.date` nullable; content
   invariants are documented in `docs/DATA_MODEL.md`.
+- v2 adds the required `genre` (enum) and `openSource` (boolean) fields to
+  every port; v1 consumers must tolerate the new keys or parse against v2.
 
 ## Schema
 

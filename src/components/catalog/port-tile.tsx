@@ -17,30 +17,47 @@ const STATUS_TONE: Record<Port["status"], string> = {
 export function PortTile({
   port,
   testStatus,
+  stars,
+  className,
 }: {
   port: Port;
   testStatus?: TestStatus;
+  stars?: number;
+  className?: string;
 }) {
   const t = useT();
   const [source] = port.sources;
+  const starLabel =
+    stars !== undefined && stars > 0 ? new Intl.NumberFormat("en").format(stars) : undefined;
 
   return (
-    <article className="flex h-full flex-col gap-3 rounded-lg border border-border bg-surface p-4 transition-colors duration-150 hover:bg-surface-2">
+    <article
+      className={cn(
+        "flex h-full flex-col gap-3 rounded-lg border border-border bg-surface p-4",
+        "transition-[border-color,background-color,box-shadow,transform] duration-150",
+        "hover:-translate-y-0.5 hover:border-accent-hover hover:bg-surface-2 hover:shadow-sm",
+        className,
+      )}
+    >
       <Link
         href={`/ports/${port.id}`}
-        className="flex h-14 items-center justify-center rounded-md border border-border bg-surface-2 transition-colors hover:border-accent-hover"
+        className="flex h-14 items-center justify-center rounded-md border border-border bg-surface-2 transition-colors duration-150 hover:border-accent-hover"
         aria-label={port.title}
       >
-        <span className="text-2xl font-semibold tracking-tight text-muted">
+        <span className="text-2xl font-semibold tracking-tight text-muted" aria-hidden="true">
           {port.game.charAt(0)}
         </span>
       </Link>
 
       <div className="flex flex-1 flex-col gap-1">
-        <Link href={`/ports/${port.id}`} className="text-base font-semibold leading-snug hover:text-link">
+        <h3 className="line-clamp-2 text-base font-semibold leading-snug">
+          <Link href={`/ports/${port.id}`} className="hover:text-link">
+            {port.game}
+          </Link>
+        </h3>
+        <p className="truncate text-sm text-muted" title={port.title}>
           {port.title}
-        </Link>
-        <p className="text-sm text-muted">{port.game}</p>
+        </p>
       </div>
 
       <div className="flex items-center justify-between gap-2">
@@ -51,10 +68,7 @@ export function PortTile({
         </div>
         <div className="flex flex-wrap items-center justify-end gap-1.5">
           <span
-            className={cn(
-              "rounded-full px-2 py-0.5 text-xs font-medium",
-              STATUS_TONE[port.status],
-            )}
+            className={cn("rounded-full px-2 py-0.5 text-xs font-medium", STATUS_TONE[port.status])}
           >
             {t.catalog[`status${cap(port.status)}`]}
           </span>
@@ -65,6 +79,7 @@ export function PortTile({
       {port.release.version && (
         <p className="text-xs text-muted">
           {t.catalog.version} {port.release.version}
+          {starLabel && <span className="ml-2 text-muted">★ {starLabel}</span>}
         </p>
       )}
 
@@ -84,6 +99,42 @@ export function PortTile({
   );
 }
 
+export function PortTileSkeleton({
+  className,
+  label = "Loading",
+}: {
+  className?: string;
+  label?: string;
+}) {
+  return (
+    <div
+      role="status"
+      aria-label={label}
+      className={cn(
+        "flex h-full flex-col gap-3 rounded-lg border border-border bg-surface p-4",
+        className,
+      )}
+    >
+      <div className="h-14 animate-pulse rounded-md bg-surface-2" aria-hidden="true" />
+      <div className="flex flex-1 flex-col gap-2" aria-hidden="true">
+        <div className="h-4 w-3/4 animate-pulse rounded bg-surface-2" />
+        <div className="h-4 w-1/2 animate-pulse rounded bg-surface-2" />
+        <div className="mt-1 h-3 w-2/3 animate-pulse rounded bg-surface-2" />
+      </div>
+      <div className="flex items-center justify-between gap-2" aria-hidden="true">
+        <div className="flex gap-2.5">
+          <div className="size-4 animate-pulse rounded-sm bg-surface-2" />
+          <div className="size-4 animate-pulse rounded-sm bg-surface-2" />
+        </div>
+        <div className="h-5 w-16 animate-pulse rounded-full bg-surface-2" />
+      </div>
+      <div className="border-t border-border pt-3" aria-hidden="true">
+        <div className="h-4 w-24 animate-pulse rounded bg-surface-2" />
+      </div>
+    </div>
+  );
+}
+
 function cap(value: "stable" | "beta" | "alpha"): "Stable" | "Beta" | "Alpha" {
-  return value.charAt(0).toUpperCase() + value.slice(1) as "Stable" | "Beta" | "Alpha";
+  return (value.charAt(0).toUpperCase() + value.slice(1)) as "Stable" | "Beta" | "Alpha";
 }

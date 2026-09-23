@@ -8,10 +8,16 @@ import { useT } from "@/lib/i18n/use-i18n";
 export function CatalogPage({
   ports,
   testStatuses,
+  testResults,
+  originalSystems,
+  stars,
   scope,
 }: {
   ports: Port[];
   testStatuses: Record<string, "current" | "stale">;
+  testResults: Record<string, "pass" | "fail">;
+  originalSystems: Record<string, string>;
+  stars: Record<string, number>;
   scope: CatalogScope;
 }) {
   const t = useT();
@@ -25,7 +31,14 @@ export function CatalogPage({
         <h1 className="text-2xl font-semibold tracking-tight">{title}</h1>
         <p className="text-sm text-muted">{subtitle}</p>
       </header>
-      <CatalogClient ports={ports} testStatuses={testStatuses} scope={scope} />
+      <CatalogClient
+        ports={ports}
+        testStatuses={testStatuses}
+        testResults={testResults}
+        originalSystems={originalSystems}
+        stars={stars}
+        scope={scope}
+      />
     </div>
   );
 }

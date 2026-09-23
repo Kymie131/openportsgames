@@ -1,0 +1,1 @@
+export const githubStars: Record<string, number> = {};
