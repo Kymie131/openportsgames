@@ -168,6 +168,41 @@ const en = {
   },
   home: {
     browseCatalog: "Browse the catalog",
+    eyebrow: "Native ports",
+    lead:
+      "A curated catalog of native ports for PC and Android: decompilations, recompilations and engine rewrites. Every entry links to the project's official source.",
+    statsPorts: (count: number) => `${count} ports catalogued`,
+    statsAndroid: (count: number) => `${count} for Android`,
+    statsSources: "Official sources only",
+    featuredTitle: "Featured ports",
+    featuredSubtitle:
+      "A hand-picked slice of the catalog. The full list lets you filter by platform, system and status.",
+    viewAll: "Browse the full catalog",
+    exploreTitle: "Explore the site",
+    exploreSubtitle: "The catalog first, then the sections that keep it working.",
+    explorePC: "PC releases",
+    explorePCDesc: "The full catalog filtered to Windows and Linux.",
+    exploreAndroid: "Android releases",
+    exploreAndroidDesc: "Ports that run on Android devices.",
+    exploreGuides: "Guides",
+    exploreGuidesDesc: "What a native port is and how to run these projects legally.",
+    exploreTesting: "Testing",
+    exploreTestingDesc: "How ports are verified on the team's hardware.",
+    principlesTitle: "Why native ports",
+    principlesSubtitle:
+      "What separates a native port from other ways of playing a classic game.",
+    principleNative: "No emulator",
+    principleNativeDesc:
+      "The game runs as native code on the target platform. No emulator or compatibility layer in between.",
+    principleOpen: "Open source",
+    principleOpenDesc:
+      "Projects keep their code public and release through their official channels.",
+    principleOwn: "Your own copy",
+    principleOwnDesc:
+      "Many projects require files from the original game you already own. This catalog hosts no files.",
+    ctaTitle: "Missing a port?",
+    ctaDesc: "Check the editorial policy, then propose a port for the catalog.",
+    ctaContribute: "Propose a port",
   },
   footer: {
     about:
@@ -503,6 +538,41 @@ const es: Messages = {
   },
   home: {
     browseCatalog: "Explorar el catálogo",
+    eyebrow: "Ports nativos",
+    lead:
+      "Un catálogo curado de ports nativos para PC y Android: decompilaciones, recompilaciones y reescrituras de motor. Cada ficha enlaza a la fuente oficial del proyecto.",
+    statsPorts: (count: number) => `${count} ports en el catálogo`,
+    statsAndroid: (count: number) => `${count} para Android`,
+    statsSources: "Solo fuentes oficiales",
+    featuredTitle: "Ports destacados",
+    featuredSubtitle:
+      "Una selección del catálogo. La lista completa permite filtrar por plataforma, sistema y estado.",
+    viewAll: "Explorar el catálogo completo",
+    exploreTitle: "Explora el sitio",
+    exploreSubtitle: "Primero el catálogo; después, las secciones que lo sostienen.",
+    explorePC: "Para PC",
+    explorePCDesc: "El catálogo completo filtrado por Windows y Linux.",
+    exploreAndroid: "Para Android",
+    exploreAndroidDesc: "Ports que funcionan en dispositivos Android.",
+    exploreGuides: "Guías",
+    exploreGuidesDesc: "Qué es un port nativo y cómo usar estos proyectos legalmente.",
+    exploreTesting: "Pruebas",
+    exploreTestingDesc: "Cómo se verifican los ports en el hardware del equipo.",
+    principlesTitle: "Por qué ports nativos",
+    principlesSubtitle:
+      "Qué diferencia a un port nativo de otras maneras de jugar un juego clásico.",
+    principleNative: "Sin emulador",
+    principleNativeDesc:
+      "El juego corre como código nativo en la plataforma de destino. Sin emuladores ni capas de compatibilidad.",
+    principleOpen: "Código abierto",
+    principleOpenDesc:
+      "Los proyectos mantienen su código público y publican por sus canales oficiales.",
+    principleOwn: "Tu propia copia",
+    principleOwnDesc:
+      "Muchos proyectos necesitan los archivos del juego original que ya tienes. Este catálogo no aloja archivos.",
+    ctaTitle: "¿Falta un port?",
+    ctaDesc: "Revisa la política editorial y propón un port para el catálogo.",
+    ctaContribute: "Proponer un port",
   },
   footer: {
     about:
