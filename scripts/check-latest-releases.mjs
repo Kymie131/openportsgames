@@ -86,9 +86,16 @@ const lines = [];
 lines.push("# Catalog update check", "");
 lines.push(`Checked ${rows.length} verified ports. ${stale.length} may be out of date.`, "");
 if (stale.length) {
-  lines.push("## Ports possibly out of date", "", "| Port | Stored | Latest tag | Released |", "| --- | --- | --- | --- |");
+  lines.push(
+    "## Ports possibly out of date",
+    "",
+    "| Port | Stored | Latest tag | Released |",
+    "| --- | --- | --- | --- |",
+  );
   for (const row of stale) {
-    lines.push(`| ${row.title} (\`${row.id}\`) | ${row.stored} | ${row.remote} | ${row.remoteDate ?? "n/a"} |`);
+    lines.push(
+      `| ${row.title} (\`${row.id}\`) | ${row.stored} | ${row.remote} | ${row.remoteDate ?? "n/a"} |`,
+    );
   }
   lines.push("", "Update `src/content/ports/*.ts`, bump `verifiedAt` and open a PR.");
 } else {

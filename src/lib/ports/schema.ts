@@ -23,9 +23,7 @@ export const genres = [
 ] as const;
 export type Genre = (typeof genres)[number];
 
-const isoDate = z
-  .string()
-  .regex(/^\d{4}-\d{2}-\d{2}$/, "expected an ISO date (YYYY-MM-DD)");
+const isoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "expected an ISO date (YYYY-MM-DD)");
 
 export const versionString = z
   .string()

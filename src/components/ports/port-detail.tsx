@@ -2,7 +2,15 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { ArrowLeft, CircleAlert, CircleCheck, ExternalLink, FileText, Globe, MessageCircle } from "lucide-react";
+import {
+  ArrowLeft,
+  CircleAlert,
+  CircleCheck,
+  ExternalLink,
+  FileText,
+  Globe,
+  MessageCircle,
+} from "lucide-react";
 import type { HardwareProfile, Port, TestRecord } from "@/lib/ports/schema";
 import type { TestStatus } from "@/components/catalog/test-badge";
 import { TestBadge } from "@/components/catalog/test-badge";
@@ -104,18 +112,24 @@ export function PortDetail({
           </dd>
         </div>
         <Row label={t.detail.technique} value={t.portTypes[port.portType]} />
-        <Row label={t.detail.license} value={port.license.note ? `${port.license.spdx} · ${port.license.note}` : port.license.spdx} />
+        <Row
+          label={t.detail.license}
+          value={
+            port.license.note ? `${port.license.spdx} · ${port.license.note}` : port.license.spdx
+          }
+        />
         <Row label={t.detail.version} value={port.release.version ?? "—"} />
-        <Row label={t.detail.date} value={port.release.date ? formatDate(port.release.date, locale) : "—"} />
+        <Row
+          label={t.detail.date}
+          value={port.release.date ? formatDate(port.release.date, locale) : "—"}
+        />
       </dl>
 
       {port.notes && (
         <section className="flex flex-col gap-2">
           <h2 className="text-lg font-semibold tracking-tight">{t.detail.about}</h2>
           <p className="text-sm leading-relaxed text-muted">{port.notes}</p>
-          {needsOriginalAssets && (
-            <p className="text-sm text-muted">{t.detail.dependencies}</p>
-          )}
+          {needsOriginalAssets && <p className="text-sm text-muted">{t.detail.dependencies}</p>}
         </section>
       )}
 
@@ -137,7 +151,9 @@ export function PortDetail({
           </h2>
           <ol className="flex list-decimal flex-col gap-1.5 pl-5 text-sm leading-relaxed text-muted">
             {port.installGuide.steps.map((step, index) => (
-              <li key={index}>{locale === "es" ? (port.installGuide?.stepsEs?.[index] ?? step) : step}</li>
+              <li key={index}>
+                {locale === "es" ? (port.installGuide?.stepsEs?.[index] ?? step) : step}
+              </li>
             ))}
           </ol>
         </section>
@@ -247,7 +263,11 @@ export function PortDetail({
               return (
                 <li
                   key={test.id}
-                  className={stale ? "rounded-lg border border-border bg-surface-2 p-4" : "rounded-lg border border-border bg-surface p-4"}
+                  className={
+                    stale
+                      ? "rounded-lg border border-border bg-surface-2 p-4"
+                      : "rounded-lg border border-border bg-surface p-4"
+                  }
                 >
                   <div className="flex flex-wrap items-center justify-between gap-2">
                     <div className="flex items-center gap-2">
@@ -365,7 +385,12 @@ function PortGallery({
       <h2 className="text-lg font-semibold tracking-tight">{t.detail.screenshots}</h2>
       <div className="relative flex aspect-video items-center justify-center overflow-hidden rounded-lg border border-border bg-surface-2">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={assetPath(active.src)} alt={active.alt} className="h-full w-full object-cover" loading="lazy" />
+        <img
+          src={assetPath(active.src)}
+          alt={active.alt}
+          className="h-full w-full object-cover"
+          loading="lazy"
+        />
         <ConsoleBadge system={originalSystem} />
       </div>
       {screenshots.length > 1 && (
@@ -383,7 +408,12 @@ function PortGallery({
               }
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={assetPath(shot.src)} alt="" className="h-16 w-28 object-cover" loading="lazy" />
+              <img
+                src={assetPath(shot.src)}
+                alt=""
+                className="h-16 w-28 object-cover"
+                loading="lazy"
+              />
             </button>
           ))}
         </div>

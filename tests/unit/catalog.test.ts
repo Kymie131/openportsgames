@@ -104,11 +104,7 @@ describe("applyCatalog", () => {
   });
 
   it("combines query and filters", () => {
-    const { results } = applyCatalog(
-      ports,
-      index,
-      state({ query: "quake", state: ["verified"] }),
-    );
+    const { results } = applyCatalog(ports, index, state({ query: "quake", state: ["verified"] }));
     expect(results.length).toBeGreaterThan(0);
     for (const port of results) {
       expect(port.verified).toBe(true);
@@ -132,14 +128,10 @@ describe("applyCatalog", () => {
   });
 
   it("filters by original system label", () => {
-    const systems: Record<string, string> = { "sm64ex": "Nintendo 64" };
-    const { results } = applyCatalog(
-      ports,
-      index,
-      state({ system: ["Nintendo 64"] }),
-      "all",
-      { originalSystems: systems },
-    );
+    const systems: Record<string, string> = { sm64ex: "Nintendo 64" };
+    const { results } = applyCatalog(ports, index, state({ system: ["Nintendo 64"] }), "all", {
+      originalSystems: systems,
+    });
     for (const port of results) {
       expect(systems[port.id] ?? "").toBe("Nintendo 64");
     }
@@ -172,7 +164,7 @@ describe("applyCatalog", () => {
   });
 
   it("filters by latest test result using per-port test results", () => {
-    const testResults: Record<string, "pass" | "fail"> = { "dusklight": "pass" };
+    const testResults: Record<string, "pass" | "fail"> = { dusklight: "pass" };
     const passed = applyCatalog(ports, index, state({ tested: ["pass"] }), "all", { testResults });
     expect(passed.results.map((port) => port.id)).toEqual(["dusklight"]);
     const untested = applyCatalog(ports, index, state({ tested: ["untested"] }), "all", {
@@ -182,7 +174,7 @@ describe("applyCatalog", () => {
   });
 
   it("sorts by GitHub stars descending with title fallback", () => {
-    const stars: Record<string, number> = { "openttd": 500, "openmw": 100 };
+    const stars: Record<string, number> = { openttd: 500, openmw: 100 };
     const { results } = applyCatalog(ports, index, state({ sort: "stars" }), "all", { stars });
     const ranked = results.filter((port) => stars[port.id] !== undefined);
     expect(ranked.map((port) => port.id)).toEqual(["openttd", "openmw"]);
@@ -198,9 +190,9 @@ describe("applyCatalog", () => {
 
   it("lists unique original systems alphabetically", () => {
     const systems: Record<string, string> = {
-      "sm64ex": "Nintendo 64",
+      sm64ex: "Nintendo 64",
       "ship-of-harkinian": "Nintendo 64",
-      "openmw": "Personal computer",
+      openmw: "Personal computer",
     };
     expect(availableSystems(ports, systems)).toEqual(["Nintendo 64", "Personal computer"]);
   });
@@ -257,9 +249,7 @@ describe("filter helpers", () => {
 
   it("counts selected values and non-default sorts", () => {
     expect(activeFilterCount(state({}))).toBe(0);
-    expect(
-      activeFilterCount(state({ status: ["beta", "alpha"], platform: ["windows"] })),
-    ).toBe(3);
+    expect(activeFilterCount(state({ status: ["beta", "alpha"], platform: ["windows"] }))).toBe(3);
     expect(activeFilterCount(state({ sort: "relevance" }))).toBe(0);
     expect(activeFilterCount(state({ sort: "stars", ai: ["yes"] }))).toBe(2);
   });

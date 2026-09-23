@@ -11,8 +11,6 @@ export function Card({
   as?: "div" | "article" | "li" | "section";
 }) {
   return (
-    <Tag className={cn("rounded-lg border border-border bg-surface", className)}>
-      {children}
-    </Tag>
+    <Tag className={cn("rounded-lg border border-border bg-surface", className)}>{children}</Tag>
   );
 }

@@ -87,7 +87,10 @@ export function HomeContent({
             <dd className="mt-0.5 text-sm text-muted">{t.home.statsAndroid(counts.android)}</dd>
           </div>
           <div className="bg-surface px-5 py-4">
-            <dt className="text-2xl font-semibold tracking-tight text-foreground" aria-hidden="true">
+            <dt
+              className="text-2xl font-semibold tracking-tight text-foreground"
+              aria-hidden="true"
+            >
               100%
             </dt>
             <dd className="mt-0.5 text-sm text-muted">{t.home.statsSources}</dd>
@@ -135,7 +138,12 @@ export function HomeContent({
           subtitle={t.home.exploreSubtitle}
         />
         <ul className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          <ExploreCard href="/pc" icon={Monitor} title={t.home.explorePC} description={t.home.explorePCDesc} />
+          <ExploreCard
+            href="/pc"
+            icon={Monitor}
+            title={t.home.explorePC}
+            description={t.home.explorePCDesc}
+          />
           <ExploreCard
             href="/android"
             icon={Smartphone}
@@ -165,9 +173,21 @@ export function HomeContent({
           subtitle={t.home.principlesSubtitle}
         />
         <ul className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-3">
-          <PrincipleCard icon={Zap} title={t.home.principleNative} description={t.home.principleNativeDesc} />
-          <PrincipleCard icon={Code} title={t.home.principleOpen} description={t.home.principleOpenDesc} />
-          <PrincipleCard icon={HardDrive} title={t.home.principleOwn} description={t.home.principleOwnDesc} />
+          <PrincipleCard
+            icon={Zap}
+            title={t.home.principleNative}
+            description={t.home.principleNativeDesc}
+          />
+          <PrincipleCard
+            icon={Code}
+            title={t.home.principleOpen}
+            description={t.home.principleOpenDesc}
+          />
+          <PrincipleCard
+            icon={HardDrive}
+            title={t.home.principleOwn}
+            description={t.home.principleOwnDesc}
+          />
         </ul>
       </section>
 
@@ -192,15 +212,7 @@ export function HomeContent({
   );
 }
 
-function SectionHeading({
-  id,
-  title,
-  subtitle,
-}: {
-  id: string;
-  title: string;
-  subtitle: string;
-}) {
+function SectionHeading({ id, title, subtitle }: { id: string; title: string; subtitle: string }) {
   return (
     <div className="max-w-2xl space-y-1">
       <h2 id={id} className="text-2xl font-semibold tracking-tight text-foreground">

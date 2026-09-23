@@ -347,12 +347,7 @@ export function CatalogClient({
   );
 }
 
-type SortLabelKey =
-  | "sortRelevance"
-  | "sortTitle"
-  | "sortTitleDesc"
-  | "sortNewest"
-  | "sortStars";
+type SortLabelKey = "sortRelevance" | "sortTitle" | "sortTitleDesc" | "sortNewest" | "sortStars";
 
 const SORT_OPTIONS: [SortKey, SortLabelKey][] = [
   ["relevance", "sortRelevance"],
@@ -362,15 +357,7 @@ const SORT_OPTIONS: [SortKey, SortLabelKey][] = [
   ["stars", "sortStars"],
 ];
 
-function Chip({
-  active,
-  onClick,
-  label,
-}: {
-  active: boolean;
-  onClick: () => void;
-  label: string;
-}) {
+function Chip({ active, onClick, label }: { active: boolean; onClick: () => void; label: string }) {
   return (
     <button
       type="button"
@@ -408,7 +395,10 @@ function FilterSection({
         >
           <span>{title}</span>
           <ChevronDown
-            className={cn("size-4 shrink-0 text-muted transition-transform duration-150", open && "rotate-180")}
+            className={cn(
+              "size-4 shrink-0 text-muted transition-transform duration-150",
+              open && "rotate-180",
+            )}
             aria-hidden="true"
           />
         </button>

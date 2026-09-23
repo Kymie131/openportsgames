@@ -31,15 +31,15 @@ npm run dev        # http://localhost:3000
 
 Useful commands:
 
-| Script | What it does |
-| --- | --- |
-| `npm run dev` | Dev server on `http://localhost:3000` |
-| `npm run build` | Static export into `out/` |
-| `npm run lint` / `typecheck` | ESLint / `tsc --noEmit` |
-| `npm test` | All Vitest tests (unit + content) |
-| `npm run validate` | Catalog/hardware/test data validation only |
-| `npm run check:updates` | Report outdated versions (maintainers) |
-| `npx playwright test` | Smoke tests over the export (see below) |
+| Script                       | What it does                               |
+| ---------------------------- | ------------------------------------------ |
+| `npm run dev`                | Dev server on `http://localhost:3000`      |
+| `npm run build`              | Static export into `out/`                  |
+| `npm run lint` / `typecheck` | ESLint / `tsc --noEmit`                    |
+| `npm test`                   | All Vitest tests (unit + content)          |
+| `npm run validate`           | Catalog/hardware/test data validation only |
+| `npm run check:updates`      | Report outdated versions (maintainers)     |
+| `npx playwright test`        | Smoke tests over the export (see below)    |
 
 ### Smoke tests
 
@@ -69,11 +69,11 @@ scripts/        Latest-release checker, static-preview server
 
 Copy `.env.example` to `.env.local` (optional) and adjust:
 
-| Variable | Purpose |
-| --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | Canonicals, OG, sitemap, robots (no trailing slash) |
-| `NEXT_PUBLIC_BASE_PATH` | Subfolder deploy prefix (GitHub Pages) |
-| `NEXT_PUBLIC_SUPPORT_PAYPAL_URL` | Optional donation link on `/support` |
+| Variable                         | Purpose                                             |
+| -------------------------------- | --------------------------------------------------- |
+| `NEXT_PUBLIC_SITE_URL`           | Canonicals, OG, sitemap, robots (no trailing slash) |
+| `NEXT_PUBLIC_BASE_PATH`          | Subfolder deploy prefix (GitHub Pages)              |
+| `NEXT_PUBLIC_SUPPORT_PAYPAL_URL` | Optional donation link on `/support`                |
 
 ## Documentation
 

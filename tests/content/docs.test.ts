@@ -59,7 +59,9 @@ describe("editorial content", () => {
         expect(t.nav[key].trim().length, `${locale}.nav.${key}`).toBeGreaterThan(1);
       }
       for (const group of ["catalog", "project", "site"] as const) {
-        expect(t.footer.groups[group].trim().length, `${locale}.footer.${group}`).toBeGreaterThan(1);
+        expect(t.footer.groups[group].trim().length, `${locale}.footer.${group}`).toBeGreaterThan(
+          1,
+        );
       }
     }
   });

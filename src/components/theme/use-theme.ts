@@ -18,9 +18,7 @@ function getInitialTheme(): Theme {
   } catch {
     /* storage unavailable, fall back to default */
   }
-  return window.matchMedia("(prefers-color-scheme: light)").matches
-    ? "light"
-    : "dark";
+  return window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
 }
 
 const listeners = new Set<() => void>();

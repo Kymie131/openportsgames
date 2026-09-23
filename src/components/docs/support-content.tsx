@@ -17,11 +17,7 @@ export function SupportContent() {
         {SUPPORT_PAYPAL_URL ? (
           <div className="flex flex-wrap items-center gap-3">
             <Button asChild size="lg">
-              <a
-                href={SUPPORT_PAYPAL_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href={SUPPORT_PAYPAL_URL} target="_blank" rel="noopener noreferrer">
                 <Heart className="size-4" aria-hidden="true" />
                 {t.support.donate}
               </a>

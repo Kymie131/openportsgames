@@ -23,7 +23,11 @@ export function CatalogPage({
   const t = useT();
   const title = scope === "all" ? t.catalog.title : t.platforms[scope];
   const subtitle =
-    scope === "all" ? t.catalog.subtitle : scope === "pc" ? t.catalog.subtitlePc : t.catalog.subtitleAndroid;
+    scope === "all"
+      ? t.catalog.subtitle
+      : scope === "pc"
+        ? t.catalog.subtitlePc
+        : t.catalog.subtitleAndroid;
 
   return (
     <div className="flex flex-col gap-6">

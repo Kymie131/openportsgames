@@ -9,8 +9,8 @@ the same file every consumer reads is the one validated in CI.
 ```jsonc
 {
   "schema": "openportsgames/catalog", // fixed marker
-  "version": 2,                       // bump when breaking fields change
-  "generatedAt": "2026-09-22",        // build date, YYYY-MM-DD
+  "version": 2, // bump when breaking fields change
+  "generatedAt": "2026-09-22", // build date, YYYY-MM-DD
   "site": "https://openportsgames.example",
   "ports": [
     {
@@ -20,8 +20,8 @@ the same file every consumer reads is the one validated in CI.
       "developers": ["…"],
       "publisher": "…",
       "originalYear": 2000,
-      "genre": "action-adventure",     // added in v2
-      "openSource": true,              // added in v2
+      "genre": "action-adventure", // added in v2
+      "openSource": true, // added in v2
       "portType": "decompilation",
       "platforms": ["windows"],
       "status": "stable",
@@ -29,21 +29,21 @@ the same file every consumer reads is the one validated in CI.
       "sources": ["https://github.com/HarbourMasters/2ship2harkinian"],
       "website": "…",
       "docs": "…",
-      "discord": "…",      // optional, official community server
+      "discord": "…", // optional, official community server
       "license": { "spdx": "CC0-1.0" },
       "aiDisclosure": false,
       "verified": true,
       "verifiedAt": "2026-09-19",
       "notes": "…",
       "originalSystem": "Nintendo 64",
-      "features": ["…"],      // optional
-      "requirements": {},     // optional { minimum?, recommended? }
-      "screenshots": []       // optional [{ src, alt, credit }]
-    }
+      "features": ["…"], // optional
+      "requirements": {}, // optional { minimum?, recommended? }
+      "screenshots": [], // optional [{ src, alt, credit }]
+    },
     // …every port
   ],
-  "hardware": [ /* HardwareProfile records */ ],
-  "tests": [   /* TestRecord records; empty until first badged test */ ]
+  "hardware": [/* HardwareProfile records */],
+  "tests": [/* TestRecord records; empty until first badged test */],
 }
 ```
 

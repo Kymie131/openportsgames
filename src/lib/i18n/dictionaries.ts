@@ -169,8 +169,7 @@ const en = {
   home: {
     browseCatalog: "Browse the catalog",
     eyebrow: "Native ports",
-    lead:
-      "A curated catalog of native ports for PC and Android: decompilations, recompilations and engine rewrites. Every entry links to the project's official source.",
+    lead: "A curated catalog of native ports for PC and Android: decompilations, recompilations and engine rewrites. Every entry links to the project's official source.",
     statsPorts: (count: number) => `${count} ports catalogued`,
     statsAndroid: (count: number) => `${count} for Android`,
     statsSources: "Official sources only",
@@ -189,8 +188,7 @@ const en = {
     exploreTesting: "Testing",
     exploreTestingDesc: "How ports are verified on the team's hardware.",
     principlesTitle: "Why native ports",
-    principlesSubtitle:
-      "What separates a native port from other ways of playing a classic game.",
+    principlesSubtitle: "What separates a native port from other ways of playing a classic game.",
     principleNative: "No emulator",
     principleNativeDesc:
       "The game runs as native code on the target platform. No emulator or compatibility layer in between.",
@@ -539,8 +537,7 @@ const es: Messages = {
   home: {
     browseCatalog: "Explorar el catálogo",
     eyebrow: "Ports nativos",
-    lead:
-      "Un catálogo curado de ports nativos para PC y Android: decompilaciones, recompilaciones y reescrituras de motor. Cada ficha enlaza a la fuente oficial del proyecto.",
+    lead: "Un catálogo curado de ports nativos para PC y Android: decompilaciones, recompilaciones y reescrituras de motor. Cada ficha enlaza a la fuente oficial del proyecto.",
     statsPorts: (count: number) => `${count} ports en el catálogo`,
     statsAndroid: (count: number) => `${count} para Android`,
     statsSources: "Solo fuentes oficiales",

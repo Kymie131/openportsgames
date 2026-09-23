@@ -30,10 +30,7 @@ export function TestingPage({ hardware }: { hardware: HardwareProfile[] }) {
         <h2 className="text-lg font-semibold tracking-tight">{t.testing.hardwareTitle}</h2>
         <ul className="flex flex-col gap-3">
           {hardware.map((profile) => (
-            <li
-              key={profile.id}
-              className="rounded-lg border border-border bg-surface p-4"
-            >
+            <li key={profile.id} className="rounded-lg border border-border bg-surface p-4">
               <div className="flex flex-wrap items-baseline justify-between gap-2">
                 <h3 className="text-base font-semibold">{profile.label}</h3>
                 <span className="text-xs text-muted">

@@ -18,13 +18,8 @@ export function GuideContent() {
         <DocParagraph>{t.guides.techniquesIntro}</DocParagraph>
         <dl className="flex flex-col gap-3">
           {TECHNIQUES.map((technique) => (
-            <div
-              key={technique}
-              className="rounded-lg border border-border bg-surface p-4"
-            >
-              <dt className="text-sm font-semibold text-foreground">
-                {t.portTypes[technique]}
-              </dt>
+            <div key={technique} className="rounded-lg border border-border bg-surface p-4">
+              <dt className="text-sm font-semibold text-foreground">{t.portTypes[technique]}</dt>
               <dd className="mt-1 text-sm leading-6 text-muted">
                 {t.guides.techniques[technique]}
               </dd>

@@ -75,11 +75,7 @@ interface ParamSource {
   getAll(name: string): string[];
 }
 
-function pickMany<T extends string>(
-  params: ParamSource,
-  name: string,
-  allowed: readonly T[],
-): T[] {
+function pickMany<T extends string>(params: ParamSource, name: string, allowed: readonly T[]): T[] {
   const out: T[] = [];
   for (const value of params.getAll(name)) {
     if ((allowed as readonly string[]).includes(value) && !out.includes(value as T)) {
@@ -181,10 +177,7 @@ export function buildIndex(ports: Port[]): MiniSearch<Port> {
   return index;
 }
 
-export function availableSystems(
-  ports: Port[],
-  originalSystems: Record<string, string>,
-): string[] {
+export function availableSystems(ports: Port[], originalSystems: Record<string, string>): string[] {
   const systems = new Set<string>();
   for (const port of ports) {
     const system = originalSystems[port.id];

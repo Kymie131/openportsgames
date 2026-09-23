@@ -32,11 +32,7 @@ export function ExternalLink({
       {...props}
     >
       {children}
-      <ExternalIcon
-        size={13}
-        aria-hidden="true"
-        className="shrink-0 opacity-70"
-      />
+      <ExternalIcon size={13} aria-hidden="true" className="shrink-0 opacity-70" />
       <span className="sr-only">{hint}</span>
     </a>
   );

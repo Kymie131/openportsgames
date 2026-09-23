@@ -11,33 +11,33 @@ tests, and the public API payload.
 A native port entry. `src/lib/ports/schema.ts` defines the shape; the fields
 are:
 
-| Field | Type | Notes |
-| --- | --- | --- |
-| `id` | string | kebab-case slug, unique, used in the URL |
-| `title` | string | project name as used by the project itself |
-| `game` | string | the original game the port recreates |
-| `developers` | string[] | 1–6 developer/team names |
-| `publisher` | string | |
-| `originalYear` | number | 1970–2099 |
-| `genre` | enum | `platformer`, `action-adventure`, `rpg`, `racing`, `strategy`, `shooter`, `fighting`, `sports`, `simulation`, `open-world` |
-| `openSource` | boolean | whether the project's code is open source |
-| `portType` | enum | `decompilation`, `recompilation`, `reimplementation`, `source-port` |
-| `platforms` | enum[] | `windows`, `linux`, `macos`, `android` |
-| `status` | enum | `stable`, `beta`, `alpha`, or `takedown` |
-| `release` | `{ version?, date? }` | nullable both; version must be X.Y/X.Y.Z (+suffix) |
-| `sources` | https URL[] | official repositories/releases/websites (minimum 1) |
-| `website`, `docs` | https URL? | official project website / documentation |
-| `discord` | https URL? | official community server (Discord) of the project |
-| `license` | `{ spdx, note? }` | SPDX identifier |
-| `aiDisclosure` | boolean | project discloses AI involvement |
-| `verified` | boolean | release verified by the team |
-| `verifiedAt` | date? | required predicate (see below) |
-| `notes` | string? | short editorial description |
-| `originalSystem` | string? | original console/system |
-| `features` | string[]? | notable features (max 20) |
-| `requirements` | `{ minimum?, recommended? }`? | free text |
-| `screenshots` | array? | `{ src, alt, credit }`, https, max 12 |
-| `installGuide` | object? | `{ title?, steps, stepsEs? }`; `steps` runs 1–20 of 3–300 chars; optional `title`; `stepsEs` is the hand-written Spanish mirror of `steps` — when present its length equals `steps` (content-test invariant) |
+| Field             | Type                          | Notes                                                                                                                                                                                                        |
+| ----------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `id`              | string                        | kebab-case slug, unique, used in the URL                                                                                                                                                                     |
+| `title`           | string                        | project name as used by the project itself                                                                                                                                                                   |
+| `game`            | string                        | the original game the port recreates                                                                                                                                                                         |
+| `developers`      | string[]                      | 1–6 developer/team names                                                                                                                                                                                     |
+| `publisher`       | string                        |                                                                                                                                                                                                              |
+| `originalYear`    | number                        | 1970–2099                                                                                                                                                                                                    |
+| `genre`           | enum                          | `platformer`, `action-adventure`, `rpg`, `racing`, `strategy`, `shooter`, `fighting`, `sports`, `simulation`, `open-world`                                                                                   |
+| `openSource`      | boolean                       | whether the project's code is open source                                                                                                                                                                    |
+| `portType`        | enum                          | `decompilation`, `recompilation`, `reimplementation`, `source-port`                                                                                                                                          |
+| `platforms`       | enum[]                        | `windows`, `linux`, `macos`, `android`                                                                                                                                                                       |
+| `status`          | enum                          | `stable`, `beta`, `alpha`, or `takedown`                                                                                                                                                                     |
+| `release`         | `{ version?, date? }`         | nullable both; version must be X.Y/X.Y.Z (+suffix)                                                                                                                                                           |
+| `sources`         | https URL[]                   | official repositories/releases/websites (minimum 1)                                                                                                                                                          |
+| `website`, `docs` | https URL?                    | official project website / documentation                                                                                                                                                                     |
+| `discord`         | https URL?                    | official community server (Discord) of the project                                                                                                                                                           |
+| `license`         | `{ spdx, note? }`             | SPDX identifier                                                                                                                                                                                              |
+| `aiDisclosure`    | boolean                       | project discloses AI involvement                                                                                                                                                                             |
+| `verified`        | boolean                       | release verified by the team                                                                                                                                                                                 |
+| `verifiedAt`      | date?                         | required predicate (see below)                                                                                                                                                                               |
+| `notes`           | string?                       | short editorial description                                                                                                                                                                                  |
+| `originalSystem`  | string?                       | original console/system                                                                                                                                                                                      |
+| `features`        | string[]?                     | notable features (max 20)                                                                                                                                                                                    |
+| `requirements`    | `{ minimum?, recommended? }`? | free text                                                                                                                                                                                                    |
+| `screenshots`     | array?                        | `{ src, alt, credit }`, https, max 12                                                                                                                                                                        |
+| `installGuide`    | object?                       | `{ title?, steps, stepsEs? }`; `steps` runs 1–20 of 3–300 chars; optional `title`; `stepsEs` is the hand-written Spanish mirror of `steps` — when present its length equals `steps` (content-test invariant) |
 
 ### Catalog state
 
@@ -56,27 +56,27 @@ artifact before removal). Takedown entries are validated but **excluded** from
 
 ### Hardware profile
 
-| Field | Type |
-| --- | --- |
-| `id` | slug |
-| `label` | string |
-| `kind` | `pc` \| `android` |
-| `specs` | cpu, gpu, ram, os (required); storage, display (optional) |
-| `tester` | GitHub username |
-| `updatedAt` | date |
+| Field       | Type                                                      |
+| ----------- | --------------------------------------------------------- |
+| `id`        | slug                                                      |
+| `label`     | string                                                    |
+| `kind`      | `pc` \| `android`                                         |
+| `specs`     | cpu, gpu, ram, os (required); storage, display (optional) |
+| `tester`    | GitHub username                                           |
+| `updatedAt` | date                                                      |
 
 ### Test record
 
-| Field | Type |
-| --- | --- |
-| `id` | slug |
-| `portId` | must reference a known port |
-| `testerId` | GitHub username |
+| Field        | Type                                                               |
+| ------------ | ------------------------------------------------------------------ |
+| `id`         | slug                                                               |
+| `portId`     | must reference a known port                                        |
+| `testerId`   | GitHub username                                                    |
 | `hardwareId` | must reference a known profile; its `tester` must equal `testerId` |
-| `date` | date |
-| `version` | semantic version |
-| `result` | `pass` \| `fail` |
-| `notes` | string? |
+| `date`       | date                                                               |
+| `version`    | semantic version                                                   |
+| `result`     | `pass` \| `fail`                                                   |
+| `notes`      | string?                                                            |
 
 ## Invariants enforced by content tests
 

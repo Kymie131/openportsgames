@@ -8,7 +8,9 @@ test.describe("console logo badges", () => {
     await expect(page.locator('figure span[role="img"][aria-label="Nintendo 64"]')).toBeVisible();
   });
 
-  test("a system without artwork falls back to the text mark, never a broken image", async ({ page }) => {
+  test("a system without artwork falls back to the text mark, never a broken image", async ({
+    page,
+  }) => {
     await page.goto("/ports/sonic-1-2-2013");
     await expect(page.locator('figure img[src^="/logos/console/"]')).toHaveCount(0);
     await expect(page.locator("figcaption, figure *").first()).toBeVisible();

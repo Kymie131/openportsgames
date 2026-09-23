@@ -35,15 +35,15 @@ npm run dev        # http://localhost:3000
 
 Comandos útiles:
 
-| Script | Qué hace |
-| --- | --- |
-| `npm run dev` | Servidor de desarrollo en `http://localhost:3000` |
-| `npm run build` | Export estático a `out/` |
-| `npm run lint` / `typecheck` | ESLint / `tsc --noEmit` |
-| `npm test` | Todos los tests de Vitest (unit + contenido) |
-| `npm run validate` | Validación de datos del catálogo únicamente |
-| `npm run check:updates` | Informa de versiones desactualizadas (mantenedores) |
-| `npm run test:e2e` | Tests de humo sobre el export (ver abajo) |
+| Script                       | Qué hace                                            |
+| ---------------------------- | --------------------------------------------------- |
+| `npm run dev`                | Servidor de desarrollo en `http://localhost:3000`   |
+| `npm run build`              | Export estático a `out/`                            |
+| `npm run lint` / `typecheck` | ESLint / `tsc --noEmit`                             |
+| `npm test`                   | Todos los tests de Vitest (unit + contenido)        |
+| `npm run validate`           | Validación de datos del catálogo únicamente         |
+| `npm run check:updates`      | Informa de versiones desactualizadas (mantenedores) |
+| `npm run test:e2e`           | Tests de humo sobre el export (ver abajo)           |
 
 ### Tests de humo
 
@@ -73,11 +73,11 @@ scripts/        Comprobador de últimas releases, servidor de previsualización
 
 Copia `.env.example` a `.env.local` (opcional) y ajusta:
 
-| Variable | Propósito |
-| --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | Canónicas, OG, sitemap, robots (sin barra final) |
-| `NEXT_PUBLIC_BASE_PATH` | Prefijo de subcarpeta (GitHub Pages) |
-| `NEXT_PUBLIC_SUPPORT_PAYPAL_URL` | Enlace de donación opcional en `/support` |
+| Variable                         | Propósito                                        |
+| -------------------------------- | ------------------------------------------------ |
+| `NEXT_PUBLIC_SITE_URL`           | Canónicas, OG, sitemap, robots (sin barra final) |
+| `NEXT_PUBLIC_BASE_PATH`          | Prefijo de subcarpeta (GitHub Pages)             |
+| `NEXT_PUBLIC_SUPPORT_PAYPAL_URL` | Enlace de donación opcional en `/support`        |
 
 ## Documentación
 

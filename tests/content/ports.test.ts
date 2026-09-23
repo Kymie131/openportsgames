@@ -14,7 +14,12 @@ describe("catalog ports", () => {
     const ids = ports.map((port) => port.id);
     expect(new Set(ids).size).toBe(ids.length);
     expect(ids).toEqual(
-      ids.map((id) => id.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")),
+      ids.map((id) =>
+        id
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/^-|-$/g, ""),
+      ),
     );
     const titles = ports.map((port) => port.title);
     expect(new Set(titles).size).toBe(titles.length);
@@ -77,9 +82,7 @@ describe("catalog ports", () => {
           expect(step, port.id).toMatch(/^.{3,300}$/);
         }
         if (port.installGuide.stepsEs) {
-          expect(port.installGuide.stepsEs.length, port.id).toBe(
-            port.installGuide.steps.length,
-          );
+          expect(port.installGuide.stepsEs.length, port.id).toBe(port.installGuide.steps.length);
           for (const step of port.installGuide.stepsEs) {
             expect(step, port.id).toMatch(/^.{3,300}$/);
           }

@@ -57,11 +57,7 @@ export function SiteHeader() {
     >
       <Container className="flex h-14 items-center justify-between gap-4 md:h-16">
         <div className="flex min-w-0 items-center gap-6">
-          <Link
-            href="/"
-            className="flex shrink-0 items-center"
-            aria-label={t.nav.home}
-          >
+          <Link href="/" className="flex shrink-0 items-center" aria-label={t.nav.home}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={assetPath("/logos/brand/openportsgames-transparent.png")}
@@ -86,8 +82,7 @@ export function SiteHeader() {
                   aria-current={active ? "page" : undefined}
                   className={cn(
                     "rounded-md px-2.5 py-1.5 text-sm text-muted transition-colors duration-150 hover:bg-surface-2 hover:text-foreground",
-                    active &&
-                      "bg-[color-mix(in_oklab,var(--accent)_14%,transparent)] text-accent",
+                    active && "bg-[color-mix(in_oklab,var(--accent)_14%,transparent)] text-accent",
                   )}
                 >
                   {t.nav[item.key]}
