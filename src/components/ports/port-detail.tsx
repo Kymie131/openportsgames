@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import { ArrowLeft, CircleAlert, CircleCheck, ExternalLink, FileText, Globe, MessageCircle } from "lucide-react";
 import type { HardwareProfile, Port, TestRecord } from "@/lib/ports/schema";
@@ -7,6 +8,7 @@ import type { TestStatus } from "@/components/catalog/test-badge";
 import { TestBadge } from "@/components/catalog/test-badge";
 import { PlatformMark } from "@/components/platforms/platform-mark";
 import { SystemMark } from "@/components/platforms/system-mark";
+import { consoleLogoForSystem } from "@/content/ports/console-logos";
 import { formatDate } from "@/lib/dates";
 import { useLocale, useT } from "@/lib/i18n/use-i18n";
 
@@ -80,6 +82,17 @@ export function PortDetail({
           </div>
         </header>
       </div>
+
+      {port.screenshots && port.screenshots.length > 0 ? (
+        <PortGallery screenshots={port.screenshots} originalSystem={originalSystem} />
+      ) : (
+        <figure className="relative flex aspect-video items-center justify-center overflow-hidden rounded-lg border border-border bg-surface-2">
+          <span className="text-6xl font-semibold tracking-tight text-muted" aria-hidden="true">
+            {port.game.charAt(0)}
+          </span>
+          <ConsoleBadge system={originalSystem} />
+        </figure>
+      )}
 
       <dl className="grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2 lg:grid-cols-3">
         <div className="flex flex-col gap-0.5">
@@ -305,4 +318,62 @@ function statusKey(status: Port["status"]): "statusStable" | "statusBeta" | "sta
 
 function resultKey(result: TestRecord["result"]): "resultPass" | "resultFail" {
   return result === "pass" ? "resultPass" : "resultFail";
+}
+
+function ConsoleBadge({ system }: { system: string }) {
+  const logo = consoleLogoForSystem(system);
+  if (!logo) return null;
+  return (
+    <span
+      className="absolute bottom-3 right-3 rounded-lg bg-white/80 px-2.5 py-2 shadow-sm backdrop-blur-sm"
+      role="img"
+      aria-label={system}
+    >
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src={logo} alt="" className="h-8 w-auto object-contain" />
+    </span>
+  );
+}
+
+function PortGallery({
+  screenshots,
+  originalSystem,
+}: {
+  screenshots: NonNullable<Port["screenshots"]>;
+  originalSystem: string;
+}) {
+  const t = useT();
+  const [index, setIndex] = useState(0);
+  const active = screenshots[Math.min(index, screenshots.length - 1)];
+
+  return (
+    <section className="flex flex-col gap-2">
+      <h2 className="text-lg font-semibold tracking-tight">{t.detail.screenshots}</h2>
+      <div className="relative flex aspect-video items-center justify-center overflow-hidden rounded-lg border border-border bg-surface-2">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={active.src} alt={active.alt} className="h-full w-full object-cover" loading="lazy" />
+        <ConsoleBadge system={originalSystem} />
+      </div>
+      {screenshots.length > 1 && (
+        <div className="flex gap-2 overflow-x-auto pb-1" role="group" aria-label={originalSystem}>
+          {screenshots.map((shot, i) => (
+            <button
+              key={shot.src}
+              type="button"
+              onClick={() => setIndex(i)}
+              aria-pressed={i === index}
+              aria-label={shot.alt}
+              className={
+                "shrink-0 overflow-hidden rounded-md border-2 transition-colors duration-150 " +
+                (i === index ? "border-accent" : "border-transparent hover:border-accent-hover")
+              }
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={shot.src} alt="" className="h-16 w-28 object-cover" loading="lazy" />
+            </button>
+          ))}
+        </div>
+      )}
+    </section>
+  );
 }
