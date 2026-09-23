@@ -15,6 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
+        # Moving tag (not a SHA pin): commit-SHA pins for actions/checkout
+        # failed to resolve for this workflow even though CI resolves the
+        # same SHA. Kept aligned with the pinned v5 release.
         uses: actions/checkout@v5
 
       - name: Setup Node
