@@ -7,6 +7,8 @@
  * the textual `SystemMark`) when the artwork is missing, so a badge can never
  * render a broken image.
  */
+import { assetPath } from "@/lib/utils";
+
 export const consoleLogoSlugBySystem: Record<string, string> = {
   "Nintendo 64": "n64",
   "GameCube": "gamecube",
@@ -60,5 +62,5 @@ export function consoleLogoForSystem(system: string | undefined | null): string 
   if (!system) return null;
   const slug = consoleLogoSlugBySystem[system];
   if (typeof slug !== "string" || !availableLogos.has(slug)) return null;
-  return `/logos/console/${slug}.png`;
+  return assetPath(`/logos/console/${slug}.png`);
 }

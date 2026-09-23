@@ -10,6 +10,7 @@ import { PlatformMark } from "@/components/platforms/platform-mark";
 import { SystemMark } from "@/components/platforms/system-mark";
 import { consoleLogoForSystem } from "@/content/ports/console-logos";
 import { formatDate } from "@/lib/dates";
+import { assetPath } from "@/lib/utils";
 import { useLocale, useT } from "@/lib/i18n/use-i18n";
 
 const STATUS_TONE: Record<Port["status"], string> = {
@@ -364,7 +365,7 @@ function PortGallery({
       <h2 className="text-lg font-semibold tracking-tight">{t.detail.screenshots}</h2>
       <div className="relative flex aspect-video items-center justify-center overflow-hidden rounded-lg border border-border bg-surface-2">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={active.src} alt={active.alt} className="h-full w-full object-cover" loading="lazy" />
+        <img src={assetPath(active.src)} alt={active.alt} className="h-full w-full object-cover" loading="lazy" />
         <ConsoleBadge system={originalSystem} />
       </div>
       {screenshots.length > 1 && (
@@ -382,7 +383,7 @@ function PortGallery({
               }
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={shot.src} alt="" className="h-16 w-28 object-cover" loading="lazy" />
+              <img src={assetPath(shot.src)} alt="" className="h-16 w-28 object-cover" loading="lazy" />
             </button>
           ))}
         </div>
