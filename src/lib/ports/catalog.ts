@@ -2,39 +2,50 @@ import MiniSearch from "minisearch";
 import { genres, platformKeys, portTypes, type Genre, type PlatformKey, type Port } from "./schema";
 
 export type SortKey = "relevance" | "title" | "title-desc" | "newest" | "stars";
-export type StatusFilter = "all" | "stable" | "beta" | "alpha";
-export type StateFilter = "all" | "verified" | "unverified";
-export type TechniqueFilter = "all" | (typeof portTypes)[number];
-export type GenreFilter = "all" | Genre;
-export type SourceFilter = "all" | "open" | "closed";
-export type AiFilter = "all" | "yes" | "no";
-export type TestedFilter = "all" | "pass" | "fail" | "untested";
+export type StatusValue = "stable" | "beta" | "alpha";
+export type StateValue = "verified" | "unverified";
+export type TechniqueValue = (typeof portTypes)[number];
+export type GenreValue = Genre;
+export type SourceValue = "open" | "closed";
+export type FeaturesValue = "yes" | "no";
+export type AiValue = "yes" | "no";
+export type TestedValue = "pass" | "fail" | "untested";
 
+/**
+ * Catalog query state shared by all three catalog pages.
+ *
+ * Every filter is a multi-select: values within a section are OR-ed, sections
+ * are AND-ed (Steam-style). The query and the filters are reflected in the
+ * URL; filters (never the free-text query) are also persisted between
+ * sessions under `opg-catalog-filters`.
+ */
 export interface CatalogState {
   query: string;
-  platform: "all" | PlatformKey;
-  status: StatusFilter;
-  state: StateFilter;
-  technique: TechniqueFilter;
-  system: string;
-  genre: GenreFilter;
-  source: SourceFilter;
-  ai: AiFilter;
-  tested: TestedFilter;
+  platform: PlatformKey[];
+  status: StatusValue[];
+  state: StateValue[];
+  technique: TechniqueValue[];
+  system: string[];
+  genre: GenreValue[];
+  source: SourceValue[];
+  features: FeaturesValue[];
+  ai: AiValue[];
+  tested: TestedValue[];
   sort: SortKey;
 }
 
 export const defaultCatalogState: CatalogState = {
   query: "",
-  platform: "all",
-  status: "all",
-  state: "all",
-  technique: "all",
-  system: "all",
-  genre: "all",
-  source: "all",
-  ai: "all",
-  tested: "all",
+  platform: [],
+  status: [],
+  state: [],
+  technique: [],
+  system: [],
+  genre: [],
+  source: [],
+  features: [],
+  ai: [],
+  tested: [],
   sort: "relevance",
 };
 
@@ -52,52 +63,111 @@ export interface CatalogOptions {
   stars?: Record<string, number>;
 }
 
-const SORT_VALUES: SortKey[] = ["relevance", "title", "title-desc", "newest", "stars"];
-const STATUS_VALUES: StatusFilter[] = ["all", "stable", "beta", "alpha"];
-const STATE_VALUES: StateFilter[] = ["all", "verified", "unverified"];
-const TECHNIQUE_VALUES: TechniqueFilter[] = ["all", ...portTypes];
-const GENRE_VALUES: GenreFilter[] = ["all", ...genres];
-const SOURCE_VALUES: SourceFilter[] = ["all", "open", "closed"];
-const AI_VALUES: AiFilter[] = ["all", "yes", "no"];
-const TESTED_VALUES: TestedFilter[] = ["all", "pass", "fail", "untested"];
+/** The only filter set persisted between sessions. `query` is never stored. */
+export const CATALOG_PERSIST_KEY = "opg-catalog-filters";
 
-function pick<T extends string>(value: string | null, allowed: readonly T[], fallback: T): T {
-  return value !== null && (allowed as readonly string[]).includes(value) ? (value as T) : fallback;
+export type PersistedCatalogState = Omit<CatalogState, "query">;
+
+const SORT_VALUES: SortKey[] = ["relevance", "title", "title-desc", "newest", "stars"];
+
+interface ParamSource {
+  get(name: string): string | null;
+  getAll(name: string): string[];
 }
 
-export function parseCatalogState(params: { get(name: string): string | null }): CatalogState {
+function pickMany<T extends string>(
+  params: ParamSource,
+  name: string,
+  allowed: readonly T[],
+): T[] {
+  const out: T[] = [];
+  for (const value of params.getAll(name)) {
+    if ((allowed as readonly string[]).includes(value) && !out.includes(value as T)) {
+      out.push(value as T);
+    }
+  }
+  return out;
+}
+
+/** Accepts any non-empty value (used for free-form sets like original systems). */
+function pickAny(params: ParamSource, name: string): string[] {
+  const out: string[] = [];
+  for (const value of params.getAll(name)) {
+    if (value !== "" && !out.includes(value)) out.push(value);
+  }
+  return out;
+}
+
+export function parseCatalogState(params: ParamSource): CatalogState {
   return {
     query: params.get("q") ?? "",
-    platform: pick(params.get("platform"), platformKeys, "all"),
-    status: pick(params.get("status"), STATUS_VALUES, "all"),
-    state: pick(params.get("state"), STATE_VALUES, "all"),
-    technique: pick(params.get("technique"), TECHNIQUE_VALUES, "all"),
-    system: params.get("system") ?? "all",
-    genre: pick(params.get("genre"), GENRE_VALUES, "all"),
-    source: pick(params.get("source"), SOURCE_VALUES, "all"),
-    ai: pick(params.get("ai"), AI_VALUES, "all"),
-    tested: pick(params.get("tested"), TESTED_VALUES, "all"),
+    platform: pickMany(params, "platform", platformKeys),
+    status: pickMany(params, "status", ["stable", "beta", "alpha"]),
+    state: pickMany(params, "state", ["verified", "unverified"]),
+    technique: pickMany(params, "technique", portTypes),
+    system: pickAny(params, "system"),
+    genre: pickMany(params, "genre", genres),
+    source: pickMany(params, "source", ["open", "closed"]),
+    features: pickMany(params, "features", ["yes", "no"]),
+    ai: pickMany(params, "ai", ["yes", "no"]),
+    tested: pickMany(params, "tested", ["pass", "fail", "untested"]),
     sort: pick(params.get("sort"), SORT_VALUES, "relevance"),
   };
 }
 
 export function catalogStateToParams(state: CatalogState): URLSearchParams {
   const params = new URLSearchParams();
-  const set = (key: string, value: string) => {
-    if (value !== "" && value !== "all") params.set(key, value);
+  const append = (key: string, values: readonly string[]) => {
+    for (const value of values) params.append(key, value);
   };
-  set("q", state.query.trim());
-  set("platform", state.platform);
-  set("status", state.status);
-  set("state", state.state);
-  set("technique", state.technique);
-  set("system", state.system);
-  set("genre", state.genre);
-  set("source", state.source);
-  set("ai", state.ai);
-  set("tested", state.tested);
-  if (state.sort !== "relevance") set("sort", state.sort);
+  const query = state.query.trim();
+  if (query !== "") params.set("q", query);
+  append("platform", state.platform);
+  append("status", state.status);
+  append("state", state.state);
+  append("technique", state.technique);
+  append("system", state.system);
+  append("genre", state.genre);
+  append("source", state.source);
+  append("features", state.features);
+  append("ai", state.ai);
+  append("tested", state.tested);
+  if (state.sort !== "relevance") params.set("sort", state.sort);
   return params;
+}
+
+/** True when the state carries any filter value or a non-default sort. */
+export function hasActiveFilters(state: CatalogState): boolean {
+  return (
+    state.platform.length > 0 ||
+    state.status.length > 0 ||
+    state.state.length > 0 ||
+    state.technique.length > 0 ||
+    state.system.length > 0 ||
+    state.genre.length > 0 ||
+    state.source.length > 0 ||
+    state.features.length > 0 ||
+    state.ai.length > 0 ||
+    state.tested.length > 0 ||
+    state.sort !== "relevance"
+  );
+}
+
+/** Number of selected filter values, for the panel badge and mobile button. */
+export function activeFilterCount(state: CatalogState): number {
+  return (
+    state.platform.length +
+    state.status.length +
+    state.state.length +
+    state.technique.length +
+    state.system.length +
+    state.genre.length +
+    state.source.length +
+    state.features.length +
+    state.ai.length +
+    state.tested.length +
+    (state.sort !== "relevance" ? 1 : 0)
+  );
 }
 
 export function buildIndex(ports: Port[]): MiniSearch<Port> {
@@ -123,6 +193,10 @@ export function availableSystems(
   return [...systems].sort((a, b) => a.localeCompare(b));
 }
 
+function pick<T extends string>(value: string | null, allowed: readonly T[], fallback: T): T {
+  return value !== null && (allowed as readonly string[]).includes(value) ? (value as T) : fallback;
+}
+
 export function applyCatalog(
   ports: Port[],
   index: MiniSearch,
@@ -131,8 +205,6 @@ export function applyCatalog(
   options: CatalogOptions = {},
 ): { results: Port[]; total: number } {
   const scopePlatforms = SCOPED_PLATFORMS[scope];
-  const platform =
-    state.platform !== "all" && scopePlatforms.includes(state.platform) ? state.platform : "all";
 
   const query = state.query.trim();
   const qResults = query.length > 0 ? index.search(query) : [];
@@ -146,22 +218,32 @@ export function applyCatalog(
       if (!port.platforms.some((candidate) => scopePlatforms.includes(candidate))) {
         return false;
       }
-      if (platform !== "all" && !port.platforms.includes(platform)) {
+      if (state.platform.length > 0 && !state.platform.some((p) => port.platforms.includes(p))) {
         return false;
       }
-      if (state.status !== "all" && port.status !== state.status) return false;
-      if (state.state === "verified" && !port.verified) return false;
-      if (state.state === "unverified" && port.verified) return false;
-      if (state.technique !== "all" && port.portType !== state.technique) return false;
-      if (state.system !== "all" && originalSystems[port.id] !== state.system) return false;
-      if (state.genre !== "all" && port.genre !== state.genre) return false;
-      if (state.source === "open" && !port.openSource) return false;
-      if (state.source === "closed" && port.openSource) return false;
-      if (state.ai === "yes" && !port.aiDisclosure) return false;
-      if (state.ai === "no" && port.aiDisclosure) return false;
-      if (state.tested === "untested" && testResults[port.id] !== undefined) return false;
-      if ((state.tested === "pass" || state.tested === "fail") && testResults[port.id] !== state.tested) {
-        return false;
+      if (state.status.length > 0 && !state.status.includes(port.status)) return false;
+      if (state.state.includes("verified") && !port.verified) return false;
+      if (state.state.includes("unverified") && port.verified) return false;
+      if (state.technique.length > 0 && !state.technique.includes(port.portType)) return false;
+      if (state.system.length > 0) {
+        const system = originalSystems[port.id];
+        if (system === undefined || !state.system.includes(system)) return false;
+      }
+      if (state.genre.length > 0 && !state.genre.includes(port.genre)) return false;
+      if (state.source.includes("open") && !port.openSource) return false;
+      if (state.source.includes("closed") && port.openSource) return false;
+      const hasFeatures = (port.features?.length ?? 0) > 0;
+      if (state.features.includes("yes") && !hasFeatures) return false;
+      if (state.features.includes("no") && hasFeatures) return false;
+      if (state.ai.includes("yes") && !port.aiDisclosure) return false;
+      if (state.ai.includes("no") && port.aiDisclosure) return false;
+      const result = testResults[port.id];
+      if (state.tested.length > 0) {
+        const match =
+          (state.tested.includes("untested") && result === undefined) ||
+          (state.tested.includes("pass") && result === "pass") ||
+          (state.tested.includes("fail") && result === "fail");
+        if (!match) return false;
       }
       if (queryIds !== null && !queryIds.has(port.id)) return false;
       return true;

@@ -114,6 +114,20 @@ body {
   outline-offset: 2px;
 }
 
+@keyframes opg-drawer-in {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.opg-drawer-content {
+  animation: opg-drawer-in 160ms cubic-bezier(0.32, 0.72, 0, 1);
+  will-change: transform;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   ::before,
