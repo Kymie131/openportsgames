@@ -8,7 +8,7 @@ import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { useT } from "@/lib/i18n/use-i18n";
 import { SITE_NAME } from "@/lib/site";
-import { cn } from "@/lib/utils";
+import { assetPath, cn } from "@/lib/utils";
 import { Container } from "./container";
 import { LanguageSwitcher } from "@/components/i18n/language-switcher";
 import { ThemeToggle } from "@/components/theme/theme-toggle";
@@ -29,7 +29,6 @@ const PROJECT_ITEMS = [
   { href: "/legal", key: "legal" as const },
 ];
 
-/** The guide rail: the primary nav never mirrors the catalog's home route. */
 const HEADER_SCROLL_THRESHOLD = 8;
 
 function isActive(pathname: string, href: string): boolean {
@@ -60,10 +59,21 @@ export function SiteHeader() {
         <div className="flex min-w-0 items-center gap-6">
           <Link
             href="/"
-            className="text-gradient shrink-0 text-base font-semibold tracking-tight"
+            className="flex shrink-0 items-center"
             aria-label={t.nav.home}
           >
-            OpenPortsGames
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={assetPath("/logos/brand/openportsgames-transparent.png")}
+              alt=""
+              className="hidden h-7 w-auto dark:block"
+            />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={assetPath("/logos/brand/openportsgames-dark.png")}
+              alt=""
+              className="block h-7 w-auto dark:hidden"
+            />
           </Link>
 
           <nav aria-label={t.common.mainNav} className="hidden items-center gap-1 md:flex">

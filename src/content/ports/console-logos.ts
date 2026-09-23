@@ -1,5 +1,5 @@
 /**
- * Console logo badge (Gallery, v4).
+ * Console logo badge artwork.
  *
  * Maps an `originalSystem` label (see `meta.ts`) to a real logo artwork under
  * `public/logos/console/`. Only files that physically exist are considered
@@ -37,11 +37,14 @@ export const consoleLogoSlugBySystem: Record<string, string> = {
  * verify this list against the folder to prevent 404 badges.
  */
 export const consoleLogoSlugs = [
+  "3ds",
   "android",
+  "gba",
   "game-boy",
   "gamecube",
   "ms-dos",
   "n64",
+  "nds",
   "nes",
   "playstation",
   "playstation-2",
