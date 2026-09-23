@@ -69,6 +69,13 @@ const normalPort = z.object({
   notes: z.string().max(1000).optional(),
   originalSystem: z.string().min(2).max(80).optional(),
   features: z.array(z.string().min(3).max(120)).max(20).optional(),
+  installGuide: z
+    .object({
+      title: z.string().min(2).max(80).optional(),
+      steps: z.array(z.string().min(3).max(300)).min(1).max(20),
+      stepsEs: z.array(z.string().min(3).max(300)).min(1).max(20).optional(),
+    })
+    .optional(),
   requirements: z
     .object({
       minimum: z.string().min(2).max(200).optional(),
@@ -165,6 +172,11 @@ export type Port = {
   notes?: string;
   originalSystem?: string;
   features?: string[];
+  installGuide?: {
+    title?: string;
+    steps: string[];
+    stepsEs?: string[];
+  };
   requirements?: { minimum?: string; recommended?: string };
   screenshots?: { src: string; alt: string; credit: string }[];
 };

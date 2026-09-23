@@ -23,4 +23,18 @@ export const openLara: Port = {
   verified: false,
   notes:
     "Reverse-engineered engine for the original Tomb Raider. No numbered releases; builds track the repository. Requires Tomb Raider 1 data files (legally obtained).",
+  installGuide: {
+    steps: [
+      "Own Tomb Raider 1, from the original PC release or a storefront re-release.",
+      "Install the original game so its data files are on your machine.",
+      "Use the project's official extraction or conversion tooling on your original install to prepare the data.",
+      "Place the prepared data in the OpenLara data folder and run the executable.",
+    ],
+    stepsEs: [
+      "Ten una copia de Tomb Raider 1, de la versión original de PC o de una reedición de tienda digital.",
+      "Instala el juego original para que sus archivos de datos queden en tu equipo.",
+      "Usa la herramienta oficial de extracción o conversión del proyecto sobre tu instalación original para preparar los datos.",
+      "Coloca los datos preparados en la carpeta de datos de OpenLara y ejecuta el binario.",
+    ],
+  },
 };

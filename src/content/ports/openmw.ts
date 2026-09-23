@@ -25,4 +25,20 @@ export const openmw: Port = {
   verifiedAt: "2026-09-19",
   notes:
     "Recreation of the Morrowind engine with mod support and an official Android build. Requires the original Morrowind game files.",
+  installGuide: {
+    steps: [
+      "Own a copy of The Elder Scrolls III: Morrowind; the Tribunal and Bloodmoon expansions add their content too.",
+      "Install the original game on your machine, any edition is fine as long as the Data Files folder ends up on disk.",
+      "Install OpenMW from the official site, choosing the release build for your platform.",
+      "Create a new profile in the OpenMW launcher and point it at the Morrowind Data Files directory.",
+      "Launch the game from the launcher; OpenMW plays the original assets with modern rendering.",
+    ],
+    stepsEs: [
+      "Ten una copia de The Elder Scrolls III: Morrowind; las expansiones Tribunal y Bloodmoon añaden además su contenido.",
+      "Instala el juego original en tu equipo; vale cualquier edición siempre que la carpeta Data Files quede en el disco.",
+      "Instala OpenMW desde el sitio oficial, eligiendo la compilación publicada para tu plataforma.",
+      "Crea un nuevo perfil en el lanzador de OpenMW y apúntalo al directorio Data Files de Morrowind.",
+      "Inicia el juego desde el lanzador; OpenMW reproduce los recursos originales con renderizado moderno.",
+    ],
+  },
 };

@@ -37,6 +37,7 @@ are:
 | `features` | string[]? | notable features (max 20) |
 | `requirements` | `{ minimum?, recommended? }`? | free text |
 | `screenshots` | array? | `{ src, alt, credit }`, https, max 12 |
+| `installGuide` | object? | `{ title?, steps, stepsEs? }`; `steps` runs 1–20 of 3–300 chars; optional `title`; `stepsEs` is the hand-written Spanish mirror of `steps` — when present its length equals `steps` (content-test invariant) |
 
 ### Catalog state
 
@@ -88,7 +89,8 @@ artifact before removal). Takedown entries are validated but **excluded** from
 - Tests reference known ports and hardware; hardware tester matches
   `testerId`.
 - Every port id has an entry in the `originalSystemById` meta map.
-- Detail-field invariants: features/requirements/screenshots constraints.
+- Detail-field invariants: features/requirements/screenshots constraints;
+  `installGuide.stepsEs` length must equal `steps`.
 
 ## Public API: `/api/ports.json`
 

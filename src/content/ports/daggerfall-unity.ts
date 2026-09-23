@@ -26,4 +26,16 @@ export const daggerfallUnity: Port = {
   verifiedAt: "2026-09-19",
   notes:
     "Open source recreation of Daggerfall on the Unity engine, now free to play for everyone. The Daggerfall Unity Installer bundles the required game data.",
+  installGuide: {
+    steps: [
+      "Install the Daggerfall Unity Installer from the project's releases; Daggerfall itself is freeware and the installer handles the data.",
+      "Point the installer at an existing Daggerfall installation if you have one, otherwise let it download the free release.",
+      "Choose the optional mods and classic-difficulty options you prefer, then launch the game.",
+    ],
+    stepsEs: [
+      "Instala el instalador de Daggerfall Unity desde las publicaciones del proyecto; Daggerfall es freeware y el instalador se encarga de los datos.",
+      "Señala al instalador una instalación existente de Daggerfall si tienes una; si no, deja que descargue la versión gratuita.",
+      "Elige los mods opcionales y las opciones de dificultad clásica que prefieras y, después, inicia el juego.",
+    ],
+  },
 };
