@@ -50,6 +50,13 @@ prefixes so the history stays greppable, but the words in this file are mine.
   Disassembly ships no releases, so its note now says builds track the
   repository (same stance as sm64ex).
 
+### Tooling
+
+- New local tooling to preview and audit the static export the way GitHub
+  Pages serves it: `npm run serve:pages` (base path, directory redirects,
+  `404.html`) and `npm run audit:site` (crawls the sitemap and reports
+  FAIL/WARN/INFO). Documented in `docs/DEPLOYMENT.md`.
+
 ## [0.1.0] - 2026-09-19
 
 ### Added

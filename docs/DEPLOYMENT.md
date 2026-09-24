@@ -131,6 +131,33 @@ a monument to nothing.
 node scripts/serve-static.mjs   # serves ./out on http://localhost:4173
 ```
 
+## Local audit (GitHub-Pages-like)
+
+The export behaves differently on a plain static server than in the GitHub
+Pages subfolder, so there is a pair of scripts to mimic that environment and
+audit the result:
+
+```bash
+NEXT_PUBLIC_SITE_URL=http://localhost:4174/openportsgames \
+NEXT_PUBLIC_BASE_PATH=/openportsgames \
+npm run build
+
+npm run serve:pages   # serves ./out like GitHub Pages on http://localhost:4174/openportsgames
+                      # (subfolder prefix, directory redirects, 404.html)
+
+npm run audit:site -- http://localhost:4174/openportsgames/
+```
+
+`audit:site` crawls the sitemap and reports `FAIL`/`WARN`/`INFO` lines:
+HTTP status and content types, social preview images, sitemap trailing
+slashes, meta description length, exactly one `<h1>` per page, content with
+JavaScript disabled, and stable ports that ship no versioned release. The
+exit code is non-zero if anything `FAIL`s.
+
+`serve-pages-like` reads `PORT` and `NEXT_PUBLIC_BASE_PATH` (default
+`4174` and `/openportsgames`); set `NEXT_PUBLIC_BASE_PATH=/` to serve at
+the domain root instead.
+
 ## Smoke tests (optional)
 
 Playwright runs against the static export (see `playwright.config.ts`). Since
