@@ -19,6 +19,28 @@ export const fZeroSnesRecompiled: Port = {
   aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-22",
+  screenshots: [
+    {
+      src: "https://raw.githubusercontent.com/mstan/FZeroSNESRecomp/main/docs/screenshots/bs-forest-iii-race-21x9.png",
+      alt: "The F-Zero pilot racing an X cockpit around Forest III in 21:9 ultrawide",
+      credit: "F-Zero SNES Recompiled",
+    },
+    {
+      src: "https://raw.githubusercontent.com/mstan/FZeroSNESRecomp/main/docs/screenshots/widescreen-title.png",
+      alt: "The F-Zero title screen rendered in widescreen",
+      credit: "F-Zero SNES Recompiled",
+    },
+    {
+      src: "https://raw.githubusercontent.com/mstan/FZeroSNESRecomp/main/docs/screenshots/bs-blue-thunder.png",
+      alt: "BS F-Zero Blue Thunder title screen, an exclusive race league",
+      credit: "F-Zero SNES Recompiled",
+    },
+    {
+      src: "https://raw.githubusercontent.com/mstan/FZeroSNESRecomp/main/docs/screenshots/bs-forest-iii-race.png",
+      alt: "Racing on the Forest III course from BS F-Zero in 16:9",
+      credit: "F-Zero SNES Recompiled",
+    },
+  ],
   originalSystem: "Super Nintendo",
   features: [
     "Widescreen up to 32:9 with optional HD Mode 7 rendering",

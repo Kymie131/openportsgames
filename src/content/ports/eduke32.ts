@@ -22,6 +22,28 @@ export const eduke32: Port = {
   },
   aiDisclosure: false,
   verified: false,
+  screenshots: [
+    {
+      src: "https://www.eduke32.com/images/shots/polymer.jpg",
+      alt: "The Polymer renderer showing glowing effects in a Duke Nukem 3D level",
+      credit: "EDuke32",
+    },
+    {
+      src: "https://www.eduke32.com/images/shots/polymer2.jpg",
+      alt: "Per-pixel dynamic lighting and real-time shadows via Polymer",
+      credit: "EDuke32",
+    },
+    {
+      src: "https://www.eduke32.com/images/shots/duke3d_2.jpg",
+      alt: "The Hollywood Holocaust level with classic textures in EDuke32",
+      credit: "EDuke32",
+    },
+    {
+      src: "https://www.eduke32.com/images/shots/duke3d_3.jpg",
+      alt: "Duke trading blows with pig cops in an EDuke32 game",
+      credit: "EDuke32",
+    },
+  ],
   notes:
     "Native source port of Duke Nukem 3D (also runs Shadow Warrior via VoidSW). Distributed as rolling builds from the official site; requires Duke Nukem 3D gamedata.",
   installGuide: {

@@ -23,6 +23,28 @@ export const openmw: Port = {
   aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-19",
+  screenshots: [
+    {
+      src: "https://openmw.org/wp-content/uploads/2022/02/screenshot029-min.png",
+      alt: "A distant view across Morrowind rendered by OpenMW",
+      credit: "OpenMW",
+    },
+    {
+      src: "https://openmw.org/wp-content/uploads/2022/02/2022-01-28-1643417815-min.png",
+      alt: "Godray light shafts cutting through Morrowind's sky",
+      credit: "OpenMW",
+    },
+    {
+      src: "https://openmw.org/wp-content/uploads/2022/04/screenshot865.png",
+      alt: "Balmora's streetscene in Morrowind rendered by OpenMW",
+      credit: "OpenMW",
+    },
+    {
+      src: "https://openmw.org/wp-content/uploads/2022/04/screenshot052.png",
+      alt: "Post-processing effects on a Morrowind ashland exterior",
+      credit: "OpenMW",
+    },
+  ],
   notes:
     "Recreation of the Morrowind engine with mod support and an official Android build. Requires the original Morrowind game files.",
   installGuide: {

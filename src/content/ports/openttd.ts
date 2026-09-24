@@ -23,6 +23,28 @@ export const openTtd: Port = {
   aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-19",
+  screenshots: [
+    {
+      src: "https://www.openttd.org/screenshots/1.4-02-opengfx-1920x1200.png",
+      alt: "The OpenTTD 1.4 title screen with the free OpenGFX graphics",
+      credit: "OpenTTD",
+    },
+    {
+      src: "https://www.openttd.org/screenshots/1.9-group-liveries.png",
+      alt: "Company colours applied per train group showcase in OpenTTD 1.9",
+      credit: "OpenTTD",
+    },
+    {
+      src: "https://www.openttd.org/screenshots/1.4-cargodist.png",
+      alt: "CargoDist routing cargo through rail, road and air connections",
+      credit: "OpenTTD",
+    },
+    {
+      src: "https://www.openttd.org/screenshots/1.9-industry_trams.png",
+      alt: "A snowy industrial region crowded with industries and trams",
+      credit: "OpenTTD",
+    },
+  ],
   notes:
     "Open source simulation game based on Transport Tycoon Deluxe. Ships with the freely redistributable OpenGFX graphics, so no original game data is required.",
   installGuide: {
