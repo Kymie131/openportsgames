@@ -19,6 +19,7 @@ prefixes so the history stays greppable, but the words in this file are mine.
   Metroid Prime Hunters Recompiled, NxEngine-Evo and PrBoom-Plus RT.
 - Official project screenshots for F-Zero SNES Recompiled, OpenTTD,
   EDuke32 and OpenMW.
+- Official project screenshots for OpenRA, Daggerfall Unity and OpenXcom.
 
 ### Changed
 

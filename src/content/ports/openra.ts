@@ -20,6 +20,28 @@ export const openra: Port = {
   aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-19",
+  screenshots: [
+    {
+      src: "https://www.openra.net/images/news/20250330-harvesters.png",
+      alt: "Ore harvesters loading at refineries in OpenRA",
+      credit: "OpenRA",
+    },
+    {
+      src: "https://www.openra.net/images/news/20241116-vortex.webp",
+      alt: "Post-processing vortex effect sweeping a battlefield in OpenRA",
+      credit: "OpenRA",
+    },
+    {
+      src: "https://www.openra.net/images/news/20241116-map-editor.webp",
+      alt: "The revamped map editor with draggable selections in OpenRA",
+      credit: "OpenRA",
+    },
+    {
+      src: "https://www.openra.net/images/news/20241116-eva.webp",
+      alt: "The in-game EVA database encyclopedia in OpenRA",
+      credit: "OpenRA",
+    },
+  ],
   originalSystem: "MS-DOS",
   notes:
     "Reimplementation of the Command & Conquer real-time strategy games, supporting Red Alert, Tiberian Dawn and Dune 2000 alongside modern quality-of-life features, online multiplayer and a dedicated launcher. Version numbers follow date-based releases (the 2025.0330 build corresponds to the release-20250330 tag).",

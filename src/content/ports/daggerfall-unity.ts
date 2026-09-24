@@ -24,6 +24,28 @@ export const daggerfallUnity: Port = {
   aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-19",
+  screenshots: [
+    {
+      src: "https://www.dfworkshop.net/wp-content/uploads/2023/12/screen-scaled.jpg",
+      alt: "A Daggerfall exterior at the coast rendered by Daggerfall Unity",
+      credit: "Daggerfall Workshop",
+    },
+    {
+      src: "https://www.dfworkshop.net/wp-content/uploads/2021/11/image-17-1024x576.png",
+      alt: "Privateer's Hold dungeon corridor lit by torches in Daggerfall Unity",
+      credit: "Daggerfall Workshop",
+    },
+    {
+      src: "https://www.dfworkshop.net/wp-content/uploads/2021/11/image-19-1024x576.png",
+      alt: "ColorBoost dungeon lighting ramping into darkness in Daggerfall Unity",
+      credit: "Daggerfall Workshop",
+    },
+    {
+      src: "https://www.dfworkshop.net/wp-content/uploads/2021/11/image-21-1024x576.png",
+      alt: "Retro mode at 320x200 with ColorBoost post-processing in Daggerfall Unity",
+      credit: "Daggerfall Workshop",
+    },
+  ],
   notes:
     "Open source recreation of Daggerfall on the Unity engine, now free to play for everyone. The Daggerfall Unity Installer bundles the required game data.",
   installGuide: {

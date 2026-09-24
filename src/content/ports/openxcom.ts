@@ -21,6 +21,28 @@ export const openXcom: Port = {
   },
   aiDisclosure: false,
   verified: false,
+  screenshots: [
+    {
+      src: "https://openxcom.org/wp-content/gallery/v1-0/00_mainmenu.png",
+      alt: "The OpenXcom 1.0 main menu",
+      credit: "OpenXcom",
+    },
+    {
+      src: "https://openxcom.org/wp-content/gallery/v1-0/07_pathpreview.png",
+      alt: "Colour-coded path preview with time unit costs on the battlescape",
+      credit: "OpenXcom",
+    },
+    {
+      src: "https://openxcom.org/wp-content/gallery/v1-0/08_3dexplosions.png",
+      alt: "3D explosions and instant-detonation grenades in combat",
+      credit: "OpenXcom",
+    },
+    {
+      src: "https://openxcom.org/wp-content/gallery/v1-0/01_globe.png",
+      alt: "The geoscape globe with improved pathing and visibility",
+      credit: "OpenXcom",
+    },
+  ],
   notes:
     "Open source reimplementation of the original X-COM engine. The tagged v1.0 release is from 2014; current builds are distributed via openxcom.org. Requires original X-COM data.",
   installGuide: {
