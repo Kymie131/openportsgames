@@ -1,17 +1,15 @@
 # Changelog
 
-All notable changes to this project are documented in this file.
-
-The format is based on Keep a Changelog (https://keepachangelog.com/en/1.1.0/)
-and this project adheres to SemVer (https://semver.org/). Commits follow
-Conventional Commits.
+Notable changes to OpenPortsGames, written like a logbook rather than a
+release-notes generator. Versioning follows semver; commits use conventional
+prefixes so the history stays greppable, but the words in this file are mine.
 
 ## [Unreleased]
 
 ### Added
 
-- Home page: redesigned with live stats, a curated "Featured ports" section and
-  new landing sections.
+- Home page: live stats, a curated "Featured ports" section and new landing
+  sections.
 - Brand logo in the site header (transparent/dark variants per theme).
 - Console logos: Nintendo 3DS, Game Boy Advance, Nintendo DS.
 - Optional donation link on `/support` via `NEXT_PUBLIC_SUPPORT_PAYPAL_URL`.
@@ -42,5 +40,5 @@ Conventional Commits.
 - Licenses: MIT for code, CC BY 4.0 for catalog data.
 - Bilingual README (English and Spanish).
 
-Project still in development. The catalog, design system and editorial pages
-are scheduled for the following phases.
+The site launched with the catalog, design system and editorial pages
+finished; the phase checklist that took it there lives in `docs/ROADMAP.md`.

@@ -1,13 +1,27 @@
 # OpenPortsGames
 
+**Sitio: <https://kymie131.github.io/openportsgames/>**
+
 Un catálogo curado y sin fines de lucro de **ports nativos de videojuegos**:
-decompilaciones, recompilaciones y reimplementaciones de motor para PC y
-Android. Cada ficha apunta a la fuente oficial del proyecto: repositorio,
-releases, sitio web o documentación. **Nada se aloja ni se enlaza como archivo
-descargable.**
+decompilaciones, recompilaciones y reimplementaciones de motor que traen
+juegos clásicos a PC y Android. Cada ficha apunta a la fuente oficial del
+proyecto: repositorio, releases, sitio web o documentación. **Nada se aloja
+ni se enlaza como archivo descargable** — nunca.
+
+¿Por qué existe esa regla? Porque muchos aprendimos, a la mala, que un "pack
+de ISOs" de un foro es un buen vehículo para malware, y que un enlace a un
+espejo no oficial muere en cuanto alguien toca un archivo. El único enlace
+que sobrevive a la semana es el del propio proyecto. Esa es toda la postura
+editorial.
+
+¿Y por qué existe el catálogo? Porque Super Mario Bros. 3 fue el juego que me
+hizo entender que el cartucho en mis manos era software — y que alguien podía
+desmontar ese software, entenderlo y reconstruirlo para que corriera en
+cualquier aparato que yo tuviera. Cada ficha de aquí es una pequeña victoria
+para esa idea: juegos que se negaron a morir en el hardware donde nacieron.
 
 Sitio totalmente estático: sin cuentas, sin comentarios, sin base de datos y
-sin rastreadores.
+sin rastreadores. Una carpeta de archivos. No hay servidor que apagar.
 
 - Interfaz EN/ES · temas claro y oscuro · orientado a WCAG
 - [Roadmap](docs/ROADMAP.md) · [Diseño](docs/DESIGN.md)

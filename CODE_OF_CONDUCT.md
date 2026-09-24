@@ -1,8 +1,17 @@
-# Contributor Covenant Code of Conduct
+# Code of Conduct
+
+Short version: be the kind of person you'd want on your own forum thread.
+
+OpenPortsGames is a catalog built for a hobby that runs on collaboration —
+decompilations, recompilations and reimplementations only exist because
+people shared code, wrote documentation and answered strangers' questions for
+free. That is the culture this project tries to extend to its issue tracker,
+its pull requests and its discussions: generous, technical and honest, like a
+good romhacking forum thread.
 
 ## Our Pledge
 
-We as members, contributors, and leaders pledge to make participation in our
+We as members, contributors and leaders pledge to make participation in our
 community a harassment-free experience for everyone, regardless of age, body
 size, visible or invisible disability, ethnicity, sex characteristics, gender
 identity and expression, level of experience, education, socio-economic
@@ -16,12 +25,14 @@ diverse, inclusive, and healthy community.
 
 Examples of behavior that contributes to a positive environment:
 
-- Demonstrating empathy and kindness toward other people
-- Being respectful of differing opinions, viewpoints, and experiences
-- Giving and gracefully accepting constructive feedback
-- Accepting responsibility and apologizing to those affected by our mistakes
-- Focusing on what is best not just for us as individuals, but for the
-  overall community
+- Showing empathy toward other people, especially when they are learning
+  something you already know.
+- Respecting differing opinions, viewpoints, and experiences — a wrong data
+  point is a bug to fix, not a person to mock.
+- Giving and gracefully accepting constructive feedback.
+- Taking responsibility and apologizing to those affected by mistakes.
+- Keeping discussion on the technical merits: the catalog, the data, the
+  game.
 
 Examples of unacceptable behavior:
 
@@ -30,6 +41,8 @@ Examples of unacceptable behavior:
   attacks
 - Public or private harassment
 - Publishing others' private information without their explicit permission
+- Doxxing, witch hunts, or any conduct that makes someone afraid to
+  contribute to a hobby they love
 - Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
@@ -38,6 +51,11 @@ Examples of unacceptable behavior:
 Community leaders are responsible for clarifying and enforcing our standards
 and will take appropriate and fair corrective action in response to any
 behavior that they deem inappropriate, threatening, offensive, or harmful.
+
+Enforcement here is the same as it is on the forums the retro community grew
+up in: a private warning first when the situation allows, escalation when it
+doesn't. The goal is always to keep someone contributing, not to eject them
+for a first mistake.
 
 ## Scope
 

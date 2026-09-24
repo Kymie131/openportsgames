@@ -44,7 +44,9 @@ export function HomeContent({
       {/* Hero */}
       <section aria-labelledby="home-hero" className="space-y-12">
         <div className="max-w-2xl space-y-6">
-          <Badge tone="accent">{t.home.eyebrow}</Badge>
+          <Badge tone="accent" className="font-mono uppercase tracking-widest">
+            {t.home.eyebrow}
+          </Badge>
           <div className="space-y-4">
             <h1
               id="home-hero"
@@ -75,20 +77,20 @@ export function HomeContent({
 
         <dl className="grid max-w-2xl grid-cols-1 gap-px overflow-hidden rounded-lg border border-border bg-border sm:grid-cols-3">
           <div className="bg-surface px-5 py-4">
-            <dt className="text-2xl font-semibold tracking-tight text-foreground">
+            <dt className="font-mono text-2xl font-semibold tracking-tight text-foreground">
               {toNumber(counts.ports)}
             </dt>
             <dd className="mt-0.5 text-sm text-muted">{t.home.statsPorts(counts.ports)}</dd>
           </div>
           <div className="bg-surface px-5 py-4">
-            <dt className="text-2xl font-semibold tracking-tight text-foreground">
+            <dt className="font-mono text-2xl font-semibold tracking-tight text-foreground">
               {toNumber(counts.android)}
             </dt>
             <dd className="mt-0.5 text-sm text-muted">{t.home.statsAndroid(counts.android)}</dd>
           </div>
           <div className="bg-surface px-5 py-4">
             <dt
-              className="text-2xl font-semibold tracking-tight text-foreground"
+              className="font-mono text-2xl font-semibold tracking-tight text-foreground"
               aria-hidden="true"
             >
               100%

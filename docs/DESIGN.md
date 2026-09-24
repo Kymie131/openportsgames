@@ -1,63 +1,91 @@
 # Design System
 
-This document records the design decisions for the OpenPortsGames interface.
-It is a living spec: update it whenever a visual rule changes.
+This document records how OpenPortsGames looks and why. It is a living spec:
+every page and every token is described here, and when a visual rule changes,
+this file changes with it.
+
+## The identity in one paragraph
+
+I catalog games that refused to die, so the interface is a nod to the
+hardware they escaped from — terminals, CRT phosphor, vector arcade cabinets.
+Deep, near-black backgrounds with a phosphor-green pulse (the accent), an
+amber secondary and a cyan tertiary straight out of a vector display. No
+gradient soup, no stock photos, no emoji, no rounded-squircle SaaS energy.
+The design is sober and utilitarian by choice: the catalog is the protagonist,
+and the machine the reader is using to browse it is also the machine the games
+run on. It should feel like opening a good file manager, not like entering a
+marketing funnel.
+
+The rest of this file exists to keep it that way.
 
 ## Goals
 
-- **Sober and utilitarian.** The catalog's content is the protagonist. No decorations
-  beyond a subtle ambient color wash; no stock imagery, no emoji anywhere.
-- **Accessible** (WCAG AA contrast, semantic landmarks, visible focus, reduced-motion
-  support) and **fast** (static export, no runtime CSS framework, minimal JS).
-- **Fully bilingual** (English default, Spanish) with an on-page switcher. Design must
-  hold in both languages with no layout glue.
+- **Sober and utilitarian.** The catalog's content is the protagonist. No
+  decorations beyond a faint terminal glow and scanline texture; no stock
+  imagery, no emoji anywhere.
+- **Accessible** (WCAG AA contrast, semantic landmarks, visible focus,
+  reduced-motion support) and **fast** (static export, no runtime CSS
+  framework, minimal JS).
+- **Fully bilingual** (English default, Spanish) with an on-page switcher.
+  Design must hold in both languages with no layout glue.
 
 ## Typography
 
 - Geist Sans (UI/body) and Geist Mono (code, versions) via `next/font`.
-- Type scale is intentionally small: 12/13/14/16/18/24/30px. Headings are `font-semibold`,
-  tight tracking, no heavy weights.
-- Line length capped (max-w-2xl for prose) for comfortable reading in both languages.
+  The mono face is doing real work, not dressing: versions, hardware specs
+  and catalogue numbers read like terminal output, which is exactly the vibe.
+- Type scale is intentionally small: 12/13/14/16/18/24/30px. Headings are
+  `font-semibold`, tight tracking, no heavy weights.
+- Line length capped (max-w-2xl for prose) for comfortable reading in both
+  languages.
 
 ## Color tokens (`src/app/globals.css`)
 
-Dark is the default theme (`:root`); light lives in the `.light` class block declared
-after it in the CSS. Tokens are real CSS variables remapped by Tailwind via
-`@theme inline`. `@custom-variant dark` keeps `dark:` utilities working.
+Dark is the default theme (`:root`); light lives in the `.light` class block
+declared after it in the CSS. Tokens are real CSS variables remapped by
+Tailwind via `@theme inline`. `@custom-variant dark` keeps `dark:` utilities
+working.
 
-| Token                        | Dark                              | Light                             |
+| Token                        | Dark (phosphor CRT)               | Light (terminal paper)            |
 | ---------------------------- | --------------------------------- | --------------------------------- |
-| `background`                 | `#0B1120`                         | `#F4F6FB`                         |
-| `surface`                    | `#121A2C`                         | `#FFFFFF`                         |
-| `surface-2`                  | `#1A2440`                         | `#E9EEF8`                         |
-| `foreground`                 | `#EAF0FB`                         | `#1C2436`                         |
-| `muted`                      | `#A6B3C9`                         | `#566172`                         |
-| `border`                     | `#2C3A5C`                         | `#D3DCEF`                         |
-| `ring`                       | `#5B9DFF`                         | `#2F6FE0`                         |
-| `accent` / `accent-contrast` | `#5B9DFF` / `#0B1120`             | `#1F63E0` / `#FFFFFF`             |
-| `accent-2`                   | `#3EC7F4` (cyan)                  | `#0E9CD8`                         |
-| `accent-3`                   | `#A78BFA` (violet)                | `#7C5CE0`                         |
-| `link` / `link-hover`        | `#8FB9FF` / `#AAC9FF`             | `#1C5BD0` / `#123AA0`             |
-| `ok` / `warning` / `danger`  | `#45C47E` / `#E2B34F` / `#F2786F` | `#1C8A4E` / `#92600C` / `#B3291F` |
+| `background`                 | `#0B0F0D`                         | `#F5F1E6`                         |
+| `surface`                    | `#111713`                         | `#FDFBF5`                         |
+| `surface-2`                  | `#1A231C`                         | `#EAE4D3`                         |
+| `foreground`                 | `#DFE9E1`                         | `#1B241D`                         |
+| `muted`                      | `#93A89B`                         | `#5F6B61`                         |
+| `border`                     | `#24342A`                         | `#D8D2BD`                         |
+| `ring`                       | `#3FDE8D`                         | `#157A40`                         |
+| `accent` / `accent-contrast` | `#3FDE8D` / `#0B120D`             | `#157A40` / `#F7FFF9`             |
+| `accent-hover`               | `#62F0A8`                         | `#0F6233`                         |
+| `accent-2`                   | `#FFB15C` (amber)                 | `#A35C07`                         |
+| `accent-3`                   | `#5FD8CF` (teal)                  | `#0E6F68`                         |
+| `link` / `link-hover`        | `#7CE5AA` / `#A5F3C4`             | `#136332` / `#0D4F27`             |
+| `ok` / `warning` / `danger`  | `#45D988` / `#E0A84E` / `#F07A70` | `#16824A` / `#8F5D08` / `#B0382E` |
 
-- Dark is a deep blue-slate with a blue/cyan/violet accent triad instead of a single
-  accent. `body` carries a fixed, faint radial-gradient wash (the "aurora") that never
-  animates and is invisible under `prefers-reduced-motion` by design (it is static).
-- `.text-gradient` (blue→cyan→violet) is reserved for the brand and the home heading.
-- Links use `--link` / `--link-hover`. Semantic variants (success/warning/danger) are
-  used only as small badges, never as page color.
+- Dark is a near-black CRT with a green tint. The single pulse of the design
+  is `--accent`: phosphor green. Amber and teal exist to be used sparingly —
+  accents on icons, badges, the gradient — never to compete with text.
+- The body carries a fixed, faint treatment instead of a colored wash: a
+  slight green bloom at the top corner and a barely-there horizontal
+  scanline. It never animates and it is a background, not a UI element.
+- `.text-gradient` (green→teal, like a vector display sweep) is reserved for
+  the brand and the home heading.
+- Links use `--link` / `--link-hover`. Semantic variants (success/warning/
+  danger) are used only as small badges, never as page color.
 
 ## Shape, spacing, elevation
 
-- Radius: 6px (small), 8px (cards, controls). Never larger.
+- Radius: 4px (small/chips), 6px (cards, controls). Never larger. CRT-era
+  hardware had no rounded corners to spare; neither do we.
 - Grid: 8px base. Page width capped by `Container` (max-w-6xl + 1.5rem padding).
-- Borders: 1px, low-alpha; elevation is a barely-there shadow, mostly borders instead.
+- Borders: 1px, low-alpha; elevation is a barely-there shadow, mostly borders
+  instead.
 
 ## Components (`src/components`)
 
 - `ui/*` — primitives: `Button` (primary/secondary/ghost, sm/md/lg), `Badge`
-  (neutral/accent/ok/warning/danger), `Card`, `ExternalLink`, `Input`, `Select`,
-  `Switch`, `Tooltip`, `Dialog`.
+  (neutral/accent/ok/warning/danger), `Card`, `ExternalLink`, `Input`,
+  `Select`, `Switch`, `Tooltip`, `Dialog`.
 - `layout/*` — `Container`, `SkipLink`, `SiteHeader`, `SiteFooter`.
 
 ### Header and navigation (`layout/site-header.tsx`)
@@ -65,46 +93,47 @@ after it in the CSS. Tokens are real CSS variables remapped by Tailwind via
 - Sticky, ~56px on mobile / ~64px on desktop; neutral at rest and a hairline
   border + faint shadow only after scrolling past 8px, so the header separates
   from content without weight.
-- Left: typographic wordmark (`.text-gradient`) linking to `/`. Primary nav
-  (Ports, PC, Android, Guides, Testing) uses a single active state: an accent
-  pill with `aria-current="page"` (matched by prefix, so `/ports/[slug]` keeps
-  Ports active). No duplicate underline.
+- Left: the brand logo linking to `/`. Primary nav (Ports, PC, Android,
+  Guides, Testing) uses a single active state: an accent-tinted pill with
+  `aria-current="page"` (matched by prefix, so `/ports/[slug]` keeps Ports
+  active). No duplicate underline.
 - Secondary group (right, 8px gap): language switcher, theme toggle and the
   discreet "Support" text link (`t.nav.support`).
-- The old "More" dropdown is "Project" (Submit / Support / About / Legal) —
-  the label tells the user what is inside instead of hiding it.
+- The drop-down is labeled "Project" (Submit / Support / About / Legal) — the
+  label tells the user what is inside instead of hiding it.
 - Mobile: the hamburger opens a full-height right drawer (Radix Dialog, focus
   trapped, Escape closes, focus returns to the trigger) with 44px touch
   targets, the support CTA near the top of the list and language/theme pinned
   at the bottom. Drawer opening slides in 160ms under
   `prefers-reduced-motion: no-preference` (`.opg-drawer-content`).
 - `platforms/platform-mark.tsx` — platform glyphs from **Simple Icons** (CC0
-  1.0 artwork, see `platform-glyphs.ts`). Glyphs are filled with `currentColor`
-  so they inherit the surrounding text/link color and never carry a brand tint
-  or gradient; the logos are trademarks of their owners and are used only to
-  identify each platform (Simple Icons source slugs are kept next to each path).
+  1.0 artwork, see `platform-glyphs.ts`). Glyphs are filled with
+  `currentColor` so they inherit the surrounding text/link color and never
+  carry a brand tint or gradient; the logos are trademarks of their owners and
+  are used only to identify each platform (Simple Icons source slugs are kept
+  next to each path).
 
 ## Catalog grid and cards (`catalog/`)
 
 - **Grid**: responsive 1 → 2 → 3 → 4 columns (`grid-cols-1 sm:grid-cols-2
 lg:grid-cols-3 xl:grid-cols-4`), 4 columns is the hard maximum so cards never
   get too small. `gap-4`, cards stretch to a consistent per-row height.
-- **Card anatomy (B1/B2)**: fixed-artwork strip (`h-14`), then game name as the
+- **Card anatomy**: fixed-artwork strip (`h-14`), then game name as the
   primary, prominent title (2-line clamp), port title smaller beneath (1-line
-  truncate), metadata (platform glyphs / status / version) as the tertiary row,
-  footer with the official source. Equal heights because every text zone is
-  clamped to a fixed number of lines.
-- **Badges**: a single consistent pair — status chip (stable/beta/alpha)
-  and test-status badge, both `rounded-full` and same font size.
-- **Fallback artwork**: the tile has no screenshot; the strip shows the
-  game's first letter on `surface-2` — typographic, neutral, no gradient.
-- **Micro-interaction**: `150ms` hover (within the 120–180ms budget) with
-  a subtle lift (`-translate-y-0.5`), accent border and faint shadow. Disabled
+  truncate), metadata (platform glyphs / status / version) as the tertiary
+  row, footer with the official source. Equal heights because every text zone
+  is clamped to a fixed number of lines.
+- **Badges**: a single consistent pair — status chip (stable/beta/alpha) and
+  test-status badge, both `rounded-full` and same font size.
+- **Fallback artwork**: the tile has no screenshot; the strip shows the game's
+  first letter on `surface-2` — typographic, neutral, no gradient.
+- **Micro-interaction**: `150ms` hover (within the 120–180ms budget) with a
+  subtle lift (`-translate-y-0.5`), accent border and faint shadow. Disabled
   under `prefers-reduced-motion`.
 - **Empty state**: icon + message + did-you-mean hint + "clear filters"
   action; no bare one-line message.
-- **Loading**: `PortTileSkeleton` cards with `aria-label` during route
-  loads (`/ports/loading.tsx`), matching the real tile layout.
+- **Loading**: `PortTileSkeleton` cards with `aria-label` during route loads
+  (`/ports/loading.tsx`), matching the real tile layout.
 - **Takedown ports**: removed entries keep a detail page that renders a
   neutral takedown notice and is excluded from lists, sitemap and search
   engines (`robots: noindex`) automatically — they are never served as a plain
@@ -122,23 +151,23 @@ lg:grid-cols-3 xl:grid-cols-4`), 4 columns is the hard maximum so cards never
 - **Multi-select semantics**: every filter section is a multi-select. Values
   within a section are OR-ed, sections are AND-ed (Steam-style), and the state
   is expressed as arrays in `CatalogState`. Sections: platform, original
-  system, technique, status + verification, genre, source, features
-  (presence of `port.features`), AI disclosure, test status.
+  system, technique, status + verification, genre, source, features (presence
+  of `port.features`), AI disclosure, test status.
 - **Scope**: on `/pc` the platform section only offers PC platforms
   (Windows/Linux/macOS); on `/android` the platform section is hidden. Filters
   are never masked or clamped by the scope — a selected platform outside the
   view simply intersects (e.g. `android` on `/pc` keeps dual-platform ports).
-- **URL state, not component state**: the query lives in `?q=`; every filter is
-  a repeated params (`?platform=windows&platform=linux`). Filtering never
+- **URL state, not component state**: the query lives in `?q=`; every filter
+  is a repeated param (`?platform=windows&platform=linux`). Filtering never
   happens in the client as a component state, so the URL is shareable and the
   back button works. The search box debounces (`150ms`) and resets the sort to
   relevance while typing.
-- **Persistence**: with the URL clean and no active filters, a
-  previously stored filter set is restored from `localStorage`
-  (`opg-catalog-filters`) and written to the URL. Filters are never stored when
-  the user already has a URL: the URL is the source of truth and is copied to
-  `localStorage` instead. The free-text query is never persisted. "Clear"
-  wipes both the URL and the stored set.
+- **Persistence**: with the URL clean and no active filters, a previously
+  stored filter set is restored from `localStorage` (`opg-catalog-filters`)
+  and written to the URL. Filters are never stored when the user already has a
+  URL: the URL is the source of truth and is copied to `localStorage` instead.
+  The free-text query is never persisted. "Clear" wipes both the URL and the
+  stored set.
 - **Panel affordances**: the panel title shows a live count when any filter is
   active (`Filtros (N)`), and "Clear filters" appears only then. Chips are
   `aria-pressed` toggles; sections collapse with `aria-expanded`. Platform and
@@ -172,16 +201,26 @@ lg:grid-cols-3 xl:grid-cols-4`), 4 columns is the hard maximum so cards never
 
 - Theme: inline pre-paint script in `<body>` sets `dark`/`light` class and
   `data-theme` from `localStorage` (`opg-theme`) or `prefers-color-scheme`; a
-  `useSyncExternalStore` store exposes it; the toggle swaps and persists. Dark is
-  the default.
-- Locale: inline script sets `<html lang>` from `opg-locale` or `navigator.language`
-  (Spanish if the browser asks for it, else English); a context provider re-renders
-  strings; the switcher persists the choice. All copy lives in
-  `src/lib/i18n/dictionaries.ts` under shape `{ en, es }`.
+  `useSyncExternalStore` store exposes it; the toggle swaps and persists. Dark
+  is the default.
+- Locale: inline script sets `<html lang>` from `opg-locale` or
+  `navigator.language` (Spanish if the browser asks for it, else English); a
+  context provider re-renders strings; the switcher persists the choice. All
+  copy lives in `src/lib/i18n/dictionaries.ts` under shape `{ en, es }`.
 
 ## Accessibility promise
 
-- Skip link (first element in `<body>`), `#main` landmark, semantic header/footer/nav.
+- Skip link (first element in `<body>`), `#main` landmark, semantic
+  header/footer/nav.
 - Focus ring on every interactive element; `prefers-reduced-motion` disables
   transitions; `prefers-color-scheme: light` starts light only on first visit.
-- Interactive affordances never rely on color alone (icons + label, badge + text).
+- Interactive affordances never rely on color alone (icons + label, badge +
+  text).
+- The theme must hold WCAG AA contrast in both light and dark; the scanline
+  and glow textures are at single-digit opacity on purpose so they can never
+  push text below the contrast line.
+
+Last note, the important one: nothing here is decoration for its own sake.
+The retro look is a wink at the hardware the catalog's games escaped from;
+accessibility is not the price the style pays, it is the floor the style
+stands on.

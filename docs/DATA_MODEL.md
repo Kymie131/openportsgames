@@ -1,15 +1,21 @@
 # Data model
 
-The catalog is data in the repository, validated by zod before it is built.
-This document describes the entities, the invariants enforced by the content
-tests, and the public API payload.
+The catalog is data living in this repository, and zod validates it before
+anything is built. This document is the reference for that data: what the
+entities are, which invariants the content tests enforce, and what the public
+API payload looks like.
+
+Why model the catalog as code instead of a spreadsheet? Because then every
+entry goes through the same review as a patch, every constraint is tested
+instead of trusted, and the whole thing is diffable. When I update a version
+number, you can see the diff; when somebody proposes a port, the fields they
+fill in are the exact contract we validate against.
 
 ## Entities
 
 ### Port
 
-A native port entry. `src/lib/ports/schema.ts` defines the shape; the fields
-are:
+A native port entry. `src/lib/ports/schema.ts` defines the shape:
 
 | Field             | Type                          | Notes                                                                                                                                                                                                        |
 | ----------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -39,9 +45,21 @@ are:
 | `screenshots`     | array?                        | `{ src, alt, credit }`, https, max 12                                                                                                                                                                        |
 | `installGuide`    | object?                       | `{ title?, steps, stepsEs? }`; `steps` runs 1–20 of 3–300 chars; optional `title`; `stepsEs` is the hand-written Spanish mirror of `steps` — when present its length equals `steps` (content-test invariant) |
 
+Some notes on why the fields are shaped this way:
+
+- `verified` is not an editorial opinion. It is `true` only when we can point
+  at a release the project published and the date we confirmed it. Claims you
+  cannot reproduce are exactly the kind of thing this catalog exists to avoid.
+- `aiDisclosure` records what the project itself says. We record data; we do
+  not editorialize beyond the `notes` field. If a project is open about it,
+  that is worth knowing. If it is not, that is also worth knowing.
+- `installGuide.stepsEs` must mirror `steps` one-to-one. The Spanish guide is
+  a real translation a human wrote and reviewed, not machine output, and the
+  test keeps the two from drifting out of sync.
+
 ### Catalog state
 
-`src/lib/ports/catalog.ts` defines the query state shared by all three catalog
+`src/lib/ports/catalog.ts` defines the query state shared by the three catalog
 pages. A URL round-trips through `parseCatalogState`/`catalogStateToParams`;
 empty values and `all` filters are dropped from the URL. When the catalog is
 sorted by GitHub stars, `src/content/github-stars.ts` maps each port id to its
@@ -52,7 +70,9 @@ weekly catalog workflow.
 
 `status: "takedown"` keeps only `id`, `title` and `rawUrl` (the offending
 artifact before removal). Takedown entries are validated but **excluded** from
-`ports`, the site and the sitemap — they are a removal record, not content.
+`ports`, the site and the sitemap — they are a removal record, not content. If
+rights holders ask us to take something down, the response is a transparent
+commit, never a silent deletion.
 
 ### Hardware profile
 
@@ -64,6 +84,11 @@ artifact before removal). Takedown entries are validated but **excluded** from
 | `specs`     | cpu, gpu, ram, os (required); storage, display (optional) |
 | `tester`    | GitHub username                                           |
 | `updatedAt` | date                                                      |
+
+Why does hardware matter this much? Because "it works on my machine" is only
+useful if the machine is described. The whole testing story of this site is
+built on reproducible, public hardware — the details are in
+`docs/TESTING_METHODOLOGY.md`, the reasoning is in the /testing page.
 
 ### Test record
 
@@ -77,6 +102,9 @@ artifact before removal). Takedown entries are validated but **excluded** from
 | `version`    | semantic version                                                   |
 | `result`     | `pass` \| `fail`                                                   |
 | `notes`      | string?                                                            |
+
+The `tester`/`hardwareId` tie is on purpose: nobody can run a test on a
+machine they haven't declared, which is the whole credibility of the badge.
 
 ## Invariants enforced by content tests
 
@@ -92,7 +120,13 @@ artifact before removal). Takedown entries are validated but **excluded** from
 - Detail-field invariants: features/requirements/screenshots constraints;
   `installGuide.stepsEs` length must equal `steps`.
 
+These live in `tests/content/` and run in CI. A port that violates one of them
+does not build, and a build that does not validate cannot deploy. That is the
+difference between "we hope this is right" and "the data cannot be wrong without
+someone noticing."
+
 ## Public API: `/api/ports.json`
 
-Versioned snapshot of the full catalog including tests. See `docs/API.md`
-for the schema and examples. Builder: `src/lib/ports/api-json.ts`.
+A versioned snapshot of the full catalog, including tests and hardware. See
+`docs/API.md` for the schema and examples. The builder is
+`src/lib/ports/api-json.ts`; the file is the same artifact CI validates.

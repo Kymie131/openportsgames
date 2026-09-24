@@ -17,8 +17,8 @@ export default function OpenGraphImage() {
         alignItems: "center",
         justifyContent: "center",
         gap: 24,
-        backgroundColor: "#0c1016",
-        color: "#e6ecf3",
+        backgroundColor: "#0b0f0d",
+        color: "#dfe9e1",
       }}
     >
       <div style={{ display: "flex", alignItems: "center", gap: 18 }}>
@@ -27,15 +27,15 @@ export default function OpenGraphImage() {
             display: "flex",
             width: 28,
             height: 28,
-            borderRadius: 9999,
-            backgroundColor: "#4d8bff",
+            borderRadius: 6,
+            backgroundColor: "#3fde8d",
           }}
         />
         <span style={{ fontSize: 64, fontWeight: 700, letterSpacing: "-0.02em" }}>
           OpenPortsGames
         </span>
       </div>
-      <span style={{ fontSize: 26, color: "#9aa6b3" }}>{alt}</span>
+      <span style={{ fontSize: 26, color: "#93a89b" }}>{alt}</span>
     </div>,
     size,
   );

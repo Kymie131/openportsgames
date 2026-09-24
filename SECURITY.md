@@ -3,8 +3,9 @@
 ## Reporting a vulnerability
 
 OpenPortsGames is a static site with no backend and no cookies, which keeps
-the attack surface small. If you still find a security issue, do not open a
-public issue. Report it privately:
+the attack surface small — but "small" is not "nothing", and I'd rather hear
+about a bug than read about it later. If you find a security issue, do not
+open a public issue. Report it privately:
 
 - via the repository's private report flow (Security tab, "Report a
   vulnerability"), or
@@ -18,6 +19,10 @@ Do not include secrets, tokens or personal data in any report.
 - Broken link validation that would allow direct links to copyrighted
   content
 - Accidental exposure of secrets in the repository history
+
+That last one matters more than it reads. This catalog lives or dies by
+"official sources only", and a validation bug that lets a mirror or a
+re-uploaded binary slip through is a credibility bug, not just a code bug.
 
 ## Secrets
 

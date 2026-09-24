@@ -1,11 +1,26 @@
 # OpenPortsGames
 
-A curated, non-profit catalog of **native game ports** — decompilations,
-recompilations and engine reimplementations for PC and Android. Each entry
-points to the official source of the project: repository, releases, website
-or documentation. **Nothing is hosted or linked as a downloadable file.**
+**Site: <https://kymie131.github.io/openportsgames/>**
 
-Fully static site: no accounts, no comments, no database, no trackers.
+A curated, non-profit catalog of **native game ports** — decompilations,
+recompilations and engine reimplementations that bring classic games to PC
+and Android. Every entry points to the project's official source:
+repository, releases, website or documentation. **Nothing is hosted or linked
+as a downloadable file** — ever.
+
+Why does that rule exist? Because a lot of us learned, the slow way, that an
+"ISO pack" link in a forum is how you get malware, and that a link to an
+unofficial mirror dies the moment someone edits a file. The only link that
+outlives the week is the project's own. That's the whole editorial stance.
+
+Why does the catalog exist at all? Because Super Mario Bros. 3 was the game
+that made me realize the cartridge in my hands was software — and that someone
+could take that software apart, understand it, and rebuild it to run
+anywhere I actually owned. Every entry here is a small win for that idea:
+games that refused to die on the hardware they were born on.
+
+Fully static site: no accounts, no comments, no database, no trackers. A
+folder of files. It cannot be switched off.
 
 - EN/ES interface · dark & light themes · WCAG-minded
 - [Roadmap](docs/ROADMAP.md) · [Design](docs/DESIGN.md)

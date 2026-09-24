@@ -1,9 +1,13 @@
 # Pending verification
 
-This document tracks catalog candidates whose official data (latest release,
-license, or a stable distribution channel) could not be confirmed when the
-catalog was last audited on **2026-09-22**. Entries below are either excluded
-from the catalog or kept with `verified: false`.
+Candidates whose official data (latest release, license, or a stable
+distribution channel) I could not confirm when the catalog was last audited
+on **2026-09-22**. These entries are either kept with `verified: false` or
+excluded outright — "I couldn't confirm it" is recorded here instead of
+pretended away.
+
+This file is the paper trail of the homework: every row is a case I actually
+sat down and checked, not a list of vibes.
 
 ## Kept in the catalog (verified: false)
 
@@ -24,8 +28,10 @@ from the catalog or kept with `verified: false`.
 | minish-cap                  | Research decompilation with no released binary.                                        |
 | marathon-recomp             | No tagged releases; builds track the repository.                                       |
 
-These ports are shown in the catalog with a visible "not verified" marker. The
-weekly `catalog-update` action will flag them once versioned releases exist.
+These ports are shown in the catalog with a visible "not verified" marker —
+not because I doubt them, but because a catalog that marks everything
+"verified" would be lying. The weekly `catalog-update` action will flag them
+as soon as versioned releases exist.
 
 ## Excluded from the catalog
 
@@ -42,6 +48,10 @@ related proposal.
   release channel could be located.
 - **Banjo-Kazooie / Perfect Dark recompilations** — these ship via personal
   recompilation releases without a stable official source URL to link to.
+
+None of these rows means the project doesn't exist or isn't good. It means I
+could not, in good faith, point the catalog at an official link that would
+still be there next week.
 
 ## Candidates checked on 2026-09-22
 
@@ -67,5 +77,6 @@ Still **excluded**, with rationale:
   one-port-per-entry model and the weekly release comparison; because its tag
   space is shared, a per-game entry cannot be kept `verified` reliably.
 
-Rationale: per editorial policy we only list projects with an official source we
-can link to, and we never link to unofficial or re-uploaded binaries.
+The guiding line for every decision here is in the editorial policy: we only
+list projects with an official source we can link to, and we never link to
+unofficial or re-uploaded binaries.

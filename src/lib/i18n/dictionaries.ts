@@ -149,7 +149,7 @@ const en = {
   testing: {
     title: "Testing",
     subtitle:
-      "How ports are verified on the team's hardware, what a test covers and when a port gets a badge.",
+      "How ports are verified on the team's hardware, what a test covers and what the badge means.",
     methodTitle: "Methodology",
     methodSteps: {
       one: "Tests run only on publicly declared hardware profiles.",
@@ -164,21 +164,21 @@ const en = {
   },
   brand: {
     tagline:
-      "A curated catalog of native game ports: decompilations, recompilations and engine reimplementations for PC and Android.",
+      "A curated catalog of native game ports for PC and Android. Official sources only, never a download link.",
   },
   home: {
     browseCatalog: "Browse the catalog",
     eyebrow: "Native ports",
-    lead: "A curated catalog of native ports for PC and Android: decompilations, recompilations and engine rewrites. Every entry links to the project's official source.",
+    lead: "A catalog of games that refused to die. Decompilations, recompilations and engine rewrites that run natively on PC and Android — each entry pointing only at the project's official source.",
     statsPorts: (count: number) => `${count} ports catalogued`,
     statsAndroid: (count: number) => `${count} for Android`,
     statsSources: "Official sources only",
     featuredTitle: "Featured ports",
     featuredSubtitle:
-      "A hand-picked slice of the catalog. The full list lets you filter by platform, system and status.",
+      "A small pick by the editors, the way a friend points you at games. The full catalog lets you filter by platform, system and status.",
     viewAll: "Browse the full catalog",
     exploreTitle: "Explore the site",
-    exploreSubtitle: "The catalog first, then the sections that keep it working.",
+    exploreSubtitle: "The catalog first; then the sections that keep it working.",
     explorePC: "PC releases",
     explorePCDesc: "The full catalog filtered to Windows and Linux.",
     exploreAndroid: "Android releases",
@@ -204,7 +204,7 @@ const en = {
   },
   footer: {
     about:
-      "A non-profit catalog of native game ports. It links only to official project sources and hosts no downloadable files.",
+      "A hobby catalog of native game ports. It links only to official project sources and never hosts downloadable files.",
     licenses: "Code is MIT licensed. Catalog data is CC BY 4.0.",
     notAffiliated: "Not affiliated with any video game company.",
     editOnGitHub: "Edit this page on GitHub",
@@ -217,23 +217,23 @@ const en = {
   guides: {
     title: "Guides",
     subtitle:
-      "What a native port is, how the different techniques work and how to use them legally.",
+      "What a native port is, how the different techniques work and how to play these games legally.",
     whatTitle: "What is a native port?",
     what: [
-      "A native port is a modern re-release of a classic game that runs on current platforms such as PC, Linux, macOS or Android without emulators or compatibility layers.",
-      "Most of the projects in this catalog are community efforts. They are built from scratch by studying how the original game works, and they are published as open source.",
-      "The game's own assets (music, levels, sound) are not distributed by these projects: they are read from a copy of the original game that you own.",
+      "A native port is a modern re-release of a classic game that runs on today's platforms — PC, Linux, macOS or Android — without emulators or compatibility layers.",
+      "Most of the projects in this catalog are community efforts: the code is written from scratch or converted from the original, and published as open source.",
+      "They never ship the game's own files. Music, levels and sound are read from a copy of the original game that you own — that is what keeps the whole scene legal.",
     ],
     techniquesTitle: "How ports are made",
     techniquesIntro:
-      "Each technique describes how the project recreates the original game. The one used by every port is listed on its detail page.",
+      "Each technique describes how a project recreates the original game. The port's detail page always tells you which one it uses.",
     techniques: {
       decompilation:
         "The project's code is written from scratch to reproduce the original game's behavior, compiled as a native binary. Requires high-quality original code reconstruction — in practice, results are extremely faithful. Examples in the catalog include Zelda titles, Doom and Fallout.",
       recompilation:
         "The original machine code is converted automatically into portable C code that is then compiled natively. It is faster to produce and equally faithful, at the cost of being harder to read. A Super Mario 64 recompilation is in the catalog.",
       reimplementation:
-        "A new engine is written in order to recreate a game or a family of games in a modern way. Projects gain flexibility (new platforms, improved rendering) but faithfulness depends on each asset or behaviour reimplemented.",
+        "A new engine is written to recreate a game or a family of games in a modern way. Projects gain flexibility (new platforms, improved rendering) but faithfulness depends on each asset or behaviour reimplemented.",
       "source-port":
         "An engine released by its original developer is updated so it keeps running on modern systems, taking advantage of them. It is the classic path for games whose source code was officially released.",
     },
@@ -241,9 +241,9 @@ const en = {
       "You can browse the catalog by technique from each port's detail page; the technique is always shown in the overview.",
     copyTitle: "Getting your own copy, legally",
     copy: [
-      "No project in this catalog distributes the original game files, and this site does not link to downloads of any kind. To play any port you must own the original game.",
-      "The usual and perfectly legal option is to extract the game data from a cartridge, disc or digital copy that you own, using the tools documented by each project. Some games are also sold again officially by their publisher, which is the easiest route.",
-      "Never download third-party bundles: besides being illegal, they are a common way to spread malware. Only official sources — the ones linked here — should be used.",
+      "No project in this catalog distributes the original game's files, and this site links to no downloads of any kind. To play any port you must own the original game.",
+      "The usual and perfectly legal route is to extract the game data from a cartridge, disc or digital copy that you own, using the tools each project documents. Some games are also sold again officially by their publisher, which is the easiest road.",
+      "Never download third-party bundles: besides being illegal, they are a classic malware highway. Only official sources — the ones linked here — should be used.",
     ],
     faqTitle: "Frequently asked questions",
     faq: [
@@ -297,7 +297,7 @@ const en = {
   },
   support: {
     title: "Support",
-    subtitle: "OpenPortsGames is a non-profit project. No accounts, no pressure.",
+    subtitle: "OpenPortsGames is a hobby project. No accounts, no pressure.",
     donationTitle: "Optional donation",
     donationIntro:
       "This project has no income, employees or ads. If you want to support it, the most useful help is voluntary and occasional.",
@@ -315,25 +315,25 @@ const en = {
   about: {
     title: "About",
     subtitle: "Why this catalog exists, what it believes in and who maintains it.",
-    missionTitle: "A public catalog of native ports",
+    missionTitle: "A catalog for games that refused to die",
     mission: [
-      "OpenPortsGames is a small, independent catalog that documents modern native ports of classic games, so that everyone can discover them and find their official source.",
-      "It is built like software: the catalog is data, the site is public, and any correction goes through an open review.",
+      "OpenPortsGames is a small, independent catalog of modern native ports of classic games: the projects that took a game apart, understood it and rebuilt it to run on hardware its creators never imagined.",
+      "It is built like software on purpose. A catalog is data, and data belongs in a repository: every entry is a file, every correction is a commit, every review happens in public.",
     ],
     principlesTitle: "How we work",
     principles: [
-      "Only official sources. No downloads, images or ROMs hosted, and no links to bundles.",
-      "Evidence over claims: no port is marked as tested without a registered test, and no 'official' status is assumed.",
-      "Honest about removals: projects removed by legal action are marked and unlinked, not hidden.",
+      "Only official sources. Nothing is hosted and nothing links to bundles; the project's own repository or releases page is the only door in.",
+      "Evidence over claims: no port is marked as tested without a registered test on declared hardware, and 'official' is never assumed.",
+      "Honest about removals: projects removed by legal action are marked and unlinked, never silently scrubbed from history.",
     ],
     dataTitle: "The catalog as data",
     data: [
-      "Every port is a file in this repository, validated automatically before publishing.",
-      "The dataset is available under CC BY 4.0 and the site's code under MIT.",
+      "Every port is a file in this repository, validated automatically before anything is published.",
+      "The dataset is released under CC BY 4.0 and the site's code under MIT. Fork it, remix it, build on it.",
     ],
     teamTitle: "Team",
     team: [
-      "The catalog was started and is maintained by Kymie131, together with YaelMora2614 and Ramiro Hernandez. Participation is public: tests, proposals and fixes go through this repository.",
+      "The catalog was started and is maintained by Kymie131, together with YaelMora2614 and Ramiro Hernandez. Participation is public: tests, proposals and fixes all flow through this repository.",
     ],
     creditsTitle: "Credits",
     credits: [
@@ -523,7 +523,7 @@ const es: Messages = {
   testing: {
     title: "Pruebas",
     subtitle:
-      "Cómo se verifican los ports en el hardware del equipo, qué cubre una prueba y cuándo un port recibe su distintivo.",
+      "Cómo se verifican los ports en el hardware del equipo, qué cubre una prueba y qué significa el distintivo.",
     methodTitle: "Metodología",
     methodSteps: {
       one: "Las pruebas solo se ejecutan en los perfiles de hardware declarados públicamente.",
@@ -538,18 +538,18 @@ const es: Messages = {
   },
   brand: {
     tagline:
-      "Un catálogo curado de ports nativos de videojuegos: decompilaciones, recompilaciones y reimplementaciones de motor para PC y Android.",
+      "Un catálogo curado de ports nativos de videojuegos para PC y Android. Solo fuentes oficiales, nunca un enlace de descarga.",
   },
   home: {
     browseCatalog: "Explorar el catálogo",
     eyebrow: "Ports nativos",
-    lead: "Un catálogo curado de ports nativos para PC y Android: decompilaciones, recompilaciones y reescrituras de motor. Cada ficha enlaza a la fuente oficial del proyecto.",
+    lead: "Un catálogo de juegos que se negaron a morir. Decompilaciones, recompilaciones y reescrituras de motor que corren nativas en PC y Android — cada ficha apuntando solo a la fuente oficial del proyecto.",
     statsPorts: (count: number) => `${count} ports en el catálogo`,
     statsAndroid: (count: number) => `${count} para Android`,
     statsSources: "Solo fuentes oficiales",
     featuredTitle: "Ports destacados",
     featuredSubtitle:
-      "Una selección del catálogo. La lista completa permite filtrar por plataforma, sistema y estado.",
+      "Una selección hecha a mano, como quien te señala juegos en un foro. El catálogo completo permite filtrar por plataforma, sistema y estado.",
     viewAll: "Explorar el catálogo completo",
     exploreTitle: "Explora el sitio",
     exploreSubtitle: "Primero el catálogo; después, las secciones que lo sostienen.",
@@ -579,7 +579,7 @@ const es: Messages = {
   },
   footer: {
     about:
-      "Un catálogo sin fines de lucro de ports nativos. Enlaza solo a fuentes oficiales de los proyectos y no aloja archivos descargables.",
+      "Un catálogo de hobby de ports nativos. Enlaza solo a fuentes oficiales de los proyectos y nunca aloja archivos descargables.",
     licenses: "Código bajo licencia MIT. Datos del catálogo bajo CC BY 4.0.",
     notAffiliated: "Sin afiliación con ninguna compañía de videojuegos.",
     editOnGitHub: "Editar esta página en GitHub",
@@ -592,16 +592,16 @@ const es: Messages = {
   guides: {
     title: "Guías",
     subtitle:
-      "Qué es un port nativo, cómo funcionan las distintas técnicas y cómo usarlo todo de forma legal.",
+      "Qué es un port nativo, cómo funcionan las distintas técnicas y cómo jugar a estos juegos de forma legal.",
     whatTitle: "¿Qué es un port nativo?",
     what: [
-      "Un port nativo es una reedición moderna de un juego clásico que funciona en plataformas actuales como PC, Linux, macOS o Android, sin emuladores ni capas de compatibilidad.",
-      "La mayoría de los proyectos del catálogo son esfuerzos de la comunidad: se construyen desde cero estudiando cómo funciona el juego original y se publican como código abierto.",
-      "Los proyectos no distribuyen los recursos del juego (música, niveles, sonido): se leen de una copia del juego original que tú posees.",
+      "Un port nativo es una reedición moderna de un juego clásico que funciona en las plataformas actuales — PC, Linux, macOS o Android — sin emuladores ni capas de compatibilidad.",
+      "La mayoría de los proyectos del catálogo son esfuerzos de la comunidad: el código se escribe desde cero o se convierte a partir del original, y se publica como código abierto.",
+      "Nunca distribuyen los archivos del propio juego. La música, los niveles y el sonido se leen de una copia del juego original que tú posees — eso es lo que mantiene legal a toda esta escena.",
     ],
     techniquesTitle: "Cómo se hacen los ports",
     techniquesIntro:
-      "Cada técnica describe cómo el proyecto recrea el juego original. La que usa cada port figura siempre en su página de detalle.",
+      "Cada técnica describe cómo un proyecto recrea el juego original. La página de detalle del port siempre te dice cuál usa.",
     techniques: {
       decompilation:
         "El código del proyecto se escribe desde cero para reproducir el comportamiento del juego original y se compila como binario nativo. Exige reconstruir código original de alta calidad; en la práctica los resultados son extremadamente fieles. En el catálogo hay ejemplos como Zelda, Doom y Fallout.",
@@ -617,8 +617,8 @@ const es: Messages = {
     copyTitle: "Conseguir tu propia copia, de forma legal",
     copy: [
       "Ningún proyecto del catálogo distribuye los archivos del juego original, y este sitio no enlaza a descargas de ningún tipo. Para jugar a cualquier port debes poseer el juego original.",
-      "La opción habitual y perfectamente legal es extraer los datos del juego de un cartucho, disco o copia digital que poseas, con las herramientas que documenta cada proyecto. Algunos juegos también se venden de nuevo oficialmente por su editor, que es la vía más sencilla.",
-      "Nunca descargues paquetes de terceros: además de ser ilegal, son un canal habitual de malware. Usa solo fuentes oficiales — las que se enlazan aquí.",
+      "La vía habitual y perfectamente legal es extraer los datos del juego de un cartucho, disco o copia digital que poseas, con las herramientas que documenta cada proyecto. Algunos juegos también se venden de nuevo oficialmente por su editor, que es el camino más fácil.",
+      "Nunca descargues paquetes de terceros: además de ser ilegal, son una autopista clásica del malware. Usa solo fuentes oficiales — las que se enlazan aquí.",
     ],
     faqTitle: "Preguntas frecuentes",
     faq: [
@@ -674,7 +674,7 @@ const es: Messages = {
   },
   support: {
     title: "Apoyo",
-    subtitle: "OpenPortsGames es un proyecto sin fines de lucro. Sin cuentas, sin presión.",
+    subtitle: "OpenPortsGames es un proyecto de hobby. Sin cuentas, sin presión.",
     donationTitle: "Donación opcional",
     donationIntro:
       "Este proyecto no tiene ingresos, empleados ni publicidad. Si quieres apoyarlo, la ayuda más útil es voluntaria y ocasional.",
@@ -693,25 +693,25 @@ const es: Messages = {
   about: {
     title: "Acerca de",
     subtitle: "Por qué existe este catálogo, qué defiende y quién lo mantiene.",
-    missionTitle: "Un catálogo público de ports nativos",
+    missionTitle: "Un catálogo para juegos que se negaron a morir",
     mission: [
-      "OpenPortsGames es un catálogo pequeño e independiente que documenta los ports nativos modernos de juegos clásicos, para que cualquiera pueda descubrirlos y encontrar su fuente oficial.",
-      "Se construye como software: el catálogo son datos, el sitio es público y cualquier corrección pasa por una revisión abierta.",
+      "OpenPortsGames es un catálogo pequeño e independiente de ports nativos modernos de juegos clásicos: los proyectos que desmontaron un juego, lo entendieron y lo reconstruyeron para correr en hardware que sus creadores nunca imaginaron.",
+      "Se construye como software a propósito. Un catálogo son datos, y los datos viven en un repositorio: cada ficha es un archivo, cada corrección es un commit, cada revisión es pública.",
     ],
     principlesTitle: "Cómo trabajamos",
     principles: [
-      "Solo fuentes oficiales. No se alojan descargas, imágenes ni ROMs, ni se enlazan paquetes.",
-      "Evidencia antes que afirmaciones: ningún port se marca como probado sin una prueba registrada, y no se asume ningún estado 'oficial'.",
-      "Honestos ante las retiradas: los proyectos retirados por acción legal se marcan y se desenlazan, no se ocultan.",
+      "Solo fuentes oficiales. No se aloja nada ni se enlazan paquetes; el repositorio o las releases del propio proyecto son la única puerta de entrada.",
+      "Evidencia antes que afirmaciones: ningún port se marca como probado sin una prueba registrada sobre hardware declarado, y 'oficial' nunca se da por hecho.",
+      "Honestos ante las retiradas: los proyectos retirados por acción legal se marcan y se desenlazan, nunca se borran en silencio de la historia.",
     ],
     dataTitle: "El catálogo como datos",
     data: [
-      "Cada port es un archivo de este repositorio, validado automáticamente antes de publicarse.",
-      "El conjunto de datos está disponible bajo CC BY 4.0 y el código del sitio bajo MIT.",
+      "Cada port es un archivo de este repositorio, validado automáticamente antes de publicar nada.",
+      "Los datos se publican bajo CC BY 4.0 y el código del sitio bajo MIT. Haz fork, remézclalo, construye encima.",
     ],
     teamTitle: "Equipo",
     team: [
-      "El catálogo fue iniciado y es mantenido por Kymie131, junto con YaelMora2614 y Ramiro Hernandez. La participación es pública: pruebas, propuestas y correcciones pasan por este repositorio.",
+      "El catálogo lo inició y mantiene Kymie131, junto con YaelMora2614 y Ramiro Hernandez. La participación es pública: pruebas, propuestas y correcciones pasan todas por este repositorio.",
     ],
     creditsTitle: "Créditos",
     credits: [
