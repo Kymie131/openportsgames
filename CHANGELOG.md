@@ -30,6 +30,12 @@ prefixes so the history stays greppable, but the words in this file are mine.
 ### Fixed
 
 - Vitest warning about ESM syntax in a CommonJS-loaded config file.
+- Catalog search: a query matching nothing returned the full catalog; the
+  empty state is now shown. Free-text queries are capped at 200 characters
+  (guards MiniSearch against pathological tokens) and the search input enforces
+  the same limit.
+- OpenXcom source link now points at the canonical repository
+  (`OpenXcom/OpenXcom`) instead of the redirecting account.
 
 ## [0.1.0] - 2026-09-19
 

@@ -15,6 +15,7 @@ import {
   catalogStateToParams,
   defaultCatalogState,
   hasActiveFilters,
+  MAX_QUERY_LENGTH,
   parseCatalogState,
   SCOPED_PLATFORMS,
   type AiValue,
@@ -197,6 +198,7 @@ export function CatalogClient({
           <input
             type="search"
             value={draft}
+            maxLength={MAX_QUERY_LENGTH}
             onChange={(event) => setDraft(event.target.value)}
             placeholder={t.catalog.searchPlaceholder}
             aria-label={t.catalog.searchPlaceholder}

@@ -70,6 +70,14 @@ export type PersistedCatalogState = Omit<CatalogState, "query">;
 
 const SORT_VALUES: SortKey[] = ["relevance", "title", "title-desc", "newest", "stars"];
 
+/**
+ * Maximum accepted query length. Guards the search index against pathological
+ * free-text input (a single minuscule token grows the automaton quadratically
+ * until it throws), so both the URL parser and the catalog keep the query
+ * within this cap.
+ */
+export const MAX_QUERY_LENGTH = 200;
+
 interface ParamSource {
   get(name: string): string | null;
   getAll(name: string): string[];
@@ -96,7 +104,7 @@ function pickAny(params: ParamSource, name: string): string[] {
 
 export function parseCatalogState(params: ParamSource): CatalogState {
   return {
-    query: params.get("q") ?? "",
+    query: (params.get("q") ?? "").slice(0, MAX_QUERY_LENGTH),
     platform: pickMany(params, "platform", platformKeys),
     status: pickMany(params, "status", ["stable", "beta", "alpha"]),
     state: pickMany(params, "state", ["verified", "unverified"]),
@@ -199,9 +207,9 @@ export function applyCatalog(
 ): { results: Port[]; total: number } {
   const scopePlatforms = SCOPED_PLATFORMS[scope];
 
-  const query = state.query.trim();
+  const query = state.query.trim().slice(0, MAX_QUERY_LENGTH);
   const qResults = query.length > 0 ? index.search(query) : [];
-  const queryIds = qResults.length > 0 ? new Set(qResults.map((r) => r.id)) : null;
+  const queryIds = query.length > 0 ? new Set(qResults.map((r) => r.id)) : null;
   const scoreById = new Map(qResults.map((r) => [r.id, r.score] as const));
 
   const { originalSystems = {}, testResults = {}, stars = {} } = options;

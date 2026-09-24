@@ -14,7 +14,7 @@ export const openXcom: Port = {
   platforms: ["windows", "linux", "macos"],
   status: "stable",
   release: { version: "1.0", date: "2014-06-13" },
-  sources: ["https://github.com/SupSuper/OpenXcom"],
+  sources: ["https://github.com/OpenXcom/OpenXcom"],
   website: "https://openxcom.org/",
   license: {
     spdx: "GPL-3.0",

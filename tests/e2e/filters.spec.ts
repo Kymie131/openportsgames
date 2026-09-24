@@ -44,6 +44,13 @@ test.describe("catalog filters", () => {
     await expect(page).toHaveURL(/sort=newest/);
   });
 
+  test("a search matching nothing shows the empty state, not every port", async ({ page }) => {
+    await page.goto("/ports");
+    await page.getByRole("searchbox").fill("qqqq zz9x wqm3 fvjj cccc");
+    await expect(page).toHaveURL(/q=/);
+    await expect(page.getByText("No ports match the current filters.")).toBeVisible();
+  });
+
   test("mobile: the panel opens in a drawer and applies live", async ({ page }) => {
     await page.setViewportSize({ width: 375, height: 700 });
     await page.goto("/ports");
