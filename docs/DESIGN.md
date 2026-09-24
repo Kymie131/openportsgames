@@ -8,13 +8,16 @@ this file changes with it.
 
 I catalog games that refused to die, so the interface is a nod to the
 hardware they escaped from — terminals, CRT phosphor, vector arcade cabinets.
-Deep, near-black backgrounds with a phosphor-green pulse (the accent), an
-amber secondary and a cyan tertiary straight out of a vector display. No
-gradient soup, no stock photos, no emoji, no rounded-squircle SaaS energy.
-The design is sober and utilitarian by choice: the catalog is the protagonist,
-and the machine the reader is using to browse it is also the machine the games
-run on. It should feel like opening a good file manager, not like entering a
-marketing funnel.
+Deep, near-black backgrounds with a single phosphor-green pulse (the accent),
+an amber secondary and a teal tertiary straight out of a vector display. The
+green is a _dimmed_ phosphor, not neon: bright enough to read as the fruits of
+a real CRT, subdued enough for long sessions of browsing the catalog. Body
+text is always a warm neutral — the green never tints paragraphs, only
+highlights. No gradient soup, no stock photos, no emoji, no rounded-squircle
+SaaS energy. The design is sober and utilitarian by choice: the catalog is the
+protagonist, and the machine the reader is using to browse it is also the
+machine the games run on. It should feel like opening a good file manager, not
+like entering a marketing funnel.
 
 The rest of this file exists to keep it that way.
 
@@ -48,30 +51,82 @@ working.
 
 | Token                        | Dark (phosphor CRT)               | Light (terminal paper)            |
 | ---------------------------- | --------------------------------- | --------------------------------- |
-| `background`                 | `#0B0F0D`                         | `#F5F1E6`                         |
-| `surface`                    | `#111713`                         | `#FDFBF5`                         |
-| `surface-2`                  | `#1A231C`                         | `#EAE4D3`                         |
-| `foreground`                 | `#DFE9E1`                         | `#1B241D`                         |
-| `muted`                      | `#93A89B`                         | `#5F6B61`                         |
-| `border`                     | `#24342A`                         | `#D8D2BD`                         |
-| `ring`                       | `#3FDE8D`                         | `#157A40`                         |
-| `accent` / `accent-contrast` | `#3FDE8D` / `#0B120D`             | `#157A40` / `#F7FFF9`             |
-| `accent-hover`               | `#62F0A8`                         | `#0F6233`                         |
-| `accent-2`                   | `#FFB15C` (amber)                 | `#A35C07`                         |
-| `accent-3`                   | `#5FD8CF` (teal)                  | `#0E6F68`                         |
-| `link` / `link-hover`        | `#7CE5AA` / `#A5F3C4`             | `#136332` / `#0D4F27`             |
-| `ok` / `warning` / `danger`  | `#45D988` / `#E0A84E` / `#F07A70` | `#16824A` / `#8F5D08` / `#B0382E` |
+| `background`                 | `#0B0D0B`                         | `#F4F0E4`                         |
+| `surface`                    | `#121511`                         | `#FCFAF2`                         |
+| `surface-2`                  | `#1E231E`                         | `#EAE5D3`                         |
+| `foreground`                 | `#E7E8E1`                         | `#26271F`                         |
+| `muted`                      | `#A4A89E`                         | `#5F6258`                         |
+| `border`                     | `#2A302A`                         | `#D6D0BB`                         |
+| `ring`                       | `#56C589`                         | `#1A6E44`                         |
+| `accent` / `accent-contrast` | `#56C589` / `#0A0F0C`             | `#1A6E44` / `#F4FAF6`             |
+| `accent-hover`               | `#6ED7A0`                         | `#155C38`                         |
+| `accent-2`                   | `#EFB060` (amber)                 | `#A15E07`                         |
+| `accent-3`                   | `#4FC3BA` (teal)                  | `#0F6E6A`                         |
+| `link` / `link-hover`        | `#7ED0A3` / `#A2E0BE`             | `#165C35` / `#0F4F2C`             |
+| `ok` / `warning` / `danger`  | `#52C687` / `#E3A950` / `#E67F6C` | `#19723F` / `#7E5010` / `#A33428` |
 
-- Dark is a near-black CRT with a green tint. The single pulse of the design
-  is `--accent`: phosphor green. Amber and teal exist to be used sparingly —
-  accents on icons, badges, the gradient — never to compete with text.
+- Dark is a near-black CRT with only a whisper of green in the blacks — the
+  warmth that keeps it from reading as "hacker green" comes from the amber and
+  the warm neutral text, not from tinting every surface green.
+- The single pulse of the design is `--accent`: a **dimmed phosphor** (about
+  half the chroma of a raw neon green — `#3FDE8D` → `#56C589`). It is reserved
+  for accents: links, status badges, active nav, buttons, focus. Amber and
+  teal are not decoration — they surface regularly across the catalog
+  (version numbers in teal, the star ratings and home-section icons in amber,
+  beta/stable/alpha badges in amber/green/red). That keeps the UI from feeling
+  monochromatic without crowding the green out.
 - The body carries a fixed, faint treatment instead of a colored wash: a
   slight green bloom at the top corner and a barely-there horizontal
-  scanline. It never animates and it is a background, not a UI element.
+  scanline. It never animates and it is a background, not a UI element. Both
+  sit at single-digit opacity so they can never push small text (badges,
+  metadata, footer) below the contrast line.
 - `.text-gradient` (green→teal, like a vector display sweep) is reserved for
   the brand and the home heading.
 - Links use `--link` / `--link-hover`. Semantic variants (success/warning/
   danger) are used only as small badges, never as page color.
+
+### Why this palette (decision note)
+
+The first release of the theme used a saturated neon green (`#3FDE8D`) as the
+accent and green-tinted neutrals (`#DFE9E1` foreground, `#93A89B` muted) for
+all body text. The result read as "hacker terminal": every paragraph carried a
+green cast and the accent kept shouting. The goal of the adjustment was not to
+abandon the CRT identity — the scanlines, the bloom, the mono numbers and the
+green pulse are what make the site feel like the hardware the catalog's games
+escaped from — but to make the palette _warmer_ and the green _quieter_:
+
+- Neutrals moved from cool green-tinted to warm gray. Body text is now a warm
+  off-white `#E7E8E1` (never green), and secondary text a warm gray `#A4A89E`.
+  Long-reading comfort went up because the eye no longer has to stare into a
+  green wash for every paragraph.
+- The accent was desaturated and pulled back (`#3FDE8D` ≈ 71% s → `#56C589` ≈
+  49% s). Same hue family, same CRT character — lower chroma, so it reads as
+  backlit phosphor instead of LED harshness.
+- Amber and teal were given real jobs (versions, stars, section icons,
+  statuses) instead of being "sparing" accents, so the UI reads as three-color
+  CRT rather than green-on-green.
+- Every text/background combination was recomputed against WCAG. Dark theme is
+  AAA for body and secondary text and ≥4.5AA for every badge; the light theme
+  passes AA (≥4.5) for all text, including the small status chips. See the
+  ratio matrix below; the axe sweep over the built site reports no
+  color-contrast violations in either theme.
+
+#### Measured contrast (worst-case pair per role)
+
+| Role                                  | Dark | Light |
+| ------------------------------------- | ---- | ----- |
+| Body text on background               | 15.8 | 13.2  |
+| Secondary (`muted`) on background     | 8.1  | 5.5   |
+| Link on background                    | 10.6 | 7.0   |
+| Accent text on accent chip (`/15` bg) | 6.6  | 4.8   |
+| Status chips (ok/warning/danger)      | ≥5.4 | ≥4.6  |
+| Accent button text on accent fill     | 9.0  | 5.9   |
+| Amber / teal on card surface          | ≥8.6 | ≥4.9  |
+
+All small-text pairs ≥4.5 (AA); body and secondary text additionally clear 7
+in the dark theme. The scanline and bloom textures are not computed here —
+they live on the body _background_ layer at single-digit alpha, behind every
+opaque surface, so they never sit under text.
 
 ## Shape, spacing, elevation
 

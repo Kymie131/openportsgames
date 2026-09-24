@@ -18,7 +18,7 @@ import { PlatformMark } from "@/components/platforms/platform-mark";
 import { SystemMark } from "@/components/platforms/system-mark";
 import { consoleLogoForSystem } from "@/content/ports/console-logos";
 import { formatDate } from "@/lib/dates";
-import { assetPath } from "@/lib/utils";
+import { assetPath, cn } from "@/lib/utils";
 import { useLocale, useT } from "@/lib/i18n/use-i18n";
 
 const STATUS_TONE: Record<Port["status"], string> = {
@@ -118,7 +118,7 @@ export function PortDetail({
             port.license.note ? `${port.license.spdx} · ${port.license.note}` : port.license.spdx
           }
         />
-        <Row label={t.detail.version} value={port.release.version ?? "—"} />
+        <Row label={t.detail.version} value={port.release.version ?? "—"} tone="teal" />
         <Row
           label={t.detail.date}
           value={port.release.date ? formatDate(port.release.date, locale) : "—"}
@@ -332,11 +332,11 @@ export function PortDetail({
   );
 }
 
-function Row({ label, value }: { label: string; value: string }) {
+function Row({ label, value, tone }: { label: string; value: string; tone?: "teal" }) {
   return (
     <div className="flex flex-col gap-0.5">
       <dt className="text-xs text-muted">{label}</dt>
-      <dd className="text-sm">{value}</dd>
+      <dd className={cn("text-sm", tone === "teal" && "font-mono text-accent-3")}>{value}</dd>
     </div>
   );
 }

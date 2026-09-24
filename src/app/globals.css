@@ -3,52 +3,54 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 /*
- * Design tokens. The identity is CRT/terminal: near-black green-dark
- * neutrals, phosphor green as the single accent pulse, amber and teal as
- * quiet secondaries (the colors of a vector arcade display). The theme is
- * applied as a class on <html> (.dark or .light) by the theme script in the
- * layout head, so there is no flash of unthemed content. Values and the
- * rationale live in docs/DESIGN.md.
+ * Design tokens. The identity is CRT/terminal: warm near-black neutrals
+ * (with only a whisper of green in the blacks), a *dimmed* phosphor green
+ * as the accent pulse, and amber and teal as quiet secondaries that surface
+ * across the catalog (versions, stars, icons). The theme is applied as a
+ * class on <html> (.dark or .light) by the theme script in the layout head,
+ * so there is no flash of unthemed content. Body text stays neutral — the
+ * green is reserved for accents, links and badges, never for paragraphs.
+ * Values, ratios and the rationale live in docs/DESIGN.md.
  */
 
 :root {
-  --background: #0b0f0d;
-  --surface: #111713;
-  --surface-2: #1a231c;
-  --border: #24342a;
-  --foreground: #dfe9e1;
-  --muted: #93a89b;
-  --accent: #3fde8d;
-  --accent-contrast: #0b120d;
-  --accent-hover: #62f0a8;
-  --accent-2: #ffb15c;
-  --accent-3: #5fd8cf;
-  --link: #7ce5aa;
-  --link-hover: #a5f3c4;
-  --ring: #3fde8d;
-  --ok: #45d988;
-  --warning: #e0a84e;
-  --danger: #f07a70;
+  --background: #0b0d0b;
+  --surface: #121511;
+  --surface-2: #1e231e;
+  --border: #2a302a;
+  --foreground: #e7e8e1;
+  --muted: #a4a89e;
+  --accent: #56c589;
+  --accent-contrast: #0a0f0c;
+  --accent-hover: #6ed7a0;
+  --accent-2: #efb060;
+  --accent-3: #4fc3ba;
+  --link: #7ed0a3;
+  --link-hover: #a2e0be;
+  --ring: #56c589;
+  --ok: #52c687;
+  --warning: #e3a950;
+  --danger: #e67f6c;
 }
 
 .light {
-  --background: #f5f1e6;
-  --surface: #fdfbf5;
-  --surface-2: #eae4d3;
-  --border: #d8d2bd;
-  --foreground: #1b241d;
-  --muted: #5f6b61;
-  --accent: #157a40;
-  --accent-contrast: #f7fff9;
-  --accent-hover: #0f6233;
-  --accent-2: #a35c07;
-  --accent-3: #0e6f68;
-  --link: #136332;
-  --link-hover: #0d4f27;
-  --ring: #157a40;
-  --ok: #16824a;
-  --warning: #8f5d08;
-  --danger: #b0382e;
+  --background: #f4f0e4;
+  --surface: #fcfaf2;
+  --surface-2: #eae5d3;
+  --border: #d6d0bb;
+  --foreground: #26271f;
+  --muted: #5f6258;
+  --accent: #1a6e44;
+  --accent-contrast: #f4faf6;
+  --accent-hover: #155c38;
+  --accent-2: #a15e07;
+  --accent-3: #0f6e6a;
+  --link: #165c35;
+  --link-hover: #0f4f2c;
+  --ring: #1a6e44;
+  --ok: #19723f;
+  --warning: #7e5010;
+  --danger: #a33428;
 }
 
 @theme inline {
@@ -89,12 +91,12 @@ body {
   background-image:
     radial-gradient(
       1200px 800px at 85% -10%,
-      color-mix(in srgb, var(--accent) 9%, transparent),
+      color-mix(in srgb, var(--accent) 7%, transparent),
       transparent 62%
     ),
     repeating-linear-gradient(
       to bottom,
-      color-mix(in srgb, var(--foreground) 2.5%, transparent) 0 1px,
+      color-mix(in srgb, var(--foreground) 2%, transparent) 0 1px,
       transparent 1px 4px
     );
   background-attachment: fixed;
@@ -106,12 +108,12 @@ body {
   background-image:
     radial-gradient(
       1200px 800px at 85% -10%,
-      color-mix(in srgb, var(--accent) 7%, transparent),
+      color-mix(in srgb, var(--accent) 5%, transparent),
       transparent 62%
     ),
     repeating-linear-gradient(
       to bottom,
-      color-mix(in srgb, var(--foreground) 3%, transparent) 0 1px,
+      color-mix(in srgb, var(--foreground) 2.5%, transparent) 0 1px,
       transparent 1px 4px
     );
 }

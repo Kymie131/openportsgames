@@ -102,8 +102,9 @@ export function PortTile({
 
       {port.release.version && (
         <p className="text-xs text-muted">
-          {t.catalog.version} {port.release.version}
-          {starLabel && <span className="ml-2 text-muted">★ {starLabel}</span>}
+          {t.catalog.version}{" "}
+          <span className="font-mono text-accent-3">{port.release.version}</span>
+          {starLabel && <span className="ml-2 text-accent-2">★ {starLabel}</span>}
         </p>
       )}
 
