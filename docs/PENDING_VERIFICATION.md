@@ -11,22 +11,22 @@ sat down and checked, not a list of vibes.
 
 ## Kept in the catalog (verified: false)
 
-| Port                        | Reason                                                                                 |
-| --------------------------- | -------------------------------------------------------------------------------------- |
-| sm64ex                      | No numbered releases; builds track the repository.                                     |
-| OpenLara                    | No numbered releases; rolling repository builds.                                       |
-| Xash3D FWGS                 | Distribution uses rolling `continuous` releases (marked prerelease).                   |
-| OpenJK                      | Distribution uses a rolling `latest` release.                                          |
-| EDuke32                     | Distributed as rolling builds from eduke32.com; no versioned release metadata.         |
-| OpenXcom                    | Only tagged release is `v1.0` (2014); current builds are distributed via openxcom.org. |
-| pikmin                      | Decompilation with no tagged releases; builds track the repository.                    |
-| petari                      | Work-in-progress Super Mario Galaxy decompilation with no releases.                    |
-| ctr-native                  | Distributed as `beta-*` prerelease playtest tags.                                      |
-| pokered                     | Disassembly without release metadata; builds the original Game Boy ROM.                |
-| super-mario-bros-remastered | Remake reusing Nintendo-owned assets; distribution is unversioned.                     |
-| symphony-recomp             | Open beta (`v0.5.xb`) releases; no stable version yet.                                 |
-| minish-cap                  | Research decompilation with no released binary.                                        |
-| marathon-recomp             | No tagged releases; builds track the repository.                                       |
+| Port                        | Reason                                                                                                                               |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| sm64ex                      | No numbered releases; builds track the repository.                                                                                   |
+| OpenLara                    | No numbered releases; rolling repository builds.                                                                                     |
+| Xash3D FWGS                 | Distribution uses rolling `continuous` releases (marked prerelease).                                                                 |
+| OpenJK                      | Distribution uses a rolling `latest` release.                                                                                        |
+| EDuke32                     | Distributed as rolling builds from eduke32.com; no versioned release metadata.                                                       |
+| OpenXcom                    | Only tagged release is `v1.0` (2014); current builds are distributed via openxcom.org.                                               |
+| pikmin                      | Decompilation with no tagged releases; builds track the repository.                                                                  |
+| petari                      | Work-in-progress Super Mario Galaxy decompilation with no releases.                                                                  |
+| ctr-native                  | Distributed as `beta-*` prerelease playtest tags.                                                                                    |
+| pokered                     | Disassembly without release metadata; builds the original Game Boy ROM.                                                              |
+| super-mario-bros-remastered | Remake reusing Nintendo-owned assets; now ships versioned releases (`1.1.0-stable`, Sep 2026) but stays unverified on asset grounds. |
+| symphony-recomp             | Open beta (`v0.5.xb`) releases; no stable version yet.                                                                               |
+| minish-cap                  | Research decompilation with no released binary.                                                                                      |
+| marathon-recomp             | No tagged releases; builds track the repository.                                                                                     |
 
 These ports are shown in the catalog with a visible "not verified" marker —
 not because I doubt them, but because a catalog that marks everything

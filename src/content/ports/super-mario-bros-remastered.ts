@@ -13,12 +13,12 @@ export const superMarioBrosRemastered: Port = {
   openSource: true,
   platforms: ["windows", "linux", "macos"],
   status: "stable",
-  release: { version: null, date: null },
+  release: { version: "1.1.0", date: "2026-09-04" },
   sources: ["https://github.com/JHDev2006/Super-Mario-Bros.-Remastered-Public"],
   license: { spdx: "GPL-3.0" },
   aiDisclosure: false,
   verified: false,
   originalSystem: "Nintendo Entertainment System",
   notes:
-    "Community remake of Super Mario Bros. built from scratch in Godot. The project is a fresh reimplementation rather than a build of the original game code, and it reuses audio and sprite assets from the original release. Because of those Nintendo-owned assets and its unversioned distribution this entry stays unverified.",
+    "Community remake of Super Mario Bros. built from scratch in Godot. The project is a fresh reimplementation rather than a build of the original game code, and it reuses audio and sprite assets from the original release. Distributed as versioned releases, the latest stable being 1.1.0. Because of those Nintendo-owned assets this entry stays unverified.",
 };

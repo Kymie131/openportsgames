@@ -45,6 +45,10 @@ prefixes so the history stays greppable, but the words in this file are mine.
 - Port pages: long meta descriptions (e.g. full `notes`) are now summarized to
   a 155-character word-boundary snippet for the tag, leaving the on-page copy
   untouched.
+- Super Mario Bros. Remastered: the repository publishes versioned releases;
+  the entry now lists stable `1.1.0` (2026-09-04). Pokémon Red/Blue
+  Disassembly ships no releases, so its note now says builds track the
+  repository (same stance as sm64ex).
 
 ## [0.1.0] - 2026-09-19
 
