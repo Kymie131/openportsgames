@@ -42,6 +42,9 @@ prefixes so the history stays greppable, but the words in this file are mine.
   `application/octet-stream`.
 - Sitemap: every URL (home, sections and port pages) now ends with a trailing
   slash, matching the static export's `trailingSlash` routing.
+- Port pages: long meta descriptions (e.g. full `notes`) are now summarized to
+  a 155-character word-boundary snippet for the tag, leaving the on-page copy
+  untouched.
 
 ## [0.1.0] - 2026-09-19
 

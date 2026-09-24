@@ -4,7 +4,7 @@ import { Container } from "@/components/layout/container";
 import { PortDetail } from "@/components/ports/port-detail";
 import { TakedownNotice } from "@/components/ports/takedown-notice";
 import { JsonLd } from "@/components/seo/json-ld";
-import { pageMeta } from "@/lib/seo";
+import { pageMeta, summarize } from "@/lib/seo";
 import {
   getPort,
   getPortIdSet,
@@ -37,7 +37,9 @@ export async function generateMetadata({
   }
   return pageMeta({
     title: port.title,
-    description: port.notes ?? `${port.game} native port for ${port.platforms.join(", ")}.`,
+    description: summarize(
+      port.notes ?? `${port.game} native port for ${port.platforms.join(", ")}.`,
+    ),
     path: `/ports/${port.id}`,
   });
 }
