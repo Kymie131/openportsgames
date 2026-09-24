@@ -65,8 +65,8 @@ isolation is the insurance.
 - `src/lib/seo.ts` (`pageMeta`) produces per-page title, description, canonical,
   Open Graph and Twitter card.
 - `sitemap.xml` covers every route and every port; there is a `robots.txt`, a
-  generated `opengraph-image`, and JSON-LD (`WebSite` on the home page,
-  `VideoGame` on each port detail page).
+  static `public/opengraph-image.png` social card, and JSON-LD (`WebSite` on the
+  home page, `VideoGame` on each port detail page).
 - `NEXT_PUBLIC_SITE_URL` feeds every canonical URL. Without it, the localhost
   fallback is used — which is exactly what should happen when someone forks the
   repo to poke around.

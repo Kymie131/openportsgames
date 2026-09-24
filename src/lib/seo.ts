@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SITE_NAME, absoluteUrl } from "@/lib/site";
 
 export const OG_IMAGE = {
-  url: "/opengraph-image",
+  url: absoluteUrl("/opengraph-image.png"),
   width: 1200,
   height: 630,
   alt: `${SITE_NAME} — a curated catalog of native game ports`,
@@ -39,7 +39,7 @@ export function pageMeta({
       card: "summary_large_image",
       title: title ? `${title} · ${SITE_NAME}` : SITE_NAME,
       description,
-      images: ["/opengraph-image"],
+      images: [OG_IMAGE.url],
     },
   };
 }

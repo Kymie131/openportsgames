@@ -36,6 +36,10 @@ prefixes so the history stays greppable, but the words in this file are mine.
   the same limit.
 - OpenXcom source link now points at the canonical repository
   (`OpenXcom/OpenXcom`) instead of the redirecting account.
+- Social preview image: the 1200x630 card is now a real PNG served from
+  `public/` (`opengraph-image.png`) and every page references it by absolute URL,
+  instead of an extensionless generated asset that some hosts served as
+  `application/octet-stream`.
 
 ## [0.1.0] - 2026-09-19
 

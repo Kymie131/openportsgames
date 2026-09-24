@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { getSiteUrl, SITE_DESCRIPTION, SITE_NAME } from "@/lib/site";
+import { absoluteUrl, getSiteUrl, SITE_DESCRIPTION, SITE_NAME } from "@/lib/site";
 import { ThemeScript } from "@/components/theme/theme-script";
 import { LocaleScript } from "@/components/i18n/locale-script";
 import { LocaleProvider } from "@/components/i18n/locale-provider";
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: "/opengraph-image",
+        url: absoluteUrl("/opengraph-image.png"),
         width: 1200,
         height: 630,
         alt: `${SITE_NAME} — a curated catalog of native game ports`,
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: ["/opengraph-image"],
+    images: [absoluteUrl("/opengraph-image.png")],
   },
 };
 
