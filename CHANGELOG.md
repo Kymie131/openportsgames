@@ -40,6 +40,8 @@ prefixes so the history stays greppable, but the words in this file are mine.
   `public/` (`opengraph-image.png`) and every page references it by absolute URL,
   instead of an extensionless generated asset that some hosts served as
   `application/octet-stream`.
+- Sitemap: every URL (home, sections and port pages) now ends with a trailing
+  slash, matching the static export's `trailingSlash` routing.
 
 ## [0.1.0] - 2026-09-19
 

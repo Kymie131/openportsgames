@@ -5,16 +5,16 @@ import { absoluteUrl } from "@/lib/site";
 export const dynamic = "force-static";
 
 const STATIC_PAGES = [
-  "",
-  "/ports",
-  "/pc",
-  "/android",
-  "/testing",
-  "/guides",
-  "/submit",
-  "/support",
-  "/about",
-  "/legal",
+  "/",
+  "/ports/",
+  "/pc/",
+  "/android/",
+  "/testing/",
+  "/guides/",
+  "/submit/",
+  "/support/",
+  "/about/",
+  "/legal/",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -23,10 +23,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: absoluteUrl(path),
     lastModified: now,
     changeFrequency: "weekly",
-    priority: path === "" ? 1 : 0.6,
+    priority: path === "/" ? 1 : 0.6,
   }));
   const portEntries: MetadataRoute.Sitemap = getPorts().map((port) => ({
-    url: absoluteUrl(`/ports/${port.id}`),
+    url: absoluteUrl(`/ports/${port.id}/`),
     lastModified: now,
     changeFrequency: "monthly",
     priority: 0.8,
