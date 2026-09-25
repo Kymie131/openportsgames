@@ -26,9 +26,13 @@ prefixes so the history stays greppable, but the words in this file are mine.
   dhewm3.org homepage), Sonic 1 & 2 (2013) and Pokémon Red/Blue Disassembly.
 - Catalog grid: every card now shows the port's first official screenshot as a
   16:9 cover, falling back to the console logo when a port has no screenshots.
+- Site icon: the brand mark is served as favicon (`src/app/icon.svg` and
+  `icon.png`) plus an Apple touch icon, so the browser tab shows the "O" mark.
 
 ### Changed
 
+- Brand logo recolored from the blue gradient to the green accent gradient
+  (`#6ED7A0` → `#56C589` → `#4FC3BA`), matching the site theme.
 - Repo line endings normalized to LF (`.editorconfig` + Prettier `endOfLine`).
 - Vitest configuration loaded as ESM (`vitest.config.mts`).
 - `actions/checkout` pinned to a full commit SHA across all workflows.

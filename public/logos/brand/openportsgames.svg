@@ -2,9 +2,9 @@
   <title>OpenPortsGames logo</title>
   <defs>
     <linearGradient id="opgGradient" x1="300" y1="0" x2="9382" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#51ADFB"/>
-      <stop offset="50%" stop-color="#3FC7F4"/>
-      <stop offset="100%" stop-color="#9E84EC"/>
+      <stop offset="0%" stop-color="#6ED7A0"/>
+      <stop offset="50%" stop-color="#56C589"/>
+      <stop offset="100%" stop-color="#4FC3BA"/>
     </linearGradient>
   </defs>
   <g fill="url(#opgGradient)">

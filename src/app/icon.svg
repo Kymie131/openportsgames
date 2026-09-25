@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="333 678 720 720" width="512" height="512">
+  <defs>
+    <linearGradient id="opgIcon" x1="333" y1="0" x2="1053" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6ED7A0"/>
+      <stop offset="50%" stop-color="#56C589"/>
+      <stop offset="100%" stop-color="#4FC3BA"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#0C1323"/>
+  <g fill="url(#opgIcon)"><path d="M333 1037Q333 934 381.5 852.0Q430 770 512.5 724.0Q595 678 694 678Q793 678 875.5 724.0Q958 770 1005.5 852.0Q1053 934 1053 1037Q1053 1140 1005.0 1222.5Q957 1305 875.0 1351.0Q793 1397 694 1397Q595 1397 512.5 1351.0Q430 1305 381.5 1222.5Q333 1140 333 1037ZM879 1037Q879 944 828.5 888.5Q778 833 694 833Q609 833 558.5 888.0Q508 943 508 1037Q508 1130 558.5 1185.5Q609 1241 694 1241Q778 1241 828.5 1185.0Q879 1129 879 1037Z"/></g>
+</svg>
