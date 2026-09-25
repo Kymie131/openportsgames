@@ -30,11 +30,22 @@ prefixes so the history stays greppable, but the words in this file are mine.
 - Official in-game screenshot for Sonic Unleashed, taken from the hedge-dev
   resources repository (`UnleashedRecompResources`) that ships the game's own
   options-menu preview frames.
+- New ports round: dhewm3, ioquake3, DXX-Rebirth, Julius, CorsixTH, Raze,
+  Arx Libertatis and OpenDUNE (catalog now covers 62 games).
+- GitHub logo next to every source link that points at a repository, rendered
+  from the official Simple Icons path instead of a font glyph.
+- Screenshot round: OpenLara (two), Starship, Crash Bandicoot, Super Mario
+  Bros. Remastered, Marathon Recompilation, CorsixTH (two) and Arx Libertatis
+  (two), all sourced from official pages or repository content.
 
 ### Changed
 
 - Brand logo recolored from the blue gradient to the green accent gradient
   (`#6ED7A0` → `#56C589` → `#4FC3BA`), matching the site theme.
+- Dusklight updated to `2.0.2` (2026-09-25), the one real update found by the
+  release checker among the five it flagged.
+- OpenJK now lists macOS support and links its official builds site
+  (`builds.openjk.org`) instead of the repository redirect.
 - Repo line endings normalized to LF (`.editorconfig` + Prettier `endOfLine`).
 - Vitest configuration loaded as ESM (`vitest.config.mts`).
 - `actions/checkout` pinned to a full commit SHA across all workflows.
