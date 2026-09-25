@@ -22,6 +22,13 @@ export const openRct2: Port = {
   aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-19",
+  screenshots: [
+    {
+      src: "https://github.com/user-attachments/assets/fa893cc8-1484-4751-94be-4ead00a6c8f9",
+      alt: "A park scene from the OpenRCT2 title sequence",
+      credit: "OpenRCT2",
+    },
+  ],
   notes:
     "Open source reimplementation of RollerCoaster Tycoon 2, expanding the original. Requires the original RCT2 game files.",
 };

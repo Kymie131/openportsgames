@@ -22,6 +22,13 @@ export const sonic12: Port = {
   aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-19",
+  screenshots: [
+    {
+      src: "https://raw.githubusercontent.com/RSDKModding/RSDK-Modding-Wiki/master/docs/assets/images/Sonic2/2PVS-EHZ.png",
+      alt: "Sonic 2 (2013) two-player versus match in Emerald Hill Zone",
+      credit: "RSDK Modding Wiki",
+    },
+  ],
   notes:
     "Complete decompilation of the 2013 mobile remakes of Sonic 1 and Sonic 2 (Retro Engine v4), playable on PC, Mac and Linux. Requires a legally acquired copy of the Sonic the Hedgehog (2013) or Sonic the Hedgehog 2 (2013) game data from the App Store, Google Play or Steam.",
 };

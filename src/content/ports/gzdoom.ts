@@ -23,6 +23,13 @@ export const gzdoom: Port = {
   aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-19",
+  screenshots: [
+    {
+      src: "https://raw.githubusercontent.com/ZDoom/gzdoom/master/src/posix/freedesktop/screenshot_doom.png",
+      alt: "Classic DOOM gameplay rendered by GZDoom",
+      credit: "ZDoom/gzdoom",
+    },
+  ],
   notes:
     "Feature-centric source port for all Doom-engine games, with an official Android build. Requires an IWAD (the freedoom project provides assets).",
 };

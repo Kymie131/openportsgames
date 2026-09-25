@@ -21,6 +21,13 @@ export const pokered: Port = {
   },
   aiDisclosure: false,
   verified: false,
+  screenshots: [
+    {
+      src: "https://raw.githubusercontent.com/wiki/pret/pokered/screenshots/town-map-ingame.png",
+      alt: "The Town Map screen in Pokémon Red",
+      credit: "pret/pokered wiki",
+    },
+  ],
   originalSystem: "Game Boy",
   notes:
     "Fully commented disassembly of the first generation Pokémon games that builds byte-perfect copies via rgbds. Produces the original Game Boy ROM rather than a native modern executable; the pairing projects in the pret organization power many quality-of-life remakes and hacks built from this source. The pret organization does not publish numbered releases; builds track the repository.",

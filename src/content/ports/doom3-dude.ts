@@ -19,6 +19,13 @@ export const doom3Dude: Port = {
   aiDisclosure: true,
   verified: true,
   verifiedAt: "2026-09-22",
+  screenshots: [
+    {
+      src: "https://dhewm3.org/dhewm3-1.jpg",
+      alt: "DOOM 3 combat gameplay running on the dhewm3-based engine",
+      credit: "dhewm3.org",
+    },
+  ],
   originalSystem: "Microsoft Windows",
   features: [
     "GL 3.3 and Vulkan backends with a legacy ARB path",
