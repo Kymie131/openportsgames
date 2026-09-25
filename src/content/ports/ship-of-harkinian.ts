@@ -24,6 +24,13 @@ export const shipOfHarkinian: Port = {
   aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-19",
+  screenshots: [
+    {
+      src: "https://www.shipofharkinian.com/screenshot_saria.jpg",
+      alt: "Saria speaking with Link inside the Lost Woods in Ocarina of Time",
+      credit: "Ship of Harkinian",
+    },
+  ],
   notes:
     "Native port of Ocarina of Time from the decompilation project. Requires the original North American Ocarina of Time N64 ROM (legally obtained).",
   installGuide: {

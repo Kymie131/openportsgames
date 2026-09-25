@@ -20,6 +20,13 @@ export const dusklight: Port = {
   aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-22",
+  screenshots: [
+    {
+      src: "https://twilitrealm.dev/_astro/shot-platform.Cp2I0l-W_1nEglP.webp",
+      alt: "The hero crossing a platform in Dusklight's Twilight Princess reimplementation",
+      credit: "Dusklight",
+    },
+  ],
   originalSystem: "GameCube",
   features: [
     "Full game playable from start to finish",

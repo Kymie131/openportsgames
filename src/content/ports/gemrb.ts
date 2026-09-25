@@ -22,6 +22,13 @@ export const gemrb: Port = {
   aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-19",
+  screenshots: [
+    {
+      src: "https://gemrb.github.io/assets/img/screenshots/bg2.jpg",
+      alt: "Baldur's Gate II gameplay running inside GemRB",
+      credit: "GemRB",
+    },
+  ],
   notes:
     "Portable reimplementation of BioWare's Infinity Engine, running Baldur's Gate I & II, Icewind Dale and Planescape: Torment. Requires the original game data.",
 };

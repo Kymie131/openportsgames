@@ -34,6 +34,7 @@ export function PortTile({
   const starLabel =
     stars !== undefined && stars > 0 ? new Intl.NumberFormat("en").format(stars) : undefined;
   const consoleLogo = consoleLogoForSystem(system);
+  const [cover] = port.screenshots ?? [];
 
   return (
     <article
@@ -44,34 +45,50 @@ export function PortTile({
         className,
       )}
     >
-      <Link
-        href={`/ports/${port.id}`}
-        className="flex h-14 items-center justify-center gap-2 rounded-md border border-border bg-surface-2 transition-colors duration-150 hover:border-accent-hover"
-        aria-label={port.title}
-      >
-        {consoleLogo ? (
-          // eslint-disable-next-line @next/next/no-img-element
+      {cover ? (
+        <Link
+          href={`/ports/${port.id}`}
+          className="block overflow-hidden rounded-md border border-border transition-colors duration-150 hover:border-accent-hover"
+          aria-label={port.title}
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={consoleLogo}
-            alt={system}
-            className="h-10 max-w-[70%] rounded-md bg-white/90 p-1.5 object-contain"
+            src={cover.src}
+            alt={cover.alt}
+            className="aspect-video w-full object-cover"
             loading="lazy"
           />
-        ) : (
-          <>
-            {system && (
-              <SystemMark
-                system={system}
-                glyphClassName="size-6"
-                labelClassName="text-sm font-semibold tracking-tight text-muted"
-              />
-            )}
-            <span className="text-2xl font-semibold tracking-tight text-muted" aria-hidden="true">
-              {port.game.charAt(0)}
-            </span>
-          </>
-        )}
-      </Link>
+        </Link>
+      ) : (
+        <Link
+          href={`/ports/${port.id}`}
+          className="flex h-14 items-center justify-center gap-2 rounded-md border border-border bg-surface-2 transition-colors duration-150 hover:border-accent-hover"
+          aria-label={port.title}
+        >
+          {consoleLogo ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={consoleLogo}
+              alt={system}
+              className="h-10 max-w-[70%] rounded-md bg-white/90 p-1.5 object-contain"
+              loading="lazy"
+            />
+          ) : (
+            <>
+              {system && (
+                <SystemMark
+                  system={system}
+                  glyphClassName="size-6"
+                  labelClassName="text-sm font-semibold tracking-tight text-muted"
+                />
+              )}
+              <span className="text-2xl font-semibold tracking-tight text-muted" aria-hidden="true">
+                {port.game.charAt(0)}
+              </span>
+            </>
+          )}
+        </Link>
+      )}
 
       <div className="flex flex-1 flex-col gap-1">
         <h3 className="line-clamp-2 text-base font-semibold leading-snug">

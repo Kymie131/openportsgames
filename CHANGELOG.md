@@ -20,6 +20,10 @@ prefixes so the history stays greppable, but the words in this file are mine.
 - Official project screenshots for F-Zero SNES Recompiled, OpenTTD,
   EDuke32 and OpenMW.
 - Official project screenshots for OpenRA, Daggerfall Unity and OpenXcom.
+- Official project screenshots for DevilutionX, DKR-R, Dusklight, GemRB,
+  Ship of Harkinian and Xash3D FWGS.
+- Catalog grid: every card now shows the port's first official screenshot as a
+  16:9 cover, falling back to the console logo when a port has no screenshots.
 
 ### Changed
 

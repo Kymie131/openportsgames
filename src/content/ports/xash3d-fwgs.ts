@@ -22,6 +22,13 @@ export const xash3d: Port = {
   },
   aiDisclosure: false,
   verified: false,
+  screenshots: [
+    {
+      src: "https://raw.githubusercontent.com/FWGS/xash3d-fwgs/master/Documentation/images/example4.jpg",
+      alt: "Half-Life gameplay in Xash3D FWGS showing a custom touch-control button",
+      credit: "Xash3D FWGS",
+    },
+  ],
   notes:
     "Open source reimplementation of the Half-Life engine, including a working Android build. Uses rolling 'continuous' releases. Requires the original Half-Life game files.",
 };

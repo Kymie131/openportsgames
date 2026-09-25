@@ -23,6 +23,13 @@ export const devilutionX: Port = {
   aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-19",
+  screenshots: [
+    {
+      src: "https://github.com/user-attachments/assets/ee902926-6382-4ee5-b1c2-7947e8b434e9",
+      alt: "The Diablo player inspecting a dropped item inside the cathedral",
+      credit: "DevilutionX",
+    },
+  ],
   notes:
     "Reverse-engineered engine for Diablo and the Hellfire expansion, rebuilt for modern systems. Requires the original Diablo 1 and Hellfire data files.",
   installGuide: {

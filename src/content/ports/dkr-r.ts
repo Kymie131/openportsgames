@@ -19,6 +19,13 @@ export const dkrR: Port = {
   aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-22",
+  screenshots: [
+    {
+      src: "https://github.com/user-attachments/assets/c913bee2-029c-4e29-9921-0f6abe7a3bf1",
+      alt: "Diddy Kong racing through a course in Diddy Kong Racing",
+      credit: "DKR-R",
+    },
+  ],
   originalSystem: "Nintendo 64",
   features: [
     "Online multiplayer with cooperative Adventure mode",
