@@ -53,6 +53,14 @@ import { superMarioBrosRemastered } from "./super-mario-bros-remastered";
 import { crashBandicoot } from "./crash-bandicoot";
 import { minishCap } from "./minish-cap";
 import { marathonRecomp } from "./marathon-recomp";
+import { dhewm3 } from "./dhewm3";
+import { ioquake3 } from "./ioquake3";
+import { dxxRebirth } from "./dxx-rebirth";
+import { julius } from "./julius";
+import { corsixth } from "./corsixth";
+import { raze } from "./raze";
+import { arxLibertatis } from "./arx-libertatis";
+import { openDune } from "./opendune";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -109,4 +117,12 @@ export const portCases: Port[] = [
   crashBandicoot,
   minishCap,
   marathonRecomp,
+  dhewm3,
+  ioquake3,
+  dxxRebirth,
+  julius,
+  corsixth,
+  raze,
+  arxLibertatis,
+  openDune,
 ];

@@ -55,4 +55,12 @@ export const originalSystemById: Record<Port["id"], string> = {
   "crash-bandicoot": "PlayStation",
   "minish-cap": "Game Boy Advance",
   "marathon-recomp": "Xbox 360",
+  dhewm3: "Microsoft Windows",
+  ioquake3: "Microsoft Windows",
+  "dxx-rebirth": "MS-DOS",
+  julius: "Microsoft Windows",
+  corsixth: "MS-DOS",
+  raze: "MS-DOS",
+  "arx-libertatis": "Microsoft Windows",
+  opendune: "MS-DOS",
 };
