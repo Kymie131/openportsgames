@@ -15,15 +15,14 @@ prefixes so the history stays greppable, but the words in this file are mine.
 - Optional donation link on `/support` via `NEXT_PUBLIC_SUPPORT_PAYPAL_URL`.
 - Team credits section on the `/about` page.
 - First registered test record (Silent Hill: Downpour) and its Tested badge.
-- Official project screenshots for Downpour Recompilation, TriAevum,
-  Metroid Prime Hunters Recompiled, NxEngine-Evo and PrBoom-Plus RT.
-- Official project screenshots for F-Zero SNES Recompiled, OpenTTD,
-  EDuke32 and OpenMW.
-- Official project screenshots for OpenRA, Daggerfall Unity and OpenXcom.
-- Official project screenshots for DevilutionX, DKR-R, Dusklight, GemRB,
+- First round of official project screenshots: Downpour Recompilation,
+  TriAevum, Metroid Prime Hunters Recompiled, NxEngine-Evo and PrBoom-Plus RT.
+- Second round (F-Zero SNES Recompiled, OpenTTD, EDuke32, OpenMW) and then a
+  third picking up OpenRA, Daggerfall Unity and OpenXcom.
+- Fourth round, the biggest so far: DevilutionX, DKR-R, Dusklight, GemRB,
   Ship of Harkinian and Xash3D FWGS.
-- Official project screenshots for GZDoom, OpenRCT2, DUDE (via its official
-  dhewm3.org homepage), Sonic 1 & 2 (2013) and Pokémon Red/Blue Disassembly.
+- Latest round: GZDoom, OpenRCT2, DUDE (via its official dhewm3.org homepage),
+  Sonic 1 & 2 (2013) and Pokémon Red/Blue Disassembly.
 - Catalog grid: every card now shows the port's first official screenshot as a
   16:9 cover, falling back to the console logo when a port has no screenshots.
 - Site icon: the brand mark is served as favicon (`src/app/icon.svg` and

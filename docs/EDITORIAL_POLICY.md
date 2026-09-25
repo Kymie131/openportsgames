@@ -1,7 +1,7 @@
 # Editorial policy
 
 These are the rules this catalog lives by. Some are enforced by data
-validation, the rest by human review — meaning by me, before something is
+validation, the rest by human review: meaning by me, before something is
 allowed in. The public-facing **Submit** page (`/submit`) states the same
 acceptance criteria in plain language.
 
@@ -16,8 +16,7 @@ keep this list useful, safe and honest, in that order.
    the project's own repository, releases page, documentation or website; an
    optional `discord` link must point to the project's official community
    server.
-   The site hosts no files and links to no downloads, ROMs or bundles —
-   ever.
+   The site hosts no files and links to no downloads, ROMs or bundles. Ever.
 
    The reason is both legal and practical. Legally, those projects exist in a
    gray area that lives or dies by the goodwill of the rights holders, and a
@@ -27,7 +26,7 @@ keep this list useful, safe and honest, in that order.
    the project's own channel, the link is as stable as the project is.
 
 2. **Code availability.** Every entry records whether the project's code is
-   open source (`openSource`). Closed-source ports are not banned — some great
+   open source (`openSource`). Closed-source ports are not banned. Some great
    projects are not open, and hiding that would be dishonest. They are listed
    with `openSource: false` and the difference is visible in the filters and
    on the detail page. The norm is fully open and verifiable; the rest are
@@ -42,7 +41,7 @@ keep this list useful, safe and honest, in that order.
 4. **Evidence over claims.** A port is marked _verified_ only when the team
    published a release we can actually point at (`verifiedAt`). A port gets a
    **Tested** badge only when a registered test exists for it. No test, no
-   badge — there is no manual "tested" switch anywhere, so a stale claim
+   badge. There is no manual "tested" switch anywhere, so a stale claim
    cannot survive a rebuild.
 
 5. **Tests by the tester.** A test is registered only by the person who ran
@@ -57,7 +56,7 @@ keep this list useful, safe and honest, in that order.
 
 7. **AI disclosure.** Every entry records whether the project discloses AI
    involvement (`aiDisclosure`). We record the fact and do not editorialize
-   beyond the notes field — but the fact is there for people who care.
+   beyond the notes field, but the fact is there for people who care.
 
 ## Acceptance criteria (mirrored in `/submit` and the issue templates)
 

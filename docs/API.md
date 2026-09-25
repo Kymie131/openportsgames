@@ -1,9 +1,9 @@
-# API — `/api/ports.json`
+# API: `/api/ports.json`
 
 A static, versioned snapshot of the complete catalog. It is emitted at build
 time (`src/app/api/ports.json/route.ts` via `src/lib/ports/api-json.ts`): the
 exact file a consumer reads is the same artifact CI validated. No live
-endpoint, no rate limiting, no token — if you can open GitHub, you can mirror
+endpoint, no rate limiting, no token. If you can open GitHub, you can mirror
 this dataset, which seems like the right spirit for a preservation catalog.
 
 ## Payload (v2)
@@ -63,5 +63,5 @@ Notes:
 The authoritative schema is `catalogApiSchema` in
 `src/lib/ports/api-json.ts` (zod), unit-tested in
 `tests/unit/api-json.test.ts`. Consumers should parse against that shape and
-treat unknown fields as forwards-compatible — new versions may add keys, and
+treat unknown fields as forwards-compatible: new versions may add keys, and
 the `version` field is the switch to check first.

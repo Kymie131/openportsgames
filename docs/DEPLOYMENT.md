@@ -105,7 +105,7 @@ Do this once for the production domain (whatever registrar/host you settle on):
   ```
   openportsgames.example. IN CAA 0 issue "letsencrypt.org"
   ```
-- [ ] HSTS enforced at the host (Cloudflare Pages / Vercel) for a custom domain — see the table above.
+- [ ] HSTS enforced at the host (Cloudflare Pages / Vercel) for a custom domain; see the table above.
 - [ ] SPF/DMARC records set for any mail-sending subdomain if mail is used (this site sends none).
 - [ ] Content Security Policy from the table above is served and retested after any host change.
 - [ ] The CNAME target in DNS matches the exact Pages/Vercel endpoint (not a personal CNAME) so subdomains cannot be taken over.
@@ -123,7 +123,7 @@ a monument to nothing.
 - Every third-party GitHub Action is pinned to a full commit SHA with a comment
   naming its release (e.g. `# v5`), never to a moving tag.
 - `catalog-update` uses the built-in `github.token` with the minimum job
-  permissions (`issues: write`, `contents: write`) — no personal access token.
+  permissions (`issues: write`, `contents: write`), not a personal access token.
 
 ## Local preview of the export
 

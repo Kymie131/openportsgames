@@ -29,8 +29,8 @@ Declared in `src/content/hardware`. Each profile is public, identified by a
 slug, describes one machine (PC) or device (Android), and names its tester.
 A test may only claim the profile its tester owns.
 
-- `pc-primary` — Kymie131.
-- `android-primary` — Kymie131.
+- `pc-primary`: Kymie131.
+- `android-primary`: Kymie131.
 
 Why public hardware and not "trust me"? Because a test result is only
 interpretable with its machine: a port that stutters on a 4GB Android phone
@@ -50,4 +50,4 @@ claim into a spec sheet.
 Badges derive exclusively from `tests` data (`getTestStatuses`). There is no
 manual "tested" flag on ports, so a stale claim cannot survive a rebuild.
 If a rebuild happens and the test record is gone, the badge disappears with
-it — the site cannot lie by accident.
+it. The site cannot lie by accident.

@@ -43,7 +43,7 @@ A native port entry. `src/lib/ports/schema.ts` defines the shape:
 | `features`        | string[]?                     | notable features (max 20)                                                                                                                                                                                    |
 | `requirements`    | `{ minimum?, recommended? }`? | free text                                                                                                                                                                                                    |
 | `screenshots`     | array?                        | `{ src, alt, credit }`, https, max 12                                                                                                                                                                        |
-| `installGuide`    | object?                       | `{ title?, steps, stepsEs? }`; `steps` runs 1–20 of 3–300 chars; optional `title`; `stepsEs` is the hand-written Spanish mirror of `steps` — when present its length equals `steps` (content-test invariant) |
+| `installGuide`    | object?                       | `{ title?, steps, stepsEs? }`; `steps` runs 1–20 of 3–300 chars; optional `title`; `stepsEs` is the hand-written Spanish mirror of `steps`; when present, its length equals `steps` (content-test invariant) |
 
 Some notes on why the fields are shaped this way:
 
@@ -70,7 +70,7 @@ weekly catalog workflow.
 
 `status: "takedown"` keeps only `id`, `title` and `rawUrl` (the offending
 artifact before removal). Takedown entries are validated but **excluded** from
-`ports`, the site and the sitemap — they are a removal record, not content. If
+`ports`, the site and the sitemap. They are a removal record, not content. If
 rights holders ask us to take something down, the response is a transparent
 commit, never a silent deletion.
 
@@ -87,8 +87,8 @@ commit, never a silent deletion.
 
 Why does hardware matter this much? Because "it works on my machine" is only
 useful if the machine is described. The whole testing story of this site is
-built on reproducible, public hardware — the details are in
-`docs/TESTING_METHODOLOGY.md`, the reasoning is in the /testing page.
+built on reproducible, public hardware. The details are in
+`docs/TESTING_METHODOLOGY.md`; the reasoning lives in the /testing page.
 
 ### Test record
 

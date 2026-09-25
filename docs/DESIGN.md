@@ -7,12 +7,12 @@ this file changes with it.
 ## The identity in one paragraph
 
 I catalog games that refused to die, so the interface is a nod to the
-hardware they escaped from — terminals, CRT phosphor, vector arcade cabinets.
+hardware they escaped from: terminals, CRT phosphor, vector arcade cabinets.
 Deep, near-black backgrounds with a single phosphor-green pulse (the accent),
 an amber secondary and a teal tertiary straight out of a vector display. The
 green is a _dimmed_ phosphor, not neon: bright enough to read as the fruits of
 a real CRT, subdued enough for long sessions of browsing the catalog. Body
-text is always a warm neutral — the green never tints paragraphs, only
+text is always a warm neutral; the green never tints paragraphs, only
 highlights. No gradient soup, no stock photos, no emoji, no rounded-squircle
 SaaS energy. The design is sober and utilitarian by choice: the catalog is the
 protagonist, and the machine the reader is using to browse it is also the
@@ -65,13 +65,13 @@ working.
 | `link` / `link-hover`        | `#7ED0A3` / `#A2E0BE`             | `#165C35` / `#0F4F2C`             |
 | `ok` / `warning` / `danger`  | `#52C687` / `#E3A950` / `#E67F6C` | `#19723F` / `#7E5010` / `#A33428` |
 
-- Dark is a near-black CRT with only a whisper of green in the blacks — the
+- Dark is a near-black CRT with only a whisper of green in the blacks. The
   warmth that keeps it from reading as "hacker green" comes from the amber and
   the warm neutral text, not from tinting every surface green.
 - The single pulse of the design is `--accent`: a **dimmed phosphor** (about
-  half the chroma of a raw neon green — `#3FDE8D` → `#56C589`). It is reserved
+  half the chroma of a raw neon green, `#3FDE8D` → `#56C589`). It is reserved
   for accents: links, status badges, active nav, buttons, focus. Amber and
-  teal are not decoration — they surface regularly across the catalog
+  teal are not decoration; they surface regularly across the catalog
   (version numbers in teal, the star ratings and home-section icons in amber,
   beta/stable/alpha badges in amber/green/red). That keeps the UI from feeling
   monochromatic without crowding the green out.
@@ -91,16 +91,16 @@ The first release of the theme used a saturated neon green (`#3FDE8D`) as the
 accent and green-tinted neutrals (`#DFE9E1` foreground, `#93A89B` muted) for
 all body text. The result read as "hacker terminal": every paragraph carried a
 green cast and the accent kept shouting. The goal of the adjustment was not to
-abandon the CRT identity — the scanlines, the bloom, the mono numbers and the
+abandon the CRT identity (the scanlines, the bloom, the mono numbers and the
 green pulse are what make the site feel like the hardware the catalog's games
-escaped from — but to make the palette _warmer_ and the green _quieter_:
+escaped from), but to make the palette _warmer_ and the green _quieter_:
 
 - Neutrals moved from cool green-tinted to warm gray. Body text is now a warm
   off-white `#E7E8E1` (never green), and secondary text a warm gray `#A4A89E`.
   Long-reading comfort went up because the eye no longer has to stare into a
   green wash for every paragraph.
 - The accent was desaturated and pulled back (`#3FDE8D` ≈ 71% s → `#56C589` ≈
-  49% s). Same hue family, same CRT character — lower chroma, so it reads as
+  49% s). Same hue family, same CRT character, but at lower chroma, so it reads as
   backlit phosphor instead of LED harshness.
 - Amber and teal were given real jobs (versions, stars, section icons,
   statuses) instead of being "sparing" accents, so the UI reads as three-color
@@ -124,7 +124,7 @@ escaped from — but to make the palette _warmer_ and the green _quieter_:
 | Amber / teal on card surface          | ≥8.6 | ≥4.9  |
 
 All small-text pairs ≥4.5 (AA); body and secondary text additionally clear 7
-in the dark theme. The scanline and bloom textures are not computed here —
+in the dark theme. The scanline and bloom textures are not computed here;
 they live on the body _background_ layer at single-digit alpha, behind every
 opaque surface, so they never sit under text.
 
@@ -138,10 +138,10 @@ opaque surface, so they never sit under text.
 
 ## Components (`src/components`)
 
-- `ui/*` — primitives: `Button` (primary/secondary/ghost, sm/md/lg), `Badge`
+- `ui/*`: primitives (`Button` (primary/secondary/ghost, sm/md/lg), `Badge`
   (neutral/accent/ok/warning/danger), `Card`, `ExternalLink`, `Input`,
-  `Select`, `Switch`, `Tooltip`, `Dialog`.
-- `layout/*` — `Container`, `SkipLink`, `SiteHeader`, `SiteFooter`.
+  `Select`, `Switch`, `Tooltip`, `Dialog`).
+- `layout/*`: `Container`, `SkipLink`, `SiteHeader`, `SiteFooter`.
 
 ### Header and navigation (`layout/site-header.tsx`)
 
@@ -154,14 +154,14 @@ opaque surface, so they never sit under text.
   active). No duplicate underline.
 - Secondary group (right, 8px gap): language switcher, theme toggle and the
   discreet "Support" text link (`t.nav.support`).
-- The drop-down is labeled "Project" (Submit / Support / About / Legal) — the
+- The drop-down is labeled "Project" (Submit / Support / About / Legal). The
   label tells the user what is inside instead of hiding it.
 - Mobile: the hamburger opens a full-height right drawer (Radix Dialog, focus
   trapped, Escape closes, focus returns to the trigger) with 44px touch
   targets, the support CTA near the top of the list and language/theme pinned
   at the bottom. Drawer opening slides in 160ms under
   `prefers-reduced-motion: no-preference` (`.opg-drawer-content`).
-- `platforms/platform-mark.tsx` — platform glyphs from **Simple Icons** (CC0
+- `platforms/platform-mark.tsx`: platform glyphs from **Simple Icons** (CC0
   1.0 artwork, see `platform-glyphs.ts`). Glyphs are filled with
   `currentColor` so they inherit the surrounding text/link color and never
   carry a brand tint or gradient; the logos are trademarks of their owners and
@@ -178,10 +178,10 @@ lg:grid-cols-3 xl:grid-cols-4`), 4 columns is the hard maximum so cards never
   truncate), metadata (platform glyphs / status / version) as the tertiary
   row, footer with the official source. Equal heights because every text zone
   is clamped to a fixed number of lines.
-- **Badges**: a single consistent pair — status chip (stable/beta/alpha) and
+- **Badges**: a single consistent pair: status chip (stable/beta/alpha) and
   test-status badge, both `rounded-full` and same font size.
 - **Fallback artwork**: the tile has no screenshot; the strip shows the game's
-  first letter on `surface-2` — typographic, neutral, no gradient.
+  first letter on `surface-2`: typographic, neutral, no gradient.
 - **Micro-interaction**: `150ms` hover (within the 120–180ms budget) with a
   subtle lift (`-translate-y-0.5`), accent border and faint shadow. Disabled
   under `prefers-reduced-motion`.
@@ -191,7 +191,7 @@ lg:grid-cols-3 xl:grid-cols-4`), 4 columns is the hard maximum so cards never
   (`/ports/loading.tsx`), matching the real tile layout.
 - **Takedown ports**: removed entries keep a detail page that renders a
   neutral takedown notice and is excluded from lists, sitemap and search
-  engines (`robots: noindex`) automatically — they are never served as a plain
+  engines (`robots: noindex`) automatically. They are never served as a plain
   404 so the takedown is documented at its original URL.
 
 ## Catalog filters and URL state (`catalog/`)
@@ -202,7 +202,7 @@ lg:grid-cols-3 xl:grid-cols-4`), 4 columns is the hard maximum so cards never
   sticky (`lg:sticky lg:top-24`) below the header. The tile grid is capped at
   three columns inside the results column (`sm:grid-cols-2 xl:grid-cols-3`).
   On mobile the panel is a full-height right-hand drawer (Radix `Dialog`) whose
-  footer button "See N results" closes it — filters apply live.
+  footer button "See N results" closes it; filters apply live.
 - **Multi-select semantics**: every filter section is a multi-select. Values
   within a section are OR-ed, sections are AND-ed (Steam-style), and the state
   is expressed as arrays in `CatalogState`. Sections: platform, original
@@ -210,7 +210,7 @@ lg:grid-cols-3 xl:grid-cols-4`), 4 columns is the hard maximum so cards never
   of `port.features`), AI disclosure, test status.
 - **Scope**: on `/pc` the platform section only offers PC platforms
   (Windows/Linux/macOS); on `/android` the platform section is hidden. Filters
-  are never masked or clamped by the scope — a selected platform outside the
+  are never masked or clamped by the scope; a selected platform outside the
   view simply intersects (e.g. `android` on `/pc` keeps dual-platform ports).
 - **URL state, not component state**: the query lives in `?q=`; every filter
   is a repeated param (`?platform=windows&platform=linux`). Filtering never
@@ -244,9 +244,9 @@ lg:grid-cols-3 xl:grid-cols-4`), 4 columns is the hard maximum so cards never
   `backdrop-blur-sm`) at the **bottom-right** of the media area, with an
   `aria-label` of the system name. On catalog tiles it is the centered artwork
   of the `h-14` strip (replacing the initial + `SystemMark` combo).
-- **Detail media**: every port shows an `aspect-video` hero — the first
+- **Detail media**: every port shows an `aspect-video` hero: the first
   screenshot when `port.screenshots` exist, otherwise the typographic game
-  initial fallback — with the badge overlaid. When a port has more than one
+  initial fallback, with the badge overlaid. When a port has more than one
   screenshot, a horizontal thumbnail strip below it swaps the hero image
   (`aria-pressed` on the active thumb). Screenshots are official project
   assets referenced by URL; ports without them fall back to the typographic

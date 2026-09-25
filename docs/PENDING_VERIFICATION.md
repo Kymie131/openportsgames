@@ -3,7 +3,7 @@
 Candidates whose official data (latest release, license, or a stable
 distribution channel) I could not confirm when the catalog was last audited
 on **2026-09-22**. These entries are either kept with `verified: false` or
-excluded outright — "I couldn't confirm it" is recorded here instead of
+excluded outright. "I couldn't confirm it" is recorded here instead of
 pretended away.
 
 This file is the paper trail of the homework: every row is a case I actually
@@ -28,10 +28,10 @@ sat down and checked, not a list of vibes.
 | minish-cap                  | Research decompilation with no released binary.                                                                                      |
 | marathon-recomp             | No tagged releases; builds track the repository.                                                                                     |
 
-These ports are shown in the catalog with a visible "not verified" marker —
-not because I doubt them, but because a catalog that marks everything
-"verified" would be lying. The weekly `catalog-update` action will flag them
-as soon as versioned releases exist.
+These ports are shown in the catalog with a visible "not verified" marker,
+not because I doubt them. A catalog that marks everything "verified" would be
+lying. The weekly `catalog-update` action will flag them as soon as versioned
+releases exist.
 
 ## Excluded from the catalog
 
@@ -39,14 +39,14 @@ The following candidates from the original backlog could not be included for
 data integrity reasons. If a verifiable official source appears, reopen the
 related proposal.
 
-- **re3 / reVC (GTA III / Vice City)** — the canonical mirrors at
+- **re3 / reVC (GTA III / Vice City)**: the canonical mirrors at
   `GTAModding/re3` and `GTAModding/reVC` return HTTP 451 (removed by GitHub for
   legal reasons). No official distribution remains available.
-- **OpenRW (GTA San Andreas)** — project is stalled and its repository is no
+- **OpenRW (GTA San Andreas)**: project is stalled and its repository is no
   longer reachable under its canonical owner.
-- **Mario Party 3 port** — no credible first-party port project with an official
+- **Mario Party 3 port**: no credible first-party port project with an official
   release channel could be located.
-- **Banjo-Kazooie / Perfect Dark recompilations** — these ship via personal
+- **Banjo-Kazooie / Perfect Dark recompilations**: these ship via personal
   recompilation releases without a stable official source URL to link to.
 
 None of these rows means the project doesn't exist or isn't good. It means I
@@ -64,15 +64,15 @@ TriAevum, PrBoom-Plus RT and DUDE.
 
 Still **excluded**, with rationale:
 
-- **Render96ex (Render96 N64-exclusive branch)** — first tagged release is
+- **Render96ex (Render96 N64-exclusive branch)**: first tagged release is
   still pending; until a versioned release exists there is no `verified`
   entry to audit.
-- **Sonic '06 (Sonic Project '06)** — a fan-made closed-source remake built
+- **Sonic '06 (Sonic Project '06)**: a fan-made closed-source remake built
   with Unity, not a native port of the original game; falls outside the
   catalog's definition (`genre`/`portType` model). The separate native
   recompilation **MarathonRecomp** (sonicnext-dev) is a different project and is
   listed in the catalog as `verified: false`.
-- **Midnight Club LA (Xbox360-Native-Ports collection)** — the repository is a
+- **Midnight Club LA (Xbox360-Native-Ports collection)**: the repository is a
   multi-game dump of several Xbox 360 native ports, which breaks the
   one-port-per-entry model and the weekly release comparison; because its tag
   space is shared, a per-game entry cannot be kept `verified` reliably.

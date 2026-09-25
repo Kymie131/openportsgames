@@ -2,9 +2,9 @@
 
 **Site: <https://kymie131.github.io/openportsgames/>**
 
-A curated, non-profit catalog of **native game ports** — decompilations,
+A curated, non-profit catalog of **native game ports**: decompilations,
 recompilations and engine reimplementations that bring classic games to PC
-and Android. Every entry points to the project's official source:
+and Android. Every entry points only to the project's official source:
 repository, releases, website or documentation. **Nothing is hosted or linked
 as a downloadable file** — ever.
 
@@ -14,10 +14,10 @@ unofficial mirror dies the moment someone edits a file. The only link that
 outlives the week is the project's own. That's the whole editorial stance.
 
 Why does the catalog exist at all? Because Super Mario Bros. 3 was the game
-that made me realize the cartridge in my hands was software — and that someone
-could take that software apart, understand it, and rebuild it to run
-anywhere I actually owned. Every entry here is a small win for that idea:
-games that refused to die on the hardware they were born on.
+that made me realize the cartridge in my hands was software. Software can be
+taken apart, understood, and rebuilt to run anywhere I actually owned. Every
+entry here is a small win for that idea: games that refused to die on the
+hardware they were born on.
 
 Fully static site: no accounts, no comments, no database, no trackers. A
 folder of files. It cannot be switched off.
@@ -72,8 +72,8 @@ src/
   content/      Catalog data: ports/*.ts, hardware, tests, meta
   lib/          Data layer (ports), i18n dictionaries, site/seo/date helpers
 tests/
-  unit/         Vitest — utilities and data layer
-  content/      Vitest — data invariants enforced in CI
+  unit/         Vitest - utilities and data layer
+  content/      Vitest - data invariants enforced in CI
   e2e/          Playwright smoke tests
 docs/           Architecture, data model, API, editorial policy, testing,
                 design, deployment, roadmap, pending verification
@@ -105,8 +105,8 @@ port, reporting a test, reporting wrong data and requesting a takedown
 
 ## Licenses
 
-- Code: MIT — see `LICENSE`
-- Catalog data: CC BY 4.0 — see `LICENSE-DATA`
+- Code: MIT (see `LICENSE`)
+- Catalog data: CC BY 4.0 (see `LICENSE-DATA`)
 
 Not affiliated with any video game company. Game trademarks belong to their
 owners and are used only to identify the projects.

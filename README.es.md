@@ -4,9 +4,9 @@
 
 Un catálogo curado y sin fines de lucro de **ports nativos de videojuegos**:
 decompilaciones, recompilaciones y reimplementaciones de motor que traen
-juegos clásicos a PC y Android. Cada ficha apunta a la fuente oficial del
-proyecto: repositorio, releases, sitio web o documentación. **Nada se aloja
-ni se enlaza como archivo descargable** — nunca.
+juegos clásicos a PC y Android. Cada ficha apunta solo a la fuente oficial
+del proyecto: repositorio, releases, sitio web o documentación. **Nada se
+aloja ni se enlaza como archivo descargable** — nunca.
 
 ¿Por qué existe esa regla? Porque muchos aprendimos, a la mala, que un "pack
 de ISOs" de un foro es un buen vehículo para malware, y que un enlace a un
@@ -15,10 +15,10 @@ que sobrevive a la semana es el del propio proyecto. Esa es toda la postura
 editorial.
 
 ¿Y por qué existe el catálogo? Porque Super Mario Bros. 3 fue el juego que me
-hizo entender que el cartucho en mis manos era software — y que alguien podía
-desmontar ese software, entenderlo y reconstruirlo para que corriera en
-cualquier aparato que yo tuviera. Cada ficha de aquí es una pequeña victoria
-para esa idea: juegos que se negaron a morir en el hardware donde nacieron.
+hizo entender que el cartucho en mis manos era software. El software se puede
+desmontar, entender y reconstruir para que corra en cualquier aparato que yo
+tuviera. Cada ficha de aquí es una pequeña victoria para esa idea: juegos que
+se negaron a morir en el hardware donde nacieron.
 
 Sitio totalmente estático: sin cuentas, sin comentarios, sin base de datos y
 sin rastreadores. Una carpeta de archivos. No hay servidor que apagar.
@@ -75,8 +75,8 @@ src/
   content/      Datos del catálogo: ports/*.ts, hardware, pruebas, meta
   lib/          Capa de datos (ports), diccionarios i18n, helpers de sitio/seo/fechas
 tests/
-  unit/         Vitest — utilidades y capa de datos
-  content/      Vitest — invariantes de datos exigidas en CI
+  unit/         Vitest - utilidades y capa de datos
+  content/      Vitest - invariantes de datos exigidas en CI
   e2e/          Tests de humo de Playwright
 docs/           Arquitectura, modelo de datos, API, política editorial, pruebas,
                 diseño, despliegue, roadmap, verificación pendiente
@@ -108,8 +108,8 @@ una retirada (la página **Submit** enlaza a ellas).
 
 ## Licencias
 
-- Código: MIT — ver `LICENSE`
-- Datos del catálogo: CC BY 4.0 — ver `LICENSE-DATA`
+- Código: MIT (ver `LICENSE`)
+- Datos del catálogo: CC BY 4.0 (ver `LICENSE-DATA`)
 
 Sin afiliación con ninguna compañía de videojuegos. Las marcas de los juegos
 pertenecen a sus propietarios y se usan solo para identificar los proyectos.

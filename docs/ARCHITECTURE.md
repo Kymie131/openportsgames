@@ -2,8 +2,8 @@
 
 I built this site to be a static export and nothing more. There is no server,
 no database, no accounts, no build-time backend. Next.js compiles the catalog
-once, out comes plain HTML, CSS and JS, and a copy of `/api/ports.json` — a
-single JSON file that any script or tool can read.
+once and out comes plain HTML, CSS and JS. There is also a copy of
+`/api/ports.json`: a single JSON file that any script or tool can read.
 
 That choice is not a technical fashion statement. It means the whole product
 is a folder you can download, open without a browser, and that cannot die when
@@ -26,20 +26,20 @@ src/
     dates.ts          Date utilities.
 scripts/              check-latest-releases (catalog freshness), serve-static.
 tests/
-  unit/               Vitest — pure utilities and data-layer behavior.
-  content/            Vitest — validates the catalog data invariants.
+  unit/               Vitest - pure utilities and data-layer behavior.
+  content/            Vitest - validates the catalog data invariants.
   e2e/                Playwright smoke tests over the static export.
 docs/                 Design, data model, policy, methodology, deployment.
 ```
 
 ## How the data flows
 
-1. `src/content/ports/*.ts` — one plain typed object per port, plus
+1. `src/content/ports/*.ts`: one plain typed object per port, plus
    `src/content/hardware`, `src/content/tests` and `src/content/ports/meta.ts`.
-2. `src/lib/ports/schema.ts` — zod schemas. The discriminated union in
+2. `src/lib/ports/schema.ts`: zod schemas. The discriminated union in
    `portSchema` silently **excludes** `takedown` entries from the public
    catalog: a removal record is kept for honesty, but it never renders.
-3. `src/lib/ports/index.ts` — parses everything, validates it, and exposes a
+3. `src/lib/ports/index.ts`: parses everything, validates it, and exposes a
    single registry plus query helpers (`getPort`, `getPorts`,
    `getTestsForPort`, `getTestStatuses`, `originalSystemOf`, …).
 4. Server components read only from that registry and pass serializable,
@@ -68,7 +68,7 @@ isolation is the insurance.
   static `public/opengraph-image.png` social card, and JSON-LD (`WebSite` on the
   home page, `VideoGame` on each port detail page).
 - `NEXT_PUBLIC_SITE_URL` feeds every canonical URL. Without it, the localhost
-  fallback is used — which is exactly what should happen when someone forks the
+  fallback is used, which is exactly what should happen when someone forks the
   repo to poke around.
 
 ## Why static, spelled out
