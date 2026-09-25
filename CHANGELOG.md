@@ -28,6 +28,9 @@ prefixes so the history stays greppable, but the words in this file are mine.
   16:9 cover, falling back to the console logo when a port has no screenshots.
 - Site icon: the brand mark is served as favicon (`src/app/icon.svg` and
   `icon.png`) plus an Apple touch icon, so the browser tab shows the "O" mark.
+- Official in-game screenshot for Sonic Unleashed, taken from the hedge-dev
+  resources repository (`UnleashedRecompResources`) that ships the game's own
+  options-menu preview frames.
 
 ### Changed
 

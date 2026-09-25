@@ -18,8 +18,15 @@ export const unleashedRecompiled: Port = {
   license: { spdx: "GPL-3.0" },
   aiDisclosure: false,
   verified: true,
-  verifiedAt: "2026-09-22",
+  verifiedAt: "2026-09-25",
   originalSystem: "Xbox 360",
+  screenshots: [
+    {
+      src: "https://raw.githubusercontent.com/hedge-dev/UnleashedRecompResources/main/images/options_menu/thumbnails/raw/default.png",
+      alt: "In-game screenshot of Sonic Unleashed rendered by UnleashedRecomp",
+      credit: "hedge-dev/UnleashedRecompResources",
+    },
+  ],
   features: [
     "60 FPS with high refresh rate support",
     "Ultrawide and high resolutions",
