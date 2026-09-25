@@ -14,6 +14,7 @@ import {
 import type { HardwareProfile, Port, TestRecord } from "@/lib/ports/schema";
 import type { TestStatus } from "@/components/catalog/test-badge";
 import { TestBadge } from "@/components/catalog/test-badge";
+import { GithubMark } from "@/components/platforms/github-mark";
 import { PlatformMark } from "@/components/platforms/platform-mark";
 import { SystemMark } from "@/components/platforms/system-mark";
 import { consoleLogoForSystem } from "@/content/ports/console-logos";
@@ -204,7 +205,11 @@ export function PortDetail({
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 text-link transition-colors hover:text-link-hover"
               >
-                <ExternalLink className="size-4" aria-hidden="true" />
+                {/^https:\/\/github\.com\//.test(source) ? (
+                  <GithubMark className="size-4" aria-hidden="true" />
+                ) : (
+                  <ExternalLink className="size-4" aria-hidden="true" />
+                )}
                 {t.detail.officialSource}
               </a>
             </li>

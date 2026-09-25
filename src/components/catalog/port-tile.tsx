@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { ExternalLink } from "lucide-react";
 import type { Port } from "@/lib/ports/schema";
+import { GithubMark } from "@/components/platforms/github-mark";
 import { PlatformMark } from "@/components/platforms/platform-mark";
 import { SystemMark } from "@/components/platforms/system-mark";
 import { TestBadge, type TestStatus } from "./test-badge";
@@ -134,7 +135,11 @@ export function PortTile({
           title={port.id}
         >
           {t.catalog.officialSource}
-          <ExternalLink className="size-3.5" aria-hidden="true" />
+          {/^https:\/\/github\.com\//.test(source) ? (
+            <GithubMark className="size-3.5" aria-hidden="true" />
+          ) : (
+            <ExternalLink className="size-3.5" aria-hidden="true" />
+          )}
         </Link>
       </div>
     </article>
