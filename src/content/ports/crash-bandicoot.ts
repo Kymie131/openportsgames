@@ -25,6 +25,13 @@ export const crashBandicoot: Port = {
     "High frame rate fixes and PC GPU workarounds",
     "Windows, Linux and Android builds from official releases",
   ],
+  screenshots: [
+    {
+      src: "https://github.com/user-attachments/assets/749a8631-fb87-4a33-8149-ccbb104d6412",
+      alt: "Crash Bandicoot running as a native recompilation with the pause overlay open",
+      credit: "Crash Bandicoot Launcher",
+    },
+  ],
   notes:
     "Native PC port of Crash Bandicoot (PS1) produced via the RecompOne static recompilation stack, distributed as versioned releases. Requires your own PS1 disc dump. The project is not affiliated with the original developer.",
 };

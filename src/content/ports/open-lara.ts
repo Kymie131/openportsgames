@@ -21,6 +21,18 @@ export const openLara: Port = {
   },
   aiDisclosure: false,
   verified: false,
+  screenshots: [
+    {
+      src: "https://camo.githubusercontent.com/db56dc171bebade2b99e6d4b21a199fe153f17e053df44e46a04f667f34af3fb/687474703a2f2f7870726f6765722e696e666f2f70726f6a656374732f4f70656e4c6172612f73686f74732f776174657266616c6c2e6a7067",
+      alt: "OpenLara rendering a waterfall area in Tomb Raider",
+      credit: "OpenLara",
+    },
+    {
+      src: "https://camo.githubusercontent.com/5f8a037fe13708a06b03f320eceb5381a61d2773de02bdaa32c61c98753161f4/687474703a2f2f7870726f6765722e696e666f2f70726f6a656374732f4f70656e4c6172612f73686f74732f7472335f74656d706c652e6a7067",
+      alt: "OpenLara rendering the temple environment of Tomb Raider 3",
+      credit: "OpenLara",
+    },
+  ],
   notes:
     "Reverse-engineered engine for the original Tomb Raider. No numbered releases; builds track the repository. Requires Tomb Raider 1 data files (legally obtained).",
   installGuide: {
