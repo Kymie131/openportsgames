@@ -11,10 +11,11 @@ export const openJk: Port = {
   portType: "source-port",
   genre: "shooter",
   openSource: true,
-  platforms: ["windows", "linux"],
+  platforms: ["windows", "linux", "macos"],
   status: "stable",
   release: { version: null, date: null },
   sources: ["https://github.com/JACoders/OpenJK"],
+  website: "https://builds.openjk.org",
   license: {
     spdx: "GPL-2.0",
   },
