@@ -25,12 +25,6 @@ describe("catalog ports", () => {
     expect(new Set(titles).size).toBe(titles.length);
   });
 
-  it("declares an ai disclosure state on every port", () => {
-    for (const port of ports) {
-      expect(typeof port.aiDisclosure, port.id).toBe("boolean");
-    }
-  });
-
   it("declares a genre and an open source state on every port", () => {
     for (const port of ports) {
       expect(port.genre, port.id).toBeTruthy();

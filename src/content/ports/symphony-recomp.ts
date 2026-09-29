@@ -19,7 +19,6 @@ export const symphonyRecomp: Port = {
     spdx: "NOASSERTION",
     note: "no SPDX license in the repository",
   },
-  aiDisclosure: false,
   verified: false,
   originalSystem: "PlayStation",
   features: [

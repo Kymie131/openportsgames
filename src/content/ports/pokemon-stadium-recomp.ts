@@ -17,7 +17,6 @@ export const pokemonStadiumRecomp: Port = {
   sources: ["https://github.com/mstan/PokemonStadiumRecomp"],
   discord: "https://discord.gg/Ad9BwSzctP",
   license: { spdx: "GPL-3.0" },
-  aiDisclosure: false,
   verified: false,
   originalSystem: "Nintendo 64",
   features: [

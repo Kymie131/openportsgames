@@ -16,7 +16,6 @@ export const pikmin: Port = {
   release: { version: null, date: null },
   sources: ["https://github.com/projectPiki/pikmin"],
   license: { spdx: "CC0-1.0" },
-  aiDisclosure: false,
   verified: false,
   originalSystem: "Nintendo GameCube",
   notes:

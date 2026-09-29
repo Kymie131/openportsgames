@@ -20,7 +20,6 @@ export const opensage: Port = {
     spdx: "GPL-3.0",
     note: "Code is GPL-3.0; game data stays under EA rights.",
   },
-  aiDisclosure: false,
   verified: false,
   notes:
     "Reimplementation of the SAGE engine behind Command & Conquer: Generals and Zero Hour, written in C#. Windows is the primary target and no tagged releases exist yet.",

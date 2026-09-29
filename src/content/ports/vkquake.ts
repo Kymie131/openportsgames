@@ -18,7 +18,6 @@ export const vkQuake: Port = {
   license: {
     spdx: "GPL-2.0",
   },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-19",
   notes:

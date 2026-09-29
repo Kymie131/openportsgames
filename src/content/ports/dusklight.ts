@@ -17,7 +17,6 @@ export const dusklight: Port = {
   sources: ["https://github.com/TwilitRealm/dusklight"],
   website: "https://twilitrealm.dev",
   license: { spdx: "CC0-1.0" },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-25",
   screenshots: [

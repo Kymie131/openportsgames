@@ -19,7 +19,6 @@ export const spaceStationSiliconValleyRecomp: Port = {
     spdx: "NOASSERTION",
     note: "Repository ships no license file, so reuse rights are unstated.",
   },
-  aiDisclosure: false,
   verified: false,
   originalSystem: "Nintendo 64",
   features: ["Widescreen support", "Mod support"],

@@ -20,7 +20,6 @@ export const eduke32: Port = {
     spdx: "GPL-2.0",
     note: "dual-licensed: GNU GPL v2 and the Build Engine license",
   },
-  aiDisclosure: false,
   verified: false,
   screenshots: [
     {

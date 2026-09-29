@@ -16,7 +16,6 @@ export const quest64Recomp: Port = {
   release: { version: "0.1", date: "2026-01-11" },
   sources: ["https://github.com/Rainchus/Quest64-Recomp"],
   license: { spdx: "GPL-3.0" },
-  aiDisclosure: false,
   verified: false,
   originalSystem: "Nintendo 64",
   features: ["Widescreen and ultrawide support", "Mod support"],

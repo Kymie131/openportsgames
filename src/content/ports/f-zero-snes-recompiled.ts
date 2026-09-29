@@ -16,7 +16,6 @@ export const fZeroSnesRecompiled: Port = {
   release: { version: "1.8.3", date: "2026-09-22" },
   sources: ["https://github.com/mstan/FZeroSNESRecomp"],
   license: { spdx: "MIT" },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-22",
   screenshots: [

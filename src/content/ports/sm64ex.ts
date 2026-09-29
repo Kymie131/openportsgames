@@ -19,7 +19,6 @@ export const sm64ex: Port = {
     spdx: "NOASSERTION",
     note: "no SPDX license file in the repository",
   },
-  aiDisclosure: false,
   verified: false,
   notes:
     "Native PC port from the Super Mario 64 decompilation. No numbered releases; builds track the repository. Requires a legally obtained North American Super Mario 64 ROM.",

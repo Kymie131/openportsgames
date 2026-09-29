@@ -19,7 +19,6 @@ export const d1xRebirth: Port = {
     spdx: "GPL-3.0",
     note: "Parallax license relicensed to GPLv3 with an additional permission exception.",
   },
-  aiDisclosure: false,
   verified: false,
   notes:
     "Source port of Descent from the same project as DXX-Rebirth, covering the first game rather than Descent II. Published as tagged builds without GitHub releases.",

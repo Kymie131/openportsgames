@@ -35,7 +35,6 @@ A native port entry. `src/lib/ports/schema.ts` defines the shape:
 | `website`, `docs` | https URL?                    | official project website / documentation                                                                                                                                                                     |
 | `discord`         | https URL?                    | official community server (Discord) of the project                                                                                                                                                           |
 | `license`         | `{ spdx, note? }`             | SPDX identifier                                                                                                                                                                                              |
-| `aiDisclosure`    | boolean                       | project discloses AI involvement                                                                                                                                                                             |
 | `verified`        | boolean                       | release verified by the team                                                                                                                                                                                 |
 | `verifiedAt`      | date?                         | required predicate (see below)                                                                                                                                                                               |
 | `notes`           | string?                       | short editorial description                                                                                                                                                                                  |
@@ -50,9 +49,6 @@ Some notes on why the fields are shaped this way:
 - `verified` is not an editorial opinion. It is `true` only when we can point
   at a release the project published and the date we confirmed it. Claims you
   cannot reproduce are exactly the kind of thing this catalog exists to avoid.
-- `aiDisclosure` records what the project itself says. We record data; we do
-  not editorialize beyond the `notes` field. If a project is open about it,
-  that is worth knowing. If it is not, that is also worth knowing.
 - `installGuide.stepsEs` must mirror `steps` one-to-one. The Spanish guide is
   a real translation a human wrote and reviewed, not machine output, and the
   test keeps the two from drifting out of sync.

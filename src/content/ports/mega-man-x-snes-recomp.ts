@@ -19,7 +19,6 @@ export const megaManXSnesRecomp: Port = {
     spdx: "NOASSERTION",
     note: "Repository declares no SPDX license, so reuse rights are unstated.",
   },
-  aiDisclosure: false,
   verified: false,
   originalSystem: "Super Nintendo",
   features: [

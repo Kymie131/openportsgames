@@ -19,7 +19,6 @@ export const openage: Port = {
   license: {
     spdx: "GPL-3.0-or-later",
   },
-  aiDisclosure: false,
   verified: false,
   notes:
     "Volunteer project recreating the Genie engine used by Age of Empires, Age of Empires II and Star Wars: Galactic Battlegrounds. The last tagged release is 0.6.0, although development continues.",

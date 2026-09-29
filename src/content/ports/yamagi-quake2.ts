@@ -20,7 +20,6 @@ export const yamagiQuake2: Port = {
     spdx: "GPL-2.0",
     note: "based on id Software's GPL-2.0 Quake II release",
   },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-19",
   notes:

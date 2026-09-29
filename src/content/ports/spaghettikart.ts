@@ -20,7 +20,6 @@ export const spaghettiKart: Port = {
     spdx: "NOASSERTION",
     note: "no SPDX license file in the repository",
   },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-22",
   originalSystem: "Nintendo 64",

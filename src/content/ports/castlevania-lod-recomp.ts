@@ -16,7 +16,6 @@ export const castlevaniaLodRecomp: Port = {
   release: { version: "0.2.27", date: "2026-09-28" },
   sources: ["https://github.com/fliperama86/cvlod_recomp"],
   license: { spdx: "GPL-3.0" },
-  aiDisclosure: false,
   verified: false,
   originalSystem: "Nintendo 64",
   features: [

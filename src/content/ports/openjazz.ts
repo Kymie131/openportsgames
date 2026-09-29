@@ -18,7 +18,6 @@ export const openjazz: Port = {
   license: {
     spdx: "GPL-2.0",
   },
-  aiDisclosure: false,
   verified: false,
   notes:
     "Free, open-source version of the classic Jazz Jackrabbit games, started in 2005. Project activity has slowed and there is no clear roadmap.",

@@ -16,7 +16,6 @@ export const roadRash64Recompiled: Port = {
   release: { version: "1.3.1", date: "2026-09-19" },
   sources: ["https://github.com/linkssy2/RoadRash64Recompiled"],
   license: { spdx: "GPL-3.0" },
-  aiDisclosure: true,
   verified: true,
   verifiedAt: "2026-09-22",
   originalSystem: "Nintendo 64",

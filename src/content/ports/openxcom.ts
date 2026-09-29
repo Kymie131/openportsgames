@@ -19,7 +19,6 @@ export const openXcom: Port = {
   license: {
     spdx: "GPL-3.0",
   },
-  aiDisclosure: false,
   verified: false,
   screenshots: [
     {

@@ -16,7 +16,6 @@ export const superMarioBrosRemastered: Port = {
   release: { version: "1.1.0", date: "2026-09-04" },
   sources: ["https://github.com/JHDev2006/Super-Mario-Bros.-Remastered-Public"],
   license: { spdx: "GPL-3.0" },
-  aiDisclosure: false,
   verified: false,
   screenshots: [
     {

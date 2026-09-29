@@ -20,7 +20,6 @@ export const devilutionX: Port = {
     spdx: "NOASSERTION",
     note: "revival project with a custom license statement",
   },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-19",
   screenshots: [

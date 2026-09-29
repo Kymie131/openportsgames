@@ -19,7 +19,6 @@ export const vcmi: Port = {
   license: {
     spdx: "GPL-2.0",
   },
-  aiDisclosure: false,
   verified: false,
   notes:
     "Open-source recreation of the Heroes of Might and Magic III engine, loadable with the original game data. Active development with a long release history.",

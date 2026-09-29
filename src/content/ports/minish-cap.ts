@@ -20,7 +20,6 @@ export const minishCap: Port = {
     spdx: "NOASSERTION",
     note: "no SPDX license in the repository",
   },
-  aiDisclosure: false,
   verified: false,
   originalSystem: "Game Boy Advance",
   notes:

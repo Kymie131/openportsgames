@@ -17,7 +17,6 @@ export const ioquake3: Port = {
   sources: ["https://github.com/ioquake/ioq3"],
   website: "https://www.ioquake3.org/",
   license: { spdx: "GPL-2.0" },
-  aiDisclosure: false,
   verified: false,
   notes:
     "Community source port of Quake III Arena, actively maintained by the ioquake3 team. Distributed as a rolling 'latest' release from the official website. Requires the original game files.",

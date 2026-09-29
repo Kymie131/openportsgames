@@ -16,7 +16,6 @@ export const freedroidClassic: Port = {
   release: { version: "1.9.0", date: "2026-03-22" },
   sources: ["https://github.com/ReinhardPrix/FreedroidClassic"],
   license: { spdx: "GPL-2.0" },
-  aiDisclosure: false,
   verified: false,
   originalSystem: "Commodore 64",
   notes:

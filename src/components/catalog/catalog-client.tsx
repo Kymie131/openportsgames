@@ -18,7 +18,6 @@ import {
   MAX_QUERY_LENGTH,
   parseCatalogState,
   SCOPED_PLATFORMS,
-  type AiValue,
   type CatalogScope,
   type CatalogState,
   type FeaturesValue,
@@ -46,7 +45,6 @@ function writePersisted(state: CatalogState) {
       genre: state.genre,
       source: state.source,
       features: state.features,
-      ai: state.ai,
       tested: state.tested,
       sort: state.sort,
     };
@@ -82,7 +80,6 @@ function readPersisted(): CatalogState | null {
     append("genre", saved.genre);
     append("source", saved.source);
     append("features", saved.features);
-    append("ai", saved.ai);
     append("tested", saved.tested);
     if (saved.sort && saved.sort !== "relevance") params.set("sort", saved.sort);
     return parseCatalogState(params);
@@ -572,18 +569,6 @@ function FilterPanel({
         />
       </FilterSection>
 
-      <FilterSection title={t.catalog.filterAi}>
-        <ChipGroup
-          label={t.catalog.filterAi}
-          values={[
-            ["yes", t.catalog.aiYes],
-            ["no", t.catalog.aiNo],
-          ]}
-          selected={state.ai}
-          onToggle={(value) => toggle("ai", value)}
-        />
-      </FilterSection>
-
       <FilterSection title={t.catalog.filterTested}>
         <ChipGroup
           label={t.catalog.filterTested}
@@ -622,11 +607,9 @@ type SectionFilterKeys =
   | "genre"
   | "source"
   | "features"
-  | "ai"
   | "tested";
 
 export type {
-  AiValue,
   CatalogScope,
   CatalogState,
   FeaturesValue,

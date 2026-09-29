@@ -17,7 +17,6 @@ export const raze: Port = {
   sources: ["https://github.com/ZDoom/Raze"],
   website: "https://raze.zdoom.org/",
   license: { spdx: "GPL-2.0" },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-25",
   notes:

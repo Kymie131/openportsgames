@@ -16,7 +16,6 @@ export const beetleAdventureRacingRecomp: Port = {
   release: { version: "0.4.2-alpha", date: "2026-09-20" },
   sources: ["https://github.com/danielgomesvieira2000/beetle-adventure-racing-recomp"],
   license: { spdx: "AGPL-3.0" },
-  aiDisclosure: false,
   verified: false,
   originalSystem: "Nintendo 64",
   features: [

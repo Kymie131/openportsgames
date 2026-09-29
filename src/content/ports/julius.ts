@@ -16,7 +16,6 @@ export const julius: Port = {
   release: { version: "1.8.0", date: "2025-07-31" },
   sources: ["https://github.com/bvschaik/julius"],
   license: { spdx: "AGPL-3.0" },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-25",
   notes:

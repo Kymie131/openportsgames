@@ -16,7 +16,6 @@ export const marathonRecomp: Port = {
   release: { version: null, date: null },
   sources: ["https://github.com/sonicnext-dev/MarathonRecomp"],
   license: { spdx: "GPL-3.0" },
-  aiDisclosure: false,
   verified: false,
   screenshots: [
     {

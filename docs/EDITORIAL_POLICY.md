@@ -54,10 +54,6 @@ keep this list useful, safe and honest, in that order.
    catalog and search engines, but never silently deleted. A removal is a
    fact in the project's history, not something to scrub.
 
-7. **AI disclosure.** Every entry records whether the project discloses AI
-   involvement (`aiDisclosure`). We record the fact and do not editorialize
-   beyond the notes field, but the fact is there for people who care.
-
 ## Acceptance criteria (mirrored in `/submit` and the issue templates)
 
 - The port does not distribute the original game's files.

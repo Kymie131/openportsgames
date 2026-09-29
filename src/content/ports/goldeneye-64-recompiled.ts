@@ -16,7 +16,6 @@ export const goldenEye64Recompiled: Port = {
   release: { version: "1.0.0", date: "2026-08-20" },
   sources: ["https://github.com/cblock85/GoldenEye64Recomp"],
   license: { spdx: "GPL-3.0" },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-22",
   originalSystem: "Nintendo 64",

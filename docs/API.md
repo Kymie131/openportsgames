@@ -33,7 +33,6 @@ this dataset, which seems like the right spirit for a preservation catalog.
       "docs": "…",
       "discord": "…", // optional, official community server
       "license": { "spdx": "CC0-1.0" },
-      "aiDisclosure": false,
       "verified": true,
       "verifiedAt": "2026-09-19",
       "notes": "…",

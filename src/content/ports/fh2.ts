@@ -19,7 +19,6 @@ export const fh2: Port = {
   license: {
     spdx: "GPL-2.0",
   },
-  aiDisclosure: false,
   verified: false,
   notes:
     "Engine reimplementation for Heroes of Might and Magic II, written from scratch in C++. Ships official Android builds on Google Play plus Windows, macOS and Linux releases.",

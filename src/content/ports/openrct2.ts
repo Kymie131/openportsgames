@@ -19,7 +19,6 @@ export const openRct2: Port = {
   license: {
     spdx: "GPL-3.0",
   },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-19",
   screenshots: [

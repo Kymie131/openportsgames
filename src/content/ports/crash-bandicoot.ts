@@ -16,7 +16,6 @@ export const crashBandicoot: Port = {
   release: { version: "1.9.4", date: "2026-09-18" },
   sources: ["https://github.com/Matteo842/CrashBandicoot-Launcher"],
   license: { spdx: "MIT" },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-22",
   originalSystem: "PlayStation",

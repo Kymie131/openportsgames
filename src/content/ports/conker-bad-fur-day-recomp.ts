@@ -16,7 +16,6 @@ export const conkerBadFurDayRecomp: Port = {
   release: { version: "0.1.4", date: "2026-09-28" },
   sources: ["https://github.com/sciaschi/CBFD-Recompiled"],
   license: { spdx: "MIT" },
-  aiDisclosure: false,
   verified: false,
   originalSystem: "Nintendo 64",
   features: [

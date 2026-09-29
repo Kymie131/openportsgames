@@ -20,7 +20,6 @@ export const xash3d: Port = {
     spdx: "NOASSERTION",
     note: "no SPDX license file in the repository",
   },
-  aiDisclosure: false,
   verified: false,
   screenshots: [
     {

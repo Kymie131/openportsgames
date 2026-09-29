@@ -19,7 +19,6 @@ export const sonic12: Port = {
     spdx: "NOASSERTION",
     note: "community Retro Engine license, not an SPDX identifier",
   },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-19",
   screenshots: [

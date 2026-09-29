@@ -16,7 +16,6 @@ export const harvestMoon64Recomp: Port = {
   release: { version: "1.2.2", date: "2026-09-25" },
   sources: ["https://github.com/HarvestMoon64Recomp/HarvestMoon64Recomp"],
   license: { spdx: "GPL-3.0" },
-  aiDisclosure: false,
   verified: false,
   originalSystem: "Nintendo 64",
   features: [

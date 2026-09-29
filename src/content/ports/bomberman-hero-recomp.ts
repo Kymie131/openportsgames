@@ -16,7 +16,6 @@ export const bombermanHeroRecomp: Port = {
   release: { version: null, date: null },
   sources: ["https://github.com/RevoSucks/BMHeroRecomp"],
   license: { spdx: "GPL-3.0" },
-  aiDisclosure: false,
   verified: false,
   originalSystem: "Nintendo 64",
   notes:

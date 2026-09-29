@@ -17,7 +17,6 @@ export const ctrNative: Port = {
   sources: ["https://github.com/CTR-tools/ctr-native"],
   discord: "https://discord.gg/WHkuh2n",
   license: { spdx: "GPL-3.0" },
-  aiDisclosure: false,
   verified: false,
   originalSystem: "PlayStation",
   features: [

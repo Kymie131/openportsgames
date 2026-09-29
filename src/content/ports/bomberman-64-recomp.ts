@@ -16,7 +16,6 @@ export const bomberman64Recomp: Port = {
   release: { version: "1.0.0", date: "2026-03-22" },
   sources: ["https://github.com/RevoSucks/BM64Recomp"],
   license: { spdx: "GPL-3.0" },
-  aiDisclosure: false,
   verified: false,
   originalSystem: "Nintendo 64",
   features: [

@@ -17,7 +17,6 @@ export const dxxRebirth: Port = {
   sources: ["https://github.com/dxx-rebirth/dxx-rebirth"],
   website: "https://www.dxx-rebirth.com/",
   license: { spdx: "GPL-3.0" },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-25",
   notes:

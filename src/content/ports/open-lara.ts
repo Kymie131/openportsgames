@@ -19,7 +19,6 @@ export const openLara: Port = {
   license: {
     spdx: "BSD-2-Clause",
   },
-  aiDisclosure: false,
   verified: false,
   screenshots: [
     {

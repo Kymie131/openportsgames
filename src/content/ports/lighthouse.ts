@@ -17,7 +17,6 @@ export const lighthouse: Port = {
   sources: ["https://github.com/HarbourMasters/Lighthouse"],
   website: "https://www.harbourmasters.org",
   license: { spdx: "CC0-1.0" },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-22",
   originalSystem: "Nintendo 64",

@@ -18,7 +18,6 @@ export const openapoc: Port = {
   license: {
     spdx: "GPL-3.0",
   },
-  aiDisclosure: false,
   verified: false,
   notes:
     "Open-source reimplementation of the X-COM: Apocalypse engine, written in C++ with SDL2. Requires the original game files to run.",

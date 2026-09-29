@@ -16,7 +16,6 @@ export const dk64Recompiled: Port = {
   release: { version: "1.0.2", date: "2026-09-02" },
   sources: ["https://github.com/Rainchus/Donkey-Kong-64-Recompiled"],
   license: { spdx: "GPL-3.0" },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-22",
   originalSystem: "Nintendo 64",

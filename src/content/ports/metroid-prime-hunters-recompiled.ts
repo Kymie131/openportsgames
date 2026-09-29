@@ -16,7 +16,6 @@ export const metroidPrimeHuntersRecompiled: Port = {
   release: { version: "0.7.3-alpha", date: "2026-09-10" },
   sources: ["https://github.com/mstan/MetroidPrimeHuntersRecomp"],
   license: { spdx: "MIT" },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-22",
   originalSystem: "Nintendo DS",

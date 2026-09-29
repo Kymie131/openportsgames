@@ -19,7 +19,6 @@ export const fallout2Ce: Port = {
     spdx: "NOASSERTION",
     note: "project states it derives from a public domain release of the Fallout source",
   },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-19",
   notes:

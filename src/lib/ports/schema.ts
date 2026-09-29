@@ -61,7 +61,6 @@ const normalPort = z.object({
     spdx: z.string().regex(LICENSE_SPDX),
     note: z.string().max(120).optional(),
   }),
-  aiDisclosure: z.boolean(),
   verified: z.boolean(),
   verifiedAt: isoDate.optional(),
   notes: z.string().max(1000).optional(),
@@ -164,7 +163,6 @@ export type Port = {
   docs?: string;
   discord?: string;
   license: { spdx: string; note?: string };
-  aiDisclosure: boolean;
   verified: boolean;
   verifiedAt?: string;
   notes?: string;

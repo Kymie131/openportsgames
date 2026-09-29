@@ -19,7 +19,6 @@ export const twoShip: Port = {
   license: {
     spdx: "CC0-1.0",
   },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-19",
   notes:

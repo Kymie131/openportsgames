@@ -16,7 +16,6 @@ export const chocolateDoom: Port = {
   release: { version: "3.1.1", date: "2025-08-14" },
   sources: ["https://github.com/chocolate-doom/chocolate-doom"],
   license: { spdx: "GPL-2.0" },
-  aiDisclosure: false,
   verified: false,
   originalSystem: "MS-DOS",
   features: [

@@ -17,7 +17,6 @@ export const alephOne: Port = {
   sources: ["https://github.com/Aleph-One-Marathon/alephone"],
   website: "https://alephone.lhowon.org/",
   license: { spdx: "GPL-3.0" },
-  aiDisclosure: false,
   verified: false,
   originalSystem: "Xbox",
   features: [

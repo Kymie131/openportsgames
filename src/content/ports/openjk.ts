@@ -19,7 +19,6 @@ export const openJk: Port = {
   license: {
     spdx: "GPL-2.0",
   },
-  aiDisclosure: false,
   verified: false,
   notes:
     "Community engine for Jedi Academy (and Jedi Outcast single-player) released by Raven Software. Distributed as a rolling 'latest' release. Requires original game files.",

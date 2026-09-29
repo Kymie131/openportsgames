@@ -19,7 +19,6 @@ export const waveRace64Recompiled: Port = {
     spdx: "NOASSERTION",
     note: "no SPDX license file in the repository",
   },
-  aiDisclosure: true,
   verified: true,
   verifiedAt: "2026-09-22",
   originalSystem: "Nintendo 64",

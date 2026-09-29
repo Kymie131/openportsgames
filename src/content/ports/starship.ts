@@ -16,7 +16,6 @@ export const starship: Port = {
   release: { version: "2.0.0", date: "2025-05-25" },
   sources: ["https://github.com/HarbourMasters/Starship"],
   license: { spdx: "CC0-1.0" },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-22",
   originalSystem: "Nintendo 64",

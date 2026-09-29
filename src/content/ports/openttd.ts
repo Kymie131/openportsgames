@@ -20,7 +20,6 @@ export const openTtd: Port = {
     spdx: "GPL-2.0-or-later",
     note: "repository metadata lists NOASSERTION; the project states GPL-2.0-or-later",
   },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-19",
   screenshots: [

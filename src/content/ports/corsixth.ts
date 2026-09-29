@@ -17,7 +17,6 @@ export const corsixth: Port = {
   sources: ["https://github.com/CorsixTH/CorsixTH"],
   website: "https://corsixth.com/",
   license: { spdx: "MIT" },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-25",
   screenshots: [

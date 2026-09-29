@@ -16,7 +16,6 @@ export const pokemonSnapRecomp: Port = {
   release: { version: "1.1.0", date: "2026-09-27" },
   sources: ["https://github.com/JackandBeans/Snap64Recomp"],
   license: { spdx: "GPL-3.0" },
-  aiDisclosure: false,
   verified: false,
   originalSystem: "Nintendo 64",
   features: [

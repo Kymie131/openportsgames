@@ -16,7 +16,6 @@ export const petari: Port = {
   release: { version: null, date: null },
   sources: ["https://github.com/SMGCommunity/Petari"],
   license: { spdx: "CC0-1.0" },
-  aiDisclosure: false,
   verified: false,
   originalSystem: "Wii",
   notes:

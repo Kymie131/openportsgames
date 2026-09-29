@@ -17,7 +17,6 @@ export const dhewm3: Port = {
   sources: ["https://github.com/dhewm/dhewm3"],
   website: "https://dhewm3.org/",
   license: { spdx: "GPL-3.0" },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-25",
   notes:

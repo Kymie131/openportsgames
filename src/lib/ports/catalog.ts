@@ -8,7 +8,6 @@ export type TechniqueValue = (typeof portTypes)[number];
 export type GenreValue = Genre;
 export type SourceValue = "open" | "closed";
 export type FeaturesValue = "yes" | "no";
-export type AiValue = "yes" | "no";
 export type TestedValue = "pass" | "fail" | "untested";
 
 /**
@@ -29,7 +28,6 @@ export interface CatalogState {
   genre: GenreValue[];
   source: SourceValue[];
   features: FeaturesValue[];
-  ai: AiValue[];
   tested: TestedValue[];
   sort: SortKey;
 }
@@ -44,7 +42,6 @@ export const defaultCatalogState: CatalogState = {
   genre: [],
   source: [],
   features: [],
-  ai: [],
   tested: [],
   sort: "relevance",
 };
@@ -113,7 +110,6 @@ export function parseCatalogState(params: ParamSource): CatalogState {
     genre: pickMany(params, "genre", genres),
     source: pickMany(params, "source", ["open", "closed"]),
     features: pickMany(params, "features", ["yes", "no"]),
-    ai: pickMany(params, "ai", ["yes", "no"]),
     tested: pickMany(params, "tested", ["pass", "fail", "untested"]),
     sort: pick(params.get("sort"), SORT_VALUES, "relevance"),
   };
@@ -134,7 +130,6 @@ export function catalogStateToParams(state: CatalogState): URLSearchParams {
   append("genre", state.genre);
   append("source", state.source);
   append("features", state.features);
-  append("ai", state.ai);
   append("tested", state.tested);
   if (state.sort !== "relevance") params.set("sort", state.sort);
   return params;
@@ -151,7 +146,6 @@ export function hasActiveFilters(state: CatalogState): boolean {
     state.genre.length > 0 ||
     state.source.length > 0 ||
     state.features.length > 0 ||
-    state.ai.length > 0 ||
     state.tested.length > 0 ||
     state.sort !== "relevance"
   );
@@ -168,7 +162,6 @@ export function activeFilterCount(state: CatalogState): number {
     state.genre.length +
     state.source.length +
     state.features.length +
-    state.ai.length +
     state.tested.length +
     (state.sort !== "relevance" ? 1 : 0)
   );
@@ -236,8 +229,7 @@ export function applyCatalog(
       const hasFeatures = (port.features?.length ?? 0) > 0;
       if (state.features.includes("yes") && !hasFeatures) return false;
       if (state.features.includes("no") && hasFeatures) return false;
-      if (state.ai.includes("yes") && !port.aiDisclosure) return false;
-      if (state.ai.includes("no") && port.aiDisclosure) return false;
+
       const result = testResults[port.id];
       if (state.tested.length > 0) {
         const match =

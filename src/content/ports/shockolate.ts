@@ -18,7 +18,6 @@ export const shockolate: Port = {
   license: {
     spdx: "GPL-3.0",
   },
-  aiDisclosure: false,
   verified: false,
   notes:
     "Reimplementation of the System Shock engine, tracked as an active project with regular commits. No tagged releases are published yet.",

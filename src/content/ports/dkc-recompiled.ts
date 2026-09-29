@@ -20,7 +20,6 @@ export const dkcRecompiled: Port = {
     "https://github.com/elliotttate/DKC3Recomp",
   ],
   license: { spdx: "MIT" },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-22",
   originalSystem: "Super Nintendo",

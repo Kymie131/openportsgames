@@ -16,7 +16,6 @@ export const openDune: Port = {
   release: { version: "0.9", date: "2018-05-25" },
   sources: ["https://github.com/OpenDUNE/OpenDUNE"],
   license: { spdx: "GPL-2.0" },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-25",
   notes:

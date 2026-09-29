@@ -16,7 +16,6 @@ export const dinosaurPlanetRecomp: Port = {
   release: { version: "0.3.0", date: "2026-05-31" },
   sources: ["https://github.com/DinosaurPlanetRecomp/dino-recomp"],
   license: { spdx: "GPL-3.0" },
-  aiDisclosure: false,
   verified: false,
   originalSystem: "Nintendo 64",
   features: ["Configurable window size, including a 4:3 aspect ratio option"],

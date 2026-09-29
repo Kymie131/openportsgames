@@ -21,7 +21,6 @@ export const shipOfHarkinian: Port = {
     spdx: "NOASSERTION",
     note: "no SPDX license file in the repository",
   },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-19",
   screenshots: [

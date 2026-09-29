@@ -18,7 +18,6 @@ export const starRod: Port = {
   license: {
     spdx: "MIT",
   },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-19",
   notes:

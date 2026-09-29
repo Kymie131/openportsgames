@@ -21,7 +21,6 @@ export const daggerfallUnity: Port = {
     spdx: "MIT",
     note: "game assets remain under their original license",
   },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-19",
   screenshots: [

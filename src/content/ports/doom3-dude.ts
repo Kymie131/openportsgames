@@ -16,7 +16,6 @@ export const doom3Dude: Port = {
   release: { version: "0.9.3", date: "2026-09-18" },
   sources: ["https://github.com/Inkub0/dude"],
   license: { spdx: "GPL-3.0-only" },
-  aiDisclosure: true,
   verified: true,
   verifiedAt: "2026-09-22",
   screenshots: [

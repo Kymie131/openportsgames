@@ -19,7 +19,6 @@ export const prBoomPlusRt: Port = {
     spdx: "NOASSERTION",
     note: "PrBoom-Plus is GPL-2.0, the ray-traced renderer is MIT",
   },
-  aiDisclosure: false,
   verified: true,
   verifiedAt: "2026-09-22",
   originalSystem: "MS-DOS",

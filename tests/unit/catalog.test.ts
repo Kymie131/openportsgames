@@ -25,7 +25,6 @@ function state(overrides: Partial<CatalogState>): CatalogState {
     genre: [],
     source: [],
     features: [],
-    ai: [],
     tested: [],
     sort: "relevance",
     ...overrides,
@@ -153,15 +152,6 @@ describe("applyCatalog", () => {
     expect(closed.results.length).toBe(0);
   });
 
-  it("filters by AI disclosure", () => {
-    const disclosed = ports.filter((port) => port.aiDisclosure);
-    expect(disclosed.length).toBeGreaterThan(0);
-    const { results } = applyCatalog(ports, index, state({ ai: ["yes"] }));
-    expect(results.length).toBe(disclosed.length);
-    for (const port of results) {
-      expect(port.aiDisclosure).toBe(true);
-    }
-  });
 
   it("filters by latest test result using per-port test results", () => {
     const testResults: Record<string, "pass" | "fail"> = { dusklight: "pass" };
@@ -218,9 +208,9 @@ describe("URL serialization", () => {
     expect(serialized).toBe("");
 
     const nonDefault = catalogStateToParams(
-      state({ sort: "stars", ai: ["yes"], platform: ["windows"] }),
+      state({ sort: "stars", platform: ["windows"] }),
     ).toString();
-    expect(nonDefault).toBe("platform=windows&ai=yes&sort=stars");
+    expect(nonDefault).toBe("platform=windows&sort=stars");
   });
 
   it("ignores invalid filter values on parse", () => {
@@ -251,6 +241,6 @@ describe("filter helpers", () => {
     expect(activeFilterCount(state({}))).toBe(0);
     expect(activeFilterCount(state({ status: ["beta", "alpha"], platform: ["windows"] }))).toBe(3);
     expect(activeFilterCount(state({ sort: "relevance" }))).toBe(0);
-    expect(activeFilterCount(state({ sort: "stars", ai: ["yes"] }))).toBe(2);
+    expect(activeFilterCount(state({ sort: "stars" }))).toBe(1);
   });
 });
