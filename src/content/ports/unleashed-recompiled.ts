@@ -23,7 +23,7 @@ export const unleashedRecompiled: Port = {
   screenshots: [
     {
       src: "https://raw.githubusercontent.com/hedge-dev/UnleashedRecompResources/main/images/options_menu/thumbnails/raw/default.png",
-      alt: "In-game screenshot of Sonic Unleashed rendered by UnleashedRecomp",
+      alt: "The Sonic Unleashed options menu screen reproduced by UnleashedRecomp",
       credit: "hedge-dev/UnleashedRecompResources",
     },
   ],

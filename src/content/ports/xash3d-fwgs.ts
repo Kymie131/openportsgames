@@ -24,8 +24,33 @@ export const xash3d: Port = {
   verified: false,
   screenshots: [
     {
+      src: "https://raw.githubusercontent.com/FWGS/xash3d-fwgs/master/Documentation/images/example1.jpg",
+      alt: "Xash3D touch buttons shown per game mode using flag 8 and flag 16",
+      credit: "Xash3D FWGS",
+    },
+    {
+      src: "https://raw.githubusercontent.com/FWGS/xash3d-fwgs/master/Documentation/images/example2.jpg",
+      alt: "Console output listing every button in the standard touch.cfg file",
+      credit: "Xash3D FWGS",
+    },
+    {
+      src: "https://raw.githubusercontent.com/FWGS/xash3d-fwgs/master/Documentation/images/example3.jpg",
+      alt: "Touch attack button recolored to translucent orange by touch_setcolor",
+      credit: "Xash3D FWGS",
+    },
+    {
       src: "https://raw.githubusercontent.com/FWGS/xash3d-fwgs/master/Documentation/images/example4.jpg",
-      alt: "Half-Life gameplay in Xash3D FWGS showing a custom touch-control button",
+      alt: "A new touch button added with a custom icon via the lastinv command",
+      credit: "Xash3D FWGS",
+    },
+    {
+      src: "https://raw.githubusercontent.com/FWGS/xash3d-fwgs/master/Documentation/images/example5.jpg",
+      alt: "The custom touch button as displayed in the touch layout editor",
+      credit: "Xash3D FWGS",
+    },
+    {
+      src: "https://raw.githubusercontent.com/FWGS/xash3d-fwgs/master/Documentation/images/editor.jpg",
+      alt: "The Xash3D FWGS touch controls layout editor window",
       credit: "Xash3D FWGS",
     },
   ],
