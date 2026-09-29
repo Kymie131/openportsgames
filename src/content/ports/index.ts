@@ -16,6 +16,14 @@ import { eduke32 } from "./eduke32";
 import { openXcom } from "./openxcom";
 import { openTtd } from "./openttd";
 import { openRct2 } from "./openrct2";
+import { vcmi } from "./vcmi";
+import { fh2 } from "./fh2";
+import { openapoc } from "./openapoc";
+import { openjazz } from "./openjazz";
+import { shockolate } from "./shockolate";
+import { opensage } from "./opensage";
+import { openage } from "./openage";
+import { d1xRebirth } from "./d1x-rebirth";
 import { fallout1Ce } from "./fallout1-ce";
 import { fallout2Ce } from "./fallout2-ce";
 import { openJk } from "./openjk";
@@ -163,4 +171,12 @@ export const portCases: Port[] = [
   bombermanHeroRecomp,
   beetleAdventureRacingRecomp,
   chocolateDoom,
+  vcmi,
+  fh2,
+  openapoc,
+  openjazz,
+  shockolate,
+  opensage,
+  openage,
+  d1xRebirth,
 ];

@@ -3,6 +3,12 @@ description: Propose a native port to be added to the OpenPortsGames catalog.
 title: "Port proposal: "
 labels: [proposal]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Read `docs/EDITORIAL_POLICY.md` before submitting. The catalog only lists
+        native ports (decompilation, recompilation, reimplementation or source
+        port) with official, verifiable sources.
   - type: input
     id: title
     attributes:
@@ -21,12 +27,32 @@ body:
     id: technique
     attributes:
       label: Technique
+      description: Use one of these values exactly.
       multiple: false
       options:
-        - Decompilation
-        - Recompilation
-        - Reimplementation
-        - Source port
+        - decompilation
+        - recompilation
+        - reimplementation
+        - source-port
+    validations:
+      required: true
+  - type: dropdown
+    id: genre
+    attributes:
+      label: Genre
+      description: Use one of these values exactly.
+      multiple: false
+      options:
+        - platformer
+        - action-adventure
+        - rpg
+        - racing
+        - strategy
+        - shooter
+        - fighting
+        - sports
+        - simulation
+        - open-world
     validations:
       required: true
   - type: dropdown
@@ -35,10 +61,10 @@ body:
       label: Platforms
       multiple: true
       options:
-        - Windows
-        - Linux
-        - macOS
-        - Android
+        - windows
+        - linux
+        - macos
+        - android
     validations:
       required: true
   - type: dropdown
@@ -47,9 +73,9 @@ body:
       label: Status
       multiple: false
       options:
-        - Stable
-        - Beta
-        - Alpha
+        - stable
+        - beta
+        - alpha
     validations:
       required: true
   - type: input
@@ -79,6 +105,8 @@ body:
         - label: The project is open source and links to an official repository.
           required: true
         - label: The port does not distribute the original game's files.
+          required: true
+        - label: This proposal contains no direct links to ROMs, ISOs or game files.
           required: true
         - label: Platforms, status and version are explicit and verifiable.
           required: true

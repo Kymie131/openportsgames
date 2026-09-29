@@ -287,6 +287,7 @@ const en = {
     criteria: [
       "Code availability is explicit: open source ports link to their official repository, and closed source ports must have a verifiable official source.",
       "The port does not distribute the original game's files.",
+      "Proposals that include a direct link to game files, ROMs or ISOs are rejected: a proposal points at a project, never at a download.",
       "Platforms, status, genre and version are explicit and verifiable in the proposal.",
       "A test can only be proposed by the tester that ran it, on a declared hardware profile.",
     ],
@@ -300,7 +301,7 @@ const en = {
     subtitle: "OpenPortsGames is a hobby project. No accounts, no pressure.",
     donationTitle: "Optional donation",
     donationIntro:
-      "This project has no income, employees or ads. If you want to support it, the most useful help is voluntary and occasional.",
+      "OpenPortsGames is run by volunteers: no employees, no ads and no analytics. Donations, when enabled, go to hosting and running costs only.",
     donate: "Donate with PayPal",
     donationSetup:
       "PayPal support will be available soon. In the meantime, the most valuable help is the non-monetary one below.",
@@ -347,9 +348,11 @@ const en = {
     subtitle: "Disclaimer, takedown policy and privacy policy.",
     disclaimerTitle: "Disclaimer",
     disclaimer: [
-      "OpenPortsGames is a non-profit informational catalog. It is not affiliated with, endorsed by or connected to any of the companies that own the games listed.",
+      "OpenPortsGames is an independent, community-run informational catalog. It is not affiliated with, endorsed by or connected to any of the companies that own the games listed.",
       "Game names and trademarks belong to their respective owners, and are used only to identify and catalogue the ports.",
       "The ports are authored by their respective communities. This site does not distribute game files, patches, ROMs or ISOs, and cannot be held responsible for their contents.",
+      "The catalog is not exhaustive: a project being absent says nothing about its quality or its legality.",
+      "Links point to sites this catalog does not control. Their content changes over time and stays the responsibility of whoever operates them.",
     ],
     takedownTitle: "Takedown policy",
     takedown: [
@@ -664,6 +667,7 @@ const es: Messages = {
     criteria: [
       "La disponibilidad del código es explícita: los ports de código abierto enlazan a su repositorio oficial, y los de código cerrado deben tener una fuente oficial verificable.",
       "El port no distribuye los archivos del juego original.",
+      "Se rechazan las propuestas que incluyan un enlace directo a archivos de juego, ROMs o ISOs: una propuesta apunta a un proyecto, nunca a una descarga.",
       "Plataformas, estado, género y versión son explícitos y verificables en la propuesta.",
       "Una prueba solo puede proponerla el probador que la realizó, sobre un perfil de hardware declarado.",
     ],
@@ -677,7 +681,7 @@ const es: Messages = {
     subtitle: "OpenPortsGames es un proyecto de hobby. Sin cuentas, sin presión.",
     donationTitle: "Donación opcional",
     donationIntro:
-      "Este proyecto no tiene ingresos, empleados ni publicidad. Si quieres apoyarlo, la ayuda más útil es voluntaria y ocasional.",
+      "Este proyecto lo mantienen personas voluntarias: sin empleados, sin publicidad y sin analítica. Las donaciones, cuando estén activas, se destinan solo a alojamiento y costes de funcionamiento.",
     donate: "Donar con PayPal",
     donationSetup:
       "El apoyo por PayPal estará disponible pronto. Mientras tanto, la ayuda más valiosa es la que no implica dinero.",
@@ -725,9 +729,11 @@ const es: Messages = {
     subtitle: "Aviso legal, política de retirada y política de privacidad.",
     disclaimerTitle: "Aviso legal",
     disclaimer: [
-      "OpenPortsGames es un catálogo informativo sin fines de lucro. No está afiliado, respaldado ni conectado con ninguna de las compañías propietarias de los juegos listados.",
+      "OpenPortsGames es un catálogo informativo independiente y comunitario. No está afiliado, respaldado ni conectado con ninguna de las compañías propietarias de los juegos listados.",
       "Los nombres de juegos y marcas pertenecen a sus respectivos dueños y se usan solo para identificar y catalogar los ports.",
       "Los ports son obra de sus respectivas comunidades. Este sitio no distribuye archivos de juego, parches, ROMs ni ISOs, y no puede responsabilizarse de su contenido.",
+      "El catálogo no es exhaustivo: que un proyecto falte no dice nada sobre su calidad ni sobre su legalidad.",
+      "Los enlaces apuntan a sitios que este catálogo no controla. Su contenido cambia con el tiempo y sigue siendo responsabilidad de quienes los operan.",
     ],
     takedownTitle: "Política de retirada",
     takedown: [
