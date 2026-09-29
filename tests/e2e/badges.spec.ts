@@ -11,9 +11,11 @@ test.describe("console logo badges", () => {
   test("a system without artwork falls back to the text mark, never a broken image", async ({
     page,
   }) => {
-    await page.goto("/ports/sonic-1-2-2013");
-    await expect(page.locator('figure img[src^="/logos/console/"]')).toHaveCount(0);
-    await expect(page.locator("figcaption, figure *").first()).toBeVisible();
+    await page.goto("/ports/julius");
+    const fallback = page.locator("figure");
+    await expect(fallback).toBeVisible();
+    await expect(fallback.locator("img")).toHaveCount(0);
+    await expect(fallback.locator('span[aria-hidden="true"]')).toBeVisible();
   });
 
   test("catalog tiles render the console logo in the art strip", async ({ page }) => {
