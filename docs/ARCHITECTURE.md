@@ -1,6 +1,6 @@
 # Architecture
 
-I built this site to be a static export and nothing more. There is no server,
+This site is a static export. There is no server,
 no database, no accounts, no build-time backend. Next.js compiles the catalog
 once and out comes plain HTML, CSS and JS. There is also a copy of
 `/api/ports.json`: a single JSON file that any script or tool can read.

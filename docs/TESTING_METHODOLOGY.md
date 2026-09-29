@@ -7,8 +7,7 @@ thing.
 I never wanted this site to repeat the classic forum move: someone posts "I
 tested it, runs perfect, 10/10" and there's no way to know on what machine,
 which version, or whether the post is even from the same person. Test records
-exist so a claim can be checked. The badge is the smallest honest unit this
-project can promise.
+exist so a claim can be checked. The badge is the smallest claim this project can back up.
 
 ## Rules
 

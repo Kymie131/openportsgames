@@ -11,14 +11,7 @@ export type FeaturesValue = "yes" | "no";
 export type AiValue = "yes" | "no";
 export type TestedValue = "pass" | "fail" | "untested";
 
-/**
- * Catalog query state shared by all three catalog pages.
- *
- * Every filter is a multi-select: values within a section are OR-ed, sections
- * are AND-ed (Steam-style). The query and the filters are reflected in the
- * URL; filters (never the free-text query) are also persisted between
- * sessions under `opg-catalog-filters`.
- */
+/** Catalog query state shared by the three catalog pages. */
 export interface CatalogState {
   query: string;
   platform: PlatformKey[];
@@ -70,12 +63,7 @@ export type PersistedCatalogState = Omit<CatalogState, "query">;
 
 const SORT_VALUES: SortKey[] = ["relevance", "title", "title-desc", "newest", "stars"];
 
-/**
- * Maximum accepted query length. Guards the search index against pathological
- * free-text input (a single minuscule token grows the automaton quadratically
- * until it throws), so both the URL parser and the catalog keep the query
- * within this cap.
- */
+/** Maximum accepted query length (protects the search index). */
 export const MAX_QUERY_LENGTH = 200;
 
 interface ParamSource {

@@ -10,12 +10,7 @@ export const OG_IMAGE = {
 
 const DESCRIPTION_MAX = 155;
 
-/**
- * Truncates a long description for meta tags. Cuts on a word boundary (the
- * last space before the cap, falling back to a hard cut for a single
- * unbroken token) and appends an ellipsis. Only affects the tag, never the
- * on-page copy or the data layer.
- */
+/** Truncates a description for meta tags on a word boundary. */
 export function summarize(text: string, max: number = DESCRIPTION_MAX): string {
   if (text.length <= max) return text;
   const cut = text.slice(0, max);
@@ -23,11 +18,7 @@ export function summarize(text: string, max: number = DESCRIPTION_MAX): string {
   return `${lastSpace > 0 ? cut.slice(0, lastSpace) : cut}…`;
 }
 
-/**
- * Per-page metadata: title (the layout template appends the site name),
- * description, canonical URL, Open Graph and Twitter card. Shared by all
- * routes so metadata stays consistent and indexable.
- */
+/** Builds per-page metadata (title, description, canonical, OG, Twitter). */
 export function pageMeta({
   title,
   description,
