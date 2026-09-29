@@ -15,6 +15,7 @@ export const nxEngine: Port = {
   status: "stable",
   release: { version: "2.6.5-1", date: "2021-07-08" },
   sources: ["https://github.com/nxengine/nxengine-evo"],
+  discord: "https://discord.gg/jnwmA7DhQh",
   license: {
     spdx: "GPL-3.0",
   },

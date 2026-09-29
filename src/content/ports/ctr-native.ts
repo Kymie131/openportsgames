@@ -15,6 +15,7 @@ export const ctrNative: Port = {
   status: "beta",
   release: { version: "7.1", date: "2026-07-07" },
   sources: ["https://github.com/CTR-tools/ctr-native"],
+  discord: "https://discord.gg/WHkuh2n",
   license: { spdx: "GPL-3.0" },
   aiDisclosure: false,
   verified: false,

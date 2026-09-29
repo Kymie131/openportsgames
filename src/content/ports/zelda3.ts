@@ -15,6 +15,7 @@ export const zelda3: Port = {
   status: "stable",
   release: { version: "0.3", date: "2023-08-17" },
   sources: ["https://github.com/snesrev/zelda3"],
+  discord: "https://discord.gg/AJJbJAzNNJ",
   license: {
     spdx: "NOASSERTION",
     note: "no SPDX license file in the repository",

@@ -15,6 +15,7 @@ export const minishCap: Port = {
   status: "alpha",
   release: { version: null, date: null },
   sources: ["https://github.com/zeldaret/tmc"],
+  website: "https://zeldaret.github.io/tmc/",
   license: {
     spdx: "NOASSERTION",
     note: "no SPDX license in the repository",

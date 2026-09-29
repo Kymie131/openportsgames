@@ -15,6 +15,7 @@ export const lighthouse: Port = {
   status: "alpha",
   release: { version: "1.1.0", date: "2026-08-17" },
   sources: ["https://github.com/HarbourMasters/Lighthouse"],
+  website: "https://www.harbourmasters.org",
   license: { spdx: "CC0-1.0" },
   aiDisclosure: false,
   verified: true,

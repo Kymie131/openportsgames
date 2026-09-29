@@ -15,6 +15,7 @@ export const spaghettiKart: Port = {
   status: "alpha",
   release: { version: "1.0.0", date: "2026-02-25" },
   sources: ["https://github.com/HarbourMasters/SpaghettiKart"],
+  website: "https://harbourmasters.github.io/SpaghettiKart/",
   license: {
     spdx: "NOASSERTION",
     note: "no SPDX license file in the repository",
