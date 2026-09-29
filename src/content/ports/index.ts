@@ -67,6 +67,16 @@ import { pokemonStadiumRecomp } from "./pokemon-stadium-recomp";
 import { pilotwings64Recomp } from "./pilotwings-64-recomp";
 import { alephOne } from "./aleph-one";
 import { freedroidClassic } from "./freedroid-classic";
+import { paperMarioReCut } from "./paper-mario-recut";
+import { conkerBadFurDayRecomp } from "./conker-bad-fur-day-recomp";
+import { harvestMoon64Recomp } from "./harvest-moon-64-recomp";
+import { pokemonSnapRecomp } from "./pokemon-snap-recomp";
+import { spaceStationSiliconValleyRecomp } from "./space-station-silicon-valley-recomp";
+import { superMarioWorldRecomp } from "./super-mario-world-recomp";
+import { megaManXSnesRecomp } from "./mega-man-x-snes-recomp";
+import { ogreBattle64Recomp } from "./ogre-battle-64-recomp";
+import { quest64Recomp } from "./quest-64-recomp";
+import { dinosaurPlanetRecomp } from "./dinosaur-planet-recomp";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -137,4 +147,14 @@ export const portCases: Port[] = [
   pilotwings64Recomp,
   alephOne,
   freedroidClassic,
+  paperMarioReCut,
+  conkerBadFurDayRecomp,
+  harvestMoon64Recomp,
+  pokemonSnapRecomp,
+  spaceStationSiliconValleyRecomp,
+  superMarioWorldRecomp,
+  megaManXSnesRecomp,
+  ogreBattle64Recomp,
+  quest64Recomp,
+  dinosaurPlanetRecomp,
 ];
