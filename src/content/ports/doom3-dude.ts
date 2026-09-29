@@ -34,5 +34,5 @@ export const doom3Dude: Port = {
     "GPU tessellation and 60 FPS render interpolation",
   ],
   notes:
-    "DUDE (Doom3 Unified Development Engine) updates the id Tech 4 Doom 3 engine with modern rendering, ray tracing and a Vulkan backend. The repository commits its Claude Code tooling, disclosing AI-assisted development. Requires the Doom 3 files the player owns.",
+    "DUDE (Doom3 Unified Development Engine) updates the id Tech 4 Doom 3 engine with modern rendering, ray tracing and a Vulkan backend. The repository commits its tooling and discloses that development is AI-assisted. Requires the Doom 3 files the player owns.",
 };

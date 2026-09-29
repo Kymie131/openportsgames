@@ -49,5 +49,5 @@ export const downpourRecomp: Port = {
     },
   ],
   notes:
-    "Native Windows port of the Xbox 360 version of Silent Hill: Downpour, produced by statically recompiling the PowerPC binary into x64 code. Requires you to dump the game partition from your own legally owned disc or digital copy — the launcher does the extraction. The developers named it 'Downpour Recompilation' and confirmed the extensive use of AI-assisted tooling (Claude Code) during development.",
+    "Native Windows port of the Xbox 360 version of Silent Hill: Downpour, produced by statically recompiling the PowerPC binary into x64 code. Requires you to dump the game partition from your own legally owned disc or digital copy — the launcher does the extraction. The developers named it 'Downpour Recompilation' and confirmed the extensive use of AI-assisted tooling during development.",
 };

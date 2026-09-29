@@ -27,5 +27,5 @@ export const perfectDarkDabsMod: Port = {
     "One-key bug reporting from the game",
   ],
   notes:
-    "Community decompilation of Perfect Dark with extended mod features, published as 'Dab's Mod'. The repository ships a CLAUDE.md and CLAUDE notes, documenting AI-assisted development. Requires the player's own legally obtained Perfect Dark ROM.",
+    "Community decompilation of Perfect Dark with extended mod features, published as 'Dab's Mod'. The repository documents its AI-assisted development process. Requires the player's own legally obtained Perfect Dark ROM.",
 };
