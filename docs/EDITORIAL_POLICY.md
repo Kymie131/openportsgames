@@ -8,7 +8,7 @@ acceptance criteria in plain language.
 The rules come from a simple place: I grew up on forums where half the links
 were dead and the other half was malware dressed as an "ISO pack". A catalog
 that links to crap is not a catalog, it is a problem. So the rules exist to
-keep this list useful, safe and honest, in that order.
+keep this list useful, safe and accurate, in that order.
 
 ## Core rules
 

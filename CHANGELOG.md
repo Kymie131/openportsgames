@@ -1,8 +1,7 @@
 # Changelog
 
-Notable changes to OpenPortsGames, written like a logbook rather than a
-release-notes generator. Versioning follows semver; commits use conventional
-prefixes so the history stays greppable, but the words in this file are mine.
+Notable changes to OpenPortsGames. Versioning follows semver; commits use
+conventional prefixes.
 
 ## [Unreleased]
 
@@ -55,7 +54,7 @@ prefixes so the history stays greppable, but the words in this file are mine.
 - Vitest warning about ESM syntax in a CommonJS-loaded config file.
 - Catalog search: a query matching nothing returned the full catalog; the
   empty state is now shown. Free-text queries are capped at 200 characters
-  (guards MiniSearch against pathological tokens) and the search input enforces
+  (protects the MiniSearch index) and the search input enforces
   the same limit.
 - OpenXcom source link now points at the canonical repository
   (`OpenXcom/OpenXcom`) instead of the redirecting account.

@@ -16,8 +16,7 @@ describes both, and the ground rules that keep the catalog worth trusting.
   makes it distinct. Under 220 characters. No marketing language — "amazing",
   "revolutionary" is what we do not do here.
 - Never invent data. If you cannot verify a fact, leave `verified: false` and
-  note it in `docs/PENDING_VERIFICATION.md`. An honest blank beats a confident
-  guess.
+  note it in `docs/PENDING_VERIFICATION.md`. A blank is better than a guess.
 
 ## Workflow
 
