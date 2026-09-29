@@ -79,4 +79,8 @@ export const originalSystemById: Record<Port["id"], string> = {
   "ogre-battle-64-recomp": "Nintendo 64",
   "quest-64-recomp": "Nintendo 64",
   "dinosaur-planet-recomp": "Nintendo 64",
+  "bomberman-64-recomp": "Nintendo 64",
+  "bomberman-hero-recomp": "Nintendo 64",
+  "beetle-adventure-racing-recomp": "Nintendo 64",
+  "chocolate-doom": "MS-DOS",
 };

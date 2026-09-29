@@ -77,6 +77,10 @@ import { megaManXSnesRecomp } from "./mega-man-x-snes-recomp";
 import { ogreBattle64Recomp } from "./ogre-battle-64-recomp";
 import { quest64Recomp } from "./quest-64-recomp";
 import { dinosaurPlanetRecomp } from "./dinosaur-planet-recomp";
+import { bomberman64Recomp } from "./bomberman-64-recomp";
+import { bombermanHeroRecomp } from "./bomberman-hero-recomp";
+import { beetleAdventureRacingRecomp } from "./beetle-adventure-racing-recomp";
+import { chocolateDoom } from "./chocolate-doom";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -157,4 +161,8 @@ export const portCases: Port[] = [
   ogreBattle64Recomp,
   quest64Recomp,
   dinosaurPlanetRecomp,
+  bomberman64Recomp,
+  bombermanHeroRecomp,
+  beetleAdventureRacingRecomp,
+  chocolateDoom,
 ];
