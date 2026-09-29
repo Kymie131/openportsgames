@@ -25,6 +25,7 @@ sin rastreadores. Una carpeta de archivos. No hay servidor que apagar.
 
 - Interfaz EN/ES · temas claro y oscuro · orientado a WCAG
 - [Roadmap](docs/ROADMAP.md) · [Diseño](docs/DESIGN.md)
+"Yo decido qué entra al catálogo y verifico cada ficha contra el repositorio o la documentación oficial del proyecto. El código del sitio se desarrolló con asistencia de IA generativa (Claude Code), bajo mi dirección y revisión."
 
 ## Stack técnico
 

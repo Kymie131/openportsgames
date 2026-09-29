@@ -24,6 +24,7 @@ folder of files. It cannot be switched off.
 
 - EN/ES interface · dark & light themes · WCAG-minded
 - [Roadmap](docs/ROADMAP.md) · [Design](docs/DESIGN.md)
+"I decide what goes in the catalog and I verify every entry against the project's official repository or documentation. The site's code was developed with generative AI assistance (Claude Code) under my direction and review."
 
 ## Tech stack
 
