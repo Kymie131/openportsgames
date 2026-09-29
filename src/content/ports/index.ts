@@ -61,6 +61,12 @@ import { corsixth } from "./corsixth";
 import { raze } from "./raze";
 import { arxLibertatis } from "./arx-libertatis";
 import { openDune } from "./opendune";
+import { banjoKazooieRecomp } from "./banjo-kazooie-recomp";
+import { castlevaniaLodRecomp } from "./castlevania-lod-recomp";
+import { pokemonStadiumRecomp } from "./pokemon-stadium-recomp";
+import { pilotwings64Recomp } from "./pilotwings-64-recomp";
+import { alephOne } from "./aleph-one";
+import { freedroidClassic } from "./freedroid-classic";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -125,4 +131,10 @@ export const portCases: Port[] = [
   raze,
   arxLibertatis,
   openDune,
+  banjoKazooieRecomp,
+  castlevaniaLodRecomp,
+  pokemonStadiumRecomp,
+  pilotwings64Recomp,
+  alephOne,
+  freedroidClassic,
 ];

@@ -63,4 +63,10 @@ export const originalSystemById: Record<Port["id"], string> = {
   raze: "MS-DOS",
   "arx-libertatis": "Microsoft Windows",
   opendune: "MS-DOS",
+  "banjo-kazooie-recomp": "Nintendo 64",
+  "castlevania-lod-recomp": "Nintendo 64",
+  "pokemon-stadium-recomp": "Nintendo 64",
+  "pilotwings-64-recomp": "Nintendo 64",
+  "aleph-one": "Xbox",
+  "freedroid-classic": "Commodore 64",
 };
