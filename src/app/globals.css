@@ -2,16 +2,7 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-/*
- * Design tokens. The identity is CRT/terminal: warm near-black neutrals
- * (with only a whisper of green in the blacks), a *dimmed* phosphor green
- * as the accent pulse, and amber and teal as quiet secondaries that surface
- * across the catalog (versions, stars, icons). The theme is applied as a
- * class on <html> (.dark or .light) by the theme script in the layout head,
- * so there is no flash of unthemed content. Body text stays neutral — the
- * green is reserved for accents, links and badges, never for paragraphs.
- * Values, ratios and the rationale live in docs/DESIGN.md.
- */
+/* Design tokens. See docs/DESIGN.md. */
 
 :root {
   --background: #0b0d0b;

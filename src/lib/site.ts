@@ -1,8 +1,4 @@
-/**
- * Public, server-independent site constants and URL helpers.
- * Kept separate so the data layer and the components never read
- * process.env directly.
- */
+/** Public site constants and URL helpers. */
 
 export const SITE_NAME = "OpenPortsGames";
 

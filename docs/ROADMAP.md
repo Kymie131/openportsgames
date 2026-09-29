@@ -1,13 +1,11 @@
 # Roadmap
 
-This used to be a phase-by-phase checklist, and the checklist is done. Every
-phase below shipped as part of the v1 release, so this file is now two
-things: a record of how the site came together, and a short list of ideas
-that are still on the shelf. It is honest about both.
+The phase checklist is done: every phase below shipped in v1. This file
+records how the site came together and lists ideas still pending.
 
 ## What shipped
 
-The project was built in seven passes, each one a reviewable chunk of work.
+The project was built in seven stages.
 
 - **Base**: Next.js static export, the Tailwind design system (dark-first,
   light variant), theming without flash, custom client-side EN/ES i18n, and
@@ -43,5 +41,4 @@ The project was built in seven passes, each one a reviewable chunk of work.
 - More hardware profiles so the testing section can represent machines other
   than my two.
 
-The order is not sacred. The one standing priority is the same since day one:
-keep the data honest and the links official. Everything else can wait.
+Standing priority: keep the data accurate and the links official.
