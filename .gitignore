@@ -41,6 +41,11 @@ yarn-error.log*
 
 # local dev/editor files
 
+# markdown instruction files auto-written by `next dev` under some runtimes.
+# Intentionally excluded from the repository.
+/AG*.md
+/CLA*.md
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
