@@ -97,10 +97,16 @@ export function PortDetail({
       {port.screenshots && port.screenshots.length > 0 ? (
         <PortGallery screenshots={port.screenshots} originalSystem={originalSystem} />
       ) : (
-        <figure className="relative flex aspect-video items-center justify-center overflow-hidden rounded-lg border border-border bg-surface-2">
-          <span className="text-6xl font-semibold tracking-tight text-muted" aria-hidden="true">
-            {port.game.charAt(0)}
-          </span>
+        <figure className="relative flex aspect-video items-center justify-center overflow-hidden rounded-lg border border-border bg-gradient-to-br from-surface-2 to-surface">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,color-mix(in_srgb,var(--accent)_12%,transparent)_0%,transparent_65%)]" />
+          <div className="relative z-10 flex flex-col items-center gap-2">
+            <span className="text-7xl font-bold tracking-tight text-foreground/30 font-mono" aria-hidden="true">
+              {port.game.charAt(0)}
+            </span>
+            <span className="text-sm font-mono text-muted tracking-wider uppercase">
+              {originalSystem}
+            </span>
+          </div>
           <ConsoleBadge system={originalSystem} />
         </figure>
       )}

@@ -150,7 +150,7 @@ alpha, behind every opaque surface, so they never sit under text.
 - **Multi-select semantics**: every section is a multi-select. Values inside a
   section are OR-ed, sections are AND-ed, and the state is arrays in
   `CatalogState`. Sections: platform, original system, technique, status plus
-  verification, genre, source, features, AI disclosure, test status.
+  verification, genre, source, features, test status.
 - **Scope**: on `/pc` the platform section offers only PC platforms; on
   `/android` it is hidden. Filters are never masked by the scope, a selected
   platform outside the view simply intersects.

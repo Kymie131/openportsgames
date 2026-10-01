@@ -59,10 +59,10 @@ export function HomeContent({
             </p>
           </div>
           <div className="flex flex-col gap-3 pt-1 sm:flex-row sm:items-center">
-            <Button asChild variant="secondary" size="lg">
+            <Button asChild size="lg">
               <Link href="/ports">{t.home.browseCatalog}</Link>
             </Button>
-            <Button asChild size="lg">
+            <Button asChild variant="secondary" size="lg">
               <a
                 href={SUPPORT_PAYPAL_URL || "/support"}
                 target={SUPPORT_PAYPAL_URL ? "_blank" : undefined}

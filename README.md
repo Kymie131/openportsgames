@@ -111,6 +111,3 @@ port, reporting a test, reporting wrong data and requesting a takedown
 Not affiliated with any video game company. Game trademarks belong to their
 owners and are used only to identify the projects.
 
-## AI disclosure
-
-I decide what goes in the catalog and I verify every entry against the project's official repository or documentation. The site's code was developed with generative AI assistance (Claude Code) under my direction and review.

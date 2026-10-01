@@ -333,7 +333,6 @@ const en = {
     team: [
       "The catalog was started and is maintained by Kymie131, together with YaelMora2614 and Ramiro Hernandez. Participation is public: tests, proposals and fixes all flow through this repository.",
     ],
-    aiDisclosure: "I decide what goes in the catalog and I verify every entry against the project's official repository or documentation. The site's code was developed with generative AI assistance (Claude Code) under my direction and review.",
     creditsTitle: "Credits",
     credits: [
       { name: "Kymie131", role: "Creator and maintainer" },
@@ -712,7 +711,6 @@ const es: Messages = {
     team: [
       "El catálogo lo inició y mantiene Kymie131, junto con YaelMora2614 y Ramiro Hernandez. La participación es pública: pruebas, propuestas y correcciones pasan todas por este repositorio.",
     ],
-    aiDisclosure: "Yo decido qué entra al catálogo y verifico cada ficha contra el repositorio o la documentación oficial del proyecto. El código del sitio se desarrolló con asistencia de IA generativa (Claude Code), bajo mi dirección y revisión.",
     creditsTitle: "Créditos",
     credits: [
       { name: "Kymie131", role: "Creador y mantenedor" },

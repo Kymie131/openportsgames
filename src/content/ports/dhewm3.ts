@@ -19,6 +19,13 @@ export const dhewm3: Port = {
   license: { spdx: "GPL-3.0" },
   verified: true,
   verifiedAt: "2026-09-25",
+  screenshots: [
+    {
+      src: "https://dhewm3.org/dhewm3-1.jpg",
+      alt: "Doom 3 rendered in high resolution with widescreen support in dhewm3",
+      credit: "dhewm3 project",
+    },
+  ],
   notes:
     "Source port of Doom 3 that keeps the original gameplay with bugfixes, widescreen support, 64-bit builds, EFX sound, mod-independent settings and gamepad support. Requires the original game data.",
 };

@@ -22,6 +22,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
+  referrer: "strict-origin-when-cross-origin",
   title: {
     default: SITE_NAME,
     template: `%s | ${SITE_NAME}`,

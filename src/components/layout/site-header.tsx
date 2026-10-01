@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import * as Dialog from "@radix-ui/react-dialog";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
-import { ChevronDown, Menu, X } from "lucide-react";
+import { ChevronDown, Menu, Search, X } from "lucide-react";
 import { useT } from "@/lib/i18n/use-i18n";
 import { SITE_NAME } from "@/lib/site";
 import { assetPath, cn } from "@/lib/utils";
@@ -129,6 +129,17 @@ export function SiteHeader() {
         </div>
 
         <div className="flex shrink-0 items-center gap-2">
+          <Link
+            href="/ports"
+            className="flex items-center gap-1.5 rounded-md border border-border bg-surface px-2.5 py-1 text-xs text-muted transition-colors hover:border-accent-hover hover:text-foreground md:px-3 md:py-1.5"
+            aria-label={t.catalog.searchPlaceholder}
+          >
+            <Search className="size-3.5 text-muted" aria-hidden="true" />
+            <span className="hidden sm:inline">{t.catalog.searchPlaceholder}</span>
+            <kbd className="hidden rounded bg-surface-2 px-1.5 py-0.5 font-mono text-[10px] text-muted lg:inline-block">
+              /
+            </kbd>
+          </Link>
           <LanguageSwitcher />
           <ThemeToggle />
           {SUPPORT_PAYPAL_URL && (

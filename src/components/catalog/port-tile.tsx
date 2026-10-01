@@ -63,30 +63,31 @@ export function PortTile({
       ) : (
         <Link
           href={`/ports/${port.id}`}
-          className="flex h-14 items-center justify-center gap-2 rounded-md border border-border bg-surface-2 transition-colors duration-150 hover:border-accent-hover"
+          className="relative flex aspect-video items-center justify-center overflow-hidden rounded-md border border-border bg-gradient-to-br from-surface-2 to-surface transition-colors duration-150 hover:border-accent-hover"
           aria-label={port.title}
         >
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,color-mix(in_srgb,var(--accent)_8%,transparent)_0%,transparent_70%)]" />
           {consoleLogo ? (
             // eslint-disable-next-line @next/next/no-img-element
             <img
               src={consoleLogo}
-              alt={system}
-              className="h-10 max-w-[70%] rounded-md bg-white/90 p-1.5 object-contain"
+              alt={system ?? ""}
+              className="relative z-10 max-h-11 max-w-[70%] rounded-md bg-white/95 px-3 py-1.5 shadow-xs object-contain"
               loading="lazy"
             />
           ) : (
-            <>
+            <div className="relative z-10 flex flex-col items-center justify-center gap-1">
               {system && (
                 <SystemMark
                   system={system}
                   glyphClassName="size-6"
-                  labelClassName="text-sm font-semibold tracking-tight text-muted"
+                  labelClassName="text-xs font-mono font-medium tracking-wider text-muted uppercase"
                 />
               )}
-              <span className="text-2xl font-semibold tracking-tight text-muted" aria-hidden="true">
+              <span className="text-3xl font-bold tracking-tight text-foreground/35 font-mono" aria-hidden="true">
                 {port.game.charAt(0)}
               </span>
-            </>
+            </div>
           )}
         </Link>
       )}
@@ -127,7 +128,7 @@ export function PortTile({
       )}
 
       <div className="border-t border-border pt-3 text-sm">
-        <Link
+        <a
           href={source}
           target="_blank"
           rel="noopener noreferrer"
@@ -140,7 +141,7 @@ export function PortTile({
           ) : (
             <ExternalLink className="size-3.5" aria-hidden="true" />
           )}
-        </Link>
+        </a>
       </div>
     </article>
   );
@@ -162,7 +163,7 @@ export function PortTileSkeleton({
         className,
       )}
     >
-      <div className="h-14 animate-pulse rounded-md bg-surface-2" aria-hidden="true" />
+      <div className="aspect-video animate-pulse rounded-md bg-surface-2" aria-hidden="true" />
       <div className="flex flex-1 flex-col gap-2" aria-hidden="true">
         <div className="h-4 w-3/4 animate-pulse rounded bg-surface-2" />
         <div className="h-4 w-1/2 animate-pulse rounded bg-surface-2" />
