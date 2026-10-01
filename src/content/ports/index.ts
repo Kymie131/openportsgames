@@ -88,6 +88,20 @@ import { bomberman64Recomp } from "./bomberman-64-recomp";
 import { bombermanHeroRecomp } from "./bomberman-hero-recomp";
 import { beetleAdventureRacingRecomp } from "./beetle-adventure-racing-recomp";
 import { chocolateDoom } from "./chocolate-doom";
+import { openGoal } from "./open-goal";
+import { redriver2 } from "./redriver2";
+import { wipeoutPhantomEdition } from "./wipeout-phantom-edition";
+import { rsdkv3Decompilation } from "./rsdkv3-decompilation";
+import { keeperFx } from "./keeperfx";
+import { ecWolf } from "./ecwolf";
+import { perfectDarkPort } from "./perfect-dark-port";
+import { lcsRecomp } from "./lcs-recomp";
+import { pspRecomp } from "./psprecomp";
+import { namcoSystem22PropCycle } from "./namco-system-22-prop-cycle";
+import { namcoSystem22RaveRacer } from "./namco-system-22-rave-racer";
+import { namcoSystem22TokyoWars } from "./namco-system-22-tokyo-wars";
+import { namcoSystem22DirtDash } from "./namco-system-22-dirt-dash";
+import { reLcs } from "./re-lcs";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -179,4 +193,18 @@ export const portCases: Port[] = [
   opensage,
   openage,
   d1xRebirth,
+  openGoal,
+  redriver2,
+  wipeoutPhantomEdition,
+  rsdkv3Decompilation,
+  keeperFx,
+  ecWolf,
+  perfectDarkPort,
+  lcsRecomp,
+  pspRecomp,
+  namcoSystem22PropCycle,
+  namcoSystem22RaveRacer,
+  namcoSystem22TokyoWars,
+  namcoSystem22DirtDash,
+  reLcs,
 ];

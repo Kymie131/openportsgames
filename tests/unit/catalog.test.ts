@@ -147,11 +147,11 @@ describe("applyCatalog", () => {
 
   it("filters by open source flag", () => {
     const open = applyCatalog(ports, index, state({ source: ["open"] }));
-    expect(open.results.length).toBe(ports.length);
     const closed = applyCatalog(ports, index, state({ source: ["closed"] }));
-    expect(closed.results.length).toBe(0);
+    expect(open.results.length).toBe(ports.filter((port) => port.openSource).length);
+    expect(closed.results.length).toBe(ports.filter((port) => !port.openSource).length);
+    expect(open.results.length + closed.results.length).toBe(ports.length);
   });
-
 
   it("filters by latest test result using per-port test results", () => {
     const testResults: Record<string, "pass" | "fail"> = { dusklight: "pass" };
