@@ -119,9 +119,8 @@ alpha, behind every opaque surface, so they never sit under text.
 
 ## Catalog grid and cards (`catalog/`)
 
-- **Grid**: 1 to 4 columns (`grid-cols-1 sm:grid-cols-2 lg:grid-cols-3
-  xl:grid-cols-4`), 4 as the hard maximum so cards stay legible. `gap-4`, with
-  cards stretched to a consistent per-row height.
+- **Grid**: 1 to 4 columns, 4 as the hard maximum so cards stay legible, with
+  `gap-4` and cards stretched to a consistent per-row height.
 - **Card anatomy**: fixed-artwork strip (`h-14`), then the game name as the
   primary two-line-clamped title, the port title smaller beneath it, and
   platform glyphs, status and version as the tertiary row, with the official

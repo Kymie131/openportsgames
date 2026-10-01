@@ -16,12 +16,12 @@ or a source that is not the project's own). Only the reverse is forbidden:
 `tests/content/ports.test.ts` enforces the following, so the data cannot drift
 into a half-verified state:
 
-| Condition                             | Requirement                                |
-| ------------------------------------- | ------------------------------------------ |
-| `verified: true`                      | `release.version` and `verifiedAt` present  |
-| `verified: false`                     | `verifiedAt` absent                        |
-| `release.version: null`               | `release.date: null` and `verified: false` |
-| `release.version` present             | `release.date` is a valid ISO date         |
+| Condition                 | Requirement                                |
+| ------------------------- | ------------------------------------------ |
+| `verified: true`          | `release.version` and `verifiedAt` present |
+| `verified: false`         | `verifiedAt` absent                        |
+| `release.version: null`   | `release.date: null` and `verified: false` |
+| `release.version` present | `release.date` is a valid ISO date         |
 
 Release dates are additionally checked to never be in the future.
 
