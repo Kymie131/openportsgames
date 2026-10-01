@@ -25,7 +25,6 @@ sin rastreadores. Una carpeta de archivos. No hay servidor que apagar.
 
 - Interfaz EN/ES · temas claro y oscuro · orientado a WCAG
 - [Roadmap](docs/ROADMAP.md) · [Diseño](docs/DESIGN.md)
-"Yo decido qué entra al catálogo y verifico cada ficha contra el repositorio o la documentación oficial del proyecto. El código del sitio se desarrolló con asistencia de IA generativa (Claude Code), bajo mi dirección y revisión."
 
 ## Stack técnico
 
@@ -114,3 +113,7 @@ una retirada (la página **Submit** enlaza a ellas).
 
 Sin afiliación con ninguna compañía de videojuegos. Las marcas de los juegos
 pertenecen a sus propietarios y se usan solo para identificar los proyectos.
+
+## Divulgación de IA
+
+Yo decido qué entra al catálogo y verifico cada ficha contra el repositorio o la documentación oficial del proyecto. El código del sitio se desarrolló con asistencia de IA generativa (Claude Code), bajo mi dirección y revisión.
