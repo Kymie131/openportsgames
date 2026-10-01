@@ -122,6 +122,16 @@ export function CatalogClient({
     [ports, index, state, scope, originalSystems, testResults, stars],
   );
 
+  // Sync draft when the URL query changes externally (navigation, back/forward).
+  // useState alone freezes the first-render value, so client-side navigation can
+  // start with a stale query that filters the list to a single port.
+  const syncedQuery = useRef(state.query);
+  useEffect(() => {
+    if (syncedQuery.current === state.query) return;
+    syncedQuery.current = state.query;
+    setDraft(state.query);
+  }, [state.query]);
+
   const scopePlatforms = SCOPED_PLATFORMS[scope];
 
   const commit = (next: CatalogState) => {

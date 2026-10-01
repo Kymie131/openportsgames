@@ -148,4 +148,7 @@ export const originalSystemById: Record<Port["id"], string> = {
   "reone-kotor": "Microsoft Windows",
   "sonic-3-air": "Sega Mega Drive / Genesis",
   "smw-rev": "Super Nintendo",
+  "bt3-recomp": "PlayStation 2",
+  "donut": "Microsoft Windows",
+  "dragon-ball-z-legacy-of-goku-recomp": "Game Boy Advance",
 };

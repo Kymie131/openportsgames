@@ -146,6 +146,9 @@ import { smwRev } from "./smw-rev";
 import { zelda64Recomp } from "./zelda64-recomp";
 import { theSimpsonsGameRecomp } from "./the-simpsons-game-recomp";
 import { openRw } from "./open-rw";
+import { bt3Recomp } from "./bt3-recomp";
+import { donut } from "./donut";
+import { dragonBallZLegacyOfGokuRecomp } from "./dragon-ball-z-legacy-of-goku-recomp";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -291,6 +294,9 @@ export const portCases: Port[] = [
   reOne,
   sonic3Air,
   smwRev,
+  bt3Recomp,
+  donut,
+  dragonBallZLegacyOfGokuRecomp,
   reLcs,
   zelda64Recomp,
   theSimpsonsGameRecomp,
