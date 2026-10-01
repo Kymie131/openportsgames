@@ -6,7 +6,7 @@ A curated, non-profit catalog of **native game ports**: decompilations,
 recompilations and engine reimplementations that bring classic games to PC
 and Android. Every entry points only to the project's official source:
 repository, releases, website or documentation. **Nothing is hosted or linked
-as a downloadable file** — ever.
+as a downloadable file** - ever.
 
 Why does that rule exist? Because a lot of us learned, the slow way, that an
 "ISO pack" link in a forum is how you get malware, and that a link to an

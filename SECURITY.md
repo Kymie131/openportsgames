@@ -3,7 +3,7 @@
 ## Reporting a vulnerability
 
 OpenPortsGames is a static site with no backend and no cookies, which keeps
-the attack surface small — but "small" is not "nothing", and I'd rather hear
+the attack surface small - but "small" is not "nothing", and I'd rather hear
 about a bug than read about it later. If you find a security issue, do not
 open a public issue. Report it privately:
 

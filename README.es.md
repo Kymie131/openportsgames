@@ -6,7 +6,7 @@ Un catálogo curado y sin fines de lucro de **ports nativos de videojuegos**:
 decompilaciones, recompilaciones y reimplementaciones de motor que traen
 juegos clásicos a PC y Android. Cada ficha apunta solo a la fuente oficial
 del proyecto: repositorio, releases, sitio web o documentación. **Nada se
-aloja ni se enlaza como archivo descargable** — nunca.
+aloja ni se enlaza como archivo descargable** - nunca.
 
 ¿Por qué existe esa regla? Porque muchos aprendimos, a la mala, que un "pack
 de ISOs" de un foro es un buen vehículo para malware, y que un enlace a un

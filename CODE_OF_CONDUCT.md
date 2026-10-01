@@ -2,7 +2,7 @@
 
 Short version: be the kind of person you'd want on your own forum thread.
 
-OpenPortsGames is a catalog built for a hobby that runs on collaboration —
+OpenPortsGames is a catalog built for a hobby that runs on collaboration -
 decompilations, recompilations and reimplementations only exist because
 people shared code, wrote documentation and answered strangers' questions for
 free. That is the culture this project tries to extend to its issue tracker,
@@ -27,7 +27,7 @@ Examples of behavior that contributes to a positive environment:
 
 - Showing empathy toward other people, especially when they are learning
   something you already know.
-- Respecting differing opinions, viewpoints, and experiences — a wrong data
+- Respecting differing opinions, viewpoints, and experiences - a wrong data
   point is a bug to fix, not a person to mock.
 - Giving and gracefully accepting constructive feedback.
 - Taking responsibility and apologizing to those affected by mistakes.
