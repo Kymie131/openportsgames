@@ -26,6 +26,5 @@ export const ogreBattle64Recomp: Port = {
     minimum:
       "Direct3D 12 with Shader Model 6.0 on Windows, or Vulkan 1.2 (Vulkan on other systems)",
   },
-  notes:
-    "Recompilation of Ogre Battle 64; the player supplies their own legally obtained game.",
+  notes: "Recompilation of Ogre Battle 64; the player supplies their own legally obtained game.",
 };

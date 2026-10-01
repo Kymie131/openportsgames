@@ -24,8 +24,7 @@ export const banjoKazooieRecomp: Port = {
     "Native Linux binary and Flatpak with documented Steam Deck support",
   ],
   requirements: {
-    minimum:
-      "Windows, Linux or macOS 13.0+ on Apple Silicon or a 7th generation Intel CPU",
+    minimum: "Windows, Linux or macOS 13.0+ on Apple Silicon or a 7th generation Intel CPU",
   },
   notes:
     "Native recompilation of Banjo-Kazooie produced with N64Recomp. The player loads their own legally obtained N64 ROM; the port recompiles the game code instead of emulating it.",

@@ -18,11 +18,6 @@ export const harvestMoon64Recomp: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   originalSystem: "Nintendo 64",
-  features: [
-    "Widescreen and ultrawide support",
-    "Mod support",
-    "Windows, Linux and macOS builds",
-  ],
-  notes:
-    "Recompilation of Harvest Moon 64; the player supplies their own legally obtained game.",
+  features: ["Widescreen and ultrawide support", "Mod support", "Windows, Linux and macOS builds"],
+  notes: "Recompilation of Harvest Moon 64; the player supplies their own legally obtained game.",
 };
