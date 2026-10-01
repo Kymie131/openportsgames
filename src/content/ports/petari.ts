@@ -21,11 +21,4 @@ export const petari: Port = {
   originalSystem: "Wii",
   notes:
     "Ongoing decompilation of Super Mario Galaxy (Wii). No tagged releases yet; builds track the repository and still require assets from the original game.",
-  screenshots: [
-    {
-      src: "https://decomp.dev/SMGCommunity/Petari.svg?w=512&h=256",
-      alt: "A visual",
-      credit: "SMGCommunity",
-    },
-  ],
 };

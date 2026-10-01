@@ -28,16 +28,6 @@ export const openEnroth: Port = {
     "Cross-platform engine covering several Might and Magic installments. The single GitHub release is a prerelease, so no stable version is recorded.",
   screenshots: [
     {
-      src: "https://github.com/OpenEnroth/OpenEnroth/actions/workflows/build_release.yml/badge.svg",
-      alt: "Build",
-      credit: "OpenEnroth",
-    },
-    {
-      src: "https://github.com/OpenEnroth/OpenEnroth/actions/workflows/lint.yml/badge.svg",
-      alt: "Lint",
-      credit: "OpenEnroth",
-    },
-    {
       src: "https://user-images.githubusercontent.com/24377109/79051217-491a7800-7c2f-11ea-85c7-f9120b7d79dd.png",
       alt: "screenshot_main",
       credit: "OpenEnroth",

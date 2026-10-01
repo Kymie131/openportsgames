@@ -33,15 +33,5 @@ export const odamexPort: Port = {
       alt: "Odamex",
       credit: "odamex",
     },
-    {
-      src: "https://flathub.org/api/badge?locale=en&light",
-      alt: "Download on Flathub",
-      credit: "odamex",
-    },
-    {
-      src: "https://github.com/odamex/odamex/actions/workflows/windows.yml/badge.svg",
-      alt: "Windows",
-      credit: "odamex",
-    },
   ],
 };

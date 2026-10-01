@@ -25,16 +25,6 @@ export const shockolate: Port = {
     "Reimplementation of the System Shock engine. The last tagged release is 0.7.7; tags from 0.8.0 onward are marked as prereleases.",
   screenshots: [
     {
-      src: "https://travis-ci.org/Interrupt/systemshock.svg?branch=master",
-      alt: "Build Status TravisCI",
-      credit: "Interrupt",
-    },
-    {
-      src: "https://ci.appveyor.com/api/projects/status/5fmcswq8n7ni0o9j/branch/master?svg=true",
-      alt: "Build Status AppVeyor",
-      credit: "Interrupt",
-    },
-    {
       src: "https://i.imgur.com/kbVWQj4.gif",
       alt: "work so far",
       credit: "Interrupt",

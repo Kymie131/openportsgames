@@ -29,11 +29,6 @@ export const rbDoom3Bfg: Port = {
   notes: "Open source reimplementation of the id Tech 4 engine used by Doom 3 BFG Edition.",
   screenshots: [
     {
-      src: "https://button.moddb.com/popularity/medium/mods/49231.png",
-      alt: "RBDOOM-3-BFG",
-      credit: "RobertBeckebans",
-    },
-    {
       src: "https://i.imgur.com/nSWBSUB.png",
       alt: "RobertBeckebans screenshot",
       credit: "RobertBeckebans",

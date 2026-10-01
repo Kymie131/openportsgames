@@ -32,10 +32,5 @@ export const woofPort: Port = {
       alt: "Woof! Icon",
       credit: "fabiangreffrath",
     },
-    {
-      src: "https://github.com/fabiangreffrath/woof/actions/workflows/build.yml/badge.svg",
-      alt: "Build Status",
-      credit: "fabiangreffrath",
-    },
   ],
 };

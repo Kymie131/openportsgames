@@ -26,11 +26,4 @@ export const pokemonSnapRecomp: Port = {
   ],
   notes:
     "Static recompilation of Pokémon Snap; the player supplies their own legally obtained game.",
-  screenshots: [
-    {
-      src: "https://github.com/JackandBeans/Snap64Recomp/actions/workflows/build.yml/badge.svg?branch=main",
-      alt: "Build",
-      credit: "JackandBeans",
-    },
-  ],
 };

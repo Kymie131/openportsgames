@@ -39,21 +39,4 @@ export const fh2: Port = {
       "Inicia el juego; fheroes2 lee los recursos originales y añade renderizado e interfaz modernos.",
     ],
   },
-  screenshots: [
-    {
-      src: "https://github.com/ihhub/fheroes2/actions/workflows/push.yml/badge.svg",
-      alt: "Build Status",
-      credit: "ihhub",
-    },
-    {
-      src: "https://sonarcloud.io/api/project_badges/measure?project=ihhub_fheroes2&metric=bugs",
-      alt: "Bugs",
-      credit: "ihhub",
-    },
-    {
-      src: "https://sonarcloud.io/api/project_badges/measure?project=ihhub_fheroes2&metric=code_smells",
-      alt: "Code Smells",
-      credit: "ihhub",
-    },
-  ],
 };

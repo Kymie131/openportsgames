@@ -21,11 +21,4 @@ export const reOne: Port = {
   originalSystem: "Microsoft Windows",
   notes:
     "Engine reimplementation for Knights of the Old Republic. No tagged releases are published.",
-  screenshots: [
-    {
-      src: "https://github.com/seedhartha/reone/actions/workflows/build-test-linux.yml/badge.svg",
-      alt: "Build Status",
-      credit: "seedhartha",
-    },
-  ],
 };

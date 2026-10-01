@@ -27,11 +27,4 @@ export const alephOne: Port = {
   ],
   notes:
     "Open source continuation of Bungie's Marathon 2 engine, played with the original game data. Upstream tags releases by date instead of semantic versioning, so the version mirrors the 20250829 build.",
-  screenshots: [
-    {
-      src: "https://github.com/Aleph-One-Marathon/alephone/actions/workflows/ci-build.yml/badge.svg",
-      alt: "Build Status",
-      credit: "Aleph-One-Marathon",
-    },
-  ],
 };

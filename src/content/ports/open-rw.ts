@@ -21,21 +21,4 @@ export const openRw: Port = {
   originalSystem: "Microsoft Windows",
   notes:
     "Unofficial open source recreation of the original game executable. No tagged releases are published, so builds track the repository. A legitimate PC copy of Grand Theft Auto III is required to play.",
-  screenshots: [
-    {
-      src: "https://raster.shields.io/badge/libera.chat-%23openrw-blue",
-      alt: "IRC libera.chat #openrw",
-      credit: "rwengine",
-    },
-    {
-      src: "https://ci.appveyor.com/api/projects/status/k33qf9ssrja6ckx8/branch/main?svg=true",
-      alt: "Build status",
-      credit: "rwengine",
-    },
-    {
-      src: "https://github.com/rwengine/openrw/actions/workflows/build-and-test.yml/badge.svg",
-      alt: "Build Status",
-      credit: "rwengine",
-    },
-  ],
 };

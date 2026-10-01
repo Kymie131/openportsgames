@@ -26,11 +26,6 @@ export const doukutsuRs: Port = {
     "Unofficial open source port of Cave Story. The original freeware game data is required and is not distributed with the repository.",
   screenshots: [
     {
-      src: "https://github.com/doukutsu-rs/doukutsu-rs/actions/workflows/ci.yml/badge.svg?branch=master",
-      alt: "CI",
-      credit: "doukutsu-rs",
-    },
-    {
       src: "https://i.imgur.com/3dJ7WMB.png",
       alt: "example root directory with doukutsu-rs and vanilla Cave Story",
       credit: "doukutsu-rs",

@@ -26,21 +26,4 @@ export const etLegacy: Port = {
   ],
   notes:
     "Community continuation of the open source Wolfenstein: Enemy Territory codebase. No tagged releases are published.",
-  screenshots: [
-    {
-      src: "https://github.com/etlegacy/etlegacy/actions/workflows/ci.yml/badge.svg?branch=master",
-      alt: "CI",
-      credit: "etlegacy",
-    },
-    {
-      src: "https://github.com/etlegacy/etlegacy/actions/workflows/build.yml/badge.svg?branch=master",
-      alt: "ETLBuild",
-      credit: "etlegacy",
-    },
-    {
-      src: "https://snapcraft.io/etlegacy/badge.svg",
-      alt: "etlegacy",
-      credit: "etlegacy",
-    },
-  ],
 };

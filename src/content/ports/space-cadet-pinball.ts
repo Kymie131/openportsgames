@@ -25,11 +25,4 @@ export const spaceCadetPinball: Port = {
   ],
   notes:
     "Open source recreation of the Windows 95 Space Cadet pinball game, released under CC0 by Microsoft.",
-  screenshots: [
-    {
-      src: "https://repology.org/badge/tiny-repos/spacecadetpinball.svg",
-      alt: "Packaging status",
-      credit: "k4zmu2a",
-    },
-  ],
 };

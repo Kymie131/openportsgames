@@ -21,11 +21,4 @@ export const islePortable: Port = {
   features: ["Cross-platform desktop builds", "Android build", "SDL2 backends"],
   notes:
     "Source-based reimplementation of LEGO Island. The only GitHub release is a rolling continuous build rather than a numbered version.",
-  screenshots: [
-    {
-      src: "https://github.com/isledecomp/isle-portable/actions/workflows/ci.yml/badge.svg",
-      alt: "CI",
-      credit: "isledecomp",
-    },
-  ],
 };

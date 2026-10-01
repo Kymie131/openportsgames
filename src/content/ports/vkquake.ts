@@ -36,21 +36,4 @@ export const vkQuake: Port = {
       "Lanza vkQuake; el renderizador Vulkan ejecuta los datos originales.",
     ],
   },
-  screenshots: [
-    {
-      src: "https://github.com/Novum/vkQuake/actions/workflows/build-windows.yml/badge.svg",
-      alt: "Windows CI",
-      credit: "Novum",
-    },
-    {
-      src: "https://github.com/Novum/vkQuake/actions/workflows/build-mingw.yml/badge.svg",
-      alt: "Windows CI",
-      credit: "Novum",
-    },
-    {
-      src: "https://github.com/Novum/vkQuake/actions/workflows/build-msys2-clangarm64.yml/badge.svg",
-      alt: "Windows CI",
-      credit: "Novum",
-    },
-  ],
 };

@@ -30,16 +30,4 @@ export const waveRace64Recompiled: Port = {
   ],
   notes:
     "Native recompilation of Wave Race 64. The repository openly describes itself as an AI-coded port, which the catalog records as AI-assisted development. Requires the player's own legally obtained Wave Race 64 ROM.",
-  screenshots: [
-    {
-      src: "https://i.ytimg.com/vi/3uaqfG4Wzcg/hqdefault.jpg",
-      alt: "Watch the Wave Race 64 showcase",
-      credit: "elliotttate",
-    },
-    {
-      src: "https://i.ytimg.com/vi/ikUGbLmPbvA/hqdefault.jpg",
-      alt: "Watch the modern water showcase on YouTube",
-      credit: "elliotttate",
-    },
-  ],
 };

@@ -20,21 +20,4 @@ export const julius: Port = {
   verifiedAt: "2026-09-25",
   notes:
     "Open-source re-implementation of Caesar III that runs with the original game files. On top of the stable releases, the project publishes continuous (weekly) builds.",
-  screenshots: [
-    {
-      src: "https://github.com/bvschaik/julius/workflows/Build%20Julius/badge.svg",
-      alt: "Github Actions",
-      credit: "bvschaik",
-    },
-    {
-      src: "https://julius.biancavanschaik.nl/badge/release.svg",
-      alt: "Download release version",
-      credit: "bvschaik",
-    },
-    {
-      src: "https://julius.biancavanschaik.nl/badge/development.svg",
-      alt: "Download development version",
-      credit: "bvschaik",
-    },
-  ],
 };

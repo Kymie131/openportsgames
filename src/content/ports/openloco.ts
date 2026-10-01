@@ -28,11 +28,4 @@ export const openLoco: Port = {
   ],
   notes:
     "Engine reimplementation for Transport Tycoon Deluxe style gameplay. The original game data is required.",
-  screenshots: [
-    {
-      src: "https://github.com/OpenLoco/OpenLoco/workflows/CI/badge.svg",
-      alt: "CI",
-      credit: "OpenLoco",
-    },
-  ],
 };

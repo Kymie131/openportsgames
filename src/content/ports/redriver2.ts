@@ -27,11 +27,4 @@ export const redriver2: Port = {
   ],
   notes:
     "Driver 2 disassembled and translated to C by the OpenDriver2 team. Geometry still runs on Psy-X, which descends from an emulator, so it is not a from-scratch port. Needs the data files from your own PlayStation disc.",
-  screenshots: [
-    {
-      src: "https://ci.appveyor.com/api/projects/status/p3smpt14elwlpcad/branch/master?svg=true",
-      alt: "Build status (Master)",
-      credit: "OpenDriver2",
-    },
-  ],
 };

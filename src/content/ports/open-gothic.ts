@@ -22,11 +22,4 @@ export const openGothic: Port = {
   features: ["Modern renderer with dynamic lighting", "Cross-platform desktop builds"],
   notes:
     "Engine reimplementation for Gothic II. Published GitHub releases are prereleases only, so no stable version is recorded.",
-  screenshots: [
-    {
-      src: "https://img.youtube.com/vi/TpayMkyZ58Y/0.jpg",
-      alt: "Video",
-      credit: "Try",
-    },
-  ],
 };

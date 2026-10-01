@@ -26,4 +26,11 @@ export const bt3Recomp: Port = {
   ],
   notes:
     "PS2Recomp fork targeting the USA SLUS-21678 build. The player supplies their own legally obtained disc image; the repository contains no game content.",
+  screenshots: [
+    {
+      src: "https://github.com/z3xox/BT3-Recomp/raw/main/ps2xRuntime/assets/background.png",
+      alt: "Dragon Ball Z Budokai Tenkaichi 3 recompilation banner",
+      credit: "z3xox",
+    },
+  ],
 };
