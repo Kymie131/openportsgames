@@ -1,44 +1,28 @@
 # Roadmap
 
-The phase checklist is done: every phase below shipped in v1. This file
-records how the site came together and lists ideas still pending.
+A short list. Everything already shipped is in the git history, not here.
 
-## What shipped
+## Priority rule
 
-The project was built in seven stages.
+When there is time for exactly one thing, expand the systems that currently
+have the thinnest coverage in the catalog grid, not the ones that are already
+dense. Check the per-system counts before choosing.
 
-- **Base**: Next.js static export, the Tailwind design system (dark-first,
-  light variant), theming without flash, custom client-side EN/ES i18n, and
-  the header/footer/skip-link page chrome.
-- **Home + stance**: the landing page and the legal/compliance groundwork
-  (the takedown-aware philosophy, written down in `docs/` before any content
-  was added).
-- **Data layer**: zod schemas for ports, platforms, techniques, statuses
-  (including `takedown`), hardware and tests; the initial set of port files;
-  the query registry; the static `/api/ports.json`; content validation in CI;
-  the weekly latest-release checker; and `docs/PENDING_VERIFICATION.md`.
-- **Catalog UI**: `/ports`, `/pc` and `/android` with client-side search,
-  platform/status/state filters, sorting, URL state, typographic tiles and
-  badges.
-- **Detail + testing**: `/ports/[slug]` (overview, about, features,
-  requirements, screenshots, where-to-get, per-test sheets, report link), the
-  `TestBadge` with stale-version dimming, the `/testing` page, and the
-  testing data access.
-- **Editorial**: `/guides`, `/submit`, `/support`, `/about`, `/legal` and a
-  careful 404; GitHub issue templates for port/test proposals; optional
-  PayPal support via env var; a deeper footer.
-- **Polish**: per-page SEO/OG/canonical, `sitemap.xml`, `robots.txt`,
-  structured data, reduced-motion compliance, the versioned catalog API +
-  docs, Playwright smoke tests, Vitest coverage for data and utilities, and
-  the docs set you're reading.
+## Pending
 
-## On the shelf (ideas, not commitments)
+- **Sixth-generation systems** (PS2, Dreamcast). The catalog has few and the home
+  page does not treat them as first-class sections yet. Verify each candidate
+  against its official source first: most decompilations of these systems build
+  a disc image, not a runnable port, so they are not eligible.
+- **More Android coverage per hardware target.** A test asserts at least one
+  Android port per hardware target; several targets still have exactly one.
+- **Console logo artwork.** Systems without real artwork fall back to the
+  textual `SystemMark`. Only transparent PNGs owned by this repo are added; see
+  `src/content/ports/console-logos.ts` and its test.
 
-- A catalog backup strategy that is not just "the repo": offline archives,
-  screenshot archival before links rot.
-- An RSS/JSON feed of catalog changes.
-- Per-locale `alternate` hreflang links once canonical ES URLs exist.
-- More hardware profiles so the testing section can represent machines other
-  than my two.
+## Not planned
 
-Standing priority: keep the data accurate and the links official.
+- Store-ripped application packages, and decompilations that only build a
+  console ROM. See `docs/PENDING_VERIFICATION.md` for the reasoning.
+- Ports of ports: an entry is either an independent implementation or it is
+  listed as a mod, never both.
