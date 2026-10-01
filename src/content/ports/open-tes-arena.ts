@@ -1,0 +1,24 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const openTesaArena: Port = {
+  schema: "port",
+  id: "open-tes-arena",
+  title: "OpenTESArena",
+  game: "The Elder Scrolls: Arena",
+  developers: ["OpenTESArena Team"],
+  publisher: "Bethesda Softworks",
+  originalYear: 1994,
+  genre: "rpg",
+  openSource: true,
+  portType: "source-port",
+  platforms: ["windows", "linux", "macos"],
+  status: "beta",
+  release: { version: "0.18.0", date: "2026-08-13" },
+  sources: ["https://github.com/afritz1/OpenTESArena"],
+  license: { spdx: "MIT" },
+  verified: true,
+  verifiedAt: "2026-10-01",
+  originalSystem: "MS-DOS",
+  features: ["Cross-platform desktop builds", "Modern renderer and input handling"],
+  notes: "Cross-platform engine for The Elder Scrolls: Arena. The original game data is required.",
+};

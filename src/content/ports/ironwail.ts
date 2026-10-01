@@ -1,0 +1,29 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ironwail: Port = {
+  schema: "port",
+  id: "ironwail",
+  title: "IronWail",
+  game: "Quake",
+  developers: ["Andrei Drexler"],
+  publisher: "id Software",
+  originalYear: 1996,
+  genre: "shooter",
+  openSource: true,
+  portType: "source-port",
+  platforms: ["windows", "linux"],
+  status: "stable",
+  release: { version: "0.8.2", date: "2026-08-11" },
+  sources: ["https://github.com/andrei-drexler/ironwail"],
+  license: { spdx: "GPL-2.0" },
+  verified: true,
+  verifiedAt: "2026-10-01",
+  originalSystem: "MS-DOS",
+  features: [
+    "SDL2 backends for video and input",
+    "Quakespasm base with extended limits",
+    "16-bit texture and sprite support",
+  ],
+  notes:
+    "Quake source port built on the Quakespasm codebase. The project requires OpenGL 4.3, so macOS builds are not provided.",
+};

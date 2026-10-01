@@ -1,0 +1,24 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sonic3Air: Port = {
+  schema: "port",
+  id: "sonic-3-air",
+  title: "Sonic 3 Air",
+  game: "Sonic the Hedgehog 3 & Knuckles",
+  developers: ["Eukaryot"],
+  publisher: "Sega",
+  originalYear: 1994,
+  genre: "platformer",
+  openSource: true,
+  portType: "source-port",
+  platforms: ["windows", "linux", "macos", "android"],
+  status: "stable",
+  release: { version: "26.03.28.0", date: "2026-03-28" },
+  sources: ["https://github.com/Eukaryot/sonic3air"],
+  license: { spdx: "GPL-3.0" },
+  verified: true,
+  verifiedAt: "2026-10-01",
+  originalSystem: "Sega Mega Drive / Genesis",
+  features: ["Cross-platform desktop builds", "Android build", "Enhanced modes and level options"],
+  notes: "Enhanced fork of Sonic Retro's engine for Sonic 3 and Sonic & Knuckles.",
+};

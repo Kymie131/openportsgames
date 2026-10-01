@@ -102,6 +102,47 @@ import { namcoSystem22RaveRacer } from "./namco-system-22-rave-racer";
 import { namcoSystem22TokyoWars } from "./namco-system-22-tokyo-wars";
 import { namcoSystem22DirtDash } from "./namco-system-22-dirt-dash";
 import { reLcs } from "./re-lcs";
+import { crispyDoom } from "./crispy-doom";
+import { doomRetro } from "./doomretro";
+import { dsdaDoom } from "./dsda-doom";
+import { eternityEngine } from "./eternity-engine";
+import { odamexPort } from "./odamex";
+import { woofPort } from "./woof";
+import { nuggetDoom } from "./nugget-doom";
+import { doom64ExPlus } from "./doom64-ex-plus";
+import { rbDoom3Bfg } from "./rbdoom-3-bfg";
+import { ironwail } from "./ironwail";
+import { darkPlaces } from "./darkplaces";
+import { quakeSpasm } from "./quakespasm";
+import { etLegacy } from "./etlegacy";
+import { rtcWolfenstein } from "./return-to-castle-wolfenstein";
+import { nBlood } from "./nblood";
+import { rottexpr } from "./rottexpr";
+import { openTyrian } from "./opentyrian";
+import { doukutsuRs } from "./doukutsu-rs";
+import { sdlPoP } from "./sdlpop";
+import { theForceEngine } from "./the-force-engine";
+import { exultPort } from "./exult";
+import { openLoco } from "./openloco";
+import { openEnroth } from "./open-enroth";
+import { openGothic } from "./open-gothic";
+import { openMohaa } from "./openmohaa";
+import { freeSpace2 } from "./freespace-2";
+import { vanillaConquer } from "./vanilla-conquer";
+import { thymePort } from "./thyme";
+import { settlers2 } from "./settlers-2";
+import { ja2Stracciatella } from "./ja2-stracciatella";
+import { islePortable } from "./isle-portable";
+import { trxPort } from "./trx";
+import { wipeoutRewrite } from "./wipeout-rewrite";
+import { librelancer } from "./librelancer";
+import { openTesaArena } from "./open-tes-arena";
+import { spaceCadetPinball } from "./space-cadet-pinball";
+import { wargusPort } from "./wargus";
+import { openFodder } from "./openfodder";
+import { reOne } from "./reone-kotor";
+import { sonic3Air } from "./sonic-3-air";
+import { smwRev } from "./smw-rev";
 import { zelda64Recomp } from "./zelda64-recomp";
 import { theSimpsonsGameRecomp } from "./the-simpsons-game-recomp";
 import { openRw } from "./open-rw";
@@ -209,6 +250,47 @@ export const portCases: Port[] = [
   namcoSystem22RaveRacer,
   namcoSystem22TokyoWars,
   namcoSystem22DirtDash,
+  crispyDoom,
+  doomRetro,
+  dsdaDoom,
+  eternityEngine,
+  odamexPort,
+  woofPort,
+  nuggetDoom,
+  doom64ExPlus,
+  rbDoom3Bfg,
+  ironwail,
+  darkPlaces,
+  quakeSpasm,
+  etLegacy,
+  rtcWolfenstein,
+  nBlood,
+  rottexpr,
+  openTyrian,
+  doukutsuRs,
+  sdlPoP,
+  theForceEngine,
+  exultPort,
+  openLoco,
+  openEnroth,
+  openGothic,
+  openMohaa,
+  freeSpace2,
+  vanillaConquer,
+  thymePort,
+  settlers2,
+  ja2Stracciatella,
+  islePortable,
+  trxPort,
+  wipeoutRewrite,
+  librelancer,
+  openTesaArena,
+  spaceCadetPinball,
+  wargusPort,
+  openFodder,
+  reOne,
+  sonic3Air,
+  smwRev,
   reLcs,
   zelda64Recomp,
   theSimpsonsGameRecomp,
