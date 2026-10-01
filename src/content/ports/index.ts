@@ -102,6 +102,9 @@ import { namcoSystem22RaveRacer } from "./namco-system-22-rave-racer";
 import { namcoSystem22TokyoWars } from "./namco-system-22-tokyo-wars";
 import { namcoSystem22DirtDash } from "./namco-system-22-dirt-dash";
 import { reLcs } from "./re-lcs";
+import { zelda64Recomp } from "./zelda64-recomp";
+import { theSimpsonsGameRecomp } from "./the-simpsons-game-recomp";
+import { openRw } from "./open-rw";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -207,4 +210,7 @@ export const portCases: Port[] = [
   namcoSystem22TokyoWars,
   namcoSystem22DirtDash,
   reLcs,
+  zelda64Recomp,
+  theSimpsonsGameRecomp,
+  openRw,
 ];

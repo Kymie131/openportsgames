@@ -104,4 +104,7 @@ export const originalSystemById: Record<Port["id"], string> = {
   "namco-system-22-tokyo-wars": "Namco System 22",
   "namco-system-22-dirt-dash": "Namco System 22",
   "re-lcs": "PlayStation Portable",
+  "zelda64-recomp": "Nintendo 64",
+  "the-simpsons-game-recomp": "Xbox 360",
+  "open-rw": "Microsoft Windows",
 };
