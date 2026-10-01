@@ -14,10 +14,7 @@ export const lcsRecomp: Port = {
   platforms: ["windows", "linux"],
   status: "alpha",
   release: { version: "0.1.4", date: "2026-09-29" },
-  sources: [
-    "https://github.com/elmasas/lcs-recomp",
-    "https://github.com/jessicanataliagta/PSPRecomp",
-  ],
+  sources: ["https://github.com/elmasas/lcs-recomp"],
   license: { spdx: "MIT" },
   verified: true,
   verifiedAt: "2026-09-30",

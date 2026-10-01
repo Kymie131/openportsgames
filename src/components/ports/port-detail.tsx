@@ -14,6 +14,7 @@ import {
 import type { HardwareProfile, Port, TestRecord } from "@/lib/ports/schema";
 import type { TestStatus } from "@/components/catalog/test-badge";
 import { TestBadge } from "@/components/catalog/test-badge";
+import { GiteaMark } from "@/components/platforms/gitea-mark";
 import { GithubMark } from "@/components/platforms/github-mark";
 import { PlatformMark } from "@/components/platforms/platform-mark";
 import { SystemMark } from "@/components/platforms/system-mark";
@@ -207,6 +208,8 @@ export function PortDetail({
               >
                 {/^https:\/\/github\.com\//.test(source) ? (
                   <GithubMark className="size-4" aria-hidden="true" />
+                ) : /^https:\/\/gitea\.com\//.test(source) ? (
+                  <GiteaMark className="size-4" aria-hidden="true" />
                 ) : (
                   <ExternalLink className="size-4" aria-hidden="true" />
                 )}
