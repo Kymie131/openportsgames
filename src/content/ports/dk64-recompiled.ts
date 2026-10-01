@@ -27,4 +27,11 @@ export const dk64Recompiled: Port = {
   ],
   notes:
     "Native recompilation of Donkey Kong 64 produced with N64Recomp. The player loads their own legally obtained N64 ROM; the port recompiles the game code instead of emulating it.",
+  screenshots: [
+    {
+      src: "https://www.runblaze.dev/logo_light.png",
+      alt: "Rainchus screenshot",
+      credit: "Rainchus",
+    },
+  ],
 };

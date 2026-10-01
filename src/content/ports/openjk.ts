@@ -15,6 +15,7 @@ export const openJk: Port = {
   status: "stable",
   release: { version: null, date: null },
   sources: ["https://github.com/JACoders/OpenJK"],
+  discord: "https://discord.gg/dPNCfeQ",
   website: "https://builds.openjk.org",
   license: {
     spdx: "GPL-2.0",
@@ -22,4 +23,16 @@ export const openJk: Port = {
   verified: false,
   notes:
     "Community engine for Jedi Academy (and Jedi Outcast single-player) released by Raven Software. Distributed as a rolling 'latest' release. Requires original game files.",
+  screenshots: [
+    {
+      src: "https://github.com/JACoders/OpenJK/actions/workflows/build.yml/badge.svg?branch=master",
+      alt: "build",
+      credit: "JACoders",
+    },
+    {
+      src: "https://scan.coverity.com/projects/1153/badge.svg",
+      alt: "coverity",
+      credit: "JACoders",
+    },
+  ],
 };

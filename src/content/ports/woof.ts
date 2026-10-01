@@ -26,4 +26,16 @@ export const woofPort: Port = {
     "SDL2 input and video backends",
   ],
   notes: "Doom engine covering the Doom 1, Doom 2 and Boom era limits, with SDL2 backends.",
+  screenshots: [
+    {
+      src: "https://raw.githubusercontent.com/fabiangreffrath/woof/master/data/woof.png",
+      alt: "Woof! Icon",
+      credit: "fabiangreffrath",
+    },
+    {
+      src: "https://github.com/fabiangreffrath/woof/actions/workflows/build.yml/badge.svg",
+      alt: "Build Status",
+      credit: "fabiangreffrath",
+    },
+  ],
 };

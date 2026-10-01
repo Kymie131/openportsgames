@@ -15,6 +15,7 @@ export const twoShip: Port = {
   status: "stable",
   release: { version: "5.0.1", date: "2026-09-18" },
   sources: ["https://github.com/HarbourMasters/2ship2harkinian"],
+  discord: "https://discord.com/invite/sxrPyuh697",
   website: "https://www.harbourmasters.org/game/2ship2harkinian",
   license: {
     spdx: "CC0-1.0",

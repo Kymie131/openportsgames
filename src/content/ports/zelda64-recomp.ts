@@ -15,6 +15,7 @@ export const zelda64Recomp: Port = {
   status: "stable",
   release: { version: "1.2.2", date: "2025-08-27" },
   sources: ["https://github.com/Zelda64Recomp/Zelda64Recomp"],
+  discord: "https://discord.gg/AWZThJ4dPf",
   license: { spdx: "GPL-3.0" },
   verified: true,
   verifiedAt: "2026-10-01",

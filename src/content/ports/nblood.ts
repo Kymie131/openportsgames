@@ -28,4 +28,21 @@ export const nBlood: Port = {
   ],
   notes:
     "In-progress Blood engine reimplementation. Releases are tagged with revision numbers (r14388) rather than semantic versions, and no project-wide license file was found.",
+  screenshots: [
+    {
+      src: "https://github.com/user-attachments/assets/f517d412-ac7f-4002-ab47-35e41bab9f26",
+      alt: "screenshot",
+      credit: "nukeykt",
+    },
+    {
+      src: "https://github.com/user-attachments/assets/43ec8959-a6e6-4d8c-a4a9-3d3f9f08d65a",
+      alt: "screenshot",
+      credit: "nukeykt",
+    },
+    {
+      src: "https://github.com/user-attachments/assets/e7650c88-3907-47c3-81eb-2fb012435ca2",
+      alt: "screenshot",
+      credit: "nukeykt",
+    },
+  ],
 };

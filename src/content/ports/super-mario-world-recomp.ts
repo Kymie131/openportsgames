@@ -15,6 +15,7 @@ export const superMarioWorldRecomp: Port = {
   status: "beta",
   release: { version: "0.14.2", date: "2026-09-22" },
   sources: ["https://github.com/mstan/SuperMarioWorldRecomp"],
+  discord: "https://discord.gg/S4MvUGQFwd",
   license: {
     spdx: "NOASSERTION",
     note: "Repository declares no SPDX license, so reuse rights are unstated.",

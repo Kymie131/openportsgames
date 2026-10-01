@@ -15,6 +15,7 @@ export const rbDoom3Bfg: Port = {
   status: "stable",
   release: { version: "1.6.0", date: "2025-05-10" },
   sources: ["https://github.com/RobertBeckebans/RBDOOM-3-BFG"],
+  discord: "https://discord.gg/Q3E9rUFnnP",
   website: "https://www.moddb.com/mods/rbdoom-3-bfg",
   license: { spdx: "GPL-3.0" },
   verified: true,
@@ -26,4 +27,21 @@ export const rbDoom3Bfg: Port = {
     "Extensive configuration and scripting",
   ],
   notes: "Open source reimplementation of the id Tech 4 engine used by Doom 3 BFG Edition.",
+  screenshots: [
+    {
+      src: "https://button.moddb.com/popularity/medium/mods/49231.png",
+      alt: "RBDOOM-3-BFG",
+      credit: "RobertBeckebans",
+    },
+    {
+      src: "https://i.imgur.com/nSWBSUB.png",
+      alt: "RobertBeckebans screenshot",
+      credit: "RobertBeckebans",
+    },
+    {
+      src: "https://i.imgur.com/DqTEbzU.jpg",
+      alt: "RobertBeckebans screenshot",
+      credit: "RobertBeckebans",
+    },
+  ],
 };

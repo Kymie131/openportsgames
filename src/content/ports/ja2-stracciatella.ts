@@ -15,6 +15,7 @@ export const ja2Stracciatella: Port = {
   status: "stable",
   release: { version: "0.22.1", date: "2025-10-05" },
   sources: ["https://github.com/ja2-stracciatella/ja2-stracciatella"],
+  discord: "https://discord.com/invite/GqrVZUM",
   website: "https://ja2-stracciatella.github.io/",
   license: {
     spdx: "NOASSERTION",

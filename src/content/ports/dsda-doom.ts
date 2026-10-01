@@ -15,6 +15,7 @@ export const dsdaDoom: Port = {
   status: "stable",
   release: { version: "0.30.0", date: "2026-09-29" },
   sources: ["https://github.com/kraflab/dsda-doom"],
+  discord: "https://discord.gg/9paQ52zQUT",
   license: {
     spdx: "NOASSERTION",
     note: "no project-wide license file; prboom2/COPYING applies to bundled sources",

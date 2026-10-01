@@ -15,6 +15,7 @@ export const symphonyRecomp: Port = {
   status: "beta",
   release: { version: "0.5.1-b", date: "2026-08-19" },
   sources: ["https://github.com/BlackLabelHQ/SymphonyRecomp"],
+  discord: "https://discord.gg/65g8ZEPnbR",
   license: {
     spdx: "NOASSERTION",
     note: "no SPDX license in the repository",
@@ -29,4 +30,11 @@ export const symphonyRecomp: Port = {
   ],
   notes:
     "Recompilation of Castlevania: Symphony of the Night (PS1) that runs natively on Windows, Linux and macOS. Open beta releases (v0.5.1b) and active development; the maintainers explicitly state the port does not use AI. Requires the game dump from a disc copy you own, .NET 10 runtime and OpenAL.",
+  screenshots: [
+    {
+      src: "https://discord.com/api/guilds/1525942688728481983/widget.png?style=banner2",
+      alt: "Discord",
+      credit: "BlackLabelHQ",
+    },
+  ],
 };

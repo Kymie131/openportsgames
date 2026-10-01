@@ -27,4 +27,11 @@ export const wiiCompiled: Port = {
   ],
   notes:
     "Native Windows port of Mario Kart Wii built by statically recompiling the PowerPC code while keeping an emulator component (Dolphin) for select functions. Uses an AI-assisted build pipeline whose source and prompts are public and reproducible. Requires a PAL disc image of Mario Kart Wii (RMCP01) and an encrypted save from the same region; the launcher needs your own legally dumped disc.",
+  screenshots: [
+    {
+      src: "https://github.com/user-attachments/assets/df7a3f2e-5336-479a-b4c0-968dd578726d",
+      alt: "wiicomplogofinalfinalfinalev2MADEBY_INKWRECK_plzcredit",
+      credit: "patchzyy",
+    },
+  ],
 };

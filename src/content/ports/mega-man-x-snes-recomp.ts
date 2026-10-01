@@ -15,6 +15,7 @@ export const megaManXSnesRecomp: Port = {
   status: "beta",
   release: { version: "1.6.6", date: "2026-09-25" },
   sources: ["https://github.com/mstan/MegaManXSNESRecomp"],
+  discord: "https://discord.gg/Ad9BwSzctP",
   license: {
     spdx: "NOASSERTION",
     note: "Repository declares no SPDX license, so reuse rights are unstated.",

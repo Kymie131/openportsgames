@@ -29,4 +29,21 @@ export const openGoal: Port = {
   ],
   notes:
     "Decompilation of the Jak trilogy from Naughty Dog's GOAL language, running on PC. Needs your own PS2 disc of each game; PS3, PS4 and PS5 releases are not supported.",
+  screenshots: [
+    {
+      src: "https://badges.crowdin.net/opengoal/localized.svg",
+      alt: "open-goal screenshot",
+      credit: "open-goal",
+    },
+    {
+      src: "https://github.com/open-goal/jak-project/actions/workflows/build-matrix.yaml/badge.svg",
+      alt: "Linux and Windows Build",
+      credit: "open-goal",
+    },
+    {
+      src: "https://app.codacy.com/project/badge/Grade/29316d04a1644aa390c33be07289f3f5",
+      alt: "Codacy Badge",
+      credit: "open-goal",
+    },
+  ],
 };

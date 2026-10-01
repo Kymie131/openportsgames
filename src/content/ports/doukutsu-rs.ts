@@ -15,6 +15,7 @@ export const doukutsuRs: Port = {
   status: "stable",
   release: { version: "1.0.0", date: "2026-06-03" },
   sources: ["https://github.com/doukutsu-rs/doukutsu-rs"],
+  discord: "https://discord.gg/fbRsNNB",
   website: "https://doukutsu.rs",
   license: { spdx: "MIT" },
   verified: true,
@@ -23,4 +24,21 @@ export const doukutsuRs: Port = {
   features: ["Cross-platform desktop builds", "Android build", "Multiple unofficial translations"],
   notes:
     "Unofficial open source port of Cave Story. The original freeware game data is required and is not distributed with the repository.",
+  screenshots: [
+    {
+      src: "https://github.com/doukutsu-rs/doukutsu-rs/actions/workflows/ci.yml/badge.svg?branch=master",
+      alt: "CI",
+      credit: "doukutsu-rs",
+    },
+    {
+      src: "https://i.imgur.com/3dJ7WMB.png",
+      alt: "example root directory with doukutsu-rs and vanilla Cave Story",
+      credit: "doukutsu-rs",
+    },
+    {
+      src: "https://user-images.githubusercontent.com/53099651/155904982-eb6032d8-7a4d-4af7-ae6f-b69041ecfaa4.png",
+      alt: "image",
+      credit: "doukutsu-rs",
+    },
+  ],
 };

@@ -15,6 +15,7 @@ export const etLegacy: Port = {
   status: "beta",
   release: { version: null, date: null },
   sources: ["https://github.com/etlegacy/etlegacy"],
+  discord: "https://discord.gg/UBAZFys",
   website: "https://www.etlegacy.com",
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -25,4 +26,21 @@ export const etLegacy: Port = {
   ],
   notes:
     "Community continuation of the open source Wolfenstein: Enemy Territory codebase. No tagged releases are published.",
+  screenshots: [
+    {
+      src: "https://github.com/etlegacy/etlegacy/actions/workflows/ci.yml/badge.svg?branch=master",
+      alt: "CI",
+      credit: "etlegacy",
+    },
+    {
+      src: "https://github.com/etlegacy/etlegacy/actions/workflows/build.yml/badge.svg?branch=master",
+      alt: "ETLBuild",
+      credit: "etlegacy",
+    },
+    {
+      src: "https://snapcraft.io/etlegacy/badge.svg",
+      alt: "etlegacy",
+      credit: "etlegacy",
+    },
+  ],
 };

@@ -20,4 +20,11 @@ export const rtcWolfenstein: Port = {
   originalSystem: "Microsoft Windows",
   notes:
     "Open source reimplementation of the original game code. The upstream tag 1.51c combines three revisions in one string and cannot be represented as a semantic version, so no release version is recorded.",
+  screenshots: [
+    {
+      src: "https://raw.githubusercontent.com/iortcw/iortcw/master/MP/misc/wolf128.png",
+      alt: "iortcw logo",
+      credit: "iortcw",
+    },
+  ],
 };

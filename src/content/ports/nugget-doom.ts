@@ -24,4 +24,11 @@ export const nuggetDoom: Port = {
     "Extensive modding and scripting support",
   ],
   notes: "Cross-platform Doom source port with a modern renderer and a focus on extensibility.",
+  screenshots: [
+    {
+      src: "https://raw.githubusercontent.com/MrAlaux/Nugget-Doom/master/data/nugget-doom.png",
+      alt: "Nugget Doom Icon",
+      credit: "MrAlaux",
+    },
+  ],
 };

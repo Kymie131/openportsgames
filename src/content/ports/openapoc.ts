@@ -15,10 +15,18 @@ export const openapoc: Port = {
   status: "beta",
   release: { version: "2026.4.8", date: "2026-04-10" },
   sources: ["https://github.com/openApoc/OpenApoc"],
+  discord: "https://discord.gg/f8Rayre",
   license: {
     spdx: "GPL-3.0",
   },
   verified: false,
   notes:
     "Open-source reimplementation of the X-COM: Apocalypse engine, written in C++ with SDL2. Requires the original game files to run.",
+  screenshots: [
+    {
+      src: "https://i.imgur.com/XxudxVj.jpg",
+      alt: "openApoc screenshot",
+      credit: "openApoc",
+    },
+  ],
 };

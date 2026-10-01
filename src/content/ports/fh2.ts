@@ -15,6 +15,7 @@ export const fh2: Port = {
   status: "stable",
   release: { version: "1.1.17", date: "2026-06-30" },
   sources: ["https://github.com/ihhub/fheroes2"],
+  discord: "https://discord.gg/xF85vbZ",
   website: "https://ihhub.github.io/fheroes2/",
   license: {
     spdx: "GPL-2.0",
@@ -38,4 +39,21 @@ export const fh2: Port = {
       "Inicia el juego; fheroes2 lee los recursos originales y añade renderizado e interfaz modernos.",
     ],
   },
+  screenshots: [
+    {
+      src: "https://github.com/ihhub/fheroes2/actions/workflows/push.yml/badge.svg",
+      alt: "Build Status",
+      credit: "ihhub",
+    },
+    {
+      src: "https://sonarcloud.io/api/project_badges/measure?project=ihhub_fheroes2&metric=bugs",
+      alt: "Bugs",
+      credit: "ihhub",
+    },
+    {
+      src: "https://sonarcloud.io/api/project_badges/measure?project=ihhub_fheroes2&metric=code_smells",
+      alt: "Code Smells",
+      credit: "ihhub",
+    },
+  ],
 };

@@ -15,6 +15,7 @@ export const smwRev: Port = {
   status: "alpha",
   release: { version: "0.1", date: "2023-08-16" },
   sources: ["https://github.com/snesrev/smw"],
+  discord: "https://discord.gg/AJJbJAzNNJ",
   website: "https://discord.gg/AJJbJAzNNJ",
   license: {
     spdx: "MIT",

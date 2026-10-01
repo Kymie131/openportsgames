@@ -15,6 +15,7 @@ export const librelancer: Port = {
   status: "beta",
   release: { version: "2025.11", date: "2025-11-07" },
   sources: ["https://github.com/Librelancer/Librelancer"],
+  discord: "https://discord.gg/QW2vzxx",
   website: "https://librelancer.net",
   license: {
     spdx: "MIT",

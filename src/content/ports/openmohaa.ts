@@ -15,6 +15,7 @@ export const openMohaa: Port = {
   status: "alpha",
   release: { version: "0.82.1", date: "2025-08-05" },
   sources: ["https://github.com/openmoh/openmohaa"],
+  discord: "https://discord.gg/NYtH58R",
   website: "https://docs.openmohaa.org/",
   license: { spdx: "GPL-2.0" },
   verified: true,
@@ -22,4 +23,11 @@ export const openMohaa: Port = {
   originalSystem: "Microsoft Windows",
   features: ["Reimplementation of the id Tech 3 era engine", "Cross-platform desktop builds"],
   notes: "Open source continuation of the Medal of Honor: Allied Assault codebase.",
+  screenshots: [
+    {
+      src: "https://github.com/openmoh/openmohaa/actions/workflows/branches-build.yml/badge.svg?branch=main",
+      alt: "Build",
+      credit: "openmoh",
+    },
+  ],
 };

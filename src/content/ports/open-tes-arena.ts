@@ -15,10 +15,18 @@ export const openTesaArena: Port = {
   status: "beta",
   release: { version: "0.18.0", date: "2026-08-13" },
   sources: ["https://github.com/afritz1/OpenTESArena"],
+  discord: "https://discord.gg/DgHe2jG",
   license: { spdx: "MIT" },
   verified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "MS-DOS",
   features: ["Cross-platform desktop builds", "Modern renderer and input handling"],
   notes: "Cross-platform engine for The Elder Scrolls: Arena. The original game data is required.",
+  screenshots: [
+    {
+      src: "https://github.com/afritz1/OpenTESArena/actions/workflows/cmake.yml/badge.svg?branch=main",
+      alt: "Build Status",
+      credit: "afritz1",
+    },
+  ],
 };

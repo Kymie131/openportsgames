@@ -27,4 +27,21 @@ export const crispyDoom: Port = {
   ],
   notes:
     "Modern source port that keeps the vanilla Doom 1 experience while adding optional enhancements.",
+  screenshots: [
+    {
+      src: "https://github.com/fabiangreffrath/crispy-doom/blob/master/data/doom.png",
+      alt: "Crispy Doom Icon",
+      credit: "fabiangreffrath",
+    },
+    {
+      src: "https://github.com/fabiangreffrath/crispy-doom/actions/workflows/main.yml/badge.svg",
+      alt: "Build Status",
+      credit: "fabiangreffrath",
+    },
+    {
+      src: "https://www.openhub.net/p/crispy-doom/widgets/project_thin_badge?style=flat&format=gif",
+      alt: "Open Hub",
+      credit: "fabiangreffrath",
+    },
+  ],
 };

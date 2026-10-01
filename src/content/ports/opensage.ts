@@ -15,6 +15,7 @@ export const opensage: Port = {
   status: "alpha",
   release: { version: null, date: null },
   sources: ["https://github.com/OpenSAGE/OpenSAGE"],
+  discord: "https://discord.gg/G2FhZUT",
   website: "https://opensage.github.io",
   license: {
     spdx: "GPL-3.0",
@@ -23,4 +24,16 @@ export const opensage: Port = {
   verified: false,
   notes:
     "Reimplementation of the SAGE engine behind Command & Conquer: Generals and Zero Hour, written in C#. Windows is the primary target and no tagged releases exist yet.",
+  screenshots: [
+    {
+      src: "https://github.com/OpenSage/OpenSage/workflows/CI/badge.svg",
+      alt: "Build Status",
+      credit: "OpenSAGE",
+    },
+    {
+      src: "https://codecov.io/gh/OpenSAGE/OpenSAGE/branch/master/graph/badge.svg",
+      alt: "codecov",
+      credit: "OpenSAGE",
+    },
+  ],
 };

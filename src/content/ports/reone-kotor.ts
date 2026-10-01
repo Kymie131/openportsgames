@@ -15,9 +15,17 @@ export const reOne: Port = {
   status: "alpha",
   release: { version: null, date: null },
   sources: ["https://github.com/seedhartha/reone"],
+  discord: "https://discord.gg/6sqSyfn8Jp",
   license: { spdx: "GPL-3.0" },
   verified: false,
   originalSystem: "Microsoft Windows",
   notes:
     "Engine reimplementation for Knights of the Old Republic. No tagged releases are published.",
+  screenshots: [
+    {
+      src: "https://github.com/seedhartha/reone/actions/workflows/build-test-linux.yml/badge.svg",
+      alt: "Build Status",
+      credit: "seedhartha",
+    },
+  ],
 };

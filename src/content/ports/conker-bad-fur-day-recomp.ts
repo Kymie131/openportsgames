@@ -27,4 +27,11 @@ export const conkerBadFurDayRecomp: Port = {
   ],
   notes:
     "Recompilation of Conker's Bad Fur Day; the player supplies their own legally obtained game.",
+  screenshots: [
+    {
+      src: "https://github.com/user-attachments/assets/abb979d7-24a5-44f8-98d3-088ba2054a74",
+      alt: "image",
+      credit: "sciaschi",
+    },
+  ],
 };

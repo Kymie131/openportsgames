@@ -15,6 +15,7 @@ export const vanillaConquer: Port = {
   status: "beta",
   release: { version: null, date: null },
   sources: ["https://github.com/TheAssemblyArmada/Vanilla-Conquer"],
+  discord: "https://discord.gg/UnWK2Tw",
   license: {
     spdx: "NOASSERTION",
     note: "project-specific license terms, not an OSI license",

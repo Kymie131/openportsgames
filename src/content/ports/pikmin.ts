@@ -15,6 +15,7 @@ export const pikmin: Port = {
   status: "alpha",
   release: { version: null, date: null },
   sources: ["https://github.com/projectPiki/pikmin"],
+  discord: "https://discord.gg/CWKqYMePX8",
   license: { spdx: "CC0-1.0" },
   verified: false,
   originalSystem: "Nintendo GameCube",

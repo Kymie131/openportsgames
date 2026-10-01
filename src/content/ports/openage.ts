@@ -22,4 +22,21 @@ export const openage: Port = {
   verified: false,
   notes:
     "Volunteer project recreating the Genie engine used by Age of Empires, Age of Empires II and Star Wars: Galactic Battlegrounds. The last tagged release is 0.6.0, although development continues.",
+  screenshots: [
+    {
+      src: "https://cidata.sft.lol/openage/branches/master/status.svg",
+      alt: "Kevin CI status",
+      credit: "SFTtech",
+    },
+    {
+      src: "https://github.com/SFTTech/openage/actions/workflows/ubuntu-24.04.yml/badge.svg?branch=master",
+      alt: "Ubuntu 24.04 build status",
+      credit: "SFTtech",
+    },
+    {
+      src: "https://github.com/SFTtech/openage/workflows/macOS-CI/badge.svg",
+      alt: "macOS build status",
+      credit: "SFTtech",
+    },
+  ],
 };

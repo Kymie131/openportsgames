@@ -15,6 +15,7 @@ export const starRod: Port = {
   status: "beta",
   release: { version: "0.10.2", date: "2025-07-21" },
   sources: ["https://github.com/z64a/star-rod"],
+  discord: "https://discord.gg/star",
   license: {
     spdx: "MIT",
   },

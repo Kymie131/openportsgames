@@ -15,6 +15,7 @@ export const theForceEngine: Port = {
   status: "beta",
   release: { version: "1.22.420", date: "2025-09-10" },
   sources: ["https://github.com/luciusDXL/TheForceEngine"],
+  discord: "https://discord.gg/hpsJnY9",
   website: "https://TheForceEngine.github.io",
   license: { spdx: "GPL-2.0" },
   verified: true,

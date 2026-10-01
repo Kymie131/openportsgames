@@ -21,4 +21,21 @@ export const settlers2: Port = {
   originalSystem: "MS-DOS",
   features: ["Cross-platform desktop builds", "Extended scenario and scripting support"],
   notes: "Open source reimplementation of The Settlers II engine.",
+  screenshots: [
+    {
+      src: "https://github.com/Return-To-The-Roots/s25client/workflows/Unit%20tests/badge.svg",
+      alt: "GHA Unit tests",
+      credit: "Return-To-The-Roots",
+    },
+    {
+      src: "https://github.com/Return-To-The-Roots/s25client/workflows/Static%20analysis/badge.svg",
+      alt: "Static analysis",
+      credit: "Return-To-The-Roots",
+    },
+    {
+      src: "https://coveralls.io/repos/github/Return-To-The-Roots/s25client/badge.svg?branch=master",
+      alt: "Coverage Status Coveralls",
+      credit: "Return-To-The-Roots",
+    },
+  ],
 };

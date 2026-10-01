@@ -15,6 +15,7 @@ export const darkPlaces: Port = {
   status: "stable",
   release: { version: null, date: null },
   sources: ["https://github.com/DarkPlacesEngine/DarkPlaces"],
+  discord: "https://discord.com/invite/ZHT9QeW",
   website: "https://icculus.org/twilight/darkplaces/",
   license: { spdx: "GPL-2.0" },
   verified: false,

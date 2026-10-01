@@ -15,6 +15,7 @@ export const dinosaurPlanetRecomp: Port = {
   status: "alpha",
   release: { version: "0.3.0", date: "2026-05-31" },
   sources: ["https://github.com/DinosaurPlanetRecomp/dino-recomp"],
+  discord: "https://discord.gg/SUrA4aV7UW",
   license: { spdx: "GPL-3.0" },
   verified: false,
   originalSystem: "Nintendo 64",

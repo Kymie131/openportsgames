@@ -15,10 +15,18 @@ export const openGothic: Port = {
   status: "alpha",
   release: { version: null, date: null },
   sources: ["https://github.com/Try/OpenGothic"],
+  discord: "https://discord.gg/G9XvcFQnn6",
   license: { spdx: "MIT" },
   verified: false,
   originalSystem: "Microsoft Windows",
   features: ["Modern renderer with dynamic lighting", "Cross-platform desktop builds"],
   notes:
     "Engine reimplementation for Gothic II. Published GitHub releases are prereleases only, so no stable version is recorded.",
+  screenshots: [
+    {
+      src: "https://img.youtube.com/vi/TpayMkyZ58Y/0.jpg",
+      alt: "Video",
+      credit: "Try",
+    },
+  ],
 };

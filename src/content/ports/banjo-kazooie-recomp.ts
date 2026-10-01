@@ -15,6 +15,7 @@ export const banjoKazooieRecomp: Port = {
   status: "stable",
   release: { version: "1.0.2", date: "2026-07-31" },
   sources: ["https://github.com/BanjoRecomp/BanjoRecomp"],
+  discord: "https://discord.gg/AWZThJ4dPf",
   license: { spdx: "GPL-3.0" },
   verified: false,
   originalSystem: "Nintendo 64",

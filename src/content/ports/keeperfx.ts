@@ -15,6 +15,7 @@ export const keeperFx: Port = {
   status: "stable",
   release: { version: "1.4.0", date: "2026-07-04" },
   sources: ["https://github.com/dkfans/keeperfx"],
+  discord: "https://discord.gg/hE4p7vy2Hb",
   website: "https://keeperfx.net/",
   license: { spdx: "GPL-2.0" },
   verified: true,
