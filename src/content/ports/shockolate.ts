@@ -21,5 +21,5 @@ export const shockolate: Port = {
   verified: true,
   verifiedAt: "2026-10-01",
   notes:
-    "Reimplementation of the System Shock engine, tracked as an active project with regular commits. No tagged releases are published yet.",
+    "Reimplementation of the System Shock engine. The last tagged release is 0.7.7; tags from 0.8.0 onward are marked as prereleases.",
 };
