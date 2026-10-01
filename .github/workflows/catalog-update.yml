@@ -40,6 +40,9 @@ jobs:
 
       - name: Compare latest releases
         id: check
+        # Writes catalog-check-report.md, which the stale-ports step below reads.
+        # The report is a generated artifact and is not tracked in the repository,
+        # so this step has to run on every job that wants to read it.
         run: node scripts/check-latest-releases.mjs
 
       - name: Commit star counts
@@ -56,6 +59,7 @@ jobs:
       - name: Open issue for stale ports
         if: steps.check.outputs.stale == '1'
         run: |
+          test -f catalog-check-report.md
           gh issue create \
             --repo "$GITHUB_REPOSITORY" \
             --title "Catalog update needed" \
