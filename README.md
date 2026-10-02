@@ -2,112 +2,92 @@
 
 **Site: <https://kymie131.github.io/openportsgames/>**
 
-A curated, non-profit catalog of **native game ports**: decompilations,
-recompilations and engine reimplementations that bring classic games to PC
-and Android. Every entry points only to the project's official source:
-repository, releases, website or documentation. **Nothing is hosted or linked
-as a downloadable file** - ever.
+Catalog of **native game ports** — decompilations, recompilations and engine
+reimplementations that bring classic games to PC and Android. Every entry
+links only to the project's official source (repo, releases, docs, website).
+No downloadable files, ever.
 
-Why does that rule exist? Because a lot of us learned, the slow way, that an
-"ISO pack" link in a forum is how you get malware, and that a link to an
-unofficial mirror dies the moment someone edits a file. The only link that
-outlives the week is the project's own. That's the whole editorial stance.
+I built this because I got tired of clicking "ISO pack" links on forums and
+ending up with malware, or finding that the mirror I bookmarked was dead a
+week later. The only links that survive are the ones pointing at the project
+itself. That's basically the whole idea.
 
-Why does the catalog exist at all? Because Super Mario Bros. 3 was the game
-that made me realize the cartridge in my hands was software. Software can be
-taken apart, understood, and rebuilt to run anywhere I actually owned. Every
-entry here is a small win for that idea: games that refused to die on the
-hardware they were born on.
+Also because Super Mario Bros. 3 blew my mind when I realized the cartridge
+was just software — stuff you can take apart and run anywhere. Most of the
+projects here do exactly that.
 
-Fully static site: no accounts, no comments, no database, no trackers. A
-folder of files. It cannot be switched off.
+Static site. No accounts, no database, no trackers. Just files.
 
-- EN/ES interface · dark & light themes · WCAG-minded
+- EN/ES, dark & light themes
 - [Roadmap](docs/ROADMAP.md) · [Design](docs/DESIGN.md)
 
-## Tech stack
+## Tech
 
-- **Next.js 16** (App Router, TypeScript strict), **Tailwind CSS v4**
-- Fully static export (`output: "export"`), deployable on any static host
-- Custom client-side EN/ES i18n (no next-intl), `zod` for data schemas,
-  MiniSearch for client-side search, Radix UI primitives
-- Vitest (unit + content validation), Playwright (smoke E2E), ESLint/Prettier
+Next.js 16 (App Router, TypeScript strict) + Tailwind CSS v4. Static export,
+so it works on any static host. Custom i18n in the client (no next-intl),
+`zod` for schemas, MiniSearch for search, Radix UI for the fancy bits.
 
-## Requirements
+Tests with Vitest, smoke tests with Playwright.
 
-- **Node.js ≥ 22** and npm
-
-## Quick start (under 5 minutes)
+## Quick start
 
 ```bash
-npm install        # Linux: npm install --omit=optional if glibc complains
+npm install
 npm run dev        # http://localhost:3000
 ```
 
-Useful commands:
+Useful scripts:
 
-| Script                       | What it does                               |
-| ---------------------------- | ------------------------------------------ |
-| `npm run dev`                | Dev server on `http://localhost:3000`      |
-| `npm run build`              | Static export into `out/`                  |
-| `npm run lint` / `typecheck` | ESLint / `tsc --noEmit`                    |
-| `npm test`                   | All Vitest tests (unit + content)          |
-| `npm run validate`           | Catalog/hardware/test data validation only |
-| `npm run check:updates`      | Report outdated versions (maintainers)     |
-| `npx playwright test`        | Smoke tests over the export (see below)    |
+| Command | What it does |
+|---|---|
+| `npm run dev` | Dev server |
+| `npm run build` | Static export into `out/` |
+| `npm run lint` / `typecheck` | ESLint / tsc |
+| `npm test` | All tests |
+| `npm run validate` | Catalog data validation only |
+| `npx playwright test` | Smoke tests (build first) |
 
-### Smoke tests
-
-```bash
-npm run build
-PLAYWRIGHT_CHANNEL=msedge npx playwright test   # replace msedge with your browser channel
-```
-
-## Repository layout
+## Layout
 
 ```
 src/
-  app/          Routes (server), incl. /api/ports.json and sitemap/robots
-  components/   Client UI (catalog, port detail, docs, header/footer, i18n, theme)
-  content/      Catalog data: ports/*.ts, hardware, tests, meta
-  lib/          Data layer (ports), i18n dictionaries, site/seo/date helpers
+  app/          Routes, API, sitemap
+  components/   UI components
+  content/      Catalog data (ports, hardware, tests)
+  lib/          Data layer, i18n, helpers
 tests/
-  unit/         Vitest - utilities and data layer
-  content/      Vitest - data invariants enforced in CI
+  unit/         Vitest unit tests
+  content/      Data validation tests
   e2e/          Playwright smoke tests
-docs/           Architecture, data model, API, editorial policy, testing,
-                design, deployment, roadmap, pending verification
-scripts/        Latest-release checker, static-preview server
+docs/           Architecture, policy, design, etc.
+scripts/        Release checker, preview server
 ```
 
-## Environment variables
+## Env vars
 
-Copy `.env.example` to `.env.local` (optional) and adjust:
+Copy `.env.example` to `.env.local` if you need to tweak anything:
 
-| Variable                         | Purpose                                             |
-| -------------------------------- | --------------------------------------------------- |
-| `NEXT_PUBLIC_SITE_URL`           | Canonicals, OG, sitemap, robots (no trailing slash) |
-| `NEXT_PUBLIC_BASE_PATH`          | Subfolder deploy prefix (GitHub Pages)              |
-| `NEXT_PUBLIC_SUPPORT_PAYPAL_URL` | Optional donation link on `/support`                |
+| Variable | Purpose |
+|---|---|
+| `NEXT_PUBLIC_SITE_URL` | Canonical URLs, sitemap |
+| `NEXT_PUBLIC_BASE_PATH` | Subfolder deploy (GitHub Pages) |
+| `NEXT_PUBLIC_SUPPORT_PAYPAL_URL` | Donation link on /support |
 
-## Documentation
+## Docs
 
-- [Architecture](docs/ARCHITECTURE.md) · [Data model](docs/DATA_MODEL.md) · [API](docs/API.md)
-- [Editorial policy](docs/EDITORIAL_POLICY.md) · [Testing methodology](docs/TESTING_METHODOLOGY.md)
-- [Design](docs/DESIGN.md) · [Deployment](docs/DEPLOYMENT.md) · [Roadmap](docs/ROADMAP.md)
-- [Pending verification](docs/PENDING_VERIFICATION.md)
+[Architecture](docs/ARCHITECTURE.md) · [Data model](docs/DATA_MODEL.md) ·
+[API](docs/API.md) · [Editorial policy](docs/EDITORIAL_POLICY.md) ·
+[Testing](docs/TESTING_METHODOLOGY.md) · [Design](docs/DESIGN.md) ·
+[Deployment](docs/DEPLOYMENT.md) · [Roadmap](docs/ROADMAP.md)
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Issue templates cover proposing a
-port, reporting a test, reporting wrong data and requesting a takedown
-(the **Submit** page links to them).
+See [CONTRIBUTING.md](CONTRIBUTING.md). There are issue templates for
+proposing a port, reporting a test, fixing wrong data, or requesting a
+takedown.
 
 ## Licenses
 
-- Code: MIT (see `LICENSE`)
-- Catalog data: CC BY 4.0 (see `LICENSE-DATA`)
+Code is MIT (`LICENSE`). Catalog data is CC BY 4.0 (`LICENSE-DATA`).
 
-Not affiliated with any video game company. Game trademarks belong to their
-owners and are used only to identify the projects.
-
+Not affiliated with any game company. Trademarks belong to their owners.
