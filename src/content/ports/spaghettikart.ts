@@ -37,4 +37,11 @@ export const spaghettiKart: Port = {
     "Native port of Mario Kart 64 from the decompilation, by the HarbourMasters team. Requires a legally obtained North American or European Mario Kart 64 ROM; the game's data is extracted from the player's own copy.",
   notesEs:
     "Port nativo de Mario Kart 64 a partir de la decompilación, del equipo HarbourMasters. Requiere una ROM norteamericana o europea de Mario Kart 64 obtenida legalmente; los datos del juego se extraen de la copia del propio jugador.",
+  screenshots: [
+    {
+      src: "https://raw.githubusercontent.com/HarbourMasters/SpaghettiKart/main/docs/spaghettigithublight.png",
+      alt: "SpaghettiKart",
+      credit: "HarbourMasters",
+    },
+  ],
 };

@@ -28,4 +28,26 @@ export const openMohaa: Port = {
   ],
   notes: "Open source continuation of the Medal of Honor: Allied Assault codebase.",
   notesEs: "Continuación de código abierto del código de Medal of Honor: Allied Assault.",
+  screenshots: [
+    {
+      src: "https://raw.githubusercontent.com/openmoh/openmohaa/main/docs/assets/images/v0.60.0-x86_64/training_1.png",
+      alt: "Training level in OpenMoHAA",
+      credit: "OpenMoHAA",
+    },
+    {
+      src: "https://raw.githubusercontent.com/openmoh/openmohaa/main/docs/assets/images/v0.60.0-x86_64/flughafen_1.png",
+      alt: "Airfield level in OpenMoHAA",
+      credit: "OpenMoHAA",
+    },
+    {
+      src: "https://raw.githubusercontent.com/openmoh/openmohaa/main/docs/assets/images/v0.60.0-x86_64/mohdm1_1.png",
+      alt: "Multiplayer map in OpenMoHAA",
+      credit: "OpenMoHAA",
+    },
+    {
+      src: "https://raw.githubusercontent.com/openmoh/openmohaa/main/docs/assets/images/v0.60.0-x86_64/mohdm2_1.png",
+      alt: "Another multiplayer map in OpenMoHAA",
+      credit: "OpenMoHAA",
+    },
+  ],
 };

@@ -34,4 +34,26 @@ export const pokemonSnapRecomp: Port = {
     "Static recompilation of Pokémon Snap; the player supplies their own legally obtained game.",
   notesEs:
     "Recompilación estática de Pokémon Snap; el jugador aporta su propio juego obtenido legalmente.",
+  screenshots: [
+    {
+      src: "https://raw.githubusercontent.com/JackandBeans/Snap64Recomp/main/docs/screenshots/01k-title-110.png",
+      alt: "Title screen of Pokemon Snap Recompiled",
+      credit: "Snap64Recomp",
+    },
+    {
+      src: "https://raw.githubusercontent.com/JackandBeans/Snap64Recomp/main/docs/screenshots/03-course-select.png",
+      alt: "Course select in Pokemon Snap Recompiled",
+      credit: "Snap64Recomp",
+    },
+    {
+      src: "https://raw.githubusercontent.com/JackandBeans/Snap64Recomp/main/docs/screenshots/04-beach.png",
+      alt: "Beach course in Pokemon Snap Recompiled",
+      credit: "Snap64Recomp",
+    },
+    {
+      src: "https://raw.githubusercontent.com/JackandBeans/Snap64Recomp/main/docs/screenshots/06-volcano.png",
+      alt: "Volcano course in Pokemon Snap Recompiled",
+      credit: "Snap64Recomp",
+    },
+  ],
 };

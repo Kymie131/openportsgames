@@ -28,4 +28,11 @@ export const openGothic: Port = {
     "Engine reimplementation for Gothic II. Published GitHub releases are prereleases only, so no stable version is recorded.",
   notesEs:
     "Reimplementación del motor de Gothic II. Las releases publicadas en GitHub son solo preliminares, así que no se registra versión estable.",
+  screenshots: [
+    {
+      src: "https://raw.githubusercontent.com/Try/OpenGothic/master/scr0.png",
+      alt: "Gothic II running on OpenGothic",
+      credit: "OpenGothic",
+    },
+  ],
 };

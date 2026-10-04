@@ -36,4 +36,31 @@ export const wipeoutPhantomEdition: Port = {
     "Source port of the PlayStation WipeOut that follows the original more closely than the 1996 PC release. Binaries only, the repository holds the readme and screenshots. Needs the USA PlayStation data.",
   notesEs:
     "Port de código fuente del WipeOut de PlayStation que sigue más de cerca al original que la versión de PC de 1996. Solo binarios; el repositorio contiene el readme y las capturas. Necesita los datos de la versión USA de PlayStation.",
+  screenshots: [
+    {
+      src: "https://raw.githubusercontent.com/wipeout-phantom-edition/wipeout-phantom-edition/main/images/screenshot02.png",
+      alt: "Racing in WipeOut Phantom Edition",
+      credit: "WipeOut Phantom Edition",
+    },
+    {
+      src: "https://raw.githubusercontent.com/wipeout-phantom-edition/wipeout-phantom-edition/main/images/screenshot03.png",
+      alt: "Track view in WipeOut Phantom Edition",
+      credit: "WipeOut Phantom Edition",
+    },
+    {
+      src: "https://raw.githubusercontent.com/wipeout-phantom-edition/wipeout-phantom-edition/main/images/screenshot04.png",
+      alt: "Race in WipeOut Phantom Edition",
+      credit: "WipeOut Phantom Edition",
+    },
+    {
+      src: "https://raw.githubusercontent.com/wipeout-phantom-edition/wipeout-phantom-edition/main/images/screenshot05.png",
+      alt: "Wide track in WipeOut Phantom Edition",
+      credit: "WipeOut Phantom Edition",
+    },
+    {
+      src: "https://raw.githubusercontent.com/wipeout-phantom-edition/wipeout-phantom-edition/main/images/screenshot06.png",
+      alt: "Cockpit view in WipeOut Phantom Edition",
+      credit: "Wipeout Phantom Edition",
+    },
+  ],
 };

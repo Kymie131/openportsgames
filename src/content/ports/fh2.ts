@@ -41,4 +41,21 @@ export const fh2: Port = {
       "Inicia el juego; fheroes2 lee los recursos originales y añade renderizado e interfaz modernos.",
     ],
   },
+  screenshots: [
+    {
+      src: "https://raw.githubusercontent.com/ihhub/fheroes2/master/docs/images/screenshots/screenshot_world_map.webp",
+      alt: "World map view in fheroes2",
+      credit: "fheroes2",
+    },
+    {
+      src: "https://raw.githubusercontent.com/ihhub/fheroes2/master/docs/images/screenshots/screenshot_battle.webp",
+      alt: "A battle in fheroes2",
+      credit: "fheroes2",
+    },
+    {
+      src: "https://raw.githubusercontent.com/ihhub/fheroes2/master/docs/images/screenshots/screenshot_castle.webp",
+      alt: "Castle screen in fheroes2",
+      credit: "fheroes2",
+    },
+  ],
 };

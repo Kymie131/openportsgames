@@ -36,4 +36,21 @@ export const megaManXSnesRecomp: Port = {
     "Mega Man X recompiled for the Super Nintendo with snesrecomp; the player supplies their own legally obtained game.",
   notesEs:
     "Mega Man X recompilado para Super Nintendo con snesrecomp; el jugador aporta su propio juego obtenido legalmente.",
+  screenshots: [
+    {
+      src: "https://raw.githubusercontent.com/mstan/MegaManXSNESRecomp/main/docs/screenshots/widescreen-ocean.png",
+      alt: "Ocean stage in widescreen on Mega Man X SNES Recompiled",
+      credit: "MegaManXSNESRecomp",
+    },
+    {
+      src: "https://raw.githubusercontent.com/mstan/MegaManXSNESRecomp/main/docs/screenshots/widescreen-highway.png",
+      alt: "Highway stage in widescreen on MegaManXSNESRecomp",
+      credit: "MegaManXSNESRecomp",
+    },
+    {
+      src: "https://raw.githubusercontent.com/mstan/MegaManXSNESRecomp/main/docs/screenshots/widescreen-snow-base.png",
+      alt: "Snow base stage in widescreen on MegaManXSNESRecomp",
+      credit: "MegaManXSNESRecomp",
+    },
+  ],
 };

@@ -34,4 +34,31 @@ export const trxPort: Port = {
     "Engine reimplementation covering the classic Tomb Raider games. Original game assets are not distributed.",
   notesEs:
     "Reimplementación del motor que cubre los Tomb Raider clásicos. Los recursos del juego original no se distribuyen.",
+  screenshots: [
+    {
+      src: "https://raw.githubusercontent.com/LostArtefacts/TRX/master/docs/showcase/skybox.jpg",
+      alt: "Tomb Raider with an improved skybox in TRX",
+      credit: "LostArtefacts",
+    },
+    {
+      src: "https://raw.githubusercontent.com/LostArtefacts/TRX/master/docs/showcase/braid.jpg",
+      alt: "Lara in TRX",
+      credit: "LostArtefacts",
+    },
+    {
+      src: "https://raw.githubusercontent.com/LostArtefacts/TRX/master/docs/showcase/3d_pickups.jpg",
+      alt: "3D pickups in TRX",
+      credit: "LostArtefacts",
+    },
+    {
+      src: "https://raw.githubusercontent.com/LostArtefacts/TRX/master/docs/showcase/photo_mode.webp",
+      alt: "Photo mode in TRX",
+      credit: "LostArtefacts",
+    },
+    {
+      src: "https://raw.githubusercontent.com/LostArtefacts/TRX/master/docs/showcase/compass_stats.jpg",
+      alt: "Compass and stats in TRX",
+      credit: "LostArtefacts",
+    },
+  ],
 };

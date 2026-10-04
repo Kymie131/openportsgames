@@ -23,4 +23,21 @@ export const openRw: Port = {
     "Unofficial open source recreation of the original game executable. No tagged releases are published, so builds track the repository. A legitimate PC copy of Grand Theft Auto III is required to play.",
   notesEs:
     "Recreación no oficial de código abierto del ejecutable del juego original. No se publican releases etiquetadas, así que las builds siguen el repositorio. Se necesita una copia legítima de Grand Theft Auto III para PC.",
+  screenshots: [
+    {
+      src: "https://user-images.githubusercontent.com/418211/48028326-21260b80-e143-11e8-9a7e-53c073c39cc6.png",
+      alt: "Liberty City rendered by OpenRW",
+      credit: "OpenRW",
+    },
+    {
+      src: "https://user-images.githubusercontent.com/418211/48028321-208d7500-e143-11e8-981f-70e47f5d1c50.png",
+      alt: "Street view in OpenRW",
+      credit: "OpenRW",
+    },
+    {
+      src: "https://user-images.githubusercontent.com/418211/48028322-208d7500-e143-11e8-8759-ccb440f4ebf3.png",
+      alt: "Vehicle in OpenRW",
+      credit: "OpenRW",
+    },
+  ],
 };

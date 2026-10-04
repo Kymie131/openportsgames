@@ -36,4 +36,16 @@ export const openGoal: Port = {
     "Decompilation of the Jak trilogy from Naughty Dog's GOAL language, running on PC. Needs your own PS2 disc of each game; PS3, PS4 and PS5 releases are not supported.",
   notesEs:
     "Decompilación de la trilogía Jak del lenguaje GOAL de Naughty Dog, ejecutándose en PC. Necesita tu propio disco de PS2 de cada juego; las versiones de PS3, PS4 y PS5 no están soportadas.",
+  screenshots: [
+    {
+      src: "https://raw.githubusercontent.com/open-goal/jak-project/master/docs/img/promosmall1.png",
+      alt: "Jak and Daxter running on OpenGOAL",
+      credit: "OpenGOAL",
+    },
+    {
+      src: "https://raw.githubusercontent.com/open-goal/jak-project/master/docs/img/promosmall2.png",
+      alt: "Jak II running on OpenGOAL",
+      credit: "OpenGOAL",
+    },
+  ],
 };

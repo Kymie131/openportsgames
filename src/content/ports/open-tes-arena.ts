@@ -25,4 +25,11 @@ export const openTesaArena: Port = {
   notes: "Cross-platform engine for The Elder Scrolls: Arena. The original game data is required.",
   notesEs:
     "Motor multiplataforma para The Elder Scrolls: Arena. Se requieren los datos del juego original.",
+  screenshots: [
+    {
+      src: "https://raw.githubusercontent.com/afritz1/OpenTESArena/main/Preview.PNG",
+      alt: "The Elder Scrolls: Arena running on OpenTESArena",
+      credit: "OpenTESArena",
+    },
+  ],
 };

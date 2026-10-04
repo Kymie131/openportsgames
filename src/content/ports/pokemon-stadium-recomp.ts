@@ -33,4 +33,11 @@ export const pokemonStadiumRecomp: Port = {
     "Pokémon Stadium (US v1.0) recompiled with a fork of N64Recomp; the player supplies their own legally obtained cartridge. The project documents antivirus and Windows SmartScreen false positives on the build.",
   notesEs:
     "Pokémon Stadium (USA v1.0) recompilado con un fork de N64Recomp; el jugador aporta su propio cartucho obtenido legalmente. El proyecto documenta falsos positivos de antivirus y Windows SmartScreen sobre la build.",
+  screenshots: [
+    {
+      src: "https://raw.githubusercontent.com/mstan/PokemonStadiumRecomp/main/docs/launcher.png",
+      alt: "Launcher of Pokemon Stadium Recompiled",
+      credit: "mstan/PokemonStadiumRecomp",
+    },
+  ],
 };

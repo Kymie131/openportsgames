@@ -36,4 +36,11 @@ export const rsdkv3Decompilation: Port = {
     "Full decompilation of Retro Engine v3 behind the 2011 Sonic CD remake, maintained by the RSDK Modding team. Needs data.rsdk from your own copy of Sonic CD (2011); the Origins builds leave some features out.",
   notesEs:
     "Decompilación completa de Retro Engine v3, el motor detrás del remake de Sonic CD de 2011, mantenida por el equipo RSDK Modding. Necesita data.rsdk de tu propia copia de Sonic CD (2011); las versiones de Origins dejan fuera algunas funciones.",
+  screenshots: [
+    {
+      src: "https://raw.githubusercontent.com/RSDKModding/RSDKv3-Decompilation/master/header.png?raw=true",
+      alt: "Sonic CD running on the RSDKv3 Decompilation",
+      credit: "RSDK Modding",
+    },
+  ],
 };

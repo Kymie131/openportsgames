@@ -35,4 +35,11 @@ export const openLoco: Port = {
     "Engine reimplementation for Transport Tycoon Deluxe style gameplay. The original game data is required.",
   notesEs:
     "Reimplementación del motor para la jugabilidad de Transport Tycoon Deluxe. Se requieren los datos del juego original.",
+  screenshots: [
+    {
+      src: "https://user-images.githubusercontent.com/604665/55420349-1a2aea00-5577-11e9-87da-78fe5cdb09e1.png",
+      alt: "OpenLoco running a scenario",
+      credit: "OpenLoco",
+    },
+  ],
 };

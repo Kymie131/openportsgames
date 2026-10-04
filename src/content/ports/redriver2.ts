@@ -34,4 +34,21 @@ export const redriver2: Port = {
     "Driver 2 disassembled and translated to C by the OpenDriver2 team. Geometry still runs on Psy-X, which descends from an emulator, so it is not a from-scratch port. Needs the data files from your own PlayStation disc.",
   notesEs:
     "Driver 2 desensamblado y traducido a C por el equipo OpenDriver2. La geometría aún corre sobre Psy-X, que desciende de un emulador, así que no es un port desde cero. Necesita los archivos de datos de tu propio disco de PlayStation.",
+  screenshots: [
+    {
+      src: "https://i.ibb.co/2q1pp06/red2.png",
+      alt: "Driving in REDRIVER2",
+      credit: "OpenDriver2",
+    },
+    {
+      src: "https://i.ibb.co/JxfC5xX/aaa.png",
+      alt: "City scene in REDRIVER2",
+      credit: "OpenDriver2",
+    },
+    {
+      src: "https://i.ibb.co/ydLsK9z/aaa.png",
+      alt: "Another scene in REDRIVER2",
+      credit: "OpenDriver2",
+    },
+  ],
 };

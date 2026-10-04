@@ -48,4 +48,11 @@ export const zelda64Recomp: Port = {
     "Built with N64: Recompiled and rendered through RT64. The releases ship no game assets: a legally obtained copy of Majora's Mask is required to build or run it.",
   notesEs:
     "Construido con N64: Recompiled y renderizado mediante RT64. Las releases no incluyen recursos del juego: se requiere una copia de Majora's Mask obtenida legalmente para compilarlo o ejecutarlo.",
+  screenshots: [
+    {
+      src: "https://raw.githubusercontent.com/Zelda64Recomp/Zelda64Recomp/master/docs/deck_gyro_1.jpg",
+      alt: "Majora's Mask on Zelda 64: Recompiled running on a Steam Deck",
+      credit: "Zelda64Recomp",
+    },
+  ],
 };
