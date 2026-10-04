@@ -26,9 +26,8 @@ test("home shows a computed Latest releases section before Featured", async ({ p
     .locator("h2")
     .evaluateAll((nodes) => nodes.map((n) => n.id).filter(Boolean));
   expect(order.indexOf("latest-heading")).toBeLessThan(order.indexOf("featured-heading"));
-  await expect(page.locator("#latest-heading").locator("xpath=../..").locator("article")).toHaveCount(
-    6,
-  );
+  const latestSection = page.locator('section[aria-labelledby="latest-heading"]');
+  await expect(latestSection.locator("article")).toHaveCount(6);
 });
 
 test("home hero donate CTA is always visible and points to PayPal when configured", async ({

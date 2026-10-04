@@ -51,9 +51,9 @@ test("API endpoint is a versioned static snapshot", async ({ request }) => {
 
 test("catalog search filters results", async ({ page }) => {
   await page.goto("/ports");
-  // "Tomb Raider" is unique to OpenLara; shorter terms can fuzzy-match
-  // several titles now that the catalog is larger.
+  // "Pinyon Shift" is unique to the Forza Horizon port; broader terms like
+  // "Tomb Raider" now fuzzy-match several titles.
   const input = page.getByPlaceholder(/Search by port/);
-  await input.fill("Tomb Raider");
+  await input.fill("Pinyon Shift");
   await expect(page.locator("article")).toHaveCount(1);
 });
