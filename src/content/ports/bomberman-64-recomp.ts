@@ -24,6 +24,14 @@ export const bomberman64Recomp: Port = {
     "Low input lag and instant load times",
     "Linux binary with documented Steam Deck support",
   ],
+  featuresEs: [
+    "Soporte de framerate alto",
+    "Soporte panorámico y ultrapanorámico",
+    "Baja latencia de entrada y tiempos de carga instantáneos",
+    "Binario para Linux con soporte documentado para Steam Deck",
+  ],
   notes:
     "Bomberman 64 rebuilt with N64: Recompiled. The repository and its releases contain no game assets, so the player must supply their own legally obtained game.",
+  notesEs:
+    "Bomberman 64 reconstruido con N64: Recompiled. El repositorio y sus releases no contienen recursos del juego, así que el jugador debe aportar su propio juego obtenido legalmente.",
 };

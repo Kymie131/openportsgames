@@ -46,6 +46,8 @@ export const openTtd: Port = {
   ],
   notes:
     "Open source simulation game based on Transport Tycoon Deluxe. Ships with the freely redistributable OpenGFX graphics, so no original game data is required.",
+  notesEs:
+    "Juego de simulación de código abierto basado en Transport Tycoon Deluxe. Incluye los gráficos OpenGFX de redistribución libre, así que no requiere datos del juego original.",
   installGuide: {
     steps: [
       "Install OpenTTD from the official site; the game runs out of the box with the free OpenGFX graphics.",

@@ -20,4 +20,6 @@ export const freedroidClassic: Port = {
   originalSystem: "Commodore 64",
   notes:
     "Free software remake of the 1985 Commodore 64 classic Paradroid. Built from source with autotools and SDL2; Linux is the documented target platform.",
+  notesEs:
+    "Remake de software libre del clásico Paradroid (Commodore 64, 1985). Se compila desde el código con autotools y SDL2; Linux es la plataforma de destino documentada.",
 };

@@ -27,9 +27,17 @@ export const pilotwings64Recomp: Port = {
     "Launcher with graphics, sound and control settings, remapping and mod support",
     "Keyboard and controller support",
   ],
+  featuresEs: [
+    "Panorámico según la relación de aspecto de la pantalla con el HUD en los bordes",
+    "Framerate alto mediante interpolación de matrices, hasta el refresco de la pantalla",
+    "Lanzador con ajustes de gráficos, sonido y control, reasignación y soporte de mods",
+    "Soporte de teclado y mando",
+  ],
   requirements: {
     minimum: "Linux builds need a Vulkan driver plus SDL2, GTK 3 and FreeType",
   },
   notes:
     "Static recompilation of Pilotwings 64 with N64Recomp; the player supplies their own legally obtained cartridge. The repository describes the port as AI-coded, hence the AI disclosure.",
+  notesEs:
+    "Recompilación estática de Pilotwings 64 con N64Recomp; el jugador aporta su propio cartucho obtenido legalmente. El repositorio describe el port como programado por IA, de ahí la declaración de IA.",
 };

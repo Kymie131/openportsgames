@@ -25,6 +25,12 @@ export const metroidPrimeHuntersRecompiled: Port = {
     "Mouse/keyboard and remappable gamepad controls",
     "Experimental Wiimmfi online play",
   ],
+  featuresEs: [
+    "Builds para Windows y Linux (AppImage listo para Steam Deck)",
+    "Panorámico dinámico más modos 5:3, 2:1 y 21:9",
+    "Controles de ratón/teclado y mando reasignables",
+    "Juego en línea experimental en Wiimmfi",
+  ],
   screenshots: [
     {
       src: "https://raw.githubusercontent.com/mstan/MetroidPrimeHuntersRecomp/main/docs/media/prime-hunters-video-preview.jpg",
@@ -34,4 +40,6 @@ export const metroidPrimeHuntersRecompiled: Port = {
   ],
   notes:
     "Native recompilation of the Nintendo DS first-person shooter Metroid Prime Hunters, labeled by its author as a public alpha. Requires the player's own legally obtained copy of the game.",
+  notesEs:
+    "Recompilación nativa del shooter en primera persona Metroid Prime Hunters de Nintendo DS, calificada por su autor como alfa pública. Requiere la copia del juego obtenida legalmente por el jugador.",
 };

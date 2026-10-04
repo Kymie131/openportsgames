@@ -20,5 +20,12 @@ export const harvestMoon64Recomp: Port = {
   verified: false,
   originalSystem: "Nintendo 64",
   features: ["Widescreen and ultrawide support", "Mod support", "Windows, Linux and macOS builds"],
+  featuresEs: [
+    "Soporte panorámico y ultrapanorámico",
+    "Soporte de mods",
+    "Builds para Windows, Linux y macOS",
+  ],
   notes: "Recompilation of Harvest Moon 64; the player supplies their own legally obtained game.",
+  notesEs:
+    "Recompilación de Harvest Moon 64; el jugador aporta su propio juego obtenido legalmente.",
 };

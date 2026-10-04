@@ -24,4 +24,6 @@ export const yamagiQuake2: Port = {
   verifiedAt: "2026-09-19",
   notes:
     "Maintained source port of the Quake II engine. Requires Quake II gamedata (shareware baseq2 files freely available).",
+  notesEs:
+    "Port de código fuente mantenido del motor de Quake II. Requiere los datos de Quake II (los archivos baseq2 shareware están disponibles gratis).",
 };

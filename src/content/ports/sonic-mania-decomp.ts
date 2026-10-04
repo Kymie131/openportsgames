@@ -23,4 +23,6 @@ export const sonicMania: Port = {
   verifiedAt: "2026-09-19",
   notes:
     "Decompilation of Sonic Mania (Retro Engine v5) that rebuilds the game on PC, Mac and Linux and opens the door to extensive modding. Requires a legally acquired copy of the Sonic Mania data files.",
+  notesEs:
+    "Decompilación de Sonic Mania (Retro Engine v5) que reconstruye el juego en PC, Mac y Linux y abre la puerta a un modding extenso. Requiere una copia adquirida legalmente de los archivos de datos de Sonic Mania.",
 };

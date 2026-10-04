@@ -25,6 +25,12 @@ export const dragonBallZLegacyOfGokuRecomp: Port = {
     "Static recompilation of the GBA executable",
     "Experimental preview: byproduct of the gbarecomp framework",
   ],
+  featuresEs: [
+    "Recompilación estática del ejecutable de GBA",
+    "Vista previa experimental: subproducto del marco gbarecomp",
+  ],
   notes:
     "Experimental recompilation. The player supplies their own legally obtained ROM; the repository ships no game content.",
+  notesEs:
+    "Recompilación experimental. El jugador aporta su propia ROM obtenida legalmente; el repositorio no incluye contenido del juego.",
 };

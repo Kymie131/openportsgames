@@ -26,6 +26,13 @@ export const lighthouse: Port = {
     "Presets menu and romhack support",
     "Save editor and improved widescreen support",
   ],
+  featuresEs: [
+    "Extracción de ROM y hacks acelerada hasta un 95%",
+    "Menú de ajustes predefinidos y soporte de romhacks",
+    "Editor de partidas guardadas y mejor soporte panorámico",
+  ],
   notes:
     "Native PC port of Banjo-Kazooie for the libultraship engine, by the HarbourMasters team. Requires the player's own legally obtained Banjo-Kazooie ROM; the launcher extracts the game data from it.",
+  notesEs:
+    "Port nativo para PC de Banjo-Kazooie para el motor libultraship, del equipo HarbourMasters. Requiere la ROM de Banjo-Kazooie obtenida legalmente por el jugador; el lanzador extrae los datos del juego a partir de ella.",
 };

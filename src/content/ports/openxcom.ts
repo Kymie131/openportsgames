@@ -44,6 +44,8 @@ export const openXcom: Port = {
   ],
   notes:
     "Open source reimplementation of the original X-COM engine. The tagged v1.0 release is from 2014; current builds are distributed via openxcom.org. Requires original X-COM data.",
+  notesEs:
+    "Reimplementación de código abierto del motor original de X-COM. La release etiquetada v1.0 es de 2014; las builds actuales se distribuyen a través de openxcom.org. Requiere los datos originales de X-COM.",
   installGuide: {
     steps: [
       "Own X-COM: UFO Defense (aka UFO: Enemy Unknown).",

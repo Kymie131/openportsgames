@@ -24,4 +24,6 @@ export const vanillaConquer: Port = {
   originalSystem: "MS-DOS",
   notes:
     "Engine reimplementation for the original Command & Conquer. The single GitHub release is a prerelease.",
+  notesEs:
+    "Reimplementación del motor del Command & Conquer original. La única release de GitHub es preliminar.",
 };

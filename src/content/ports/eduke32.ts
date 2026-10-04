@@ -45,6 +45,8 @@ export const eduke32: Port = {
   ],
   notes:
     "Native source port of Duke Nukem 3D (also runs Shadow Warrior via VoidSW). Distributed as rolling builds from the official site; requires Duke Nukem 3D gamedata.",
+  notesEs:
+    "Port de código fuente nativo de Duke Nukem 3D (también ejecuta Shadow Warrior mediante VoidSW). Se distribuye como builds continuas desde el sitio oficial; requiere los datos de Duke Nukem 3D.",
   installGuide: {
     steps: [
       "Own Duke Nukem 3D, the Atomic Edition is the most complete.",

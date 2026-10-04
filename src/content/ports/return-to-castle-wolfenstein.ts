@@ -20,6 +20,8 @@ export const rtcWolfenstein: Port = {
   originalSystem: "Microsoft Windows",
   notes:
     "Open source reimplementation of the original game code. The upstream tag 1.51c combines three revisions in one string and cannot be represented as a semantic version, so no release version is recorded.",
+  notesEs:
+    "Reimplementación de código abierto del código del juego original. La etiqueta upstream 1.51c combina tres revisiones en una sola cadena y no puede representarse como versión semántica, así que no se registra versión de release.",
   screenshots: [
     {
       src: "https://raw.githubusercontent.com/iortcw/iortcw/master/MP/misc/wolf128.png",

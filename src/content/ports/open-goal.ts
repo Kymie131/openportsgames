@@ -27,6 +27,13 @@ export const openGoal: Port = {
     "Jak and Daxter treated as complete, Jak II in beta, Jak 3 in progress",
     "Asset extraction and repacking tools shipped in the repository",
   ],
+  featuresEs: [
+    "Código GOAL original decompilado y recompilado para x86-64",
+    "Jak and Daxter considerada completa, Jak II en beta, Jak 3 en progreso",
+    "Herramientas de extracción y reempaquetado de recursos incluidas en el repositorio",
+  ],
   notes:
     "Decompilation of the Jak trilogy from Naughty Dog's GOAL language, running on PC. Needs your own PS2 disc of each game; PS3, PS4 and PS5 releases are not supported.",
+  notesEs:
+    "Decompilación de la trilogía Jak del lenguaje GOAL de Naughty Dog, ejecutándose en PC. Necesita tu propio disco de PS2 de cada juego; las versiones de PS3, PS4 y PS5 no están soportadas.",
 };

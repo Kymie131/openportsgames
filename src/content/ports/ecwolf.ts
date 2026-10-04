@@ -27,6 +27,13 @@ export const ecWolf: Port = {
     "Mods packaged as a single file instead of whole data sets",
     "Blake Stone and Super 3D Noah's Ark support in development",
   ],
+  featuresEs: [
+    "Flujo de edición tipo ZDoom para contenido de Wolfenstein 3D",
+    "Mods empaquetados como un solo archivo en vez de conjuntos de datos completos",
+    "Soporte de Blake Stone y Super 3D Noah's Ark en desarrollo",
+  ],
   notes:
     "Wolf4SDL-based source port with ZDoom editing tools pulled across, maintained by Blzut3. Distributed from the project site rather than from GitHub releases. Needs Wolfenstein 3D data or the shareware files.",
+  notesEs:
+    "Port de código fuente basado en Wolf4SDL con herramientas de edición tipo ZDoom portadas, mantenido por Blzut3. Se distribuye desde el sitio del proyecto y no desde las releases de GitHub. Necesita los datos de Wolfenstein 3D o los archivos shareware.",
 };

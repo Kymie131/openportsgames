@@ -21,4 +21,6 @@ export const pikmin: Port = {
   originalSystem: "Nintendo GameCube",
   notes:
     "Decompilation of Pikmin (GameCube) that aims to produce a playable native build from the original machine code. Work-in-progress with no tagged releases; requires a dump of the original game.",
+  notesEs:
+    "Decompilación de Pikmin (GameCube) que busca producir una build nativa jugable a partir del código máquina original. Trabajo en curso sin releases etiquetadas; requiere un volcado del juego original.",
 };

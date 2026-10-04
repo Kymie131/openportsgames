@@ -25,6 +25,13 @@ export const trxPort: Port = {
     "Modern renderer and audio",
     "Scripting and level editing support",
   ],
+  featuresEs: [
+    "Builds de escritorio multiplataforma",
+    "Renderizado y audio modernos",
+    "Soporte de scripting y edición de niveles",
+  ],
   notes:
     "Engine reimplementation covering the classic Tomb Raider games. Original game assets are not distributed.",
+  notesEs:
+    "Reimplementación del motor que cubre los Tomb Raider clásicos. Los recursos del juego original no se distribuyen.",
 };

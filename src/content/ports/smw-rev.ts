@@ -26,4 +26,6 @@ export const smwRev: Port = {
   originalSystem: "Super Nintendo",
   notes:
     "SNES ROM reimplementation. The project publishes no game assets, so a legally obtained copy of Super Mario World is required.",
+  notesEs:
+    "Reimplementación de la ROM de SNES. El proyecto no publica recursos del juego, así que se requiere una copia de Super Mario World obtenida legalmente.",
 };

@@ -21,4 +21,6 @@ export const openjazz: Port = {
   verified: false,
   notes:
     "Free, open-source version of the classic Jazz Jackrabbit games, started in 2005. Project activity has slowed and there is no clear roadmap.",
+  notesEs:
+    "Versión libre y de código abierto de los clásicos Jazz Jackrabbit, iniciada en 2005. La actividad del proyecto se ha ralentizado y no hay una hoja de ruta clara.",
 };

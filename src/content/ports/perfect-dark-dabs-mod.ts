@@ -25,6 +25,14 @@ export const perfectDarkDabsMod: Port = {
     "GE-X Plus GoldenEye remake loading from your ROM",
     "One-key bug reporting from the game",
   ],
+  featuresEs: [
+    "Salto, voltereta de combate, combos cuerpo a cuerpo y cámara en tercera persona",
+    "Simulador de combate ampliado a 80 simulantes",
+    "Remake GE-X Plus de GoldenEye cargado desde tu ROM",
+    "Reporte de errores con una tecla desde el juego",
+  ],
   notes:
     "Community decompilation of Perfect Dark with extended mod features, published as 'Dab's Mod'. The repository documents its AI-assisted development process. Requires the player's own legally obtained Perfect Dark ROM.",
+  notesEs:
+    "Decompilación comunitaria de Perfect Dark con funciones de mod ampliadas, publicada como 'Dab's Mod'. El repositorio documenta su proceso de desarrollo asistido por IA. Requiere la ROM de Perfect Dark obtenida legalmente por el jugador.",
 };

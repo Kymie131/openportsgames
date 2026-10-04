@@ -22,6 +22,8 @@ export const openFodder: Port = {
   originalSystem: "MS-DOS",
   notes:
     "Engine reimplementation for the Cannon Fodder series, supporting several of the original titles.",
+  notesEs:
+    "Reimplementación del motor de la saga Cannon Fodder, compatible con varios de los títulos originales.",
   screenshots: [
     {
       src: "https://user-images.githubusercontent.com/1327406/49718991-f1bd6e00-fcaf-11e8-88e3-68136828c2d1.png",

@@ -23,5 +23,10 @@ export const eternityEngine: Port = {
     "Modern renderer with dynamic lights and reflections",
     "Heightmap support for unlimited room heights",
   ],
+  featuresEs: [
+    "Renderizador moderno con luces dinámicas y reflejos",
+    "Soporte de heightmap para alturas de sala ilimitadas",
+  ],
   notes: "Extended Doom engine kept in active development for advanced community maps.",
+  notesEs: "Motor de Doom extendido y en desarrollo activo para mapas comunitarios avanzados.",
 };

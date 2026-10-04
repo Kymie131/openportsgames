@@ -33,4 +33,6 @@ export const arxLibertatis: Port = {
   ],
   notes:
     "Cross-platform source port of the first-person RPG Arx Fatalis. A free playable experience is possible using the game demo.",
+  notesEs:
+    "Port de código fuente multiplataforma del RPG en primera persona Arx Fatalis. Puede jugarse gratis usando la demo del juego.",
 };

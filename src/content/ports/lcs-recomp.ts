@@ -24,6 +24,13 @@ export const lcsRecomp: Port = {
     "DirectX 12 renderer on Windows, Vulkan on Linux",
     "Resolution, scaling and texture options in LCSNative.ini",
   ],
+  featuresEs: [
+    "Construido sobre el marco de recompilación estática PSPRecomp",
+    "Renderizador DirectX 12 en Windows, Vulkan en Linux",
+    "Opciones de resolución, escalado y texturas en LCSNative.ini",
+  ],
   notes:
     "PC recompilation of Liberty City Stories built on PSPRecomp, first tagged in late September 2026. Needs a decrypted EBOOT.ELF and the PSP_GAME folder from the US v1.05 release, disc ID ULUS-10041.",
+  notesEs:
+    "Recompilación para PC de Liberty City Stories construida sobre PSPRecomp, etiquetada por primera vez a finales de septiembre de 2026. Necesita un EBOOT.ELF descifrado y la carpeta PSP_GAME de la versión USA v1.05, con ID de disco ULUS-10041.",
 };

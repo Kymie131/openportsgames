@@ -20,6 +20,12 @@ export const openGothic: Port = {
   verified: false,
   originalSystem: "Microsoft Windows",
   features: ["Modern renderer with dynamic lighting", "Cross-platform desktop builds"],
+  featuresEs: [
+    "Renderizador moderno con iluminación dinámica",
+    "Builds de escritorio multiplataforma",
+  ],
   notes:
     "Engine reimplementation for Gothic II. Published GitHub releases are prereleases only, so no stable version is recorded.",
+  notesEs:
+    "Reimplementación del motor de Gothic II. Las releases publicadas en GitHub son solo preliminares, así que no se registra versión estable.",
 };

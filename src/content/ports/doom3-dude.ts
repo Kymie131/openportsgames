@@ -25,6 +25,14 @@ export const doom3Dude: Port = {
     "HDR, SSAO and FSR2 upscaling",
     "GPU tessellation and 60 FPS render interpolation",
   ],
+  featuresEs: [
+    "Backends GL 3.3 y Vulkan con una ruta ARB heredada",
+    "Sombras, reflejos y RTAO con trazado de rayos",
+    "HDR, SSAO y escalado FSR2",
+    "Teselación por GPU e interpolación de renderizado a 60 FPS",
+  ],
   notes:
     "DUDE (Doom3 Unified Development Engine) updates the id Tech 4 Doom 3 engine with modern rendering, ray tracing and a Vulkan backend. The repository commits its tooling and discloses that development is AI-assisted. Requires the Doom 3 files the player owns.",
+  notesEs:
+    "DUDE (Doom3 Unified Development Engine) actualiza el motor Doom 3 de id Tech 4 con renderizado moderno, trazado de rayos y backend Vulkan. El repositorio publica su herramienta y declara que el desarrollo se apoya en IA. Requiere los archivos de Doom 3 que posea el jugador.",
 };

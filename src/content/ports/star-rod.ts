@@ -23,4 +23,6 @@ export const starRod: Port = {
   verifiedAt: "2026-09-19",
   notes:
     "Native port and modding toolkit for Paper Mario from the decompilation project. Requires the original Paper Mario N64 ROM (legally obtained).",
+  notesEs:
+    "Port nativo y kit de modding para Paper Mario a partir del proyecto de decompilación. Requiere la ROM original de Paper Mario para N64 (obtenida legalmente).",
 };

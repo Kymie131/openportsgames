@@ -25,6 +25,13 @@ export const redriver2: Port = {
     "Types and function names recovered from the retail .SYM debug symbols",
     "Windows and 64-bit Linux builds",
   ],
+  featuresEs: [
+    "Lógica del juego traducida de MIPS a C, sin intérprete de por medio",
+    "Tipos y nombres de función recuperados de los símbolos de depuración .SYM minoristas",
+    "Builds para Windows y Linux de 64 bits",
+  ],
   notes:
     "Driver 2 disassembled and translated to C by the OpenDriver2 team. Geometry still runs on Psy-X, which descends from an emulator, so it is not a from-scratch port. Needs the data files from your own PlayStation disc.",
+  notesEs:
+    "Driver 2 desensamblado y traducido a C por el equipo OpenDriver2. La geometría aún corre sobre Psy-X, que desciende de un emulador, así que no es un port desde cero. Necesita los archivos de datos de tu propio disco de PlayStation.",
 };

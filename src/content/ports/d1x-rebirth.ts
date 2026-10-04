@@ -22,4 +22,6 @@ export const d1xRebirth: Port = {
   verified: false,
   notes:
     "Source port of Descent from the same project as DXX-Rebirth, covering the first game rather than Descent II. Published as tagged builds without GitHub releases.",
+  notesEs:
+    "Port de código fuente de Descent del mismo proyecto que DXX-Rebirth, centrado en el primer juego en lugar de Descent II. Se publica como builds etiquetadas sin releases en GitHub.",
 };

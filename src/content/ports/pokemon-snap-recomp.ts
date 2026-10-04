@@ -24,6 +24,14 @@ export const pokemonSnapRecomp: Port = {
     "Photo export of the in-game camera shots",
     "Anti-aliasing up to 8x with cached shader programs",
   ],
+  featuresEs: [
+    "Panorámico y framerates más altos, desactivados por defecto para igualar el cartucho",
+    "Apuntado con ratón y giroscopio, reasignación de botones y avance rápido",
+    "Exportación de las fotos de la cámara del juego",
+    "Antialiasing de hasta 8x con programas de shader en caché",
+  ],
   notes:
     "Static recompilation of Pokémon Snap; the player supplies their own legally obtained game.",
+  notesEs:
+    "Recompilación estática de Pokémon Snap; el jugador aporta su propio juego obtenido legalmente.",
 };

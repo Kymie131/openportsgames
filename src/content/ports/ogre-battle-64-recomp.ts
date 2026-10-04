@@ -22,9 +22,12 @@ export const ogreBattle64Recomp: Port = {
   verified: false,
   originalSystem: "Nintendo 64",
   features: ["Keyboard-only play with optional XInput or SDL gamepad support"],
+  featuresEs: ["Juego solo con teclado, con soporte opcional de mando XInput o SDL"],
   requirements: {
     minimum:
       "Direct3D 12 with Shader Model 6.0 on Windows, or Vulkan 1.2 (Vulkan on other systems)",
   },
   notes: "Recompilation of Ogre Battle 64; the player supplies their own legally obtained game.",
+  notesEs:
+    "Recompilación de Ogre Battle 64; el jugador aporta su propio juego obtenido legalmente.",
 };

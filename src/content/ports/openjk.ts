@@ -23,4 +23,6 @@ export const openJk: Port = {
   verified: false,
   notes:
     "Community engine for Jedi Academy (and Jedi Outcast single-player) released by Raven Software. Distributed as a rolling 'latest' release. Requires original game files.",
+  notesEs:
+    "Motor comunitario de Jedi Academy (y el modo un jugador de Jedi Outcast) publicado por Raven Software. Se distribuye como release continua 'latest'. Requiere los archivos del juego original.",
 };

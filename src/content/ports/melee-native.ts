@@ -23,6 +23,9 @@ export const meleeNative: Port = {
   verifiedAt: "2026-09-22",
   originalSystem: "GameCube",
   features: ["Native Apple Silicon (macOS) build", "Native Linux x86-64 build"],
+  featuresEs: ["Build nativa para Apple Silicon (macOS)", "Build nativa para Linux x86-64"],
   notes:
     "Native port of Super Smash Bros. Melee built from the doldecomp research decompilation. First tagged release covers macOS Apple Silicon and Linux x86-64; Windows and Android builds are not published. Requires game files from a legally owned US NTSC 1.02 copy of the disc. The project, following its doldecomp origins, documents AI-assisted development in CONTRIBUTING.",
+  notesEs:
+    "Port nativo de Super Smash Bros. Melee construido a partir de la decompilación de investigación doldecomp. La primera release etiquetada cubre macOS Apple Silicon y Linux x86-64; no se publican builds para Windows ni Android. Requiere archivos del juego de una copia del disco USA NTSC 1.02 poseída legalmente. El proyecto, siguiendo sus orígenes doldecomp, documenta el desarrollo asistido por IA en CONTRIBUTING.",
 };

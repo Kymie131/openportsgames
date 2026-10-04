@@ -19,6 +19,9 @@ export const islePortable: Port = {
   verified: false,
   originalSystem: "Microsoft Windows",
   features: ["Cross-platform desktop builds", "Android build", "SDL2 backends"],
+  featuresEs: ["Builds de escritorio multiplataforma", "Build para Android", "Backends SDL2"],
   notes:
     "Source-based reimplementation of LEGO Island. The only GitHub release is a rolling continuous build rather than a numbered version.",
+  notesEs:
+    "Reimplementación basada en código fuente de LEGO Island. La única release de GitHub es una build continua y no una versión numerada.",
 };

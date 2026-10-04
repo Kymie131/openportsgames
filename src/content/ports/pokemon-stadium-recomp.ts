@@ -24,6 +24,13 @@ export const pokemonStadiumRecomp: Port = {
     "4x MSAA anti-aliasing enabled by default",
     "Graphics and control settings remembered between sessions",
   ],
+  featuresEs: [
+    "Hasta cuatro mandos de jugador, asignables a ranuras individuales",
+    "Antialiasing 4x MSAA activado por defecto",
+    "Ajustes de gráficos y control recordados entre sesiones",
+  ],
   notes:
     "Pokémon Stadium (US v1.0) recompiled with a fork of N64Recomp; the player supplies their own legally obtained cartridge. The project documents antivirus and Windows SmartScreen false positives on the build.",
+  notesEs:
+    "Pokémon Stadium (USA v1.0) recompilado con un fork de N64Recomp; el jugador aporta su propio cartucho obtenido legalmente. El proyecto documenta falsos positivos de antivirus y Windows SmartScreen sobre la build.",
 };

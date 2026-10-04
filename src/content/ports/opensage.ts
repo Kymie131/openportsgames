@@ -24,4 +24,6 @@ export const opensage: Port = {
   verified: false,
   notes:
     "Reimplementation of the SAGE engine behind Command & Conquer: Generals and Zero Hour, written in C#. Windows is the primary target and no tagged releases exist yet.",
+  notesEs:
+    "Reimplementación del motor SAGE de Command & Conquer: Generals y Zero Hour, escrita en C#. Windows es el destino principal y aún no existen releases etiquetadas.",
 };

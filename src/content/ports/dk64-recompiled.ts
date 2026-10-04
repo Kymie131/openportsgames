@@ -25,6 +25,14 @@ export const dk64Recompiled: Port = {
     "Widescreen and ultrawide with a repositionable HUD",
     "In-game config menus and instant saves",
   ],
+  featuresEs: [
+    "Builds para Windows, Linux (x86-64/ARM64/Flatpak) y macOS ARM64",
+    "Refrescos altos sin afectar la jugabilidad",
+    "Panorámico y ultrapanorámico con HUD reposicionable",
+    "Menús de configuración en el juego y guardados instantáneos",
+  ],
   notes:
     "Native recompilation of Donkey Kong 64 produced with N64Recomp. The player loads their own legally obtained N64 ROM; the port recompiles the game code instead of emulating it.",
+  notesEs:
+    "Recompilación nativa de Donkey Kong 64 realizada con N64Recomp. El jugador carga su propia ROM de N64 obtenida legalmente; el port recompila el código del juego en lugar de emularlo.",
 };

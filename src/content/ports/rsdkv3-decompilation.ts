@@ -27,6 +27,13 @@ export const rsdkv3Decompilation: Port = {
     "Built-in mod loader and modding API",
     "Partial support for the Sonic Origins versions of the game",
   ],
+  featuresEs: [
+    "Builds para Windows, Linux, macOS y Android",
+    "Cargador de mods y API de modding integrados",
+    "Soporte parcial para las versiones del juego de Sonic Origins",
+  ],
   notes:
     "Full decompilation of Retro Engine v3 behind the 2011 Sonic CD remake, maintained by the RSDK Modding team. Needs data.rsdk from your own copy of Sonic CD (2011); the Origins builds leave some features out.",
+  notesEs:
+    "Decompilación completa de Retro Engine v3, el motor detrás del remake de Sonic CD de 2011, mantenida por el equipo RSDK Modding. Necesita data.rsdk de tu propia copia de Sonic CD (2011); las versiones de Origins dejan fuera algunas funciones.",
 };

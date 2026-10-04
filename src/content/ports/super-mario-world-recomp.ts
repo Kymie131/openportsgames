@@ -26,6 +26,12 @@ export const superMarioWorldRecomp: Port = {
     "SMW Adaptive Widescreen mod enabled from the launcher's Mods page",
     "Aspect ratio options: fit to screen by default, plus fixed ratios",
   ],
+  featuresEs: [
+    "Mod SMW Adaptive Widescreen activado desde la página Mods del lanzador",
+    "Opciones de relación de aspecto: ajustar a pantalla por defecto, más relaciones fijas",
+  ],
   notes:
     "Super Mario World recompiled for the Super Nintendo with snesrecomp; the player supplies their own legally obtained game.",
+  notesEs:
+    "Super Mario World recompilado para Super Nintendo con snesrecomp; el jugador aporta su propio juego obtenido legalmente.",
 };

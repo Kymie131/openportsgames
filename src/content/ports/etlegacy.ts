@@ -24,6 +24,12 @@ export const etLegacy: Port = {
     "Continuation of the open source Enemy Territory code",
     "Modern engine improvements and fixes",
   ],
+  featuresEs: [
+    "Continuación del código abierto de Enemy Territory",
+    "Mejoras y arreglos modernos del motor",
+  ],
   notes:
     "Community continuation of the open source Wolfenstein: Enemy Territory codebase. No tagged releases are published.",
+  notesEs:
+    "Continuación comunitaria del código abierto de Wolfenstein: Enemy Territory. No se publican releases etiquetadas.",
 };

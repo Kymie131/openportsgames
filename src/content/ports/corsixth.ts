@@ -33,4 +33,6 @@ export const corsixth: Port = {
   ],
   notes:
     "Re-implementation of the Theme Hospital engine that loads the original game data. The free demo and the GOG release of the game are supported.",
+  notesEs:
+    "Reimplementación del motor de Theme Hospital que carga los datos del juego original. Se admiten tanto la demo gratuita como la versión de GOG del juego.",
 };

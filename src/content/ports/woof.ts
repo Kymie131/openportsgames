@@ -25,7 +25,13 @@ export const woofPort: Port = {
     "High-resolution replacement textures",
     "SDL2 input and video backends",
   ],
+  featuresEs: [
+    "Múltiples modos de juego, incluidos Boom y MBF",
+    "Texturas de reemplazo de alta resolución",
+    "Backends de entrada y video SDL2",
+  ],
   notes: "Doom engine covering the Doom 1, Doom 2 and Boom era limits, with SDL2 backends.",
+  notesEs: "Motor de Doom que cubre la era de Doom 1, Doom 2 y Boom, con backends SDL2.",
   screenshots: [
     {
       src: "https://raw.githubusercontent.com/fabiangreffrath/woof/master/data/woof.png",

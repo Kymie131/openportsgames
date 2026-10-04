@@ -21,4 +21,6 @@ export const reOne: Port = {
   originalSystem: "Microsoft Windows",
   notes:
     "Engine reimplementation for Knights of the Old Republic. No tagged releases are published.",
+  notesEs:
+    "Reimplementación del motor de Knights of the Old Republic. No se publican releases etiquetadas.",
 };

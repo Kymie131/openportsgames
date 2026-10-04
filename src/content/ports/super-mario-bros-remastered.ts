@@ -27,4 +27,6 @@ export const superMarioBrosRemastered: Port = {
   originalSystem: "Nintendo Entertainment System",
   notes:
     "Community remake of Super Mario Bros. built from scratch in Godot. The project is a fresh reimplementation rather than a build of the original game code, and it reuses audio and sprite assets from the original release. Distributed as versioned releases, the latest stable being 1.1.0. Because of those Nintendo-owned assets this entry stays unverified.",
+  notesEs:
+    "Remake comunitario de Super Mario Bros. construido desde cero en Godot. El proyecto es una reimplementación nueva y no una build del código original, y reutiliza recursos de audio y sprites del lanzamiento original. Se distribuye como releases versionadas, siendo 1.1.0 la última estable. Por esos recursos propiedad de Nintendo, esta ficha permanece sin verificar.",
 };

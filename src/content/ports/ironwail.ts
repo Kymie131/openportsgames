@@ -24,6 +24,13 @@ export const ironwail: Port = {
     "Quakespasm base with extended limits",
     "16-bit texture and sprite support",
   ],
+  featuresEs: [
+    "Backends SDL2 para video y entrada",
+    "Base Quakespasm con límites ampliados",
+    "Soporte de texturas y sprites de 16 bits",
+  ],
   notes:
     "Quake source port built on the Quakespasm codebase. The project requires OpenGL 4.3, so macOS builds are not provided.",
+  notesEs:
+    "Port de código fuente de Quake construido sobre el código de Quakespasm. El proyecto requiere OpenGL 4.3, por lo que no se ofrecen builds para macOS.",
 };

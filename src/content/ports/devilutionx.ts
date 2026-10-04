@@ -31,6 +31,8 @@ export const devilutionX: Port = {
   ],
   notes:
     "Reverse-engineered engine for Diablo and the Hellfire expansion, rebuilt for modern systems. Requires the original Diablo 1 and Hellfire data files.",
+  notesEs:
+    "Motor reconstruido a partir de ingeniería inversa para Diablo y la expansión Hellfire, adaptado a sistemas modernos. Requiere los archivos de datos originales de Diablo 1 y Hellfire.",
   installGuide: {
     steps: [
       "Own a copy of Diablo, from the original CD or a storefront re-release.",

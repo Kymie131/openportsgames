@@ -28,6 +28,13 @@ export const dsdaDoom: Port = {
     "Configurable keyboard and mouse emulation",
     "Binds every command to keys and buttons independently",
   ],
+  featuresEs: [
+    "Reproducción de demos compatible con el formato de demo original",
+    "Emulación de teclado y ratón configurable",
+    "Asigna cada comando a teclas y botones de forma independiente",
+  ],
   notes:
     "Doom source port oriented around deterministic demo playback. No project-wide license file declares the terms for the full tree.",
+  notesEs:
+    "Port de código fuente de Doom orientado a la reproducción determinista de demos. No hay un archivo de licencia global que declare los términos de todo el árbol.",
 };

@@ -20,6 +20,9 @@ export const openTyrian: Port = {
   verifiedAt: "2026-10-01",
   originalSystem: "MS-DOS",
   features: ["Cross-platform SDL2 builds", "Supports the full game data set"],
+  featuresEs: ["Builds SDL2 multiplataforma", "Compatible con todo el conjunto de datos del juego"],
   notes:
     "Open source port of the vertical scrolling shooter Tyrian. The game data is not included and must be supplied by the player.",
+  notesEs:
+    "Port de código abierto del shooter de desplazamiento vertical Tyrian. Los datos del juego no se incluyen y debe aportarlos el jugador.",
 };

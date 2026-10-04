@@ -23,4 +23,6 @@ export const vcmi: Port = {
   verified: false,
   notes:
     "Open-source recreation of the Heroes of Might and Magic III engine, loadable with the original game data. Active development with a long release history.",
+  notesEs:
+    "Recreación de código abierto del motor de Heroes of Might and Magic III, cargable con los datos del juego original. Desarrollo activo con un largo historial de releases.",
 };

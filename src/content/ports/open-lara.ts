@@ -22,6 +22,8 @@ export const openLara: Port = {
   verified: false,
   notes:
     "Reverse-engineered engine for the original Tomb Raider. No numbered releases; builds track the repository. Requires Tomb Raider 1 data files (legally obtained).",
+  notesEs:
+    "Motor reconstruido por ingeniería inversa para el Tomb Raider original. Sin releases numeradas; las builds siguen el repositorio. Requiere los archivos de datos de Tomb Raider 1 (obtenidos legalmente).",
   installGuide: {
     steps: [
       "Own Tomb Raider 1, from the original PC release or a storefront re-release.",

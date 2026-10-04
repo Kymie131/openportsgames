@@ -46,6 +46,8 @@ export const openmw: Port = {
   ],
   notes:
     "Recreation of the Morrowind engine with mod support and an official Android build. Requires the original Morrowind game files.",
+  notesEs:
+    "Recreación del motor de Morrowind con soporte de mods y build oficial para Android. Requiere los archivos del juego original de Morrowind.",
   installGuide: {
     steps: [
       "Own a copy of The Elder Scrolls III: Morrowind; the Tribunal and Bloodmoon expansions add their content too.",

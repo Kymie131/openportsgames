@@ -32,6 +32,14 @@ export const unleashedRecompiled: Port = {
     "Mod support via the Hedge Mod Manager",
     "Achievements and mission progress",
   ],
+  featuresEs: [
+    "60 FPS con soporte de refresco alto",
+    "Ultrapanorámico y altas resoluciones",
+    "Soporte de mods mediante Hedge Mod Manager",
+    "Logros y progreso de misiones",
+  ],
   notes:
     "Native Windows and Linux port of Sonic Unleashed produced by statically recompiling the Xbox 360 PowerPC binary. Requires the game dump from a disc or digital copy you own; the project does not publish one and disclaims any affiliation with its author. Released by the hedge-dev team behind HedgeDev.",
+  notesEs:
+    "Port nativo para Windows y Linux de Sonic Unleashed producido recompilando estáticamente el binario PowerPC de Xbox 360. Requiere el volcado del juego de un disco o copia digital que poseas; el proyecto no publica ninguno y declara no tener afiliación con su autor. Publicado por el equipo hedge-dev detrás de HedgeDev.",
 };

@@ -149,6 +149,7 @@ const en = {
     resultFail: "Fail",
     report: "Report a broken link or wrong data",
     notFound: "Port not found",
+    onlyEnglish: "Text available only in English.",
   },
   testing: {
     title: "Testing",
@@ -533,6 +534,7 @@ const es: Messages = {
     resultFail: "Fallido",
     report: "Informar de un enlace roto o datos incorrectos",
     notFound: "Port no encontrado",
+    onlyEnglish: "Texto disponible solo en inglés.",
   },
   testing: {
     title: "Pruebas",

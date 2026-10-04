@@ -20,4 +20,6 @@ export const julius: Port = {
   verifiedAt: "2026-09-25",
   notes:
     "Open-source re-implementation of Caesar III that runs with the original game files. On top of the stable releases, the project publishes continuous (weekly) builds.",
+  notesEs:
+    "Reimplementación de código abierto de Caesar III que funciona con los archivos del juego original. Además de las releases estables, el proyecto publica builds continuas (semanales).",
 };

@@ -20,5 +20,10 @@ export const settlers2: Port = {
   verifiedAt: "2026-10-01",
   originalSystem: "MS-DOS",
   features: ["Cross-platform desktop builds", "Extended scenario and scripting support"],
+  featuresEs: [
+    "Builds de escritorio multiplataforma",
+    "Soporte ampliado de escenarios y scripting",
+  ],
   notes: "Open source reimplementation of The Settlers II engine.",
+  notesEs: "Reimplementación de código abierto del motor de The Settlers II.",
 };

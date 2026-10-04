@@ -22,6 +22,8 @@ export const sm64ex: Port = {
   verified: false,
   notes:
     "Native PC port from the Super Mario 64 decompilation. No numbered releases; builds track the repository. Requires a legally obtained North American Super Mario 64 ROM.",
+  notesEs:
+    "Port nativo para PC a partir de la decompilación de Super Mario 64. Sin releases numeradas; las builds siguen el repositorio. Requiere una ROM norteamericana de Super Mario 64 obtenida legalmente.",
   installGuide: {
     steps: [
       "Own a physical or digital copy of Super Mario 64; the build needs the original North American (U) ROM.",

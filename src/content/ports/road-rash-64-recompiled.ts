@@ -25,6 +25,14 @@ export const roadRash64Recompiled: Port = {
     "Custom music rotation and 52 local achievements",
     "Split-screen and experimental online multiplayer",
   ],
+  featuresEs: [
+    "Presentación a 60 FPS con deslizador de 30-240 FPS",
+    "Soporte panorámico 16:9 y 21:9 con deslizador de distancia de dibujado",
+    "Rotación de música personalizada y 52 logros locales",
+    "Pantalla dividida y multijugador en línea experimental",
+  ],
   notes:
     "Native recompilation of Road Rash 64. The README discloses that AI was used extensively during development, including code changes, debugging and launcher artwork. Requires the player's own legally obtained ROM.",
+  notesEs:
+    "Recompilación nativa de Road Rash 64. El README declara que se usó IA de forma extensiva durante el desarrollo, incluidos cambios de código, depuración y arte del lanzador. Requiere la ROM obtenida legalmente por el jugador.",
 };

@@ -20,4 +20,5 @@ export const rottexpr: Port = {
   verifiedAt: "2026-10-01",
   originalSystem: "MS-DOS",
   notes: "Experimental Rise of the Triad engine rewrite.",
+  notesEs: "Reescritura experimental del motor de Rise of the Triad.",
 };

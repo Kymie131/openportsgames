@@ -24,8 +24,15 @@ export const openEnroth: Port = {
     "Android build",
     "Modern rendering and input",
   ],
+  featuresEs: [
+    "Motor unificado para varios títulos de Might and Magic",
+    "Build para Android",
+    "Renderizado e entrada modernos",
+  ],
   notes:
     "Cross-platform engine covering several Might and Magic installments. The single GitHub release is a prerelease, so no stable version is recorded.",
+  notesEs:
+    "Motor multiplataforma que cubre varias entregas de Might and Magic. La única release de GitHub es preliminar, así que no se registra versión estable.",
   screenshots: [
     {
       src: "https://user-images.githubusercontent.com/24377109/79051217-491a7800-7c2f-11ea-85c7-f9120b7d79dd.png",

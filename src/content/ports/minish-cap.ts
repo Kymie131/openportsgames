@@ -24,4 +24,6 @@ export const minishCap: Port = {
   originalSystem: "Game Boy Advance",
   notes:
     "Decompilation of The Legend of Zelda: The Minish Cap (Game Boy Advance) by the Zelda Recompilation project. Active research codebase with no tagged releases; a playable native build is not yet distributed. Requires game files from a copy you own.",
+  notesEs:
+    "Decompilación de The Legend of Zelda: The Minish Cap (Game Boy Advance) por el proyecto Zelda Recompilation. Código de investigación activo sin releases etiquetadas; aún no se distribuye una build nativa jugable. Requiere archivos del juego de una copia que poseas.",
 };

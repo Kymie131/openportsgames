@@ -28,6 +28,14 @@ export const waveRace64Recompiled: Port = {
     "High-definition texture mappings and re-recorded soundtrack",
     "Event-based controller haptics",
   ],
+  featuresEs: [
+    "Builds para Windows x64 y macOS Apple Silicon",
+    "Renderizado nativo D3D12 / Metal con agua dinámica",
+    "Mapeos de texturas en alta definición y banda sonora regrabada",
+    "Respuesta háptica del mando basada en eventos",
+  ],
   notes:
     "Native recompilation of Wave Race 64. The repository openly describes itself as an AI-coded port, which the catalog records as AI-assisted development. Requires the player's own legally obtained Wave Race 64 ROM.",
+  notesEs:
+    "Recompilación nativa de Wave Race 64. El repositorio se describe abiertamente como un port programado por IA, lo que el catálogo registra como desarrollo asistido por IA. Requiere la ROM de Wave Race 64 obtenida legalmente por el jugador.",
 };

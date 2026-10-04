@@ -26,6 +26,13 @@ export const keeperFx: Port = {
     "Extra campaigns, maps, creatures and mod support",
     "Multiplayer over a modern protocol with a dedicated master server",
   ],
+  featuresEs: [
+    "Resoluciones mayores y framerate desacoplado de la lógica del juego",
+    "Campañas, mapas, criaturas y soporte de mods adicionales",
+    "Multijugador sobre un protocolo moderno con servidor maestro dedicado",
+  ],
   notes:
     "Started as a Dungeon Keeper decompilation and is now a full rewrite plus a fan expansion. Windows only, with native cross-platform builds listed as future work. Requires the original Dungeon Keeper files.",
+  notesEs:
+    "Empezó como decompilación de Dungeon Keeper y hoy es una reescritura completa más una expansión fan. Solo Windows, con builds nativas multiplataforma anunciadas como trabajo futuro. Requiere los archivos originales de Dungeon Keeper.",
 };

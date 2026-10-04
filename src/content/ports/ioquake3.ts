@@ -20,6 +20,8 @@ export const ioquake3: Port = {
   verified: false,
   notes:
     "Community source port of Quake III Arena, actively maintained by the ioquake3 team. Distributed as a rolling 'latest' release from the official website. Requires the original game files.",
+  notesEs:
+    "Port de código fuente comunitario de Quake III Arena, mantenido activamente por el equipo ioquake3. Se distribuye como release continua 'latest' desde el sitio oficial. Requiere los archivos del juego original.",
   screenshots: [
     {
       src: "https://user-images.githubusercontent.com/903791/152968830-dd08737b-55c6-4ac6-9610-31121ea0e8c6.png",

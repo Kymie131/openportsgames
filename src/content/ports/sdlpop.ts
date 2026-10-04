@@ -19,6 +19,13 @@ export const sdlPoP: Port = {
   verified: false,
   originalSystem: "MS-DOS",
   features: ["SDL2 backends", "Restored level editor", "Modern display scaling options"],
+  featuresEs: [
+    "Backends SDL2",
+    "Editor de niveles restaurado",
+    "Opciones modernas de escalado de pantalla",
+  ],
   notes:
     "Port of the Apple II original of Prince of Persia. No tagged releases are published on GitHub.",
+  notesEs:
+    "Port del Prince of Persia original de Apple II. No se publican releases etiquetadas en GitHub.",
 };

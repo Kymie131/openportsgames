@@ -25,8 +25,16 @@ export const conkerBadFurDayRecomp: Port = {
     "Remappable controller and keyboard controls with rumble",
     "Mod support through .nrm function patches and hooks",
   ],
+  featuresEs: [
+    "Renderizador RT64 con resoluciones mayores, panorámico y antialiasing",
+    "Presentación a framerate alto",
+    "Controles de mando y teclado reasignables con vibración",
+    "Soporte de mods mediante parches de función .nrm y hooks",
+  ],
   notes:
     "Recompilation of Conker's Bad Fur Day; the player supplies their own legally obtained game.",
+  notesEs:
+    "Recompilación de Conker's Bad Fur Day; el jugador aporta su propio juego obtenido legalmente.",
   screenshots: [
     {
       src: "https://github.com/user-attachments/assets/abb979d7-24a5-44f8-98d3-088ba2054a74",

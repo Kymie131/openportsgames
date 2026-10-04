@@ -44,4 +44,6 @@ export const openra: Port = {
   originalSystem: "MS-DOS",
   notes:
     "Reimplementation of the Command & Conquer real-time strategy games, supporting Red Alert, Tiberian Dawn and Dune 2000 alongside modern quality-of-life features, online multiplayer and a dedicated launcher. Version numbers follow date-based releases (the 2025.0330 build corresponds to the release-20250330 tag).",
+  notesEs:
+    "Reimplementación de los juegos de estrategia en tiempo real de Command & Conquer, compatible con Red Alert, Tiberian Dawn y Dune 2000, además de mejoras modernas de calidad de vida, multijugador en línea y un lanzador dedicado. Los números de versión siguen releases basadas en fecha (la build 2025.0330 corresponde a la etiqueta release-20250330).",
 };

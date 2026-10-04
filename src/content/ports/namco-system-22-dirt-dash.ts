@@ -24,6 +24,11 @@ export const namcoSystem22DirtDash: Port = {
     "Widescreen rendering on top of the original Mode 22 output",
     "Windows and Linux packages on the releases page, no building needed",
   ],
+  featuresEs: [
+    "Las cinco etapas jugables, con sonido",
+    "Renderizado panorámico sobre la salida Mode 22 original",
+    "Paquetes para Windows y Linux en la página de releases, sin necesidad de compilar",
+  ],
   requirements: {
     minimum: "Your own Dirt Dash ROM set from MAME 0.271 or later (dirtdash.zip)",
   },
@@ -36,4 +41,6 @@ export const namcoSystem22DirtDash: Port = {
   ],
   notes:
     "Decompilation of the 1995 Namco arcade rally game for PC. All five tracks are finished, which is more than the arcade original shipped with.",
+  notesEs:
+    "Decompilación del juego arcade de rally de Namco de 1995 para PC. Las cinco pistas están terminadas, más de las que incluía el arcade original.",
 };

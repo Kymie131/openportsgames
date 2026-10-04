@@ -23,4 +23,6 @@ export const fallout1Ce: Port = {
   verifiedAt: "2026-09-19",
   notes:
     "Community engine for Fallout rebuilt for modern operating systems. Requires the original Fallout game files.",
+  notesEs:
+    "Motor comunitario de Fallout adaptado a sistemas operativos modernos. Requiere los archivos del juego original de Fallout.",
 };

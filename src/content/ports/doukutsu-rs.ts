@@ -22,8 +22,15 @@ export const doukutsuRs: Port = {
   verifiedAt: "2026-10-01",
   originalSystem: "Microsoft Windows",
   features: ["Cross-platform desktop builds", "Android build", "Multiple unofficial translations"],
+  featuresEs: [
+    "Builds de escritorio multiplataforma",
+    "Build para Android",
+    "Múltiples traducciones no oficiales",
+  ],
   notes:
     "Unofficial open source port of Cave Story. The original freeware game data is required and is not distributed with the repository.",
+  notesEs:
+    "Port no oficial de código abierto de Cave Story. Se requieren los datos del juego original gratuito y el repositorio no los distribuye.",
   screenshots: [
     {
       src: "https://i.imgur.com/3dJ7WMB.png",

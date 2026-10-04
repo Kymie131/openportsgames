@@ -47,6 +47,8 @@ export const daggerfallUnity: Port = {
   ],
   notes:
     "Open source recreation of Daggerfall on the Unity engine, now free to play for everyone. The Daggerfall Unity Installer bundles the required game data.",
+  notesEs:
+    "Recreación de código abierto de Daggerfall sobre el motor Unity, ahora gratis para todos. El instalador de Daggerfall Unity incluye los datos del juego necesarios.",
   installGuide: {
     steps: [
       "Install the Daggerfall Unity Installer from the project's releases; Daggerfall itself is freeware and the installer handles the data.",

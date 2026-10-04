@@ -19,9 +19,12 @@ export const quest64Recomp: Port = {
   verified: false,
   originalSystem: "Nintendo 64",
   features: ["Widescreen and ultrawide support", "Mod support"],
+  featuresEs: ["Soporte panorámico y ultrapanorámico", "Soporte de mods"],
   requirements: {
     minimum: "x86-64 CPU with SSE4.1, such as an Intel Core 2 Penryn or newer",
   },
   notes:
     "Recompilation of Quest 64 that requires the 1.0 North American release of the game. Only a Windows executable is published so far, with other systems announced. Very wide aspect ratios can show animation artifacts at the screen edges.",
+  notesEs:
+    "Recompilación de Quest 64 que requiere la versión 1.0 norteamericana del juego. Por ahora solo se publica un ejecutable para Windows, con otros sistemas anunciados. Las relaciones de aspecto muy anchas pueden mostrar artefactos de animación en los bordes de la pantalla.",
 };

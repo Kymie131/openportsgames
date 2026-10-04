@@ -104,7 +104,10 @@ export function PortDetail({
         <figure className="relative flex aspect-video items-center justify-center overflow-hidden rounded-lg border border-border bg-gradient-to-br from-surface-2 to-surface">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,color-mix(in_srgb,var(--accent)_12%,transparent)_0%,transparent_65%)]" />
           <div className="relative z-10 flex flex-col items-center gap-2">
-            <span className="text-7xl font-bold tracking-tight text-foreground/30 font-mono" aria-hidden="true">
+            <span
+              className="text-7xl font-bold tracking-tight text-foreground/30 font-mono"
+              aria-hidden="true"
+            >
               {port.game.charAt(0)}
             </span>
             <span className="text-sm font-mono text-muted tracking-wider uppercase">
@@ -140,7 +143,12 @@ export function PortDetail({
       {port.notes && (
         <section className="flex flex-col gap-2">
           <h2 className="text-lg font-semibold tracking-tight">{t.detail.about}</h2>
-          <p className="text-sm leading-relaxed text-muted">{port.notes}</p>
+          <p className="text-sm leading-relaxed text-muted">
+            {locale === "es" ? (port.notesEs ?? port.notes) : port.notes}
+          </p>
+          {locale === "es" && !port.notesEs && (
+            <p className="text-xs text-muted">{t.detail.onlyEnglish}</p>
+          )}
           {needsOriginalAssets && <p className="text-sm text-muted">{t.detail.dependencies}</p>}
         </section>
       )}
@@ -149,10 +157,15 @@ export function PortDetail({
         <section className="flex flex-col gap-2">
           <h2 className="text-lg font-semibold tracking-tight">{t.detail.features}</h2>
           <ul className="flex list-disc flex-col gap-1.5 pl-5 text-sm text-muted">
-            {port.features.map((feature) => (
-              <li key={feature}>{feature}</li>
-            ))}
+            {(locale === "es" && port.featuresEs ? port.featuresEs : port.features).map(
+              (feature) => (
+                <li key={feature}>{feature}</li>
+              ),
+            )}
           </ul>
+          {locale === "es" && !port.featuresEs && (
+            <p className="text-xs text-muted">{t.detail.onlyEnglish}</p>
+          )}
         </section>
       )}
 

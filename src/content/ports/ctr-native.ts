@@ -24,6 +24,13 @@ export const ctrNative: Port = {
     "Retail-parity Adventure, menu, cutscene and audio states",
     "Replay recording for bug reports",
   ],
+  featuresEs: [
+    "Carga directa de la imagen de disco minorista NTSC-U",
+    "Estados de aventura, menús, cinemáticas y audio fieles al minorista",
+    "Grabación de repeticiones para reportes de errores",
+  ],
   notes:
     "Native port of Crash Team Racing rebuilt from the original PlayStation code, distributed as beta/playtest releases. Requires your own NTSC-U retail disc image (assets/ctr-u.bin) and an OpenGL 3.3 capable GPU.",
+  notesEs:
+    "Port nativo de Crash Team Racing reconstruido a partir del código original de PlayStation y distribuido como releases beta de prueba. Requiere tu propia imagen de disco minorista NTSC-U (assets/ctr-u.bin) y una GPU compatible con OpenGL 3.3.",
 };

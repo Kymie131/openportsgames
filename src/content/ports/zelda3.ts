@@ -27,8 +27,14 @@ export const zelda3: Port = {
     "Native builds for Windows and Linux",
     "Plays from the original zelda3.sfc ROM placed next to the executable",
   ],
+  featuresEs: [
+    "Builds nativas para Windows y Linux",
+    "Se ejecuta desde la ROM original zelda3.sfc colocada junto al ejecutable",
+  ],
   notes:
     "Native port of The Legend of Zelda: A Link to the Past produced from the Super Nintendo source code, distributed as the tagged v0.3 release. Requires a legally owned ROM of the game.",
+  notesEs:
+    "Port nativo de The Legend of Zelda: A Link to the Past producido a partir del código fuente de Super Nintendo y distribuido como la release etiquetada v0.3. Requiere una ROM del juego obtenida legalmente.",
   installGuide: {
     steps: [
       "Own a copy of A Link to the Past for the Super Nintendo (North American).",

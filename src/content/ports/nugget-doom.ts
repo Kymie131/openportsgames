@@ -23,7 +23,13 @@ export const nuggetDoom: Port = {
     "Modern renderer with shadows and reflections",
     "Extensive modding and scripting support",
   ],
+  featuresEs: [
+    "Renderizador moderno con sombras y reflejos",
+    "Amplio soporte de modding y scripting",
+  ],
   notes: "Cross-platform Doom source port with a modern renderer and a focus on extensibility.",
+  notesEs:
+    "Port de código fuente de Doom multiplataforma con un renderizador moderno y enfoque en la extensibilidad.",
   screenshots: [
     {
       src: "https://raw.githubusercontent.com/MrAlaux/Nugget-Doom/master/data/nugget-doom.png",

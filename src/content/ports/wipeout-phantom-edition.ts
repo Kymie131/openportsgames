@@ -27,6 +27,13 @@ export const wipeoutPhantomEdition: Port = {
     "Widescreen and high resolution rendering options",
     "Automatic data extraction from a PlayStation disc image",
   ],
+  featuresEs: [
+    "Framerate sin límite desacoplado de la simulación",
+    "Opciones de renderizado panorámico y de alta resolución",
+    "Extracción automática de datos desde una imagen de disco de PlayStation",
+  ],
   notes:
     "Source port of the PlayStation WipeOut that follows the original more closely than the 1996 PC release. Binaries only, the repository holds the readme and screenshots. Needs the USA PlayStation data.",
+  notesEs:
+    "Port de código fuente del WipeOut de PlayStation que sigue más de cerca al original que la versión de PC de 1996. Solo binarios; el repositorio contiene el readme y las capturas. Necesita los datos de la versión USA de PlayStation.",
 };

@@ -25,6 +25,12 @@ export const alephOne: Port = {
     "Ready-to-run packages for Marathon, Marathon 2 and Marathon Infinity",
     "macOS, Windows and Linux Flatpak builds published together",
   ],
+  featuresEs: [
+    "Paquetes listos para ejecutar Marathon, Marathon 2 y Marathon Infinity",
+    "Builds de macOS, Windows y Flatpak de Linux publicadas juntas",
+  ],
   notes:
     "Open source continuation of Bungie's Marathon 2 engine, played with the original game data. Upstream tags releases by date instead of semantic versioning, so the version mirrors the 20250829 build.",
+  notesEs:
+    "Continuación de código abierto del motor de Marathon 2 de Bungie, jugable con los datos del juego original. El proyecto etiqueta sus versiones por fecha en lugar de versionado semántico, así que la versión refleja la build 20250829.",
 };

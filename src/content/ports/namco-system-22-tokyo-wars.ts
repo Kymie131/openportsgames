@@ -24,6 +24,11 @@ export const namcoSystem22TokyoWars: Port = {
     "Widescreen rendering on top of the original Mode 22 output",
     "Windows and Linux packages on the releases page, no building needed",
   ],
+  featuresEs: [
+    "Modo attract y juego completo jugables, con sonido",
+    "Renderizado panorámico sobre la salida Mode 22 original",
+    "Paquetes para Windows y Linux en la página de releases, sin necesidad de compilar",
+  ],
   requirements: {
     minimum: "Your own Tokyo Wars ROM set from MAME 0.271 or later (tokyowar.zip)",
   },
@@ -36,4 +41,6 @@ export const namcoSystem22TokyoWars: Port = {
   ],
   notes:
     "Decompilation of the 1996 Namco arcade tank combat game for PC. Single ROM set, no separate sound board data required.",
+  notesEs:
+    "Decompilación del juego arcade de combate de tanques de Namco de 1996 para PC. Un único set de ROM, sin datos de placa de sonido aparte.",
 };

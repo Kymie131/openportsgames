@@ -22,6 +22,12 @@ export const theForceEngine: Port = {
   verifiedAt: "2026-10-01",
   originalSystem: "MS-DOS",
   features: ["Reimplementation of the Rebel Assault engine", "Modern rendering and audio backends"],
+  featuresEs: [
+    "Reimplementación del motor de Rebel Assault",
+    "Backends modernos de renderizado y audio",
+  ],
   notes:
     "Engine reimplementation targeting the games built on the Dark Forces engine. Original game assets are not distributed.",
+  notesEs:
+    "Reimplementación del motor orientada a los juegos construidos con el motor Dark Forces. Los recursos del juego original no se distribuyen.",
 };

@@ -21,4 +21,6 @@ export const openRw: Port = {
   originalSystem: "Microsoft Windows",
   notes:
     "Unofficial open source recreation of the original game executable. No tagged releases are published, so builds track the repository. A legitimate PC copy of Grand Theft Auto III is required to play.",
+  notesEs:
+    "Recreación no oficial de código abierto del ejecutable del juego original. No se publican releases etiquetadas, así que las builds siguen el repositorio. Se necesita una copia legítima de Grand Theft Auto III para PC.",
 };

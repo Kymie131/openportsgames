@@ -25,6 +25,9 @@ export const librelancer: Port = {
   verifiedAt: "2026-10-01",
   originalSystem: "Microsoft Windows",
   features: ["Reimplementation of the Freelancer engine", "Cross-platform C++ codebase"],
+  featuresEs: ["Reimplementación del motor de Freelancer", "Base de código C++ multiplataforma"],
   notes:
     "Engine reimplementation for Freelancer. The repository ships an MIT LICENSE file even though the GitHub license field reports NOASSERTION.",
+  notesEs:
+    "Reimplementación del motor de Freelancer. El repositorio incluye un archivo LICENSE MIT aunque el campo de licencia de GitHub informa NOASSERTION.",
 };

@@ -24,6 +24,12 @@ export const chocolateDoom: Port = {
     "Release bundles sibling ports for Heretic, Hexen and Strife",
     "macOS builds for both Intel and Apple Silicon",
   ],
+  featuresEs: [
+    "Opción para activar o desactivar el escalado suave de píxeles",
+    "Formato de textura OpenGL nativo para mejor rendimiento",
+    "Los paquetes de release incluyen ports hermanos para Heretic, Hexen y Strife",
+    "Builds de macOS para Intel y Apple Silicon",
+  ],
   screenshots: [
     {
       src: "https://www.chocolate-doom.org/wiki/images/thumb/b/b0/Chocolate_Windows_10.png/400px-Chocolate_Windows_10.png",
@@ -38,4 +44,6 @@ export const chocolateDoom: Port = {
   ],
   notes:
     "Minimalist Doom source port that aims to stay faithful to vanilla Doom while running on modern systems. Published binaries cover Windows and macOS; other systems are built from source.",
+  notesEs:
+    "Port de código fuente minimalista de Doom que busca mantenerse fiel al Doom original sobre sistemas modernos. Los binarios publicados cubren Windows y macOS; el resto de sistemas se compilan desde el código.",
 };

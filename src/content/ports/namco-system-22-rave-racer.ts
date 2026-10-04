@@ -24,6 +24,11 @@ export const namcoSystem22RaveRacer: Port = {
     "Windows and Linux packages on the releases page, no building needed",
     "Widescreen rendering on top of the original Mode 22 output",
   ],
+  featuresEs: [
+    "Carreras jugables con sonido",
+    "Paquetes para Windows y Linux en la página de releases, sin necesidad de compilar",
+    "Renderizado panorámico sobre la salida Mode 22 original",
+  ],
   requirements: {
     minimum: "Your own Rave Racer ROM set from MAME 0.271 or later (raverace.zip, namcoc74.zip)",
   },
@@ -36,4 +41,6 @@ export const namcoSystem22RaveRacer: Port = {
   ],
   notes:
     "Decompilation of the 1995 Namco arcade racer for PC. This one also needs the separate sound board ROM set (namcoc74.zip) alongside the game ROM.",
+  notesEs:
+    "Decompilación del arcade de carreras de Namco de 1995 para PC. Este además necesita el set de ROM de la placa de sonido (namcoc74.zip) junto con la ROM del juego.",
 };

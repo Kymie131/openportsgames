@@ -26,8 +26,14 @@ export const nBlood: Port = {
     "Modern renderer with dynamic lighting",
     "Reimplementation of the Blood engine in portable C++",
   ],
+  featuresEs: [
+    "Renderizador moderno con iluminación dinámica",
+    "Reimplementación del motor de Blood en C++ portátil",
+  ],
   notes:
     "In-progress Blood engine reimplementation. Releases are tagged with revision numbers (r14388) rather than semantic versions, and no project-wide license file was found.",
+  notesEs:
+    "Reimplementación en curso del motor de Blood. Las releases se etiquetan con números de revisión (r14388) en lugar de versiones semánticas, y no se encontró un archivo de licencia global.",
   screenshots: [
     {
       src: "https://github.com/user-attachments/assets/f517d412-ac7f-4002-ab47-35e41bab9f26",

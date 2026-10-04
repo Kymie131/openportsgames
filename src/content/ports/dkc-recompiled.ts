@@ -29,6 +29,14 @@ export const dkcRecompiled: Port = {
     "MSU-1 music packs and mod variants",
     "Co-op fixes for Donkey Kong Country 2",
   ],
+  featuresEs: [
+    "Presentación panorámica nativa (16:10 y 16:9)",
+    "Builds para Windows y macOS ARM64 con shaders CRT",
+    "Paquetes de música MSU-1 y variantes de mods",
+    "Arreglos de cooperativo para Donkey Kong Country 2",
+  ],
   notes:
     "Recompilation trilogy covering Donkey Kong Country, Donkey Kong Country 2: Diddy's Kong Quest and Donkey Kong Country 3: Dixie Kong's Double Trouble, each from its own repository. Requires the player's own legally dumped ROM per game.",
+  notesEs:
+    "Trilogía de recompilaciones que cubre Donkey Kong Country, Donkey Kong Country 2: Diddy's Kong Quest y Donkey Kong Country 3: Dixie Kong's Double Trouble, cada una desde su propio repositorio. Requiere la ROM de cada juego volcada legalmente por el propio jugador.",
 };

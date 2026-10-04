@@ -28,6 +28,12 @@ export const prBoomPlusRt: Port = {
     "Ray-traced fallback for pre-RDNA GPUs",
     "FSR and CRT shader modes",
   ],
+  featuresEs: [
+    "Iluminación con trazado de rayos en tiempo real para Doom",
+    "Se compila y funciona en Linux con arreglos para AMD RADV/Mesa",
+    "Respaldo con trazado de rayos para GPU anteriores a RDNA",
+    "Modos de shader FSR y CRT",
+  ],
   screenshots: [
     {
       src: "https://raw.githubusercontent.com/tomboylover93/prboom-plus-rt/master/screenshots/maxfps.png",
@@ -37,4 +43,6 @@ export const prBoomPlusRt: Port = {
   ],
   notes:
     "Linux fork of PrBoom-Plus that adds the real-time ray-traced Doom renderer, with packaging fixes for current Mesa drivers. Requires the original game's WAD files, which the player must own.",
+  notesEs:
+    "Fork para Linux de PrBoom-Plus que añade el renderizador de Doom con trazado de rayos en tiempo real, con arreglos de empaquetado para drivers Mesa actuales. Requiere los archivos WAD del juego original, que el jugador debe poseer.",
 };

@@ -30,4 +30,6 @@ export const sonic12: Port = {
   ],
   notes:
     "Complete decompilation of the 2013 mobile remakes of Sonic 1 and Sonic 2 (Retro Engine v4), playable on PC, Mac and Linux. Requires a legally acquired copy of the Sonic the Hedgehog (2013) or Sonic the Hedgehog 2 (2013) game data from the App Store, Google Play or Steam.",
+  notesEs:
+    "Decompilación completa de los remakes móviles de 2013 de Sonic 1 y Sonic 2 (Retro Engine v4), jugables en PC, Mac y Linux. Requiere una copia adquirida legalmente de los datos de Sonic the Hedgehog (2013) o Sonic the Hedgehog 2 (2013) desde la App Store, Google Play o Steam.",
 };

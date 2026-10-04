@@ -26,6 +26,13 @@ export const openLoco: Port = {
     "Scenario and multiplayer support",
     "OpenGL and DirectX rendering backends",
   ],
+  featuresEs: [
+    "Builds de escritorio multiplataforma",
+    "Soporte de escenarios y multijugador",
+    "Backends de renderizado OpenGL y DirectX",
+  ],
   notes:
     "Engine reimplementation for Transport Tycoon Deluxe style gameplay. The original game data is required.",
+  notesEs:
+    "Reimplementación del motor para la jugabilidad de Transport Tycoon Deluxe. Se requieren los datos del juego original.",
 };

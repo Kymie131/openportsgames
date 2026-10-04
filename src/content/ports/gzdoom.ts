@@ -31,4 +31,6 @@ export const gzdoom: Port = {
   ],
   notes:
     "Feature-centric source port for all Doom-engine games, with an official Android build. Requires an IWAD (the freedoom project provides assets).",
+  notesEs:
+    "Port de código fuente centrado en características para todos los juegos del motor Doom, con build oficial para Android. Requiere un IWAD (el proyecto freedoom ofrece recursos).",
 };

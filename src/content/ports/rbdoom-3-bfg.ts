@@ -26,7 +26,13 @@ export const rbDoom3Bfg: Port = {
     "Mission editor support",
     "Extensive configuration and scripting",
   ],
+  featuresEs: [
+    "Motor id Tech 4 de código abierto",
+    "Soporte del editor de misiones",
+    "Amplia configuración y scripting",
+  ],
   notes: "Open source reimplementation of the id Tech 4 engine used by Doom 3 BFG Edition.",
+  notesEs: "Reimplementación de código abierto del motor id Tech 4 usado por Doom 3 BFG Edition.",
   screenshots: [
     {
       src: "https://i.imgur.com/nSWBSUB.png",

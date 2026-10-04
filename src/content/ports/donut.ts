@@ -24,6 +24,13 @@ export const donut: Port = {
     "Modern OpenGL renderer",
     "Requires original game assets supplied by the player",
   ],
+  featuresEs: [
+    "Reimplementación de código abierto en C++ moderno",
+    "Renderizador OpenGL moderno",
+    "Requiere recursos del juego original aportados por el jugador",
+  ],
   notes:
     "Clean-room reimplementation of The Simpsons: Hit & Run. The player supplies their own legally obtained game assets; the repository ships no game content.",
+  notesEs:
+    "Reimplementación limpia de The Simpsons: Hit & Run. El jugador aporta sus propios recursos del juego obtenidos legalmente; el repositorio no incluye contenido del juego.",
 };

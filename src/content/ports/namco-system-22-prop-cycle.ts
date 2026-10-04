@@ -24,6 +24,11 @@ export const namcoSystem22PropCycle: Port = {
     "Windows and Linux packages on the releases page, no building needed",
     "The Namco System 22 DSP BIOS is compiled in, so no extra file is required",
   ],
+  featuresEs: [
+    "Jugable desde la primera pantalla hasta la última, con sonido",
+    "Paquetes para Windows y Linux en la página de releases, sin necesidad de compilar",
+    "El BIOS DSP de Namco System 22 va compilado dentro, así que no hace falta ningún archivo extra",
+  ],
   requirements: {
     minimum: "Your own Prop Cycle ROM set from MAME 0.271 or later (propcycl.zip)",
   },
@@ -36,4 +41,6 @@ export const namcoSystem22PropCycle: Port = {
   ],
   notes:
     "Decompilation of the 1996 Namco arcade boat game for PC. Ships as ready-made Windows and Linux packages; you supply the arcade ROM set, which is not included.",
+  notesEs:
+    "Decompilación del juego arcade de barcos de Namco de 1996 para PC. Se publica como paquetes listos para Windows y Linux; tú aportas el set de ROM arcade, que no se incluye.",
 };

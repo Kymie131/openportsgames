@@ -38,10 +38,12 @@ A native port entry. `src/lib/ports/schema.ts` defines the shape:
 | `verified`        | boolean                       | release verified by the team                                                                                                                                                                                 |
 | `verifiedAt`      | date?                         | required predicate (see below)                                                                                                                                                                               |
 | `notes`           | string?                       | short editorial description                                                                                                                                                                                  |
+| `notesEs`         | string?                       | hand-written Spanish mirror of `notes`; required whenever `notes` exists (content-test invariant)                                                                                                            |
 | `originalSystem`  | string?                       | original console/system                                                                                                                                                                                      |
 | `features`        | string[]?                     | notable features (max 20)                                                                                                                                                                                    |
+| `featuresEs`      | string[]?                     | Spanish mirror of `features`; when present, its length equals `features`                                                                                                                                     |
 | `requirements`    | `{ minimum?, recommended? }`? | free text                                                                                                                                                                                                    |
-| `screenshots`     | array?                        | `{ src, alt, credit }`, https, max 12                                                                                                                                                                        |
+| `screenshots`     | array?                        | `{ src, alt, credit, width?, height? }`, https, max 12; `width`/`height` are optional layout hints                                                                                                           |
 | `installGuide`    | object?                       | `{ title?, steps, stepsEs? }`; `steps` runs 1–20 of 3–300 chars; optional `title`; `stepsEs` is the hand-written Spanish mirror of `steps`; when present, its length equals `steps` (content-test invariant) |
 
 Some notes on why the fields are shaped this way:
@@ -52,6 +54,10 @@ Some notes on why the fields are shaped this way:
 - `installGuide.stepsEs` must mirror `steps` one-to-one. The Spanish guide is
   a real translation a human wrote and reviewed, not machine output, and the
   test keeps the two from drifting out of sync.
+- `notesEs` is required as soon as a port has `notes`, so the "About this port"
+  section never silently falls back to English. `tests/content/localization.test.ts`
+  enforces it; when the fallback is used on purpose, the detail page shows an
+  "available only in English" notice.
 
 ### Catalog state
 

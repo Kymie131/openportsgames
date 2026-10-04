@@ -47,6 +47,14 @@ export const fZeroSnesRecompiled: Port = {
     "Save states with thumbnails and rewind",
     "CRT/LCD shaders and MSU-1 music packs",
   ],
+  featuresEs: [
+    "Panorámico de hasta 32:9 con renderizado HD Mode 7 opcional",
+    "Presentación a 60-360 FPS de refresco alto",
+    "Estados de guardado con miniaturas y rebobinado",
+    "Shaders CRT/LCD y paquetes de música MSU-1",
+  ],
   notes:
     "Native recompilation of the Super Nintendo classic F-Zero. Requires the player's own legally dumped F-Zero ROM; the port also supports optional BS F-Zero Deluxe content and MSU-1 music expansions.",
+  notesEs:
+    "Recompilación nativa del clásico de Super Nintendo F-Zero. Requiere la ROM de F-Zero volcada legalmente por el jugador; el port también admite contenido opcional de BS F-Zero Deluxe y expansiones musicales MSU-1.",
 };

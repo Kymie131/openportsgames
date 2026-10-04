@@ -23,6 +23,8 @@ export const shockolate: Port = {
   verifiedAt: "2026-10-01",
   notes:
     "Reimplementation of the System Shock engine. The last tagged release is 0.7.7; tags from 0.8.0 onward are marked as prereleases.",
+  notesEs:
+    "Reimplementación del motor de System Shock. La última release etiquetada es 0.7.7; las etiquetas desde 0.8.0 en adelante están marcadas como preliminares.",
   screenshots: [
     {
       src: "https://i.imgur.com/kbVWQj4.gif",

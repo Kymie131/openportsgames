@@ -23,6 +23,13 @@ export const exultPort: Port = {
     "Android build available",
     "Scripting support for new content",
   ],
+  featuresEs: [
+    "Compatible con los conjuntos de datos de Ultima VII y Ultima VIII",
+    "Build disponible para Android",
+    "Soporte de scripting para contenido nuevo",
+  ],
   notes:
     "Open source engine for the Ultima VII and VIII games. Published GitHub releases are prereleases only, so no stable version is recorded.",
+  notesEs:
+    "Motor de código abierto para los juegos Ultima VII y VIII. Las releases de GitHub publicadas son solo versiones preliminares, así que no se registra una versión estable.",
 };

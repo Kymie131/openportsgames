@@ -23,6 +23,8 @@ export const fh2: Port = {
   verified: false,
   notes:
     "Engine reimplementation for Heroes of Might and Magic II, written from scratch in C++. Ships official Android builds on Google Play plus Windows, macOS and Linux releases.",
+  notesEs:
+    "Reimplementación del motor de Heroes of Might and Magic II, escrita desde cero en C++. Publica builds oficiales para Android en Google Play, además de releases para Windows, macOS y Linux.",
   installGuide: {
     steps: [
       "Obtain the original Heroes of Might and Magic II data, or use the free demo the project links to.",

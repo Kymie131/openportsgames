@@ -21,4 +21,6 @@ export const dxxRebirth: Port = {
   verifiedAt: "2026-09-25",
   notes:
     "Source port of Descent and Descent II with OpenGL rendering and modern hardware support. The last official release was published in 2018, when the project originator retired.",
+  notesEs:
+    "Port de código fuente de Descent y Descent II con renderizado OpenGL y soporte de hardware moderno. La última release oficial se publicó en 2018, cuando se retiró el creador del proyecto.",
 };

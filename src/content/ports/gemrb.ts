@@ -30,4 +30,6 @@ export const gemrb: Port = {
   ],
   notes:
     "Portable reimplementation of BioWare's Infinity Engine, running Baldur's Gate I & II, Icewind Dale and Planescape: Torment. Requires the original game data.",
+  notesEs:
+    "Reimplementación portátil del Infinity Engine de BioWare, que ejecuta Baldur's Gate I y II, Icewind Dale y Planescape: Torment. Requiere los datos del juego original.",
 };

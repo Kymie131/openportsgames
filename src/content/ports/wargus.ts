@@ -22,4 +22,6 @@ export const wargusPort: Port = {
   originalSystem: "MS-DOS",
   notes:
     "Engine reimplementation for Warcraft II, intended to be compatible with the retail data files.",
+  notesEs:
+    "Reimplementación del motor de Warcraft II, pensada para ser compatible con los archivos de datos comerciales.",
 };

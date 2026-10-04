@@ -23,6 +23,13 @@ export const perfectDarkPort: Port = {
     "Widescreen, mouselook and dual analog support",
     "Split-screen multiplayer and Transfer Pak emulation",
   ],
+  featuresEs: [
+    "Port de la decompilación correspondiente de N64 a plataformas modernas",
+    "Panorámico, mouselook y doble analógico",
+    "Multijugador en pantalla dividida y emulación del Transfer Pak",
+  ],
   notes:
     "Work in progress port of the Perfect Dark decompilation, kept separate from the upstream GitLab project. Builds come from a rolling CI tag rather than versioned releases. Needs a legally obtained N64 ROM.",
+  notesEs:
+    "Port en desarrollo de la decompilación de Perfect Dark, mantenido aparte del proyecto original en GitLab. Las builds vienen de una etiqueta CI continua en lugar de releases versionadas. Necesita una ROM de N64 obtenida legalmente.",
 };

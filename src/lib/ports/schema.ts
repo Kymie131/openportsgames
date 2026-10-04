@@ -64,8 +64,10 @@ const normalPort = z.object({
   verified: z.boolean(),
   verifiedAt: isoDate.optional(),
   notes: z.string().max(1000).optional(),
+  notesEs: z.string().max(1000).optional(),
   originalSystem: z.string().min(2).max(80).optional(),
   features: z.array(z.string().min(3).max(120)).max(20).optional(),
+  featuresEs: z.array(z.string().min(3).max(120)).max(20).optional(),
   installGuide: z
     .object({
       title: z.string().min(2).max(80).optional(),
@@ -168,8 +170,10 @@ export type Port = {
   verified: boolean;
   verifiedAt?: string;
   notes?: string;
+  notesEs?: string;
   originalSystem?: string;
   features?: string[];
+  featuresEs?: string[];
   installGuide?: {
     title?: string;
     steps: string[];

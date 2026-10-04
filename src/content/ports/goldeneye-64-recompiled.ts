@@ -25,6 +25,14 @@ export const goldenEye64Recompiled: Port = {
     "Widescreen support and frame interpolation",
     "Full campaign, menus and audio playable without an emulator",
   ],
+  featuresEs: [
+    "Builds nativas para macOS y Linux con N64Recomp y RT64",
+    "Renderizado Metal (macOS) y Vulkan (Linux)",
+    "Soporte panorámico e interpolación de frames",
+    "Campaña completa, menús y audio jugables sin emulador",
+  ],
   notes:
     "Native port of GoldenEye 007 produced by statically recompiling the Nintendo 64 code with N64Recomp and rendering with RT64. The clean build ships no game code: the launcher recompiles roughly three thousand functions from the player's own legally dumped ROM at startup.",
+  notesEs:
+    "Port nativo de GoldenEye 007 producido recompilando estáticamente el código de Nintendo 64 con N64Recomp y renderizando con RT64. La build limpia no incluye código del juego: el lanzador recompila unas tres mil funciones de la ROM volcada legalmente por el jugador al iniciar.",
 };

@@ -27,6 +27,13 @@ export const megaManXSnesRecomp: Port = {
     "Launcher can be reopened mid-game with Ctrl+L or Select+L3",
     "Shared SNES shader presets and pixel-aspect geometry, saved on close",
   ],
+  featuresEs: [
+    "Panorámico adaptativo y fijo que respeta la relación de aspecto de la pantalla",
+    "El lanzador puede reabrirse a mitad de partida con Ctrl+L o Select+L3",
+    "Ajustes predefinidos de shaders de SNES compartidos y geometría con aspect ratio de píxel, guardados al cerrar",
+  ],
   notes:
     "Mega Man X recompiled for the Super Nintendo with snesrecomp; the player supplies their own legally obtained game.",
+  notesEs:
+    "Mega Man X recompilado para Super Nintendo con snesrecomp; el jugador aporta su propio juego obtenido legalmente.",
 };

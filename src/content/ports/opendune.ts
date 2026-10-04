@@ -20,4 +20,6 @@ export const openDune: Port = {
   verifiedAt: "2026-09-25",
   notes:
     "Open-source re-implementation of Dune II: The Building of a Dynasty. The original game data files are required to play.",
+  notesEs:
+    "Reimplementación de código abierto de Dune II: The Building of a Dynasty. Se requieren los archivos de datos del juego original para jugar.",
 };

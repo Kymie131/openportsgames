@@ -55,4 +55,6 @@ export const xash3d: Port = {
   ],
   notes:
     "Open source reimplementation of the Half-Life engine, including a working Android build. Uses rolling 'continuous' releases. Requires the original Half-Life game files.",
+  notesEs:
+    "Reimplementación de código abierto del motor de Half-Life, con build funcional para Android. Usa releases continuas 'continuous'. Requiere los archivos del juego original de Half-Life.",
 };

@@ -22,4 +22,6 @@ export const openage: Port = {
   verified: false,
   notes:
     "Volunteer project recreating the Genie engine used by Age of Empires, Age of Empires II and Star Wars: Galactic Battlegrounds. The last tagged release is 0.6.0, although development continues.",
+  notesEs:
+    "Proyecto voluntario que recrea el motor Genie usado por Age of Empires, Age of Empires II y Star Wars: Galactic Battlegrounds. La última release etiquetada es 0.6.0, aunque el desarrollo continúa.",
 };

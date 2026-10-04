@@ -24,6 +24,8 @@ export const twoShip: Port = {
   verifiedAt: "2026-09-19",
   notes:
     "Native port of Majora's Mask from the decompilation project. Requires the original North American Majora's Mask N64 ROM (legally obtained).",
+  notesEs:
+    "Port nativo de Majora's Mask a partir del proyecto de decompilación. Requiere la ROM original norteamericana de Majora's Mask para N64 (obtenida legalmente).",
   installGuide: {
     steps: [
       "Own a copy of Majora's Mask, from the Nintendo 64 cartridge or the Nintendo 3DS release.",

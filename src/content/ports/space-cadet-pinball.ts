@@ -23,6 +23,12 @@ export const spaceCadetPinball: Port = {
     "Faithful recreation of the original physics and rules",
     "Cross-platform desktop builds",
   ],
+  featuresEs: [
+    "Recreación fiel de la física y las reglas originales",
+    "Builds de escritorio multiplataforma",
+  ],
   notes:
     "Open source recreation of the Windows 95 Space Cadet pinball game, released under CC0 by Microsoft.",
+  notesEs:
+    "Recreación de código abierto del pinball Space Cadet de Windows 95, publicado bajo CC0 por Microsoft.",
 };

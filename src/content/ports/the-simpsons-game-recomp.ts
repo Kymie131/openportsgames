@@ -27,6 +27,16 @@ export const theSimpsonsGameRecomp: Port = {
     "Steam Deck support",
     "Separate builds for CPUs without AVX2",
   ],
+  featuresEs: [
+    "Traducción anticipada del ejecutable PowerPC a C++",
+    "Runtime ReXGlue derivado del proyecto Xenia",
+    "Renderizador Vulkan en Linux",
+    "Renderizador Direct3D 12 o Vulkan en Windows",
+    "Soporte para Steam Deck",
+    "Builds separadas para CPU sin AVX2",
+  ],
   notes:
     "Work in progress: the recompilation is incomplete. Releases ship no game content, so an Xbox 360 copy of the game is required.",
+  notesEs:
+    "Trabajo en curso: la recompilación está incompleta. Las releases no incluyen contenido del juego, así que se requiere una copia de Xbox 360 del juego.",
 };

@@ -22,6 +22,8 @@ export const openapoc: Port = {
   verified: false,
   notes:
     "Open-source reimplementation of the X-COM: Apocalypse engine, written in C++ with SDL2. Requires the original game files to run.",
+  notesEs:
+    "Reimplementación de código abierto del motor de X-COM: Apocalypse, escrita en C++ con SDL2. Requiere los archivos del juego original para funcionar.",
   screenshots: [
     {
       src: "https://i.imgur.com/XxudxVj.jpg",

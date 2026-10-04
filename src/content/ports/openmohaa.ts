@@ -22,5 +22,10 @@ export const openMohaa: Port = {
   verifiedAt: "2026-10-01",
   originalSystem: "Microsoft Windows",
   features: ["Reimplementation of the id Tech 3 era engine", "Cross-platform desktop builds"],
+  featuresEs: [
+    "Reimplementación del motor de la era id Tech 3",
+    "Builds de escritorio multiplataforma",
+  ],
   notes: "Open source continuation of the Medal of Honor: Allied Assault codebase.",
+  notesEs: "Continuación de código abierto del código de Medal of Honor: Allied Assault.",
 };

@@ -25,5 +25,12 @@ export const doomRetro: Port = {
     "Full controller support including analog sticks and triggers",
     "Widescreen and ultrawide support",
   ],
+  featuresEs: [
+    "Texturas y sprites de alta resolución",
+    "Soporte completo de mando, incluidos sticks analógicos y gatillos",
+    "Soporte panorámico y ultrapanorámico",
+  ],
   notes: "Windows-focused Doom source port with a wide range of display and input options.",
+  notesEs:
+    "Port de código fuente de Doom centrado en Windows, con una amplia gama de opciones de visualización y control.",
 };

@@ -20,6 +20,9 @@ export const dinosaurPlanetRecomp: Port = {
   verified: false,
   originalSystem: "Nintendo 64",
   features: ["Configurable window size, including a 4:3 aspect ratio option"],
+  featuresEs: ["Tamaño de ventana configurable, incluida una opción de relación de aspecto 4:3"],
   notes:
     "Static recompilation of the unreleased 2000 Dinosaur Planet prototype by Rare. The original game was never commercially released, so this entry documents a prototype rather than a shipped title; the original prototype build is required to play.",
+  notesEs:
+    "Recompilación estática del prototipo inédito Dinosaur Planet (Rare, 2000). El juego original nunca se lanzó comercialmente, así que esta ficha documenta un prototipo y no un título publicado; se necesita la build original del prototipo para jugar.",
 };

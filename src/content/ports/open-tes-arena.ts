@@ -21,5 +21,8 @@ export const openTesaArena: Port = {
   verifiedAt: "2026-10-01",
   originalSystem: "MS-DOS",
   features: ["Cross-platform desktop builds", "Modern renderer and input handling"],
+  featuresEs: ["Builds de escritorio multiplataforma", "Renderizador y manejo de entrada modernos"],
   notes: "Cross-platform engine for The Elder Scrolls: Arena. The original game data is required.",
+  notesEs:
+    "Motor multiplataforma para The Elder Scrolls: Arena. Se requieren los datos del juego original.",
 };

@@ -24,6 +24,14 @@ export const beetleAdventureRacingRecomp: Port = {
     "Widescreen with a HUD that expands with the aspect ratio",
     "Selectable divot seam filter",
   ],
+  featuresEs: [
+    "Framerate alto con interpolación de FPS y audio funcional",
+    "Lanzador RecompFrontend con ajustes, asignación de controles y menú de pausa",
+    "Panorámico con HUD que se expande según la relación de aspecto",
+    "Filtro seleccionable de costuras del terreno",
+  ],
   notes:
     "Static recompilation of Beetle Adventure Racing; the player supplies their own legally obtained game. The project describes itself as an alpha with a handful of polish items left.",
+  notesEs:
+    "Recompilación estática de Beetle Adventure Racing; el jugador aporta su propio juego obtenido legalmente. El proyecto se describe como una alfa con algunos detalles de pulido pendientes.",
 };

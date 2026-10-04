@@ -21,4 +21,6 @@ export const petari: Port = {
   originalSystem: "Wii",
   notes:
     "Ongoing decompilation of Super Mario Galaxy (Wii). No tagged releases yet; builds track the repository and still require assets from the original game.",
+  notesEs:
+    "Decompilación en curso de Super Mario Galaxy (Wii). Aún sin releases etiquetadas; las builds siguen el repositorio y todavía requieren recursos del juego original.",
 };

@@ -20,5 +20,11 @@ export const sonic3Air: Port = {
   verifiedAt: "2026-10-01",
   originalSystem: "Sega Mega Drive / Genesis",
   features: ["Cross-platform desktop builds", "Android build", "Enhanced modes and level options"],
+  featuresEs: [
+    "Builds de escritorio multiplataforma",
+    "Build para Android",
+    "Modos mejorados y opciones de niveles",
+  ],
   notes: "Enhanced fork of Sonic Retro's engine for Sonic 3 and Sonic & Knuckles.",
+  notesEs: "Fork mejorado del motor de Sonic Retro para Sonic 3 y Sonic & Knuckles.",
 };

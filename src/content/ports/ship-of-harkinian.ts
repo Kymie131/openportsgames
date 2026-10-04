@@ -32,6 +32,8 @@ export const shipOfHarkinian: Port = {
   ],
   notes:
     "Native port of Ocarina of Time from the decompilation project. Requires the original North American Ocarina of Time N64 ROM (legally obtained).",
+  notesEs:
+    "Port nativo de Ocarina of Time a partir del proyecto de decompilación. Requiere la ROM original norteamericana de Ocarina of Time para N64 (obtenida legalmente).",
   installGuide: {
     steps: [
       "Own a copy of Ocarina of Time, from the Nintendo 64 cartridge or the Nintendo 3DS release.",

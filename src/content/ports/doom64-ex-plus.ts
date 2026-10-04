@@ -27,6 +27,13 @@ export const doom64ExPlus: Port = {
     "Rerelease of the original maps plus new content",
     "Modern lighting and widescreen support",
   ],
+  featuresEs: [
+    "Expansión de Doom 64 basada en código fuente",
+    "Reedición de los mapas originales más contenido nuevo",
+    "Iluminación moderna y soporte panorámico",
+  ],
   notes:
     "Complete source port of Doom 64. The project is archived on GitHub and its license is a custom Limited Use Software License, so the terms are not an OSI license.",
+  notesEs:
+    "Port de código fuente completo de Doom 64. El proyecto está archivado en GitHub y su licencia es una Limited Use Software License propia, por lo que sus términos no son una licencia OSI.",
 };

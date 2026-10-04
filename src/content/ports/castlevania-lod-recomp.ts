@@ -23,6 +23,13 @@ export const castlevaniaLodRecomp: Port = {
     "Anti-aliasing up to 8x MSAA, cycled with F7",
     "Configurable gamepad controls through controls.json",
   ],
+  featuresEs: [
+    "Modos de relación de aspecto (Original, Expandido, Manual) ciclables con F6",
+    "Antialiasing de hasta 8x MSAA, ciclable con F7",
+    "Controles de mando configurables mediante controls.json",
+  ],
   notes:
     "Static recompilation of Castlevania: Legacy of Darkness with N64Recomp. The player supplies their own legally dumped cartridge. macOS builds target Apple Silicon and link against Homebrew SDL2.",
+  notesEs:
+    "Recompilación estática de Castlevania: Legacy of Darkness con N64Recomp. El jugador aporta su propio cartucho volcado legalmente. Las builds para macOS son para Apple Silicon y enlazan con SDL2 de Homebrew.",
 };

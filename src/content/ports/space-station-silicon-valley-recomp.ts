@@ -22,6 +22,9 @@ export const spaceStationSiliconValleyRecomp: Port = {
   verified: false,
   originalSystem: "Nintendo 64",
   features: ["Widescreen support", "Mod support"],
+  featuresEs: ["Soporte panorámico", "Soporte de mods"],
   notes:
     "Recompilation of Space Station Silicon Valley; the player supplies their own legally obtained game.",
+  notesEs:
+    "Recompilación de Space Station Silicon Valley; el jugador aporta su propio juego obtenido legalmente.",
 };

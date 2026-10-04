@@ -30,6 +30,8 @@ export const pokered: Port = {
   originalSystem: "Game Boy",
   notes:
     "Fully commented disassembly of the first generation Pokémon games that builds byte-perfect copies via rgbds. Produces the original Game Boy ROM rather than a native modern executable; the pairing projects in the pret organization power many quality-of-life remakes and hacks built from this source. The pret organization does not publish numbered releases; builds track the repository.",
+  notesEs:
+    "Decompilación totalmente comentada de los juegos Pokémon de primera generación que genera copias idénticas byte a byte con rgbds. Produce la ROM original de Game Boy en lugar de un ejecutable nativo moderno; los proyectos hermanos de la organización pret impulsan muchos remakes y hacks de calidad de vida construidos a partir de este código. La organización pret no publica releases numeradas; las builds siguen el repositorio.",
   installGuide: {
     steps: [
       "Own a copy of Pokémon Red or Blue for the Game Boy.",

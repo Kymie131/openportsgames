@@ -28,6 +28,13 @@ export const freeSpace2: Port = {
     "Modern OpenGL and Vulkan renderers",
     "Extensible mission scripting",
   ],
+  featuresEs: [
+    "Builds de escritorio multiplataforma",
+    "Renderizadores OpenGL y Vulkan modernos",
+    "Scripting de misiones extensible",
+  ],
   notes:
     "Open source engine for FreeSpace 2. The newest tag is a release candidate, so the last stable release is recorded. Licensing is governed by a custom Copying.md with additional terms rather than a standard OSI license.",
+  notesEs:
+    "Motor de código abierto para FreeSpace 2. La etiqueta más reciente es una release candidate, así que se registra la última release estable. La licencia se rige por un Copying.md propio con términos adicionales en lugar de una licencia OSI estándar.",
 };

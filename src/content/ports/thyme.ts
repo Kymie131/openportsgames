@@ -21,4 +21,6 @@ export const thymePort: Port = {
   originalSystem: "Microsoft Windows",
   notes:
     "Engine reimplementation for Generals and Zero Hour. The single GitHub release is a prerelease, so no stable version is recorded.",
+  notesEs:
+    "Reimplementación del motor de Generals y Zero Hour. La única release de GitHub es preliminar, así que no se registra versión estable.",
 };

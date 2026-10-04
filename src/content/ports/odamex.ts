@@ -26,7 +26,14 @@ export const odamexPort: Port = {
     "High dynamic range lighting",
     "Model and sprite rendering improvements",
   ],
+  featuresEs: [
+    "Multijugador cliente-servidor",
+    "Iluminación de alto rango dinámico",
+    "Mejoras en el renderizado de modelos y sprites",
+  ],
   notes: "Doom source port with a strong focus on multiplayer and modern rendering.",
+  notesEs:
+    "Port de código fuente de Doom con un fuerte enfoque en el multijugador y el renderizado moderno.",
   screenshots: [
     {
       src: "https://raw.githubusercontent.com/odamex/odamex/stable/media/logo_128.png?raw=true",

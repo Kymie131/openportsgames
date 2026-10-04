@@ -43,7 +43,10 @@ export function SystemBadge({
           src={resolved.logo}
           alt=""
           aria-hidden="true"
-          className={cn("rounded-sm bg-white/90 object-contain p-0.5", size === "sm" ? "size-4" : "size-5")}
+          className={cn(
+            "rounded-sm bg-white/90 object-contain p-0.5",
+            size === "sm" ? "size-4" : "size-5",
+          )}
         />
       )}
       <span>{locale === "es" ? name.es : name.en}</span>
