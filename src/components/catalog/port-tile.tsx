@@ -8,6 +8,9 @@ import { PlatformMark } from "@/components/platforms/platform-mark";
 import { SystemMark } from "@/components/platforms/system-mark";
 import { TestBadge, type TestStatus } from "./test-badge";
 import { consoleLogoForSystem } from "@/content/ports/console-logos";
+import { isPixelArtSystem } from "@/lib/ports/images";
+import { ScreenshotFrame } from "@/components/ports/screenshot-frame";
+import { SystemBadge } from "@/components/platforms/system-badge";
 import { useT } from "@/lib/i18n/use-i18n";
 import { cn } from "@/lib/utils";
 
@@ -52,12 +55,11 @@ export function PortTile({
           className="block overflow-hidden rounded-md border border-border transition-colors duration-150 hover:border-accent-hover"
           aria-label={port.title}
         >
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
+          <ScreenshotFrame
             src={cover.src}
             alt={cover.alt}
-            className="aspect-video w-full object-cover"
-            loading="lazy"
+            pixelated={isPixelArtSystem(system)}
+            className="aspect-video w-full"
           />
         </Link>
       ) : (
@@ -101,6 +103,11 @@ export function PortTile({
         <p className="truncate text-sm text-muted" title={port.title}>
           {port.title}
         </p>
+        {system && (
+          <div className="pt-0.5">
+            <SystemBadge system={system} size="sm" />
+          </div>
+        )}
       </div>
 
       <div className="flex items-center justify-between gap-2">

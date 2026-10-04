@@ -14,6 +14,23 @@ test("home hero links to the catalog", async ({ page }) => {
   );
 });
 
+test("home shows a computed Latest releases section before Featured", async ({ page }) => {
+  await page.goto("/");
+  const latest = page.locator("#latest-heading");
+  const featured = page.locator("#featured-heading");
+  await expect(latest).toBeVisible();
+  await expect(featured).toBeVisible();
+  await expect(latest).toHaveText(/Latest releases|Últimas versiones/);
+  // Latest must appear above the manually curated Featured section.
+  const order = await page
+    .locator("h2")
+    .evaluateAll((nodes) => nodes.map((n) => n.id).filter(Boolean));
+  expect(order.indexOf("latest-heading")).toBeLessThan(order.indexOf("featured-heading"));
+  await expect(page.locator("#latest-heading").locator("xpath=../..").locator("article")).toHaveCount(
+    6,
+  );
+});
+
 test("home hero donate CTA is always visible and points to PayPal when configured", async ({
   page,
 }) => {

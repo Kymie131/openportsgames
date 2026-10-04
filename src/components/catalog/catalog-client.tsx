@@ -16,6 +16,8 @@ import {
   defaultCatalogState,
   hasActiveFilters,
   MAX_QUERY_LENGTH,
+  paginate,
+  pageWindow,
   parseCatalogState,
   SCOPED_PLATFORMS,
   type CatalogScope,
@@ -121,6 +123,7 @@ export function CatalogClient({
     () => applyCatalog(ports, index, state, scope, { originalSystems, testResults, stars }),
     [ports, index, state, scope, originalSystems, testResults, stars],
   );
+  const pageResult = useMemo(() => paginate(results, state.page), [results, state.page]);
 
   // Sync draft when the URL query changes externally (navigation, back/forward).
   // useState alone freezes the first-render value, so client-side navigation can
@@ -147,6 +150,18 @@ export function CatalogClient({
     void router.replace(pathname, { scroll: false });
   };
 
+  const goToPage = (page: number) => commit({ ...state, page });
+
+  const resultsHeadingRef = useRef<HTMLHeadingElement>(null);
+  const gridRef = useRef<HTMLDivElement>(null);
+  const visiblePage = useRef(pageResult.page);
+  useEffect(() => {
+    if (visiblePage.current === pageResult.page) return;
+    visiblePage.current = pageResult.page;
+    gridRef.current?.scrollIntoView({ block: "start", behavior: "smooth" });
+    resultsHeadingRef.current?.focus({ preventScroll: true });
+  }, [pageResult.page]);
+
   const initialized = useRef(false);
   useEffect(() => {
     if (initialized.current) return;
@@ -168,7 +183,7 @@ export function CatalogClient({
   useEffect(() => {
     if (draft === state.query) return;
     const id = window.setTimeout(() => {
-      const next = { ...state, query: draft, sort: defaultCatalogState.sort };
+      const next = { ...state, query: draft, sort: defaultCatalogState.sort, page: 1 };
       const params = catalogStateToParams(next);
       void router.replace(params.size ? `${pathname}?${params.toString()}` : pathname, {
         scroll: false,
@@ -224,10 +239,7 @@ export function CatalogClient({
         </form>
 
         <div className="flex flex-wrap items-center justify-between gap-3 text-sm text-muted">
-          <p>
-            <span className="text-foreground">{total}</span> {t.catalog.of} {ports.length}{" "}
-            {t.catalog.labels[total === 1 ? "one" : "other"]}
-          </p>
+          <p>{t.catalog.showingRange(pageResult.from, pageResult.to, pageResult.total)}</p>
           <div className="flex items-center gap-2">
             <button
               type="button"
@@ -249,7 +261,7 @@ export function CatalogClient({
               <span className="hidden sm:inline">{t.catalog.sortLabel}</span>
               <select
                 value={state.sort}
-                onChange={(event) => commit({ ...state, sort: event.target.value as SortKey })}
+                onChange={(event) => commit({ ...state, sort: event.target.value as SortKey, page: 1 })}
                 aria-label={t.catalog.sortLabel}
                 className="rounded-md border border-border bg-surface px-3 py-2 text-sm text-foreground focus:outline-none focus-visible:outline-none"
               >
@@ -263,43 +275,55 @@ export function CatalogClient({
           </div>
         </div>
 
-        {results.length > 0 ? (
-          <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3">
-            {results.map((port) => (
-              <li key={port.id} className="flex">
-                <PortTile
-                  className="w-full"
-                  port={port}
-                  testStatus={testStatuses[port.id]}
-                  stars={stars[port.id]}
-                  system={originalSystems[port.id]}
-                />
-              </li>
-            ))}
-          </ul>
-        ) : (
-          <div className="flex flex-col items-center gap-3 rounded-lg border border-border bg-surface px-6 py-12 text-center">
-            <div
-              className="flex size-11 items-center justify-center rounded-full bg-surface-2 text-muted"
-              aria-hidden="true"
-            >
-              <Search className="size-5" />
-            </div>
-            <div className="flex flex-col gap-1">
-              <p className="text-sm font-medium text-foreground">{t.catalog.empty}</p>
-              <p className="text-sm text-muted">{t.catalog.emptyHelp}</p>
-            </div>
-            {canClear && (
-              <button
-                type="button"
-                onClick={clear}
-                className="rounded-full border border-border px-3 py-1.5 text-sm text-link transition-colors duration-150 hover:border-accent-hover hover:text-link-hover"
+        <div ref={gridRef} className="flex scroll-mt-24 flex-col gap-6">
+          <h2 ref={resultsHeadingRef} tabIndex={-1} className="sr-only">
+            {t.catalog.resultsHeading}
+          </h2>
+          {results.length > 0 ? (
+            <>
+              <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3">
+                {pageResult.items.map((port) => (
+                  <li key={port.id} className="flex">
+                    <PortTile
+                      className="w-full"
+                      port={port}
+                      testStatus={testStatuses[port.id]}
+                      stars={stars[port.id]}
+                      system={originalSystems[port.id]}
+                    />
+                  </li>
+                ))}
+              </ul>
+              <Pagination
+                page={pageResult.page}
+                pageCount={pageResult.pageCount}
+                onPageChange={goToPage}
+              />
+            </>
+          ) : (
+            <div className="flex flex-col items-center gap-3 rounded-lg border border-border bg-surface px-6 py-12 text-center">
+              <div
+                className="flex size-11 items-center justify-center rounded-full bg-surface-2 text-muted"
+                aria-hidden="true"
               >
-                {t.catalog.clearFilters}
-              </button>
-            )}
-          </div>
-        )}
+                <Search className="size-5" />
+              </div>
+              <div className="flex flex-col gap-1">
+                <p className="text-sm font-medium text-foreground">{t.catalog.empty}</p>
+                <p className="text-sm text-muted">{t.catalog.emptyHelp}</p>
+              </div>
+              {canClear && (
+                <button
+                  type="button"
+                  onClick={clear}
+                  className="rounded-full border border-border px-3 py-1.5 text-sm text-link transition-colors duration-150 hover:border-accent-hover hover:text-link-hover"
+                >
+                  {t.catalog.clearFilters}
+                </button>
+              )}
+            </div>
+          )}
+        </div>
       </div>
 
       <aside aria-label={t.catalog.filterPanel} className="hidden lg:block">
@@ -357,6 +381,71 @@ export function CatalogClient({
 }
 
 type SortLabelKey = "sortRelevance" | "sortTitle" | "sortTitleDesc" | "sortNewest" | "sortStars";
+
+const PAGER_CLASS =
+  "inline-flex h-11 min-w-11 items-center justify-center rounded-md border border-border bg-surface px-3 text-sm text-muted transition-colors duration-150 hover:border-accent-hover hover:text-foreground disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:border-border disabled:hover:text-muted";
+
+function Pagination({
+  page,
+  pageCount,
+  onPageChange,
+}: {
+  page: number;
+  pageCount: number;
+  onPageChange: (page: number) => void;
+}) {
+  const t = useT();
+  if (pageCount <= 1) return null;
+  const items = pageWindow(page, pageCount);
+
+  return (
+    <nav
+      aria-label={t.catalog.pagination}
+      className="flex flex-wrap items-center justify-center gap-1.5"
+    >
+      <button
+        type="button"
+        onClick={() => onPageChange(page - 1)}
+        disabled={page <= 1}
+        aria-disabled={page <= 1}
+        className={PAGER_CLASS}
+      >
+        {t.catalog.previous}
+      </button>
+      {items.map((item, index) =>
+        item === "…" ? (
+          <span key={`gap-${index}`} aria-hidden="true" className="px-1 text-muted">
+            …
+          </span>
+        ) : (
+          <button
+            key={item}
+            type="button"
+            onClick={() => onPageChange(item)}
+            aria-current={item === page ? "page" : undefined}
+            aria-label={t.catalog.goToPage(item)}
+            className={cn(
+              PAGER_CLASS,
+              item === page &&
+                "border-accent bg-[color-mix(in_oklab,var(--accent)_12%,transparent)] text-foreground hover:border-accent hover:text-foreground",
+            )}
+          >
+            {item}
+          </button>
+        ),
+      )}
+      <button
+        type="button"
+        onClick={() => onPageChange(page + 1)}
+        disabled={page >= pageCount}
+        aria-disabled={page >= pageCount}
+        className={PAGER_CLASS}
+      >
+        {t.catalog.next}
+      </button>
+    </nav>
+  );
+}
 
 const SORT_OPTIONS: [SortKey, SortLabelKey][] = [
   ["relevance", "sortRelevance"],
@@ -469,7 +558,7 @@ function FilterPanel({
   const t = useT();
   const toggle = (key: keyof CatalogState, value: string) => {
     const list = state[key] as string[];
-    onToggle({ ...state, [key]: toggleValue(list, value) });
+    onToggle({ ...state, [key]: toggleValue(list, value), page: 1 });
   };
 
   return (

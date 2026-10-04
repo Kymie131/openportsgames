@@ -27,6 +27,7 @@ function state(overrides: Partial<CatalogState>): CatalogState {
     features: [],
     tested: [],
     sort: "relevance",
+    page: 1,
     ...overrides,
   };
 }

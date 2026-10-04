@@ -18,7 +18,10 @@ import { GiteaMark } from "@/components/platforms/gitea-mark";
 import { GithubMark } from "@/components/platforms/github-mark";
 import { PlatformMark } from "@/components/platforms/platform-mark";
 import { SystemMark } from "@/components/platforms/system-mark";
+import { SystemBadge } from "@/components/platforms/system-badge";
+import { ScreenshotFrame } from "@/components/ports/screenshot-frame";
 import { consoleLogoForSystem } from "@/content/ports/console-logos";
+import { isPixelArtSystem } from "@/lib/ports/images";
 import { formatDate } from "@/lib/dates";
 import { assetPath, cn } from "@/lib/utils";
 import { useLocale, useT } from "@/lib/i18n/use-i18n";
@@ -84,6 +87,7 @@ export function PortDetail({
                 <PlatformMark key={platform} platform={platform} />
               ))}
             </div>
+            <SystemBadge system={originalSystem} />
             <TestBadge status={testStatus} />
             <span
               className={STATUS_TONE[port.status] + " rounded-full px-2 py-0.5 text-xs font-medium"}
@@ -187,12 +191,11 @@ export function PortDetail({
           <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             {port.screenshots.map((shot) => (
               <li key={shot.src}>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
+                <ScreenshotFrame
                   src={shot.src}
                   alt={shot.alt}
-                  className="aspect-video w-full rounded-lg border border-border object-cover"
-                  loading="lazy"
+                  pixelated={isPixelArtSystem(originalSystem)}
+                  className="aspect-video w-full rounded-lg border border-border"
                 />
                 <p className="mt-1 text-xs text-muted">{shot.credit}</p>
               </li>
@@ -397,13 +400,13 @@ function PortGallery({
   return (
     <section className="flex flex-col gap-2">
       <h2 className="text-lg font-semibold tracking-tight">{t.detail.screenshots}</h2>
-      <div className="relative flex aspect-video items-center justify-center overflow-hidden rounded-lg border border-border bg-surface-2">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={assetPath(active.src)}
+      <div className="relative">
+        <ScreenshotFrame
+          src={active.src}
           alt={active.alt}
-          className="h-full w-full object-cover"
-          loading="lazy"
+          pixelated={isPixelArtSystem(originalSystem)}
+          eager
+          className="aspect-video w-full rounded-lg border border-border"
         />
         <ConsoleBadge system={originalSystem} />
       </div>
@@ -417,7 +420,7 @@ function PortGallery({
               aria-pressed={i === index}
               aria-label={shot.alt}
               className={
-                "shrink-0 overflow-hidden rounded-md border-2 transition-colors duration-150 " +
+                "shrink-0 overflow-hidden rounded-md border-2 bg-surface-2 transition-colors duration-150 " +
                 (i === index ? "border-accent" : "border-transparent hover:border-accent-hover")
               }
             >
@@ -425,7 +428,10 @@ function PortGallery({
               <img
                 src={assetPath(shot.src)}
                 alt=""
-                className="h-16 w-28 object-cover"
+                className={cn(
+                  "h-16 w-28 object-contain",
+                  isPixelArtSystem(originalSystem) && "image-pixelated",
+                )}
                 loading="lazy"
               />
             </button>

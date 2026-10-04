@@ -94,6 +94,13 @@ const en = {
     showing: "Showing",
     of: "of",
     labels: { one: "port", other: "ports" },
+    showingRange: (from: number, to: number, total: number) =>
+      `Showing ${from}–${to} of ${total} ports`,
+    resultsHeading: "Catalog results",
+    pagination: "Pagination",
+    previous: "Previous",
+    next: "Next",
+    goToPage: (page: number) => `Go to page ${page}`,
     empty: "No ports match the current filters.",
     emptyHelp: "Try removing a filter or searching for a different name.",
     clearFilters: "Clear filters",
@@ -173,6 +180,9 @@ const en = {
     featuredTitle: "Featured ports",
     featuredSubtitle:
       "A hand-picked selection, the way a friend points you at games. When you want more, the full catalog filters by platform, system or status.",
+    latestTitle: "Latest releases",
+    latestSubtitle:
+      "The most recent versions added to the catalog, ordered by the project's own release date.",
     viewAll: "Browse the full catalog",
     exploreTitle: "Explore the site",
     exploreSubtitle: "The catalog first; then the sections that keep it working.",
@@ -468,6 +478,13 @@ const es: Messages = {
     showing: "Mostrando",
     of: "de",
     labels: { one: "port", other: "ports" },
+    showingRange: (from: number, to: number, total: number) =>
+      `Mostrando ${from}–${to} de ${total} ports`,
+    resultsHeading: "Resultados del catálogo",
+    pagination: "Paginación",
+    previous: "Anterior",
+    next: "Siguiente",
+    goToPage: (page: number) => `Ir a la página ${page}`,
     empty: "Ningún port coincide con los filtros actuales.",
     emptyHelp: "Prueba a quitar algún filtro o busca con otro nombre.",
     clearFilters: "Limpiar filtros",
@@ -547,6 +564,9 @@ const es: Messages = {
     featuredTitle: "Ports destacados",
     featuredSubtitle:
       "Una selección hecha a mano, como quien te señala juegos en un foro. Si quieres más, el catálogo completo filtra por plataforma, sistema o estado.",
+    latestTitle: "Últimas versiones",
+    latestSubtitle:
+      "Las versiones más recientes añadidas al catálogo, ordenadas por la fecha de publicación del propio proyecto.",
     viewAll: "Explorar el catálogo completo",
     exploreTitle: "Explora el sitio",
     exploreSubtitle: "Primero el catálogo; después, las secciones que lo sostienen.",

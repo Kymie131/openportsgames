@@ -42,6 +42,30 @@ export function getPorts(): Port[] {
   return [...ports].sort((a, b) => a.title.localeCompare(b.title));
 }
 
+/**
+ * Ports ordered by release date (newest first). Ports without a release date
+ * fall to the end, ordered by `verifiedAt` and then by title, so a missing date
+ * never scrambles the list.
+ */
+export function getLatestPorts(limit?: number): Port[] {
+  const sorted = [...ports].sort((a, b) => {
+    const da = a.release.date ?? "";
+    const db = b.release.date ?? "";
+    if (da !== db) {
+      if (da && db) return db.localeCompare(da);
+      return da ? -1 : 1;
+    }
+    const va = a.verifiedAt ?? "";
+    const vb = b.verifiedAt ?? "";
+    if (va !== vb) {
+      if (va && vb) return vb.localeCompare(va);
+      return va ? -1 : 1;
+    }
+    return a.title.localeCompare(b.title);
+  });
+  return limit !== undefined ? sorted.slice(0, limit) : sorted;
+}
+
 export function getPort(id: string): Port | undefined {
   return byId.get(id);
 }

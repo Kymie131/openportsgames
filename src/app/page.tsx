@@ -3,6 +3,7 @@ import { HomeContent } from "@/components/home/home-content";
 import { JsonLd } from "@/components/seo/json-ld";
 import {
   getAndroidPortCount,
+  getLatestPorts,
   getPort,
   getPortCount,
   getTestStatuses,
@@ -25,14 +26,17 @@ export const metadata: Metadata = pageMeta({ description: SITE_DESCRIPTION, path
 
 export default function Home() {
   const testStatuses = getTestStatuses();
+  const withMeta = (port: Port) => ({
+    port,
+    testStatus: testStatuses[port.id],
+    system: originalSystemOf(port.id),
+  });
+
+  const latest = getLatestPorts(6).map(withMeta);
 
   const featured = FEATURED_SLUGS.map((id) => getPort(id))
     .filter((port): port is Port => port !== undefined)
-    .map((port) => ({
-      port,
-      testStatus: testStatuses[port.id],
-      system: originalSystemOf(port.id),
-    }));
+    .map(withMeta);
 
   return (
     <>
@@ -47,6 +51,7 @@ export default function Home() {
         }}
       />
       <HomeContent
+        latest={latest}
         featured={featured}
         counts={{ ports: getPortCount(), android: getAndroidPortCount() }}
       />

@@ -29,9 +29,11 @@ export type FeaturedPort = {
 };
 
 export function HomeContent({
+  latest,
   featured,
   counts,
 }: {
+  latest: FeaturedPort[];
   featured: FeaturedPort[];
   counts: { ports: number; android: number };
 }) {
@@ -100,6 +102,32 @@ export function HomeContent({
         </dl>
       </section>
 
+      {latest.length > 0 && (
+        <section className="mt-14 sm:mt-24" aria-labelledby="latest-heading">
+          <div className="mb-6 flex flex-wrap items-end justify-between gap-x-6 gap-y-3">
+            <div className="space-y-1">
+              <h2
+                id="latest-heading"
+                className="text-2xl font-semibold tracking-tight text-foreground"
+              >
+                {t.home.latestTitle}
+              </h2>
+              <p className="max-w-xl text-sm leading-6 text-muted">{t.home.latestSubtitle}</p>
+            </div>
+            <Button asChild variant="ghost" size="sm" className="group">
+              <Link href="/ports?sort=newest">
+                {t.home.viewAll}
+                <ArrowRight
+                  className="size-3.5 transition-transform duration-150 group-hover:translate-x-0.5"
+                  aria-hidden="true"
+                />
+              </Link>
+            </Button>
+          </div>
+          <PortGrid ports={latest} />
+        </section>
+      )}
+
       {featured.length > 0 && (
         <section className="mt-14 sm:mt-24" aria-labelledby="featured-heading">
           <div className="mb-6 flex flex-wrap items-end justify-between gap-x-6 gap-y-3">
@@ -122,13 +150,7 @@ export function HomeContent({
               </Link>
             </Button>
           </div>
-          <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {featured.map(({ port, testStatus, system }) => (
-              <li key={port.id}>
-                <PortTile port={port} testStatus={testStatus} system={system} className="h-full" />
-              </li>
-            ))}
-          </ul>
+          <PortGrid ports={featured} />
         </section>
       )}
 
@@ -211,6 +233,18 @@ export function HomeContent({
         </div>
       </section>
     </Container>
+  );
+}
+
+function PortGrid({ ports }: { ports: FeaturedPort[] }) {
+  return (
+    <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {ports.map(({ port, testStatus, system }) => (
+        <li key={port.id}>
+          <PortTile port={port} testStatus={testStatus} system={system} className="h-full" />
+        </li>
+      ))}
+    </ul>
   );
 }
 

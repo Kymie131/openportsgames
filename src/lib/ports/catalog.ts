@@ -23,6 +23,7 @@ export interface CatalogState {
   features: FeaturesValue[];
   tested: TestedValue[];
   sort: SortKey;
+  page: number;
 }
 
 export const defaultCatalogState: CatalogState = {
@@ -37,7 +38,11 @@ export const defaultCatalogState: CatalogState = {
   features: [],
   tested: [],
   sort: "relevance",
+  page: 1,
 };
+
+/** Ports shown per catalog page. */
+export const PAGE_SIZE = 30;
 
 export const SCOPED_PLATFORMS: Record<"all" | "pc" | "android", PlatformKey[]> = {
   all: ["windows", "linux", "macos", "android"],
@@ -53,10 +58,10 @@ export interface CatalogOptions {
   stars?: Record<string, number>;
 }
 
-/** The only filter set persisted between sessions. `query` is never stored. */
+/** The only filter set persisted between sessions. `query` and `page` are never stored. */
 export const CATALOG_PERSIST_KEY = "opg-catalog-filters";
 
-export type PersistedCatalogState = Omit<CatalogState, "query">;
+export type PersistedCatalogState = Omit<CatalogState, "query" | "page">;
 
 const SORT_VALUES: SortKey[] = ["relevance", "title", "title-desc", "newest", "stars"];
 
@@ -100,7 +105,15 @@ export function parseCatalogState(params: ParamSource): CatalogState {
     features: pickMany(params, "features", ["yes", "no"]),
     tested: pickMany(params, "tested", ["pass", "fail", "untested"]),
     sort: pick(params.get("sort"), SORT_VALUES, "relevance"),
+    page: parsePage(params.get("page")),
   };
+}
+
+/** Parses the `page` query parameter into a positive integer (defaults to 1). */
+export function parsePage(value: string | null): number {
+  if (value === null) return 1;
+  const parsed = Number.parseInt(value, 10);
+  return Number.isFinite(parsed) && parsed >= 1 ? parsed : 1;
 }
 
 export function catalogStateToParams(state: CatalogState): URLSearchParams {
@@ -120,6 +133,7 @@ export function catalogStateToParams(state: CatalogState): URLSearchParams {
   append("features", state.features);
   append("tested", state.tested);
   if (state.sort !== "relevance") params.set("sort", state.sort);
+  if (state.page > 1) params.set("page", String(state.page));
   return params;
 }
 
@@ -255,4 +269,61 @@ export function applyCatalog(
     });
 
   return { results, total: results.length };
+}
+
+export interface PageResult<T> {
+  items: T[];
+  /** Clamped 1-based page number. */
+  page: number;
+  pageCount: number;
+  /** 1-based index of the first item on the page (0 when there are no items). */
+  from: number;
+  /** 1-based index of the last item on the page (0 when there are no items). */
+  to: number;
+  total: number;
+}
+
+/**
+ * Slices `items` into the requested page, clamping out-of-range pages to the
+ * last one. An empty list is reported as a single empty page so the controls
+ * can still render consistently.
+ */
+export function paginate<T>(items: T[], requestedPage: number, pageSize: number = PAGE_SIZE): PageResult<T> {
+  const total = items.length;
+  const pageCount = Math.max(1, Math.ceil(total / pageSize));
+  const page = Math.min(Math.max(1, Math.trunc(requestedPage) || 1), pageCount);
+  const offset = (page - 1) * pageSize;
+  const slice = items.slice(offset, offset + pageSize);
+  return {
+    items: slice,
+    page,
+    pageCount,
+    from: total === 0 ? 0 : offset + 1,
+    to: total === 0 ? 0 : offset + slice.length,
+    total,
+  };
+}
+
+/**
+ * Builds the visible pagination window: always includes the first and last
+ * page, plus a couple of neighbours around the current one, with `"…"` gaps.
+ */
+export function pageWindow(page: number, pageCount: number, span = 1): (number | "…")[] {
+  if (pageCount <= 7) {
+    return Array.from({ length: pageCount }, (_, index) => index + 1);
+  }
+  const wanted = new Set<number>([1, pageCount, page]);
+  for (let offset = 1; offset <= span; offset += 1) {
+    wanted.add(page - offset);
+    wanted.add(page + offset);
+  }
+  const sorted = [...wanted].filter((value) => value >= 1 && value <= pageCount).sort((a, b) => a - b);
+  const out: (number | "…")[] = [];
+  let previous = 0;
+  for (const value of sorted) {
+    if (value - previous > 1) out.push("…");
+    out.push(value);
+    previous = value;
+  }
+  return out;
 }
