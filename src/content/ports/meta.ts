@@ -151,4 +151,6 @@ export const originalSystemById: Record<Port["id"], string> = {
   "bt3-recomp": "PlayStation 2",
   donut: "Microsoft Windows",
   "dragon-ball-z-legacy-of-goku-recomp": "Game Boy Advance",
+  "pinyon-shift": "Xbox 360",
+  gears1: "Xbox 360",
 };

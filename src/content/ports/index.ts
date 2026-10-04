@@ -149,6 +149,8 @@ import { openRw } from "./open-rw";
 import { bt3Recomp } from "./bt3-recomp";
 import { donut } from "./donut";
 import { dragonBallZLegacyOfGokuRecomp } from "./dragon-ball-z-legacy-of-goku-recomp";
+import { pinyonShift } from "./pinyon-shift";
+import { gears1 } from "./gears1";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -301,4 +303,6 @@ export const portCases: Port[] = [
   zelda64Recomp,
   theSimpsonsGameRecomp,
   openRw,
+  pinyonShift,
+  gears1,
 ];

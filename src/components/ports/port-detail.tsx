@@ -94,6 +94,21 @@ export function PortDetail({
             >
               {t.catalog[statusKey(port.status)]}
             </span>
+            {!port.openSource && (
+              <span className="rounded-full bg-[color-mix(in_oklab,var(--danger)_15%,transparent)] px-2 py-0.5 text-xs font-medium text-danger">
+                {t.catalog.closedSource}
+              </span>
+            )}
+            {port.openSource && port.originalGameLicense === "proprietary" && (
+              <span className="rounded-full bg-[color-mix(in_oklab,var(--warning)_15%,transparent)] px-2 py-0.5 text-xs font-medium text-warning">
+                {t.catalog.proprietaryGame}
+              </span>
+            )}
+            {port.status === "alpha" && (
+              <span className="rounded-full border border-border px-2 py-0.5 text-xs font-medium text-muted">
+                {t.catalog.experimental}
+              </span>
+            )}
           </div>
         </header>
       </div>

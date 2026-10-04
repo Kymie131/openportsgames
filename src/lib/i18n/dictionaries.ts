@@ -110,6 +110,10 @@ const en = {
     version: "Version",
     officialSource: "Official source",
     openSource: "Open source",
+    closedSource: "Closed source",
+    proprietaryGame: "Proprietary game",
+    freewareGame: "Freeware game",
+    experimental: "Experimental",
   },
   portTypes: {
     decompilation: "Decompilation",
@@ -495,6 +499,10 @@ const es: Messages = {
     version: "Versión",
     officialSource: "Fuente oficial",
     openSource: "Código abierto",
+    closedSource: "Código cerrado",
+    proprietaryGame: "Juego propietario",
+    freewareGame: "Juego gratuito",
+    experimental: "Experimental",
   },
   portTypes: {
     decompilation: "Decompilación",

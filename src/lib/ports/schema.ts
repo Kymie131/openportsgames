@@ -46,6 +46,7 @@ const normalPort = z.object({
   originalYear: z.number().int().min(1970).max(2099),
   genre: z.enum(genres),
   openSource: z.boolean(),
+  originalGameLicense: z.enum(["proprietary", "freeware", "open"]).optional(),
   portType: z.enum(portTypes),
   platforms: z.array(z.enum(platformKeys)).min(1),
   status: z.union([z.enum(["stable", "beta", "alpha"]), z.literal("takedown")]),
@@ -159,6 +160,7 @@ export type Port = {
   originalYear: number;
   genre: Genre;
   openSource: boolean;
+  originalGameLicense?: "proprietary" | "freeware" | "open";
   portType: (typeof portTypes)[number];
   platforms: (typeof platformKeys)[number][];
   release: { version: string | null; date: string | null };

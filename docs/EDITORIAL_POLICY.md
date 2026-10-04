@@ -31,6 +31,13 @@ keep this list useful, safe and accurate, in that order.
    with `openSource: false` and the difference is visible in the filters and
    on the detail page. The norm is fully open and verifiable; the rest are
    listed, not laundered.
+   `openSource` describes the code **of the port**, never the original game.
+   A port of a proprietary game can have public code (Forza Horizon's Pinyon
+   Shift, Gears of War's gears1), so it stays `openSource: true`. When the
+   original game is proprietary, the optional `originalGameLicense:
+   "proprietary"` field and the "Proprietary game" badge say so, separately
+   from the "Closed source" badge, which is reserved for ports whose own code
+   is not public.
 
 3. **No game-file distribution.** A port must not ship the original game's
    assets. The whole deal with these projects is that you bring your own
