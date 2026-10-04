@@ -70,6 +70,12 @@ describe("catalog ports", () => {
         "d1x-rebirth",
         "dxx-rebirth",
       ],
+      // `dkc-recompiled` is the trilogy hub and lists each game's repository,
+      // which now has its own standalone entry too.
+      "https://github.com/elliotttate/DKC3Recomp": [
+        "dkc-recompiled",
+        "dkc3-recomp",
+      ],
     };
 
     const owners = new Map<string, string[]>();

@@ -7,6 +7,24 @@ conventional prefixes.
 
 ### Added
 
+- Screenshots are now presented with `object-contain` over a blurred copy of
+  the same image, so 4:3, 1:1, 10:9 and 2:1 captures are never cropped; pixel-art
+  systems render with `image-rendering: pixelated`.
+- Catalog pagination: 30 ports per page, reflected in the URL (`?page=N`) with
+  accessible Previous/Next and numbered controls.
+- Home page now leads with a computed "Latest releases" section ordered by each
+  project's own release date, above the curated "Featured ports" block.
+- Per-system registry (`src/content/systems.ts`) with normalized labels and
+  brand colors, and a `SystemBadge` shown on tiles and detail pages.
+- Spanish `notesEs`/`featuresEs` for every port, with an "available only in
+  English" notice when a translation is missing.
+- 15 new verified ports, all recompilations: Metroid NES, Donkey Kong Country
+  2 & 3, Mega Man X2, Mario Kart: Super Circuit, Ape Escape, Tomba! 1 & 2,
+  Super Mario Bros. (NES), Link's Awakening DX, Oracle of Ages/Seasons, The
+  Wind Waker, SoulCalibur II (RingOut), Dr. Mario 64 and Snowboard Kids 2.
+- Support for ports of proprietary games: Forza Horizon (Pinyon Shift) and
+  Gears of War (gears1), with an optional `originalGameLicense` field and a
+  "Proprietary game" badge distinct from "Closed source".
 - Home page: live stats, a curated "Featured ports" section and new landing
   sections.
 - Brand logo in the site header (transparent/dark variants per theme).

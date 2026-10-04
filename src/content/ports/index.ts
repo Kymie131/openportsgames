@@ -151,6 +151,21 @@ import { donut } from "./donut";
 import { dragonBallZLegacyOfGokuRecomp } from "./dragon-ball-z-legacy-of-goku-recomp";
 import { pinyonShift } from "./pinyon-shift";
 import { gears1 } from "./gears1";
+import { metroidNesRecomp } from "./metroid-nes-recomp";
+import { dkc2Recomp } from "./dkc2-recomp";
+import { dkc3Recomp } from "./dkc3-recomp";
+import { megaManX2Recomp } from "./mega-man-x2-recomp";
+import { marioKartSuperCircuitRecomp } from "./mario-kart-super-circuit-recomp";
+import { apeEscapeRecomp } from "./ape-escape-recomp";
+import { tombaRecomp } from "./tomba-recomp";
+import { tomba2Recomp } from "./tomba2-recomp";
+import { superMarioBrosNesRecomp } from "./super-mario-bros-nes-recomp";
+import { linksAwakeningRecomp } from "./links-awakening-recomp";
+import { oracleRecompiled } from "./oracle-recompiled";
+import { windWakerRecomp } from "./wind-waker-recomp";
+import { ringOut } from "./ringout";
+import { drMario64RecompPlus } from "./drmario64-recomp-plus";
+import { snowboardKids2Recomp } from "./snowboard-kids-2-recomp";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -305,4 +320,19 @@ export const portCases: Port[] = [
   openRw,
   pinyonShift,
   gears1,
+  metroidNesRecomp,
+  dkc2Recomp,
+  dkc3Recomp,
+  megaManX2Recomp,
+  marioKartSuperCircuitRecomp,
+  apeEscapeRecomp,
+  tombaRecomp,
+  tomba2Recomp,
+  superMarioBrosNesRecomp,
+  linksAwakeningRecomp,
+  oracleRecompiled,
+  windWakerRecomp,
+  ringOut,
+  drMario64RecompPlus,
+  snowboardKids2Recomp,
 ];
