@@ -34,4 +34,9 @@ export const crispyDoom: Port = {
     "Modern source port that keeps the vanilla Doom 1 experience while adding optional enhancements.",
   notesEs:
     "Port de código fuente moderno que conserva la experiencia del Doom 1 original añadiendo mejoras opcionales.",
+  cover: {
+    src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Doom.png",
+    alt: "Doom (box art)",
+    credit: "Box art",
+  },
 };

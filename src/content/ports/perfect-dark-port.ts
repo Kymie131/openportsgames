@@ -32,4 +32,9 @@ export const perfectDarkPort: Port = {
     "Work in progress port of the Perfect Dark decompilation, kept separate from the upstream GitLab project. Builds come from a rolling CI tag rather than versioned releases. Needs a legally obtained N64 ROM.",
   notesEs:
     "Port en desarrollo de la decompilación de Perfect Dark, mantenido aparte del proyecto original en GitLab. Las builds vienen de una etiqueta CI continua en lugar de releases versionadas. Necesita una ROM de N64 obtenida legalmente.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Perfect%20Dark%20(USA).png",
+    alt: "Perfect Dark (box art)",
+    credit: "Box art",
+  },
 };

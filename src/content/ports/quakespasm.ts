@@ -25,4 +25,9 @@ export const quakeSpasm: Port = {
     "Minimal Quake source port closely matching the original software renderer. No releases are published on GitHub; builds are distributed elsewhere.",
   notesEs:
     "Port de código fuente minimalista de Quake, muy cercano al renderizador por software original. No se publican releases en GitHub; las builds se distribuyen en otro sitio.",
+  cover: {
+    src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Quake%20(1996).png",
+    alt: "Quake (box art)",
+    credit: "Box art",
+  },
 };

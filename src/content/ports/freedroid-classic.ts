@@ -22,4 +22,9 @@ export const freedroidClassic: Port = {
     "Free software remake of the 1985 Commodore 64 classic Paradroid. Built from source with autotools and SDL2; Linux is the documented target platform.",
   notesEs:
     "Remake de software libre del clásico Paradroid (Commodore 64, 1985). Se compila desde el código con autotools y SDL2; Linux es la plataforma de destino documentada.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Commodore%20-%2064/Named_Boxarts/Paradroid%20(USA%2C%20Europe).png",
+    alt: "Paradroid (box art)",
+    credit: "Box art",
+  },
 };

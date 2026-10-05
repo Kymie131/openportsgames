@@ -27,4 +27,9 @@ export const spaceStationSiliconValleyRecomp: Port = {
     "Recompilation of Space Station Silicon Valley; the player supplies their own legally obtained game.",
   notesEs:
     "Recompilación de Space Station Silicon Valley; el jugador aporta su propio juego obtenido legalmente.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/SpaceStation%20Silicon%20Valley%20(USA)%20(Rev%201).png",
+    alt: "Space Station Silicon Valley (box art)",
+    credit: "Box art",
+  },
 };

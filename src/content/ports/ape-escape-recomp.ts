@@ -23,4 +23,9 @@ export const apeEscapeRecomp: Port = {
     "Native recompilation of Ape Escape (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Ape Escape (PlayStation). El jugador aporta su propia imagen de disco obtenida legalmente; el repositorio no incluye contenido del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Ape%20Escape%20(USA).png",
+    alt: "Ape Escape (box art)",
+    credit: "Box art",
+  },
 };

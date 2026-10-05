@@ -23,4 +23,9 @@ export const windWakerRecomp: Port = {
     "Static recompilation of The Legend of Zelda: The Wind Waker (GameCube) to a native app. The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:
     "Recompilación estática de The Legend of Zelda: The Wind Waker (GameCube) a una app nativa. El jugador aporta su propia imagen de disco obtenida legalmente; el repositorio no incluye contenido del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20The%20Wind%20Waker%20(USA).png",
+    alt: "The Legend of Zelda: The Wind Waker (box art)",
+    credit: "Box art",
+  },
 };

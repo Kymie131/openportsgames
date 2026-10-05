@@ -151,6 +151,30 @@ import { donut } from "./donut";
 import { dragonBallZLegacyOfGokuRecomp } from "./dragon-ball-z-legacy-of-goku-recomp";
 import { pinyonShift } from "./pinyon-shift";
 import { gears1 } from "./gears1";
+import { megaManX4Recomp } from "./mega-man-x4-recomp";
+import { megaManX5Recomp } from "./mega-man-x5-recomp";
+import { megaManX6Recomp } from "./mega-man-x6-recomp";
+import { ridgeRacerPs1Recomp } from "./ridge-racer-ps1-recomp";
+import { ridgeRacerRevolutionRecomp } from "./ridge-racer-revolution-recomp";
+import { verdite2 } from "./verdite2";
+import { openGtps1 } from "./opengtps1";
+import { crash2Recomp } from "./crash2-recomp";
+import { rageRacerPc } from "./rage-racer-pc";
+import { flowPs3Recomp } from "./flow-ps3-recomp";
+import { tokyoJungleRecompiled } from "./tokyo-jungle-recompiled";
+import { simpsonsArcadePs3 } from "./simpsons-arcade-ps3";
+import { youdontknowjackRecomp } from "./youdontknowjack-recomp";
+import { marioKart64Recomp } from "./mario-kart-64-recomp";
+import { starFox64Recomp } from "./star-fox-64-recomp";
+import { goemon64Recompiled } from "./goemon-64-recompiled";
+import { dnzhRecomp } from "./dnzh-recomp";
+import { reblue } from "./reblue";
+import { kameoRepowered } from "./kameo-repowered";
+import { tipRecomp } from "./tip-recomp";
+import { reCherry } from "./re-cherry";
+import { naughtyBearRestuff } from "./naughty-bear-restuff";
+import { renut } from "./renut";
+import { redahm } from "./redahm";
 import { metroidNesRecomp } from "./metroid-nes-recomp";
 import { dkc2Recomp } from "./dkc2-recomp";
 import { dkc3Recomp } from "./dkc3-recomp";
@@ -335,4 +359,28 @@ export const portCases: Port[] = [
   ringOut,
   drMario64RecompPlus,
   snowboardKids2Recomp,
+  megaManX4Recomp,
+  megaManX5Recomp,
+  megaManX6Recomp,
+  ridgeRacerPs1Recomp,
+  ridgeRacerRevolutionRecomp,
+  verdite2,
+  openGtps1,
+  crash2Recomp,
+  rageRacerPc,
+  flowPs3Recomp,
+  tokyoJungleRecompiled,
+  simpsonsArcadePs3,
+  youdontknowjackRecomp,
+  marioKart64Recomp,
+  starFox64Recomp,
+  goemon64Recompiled,
+  dnzhRecomp,
+  reblue,
+  kameoRepowered,
+  tipRecomp,
+  reCherry,
+  naughtyBearRestuff,
+  renut,
+  redahm,
 ];

@@ -10,10 +10,14 @@ dense. Check the per-system counts before choosing.
 
 ## Pending
 
-- **Screenshot coverage.** After the first passes, 97 ports still have no
-  official capture (mostly very new recompilation repos whose READMEs ship no
-  images yet). Each candidate needs a per-repo `docs/`, `screenshots/` or
-  `media/` check; do not hotlink badges, logos or fan art.
+- **Bloodborne (reviewed 2026-10-03, no native port).** As of this review there
+  is no native port, decompilation or static recompilation of Bloodborne (PS4).
+  It runs on PC only through the shadPS4 emulator, which is out of scope for
+  this catalog (it lists native ports, not emulators). Re-check next cycle.
+- **Screenshot coverage.** After the first passes, 114 ports still have no
+  project capture. 66 of them now show official box art via the `cover` field;
+  the rest fall back to the console logo. Do not hotlink badges, logos or fan
+  art; prefer the project's own `docs/`, `screenshots/` or `media/` folder.
 - **Atari systems (reviewed 2026-10-03, no results).** No native port,
   decompilation or static recompilation of Atari consoles was found in the
   primary lists (Recompendium, PCGamingWiki _List of unofficial ports_, GitHub

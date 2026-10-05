@@ -23,4 +23,9 @@ export const marioKartSuperCircuitRecomp: Port = {
     "Native recompilation of Mario Kart: Super Circuit (Game Boy Advance). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Mario Kart: Super Circuit (Game Boy Advance). El jugador aporta su propia ROM obtenida legalmente; el repositorio no incluye contenido del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Mario%20Kart%20-%20Super%20Circuit%20(USA).png",
+    alt: "Mario Kart: Super Circuit (box art)",
+    credit: "Box art",
+  },
 };

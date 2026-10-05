@@ -37,4 +37,9 @@ export const dsdaDoom: Port = {
     "Doom source port oriented around deterministic demo playback. No project-wide license file declares the terms for the full tree.",
   notesEs:
     "Port de código fuente de Doom orientado a la reproducción determinista de demos. No hay un archivo de licencia global que declare los términos de todo el árbol.",
+  cover: {
+    src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Doom.png",
+    alt: "Doom (box art)",
+    credit: "Box art",
+  },
 };

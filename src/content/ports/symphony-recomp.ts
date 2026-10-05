@@ -38,4 +38,9 @@ export const symphonyRecomp: Port = {
     "Recompilation of Castlevania: Symphony of the Night (PS1) that runs natively on Windows, Linux and macOS. Open beta releases (v0.5.1b) and active development; the maintainers explicitly state the port does not use AI. Requires the game dump from a disc copy you own, .NET 10 runtime and OpenAL.",
   notesEs:
     "Recompilación de Castlevania: Symphony of the Night (PS1) que corre nativa en Windows, Linux y macOS. Releases beta abiertas (v0.5.1b) y desarrollo activo; los mantenedores afirman explícitamente que el port no usa IA. Requiere el volcado del juego de una copia en disco que poseas, el runtime .NET 10 y OpenAL.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Castlevania%20-%20Symphony%20of%20the%20Night%20(USA).png",
+    alt: "Castlevania: Symphony of the Night (box art)",
+    credit: "Box art",
+  },
 };

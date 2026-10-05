@@ -26,4 +26,9 @@ export const settlers2: Port = {
   ],
   notes: "Open source reimplementation of The Settlers II engine.",
   notesEs: "Reimplementación de código abierto del motor de The Settlers II.",
+  cover: {
+    src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Settlers%20II%2C%20The%20(Gold%20Edition)%20(1997).png",
+    alt: "The Settlers II (box art)",
+    credit: "Box art",
+  },
 };

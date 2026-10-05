@@ -35,4 +35,9 @@ export const perfectDarkDabsMod: Port = {
     "Community decompilation of Perfect Dark with extended mod features, published as 'Dab's Mod'. The repository documents its AI-assisted development process. Requires the player's own legally obtained Perfect Dark ROM.",
   notesEs:
     "Decompilación comunitaria de Perfect Dark con funciones de mod ampliadas, publicada como 'Dab's Mod'. El repositorio documenta su proceso de desarrollo asistido por IA. Requiere la ROM de Perfect Dark obtenida legalmente por el jugador.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Perfect%20Dark%20(USA).png",
+    alt: "Perfect Dark (box art)",
+    credit: "Box art",
+  },
 };

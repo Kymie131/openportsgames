@@ -24,4 +24,9 @@ export const darkPlaces: Port = {
     "Quake engine with client-server multiplayer and a fullscreen console. The newest tag, v20140513, is a dated build stamp rather than a semantic version, so no release version is recorded.",
   notesEs:
     "Motor de Quake con multijugador cliente-servidor y consola a pantalla completa. La etiqueta más reciente, v20140513, es una marca de build fechada y no una versión semántica, así que no se registra versión de release.",
+  cover: {
+    src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Quake%20(1996).png",
+    alt: "Quake (box art)",
+    credit: "Box art",
+  },
 };

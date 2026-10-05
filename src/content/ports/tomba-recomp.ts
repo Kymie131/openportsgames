@@ -23,4 +23,9 @@ export const tombaRecomp: Port = {
     "Native recompilation of Tomba! (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Tomba! (PlayStation). El jugador aporta su propia imagen de disco obtenida legalmente; el repositorio no incluye contenido del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Tomba!%20(USA).png",
+    alt: "Tomba! (box art)",
+    credit: "Box art",
+  },
 };

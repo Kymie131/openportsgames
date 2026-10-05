@@ -21,4 +21,9 @@ export const rottexpr: Port = {
   originalSystem: "MS-DOS",
   notes: "Experimental Rise of the Triad engine rewrite.",
   notesEs: "Reescritura experimental del motor de Rise of the Triad.",
+  cover: {
+    src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Rise%20of%20the%20Triad%20-%20Dark%20War.png",
+    alt: "Rise of the Triad (box art)",
+    credit: "Box art",
+  },
 };

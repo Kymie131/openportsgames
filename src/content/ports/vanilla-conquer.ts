@@ -26,4 +26,9 @@ export const vanillaConquer: Port = {
     "Engine reimplementation for the original Command & Conquer. The single GitHub release is a prerelease.",
   notesEs:
     "Reimplementación del motor del Command & Conquer original. La única release de GitHub es preliminar.",
+  cover: {
+    src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Command%20and%20Conquer%20(1995).png",
+    alt: "Command & Conquer (box art)",
+    credit: "Box art",
+  },
 };

@@ -7,6 +7,15 @@ conventional prefixes.
 
 ### Added
 
+- 24 new verified ports: PS1 (Mega Man X4/X5/X6, Ridge Racer, Ridge Racer
+  Revolution, Rage Racer, Verdite2 / King's Field, OpenGTPS1 / Gran Turismo 2,
+  Crash Bandicoot 2), PS3 (flOw, Tokyo Jungle, The Simpsons Arcade Game, You
+  Don't Know Jack), N64 (Mario Kart 64, Star Fox 64, Goemon 64, Duke Nukem:
+  Zero Hour) and Xbox 360 (re:Blue, Kameo RePowered, TiP-Recomp, Re-Cherry,
+  Naughty Bear ReStuff, reNut, reDAHM).
+- Optional `cover` field: an official box-art fallback shown only when a port
+  has no project screenshots, so every card has real art instead of a placeholder.
+  Added for 66 ports (sourced from libretro-thumbnails box art).
 - Screenshots are now presented with `object-contain` over a blurred copy of
   the same image, so 4:3, 1:1, 10:9 and 2:1 captures are never cropped; pixel-art
   systems render with `image-rendering: pixelated`.

@@ -23,4 +23,9 @@ export const tomba2Recomp: Port = {
     "Native recompilation of Tomba! 2 (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Tomba! 2 (PlayStation). El jugador aporta su propia imagen de disco obtenida legalmente; el repositorio no incluye contenido del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Tomba!%202%20-%20The%20Evil%20Swine%20Return%20(USA).png",
+    alt: "Tomba! 2: The Evil Swine Return (box art)",
+    credit: "Box art",
+  },
 };

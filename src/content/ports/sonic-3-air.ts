@@ -27,4 +27,9 @@ export const sonic3Air: Port = {
   ],
   notes: "Enhanced fork of Sonic Retro's engine for Sonic 3 and Sonic & Knuckles.",
   notesEs: "Fork mejorado del motor de Sonic Retro para Sonic 3 y Sonic & Knuckles.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sega%20-%20Mega%20Drive%20-%20Genesis/Named_Boxarts/Sonic%20_%20Knuckles%20%2B%20Sonic%20The%20Hedgehog%20(USA).png",
+    alt: "Sonic the Hedgehog 3 & Knuckles (box art)",
+    credit: "Box art",
+  },
 };

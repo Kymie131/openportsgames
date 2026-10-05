@@ -25,4 +25,9 @@ export const openTyrian: Port = {
     "Open source port of the vertical scrolling shooter Tyrian. The game data is not included and must be supplied by the player.",
   notesEs:
     "Port de código abierto del shooter de desplazamiento vertical Tyrian. Los datos del juego no se incluyen y debe aportarlos el jugador.",
+  cover: {
+    src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Tyrian.png",
+    alt: "Tyrian (box art)",
+    credit: "Box art",
+  },
 };

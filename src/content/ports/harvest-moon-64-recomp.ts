@@ -28,4 +28,9 @@ export const harvestMoon64Recomp: Port = {
   notes: "Recompilation of Harvest Moon 64; the player supplies their own legally obtained game.",
   notesEs:
     "Recompilación de Harvest Moon 64; el jugador aporta su propio juego obtenido legalmente.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Harvest%20Moon%2064%20(USA).png",
+    alt: "Harvest Moon 64 (box art)",
+    credit: "Box art",
+  },
 };

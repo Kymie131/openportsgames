@@ -23,4 +23,9 @@ export const superMarioBrosNesRecomp: Port = {
     "Native recompilation of Super Mario Bros. (NES). The player supplies their own legally obtained ROM; the repository ships no game content. An earlier fork by TechnicallyComputers exists; this is the repository listed here.",
   notesEs:
     "Recompilación nativa de Super Mario Bros. (NES). El jugador aporta su propia ROM obtenida legalmente; el repositorio no incluye contenido del juego. Existe un fork anterior de TechnicallyComputers; este es el repositorio listado aquí.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Mario%20Bros.%20(World).png",
+    alt: "Super Mario Bros. (box art)",
+    credit: "Box art",
+  },
 };

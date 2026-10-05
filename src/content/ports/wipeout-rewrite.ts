@@ -25,4 +25,9 @@ export const wipeoutRewrite: Port = {
     "Rewritten version of the classic PlayStation wipEout. No license file and no tagged releases are published, so no version is recorded.",
   notesEs:
     "Versión reescrita del clásico wipEout de PlayStation. No se publican archivo de licencia ni releases etiquetadas, así que no se registra versión.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/WipEout%20(USA).png",
+    alt: "wipEout (box art)",
+    credit: "Box art",
+  },
 };

@@ -94,6 +94,13 @@ const normalPort = z.object({
     )
     .max(12)
     .optional(),
+  cover: z
+    .object({
+      src: httpsUrl,
+      alt: z.string().min(2).max(120),
+      credit: z.string().min(2).max(80),
+    })
+    .optional(),
 });
 
 const takedownPort = z.object({
@@ -189,6 +196,7 @@ export type Port = {
     width?: number;
     height?: number;
   }[];
+  cover?: { src: string; alt: string; credit: string };
 };
 
 export type TakedownPort = {

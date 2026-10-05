@@ -39,6 +39,7 @@ export function PortTile({
     stars !== undefined && stars > 0 ? new Intl.NumberFormat("en").format(stars) : undefined;
   const consoleLogo = consoleLogoForSystem(system);
   const [cover] = port.screenshots ?? [];
+  const art = cover ? { src: cover.src, alt: cover.alt } : port.cover;
 
   return (
     <article
@@ -49,15 +50,15 @@ export function PortTile({
         className,
       )}
     >
-      {cover ? (
+      {art ? (
         <Link
           href={`/ports/${port.id}`}
           className="block overflow-hidden rounded-md border border-border transition-colors duration-150 hover:border-accent-hover"
           aria-label={port.title}
         >
           <ScreenshotFrame
-            src={cover.src}
-            alt={cover.alt}
+            src={art.src}
+            alt={art.alt}
             pixelated={isPixelArtSystem(system)}
             className="aspect-video w-full"
           />
@@ -86,7 +87,10 @@ export function PortTile({
                   labelClassName="text-xs font-mono font-medium tracking-wider text-muted uppercase"
                 />
               )}
-              <span className="text-3xl font-bold tracking-tight text-foreground/35 font-mono" aria-hidden="true">
+              <span
+                className="text-3xl font-bold tracking-tight text-foreground/35 font-mono"
+                aria-hidden="true"
+              >
                 {port.game.charAt(0)}
               </span>
             </div>

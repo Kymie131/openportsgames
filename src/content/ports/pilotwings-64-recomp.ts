@@ -40,4 +40,9 @@ export const pilotwings64Recomp: Port = {
     "Static recompilation of Pilotwings 64 with N64Recomp; the player supplies their own legally obtained cartridge. The repository describes the port as AI-coded, hence the AI disclosure.",
   notesEs:
     "Recompilación estática de Pilotwings 64 con N64Recomp; el jugador aporta su propio cartucho obtenido legalmente. El repositorio describe el port como programado por IA, de ahí la declaración de IA.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Pilotwings%2064%20(USA).png",
+    alt: "Pilotwings 64 (box art)",
+    credit: "Box art",
+  },
 };

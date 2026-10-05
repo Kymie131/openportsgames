@@ -36,4 +36,9 @@ export const doom64ExPlus: Port = {
     "Complete source port of Doom 64. The project is archived on GitHub and its license is a custom Limited Use Software License, so the terms are not an OSI license.",
   notesEs:
     "Port de código fuente completo de Doom 64. El proyecto está archivado en GitHub y su licencia es una Limited Use Software License propia, por lo que sus términos no son una licencia OSI.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Doom%2064%20(USA).png",
+    alt: "Doom 64 (box art)",
+    credit: "Box art",
+  },
 };

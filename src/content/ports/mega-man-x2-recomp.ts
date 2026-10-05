@@ -23,4 +23,9 @@ export const megaManX2Recomp: Port = {
     "Native recompilation of Mega Man X2 for the Super Nintendo. The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Mega Man X2 para Super Nintendo. El jugador aporta su propia ROM obtenida legalmente; el repositorio no incluye contenido del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mega%20Man%20X2%20(USA).png",
+    alt: "Mega Man X2 (box art)",
+    credit: "Box art",
+  },
 };

@@ -23,4 +23,9 @@ export const dkc2Recomp: Port = {
     "Native recompilation of Donkey Kong Country 2 for the Super Nintendo. The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Donkey Kong Country 2 para Super Nintendo. El jugador aporta su propia ROM obtenida legalmente; el repositorio no incluye contenido del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Donkey%20Kong%20Country%202%20-%20Diddy's%20Kong%20Quest%20(USA)%20(En%2CFr).png",
+    alt: "Donkey Kong Country 2: Diddy's Kong Quest (box art)",
+    credit: "Box art",
+  },
 };

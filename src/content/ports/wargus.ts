@@ -24,4 +24,9 @@ export const wargusPort: Port = {
     "Engine reimplementation for Warcraft II, intended to be compatible with the retail data files.",
   notesEs:
     "Reimplementación del motor de Warcraft II, pensada para ser compatible con los archivos de datos comerciales.",
+  cover: {
+    src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Warcraft%20II%20-%20Tides%20of%20Darkness.png",
+    alt: "Warcraft II (box art)",
+    credit: "Box art",
+  },
 };

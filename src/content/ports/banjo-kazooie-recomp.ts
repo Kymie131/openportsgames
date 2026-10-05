@@ -36,4 +36,9 @@ export const banjoKazooieRecomp: Port = {
     "Native recompilation of Banjo-Kazooie produced with N64Recomp. The player loads their own legally obtained N64 ROM; the port recompiles the game code instead of emulating it.",
   notesEs:
     "Recompilación nativa de Banjo-Kazooie realizada con N64Recomp. El jugador carga su propia ROM de N64 obtenida legalmente; el port recompila el código del juego en lugar de emularlo.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Banjo-Kazooie%20(USA).png",
+    alt: "Banjo-Kazooie (box art)",
+    credit: "Box art",
+  },
 };

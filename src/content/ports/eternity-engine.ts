@@ -29,4 +29,9 @@ export const eternityEngine: Port = {
   ],
   notes: "Extended Doom engine kept in active development for advanced community maps.",
   notesEs: "Motor de Doom extendido y en desarrollo activo para mapas comunitarios avanzados.",
+  cover: {
+    src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Doom.png",
+    alt: "Doom (box art)",
+    credit: "Box art",
+  },
 };

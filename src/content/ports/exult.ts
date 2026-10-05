@@ -32,4 +32,9 @@ export const exultPort: Port = {
     "Open source engine for the Ultima VII and VIII games. Published GitHub releases are prereleases only, so no stable version is recorded.",
   notesEs:
     "Motor de código abierto para los juegos Ultima VII y VIII. Las releases de GitHub publicadas son solo versiones preliminares, así que no se registra una versión estable.",
+  cover: {
+    src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Ultima%20VIII%20-%20Pagan.png",
+    alt: "Ultima VII (box art)",
+    credit: "Box art",
+  },
 };

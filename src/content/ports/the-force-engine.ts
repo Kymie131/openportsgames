@@ -30,4 +30,9 @@ export const theForceEngine: Port = {
     "Engine reimplementation targeting the games built on the Dark Forces engine. Original game assets are not distributed.",
   notesEs:
     "Reimplementación del motor orientada a los juegos construidos con el motor Dark Forces. Los recursos del juego original no se distribuyen.",
+  cover: {
+    src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Star%20Wars%20-%20Dark%20Forces.png",
+    alt: "Star Wars: Dark Forces (box art)",
+    credit: "Box art",
+  },
 };

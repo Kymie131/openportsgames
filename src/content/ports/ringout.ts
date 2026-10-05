@@ -23,4 +23,9 @@ export const ringOut: Port = {
     "Static recompilation of SoulCalibur II to a native app. The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:
     "Recompilación estática de SoulCalibur II a una app nativa. El jugador aporta su propia imagen de disco obtenida legalmente; el repositorio no incluye contenido del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/SoulCalibur%20II%20(USA).png",
+    alt: "SoulCalibur II (box art)",
+    credit: "Box art",
+  },
 };

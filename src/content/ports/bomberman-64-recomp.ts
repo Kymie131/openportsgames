@@ -34,4 +34,9 @@ export const bomberman64Recomp: Port = {
     "Bomberman 64 rebuilt with N64: Recompiled. The repository and its releases contain no game assets, so the player must supply their own legally obtained game.",
   notesEs:
     "Bomberman 64 reconstruido con N64: Recompiled. El repositorio y sus releases no contienen recursos del juego, así que el jugador debe aportar su propio juego obtenido legalmente.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Bomberman%2064%20(USA).png",
+    alt: "Bomberman 64 (box art)",
+    credit: "Box art",
+  },
 };

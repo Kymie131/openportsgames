@@ -33,4 +33,9 @@ export const ctrNative: Port = {
     "Native port of Crash Team Racing rebuilt from the original PlayStation code, distributed as beta/playtest releases. Requires your own NTSC-U retail disc image (assets/ctr-u.bin) and an OpenGL 3.3 capable GPU.",
   notesEs:
     "Port nativo de Crash Team Racing reconstruido a partir del código original de PlayStation y distribuido como releases beta de prueba. Requiere tu propia imagen de disco minorista NTSC-U (assets/ctr-u.bin) y una GPU compatible con OpenGL 3.3.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/CTR%20-%20Crash%20Team%20Racing%20(USA).png",
+    alt: "Crash Team Racing (box art)",
+    credit: "Box art",
+  },
 };

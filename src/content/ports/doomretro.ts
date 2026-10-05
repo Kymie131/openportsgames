@@ -33,4 +33,9 @@ export const doomRetro: Port = {
   notes: "Windows-focused Doom source port with a wide range of display and input options.",
   notesEs:
     "Port de código fuente de Doom centrado en Windows, con una amplia gama de opciones de visualización y control.",
+  cover: {
+    src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Doom.png",
+    alt: "Doom (box art)",
+    credit: "Box art",
+  },
 };

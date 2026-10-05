@@ -35,4 +35,9 @@ export const dk64Recompiled: Port = {
     "Native recompilation of Donkey Kong 64 produced with N64Recomp. The player loads their own legally obtained N64 ROM; the port recompiles the game code instead of emulating it.",
   notesEs:
     "Recompilación nativa de Donkey Kong 64 realizada con N64Recomp. El jugador carga su propia ROM de N64 obtenida legalmente; el port recompila el código del juego en lugar de emularlo.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Donkey%20Kong%2064%20(USA).png",
+    alt: "Donkey Kong 64 (box art)",
+    credit: "Box art",
+  },
 };

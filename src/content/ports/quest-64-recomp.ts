@@ -27,4 +27,9 @@ export const quest64Recomp: Port = {
     "Recompilation of Quest 64 that requires the 1.0 North American release of the game. Only a Windows executable is published so far, with other systems announced. Very wide aspect ratios can show animation artifacts at the screen edges.",
   notesEs:
     "Recompilación de Quest 64 que requiere la versión 1.0 norteamericana del juego. Por ahora solo se publica un ejecutable para Windows, con otros sistemas anunciados. Las relaciones de aspecto muy anchas pueden mostrar artefactos de animación en los bordes de la pantalla.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Quest%2064%20(USA).png",
+    alt: "Quest 64 (box art)",
+    credit: "Box art",
+  },
 };

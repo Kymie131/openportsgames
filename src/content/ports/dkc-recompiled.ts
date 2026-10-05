@@ -39,4 +39,9 @@ export const dkcRecompiled: Port = {
     "Recompilation trilogy covering Donkey Kong Country, Donkey Kong Country 2: Diddy's Kong Quest and Donkey Kong Country 3: Dixie Kong's Double Trouble, each from its own repository. Requires the player's own legally dumped ROM per game.",
   notesEs:
     "Trilogía de recompilaciones que cubre Donkey Kong Country, Donkey Kong Country 2: Diddy's Kong Quest y Donkey Kong Country 3: Dixie Kong's Double Trouble, cada una desde su propio repositorio. Requiere la ROM de cada juego volcada legalmente por el propio jugador.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Donkey%20Kong%20Country%20(USA).png",
+    alt: "Donkey Kong Country (box art)",
+    credit: "Box art",
+  },
 };

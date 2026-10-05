@@ -28,4 +28,9 @@ export const sdlPoP: Port = {
     "Port of the Apple II original of Prince of Persia. No tagged releases are published on GitHub.",
   notesEs:
     "Port del Prince of Persia original de Apple II. No se publican releases etiquetadas en GitHub.",
+  cover: {
+    src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Prince%20of%20Persia.png",
+    alt: "Prince of Persia (box art)",
+    credit: "Box art",
+  },
 };

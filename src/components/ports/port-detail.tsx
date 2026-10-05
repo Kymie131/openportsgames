@@ -115,6 +115,17 @@ export function PortDetail({
 
       {port.screenshots && port.screenshots.length > 0 ? (
         <PortGallery screenshots={port.screenshots} originalSystem={originalSystem} />
+      ) : port.cover ? (
+        <figure className="relative">
+          <ScreenshotFrame
+            src={port.cover.src}
+            alt={port.cover.alt}
+            pixelated={isPixelArtSystem(originalSystem)}
+            eager
+            className="aspect-video w-full rounded-lg border border-border"
+          />
+          <ConsoleBadge system={originalSystem} />
+        </figure>
       ) : (
         <figure className="relative flex aspect-video items-center justify-center overflow-hidden rounded-lg border border-border bg-gradient-to-br from-surface-2 to-surface">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,color-mix(in_srgb,var(--accent)_12%,transparent)_0%,transparent_65%)]" />

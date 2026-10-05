@@ -32,4 +32,9 @@ export const pspRecomp: Port = {
     "Static recompilation framework for PSP software with a Vice City Stories profile. No tagged releases yet, so builds come from the repository. Needs the data from your own copy of the game.",
   notesEs:
     "Marco de recompilación estática para software de PSP con un perfil de Vice City Stories. Aún sin releases etiquetadas, así que las builds salen del repositorio. Necesita los datos de tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Grand%20Theft%20Auto%20-%20Vice%20City%20Stories%20(USA).png",
+    alt: "Grand Theft Auto: Vice City Stories (box art)",
+    credit: "Box art",
+  },
 };
