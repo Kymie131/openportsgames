@@ -282,7 +282,7 @@ export function CatalogClient({
           {results.length > 0 ? (
             <>
               <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3">
-                {pageResult.items.map((port) => (
+                {pageResult.items.map((port, index) => (
                   <li key={port.id} className="flex">
                     <PortTile
                       className="w-full"
@@ -290,6 +290,7 @@ export function CatalogClient({
                       testStatus={testStatuses[port.id]}
                       stars={stars[port.id]}
                       system={originalSystems[port.id]}
+                      eager={index < 6}
                     />
                   </li>
                 ))}

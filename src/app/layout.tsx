@@ -9,6 +9,7 @@ import { LocaleProvider } from "@/components/i18n/locale-provider";
 import { SkipLink } from "@/components/layout/skip-link";
 import { SiteHeader } from "@/components/layout/site-header";
 import { SiteFooter } from "@/components/layout/site-footer";
+import { getImageHosts } from "@/lib/ports";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -51,6 +52,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       suppressHydrationWarning
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        {/* Warm up the connections to the hosts that serve port art, so the
+            first catalog paint does not pay a DNS + TLS handshake per host. */}
+        {getImageHosts().map((host) => (
+          <link key={host} rel="preconnect" href={`https://${host}`} />
+        ))}
+      </head>
       <body className="flex min-h-full flex-col">
         <ThemeScript />
         <LocaleScript />

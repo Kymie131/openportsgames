@@ -121,3 +121,31 @@ export function getPortCount(): number {
 export function getAndroidPortCount(): number {
   return ports.filter((port) => port.platforms.includes("android")).length;
 }
+
+/**
+ * Hosts that serve port screenshots and covers, most used first.
+ *
+ * The catalog hotlinks images from each project's own host, so the first paint
+ * pays a DNS + TLS handshake per host. The layout renders `preconnect` hints for
+ * the busiest few so those connections are warm before the images load, without
+ * flooding the browser with dozens of speculative connections.
+ */
+export function getImageHosts(limit = 6): string[] {
+  const counts = new Map<string, number>();
+  const add = (url: string) => {
+    try {
+      const host = new URL(url).host;
+      counts.set(host, (counts.get(host) ?? 0) + 1);
+    } catch {
+      // ignore malformed URLs; the schema already enforces https
+    }
+  };
+  for (const port of ports) {
+    for (const shot of port.screenshots ?? []) add(shot.src);
+    if (port.cover) add(port.cover.src);
+  }
+  return [...counts.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, limit)
+    .map(([host]) => host);
+}

@@ -29,6 +29,7 @@ export function ConsoleMark({
         src={assetPath(`/logos/console/${logo}.png`)}
         alt=""
         aria-hidden="true"
+        decoding="async"
         className={cn(box, "rounded-md bg-white/90 object-contain p-1", className)}
       />
     );

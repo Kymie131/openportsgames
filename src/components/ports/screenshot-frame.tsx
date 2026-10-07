@@ -31,13 +31,16 @@ export function ScreenshotFrame({
       data-testid="screenshot-frame"
       className={cn("relative overflow-hidden bg-surface-2", className)}
     >
-      {/* Decorative backdrop: the same capture, enlarged and blurred. */}
+      {/* Decorative backdrop: the same capture, enlarged and blurred. Same URL,
+          so the browser reuses the single network response. */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={resolved}
         alt=""
         aria-hidden="true"
         loading={loading}
+        decoding="async"
+        fetchPriority="low"
         className="pointer-events-none absolute inset-0 h-full w-full scale-110 object-cover opacity-45 blur-md"
       />
       {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -46,6 +49,8 @@ export function ScreenshotFrame({
         src={resolved}
         alt={alt}
         loading={loading}
+        decoding="async"
+        fetchPriority={eager ? "high" : "auto"}
         className={cn(
           "relative z-10 h-full w-full object-contain",
           pixelated && "image-pixelated",

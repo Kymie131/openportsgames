@@ -85,6 +85,10 @@ conventional prefixes.
 
 ### Changed
 
+- Image loading: preconnect hints for the busiest art hosts, `decoding="async"`
+  and `fetchpriority` on screenshots, and the first row of catalog/home tiles
+  now loads eagerly. The rest stay lazy. This cuts the cold-cache delay when
+  the catalog hotlinks art from external hosts.
 - Brand logo recolored from the blue gradient to the green accent gradient
   (`#6ED7A0` → `#56C589` → `#4FC3BA`), matching the site theme.
 - Dusklight updated to `2.0.2` (2026-09-25), the one real update found by the

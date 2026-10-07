@@ -26,12 +26,14 @@ export function PortTile({
   stars,
   system,
   className,
+  eager = false,
 }: {
   port: Port;
   testStatus?: TestStatus;
   stars?: number;
   system?: string;
   className?: string;
+  eager?: boolean;
 }) {
   const t = useT();
   const [source] = port.sources;
@@ -61,6 +63,7 @@ export function PortTile({
             alt={art.alt}
             pixelated={isPixelArtSystem(system)}
             className="aspect-video w-full"
+            eager={eager}
           />
         </Link>
       ) : (

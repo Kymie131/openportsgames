@@ -239,9 +239,15 @@ export function HomeContent({
 function PortGrid({ ports }: { ports: FeaturedPort[] }) {
   return (
     <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-      {ports.map(({ port, testStatus, system }) => (
+      {ports.map(({ port, testStatus, system }, index) => (
         <li key={port.id}>
-          <PortTile port={port} testStatus={testStatus} system={system} className="h-full" />
+          <PortTile
+            port={port}
+            testStatus={testStatus}
+            system={system}
+            className="h-full"
+            eager={index < 3}
+          />
         </li>
       ))}
     </ul>
