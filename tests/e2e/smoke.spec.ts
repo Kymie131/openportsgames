@@ -5,6 +5,7 @@ const ROUTES = [
   { path: "/ports", heading: /Catalog|Catálogo/ },
   { path: "/pc", heading: /PC/ },
   { path: "/android", heading: /Android/ },
+  { path: "/emulators", heading: /Emulators|Emuladores/ },
   { path: "/testing", heading: /Testing|Pruebas/ },
   { path: "/guides", heading: /Guides|Guías/ },
   { path: "/submit", heading: /Submit|Enviar/ },

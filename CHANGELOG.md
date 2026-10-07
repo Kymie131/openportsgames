@@ -7,6 +7,12 @@ conventional prefixes.
 
 ### Added
 
+- New `/emulators` section: browse emulators by console generation. Pick a
+  generation to see its consoles (with logo or a brand-colored monogram), then
+  a console to see its emulators ranked by compatibility, with the best pick
+  flagged, official source, platforms and license. Consoles with no public
+  emulator show an explicit empty state, and each console links to the native
+  ports we have for it.
 - 39 more verified ports from the scene's primary lists (Recompendium,
   recomp.fyi, decomp.dev, readonlymemo), including closed-code games with
   public port code:
