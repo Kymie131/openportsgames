@@ -18,8 +18,14 @@ test.describe("emulators section", () => {
     await expect(page.getByText("DuckStation")).toBeVisible();
   });
 
-  test("a console with no emulator shows the empty state", async ({ page }) => {
+  test("PS5 lists its experimental emulators", async ({ page }) => {
     await page.goto("/emulators?gen=gen-9&console=playstation-5");
+    await expect(page.getByRole("heading", { name: "SharpEmu" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "KytyPS5" })).toBeVisible();
+  });
+
+  test("a console with no emulator shows the empty state", async ({ page }) => {
+    await page.goto("/emulators?gen=gen-9&console=xbox-series");
     await expect(page.getByText(/No public emulator yet|Aún sin emulador público/)).toBeVisible();
   });
 });
