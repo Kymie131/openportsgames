@@ -231,4 +231,5 @@ export const originalSystemById: Record<Port["id"], string> = {
   "wet-recomp": "Xbox 360",
   "too-human-recomp": "Xbox 360",
   "spider-man-edge-of-time-recomp": "Xbox 360",
+  "bloodborne-pc": "PlayStation 4",
 };

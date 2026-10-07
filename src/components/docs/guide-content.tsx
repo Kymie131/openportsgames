@@ -3,7 +3,13 @@
 import { useT } from "@/lib/i18n/use-i18n";
 import { DocHeader, DocList, DocPage, DocParagraph, DocSection } from "./editorial";
 
-const TECHNIQUES = ["decompilation", "recompilation", "reimplementation", "source-port"] as const;
+const TECHNIQUES = [
+  "decompilation",
+  "recompilation",
+  "reimplementation",
+  "source-port",
+  "runtime-port",
+] as const;
 
 export function GuideContent() {
   const t = useT();

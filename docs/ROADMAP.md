@@ -10,10 +10,14 @@ dense. Check the per-system counts before choosing.
 
 ## Pending
 
-- **Bloodborne (reviewed 2026-10-03, no native port).** As of this review there
-  is no native port, decompilation or static recompilation of Bloodborne (PS4).
-  It runs on PC only through the shadPS4 emulator, which is out of scope for
-  this catalog (it lists native ports, not emulators). Re-check next cycle.
+- **Bloodborne (updated 2026-10-07).** An unofficial native runtime port now
+  exists: `deadinside28/bloodborne_pc` ("bbport", GPL-2.0), which runs the PS4
+  x86-64 executable natively with no emulation, a custom runtime replacing the
+  PS4 libraries and graphics translated to Vulkan through a shadPS4-derived
+  renderer. It is listed in the catalog as a `runtime-port`; it is not a
+  decompilation and still needs your own decrypted dump. The official remaster
+  or PC port remains unannounced, and a Bluepoint remake pitch was reportedly
+  blocked by FromSoftware (Bloomberg, Feb 2026).
 - **Generations reviewed (2026-10-03).** Gen 1-2 (Atari 2600/5200/7800, Channel
   F, Intellivision, ColecoVision, Odyssey): only emulators, no native port.
   Gen 3-7 are covered; Gen 8-10 (PS4, Xbox One, Wii U, 3DS, Vita, Switch,

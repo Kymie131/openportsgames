@@ -121,6 +121,7 @@ const en = {
     recompilation: "Recompilation",
     reimplementation: "Reimplementation",
     "source-port": "Source port",
+    "runtime-port": "Native runtime",
   },
   detail: {
     backToCatalog: "Back to catalog",
@@ -249,6 +250,8 @@ const en = {
         "A new engine is written to recreate a game or a family of games in a modern way. Projects gain flexibility (new platforms, improved rendering) but faithfulness depends on each asset or behaviour reimplemented.",
       "source-port":
         "An engine released by its original developer is updated so it keeps running on modern systems, taking advantage of them. It is the classic path for games whose source code was officially released.",
+      "runtime-port":
+        "A runtime is written for a single game, replacing the console's system libraries, while the game's own code runs natively on the CPU (no emulation) and its graphics are translated to a modern API. It is the Wine/DXVK approach applied to one title, and it still depends on the player's own copy of the game.",
     },
     techniquesNote:
       "You can browse the catalog by technique from each port's detail page; the technique is always shown in the overview.",
@@ -538,6 +541,7 @@ const es: Messages = {
     recompilation: "Recompilación",
     reimplementation: "Reimplementación",
     "source-port": "Port de código fuente",
+    "runtime-port": "Runtime nativo",
   },
   detail: {
     backToCatalog: "Volver al catálogo",
@@ -667,6 +671,8 @@ const es: Messages = {
         "Se escribe un motor nuevo para recrear un juego o una familia de juegos de forma moderna. Los proyectos ganan flexibilidad (nuevas plataformas, renderizado mejorado), pero la fidelidad depende de cada recurso o comportamiento reimplementado.",
       "source-port":
         "Un motor liberado por su desarrollador original se actualiza para que siga funcionando en sistemas modernos aprovechándolos. Es la vía clásica para los juegos cuyo código fuente se publicó oficialmente.",
+      "runtime-port":
+        "Se escribe un runtime para un único juego que reemplaza las librerías del sistema de la consola, mientras el código del propio juego corre nativo en la CPU (sin emulación) y sus gráficos se traducen a una API moderna. Es el enfoque de Wine/DXVK aplicado a un solo título, y sigue dependiendo de tu propia copia del juego.",
     },
     techniquesNote:
       "Puedes explorar el catálogo por técnica: siempre se indica en la página de detalle de cada port.",

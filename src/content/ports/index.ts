@@ -188,6 +188,7 @@ import { supermanReturnsRecomp } from "./superman-returns-recomp";
 import { wetRecomp } from "./wet-recomp";
 import { tooHumanRecomp } from "./too-human-recomp";
 import { spiderManEdgeOfTimeRecomp } from "./spider-man-edge-of-time-recomp";
+import { bloodbornePc } from "./bloodborne-pc";
 import { pinyonShift } from "./pinyon-shift";
 import { gears1 } from "./gears1";
 import { megaManX4Recomp } from "./mega-man-x4-recomp";
@@ -461,4 +462,5 @@ export const portCases: Port[] = [
   wetRecomp,
   tooHumanRecomp,
   spiderManEdgeOfTimeRecomp,
+  bloodbornePc,
 ];

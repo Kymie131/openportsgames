@@ -7,6 +7,11 @@ conventional prefixes.
 
 ### Added
 
+- Bloodborne (unofficial native runtime port, "bbport"): runs the PS4 x86-64
+  executable natively with no emulation, a custom runtime replacing the PS4
+  libraries and graphics translated to Vulkan via a shadPS4-derived renderer.
+  It required a new `runtime-port` technique (the Wine/DXVK approach for one
+  title), added to the catalog filters and the guides.
 - New `/emulators` section: browse emulators by console generation. Pick a
   generation to see its consoles (with logo or a brand-colored monogram), then
   a console to see its emulators ranked by compatibility, with the best pick

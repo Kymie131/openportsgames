@@ -7,6 +7,7 @@ export const portTypes = [
   "recompilation",
   "reimplementation",
   "source-port",
+  "runtime-port",
 ] as const;
 export const portStatuses = ["stable", "beta", "alpha", "takedown"] as const;
 export const genres = [

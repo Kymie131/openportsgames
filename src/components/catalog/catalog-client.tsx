@@ -261,7 +261,9 @@ export function CatalogClient({
               <span className="hidden sm:inline">{t.catalog.sortLabel}</span>
               <select
                 value={state.sort}
-                onChange={(event) => commit({ ...state, sort: event.target.value as SortKey, page: 1 })}
+                onChange={(event) =>
+                  commit({ ...state, sort: event.target.value as SortKey, page: 1 })
+                }
                 aria-label={t.catalog.sortLabel}
                 className="rounded-md border border-border bg-surface px-3 py-2 text-sm text-foreground focus:outline-none focus-visible:outline-none"
               >
@@ -608,6 +610,7 @@ function FilterPanel({
             ["recompilation", t.portTypes.recompilation],
             ["reimplementation", t.portTypes.reimplementation],
             ["source-port", t.portTypes["source-port"]],
+            ["runtime-port", t.portTypes["runtime-port"]],
           ]}
           selected={state.technique}
           onToggle={(value) => toggle("technique", value)}
