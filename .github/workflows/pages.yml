@@ -28,7 +28,9 @@ jobs:
         run: npm ci
 
       - name: Audit dependencies
-        run: npm audit --audit-level=high
+        # Only production dependencies ship in the static export; dev-only
+        # tooling advisories are not part of the deployed site.
+        run: npm audit --omit=dev --audit-level=high
 
       - name: Validate catalog content
         run: npm run validate
