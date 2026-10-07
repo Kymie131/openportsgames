@@ -14,10 +14,15 @@ dense. Check the per-system counts before choosing.
   is no native port, decompilation or static recompilation of Bloodborne (PS4).
   It runs on PC only through the shadPS4 emulator, which is out of scope for
   this catalog (it lists native ports, not emulators). Re-check next cycle.
-- **Screenshot coverage.** After the first passes, 114 ports still have no
-  project capture. 66 of them now show official box art via the `cover` field;
-  the rest fall back to the console logo. Do not hotlink badges, logos or fan
-  art; prefer the project's own `docs/`, `screenshots/` or `media/` folder.
+- **Generations reviewed (2026-10-03).** Gen 1-2 (Atari 2600/5200/7800, Channel
+  F, Intellivision, ColecoVision, Odyssey): only emulators, no native port.
+  Gen 3-7 are covered; Gen 8-10 (PS4, Xbox One, Wii U, 3DS, Vita, Switch,
+  PS5, Xbox Series) have no eligible native port yet beyond emulation.
+- **Box-art fallbacks.** Xbox 360 has only 12 box arts on libretro-thumbnails,
+  so several 360 ports still fall back to the console logo. Sources with a
+  clear reuse basis are preferred; do not hotlink fan art.
+- **Screenshot coverage.** 77 ports ship project screenshots and 108 ship box
+  art; the remainder are new recomp repos whose READMEs ship no images yet.
 - **Atari systems (reviewed 2026-10-03, no results).** No native port,
   decompilation or static recompilation of Atari consoles was found in the
   primary lists (Recompendium, PCGamingWiki _List of unofficial ports_, GitHub

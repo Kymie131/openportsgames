@@ -23,4 +23,9 @@ export const megaManX6Recomp: Port = {
     "Native recompilation of Mega Man X6 (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Mega Man X6 (PlayStation). El jugador aporta su propio material obtenido legalmente (imagen de disco); el repositorio no incluye contenido del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Mega%20Man%20X6%20(USA).png",
+    alt: "Mega Man X6 (box art)",
+    credit: "Box art",
+  },
 };

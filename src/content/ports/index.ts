@@ -149,6 +149,45 @@ import { openRw } from "./open-rw";
 import { bt3Recomp } from "./bt3-recomp";
 import { donut } from "./donut";
 import { dragonBallZLegacyOfGokuRecomp } from "./dragon-ball-z-legacy-of-goku-recomp";
+import { duckHuntNesRecomp } from "./duck-hunt-nes-recomp";
+import { drMarioNesRecomp } from "./dr-mario-nes-recomp";
+import { zeldaNesRecomp } from "./zelda-nes-recomp";
+import { faxanaduRecomp } from "./faxanadu-recomp";
+import { yoshiNesRecomp } from "./yoshi-nes-recomp";
+import { yoshisCookieRecomp } from "./yoshis-cookie-recomp";
+import { megaMan3NesRecomp } from "./mega-man-3-nes-recomp";
+import { gumshoeNesRecomp } from "./gumshoe-nes-recomp";
+import { pacManNesRecomp } from "./pac-man-nes-recomp";
+import { smbVanillaPort } from "./smb-vanilla-port";
+import { zeldaAlttpSnesRecomp } from "./zelda-alttp-snes-recomp";
+import { superMetroidSnesRecomp } from "./super-metroid-snes-recomp";
+import { sonic1GenesisRecomp } from "./sonic-1-genesis-recomp";
+import { streetsOfRageRecomp } from "./streets-of-rage-recomp";
+import { tsumuLightRecomp } from "./tsumu-light-recomp";
+import { xenogearsRecomp } from "./xenogears-recomp";
+import { ridgeRacerType4Recomp } from "./ridge-racer-type-4-recomp";
+import { kingsFieldRecomp } from "./kings-field-recomp";
+import { megaMan64Recomp } from "./mega-man-64-recomp";
+import { rocketR } from "./rocket-r";
+import { rush2Recomp } from "./rush-2-recomp";
+import { chameleonTwist2Recomp } from "./chameleon-twist-2-recomp";
+import { superman64Recomp } from "./superman-64-recomp";
+import { wcwNwoRevengeRecomp } from "./wcw-nwo-revenge-recomp";
+import { hamsterMonogatari64Recomp } from "./hamster-monogatari-64-recomp";
+import { battleship } from "./battleship";
+import { paperMarioPaperboat } from "./paper-mario-paperboat";
+import { animalCrossingPcPort } from "./animal-crossing-pc-port";
+import { metroidPrimePort } from "./metroid-prime-port";
+import { haloCeUniversal } from "./halo-ce-universal";
+import { lostOdysseyRecomp } from "./lost-odyssey-recomp";
+import { deadRising2CaseZeroRecomp } from "./dead-rising-2-case-zero-recomp";
+import { ninjaGaiden2Recomp } from "./ninja-gaiden-2-recomp";
+import { perfectDarkRemasterRecomp } from "./perfect-dark-remaster-recomp";
+import { sonicFreeRidersRecomp } from "./sonic-free-riders-recomp";
+import { supermanReturnsRecomp } from "./superman-returns-recomp";
+import { wetRecomp } from "./wet-recomp";
+import { tooHumanRecomp } from "./too-human-recomp";
+import { spiderManEdgeOfTimeRecomp } from "./spider-man-edge-of-time-recomp";
 import { pinyonShift } from "./pinyon-shift";
 import { gears1 } from "./gears1";
 import { megaManX4Recomp } from "./mega-man-x4-recomp";
@@ -383,4 +422,43 @@ export const portCases: Port[] = [
   naughtyBearRestuff,
   renut,
   redahm,
+  duckHuntNesRecomp,
+  drMarioNesRecomp,
+  zeldaNesRecomp,
+  faxanaduRecomp,
+  yoshiNesRecomp,
+  yoshisCookieRecomp,
+  megaMan3NesRecomp,
+  gumshoeNesRecomp,
+  pacManNesRecomp,
+  smbVanillaPort,
+  zeldaAlttpSnesRecomp,
+  superMetroidSnesRecomp,
+  sonic1GenesisRecomp,
+  streetsOfRageRecomp,
+  tsumuLightRecomp,
+  xenogearsRecomp,
+  ridgeRacerType4Recomp,
+  kingsFieldRecomp,
+  megaMan64Recomp,
+  rocketR,
+  rush2Recomp,
+  chameleonTwist2Recomp,
+  superman64Recomp,
+  wcwNwoRevengeRecomp,
+  hamsterMonogatari64Recomp,
+  battleship,
+  paperMarioPaperboat,
+  animalCrossingPcPort,
+  metroidPrimePort,
+  haloCeUniversal,
+  lostOdysseyRecomp,
+  deadRising2CaseZeroRecomp,
+  ninjaGaiden2Recomp,
+  perfectDarkRemasterRecomp,
+  sonicFreeRidersRecomp,
+  supermanReturnsRecomp,
+  wetRecomp,
+  tooHumanRecomp,
+  spiderManEdgeOfTimeRecomp,
 ];

@@ -23,4 +23,9 @@ export const ridgeRacerRevolutionRecomp: Port = {
     "Native recompilation of Ridge Racer Revolution (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Ridge Racer Revolution (PlayStation). El jugador aporta su propio material obtenido legalmente (imagen de disco); el repositorio no incluye contenido del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Ridge%20Racer%20Revolution%20(USA).png",
+    alt: "Ridge Racer Revolution (box art)",
+    credit: "Box art",
+  },
 };

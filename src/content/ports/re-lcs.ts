@@ -38,4 +38,9 @@ export const reLcs: Port = {
     "Native PC reimplementation of Liberty City Stories, hosted on Gitea rather than GitHub. No tagged releases yet, so the executable has to be built from the lcs branch or taken from the project's own build output.",
   notesEs:
     "Reimplementación nativa para PC de Liberty City Stories, alojada en Gitea en lugar de GitHub. Aún sin releases etiquetadas, así que el ejecutable debe compilarse desde la rama lcs o tomarse de la salida de build del propio proyecto.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Grand%20Theft%20Auto%20-%20Liberty%20City%20Stories%20(USA)%20(En%2CFr%2CDe%2CEs%2CIt)%20(v1.05).png",
+    alt: "Grand Theft Auto: Liberty City Stories (box art)",
+    credit: "Box art",
+  },
 };

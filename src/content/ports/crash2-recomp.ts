@@ -23,4 +23,9 @@ export const crash2Recomp: Port = {
     "Native recompilation of Crash Bandicoot 2: Cortex Strikes Back (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Crash Bandicoot 2: Cortex Strikes Back (PlayStation). El jugador aporta su propio material obtenido legalmente (imagen de disco); el repositorio no incluye contenido del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Crash%20Bandicoot%202%20-%20Cortex%20Strikes%20Back%20(USA).png",
+    alt: "Crash Bandicoot 2: Cortex Strikes Back (box art)",
+    credit: "Box art",
+  },
 };

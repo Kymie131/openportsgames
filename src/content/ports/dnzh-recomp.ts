@@ -23,4 +23,9 @@ export const dnzhRecomp: Port = {
     "Native recompilation of Duke Nukem: Zero Hour (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Duke Nukem: Zero Hour (Nintendo 64). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Duke%20Nukem%20-%20Zero%20Hour%20(USA).png",
+    alt: "Duke Nukem: Zero Hour (box art)",
+    credit: "Box art",
+  },
 };

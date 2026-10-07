@@ -7,12 +7,23 @@ conventional prefixes.
 
 ### Added
 
-- 24 new verified ports: PS1 (Mega Man X4/X5/X6, Ridge Racer, Ridge Racer
-  Revolution, Rage Racer, Verdite2 / King's Field, OpenGTPS1 / Gran Turismo 2,
-  Crash Bandicoot 2), PS3 (flOw, Tokyo Jungle, The Simpsons Arcade Game, You
-  Don't Know Jack), N64 (Mario Kart 64, Star Fox 64, Goemon 64, Duke Nukem:
-  Zero Hour) and Xbox 360 (re:Blue, Kameo RePowered, TiP-Recomp, Re-Cherry,
-  Naughty Bear ReStuff, reNut, reDAHM).
+- 39 more verified ports from the scene's primary lists (Recompendium,
+  recomp.fyi, decomp.dev, readonlymemo), including closed-code games with
+  public port code:
+  - NES: Duck Hunt, Dr. Mario, The Legend of Zelda, Faxanadu, Yoshi, Yoshi's
+    Cookie, Mega Man 3, Gumshoe, Pac-Man, Super Mario Bros. (SMB Vanilla).
+  - SNES: A Link to the Past, Super Metroid. Genesis: Sonic 1, Streets of Rage.
+  - PS1: Tsumu Light, Xenogears, R4: Ridge Racer Type 4, King's Field.
+  - N64: Mega Man 64, Rocket: Robot on Wheels, San Francisco Rush 2, Chameleon
+    Twist 2, Superman, WCW/nWo Revenge, Hamster Monogatari 64, Super Smash Bros.
+    (BattleShip), Paper Mario (PaperBoat).
+  - GameCube: Animal Crossing, Metroid Prime.
+  - Xbox: Halo: Combat Evolved. Xbox 360: Lost Odyssey, Dead Rising 2: Case
+    Zero, Ninja Gaiden II, Perfect Dark (XBLA), Sonic Free Riders, Superman
+    Returns, Wet, Too Human, Spider-Man: Edge of Time.
+- Official box-art `cover` for 108 ports total (added 42 more, from
+  libretro-thumbnails), so nearly every card shows real art instead of a
+  placeholder.
 - Optional `cover` field: an official box-art fallback shown only when a port
   has no project screenshots, so every card has real art instead of a placeholder.
   Added for 66 ports (sourced from libretro-thumbnails box art).

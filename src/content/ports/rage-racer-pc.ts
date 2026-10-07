@@ -23,4 +23,9 @@ export const rageRacerPc: Port = {
     "Native recompilation of Rage Racer (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Rage Racer (PlayStation). El jugador aporta su propio material obtenido legalmente (imagen de disco); el repositorio no incluye contenido del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Rage%20Racer%20(USA).png",
+    alt: "Rage Racer (box art)",
+    credit: "Box art",
+  },
 };
