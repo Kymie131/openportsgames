@@ -5,43 +5,43 @@
 /* Design tokens. See docs/DESIGN.md. */
 
 :root {
-  --background: #0b0d0b;
-  --surface: #121511;
-  --surface-2: #1e231e;
-  --border: #2a302a;
-  --foreground: #e7e8e1;
-  --muted: #a4a89e;
-  --accent: #56c589;
-  --accent-contrast: #0a0f0c;
-  --accent-hover: #6ed7a0;
-  --accent-2: #efb060;
-  --accent-3: #4fc3ba;
-  --link: #7ed0a3;
-  --link-hover: #a2e0be;
-  --ring: #56c589;
-  --ok: #52c687;
-  --warning: #e3a950;
-  --danger: #e67f6c;
+  --background: #0a0710;
+  --surface: #130d1c;
+  --surface-2: #1f152e;
+  --border: #2e2045;
+  --foreground: #eae5f2;
+  --muted: #8d839c;
+  --accent: #9333ea;
+  --accent-contrast: #ffffff;
+  --accent-hover: #a855f7;
+  --accent-2: #4ade80;
+  --accent-3: #22c55e;
+  --link: #4ade80;
+  --link-hover: #86efac;
+  --ring: #9333ea;
+  --ok: #22c55e;
+  --warning: #f97316;
+  --danger: #ef4444;
 }
 
 .light {
-  --background: #f4f0e4;
-  --surface: #fcfaf2;
-  --surface-2: #eae5d3;
-  --border: #d6d0bb;
-  --foreground: #26271f;
-  --muted: #5f6258;
-  --accent: #1a6e44;
-  --accent-contrast: #f4faf6;
-  --accent-hover: #155c38;
-  --accent-2: #a15e07;
-  --accent-3: #0f6e6a;
-  --link: #165c35;
-  --link-hover: #0f4f2c;
-  --ring: #1a6e44;
-  --ok: #19723f;
-  --warning: #7e5010;
-  --danger: #a33428;
+  --background: #f8fafc;
+  --surface: #ffffff;
+  --surface-2: #f1f5f9;
+  --border: #e2e8f0;
+  --foreground: #0f172a;
+  --muted: #64748b;
+  --accent: #059669;
+  --accent-contrast: #ffffff;
+  --accent-hover: #047857;
+  --accent-2: #7c3aed;
+  --accent-3: #2563eb;
+  --link: #059669;
+  --link-hover: #047857;
+  --ring: #059669;
+  --ok: #16a34a;
+  --warning: #d97706;
+  --danger: #dc2626;
 }
 
 @theme inline {
@@ -64,13 +64,13 @@
   --color-danger: var(--danger);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  /* CRT-hardware radii: 4px controls, 6px cards, nothing bigger. */
-  --radius-sm: 0.125rem;
-  --radius-md: 0.25rem;
-  --radius-lg: 0.375rem;
-  --radius-xl: 0.5rem;
-  --radius-2xl: 0.5rem;
-  --radius-3xl: 0.5rem;
+  /* Modern slightly rounded shapes for a clean look */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-3xl: 2rem;
 }
 
 html {
@@ -79,34 +79,36 @@ html {
 
 body {
   background-color: var(--background);
-  background-image:
+  background-image: 
     radial-gradient(
-      1200px 800px at 85% -10%,
-      color-mix(in srgb, var(--accent) 7%, transparent),
-      transparent 62%
+      1000px circle at 50% -10%,
+      color-mix(in srgb, var(--accent) 25%, transparent),
+      transparent 100%
     ),
-    repeating-linear-gradient(
-      to bottom,
-      color-mix(in srgb, var(--foreground) 2%, transparent) 0 1px,
-      transparent 1px 4px
+    radial-gradient(
+      color-mix(in srgb, var(--foreground) 7%, transparent) 1px,
+      transparent 1px
     );
+  background-size: 100% 100%, 24px 24px;
+  background-position: center top, center center;
   background-attachment: fixed;
   color: var(--foreground);
   font-family: var(--font-sans);
 }
 
 .light body {
-  background-image:
+  background-image: 
     radial-gradient(
-      1200px 800px at 85% -10%,
-      color-mix(in srgb, var(--accent) 5%, transparent),
-      transparent 62%
+      800px circle at 50% -20%,
+      color-mix(in srgb, var(--accent) 8%, transparent),
+      transparent 100%
     ),
-    repeating-linear-gradient(
-      to bottom,
-      color-mix(in srgb, var(--foreground) 2.5%, transparent) 0 1px,
-      transparent 1px 4px
+    radial-gradient(
+      color-mix(in srgb, var(--foreground) 3.5%, transparent) 1px,
+      transparent 1px
     );
+  background-size: 100% 100%, 24px 24px;
+  background-position: center top, center center;
 }
 
 .text-gradient {

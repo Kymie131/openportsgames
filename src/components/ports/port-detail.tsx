@@ -122,12 +122,12 @@ export function PortDetail({
             alt={port.cover.alt}
             pixelated={isPixelArtSystem(originalSystem)}
             eager
-            className="aspect-video w-full rounded-lg border border-border"
+            className="aspect-video w-full rounded-xl border border-border"
           />
           <ConsoleBadge system={originalSystem} />
         </figure>
       ) : (
-        <figure className="relative flex aspect-video items-center justify-center overflow-hidden rounded-lg border border-border bg-gradient-to-br from-surface-2 to-surface">
+        <figure className="relative flex aspect-video items-center justify-center overflow-hidden rounded-xl border border-border bg-gradient-to-br from-surface-2 to-surface">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,color-mix(in_srgb,var(--accent)_12%,transparent)_0%,transparent_65%)]" />
           <div className="relative z-10 flex flex-col items-center gap-2">
             <span
@@ -234,7 +234,7 @@ export function PortDetail({
                   src={shot.src}
                   alt={shot.alt}
                   pixelated={isPixelArtSystem(originalSystem)}
-                  className="aspect-video w-full rounded-lg border border-border"
+                  className="aspect-video w-full rounded-xl border border-border"
                 />
                 <p className="mt-1 text-xs text-muted">{shot.credit}</p>
               </li>
@@ -321,8 +321,8 @@ export function PortDetail({
                   key={test.id}
                   className={
                     stale
-                      ? "rounded-lg border border-border bg-surface-2 p-4"
-                      : "rounded-lg border border-border bg-surface p-4"
+                      ? "rounded-xl border border-border bg-surface-2 p-4"
+                      : "rounded-xl border border-border bg-surface p-4"
                   }
                 >
                   <div className="flex flex-wrap items-center justify-between gap-2">
@@ -415,7 +415,7 @@ function ConsoleBadge({ system }: { system: string }) {
   if (!logo) return null;
   return (
     <span
-      className="absolute bottom-3 right-3 rounded-lg bg-white/80 px-2.5 py-2 shadow-sm backdrop-blur-sm"
+      className="absolute bottom-3 right-3 rounded-xl bg-white/80 px-2.5 py-2 shadow-sm backdrop-blur-sm"
       role="img"
       aria-label={system}
     >
@@ -445,7 +445,7 @@ function PortGallery({
           alt={active.alt}
           pixelated={isPixelArtSystem(originalSystem)}
           eager
-          className="aspect-video w-full rounded-lg border border-border"
+          className="aspect-video w-full rounded-xl border border-border"
         />
         <ConsoleBadge system={originalSystem} />
       </div>

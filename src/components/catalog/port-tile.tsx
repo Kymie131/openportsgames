@@ -46,9 +46,9 @@ export function PortTile({
   return (
     <article
       className={cn(
-        "flex h-full flex-col gap-3 rounded-lg border border-border bg-surface p-4",
-        "transition-[border-color,background-color,box-shadow,transform] duration-150",
-        "hover:-translate-y-0.5 hover:border-accent-hover hover:bg-surface-2 hover:shadow-sm",
+        "group flex h-full flex-col gap-3 rounded-xl border border-border bg-surface p-4",
+        "transition-all duration-300",
+        "hover:-translate-y-1 hover:border-accent/40 hover:bg-surface-2 hover:shadow-xl hover:shadow-accent/10",
         className,
       )}
     >
@@ -136,7 +136,7 @@ export function PortTile({
       {port.release.version && (
         <p className="text-xs text-muted">
           {t.catalog.version}{" "}
-          <span className="font-mono text-accent-3">{port.release.version}</span>
+          <span className="font-mono text-gradient font-bold">{port.release.version}</span>
           {starLabel && <span className="ml-2 text-accent-2">★ {starLabel}</span>}
         </p>
       )}
@@ -173,7 +173,7 @@ export function PortTileSkeleton({
       role="status"
       aria-label={label}
       className={cn(
-        "flex h-full flex-col gap-3 rounded-lg border border-border bg-surface p-4",
+        "flex h-full flex-col gap-3 rounded-xl border border-border bg-surface p-4",
         className,
       )}
     >
