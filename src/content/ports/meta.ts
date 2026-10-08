@@ -232,4 +232,8 @@ export const originalSystemById: Record<Port["id"], string> = {
   "too-human-recomp": "Xbox 360",
   "spider-man-edge-of-time-recomp": "Xbox 360",
   "bloodborne-pc": "PlayStation 4",
+  "pt-pc": "PlayStation 4",
+  "silent-hill-pc": "PlayStation",
+  "silent-engine": "PlayStation",
+  "nfs-most-wanted-recomp": "Xbox 360",
 };

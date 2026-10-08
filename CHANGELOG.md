@@ -7,6 +7,15 @@ conventional prefixes.
 
 ### Added
 
+- P.T. native PC port (`LoreanXavier/pt-pc`): the cancelled teaser rebuilt in
+  C++ with a Vulkan renderer, reading your own PS4 files; playable start to
+  finish with DLSS/FSR/XeSS, ray tracing and mods.
+- Silent Hill native PC port (`SlickAmogus/silent-hill-decomp`) and Silent
+  Engine (`Sezzary/SilentEngine`), two independent ports built on the Silent
+  Hill PSX decompilation.
+- NFS Most Wanted (2005) recompilation (`madelrandel-blip/NFSMW-Recompiled`),
+  with its Switch and Android community ports.
+- re:Blue (Blue Dragon) updated to v1.3.1.
 - Bloodborne (unofficial native runtime port, "bbport"): runs the PS4 x86-64
   executable natively with no emulation, a custom runtime replacing the PS4
   libraries and graphics translated to Vulkan via a shadPS4-derived renderer.

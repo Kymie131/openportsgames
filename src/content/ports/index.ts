@@ -189,6 +189,10 @@ import { wetRecomp } from "./wet-recomp";
 import { tooHumanRecomp } from "./too-human-recomp";
 import { spiderManEdgeOfTimeRecomp } from "./spider-man-edge-of-time-recomp";
 import { bloodbornePc } from "./bloodborne-pc";
+import { ptPc } from "./pt-pc";
+import { silentHillPc } from "./silent-hill-pc";
+import { silentEngine } from "./silent-engine";
+import { nfsMostWantedRecomp } from "./nfs-most-wanted-recomp";
 import { pinyonShift } from "./pinyon-shift";
 import { gears1 } from "./gears1";
 import { megaManX4Recomp } from "./mega-man-x4-recomp";
@@ -463,4 +467,8 @@ export const portCases: Port[] = [
   tooHumanRecomp,
   spiderManEdgeOfTimeRecomp,
   bloodbornePc,
+  ptPc,
+  silentHillPc,
+  silentEngine,
+  nfsMostWantedRecomp,
 ];
