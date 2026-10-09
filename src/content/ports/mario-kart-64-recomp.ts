@@ -20,9 +20,9 @@ export const marioKart64Recomp: Port = {
   verified: false,
   originalSystem: "Nintendo 64",
   notes:
-    "Native recompilation of Mario Kart 64 (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
+    "Static recompilation of Mario Kart 64 (N64, USA) with N64Recomp and the RT64 renderer. It loads the assets from your own copy directly, with no separate extraction step, and adds widescreen, unlocked framerate and mod support.",
   notesEs:
-    "Recompilación nativa de Mario Kart 64 (Nintendo 64). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+    "Recompilación estática de Mario Kart 64 (N64, USA) con N64Recomp y el renderizador RT64. Carga los recursos de tu copia directamente, sin extracción aparte, y añade widescreen, framerate libre y soporte de mods.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Mario%20Kart%2064%20(USA).png",
     alt: "Mario Kart 64 (box art)",

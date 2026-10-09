@@ -20,9 +20,9 @@ export const starFox64Recomp: Port = {
   verified: false,
   originalSystem: "Nintendo 64",
   notes:
-    "Native recompilation of Star Fox 64 (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
+    "Static recompilation of Star Fox 64 (N64, USA v1.1 Rev A) with N64Recomp and RT64. It adds widescreen, unlocked framerate, mods (with a Thunderstore page) and instant load times.",
   notesEs:
-    "Recompilación nativa de Star Fox 64 (Nintendo 64). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+    "Recompilación estática de Star Fox 64 (N64, USA v1.1 Rev A) con N64Recomp y RT64. Añade widescreen, framerate libre, mods (con página en Thunderstore) y cargas instantáneas.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Star%20Fox%2064%20(USA).png",
     alt: "Star Fox 64 (box art)",

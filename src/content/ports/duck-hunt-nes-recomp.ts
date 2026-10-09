@@ -20,9 +20,9 @@ export const duckHuntNesRecomp: Port = {
   verified: false,
   originalSystem: "Nintendo Entertainment System",
   notes:
-    "Native recompilation of Duck Hunt (Nintendo Entertainment System). The player supplies their own legally obtained ROM; the repository ships no game content.",
+    "Static recompilation of Duck Hunt (NES) with the NESRecomp framework. Playable, and the Zapper is driven by the mouse: you aim with the cursor and fire with the left click.",
   notesEs:
-    "Recompilación nativa de Duck Hunt (Nintendo Entertainment System). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+    "Recompilación estática de Duck Hunt (NES) con el framework NESRecomp. Jugable, y el Zapper se maneja con el ratón: apuntas con el cursor y disparas con el clic izquierdo.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Duck%20Hunt%20(World).png",
     alt: "Duck Hunt (box art)",

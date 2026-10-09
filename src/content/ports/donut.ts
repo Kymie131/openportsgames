@@ -30,9 +30,9 @@ export const donut: Port = {
     "Requiere recursos del juego original aportados por el jugador",
   ],
   notes:
-    "Clean-room reimplementation of The Simpsons: Hit & Run. The player supplies their own legally obtained game assets; the repository ships no game content.",
+    "Open source reimplementation of The Simpsons: Hit & Run in modern C++ and modern OpenGL. It needs the original game assets.",
   notesEs:
-    "Reimplementación limpia de The Simpsons: Hit & Run. El jugador aporta sus propios recursos del juego obtenidos legalmente; el repositorio no incluye contenido del juego.",
+    "Reimplementación de código abierto de The Simpsons: Hit & Run en C++ moderno y OpenGL moderno. Necesita los recursos del juego original.",
   screenshots: [
     {
       src: "https://files.facepunch.com/Layla/2019/August/11/2019-08-09_22-12-28.png",

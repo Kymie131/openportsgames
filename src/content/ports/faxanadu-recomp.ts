@@ -20,9 +20,9 @@ export const faxanaduRecomp: Port = {
   verified: false,
   originalSystem: "Nintendo Entertainment System",
   notes:
-    "Native recompilation of Faxanadu (Nintendo Entertainment System). The player supplies their own legally obtained ROM; the repository ships no game content.",
+    "Static recompilation of Faxanadu (NES) with the NESRecomp framework. Playable from start to finish, with mantra (password) auto-load so you don't have to type them by hand.",
   notesEs:
-    "Recompilación nativa de Faxanadu (Nintendo Entertainment System). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+    "Recompilación estática de Faxanadu (NES) con el framework NESRecomp. Jugable de principio a fin, con autoguardado de los mantras (contraseñas) para no tener que escribirlos a mano.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Faxanadu%20(USA).png",
     alt: "Faxanadu (box art)",

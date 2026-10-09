@@ -30,9 +30,9 @@ export const pokemonStadiumRecomp: Port = {
     "Ajustes de gráficos y control recordados entre sesiones",
   ],
   notes:
-    "Pokémon Stadium (US v1.0) recompiled with a fork of N64Recomp; the player supplies their own legally obtained cartridge. The project documents antivirus and Windows SmartScreen false positives on the build.",
+    "Static recompilation of Pokémon Stadium (N64, USA v1.0) with N64Recomp. It implements the Transfer Pak and GB Tower, and adds its own launcher (SS Anne) to set up carts and controllers. The project went unmaintained in August 2026; the latest release stays available.",
   notesEs:
-    "Pokémon Stadium (USA v1.0) recompilado con un fork de N64Recomp; el jugador aporta su propio cartucho obtenido legalmente. El proyecto documenta falsos positivos de antivirus y Windows SmartScreen sobre la build.",
+    "Recompilación estática de Pokémon Stadium (N64, USA v1.0) con N64Recomp. Implementa el Transfer Pak y el GB Tower, y añade un lanzador propio (SS Anne) para configurar cartuchos y mandos. El proyecto quedó sin mantenimiento en agosto de 2026; la última release sigue disponible.",
   screenshots: [
     {
       src: "https://raw.githubusercontent.com/mstan/PokemonStadiumRecomp/main/docs/launcher.png",

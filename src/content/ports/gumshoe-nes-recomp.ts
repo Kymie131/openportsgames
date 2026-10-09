@@ -20,9 +20,9 @@ export const gumshoeNesRecomp: Port = {
   verified: false,
   originalSystem: "Nintendo Entertainment System",
   notes:
-    "Native recompilation of Gumshoe (Nintendo Entertainment System). The player supplies their own legally obtained ROM; the repository ships no game content.",
+    "Static recompilation of Gumshoe (NES) with the NESRecomp framework. Playable end-to-end with the Zapper on the mouse; one known cosmetic bug remains in the corner timer and shot counter.",
   notesEs:
-    "Recompilación nativa de Gumshoe (Nintendo Entertainment System). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+    "Recompilación estática de Gumshoe (NES) con el framework NESRecomp. Jugable de principio a fin con el Zapper en el ratón; queda un fallo cosmético conocido en el marcador de tiempo y disparos de la esquina.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Gumshoe%20(USA%2C%20Europe).png",
     alt: "Gumshoe (box art)",

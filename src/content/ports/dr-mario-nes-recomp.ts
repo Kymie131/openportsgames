@@ -20,9 +20,9 @@ export const drMarioNesRecomp: Port = {
   verified: false,
   originalSystem: "Nintendo Entertainment System",
   notes:
-    "Native recompilation of Dr. Mario (Nintendo Entertainment System). The player supplies their own legally obtained ROM; the repository ships no game content.",
+    "Static recompilation of Dr. Mario (NES) with the NESRecomp framework. Playable: title screen, options menu and 1-player mode, with separate builds for the USA (Rev 1) and European ROMs.",
   notesEs:
-    "Recompilación nativa de Dr. Mario (Nintendo Entertainment System). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+    "Recompilación estática de Dr. Mario (NES) con el framework NESRecomp. Jugable: pantalla de título, menú de opciones y el modo de un jugador, con builds separadas para la ROM USA (Rev 1) y la europea.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Dr.%20Mario%20(USA)%20(Beta).png",
     alt: "Dr. Mario (box art)",

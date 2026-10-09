@@ -20,9 +20,9 @@ export const marioKartSuperCircuitRecomp: Port = {
   verified: false,
   originalSystem: "Game Boy Advance",
   notes:
-    "Native recompilation of Mario Kart: Super Circuit (Game Boy Advance). The player supplies their own legally obtained ROM; the repository ships no game content.",
+    "Static recompilation of Mario Kart: Super Circuit (GBA, USA) with the gbarecomp framework. It needs the ROM and the GBA BIOS; it adds optional 60 FPS and adaptive widescreen mods, plus two-player netplay over an emulated link cable.",
   notesEs:
-    "Recompilación nativa de Mario Kart: Super Circuit (Game Boy Advance). El jugador aporta su propia ROM obtenida legalmente; el repositorio no incluye contenido del juego.",
+    "Recompilación estática de Mario Kart: Super Circuit (GBA, USA) con el framework gbarecomp. Necesita la ROM y la BIOS de GBA; añade mods opcionales de 60 FPS y widescreen adaptativo, y netplay de dos jugadores por cable link emulado.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Mario%20Kart%20-%20Super%20Circuit%20(USA).png",
     alt: "Mario Kart: Super Circuit (box art)",
