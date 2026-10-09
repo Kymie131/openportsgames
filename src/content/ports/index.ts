@@ -287,6 +287,26 @@ import { kartiaRecomp } from "./kartia-recomp";
 import { koudelkaRecomp } from "./koudelka-recomp";
 import { legacyOfKainSoulReaverRecomp } from "./legacy-of-kain-soul-reaver-recomp";
 import { alienResurrectionRecomp } from "./alien-resurrection-recomp";
+import { aceCombat3ElectrosphereRecomp } from "./ace-combat-3-electrosphere-recomp";
+import { aceCombat3ElectrosphereUsaRecomp } from "./ace-combat-3-electrosphere-usa-recomp";
+import { aloneInTheDarkTheNewNightmareRecomp } from "./alone-in-the-dark-the-new-nightmare-recomp";
+import { alundraRecomp } from "./alundra-recomp";
+import { medievilRecomp } from "./medievil-recomp";
+import { medievilIiRecomp } from "./medievil-ii-recomp";
+import { megaManLegendsRecomp } from "./mega-man-legends-recomp";
+import { megaManLegends2Recomp } from "./mega-man-legends-2-recomp";
+import { menInBlackTheGameRecomp } from "./men-in-black-the-game-recomp";
+import { metalGearSolidRecomp } from "./metal-gear-solid-recomp";
+import { metalSlugXRecomp } from "./metal-slug-x-recomp";
+import { monsterRancherRecomp } from "./monster-rancher-recomp";
+import { monsterRancher2Recomp } from "./monster-rancher-2-recomp";
+import { mortalKombat4Recomp } from "./mortal-kombat-4-recomp";
+import { mortalKombatTrilogyRecomp } from "./mortal-kombat-trilogy-recomp";
+import { nightmareCreaturesRecomp } from "./nightmare-creatures-recomp";
+import { nightmareCreaturesIiRecomp } from "./nightmare-creatures-ii-recomp";
+import { oddworldAbeSOddyseeRecomp } from "./oddworld-abe-s-oddysee-recomp";
+import { parasiteEveRecomp } from "./parasite-eve-recomp";
+import { quakeIiRecomp } from "./quake-ii-recomp";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -577,4 +597,24 @@ export const portCases: Port[] = [
   koudelkaRecomp,
   legacyOfKainSoulReaverRecomp,
   alienResurrectionRecomp,
+  aceCombat3ElectrosphereRecomp,
+  aceCombat3ElectrosphereUsaRecomp,
+  aloneInTheDarkTheNewNightmareRecomp,
+  alundraRecomp,
+  medievilRecomp,
+  medievilIiRecomp,
+  megaManLegendsRecomp,
+  megaManLegends2Recomp,
+  menInBlackTheGameRecomp,
+  metalGearSolidRecomp,
+  metalSlugXRecomp,
+  monsterRancherRecomp,
+  monsterRancher2Recomp,
+  mortalKombat4Recomp,
+  mortalKombatTrilogyRecomp,
+  nightmareCreaturesRecomp,
+  nightmareCreaturesIiRecomp,
+  oddworldAbeSOddyseeRecomp,
+  parasiteEveRecomp,
+  quakeIiRecomp,
 ];
