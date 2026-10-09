@@ -392,6 +392,21 @@ import { superMarioSunshineAndroid } from "./super-mario-sunshine-android";
 import { fatalFrameRecomp } from "./fatal-frame-recomp";
 import { streetFighterIii3rdStrike3sx } from "./street-fighter-iii-3rd-strike-3sx";
 import { godOfWarRecomp } from "./god-of-war-recomp";
+import { pgr4Recomp } from "./pgr4-recomp";
+import { segaSuperstarsTennisRematch } from "./sega-superstars-tennis-rematch";
+import { tonyHawksProject8Recomp } from "./tony-hawks-project-8-recomp";
+import { wweSmackdownVsRaw2007Recomp } from "./wwe-smackdown-vs-raw-2007-recomp";
+import { deadlyPremonitionRecomp } from "./deadly-premonition-recomp";
+import { dragonBallZBudokaiHd } from "./dragon-ball-z-budokai-hd";
+import { dragonBallZBudokai3Hd } from "./dragon-ball-z-budokai-3-hd";
+import { forzaMotorsport4Recomp } from "./forza-motorsport-4-recomp";
+import { exitRecomp } from "./exit-recomp";
+import { ufcUndisputed3Recomp } from "./ufc-undisputed-3-recomp";
+import { guitarHeroWarriorsOfRockRecomp } from "./guitar-hero-warriors-of-rock-recomp";
+import { crackdownRecomp } from "./crackdown-recomp";
+import { halo3Recomp } from "./halo-3-recomp";
+import { deadRising2CaseWestRecomp } from "./dead-rising-2-case-west-recomp";
+import { saintsRowRecomp } from "./saints-row-recomp";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -787,4 +802,19 @@ export const portCases: Port[] = [
   fatalFrameRecomp,
   streetFighterIii3rdStrike3sx,
   godOfWarRecomp,
+  pgr4Recomp,
+  segaSuperstarsTennisRematch,
+  tonyHawksProject8Recomp,
+  wweSmackdownVsRaw2007Recomp,
+  deadlyPremonitionRecomp,
+  dragonBallZBudokaiHd,
+  dragonBallZBudokai3Hd,
+  forzaMotorsport4Recomp,
+  exitRecomp,
+  ufcUndisputed3Recomp,
+  guitarHeroWarriorsOfRockRecomp,
+  crackdownRecomp,
+  halo3Recomp,
+  deadRising2CaseWestRecomp,
+  saintsRowRecomp,
 ];
