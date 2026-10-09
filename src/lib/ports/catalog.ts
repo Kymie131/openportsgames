@@ -45,7 +45,7 @@ export const defaultCatalogState: CatalogState = {
 export const PAGE_SIZE = 30;
 
 export const SCOPED_PLATFORMS: Record<"all" | "pc" | "android", PlatformKey[]> = {
-  all: ["windows", "linux", "macos", "android", "web"],
+  all: ["windows", "linux", "macos", "android", "web", "ios"],
   pc: ["windows", "linux", "macos"],
   android: ["android"],
 };
