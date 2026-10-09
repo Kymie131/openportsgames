@@ -445,6 +445,21 @@ import { pinballFantasiesAndroid } from "./pinball-fantasies-android";
 import { unciv } from "./unciv";
 import { srb2Android } from "./srb2-android";
 import { ringRacersAndroid } from "./ring-racers-android";
+import { fearAndHungerAndroid } from "./fear-and-hunger-android";
+import { fearAndHungerTerminaAndroid } from "./fear-and-hunger-termina-android";
+import { ftlPocketWormhole } from "./ftl-pocket-wormhole";
+import { projectZomboidAndroid } from "./project-zomboid-android";
+import { rimworldAndroid } from "./rimworld-android";
+import { prisonArchitectAndroid } from "./prison-architect-android";
+import { stardewCinderbox } from "./stardew-cinderbox";
+import { postVoidMobile } from "./post-void-mobile";
+import { seriousSamAndroid } from "./serious-sam-android";
+import { unrealTournamentAndroid } from "./unreal-tournament-android";
+import { zumaDeluxeAndroid } from "./zuma-deluxe-android";
+import { nethackAndroid } from "./nethack-android";
+import { nfs3Android } from "./nfs3-android";
+import { buckshotRouletteMobile } from "./buckshot-roulette-mobile";
+import { starboundAndroid } from "./starbound-android";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -893,4 +908,19 @@ export const portCases: Port[] = [
   unciv,
   srb2Android,
   ringRacersAndroid,
+  fearAndHungerAndroid,
+  fearAndHungerTerminaAndroid,
+  ftlPocketWormhole,
+  projectZomboidAndroid,
+  rimworldAndroid,
+  prisonArchitectAndroid,
+  stardewCinderbox,
+  postVoidMobile,
+  seriousSamAndroid,
+  unrealTournamentAndroid,
+  zumaDeluxeAndroid,
+  nethackAndroid,
+  nfs3Android,
+  buckshotRouletteMobile,
+  starboundAndroid,
 ];
