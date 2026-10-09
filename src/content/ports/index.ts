@@ -307,6 +307,26 @@ import { nightmareCreaturesIiRecomp } from "./nightmare-creatures-ii-recomp";
 import { oddworldAbeSOddyseeRecomp } from "./oddworld-abe-s-oddysee-recomp";
 import { parasiteEveRecomp } from "./parasite-eve-recomp";
 import { quakeIiRecomp } from "./quake-ii-recomp";
+import { mdkRecomp } from "./mdk-recomp";
+import { proPinballTimeshockRecomp } from "./pro-pinball-timeshock-recomp";
+import { residentEvil3Recomp } from "./resident-evil-3-recomp";
+import { rivalSchoolsRecomp } from "./rival-schools-recomp";
+import { rivalSchoolsEvolutionRecomp } from "./rival-schools-evolution-recomp";
+import { rollcageStageIiRecomp } from "./rollcage-stage-ii-recomp";
+import { silentBomberRecomp } from "./silent-bomber-recomp";
+import { spiderManRecomp } from "./spider-man-recomp";
+import { spiderMan2EnterElectroRecomp } from "./spider-man-2-enter-electro-recomp";
+import { spyroTheDragonRecomp } from "./spyro-the-dragon-recomp";
+import { starWarsEpisodeIThePhantomMenaceRecomp } from "./star-wars-episode-i-the-phantom-menace-recomp";
+import { suikodenRecomp } from "./suikoden-recomp";
+import { suikodenIiRecomp } from "./suikoden-ii-recomp";
+import { syphonFilter3Recomp } from "./syphon-filter-3-recomp";
+import { tailConcertoRecomp } from "./tail-concerto-recomp";
+import { teamBuddiesRecomp } from "./team-buddies-recomp";
+import { tenchuStealthAssassinsRecomp } from "./tenchu-stealth-assassins-recomp";
+import { theLostWorldJurassicParkSpecialEditionRecomp } from "./the-lost-world-jurassic-park-special-edition-recomp";
+import { misadventuresOfTronBonneRecomp } from "./misadventures-of-tron-bonne-recomp";
+import { theMummyRecomp } from "./the-mummy-recomp";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -617,4 +637,24 @@ export const portCases: Port[] = [
   oddworldAbeSOddyseeRecomp,
   parasiteEveRecomp,
   quakeIiRecomp,
+  mdkRecomp,
+  proPinballTimeshockRecomp,
+  residentEvil3Recomp,
+  rivalSchoolsRecomp,
+  rivalSchoolsEvolutionRecomp,
+  rollcageStageIiRecomp,
+  silentBomberRecomp,
+  spiderManRecomp,
+  spiderMan2EnterElectroRecomp,
+  spyroTheDragonRecomp,
+  starWarsEpisodeIThePhantomMenaceRecomp,
+  suikodenRecomp,
+  suikodenIiRecomp,
+  syphonFilter3Recomp,
+  tailConcertoRecomp,
+  teamBuddiesRecomp,
+  tenchuStealthAssassinsRecomp,
+  theLostWorldJurassicParkSpecialEditionRecomp,
+  misadventuresOfTronBonneRecomp,
+  theMummyRecomp,
 ];
