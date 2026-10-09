@@ -385,8 +385,12 @@ export function CatalogClient({
 
 type SortLabelKey = "sortRelevance" | "sortTitle" | "sortTitleDesc" | "sortNewest" | "sortStars";
 
-const PAGER_CLASS =
-  "inline-flex h-11 min-w-11 items-center justify-center rounded-md border border-border bg-surface px-3 text-sm text-muted transition-colors duration-150 hover:border-accent-hover hover:text-foreground disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:border-border disabled:hover:text-muted";
+const PAGER_BASE =
+  "inline-flex h-11 min-w-11 items-center justify-center rounded-md border px-3 text-sm transition-colors duration-150 disabled:cursor-not-allowed disabled:opacity-50";
+const PAGER_INACTIVE =
+  "border-border bg-surface text-muted hover:border-accent-hover hover:text-foreground disabled:hover:border-border disabled:hover:text-muted";
+const PAGER_ACTIVE =
+  "border-accent bg-accent text-accent-contrast hover:border-accent hover:text-accent-contrast";
 
 function Pagination({
   page,
@@ -411,7 +415,7 @@ function Pagination({
         onClick={() => onPageChange(page - 1)}
         disabled={page <= 1}
         aria-disabled={page <= 1}
-        className={PAGER_CLASS}
+        className={cn(PAGER_BASE, PAGER_INACTIVE)}
       >
         {t.catalog.previous}
       </button>
@@ -427,11 +431,7 @@ function Pagination({
             onClick={() => onPageChange(item)}
             aria-current={item === page ? "page" : undefined}
             aria-label={t.catalog.goToPage(item)}
-            className={cn(
-              PAGER_CLASS,
-              item === page &&
-                "border-accent bg-accent text-accent-contrast hover:border-accent hover:text-accent-contrast",
-            )}
+            className={cn(PAGER_BASE, item === page ? PAGER_ACTIVE : PAGER_INACTIVE)}
           >
             {item}
           </button>
@@ -442,7 +442,7 @@ function Pagination({
         onClick={() => onPageChange(page + 1)}
         disabled={page >= pageCount}
         aria-disabled={page >= pageCount}
-        className={PAGER_CLASS}
+        className={cn(PAGER_BASE, PAGER_INACTIVE)}
       >
         {t.catalog.next}
       </button>

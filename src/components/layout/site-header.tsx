@@ -76,9 +76,10 @@ export function SiteHeader() {
                   href={item.href}
                   aria-current={active ? "page" : undefined}
                   className={cn(
-                    "rounded-md px-2.5 py-1.5 text-sm text-muted transition-colors duration-150 hover:bg-surface-2 hover:text-foreground",
-                    active &&
-                      "bg-accent text-accent-contrast hover:bg-accent-hover hover:text-accent-contrast",
+                    "rounded-md px-2.5 py-1.5 text-sm transition-colors duration-150",
+                    active
+                      ? "bg-accent text-accent-contrast hover:bg-accent-hover hover:text-accent-contrast"
+                      : "text-muted hover:bg-surface-2 hover:text-foreground",
                   )}
                 >
                   {t.nav[item.key]}
@@ -201,9 +202,10 @@ export function SiteHeader() {
                           onClick={() => setOpen(false)}
                           aria-current={active ? "page" : undefined}
                           className={cn(
-                            "flex min-h-11 items-center rounded-md px-3 text-sm text-muted transition-colors hover:bg-surface-2 hover:text-foreground",
-                            active &&
-                              "bg-accent text-accent-contrast hover:bg-accent-hover hover:text-accent-contrast",
+                            "flex min-h-11 items-center rounded-md px-3 text-sm transition-colors",
+                            active
+                              ? "bg-accent text-accent-contrast hover:bg-accent-hover hover:text-accent-contrast"
+                              : "text-muted hover:bg-surface-2 hover:text-foreground",
                           )}
                         >
                           {t.nav[item.key]}
