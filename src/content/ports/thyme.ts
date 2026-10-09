@@ -23,4 +23,9 @@ export const thymePort: Port = {
     "Engine reimplementation for Generals and Zero Hour. The single GitHub release is a prerelease, so no stable version is recorded.",
   notesEs:
     "Reimplementación del motor de Generals y Zero Hour. La única release de GitHub es preliminar, así que no se registra versión estable.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/20/Cncgzh-win-cover.jpg",
+    alt: "Command & Conquer: Generals - Zero Hour (box art)",
+    credit: "Wikipedia",
+  },
 };

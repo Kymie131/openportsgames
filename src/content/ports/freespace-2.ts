@@ -37,4 +37,9 @@ export const freeSpace2: Port = {
     "Open source engine for FreeSpace 2. The newest tag is a release candidate, so the last stable release is recorded. Licensing is governed by a custom Copying.md with additional terms rather than a standard OSI license.",
   notesEs:
     "Motor de código abierto para FreeSpace 2. La etiqueta más reciente es una release candidate, así que se registra la última release estable. La licencia se rige por un Copying.md propio con términos adicionales en lugar de una licencia OSI estándar.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0d/Freespace2box.jpg",
+    alt: "FreeSpace 2 (box art)",
+    credit: "Wikipedia",
+  },
 };

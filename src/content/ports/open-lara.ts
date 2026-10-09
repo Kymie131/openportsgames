@@ -38,4 +38,9 @@ export const openLara: Port = {
       "Coloca los datos preparados en la carpeta de datos de OpenLara y ejecuta el binario.",
     ],
   },
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/69/Tomb_Raider_%281996%29.png",
+    alt: "Tomb Raider (box art)",
+    credit: "Wikipedia",
+  },
 };

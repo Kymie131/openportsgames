@@ -23,4 +23,9 @@ export const spiderManEdgeOfTimeRecomp: Port = {
     "Native recompilation of Spider-Man: Edge of Time (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Spider-Man: Edge of Time (Xbox 360). El jugador aporta su propio material obtenido legalmente (disc dump); el repositorio no incluye contenido del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/df/Spider-Man_Edge_of_Time.jpg",
+    alt: "Spider-Man: Edge of Time (box art)",
+    credit: "Wikipedia",
+  },
 };

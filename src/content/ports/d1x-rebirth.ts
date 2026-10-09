@@ -24,4 +24,9 @@ export const d1xRebirth: Port = {
     "Source port of Descent from the same project as DXX-Rebirth, covering the first game rather than Descent II. Published as tagged builds without GitHub releases.",
   notesEs:
     "Port de código fuente de Descent del mismo proyecto que DXX-Rebirth, centrado en el primer juego en lugar de Descent II. Se publica como builds etiquetadas sin releases en GitHub.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5f/Descent_cover.png",
+    alt: "Descent (box art)",
+    credit: "Wikipedia",
+  },
 };

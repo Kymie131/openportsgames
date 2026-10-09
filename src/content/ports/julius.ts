@@ -22,4 +22,9 @@ export const julius: Port = {
     "Open-source re-implementation of Caesar III that runs with the original game files. On top of the stable releases, the project publishes continuous (weekly) builds.",
   notesEs:
     "Reimplementación de código abierto de Caesar III que funciona con los archivos del juego original. Además de las releases estables, el proyecto publica builds continuas (semanales).",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/56/Caeser_III_Coverart.jpg",
+    alt: "Caesar III (box art)",
+    credit: "Wikipedia",
+  },
 };

@@ -7,6 +7,9 @@ conventional prefixes.
 
 ### Added
 
+- Box art for the whole catalog: every port now shows a cover. Classic
+  systems use libretro-thumbnails; the modern consoles (PS4, PS5, Xbox 360,
+  Switch) use official cover art from Wikipedia/Wikimedia, credited as such.
 - P.T. native PC port (`LoreanXavier/pt-pc`): the cancelled teaser rebuilt in
   C++ with a Vulkan renderer, reading your own PS4 files; playable start to
   finish with DLSS/FSR/XeSS, ray tracing and mods.

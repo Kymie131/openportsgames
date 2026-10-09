@@ -23,4 +23,9 @@ export const kameoRepowered: Port = {
     "Native recompilation of Kameo: Elements of Power (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Kameo: Elements of Power (Xbox 360). El jugador aporta su propio material obtenido legalmente (volcado del disco); el repositorio no incluye contenido del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0f/Kameocover.jpg",
+    alt: "Kameo: Elements of Power (box art)",
+    credit: "Wikipedia",
+  },
 };

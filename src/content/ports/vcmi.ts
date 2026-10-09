@@ -25,4 +25,9 @@ export const vcmi: Port = {
     "Open-source recreation of the Heroes of Might and Magic III engine, loadable with the original game data. Active development with a long release history.",
   notesEs:
     "Recreación de código abierto del motor de Heroes of Might and Magic III, cargable con los datos del juego original. Desarrollo activo con un largo historial de releases.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/9b/Homm3boxart.jpg",
+    alt: "Heroes of Might and Magic III (box art)",
+    credit: "Wikipedia",
+  },
 };

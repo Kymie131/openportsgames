@@ -23,4 +23,9 @@ export const supermanReturnsRecomp: Port = {
     "Native recompilation of Superman Returns (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Superman Returns (Xbox 360). El jugador aporta su propio material obtenido legalmente (disc dump); el repositorio no incluye contenido del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c2/Superman_Returns_coverart.jpg",
+    alt: "Superman Returns (box art)",
+    credit: "Wikipedia",
+  },
 };

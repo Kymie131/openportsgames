@@ -24,4 +24,9 @@ export const pinyonShift: Port = {
     "Playable preview of a static recompilation of Forza Horizon (Xbox 360) for PC, distributed as versioned releases. The port code is public (BSD-3-Clause), but the game itself is proprietary: you must supply your own Xbox 360 copy, and the repository ships no game content. Several similarly named forks exist; this is the original repository.",
   notesEs:
     "Vista previa jugable de una recompilación estática de Forza Horizon (Xbox 360) para PC, distribuida como releases versionadas. El código del port es público (BSD-3-Clause), pero el juego es propietario: debes aportar tu propia copia de Xbox 360, y el repositorio no incluye contenido del juego. Existen varios forks con un nombre parecido; este es el repositorio original.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/77/Forza_Horizon_boxart.jpg",
+    alt: "Forza Horizon (box art)",
+    credit: "Wikipedia",
+  },
 };

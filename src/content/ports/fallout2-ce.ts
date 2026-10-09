@@ -25,4 +25,9 @@ export const fallout2Ce: Port = {
     "Community engine for Fallout 2 rebuilt for modern operating systems. Requires the original Fallout 2 game files.",
   notesEs:
     "Motor comunitario de Fallout 2 adaptado a sistemas operativos modernos. Requiere los archivos del juego original de Fallout 2.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c3/PC_Game_Fallout_2.jpg",
+    alt: "Fallout 2 (box art)",
+    credit: "Wikipedia",
+  },
 };

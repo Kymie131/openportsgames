@@ -38,4 +38,9 @@ export const sm64ex: Port = {
       "Compila con make (las herramientas van incluidas) o ejecuta directamente el binario precompilado.",
     ],
   },
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
+    alt: "Super Mario 64 (box art)",
+    credit: "Wikipedia",
+  },
 };

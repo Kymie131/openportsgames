@@ -32,4 +32,9 @@ export const etLegacy: Port = {
     "Community continuation of the open source Wolfenstein: Enemy Territory codebase. No tagged releases are published.",
   notesEs:
     "Continuación comunitaria del código abierto de Wolfenstein: Enemy Territory. No se publican releases etiquetadas.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/83/Wolfenstein_Enemy_Territory_logo.png",
+    alt: "Wolfenstein: Enemy Territory (box art)",
+    credit: "Wikipedia",
+  },
 };

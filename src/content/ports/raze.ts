@@ -23,4 +23,9 @@ export const raze: Port = {
     "Source port of the Build-engine games Duke Nukem 3D, Blood, Shadow Warrior, Redneck Rampage and Powerslave, built on GZDoom technology. Requires the original game files.",
   notesEs:
     "Port de código fuente de los juegos del motor Build Duke Nukem 3D, Blood, Shadow Warrior, Redneck Rampage y Powerslave, construido sobre tecnología de GZDoom. Requiere los archivos del juego original.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/61/Duke_Nukem_3D_Coverart.png",
+    alt: "Duke Nukem 3D (box art)",
+    credit: "Wikipedia",
+  },
 };

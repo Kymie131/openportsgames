@@ -23,4 +23,9 @@ export const redahm: Port = {
     "Native recompilation of Destroy All Humans! Path of the Furon (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Destroy All Humans! Path of the Furon (Xbox 360). El jugador aporta su propio material obtenido legalmente (volcado del disco); el repositorio no incluye contenido del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/bb/Destroy_All_Humans%21_Path_of_the_Furon_cover.jpg",
+    alt: "Destroy All Humans! Path of the Furon (box art)",
+    credit: "Wikipedia",
+  },
 };

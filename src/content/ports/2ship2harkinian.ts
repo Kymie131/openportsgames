@@ -40,4 +40,9 @@ export const twoShip: Port = {
       "Lanza el port; los datos del juego se leen localmente desde o2r.otr y nunca se redistribuyen.",
     ],
   },
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg",
+    alt: "The Legend of Zelda: Majora's Mask (box art)",
+    credit: "Wikipedia",
+  },
 };

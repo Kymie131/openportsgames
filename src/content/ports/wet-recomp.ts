@@ -23,4 +23,9 @@ export const wetRecomp: Port = {
     "Native recompilation of Wet (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Wet (Xbox 360). El jugador aporta su propio material obtenido legalmente (disc dump); el repositorio no incluye contenido del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/98/Wet_game.jpg",
+    alt: "Wet (box art)",
+    credit: "Wikipedia",
+  },
 };

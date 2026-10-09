@@ -23,4 +23,9 @@ export const perfectDarkRemasterRecomp: Port = {
     "Native recompilation of Perfect Dark (XBLA Remaster) (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Perfect Dark (XBLA Remaster) (Xbox 360). El jugador aporta su propio material obtenido legalmente (disc dump); el repositorio no incluye contenido del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg",
+    alt: "Perfect Dark (XBLA Remaster) (box art)",
+    credit: "Wikipedia",
+  },
 };

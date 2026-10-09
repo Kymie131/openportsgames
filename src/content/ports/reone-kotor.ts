@@ -23,4 +23,9 @@ export const reOne: Port = {
     "Engine reimplementation for Knights of the Old Republic. No tagged releases are published.",
   notesEs:
     "Reimplementación del motor de Knights of the Old Republic. No se publican releases etiquetadas.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/94/Star_Wars_Knights_of_the_Old_Republic_logo.png",
+    alt: "Knights of the Old Republic (box art)",
+    credit: "Wikipedia",
+  },
 };

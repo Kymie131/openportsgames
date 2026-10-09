@@ -23,4 +23,9 @@ export const lostOdysseyRecomp: Port = {
     "Native recompilation of Lost Odyssey (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Lost Odyssey (Xbox 360). El jugador aporta su propio material obtenido legalmente (disc dump); el repositorio no incluye contenido del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/09/Lost_Odyssey_cover.jpg",
+    alt: "Lost Odyssey (box art)",
+    credit: "Wikipedia",
+  },
 };

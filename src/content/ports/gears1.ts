@@ -23,4 +23,9 @@ export const gears1: Port = {
     "Early PC-native port of Gears of War (Xbox 360) via static recompilation. The port code is public (MIT), but the game is proprietary: you must supply your own copy, and the project ships no game content. It is an alpha: it recompiles, but it does not run yet, as its own README states.",
   notesEs:
     "Port nativo temprano para PC de Gears of War (Xbox 360) mediante recompilación estática. El código del port es público (MIT), pero el juego es propietario: debes aportar tu propia copia, y el proyecto no incluye contenido del juego. Es una alfa: recompila, pero todavía no corre, como indica su propio README.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/82/Gears_of_war_cover_art.jpg",
+    alt: "Gears of War (box art)",
+    credit: "Wikipedia",
+  },
 };

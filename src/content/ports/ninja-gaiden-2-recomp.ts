@@ -25,4 +25,9 @@ export const ninjaGaiden2Recomp: Port = {
     "Native recompilation of Ninja Gaiden II (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Ninja Gaiden II (Xbox 360). El jugador aporta su propio material obtenido legalmente (disc dump); el repositorio no incluye contenido del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/4f/Ninja_Gaiden_II.jpg",
+    alt: "Ninja Gaiden II (box art)",
+    credit: "Wikipedia",
+  },
 };

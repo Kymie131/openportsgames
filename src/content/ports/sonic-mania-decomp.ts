@@ -25,4 +25,9 @@ export const sonicMania: Port = {
     "Decompilation of Sonic Mania (Retro Engine v5) that rebuilds the game on PC, Mac and Linux and opens the door to extensive modding. Requires a legally acquired copy of the Sonic Mania data files.",
   notesEs:
     "Decompilación de Sonic Mania (Retro Engine v5) que reconstruye el juego en PC, Mac y Linux y abre la puerta a un modding extenso. Requiere una copia adquirida legalmente de los archivos de datos de Sonic Mania.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d2/Sonic_Mania_%28artwork%29.jpg",
+    alt: "Sonic Mania (box art)",
+    credit: "Wikipedia",
+  },
 };

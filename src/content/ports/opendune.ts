@@ -22,4 +22,9 @@ export const openDune: Port = {
     "Open-source re-implementation of Dune II: The Building of a Dynasty. The original game data files are required to play.",
   notesEs:
     "Reimplementación de código abierto de Dune II: The Building of a Dynasty. Se requieren los archivos de datos del juego original para jugar.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/78/Dune2_BOD.jpg",
+    alt: "Dune II (box art)",
+    credit: "Wikipedia",
+  },
 };

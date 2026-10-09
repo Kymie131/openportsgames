@@ -33,4 +33,9 @@ export const alephOne: Port = {
     "Open source continuation of Bungie's Marathon 2 engine, played with the original game data. Upstream tags releases by date instead of semantic versioning, so the version mirrors the 20250829 build.",
   notesEs:
     "Continuación de código abierto del motor de Marathon 2 de Bungie, jugable con los datos del juego original. El proyecto etiqueta sus versiones por fecha en lugar de versionado semántico, así que la versión refleja la build 20250829.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b4/Ambox_important.svg",
+    alt: "Marathon 2 (box art)",
+    credit: "Wikipedia",
+  },
 };

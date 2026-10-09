@@ -30,4 +30,9 @@ export const librelancer: Port = {
     "Engine reimplementation for Freelancer. The repository ships an MIT LICENSE file even though the GitHub license field reports NOASSERTION.",
   notesEs:
     "Reimplementación del motor de Freelancer. El repositorio incluye un archivo LICENSE MIT aunque el campo de licencia de GitHub informa NOASSERTION.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/4d/Fl_box.jpg",
+    alt: "Freelancer (box art)",
+    credit: "Wikipedia",
+  },
 };

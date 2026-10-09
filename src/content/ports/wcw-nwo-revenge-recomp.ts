@@ -23,4 +23,9 @@ export const wcwNwoRevengeRecomp: Port = {
     "Native recompilation of WCW/nWo Revenge (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de WCW/nWo Revenge (Nintendo 64). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/1d/WCWnWoRevengebox.jpg",
+    alt: "WCW/nWo Revenge (box art)",
+    credit: "Wikipedia",
+  },
 };

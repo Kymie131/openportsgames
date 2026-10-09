@@ -24,4 +24,9 @@ export const islePortable: Port = {
     "Source-based reimplementation of LEGO Island. The only GitHub release is a rolling continuous build rather than a numbered version.",
   notesEs:
     "Reimplementación basada en código fuente de LEGO Island. La única release de GitHub es una build continua y no una versión numerada.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a1/Lego-island.jpg",
+    alt: "LEGO Island (box art)",
+    credit: "Wikipedia",
+  },
 };

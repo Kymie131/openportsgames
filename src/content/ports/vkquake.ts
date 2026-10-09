@@ -38,4 +38,9 @@ export const vkQuake: Port = {
       "Lanza vkQuake; el renderizador Vulkan ejecuta los datos originales.",
     ],
   },
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/4c/Quake1cover.jpg",
+    alt: "Quake (box art)",
+    credit: "Wikipedia",
+  },
 };
