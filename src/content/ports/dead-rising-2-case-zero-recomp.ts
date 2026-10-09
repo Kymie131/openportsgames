@@ -23,9 +23,4 @@ export const deadRising2CaseZeroRecomp: Port = {
     "Native recompilation of Dead Rising 2: Case Zero (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Dead Rising 2: Case Zero (Xbox 360). El jugador aporta su propio material obtenido legalmente (disc dump); el repositorio no incluye contenido del juego.",
-  cover: {
-    src: "https://upload.wikimedia.org/wikipedia/en/7/77/Dead_Rising_2_cover.jpg",
-    alt: "Dead Rising 2: Case Zero (box art)",
-    credit: "Wikipedia",
-  },
 };

@@ -75,7 +75,7 @@ export const originalSystemById: Record<Port["id"], string> = {
   "castlevania-lod-recomp": "Nintendo 64",
   "pokemon-stadium-recomp": "Nintendo 64",
   "pilotwings-64-recomp": "Nintendo 64",
-  "aleph-one": "Xbox",
+  "aleph-one": "Macintosh",
   "freedroid-classic": "Commodore 64",
   "conker-bad-fur-day-recomp": "Nintendo 64",
   "harvest-moon-64-recomp": "Nintendo 64",

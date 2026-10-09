@@ -4,7 +4,7 @@ export const dxxRebirth: Port = {
   schema: "port",
   id: "dxx-rebirth",
   title: "DXX-Rebirth",
-  game: "Descent",
+  game: "Descent II",
   developers: ["Parallax Software"],
   publisher: "Interplay Productions",
   originalYear: 1995,
@@ -25,7 +25,7 @@ export const dxxRebirth: Port = {
     "Port de código fuente de Descent y Descent II con renderizado OpenGL y soporte de hardware moderno. La última release oficial se publicó en 2018, cuando se retiró el creador del proyecto.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a9/Descent_II_cover_art.png",
-    alt: "Descent (box art)",
+    alt: "Descent II (box art)",
     credit: "Wikipedia",
   },
 };

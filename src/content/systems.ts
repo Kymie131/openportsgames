@@ -34,6 +34,7 @@ export const systemSlugs = [
   "dreamcast",
   "ms-dos",
   "windows",
+  "macintosh",
   "commodore-64",
   "arcade",
   "atari",
@@ -202,6 +203,12 @@ export const systems: Record<SystemSlug, SystemDefinition> = {
     color: "#0078D4",
     colorOnDark: "#5FB4FF",
   },
+  macintosh: {
+    slug: "macintosh",
+    name: { en: "Macintosh", es: "Macintosh" },
+    color: "#6B6B6B",
+    colorOnDark: "#B0B0B0",
+  },
   "commodore-64": {
     slug: "commodore-64",
     name: { en: "Commodore 64", es: "Commodore 64" },
@@ -255,6 +262,7 @@ export const systemSlugByLabel: Record<string, SystemSlug> = {
   Dreamcast: "dreamcast",
   "MS-DOS": "ms-dos",
   "Microsoft Windows": "windows",
+  Macintosh: "macintosh",
   "Commodore 64": "commodore-64",
   Atari: "atari",
   "Atari 2600": "atari",
