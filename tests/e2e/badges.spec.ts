@@ -8,14 +8,11 @@ test.describe("console logo badges", () => {
     await expect(page.locator('figure span[role="img"][aria-label="Nintendo 64"]')).toBeVisible();
   });
 
-  test("a system without artwork falls back to the text mark, never a broken image", async ({
-    page,
-  }) => {
+  test("a system without artwork shows no console logo image", async ({ page }) => {
     await page.goto("/ports/julius");
-    const fallback = page.locator("figure");
-    await expect(fallback).toBeVisible();
-    await expect(fallback.locator("img")).toHaveCount(0);
-    await expect(fallback.locator('span[aria-hidden="true"]')).toBeVisible();
+    const hero = page.locator("figure").first();
+    await expect(hero).toBeVisible();
+    await expect(hero.locator('img[src^="/logos/console/"]')).toHaveCount(0);
   });
 
   test("catalog tiles render the console logo in the art strip", async ({ page }) => {

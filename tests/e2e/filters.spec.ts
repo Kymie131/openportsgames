@@ -46,7 +46,7 @@ test.describe("catalog filters", () => {
 
   test("a search matching nothing shows the empty state, not every port", async ({ page }) => {
     await page.goto("/ports");
-    await page.getByRole("searchbox").fill("qqqq zz9x wqm3 fvjj cccc");
+    await page.locator("main").getByRole("searchbox").fill("qqqq zz9x wqm3 fvjj cccc");
     await expect(page).toHaveURL(/q=/);
     await expect(page.getByText("No ports match the current filters.")).toBeVisible();
   });

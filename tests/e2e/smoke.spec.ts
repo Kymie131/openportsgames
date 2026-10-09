@@ -54,7 +54,7 @@ test("catalog search filters results", async ({ page }) => {
   await page.goto("/ports");
   // "Pinyon Shift" is unique to the Forza Horizon port; broader terms like
   // "Tomb Raider" now fuzzy-match several titles.
-  const input = page.getByPlaceholder(/Search by port/);
+  const input = page.locator("main").getByPlaceholder(/Search by port/);
   await input.fill("Pinyon Shift");
   await expect(page.locator("article")).toHaveCount(1);
 });

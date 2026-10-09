@@ -25,8 +25,6 @@ test.describe("screenshot frames never crop", () => {
     await page.goto("/ports");
     const image = page.getByTestId("screenshot-image").first();
     await expect(image).toBeVisible();
-    await expect
-      .poll(() => image.evaluate((el) => getComputedStyle(el).objectFit))
-      .toBe("contain");
+    await expect.poll(() => image.evaluate((el) => getComputedStyle(el).objectFit)).toBe("contain");
   });
 });

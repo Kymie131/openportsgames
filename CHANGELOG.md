@@ -158,4 +158,4 @@ conventional prefixes.
 - Bilingual README (English and Spanish).
 
 The site launched with the catalog, design system and editorial pages
-finished; the phase checklist that took it there lives in `docs/ROADMAP.md`.
+finished.

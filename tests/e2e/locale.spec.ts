@@ -19,5 +19,7 @@ test("flagship catalog page renders translated filter labels in Spanish", async 
   await page.addInitScript(() => window.localStorage.setItem("opg-locale", "es"));
   await page.goto("/ports");
   await expect(page.locator("h1")).toHaveText("Catálogo");
-  await expect(page.getByPlaceholder("Busca por port, juego o desarrollador…")).toBeVisible();
+  await expect(
+    page.locator("main").getByPlaceholder("Busca por port, juego o desarrollador…"),
+  ).toBeVisible();
 });
