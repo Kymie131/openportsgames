@@ -156,7 +156,11 @@ export function PortDetail({
         <Row
           label={t.detail.license}
           value={
-            port.license.note ? `${port.license.spdx} · ${port.license.note}` : port.license.spdx
+            port.license.spdx === "NOASSERTION"
+              ? t.detail.licenseNotDetected
+              : port.license.note
+                ? `${port.license.spdx} · ${port.license.note}`
+                : port.license.spdx
           }
         />
         <Row label={t.detail.version} value={port.release.version ?? "—"} tone="teal" />

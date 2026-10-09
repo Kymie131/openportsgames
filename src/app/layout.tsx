@@ -35,7 +35,7 @@ export const metadata: Metadata = {
         url: absoluteUrl("/opengraph-image.png"),
         width: 1200,
         height: 630,
-        alt: `${SITE_NAME} — a curated catalog of native game ports`,
+        alt: `${SITE_NAME}: a community catalog of native game ports`,
       },
     ],
   },

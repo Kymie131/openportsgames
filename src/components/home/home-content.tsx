@@ -35,7 +35,7 @@ export function HomeContent({
 }: {
   latest: FeaturedPort[];
   featured: FeaturedPort[];
-  counts: { ports: number; android: number };
+  counts: { ports: number; android: number; tested: number };
 }) {
   const t = useT();
   const locale = useLocale();
@@ -59,9 +59,14 @@ export function HomeContent({
             <p className="max-w-2xl text-pretty text-base leading-7 text-muted sm:text-lg">
               {t.home.lead}
             </p>
+            <p className="max-w-2xl text-sm leading-6 text-muted">{t.home.leadSub}</p>
           </div>
           <div className="flex flex-col gap-3 pt-1 sm:flex-row sm:items-center">
-            <Button asChild size="lg" className="shadow-lg shadow-accent/25 hover:shadow-accent/40 transition-shadow">
+            <Button
+              asChild
+              size="lg"
+              className="shadow-lg shadow-accent/25 hover:shadow-accent/40 transition-shadow"
+            >
               <Link href="/ports">{t.home.browseCatalog}</Link>
             </Button>
             <Button asChild variant="secondary" size="lg">
@@ -82,22 +87,25 @@ export function HomeContent({
             <dt className="font-mono text-3xl font-bold tracking-tight text-foreground">
               {toNumber(counts.ports)}
             </dt>
-            <dd className="mt-1 text-sm font-medium text-muted">{t.home.statsPorts(counts.ports)}</dd>
+            <dd className="mt-1 text-sm font-medium text-muted">
+              {t.home.statsPorts(counts.ports)}
+            </dd>
           </div>
           <div className="rounded-xl border border-border bg-surface px-6 py-5 shadow-sm">
             <dt className="font-mono text-3xl font-bold tracking-tight text-foreground">
               {toNumber(counts.android)}
             </dt>
-            <dd className="mt-1 text-sm font-medium text-muted">{t.home.statsAndroid(counts.android)}</dd>
+            <dd className="mt-1 text-sm font-medium text-muted">
+              {t.home.statsAndroid(counts.android)}
+            </dd>
           </div>
           <div className="rounded-xl border border-border bg-surface px-6 py-5 shadow-sm">
-            <dt
-              className="font-mono text-3xl font-bold tracking-tight text-foreground"
-              aria-hidden="true"
-            >
-              100%
+            <dt className="font-mono text-3xl font-bold tracking-tight text-foreground">
+              {toNumber(counts.tested)}
             </dt>
-            <dd className="mt-1 text-sm font-medium text-muted">{t.home.statsSources}</dd>
+            <dd className="mt-1 text-sm font-medium text-muted">
+              {t.home.statsTested(counts.tested)}
+            </dd>
           </div>
         </dl>
       </section>
@@ -156,11 +164,7 @@ export function HomeContent({
 
       {/* Explore */}
       <section className="mt-14 sm:mt-24" aria-labelledby="explore-heading">
-        <SectionHeading
-          id="explore-heading"
-          title={t.home.exploreTitle}
-          subtitle={t.home.exploreSubtitle}
-        />
+        <SectionHeading id="explore-heading" title={t.home.exploreTitle} />
         <ul className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           <ExploreCard
             href="/pc"
@@ -191,11 +195,7 @@ export function HomeContent({
 
       {/* Principles */}
       <section className="mt-14 sm:mt-24" aria-labelledby="principles-heading">
-        <SectionHeading
-          id="principles-heading"
-          title={t.home.principlesTitle}
-          subtitle={t.home.principlesSubtitle}
-        />
+        <SectionHeading id="principles-heading" title={t.home.principlesTitle} />
         <ul className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-3">
           <PrincipleCard
             icon={Zap}
@@ -257,13 +257,13 @@ function PortGrid({ ports }: { ports: FeaturedPort[] }) {
   );
 }
 
-function SectionHeading({ id, title, subtitle }: { id: string; title: string; subtitle: string }) {
+function SectionHeading({ id, title, subtitle }: { id: string; title: string; subtitle?: string }) {
   return (
     <div className="max-w-2xl space-y-1">
       <h2 id={id} className="text-2xl font-semibold tracking-tight text-foreground">
         {title}
       </h2>
-      <p className="text-sm leading-6 text-muted">{subtitle}</p>
+      {subtitle && <p className="text-sm leading-6 text-muted">{subtitle}</p>}
     </div>
   );
 }

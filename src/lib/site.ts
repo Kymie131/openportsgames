@@ -3,7 +3,7 @@
 export const SITE_NAME = "OpenPortsGames";
 
 export const SITE_DESCRIPTION =
-  "A curated catalog of native game ports for PC and Android — decompilations, recompilations and engine rewrites. Official sources only, never a download link.";
+  "This catalog gives you no downloads or file links: we send you to the official source of each project.";
 
 const envUrl = process.env.NEXT_PUBLIC_SITE_URL;
 

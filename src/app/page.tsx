@@ -6,6 +6,7 @@ import {
   getLatestPorts,
   getPort,
   getPortCount,
+  getTestedPortIds,
   getTestStatuses,
   originalSystemOf,
 } from "@/lib/ports";
@@ -53,7 +54,11 @@ export default function Home() {
       <HomeContent
         latest={latest}
         featured={featured}
-        counts={{ ports: getPortCount(), android: getAndroidPortCount() }}
+        counts={{
+          ports: getPortCount(),
+          android: getAndroidPortCount(),
+          tested: getTestedPortIds().size,
+        }}
       />
     </>
   );

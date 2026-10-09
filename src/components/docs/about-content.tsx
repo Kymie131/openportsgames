@@ -9,14 +9,9 @@ export function AboutContent() {
   return (
     <DocPage>
       <DocHeader title={t.about.title} subtitle={t.about.subtitle} />
-      <DocSection title={t.about.missionTitle}>
-        <DocList items={t.about.mission} />
-      </DocSection>
+      <DocList items={t.about.mission} />
       <DocSection title={t.about.principlesTitle}>
         <DocList items={t.about.principles} />
-      </DocSection>
-      <DocSection title={t.about.dataTitle}>
-        <DocList items={t.about.data} />
       </DocSection>
       <DocSection title={t.about.teamTitle}>
         <DocList items={t.about.team} />

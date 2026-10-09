@@ -130,6 +130,7 @@ const en = {
     technique: "Technique",
     status: "Status",
     license: "License",
+    licenseNotDetected: "not detected",
     about: "About this port",
     dependencies: "Requires original game files",
     whereToGet: "Where to get it",
@@ -144,7 +145,7 @@ const en = {
     recommended: "Recommended",
     screenshots: "Screenshots",
     tests: "Tests by the team",
-    noTests: "No registered tests yet.",
+    noTests: "No tests yet.",
     testStale: "Older version; results may be outdated",
     tester: "Tester",
     version: "Version",
@@ -175,24 +176,25 @@ const en = {
   },
   brand: {
     tagline:
-      "A curated catalog of native game ports for PC and Android. Official sources only, never a download link.",
+      "A community catalog of native game ports for PC and Android: decompilations, recompilations and engine rewrites.",
   },
   home: {
     browseCatalog: "Browse the catalog",
     eyebrow: "Native ports",
-    lead: "A catalog of games that refused to die. Decompilations, recompilations, engine rewrites: projects that run natively on PC and Android. Every entry points only at its official source, nothing else.",
+    lead: "A catalog where we preserve video games, made by gamers for gamers.",
+    leadSub: "Every link takes you straight to the project's official source.",
     statsPorts: (count: number) => `${count} ports catalogued`,
     statsAndroid: (count: number) => `${count} for Android`,
-    statsSources: "Official sources only",
+    statsTested: (count: number) =>
+      count === 1 ? "1 port with a registered test" : `${count} ports with a registered test`,
     featuredTitle: "Featured ports",
     featuredSubtitle:
-      "A hand-picked selection, the way a friend points you at games. When you want more, the full catalog filters by platform, system or status.",
+      "Games we won't let die, for posterity and for the love of the art of video games.",
     latestTitle: "Latest releases",
     latestSubtitle:
       "The most recent versions added to the catalog, ordered by the project's own release date.",
     viewAll: "Browse the full catalog",
     exploreTitle: "Explore the site",
-    exploreSubtitle: "The catalog first; then the sections that keep it working.",
     explorePC: "PC releases",
     explorePCDesc: "The full catalog filtered to Windows and Linux.",
     exploreAndroid: "Android releases",
@@ -202,23 +204,22 @@ const en = {
     exploreTesting: "Testing",
     exploreTestingDesc: "How ports are verified on the team's hardware.",
     principlesTitle: "Why native ports",
-    principlesSubtitle: "What separates a native port from other ways of playing a classic game.",
-    principleNative: "No emulator",
-    principleNativeDesc:
-      "The game runs as native code on the target platform. No emulator or compatibility layer in between.",
+    principleNative: "No emulator needed",
+    principleNativeDesc: "The game runs natively on your device, with no emulator.",
     principleOpen: "Open source",
     principleOpenDesc:
       "Projects keep their code public and release through their official channels.",
     principleOwn: "Your own copy",
     principleOwnDesc:
-      "Many projects require files from the original game you already own. This catalog hosts no files.",
+      "A library of ports built for your device. You only need your copy of the game.",
     ctaTitle: "Missing a port?",
-    ctaDesc: "Check the editorial policy, then propose a port for the catalog.",
+    ctaDesc:
+      "You can propose a port by checking the requirements first and sending it from the Submit page.",
     ctaContribute: "Propose a port",
   },
   footer: {
     about:
-      "A hobby catalog of native game ports. It links only to official project sources and never hosts downloadable files.",
+      "This catalog gives you no downloads or file links: we send you to the official source of each project.",
     licenses: "Code is MIT licensed. Catalog data is CC BY 4.0.",
     notAffiliated: "Not affiliated with any video game company.",
     editOnGitHub: "Edit this page on GitHub",
@@ -283,8 +284,7 @@ const en = {
   },
   emulators: {
     title: "Emulators",
-    subtitle:
-      "Every console generation, its emulators and how compatible they are. Official sources only, no downloads.",
+    subtitle: "Every console generation, its emulators and how compatible they are.",
     eyebrow: "Emulation",
     allGenerations: "All generations",
     chooseGeneration: "Pick a generation to see its consoles.",
@@ -358,24 +358,22 @@ const en = {
   },
   about: {
     title: "About",
-    subtitle: "Why this catalog exists, what it believes in and who maintains it.",
-    missionTitle: "A catalog for games that refused to die",
+    subtitle: "Why this catalog exists and who maintains it.",
     mission: [
-      "OpenPortsGames is a small, independent catalog of modern native ports of classic games. These are the projects that took a game apart, understood it and rebuilt it, so that it runs on hardware its creators never imagined.",
-      "It is built like software on purpose. A catalog is data, and data belongs in a repository: every entry is a file, every correction a commit, every review in public.",
+      "This catalog exists for the love we have for video games as audiovisual works. For gamers, preserving them is part of our culture and heritage. The community helps us keep it going and we are not looking to profit from this project, only to preserve. Donations, if any, go to keeping the site running.",
+      "Many of these titles can no longer be bought in official stores. That is why these projects ask you for your own copy of the game.",
+      "These projects were created with tools and reverse engineering to understand how the game works. They require your own copy of the game and we do not support piracy.",
     ],
-    principlesTitle: "How we work",
+    principlesTitle: "How the catalog works",
     principles: [
-      "Only official sources. Nothing is hosted here and nothing links to bundles; the door in is always the project's own repository or releases page.",
-      "Evidence over claims: no port is marked as tested without a registered test on declared hardware, and 'official' is never assumed.",
-      "Honest about removals: projects removed by legal action are marked and unlinked, never silently scrubbed from history. Removing quietly would be dishonest, and dishonest data defeats the point of an open catalog.",
+      "Each port is a file in the repository and changes are reviewed in public. A port is marked as tested only if there is a registered test, with the hardware used.",
+      "If a project is removed by legal action, it is marked as removed and the link is taken down, but it is not deleted from the history.",
+      "Before linking a repository we check that it is the project's official source.",
+      "The code is MIT and the data is CC BY 4.0: you can reuse them respecting the license.",
+      "All participation is open and public. You can submit what you tested, bugs, or anything that helps improve the project.",
+      "The translations were assisted by an LLM, because my native language is Spanish and the one I know best after that is English. If you see a mistake, tell us.",
     ],
-    dataTitle: "The catalog as data",
-    data: [
-      "Every port is a file in this repository, validated automatically before anything is published.",
-      "The dataset is released under CC BY 4.0, the site's code under MIT. Fork it, remix it, build on it; that is the point of publishing it as data.",
-    ],
-    teamTitle: "Team",
+    teamTitle: "Who we are",
     team: [
       "The catalog was started and is maintained by Kymie131, together with YaelMora2614 and Ramiro Hernandez. Participation is public: tests, proposals and fixes all flow through this repository.",
     ],
@@ -393,7 +391,7 @@ const en = {
     disclaimer: [
       "OpenPortsGames is an independent, community-run informational catalog. It is not affiliated with, endorsed by or connected to any of the companies that own the games listed.",
       "Game names and trademarks belong to their respective owners, and are used only to identify and catalogue the ports.",
-      "The ports are authored by their respective communities. This site does not distribute game files, patches, ROMs or ISOs, and cannot be held responsible for their contents.",
+      "This site does not host game files. If you find a link that leads to one, report it and we will remove it. We do not support piracy.",
       "The catalog is not exhaustive: a project being absent says nothing about its quality or its legality.",
       "Links point to sites this catalog does not control. Their content changes over time and stays the responsibility of whoever operates them.",
     ],
@@ -408,7 +406,7 @@ const en = {
     takedownNoticeBack: "Back to the catalog",
     privacyTitle: "Privacy policy",
     privacy: [
-      "OpenPortsGames is a static site. It has no accounts, no comments, no database and no analytics or advertising trackers.",
+      "For now the site is static: no accounts and no database.",
       "Preferences (language and theme) are stored only in your browser's local storage and never leave your device.",
       "External links (official project sources, PayPal) open on their own websites, which have their own privacy policies.",
     ],
@@ -550,6 +548,7 @@ const es: Messages = {
     technique: "Técnica",
     status: "Estado",
     license: "Licencia",
+    licenseNotDetected: "no detectada",
     about: "Sobre este port",
     dependencies: "Requiere los archivos del juego original",
     whereToGet: "Dónde conseguirlo",
@@ -564,7 +563,7 @@ const es: Messages = {
     recommended: "Recomendados",
     screenshots: "Capturas",
     tests: "Pruebas del equipo",
-    noTests: "Aún no hay pruebas registradas.",
+    noTests: "Sin pruebas todavía.",
     testStale: "Versión anterior: los resultados pueden estar desactualizados",
     tester: "Probador",
     version: "Versión",
@@ -595,24 +594,25 @@ const es: Messages = {
   },
   brand: {
     tagline:
-      "Un catálogo curado de ports nativos de videojuegos para PC y Android. Solo fuentes oficiales, nunca un enlace de descarga.",
+      "Un catálogo comunitario de ports nativos de videojuegos para PC y Android: decompilaciones, recompilaciones y reescrituras de motor.",
   },
   home: {
     browseCatalog: "Explorar el catálogo",
     eyebrow: "Ports nativos",
-    lead: "Un catálogo de juegos que se negaron a morir. Decompilaciones, recompilaciones, reescrituras de motor: proyectos que corren nativos en PC y Android. Cada ficha apunta solo a su fuente oficial, nada más.",
+    lead: "Un catálogo donde preservamos los videojuegos, hecho por gamers para gamers.",
+    leadSub: "Cada enlace te lleva directo a la fuente oficial del proyecto.",
     statsPorts: (count: number) => `${count} ports en el catálogo`,
     statsAndroid: (count: number) => `${count} para Android`,
-    statsSources: "Solo fuentes oficiales",
+    statsTested: (count: number) =>
+      count === 1 ? "1 port con prueba registrada" : `${count} ports con prueba registrada`,
     featuredTitle: "Ports destacados",
     featuredSubtitle:
-      "Una selección hecha a mano, como quien te señala juegos en un foro. Si quieres más, el catálogo completo filtra por plataforma, sistema o estado.",
+      "Juegos que no dejaremos morir, por la posteridad y el amor al arte de los videojuegos.",
     latestTitle: "Últimas versiones",
     latestSubtitle:
       "Las versiones más recientes añadidas al catálogo, ordenadas por la fecha de publicación del propio proyecto.",
     viewAll: "Explorar el catálogo completo",
     exploreTitle: "Explora el sitio",
-    exploreSubtitle: "Primero el catálogo; después, las secciones que lo sostienen.",
     explorePC: "Para PC",
     explorePCDesc: "El catálogo completo filtrado por Windows y Linux.",
     exploreAndroid: "Para Android",
@@ -622,24 +622,22 @@ const es: Messages = {
     exploreTesting: "Pruebas",
     exploreTestingDesc: "Cómo se verifican los ports en el hardware del equipo.",
     principlesTitle: "Por qué ports nativos",
-    principlesSubtitle:
-      "Qué diferencia a un port nativo de otras maneras de jugar un juego clásico.",
-    principleNative: "Sin emulador",
-    principleNativeDesc:
-      "El juego corre como código nativo en la plataforma de destino. Sin emuladores ni capas de compatibilidad.",
+    principleNative: "No necesitas emulador",
+    principleNativeDesc: "El juego corre de forma nativa en tu dispositivo, sin emulador.",
     principleOpen: "Código abierto",
     principleOpenDesc:
       "Los proyectos mantienen su código público y publican por sus canales oficiales.",
     principleOwn: "Tu propia copia",
     principleOwnDesc:
-      "Muchos proyectos necesitan los archivos del juego original que ya tienes. Este catálogo no aloja archivos.",
+      "Una biblioteca de ports pensados para tu dispositivo. Solo necesitas tu copia del juego.",
     ctaTitle: "¿Falta un port?",
-    ctaDesc: "Revisa la política editorial y propón un port para el catálogo.",
+    ctaDesc:
+      "Puedes proponer un port revisando antes los requisitos y enviándolo desde la página Enviar.",
     ctaContribute: "Proponer un port",
   },
   footer: {
     about:
-      "Un catálogo de hobby de ports nativos. Enlaza solo a fuentes oficiales de los proyectos y nunca aloja archivos descargables.",
+      "Este catálogo no te da descargas ni enlaces a archivos: te redirigimos a la fuente oficial de cada proyecto.",
     licenses: "Código bajo licencia MIT. Datos del catálogo bajo CC BY 4.0.",
     notAffiliated: "Sin afiliación con ninguna compañía de videojuegos.",
     editOnGitHub: "Editar esta página en GitHub",
@@ -704,8 +702,7 @@ const es: Messages = {
   },
   emulators: {
     title: "Emuladores",
-    subtitle:
-      "Cada generación de consolas, sus emuladores y su compatibilidad. Solo fuentes oficiales, sin descargas.",
+    subtitle: "Cada generación de consolas, sus emuladores y su compatibilidad.",
     eyebrow: "Emulación",
     allGenerations: "Todas las generaciones",
     chooseGeneration: "Elige una generación para ver sus consolas.",
@@ -782,24 +779,22 @@ const es: Messages = {
   },
   about: {
     title: "Acerca de",
-    subtitle: "Por qué existe este catálogo, qué defiende y quién lo mantiene.",
-    missionTitle: "Un catálogo para juegos que se negaron a morir",
+    subtitle: "Por qué existe este catálogo y quién lo mantiene.",
     mission: [
-      "OpenPortsGames es un catálogo pequeño e independiente de ports nativos modernos de juegos clásicos. Son los proyectos que desmontaron un juego, lo entendieron y lo reconstruyeron, para que corra en hardware que sus creadores nunca imaginaron.",
-      "Se construye como software a propósito. Un catálogo son datos, y los datos viven en un repositorio: cada ficha es un archivo, cada corrección un commit, cada revisión en público.",
+      "Este catálogo existe por el amor que tenemos a los videojuegos como obras audiovisuales. Para los gamers, preservarlos es parte de nuestra cultura y patrimonio. La comunidad nos ayuda a mantenerlo y no buscamos lucro con este proyecto, solo preservar. Las donaciones, si las hay, sirven para mantener el sitio.",
+      "Muchos de estos títulos ya no se pueden comprar en tiendas oficiales. Por eso estos proyectos te piden tu propia copia del juego.",
+      "Estos proyectos se crearon con herramientas e ingeniería inversa para entender cómo funciona el juego. Requieren tu propia copia del juego y no apoyamos la piratería.",
     ],
-    principlesTitle: "Cómo trabajamos",
+    principlesTitle: "Cómo funciona el catálogo",
     principles: [
-      "Solo fuentes oficiales. Aquí no se aloja nada ni se enlazan paquetes; la puerta de entrada es siempre el repositorio o las releases del propio proyecto.",
-      "Evidencia antes que afirmaciones: ningún port se marca como probado sin una prueba registrada sobre hardware declarado, y 'oficial' nunca se da por hecho.",
-      "Honestos ante las retiradas: los proyectos retirados por acción legal se marcan y se desenlazan, nunca se borran en silencio de la historia. Retirar a escondidas sería deshonesto, y los datos deshonestos no sirven de nada.",
+      "Cada port es un archivo del repositorio y los cambios se revisan en público. Un port se marca como probado solo si hay una prueba registrada, con el hardware usado.",
+      "Si un proyecto se retira por una acción legal, se marca como retirado y se quita el enlace, pero no se borra del historial.",
+      "Antes de enlazar un repositorio verificamos que sea la fuente oficial del proyecto.",
+      "El código es MIT y los datos son CC BY 4.0: puedes reutilizarlos respetando la licencia.",
+      "Toda la participación es abierta y pública. Puedes subir lo que probaste, errores o cualquier cosa que ayude a mejorar el proyecto.",
+      "Las traducciones fueron asistidas por un LLM, porque mi idioma nativo es el español y el que mejor domino después es el inglés. Si ves un error, avísanos.",
     ],
-    dataTitle: "El catálogo como datos",
-    data: [
-      "Cada port es un archivo de este repositorio, validado automáticamente antes de publicar nada.",
-      "Los datos se publican bajo CC BY 4.0, el código del sitio bajo MIT. Haz fork, remézclalo, construye encima; ese es el sentido de publicarlos como datos.",
-    ],
-    teamTitle: "Equipo",
+    teamTitle: "Quiénes somos",
     team: [
       "El catálogo lo inició y mantiene Kymie131, junto con YaelMora2614 y Ramiro Hernandez. La participación es pública: pruebas, propuestas y correcciones pasan todas por este repositorio.",
     ],
@@ -817,7 +812,7 @@ const es: Messages = {
     disclaimer: [
       "OpenPortsGames es un catálogo informativo independiente y comunitario. No está afiliado, respaldado ni conectado con ninguna de las compañías propietarias de los juegos listados.",
       "Los nombres de juegos y marcas pertenecen a sus respectivos dueños y se usan solo para identificar y catalogar los ports.",
-      "Los ports son obra de sus respectivas comunidades. Este sitio no distribuye archivos de juego, parches, ROMs ni ISOs, y no puede responsabilizarse de su contenido.",
+      "Este sitio no aloja archivos de juegos. Si encuentras un enlace que lleve a uno, repórtalo y lo retiramos. No apoyamos la piratería.",
       "El catálogo no es exhaustivo: que un proyecto falte no dice nada sobre su calidad ni sobre su legalidad.",
       "Los enlaces apuntan a sitios que este catálogo no controla. Su contenido cambia con el tiempo y sigue siendo responsabilidad de quienes los operan.",
     ],
@@ -832,7 +827,7 @@ const es: Messages = {
     takedownNoticeBack: "Volver al catálogo",
     privacyTitle: "Política de privacidad",
     privacy: [
-      "OpenPortsGames es un sitio estático. No tiene cuentas, comentarios, base de datos ni rastreadores de analítica o publicidad.",
+      "Por ahora el sitio es estático: sin cuentas ni base de datos.",
       "Las preferencias (idioma y tema) se guardan solo en el almacenamiento local de tu navegador y nunca salen de tu dispositivo.",
       "Los enlaces externos (fuentes oficiales, PayPal) se abren en sus propios sitios, que tienen sus propias políticas de privacidad.",
     ],

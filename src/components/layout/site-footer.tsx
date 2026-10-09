@@ -12,6 +12,7 @@ const FOOTER_GROUPS = [
       { href: "/ports", key: "ports" as const },
       { href: "/pc", key: "pc" as const },
       { href: "/android", key: "android" as const },
+      { href: "/emulators", key: "emulators" as const },
     ],
   },
   {
