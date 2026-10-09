@@ -20,9 +20,9 @@ export const chameleonTwist2Recomp: Port = {
   verified: false,
   originalSystem: "Nintendo 64",
   notes:
-    "Native recompilation of Chameleon Twist 2 (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
+    "Static recompilation of Chameleon Twist 2 (N64, Japanese release) with N64Recomp and RT64. It adds widescreen, unlocked framerate, an optional dual-analog camera and Linux and Steam Deck support.",
   notesEs:
-    "Recompilación nativa de Chameleon Twist 2 (Nintendo 64). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+    "Recompilación estática de Chameleon Twist 2 (N64, versión japonesa) con N64Recomp y RT64. Añade widescreen, framerate libre, cámara analógica dual opcional y soporte de Linux y Steam Deck.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Chameleon%20Twist%202%20(USA).png",
     alt: "Chameleon Twist 2 (box art)",

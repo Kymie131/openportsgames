@@ -19,9 +19,9 @@ export const bombermanHeroRecomp: Port = {
   verified: false,
   originalSystem: "Nintendo 64",
   notes:
-    "Bomberman Hero rebuilt with N64: Recompiled; the player supplies their own legally obtained game. The project states that only a Windows executable is provided, while its README also describes a Linux binary and Steam Deck support, so only Windows is listed here as confirmed. No tagged release exists yet.",
+    "Static recompilation of Bomberman Hero (N64, USA) with N64Recomp and RT64. It adds widescreen, unlocked framerate, instant load times and mod and texture-pack support.",
   notesEs:
-    "Bomberman Hero reconstruido con N64: Recompiled; el jugador aporta su propio juego obtenido legalmente. El proyecto indica que solo se ofrece un ejecutable para Windows, aunque su README también describe un binario para Linux y soporte para Steam Deck, por lo que aquí solo se lista Windows como confirmado. Aún no existe una release etiquetada.",
+    "Recompilación estática de Bomberman Hero (N64, USA) con N64Recomp y RT64. Añade widescreen, framerate libre, cargas instantáneas y soporte de mods y texture packs.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Bomberman%20Hero%20(USA).png",
     alt: "Bomberman Hero (box art)",

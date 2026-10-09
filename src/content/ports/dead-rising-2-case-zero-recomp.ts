@@ -20,7 +20,7 @@ export const deadRising2CaseZeroRecomp: Port = {
   verified: false,
   originalSystem: "Xbox 360",
   notes:
-    "Native recompilation of Dead Rising 2: Case Zero (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
+    "Native port of Dead Rising 2: Case Zero (Xbox 360) with XenonRecomp and XenosRecomp, on a purpose-built engine with a Vulkan renderer and real XMA audio. Fully playable start to finish, with online co-op, the level cap raised to 50 and a 60 fps mode.",
   notesEs:
-    "Recompilación nativa de Dead Rising 2: Case Zero (Xbox 360). El jugador aporta su propio material obtenido legalmente (disc dump); el repositorio no incluye contenido del juego.",
+    "Port nativo de Dead Rising 2: Case Zero (Xbox 360) con XenonRecomp y XenosRecomp, sobre un motor propio con renderizador Vulkan y audio XMA real. Completamente jugable de principio a fin, con cooperativo online, límite de nivel subido a 50 y modo de 60 fps.",
 };

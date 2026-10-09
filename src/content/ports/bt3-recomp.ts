@@ -31,9 +31,9 @@ export const bt3Recomp: Port = {
     "Trae tu propia imagen de disco: no se incluye código ni recursos del juego",
   ],
   notes:
-    "PS2Recomp fork targeting the USA SLUS-21678 build. The player supplies their own legally obtained disc image; the repository contains no game content.",
+    "Static recompilation of Dragon Ball Z: Budokai Tenkaichi 3 (PS2, USA, SLUS-21678) with PS2Recomp. It translates the MIPS code to C++ from your own disc image and ships its own front-end; playable, with widescreen and texture-pack and mod support.",
   notesEs:
-    "Fork de PS2Recomp orientado a la build USA SLUS-21678. El jugador aporta su propia imagen de disco obtenida legalmente; el repositorio no contiene contenido del juego.",
+    "Recompilación estática de Dragon Ball Z: Budokai Tenkaichi 3 (PS2, USA, SLUS-21678) con PS2Recomp. Traduce el código MIPS a C++ desde tu propia imagen de disco y trae un front-end propio; jugable, con widescreen y soporte de texture packs y mods.",
   screenshots: [
     {
       src: "https://github.com/z3xox/BT3-Recomp/raw/main/ps2xRuntime/assets/background.png",

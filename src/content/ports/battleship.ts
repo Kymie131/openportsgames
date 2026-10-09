@@ -20,9 +20,9 @@ export const battleship: Port = {
   verified: false,
   originalSystem: "Nintendo 64",
   notes:
-    "Decompilation-based native port of Super Smash Bros. (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
+    "PC port of Super Smash Bros. (N64) for the USA and Japanese releases, built on the ssb-decomp-re decompilation with libultraship. It runs on Windows, Linux, macOS and Android, and adds widescreen, texture packs, C mods and competitive options.",
   notesEs:
-    "Port nativo basado en decompilación de Super Smash Bros. (Nintendo 64). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+    "Port a PC de Super Smash Bros. (N64) para las versiones USA y japonesa, sobre la decompilación ssb-decomp-re con libultraship. Corre en Windows, Linux, macOS y Android, y añade widescreen, packs de texturas, mods en C y opciones competitivas.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Super%20Smash%20Bros.%20(USA).png",
     alt: "Super Smash Bros. (box art)",

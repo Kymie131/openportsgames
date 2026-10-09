@@ -32,9 +32,9 @@ export const conkerBadFurDayRecomp: Port = {
     "Soporte de mods mediante parches de función .nrm y hooks",
   ],
   notes:
-    "Recompilation of Conker's Bad Fur Day; the player supplies their own legally obtained game.",
+    "Static recompilation of Conker's Bad Fur Day (N64, USA) with N64Recomp, starting from the mkst decompilation. Playable from start to finish, with full audio (voice acting included), bundled mods (skip intro, skip any cutscene and cheats) and texture packs.",
   notesEs:
-    "Recompilación de Conker's Bad Fur Day; el jugador aporta su propio juego obtenido legalmente.",
+    "Recompilación estática de Conker's Bad Fur Day (N64, USA) con N64Recomp, partiendo de la decompilación de mkst. Jugable de principio a fin, con audio completo (incluidas las voces), mods incluidos (saltar intro, saltar cinemáticas y trucos) y texture packs.",
   screenshots: [
     {
       src: "https://github.com/user-attachments/assets/abb979d7-24a5-44f8-98d3-088ba2054a74",

@@ -20,9 +20,9 @@ export const animalCrossingPcPort: Port = {
   verified: false,
   originalSystem: "GameCube",
   notes:
-    "Decompilation-based native port of Animal Crossing (GameCube). The player supplies their own legally obtained disc image; the repository ships no game content.",
+    "Native port of Animal Crossing (GameCube, USA Rev 0) built on the ac-decomp decompilation: the original C code runs on x86 and a translation layer swaps the GX graphics API for OpenGL 3.3. It reads assets directly from your disc image and supports Dolphin-format texture packs.",
   notesEs:
-    "Port nativo basado en decompilación de Animal Crossing (GameCube). El jugador aporta su propio material obtenido legalmente (disc image); el repositorio no incluye contenido del juego.",
+    "Port nativo de Animal Crossing (GameCube, USA Rev 0) construido sobre la decompilación ac-decomp: el código original en C corre en x86 y una capa de traducción cambia la API gráfica GX por OpenGL 3.3. Lee los recursos directamente de tu imagen de disco y admite texture packs en formato Dolphin.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Animal%20Crossing%20(USA).png",
     alt: "Animal Crossing (box art)",
