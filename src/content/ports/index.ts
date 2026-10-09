@@ -407,6 +407,30 @@ import { crackdownRecomp } from "./crackdown-recomp";
 import { halo3Recomp } from "./halo-3-recomp";
 import { deadRising2CaseWestRecomp } from "./dead-rising-2-case-west-recomp";
 import { saintsRowRecomp } from "./saints-row-recomp";
+import { dantesInfernoRecomp } from "./dantes-inferno-recomp";
+import { dantesInfernoAndroid } from "./dantes-inferno-android";
+import { daytonaUsaRecomp } from "./daytona-usa-recomp";
+import { dodonpachiSaidaioujouRecomp } from "./dodonpachi-saidaioujou-recomp";
+import { crackdown2Recomp } from "./crackdown-2-recomp";
+import { testDriveUnlimitedRecomp } from "./test-drive-unlimited-recomp";
+import { dragonBallRagingBlast2Recomp } from "./dragon-ball-raging-blast-2-recomp";
+import { midnightClubLaRecomp } from "./midnight-club-la-recomp";
+import { burnoutRevengeRecomp } from "./burnout-revenge-recomp";
+import { conan2007Recomp } from "./conan-2007-recomp";
+import { rumbleRosesXxRecomp } from "./rumble-roses-xx-recomp";
+import { callOfDuty3Recomp } from "./call-of-duty-3-recomp";
+import { project1944Recomp } from "./project-1944-recomp";
+import { raymanOriginsRecomp } from "./rayman-origins-recomp";
+import { vivaPinataRecomp } from "./viva-pinata-recomp";
+import { infiniteUndiscoveryRecomp } from "./infinite-undiscovery-recomp";
+import { crashOfTheTitansRecomp } from "./crash-of-the-titans-recomp";
+import { callOfDutyMw2Recomp } from "./call-of-duty-mw2-recomp";
+import { blueDroid } from "./blue-droid";
+import { xMenDestinyRecomp } from "./x-men-destiny-recomp";
+import { armyOfTwoRecomp } from "./army-of-two-recomp";
+import { gearsOfWar2Hollow } from "./gears-of-war-2-hollow";
+import { gearsOfWar3Jacinto } from "./gears-of-war-3-jacinto";
+import { minecraftX360Ios } from "./minecraft-x360-ios";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -817,4 +841,28 @@ export const portCases: Port[] = [
   halo3Recomp,
   deadRising2CaseWestRecomp,
   saintsRowRecomp,
+  dantesInfernoRecomp,
+  dantesInfernoAndroid,
+  daytonaUsaRecomp,
+  dodonpachiSaidaioujouRecomp,
+  crackdown2Recomp,
+  testDriveUnlimitedRecomp,
+  dragonBallRagingBlast2Recomp,
+  midnightClubLaRecomp,
+  burnoutRevengeRecomp,
+  conan2007Recomp,
+  rumbleRosesXxRecomp,
+  callOfDuty3Recomp,
+  project1944Recomp,
+  raymanOriginsRecomp,
+  vivaPinataRecomp,
+  infiniteUndiscoveryRecomp,
+  crashOfTheTitansRecomp,
+  callOfDutyMw2Recomp,
+  blueDroid,
+  xMenDestinyRecomp,
+  armyOfTwoRecomp,
+  gearsOfWar2Hollow,
+  gearsOfWar3Jacinto,
+  minecraftX360Ios,
 ];

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const midnightClubLaRecomp: Port = {
+  schema: "port",
+  id: "midnight-club-la-recomp",
+  title: "Midnight Club: Los Angeles Recompiled",
+  game: "Midnight Club: Los Angeles",
+  developers: ["3bdull4h2008"],
+  publisher: "Rockstar Games",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/3bdull4h2008/mcla-recompilation"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  originalSystem: "Xbox 360",
+  notes:
+    "Recompilation of Midnight Club: Los Angeles (Xbox 360) for Windows. It needs your own copy of the game.",
+  notesEs:
+    "Recompilación de Midnight Club: Los Angeles (Xbox 360) para Windows. Necesita tu propia copia del juego.",
+};
