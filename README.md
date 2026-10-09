@@ -2,10 +2,9 @@
 
 **Site: <https://kymie131.github.io/openportsgames/>**
 
-Catalog of **native game ports** — decompilations, recompilations and engine
-reimplementations that bring classic games to PC and Android. Every entry
-links only to the project's official source (repo, releases, docs, website).
-No downloadable files, ever.
+A community catalog of native game ports: decompilations, recompilations and
+reimplementations, for PC and Android. Every entry links to the project's
+official source.
 
 I built this because I got tired of clicking "ISO pack" links on forums and
 ending up with malware, or finding that the mirror I bookmarked was dead a
@@ -13,19 +12,20 @@ week later. The only links that survive are the ones pointing at the project
 itself. That's basically the whole idea.
 
 Also because Super Mario Bros. 3 blew my mind when I realized the cartridge
-was just software — stuff you can take apart and run anywhere. Most of the
+was just software, something you can take apart and run anywhere. Most of the
 projects here do exactly that.
 
-Static site. No accounts, no database, no trackers. Just files.
+This site hosts no downloadable files and links to none. For now the site is
+static: no accounts and no database.
 
 - EN/ES, dark & light themes
-- [Roadmap](docs/ROADMAP.md) · [Design](docs/DESIGN.md)
+- Interface in several languages. The translations were assisted by an LLM.
 
 ## Tech
 
-Next.js 16 (App Router, TypeScript strict) + Tailwind CSS v4. Static export,
-so it works on any static host. Custom i18n in the client (no next-intl),
-`zod` for schemas, MiniSearch for search, Radix UI for the fancy bits.
+Next.js 16 (App Router, strict TypeScript) + Tailwind CSS v4. Static export,
+so it works on any static host. Custom i18n in the client, zod for schemas,
+MiniSearch for search, Radix UI.
 
 Tests with Vitest, smoke tests with Playwright.
 
@@ -62,23 +62,6 @@ tests/
 docs/           Architecture, policy, design, etc.
 scripts/        Release checker, preview server
 ```
-
-## Env vars
-
-Copy `.env.example` to `.env.local` if you need to tweak anything:
-
-| Variable | Purpose |
-|---|---|
-| `NEXT_PUBLIC_SITE_URL` | Canonical URLs, sitemap |
-| `NEXT_PUBLIC_BASE_PATH` | Subfolder deploy (GitHub Pages) |
-| `NEXT_PUBLIC_SUPPORT_PAYPAL_URL` | Donation link on /support |
-
-## Docs
-
-[Architecture](docs/ARCHITECTURE.md) · [Data model](docs/DATA_MODEL.md) ·
-[API](docs/API.md) · [Editorial policy](docs/EDITORIAL_POLICY.md) ·
-[Testing](docs/TESTING_METHODOLOGY.md) · [Design](docs/DESIGN.md) ·
-[Deployment](docs/DEPLOYMENT.md) · [Roadmap](docs/ROADMAP.md)
 
 ## Contributing
 
