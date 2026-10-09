@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rayman2N64Recomp: Port = {
+  schema: "port",
+  id: "rayman-2-n64-recomp",
+  title: "Rayman 2 Recompiled",
+  game: "Rayman 2: The Great Escape",
+  developers: ["danielgomesvieira2000"],
+  publisher: "Ubisoft",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/danielgomesvieira2000/rayman-2-the-great-escape-recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  originalSystem: "Nintendo 64",
+  notes:
+    "Static recompilation of Rayman 2: The Great Escape (N64) with N64Recomp and the RT64 renderer. It requires your own copy of the game.",
+  notesEs:
+    "Recompilación estática de Rayman 2: The Great Escape (N64) con N64Recomp y el renderizador RT64. Requiere tu propia copia del juego.",
+};

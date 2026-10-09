@@ -351,6 +351,21 @@ import { gtaIvLibertyRecomp } from "./gta-iv-liberty-recomp";
 import { eternalSonataReprise } from "./eternal-sonata-reprise";
 import { aceCombat6Recomp } from "./ace-combat-6-recomp";
 import { condemned2Recomp } from "./condemned-2-recomp";
+import { automobiliLamborghiniRecomp } from "./automobili-lamborghini-recomp";
+import { chameleonTwistRecomp } from "./chameleon-twist-recomp";
+import { fZeroXRecomp } from "./f-zero-x-recomp";
+import { mischiefMakersRecomp } from "./mischief-makers-recomp";
+import { vpw2Recomp } from "./vpw2-recomp";
+import { vpw64Recomp } from "./vpw64-recomp";
+import { wcwNwoWorldTourRecomp } from "./wcw-nwo-world-tour-recomp";
+import { wwfNoMercyRecomp } from "./wwf-no-mercy-recomp";
+import { wwfWrestlemania2000Recomp } from "./wwf-wrestlemania-2000-recomp";
+import { aerogaugeRecomp } from "./aerogauge-recomp";
+import { snowboardKidsRecompiled } from "./snowboard-kids-recompiled";
+import { tetrisphereRecomp } from "./tetrisphere-recomp";
+import { bodyHarvestRecomp } from "./body-harvest-recomp";
+import { rayman2N64Recomp } from "./rayman-2-n64-recomp";
+import { superRobotWars64Recomp } from "./super-robot-wars-64-recomp";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -705,4 +720,19 @@ export const portCases: Port[] = [
   eternalSonataReprise,
   aceCombat6Recomp,
   condemned2Recomp,
+  automobiliLamborghiniRecomp,
+  chameleonTwistRecomp,
+  fZeroXRecomp,
+  mischiefMakersRecomp,
+  vpw2Recomp,
+  vpw64Recomp,
+  wcwNwoWorldTourRecomp,
+  wwfNoMercyRecomp,
+  wwfWrestlemania2000Recomp,
+  aerogaugeRecomp,
+  snowboardKidsRecompiled,
+  tetrisphereRecomp,
+  bodyHarvestRecomp,
+  rayman2N64Recomp,
+  superRobotWars64Recomp,
 ];
