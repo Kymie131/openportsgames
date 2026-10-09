@@ -39,8 +39,8 @@ export const ja2Stracciatella: Port = {
   notesEs:
     "Reimplementación de código abierto de Jagged Alliance 2. El repositorio incluye un acuerdo de licencia de código fuente SFI en lugar de una licencia SPDX estándar.",
   cover: {
-    src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Jagged%20Alliance%20(1994).png",
+    src: "https://upload.wikimedia.org/wikipedia/en/4/42/Jagged_Alliance_2_Coverart.png",
     alt: "Jagged Alliance 2 (box art)",
-    credit: "Box art",
+    credit: "Wikipedia",
   },
 };

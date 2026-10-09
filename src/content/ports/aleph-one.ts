@@ -34,8 +34,8 @@ export const alephOne: Port = {
   notesEs:
     "Continuación de código abierto del motor de Marathon 2 de Bungie, jugable con los datos del juego original. El proyecto etiqueta sus versiones por fecha en lugar de versionado semántico, así que la versión refleja la build 20250829.",
   cover: {
-    src: "https://upload.wikimedia.org/wikipedia/en/b/b4/Ambox_important.svg",
-    alt: "Marathon 2 (box art)",
+    src: "https://upload.wikimedia.org/wikipedia/en/6/62/Marathon_2_-_Durandal_Coverart.png",
+    alt: "Marathon 2 (cover art)",
     credit: "Wikipedia",
   },
 };

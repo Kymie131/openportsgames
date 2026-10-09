@@ -24,7 +24,7 @@ export const rush2Recomp: Port = {
   notesEs:
     "Recompilación nativa de San Francisco Rush 2 (Nintendo 64). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
   cover: {
-    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/San%20Francisco%20Rush%202049%20(USA).png",
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Rush%202%20-%20Extreme%20Racing%20USA%20(USA).png",
     alt: "San Francisco Rush 2 (box art)",
     credit: "Box art",
   },

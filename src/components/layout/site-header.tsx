@@ -77,7 +77,8 @@ export function SiteHeader() {
                   aria-current={active ? "page" : undefined}
                   className={cn(
                     "rounded-md px-2.5 py-1.5 text-sm text-muted transition-colors duration-150 hover:bg-surface-2 hover:text-foreground",
-                    active && "bg-[color-mix(in_oklab,var(--accent)_14%,transparent)] text-accent",
+                    active &&
+                      "bg-accent text-accent-contrast hover:bg-accent-hover hover:text-accent-contrast",
                   )}
                 >
                   {t.nav[item.key]}
@@ -201,7 +202,8 @@ export function SiteHeader() {
                           aria-current={active ? "page" : undefined}
                           className={cn(
                             "flex min-h-11 items-center rounded-md px-3 text-sm text-muted transition-colors hover:bg-surface-2 hover:text-foreground",
-                            active && "text-foreground",
+                            active &&
+                              "bg-accent text-accent-contrast hover:bg-accent-hover hover:text-accent-contrast",
                           )}
                         >
                           {t.nav[item.key]}

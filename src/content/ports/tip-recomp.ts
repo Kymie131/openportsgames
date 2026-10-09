@@ -24,8 +24,8 @@ export const tipRecomp: Port = {
   notesEs:
     "Recompilación nativa de Viva Pinata: Trouble in Paradise (Xbox 360). El jugador aporta su propio material obtenido legalmente (volcado del disco); el repositorio no incluye contenido del juego.",
   cover: {
-    src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Xbox-360S-Console-Set.jpg",
-    alt: "Viva Pinata: Trouble in Paradise (box art)",
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a0/Viva_Pinata_Trouble_in_Paradise.jpg",
+    alt: "Viva Pinata: Trouble in Paradise (cover art)",
     credit: "Wikipedia",
   },
 };

@@ -430,7 +430,7 @@ function Pagination({
             className={cn(
               PAGER_CLASS,
               item === page &&
-                "border-accent bg-[color-mix(in_oklab,var(--accent)_12%,transparent)] text-foreground hover:border-accent hover:text-foreground",
+                "border-accent bg-accent text-accent-contrast hover:border-accent hover:text-accent-contrast",
             )}
           >
             {item}
