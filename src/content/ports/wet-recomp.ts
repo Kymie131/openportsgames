@@ -20,9 +20,9 @@ export const wetRecomp: Port = {
   verified: false,
   originalSystem: "Xbox 360",
   notes:
-    "Native recompilation of Wet (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
+    "Static recompilation of WET (2009, Xbox 360) with the ReXGlue SDK. Fully playable: video, audio, gameplay, achievements and progression.",
   notesEs:
-    "Recompilación nativa de Wet (Xbox 360). El jugador aporta su propio material obtenido legalmente (disc dump); el repositorio no incluye contenido del juego.",
+    "Recompilación estática de WET (2009, Xbox 360) con el SDK ReXGlue. Completamente jugable: vídeo, audio, gameplay, logros y progresión.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/98/Wet_game.jpg",
     alt: "Wet (box art)",

@@ -20,9 +20,9 @@ export const tombaRecomp: Port = {
   verified: false,
   originalSystem: "PlayStation",
   notes:
-    "Native recompilation of Tomba! (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
+    "Static recompilation of Tomba! (USA, SCUS-94236) with PSXRecomp. It includes the Seamless Loading mod, which swaps asset-loading routines for native equivalents.",
   notesEs:
-    "Recompilación nativa de Tomba! (PlayStation). El jugador aporta su propia imagen de disco obtenida legalmente; el repositorio no incluye contenido del juego.",
+    "Recompilación estática de Tomba! (USA, SCUS-94236) con PSXRecomp. Incluye el mod Seamless Loading, que cambia rutinas de carga de recursos por equivalentes nativos.",
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Tomba!%20(USA).png",
     alt: "Tomba! (box art)",

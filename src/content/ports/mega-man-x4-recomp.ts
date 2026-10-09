@@ -20,9 +20,9 @@ export const megaManX4Recomp: Port = {
   verified: false,
   originalSystem: "PlayStation",
   notes:
-    "Native recompilation of Mega Man X4 (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
+    "Static recompilation of Mega Man X4 (USA, SLUS-00561) with the PSXRecomp framework. The MIPS code is translated to C and runs on a simulation of PS1 hardware plus a recompiled BIOS.",
   notesEs:
-    "Recompilación nativa de Mega Man X4 (PlayStation). El jugador aporta su propio material obtenido legalmente (imagen de disco); el repositorio no incluye contenido del juego.",
+    "Recompilación estática de Mega Man X4 (USA, SLUS-00561) con el framework PSXRecomp. El código MIPS se traduce a C y corre sobre una simulación del hardware de PS1 más una BIOS recompilada.",
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Mega%20Man%20X4%20(USA).png",
     alt: "Mega Man X4 (box art)",

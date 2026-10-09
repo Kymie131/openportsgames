@@ -20,9 +20,9 @@ export const lostOdysseyRecomp: Port = {
   verified: false,
   originalSystem: "Xbox 360",
   notes:
-    "Native recompilation of Lost Odyssey (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
+    "Native recompilation of Lost Odyssey (Xbox 360). Builds for Windows x64, Linux x64, macOS arm64 and Android arm64, with Direct3D 12, Vulkan or Metal.",
   notesEs:
-    "Recompilación nativa de Lost Odyssey (Xbox 360). El jugador aporta su propio material obtenido legalmente (disc dump); el repositorio no incluye contenido del juego.",
+    "Recompilación nativa de Lost Odyssey (Xbox 360). Builds para Windows x64, Linux x64, macOS arm64 y Android arm64, con Direct3D 12, Vulkan o Metal.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/09/Lost_Odyssey_cover.jpg",
     alt: "Lost Odyssey (box art)",

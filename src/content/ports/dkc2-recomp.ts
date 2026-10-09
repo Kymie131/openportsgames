@@ -15,14 +15,14 @@ export const dkc2Recomp: Port = {
   platforms: ["windows", "linux", "macos"],
   status: "beta",
   release: { version: null, date: null },
-  sources: ["https://github.com/mstan/DKC2Recomp"],
+  sources: ["https://github.com/elliotttate/DKC2Recomp"],
   license: { spdx: "MIT" },
   verified: false,
   originalSystem: "Super Nintendo",
   notes:
-    "Native recompilation of Donkey Kong Country 2 for the Super Nintendo. The player supplies their own legally obtained ROM; the repository ships no game content.",
+    "Static recompilation of Donkey Kong Country 2 (SNES) with snesrecomp. The original repository is archived; active development moved to elliotttate/DKC2Recomp.",
   notesEs:
-    "Recompilación nativa de Donkey Kong Country 2 para Super Nintendo. El jugador aporta su propia ROM obtenida legalmente; el repositorio no incluye contenido del juego.",
+    "Recompilación estática de Donkey Kong Country 2 (SNES) con snesrecomp. El repositorio original está archivado; el desarrollo activo pasó a elliotttate/DKC2Recomp.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Donkey%20Kong%20Country%202%20-%20Diddy's%20Kong%20Quest%20(USA)%20(En%2CFr).png",
     alt: "Donkey Kong Country 2: Diddy's Kong Quest (box art)",

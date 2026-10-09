@@ -76,6 +76,10 @@ describe("catalog ports", () => {
         "dkc-recompiled",
         "dkc3-recomp",
       ],
+      "https://github.com/elliotttate/DKC2Recomp": [
+        "dkc-recompiled",
+        "dkc2-recomp",
+      ],
     };
 
     const owners = new Map<string, string[]>();

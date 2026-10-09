@@ -20,9 +20,9 @@ export const superMetroidSnesRecomp: Port = {
   verified: false,
   originalSystem: "Super Nintendo",
   notes:
-    "Native recompilation of Super Metroid (Super Nintendo). The player supplies their own legally obtained ROM; the repository ships no game content.",
+    "Static recompilation of Super Metroid (SNES) with the snesrecomp framework: the 65816 code is translated to C and compiled natively.",
   notesEs:
-    "Recompilación nativa de Super Metroid (Super Nintendo). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+    "Recompilación estática de Super Metroid (SNES) con el framework snesrecomp: el código 65816 se traduce a C y se compila a nativo.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Metroid%20-%20Redux%20(USA).png",
     alt: "Super Metroid (box art)",

@@ -20,9 +20,9 @@ export const tokyoJungleRecompiled: Port = {
   verified: false,
   originalSystem: "PlayStation 3",
   notes:
-    "Native recompilation of Tokyo Jungle (PlayStation 3). The player supplies their own legally obtained disc dump; the repository ships no game content.",
+    "Static recompilation of Tokyo Jungle (PS3) with the ps3recomp framework. It boots, opens a D3D12 window, initialises audio and loads its data, but does not draw geometry yet.",
   notesEs:
-    "Recompilación nativa de Tokyo Jungle (PlayStation 3). El jugador aporta su propio material obtenido legalmente (volcado del disco); el repositorio no incluye contenido del juego.",
+    "Recompilación estática de Tokyo Jungle (PS3) con el framework ps3recomp. Arranca, abre una ventana D3D12, inicializa el audio y carga los datos, pero todavía no dibuja geometría.",
   screenshots: [
     {
       src: "https://raw.githubusercontent.com/sp00nznet/tokyojungle/master/assets/title-screen.gif",

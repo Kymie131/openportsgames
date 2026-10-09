@@ -63,7 +63,7 @@ export function PortDetail({
 }) {
   const t = useT();
   const locale = useLocale();
-  const needsOriginalAssets = (port.notes ?? "").toLowerCase().includes("requires");
+  const needsOriginalAssets = !port.noOriginalGameRequired;
 
   return (
     <div className="flex flex-col gap-8">

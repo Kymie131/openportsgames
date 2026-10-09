@@ -22,6 +22,7 @@ export const openTtd: Port = {
   },
   verified: true,
   verifiedAt: "2026-09-19",
+  noOriginalGameRequired: true,
   screenshots: [
     {
       src: "https://www.openttd.org/screenshots/1.4-02-opengfx-1920x1200.png",

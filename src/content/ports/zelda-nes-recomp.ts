@@ -20,9 +20,9 @@ export const zeldaNesRecomp: Port = {
   verified: false,
   originalSystem: "Nintendo Entertainment System",
   notes:
-    "Native recompilation of The Legend of Zelda (Nintendo Entertainment System). The player supplies their own legally obtained ROM; the repository ships no game content.",
+    "Static recompilation of The Legend of Zelda (NES) with nesrecomp. It covers the overworld, dungeons, items and battery-backed saving.",
   notesEs:
-    "Recompilación nativa de The Legend of Zelda (Nintendo Entertainment System). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+    "Recompilación estática de The Legend of Zelda (NES) con nesrecomp. Cubre el mapa, las mazmorras, los objetos y el guardado en batería.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20(USA)%20(Collector's%20Edition).png",
     alt: "The Legend of Zelda (box art)",

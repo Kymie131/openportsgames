@@ -20,9 +20,9 @@ export const metroidNesRecomp: Port = {
   verified: false,
   originalSystem: "Nintendo Entertainment System",
   notes:
-    "Native recompilation of the NES Metroid. The player supplies their own legally obtained ROM; the repository ships no game content.",
+    "Static recompilation of Metroid (NES) with the nesrecomp framework: the 6502 code is translated to C and compiled natively. It ships separate USA/NTSC and Europe/PAL builds, each one only with its matching ROM.",
   notesEs:
-    "Recompilación nativa del Metroid de NES. El jugador aporta su propia ROM obtenida legalmente; el repositorio no incluye contenido del juego.",
+    "Recompilación estática de Metroid (NES) con el framework nesrecomp: el código 6502 se traduce a C y se compila a nativo. Trae builds separadas para USA/NTSC y Europa/PAL, cada una solo con su ROM correspondiente.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Metroid%20(USA).png",
     alt: "Metroid (box art)",

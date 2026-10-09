@@ -65,6 +65,7 @@ const normalPort = z.object({
   }),
   verified: z.boolean(),
   verifiedAt: isoDate.optional(),
+  noOriginalGameRequired: z.boolean().optional(),
   notes: z.string().max(1000).optional(),
   notesEs: z.string().max(1000).optional(),
   originalSystem: z.string().min(2).max(80).optional(),
@@ -179,6 +180,7 @@ export type Port = {
   license: { spdx: string; note?: string };
   verified: boolean;
   verifiedAt?: string;
+  noOriginalGameRequired?: boolean;
   notes?: string;
   notesEs?: string;
   originalSystem?: string;
