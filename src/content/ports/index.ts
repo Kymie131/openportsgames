@@ -327,6 +327,22 @@ import { tenchuStealthAssassinsRecomp } from "./tenchu-stealth-assassins-recomp"
 import { theLostWorldJurassicParkSpecialEditionRecomp } from "./the-lost-world-jurassic-park-special-edition-recomp";
 import { misadventuresOfTronBonneRecomp } from "./misadventures-of-tron-bonne-recomp";
 import { theMummyRecomp } from "./the-mummy-recomp";
+import { threadsOfFateRecomp } from "./threads-of-fate-recomp";
+import { tokyoHighwayBattleRecomp } from "./tokyo-highway-battle-recomp";
+import { tonyHawkSProSkaterRecomp } from "./tony-hawk-s-pro-skater-recomp";
+import { tonyHawkSProSkater2Recomp } from "./tony-hawk-s-pro-skater-2-recomp";
+import { tonyHawkSProSkater3Recomp } from "./tony-hawk-s-pro-skater-3-recomp";
+import { tonyHawkSProSkater4Recomp } from "./tony-hawk-s-pro-skater-4-recomp";
+import { valkyrieProfileRecomp } from "./valkyrie-profile-recomp";
+import { vampireHunterDRecomp } from "./vampire-hunter-d-recomp";
+import { vibRibbonRecomp } from "./vib-ribbon-recomp";
+import { vigilante8Recomp } from "./vigilante-8-recomp";
+import { wildArmsRecomp } from "./wild-arms-recomp";
+import { wipeoutRecomp } from "./wipeout-recomp";
+import { wipeoutXlRecomp } from "./wipeout-xl-recomp";
+import { xenaWarriorPrincessRecomp } from "./xena-warrior-princess-recomp";
+import { devilDiceRecomp } from "./devil-dice-recomp";
+import { kulaWorldRecomp } from "./kula-world-recomp";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -657,4 +673,20 @@ export const portCases: Port[] = [
   theLostWorldJurassicParkSpecialEditionRecomp,
   misadventuresOfTronBonneRecomp,
   theMummyRecomp,
+  threadsOfFateRecomp,
+  tokyoHighwayBattleRecomp,
+  tonyHawkSProSkaterRecomp,
+  tonyHawkSProSkater2Recomp,
+  tonyHawkSProSkater3Recomp,
+  tonyHawkSProSkater4Recomp,
+  valkyrieProfileRecomp,
+  vampireHunterDRecomp,
+  vibRibbonRecomp,
+  vigilante8Recomp,
+  wildArmsRecomp,
+  wipeoutRecomp,
+  wipeoutXlRecomp,
+  xenaWarriorPrincessRecomp,
+  devilDiceRecomp,
+  kulaWorldRecomp,
 ];

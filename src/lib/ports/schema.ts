@@ -21,6 +21,8 @@ export const genres = [
   "sports",
   "simulation",
   "open-world",
+  "puzzle",
+  "music",
 ] as const;
 export type Genre = (typeof genres)[number];
 
