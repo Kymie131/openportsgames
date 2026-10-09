@@ -379,6 +379,19 @@ import { castlevaniaCircleOfTheMoonRecomp } from "./castlevania-circle-of-the-mo
 import { pokemonMysteryDungeonRedRecomp } from "./pokemon-mystery-dungeon-red-recomp";
 import { summonNightSwordcraft3Recomp } from "./summon-night-swordcraft-3-recomp";
 import { pokemonEmeraldDualScreen } from "./pokemon-emerald-dual-screen";
+import { burnout3Recomp } from "./burnout-3-recomp";
+import { wrecklessRecomp } from "./wreckless-recomp";
+import { doa3Recomp } from "./doa3-recomp";
+import { doaxbvRe } from "./doaxbv-re";
+import { xMenLegendsRecomp } from "./x-men-legends-recomp";
+import { marioParty4Recomp } from "./mario-party-4-recomp";
+import { medalOfHonorFrontlineRecomp } from "./medal-of-honor-frontline-recomp";
+import { starFoxAdventuresRecomp } from "./star-fox-adventures-recomp";
+import { superMarioSunshinePc } from "./super-mario-sunshine-pc";
+import { superMarioSunshineAndroid } from "./super-mario-sunshine-android";
+import { fatalFrameRecomp } from "./fatal-frame-recomp";
+import { streetFighterIii3rdStrike3sx } from "./street-fighter-iii-3rd-strike-3sx";
+import { godOfWarRecomp } from "./god-of-war-recomp";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -761,4 +774,17 @@ export const portCases: Port[] = [
   pokemonMysteryDungeonRedRecomp,
   summonNightSwordcraft3Recomp,
   pokemonEmeraldDualScreen,
+  burnout3Recomp,
+  wrecklessRecomp,
+  doa3Recomp,
+  doaxbvRe,
+  xMenLegendsRecomp,
+  marioParty4Recomp,
+  medalOfHonorFrontlineRecomp,
+  starFoxAdventuresRecomp,
+  superMarioSunshinePc,
+  superMarioSunshineAndroid,
+  fatalFrameRecomp,
+  streetFighterIii3rdStrike3sx,
+  godOfWarRecomp,
 ];
