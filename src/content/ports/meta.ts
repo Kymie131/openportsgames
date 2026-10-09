@@ -244,4 +244,11 @@ export const originalSystemById: Record<Port["id"], string> = {
   "the-fifth-element-recomp": "PlayStation",
   einhander: "PlayStation",
   "tekken-3-recomp": "PlayStation",
+  "guilty-gear-recomp": "PlayStation",
+  "gundam-battle-master-recomp": "PlayStation",
+  "gundam-battle-master-2-recomp": "PlayStation",
+  "gundam-battle-assault-2-recomp": "PlayStation",
+  "final-fantasy-tactics-recomp": "PlayStation",
+  "syphon-filter-2-recompiled": "PlayStation",
+  "pepsiman-recompiled": "PlayStation",
 };

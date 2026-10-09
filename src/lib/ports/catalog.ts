@@ -45,7 +45,7 @@ export const defaultCatalogState: CatalogState = {
 export const PAGE_SIZE = 30;
 
 export const SCOPED_PLATFORMS: Record<"all" | "pc" | "android", PlatformKey[]> = {
-  all: ["windows", "linux", "macos", "android"],
+  all: ["windows", "linux", "macos", "android", "web"],
   pc: ["windows", "linux", "macos"],
   android: ["android"],
 };
@@ -288,7 +288,11 @@ export interface PageResult<T> {
  * last one. An empty list is reported as a single empty page so the controls
  * can still render consistently.
  */
-export function paginate<T>(items: T[], requestedPage: number, pageSize: number = PAGE_SIZE): PageResult<T> {
+export function paginate<T>(
+  items: T[],
+  requestedPage: number,
+  pageSize: number = PAGE_SIZE,
+): PageResult<T> {
   const total = items.length;
   const pageCount = Math.max(1, Math.ceil(total / pageSize));
   const page = Math.min(Math.max(1, Math.trunc(requestedPage) || 1), pageCount);
@@ -317,7 +321,9 @@ export function pageWindow(page: number, pageCount: number, span = 1): (number |
     wanted.add(page - offset);
     wanted.add(page + offset);
   }
-  const sorted = [...wanted].filter((value) => value >= 1 && value <= pageCount).sort((a, b) => a - b);
+  const sorted = [...wanted]
+    .filter((value) => value >= 1 && value <= pageCount)
+    .sort((a, b) => a - b);
   const out: (number | "…")[] = [];
   let previous = 0;
   for (const value of sorted) {

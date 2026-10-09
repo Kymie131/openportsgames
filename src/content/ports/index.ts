@@ -242,6 +242,13 @@ import { ghostInTheShellRecomp } from "./ghost-in-the-shell-recomp";
 import { theFifthElementRecomp } from "./the-fifth-element-recomp";
 import { einhanderRecomp } from "./einhander";
 import { tekken3Recomp } from "./tekken-3-recomp";
+import { guiltyGearRecomp } from "./guilty-gear-recomp";
+import { gundamBattleMasterRecomp } from "./gundam-battle-master-recomp";
+import { gundamBattleMaster2Recomp } from "./gundam-battle-master-2-recomp";
+import { gundamBattleAssault2Recomp } from "./gundam-battle-assault-2-recomp";
+import { finalFantasyTacticsRecomp } from "./final-fantasy-tactics-recomp";
+import { syphonFilter2Recompiled } from "./syphon-filter-2-recompiled";
+import { pepsimanRecompiled } from "./pepsiman-recompiled";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -487,4 +494,11 @@ export const portCases: Port[] = [
   theFifthElementRecomp,
   einhanderRecomp,
   tekken3Recomp,
+  guiltyGearRecomp,
+  gundamBattleMasterRecomp,
+  gundamBattleMaster2Recomp,
+  gundamBattleAssault2Recomp,
+  finalFantasyTacticsRecomp,
+  syphonFilter2Recompiled,
+  pepsimanRecompiled,
 ];

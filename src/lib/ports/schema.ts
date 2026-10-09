@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-export const platformKeys = ["windows", "linux", "macos", "android"] as const;
+export const platformKeys = ["windows", "linux", "macos", "android", "web"] as const;
 export type PlatformKey = (typeof platformKeys)[number];
 export const portTypes = [
   "decompilation",

@@ -42,6 +42,7 @@ const platformMarks = {
   linux: "linux",
   macos: "macos",
   android: "android",
+  web: "web",
 } satisfies Record<PlatformKey, keyof typeof platformGlyphs>;
 
 export function PlatformMark({
