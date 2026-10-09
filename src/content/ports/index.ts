@@ -269,6 +269,24 @@ import { dieHardTrilogyRecomp } from "./die-hard-trilogy-recomp";
 import { digimonWorld2Recomp } from "./digimon-world-2-recomp";
 import { digimonWorld2003Recomp } from "./digimon-world-2003-recomp";
 import { dinoCrisisRecomp } from "./dino-crisis-recomp";
+import { dragonBallZUltimateBattle22Recomp } from "./dragon-ball-z-ultimate-battle-22-recomp";
+import { driverRecomp } from "./driver-recomp";
+import { dukeNukemLandOfTheBabesRecomp } from "./duke-nukem-land-of-the-babes-recomp";
+import { dukeNukemTimeToKillRecomp } from "./duke-nukem-time-to-kill-recomp";
+import { fadeToBlackRecomp } from "./fade-to-black-recomp";
+import { fearEffect2RetroHelixRecomp } from "./fear-effect-2-retro-helix-recomp";
+import { fightingForceRecomp } from "./fighting-force-recomp";
+import { futureCopLapdRecomp } from "./future-cop-lapd-recomp";
+import { gPoliceWeaponsOfJusticeRecomp } from "./g-police-weapons-of-justice-recomp";
+import { galeriansRecomp } from "./galerians-recomp";
+import { inColdBloodRecomp } from "./in-cold-blood-recomp";
+import { incredibleCrisisRecomp } from "./incredible-crisis-recomp";
+import { jackieChanStuntmasterRecomp } from "./jackie-chan-stuntmaster-recomp";
+import { jadeCocoonRecomp } from "./jade-cocoon-recomp";
+import { kartiaRecomp } from "./kartia-recomp";
+import { koudelkaRecomp } from "./koudelka-recomp";
+import { legacyOfKainSoulReaverRecomp } from "./legacy-of-kain-soul-reaver-recomp";
+import { alienResurrectionRecomp } from "./alien-resurrection-recomp";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -541,4 +559,22 @@ export const portCases: Port[] = [
   digimonWorld2Recomp,
   digimonWorld2003Recomp,
   dinoCrisisRecomp,
+  dragonBallZUltimateBattle22Recomp,
+  driverRecomp,
+  dukeNukemLandOfTheBabesRecomp,
+  dukeNukemTimeToKillRecomp,
+  fadeToBlackRecomp,
+  fearEffect2RetroHelixRecomp,
+  fightingForceRecomp,
+  futureCopLapdRecomp,
+  gPoliceWeaponsOfJusticeRecomp,
+  galeriansRecomp,
+  inColdBloodRecomp,
+  incredibleCrisisRecomp,
+  jackieChanStuntmasterRecomp,
+  jadeCocoonRecomp,
+  kartiaRecomp,
+  koudelkaRecomp,
+  legacyOfKainSoulReaverRecomp,
+  alienResurrectionRecomp,
 ];
