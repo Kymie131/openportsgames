@@ -366,6 +366,19 @@ import { tetrisphereRecomp } from "./tetrisphere-recomp";
 import { bodyHarvestRecomp } from "./body-harvest-recomp";
 import { rayman2N64Recomp } from "./rayman-2-n64-recomp";
 import { superRobotWars64Recomp } from "./super-robot-wars-64-recomp";
+import { dragonBallZLegacyOfGoku2Recomp } from "./dragon-ball-z-legacy-of-goku-2-recomp";
+import { dragonBallZBuusFuryRecomp } from "./dragon-ball-z-buus-fury-recomp";
+import { wariowareTwistedRecomp } from "./warioware-twisted-recomp";
+import { superMarioAdvance2Recomp } from "./super-mario-advance-2-recomp";
+import { superMarioAdvance4Recomp } from "./super-mario-advance-4-recomp";
+import { pokemonFireredRecomp } from "./pokemon-firered-recomp";
+import { pokemonRubyRecomp } from "./pokemon-ruby-recomp";
+import { pokemonEmeraldRecomp } from "./pokemon-emerald-recomp";
+import { megaManZeroRecomp } from "./mega-man-zero-recomp";
+import { castlevaniaCircleOfTheMoonRecomp } from "./castlevania-circle-of-the-moon-recomp";
+import { pokemonMysteryDungeonRedRecomp } from "./pokemon-mystery-dungeon-red-recomp";
+import { summonNightSwordcraft3Recomp } from "./summon-night-swordcraft-3-recomp";
+import { pokemonEmeraldDualScreen } from "./pokemon-emerald-dual-screen";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -735,4 +748,17 @@ export const portCases: Port[] = [
   bodyHarvestRecomp,
   rayman2N64Recomp,
   superRobotWars64Recomp,
+  dragonBallZLegacyOfGoku2Recomp,
+  dragonBallZBuusFuryRecomp,
+  wariowareTwistedRecomp,
+  superMarioAdvance2Recomp,
+  superMarioAdvance4Recomp,
+  pokemonFireredRecomp,
+  pokemonRubyRecomp,
+  pokemonEmeraldRecomp,
+  megaManZeroRecomp,
+  castlevaniaCircleOfTheMoonRecomp,
+  pokemonMysteryDungeonRedRecomp,
+  summonNightSwordcraft3Recomp,
+  pokemonEmeraldDualScreen,
 ];
