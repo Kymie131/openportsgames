@@ -431,6 +431,20 @@ import { armyOfTwoRecomp } from "./army-of-two-recomp";
 import { gearsOfWar2Hollow } from "./gears-of-war-2-hollow";
 import { gearsOfWar3Jacinto } from "./gears-of-war-3-jacinto";
 import { minecraftX360Ios } from "./minecraft-x360-ios";
+import { jazz2Native } from "./jazz2-native";
+import { sdlpal } from "./sdlpal";
+import { nfsiise } from "./nfsiise";
+import { gish } from "./gish";
+import { mbhaxe } from "./mbhaxe";
+import { openjkdf2 } from "./openjkdf2";
+import { cs16Client } from "./cs16-client";
+import { tf15Client } from "./tf15-client";
+import { baronyAndroid } from "./barony-android";
+import { godOfThunderAndroid } from "./god-of-thunder-android";
+import { pinballFantasiesAndroid } from "./pinball-fantasies-android";
+import { unciv } from "./unciv";
+import { srb2Android } from "./srb2-android";
+import { ringRacersAndroid } from "./ring-racers-android";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -865,4 +879,18 @@ export const portCases: Port[] = [
   gearsOfWar2Hollow,
   gearsOfWar3Jacinto,
   minecraftX360Ios,
+  jazz2Native,
+  sdlpal,
+  nfsiise,
+  gish,
+  mbhaxe,
+  openjkdf2,
+  cs16Client,
+  tf15Client,
+  baronyAndroid,
+  godOfThunderAndroid,
+  pinballFantasiesAndroid,
+  unciv,
+  srb2Android,
+  ringRacersAndroid,
 ];
