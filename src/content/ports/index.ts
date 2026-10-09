@@ -249,6 +249,26 @@ import { gundamBattleAssault2Recomp } from "./gundam-battle-assault-2-recomp";
 import { finalFantasyTacticsRecomp } from "./final-fantasy-tactics-recomp";
 import { syphonFilter2Recompiled } from "./syphon-filter-2-recompiled";
 import { pepsimanRecompiled } from "./pepsiman-recompiled";
+import { apocalypseRecomp } from "./apocalypse-recomp";
+import { armoredCoreRecomp } from "./armored-core-recomp";
+import { armoredCoreMasterOfArenaRecomp } from "./armored-core-master-of-arena-recomp";
+import { armoredCoreProjectPhantasmaRecomp } from "./armored-core-project-phantasma-recomp";
+import { azureDreamsRecomp } from "./azure-dreams-recomp";
+import { bloodOmenLegacyOfKainRecomp } from "./blood-omen-legacy-of-kain-recomp";
+import { bloodyRoarIiRecomp } from "./bloody-roar-ii-recomp";
+import { braveFencerMusashiRecomp } from "./brave-fencer-musashi-recomp";
+import { bushidoBlade2Recomp } from "./bushido-blade-2-recomp";
+import { colinMcraeRally20Recomp } from "./colin-mcrae-rally-2-0-recomp";
+import { colonyWarsRecomp } from "./colony-wars-recomp";
+import { colonyWarsRedSunRecomp } from "./colony-wars-red-sun-recomp";
+import { crashBandicoot3WarpedRecomp } from "./crash-bandicoot-3-warped-recomp";
+import { destructionDerby2Recomp } from "./destruction-derby-2-recomp";
+import { destructionDerbyRawRecomp } from "./destruction-derby-raw-recomp";
+import { diabloRecomp } from "./diablo-recomp";
+import { dieHardTrilogyRecomp } from "./die-hard-trilogy-recomp";
+import { digimonWorld2Recomp } from "./digimon-world-2-recomp";
+import { digimonWorld2003Recomp } from "./digimon-world-2003-recomp";
+import { dinoCrisisRecomp } from "./dino-crisis-recomp";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -501,4 +521,24 @@ export const portCases: Port[] = [
   finalFantasyTacticsRecomp,
   syphonFilter2Recompiled,
   pepsimanRecompiled,
+  apocalypseRecomp,
+  armoredCoreRecomp,
+  armoredCoreMasterOfArenaRecomp,
+  armoredCoreProjectPhantasmaRecomp,
+  azureDreamsRecomp,
+  bloodOmenLegacyOfKainRecomp,
+  bloodyRoarIiRecomp,
+  braveFencerMusashiRecomp,
+  bushidoBlade2Recomp,
+  colinMcraeRally20Recomp,
+  colonyWarsRecomp,
+  colonyWarsRedSunRecomp,
+  crashBandicoot3WarpedRecomp,
+  destructionDerby2Recomp,
+  destructionDerbyRawRecomp,
+  diabloRecomp,
+  dieHardTrilogyRecomp,
+  digimonWorld2Recomp,
+  digimonWorld2003Recomp,
+  dinoCrisisRecomp,
 ];
