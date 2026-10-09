@@ -236,4 +236,12 @@ export const originalSystemById: Record<Port["id"], string> = {
   "silent-hill-pc": "PlayStation",
   "silent-engine": "PlayStation",
   "nfs-most-wanted-recomp": "Xbox 360",
+  "final-fantasy-viii-recomp": "PlayStation",
+  "final-fantasy-ix-recomp": "PlayStation",
+  "fear-effect-recomp": "PlayStation",
+  "g-police-recomp": "PlayStation",
+  "ghost-in-the-shell-recomp": "PlayStation",
+  "the-fifth-element-recomp": "PlayStation",
+  einhander: "PlayStation",
+  "tekken-3-recomp": "PlayStation",
 };

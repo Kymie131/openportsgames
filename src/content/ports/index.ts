@@ -234,6 +234,14 @@ import { windWakerRecomp } from "./wind-waker-recomp";
 import { ringOut } from "./ringout";
 import { drMario64RecompPlus } from "./drmario64-recomp-plus";
 import { snowboardKids2Recomp } from "./snowboard-kids-2-recomp";
+import { finalFantasyViiiRecomp } from "./final-fantasy-viii-recomp";
+import { finalFantasyIxRecomp } from "./final-fantasy-ix-recomp";
+import { fearEffectRecomp } from "./fear-effect-recomp";
+import { gPoliceRecomp } from "./g-police-recomp";
+import { ghostInTheShellRecomp } from "./ghost-in-the-shell-recomp";
+import { theFifthElementRecomp } from "./the-fifth-element-recomp";
+import { einhanderRecomp } from "./einhander";
+import { tekken3Recomp } from "./tekken-3-recomp";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -471,4 +479,12 @@ export const portCases: Port[] = [
   silentHillPc,
   silentEngine,
   nfsMostWantedRecomp,
+  finalFantasyViiiRecomp,
+  finalFantasyIxRecomp,
+  fearEffectRecomp,
+  gPoliceRecomp,
+  ghostInTheShellRecomp,
+  theFifthElementRecomp,
+  einhanderRecomp,
+  tekken3Recomp,
 ];
