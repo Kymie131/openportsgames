@@ -46,19 +46,18 @@ conventional prefixes.
   - Xbox: Halo: Combat Evolved. Xbox 360: Lost Odyssey, Dead Rising 2: Case
     Zero, Ninja Gaiden II, Perfect Dark (XBLA), Sonic Free Riders, Superman
     Returns, Wet, Too Human, Spider-Man: Edge of Time.
-- Official box-art `cover` for 108 ports total (added 42 more, from
-  libretro-thumbnails), so nearly every card shows real art instead of a
-  placeholder.
+- Official box-art `cover` for more ports (from libretro-thumbnails), so more
+  cards show real art instead of a placeholder.
 - Optional `cover` field: an official box-art fallback shown only when a port
   has no project screenshots, so every card has real art instead of a placeholder.
-  Added for 66 ports (sourced from libretro-thumbnails box art).
+  Added from libretro-thumbnails box art.
 - Screenshots are now presented with `object-contain` over a blurred copy of
   the same image, so 4:3, 1:1, 10:9 and 2:1 captures are never cropped; pixel-art
   systems render with `image-rendering: pixelated`.
 - Catalog pagination: 30 ports per page, reflected in the URL (`?page=N`) with
   accessible Previous/Next and numbered controls.
 - Home page now leads with a computed "Latest releases" section ordered by each
-  project's own release date, above the curated "Featured ports" block.
+  project's own release date, above the "Featured ports" block.
 - Per-system registry (`src/content/systems.ts`) with normalized labels and
   brand colors, and a `SystemBadge` shown on tiles and detail pages.
 - Spanish `notesEs`/`featuresEs` for every port, with an "available only in
@@ -70,7 +69,7 @@ conventional prefixes.
 - Support for ports of proprietary games: Forza Horizon (Pinyon Shift) and
   Gears of War (gears1), with an optional `originalGameLicense` field and a
   "Proprietary game" badge distinct from "Closed source".
-- Home page: live stats, a curated "Featured ports" section and new landing
+- Home page: live stats, a "Featured ports" section and new landing
   sections.
 - Brand logo in the site header (transparent/dark variants per theme).
 - Console logos: Nintendo 3DS, Game Boy Advance, Nintendo DS.

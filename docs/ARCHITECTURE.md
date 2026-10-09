@@ -1,15 +1,13 @@
 # Architecture
 
-This site is a static export. There is no server,
-no database, no accounts, no build-time backend. Next.js compiles the catalog
-once and out comes plain HTML, CSS and JS. There is also a copy of
-`/api/ports.json`: a single JSON file that any script or tool can read.
+This site is a static export: no server, no build-time backend, no accounts
+and no database. Next.js compiles the catalog once and out comes plain HTML,
+CSS and JS. There is also a copy of `/api/ports.json`: a single JSON file that
+any script or tool can read.
 
-That choice is not a technical fashion statement. It means the whole product
-is a folder you can download, open without a browser, and that cannot die when
-a service shuts down. A preservationist catalog should not depend on
-infrastructure that can be turned off. The site has no moving parts,
-which also keeps the attack surface pretty close to zero.
+That means the whole product is a folder you can download, open without a
+browser, and that cannot die when a service shuts down. A preservationist
+catalog should not depend on infrastructure that can be turned off.
 
 ## Where things live
 
