@@ -345,4 +345,12 @@ export const originalSystemById: Record<Port["id"], string> = {
   "xena-warrior-princess-recomp": "PlayStation",
   "devil-dice-recomp": "PlayStation",
   "kula-world-recomp": "PlayStation",
+  "fable-2-recomp": "Xbox 360",
+  "the-darkness-recomp": "Xbox 360",
+  "skate-3-recomp": "Xbox 360",
+  "skate-3-mobile": "Xbox 360",
+  "gta-iv-liberty-recomp": "Xbox 360",
+  "eternal-sonata-reprise": "Xbox 360",
+  "ace-combat-6-recomp": "Xbox 360",
+  "condemned-2-recomp": "Xbox 360",
 };

@@ -343,6 +343,14 @@ import { wipeoutXlRecomp } from "./wipeout-xl-recomp";
 import { xenaWarriorPrincessRecomp } from "./xena-warrior-princess-recomp";
 import { devilDiceRecomp } from "./devil-dice-recomp";
 import { kulaWorldRecomp } from "./kula-world-recomp";
+import { fable2Recomp } from "./fable-2-recomp";
+import { theDarknessRecomp } from "./the-darkness-recomp";
+import { skate3Recomp } from "./skate-3-recomp";
+import { skate3Mobile } from "./skate-3-mobile";
+import { gtaIvLibertyRecomp } from "./gta-iv-liberty-recomp";
+import { eternalSonataReprise } from "./eternal-sonata-reprise";
+import { aceCombat6Recomp } from "./ace-combat-6-recomp";
+import { condemned2Recomp } from "./condemned-2-recomp";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -689,4 +697,12 @@ export const portCases: Port[] = [
   xenaWarriorPrincessRecomp,
   devilDiceRecomp,
   kulaWorldRecomp,
+  fable2Recomp,
+  theDarknessRecomp,
+  skate3Recomp,
+  skate3Mobile,
+  gtaIvLibertyRecomp,
+  eternalSonataReprise,
+  aceCombat6Recomp,
+  condemned2Recomp,
 ];
