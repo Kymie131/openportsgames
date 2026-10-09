@@ -52,7 +52,7 @@ export function HomeContent({
           <div className="space-y-4">
             <h1
               id="home-hero"
-              className="text-gradient text-4xl font-bold tracking-tight sm:text-5xl"
+              className="text-gradient text-5xl font-bold tracking-tight sm:text-6xl drop-shadow-sm"
             >
               OpenPortsGames
             </h1>
@@ -61,7 +61,7 @@ export function HomeContent({
             </p>
           </div>
           <div className="flex flex-col gap-3 pt-1 sm:flex-row sm:items-center">
-            <Button asChild size="lg">
+            <Button asChild size="lg" className="shadow-lg shadow-accent/25 hover:shadow-accent/40 transition-shadow">
               <Link href="/ports">{t.home.browseCatalog}</Link>
             </Button>
             <Button asChild variant="secondary" size="lg">
@@ -77,27 +77,27 @@ export function HomeContent({
           </div>
         </div>
 
-        <dl className="grid max-w-2xl grid-cols-1 gap-px overflow-hidden rounded-lg border border-border bg-border sm:grid-cols-3">
-          <div className="bg-surface px-5 py-4">
-            <dt className="font-mono text-2xl font-semibold tracking-tight text-foreground">
+        <dl className="grid max-w-2xl grid-cols-1 gap-4 sm:grid-cols-3">
+          <div className="rounded-xl border border-border bg-surface px-6 py-5 shadow-sm">
+            <dt className="font-mono text-3xl font-bold tracking-tight text-foreground">
               {toNumber(counts.ports)}
             </dt>
-            <dd className="mt-0.5 text-sm text-muted">{t.home.statsPorts(counts.ports)}</dd>
+            <dd className="mt-1 text-sm font-medium text-muted">{t.home.statsPorts(counts.ports)}</dd>
           </div>
-          <div className="bg-surface px-5 py-4">
-            <dt className="font-mono text-2xl font-semibold tracking-tight text-foreground">
+          <div className="rounded-xl border border-border bg-surface px-6 py-5 shadow-sm">
+            <dt className="font-mono text-3xl font-bold tracking-tight text-foreground">
               {toNumber(counts.android)}
             </dt>
-            <dd className="mt-0.5 text-sm text-muted">{t.home.statsAndroid(counts.android)}</dd>
+            <dd className="mt-1 text-sm font-medium text-muted">{t.home.statsAndroid(counts.android)}</dd>
           </div>
-          <div className="bg-surface px-5 py-4">
+          <div className="rounded-xl border border-border bg-surface px-6 py-5 shadow-sm">
             <dt
-              className="font-mono text-2xl font-semibold tracking-tight text-foreground"
+              className="font-mono text-3xl font-bold tracking-tight text-foreground"
               aria-hidden="true"
             >
               100%
             </dt>
-            <dd className="mt-0.5 text-sm text-muted">{t.home.statsSources}</dd>
+            <dd className="mt-1 text-sm font-medium text-muted">{t.home.statsSources}</dd>
           </div>
         </dl>
       </section>
@@ -217,18 +217,21 @@ export function HomeContent({
 
       {/* CTA */}
       <section className="mt-14 sm:mt-24" aria-labelledby="cta-heading">
-        <div className="rounded-lg border border-border bg-surface px-6 py-12 text-center sm:px-12">
-          <h2 id="cta-heading" className="text-2xl font-semibold tracking-tight text-foreground">
-            {t.home.ctaTitle}
-          </h2>
-          <p className="mx-auto mt-2 max-w-xl text-sm leading-6 text-muted">{t.home.ctaDesc}</p>
-          <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
-            <Button asChild size="lg">
-              <Link href="/submit">{t.home.ctaContribute}</Link>
-            </Button>
-            <Button asChild variant="secondary" size="lg">
-              <Link href="/guides">{t.guides.title}</Link>
-            </Button>
+        <div className="relative overflow-hidden rounded-2xl border border-accent/20 bg-gradient-to-b from-surface to-surface-2 px-6 py-16 text-center sm:px-12 shadow-xl shadow-accent/5">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,color-mix(in_srgb,var(--accent)_10%,transparent)_0%,transparent_100%)] pointer-events-none" />
+          <div className="relative z-10">
+            <h2 id="cta-heading" className="text-3xl font-bold tracking-tight text-foreground">
+              {t.home.ctaTitle}
+            </h2>
+            <p className="mx-auto mt-4 max-w-xl text-base leading-7 text-muted">{t.home.ctaDesc}</p>
+            <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
+              <Button asChild size="lg">
+                <Link href="/submit">{t.home.ctaContribute}</Link>
+              </Button>
+              <Button asChild variant="secondary" size="lg">
+                <Link href="/guides">{t.guides.title}</Link>
+              </Button>
+            </div>
           </div>
         </div>
       </section>
@@ -280,7 +283,7 @@ function ExploreCard({
     <li>
       <Link
         href={href}
-        className="group flex h-full flex-col gap-3 rounded-lg border border-border bg-surface p-5 transition-[border-color,background-color] duration-150 hover:border-accent-hover hover:bg-surface-2"
+        className="group flex h-full flex-col gap-3 rounded-xl border border-border bg-surface p-6 transition-all duration-300 hover:-translate-y-1 hover:border-accent/40 hover:bg-surface-2 hover:shadow-xl hover:shadow-accent/10"
       >
         <span className="flex size-10 items-center justify-center rounded-md border border-border bg-surface-2 text-accent-2">
           <Icon className="size-5" aria-hidden="true" />
@@ -309,7 +312,7 @@ function PrincipleCard({
 }) {
   return (
     <li>
-      <div className="flex h-full flex-col gap-3 rounded-lg border border-border bg-surface p-5">
+      <div className="flex h-full flex-col gap-3 rounded-xl border border-border bg-surface p-6">
         <span className="flex size-10 items-center justify-center rounded-md border border-border bg-surface-2 text-accent-3">
           <Icon className="size-5" aria-hidden="true" />
         </span>

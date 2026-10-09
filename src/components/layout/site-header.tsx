@@ -63,13 +63,7 @@ export function SiteHeader() {
             <img
               src={assetPath("/logos/brand/openportsgames-transparent.png")}
               alt=""
-              className="hidden h-7 w-auto dark:block"
-            />
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={assetPath("/logos/brand/openportsgames-dark.png")}
-              alt=""
-              className="block h-7 w-auto dark:hidden"
+              className="h-7 w-auto"
             />
           </Link>
 
