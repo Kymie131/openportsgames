@@ -515,4 +515,12 @@ export const originalSystemById: Record<Port["id"], string> = {
   "mario-tennis-virtual-boy-recomp": "Virtual Boy",
   "wind-waker-hd-recomp": "Wii U",
   "neo-drift-out-recomp": "Neo Geo",
+  "sonic-generations-recomp": "Xbox 360",
+  "sonic-the-fighters-recomp": "Xbox 360",
+  "sonic-adventure-recomp": "Dreamcast",
+  "looking-glass-alice": "Microsoft Windows",
+  openhp1: "Microsoft Windows",
+  "freeking-kingpin": "Microsoft Windows",
+  "cnc-renegade": "Microsoft Windows",
+  "cod4-ios": "Microsoft Windows",
 };

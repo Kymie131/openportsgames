@@ -513,6 +513,14 @@ import { zeroRacersRecomp } from "./zero-racers-recomp";
 import { marioTennisVirtualBoyRecomp } from "./mario-tennis-virtual-boy-recomp";
 import { windWakerHdRecomp } from "./wind-waker-hd-recomp";
 import { neoDriftOutRecomp } from "./neo-drift-out-recomp";
+import { sonicGenerationsRecomp } from "./sonic-generations-recomp";
+import { sonicTheFightersRecomp } from "./sonic-the-fighters-recomp";
+import { sonicAdventureRecomp } from "./sonic-adventure-recomp";
+import { lookingGlassAlice } from "./looking-glass-alice";
+import { openhp1 } from "./openhp1";
+import { freekingKingpin } from "./freeking-kingpin";
+import { cncRenegade } from "./cnc-renegade";
+import { cod4Ios } from "./cod4-ios";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -1029,4 +1037,12 @@ export const portCases: Port[] = [
   marioTennisVirtualBoyRecomp,
   windWakerHdRecomp,
   neoDriftOutRecomp,
+  sonicGenerationsRecomp,
+  sonicTheFightersRecomp,
+  sonicAdventureRecomp,
+  lookingGlassAlice,
+  openhp1,
+  freekingKingpin,
+  cncRenegade,
+  cod4Ios,
 ];
