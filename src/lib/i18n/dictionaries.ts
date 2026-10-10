@@ -248,9 +248,9 @@ const en = {
       "Each technique describes how a project recreates the original game. The port's detail page always tells you which one it uses.",
     techniques: {
       decompilation:
-        "Project code written from scratch to reproduce the original game, compiled as a native binary.",
+        "The game's source code is rebuilt from the original, function by function. It is slow work.",
       recompilation:
-        "The original machine code is converted to portable C and compiled natively. Faster to produce, harder to read.",
+        "The console's processor is not emulated: its code is translated ahead of time. The console's system and graphics are replaced by a layer from the project.",
       reimplementation:
         "A new engine recreates the game or a family of games. Flexible, but faithfulness depends on each reimplemented asset.",
       "source-port":
@@ -375,7 +375,7 @@ const en = {
       "Before linking a repository we check that it is the project's official source.",
       "The code is MIT and the data is CC BY 4.0: you can reuse them respecting the license.",
       "All participation is open and public. You can submit what you tested, bugs, or anything that helps improve the project.",
-      "The translations were assisted by an LLM, because my native language is Spanish and the one I know best after that is English. If you see a mistake, tell us.",
+      "The original texts are in Spanish and the English translations were assisted by an LLM. If you see a mistake, tell us.",
     ],
     teamTitle: "Who we are",
     team: [
@@ -670,9 +670,9 @@ const es: Messages = {
       "Cada técnica describe cómo un proyecto recrea el juego original. La página de detalle del port siempre te dice cuál usa.",
     techniques: {
       decompilation:
-        "Código escrito desde cero para reproducir el juego original, compilado como binario nativo.",
+        "Se reconstruye el código fuente del juego a partir del original, función por función. Es un trabajo largo.",
       recompilation:
-        "El código máquina original se convierte a C portable y se compila de forma nativa. Más rápido de producir, más difícil de leer.",
+        "No se emula el procesador del juego: su código se traduce antes. El sistema y los gráficos de la consola se reemplazan con una capa del proyecto.",
       reimplementation:
         "Un motor nuevo recrea el juego o una familia de juegos. Flexible, pero la fidelidad depende de cada recurso reimplementado.",
       "source-port":
@@ -800,7 +800,7 @@ const es: Messages = {
       "Antes de enlazar un repositorio verificamos que sea la fuente oficial del proyecto.",
       "El código es MIT y los datos son CC BY 4.0: puedes reutilizarlos respetando la licencia.",
       "Toda la participación es abierta y pública. Puedes subir lo que probaste, errores o cualquier cosa que ayude a mejorar el proyecto.",
-      "Las traducciones fueron asistidas por un LLM, porque mi idioma nativo es el español y el que mejor domino después es el inglés. Si ves un error, avísanos.",
+      "Los textos originales están en español y las traducciones al inglés fueron asistidas por un LLM. Si ves un error, avísanos.",
     ],
     teamTitle: "Quiénes somos",
     team: [
