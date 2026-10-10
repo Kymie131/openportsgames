@@ -528,4 +528,12 @@ export const originalSystemById: Record<Port["id"], string> = {
   "descent-3": "Microsoft Windows",
   "alone-in-the-dark-rehaunted": "MS-DOS",
   "fate-unlimited-codes-recomp": "PlayStation Portable",
+  "hollow-knight-android": "Microsoft Windows",
+  "gloom-android": "MS-DOS / Amiga",
+  "marathon-android": "Macintosh",
+  "the-force-engine-vr": "MS-DOS",
+  "uqm-megamod": "MS-DOS",
+  "openmw-android": "Microsoft Windows",
+  "pvz-fusion-android": "Microsoft Windows",
+  "slay-the-spire-2-android": "Microsoft Windows",
 };

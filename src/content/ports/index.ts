@@ -526,6 +526,14 @@ import { area51Source } from "./area-51-source";
 import { descent3 } from "./descent-3";
 import { aloneInTheDarkRehaunted } from "./alone-in-the-dark-rehaunted";
 import { fateUnlimitedCodesRecomp } from "./fate-unlimited-codes-recomp";
+import { hollowKnightAndroid } from "./hollow-knight-android";
+import { gloomAndroid } from "./gloom-android";
+import { marathonAndroid } from "./marathon-android";
+import { theForceEngineVr } from "./the-force-engine-vr";
+import { uqmMegamod } from "./uqm-megamod";
+import { openmwAndroid } from "./openmw-android";
+import { pvzFusionAndroid } from "./pvz-fusion-android";
+import { slayTheSpire2Android } from "./slay-the-spire-2-android";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -1055,4 +1063,12 @@ export const portCases: Port[] = [
   descent3,
   aloneInTheDarkRehaunted,
   fateUnlimitedCodesRecomp,
+  hollowKnightAndroid,
+  gloomAndroid,
+  marathonAndroid,
+  theForceEngineVr,
+  uqmMegamod,
+  openmwAndroid,
+  pvzFusionAndroid,
+  slayTheSpire2Android,
 ];
