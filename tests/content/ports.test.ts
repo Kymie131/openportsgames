@@ -55,10 +55,7 @@ describe("catalog ports", () => {
   });
 
   it("shares a source across ports only where one repository covers both", () => {
-    // Two ports pointing at the same repository reads as a copy-paste error on
-    // the detail page, so each deliberate overlap is listed here. Namco System
-    // 22 ships four games from one decompilation; DXX-Rebirth and D1X-Rebirth
-    // live in the same repository.
+    // Deliberate shared sources (one repository covering several ports).
     const intentional: Record<string, string[]> = {
       "https://github.com/spacestate1/namco22-decompile": [
         "namco-system-22-dirt-dash",
@@ -67,12 +64,9 @@ describe("catalog ports", () => {
         "namco-system-22-tokyo-wars",
       ],
       "https://github.com/dxx-rebirth/dxx-rebirth": ["d1x-rebirth", "dxx-rebirth"],
-      // `dkc-recompiled` is the trilogy hub and lists each game's repository,
-      // which now has its own standalone entry too.
       "https://github.com/elliotttate/DKC3Recomp": ["dkc-recompiled", "dkc3-recomp"],
       "https://github.com/elliotttate/DKC2Recomp": ["dkc-recompiled", "dkc2-recomp"],
-      // PortsDR is a community index, not a repository: every entry it lists
-      // shares the same landing page until a dedicated project link exists.
+      // PortsDR is an index; all its entries share one landing page.
       "https://portsdr.com/": [
         "battle-arena-toshinden-recomp",
         "bloody-roar-2-recomp",
