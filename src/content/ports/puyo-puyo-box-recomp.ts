@@ -19,10 +19,8 @@ export const puyoPuyoBoxRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
   originalSystem: "PlayStation",
-  notes:
-    "Recompilation of Puyo Puyo Box (PlayStation) listed by the PortsDR community index. No public repository or release is linked, and it needs your own copy of the game.",
-  notesEs:
-    "Recompilación de Puyo Puyo Box (PlayStation) listada en el índice comunitario PortsDR. No hay repositorio ni release públicos enlazados, y necesita tu propia copia del juego.",
+  notes: "Community entry from PortsDR. No repository is public; the game is not included.",
+  notesEs: "Entrada comunitaria de PortsDR. No hay repositorio público; el juego no se incluye.",
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Puyo%20Puyo%20Box%20(Japan).png",
     alt: "Puyo Puyo Box (box art)",

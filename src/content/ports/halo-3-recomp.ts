@@ -20,9 +20,9 @@ export const halo3Recomp: Port = {
   verified: false,
   originalSystem: "Xbox 360",
   notes:
-    "Static recompilation of Halo 3 (Xbox 360) with ReXGlue. It requires your own copy of the game.",
+    "Static recompilation of Halo 3 (Xbox 360) built with ReXGlue. Bring your own copy of the game.",
   notesEs:
-    "Recompilación estática de Halo 3 (Xbox 360) con ReXGlue. Requiere tu propia copia del juego.",
+    "Recompilación estática de Halo 3 (Xbox 360) con ReXGlue. Aporta tu propia copia del juego.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b4/Halo_3_final_boxshot.JPG",
     alt: "Halo 3 (box art)",

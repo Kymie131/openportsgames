@@ -1,12 +1,8 @@
 import { assetPath, cn } from "@/lib/utils";
 
 /**
- * Console mark for the emulators section.
- *
- * Shows the official logo artwork when the repository ships one under
- * `public/logos/console`, and otherwise a typographic monogram chip tinted with
- * the console's brand color. The monogram is original artwork, so no
- * trademarked logo is invented for systems we do not have art for.
+ * Console mark for /emulators: official logo when available, otherwise a
+ * typographic monogram chip.
  */
 export function ConsoleMark({
   abbreviation,

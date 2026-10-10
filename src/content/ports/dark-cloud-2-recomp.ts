@@ -19,8 +19,6 @@ export const darkCloud2Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
   originalSystem: "PlayStation 2",
-  notes:
-    "Recompilation of Dark Cloud 2 (PlayStation 2) listed by the PortsDR community index. No public repository or release is linked, and it needs your own copy of the game.",
-  notesEs:
-    "Recompilación de Dark Cloud 2 (PlayStation 2) listada en el índice comunitario PortsDR. No hay repositorio ni release públicos enlazados, y necesita tu propia copia del juego.",
+  notes: "Indexed by PortsDR. No official repository is available, and it needs your own copy.",
+  notesEs: "Indexado en PortsDR. No hay repositorio oficial disponible y necesita tu propia copia.",
 };

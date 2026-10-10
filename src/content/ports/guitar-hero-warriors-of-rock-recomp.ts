@@ -20,9 +20,9 @@ export const guitarHeroWarriorsOfRockRecomp: Port = {
   verified: false,
   originalSystem: "Xbox 360",
   notes:
-    "Static recompilation of Guitar Hero: Warriors of Rock (Xbox 360) with ReXGlue. It requires your own copy of the game.",
+    "Recompiled Guitar Hero: Warriors of Rock (Xbox 360) to run natively on Windows through ReXGlue. Own the game to play.",
   notesEs:
-    "Recompilación estática de Guitar Hero: Warriors of Rock (Xbox 360) con ReXGlue. Requiere tu propia copia del juego.",
+    "Recompilado Guitar Hero: Warriors of Rock (Xbox 360) para ejecutarse de forma nativa en Windows con ReXGlue. Necesitas el juego.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/bb/Guitar_Hero_Warriors_of_Rock_Game_Cover.jpg",
     alt: "Guitar Hero: Warriors of Rock (box art)",

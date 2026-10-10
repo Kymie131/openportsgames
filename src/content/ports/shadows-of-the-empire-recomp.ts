@@ -19,10 +19,8 @@ export const shadowsOfTheEmpireRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
   originalSystem: "Nintendo 64",
-  notes:
-    "Recompilation of Star Wars: Shadows of the Empire (Nintendo 64) listed by the PortsDR community index. No public repository or release is linked, and it needs your own copy of the game.",
-  notesEs:
-    "Recompilación de Star Wars: Shadows of the Empire (Nintendo 64) listada en el índice comunitario PortsDR. No hay repositorio ni release públicos enlazados, y necesita tu propia copia del juego.",
+  notes: "Indexed by PortsDR. No official repository is available, and it needs your own copy.",
+  notesEs: "Indexado en PortsDR. No hay repositorio oficial disponible y necesita tu propia copia.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Star%20Wars%20-%20Shadows%20of%20the%20Empire%20(Europe).png",
     alt: "Star Wars: Shadows of the Empire (box art)",

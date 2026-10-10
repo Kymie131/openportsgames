@@ -20,7 +20,7 @@ export const dragonBallZBudokai3Hd: Port = {
   verified: false,
   originalSystem: "Xbox 360",
   notes:
-    "Static recompilation of Dragon Ball Z: Budokai 3 HD (Xbox 360) with ReXGlue. It requires your own copy of the game.",
+    "Static recompilation of Dragon Ball Z: Budokai 3 HD (Xbox 360) built with ReXGlue. Bring your own copy of the game.",
   notesEs:
-    "Recompilación estática de Dragon Ball Z: Budokai 3 HD (Xbox 360) con ReXGlue. Requiere tu propia copia del juego.",
+    "Recompilación estática de Dragon Ball Z: Budokai 3 HD (Xbox 360) con ReXGlue. Aporta tu propia copia del juego.",
 };

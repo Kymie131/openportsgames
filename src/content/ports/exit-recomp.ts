@@ -19,10 +19,8 @@ export const exitRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystem: "Xbox 360",
-  notes:
-    "Static recompilation of EXIT (Xbox 360) with ReXGlue. It requires your own copy of the game.",
-  notesEs:
-    "Recompilación estática de EXIT (Xbox 360) con ReXGlue. Requiere tu propia copia del juego.",
+  notes: "A ReXGlue-based static recompilation of EXIT (Xbox 360). Requires your own copy.",
+  notesEs: "Recompilación estática de EXIT (Xbox 360) basada en ReXGlue. Requiere tu propia copia.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/11/Exit-cover.jpg",
     alt: "EXIT (box art)",

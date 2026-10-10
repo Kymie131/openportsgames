@@ -20,9 +20,9 @@ export const segaSuperstarsTennisRematch: Port = {
   verified: false,
   originalSystem: "Xbox 360",
   notes:
-    "Static recompilation of Sega Superstars Tennis (Xbox 360) with ReXGlue. It requires your own copy of the game.",
+    "Recompilation of Sega Superstars Tennis (Xbox 360) to native Windows via ReXGlue. You supply the game files.",
   notesEs:
-    "Recompilación estática de Sega Superstars Tennis (Xbox 360) con ReXGlue. Requiere tu propia copia del juego.",
+    "Recompilación de Sega Superstars Tennis (Xbox 360) a Windows nativo mediante ReXGlue. Tú aportas los archivos.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/10/SEGA_Superstars_Tennis.jpg",
     alt: "Sega Superstars Tennis (box art)",

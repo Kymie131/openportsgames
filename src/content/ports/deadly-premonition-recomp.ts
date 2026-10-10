@@ -20,9 +20,9 @@ export const deadlyPremonitionRecomp: Port = {
   verified: false,
   originalSystem: "Xbox 360",
   notes:
-    "Static recompilation of Deadly Premonition (Xbox 360) with ReXGlue. It requires your own copy of the game.",
+    "Recompiled Deadly Premonition (Xbox 360) to run natively on Windows through ReXGlue. Own the game to play.",
   notesEs:
-    "Recompilación estática de Deadly Premonition (Xbox 360) con ReXGlue. Requiere tu propia copia del juego.",
+    "Recompilado Deadly Premonition (Xbox 360) para ejecutarse de forma nativa en Windows con ReXGlue. Necesitas el juego.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c5/Deadly_Premonition_cover_art.jpg",
     alt: "Deadly Premonition (box art)",

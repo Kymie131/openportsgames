@@ -8,14 +8,7 @@ const fillProps = {
   strokeWidth: 0,
 } as const;
 
-/**
- * Renders the official Simple Icons artwork for a platform (see
- * platform-glyphs.ts for the CC0 / trademark attribution).
- *
- * The logo is filled with `currentColor` so it inherits the surrounding text
- * color; there is no platform brand color, no gradient and no hand-drawn
- * approximation.
- */
+/** Official Simple Icons platform artwork (CC0 1.0; see platform-glyphs.ts), filled with `currentColor`. */
 function GlyphMark({
   glyph,
   ...props

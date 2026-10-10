@@ -47,7 +47,6 @@ badge.
 
 - Run `npm run lint` and `npm run typecheck` before committing.
 - Prettier is enforced: `npm run format:check`.
-- Comment the why, not the what.
 - Keep dependencies minimal.
 
 ## Reporting issues

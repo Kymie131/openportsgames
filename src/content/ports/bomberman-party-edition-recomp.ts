@@ -19,10 +19,9 @@ export const bombermanPartyEditionRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
   originalSystem: "PlayStation",
-  notes:
-    "Recompilation of Bomberman Party Edition (PlayStation) listed by the PortsDR community index. No public repository or release is linked, and it needs your own copy of the game.",
+  notes: "PortsDR lists this recompilation without a public repository. Own the game to play it.",
   notesEs:
-    "Recompilación de Bomberman Party Edition (PlayStation) listada en el índice comunitario PortsDR. No hay repositorio ni release públicos enlazados, y necesita tu propia copia del juego.",
+    "PortsDR lista esta recompilación sin repositorio público. Necesitas el juego para jugarla.",
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Bomberman%20-%20Party%20Edition%20(USA).png",
     alt: "Bomberman Party Edition (box art)",

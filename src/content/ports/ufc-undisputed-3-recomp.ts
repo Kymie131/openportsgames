@@ -20,9 +20,9 @@ export const ufcUndisputed3Recomp: Port = {
   verified: false,
   originalSystem: "Xbox 360",
   notes:
-    "Static recompilation of UFC Undisputed 3 (Xbox 360) with ReXGlue. It requires your own copy of the game.",
+    "Native PC recompilation of UFC Undisputed 3 (Xbox 360) with ReXGlue. The game is not included.",
   notesEs:
-    "Recompilación estática de UFC Undisputed 3 (Xbox 360) con ReXGlue. Requiere tu propia copia del juego.",
+    "Recompilación nativa para PC de UFC Undisputed 3 (Xbox 360) con ReXGlue. El juego no se incluye.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/d0/UFC_Undisputed_3_cover.png",
     alt: "UFC Undisputed 3 (box art)",

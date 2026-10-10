@@ -20,9 +20,9 @@ export const streetFighterExPlusAlphaRecomp: Port = {
   verified: false,
   originalSystem: "PlayStation",
   notes:
-    "Recompilation of Street Fighter EX Plus Alpha (PlayStation) listed by the PortsDR community index. No public repository or release is linked, and it needs your own copy of the game.",
+    "A PortsDR community listing; no repository or release is public. The original game is required.",
   notesEs:
-    "Recompilación de Street Fighter EX Plus Alpha (PlayStation) listada en el índice comunitario PortsDR. No hay repositorio ni release públicos enlazados, y necesita tu propia copia del juego.",
+    "Ficha comunitaria de PortsDR; no hay repositorio ni release públicos. Hace falta el juego original.",
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Street%20Fighter%20EX%20Plus%20Alpha%20(Europe).png",
     alt: "Street Fighter EX Plus Alpha (box art)",

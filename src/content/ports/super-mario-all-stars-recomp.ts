@@ -19,10 +19,8 @@ export const superMarioAllStarsRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
   originalSystem: "Super Nintendo",
-  notes:
-    "Recompilation of Super Mario All-Stars (Super Nintendo) listed by the PortsDR community index. No public repository or release is linked, and it needs your own copy of the game.",
-  notesEs:
-    "Recompilación de Super Mario All-Stars (Super Nintendo) listada en el índice comunitario PortsDR. No hay repositorio ni release públicos enlazados, y necesita tu propia copia del juego.",
+  notes: "Indexed by PortsDR. No official repository is available, and it needs your own copy.",
+  notesEs: "Indexado en PortsDR. No hay repositorio oficial disponible y necesita tu propia copia.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Mario%20All-Stars%20(Europe).png",
     alt: "Super Mario All-Stars (box art)",

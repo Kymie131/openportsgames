@@ -20,7 +20,7 @@ export const deadRising2CaseWestRecomp: Port = {
   verified: false,
   originalSystem: "Xbox 360",
   notes:
-    "Static recompilation of Dead Rising 2: Case West (Xbox 360) with ReXGlue. It requires your own copy of the game.",
+    "Recompilation of Dead Rising 2: Case West (Xbox 360) to native Windows via ReXGlue. You supply the game files.",
   notesEs:
-    "Recompilación estática de Dead Rising 2: Case West (Xbox 360) con ReXGlue. Requiere tu propia copia del juego.",
+    "Recompilación de Dead Rising 2: Case West (Xbox 360) a Windows nativo mediante ReXGlue. Tú aportas los archivos.",
 };

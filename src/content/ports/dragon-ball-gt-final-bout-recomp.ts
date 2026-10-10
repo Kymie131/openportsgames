@@ -19,10 +19,8 @@ export const dragonBallGtFinalBoutRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
   originalSystem: "PlayStation",
-  notes:
-    "Recompilation of Dragon Ball GT: Final Bout (PlayStation) listed by the PortsDR community index. No public repository or release is linked, and it needs your own copy of the game.",
-  notesEs:
-    "Recompilación de Dragon Ball GT: Final Bout (PlayStation) listada en el índice comunitario PortsDR. No hay repositorio ni release públicos enlazados, y necesita tu propia copia del juego.",
+  notes: "Community entry from PortsDR. No repository is public; the game is not included.",
+  notesEs: "Entrada comunitaria de PortsDR. No hay repositorio público; el juego no se incluye.",
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Dragon%20Ball%20GT%20-%20Final%20Bout%20(USA).png",
     alt: "Dragon Ball GT: Final Bout (box art)",

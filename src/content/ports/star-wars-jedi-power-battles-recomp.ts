@@ -19,10 +19,8 @@ export const starWarsJediPowerBattlesRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
   originalSystem: "PlayStation",
-  notes:
-    "Recompilation of Star Wars Episode I: Jedi Power Battles (PlayStation) listed by the PortsDR community index. No public repository or release is linked, and it needs your own copy of the game.",
-  notesEs:
-    "Recompilación de Star Wars Episode I: Jedi Power Battles (PlayStation) listada en el índice comunitario PortsDR. No hay repositorio ni release públicos enlazados, y necesita tu propia copia del juego.",
+  notes: "Indexed by PortsDR. No official repository is available, and it needs your own copy.",
+  notesEs: "Indexado en PortsDR. No hay repositorio oficial disponible y necesita tu propia copia.",
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Star%20Wars%20-%20Episode%20I%20-%20Jedi%20Power%20Battles%20(Europe).png",
     alt: "Star Wars Episode I: Jedi Power Battles (box art)",

@@ -20,9 +20,9 @@ export const forzaMotorsport4Recomp: Port = {
   verified: false,
   originalSystem: "Xbox 360",
   notes:
-    "Static recompilation of Forza Motorsport 4 (Xbox 360) with ReXGlue. It requires your own copy of the game.",
+    "Recompilation of Forza Motorsport 4 (Xbox 360) to native Windows via ReXGlue. You supply the game files.",
   notesEs:
-    "Recompilación estática de Forza Motorsport 4 (Xbox 360) con ReXGlue. Requiere tu propia copia del juego.",
+    "Recompilación de Forza Motorsport 4 (Xbox 360) a Windows nativo mediante ReXGlue. Tú aportas los archivos.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/f1/Forza_Motorsport_4_cover.jpg",
     alt: "Forza Motorsport 4 (box art)",

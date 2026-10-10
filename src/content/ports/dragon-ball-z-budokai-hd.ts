@@ -20,7 +20,7 @@ export const dragonBallZBudokaiHd: Port = {
   verified: false,
   originalSystem: "Xbox 360",
   notes:
-    "Static recompilation of Dragon Ball Z: Budokai HD Collection (Xbox 360) with ReXGlue. It requires your own copy of the game.",
+    "ReXGlue static recompilation of Dragon Ball Z: Budokai HD Collection (Xbox 360) for Windows. Needs the original game files.",
   notesEs:
-    "Recompilación estática de Dragon Ball Z: Budokai HD Collection (Xbox 360) con ReXGlue. Requiere tu propia copia del juego.",
+    "Recompilación estática con ReXGlue de Dragon Ball Z: Budokai HD Collection (Xbox 360) para Windows. Necesita los archivos originales.",
 };

@@ -19,8 +19,7 @@ export const saintsRowRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystem: "Xbox 360",
-  notes:
-    "Static recompilation of Saints Row (Xbox 360) with ReXGlue. It requires your own copy of the game.",
+  notes: "A ReXGlue-based static recompilation of Saints Row (Xbox 360). Requires your own copy.",
   notesEs:
-    "Recompilación estática de Saints Row (Xbox 360) con ReXGlue. Requiere tu propia copia del juego.",
+    "Recompilación estática de Saints Row (Xbox 360) basada en ReXGlue. Requiere tu propia copia.",
 };

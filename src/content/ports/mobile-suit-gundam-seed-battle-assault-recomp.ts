@@ -20,9 +20,9 @@ export const mobileSuitGundamSeedBattleAssaultRecomp: Port = {
   verified: false,
   originalSystem: "Game Boy Advance",
   notes:
-    "Recompilation of Mobile Suit Gundam SEED: Battle Assault (Game Boy Advance) listed by the PortsDR community index. No public repository or release is linked, and it needs your own copy of the game.",
+    "A PortsDR community listing; no repository or release is public. The original game is required.",
   notesEs:
-    "Recompilación de Mobile Suit Gundam SEED: Battle Assault (Game Boy Advance) listada en el índice comunitario PortsDR. No hay repositorio ni release públicos enlazados, y necesita tu propia copia del juego.",
+    "Ficha comunitaria de PortsDR; no hay repositorio ni release públicos. Hace falta el juego original.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Mobile%20Suit%20Gundam%20Seed%20-%20Battle%20Assault%20(USA).png",
     alt: "Mobile Suit Gundam SEED: Battle Assault (box art)",

@@ -19,10 +19,8 @@ export const timesplitters2Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
   originalSystem: "PlayStation 2",
-  notes:
-    "Recompilation of TimeSplitters 2 (PlayStation 2) listed by the PortsDR community index. No public repository or release is linked, and it needs your own copy of the game.",
-  notesEs:
-    "Recompilación de TimeSplitters 2 (PlayStation 2) listada en el índice comunitario PortsDR. No hay repositorio ni release públicos enlazados, y necesita tu propia copia del juego.",
+  notes: "Community entry from PortsDR. No repository is public; the game is not included.",
+  notesEs: "Entrada comunitaria de PortsDR. No hay repositorio público; el juego no se incluye.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6b/Timesplitters2.JPG",
     alt: "TimeSplitters 2 (box art)",
