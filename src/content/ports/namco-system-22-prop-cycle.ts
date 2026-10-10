@@ -43,4 +43,9 @@ export const namcoSystem22PropCycle: Port = {
     "Decompilation of the 1996 Namco arcade boat game for PC. Ships as ready-made Windows and Linux packages; you supply the arcade ROM set, which is not included.",
   notesEs:
     "Decompilación del juego arcade de barcos de Namco de 1996 para PC. Se publica como paquetes listos para Windows y Linux; tú aportas el set de ROM arcade, que no se incluye.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/2e/Prop_Cycle_arcade_game_flyer.jpg",
+    alt: "Prop Cycle (box art)",
+    credit: "Wikipedia",
+  },
 };

@@ -23,4 +23,9 @@ export const repoEvR: Port = {
     "Unofficial Android and iOS port of R.E.P.O. with touch and smartphone-VR modes, and crossplay with Steam through EVRMod. It needs the original PC game files.",
   notesEs:
     "Port no oficial de R.E.P.O. para Android e iOS, con modos táctil y de RV para móvil, y crossplay con Steam mediante EVRMod. Necesita los archivos del juego original de PC.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/12/R.E.P.O._cover.jpg",
+    alt: "R.E.P.O. (box art)",
+    credit: "Wikipedia",
+  },
 };

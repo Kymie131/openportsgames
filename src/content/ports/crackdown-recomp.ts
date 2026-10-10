@@ -23,4 +23,9 @@ export const crackdownRecomp: Port = {
     "Static recompilation of Crackdown (Xbox 360) with ReXGlue. It requires your own copy of the game.",
   notesEs:
     "Recompilación estática de Crackdown (Xbox 360) con ReXGlue. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/35/Crackdownfinalbox.jpg",
+    alt: "Crackdown (box art)",
+    credit: "Wikipedia",
+  },
 };

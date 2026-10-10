@@ -23,4 +23,9 @@ export const unrealTournamentAndroid: Port = {
     "Android port of Unreal Tournament 99 (v400) for 32 and 64-bit devices, playable with a controller, touchscreen or keyboard and mouse. It needs the original game files.",
   notesEs:
     "Port a Android de Unreal Tournament 99 (v400) para dispositivos de 32 y 64 bits, jugable con mando, pantalla táctil o teclado y ratón. Necesita los archivos del juego original.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f4/Unrealtournament.jpg",
+    alt: "Unreal Tournament (box art)",
+    credit: "Wikipedia",
+  },
 };

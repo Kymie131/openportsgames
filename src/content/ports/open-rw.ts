@@ -40,4 +40,9 @@ export const openRw: Port = {
       credit: "OpenRW",
     },
   ],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/be/GTA3boxcover.jpg",
+    alt: "Grand Theft Auto III (box art)",
+    credit: "Wikipedia",
+  },
 };

@@ -23,4 +23,9 @@ export const ufcUndisputed3Recomp: Port = {
     "Static recompilation of UFC Undisputed 3 (Xbox 360) with ReXGlue. It requires your own copy of the game.",
   notesEs:
     "Recompilación estática de UFC Undisputed 3 (Xbox 360) con ReXGlue. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d0/UFC_Undisputed_3_cover.png",
+    alt: "UFC Undisputed 3 (box art)",
+    credit: "Wikipedia",
+  },
 };

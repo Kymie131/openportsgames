@@ -23,4 +23,9 @@ export const gearsOfWar2Hollow: Port = {
     "Community PC build of Gears of War 2 assembled from a leaked development build, with mouse and keyboard support, a settings launcher and the full campaign. Its author treats it as a beta and it is not distributed through a public repository.",
   notesEs:
     "Build comunitaria para PC de Gears of War 2 montada a partir de una build de desarrollo filtrada, con soporte de ratón y teclado, un lanzador de ajustes y la campaña completa. Su autor la considera una beta y no se distribuye mediante un repositorio público.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e0/Gears_of_War_2_Game_Cover.jpg",
+    alt: "Gears of War 2 (box art)",
+    credit: "Wikipedia",
+  },
 };

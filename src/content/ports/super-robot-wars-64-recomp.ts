@@ -23,4 +23,9 @@ export const superRobotWars64Recomp: Port = {
     "Static recompilation of Super Robot Wars 64 (N64) with N64Recomp and the RT64 renderer. It requires your own copy of the game.",
   notesEs:
     "Recompilación estática de Super Robot Wars 64 (N64) con N64Recomp y el renderizador RT64. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/99/Super_Robot_Wars_64_Coverart.png",
+    alt: "Super Robot Wars 64 (box art)",
+    credit: "Wikipedia",
+  },
 };

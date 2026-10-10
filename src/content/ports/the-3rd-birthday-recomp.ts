@@ -23,4 +23,9 @@ export const the3rdBirthdayRecomp: Port = {
     "Native PC port of The 3rd Birthday (PSP) through static recompilation. It includes no game data and needs your own ISO.",
   notesEs:
     "Port nativo para PC de The 3rd Birthday (PSP) mediante recompilación estática. No incluye datos del juego y necesita tu propia ISO.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a1/The_3rd_Birthday_Cover.png",
+    alt: "The 3rd Birthday (box art)",
+    credit: "Wikipedia",
+  },
 };

@@ -23,4 +23,9 @@ export const slyCooperRecomp: Port = {
     "Recompilation of Sly Cooper and the Thievius Raccoonus (PlayStation 2) listed by the PortsDR community index. No public repository or release is linked, and it needs your own copy of the game.",
   notesEs:
     "Recompilación de Sly Cooper and the Thievius Raccoonus (PlayStation 2) listada en el índice comunitario PortsDR. No hay repositorio ni release públicos enlazados, y necesita tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8e/SlyCooper2002cover.jpg",
+    alt: "Sly Cooper and the Thievius Raccoonus (box art)",
+    credit: "Wikipedia",
+  },
 };

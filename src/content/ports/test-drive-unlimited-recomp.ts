@@ -23,4 +23,9 @@ export const testDriveUnlimitedRecomp: Port = {
     "Recompilation of Test Drive Unlimited (Xbox 360) for Windows. It requires the original game files and is still in development.",
   notesEs:
     "Recompilación de Test Drive Unlimited (Xbox 360) para Windows. Requiere los archivos del juego original y sigue en desarrollo.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/63/Test_Drive_Unlimited_boxart.jpg",
+    alt: "Test Drive Unlimited (box art)",
+    credit: "Wikipedia",
+  },
 };

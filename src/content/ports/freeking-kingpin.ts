@@ -23,4 +23,9 @@ export const freekingKingpin: Port = {
     "Open-source reimplementation of the Kingpin: Life of Crime engine, intended to run with the retail game data. It builds for Windows, Linux and macOS.",
   notesEs:
     "Reimplementación de código abierto del motor de Kingpin: Life of Crime, pensada para funcionar con los datos del juego comercial. Compila para Windows, Linux y macOS.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/50/Kingpin_-_Box_Front.jpg",
+    alt: "Kingpin: Life of Crime (box art)",
+    credit: "Wikipedia",
+  },
 };

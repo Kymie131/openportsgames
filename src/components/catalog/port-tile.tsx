@@ -40,8 +40,12 @@ export function PortTile({
   const starLabel =
     stars !== undefined && stars > 0 ? new Intl.NumberFormat("en").format(stars) : undefined;
   const consoleLogo = consoleLogoForSystem(system);
-  const [cover] = port.screenshots ?? [];
-  const art = cover ? { src: cover.src, alt: cover.alt } : port.cover;
+  const fallbackShot = port.screenshots?.[0];
+  const art = port.cover
+    ? { src: port.cover.src, alt: port.cover.alt }
+    : fallbackShot
+      ? { src: fallbackShot.src, alt: fallbackShot.alt }
+      : undefined;
 
   return (
     <article

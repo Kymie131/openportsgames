@@ -23,4 +23,9 @@ export const unciv: Port = {
     "Open-source remake of Civilization V for Android and desktop, also available on iOS. It is a turn-based strategy game that does not use the original game's assets.",
   notesEs:
     "Remake libre de Civilization V para Android y escritorio, también disponible en iOS. Es un juego de estrategia por turnos que no usa los recursos del juego original.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5c/CIVILIZATION-V-FRONT-OF-BOX.jpg",
+    alt: "Civilization V (box art)",
+    credit: "Wikipedia",
+  },
 };

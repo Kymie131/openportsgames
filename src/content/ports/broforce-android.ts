@@ -23,4 +23,9 @@ export const broforceAndroid: Port = {
     "Unofficial Android port of Broforce designed for gamepads. It ships no game files and needs your own Steam copy.",
   notesEs:
     "Port no oficial para Android de Broforce pensado para mandos. No incluye archivos del juego y necesita tu propia copia de Steam.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/9c/Broforce.png",
+    alt: "Broforce (box art)",
+    credit: "Wikipedia",
+  },
 };

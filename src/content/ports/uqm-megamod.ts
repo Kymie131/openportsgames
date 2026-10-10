@@ -23,4 +23,9 @@ export const uqmMegamod: Port = {
     "UQM MegaMod packages The Ur-Quan Masters with extra content and runs it on Android. The repository is archived, so it is no longer updated.",
   notesEs:
     "UQM MegaMod empaqueta The Ur-Quan Masters con contenido extra y lo ejecuta en Android. El repositorio está archivado, por lo que ya no se actualiza.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c3/Star_Control_II_cover.jpg",
+    alt: "Star Control II (box art)",
+    credit: "Wikipedia",
+  },
 };

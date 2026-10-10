@@ -23,4 +23,9 @@ export const infiniteUndiscoveryRecomp: Port = {
     "Recompilation of Infinite Undiscovery (Xbox 360) to a native Windows executable. It does not include the game.",
   notesEs:
     "Recompilación de Infinite Undiscovery (Xbox 360) a un ejecutable nativo para Windows. No incluye el juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/46/InfiniteUndiscoveryBoxart.jpg",
+    alt: "Infinite Undiscovery (box art)",
+    credit: "Wikipedia",
+  },
 };

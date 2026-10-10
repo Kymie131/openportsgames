@@ -23,4 +23,9 @@ export const theFifthElementRecomp: Port = {
     "Recompilation of The Fifth Element (PS1, Europe SCES-01285) with PSXRecomp and the recomp-ui launcher. You bring your disc and a European SCPH-5502/5552 BIOS, and the wizard compiles the game on your machine. For now it is the 0.1.0 release candidate, with gameplay not closed.",
   notesEs:
     "Recompilación de The Fifth Element (PS1, Europa SCES-01285) con PSXRecomp y el lanzador recomp-ui. Aportas tu disco y una BIOS europea SCPH-5502/5552, y el asistente compila el juego en tu equipo. Por ahora es la candidata 0.1.0, con el gameplay sin cerrar.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8f/The_Fifth_Element%2C_video_game_cover_for_Playstation.jpg",
+    alt: "The Fifth Element (box art)",
+    credit: "Wikipedia",
+  },
 };

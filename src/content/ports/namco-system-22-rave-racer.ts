@@ -43,4 +43,9 @@ export const namcoSystem22RaveRacer: Port = {
     "Decompilation of the 1995 Namco arcade racer for PC. This one also needs the separate sound board ROM set (namcoc74.zip) alongside the game ROM.",
   notesEs:
     "Decompilación del arcade de carreras de Namco de 1995 para PC. Este además necesita el set de ROM de la placa de sonido (namcoc74.zip) junto con la ROM del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/3c/Rave_Racer_Flyer.png",
+    alt: "Rave Racer (box art)",
+    credit: "Wikipedia",
+  },
 };

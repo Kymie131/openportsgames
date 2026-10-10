@@ -31,4 +31,9 @@ export const openapoc: Port = {
       credit: "openApoc",
     },
   ],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/05/XCom_Apoc.jpg",
+    alt: "X-COM: Apocalypse (box art)",
+    credit: "Wikipedia",
+  },
 };

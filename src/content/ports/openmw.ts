@@ -64,4 +64,9 @@ export const openmw: Port = {
       "Inicia el juego desde el lanzador; OpenMW reproduce los recursos originales con renderizado moderno.",
     ],
   },
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/53/MorrowindCOVER.jpg",
+    alt: "The Elder Scrolls III: Morrowind (box art)",
+    credit: "Wikipedia",
+  },
 };

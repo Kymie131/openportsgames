@@ -23,4 +23,9 @@ export const burnoutRevengeRecomp: Port = {
     "Recompilation of Burnout Revenge (Xbox 360) to native Windows and Linux. It requires your own copy of the game.",
   notesEs:
     "Recompilación de Burnout Revenge (Xbox 360) a Windows y Linux nativos. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/cb/Revenge_boxart.jpg",
+    alt: "Burnout Revenge (box art)",
+    credit: "Wikipedia",
+  },
 };

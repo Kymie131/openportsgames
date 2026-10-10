@@ -23,4 +23,9 @@ export const raymanOriginsRecomp: Port = {
     "Recompilation of Rayman Origins (Xbox 360) that builds for Windows, macOS and Android. It requires your own copy of the game.",
   notesEs:
     "Recompilación de Rayman Origins (Xbox 360) que compila para Windows, macOS y Android. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7f/Rayman_Origins_Box_Art.jpg",
+    alt: "Rayman Origins (box art)",
+    credit: "Wikipedia",
+  },
 };

@@ -50,4 +50,9 @@ export const openMohaa: Port = {
       credit: "OpenMoHAA",
     },
   ],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d9/Medal_of_Honor_-_Allied_Assault_Coverart.png",
+    alt: "Medal of Honor: Allied Assault (box art)",
+    credit: "Wikipedia",
+  },
 };

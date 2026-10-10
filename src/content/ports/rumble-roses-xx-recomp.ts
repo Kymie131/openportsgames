@@ -23,4 +23,9 @@ export const rumbleRosesXxRecomp: Port = {
     "Recompilation of Rumble Roses XX (Xbox 360) for Windows. It needs the original game and does not bundle any content.",
   notesEs:
     "Recompilación de Rumble Roses XX (Xbox 360) para Windows. Necesita el juego original y no incluye ningún contenido.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/1a/Rumble_Roses_XX.jpg",
+    alt: "Rumble Roses XX (box art)",
+    credit: "Wikipedia",
+  },
 };

@@ -59,4 +59,9 @@ export const eduke32: Port = {
       "Ejecuta eduke32 o el editor mapster; los datos del juego se leen desde la misma carpeta.",
     ],
   },
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/61/Duke_Nukem_3D_Coverart.png",
+    alt: "Duke Nukem 3D (box art)",
+    credit: "Wikipedia",
+  },
 };

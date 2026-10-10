@@ -23,4 +23,9 @@ export const gearsOfWar3Jacinto: Port = {
     "Project Jacinto brings the Xbox 360 version of Gears of War 3 to PC from a cancelled development build. The base port is shared through the community rather than a public repository, and this page collects the fixes and tools built around it.",
   notesEs:
     "Project Jacinto lleva la versión de Xbox 360 de Gears of War 3 a PC a partir de una build de desarrollo cancelada. El port base se comparte a través de la comunidad y no de un repositorio público, y esta página reúne los arreglos y herramientas creados a su alrededor.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/dc/Gears_of_War_3_box_artwork.png",
+    alt: "Gears of War 3 (box art)",
+    credit: "Wikipedia",
+  },
 };

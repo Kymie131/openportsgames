@@ -23,4 +23,9 @@ export const eternalSonataReprise: Port = {
     "Static recompilation of Eternal Sonata (Xbox 360) with ReXGlue. It converts the PPC executable to native x86_64 and wraps it in a small host runtime with overlays and hooks for mods; builds for Windows, Linux, macOS and Android.",
   notesEs:
     "Recompilación estática de Eternal Sonata (Xbox 360) con ReXGlue. Convierte el ejecutable PPC en código x86_64 nativo y lo envuelve en un runtime propio con overlays y hooks para mods; builds para Windows, Linux, macOS y Android.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/aa/Eternal_Sonata.jpg",
+    alt: "Eternal Sonata (box art)",
+    credit: "Wikipedia",
+  },
 };

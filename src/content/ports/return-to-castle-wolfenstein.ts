@@ -29,4 +29,9 @@ export const rtcWolfenstein: Port = {
       credit: "iortcw",
     },
   ],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b0/Return_to_Castle_Wolfenstein_Coverart.jpg",
+    alt: "Return to Castle Wolfenstein (box art)",
+    credit: "Wikipedia",
+  },
 };

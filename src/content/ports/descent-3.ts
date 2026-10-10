@@ -23,4 +23,9 @@ export const descent3: Port = {
     "Official open-source release of Descent 3 published by the Descent Developers, with builds for Windows, Linux and macOS. It needs the retail game data to play.",
   notesEs:
     "Publicación de código abierto oficial de Descent 3 por los Descent Developers, con builds para Windows, Linux y macOS. Necesita los datos del juego comercial para jugar.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b2/D3_Box_Art.jpg",
+    alt: "Descent 3 (box art)",
+    credit: "Wikipedia",
+  },
 };

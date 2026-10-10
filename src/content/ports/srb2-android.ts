@@ -23,4 +23,9 @@ export const srb2Android: Port = {
     "Android build of Sonic Robo Blast 2, the free 3D Sonic fangame based on a modified Doom Legacy engine. It is a standalone game and needs no original assets.",
   notesEs:
     "Build para Android de Sonic Robo Blast 2, el fangame 3D gratuito de Sonic basado en una versión modificada del motor Doom Legacy. Es un juego independiente y no necesita recursos originales.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6d/Srb2_22_title.png",
+    alt: "Sonic Robo Blast 2 (box art)",
+    credit: "Wikipedia",
+  },
 };

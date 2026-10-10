@@ -23,4 +23,9 @@ export const lookingGlassAlice: Port = {
     "Rust reimplementation of American McGee's Alice that runs the full campaign on Windows with controller support and modern display options. It is an experimental preview and needs your own game data.",
   notesEs:
     "Reimplementación en Rust de American McGee's Alice que ejecuta la campaña completa en Windows con soporte de mando y opciones de pantalla modernas. Es una preview experimental y necesita tus propios datos del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a9/American_McGee_Alice_cover.png",
+    alt: "American McGee's Alice (box art)",
+    credit: "Wikipedia",
+  },
 };

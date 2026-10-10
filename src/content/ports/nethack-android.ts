@@ -23,4 +23,9 @@ export const nethackAndroid: Port = {
     "Android port of NetHack, the classic open-source roguelike. It is a standalone build that does not need the original game.",
   notesEs:
     "Port a Android de NetHack, el roguelike clásico de código abierto. Es una build independiente que no necesita el juego original.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/d/d6/NetHack.png",
+    alt: "NetHack (box art)",
+    credit: "Wikipedia",
+  },
 };

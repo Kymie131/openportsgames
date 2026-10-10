@@ -23,4 +23,9 @@ export const gtaIvLibertyRecomp: Port = {
     "Recompilation of the Xbox 360 Grand Theft Auto IV with a ReXGlue SDK fork, in early development. It targets Windows, Linux, macOS and Android (plus iOS and Switch) to bring the game to platforms it never reached.",
   notesEs:
     "Recompilación del GTA IV de Xbox 360 con un fork del SDK ReXGlue, en desarrollo temprano. Apunta a Windows, Linux, macOS y Android (además de iOS y Switch) para llevar el juego a plataformas donde nunca salió.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b7/Grand_Theft_Auto_IV_cover.jpg",
+    alt: "Grand Theft Auto IV (box art)",
+    credit: "Wikipedia",
+  },
 };

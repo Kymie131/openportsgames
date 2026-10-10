@@ -58,4 +58,9 @@ export const fh2: Port = {
       credit: "fheroes2",
     },
   ],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/90/Heroes_2_cover.jpg",
+    alt: "Heroes of Might and Magic II (box art)",
+    credit: "Wikipedia",
+  },
 };

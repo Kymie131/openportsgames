@@ -23,4 +23,9 @@ export const starboundAndroid: Port = {
     "OpenStarbound port to mobile devices, bringing the Starbound sandbox to Android. It needs your own copy of the game.",
   notesEs:
     "Port de OpenStarbound a dispositivos móviles, que lleva el sandbox Starbound a Android. Necesita tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/0/06/Starbound_Logo.png",
+    alt: "Starbound (box art)",
+    credit: "Wikipedia",
+  },
 };

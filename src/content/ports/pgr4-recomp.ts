@@ -23,4 +23,9 @@ export const pgr4Recomp: Port = {
     "Static recompilation of Project Gotham Racing 4 (Xbox 360) with ReXGlue. It requires your own copy of the game.",
   notesEs:
     "Recompilación estática de Project Gotham Racing 4 (Xbox 360) con ReXGlue. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/88/PGR4boxart.jpg",
+    alt: "Project Gotham Racing 4 (box art)",
+    credit: "Wikipedia",
+  },
 };

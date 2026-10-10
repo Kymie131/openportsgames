@@ -23,4 +23,9 @@ export const exitRecomp: Port = {
     "Static recompilation of EXIT (Xbox 360) with ReXGlue. It requires your own copy of the game.",
   notesEs:
     "Recompilación estática de EXIT (Xbox 360) con ReXGlue. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/11/Exit-cover.jpg",
+    alt: "EXIT (box art)",
+    credit: "Wikipedia",
+  },
 };

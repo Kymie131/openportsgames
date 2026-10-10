@@ -48,4 +48,9 @@ export const shipOfHarkinian: Port = {
       "Lanza el port; los datos del juego se leen localmente desde oot.otr y nunca se redistribuyen.",
     ],
   },
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7a/OcarinaofTime2026.jpeg",
+    alt: "The Legend of Zelda: Ocarina of Time (box art)",
+    credit: "Wikipedia",
+  },
 };

@@ -23,4 +23,9 @@ export const cod4Ios: Port = {
     "Community port of Call of Duty 4: Modern Warfare for iOS, with an additional build for Nintendo Switch. It needs your own copy of the game.",
   notesEs:
     "Port comunitario de Call of Duty 4: Modern Warfare para iOS, con una build adicional para Nintendo Switch. Necesita tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5f/Call_of_Duty_4_Modern_Warfare.jpg",
+    alt: "Call of Duty 4: Modern Warfare (box art)",
+    credit: "Wikipedia",
+  },
 };

@@ -32,4 +32,9 @@ export const openTesaArena: Port = {
       credit: "OpenTESArena",
     },
   ],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/89/Elder_Scrolls_Arena_Cover.jpg",
+    alt: "The Elder Scrolls: Arena (box art)",
+    credit: "Wikipedia",
+  },
 };

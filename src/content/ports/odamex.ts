@@ -41,4 +41,9 @@ export const odamexPort: Port = {
       credit: "odamex",
     },
   ],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg",
+    alt: "Doom (box art)",
+    credit: "Wikipedia",
+  },
 };

@@ -23,4 +23,9 @@ export const slashemAndroid: Port = {
     "Android port of SLASH'EM, the NetHack variant known for its expanded classes and items. It is a standalone build that does not need the original game.",
   notesEs:
     "Port a Android de SLASH'EM, la variante de NetHack conocida por sus clases y objetos ampliados. Es una build independiente que no necesita el juego original.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Slash%27_EM.jpg",
+    alt: "SLASH'EM (box art)",
+    credit: "Wikipedia",
+  },
 };

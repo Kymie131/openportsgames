@@ -23,4 +23,9 @@ export const stardewCinderbox: Port = {
     "Native Android launcher for the desktop version of Stardew Valley, distributed as Cinderbox. It requires your own copy of the game.",
   notesEs:
     "Lanzador nativo para Android de la versión de escritorio de Stardew Valley, distribuido como Cinderbox. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/fd/Logo_of_Stardew_Valley.png",
+    alt: "Stardew Valley (box art)",
+    credit: "Wikipedia",
+  },
 };

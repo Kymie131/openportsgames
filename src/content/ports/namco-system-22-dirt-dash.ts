@@ -43,4 +43,9 @@ export const namcoSystem22DirtDash: Port = {
     "Decompilation of the 1995 Namco arcade rally game for PC. All five tracks are finished, which is more than the arcade original shipped with.",
   notesEs:
     "Decompilación del juego arcade de rally de Namco de 1995 para PC. Las cinco pistas están terminadas, más de las que incluía el arcade original.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/df/Dirt_Dash_arcade_flyer.jpg",
+    alt: "Dirt Dash (box art)",
+    credit: "Wikipedia",
+  },
 };

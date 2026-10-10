@@ -41,4 +41,9 @@ export const dusklight: Port = {
     "From-scratch reimplementation of The Legend of Zelda: Twilight Princess that reads the game's assets from a legally dumped copy of the game disc. Ships official builds for every catalog platform, with the Android build compiled for ARM64; some platforms are supported on a best-effort basis.",
   notesEs:
     "Reimplementación desde cero de The Legend of Zelda: Twilight Princess que lee los recursos del juego de una copia volcada legalmente del disco. Ofrece builds oficiales para todas las plataformas del catálogo, con la de Android compilada para ARM64; algunas plataformas se soportan sin garantía.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0e/The_Legend_of_Zelda_Twilight_Princess_Game_Cover.jpg",
+    alt: "The Legend of Zelda: Twilight Princess (box art)",
+    credit: "Wikipedia",
+  },
 };

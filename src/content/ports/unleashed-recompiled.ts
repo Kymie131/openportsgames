@@ -42,4 +42,9 @@ export const unleashedRecompiled: Port = {
     "Native Windows and Linux port of Sonic Unleashed produced by statically recompiling the Xbox 360 PowerPC binary. Requires the game dump from a disc or digital copy you own; the project does not publish one and disclaims any affiliation with its author. Released by the hedge-dev team behind HedgeDev.",
   notesEs:
     "Port nativo para Windows y Linux de Sonic Unleashed producido recompilando estáticamente el binario PowerPC de Xbox 360. Requiere el volcado del juego de un disco o copia digital que poseas; el proyecto no publica ninguno y declara no tener afiliación con su autor. Publicado por el equipo hedge-dev detrás de HedgeDev.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a0/Sonic_unleashed_boxart.jpg",
+    alt: "Sonic Unleashed (box art)",
+    credit: "Wikipedia",
+  },
 };

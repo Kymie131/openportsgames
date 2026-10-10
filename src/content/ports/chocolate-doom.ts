@@ -46,4 +46,9 @@ export const chocolateDoom: Port = {
     "Minimalist Doom source port that aims to stay faithful to vanilla Doom while running on modern systems. Published binaries cover Windows and macOS; other systems are built from source.",
   notesEs:
     "Port de código fuente minimalista de Doom que busca mantenerse fiel al Doom original sobre sistemas modernos. Los binarios publicados cubren Windows y macOS; el resto de sistemas se compilan desde el código.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg",
+    alt: "Doom (box art)",
+    credit: "Wikipedia",
+  },
 };

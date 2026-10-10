@@ -23,4 +23,9 @@ export const cs16Client: Port = {
     "Reverse-engineered client for Counter-Strike 1.6 aimed at mobile and other unsupported platforms. It runs the original game data and ships builds for Android, Windows and Linux.",
   notesEs:
     "Cliente reversado de Counter-Strike 1.6 pensado para móviles y otras plataformas no soportadas. Ejecuta los datos del juego original e incluye builds para Android, Windows y Linux.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/67/Counter-Strike_Box.jpg",
+    alt: "Counter-Strike (box art)",
+    credit: "Wikipedia",
+  },
 };

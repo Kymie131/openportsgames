@@ -23,4 +23,9 @@ export const voyagerEliteForceAndroid: Port = {
     "Android single-player port of Star Trek: Voyager - Elite Force, built on idTech3/Quake3e with a Vulkan renderer. It needs the original game files.",
   notesEs:
     "Port a Android para un jugador de Star Trek: Voyager - Elite Force, construido sobre idTech3/Quake3e con renderizador Vulkan. Necesita los archivos del juego original.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/48/Star_Trek_Voyager_Elite_Force.jpg",
+    alt: "Star Trek: Voyager - Elite Force (box art)",
+    credit: "Wikipedia",
+  },
 };

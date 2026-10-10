@@ -47,4 +47,9 @@ export const devilutionX: Port = {
       "Lanza devilutionx; el motor moderno ejecuta los datos originales del juego.",
     ],
   },
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/3a/Diablo_Coverart.png",
+    alt: "Diablo (box art)",
+    credit: "Wikipedia",
+  },
 };

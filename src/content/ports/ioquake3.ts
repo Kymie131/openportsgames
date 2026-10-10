@@ -29,4 +29,9 @@ export const ioquake3: Port = {
       credit: "ioquake",
     },
   ],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a1/Quake3Title.jpg",
+    alt: "Quake III Arena (box art)",
+    credit: "Wikipedia",
+  },
 };

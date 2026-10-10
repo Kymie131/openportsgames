@@ -30,4 +30,9 @@ export const youdontknowjackRecomp: Port = {
       credit: "sp00nznet/youdontknowjack",
     },
   ],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d2/You_Don%27t_Know_Jack_%281995%29_cover.jpg",
+    alt: "You Don't Know Jack (box art)",
+    credit: "Wikipedia",
+  },
 };

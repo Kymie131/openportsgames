@@ -57,4 +57,9 @@ export const triAevum: Port = {
     "Native recompilation of The Legend of Zelda: Ocarina of Time 3D from the Nintendo 3DS version. The README states the project's development is entirely AI-assisted under human direction. The follow-up 0.6.0-alpha.3b release was withdrawn by the author; the catalog lists the last usable release. Requires a decrypted ROM from a copy the player owns.",
   notesEs:
     "Recompilación nativa de The Legend of Zelda: Ocarina of Time 3D a partir de la versión de Nintendo 3DS. El README afirma que el desarrollo del proyecto es totalmente asistido por IA bajo dirección humana. La release posterior 0.6.0-alpha.3b fue retirada por el autor; el catálogo lista la última release utilizable. Requiere una ROM descifrada de una copia que posea el jugador.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/30/The_Legend_of_Zelda_Ocarina_of_Time_3D_box_art.png",
+    alt: "The Legend of Zelda: Ocarina of Time 3D (box art)",
+    credit: "Wikipedia",
+  },
 };

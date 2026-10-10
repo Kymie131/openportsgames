@@ -30,4 +30,9 @@ export const tokyoJungleRecompiled: Port = {
       credit: "sp00nznet/tokyojungle",
     },
   ],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8b/Tokyo_Jungle_Official_Cover_Art.png",
+    alt: "Tokyo Jungle (box art)",
+    credit: "Wikipedia",
+  },
 };

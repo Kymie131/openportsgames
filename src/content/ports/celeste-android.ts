@@ -23,4 +23,9 @@ export const celesteAndroid: Port = {
     "Native Android port of Celeste that runs your own PC copy, built with .NET, FNA and SDL3 and rendered with Vulkan. It includes a launcher to import the game.",
   notesEs:
     "Port nativo para Android de Celeste que ejecuta tu propia copia de PC, construido con .NET, FNA y SDL3 y renderizado con Vulkan. Incluye un lanzador para importar el juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Celeste_box_art_full.png",
+    alt: "Celeste (box art)",
+    credit: "Wikipedia",
+  },
 };

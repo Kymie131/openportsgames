@@ -23,4 +23,9 @@ export const sdlpal: Port = {
     "SDL-based reimplementation of the Chinese RPG PAL (The Legend of Sword and Fairy). It runs the original data files on modern systems, with builds for Windows, Linux, macOS and Android.",
   notesEs:
     "Reimplementación basada en SDL del RPG chino PAL (The Legend of Sword and Fairy). Ejecuta los archivos de datos originales en sistemas modernos, con builds para Windows, Linux, macOS y Android.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/de/LSF_cover.jpg",
+    alt: "The Legend of Sword and Fairy (box art)",
+    credit: "Wikipedia",
+  },
 };

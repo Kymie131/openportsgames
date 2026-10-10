@@ -113,9 +113,7 @@ export function PortDetail({
         </header>
       </div>
 
-      {port.screenshots && port.screenshots.length > 0 ? (
-        <PortGallery screenshots={port.screenshots} originalSystem={originalSystem} />
-      ) : port.cover ? (
+      {port.cover ? (
         <figure className="relative">
           <ScreenshotFrame
             src={port.cover.src}
@@ -126,6 +124,8 @@ export function PortDetail({
           />
           <ConsoleBadge system={originalSystem} />
         </figure>
+      ) : port.screenshots && port.screenshots.length > 0 ? (
+        <PortGallery screenshots={port.screenshots} originalSystem={originalSystem} />
       ) : (
         <figure className="relative flex aspect-video items-center justify-center overflow-hidden rounded-xl border border-border bg-gradient-to-br from-surface-2 to-surface">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,color-mix(in_srgb,var(--accent)_12%,transparent)_0%,transparent_65%)]" />

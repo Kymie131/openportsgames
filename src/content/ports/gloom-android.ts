@@ -23,4 +23,9 @@ export const gloomAndroid: Port = {
     "Modern source port of the Amiga FPS Gloom with an improved renderer, focused on Android. It needs the original game data.",
   notesEs:
     "Source port moderno del FPS de Amiga Gloom con un renderizador mejorado, centrado en Android. Necesita los datos del juego original.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/fb/Gloom_front.jpg",
+    alt: "Gloom (box art)",
+    credit: "Wikipedia",
+  },
 };

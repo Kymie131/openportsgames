@@ -43,4 +43,9 @@ export const rsdkv3Decompilation: Port = {
       credit: "RSDK Modding",
     },
   ],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e1/Sonic_CD_North_American_cover_art.jpg",
+    alt: "Sonic CD (box art)",
+    credit: "Wikipedia",
+  },
 };

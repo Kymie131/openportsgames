@@ -23,4 +23,9 @@ export const socom2Recomp: Port = {
     "Static recompilation of SOCOM II: U.S. Navy SEALs (PlayStation 2) to PC, with self-hosted online play. It requires your own copy of the game.",
   notesEs:
     "Recompilación estática de SOCOM II: U.S. Navy SEALs (PlayStation 2) para PC, con juego en línea autoalojado. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d0/Socom_2_Box_Art.jpg",
+    alt: "SOCOM II: U.S. Navy SEALs (box art)",
+    credit: "Wikipedia",
+  },
 };

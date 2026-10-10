@@ -23,4 +23,9 @@ export const ftlPocketWormhole: Port = {
     "Native Android port of Project Wormhole, the open-source FTL engine implementation. It runs FTL: Faster Than Light on Android using your own game files.",
   notesEs:
     "Port nativo para Android de Project Wormhole, la implementación libre del motor de FTL. Ejecuta FTL: Faster Than Light en Android usando tus propios archivos del juego.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/FTL_Faster_Than_Light_Logo.svg/960px-FTL_Faster_Than_Light_Logo.svg.png",
+    alt: "FTL: Faster Than Light (box art)",
+    credit: "Wikipedia",
+  },
 };

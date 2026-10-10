@@ -23,4 +23,9 @@ export const callOfDuty3Recomp: Port = {
     "Recompilation of Call of Duty 3 (Xbox 360) to native Windows. It requires your own copy of the game.",
   notesEs:
     "Recompilación de Call of Duty 3 (Xbox 360) a Windows nativo. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/51/Call_of_Duty_3_Game_Cover.jpg",
+    alt: "Call of Duty 3 (box art)",
+    credit: "Wikipedia",
+  },
 };

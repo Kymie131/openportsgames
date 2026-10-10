@@ -31,4 +31,9 @@ export const openFodder: Port = {
       credit: "OpenFodder",
     },
   ],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5e/Cannon_fodder_box_art.jpg",
+    alt: "Cannon Fodder (box art)",
+    credit: "Wikipedia",
+  },
 };

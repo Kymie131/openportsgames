@@ -51,4 +51,9 @@ export const nBlood: Port = {
       credit: "nukeykt",
     },
   ],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/4d/Blood_logo.jpg",
+    alt: "Blood (box art)",
+    credit: "Wikipedia",
+  },
 };

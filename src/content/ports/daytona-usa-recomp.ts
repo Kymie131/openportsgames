@@ -23,4 +23,9 @@ export const daytonaUsaRecomp: Port = {
     "Recompilation of the Xbox Live Arcade release of Daytona USA to native Windows and Linux. It requires your own copy of the game.",
   notesEs:
     "Recompilación de la versión de Daytona USA para Xbox Live Arcade a ejecutables nativos de Windows y Linux. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c2/Daytona_USA_arcade_flyer.jpg",
+    alt: "Daytona USA (box art)",
+    credit: "Wikipedia",
+  },
 };

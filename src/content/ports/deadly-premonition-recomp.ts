@@ -23,4 +23,9 @@ export const deadlyPremonitionRecomp: Port = {
     "Static recompilation of Deadly Premonition (Xbox 360) with ReXGlue. It requires your own copy of the game.",
   notesEs:
     "Recompilación estática de Deadly Premonition (Xbox 360) con ReXGlue. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c5/Deadly_Premonition_cover_art.jpg",
+    alt: "Deadly Premonition (box art)",
+    credit: "Wikipedia",
+  },
 };

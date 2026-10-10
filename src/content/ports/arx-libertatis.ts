@@ -35,4 +35,9 @@ export const arxLibertatis: Port = {
     "Cross-platform source port of the first-person RPG Arx Fatalis. A free playable experience is possible using the game demo.",
   notesEs:
     "Port de código fuente multiplataforma del RPG en primera persona Arx Fatalis. Puede jugarse gratis usando la demo del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/3c/Arx_Fatalis_cover.png",
+    alt: "Arx Fatalis (box art)",
+    credit: "Wikipedia",
+  },
 };

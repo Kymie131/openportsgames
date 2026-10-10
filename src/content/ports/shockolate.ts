@@ -32,4 +32,9 @@ export const shockolate: Port = {
       credit: "Interrupt",
     },
   ],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6b/System_Shock_remake_cover.jpg",
+    alt: "System Shock (box art)",
+    credit: "Wikipedia",
+  },
 };

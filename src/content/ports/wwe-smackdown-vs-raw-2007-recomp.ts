@@ -23,4 +23,9 @@ export const wweSmackdownVsRaw2007Recomp: Port = {
     "Static recompilation of WWE SmackDown vs. Raw 2007 (Xbox 360) with ReXGlue. It requires your own copy of the game.",
   notesEs:
     "Recompilación estática de WWE SmackDown vs. Raw 2007 (Xbox 360) con ReXGlue. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/62/WWE_SmackDown_vs._Raw_2007.jpg",
+    alt: "WWE SmackDown vs. Raw 2007 (box art)",
+    credit: "Wikipedia",
+  },
 };

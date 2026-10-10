@@ -23,4 +23,9 @@ export const openjkdf2: Port = {
     "Function-by-function reimplementation of Star Wars Jedi Knight: Dark Forces II in C, with 64-bit builds for Windows, macOS and Linux. It ships no game assets and requires a valid copy of the original.",
   notesEs:
     "Reimplementación función a función de Star Wars Jedi Knight: Dark Forces II en C, con builds de 64 bits para Windows, macOS y Linux. No incluye recursos del juego y requiere una copia válida del original.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/2f/JediKnight-cover.jpg",
+    alt: "Star Wars Jedi Knight: Dark Forces II (box art)",
+    credit: "Wikipedia",
+  },
 };

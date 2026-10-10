@@ -23,4 +23,9 @@ export const midnightClubLaRecomp: Port = {
     "Recompilation of Midnight Club: Los Angeles (Xbox 360) for Windows. It needs your own copy of the game.",
   notesEs:
     "Recompilación de Midnight Club: Los Angeles (Xbox 360) para Windows. Necesita tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/ea/Midnight_Club-Los_Angeles.jpg",
+    alt: "Midnight Club: Los Angeles (box art)",
+    credit: "Wikipedia",
+  },
 };

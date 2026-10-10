@@ -32,4 +32,9 @@ export const nxEngine: Port = {
     "Refactored continuation of NxEngine, a native engine recreation of the freeware original Cave Story. The repository's official release predates recent commits; builds also track master.",
   notesEs:
     "Continuación refactorizada de NxEngine, una recreación nativa del motor gratuito original de Cave Story. La release oficial del repositorio es anterior a commits recientes; las builds también siguen master.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/83/Cave_Story_title_screen.png",
+    alt: "Cave Story (box art)",
+    credit: "Wikipedia",
+  },
 };

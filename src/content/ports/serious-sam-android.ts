@@ -23,4 +23,9 @@ export const seriousSamAndroid: Port = {
     "Android port of Serious Sam: The First Encounter and The Second Encounter, built on the released Serious Engine source. It needs the original game files.",
   notesEs:
     "Port a Android de Serious Sam: The First Encounter y The Second Encounter, construido sobre el código liberado del motor Serious Engine. Necesita los archivos del juego original.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b4/Serious_Sam_-_The_First_Encounter.jpg",
+    alt: "Serious Sam: The First Encounter (box art)",
+    credit: "Wikipedia",
+  },
 };

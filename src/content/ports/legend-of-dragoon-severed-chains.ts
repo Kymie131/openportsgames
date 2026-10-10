@@ -23,4 +23,9 @@ export const legendOfDragoonSeveredChains: Port = {
     "Severed Chains ports The Legend of Dragoon to PC, macOS and Linux from a reverse-engineered codebase. It adds modern options and needs your own disc.",
   notesEs:
     "Severed Chains lleva The Legend of Dragoon a PC, macOS y Linux a partir de un código reversado. Añade opciones modernas y necesita tu propio disco.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/32/Legend_of_Dragoon.jpg",
+    alt: "The Legend of Dragoon (box art)",
+    credit: "Wikipedia",
+  },
 };

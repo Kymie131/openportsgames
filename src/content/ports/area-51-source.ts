@@ -23,4 +23,9 @@ export const area51Source: Port = {
     "Preservation project working to make the leaked Area 51 (2005) PC source buildable on modern systems. Note: it uses the leaked source, is not yet playable, and needs the retail game data.",
   notesEs:
     "Proyecto de preservación que busca hacer compilable en sistemas modernos la fuente filtrada de Area 51 (2005) para PC. Aviso: usa la fuente filtrada, todavía no es jugable y necesita los datos del juego comercial.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5f/Area_51_cover_art.jpg",
+    alt: "Area 51 (box art)",
+    credit: "Wikipedia",
+  },
 };

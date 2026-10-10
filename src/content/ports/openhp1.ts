@@ -23,4 +23,9 @@ export const openhp1: Port = {
     "Open reimplementation of the PC version of Harry Potter and the Philosopher's Stone. It requires the original game files to run.",
   notesEs:
     "Reimplementación libre de la versión de PC de Harry Potter y la piedra filosofal. Requiere los archivos del juego original para funcionar.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/55/HarryPotterPhilosophersStoneGameEuroArtwork.jpg",
+    alt: "Harry Potter and the Philosopher's Stone (box art)",
+    credit: "Wikipedia",
+  },
 };

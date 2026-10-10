@@ -23,4 +23,9 @@ export const jazz2Native: Port = {
     "Open-source reimplementation of Jazz Jackrabbit 2 in C++, covering the shareware demo, Holiday Hare '98, The Secret Files and Christmas Chronicles, with some JJ2+ and MLLE features. Builds run on Windows, Linux, macOS and Android and use your own game files.",
   notesEs:
     "Reimplementación libre de Jazz Jackrabbit 2 en C++, que cubre la demo shareware, Holiday Hare '98, The Secret Files y Christmas Chronicles, con algunas funciones de JJ2+ y MLLE. Sus builds funcionan en Windows, Linux, macOS y Android y usan tus propios archivos del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f0/Jazz_Jackrabbit_2.PNG",
+    alt: "Jazz Jackrabbit 2 (box art)",
+    credit: "Wikipedia",
+  },
 };

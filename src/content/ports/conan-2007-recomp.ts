@@ -23,4 +23,9 @@ export const conan2007Recomp: Port = {
     "Recompilation of the 2007 Conan game (Xbox 360) to a native Windows executable. You must supply your own copy.",
   notesEs:
     "Recompilación del juego Conan de 2007 (Xbox 360) a un ejecutable nativo para Windows. Debes aportar tu propia copia.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d7/Conan_%282004_video_game%29.jpg",
+    alt: "Conan (box art)",
+    credit: "Wikipedia",
+  },
 };

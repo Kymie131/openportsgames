@@ -23,4 +23,9 @@ export const prisonArchitectAndroid: Port = {
     "Android launcher for Prison Architect, based on the desktop game. It needs your own copy of the game files.",
   notesEs:
     "Lanzador para Android de Prison Architect, basado en el juego de escritorio. Necesita tu propia copia de los archivos del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7b/Prison_Architect_Logo.jpg",
+    alt: "Prison Architect (box art)",
+    credit: "Wikipedia",
+  },
 };

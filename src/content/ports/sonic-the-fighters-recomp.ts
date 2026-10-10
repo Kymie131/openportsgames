@@ -23,4 +23,9 @@ export const sonicTheFightersRecomp: Port = {
     "Native Windows port of the Xbox Live Arcade version of Sonic the Fighters through recompilation, with no Xbox 360 emulation. It requires your own copy of the game.",
   notesEs:
     "Port nativo para Windows de la versión de Sonic the Fighters para Xbox Live Arcade mediante recompilación, sin emulación de Xbox 360. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5b/Sonic_the_Fighters.png",
+    alt: "Sonic the Fighters (box art)",
+    credit: "Wikipedia",
+  },
 };

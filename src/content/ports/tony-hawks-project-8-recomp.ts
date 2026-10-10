@@ -23,4 +23,9 @@ export const tonyHawksProject8Recomp: Port = {
     "Static recompilation of Tony Hawk's Project 8 (Xbox 360) with ReXGlue. It requires your own copy of the game.",
   notesEs:
     "Recompilación estática de Tony Hawk's Project 8 (Xbox 360) con ReXGlue. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8c/Tony_Hawk%27s_Project_8_cover.jpg",
+    alt: "Tony Hawk's Project 8 (box art)",
+    credit: "Wikipedia",
+  },
 };

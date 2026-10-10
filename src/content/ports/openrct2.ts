@@ -32,4 +32,9 @@ export const openRct2: Port = {
     "Open source reimplementation of RollerCoaster Tycoon 2, expanding the original. Requires the original RCT2 game files.",
   notesEs:
     "Reimplementación de código abierto de RollerCoaster Tycoon 2 que amplía el original. Requiere los archivos del juego original de RCT2.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e4/RollerCoaster_Tycoon_2_%28boxart%29.jpg",
+    alt: "RollerCoaster Tycoon 2 (box art)",
+    credit: "Wikipedia",
+  },
 };

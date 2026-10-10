@@ -23,4 +23,9 @@ export const streetFighterIii3rdStrike3sx: Port = {
     "Static recompilation of Street Fighter III: 3rd Strike (PlayStation 2) with ReXGlue. It requires your own copy of the game.",
   notesEs:
     "Recompilación estática de Street Fighter III: 3rd Strike (PlayStation 2) con ReXGlue. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e6/Street_Fighter_III_3rd_Strike_%28flyer%29.png",
+    alt: "Street Fighter III: 3rd Strike (box art)",
+    credit: "Wikipedia",
+  },
 };

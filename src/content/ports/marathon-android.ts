@@ -23,4 +23,9 @@ export const marathonAndroid: Port = {
     "Android port of the Aleph One engine, used to run the Marathon games with their original data. It builds on the open-source Aleph One codebase.",
   notesEs:
     "Port a Android del motor Aleph One, usado para ejecutar los juegos Marathon con sus datos originales. Se basa en el código abierto de Aleph One.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/87/Marathon_%28video_game%29.jpg",
+    alt: "Marathon (box art)",
+    credit: "Wikipedia",
+  },
 };

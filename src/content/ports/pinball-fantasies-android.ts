@@ -23,4 +23,9 @@ export const pinballFantasiesAndroid: Port = {
     "Decompilation and source port of the DOS pinball game Pinball Fantasies for Android, with touch controls. It requires the original game files.",
   notesEs:
     "Decompilación y source port para Android del pinball de DOS Pinball Fantasies, con controles táctiles. Requiere los archivos del juego original.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d9/Amiga_Pinball_Fantasies_cover_art.jpg",
+    alt: "Pinball Fantasies (box art)",
+    credit: "Wikipedia",
+  },
 };

@@ -31,4 +31,9 @@ export const openage: Port = {
       credit: "SFTtech/openage",
     },
   ],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/56/Age_of_Empires_II_-_The_Age_of_Kings_Coverart.png",
+    alt: "Age of Empires II (box art)",
+    credit: "Wikipedia",
+  },
 };

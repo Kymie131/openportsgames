@@ -23,4 +23,9 @@ export const voyagerEliteForceHolomatch: Port = {
     "Android port of the Holomatch multiplayer of Star Trek: Voyager - Elite Force, with Vulkan, touch controls and gamepad support. It needs the original game files.",
   notesEs:
     "Port a Android del multijugador Holomatch de Star Trek: Voyager - Elite Force, con Vulkan, controles táctiles y mando. Necesita los archivos del juego original.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/48/Star_Trek_Voyager_Elite_Force.jpg",
+    alt: "Star Trek: Voyager - Elite Force (box art)",
+    credit: "Wikipedia",
+  },
 };

@@ -23,4 +23,9 @@ export const playstationAllStarsRecomp: Port = {
     "Native PC port of PlayStation All-Stars Battle Royale (PS3) built with ps3recomp, still in active development. It needs your own copy of the game.",
   notesEs:
     "Port nativo para PC de PlayStation All-Stars Battle Royale (PS3) construido con ps3recomp, todavía en desarrollo activo. Necesita tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/ca/PlayStationAllStars.jpg",
+    alt: "PlayStation All-Stars Battle Royale (box art)",
+    credit: "Wikipedia",
+  },
 };

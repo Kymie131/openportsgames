@@ -45,4 +45,9 @@ export const donut: Port = {
       credit: "donut project",
     },
   ],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5f/The_Simpsons_Hit_and_Run_cover.png",
+    alt: "The Simpsons: Hit & Run (box art)",
+    credit: "Wikipedia",
+  },
 };

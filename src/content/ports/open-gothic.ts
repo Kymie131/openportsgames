@@ -35,4 +35,9 @@ export const openGothic: Port = {
       credit: "OpenGothic",
     },
   ],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/de/Gothic2cover.png",
+    alt: "Gothic II (box art)",
+    credit: "Wikipedia",
+  },
 };

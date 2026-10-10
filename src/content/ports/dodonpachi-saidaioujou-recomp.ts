@@ -23,4 +23,9 @@ export const dodonpachiSaidaioujouRecomp: Port = {
     "Static recompilation of the Xbox 360 version of DoDonPachi SaiDaiOuJou, a bullet-hell shooter by Cave. It runs as a native Windows executable and needs your own copy of the game.",
   notesEs:
     "Recompilación estática de la versión de Xbox 360 de DoDonPachi SaiDaiOuJou, un matamarcianos de Cave. Se ejecuta de forma nativa en Windows y necesita tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e1/DoDonPachi_SaiDaiOuJou_arcade_flyer.jpg",
+    alt: "DoDonPachi SaiDaiOuJou (box art)",
+    credit: "Wikipedia",
+  },
 };

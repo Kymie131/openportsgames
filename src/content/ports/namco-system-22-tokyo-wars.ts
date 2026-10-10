@@ -43,4 +43,9 @@ export const namcoSystem22TokyoWars: Port = {
     "Decompilation of the 1996 Namco arcade tank combat game for PC. Single ROM set, no separate sound board data required.",
   notesEs:
     "Decompilación del juego arcade de combate de tanques de Namco de 1996 para PC. Un único set de ROM, sin datos de placa de sonido aparte.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/94/TokyoWarsArcadeFlyer.jpg",
+    alt: "Tokyo Wars (box art)",
+    credit: "Wikipedia",
+  },
 };

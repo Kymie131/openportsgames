@@ -23,4 +23,9 @@ export const amphitere: Port = {
     "Android port of NetHack focused on dual-screen devices. It is a standalone build that does not need the original game.",
   notesEs:
     "Port a Android de NetHack centrado en dispositivos de doble pantalla. Es una build independiente que no necesita el juego original.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/d/d6/NetHack.png",
+    alt: "NetHack (box art)",
+    credit: "Wikipedia",
+  },
 };

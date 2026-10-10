@@ -43,4 +43,9 @@ export const doukutsuRs: Port = {
       credit: "doukutsu-rs",
     },
   ],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/83/Cave_Story_title_screen.png",
+    alt: "Cave Story (box art)",
+    credit: "Wikipedia",
+  },
 };

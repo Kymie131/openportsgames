@@ -23,4 +23,9 @@ export const vivaPinataRecomp: Port = {
     "Recompilation of the original Viva Piñata (Xbox 360) for Windows. It needs your own copy of the game.",
   notesEs:
     "Recompilación del Viva Piñata original (Xbox 360) para Windows. Necesita tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/1e/Viva_Pi%C3%B1ata_cover.jpg",
+    alt: "Viva Piñata (box art)",
+    credit: "Wikipedia",
+  },
 };

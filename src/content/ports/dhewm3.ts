@@ -30,4 +30,9 @@ export const dhewm3: Port = {
     "Source port of Doom 3 that keeps the original gameplay with bugfixes, widescreen support, 64-bit builds, EFX sound, mod-independent settings and gamepad support. Requires the original game data.",
   notesEs:
     "Port de código fuente de Doom 3 que conserva la jugabilidad original con correcciones, soporte panorámico, builds de 64 bits, sonido EFX, ajustes independientes de los mods y soporte de mando. Requiere los datos del juego original.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/4e/Doom3box.jpg",
+    alt: "Doom 3 (box art)",
+    credit: "Wikipedia",
+  },
 };

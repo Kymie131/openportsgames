@@ -23,4 +23,9 @@ export const blueDroid: Port = {
     "Android recompilation of Blue Dragon (Xbox 360), separate from the desktop reblue project. It is an early build that needs your own copy of the game.",
   notesEs:
     "Recompilación para Android de Blue Dragon (Xbox 360), distinta del proyecto reblue de escritorio. Es una build temprana que necesita tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f7/Blue_Dragon_Box_Art.jpeg",
+    alt: "Blue Dragon (box art)",
+    credit: "Wikipedia",
+  },
 };

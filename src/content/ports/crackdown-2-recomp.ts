@@ -23,4 +23,9 @@ export const crackdown2Recomp: Port = {
     "Recompilation of Crackdown 2 (Xbox 360) to a native Windows executable. As with the project for the first game, you must supply your own copy.",
   notesEs:
     "Recompilación de Crackdown 2 (Xbox 360) a un ejecutable nativo para Windows. Igual que en el proyecto del primer juego, debes aportar tu propia copia.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/31/Crackdown2Cover.jpg",
+    alt: "Crackdown 2 (box art)",
+    credit: "Wikipedia",
+  },
 };

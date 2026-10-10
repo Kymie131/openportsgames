@@ -23,4 +23,9 @@ export const project1944Recomp: Port = {
     "A separate recompilation of Call of Duty 3 (Xbox 360) by another developer. It builds for Windows and needs your own copy of the game.",
   notesEs:
     "Una recompilación distinta de Call of Duty 3 (Xbox 360) hecha por otro desarrollador. Compila para Windows y necesita tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/51/Call_of_Duty_3_Game_Cover.jpg",
+    alt: "Call of Duty 3 (box art)",
+    credit: "Wikipedia",
+  },
 };

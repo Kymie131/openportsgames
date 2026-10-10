@@ -23,4 +23,9 @@ export const valdroid: Port = {
     "Unofficial Android launcher for Valheim. It requires the desktop game files from your own copy.",
   notesEs:
     "Lanzador no oficial para Android de Valheim. Requiere los archivos del juego de escritorio de tu propia copia.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/77/Valheim_2021_logo.jpg",
+    alt: "Valheim (box art)",
+    credit: "Wikipedia",
+  },
 };

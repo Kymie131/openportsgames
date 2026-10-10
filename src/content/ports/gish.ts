@@ -23,4 +23,9 @@ export const gish: Port = {
     "Android port of the physics platformer Gish, built on SDL2, OpenAL and GL4ES. It uses the game's released source and needs the original data files.",
   notesEs:
     "Port a Android del plataformas físico Gish, construido sobre SDL2, OpenAL y GL4ES. Usa el código liberado del juego y necesita los archivos de datos originales.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/55/Gish_%28video_game%29.jpg",
+    alt: "Gish (box art)",
+    credit: "Wikipedia",
+  },
 };

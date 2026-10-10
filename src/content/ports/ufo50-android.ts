@@ -23,4 +23,9 @@ export const ufo50Android: Port = {
     "Unofficial tool that builds an Android version of UFO 50. It requires your own copy of the game to produce the data.",
   notesEs:
     "Herramienta no oficial que genera una versión para Android de UFO 50. Requiere tu propia copia del juego para producir los datos.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a6/UFO_50_cover.png",
+    alt: "UFO 50 (box art)",
+    credit: "Wikipedia",
+  },
 };
