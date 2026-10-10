@@ -523,4 +523,6 @@ export const originalSystemById: Record<Port["id"], string> = {
   "freeking-kingpin": "Microsoft Windows",
   "cnc-renegade": "Microsoft Windows",
   "cod4-ios": "Microsoft Windows",
+  "far-cry-nearchuckle": "Microsoft Windows",
+  "area-51-source": "Microsoft Windows",
 };

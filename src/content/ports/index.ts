@@ -521,6 +521,8 @@ import { openhp1 } from "./openhp1";
 import { freekingKingpin } from "./freeking-kingpin";
 import { cncRenegade } from "./cnc-renegade";
 import { cod4Ios } from "./cod4-ios";
+import { farCryNearChuckle } from "./far-cry-nearchuckle";
+import { area51Source } from "./area-51-source";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -1045,4 +1047,6 @@ export const portCases: Port[] = [
   freekingKingpin,
   cncRenegade,
   cod4Ios,
+  farCryNearChuckle,
+  area51Source,
 ];
