@@ -2,7 +2,7 @@
 
 **Site: <https://kymie131.github.io/openportsgames/>**
 
-Catalog of **native game ports** — decompilations, recompilations and engine
+Catalog of **native game ports**  decompilations, recompilations and engine
 reimplementations that bring classic games to PC and Android. Every entry
 links only to the project's official source (repo, releases, docs, website).
 No downloadable files, ever.
