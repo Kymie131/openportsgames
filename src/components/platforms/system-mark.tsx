@@ -87,6 +87,7 @@ const systemToLabel: Record<string, string> = {
   "Xbox 360": "X360",
   "MS-DOS": "DOS",
   "Microsoft Windows": "Win",
+  Macintosh: "Mac",
   "PlayStation / Sega Saturn": "PS1 · Saturn",
   "MS-DOS / Amiga": "DOS · Amiga",
   "Microsoft Windows / MS-DOS": "Win · DOS",

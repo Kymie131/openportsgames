@@ -82,21 +82,13 @@ export function HomeContent({
           </div>
         </div>
 
-        <dl className="grid max-w-2xl grid-cols-1 gap-4 sm:grid-cols-3">
+        <dl className="grid max-w-2xl grid-cols-1 gap-4 sm:grid-cols-2">
           <div className="rounded-xl border border-border bg-surface px-6 py-5 shadow-sm">
             <dt className="font-mono text-3xl font-bold tracking-tight text-foreground">
               {toNumber(counts.ports)}
             </dt>
             <dd className="mt-1 text-sm font-medium text-muted">
               {t.home.statsPorts(counts.ports)}
-            </dd>
-          </div>
-          <div className="rounded-xl border border-border bg-surface px-6 py-5 shadow-sm">
-            <dt className="font-mono text-3xl font-bold tracking-tight text-foreground">
-              {toNumber(counts.android)}
-            </dt>
-            <dd className="mt-1 text-sm font-medium text-muted">
-              {t.home.statsAndroid(counts.android)}
             </dd>
           </div>
           <div className="rounded-xl border border-border bg-surface px-6 py-5 shadow-sm">
