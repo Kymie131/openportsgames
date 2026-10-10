@@ -460,6 +460,22 @@ import { nethackAndroid } from "./nethack-android";
 import { nfs3Android } from "./nfs3-android";
 import { buckshotRouletteMobile } from "./buckshot-roulette-mobile";
 import { starboundAndroid } from "./starbound-android";
+import { amethystAndroid } from "./amethyst-android";
+import { unnethackAndroid } from "./unnethack-android";
+import { slashemAndroid } from "./slashem-android";
+import { amphitere } from "./amphitere";
+import { pokerogueApp } from "./pokerogue-app";
+import { repoEvR } from "./repo-ev-r";
+import { sonicRAndroid } from "./sonic-r-android";
+import { voyagerEliteForceAndroid } from "./voyager-elite-force-android";
+import { voyagerEliteForceHolomatch } from "./voyager-elite-force-holomatch";
+import { ufo50Android } from "./ufo50-android";
+import { warcraftOrcsAndHumansAndroid } from "./warcraft-orcs-and-humans-android";
+import { broforceAndroid } from "./broforce-android";
+import { celesteAndroid } from "./celeste-android";
+import { pokewildsAndroid } from "./pokewilds-android";
+import { touhou6Android } from "./touhou-6-android";
+import { valdroid } from "./valdroid";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -923,4 +939,20 @@ export const portCases: Port[] = [
   nfs3Android,
   buckshotRouletteMobile,
   starboundAndroid,
+  amethystAndroid,
+  unnethackAndroid,
+  slashemAndroid,
+  amphitere,
+  pokerogueApp,
+  repoEvR,
+  sonicRAndroid,
+  voyagerEliteForceAndroid,
+  voyagerEliteForceHolomatch,
+  ufo50Android,
+  warcraftOrcsAndHumansAndroid,
+  broforceAndroid,
+  celesteAndroid,
+  pokewildsAndroid,
+  touhou6Android,
+  valdroid,
 ];
