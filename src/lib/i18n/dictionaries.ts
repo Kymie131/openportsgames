@@ -176,7 +176,7 @@ const en = {
     hardwareTitle: "Public hardware profiles",
     updatedAt: "Last updated",
     tester: "Tester",
-    noBadge: "No test, no badge.",
+    noBadge: "A port only shows a badge when a registered test exists.",
   },
   brand: {
     tagline:
@@ -263,8 +263,8 @@ const en = {
     copyTitle: "Getting your own copy, legally",
     copy: [
       "No project in this catalog distributes the original game's files, and this site links to no downloads of any kind. To play any port you must own the original game. That is the rule I am least willing to bend.",
-      "The usual and perfectly legal route is to extract the game data from a cartridge, disc or digital copy that you own, using the tools each project documents. Some games are also sold again officially by their publisher, which is the easiest road.",
-      "Never download third-party bundles: besides being illegal, they are a classic malware highway. Use only official sources (the ones linked here).",
+      "In many countries it is legal to make a copy of a game you own; check your country's law. You extract the data with the tools each project documents. Some games are also sold again officially by their publisher.",
+      "Never download third-party bundles: besides being illegal, they are a common way to catch malware. Use only official sources (the ones linked here).",
     ],
     faqTitle: "Frequently asked questions",
     faq: [
@@ -274,7 +274,7 @@ const en = {
       },
       {
         q: "Do I need to download files here?",
-        a: "No. OpenPortsGames is a catalog. It links only to official project sources, and hosts no downloads, images or ROMs.",
+        a: "No. OpenPortsGames links only to official project sources. It hosts no downloads or ROMs; cover art is shown only to identify the game.",
       },
       {
         q: "Why do I see a legal notice on some ports?",
@@ -379,7 +379,7 @@ const en = {
     ],
     teamTitle: "Who we are",
     team: [
-      "The catalog was started and is maintained by Kymie131, together with YaelMora2614 and Ramiro Hernandez. Participation is public: tests, proposals and fixes all flow through this repository.",
+      "The catalog was started and is maintained by Kymie131, together with YaelMora2614 and Ramiro Hernandez. All participation is open and public.",
     ],
     creditsTitle: "Credits",
     credits: [
@@ -598,7 +598,7 @@ const es: Messages = {
     hardwareTitle: "Perfiles de hardware públicos",
     updatedAt: "Última actualización",
     tester: "Probador",
-    noBadge: "Sin prueba, sin distintivo.",
+    noBadge: "Un port solo muestra insignia si hay una prueba registrada.",
   },
   brand: {
     tagline:
@@ -685,8 +685,8 @@ const es: Messages = {
     copyTitle: "Conseguir tu propia copia, de forma legal",
     copy: [
       "Ningún proyecto del catálogo distribuye los archivos del juego original, y este sitio no enlaza a descargas de ningún tipo. Para jugar a cualquier port debes poseer el juego original. Es la regla que menos estoy dispuesto a saltarme.",
-      "La vía habitual y perfectamente legal es extraer los datos del juego de un cartucho, disco o copia digital que poseas, con las herramientas que documenta cada proyecto. Algunos juegos también se venden de nuevo oficialmente por su editor, que es el camino más fácil.",
-      "Nunca descargues paquetes de terceros: además de ser ilegal, son una autopista clásica del malware. Usa solo fuentes oficiales (las que se enlazan aquí).",
+      "En muchos países es legal hacer una copia de tu propio juego; revisa la ley de tu país. Extraes los datos con las herramientas que documenta cada proyecto. Algunos juegos también se venden de nuevo oficialmente por su editor.",
+      "Nunca descargues paquetes de terceros: además de ser ilegal, son una forma habitual de coger malware. Usa solo fuentes oficiales (las que se enlazan aquí).",
     ],
     faqTitle: "Preguntas frecuentes",
     faq: [
@@ -696,7 +696,7 @@ const es: Messages = {
       },
       {
         q: "¿Tengo que descargar archivos desde aquí?",
-        a: "No. OpenPortsGames es un catálogo. Enlaza solo a las fuentes oficiales de los proyectos y no aloja descargas, imágenes ni ROMs.",
+        a: "No. OpenPortsGames enlaza solo a las fuentes oficiales de los proyectos. No aloja descargas ni ROMs; las carátulas se muestran solo para identificar el juego.",
       },
       {
         q: "¿Por qué veo un aviso legal en algunos ports?",
@@ -804,7 +804,7 @@ const es: Messages = {
     ],
     teamTitle: "Quiénes somos",
     team: [
-      "El catálogo lo inició y mantiene Kymie131, junto con YaelMora2614 y Ramiro Hernandez. La participación es pública: pruebas, propuestas y correcciones pasan todas por este repositorio.",
+      "El catálogo lo inició y mantiene Kymie131, junto con YaelMora2614 y Ramiro Hernandez. La participación es abierta y pública.",
     ],
     creditsTitle: "Créditos",
     credits: [

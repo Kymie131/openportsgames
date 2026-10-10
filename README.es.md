@@ -46,7 +46,7 @@ tests/
   unit/         Tests unitarios
   content/      Tests de validación de datos
   e2e/          Smoke tests con Playwright
-docs/           Arquitectura, política, diseño, etc.
+docs/           Desarrollo, política, diseño, etc.
 scripts/        Comprobador de releases, servidor de preview
 ```
 

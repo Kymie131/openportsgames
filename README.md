@@ -46,7 +46,7 @@ tests/
   unit/         Vitest unit tests
   content/      Data validation tests
   e2e/          Playwright smoke tests
-docs/           Architecture, policy, design, etc.
+docs/           Development, policy, design, etc.
 scripts/        Release checker, preview server
 ```
 
