@@ -259,6 +259,7 @@ export const systemSlugByLabel: Record<string, SystemSlug> = {
   "Sega Mega Drive / Genesis": "sega-md",
   "Sega Saturn": "sega-saturn",
   "Sega CD / Mega-CD": "sega-cd",
+  "Sega 32X": "sega-md",
   Dreamcast: "dreamcast",
   "MS-DOS": "ms-dos",
   "Microsoft Windows": "windows",
