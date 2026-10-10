@@ -19,10 +19,8 @@ export const dragonBallRagingBlast2Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystem: "Xbox 360",
-  notes:
-    "Recompilation of Dragon Ball: Raging Blast 2 (Xbox 360) to native Windows. It does not include the game, so you need your own copy.",
-  notesEs:
-    "Recompilación de Dragon Ball: Raging Blast 2 (Xbox 360) a Windows nativo. No incluye el juego, así que necesitas tu propia copia.",
+  notes: "Recompiled with the ReXGlue SDK.",
+  notesEs: "Recompilado con el SDK ReXGlue.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6f/Raging_Blast_2.jpg",
     alt: "Dragon Ball: Raging Blast 2 (box art)",

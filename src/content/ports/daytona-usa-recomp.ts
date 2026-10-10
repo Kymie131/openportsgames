@@ -20,9 +20,9 @@ export const daytonaUsaRecomp: Port = {
   verified: false,
   originalSystem: "Xbox 360",
   notes:
-    "Recompilation of the Xbox Live Arcade release of Daytona USA to native Windows and Linux. It requires the game itself.",
+    "Daytona USA (Xbox 360 / XBLA, 2011) recompiled with ReXGlue. The README lists Windows and Linux builds.",
   notesEs:
-    "Recompilación de la versión de Daytona USA para Xbox Live Arcade a ejecutables nativos de Windows y Linux. Requiere el propio juego.",
+    "Recompilación de Daytona USA (Xbox 360 / XBLA, 2011) con ReXGlue. El README indica builds para Windows y Linux.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c2/Daytona_USA_arcade_flyer.jpg",
     alt: "Daytona USA (box art)",

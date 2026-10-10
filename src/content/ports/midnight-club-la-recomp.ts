@@ -19,10 +19,8 @@ export const midnightClubLaRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystem: "Xbox 360",
-  notes:
-    "Recompilation of Midnight Club: Los Angeles (Xbox 360) for Windows. It needs the game itself.",
-  notesEs:
-    "Recompilación de Midnight Club: Los Angeles (Xbox 360) para Windows. Necesita el propio juego.",
+  notes: "The project publishes no description.",
+  notesEs: "El proyecto no publica descripción.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/ea/Midnight_Club-Los_Angeles.jpg",
     alt: "Midnight Club: Los Angeles (box art)",

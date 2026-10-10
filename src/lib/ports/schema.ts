@@ -73,6 +73,13 @@ const normalPort = z.object({
   originalSystem: z.string().min(2).max(80).optional(),
   features: z.array(z.string().min(3).max(120)).max(20).optional(),
   featuresEs: z.array(z.string().min(3).max(120)).max(20).optional(),
+  aiDisclosure: z
+    .object({
+      level: z.enum(["assisted", "mostly-ai"]),
+      source: httpsUrl,
+      quote: z.string().min(3).max(200),
+    })
+    .optional(),
   installGuide: z
     .object({
       title: z.string().min(2).max(80).optional(),
@@ -188,6 +195,7 @@ export type Port = {
   originalSystem?: string;
   features?: string[];
   featuresEs?: string[];
+  aiDisclosure?: { level: "assisted" | "mostly-ai"; source: string; quote: string };
   installGuide?: {
     title?: string;
     steps: string[];

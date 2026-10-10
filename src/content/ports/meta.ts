@@ -419,7 +419,6 @@ export const originalSystemById: Record<Port["id"], string> = {
   "midnight-club-la-recomp": "Xbox 360",
   "burnout-revenge-recomp": "Xbox 360",
   "conan-2007-recomp": "Xbox 360",
-  "rumble-roses-xx-recomp": "Xbox 360",
   "call-of-duty-3-recomp": "Xbox 360",
   "project-1944-recomp": "Xbox 360",
   "rayman-origins-recomp": "Xbox 360",

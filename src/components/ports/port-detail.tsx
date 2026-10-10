@@ -109,6 +109,12 @@ export function PortDetail({
                 {t.catalog.experimental}
               </span>
             )}
+            {port.aiDisclosure && (
+              <span className="rounded-full border border-border px-2 py-0.5 text-xs font-medium text-muted">
+                {t.detail.aiLabel}:{" "}
+                {port.aiDisclosure.level === "mostly-ai" ? t.detail.aiMostly : t.detail.aiAssisted}
+              </span>
+            )}
           </div>
         </header>
       </div>
@@ -180,6 +186,20 @@ export function PortDetail({
             <p className="text-xs text-muted">{t.detail.onlyEnglish}</p>
           )}
           {needsOriginalAssets && <p className="text-sm text-muted">{t.detail.dependencies}</p>}
+        </section>
+      )}
+
+      {port.aiDisclosure && (
+        <section className="flex flex-col gap-1">
+          <p className="text-sm leading-relaxed text-muted">“{port.aiDisclosure.quote}”</p>
+          <a
+            href={port.aiDisclosure.source}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs text-link transition-colors hover:text-link-hover"
+          >
+            {t.detail.aiSource}
+          </a>
         </section>
       )}
 

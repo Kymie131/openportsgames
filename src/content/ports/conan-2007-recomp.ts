@@ -20,9 +20,14 @@ export const conan2007Recomp: Port = {
   verified: false,
   originalSystem: "Xbox 360",
   notes:
-    "Recompilation of the 2007 Conan game (Xbox 360) to a native Windows executable. You must supply your own copy.",
+    "Native DirectX 12 rendering. Controller only. Up to 120 FPS, because physics break above that.",
   notesEs:
-    "Recompilación del juego Conan de 2007 (Xbox 360) a un ejecutable nativo para Windows. Debes aportar tu propia copia.",
+    "Render nativo en DirectX 12. Solo mando. Hasta 120 FPS, porque por encima se rompe la física.",
+  aiDisclosure: {
+    level: "assisted",
+    source: "https://github.com/crazyriddler/Conan2007Recomp#readme",
+    quote: "I've relied on Claude to carry out this project",
+  },
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/d7/Conan_%282004_video_game%29.jpg",
     alt: "Conan (box art)",

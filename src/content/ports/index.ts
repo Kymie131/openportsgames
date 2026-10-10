@@ -417,7 +417,6 @@ import { dragonBallRagingBlast2Recomp } from "./dragon-ball-raging-blast-2-recom
 import { midnightClubLaRecomp } from "./midnight-club-la-recomp";
 import { burnoutRevengeRecomp } from "./burnout-revenge-recomp";
 import { conan2007Recomp } from "./conan-2007-recomp";
-import { rumbleRosesXxRecomp } from "./rumble-roses-xx-recomp";
 import { callOfDuty3Recomp } from "./call-of-duty-3-recomp";
 import { project1944Recomp } from "./project-1944-recomp";
 import { raymanOriginsRecomp } from "./rayman-origins-recomp";
@@ -988,7 +987,6 @@ export const portCases: Port[] = [
   midnightClubLaRecomp,
   burnoutRevengeRecomp,
   conan2007Recomp,
-  rumbleRosesXxRecomp,
   callOfDuty3Recomp,
   project1944Recomp,
   raymanOriginsRecomp,

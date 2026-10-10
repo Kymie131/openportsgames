@@ -20,9 +20,9 @@ export const dantesInfernoRecomp: Port = {
   verified: false,
   originalSystem: "Xbox 360",
   notes:
-    "Static recompilation of Dante's Inferno (Xbox 360) with the ReXGlue SDK, building native Windows and Linux executables. It needs a copy of the original game, since no assets are included.",
+    "Native Dante's Inferno (Xbox 360) port built with ReXGlue. Renders through D3D12 and Vulkan, no emulation.",
   notesEs:
-    "Recompilación estática de Dante's Inferno (Xbox 360) con el SDK ReXGlue, que genera ejecutables nativos para Windows y Linux. Necesita una copia del juego original, ya que no incluye ningún recurso.",
+    "Port nativo de Dante's Inferno (Xbox 360) con ReXGlue. Renderiza con D3D12 y Vulkan, sin emulación.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c6/Dante%27s_Inferno.jpg",
     alt: "Dante's Inferno (box art)",

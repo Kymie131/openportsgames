@@ -20,9 +20,9 @@ export const dodonpachiSaidaioujouRecomp: Port = {
   verified: false,
   originalSystem: "Xbox 360",
   notes:
-    "Static recompilation of the Xbox 360 version of DoDonPachi SaiDaiOuJou, a bullet-hell shooter by Cave. It runs as a native Windows executable and needs your own game files.",
+    "DoDonPachi SaiDaiOuJou (Xbox 360) recompiled with ReXGlue. It requires the 1.01 title update. Keyboard and mouse are enabled from the in-game menu (F4).",
   notesEs:
-    "Recompilación estática de la versión de Xbox 360 de DoDonPachi SaiDaiOuJou, un matamarcianos de Cave. Se ejecuta de forma nativa en Windows y necesita tus propios archivos del juego.",
+    "Recompilación de DoDonPachi SaiDaiOuJou (Xbox 360) con ReXGlue. Requiere la actualización 1.01. El teclado y el ratón se activan desde el menú del juego (F4).",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e1/DoDonPachi_SaiDaiOuJou_arcade_flyer.jpg",
     alt: "DoDonPachi SaiDaiOuJou (box art)",
