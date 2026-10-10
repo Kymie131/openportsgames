@@ -20,9 +20,9 @@ export const megaManZeroRecomp: Port = {
   verified: false,
   originalSystem: "Game Boy Advance",
   notes:
-    "Static recompilation of Mega Man Zero (GBA) with the gbarecomp framework. It requires your own copy of the game.",
+    "Static recompilation of Mega Man Zero (GBA) with the gbarecomp framework. It requires your own game files.",
   notesEs:
-    "Recompilación estática de Mega Man Zero (GBA) con el framework gbarecomp. Requiere tu propia copia del juego.",
+    "Recompilación estática de Mega Man Zero (GBA) con el framework gbarecomp. Requiere tus propios archivos del juego.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Mega%20Man%20Zero%20(USA)%20(Virtual%20Console).png",
     alt: "Mega Man Zero (box art)",

@@ -20,9 +20,9 @@ export const aceCombat6Recomp: Port = {
   verified: false,
   originalSystem: "Xbox 360",
   notes:
-    "Static recompilation of Ace Combat 6: Fires of Liberation (Xbox 360) with ReXGlue, with 60 FPS and resolution scaling. It requires your own copy of the game.",
+    "Static recompilation of Ace Combat 6: Fires of Liberation (Xbox 360) with ReXGlue, with 60 FPS and resolution scaling. It requires a copy of the game.",
   notesEs:
-    "Recompilación estática de Ace Combat 6: Fires of Liberation (Xbox 360) con ReXGlue, con 60 FPS y escalado de resolución. Requiere tu propia copia del juego.",
+    "Recompilación estática de Ace Combat 6: Fires of Liberation (Xbox 360) con ReXGlue, con 60 FPS y escalado de resolución. Requiere una copia del juego.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/16/Ace_Combat_6_Fires_of_Liberation_Game_Cover.jpg",
     alt: "Ace Combat 6: Fires of Liberation (box art)",

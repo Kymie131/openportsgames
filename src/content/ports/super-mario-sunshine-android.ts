@@ -20,9 +20,9 @@ export const superMarioSunshineAndroid: Port = {
   verified: false,
   originalSystem: "GameCube",
   notes:
-    "Native port of Super Mario Sunshine (GameCube) built from its decompilation. It requires your own copy of the game.",
+    "Native port of Super Mario Sunshine (GameCube) built from its decompilation. It requires your own game files.",
   notesEs:
-    "Port nativo de Super Mario Sunshine (GameCube) construido a partir de su decompilación. Requiere tu propia copia del juego.",
+    "Port nativo de Super Mario Sunshine (GameCube) construido a partir de su decompilación. Requiere tus propios archivos del juego.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Super%20Mario%20Sunshine%20(Europe)%20(En,Fr,De,Es,It).png",
     alt: "Super Mario Sunshine (box art)",

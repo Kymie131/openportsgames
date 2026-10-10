@@ -20,9 +20,9 @@ export const buckshotRouletteMobile: Port = {
   verified: false,
   originalSystem: "Microsoft Windows",
   notes:
-    "Mobile port of Buckshot Roulette for Android and iOS. It needs your own copy of the game and is a community project.",
+    "Mobile port of Buckshot Roulette for Android and iOS. It needs your own game data and is a community project.",
   notesEs:
-    "Port móvil de Buckshot Roulette para Android e iOS. Necesita tu propia copia del juego y es un proyecto comunitario.",
+    "Port móvil de Buckshot Roulette para Android e iOS. Necesita tus propios datos del juego y es un proyecto comunitario.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/72/Buckshot_Roulette_Cover.jpg",
     alt: "Buckshot Roulette (box art)",

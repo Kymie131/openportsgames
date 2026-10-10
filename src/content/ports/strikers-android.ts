@@ -20,9 +20,9 @@ export const strikersAndroid: Port = {
   verified: false,
   originalSystem: "GameCube",
   notes:
-    "Community Android port of Super Mario Strikers (GameCube). It needs your own copy of the game and its files.",
+    "Community Android port of Super Mario Strikers (GameCube). It needs the game itself and its files.",
   notesEs:
-    "Port comunitario para Android de Super Mario Strikers (GameCube). Necesita tu propia copia del juego y sus archivos.",
+    "Port comunitario para Android de Super Mario Strikers (GameCube). Necesita el propio juego y sus archivos.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Super%20Mario%20Strikers%20(Japan).png",
     alt: "Super Mario Strikers (box art)",

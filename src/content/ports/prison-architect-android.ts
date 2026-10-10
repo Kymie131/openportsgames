@@ -20,7 +20,7 @@ export const prisonArchitectAndroid: Port = {
   verified: false,
   originalSystem: "Microsoft Windows",
   notes:
-    "Android launcher for Prison Architect, based on the desktop game. It needs your own copy of the game files.",
+    "Android launcher for Prison Architect, based on the desktop game. It needs the game itself files.",
   notesEs:
     "Lanzador para Android de Prison Architect, basado en el juego de escritorio. Necesita tu propia copia de los archivos del juego.",
   cover: {

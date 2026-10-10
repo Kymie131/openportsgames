@@ -20,9 +20,9 @@ export const digimonWorldRecomp: Port = {
   verified: false,
   originalSystem: "PlayStation",
   notes:
-    "Listed on the PortsDR community index with no public repository. You need your own copy of the game.",
+    "Listed on the PortsDR community index with no public repository. You need your own game data.",
   notesEs:
-    "Listado en el índice comunitario PortsDR, sin repositorio público. Necesitas tu propia copia del juego.",
+    "Listado en el índice comunitario PortsDR, sin repositorio público. Necesitas tus propios datos del juego.",
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Digimon%20World%20(Europe).png",
     alt: "Digimon World (box art)",

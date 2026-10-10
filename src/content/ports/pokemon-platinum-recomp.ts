@@ -20,9 +20,9 @@ export const pokemonPlatinumRecomp: Port = {
   verified: false,
   originalSystem: "Nintendo DS",
   notes:
-    "64-bit PC port of Pokémon Platinum based on the pret decompilation and the libntr suite. It needs your own copy of the game.",
+    "64-bit PC port of Pokémon Platinum based on the pret decompilation and the libntr suite. It needs a copy of the game.",
   notesEs:
-    "Port para PC de 64 bits de Pokémon Platinum basado en la decompilación de pret y la suite libntr. Necesita tu propia copia del juego.",
+    "Port para PC de 64 bits de Pokémon Platinum basado en la decompilación de pret y la suite libntr. Necesita una copia del juego.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Pokemon%20-%20Platinum%20Version%20(USA).png",
     alt: "Pokémon Platinum (box art)",

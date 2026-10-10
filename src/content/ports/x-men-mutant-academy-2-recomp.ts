@@ -20,9 +20,9 @@ export const xMenMutantAcademy2Recomp: Port = {
   verified: false,
   originalSystem: "PlayStation",
   notes:
-    "Listed on the PortsDR community index with no public repository. You need your own copy of the game.",
+    "Listed on the PortsDR community index with no public repository. You need your own game data.",
   notesEs:
-    "Listado en el índice comunitario PortsDR, sin repositorio público. Necesitas tu propia copia del juego.",
+    "Listado en el índice comunitario PortsDR, sin repositorio público. Necesitas tus propios datos del juego.",
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/X-Men%20-%20Mutant%20Academy%202%20(Europe).png",
     alt: "X-Men: Mutant Academy 2 (box art)",

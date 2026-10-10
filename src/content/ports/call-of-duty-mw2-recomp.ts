@@ -20,9 +20,9 @@ export const callOfDutyMw2Recomp: Port = {
   verified: false,
   originalSystem: "Xbox 360",
   notes:
-    "Recompilation of Call of Duty: Modern Warfare 2 (Xbox 360) to native Windows and Linux. It requires your own copy of the game.",
+    "Recompilation of Call of Duty: Modern Warfare 2 (Xbox 360) to native Windows and Linux. It requires the game itself.",
   notesEs:
-    "Recompilación de Call of Duty: Modern Warfare 2 (Xbox 360) a Windows y Linux nativos. Requiere tu propia copia del juego.",
+    "Recompilación de Call of Duty: Modern Warfare 2 (Xbox 360) a Windows y Linux nativos. Requiere el propio juego.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/52/Call_of_Duty_Modern_Warfare_2_%282009%29_cover.png",
     alt: "Call of Duty: Modern Warfare 2 (box art)",

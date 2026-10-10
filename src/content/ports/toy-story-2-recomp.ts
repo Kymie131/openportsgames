@@ -20,9 +20,9 @@ export const toyStory2Recomp: Port = {
   verified: false,
   originalSystem: "PlayStation",
   notes:
-    "Static recompilation of Toy Story 2: Buzz Lightyear to the Rescue (PlayStation) using PSXRecomp. It needs your own copy of the game.",
+    "Static recompilation of Toy Story 2: Buzz Lightyear to the Rescue (PlayStation) using PSXRecomp. It needs your own game files.",
   notesEs:
-    "Recompilación estática de Toy Story 2: Buzz Lightyear to the Rescue (PlayStation) con PSXRecomp. Necesita tu propia copia del juego.",
+    "Recompilación estática de Toy Story 2: Buzz Lightyear to the Rescue (PlayStation) con PSXRecomp. Necesita tus propios archivos del juego.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/21/Buzz_Lightyear_to_the_Rescue_art.png",
     alt: "Toy Story 2: Buzz Lightyear to the Rescue (box art)",

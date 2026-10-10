@@ -20,9 +20,9 @@ export const wwfNoMercyRecomp: Port = {
   verified: false,
   originalSystem: "Nintendo 64",
   notes:
-    "Static recompilation of WWF No Mercy (N64) with N64Recomp and the RT64 renderer. It requires your own copy of the game.",
+    "Static recompilation of WWF No Mercy (N64) with N64Recomp and the RT64 renderer. It requires the original game.",
   notesEs:
-    "Recompilación estática de WWF No Mercy (N64) con N64Recomp y el renderizador RT64. Requiere tu propia copia del juego.",
+    "Recompilación estática de WWF No Mercy (N64) con N64Recomp y el renderizador RT64. Requiere el juego original.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/WWF%20No%20Mercy%20(Europe)%20(Rev%201).png",
     alt: "WWF No Mercy (box art)",

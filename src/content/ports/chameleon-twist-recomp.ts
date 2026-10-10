@@ -20,9 +20,9 @@ export const chameleonTwistRecomp: Port = {
   verified: false,
   originalSystem: "Nintendo 64",
   notes:
-    "Static recompilation of Chameleon Twist (N64) with N64Recomp and the RT64 renderer. It requires your own copy of the game.",
+    "Static recompilation of Chameleon Twist (N64) with N64Recomp and the RT64 renderer. It requires a copy of the game.",
   notesEs:
-    "Recompilación estática de Chameleon Twist (N64) con N64Recomp y el renderizador RT64. Requiere tu propia copia del juego.",
+    "Recompilación estática de Chameleon Twist (N64) con N64Recomp y el renderizador RT64. Requiere una copia del juego.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Chameleon%20Twist%20(Europe).png",
     alt: "Chameleon Twist (box art)",

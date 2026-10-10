@@ -20,7 +20,7 @@ export const aloneInTheDarkRehaunted: Port = {
   verified: false,
   originalSystem: "MS-DOS",
   notes:
-    "Enhanced port and dynamic recompilation of the original Alone in the Dark (1992), with textured models, HD backgrounds, quality-of-life options and controller support. It needs your own copy of the game.",
+    "Enhanced port and dynamic recompilation of the original Alone in the Dark (1992), with textured models, HD backgrounds, quality-of-life options and controller support. It needs the game itself.",
   notesEs:
-    "Port mejorado y recompilación dinámica del Alone in the Dark original (1992), con modelos texturizados, fondos en HD, opciones de comodidad y soporte de mando. Necesita tu propia copia del juego.",
+    "Port mejorado y recompilación dinámica del Alone in the Dark original (1992), con modelos texturizados, fondos en HD, opciones de comodidad y soporte de mando. Necesita el propio juego.",
 };

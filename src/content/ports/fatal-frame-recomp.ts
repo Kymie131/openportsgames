@@ -20,9 +20,9 @@ export const fatalFrameRecomp: Port = {
   verified: false,
   originalSystem: "PlayStation 2",
   notes:
-    "Static recompilation of Fatal Frame (PlayStation 2) with ReXGlue. It requires your own copy of the game.",
+    "Static recompilation of Fatal Frame (PlayStation 2) with ReXGlue. It requires your own game data.",
   notesEs:
-    "Recompilación estática de Fatal Frame (PlayStation 2) con ReXGlue. Requiere tu propia copia del juego.",
+    "Recompilación estática de Fatal Frame (PlayStation 2) con ReXGlue. Requiere tus propios datos del juego.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b7/Fatal_Frame_Coverart.png",
     alt: "Fatal Frame (box art)",

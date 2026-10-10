@@ -20,9 +20,9 @@ export const fearAndHungerAndroid: Port = {
   verified: false,
   originalSystem: "Microsoft Windows",
   notes:
-    "Android version of Fear & Hunger that runs the game without an emulator. It is a community port distributed as an app and needs your own copy of the game.",
+    "Android version of Fear & Hunger that runs the game without an emulator. It is a community port distributed as an app and needs a copy of the game.",
   notesEs:
-    "Versión para Android de Fear & Hunger que ejecuta el juego sin emulador. Es un port comunitario distribuido como app y necesita tu propia copia del juego.",
+    "Versión para Android de Fear & Hunger que ejecuta el juego sin emulador. Es un port comunitario distribuido como app y necesita una copia del juego.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/69/Fear_%26_Hunger.jpg",
     alt: "Fear & Hunger (box art)",

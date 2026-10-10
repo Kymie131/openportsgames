@@ -20,9 +20,9 @@ export const superMarioAdvance2Recomp: Port = {
   verified: false,
   originalSystem: "Game Boy Advance",
   notes:
-    "Static recompilation of Super Mario Advance 2: Super Mario World (GBA) with the gbarecomp framework. It requires your own copy of the game.",
+    "Static recompilation of Super Mario Advance 2: Super Mario World (GBA) with the gbarecomp framework. It requires a copy of the game.",
   notesEs:
-    "Recompilación estática de Super Mario Advance 2: Super Mario World (GBA) con el framework gbarecomp. Requiere tu propia copia del juego.",
+    "Recompilación estática de Super Mario Advance 2: Super Mario World (GBA) con el framework gbarecomp. Requiere una copia del juego.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Super%20Mario%20Advance%202%20-%20Super%20Mario%20World%20(Europe)%20(En,Fr,De,Es).png",
     alt: "Super Mario Advance 2: Super Mario World (box art)",

@@ -248,15 +248,15 @@ const en = {
       "Each technique describes how a project recreates the original game. The port's detail page always tells you which one it uses.",
     techniques: {
       decompilation:
-        "The project's code is written from scratch to reproduce the original game's behavior, compiled as a native binary. It demands high-quality reconstruction of the original code; in practice the results are extremely faithful. Zelda titles, Doom and Fallout are all represented in the catalog.",
+        "Project code written from scratch to reproduce the original game, compiled as a native binary.",
       recompilation:
-        "The original machine code is converted automatically into portable C code, then compiled natively. Faster to produce and equally faithful, it trades that for being harder to read. A Super Mario 64 recompilation sits in the catalog.",
+        "The original machine code is converted to portable C and compiled natively. Faster to produce, harder to read.",
       reimplementation:
-        "A new engine is written to recreate a game or a family of games in a modern way. Projects gain flexibility (new platforms, improved rendering) but faithfulness depends on each asset or behaviour reimplemented.",
+        "A new engine recreates the game or a family of games. Flexible, but faithfulness depends on each reimplemented asset.",
       "source-port":
-        "An engine released by its original developer is updated so it keeps running on modern systems, taking advantage of them. It is the classic path for games whose source code was officially released.",
+        "An engine released by its original developer, updated to keep running on modern systems.",
       "runtime-port":
-        "A runtime is written for a single game, replacing the console's system libraries, while the game's own code runs natively on the CPU (no emulation) and its graphics are translated to a modern API. It is the Wine/DXVK approach applied to one title, and it still depends on the player's own copy of the game.",
+        "A per-game runtime replaces the console's system libraries; the game's own code runs natively and its graphics are translated to a modern API.",
     },
     techniquesNote:
       "You can browse the catalog by technique from each port's detail page; the technique is always shown in the overview.",
@@ -670,15 +670,15 @@ const es: Messages = {
       "Cada técnica describe cómo un proyecto recrea el juego original. La página de detalle del port siempre te dice cuál usa.",
     techniques: {
       decompilation:
-        "El código del proyecto se escribe desde cero para reproducir el comportamiento del juego original y se compila como binario nativo. Exige reconstruir código original de alta calidad; en la práctica los resultados son extremadamente fieles. Zelda, Doom y Fallout están representados en el catálogo.",
+        "Código escrito desde cero para reproducir el juego original, compilado como binario nativo.",
       recompilation:
-        "El código máquina original se convierte automáticamente en código C portable que luego se compila de forma nativa. Es más rápido de producir e igualmente fiel, a costa de ser más difícil de leer. En el catálogo hay una recompilación de Super Mario 64.",
+        "El código máquina original se convierte a C portable y se compila de forma nativa. Más rápido de producir, más difícil de leer.",
       reimplementation:
-        "Se escribe un motor nuevo para recrear un juego o una familia de juegos de forma moderna. Los proyectos ganan flexibilidad (nuevas plataformas, renderizado mejorado), pero la fidelidad depende de cada recurso o comportamiento reimplementado.",
+        "Un motor nuevo recrea el juego o una familia de juegos. Flexible, pero la fidelidad depende de cada recurso reimplementado.",
       "source-port":
-        "Un motor liberado por su desarrollador original se actualiza para que siga funcionando en sistemas modernos aprovechándolos. Es la vía clásica para los juegos cuyo código fuente se publicó oficialmente.",
+        "Un motor liberado por su desarrollador original, actualizado para seguir funcionando en sistemas modernos.",
       "runtime-port":
-        "Se escribe un runtime para un único juego que reemplaza las librerías del sistema de la consola, mientras el código del propio juego corre nativo en la CPU (sin emulación) y sus gráficos se traducen a una API moderna. Es el enfoque de Wine/DXVK aplicado a un solo título, y sigue dependiendo de tu propia copia del juego.",
+        "Un runtime por juego reemplaza las librerías del sistema de la consola; el código del juego corre nativo y sus gráficos se traducen a una API moderna.",
     },
     techniquesNote:
       "Puedes explorar el catálogo por técnica: siempre se indica en la página de detalle de cada port.",

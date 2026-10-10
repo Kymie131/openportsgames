@@ -20,9 +20,9 @@ export const snowboardKidsRecompiled: Port = {
   verified: false,
   originalSystem: "Nintendo 64",
   notes:
-    "Static recompilation of Snowboard Kids (N64) with N64Recomp and the RT64 renderer. It requires your own copy of the game.",
+    "Static recompilation of Snowboard Kids (N64) with N64Recomp and the RT64 renderer. It requires your own game files.",
   notesEs:
-    "Recompilación estática de Snowboard Kids (N64) con N64Recomp y el renderizador RT64. Requiere tu propia copia del juego.",
+    "Recompilación estática de Snowboard Kids (N64) con N64Recomp y el renderizador RT64. Requiere tus propios archivos del juego.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Snowboard%20Kids%20(Europe,%20Australia).png",
     alt: "Snowboard Kids (box art)",

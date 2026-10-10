@@ -20,9 +20,9 @@ export const bodyHarvestRecomp: Port = {
   verified: false,
   originalSystem: "Nintendo 64",
   notes:
-    "Static recompilation of Body Harvest (N64) with N64Recomp and the RT64 renderer. It requires your own copy of the game.",
+    "Static recompilation of Body Harvest (N64) with N64Recomp and the RT64 renderer. It requires the game itself.",
   notesEs:
-    "Recompilación estática de Body Harvest (N64) con N64Recomp y el renderizador RT64. Requiere tu propia copia del juego.",
+    "Recompilación estática de Body Harvest (N64) con N64Recomp y el renderizador RT64. Requiere el propio juego.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Body%20Harvest%20(Europe)%20(En,Fr,De).png",
     alt: "Body Harvest (box art)",

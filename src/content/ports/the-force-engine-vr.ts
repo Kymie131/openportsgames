@@ -20,9 +20,9 @@ export const theForceEngineVr: Port = {
   verified: false,
   originalSystem: "MS-DOS",
   notes:
-    "VR-oriented build of The Force Engine (a Jedi Engine replacement) that supports Dark Forces and its mods on Android. It needs your own copy of the game.",
+    "VR-oriented build of The Force Engine (a Jedi Engine replacement) that supports Dark Forces and its mods on Android. It needs the original game.",
   notesEs:
-    "Build orientada a RV de The Force Engine (un reemplazo del Jedi Engine) que soporta Dark Forces y sus mods en Android. Necesita tu propia copia del juego.",
+    "Build orientada a RV de The Force Engine (un reemplazo del Jedi Engine) que soporta Dark Forces y sus mods en Android. Necesita el juego original.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/4f/Dark_Forces_box_cover.jpg",
     alt: "Star Wars: Dark Forces (box art)",

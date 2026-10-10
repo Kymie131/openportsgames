@@ -20,9 +20,9 @@ export const summonNightSwordcraft3Recomp: Port = {
   verified: false,
   originalSystem: "Game Boy Advance",
   notes:
-    "Static recompilation of Summon Night: Craft Sword Monogatari - Hajimari no Ishi (GBA) with the gbarecomp framework. It requires your own copy of the game.",
+    "Static recompilation of Summon Night: Craft Sword Monogatari - Hajimari no Ishi (GBA) with the gbarecomp framework. It requires your own game data.",
   notesEs:
-    "Recompilación estática de Summon Night: Craft Sword Monogatari - Hajimari no Ishi (GBA) con el framework gbarecomp. Requiere tu propia copia del juego.",
+    "Recompilación estática de Summon Night: Craft Sword Monogatari - Hajimari no Ishi (GBA) con el framework gbarecomp. Requiere tus propios datos del juego.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Summon%20Night%20-%20Craft%20Sword%20Monogatari%20-%20Hajimari%20no%20Ishi%20(Japan).png",
     alt: "Summon Night: Craft Sword Monogatari - Hajimari no Ishi (box art)",

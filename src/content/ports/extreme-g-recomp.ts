@@ -20,9 +20,9 @@ export const extremeGRecomp: Port = {
   verified: false,
   originalSystem: "Nintendo 64",
   notes:
-    "Static recompilation of Extreme-G (Nintendo 64) to a native PC executable. It needs your own copy of the game and ships no assets.",
+    "Static recompilation of Extreme-G (Nintendo 64) to a native PC executable. It needs the original game and ships no assets.",
   notesEs:
-    "Recompilación estática de Extreme-G (Nintendo 64) a un ejecutable nativo para PC. Necesita tu propia copia del juego y no incluye recursos.",
+    "Recompilación estática de Extreme-G (Nintendo 64) a un ejecutable nativo para PC. Necesita el juego original y no incluye recursos.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Extreme-G%20(Europe)%20(En,Fr,De,Es,It).png",
     alt: "Extreme-G (box art)",

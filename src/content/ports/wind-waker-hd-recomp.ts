@@ -20,7 +20,7 @@ export const windWakerHdRecomp: Port = {
   verified: false,
   originalSystem: "Wii U",
   notes:
-    "Recompilation of The Legend of Zelda: The Wind Waker HD (Wii U) that currently targets macOS. It needs your own copy of the game.",
+    "Recompilation of The Legend of Zelda: The Wind Waker HD (Wii U) that currently targets macOS. It needs your own game data.",
   notesEs:
-    "Recompilación de The Legend of Zelda: The Wind Waker HD (Wii U) que por ahora apunta a macOS. Necesita tu propia copia del juego.",
+    "Recompilación de The Legend of Zelda: The Wind Waker HD (Wii U) que por ahora apunta a macOS. Necesita tus propios datos del juego.",
 };

@@ -20,7 +20,7 @@ export const minecraftX360Ios: Port = {
   verified: false,
   originalSystem: "Xbox 360",
   notes:
-    "Recompilation project for Minecraft: Xbox 360 Edition that targets iOS. It is indexed by recomp.fyi and requires your own copy of the game.",
+    "Recompilation project for Minecraft: Xbox 360 Edition that targets iOS. It is indexed by recomp.fyi and requires your own game data.",
   notesEs:
-    "Proyecto de recompilación de Minecraft: Xbox 360 Edition orientado a iOS. Está indexado en recomp.fyi y requiere tu propia copia del juego.",
+    "Proyecto de recompilación de Minecraft: Xbox 360 Edition orientado a iOS. Está indexado en recomp.fyi y requiere tus propios datos del juego.",
 };

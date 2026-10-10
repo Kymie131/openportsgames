@@ -20,9 +20,9 @@ export const pokemonFireredRecomp: Port = {
   verified: false,
   originalSystem: "Game Boy Advance",
   notes:
-    "Static recompilation of Pokémon FireRed (GBA) with the gbarecomp framework. It requires your own copy of the game.",
+    "Static recompilation of Pokémon FireRed (GBA) with the gbarecomp framework. It requires the game itself.",
   notesEs:
-    "Recompilación estática de Pokémon FireRed (GBA) con el framework gbarecomp. Requiere tu propia copia del juego.",
+    "Recompilación estática de Pokémon FireRed (GBA) con el framework gbarecomp. Requiere el propio juego.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20-%20FireRed%20Version%20(USA).png",
     alt: "Pokémon FireRed (box art)",

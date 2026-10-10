@@ -20,9 +20,9 @@ export const rayman2N64Recomp: Port = {
   verified: false,
   originalSystem: "Nintendo 64",
   notes:
-    "Static recompilation of Rayman 2: The Great Escape (N64) with N64Recomp and the RT64 renderer. It requires your own copy of the game.",
+    "Static recompilation of Rayman 2: The Great Escape (N64) with N64Recomp and the RT64 renderer. It requires your own game files.",
   notesEs:
-    "Recompilación estática de Rayman 2: The Great Escape (N64) con N64Recomp y el renderizador RT64. Requiere tu propia copia del juego.",
+    "Recompilación estática de Rayman 2: The Great Escape (N64) con N64Recomp y el renderizador RT64. Requiere tus propios archivos del juego.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Rayman%202%20-%20The%20Great%20Escape%20(Europe)%20(En,Fr,De,Es,It).png",
     alt: "Rayman 2: The Great Escape (box art)",

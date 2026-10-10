@@ -20,9 +20,9 @@ export const farCryNearChuckle: Port = {
   verified: false,
   originalSystem: "Microsoft Windows",
   notes:
-    "Android and Linux port of Far Cry (CryEngine 1) via SDL3, based on NearChuckle and using Mesa Zink for OpenGL over Vulkan. Note: it relies on the leaked Far Cry source and needs your own copy of the game.",
+    "Android and Linux port of Far Cry (CryEngine 1) via SDL3, based on NearChuckle and using Mesa Zink for OpenGL over Vulkan. Note: it relies on the leaked Far Cry source and needs the game itself.",
   notesEs:
-    "Port a Android y Linux de Far Cry (CryEngine 1) mediante SDL3, basado en NearChuckle y usando Mesa Zink para OpenGL sobre Vulkan. Aviso: se apoya en la fuente filtrada de Far Cry y necesita tu propia copia del juego.",
+    "Port a Android y Linux de Far Cry (CryEngine 1) mediante SDL3, basado en NearChuckle y usando Mesa Zink para OpenGL sobre Vulkan. Aviso: se apoya en la fuente filtrada de Far Cry y necesita el propio juego.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a5/Far_Cry_1_boxshot.jpg",
     alt: "Far Cry (box art)",

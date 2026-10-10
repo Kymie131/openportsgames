@@ -20,7 +20,7 @@ export const yakumo: Port = {
   verified: false,
   originalSystem: "PlayStation Portable",
   notes:
-    "Static recompilation of Monster Hunter Portable 3rd HD (PSP) into a native executable, using Vulkan and SDL3. It builds for desktop and Android and requires your own copy of the game.",
+    "Static recompilation of Monster Hunter Portable 3rd HD (PSP) into a native executable, using Vulkan and SDL3. It builds for desktop and Android and requires a copy of the game.",
   notesEs:
-    "Recompilación estática de Monster Hunter Portable 3rd HD (PSP) a un ejecutable nativo, con Vulkan y SDL3. Compila para escritorio y Android y requiere tu propia copia del juego.",
+    "Recompilación estática de Monster Hunter Portable 3rd HD (PSP) a un ejecutable nativo, con Vulkan y SDL3. Compila para escritorio y Android y requiere una copia del juego.",
 };

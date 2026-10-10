@@ -20,9 +20,9 @@ export const medalOfHonorFrontlineRecomp: Port = {
   verified: false,
   originalSystem: "GameCube",
   notes:
-    "Static recompilation of Medal of Honor: Frontline (GameCube) with ReXGlue. It requires your own copy of the game.",
+    "Static recompilation of Medal of Honor: Frontline (GameCube) with ReXGlue. It requires the original game.",
   notesEs:
-    "Recompilación estática de Medal of Honor: Frontline (GameCube) con ReXGlue. Requiere tu propia copia del juego.",
+    "Recompilación estática de Medal of Honor: Frontline (GameCube) con ReXGlue. Requiere el juego original.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Medal%20of%20Honor%20-%20Frontline%20(Europe).png",
     alt: "Medal of Honor: Frontline (box art)",

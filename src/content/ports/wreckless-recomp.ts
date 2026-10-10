@@ -20,9 +20,9 @@ export const wrecklessRecomp: Port = {
   verified: false,
   originalSystem: "Xbox",
   notes:
-    "Static recompilation of Wreckless: The Yakuza Missions (Xbox) with ReXGlue. It requires your own copy of the game.",
+    "Static recompilation of Wreckless: The Yakuza Missions (Xbox) with ReXGlue. It requires a copy of the game.",
   notesEs:
-    "Recompilación estática de Wreckless: The Yakuza Missions (Xbox) con ReXGlue. Requiere tu propia copia del juego.",
+    "Recompilación estática de Wreckless: The Yakuza Missions (Xbox) con ReXGlue. Requiere una copia del juego.",
   cover: {
     src: "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Wreckless%20-%20The%20Yakuza%20Missions%20(Europe).png",
     alt: "Wreckless: The Yakuza Missions (box art)",

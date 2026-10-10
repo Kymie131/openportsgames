@@ -20,9 +20,9 @@ export const sonicGenerationsRecomp: Port = {
   verified: false,
   originalSystem: "Xbox 360",
   notes:
-    "Recompilation of Sonic Generations (Xbox 360) built with XenonRecomp and XenosRecomp, with Windows and Android builds. It needs your own copy of the game.",
+    "Recompilation of Sonic Generations (Xbox 360) built with XenonRecomp and XenosRecomp, with Windows and Android builds. It needs a copy of the game.",
   notesEs:
-    "Recompilación de Sonic Generations (Xbox 360) construida con XenonRecomp y XenosRecomp, con builds para Windows y Android. Necesita tu propia copia del juego.",
+    "Recompilación de Sonic Generations (Xbox 360) construida con XenonRecomp y XenosRecomp, con builds para Windows y Android. Necesita una copia del juego.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/7d/SonicGenerations.jpg",
     alt: "Sonic Generations (box art)",

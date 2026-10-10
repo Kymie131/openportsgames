@@ -20,9 +20,9 @@ export const burnout3Recomp: Port = {
   verified: false,
   originalSystem: "Xbox",
   notes:
-    "Static recompilation of Burnout 3: Takedown (Xbox) with ReXGlue. It requires your own copy of the game.",
+    "Static recompilation of Burnout 3: Takedown (Xbox) with ReXGlue. It requires a copy of the game.",
   notesEs:
-    "Recompilación estática de Burnout 3: Takedown (Xbox) con ReXGlue. Requiere tu propia copia del juego.",
+    "Recompilación estática de Burnout 3: Takedown (Xbox) con ReXGlue. Requiere una copia del juego.",
   cover: {
     src: "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Burnout%203%20-%20Takedown%20(USA).png",
     alt: "Burnout 3: Takedown (box art)",

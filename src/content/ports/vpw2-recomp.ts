@@ -20,9 +20,9 @@ export const vpw2Recomp: Port = {
   verified: false,
   originalSystem: "Nintendo 64",
   notes:
-    "Static recompilation of Virtual Pro Wrestling 2 (N64) with N64Recomp and the RT64 renderer. It requires your own copy of the game.",
+    "Static recompilation of Virtual Pro Wrestling 2 (N64) with N64Recomp and the RT64 renderer. It requires a copy of the game.",
   notesEs:
-    "Recompilación estática de Virtual Pro Wrestling 2 (N64) con N64Recomp y el renderizador RT64. Requiere tu propia copia del juego.",
+    "Recompilación estática de Virtual Pro Wrestling 2 (N64) con N64Recomp y el renderizador RT64. Requiere una copia del juego.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Virtual%20Pro%20Wrestling%202%20-%20Oudou%20Keishou%20(Japan).png",
     alt: "Virtual Pro Wrestling 2 (box art)",

@@ -20,9 +20,9 @@ export const rampageThroughTimeRecomp: Port = {
   verified: false,
   originalSystem: "PlayStation",
   notes:
-    "Listed on the PortsDR community index with no public repository. You need your own copy of the game.",
+    "Listed on the PortsDR community index with no public repository. You need the original game.",
   notesEs:
-    "Listado en el índice comunitario PortsDR, sin repositorio público. Necesitas tu propia copia del juego.",
+    "Listado en el índice comunitario PortsDR, sin repositorio público. Necesitas el juego original.",
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Rampage%20-%20Through%20Time%20(Europe)%20(En,Fr,De).png",
     alt: "Rampage: Through Time (box art)",

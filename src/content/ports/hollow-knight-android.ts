@@ -20,9 +20,9 @@ export const hollowKnightAndroid: Port = {
   verified: false,
   originalSystem: "Microsoft Windows",
   notes:
-    "Unofficial Android port of Hollow Knight with dual-screen support, aimed at handhelds. It needs your own copy of the game.",
+    "Unofficial Android port of Hollow Knight with dual-screen support, aimed at handhelds. It needs the game itself.",
   notesEs:
-    "Port no oficial para Android de Hollow Knight con soporte de doble pantalla, pensado para consolas portátiles. Necesita tu propia copia del juego.",
+    "Port no oficial para Android de Hollow Knight con soporte de doble pantalla, pensado para consolas portátiles. Necesita el propio juego.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/de/Hollow_Knight_2026_cover_art.jpg",
     alt: "Hollow Knight (box art)",

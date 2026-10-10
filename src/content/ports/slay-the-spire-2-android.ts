@@ -20,7 +20,7 @@ export const slayTheSpire2Android: Port = {
   verified: false,
   originalSystem: "Microsoft Windows",
   notes:
-    "Unofficial Android launcher for Slay the Spire 2, still in alpha. It needs your own copy of the game.",
+    "Unofficial Android launcher for Slay the Spire 2, still in alpha. It needs the original game.",
   notesEs:
-    "Lanzador no oficial para Android de Slay the Spire 2, todavía en alfa. Necesita tu propia copia del juego.",
+    "Lanzador no oficial para Android de Slay the Spire 2, todavía en alfa. Necesita el juego original.",
 };

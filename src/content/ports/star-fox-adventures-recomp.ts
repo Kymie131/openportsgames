@@ -20,9 +20,9 @@ export const starFoxAdventuresRecomp: Port = {
   verified: false,
   originalSystem: "GameCube",
   notes:
-    "Static recompilation of Star Fox Adventures (GameCube) with ReXGlue. It requires your own copy of the game.",
+    "Static recompilation of Star Fox Adventures (GameCube) with ReXGlue. It requires your own game files.",
   notesEs:
-    "Recompilación estática de Star Fox Adventures (GameCube) con ReXGlue. Requiere tu propia copia del juego.",
+    "Recompilación estática de Star Fox Adventures (GameCube) con ReXGlue. Requiere tus propios archivos del juego.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Star%20Fox%20Adventures%20(Europe)%20(En,Fr,De,Es,It)%20(Rev%201).png",
     alt: "Star Fox Adventures (box art)",

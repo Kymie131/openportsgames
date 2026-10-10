@@ -20,7 +20,7 @@ export const postVoidMobile: Port = {
   verified: false,
   originalSystem: "Microsoft Windows",
   notes:
-    "Native ARM64 port of Post Void for Android, aiming to match the latest PC build. It needs your own copy of the game.",
+    "Native ARM64 port of Post Void for Android, aiming to match the latest PC build. It needs your own game files.",
   notesEs:
-    "Port nativo ARM64 de Post Void para Android, que busca igualar la última build de PC. Necesita tu propia copia del juego.",
+    "Port nativo ARM64 de Post Void para Android, que busca igualar la última build de PC. Necesita tus propios archivos del juego.",
 };

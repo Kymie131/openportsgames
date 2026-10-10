@@ -20,9 +20,9 @@ export const raymanOriginsRecomp: Port = {
   verified: false,
   originalSystem: "Xbox 360",
   notes:
-    "Recompilation of Rayman Origins (Xbox 360) that builds for Windows, macOS and Android. It requires your own copy of the game.",
+    "Recompilation of Rayman Origins (Xbox 360) that builds for Windows, macOS and Android. It requires the game itself.",
   notesEs:
-    "Recompilación de Rayman Origins (Xbox 360) que compila para Windows, macOS y Android. Requiere tu propia copia del juego.",
+    "Recompilación de Rayman Origins (Xbox 360) que compila para Windows, macOS y Android. Requiere el propio juego.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/7f/Rayman_Origins_Box_Art.jpg",
     alt: "Rayman Origins (box art)",

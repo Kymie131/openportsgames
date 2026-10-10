@@ -20,9 +20,9 @@ export const sonicAdventureRecomp: Port = {
   verified: false,
   originalSystem: "Dreamcast",
   notes:
-    "Native port of Sonic Adventure built on KatanaRecomp, playable on Windows, Linux and Steam Deck. It is a work in progress and needs your own copy of the game.",
+    "Native port of Sonic Adventure built on KatanaRecomp, playable on Windows, Linux and Steam Deck. It is a work in progress and needs your own game data.",
   notesEs:
-    "Port nativo de Sonic Adventure construido sobre KatanaRecomp, jugable en Windows, Linux y Steam Deck. Es un trabajo en progreso y necesita tu propia copia del juego.",
+    "Port nativo de Sonic Adventure construido sobre KatanaRecomp, jugable en Windows, Linux y Steam Deck. Es un trabajo en progreso y necesita tus propios datos del juego.",
   cover: {
     src: "https://thumbnails.libretro.com/Sega%20-%20Dreamcast/Named_Boxarts/Sonic%20Adventure%20(Europe)%20(En,Ja,Fr,De,Es).png",
     alt: "Sonic Adventure (box art)",
