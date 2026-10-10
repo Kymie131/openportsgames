@@ -28,4 +28,11 @@ export const superMarioAdvance2Recomp: Port = {
     alt: "Super Mario Advance 2: Super Mario World (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Snaps/Super%20Mario%20Advance%202%20-%20Super%20Mario%20World%20(Europe)%20(En,Fr,De,Es).png",
+      alt: "Super Mario Advance 2: Super Mario World (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

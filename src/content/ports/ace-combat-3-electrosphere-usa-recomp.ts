@@ -28,4 +28,11 @@ export const aceCombat3ElectrosphereUsaRecomp: Port = {
     alt: "Ace Combat 3: Electrosphere (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Ace%20Combat%203%20-%20Electrosphere%20(Europe)%20(En,Fr,De,Es,It).png",
+      alt: "Ace Combat 3: Electrosphere (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

@@ -28,4 +28,11 @@ export const futureCopLapdRecomp: Port = {
     alt: "Future Cop: L.A.P.D. (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Future%20Cop%20-%20L.A.P.D.%20(Europe)%20(En,Fr).png",
+      alt: "Future Cop: L.A.P.D. (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

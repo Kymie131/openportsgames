@@ -28,4 +28,11 @@ export const residentEvil3Recomp: Port = {
     alt: "Resident Evil 3: Nemesis (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Resident%20Evil%203%20-%20Nemesis%20(Europe).png",
+      alt: "Resident Evil 3: Nemesis (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

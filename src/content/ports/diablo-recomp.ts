@@ -28,4 +28,11 @@ export const diabloRecomp: Port = {
     alt: "Diablo (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Diablo%20(Europe)%20(En,Fr,De,Sv).png",
+      alt: "Diablo (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

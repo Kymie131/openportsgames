@@ -28,4 +28,11 @@ export const pikmin: Port = {
     alt: "Pikmin (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Snaps/Pikmin%20(USA).png",
+      alt: "Pikmin (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

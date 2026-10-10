@@ -28,4 +28,11 @@ export const syphonFilter3Recomp: Port = {
     alt: "Syphon Filter 3 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Syphon%20Filter%203%20(Europe).png",
+      alt: "Syphon Filter 3 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

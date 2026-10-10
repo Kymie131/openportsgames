@@ -28,4 +28,11 @@ export const incredibleCrisisRecomp: Port = {
     alt: "Incredible Crisis (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Incredible%20Crisis%20(Europe)%20(En,Fr,De,Es,It).png",
+      alt: "Incredible Crisis (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

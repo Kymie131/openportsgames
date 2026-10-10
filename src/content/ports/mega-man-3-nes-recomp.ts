@@ -28,4 +28,11 @@ export const megaMan3NesRecomp: Port = {
     alt: "Mega Man 3 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Snaps/Mega%20Man%203%20(USA).png",
+      alt: "Mega Man 3 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

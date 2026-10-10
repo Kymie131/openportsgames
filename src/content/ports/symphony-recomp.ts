@@ -43,4 +43,11 @@ export const symphonyRecomp: Port = {
     alt: "Castlevania: Symphony of the Night (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Castlevania%20-%20Symphony%20of%20the%20Night%20(USA).png",
+      alt: "Castlevania: Symphony of the Night (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

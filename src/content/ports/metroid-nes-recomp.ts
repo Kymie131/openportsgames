@@ -28,4 +28,11 @@ export const metroidNesRecomp: Port = {
     alt: "Metroid (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Snaps/Metroid%20(USA).png",
+      alt: "Metroid (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

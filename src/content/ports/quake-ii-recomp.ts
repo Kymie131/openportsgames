@@ -28,4 +28,11 @@ export const quakeIiRecomp: Port = {
     alt: "Quake II (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Quake%20II%20(Europe).png",
+      alt: "Quake II (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

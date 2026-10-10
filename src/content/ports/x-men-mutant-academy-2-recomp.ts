@@ -28,4 +28,11 @@ export const xMenMutantAcademy2Recomp: Port = {
     alt: "X-Men: Mutant Academy 2 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/X-Men%20-%20Mutant%20Academy%202%20(Europe).png",
+      alt: "X-Men: Mutant Academy 2 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

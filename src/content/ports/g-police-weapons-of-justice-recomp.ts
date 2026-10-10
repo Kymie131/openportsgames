@@ -28,4 +28,11 @@ export const gPoliceWeaponsOfJusticeRecomp: Port = {
     alt: "G-Police: Weapons of Justice (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/G-Police%20-%20Weapons%20of%20Justice%20(Europe).png",
+      alt: "G-Police: Weapons of Justice (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

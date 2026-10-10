@@ -28,4 +28,11 @@ export const medalOfHonorFrontlineRecomp: Port = {
     alt: "Medal of Honor: Frontline (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Snaps/Medal%20of%20Honor%20-%20Frontline%20(Europe).png",
+      alt: "Medal of Honor: Frontline (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

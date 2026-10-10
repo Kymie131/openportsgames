@@ -28,4 +28,11 @@ export const mortalKombat4Recomp: Port = {
     alt: "Mortal Kombat 4 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Mortal%20Kombat%204%20(Europe).png",
+      alt: "Mortal Kombat 4 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

@@ -28,4 +28,11 @@ export const zeldaNesRecomp: Port = {
     alt: "The Legend of Zelda (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Snaps/Legend%20of%20Zelda,%20The%20(USA)%20(Collector's%20Edition).png",
+      alt: "The Legend of Zelda (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

@@ -28,4 +28,11 @@ export const kartiaRecomp: Port = {
     alt: "Kartia: The Word of Fate (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Kartia%20-%20The%20Word%20of%20Fate%20(USA).png",
+      alt: "Kartia: The Word of Fate (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

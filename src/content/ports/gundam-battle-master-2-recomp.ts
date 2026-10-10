@@ -28,4 +28,11 @@ export const gundamBattleMaster2Recomp: Port = {
     alt: "Gundam: The Battle Master 2 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Gundam%20the%20Battle%20Master%202%20(Japan).png",
+      alt: "Gundam: The Battle Master 2 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

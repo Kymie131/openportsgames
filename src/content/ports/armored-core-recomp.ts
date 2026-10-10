@@ -28,4 +28,11 @@ export const armoredCoreRecomp: Port = {
     alt: "Armored Core (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Armored%20Core%20(Europe)%20(En,Fr,De,Es,It).png",
+      alt: "Armored Core (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

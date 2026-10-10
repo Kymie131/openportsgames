@@ -28,4 +28,11 @@ export const dukeNukemLandOfTheBabesRecomp: Port = {
     alt: "Duke Nukem: Land of the Babes (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Duke%20Nukem%20-%20Land%20of%20the%20Babes%20(Europe)%20(En,Fr,De,Es,It).png",
+      alt: "Duke Nukem: Land of the Babes (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

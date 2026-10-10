@@ -28,4 +28,11 @@ export const strider2Recomp: Port = {
     alt: "Strider 2 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Strider%202%20(Europe).png",
+      alt: "Strider 2 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

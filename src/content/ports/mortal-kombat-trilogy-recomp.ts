@@ -28,4 +28,11 @@ export const mortalKombatTrilogyRecomp: Port = {
     alt: "Mortal Kombat Trilogy (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Mortal%20Kombat%20Trilogy%20(Europe).png",
+      alt: "Mortal Kombat Trilogy (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

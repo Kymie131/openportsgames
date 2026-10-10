@@ -28,4 +28,11 @@ export const ridgeRacerRevolutionRecomp: Port = {
     alt: "Ridge Racer Revolution (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Ridge%20Racer%20Revolution%20(USA).png",
+      alt: "Ridge Racer Revolution (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

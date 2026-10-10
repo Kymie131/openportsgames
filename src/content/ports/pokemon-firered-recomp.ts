@@ -28,4 +28,11 @@ export const pokemonFireredRecomp: Port = {
     alt: "Pokémon FireRed (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Snaps/Pokemon%20-%20FireRed%20Version%20(USA).png",
+      alt: "Pokémon FireRed (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

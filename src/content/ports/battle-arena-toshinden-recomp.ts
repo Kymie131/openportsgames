@@ -28,4 +28,11 @@ export const battleArenaToshindenRecomp: Port = {
     alt: "Battle Arena Toshinden (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Battle%20Arena%20Toshinden%20(Europe).png",
+      alt: "Battle Arena Toshinden (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

@@ -28,4 +28,11 @@ export const devilDiceRecomp: Port = {
     alt: "Devil Dice (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Devil%20Dice%20(Europe)%20(En,Fr,De,Es,It).png",
+      alt: "Devil Dice (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

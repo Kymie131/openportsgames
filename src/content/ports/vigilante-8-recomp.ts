@@ -28,4 +28,11 @@ export const vigilante8Recomp: Port = {
     alt: "Vigilante 8 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Vigilante%208%20(Europe).png",
+      alt: "Vigilante 8 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

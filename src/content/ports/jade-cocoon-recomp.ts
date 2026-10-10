@@ -28,4 +28,11 @@ export const jadeCocoonRecomp: Port = {
     alt: "Jade Cocoon: Story of the Tamamayu (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Jade%20Cocoon%20-%20Story%20of%20the%20Tamamayu%20(Europe).png",
+      alt: "Jade Cocoon: Story of the Tamamayu (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

@@ -28,4 +28,11 @@ export const nightmareCreaturesRecomp: Port = {
     alt: "Nightmare Creatures (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Nightmare%20Creatures%20(Europe).png",
+      alt: "Nightmare Creatures (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

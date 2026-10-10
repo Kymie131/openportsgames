@@ -28,4 +28,11 @@ export const dragonBallGtFinalBoutRecomp: Port = {
     alt: "Dragon Ball GT: Final Bout (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Dragon%20Ball%20GT%20-%20Final%20Bout%20(USA).png",
+      alt: "Dragon Ball GT: Final Bout (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

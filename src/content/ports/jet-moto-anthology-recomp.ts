@@ -28,4 +28,11 @@ export const jetMotoAnthologyRecomp: Port = {
     alt: "Jet Moto (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Jet%20Moto%20(USA).png",
+      alt: "Jet Moto (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

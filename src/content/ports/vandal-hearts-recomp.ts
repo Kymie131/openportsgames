@@ -28,4 +28,11 @@ export const vandalHeartsRecomp: Port = {
     alt: "Vandal Hearts (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Vandal%20Hearts%20(Europe)%20(En,Fr,De).png",
+      alt: "Vandal Hearts (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

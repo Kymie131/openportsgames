@@ -28,4 +28,11 @@ export const armoredCoreProjectPhantasmaRecomp: Port = {
     alt: "Armored Core: Project Phantasma (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Armored%20Core%20-%20Project%20Phantasma%20(Japan)%20(Rev%201).png",
+      alt: "Armored Core: Project Phantasma (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

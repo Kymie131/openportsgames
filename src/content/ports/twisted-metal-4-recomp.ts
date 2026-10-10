@@ -28,4 +28,11 @@ export const twistedMetal4Recomp: Port = {
     alt: "Twisted Metal 4 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Twisted%20Metal%204%20(USA)%20(Rev%201).png",
+      alt: "Twisted Metal 4 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

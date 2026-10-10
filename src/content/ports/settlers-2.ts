@@ -31,4 +31,11 @@ export const settlers2: Port = {
     alt: "The Settlers II (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/DOS/Named_Snaps/Settlers%20II,%20The%20(Gold%20Edition)%20(1997).png",
+      alt: "The Settlers II (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

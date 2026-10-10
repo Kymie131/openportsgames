@@ -28,4 +28,11 @@ export const tonyHawkSProSkater2Recomp: Port = {
     alt: "Tony Hawk's Pro Skater 2 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Tony%20Hawk's%20Pro%20Skater%202%20(Europe,%20Australia).png",
+      alt: "Tony Hawk's Pro Skater 2 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

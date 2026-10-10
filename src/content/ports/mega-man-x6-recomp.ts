@@ -28,4 +28,11 @@ export const megaManX6Recomp: Port = {
     alt: "Mega Man X6 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Mega%20Man%20X6%20(USA).png",
+      alt: "Mega Man X6 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

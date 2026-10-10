@@ -28,4 +28,11 @@ export const apocalypseRecomp: Port = {
     alt: "Apocalypse (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Apocalypse%20(Europe).png",
+      alt: "Apocalypse (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

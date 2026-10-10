@@ -28,4 +28,11 @@ export const dukeNukemTimeToKillRecomp: Port = {
     alt: "Duke Nukem: Time to Kill (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Duke%20Nukem%20-%20Time%20to%20Kill%20(Europe).png",
+      alt: "Duke Nukem: Time to Kill (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

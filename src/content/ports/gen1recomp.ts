@@ -28,4 +28,11 @@ export const gen1recomp: Port = {
     alt: "Pokémon Red (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Snaps/Pokemon%20-%20Red%20Version%20(USA,%20Europe)%20(SGB%20Enhanced).png",
+      alt: "Pokémon Red (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

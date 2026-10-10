@@ -28,4 +28,11 @@ export const castlevaniaCircleOfTheMoonRecomp: Port = {
     alt: "Castlevania: Circle of the Moon (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Snaps/Castlevania%20-%20Circle%20of%20the%20Moon%20(USA)%20(Virtual%20Console).png",
+      alt: "Castlevania: Circle of the Moon (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

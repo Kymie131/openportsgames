@@ -28,4 +28,11 @@ export const tenchuStealthAssassinsRecomp: Port = {
     alt: "Tenchu: Stealth Assassins (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Tenchu%20-%20Stealth%20Assassins%20(Europe)%20(En,Fr,It).png",
+      alt: "Tenchu: Stealth Assassins (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

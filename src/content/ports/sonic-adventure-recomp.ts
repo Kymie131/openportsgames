@@ -28,4 +28,11 @@ export const sonicAdventureRecomp: Port = {
     alt: "Sonic Adventure (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sega%20-%20Dreamcast/Named_Snaps/Sonic%20Adventure%20(Europe)%20(En,Ja,Fr,De,Es).png",
+      alt: "Sonic Adventure (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

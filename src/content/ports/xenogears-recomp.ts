@@ -28,4 +28,11 @@ export const xenogearsRecomp: Port = {
     alt: "Xenogears (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Xenogears%20(USA).png",
+      alt: "Xenogears (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

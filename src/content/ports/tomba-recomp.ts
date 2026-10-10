@@ -28,4 +28,11 @@ export const tombaRecomp: Port = {
     alt: "Tomba! (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Tomba!%20(USA).png",
+      alt: "Tomba! (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

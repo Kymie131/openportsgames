@@ -28,4 +28,11 @@ export const oracleRecompiled: Port = {
     alt: "The Legend of Zelda: Oracle of Ages / Oracle of Seasons (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Snaps/Legend%20of%20Zelda,%20The%20-%20Oracle%20of%20Ages%20(Europe)%20(En,Fr,De,Es,It).png",
+      alt: "The Legend of Zelda: Oracle of Ages / Oracle of Seasons (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

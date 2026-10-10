@@ -28,4 +28,11 @@ export const crashBandicoot3WarpedRecomp: Port = {
     alt: "Crash Bandicoot 3: Warped (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Crash%20Bandicoot%203%20-%20Warped%20(Europe)%20(En,Fr,De,Es,It).png",
+      alt: "Crash Bandicoot 3: Warped (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

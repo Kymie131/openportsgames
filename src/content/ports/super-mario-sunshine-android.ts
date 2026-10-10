@@ -28,4 +28,11 @@ export const superMarioSunshineAndroid: Port = {
     alt: "Super Mario Sunshine (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Snaps/Super%20Mario%20Sunshine%20(Europe)%20(En,Fr,De,Es,It).png",
+      alt: "Super Mario Sunshine (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

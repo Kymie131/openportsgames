@@ -38,4 +38,11 @@ export const ctrNative: Port = {
     alt: "Crash Team Racing (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/CTR%20-%20Crash%20Team%20Racing%20(USA).png",
+      alt: "Crash Team Racing (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

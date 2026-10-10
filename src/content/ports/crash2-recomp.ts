@@ -28,4 +28,11 @@ export const crash2Recomp: Port = {
     alt: "Crash Bandicoot 2: Cortex Strikes Back (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Crash%20Bandicoot%202%20-%20Cortex%20Strikes%20Back%20(USA).png",
+      alt: "Crash Bandicoot 2: Cortex Strikes Back (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

@@ -28,4 +28,11 @@ export const vampireHunterDRecomp: Port = {
     alt: "Vampire Hunter D (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Vampire%20Hunter%20D%20(Europe)%20(En,Fr,De).png",
+      alt: "Vampire Hunter D (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

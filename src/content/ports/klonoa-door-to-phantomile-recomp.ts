@@ -28,4 +28,11 @@ export const klonoaDoorToPhantomileRecomp: Port = {
     alt: "Klonoa: Door to Phantomile (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Klonoa%20-%20Door%20to%20Phantomile%20(Europe).png",
+      alt: "Klonoa: Door to Phantomile (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

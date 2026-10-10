@@ -28,4 +28,11 @@ export const marvelVsCapcomRecomp: Port = {
     alt: "Marvel vs. Capcom: Clash of Super Heroes (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Marvel%20vs.%20Capcom%20-%20Clash%20of%20Super%20Heroes%20(Europe).png",
+      alt: "Marvel vs. Capcom: Clash of Super Heroes (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

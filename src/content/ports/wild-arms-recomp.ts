@@ -28,4 +28,11 @@ export const wildArmsRecomp: Port = {
     alt: "Wild Arms (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Wild%20Arms%20(Europe).png",
+      alt: "Wild Arms (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

@@ -28,4 +28,11 @@ export const tokyoHighwayBattleRecomp: Port = {
     alt: "Tokyo Highway Battle (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Tokyo%20Highway%20Battle%20(Europe).png",
+      alt: "Tokyo Highway Battle (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

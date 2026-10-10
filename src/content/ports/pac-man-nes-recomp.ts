@@ -28,4 +28,11 @@ export const pacManNesRecomp: Port = {
     alt: "Pac-Man (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Snaps/Pac-Man%20(USA)%20(Namco).png",
+      alt: "Pac-Man (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

@@ -28,4 +28,11 @@ export const alundraRecomp: Port = {
     alt: "Alundra (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Alundra%20(Europe).png",
+      alt: "Alundra (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

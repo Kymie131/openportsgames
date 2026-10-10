@@ -28,4 +28,11 @@ export const tetrisGbRecomp: Port = {
     alt: "Tetris (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Snaps/Tetris%20(Japan)%20(En).png",
+      alt: "Tetris (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

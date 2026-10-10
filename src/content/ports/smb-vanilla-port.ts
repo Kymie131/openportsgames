@@ -28,4 +28,11 @@ export const smbVanillaPort: Port = {
     alt: "Super Mario Bros. (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Snaps/Super%20Mario%20Bros.%20(World).png",
+      alt: "Super Mario Bros. (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

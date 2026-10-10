@@ -28,4 +28,11 @@ export const spaceChannel5Recomp: Port = {
     alt: "Space Channel 5 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sega%20-%20Dreamcast/Named_Snaps/Space%20Channel%205%20(Europe)%20(En,Fr,De,Es).png",
+      alt: "Space Channel 5 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

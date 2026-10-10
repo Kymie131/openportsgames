@@ -28,4 +28,11 @@ export const fightingForceRecomp: Port = {
     alt: "Fighting Force (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Fighting%20Force%20(Europe)%20(En,Fr,De).png",
+      alt: "Fighting Force (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

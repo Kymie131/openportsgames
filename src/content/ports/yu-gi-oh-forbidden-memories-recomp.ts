@@ -28,4 +28,11 @@ export const yuGiOhForbiddenMemoriesRecomp: Port = {
     alt: "Yu-Gi-Oh! Forbidden Memories (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Yu-Gi-Oh!%20Forbidden%20Memories%20(Europe).png",
+      alt: "Yu-Gi-Oh! Forbidden Memories (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

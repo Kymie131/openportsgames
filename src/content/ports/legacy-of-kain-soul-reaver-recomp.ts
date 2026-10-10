@@ -28,4 +28,11 @@ export const legacyOfKainSoulReaverRecomp: Port = {
     alt: "Legacy of Kain: Soul Reaver (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Legacy%20of%20Kain%20-%20Soul%20Reaver%20(Europe).png",
+      alt: "Legacy of Kain: Soul Reaver (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

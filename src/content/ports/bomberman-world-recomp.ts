@@ -28,4 +28,11 @@ export const bombermanWorldRecomp: Port = {
     alt: "Bomberman World (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Bomberman%20World%20(Europe,%20Australia)%20(En,Fr,De,Es,It).png",
+      alt: "Bomberman World (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

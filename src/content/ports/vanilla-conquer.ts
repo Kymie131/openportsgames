@@ -31,4 +31,11 @@ export const vanillaConquer: Port = {
     alt: "Command & Conquer (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/DOS/Named_Snaps/Command%20and%20Conquer%20(1995).png",
+      alt: "Command & Conquer (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

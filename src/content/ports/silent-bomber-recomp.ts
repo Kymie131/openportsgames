@@ -28,4 +28,11 @@ export const silentBomberRecomp: Port = {
     alt: "Silent Bomber (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Silent%20Bomber%20(Europe).png",
+      alt: "Silent Bomber (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

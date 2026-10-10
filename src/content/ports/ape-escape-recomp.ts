@@ -28,4 +28,11 @@ export const apeEscapeRecomp: Port = {
     alt: "Ape Escape (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Ape%20Escape%20(USA).png",
+      alt: "Ape Escape (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

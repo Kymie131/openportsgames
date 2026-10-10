@@ -28,4 +28,11 @@ export const streetFighterAlpha3Recomp: Port = {
     alt: "Street Fighter Alpha 3 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Street%20Fighter%20Alpha%203%20(Europe).png",
+      alt: "Street Fighter Alpha 3 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

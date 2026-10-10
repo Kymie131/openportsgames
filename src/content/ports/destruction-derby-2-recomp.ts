@@ -28,4 +28,11 @@ export const destructionDerby2Recomp: Port = {
     alt: "Destruction Derby 2 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Destruction%20Derby%202%20(Europe).png",
+      alt: "Destruction Derby 2 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

@@ -28,4 +28,11 @@ export const tailConcertoRecomp: Port = {
     alt: "Tail Concerto (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Tail%20Concerto%20(Japan).png",
+      alt: "Tail Concerto (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

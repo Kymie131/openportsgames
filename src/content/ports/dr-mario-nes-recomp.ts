@@ -28,4 +28,11 @@ export const drMarioNesRecomp: Port = {
     alt: "Dr. Mario (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Snaps/Dr.%20Mario%20(USA)%20(Beta).png",
+      alt: "Dr. Mario (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

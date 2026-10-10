@@ -28,4 +28,11 @@ export const silentEngine: Port = {
     alt: "Silent Hill (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Silent%20Hill%20(USA).png",
+      alt: "Silent Hill (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

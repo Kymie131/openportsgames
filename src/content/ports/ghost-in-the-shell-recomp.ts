@@ -28,4 +28,11 @@ export const ghostInTheShellRecomp: Port = {
     alt: "Ghost in the Shell (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Ghost%20in%20the%20Shell%20(Europe).png",
+      alt: "Ghost in the Shell (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

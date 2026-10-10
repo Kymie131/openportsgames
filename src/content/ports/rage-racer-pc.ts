@@ -28,4 +28,11 @@ export const rageRacerPc: Port = {
     alt: "Rage Racer (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Rage%20Racer%20(USA).png",
+      alt: "Rage Racer (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

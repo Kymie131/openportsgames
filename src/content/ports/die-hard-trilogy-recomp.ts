@@ -28,4 +28,11 @@ export const dieHardTrilogyRecomp: Port = {
     alt: "Die Hard Trilogy (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Die%20Hard%20Trilogy%20(Europe)%20(En,Fr,De,Es,It,Sv).png",
+      alt: "Die Hard Trilogy (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

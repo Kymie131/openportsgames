@@ -28,4 +28,11 @@ export const driverRecomp: Port = {
     alt: "Driver (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Driver%20(Europe).png",
+      alt: "Driver (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

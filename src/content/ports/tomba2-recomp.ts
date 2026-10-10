@@ -28,4 +28,11 @@ export const tomba2Recomp: Port = {
     alt: "Tomba! 2: The Evil Swine Return (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Tomba!%202%20-%20The%20Evil%20Swine%20Return%20(USA).png",
+      alt: "Tomba! 2: The Evil Swine Return (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

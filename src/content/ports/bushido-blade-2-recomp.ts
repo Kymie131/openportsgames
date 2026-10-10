@@ -28,4 +28,11 @@ export const bushidoBlade2Recomp: Port = {
     alt: "Bushido Blade 2 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Bushido%20Blade%202%20(Japan,%20Asia).png",
+      alt: "Bushido Blade 2 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

@@ -28,4 +28,11 @@ export const threadsOfFateRecomp: Port = {
     alt: "Threads of Fate (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Threads%20of%20Fate%20(USA).png",
+      alt: "Threads of Fate (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

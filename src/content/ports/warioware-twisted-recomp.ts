@@ -28,4 +28,11 @@ export const wariowareTwistedRecomp: Port = {
     alt: "WarioWare: Twisted! (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Snaps/WarioWare%20-%20Twisted!%20(USA).png",
+      alt: "WarioWare: Twisted! (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

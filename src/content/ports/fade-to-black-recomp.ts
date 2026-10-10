@@ -28,4 +28,11 @@ export const fadeToBlackRecomp: Port = {
     alt: "Fade to Black (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Fade%20to%20Black%20(Europe)%20(En,Fr,De,Es,It).png",
+      alt: "Fade to Black (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

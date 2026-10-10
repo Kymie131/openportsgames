@@ -28,4 +28,11 @@ export const dragonBallZUltimateBattle22Recomp: Port = {
     alt: "Dragon Ball Z: Ultimate Battle 22 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Dragon%20Ball%20Z%20-%20Ultimate%20Battle%2022%20(Europe).png",
+      alt: "Dragon Ball Z: Ultimate Battle 22 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

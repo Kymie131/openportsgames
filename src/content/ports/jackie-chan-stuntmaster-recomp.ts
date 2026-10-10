@@ -28,4 +28,11 @@ export const jackieChanStuntmasterRecomp: Port = {
     alt: "Jackie Chan Stuntmaster (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Jackie%20Chan%20Stuntmaster%20(Europe).png",
+      alt: "Jackie Chan Stuntmaster (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

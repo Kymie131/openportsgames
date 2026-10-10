@@ -28,4 +28,11 @@ export const bloodyRoar2Recomp: Port = {
     alt: "Bloody Roar 2 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Bloody%20Roar%202%20-%20Bringer%20of%20the%20New%20Age%20(Europe).png",
+      alt: "Bloody Roar 2 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

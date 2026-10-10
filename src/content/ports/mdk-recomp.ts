@@ -28,4 +28,11 @@ export const mdkRecomp: Port = {
     alt: "MDK (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/MDK%20(Europe)%20(En,Fr,De,Es,It).png",
+      alt: "MDK (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

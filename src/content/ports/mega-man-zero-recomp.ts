@@ -28,4 +28,11 @@ export const megaManZeroRecomp: Port = {
     alt: "Mega Man Zero (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Snaps/Mega%20Man%20Zero%20(USA)%20(Virtual%20Console).png",
+      alt: "Mega Man Zero (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

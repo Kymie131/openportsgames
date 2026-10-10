@@ -28,4 +28,11 @@ export const tsumuLightRecomp: Port = {
     alt: "Tsumu Light (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Tsumu%20Light%20(Japan).png",
+      alt: "Tsumu Light (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

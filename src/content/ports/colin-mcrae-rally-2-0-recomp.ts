@@ -28,4 +28,11 @@ export const colinMcraeRally20Recomp: Port = {
     alt: "Colin McRae Rally 2.0 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Colin%20McRae%20Rally%202.0%20(Europe)%20(En,Fr,De,Es,It)%20(Rev%201).png",
+      alt: "Colin McRae Rally 2.0 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

@@ -28,4 +28,11 @@ export const xenaWarriorPrincessRecomp: Port = {
     alt: "Xena: Warrior Princess (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Xena%20-%20Warrior%20Princess%20(Europe).png",
+      alt: "Xena: Warrior Princess (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

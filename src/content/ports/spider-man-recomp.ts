@@ -28,4 +28,11 @@ export const spiderManRecomp: Port = {
     alt: "Spider-Man (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Spider-Man%20(Europe).png",
+      alt: "Spider-Man (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

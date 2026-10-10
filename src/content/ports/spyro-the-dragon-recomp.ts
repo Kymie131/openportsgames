@@ -28,4 +28,11 @@ export const spyroTheDragonRecomp: Port = {
     alt: "Spyro the Dragon (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Spyro%20the%20Dragon%20(Europe)%20(En,Fr,De,Es,It).png",
+      alt: "Spyro the Dragon (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

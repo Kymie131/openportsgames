@@ -28,4 +28,11 @@ export const metalSlugXRecomp: Port = {
     alt: "Metal Slug X (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Metal%20Slug%20X%20(Europe).png",
+      alt: "Metal Slug X (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

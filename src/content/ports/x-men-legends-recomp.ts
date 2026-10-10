@@ -28,4 +28,11 @@ export const xMenLegendsRecomp: Port = {
     alt: "X-Men Legends (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Snaps/X-Men%20Legends%20(USA).png",
+      alt: "X-Men Legends (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

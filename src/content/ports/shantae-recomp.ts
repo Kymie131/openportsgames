@@ -28,4 +28,11 @@ export const shantaeRecomp: Port = {
     alt: "Shantae (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Snaps/Shantae%20(USA).png",
+      alt: "Shantae (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

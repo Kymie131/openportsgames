@@ -28,4 +28,11 @@ export const kirbysDreamLandRecomp: Port = {
     alt: "Kirby's Dream Land (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Snaps/Kirby's%20Dream%20Land%20(USA,%20Europe).png",
+      alt: "Kirby's Dream Land (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

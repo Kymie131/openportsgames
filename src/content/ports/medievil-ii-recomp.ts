@@ -28,4 +28,11 @@ export const medievilIiRecomp: Port = {
     alt: "MediEvil II (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/MediEvil%20II%20(USA).png",
+      alt: "MediEvil II (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

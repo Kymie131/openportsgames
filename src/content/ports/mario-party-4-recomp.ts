@@ -28,4 +28,11 @@ export const marioParty4Recomp: Port = {
     alt: "Mario Party 4 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Snaps/Mario%20Party%204%20(Europe)%20(En,Fr,De,Es,It)%20(Rev%202).png",
+      alt: "Mario Party 4 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

@@ -28,4 +28,11 @@ export const marioTennisVirtualBoyRecomp: Port = {
     alt: "Mario's Tennis (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Virtual%20Boy/Named_Snaps/Mario's%20Tennis%20(Japan,%20USA)%20(En).png",
+      alt: "Mario's Tennis (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

@@ -28,4 +28,11 @@ export const rTypeDeltaRecomp: Port = {
     alt: "R-Type Delta (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/R-Type%20Delta%20(Europe).png",
+      alt: "R-Type Delta (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

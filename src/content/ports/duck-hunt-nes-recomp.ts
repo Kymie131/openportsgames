@@ -28,4 +28,11 @@ export const duckHuntNesRecomp: Port = {
     alt: "Duck Hunt (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Snaps/Duck%20Hunt%20(World).png",
+      alt: "Duck Hunt (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

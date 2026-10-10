@@ -29,4 +29,11 @@ export const pepsimanRecompiled: Port = {
     alt: "Pepsiman (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Pepsiman%20(Japan).png",
+      alt: "Pepsiman (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

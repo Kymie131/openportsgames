@@ -28,4 +28,11 @@ export const kulaWorldRecomp: Port = {
     alt: "Kula World (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Kula%20World%20(Europe).png",
+      alt: "Kula World (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

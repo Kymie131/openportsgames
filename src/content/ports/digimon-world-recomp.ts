@@ -28,4 +28,11 @@ export const digimonWorldRecomp: Port = {
     alt: "Digimon World (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Digimon%20World%20(Europe).png",
+      alt: "Digimon World (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

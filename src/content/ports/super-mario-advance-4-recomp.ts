@@ -28,4 +28,11 @@ export const superMarioAdvance4Recomp: Port = {
     alt: "Super Mario Advance 4: Super Mario Bros. 3 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Snaps/Super%20Mario%20Advance%204%20-%20Super%20Mario%20Bros.%203%20(Europe)%20(En,Fr,De,Es,It)%20(Rev%201)%20(Virtual%20Console).png",
+      alt: "Super Mario Advance 4: Super Mario Bros. 3 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

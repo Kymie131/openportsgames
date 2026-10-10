@@ -28,4 +28,11 @@ export const braveFencerMusashiRecomp: Port = {
     alt: "Brave Fencer Musashi (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Brave%20Fencer%20Musashi%20(USA).png",
+      alt: "Brave Fencer Musashi (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

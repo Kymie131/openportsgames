@@ -28,4 +28,11 @@ export const samuraiShodownWarriorsRageRecomp: Port = {
     alt: "Samurai Shodown: Warriors Rage (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Samurai%20Shodown%20-%20Warriors%20Rage%20(USA).png",
+      alt: "Samurai Shodown: Warriors Rage (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

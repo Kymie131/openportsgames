@@ -28,4 +28,11 @@ export const martianGothicRecomp: Port = {
     alt: "Martian Gothic: Unification (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Martian%20Gothic%20-%20Unification%20(Europe)%20(En,Fr,Es,It).png",
+      alt: "Martian Gothic: Unification (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

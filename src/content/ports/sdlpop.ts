@@ -33,4 +33,11 @@ export const sdlPoP: Port = {
     alt: "Prince of Persia (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/DOS/Named_Snaps/Prince%20of%20Persia.png",
+      alt: "Prince of Persia (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

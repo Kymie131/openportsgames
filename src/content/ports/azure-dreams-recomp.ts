@@ -28,4 +28,11 @@ export const azureDreamsRecomp: Port = {
     alt: "Azure Dreams (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Azure%20Dreams%20(Europe)%20(En,Fr,De).png",
+      alt: "Azure Dreams (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

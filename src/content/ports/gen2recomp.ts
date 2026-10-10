@@ -28,4 +28,11 @@ export const gen2recomp: Port = {
     alt: "Pokémon Gold (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Snaps/Pokemon%20-%20Gold%20Version%20(USA,%20Europe)%20(SGB%20Enhanced)%20(GB%20Compatible).png",
+      alt: "Pokémon Gold (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

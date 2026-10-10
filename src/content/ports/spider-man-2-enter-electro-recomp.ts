@@ -28,4 +28,11 @@ export const spiderMan2EnterElectroRecomp: Port = {
     alt: "Spider-Man 2: Enter Electro (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Spider-Man%202%20-%20Enter%20-%20Electro%20(Europe).png",
+      alt: "Spider-Man 2: Enter Electro (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

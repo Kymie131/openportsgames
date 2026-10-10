@@ -28,4 +28,11 @@ export const pokemonPlatinumRecomp: Port = {
     alt: "Pokémon Platinum (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Snaps/Pokemon%20-%20Platinum%20Version%20(USA).png",
+      alt: "Pokémon Platinum (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

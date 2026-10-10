@@ -28,4 +28,11 @@ export const windWakerRecomp: Port = {
     alt: "The Legend of Zelda: The Wind Waker (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Snaps/Legend%20of%20Zelda,%20The%20-%20The%20Wind%20Waker%20(USA).png",
+      alt: "The Legend of Zelda: The Wind Waker (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

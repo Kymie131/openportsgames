@@ -28,4 +28,11 @@ export const dinoCrisisRecomp: Port = {
     alt: "Dino Crisis (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Dino%20Crisis%20(Europe).png",
+      alt: "Dino Crisis (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

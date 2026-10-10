@@ -28,4 +28,11 @@ export const megaManLegendsRecomp: Port = {
     alt: "Mega Man Legends (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Mega%20Man%20Legends%20(Europe).png",
+      alt: "Mega Man Legends (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

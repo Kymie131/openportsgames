@@ -28,4 +28,11 @@ export const dragonBallZLegacyOfGoku2Recomp: Port = {
     alt: "Dragon Ball Z: The Legacy of Goku II (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Snaps/Dragon%20Ball%20Z%20-%20The%20Legacy%20of%20Goku%20II%20(Europe)%20(En,Fr,De,Es,It).png",
+      alt: "Dragon Ball Z: The Legacy of Goku II (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

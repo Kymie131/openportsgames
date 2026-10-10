@@ -28,4 +28,11 @@ export const chaotixRecompiled: Port = {
     alt: "Knuckles' Chaotix (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sega%20-%2032X/Named_Snaps/Knuckles'%20Chaotix%20(Europe).png",
+      alt: "Knuckles' Chaotix (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

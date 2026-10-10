@@ -28,4 +28,11 @@ export const guiltyGearRecomp: Port = {
     alt: "Guilty Gear (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Guilty%20Gear%20(Europe).png",
+      alt: "Guilty Gear (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

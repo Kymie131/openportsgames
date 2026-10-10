@@ -28,4 +28,11 @@ export const starFoxAdventuresRecomp: Port = {
     alt: "Star Fox Adventures (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Snaps/Star%20Fox%20Adventures%20(Europe)%20(En,Fr,De,Es,It)%20(Rev%201).png",
+      alt: "Star Fox Adventures (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

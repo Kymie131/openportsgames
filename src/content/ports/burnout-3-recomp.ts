@@ -28,4 +28,11 @@ export const burnout3Recomp: Port = {
     alt: "Burnout 3: Takedown (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Snaps/Burnout%203%20-%20Takedown%20(USA).png",
+      alt: "Burnout 3: Takedown (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

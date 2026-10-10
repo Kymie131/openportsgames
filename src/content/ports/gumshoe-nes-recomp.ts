@@ -28,4 +28,11 @@ export const gumshoeNesRecomp: Port = {
     alt: "Gumshoe (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Snaps/Gumshoe%20(USA,%20Europe).png",
+      alt: "Gumshoe (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

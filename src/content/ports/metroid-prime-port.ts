@@ -28,4 +28,11 @@ export const metroidPrimePort: Port = {
     alt: "Metroid Prime (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Snaps/Metroid%20Prime%20(USA).png",
+      alt: "Metroid Prime (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

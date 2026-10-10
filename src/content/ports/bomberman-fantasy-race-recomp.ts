@@ -28,4 +28,11 @@ export const bombermanFantasyRaceRecomp: Port = {
     alt: "Bomberman Fantasy Race (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Bomberman%20Fantasy%20Race%20(Europe)%20(En,Fr,De,Es).png",
+      alt: "Bomberman Fantasy Race (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

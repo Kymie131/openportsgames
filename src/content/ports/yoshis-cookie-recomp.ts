@@ -28,4 +28,11 @@ export const yoshisCookieRecomp: Port = {
     alt: "Yoshi's Cookie (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Snaps/Yoshi's%20Cookie%20(USA).png",
+      alt: "Yoshi's Cookie (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

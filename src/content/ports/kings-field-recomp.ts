@@ -28,4 +28,11 @@ export const kingsFieldRecomp: Port = {
     alt: "King's Field (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/King's%20Field%20(USA).png",
+      alt: "King's Field (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

@@ -28,4 +28,11 @@ export const sonicRAndroid: Port = {
     alt: "Sonic R (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Snaps/Sonic%20R%20(Europe).png",
+      alt: "Sonic R (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

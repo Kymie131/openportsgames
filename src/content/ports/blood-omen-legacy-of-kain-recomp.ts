@@ -28,4 +28,11 @@ export const bloodOmenLegacyOfKainRecomp: Port = {
     alt: "Blood Omen: Legacy of Kain (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Blood%20Omen%20-%20Legacy%20of%20Kain%20(Europe).png",
+      alt: "Blood Omen: Legacy of Kain (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

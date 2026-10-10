@@ -28,4 +28,11 @@ export const wipeoutXlRecomp: Port = {
     alt: "Wipeout XL (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Wipeout%20XL%20(Japan,%20Asia).png",
+      alt: "Wipeout XL (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

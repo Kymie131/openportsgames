@@ -28,4 +28,11 @@ export const starWarsMastersOfTerasKasiRecomp: Port = {
     alt: "Star Wars: Masters of Teras Kasi (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Star%20Wars%20-%20Masters%20of%20Teras%20Kasi%20(Europe).png",
+      alt: "Star Wars: Masters of Teras Kasi (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

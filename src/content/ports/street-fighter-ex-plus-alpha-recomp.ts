@@ -28,4 +28,11 @@ export const streetFighterExPlusAlphaRecomp: Port = {
     alt: "Street Fighter EX Plus Alpha (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Street%20Fighter%20EX%20Plus%20Alpha%20(Europe).png",
+      alt: "Street Fighter EX Plus Alpha (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

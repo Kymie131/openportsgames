@@ -28,4 +28,11 @@ export const inColdBloodRecomp: Port = {
     alt: "In Cold Blood (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/In%20Cold%20Blood%20(USA)%20(Disc%201).png",
+      alt: "In Cold Blood (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

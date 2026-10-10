@@ -28,4 +28,11 @@ export const summonNightSwordcraft3Recomp: Port = {
     alt: "Summon Night: Craft Sword Monogatari - Hajimari no Ishi (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Snaps/Summon%20Night%20-%20Craft%20Sword%20Monogatari%20-%20Hajimari%20no%20Ishi%20(Japan).png",
+      alt: "Summon Night: Craft Sword Monogatari - Hajimari no Ishi (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

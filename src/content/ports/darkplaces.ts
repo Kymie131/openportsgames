@@ -29,4 +29,11 @@ export const darkPlaces: Port = {
     alt: "Quake (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/DOS/Named_Snaps/Quake%20(1996).png",
+      alt: "Quake (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

@@ -28,4 +28,11 @@ export const dragonBallZBuusFuryRecomp: Port = {
     alt: "Dragon Ball Z: Buu's Fury (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Snaps/Dragon%20Ball%20Z%20-%20Buu's%20Fury%20(USA).png",
+      alt: "Dragon Ball Z: Buu's Fury (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

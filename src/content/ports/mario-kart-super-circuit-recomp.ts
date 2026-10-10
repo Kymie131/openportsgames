@@ -28,4 +28,11 @@ export const marioKartSuperCircuitRecomp: Port = {
     alt: "Mario Kart: Super Circuit (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Snaps/Mario%20Kart%20-%20Super%20Circuit%20(USA).png",
+      alt: "Mario Kart: Super Circuit (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

@@ -28,4 +28,11 @@ export const megaMan8Recomp: Port = {
     alt: "Mega Man 8 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Mega%20Man%208%20(Europe).png",
+      alt: "Mega Man 8 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

@@ -28,4 +28,11 @@ export const bombermanPartyEditionRecomp: Port = {
     alt: "Bomberman Party Edition (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Bomberman%20-%20Party%20Edition%20(USA).png",
+      alt: "Bomberman Party Edition (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

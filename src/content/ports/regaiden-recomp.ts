@@ -28,4 +28,11 @@ export const regaidenRecomp: Port = {
     alt: "Resident Evil Gaiden (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Snaps/Resident%20Evil%20Gaiden%20(Europe)%20(En,Fr,De,Es,It).png",
+      alt: "Resident Evil Gaiden (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

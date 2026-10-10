@@ -28,4 +28,11 @@ export const animalCrossingPcPort: Port = {
     alt: "Animal Crossing (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Snaps/Animal%20Crossing%20(USA).png",
+      alt: "Animal Crossing (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

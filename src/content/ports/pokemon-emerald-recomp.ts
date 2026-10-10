@@ -28,4 +28,11 @@ export const pokemonEmeraldRecomp: Port = {
     alt: "Pokémon Emerald (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Snaps/Pokemon%20-%20Emerald%20Version%20(USA,%20Europe).png",
+      alt: "Pokémon Emerald (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

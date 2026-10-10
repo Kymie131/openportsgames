@@ -28,4 +28,11 @@ export const menInBlackTheGameRecomp: Port = {
     alt: "Men in Black: The Game (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Men%20in%20Black%20-%20The%20Game%20(Europe).png",
+      alt: "Men in Black: The Game (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

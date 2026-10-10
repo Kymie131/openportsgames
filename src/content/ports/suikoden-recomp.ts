@@ -28,4 +28,11 @@ export const suikodenRecomp: Port = {
     alt: "Suikoden (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Suikoden%20(Europe).png",
+      alt: "Suikoden (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

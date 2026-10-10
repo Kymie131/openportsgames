@@ -28,4 +28,11 @@ export const puyoPuyoBoxRecomp: Port = {
     alt: "Puyo Puyo Box (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Puyo%20Puyo%20Box%20(Japan).png",
+      alt: "Puyo Puyo Box (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

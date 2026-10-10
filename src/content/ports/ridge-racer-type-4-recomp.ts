@@ -28,4 +28,11 @@ export const ridgeRacerType4Recomp: Port = {
     alt: "R4: Ridge Racer Type 4 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/R4%20-%20Ridge%20Racer%20Type%204%20(USA).png",
+      alt: "R4: Ridge Racer Type 4 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

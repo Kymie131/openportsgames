@@ -28,4 +28,11 @@ export const gundamBattleAssault2Recomp: Port = {
     alt: "Gundam: Battle Assault 2 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Gundam%20Battle%20Assault%202%20(Europe)%20(En,Fr,De,Es,It).png",
+      alt: "Gundam: Battle Assault 2 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

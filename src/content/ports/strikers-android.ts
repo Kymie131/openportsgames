@@ -28,4 +28,11 @@ export const strikersAndroid: Port = {
     alt: "Super Mario Strikers (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Snaps/Super%20Mario%20Strikers%20(Japan).png",
+      alt: "Super Mario Strikers (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

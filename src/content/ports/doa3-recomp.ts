@@ -28,4 +28,11 @@ export const doa3Recomp: Port = {
     alt: "Dead or Alive 3 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Snaps/Dead%20or%20Alive%203%20(USA).png",
+      alt: "Dead or Alive 3 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

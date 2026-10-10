@@ -28,4 +28,11 @@ export const proPinballTimeshockRecomp: Port = {
     alt: "Pro Pinball: Timeshock! (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Pro%20Pinball%20-%20Timeshock!%20(Europe)%20(En,Fr,De,Es,It).png",
+      alt: "Pro Pinball: Timeshock! (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

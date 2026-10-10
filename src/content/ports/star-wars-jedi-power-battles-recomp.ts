@@ -28,4 +28,11 @@ export const starWarsJediPowerBattlesRecomp: Port = {
     alt: "Star Wars Episode I: Jedi Power Battles (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Star%20Wars%20-%20Episode%20I%20-%20Jedi%20Power%20Battles%20(Europe).png",
+      alt: "Star Wars Episode I: Jedi Power Battles (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

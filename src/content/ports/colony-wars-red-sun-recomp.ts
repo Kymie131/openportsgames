@@ -28,4 +28,11 @@ export const colonyWarsRedSunRecomp: Port = {
     alt: "Colony Wars: Red Sun (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Colony%20Wars%20-%20Red%20Sun%20(Europe).png",
+      alt: "Colony Wars: Red Sun (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

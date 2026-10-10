@@ -28,4 +28,11 @@ export const faxanaduRecomp: Port = {
     alt: "Faxanadu (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Snaps/Faxanadu%20(USA).png",
+      alt: "Faxanadu (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

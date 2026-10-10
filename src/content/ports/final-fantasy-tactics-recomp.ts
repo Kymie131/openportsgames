@@ -28,4 +28,11 @@ export const finalFantasyTacticsRecomp: Port = {
     alt: "Final Fantasy Tactics (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Final%20Fantasy%20Tactics%20(Japan)%20(Rev%201).png",
+      alt: "Final Fantasy Tactics (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

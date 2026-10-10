@@ -28,4 +28,11 @@ export const rampageThroughTimeRecomp: Port = {
     alt: "Rampage: Through Time (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Rampage%20-%20Through%20Time%20(Europe)%20(En,Fr,De).png",
+      alt: "Rampage: Through Time (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

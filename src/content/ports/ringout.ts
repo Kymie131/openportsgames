@@ -28,4 +28,11 @@ export const ringOut: Port = {
     alt: "SoulCalibur II (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Snaps/SoulCalibur%20II%20(USA).png",
+      alt: "SoulCalibur II (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

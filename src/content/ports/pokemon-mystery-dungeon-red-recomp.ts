@@ -28,4 +28,11 @@ export const pokemonMysteryDungeonRedRecomp: Port = {
     alt: "Pokémon Mystery Dungeon: Red Rescue Team (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Snaps/Pokemon%20Mystery%20Dungeon%20-%20Red%20Rescue%20Team%20(Europe)%20(En,Fr,De,Es,It).png",
+      alt: "Pokémon Mystery Dungeon: Red Rescue Team (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

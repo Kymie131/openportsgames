@@ -28,4 +28,11 @@ export const neoDriftOutRecomp: Port = {
     alt: "Neo Drift Out (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/SNK%20-%20Neo%20Geo/Named_Snaps/Neo%20Drift%20Out%20-%20New%20Technology.png",
+      alt: "Neo Drift Out (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

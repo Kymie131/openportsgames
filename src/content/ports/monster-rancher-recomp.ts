@@ -28,4 +28,11 @@ export const monsterRancherRecomp: Port = {
     alt: "Monster Rancher (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Monster%20Rancher%20(Europe).png",
+      alt: "Monster Rancher (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

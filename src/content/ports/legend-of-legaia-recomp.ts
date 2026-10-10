@@ -28,4 +28,11 @@ export const legendOfLegaiaRecomp: Port = {
     alt: "Legend of Legaia (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Legend%20of%20Legaia%20(Europe).png",
+      alt: "Legend of Legaia (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

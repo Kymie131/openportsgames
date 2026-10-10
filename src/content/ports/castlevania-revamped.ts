@@ -28,4 +28,11 @@ export const castlevaniaRevamped: Port = {
     alt: "Castlevania (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Snaps/Castlevania%20(Europe)%20(Virtual%20Console).png",
+      alt: "Castlevania (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

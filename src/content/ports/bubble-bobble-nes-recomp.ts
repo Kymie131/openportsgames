@@ -28,4 +28,11 @@ export const bubbleBobbleNesRecomp: Port = {
     alt: "Bubble Bobble (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Snaps/Bubble%20Bobble%20(Europe)%20(Virtual%20Console).png",
+      alt: "Bubble Bobble (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

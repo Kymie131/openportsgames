@@ -28,4 +28,11 @@ export const oddworldAbeSOddyseeRecomp: Port = {
     alt: "Oddworld: Abe's Oddysee (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Oddworld%20-%20Abe's%20Oddysee%20(Europe).png",
+      alt: "Oddworld: Abe's Oddysee (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

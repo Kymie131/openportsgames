@@ -28,4 +28,11 @@ export const zelda2AdventureOfLinkRecomp: Port = {
     alt: "Zelda II: The Adventure of Link (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Snaps/Zelda%20II%20-%20The%20Adventure%20of%20Link%20(Europe)%20(Rev%201).png",
+      alt: "Zelda II: The Adventure of Link (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

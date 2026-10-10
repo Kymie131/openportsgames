@@ -31,4 +31,11 @@ export const minishCap: Port = {
     alt: "The Legend of Zelda: The Minish Cap (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Snaps/Legend%20of%20Zelda,%20The%20-%20The%20Minish%20Cap%20(USA)%20(Demo)%20(Kiosk).png",
+      alt: "The Legend of Zelda: The Minish Cap (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

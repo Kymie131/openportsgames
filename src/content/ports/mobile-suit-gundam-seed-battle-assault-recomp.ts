@@ -28,4 +28,11 @@ export const mobileSuitGundamSeedBattleAssaultRecomp: Port = {
     alt: "Mobile Suit Gundam SEED: Battle Assault (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Snaps/Mobile%20Suit%20Gundam%20Seed%20-%20Battle%20Assault%20(USA).png",
+      alt: "Mobile Suit Gundam SEED: Battle Assault (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

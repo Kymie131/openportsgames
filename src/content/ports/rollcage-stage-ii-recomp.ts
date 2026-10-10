@@ -28,4 +28,11 @@ export const rollcageStageIiRecomp: Port = {
     alt: "Rollcage Stage II (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Snaps/Rollcage%20Stage%20II%20(Europe)%20(En,Fr,De,Es,It).png",
+      alt: "Rollcage Stage II (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };
