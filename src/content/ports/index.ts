@@ -509,6 +509,10 @@ import { finalFantasyVSnesRecomp } from "./final-fantasy-v-snes-recomp";
 import { actraiserRecomp } from "./actraiser-recomp";
 import { bubbleBobbleNesRecomp } from "./bubble-bobble-nes-recomp";
 import { cannonball } from "./cannonball";
+import { zeroRacersRecomp } from "./zero-racers-recomp";
+import { marioTennisVirtualBoyRecomp } from "./mario-tennis-virtual-boy-recomp";
+import { windWakerHdRecomp } from "./wind-waker-hd-recomp";
+import { neoDriftOutRecomp } from "./neo-drift-out-recomp";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -1021,4 +1025,8 @@ export const portCases: Port[] = [
   actraiserRecomp,
   bubbleBobbleNesRecomp,
   cannonball,
+  zeroRacersRecomp,
+  marioTennisVirtualBoyRecomp,
+  windWakerHdRecomp,
+  neoDriftOutRecomp,
 ];

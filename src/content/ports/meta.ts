@@ -511,4 +511,8 @@ export const originalSystemById: Record<Port["id"], string> = {
   "actraiser-recomp": "Super Nintendo",
   "bubble-bobble-nes-recomp": "Nintendo Entertainment System",
   cannonball: "Arcade",
+  "zero-racers-recomp": "Virtual Boy",
+  "mario-tennis-virtual-boy-recomp": "Virtual Boy",
+  "wind-waker-hd-recomp": "Wii U",
+  "neo-drift-out-recomp": "Neo Geo",
 };
