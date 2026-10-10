@@ -53,8 +53,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
-        {/* Warm up the connections to the hosts that serve port art, so the
-            first catalog paint does not pay a DNS + TLS handshake per host. */}
+        {/* Preconnect to the hosts that serve port art. */}
         {getImageHosts().map((host) => (
           <link key={host} rel="preconnect" href={`https://${host}`} />
         ))}

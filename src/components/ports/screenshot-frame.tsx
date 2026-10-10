@@ -2,12 +2,9 @@ import type { Port } from "@/lib/ports/schema";
 import { assetPath, cn } from "@/lib/utils";
 
 /**
- * Renders a screenshot without ever cropping it.
- *
- * The frame keeps a fixed 16:9 box so grids stay aligned, but the image itself
- * uses `object-contain`: a 4:3, 1:1 or 10:9 capture is letterboxed instead of
- * being cut top/bottom by `object-cover`. A scaled, blurred copy of the same
- * image fills the letterbox area so the box never looks empty.
+ * Fixed 16:9 frame for screenshots. The image uses `object-contain`, so a
+ * capture that is not 16:9 is letterboxed instead of cropped; a blurred copy of
+ * the same image fills the empty area.
  */
 export function ScreenshotFrame({
   src,
@@ -31,8 +28,7 @@ export function ScreenshotFrame({
       data-testid="screenshot-frame"
       className={cn("relative overflow-hidden bg-surface-2", className)}
     >
-      {/* Decorative backdrop: the same capture, enlarged and blurred. Same URL,
-          so the browser reuses the single network response. */}
+      {/* Blurred backdrop: same URL, so one network response. */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={resolved}

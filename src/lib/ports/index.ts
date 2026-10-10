@@ -43,9 +43,8 @@ export function getPorts(): Port[] {
 }
 
 /**
- * Ports ordered by release date (newest first). Ports without a release date
- * fall to the end, ordered by `verifiedAt` and then by title, so a missing date
- * never scrambles the list.
+ * Ports ordered by release date (newest first). Ports without a date fall to the
+ * end, ordered by `verifiedAt` then title.
  */
 export function getLatestPorts(limit?: number): Port[] {
   const sorted = [...ports].sort((a, b) => {
@@ -123,12 +122,8 @@ export function getAndroidPortCount(): number {
 }
 
 /**
- * Hosts that serve port screenshots and covers, most used first.
- *
- * The catalog hotlinks images from each project's own host, so the first paint
- * pays a DNS + TLS handshake per host. The layout renders `preconnect` hints for
- * the busiest few so those connections are warm before the images load, without
- * flooding the browser with dozens of speculative connections.
+ * Hosts that serve port screenshots and covers, most used first. Used to render
+ * `preconnect` hints for the busiest few.
  */
 export function getImageHosts(limit = 6): string[] {
   const counts = new Map<string, number>();

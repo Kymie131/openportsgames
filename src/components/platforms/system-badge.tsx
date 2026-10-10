@@ -5,11 +5,8 @@ import { useLocale } from "@/lib/i18n/use-i18n";
 import { cn } from "@/lib/utils";
 
 /**
- * Compact "which console is this from" badge.
- *
- * Renders an optional official logo plus the system name, with border and
- * background tinted from the system's brand color. It always carries text, so
- * it never relies on color alone to convey meaning.
+ * Compact "which console is this from" badge: optional logo plus system name,
+ * tinted from the system's brand color. Always carries text.
  */
 export function SystemBadge({
   system,

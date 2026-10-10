@@ -1,16 +1,7 @@
 /**
- * Emulator registry, grouped by console generation.
- *
- * This powers the /emulators section: a generation -> console -> emulator
- * drill-down. Each emulator lists its official source, the platforms it runs
- * on, an overall compatibility rating and a short note. `recommended` marks the
- * best pick per console, ordered first. Compatibility is a curated summary of
- * the project's own documentation and community reports, not a per-game
- * guarantee.
- *
- * The catalog links only to official project sources; it hosts no emulator
- * builds. Emulators, unlike native ports, do need the console BIOS/ROM to run;
- * that is the player's responsibility.
+ * Emulator registry grouped by console generation. Powers the /emulators
+ * drill-down. Compatibility is a curated summary, not a per-game guarantee.
+ * Links are official project sources only; the site hosts no emulator builds.
  */
 import type { PlatformKey } from "@/lib/ports/schema";
 

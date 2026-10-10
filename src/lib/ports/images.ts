@@ -1,9 +1,6 @@
 /**
- * Screenshot presentation helpers.
- *
- * Pixel-art systems look wrong when a browser smooths them while scaling up,
- * so the gallery renders those with `image-rendering: pixelated`. The set is
- * intentionally small and enumerates `originalSystem` labels used in `meta.ts`.
+ * Systems whose games are pixel art and must not be smoothed when scaled up.
+ * Labels match `originalSystem` in `meta.ts`.
  */
 const PIXEL_ART_SYSTEMS = new Set<string>([
   "Nintendo Entertainment System",

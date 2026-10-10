@@ -10,8 +10,6 @@ export interface ExternalLinkProps extends AnchorHTMLAttributes<HTMLAnchorElemen
 
 /**
  * Anchor that opens an external official source in a new tab.
- * Every outgoing link in the data layer is validated; this component only
- * adds the standard "external" affordance and never a download target.
  */
 export function ExternalLink({
   children,

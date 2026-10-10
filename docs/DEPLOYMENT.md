@@ -1,7 +1,6 @@
 # Deployment
 
-The project builds a static export to `out/`. Any static host works. Here's
-how to build and publish it.
+The project builds a static export to `out/`. Any static host works.
 
 ## Build
 
@@ -15,17 +14,15 @@ npm run build   # writes to out/
 npx playwright test  # optional smoke tests
 ```
 
-Run `validate` first — no point building a catalog that fails its own checks.
-
 ## Env vars
 
 All build-time only. Set before `next build`.
 
-| Variable | Purpose | Default |
-|---|---|---|
-| `NEXT_PUBLIC_SITE_URL` | Canonical URLs, OG, sitemap. No trailing slash. | `http://localhost:3000` |
-| `NEXT_PUBLIC_BASE_PATH` | Subfolder prefix for GitHub Pages | unset |
-| `NEXT_PUBLIC_SUPPORT_PAYPAL_URL` | Donation link on /support | unset |
+| Variable                         | Purpose                                         | Default                 |
+| -------------------------------- | ----------------------------------------------- | ----------------------- |
+| `NEXT_PUBLIC_SITE_URL`           | Canonical URLs, OG, sitemap. No trailing slash. | `http://localhost:3000` |
+| `NEXT_PUBLIC_BASE_PATH`          | Subfolder prefix for GitHub Pages               | unset                   |
+| `NEXT_PUBLIC_SUPPORT_PAYPAL_URL` | Donation link on /support                       | unset                   |
 
 ## Cloudflare Pages
 
@@ -51,12 +48,12 @@ NEXT_PUBLIC_BASE_PATH=/openportsgames
 ## Security headers
 
 `public/_headers` works on Cloudflare Pages. Vercel supports the same via
-project config. GitHub Pages ignores custom headers — use Cloudflare or
-Vercel in front of a custom domain if you need them.
+project config. GitHub Pages ignores custom headers; use Cloudflare or Vercel in
+front of a custom domain if you need them.
 
-CSP is tight: same-origin assets, self-hosted fonts, no third-party scripts
-or analytics. `'unsafe-inline'` is required for Next.js hydration bootstrap
-on static exports (no nonce at build time).
+CSP: same-origin assets, self-hosted fonts, no third-party scripts or analytics.
+`'unsafe-inline'` is required for Next.js hydration bootstrap on static exports
+(no nonce at build time).
 
 ## Domain hardening
 

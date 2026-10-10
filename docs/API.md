@@ -1,10 +1,8 @@
 # API: `/api/ports.json`
 
-A static, versioned snapshot of the complete catalog. It is emitted at build
-time (`src/app/api/ports.json/route.ts` via `src/lib/ports/api-json.ts`): the
-exact file a consumer reads is the same artifact CI validated. No live
-endpoint, no rate limiting, no token. If you can open GitHub, you can mirror
-this dataset, which seems like the right spirit for a preservation catalog.
+A static, versioned snapshot of the complete catalog, emitted at build time
+(`src/app/api/ports.json/route.ts` via `src/lib/ports/api-json.ts`). No live
+endpoint, no rate limiting, no token.
 
 ## Payload (v2)
 
@@ -52,15 +50,14 @@ Notes:
 
 - `ports` excludes `takedown` entries.
 - `sources`, `website`, `docs`, `discord` are always `https:` official links.
-- `release.version` is nullable and `release.date` nullable; content
-  invariants are documented in `docs/DATA_MODEL.md`.
-- v2 adds the required `genre` (enum) and `openSource` (boolean) fields to
-  every port; v1 consumers must tolerate the new keys or parse against v2.
+- `release.version` and `release.date` are nullable; invariants are documented in
+  `docs/DATA_MODEL.md`.
+- v2 adds the required `genre` (enum) and `openSource` (boolean) fields to every
+  port; v1 consumers must tolerate the new keys or parse against v2.
 
 ## Schema
 
-The authoritative schema is `catalogApiSchema` in
-`src/lib/ports/api-json.ts` (zod), unit-tested in
-`tests/unit/api-json.test.ts`. Consumers should parse against that shape and
-treat unknown fields as forwards-compatible: new versions may add keys, and
-the `version` field is the switch to check first.
+The authoritative schema is `catalogApiSchema` in `src/lib/ports/api-json.ts`
+(zod), unit-tested in `tests/unit/api-json.test.ts`. Treat unknown fields as
+forwards-compatible: new versions may add keys, and `version` is the switch to
+check first.

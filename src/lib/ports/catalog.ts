@@ -285,8 +285,7 @@ export interface PageResult<T> {
 
 /**
  * Slices `items` into the requested page, clamping out-of-range pages to the
- * last one. An empty list is reported as a single empty page so the controls
- * can still render consistently.
+ * last one. An empty list is one empty page.
  */
 export function paginate<T>(
   items: T[],
@@ -309,8 +308,7 @@ export function paginate<T>(
 }
 
 /**
- * Builds the visible pagination window: always includes the first and last
- * page, plus a couple of neighbours around the current one, with `"…"` gaps.
+ * First and last page plus neighbours around the current one, with `…` gaps.
  */
 export function pageWindow(page: number, pageCount: number, span = 1): (number | "…")[] {
   if (pageCount <= 7) {

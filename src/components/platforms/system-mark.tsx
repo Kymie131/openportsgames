@@ -7,13 +7,9 @@ const fillProps = {
 } as const;
 
 /**
- * Original-system badge shown on catalog tiles and port detail pages.
- *
- * When Simple Icons ships an official artwork for the system (PlayStation,
- * Sega Saturn, Atari, Commodore, ...) it is rendered as a glyph filled with
- * `currentColor`. Systems without a Simple Icons artwork (Nintendo and
- * Microsoft consoles are not published there) fall back to a short text
- * label. No hand-drawn or invented logo is ever used.
+ * Original-system badge for tiles and detail pages. Systems with a Simple Icons
+ * artwork render as a glyph in `currentColor`; the rest fall back to a short
+ * text label. No invented logos.
  */
 export function SystemMark({
   system,

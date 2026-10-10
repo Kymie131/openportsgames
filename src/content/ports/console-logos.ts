@@ -1,11 +1,7 @@
 /**
- * Console logo badge artwork.
- *
- * Maps an `originalSystem` label (see `meta.ts`) to a real logo artwork under
- * `public/logos/console/`. Only files that physically exist are considered
- * available: `consoleLogoForSystem` returns `null` (and the UI falls back to
- * the textual `SystemMark`) when the artwork is missing, so a badge can never
- * render a broken image.
+ * Maps an `originalSystem` label to a logo under `public/logos/console/`.
+ * Returns `null` when the artwork is missing, so a badge never renders a broken
+ * image.
  */
 import { assetPath } from "@/lib/utils";
 

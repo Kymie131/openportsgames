@@ -1,13 +1,9 @@
 /**
- * Canonical original-system registry.
+ * Canonical original-system registry: slug, localized name, optional logo under
+ * `public/logos/console`, and a color pair for the dark and light themes.
  *
- * A single source of truth for the console/system a port came from: a stable
- * slug, a localized display name, an optional logo under `public/logos/console`
- * and a brand color pair tuned for the dark ("terminal CRT") and light
- * ("paper") themes.
- *
- * `meta.ts` still keys ports by the exact `originalSystem` label; this module
- * normalizes those labels (duplicates, composed systems) into one entry each.
+ * `meta.ts` keys ports by the exact `originalSystem` label; this module maps
+ * those labels (duplicates, composed systems) to one entry each.
  */
 import { assetPath } from "@/lib/utils";
 
