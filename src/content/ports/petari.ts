@@ -30,4 +30,9 @@ export const petari: Port = {
       credit: "SMGCommunity",
     },
   ],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/Super%20Mario%20Galaxy%20(Europe).png",
+    alt: "Super Mario Galaxy (box art)",
+    credit: "Box art",
+  },
 };

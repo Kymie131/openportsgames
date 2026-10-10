@@ -23,4 +23,9 @@ export const gundamBattleMaster2Recomp: Port = {
     "Recompilation of Gundam: The Battle Master 2 (PS1) in progress with PSXRecomp. It requires your own disc and boots with OpenBIOS; the project is still under development.",
   notesEs:
     "Recompilación en progreso de Gundam: The Battle Master 2 (PS1) con PSXRecomp. Requiere tu propio disco y arranca con OpenBIOS; el proyecto sigue en desarrollo.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Gundam%20the%20Battle%20Master%202%20(Japan).png",
+    alt: "Gundam: The Battle Master 2 (box art)",
+    credit: "Box art",
+  },
 };

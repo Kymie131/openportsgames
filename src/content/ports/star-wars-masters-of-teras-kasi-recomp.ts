@@ -23,4 +23,9 @@ export const starWarsMastersOfTerasKasiRecomp: Port = {
     "Recompilation of Star Wars: Masters of Teras Kasi (PlayStation) listed by the PortsDR community index. No public repository or release is linked, and it needs your own copy of the game.",
   notesEs:
     "Recompilación de Star Wars: Masters of Teras Kasi (PlayStation) listada en el índice comunitario PortsDR. No hay repositorio ni release públicos enlazados, y necesita tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Star%20Wars%20-%20Masters%20of%20Teras%20Kasi%20(Europe).png",
+    alt: "Star Wars: Masters of Teras Kasi (box art)",
+    credit: "Box art",
+  },
 };

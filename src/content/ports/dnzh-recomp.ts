@@ -28,4 +28,11 @@ export const dnzhRecomp: Port = {
     alt: "Duke Nukem: Zero Hour (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/Duke%20Nukem%20-%20Zero%20Hour%20(USA).png",
+      alt: "Duke Nukem: Zero Hour (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

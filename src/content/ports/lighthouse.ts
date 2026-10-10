@@ -40,4 +40,11 @@ export const lighthouse: Port = {
     alt: "Banjo-Kazooie (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/Banjo-Kazooie%20(USA).png",
+      alt: "Banjo-Kazooie (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

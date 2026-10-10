@@ -23,4 +23,16 @@ export const wcwNwoWorldTourRecomp: Port = {
     "Static recompilation of WCW vs. nWo World Tour (N64) with N64Recomp and the RT64 renderer. It requires your own copy of the game.",
   notesEs:
     "Recompilación estática de WCW vs. nWo World Tour (N64) con N64Recomp y el renderizador RT64. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/WCW%20vs.%20nWo%20-%20World%20Tour%20(Europe).png",
+    alt: "WCW vs. nWo World Tour (box art)",
+    credit: "Box art",
+  },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/WCW%20vs.%20nWo%20-%20World%20Tour%20(Europe).png",
+      alt: "WCW vs. nWo World Tour (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

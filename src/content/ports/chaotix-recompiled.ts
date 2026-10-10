@@ -23,4 +23,9 @@ export const chaotixRecompiled: Port = {
     "Static recompilation of Knuckles' Chaotix (Sega 32X) to native C++, with true widescreen. It builds for Windows, Linux, macOS and Android and requires your own ROM.",
   notesEs:
     "Recompilación estática de Knuckles' Chaotix (Sega 32X) a C++ nativo, con widescreen real. Compila para Windows, Linux, macOS y Android y requiere tu propia ROM.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sega%20-%2032X/Named_Boxarts/Knuckles'%20Chaotix%20(Europe).png",
+    alt: "Knuckles' Chaotix (box art)",
+    credit: "Box art",
+  },
 };

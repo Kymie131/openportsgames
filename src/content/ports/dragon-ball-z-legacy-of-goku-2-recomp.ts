@@ -23,4 +23,9 @@ export const dragonBallZLegacyOfGoku2Recomp: Port = {
     "Static recompilation of Dragon Ball Z: The Legacy of Goku II (GBA) with the gbarecomp framework. It requires your own copy of the game.",
   notesEs:
     "Recompilación estática de Dragon Ball Z: The Legacy of Goku II (GBA) con el framework gbarecomp. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Dragon%20Ball%20Z%20-%20The%20Legacy%20of%20Goku%20II%20(Europe)%20(En,Fr,De,Es,It).png",
+    alt: "Dragon Ball Z: The Legacy of Goku II (box art)",
+    credit: "Box art",
+  },
 };

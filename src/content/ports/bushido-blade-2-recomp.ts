@@ -23,4 +23,9 @@ export const bushidoBlade2Recomp: Port = {
     "Recompilation of Bushido Blade 2 (PS1, USA SLUS-00663) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:
     "Recompilación de Bushido Blade 2 (PS1, USA SLUS-00663) con PSXRecomp. Las releases son kits de compilación propia: aportas tu disco y una BIOS compatible, y el juego se genera y compila en tu equipo. Es la recompilación base del framework, sin mejoras por juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Bushido%20Blade%202%20(Japan,%20Asia).png",
+    alt: "Bushido Blade 2 (box art)",
+    credit: "Box art",
+  },
 };

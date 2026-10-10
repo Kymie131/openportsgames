@@ -23,4 +23,9 @@ export const bubbleBobbleNesRecomp: Port = {
     "Static recompilation of Bubble Bobble (NES) for Windows 10 and 11. The ROM is not included, so you need your own copy.",
   notesEs:
     "Recompilación estática de Bubble Bobble (NES) para Windows 10 y 11. No incluye la ROM, así que necesitas tu propia copia.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Bubble%20Bobble%20(Europe)%20(Virtual%20Console).png",
+    alt: "Bubble Bobble (box art)",
+    credit: "Box art",
+  },
 };

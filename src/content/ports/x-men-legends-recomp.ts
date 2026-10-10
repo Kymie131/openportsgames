@@ -23,4 +23,9 @@ export const xMenLegendsRecomp: Port = {
     "Static recompilation of X-Men Legends (Xbox) with ReXGlue. It requires your own copy of the game.",
   notesEs:
     "Recompilación estática de X-Men Legends (Xbox) con ReXGlue. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/X-Men%20Legends%20(USA).png",
+    alt: "X-Men Legends (box art)",
+    credit: "Box art",
+  },
 };

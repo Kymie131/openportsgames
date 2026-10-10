@@ -23,4 +23,9 @@ export const marioTennisVirtualBoyRecomp: Port = {
     "Static recompilation of Mario's Tennis (Virtual Boy) using the vbrecomp toolkit. It requires your own ROM and does not include the game.",
   notesEs:
     "Recompilación estática de Mario's Tennis (Virtual Boy) con el kit vbrecomp. Requiere tu propia ROM y no incluye el juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Virtual%20Boy/Named_Boxarts/Mario's%20Tennis%20(Japan,%20USA)%20(En).png",
+    alt: "Mario's Tennis (box art)",
+    credit: "Box art",
+  },
 };

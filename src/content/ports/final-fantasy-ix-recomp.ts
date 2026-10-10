@@ -23,4 +23,9 @@ export const finalFantasyIxRecomp: Port = {
     "Recompilation of Final Fantasy IX (PS1, USA SLUS-01251) with PSXRecomp and the recomp-ui launcher. It requires your own disc and a European SCPH-5502/5552 BIOS, and the wizard compiles the game locally. For now it is the 0.1.0 release candidate, with gameplay acceptance not yet closed.",
   notesEs:
     "Recompilación de Final Fantasy IX (PS1, USA SLUS-01251) con PSXRecomp y el lanzador recomp-ui. Requiere tu propio disco y una BIOS europea SCPH-5502/5552, y el asistente compila el juego localmente. Por ahora es la candidata 0.1.0, sin aceptación de gameplay cerrada.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Final%20Fantasy%20IX%20(Europe).png",
+    alt: "Final Fantasy IX (box art)",
+    credit: "Box art",
+  },
 };

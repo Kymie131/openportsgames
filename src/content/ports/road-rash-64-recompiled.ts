@@ -40,4 +40,11 @@ export const roadRash64Recompiled: Port = {
     alt: "Road Rash 64 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/Road%20Rash%2064%20(USA).png",
+      alt: "Road Rash 64 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

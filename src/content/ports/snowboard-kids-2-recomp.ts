@@ -28,4 +28,11 @@ export const snowboardKids2Recomp: Port = {
     alt: "Snowboard Kids 2 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/Snowboard%20Kids%202%20(USA).png",
+      alt: "Snowboard Kids 2 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

@@ -28,4 +28,11 @@ export const rocketR: Port = {
     alt: "Rocket: Robot on Wheels (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/Rocket%20-%20Robot%20on%20Wheels%20(USA).png",
+      alt: "Rocket: Robot on Wheels (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

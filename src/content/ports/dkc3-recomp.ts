@@ -28,4 +28,11 @@ export const dkc3Recomp: Port = {
     alt: "Donkey Kong Country 3: Dixie Kong's Double Trouble (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Donkey%20Kong%20Country%203%20-%20Dixie%20Kong's%20Double%20Trouble!%20(USA)%20(En,Fr).png",
+      alt: "Donkey Kong Country 3: Dixie Kong's Double Trouble (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

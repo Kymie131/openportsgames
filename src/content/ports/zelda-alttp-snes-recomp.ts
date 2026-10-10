@@ -28,4 +28,11 @@ export const zeldaAlttpSnesRecomp: Port = {
     alt: "The Legend of Zelda: A Link to the Past (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Legend%20of%20Zelda,%20The%20-%20A%20Link%20to%20the%20Past%20(USA).png",
+      alt: "The Legend of Zelda: A Link to the Past (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

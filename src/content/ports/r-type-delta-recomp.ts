@@ -23,4 +23,9 @@ export const rTypeDeltaRecomp: Port = {
     "Bare recompilation of R-Type Delta (PlayStation) from the PSXRecomp toolkit. It builds for Windows, Linux and macOS and needs your own disc plus a BIOS.",
   notesEs:
     "Recompilación básica de R-Type Delta (PlayStation) con el kit PSXRecomp. Compila para Windows, Linux y macOS y necesita tu propio disco y una BIOS.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/R-Type%20Delta%20(Europe).png",
+    alt: "R-Type Delta (box art)",
+    credit: "Box art",
+  },
 };

@@ -56,4 +56,9 @@ export const pokemonSnapRecomp: Port = {
       credit: "Snap64Recomp",
     },
   ],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Pokemon%20Snap%20(Europe).png",
+    alt: "Pokémon Snap (box art)",
+    credit: "Box art",
+  },
 };

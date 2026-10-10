@@ -53,4 +53,9 @@ export const megaManXSnesRecomp: Port = {
       credit: "MegaManXSNESRecomp",
     },
   ],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mega%20Man%20X%20(Europe).png",
+    alt: "Mega Man X (box art)",
+    credit: "Box art",
+  },
 };

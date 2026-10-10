@@ -28,4 +28,11 @@ export const dkc2Recomp: Port = {
     alt: "Donkey Kong Country 2: Diddy's Kong Quest (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Donkey%20Kong%20Country%202%20-%20Diddy's%20Kong%20Quest%20(USA)%20(En,Fr).png",
+      alt: "Donkey Kong Country 2: Diddy's Kong Quest (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

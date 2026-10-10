@@ -35,4 +35,9 @@ export const meleeNative: Port = {
       credit: "melee-native",
     },
   ],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Super%20Smash%20Bros.%20Melee%20(Europe)%20(En,Fr,De,Es,It).png",
+    alt: "Super Smash Bros. Melee (box art)",
+    credit: "Box art",
+  },
 };

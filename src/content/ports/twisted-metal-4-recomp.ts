@@ -23,4 +23,9 @@ export const twistedMetal4Recomp: Port = {
     "Recompilation of Twisted Metal 4 (PlayStation) listed by the PortsDR community index. No public repository or release is linked, and it needs your own copy of the game.",
   notesEs:
     "Recompilación de Twisted Metal 4 (PlayStation) listada en el índice comunitario PortsDR. No hay repositorio ni release públicos enlazados, y necesita tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Twisted%20Metal%204%20(USA)%20(Rev%201).png",
+    alt: "Twisted Metal 4 (box art)",
+    credit: "Box art",
+  },
 };

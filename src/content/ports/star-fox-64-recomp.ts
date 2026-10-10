@@ -28,4 +28,11 @@ export const starFox64Recomp: Port = {
     alt: "Star Fox 64 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/Star%20Fox%2064%20(USA).png",
+      alt: "Star Fox 64 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

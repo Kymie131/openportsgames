@@ -40,4 +40,11 @@ export const goldenEye64Recompiled: Port = {
     alt: "GoldenEye 007 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/GoldenEye%20007%20(USA).png",
+      alt: "GoldenEye 007 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

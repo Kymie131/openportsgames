@@ -23,4 +23,9 @@ export const pokemonMysteryDungeonRedRecomp: Port = {
     "Static recompilation of Pokémon Mystery Dungeon: Red Rescue Team (GBA) with the gbarecomp framework. It requires your own copy of the game.",
   notesEs:
     "Recompilación estática de Pokémon Mystery Dungeon: Red Rescue Team (GBA) con el framework gbarecomp. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20Mystery%20Dungeon%20-%20Red%20Rescue%20Team%20(Europe)%20(En,Fr,De,Es,It).png",
+    alt: "Pokémon Mystery Dungeon: Red Rescue Team (box art)",
+    credit: "Box art",
+  },
 };

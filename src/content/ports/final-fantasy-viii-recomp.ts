@@ -23,4 +23,9 @@ export const finalFantasyViiiRecomp: Port = {
     "Recompilation of Final Fantasy VIII (PS1, USA SLUS-00892) with PSXRecomp and the recomp-ui launcher. It needs your own disc and a European SCPH-5502/5552 BIOS; the wizard generates and compiles the game on your machine. Published as release candidate 0.1.0, with gameplay acceptance still pending.",
   notesEs:
     "Recompilación de Final Fantasy VIII (PS1, USA SLUS-00892) con PSXRecomp y el lanzador recomp-ui. Necesita tu propio disco y una BIOS europea SCPH-5502/5552; el asistente genera y compila el juego en tu equipo. Publicada como candidata 0.1.0, con la aceptación de gameplay todavía pendiente.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Final%20Fantasy%20VIII%20(Europe,%20Australia).png",
+    alt: "Final Fantasy VIII (box art)",
+    credit: "Box art",
+  },
 };

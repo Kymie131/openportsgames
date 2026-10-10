@@ -37,4 +37,11 @@ export const perfectDarkPort: Port = {
     alt: "Perfect Dark (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/Perfect%20Dark%20(USA).png",
+      alt: "Perfect Dark (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

@@ -23,4 +23,9 @@ export const ghostInTheShellRecomp: Port = {
     "Recompilation of Ghost in the Shell (PS1, Europe SCES-01050) with PSXRecomp and the recomp-ui launcher. It requires your own disc and a European SCPH-5502/5552 BIOS; the game is compiled on your machine. Release candidate 0.1.0, still without gameplay acceptance.",
   notesEs:
     "Recompilación de Ghost in the Shell (PS1, Europa SCES-01050) con PSXRecomp y el lanzador recomp-ui. Requiere tu propio disco y una BIOS europea SCPH-5502/5552; el juego se compila en tu máquina. Candidata 0.1.0, todavía sin aceptación de gameplay.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Ghost%20in%20the%20Shell%20(Europe).png",
+    alt: "Ghost in the Shell (box art)",
+    credit: "Box art",
+  },
 };

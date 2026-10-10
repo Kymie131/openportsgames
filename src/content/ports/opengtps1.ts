@@ -40,4 +40,9 @@ export const openGtps1: Port = {
       credit: "OpenGTPS1",
     },
   ],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Gran%20Turismo%202%20(USA)%20(Rev%201).png",
+    alt: "Gran Turismo 2 (box art)",
+    credit: "Box art",
+  },
 };

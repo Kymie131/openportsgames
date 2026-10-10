@@ -23,4 +23,9 @@ export const fearEffectRecomp: Port = {
     "Recompilation of Fear Effect (PS1, USA SLUS-00920) with PSXRecomp and the recomp-ui launcher. You bring your own disc and a European SCPH-5502/5552 BIOS; the game is generated and compiled on your machine. A 0.1.0 release candidate with gameplay not yet validated.",
   notesEs:
     "Recompilación de Fear Effect (PS1, USA SLUS-00920) con PSXRecomp y el lanzador recomp-ui. Aportas tu propio disco y una BIOS europea SCPH-5502/5552; el juego se genera y compila en tu equipo. Candidata 0.1.0 con el gameplay aún sin validar.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Fear%20Effect%20(Europe)%20(En,Es,It).png",
+    alt: "Fear Effect (box art)",
+    credit: "Box art",
+  },
 };

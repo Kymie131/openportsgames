@@ -23,4 +23,9 @@ export const medievilRecomp: Port = {
     "Recompilation of MediEvil (PS1, USA SCUS-94227) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:
     "Recompilación de MediEvil (PS1, USA SCUS-94227) con PSXRecomp. Las releases son kits de compilación propia: aportas tu disco y una BIOS compatible, y el juego se genera y compila en tu equipo. Es la recompilación base del framework, sin mejoras por juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/MediEvil%20(Europe)%20(Beta%2012).png",
+    alt: "MediEvil (box art)",
+    credit: "Box art",
+  },
 };

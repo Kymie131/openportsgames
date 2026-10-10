@@ -23,4 +23,16 @@ export const issdNative: Port = {
     "Native recompilation project for International Superstar Soccer Deluxe (SNES), with an AI-assisted workflow. It targets Android and needs your own ROM.",
   notesEs:
     "Proyecto de recompilación nativa de International Superstar Soccer Deluxe (SNES), con un flujo asistido por IA. Apunta a Android y necesita tu propia ROM.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/International%20Superstar%20Soccer%20Deluxe%20(Europe).png",
+    alt: "International Superstar Soccer Deluxe (box art)",
+    credit: "Box art",
+  },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/International%20Superstar%20Soccer%20Deluxe%20(Europe).png",
+      alt: "International Superstar Soccer Deluxe (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

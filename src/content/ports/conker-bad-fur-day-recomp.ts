@@ -42,4 +42,9 @@ export const conkerBadFurDayRecomp: Port = {
       credit: "sciaschi",
     },
   ],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Conker's%20Bad%20Fur%20Day%20(Europe).png",
+    alt: "Conker's Bad Fur Day (box art)",
+    credit: "Box art",
+  },
 };

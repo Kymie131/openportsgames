@@ -23,4 +23,9 @@ export const dukeNukemLandOfTheBabesRecomp: Port = {
     "Recompilation of Duke Nukem: Land of the Babes (PS1, USA SLUS-01002) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:
     "Recompilación de Duke Nukem: Land of the Babes (PS1, USA SLUS-01002) con PSXRecomp. Las releases son kits de compilación propia: aportas tu disco y una BIOS compatible, y el juego se genera y compila en tu equipo. Es la recompilación base del framework, sin mejoras por juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Duke%20Nukem%20-%20Land%20of%20the%20Babes%20(Europe)%20(En,Fr,De,Es,It).png",
+    alt: "Duke Nukem: Land of the Babes (box art)",
+    credit: "Box art",
+  },
 };

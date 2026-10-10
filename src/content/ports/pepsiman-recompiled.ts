@@ -24,4 +24,9 @@ export const pepsimanRecompiled: Port = {
     "Recompilation of Pepsiman (PS1) that runs in the browser through WebAssembly, using the PSXRecomp runtime. You bring your own copy of the game; it adds 60 FPS, widescreen or a 4:3 option, browser saves and offline play as a PWA. The public address (pepsiman.ol.mr) has been returning an error since October 2026.",
   notesEs:
     "Recompilación de Pepsiman (PS1) que corre en el navegador vía WebAssembly, con el runtime de PSXRecomp. Aportas tu propia copia del juego; añade 60 FPS, widescreen u opción 4:3, guardado en el navegador y modo offline como PWA. La dirección pública (pepsiman.ol.mr) devuelve un error desde octubre de 2026.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Pepsiman%20(Japan).png",
+    alt: "Pepsiman (box art)",
+    credit: "Box art",
+  },
 };

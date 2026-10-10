@@ -40,4 +40,9 @@ export const pokemonStadiumRecomp: Port = {
       credit: "mstan/PokemonStadiumRecomp",
     },
   ],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Pokemon%20Stadium%20(Europe)%20(Rev%201).png",
+    alt: "Pokémon Stadium (box art)",
+    credit: "Box art",
+  },
 };

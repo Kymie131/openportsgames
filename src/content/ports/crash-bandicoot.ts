@@ -40,4 +40,9 @@ export const crashBandicoot: Port = {
     "Native PC port of Crash Bandicoot (PS1) produced via the RecompOne static recompilation stack, distributed as versioned releases. Requires your own PS1 disc dump. The project is not affiliated with the original developer.",
   notesEs:
     "Port nativo para PC de Crash Bandicoot (PS1) realizado con la pila de recompilación estática RecompOne y distribuido como releases versionadas. Requiere tu propio volcado del disco de PS1. El proyecto no está afiliado al desarrollador original.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Crash%20Bandicoot%20(Europe).png",
+    alt: "Crash Bandicoot (box art)",
+    credit: "Box art",
+  },
 };

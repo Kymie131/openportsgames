@@ -27,4 +27,11 @@ export const bombermanHeroRecomp: Port = {
     alt: "Bomberman Hero (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/Bomberman%20Hero%20(USA).png",
+      alt: "Bomberman Hero (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

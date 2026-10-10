@@ -23,4 +23,9 @@ export const megaMan8Recomp: Port = {
     "Recompilation of Mega Man 8 (PlayStation) built with mstan's PSXRecomp tool. It includes no game assets and needs your own copy.",
   notesEs:
     "Recompilación de Mega Man 8 (PlayStation) construida con la herramienta PSXRecomp de mstan. No incluye recursos del juego y necesita tu propia copia.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Mega%20Man%208%20(Europe).png",
+    alt: "Mega Man 8 (box art)",
+    credit: "Box art",
+  },
 };

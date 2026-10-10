@@ -42,4 +42,9 @@ export const wiiCompiled: Port = {
       credit: "patchzyy",
     },
   ],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/Mario%20Kart%20Wii%20(Europe).png",
+    alt: "Mario Kart Wii (box art)",
+    credit: "Box art",
+  },
 };

@@ -23,4 +23,16 @@ export const fZeroXRecomp: Port = {
     "Static recompilation of F-Zero X (N64) with N64Recomp and the RT64 renderer. It requires your own copy of the game.",
   notesEs:
     "Recompilación estática de F-Zero X (N64) con N64Recomp y el renderizador RT64. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/F-Zero%20X%20(Europe).png",
+    alt: "F-Zero X (box art)",
+    credit: "Box art",
+  },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/F-Zero%20X%20(Europe).png",
+      alt: "F-Zero X (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

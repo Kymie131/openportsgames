@@ -23,4 +23,9 @@ export const streetFighterEx2PlusRecomp: Port = {
     "Static recompilation of Street Fighter EX2 Plus (PlayStation) built on PSXRecomp. It requires your own copy of the game.",
   notesEs:
     "Recompilación estática de Street Fighter EX2 Plus (PlayStation) construida sobre PSXRecomp. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Street%20Fighter%20EX2%20Plus%20(Europe).png",
+    alt: "Street Fighter EX2 Plus (box art)",
+    credit: "Box art",
+  },
 };

@@ -23,4 +23,9 @@ export const guiltyGearRecomp: Port = {
     "Recompilation of Guilty Gear (PS1) under development with PSXRecomp. It ships a Windows launcher where you pick your own .cue and use either the bundled OpenBIOS or your own BIOS; the project is still a work in progress and not considered finished.",
   notesEs:
     "Recompilación en desarrollo de Guilty Gear (PS1) con PSXRecomp. Trae un lanzador para Windows donde eliges tu propio .cue y usas el OpenBIOS incluido o tu propia BIOS; el proyecto sigue en progreso y no se considera terminado.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Guilty%20Gear%20(Europe).png",
+    alt: "Guilty Gear (box art)",
+    credit: "Box art",
+  },
 };

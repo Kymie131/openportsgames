@@ -23,4 +23,16 @@ export const actraiserRecomp: Port = {
     "Recompilation of ActRaiser (Super Nintendo) for Windows, Linux and macOS. It needs your own ROM of the game.",
   notesEs:
     "Recompilación de ActRaiser (Super Nintendo) para Windows, Linux y macOS. Necesita tu propia ROM del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/ActRaiser%20(Europe).png",
+    alt: "ActRaiser (box art)",
+    credit: "Box art",
+  },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/ActRaiser%20(Europe).png",
+      alt: "ActRaiser (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

@@ -44,4 +44,11 @@ export const dkcRecompiled: Port = {
     alt: "Donkey Kong Country (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Donkey%20Kong%20Country%20(USA).png",
+      alt: "Donkey Kong Country (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

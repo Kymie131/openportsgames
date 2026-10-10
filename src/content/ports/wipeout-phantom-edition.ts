@@ -63,4 +63,9 @@ export const wipeoutPhantomEdition: Port = {
       credit: "Wipeout Phantom Edition",
     },
   ],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/WipEout%20(Europe)%20(Rev%201).png",
+    alt: "WipeOut (box art)",
+    credit: "Box art",
+  },
 };

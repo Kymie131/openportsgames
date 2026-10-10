@@ -28,4 +28,11 @@ export const battleship: Port = {
     alt: "Super Smash Bros. (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/Super%20Smash%20Bros.%20(USA).png",
+      alt: "Super Smash Bros. (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

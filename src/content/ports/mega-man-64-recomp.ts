@@ -28,4 +28,11 @@ export const megaMan64Recomp: Port = {
     alt: "Mega Man 64 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/Mega%20Man%2064%20(USA).png",
+      alt: "Mega Man 64 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

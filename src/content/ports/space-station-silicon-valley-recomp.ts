@@ -32,4 +32,11 @@ export const spaceStationSiliconValleyRecomp: Port = {
     alt: "Space Station Silicon Valley (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/SpaceStation%20Silicon%20Valley%20(USA)%20(Rev%201).png",
+      alt: "Space Station Silicon Valley (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

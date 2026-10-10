@@ -23,4 +23,9 @@ export const syphonFilter2Recompiled: Port = {
     "Experimental recompilation of Syphon Filter 2 (PS1, USA, two discs, SCUS-94451) with PSXRecomp. A build-it-yourself Windows kit: a SETUP.bat detects the disc, downloads the tools and compiles, with no need for Visual Studio or Git. It is still an alpha (v0.1.2).",
   notesEs:
     "Recompilación experimental de Syphon Filter 2 (PS1, USA, dos discos, SCUS-94451) con PSXRecomp. Kit de compilación propia en Windows: un SETUP.bat detecta el disco, descarga las herramientas y compila, sin necesidad de Visual Studio ni Git. Todavía es una alpha (v0.1.2).",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Syphon%20Filter%202%20(Europe)%20(Rev%201).png",
+    alt: "Syphon Filter 2 (box art)",
+    credit: "Box art",
+  },
 };

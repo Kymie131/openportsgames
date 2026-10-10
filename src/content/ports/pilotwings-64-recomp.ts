@@ -45,4 +45,11 @@ export const pilotwings64Recomp: Port = {
     alt: "Pilotwings 64 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/Pilotwings%2064%20(USA).png",
+      alt: "Pilotwings 64 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

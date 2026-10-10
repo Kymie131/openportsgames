@@ -44,4 +44,9 @@ export const spaghettiKart: Port = {
       credit: "HarbourMasters",
     },
   ],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Mario%20Kart%2064%20(Europe)%20(Rev%201).png",
+    alt: "Mario Kart 64 (box art)",
+    credit: "Box art",
+  },
 };

@@ -23,4 +23,9 @@ export const superMarioAdvance4Recomp: Port = {
     "Static recompilation of Super Mario Advance 4: Super Mario Bros. 3 (GBA) with the gbarecomp framework. It requires your own copy of the game.",
   notesEs:
     "Recompilación estática de Super Mario Advance 4: Super Mario Bros. 3 (GBA) con el framework gbarecomp. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Super%20Mario%20Advance%204%20-%20Super%20Mario%20Bros.%203%20(Europe)%20(En,Fr,De,Es,It)%20(Rev%201)%20(Virtual%20Console).png",
+    alt: "Super Mario Advance 4: Super Mario Bros. 3 (box art)",
+    credit: "Box art",
+  },
 };

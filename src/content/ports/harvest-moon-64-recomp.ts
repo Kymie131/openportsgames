@@ -33,4 +33,11 @@ export const harvestMoon64Recomp: Port = {
     alt: "Harvest Moon 64 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/Harvest%20Moon%2064%20(USA).png",
+      alt: "Harvest Moon 64 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

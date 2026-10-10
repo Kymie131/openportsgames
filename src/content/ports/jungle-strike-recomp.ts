@@ -23,4 +23,16 @@ export const jungleStrikeRecomp: Port = {
     "Recompilation of Jungle Strike (Super Nintendo) listed by the PortsDR community index. No public repository or release is linked, and it needs your own copy of the game.",
   notesEs:
     "Recompilación de Jungle Strike (Super Nintendo) listada en el índice comunitario PortsDR. No hay repositorio ni release públicos enlazados, y necesita tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Jungle%20Strike%20(Europe).png",
+    alt: "Jungle Strike (box art)",
+    credit: "Box art",
+  },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Jungle%20Strike%20(Europe).png",
+      alt: "Jungle Strike (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

@@ -32,4 +32,11 @@ export const quest64Recomp: Port = {
     alt: "Quest 64 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/Quest%2064%20(USA).png",
+      alt: "Quest 64 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

@@ -23,4 +23,9 @@ export const zelda2AdventureOfLinkRecomp: Port = {
     "Recompilation of Zelda II: The Adventure of Link (Nintendo Entertainment System) listed by the PortsDR community index. No public repository or release is linked, and it needs your own copy of the game.",
   notesEs:
     "Recompilación de Zelda II: The Adventure of Link (Nintendo Entertainment System) listada en el índice comunitario PortsDR. No hay repositorio ni release públicos enlazados, y necesita tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Zelda%20II%20-%20The%20Adventure%20of%20Link%20(Europe)%20(Rev%201).png",
+    alt: "Zelda II: The Adventure of Link (box art)",
+    credit: "Box art",
+  },
 };

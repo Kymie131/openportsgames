@@ -28,4 +28,11 @@ export const hamsterMonogatari64Recomp: Port = {
     alt: "Hamster Monogatari 64 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/Hamster%20Monogatari%2064%20(Japan).png",
+      alt: "Hamster Monogatari 64 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

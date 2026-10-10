@@ -30,4 +30,9 @@ export const goemon64Recompiled: Port = {
       credit: "klorfmorf/Goemon64Recomp",
     },
   ],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Mystical%20Ninja%20Starring%20Goemon%20(Europe).png",
+    alt: "Mystical Ninja Starring Goemon (box art)",
+    credit: "Box art",
+  },
 };

@@ -28,4 +28,11 @@ export const rush2Recomp: Port = {
     alt: "San Francisco Rush 2 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/Rush%202%20-%20Extreme%20Racing%20USA%20(USA).png",
+      alt: "San Francisco Rush 2 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

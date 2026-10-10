@@ -23,4 +23,9 @@ export const jetMotoAnthologyRecomp: Port = {
     "Cumulative recompilation project for the Jet Moto games (PlayStation) with rendering improvements. It needs your own copy of the games.",
   notesEs:
     "Proyecto de recompilación acumulativo de los juegos Jet Moto (PlayStation) con mejoras de renderizado. Necesita tu propia copia de los juegos.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Jet%20Moto%20(USA).png",
+    alt: "Jet Moto (box art)",
+    credit: "Box art",
+  },
 };

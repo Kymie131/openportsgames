@@ -37,4 +37,11 @@ export const pspRecomp: Port = {
     alt: "Grand Theft Auto: Vice City Stories (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Snaps/Grand%20Theft%20Auto%20-%20Vice%20City%20Stories%20(USA).png",
+      alt: "Grand Theft Auto: Vice City Stories (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

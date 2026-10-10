@@ -23,4 +23,9 @@ export const vandalHeartsRecomp: Port = {
     "Native PC port of Vandal Hearts built on a byte-exact matching decompilation. It builds for Windows and Linux and needs your own disc.",
   notesEs:
     "Port nativo para PC de Vandal Hearts construido sobre una decompilación byte-exact. Compila para Windows y Linux y necesita tu propio disco.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Vandal%20Hearts%20(Europe)%20(En,Fr,De).png",
+    alt: "Vandal Hearts (box art)",
+    credit: "Box art",
+  },
 };

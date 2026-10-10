@@ -40,4 +40,9 @@ export const starship: Port = {
     "Native PC port of Star Fox 64 from the decompilation, by the HarbourMasters team. Uses the game's data from a legally obtained North American, Japanese or European ROM; the launcher extracts the required assets from the user's own copy.",
   notesEs:
     "Port nativo para PC de Star Fox 64 a partir de la decompilación, del equipo HarbourMasters. Usa los datos del juego de una ROM norteamericana, japonesa o europea obtenida legalmente; el lanzador extrae los recursos necesarios de la copia del propio usuario.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Star%20Fox%2064%20(Japan).png",
+    alt: "Star Fox 64 (box art)",
+    credit: "Box art",
+  },
 };

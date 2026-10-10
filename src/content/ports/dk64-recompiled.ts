@@ -40,4 +40,11 @@ export const dk64Recompiled: Port = {
     alt: "Donkey Kong 64 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/Donkey%20Kong%2064%20(USA).png",
+      alt: "Donkey Kong 64 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

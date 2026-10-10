@@ -23,4 +23,16 @@ export const automobiliLamborghiniRecomp: Port = {
     "Static recompilation of Automobili Lamborghini (N64) with N64Recomp and the RT64 renderer. It requires your own copy of the game.",
   notesEs:
     "Recompilación estática de Automobili Lamborghini (N64) con N64Recomp y el renderizador RT64. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Automobili%20Lamborghini%20(Europe).png",
+    alt: "Automobili Lamborghini (box art)",
+    credit: "Box art",
+  },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/Automobili%20Lamborghini%20(Europe).png",
+      alt: "Automobili Lamborghini (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

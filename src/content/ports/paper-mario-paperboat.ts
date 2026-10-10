@@ -28,4 +28,11 @@ export const paperMarioPaperboat: Port = {
     alt: "Paper Mario (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/Paper%20Mario%20(USA).png",
+      alt: "Paper Mario (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

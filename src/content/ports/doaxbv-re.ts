@@ -23,4 +23,9 @@ export const doaxbvRe: Port = {
     "Static recompilation of Dead or Alive Xtreme Beach Volleyball (Xbox) with ReXGlue. It requires your own copy of the game.",
   notesEs:
     "Recompilación estática de Dead or Alive Xtreme Beach Volleyball (Xbox) con ReXGlue. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Dead%20or%20Alive%20Xtreme%20Beach%20Volleyball%20(Japan)%20(En,Ja).png",
+    alt: "Dead or Alive Xtreme Beach Volleyball (box art)",
+    credit: "Box art",
+  },
 };

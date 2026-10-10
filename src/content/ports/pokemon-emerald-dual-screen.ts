@@ -23,4 +23,9 @@ export const pokemonEmeraldDualScreen: Port = {
     "Static recompilation of Pokémon Emerald (GBA) with the gbarecomp framework. It requires your own copy of the game.",
   notesEs:
     "Recompilación estática de Pokémon Emerald (GBA) con el framework gbarecomp. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20-%20Emerald%20Version%20(USA,%20Europe).png",
+    alt: "Pokémon Emerald (box art)",
+    credit: "Box art",
+  },
 };

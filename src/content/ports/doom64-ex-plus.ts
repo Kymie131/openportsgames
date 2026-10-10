@@ -41,4 +41,11 @@ export const doom64ExPlus: Port = {
     alt: "Doom 64 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/Doom%2064%20(USA).png",
+      alt: "Doom 64 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

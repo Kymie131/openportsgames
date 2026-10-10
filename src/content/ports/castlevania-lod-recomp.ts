@@ -37,4 +37,11 @@ export const castlevaniaLodRecomp: Port = {
     alt: "Castlevania: Legacy of Darkness (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/Castlevania%20-%20Legacy%20of%20Darkness%20(USA).png",
+      alt: "Castlevania: Legacy of Darkness (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

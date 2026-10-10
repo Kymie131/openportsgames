@@ -51,4 +51,9 @@ export const redriver2: Port = {
       credit: "OpenDriver2",
     },
   ],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Driver%202%20(USA)%20(Rev%201).png",
+    alt: "Driver 2 (box art)",
+    credit: "Box art",
+  },
 };

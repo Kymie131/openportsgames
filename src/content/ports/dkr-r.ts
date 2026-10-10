@@ -40,4 +40,9 @@ export const dkrR: Port = {
     "Native port of Diddy Kong Racing created through static recompilation of the Nintendo 64 binary, with releases for Windows, Linux and macOS (the macOS build is a community fork linked from each release). Requires the game dump from a cartridge or ROM you own. Version 1.0.4 is the latest tagged release.",
   notesEs:
     "Port nativo de Diddy Kong Racing creado mediante recompilación estática del binario de Nintendo 64, con releases para Windows, Linux y macOS (la build de macOS es un fork comunitario enlazado desde cada release). Requiere el volcado del juego de un cartucho o ROM que poseas. La versión 1.0.4 es la última release etiquetada.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Diddy%20Kong%20Racing%20(Europe)%20(En,Fr,De)%20(Rev%201).png",
+    alt: "Diddy Kong Racing (box art)",
+    credit: "Box art",
+  },
 };

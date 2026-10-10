@@ -39,4 +39,11 @@ export const beetleAdventureRacingRecomp: Port = {
     alt: "Beetle Adventure Racing (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/Beetle%20Adventure%20Racing!%20(USA)%20(En,Fr,De).png",
+      alt: "Beetle Adventure Racing (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

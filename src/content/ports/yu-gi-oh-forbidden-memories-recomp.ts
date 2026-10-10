@@ -23,4 +23,9 @@ export const yuGiOhForbiddenMemoriesRecomp: Port = {
     "Decompilation and recompilation of Yu-Gi-Oh! Forbidden Memories (PlayStation) to a native executable. It needs your own copy of the game.",
   notesEs:
     "Decompilación y recompilación de Yu-Gi-Oh! Forbidden Memories (PlayStation) a un ejecutable nativo. Necesita tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Yu-Gi-Oh!%20Forbidden%20Memories%20(Europe).png",
+    alt: "Yu-Gi-Oh! Forbidden Memories (box art)",
+    credit: "Box art",
+  },
 };

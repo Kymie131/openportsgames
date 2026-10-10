@@ -23,4 +23,9 @@ export const madStalkerRecomp: Port = {
     "Fan-made recompilation of Mad Stalker: Full Metal Force (PlayStation), still in progress. It requires your own disc and ships no assets.",
   notesEs:
     "Recompilación hecha por fans de Mad Stalker: Full Metal Force (PlayStation), todavía en progreso. Requiere tu propio disco y no incluye recursos.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Mad%20Stalker%20-%20Full%20Metal%20Force%20(Japan).png",
+    alt: "Mad Stalker: Full Metal Force (box art)",
+    credit: "Box art",
+  },
 };

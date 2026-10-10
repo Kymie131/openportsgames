@@ -23,4 +23,9 @@ export const colonyWarsRedSunRecomp: Port = {
     "Recompilation of Colony Wars: Red Sun (PS1, USA SLUS-00866) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:
     "Recompilación de Colony Wars: Red Sun (PS1, USA SLUS-00866) con PSXRecomp. Las releases son kits de compilación propia: aportas tu disco y una BIOS compatible, y el juego se genera y compila en tu equipo. Es la recompilación base del framework, sin mejoras por juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Colony%20Wars%20-%20Red%20Sun%20(Europe).png",
+    alt: "Colony Wars: Red Sun (box art)",
+    credit: "Box art",
+  },
 };

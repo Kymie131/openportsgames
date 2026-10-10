@@ -43,4 +43,11 @@ export const waveRace64Recompiled: Port = {
     alt: "Wave Race 64 (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/Wave%20Race%2064%20-%20Kawasaki%20Jet%20Ski%20(USA).png",
+      alt: "Wave Race 64 (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

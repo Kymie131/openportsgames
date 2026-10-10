@@ -23,4 +23,9 @@ export const strider2Recomp: Port = {
     "Recompilation of Strider 2 (PlayStation) listed by the PortsDR community index. No public repository or release is linked, and it needs your own copy of the game.",
   notesEs:
     "Recompilación de Strider 2 (PlayStation) listada en el índice comunitario PortsDR. No hay repositorio ni release públicos enlazados, y necesita tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Strider%202%20(Europe).png",
+    alt: "Strider 2 (box art)",
+    credit: "Box art",
+  },
 };

@@ -28,4 +28,11 @@ export const superMetroidSnesRecomp: Port = {
     alt: "Super Metroid (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Super%20Metroid%20-%20Redux%20(USA).png",
+      alt: "Super Metroid (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

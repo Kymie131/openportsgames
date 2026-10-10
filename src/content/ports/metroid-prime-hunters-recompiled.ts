@@ -42,4 +42,9 @@ export const metroidPrimeHuntersRecompiled: Port = {
     "Native recompilation of the Nintendo DS first-person shooter Metroid Prime Hunters, labeled by its author as a public alpha. Requires the player's own legally obtained copy of the game.",
   notesEs:
     "Recompilación nativa del shooter en primera persona Metroid Prime Hunters de Nintendo DS, calificada por su autor como alfa pública. Requiere la copia del juego obtenida legalmente por el jugador.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Metroid%20Prime%20-%20Hunters%20(Europe)%20(En,Fr,De,Es,It)%20(Rev%201).png",
+    alt: "Metroid Prime Hunters (box art)",
+    credit: "Box art",
+  },
 };

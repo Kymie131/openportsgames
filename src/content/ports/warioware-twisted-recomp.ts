@@ -23,4 +23,9 @@ export const wariowareTwistedRecomp: Port = {
     "Static recompilation of WarioWare: Twisted! (GBA) with the gbarecomp framework. It requires your own copy of the game.",
   notesEs:
     "Recompilación estática de WarioWare: Twisted! (GBA) con el framework gbarecomp. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/WarioWare%20-%20Twisted!%20(USA).png",
+    alt: "WarioWare: Twisted! (box art)",
+    credit: "Box art",
+  },
 };

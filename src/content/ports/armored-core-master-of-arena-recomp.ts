@@ -23,4 +23,9 @@ export const armoredCoreMasterOfArenaRecomp: Port = {
     "Recompilation of Armored Core: Master of Arena (PS1, USA SLUS-01030 / SLUS-01081) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:
     "Recompilación de Armored Core: Master of Arena (PS1, USA SLUS-01030 / SLUS-01081) con PSXRecomp. Las releases son kits de compilación propia: aportas tu disco y una BIOS compatible, y el juego se genera y compila en tu equipo. Es la recompilación base del framework, sin mejoras por juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Armored%20Core%20-%20Master%20of%20Arena%20(Japan).png",
+    alt: "Armored Core: Master of Arena (box art)",
+    credit: "Box art",
+  },
 };

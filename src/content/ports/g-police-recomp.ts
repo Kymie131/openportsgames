@@ -23,4 +23,9 @@ export const gPoliceRecomp: Port = {
     "Recompilation of G-Police (PS1, USA SLUS-00544) with PSXRecomp and the recomp-ui launcher. It needs your disc and a European SCPH-5502/5552 BIOS; the wizard handles generating and compiling. Release candidate 0.1.0, with gameplay validation still pending.",
   notesEs:
     "Recompilación de G-Police (PS1, USA SLUS-00544) con PSXRecomp y el lanzador recomp-ui. Necesita tu disco y una BIOS europea SCPH-5502/5552; el asistente se encarga de generar y compilar. Versión candidata 0.1.0, pendiente de validar el gameplay.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/G-Police%20(USA).png",
+    alt: "G-Police (box art)",
+    credit: "Box art",
+  },
 };

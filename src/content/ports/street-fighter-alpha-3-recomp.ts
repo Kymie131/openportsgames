@@ -23,4 +23,9 @@ export const streetFighterAlpha3Recomp: Port = {
     "Static recompilation of Street Fighter Alpha 3 (PlayStation) built with the PSXRecomp toolkit. It requires your own copy of the game.",
   notesEs:
     "Recompilación estática de Street Fighter Alpha 3 (PlayStation) construida con el kit PSXRecomp. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Street%20Fighter%20Alpha%203%20(Europe).png",
+    alt: "Street Fighter Alpha 3 (box art)",
+    credit: "Box art",
+  },
 };

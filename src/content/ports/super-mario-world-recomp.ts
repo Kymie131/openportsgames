@@ -39,4 +39,11 @@ export const superMarioWorldRecomp: Port = {
     alt: "Super Mario World (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Super%20Mario%20World%20(USA).png",
+      alt: "Super Mario World (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

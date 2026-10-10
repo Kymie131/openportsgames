@@ -23,4 +23,9 @@ export const marioParty4Recomp: Port = {
     "Static recompilation of Mario Party 4 (GameCube) with ReXGlue. It requires your own copy of the game.",
   notesEs:
     "Recompilación estática de Mario Party 4 (GameCube) con ReXGlue. Requiere tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Mario%20Party%204%20(Europe)%20(En,Fr,De,Es,It)%20(Rev%202).png",
+    alt: "Mario Party 4 (box art)",
+    credit: "Box art",
+  },
 };

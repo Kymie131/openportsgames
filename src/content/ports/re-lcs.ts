@@ -43,4 +43,11 @@ export const reLcs: Port = {
     alt: "Grand Theft Auto: Liberty City Stories (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Snaps/Grand%20Theft%20Auto%20-%20Liberty%20City%20Stories%20(USA)%20(En,Fr,De,Es,It)%20(v1.05).png",
+      alt: "Grand Theft Auto: Liberty City Stories (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

@@ -23,4 +23,9 @@ export const syphonFilter3Recomp: Port = {
     "Recompilation of Syphon Filter 3 (PS1, USA SCUS-94640) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:
     "Recompilación de Syphon Filter 3 (PS1, USA SCUS-94640) con PSXRecomp. Las releases son kits de compilación propia: aportas tu disco y una BIOS compatible, y el juego se genera y compila en tu equipo. Es la recompilación base del framework, sin mejoras por juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Syphon%20Filter%203%20(Europe).png",
+    alt: "Syphon Filter 3 (box art)",
+    credit: "Box art",
+  },
 };

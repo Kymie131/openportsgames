@@ -23,4 +23,16 @@ export const finalFantasyVSnesRecomp: Port = {
     "Static recompilation of Final Fantasy V (Super Nintendo) to a native executable. It requires your own ROM and ships no game data.",
   notesEs:
     "Recompilación estática de Final Fantasy V (Super Nintendo) a un ejecutable nativo. Requiere tu propia ROM y no incluye datos del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Final%20Fantasy%20V%20(Japan).png",
+    alt: "Final Fantasy V (box art)",
+    credit: "Box art",
+  },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Final%20Fantasy%20V%20(Japan).png",
+      alt: "Final Fantasy V (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

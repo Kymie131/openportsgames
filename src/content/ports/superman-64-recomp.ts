@@ -28,4 +28,11 @@ export const superman64Recomp: Port = {
     alt: "Superman (box art)",
     credit: "Box art",
   },
+  screenshots: [
+    {
+      src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Snaps/Superman%20(USA)%20(Beta)%20(1998-09-06).png",
+      alt: "Superman (screenshot)",
+      credit: "Libretro",
+    },
+  ],
 };

@@ -23,4 +23,9 @@ export const dukeNukemTimeToKillRecomp: Port = {
     "Recompilation of Duke Nukem: Time to Kill (PS1, USA SLUS-00583) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:
     "Recompilación de Duke Nukem: Time to Kill (PS1, USA SLUS-00583) con PSXRecomp. Las releases son kits de compilación propia: aportas tu disco y una BIOS compatible, y el juego se genera y compila en tu equipo. Es la recompilación base del framework, sin mejoras por juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Duke%20Nukem%20-%20Time%20to%20Kill%20(Europe).png",
+    alt: "Duke Nukem: Time to Kill (box art)",
+    credit: "Box art",
+  },
 };

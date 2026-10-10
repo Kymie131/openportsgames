@@ -23,4 +23,9 @@ export const wipeoutXlRecomp: Port = {
     "Recompilation of Wipeout XL (PS1, USA SCUS-94351) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:
     "Recompilación de Wipeout XL (PS1, USA SCUS-94351) con PSXRecomp. Las releases son kits de compilación propia: aportas tu disco y una BIOS compatible, y el juego se genera y compila en tu equipo. Es la recompilación base del framework, sin mejoras por juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Wipeout%20XL%20(Japan,%20Asia).png",
+    alt: "Wipeout XL (box art)",
+    credit: "Box art",
+  },
 };

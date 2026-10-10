@@ -23,4 +23,9 @@ export const fearEffect2RetroHelixRecomp: Port = {
     "Recompilation of Fear Effect 2: Retro Helix (PS1, USA SLUS-01266 / SLUS-01275) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:
     "Recompilación de Fear Effect 2: Retro Helix (PS1, USA SLUS-01266 / SLUS-01275) con PSXRecomp. Las releases son kits de compilación propia: aportas tu disco y una BIOS compatible, y el juego se genera y compila en tu equipo. Es la recompilación base del framework, sin mejoras por juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Fear%20Effect%202%20-%20Retro%20Helix%20(Europe)%20(En,Fr,De).png",
+    alt: "Fear Effect 2: Retro Helix (box art)",
+    credit: "Box art",
+  },
 };
