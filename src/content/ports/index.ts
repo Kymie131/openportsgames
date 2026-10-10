@@ -523,6 +523,9 @@ import { cncRenegade } from "./cnc-renegade";
 import { cod4Ios } from "./cod4-ios";
 import { farCryNearChuckle } from "./far-cry-nearchuckle";
 import { area51Source } from "./area-51-source";
+import { descent3 } from "./descent-3";
+import { aloneInTheDarkRehaunted } from "./alone-in-the-dark-rehaunted";
+import { fateUnlimitedCodesRecomp } from "./fate-unlimited-codes-recomp";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -1049,4 +1052,7 @@ export const portCases: Port[] = [
   cod4Ios,
   farCryNearChuckle,
   area51Source,
+  descent3,
+  aloneInTheDarkRehaunted,
+  fateUnlimitedCodesRecomp,
 ];

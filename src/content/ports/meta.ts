@@ -525,4 +525,7 @@ export const originalSystemById: Record<Port["id"], string> = {
   "cod4-ios": "Microsoft Windows",
   "far-cry-nearchuckle": "Microsoft Windows",
   "area-51-source": "Microsoft Windows",
+  "descent-3": "Microsoft Windows",
+  "alone-in-the-dark-rehaunted": "MS-DOS",
+  "fate-unlimited-codes-recomp": "PlayStation Portable",
 };
