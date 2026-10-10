@@ -20,7 +20,7 @@ export const alephOne: Port = {
   license: { spdx: "GPL-3.0" },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "Xbox",
+  originalSystem: "Macintosh",
   features: [
     "Ready-to-run packages for Marathon, Marathon 2 and Marathon Infinity",
     "macOS, Windows and Linux Flatpak builds published together",
