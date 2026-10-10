@@ -534,6 +534,40 @@ import { uqmMegamod } from "./uqm-megamod";
 import { openmwAndroid } from "./openmw-android";
 import { pvzFusionAndroid } from "./pvz-fusion-android";
 import { slayTheSpire2Android } from "./slay-the-spire-2-android";
+import { battleArenaToshindenRecomp } from "./battle-arena-toshinden-recomp";
+import { bloodyRoar2Recomp } from "./bloody-roar-2-recomp";
+import { bombermanFantasyRaceRecomp } from "./bomberman-fantasy-race-recomp";
+import { bombermanWorldRecomp } from "./bomberman-world-recomp";
+import { bombermanPartyEditionRecomp } from "./bomberman-party-edition-recomp";
+import { dragonBallGtFinalBoutRecomp } from "./dragon-ball-gt-final-bout-recomp";
+import { digimonWorldRecomp } from "./digimon-world-recomp";
+import { klonoaDoorToPhantomileRecomp } from "./klonoa-door-to-phantomile-recomp";
+import { legendOfLegaiaRecomp } from "./legend-of-legaia-recomp";
+import { marvelVsCapcomRecomp } from "./marvel-vs-capcom-recomp";
+import { starWarsMastersOfTerasKasiRecomp } from "./star-wars-masters-of-teras-kasi-recomp";
+import { puyoPuyoBoxRecomp } from "./puyo-puyo-box-recomp";
+import { rampageThroughTimeRecomp } from "./rampage-through-time-recomp";
+import { samuraiShodownWarriorsRageRecomp } from "./samurai-shodown-warriors-rage-recomp";
+import { soulbladeRecomp } from "./soulblade-recomp";
+import { starWarsJediPowerBattlesRecomp } from "./star-wars-jedi-power-battles-recomp";
+import { strider2Recomp } from "./strider-2-recomp";
+import { twistedMetal4Recomp } from "./twisted-metal-4-recomp";
+import { xMenMutantAcademy2Recomp } from "./x-men-mutant-academy-2-recomp";
+import { streetFighterExPlusAlphaRecomp } from "./street-fighter-ex-plus-alpha-recomp";
+import { aceCombat5Recomp } from "./ace-combat-5-recomp";
+import { darkCloud2Recomp } from "./dark-cloud-2-recomp";
+import { slyCooperRecomp } from "./sly-cooper-recomp";
+import { timesplitters2Recomp } from "./timesplitters-2-recomp";
+import { aceCombatXRecomp } from "./ace-combat-x-recomp";
+import { mobileSuitGundamSeedBattleAssaultRecomp } from "./mobile-suit-gundam-seed-battle-assault-recomp";
+import { jungleStrikeRecomp } from "./jungle-strike-recomp";
+import { superMarioAllStarsRecomp } from "./super-mario-all-stars-recomp";
+import { kirbysDreamLandRecomp } from "./kirbys-dream-land-recomp";
+import { tetrisGbRecomp } from "./tetris-gb-recomp";
+import { zelda2AdventureOfLinkRecomp } from "./zelda-2-adventure-of-link-recomp";
+import { spaceChannel5Recomp } from "./space-channel-5-recomp";
+import { buckBumbleRecomp } from "./buck-bumble-recomp";
+import { shadowsOfTheEmpireRecomp } from "./shadows-of-the-empire-recomp";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -1071,4 +1105,38 @@ export const portCases: Port[] = [
   openmwAndroid,
   pvzFusionAndroid,
   slayTheSpire2Android,
+  battleArenaToshindenRecomp,
+  bloodyRoar2Recomp,
+  bombermanFantasyRaceRecomp,
+  bombermanWorldRecomp,
+  bombermanPartyEditionRecomp,
+  dragonBallGtFinalBoutRecomp,
+  digimonWorldRecomp,
+  klonoaDoorToPhantomileRecomp,
+  legendOfLegaiaRecomp,
+  marvelVsCapcomRecomp,
+  starWarsMastersOfTerasKasiRecomp,
+  puyoPuyoBoxRecomp,
+  rampageThroughTimeRecomp,
+  samuraiShodownWarriorsRageRecomp,
+  soulbladeRecomp,
+  starWarsJediPowerBattlesRecomp,
+  strider2Recomp,
+  twistedMetal4Recomp,
+  xMenMutantAcademy2Recomp,
+  streetFighterExPlusAlphaRecomp,
+  aceCombat5Recomp,
+  darkCloud2Recomp,
+  slyCooperRecomp,
+  timesplitters2Recomp,
+  aceCombatXRecomp,
+  mobileSuitGundamSeedBattleAssaultRecomp,
+  jungleStrikeRecomp,
+  superMarioAllStarsRecomp,
+  kirbysDreamLandRecomp,
+  tetrisGbRecomp,
+  zelda2AdventureOfLinkRecomp,
+  spaceChannel5Recomp,
+  buckBumbleRecomp,
+  shadowsOfTheEmpireRecomp,
 ];

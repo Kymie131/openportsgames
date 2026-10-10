@@ -66,19 +66,48 @@ describe("catalog ports", () => {
         "namco-system-22-rave-racer",
         "namco-system-22-tokyo-wars",
       ],
-      "https://github.com/dxx-rebirth/dxx-rebirth": [
-        "d1x-rebirth",
-        "dxx-rebirth",
-      ],
+      "https://github.com/dxx-rebirth/dxx-rebirth": ["d1x-rebirth", "dxx-rebirth"],
       // `dkc-recompiled` is the trilogy hub and lists each game's repository,
       // which now has its own standalone entry too.
-      "https://github.com/elliotttate/DKC3Recomp": [
-        "dkc-recompiled",
-        "dkc3-recomp",
-      ],
-      "https://github.com/elliotttate/DKC2Recomp": [
-        "dkc-recompiled",
-        "dkc2-recomp",
+      "https://github.com/elliotttate/DKC3Recomp": ["dkc-recompiled", "dkc3-recomp"],
+      "https://github.com/elliotttate/DKC2Recomp": ["dkc-recompiled", "dkc2-recomp"],
+      // PortsDR is a community index, not a repository: every entry it lists
+      // shares the same landing page until a dedicated project link exists.
+      "https://portsdr.com/": [
+        "battle-arena-toshinden-recomp",
+        "bloody-roar-2-recomp",
+        "bomberman-fantasy-race-recomp",
+        "bomberman-world-recomp",
+        "bomberman-party-edition-recomp",
+        "dragon-ball-gt-final-bout-recomp",
+        "digimon-world-recomp",
+        "klonoa-door-to-phantomile-recomp",
+        "legend-of-legaia-recomp",
+        "marvel-vs-capcom-recomp",
+        "star-wars-masters-of-teras-kasi-recomp",
+        "puyo-puyo-box-recomp",
+        "rampage-through-time-recomp",
+        "samurai-shodown-warriors-rage-recomp",
+        "soulblade-recomp",
+        "star-wars-jedi-power-battles-recomp",
+        "strider-2-recomp",
+        "twisted-metal-4-recomp",
+        "x-men-mutant-academy-2-recomp",
+        "street-fighter-ex-plus-alpha-recomp",
+        "ace-combat-5-recomp",
+        "dark-cloud-2-recomp",
+        "sly-cooper-recomp",
+        "timesplitters-2-recomp",
+        "ace-combat-x-recomp",
+        "mobile-suit-gundam-seed-battle-assault-recomp",
+        "jungle-strike-recomp",
+        "super-mario-all-stars-recomp",
+        "kirbys-dream-land-recomp",
+        "tetris-gb-recomp",
+        "zelda-2-adventure-of-link-recomp",
+        "space-channel-5-recomp",
+        "buck-bumble-recomp",
+        "shadows-of-the-empire-recomp",
       ],
     };
 
@@ -91,9 +120,7 @@ describe("catalog ports", () => {
 
     for (const [source, ids] of owners) {
       if (ids.length < 2) continue;
-      expect([...ids].sort(), source).toEqual(
-        [...(intentional[source] ?? [])].sort(),
-      );
+      expect([...ids].sort(), source).toEqual([...(intentional[source] ?? [])].sort());
     }
   });
 
