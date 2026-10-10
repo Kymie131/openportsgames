@@ -486,6 +486,9 @@ import { strikersAndroid } from "./strikers-android";
 import { am2rAndroid } from "./am2r-android";
 import { regaidenRecomp } from "./regaiden-recomp";
 import { yakumo } from "./yakumo";
+import { extremeGRecomp } from "./extreme-g-recomp";
+import { martianGothicRecomp } from "./martian-gothic-recomp";
+import { syphonFilterRecomp } from "./syphon-filter-recomp";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -975,4 +978,7 @@ export const portCases: Port[] = [
   am2rAndroid,
   regaidenRecomp,
   yakumo,
+  extremeGRecomp,
+  martianGothicRecomp,
+  syphonFilterRecomp,
 ];

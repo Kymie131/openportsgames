@@ -488,4 +488,7 @@ export const originalSystemById: Record<Port["id"], string> = {
   "am2r-android": "Game Boy",
   "regaiden-recomp": "Game Boy / Game Boy Color",
   yakumo: "PlayStation Portable",
+  "extreme-g-recomp": "Nintendo 64",
+  "martian-gothic-recomp": "PlayStation",
+  "syphon-filter-recomp": "PlayStation",
 };
