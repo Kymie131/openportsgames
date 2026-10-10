@@ -21,6 +21,7 @@ export const dsdaDoom: Port = {
     note: "no project-wide license file; prboom2/COPYING applies to bundled sources",
   },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "MS-DOS",
   features: [

@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import { HomeContent } from "@/components/home/home-content";
 import { JsonLd } from "@/components/seo/json-ld";
 import {
-  getAndroidPortCount,
   getLatestPorts,
   getPort,
   getPortCount,
+  getPorts,
   getTestedPortIds,
   getTestStatuses,
   originalSystemOf,
@@ -56,7 +56,7 @@ export default function Home() {
         featured={featured}
         counts={{
           ports: getPortCount(),
-          android: getAndroidPortCount(),
+          verifiedSource: getPorts().filter((port) => port.sourceVerified).length,
           tested: getTestedPortIds().size,
         }}
       />

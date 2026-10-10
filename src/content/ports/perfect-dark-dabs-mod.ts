@@ -17,6 +17,7 @@ export const perfectDarkDabsMod: Port = {
   sources: ["https://github.com/DabDavis/perfect-dark-dabs-mod"],
   license: { spdx: "MIT" },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-09-22",
   originalSystem: "Nintendo 64",
   features: [

@@ -18,6 +18,7 @@ export const zelda64Recomp: Port = {
   discord: "https://discord.gg/AWZThJ4dPf",
   license: { spdx: "GPL-3.0" },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "Nintendo 64",
   features: [

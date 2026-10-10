@@ -18,6 +18,7 @@ export const daytonaUsaRecomp: Port = {
   sources: ["https://github.com/Subarasheese/daytona-xbla-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
+  sourceVerified: true,
   originalSystem: "Xbox 360",
   notes:
     "Daytona USA (Xbox 360 / XBLA, 2011) recompiled with ReXGlue. The README lists Windows and Linux builds.",

@@ -19,6 +19,7 @@ export const openLoco: Port = {
   website: "https://openloco.io/",
   license: { spdx: "MIT" },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "Microsoft Windows",
   features: [

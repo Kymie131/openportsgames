@@ -18,6 +18,7 @@ export const woofPort: Port = {
   website: "https://fabiangreffrath.github.io/woof/",
   license: { spdx: "GPL-2.0" },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "MS-DOS",
   features: [

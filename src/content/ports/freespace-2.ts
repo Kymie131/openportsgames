@@ -21,6 +21,7 @@ export const freeSpace2: Port = {
     note: "custom terms in Copying.md plus additional restrictions",
   },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "Microsoft Windows",
   features: [

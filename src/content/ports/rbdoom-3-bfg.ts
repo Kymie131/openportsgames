@@ -19,6 +19,7 @@ export const rbDoom3Bfg: Port = {
   website: "https://www.moddb.com/mods/rbdoom-3-bfg",
   license: { spdx: "GPL-3.0" },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "Microsoft Windows",
   features: [

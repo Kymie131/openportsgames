@@ -17,6 +17,7 @@ export const sonic3Air: Port = {
   sources: ["https://github.com/Eukaryot/sonic3air"],
   license: { spdx: "GPL-3.0" },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "Sega Mega Drive / Genesis",
   features: ["Cross-platform desktop builds", "Android build", "Enhanced modes and level options"],

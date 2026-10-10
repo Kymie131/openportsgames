@@ -19,6 +19,7 @@ export const odamexPort: Port = {
   website: "https://odamex.net",
   license: { spdx: "GPL-2.0" },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "MS-DOS",
   features: [

@@ -20,6 +20,7 @@ export const nxEngine: Port = {
     spdx: "GPL-3.0",
   },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-09-19",
   screenshots: [
     {

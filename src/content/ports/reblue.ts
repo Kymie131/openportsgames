@@ -18,6 +18,7 @@ export const reblue: Port = {
   sources: ["https://github.com/zolaware/reblue"],
   license: { spdx: "BSD-3-Clause" },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-10-08",
   originalSystem: "Xbox 360",
   notes:

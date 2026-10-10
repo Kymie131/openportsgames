@@ -18,6 +18,7 @@ export const fateUnlimitedCodesRecomp: Port = {
   sources: ["https://github.com/elprogramadorloco-arch/fuc-recomp"],
   license: { spdx: "MIT" },
   verified: false,
+  sourceVerified: true,
   originalSystem: "PlayStation Portable",
   notes:
     "Hybrid native project for Fate/Unlimited Codes that combines a PSP static recompilation of the gameplay with PS2 assets and controls, still in development. It ships no game files and needs your own copy.",

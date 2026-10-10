@@ -17,6 +17,7 @@ export const settlers2: Port = {
   sources: ["https://github.com/Return-To-The-Roots/s25client"],
   license: { spdx: "GPL-2.0" },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "MS-DOS",
   features: ["Cross-platform desktop builds", "Extended scenario and scripting support"],

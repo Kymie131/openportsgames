@@ -19,6 +19,7 @@ export const alephOne: Port = {
   website: "https://alephone.lhowon.org/",
   license: { spdx: "GPL-3.0" },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "Macintosh",
   features: [

@@ -21,6 +21,7 @@ export const dkcRecompiled: Port = {
   ],
   license: { spdx: "MIT" },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-09-22",
   originalSystem: "Super Nintendo",
   features: [

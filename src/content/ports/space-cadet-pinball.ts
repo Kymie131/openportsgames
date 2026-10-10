@@ -17,6 +17,7 @@ export const spaceCadetPinball: Port = {
   sources: ["https://github.com/k4zmu2a/SpaceCadetPinball"],
   license: { spdx: "MIT" },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "Microsoft Windows",
   features: [

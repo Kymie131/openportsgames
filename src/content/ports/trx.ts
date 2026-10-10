@@ -18,6 +18,7 @@ export const trxPort: Port = {
   website: "https://lostartefacts.dev/",
   license: { spdx: "GPL-3.0" },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "MS-DOS",
   features: [

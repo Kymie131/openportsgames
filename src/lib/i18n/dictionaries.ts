@@ -150,10 +150,9 @@ const en = {
     screenshots: "Screenshots",
     tests: "Tests by the team",
     noTests: "No tests yet.",
-    aiLabel: "AI use",
-    aiAssisted: "AI-assisted",
-    aiMostly: "Built mostly with AI",
+    aiLabel: "Declares AI use",
     aiSource: "Project statement",
+    unverifiedSource: "Source not verified by the team",
     testStale: "Older version; results may be outdated",
     tester: "Tester",
     version: "Version",
@@ -195,6 +194,8 @@ const en = {
     statsAndroid: (count: number) => `${count} for Android`,
     statsTested: (count: number) =>
       count === 1 ? "1 port with a registered test" : `${count} ports with a registered test`,
+    statsVerifiedSource: (count: number) =>
+      count === 1 ? "1 with a verified source" : `${count} with a verified source`,
     featuredTitle: "Featured ports",
     featuredSubtitle:
       "Games we won't let die, for posterity and for the love of the art of video games.",
@@ -399,6 +400,7 @@ const en = {
     disclaimer: [
       "OpenPortsGames is an independent, community-run informational catalog. It is not affiliated with, endorsed by or connected to any of the companies that own the games listed.",
       "Game names and trademarks belong to their respective owners, and are used only to identify and catalogue the ports.",
+      "Cover art and screenshots are loaded from external sources (the project's own site, libretro-thumbnails or Wikimedia) only to identify each game; they are not hosted here.",
       "This site does not host game files. If you find a link that leads to one, report it and we will remove it. We do not support piracy.",
       "The catalog is not exhaustive: a project being absent says nothing about its quality or its legality.",
       "Links point to sites this catalog does not control. Their content changes over time and stays the responsibility of whoever operates them.",
@@ -576,10 +578,9 @@ const es: Messages = {
     screenshots: "Capturas",
     tests: "Pruebas del equipo",
     noTests: "Sin pruebas todavía.",
-    aiLabel: "Uso de IA",
-    aiAssisted: "Asistido por IA",
-    aiMostly: "Hecho en gran parte con IA",
+    aiLabel: "Declara uso de IA",
     aiSource: "Declaración del proyecto",
+    unverifiedSource: "Fuente sin verificar por el equipo",
     testStale: "Versión anterior: los resultados pueden estar desactualizados",
     tester: "Probador",
     version: "Versión",
@@ -621,6 +622,8 @@ const es: Messages = {
     statsAndroid: (count: number) => `${count} para Android`,
     statsTested: (count: number) =>
       count === 1 ? "1 port con prueba registrada" : `${count} ports con prueba registrada`,
+    statsVerifiedSource: (count: number) =>
+      count === 1 ? "1 con fuente verificada" : `${count} con fuente verificada`,
     featuredTitle: "Ports destacados",
     featuredSubtitle:
       "Juegos que no dejaremos morir, por la posteridad y el amor al arte de los videojuegos.",
@@ -828,6 +831,7 @@ const es: Messages = {
     disclaimer: [
       "OpenPortsGames es un catálogo informativo independiente y comunitario. No está afiliado, respaldado ni conectado con ninguna de las compañías propietarias de los juegos listados.",
       "Los nombres de juegos y marcas pertenecen a sus respectivos dueños y se usan solo para identificar y catalogar los ports.",
+      "Las carátulas y capturas se cargan desde fuentes externas (la web del propio proyecto, libretro-thumbnails o Wikimedia) solo para identificar cada juego; no se alojan aquí.",
       "Este sitio no aloja archivos de juegos. Si encuentras un enlace que lleve a uno, repórtalo y lo retiramos. No apoyamos la piratería.",
       "El catálogo no es exhaustivo: que un proyecto falte no dice nada sobre su calidad ni sobre su legalidad.",
       "Los enlaces apuntan a sitios que este catálogo no controla. Su contenido cambia con el tiempo y sigue siendo responsabilidad de quienes los operan.",

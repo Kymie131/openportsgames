@@ -17,6 +17,7 @@ export const namcoSystem22PropCycle: Port = {
   sources: ["https://github.com/spacestate1/namco22-decompile"],
   license: { spdx: "MIT" },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-09-30",
   originalSystem: "Namco System 22",
   features: [

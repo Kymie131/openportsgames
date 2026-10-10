@@ -18,6 +18,7 @@ export const redriver2: Port = {
   website: "https://opendriver2.github.io/",
   license: { spdx: "MIT" },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-09-30",
   originalSystem: "PlayStation",
   features: [

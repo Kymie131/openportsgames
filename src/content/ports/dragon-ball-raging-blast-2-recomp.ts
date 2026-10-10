@@ -18,6 +18,7 @@ export const dragonBallRagingBlast2Recomp: Port = {
   sources: ["https://github.com/WistfulHopes/RB2"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
+  sourceVerified: true,
   originalSystem: "Xbox 360",
   notes: "Recompiled with the ReXGlue SDK.",
   notesEs: "Recompilado con el SDK ReXGlue.",

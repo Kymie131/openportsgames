@@ -17,6 +17,7 @@ export const triAevum: Port = {
   sources: ["https://github.com/coccofresco/TriAevum"],
   license: { spdx: "GPL-3.0-or-later" },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-09-22",
   originalSystem: "Nintendo 3DS",
   features: [

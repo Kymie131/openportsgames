@@ -22,6 +22,7 @@ export const librelancer: Port = {
     note: "MIT per the LICENSE file; the GitHub license field reports NOASSERTION",
   },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "Microsoft Windows",
   features: ["Reimplementation of the Freelancer engine", "Cross-platform C++ codebase"],

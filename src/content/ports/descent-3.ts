@@ -18,6 +18,7 @@ export const descent3: Port = {
   sources: ["https://github.com/DescentDevelopers/Descent3"],
   license: { spdx: "GPL-3.0" },
   verified: false,
+  sourceVerified: true,
   originalSystem: "Microsoft Windows",
   notes:
     "Official open-source release of Descent 3 published by the Descent Developers, with builds for Windows, Linux and macOS. It needs the retail game data to play.",

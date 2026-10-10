@@ -18,13 +18,13 @@ export const conan2007Recomp: Port = {
   sources: ["https://github.com/crazyriddler/Conan2007Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
+  sourceVerified: true,
   originalSystem: "Xbox 360",
   notes:
     "Native DirectX 12 rendering. Controller only. Up to 120 FPS, because physics break above that.",
   notesEs:
     "Render nativo en DirectX 12. Solo mando. Hasta 120 FPS, porque por encima se rompe la física.",
   aiDisclosure: {
-    level: "assisted",
     source: "https://github.com/crazyriddler/Conan2007Recomp#readme",
     quote: "I've relied on Claude to carry out this project",
   },

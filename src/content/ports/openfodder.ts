@@ -18,6 +18,7 @@ export const openFodder: Port = {
   discord: "https://discord.gg/4mX2wFM",
   license: { spdx: "GPL-3.0" },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "MS-DOS",
   notes:

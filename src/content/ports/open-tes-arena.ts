@@ -18,6 +18,7 @@ export const openTesaArena: Port = {
   discord: "https://discord.gg/DgHe2jG",
   license: { spdx: "MIT" },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "MS-DOS",
   features: ["Cross-platform desktop builds", "Modern renderer and input handling"],

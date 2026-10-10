@@ -18,6 +18,7 @@ export const dxxRebirth: Port = {
   website: "https://www.dxx-rebirth.com/",
   license: { spdx: "GPL-3.0" },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-09-25",
   notes:
     "Source port of Descent and Descent II with OpenGL rendering and modern hardware support. The last official release was published in 2018, when the project originator retired.",

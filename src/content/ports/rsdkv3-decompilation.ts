@@ -20,6 +20,7 @@ export const rsdkv3Decompilation: Port = {
     note: "community Retro Engine license, not an SPDX identifier",
   },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-09-30",
   originalSystem: "Sega CD / Mega-CD",
   features: [

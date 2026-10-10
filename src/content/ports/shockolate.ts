@@ -20,6 +20,7 @@ export const shockolate: Port = {
     spdx: "GPL-3.0",
   },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-10-01",
   notes:
     "Reimplementation of the System Shock engine. The last tagged release is 0.7.7; tags from 0.8.0 onward are marked as prereleases.",

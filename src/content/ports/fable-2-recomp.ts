@@ -18,13 +18,13 @@ export const fable2Recomp: Port = {
   sources: ["https://github.com/himdo/Fable-2-Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
+  sourceVerified: true,
   originalSystem: "Xbox 360",
   notes:
     "Recompilation of Fable II (Xbox 360) with the ReXGlue SDK. An optional Windows launcher sets resolution, internal render scale, filtering, VSync and the FPS cap (30/60/120 and uncapped), with keyboard and mouse. A second recompilation project exists in parallel.",
   notesEs:
     "Recompilación de Fable II (Xbox 360) con el SDK ReXGlue. Un lanzador opcional para Windows ajusta resolución, escalado interno, filtrado, VSync y el límite de FPS (30/60/120 y sin tope), con teclado y ratón. Existe un segundo proyecto de recompilación en paralelo.",
   aiDisclosure: {
-    level: "mostly-ai",
     source: "https://github.com/himdo/Fable-2-Recomp#readme",
     quote: "This project was made using Qwen3.8 27b.",
   },

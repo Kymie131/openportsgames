@@ -17,6 +17,7 @@ export const julius: Port = {
   sources: ["https://github.com/bvschaik/julius"],
   license: { spdx: "AGPL-3.0" },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-09-25",
   notes:
     "Open-source re-implementation of Caesar III that runs with the original game files. On top of the stable releases, the project publishes continuous (weekly) builds.",

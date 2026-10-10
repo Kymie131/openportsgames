@@ -109,10 +109,9 @@ export function PortDetail({
                 {t.catalog.experimental}
               </span>
             )}
-            {port.aiDisclosure && (
+            {!port.sourceVerified && (
               <span className="rounded-full border border-border px-2 py-0.5 text-xs font-medium text-muted">
-                {t.detail.aiLabel}:{" "}
-                {port.aiDisclosure.level === "mostly-ai" ? t.detail.aiMostly : t.detail.aiAssisted}
+                {t.detail.unverifiedSource}
               </span>
             )}
           </div>
@@ -191,6 +190,7 @@ export function PortDetail({
 
       {port.aiDisclosure && (
         <section className="flex flex-col gap-1">
+          <h2 className="text-lg font-semibold tracking-tight">{t.detail.aiLabel}</h2>
           <p className="text-sm leading-relaxed text-muted">“{port.aiDisclosure.quote}”</p>
           <a
             href={port.aiDisclosure.source}

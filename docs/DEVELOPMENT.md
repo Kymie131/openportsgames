@@ -105,3 +105,20 @@ node scripts/serve-static.mjs   # serves ./out on :4173
 ```
 
 Smoke tests (not in CI): `PLAYWRIGHT_CHANNEL=msedge npx playwright test`.
+
+## Catalog imports
+
+Most of the catalog was imported from community indexes rather than written
+entry by entry:
+
+- GameWave (`https://gamewave.digital/ports/catalog.json`, 704 apps): console
+  and Android ports.
+- PortsDR (`https://portsdr.com/`): console ports without a public repository.
+
+The imports were generated with throwaway Node scripts (`gen-*.cjs`) that wrote
+one `src/content/ports/<id>.ts` per entry and wired `index.ts` and `meta.ts`.
+Those scripts are not versioned in this repository.
+
+Entries imported this way are `sourceVerified: false` (the schema default): the
+team has not checked them against the project's own README or repository.
+Entries checked by hand carry `sourceVerified: true`.

@@ -20,6 +20,7 @@ export const fallout2Ce: Port = {
     note: "project states it derives from a public domain release of the Fallout source",
   },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-09-19",
   notes:
     "Community engine for Fallout 2 rebuilt for modern operating systems. Requires the original Fallout 2 game files.",

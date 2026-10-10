@@ -35,7 +35,7 @@ export function HomeContent({
 }: {
   latest: FeaturedPort[];
   featured: FeaturedPort[];
-  counts: { ports: number; android: number; tested: number };
+  counts: { ports: number; verifiedSource: number; tested: number };
 }) {
   const t = useT();
   const locale = useLocale();
@@ -93,10 +93,10 @@ export function HomeContent({
           </div>
           <div className="rounded-xl border border-border bg-surface px-6 py-5 shadow-sm">
             <dt className="font-mono text-3xl font-bold tracking-tight text-foreground">
-              {toNumber(counts.tested)}
+              {toNumber(counts.verifiedSource)}
             </dt>
             <dd className="mt-1 text-sm font-medium text-muted">
-              {t.home.statsTested(counts.tested)}
+              {t.home.statsVerifiedSource(counts.verifiedSource)}
             </dd>
           </div>
         </dl>

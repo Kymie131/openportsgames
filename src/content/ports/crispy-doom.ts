@@ -18,6 +18,7 @@ export const crispyDoom: Port = {
   website: "https://fabiangreffrath.github.io/crispy-homepage",
   license: { spdx: "GPL-2.0" },
   verified: true,
+  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "MS-DOS",
   features: [
