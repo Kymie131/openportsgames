@@ -476,6 +476,16 @@ import { celesteAndroid } from "./celeste-android";
 import { pokewildsAndroid } from "./pokewilds-android";
 import { touhou6Android } from "./touhou-6-android";
 import { valdroid } from "./valdroid";
+import { gen1recomp } from "./gen1recomp";
+import { gen2recomp } from "./gen2recomp";
+import { chaotixRecompiled } from "./chaotix-recompiled";
+import { castlevaniaRevamped } from "./castlevania-revamped";
+import { issdNative } from "./issd-native";
+import { starfoxEnhanced } from "./starfox-enhanced";
+import { strikersAndroid } from "./strikers-android";
+import { am2rAndroid } from "./am2r-android";
+import { regaidenRecomp } from "./regaiden-recomp";
+import { yakumo } from "./yakumo";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -955,4 +965,14 @@ export const portCases: Port[] = [
   pokewildsAndroid,
   touhou6Android,
   valdroid,
+  gen1recomp,
+  gen2recomp,
+  chaotixRecompiled,
+  castlevaniaRevamped,
+  issdNative,
+  starfoxEnhanced,
+  strikersAndroid,
+  am2rAndroid,
+  regaidenRecomp,
+  yakumo,
 ];
