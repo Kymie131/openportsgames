@@ -489,6 +489,26 @@ import { yakumo } from "./yakumo";
 import { extremeGRecomp } from "./extreme-g-recomp";
 import { martianGothicRecomp } from "./martian-gothic-recomp";
 import { syphonFilterRecomp } from "./syphon-filter-recomp";
+import { jetMotoAnthologyRecomp } from "./jet-moto-anthology-recomp";
+import { legendOfDragoonSeveredChains } from "./legend-of-dragoon-severed-chains";
+import { streetFighterAlpha3Recomp } from "./street-fighter-alpha-3-recomp";
+import { vandalHeartsRecomp } from "./vandal-hearts-recomp";
+import { toyStory2Recomp } from "./toy-story-2-recomp";
+import { yuGiOhForbiddenMemoriesRecomp } from "./yu-gi-oh-forbidden-memories-recomp";
+import { streetFighterEx2PlusRecomp } from "./street-fighter-ex2-plus-recomp";
+import { rTypeDeltaRecomp } from "./r-type-delta-recomp";
+import { madStalkerRecomp } from "./mad-stalker-recomp";
+import { megaMan8Recomp } from "./mega-man-8-recomp";
+import { sonicSecretRingsReignition } from "./sonic-secret-rings-reignition";
+import { pokemonPlatinumRecomp } from "./pokemon-platinum-recomp";
+import { socom2Recomp } from "./socom-2-recomp";
+import { the3rdBirthdayRecomp } from "./the-3rd-birthday-recomp";
+import { playstationAllStarsRecomp } from "./playstation-all-stars-recomp";
+import { shantaeRecomp } from "./shantae-recomp";
+import { finalFantasyVSnesRecomp } from "./final-fantasy-v-snes-recomp";
+import { actraiserRecomp } from "./actraiser-recomp";
+import { bubbleBobbleNesRecomp } from "./bubble-bobble-nes-recomp";
+import { cannonball } from "./cannonball";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -981,4 +1001,24 @@ export const portCases: Port[] = [
   extremeGRecomp,
   martianGothicRecomp,
   syphonFilterRecomp,
+  jetMotoAnthologyRecomp,
+  legendOfDragoonSeveredChains,
+  streetFighterAlpha3Recomp,
+  vandalHeartsRecomp,
+  toyStory2Recomp,
+  yuGiOhForbiddenMemoriesRecomp,
+  streetFighterEx2PlusRecomp,
+  rTypeDeltaRecomp,
+  madStalkerRecomp,
+  megaMan8Recomp,
+  sonicSecretRingsReignition,
+  pokemonPlatinumRecomp,
+  socom2Recomp,
+  the3rdBirthdayRecomp,
+  playstationAllStarsRecomp,
+  shantaeRecomp,
+  finalFantasyVSnesRecomp,
+  actraiserRecomp,
+  bubbleBobbleNesRecomp,
+  cannonball,
 ];

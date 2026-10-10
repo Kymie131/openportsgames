@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const yuGiOhForbiddenMemoriesRecomp: Port = {
+  schema: "port",
+  id: "yu-gi-oh-forbidden-memories-recomp",
+  title: "Yu-Gi-Oh! Forbidden Memories Recompiled",
+  game: "Yu-Gi-Oh! Forbidden Memories",
+  developers: ["Unchiga"],
+  publisher: "Konami",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  originalSystem: "PlayStation",
+  notes:
+    "Decompilation and recompilation of Yu-Gi-Oh! Forbidden Memories (PlayStation) to a native executable. It needs your own copy of the game.",
+  notesEs:
+    "Decompilación y recompilación de Yu-Gi-Oh! Forbidden Memories (PlayStation) a un ejecutable nativo. Necesita tu propia copia del juego.",
+};
