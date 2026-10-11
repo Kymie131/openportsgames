@@ -1,9 +1,9 @@
 "use client";
 
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { ArrowLeft, ArrowRight, ExternalLink, Layers } from "lucide-react";
+import { ArrowLeft, ArrowRight, ExternalLink, Layers, Search } from "lucide-react";
 import {
   allConsoles,
   countEmulators,
@@ -85,6 +85,46 @@ export function EmulatorsClient({ portsBySystem }: { portsBySystem: Record<strin
     return count;
   }, [portsBySystem]);
 
+  const query = (params.get("q") ?? "").trim();
+  const [draft, setDraft] = useState(query);
+  useEffect(() => {
+    setDraft(query);
+  }, [query]);
+
+  const allEmulators = useMemo(() => {
+    const out: { emu: Emulator; consoleDef: ConsoleDef }[] = [];
+    for (const gen of generations) {
+      for (const consoleDef of gen.consoles) {
+        for (const emu of consoleDef.emulators) {
+          out.push({ emu, consoleDef });
+        }
+      }
+    }
+    return out;
+  }, []);
+
+  const searchForm = (
+    <form
+      role="search"
+      onSubmit={(event) => {
+        event.preventDefault();
+        const value = draft.trim();
+        go(value ? `q=${encodeURIComponent(value)}` : "");
+      }}
+      className="flex items-center gap-2 rounded-md border border-border bg-surface px-3 py-2 focus-within:border-accent-hover sm:max-w-sm"
+    >
+      <Search className="size-4 shrink-0 text-muted" aria-hidden="true" />
+      <input
+        type="search"
+        value={draft}
+        onChange={(event) => setDraft(event.target.value)}
+        placeholder={t.emulators.searchPlaceholder}
+        aria-label={t.emulators.searchPlaceholder}
+        className="w-full bg-transparent text-sm text-foreground placeholder:text-muted focus:outline-none"
+      />
+    </form>
+  );
+
   if (consoleDef) {
     return (
       <ConsoleView
@@ -151,11 +191,46 @@ export function EmulatorsClient({ portsBySystem }: { portsBySystem: Record<strin
     );
   }
 
+  if (query) {
+    const q = query.toLowerCase();
+    const matches = allEmulators.filter(({ emu }) => emu.name.toLowerCase().includes(q));
+    return (
+      <div className="flex flex-col gap-6">
+        <header className="flex flex-col gap-3">
+          <div className="flex flex-col gap-1.5">
+            <h1 className="text-2xl font-semibold tracking-tight">{t.emulators.title}</h1>
+            <p className="max-w-2xl text-sm text-muted">{t.emulators.subtitle}</p>
+          </div>
+          {searchForm}
+        </header>
+        {matches.length === 0 ? (
+          <div className="flex flex-col gap-2 rounded-lg border border-border bg-surface px-6 py-10 text-center">
+            <p className="text-sm font-medium text-foreground">{t.emulators.noResults}</p>
+          </div>
+        ) : (
+          <div className="flex flex-col gap-3">
+            <p className="text-sm text-muted">{t.emulators.searchResults(matches.length)}</p>
+            <ul className="flex flex-col gap-4">
+              {matches.map(({ emu, consoleDef }) => (
+                <li key={emu.id}>
+                  <EmulatorCard emu={emu} consoleName={consoleDef.name[locale]} />
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+    );
+  }
+
   return (
     <div className="flex flex-col gap-6">
-      <header className="flex flex-col gap-1.5">
-        <h1 className="text-2xl font-semibold tracking-tight">{t.emulators.title}</h1>
-        <p className="max-w-2xl text-sm text-muted">{t.emulators.subtitle}</p>
+      <header className="flex flex-col gap-3">
+        <div className="flex flex-col gap-1.5">
+          <h1 className="text-2xl font-semibold tracking-tight">{t.emulators.title}</h1>
+          <p className="max-w-2xl text-sm text-muted">{t.emulators.subtitle}</p>
+        </div>
+        {searchForm}
       </header>
       <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {generations.map((gen) => {
@@ -226,6 +301,64 @@ const PLATFORM_LABEL: Record<EmulatorPlatform, string> = {
   ps4: "PS4",
 };
 
+function EmulatorCard({ emu, consoleName }: { emu: Emulator; consoleName?: string }) {
+  const t = useT();
+  const locale = useLocale();
+  return (
+    <div className="flex flex-col gap-3 rounded-lg border border-border bg-surface p-5">
+      <div className="flex flex-wrap items-center gap-2">
+        <h2 className="text-base font-semibold text-foreground">{emu.name}</h2>
+        {consoleName && (
+          <span className="rounded-full border border-border px-2 py-0.5 text-xs text-muted">
+            {consoleName}
+          </span>
+        )}
+        {emu.recommended && (
+          <span className="rounded-full bg-[color-mix(in_oklab,var(--accent)_15%,transparent)] px-2 py-0.5 text-xs font-medium text-accent">
+            {t.emulators.bestPick}
+          </span>
+        )}
+        <span
+          className={cn(
+            "rounded-full px-2 py-0.5 text-xs font-medium",
+            compatTone(emu.compatibility),
+          )}
+        >
+          {t.emulators.compatibility[emu.compatibility]}
+        </span>
+        <span className="rounded-full border border-border px-2 py-0.5 text-xs text-muted">
+          {emu.openSource ? t.catalog.openSource : t.catalog.closedSource}
+        </span>
+      </div>
+      <p className="text-sm leading-relaxed text-muted">{emu.note[locale]}</p>
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted">
+        <span className="flex flex-wrap items-center gap-1.5">
+          <span className="text-foreground/70">{t.emulators.platformsLabel}:</span>
+          {emu.platforms.map((p) => (
+            <span key={p} className="rounded bg-surface-2 px-1.5 py-0.5">
+              {PLATFORM_LABEL[p]}
+            </span>
+          ))}
+        </span>
+        {emu.license && (
+          <span>
+            {t.detail.license}: <span className="font-mono">{emu.license}</span>
+          </span>
+        )}
+      </div>
+      <a
+        href={emu.source}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex w-fit items-center gap-1.5 text-sm text-link transition-colors hover:text-link-hover"
+      >
+        {t.emulators.officialSite}
+        <ExternalLink className="size-3.5" aria-hidden="true" />
+      </a>
+    </div>
+  );
+}
+
 function ConsoleView({
   consoleDef,
   generationName,
@@ -283,54 +416,8 @@ function ConsoleView({
       ) : (
         <ul className="flex flex-col gap-4">
           {emulators.map((emu) => (
-            <li
-              key={emu.id}
-              className="flex flex-col gap-3 rounded-lg border border-border bg-surface p-5"
-            >
-              <div className="flex flex-wrap items-center gap-2">
-                <h2 className="text-base font-semibold text-foreground">{emu.name}</h2>
-                {emu.recommended && (
-                  <span className="rounded-full bg-[color-mix(in_oklab,var(--accent)_15%,transparent)] px-2 py-0.5 text-xs font-medium text-accent">
-                    {t.emulators.bestPick}
-                  </span>
-                )}
-                <span
-                  className={cn(
-                    "rounded-full px-2 py-0.5 text-xs font-medium",
-                    compatTone(emu.compatibility),
-                  )}
-                >
-                  {t.emulators.compatibility[emu.compatibility]}
-                </span>
-                <span className="rounded-full border border-border px-2 py-0.5 text-xs text-muted">
-                  {emu.openSource ? t.catalog.openSource : t.catalog.closedSource}
-                </span>
-              </div>
-              <p className="text-sm leading-relaxed text-muted">{emu.note[locale]}</p>
-              <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted">
-                <span className="flex flex-wrap items-center gap-1.5">
-                  <span className="text-foreground/70">{t.emulators.platformsLabel}:</span>
-                  {emu.platforms.map((p) => (
-                    <span key={p} className="rounded bg-surface-2 px-1.5 py-0.5">
-                      {PLATFORM_LABEL[p]}
-                    </span>
-                  ))}
-                </span>
-                {emu.license && (
-                  <span>
-                    {t.detail.license}: <span className="font-mono">{emu.license}</span>
-                  </span>
-                )}
-              </div>
-              <a
-                href={emu.source}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex w-fit items-center gap-1.5 text-sm text-link transition-colors hover:text-link-hover"
-              >
-                {t.emulators.officialSite}
-                <ExternalLink className="size-3.5" aria-hidden="true" />
-              </a>
+            <li key={emu.id}>
+              <EmulatorCard emu={emu} />
             </li>
           ))}
         </ul>

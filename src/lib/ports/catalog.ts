@@ -58,7 +58,9 @@ const CONSOLE_PLATFORMS: PlatformKey[] = [
 ];
 
 export const SCOPED_PLATFORMS: Record<"all" | "pc" | "android" | "console", PlatformKey[]> = {
-  all: ["windows", "linux", "macos", "android", "web", "ios", ...CONSOLE_PLATFORMS],
+  // The ports catalog only covers PC/Android/web/iOS. Console homebrew lives in
+  // its own section, so console platforms are deliberately excluded here.
+  all: ["windows", "linux", "macos", "android", "web", "ios"],
   pc: ["windows", "linux", "macos"],
   android: ["android"],
   console: CONSOLE_PLATFORMS,

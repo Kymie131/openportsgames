@@ -320,6 +320,9 @@ const en = {
     noPorts: "No ports yet",
     noPortsHelp:
       "There are no entries for this console yet. As projects appear, they will be listed here.",
+    searchPlaceholder: "Search console homebrew",
+    searchResults: (count: number) => `${count} result${count === 1 ? "" : "s"}`,
+    noResults: "No homebrew ports match your search.",
   },
   emulators: {
     title: "Emulators",
@@ -344,6 +347,9 @@ const en = {
     noEmulators: "No public emulator yet",
     noEmulatorsHelp: "No stable, public emulator exists for this console yet.",
     catalogPorts: (count: number) => `${count} native ports in this catalog`,
+    searchPlaceholder: "Search emulators",
+    searchResults: (count: number) => `${count} emulator${count === 1 ? "" : "s"}`,
+    noResults: "No emulators match your search.",
     disclaimer:
       "Emulators require the console BIOS and your own game copies. This catalog hosts no emulator builds or ROMs.",
   },
@@ -779,6 +785,9 @@ const es: Messages = {
     noPorts: "Aún no hay ports",
     noPortsHelp:
       "Todavía no hay entradas para esta consola. Cuando aparezcan proyectos, se listarán aquí.",
+    searchPlaceholder: "Buscar homebrew de consolas",
+    searchResults: (count: number) => `${count} resultado${count === 1 ? "" : "s"}`,
+    noResults: "Ningún port homebrew coincide con tu búsqueda.",
   },
   emulators: {
     title: "Emuladores",
@@ -803,6 +812,9 @@ const es: Messages = {
     noEmulators: "Aún sin emulador público",
     noEmulatorsHelp: "Todavía no existe un emulador público y estable para esta consola.",
     catalogPorts: (count: number) => `${count} ports nativos en este catálogo`,
+    searchPlaceholder: "Buscar emuladores",
+    searchResults: (count: number) => `${count} emulador${count === 1 ? "" : "es"}`,
+    noResults: "Ningún emulador coincide con tu búsqueda.",
     disclaimer:
       "Los emuladores requieren la BIOS de la consola y tus propias copias. Este catálogo no aloja emuladores ni ROMs.",
   },

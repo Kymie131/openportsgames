@@ -6,10 +6,16 @@ import {
   buildIndex,
   defaultCatalogState,
   parseCatalogState,
+  SCOPED_PLATFORMS,
   type CatalogState,
 } from "@/lib/ports/catalog";
 
 const index = buildIndex(ports);
+
+/** Ports inside the "all" scope, which excludes console homebrew platforms. */
+const inAllScope = ports.filter((port) =>
+  port.platforms.some((platform) => SCOPED_PLATFORMS.all.includes(platform)),
+);
 const ALPHABET = "abcdefghijklmnopqrstuvwxyz0123456789";
 
 /**
@@ -59,7 +65,7 @@ describe("catalog fuzz", () => {
 
   it("returns the full catalog when the query trims to empty", () => {
     const { total } = applyCatalog(ports, index, state("     "));
-    expect(total).toBe(ports.length);
+    expect(total).toBe(inAllScope.length);
   });
 
   it("matches nothing for the maxed-out single-token query", () => {

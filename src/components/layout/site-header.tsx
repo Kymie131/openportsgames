@@ -67,10 +67,17 @@ export function SiteHeader() {
     return () => window.removeEventListener("keydown", onKeyDown);
   }, []);
 
+  // Each section searches only its own content, so the header search targets
+  // the current tab: ports, console homebrew or emulators.
   const submitSearch = (event: React.FormEvent) => {
     event.preventDefault();
     const value = query.trim();
-    router.push(value ? `/ports?q=${encodeURIComponent(value)}` : "/ports");
+    const base = pathname.startsWith("/emulators")
+      ? "/emulators"
+      : pathname.startsWith("/console")
+        ? "/console"
+        : "/ports";
+    router.push(value ? `${base}?q=${encodeURIComponent(value)}` : base);
     setOpen(false);
   };
 

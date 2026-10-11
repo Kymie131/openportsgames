@@ -14,6 +14,11 @@ import {
 
 const index = buildIndex(ports);
 
+/** Ports inside the "all" scope, which excludes console homebrew platforms. */
+const inAllScope = ports.filter((port) =>
+  port.platforms.some((platform) => SCOPED_PLATFORMS.all.includes(platform)),
+);
+
 function state(overrides: Partial<CatalogState>): CatalogState {
   return {
     query: "",
@@ -35,8 +40,8 @@ function state(overrides: Partial<CatalogState>): CatalogState {
 describe("applyCatalog", () => {
   it("returns every port with default state", () => {
     const { results, total } = applyCatalog(ports, index, state({}));
-    expect(total).toBe(ports.length);
-    expect(results.length).toBe(ports.length);
+    expect(total).toBe(inAllScope.length);
+    expect(results.length).toBe(inAllScope.length);
   });
 
   it("filters by full-text query", () => {
@@ -138,20 +143,20 @@ describe("applyCatalog", () => {
   });
 
   it("filters by notable features presence", () => {
-    const withFeatures = ports.filter((port) => (port.features?.length ?? 0) > 0);
+    const withFeatures = inAllScope.filter((port) => (port.features?.length ?? 0) > 0);
     expect(withFeatures.length).toBeGreaterThan(0);
     const yes = applyCatalog(ports, index, state({ features: ["yes"] }));
     expect(yes.results.length).toBe(withFeatures.length);
     const no = applyCatalog(ports, index, state({ features: ["no"] }));
-    expect(no.results.length).toBe(ports.length - withFeatures.length);
+    expect(no.results.length).toBe(inAllScope.length - withFeatures.length);
   });
 
   it("filters by open source flag", () => {
     const open = applyCatalog(ports, index, state({ source: ["open"] }));
     const closed = applyCatalog(ports, index, state({ source: ["closed"] }));
-    expect(open.results.length).toBe(ports.filter((port) => port.openSource).length);
-    expect(closed.results.length).toBe(ports.filter((port) => !port.openSource).length);
-    expect(open.results.length + closed.results.length).toBe(ports.length);
+    expect(open.results.length).toBe(inAllScope.filter((port) => port.openSource).length);
+    expect(closed.results.length).toBe(inAllScope.filter((port) => !port.openSource).length);
+    expect(open.results.length + closed.results.length).toBe(inAllScope.length);
   });
 
   it("filters by latest test result using per-port test results", () => {
