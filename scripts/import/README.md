@@ -6,9 +6,9 @@ hardcoded and the scripts are not maintained.
 
 ## Inputs
 
-- `gamewave-catalog-2026-10-07.json` — snapshot of
-  `https://gamewave.digital/ports/catalog.json` (704 apps), downloaded
-  2026-10-07. Console and Android ports.
+- GameWave `catalog.json` (`https://gamewave.digital/ports/catalog.json`, 704
+  apps): console and Android ports. The snapshot is **not included in this
+  repository** while GameWave's terms are unpublished.
 - PortsDR (`https://portsdr.com/`) was read live; no JSON snapshot is kept.
 
 ## Scripts

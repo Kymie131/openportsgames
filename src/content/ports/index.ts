@@ -51,7 +51,6 @@ import { unleashedRecompiled } from "./unleashed-recompiled";
 import { dusklight } from "./dusklight";
 import { meleeNative } from "./melee-native";
 import { pikmin } from "./pikmin";
-import { openNectar } from "./open-nectar";
 import { petari } from "./petari";
 import { ctrNative } from "./ctr-native";
 import { pokered } from "./pokered";
@@ -614,7 +613,6 @@ export const portCases: Port[] = [
   dusklight,
   meleeNative,
   pikmin,
-  openNectar,
   petari,
   ctrNative,
   pokered,
