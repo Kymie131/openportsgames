@@ -46,8 +46,12 @@ export const consoleLogoSlugs = [
   "playstation-2",
   "playstation-3",
   "playstation-4",
+  "psp",
+  "psvita",
   "snes",
+  "switch",
   "wii",
+  "wiiu",
   "xbox",
   "xbox-360",
 ] as const;

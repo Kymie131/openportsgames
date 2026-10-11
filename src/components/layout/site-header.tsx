@@ -88,7 +88,7 @@ export function SiteHeader() {
         scrolled ? "border-b border-border shadow-sm" : "border-b border-transparent",
       )}
     >
-      <Container className="flex h-14 items-center justify-between gap-4 md:h-16">
+      <Container wide className="flex h-14 items-center justify-between gap-4 md:h-16">
         <div className="flex min-w-0 items-center gap-6">
           <Link href="/" className="flex shrink-0 items-center" aria-label={t.nav.home}>
             {/* eslint-disable-next-line @next/next/no-img-element */}

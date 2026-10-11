@@ -1300,6 +1300,7 @@ export const generations: Generation[] = [
         year: 2004,
         abbreviation: "PSP",
         color: "#003791",
+        logo: "psp",
         emulators: [
           e(
             "ppsspp",
@@ -1469,6 +1470,7 @@ export const generations: Generation[] = [
         year: 2011,
         abbreviation: "VITA",
         color: "#003791",
+        logo: "psvita",
         emulators: [
           e(
             "vita3k",
@@ -1491,6 +1493,7 @@ export const generations: Generation[] = [
         year: 2012,
         abbreviation: "WIIU",
         color: "#00A0C6",
+        logo: "wiiu",
         emulators: [
           e(
             "cemu",

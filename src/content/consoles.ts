@@ -39,6 +39,7 @@ export const consoleDefs: ConsoleDef[] = [
     year: 2004,
     abbreviation: "PSP",
     color: "#003791",
+    logo: "psp",
   },
   {
     slug: "nintendo-ds",
@@ -88,6 +89,7 @@ export const consoleDefs: ConsoleDef[] = [
     year: 2011,
     abbreviation: "VITA",
     color: "#003791",
+    logo: "psvita",
   },
   {
     slug: "wii-u",
@@ -97,6 +99,7 @@ export const consoleDefs: ConsoleDef[] = [
     year: 2012,
     abbreviation: "WIIU",
     color: "#00A0C6",
+    logo: "wiiu",
   },
   {
     slug: "playstation-4",
@@ -116,6 +119,7 @@ export const consoleDefs: ConsoleDef[] = [
     year: 2017,
     abbreviation: "NS",
     color: "#E60012",
+    logo: "switch",
   },
 ];
 
