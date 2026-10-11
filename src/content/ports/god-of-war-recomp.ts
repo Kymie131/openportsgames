@@ -24,8 +24,8 @@ export const godOfWarRecomp: Port = {
   notesEs:
     "Recompilación estática de God of War (PlayStation 2) con ReXGlue. Requiere el juego original.",
   cover: {
-    src: "https://upload.wikimedia.org/wikipedia/en/a/a7/God_of_War_4_cover.jpg",
-    alt: "God of War (box art)",
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b5/God_of_War_%282005%29_cover.jpg",
+    alt: "God of War (cover)",
     credit: "Wikipedia",
   },
 };

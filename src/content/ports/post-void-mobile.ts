@@ -23,4 +23,9 @@ export const postVoidMobile: Port = {
     "Native ARM64 port of Post Void for Android, aiming to match the latest PC build. It needs your own game files.",
   notesEs:
     "Port nativo ARM64 de Post Void para Android, que busca igualar la última build de PC. Necesita tus propios archivos del juego.",
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1285670/header.jpg",
+    alt: "Post Void (cover)",
+    credit: "Steam",
+  },
 };

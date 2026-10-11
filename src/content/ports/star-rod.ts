@@ -26,8 +26,8 @@ export const starRod: Port = {
   notesEs:
     "Port nativo y kit de modding para Paper Mario a partir del proyecto de decompilación. Requiere la ROM original de Paper Mario para N64 (obtenida legalmente).",
   cover: {
-    src: "https://upload.wikimedia.org/wikipedia/commons/5/54/Paper_Mario_Logo.png",
-    alt: "Paper Mario (box art)",
-    credit: "Wikipedia",
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Paper%20Mario%20(USA).png",
+    alt: "Paper Mario (cover)",
+    credit: "Box art",
   },
 };

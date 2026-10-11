@@ -61,4 +61,9 @@ export const trxPort: Port = {
       credit: "LostArtefacts",
     },
   ],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/69/Tomb_Raider_%281996%29.png",
+    alt: "Tomb Raider I-III (cover)",
+    credit: "Wikipedia",
+  },
 };

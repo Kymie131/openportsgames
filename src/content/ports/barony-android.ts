@@ -23,4 +23,9 @@ export const baronyAndroid: Port = {
     "Android fork of the Barony source, published with the developer's permission. The APK contains engine code only and needs an owned Barony v5.0.2 installation for its data.",
   notesEs:
     "Fork para Android del código de Barony, publicado con permiso de sus desarrolladores. El APK solo contiene el motor y necesita una instalación propia de Barony v5.0.2 para los datos.",
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/371970/header.jpg",
+    alt: "Barony (cover)",
+    credit: "Steam",
+  },
 };

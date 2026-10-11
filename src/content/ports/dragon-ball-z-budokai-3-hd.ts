@@ -23,4 +23,9 @@ export const dragonBallZBudokai3Hd: Port = {
     "Static recompilation of Dragon Ball Z: Budokai 3 HD (Xbox 360) built with ReXGlue. Bring the game itself.",
   notesEs:
     "Recompilación estática de Dragon Ball Z: Budokai 3 HD (Xbox 360) con ReXGlue. Aporta el propio juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f0/DBZ_Budokai_3.jpg",
+    alt: "Dragon Ball Z: Budokai 3 HD (cover)",
+    credit: "Wikipedia",
+  },
 };

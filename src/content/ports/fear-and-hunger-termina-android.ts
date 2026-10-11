@@ -23,4 +23,9 @@ export const fearAndHungerTerminaAndroid: Port = {
     "Ongoing community project to bring Fear & Hunger 2: Termina to Android. It runs the game without an emulator and needs your own copy.",
   notesEs:
     "Proyecto comunitario en curso para llevar Fear & Hunger 2: Termina a Android. Ejecuta el juego sin emulador y necesita tu propia copia.",
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/2171440/header.jpg",
+    alt: "Fear & Hunger 2: Termina (cover)",
+    credit: "Steam",
+  },
 };

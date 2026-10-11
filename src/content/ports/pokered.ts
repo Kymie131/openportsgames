@@ -46,4 +46,9 @@ export const pokered: Port = {
       "Ejecuta la ROM generada en tu propio hardware o en el emulador del que tengas los derechos.",
     ],
   },
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Pokemon%20-%20Red%20Version%20(USA,%20Europe)%20(SGB%20Enhanced).png",
+    alt: "Pokémon Red/Blue (cover)",
+    credit: "Box art",
+  },
 };

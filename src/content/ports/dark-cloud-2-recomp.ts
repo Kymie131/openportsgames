@@ -22,4 +22,9 @@ export const darkCloud2Recomp: Port = {
   originalSystem: "PlayStation 2",
   notes: "Indexed by PortsDR. No official repository is available, and it needs your own copy.",
   notesEs: "Indexado en PortsDR. No hay repositorio oficial disponible y necesita tu propia copia.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Dark%20Cloud%202%20(USA)%20(v2.00).png",
+    alt: "Dark Cloud 2 (cover)",
+    credit: "Box art",
+  },
 };

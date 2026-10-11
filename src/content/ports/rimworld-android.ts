@@ -23,4 +23,9 @@ export const rimworldAndroid: Port = {
     "Android launcher that runs RimWorld on phones and tablets. It requires the desktop game files from your own copy.",
   notesEs:
     "Lanzador para Android que ejecuta RimWorld en teléfonos y tablets. Requiere los archivos del juego de escritorio de tu propia copia.",
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/294100/header.jpg",
+    alt: "RimWorld (cover)",
+    credit: "Steam",
+  },
 };

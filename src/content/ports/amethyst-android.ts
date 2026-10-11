@@ -23,4 +23,9 @@ export const amethystAndroid: Port = {
     "Minecraft: Java Edition launcher for Android and iOS, based on PojavLauncher. It runs the Java version of Minecraft and requires your own account and game files.",
   notesEs:
     "Lanzador de Minecraft: Java Edition para Android e iOS, basado en PojavLauncher. Ejecuta la versión Java de Minecraft y requiere tu propia cuenta y archivos del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/f/f4/Caves_%26_Cliffs_II_-_Alex_%26_Steve_I.png",
+    alt: "Minecraft (key art)",
+    credit: "Wikimedia Commons",
+  },
 };

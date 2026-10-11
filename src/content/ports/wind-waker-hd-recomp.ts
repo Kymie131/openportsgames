@@ -23,4 +23,9 @@ export const windWakerHdRecomp: Port = {
     "Recompilation of The Legend of Zelda: The Wind Waker HD (Wii U) that currently targets macOS. It needs your own game data.",
   notesEs:
     "Recompilación de The Legend of Zelda: The Wind Waker HD (Wii U) que por ahora apunta a macOS. Necesita tus propios datos del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Wii%20U/Named_Boxarts/Legend%20of%20Zelda,%20The%20-%20The%20Wind%20Waker%20HD%20(USA,%20Asia)%20(En,Fr,Es).png",
+    alt: "The Legend of Zelda: The Wind Waker HD (cover)",
+    credit: "Box art",
+  },
 };

@@ -23,4 +23,9 @@ export const cannonball: Port = {
     "CannonBall is an enhanced OutRun engine that runs the arcade game with 60 FPS, widescreen and new tracks. It needs the original OutRun ROM and builds for Windows, Linux and macOS.",
   notesEs:
     "CannonBall es un motor mejorado de OutRun que ejecuta el juego arcade con 60 FPS, widescreen y pistas nuevas. Necesita la ROM original de OutRun y compila para Windows, Linux y macOS.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sega%20-%20Mega%20Drive%20-%20Genesis/Named_Boxarts/OutRun%20(USA,%20Europe).png",
+    alt: "OutRun (cover)",
+    credit: "Box art",
+  },
 };

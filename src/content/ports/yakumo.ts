@@ -23,4 +23,9 @@ export const yakumo: Port = {
     "Static recompilation of Monster Hunter Portable 3rd HD (PSP) into a native executable, using Vulkan and SDL3. It builds for desktop and Android and requires a copy of the game.",
   notesEs:
     "Recompilación estática de Monster Hunter Portable 3rd HD (PSP) a un ejecutable nativo, con Vulkan y SDL3. Compila para escritorio y Android y requiere una copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Monster%20Hunter%20Portable%203rd%20(Japan,%20Korea).png",
+    alt: "Monster Hunter Portable 3rd HD (cover)",
+    credit: "Box art",
+  },
 };

@@ -22,4 +22,9 @@ export const soulbladeRecomp: Port = {
   originalSystem: "PlayStation",
   notes: "Tracked by PortsDR. No public repo is linked yet, and you supply the game files.",
   notesEs: "Seguido por PortsDR. Todavía no hay repo público, y tú aportas los archivos del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Soul%20Blade%20(USA).png",
+    alt: "SoulBlade (cover)",
+    credit: "Box art",
+  },
 };

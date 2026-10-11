@@ -23,4 +23,9 @@ export const nfsiise: Port = {
     "Cross-platform wrapper that runs Need for Speed II SE with 3D acceleration and TCP networking, using the original game files. It builds for Windows, Linux, macOS and Android.",
   notesEs:
     "Envoltorio multiplataforma que ejecuta Need for Speed II SE con aceleración 3D y red TCP, usando los archivos del juego original. Compila para Windows, Linux, macOS y Android.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7b/NFS_II_%28PC%2C_US%29_cover_art.jpg",
+    alt: "Need for Speed II SE (cover)",
+    credit: "Wikipedia",
+  },
 };

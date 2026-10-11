@@ -23,4 +23,9 @@ export const slayTheSpire2Android: Port = {
     "Unofficial Android launcher for Slay the Spire 2, still in alpha. It needs the original game.",
   notesEs:
     "Lanzador no oficial para Android de Slay the Spire 2, todavía en alfa. Necesita el juego original.",
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/2868840/header.jpg",
+    alt: "Slay the Spire 2 (cover)",
+    credit: "Steam",
+  },
 };

@@ -23,4 +23,9 @@ export const godOfThunderAndroid: Port = {
     "Source port of the 1993 DOS game God of Thunder for Android, with extra quality-of-life features. It needs the original game files, whose license is free.",
   notesEs:
     "Source port para Android del juego de DOS God of Thunder (1993), con funciones de comodidad adicionales. Necesita los archivos del juego original, cuya licencia es gratuita.",
+  cover: {
+    src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/God%20of%20Thunder%20(1993).png",
+    alt: "God of Thunder (cover)",
+    credit: "Box art",
+  },
 };

@@ -23,9 +23,11 @@ export const flowPs3Recomp: Port = {
     "Native recompilation of flOw (PlayStation 3). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de flOw (PlayStation 3). El jugador aporta su propio material obtenido legalmente (volcado del disco); el repositorio no incluye contenido del juego.",
-  cover: {
-    src: "https://upload.wikimedia.org/wikipedia/en/9/9c/Flow_game_screenshot.jpg",
-    alt: "flOw (cover art)",
-    credit: "Wikipedia",
-  },
+  screenshots: [
+    {
+      src: "https://upload.wikimedia.org/wikipedia/en/9/9c/Flow_game_screenshot.jpg",
+      alt: "flOw (screenshot)",
+      credit: "Wikipedia",
+    },
+  ],
 };

@@ -22,4 +22,9 @@ export const saintsRowRecomp: Port = {
   notes: "A ReXGlue-based static recompilation of Saints Row (Xbox 360). Requires your own copy.",
   notesEs:
     "Recompilación estática de Saints Row (Xbox 360) basada en ReXGlue. Requiere tu propia copia.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/59/Saints_Row_Box_Art.jpg",
+    alt: "Saints Row (cover)",
+    credit: "Wikipedia",
+  },
 };

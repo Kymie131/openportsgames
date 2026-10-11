@@ -23,4 +23,9 @@ export const dragonBallZBudokaiHd: Port = {
     "ReXGlue static recompilation of Dragon Ball Z: Budokai HD Collection (Xbox 360) for Windows. Needs the original game files.",
   notesEs:
     "Recompilación estática con ReXGlue de Dragon Ball Z: Budokai HD Collection (Xbox 360) para Windows. Necesita los archivos originales.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/07/DBZ1%262.PNG",
+    alt: "Dragon Ball Z: Budokai HD Collection (cover)",
+    credit: "Wikipedia",
+  },
 };
