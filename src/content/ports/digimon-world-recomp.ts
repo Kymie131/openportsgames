@@ -15,10 +15,10 @@ export const digimonWorldRecomp: Port = {
   platforms: ["windows"],
   status: "beta",
   release: { version: null, date: null },
-  sources: ["https://portsdr.com/"],
+  sources: ["https://github.com/ethan4love/psx-recomp-port"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
-  sourceIsIndex: true,
+  sourceVerified: true,
   originalSystem: "PlayStation",
   notes:
     "Listed on the PortsDR community index with no public repository. You need your own game data.",

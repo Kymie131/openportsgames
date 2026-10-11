@@ -15,10 +15,10 @@ export const starWarsMastersOfTerasKasiRecomp: Port = {
   platforms: ["windows"],
   status: "beta",
   release: { version: null, date: null },
-  sources: ["https://portsdr.com/"],
+  sources: ["https://github.com/TechnicallyComputers/MastersOfTerasKasiRecomp"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
-  sourceIsIndex: true,
+  sourceVerified: true,
   originalSystem: "PlayStation",
   notes: "PortsDR lists this recompilation without a public repository. Own the game to play it.",
   notesEs:

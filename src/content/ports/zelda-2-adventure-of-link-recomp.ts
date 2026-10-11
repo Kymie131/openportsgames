@@ -15,10 +15,10 @@ export const zelda2AdventureOfLinkRecomp: Port = {
   platforms: ["windows"],
   status: "beta",
   release: { version: null, date: null },
-  sources: ["https://portsdr.com/"],
+  sources: ["https://github.com/troyedwardsjr/z2rs"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
-  sourceIsIndex: true,
+  sourceVerified: true,
   originalSystem: "Nintendo Entertainment System",
   notes:
     "Listed on the PortsDR community index with no public repository. You need your own game files.",

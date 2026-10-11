@@ -15,7 +15,7 @@ export const gearsOfWar2Hollow: Port = {
   platforms: ["windows"],
   status: "beta",
   release: { version: null, date: null },
-  sources: [],
+  sources: ["https://www.moddb.com/mods/gears-of-war-2-hollow"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
   sourceVerified: false,

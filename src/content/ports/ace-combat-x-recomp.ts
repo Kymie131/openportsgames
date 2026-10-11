@@ -15,10 +15,10 @@ export const aceCombatXRecomp: Port = {
   platforms: ["windows"],
   status: "beta",
   release: { version: null, date: null },
-  sources: ["https://portsdr.com/"],
+  sources: ["https://github.com/sal063/Ace-Combat-X-Recompilation"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
-  sourceIsIndex: true,
+  sourceVerified: true,
   originalSystem: "PlayStation Portable",
   notes:
     "Listed on the PortsDR community index with no public repository. You need the original game.",

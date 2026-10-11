@@ -15,10 +15,10 @@ export const spaceChannel5Recomp: Port = {
   platforms: ["windows"],
   status: "beta",
   release: { version: null, date: null },
-  sources: ["https://portsdr.com/"],
+  sources: ["https://github.com/ZoomiesZaggy/Space-Channel-5"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
-  sourceIsIndex: true,
+  sourceVerified: true,
   originalSystem: "Dreamcast",
   notes:
     "A PortsDR community listing; no repository or release is public. The original game is required.",

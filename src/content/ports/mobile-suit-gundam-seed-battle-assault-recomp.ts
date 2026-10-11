@@ -15,10 +15,10 @@ export const mobileSuitGundamSeedBattleAssaultRecomp: Port = {
   platforms: ["windows"],
   status: "beta",
   release: { version: null, date: null },
-  sources: ["https://portsdr.com/"],
+  sources: ["https://github.com/omegakatana92/Gundam-Seed-Battle-Assault-Recomp"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
-  sourceIsIndex: true,
+  sourceVerified: true,
   originalSystem: "Game Boy Advance",
   notes:
     "A PortsDR community listing; no repository or release is public. The original game is required.",

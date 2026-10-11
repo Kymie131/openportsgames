@@ -15,7 +15,7 @@ export const gearsOfWar3Jacinto: Port = {
   platforms: ["windows"],
   status: "alpha",
   release: { version: null, date: null },
-  sources: [],
+  sources: ["https://www.nexusmods.com/gearsofwar3"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
   sourceVerified: false,
