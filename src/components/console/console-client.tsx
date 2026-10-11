@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useRef } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { ArrowLeft, ArrowRight, Search } from "lucide-react";
 import { consoleDefs, getConsoleDef } from "@/content/consoles";
@@ -27,11 +27,7 @@ export function ConsoleClient({
   const slug = params.get("console");
   const def = slug ? getConsoleDef(slug) : undefined;
   const query = (params.get("q") ?? "").trim();
-  const [draft, setDraft] = useState(query);
-
-  useEffect(() => {
-    setDraft(query);
-  }, [query]);
+  const inputRef = useRef<HTMLInputElement>(null);
 
   const allPorts = useMemo(() => {
     const seen = new Set<string>();
@@ -61,15 +57,16 @@ export function ConsoleClient({
       role="search"
       onSubmit={(event) => {
         event.preventDefault();
-        go({ q: draft });
+        go({ q: inputRef.current?.value.trim() ?? "" });
       }}
       className="flex items-center gap-2 rounded-md border border-border bg-surface px-3 py-2 focus-within:border-accent-hover sm:max-w-sm"
     >
       <Search className="size-4 shrink-0 text-muted" aria-hidden="true" />
       <input
+        ref={inputRef}
+        key={query}
         type="search"
-        value={draft}
-        onChange={(event) => setDraft(event.target.value)}
+        defaultValue={query}
         placeholder={t.console.searchPlaceholder}
         aria-label={t.console.searchPlaceholder}
         className="w-full bg-transparent text-sm text-foreground placeholder:text-muted focus:outline-none"
