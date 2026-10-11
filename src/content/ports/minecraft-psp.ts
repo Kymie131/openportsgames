@@ -25,8 +25,8 @@ export const minecraftPsp: Port = {
   notesEs:
     "Port homebrew de Minecraft Pocket Edition para PlayStation Portable, con el mundo y la jugabilidad portados desde las fuentes de MCPE 0.6.1. Funciona en todos los modelos de PSP, incluida la PSP-1000 de 32 MB, y necesita custom firmware para instalarse.",
   cover: {
-    src: "https://upload.wikimedia.org/wikipedia/commons/f/f4/Caves_%26_Cliffs_II_-_Alex_%26_Steve_I.png",
-    alt: "Minecraft promotional art (Alex and Steve)",
-    credit: "Wikimedia Commons",
+    src: "https://github.com/user-attachments/assets/c58041a0-fcc8-4499-b131-c75cea22dc7b",
+    alt: "Minecraft Pocket Edition on the PSP splash",
+    credit: "Minecraft PE PSP",
   },
 };
