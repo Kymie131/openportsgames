@@ -46,6 +46,8 @@ export const originalSystemById: Record<Port["id"], string> = {
   "melee-native": "GameCube",
   pikmin: "Nintendo GameCube",
   "open-nectar": "Nintendo GameCube",
+  "dragon-ball-gt-final-bout-recomp": "PlayStation",
+  "samurai-shodown-warriors-rage-recomp": "PlayStation",
   petari: "Wii",
   "ctr-native": "PlayStation",
   pokered: "Game Boy",

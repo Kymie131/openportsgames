@@ -18,6 +18,7 @@ export const aceCombat5Recomp: Port = {
   sources: ["https://portsdr.com/"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
+  sourceIsIndex: true,
   originalSystem: "PlayStation 2",
   notes: "Tracked by PortsDR. No public repo is linked yet, and you supply the game files.",
   notesEs: "Seguido por PortsDR. Todavía no hay repo público, y tú aportas los archivos del juego.",

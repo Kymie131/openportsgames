@@ -18,6 +18,7 @@ export const superMarioAllStarsRecomp: Port = {
   sources: ["https://portsdr.com/"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
+  sourceIsIndex: true,
   originalSystem: "Super Nintendo",
   notes: "Indexed by PortsDR. No official repository is available, and it needs your own copy.",
   notesEs: "Indexado en PortsDR. No hay repositorio oficial disponible y necesita tu propia copia.",

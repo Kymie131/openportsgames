@@ -116,6 +116,12 @@ export function PortDetail({
         </header>
       </div>
 
+      {port.warning && (
+        <p className="rounded-xl border border-warning/40 bg-[color-mix(in_oklab,var(--warning)_12%,transparent)] px-4 py-3 text-sm leading-relaxed text-warning">
+          {locale === "es" ? (port.warningEs ?? port.warning) : port.warning}
+        </p>
+      )}
+
       {port.cover ? (
         <figure className="relative">
           <ScreenshotFrame
@@ -267,6 +273,7 @@ export function PortDetail({
 
       <section className="flex flex-col gap-2">
         <h2 className="text-lg font-semibold tracking-tight">{t.detail.whereToGet}</h2>
+        {port.sourceIsIndex && <p className="text-sm text-muted">{t.detail.indexSource}</p>}
         <ul className="flex flex-col gap-2 text-sm">
           {port.sources.map((source) => (
             <li key={source}>

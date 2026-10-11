@@ -18,6 +18,7 @@ export const zelda2AdventureOfLinkRecomp: Port = {
   sources: ["https://portsdr.com/"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
+  sourceIsIndex: true,
   originalSystem: "Nintendo Entertainment System",
   notes:
     "Listed on the PortsDR community index with no public repository. You need your own game files.",

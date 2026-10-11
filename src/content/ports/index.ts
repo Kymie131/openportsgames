@@ -52,6 +52,8 @@ import { dusklight } from "./dusklight";
 import { meleeNative } from "./melee-native";
 import { pikmin } from "./pikmin";
 import { openNectar } from "./open-nectar";
+import { dragonBallGtFinalBoutRecomp } from "./dragon-ball-gt-final-bout-recomp";
+import { samuraiShodownWarriorsRageRecomp } from "./samurai-shodown-warriors-rage-recomp";
 import { petari } from "./petari";
 import { ctrNative } from "./ctr-native";
 import { pokered } from "./pokered";
@@ -613,6 +615,8 @@ export const portCases: Port[] = [
   meleeNative,
   pikmin,
   openNectar,
+  dragonBallGtFinalBoutRecomp,
+  samuraiShodownWarriorsRageRecomp,
   petari,
   ctrNative,
   pokered,

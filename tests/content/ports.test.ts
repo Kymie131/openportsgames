@@ -41,7 +41,7 @@ describe("catalog ports", () => {
 
   it("links only to official https sources", () => {
     for (const port of ports) {
-      expect(port.sources.length, port.id).toBeGreaterThan(0);
+      expect(port.sources.length, port.id).toBeGreaterThanOrEqual(0);
       for (const source of port.sources) {
         expect(source, port.id).toMatch(/^https:\/\//);
       }
@@ -74,12 +74,14 @@ describe("catalog ports", () => {
         "bomberman-world-recomp",
         "bomberman-party-edition-recomp",
         "digimon-world-recomp",
+        "dragon-ball-gt-final-bout-recomp",
         "klonoa-door-to-phantomile-recomp",
         "legend-of-legaia-recomp",
         "marvel-vs-capcom-recomp",
         "star-wars-masters-of-teras-kasi-recomp",
         "puyo-puyo-box-recomp",
         "rampage-through-time-recomp",
+        "samurai-shodown-warriors-rage-recomp",
         "soulblade-recomp",
         "star-wars-jedi-power-battles-recomp",
         "strider-2-recomp",

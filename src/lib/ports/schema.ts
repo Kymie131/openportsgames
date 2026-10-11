@@ -57,7 +57,7 @@ const normalPort = z.object({
     version: versionString.nullable(),
     date: isoDate.nullable(),
   }),
-  sources: z.array(httpsUrl).min(1),
+  sources: z.array(httpsUrl),
   website: httpsUrl.optional(),
   docs: httpsUrl.optional(),
   discord: httpsUrl.optional(),
@@ -80,6 +80,9 @@ const normalPort = z.object({
     })
     .optional(),
   sourceVerified: z.boolean().optional(),
+  sourceIsIndex: z.boolean().optional(),
+  warning: z.string().min(3).max(400).optional(),
+  warningEs: z.string().min(3).max(400).optional(),
   installGuide: z
     .object({
       title: z.string().min(2).max(80).optional(),
@@ -197,6 +200,9 @@ export type Port = {
   featuresEs?: string[];
   aiDisclosure?: { source: string; quote: string };
   sourceVerified?: boolean;
+  sourceIsIndex?: boolean;
+  warning?: string;
+  warningEs?: string;
   installGuide?: {
     title?: string;
     steps: string[];

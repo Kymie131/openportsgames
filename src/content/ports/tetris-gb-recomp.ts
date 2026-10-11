@@ -18,6 +18,7 @@ export const tetrisGbRecomp: Port = {
   sources: ["https://portsdr.com/"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
+  sourceIsIndex: true,
   originalSystem: "Game Boy",
   notes: "Community entry from PortsDR. No repository is public; the game is not included.",
   notesEs: "Entrada comunitaria de PortsDR. No hay repositorio público; el juego no se incluye.",

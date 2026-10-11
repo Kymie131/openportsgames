@@ -145,22 +145,24 @@ export function PortTile({
         </p>
       )}
 
-      <div className="border-t border-border pt-3 text-sm">
-        <a
-          href={source}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-1 text-link transition-colors duration-150 hover:text-link-hover"
-          title={port.id}
-        >
-          {t.catalog.officialSource}
-          {/^https:\/\/github\.com\//.test(source) ? (
-            <GithubMark className="size-3.5" aria-hidden="true" />
-          ) : (
-            <ExternalLink className="size-3.5" aria-hidden="true" />
-          )}
-        </a>
-      </div>
+      {source && (
+        <div className="border-t border-border pt-3 text-sm">
+          <a
+            href={source}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 text-link transition-colors duration-150 hover:text-link-hover"
+            title={port.id}
+          >
+            {t.catalog.officialSource}
+            {/^https:\/\/github\.com\//.test(source) ? (
+              <GithubMark className="size-3.5" aria-hidden="true" />
+            ) : (
+              <ExternalLink className="size-3.5" aria-hidden="true" />
+            )}
+          </a>
+        </div>
+      )}
     </article>
   );
 }

@@ -18,6 +18,7 @@ export const streetFighterExPlusAlphaRecomp: Port = {
   sources: ["https://portsdr.com/"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
+  sourceIsIndex: true,
   originalSystem: "PlayStation",
   notes:
     "A PortsDR community listing; no repository or release is public. The original game is required.",

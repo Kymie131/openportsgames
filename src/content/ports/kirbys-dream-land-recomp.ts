@@ -18,6 +18,7 @@ export const kirbysDreamLandRecomp: Port = {
   sources: ["https://portsdr.com/"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
+  sourceIsIndex: true,
   originalSystem: "Game Boy",
   notes: "PortsDR lists this recompilation without a public repository. Own the game to play it.",
   notesEs:

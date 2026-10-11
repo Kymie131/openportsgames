@@ -18,6 +18,7 @@ export const slyCooperRecomp: Port = {
   sources: ["https://portsdr.com/"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
+  sourceIsIndex: true,
   originalSystem: "PlayStation 2",
   notes: "PortsDR lists this recompilation without a public repository. Own the game to play it.",
   notesEs:

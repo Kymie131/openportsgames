@@ -15,10 +15,15 @@ export const gearsOfWar2Hollow: Port = {
   platforms: ["windows"],
   status: "beta",
   release: { version: null, date: null },
-  sources: ["https://www.moddb.com/mods/gears-of-war-2-hollow"],
+  sources: [],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
+  sourceVerified: false,
   originalSystem: "Xbox 360",
+  warning:
+    "This version was built from a leaked development build, not from your own copy of the game. Its legal situation differs from the rest of the catalog and it may be removed.",
+  warningEs:
+    "Esta versión se construyó a partir de una build de desarrollo filtrada, no de tu copia del juego. Su situación legal es distinta a la del resto del catálogo y puede ser retirada.",
   notes:
     "Community PC build of Gears of War 2 assembled from a leaked development build, with mouse and keyboard support, a settings launcher and the full campaign. Its author treats it as a beta and it is not distributed through a public repository.",
   notesEs:

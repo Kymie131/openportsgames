@@ -15,10 +15,15 @@ export const gearsOfWar3Jacinto: Port = {
   platforms: ["windows"],
   status: "alpha",
   release: { version: null, date: null },
-  sources: ["https://www.nexusmods.com/gearsofwar3"],
+  sources: [],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
+  sourceVerified: false,
   originalSystem: "Xbox 360",
+  warning:
+    "This version was built from a leaked development build, not from your own copy of the game. Its legal situation differs from the rest of the catalog and it may be removed.",
+  warningEs:
+    "Esta versión se construyó a partir de una build de desarrollo filtrada, no de tu copia del juego. Su situación legal es distinta a la del resto del catálogo y puede ser retirada.",
   notes:
     "Project Jacinto brings the Xbox 360 version of Gears of War 3 to PC from a cancelled development build. The base port is shared through the community rather than a public repository, and this page collects the fixes and tools built around it.",
   notesEs:
