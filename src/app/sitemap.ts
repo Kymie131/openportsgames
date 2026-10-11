@@ -9,6 +9,7 @@ const STATIC_PAGES = [
   "/ports/",
   "/pc/",
   "/android/",
+  "/console/",
   "/emulators/",
   "/testing/",
   "/guides/",

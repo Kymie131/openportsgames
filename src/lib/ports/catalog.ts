@@ -44,11 +44,24 @@ export const defaultCatalogState: CatalogState = {
 /** Ports shown per catalog page. */
 export const PAGE_SIZE = 30;
 
+const CONSOLE_PLATFORMS: PlatformKey[] = [
+  "switch",
+  "psp",
+  "psvita",
+  "ds",
+  "3ds",
+  "wii",
+  "wiiu",
+  "ps2",
+  "ps3",
+  "ps4",
+];
+
 export const SCOPED_PLATFORMS: Record<"all" | "pc" | "android" | "console", PlatformKey[]> = {
-  all: ["windows", "linux", "macos", "android", "web", "ios", "switch"],
+  all: ["windows", "linux", "macos", "android", "web", "ios", ...CONSOLE_PLATFORMS],
   pc: ["windows", "linux", "macos"],
   android: ["android"],
-  console: ["switch"],
+  console: CONSOLE_PLATFORMS,
 };
 
 export type CatalogScope = keyof typeof SCOPED_PLATFORMS;

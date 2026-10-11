@@ -215,6 +215,15 @@ const PLATFORM_LABEL: Record<EmulatorPlatform, string> = {
   web: "Web",
   bsd: "BSD",
   switch: "Switch",
+  psp: "PSP",
+  psvita: "PS Vita",
+  ds: "DS",
+  "3ds": "3DS",
+  wii: "Wii",
+  wiiu: "Wii U",
+  ps2: "PS2",
+  ps3: "PS3",
+  ps4: "PS4",
 };
 
 function ConsoleView({

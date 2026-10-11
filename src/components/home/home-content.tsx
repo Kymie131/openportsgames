@@ -7,6 +7,7 @@ import {
   BookOpen,
   Code,
   FlaskConical,
+  Gamepad2,
   HardDrive,
   Heart,
   Monitor,
@@ -157,7 +158,7 @@ export function HomeContent({
       {/* Explore */}
       <section className="mt-14 sm:mt-24" aria-labelledby="explore-heading">
         <SectionHeading id="explore-heading" title={t.home.exploreTitle} />
-        <ul className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <ul className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-5">
           <ExploreCard
             href="/pc"
             icon={Monitor}
@@ -169,6 +170,12 @@ export function HomeContent({
             icon={Smartphone}
             title={t.home.exploreAndroid}
             description={t.home.exploreAndroidDesc}
+          />
+          <ExploreCard
+            href="/console"
+            icon={Gamepad2}
+            title={t.home.exploreConsole}
+            description={t.home.exploreConsoleDesc}
           />
           <ExploreCard
             href="/guides"

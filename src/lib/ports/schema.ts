@@ -8,6 +8,15 @@ export const platformKeys = [
   "web",
   "ios",
   "switch",
+  "psp",
+  "psvita",
+  "ds",
+  "3ds",
+  "wii",
+  "wiiu",
+  "ps2",
+  "ps3",
+  "ps4",
 ] as const;
 export type PlatformKey = (typeof platformKeys)[number];
 export const portTypes = [

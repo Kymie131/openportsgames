@@ -42,6 +42,15 @@ const platformMarks: Partial<Record<PlatformKey, keyof typeof platformGlyphs>> =
 /** Short text mark for platforms without official Simple Icons artwork. */
 const platformAbbr: Partial<Record<PlatformKey, string>> = {
   switch: "NS",
+  psp: "PSP",
+  psvita: "PSV",
+  ds: "DS",
+  "3ds": "3DS",
+  wii: "Wii",
+  wiiu: "WiiU",
+  ps2: "PS2",
+  ps3: "PS3",
+  ps4: "PS4",
 };
 
 export function PlatformMark({
@@ -57,7 +66,7 @@ export function PlatformMark({
       <span
         aria-hidden="true"
         className={cn(
-          "inline-flex size-4 items-center justify-center text-[9px] font-semibold leading-none",
+          "inline-flex h-4 min-w-4 items-center justify-center px-px text-[8px] font-semibold leading-none",
           className,
         )}
       >
