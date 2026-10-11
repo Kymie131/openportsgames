@@ -1,31 +1,35 @@
 import { Suspense } from "react";
 import type { Metadata } from "next";
-import { CatalogPage } from "@/components/catalog/catalog-page";
 import { Container } from "@/components/layout/container";
-import { getPorts, getTestResults, getTestStatuses } from "@/lib/ports";
+import { ConsoleClient } from "@/components/console/console-client";
+import { getPorts, getTestStatuses } from "@/lib/ports";
 import { originalSystemById } from "@/content/ports/meta";
-import { githubStars } from "@/content/github-stars";
 import { pageMeta } from "@/lib/seo";
 import { dictionaries } from "@/lib/i18n/dictionaries";
+import type { Port } from "@/lib/ports/schema";
 
 export const metadata: Metadata = pageMeta({
-  title: "Console ports",
-  description: dictionaries.en.catalog.subtitleConsole,
+  title: "Console homebrew",
+  description: dictionaries.en.console.subtitle,
   path: "/console",
 });
 
 export default function ConsolePage() {
+  const portsByPlatform: Record<string, Port[]> = {};
+  for (const port of getPorts()) {
+    for (const platform of port.platforms) {
+      (portsByPlatform[platform] ??= []).push(port);
+    }
+  }
+
   return (
     <section className="py-8">
       <Container>
         <Suspense>
-          <CatalogPage
-            ports={getPorts()}
+          <ConsoleClient
+            portsByPlatform={portsByPlatform}
             testStatuses={getTestStatuses()}
-            testResults={getTestResults()}
             originalSystems={originalSystemById}
-            stars={githubStars}
-            scope="console"
           />
         </Suspense>
       </Container>

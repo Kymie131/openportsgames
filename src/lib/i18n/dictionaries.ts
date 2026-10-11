@@ -311,6 +311,16 @@ const en = {
       },
     ],
   },
+  console: {
+    title: "Console homebrew",
+    subtitle:
+      "Native ports and homebrew builds that run on consoles. Pick a console to see what exists.",
+    allConsoles: "All consoles",
+    portCount: (count: number) => `${count} port${count === 1 ? "" : "s"}`,
+    noPorts: "No ports yet",
+    noPortsHelp:
+      "There are no entries for this console yet. As projects appear, they will be listed here.",
+  },
   emulators: {
     title: "Emulators",
     subtitle: "Every console generation, its emulators and how compatible they are.",
@@ -759,6 +769,16 @@ const es: Messages = {
         a: "Sí. Android es una de las plataformas del catálogo; algunos proyectos publican compilaciones oficiales para Android y así figuran en el catálogo.",
       },
     ],
+  },
+  console: {
+    title: "Homebrew para consolas",
+    subtitle:
+      "Ports nativos y builds homebrew que funcionan en consolas. Elige una consola para ver qué hay.",
+    allConsoles: "Todas las consolas",
+    portCount: (count: number) => `${count} port${count === 1 ? "" : "s"}`,
+    noPorts: "Aún no hay ports",
+    noPortsHelp:
+      "Todavía no hay entradas para esta consola. Cuando aparezcan proyectos, se listarán aquí.",
   },
   emulators: {
     title: "Emuladores",
