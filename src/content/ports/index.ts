@@ -51,6 +51,7 @@ import { unleashedRecompiled } from "./unleashed-recompiled";
 import { dusklight } from "./dusklight";
 import { meleeNative } from "./melee-native";
 import { pikmin } from "./pikmin";
+import { openNectar } from "./open-nectar";
 import { petari } from "./petari";
 import { ctrNative } from "./ctr-native";
 import { pokered } from "./pokered";
@@ -538,7 +539,6 @@ import { bloodyRoar2Recomp } from "./bloody-roar-2-recomp";
 import { bombermanFantasyRaceRecomp } from "./bomberman-fantasy-race-recomp";
 import { bombermanWorldRecomp } from "./bomberman-world-recomp";
 import { bombermanPartyEditionRecomp } from "./bomberman-party-edition-recomp";
-import { dragonBallGtFinalBoutRecomp } from "./dragon-ball-gt-final-bout-recomp";
 import { digimonWorldRecomp } from "./digimon-world-recomp";
 import { klonoaDoorToPhantomileRecomp } from "./klonoa-door-to-phantomile-recomp";
 import { legendOfLegaiaRecomp } from "./legend-of-legaia-recomp";
@@ -546,7 +546,6 @@ import { marvelVsCapcomRecomp } from "./marvel-vs-capcom-recomp";
 import { starWarsMastersOfTerasKasiRecomp } from "./star-wars-masters-of-teras-kasi-recomp";
 import { puyoPuyoBoxRecomp } from "./puyo-puyo-box-recomp";
 import { rampageThroughTimeRecomp } from "./rampage-through-time-recomp";
-import { samuraiShodownWarriorsRageRecomp } from "./samurai-shodown-warriors-rage-recomp";
 import { soulbladeRecomp } from "./soulblade-recomp";
 import { starWarsJediPowerBattlesRecomp } from "./star-wars-jedi-power-battles-recomp";
 import { strider2Recomp } from "./strider-2-recomp";
@@ -613,6 +612,7 @@ export const portCases: Port[] = [
   dusklight,
   meleeNative,
   pikmin,
+  openNectar,
   petari,
   ctrNative,
   pokered,
@@ -1108,7 +1108,6 @@ export const portCases: Port[] = [
   bombermanFantasyRaceRecomp,
   bombermanWorldRecomp,
   bombermanPartyEditionRecomp,
-  dragonBallGtFinalBoutRecomp,
   digimonWorldRecomp,
   klonoaDoorToPhantomileRecomp,
   legendOfLegaiaRecomp,
@@ -1116,7 +1115,6 @@ export const portCases: Port[] = [
   starWarsMastersOfTerasKasiRecomp,
   puyoPuyoBoxRecomp,
   rampageThroughTimeRecomp,
-  samuraiShodownWarriorsRageRecomp,
   soulbladeRecomp,
   starWarsJediPowerBattlesRecomp,
   strider2Recomp,
