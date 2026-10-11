@@ -62,6 +62,7 @@ import { dkrR } from "./dkr-r";
 import { symphonyRecomp } from "./symphony-recomp";
 import { superMarioBrosRemastered } from "./super-mario-bros-remastered";
 import { crashBandicoot } from "./crash-bandicoot";
+import { minecraftPsp } from "./minecraft-psp";
 import { minishCap } from "./minish-cap";
 import { marathonRecomp } from "./marathon-recomp";
 import { dhewm3 } from "./dhewm3";
@@ -625,6 +626,7 @@ export const portCases: Port[] = [
   symphonyRecomp,
   superMarioBrosRemastered,
   crashBandicoot,
+  minecraftPsp,
   minishCap,
   marathonRecomp,
   dhewm3,

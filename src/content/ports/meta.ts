@@ -56,6 +56,7 @@ export const originalSystemById: Record<Port["id"], string> = {
   "symphony-recomp": "PlayStation",
   "super-mario-bros-remastered": "Nintendo Entertainment System",
   "crash-bandicoot": "PlayStation",
+  "minecraft-psp": "Microsoft Windows",
   "minish-cap": "Game Boy Advance",
   "marathon-recomp": "Xbox 360",
   dhewm3: "Microsoft Windows",
