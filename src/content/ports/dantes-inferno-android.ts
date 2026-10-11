@@ -18,6 +18,9 @@ export const dantesInfernoAndroid: Port = {
   sources: ["https://github.com/WINDROID-EMU/Dantes-inferno-Android"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
+  sourceDead: true,
+  warning: "The original repository was taken down and the link no longer resolves.",
+  warningEs: "El repositorio original fue retirado y el enlace ya no responde.",
   originalSystem: "Xbox 360",
   notes:
     "Community Android build of Dante's Inferno, separate from the desktop recompilation. It is an experimental project and some of its cases are untested.",

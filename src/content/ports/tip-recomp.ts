@@ -18,6 +18,7 @@ export const tipRecomp: Port = {
   sources: ["https://github.com/SolarCookies/TiP-Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
+  sourceVerified: true,
   originalSystem: "Xbox 360",
   notes:
     "Native recompilation of Viva Pinata: Trouble in Paradise (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",

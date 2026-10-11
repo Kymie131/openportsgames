@@ -1,6 +1,14 @@
 import { z } from "zod";
 
-export const platformKeys = ["windows", "linux", "macos", "android", "web", "ios"] as const;
+export const platformKeys = [
+  "windows",
+  "linux",
+  "macos",
+  "android",
+  "web",
+  "ios",
+  "switch",
+] as const;
 export type PlatformKey = (typeof platformKeys)[number];
 export const portTypes = [
   "decompilation",
@@ -81,6 +89,7 @@ const normalPort = z.object({
     .optional(),
   sourceVerified: z.boolean().optional(),
   sourceIsIndex: z.boolean().optional(),
+  sourceDead: z.boolean().optional(),
   warning: z.string().min(3).max(400).optional(),
   warningEs: z.string().min(3).max(400).optional(),
   installGuide: z
@@ -201,6 +210,7 @@ export type Port = {
   aiDisclosure?: { source: string; quote: string };
   sourceVerified?: boolean;
   sourceIsIndex?: boolean;
+  sourceDead?: boolean;
   warning?: string;
   warningEs?: string;
   installGuide?: {

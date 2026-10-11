@@ -27,7 +27,9 @@ export function CatalogPage({
       ? t.catalog.subtitle
       : scope === "pc"
         ? t.catalog.subtitlePc
-        : t.catalog.subtitleAndroid;
+        : scope === "console"
+          ? t.catalog.subtitleConsole
+          : t.catalog.subtitleAndroid;
 
   return (
     <div className="flex flex-col gap-6">

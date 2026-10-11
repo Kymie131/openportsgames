@@ -44,10 +44,11 @@ export const defaultCatalogState: CatalogState = {
 /** Ports shown per catalog page. */
 export const PAGE_SIZE = 30;
 
-export const SCOPED_PLATFORMS: Record<"all" | "pc" | "android", PlatformKey[]> = {
-  all: ["windows", "linux", "macos", "android", "web", "ios"],
+export const SCOPED_PLATFORMS: Record<"all" | "pc" | "android" | "console", PlatformKey[]> = {
+  all: ["windows", "linux", "macos", "android", "web", "ios", "switch"],
   pc: ["windows", "linux", "macos"],
   android: ["android"],
+  console: ["switch"],
 };
 
 export type CatalogScope = keyof typeof SCOPED_PLATFORMS;

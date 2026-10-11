@@ -112,6 +112,11 @@ export function PortDetail({
             <span className="rounded-full border border-border px-2 py-0.5 text-xs font-medium text-muted">
               {port.sourceVerified ? t.detail.verifiedSource : t.detail.unverifiedSource}
             </span>
+            {port.sourceDead && (
+              <span className="rounded-full bg-[color-mix(in_oklab,var(--danger)_15%,transparent)] px-2 py-0.5 text-xs font-medium text-danger">
+                {t.detail.deadSource}
+              </span>
+            )}
           </div>
         </header>
       </div>
@@ -274,6 +279,7 @@ export function PortDetail({
       <section className="flex flex-col gap-2">
         <h2 className="text-lg font-semibold tracking-tight">{t.detail.whereToGet}</h2>
         {port.sourceIsIndex && <p className="text-sm text-muted">{t.detail.indexSource}</p>}
+        {port.sourceDead && <p className="text-sm text-danger">{t.detail.deadSourceNote}</p>}
         <ul className="flex flex-col gap-2 text-sm">
           {port.sources.map((source) => (
             <li key={source}>

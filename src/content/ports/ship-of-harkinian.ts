@@ -16,7 +16,7 @@ export const shipOfHarkinian: Port = {
   release: { version: "9.2.3", date: "2026-04-14" },
   sources: ["https://github.com/HarbourMasters/Shipwright"],
   website: "https://www.harbourmasters.org/game/ship-of-harkinian",
-  docs: "https://wiki.shipofharkinian.com",
+  docs: "https://www.shipofharkinian.com/",
   license: {
     spdx: "NOASSERTION",
     note: "no SPDX license file in the repository",

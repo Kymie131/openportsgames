@@ -30,14 +30,19 @@ function GlyphMark({
   );
 }
 
-const platformMarks = {
+const platformMarks: Partial<Record<PlatformKey, keyof typeof platformGlyphs>> = {
   windows: "windows",
   linux: "linux",
   macos: "macos",
   android: "android",
   web: "web",
   ios: "macos",
-} satisfies Record<PlatformKey, keyof typeof platformGlyphs>;
+};
+
+/** Short text mark for platforms without official Simple Icons artwork. */
+const platformAbbr: Partial<Record<PlatformKey, string>> = {
+  switch: "NS",
+};
 
 export function PlatformMark({
   platform,
@@ -47,5 +52,18 @@ export function PlatformMark({
   className?: string;
 }) {
   const glyph = platformMarks[platform];
+  if (glyph === undefined) {
+    return (
+      <span
+        aria-hidden="true"
+        className={cn(
+          "inline-flex size-4 items-center justify-center text-[9px] font-semibold leading-none",
+          className,
+        )}
+      >
+        {platformAbbr[platform] ?? ""}
+      </span>
+    );
+  }
   return <GlyphMark glyph={glyph} className={cn("size-4", className)} />;
 }
