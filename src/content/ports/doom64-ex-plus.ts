@@ -20,7 +20,6 @@ export const doom64ExPlus: Port = {
     note: "custom Limited Use Software License in COPYING",
   },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "Nintendo 64",
   features: [

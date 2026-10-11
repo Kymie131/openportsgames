@@ -19,7 +19,6 @@ export const doukutsuRs: Port = {
   website: "https://doukutsu.rs",
   license: { spdx: "MIT" },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "Microsoft Windows",
   features: ["Cross-platform desktop builds", "Android build", "Multiple unofficial translations"],

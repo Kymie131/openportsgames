@@ -17,7 +17,6 @@ export const downpourRecomp: Port = {
   sources: ["https://github.com/LittleBitUA/DownpourRecomp"],
   license: { spdx: "BSD-3-Clause" },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-19",
   originalSystem: "Xbox 360",
   features: [

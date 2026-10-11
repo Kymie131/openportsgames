@@ -19,7 +19,6 @@ export const lighthouse: Port = {
   website: "https://www.harbourmasters.org",
   license: { spdx: "CC0-1.0" },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-22",
   originalSystem: "Nintendo 64",
   features: [

@@ -18,7 +18,6 @@ export const dusklight: Port = {
   website: "https://twilitrealm.dev",
   license: { spdx: "CC0-1.0" },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-25",
   screenshots: [
     {

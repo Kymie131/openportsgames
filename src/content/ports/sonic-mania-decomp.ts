@@ -20,7 +20,6 @@ export const sonicMania: Port = {
     note: "community Retro Engine license, not an SPDX identifier",
   },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-19",
   notes:
     "Decompilation of Sonic Mania (Retro Engine v5) that rebuilds the game on PC, Mac and Linux and opens the door to extensive modding. Requires a legally acquired copy of the Sonic Mania data files.",

@@ -18,7 +18,6 @@ export const pinyonShift: Port = {
   sources: ["https://github.com/arcanite24/pinyon-shift"],
   license: { spdx: "BSD-3-Clause" },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-10-03",
   originalSystem: "Xbox 360",
   notes:

@@ -18,7 +18,6 @@ export const wargusPort: Port = {
   discord: "https://discord.gg/dQGxaw3QfB",
   license: { spdx: "GPL-2.0" },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "MS-DOS",
   notes:

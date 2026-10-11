@@ -18,7 +18,6 @@ export const openra: Port = {
   website: "https://www.openra.net",
   license: { spdx: "GPL-3.0" },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-19",
   screenshots: [
     {

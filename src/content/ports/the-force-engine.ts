@@ -19,7 +19,6 @@ export const theForceEngine: Port = {
   website: "https://TheForceEngine.github.io",
   license: { spdx: "GPL-2.0" },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "MS-DOS",
   features: ["Reimplementation of the Rebel Assault engine", "Modern rendering and audio backends"],

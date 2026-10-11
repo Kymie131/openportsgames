@@ -20,7 +20,6 @@ export const gemrb: Port = {
     spdx: "GPL-2.0",
   },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-19",
   screenshots: [
     {

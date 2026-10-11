@@ -19,7 +19,6 @@ export const vkQuake: Port = {
     spdx: "GPL-2.0",
   },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-19",
   notes:
     "Vulkan port of QuakeSpasm based on id Software's GPL-2.0 Quake source release. Requires Quake gamedata (shareware episode freely available).",

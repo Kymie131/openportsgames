@@ -17,7 +17,6 @@ export const eternityEngine: Port = {
   sources: ["https://github.com/team-eternity/eternity"],
   license: { spdx: "GPL-3.0" },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "MS-DOS",
   features: [

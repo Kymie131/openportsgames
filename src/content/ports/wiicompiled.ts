@@ -17,7 +17,6 @@ export const wiiCompiled: Port = {
   sources: ["https://github.com/patchzyy/Wiicompiled"],
   license: { spdx: "GPL-3.0" },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-19",
   originalSystem: "Wii",
   features: [

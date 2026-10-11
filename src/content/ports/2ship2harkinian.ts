@@ -21,7 +21,6 @@ export const twoShip: Port = {
     spdx: "CC0-1.0",
   },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-19",
   notes:
     "Native port of Majora's Mask from the decompilation project. Requires the original North American Majora's Mask N64 ROM (legally obtained).",

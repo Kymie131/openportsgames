@@ -122,3 +122,10 @@ Those scripts are not versioned in this repository.
 Entries imported this way are `sourceVerified: false` (the schema default): the
 team has not checked them against the project's own README or repository.
 Entries checked by hand carry `sourceVerified: true`.
+
+## What "verified" means
+
+`sourceVerified: true` means the team checked the entry against the project's
+own README or repository (name, platforms, license, status). It is not the same
+as `verified: true`, which only means a published release and its date could be
+pointed at. Entries imported from indexes default to `sourceVerified: false`.

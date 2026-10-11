@@ -21,7 +21,6 @@ export const spaghettiKart: Port = {
     note: "no SPDX license file in the repository",
   },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-22",
   originalSystem: "Nintendo 64",
   features: [

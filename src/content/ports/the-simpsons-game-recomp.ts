@@ -17,7 +17,6 @@ export const theSimpsonsGameRecomp: Port = {
   sources: ["https://github.com/YesterMester/TheSimpsonsGameRecomp"],
   license: { spdx: "GPL-3.0" },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "Xbox 360",
   features: [

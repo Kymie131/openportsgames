@@ -20,7 +20,6 @@ export const openGoal: Port = {
   discord: "https://discord.gg/VZbXMHXzWv",
   license: { spdx: "ISC" },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-30",
   originalSystem: "PlayStation 2",
   features: [

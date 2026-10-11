@@ -18,7 +18,6 @@ export const bloodbornePc: Port = {
   sources: ["https://github.com/deadinside28/bloodborne_pc"],
   license: { spdx: "GPL-2.0" },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-10-07",
   originalSystem: "PlayStation 4",
   notes:

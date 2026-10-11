@@ -20,7 +20,6 @@ export const wipeoutPhantomEdition: Port = {
     note: "no license file published with the project",
   },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-30",
   originalSystem: "PlayStation",
   features: [

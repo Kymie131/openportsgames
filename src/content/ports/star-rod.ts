@@ -20,7 +20,6 @@ export const starRod: Port = {
     spdx: "MIT",
   },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-19",
   notes:
     "Native port and modding toolkit for Paper Mario from the decompilation project. Requires the original Paper Mario N64 ROM (legally obtained).",

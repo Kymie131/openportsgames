@@ -17,7 +17,6 @@ export const rottexpr: Port = {
   sources: ["https://github.com/LTCHIPS/rottexpr"],
   license: { spdx: "GPL-2.0" },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "MS-DOS",
   notes: "Experimental Rise of the Triad engine rewrite.",

@@ -109,11 +109,9 @@ export function PortDetail({
                 {t.catalog.experimental}
               </span>
             )}
-            {!port.sourceVerified && (
-              <span className="rounded-full border border-border px-2 py-0.5 text-xs font-medium text-muted">
-                {t.detail.unverifiedSource}
-              </span>
-            )}
+            <span className="rounded-full border border-border px-2 py-0.5 text-xs font-medium text-muted">
+              {port.sourceVerified ? t.detail.verifiedSource : t.detail.unverifiedSource}
+            </span>
           </div>
         </header>
       </div>

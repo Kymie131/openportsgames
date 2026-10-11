@@ -17,7 +17,6 @@ export const lcsRecomp: Port = {
   sources: ["https://github.com/elmasas/lcs-recomp"],
   license: { spdx: "MIT" },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-30",
   originalSystem: "PlayStation Portable",
   features: [

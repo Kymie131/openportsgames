@@ -22,7 +22,6 @@ export const shipOfHarkinian: Port = {
     note: "no SPDX license file in the repository",
   },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-19",
   screenshots: [
     {

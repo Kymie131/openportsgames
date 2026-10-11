@@ -17,7 +17,6 @@ export const openDune: Port = {
   sources: ["https://github.com/OpenDUNE/OpenDUNE"],
   license: { spdx: "GPL-2.0" },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-25",
   notes:
     "Open-source re-implementation of Dune II: The Building of a Dynasty. The original game data files are required to play.",

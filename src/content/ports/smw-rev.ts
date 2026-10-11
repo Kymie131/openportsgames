@@ -22,7 +22,6 @@ export const smwRev: Port = {
     note: "MIT per LICENSE.txt; the GitHub license field reports NOASSERTION",
   },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "Super Nintendo",
   notes:

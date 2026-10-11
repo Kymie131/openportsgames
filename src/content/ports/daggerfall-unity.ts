@@ -22,7 +22,6 @@ export const daggerfallUnity: Port = {
     note: "game assets remain under their original license",
   },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-19",
   screenshots: [
     {

@@ -18,7 +18,6 @@ export const ptPc: Port = {
   sources: ["https://github.com/LoreanXavier/pt-pc"],
   license: { spdx: "MIT" },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-10-08",
   originalSystem: "PlayStation 4",
   notes:

@@ -22,7 +22,6 @@ export const ja2Stracciatella: Port = {
     note: "SFI Source Code license agreement at the repository root",
   },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-10-01",
   originalSystem: "MS-DOS",
   features: [

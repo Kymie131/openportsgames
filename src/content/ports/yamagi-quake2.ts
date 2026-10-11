@@ -21,7 +21,6 @@ export const yamagiQuake2: Port = {
     note: "based on id Software's GPL-2.0 Quake II release",
   },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-19",
   notes:
     "Maintained source port of the Quake II engine. Requires Quake II gamedata (shareware baseq2 files freely available).",

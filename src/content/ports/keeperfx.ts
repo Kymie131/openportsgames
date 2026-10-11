@@ -19,7 +19,6 @@ export const keeperFx: Port = {
   website: "https://keeperfx.net/",
   license: { spdx: "GPL-2.0" },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-30",
   originalSystem: "MS-DOS",
   features: [

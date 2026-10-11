@@ -17,7 +17,6 @@ export const dkrR: Port = {
   sources: ["https://github.com/ThatGuyMcd/DKR-R"],
   license: { spdx: "MIT" },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-22",
   screenshots: [
     {

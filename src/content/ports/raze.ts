@@ -18,7 +18,6 @@ export const raze: Port = {
   website: "https://raze.zdoom.org/",
   license: { spdx: "GPL-2.0" },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-25",
   notes:
     "Source port of the Build-engine games Duke Nukem 3D, Blood, Shadow Warrior, Redneck Rampage and Powerslave, built on GZDoom technology. Requires the original game files.",

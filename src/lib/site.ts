@@ -3,7 +3,7 @@
 export const SITE_NAME = "OpenPortsGames";
 
 export const SITE_DESCRIPTION =
-  "This catalog gives you no downloads or file links: we send you to the official source of each project.";
+  "Every link goes to the project's page (repository, releases or website), never to game files. Entries with the verification mark were reviewed one by one.";
 
 const envUrl = process.env.NEXT_PUBLIC_SITE_URL;
 

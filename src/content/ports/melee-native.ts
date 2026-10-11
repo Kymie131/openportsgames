@@ -20,7 +20,6 @@ export const meleeNative: Port = {
     note: "no SPDX license file in the repository",
   },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-22",
   originalSystem: "GameCube",
   features: ["Native Apple Silicon (macOS) build", "Native Linux x86-64 build"],

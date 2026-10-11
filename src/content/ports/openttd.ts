@@ -21,7 +21,6 @@ export const openTtd: Port = {
     note: "repository metadata lists NOASSERTION; the project states GPL-2.0-or-later",
   },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-19",
   noOriginalGameRequired: true,
   screenshots: [

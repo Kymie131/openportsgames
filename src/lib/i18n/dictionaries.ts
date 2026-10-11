@@ -153,6 +153,7 @@ const en = {
     aiLabel: "Declares AI use",
     aiSource: "Project statement",
     unverifiedSource: "Source not verified by the team",
+    verifiedSource: "Source verified by the team",
     testStale: "Older version; results may be outdated",
     tester: "Tester",
     version: "Version",
@@ -189,7 +190,8 @@ const en = {
     browseCatalog: "Browse the catalog",
     eyebrow: "Native ports",
     lead: "A catalog where we preserve video games, made by gamers for gamers.",
-    leadSub: "Every link takes you straight to the project's official source.",
+    leadSub:
+      "Every link goes to the project's page (repository, releases or website), never to game files. Entries with the verification mark were reviewed one by one.",
     statsPorts: (count: number) => `${count} ports catalogued`,
     statsAndroid: (count: number) => `${count} for Android`,
     statsTested: (count: number) =>
@@ -228,7 +230,7 @@ const en = {
   },
   footer: {
     about:
-      "This catalog gives you no downloads or file links: we send you to the official source of each project.",
+      "Every link goes to the project's page (repository, releases or website), never to game files. Entries with the verification mark were reviewed one by one.",
     licenses: "Code is MIT licensed. Catalog data is CC BY 4.0.",
     notAffiliated: "Not affiliated with any video game company.",
     editOnGitHub: "Edit this page on GitHub",
@@ -377,7 +379,7 @@ const en = {
     principles: [
       "Each port is a file in the repository and changes are reviewed in public. A port is marked as tested only if there is a registered test, with the hardware used.",
       "If a project is removed by legal action, it is marked as removed and the link is taken down, but it is not deleted from the history.",
-      "Before linking a repository we check that it is the project's official source.",
+      "Before linking a repository we check that it is the project's official source. Entries imported from community indexes are marked 'source not verified by the team'.",
       "The code is MIT and the data is CC BY 4.0: you can reuse them respecting the license.",
       "All participation is open and public. You can submit what you tested, bugs, or anything that helps improve the project.",
       "The original texts are in Spanish and the English translations were assisted by an LLM. If you see a mistake, tell us.",
@@ -399,8 +401,9 @@ const en = {
     disclaimerTitle: "Disclaimer",
     disclaimer: [
       "OpenPortsGames is an independent, community-run informational catalog. It is not affiliated with, endorsed by or connected to any of the companies that own the games listed.",
+      "Part of the catalog was imported from community indexes: GameWave (gamewave.digital) and PortsDR (portsdr.com), credited as the source.",
       "Game names and trademarks belong to their respective owners, and are used only to identify and catalogue the ports.",
-      "Cover art and screenshots are loaded from external sources (the project's own site, libretro-thumbnails or Wikimedia) only to identify each game; they are not hosted here.",
+      "Cover art and screenshots are loaded from external sources (the project's own site, libretro-thumbnails or Wikimedia) only to identify each game; they are not hosted here. Image rights belong to their owners.",
       "This site does not host game files. If you find a link that leads to one, report it and we will remove it. We do not support piracy.",
       "The catalog is not exhaustive: a project being absent says nothing about its quality or its legality.",
       "Links point to sites this catalog does not control. Their content changes over time and stays the responsibility of whoever operates them.",
@@ -581,6 +584,7 @@ const es: Messages = {
     aiLabel: "Declara uso de IA",
     aiSource: "Declaración del proyecto",
     unverifiedSource: "Fuente sin verificar por el equipo",
+    verifiedSource: "Fuente verificada por el equipo",
     testStale: "Versión anterior: los resultados pueden estar desactualizados",
     tester: "Probador",
     version: "Versión",
@@ -617,7 +621,8 @@ const es: Messages = {
     browseCatalog: "Explorar el catálogo",
     eyebrow: "Ports nativos",
     lead: "Un catálogo donde preservamos los videojuegos, hecho por gamers para gamers.",
-    leadSub: "Cada enlace te lleva directo a la fuente oficial del proyecto.",
+    leadSub:
+      "Cada enlace lleva a la página del proyecto (repositorio, releases o web), nunca a archivos de juegos. Las fichas con la marca de verificación se revisaron una por una.",
     statsPorts: (count: number) => `${count} ports en el catálogo`,
     statsAndroid: (count: number) => `${count} para Android`,
     statsTested: (count: number) =>
@@ -656,7 +661,7 @@ const es: Messages = {
   },
   footer: {
     about:
-      "Este catálogo no te da descargas ni enlaces a archivos: te redirigimos a la fuente oficial de cada proyecto.",
+      "Cada enlace lleva a la página del proyecto (repositorio, releases o web), nunca a archivos de juegos. Las fichas con la marca de verificación se revisaron una por una.",
     licenses: "Código bajo licencia MIT. Datos del catálogo bajo CC BY 4.0.",
     notAffiliated: "Sin afiliación con ninguna compañía de videojuegos.",
     editOnGitHub: "Editar esta página en GitHub",
@@ -808,7 +813,7 @@ const es: Messages = {
     principles: [
       "Cada port es un archivo del repositorio y los cambios se revisan en público. Un port se marca como probado solo si hay una prueba registrada, con el hardware usado.",
       "Si un proyecto se retira por una acción legal, se marca como retirado y se quita el enlace, pero no se borra del historial.",
-      "Antes de enlazar un repositorio verificamos que sea la fuente oficial del proyecto.",
+      "Antes de enlazar un repositorio comprobamos que sea la fuente oficial del proyecto. Las fichas importadas de índices comunitarios van marcadas como 'fuente sin verificar por el equipo'.",
       "El código es MIT y los datos son CC BY 4.0: puedes reutilizarlos respetando la licencia.",
       "Toda la participación es abierta y pública. Puedes subir lo que probaste, errores o cualquier cosa que ayude a mejorar el proyecto.",
       "Los textos originales están en español y las traducciones al inglés fueron asistidas por un LLM. Si ves un error, avísanos.",
@@ -830,8 +835,9 @@ const es: Messages = {
     disclaimerTitle: "Aviso legal",
     disclaimer: [
       "OpenPortsGames es un catálogo informativo independiente y comunitario. No está afiliado, respaldado ni conectado con ninguna de las compañías propietarias de los juegos listados.",
+      "Parte del catálogo se importó de índices comunitarios: GameWave (gamewave.digital) y PortsDR (portsdr.com), acreditados como fuente.",
       "Los nombres de juegos y marcas pertenecen a sus respectivos dueños y se usan solo para identificar y catalogar los ports.",
-      "Las carátulas y capturas se cargan desde fuentes externas (la web del propio proyecto, libretro-thumbnails o Wikimedia) solo para identificar cada juego; no se alojan aquí.",
+      "Las carátulas y capturas se cargan desde fuentes externas (la web del propio proyecto, libretro-thumbnails o Wikimedia) solo para identificar cada juego; no se alojan aquí. Los derechos de las imágenes pertenecen a sus dueños.",
       "Este sitio no aloja archivos de juegos. Si encuentras un enlace que lleve a uno, repórtalo y lo retiramos. No apoyamos la piratería.",
       "El catálogo no es exhaustivo: que un proyecto falte no dice nada sobre su calidad ni sobre su legalidad.",
       "Los enlaces apuntan a sitios que este catálogo no controla. Su contenido cambia con el tiempo y sigue siendo responsabilidad de quienes los operan.",

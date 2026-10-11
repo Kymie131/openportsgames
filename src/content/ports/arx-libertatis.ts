@@ -18,7 +18,6 @@ export const arxLibertatis: Port = {
   website: "https://arx-libertatis.org/",
   license: { spdx: "GPL-3.0" },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-25",
   screenshots: [
     {

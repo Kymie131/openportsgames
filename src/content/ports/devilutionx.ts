@@ -21,7 +21,6 @@ export const devilutionX: Port = {
     note: "revival project with a custom license statement",
   },
   verified: true,
-  sourceVerified: true,
   verifiedAt: "2026-09-19",
   screenshots: [
     {
