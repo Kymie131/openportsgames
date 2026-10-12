@@ -32,8 +32,8 @@ export const spaceCadetPinball: Port = {
   notesEs:
     "Recreación de código abierto del pinball Space Cadet de Windows 95, publicado bajo CC0 por Microsoft.",
   cover: {
-    src: "https://images.launchbox-app.com//80a6bcd9-cdcb-4362-b166-dfefa21a3fc2.png",
-    alt: "3D Pinball for Windows: Space Cadet (cover)",
-    credit: "LaunchBox Games Database",
+    src: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Space-cadet.png",
+    alt: "3D Pinball for Windows: Space Cadet (screenshot)",
+    credit: "Wikimedia Commons",
   },
 };
