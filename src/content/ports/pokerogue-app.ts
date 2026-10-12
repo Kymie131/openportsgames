@@ -23,4 +23,9 @@ export const pokerogueApp: Port = {
     "Android app that opens the PokeRogue web game in its own window. It is a wrapper around pokerogue.net and does not bundle the game.",
   notesEs:
     "App para Android que abre el juego web PokeRogue en su propia ventana. Es un envoltorio sobre pokerogue.net y no incluye el juego.",
+  cover: {
+    src: "https://pokerogue.net/logo512.png",
+    alt: "PokeRogue (cover)",
+    credit: "PokeRogue",
+  },
 };

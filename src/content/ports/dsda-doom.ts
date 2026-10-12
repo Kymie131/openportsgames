@@ -13,7 +13,7 @@ export const dsdaDoom: Port = {
   portType: "source-port",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
-  release: { version: "0.30.0", date: "2026-09-29" },
+  release: { version: "0.30.1", date: "2026-10-09" },
   sources: ["https://github.com/kraflab/dsda-doom"],
   discord: "https://discord.gg/9paQ52zQUT",
   license: {

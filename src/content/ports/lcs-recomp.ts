@@ -13,7 +13,7 @@ export const lcsRecomp: Port = {
   openSource: true,
   platforms: ["windows", "linux"],
   status: "alpha",
-  release: { version: "0.1.4", date: "2026-09-29" },
+  release: { version: "0.1.6", date: "2026-10-07" },
   sources: ["https://github.com/elmasas/lcs-recomp"],
   license: { spdx: "MIT" },
   verified: true,

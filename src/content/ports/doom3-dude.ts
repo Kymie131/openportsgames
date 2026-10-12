@@ -13,7 +13,7 @@ export const doom3Dude: Port = {
   portType: "source-port",
   platforms: ["windows", "linux"],
   status: "beta",
-  release: { version: "0.9.3", date: "2026-09-18" },
+  release: { version: "0.9.5", date: "2026-10-05" },
   sources: ["https://github.com/Inkub0/dude"],
   license: { spdx: "GPL-3.0-only" },
   verified: true,

@@ -13,7 +13,7 @@ export const theSimpsonsGameRecomp: Port = {
   portType: "recompilation",
   platforms: ["windows", "linux"],
   status: "alpha",
-  release: { version: "0.0.6.1", date: "2026-10-01" },
+  release: { version: "0.0.6.5", date: "2026-10-10" },
   sources: ["https://github.com/YesterMester/TheSimpsonsGameRecomp"],
   license: { spdx: "GPL-3.0" },
   verified: true,

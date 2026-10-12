@@ -13,7 +13,7 @@ export const shipOfHarkinian: Port = {
   openSource: true,
   platforms: ["windows", "linux", "macos", "android"],
   status: "stable",
-  release: { version: "9.2.3", date: "2026-04-14" },
+  release: { version: "9.3.0", date: "2026-10-06" },
   sources: ["https://github.com/HarbourMasters/Shipwright"],
   website: "https://www.harbourmasters.org/game/ship-of-harkinian",
   docs: "https://www.shipofharkinian.com/",

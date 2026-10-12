@@ -23,4 +23,9 @@ export const ringRacersAndroid: Port = {
     "Android build of Dr. Robotnik's Ring Racers, the free kart racer from Kart Krew based on Sonic Robo Blast 2. It is a standalone fangame with no original assets.",
   notesEs:
     "Build para Android de Dr. Robotnik's Ring Racers, el juego de karts gratuito de Kart Krew basado en Sonic Robo Blast 2. Es un fangame independiente y sin recursos originales.",
+  cover: {
+    src: "https://www.kartkrew.org/theme/images/kkd_logo_V3.svg",
+    alt: "Dr. Robotnik's Ring Racers (cover)",
+    credit: "Kart Krew",
+  },
 };

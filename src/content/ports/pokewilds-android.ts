@@ -23,4 +23,9 @@ export const pokewildsAndroid: Port = {
     "Native Android port of PokeWilds, the open-source creature-collecting fan game. It is a standalone build that does not need commercial assets.",
   notesEs:
     "Port nativo para Android de PokeWilds, el fangame de captura de criaturas de código abierto. Es una build independiente que no necesita recursos comerciales.",
+  cover: {
+    src: "https://raw.githubusercontent.com/SheerSt/pokewilds/main/github1.png",
+    alt: "PokeWilds (cover)",
+    credit: "PokeWilds",
+  },
 };

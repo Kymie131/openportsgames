@@ -13,7 +13,7 @@ export const roadRash64Recompiled: Port = {
   portType: "recompilation",
   platforms: ["windows", "linux"],
   status: "stable",
-  release: { version: "1.3.1", date: "2026-09-19" },
+  release: { version: "1.4.5", date: "2026-10-08" },
   sources: ["https://github.com/linkssy2/RoadRash64Recompiled"],
   license: { spdx: "GPL-3.0" },
   verified: true,

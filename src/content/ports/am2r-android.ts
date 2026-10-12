@@ -23,4 +23,9 @@ export const am2rAndroid: Port = {
     "Android tool that patches the fan remake AM2R 1.1 into a modern Android build. It works with your own copy of the AM2R files.",
   notesEs:
     "Herramienta para Android que aplica un parche al remake AM2R 1.1 para convertirlo en una build moderna. Funciona con tu propia copia de los archivos de AM2R.",
+  cover: {
+    src: "https://randovania.org/assets/games/am2r.png",
+    alt: "Another Metroid 2 Remake (cover)",
+    credit: "Randovania",
+  },
 };

@@ -13,7 +13,7 @@ export const triAevum: Port = {
   portType: "recompilation",
   platforms: ["windows", "linux"],
   status: "alpha",
-  release: { version: "0.6.0-alpha.2c", date: "2026-09-12" },
+  release: { version: "0.6.0-alpha.3", date: "2026-09-18" },
   sources: ["https://github.com/coccofresco/TriAevum"],
   license: { spdx: "GPL-3.0-or-later" },
   verified: true,

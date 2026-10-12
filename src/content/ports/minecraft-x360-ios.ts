@@ -23,4 +23,9 @@ export const minecraftX360Ios: Port = {
     "Recompilation project for Minecraft: Xbox 360 Edition that targets iOS. It is indexed by recomp.fyi and requires your own game data.",
   notesEs:
     "Proyecto de recompilación de Minecraft: Xbox 360 Edition orientado a iOS. Está indexado en recomp.fyi y requiere tus propios datos del juego.",
+  cover: {
+    src: "https://images.launchbox-app.com//9229e73c-9841-4b6f-904e-70f3d0190f34.jpg",
+    alt: "Minecraft: Xbox 360 Edition (cover)",
+    credit: "LaunchBox Games Database",
+  },
 };

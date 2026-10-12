@@ -13,7 +13,7 @@ export const dusklight: Port = {
   portType: "reimplementation",
   platforms: ["windows", "linux", "macos", "android"],
   status: "beta",
-  release: { version: "2.0.2", date: "2026-09-25" },
+  release: { version: "2.0.3", date: "2026-09-30" },
   sources: ["https://github.com/TwilitRealm/dusklight"],
   website: "https://twilitrealm.dev",
   license: { spdx: "CC0-1.0" },

@@ -13,7 +13,7 @@ export const crashBandicoot: Port = {
   openSource: true,
   platforms: ["windows", "linux", "android"],
   status: "stable",
-  release: { version: "1.9.4", date: "2026-09-18" },
+  release: { version: "2.1", date: "2026-10-07" },
   sources: ["https://github.com/Matteo842/CrashBandicoot-Launcher"],
   license: { spdx: "MIT" },
   verified: true,

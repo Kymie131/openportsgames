@@ -13,7 +13,7 @@ export const dk64Recompiled: Port = {
   portType: "recompilation",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
-  release: { version: "1.0.2", date: "2026-09-02" },
+  release: { version: "1.0.3", date: "2026-09-30" },
   sources: ["https://github.com/Rainchus/Donkey-Kong-64-Recompiled"],
   license: { spdx: "GPL-3.0" },
   verified: true,

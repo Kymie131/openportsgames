@@ -13,7 +13,7 @@ export const perfectDarkDabsMod: Port = {
   portType: "decompilation",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
-  release: { version: "3.8.0", date: "2026-09-17" },
+  release: { version: "3.14.0", date: "2026-10-03" },
   sources: ["https://github.com/DabDavis/perfect-dark-dabs-mod"],
   license: { spdx: "MIT" },
   verified: true,

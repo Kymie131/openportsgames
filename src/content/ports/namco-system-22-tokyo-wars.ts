@@ -13,7 +13,7 @@ export const namcoSystem22TokyoWars: Port = {
   openSource: true,
   platforms: ["windows", "linux"],
   status: "beta",
-  release: { version: "0.4.2", date: "2026-09-27" },
+  release: { version: "0.7.0", date: "2026-10-10" },
   sources: ["https://github.com/spacestate1/namco22-decompile"],
   license: { spdx: "MIT" },
   verified: true,

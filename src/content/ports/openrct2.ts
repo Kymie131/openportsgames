@@ -13,7 +13,7 @@ export const openRct2: Port = {
   openSource: true,
   platforms: ["windows", "linux", "macos"],
   status: "stable",
-  release: { version: "0.5.5", date: "2026-09-06" },
+  release: { version: "0.5.6", date: "2026-10-10" },
   sources: ["https://github.com/OpenRCT2/OpenRCT2"],
   website: "https://openrct2.org/",
   license: {

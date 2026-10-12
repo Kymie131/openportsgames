@@ -13,7 +13,7 @@ export const wiiCompiled: Port = {
   openSource: true,
   platforms: ["windows"],
   status: "beta",
-  release: { version: "0.2.32", date: "2026-09-14" },
+  release: { version: "0.2.34", date: "2026-10-08" },
   sources: ["https://github.com/patchzyy/Wiicompiled"],
   license: { spdx: "GPL-3.0" },
   verified: true,

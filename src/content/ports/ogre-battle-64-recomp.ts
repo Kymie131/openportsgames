@@ -13,7 +13,7 @@ export const ogreBattle64Recomp: Port = {
   portType: "recompilation",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: "0.5.1", date: "2026-09-28" },
+  release: { version: "0.7.0", date: "2026-10-04" },
   sources: ["https://github.com/lfarroco/ogre-battle-64-recomp"],
   license: {
     spdx: "NOASSERTION",

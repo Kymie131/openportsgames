@@ -13,7 +13,7 @@ export const pokemonSnapRecomp: Port = {
   portType: "recompilation",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
-  release: { version: "1.1.0", date: "2026-09-27" },
+  release: { version: "1.1.4", date: "2026-10-11" },
   sources: ["https://github.com/JackandBeans/Snap64Recomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,

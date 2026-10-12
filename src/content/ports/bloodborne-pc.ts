@@ -14,7 +14,7 @@ export const bloodbornePc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux"],
   status: "alpha",
-  release: { version: "0.3", date: "2026-10-06" },
+  release: { version: "0.51", date: "2026-10-10" },
   sources: ["https://github.com/deadinside28/bloodborne_pc"],
   license: { spdx: "GPL-2.0" },
   verified: true,

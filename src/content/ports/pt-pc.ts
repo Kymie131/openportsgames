@@ -14,7 +14,7 @@ export const ptPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux"],
   status: "stable",
-  release: { version: "1.0.1", date: "2026-10-07" },
+  release: { version: "1.0.3", date: "2026-10-11" },
   sources: ["https://github.com/LoreanXavier/pt-pc"],
   license: { spdx: "MIT" },
   verified: true,

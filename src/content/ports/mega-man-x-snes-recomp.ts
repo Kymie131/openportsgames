@@ -13,7 +13,7 @@ export const megaManXSnesRecomp: Port = {
   portType: "recompilation",
   platforms: ["windows", "linux"],
   status: "beta",
-  release: { version: "1.6.6", date: "2026-09-25" },
+  release: { version: "2.1.8-alpha", date: "2026-10-06" },
   sources: ["https://github.com/mstan/MegaManXSNESRecomp"],
   discord: "https://discord.gg/Ad9BwSzctP",
   license: {
