@@ -468,6 +468,12 @@ import { sonicAdvance2Decomp } from "./sonic-advance-2-decomp";
 import { bfbbDecomp } from "./bfbb-decomp";
 import { dxhrDecomp } from "./dxhr-decomp";
 import { rustyBlazer } from "./rusty-blazer";
+import { halo2Decomp } from "./halo-2-decomp";
+import { kh1 } from "./kh1";
+import { mlss } from "./mlss";
+import { pwaa1 } from "./pwaa1";
+import { godHandDecomp } from "./god-hand-decomp";
+import { mkdd } from "./mkdd";
 import { dragonQuestViiiRecomp } from "./dragon-quest-viii-recomp";
 import { residentEvilOutbreakRecomp } from "./resident-evil-outbreak-recomp";
 import { newSuperMarioBrosWiiRecomp } from "./new-super-mario-bros-wii-recomp";
@@ -1098,6 +1104,12 @@ export const portCases: Port[] = [
   bfbbDecomp,
   dxhrDecomp,
   rustyBlazer,
+  halo2Decomp,
+  kh1,
+  mlss,
+  pwaa1,
+  godHandDecomp,
+  mkdd,
   dragonQuestViiiRecomp,
   residentEvilOutbreakRecomp,
   forzaHorizon2Recomp,
