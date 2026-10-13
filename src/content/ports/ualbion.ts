@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ualbion: Port = {
+  schema: "port",
+  id: "ualbion",
+  title: "UAlbion",
+  game: "Albion",
+  developers: ["csinkers"],
+  publisher: "Blue Byte",
+  originalYear: 1995,
+  portType: "reimplementation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/csinkers/ualbion"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "MS-DOS",
+  notes: "Remake of the 1995 RPG Albion. It requires data from an original copy of the game.",
+  notesEs: "Remake del RPG Albion de 1995. Requiere datos de una copia original del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/9a/Albion_cover.jpg",
+    alt: "Albion (cover)",
+    credit: "Wikipedia",
+  },
+};
