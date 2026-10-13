@@ -418,6 +418,11 @@ import { crashMindOverMutantRecomp } from "./crash-mind-over-mutant-recomp";
 import { kirby64Recomp } from "./kirby-64-recomp";
 import { mother3Recomp } from "./mother-3-recomp";
 import { superBombermanRecomp } from "./super-bomberman-recomp";
+import { metalSlugXxRecomp } from "./metal-slug-xx-recomp";
+import { soulcaliburIvRecomp } from "./soulcalibur-iv-recomp";
+import { marioGolf64Recomp } from "./mario-golf-64-recomp";
+import { marioParty3Recomp } from "./mario-party-3-recomp";
+import { marioKart8DeluxeRecomp } from "./mario-kart-8-deluxe-recomp";
 import { dragonQuestViiiRecomp } from "./dragon-quest-viii-recomp";
 import { residentEvilOutbreakRecomp } from "./resident-evil-outbreak-recomp";
 import { newSuperMarioBrosWiiRecomp } from "./new-super-mario-bros-wii-recomp";
@@ -998,6 +1003,11 @@ export const portCases: Port[] = [
   kirby64Recomp,
   mother3Recomp,
   superBombermanRecomp,
+  metalSlugXxRecomp,
+  soulcaliburIvRecomp,
+  marioGolf64Recomp,
+  marioParty3Recomp,
+  marioKart8DeluxeRecomp,
   dragonQuestViiiRecomp,
   residentEvilOutbreakRecomp,
   forzaHorizon2Recomp,
