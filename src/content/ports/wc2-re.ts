@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const Wc2Re: Port = {
+  schema: "port",
+  id: "wc2-re",
+  title: "Wc2-re",
+  game: "wc2-re",
+  developers: ["neuromancer"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/neuromancer/wc2-re"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

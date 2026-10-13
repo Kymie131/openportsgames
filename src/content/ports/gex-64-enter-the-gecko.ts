@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const Gex64EnterTheGecko: Port = {
+  schema: "port",
+  id: "gex-64-enter-the-gecko",
+  title: "Gex 64: Enter the Gecko",
+  game: "Gex 64: Enter the Gecko",
+  developers: ["MatBourgon"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/MatBourgon/Gex64Decomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

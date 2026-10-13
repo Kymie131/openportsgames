@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const JohnnyHerbertsGrandPrixChampionship1998: Port = {
+  schema: "port",
+  id: "johnny-herberts-grand-prix-championship-1998",
+  title: "Johnny Herbert's Grand Prix Championship 1998",
+  game: "Johnny Herbert's Grand Prix Championship 1998",
+  developers: ["danvratil"],
+  publisher: "Unknown",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/danvratil/jhgpc98decomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const DefendersAndDragons: Port = {
+  schema: "port",
+  id: "defenders-and-dragons",
+  title: "Defenders & Dragons",
+  game: "Defenders & Dragons",
+  developers: ["Lindarychwalski"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Lindarychwalski/Defenders-Dragons"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

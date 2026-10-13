@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const SpeedAcademy: Port = {
+  schema: "port",
+  id: "speed-academy",
+  title: "Speed-Academy",
+  game: "Speed-Academy",
+  developers: ["kugelrund"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/kugelrund/Speed-Academy"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

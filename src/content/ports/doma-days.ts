@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const DomaDays: Port = {
+  schema: "port",
+  id: "doma-days",
+  title: "DOMA Days",
+  game: "DOMA Days",
+  developers: ["iestyn129"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/iestyn129/DOMADays"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

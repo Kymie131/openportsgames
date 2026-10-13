@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const GeometryDash: Port = {
+  schema: "port",
+  id: "geometry-dash",
+  title: "Geometry Dash",
+  game: "Geometry Dash",
+  developers: ["aloaf812"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/aloaf812/GD"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const BeybladeVforceUltimateBladerJam: Port = {
+  schema: "port",
+  id: "beyblade-vforce-ultimate-blader-jam",
+  title: "Beyblade VForce: Ultimate Blader Jam",
+  game: "Beyblade VForce: Ultimate Blader Jam",
+  developers: ["marijnvdwerf"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/marijnvdwerf/gba-beyblade-vforce"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Game Boy Advance",
+};

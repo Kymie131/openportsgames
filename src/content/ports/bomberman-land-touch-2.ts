@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const BombermanLandTouch2: Port = {
+  schema: "port",
+  id: "bomberman-land-touch-2",
+  title: "Bomberman Land Touch 2",
+  game: "Bomberman Land Touch 2",
+  developers: ["gamemasterplc"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/gamemasterplc/bltouch2"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Nintendo DS",
+};

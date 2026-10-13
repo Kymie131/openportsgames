@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const InazumaEleven3SekaiENoChousenTheOgre: Port = {
+  schema: "port",
+  id: "inazuma-eleven-3-sekai-e-no-chousen-the-ogre",
+  title: "Inazuma Eleven 3 - Sekai e no Chousen: The Ogre!!",
+  game: "Inazuma Eleven 3 - Sekai e no Chousen: The Ogre!!",
+  developers: ["CacaBueno64"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/CacaBueno64/ie3ogres"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Nintendo DS",
+};

@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const Touhou08ImperishableNight: Port = {
+  schema: "port",
+  id: "touhou-08-imperishable-night",
+  title: "Touhou 08: Imperishable Night",
+  game: "Touhou 08: Imperishable Night",
+  developers: ["GensokyoClub"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/GensokyoClub/th08"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

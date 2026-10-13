@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const MotherEarthboundZeroEarthboundBeginnings: Port = {
+  schema: "port",
+  id: "mother-earthbound-zero-earthbound-beginnings",
+  title: "Mother/Earthbound Zero/Earthbound Beginnings",
+  game: "Mother/Earthbound Zero/Earthbound Beginnings",
+  developers: ["Nathan-R-Og"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Nathan-R-Og/mother"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Nintendo Entertainment System",
+};

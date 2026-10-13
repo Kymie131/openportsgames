@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const DiamondRush: Port = {
+  schema: "port",
+  id: "diamond-rush",
+  title: "Diamond Rush",
+  game: "Diamond Rush",
+  developers: ["palaceswitcher"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/palaceswitcher/Diamond-Rush-Decomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

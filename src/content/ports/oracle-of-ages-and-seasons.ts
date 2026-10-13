@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const OracleOfAgesAndSeasons: Port = {
+  schema: "port",
+  id: "oracle-of-ages-and-seasons",
+  title: "Oracle of Ages and Seasons",
+  game: "Oracle of Ages and Seasons",
+  developers: ["Stewmath"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Stewmath/oracles-disasm"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

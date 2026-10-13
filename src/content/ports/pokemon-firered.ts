@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const PokemonFirered: Port = {
+  schema: "port",
+  id: "pokemon-firered",
+  title: "Pokemon FireRed",
+  game: "Pokemon FireRed",
+  developers: ["pret"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/pret/pokefirered"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

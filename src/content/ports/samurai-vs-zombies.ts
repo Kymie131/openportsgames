@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const SamuraiVsZombies: Port = {
+  schema: "port",
+  id: "samurai-vs-zombies",
+  title: "Samurai Vs Zombies",
+  game: "Samurai Vs Zombies",
+  developers: ["Decomp-And-Recomp"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Decomp-And-Recomp/Samurai-Vs-Zombies"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

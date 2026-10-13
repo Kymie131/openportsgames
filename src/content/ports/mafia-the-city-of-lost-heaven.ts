@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const MafiaTheCityOfLostHeaven: Port = {
+  schema: "port",
+  id: "mafia-the-city-of-lost-heaven",
+  title: "Mafia: The City of Lost Heaven",
+  game: "Mafia: The City of Lost Heaven",
+  developers: ["Marvisak"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Marvisak/mafia-re"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

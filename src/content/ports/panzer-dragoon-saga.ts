@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const PanzerDragoonSaga: Port = {
+  schema: "port",
+  id: "panzer-dragoon-saga",
+  title: "Panzer Dragoon Saga",
+  game: "Panzer Dragoon Saga",
+  developers: ["yaz0r"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/yaz0r/Azel"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

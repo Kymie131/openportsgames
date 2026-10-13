@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const SheepDogNWolfSheepRaider: Port = {
+  schema: "port",
+  id: "sheep-dog-n-wolf-sheep-raider",
+  title: "Sheep Dog n' Wolf / Sheep Raider",
+  game: "Sheep Dog n' Wolf / Sheep Raider",
+  developers: ["lace22l"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/lace22l/sheep-dog-n-wolf-decomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

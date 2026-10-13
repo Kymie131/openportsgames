@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const RhythmHeaven: Port = {
+  schema: "port",
+  id: "rhythm-heaven",
+  title: "Rhythm Heaven",
+  game: "Rhythm Heaven",
+  developers: ["patataofcourse"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "music",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/patataofcourse/rhgold"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Nintendo DS",
+};

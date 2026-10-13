@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const WonderProjectJ2JosetteOfTheCorloForest: Port = {
+  schema: "port",
+  id: "wonder-project-j2-josette-of-the-corlo-forest",
+  title: "Wonder Project J2: Josette of the Corlo Forest",
+  game: "Wonder Project J2: Josette of the Corlo Forest",
+  developers: ["LLONSIT-glitch"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/LLONSIT-glitch/wonder"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const PermafrostEngine: Port = {
+  schema: "port",
+  id: "permafrost-engine",
+  title: "Permafrost-engine",
+  game: "permafrost-engine",
+  developers: ["eduard-permyakov"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/eduard-permyakov/permafrost-engine"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

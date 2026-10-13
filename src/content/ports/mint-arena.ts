@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const MintArena: Port = {
+  schema: "port",
+  id: "mint-arena",
+  title: "Mint-arena",
+  game: "mint-arena",
+  developers: ["clover-moe"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/clover-moe/mint-arena"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const FinalFantasyIv3dRemake: Port = {
+  schema: "port",
+  id: "final-fantasy-iv-3d-remake",
+  title: "Final Fantasy IV (3D Remake)",
+  game: "Final Fantasy IV (3D Remake)",
+  developers: ["GlitchedDeveloper"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/GlitchedDeveloper/Babil-Decompilation-Project"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

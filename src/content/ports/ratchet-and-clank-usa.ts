@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const RatchetAndClankUsa: Port = {
+  schema: "port",
+  id: "ratchet-and-clank-usa",
+  title: "Ratchet & Clank (USA)",
+  game: "Ratchet & Clank (USA)",
+  developers: ["lombyte-project"],
+  publisher: "Unknown",
+  originalYear: 2002,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/lombyte-project/Lombyte"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const Bubsy3dFurbittenPlanet: Port = {
+  schema: "port",
+  id: "bubsy-3d-furbitten-planet",
+  title: "Bubsy 3D - Furbitten Planet",
+  game: "Bubsy 3D - Furbitten Planet",
+  developers: ["EiscremeWaffle"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/EiscremeWaffle/bubsy3d-decomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

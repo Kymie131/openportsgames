@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const DragonBallZBudokai2: Port = {
+  schema: "port",
+  id: "dragon-ball-z-budokai-2",
+  title: "Dragon Ball Z: Budokai 2",
+  game: "Dragon Ball Z: Budokai 2",
+  developers: ["TotallyNotMichael-GH"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/TotallyNotMichael-GH/dbz2"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

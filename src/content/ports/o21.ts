@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const O21: Port = {
+  schema: "port",
+  id: "o21",
+  title: "O21",
+  game: "O21",
+  developers: ["ForNeVeR"],
+  publisher: "Unknown",
+  originalYear: 1995,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ForNeVeR/O21"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Arcade",
+};

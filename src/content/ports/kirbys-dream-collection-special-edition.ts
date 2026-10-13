@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const KirbysDreamCollectionSpecialEdition: Port = {
+  schema: "port",
+  id: "kirbys-dream-collection-special-edition",
+  title: "Kirby's Dream Collection - Special Edition",
+  game: "Kirby's Dream Collection - Special Edition",
+  developers: ["Swiftshine"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Swiftshine/kdc"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

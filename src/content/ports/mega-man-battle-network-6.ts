@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const MegaManBattleNetwork6: Port = {
+  schema: "port",
+  id: "mega-man-battle-network-6",
+  title: "Mega Man Battle Network 6",
+  game: "Mega Man Battle Network 6",
+  developers: ["dism-exe"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/dism-exe/bn6f"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

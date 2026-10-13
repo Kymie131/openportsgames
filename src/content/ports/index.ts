@@ -648,7 +648,513 @@ import { zelda2AdventureOfLinkRecomp } from "./zelda-2-adventure-of-link-recomp"
 import { spaceChannel5Recomp } from "./space-channel-5-recomp";
 import { buckBumbleRecomp } from "./buck-bumble-recomp";
 import { shadowsOfTheEmpireRecomp } from "./shadows-of-the-empire-recomp";
-
+import { Opence } from "./opence";
+import { Opentie } from "./opentie";
+import { Meleepc } from "./meleepc";
+import { NeedForSpeedCarbon } from "./need-for-speed-carbon";
+import { NhlLegacyEdition } from "./nhl-legacy-edition";
+import { OpenAnnihilation } from "./open-annihilation";
+import { Openxvt } from "./openxvt";
+import { Openxwa } from "./openxwa";
+import { Roller } from "./roller";
+import { UnderworldExhumed } from "./underworld-exhumed";
+import { Wc1Re } from "./wc1-re";
+import { Speedbreaker } from "./speedbreaker";
+import { Flame } from "./flame";
+import { Openspideyps1 } from "./openspideyps1";
+import { Sonic3AndKnuckles } from "./sonic-3-and-knuckles";
+import { StarfoxRecomp } from "./starfox-recomp";
+import { Wc2Re } from "./wc2-re";
+import { Zeldawwhdrecompandroid } from "./zeldawwhdrecompandroid";
+import { AlexbeavsPs1RecompsPsxrecompPorts } from "./alexbeavs-ps1-recomps-psxrecomp-ports";
+import { F15Ii } from "./f-15-ii";
+import { InitialDArcadeStageVer3 } from "./initial-d-arcade-stage-ver-3";
+import { NeedForSpeedCarbonCodepdbh } from "./need-for-speed-carbon-codepdbh";
+import { Openxw } from "./openxw";
+import { Ultima7Decomp } from "./ultima-7-decomp";
+import { CallOfDutyFutureWarfare } from "./call-of-duty-future-warfare";
+import { CtwNative } from "./ctw-native";
+import { DanceDanceRevolution1stMix } from "./dance-dance-revolution-1st-mix";
+import { FinalFantasyXiv10 } from "./final-fantasy-xiv-1-0";
+import { HardCorpsUprising } from "./hard-corps-uprising";
+import { BanjorecompAndroid } from "./banjorecomp-android";
+import { KirbysReturnToDreamLandKirbyWiiRecomp } from "./kirbys-return-to-dream-land-kirby-wii-recomp";
+import { MortalKombatVsDcUniverse } from "./mortal-kombat-vs-dc-universe";
+import { Glover } from "./glover";
+import { OutpostKalokiX } from "./outpost-kaloki-x";
+import { SamuraiVsZombies } from "./samurai-vs-zombies";
+import { AdventureIslandIi } from "./adventure-island-ii";
+import { BetrayalAtKrondor } from "./betrayal-at-krondor";
+import { GeometryWarsRetroEvolved2 } from "./geometry-wars-retro-evolved-2";
+import { KirbysPinballLand } from "./kirbys-pinball-land";
+import { SuperMarioLand3WarioLand } from "./super-mario-land-3-wario-land";
+import { TheBindingOfIsaacRepentance } from "./the-binding-of-isaac-repentance";
+import { SexyParodius } from "./sexy-parodius";
+import { SimpsonsWrestlingRecompiled } from "./simpsons-wrestling-recompiled";
+import { Sonic06Demo } from "./sonic-06-demo";
+import { DaytonaArcadeRecomp } from "./daytona-arcade-recomp";
+import { UltimateMk3Ios } from "./ultimate-mk3-ios";
+import { Playstunts } from "./playstunts";
+import { Heavymetal } from "./heavymetal";
+import { KomputerowaGratka3dMagicznaKulaPapatki } from "./komputerowa-gratka-3d-magiczna-kula-papatki";
+import { PokemonEmerald3dPokeemerald3d } from "./pokemon-emerald-3d-pokeemerald-3d";
+import { PokemonSnap } from "./pokemon-snap";
+import { SawIiFleshAndBlood } from "./saw-ii-flesh-and-blood";
+import { GuitarHero2 } from "./guitar-hero-2";
+import { Gsrecomp } from "./gsrecomp";
+import { Vf1Recomp } from "./vf1-recomp";
+import { Generalsgamecode } from "./generalsgamecode";
+import { Quake3e } from "./quake3e";
+import { ChocolateQuake } from "./chocolate-quake";
+import { DsdaDoomDsdaOrg } from "./dsda-doom-dsda-org";
+import { Idtech4aHarmattanEdition } from "./idtech4a-harmattan-edition";
+import { Madnesspatch } from "./madnesspatch";
+import { ZeroHourReforged } from "./zero-hour-reforged";
+import { Bstone } from "./bstone";
+import { Catacombgl } from "./catacombgl";
+import { DxxRedux } from "./dxx-redux";
+import { EarthboundPhaseDistorter } from "./earthbound-phase-distorter";
+import { EdgeClassic } from "./edge-classic";
+import { GoldeneyePcPort } from "./goldeneye-pc-port";
+import { TribalTrouble } from "./tribal-trouble";
+import { Vangers } from "./vangers";
+import { Barrett } from "./barrett";
+import { SpeedAcademy } from "./speed-academy";
+import { Taradino } from "./taradino";
+import { RaceIntoSpace } from "./race-into-space";
+import { ResidentEvil4DreamcastPortRe4dc } from "./resident-evil-4-dreamcast-port-re4dc";
+import { Meridian59 } from "./meridian-59";
+import { TinyToonAdventuresBusterBustsLoosePcPort } from "./tiny-toon-adventures-buster-busts-loose-pc-port";
+import { Jfsw } from "./jfsw";
+import { Nearchuckle } from "./nearchuckle";
+import { Tyrquake } from "./tyrquake";
+import { Jftekwar } from "./jftekwar";
+import { Jfwhaven } from "./jfwhaven";
+import { ReracLauncher } from "./rerac-launcher";
+import { CDogsSdl } from "./c-dogs-sdl";
+import { Freedoom } from "./freedoom";
+import { Opensc2k } from "./opensc2k";
+import { Scummvm } from "./scummvm";
+import { SpaceStation14 } from "./space-station-14";
+import { Surrealengine } from "./surrealengine";
+import { Triplea } from "./triplea";
+import { Unvanquished } from "./unvanquished";
+import { Xoreos } from "./xoreos";
+import { Ambermoon } from "./ambermoon";
+import { Carnage3d } from "./carnage3d";
+import { Ezquake } from "./ezquake";
+import { Glsmac } from "./glsmac";
+import { Heretic2r } from "./heretic2r";
+import { Keeperrl } from "./keeperrl";
+import { Oddworld12 } from "./oddworld-1-2";
+import { Openciv3 } from "./openciv3";
+import { Openomf } from "./openomf";
+import { OpenttdOpenttdPatches } from "./openttd-openttd-patches";
+import { Sfall } from "./sfall";
+import { SyndicateWars } from "./syndicate-wars";
+import { VangeRs } from "./vange-rs";
+import { WorldOfWarcraft112Benilla } from "./world-of-warcraft-1-12-benilla";
+import { Freeciv } from "./freeciv";
+import { PermafrostEngine } from "./permafrost-engine";
+import { _1oom } from "./1oom";
+import { ClubPenguinWaddleForever } from "./club-penguin-waddle-forever";
+import { FreeserfNet } from "./freeserf-net";
+import { Heretic2 } from "./heretic2";
+import { Lba2ClassicCommunity } from "./lba2-classic-community";
+import { Machines } from "./machines";
+import { Maxr } from "./maxr";
+import { Megaglest } from "./megaglest";
+import { MrBoom } from "./mr-boom";
+import { NeedForSpeed16 } from "./need-for-speed-1-6";
+import { OmegaEngine } from "./omega-engine";
+import { Ophd } from "./ophd";
+import { Remc2 } from "./remc2";
+import { RotpFusion } from "./rotp-fusion";
+import { Simutrans } from "./simutrans";
+import { Spearmint } from "./spearmint";
+import { TailsAdventureTailsAdventureRemake } from "./tails-adventure-tails-adventure-remake";
+import { Vorpalfix } from "./vorpalfix";
+import { Betterspades } from "./betterspades";
+import { ChasmReverse } from "./chasm-reverse";
+import { Dgengine } from "./dgengine";
+import { Openkrush } from "./openkrush";
+import { Openreliant } from "./openreliant";
+import { RomanovsVengeance } from "./romanovs-vengeance";
+import { SerioussamclassicVk } from "./serioussamclassic-vk";
+import { SopwithSdlSopwith } from "./sopwith-sdl-sopwith";
+import { Crimsonland } from "./crimsonland";
+import { Doom64ExPlusEnhanced } from "./doom64-ex-plus-enhanced";
+import { Glkeeper } from "./glkeeper";
+import { Mc2 } from "./mc2";
+import { Opene2140 } from "./opene2140";
+import { ShortlineRailroad } from "./shortline-railroad";
+import { Emperorreborn } from "./emperorreborn";
+import { Q2rtxperimental } from "./q2rtxperimental";
+import { ResidentEvil2 } from "./resident-evil-2";
+import { ShatteredParadise } from "./shattered-paradise";
+import { Underworldgodot } from "./underworldgodot";
+import { LionheartRemake } from "./lionheart-remake";
+import { Q2tools220 } from "./q2tools-220";
+import { Thirdeye } from "./thirdeye";
+import { O21 } from "./o21";
+import { Openmb } from "./openmb";
+import { PrinceMonogame } from "./prince-monogame";
+import { Runescape2003 } from "./runescape-2003";
+import { TheGreatEscapeInC } from "./the-great-escape-in-c";
+import { Thinker } from "./thinker";
+import { Serioussamalpharemake } from "./serioussamalpharemake";
+import { RyzomCore } from "./ryzom-core";
+import { ZeroK } from "./zero-k";
+import { Freeft } from "./freeft";
+import { LiliumVoyager } from "./lilium-voyager";
+import { UnityUnderground } from "./unity-underground";
+import { RatchetAndClankPal } from "./ratchet-and-clank-pal";
+import { Opentpw } from "./opentpw";
+import { War1 } from "./war1";
+import { Qfusion } from "./qfusion";
+import { Quakeforge } from "./quakeforge";
+import { Vera20k } from "./vera20k";
+import { Antares } from "./antares";
+import { Btbuilder } from "./btbuilder";
+import { F15IiEnhanced } from "./f-15-ii-enhanced";
+import { MintArena } from "./mint-arena";
+import { Parabellum } from "./parabellum";
+import { Rebellion2 } from "./rebellion2";
+import { Hopmon } from "./hopmon";
+import { FinalFantasyIv3dRemake } from "./final-fantasy-iv-3d-remake";
+import { BattleCity } from "./battle-city";
+import { Ares } from "./ares";
+import { ResidentEvil4 } from "./resident-evil-4";
+import { PokemonEmerald } from "./pokemon-emerald";
+import { PokemonFirered } from "./pokemon-firered";
+import { PokemonRuby } from "./pokemon-ruby";
+import { NeedForSpeedHighStakesPs1 } from "./need-for-speed-high-stakes-ps1";
+import { SerialExperimentsLain } from "./serial-experiments-lain";
+import { SpaceRangersHdAWarApart } from "./space-rangers-hd-a-war-apart";
+import { BattletanxGlobalAssault } from "./battletanx-global-assault";
+import { BeybladeVforceUltimateBladerJam } from "./beyblade-vforce-ultimate-blader-jam";
+import { DigimonDigitalCardBattle } from "./digimon-digital-card-battle";
+import { DragonQuestIv } from "./dragon-quest-iv";
+import { KazeNoNotam } from "./kaze-no-notam";
+import { KirbyNightmareInDreamLand } from "./kirby-nightmare-in-dream-land";
+import { KlonoaEmpireOfDreams } from "./klonoa-empire-of-dreams";
+import { NascarHeat2002 } from "./nascar-heat-2002";
+import { SpaceRangers } from "./space-rangers";
+import { TigerWoodsPgaTour2004 } from "./tiger-woods-pga-tour-2004";
+import { YuGiOhTheEternalDuelistSoul } from "./yu-gi-oh-the-eternal-duelist-soul";
+import { CutTheRopeCutTheRopeDx } from "./cut-the-rope-cut-the-rope-dx";
+import { StarWarsEpisode1Racer } from "./star-wars-episode-1-racer";
+import { _3dMaze } from "./3d-maze";
+import { DuckGame } from "./duck-game";
+import { PizzaTower } from "./pizza-tower";
+import { AnimalForestE } from "./animal-forest-e";
+import { GoldenSun } from "./golden-sun";
+import { RatchetAndClankUsa } from "./ratchet-and-clank-usa";
+import { PokemonDiamond } from "./pokemon-diamond";
+import { PokemonHeartgold } from "./pokemon-heartgold";
+import { PokemonMdRed } from "./pokemon-md-red";
+import { PokemonPlatinum } from "./pokemon-platinum";
+import { SheepDogNWolfRewooled } from "./sheep-dog-n-wolf-rewooled";
+import { TouhouKoumakyouTheEmbodimentOfScarletDevil } from "./touhou-koumakyou-the-embodiment-of-scarlet-devil";
+import { FushigiNoDungeonFRaiNoShiren2OniShRaiShirenJ } from "./fushigi-no-dungeon-f-rai-no-shiren-2-oni-sh-rai-shiren-j";
+import { KingdomHeartsReCoded } from "./kingdom-hearts-re-coded";
+import { MegamiIbunrokuPersona } from "./megami-ibunroku-persona";
+import { ShinMegamiTenseiDigitalDevilSaga } from "./shin-megami-tensei-digital-devil-saga";
+import { Tombi } from "./tombi";
+import { DanceCentral3 } from "./dance-central-3";
+import { GeometryDash } from "./geometry-dash";
+import { LegoRacers } from "./lego-racers";
+import { PeggleDeluxe } from "./peggle-deluxe";
+import { PokemonPuzzleLeague } from "./pokemon-puzzle-league";
+import { ShinMegamiTenseiPersona4 } from "./shin-megami-tensei-persona-4";
+import { Starflight } from "./starflight";
+import { AlienVsPredator2 } from "./alien-vs-predator-2";
+import { AnotherMind } from "./another-mind";
+import { BossRally } from "./boss-rally";
+import { BumpysArcadeFantasy } from "./bumpys-arcade-fantasy";
+import { GauntletDarkLegacy } from "./gauntlet-dark-legacy";
+import { Legoland } from "./legoland";
+import { LemmingsPaintball } from "./lemmings-paintball";
+import { MarioSuperstarBaseball } from "./mario-superstar-baseball";
+import { MortalKombatDeception } from "./mortal-kombat-deception";
+import { NewPlayControlPikmin } from "./new-play-control-pikmin";
+import { NewPlayControlPikmin2 } from "./new-play-control-pikmin-2";
+import { Nocturne } from "./nocturne";
+import { PokMonBlack2AndWhite2 } from "./pok-mon-black-2-and-white-2";
+import { ShaunPalmersProSnowboarder } from "./shaun-palmers-pro-snowboarder";
+import { SheepDogNWolf } from "./sheep-dog-n-wolf";
+import { SonicBattle } from "./sonic-battle";
+import { Splatterhouse } from "./splatterhouse";
+import { SuperMario3dWorldBowsersFury } from "./super-mario-3d-world-bowsers-fury";
+import { Terraria } from "./terraria";
+import { TheOregonTrailWindows95 } from "./the-oregon-trail-windows-95";
+import { AidynChroniclesTheFirstMage } from "./aidyn-chronicles-the-first-mage";
+import { Battlefield2 } from "./battlefield-2";
+import { Black } from "./black";
+import { ChibiRobo } from "./chibi-robo";
+import { DragonQuestIx } from "./dragon-quest-ix";
+import { EarthboundMother2 } from "./earthbound-mother-2";
+import { FireEmblemTheBlazingBlade } from "./fire-emblem-the-blazing-blade";
+import { KirbyAndTheAmazingMirror } from "./kirby-and-the-amazing-mirror";
+import { PanzerDragoonSaga } from "./panzer-dragoon-saga";
+import { PokemonMdSky } from "./pokemon-md-sky";
+import { PokemonPinballRubyAndSapphire } from "./pokemon-pinball-ruby-and-sapphire";
+import { Ratatouille } from "./ratatouille";
+import { ResidentEvilCodeVeronicaX } from "./resident-evil-code-veronica-x";
+import { SonicAdvance3 } from "./sonic-advance-3";
+import { TokyoBusGuide } from "./tokyo-bus-guide";
+import { TouhouYouyoumuPerfectCherryBlossom } from "./touhou-youyoumu-perfect-cherry-blossom";
+import { VagrantStory } from "./vagrant-story";
+import { AnimalForest } from "./animal-forest";
+import { DomaDays } from "./doma-days";
+import { EvosSpaceAdventures } from "./evos-space-adventures";
+import { GhostsAndGraves } from "./ghosts-and-graves";
+import { SuperMarioOdyssey } from "./super-mario-odyssey";
+import { _1080Snowboarding } from "./1080-snowboarding";
+import { BlastCorps } from "./blast-corps";
+import { Creatures2 } from "./creatures-2";
+import { CutTheRope } from "./cut-the-rope";
+import { DeBlob } from "./de-blob";
+import { DiamondRush } from "./diamond-rush";
+import { EternalDarknessSanitysRequiem } from "./eternal-darkness-sanitys-requiem";
+import { FireEmblemTheBindingBlade } from "./fire-emblem-the-binding-blade";
+import { Flatout2 } from "./flatout-2";
+import { FordRacing } from "./ford-racing";
+import { HarvestMoonFriendsOfMineralTown } from "./harvest-moon-friends-of-mineral-town";
+import { InazumaEleven3SekaiENoChousenTheOgre } from "./inazuma-eleven-3-sekai-e-no-chousen-the-ogre";
+import { InsaniquariumDeluxe } from "./insaniquarium-deluxe";
+import { JumpingFlash } from "./jumping-flash";
+import { JurassicParkOperationGenesis } from "./jurassic-park-operation-genesis";
+import { KkndKrushKillNDestroy } from "./kknd-krush-kill-n-destroy";
+import { MafiaTheCityOfLostHeaven } from "./mafia-the-city-of-lost-heaven";
+import { ManiacMansion } from "./maniac-mansion";
+import { MarioAndLuigiPartnersInTime } from "./mario-and-luigi-partners-in-time";
+import { MarioParty1 } from "./mario-party-1";
+import { MarioParty2 } from "./mario-party-2";
+import { MarioParty6 } from "./mario-party-6";
+import { Mother12Japan } from "./mother-1-2-japan";
+import { PhoenixWrightAceAttorneyJusticeForAll } from "./phoenix-wright-ace-attorney-justice-for-all";
+import { PokMonMoon } from "./pok-mon-moon";
+import { ResidentEvilCodeVeronica } from "./resident-evil-code-veronica";
+import { ResidentEvilDeadAim } from "./resident-evil-dead-aim";
+import { SpongebobMovesIn } from "./spongebob-moves-in";
+import { Ssx } from "./ssx";
+import { Ssx3 } from "./ssx-3";
+import { TheItalianJob } from "./the-italian-job";
+import { TheOperativeNoOneLivesForeverNolfsrc } from "./the-operative-no-one-lives-forever-nolfsrc";
+import { Touhou08ImperishableNight } from "./touhou-08-imperishable-night";
+import { Turok2SeedsOfEvil } from "./turok-2-seeds-of-evil";
+import { TwistedMetalHarborCity } from "./twisted-metal-harbor-city";
+import { Yakuza } from "./yakuza";
+import { ZoidsLegacy } from "./zoids-legacy";
+import { ZoneOfTheEnders3GuySavageFromMetalGearSolid3 } from "./zone-of-the-enders-3-guy-savage-from-metal-gear-solid-3";
+import { Chulip } from "./chulip";
+import { FroggersAdventuresTempleOfTheFrog } from "./froggers-adventures-temple-of-the-frog";
+import { GranTurismo4 } from "./gran-turismo-4";
+import { GtAdvance3ProConceptRacing } from "./gt-advance-3-pro-concept-racing";
+import { HarryPotterAndThePrisonerOfAzkaban } from "./harry-potter-and-the-prisoner-of-azkaban";
+import { HarvestMassiveEncounter } from "./harvest-massive-encounter";
+import { PokemonColosseum } from "./pokemon-colosseum";
+import { TokimekiMemorialForeverWithYou } from "./tokimeki-memorial-forever-with-you";
+import { WonderProjectJ2JosetteOfTheCorloForest } from "./wonder-project-j2-josette-of-the-corlo-forest";
+import { XenosagaEpisodeIDerWilleZurMacht } from "./xenosaga-episode-i-der-wille-zur-macht";
+import { BlackAndWhite } from "./black-and-white";
+import { ChernobylNeighborClownGang } from "./chernobyl-neighbor-clown-gang";
+import { JetForceGemini } from "./jet-force-gemini";
+import { TheWorldEndsWithYou } from "./the-world-ends-with-you";
+import { TyTheTasmanianTiger } from "./ty-the-tasmanian-tiger";
+import { WiiSports } from "./wii-sports";
+import { XdGaleOfDarkness } from "./xd-gale-of-darkness";
+import { AirTrafficChaos } from "./air-traffic-chaos";
+import { BurnoutParadiseB5Decomp } from "./burnout-paradise-b5-decomp";
+import { CosmosCosmicAdventure } from "./cosmos-cosmic-adventure";
+import { DarkRift } from "./dark-rift";
+import { Deltarune } from "./deltarune";
+import { DoshinTheGiant } from "./doshin-the-giant";
+import { DragonWarriorMonsters } from "./dragon-warrior-monsters";
+import { DsProtect } from "./ds-protect";
+import { FiveNightsAtFreddys } from "./five-nights-at-freddys";
+import { FiveNightsAtFreddys2 } from "./five-nights-at-freddys-2";
+import { FlappyBird } from "./flappy-bird";
+import { FlatoutUltimateCarnage } from "./flatout-ultimate-carnage";
+import { FreedomFighters } from "./freedom-fighters";
+import { FroggerHesBack } from "./frogger-hes-back";
+import { Fuel } from "./fuel";
+import { GauntletLegends } from "./gauntlet-legends";
+import { KirbyAirRide } from "./kirby-air-ride";
+import { Klonoa2LunateasVeil } from "./klonoa-2-lunateas-veil";
+import { LegoBattles } from "./lego-battles";
+import { LegoCreatorKnightsKingdom } from "./lego-creator-knights-kingdom";
+import { MarioKartDs } from "./mario-kart-ds";
+import { MarioParty7 } from "./mario-party-7";
+import { MarioParty8 } from "./mario-party-8";
+import { MarioTeachesTyping3 } from "./mario-teaches-typing-3";
+import { NeonGenesisEvangelion64 } from "./neon-genesis-evangelion-64";
+import { OnegaiMonsters } from "./onegai-monsters";
+import { PopnMusic } from "./popn-music";
+import { PrincessMaker4 } from "./princess-maker-4";
+import { RockstarGamesPresentsTableTennis } from "./rockstar-games-presents-table-tennis";
+import { SheepDogNWolfSheepRaider } from "./sheep-dog-n-wolf-sheep-raider";
+import { SuperMario3dLand } from "./super-mario-3d-land";
+import { TheJourneymanProjectTurbo } from "./the-journeyman-project-turbo";
+import { TransformersMysteryOfConvoy } from "./transformers-mystery-of-convoy";
+import { TwistedMetalBlack } from "./twisted-metal-black";
+import { UndertaleXboxOne } from "./undertale-xbox-one";
+import { WarioLandShakeIt } from "./wario-land-shake-it";
+import { ZoneOfTheEnders1 } from "./zone-of-the-enders-1";
+import { ZoneOfTheEnders2 } from "./zone-of-the-enders-2";
+import { ChronoCross } from "./chrono-cross";
+import { DigimonRumbleArena } from "./digimon-rumble-arena";
+import { DisneyPigletsBigGame } from "./disney-piglets-big-game";
+import { Gex64EnterTheGecko } from "./gex-64-enter-the-gecko";
+import { GoldenSunTheBrokenSeal } from "./golden-sun-the-broken-seal";
+import { Hazard1998 } from "./hazard-1998";
+import { HybridHeaven } from "./hybrid-heaven";
+import { LegoBatmanTheVideogame } from "./lego-batman-the-videogame";
+import { LuigisMansion } from "./luigis-mansion";
+import { MarioParty5 } from "./mario-party-5";
+import { MarvelVsCapcom2 } from "./marvel-vs-capcom-2";
+import { MedalOfHonorRisingSun } from "./medal-of-honor-rising-sun";
+import { MortalKombatDeadlyAlliance } from "./mortal-kombat-deadly-alliance";
+import { Navyfield2000Pc } from "./navyfield-2000-pc";
+import { NflStreet2 } from "./nfl-street-2";
+import { Paperboy } from "./paperboy";
+import { ShinBokuraNoTaiyouGyakushuuNoSabata } from "./shin-bokura-no-taiyou-gyakushuu-no-sabata";
+import { SnailMail } from "./snail-mail";
+import { SonicHeroes } from "./sonic-heroes";
+import { TouristTrophy } from "./tourist-trophy";
+import { WariowareIncMegaMicrogames } from "./warioware-inc-mega-microgames";
+import { WiiPlay } from "./wii-play";
+import { Xenoblade } from "./xenoblade";
+import { AdvanceWars2BlackHoleRising } from "./advance-wars-2-black-hole-rising";
+import { AgeOfSpeed2 } from "./age-of-speed-2";
+import { AmazingIsland } from "./amazing-island";
+import { Amplitude } from "./amplitude";
+import { AncientEmpires } from "./ancient-empires";
+import { AreYouSmarterThanA5thGraderMakeTheGrade } from "./are-you-smarter-than-a-5th-grader-make-the-grade";
+import { BigBrainAcademyWiiDegree } from "./big-brain-academy-wii-degree";
+import { BioMenace } from "./bio-menace";
+import { BlasterballRevolution2 } from "./blasterball-revolution-2";
+import { BloonsTd5 } from "./bloons-td-5";
+import { Bounce } from "./bounce";
+import { BraveFrontier } from "./brave-frontier";
+import { BurnoutParadise } from "./burnout-paradise";
+import { ChikisChase } from "./chikis-chase";
+import { CostumeQuest } from "./costume-quest";
+import { CustomRoboGx } from "./custom-robo-gx";
+import { DefendersAndDragons } from "./defenders-and-dragons";
+import { DrBrainActionReaction } from "./dr-brain-action-reaction";
+import { DragonBallZBudokai2 } from "./dragon-ball-z-budokai-2";
+import { DrakanTheAncientsGates } from "./drakan-the-ancients-gates";
+import { DukeNukem64 } from "./duke-nukem-64";
+import { EarthboundBeginnings } from "./earthbound-beginnings";
+import { FateExtella } from "./fate-extella";
+import { FortuneStreet } from "./fortune-street";
+import { GreenFarm3 } from "./green-farm-3";
+import { HaloReach } from "./halo-reach";
+import { HappyWheels } from "./happy-wheels";
+import { JohnnyHerbertsGrandPrixChampionship1998 } from "./johnny-herberts-grand-prix-championship-1998";
+import { KirbysEpicYarn } from "./kirbys-epic-yarn";
+import { MarioParty9 } from "./mario-party-9";
+import { MarioPartyDs } from "./mario-party-ds";
+import { MarioSportMix } from "./mario-sport-mix";
+import { MixelsRush } from "./mixels-rush";
+import { MonsterHunterPortable2ndG } from "./monster-hunter-portable-2nd-g";
+import { OkamiHd } from "./okami-hd";
+import { OregonTrailIi } from "./oregon-trail-ii";
+import { RadioHelicopter } from "./radio-helicopter";
+import { SkiesOfArcadiaLegends } from "./skies-of-arcadia-legends";
+import { Splatoon } from "./splatoon";
+import { StarOceanBlueSphere } from "./star-ocean-blue-sphere";
+import { TaikoNoTatsujinWiiKetteiban } from "./taiko-no-tatsujin-wii-ketteiban";
+import { TheLordOfTheRingsReturnOfTheKing } from "./the-lord-of-the-rings-return-of-the-king";
+import { TheSims2 } from "./the-sims-2";
+import { TwinbeeParadiseInDonburiShima } from "./twinbee-paradise-in-donburi-shima";
+import { UndertaleYellow } from "./undertale-yellow";
+import { WarioWorld } from "./wario-world";
+import { WcwNitro } from "./wcw-nitro";
+import { WcwNwoThunder } from "./wcw-nwo-thunder";
+import { WorldOfGoo } from "./world-of-goo";
+import { YsVi } from "./ys-vi";
+import { RhythmHeavenFever } from "./rhythm-heaven-fever";
+import { SummonerAGoddessReborn } from "./summoner-a-goddess-reborn";
+import { AliceInWonderland } from "./alice-in-wonderland";
+import { ArTonelicoIiMelodyOfMetafalica } from "./ar-tonelico-ii-melody-of-metafalica";
+import { Battletanx } from "./battletanx";
+import { BombermanLandTouch2 } from "./bomberman-land-touch-2";
+import { Bubsy3dFurbittenPlanet } from "./bubsy-3d-furbitten-planet";
+import { DogsLife } from "./dogs-life";
+import { FireEmblemShadowDragon } from "./fire-emblem-shadow-dragon";
+import { GeorgeOfTheJungleAndTheSearchForTheSecret } from "./george-of-the-jungle-and-the-search-for-the-secret";
+import { HarryPotterAndTheHalfBloodPrince } from "./harry-potter-and-the-half-blood-prince";
+import { KinectSports } from "./kinect-sports";
+import { KirbysDreamCollectionSpecialEdition } from "./kirbys-dream-collection-special-edition";
+import { KuonMulberry } from "./kuon-mulberry";
+import { LegoCityUndercover } from "./lego-city-undercover";
+import { MarioAndLuigiBowsersInsideStory } from "./mario-and-luigi-bowsers-inside-story";
+import { MonsterHunter4Ultimate } from "./monster-hunter-4-ultimate";
+import { MvpBaseball2005 } from "./mvp-baseball-2005";
+import { PokemonBattleRevolution } from "./pokemon-battle-revolution";
+import { PokeparkWiiPikachusAdventure } from "./pokepark-wii-pikachus-adventure";
+import { PokMonSword } from "./pok-mon-sword";
+import { RatchetAndClankGoingCommandoUsaV101 } from "./ratchet-and-clank-going-commando-usa-v1-01";
+import { RatchetAndClankUpYourArsenal } from "./ratchet-and-clank-up-your-arsenal";
+import { RatchetDeadlocked } from "./ratchet-deadlocked";
+import { ShadowTheHedgehog } from "./shadow-the-hedgehog";
+import { StarOceanTillTheEndOfTime } from "./star-ocean-till-the-end-of-time";
+import { StretchPanic } from "./stretch-panic";
+import { Summoner } from "./summoner";
+import { ThiefDeadlyShadows } from "./thief-deadly-shadows";
+import { WiiFitPlus } from "./wii-fit-plus";
+import { Wild9 } from "./wild-9";
+import { Xbox360Kernel } from "./xbox-360-kernel";
+import { Kamiden } from "./kamiden";
+import { CrashTagTeamRacing } from "./crash-tag-team-racing";
+import { Homeworld2 } from "./homeworld-2";
+import { LegoStarWarsIiiTheCloneWars } from "./lego-star-wars-iii-the-clone-wars";
+import { Ps2Osdsys } from "./ps2-osdsys";
+import { TheSims2Castaway } from "./the-sims-2-castaway";
+import { TheSpongebobSquarepantsMovie } from "./the-spongebob-squarepants-movie";
+import { ExciteTruck } from "./excite-truck";
+import { PokemonCrystal } from "./pokemon-crystal";
+import { FireEmblemSeimaNoKouseki } from "./fire-emblem-seima-no-kouseki";
+import { FireEmblemTheSacredStones } from "./fire-emblem-the-sacred-stones";
+import { FireEmblemTheSacredStonesFireemblem } from "./fire-emblem-the-sacred-stones-fireemblem";
+import { OracleOfAgesAndSeasons } from "./oracle-of-ages-and-seasons";
+import { PokemonGold } from "./pokemon-gold";
+import { PokemonGoldSpaceworldDemo } from "./pokemon-gold-spaceworld-demo";
+import { PokemonPinball } from "./pokemon-pinball";
+import { PokemonStadium1 } from "./pokemon-stadium-1";
+import { PokemonTcg1 } from "./pokemon-tcg-1";
+import { PokemonYellow } from "./pokemon-yellow";
+import { SonicAndKnuckles } from "./sonic-and-knuckles";
+import { Barnyard } from "./barnyard";
+import { Contra } from "./contra";
+import { VirtuaRacing } from "./virtua-racing";
+import { MegaManBattleNetwork6 } from "./mega-man-battle-network-6";
+import { PokemonPuzzleChallenge } from "./pokemon-puzzle-challenge";
+import { PokemonTcg2 } from "./pokemon-tcg-2";
+import { ShiningForceIi } from "./shining-force-ii";
+import { ZeldaNoDensetsuKamigamiNoTriforce } from "./zelda-no-densetsu-kamigami-no-triforce";
+import { Jetpac } from "./jetpac";
+import { JpnPokMonBlue } from "./jpn-pok-mon-blue";
+import { KidChameleon } from "./kid-chameleon";
+import { ManicMiner } from "./manic-miner";
+import { MegamanZero3 } from "./megaman-zero-3";
+import { PokemonStadium2 } from "./pokemon-stadium-2";
+import { SuperGhoulsNGhosts } from "./super-ghouls-n-ghosts";
+import { WarioLand3 } from "./wario-land-3";
+import { AlexKiddInMiracleWorld } from "./alex-kidd-in-miracle-world";
+import { Arkanoid } from "./arkanoid";
+import { ArmoredUnit } from "./armored-unit";
+import { LooneyTunesCarrotCrazy } from "./looney-tunes-carrot-crazy";
+import { MotherEarthboundZeroEarthboundBeginnings } from "./mother-earthbound-zero-earthbound-beginnings";
+import { RhythmHeaven } from "./rhythm-heaven";
+import { IdleOfficeTycoon } from "./idle-office-tycoon";
+import { ShiningForce } from "./shining-force";
+import { TheSims2Gba } from "./the-sims-2-gba";
+import { TheSimsBustinOut } from "./the-sims-bustin-out";
+import { TheUrbzSimsInTheCity } from "./the-urbz-sims-in-the-city";
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -1299,4 +1805,511 @@ export const portCases: Port[] = [
   spaceChannel5Recomp,
   buckBumbleRecomp,
   shadowsOfTheEmpireRecomp,
+  Opence,
+  Opentie,
+  Meleepc,
+  NeedForSpeedCarbon,
+  NhlLegacyEdition,
+  OpenAnnihilation,
+  Openxvt,
+  Openxwa,
+  Roller,
+  UnderworldExhumed,
+  Wc1Re,
+  Speedbreaker,
+  Flame,
+  Openspideyps1,
+  Sonic3AndKnuckles,
+  StarfoxRecomp,
+  Wc2Re,
+  Zeldawwhdrecompandroid,
+  AlexbeavsPs1RecompsPsxrecompPorts,
+  F15Ii,
+  InitialDArcadeStageVer3,
+  NeedForSpeedCarbonCodepdbh,
+  Openxw,
+  Ultima7Decomp,
+  CallOfDutyFutureWarfare,
+  CtwNative,
+  DanceDanceRevolution1stMix,
+  FinalFantasyXiv10,
+  HardCorpsUprising,
+  BanjorecompAndroid,
+  KirbysReturnToDreamLandKirbyWiiRecomp,
+  MortalKombatVsDcUniverse,
+  Glover,
+  OutpostKalokiX,
+  SamuraiVsZombies,
+  AdventureIslandIi,
+  BetrayalAtKrondor,
+  GeometryWarsRetroEvolved2,
+  KirbysPinballLand,
+  SuperMarioLand3WarioLand,
+  TheBindingOfIsaacRepentance,
+  SexyParodius,
+  SimpsonsWrestlingRecompiled,
+  Sonic06Demo,
+  DaytonaArcadeRecomp,
+  UltimateMk3Ios,
+  Playstunts,
+  Heavymetal,
+  KomputerowaGratka3dMagicznaKulaPapatki,
+  PokemonEmerald3dPokeemerald3d,
+  PokemonSnap,
+  SawIiFleshAndBlood,
+  GuitarHero2,
+  Gsrecomp,
+  Vf1Recomp,
+  Generalsgamecode,
+  Quake3e,
+  ChocolateQuake,
+  DsdaDoomDsdaOrg,
+  Idtech4aHarmattanEdition,
+  Madnesspatch,
+  ZeroHourReforged,
+  Bstone,
+  Catacombgl,
+  DxxRedux,
+  EarthboundPhaseDistorter,
+  EdgeClassic,
+  GoldeneyePcPort,
+  TribalTrouble,
+  Vangers,
+  Barrett,
+  SpeedAcademy,
+  Taradino,
+  RaceIntoSpace,
+  ResidentEvil4DreamcastPortRe4dc,
+  Meridian59,
+  TinyToonAdventuresBusterBustsLoosePcPort,
+  Jfsw,
+  Nearchuckle,
+  Tyrquake,
+  Jftekwar,
+  Jfwhaven,
+  ReracLauncher,
+  CDogsSdl,
+  Freedoom,
+  Opensc2k,
+  Scummvm,
+  SpaceStation14,
+  Surrealengine,
+  Triplea,
+  Unvanquished,
+  Xoreos,
+  Ambermoon,
+  Carnage3d,
+  Ezquake,
+  Glsmac,
+  Heretic2r,
+  Keeperrl,
+  Oddworld12,
+  Openciv3,
+  Openomf,
+  OpenttdOpenttdPatches,
+  Sfall,
+  SyndicateWars,
+  VangeRs,
+  WorldOfWarcraft112Benilla,
+  Freeciv,
+  PermafrostEngine,
+  _1oom,
+  ClubPenguinWaddleForever,
+  FreeserfNet,
+  Heretic2,
+  Lba2ClassicCommunity,
+  Machines,
+  Maxr,
+  Megaglest,
+  MrBoom,
+  NeedForSpeed16,
+  OmegaEngine,
+  Ophd,
+  Remc2,
+  RotpFusion,
+  Simutrans,
+  Spearmint,
+  TailsAdventureTailsAdventureRemake,
+  Vorpalfix,
+  Betterspades,
+  ChasmReverse,
+  Dgengine,
+  Openkrush,
+  Openreliant,
+  RomanovsVengeance,
+  SerioussamclassicVk,
+  SopwithSdlSopwith,
+  Crimsonland,
+  Doom64ExPlusEnhanced,
+  Glkeeper,
+  Mc2,
+  Opene2140,
+  ShortlineRailroad,
+  Emperorreborn,
+  Q2rtxperimental,
+  ResidentEvil2,
+  ShatteredParadise,
+  Underworldgodot,
+  LionheartRemake,
+  Q2tools220,
+  Thirdeye,
+  O21,
+  Openmb,
+  PrinceMonogame,
+  Runescape2003,
+  TheGreatEscapeInC,
+  Thinker,
+  Serioussamalpharemake,
+  RyzomCore,
+  ZeroK,
+  Freeft,
+  LiliumVoyager,
+  UnityUnderground,
+  RatchetAndClankPal,
+  Opentpw,
+  War1,
+  Qfusion,
+  Quakeforge,
+  Vera20k,
+  Antares,
+  Btbuilder,
+  F15IiEnhanced,
+  MintArena,
+  Parabellum,
+  Rebellion2,
+  Hopmon,
+  FinalFantasyIv3dRemake,
+  BattleCity,
+  Ares,
+  ResidentEvil4,
+  PokemonEmerald,
+  PokemonFirered,
+  PokemonRuby,
+  NeedForSpeedHighStakesPs1,
+  SerialExperimentsLain,
+  SpaceRangersHdAWarApart,
+  BattletanxGlobalAssault,
+  BeybladeVforceUltimateBladerJam,
+  DigimonDigitalCardBattle,
+  DragonQuestIv,
+  KazeNoNotam,
+  KirbyNightmareInDreamLand,
+  KlonoaEmpireOfDreams,
+  NascarHeat2002,
+  SpaceRangers,
+  TigerWoodsPgaTour2004,
+  YuGiOhTheEternalDuelistSoul,
+  CutTheRopeCutTheRopeDx,
+  StarWarsEpisode1Racer,
+  _3dMaze,
+  DuckGame,
+  PizzaTower,
+  AnimalForestE,
+  GoldenSun,
+  RatchetAndClankUsa,
+  PokemonDiamond,
+  PokemonHeartgold,
+  PokemonMdRed,
+  PokemonPlatinum,
+  SheepDogNWolfRewooled,
+  TouhouKoumakyouTheEmbodimentOfScarletDevil,
+  FushigiNoDungeonFRaiNoShiren2OniShRaiShirenJ,
+  KingdomHeartsReCoded,
+  MegamiIbunrokuPersona,
+  ShinMegamiTenseiDigitalDevilSaga,
+  Tombi,
+  DanceCentral3,
+  GeometryDash,
+  LegoRacers,
+  PeggleDeluxe,
+  PokemonPuzzleLeague,
+  ShinMegamiTenseiPersona4,
+  Starflight,
+  AlienVsPredator2,
+  AnotherMind,
+  BossRally,
+  BumpysArcadeFantasy,
+  GauntletDarkLegacy,
+  Legoland,
+  LemmingsPaintball,
+  MarioSuperstarBaseball,
+  MortalKombatDeception,
+  NewPlayControlPikmin,
+  NewPlayControlPikmin2,
+  Nocturne,
+  PokMonBlack2AndWhite2,
+  ShaunPalmersProSnowboarder,
+  SheepDogNWolf,
+  SonicBattle,
+  Splatterhouse,
+  SuperMario3dWorldBowsersFury,
+  Terraria,
+  TheOregonTrailWindows95,
+  AidynChroniclesTheFirstMage,
+  Battlefield2,
+  Black,
+  ChibiRobo,
+  DragonQuestIx,
+  EarthboundMother2,
+  FireEmblemTheBlazingBlade,
+  KirbyAndTheAmazingMirror,
+  PanzerDragoonSaga,
+  PokemonMdSky,
+  PokemonPinballRubyAndSapphire,
+  Ratatouille,
+  ResidentEvilCodeVeronicaX,
+  SonicAdvance3,
+  TokyoBusGuide,
+  TouhouYouyoumuPerfectCherryBlossom,
+  VagrantStory,
+  AnimalForest,
+  DomaDays,
+  EvosSpaceAdventures,
+  GhostsAndGraves,
+  SuperMarioOdyssey,
+  _1080Snowboarding,
+  BlastCorps,
+  Creatures2,
+  CutTheRope,
+  DeBlob,
+  DiamondRush,
+  EternalDarknessSanitysRequiem,
+  FireEmblemTheBindingBlade,
+  Flatout2,
+  FordRacing,
+  HarvestMoonFriendsOfMineralTown,
+  InazumaEleven3SekaiENoChousenTheOgre,
+  InsaniquariumDeluxe,
+  JumpingFlash,
+  JurassicParkOperationGenesis,
+  KkndKrushKillNDestroy,
+  MafiaTheCityOfLostHeaven,
+  ManiacMansion,
+  MarioAndLuigiPartnersInTime,
+  MarioParty1,
+  MarioParty2,
+  MarioParty6,
+  Mother12Japan,
+  PhoenixWrightAceAttorneyJusticeForAll,
+  PokMonMoon,
+  ResidentEvilCodeVeronica,
+  ResidentEvilDeadAim,
+  SpongebobMovesIn,
+  Ssx,
+  Ssx3,
+  TheItalianJob,
+  TheOperativeNoOneLivesForeverNolfsrc,
+  Touhou08ImperishableNight,
+  Turok2SeedsOfEvil,
+  TwistedMetalHarborCity,
+  Yakuza,
+  ZoidsLegacy,
+  ZoneOfTheEnders3GuySavageFromMetalGearSolid3,
+  Chulip,
+  FroggersAdventuresTempleOfTheFrog,
+  GranTurismo4,
+  GtAdvance3ProConceptRacing,
+  HarryPotterAndThePrisonerOfAzkaban,
+  HarvestMassiveEncounter,
+  PokemonColosseum,
+  TokimekiMemorialForeverWithYou,
+  WonderProjectJ2JosetteOfTheCorloForest,
+  XenosagaEpisodeIDerWilleZurMacht,
+  BlackAndWhite,
+  ChernobylNeighborClownGang,
+  JetForceGemini,
+  TheWorldEndsWithYou,
+  TyTheTasmanianTiger,
+  WiiSports,
+  XdGaleOfDarkness,
+  AirTrafficChaos,
+  BurnoutParadiseB5Decomp,
+  CosmosCosmicAdventure,
+  DarkRift,
+  Deltarune,
+  DoshinTheGiant,
+  DragonWarriorMonsters,
+  DsProtect,
+  FiveNightsAtFreddys,
+  FiveNightsAtFreddys2,
+  FlappyBird,
+  FlatoutUltimateCarnage,
+  FreedomFighters,
+  FroggerHesBack,
+  Fuel,
+  GauntletLegends,
+  KirbyAirRide,
+  Klonoa2LunateasVeil,
+  LegoBattles,
+  LegoCreatorKnightsKingdom,
+  MarioKartDs,
+  MarioParty7,
+  MarioParty8,
+  MarioTeachesTyping3,
+  NeonGenesisEvangelion64,
+  OnegaiMonsters,
+  PopnMusic,
+  PrincessMaker4,
+  RockstarGamesPresentsTableTennis,
+  SheepDogNWolfSheepRaider,
+  SuperMario3dLand,
+  TheJourneymanProjectTurbo,
+  TransformersMysteryOfConvoy,
+  TwistedMetalBlack,
+  UndertaleXboxOne,
+  WarioLandShakeIt,
+  ZoneOfTheEnders1,
+  ZoneOfTheEnders2,
+  ChronoCross,
+  DigimonRumbleArena,
+  DisneyPigletsBigGame,
+  Gex64EnterTheGecko,
+  GoldenSunTheBrokenSeal,
+  Hazard1998,
+  HybridHeaven,
+  LegoBatmanTheVideogame,
+  LuigisMansion,
+  MarioParty5,
+  MarvelVsCapcom2,
+  MedalOfHonorRisingSun,
+  MortalKombatDeadlyAlliance,
+  Navyfield2000Pc,
+  NflStreet2,
+  Paperboy,
+  ShinBokuraNoTaiyouGyakushuuNoSabata,
+  SnailMail,
+  SonicHeroes,
+  TouristTrophy,
+  WariowareIncMegaMicrogames,
+  WiiPlay,
+  Xenoblade,
+  AdvanceWars2BlackHoleRising,
+  AgeOfSpeed2,
+  AmazingIsland,
+  Amplitude,
+  AncientEmpires,
+  AreYouSmarterThanA5thGraderMakeTheGrade,
+  BigBrainAcademyWiiDegree,
+  BioMenace,
+  BlasterballRevolution2,
+  BloonsTd5,
+  Bounce,
+  BraveFrontier,
+  BurnoutParadise,
+  ChikisChase,
+  CostumeQuest,
+  CustomRoboGx,
+  DefendersAndDragons,
+  DrBrainActionReaction,
+  DragonBallZBudokai2,
+  DrakanTheAncientsGates,
+  DukeNukem64,
+  EarthboundBeginnings,
+  FateExtella,
+  FortuneStreet,
+  GreenFarm3,
+  HaloReach,
+  HappyWheels,
+  JohnnyHerbertsGrandPrixChampionship1998,
+  KirbysEpicYarn,
+  MarioParty9,
+  MarioPartyDs,
+  MarioSportMix,
+  MixelsRush,
+  MonsterHunterPortable2ndG,
+  OkamiHd,
+  OregonTrailIi,
+  RadioHelicopter,
+  SkiesOfArcadiaLegends,
+  Splatoon,
+  StarOceanBlueSphere,
+  TaikoNoTatsujinWiiKetteiban,
+  TheLordOfTheRingsReturnOfTheKing,
+  TheSims2,
+  TwinbeeParadiseInDonburiShima,
+  UndertaleYellow,
+  WarioWorld,
+  WcwNitro,
+  WcwNwoThunder,
+  WorldOfGoo,
+  YsVi,
+  RhythmHeavenFever,
+  SummonerAGoddessReborn,
+  AliceInWonderland,
+  ArTonelicoIiMelodyOfMetafalica,
+  Battletanx,
+  BombermanLandTouch2,
+  Bubsy3dFurbittenPlanet,
+  DogsLife,
+  FireEmblemShadowDragon,
+  GeorgeOfTheJungleAndTheSearchForTheSecret,
+  HarryPotterAndTheHalfBloodPrince,
+  KinectSports,
+  KirbysDreamCollectionSpecialEdition,
+  KuonMulberry,
+  LegoCityUndercover,
+  MarioAndLuigiBowsersInsideStory,
+  MonsterHunter4Ultimate,
+  MvpBaseball2005,
+  PokemonBattleRevolution,
+  PokeparkWiiPikachusAdventure,
+  PokMonSword,
+  RatchetAndClankGoingCommandoUsaV101,
+  RatchetAndClankUpYourArsenal,
+  RatchetDeadlocked,
+  ShadowTheHedgehog,
+  StarOceanTillTheEndOfTime,
+  StretchPanic,
+  Summoner,
+  ThiefDeadlyShadows,
+  WiiFitPlus,
+  Wild9,
+  Xbox360Kernel,
+  Kamiden,
+  CrashTagTeamRacing,
+  Homeworld2,
+  LegoStarWarsIiiTheCloneWars,
+  Ps2Osdsys,
+  TheSims2Castaway,
+  TheSpongebobSquarepantsMovie,
+  ExciteTruck,
+  PokemonCrystal,
+  FireEmblemSeimaNoKouseki,
+  FireEmblemTheSacredStones,
+  FireEmblemTheSacredStonesFireemblem,
+  OracleOfAgesAndSeasons,
+  PokemonGold,
+  PokemonGoldSpaceworldDemo,
+  PokemonPinball,
+  PokemonStadium1,
+  PokemonTcg1,
+  PokemonYellow,
+  SonicAndKnuckles,
+  Barnyard,
+  Contra,
+  VirtuaRacing,
+  MegaManBattleNetwork6,
+  PokemonPuzzleChallenge,
+  PokemonTcg2,
+  ShiningForceIi,
+  ZeldaNoDensetsuKamigamiNoTriforce,
+  Jetpac,
+  JpnPokMonBlue,
+  KidChameleon,
+  ManicMiner,
+  MegamanZero3,
+  PokemonStadium2,
+  SuperGhoulsNGhosts,
+  WarioLand3,
+  AlexKiddInMiracleWorld,
+  Arkanoid,
+  ArmoredUnit,
+  LooneyTunesCarrotCrazy,
+  MotherEarthboundZeroEarthboundBeginnings,
+  RhythmHeaven,
+  IdleOfficeTycoon,
+  ShiningForce,
+  TheSims2Gba,
+  TheSimsBustinOut,
+  TheUrbzSimsInTheCity,
 ];

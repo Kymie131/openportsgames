@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const AmazingIsland: Port = {
+  schema: "port",
+  id: "amazing-island",
+  title: "Amazing Island",
+  game: "Amazing Island",
+  developers: ["EltaleLibrarian"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/EltaleLibrarian/Amazing"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

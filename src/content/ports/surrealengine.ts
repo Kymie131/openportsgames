@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const Surrealengine: Port = {
+  schema: "port",
+  id: "surrealengine",
+  title: "SurrealEngine",
+  game: "SurrealEngine",
+  developers: ["dpjudas"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/dpjudas/SurrealEngine"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

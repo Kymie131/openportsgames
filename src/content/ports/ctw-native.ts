@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const CtwNative: Port = {
+  schema: "port",
+  id: "ctw-native",
+  title: "CTW-Native",
+  game: "CTW-Native",
+  developers: ["official-kryo-to"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/official-kryo-to/ctw-native"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

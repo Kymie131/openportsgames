@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const MarioTeachesTyping3: Port = {
+  schema: "port",
+  id: "mario-teaches-typing-3",
+  title: "Mario Teaches Typing 3",
+  game: "Mario Teaches Typing 3",
+  developers: ["EliasFever"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/EliasFever/MarioTeachesTyping3Decomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

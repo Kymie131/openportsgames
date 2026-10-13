@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const UndertaleXboxOne: Port = {
+  schema: "port",
+  id: "undertale-xbox-one",
+  title: "UNDERTALE (Xbox One)",
+  game: "UNDERTALE (Xbox One)",
+  developers: ["kittibyte"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/kittibyte/UndertaleDecomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Xbox",
+};

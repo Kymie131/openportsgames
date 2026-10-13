@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ShinBokuraNoTaiyouGyakushuuNoSabata: Port = {
+  schema: "port",
+  id: "shin-bokura-no-taiyou-gyakushuu-no-sabata",
+  title: "Shin Bokura no Taiyou: Gyakushuu no Sabata",
+  game: "Shin Bokura no Taiyou: Gyakushuu no Sabata",
+  developers: ["moozilla"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/moozilla/boktai3-decomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

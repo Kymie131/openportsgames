@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ChikisChase: Port = {
+  schema: "port",
+  id: "chikis-chase",
+  title: "Chiki's Chase",
+  game: "Chiki's Chase",
+  developers: ["gays-studio"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/gays-studio/ChikisChaseAPK"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

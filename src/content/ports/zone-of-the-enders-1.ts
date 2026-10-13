@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ZoneOfTheEnders1: Port = {
+  schema: "port",
+  id: "zone-of-the-enders-1",
+  title: "Zone of the Enders 1",
+  game: "Zone of the Enders 1",
+  developers: ["GirianSeed"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/GirianSeed/zoe1"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

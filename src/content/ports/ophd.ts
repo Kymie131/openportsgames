@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const Ophd: Port = {
+  schema: "port",
+  id: "ophd",
+  title: "OPHD",
+  game: "OPHD",
+  developers: ["OutpostUniverse"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/OutpostUniverse/OPHD"],
+  license: { spdx: "BSD-3-Clause" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

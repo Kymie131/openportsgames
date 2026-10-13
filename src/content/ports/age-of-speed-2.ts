@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const AgeOfSpeed2: Port = {
+  schema: "port",
+  id: "age-of-speed-2",
+  title: "Age of Speed 2",
+  game: "Age of Speed 2",
+  developers: ["Llamaware"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Llamaware/age-of-speed2"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

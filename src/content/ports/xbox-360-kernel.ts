@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const Xbox360Kernel: Port = {
+  schema: "port",
+  id: "xbox-360-kernel",
+  title: "Xbox 360 Kernel",
+  game: "Xbox 360 Kernel",
+  developers: ["AleBello7276"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/AleBello7276/xkrnl-decomp"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Xbox 360",
+};

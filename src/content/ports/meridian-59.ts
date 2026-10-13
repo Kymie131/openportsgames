@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const Meridian59: Port = {
+  schema: "port",
+  id: "meridian-59",
+  title: "Meridian 59",
+  game: "Meridian 59",
+  developers: ["Meridian59"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Meridian59/Meridian59"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

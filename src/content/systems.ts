@@ -281,6 +281,7 @@ export const systemSlugByLabel: Record<string, SystemSlug> = {
   Atari: "atari",
   "Atari 2600": "atari",
   "PC-98": "other",
+  Other: "other",
   "Namco System 22": "arcade",
   Arcade: "arcade",
   "PlayStation / Sega Saturn": "playstation",

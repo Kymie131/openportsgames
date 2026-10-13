@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const TheGreatEscapeInC: Port = {
+  schema: "port",
+  id: "the-great-escape-in-c",
+  title: "The Great Escape in C",
+  game: "The Great Escape in C",
+  developers: ["dpt"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/dpt/The-Great-Escape-in-C"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

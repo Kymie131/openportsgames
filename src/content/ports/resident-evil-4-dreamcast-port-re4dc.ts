@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ResidentEvil4DreamcastPortRe4dc: Port = {
+  schema: "port",
+  id: "resident-evil-4-dreamcast-port-re4dc",
+  title: "Resident Evil 4 (Dreamcast port, re4dc)",
+  game: "Resident Evil 4 (Dreamcast port, re4dc)",
+  developers: ["lamb2k"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/lamb2k/re4dc"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Dreamcast",
+};

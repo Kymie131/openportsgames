@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const Amplitude: Port = {
+  schema: "port",
+  id: "amplitude",
+  title: "Amplitude",
+  game: "Amplitude",
+  developers: ["ieee802dot11ac"],
+  publisher: "Unknown",
+  originalYear: 2003,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ieee802dot11ac/amp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

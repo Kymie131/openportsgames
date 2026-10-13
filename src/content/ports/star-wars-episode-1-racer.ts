@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const StarWarsEpisode1Racer: Port = {
+  schema: "port",
+  id: "star-wars-episode-1-racer",
+  title: "Star Wars Episode 1: Racer",
+  game: "Star Wars Episode 1: Racer",
+  developers: ["tim-tim707"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/tim-tim707/SW_RACER_RE"],
+  license: { spdx: "AGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

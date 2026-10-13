@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const Oddworld12: Port = {
+  schema: "port",
+  id: "oddworld-1-2",
+  title: "Oddworld 1-2",
+  game: "Oddworld 1-2",
+  developers: ["AliveTeam"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/AliveTeam/alive_reversing"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

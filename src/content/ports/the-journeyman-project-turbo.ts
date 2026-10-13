@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const TheJourneymanProjectTurbo: Port = {
+  schema: "port",
+  id: "the-journeyman-project-turbo",
+  title: "The Journeyman Project Turbo!",
+  game: "The Journeyman Project Turbo!",
+  developers: ["disinvite"],
+  publisher: "Unknown",
+  originalYear: 1994,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/disinvite/jman-decomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

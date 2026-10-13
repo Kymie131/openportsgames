@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const DuckGame: Port = {
+  schema: "port",
+  id: "duck-game",
+  title: "Duck Game",
+  game: "Duck Game",
+  developers: ["TheFlyingFoool"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/TheFlyingFoool/DuckGameRebuilt"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

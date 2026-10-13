@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const DanceCentral3: Port = {
+  schema: "port",
+  id: "dance-central-3",
+  title: "Dance Central 3",
+  game: "Dance Central 3",
+  developers: ["rjkiv"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "music",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/rjkiv/dc3-decomp"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

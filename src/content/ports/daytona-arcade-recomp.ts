@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const DaytonaArcadeRecomp: Port = {
+  schema: "port",
+  id: "daytona-arcade-recomp",
+  title: "Daytona Arcade Recomp",
+  game: "Daytona Arcade Recomp",
+  developers: ["alphanu1"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/alphanu1/daytona-arcade-recomp"],
+  license: { spdx: "BSD-3-Clause" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Arcade",
+};

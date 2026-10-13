@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const TheSims2: Port = {
+  schema: "port",
+  id: "the-sims-2",
+  title: "The Sims 2",
+  game: "The Sims 2",
+  developers: ["natebag"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/natebag/Sims2DECOMP"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

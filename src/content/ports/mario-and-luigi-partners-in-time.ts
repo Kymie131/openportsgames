@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const MarioAndLuigiPartnersInTime: Port = {
+  schema: "port",
+  id: "mario-and-luigi-partners-in-time",
+  title: "Mario & Luigi - Partners in Time",
+  game: "Mario & Luigi - Partners in Time",
+  developers: ["Rainchus"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Rainchus/PartnersInTime-Decomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

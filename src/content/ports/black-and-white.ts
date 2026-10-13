@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const BlackAndWhite: Port = {
+  schema: "port",
+  id: "black-and-white",
+  title: "Black and White",
+  game: "Black and White",
+  developers: ["openblack"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/openblack/bw1-decomp"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

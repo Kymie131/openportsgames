@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const War1: Port = {
+  schema: "port",
+  id: "war1",
+  title: "War1",
+  game: "war1",
+  developers: ["acoto87"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "reimplementation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/acoto87/war1"],
+  license: { spdx: "Zlib" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

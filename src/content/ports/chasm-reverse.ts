@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ChasmReverse: Port = {
+  schema: "port",
+  id: "chasm-reverse",
+  title: "Chasm-Reverse",
+  game: "Chasm-Reverse",
+  developers: ["Panzerschrek"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Panzerschrek/Chasm-Reverse"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

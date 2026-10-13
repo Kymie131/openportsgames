@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const Runescape2003: Port = {
+  schema: "port",
+  id: "runescape-2003",
+  title: "Runescape (2003)",
+  game: "Runescape (2003)",
+  developers: ["2003scape"],
+  publisher: "Unknown",
+  originalYear: 2003,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/2003scape/rsc-c"],
+  license: { spdx: "AGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

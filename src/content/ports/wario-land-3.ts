@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const WarioLand3: Port = {
+  schema: "port",
+  id: "wario-land-3",
+  title: "Wario Land 3",
+  game: "Wario Land 3",
+  developers: ["ElectroDeoxys"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ElectroDeoxys/warioland3"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

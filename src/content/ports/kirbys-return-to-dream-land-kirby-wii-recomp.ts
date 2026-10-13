@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const KirbysReturnToDreamLandKirbyWiiRecomp: Port = {
+  schema: "port",
+  id: "kirbys-return-to-dream-land-kirby-wii-recomp",
+  title: "Kirby's Return to Dream Land (Kirby Wii Recomp)",
+  game: "Kirby's Return to Dream Land (Kirby Wii Recomp)",
+  developers: ["ExpansionPak"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ExpansionPak/ModernGekko"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "GameCube",
+};

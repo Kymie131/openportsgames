@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const LegoCreatorKnightsKingdom: Port = {
+  schema: "port",
+  id: "lego-creator-knights-kingdom",
+  title: "Lego Creator Knights Kingdom",
+  game: "Lego Creator Knights Kingdom",
+  developers: ["DavidGrice"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/DavidGrice/knightskingdom"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

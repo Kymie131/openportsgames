@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const WiiSports: Port = {
+  schema: "port",
+  id: "wii-sports",
+  title: "Wii Sports",
+  game: "Wii Sports",
+  developers: ["doldecomp"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/doldecomp/ogws"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Wii",
+};

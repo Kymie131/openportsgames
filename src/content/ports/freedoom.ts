@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const Freedoom: Port = {
+  schema: "port",
+  id: "freedoom",
+  title: "Freedoom",
+  game: "Freedoom",
+  developers: ["freedoom"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/freedoom/freedoom"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

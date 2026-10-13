@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const WariowareIncMegaMicrogames: Port = {
+  schema: "port",
+  id: "warioware-inc-mega-microgames",
+  title: "WarioWare, Inc.: Mega Microgames!",
+  game: "WarioWare, Inc.: Mega Microgames!",
+  developers: ["ShaffySwitcher"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ShaffySwitcher/wariowareinc"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Game Boy Advance",
+};

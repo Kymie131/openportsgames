@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const TheOregonTrailWindows95: Port = {
+  schema: "port",
+  id: "the-oregon-trail-windows-95",
+  title: "The Oregon Trail (Windows 95)",
+  game: "The Oregon Trail (Windows 95)",
+  developers: ["emoluvjd2"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/emoluvjd2/oregontrail-win32-decomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

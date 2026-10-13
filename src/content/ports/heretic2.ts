@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const Heretic2: Port = {
+  schema: "port",
+  id: "heretic2",
+  title: "Heretic2",
+  game: "heretic2",
+  developers: ["0lvin"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/0lvin/heretic2"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

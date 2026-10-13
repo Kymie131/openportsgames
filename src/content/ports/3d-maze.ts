@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const _3dMaze: Port = {
+  schema: "port",
+  id: "3d-maze",
+  title: "3D Maze",
+  game: "3D Maze",
+  developers: ["x86matthew"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/x86matthew/Playable3DMaze"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

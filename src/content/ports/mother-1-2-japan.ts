@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const Mother12Japan: Port = {
+  schema: "port",
+  id: "mother-1-2-japan",
+  title: "Mother 1+2 (Japan)",
+  game: "Mother 1+2 (Japan)",
+  developers: ["Normmatt"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Normmatt/m12"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

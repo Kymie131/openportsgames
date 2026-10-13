@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const Parabellum: Port = {
+  schema: "port",
+  id: "parabellum",
+  title: "Parabellum",
+  game: "parabellum",
+  developers: ["andreapavoni"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/andreapavoni/parabellum"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

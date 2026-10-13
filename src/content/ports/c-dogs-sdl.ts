@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const CDogsSdl: Port = {
+  schema: "port",
+  id: "c-dogs-sdl",
+  title: "C-Dogs SDL",
+  game: "C-Dogs SDL",
+  developers: ["cxong"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/cxong/cdogs-sdl"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

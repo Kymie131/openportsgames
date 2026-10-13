@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const Jfsw: Port = {
+  schema: "port",
+  id: "jfsw",
+  title: "Jfsw",
+  game: "jfsw",
+  developers: ["jonof"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/jonof/jfsw"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

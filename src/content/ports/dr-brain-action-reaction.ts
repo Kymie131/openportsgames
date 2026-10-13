@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const DrBrainActionReaction: Port = {
+  schema: "port",
+  id: "dr-brain-action-reaction",
+  title: "Dr. Brain Action Reaction",
+  game: "Dr. Brain Action Reaction",
+  developers: ["SirHenricus"],
+  publisher: "Unknown",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/SirHenricus/DrBrainActionReaction_PackageDecomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

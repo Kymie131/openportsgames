@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const TheSpongebobSquarepantsMovie: Port = {
+  schema: "port",
+  id: "the-spongebob-squarepants-movie",
+  title: "The SpongeBob SquarePants Movie",
+  game: "The SpongeBob SquarePants Movie",
+  developers: ["bfbbdecomp"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/bfbbdecomp/tssm"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

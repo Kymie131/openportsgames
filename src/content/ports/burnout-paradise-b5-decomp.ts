@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const BurnoutParadiseB5Decomp: Port = {
+  schema: "port",
+  id: "burnout-paradise-b5-decomp",
+  title: "Burnout Paradise (b5-decomp)",
+  game: "Burnout Paradise (b5-decomp)",
+  developers: ["BurnoutDecomp"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/BurnoutDecomp/b5-decomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

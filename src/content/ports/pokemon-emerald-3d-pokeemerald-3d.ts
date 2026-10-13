@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const PokemonEmerald3dPokeemerald3d: Port = {
+  schema: "port",
+  id: "pokemon-emerald-3d-pokeemerald-3d",
+  title: "Pokemon Emerald 3D (pokeemerald-3d)",
+  game: "Pokemon Emerald 3D (pokeemerald-3d)",
+  developers: ["tripplyons"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/tripplyons/pokeemerald-3d"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

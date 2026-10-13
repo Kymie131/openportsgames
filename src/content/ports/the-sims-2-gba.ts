@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const TheSims2Gba: Port = {
+  schema: "port",
+  id: "the-sims-2-gba",
+  title: "The Sims 2 (GBA)",
+  game: "The Sims 2 (GBA)",
+  developers: ["SimsAdvanceRet"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/SimsAdvanceRet/S2GBADecomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Game Boy Advance",
+};

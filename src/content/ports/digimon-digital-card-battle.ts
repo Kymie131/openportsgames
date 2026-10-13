@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const DigimonDigitalCardBattle: Port = {
+  schema: "port",
+  id: "digimon-digital-card-battle",
+  title: "Digimon: Digital Card Battle",
+  game: "Digimon: Digital Card Battle",
+  developers: ["ReGame-Labs"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ReGame-Labs/dcb_decomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};

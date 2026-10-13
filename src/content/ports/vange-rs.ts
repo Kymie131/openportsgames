@@ -1,0 +1,23 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const VangeRs: Port = {
+  schema: "port",
+  id: "vange-rs",
+  title: "Vange-rs",
+  game: "Vange-rs",
+  developers: ["kvark"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/kvark/vange-rs"],
+  license: { spdx: "Apache-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Other",
+};
