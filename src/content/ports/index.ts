@@ -438,6 +438,12 @@ import { breathOfTheWildDecomp } from "./breath-of-the-wild-decomp";
 import { kingdomHeartsChainOfMemoriesDecomp } from "./kingdom-hearts-chain-of-memories-decomp";
 import { legendOfManaDecomp } from "./legend-of-mana-decomp";
 import { parasiteEveIiDecomp } from "./parasite-eve-ii-decomp";
+import { breathOfFireIiiRecomp } from "./breath-of-fire-iii-recomp";
+import { kingdomHearts3582DaysRecomp } from "./kingdom-hearts-358-2-days-recomp";
+import { marioStrikersChargedRecomp } from "./mario-strikers-charged-recomp";
+import { carmageddonRecomp } from "./carmageddon-recomp";
+import { segaRallyChampionshipRecomp } from "./sega-rally-championship-recomp";
+import { banjoTooieRecomp } from "./banjo-tooie-recomp";
 import { dragonQuestViiiRecomp } from "./dragon-quest-viii-recomp";
 import { residentEvilOutbreakRecomp } from "./resident-evil-outbreak-recomp";
 import { newSuperMarioBrosWiiRecomp } from "./new-super-mario-bros-wii-recomp";
@@ -1038,6 +1044,12 @@ export const portCases: Port[] = [
   kingdomHeartsChainOfMemoriesDecomp,
   legendOfManaDecomp,
   parasiteEveIiDecomp,
+  breathOfFireIiiRecomp,
+  kingdomHearts3582DaysRecomp,
+  marioStrikersChargedRecomp,
+  carmageddonRecomp,
+  segaRallyChampionshipRecomp,
+  banjoTooieRecomp,
   dragonQuestViiiRecomp,
   residentEvilOutbreakRecomp,
   forzaHorizon2Recomp,
