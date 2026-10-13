@@ -464,6 +464,10 @@ import { lsdDecomp } from "./lsd-decomp";
 import { warioland4 } from "./warioland4";
 import { parappa2 } from "./parappa2";
 import { ffccDecomp } from "./ffcc-decomp";
+import { sonicAdvance2Decomp } from "./sonic-advance-2-decomp";
+import { bfbbDecomp } from "./bfbb-decomp";
+import { dxhrDecomp } from "./dxhr-decomp";
+import { rustyBlazer } from "./rusty-blazer";
 import { dragonQuestViiiRecomp } from "./dragon-quest-viii-recomp";
 import { residentEvilOutbreakRecomp } from "./resident-evil-outbreak-recomp";
 import { newSuperMarioBrosWiiRecomp } from "./new-super-mario-bros-wii-recomp";
@@ -1090,6 +1094,10 @@ export const portCases: Port[] = [
   warioland4,
   parappa2,
   ffccDecomp,
+  sonicAdvance2Decomp,
+  bfbbDecomp,
+  dxhrDecomp,
+  rustyBlazer,
   dragonQuestViiiRecomp,
   residentEvilOutbreakRecomp,
   forzaHorizon2Recomp,
