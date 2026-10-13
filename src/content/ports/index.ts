@@ -474,6 +474,12 @@ import { mlss } from "./mlss";
 import { pwaa1 } from "./pwaa1";
 import { godHandDecomp } from "./god-hand-decomp";
 import { mkdd } from "./mkdd";
+import { nfsug } from "./nfsug";
+import { psychonautsDecomp } from "./psychonauts-decomp";
+import { sotc } from "./sotc";
+import { spyro3Decomp } from "./spyro-3-decomp";
+import { ssxTrickyDecomp } from "./ssx-tricky-decomp";
+import { rogueSquadronDecomp } from "./rogue-squadron-decomp";
 import { dragonQuestViiiRecomp } from "./dragon-quest-viii-recomp";
 import { residentEvilOutbreakRecomp } from "./resident-evil-outbreak-recomp";
 import { newSuperMarioBrosWiiRecomp } from "./new-super-mario-bros-wii-recomp";
@@ -1110,6 +1116,12 @@ export const portCases: Port[] = [
   pwaa1,
   godHandDecomp,
   mkdd,
+  nfsug,
+  psychonautsDecomp,
+  sotc,
+  spyro3Decomp,
+  ssxTrickyDecomp,
+  rogueSquadronDecomp,
   dragonQuestViiiRecomp,
   residentEvilOutbreakRecomp,
   forzaHorizon2Recomp,
