@@ -413,6 +413,11 @@ import { asurasWrathRecomp } from "./asuras-wrath-recomp";
 import { jetSetRadioFutureRecomp } from "./jet-set-radio-future-recomp";
 import { yakuzaDeadSoulsRecomp } from "./yakuza-dead-souls-recomp";
 import { perfectDarkZeroRecomp } from "./perfect-dark-zero-recomp";
+import { crashTwinsanityRecomp } from "./crash-twinsanity-recomp";
+import { crashMindOverMutantRecomp } from "./crash-mind-over-mutant-recomp";
+import { kirby64Recomp } from "./kirby-64-recomp";
+import { mother3Recomp } from "./mother-3-recomp";
+import { superBombermanRecomp } from "./super-bomberman-recomp";
 import { dragonQuestViiiRecomp } from "./dragon-quest-viii-recomp";
 import { residentEvilOutbreakRecomp } from "./resident-evil-outbreak-recomp";
 import { newSuperMarioBrosWiiRecomp } from "./new-super-mario-bros-wii-recomp";
@@ -988,6 +993,11 @@ export const portCases: Port[] = [
   jetSetRadioFutureRecomp,
   yakuzaDeadSoulsRecomp,
   perfectDarkZeroRecomp,
+  crashTwinsanityRecomp,
+  crashMindOverMutantRecomp,
+  kirby64Recomp,
+  mother3Recomp,
+  superBombermanRecomp,
   dragonQuestViiiRecomp,
   residentEvilOutbreakRecomp,
   forzaHorizon2Recomp,
