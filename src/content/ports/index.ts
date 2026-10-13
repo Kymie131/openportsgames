@@ -407,6 +407,12 @@ import { forzaMotorsport4Recomp } from "./forza-motorsport-4-recomp";
 import { forzaHorizon2Recomp } from "./forza-horizon-2-recomp";
 import { godOfWar3Recomp } from "./god-of-war-3-recomp";
 import { icoPc } from "./ico-pc";
+import { earthwormJimHdRecomp } from "./earthworm-jim-hd-recomp";
+import { kingKongRecomp } from "./king-kong-recomp";
+import { asurasWrathRecomp } from "./asuras-wrath-recomp";
+import { jetSetRadioFutureRecomp } from "./jet-set-radio-future-recomp";
+import { yakuzaDeadSoulsRecomp } from "./yakuza-dead-souls-recomp";
+import { perfectDarkZeroRecomp } from "./perfect-dark-zero-recomp";
 import { dragonQuestViiiRecomp } from "./dragon-quest-viii-recomp";
 import { residentEvilOutbreakRecomp } from "./resident-evil-outbreak-recomp";
 import { newSuperMarioBrosWiiRecomp } from "./new-super-mario-bros-wii-recomp";
@@ -976,6 +982,12 @@ export const portCases: Port[] = [
   godOfWarRecomp,
   godOfWar3Recomp,
   icoPc,
+  earthwormJimHdRecomp,
+  kingKongRecomp,
+  asurasWrathRecomp,
+  jetSetRadioFutureRecomp,
+  yakuzaDeadSoulsRecomp,
+  perfectDarkZeroRecomp,
   dragonQuestViiiRecomp,
   residentEvilOutbreakRecomp,
   forzaHorizon2Recomp,
