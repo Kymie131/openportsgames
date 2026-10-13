@@ -444,6 +444,11 @@ import { marioStrikersChargedRecomp } from "./mario-strikers-charged-recomp";
 import { carmageddonRecomp } from "./carmageddon-recomp";
 import { segaRallyChampionshipRecomp } from "./sega-rally-championship-recomp";
 import { banjoTooieRecomp } from "./banjo-tooie-recomp";
+import { warzone2100 } from "./warzone-2100";
+import { vvvvvv } from "./vvvvvv";
+import { openblack } from "./openblack";
+import { rigelEngine } from "./rigel-engine";
+import { openq4 } from "./openq4";
 import { dragonQuestViiiRecomp } from "./dragon-quest-viii-recomp";
 import { residentEvilOutbreakRecomp } from "./resident-evil-outbreak-recomp";
 import { newSuperMarioBrosWiiRecomp } from "./new-super-mario-bros-wii-recomp";
@@ -1050,6 +1055,11 @@ export const portCases: Port[] = [
   carmageddonRecomp,
   segaRallyChampionshipRecomp,
   banjoTooieRecomp,
+  warzone2100,
+  vvvvvv,
+  openblack,
+  rigelEngine,
+  openq4,
   dragonQuestViiiRecomp,
   residentEvilOutbreakRecomp,
   forzaHorizon2Recomp,
