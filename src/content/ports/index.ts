@@ -459,6 +459,11 @@ import { zeldaClassic } from "./zelda-classic";
 import { ualbion } from "./ualbion";
 import { lba2Remake } from "./lba2-remake";
 import { twinE } from "./twin-e";
+import { rec98 } from "./rec98";
+import { lsdDecomp } from "./lsd-decomp";
+import { warioland4 } from "./warioland4";
+import { parappa2 } from "./parappa2";
+import { ffccDecomp } from "./ffcc-decomp";
 import { dragonQuestViiiRecomp } from "./dragon-quest-viii-recomp";
 import { residentEvilOutbreakRecomp } from "./resident-evil-outbreak-recomp";
 import { newSuperMarioBrosWiiRecomp } from "./new-super-mario-bros-wii-recomp";
@@ -1080,6 +1085,11 @@ export const portCases: Port[] = [
   ualbion,
   lba2Remake,
   twinE,
+  rec98,
+  lsdDecomp,
+  warioland4,
+  parappa2,
+  ffccDecomp,
   dragonQuestViiiRecomp,
   residentEvilOutbreakRecomp,
   forzaHorizon2Recomp,
