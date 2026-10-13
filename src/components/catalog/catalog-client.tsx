@@ -114,7 +114,8 @@ export function CatalogClient({
   const router = useRouter();
   const searchParams = useSearchParams();
 
-  const state = parseCatalogState(searchParams);
+  const searchKey = searchParams.toString();
+  const state = useMemo(() => parseCatalogState(new URLSearchParams(searchKey)), [searchKey]);
   const [draft, setDraft] = useState(state.query);
   const [drawerOpen, setDrawerOpen] = useState(false);
   const index = useMemo(() => buildIndex(ports), [ports]);
@@ -128,10 +129,10 @@ export function CatalogClient({
   // Sync draft when the URL query changes externally (navigation, back/forward).
   // useState alone freezes the first-render value, so client-side navigation can
   // start with a stale query that filters the list to a single port.
-  const syncedQuery = useRef(state.query);
+  const pushedQuery = useRef(state.query);
   useEffect(() => {
-    if (syncedQuery.current === state.query) return;
-    syncedQuery.current = state.query;
+    if (state.query === pushedQuery.current) return;
+    pushedQuery.current = state.query;
     setDraft(state.query);
   }, [state.query]);
 
@@ -146,6 +147,7 @@ export function CatalogClient({
 
   const clear = () => {
     clearPersisted();
+    pushedQuery.current = "";
     setDraft("");
     void router.replace(pathname, { scroll: false });
   };
@@ -183,6 +185,7 @@ export function CatalogClient({
   useEffect(() => {
     if (draft === state.query) return;
     const id = window.setTimeout(() => {
+      pushedQuery.current = draft;
       const next = { ...state, query: draft, sort: defaultCatalogState.sort, page: 1 };
       const params = catalogStateToParams(next);
       void router.replace(params.size ? `${pathname}?${params.toString()}` : pathname, {
