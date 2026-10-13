@@ -1155,6 +1155,14 @@ import { ShiningForce } from "./shining-force";
 import { TheSims2Gba } from "./the-sims-2-gba";
 import { TheSimsBustinOut } from "./the-sims-bustin-out";
 import { TheUrbzSimsInTheCity } from "./the-urbz-sims-in-the-city";
+import { nxeDashboard9199 } from "./nxe-dashboard-9199";
+import { wiiMenu } from "./wii-menu";
+import { forecastChannel } from "./forecast-channel";
+import { mwcc } from "./mwcc";
+import { psyQDecomp } from "./psy-q-decomp";
+import { hagi } from "./hagi";
+import { ootGcDecomp } from "./oot-gc-decomp";
+import { awesomeOpenSourceGames } from "./awesome-open-source-games";
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -2312,4 +2320,12 @@ export const portCases: Port[] = [
   TheSims2Gba,
   TheSimsBustinOut,
   TheUrbzSimsInTheCity,
+  nxeDashboard9199,
+  wiiMenu,
+  forecastChannel,
+  mwcc,
+  psyQDecomp,
+  hagi,
+  ootGcDecomp,
+  awesomeOpenSourceGames,
 ];

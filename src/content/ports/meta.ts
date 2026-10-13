@@ -1157,4 +1157,12 @@ export const originalSystemById: Record<Port["id"], string> = {
   "the-sims-2-gba": "Game Boy Advance",
   "the-sims-bustin-out": "Game Boy Advance",
   "the-urbz-sims-in-the-city": "Game Boy Advance",
+  "nxe-dashboard-9199": "Xbox 360",
+  "wii-menu": "Wii",
+  "forecast-channel": "Wii",
+  mwcc: "GameCube",
+  "psy-q-decomp": "PlayStation",
+  hagi: "GameCube",
+  "oot-gc-decomp": "GameCube",
+  "awesome-open-source-games": "Other",
 };
