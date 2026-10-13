@@ -20,4 +20,9 @@ export const MvpBaseball2005: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "GameCube",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/97/MVP_Baseball_2005_Coverart.png",
+    alt: "MVP Baseball 2005 (cover)",
+    credit: "Wikipedia",
+  },
 };

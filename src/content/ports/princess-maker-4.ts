@@ -20,4 +20,9 @@ export const PrincessMaker4: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/1e/Princess_Maker_PC98_cover.jpg",
+    alt: "Princess Maker 4 (cover)",
+    credit: "Wikipedia",
+  },
 };

@@ -20,4 +20,9 @@ export const PizzaTower: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/60/Pizza_Tower_Promo_Art.jpg",
+    alt: "Pizza Tower (cover)",
+    credit: "Wikipedia",
+  },
 };

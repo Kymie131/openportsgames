@@ -20,4 +20,9 @@ export const LegoBatmanTheVideogame: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e3/Lego_batman_cover.jpg",
+    alt: "LEGO Batman: The Videogame (cover)",
+    credit: "Wikipedia",
+  },
 };

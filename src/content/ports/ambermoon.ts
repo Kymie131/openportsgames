@@ -20,4 +20,9 @@ export const Ambermoon: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/91/Ambermoon_German_Cover_art.jpg",
+    alt: "Ambermoon (cover)",
+    credit: "Wikipedia",
+  },
 };

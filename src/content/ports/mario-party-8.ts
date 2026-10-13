@@ -20,4 +20,9 @@ export const MarioParty8: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b2/Mario_Party_8_NA_Box_Art.png",
+    alt: "Mario Party 8 (cover)",
+    credit: "Wikipedia",
+  },
 };

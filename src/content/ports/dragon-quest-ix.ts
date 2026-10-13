@@ -20,4 +20,9 @@ export const DragonQuestIx: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo DS",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/bb/DragonQuestIXBoxArtJP.png",
+    alt: "Dragon Quest IX (cover)",
+    credit: "Wikipedia",
+  },
 };

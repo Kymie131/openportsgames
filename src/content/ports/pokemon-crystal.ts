@@ -20,4 +20,9 @@ export const PokemonCrystal: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/84/Pok%C3%A9mon_Crystal_box_art.png",
+    alt: "Pokemon Crystal (cover)",
+    credit: "Wikipedia",
+  },
 };

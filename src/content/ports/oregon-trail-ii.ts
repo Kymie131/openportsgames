@@ -20,4 +20,9 @@ export const OregonTrailIi: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/77/Oregon_Trail_II_cover.jpg",
+    alt: "Oregon Trail II (cover)",
+    credit: "Wikipedia",
+  },
 };

@@ -20,4 +20,9 @@ export const KirbysPinballLand: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/ee/Kirbys-Pinball-Land-Gameboy-Boxart.png",
+    alt: "Kirby's Pinball Land (cover)",
+    credit: "Wikipedia",
+  },
 };

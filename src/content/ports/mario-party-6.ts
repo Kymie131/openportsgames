@@ -20,4 +20,9 @@ export const MarioParty6: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c6/Mario_Party_6_Coverart.png",
+    alt: "Mario Party 6 (cover)",
+    credit: "Wikipedia",
+  },
 };

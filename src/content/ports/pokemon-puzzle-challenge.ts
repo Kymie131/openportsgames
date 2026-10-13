@@ -20,4 +20,9 @@ export const PokemonPuzzleChallenge: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f5/Pok%C3%A9mon_Puzzle_Challenge_Coverart.png",
+    alt: "Pokemon Puzzle Challenge (cover)",
+    credit: "Wikipedia",
+  },
 };

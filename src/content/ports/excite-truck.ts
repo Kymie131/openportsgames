@@ -20,4 +20,9 @@ export const ExciteTruck: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b9/Excite_Truck_Coverart.png",
+    alt: "Excite Truck (cover)",
+    credit: "Wikipedia",
+  },
 };

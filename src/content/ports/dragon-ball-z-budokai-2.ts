@@ -20,4 +20,9 @@ export const DragonBallZBudokai2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/07/Dragon_Ball_Z_Budokai_2_cover.jpg",
+    alt: "Dragon Ball Z: Budokai 2 (cover)",
+    credit: "Wikipedia",
+  },
 };

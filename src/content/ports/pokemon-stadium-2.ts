@@ -20,4 +20,9 @@ export const PokemonStadium2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/ba/Pok%C3%A9mon_Stadium_2_Coverart.png",
+    alt: "Pokemon Stadium 2 (cover)",
+    credit: "Wikipedia",
+  },
 };

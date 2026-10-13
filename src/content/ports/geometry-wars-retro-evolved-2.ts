@@ -20,4 +20,9 @@ export const GeometryWarsRetroEvolved2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/4b/Geometrywars2cover.jpg",
+    alt: "Geometry Wars: Retro Evolved 2 (cover)",
+    credit: "Wikipedia",
+  },
 };

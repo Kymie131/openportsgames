@@ -20,4 +20,9 @@ export const ChibiRobo: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e4/Chibi-Robo%21_Photo_Finder_Coverart.jpg",
+    alt: "Chibi-Robo! (cover)",
+    credit: "Wikipedia",
+  },
 };

@@ -20,4 +20,9 @@ export const BumpysArcadeFantasy: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Arcade",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0d/Bumpy_Cover_Art.jpg",
+    alt: "Bumpy's Arcade Fantasy (cover)",
+    credit: "Wikipedia",
+  },
 };

@@ -20,4 +20,9 @@ export const GeorgeOfTheJungleAndTheSearchForTheSecret: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "PlayStation 2",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d2/George_of_the_Jungle_and_the_Search_for_the_Secret_cover_art.png",
+    alt: "George of the Jungle and the Search for the Secret (cover)",
+    credit: "Wikipedia",
+  },
 };

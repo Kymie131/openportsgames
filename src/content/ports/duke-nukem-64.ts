@@ -20,4 +20,9 @@ export const DukeNukem64: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/61/Duke_Nukem_3D_Coverart.png",
+    alt: "Duke Nukem 64 (cover)",
+    credit: "Wikipedia",
+  },
 };

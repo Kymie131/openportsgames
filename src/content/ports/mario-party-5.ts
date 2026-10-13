@@ -20,4 +20,9 @@ export const MarioParty5: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d0/Mario_Party_5_Box_Art.JPG",
+    alt: "Mario Party 5 (cover)",
+    credit: "Wikipedia",
+  },
 };

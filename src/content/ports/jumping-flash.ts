@@ -20,4 +20,9 @@ export const JumpingFlash: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "PlayStation",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/2e/Jumping_Flash_art.png",
+    alt: "Jumping Flash (cover)",
+    credit: "Wikipedia",
+  },
 };

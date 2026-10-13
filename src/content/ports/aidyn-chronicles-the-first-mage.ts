@@ -20,4 +20,9 @@ export const AidynChroniclesTheFirstMage: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo 64",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/62/Aidyn_Chronicles-_The_First_Mage_game_cover.jpg",
+    alt: "Aidyn Chronicles: The First Mage (cover)",
+    credit: "Wikipedia",
+  },
 };

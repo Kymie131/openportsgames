@@ -20,4 +20,9 @@ export const EarthboundBeginnings: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c4/EarthBound_Beginnings_cover_art.png",
+    alt: "Earthbound Beginnings (cover)",
+    credit: "Wikipedia",
+  },
 };

@@ -20,4 +20,9 @@ export const ManiacMansion: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5e/Maniac_Mansion_artwork.jpg",
+    alt: "Maniac Mansion (cover)",
+    credit: "Wikipedia",
+  },
 };

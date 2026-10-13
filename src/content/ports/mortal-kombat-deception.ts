@@ -20,4 +20,9 @@ export const MortalKombatDeception: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "GameCube",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/29/MK_Deception_Cover_Artwork.jpeg",
+    alt: "Mortal Kombat: Deception (cover)",
+    credit: "Wikipedia",
+  },
 };

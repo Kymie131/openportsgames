@@ -20,4 +20,9 @@ export const OutpostKalokiX: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/70/OutpostkalokiXcover.jpg",
+    alt: "Outpost Kaloki X (cover)",
+    credit: "Wikipedia",
+  },
 };

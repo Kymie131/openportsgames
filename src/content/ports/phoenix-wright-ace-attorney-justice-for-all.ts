@@ -20,4 +20,9 @@ export const PhoenixWrightAceAttorneyJusticeForAll: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e6/Justice_for_All_cover_art.png",
+    alt: "Phoenix Wright: Ace Attorney – Justice for All (cover)",
+    credit: "Wikipedia",
+  },
 };

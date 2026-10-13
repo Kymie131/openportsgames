@@ -20,4 +20,9 @@ export const DanceCentral3: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/fe/Dance_Central_3_cover.png",
+    alt: "Dance Central 3 (cover)",
+    credit: "Wikipedia",
+  },
 };

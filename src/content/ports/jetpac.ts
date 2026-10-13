@@ -20,4 +20,9 @@ export const Jetpac: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/ad/Jetpac_Coverart.png",
+    alt: "Jetpac (cover)",
+    credit: "Wikipedia",
+  },
 };

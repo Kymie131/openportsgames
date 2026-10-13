@@ -20,4 +20,9 @@ export const MegamiIbunrokuPersona: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "PlayStation",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/04/Revelations_Persona_cover.jpg",
+    alt: "Megami Ibunroku Persona (cover)",
+    credit: "Wikipedia",
+  },
 };

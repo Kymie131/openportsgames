@@ -20,4 +20,9 @@ export const NewPlayControlPikmin: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/13/Pikmin_cover_art.jpg",
+    alt: "New Play Control! Pikmin (cover)",
+    credit: "Wikipedia",
+  },
 };

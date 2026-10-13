@@ -20,4 +20,9 @@ export const DogsLife: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/80/Dog%27s_Life_Coverart.png",
+    alt: "Dog's Life (cover)",
+    credit: "Wikipedia",
+  },
 };

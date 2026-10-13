@@ -20,4 +20,9 @@ export const GoldenSunTheBrokenSeal: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Game Boy Advance",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f8/Golden_Sun_video_game_box_art.jpg",
+    alt: "Golden Sun: The Broken Seal (cover)",
+    credit: "Wikipedia",
+  },
 };

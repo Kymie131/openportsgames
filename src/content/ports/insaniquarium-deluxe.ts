@@ -20,4 +20,9 @@ export const InsaniquariumDeluxe: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/95/Insaniquarium_cover_art.jpg",
+    alt: "Insaniquarium Deluxe (cover)",
+    credit: "Wikipedia",
+  },
 };

@@ -20,4 +20,9 @@ export const GauntletDarkLegacy: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "GameCube",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e4/Gauntlet_Dark_Legacy_Coverart.png",
+    alt: "Gauntlet Dark Legacy (cover)",
+    credit: "Wikipedia",
+  },
 };

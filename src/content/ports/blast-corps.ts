@@ -20,4 +20,9 @@ export const BlastCorps: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/83/Blast_Corps_Coverart.png",
+    alt: "Blast Corps (cover)",
+    credit: "Wikipedia",
+  },
 };

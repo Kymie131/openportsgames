@@ -20,4 +20,9 @@ export const DrakanTheAncientsGates: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "PlayStation 2",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/16/Drakan_-_The_Ancients%27_Gates_Coverart.png",
+    alt: "Drakan: The Ancients' Gates (cover)",
+    credit: "Wikipedia",
+  },
 };

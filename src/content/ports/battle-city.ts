@@ -20,4 +20,9 @@ export const BattleCity: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo Entertainment System",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/48/Battle_City_NES_cover.jpg",
+    alt: "Battle City (cover)",
+    credit: "Wikipedia",
+  },
 };

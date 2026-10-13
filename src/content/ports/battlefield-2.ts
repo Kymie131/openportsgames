@@ -20,4 +20,9 @@ export const Battlefield2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/62/Battlefield2Cover.jpg",
+    alt: "Battlefield 2 (cover)",
+    credit: "Wikipedia",
+  },
 };

@@ -20,4 +20,9 @@ export const NhlLegacyEdition: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/81/NHL_16_cover.jpg",
+    alt: "NHL: Legacy Edition (cover)",
+    credit: "Wikipedia",
+  },
 };

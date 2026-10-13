@@ -20,4 +20,9 @@ export const DigimonRumbleArena: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "PlayStation",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/56/Digimon_Rumble_Arena_cover.png",
+    alt: "Digimon Rumble Arena (cover)",
+    credit: "Wikipedia",
+  },
 };

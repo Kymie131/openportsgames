@@ -20,4 +20,9 @@ export const Creatures2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/90/Creatures_2_1998_Windows_Cover_Art.jpg",
+    alt: "Creatures 2 (cover)",
+    credit: "Wikipedia",
+  },
 };

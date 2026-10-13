@@ -20,4 +20,9 @@ export const NeedForSpeedCarbonCodepdbh: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Xbox 360",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a4/Need_for_Speed_Carbon_Game_Cover.jpg",
+    alt: "Need for Speed Carbon (cover)",
+    credit: "Wikipedia",
+  },
 };

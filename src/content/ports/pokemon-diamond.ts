@@ -20,4 +20,9 @@ export const PokemonDiamond: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/2e/PokemonDiamondPearlBoxArt.jpg",
+    alt: "Pokemon Diamond (cover)",
+    credit: "Wikipedia",
+  },
 };

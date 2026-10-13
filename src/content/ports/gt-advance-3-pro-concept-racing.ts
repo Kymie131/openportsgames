@@ -20,4 +20,9 @@ export const GtAdvance3ProConceptRacing: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/58/GT3_Cover_Art.JPG",
+    alt: "GT Advance 3: Pro Concept Racing (cover)",
+    credit: "Wikipedia",
+  },
 };

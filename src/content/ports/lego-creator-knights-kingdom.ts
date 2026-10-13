@@ -20,4 +20,9 @@ export const LegoCreatorKnightsKingdom: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/ef/Lego_Creator_Knights_Kingdom_Cover.jpg",
+    alt: "Lego Creator Knights Kingdom (cover)",
+    credit: "Wikipedia",
+  },
 };

@@ -20,4 +20,9 @@ export const HarryPotterAndTheHalfBloodPrince: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b5/Harry_Potter_and_the_Half-Blood_Prince_cover.png",
+    alt: "Harry Potter And The Half Blood Prince (cover)",
+    credit: "Wikipedia",
+  },
 };

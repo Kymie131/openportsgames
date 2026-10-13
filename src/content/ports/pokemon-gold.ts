@@ -20,4 +20,9 @@ export const PokemonGold: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/4c/Pok%C3%A9mon_box_art_-_Gold_Version.png",
+    alt: "Pokemon Gold (cover)",
+    credit: "Wikipedia",
+  },
 };

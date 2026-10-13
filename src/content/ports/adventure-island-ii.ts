@@ -20,4 +20,9 @@ export const AdventureIslandIi: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo Entertainment System",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/2c/Adventure_Island_2_box_art.jpg",
+    alt: "Adventure Island II (cover)",
+    credit: "Wikipedia",
+  },
 };

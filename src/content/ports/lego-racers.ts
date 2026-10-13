@@ -20,4 +20,9 @@ export const LegoRacers: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/91/Lego_Racers_cover.png",
+    alt: "Lego Racers (cover)",
+    credit: "Wikipedia",
+  },
 };

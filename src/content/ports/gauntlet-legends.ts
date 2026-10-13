@@ -20,4 +20,9 @@ export const GauntletLegends: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo 64",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6f/Gauntlet_Legends_Coverart.png",
+    alt: "Gauntlet Legends (cover)",
+    credit: "Wikipedia",
+  },
 };

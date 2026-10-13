@@ -20,4 +20,9 @@ export const Chulip: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "PlayStation 2",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6e/Coverchulip.jpg",
+    alt: "Chulip (cover)",
+    credit: "Wikipedia",
+  },
 };

@@ -20,4 +20,9 @@ export const KirbyNightmareInDreamLand: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/ae/Kirby%27s_Adventure_Coverart.png",
+    alt: "Kirby: Nightmare in Dream Land (cover)",
+    credit: "Wikipedia",
+  },
 };

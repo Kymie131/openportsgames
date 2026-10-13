@@ -20,4 +20,9 @@ export const JurassicParkOperationGenesis: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Sega Mega Drive / Genesis",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0b/Jurassic_Park_Operation_Genesis_Cover.jpg",
+    alt: "Jurassic Park: Operation Genesis (cover)",
+    credit: "Wikipedia",
+  },
 };

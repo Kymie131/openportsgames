@@ -20,4 +20,9 @@ export const MonsterHunter4Ultimate: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo 3DS",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/39/Monster-Hunter_4Boxart.png",
+    alt: "Monster Hunter 4 Ultimate (cover)",
+    credit: "Wikipedia",
+  },
 };

@@ -20,4 +20,9 @@ export const NascarHeat2002: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Game Boy Advance",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6c/NASCAR_Heat_2002_Coverart.png",
+    alt: "NASCAR Heat 2002 (cover)",
+    credit: "Wikipedia",
+  },
 };

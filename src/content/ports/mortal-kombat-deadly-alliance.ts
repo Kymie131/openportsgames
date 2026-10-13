@@ -20,4 +20,9 @@ export const MortalKombatDeadlyAlliance: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/32/MK_Deadly_Alliance_Cover_Art.png",
+    alt: "Mortal Kombat: Deadly Alliance (cover)",
+    credit: "Wikipedia",
+  },
 };

@@ -20,4 +20,9 @@ export const Arkanoid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/f/f5/Arkanoid_concept_art.jpg",
+    alt: "Arkanoid (cover)",
+    credit: "Wikipedia",
+  },
 };
