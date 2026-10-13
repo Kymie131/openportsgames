@@ -20,4 +20,9 @@ export const Splatoon: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Wii U",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Splatoon_monochrome_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    alt: "Splatoon (cover)",
+    credit: "Wikipedia",
+  },
 };

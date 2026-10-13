@@ -20,4 +20,9 @@ export const WcwNitro: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "PlayStation",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/72/WCW_Monday_Nitro_1995-1999_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    alt: "WCW Nitro (cover)",
+    credit: "Wikipedia",
+  },
 };

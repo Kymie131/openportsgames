@@ -20,4 +20,9 @@ export const AncientEmpires: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/8/81/Modern_Empires.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    alt: "Ancient Empires (cover)",
+    credit: "Wikipedia",
+  },
 };

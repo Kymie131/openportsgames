@@ -20,4 +20,9 @@ export const WorldOfGoo: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/c/c4/World_of_Goo_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    alt: "World of Goo (cover)",
+    credit: "Wikipedia",
+  },
 };

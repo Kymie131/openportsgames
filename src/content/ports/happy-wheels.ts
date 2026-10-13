@@ -20,4 +20,9 @@ export const HappyWheels: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Happy_Wheels_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    alt: "Happy Wheels (cover)",
+    credit: "Wikipedia",
+  },
 };

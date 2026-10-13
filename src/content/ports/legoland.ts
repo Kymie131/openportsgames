@@ -20,4 +20,9 @@ export const Legoland: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/bd/Legoland_Parks_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    alt: "Legoland (cover)",
+    credit: "Wikipedia",
+  },
 };

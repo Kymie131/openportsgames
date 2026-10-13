@@ -20,4 +20,9 @@ export const Scummvm: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/0/06/The_ScummVM_GUI_with_the_%22modern_remastered%22_skin.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    alt: "ScummVM (cover)",
+    credit: "Wikipedia",
+  },
 };

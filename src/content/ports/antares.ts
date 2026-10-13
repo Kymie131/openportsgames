@@ -20,4 +20,9 @@ export const Antares: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Scorpius_constellation_map.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    alt: "Antares (cover)",
+    credit: "Wikipedia",
+  },
 };

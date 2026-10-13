@@ -20,4 +20,9 @@ export const Megaglest: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/0/08/MegaGlest_Main_Menu.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    alt: "MegaGlest (cover)",
+    credit: "Wikipedia",
+  },
 };

@@ -20,4 +20,9 @@ export const RhythmHeaven: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo DS",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Rhythm_Heaven_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    alt: "Rhythm Heaven (cover)",
+    credit: "Wikipedia",
+  },
 };

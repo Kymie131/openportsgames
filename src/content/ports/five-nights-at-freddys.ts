@@ -20,4 +20,9 @@ export const FiveNightsAtFreddys: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Five_Nights_at_Freddy%27s.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    alt: "Five Nights At Freddy's (cover)",
+    credit: "Wikipedia",
+  },
 };

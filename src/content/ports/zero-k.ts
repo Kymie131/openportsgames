@@ -20,4 +20,9 @@ export const ZeroK: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Zero-K_Cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    alt: "Zero-K (cover)",
+    credit: "Wikipedia",
+  },
 };

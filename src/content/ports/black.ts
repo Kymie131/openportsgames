@@ -20,4 +20,9 @@ export const Black: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/f/fc/Tutankhamun_jackal_%28blacked%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+    alt: "Black (cover)",
+    credit: "Wikipedia",
+  },
 };
