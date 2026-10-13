@@ -433,6 +433,11 @@ import { silentHill3Recomp } from "./silent-hill-3-recomp";
 import { rockBand3Recomp } from "./rock-band-3-recomp";
 import { dragonBallZBurstLimitRecomp } from "./dragon-ball-z-burst-limit-recomp";
 import { fightNightChampionRecomp } from "./fight-night-champion-recomp";
+import { residentEvilCodeVeronicaDecomp } from "./resident-evil-code-veronica-decomp";
+import { breathOfTheWildDecomp } from "./breath-of-the-wild-decomp";
+import { kingdomHeartsChainOfMemoriesDecomp } from "./kingdom-hearts-chain-of-memories-decomp";
+import { legendOfManaDecomp } from "./legend-of-mana-decomp";
+import { parasiteEveIiDecomp } from "./parasite-eve-ii-decomp";
 import { dragonQuestViiiRecomp } from "./dragon-quest-viii-recomp";
 import { residentEvilOutbreakRecomp } from "./resident-evil-outbreak-recomp";
 import { newSuperMarioBrosWiiRecomp } from "./new-super-mario-bros-wii-recomp";
@@ -1028,6 +1033,11 @@ export const portCases: Port[] = [
   rockBand3Recomp,
   dragonBallZBurstLimitRecomp,
   fightNightChampionRecomp,
+  residentEvilCodeVeronicaDecomp,
+  breathOfTheWildDecomp,
+  kingdomHeartsChainOfMemoriesDecomp,
+  legendOfManaDecomp,
+  parasiteEveIiDecomp,
   dragonQuestViiiRecomp,
   residentEvilOutbreakRecomp,
   forzaHorizon2Recomp,
