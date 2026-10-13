@@ -14,6 +14,7 @@ const eslintConfig = defineConfig([
     "next-env.d.ts",
     // Standalone CommonJS tooling, not app code.
     "scripts/**",
+    ".agents/**",
   ]),
 ]);
 
