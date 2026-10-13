@@ -404,6 +404,9 @@ import { deadlyPremonitionRecomp } from "./deadly-premonition-recomp";
 import { dragonBallZBudokaiHd } from "./dragon-ball-z-budokai-hd";
 import { dragonBallZBudokai3Hd } from "./dragon-ball-z-budokai-3-hd";
 import { forzaMotorsport4Recomp } from "./forza-motorsport-4-recomp";
+import { forzaHorizon2Recomp } from "./forza-horizon-2-recomp";
+import { godOfWar3Recomp } from "./god-of-war-3-recomp";
+import { newSuperMarioBrosWiiRecomp } from "./new-super-mario-bros-wii-recomp";
 import { exitRecomp } from "./exit-recomp";
 import { ufcUndisputed3Recomp } from "./ufc-undisputed-3-recomp";
 import { guitarHeroWarriorsOfRockRecomp } from "./guitar-hero-warriors-of-rock-recomp";
@@ -968,6 +971,9 @@ export const portCases: Port[] = [
   fatalFrameRecomp,
   streetFighterIii3rdStrike3sx,
   godOfWarRecomp,
+  godOfWar3Recomp,
+  forzaHorizon2Recomp,
+  newSuperMarioBrosWiiRecomp,
   pgr4Recomp,
   segaSuperstarsTennisRematch,
   tonyHawksProject8Recomp,

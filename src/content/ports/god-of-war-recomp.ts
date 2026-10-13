@@ -20,9 +20,9 @@ export const godOfWarRecomp: Port = {
   verified: false,
   originalSystem: "PlayStation 2",
   notes:
-    "Static recompilation of God of War (PlayStation 2) with ReXGlue. It requires the original game.",
+    "Static recompilation of God of War (PlayStation 2, NTSC-U SCUS-97399) with PS2Recomp. In development; it needs your own copy of the game.",
   notesEs:
-    "Recompilación estática de God of War (PlayStation 2) con ReXGlue. Requiere el juego original.",
+    "Recompilación estática de God of War (PlayStation 2, NTSC-U SCUS-97399) con PS2Recomp. En desarrollo; necesita tu propia copia del juego.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b5/God_of_War_%282005%29_cover.jpg",
     alt: "God of War (cover)",
