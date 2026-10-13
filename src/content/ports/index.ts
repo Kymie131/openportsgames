@@ -449,6 +449,11 @@ import { vvvvvv } from "./vvvvvv";
 import { openblack } from "./openblack";
 import { rigelEngine } from "./rigel-engine";
 import { openq4 } from "./openq4";
+import { riiablo } from "./riiablo";
+import { openkeeper } from "./openkeeper";
+import { freeSO } from "./free-so";
+import { openCrystalCaves } from "./open-crystal-caves";
+import { omnispeak } from "./omnispeak";
 import { dragonQuestViiiRecomp } from "./dragon-quest-viii-recomp";
 import { residentEvilOutbreakRecomp } from "./resident-evil-outbreak-recomp";
 import { newSuperMarioBrosWiiRecomp } from "./new-super-mario-bros-wii-recomp";
@@ -1060,6 +1065,11 @@ export const portCases: Port[] = [
   openblack,
   rigelEngine,
   openq4,
+  riiablo,
+  openkeeper,
+  freeSO,
+  openCrystalCaves,
+  omnispeak,
   dragonQuestViiiRecomp,
   residentEvilOutbreakRecomp,
   forzaHorizon2Recomp,
