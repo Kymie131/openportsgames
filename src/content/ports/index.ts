@@ -429,6 +429,10 @@ import { legoDimensionsRecomp } from "./lego-dimensions-recomp";
 import { mercenariesRecomp } from "./mercenaries-recomp";
 import { nbaJamOnFireRecomp } from "./nba-jam-on-fire-recomp";
 import { guitarHeroIiiRecomp } from "./guitar-hero-iii-recomp";
+import { silentHill3Recomp } from "./silent-hill-3-recomp";
+import { rockBand3Recomp } from "./rock-band-3-recomp";
+import { dragonBallZBurstLimitRecomp } from "./dragon-ball-z-burst-limit-recomp";
+import { fightNightChampionRecomp } from "./fight-night-champion-recomp";
 import { dragonQuestViiiRecomp } from "./dragon-quest-viii-recomp";
 import { residentEvilOutbreakRecomp } from "./resident-evil-outbreak-recomp";
 import { newSuperMarioBrosWiiRecomp } from "./new-super-mario-bros-wii-recomp";
@@ -1020,6 +1024,10 @@ export const portCases: Port[] = [
   mercenariesRecomp,
   nbaJamOnFireRecomp,
   guitarHeroIiiRecomp,
+  silentHill3Recomp,
+  rockBand3Recomp,
+  dragonBallZBurstLimitRecomp,
+  fightNightChampionRecomp,
   dragonQuestViiiRecomp,
   residentEvilOutbreakRecomp,
   forzaHorizon2Recomp,
