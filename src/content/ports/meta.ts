@@ -452,7 +452,7 @@ export const originalSystemById: Record<Port["id"], string> = {
   ualbion: "MS-DOS",
   "lba2-remake": "Microsoft Windows",
   "twin-e": "MS-DOS",
-  rec98: "Other",
+  rec98: "PC-98",
   "lsd-decomp": "PlayStation",
   warioland4: "Game Boy Advance",
   parappa2: "PlayStation 2",
