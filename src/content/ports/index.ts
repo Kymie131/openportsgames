@@ -423,6 +423,12 @@ import { soulcaliburIvRecomp } from "./soulcalibur-iv-recomp";
 import { marioGolf64Recomp } from "./mario-golf-64-recomp";
 import { marioParty3Recomp } from "./mario-party-3-recomp";
 import { marioKart8DeluxeRecomp } from "./mario-kart-8-deluxe-recomp";
+import { sonicAdvanceRecomp } from "./sonic-advance-recomp";
+import { doraemon64Recomp } from "./doraemon-64-recomp";
+import { legoDimensionsRecomp } from "./lego-dimensions-recomp";
+import { mercenariesRecomp } from "./mercenaries-recomp";
+import { nbaJamOnFireRecomp } from "./nba-jam-on-fire-recomp";
+import { guitarHeroIiiRecomp } from "./guitar-hero-iii-recomp";
 import { dragonQuestViiiRecomp } from "./dragon-quest-viii-recomp";
 import { residentEvilOutbreakRecomp } from "./resident-evil-outbreak-recomp";
 import { newSuperMarioBrosWiiRecomp } from "./new-super-mario-bros-wii-recomp";
@@ -1008,6 +1014,12 @@ export const portCases: Port[] = [
   marioGolf64Recomp,
   marioParty3Recomp,
   marioKart8DeluxeRecomp,
+  sonicAdvanceRecomp,
+  doraemon64Recomp,
+  legoDimensionsRecomp,
+  mercenariesRecomp,
+  nbaJamOnFireRecomp,
+  guitarHeroIiiRecomp,
   dragonQuestViiiRecomp,
   residentEvilOutbreakRecomp,
   forzaHorizon2Recomp,
