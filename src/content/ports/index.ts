@@ -184,6 +184,22 @@ import { animalCrossingPcPort } from "./animal-crossing-pc-port";
 import { metroidPrimePort } from "./metroid-prime-port";
 import { haloCeUniversal } from "./halo-ce-universal";
 import { haloCeWeb } from "./halo-ce-web";
+import { dishsoap } from "./dishsoap";
+import { infiniteMario64Ever } from "./infinite-mario-64-ever";
+import { nelumbo } from "./nelumbo";
+import { scdaXbeRecomp } from "./scda-xbe-recomp";
+import { wolfensteinRpgRe } from "./wolfenstein-rpg-re";
+import { legendOfDoom3ds } from "./legend-of-doom-3ds";
+import { marioKart643ds } from "./mario-kart-64-3ds";
+import { zeldaAlttp3ds } from "./zelda-alttp-3ds";
+import { zeldaTmc3ds } from "./zelda-tmc-3ds";
+import { ootPsp } from "./oot-psp";
+import { sf64Psp } from "./sf64-psp";
+import { ctrHighOctane } from "./ctr-high-octane";
+import { lighthouseVita } from "./lighthouse-vita";
+import { unleashedrecompNx } from "./unleashedrecomp-nx";
+import { strikers } from "./strikers";
+import { ghostship } from "./ghostship";
 import { shadowOfTheColossusPc } from "./shadow-of-the-colossus-pc";
 import { bloodborneAndroid } from "./bloodborne-android";
 import { crashTeamRacingNitroFueled } from "./crash-team-racing-nitro-fueled";
@@ -1394,6 +1410,22 @@ export const portCases: Port[] = [
   metroidPrimePort,
   haloCeUniversal,
   haloCeWeb,
+  dishsoap,
+  infiniteMario64Ever,
+  nelumbo,
+  scdaXbeRecomp,
+  wolfensteinRpgRe,
+  legendOfDoom3ds,
+  marioKart643ds,
+  zeldaAlttp3ds,
+  zeldaTmc3ds,
+  ootPsp,
+  sf64Psp,
+  ctrHighOctane,
+  lighthouseVita,
+  unleashedrecompNx,
+  strikers,
+  ghostship,
   shadowOfTheColossusPc,
   bloodborneAndroid,
   crashTeamRacingNitroFueled,

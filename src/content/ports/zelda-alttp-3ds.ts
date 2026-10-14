@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const zeldaAlttp3ds: Port = {
+  schema: "port",
+  id: "zelda-alttp-3ds",
+  title: "A Link to the Past (3DS)",
+  game: "The Legend of Zelda: A Link to the Past",
+  developers: ["EstebanPdN"],
+  publisher: "Nintendo",
+  originalYear: 1991,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/EstebanPdN/zelda-alttp-3ds"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Super Nintendo",
+  notes: "Nintendo 3DS dual-screen port of A Link to the Past, based on the zelda3 reimplementation. Requires your own ROM.",
+  notesEs: "Port a doble pantalla de Nintendo 3DS de A Link to the Past, basado en la reimplementación zelda3. Requiere tu propia ROM.",
+  cover: {
+    src: "https://cdn2.steamgriddb.com/icon_thumb/6bdb3b5d567a727c51d69ea8bf4accde.png",
+    alt: "The Legend of Zelda: A Link to the Past (cover)",
+    credit: "SteamGridDB",
+  },
+};

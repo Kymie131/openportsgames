@@ -53,3 +53,6 @@ AGENTS.md
 *.tsbuildinfo
 next-env.d.ts
 dev-server.log
+
+# Generated catalog export (scripts/import)
+ports-all.json
