@@ -15,18 +15,34 @@ import type { SessionEnv } from "./session";
 export const RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
 export const RATE_LIMIT_MAX_WRITES = 30;
 
-export function rateLimit(): MiddlewareHandler<SessionEnv> {
+export type RateLimitOptions = {
+  /** Maximum writes allowed within the window. Defaults to 30. */
+  limit?: number;
+  /** Window length in milliseconds. Defaults to ten minutes. */
+  windowMs?: number;
+  /**
+   * Namespace for the counter key. Endpoints that share a user but need an
+   * independent budget (e.g. comments vs. reports) must pass distinct scopes.
+   */
+  scope?: string;
+};
+
+export function rateLimit(options: RateLimitOptions = {}): MiddlewareHandler<SessionEnv> {
+  const windowMs = options.windowMs ?? RATE_LIMIT_WINDOW_MS;
+  const limit = options.limit ?? RATE_LIMIT_MAX_WRITES;
+
   return async (c, next) => {
     const user = c.get("user");
     if (!user) return c.json({ error: "unauthorized" }, 401);
 
+    const key = options.scope ? `${options.scope}:${user.id}` : user.id;
     const now = Date.now();
-    const windowStart = Math.floor(now / RATE_LIMIT_WINDOW_MS) * RATE_LIMIT_WINDOW_MS;
+    const windowStart = Math.floor(now / windowMs) * windowMs;
     const db = drizzle(c.env.DB, { schema });
 
     const rows = await db
       .insert(schema.rateLimit)
-      .values({ key: user.id, windowStart, count: 1 })
+      .values({ key, windowStart, count: 1 })
       .onConflictDoUpdate({
         target: schema.rateLimit.key,
         set: {
@@ -37,7 +53,7 @@ export function rateLimit(): MiddlewareHandler<SessionEnv> {
       .returning({ count: schema.rateLimit.count });
 
     const count = rows[0]?.count ?? 0;
-    if (count > RATE_LIMIT_MAX_WRITES) {
+    if (count > limit) {
       return c.json({ error: "rate_limited" }, 429);
     }
 

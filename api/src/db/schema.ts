@@ -6,6 +6,7 @@ import {
   primaryKey,
   sqliteTable,
   text,
+  unique,
 } from "drizzle-orm/sqlite-core";
 
 export const user = sqliteTable("user", {
@@ -116,6 +117,51 @@ export const rating = sqliteTable(
   ],
 );
 
+export const comment = sqliteTable(
+  "comment",
+  {
+    id: text("id").primaryKey(),
+    userId: text("user_id")
+      .notNull()
+      .references(() => user.id, { onDelete: "cascade" }),
+    portId: text("port_id").notNull(),
+    body: text("body").notNull(),
+    status: text("status", { enum: ["visible", "hidden"] }).default("visible").notNull(),
+    createdAt: integer("created_at", { mode: "timestamp_ms" })
+      .default(sql`(cast(unixepoch('subsecond') * 1000 as integer))`)
+      .notNull(),
+  },
+  (table) => [
+    index("comment_portId_status_createdAt_idx").on(
+      table.portId,
+      table.status,
+      table.createdAt,
+    ),
+    check("comment_status_check", sql`${table.status} in ('visible', 'hidden')`),
+  ],
+);
+
+export const report = sqliteTable(
+  "report",
+  {
+    id: text("id").primaryKey(),
+    commentId: text("comment_id")
+      .notNull()
+      .references(() => comment.id, { onDelete: "cascade" }),
+    userId: text("user_id")
+      .notNull()
+      .references(() => user.id, { onDelete: "cascade" }),
+    reason: text("reason").notNull(),
+    createdAt: integer("created_at", { mode: "timestamp_ms" })
+      .default(sql`(cast(unixepoch('subsecond') * 1000 as integer))`)
+      .notNull(),
+  },
+  (table) => [
+    unique("report_commentId_userId_unique").on(table.commentId, table.userId),
+    index("report_createdAt_idx").on(table.createdAt),
+  ],
+);
+
 export const rateLimit = sqliteTable("rate_limit", {
   key: text("key").primaryKey(),
   windowStart: integer("window_start").notNull(),
@@ -125,6 +171,8 @@ export const rateLimit = sqliteTable("rate_limit", {
 export const userRelations = relations(user, ({ many }) => ({
   sessions: many(session),
   accounts: many(account),
+  comments: many(comment),
+  reports: many(report),
 }));
 
 export const sessionRelations = relations(session, ({ one }) => ({
@@ -137,6 +185,25 @@ export const sessionRelations = relations(session, ({ one }) => ({
 export const accountRelations = relations(account, ({ one }) => ({
   user: one(user, {
     fields: [account.userId],
+    references: [user.id],
+  }),
+}));
+
+export const commentRelations = relations(comment, ({ one, many }) => ({
+  user: one(user, {
+    fields: [comment.userId],
+    references: [user.id],
+  }),
+  reports: many(report),
+}));
+
+export const reportRelations = relations(report, ({ one }) => ({
+  comment: one(comment, {
+    fields: [report.commentId],
+    references: [comment.id],
+  }),
+  user: one(user, {
+    fields: [report.userId],
     references: [user.id],
   }),
 }));
