@@ -14,11 +14,11 @@ export const pinyonShift: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: "0.5.0", date: "2026-10-11" },
+  release: { version: "0.5.1", date: "2026-10-12" },
   sources: ["https://github.com/arcanite24/pinyon-shift"],
   license: { spdx: "BSD-3-Clause" },
   verified: true,
-  verifiedAt: "2026-10-03",
+  verifiedAt: "2026-10-14",
   originalSystem: "Xbox 360",
   notes:
     "Playable preview of a static recompilation of Forza Horizon (Xbox 360) for PC, distributed as versioned releases. The port code is public (BSD-3-Clause), but the game itself is proprietary: you must supply your own Xbox 360 copy, and the repository ships no game content. Several similarly named forks exist; this is the original repository.",

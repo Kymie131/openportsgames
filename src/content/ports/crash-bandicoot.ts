@@ -13,11 +13,11 @@ export const crashBandicoot: Port = {
   openSource: true,
   platforms: ["windows", "linux", "android"],
   status: "stable",
-  release: { version: "2.1", date: "2026-10-07" },
+  release: { version: "2.2", date: "2026-10-14" },
   sources: ["https://github.com/Matteo842/CrashBandicoot-Launcher"],
   license: { spdx: "MIT" },
   verified: true,
-  verifiedAt: "2026-09-22",
+  verifiedAt: "2026-10-14",
   originalSystem: "PlayStation",
   features: [
     "Native widescreen support with retail-parity entity culling",
