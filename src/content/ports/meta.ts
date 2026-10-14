@@ -227,6 +227,7 @@ export const originalSystemById: Record<Port["id"], string> = {
   "metroid-prime-port": "GameCube",
   "halo-ce-universal": "Xbox",
   "halo-ce-web": "Xbox",
+  "shadow-of-the-colossus-pc": "PlayStation 4",
   "bloodborne-android": "PlayStation 4",
   "crash-team-racing-nitro-fueled": "PlayStation 4",
   "lost-odyssey-recomp": "Xbox 360",
