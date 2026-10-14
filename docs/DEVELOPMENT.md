@@ -91,12 +91,24 @@ Build-time env vars:
 | Variable                         | Purpose                                         | Default                 |
 | -------------------------------- | ----------------------------------------------- | ----------------------- |
 | `NEXT_PUBLIC_SITE_URL`           | Canonical URLs, OG, sitemap (no trailing slash) | `http://localhost:3000` |
-| `NEXT_PUBLIC_BASE_PATH`          | Subfolder prefix for GitHub Pages               | unset                   |
+| `NEXT_PUBLIC_BASE_PATH`          | Subfolder prefix (subfolder hosting only)       | unset                   |
 | `NEXT_PUBLIC_SUPPORT_PAYPAL_URL` | Donation link on /support                       | unset                   |
 
-Static export works on any host. GitHub Pages builds via
-`.github/workflows/pages.yml`. `public/_headers` applies security headers on
-Cloudflare Pages and Vercel; GitHub Pages ignores custom headers.
+## Deploy (Cloudflare Pages)
+
+The site is served from the domain root on Cloudflare Pages. The project is
+connected to Pages with Git integration: every push to `main` triggers a build.
+
+- Build command: `npm run build`
+- Build output directory: `out`
+- Environment variables (Production and Preview):
+  - `NODE_VERSION` = `22`
+  - `NEXT_PUBLIC_SITE_URL` = `https://openportsgames.com`
+  - `NEXT_PUBLIC_SUPPORT_PAYPAL_URL` = the PayPal hosted button URL
+  - Leave `NEXT_PUBLIC_BASE_PATH` **unset** (root deployment)
+
+`public/_headers` applies security headers on Cloudflare Pages. Plain file
+servers and GitHub Pages ignore custom headers.
 
 Local preview and audit:
 

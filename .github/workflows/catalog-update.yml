@@ -36,7 +36,7 @@ jobs:
         # NEXT_PUBLIC_SITE_URL is a stub here; it is only used for metadata.
         run: npm run build
         env:
-          NEXT_PUBLIC_SITE_URL: https://openportsgames.example
+          NEXT_PUBLIC_SITE_URL: https://openportsgames.com
 
       - name: Compare latest releases
         id: check

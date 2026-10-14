@@ -1,6 +1,6 @@
 # OpenPortsGames
 
-**Sitio: <https://kymie131.github.io/openportsgames/>**
+**Sitio: <https://openportsgames.com/>**
 
 Catálogo de ports nativos de videojuegos: decompilaciones, recompilaciones y
 reimplementaciones, para PC y Android. Cada entrada enlaza a la fuente oficial

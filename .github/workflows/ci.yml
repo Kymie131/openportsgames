@@ -135,7 +135,7 @@ jobs:
       - name: Build static export
         run: npm run build
         env:
-          NEXT_PUBLIC_SITE_URL: https://openportsgames.example
+          NEXT_PUBLIC_SITE_URL: https://openportsgames.com
 
       - name: Upload export
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
