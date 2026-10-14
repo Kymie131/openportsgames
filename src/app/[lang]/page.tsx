@@ -12,7 +12,9 @@ import {
 } from "@/lib/ports";
 import type { Port } from "@/lib/ports/schema";
 import { pageMeta } from "@/lib/seo";
-import { SITE_DESCRIPTION, SITE_NAME, getSiteUrl } from "@/lib/site";
+import { SITE_NAME, getSiteUrl } from "@/lib/site";
+import { dictionaries } from "@/lib/i18n/dictionaries";
+import { asLocale } from "@/lib/i18n/locales";
 
 const FEATURED_SLUGS = [
   "ship-of-harkinian",
@@ -23,9 +25,24 @@ const FEATURED_SLUGS = [
   "triaevum",
 ];
 
-export const metadata: Metadata = pageMeta({ description: SITE_DESCRIPTION, path: "/" });
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+  const locale = asLocale(lang);
+  return pageMeta({
+    locale,
+    description: dictionaries[locale].brand.tagline,
+    path: "/",
+  });
+}
 
-export default function Home() {
+export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
+  const { lang } = await params;
+  const locale = asLocale(lang);
+  const description = dictionaries[locale].brand.tagline;
   const testStatuses = getTestStatuses();
   const withMeta = (port: Port) => ({
     port,
@@ -46,9 +63,9 @@ export default function Home() {
           "@context": "https://schema.org",
           "@type": "WebSite",
           name: SITE_NAME,
-          description: SITE_DESCRIPTION,
+          description,
           url: getSiteUrl(),
-          inLanguage: ["en", "es"],
+          inLanguage: [locale],
         }}
       />
       <HomeContent

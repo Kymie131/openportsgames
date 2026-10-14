@@ -7,12 +7,22 @@ import { originalSystemById } from "@/content/ports/meta";
 import { githubStars } from "@/content/github-stars";
 import { pageMeta } from "@/lib/seo";
 import { dictionaries } from "@/lib/i18n/dictionaries";
+import { asLocale } from "@/lib/i18n/locales";
 
-export const metadata: Metadata = pageMeta({
-  title: "Catalog",
-  description: dictionaries.en.catalog.subtitle,
-  path: "/ports",
-});
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+  const locale = asLocale(lang);
+  return pageMeta({
+    locale,
+    title: dictionaries[locale].catalog.title,
+    description: dictionaries[locale].catalog.subtitle,
+    path: "/ports",
+  });
+}
 
 export default function PortsPage() {
   return (

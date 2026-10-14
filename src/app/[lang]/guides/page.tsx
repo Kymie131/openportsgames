@@ -4,12 +4,22 @@ import { GuideContent } from "@/components/docs/guide-content";
 import { Container } from "@/components/layout/container";
 import { pageMeta } from "@/lib/seo";
 import { dictionaries } from "@/lib/i18n/dictionaries";
+import { asLocale } from "@/lib/i18n/locales";
 
-export const metadata: Metadata = pageMeta({
-  title: "Guides",
-  description: dictionaries.en.guides.subtitle,
-  path: "/guides",
-});
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+  const locale = asLocale(lang);
+  return pageMeta({
+    locale,
+    title: dictionaries[locale].guides.title,
+    description: dictionaries[locale].guides.subtitle,
+    path: "/guides",
+  });
+}
 
 export default function GuidesRoute() {
   return (

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { OG_IMAGE, summarize } from "@/lib/seo";
+import { OG_IMAGE, pageMeta, summarize } from "@/lib/seo";
 import { absoluteUrl } from "@/lib/site";
 
 describe("meta description summarizer", () => {
@@ -38,5 +38,23 @@ describe("Open Graph image metadata", () => {
     expect(OG_IMAGE.url).toBe(absoluteUrl("/opengraph-image.png"));
     expect(OG_IMAGE.width).toBe(1200);
     expect(OG_IMAGE.height).toBe(630);
+  });
+});
+
+describe("per-locale page metadata", () => {
+  it("sets a self-referential canonical and reciprocal es/en hreflang", () => {
+    const meta = pageMeta({ locale: "es", title: "Guías", description: "desc", path: "/guides" });
+    expect(meta.alternates?.canonical).toBe(absoluteUrl("/es/guides/"));
+    const languages = meta.alternates?.languages as Record<string, string>;
+    expect(languages.en).toBe(absoluteUrl("/en/guides/"));
+    expect(languages.es).toBe(absoluteUrl("/es/guides/"));
+    expect(languages["x-default"]).toBe(absoluteUrl("/en/guides/"));
+    expect(meta.openGraph?.locale).toBe("es_ES");
+  });
+
+  it("uses the English canonical and en_US locale for the en route", () => {
+    const meta = pageMeta({ locale: "en", description: "desc", path: "/ports/sm64ex" });
+    expect(meta.alternates?.canonical).toBe(absoluteUrl("/en/ports/sm64ex/"));
+    expect(meta.openGraph?.locale).toBe("en_US");
   });
 });

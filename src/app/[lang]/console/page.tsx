@@ -6,13 +6,23 @@ import { getPorts, getTestStatuses } from "@/lib/ports";
 import { originalSystemById } from "@/content/ports/meta";
 import { pageMeta } from "@/lib/seo";
 import { dictionaries } from "@/lib/i18n/dictionaries";
+import { asLocale } from "@/lib/i18n/locales";
 import type { Port } from "@/lib/ports/schema";
 
-export const metadata: Metadata = pageMeta({
-  title: "Console homebrew",
-  description: dictionaries.en.console.subtitle,
-  path: "/console",
-});
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+  const locale = asLocale(lang);
+  return pageMeta({
+    locale,
+    title: dictionaries[locale].console.title,
+    description: dictionaries[locale].console.subtitle,
+    path: "/console",
+  });
+}
 
 export default function ConsolePage() {
   const portsByPlatform: Record<string, Port[]> = {};

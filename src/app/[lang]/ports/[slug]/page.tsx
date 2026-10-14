@@ -5,6 +5,7 @@ import { PortDetail } from "@/components/ports/port-detail";
 import { TakedownNotice } from "@/components/ports/takedown-notice";
 import { JsonLd } from "@/components/seo/json-ld";
 import { pageMeta, summarize } from "@/lib/seo";
+import { asLocale } from "@/lib/i18n/locales";
 import {
   getPort,
   getPortIdSet,
@@ -23,9 +24,10 @@ export function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ lang: string; slug: string }>;
 }): Promise<Metadata> {
-  const { slug } = await params;
+  const { lang, slug } = await params;
+  const locale = asLocale(lang);
   const port = getPort(slug);
   if (!port) {
     const takedown = getTakedownPort(slug);
@@ -36,6 +38,7 @@ export async function generateMetadata({
     };
   }
   return pageMeta({
+    locale,
     title: port.title,
     description: summarize(
       port.notes ?? `${port.game} native port for ${port.platforms.join(", ")}.`,
@@ -44,8 +47,13 @@ export async function generateMetadata({
   });
 }
 
-export default async function PortPage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
+export default async function PortPage({
+  params,
+}: {
+  params: Promise<{ lang: string; slug: string }>;
+}) {
+  const { lang, slug } = await params;
+  const locale = asLocale(lang);
   const port = getPort(slug);
   if (!port) {
     const takedown = getTakedownPort(slug);
@@ -84,7 +92,7 @@ export default async function PortPage({ params }: { params: Promise<{ slug: str
                   ? "macOS"
                   : "Android",
           ),
-          inLanguage: ["en", "es"],
+          inLanguage: [locale],
         }}
       />
       <section className="py-8">

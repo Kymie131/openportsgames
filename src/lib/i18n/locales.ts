@@ -7,10 +7,16 @@ export function isLocale(value: string | null): value is Locale {
   return value === "en" || value === "es";
 }
 
-/** Prefixes an app-absolute path with the locale segment, keeping trailing slashes. */
+/** Narrows a route param to a supported locale, falling back to English. */
+export function asLocale(value: string): Locale {
+  return isLocale(value) ? value : "en";
+}
+
+/** Prefixes an app-absolute path with the locale segment. Always keeps a trailing slash. */
 export function localizePath(locale: Locale, path: string): string {
   const clean = path.startsWith("/") ? path : `/${path}`;
-  return `/${locale}${clean}`;
+  const withTrailing = clean.endsWith("/") ? clean : `${clean}/`;
+  return `/${locale}${withTrailing}`;
 }
 
 /** Removes a leading `/en` or `/es` segment from a pathname. */

@@ -6,12 +6,22 @@ import { getPorts } from "@/lib/ports";
 import { originalSystemById } from "@/content/ports/meta";
 import { pageMeta } from "@/lib/seo";
 import { dictionaries } from "@/lib/i18n/dictionaries";
+import { asLocale } from "@/lib/i18n/locales";
 
-export const metadata: Metadata = pageMeta({
-  title: "Emulators",
-  description: dictionaries.en.emulators.subtitle,
-  path: "/emulators",
-});
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+  const locale = asLocale(lang);
+  return pageMeta({
+    locale,
+    title: dictionaries[locale].emulators.title,
+    description: dictionaries[locale].emulators.subtitle,
+    path: "/emulators",
+  });
+}
 
 export default function EmulatorsPage() {
   const portsBySystem: Record<string, number> = {};

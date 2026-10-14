@@ -7,12 +7,24 @@ import { originalSystemById } from "@/content/ports/meta";
 import { githubStars } from "@/content/github-stars";
 import { pageMeta } from "@/lib/seo";
 import { dictionaries } from "@/lib/i18n/dictionaries";
+import { asLocale } from "@/lib/i18n/locales";
 
-export const metadata: Metadata = pageMeta({
-  title: "PC ports",
-  description: dictionaries.en.catalog.subtitlePc,
-  path: "/pc",
-});
+const TITLE = { en: "PC ports", es: "Ports para PC" } as const;
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+  const locale = asLocale(lang);
+  return pageMeta({
+    locale,
+    title: TITLE[locale],
+    description: dictionaries[locale].catalog.subtitlePc,
+    path: "/pc",
+  });
+}
 
 export default function PcPage() {
   return (

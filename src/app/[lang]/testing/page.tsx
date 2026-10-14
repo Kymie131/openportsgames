@@ -5,12 +5,22 @@ import { Container } from "@/components/layout/container";
 import { hardware } from "@/lib/ports";
 import { pageMeta } from "@/lib/seo";
 import { dictionaries } from "@/lib/i18n/dictionaries";
+import { asLocale } from "@/lib/i18n/locales";
 
-export const metadata: Metadata = pageMeta({
-  title: "Testing",
-  description: dictionaries.en.testing.subtitle,
-  path: "/testing",
-});
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+  const locale = asLocale(lang);
+  return pageMeta({
+    locale,
+    title: dictionaries[locale].testing.title,
+    description: dictionaries[locale].testing.subtitle,
+    path: "/testing",
+  });
+}
 
 export default function TestingRoute() {
   return (
