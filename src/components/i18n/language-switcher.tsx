@@ -1,15 +1,17 @@
 "use client";
 
-import { useContext } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useLocale, useT } from "@/lib/i18n/use-i18n";
-import { locales } from "@/lib/i18n/locales";
-import { LocaleContext } from "./locale-context";
+import { locales, localizePath, stripLocale } from "@/lib/i18n/locales";
 import { cn } from "@/lib/utils";
 
+/** Language picker: each option is a link to the same page in the other locale. */
 export function LanguageSwitcher({ className }: { className?: string }) {
   const current = useLocale();
   const t = useT();
-  const { setLocale } = useContext(LocaleContext);
+  const pathname = usePathname();
+  const rest = stripLocale(pathname);
 
   return (
     <div
@@ -18,11 +20,10 @@ export function LanguageSwitcher({ className }: { className?: string }) {
       aria-label={t.language.label}
     >
       {locales.map((locale) => (
-        <button
+        <Link
           key={locale}
-          type="button"
-          onClick={() => setLocale(locale)}
-          aria-pressed={locale === current}
+          href={localizePath(locale, rest)}
+          aria-current={locale === current ? "true" : undefined}
           lang={locale}
           className={cn(
             "h-8 rounded-md px-2.5 text-xs font-medium uppercase tracking-wide transition-colors duration-150",
@@ -32,7 +33,7 @@ export function LanguageSwitcher({ className }: { className?: string }) {
           )}
         >
           {locale}
-        </button>
+        </Link>
       ))}
     </div>
   );

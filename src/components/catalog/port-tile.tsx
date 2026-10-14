@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { LocalizedLink as Link } from "@/components/i18n/localized-link";
 import { ExternalLink } from "lucide-react";
 import type { Port } from "@/lib/ports/schema";
 import { GithubMark } from "@/components/platforms/github-mark";

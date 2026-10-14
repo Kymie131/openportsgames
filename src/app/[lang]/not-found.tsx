@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { LocalizedLink as Link } from "@/components/i18n/localized-link";
 import { useT } from "@/lib/i18n/use-i18n";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/layout/container";

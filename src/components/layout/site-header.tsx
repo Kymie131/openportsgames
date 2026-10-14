@@ -1,12 +1,13 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import Link from "next/link";
+import { LocalizedLink as Link } from "@/components/i18n/localized-link";
 import { usePathname, useRouter } from "next/navigation";
 import * as Dialog from "@radix-ui/react-dialog";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 import { ChevronDown, Menu, Search, X } from "lucide-react";
-import { useT } from "@/lib/i18n/use-i18n";
+import { useLocale, useT } from "@/lib/i18n/use-i18n";
+import { localizePath, stripLocale } from "@/lib/i18n/locales";
 import { SITE_NAME } from "@/lib/site";
 import { assetPath, cn } from "@/lib/utils";
 import { Container } from "./container";
@@ -39,8 +40,10 @@ function isActive(pathname: string, href: string): boolean {
 
 export function SiteHeader() {
   const t = useT();
+  const locale = useLocale();
   const pathname = usePathname();
   const router = useRouter();
+  const rest = stripLocale(pathname);
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [query, setQuery] = useState("");
@@ -72,12 +75,13 @@ export function SiteHeader() {
   const submitSearch = (event: React.FormEvent) => {
     event.preventDefault();
     const value = query.trim();
-    const base = pathname.startsWith("/emulators")
+    const base = rest.startsWith("/emulators")
       ? "/emulators"
-      : pathname.startsWith("/console")
+      : rest.startsWith("/console")
         ? "/console"
         : "/ports";
-    router.push(value ? `${base}?q=${encodeURIComponent(value)}` : base);
+    const target = localizePath(locale, base);
+    router.push(value ? `${target}?q=${encodeURIComponent(value)}` : target);
     setOpen(false);
   };
 
@@ -101,7 +105,7 @@ export function SiteHeader() {
 
           <nav aria-label={t.common.mainNav} className="hidden items-center gap-1 xl:flex">
             {NAV_ITEMS.map((item) => {
-              const active = isActive(pathname, item.href);
+              const active = isActive(rest, item.href);
               return (
                 <Link
                   key={item.href}
@@ -135,7 +139,7 @@ export function SiteHeader() {
                   className="z-50 min-w-40 rounded-md border border-border bg-background p-1 shadow-md"
                 >
                   {PROJECT_ITEMS.map((item) => {
-                    const active = isActive(pathname, item.href);
+                    const active = isActive(rest, item.href);
                     return (
                       <DropdownMenu.Item key={item.href} asChild className="outline-none">
                         <Link
@@ -239,7 +243,7 @@ export function SiteHeader() {
                   )}
                   <div className="flex flex-col gap-1">
                     {[...NAV_ITEMS, ...PROJECT_ITEMS].map((item) => {
-                      const active = isActive(pathname, item.href);
+                      const active = isActive(rest, item.href);
                       return (
                         <Link
                           key={item.href}

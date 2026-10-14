@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { LocalizedLink as Link } from "@/components/i18n/localized-link";
 import { ArrowLeft } from "lucide-react";
 import type { TakedownPort } from "@/lib/ports/schema";
 import { useT } from "@/lib/i18n/use-i18n";
