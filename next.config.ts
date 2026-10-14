@@ -13,6 +13,9 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
+  experimental: {
+    globalNotFound: true,
+  },
   ...(basePath && basePath.startsWith("/") ? { basePath } : {}),
 };
 

@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useRef } from "react";
-import Link from "next/link";
+import { LocalizedLink as Link } from "@/components/i18n/localized-link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { ArrowLeft, ArrowRight, ExternalLink, Layers, Search } from "lucide-react";
 import {
