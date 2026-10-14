@@ -4,13 +4,9 @@ import { alias } from "drizzle-orm/sqlite-core";
 import { and, desc, eq, lt, or, type SQL } from "drizzle-orm";
 
 import * as schema from "../db/schema";
-import {
-  decodeCursor,
-  encodeCursor,
-  parseLimit,
-  updateCommentStatusSchema,
-} from "../lib/comments";
+import { decodeCursor, encodeCursor, parseLimit, updateCommentStatusSchema } from "../lib/comments";
 import { requireAdmin, toPublicUser, type SessionEnv } from "../middleware/session";
+import { rateLimit } from "../middleware/ratelimit";
 
 export const admin = new Hono<SessionEnv>();
 
@@ -96,35 +92,42 @@ admin.get("/reports", async (c) => {
   }));
 
   const last = page.at(-1);
-  const nextCursor =
-    hasMore && last ? encodeCursor(last.createdAt.getTime(), last.id) : null;
+  const nextCursor = hasMore && last ? encodeCursor(last.createdAt.getTime(), last.id) : null;
 
   return c.json({ items, nextCursor });
 });
 
-admin.patch("/comments/:id", async (c) => {
-  const parsed = updateCommentStatusSchema.safeParse(await readJson(c));
-  if (!parsed.success) return c.json({ error: "invalid_body" }, 400);
+admin.patch(
+  "/comments/:id",
+  rateLimit({ limit: 60, windowMs: 10 * 60 * 1000, scope: "admin-moderation" }),
+  async (c) => {
+    const parsed = updateCommentStatusSchema.safeParse(await readJson(c));
+    if (!parsed.success) return c.json({ error: "invalid_body" }, 400);
 
-  const db = drizzle(c.env.DB, { schema });
-  const rows = await db
-    .update(schema.comment)
-    .set({ status: parsed.data.status })
-    .where(eq(schema.comment.id, c.req.param("id")))
-    .returning({ id: schema.comment.id, status: schema.comment.status });
+    const db = drizzle(c.env.DB, { schema });
+    const rows = await db
+      .update(schema.comment)
+      .set({ status: parsed.data.status })
+      .where(eq(schema.comment.id, c.req.param("id")))
+      .returning({ id: schema.comment.id, status: schema.comment.status });
 
-  const updated = rows[0];
-  if (!updated) return c.json({ error: "not_found" }, 404);
-  return c.json(updated);
-});
+    const updated = rows[0];
+    if (!updated) return c.json({ error: "not_found" }, 404);
+    return c.json(updated);
+  },
+);
 
-admin.delete("/users/:id", async (c) => {
-  const db = drizzle(c.env.DB, { schema });
-  const rows = await db
-    .delete(schema.user)
-    .where(eq(schema.user.id, c.req.param("id")))
-    .returning({ id: schema.user.id });
+admin.delete(
+  "/users/:id",
+  rateLimit({ limit: 30, windowMs: 10 * 60 * 1000, scope: "admin-delete" }),
+  async (c) => {
+    const db = drizzle(c.env.DB, { schema });
+    const rows = await db
+      .delete(schema.user)
+      .where(eq(schema.user.id, c.req.param("id")))
+      .returning({ id: schema.user.id });
 
-  if (!rows[0]) return c.json({ error: "not_found" }, 404);
-  return c.json({ ok: true });
-});
+    if (!rows[0]) return c.json({ error: "not_found" }, 404);
+    return c.json({ ok: true });
+  },
+);

@@ -14,12 +14,7 @@ import { isValidPortId } from "../lib/ports";
 import { portIdSchema } from "../lib/ratings";
 import { verifyTurnstile } from "../lib/turnstile";
 import { rateLimit } from "../middleware/ratelimit";
-import {
-  optionalUser,
-  requireUser,
-  toPublicUser,
-  type SessionEnv,
-} from "../middleware/session";
+import { optionalUser, requireUser, toPublicUser, type SessionEnv } from "../middleware/session";
 
 export const comments = new Hono<SessionEnv>();
 
@@ -27,6 +22,8 @@ const COMMENT_WINDOW_MS = 10 * 60 * 1000;
 const COMMENT_MAX = 5;
 const REPORT_WINDOW_MS = 60 * 60 * 1000;
 const REPORT_MAX = 10;
+const DELETE_WINDOW_MS = 10 * 60 * 1000;
+const DELETE_MAX = 30;
 
 function resolvePortId(raw: string): string | null {
   const parsed = portIdSchema.safeParse(raw);
@@ -102,8 +99,7 @@ comments.get("/:portId", optionalUser(), async (c) => {
   }));
 
   const last = page.at(-1);
-  const nextCursor =
-    hasMore && last ? encodeCursor(last.createdAt.getTime(), last.id) : null;
+  const nextCursor = hasMore && last ? encodeCursor(last.createdAt.getTime(), last.id) : null;
 
   return c.json({ items, nextCursor });
 });
@@ -120,11 +116,7 @@ comments.post(
     if (!parsed.success) return c.json({ error: "invalid_body" }, 400);
 
     const ip = c.req.header("cf-connecting-ip") ?? null;
-    const verified = await verifyTurnstile(
-      parsed.data.turnstileToken,
-      c.env.TURNSTILE_SECRET,
-      ip,
-    );
+    const verified = await verifyTurnstile(parsed.data.turnstileToken, c.env.TURNSTILE_SECRET, ip);
     if (!verified) return c.json({ error: "turnstile_failed" }, 403);
 
     const user = c.get("user");
@@ -154,26 +146,31 @@ comments.post(
   },
 );
 
-comments.delete("/:id", requireUser(), async (c) => {
-  const id = c.req.param("id");
-  const user = c.get("user");
-  const db = drizzle(c.env.DB, { schema });
+comments.delete(
+  "/:id",
+  requireUser(),
+  rateLimit({ limit: DELETE_MAX, windowMs: DELETE_WINDOW_MS, scope: "comment-delete" }),
+  async (c) => {
+    const id = c.req.param("id");
+    const user = c.get("user");
+    const db = drizzle(c.env.DB, { schema });
 
-  const rows = await db
-    .select({ userId: schema.comment.userId })
-    .from(schema.comment)
-    .where(eq(schema.comment.id, id))
-    .limit(1);
+    const rows = await db
+      .select({ userId: schema.comment.userId })
+      .from(schema.comment)
+      .where(eq(schema.comment.id, id))
+      .limit(1);
 
-  const existing = rows[0];
-  if (!existing) return c.json({ error: "not_found" }, 404);
-  if (existing.userId !== user.id && user.role !== "admin") {
-    return c.json({ error: "forbidden" }, 403);
-  }
+    const existing = rows[0];
+    if (!existing) return c.json({ error: "not_found" }, 404);
+    if (existing.userId !== user.id && user.role !== "admin") {
+      return c.json({ error: "forbidden" }, 403);
+    }
 
-  await db.delete(schema.comment).where(eq(schema.comment.id, id));
-  return c.json({ ok: true });
-});
+    await db.delete(schema.comment).where(eq(schema.comment.id, id));
+    return c.json({ ok: true });
+  },
+);
 
 comments.post(
   "/:id/report",

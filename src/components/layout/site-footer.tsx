@@ -30,6 +30,8 @@ const FOOTER_GROUPS = [
       { href: "/support", key: "support" as const },
       { href: "/about", key: "about" as const },
       { href: "/legal", key: "legal" as const },
+      { href: "/privacy", key: "privacy" as const },
+      { href: "/terms", key: "terms" as const },
     ],
   },
 ] as const;

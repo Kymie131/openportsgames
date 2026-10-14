@@ -2,10 +2,21 @@
 
 import { useState } from "react";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
-import { ChevronDown, Globe, LoaderCircle, LogIn, LogOut, MessageCircle } from "lucide-react";
+import {
+  ChevronDown,
+  Globe,
+  LoaderCircle,
+  LogIn,
+  LogOut,
+  MessageCircle,
+  Trash2,
+} from "lucide-react";
 import { authClient, useSessionUser } from "@/lib/auth-client";
+import { apiFetch } from "@/lib/api";
 import { useT } from "@/lib/i18n/use-i18n";
 import { GithubMark } from "@/components/platforms/github-mark";
+import { Button } from "@/components/ui/button";
+import { Dialog } from "@/components/ui/dialog";
 import { cn } from "@/lib/utils";
 import { UserAvatar } from "./user-avatar";
 
@@ -34,6 +45,9 @@ export function LoginButton({ className }: { className?: string }) {
   const { user, isPending } = useSessionUser();
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [deleteOpen, setDeleteOpen] = useState(false);
+  const [deleting, setDeleting] = useState(false);
+  const [deleteError, setDeleteError] = useState<string | null>(null);
 
   const triggerClass = cn(
     "inline-flex h-9 items-center gap-1.5 rounded-md border border-border bg-surface px-2 text-sm text-foreground transition-colors duration-150 hover:bg-surface-2",
@@ -71,6 +85,26 @@ export function LoginButton({ className }: { className?: string }) {
     }
   }
 
+  /** Delete the account on the server, then drop the local session. */
+  async function deleteAccount() {
+    setDeleteError(null);
+    setDeleting(true);
+    try {
+      await apiFetch<{ ok: boolean }>("/me", { method: "DELETE" });
+    } catch {
+      setDeleteError(t.community.login.deleteError);
+      setDeleting(false);
+      return;
+    }
+    setDeleteOpen(false);
+    setDeleting(false);
+    try {
+      await authClient.signOut();
+    } catch {
+      /* The server already cleared the session cookie; a reload also works. */
+    }
+  }
+
   if (isPending) {
     return (
       <span
@@ -86,68 +120,116 @@ export function LoginButton({ className }: { className?: string }) {
   }
 
   return (
-    <DropdownMenu.Root>
-      <DropdownMenu.Trigger asChild className={triggerClass}>
-        <button type="button" aria-label={user ? t.community.login.menu : t.community.login.signIn}>
-          {busy ? (
-            <LoaderCircle className="size-4 animate-spin" aria-hidden="true" />
-          ) : user ? (
-            <Avatar name={user.name} image={user.image} />
-          ) : (
-            <LogIn className="size-4" aria-hidden="true" />
-          )}
-          <span className="hidden max-w-28 truncate sm:inline">
-            {user ? user.name : t.community.login.signIn}
-          </span>
-          <ChevronDown className="size-3.5 text-muted" aria-hidden="true" />
-        </button>
-      </DropdownMenu.Trigger>
-      <DropdownMenu.Portal>
-        <DropdownMenu.Content
-          align="end"
-          sideOffset={6}
-          className="z-50 min-w-52 rounded-md border border-border bg-background p-1 shadow-md"
-        >
-          {user ? (
-            <>
-              <p className="truncate px-2.5 py-1.5 text-xs text-muted">
-                {t.community.login.signedInAs(user.name)}
+    <>
+      <DropdownMenu.Root>
+        <DropdownMenu.Trigger asChild className={triggerClass}>
+          <button
+            type="button"
+            aria-label={user ? t.community.login.menu : t.community.login.signIn}
+          >
+            {busy ? (
+              <LoaderCircle className="size-4 animate-spin" aria-hidden="true" />
+            ) : user ? (
+              <Avatar name={user.name} image={user.image} />
+            ) : (
+              <LogIn className="size-4" aria-hidden="true" />
+            )}
+            <span className="hidden max-w-28 truncate sm:inline">
+              {user ? user.name : t.community.login.signIn}
+            </span>
+            <ChevronDown className="size-3.5 text-muted" aria-hidden="true" />
+          </button>
+        </DropdownMenu.Trigger>
+        <DropdownMenu.Portal>
+          <DropdownMenu.Content
+            align="end"
+            sideOffset={6}
+            className="z-50 min-w-52 rounded-md border border-border bg-background p-1 shadow-md"
+          >
+            {user ? (
+              <>
+                <p className="truncate px-2.5 py-1.5 text-xs text-muted">
+                  {t.community.login.signedInAs(user.name)}
+                </p>
+                <DropdownMenu.Item
+                  onSelect={(event) => {
+                    event.preventDefault();
+                    void signOut();
+                  }}
+                  disabled={busy}
+                  className="flex cursor-pointer items-center gap-2 rounded-sm px-2.5 py-1.5 text-sm text-foreground outline-none transition-colors hover:bg-surface-2 focus:bg-surface-2 data-[disabled]:pointer-events-none data-[disabled]:opacity-60"
+                >
+                  <LogOut className="size-4" aria-hidden="true" />
+                  {t.community.login.signOut}
+                </DropdownMenu.Item>
+                <DropdownMenu.Item
+                  onSelect={() => {
+                    setDeleteError(null);
+                    setDeleteOpen(true);
+                  }}
+                  disabled={busy}
+                  className="flex cursor-pointer items-center gap-2 rounded-sm px-2.5 py-1.5 text-sm text-danger outline-none transition-colors hover:bg-surface-2 focus:bg-surface-2 data-[disabled]:pointer-events-none data-[disabled]:opacity-60"
+                >
+                  <Trash2 className="size-4" aria-hidden="true" />
+                  {t.community.login.deleteAccount}
+                </DropdownMenu.Item>
+              </>
+            ) : (
+              PROVIDERS.map((provider) => (
+                <DropdownMenu.Item
+                  key={provider.id}
+                  onSelect={(event) => {
+                    event.preventDefault();
+                    void signIn(provider.id);
+                  }}
+                  disabled={busy}
+                  className="flex cursor-pointer items-center gap-2 rounded-sm px-2.5 py-1.5 text-sm text-foreground outline-none transition-colors hover:bg-surface-2 focus:bg-surface-2 data-[disabled]:pointer-events-none data-[disabled]:opacity-60"
+                >
+                  <ProviderMark provider={provider.id} />
+                  {t.community.login[provider.labelKey]}
+                </DropdownMenu.Item>
+              ))
+            )}
+            {error && (
+              <p role="alert" className="px-2.5 py-1.5 text-xs text-danger">
+                {error}
               </p>
-              <DropdownMenu.Item
-                onSelect={(event) => {
-                  event.preventDefault();
-                  void signOut();
-                }}
-                disabled={busy}
-                className="flex cursor-pointer items-center gap-2 rounded-sm px-2.5 py-1.5 text-sm text-foreground outline-none transition-colors hover:bg-surface-2 focus:bg-surface-2 data-[disabled]:pointer-events-none data-[disabled]:opacity-60"
-              >
-                <LogOut className="size-4" aria-hidden="true" />
-                {t.community.login.signOut}
-              </DropdownMenu.Item>
-            </>
-          ) : (
-            PROVIDERS.map((provider) => (
-              <DropdownMenu.Item
-                key={provider.id}
-                onSelect={(event) => {
-                  event.preventDefault();
-                  void signIn(provider.id);
-                }}
-                disabled={busy}
-                className="flex cursor-pointer items-center gap-2 rounded-sm px-2.5 py-1.5 text-sm text-foreground outline-none transition-colors hover:bg-surface-2 focus:bg-surface-2 data-[disabled]:pointer-events-none data-[disabled]:opacity-60"
-              >
-                <ProviderMark provider={provider.id} />
-                {t.community.login[provider.labelKey]}
-              </DropdownMenu.Item>
-            ))
-          )}
-          {error && (
-            <p role="alert" className="px-2.5 py-1.5 text-xs text-danger">
-              {error}
-            </p>
-          )}
-        </DropdownMenu.Content>
-      </DropdownMenu.Portal>
-    </DropdownMenu.Root>
+            )}
+          </DropdownMenu.Content>
+        </DropdownMenu.Portal>
+      </DropdownMenu.Root>
+      <Dialog
+        open={deleteOpen}
+        onOpenChange={(open) => {
+          if (!deleting) setDeleteOpen(open);
+        }}
+        title={t.community.login.deleteTitle}
+        description={t.community.login.deleteDescription}
+      >
+        {deleteError && (
+          <p role="alert" className="mb-3 text-sm text-danger">
+            {deleteError}
+          </p>
+        )}
+        <div className="flex justify-end gap-2">
+          <Button
+            variant="secondary"
+            size="sm"
+            onClick={() => setDeleteOpen(false)}
+            disabled={deleting}
+          >
+            {t.community.login.deleteCancel}
+          </Button>
+          <Button
+            size="sm"
+            className="bg-danger text-accent-contrast hover:bg-danger/90"
+            onClick={() => void deleteAccount()}
+            disabled={deleting}
+          >
+            {deleting ? t.community.login.deleteWorking : t.community.login.deleteConfirm}
+          </Button>
+        </div>
+      </Dialog>
+    </>
   );
 }

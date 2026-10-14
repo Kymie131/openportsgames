@@ -1,6 +1,7 @@
 "use client";
 
 import { useT } from "@/lib/i18n/use-i18n";
+import Link from "next/link";
 import { ExternalLink } from "@/components/ui/external-link";
 import { DocHeader, DocList, DocPage, DocParagraph, DocSection } from "./editorial";
 
@@ -20,6 +21,12 @@ export function LegalContent() {
       </DocSection>
       <DocSection title={t.legal.privacyTitle}>
         <DocList items={t.legal.privacy} />
+        <Link
+          href="/privacy"
+          className="w-fit text-sm text-link underline-offset-4 hover:text-link-hover hover:underline"
+        >
+          {t.legal.privacyLink}
+        </Link>
       </DocSection>
       <DocSection title={t.legal.contactTitle}>
         <DocParagraph>{t.legal.contactBody}</DocParagraph>

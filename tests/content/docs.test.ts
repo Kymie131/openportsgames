@@ -11,7 +11,7 @@ function isEmpty(value: string | string[] | undefined): boolean {
 }
 
 describe("editorial content", () => {
-  const pages = ["guides", "submit", "support", "about", "legal"] as const;
+  const pages = ["guides", "submit", "support", "about", "legal", "privacy", "terms"] as const;
 
   it("localizes every editorial page in both locales", () => {
     for (const locale of [defaultLocale, otherLocale] as const) {

@@ -7,6 +7,15 @@ export const SITE_DESCRIPTION =
 
 const envUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
+/**
+ * Contact address for privacy and terms requests.
+ *
+ * PLACEHOLDER: set `NEXT_PUBLIC_CONTACT_EMAIL` to the real address. Until then
+ * a reserved example address is shown so no request is silently misdirected.
+ */
+export const CONTACT_EMAIL =
+  process.env.NEXT_PUBLIC_CONTACT_EMAIL?.trim() || "privacy@openportsgames.example";
+
 export function getSiteUrl(): string {
   return envUrl ? envUrl.replace(/\/+$/, "") : "http://localhost:3000";
 }

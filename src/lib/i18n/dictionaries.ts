@@ -36,6 +36,8 @@ const en = {
     support: "Support",
     about: "About",
     legal: "Legal",
+    privacy: "Privacy",
+    terms: "Terms",
   },
   platforms: {
     windows: "Windows",
@@ -453,12 +455,90 @@ const en = {
     takedownNoticeBack: "Back to the catalog",
     privacyTitle: "Privacy policy",
     privacy: [
-      "For now the site is static: no accounts and no database.",
+      "Signing in with Google, Discord or GitHub creates a small account used only for ratings and comments.",
+      "We store no tracking, advertising or analytics data, and no cookies beyond the session cookie.",
       "Preferences (language and theme) are stored only in your browser's local storage and never leave your device.",
       "External links (official project sources, PayPal) open on their own websites, which have their own privacy policies.",
     ],
+    privacyLink: "Read the full privacy policy",
     contactTitle: "Contact",
     contactBody: "Report issues and questions via this repository's issues section.",
+  },
+  // DRAFT: privacy copy is a working draft and needs human/legal review.
+  privacy: {
+    title: "Privacy policy",
+    subtitle: "What data OpenPortsGames stores, why, and how to delete it.",
+    dataTitle: "Data we store",
+    data: [
+      "Account: the OAuth provider account id, the display name and the avatar URL returned by Google, Discord or GitHub.",
+      "Email: the auth library requires an email to create an account. It is stored but never shown in the interface and never returned by any API response.",
+      "Ratings: the stars you give to a port, tied to your account.",
+      "Comments: the text you post, tied to your account and subject to moderation.",
+    ],
+    purposeTitle: "Why we store it",
+    purpose: [
+      "Account data exists only to sign you in and to show your name and avatar next to your ratings and comments.",
+      "Ratings and comments are the only purpose of the account; there is no profiling, advertising or analytics.",
+    ],
+    cookiesTitle: "Cookies",
+    cookies: [
+      "We set a single session cookie so you stay signed in. It is HttpOnly, SameSite=Lax and Secure over HTTPS.",
+      "There are no tracking, advertising or third-party analytics cookies.",
+      "Language and theme preferences stay in your browser's local storage and never leave your device.",
+    ],
+    thirdPartiesTitle: "Third parties",
+    thirdParties: [
+      "Sign-in: Google, Discord and GitHub process your authentication under their own privacy policies.",
+      "Hosting: Cloudflare Pages serves the site, Cloudflare Workers runs the API and Cloudflare D1 stores the database.",
+      "Abuse protection: Cloudflare Turnstile verifies the comment form without a tracking cookie.",
+    ],
+    retentionTitle: "Retention",
+    retention: [
+      "Your account and its ratings and comments are kept until you delete your account; deletion is immediate and removes every record tied to it.",
+      "Reports you have filed are removed with your account as well.",
+    ],
+    rightsTitle: "Your rights",
+    rights: [
+      "Under the EU GDPR you may access, rectify, export or erase your data, restrict processing and object to it.",
+      "Under Mexico's LFPDPPP you may exercise your ARCO rights (access, rectification, cancellation and objection).",
+      "In practice you can change or delete your own ratings and comments, and erase everything at once by deleting your account.",
+    ],
+    deleteTitle: "How to delete your account",
+    deleteBody:
+      "Open the account menu in the header and choose \u201cDelete my account\u201d. The action is permanent: your account, ratings and comments are erased and you are signed out.",
+    contactTitle: "Contact",
+    contactBody: "For any privacy request, write to",
+    draftNote: "Draft: this text needs human and legal review before it is considered final.",
+  },
+  // DRAFT: terms copy is a working draft and needs human/legal review.
+  terms: {
+    title: "Terms of use",
+    subtitle: "The rules for using OpenPortsGames and its community features.",
+    rulesTitle: "Community rules",
+    rules: [
+      "Be respectful: no harassment, hate speech, threats or discrimination.",
+      "Do not post spam, advertising or links to pirated game files, ROMs or ISOs.",
+      "Post only content you have the right to share, and keep it relevant to the port.",
+    ],
+    moderationTitle: "Moderation",
+    moderation: [
+      "Moderators may hide or delete comments and may suspend accounts that break these rules.",
+      "Comments are reviewed reactively: reports are handled by the team.",
+    ],
+    removalTitle: "Content removal",
+    removal: [
+      "We may remove any content or catalog entry at any time, including at the request of a rights holder.",
+      "Takedown requests for catalog entries follow the takedown policy.",
+    ],
+    warrantyTitle: "No warranties",
+    warranty: [
+      "The catalog and community features are provided as is, without warranties of any kind.",
+      "We are not liable for any damage arising from your use of the site or of the linked projects.",
+      "Links point to third-party sites we do not control.",
+    ],
+    contactTitle: "Contact",
+    contactBody: "Questions about these terms can be sent to",
+    draftNote: "Draft: this text needs human and legal review before it is considered final.",
   },
   community: {
     login: {
@@ -470,6 +550,14 @@ const en = {
       withGitHub: "Continue with GitHub",
       signedInAs: (name: string) => `Signed in as ${name}`,
       error: "Sign-in failed. Please try again.",
+      deleteAccount: "Delete my account",
+      deleteTitle: "Delete your account?",
+      deleteDescription:
+        "This permanently erases your account, ratings and comments. It cannot be undone.",
+      deleteConfirm: "Delete account",
+      deleteCancel: "Cancel",
+      deleteWorking: "Deleting…",
+      deleteError: "Your account could not be deleted. Please try again.",
     },
     rating: {
       title: "Community rating",
@@ -555,6 +643,8 @@ const es: Messages = {
     support: "Apoyo",
     about: "Acerca de",
     legal: "Legal",
+    privacy: "Privacidad",
+    terms: "Términos",
   },
   platforms: {
     windows: "Windows",
@@ -976,13 +1066,93 @@ const es: Messages = {
     takedownNoticeBack: "Volver al catálogo",
     privacyTitle: "Política de privacidad",
     privacy: [
-      "Por ahora el sitio es estático: sin cuentas ni base de datos.",
+      "Iniciar sesión con Google, Discord o GitHub crea una cuenta pequeña que se usa solo para valoraciones y comentarios.",
+      "No guardamos datos de seguimiento, publicidad ni analítica, ni cookies más allá de la de sesión.",
       "Las preferencias (idioma y tema) se guardan solo en el almacenamiento local de tu navegador y nunca salen de tu dispositivo.",
       "Los enlaces externos (fuentes oficiales, PayPal) se abren en sus propios sitios, que tienen sus propias políticas de privacidad.",
     ],
+    privacyLink: "Leer la política de privacidad completa",
     contactTitle: "Contacto",
     contactBody:
       "Reporta incidencias y dudas a través de la sección de issues de este repositorio.",
+  },
+  // DRAFT: privacy copy is a working draft and needs human/legal review.
+  privacy: {
+    title: "Política de privacidad",
+    subtitle: "Qué datos guarda OpenPortsGames, para qué y cómo eliminarlos.",
+    dataTitle: "Datos que guardamos",
+    data: [
+      "Cuenta: el id de cuenta del proveedor OAuth, el nombre visible y la URL del avatar que devuelven Google, Discord o GitHub.",
+      "Correo: la librería de autenticación exige un correo para crear la cuenta. Se almacena, pero nunca se muestra en la interfaz ni se devuelve en ninguna respuesta de la API.",
+      "Valoraciones: las estrellas que das a un port, vinculadas a tu cuenta.",
+      "Comentarios: el texto que publicas, vinculado a tu cuenta y sujeto a moderación.",
+    ],
+    purposeTitle: "Para qué lo guardamos",
+    purpose: [
+      "Los datos de la cuenta existen solo para iniciar tu sesión y mostrar tu nombre y avatar junto a tus valoraciones y comentarios.",
+      "Las valoraciones y los comentarios son el único propósito de la cuenta; no hay perfilado, publicidad ni analítica.",
+    ],
+    cookiesTitle: "Cookies",
+    cookies: [
+      "Solo instalamos una cookie de sesión para mantener tu sesión iniciada. Es HttpOnly, SameSite=Lax y Secure sobre HTTPS.",
+      "No hay cookies de seguimiento, publicidad ni analítica de terceros.",
+      "Las preferencias de idioma y tema se quedan en el almacenamiento local de tu navegador y nunca salen de tu dispositivo.",
+    ],
+    thirdPartiesTitle: "Terceros",
+    thirdParties: [
+      "Inicio de sesión: Google, Discord y GitHub procesan tu autenticación bajo sus propias políticas de privacidad.",
+      "Alojamiento: Cloudflare Pages sirve el sitio, Cloudflare Workers ejecuta la API y Cloudflare D1 guarda la base de datos.",
+      "Protección antabuso: Cloudflare Turnstile verifica el formulario de comentarios sin cookie de seguimiento.",
+    ],
+    retentionTitle: "Conservación",
+    retention: [
+      "Tu cuenta y sus valoraciones y comentarios se conservan hasta que eliminas la cuenta; la eliminación es inmediata y borra todos los registros vinculados.",
+      "Las denuncias que hayas enviado también se eliminan con tu cuenta.",
+    ],
+    rightsTitle: "Tus derechos",
+    rights: [
+      "Según el RGPD de la UE, puedes acceder, rectificar, exportar o suprimir tus datos, limitar el tratamiento y oponerte a él.",
+      "Según la LFPDPPP de México, puedes ejercer tus derechos ARCO (acceso, rectificación, cancelación y oposición).",
+      "En la práctica puedes cambiar o borrar tus propias valoraciones y comentarios, y borrarlo todo a la vez eliminando tu cuenta.",
+    ],
+    deleteTitle: "Cómo eliminar tu cuenta",
+    deleteBody:
+      "Abre el menú de cuenta en la cabecera y elige \u201cEliminar mi cuenta\u201d. La acción es permanente: se borran tu cuenta, tus valoraciones y tus comentarios, y se cierra tu sesión.",
+    contactTitle: "Contacto",
+    contactBody: "Para cualquier solicitud de privacidad, escribe a",
+    draftNote:
+      "Borrador: este texto necesita revisión humana y legal antes de considerarse definitivo.",
+  },
+  // DRAFT: terms copy is a working draft and needs human/legal review.
+  terms: {
+    title: "Términos de uso",
+    subtitle: "Las normas para usar OpenPortsGames y sus funciones comunitarias.",
+    rulesTitle: "Normas de la comunidad",
+    rules: [
+      "Sé respetuoso: nada de acoso, discurso de odio, amenazas ni discriminación.",
+      "No publiques spam, publicidad ni enlaces a archivos de juegos pirateados, ROMs o ISOs.",
+      "Publica solo contenido que tengas derecho a compartir y mantenlo relacionado con el port.",
+    ],
+    moderationTitle: "Moderación",
+    moderation: [
+      "La moderación puede ocultar o borrar comentarios y suspender cuentas que incumplan estas normas.",
+      "Los comentarios se revisan de forma reactiva: el equipo atiende las denuncias.",
+    ],
+    removalTitle: "Retirada de contenido",
+    removal: [
+      "Podemos retirar cualquier contenido o entrada del catálogo en cualquier momento, incluso a petición de un titular de derechos.",
+      "Las solicitudes de retirada de entradas del catálogo siguen la política de retirada.",
+    ],
+    warrantyTitle: "Sin garantías",
+    warranty: [
+      "El catálogo y las funciones comunitarias se ofrecen tal cual, sin garantías de ningún tipo.",
+      "No somos responsables de ningún daño derivado del uso del sitio o de los proyectos enlazados.",
+      "Los enlaces apuntan a sitios de terceros que no controlamos.",
+    ],
+    contactTitle: "Contacto",
+    contactBody: "Las dudas sobre estos términos pueden enviarse a",
+    draftNote:
+      "Borrador: este texto necesita revisión humana y legal antes de considerarse definitivo.",
   },
   community: {
     login: {
@@ -994,6 +1164,14 @@ const es: Messages = {
       withGitHub: "Continuar con GitHub",
       signedInAs: (name: string) => `Sesión de ${name}`,
       error: "No se pudo iniciar sesión. Inténtalo de nuevo.",
+      deleteAccount: "Eliminar mi cuenta",
+      deleteTitle: "¿Eliminar tu cuenta?",
+      deleteDescription:
+        "Esto borra de forma permanente tu cuenta, tus valoraciones y tus comentarios. No se puede deshacer.",
+      deleteConfirm: "Eliminar cuenta",
+      deleteCancel: "Cancelar",
+      deleteWorking: "Eliminando…",
+      deleteError: "No se pudo eliminar tu cuenta. Inténtalo de nuevo.",
     },
     rating: {
       title: "Valoración de la comunidad",

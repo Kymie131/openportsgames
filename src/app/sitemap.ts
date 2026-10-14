@@ -17,6 +17,8 @@ const STATIC_PAGES = [
   "/support/",
   "/about/",
   "/legal/",
+  "/privacy/",
+  "/terms/",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

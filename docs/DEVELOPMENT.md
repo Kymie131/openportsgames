@@ -1,7 +1,9 @@
 # Development
 
-Static export: no server, no database, no accounts. Next.js compiles the
-catalog to plain HTML/CSS/JS plus `/api/ports.json`.
+The catalog is a static Next.js export: Next compiles it to plain HTML/CSS/JS
+plus `/api/ports.json`, with no server of its own. An optional community backend
+lives in `api/` (Cloudflare Workers + D1) and powers sign-in, ratings and
+comments; the static site still builds and runs without it.
 
 ## Layout
 
@@ -12,6 +14,10 @@ src/
   content/      Catalog as code: ports/*.ts, hardware, tests, meta
   lib/ports/    zod schemas, registry, queries, API builder
   lib/i18n/     Dictionaries and the client-side locale store
+api/
+  src/          Worker: index.ts (routes), auth.ts, middleware/, routes/, db/
+  drizzle/      Generated D1 migrations
+  scripts/      gen-port-ids.mjs
 tests/
   unit/         Vitest: utilities and data-layer behavior
   content/      Vitest: catalog data invariants
@@ -75,6 +81,77 @@ A static, versioned snapshot emitted at build time
 `https:`. The authoritative zod schema is `catalogApiSchema` in
 `src/lib/ports/api-json.ts`.
 
+## Backend (`api/`)
+
+Cloudflare Worker: Hono router, Cloudflare D1 (SQLite) via Drizzle ORM, Better
+Auth (Google/Discord/GitHub OAuth only, no passwords) and zod. It exposes:
+
+- `/api/auth/*` — Better Auth session endpoints.
+- `GET /me` — current user `{id, name, image, role}`; `DELETE /me` — deletes the
+  account and cascades its sessions, OAuth accounts, ratings, comments and
+  reports (rate limited to 3 per hour).
+- `/ratings/:portId` — read (public) and write (session) a 1–5 star rating.
+- `/comments/:portId` — read (public) and post (session + Turnstile); delete own
+  or admin. `/comments/:id/report` files a report.
+- `/admin/*` — moderation, role `admin` only.
+
+Schema and migrations live in `api/src/db/schema.ts` and `api/drizzle/`. Session
+cookies are HttpOnly, `SameSite=Lax` and `Secure` in production. CORS uses a
+strict allowlist (`SITE_ORIGIN`) with credentials, and every unsafe method is
+origin-checked. The public user shape is always `{id, name, image}`; email and
+provider ids are never returned.
+
+### Local development
+
+```bash
+cd api
+npm install
+cp .dev.vars.example .dev.vars   # fill in the secrets below
+npm run db:local                 # apply migrations to the local D1
+npm run dev                      # http://localhost:8787
+```
+
+In another terminal run the site (`npm run dev`) with
+`NEXT_PUBLIC_API_URL=http://localhost:8787`. `ENVIRONMENT=dev` also trusts
+`http://localhost:3000` as an origin and disables Secure cookies. Run
+`npm run typecheck` and `npm test` inside `api/`.
+
+Backend env vars (`api/.dev.vars` locally, `wrangler secret put` in production):
+
+| Variable                                          | Purpose                                                |
+| ------------------------------------------------- | ------------------------------------------------------ |
+| `ENVIRONMENT`                                     | `dev` enables localhost origins and non-secure cookies |
+| `SITE_ORIGIN`                                     | Site origin allowed by CORS and the origin check       |
+| `BETTER_AUTH_SECRET`                              | Session signing key (required)                         |
+| `BETTER_AUTH_URL`                                 | Worker public URL, e.g. `https://api.example.com`      |
+| `COOKIE_DOMAIN`                                   | Optional, for cross-subdomain cookies                  |
+| `GOOGLE_/DISCORD_/GITHUB_CLIENT_ID` and `_SECRET` | OAuth apps                                             |
+| `TURNSTILE_SECRET`                                | Cloudflare Turnstile secret for the comment form       |
+
+Never commit `api/.dev.vars`; only `api/.dev.vars.example` is versioned.
+
+### Port ids
+
+The Worker only accepts ratings and comments for known catalog ids
+(`api/src/port-ids.json`). After changing `src/content/ports/`:
+
+```bash
+npm run build              # root: emits out/api/ports.json
+cd api && npm run gen:ids  # rewrites api/src/port-ids.json
+```
+
+### Deploy (Cloudflare Workers)
+
+```bash
+cd api
+npm install
+npm run db:remote   # apply migrations to the remote D1 database
+npm run deploy      # wrangler deploy
+```
+
+`api/wrangler.toml` binds the D1 database (`DB`); set `database_id` once the
+database exists.
+
 ## Build and deploy
 
 ```bash
@@ -104,6 +181,9 @@ connected to Pages with Git integration: every push to `main` triggers a build.
 - Environment variables (Production and Preview):
   - `NODE_VERSION` = `22`
   - `NEXT_PUBLIC_SITE_URL` = `https://openportsgames.com`
+  - `NEXT_PUBLIC_API_URL` = `https://api.openportsgames.com`
+  - `NEXT_PUBLIC_TURNSTILE_SITE_KEY` = the Turnstile site key
+  - `NEXT_PUBLIC_CONTACT_EMAIL` = the real contact address for /privacy and /terms
   - `NEXT_PUBLIC_SUPPORT_PAYPAL_URL` = the PayPal hosted button URL
   - Leave `NEXT_PUBLIC_BASE_PATH` **unset** (root deployment)
 
@@ -117,6 +197,28 @@ node scripts/serve-static.mjs   # serves ./out on :4173
 ```
 
 Smoke tests (not in CI): `PLAYWRIGHT_CHANNEL=msedge npx playwright test`.
+
+## First-time setup (manual steps)
+
+These are one-off, account-level steps that cannot be automated in the repo:
+
+1. Create the OAuth apps and register the callback URLs
+   `https://api.openportsgames.com/api/auth/callback/{google,discord,github}`:
+   Google Cloud Console, Discord Developer Portal and a GitHub OAuth app. Copy
+   each client id and secret.
+2. Create the D1 database: `cd api && npx wrangler d1 create openportsgames-db`,
+   then paste the returned `database_id` into `api/wrangler.toml`.
+3. Apply migrations: `npm run db:remote` (production) or `npm run db:local`.
+4. Store secrets on the Worker: `npx wrangler secret put BETTER_AUTH_SECRET`,
+   then `BETTER_AUTH_URL` and each OAuth `*_CLIENT_ID` / `*_CLIENT_SECRET` and
+   `TURNSTILE_SECRET`. Locally, copy `api/.dev.vars.example` to
+   `api/.dev.vars` and fill the same values.
+5. Create a Cloudflare Turnstile widget for the site and put the secret on the
+   Worker and the site key in `NEXT_PUBLIC_TURNSTILE_SITE_KEY`.
+6. Point a custom domain (`api.openportsgames.com`) at the Worker and add the
+   site origin to `SITE_ORIGIN`, CORS and `connect-src` in `public/_headers`.
+7. Deploy: the Worker with `cd api && npm run deploy`, the site via the Pages
+   Git integration (`npm run build` → `out`).
 
 ## Catalog imports
 
