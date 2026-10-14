@@ -13,11 +13,11 @@ export const dkrR: Port = {
   openSource: true,
   platforms: ["windows", "linux", "macos"],
   status: "stable",
-  release: { version: "1.0.5", date: "2026-10-10" },
+  release: { version: "1.0.6", date: "2026-10-12" },
   sources: ["https://github.com/ThatGuyMcd/DKR-R"],
   license: { spdx: "MIT" },
   verified: true,
-  verifiedAt: "2026-09-22",
+  verifiedAt: "2026-10-14",
   screenshots: [
     {
       src: "https://github.com/user-attachments/assets/c913bee2-029c-4e29-9921-0f6abe7a3bf1",

@@ -13,13 +13,13 @@ export const vkQuake: Port = {
   openSource: true,
   platforms: ["windows", "linux", "macos"],
   status: "stable",
-  release: { version: "1.36.0", date: "2026-08-29" },
+  release: { version: "1.37.0", date: "2026-10-12" },
   sources: ["https://github.com/Novum/vkQuake"],
   license: {
     spdx: "GPL-2.0",
   },
   verified: true,
-  verifiedAt: "2026-09-19",
+  verifiedAt: "2026-10-14",
   notes:
     "Vulkan port of QuakeSpasm based on id Software's GPL-2.0 Quake source release. Requires Quake gamedata (shareware episode freely available).",
   notesEs:

@@ -13,11 +13,11 @@ export const roadRash64Recompiled: Port = {
   portType: "recompilation",
   platforms: ["windows", "linux"],
   status: "stable",
-  release: { version: "1.4.5", date: "2026-10-08" },
+  release: { version: "1.4.6", date: "2026-10-14" },
   sources: ["https://github.com/linkssy2/RoadRash64Recompiled"],
   license: { spdx: "GPL-3.0" },
   verified: true,
-  verifiedAt: "2026-09-22",
+  verifiedAt: "2026-10-14",
   originalSystem: "Nintendo 64",
   features: [
     "60 FPS presentation with a 30-240 FPS slider",

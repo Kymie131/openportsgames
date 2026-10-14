@@ -13,11 +13,11 @@ export const conkerBadFurDayRecomp: Port = {
   portType: "recompilation",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: "0.1.5", date: "2026-10-01" },
+  release: { version: "0.1.6", date: "2026-10-13" },
   sources: ["https://github.com/sciaschi/CBFD-Recompiled"],
   license: { spdx: "MIT" },
   verified: true,
-  verifiedAt: "2026-10-01",
+  verifiedAt: "2026-10-14",
   originalSystem: "Nintendo 64",
   features: [
     "RT64 renderer with higher resolutions, widescreen and anti-aliasing",
