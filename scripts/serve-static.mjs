@@ -15,7 +15,7 @@ const server = createServer((req, res) => {
       return;
     }
     if (existsSync(file) && statSync(file).isDirectory()) file = join(file, "index.html");
-    if (!existsSync(file)) file = join(ROOT, "_not-found", "index.html");
+    if (!existsSync(file)) file = join(ROOT, "404.html");
     if (!existsSync(file)) {
       res.writeHead(200).end("<html></html>");
       return;

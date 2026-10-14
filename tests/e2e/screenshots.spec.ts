@@ -7,8 +7,8 @@ import { expect, test } from "@playwright/test";
  */
 test.describe("screenshot frames never crop", () => {
   const cases = [
-    { path: "/ports/nxengine-evo", ratio: "4:3" },
-    { path: "/ports/pokered", ratio: "10:9" },
+    { path: "/en/ports/nxengine-evo", ratio: "4:3" },
+    { path: "/en/ports/pokered", ratio: "10:9" },
   ];
 
   for (const { path, ratio } of cases) {
@@ -22,7 +22,7 @@ test.describe("screenshot frames never crop", () => {
   }
 
   test("catalog tile cover also uses object-contain", async ({ page }) => {
-    await page.goto("/ports");
+    await page.goto("/en/ports");
     const image = page.getByTestId("screenshot-image").first();
     await expect(image).toBeVisible();
     await expect.poll(() => image.evaluate((el) => getComputedStyle(el).objectFit)).toBe("contain");
