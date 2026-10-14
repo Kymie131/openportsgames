@@ -143,15 +143,12 @@ export function PortDetail({
       ) : (
         <figure className="relative flex aspect-video items-center justify-center overflow-hidden rounded-xl border border-border bg-gradient-to-br from-surface-2 to-surface">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,color-mix(in_srgb,var(--accent)_12%,transparent)_0%,transparent_65%)]" />
-          <div className="relative z-10 flex flex-col items-center gap-2">
-            <span
-              className="text-7xl font-bold tracking-tight text-foreground/30 font-mono"
-              aria-hidden="true"
-            >
-              {port.game.charAt(0)}
-            </span>
+          <div className="relative z-10 flex flex-col items-center gap-2 px-6 text-center">
             <span className="text-sm font-mono text-muted tracking-wider uppercase">
               {originalSystem}
+            </span>
+            <span className="max-w-md text-2xl font-bold leading-tight tracking-tight text-foreground/70">
+              {port.game}
             </span>
           </div>
           <ConsoleBadge system={originalSystem} />

@@ -86,7 +86,7 @@ export function PortTile({
               loading="lazy"
             />
           ) : (
-            <div className="relative z-10 flex flex-col items-center justify-center gap-1">
+            <div className="relative z-10 flex flex-col items-center justify-center gap-1.5 px-3 text-center">
               {system && (
                 <SystemMark
                   system={system}
@@ -94,11 +94,8 @@ export function PortTile({
                   labelClassName="text-xs font-mono font-medium tracking-wider text-muted uppercase"
                 />
               )}
-              <span
-                className="text-3xl font-bold tracking-tight text-foreground/35 font-mono"
-                aria-hidden="true"
-              >
-                {port.game.charAt(0)}
+              <span className="line-clamp-3 text-sm font-semibold leading-snug text-foreground/70">
+                {port.game}
               </span>
             </div>
           )}
