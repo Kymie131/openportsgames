@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { Container } from "@/components/layout/container";
 import { PortDetail } from "@/components/ports/port-detail";
 import { TakedownNotice } from "@/components/ports/takedown-notice";
+import { PortCommunity } from "@/components/community/port-community";
 import { JsonLd } from "@/components/seo/json-ld";
 import { pageMeta, summarize } from "@/lib/seo";
 import {
@@ -96,6 +97,9 @@ export default async function PortPage({ params }: { params: Promise<{ slug: str
             originalSystem={originalSystemOf(port.id) ?? "—"}
             testStatus={getTestStatuses()[port.id]}
           />
+          <div className="mt-8">
+            <PortCommunity portId={port.id} />
+          </div>
         </Container>
       </section>
     </>

@@ -12,6 +12,7 @@ import { assetPath, cn } from "@/lib/utils";
 import { Container } from "./container";
 import { LanguageSwitcher } from "@/components/i18n/language-switcher";
 import { ThemeToggle } from "@/components/theme/theme-toggle";
+import { LoginButton } from "@/components/community/login-button";
 import { SUPPORT_PAYPAL_URL } from "@/lib/support";
 
 const NAV_ITEMS = [
@@ -179,6 +180,7 @@ export function SiteHeader() {
           </form>
           <LanguageSwitcher />
           <ThemeToggle />
+          <LoginButton />
           <Dialog.Root open={open} onOpenChange={setOpen}>
             <Dialog.Trigger asChild>
               <button
