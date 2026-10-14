@@ -5,6 +5,7 @@ import { secureHeaders } from "hono/secure-headers";
 import { createAuth } from "./auth";
 import { allowedOrigins, originCheck } from "./middleware/origin";
 import { requireUser, type SessionEnv } from "./middleware/session";
+import { ratings } from "./routes/ratings";
 
 const app = new Hono<SessionEnv>();
 
@@ -32,6 +33,8 @@ app.get("/me", requireUser(), (c) => {
     role: user.role,
   });
 });
+
+app.route("/ratings", ratings);
 
 app.onError((_err, c) => c.json({ error: "internal_error" }, 500));
 

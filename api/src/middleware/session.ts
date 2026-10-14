@@ -55,6 +55,15 @@ async function resolveUser(c: Context<SessionEnv>): Promise<SessionUser | null> 
   };
 }
 
+/** Attach `c.var.user` when a session exists; never rejects. */
+export function optionalUser(): MiddlewareHandler<SessionEnv> {
+  return async (c, next) => {
+    const user = await resolveUser(c);
+    if (user) c.set("user", user);
+    await next();
+  };
+}
+
 /** Require an authenticated session, setting `c.var.user`. */
 export function requireUser(): MiddlewareHandler<SessionEnv> {
   return async (c, next) => {

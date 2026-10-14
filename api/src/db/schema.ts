@@ -1,5 +1,12 @@
 import { relations, sql } from "drizzle-orm";
-import { sqliteTable, text, integer, index } from "drizzle-orm/sqlite-core";
+import {
+  check,
+  index,
+  integer,
+  primaryKey,
+  sqliteTable,
+  text,
+} from "drizzle-orm/sqlite-core";
 
 export const user = sqliteTable("user", {
   id: text("id").primaryKey(),
@@ -85,6 +92,35 @@ export const verification = sqliteTable(
   },
   (table) => [index("verification_identifier_idx").on(table.identifier)],
 );
+
+export const rating = sqliteTable(
+  "rating",
+  {
+    userId: text("user_id")
+      .notNull()
+      .references(() => user.id, { onDelete: "cascade" }),
+    portId: text("port_id").notNull(),
+    stars: integer("stars").notNull(),
+    createdAt: integer("created_at", { mode: "timestamp_ms" })
+      .default(sql`(cast(unixepoch('subsecond') * 1000 as integer))`)
+      .notNull(),
+    updatedAt: integer("updated_at", { mode: "timestamp_ms" })
+      .default(sql`(cast(unixepoch('subsecond') * 1000 as integer))`)
+      .$onUpdate(() => /* @__PURE__ */ new Date())
+      .notNull(),
+  },
+  (table) => [
+    primaryKey({ columns: [table.userId, table.portId] }),
+    index("rating_portId_idx").on(table.portId),
+    check("rating_stars_check", sql`${table.stars} between 1 and 5`),
+  ],
+);
+
+export const rateLimit = sqliteTable("rate_limit", {
+  key: text("key").primaryKey(),
+  windowStart: integer("window_start").notNull(),
+  count: integer("count").notNull(),
+});
 
 export const userRelations = relations(user, ({ many }) => ({
   sessions: many(session),
