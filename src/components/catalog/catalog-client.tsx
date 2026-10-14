@@ -11,7 +11,6 @@ import {
   applyCatalog,
   availableSystems,
   buildIndex,
-  CATALOG_PERSIST_KEY,
   catalogStateToParams,
   defaultCatalogState,
   hasActiveFilters,
@@ -24,7 +23,6 @@ import {
   type CatalogState,
   type FeaturesValue,
   type GenreValue,
-  type PersistedCatalogState,
   type SortKey,
   type SourceValue,
   type StateValue,
@@ -35,60 +33,6 @@ import {
 import { PortTile } from "./port-tile";
 import { useT } from "@/lib/i18n/use-i18n";
 import { cn } from "@/lib/utils";
-
-function writePersisted(state: CatalogState) {
-  try {
-    const filters: PersistedCatalogState = {
-      platform: state.platform,
-      status: state.status,
-      state: state.state,
-      technique: state.technique,
-      system: state.system,
-      genre: state.genre,
-      source: state.source,
-      features: state.features,
-      tested: state.tested,
-      sort: state.sort,
-    };
-    localStorage.setItem(CATALOG_PERSIST_KEY, JSON.stringify(filters));
-  } catch {
-    // storage unavailable (private mode, quota): filters simply do not persist
-  }
-}
-
-function clearPersisted() {
-  try {
-    localStorage.removeItem(CATALOG_PERSIST_KEY);
-  } catch {
-    // ignore
-  }
-}
-
-/** Revalidates persisted filters through parseCatalogState's allowed lists. */
-function readPersisted(): CatalogState | null {
-  try {
-    const raw = localStorage.getItem(CATALOG_PERSIST_KEY);
-    if (!raw) return null;
-    const saved = JSON.parse(raw) as Partial<PersistedCatalogState>;
-    if (typeof saved !== "object" || saved === null) return null;
-    const params = new URLSearchParams();
-    const append = (key: string, values?: readonly string[]) =>
-      values?.forEach((value) => params.append(key, value));
-    append("platform", saved.platform);
-    append("status", saved.status);
-    append("state", saved.state);
-    append("technique", saved.technique);
-    append("system", saved.system);
-    append("genre", saved.genre);
-    append("source", saved.source);
-    append("features", saved.features);
-    append("tested", saved.tested);
-    if (saved.sort && saved.sort !== "relevance") params.set("sort", saved.sort);
-    return parseCatalogState(params);
-  } catch {
-    return null;
-  }
-}
 
 function toggleValue(list: string[], value: string): string[] {
   return list.includes(value) ? list.filter((item) => item !== value) : [...list, value];
@@ -141,12 +85,10 @@ export function CatalogClient({
   const commit = (next: CatalogState) => {
     const params = catalogStateToParams(next);
     const href = params.size ? `${pathname}?${params.toString()}` : pathname;
-    writePersisted(next);
     void router.replace(href, { scroll: false });
   };
 
   const clear = () => {
-    clearPersisted();
     pushedQuery.current = "";
     setDraft("");
     void router.replace(pathname, { scroll: false });
@@ -163,24 +105,6 @@ export function CatalogClient({
     gridRef.current?.scrollIntoView({ block: "start", behavior: "smooth" });
     resultsHeadingRef.current?.focus({ preventScroll: true });
   }, [pageResult.page]);
-
-  const initialized = useRef(false);
-  useEffect(() => {
-    if (initialized.current) return;
-    initialized.current = true;
-    if (hasActiveFilters(state)) {
-      writePersisted(state);
-      return;
-    }
-    const saved = readPersisted();
-    if (saved !== null && hasActiveFilters(saved)) {
-      const next = { ...saved, query: state.query };
-      const params = catalogStateToParams(next);
-      void router.replace(params.size ? `${pathname}?${params.toString()}` : pathname, {
-        scroll: false,
-      });
-    }
-  }, [state, pathname, router]);
 
   useEffect(() => {
     if (draft === state.query) return;
@@ -720,7 +644,6 @@ export type {
   CatalogState,
   FeaturesValue,
   GenreValue,
-  PersistedCatalogState,
   SortKey,
   SourceValue,
   StateValue,
