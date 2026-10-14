@@ -14,17 +14,18 @@ test.describe("catalog filters", () => {
     await expect(page).toHaveURL(/platform=windows/);
   });
 
-  test("filters persist between sessions and are re-applied on a clean URL", async ({ page }) => {
+  test("filters live only in the URL and are not re-applied on a clean URL", async ({ page }) => {
     await page.goto("/en/ports");
     await page.getByRole("button", { name: "Linux", exact: true }).click();
     await expect(page).toHaveURL(/platform=linux/);
 
-    const stored = await page.evaluate(() => localStorage.getItem("opg-catalog-filters"));
-    expect(stored).toContain('"platform"');
-    expect(stored).toContain("linux");
-
+    // A fresh, clean URL must not bring the filter back.
     await page.goto("/en/ports");
-    await expect(page).toHaveURL(/platform=linux/);
+    await expect(page).not.toHaveURL(/platform=linux/);
+    await expect(page.getByRole("button", { name: "Linux", exact: true })).toHaveAttribute(
+      "aria-pressed",
+      "false",
+    );
   });
 
   test("clear filters resets the URL and the stored set", async ({ page }) => {
