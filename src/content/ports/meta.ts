@@ -227,6 +227,8 @@ export const originalSystemById: Record<Port["id"], string> = {
   "metroid-prime-port": "GameCube",
   "halo-ce-universal": "Xbox",
   "halo-ce-web": "Xbox",
+  "bloodborne-android": "PlayStation 4",
+  "crash-team-racing-nitro-fueled": "PlayStation 4",
   "lost-odyssey-recomp": "Xbox 360",
   "dead-rising-2-case-zero-recomp": "Xbox 360",
   "ninja-gaiden-2-recomp": "Xbox 360",
