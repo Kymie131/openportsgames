@@ -1,0 +1,14 @@
+name = "openportsgames-api"
+main = "src/index.ts"
+compatibility_date = "2026-10-14"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "openportsgames-db"
+database_id = "REPLACE_ME"
+migrations_dir = "drizzle"
+
+[vars]
+SITE_ORIGIN = "https://openportsgames.com"
+ENVIRONMENT = "production"

@@ -15,6 +15,8 @@ const eslintConfig = defineConfig([
     // Standalone CommonJS tooling, not app code.
     "scripts/**",
     ".agents/**",
+    // Cloudflare Workers backend has its own tooling.
+    "api/**",
   ]),
 ]);
 
