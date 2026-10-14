@@ -13,7 +13,7 @@ export const freeSpace2: Port = {
   portType: "source-port",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
-  release: { version: "26.0.1", date: "2026-09-15" },
+  release: { version: "26.2.0-RC1", date: "2026-09-24" },
   sources: ["https://github.com/scp-fs2open/fs2open.github.com"],
   website: "https://www.hard-light.net/",
   license: {
@@ -21,7 +21,7 @@ export const freeSpace2: Port = {
     note: "custom terms in Copying.md plus additional restrictions",
   },
   verified: true,
-  verifiedAt: "2026-10-01",
+  verifiedAt: "2026-10-14",
   originalSystem: "Microsoft Windows",
   features: [
     "Cross-platform desktop builds",
