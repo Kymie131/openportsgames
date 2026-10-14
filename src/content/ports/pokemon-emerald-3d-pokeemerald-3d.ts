@@ -20,4 +20,6 @@ export const PokemonEmerald3dPokeemerald3d: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Pokemon Emerald in 3D (in WebAssembly).",
+  notesEs: "Pokémon Emerald en 3D (en WebAssembly).",
 };

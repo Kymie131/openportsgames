@@ -20,4 +20,6 @@ export const Bstone: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Unofficial source port for Blake Stone series.",
+  notesEs: "Port no oficial del código fuente de la saga Blake Stone.",
 };

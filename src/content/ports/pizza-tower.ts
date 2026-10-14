@@ -25,4 +25,6 @@ export const PizzaTower: Port = {
     alt: "Pizza Tower (cover)",
     credit: "Wikipedia",
   },
+  notes: "A semi-accurate decompilation of Pizza Tower.",
+  notesEs: "Una decompilación semiexacta de Pizza Tower.",
 };

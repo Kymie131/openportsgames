@@ -20,4 +20,6 @@ export const Hopmon: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Cross-platform Hopmon decompilation/reimplementation.",
+  notesEs: "Decompilación/reimplementación multiplataforma de Hopmon.",
 };

@@ -20,4 +20,6 @@ export const FireEmblemTheSacredStonesFireemblem: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation/disassembly of Fire Emblem: The Sacred Stones.",
+  notesEs: "Decompilación/desensamblado de Fire Emblem: The Sacred Stones.",
 };

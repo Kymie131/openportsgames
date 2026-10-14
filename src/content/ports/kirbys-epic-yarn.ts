@@ -20,4 +20,6 @@ export const KirbysEpicYarn: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Kirby's Epic Yarn decompilation.",
+  notesEs: "Decompilación de Kirby's Epic Yarn.",
 };

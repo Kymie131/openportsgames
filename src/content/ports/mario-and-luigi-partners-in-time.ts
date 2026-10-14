@@ -20,4 +20,6 @@ export const MarioAndLuigiPartnersInTime: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Mario & Luigi - Partners in Time (Other).",
+  notesEs: "Decompilación de Mario & Luigi - Partners in Time (Other).",
 };

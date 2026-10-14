@@ -20,4 +20,6 @@ export const SheepDogNWolfRewooled: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Sheep Dog n Wolf: Rewooled (Other).",
+  notesEs: "Decompilación de Sheep Dog n Wolf: Rewooled (Other).",
 };

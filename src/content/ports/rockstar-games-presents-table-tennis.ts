@@ -20,4 +20,11 @@ export const RockstarGamesPresentsTableTennis: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/33/Rockstar_Table_Tennis_Game_Cover.jpg",
+    alt: "Rockstar Games Presents Table Tennis (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Full Decompilation of a 2006 Table Tennis Game.",
+  notesEs: "Decompilación completa del juego de tenis de mesa de 2006.",
 };

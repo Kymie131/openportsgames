@@ -20,4 +20,6 @@ export const WorldOfWarcraft112Benilla: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "A complete World of Warcraft 1.12.1 client, written from scratch in Rust and Bevy.",
+  notesEs: "Un cliente completo de World of Warcraft 1.12.1, escrito desde cero en Rust y Bevy.",
 };

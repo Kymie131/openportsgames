@@ -20,4 +20,6 @@ export const Unvanquished: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Unvanquished is a free and open source FPS/RTS hybrid game powered by the Daemon game engine. Historically based on Tremulous as a continuation with decades of work over it.",
+  notesEs: "Unvanquished es un juego FPS/RTS híbrido libre y de código abierto sobre el motor Daemon. Nació como continuación de Tremulous y lleva años de trabajo encima.",
 };

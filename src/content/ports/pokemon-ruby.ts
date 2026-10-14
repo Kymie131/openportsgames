@@ -20,4 +20,11 @@ export const PokemonRuby: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg",
+    alt: "Pokemon Ruby (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Pokémon Ruby/Sapphire.",
+  notesEs: "Decompilación de Pokémon Ruby/Sapphire.",
 };

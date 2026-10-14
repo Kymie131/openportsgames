@@ -20,4 +20,6 @@ export const SheepDogNWolfSheepRaider: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation project of the game Sheep Wolf N Dog.",
+  notesEs: "Proyecto de decompilación del juego Sheep Wolf N Dog.",
 };

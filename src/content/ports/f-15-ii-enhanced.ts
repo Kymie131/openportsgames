@@ -20,4 +20,6 @@ export const F15IiEnhanced: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "MS-DOS",
+  notes: "Port of the reconstructed MS-DOS game F-15 Strike Eagle 2 to modern architectures, with bugfixes and enhancements.",
+  notesEs: "Port del reconstruido F-15 Strike Eagle 2 (MS-DOS) a arquitecturas modernas, con correcciones y mejoras.",
 };

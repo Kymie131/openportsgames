@@ -25,4 +25,6 @@ export const PokemonStadium2: Port = {
     alt: "Pokemon Stadium 2 (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decompilation of Pokémon Stadium 2 (US).",
+  notesEs: "Decompilación de Pokémon Stadium 2 (US).",
 };

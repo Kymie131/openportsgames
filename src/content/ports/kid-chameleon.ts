@@ -20,4 +20,11 @@ export const KidChameleon: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/75/Kid_Chameleon_Coverart.png",
+    alt: "Kid Chameleon (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Split disassembly of Kid Chameleon.",
+  notesEs: "Desensamblado dividido de Kid Chameleon.",
 };

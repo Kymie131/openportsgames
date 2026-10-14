@@ -20,4 +20,6 @@ export const Xenoblade: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Xenoblade (JP).",
+  notesEs: "Decompilación de Xenoblade (JP).",
 };

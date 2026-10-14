@@ -20,4 +20,6 @@ export const UnityUnderground: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Source port of Unity Underground (Other).",
+  notesEs: "Port del código fuente de Unity Underground (Other).",
 };

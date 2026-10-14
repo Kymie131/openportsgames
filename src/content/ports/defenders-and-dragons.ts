@@ -20,4 +20,6 @@ export const DefendersAndDragons: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Defenders & Dragons by Glu.",
+  notesEs: "Decompilación de Defenders & Dragons de Glu.",
 };

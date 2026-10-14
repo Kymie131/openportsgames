@@ -20,4 +20,11 @@ export const FortuneStreet: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/2f/FortuneStreet.jpg",
+    alt: "Fortune Street (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "A work-in-progress decompilation of Boom Street.",
+  notesEs: "Decompilación de Boom Street, en desarrollo.",
 };

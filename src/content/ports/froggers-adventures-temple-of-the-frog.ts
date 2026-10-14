@@ -25,4 +25,6 @@ export const FroggersAdventuresTempleOfTheFrog: Port = {
     alt: "Frogger's Adventures: Temple of the Frog (cover)",
     credit: "Wikipedia",
   },
+  notes: "A work in progress matching decompilation of Frogger's Adventures - Temple of the Frog.",
+  notesEs: "Decompilación que coincide de Frogger's Adventures: Temple of the Frog, en desarrollo.",
 };

@@ -20,4 +20,6 @@ export const ShadowTheHedgehog: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Shadow the Hedgehog (Other).",
+  notesEs: "Decompilación de Shadow the Hedgehog (Other).",
 };

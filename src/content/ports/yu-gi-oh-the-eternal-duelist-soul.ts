@@ -20,4 +20,11 @@ export const YuGiOhTheEternalDuelistSoul: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Game Boy Advance",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Yu-Gi-Oh!%20-%20The%20Eternal%20Duelist%20Soul%20(USA).png",
+    alt: "Yu-Gi-Oh! The Eternal Duelist Soul (box art)",
+    credit: "Box art",
+  },
+  notes: "Matching decompilation of Yu-Gi-Oh! The Eternal Duelist Soul (GBA). Bring your own ROM.",
+  notesEs: "Decompilación que coincide de Yu-Gi-Oh! The Eternal Duelist Soul (GBA). Aporta tu propia ROM.",
 };

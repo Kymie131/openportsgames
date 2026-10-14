@@ -20,4 +20,6 @@ export const StarfoxRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Super Nintendo",
+  notes: "Star Fox recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community.",
+  notesEs: "Star Fox recompilado para Super Nintendo con snesrecomp, parte de la comunidad R.A.I.D.",
 };

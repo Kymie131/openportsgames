@@ -20,4 +20,6 @@ export const AgeOfSpeed2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Age of Speed 2 Decompilation.",
+  notesEs: "Decompilación de Age of Speed 2.",
 };

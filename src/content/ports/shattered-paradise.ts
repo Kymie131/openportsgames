@@ -20,4 +20,6 @@ export const ShatteredParadise: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Shattered Paradise's main repository and installation Kit.",
+  notesEs: "Repositorio principal e instalador de Shattered Paradise.",
 };

@@ -25,4 +25,6 @@ export const ZeroK: Port = {
     alt: "Zero-K (cover)",
     credit: "Wikipedia",
   },
+  notes: "Open source RTS game running on the Spring/Recoil engine.",
+  notesEs: "Juego RTS de código abierto sobre el motor Spring/Recoil.",
 };

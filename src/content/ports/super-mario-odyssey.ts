@@ -20,4 +20,11 @@ export const SuperMarioOdyssey: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg",
+    alt: "Super Mario Odyssey (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Super Mario Odyssey for all versions.",
+  notesEs: "Decompilación de Super Mario Odyssey para todas las versiones.",
 };

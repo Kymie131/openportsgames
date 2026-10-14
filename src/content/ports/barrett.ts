@@ -20,4 +20,6 @@ export const Barrett: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Advanced and featureful Rise of the Triad source port for modern systems.",
+  notesEs: "Port avanzado y completo del código fuente de Rise of the Triad para sistemas modernos.",
 };

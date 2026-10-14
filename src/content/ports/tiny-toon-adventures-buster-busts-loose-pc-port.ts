@@ -20,4 +20,6 @@ export const TinyToonAdventuresBusterBustsLoosePcPort: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Super Nintendo",
+  notes: "Windows PC port of Tiny Toon Adventures: Buster Busts Loose! (SNES) with true widescreen, HUD re-anchoring, display options, cheats, level select and music player. Requires your own USA ROM.",
+  notesEs: "Port a PC (Windows) de Tiny Toon Adventures: Buster Busts Loose! (SNES) con panorámico real, reubicación del HUD, trucos, selección de nivel y reproductor de música. Requiere tu propia ROM USA.",
 };

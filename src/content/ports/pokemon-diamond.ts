@@ -25,4 +25,6 @@ export const PokemonDiamond: Port = {
     alt: "Pokemon Diamond (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decompilation of Pokémon Diamond/Pearl.",
+  notesEs: "Decompilación de Pokémon Diamond/Pearl.",
 };

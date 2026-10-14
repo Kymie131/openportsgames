@@ -20,4 +20,6 @@ export const F15Ii: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "MS-DOS",
+  notes: "Reconstructed source code for the Microprose game F-15 Strike Eagle 2 for MS-DOS.",
+  notesEs: "Reconstrucción del código fuente de F-15 Strike Eagle 2 de MicroProse para MS-DOS.",
 };

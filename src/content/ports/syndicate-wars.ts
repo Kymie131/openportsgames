@@ -20,4 +20,11 @@ export const SyndicateWars: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/ec/Syndicate_Wars_Coverart.png",
+    alt: "Syndicate Wars (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Syndicate Wars Fan Expansion, Open Source remake of the classic Bullfrog game.",
+  notesEs: "Expansión de fans de Syndicate Wars, remake de código abierto del clásico de Bullfrog.",
 };

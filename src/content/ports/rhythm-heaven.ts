@@ -25,4 +25,6 @@ export const RhythmHeaven: Port = {
     alt: "Rhythm Heaven (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decompilation for Rhythm Heaven (Nintendo DS).",
+  notesEs: "Decompilación de Rhythm Heaven (Nintendo DS).",
 };

@@ -20,4 +20,6 @@ export const SopwithSdlSopwith: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Classic bi-plane shoot-'em up.",
+  notesEs: "Clásico juego de disparos de biplano.",
 };

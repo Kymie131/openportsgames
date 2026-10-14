@@ -25,4 +25,6 @@ export const NhlLegacyEdition: Port = {
     alt: "NHL: Legacy Edition (cover)",
     credit: "Wikipedia",
   },
+  notes: "Static recompilation of NHL: Legacy Edition (Other).",
+  notesEs: "Recompilación estática de NHL: Legacy Edition (Other).",
 };

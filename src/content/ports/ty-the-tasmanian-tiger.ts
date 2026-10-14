@@ -20,4 +20,11 @@ export const TyTheTasmanianTiger: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/62/Ty_the_Tasmanian_Tiger_Coverart.jpg",
+    alt: "Ty the Tasmanian Tiger (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Ty the Tasmanian Tiger.",
+  notesEs: "Decompilación de Ty the Tasmanian Tiger.",
 };

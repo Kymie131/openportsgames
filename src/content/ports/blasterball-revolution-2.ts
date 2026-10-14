@@ -20,4 +20,6 @@ export const BlasterballRevolution2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Heavily WIP Decompilation of Blasterball Revolution 2.",
+  notesEs: "Decompilación de Blasterball Revolution 2, muy en desarrollo.",
 };

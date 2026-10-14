@@ -20,4 +20,6 @@ export const JohnnyHerbertsGrandPrixChampionship1998: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Johnny Herbert's Grand Prix Championship 1998 (Other).",
+  notesEs: "Decompilación de Johnny Herbert's Grand Prix Championship 1998 (Other).",
 };

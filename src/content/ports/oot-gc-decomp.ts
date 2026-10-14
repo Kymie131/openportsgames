@@ -24,4 +24,9 @@ export const ootGcDecomp: Port = {
     "Decompilation of the GameCube emulator build of Ocarina of Time (JP-CE). A research codebase; it requires game files from a copy you own.",
   notesEs:
     "Decompilación del emulador de Ocarina of Time incluido en la versión de GameCube (JP-CE). Código de investigación; requiere archivos del juego de una copia que poseas.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
+    alt: "The Legend of Zelda: Ocarina of Time (box art)",
+    credit: "Wikipedia",
+  },
 };

@@ -61,4 +61,9 @@ export const openTtd: Port = {
       "Lanza el juego y comienza una nueva partida; los recursos originales se usan automáticamente cuando están presentes.",
     ],
   },
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7f/Transport_Tycoon_Coverart.jpg",
+    alt: "Transport Tycoon Deluxe (box art)",
+    credit: "Wikipedia",
+  },
 };

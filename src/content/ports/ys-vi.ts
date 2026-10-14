@@ -20,4 +20,6 @@ export const YsVi: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Exploration of Ys VI DX8 on Steam using Ghidra.",
+  notesEs: "Exploración de Ys VI DX8 en Steam con Ghidra.",
 };

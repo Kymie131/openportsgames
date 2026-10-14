@@ -20,4 +20,11 @@ export const PokMonBlack2AndWhite2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/dd/Pokemon_White_2.png",
+    alt: "Pokémon Black 2 and White 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Pokémon Black 2 and White 2.",
+  notesEs: "Decompilación de Pokémon Black 2 y White 2.",
 };

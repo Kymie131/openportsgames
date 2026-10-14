@@ -20,4 +20,11 @@ export const HybridHeaven: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/db/Hybridheaven.jpg",
+    alt: "Hybrid Heaven (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Hybrid Heaven (Other).",
+  notesEs: "Decompilación de Hybrid Heaven (Other).",
 };

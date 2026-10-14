@@ -20,4 +20,11 @@ export const MonsterHunterPortable2ndG: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/01/MonsterHunterFreedomUnite.jpg",
+    alt: "Monster Hunter Portable 2nd G (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Byte-matching decompilation project for Monster Hunter Portable 2nd G.",
+  notesEs: "Proyecto de decompilación que coincide byte a byte de Monster Hunter Portable 2nd G.",
 };

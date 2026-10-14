@@ -20,4 +20,11 @@ export const DarkRift: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/84/Darkrift.jpg",
+    alt: "Dark Rift (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Dark Rift Decomp Project.",
+  notesEs: "Proyecto de decompilación de Dark Rift.",
 };

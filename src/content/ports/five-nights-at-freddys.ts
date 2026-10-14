@@ -25,4 +25,6 @@ export const FiveNightsAtFreddys: Port = {
     alt: "Five Nights At Freddy's (cover)",
     credit: "Wikipedia",
   },
+  notes: "A Five Nights at Freddy's Windows Phone Decompilation.",
+  notesEs: "Decompilación de Five Nights at Freddy's para Windows Phone.",
 };

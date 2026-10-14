@@ -25,4 +25,6 @@ export const Nocturne: Port = {
     alt: "Nocturne (cover)",
     credit: "Wikipedia",
   },
+  notes: "Nocturne Decompilation.",
+  notesEs: "Decompilación de Nocturne.",
 };

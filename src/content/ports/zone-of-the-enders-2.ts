@@ -20,4 +20,11 @@ export const ZoneOfTheEnders2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/fe/Zone_of_the_enders_2nd_runner.jpg",
+    alt: "Zone of the Enders 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Zone of the Enders 2, in progress.",
+  notesEs: "Decompilación de Zone of the Enders 2, en desarrollo.",
 };

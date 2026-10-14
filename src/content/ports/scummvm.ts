@@ -25,4 +25,6 @@ export const Scummvm: Port = {
     alt: "ScummVM (cover)",
     credit: "Wikipedia",
   },
+  notes: "ScummVM main repository.",
+  notesEs: "Repositorio principal de ScummVM.",
 };

@@ -20,4 +20,11 @@ export const MarioPartyDs: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo DS",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0f/Mario_Party_DS_US_cover.jpg",
+    alt: "Mario Party DS (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Mario Party DS (Nintendo DS).",
+  notesEs: "Decompilación de Mario Party DS (Nintendo DS).",
 };

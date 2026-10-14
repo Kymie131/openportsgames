@@ -20,4 +20,6 @@ export const InazumaEleven3SekaiENoChousenTheOgre: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo DS",
+  notes: "Decompilation of Inazuma Eleven 3 - Sekai e no Chousen: The Ogre!! (nds).",
+  notesEs: "Decompilación de Inazuma Eleven 3: Sekai e no Chousen!! The Ogre (NDS).",
 };

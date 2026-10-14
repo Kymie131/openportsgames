@@ -25,4 +25,6 @@ export const MvpBaseball2005: Port = {
     alt: "MVP Baseball 2005 (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decompilation and asset research for MVP Baseball 2005 (GameCube, GV4E69).",
+  notesEs: "Decompilación e investigación de recursos de MVP Baseball 2005 (GameCube, GV4E69).",
 };

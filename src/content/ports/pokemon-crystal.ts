@@ -25,4 +25,6 @@ export const PokemonCrystal: Port = {
     alt: "Pokemon Crystal (cover)",
     credit: "Wikipedia",
   },
+  notes: "Disassembly of Pokémon Crystal.",
+  notesEs: "Desensamblado de Pokémon Crystal.",
 };

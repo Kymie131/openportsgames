@@ -20,4 +20,6 @@ export const StarWarsEpisode1Racer: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Star Wars Episode 1 Racer Decompilation project.",
+  notesEs: "Proyecto de decompilación de Star Wars Episode I: Racer.",
 };

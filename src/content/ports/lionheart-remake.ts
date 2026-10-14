@@ -20,4 +20,6 @@ export const LionheartRemake: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Java remake of Lionheart amiga game.",
+  notesEs: "Remake en Java del juego Lionheart de Amiga.",
 };

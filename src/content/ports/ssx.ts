@@ -20,4 +20,6 @@ export const Ssx: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of SSX (2000).",
+  notesEs: "Decompilación de SSX (2000).",
 };

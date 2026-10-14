@@ -20,4 +20,6 @@ export const AlexbeavsPs1RecompsPsxrecompPorts: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "PlayStation",
+  notes: "Unofficial noncommercial PlayStation recompilation releases.",
+  notesEs: "Publicaciones de recompilación de PlayStation no oficiales y sin ánimo de lucro.",
 };

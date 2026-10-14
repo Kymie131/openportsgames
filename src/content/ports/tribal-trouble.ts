@@ -20,4 +20,6 @@ export const TribalTrouble: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Source port of Tribal Trouble (Other).",
+  notesEs: "Port del código fuente de Tribal Trouble (Other).",
 };

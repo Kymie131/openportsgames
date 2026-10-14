@@ -20,4 +20,6 @@ export const RomanovsVengeance: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Romanov's Vengeance is an OpenRA mod based on Red Alert 2.",
+  notesEs: "Romanov's Vengeance es un mod de OpenRA basado en Red Alert 2.",
 };

@@ -35,4 +35,9 @@ export const simpsonsArcadePs3: Port = {
       credit: "sp00nznet/simpsonsarcade-ps3",
     },
   ],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/0/00/The_Simpsons_Arcade_Game.jpg",
+    alt: "The Simpsons Arcade Game (box art)",
+    credit: "Wikipedia",
+  },
 };

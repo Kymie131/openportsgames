@@ -20,4 +20,6 @@ export const Heavymetal: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "A static recompilation of Heavy Metal: FAKK2 (2000) targeting modern Windows 11 x86-64.",
+  notesEs: "Recompilación estática de Heavy Metal: FAKK2 (2000) para Windows 11 x86-64 moderno.",
 };

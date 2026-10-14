@@ -20,4 +20,6 @@ export const DrBrainActionReaction: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompiled Assets From Dr Brain Action Reaction (1999).",
+  notesEs: "Recursos decompilados de Dr. Brain: Action Reaction (1999).",
 };

@@ -20,4 +20,6 @@ export const FordRacing: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "A work-in-progress non-matching decompilation of Ford Racing (2000) video game.",
+  notesEs: "Decompilación no exacta de Ford Racing (2000), en desarrollo.",
 };

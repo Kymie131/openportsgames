@@ -25,4 +25,6 @@ export const OutpostKalokiX: Port = {
     alt: "Outpost Kaloki X (cover)",
     credit: "Wikipedia",
   },
+  notes: "Native PC port of the XBLA game Outpost Kaloki X via static recompilation (ReXGlue). Bring your own game files.",
+  notesEs: "Port para PC nativo del juego XBLA Outpost Kaloki X mediante recompilación estática (ReXGlue). Aporta tus propios archivos.",
 };

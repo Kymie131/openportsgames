@@ -20,4 +20,6 @@ export const SerialExperimentsLain: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "PlayStation",
+  notes: "Decompilation of Serial Experiments Lain (PlayStation) and a native Windows, macOS and Linux client.",
+  notesEs: "Decompilación de Serial Experiments Lain (PlayStation) y cliente nativo para Windows, macOS y Linux.",
 };

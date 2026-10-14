@@ -20,4 +20,6 @@ export const Openxw: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Source port of OpenXW (Other).",
+  notesEs: "Port del código fuente de OpenXW (Other).",
 };

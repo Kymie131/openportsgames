@@ -20,4 +20,6 @@ export const UndertaleXboxOne: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Xbox",
+  notes: "UNDERTALE Xbox v1.13X Decompilation.",
+  notesEs: "Decompilación de UNDERTALE Xbox v1.13X.",
 };

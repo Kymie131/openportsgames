@@ -20,4 +20,11 @@ export const ChronoCross: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/9a/Chronocrossbox.jpg",
+    alt: "Chrono Cross (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "A 100% matching Chrono Cross decompilation, based on the Radical Dreamers version.",
+  notesEs: "Decompilación 100% exacta de Chrono Cross, basada en la versión Radical Dreamers.",
 };

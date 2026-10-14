@@ -20,4 +20,11 @@ export const Tombi: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "PlayStation",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/75/Tomba%21_NTSC.png",
+    alt: "Tombi! (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "A work-in-progress matching decompilation of Tombi! (known as Tomba! in North America and Ore! Tomba in Japan) for the original PlayStation. The goal is C source code that compiles, with the game's original toolchain, into byte-identical machine code.",
+  notesEs: "Decompilación que coincide de Tombi! (Tomba! en Norteamérica y Ore! Tomba en Japón) para el PlayStation original, en desarrollo. El objetivo es código C que compile, con las herramientas originales del juego, a código máquina idéntico byte a byte.",
 };

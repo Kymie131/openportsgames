@@ -20,4 +20,11 @@ export const BigBrainAcademyWiiDegree: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Wii",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/Big%20Brain%20Academy%20-%20Wii%20Degree%20(USA)%20(En,Fr,Es).png",
+    alt: "Big Brain Academy: Wii Degree (box art)",
+    credit: "Box art",
+  },
+  notes: "Matching decompilation of Big Brain Academy: Wii Degree.",
+  notesEs: "Decompilación que coincide de Big Brain Academy: Wii Degree.",
 };

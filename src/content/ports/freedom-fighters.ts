@@ -20,4 +20,6 @@ export const FreedomFighters: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation project of Freedom Fighters.",
+  notesEs: "Proyecto de decompilación de Freedom Fighters.",
 };

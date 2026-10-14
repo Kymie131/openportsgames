@@ -20,4 +20,6 @@ export const TouhouKoumakyouTheEmbodimentOfScarletDevil: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of 東方紅魔郷 ～ the Embodiment of Scarlet Devil (1.02h).",
+  notesEs: "Decompilación de 東方紅魔郷 ～ the Embodiment of Scarlet Devil (1.02h).",
 };

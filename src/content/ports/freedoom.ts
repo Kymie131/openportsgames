@@ -20,4 +20,6 @@ export const Freedoom: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Freedoom is an entirely free software game based on the Doom engine.",
+  notesEs: "Freedoom es un juego totalmente libre basado en el motor de Doom.",
 };

@@ -20,4 +20,6 @@ export const Openxvt: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Source port of OpenXvT (Other).",
+  notesEs: "Port del código fuente de OpenXvT (Other).",
 };

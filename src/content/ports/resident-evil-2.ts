@@ -20,4 +20,11 @@ export const ResidentEvil2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/40/NTSC_Resident_Evil_2_Cover.png",
+    alt: "Resident Evil 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Open source re-implementation of the original Resident Evil 2 / Biohazard 2.",
+  notesEs: "Reimplementación de código abierto del Resident Evil 2 / Biohazard 2 original.",
 };

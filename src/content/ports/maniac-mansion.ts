@@ -25,4 +25,6 @@ export const ManiacMansion: Port = {
     alt: "Maniac Mansion (cover)",
     credit: "Wikipedia",
   },
+  notes: "Maniac Mansion C64 explained.",
+  notesEs: "Maniac Mansion para C64 explicado.",
 };

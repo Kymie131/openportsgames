@@ -20,4 +20,6 @@ export const SpeedAcademy: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Source port of the singleplayer of Star Wars Jedi Knight: Jedi Academy.",
+  notesEs: "Port del código fuente del modo un jugador de Star Wars Jedi Knight: Jedi Academy.",
 };

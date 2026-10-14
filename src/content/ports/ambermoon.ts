@@ -25,4 +25,6 @@ export const Ambermoon: Port = {
     alt: "Ambermoon (cover)",
     credit: "Wikipedia",
   },
+  notes: "Ambermoon rewrite in C#.",
+  notesEs: "Reescritura de Ambermoon en C#.",
 };

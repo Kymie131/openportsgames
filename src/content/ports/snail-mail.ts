@@ -20,4 +20,6 @@ export const SnailMail: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Snail Mail (Other).",
+  notesEs: "Decompilación de Snail Mail (Other).",
 };

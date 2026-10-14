@@ -25,4 +25,6 @@ export const Simutrans: Port = {
     alt: "simutrans (cover)",
     credit: "Wikipedia",
   },
+  notes: "Source port of simutrans (Other).",
+  notesEs: "Port del código fuente de simutrans (Other).",
 };

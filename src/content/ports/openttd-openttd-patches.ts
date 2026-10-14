@@ -20,4 +20,6 @@ export const OpenttdOpenttdPatches: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "OpenTTD - http://www.openttd.org/ - with additional patches.",
+  notesEs: "OpenTTD (openttd.org) con parches adicionales.",
 };

@@ -20,4 +20,6 @@ export const Mother12Japan: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Mother 1+2 (Japan) (Other).",
+  notesEs: "Decompilación de Mother 1+2 (Japan) (Other).",
 };

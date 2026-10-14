@@ -25,4 +25,6 @@ export const GauntletLegends: Port = {
     alt: "Gauntlet Legends (cover)",
     credit: "Wikipedia",
   },
+  notes: "in-progress decompilation of Gauntlet Legends for the N64.",
+  notesEs: "Decompilación de Gauntlet Legends para N64, en desarrollo.",
 };

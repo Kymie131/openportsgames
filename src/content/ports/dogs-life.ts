@@ -25,4 +25,6 @@ export const DogsLife: Port = {
     alt: "Dog's Life (cover)",
     credit: "Wikipedia",
   },
+  notes: "Dog's Life Decompilation Project.",
+  notesEs: "Proyecto de decompilación de Dog's Life.",
 };

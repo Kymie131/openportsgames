@@ -183,6 +183,7 @@ import { paperMarioPaperboat } from "./paper-mario-paperboat";
 import { animalCrossingPcPort } from "./animal-crossing-pc-port";
 import { metroidPrimePort } from "./metroid-prime-port";
 import { haloCeUniversal } from "./halo-ce-universal";
+import { haloCeWeb } from "./halo-ce-web";
 import { lostOdysseyRecomp } from "./lost-odyssey-recomp";
 import { deadRising2CaseZeroRecomp } from "./dead-rising-2-case-zero-recomp";
 import { ninjaGaiden2Recomp } from "./ninja-gaiden-2-recomp";
@@ -1389,6 +1390,7 @@ export const portCases: Port[] = [
   animalCrossingPcPort,
   metroidPrimePort,
   haloCeUniversal,
+  haloCeWeb,
   lostOdysseyRecomp,
   deadRising2CaseZeroRecomp,
   ninjaGaiden2Recomp,

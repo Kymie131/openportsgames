@@ -20,4 +20,11 @@ export const WcwNwoThunder: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "PlayStation",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e9/WCW_nWo_Thunder_Coverart.png",
+    alt: "WCW/nWo Thunder (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of the WCW/nWo Thunder video game on PlayStation.",
+  notesEs: "Decompilación del videojuego WCW/nWo Thunder para PlayStation.",
 };

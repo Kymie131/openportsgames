@@ -20,4 +20,6 @@ export const ShinBokuraNoTaiyouGyakushuuNoSabata: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Shin Bokura no Taiyou: Gyakushuu no Sabata (Other).",
+  notesEs: "Decompilación de Shin Bokura no Taiyou: Gyakushuu no Sabata (Other).",
 };

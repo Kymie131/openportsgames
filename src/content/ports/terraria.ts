@@ -20,4 +20,6 @@ export const Terraria: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "PlayStation 3",
+  notes: "A functional decompilation & PC port of the console version of Terraria released on the Xbox 360 & PS3 in 2013.",
+  notesEs: "Decompilación funcional y port a PC de la versión de consola de Terraria lanzada en Xbox 360 y PS3 en 2013.",
 };

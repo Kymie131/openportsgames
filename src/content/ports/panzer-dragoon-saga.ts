@@ -20,4 +20,11 @@ export const PanzerDragoonSaga: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/64/PanzerDragoonSagaBox.jpg",
+    alt: "Panzer Dragoon Saga (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Reverse engineering of Panzer Dragoon Saga.",
+  notesEs: "Ingeniería inversa de Panzer Dragoon Saga.",
 };

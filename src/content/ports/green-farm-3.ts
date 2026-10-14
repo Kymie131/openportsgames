@@ -20,4 +20,6 @@ export const GreenFarm3: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Green Farm 3.",
+  notesEs: "Decompilación de Green Farm 3.",
 };

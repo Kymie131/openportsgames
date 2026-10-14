@@ -20,4 +20,6 @@ export const KuonMulberry: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Kuon (Mulberry) (Other).",
+  notesEs: "Decompilación de Kuon (Mulberry) (Other).",
 };

@@ -20,4 +20,11 @@ export const StretchPanic: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "PlayStation 2",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Stretch%20Panic%20(USA).png",
+    alt: "Stretch Panic (box art)",
+    credit: "Box art",
+  },
+  notes: "Matching decompilation of Stretch Panic (USA, SLUS_201.82) for PlayStation 2.",
+  notesEs: "Decompilación que coincide de Stretch Panic (USA, SLUS_201.82) para PlayStation 2.",
 };

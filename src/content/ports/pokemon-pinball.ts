@@ -25,4 +25,6 @@ export const PokemonPinball: Port = {
     alt: "Pokemon Pinball (cover)",
     credit: "Wikipedia",
   },
+  notes: "Disassembly of Pokémon Pinball.",
+  notesEs: "Desensamblado de Pokémon Pinball.",
 };

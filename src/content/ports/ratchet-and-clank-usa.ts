@@ -20,4 +20,6 @@ export const RatchetAndClankUsa: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Preserving Ratchet & Clank (2002) through decompilation.",
+  notesEs: "Preservación de Ratchet & Clank (2002) mediante decompilación.",
 };

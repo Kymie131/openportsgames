@@ -25,4 +25,6 @@ export const Chulip: Port = {
     alt: "Chulip (cover)",
     credit: "Wikipedia",
   },
+  notes: "Matching decompilation of Chulip (USA) for PlayStation 2.",
+  notesEs: "Decompilación que coincide de Chulip (USA) para PlayStation 2.",
 };

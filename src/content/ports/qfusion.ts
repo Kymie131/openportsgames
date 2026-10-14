@@ -20,4 +20,11 @@ export const Qfusion: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b8/Quake2b.jpg",
+    alt: "qfusion (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Source code for cross-platform OpenGL gaming engine.",
+  notesEs: "Código fuente de un motor de juego OpenGL multiplataforma.",
 };

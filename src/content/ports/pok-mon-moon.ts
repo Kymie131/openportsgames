@@ -25,4 +25,6 @@ export const PokMonMoon: Port = {
     alt: "Pokémon Moon (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decompilation of Pokémon Moon.",
+  notesEs: "Decompilación de Pokémon Moon.",
 };

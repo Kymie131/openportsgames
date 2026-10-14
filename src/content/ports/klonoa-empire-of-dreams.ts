@@ -20,4 +20,11 @@ export const KlonoaEmpireOfDreams: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/70/Klonoa_Empire_of_Dreams_Packaging02.jpg",
+    alt: "Klonoa: Empire of Dreams (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Klonoa: Empire of Dreams.",
+  notesEs: "Decompilación de Klonoa: Empire of Dreams.",
 };

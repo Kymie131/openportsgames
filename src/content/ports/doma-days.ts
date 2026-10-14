@@ -20,4 +20,6 @@ export const DomaDays: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "A decompilation of the Big Blue Bubble game `DOMA Days` (v1.01).",
+  notesEs: "Decompilación del juego de Big Blue Bubble «DOMA Days» (v1.01).",
 };

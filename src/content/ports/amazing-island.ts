@@ -20,4 +20,11 @@ export const AmazingIsland: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7b/Amazing_Island.jpg",
+    alt: "Amazing Island (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "WIP Amazing Island decompilation.",
+  notesEs: "Decompilación de Amazing Island, en desarrollo.",
 };

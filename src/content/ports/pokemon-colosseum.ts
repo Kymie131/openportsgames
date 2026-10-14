@@ -20,4 +20,11 @@ export const PokemonColosseum: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d5/Pok%C3%A9mon_Colosseum_Coverart.png",
+    alt: "Pokemon Colosseum (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "completely unhinged ai decompilation project for pokemon colosseum. you hate to see it.",
+  notesEs: "Proyecto de decompilación de Pokémon Colosseum asistido por IA.",
 };

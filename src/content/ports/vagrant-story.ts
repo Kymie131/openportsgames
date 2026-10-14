@@ -20,4 +20,11 @@ export const VagrantStory: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a3/Vagrantstorybox.jpg",
+    alt: "Vagrant Story (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "a Vagrant Story byte-matching decompilation.",
+  notesEs: "Decompilación byte a byte de Vagrant Story.",
 };

@@ -20,4 +20,6 @@ export const Deltarune: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "DELTARUNE Decompilation.",
+  notesEs: "Decompilación de DELTARUNE.",
 };

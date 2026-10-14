@@ -20,4 +20,6 @@ export const KomputerowaGratka3dMagicznaKulaPapatki: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Recompilation project of \"Magiczna kula Papatki\".",
+  notesEs: "Proyecto de recompilación de «Magiczna kula Papatki».",
 };

@@ -25,4 +25,6 @@ export const Paperboy: Port = {
     alt: "Paperboy (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decompilation of Paperboy (N64).",
+  notesEs: "Decompilación de Paperboy (N64).",
 };

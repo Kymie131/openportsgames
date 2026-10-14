@@ -20,4 +20,11 @@ export const Vangers: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8d/Vangers_Coverart.png",
+    alt: "Vangers (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The video game that combines elements of the racing and role-playing genres.",
+  notesEs: "El videojuego que combina elementos de carreras y rol.",
 };

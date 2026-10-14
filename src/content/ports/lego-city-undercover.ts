@@ -20,4 +20,11 @@ export const LegoCityUndercover: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5b/LegoCityUndercover.jpg",
+    alt: "Lego City Undercover (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Lego City Undercover (Other).",
+  notesEs: "Decompilación de Lego City Undercover (Other).",
 };

@@ -25,4 +25,6 @@ export const ExciteTruck: Port = {
     alt: "Excite Truck (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decompilation of Excite Truck (Other).",
+  notesEs: "Decompilación de Excite Truck (Other).",
 };

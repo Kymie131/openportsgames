@@ -20,4 +20,6 @@ export const O21: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Arcade",
+  notes: "FOSS remake of U95, an old submarine arcade game from 1995.",
+  notesEs: "Remake libre de U95, un antiguo juego arcade de submarinos de 1995.",
 };

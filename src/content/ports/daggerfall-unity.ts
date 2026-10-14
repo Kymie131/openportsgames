@@ -61,4 +61,9 @@ export const daggerfallUnity: Port = {
       "Elige los mods opcionales y las opciones de dificultad clásica que prefieras y, después, inicia el juego.",
     ],
   },
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a4/Daggerfall_Cover_art.gif",
+    alt: "The Elder Scrolls II: Daggerfall (box art)",
+    credit: "Wikipedia",
+  },
 };

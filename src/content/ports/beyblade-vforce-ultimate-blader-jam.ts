@@ -20,4 +20,6 @@ export const BeybladeVforceUltimateBladerJam: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Game Boy Advance",
+  notes: "Decompilation of Beyblade VForce: Ultimate Blader Jam (Game Boy Advance).",
+  notesEs: "Decompilación de Beyblade VForce: Ultimate Blader Jam (Game Boy Advance).",
 };

@@ -20,4 +20,6 @@ export const Wc2Re: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Wing Commander 2 source reconstruction and SDL2 port.",
+  notesEs: "Reconstrucción del código fuente y port a SDL2 de Wing Commander 2.",
 };

@@ -20,4 +20,11 @@ export const PeggleDeluxe: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c5/Peggle_Steam.jpg",
+    alt: "Peggle Deluxe (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "WIP Decompilation of Peggle Deluxe 1.01.",
+  notesEs: "Decompilación de Peggle Deluxe 1.01, en desarrollo.",
 };

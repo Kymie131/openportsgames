@@ -20,4 +20,11 @@ export const Ssx3: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/43/SSX_3_Coverart.png",
+    alt: "SSX 3 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of SSX 3 (2003).",
+  notesEs: "Decompilación de SSX 3 (2003).",
 };

@@ -20,4 +20,6 @@ export const FateExtella: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Fate EXTELLA Decompilation.",
+  notesEs: "Decompilación de Fate/EXTELLA.",
 };

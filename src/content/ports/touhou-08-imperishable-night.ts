@@ -20,4 +20,6 @@ export const Touhou08ImperishableNight: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Touhou 08: Imperishable Night (Other).",
+  notesEs: "Decompilación de Touhou 08: Imperishable Night (Other).",
 };

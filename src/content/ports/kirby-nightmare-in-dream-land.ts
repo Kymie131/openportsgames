@@ -25,4 +25,6 @@ export const KirbyNightmareInDreamLand: Port = {
     alt: "Kirby: Nightmare in Dream Land (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decompilation of Kirby: Nightmare in Dream Land (Other).",
+  notesEs: "Decompilación de Kirby: Nightmare in Dream Land (Other).",
 };

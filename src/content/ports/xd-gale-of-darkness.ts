@@ -20,4 +20,6 @@ export const XdGaleOfDarkness: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "GameCube",
+  notes: "A decompilation of Pokemon XD for the Nintendo GameCube.",
+  notesEs: "Una decompilación de Pokémon XD para Nintendo GameCube.",
 };

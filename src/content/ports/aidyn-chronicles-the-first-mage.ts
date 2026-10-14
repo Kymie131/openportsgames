@@ -25,4 +25,6 @@ export const AidynChroniclesTheFirstMage: Port = {
     alt: "Aidyn Chronicles: The First Mage (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decompilation of Aidyn Chronicles: the First Mage on the Nintendo 64.",
+  notesEs: "Decompilación de Aidyn Chronicles: The First Mage para Nintendo 64.",
 };

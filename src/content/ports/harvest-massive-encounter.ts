@@ -20,4 +20,6 @@ export const HarvestMassiveEncounter: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "harvest: massive encounter / matching decompilation and modern port.",
+  notesEs: "harvest: massive encounter / decompilación que coincide y port moderno.",
 };

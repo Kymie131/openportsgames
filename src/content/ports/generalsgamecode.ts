@@ -20,4 +20,6 @@ export const Generalsgamecode: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Command and Conquer: Generals - Zero Hour.",
+  notesEs: "Command and Conquer: Generals - Zero Hour.",
 };

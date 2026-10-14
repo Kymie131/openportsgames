@@ -20,4 +20,6 @@ export const SpaceRangers: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "A matching Delphi decompilation of Space Rangers 1 - Космические рейнджеры.",
+  notesEs: "Decompilación que coincide en Delphi de Space Rangers 1.",
 };

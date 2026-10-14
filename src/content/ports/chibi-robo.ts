@@ -25,4 +25,6 @@ export const ChibiRobo: Port = {
     alt: "Chibi-Robo! (cover)",
     credit: "Wikipedia",
   },
+  notes: "Chibi-Robo: PIA Decompilation.",
+  notesEs: "Decompilación de Chibi-Robo: PIA.",
 };

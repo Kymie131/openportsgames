@@ -20,4 +20,6 @@ export const TailsAdventureTailsAdventureRemake: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Tails Adventure remade from the ground up for PC and Android.",
+  notesEs: "Tails Adventure rehacido desde cero para PC y Android.",
 };

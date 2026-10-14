@@ -20,4 +20,11 @@ export const SonicHeroes: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "GameCube",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Sonic%20Heroes%20(Europe)%20(En,Ja,Fr,De,Es,It).png",
+    alt: "Sonic Heroes (box art)",
+    credit: "Box art",
+  },
+  notes: "Decompilation of Sonic Heroes for the Nintendo GameCube.",
+  notesEs: "Decompilación de Sonic Heroes para Nintendo GameCube.",
 };

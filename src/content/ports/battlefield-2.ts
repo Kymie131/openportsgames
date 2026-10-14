@@ -25,4 +25,6 @@ export const Battlefield2: Port = {
     alt: "Battlefield 2 (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decompilation of Battlefield 2/2142.",
+  notesEs: "Decompilación de Battlefield 2/2142.",
 };

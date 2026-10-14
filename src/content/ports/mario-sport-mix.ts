@@ -20,4 +20,6 @@ export const MarioSportMix: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Mario Sport Mix decompilation.",
+  notesEs: "Decompilación de Mario Sport Mix.",
 };

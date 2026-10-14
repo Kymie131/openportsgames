@@ -20,4 +20,11 @@ export const FireEmblemTheBlazingBlade: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e2/GBA_Fire_Emblem_Box.jpg",
+    alt: "Fire Emblem: The Blazing Blade (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of: Fire Emblem - Rekka no Ken (Japan) (FE7J).",
+  notesEs: "Decompilación de Fire Emblem: Rekka no Ken (Japón) (FE7J).",
 };

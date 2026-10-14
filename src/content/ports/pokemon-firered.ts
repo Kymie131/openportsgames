@@ -20,4 +20,6 @@ export const PokemonFirered: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Pokémon FireRed/LeafGreen.",
+  notesEs: "Decompilación de Pokémon FireRed/LeafGreen.",
 };

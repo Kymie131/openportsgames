@@ -20,4 +20,11 @@ export const FireEmblemShadowDragon: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/9b/Fire_Emblem_DS.jpg",
+    alt: "Fire Emblem: Shadow Dragon (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Fire Emblem: Shadow Dragon (Other).",
+  notesEs: "Decompilación de Fire Emblem: Shadow Dragon (Other).",
 };

@@ -25,4 +25,6 @@ export const PokemonGold: Port = {
     alt: "Pokemon Gold (cover)",
     credit: "Wikipedia",
   },
+  notes: "Disassembly of Pokémon Gold/Silver.",
+  notesEs: "Desensamblado de Pokémon Gold/Silver.",
 };

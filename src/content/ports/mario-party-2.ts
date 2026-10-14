@@ -20,4 +20,11 @@ export const MarioParty2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/23/Marioparty2.jpg",
+    alt: "Mario Party 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Mario Party 2 US Decomp.",
+  notesEs: "Decompilación de Mario Party 2 (US).",
 };

@@ -45,4 +45,9 @@ export const rbDoom3Bfg: Port = {
       credit: "RobertBeckebans",
     },
   ],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/4e/Doom3box.jpg",
+    alt: "Doom 3 BFG Edition (box art)",
+    credit: "Wikipedia",
+  },
 };

@@ -20,4 +20,6 @@ export const Maxr: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "A turn based strategy game.",
+  notesEs: "Un juego de estrategia por turnos.",
 };

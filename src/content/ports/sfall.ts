@@ -20,4 +20,6 @@ export const Sfall: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "sfall - Engine modifications for Fallout 2.",
+  notesEs: "sfall: modificaciones del motor de Fallout 2.",
 };

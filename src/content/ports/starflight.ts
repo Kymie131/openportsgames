@@ -20,4 +20,11 @@ export const Starflight: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/1c/Starflight_cover.jpg",
+    alt: "Starflight (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Reverse engineered game Starflight (1986).",
+  notesEs: "Ingeniería inversa del juego Starflight (1986).",
 };

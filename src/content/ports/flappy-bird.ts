@@ -20,4 +20,6 @@ export const FlappyBird: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "A Flappy Bird Windows Phone Decompilation.",
+  notesEs: "Decompilación de Flappy Bird para Windows Phone.",
 };

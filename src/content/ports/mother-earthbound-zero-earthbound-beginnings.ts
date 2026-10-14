@@ -20,4 +20,6 @@ export const MotherEarthboundZeroEarthboundBeginnings: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo Entertainment System",
+  notes: "Disassembly of Mother/Earthbound Zero/Earthbound Beginnings for the NES.",
+  notesEs: "Desensamblado de Mother/EarthBound Zero/EarthBound Beginnings para NES.",
 };

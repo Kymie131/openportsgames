@@ -20,4 +20,6 @@ export const Thinker: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Improved game engine features for SMACX.",
+  notesEs: "Funciones de motor mejoradas para SMACX.",
 };

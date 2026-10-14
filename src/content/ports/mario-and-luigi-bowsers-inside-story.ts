@@ -20,4 +20,11 @@ export const MarioAndLuigiBowsersInsideStory: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo DS",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/69/Mario_%26_Luigi_3_NA_Cover.PNG",
+    alt: "Mario & Luigi: Bowser's Inside Story (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "A work-in-progress matching decompilation of Mario & Luigi: Bowser's Inside Story (Nintendo DS).",
+  notesEs: "Decompilación que coincide de Mario & Luigi: Bowser's Inside Story (Nintendo DS), en desarrollo.",
 };

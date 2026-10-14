@@ -20,4 +20,11 @@ export const MarioParty9: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f0/Mario_Party_9_US_cover.jpg",
+    alt: "Mario Party 9 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Mario Party 9 (Other).",
+  notesEs: "Decompilación de Mario Party 9 (Other).",
 };

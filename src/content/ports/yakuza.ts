@@ -20,4 +20,6 @@ export const Yakuza: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Yakuza 1 Decompilation.",
+  notesEs: "Decompilación de Yakuza 1.",
 };

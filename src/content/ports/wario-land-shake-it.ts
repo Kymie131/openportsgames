@@ -20,4 +20,11 @@ export const WarioLandShakeIt: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/3a/Wario_Land_Shake_It%21_Box_Art.png",
+    alt: "Wario Land: Shake It! (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Wario Land: Shake It! decompilation.",
+  notesEs: "Decompilación de Wario Land: Shake It!",
 };

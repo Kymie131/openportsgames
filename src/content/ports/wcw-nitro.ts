@@ -25,4 +25,6 @@ export const WcwNitro: Port = {
     alt: "WCW Nitro (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decompilation of the WCW Nitro video game on PlayStation.",
+  notesEs: "Decompilación del videojuego WCW Nitro para PlayStation.",
 };

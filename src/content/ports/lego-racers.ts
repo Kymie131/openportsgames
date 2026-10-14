@@ -25,4 +25,6 @@ export const LegoRacers: Port = {
     alt: "Lego Racers (cover)",
     credit: "Wikipedia",
   },
+  notes: "A decompilation of LEGO Racers (1999).",
+  notesEs: "Una decompilación de LEGO Racers (1999).",
 };

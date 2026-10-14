@@ -25,4 +25,6 @@ export const AliceInWonderland: Port = {
     alt: "Alice in Wonderland (cover)",
     credit: "Wikipedia",
   },
+  notes: "A decompilation of Alice in Wonderland (Wii 2010) by Étranges Libellules.",
+  notesEs: "Decompilación de Alice in Wonderland (Wii, 2010) de Étranges Libellules.",
 };

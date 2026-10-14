@@ -20,4 +20,11 @@ export const SummonerAGoddessReborn: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/80/Summoner_2_Coverart.png",
+    alt: "Summoner: A Goddess Reborn (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Summoner: A Goddess Reborn (Other).",
+  notesEs: "Decompilación de Summoner: A Goddess Reborn (Other).",
 };

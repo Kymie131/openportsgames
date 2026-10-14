@@ -25,4 +25,6 @@ export const JumpingFlash: Port = {
     alt: "Jumping Flash (cover)",
     credit: "Wikipedia",
   },
+  notes: "A decompilation and reverse engineering of Jumping Flash for PSX.",
+  notesEs: "Decompilación e ingeniería inversa de Jumping Flash para PSX.",
 };

@@ -20,4 +20,6 @@ export const Underworldgodot: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Engine recreation for Ultima Underworld and Ultima Underworld 2 using the Godot Engine.",
+  notesEs: "Recreación del motor de Ultima Underworld y Ultima Underworld 2 con el motor Godot.",
 };

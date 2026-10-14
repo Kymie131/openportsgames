@@ -20,4 +20,6 @@ export const Glkeeper: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Open Source Dungeon Keeper 2 Reimplementation.",
+  notesEs: "Reimplementación de código abierto de Dungeon Keeper 2.",
 };

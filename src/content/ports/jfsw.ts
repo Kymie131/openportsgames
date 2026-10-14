@@ -20,4 +20,6 @@ export const Jfsw: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Port of the 3D Realms game \"Shadow Warrior\".",
+  notesEs: "Port del juego de 3D Realms «Shadow Warrior».",
 };

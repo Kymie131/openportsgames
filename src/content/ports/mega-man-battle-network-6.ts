@@ -20,4 +20,11 @@ export const MegaManBattleNetwork6: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0b/MegaManBattleNetwork6_1.jpg",
+    alt: "Mega Man Battle Network 6 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Disassembly of MegaMan Battle Network 6 with Cybeast Falzar as baserom.",
+  notesEs: "Desensamblado de MegaMan Battle Network 6 usando Cybeast Falzar como baserom.",
 };

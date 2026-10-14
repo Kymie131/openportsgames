@@ -20,4 +20,6 @@ export const TransformersMysteryOfConvoy: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Transformers: Mystery Of Convoy (Other).",
+  notesEs: "Decompilación de Transformers: Mystery Of Convoy (Other).",
 };

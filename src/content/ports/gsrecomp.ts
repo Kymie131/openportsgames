@@ -20,4 +20,6 @@ export const Gsrecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Static recompilation of GSRecomp (Other).",
+  notesEs: "Recompilación estática de GSRecomp (Other).",
 };

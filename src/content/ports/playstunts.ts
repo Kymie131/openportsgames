@@ -20,4 +20,6 @@ export const Playstunts: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Native browser reconstruction of Stunts / 4D Sports Driving, with tools to build from your own original game files.",
+  notesEs: "Reconstrucción nativa para navegador de Stunts / 4D Sports Driving, con herramientas para compilar desde tus propios archivos originales.",
 };

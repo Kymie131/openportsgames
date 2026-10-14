@@ -20,4 +20,6 @@ export const Bounce: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation/deobfuscation of 2001 javame game Bounce.",
+  notesEs: "Decompilación/desofuscación del juego J2ME Bounce (2001).",
 };

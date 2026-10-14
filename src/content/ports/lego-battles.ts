@@ -20,4 +20,11 @@ export const LegoBattles: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo DS",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/02/Lego_Battles.jpg",
+    alt: "Lego Battles (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "A decompilation of the DS game Lego Battles.",
+  notesEs: "Una decompilación del juego de DS Lego Battles.",
 };

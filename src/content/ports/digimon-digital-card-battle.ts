@@ -20,4 +20,6 @@ export const DigimonDigitalCardBattle: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Digimon: Digital Card Battle (Other).",
+  notesEs: "Decompilación de Digimon: Digital Card Battle (Other).",
 };

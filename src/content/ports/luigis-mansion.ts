@@ -20,4 +20,11 @@ export const LuigisMansion: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5e/Lmbox.jpg",
+    alt: "Luigi's Mansion (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "A decompilation of Luigi's Mansion brought to you by a bunch of clever folks.",
+  notesEs: "Una decompilación de Luigi's Mansion creada por un grupo de personas habilidosas.",
 };

@@ -20,4 +20,11 @@ export const PokemonSnap: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo 64",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Pokemon%20Snap%20(Australia).png",
+    alt: "Pokemon Snap (box art)",
+    credit: "Box art",
+  },
+  notes: "Static recompilation of Pokémon Snap (N64, 1999) for PC platforms (Windows, Linux, macOS).",
+  notesEs: "Recompilación estática de Pokémon Snap (N64, 1999) para PC (Windows, Linux, macOS).",
 };

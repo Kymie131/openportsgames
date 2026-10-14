@@ -25,4 +25,6 @@ export const DragonBallZBudokai2: Port = {
     alt: "Dragon Ball Z: Budokai 2 (cover)",
     credit: "Wikipedia",
   },
+  notes: "A heavy WIP decompilation of Dragon Ball Z: Budokai 2.",
+  notesEs: "Decompilación de Dragon Ball Z: Budokai 2, muy en desarrollo.",
 };

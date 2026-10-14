@@ -20,4 +20,11 @@ export const CustomRoboGx: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/ae/CustomRoboGX.png",
+    alt: "Custom Robo GX (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Custom Robo GX.",
+  notesEs: "Decompilación de Custom Robo GX.",
 };

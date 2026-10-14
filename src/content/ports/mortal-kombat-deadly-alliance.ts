@@ -25,4 +25,6 @@ export const MortalKombatDeadlyAlliance: Port = {
     alt: "Mortal Kombat: Deadly Alliance (cover)",
     credit: "Wikipedia",
   },
+  notes: "Mortal Kombat: Deadly Alliance.",
+  notesEs: "Decompilación de Mortal Kombat: Deadly Alliance.",
 };

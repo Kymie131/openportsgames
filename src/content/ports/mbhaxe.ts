@@ -23,4 +23,9 @@ export const mbhaxe: Port = {
     "Haxe port of Marble Blast Gold that keeps the original physics, with online multiplayer. It runs in the browser and on Windows, macOS, Linux, iOS and Android, and needs your own game files.",
   notesEs:
     "Port en Haxe de Marble Blast Gold que conserva la física original, con multijugador en línea. Funciona en el navegador y en Windows, macOS, Linux, iOS y Android, y necesita tus propios archivos del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a3/Marble_blast_gold.jpg",
+    alt: "Marble Blast Gold (box art)",
+    credit: "Wikipedia",
+  },
 };

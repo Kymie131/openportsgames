@@ -20,4 +20,11 @@ export const Battletanx: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo 64",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/67/BattleTanx.jpg",
+    alt: "BattleTanx (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "A work-in-progress decompilation of Battletanx for the N64.",
+  notesEs: "Decompilación de BattleTanx para N64, en desarrollo.",
 };

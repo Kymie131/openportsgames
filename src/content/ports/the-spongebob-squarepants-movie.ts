@@ -20,4 +20,6 @@ export const TheSpongebobSquarepantsMovie: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of The SpongeBob SquarePants Movie (Other).",
+  notesEs: "Decompilación de The SpongeBob SquarePants Movie (Other).",
 };

@@ -20,4 +20,11 @@ export const NewPlayControlPikmin2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/38/Pikmin_2_Case.jpg",
+    alt: "New Play Control! Pikmin 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "A decompilation of New Play Control! Pikmin 2 (USA) brought to you by fans of the series.",
+  notesEs: "Una decompilación de New Play Control! Pikmin 2 (USA) hecha por fans de la saga.",
 };

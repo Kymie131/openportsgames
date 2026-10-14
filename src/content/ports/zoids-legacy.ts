@@ -20,4 +20,11 @@ export const ZoidsLegacy: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Game Boy Advance",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Zoids%20-%20Legacy%20(USA).png",
+    alt: "Zoids Legacy (box art)",
+    credit: "Box art",
+  },
+  notes: "Matched Decompilation of Zoids Legacy (USA) GBA game.",
+  notesEs: "Decompilación que coincide de Zoids Legacy (USA) para GBA.",
 };

@@ -20,4 +20,6 @@ export const Taradino: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "SDL2 port of Rise of the Triad.",
+  notesEs: "Port a SDL2 de Rise of the Triad.",
 };

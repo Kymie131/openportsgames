@@ -25,4 +25,6 @@ export const Antares: Port = {
     alt: "Antares (cover)",
     credit: "Wikipedia",
   },
+  notes: "A tactical space combat game.",
+  notesEs: "Un juego de combate espacial táctico.",
 };

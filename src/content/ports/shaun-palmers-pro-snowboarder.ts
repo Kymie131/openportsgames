@@ -20,4 +20,11 @@ export const ShaunPalmersProSnowboarder: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0c/Shaun_Palmer%27s_Pro_Snowboarder.jpg",
+    alt: "Shaun Palmer's Pro Snowboarder (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Shaun Palmer's Pro Snowboarder (Other).",
+  notesEs: "Decompilación de Shaun Palmer's Pro Snowboarder (Other).",
 };

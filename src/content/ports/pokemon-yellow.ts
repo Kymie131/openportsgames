@@ -20,4 +20,6 @@ export const PokemonYellow: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Disassembly of Pokemon Yellow.",
+  notesEs: "Desensamblado de Pokémon Yellow.",
 };

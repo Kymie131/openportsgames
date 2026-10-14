@@ -20,4 +20,6 @@ export const FreeserfNet: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Settlers 1 clone written in C#.",
+  notesEs: "Clon de Settlers 1 escrito en C#.",
 };

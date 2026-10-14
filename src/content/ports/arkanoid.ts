@@ -25,4 +25,6 @@ export const Arkanoid: Port = {
     alt: "Arkanoid (cover)",
     credit: "Wikipedia",
   },
+  notes: "Arkanoid MSX disassembly.",
+  notesEs: "Desensamblado de Arkanoid para MSX.",
 };

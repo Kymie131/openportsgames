@@ -20,4 +20,11 @@ export const CosmosCosmicAdventure: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c9/Cosmoscosmicadventurecover.jpg",
+    alt: "Cosmo's Cosmic Adventure (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "A reconstruction of the source code of Cosmo's Cosmic Adventure.",
+  notesEs: "Reconstrucción del código fuente de Cosmo's Cosmic Adventure.",
 };

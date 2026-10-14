@@ -20,4 +20,6 @@ export const FiveNightsAtFreddys2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "A Five Nights at Freddy's 2 Windows Phone Decompilation.",
+  notesEs: "Decompilación de Five Nights at Freddy's 2 para Windows Phone.",
 };

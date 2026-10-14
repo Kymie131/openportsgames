@@ -25,4 +25,6 @@ export const Machines: Port = {
     alt: "machines (cover)",
     credit: "Wikipedia",
   },
+  notes: "Community fork of Machines: Wired for War.",
+  notesEs: "Bifurcación comunitaria de Machines: Wired for War.",
 };

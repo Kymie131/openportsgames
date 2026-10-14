@@ -20,4 +20,11 @@ export const PokMonSword: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/fa/Pok%C3%A9mon_Sword_and_Shield.jpg",
+    alt: "Pokémon Sword (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Matching decompilation of Pokemon Sword (Switch, build 562).",
+  notesEs: "Decompilación que coincide de Pokémon Sword (Switch, build 562).",
 };

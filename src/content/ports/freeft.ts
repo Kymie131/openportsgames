@@ -20,4 +20,6 @@ export const Freeft: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Isometric action game engine.",
+  notesEs: "Motor de juego de acción isométrico.",
 };

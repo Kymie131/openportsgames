@@ -20,4 +20,6 @@ export const FinalFantasyIv3dRemake: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "An open-source decompilation of Final Fantasy IV (3D Remake).",
+  notesEs: "Decompilación de código abierto de Final Fantasy IV (3D Remake).",
 };

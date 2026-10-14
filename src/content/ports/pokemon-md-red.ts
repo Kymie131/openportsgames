@@ -20,4 +20,6 @@ export const PokemonMdRed: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Pokémon Mystery Dungeon: Red Rescue Team.",
+  notesEs: "Decompilación de Pokémon Mundo Misterioso: Equipo de Rescate Rojo.",
 };

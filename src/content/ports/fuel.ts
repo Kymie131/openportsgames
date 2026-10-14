@@ -20,4 +20,11 @@ export const Fuel: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/9a/Fuel_%282009_video_game_-_box_art%29.jpg",
+    alt: "FUEL (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "A decompilation project for the video game FUEL (2009) by Asobo Studio.",
+  notesEs: "Proyecto de decompilación del videojuego FUEL (2009) de Asobo Studio.",
 };

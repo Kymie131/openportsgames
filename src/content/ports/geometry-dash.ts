@@ -20,4 +20,6 @@ export const GeometryDash: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "A decompilation of Geometry Dash version 1.710.",
+  notesEs: "Decompilación de Geometry Dash 1.710.",
 };

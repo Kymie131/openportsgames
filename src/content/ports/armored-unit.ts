@@ -20,4 +20,6 @@ export const ArmoredUnit: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Disassembly/Decompilation for the Armored Unit game for the Wonderswan.",
+  notesEs: "Desensamblado/decompilación del juego Armored Unit para Wonderswan.",
 };

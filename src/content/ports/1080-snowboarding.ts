@@ -20,4 +20,11 @@ export const _1080Snowboarding: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/04/1080snowboardingbox.jpg",
+    alt: "1080° Snowboarding (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of 1080° Snowboarding (Other).",
+  notesEs: "Decompilación de 1080° Snowboarding (Other).",
 };

@@ -20,4 +20,6 @@ export const AnimalForestE: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Animal Forest e+ (JP).",
+  notesEs: "Decompilación de Animal Forest e+ (JP).",
 };

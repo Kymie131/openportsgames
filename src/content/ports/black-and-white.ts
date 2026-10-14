@@ -20,4 +20,6 @@ export const BlackAndWhite: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Black & White 1.",
+  notesEs: "Decompilación de Black & White 1.",
 };

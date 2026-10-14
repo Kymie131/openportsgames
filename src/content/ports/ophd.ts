@@ -20,4 +20,6 @@ export const Ophd: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "OutpostHD - Open source remake of Sierra On-Line's Outpost.",
+  notesEs: "OutpostHD: remake de código abierto de Outpost de Sierra On-Line.",
 };

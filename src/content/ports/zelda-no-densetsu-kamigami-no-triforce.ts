@@ -20,4 +20,11 @@ export const ZeldaNoDensetsuKamigamiNoTriforce: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg",
+    alt: "Zelda no Densetsu: Kamigami no Triforce (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Accurate and annotated disassembly of Zelda no Densetsu: Kamigami no Triforce.",
+  notesEs: "Desensamblado preciso y anotado de Zelda no Densetsu: Kamigami no Triforce.",
 };

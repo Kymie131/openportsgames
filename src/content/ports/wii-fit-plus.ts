@@ -20,4 +20,11 @@ export const WiiFitPlus: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Wii",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/Wii%20Fit%20Plus%20(Asia).png",
+    alt: "Wii Fit Plus (box art)",
+    credit: "Box art",
+  },
+  notes: "Wii Fit Plus decomp.",
+  notesEs: "Decompilación de Wii Fit Plus.",
 };

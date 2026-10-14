@@ -25,4 +25,6 @@ export const BurnoutParadise: Port = {
     alt: "Burnout Paradise (cover)",
     credit: "Wikipedia",
   },
+  notes: "Burnout Paradise decompilation effort.",
+  notesEs: "Proyecto de decompilación de Burnout Paradise.",
 };

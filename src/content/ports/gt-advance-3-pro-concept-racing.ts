@@ -25,4 +25,6 @@ export const GtAdvance3ProConceptRacing: Port = {
     alt: "GT Advance 3: Pro Concept Racing (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decompilation of GT Advance 3: Pro Concept Racing (Other).",
+  notesEs: "Decompilación de GT Advance 3: Pro Concept Racing (Other).",
 };

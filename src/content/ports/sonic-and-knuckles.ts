@@ -20,4 +20,11 @@ export const SonicAndKnuckles: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d3/Sonic_%26_Knuckles_cover.jpg",
+    alt: "Sonic & Knuckles (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Sonic and Knuckles Disassembly.",
+  notesEs: "Desensamblado de Sonic and Knuckles.",
 };

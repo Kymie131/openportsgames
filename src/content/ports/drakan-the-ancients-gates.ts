@@ -25,4 +25,6 @@ export const DrakanTheAncientsGates: Port = {
     alt: "Drakan: The Ancients' Gates (cover)",
     credit: "Wikipedia",
   },
+  notes: "Investigating and decompiling Drakan: The Ancient Gates for PS2.",
+  notesEs: "Investigación y decompilación de Drakan: The Ancients' Gates para PS2.",
 };

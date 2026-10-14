@@ -20,4 +20,11 @@ export const Turok2SeedsOfEvil: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo 64",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Turok%202%20-%20Seeds%20of%20Evil%20(Europe)%20(Demo)%20(Kiosk).png",
+    alt: "Turok 2: Seeds of Evil (box art)",
+    credit: "Box art",
+  },
+  notes: "Work-in-progress decompilation of Turok 2: Seeds of Evil (N64). Stepping stone toward native macOS/Android ports of the Acclaim Studios London engine.",
+  notesEs: "Decompilación de Turok 2: Seeds of Evil (N64), en desarrollo. Paso previo a ports nativos del motor de Acclaim Studios London.",
 };

@@ -20,4 +20,11 @@ export const KirbyAirRide: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/ba/Karbox.jpg",
+    alt: "Kirby Air Ride (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "A decompilation of Kirby Air Ride brought to you by a bunch of clever folks.",
+  notesEs: "Una decompilación de Kirby Air Ride creada por un grupo de personas habilidosas.",
 };

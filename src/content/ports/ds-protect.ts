@@ -20,4 +20,6 @@ export const DsProtect: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo DS",
+  notes: "Decompilation of DS Protect.",
+  notesEs: "Decompilación de DS Protect.",
 };

@@ -20,4 +20,11 @@ export const ManicMiner: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/31/Manic_miner_bugbyte.jpg",
+    alt: "Manic Miner (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "A disassembly of Manic Miner, created using SkoolKit.",
+  notesEs: "Un desensamblado de Manic Miner, creado con SkoolKit.",
 };

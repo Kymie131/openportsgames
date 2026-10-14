@@ -25,4 +25,6 @@ export const NascarHeat2002: Port = {
     alt: "NASCAR Heat 2002 (cover)",
     credit: "Wikipedia",
   },
+  notes: "Matching decompilation of NASCAR Heat 2002 (GBA).",
+  notesEs: "Decompilación que coincide de NASCAR Heat 2002 (GBA).",
 };

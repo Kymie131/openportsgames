@@ -20,4 +20,6 @@ export const Amplitude: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Amplitude (2003).",
+  notesEs: "Decompilación de Amplitude (2003).",
 };

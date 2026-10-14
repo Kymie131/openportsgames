@@ -20,4 +20,6 @@ export const Splatterhouse: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Splatterhouse (Other).",
+  notesEs: "Decompilación de Splatterhouse (Other).",
 };

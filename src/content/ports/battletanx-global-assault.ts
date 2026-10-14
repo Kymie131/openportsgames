@@ -20,4 +20,11 @@ export const BattletanxGlobalAssault: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo 64",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/BattleTanx%20-%20Global%20Assault%20(Europe)%20(En,Fr,De).png",
+    alt: "BattleTanx: Global Assault (box art)",
+    credit: "Box art",
+  },
+  notes: "100% matching decompilation of BattleTanx: Global Assault (N64, USA Rev 0) — foundation for VitaTanxGA.",
+  notesEs: "Decompilación 100% exacta de BattleTanx: Global Assault (N64, USA Rev 0), base de VitaTanxGA.",
 };

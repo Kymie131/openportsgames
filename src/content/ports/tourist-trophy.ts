@@ -20,4 +20,11 @@ export const TouristTrophy: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "PlayStation 2",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Tourist%20Trophy%20(USA).png",
+    alt: "Tourist Trophy (box art)",
+    credit: "Box art",
+  },
+  notes: "Matching decompilation of Tourist Trophy (PS2), sister project of the Gran Turismo 4 decompilation.",
+  notesEs: "Decompilación que coincide de Tourist Trophy (PS2), proyecto hermano del de Gran Turismo 4.",
 };

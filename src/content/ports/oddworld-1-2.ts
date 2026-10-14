@@ -20,4 +20,6 @@ export const Oddworld12: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Re-implementation of Oddworld: Abe's Exoddus and Oddworld: Abe's Oddysee.",
+  notesEs: "Reimplementación de Oddworld: Abe's Exoddus y Oddworld: Abe's Oddysee.",
 };

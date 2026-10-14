@@ -20,4 +20,11 @@ export const MedalOfHonorRisingSun: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "GameCube",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Medal%20of%20Honor%20-%20Rising%20Sun%20(Europe)%20(En,Es,It,Nl,Sv)%20(Disc%201).png",
+    alt: "Medal of Honor: Rising Sun (box art)",
+    credit: "Box art",
+  },
+  notes: "Matching decompilation of Medal of Honor: Rising Sun (GameCube, USA / GR8E69). AI-assisted contributors welcome.",
+  notesEs: "Decompilación que coincide de Medal of Honor: Rising Sun (GameCube, USA / GR8E69).",
 };

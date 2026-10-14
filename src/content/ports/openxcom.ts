@@ -60,4 +60,9 @@ export const openXcom: Port = {
       "Ejecuta OpenXcom; reconstruye la campaña original con mejoras de calidad de vida.",
     ],
   },
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/66/UFO_Enemy_Unknown_cover_art.png",
+    alt: "X-COM: UFO Defense (box art)",
+    credit: "Wikipedia",
+  },
 };

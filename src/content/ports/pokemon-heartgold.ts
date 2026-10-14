@@ -20,4 +20,11 @@ export const PokemonHeartgold: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/cb/PokemonHGSSBox.jpg",
+    alt: "Pokemon HeartGold (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Pokemon HeartGold/SoulSilver.",
+  notesEs: "Decompilación de Pokémon HeartGold/SoulSilver.",
 };

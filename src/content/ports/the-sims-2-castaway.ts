@@ -20,4 +20,11 @@ export const TheSims2Castaway: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/81/The_Sims_2_-_Castaway_Coverart.png",
+    alt: "The Sims 2: Castaway (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "A work-in-progress matching decompilation of The Sims 2: Castaway.",
+  notesEs: "Decompilación que coincide de The Sims 2: Castaway, en desarrollo.",
 };

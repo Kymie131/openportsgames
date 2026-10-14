@@ -20,4 +20,11 @@ export const StarOceanBlueSphere: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/81/Star_Ocean_Blue_Sphere_Game_Boy_Color_box_art.jpg",
+    alt: "Star Ocean: Blue Sphere (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "star ocean blue sphere source code.",
+  notesEs: "Código fuente de Star Ocean: Blue Sphere.",
 };

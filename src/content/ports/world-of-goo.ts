@@ -25,4 +25,6 @@ export const WorldOfGoo: Port = {
     alt: "World of Goo (cover)",
     credit: "Wikipedia",
   },
+  notes: "A world of goo decompilation, brought to you by a bunch of clever gooballs.",
+  notesEs: "Una decompilación de World of Goo, hecha por un grupo de ingeniosos gooballs.",
 };

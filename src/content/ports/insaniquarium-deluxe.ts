@@ -25,4 +25,6 @@ export const InsaniquariumDeluxe: Port = {
     alt: "Insaniquarium Deluxe (cover)",
     credit: "Wikipedia",
   },
+  notes: "Insaniquarium Deluxe (1.1) decompilation.",
+  notesEs: "Decompilación de Insaniquarium Deluxe (1.1).",
 };

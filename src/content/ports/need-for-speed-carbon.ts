@@ -20,4 +20,11 @@ export const NeedForSpeedCarbon: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Xbox 360",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a4/Need_for_Speed_Carbon_Game_Cover.jpg",
+    alt: "Need for Speed: Carbon (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Static recompilation of Need for Speed: Carbon (Xbox 360) to native C++ via the ReXGlue SDK.",
+  notesEs: "Recompilación estática de Need for Speed: Carbon (Xbox 360) a C++ nativo con el SDK ReXGlue.",
 };

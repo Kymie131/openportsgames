@@ -20,4 +20,6 @@ export const Glover: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "A Static Recompilation of Glover by ThatGuyMcd.",
+  notesEs: "Recompilación estática de Glover por ThatGuyMcd.",
 };

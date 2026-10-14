@@ -20,4 +20,6 @@ export const SkiesOfArcadiaLegends: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "A matching decompilation of Skies Of Arcadia Legends.",
+  notesEs: "Decompilación que coincide de Skies of Arcadia Legends.",
 };

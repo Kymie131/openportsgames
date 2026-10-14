@@ -20,4 +20,6 @@ export const Xbox360Kernel: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Xbox 360",
+  notes: "Xbox 360 Kernel decompilation.",
+  notesEs: "Decompilación del kernel de Xbox 360.",
 };

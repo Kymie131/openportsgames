@@ -25,4 +25,6 @@ export const PhoenixWrightAceAttorneyJusticeForAll: Port = {
     alt: "Phoenix Wright: Ace Attorney – Justice for All (cover)",
     credit: "Wikipedia",
   },
+  notes: "A Decompilation of Gyakuten Saiban 2 (Japan).",
+  notesEs: "Una decompilación de Gyakuten Saiban 2 (Japón).",
 };

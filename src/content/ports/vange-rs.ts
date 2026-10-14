@@ -20,4 +20,6 @@ export const VangeRs: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Rusty Vangers clone.",
+  notesEs: "Clon de Vangers en Rust.",
 };

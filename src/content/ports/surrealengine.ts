@@ -20,4 +20,6 @@ export const Surrealengine: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Unreal Engine 1 Reimplementation.",
+  notesEs: "Reimplementación del Unreal Engine 1.",
 };

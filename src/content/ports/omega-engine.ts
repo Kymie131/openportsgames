@@ -20,4 +20,6 @@ export const OmegaEngine: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Modern OpenArena engine based on Quake3e.",
+  notesEs: "Motor moderno de OpenArena basado en Quake3e.",
 };

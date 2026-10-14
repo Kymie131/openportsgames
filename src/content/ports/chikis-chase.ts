@@ -20,4 +20,6 @@ export const ChikisChase: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "chiki's chase v2.3.3.",
+  notesEs: "chiki's chase v2.3.3.",
 };

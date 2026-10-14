@@ -20,4 +20,11 @@ export const DeBlob: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a9/De-Blob-US.jpg",
+    alt: "de Blob (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of the Toshi engine and Toshi games like de blob.",
+  notesEs: "Decompilación del motor Toshi y de juegos como de Blob.",
 };

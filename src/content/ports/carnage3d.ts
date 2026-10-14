@@ -20,4 +20,6 @@ export const Carnage3d: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Reimplementation of Grand Theft Auto 1 [GTA1].",
+  notesEs: "Reimplementación de Grand Theft Auto 1 [GTA1].",
 };

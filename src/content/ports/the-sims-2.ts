@@ -20,4 +20,11 @@ export const TheSims2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/bd/The_sims_2.jpg",
+    alt: "The Sims 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of The Sims 2.",
+  notesEs: "Decompilación del videojuego The Sims 2.",
 };

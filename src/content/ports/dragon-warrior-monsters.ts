@@ -20,4 +20,11 @@ export const DragonWarriorMonsters: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d7/Dragonwarrior1.jpg",
+    alt: "Dragon Warrior Monsters (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "A decompilation of Dragon Warrior Monsters.",
+  notesEs: "Una decompilación de Dragon Warrior Monsters.",
 };

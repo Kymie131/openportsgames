@@ -20,4 +20,11 @@ export const ThiefDeadlyShadows: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c3/Thief_Deadly_Shadows_boxart.jpg",
+    alt: "Thief: Deadly Shadows (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation, modding, and map editing for Thief: Deadly Shadows.",
+  notesEs: "Decompilación, modding y edición de mapas de Thief: Deadly Shadows.",
 };

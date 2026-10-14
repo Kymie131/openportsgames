@@ -20,4 +20,11 @@ export const BossRally: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e6/Boss_Rally_PC_Cover.jpeg",
+    alt: "Boss Rally (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "A decompilation project of the Boss Rally / Top Gear Rally video game.",
+  notesEs: "Proyecto de decompilación del videojuego Boss Rally / Top Gear Rally.",
 };

@@ -20,4 +20,11 @@ export const ShinMegamiTenseiPersona4: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "PlayStation 2",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Shin%20Megami%20Tensei%20-%20Persona%204%20(Korea).png",
+    alt: "Shin Megami Tensei: Persona 4 (box art)",
+    credit: "Box art",
+  },
+  notes: "Matching decompilation of Shin Megami Tensei: Persona 4 for PlayStation 2.",
+  notesEs: "Decompilación que coincide de Shin Megami Tensei: Persona 4 para PlayStation 2.",
 };

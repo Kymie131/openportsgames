@@ -20,4 +20,11 @@ export const JetForceGemini: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/1a/Jet_Force_Gemini_box.jpg",
+    alt: "Jet Force Gemini (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Jet Force Gemini (Other).",
+  notesEs: "Decompilación de Jet Force Gemini (Other).",
 };

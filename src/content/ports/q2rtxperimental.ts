@@ -20,4 +20,6 @@ export const Q2rtxperimental: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "My 'Experimental' fork of NVIDIA’s implementation of RTX ray-tracing in Quake II.",
+  notesEs: "Mi bifurcación experimental de la implementación de ray tracing RTX de NVIDIA en Quake II.",
 };

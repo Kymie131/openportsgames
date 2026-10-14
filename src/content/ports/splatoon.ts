@@ -25,4 +25,6 @@ export const Splatoon: Port = {
     alt: "Splatoon (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decompilation of Splatoon for the Wii U, all credit goes to Nintendo!.",
+  notesEs: "Decompilación de Splatoon para Wii U, todo el mérito es de Nintendo.",
 };

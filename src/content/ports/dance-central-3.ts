@@ -25,4 +25,6 @@ export const DanceCentral3: Port = {
     alt: "Dance Central 3 (cover)",
     credit: "Wikipedia",
   },
+  notes: "A decompilation of Dance Central 3.",
+  notesEs: "Una decompilación de Dance Central 3.",
 };

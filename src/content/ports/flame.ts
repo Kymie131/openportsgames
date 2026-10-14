@@ -25,4 +25,6 @@ export const Flame: Port = {
     alt: "Flame (cover)",
     credit: "Wikipedia",
   },
+  notes: "Dungeon Keeper II partial recompilation with bug fixes.",
+  notesEs: "Recompilación parcial de Dungeon Keeper II con correcciones.",
 };

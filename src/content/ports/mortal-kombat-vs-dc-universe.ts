@@ -20,4 +20,11 @@ export const MortalKombatVsDcUniverse: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6b/Mortal_Kombat_vs._DC_Universe_Coverart.png",
+    alt: "Mortal Kombat vs. DC Universe (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "An unofficial port of Mortal Kombat vs. DC Universe to PC (More platforms coming).",
+  notesEs: "Un port no oficial de Mortal Kombat vs. DC Universe a PC (más plataformas próximamente).",
 };

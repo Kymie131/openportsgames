@@ -20,4 +20,6 @@ export const MixelsRush: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "experimental decomp of Mixels Rush by lego.",
+  notesEs: "Decompilación experimental de Mixels Rush de Lego.",
 };

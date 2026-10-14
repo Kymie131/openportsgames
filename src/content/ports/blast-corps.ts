@@ -25,4 +25,6 @@ export const BlastCorps: Port = {
     alt: "Blast Corps (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decompilation of Blast Corps (Other).",
+  notesEs: "Decompilación de Blast Corps (Other).",
 };

@@ -25,4 +25,6 @@ export const MonsterHunter4Ultimate: Port = {
     alt: "Monster Hunter 4 Ultimate (cover)",
     credit: "Wikipedia",
   },
+  notes: "Progress tracking for a matching decompilation of Monster Hunter 4 Ultimate (Nintendo 3DS, EU v1.1).",
+  notesEs: "Seguimiento del progreso de la decompilación exacta de Monster Hunter 4 Ultimate (Nintendo 3DS, EU v1.1).",
 };

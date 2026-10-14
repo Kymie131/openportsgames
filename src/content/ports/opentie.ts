@@ -20,4 +20,6 @@ export const Opentie: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Source port of OpenTIE (Other).",
+  notesEs: "Port del código fuente de OpenTIE (Other).",
 };

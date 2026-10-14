@@ -20,4 +20,6 @@ export const ZoneOfTheEnders3GuySavageFromMetalGearSolid3: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Zone of the Enders 3, in progress.",
+  notesEs: "Decompilación de Zone of the Enders 3, en desarrollo.",
 };

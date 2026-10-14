@@ -20,4 +20,11 @@ export const PokemonEmerald: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f7/PokemonEmeraldBox.jpg",
+    alt: "Pokemon Emerald (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Pokémon Emerald.",
+  notesEs: "Decompilación de Pokémon Emerald.",
 };

@@ -20,4 +20,11 @@ export const GuitarHero2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Xbox 360",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/83/Guitar_Hero_II.jpg",
+    alt: "Guitar Hero 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "XBOX 360 Guitar Hero II Recompilation using Rexglue.",
+  notesEs: "Recompilación de Guitar Hero II de Xbox 360 con ReXGlue.",
 };

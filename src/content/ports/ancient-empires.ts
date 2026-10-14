@@ -25,4 +25,6 @@ export const AncientEmpires: Port = {
     alt: "Ancient Empires (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decompilation of the mobile game Ancient Empires (2004).",
+  notesEs: "Decompilación del juego móvil Ancient Empires (2004).",
 };

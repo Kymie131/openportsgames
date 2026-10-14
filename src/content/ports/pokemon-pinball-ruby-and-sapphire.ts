@@ -20,4 +20,6 @@ export const PokemonPinballRubyAndSapphire: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Pokémon Pinball: Ruby & Sapphire.",
+  notesEs: "Decompilación de Pokémon Pinball: Ruby & Sapphire.",
 };

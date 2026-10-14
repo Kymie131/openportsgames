@@ -20,4 +20,11 @@ export const MarioKartDs: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo DS",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/86/Mario_Kart_DS_cover.jpg",
+    alt: "Mario Kart DS (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Mario Kart DS (EU) reverse-engineering work: ASM-hacking and other tools.",
+  notesEs: "Trabajo de ingeniería inversa de Mario Kart DS (EU): hacking de ASM y otras herramientas.",
 };

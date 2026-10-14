@@ -20,4 +20,6 @@ export const SuperGhoulsNGhosts: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Super Ghouls ‘n Ghosts (Other).",
+  notesEs: "Decompilación de Super Ghouls ‘n Ghosts (Other).",
 };

@@ -20,4 +20,11 @@ export const TokyoBusGuide: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Dreamcast",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sega%20-%20Dreamcast/Named_Boxarts/Tokyo%20Bus%20Guide%20(Japan)%20(Rev%20A).png",
+    alt: "Tokyo Bus Guide (box art)",
+    credit: "Box art",
+  },
+  notes: "Decompiling Tokyo Bus Guide (東京バス案内) for the Sega Dreamcast.",
+  notesEs: "Decompilación de Tokyo Bus Guide (東京バス案内) para Sega Dreamcast.",
 };

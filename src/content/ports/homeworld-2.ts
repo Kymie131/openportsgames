@@ -20,4 +20,11 @@ export const Homeworld2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/df/Homeworld_2_%28video_game%29_box_art.jpg",
+    alt: "Homeworld 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Homeworld 2 Classic Decomplication.",
+  notesEs: "Decompilación de Homeworld 2 Classic.",
 };

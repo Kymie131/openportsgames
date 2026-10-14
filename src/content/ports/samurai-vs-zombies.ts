@@ -20,4 +20,6 @@ export const SamuraiVsZombies: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Samurai Vs Zombies by Glu.",
+  notesEs: "Decompilación de Samurai Vs Zombies de Glu.",
 };

@@ -25,4 +25,6 @@ export const ShortlineRailroad: Port = {
     alt: "Shortline railroad (cover)",
     credit: "Wikipedia",
   },
+  notes: "The reversed source code for ShortLine v1.1 game.",
+  notesEs: "El código fuente reconstruido del juego ShortLine v1.1.",
 };

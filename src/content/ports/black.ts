@@ -25,4 +25,6 @@ export const Black: Port = {
     alt: "Black (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decompilation of English Pokémon Black.",
+  notesEs: "Decompilación de Pokémon Black en inglés.",
 };

@@ -20,4 +20,6 @@ export const DuckGame: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Duck Game decompiled & rebuilt with some added features,.",
+  notesEs: "Duck Game decompilado y reconstruido, con algunas funciones añadidas.",
 };

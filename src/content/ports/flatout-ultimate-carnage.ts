@@ -20,4 +20,6 @@ export const FlatoutUltimateCarnage: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "My attempted decompilation of FlatOut: Ultimate Carnage.",
+  notesEs: "Intento de decompilación de FlatOut: Ultimate Carnage.",
 };

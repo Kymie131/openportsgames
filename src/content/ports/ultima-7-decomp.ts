@@ -20,4 +20,6 @@ export const Ultima7Decomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "This is a decompiled and byte-verified rebuild of Ultima 7.",
+  notesEs: "Una reconstrucción decompilada y verificada byte a byte de Ultima 7.",
 };

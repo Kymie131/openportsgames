@@ -25,4 +25,6 @@ export const LegoBatmanTheVideogame: Port = {
     alt: "LEGO Batman: The Videogame (cover)",
     credit: "Wikipedia",
   },
+  notes: "A work-in-progress decompilation of LEGO® Batman™: The Videogame (2008, PC).",
+  notesEs: "Decompilación de LEGO Batman: The Videogame (2008, PC), en desarrollo.",
 };

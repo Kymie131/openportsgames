@@ -20,4 +20,11 @@ export const WarioLand3: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/cb/Warioland3.jpg",
+    alt: "Wario Land 3 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Wario Land 3 Disassembly.",
+  notesEs: "Desensamblado de Wario Land 3.",
 };

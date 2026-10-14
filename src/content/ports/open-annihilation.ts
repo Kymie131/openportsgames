@@ -20,4 +20,6 @@ export const OpenAnnihilation: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Open Source port of the Total Annihilation & TA: Kingdoms engines.",
+  notesEs: "Port de código abierto de los motores de Total Annihilation y TA: Kingdoms.",
 };

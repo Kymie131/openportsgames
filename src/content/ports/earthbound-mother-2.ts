@@ -20,4 +20,6 @@ export const EarthboundMother2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Source code recreation for the game Earthbound.",
+  notesEs: "Recreación del código fuente de EarthBound.",
 };

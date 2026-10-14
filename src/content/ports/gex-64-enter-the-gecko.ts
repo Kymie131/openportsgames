@@ -20,4 +20,11 @@ export const Gex64EnterTheGecko: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/59/Gex2Cover.jpg",
+    alt: "Gex 64: Enter the Gecko (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Gex 64.",
+  notesEs: "Decompilación de Gex 64.",
 };

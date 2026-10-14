@@ -20,4 +20,11 @@ export const PokeparkWiiPikachusAdventure: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Wii",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/PokePark%20Wii%20-%20Pikachu's%20Adventure%20(Europe)%20(En,Fr,De,Es,It).png",
+    alt: "Pokepark Wii: Pikachu's Adventure (box art)",
+    credit: "Box art",
+  },
+  notes: "Decompilation of Pokepark Wii: Pikachu's Adventure (Wii).",
+  notesEs: "Decompilación de Pokepark Wii: Pikachu's Adventure (Wii).",
 };

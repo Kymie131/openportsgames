@@ -20,4 +20,6 @@ export const Opence: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Xbox",
+  notes: "Halo: Combat Evolved (for original Xbox) ported to Windows, Linux and Android.",
+  notesEs: "Halo: Combat Evolved (Xbox original) portado a Windows, Linux y Android.",
 };

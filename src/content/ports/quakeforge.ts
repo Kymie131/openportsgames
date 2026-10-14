@@ -20,4 +20,6 @@ export const Quakeforge: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Source port of quakeforge (Other).",
+  notesEs: "Port del código fuente de quakeforge (Other).",
 };

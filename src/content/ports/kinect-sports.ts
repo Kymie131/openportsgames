@@ -20,4 +20,11 @@ export const KinectSports: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Xbox 360",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/ae/Kinect_Sports.jpg",
+    alt: "Kinect Sports (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Matching decompilation of Kinect Sports for Xbox 360.",
+  notesEs: "Decompilación que coincide de Kinect Sports para Xbox 360.",
 };

@@ -20,4 +20,6 @@ export const BurnoutParadiseB5Decomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Burnout Paradise decompilation effort.",
+  notesEs: "Proyecto de decompilación de Burnout Paradise.",
 };

@@ -20,4 +20,11 @@ export const LemmingsPaintball: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/24/Lemmings_Paintball_Coverart.png",
+    alt: "Lemmings Paintball (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Matching decompilation of Lemmings Paintball (1996, Windows 95).",
+  notesEs: "Decompilación que coincide de Lemmings Paintball (1996, Windows 95).",
 };

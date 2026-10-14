@@ -25,4 +25,6 @@ export const Megaglest: Port = {
     alt: "MegaGlest (cover)",
     credit: "Wikipedia",
   },
+  notes: "MegaGlest real-time strategy game engine (cross-platform, 3-d).",
+  notesEs: "Motor de juego de estrategia en tiempo real MegaGlest (multiplataforma, 3D).",
 };

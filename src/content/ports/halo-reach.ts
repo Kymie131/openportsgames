@@ -20,4 +20,11 @@ export const HaloReach: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5c/Halo-_Reach_box_art.png",
+    alt: "Halo Reach (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Halo: Reach Reverse Engineering Project.",
+  notesEs: "Proyecto de ingeniería inversa de Halo: Reach.",
 };

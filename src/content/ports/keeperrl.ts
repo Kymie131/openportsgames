@@ -20,4 +20,6 @@ export const Keeperrl: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Source code of KeeperRL.",
+  notesEs: "Código fuente de KeeperRL.",
 };

@@ -20,4 +20,6 @@ export const OracleOfAgesAndSeasons: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Disassembly of Oracle of Ages and Seasons.",
+  notesEs: "Desensamblado de Oracle of Ages y Seasons.",
 };

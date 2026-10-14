@@ -20,4 +20,6 @@ export const GhostsAndGraves: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo Entertainment System",
+  notes: "Ghosts and Graves is a Tents And Trees demake in 6502 assembly for the NES.",
+  notesEs: "Ghosts and Graves es un demake de Tents And Trees en ensamblador 6502 para NES.",
 };

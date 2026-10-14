@@ -20,4 +20,11 @@ export const AlexKiddInMiracleWorld: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/ae/AlexKiddInMiracleWorldBox.jpg",
+    alt: "Alex Kidd in Miracle World (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Disassembly of the original Alex Kidd in Miracle World.",
+  notesEs: "Desensamblado del original Alex Kidd in Miracle World.",
 };

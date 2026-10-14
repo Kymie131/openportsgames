@@ -25,4 +25,6 @@ export const Ratatouille: Port = {
     alt: "Ratatouille (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decompilation project of Disney-Pixar Ratatouille (USA) for the Nintendo GameCube.",
+  notesEs: "Proyecto de decompilación de Ratatouille de Disney-Pixar (USA) para Nintendo GameCube.",
 };

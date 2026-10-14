@@ -20,4 +20,6 @@ export const MarioTeachesTyping3: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "A decompilation of Mario Teaches Typing 3.",
+  notesEs: "Una decompilación de Mario Teaches Typing 3.",
 };

@@ -20,4 +20,11 @@ export const Meridian59: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f1/Meridian_59_cover.jpg",
+    alt: "Meridian 59 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The MMORPG Meridian 59.",
+  notesEs: "El MMORPG Meridian 59.",
 };

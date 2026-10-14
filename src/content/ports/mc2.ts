@@ -20,4 +20,6 @@ export const Mc2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Mech Commander 2 open source engine + OpenGL Linux port.",
+  notesEs: "Motor de código abierto de Mech Commander 2 con port a Linux en OpenGL.",
 };

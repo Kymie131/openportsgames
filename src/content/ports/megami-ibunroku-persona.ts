@@ -25,4 +25,6 @@ export const MegamiIbunrokuPersona: Port = {
     alt: "Megami Ibunroku Persona (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decompilation of Megami Ibunroku Persona (PlayStation).",
+  notesEs: "Decompilación de Megami Ibunroku Persona (PlayStation).",
 };

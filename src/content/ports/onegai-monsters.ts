@@ -20,4 +20,6 @@ export const OnegaiMonsters: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Onegai Monsters (Other).",
+  notesEs: "Decompilación de Onegai Monsters (Other).",
 };

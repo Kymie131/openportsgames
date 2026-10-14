@@ -20,4 +20,11 @@ export const CostumeQuest: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/de/Costume-quest-cover.jpg",
+    alt: "Costume Quest (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "A work-in-progress functionally matching decompilation of Costume Quest for PC.",
+  notesEs: "Decompilación de Costume Quest para PC, funcionalmente equivalente.",
 };

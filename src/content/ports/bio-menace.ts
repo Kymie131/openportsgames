@@ -25,4 +25,6 @@ export const BioMenace: Port = {
     alt: "Bio Menace (cover)",
     credit: "Wikipedia",
   },
+  notes: "Work in progress BioMenace decompilation.",
+  notesEs: "Decompilación de Bio Menace, en desarrollo.",
 };

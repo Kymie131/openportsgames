@@ -20,4 +20,6 @@ export const DiamondRush: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Diamond Rush.",
+  notesEs: "Decompilación de Diamond Rush.",
 };

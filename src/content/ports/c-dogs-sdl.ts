@@ -20,4 +20,6 @@ export const CDogsSdl: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Classic overhead run-and-gun game.",
+  notesEs: "Clásico juego de acción con vista cenital.",
 };

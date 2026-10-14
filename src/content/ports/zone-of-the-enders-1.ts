@@ -20,4 +20,6 @@ export const ZoneOfTheEnders1: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Zone of the Enders, in progress.",
+  notesEs: "Decompilación de Zone of the Enders, en desarrollo.",
 };

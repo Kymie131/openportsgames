@@ -25,4 +25,6 @@ export const PopnMusic: Port = {
     alt: "Pop'N Music (cover)",
     credit: "Wikipedia",
   },
+  notes: "pop'n music CS1 PSX decompilation.",
+  notesEs: "Decompilación de pop'n music CS1 para PSX.",
 };

@@ -20,4 +20,6 @@ export const War1: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "A remake of Warcraft: Orcs & Humans written in C.",
+  notesEs: "Un remake de Warcraft: Orcs & Humans escrito en C.",
 };

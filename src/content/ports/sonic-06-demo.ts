@@ -20,4 +20,6 @@ export const Sonic06Demo: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Sonic 06 Demo Recompilation using RexGlue.",
+  notesEs: "Recompilación de la demo de Sonic 06 con ReXGlue.",
 };

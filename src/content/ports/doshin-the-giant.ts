@@ -20,4 +20,11 @@ export const DoshinTheGiant: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "GameCube",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Doshin%20the%20Giant%20(Europe)%20(En,Fr,De,Es,It).png",
+    alt: "Doshin the Giant (box art)",
+    credit: "Box art",
+  },
+  notes: "A WIP matching decompilation of Doshin the Giant (GameCube).",
+  notesEs: "Decompilación que coincide de Doshin the Giant (GameCube), en desarrollo.",
 };

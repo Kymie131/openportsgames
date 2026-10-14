@@ -20,4 +20,11 @@ export const WariowareIncMegaMicrogames: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Game Boy Advance",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/84/Warioware1box.jpg",
+    alt: "WarioWare, Inc.: Mega Microgames! (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "WarioWare, Inc. GBA decompilation.",
+  notesEs: "Decompilación de WarioWare, Inc. para GBA.",
 };

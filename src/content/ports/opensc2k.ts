@@ -20,4 +20,6 @@ export const Opensc2k: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "OpenSC2K - Open Source remake of Sim City 2000 using rust and godot. Available for macOS, Windows and Linux.",
+  notesEs: "OpenSC2K: remake de código abierto de SimCity 2000 en Rust y Godot. Disponible para macOS, Windows y Linux.",
 };

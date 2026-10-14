@@ -20,4 +20,6 @@ export const MintArena: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Spearmint Quake 3 and Team Arena game code.",
+  notesEs: "Código de juego de Spearmint Quake 3 y Team Arena.",
 };

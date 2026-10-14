@@ -20,4 +20,11 @@ export const TheLordOfTheRingsReturnOfTheKing: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/48/Lord_Rings_Return_King.jpg",
+    alt: "The Lord of the Rings: Return of the King (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of The Lord of the Rings: Return of the King.",
+  notesEs: "Decompilación de The Lord of the Rings: The Return of the King.",
 };

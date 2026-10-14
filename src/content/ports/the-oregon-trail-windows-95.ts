@@ -20,4 +20,6 @@ export const TheOregonTrailWindows95: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "WIP Decompilation of The Oregon Trail for Windows 95.",
+  notesEs: "Decompilación de The Oregon Trail para Windows 95, en desarrollo.",
 };

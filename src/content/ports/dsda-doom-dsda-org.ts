@@ -20,4 +20,6 @@ export const DsdaDoomDsdaOrg: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "This is a successor of prboom+ with extra tooling for demo recording and playback, with a focus on speedrunning and quality of life.",
+  notesEs: "Sucesor de prboom+ con herramientas para grabar y reproducir demos, centrado en speedrunning.",
 };

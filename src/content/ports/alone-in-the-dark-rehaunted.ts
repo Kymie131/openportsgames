@@ -24,4 +24,9 @@ export const aloneInTheDarkRehaunted: Port = {
     "Enhanced port and dynamic recompilation of the original Alone in the Dark (1992), with textured models, HD backgrounds, quality-of-life options and controller support. It needs the game itself.",
   notesEs:
     "Port mejorado y recompilación dinámica del Alone in the Dark original (1992), con modelos texturizados, fondos en HD, opciones de comodidad y soporte de mando. Necesita el propio juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Alone%20in%20the%20Dark%20(1992).png",
+    alt: "Alone in the Dark (box art)",
+    credit: "Box art",
+  },
 };

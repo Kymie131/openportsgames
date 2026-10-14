@@ -20,4 +20,6 @@ export const Quake3e: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Improved Quake III Arena engine.",
+  notesEs: "Motor mejorado de Quake III Arena.",
 };

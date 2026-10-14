@@ -20,4 +20,11 @@ export const NflStreet2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "GameCube",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/NFL%20Street%202%20(Europe).png",
+    alt: "NFL Street 2 (box art)",
+    credit: "Box art",
+  },
+  notes: "Decompilation and asset research for NFL Street 2 (GameCube, GN7E69).",
+  notesEs: "Decompilación e investigación de recursos de NFL Street 2 (GameCube, GN7E69).",
 };

@@ -25,4 +25,6 @@ export const PokemonPuzzleChallenge: Port = {
     alt: "Pokemon Puzzle Challenge (cover)",
     credit: "Wikipedia",
   },
+  notes: "Disassembly of Pokémon Puzzle Challenge.",
+  notesEs: "Desensamblado de Pokémon Puzzle Challenge.",
 };

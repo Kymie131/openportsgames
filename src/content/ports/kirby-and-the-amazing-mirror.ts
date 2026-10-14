@@ -20,4 +20,11 @@ export const KirbyAndTheAmazingMirror: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0b/Kirby_%26_the_Amazing_Mirror.jpg",
+    alt: "Kirby & The Amazing Mirror (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "WIP Decompilation of Kirby & The Amazing Mirror (USA).",
+  notesEs: "Decompilación de Kirby & The Amazing Mirror (USA), en desarrollo.",
 };

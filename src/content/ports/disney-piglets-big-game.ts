@@ -20,4 +20,6 @@ export const DisneyPigletsBigGame: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Piglet's Big Game (GC).",
+  notesEs: "Decompilación de Piglet's Big Game (GC).",
 };

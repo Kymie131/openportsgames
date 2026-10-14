@@ -20,4 +20,6 @@ export const Doom64ExPlusEnhanced: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "This is a custom fork of the EX+ engine with news customs contents, news customs options, news customs features, and possibly more in the future.",
+  notesEs: "Bifurcación personalizada del motor EX+ con contenido, opciones y funciones nuevos, y posiblemente más cosas en el futuro.",
 };

@@ -20,4 +20,6 @@ export const Opene2140: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Remake of Earth 2140 using OpenRA.",
+  notesEs: "Remake de Earth 2140 con OpenRA.",
 };

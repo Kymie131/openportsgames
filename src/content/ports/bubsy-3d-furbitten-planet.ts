@@ -20,4 +20,6 @@ export const Bubsy3dFurbittenPlanet: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "A decompilation of Bubsy 3D Furbitten Planet (USA) rev0.",
+  notesEs: "Decompilación de Bubsy 3D: Furbitten Planet (USA) rev0.",
 };

@@ -20,4 +20,11 @@ export const SonicBattle: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Game Boy Advance",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Sonic%20Battle%20(Europe)%20(En,Ja,Fr,De,Es,It).png",
+    alt: "Sonic Battle (box art)",
+    credit: "Box art",
+  },
+  notes: "Matching decompilation of Sonic Battle for Game Boy Advance.",
+  notesEs: "Decompilación que coincide de Sonic Battle para Game Boy Advance.",
 };

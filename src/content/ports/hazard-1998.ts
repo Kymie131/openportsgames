@@ -20,4 +20,6 @@ export const Hazard1998: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Hazard 1998 (Other).",
+  notesEs: "Decompilación de Hazard 1998 (Other).",
 };

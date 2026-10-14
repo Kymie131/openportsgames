@@ -20,4 +20,11 @@ export const ShinMegamiTenseiDigitalDevilSaga: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "PlayStation 2",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Shin%20Megami%20Tensei%20-%20Digital%20Devil%20Saga%20(Europe).png",
+    alt: "Shin Megami Tensei: Digital Devil Saga (box art)",
+    credit: "Box art",
+  },
+  notes: "Matching decompilation of Shin Megami Tensei: Digital Devil Saga 1 & 2 (PS2).",
+  notesEs: "Decompilación que coincide de Shin Megami Tensei: Digital Devil Saga 1 y 2 (PS2).",
 };

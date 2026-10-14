@@ -20,4 +20,6 @@ export const Openomf: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "One Must Fall 2097 Remake.",
+  notesEs: "Remake de One Must Fall 2097.",
 };

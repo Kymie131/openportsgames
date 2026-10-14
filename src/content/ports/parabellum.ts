@@ -20,4 +20,6 @@ export const Parabellum: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "An attempt to build a #Travian 3.x clone written in #Rust.",
+  notesEs: "Intento de clon de Travian 3.x escrito en Rust.",
 };

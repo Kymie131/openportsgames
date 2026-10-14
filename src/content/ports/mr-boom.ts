@@ -20,4 +20,6 @@ export const MrBoom: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Mr.Boom is an 8 player Bomberman clone for RetroArch/Libretro.",
+  notesEs: "Mr.Boom es un clon de Bomberman para 8 jugadores para RetroArch/Libretro.",
 };

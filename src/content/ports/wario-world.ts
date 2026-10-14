@@ -20,4 +20,11 @@ export const WarioWorld: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "GameCube",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Wario%20World%20(Europe)%20(En,Fr,De,Es,It).png",
+    alt: "Wario World (box art)",
+    credit: "Box art",
+  },
+  notes: "A decompilation project for Wario World on the Gamecube. Primarily educational.",
+  notesEs: "Proyecto de decompilación de Wario World para GameCube, principalmente educativo.",
 };

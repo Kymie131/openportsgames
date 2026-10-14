@@ -20,4 +20,11 @@ export const FireEmblemSeimaNoKouseki: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG",
+    alt: "Fire Emblem: Seima no Kouseki (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Fire Emblem: Seima no Kouseki (Other).",
+  notesEs: "Decompilación de Fire Emblem: Seima no Kouseki (Other).",
 };

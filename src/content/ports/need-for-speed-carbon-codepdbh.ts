@@ -25,4 +25,6 @@ export const NeedForSpeedCarbonCodepdbh: Port = {
     alt: "Need for Speed Carbon (cover)",
     credit: "Wikipedia",
   },
+  notes: "Experimental static recompilation of Need for Speed Carbon for Xbox 360 using ReXGlue. Windows x64 prototype, analysis fixes and build instructions.",
+  notesEs: "Recompilación estática experimental de Need for Speed Carbon para Xbox 360 con ReXGlue. Prototipo para Windows x64.",
 };

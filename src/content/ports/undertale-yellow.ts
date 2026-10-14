@@ -20,4 +20,6 @@ export const UndertaleYellow: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "A Decompilation of UnderTale Yellow v1.2.1.",
+  notesEs: "Una decompilación de UnderTale Yellow v1.2.1.",
 };

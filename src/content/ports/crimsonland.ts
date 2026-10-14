@@ -20,4 +20,11 @@ export const Crimsonland: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/2f/Crimsonland.jpg",
+    alt: "Crimsonland (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "a faithful rewrite of crimsonland (2003).",
+  notesEs: "Reescritura fiel de Crimsonland (2003).",
 };

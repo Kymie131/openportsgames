@@ -20,4 +20,6 @@ export const Kamiden: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo DS",
+  notes: "Decompilation of Okamiden (U) for the Nintendo DS.",
+  notesEs: "Decompilación de Okamiden (U) para Nintendo DS.",
 };

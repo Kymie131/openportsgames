@@ -20,4 +20,6 @@ export const Summoner: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Matching decompilation of Summoner (PC, 2001).",
+  notesEs: "Decompilación que coincide de Summoner (PC, 2001).",
 };

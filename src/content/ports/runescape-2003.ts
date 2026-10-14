@@ -20,4 +20,6 @@ export const Runescape2003: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "🍫 runescape classic client ported to C.",
+  notesEs: "Cliente de RuneScape Classic de 2003 portado a C.",
 };

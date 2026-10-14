@@ -20,4 +20,6 @@ export const KingdomHeartsReCoded: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Matching decompilation of Kingdom Hearts Re:coded (US/EU). EU: 88.65% C code and 99.98% DATA, byte-exact.",
+  notesEs: "Decompilación que coincide de Kingdom Hearts Re:coded (US/EU). Versión EU: 88,65% de código C y 99,98% de datos, idénticos byte a byte.",
 };

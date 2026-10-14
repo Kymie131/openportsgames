@@ -20,4 +20,11 @@ export const AnotherMind: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/3f/Anothermind.jpg",
+    alt: "Another Mind (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompiliation of Squaresoft's visual novel \"Another Mind\".",
+  notesEs: "Decompilación de la novela visual de Squaresoft «Another Mind».",
 };

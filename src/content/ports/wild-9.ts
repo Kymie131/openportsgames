@@ -20,4 +20,11 @@ export const Wild9: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "PlayStation",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a4/Wild_9_Coverart.png",
+    alt: "Wild 9 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Matching decompilation of `Wild 9` for the Sony PlayStation 1, targeting the NTSC-U SLUS_004.25 executable, built with a reproducible GCC 2.8.0 PSX and GNU binutils 2.42 toolchain.",
+  notesEs: "Decompilación que coincide de Wild 9 para Sony PlayStation 1, apuntando al ejecutable NTSC-U SLUS_004.25 y compilada con una cadena reproducible de GCC 2.8.0 PSX y GNU binutils.",
 };

@@ -20,4 +20,6 @@ export const CtwNative: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Bringing GTA: Chinatown Wars to native PC with your own game files.",
+  notesEs: "Lleva GTA: Chinatown Wars a PC nativo con tus propios archivos del juego.",
 };

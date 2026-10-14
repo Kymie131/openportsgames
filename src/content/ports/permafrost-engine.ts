@@ -20,4 +20,6 @@ export const PermafrostEngine: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "An OpenGL RTS game engine written in C.",
+  notesEs: "Motor de juego RTS con OpenGL escrito en C.",
 };

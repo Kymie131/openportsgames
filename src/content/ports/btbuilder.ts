@@ -20,4 +20,6 @@ export const Btbuilder: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Bt Builder is an open source implementation of the Bard's Tale Construction Set.",
+  notesEs: "Bt Builder es una implementación de código abierto del Bard's Tale Construction Set.",
 };

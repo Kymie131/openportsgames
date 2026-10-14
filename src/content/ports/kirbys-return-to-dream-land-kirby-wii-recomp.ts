@@ -20,4 +20,6 @@ export const KirbysReturnToDreamLandKirbyWiiRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "GameCube",
+  notes: "Runtime for recompilations of GameCube games.",
+  notesEs: "Runtime para recompilaciones de juegos de GameCube.",
 };

@@ -20,4 +20,11 @@ export const Flatout2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/40/Flatout2pc.jpg",
+    alt: "FlatOut 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "My attempted decompilation of FlatOut 2.",
+  notesEs: "Intento de decompilación de FlatOut 2.",
 };

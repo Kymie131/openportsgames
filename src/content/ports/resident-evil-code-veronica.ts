@@ -20,4 +20,11 @@ export const ResidentEvilCodeVeronica: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/44/RECV_boxart.jpg",
+    alt: "Resident Evil - Code: Veronica (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation project of Resident Evil - Code: Veronica (DC) which aims to reconstruct the source code of the game.",
+  notesEs: "Proyecto de decompilación de Resident Evil - Code: Veronica (DC) que busca reconstruir el código fuente.",
 };

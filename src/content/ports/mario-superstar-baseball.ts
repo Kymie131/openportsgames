@@ -20,4 +20,11 @@ export const MarioSuperstarBaseball: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/2f/Mario_Superstar_Baseball.jpg",
+    alt: "Mario Superstar Baseball (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "A decompilation of Mario Superstar Baseball using dtk.",
+  notesEs: "Una decompilación de Mario Superstar Baseball usando dtk.",
 };

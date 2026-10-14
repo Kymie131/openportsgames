@@ -20,4 +20,6 @@ export const Openkrush: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "A KKnD and KKnD2 mod on OpenRA engine.",
+  notesEs: "Un mod de KKnD y KKnD2 sobre el motor OpenRA.",
 };

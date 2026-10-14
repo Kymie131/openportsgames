@@ -25,4 +25,6 @@ export const LegoCreatorKnightsKingdom: Port = {
     alt: "Lego Creator Knights Kingdom (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decompiling and Modernizing Lego Creator Knights Kingdom.",
+  notesEs: "Decompilación y modernización de Lego Creator Knights Kingdom.",
 };

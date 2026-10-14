@@ -20,4 +20,6 @@ export const JpnPokMonBlue: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Game Boy",
+  notes: "Disassembly of JPN Pokémon Blue.",
+  notesEs: "Desensamblado de Pokémon Blue (Japón).",
 };

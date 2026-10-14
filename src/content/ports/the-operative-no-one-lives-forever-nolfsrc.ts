@@ -20,4 +20,6 @@ export const TheOperativeNoOneLivesForeverNolfsrc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Source code reconstruction of The Operative: No One Lives Forever.",
+  notesEs: "Reconstrucción del código fuente de The Operative: No One Lives Forever.",
 };

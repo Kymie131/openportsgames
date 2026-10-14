@@ -20,4 +20,6 @@ export const DaytonaArcadeRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Arcade",
+  notes: "Static recompilation of Daytona Arcade Recomp (Arcade).",
+  notesEs: "Recompilación estática de Daytona Arcade Recomp (Arcade).",
 };

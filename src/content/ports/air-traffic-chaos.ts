@@ -20,4 +20,11 @@ export const AirTrafficChaos: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo DS",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/59/AirTrafficChaos.jpg",
+    alt: "Air Traffic Chaos (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Air Traffic Chaos for Nintendo DS. Decompilation and modification project.",
+  notesEs: "Proyecto de decompilación y modificación de Air Traffic Chaos para Nintendo DS.",
 };

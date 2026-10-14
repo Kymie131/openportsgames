@@ -20,4 +20,6 @@ export const Vera20k: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Red Alert 2: Yuri's Revenge rebuilt in Rust / 用 Rust 重写的《红警2：尤里的复仇》.",
+  notesEs: "Red Alert 2: Yuri's Revenge reconstruido en Rust.",
 };

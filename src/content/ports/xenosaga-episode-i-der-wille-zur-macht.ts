@@ -20,4 +20,11 @@ export const XenosagaEpisodeIDerWilleZurMacht: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "PlayStation 2",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Xenosaga%20Episode%20I%20-%20Der%20Wille%20zur%20Macht%20(Japan)%20(Premium%20Box).png",
+    alt: "Xenosaga Episode I: Der Wille zur Macht (box art)",
+    credit: "Box art",
+  },
+  notes: "Matching decompilation of Xenosaga Episode I: Der Wille zur Macht for the PS2.",
+  notesEs: "Decompilación que coincide de Xenosaga Episode I: Der Wille zur Macht para PS2.",
 };

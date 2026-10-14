@@ -20,4 +20,6 @@ export const Jftekwar: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "No-promises port of the Capstone Software game \"TekWar\".",
+  notesEs: "Port sin garantías del juego de Capstone Software «TekWar».",
 };

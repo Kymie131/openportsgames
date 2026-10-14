@@ -25,4 +25,6 @@ export const PrincessMaker4: Port = {
     alt: "Princess Maker 4 (cover)",
     credit: "Wikipedia",
   },
+  notes: "Princess Maker 4 decompilation.",
+  notesEs: "Decompilación de Princess Maker 4.",
 };

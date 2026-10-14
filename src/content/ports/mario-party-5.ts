@@ -25,4 +25,6 @@ export const MarioParty5: Port = {
     alt: "Mario Party 5 (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decompilation of Mario Party 5 (Other).",
+  notesEs: "Decompilación de Mario Party 5 (Other).",
 };

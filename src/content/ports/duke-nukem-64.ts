@@ -25,4 +25,6 @@ export const DukeNukem64: Port = {
     alt: "Duke Nukem 64 (cover)",
     credit: "Wikipedia",
   },
+  notes: "Duke Nukem 64 decompilation (heavily WIP).",
+  notesEs: "Decompilación de Duke Nukem 64 (muy en desarrollo).",
 };

@@ -20,4 +20,11 @@ export const BetrayalAtKrondor: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/20/Betrayal_at_Krondor6.jpg",
+    alt: "Betrayal at Krondor (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Betrayal at Krondor: A byte-perfect recompilation of the 1993 classic.",
+  notesEs: "Betrayal at Krondor: una recompilación byte a byte del clásico de 1993.",
 };

@@ -20,4 +20,11 @@ export const MafiaTheCityOfLostHeaven: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/ba/MafiaUSCov.jpg",
+    alt: "Mafia: The City of Lost Heaven (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Mafia: The City of Lost Heaven.",
+  notesEs: "Decompilación de Mafia: The City of Lost Heaven.",
 };

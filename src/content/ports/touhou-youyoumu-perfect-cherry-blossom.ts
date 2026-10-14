@@ -20,4 +20,6 @@ export const TouhouYouyoumuPerfectCherryBlossom: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "A decompilation of 東方妖々夢 ～ Perfect Cherry Blossom 1.00b (Touhou 7).",
+  notesEs: "Una decompilación de 東方妖々夢 ～ Perfect Cherry Blossom 1.00b (Touhou 7).",
 };

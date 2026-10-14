@@ -20,4 +20,6 @@ export const KazeNoNotam: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "PlayStation",
+  notes: "100% matching decompilation of Kaze no Notam (PS1, 1997). All 648 functions in C, byte-identical rebuild.",
+  notesEs: "Decompilación 100% exacta de Kaze no Notam (PS1, 1997). Las 648 funciones en C, reconstrucción byte a byte.",
 };

@@ -20,4 +20,11 @@ export const MegamanZero3: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/be/Mmzero3box.jpg",
+    alt: "Megaman Zero 3 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "WIP: Decompilation of Megaman Zero 3(Japan).",
+  notesEs: "Decompilación de Megaman Zero 3 (Japón), en desarrollo.",
 };

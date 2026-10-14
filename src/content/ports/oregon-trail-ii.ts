@@ -25,4 +25,6 @@ export const OregonTrailIi: Port = {
     alt: "Oregon Trail II (cover)",
     credit: "Wikipedia",
   },
+  notes: "Oregon Trail II reverse engineering/decompilation project, in progress.",
+  notesEs: "Proyecto de ingeniería inversa/decompilación de Oregon Trail II, en curso.",
 };

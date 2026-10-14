@@ -20,4 +20,6 @@ export const PokemonTcg1: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Disassembly of Pokémon TCG.",
+  notesEs: "Desensamblado de Pokémon TCG.",
 };

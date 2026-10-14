@@ -20,4 +20,6 @@ export const PokemonStadium1: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Disassembly and decompilation of Pokémon Stadium.",
+  notesEs: "Desensamblado y decompilación de Pokémon Stadium.",
 };

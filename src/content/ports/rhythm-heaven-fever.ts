@@ -20,4 +20,11 @@ export const RhythmHeavenFever: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/bb/Rhythm-heaven-fever.jpg",
+    alt: "Rhythm Heaven Fever (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Rhythm Heaven Fever decompilation.",
+  notesEs: "Decompilación de Rhythm Heaven Fever.",
 };

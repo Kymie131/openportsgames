@@ -25,4 +25,6 @@ export const Legoland: Port = {
     alt: "Legoland (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decompilation of Legoland (Other).",
+  notesEs: "Decompilación de Legoland (Other).",
 };

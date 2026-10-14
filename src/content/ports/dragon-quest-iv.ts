@@ -25,4 +25,6 @@ export const DragonQuestIv: Port = {
     alt: "Dragon Quest IV (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decompilation project for Dragon Quest IV Nintendo DS using dsd.",
+  notesEs: "Proyecto de decompilación de Dragon Quest IV para Nintendo DS con dsd.",
 };

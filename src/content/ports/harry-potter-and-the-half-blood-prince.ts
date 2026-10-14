@@ -25,4 +25,6 @@ export const HarryPotterAndTheHalfBloodPrince: Port = {
     alt: "Harry Potter And The Half Blood Prince (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decompilation of Harry Potter And The Half Blood Prince (Other).",
+  notesEs: "Decompilación de Harry Potter And The Half Blood Prince (Other).",
 };

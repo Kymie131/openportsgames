@@ -20,4 +20,6 @@ export const Dgengine: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "An implementation of the Diablo 1 game engine.",
+  notesEs: "Una implementación del motor de Diablo 1.",
 };

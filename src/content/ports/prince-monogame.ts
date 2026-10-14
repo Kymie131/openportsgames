@@ -20,4 +20,6 @@ export const PrinceMonogame: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Monogame implementation of Prince of Persia 2.",
+  notesEs: "Implementación en MonoGame de Prince of Persia 2.",
 };

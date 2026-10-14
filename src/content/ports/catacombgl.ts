@@ -20,4 +20,6 @@ export const Catacombgl: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "CatacombGL is a source port with OpenGL graphics for Catacomb 3D (1991), The Catacomb Abyss (1992), The Catacomb Armageddon (1992) and The Catacomb Apocalypse (1993).",
+  notesEs: "CatacombGL es un port con gráficos OpenGL de Catacomb 3D (1991), The Catacomb Abyss (1992), The Catacomb Armageddon (1992) y The Catacomb Apocalypse (1993).",
 };

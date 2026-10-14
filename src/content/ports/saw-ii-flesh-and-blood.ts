@@ -20,4 +20,11 @@ export const SawIiFleshAndBlood: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Xbox 360",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a9/Saw_II_Flesh_%26_Blood.JPG",
+    alt: "Saw II: Flesh & Blood (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Saw II: Flesh & Blood — Xbox 360 ReXGlue Recompilation.",
+  notesEs: "Saw II: Flesh & Blood — recompilación con ReXGlue para Xbox 360.",
 };

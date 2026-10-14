@@ -30,4 +30,9 @@ export const slashemAndroid: Port = {
       credit: "Wikimedia Commons",
     },
   ],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Slash%27_EM.jpg",
+    alt: "SLASH'EM (box art)",
+    credit: "Wikipedia",
+  },
 };

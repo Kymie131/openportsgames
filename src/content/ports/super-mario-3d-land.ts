@@ -20,4 +20,6 @@ export const SuperMario3dLand: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Super Mario 3D Land EU Decompilation.",
+  notesEs: "Decompilación de Super Mario 3D Land (EU).",
 };

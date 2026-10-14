@@ -20,4 +20,6 @@ export const EarthboundPhaseDistorter: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "A Mother 2/EarthBound PC Port.",
+  notesEs: "Un port para PC de Mother 2 / EarthBound.",
 };

@@ -25,4 +25,6 @@ export const PokemonPuzzleLeague: Port = {
     alt: "Pokemon Puzzle League (cover)",
     credit: "Wikipedia",
   },
+  notes: "Matching decomp of Pokémon Puzzle League.",
+  notesEs: "Decompilación que coincide de Pokémon Puzzle League.",
 };

@@ -20,4 +20,6 @@ export const KirbysDreamCollectionSpecialEdition: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "Decompilation of Kirby's Dream Collection: Special Edition.",
+  notesEs: "Decompilación de Kirby's Dream Collection: Special Edition.",
 };

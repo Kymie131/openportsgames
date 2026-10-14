@@ -20,4 +20,11 @@ export const PokemonPlatinum: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/ca/Pokemon_Platinum.png",
+    alt: "Pokemon Platinum (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Pokémon Platinum.",
+  notesEs: "Decompilación de Pokémon Platinum.",
 };

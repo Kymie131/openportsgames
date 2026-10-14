@@ -25,4 +25,6 @@ export const MortalKombatDeception: Port = {
     alt: "Mortal Kombat: Deception (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decomp of Mortal Kombat Deception for the Gamecube.",
+  notesEs: "Decompilación de Mortal Kombat Deception para GameCube.",
 };

@@ -20,4 +20,6 @@ export const Nearchuckle: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "A Linux port of Far Cry 1.",
+  notesEs: "Un port para Linux de Far Cry 1.",
 };

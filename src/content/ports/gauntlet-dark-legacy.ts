@@ -25,4 +25,6 @@ export const GauntletDarkLegacy: Port = {
     alt: "Gauntlet Dark Legacy (cover)",
     credit: "Wikipedia",
   },
+  notes: "Decompilation project of Gauntlet: Dark Legacy for the Nintendo Gamecube.",
+  notesEs: "Proyecto de decompilación de Gauntlet: Dark Legacy para Nintendo GameCube.",
 };

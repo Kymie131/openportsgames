@@ -20,4 +20,6 @@ export const Ezquake: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "main ezQuake source code base.",
+  notesEs: "Base del código fuente principal de ezQuake.",
 };

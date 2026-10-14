@@ -20,4 +20,11 @@ export const Sonic3AndKnuckles: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Sega Mega Drive / Genesis",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/07/Sonic3-box-us-225.jpg",
+    alt: "Sonic 3 & Knuckles (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Sonic 3 & Knuckles recompiled for the Sega Genesis using segagenesisrecomp · Part of the R.A.I.D. community.",
+  notesEs: "Sonic 3 & Knuckles recompilado para Sega Genesis con segagenesisrecomp, parte de la comunidad R.A.I.D.",
 };

@@ -20,4 +20,6 @@ export const Madnesspatch: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  notes: "A patch that fixes various issues in the PC port of Alice: Madness Returns.",
+  notesEs: "Parche que corrige varios problemas del port para PC de Alice: Madness Returns.",
 };

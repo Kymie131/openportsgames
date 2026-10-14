@@ -20,4 +20,11 @@ export const RatchetAndClankUpYourArsenal: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "PlayStation 2",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/73/Ratchetandclank3box.jpg",
+    alt: "Ratchet & Clank: Up Your Arsenal (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Ratchet & Clank 3: Up Your Arsenal PS2 C Source Code Decompilation Project.",
+  notesEs: "Proyecto de decompilación a código C del PlayStation 2 de Ratchet & Clank 3: Up Your Arsenal.",
 };

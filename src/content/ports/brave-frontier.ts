@@ -20,4 +20,11 @@ export const BraveFrontier: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f0/Brave_Frontier.png",
+    alt: "Brave Frontier (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Brave Frontier client.",
+  notesEs: "Decompilación del cliente de Brave Frontier.",
 };

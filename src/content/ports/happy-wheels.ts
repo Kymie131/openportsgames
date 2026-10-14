@@ -25,4 +25,6 @@ export const HappyWheels: Port = {
     alt: "Happy Wheels (cover)",
     credit: "Wikipedia",
   },
+  notes: "Happy Wheels decompilation.",
+  notesEs: "Decompilación de Happy Wheels.",
 };
