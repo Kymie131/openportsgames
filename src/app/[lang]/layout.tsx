@@ -5,7 +5,6 @@ import { notFound } from "next/navigation";
 import "../globals.css";
 import { absoluteUrl, getSiteUrl, SITE_DESCRIPTION, SITE_NAME } from "@/lib/site";
 import { ThemeScript } from "@/components/theme/theme-script";
-import { LocaleScript } from "@/components/i18n/locale-script";
 import { LocaleProvider } from "@/components/i18n/locale-provider";
 import { SkipLink } from "@/components/layout/skip-link";
 import { SiteHeader } from "@/components/layout/site-header";
@@ -75,8 +74,7 @@ export default async function RootLayout({
       </head>
       <body className="flex min-h-full flex-col">
         <ThemeScript />
-        <LocaleScript />
-        <LocaleProvider>
+        <LocaleProvider locale={lang}>
           <SkipLink />
           <SiteHeader />
           <main id="main" className="flex-1">
