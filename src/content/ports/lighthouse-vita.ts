@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const lighthouseVita: Port = {
+  schema: "port",
+  id: "lighthouse-vita",
+  title: "Lighthouse (PS Vita)",
+  game: "Banjo-Kazooie",
+  developers: ["Rinnegatamante"],
+  publisher: "Nintendo",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Rinnegatamante/Lighthouse"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Nintendo 64",
+  notes: "PlayStation Vita port of Lighthouse, the native Banjo-Kazooie decompilation. Requires your own ROM.",
+  notesEs: "Port para PlayStation Vita de Lighthouse, la decompilación nativa de Banjo-Kazooie. Requiere tu propia ROM.",
+  cover: {
+    src: "https://cdn2.steamgriddb.com/icon_thumb/7c220a2091c26a7f5e9f1cfb099511e3.png",
+    alt: "Banjo-Kazooie (cover)",
+    credit: "SteamGridDB",
+  },
+};
