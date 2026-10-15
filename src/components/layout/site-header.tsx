@@ -22,11 +22,11 @@ const NAV_ITEMS = [
   { href: "/console", key: "console" as const },
   { href: "/emulators", key: "emulators" as const },
   { href: "/tools", key: "tools" as const },
-  { href: "/guides", key: "guides" as const },
-  { href: "/testing", key: "testing" as const },
 ];
 
 const PROJECT_ITEMS = [
+  { href: "/guides", key: "guides" as const },
+  { href: "/testing", key: "testing" as const },
   { href: "/submit", key: "submit" as const },
   { href: "/support", key: "support" as const },
   { href: "/about", key: "about" as const },
@@ -94,7 +94,7 @@ export function SiteHeader() {
       )}
     >
       <Container wide className="flex h-14 items-center justify-between gap-4 md:h-16">
-        <div className="flex min-w-0 items-center gap-6">
+        <div className="flex min-w-0 items-center gap-4">
           <Link href="/" className="flex shrink-0 items-center" aria-label={t.nav.home}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
@@ -176,7 +176,7 @@ export function SiteHeader() {
               onChange={(event) => setQuery(event.target.value)}
               placeholder={t.catalog.searchPlaceholder}
               aria-label={t.catalog.searchPlaceholder}
-              className="w-28 bg-transparent text-xs text-foreground placeholder:text-muted focus:outline-none lg:w-40"
+              className="w-28 bg-transparent text-xs text-foreground placeholder:text-muted focus:outline-none lg:w-36"
             />
             <kbd className="hidden rounded bg-surface-2 px-1.5 py-0.5 font-mono text-[10px] text-muted lg:inline-block">
               /
