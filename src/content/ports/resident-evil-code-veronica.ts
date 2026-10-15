@@ -19,7 +19,7 @@ export const ResidentEvilCodeVeronica: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/44/RECV_boxart.jpg",
     alt: "Resident Evil - Code: Veronica (box art)",

@@ -19,7 +19,7 @@ export const fightNightChampionRecomp: Port = {
   license: { spdx: "Apache-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Static recompilation of Fight Night Champion (Xbox 360) for Windows. It needs your own copy of the game.",
   notesEs:

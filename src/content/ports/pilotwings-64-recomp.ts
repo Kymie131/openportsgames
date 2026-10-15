@@ -20,7 +20,7 @@ export const pilotwings64Recomp: Port = {
     note: "Repository ships no license file, so reuse rights are unstated.",
   },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   features: [
     "Widescreen at the display aspect ratio with the HUD at the screen edges",
     "High frame rate through matrix interpolation, up to the display refresh rate",

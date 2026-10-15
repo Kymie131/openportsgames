@@ -19,7 +19,7 @@ export const metalSlugXxRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation Portable",
+  originalSystems: ["PlayStation Portable"],
   notes:
     "Static recompilation of Metal Slug XX (PSP) using the ReXGlue SDK, for Windows. It needs your own copy of the game.",
   notesEs:

@@ -22,7 +22,7 @@ export const crashTeamRacingNitroFueled: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 4",
+  originalSystems: ["PlayStation 4"],
   notes:
     "Unofficial native port of Crash Team Racing: Nitro-Fueled (PS4, CUSA13795 v1.21). It runs the game's original x86-64 code directly on the CPU with a small runtime based on bbport, and translates the PS4 graphics to Vulkan through components derived from shadPS4; it is not a conventional emulator. Linux builds come from SacredFire and the Windows fork from GetLostIn. Requires your own decrypted copy of the base game and update 1.21.",
   notesEs:

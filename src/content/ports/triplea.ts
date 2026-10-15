@@ -19,7 +19,7 @@ export const Triplea: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes:
     "TripleA is a turn based strategy game and board game engine, similar to Axis & Allies or Risk.",
   notesEs:

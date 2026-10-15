@@ -18,7 +18,7 @@ export const madStalkerRecomp: Port = {
   sources: ["https://github.com/omegakatana92/MadStalkerRecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Fan-made recompilation of Mad Stalker: Full Metal Force (PlayStation), still in progress. It requires your own disc and ships no assets.",
   notesEs:

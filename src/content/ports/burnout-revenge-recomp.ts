@@ -19,7 +19,7 @@ export const burnoutRevengeRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Burnout Revenge's (Xbox 360) PowerPC code is translated to C++ ahead of time, with no interpreter or JIT. It needs the retail European dump and a Vulkan GPU.",
   notesEs:

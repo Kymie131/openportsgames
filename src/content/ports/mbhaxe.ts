@@ -18,7 +18,7 @@ export const mbhaxe: Port = {
   sources: ["https://github.com/RandomityGuy/MBHaxe"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Haxe port of Marble Blast Gold that keeps the original physics, with online multiplayer. It runs in the browser and on Windows, macOS, Linux, iOS and Android, and needs your own game files.",
   notesEs:

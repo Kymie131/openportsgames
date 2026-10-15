@@ -19,7 +19,7 @@ export const wiiMenu: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Wii",
+  originalSystems: ["Wii"],
   notes:
     "Fan decompilation of the Wii Menu. It is system software, not a game. A research codebase; it requires files from a console you own.",
   notesEs:

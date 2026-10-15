@@ -19,7 +19,7 @@ export const Spearmint: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/0/05/Minze.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
     alt: "spearmint (cover)",

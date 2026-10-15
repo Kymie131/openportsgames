@@ -19,7 +19,7 @@ export const gta2Re: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Reimplementation of Grand Theft Auto 2 (PC 10.5). It needs your own copy of the game files.",
   notesEs:

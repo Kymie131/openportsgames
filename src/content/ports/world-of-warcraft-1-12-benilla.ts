@@ -19,7 +19,7 @@ export const WorldOfWarcraft112Benilla: Port = {
   license: { spdx: "Apache-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "A complete World of Warcraft 1.12.1 client, written from scratch in Rust and Bevy.",
   notesEs: "Un cliente completo de World of Warcraft 1.12.1, escrito desde cero en Rust y Bevy.",
 };

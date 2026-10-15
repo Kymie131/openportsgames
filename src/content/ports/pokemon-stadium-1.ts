@@ -19,7 +19,7 @@ export const PokemonStadium1: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Disassembly and decompilation of Pokémon Stadium.",
   notesEs: "Desensamblado y decompilación de Pokémon Stadium.",
 };

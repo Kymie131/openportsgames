@@ -18,7 +18,7 @@ export const slayTheSpire2Android: Port = {
   sources: ["https://github.com/Ekyso/StS2-Launcher"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Unofficial Android launcher for Slay the Spire 2, still in alpha. It needs the original game.",
   notesEs:

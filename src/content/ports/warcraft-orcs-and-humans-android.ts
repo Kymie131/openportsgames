@@ -18,7 +18,7 @@ export const warcraftOrcsAndHumansAndroid: Port = {
   sources: ["https://github.com/drodin/Stratagus"],
   license: { spdx: "GPL-2.0" },
   verified: false,
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   notes:
     "Android port of the Stratagus real-time strategy engine, aimed at running Warcraft: Orcs & Humans. It needs the original game data files.",
   notesEs:

@@ -19,7 +19,7 @@ export const kirby64Recomp: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Static recompilation of Kirby 64: The Crystal Shards (Nintendo 64) for Windows. It needs your own copy of the game.",
   notesEs:

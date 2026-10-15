@@ -18,7 +18,7 @@ export const crash2Recomp: Port = {
   sources: ["https://github.com/Zumbo06/Crash2Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Native port of Crash Bandicoot 2: Cortex Strikes Back (PS1, USA, SCUS-94154) with psxrecomp. A launcher builds the game from your own disc image (no BIOS needed, OpenBIOS is included) and it is completable start to finish, still as a preview.",
   notesEs:

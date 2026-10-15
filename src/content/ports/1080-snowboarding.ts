@@ -19,7 +19,7 @@ export const _1080Snowboarding: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/04/1080snowboardingbox.jpg",
     alt: "1080° Snowboarding (box art)",

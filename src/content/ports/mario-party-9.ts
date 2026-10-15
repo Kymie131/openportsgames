@@ -19,7 +19,7 @@ export const MarioParty9: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/f0/Mario_Party_9_US_cover.jpg",
     alt: "Mario Party 9 (box art)",

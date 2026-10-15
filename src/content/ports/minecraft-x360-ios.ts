@@ -18,7 +18,7 @@ export const minecraftX360Ios: Port = {
   sources: ["https://github.com/DevZer0D4Y/MCX360-EDITION"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Recompilation project for Minecraft: Xbox 360 Edition that targets iOS. It is indexed by recomp.fyi and requires your own game data.",
   notesEs:

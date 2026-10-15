@@ -21,7 +21,7 @@ export const doom64ExPlus: Port = {
   },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   features: [
     "Source-based Doom 64 expansion",
     "Rerelease of the original maps plus new content",

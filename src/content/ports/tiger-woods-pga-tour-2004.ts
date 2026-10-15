@@ -19,7 +19,7 @@ export const TigerWoodsPgaTour2004: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Tiger%20Woods%20PGA%20Tour%202004%20(Europe)%20(Disc%201)%20(Rev%201).png",
     alt: "Tiger Woods PGA Tour 2004 (box art)",

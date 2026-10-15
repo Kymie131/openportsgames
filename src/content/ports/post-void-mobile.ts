@@ -18,7 +18,7 @@ export const postVoidMobile: Port = {
   sources: ["https://github.com/SanGraphic/PostVoidMobile"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Native ARM64 port of Post Void for Android, aiming to match the latest PC build. It needs your own game files.",
   notesEs:

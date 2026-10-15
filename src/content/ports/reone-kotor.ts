@@ -18,7 +18,7 @@ export const reOne: Port = {
   discord: "https://discord.gg/6sqSyfn8Jp",
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Engine reimplementation for Knights of the Old Republic. No tagged releases are published.",
   notesEs:

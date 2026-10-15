@@ -19,7 +19,7 @@ export const _1oom: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["MS-DOS"],
   notes:
     "1oom is a Master of Orion Classic (1993) game engine recreation that requires the original files to run.",
   notesEs:

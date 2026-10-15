@@ -19,7 +19,7 @@ export const Parabellum: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "An attempt to build a #Travian 3.x clone written in #Rust.",
   notesEs: "Intento de clon de Travian 3.x escrito en Rust.",
 };

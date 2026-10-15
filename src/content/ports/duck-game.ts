@@ -19,7 +19,7 @@ export const DuckGame: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Duck Game decompiled & rebuilt with some added features,.",
   notesEs: "Duck Game decompilado y reconstruido, con algunas funciones añadidas.",
 };

@@ -18,7 +18,7 @@ export const redahm: Port = {
   sources: ["https://github.com/masterspike52/reDAHM"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Native recompilation of Destroy All Humans! Path of the Furon (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:

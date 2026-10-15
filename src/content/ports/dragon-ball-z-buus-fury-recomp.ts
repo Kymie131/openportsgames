@@ -18,7 +18,7 @@ export const dragonBallZBuusFuryRecomp: Port = {
   sources: ["https://github.com/mstan/DragonBallZBuusFuryRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   notes:
     "Static recompilation of Dragon Ball Z: Buu's Fury (GBA) with the gbarecomp framework. It requires your own game data.",
   notesEs:

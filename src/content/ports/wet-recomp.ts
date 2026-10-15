@@ -18,7 +18,7 @@ export const wetRecomp: Port = {
   sources: ["https://github.com/nikolaygorb/WetRecomp"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Static recompilation of WET (2009, Xbox 360) with the ReXGlue SDK. Fully playable: video, audio, gameplay, achievements and progression.",
   notesEs:

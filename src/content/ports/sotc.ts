@@ -20,7 +20,7 @@ export const sotc: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   notes:
     "In-progress decompilation of the preview build of Shadow of the Colossus. A research codebase; it requires game files from a copy you own.",
   notesEs:

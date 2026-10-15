@@ -19,7 +19,7 @@ export const PopnMusic: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/4/4d/Pnm_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
     alt: "Pop'N Music (cover)",

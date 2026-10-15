@@ -19,7 +19,7 @@ export const BurnoutParadise: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/ab/Burnout_Paradise_Boxart_2.jpg",
     alt: "Burnout Paradise (cover)",

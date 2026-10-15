@@ -19,7 +19,7 @@ export const Thirdeye: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes:
     "ThirdEye is an open source AESOP replacement to play Eye of the Beholder 3 and Dungeon Hack.",
   notesEs:

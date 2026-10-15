@@ -19,7 +19,7 @@ export const RatchetDeadlocked: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Ratchet%20-%20Deadlocked%20(USA)%20(En,Fr,Es).png",
     alt: "Ratchet: Deadlocked (box art)",

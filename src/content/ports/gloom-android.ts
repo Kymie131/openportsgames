@@ -18,7 +18,7 @@ export const gloomAndroid: Port = {
   sources: ["https://github.com/Andiweli/ZGloom-Android"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "MS-DOS / Amiga",
+  originalSystems: ["MS-DOS", "Amiga"],
   notes:
     "Modern source port of the Amiga FPS Gloom with an improved renderer, focused on Android. It needs the original game data.",
   notesEs:

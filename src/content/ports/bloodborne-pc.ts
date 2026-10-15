@@ -19,7 +19,7 @@ export const bloodbornePc: Port = {
   license: { spdx: "GPL-2.0" },
   verified: true,
   verifiedAt: "2026-10-07",
-  originalSystem: "PlayStation 4",
+  originalSystems: ["PlayStation 4"],
   notes:
     "Native runtime port of Bloodborne (PS4, CUSA03173 v1.09). The game's own x86-64 code runs directly on the CPU with no emulation, a small runtime written for this one title replaces the PS4 system libraries, and the graphics are translated to Vulkan by a renderer derived from shadPS4 (the project is not affiliated with the shadPS4 team). It is neither a decompilation nor a general emulator, and it ships no game files: you must supply your own decrypted dump. The Linux build is the reference; community Windows ports exist. It is still in development and not verified from start to finish.",
   notesEs:

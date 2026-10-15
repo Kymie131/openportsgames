@@ -18,7 +18,7 @@ export const starboundAndroid: Port = {
   sources: ["https://github.com/RohanBhattacharyya/oSBM"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "OpenStarbound port to mobile devices, bringing the Starbound sandbox to Android. It needs the game itself.",
   notesEs:

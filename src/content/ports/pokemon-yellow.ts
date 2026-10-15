@@ -19,7 +19,7 @@ export const PokemonYellow: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Disassembly of Pokemon Yellow.",
   notesEs: "Desensamblado de Pokémon Yellow.",
 };

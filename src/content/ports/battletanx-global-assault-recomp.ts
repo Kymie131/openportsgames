@@ -19,7 +19,7 @@ export const battletanxGlobalAssaultRecomp: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Native recompilation of BattleTanx: Global Assault (Nintendo 64) with N64Recomp and RT64, in super-beta state for Windows and Linux. An Android build is planned. It needs the player's own legally obtained game dump.",
   notesEs:

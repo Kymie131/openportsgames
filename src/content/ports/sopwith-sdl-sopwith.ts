@@ -19,7 +19,7 @@ export const SopwithSdlSopwith: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Classic bi-plane shoot-'em up.",
   notesEs: "Clásico juego de disparos de biplano.",
 };

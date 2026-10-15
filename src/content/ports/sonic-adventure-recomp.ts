@@ -18,7 +18,7 @@ export const sonicAdventureRecomp: Port = {
   sources: ["https://github.com/sonicfreak1337/SARecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Dreamcast",
+  originalSystems: ["Dreamcast"],
   notes:
     "Native port of Sonic Adventure built on KatanaRecomp, playable on Windows, Linux and Steam Deck. It is a work in progress and needs your own game data.",
   notesEs:

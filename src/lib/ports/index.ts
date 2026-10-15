@@ -1,5 +1,5 @@
 import { portCases } from "@/content/ports";
-import { originalSystemById } from "@/content/ports/meta";
+import { originalSystemsById } from "@/content/ports/meta";
 import { hardwareProfiles } from "@/content/hardware";
 import { testRecords } from "@/content/tests";
 import {
@@ -34,8 +34,16 @@ for (const test of testRecordsValidated) {
   testByPort.set(test.portId, list);
 }
 
+export const UNKNOWN_SYSTEM = "Unknown";
+
+/** Normalized multi-value original systems for a port. */
+export function originalSystemsOf(portId: string): string[] {
+  return originalSystemsById[portId] ?? [];
+}
+
+/** First known original system (skips `Unknown`), for single-system UI. */
 export function originalSystemOf(portId: string): string | undefined {
-  return originalSystemById[portId];
+  return originalSystemsOf(portId).find((system) => system !== UNKNOWN_SYSTEM);
 }
 
 export function getPorts(): Port[] {

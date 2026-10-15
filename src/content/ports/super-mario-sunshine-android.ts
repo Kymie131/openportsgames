@@ -19,7 +19,7 @@ export const superMarioSunshineAndroid: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   notes:
     "Native port of Super Mario Sunshine (GameCube) for Android (ARM64, OpenGLES 3.0) with on-screen touch controls. It requires your own game files.",
   notesEs:

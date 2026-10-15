@@ -18,7 +18,7 @@ export const tonyHawksProject8Recomp: Port = {
   sources: ["https://github.com/theokyr/Project8Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "A ReXGlue-based static recompilation of Tony Hawk's Project 8 (Xbox 360). Requires your own copy.",
   notesEs:

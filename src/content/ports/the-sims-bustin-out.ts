@@ -19,7 +19,7 @@ export const TheSimsBustinOut: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/37/Bustingoutbox.jpg",
     alt: "The Sims: Bustin' Out (box art)",

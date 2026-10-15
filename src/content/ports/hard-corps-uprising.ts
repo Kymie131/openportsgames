@@ -19,7 +19,7 @@ export const HardCorpsUprising: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c6/Hard_Corps_Uprising_%28cover_art%29.png",
     alt: "Hard Corps: Uprising (cover)",

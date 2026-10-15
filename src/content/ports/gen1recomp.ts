@@ -18,7 +18,7 @@ export const gen1recomp: Port = {
   sources: ["https://github.com/bryanthaboi/gen1recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Game Boy",
+  originalSystems: ["Game Boy"],
   notes:
     "Native Lua/LÖVE2D recreation of the first-generation Pokémon games, also covering later generations. It builds for desktop and mobile and uses your own game data.",
   notesEs:

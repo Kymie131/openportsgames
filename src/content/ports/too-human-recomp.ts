@@ -18,7 +18,7 @@ export const tooHumanRecomp: Port = {
   sources: ["https://github.com/thextictac/Too-Human-Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Native recompilation of Too Human (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:

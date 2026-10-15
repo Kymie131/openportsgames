@@ -18,7 +18,7 @@ export const halo3Recomp: Port = {
   sources: ["https://github.com/twist84/halo3_cache_release_recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes: "Static recompilation of Halo 3 (Xbox 360) built with ReXGlue. Bring your own game files.",
   notesEs:
     "Recompilación estática de Halo 3 (Xbox 360) con ReXGlue. Aporta tus propios archivos del juego.",

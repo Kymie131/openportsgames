@@ -18,7 +18,7 @@ export const prisonArchitectAndroid: Port = {
   sources: ["https://github.com/udarmolota/pridroid"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Android launcher for Prison Architect, based on the desktop game. It needs the game itself files.",
   notesEs:

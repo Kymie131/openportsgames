@@ -18,7 +18,7 @@ export const megaManX4Recomp: Port = {
   sources: ["https://github.com/mstan/MegaManX4Recomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Static recompilation of Mega Man X4 (USA, SLUS-00561) with the PSXRecomp framework. The MIPS code is translated to C and runs on a simulation of PS1 hardware plus a recompiled BIOS.",
   notesEs:

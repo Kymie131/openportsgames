@@ -18,7 +18,7 @@ export const fatalFrameRecomp: Port = {
   sources: ["https://github.com/Mikompilation/MikuPan"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   notes:
     "Static recompilation of Fatal Frame (PlayStation 2) with ReXGlue. It requires your own game data.",
   notesEs:

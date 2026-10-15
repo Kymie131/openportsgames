@@ -20,7 +20,7 @@ export const residentEvilCodeVeronicaDecomp: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Dreamcast",
+  originalSystems: ["Dreamcast"],
   notes:
     "Completed decompilation of Resident Evil: Code Veronica X. A research codebase; it requires game files from a copy you own.",
   notesEs:

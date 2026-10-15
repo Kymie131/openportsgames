@@ -19,7 +19,7 @@ export const BraveFrontier: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/f0/Brave_Frontier.png",
     alt: "Brave Frontier (box art)",

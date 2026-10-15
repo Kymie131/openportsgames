@@ -20,7 +20,7 @@ export const legendOfManaDecomp: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Matching decompilation of Legend of Mana (PlayStation). A research codebase; it requires game files from a copy you own.",
   notesEs:

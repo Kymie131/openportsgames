@@ -18,7 +18,7 @@ export const starFoxAdventuresRecomp: Port = {
   sources: ["https://github.com/JackPriceBurns/foxhollow"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   notes:
     "Static recompilation of Star Fox Adventures (GameCube) with ReXGlue. It requires your own game files.",
   notesEs:

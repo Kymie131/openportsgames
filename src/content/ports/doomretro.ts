@@ -19,7 +19,7 @@ export const doomRetro: Port = {
   license: { spdx: "GPL-3.0" },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   features: [
     "High-resolution textures and sprites",
     "Full controller support including analog sticks and triggers",

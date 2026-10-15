@@ -19,7 +19,7 @@ export const WorldOfGoo: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/c/c4/World_of_Goo_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
     alt: "World of Goo (cover)",

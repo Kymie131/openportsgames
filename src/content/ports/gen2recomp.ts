@@ -18,7 +18,7 @@ export const gen2recomp: Port = {
   sources: ["https://github.com/UNDERdecoded/Gen2Recomped"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Game Boy / Game Boy Color",
+  originalSystems: ["Game Boy", "Game Boy Color"],
   notes:
     "Recompilation project for the second-generation Pokémon games, forked from Gen1Recomp. It runs on desktop and Android with your own game data.",
   notesEs:

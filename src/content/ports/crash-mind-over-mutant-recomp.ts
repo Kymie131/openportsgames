@@ -19,7 +19,7 @@ export const crashMindOverMutantRecomp: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Static recompilation of Crash: Mind over Mutant (Xbox 360) for Windows. It needs your own copy of the game.",
   notesEs:

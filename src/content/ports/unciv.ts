@@ -18,7 +18,7 @@ export const unciv: Port = {
   sources: ["https://github.com/yairm210/Unciv"],
   license: { spdx: "MPL-2.0" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Open-source remake of Civilization V for Android and desktop, also available on iOS. It is a turn-based strategy game that does not use the original game's assets.",
   notesEs:

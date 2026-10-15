@@ -19,7 +19,7 @@ export const Klonoa2LunateasVeil: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Klonoa%202%20-%20Lunatea's%20Veil%20(Europe)%20(En,Fr,De,Es,It).png",
     alt: "Klonoa 2: Lunatea's Veil (box art)",

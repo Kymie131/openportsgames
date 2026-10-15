@@ -18,7 +18,7 @@ export const youdontknowjackRecomp: Port = {
   sources: ["https://github.com/sp00nznet/youdontknowjack"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation 3",
+  originalSystems: ["PlayStation 3"],
   notes:
     "Native recompilation of You Don't Know Jack (PlayStation 3). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:

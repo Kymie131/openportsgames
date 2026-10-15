@@ -19,7 +19,7 @@ export const Jfsw: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: 'Port of the 3D Realms game "Shadow Warrior".',
   notesEs: "Port del juego de 3D Realms «Shadow Warrior».",
 };

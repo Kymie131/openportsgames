@@ -18,7 +18,7 @@ export const marioKartSuperCircuitRecomp: Port = {
   sources: ["https://github.com/mstan/MarioKartSuperCircuitRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   notes:
     "Static recompilation of Mario Kart: Super Circuit (GBA, USA) with the gbarecomp framework. It needs the ROM and the GBA BIOS; it adds optional 60 FPS and adaptive widescreen mods, plus two-player netplay over an emulated link cable.",
   notesEs:

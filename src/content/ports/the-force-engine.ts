@@ -20,7 +20,7 @@ export const theForceEngine: Port = {
   license: { spdx: "GPL-2.0" },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   features: ["Reimplementation of the Rebel Assault engine", "Modern rendering and audio backends"],
   featuresEs: [
     "Reimplementación del motor de Rebel Assault",

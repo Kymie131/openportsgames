@@ -20,7 +20,7 @@ export const mkdd: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   notes:
     "Decompilation of Mario Kart: Double Dash!! for the GameCube. A research codebase; it requires game files from a copy you own.",
   notesEs:

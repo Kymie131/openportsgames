@@ -23,7 +23,7 @@ export const ninjaGaiden2Recomp: Port = {
   sourceDead: true,
   warning: "The original repository was taken down and the link no longer resolves.",
   warningEs: "El repositorio original fue retirado y el enlace ya no responde.",
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Native recompilation of Ninja Gaiden II (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:

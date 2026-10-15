@@ -18,7 +18,7 @@ export const haloCeUniversal: Port = {
   sources: ["https://github.com/cybersecurity/halo-ce-universal"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox",
+  originalSystems: ["Xbox"],
   notes:
     "Decompilation-based native port of Halo: Combat Evolved (Xbox). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:

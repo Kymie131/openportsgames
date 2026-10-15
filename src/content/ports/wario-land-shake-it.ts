@@ -19,7 +19,7 @@ export const WarioLandShakeIt: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/3a/Wario_Land_Shake_It%21_Box_Art.png",
     alt: "Wario Land: Shake It! (box art)",

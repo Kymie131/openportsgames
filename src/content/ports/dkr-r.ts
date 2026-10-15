@@ -25,7 +25,7 @@ export const dkrR: Port = {
       credit: "DKR-R",
     },
   ],
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   features: [
     "Online multiplayer with cooperative Adventure mode",
     "Rumble Pak and Memory Pak controls via launcher options",

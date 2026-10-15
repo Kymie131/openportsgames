@@ -18,7 +18,7 @@ export const animalCrossingPcPort: Port = {
   sources: ["https://github.com/flyngmt/ACGC-PC-Port"],
   license: { spdx: "CC0-1.0" },
   verified: false,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   notes:
     "Native port of Animal Crossing (GameCube, USA Rev 0) built on the ac-decomp decompilation: the original C code runs on x86 and a translation layer swaps the GX graphics API for OpenGL 3.3. It reads assets directly from your disc image and supports Dolphin-format texture packs.",
   notesEs:

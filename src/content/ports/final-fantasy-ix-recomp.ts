@@ -18,7 +18,7 @@ export const finalFantasyIxRecomp: Port = {
   sources: ["https://github.com/alexbeavs-ps1-ports/final-fantasy-ix-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Recompilation of Final Fantasy IX (PS1, USA SLUS-01251) with PSXRecomp and the recomp-ui launcher. It requires your own disc and a European SCPH-5502/5552 BIOS, and the wizard compiles the game locally. For now it is the 0.1.0 release candidate, with gameplay acceptance not yet closed.",
   notesEs:

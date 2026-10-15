@@ -18,7 +18,7 @@ export const gundamBattleMasterRecomp: Port = {
   sources: ["https://github.com/omegakatana92/GundamBattleMasterRecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Recompilation of Gundam: The Battle Master (PS1) in progress with PSXRecomp. It needs your own disc; it uses OpenBIOS by default and offers a desktop launcher. It is not finished yet.",
   notesEs:

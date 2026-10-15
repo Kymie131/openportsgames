@@ -19,7 +19,7 @@ export const jillOfTheJungleAndroid: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   notes:
     "Source port of Jill of the Jungle (MS-DOS) for Android with quality-of-life features and on-screen touch controls, built on the Descore framework. It needs the player's own copy of the game files.",
   notesEs:

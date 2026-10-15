@@ -19,7 +19,7 @@ export const GeometryDash: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "A decompilation of Geometry Dash version 1.710.",
   notesEs: "Decompilación de Geometry Dash 1.710.",
 };

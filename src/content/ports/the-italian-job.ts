@@ -19,7 +19,7 @@ export const TheItalianJob: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "A work-in-progress non-matching decompilation of The Italian Job (2001) video game.",
   notesEs: "Decompilación no exacta del videojuego The Italian Job (2001), en desarrollo.",
 };

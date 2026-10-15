@@ -18,7 +18,7 @@ export const gPoliceRecomp: Port = {
   sources: ["https://github.com/alexbeavs-ps1-ports/g-police-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Recompilation of G-Police (PS1, USA SLUS-00544) with PSXRecomp and the recomp-ui launcher. It needs your disc and a European SCPH-5502/5552 BIOS; the wizard handles generating and compiling. Release candidate 0.1.0, with gameplay validation still pending.",
   notesEs:

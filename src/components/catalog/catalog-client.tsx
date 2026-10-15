@@ -31,8 +31,30 @@ import {
   type TestedValue,
 } from "@/lib/ports/catalog";
 import { PortTile } from "./port-tile";
+import { LocalizedLink as Link } from "@/components/i18n/localized-link";
 import { useT } from "@/lib/i18n/use-i18n";
 import { cn } from "@/lib/utils";
+
+/** Source repository key used to group entries that share one repo. */
+function repoKeyOf(port: Port): string {
+  for (const source of port.sources) {
+    const match = /^https:\/\/github\.com\/([^/]+\/[^/#?]+)/.exec(source);
+    if (match) return match[1].toLowerCase();
+  }
+  return `id:${port.id}`;
+}
+
+/** Collapse entries that share a source repo into one slot, keeping order. */
+function groupByRepo(ports: Port[]): { key: string; ports: Port[] }[] {
+  const map = new Map<string, Port[]>();
+  for (const port of ports) {
+    const key = repoKeyOf(port);
+    const list = map.get(key) ?? [];
+    list.push(port);
+    map.set(key, list);
+  }
+  return [...map.entries()].map(([key, list]) => ({ key, ports: list }));
+}
 
 function toggleValue(list: string[], value: string): string[] {
   return list.includes(value) ? list.filter((item) => item !== value) : [...list, value];
@@ -49,7 +71,7 @@ export function CatalogClient({
   ports: Port[];
   testStatuses: Record<string, "current" | "stale">;
   testResults: Record<string, "pass" | "fail">;
-  originalSystems: Record<string, string>;
+  originalSystems: Record<string, string[]>;
   stars: Record<string, number>;
   scope: CatalogScope;
 }) {
@@ -69,6 +91,7 @@ export function CatalogClient({
     [ports, index, state, scope, originalSystems, testResults, stars],
   );
   const pageResult = useMemo(() => paginate(results, state.page), [results, state.page]);
+  const grouped = useMemo(() => groupByRepo(pageResult.items), [pageResult.items]);
 
   // Sync draft when the URL query changes externally (navigation, back/forward).
   // useState alone freezes the first-render value, so client-side navigation can
@@ -211,16 +234,34 @@ export function CatalogClient({
           {results.length > 0 ? (
             <>
               <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3">
-                {pageResult.items.map((port, index) => (
-                  <li key={port.id} className="flex">
+                {grouped.map((group, index) => (
+                  <li key={group.key} className="flex flex-col gap-2">
                     <PortTile
                       className="w-full"
-                      port={port}
-                      testStatus={testStatuses[port.id]}
-                      stars={stars[port.id]}
-                      system={originalSystems[port.id]}
+                      port={group.ports[0]}
+                      testStatus={testStatuses[group.ports[0].id]}
+                      stars={stars[group.ports[0].id]}
+                      system={(originalSystems[group.ports[0].id] ?? []).find(
+                        (system) => system !== "Unknown",
+                      )}
                       eager={index < 6}
                     />
+                    {group.ports.length > 1 && (
+                      <p className="rounded-md border border-border bg-surface px-3 py-2 text-xs leading-5 text-muted">
+                        <span className="font-medium text-foreground">{t.catalog.sameRepo}:</span>{" "}
+                        {group.ports.slice(1).map((port, i) => (
+                          <span key={port.id}>
+                            {i > 0 && ", "}
+                            <Link
+                              href={`/ports/${port.id}`}
+                              className="text-link transition-colors hover:text-link-hover"
+                            >
+                              {port.game}
+                            </Link>
+                          </span>
+                        ))}
+                      </p>
+                    )}
                   </li>
                 ))}
               </ul>

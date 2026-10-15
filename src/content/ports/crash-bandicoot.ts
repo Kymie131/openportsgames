@@ -18,7 +18,7 @@ export const crashBandicoot: Port = {
   license: { spdx: "MIT" },
   verified: true,
   verifiedAt: "2026-10-14",
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   features: [
     "Native widescreen support with retail-parity entity culling",
     "High frame rate fixes and PC GPU workarounds",

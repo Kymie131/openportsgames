@@ -18,7 +18,7 @@ export const the3rdBirthdayRecomp: Port = {
   sources: ["https://github.com/BasedYuki/the-3rd-birthday-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation Portable",
+  originalSystems: ["PlayStation Portable"],
   notes:
     "Native PC port of The 3rd Birthday (PSP) through static recompilation. It includes no game data and needs your own ISO.",
   notesEs:

@@ -19,7 +19,7 @@ export const ptPc: Port = {
   license: { spdx: "MIT" },
   verified: true,
   verifiedAt: "2026-10-08",
-  originalSystem: "PlayStation 4",
+  originalSystems: ["PlayStation 4"],
   notes:
     "Native PC port of the P.T. teaser (PS4, CUSA01127): the game logic is rebuilt in C++ with a Vulkan renderer, and every level, model, texture, sound, script and cutscene is read at runtime from your own PS4 copy. It is not an emulator or a remake, and it ships no game data. It plays the whole teaser start to finish, with DLSS/FSR/XeSS, ray tracing, photo mode, mods and experimental VR. Konami removed P.T. from the PlayStation Store in 2015, so a USA copy (CUSA01127) can no longer be bought.",
   notesEs:

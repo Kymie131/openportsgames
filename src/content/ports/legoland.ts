@@ -19,7 +19,7 @@ export const Legoland: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/bd/Legoland_Parks_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
     alt: "Legoland (cover)",

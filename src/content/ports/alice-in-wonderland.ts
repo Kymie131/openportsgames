@@ -19,7 +19,7 @@ export const AliceInWonderland: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Wii",
+  originalSystems: ["Wii"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Alice%27s_Adventures_in_Wonderland_cover_%281865%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
     alt: "Alice in Wonderland (cover)",

@@ -20,7 +20,7 @@ export const Xoreos: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "A reimplementation of BioWare's Aurora engine (and derivatives). Pre-pre-alpha :P.",
   notesEs: "Una reimplementación del motor Aurora de BioWare (y derivados). Pre-pre-alpha :P.",
 };

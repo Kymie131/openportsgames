@@ -19,7 +19,7 @@ export const DragonWarriorMonsters: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/d7/Dragonwarrior1.jpg",
     alt: "Dragon Warrior Monsters (box art)",

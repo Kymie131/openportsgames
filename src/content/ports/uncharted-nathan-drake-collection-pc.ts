@@ -20,7 +20,7 @@ export const unchartedNathanDrakeCollectionPc: Port = {
   license: { spdx: "GPL-2.0" },
   verified: true,
   verifiedAt: "2026-10-15",
-  originalSystem: "PlayStation 4",
+  originalSystems: ["PlayStation 4"],
   notes:
     "Native runtime port of Uncharted: The Nathan Drake Collection (PS4) for Windows, by the author of the Bloodborne PC port. The games' own x86-64 code runs directly on the CPU and the graphics are translated to Vulkan by a renderer derived from shadPS4. One launcher runs all three remasters (Drake's Fortune, Among Thieves and Drake's Deception) with TAA, FSR/DLSS upscaling, frame generation and remappable keyboard, mouse and controller input. It ships no game files: you need your own decrypted dump of the collection.",
   notesEs:

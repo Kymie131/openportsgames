@@ -19,7 +19,7 @@ export const SpaceStation14: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes:
     "A multiplayer game about paranoia and chaos on a space station. Remake of the cult-classic Space Station 13.",
   notesEs:

@@ -19,7 +19,7 @@ export const strikers: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   notes:
     "Super Mario Strikers ported to PC, macOS, Linux and Nintendo Switch from its decompiled code (not a recompilation). Requires your own game.",
   notesEs:

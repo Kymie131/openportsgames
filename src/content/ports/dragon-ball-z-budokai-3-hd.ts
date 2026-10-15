@@ -18,7 +18,7 @@ export const dragonBallZBudokai3Hd: Port = {
   sources: ["https://github.com/novapowers0/DBZ-Budokai-3-HD-Collection"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Static recompilation of Dragon Ball Z: Budokai 3 HD (Xbox 360) built with ReXGlue. Bring the game itself.",
   notesEs:

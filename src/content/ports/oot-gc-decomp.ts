@@ -20,7 +20,7 @@ export const ootGcDecomp: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   notes:
     "Decompilation of the GameCube emulator build of Ocarina of Time (JP-CE). A research codebase; it requires game files from a copy you own.",
   notesEs:

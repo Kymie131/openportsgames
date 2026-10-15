@@ -133,12 +133,12 @@ describe("applyCatalog", () => {
   });
 
   it("filters by original system label", () => {
-    const systems: Record<string, string> = { sm64ex: "Nintendo 64" };
+    const systems: Record<string, string[]> = { sm64ex: ["Nintendo 64"] };
     const { results } = applyCatalog(ports, index, state({ system: ["Nintendo 64"] }), "all", {
       originalSystems: systems,
     });
     for (const port of results) {
-      expect(systems[port.id] ?? "").toBe("Nintendo 64");
+      expect((systems[port.id] ?? []).includes("Nintendo 64")).toBe(true);
     }
   });
 
@@ -185,10 +185,10 @@ describe("applyCatalog", () => {
   });
 
   it("lists unique original systems alphabetically", () => {
-    const systems: Record<string, string> = {
-      sm64ex: "Nintendo 64",
-      "ship-of-harkinian": "Nintendo 64",
-      openmw: "Personal computer",
+    const systems: Record<string, string[]> = {
+      sm64ex: ["Nintendo 64"],
+      "ship-of-harkinian": ["Nintendo 64"],
+      openmw: ["Personal computer"],
     };
     expect(availableSystems(ports, systems)).toEqual(["Nintendo 64", "Personal computer"]);
   });

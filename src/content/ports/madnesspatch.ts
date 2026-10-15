@@ -19,7 +19,7 @@ export const Madnesspatch: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "A patch that fixes various issues in the PC port of Alice: Madness Returns.",
   notesEs: "Parche que corrige varios problemas del port para PC de Alice: Madness Returns.",
 };

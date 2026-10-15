@@ -19,7 +19,7 @@ export const zeldaTmc3ds: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   notes:
     "Native Nintendo 3DS port of The Minish Cap, based on Project Picori. Requires your own ROM.",
   notesEs:

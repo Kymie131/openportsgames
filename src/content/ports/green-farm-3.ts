@@ -19,7 +19,7 @@ export const GreenFarm3: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Green Farm 3.",
   notesEs: "Decompilación de Green Farm 3.",
 };

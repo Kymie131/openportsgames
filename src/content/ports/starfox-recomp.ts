@@ -19,7 +19,7 @@ export const StarfoxRecomp: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Super Nintendo",
+  originalSystems: ["Super Nintendo"],
   notes:
     "Star Fox recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community.",
   notesEs:

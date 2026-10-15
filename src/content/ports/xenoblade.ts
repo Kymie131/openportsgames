@@ -19,7 +19,7 @@ export const Xenoblade: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Xenoblade (JP).",
   notesEs: "Decompilación de Xenoblade (JP).",
 };

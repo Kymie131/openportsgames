@@ -18,7 +18,7 @@ export const dk64Recompiled: Port = {
   license: { spdx: "GPL-3.0" },
   verified: true,
   verifiedAt: "2026-09-22",
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   features: [
     "Windows, Linux (x86-64/ARM64/Flatpak) and macOS ARM64 builds",
     "High refresh rates without affecting gameplay",

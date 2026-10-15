@@ -20,7 +20,7 @@ export const kh1: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   notes:
     "Decompilation of Kingdom Hearts for the PlayStation 2. A research codebase; it requires game files from a copy you own.",
   notesEs:

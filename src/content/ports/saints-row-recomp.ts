@@ -18,7 +18,7 @@ export const saintsRowRecomp: Port = {
   sources: ["https://github.com/whompay/SaintsReborn"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes: "A ReXGlue-based static recompilation of Saints Row (Xbox 360). Requires your own copy.",
   notesEs:
     "Recompilación estática de Saints Row (Xbox 360) basada en ReXGlue. Requiere tu propia copia.",

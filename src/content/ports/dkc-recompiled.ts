@@ -18,7 +18,7 @@ export const dkcRecompiled: Port = {
   license: { spdx: "MIT" },
   verified: true,
   verifiedAt: "2026-09-22",
-  originalSystem: "Super Nintendo",
+  originalSystems: ["Super Nintendo"],
   features: [
     "Native widescreen presentation (16:10 and 16:9)",
     "Windows and macOS ARM64 builds with CRT shaders",

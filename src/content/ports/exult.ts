@@ -17,7 +17,7 @@ export const exultPort: Port = {
   sources: ["https://github.com/exult/exult"],
   license: { spdx: "GPL-2.0" },
   verified: false,
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   features: [
     "Supports both Ultima VII and Ultima VIII data sets",
     "Android build available",

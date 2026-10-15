@@ -18,7 +18,7 @@ export const skate3Mobile: Port = {
   sources: ["https://github.com/Buku313/Skate3-Mobile"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Android port of the Skate 3 recompilation (ARM64 with the native Vulkan renderer), aimed at phones and handhelds. A developer build, first verified on an Anbernic RG406V.",
   notesEs:

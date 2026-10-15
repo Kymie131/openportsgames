@@ -18,7 +18,7 @@ export const openjkdf2: Port = {
   sources: ["https://github.com/shinyquagsire23/OpenJKDF2"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Function-by-function reimplementation of Star Wars Jedi Knight: Dark Forces II in C, with 64-bit builds for Windows, macOS and Linux. It ships no game assets and requires a valid copy of the original.",
   notesEs:

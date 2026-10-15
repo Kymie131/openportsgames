@@ -18,7 +18,7 @@ export const shantaeRecomp: Port = {
   sources: ["https://github.com/vibecodekun/shantaerecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Game Boy Color",
+  originalSystems: ["Game Boy Color"],
   notes:
     "Static recompilation of Shantae (Game Boy Color) for Windows and Linux, with an expanded view, no slowdown, rewind and shader presets. It needs your own ROM.",
   notesEs:

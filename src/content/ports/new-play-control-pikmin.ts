@@ -19,7 +19,7 @@ export const NewPlayControlPikmin: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/13/Pikmin_cover_art.jpg",
     alt: "New Play Control! Pikmin (cover)",

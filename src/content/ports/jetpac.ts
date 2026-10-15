@@ -19,7 +19,7 @@ export const Jetpac: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["ZX Spectrum"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/ad/Jetpac_Coverart.png",
     alt: "Jetpac (cover)",

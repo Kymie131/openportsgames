@@ -18,7 +18,7 @@ export const hollowKnightAndroid: Port = {
   sources: ["https://github.com/igawa6/dualsouls"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Unofficial Android port of Hollow Knight with dual-screen support, aimed at handhelds. It needs the game itself.",
   notesEs:

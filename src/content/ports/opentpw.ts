@@ -19,7 +19,7 @@ export const Opentpw: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "An open-source re-implementation of Bullfrog's Sim Theme Park / Theme Park World (1999).",
   notesEs:
     "Reimplementación de código abierto de Sim Theme Park / Theme Park World (1999) de Bullfrog.",

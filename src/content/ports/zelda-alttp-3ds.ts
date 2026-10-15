@@ -19,7 +19,7 @@ export const zeldaAlttp3ds: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Super Nintendo",
+  originalSystems: ["Super Nintendo"],
   notes:
     "Nintendo 3DS dual-screen port of A Link to the Past, based on the zelda3 reimplementation. Requires your own ROM.",
   notesEs:

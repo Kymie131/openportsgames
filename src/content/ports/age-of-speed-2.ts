@@ -19,7 +19,7 @@ export const AgeOfSpeed2: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Age of Speed 2 Decompilation.",
   notesEs: "Decompilación de Age of Speed 2.",
 };

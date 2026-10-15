@@ -19,7 +19,7 @@ export const infiniteMario64Ever: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Fork of Infinite Mario 64 (originally by TwilightPB), a Super Mario 64-based project. Requires your own copy of the game.",
   notesEs:

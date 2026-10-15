@@ -18,7 +18,7 @@ export const windWakerHdRecomp: Port = {
   sources: ["https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp"],
   license: { spdx: "MPL-2.0" },
   verified: false,
-  originalSystem: "Wii U",
+  originalSystems: ["Wii U"],
   notes:
     "Recompilation of The Legend of Zelda: The Wind Waker HD (Wii U) that currently targets macOS. It needs your own game data.",
   notesEs:

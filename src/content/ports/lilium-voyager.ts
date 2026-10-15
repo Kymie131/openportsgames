@@ -19,7 +19,7 @@ export const LiliumVoyager: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "An engine replacement for Star Trek Voyager: Elite Force Holomatch (multiplayer).",
   notesEs: "Reemplazo del motor de Star Trek Voyager: Elite Force Holomatch (multijugador).",
 };

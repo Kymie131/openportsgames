@@ -19,7 +19,7 @@ export const KkndKrushKillNDestroy: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   cover: {
     src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/KKND%20-%20Krush,%20Kill%20'N'%20Destroy%20(1997).png",
     alt: "KKND: Krush Kill 'n Destroy (box art)",

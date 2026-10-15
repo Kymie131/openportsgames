@@ -19,7 +19,7 @@ export const TransformersMysteryOfConvoy: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Transformers: Mystery Of Convoy (Other).",
   notesEs: "Decompilación de Transformers: Mystery Of Convoy (Other).",
 };

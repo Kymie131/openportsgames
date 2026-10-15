@@ -18,7 +18,7 @@ export const openTyrian: Port = {
   license: { spdx: "GPL-2.0" },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   features: ["Cross-platform SDL2 builds", "Supports the full game data set"],
   featuresEs: ["Builds SDL2 multiplataforma", "Compatible con todo el conjunto de datos del juego"],
   notes:

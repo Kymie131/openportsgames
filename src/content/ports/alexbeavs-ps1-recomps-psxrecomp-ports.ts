@@ -19,7 +19,7 @@ export const AlexbeavsPs1RecompsPsxrecompPorts: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes: "Unofficial noncommercial PlayStation recompilation releases.",
   notesEs: "Publicaciones de recompilación de PlayStation no oficiales y sin ánimo de lucro.",
 };

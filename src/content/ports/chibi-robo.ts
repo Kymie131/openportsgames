@@ -19,7 +19,7 @@ export const ChibiRobo: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e4/Chibi-Robo%21_Photo_Finder_Coverart.jpg",
     alt: "Chibi-Robo! (cover)",

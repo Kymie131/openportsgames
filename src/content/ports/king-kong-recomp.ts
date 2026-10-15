@@ -19,7 +19,7 @@ export const kingKongRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Static recompilation of Peter Jackson's King Kong (the official game of the movie) for Windows. It needs your own copy of the game.",
   notesEs:

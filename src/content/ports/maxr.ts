@@ -19,7 +19,7 @@ export const Maxr: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "A turn based strategy game.",
   notesEs: "Un juego de estrategia por turnos.",
 };

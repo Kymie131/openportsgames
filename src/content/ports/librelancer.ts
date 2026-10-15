@@ -23,7 +23,7 @@ export const librelancer: Port = {
   },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   features: ["Reimplementation of the Freelancer engine", "Cross-platform C++ codebase"],
   featuresEs: ["Reimplementación del motor de Freelancer", "Base de código C++ multiplataforma"],
   notes:

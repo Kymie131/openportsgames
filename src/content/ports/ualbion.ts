@@ -19,7 +19,7 @@ export const ualbion: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   notes: "Remake of the 1995 RPG Albion. It requires data from an original copy of the game.",
   notesEs: "Remake del RPG Albion de 1995. Requiere datos de una copia original del juego.",
   cover: {

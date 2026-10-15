@@ -19,7 +19,7 @@ export const Q2tools220: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes:
     "Quake 2 map compiler tools with v220 map support, automatic phong, enhancements, and fixes.",
   notesEs:

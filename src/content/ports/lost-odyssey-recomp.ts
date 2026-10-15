@@ -18,7 +18,7 @@ export const lostOdysseyRecomp: Port = {
   sources: ["https://github.com/freefrank/LostOdysseyRecomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Native recompilation of Lost Odyssey (Xbox 360). Builds for Windows x64, Linux x64, macOS arm64 and Android arm64, with Direct3D 12, Vulkan or Metal.",
   notesEs:

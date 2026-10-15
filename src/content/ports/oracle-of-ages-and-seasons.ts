@@ -19,7 +19,7 @@ export const OracleOfAgesAndSeasons: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Disassembly of Oracle of Ages and Seasons.",
   notesEs: "Desensamblado de Oracle of Ages y Seasons.",
 };

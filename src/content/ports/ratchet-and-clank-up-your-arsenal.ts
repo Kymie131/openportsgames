@@ -19,7 +19,7 @@ export const RatchetAndClankUpYourArsenal: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/73/Ratchetandclank3box.jpg",
     alt: "Ratchet & Clank: Up Your Arsenal (box art)",

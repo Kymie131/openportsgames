@@ -19,7 +19,7 @@ export const Ambermoon: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/91/Ambermoon_German_Cover_art.jpg",
     alt: "Ambermoon (cover)",

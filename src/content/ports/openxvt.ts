@@ -19,7 +19,7 @@ export const Openxvt: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Source port of OpenXvT (Other).",
   notesEs: "Port del código fuente de OpenXvT (Other).",
 };

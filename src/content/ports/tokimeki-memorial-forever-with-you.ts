@@ -19,7 +19,7 @@ export const TokimekiMemorialForeverWithYou: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Matching decompilation of Tokimeki Memorial: Forever with You (PS1, Japan). Bring your own disc.",
   notesEs:

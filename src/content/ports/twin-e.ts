@@ -19,7 +19,7 @@ export const twinE: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   notes: "Open-source engine for Little Big Adventure that runs the original game assets.",
   notesEs:
     "Motor de código abierto para Little Big Adventure que ejecuta los recursos del juego original.",

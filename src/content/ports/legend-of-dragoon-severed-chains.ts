@@ -18,7 +18,7 @@ export const legendOfDragoonSeveredChains: Port = {
   sources: ["https://github.com/Legend-of-Dragoon-Modding/Severed-Chains"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Severed Chains ports The Legend of Dragoon to PC, macOS and Linux from a reverse-engineered codebase. It adds modern options and needs your own disc.",
   notesEs:

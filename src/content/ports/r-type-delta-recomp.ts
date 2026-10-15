@@ -18,7 +18,7 @@ export const rTypeDeltaRecomp: Port = {
   sources: ["https://github.com/alexbeavs-ps1-ports/r-type-delta-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Bare recompilation of R-Type Delta (PlayStation) from the PSXRecomp toolkit. It builds for Windows, Linux and macOS and needs your own disc plus a BIOS.",
   notesEs:

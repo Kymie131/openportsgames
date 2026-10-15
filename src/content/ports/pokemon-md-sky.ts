@@ -19,7 +19,7 @@ export const PokemonMdSky: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Pokémon Mystery Dungeon: Explorers of Sky.",
   notesEs: "Decompilación de Pokémon Mundo Misterioso: Exploradores del Cielo.",
 };

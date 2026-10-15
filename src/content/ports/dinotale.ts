@@ -19,7 +19,7 @@ export const dinoTale: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Native recompilation of Yoshi's Story (Nintendo 64) built with N64Recomp and rendered with RT64, for Windows and Linux including the Steam Deck. The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

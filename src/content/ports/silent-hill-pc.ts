@@ -19,7 +19,7 @@ export const silentHillPc: Port = {
   website: "https://sh1pc.com/",
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Native PC port of the original PlayStation Silent Hill, built on the silent-hill-decomp decompilation with PsyCross (a PsyQ SDK compatibility layer). It runs as a real Windows/Linux executable compiled from the decompiled C source, not an emulator or a static recompilation, and is playable start to finish with widescreen, high resolution, uncapped FPS, alternate cameras and mod support. Development is openly AI-assisted (Claude) over reviewed, hand-directed edits; you must supply your own game dump.",
   notesEs:

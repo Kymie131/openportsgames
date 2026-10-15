@@ -20,7 +20,7 @@ export const godHandDecomp: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   notes:
     "Matching decompilation of God Hand for the PlayStation 2. A research codebase; it requires game files from a copy you own.",
   notesEs:

@@ -19,7 +19,7 @@ export const sonicAdvanceRecomp: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   notes:
     "Static recompilation of Sonic Advance (Game Boy Advance) for Windows. It needs your own copy of the game.",
   notesEs:

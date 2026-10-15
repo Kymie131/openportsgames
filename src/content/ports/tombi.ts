@@ -19,7 +19,7 @@ export const Tombi: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/75/Tomba%21_NTSC.png",
     alt: "Tombi! (box art)",

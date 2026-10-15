@@ -19,7 +19,7 @@ export const soulcaliburIvRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Static recompilation of Soulcalibur IV (Xbox 360) using the ReXGlue SDK, for Windows. It needs your own copy of the game.",
   notesEs:

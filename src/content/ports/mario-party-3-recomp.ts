@@ -19,7 +19,7 @@ export const marioParty3Recomp: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Static recompilation of Mario Party 3 (Nintendo 64) for Windows. It needs your own copy of the game.",
   notesEs:

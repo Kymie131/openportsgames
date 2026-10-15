@@ -19,7 +19,7 @@ export const SuperMarioLand3WarioLand: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Game Boy"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b8/Wario_Land_Super_Mario_Land_3_cover.png",
     alt: "Super Mario Land 3: Wario Land (box art)",

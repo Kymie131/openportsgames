@@ -19,7 +19,7 @@ export const carmageddonRecomp: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Reverse-engineered reimplementation of Carmageddon (1997) that runs the original game data on modern systems. It needs your own copy of the game.",
   notesEs:

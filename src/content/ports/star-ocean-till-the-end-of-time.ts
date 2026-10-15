@@ -19,7 +19,7 @@ export const StarOceanTillTheEndOfTime: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Star%20Ocean%20-%20Till%20the%20End%20of%20Time%20(Europe)%20(Disc%201).png",
     alt: "Star Ocean: Till the End of Time (box art)",

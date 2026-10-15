@@ -19,7 +19,7 @@ export const ChasmReverse: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: 'Tools for reverse-engineering of game "Chasm: The Rift".',
   notesEs: "Herramientas de ingeniería inversa del juego «Chasm: The Rift».",
 };

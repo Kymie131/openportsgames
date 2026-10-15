@@ -19,7 +19,7 @@ export const battlezoneRiseOfTheBlackDogsRecomp: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Native recompilation of Battlezone: Rise of the Black Dogs (Nintendo 64) with N64Recomp and RT64, released as beta for Windows and Linux. It needs the player's own legally obtained game dump and ships no game data.",
   notesEs:

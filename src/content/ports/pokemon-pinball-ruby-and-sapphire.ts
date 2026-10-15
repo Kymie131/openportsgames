@@ -19,7 +19,7 @@ export const PokemonPinballRubyAndSapphire: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Pokémon Pinball: Ruby & Sapphire.",
   notesEs: "Decompilación de Pokémon Pinball: Ruby & Sapphire.",
 };

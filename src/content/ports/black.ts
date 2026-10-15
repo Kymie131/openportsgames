@@ -19,7 +19,7 @@ export const Black: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/f/fc/Tutankhamun_jackal_%28blacked%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
     alt: "Black (cover)",

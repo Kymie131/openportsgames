@@ -18,7 +18,7 @@ export const stardewCinderbox: Port = {
   sources: ["https://github.com/Ekyso/Cinderbox"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Native Android launcher for the desktop version of Stardew Valley, distributed as Cinderbox. It requires your own game data.",
   notesEs:

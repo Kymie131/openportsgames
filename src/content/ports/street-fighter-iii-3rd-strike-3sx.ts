@@ -18,7 +18,7 @@ export const streetFighterIii3rdStrike3sx: Port = {
   sources: ["https://github.com/crowded-street/3sx"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   notes:
     "Static recompilation of Street Fighter III: 3rd Strike (PlayStation 2) with ReXGlue. It requires your own game files.",
   notesEs:

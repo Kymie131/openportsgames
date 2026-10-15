@@ -19,7 +19,7 @@ export const Sonic3AndKnuckles: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Sega Mega Drive / Genesis",
+  originalSystems: ["Sega Mega Drive / Genesis"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/07/Sonic3-box-us-225.jpg",
     alt: "Sonic 3 & Knuckles (box art)",

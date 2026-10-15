@@ -19,7 +19,7 @@ export const CostumeQuest: Port = {
   license: { spdx: "Apache-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/de/Costume-quest-cover.jpg",
     alt: "Costume Quest (box art)",

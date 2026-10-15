@@ -20,7 +20,7 @@ export const ffccDecomp: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo GameCube",
+  originalSystems: ["GameCube"],
   notes:
     "Decompilation of Final Fantasy Crystal Chronicles for the GameCube. A research codebase; it requires game files from a copy you own.",
   notesEs:

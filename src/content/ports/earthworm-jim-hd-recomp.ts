@@ -19,7 +19,7 @@ export const earthwormJimHdRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Static recompilation of Earthworm Jim HD for Windows. It needs your own copy of the game.",
   notesEs:

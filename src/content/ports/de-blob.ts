@@ -19,7 +19,7 @@ export const DeBlob: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a9/De-Blob-US.jpg",
     alt: "de Blob (box art)",

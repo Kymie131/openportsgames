@@ -18,7 +18,7 @@ export const oracleRecompiled: Port = {
   sources: ["https://github.com/sp00nznet/oracle-recompiled"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Game Boy / Game Boy Color",
+  originalSystems: ["Game Boy", "Game Boy Color"],
   notes:
     "Work-in-progress static recompilation of the two Oracle Zelda games for the Game Boy Color to native apps. The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

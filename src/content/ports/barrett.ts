@@ -19,7 +19,7 @@ export const Barrett: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Advanced and featureful Rise of the Triad source port for modern systems.",
   notesEs:
     "Port avanzado y completo del código fuente de Rise of the Triad para sistemas modernos.",

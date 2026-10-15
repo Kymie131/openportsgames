@@ -19,7 +19,7 @@ export const amethystAndroid: Port = {
   sources: ["https://github.com/AngelAuraMC/Amethyst-Android"],
   license: { spdx: "LGPL-3.0" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Minecraft: Java Edition launcher for Android and iOS, based on PojavLauncher. It runs the Java version of Minecraft and requires your own account and game files.",
   notesEs:

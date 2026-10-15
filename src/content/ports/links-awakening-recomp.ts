@@ -18,7 +18,7 @@ export const linksAwakeningRecomp: Port = {
   sources: ["https://github.com/sp00nznet/LinksAwakening"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Game Boy / Game Boy Color",
+  originalSystems: ["Game Boy", "Game Boy Color"],
   notes:
     "Static recompilation of The Legend of Zelda: Link's Awakening DX to a native app, with portable builds for PS4, PS3 and 3DS alongside Windows. The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

@@ -19,7 +19,7 @@ export const TwistedMetalBlack: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Twisted%20Metal%20-%20Black%20(Europe)%20(En,Fr,De,Es,It).png",
     alt: "Twisted Metal: Black (box art)",

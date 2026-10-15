@@ -19,7 +19,7 @@ export const CustomRoboGx: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/ae/CustomRoboGX.png",
     alt: "Custom Robo GX (box art)",

@@ -19,7 +19,7 @@ export const yakuzaDeadSoulsRecomp: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 3",
+  originalSystems: ["PlayStation 3"],
   notes:
     "Static recompilation of Yakuza: Dead Souls (PlayStation 3) for Windows. It needs your own copy of the game.",
   notesEs:

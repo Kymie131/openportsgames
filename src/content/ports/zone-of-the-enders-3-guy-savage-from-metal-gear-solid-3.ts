@@ -19,7 +19,7 @@ export const ZoneOfTheEnders3GuySavageFromMetalGearSolid3: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Zone of the Enders 3, in progress.",
   notesEs: "Decompilación de Zone of the Enders 3, en desarrollo.",
 };

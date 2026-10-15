@@ -18,7 +18,7 @@ export const syphonFilterRecomp: Port = {
   sources: ["https://github.com/Madxbio97/SF-pc-port"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Unofficial Windows runtime for Syphon Filter (NTSC-U 1.1) that pairs the original PlayStation gameplay code with a native host for rendering, input, audio and FMV. It contains no game data and needs your own disc.",
   notesEs:

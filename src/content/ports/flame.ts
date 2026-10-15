@@ -19,7 +19,7 @@ export const Flame: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/5/5b/DancingFlames.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
     alt: "Flame (cover)",

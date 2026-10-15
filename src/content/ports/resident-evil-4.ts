@@ -19,7 +19,7 @@ export const ResidentEvil4: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Resident%20Evil%204%20(Australia)%20(En,Fr,De,Es,It)%20(Bonus%20Disc).png",
     alt: "Resident Evil 4 (box art)",

@@ -19,7 +19,7 @@ export const perfectDarkZeroRecomp: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Static recompilation of Perfect Dark Zero (Xbox 360) for Windows. It needs your own copy of the game.",
   notesEs:

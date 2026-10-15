@@ -18,7 +18,7 @@ export const doaxbvRe: Port = {
   sources: ["https://github.com/NoRain211/doaxbv-re"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox",
+  originalSystems: ["Xbox"],
   notes:
     "Static recompilation of Dead or Alive Xtreme Beach Volleyball (Xbox) with ReXGlue. It requires the original game.",
   notesEs:

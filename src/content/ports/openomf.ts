@@ -20,7 +20,7 @@ export const Openomf: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "One Must Fall 2097 Remake.",
   notesEs: "Remake de One Must Fall 2097.",
 };

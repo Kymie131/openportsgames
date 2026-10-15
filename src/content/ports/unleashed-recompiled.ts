@@ -18,7 +18,7 @@ export const unleashedRecompiled: Port = {
   license: { spdx: "GPL-3.0" },
   verified: true,
   verifiedAt: "2026-09-25",
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   screenshots: [
     {
       src: "https://raw.githubusercontent.com/hedge-dev/UnleashedRecompResources/main/images/options_menu/thumbnails/raw/default.png",

@@ -18,7 +18,7 @@ export const zeldaAlttpSnesRecomp: Port = {
   sources: ["https://github.com/mstan/ZeldaAlttPSNESRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
-  originalSystem: "Super Nintendo",
+  originalSystems: ["Super Nintendo"],
   notes:
     "Native recompilation of The Legend of Zelda: A Link to the Past (Super Nintendo). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

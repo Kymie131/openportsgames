@@ -19,7 +19,7 @@ export const pikmin: Port = {
   discord: "https://discord.gg/CWKqYMePX8",
   license: { spdx: "CC0-1.0" },
   verified: false,
-  originalSystem: "Nintendo GameCube",
+  originalSystems: ["GameCube"],
   notes:
     "Decompilation of Pikmin (GameCube) that aims to produce a playable native build from the original machine code. Work-in-progress with no tagged releases; requires a dump of the original game.",
   notesEs:

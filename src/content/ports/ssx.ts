@@ -19,7 +19,7 @@ export const Ssx: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of SSX (2000).",
   notesEs: "Decompilación de SSX (2000).",
 };

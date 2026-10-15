@@ -18,7 +18,7 @@ export const rageRacerPc: Port = {
   sources: ["https://github.com/khasinski/rage-racer-pc"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Native recompilation of Rage Racer (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:

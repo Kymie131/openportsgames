@@ -18,7 +18,7 @@ export const armyOfTwoRecomp: Port = {
   sources: ["https://github.com/nikolaygorb/ArmyOfTwoRecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Static recompilation of Army of Two (Xbox 360) with the ReXGlue SDK to native Windows and Linux. It offers Vulkan or Direct3D 12 output and a 60 FPS option, and requires your own game data.",
   notesEs:

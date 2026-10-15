@@ -19,7 +19,7 @@ export const unleashedrecompNx: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Unofficial Nintendo Switch homebrew port of the Xbox 360 version of Sonic Unleashed, created through static recompilation. Requires your own copy of the game.",
   notesEs:

@@ -18,7 +18,7 @@ export const superMetroidSnesRecomp: Port = {
   sources: ["https://github.com/mstan/SuperMetroidRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
-  originalSystem: "Super Nintendo",
+  originalSystems: ["Super Nintendo"],
   notes:
     "Static recompilation of Super Metroid (SNES) with the snesrecomp framework: the 65816 code is translated to C and compiled natively.",
   notesEs:

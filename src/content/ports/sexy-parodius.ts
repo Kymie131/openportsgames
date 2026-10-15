@@ -19,7 +19,7 @@ export const SexyParodius: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/09/Sexy_Parodius.jpg",
     alt: "Sexy Parodius (box art)",

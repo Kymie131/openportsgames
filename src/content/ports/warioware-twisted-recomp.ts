@@ -18,7 +18,7 @@ export const wariowareTwistedRecomp: Port = {
   sources: ["https://github.com/mstan/WarioWareTwistedRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   notes:
     "Static recompilation of WarioWare: Twisted! (GBA) with the gbarecomp framework. It requires your own game files.",
   notesEs:

@@ -19,7 +19,7 @@ export const Terraria: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 3",
+  originalSystems: ["PlayStation 3"],
   notes:
     "A functional decompilation & PC port of the console version of Terraria released on the Xbox 360 & PS3 in 2013.",
   notesEs:

@@ -19,7 +19,7 @@ export const dishsoap: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Community Android port of The Dishwasher: Dead Samurai (Xbox 360). It needs the original game.",
   notesEs:

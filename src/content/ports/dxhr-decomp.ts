@@ -20,7 +20,7 @@ export const dxhrDecomp: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Decompilation of the CDC engine used by Deus Ex: Human Revolution. A research codebase; it requires game files from a copy you own.",
   notesEs:

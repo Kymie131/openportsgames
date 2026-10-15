@@ -19,7 +19,7 @@ export const BlackAndWhite: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Black & White 1.",
   notesEs: "Decompilación de Black & White 1.",
 };

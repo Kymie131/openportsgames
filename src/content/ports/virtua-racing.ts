@@ -19,7 +19,7 @@ export const VirtuaRacing: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes:
     "Complete static recompilation of Virtua Racing for the Sega 32X (optimization in progress).",
   notesEs:

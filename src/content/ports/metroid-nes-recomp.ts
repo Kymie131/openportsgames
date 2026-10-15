@@ -18,7 +18,7 @@ export const metroidNesRecomp: Port = {
   sources: ["https://github.com/mstan/MetroidNESRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
-  originalSystem: "Nintendo Entertainment System",
+  originalSystems: ["Nintendo Entertainment System"],
   notes:
     "Static recompilation of Metroid (NES) with the nesrecomp framework: the 6502 code is translated to C and compiled natively. It ships separate USA/NTSC and Europe/PAL builds, each one only with its matching ROM.",
   notesEs:

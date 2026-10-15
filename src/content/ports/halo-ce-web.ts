@@ -20,7 +20,7 @@ export const haloCeWeb: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox",
+  originalSystems: ["Xbox"],
   notes:
     "The Halo: Combat Evolved (Xbox) decompilation compiled to WebAssembly and drawn with WebGL 2, playable in the browser. The menu and the 13 multiplayer maps are rebuilt through a clean-room pipeline that regenerates or replaces textures, sounds and fonts, so no retail data is distributed. The campaign and multiplayer maps can be loaded from your own legally obtained Xbox disc image, and multiplayer works over invite links.",
   notesEs:

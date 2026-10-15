@@ -19,7 +19,7 @@ export const KingdomHeartsReCoded: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes:
     "Matching decompilation of Kingdom Hearts Re:coded (US/EU). EU: 88.65% C code and 99.98% DATA, byte-exact.",
   notesEs:

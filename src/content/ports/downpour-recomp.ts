@@ -18,7 +18,7 @@ export const downpourRecomp: Port = {
   license: { spdx: "BSD-3-Clause" },
   verified: true,
   verifiedAt: "2026-09-19",
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   features: [
     "Native 60 FPS at 1080p (scales with your display)",
     "Keyboard and mouse controls",

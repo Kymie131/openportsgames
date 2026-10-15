@@ -19,7 +19,7 @@ export const LooneyTunesCarrotCrazy: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Game Boy Color",
+  originalSystems: ["Game Boy Color"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Boxarts/Looney%20Tunes%20-%20Carrot%20Crazy%20(USA)%20(En,Fr,Es)%20(GB%20Compatible).png",
     alt: "Looney Tunes: Carrot Crazy (box art)",

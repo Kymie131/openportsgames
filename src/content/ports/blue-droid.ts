@@ -18,7 +18,7 @@ export const blueDroid: Port = {
   sources: ["https://github.com/RedZeroGotcha/BlueDroid"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Android recompilation of Blue Dragon (Xbox 360), separate from the desktop reblue project. It is an early build that needs your own game files.",
   notesEs:

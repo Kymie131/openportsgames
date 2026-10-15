@@ -19,7 +19,7 @@ export const HybridHeaven: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/db/Hybridheaven.jpg",
     alt: "Hybrid Heaven (box art)",

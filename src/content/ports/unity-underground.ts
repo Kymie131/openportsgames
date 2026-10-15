@@ -19,7 +19,7 @@ export const UnityUnderground: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["MS-DOS"],
   notes: "Source port of Unity Underground (Other).",
   notesEs: "Port del código fuente de Unity Underground (Other).",
 };

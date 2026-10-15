@@ -22,7 +22,7 @@ export const pepsimanRecompiled: Port = {
   sourceDead: true,
   warning: "The repository and the public site are no longer available.",
   warningEs: "El repositorio y la web pública ya no están disponibles.",
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Recompilation of Pepsiman (PS1) that runs in the browser through WebAssembly, using the PSXRecomp runtime. You bring the game itself; it adds 60 FPS, widescreen or a 4:3 option, browser saves and offline play as a PWA. The public address (pepsiman.ol.mr) has been returning an error since October 2026.",
   notesEs:

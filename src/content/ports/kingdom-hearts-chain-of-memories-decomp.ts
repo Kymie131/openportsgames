@@ -20,7 +20,7 @@ export const kingdomHeartsChainOfMemoriesDecomp: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   notes:
     "Decompilation of Kingdom Hearts: Chain of Memories (Game Boy Advance). A research codebase; it requires game files from a copy you own.",
   notesEs:

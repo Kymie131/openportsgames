@@ -20,7 +20,7 @@ export const psyQDecomp: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Work-in-progress decompilation of the PS1 Psy-Q SDK libraries. It is a development kit, not a game.",
   notesEs:

@@ -19,7 +19,7 @@ export const Turok2SeedsOfEvil: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Turok%202%20-%20Seeds%20of%20Evil%20(Europe)%20(Demo)%20(Kiosk).png",
     alt: "Turok 2: Seeds of Evil (box art)",

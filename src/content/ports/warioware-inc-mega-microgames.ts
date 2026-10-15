@@ -19,7 +19,7 @@ export const WariowareIncMegaMicrogames: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/84/Warioware1box.jpg",
     alt: "WarioWare, Inc.: Mega Microgames! (box art)",

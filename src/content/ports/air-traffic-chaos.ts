@@ -19,7 +19,7 @@ export const AirTrafficChaos: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo DS",
+  originalSystems: ["Nintendo DS"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/59/AirTrafficChaos.jpg",
     alt: "Air Traffic Chaos (box art)",

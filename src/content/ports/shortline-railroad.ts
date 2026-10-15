@@ -19,7 +19,7 @@ export const ShortlineRailroad: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/6/67/DCP_0441kyle.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
     alt: "Shortline railroad (cover)",

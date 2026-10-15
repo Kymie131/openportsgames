@@ -19,7 +19,7 @@ export const ootPsp: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Port of Ocarina of Time to the PlayStation Portable, based on the decompilation. Requires your own ROM.",
   notesEs:

@@ -20,7 +20,7 @@ export const Arkanoid: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/f/f5/Arkanoid_concept_art.jpg",
     alt: "Arkanoid (cover)",

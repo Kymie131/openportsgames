@@ -19,7 +19,7 @@ export const midnightClubLaRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Static recompilation of Midnight Club: Los Angeles (Xbox 360) for PC and PS5. No game data included.",
   notesEs:

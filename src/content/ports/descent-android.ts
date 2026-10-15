@@ -19,7 +19,7 @@ export const descentAndroid: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   notes:
     "Source port of Descent (MS-DOS) for Android, forked from Descent Mobile, with on-screen touch controls, gyro support and add-on mission packs. It needs the player's own copy of the game files.",
   notesEs:

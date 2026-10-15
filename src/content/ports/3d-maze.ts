@@ -19,7 +19,7 @@ export const _3dMaze: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "A playable version of Microsoft's old 3DMaze screensaver from Windows 9x.",
   notesEs: "Una versión jugable del antiguo salvapantallas 3DMaze de Microsoft para Windows 9x.",
 };

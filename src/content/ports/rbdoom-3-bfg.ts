@@ -20,7 +20,7 @@ export const rbDoom3Bfg: Port = {
   license: { spdx: "GPL-3.0" },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   features: [
     "Open source id Tech 4 engine",
     "Mission editor support",

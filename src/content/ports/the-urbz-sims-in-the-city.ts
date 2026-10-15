@@ -19,7 +19,7 @@ export const TheUrbzSimsInTheCity: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/9e/The_Urbz_-_Sims_in_the_City_Coverart.png",
     alt: "The Urbz: Sims in the City (box art)",

@@ -19,7 +19,7 @@ export const ctrHighOctane: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Advanced source port of Crash Team Racing for PlayStation Vita, PC and the web, built on the CTR decompilation. Bring your own disc image.",
   notesEs:

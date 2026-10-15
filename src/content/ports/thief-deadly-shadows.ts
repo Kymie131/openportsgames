@@ -19,7 +19,7 @@ export const ThiefDeadlyShadows: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c3/Thief_Deadly_Shadows_boxart.jpg",
     alt: "Thief: Deadly Shadows (box art)",

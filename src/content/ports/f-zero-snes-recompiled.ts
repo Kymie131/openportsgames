@@ -40,7 +40,7 @@ export const fZeroSnesRecompiled: Port = {
       credit: "F-Zero SNES Recompiled",
     },
   ],
-  originalSystem: "Super Nintendo",
+  originalSystems: ["Super Nintendo"],
   features: [
     "Widescreen up to 32:9 with optional HD Mode 7 rendering",
     "60-360 FPS high refresh rate presentation",

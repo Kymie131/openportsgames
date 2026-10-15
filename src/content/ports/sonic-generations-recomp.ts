@@ -18,7 +18,7 @@ export const sonicGenerationsRecomp: Port = {
   sources: ["https://github.com/Player124413/Sonic-Generations-Recomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Recompilation of Sonic Generations (Xbox 360) built with XenonRecomp and XenosRecomp, with Windows and Android builds. It needs a copy of the game.",
   notesEs:

@@ -19,7 +19,7 @@ export const JpnPokemonBlue: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Game Boy",
+  originalSystems: ["Game Boy"],
   notes: "Disassembly of JPN Pokémon Blue.",
   notesEs: "Desensamblado de Pokémon Blue (Japón).",
 };

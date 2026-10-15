@@ -18,7 +18,7 @@ export const doom3Dude: Port = {
   license: { spdx: "GPL-3.0-only" },
   verified: true,
   verifiedAt: "2026-09-22",
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   features: [
     "GL 3.3 and Vulkan backends with a legacy ARB path",
     "Ray-traced shadows, reflections and RTAO",

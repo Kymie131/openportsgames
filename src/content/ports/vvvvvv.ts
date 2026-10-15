@@ -19,7 +19,7 @@ export const vvvvvv: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Official open source release of VVVVVV, the gravity-flipping platformer by Terry Cavanagh. The source builds the full game, which you own.",
   notesEs:

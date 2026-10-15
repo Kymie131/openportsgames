@@ -18,7 +18,7 @@ export const pokerogueApp: Port = {
   sources: ["https://github.com/Admiral-Billy/Pokerogue-App"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Android app that opens the PokeRogue web game in its own window. It is a wrapper around pokerogue.net and does not bundle the game.",
   notesEs:

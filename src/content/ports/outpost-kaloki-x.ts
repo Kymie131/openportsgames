@@ -19,7 +19,7 @@ export const OutpostKalokiX: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/70/OutpostkalokiXcover.jpg",
     alt: "Outpost Kaloki X (cover)",

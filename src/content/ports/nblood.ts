@@ -21,7 +21,7 @@ export const nBlood: Port = {
     note: "no project-wide license file; third-party components carry their own terms",
   },
   verified: false,
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   features: [
     "Modern renderer with dynamic lighting",
     "Reimplementation of the Blood engine in portable C++",

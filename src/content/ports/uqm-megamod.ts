@@ -18,7 +18,7 @@ export const uqmMegamod: Port = {
   sources: ["https://github.com/JHGuitarFreak/UQM-MegaMod-Archived"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   notes:
     "UQM MegaMod packages The Ur-Quan Masters with extra content and runs it on Android. The repository is archived, so it is no longer updated.",
   notesEs:

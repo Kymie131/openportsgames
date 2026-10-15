@@ -18,7 +18,7 @@ export const wweSmackdownVsRaw2007Recomp: Port = {
   sources: ["https://github.com/HollywoodAkeem/SVR07-Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Native PC recompilation of WWE SmackDown vs. Raw 2007 (Xbox 360) with ReXGlue. The game is not included.",
   notesEs:

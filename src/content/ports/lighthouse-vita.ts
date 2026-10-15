@@ -19,7 +19,7 @@ export const lighthouseVita: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "PlayStation Vita port of Lighthouse, the native Banjo-Kazooie decompilation. Requires your own ROM.",
   notesEs:

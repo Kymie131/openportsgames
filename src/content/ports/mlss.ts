@@ -20,7 +20,7 @@ export const mlss: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   notes:
     "Decompilation of Mario & Luigi: Superstar Saga. A research codebase; it requires game files from a copy you own.",
   notesEs:

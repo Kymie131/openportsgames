@@ -19,7 +19,7 @@ export const WiiFitPlus: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Wii",
+  originalSystems: ["Wii"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/Wii%20Fit%20Plus%20(Asia).png",
     alt: "Wii Fit Plus (box art)",

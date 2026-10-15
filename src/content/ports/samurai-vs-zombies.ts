@@ -19,7 +19,7 @@ export const SamuraiVsZombies: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Samurai Vs Zombies by Glu.",
   notesEs: "Decompilación de Samurai Vs Zombies de Glu.",
 };

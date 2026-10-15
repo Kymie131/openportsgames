@@ -19,7 +19,7 @@ export const HarryPotterAndThePrisonerOfAzkaban: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Harry%20Potter%20and%20the%20Prisoner%20of%20Azkaban%20(USA,%20Europe)%20(En,Fr,De,Es,It,Nl,Da).png",
     alt: "Harry Potter and the Prisoner of Azkaban (box art)",

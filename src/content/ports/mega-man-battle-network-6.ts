@@ -19,7 +19,7 @@ export const MegaManBattleNetwork6: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/0b/MegaManBattleNetwork6_1.jpg",
     alt: "Mega Man Battle Network 6 (box art)",

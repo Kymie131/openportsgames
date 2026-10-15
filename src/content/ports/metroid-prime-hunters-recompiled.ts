@@ -18,7 +18,7 @@ export const metroidPrimeHuntersRecompiled: Port = {
   license: { spdx: "MIT" },
   verified: true,
   verifiedAt: "2026-09-22",
-  originalSystem: "Nintendo DS",
+  originalSystems: ["Nintendo DS"],
   features: [
     "Windows and Linux (Steam Deck-ready AppImage) builds",
     "Dynamic widescreen plus 5:3, 2:1 and 21:9 modes",

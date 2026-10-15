@@ -19,7 +19,7 @@ export const WonderProjectJ2JosetteOfTheCorloForest: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "A work in progress decompilation of Wonder Project J2.",
   notesEs: "Decompilación de Wonder Project J2, en desarrollo.",
 };

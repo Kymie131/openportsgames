@@ -19,7 +19,7 @@ export const ExciteTruck: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b9/Excite_Truck_Coverart.png",
     alt: "Excite Truck (cover)",

@@ -22,7 +22,7 @@ export const minishCap: Port = {
     note: "no SPDX license in the repository",
   },
   verified: false,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   notes:
     "Decompilation of The Legend of Zelda: The Minish Cap (Game Boy Advance) by the Zelda Recompilation project. Active research codebase with no tagged releases; a playable native build is not yet distributed. Requires game files from a copy you own.",
   notesEs:

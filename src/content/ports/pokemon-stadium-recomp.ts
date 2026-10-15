@@ -18,7 +18,7 @@ export const pokemonStadiumRecomp: Port = {
   discord: "https://discord.gg/Ad9BwSzctP",
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   features: [
     "Up to four player controllers, assignable to individual slots",
     "4x MSAA anti-aliasing enabled by default",

@@ -19,7 +19,7 @@ export const bloodborneAndroid: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 4",
+  originalSystems: ["PlayStation 4"],
   notes:
     "Experimental Android port of Bloodborne (PS4, CUSA03173 v1.09) for Snapdragon devices, built on the bbport project. The runtime and renderer run natively on ARM64 while the game's original x86-64 code is translated at runtime with FEXCore. It boots, loads saves and renders properly, but is still an alpha. Requires your own decrypted copy of Bloodborne updated to v1.09.",
   notesEs:

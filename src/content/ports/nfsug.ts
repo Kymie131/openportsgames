@@ -20,7 +20,7 @@ export const nfsug: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   notes:
     "Decompilation of Need for Speed: Underground. A research codebase; it requires game files from a copy you own.",
   notesEs:

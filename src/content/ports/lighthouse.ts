@@ -20,7 +20,7 @@ export const lighthouse: Port = {
   license: { spdx: "CC0-1.0" },
   verified: true,
   verifiedAt: "2026-09-22",
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   features: [
     "ROM and hack extraction sped up by up to 95%",
     "Presets menu and romhack support",

@@ -19,7 +19,7 @@ export const Battletanx: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/67/BattleTanx.jpg",
     alt: "BattleTanx (box art)",

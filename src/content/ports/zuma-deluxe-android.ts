@@ -18,7 +18,7 @@ export const zumaDeluxeAndroid: Port = {
   sources: ["https://github.com/astola-studio/ZumaDeluxeAndroid"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Unofficial Android build of Zuma Deluxe. It is distributed as an APK and needs the original game assets.",
   notesEs:

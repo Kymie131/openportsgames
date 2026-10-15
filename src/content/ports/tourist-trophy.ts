@@ -19,7 +19,7 @@ export const TouristTrophy: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Tourist%20Trophy%20(USA).png",
     alt: "Tourist Trophy (box art)",

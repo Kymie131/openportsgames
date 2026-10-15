@@ -21,7 +21,7 @@ export const meleeNative: Port = {
   },
   verified: true,
   verifiedAt: "2026-09-22",
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   features: ["Native Apple Silicon (macOS) build", "Native Linux x86-64 build"],
   featuresEs: ["Build nativa para Apple Silicon (macOS)", "Build nativa para Linux x86-64"],
   notes:

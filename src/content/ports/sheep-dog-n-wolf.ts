@@ -19,7 +19,7 @@ export const SheepDogNWolf: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/8c/Sheep_Dog_n_Wolf.jpg",
     alt: "Sheep, Dog 'n' Wolf (box art)",

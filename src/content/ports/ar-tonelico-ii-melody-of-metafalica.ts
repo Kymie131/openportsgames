@@ -19,7 +19,7 @@ export const ArTonelicoIiMelodyOfMetafalica: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e8/Ar_tonelico_II.jpg",
     alt: "Ar tonelico II: Melody of Metafalica (box art)",

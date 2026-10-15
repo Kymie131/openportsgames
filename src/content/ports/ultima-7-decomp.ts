@@ -20,7 +20,7 @@ export const Ultima7Decomp: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "This is a decompiled and byte-verified rebuild of Ultima 7.",
   notesEs: "Una reconstrucción decompilada y verificada byte a byte de Ultima 7.",
 };

@@ -18,7 +18,7 @@ export const yoshisCookieRecomp: Port = {
   sources: ["https://github.com/mstan/YoshisCookieRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
-  originalSystem: "Nintendo Entertainment System",
+  originalSystems: ["Nintendo Entertainment System"],
   notes:
     "Native recompilation of Yoshi's Cookie (Nintendo Entertainment System). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

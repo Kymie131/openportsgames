@@ -19,7 +19,7 @@ export const Ratatouille: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/3/37/Ratatouille_home_cooked.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
     alt: "Ratatouille (cover)",

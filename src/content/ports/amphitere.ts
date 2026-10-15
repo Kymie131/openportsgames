@@ -18,7 +18,7 @@ export const amphitere: Port = {
   sources: ["https://github.com/fancypantalons/Amphitere"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   notes:
     "Android port of NetHack focused on dual-screen devices. It is a standalone build that does not need the original game.",
   notesEs:

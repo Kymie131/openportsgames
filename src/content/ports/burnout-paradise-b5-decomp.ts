@@ -20,7 +20,7 @@ export const BurnoutParadiseB5Decomp: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Burnout Paradise decompilation effort.",
   notesEs: "Proyecto de decompilación de Burnout Paradise.",
 };

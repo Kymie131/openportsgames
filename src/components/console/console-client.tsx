@@ -17,7 +17,7 @@ export function ConsoleClient({
 }: {
   portsByPlatform: Record<string, Port[]>;
   testStatuses: Record<string, TestStatus>;
-  originalSystems: Record<string, string>;
+  originalSystems: Record<string, string[]>;
 }) {
   const t = useT();
   const locale = useLocale();
@@ -81,7 +81,7 @@ export function ConsoleClient({
           <PortTile
             port={port}
             testStatus={testStatuses[port.id]}
-            system={originalSystems[port.id]}
+            system={(originalSystems[port.id] ?? []).find((system) => system !== "Unknown")}
             className="h-full"
             eager={index < 3}
           />

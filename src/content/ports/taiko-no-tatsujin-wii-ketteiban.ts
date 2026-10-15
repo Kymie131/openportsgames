@@ -19,7 +19,7 @@ export const TaikoNoTatsujinWiiKetteiban: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Wii",
+  originalSystems: ["Wii"],
   notes: "A folder decompilation of the JP Wii Game Taiko No Tatsujin Wii Ketteiban.",
   notesEs: "Decompilación por carpetas del juego japonés de Wii Taiko no Tatsujin Wii Ketteiban.",
 };

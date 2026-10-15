@@ -19,7 +19,7 @@ export const TheSims2Castaway: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/81/The_Sims_2_-_Castaway_Coverart.png",
     alt: "The Sims 2: Castaway (box art)",

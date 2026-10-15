@@ -19,7 +19,7 @@ export const UndertaleXboxOne: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox",
+  originalSystems: ["Xbox"],
   notes: "UNDERTALE Xbox v1.13X Decompilation.",
   notesEs: "Decompilación de UNDERTALE Xbox v1.13X.",
 };

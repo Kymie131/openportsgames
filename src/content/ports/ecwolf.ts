@@ -21,7 +21,7 @@ export const ecWolf: Port = {
     note: "no license file in the repository; GPL-2.0-or-later per downstream packaging",
   },
   verified: false,
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   features: [
     "ZDoom-style editing workflow for Wolfenstein 3D content",
     "Mods packaged as a single file instead of whole data sets",

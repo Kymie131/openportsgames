@@ -19,7 +19,7 @@ export const FinalFantasyIv3dRemake: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "An open-source decompilation of Final Fantasy IV (3D Remake).",
   notesEs: "Decompilación de código abierto de Final Fantasy IV (3D Remake).",
 };

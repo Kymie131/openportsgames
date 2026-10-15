@@ -19,7 +19,7 @@ export const TheWorldEndsWithYou: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo DS",
+  originalSystems: ["Nintendo DS"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/fb/The_World_Ends_With_You.jpg",
     alt: "The World Ends with You (box art)",

@@ -22,7 +22,7 @@ export const nfsMostWantedRecomp: Port = {
   ],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005) built on the ReXGlue SDK. The PowerPC code of your own default.xex is translated to C++ and rendered with a native Vulkan renderer; it is not an emulator and ships no game files. Community ports extend it to Nintendo Switch (nfsmw-nx) and Android (NFSMW-Recompiled-Mobile); the PC build needs the PAL Spain disc, while the console and mobile builds cover more editions.",
   notesEs:

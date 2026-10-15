@@ -19,7 +19,7 @@ export const MortalKombatVsDcUniverse: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6b/Mortal_Kombat_vs._DC_Universe_Coverart.png",
     alt: "Mortal Kombat vs. DC Universe (box art)",

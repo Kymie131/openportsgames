@@ -18,7 +18,7 @@ export const wrecklessRecomp: Port = {
   sources: ["https://github.com/sp00nznet/wreckless"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox",
+  originalSystems: ["Xbox"],
   notes:
     "Static recompilation of Wreckless: The Yakuza Missions (Xbox) with ReXGlue. It requires a copy of the game.",
   notesEs:

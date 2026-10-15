@@ -19,7 +19,7 @@ export const marioKart8DeluxeRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Wii U",
+  originalSystems: ["Wii U"],
   notes:
     "Static recompilation of Mario Kart 8 Deluxe (AArch64 to x86-64) for Windows. It needs your own copy of the game.",
   notesEs:

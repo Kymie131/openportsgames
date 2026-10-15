@@ -19,7 +19,7 @@ export const Roller: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Reverse engineering and partially re-writing the 1995 game Whiplash/Fatal Racing.",
   notesEs: "Ingeniería inversa y reescritura parcial del juego de 1995 Whiplash/Fatal Racing.",
 };

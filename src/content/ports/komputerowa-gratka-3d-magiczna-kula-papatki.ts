@@ -19,7 +19,7 @@ export const KomputerowaGratka3dMagicznaKulaPapatki: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: 'Recompilation project of "Magiczna kula Papatki".',
   notesEs: "Proyecto de recompilación de «Magiczna kula Papatki».",
 };

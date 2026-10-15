@@ -19,7 +19,7 @@ export const Creatures2: Port = {
   license: { spdx: "BSD-3-Clause" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/90/Creatures_2_1998_Windows_Cover_Art.jpg",
     alt: "Creatures 2 (cover)",

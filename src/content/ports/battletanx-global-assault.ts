@@ -19,7 +19,7 @@ export const BattletanxGlobalAssault: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/BattleTanx%20-%20Global%20Assault%20(Europe)%20(En,Fr,De).png",
     alt: "BattleTanx: Global Assault (box art)",

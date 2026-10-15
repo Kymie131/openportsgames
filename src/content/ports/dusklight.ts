@@ -26,7 +26,7 @@ export const dusklight: Port = {
       credit: "Dusklight",
     },
   ],
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   features: [
     "Full game playable from start to finish",
     "Official Windows, Linux, macOS and Android builds",

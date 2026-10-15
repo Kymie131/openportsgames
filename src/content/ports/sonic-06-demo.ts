@@ -19,7 +19,7 @@ export const Sonic06Demo: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Sonic 06 Demo Recompilation using RexGlue.",
   notesEs: "Recompilación de la demo de Sonic 06 con ReXGlue.",
 };

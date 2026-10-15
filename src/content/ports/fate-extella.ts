@@ -19,7 +19,7 @@ export const FateExtella: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Fate EXTELLA Decompilation.",
   notesEs: "Decompilación de Fate/EXTELLA.",
 };

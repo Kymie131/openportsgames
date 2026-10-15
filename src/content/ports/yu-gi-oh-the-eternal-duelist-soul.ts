@@ -19,7 +19,7 @@ export const YuGiOhTheEternalDuelistSoul: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Yu-Gi-Oh!%20-%20The%20Eternal%20Duelist%20Soul%20(USA).png",
     alt: "Yu-Gi-Oh! The Eternal Duelist Soul (box art)",

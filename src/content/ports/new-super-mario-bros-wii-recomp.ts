@@ -19,7 +19,7 @@ export const newSuperMarioBrosWiiRecomp: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Wii",
+  originalSystems: ["Wii"],
   notes:
     "Static recompilation of New Super Mario Bros. Wii built on WiiCompiled, running natively on Windows and Android, with multiplayer. It needs your own game data.",
   notesEs:

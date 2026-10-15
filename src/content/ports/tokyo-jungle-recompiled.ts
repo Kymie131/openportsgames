@@ -18,7 +18,7 @@ export const tokyoJungleRecompiled: Port = {
   sources: ["https://github.com/sp00nznet/tokyojungle"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "PlayStation 3",
+  originalSystems: ["PlayStation 3"],
   notes:
     "Static recompilation of Tokyo Jungle (PS3) with the ps3recomp framework. It boots, opens a D3D12 window, initialises audio and loads its data, but does not draw geometry yet.",
   notesEs:

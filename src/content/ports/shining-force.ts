@@ -19,7 +19,7 @@ export const ShiningForce: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/20/Shining_Force.jpg",
     alt: "Shining Force (box art)",

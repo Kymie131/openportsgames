@@ -19,7 +19,7 @@ export const RadioHelicopter: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "A work-in-progress matching decompilation of Radio Helicopter.",
   notesEs: "Decompilación que coincide de Radio Helicopter, en desarrollo.",
 };

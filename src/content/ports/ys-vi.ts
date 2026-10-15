@@ -19,7 +19,7 @@ export const YsVi: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Exploration of Ys VI DX8 on Steam using Ghidra.",
   notesEs: "Exploración de Ys VI DX8 en Steam con Ghidra.",
 };

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getPorts, ports, originalSystemOf } from "@/lib/ports";
+import { getPorts, ports, originalSystemsOf } from "@/lib/ports";
 import { todayIso, isBeforeOrOn } from "@/lib/dates";
 
 describe("catalog ports", () => {
@@ -94,7 +94,7 @@ describe("catalog ports", () => {
 
   it("annotates every port with its original system", () => {
     for (const port of ports) {
-      expect(originalSystemOf(port.id), port.id).toBeTruthy();
+      expect(originalSystemsOf(port.id).length, port.id).toBeGreaterThan(0);
     }
   });
 

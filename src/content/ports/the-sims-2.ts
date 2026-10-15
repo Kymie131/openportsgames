@@ -19,7 +19,7 @@ export const TheSims2: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/bd/The_sims_2.jpg",
     alt: "The Sims 2 (box art)",

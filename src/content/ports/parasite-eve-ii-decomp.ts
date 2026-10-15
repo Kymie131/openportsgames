@@ -20,7 +20,7 @@ export const parasiteEveIiDecomp: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Completed decompilation of the US release of Parasite Eve II (PlayStation). A research codebase; it requires game files from a copy you own.",
   notesEs:

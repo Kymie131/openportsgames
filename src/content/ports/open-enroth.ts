@@ -18,7 +18,7 @@ export const openEnroth: Port = {
   discord: "https://discord.gg/jRCyPtq",
   license: { spdx: "LGPL-3.0" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   features: [
     "Unified engine across several Might and Magic titles",
     "Android build",

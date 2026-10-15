@@ -20,10 +20,11 @@ import { PlatformMark } from "@/components/platforms/platform-mark";
 import { SystemMark } from "@/components/platforms/system-mark";
 import { SystemBadge } from "@/components/platforms/system-badge";
 import { ScreenshotFrame } from "@/components/ports/screenshot-frame";
+import { PortImageFallback } from "@/components/ports/port-image-fallback";
 import { consoleLogoForSystem } from "@/content/ports/console-logos";
-import { isPixelArtSystem } from "@/lib/ports/images";
+import { imageAlt, isPixelArtSystem, primaryImage } from "@/lib/ports/images";
 import { formatDate } from "@/lib/dates";
-import { assetPath, cn } from "@/lib/utils";
+import { cn } from "@/lib/utils";
 import { useLocale, useT } from "@/lib/i18n/use-i18n";
 
 const STATUS_TONE: Record<Port["status"], string> = {
@@ -52,29 +53,44 @@ export function PortDetail({
   port,
   tests,
   hardwareById,
-  originalSystem,
+  originalSystems,
   testStatus,
 }: {
   port: Port;
   tests: TestRecord[];
   hardwareById: Record<string, HardwareProfile>;
-  originalSystem: string;
+  originalSystems: string[];
   testStatus?: TestStatus;
 }) {
   const t = useT();
   const locale = useLocale();
   const needsOriginalAssets = !port.noOriginalGameRequired;
+  const knownSystems = originalSystems.filter((system) => system !== "Unknown");
+  const primarySystem = knownSystems[0];
+  const primary = primaryImage(port);
+  const statusLabel = t.catalog[statusKey(port.status)];
 
   return (
     <div className="flex flex-col gap-8">
       <div className="flex flex-col gap-3">
-        <Link
-          href="/ports"
-          className="inline-flex items-center gap-1 text-sm text-link transition-colors hover:text-link-hover"
+        <nav
+          aria-label={t.detail.breadcrumb}
+          className="flex flex-wrap items-center gap-1.5 text-sm text-muted"
         >
-          <ArrowLeft className="size-4" aria-hidden="true" />
-          {t.detail.backToCatalog}
-        </Link>
+          <Link href="/" className="text-link transition-colors hover:text-link-hover">
+            {t.nav.home}
+          </Link>
+          <span aria-hidden="true">/</span>
+          <Link
+            href="/ports"
+            className="inline-flex items-center gap-1 text-link transition-colors hover:text-link-hover"
+          >
+            <ArrowLeft className="size-4" aria-hidden="true" />
+            {t.nav.ports}
+          </Link>
+          <span aria-hidden="true">/</span>
+          <span className="text-foreground">{port.title}</span>
+        </nav>
 
         <header className="flex flex-col gap-3">
           <div className="flex flex-col gap-1.5">
@@ -87,7 +103,9 @@ export function PortDetail({
                 <PlatformMark key={platform} platform={platform} />
               ))}
             </div>
-            <SystemBadge system={originalSystem} />
+            {knownSystems.map((system) => (
+              <SystemBadge key={system} system={system} />
+            ))}
             <TestBadge status={testStatus} />
             <span
               className={STATUS_TONE[port.status] + " rounded-full px-2 py-0.5 text-xs font-medium"}
@@ -127,42 +145,70 @@ export function PortDetail({
         </p>
       )}
 
-      {port.cover ? (
-        <figure className="relative">
-          <ScreenshotFrame
-            src={port.cover.src}
-            alt={port.cover.alt}
-            pixelated={isPixelArtSystem(originalSystem)}
-            eager
+      <figure className="flex flex-col gap-2">
+        {primary ? (
+          <div className="relative">
+            <ScreenshotFrame
+              src={primary.src}
+              alt={imageAlt(primary.kind, port.game, locale)}
+              pixelated={isPixelArtSystem(primarySystem)}
+              eager
+              className="aspect-video w-full rounded-xl border border-border"
+              fallback={
+                <PortImageFallback
+                  game={port.game}
+                  system={primarySystem}
+                  statusLabel={statusLabel}
+                  className="aspect-video rounded-xl"
+                />
+              }
+            />
+            {primarySystem && <ConsoleBadge system={primarySystem} />}
+          </div>
+        ) : (
+          <PortImageFallback
+            game={port.game}
+            system={primarySystem}
+            statusLabel={statusLabel}
             className="aspect-video w-full rounded-xl border border-border"
           />
-          <ConsoleBadge system={originalSystem} />
-        </figure>
-      ) : port.screenshots && port.screenshots.length > 0 ? (
-        <PortGallery screenshots={port.screenshots} originalSystem={originalSystem} />
-      ) : (
-        <figure className="relative flex aspect-video items-center justify-center overflow-hidden rounded-xl border border-border bg-gradient-to-br from-surface-2 to-surface">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,color-mix(in_srgb,var(--accent)_12%,transparent)_0%,transparent_65%)]" />
-          <div className="relative z-10 flex flex-col items-center gap-2 px-6 text-center">
-            <span className="text-sm font-mono text-muted tracking-wider uppercase">
-              {originalSystem}
-            </span>
-            <span className="max-w-md text-2xl font-bold leading-tight tracking-tight text-foreground/70">
-              {port.game}
-            </span>
-          </div>
-          <ConsoleBadge system={originalSystem} />
-        </figure>
+        )}
+        <figcaption className="text-xs text-muted">
+          {t.detail.imageCredit}{" "}
+          <a
+            href={reportUrl(port)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-link transition-colors hover:text-link-hover"
+          >
+            {t.detail.report}
+          </a>
+        </figcaption>
+      </figure>
+
+      {primary?.kind === "cover" && port.screenshots && port.screenshots.length > 0 && (
+        <PortGallery
+          screenshots={port.screenshots}
+          originalSystem={primarySystem ?? ""}
+          game={port.game}
+        />
       )}
 
       <dl className="grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2 lg:grid-cols-3">
-        <div className="flex flex-col gap-0.5">
-          <dt className="text-xs text-muted">{t.detail.originalSystem}</dt>
-          <dd className="flex items-center gap-1.5 text-sm">
-            <SystemMark system={originalSystem} />
-            <span>{originalSystem}</span>
-          </dd>
-        </div>
+        {knownSystems.length > 0 && (
+          <div className="flex flex-col gap-0.5">
+            <dt className="text-xs text-muted">{t.detail.originalSystem}</dt>
+            <dd className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm">
+              {knownSystems.map((system) => (
+                <span key={system} className="inline-flex items-center gap-1.5">
+                  <SystemMark system={system} />
+                  <span>{system}</span>
+                </span>
+              ))}
+            </dd>
+          </div>
+        )}
+        {port.region && <Row label={t.detail.region} value={port.region} />}
         <Row label={t.detail.technique} value={t.portTypes[port.portType]} />
         <Row
           label={t.detail.license}
@@ -263,7 +309,7 @@ export function PortDetail({
                 <ScreenshotFrame
                   src={shot.src}
                   alt={shot.alt}
-                  pixelated={isPixelArtSystem(originalSystem)}
+                  pixelated={isPixelArtSystem(primarySystem)}
                   className="aspect-video w-full rounded-xl border border-border"
                 />
                 <p className="mt-1 text-xs text-muted">{shot.credit}</p>
@@ -339,11 +385,9 @@ export function PortDetail({
         </ul>
       </section>
 
-      <section className="flex flex-col gap-3">
-        <h2 className="text-lg font-semibold tracking-tight">{t.detail.tests}</h2>
-        {tests.length === 0 ? (
-          <p className="text-sm text-muted">{t.detail.noTests}</p>
-        ) : (
+      {tests.length > 0 && (
+        <section className="flex flex-col gap-3">
+          <h2 className="text-lg font-semibold tracking-tight">{t.detail.tests}</h2>
           <ul className="flex flex-col gap-3">
             {tests.map((test) => {
               const stale = port.release.version !== null && test.version !== port.release.version;
@@ -403,19 +447,19 @@ export function PortDetail({
               );
             })}
           </ul>
-        )}
-        <div>
-          <a
-            href={reportUrl(port)}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 rounded-md border border-border px-3 py-2 text-sm text-muted transition-colors hover:border-accent-hover hover:text-foreground"
-          >
-            <CircleAlert className="size-4" aria-hidden="true" />
-            {t.detail.report}
-          </a>
-        </div>
-      </section>
+        </section>
+      )}
+      <div>
+        <a
+          href={reportUrl(port)}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1.5 rounded-md border border-border px-3 py-2 text-sm text-muted transition-colors hover:border-accent-hover hover:text-foreground"
+        >
+          <CircleAlert className="size-4" aria-hidden="true" />
+          {t.detail.report}
+        </a>
+      </div>
     </div>
   );
 }
@@ -460,13 +504,17 @@ function ConsoleBadge({ system }: { system: string }) {
 function PortGallery({
   screenshots,
   originalSystem,
+  game,
 }: {
   screenshots: NonNullable<Port["screenshots"]>;
   originalSystem: string;
+  game: string;
 }) {
   const t = useT();
+  const locale = useLocale();
   const [index, setIndex] = useState(0);
   const active = screenshots[Math.min(index, screenshots.length - 1)];
+  const alt = imageAlt("screenshot", game, locale);
 
   return (
     <section className="flex flex-col gap-2">
@@ -474,7 +522,7 @@ function PortGallery({
       <div className="relative">
         <ScreenshotFrame
           src={active.src}
-          alt={active.alt}
+          alt={alt}
           pixelated={isPixelArtSystem(originalSystem)}
           eager
           className="aspect-video w-full rounded-xl border border-border"
@@ -489,7 +537,7 @@ function PortGallery({
               type="button"
               onClick={() => setIndex(i)}
               aria-pressed={i === index}
-              aria-label={shot.alt}
+              aria-label={alt}
               className={
                 "shrink-0 overflow-hidden rounded-md border-2 bg-surface-2 transition-colors duration-150 " +
                 (i === index ? "border-accent" : "border-transparent hover:border-accent-hover")
@@ -497,8 +545,11 @@ function PortGallery({
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={assetPath(shot.src)}
+                src={shot.src}
                 alt=""
+                aria-hidden="true"
+                referrerPolicy="no-referrer"
+                decoding="async"
                 className={cn(
                   "h-16 w-28 object-contain",
                   isPixelArtSystem(originalSystem) && "image-pixelated",

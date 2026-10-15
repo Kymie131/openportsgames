@@ -20,7 +20,7 @@ export const pwaa1: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   notes:
     "Decompilation of Gyakuten Saiban (Phoenix Wright: Ace Attorney). A research codebase; it requires game files from a copy you own.",
   notesEs:

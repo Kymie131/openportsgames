@@ -18,7 +18,7 @@ export const sonic3Air: Port = {
   license: { spdx: "GPL-3.0" },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "Sega Mega Drive / Genesis",
+  originalSystems: ["Sega Mega Drive / Genesis"],
   features: ["Cross-platform desktop builds", "Android build", "Enhanced modes and level options"],
   featuresEs: [
     "Builds de escritorio multiplataforma",

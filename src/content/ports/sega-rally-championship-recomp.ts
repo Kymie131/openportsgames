@@ -19,7 +19,7 @@ export const segaRallyChampionshipRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Arcade",
+  originalSystems: ["Arcade"],
   notes:
     "Recompilation of Sega Rally Championship (Model 2 arcade) for Windows. It needs your own copy of the game.",
   notesEs:

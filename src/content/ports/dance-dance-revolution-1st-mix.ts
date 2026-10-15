@@ -19,7 +19,7 @@ export const DanceDanceRevolution1stMix: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes:
     "Static recompilation of Dance Dance Revolution 1st Mix (SLPM-86222), built on PSXRecomp. Configuration and tooling only — you supply your own legal disc dump.",
   notesEs:

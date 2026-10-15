@@ -18,7 +18,7 @@ export const pokemonFireredRecomp: Port = {
   sources: ["https://github.com/mstan/FireRedLeafGreenRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   notes:
     "Static recompilation of Pokémon FireRed (GBA) with the gbarecomp framework. It requires the game itself.",
   notesEs:

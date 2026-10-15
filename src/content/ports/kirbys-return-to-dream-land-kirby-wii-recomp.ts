@@ -19,7 +19,7 @@ export const KirbysReturnToDreamLandKirbyWiiRecomp: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   notes: "Runtime for recompilations of GameCube games.",
   notesEs: "Runtime para recompilaciones de juegos de GameCube.",
 };

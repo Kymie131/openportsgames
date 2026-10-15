@@ -19,7 +19,7 @@ export const kingdomHearts3582DaysRecomp: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo DS",
+  originalSystems: ["Nintendo DS"],
   notes:
     "Experimental native PC runtime for Kingdom Hearts 358/2 Days (Nintendo DS). It needs your own copy of the game.",
   notesEs:

@@ -18,7 +18,7 @@ export const deadRising2CaseWestRecomp: Port = {
   sources: ["https://github.com/wivi514/Dead_Rising_2_Case_West_Xenon_Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Recompilation of Dead Rising 2: Case West (Xbox 360) to native Windows via ReXGlue. You supply the game files.",
   notesEs:

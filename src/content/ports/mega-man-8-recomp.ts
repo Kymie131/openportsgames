@@ -18,7 +18,7 @@ export const megaMan8Recomp: Port = {
   sources: ["https://github.com/omegakatana92/Mega-Man-8-Recomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Recompilation of Mega Man 8 (PlayStation) built with mstan's PSXRecomp tool. It includes no game assets and needs your own copy.",
   notesEs:

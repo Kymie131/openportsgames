@@ -19,7 +19,7 @@ export const Quakeforge: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Source port of quakeforge (Other).",
   notesEs: "Port del código fuente de quakeforge (Other).",
 };

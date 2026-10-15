@@ -19,7 +19,7 @@ export const Antares: Port = {
   license: { spdx: "LGPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Scorpius_constellation_map.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
     alt: "Antares (cover)",

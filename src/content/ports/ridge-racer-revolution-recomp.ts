@@ -18,7 +18,7 @@ export const ridgeRacerRevolutionRecomp: Port = {
   sources: ["https://github.com/RobGreenUK/Ridge-Racer-Revolution-PS1-Recomp"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Native recompilation of Ridge Racer Revolution (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:

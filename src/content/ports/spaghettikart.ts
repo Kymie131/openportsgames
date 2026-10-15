@@ -22,7 +22,7 @@ export const spaghettiKart: Port = {
   },
   verified: true,
   verifiedAt: "2026-09-22",
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   features: [
     "Custom track system with new render layers and finish lines",
     "Frame interpolation and up to 400% internal resolution",

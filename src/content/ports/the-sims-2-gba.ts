@@ -19,7 +19,7 @@ export const TheSims2Gba: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   notes: "A WIP disassembly/decompilation project of The Sims 2 on the Game Boy Advance.",
   notesEs:
     "Proyecto de desensamblado/decompilación de The Sims 2 para Game Boy Advance, en desarrollo.",

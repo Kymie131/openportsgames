@@ -19,7 +19,7 @@ export const ZoidsLegacy: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Zoids%20-%20Legacy%20(USA).png",
     alt: "Zoids Legacy (box art)",

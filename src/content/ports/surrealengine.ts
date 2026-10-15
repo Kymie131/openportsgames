@@ -20,7 +20,7 @@ export const Surrealengine: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Unreal Engine 1 Reimplementation.",
   notesEs: "Reimplementación del Unreal Engine 1.",
 };

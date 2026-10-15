@@ -19,7 +19,7 @@ export const PokemonFirered: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Pokémon FireRed/LeafGreen.",
   notesEs: "Decompilación de Pokémon FireRed/LeafGreen.",
 };

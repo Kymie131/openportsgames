@@ -17,7 +17,7 @@ export const pokemonSnapRecomp: Port = {
   sources: ["https://github.com/JackandBeans/Snap64Recomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   features: [
     "Widescreen and higher frame rates, disabled by default to match the cartridge",
     "Mouse and gyro aiming, button rebinding and fast forward",

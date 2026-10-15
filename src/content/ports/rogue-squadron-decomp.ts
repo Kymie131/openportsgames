@@ -20,7 +20,7 @@ export const rogueSquadronDecomp: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Decompilation of Star Wars: Rogue Squadron for the Nintendo 64. A research codebase; it requires game files from a copy you own.",
   notesEs:

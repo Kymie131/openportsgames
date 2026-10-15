@@ -19,7 +19,7 @@ export const marioStrikersChargedRecomp: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Wii",
+  originalSystems: ["Wii"],
   notes:
     "Mario Strikers Charged (Wii) ported to PC, macOS and Linux from its decompilation. It needs your own copy of the game.",
   notesEs:

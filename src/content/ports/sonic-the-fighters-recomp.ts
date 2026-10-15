@@ -18,7 +18,7 @@ export const sonicTheFightersRecomp: Port = {
   sources: ["https://github.com/Player124413/FightersRecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Native Windows port of the Xbox Live Arcade version of Sonic the Fighters through recompilation, with no Xbox 360 emulation. It requires the original game.",
   notesEs:

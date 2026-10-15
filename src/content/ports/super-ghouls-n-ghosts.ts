@@ -19,7 +19,7 @@ export const SuperGhoulsNGhosts: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Super Ghouls ‘n Ghosts (Other).",
   notesEs: "Decompilación de Super Ghouls ‘n Ghosts (Other).",
 };

@@ -19,7 +19,7 @@ export const LegoBattles: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo DS",
+  originalSystems: ["Nintendo DS"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/02/Lego_Battles.jpg",
     alt: "Lego Battles (box art)",

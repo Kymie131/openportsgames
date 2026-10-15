@@ -19,7 +19,7 @@ export const LegoStarWarsIiiTheCloneWars: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Wii",
+  originalSystems: ["Wii"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/LEGO%20Star%20Wars%20III%20-%20The%20Clone%20Wars%20(Europe)%20(En,Fr,De,Es,It,Da).png",
     alt: "Lego Star Wars III: The Clone Wars (box art)",

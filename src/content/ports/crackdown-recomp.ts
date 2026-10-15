@@ -18,7 +18,7 @@ export const crackdownRecomp: Port = {
   sources: ["https://github.com/SkiddyToast/Crackdown"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "ReXGlue static recompilation of Crackdown (Xbox 360) for Windows. Needs the original game files.",
   notesEs:

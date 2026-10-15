@@ -19,7 +19,7 @@ export const LegoBatmanTheVideogame: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e3/Lego_batman_cover.jpg",
     alt: "LEGO Batman: The Videogame (cover)",

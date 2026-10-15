@@ -1,14 +1,17 @@
 import { describe, expect, it } from "vitest";
-import { originalSystemOf, ports } from "@/lib/ports";
+import { originalSystemsOf, ports, UNKNOWN_SYSTEM } from "@/lib/ports";
 import { systemSlugByLabel, systems, resolveSystem } from "@/content/systems";
 
 describe("system registry", () => {
-  it("resolves every port's original system to a canonical entry", () => {
+  it("resolves every known port original system to a canonical entry", () => {
     for (const port of ports) {
-      const label = originalSystemOf(port.id);
-      expect(label, port.id).toBeTruthy();
-      const resolved = resolveSystem(label);
-      expect(resolved, `${port.id} (${label})`).not.toBeNull();
+      const labels = originalSystemsOf(port.id);
+      expect(labels.length, port.id).toBeGreaterThan(0);
+      for (const label of labels) {
+        if (label === UNKNOWN_SYSTEM) continue;
+        const resolved = resolveSystem(label);
+        expect(resolved, `${port.id} (${label})`).not.toBeNull();
+      }
     }
   });
 

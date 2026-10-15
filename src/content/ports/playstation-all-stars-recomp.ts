@@ -18,7 +18,7 @@ export const playstationAllStarsRecomp: Port = {
   sources: ["https://github.com/ColinGamez/allstars-ps3"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation 3",
+  originalSystems: ["PlayStation 3"],
   notes:
     "Native PC port of PlayStation All-Stars Battle Royale (PS3) built with ps3recomp, still in active development. It needs a copy of the game.",
   notesEs:

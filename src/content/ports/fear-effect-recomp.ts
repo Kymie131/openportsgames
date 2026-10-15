@@ -18,7 +18,7 @@ export const fearEffectRecomp: Port = {
   sources: ["https://github.com/alexbeavs-ps1-ports/fear-effect-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Recompilation of Fear Effect (PS1, USA SLUS-00920) with PSXRecomp and the recomp-ui launcher. You bring your own disc and a European SCPH-5502/5552 BIOS; the game is generated and compiled on your machine. A 0.1.0 release candidate with gameplay not yet validated.",
   notesEs:

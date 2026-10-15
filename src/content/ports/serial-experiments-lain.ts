@@ -19,7 +19,7 @@ export const SerialExperimentsLain: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Decompilation of Serial Experiments Lain (PlayStation) and a native Windows, macOS and Linux client.",
   notesEs:

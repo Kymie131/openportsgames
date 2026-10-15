@@ -19,7 +19,7 @@ export const Wild9: Port = {
   license: { spdx: "AGPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a4/Wild_9_Coverart.png",
     alt: "Wild 9 (box art)",

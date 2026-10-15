@@ -18,7 +18,7 @@ export const vandalHeartsRecomp: Port = {
   sources: ["https://github.com/HalmyLyseas/VandalHearts-PcPort"],
   license: { spdx: "GPL-2.0" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Native PC port of Vandal Hearts built on a byte-exact matching decompilation. It builds for Windows and Linux and needs your own disc.",
   notesEs:

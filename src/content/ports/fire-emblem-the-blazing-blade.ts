@@ -19,7 +19,7 @@ export const FireEmblemTheBlazingBlade: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e2/GBA_Fire_Emblem_Box.jpg",
     alt: "Fire Emblem: The Blazing Blade (box art)",

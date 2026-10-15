@@ -20,7 +20,7 @@ export const sonicAdvance2Decomp: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   notes:
     "Decompilation and port of Sonic Advance 1 and 2. A research codebase; it requires game files from a copy you own.",
   notesEs:

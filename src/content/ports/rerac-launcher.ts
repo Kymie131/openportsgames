@@ -20,7 +20,7 @@ export const ReracLauncher: Port = {
   license: { spdx: "ISC" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "ReRAC: The Ratchet & Clank Rewrite Launcher.",
   notesEs: "ReRAC: el lanzador de la reescritura de Ratchet & Clank.",
 };

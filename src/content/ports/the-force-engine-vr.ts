@@ -18,7 +18,7 @@ export const theForceEngineVr: Port = {
   sources: ["https://github.com/SoVRHere/TheForceEngineVR"],
   license: { spdx: "GPL-2.0" },
   verified: false,
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   notes:
     "VR-oriented build of The Force Engine (a Jedi Engine replacement) that supports Dark Forces and its mods on Android. It needs the original game.",
   notesEs:

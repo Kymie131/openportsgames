@@ -16,7 +16,7 @@ export function CatalogPage({
   ports: Port[];
   testStatuses: Record<string, "current" | "stale">;
   testResults: Record<string, "pass" | "fail">;
-  originalSystems: Record<string, string>;
+  originalSystems: Record<string, string[]>;
   stars: Record<string, number>;
   scope: CatalogScope;
 }) {

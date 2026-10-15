@@ -18,7 +18,7 @@ export const crashOfTheTitansRecomp: Port = {
   sources: ["https://github.com/OAleex/MojoRecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Recompilation of Crash of the Titans (Xbox 360) for Windows, still in an early state. It requires your own game files.",
   notesEs:

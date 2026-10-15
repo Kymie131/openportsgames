@@ -19,7 +19,7 @@ export const scdaXbeRecomp: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox",
+  originalSystems: ["Xbox"],
   notes:
     "Unofficial PC port of the original Xbox version of Splinter Cell: Double Agent via static recompilation. Needs your own game files.",
   notesEs:

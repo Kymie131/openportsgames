@@ -19,7 +19,7 @@ export const Gsrecomp: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Static recompilation of GSRecomp (Other).",
   notesEs: "Recompilación estática de GSRecomp (Other).",
 };

@@ -18,7 +18,7 @@ export const extremeGRecomp: Port = {
   sources: ["https://github.com/sp00nznet/extremeg"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Static recompilation of Extreme-G (Nintendo 64) to a native PC executable. It needs the original game and ships no assets.",
   notesEs:

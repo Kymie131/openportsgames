@@ -89,7 +89,7 @@ const normalPort = z.object({
   noOriginalGameRequired: z.boolean().optional(),
   notes: z.string().max(1000).optional(),
   notesEs: z.string().max(1000).optional(),
-  originalSystem: z.string().min(2).max(80).optional(),
+  originalSystems: z.array(z.string().min(2).max(80)).optional(),
   /** Region of the original release this port targets, when regional variants exist. */
   region: z.string().min(2).max(40).optional(),
   features: z.array(z.string().min(3).max(120)).max(20).optional(),
@@ -220,7 +220,7 @@ export type Port = {
   noOriginalGameRequired?: boolean;
   notes?: string;
   notesEs?: string;
-  originalSystem?: string;
+  originalSystems?: string[];
   /** Region of the original release this port targets, when regional variants exist. */
   region?: string;
   features?: string[];

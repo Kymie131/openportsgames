@@ -19,7 +19,7 @@ export const Openreliant: Port = {
   license: { spdx: "MPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes:
     "An open-source reimplementation of StarLancer's engine, in Zig on SDL3. Needs your own copy of the game.",
   notesEs:

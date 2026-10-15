@@ -20,7 +20,7 @@ export const psychonautsDecomp: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Decompilation of Psychonauts. A research codebase; it requires game files from a copy you own.",
   notesEs:

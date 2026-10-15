@@ -19,7 +19,7 @@ export const MarioAndLuigiPartnersInTime: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Mario & Luigi - Partners in Time (Other).",
   notesEs: "Decompilación de Mario & Luigi - Partners in Time (Other).",
 };

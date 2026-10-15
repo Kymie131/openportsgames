@@ -19,7 +19,7 @@ export const SpeedAcademy: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Source port of the singleplayer of Star Wars Jedi Knight: Jedi Academy.",
   notesEs: "Port del código fuente del modo un jugador de Star Wars Jedi Knight: Jedi Academy.",
 };

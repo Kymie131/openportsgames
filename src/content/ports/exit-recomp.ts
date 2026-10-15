@@ -18,7 +18,7 @@ export const exitRecomp: Port = {
   sources: ["https://github.com/FluffyQuack/ReXGlue-EXIT"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes: "A ReXGlue-based static recompilation of EXIT (Xbox 360). Requires your own copy.",
   notesEs: "Recompilación estática de EXIT (Xbox 360) basada en ReXGlue. Requiere tu propia copia.",
   cover: {

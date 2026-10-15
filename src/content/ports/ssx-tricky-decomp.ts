@@ -20,7 +20,7 @@ export const ssxTrickyDecomp: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   notes:
     "Matching decompilation of SSX Tricky. A research codebase; it requires game files from a copy you own.",
   notesEs:

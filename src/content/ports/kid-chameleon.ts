@@ -19,7 +19,7 @@ export const KidChameleon: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/75/Kid_Chameleon_Coverart.png",
     alt: "Kid Chameleon (box art)",

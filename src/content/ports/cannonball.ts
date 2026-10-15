@@ -18,7 +18,7 @@ export const cannonball: Port = {
   sources: ["https://github.com/djyt/cannonball"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Arcade",
+  originalSystems: ["Arcade"],
   notes:
     "CannonBall is an enhanced OutRun engine that runs the arcade game with 60 FPS, widescreen and new tracks. It needs the original OutRun ROM and builds for Windows, Linux and macOS.",
   notesEs:

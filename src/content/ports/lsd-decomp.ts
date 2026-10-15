@@ -20,7 +20,7 @@ export const lsdDecomp: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Decompilation of LSD: Dream Emulator for the PlayStation. A research codebase; it requires game files from a copy you own.",
   notesEs:

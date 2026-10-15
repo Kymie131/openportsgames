@@ -18,7 +18,7 @@ export const kingsFieldRecomp: Port = {
   sources: ["https://github.com/Voicedrew11/verdite1"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Native recompilation of King's Field (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:

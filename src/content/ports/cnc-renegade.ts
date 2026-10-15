@@ -18,7 +18,7 @@ export const cncRenegade: Port = {
   sources: ["https://github.com/electronicarts/CnC_Renegade"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Official source release of Command & Conquer: Renegade published by EA. It can be built on Windows and uses the retail game assets.",
   notesEs:

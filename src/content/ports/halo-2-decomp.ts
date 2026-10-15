@@ -20,7 +20,7 @@ export const halo2Decomp: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox",
+  originalSystems: ["Xbox"],
   notes:
     "Decompilation of Halo 2 for the original Xbox. A research codebase; it requires game files from a copy you own.",
   notesEs:

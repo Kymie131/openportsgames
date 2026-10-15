@@ -19,7 +19,7 @@ export const Playstunts: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes:
     "Native browser reconstruction of Stunts / 4D Sports Driving, with tools to build from your own original game files.",
   notesEs:

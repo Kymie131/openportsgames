@@ -18,7 +18,7 @@ export const streetFighterAlpha3Recomp: Port = {
   sources: ["https://github.com/TechnicallyComputers/Street-Fighter-Alpha-3-Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Static recompilation of Street Fighter Alpha 3 (PlayStation) built with the PSXRecomp toolkit. It requires a copy of the game.",
   notesEs:

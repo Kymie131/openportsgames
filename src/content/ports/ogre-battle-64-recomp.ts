@@ -20,7 +20,7 @@ export const ogreBattle64Recomp: Port = {
     note: "Repository ships no license file, so reuse rights are unstated.",
   },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   features: ["Keyboard-only play with optional XInput or SDL gamepad support"],
   featuresEs: ["Juego solo con teclado, con soporte opcional de mando XInput o SDL"],
   requirements: {

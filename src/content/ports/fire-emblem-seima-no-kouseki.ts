@@ -20,7 +20,7 @@ export const FireEmblemSeimaNoKouseki: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG",
     alt: "Fire Emblem: Seima no Kouseki (box art)",

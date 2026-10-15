@@ -19,7 +19,7 @@ export const LegoRacers: Port = {
   license: { spdx: "LGPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/91/Lego_Racers_cover.png",
     alt: "Lego Racers (cover)",

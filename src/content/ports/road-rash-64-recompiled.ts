@@ -18,7 +18,7 @@ export const roadRash64Recompiled: Port = {
   license: { spdx: "GPL-3.0" },
   verified: true,
   verifiedAt: "2026-10-14",
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   features: [
     "60 FPS presentation with a 30-240 FPS slider",
     "Widescreen 16:9 and 21:9 support with draw distance slider",
