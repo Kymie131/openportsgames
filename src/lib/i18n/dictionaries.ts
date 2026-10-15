@@ -115,6 +115,7 @@ const en = {
     showingRange: (from: number, to: number, total: number) =>
       `Showing ${from}–${to} of ${total} ports`,
     resultsHeading: "Catalog results",
+    sameRepo: "Same repository",
     pagination: "Pagination",
     previous: "Previous",
     next: "Next",
@@ -142,8 +143,11 @@ const en = {
   },
   detail: {
     backToCatalog: "Back to catalog",
+    breadcrumb: "Breadcrumb",
+    relatedTitle: "Other ports of the same console, technique or developer",
     overview: "Overview",
     originalSystem: "Original system",
+    region: "Region",
     technique: "Technique",
     status: "Status",
     license: "License",
@@ -165,6 +169,7 @@ const en = {
     noTests: "No tests yet.",
     aiLabel: "Declares AI use",
     aiSource: "Project statement",
+    imageCredit: "Image © its owner, shown only to identify the project.",
     unverifiedSource: "Source not verified by the team",
     verifiedSource: "Source verified by the team",
     indexSource: "Source: community index, no project repository",
@@ -198,6 +203,21 @@ const en = {
     tester: "Tester",
     noBadge: "A port only shows a badge when a registered test exists.",
   },
+  game: {
+    title: "Falling shapes",
+    subtitle:
+      "Drop shapes and merge two of the same kind into a bigger one. Reach the star and don't let the stack cross the line.",
+    score: "Score",
+    best: "Best",
+    next: "Next",
+    play: "Play",
+    restart: "Play again",
+    gameOver: "Game over",
+    gameOverBody: "The stack reached the top. Merge two equal shapes to make room.",
+    howTo: "Tap or click to drop a shape. Merge two equal shapes to make them grow.",
+    controls:
+      "PC: move the mouse and click, or use the arrow keys and the space bar. Mobile: drag and release.",
+  },
   brand: {
     tagline:
       "A community catalog of native game ports for PC and Android: decompilations, recompilations and engine rewrites.",
@@ -205,9 +225,9 @@ const en = {
   home: {
     browseCatalog: "Browse the catalog",
     eyebrow: "Native ports",
-    lead: "A catalog where we preserve video games, made by gamers for gamers.",
+    lead: "Native ports of classic games: decompilations, recompilations and engine rewrites that run on your own PC or phone, with no emulator.",
     leadSub:
-      "Every link goes to the project's page (repository, releases or website), never to game files. Entries with the verification mark were reviewed one by one.",
+      "Every entry links to the project's own page (repository, releases or website), never to game files. Entries with the verification mark were reviewed one by one against that source.",
     statsPorts: (count: number) => `${count} ports catalogued`,
     statsAndroid: (count: number) => `${count} for Android`,
     statsTested: (count: number) =>
@@ -216,7 +236,7 @@ const en = {
       count === 1 ? "1 with a verified source" : `${count} with a verified source`,
     featuredTitle: "Featured ports",
     featuredSubtitle:
-      "Games we won't let die, for posterity and for the love of the art of video games.",
+      "A few projects to start with: long-running, open source, with releases you can build from the project's own page.",
     latestTitle: "Latest releases",
     latestSubtitle:
       "The most recent versions added to the catalog, ordered by the project's own release date.",
@@ -240,7 +260,7 @@ const en = {
       "Projects keep their code public and release through their official channels.",
     principleOwn: "Your own copy",
     principleOwnDesc:
-      "A library of ports built for your device. You only need your copy of the game.",
+      "You bring the game; the project brings the engine. No port distributes the original files.",
     ctaTitle: "Missing a port?",
     ctaDesc:
       "You can propose a port by checking the requirements first and sending it from the Submit page.",
@@ -580,6 +600,7 @@ const es: Messages = {
     showingRange: (from: number, to: number, total: number) =>
       `Mostrando ${from}–${to} de ${total} ports`,
     resultsHeading: "Resultados del catálogo",
+    sameRepo: "Mismo repositorio",
     pagination: "Paginación",
     previous: "Anterior",
     next: "Siguiente",
@@ -607,8 +628,11 @@ const es: Messages = {
   },
   detail: {
     backToCatalog: "Volver al catálogo",
+    breadcrumb: "Ruta de navegación",
+    relatedTitle: "Otros ports de la misma consola, técnica o desarrollador",
     overview: "Resumen",
     originalSystem: "Sistema original",
+    region: "Región",
     technique: "Técnica",
     status: "Estado",
     license: "Licencia",
@@ -630,6 +654,7 @@ const es: Messages = {
     noTests: "Sin pruebas todavía.",
     aiLabel: "Declara uso de IA",
     aiSource: "Declaración del proyecto",
+    imageCredit: "Imagen © de su titular, mostrada solo para identificar el proyecto.",
     unverifiedSource: "Fuente sin verificar por el equipo",
     verifiedSource: "Fuente verificada por el equipo",
     indexSource: "Fuente: índice comunitario, sin repo del proyecto",
@@ -663,6 +688,21 @@ const es: Messages = {
     tester: "Probador",
     noBadge: "Un port solo muestra insignia si hay una prueba registrada.",
   },
+  game: {
+    title: "Figuras que caen",
+    subtitle:
+      "Deja caer figuras y junta dos iguales para formar una más grande. Llega a la estrella y no dejes que la torre pase la línea.",
+    score: "Puntos",
+    best: "Récord",
+    next: "Siguiente",
+    play: "Jugar",
+    restart: "Jugar de nuevo",
+    gameOver: "Fin del juego",
+    gameOverBody: "La torre llegó arriba. Junta dos figuras iguales para hacer sitio.",
+    howTo: "Toca o haz clic para soltar una figura. Junta dos iguales para que crezcan.",
+    controls:
+      "PC: mueve el ratón y haz clic, o usa las flechas y la barra espaciadora. Móvil: arrastra y suelta.",
+  },
   brand: {
     tagline:
       "Un catálogo comunitario de ports nativos de videojuegos para PC y Android: decompilaciones, recompilaciones y reescrituras de motor.",
@@ -670,9 +710,9 @@ const es: Messages = {
   home: {
     browseCatalog: "Explorar el catálogo",
     eyebrow: "Ports nativos",
-    lead: "Un catálogo donde preservamos los videojuegos, hecho por gamers para gamers.",
+    lead: "Ports nativos de juegos clásicos: decompilaciones, recompilaciones y reescrituras de motor que corren en tu propio PC o móvil, sin emulador.",
     leadSub:
-      "Cada enlace lleva a la página del proyecto (repositorio, releases o web), nunca a archivos de juegos. Las fichas con la marca de verificación se revisaron una por una.",
+      "Cada ficha enlaza a la página del propio proyecto (repositorio, releases o web), nunca a archivos del juego. Las fichas con la marca de verificación se revisaron una a una contra esa fuente.",
     statsPorts: (count: number) => `${count} ports en el catálogo`,
     statsAndroid: (count: number) => `${count} para Android`,
     statsTested: (count: number) =>
@@ -681,7 +721,7 @@ const es: Messages = {
       count === 1 ? "1 con fuente verificada" : `${count} con fuente verificada`,
     featuredTitle: "Ports destacados",
     featuredSubtitle:
-      "Juegos que no dejaremos morir, por la posteridad y el amor al arte de los videojuegos.",
+      "Algunos proyectos para empezar: de larga trayectoria, código abierto y con releases que puedes compilar desde su propia página.",
     latestTitle: "Últimas versiones",
     latestSubtitle:
       "Las versiones más recientes añadidas al catálogo, ordenadas por la fecha de publicación del propio proyecto.",
@@ -705,7 +745,7 @@ const es: Messages = {
       "Los proyectos mantienen su código público y publican por sus canales oficiales.",
     principleOwn: "Tu propia copia",
     principleOwnDesc:
-      "Una biblioteca de ports pensados para tu dispositivo. Solo necesitas tu copia del juego.",
+      "Tú aportas el juego; el proyecto aporta el motor. Ningún port distribuye los archivos originales.",
     ctaTitle: "¿Falta un port?",
     ctaDesc:
       "Puedes proponer un port revisando antes los requisitos y enviándolo desde la página Enviar.",

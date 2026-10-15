@@ -25,6 +25,8 @@ export const MarioAndLuigiBowsersInsideStory: Port = {
     alt: "Mario & Luigi: Bowser's Inside Story (box art)",
     credit: "Wikipedia",
   },
-  notes: "A work-in-progress matching decompilation of Mario & Luigi: Bowser's Inside Story (Nintendo DS).",
-  notesEs: "Decompilación que coincide de Mario & Luigi: Bowser's Inside Story (Nintendo DS), en desarrollo.",
+  notes:
+    "A work-in-progress matching decompilation of Mario & Luigi: Bowser's Inside Story (Nintendo DS).",
+  notesEs:
+    "Decompilación que coincide de Mario & Luigi: Bowser's Inside Story (Nintendo DS), en desarrollo.",
 };

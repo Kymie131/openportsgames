@@ -25,6 +25,8 @@ export const JurassicParkOperationGenesis: Port = {
     alt: "Jurassic Park: Operation Genesis (cover)",
     credit: "Wikipedia",
   },
-  notes: "Decompilation of Jurassic Park: Operation Genesis (JPOG) and the Toshi Engine version 1.0.",
-  notesEs: "Decompilación de Jurassic Park: Operation Genesis (JPOG) y del motor Toshi versión 1.0.",
+  notes:
+    "Decompilation of Jurassic Park: Operation Genesis (JPOG) and the Toshi Engine version 1.0.",
+  notesEs:
+    "Decompilación de Jurassic Park: Operation Genesis (JPOG) y del motor Toshi versión 1.0.",
 };

@@ -25,6 +25,8 @@ export const Spearmint: Port = {
     alt: "spearmint (cover)",
     credit: "Wikipedia",
   },
-  notes: "Spearmint — an updated id Tech 3 engine for continuing the classics and creating new games.",
-  notesEs: "Spearmint: un motor id Tech 3 actualizado para continuar los clásicos y crear juegos nuevos.",
+  notes:
+    "Spearmint — an updated id Tech 3 engine for continuing the classics and creating new games.",
+  notesEs:
+    "Spearmint: un motor id Tech 3 actualizado para continuar los clásicos y crear juegos nuevos.",
 };

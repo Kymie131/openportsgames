@@ -20,6 +20,6 @@ export const BombermanLandTouch2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo DS",
-  notes: "A reverse engineered implementation of \"Bomberman Land Touch 2\" for the Nintendo DS.",
+  notes: 'A reverse engineered implementation of "Bomberman Land Touch 2" for the Nintendo DS.',
   notesEs: "Reimplementación por ingeniería inversa de «Bomberman Land Touch 2» para Nintendo DS.",
 };

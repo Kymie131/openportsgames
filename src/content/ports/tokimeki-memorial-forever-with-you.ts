@@ -20,6 +20,8 @@ export const TokimekiMemorialForeverWithYou: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "PlayStation",
-  notes: "Matching decompilation of Tokimeki Memorial: Forever with You (PS1, Japan). Bring your own disc.",
-  notesEs: "Decompilación que coincide de Tokimeki Memorial: Forever with You (PS1, Japón). Aporta tu propio disco.",
+  notes:
+    "Matching decompilation of Tokimeki Memorial: Forever with You (PS1, Japan). Bring your own disc.",
+  notesEs:
+    "Decompilación que coincide de Tokimeki Memorial: Forever with You (PS1, Japón). Aporta tu propio disco.",
 };

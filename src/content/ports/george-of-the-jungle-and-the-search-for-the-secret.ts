@@ -25,6 +25,8 @@ export const GeorgeOfTheJungleAndTheSearchForTheSecret: Port = {
     alt: "George of the Jungle and the Search for the Secret (cover)",
     credit: "Wikipedia",
   },
-  notes: "Matching decompilation research for George of the Jungle and the Search for the Secret (USA, PS2).",
-  notesEs: "Investigación de decompilación exacta de George of the Jungle and the Search for the Secret (USA, PS2).",
+  notes:
+    "Matching decompilation research for George of the Jungle and the Search for the Secret (USA, PS2).",
+  notesEs:
+    "Investigación de decompilación exacta de George of the Jungle and the Search for the Secret (USA, PS2).",
 };

@@ -25,6 +25,7 @@ export const Creatures2: Port = {
     alt: "Creatures 2 (cover)",
     credit: "Wikipedia",
   },
-  notes: "The goal of this project is to reverse engineer Creatures 2 reproducing the 1:1 source code.",
+  notes:
+    "The goal of this project is to reverse engineer Creatures 2 reproducing the 1:1 source code.",
   notesEs: "El objetivo de este proyecto es reproducir el código fuente 1:1 de Creatures 2.",
 };

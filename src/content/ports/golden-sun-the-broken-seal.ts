@@ -26,5 +26,6 @@ export const GoldenSunTheBrokenSeal: Port = {
     credit: "Wikipedia",
   },
   notes: "Work-in-progress decompilation of Golden Sun (GBA, 2001). Builds a byte-identical ROM.",
-  notesEs: "Decompilación de Golden Sun (GBA, 2001), en desarrollo. Genera una ROM idéntica byte a byte.",
+  notesEs:
+    "Decompilación de Golden Sun (GBA, 2001), en desarrollo. Genera una ROM idéntica byte a byte.",
 };

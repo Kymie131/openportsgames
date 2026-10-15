@@ -20,6 +20,8 @@ export const RatchetAndClankGoingCommandoUsaV101: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
-  notes: "Going Commando USA v1.01: byte-exact reconstruction tools and native-port research. No game assets.",
-  notesEs: "Going Commando USA v1.01: herramientas de reconstrucción byte a byte e investigación de port nativo. Sin recursos del juego.",
+  notes:
+    "Going Commando USA v1.01: byte-exact reconstruction tools and native-port research. No game assets.",
+  notesEs:
+    "Going Commando USA v1.01: herramientas de reconstrucción byte a byte e investigación de port nativo. Sin recursos del juego.",
 };

@@ -9,6 +9,7 @@ export const minishCap: Port = {
   publisher: "Nintendo",
   originalYear: 2004,
   portType: "decompilation",
+  type: "decomp-in-progress",
   genre: "action-adventure",
   openSource: true,
   platforms: ["windows", "linux", "macos"],

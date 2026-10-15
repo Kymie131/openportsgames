@@ -9,6 +9,7 @@ export const ootGcDecomp: Port = {
   publisher: "Nintendo",
   originalYear: 1998,
   portType: "decompilation",
+  type: "decomp-in-progress",
   genre: "action-adventure",
   openSource: true,
   originalGameLicense: "proprietary",

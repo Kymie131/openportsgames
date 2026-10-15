@@ -25,6 +25,8 @@ export const BattleCity: Port = {
     alt: "Battle City (cover)",
     credit: "Wikipedia",
   },
-  notes: "Reverse engineering Battle City (Famicom, 1985) — annotated 6502 disassembly + browser reimplementation.",
-  notesEs: "Ingeniería inversa de Battle City (Famicom, 1985): desensamblado 6502 anotado y reimplementación para navegador.",
+  notes:
+    "Reverse engineering Battle City (Famicom, 1985) — annotated 6502 disassembly + browser reimplementation.",
+  notesEs:
+    "Ingeniería inversa de Battle City (Famicom, 1985): desensamblado 6502 anotado y reimplementación para navegador.",
 };

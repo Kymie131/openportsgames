@@ -25,6 +25,8 @@ export const TheSimsBustinOut: Port = {
     alt: "The Sims: Bustin' Out (box art)",
     credit: "Wikipedia",
   },
-  notes: "A WIP disassembly/decompilation project of The Sims: Bustin' Out on the Game Boy Advance.",
-  notesEs: "Proyecto de desensamblado/decompilación de The Sims: Bustin' Out para Game Boy Advance, en desarrollo.",
+  notes:
+    "A WIP disassembly/decompilation project of The Sims: Bustin' Out on the Game Boy Advance.",
+  notesEs:
+    "Proyecto de desensamblado/decompilación de The Sims: Bustin' Out para Game Boy Advance, en desarrollo.",
 };

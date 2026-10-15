@@ -25,6 +25,7 @@ export const ShiningForce: Port = {
     alt: "Shining Force (box art)",
     credit: "Wikipedia",
   },
-  notes: "A disassembly of the game \"Shining Force\" for documentation and fan-project purposes.",
-  notesEs: "Desensamblado del juego «Shining Force» con fines de documentación y proyectos de fans.",
+  notes: 'A disassembly of the game "Shining Force" for documentation and fan-project purposes.',
+  notesEs:
+    "Desensamblado del juego «Shining Force» con fines de documentación y proyectos de fans.",
 };

@@ -20,6 +20,6 @@ export const TheJourneymanProjectTurbo: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
-  notes: "Decompilation of \"The Journeyman Project Turbo!\" (1994).",
+  notes: 'Decompilation of "The Journeyman Project Turbo!" (1994).',
   notesEs: "Decompilación de «The Journeyman Project Turbo!» (1994).",
 };

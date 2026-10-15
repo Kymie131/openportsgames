@@ -25,6 +25,8 @@ export const LegoStarWarsIiiTheCloneWars: Port = {
     alt: "Lego Star Wars III: The Clone Wars (box art)",
     credit: "Box art",
   },
-  notes: "A decompilation of Lego Star Wars III: The Clone Wars on Wii brought to you by a bunch of clever folks.",
-  notesEs: "Una decompilación de Lego Star Wars III: The Clone Wars de Wii creada por un grupo de personas habilidosas.",
+  notes:
+    "A decompilation of Lego Star Wars III: The Clone Wars on Wii brought to you by a bunch of clever folks.",
+  notesEs:
+    "Una decompilación de Lego Star Wars III: The Clone Wars de Wii creada por un grupo de personas habilidosas.",
 };

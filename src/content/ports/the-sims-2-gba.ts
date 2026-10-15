@@ -21,5 +21,6 @@ export const TheSims2Gba: Port = {
   sourceVerified: true,
   originalSystem: "Game Boy Advance",
   notes: "A WIP disassembly/decompilation project of The Sims 2 on the Game Boy Advance.",
-  notesEs: "Proyecto de desensamblado/decompilación de The Sims 2 para Game Boy Advance, en desarrollo.",
+  notesEs:
+    "Proyecto de desensamblado/decompilación de The Sims 2 para Game Boy Advance, en desarrollo.",
 };

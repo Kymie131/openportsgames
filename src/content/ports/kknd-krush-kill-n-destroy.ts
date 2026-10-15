@@ -25,6 +25,8 @@ export const KkndKrushKillNDestroy: Port = {
     alt: "KKND: Krush Kill 'n Destroy (box art)",
     credit: "Box art",
   },
-  notes: "Matching decompilation of KKND: Krush Kill 'n Destroy (DOS, 1997) - Watcom C, byte-identical rebuild.",
-  notesEs: "Decompilación que coincide de KKND: Krush Kill 'n Destroy (DOS, 1997), en Watcom C, reconstrucción byte a byte.",
+  notes:
+    "Matching decompilation of KKND: Krush Kill 'n Destroy (DOS, 1997) - Watcom C, byte-identical rebuild.",
+  notesEs:
+    "Decompilación que coincide de KKND: Krush Kill 'n Destroy (DOS, 1997), en Watcom C, reconstrucción byte a byte.",
 };

@@ -25,6 +25,6 @@ export const AnotherMind: Port = {
     alt: "Another Mind (box art)",
     credit: "Wikipedia",
   },
-  notes: "Decompiliation of Squaresoft's visual novel \"Another Mind\".",
+  notes: 'Decompiliation of Squaresoft\'s visual novel "Another Mind".',
   notesEs: "Decompilación de la novela visual de Squaresoft «Another Mind».",
 };

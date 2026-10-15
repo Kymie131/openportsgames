@@ -20,6 +20,8 @@ export const Serioussamalpharemake: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
-  notes: "Serious Sam Alpha Remake open source project based on https://github.com/Croteam-official/Serious-Engine and linux port https://github.com/icculus/Serious-Engine. Zdzichu official repo: https://github.com/GrlPwr-Zdzichu/SeriousSamAlphaRemake-Legacy.",
-  notesEs: "Proyecto de código abierto Serious Sam Alpha Remake, basado en Serious Engine de Croteam y en su port a Linux de icculus. El repositorio oficial lo mantiene GrlPwr-Zdzichu con una versión legacy.",
+  notes:
+    "Serious Sam Alpha Remake open source project based on https://github.com/Croteam-official/Serious-Engine and linux port https://github.com/icculus/Serious-Engine. Zdzichu official repo: https://github.com/GrlPwr-Zdzichu/SeriousSamAlphaRemake-Legacy.",
+  notesEs:
+    "Proyecto de código abierto Serious Sam Alpha Remake, basado en Serious Engine de Croteam y en su port a Linux de icculus. El repositorio oficial lo mantiene GrlPwr-Zdzichu con una versión legacy.",
 };

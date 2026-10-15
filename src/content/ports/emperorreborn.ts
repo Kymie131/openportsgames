@@ -20,6 +20,8 @@ export const Emperorreborn: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
-  notes: "Play Emperor: Battle for Dune on Windows 10 and 11 with real 16:9 widescreen, fullscreen and working multiplayer. Free, open-source launcher and patcher for the Westwood Dune RTS.",
-  notesEs: "Juega a Emperor: Battle for Dune en Windows 10 y 11 con 16:9 real, pantalla completa y multijugador funcional. Lanzador y parche de código abierto para el RTS Dune de Westwood.",
+  notes:
+    "Play Emperor: Battle for Dune on Windows 10 and 11 with real 16:9 widescreen, fullscreen and working multiplayer. Free, open-source launcher and patcher for the Westwood Dune RTS.",
+  notesEs:
+    "Juega a Emperor: Battle for Dune en Windows 10 y 11 con 16:9 real, pantalla completa y multijugador funcional. Lanzador y parche de código abierto para el RTS Dune de Westwood.",
 };

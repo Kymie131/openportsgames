@@ -20,6 +20,8 @@ export const Idtech4aHarmattanEdition: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
-  notes: "DOOM III/Quake 4/Prey(2006) GLES on Android/Windows/Linux, DOOM 3 BFG/The Dark Mod/RTCW/Quake 1 2 3/GZDOOM/ETW/RealRTCW/OpenJK/SeriousSam/Skin Deep/Quadrilateral Cowboy/Icarus Starship Command Simulator on Android.",
-  notesEs: "DOOM III/Quake 4/Prey (2006) GLES en Android/Windows/Linux, y DOOM 3 BFG/The Dark Mod/RTCW/Quake 1 2 3/GZDoom/ETW/RealRTCW/OpenJK/Serious Sam/Skin Deep/Quadrilateral Cowboy/Icarus en Android.",
+  notes:
+    "DOOM III/Quake 4/Prey(2006) GLES on Android/Windows/Linux, DOOM 3 BFG/The Dark Mod/RTCW/Quake 1 2 3/GZDOOM/ETW/RealRTCW/OpenJK/SeriousSam/Skin Deep/Quadrilateral Cowboy/Icarus Starship Command Simulator on Android.",
+  notesEs:
+    "DOOM III/Quake 4/Prey (2006) GLES en Android/Windows/Linux, y DOOM 3 BFG/The Dark Mod/RTCW/Quake 1 2 3/GZDoom/ETW/RealRTCW/OpenJK/Serious Sam/Skin Deep/Quadrilateral Cowboy/Icarus en Android.",
 };

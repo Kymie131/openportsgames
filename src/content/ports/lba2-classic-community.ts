@@ -20,6 +20,8 @@ export const Lba2ClassicCommunity: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
-  notes: "Community-maintained source port of the original Little Big Adventure 2 (Twinsen’s Odyssey) engine.",
-  notesEs: "Port del código fuente del motor original de Little Big Adventure 2 (Twinsen's Odyssey) mantenido por la comunidad.",
+  notes:
+    "Community-maintained source port of the original Little Big Adventure 2 (Twinsen’s Odyssey) engine.",
+  notesEs:
+    "Port del código fuente del motor original de Little Big Adventure 2 (Twinsen's Odyssey) mantenido por la comunidad.",
 };

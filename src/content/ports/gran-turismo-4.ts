@@ -25,6 +25,8 @@ export const GranTurismo4: Port = {
     alt: "Gran Turismo 4 (box art)",
     credit: "Box art",
   },
-  notes: "Matching decompilation of the Gran Turismo 4 (PS2) engine, AI-assisted. No game data included.",
-  notesEs: "Decompilación que coincide del motor de Gran Turismo 4 (PS2), asistida por IA. No incluye datos del juego.",
+  notes:
+    "Matching decompilation of the Gran Turismo 4 (PS2) engine, AI-assisted. No game data included.",
+  notesEs:
+    "Decompilación que coincide del motor de Gran Turismo 4 (PS2), asistida por IA. No incluye datos del juego.",
 };

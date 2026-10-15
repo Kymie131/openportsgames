@@ -20,8 +20,10 @@ export const dishsoap: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Xbox 360",
-  notes: "Community Android port of The Dishwasher: Dead Samurai (Xbox 360). It needs the original game.",
-  notesEs: "Port comunitario para Android de The Dishwasher: Dead Samurai (Xbox 360). Necesita el juego original.",
+  notes:
+    "Community Android port of The Dishwasher: Dead Samurai (Xbox 360). It needs the original game.",
+  notesEs:
+    "Port comunitario para Android de The Dishwasher: Dead Samurai (Xbox 360). Necesita el juego original.",
   cover: {
     src: "https://raw.githubusercontent.com/Hdmaniak/DishSoap/refs/heads/master/docs/assets/icon-512.png",
     alt: "The Dishwasher: Dead Samurai (cover)",

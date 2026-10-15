@@ -25,6 +25,8 @@ export const Sonic3AndKnuckles: Port = {
     alt: "Sonic 3 & Knuckles (box art)",
     credit: "Wikipedia",
   },
-  notes: "Sonic 3 & Knuckles recompiled for the Sega Genesis using segagenesisrecomp · Part of the R.A.I.D. community.",
-  notesEs: "Sonic 3 & Knuckles recompilado para Sega Genesis con segagenesisrecomp, parte de la comunidad R.A.I.D.",
+  notes:
+    "Sonic 3 & Knuckles recompiled for the Sega Genesis using segagenesisrecomp · Part of the R.A.I.D. community.",
+  notesEs:
+    "Sonic 3 & Knuckles recompilado para Sega Genesis con segagenesisrecomp, parte de la comunidad R.A.I.D.",
 };

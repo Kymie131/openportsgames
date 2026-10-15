@@ -9,6 +9,7 @@ export const ReracLauncher: Port = {
   publisher: "Unknown",
   originalYear: 2000,
   portType: "source-port",
+  type: "tool",
   genre: "action-adventure",
   openSource: true,
   originalGameLicense: "proprietary",

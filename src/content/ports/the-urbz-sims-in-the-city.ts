@@ -25,6 +25,8 @@ export const TheUrbzSimsInTheCity: Port = {
     alt: "The Urbz: Sims in the City (box art)",
     credit: "Wikipedia",
   },
-  notes: "A WIP disassembly/decompilation project of The Urbz: Sims in the City on the Game Boy Advance.",
-  notesEs: "Proyecto de desensamblado/decompilación de The Urbz: Sims in the City para Game Boy Advance, en desarrollo.",
+  notes:
+    "A WIP disassembly/decompilation project of The Urbz: Sims in the City on the Game Boy Advance.",
+  notesEs:
+    "Proyecto de desensamblado/decompilación de The Urbz: Sims in the City para Game Boy Advance, en desarrollo.",
 };

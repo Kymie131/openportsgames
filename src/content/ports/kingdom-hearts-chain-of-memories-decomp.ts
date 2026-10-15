@@ -9,6 +9,7 @@ export const kingdomHeartsChainOfMemoriesDecomp: Port = {
   publisher: "Square Enix",
   originalYear: 2004,
   portType: "decompilation",
+  type: "decomp-in-progress",
   genre: "rpg",
   openSource: true,
   originalGameLicense: "proprietary",

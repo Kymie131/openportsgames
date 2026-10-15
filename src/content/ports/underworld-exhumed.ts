@@ -20,6 +20,8 @@ export const UnderworldExhumed: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
-  notes: "Underworld Exhumed: Ultima Underworld I and II as byte-matching source code and native ports for macOS, Windows and Linux.",
-  notesEs: "Underworld Exhumed: Ultima Underworld I y II como código fuente byte a byte y ports nativos para macOS, Windows y Linux.",
+  notes:
+    "Underworld Exhumed: Ultima Underworld I and II as byte-matching source code and native ports for macOS, Windows and Linux.",
+  notesEs:
+    "Underworld Exhumed: Ultima Underworld I y II como código fuente byte a byte y ports nativos para macOS, Windows y Linux.",
 };

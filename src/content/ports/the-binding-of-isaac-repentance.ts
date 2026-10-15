@@ -20,6 +20,8 @@ export const TheBindingOfIsaacRepentance: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
-  notes: "PS Vita port of The Binding of Isaac: Repentance by static recompilation of the PC executable to ARM.",
-  notesEs: "Port a PS Vita de The Binding of Isaac: Repentance mediante recompilación estática del ejecutable de PC a ARM.",
+  notes:
+    "PS Vita port of The Binding of Isaac: Repentance by static recompilation of the PC executable to ARM.",
+  notesEs:
+    "Port a PS Vita de The Binding of Isaac: Repentance mediante recompilación estática del ejecutable de PC a ARM.",
 };

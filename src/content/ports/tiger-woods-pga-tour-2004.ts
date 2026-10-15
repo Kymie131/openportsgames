@@ -26,5 +26,6 @@ export const TigerWoodsPgaTour2004: Port = {
     credit: "Box art",
   },
   notes: "Decompilation and asset research for Tiger Woods PGA Tour 2004 (GameCube, GW4E69).",
-  notesEs: "Decompilación e investigación de recursos de Tiger Woods PGA Tour 2004 (GameCube, GW4E69).",
+  notesEs:
+    "Decompilación e investigación de recursos de Tiger Woods PGA Tour 2004 (GameCube, GW4E69).",
 };

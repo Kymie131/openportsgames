@@ -25,6 +25,8 @@ export const TouristTrophy: Port = {
     alt: "Tourist Trophy (box art)",
     credit: "Box art",
   },
-  notes: "Matching decompilation of Tourist Trophy (PS2), sister project of the Gran Turismo 4 decompilation.",
-  notesEs: "Decompilación que coincide de Tourist Trophy (PS2), proyecto hermano del de Gran Turismo 4.",
+  notes:
+    "Matching decompilation of Tourist Trophy (PS2), sister project of the Gran Turismo 4 decompilation.",
+  notesEs:
+    "Decompilación que coincide de Tourist Trophy (PS2), proyecto hermano del de Gran Turismo 4.",
 };

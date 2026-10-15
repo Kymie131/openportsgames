@@ -25,6 +25,8 @@ export const SuperMarioLand3WarioLand: Port = {
     alt: "Super Mario Land 3: Wario Land (box art)",
     credit: "Wikipedia",
   },
-  notes: "A fan-made recompilation of Super Mario Land 3: Wario Land for modern systems. Requires the user to provide their own legally obtained ROM. No copyrighted ROM or Nintendo assets are included. Supports fullscreen with Alt+Enter. Nintendo retains all rights. Switch 2 support may be considered where possible.",
-  notesEs: "Recompilación hecha por fans de Super Mario Land 3: Wario Land para sistemas modernos. Requiere que el usuario aporte su propia ROM obtenida legalmente. No incluye ROM ni recursos de Nintendo.",
+  notes:
+    "A fan-made recompilation of Super Mario Land 3: Wario Land for modern systems. Requires the user to provide their own legally obtained ROM. No copyrighted ROM or Nintendo assets are included. Supports fullscreen with Alt+Enter. Nintendo retains all rights. Switch 2 support may be considered where possible.",
+  notesEs:
+    "Recompilación hecha por fans de Super Mario Land 3: Wario Land para sistemas modernos. Requiere que el usuario aporte su propia ROM obtenida legalmente. No incluye ROM ni recursos de Nintendo.",
 };

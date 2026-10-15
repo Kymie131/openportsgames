@@ -9,6 +9,7 @@ export const Openomf: Port = {
   publisher: "Unknown",
   originalYear: 2000,
   portType: "reimplementation",
+  type: "playable-port",
   genre: "action-adventure",
   openSource: true,
   originalGameLicense: "proprietary",

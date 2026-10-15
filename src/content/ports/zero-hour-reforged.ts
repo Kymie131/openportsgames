@@ -20,6 +20,8 @@ export const ZeroHourReforged: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
-  notes: "Zero Hour rebuilt from EA's source: x64, Direct3D 11, VS2022/CMake, ~60 original bugs fixed, an AI that builds a base. Bring your own game.",
-  notesEs: "Zero Hour reconstruido desde el código de EA: x64, Direct3D 11, VS2022/CMake, ~60 errores corregidos y una IA que construye base. Aporta tu propio juego.",
+  notes:
+    "Zero Hour rebuilt from EA's source: x64, Direct3D 11, VS2022/CMake, ~60 original bugs fixed, an AI that builds a base. Bring your own game.",
+  notesEs:
+    "Zero Hour reconstruido desde el código de EA: x64, Direct3D 11, VS2022/CMake, ~60 errores corregidos y una IA que construye base. Aporta tu propio juego.",
 };

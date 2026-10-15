@@ -9,6 +9,7 @@ export const pokered: Port = {
   publisher: "Nintendo",
   originalYear: 1996,
   portType: "decompilation",
+  type: "decomp-in-progress",
   genre: "rpg",
   openSource: true,
   platforms: ["windows", "linux", "macos"],

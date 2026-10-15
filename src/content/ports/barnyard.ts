@@ -25,6 +25,8 @@ export const Barnyard: Port = {
     alt: "Barnyard (cover)",
     credit: "Wikipedia",
   },
-  notes: "Decompilation of Barnyard the video game and TOSHI 2.0 game engine developed by Blue Tongue Entertainment.",
-  notesEs: "Decompilación del videojuego Barnyard y del motor TOSHI 2.0 de Blue Tongue Entertainment.",
+  notes:
+    "Decompilation of Barnyard the video game and TOSHI 2.0 game engine developed by Blue Tongue Entertainment.",
+  notesEs:
+    "Decompilación del videojuego Barnyard y del motor TOSHI 2.0 de Blue Tongue Entertainment.",
 };

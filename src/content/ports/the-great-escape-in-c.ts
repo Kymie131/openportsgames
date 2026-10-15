@@ -20,6 +20,6 @@ export const TheGreatEscapeInC: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
-  notes: "Classic ZX Spectrum game \"The Great Escape\" rewritten in portable C.",
+  notes: 'Classic ZX Spectrum game "The Great Escape" rewritten in portable C.',
   notesEs: "Clásico de ZX Spectrum «The Great Escape» reescrito en C portable.",
 };

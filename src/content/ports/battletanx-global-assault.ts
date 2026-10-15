@@ -25,6 +25,8 @@ export const BattletanxGlobalAssault: Port = {
     alt: "BattleTanx: Global Assault (box art)",
     credit: "Box art",
   },
-  notes: "100% matching decompilation of BattleTanx: Global Assault (N64, USA Rev 0) — foundation for VitaTanxGA.",
-  notesEs: "Decompilación 100% exacta de BattleTanx: Global Assault (N64, USA Rev 0), base de VitaTanxGA.",
+  notes:
+    "100% matching decompilation of BattleTanx: Global Assault (N64, USA Rev 0) — foundation for VitaTanxGA.",
+  notesEs:
+    "Decompilación 100% exacta de BattleTanx: Global Assault (N64, USA Rev 0), base de VitaTanxGA.",
 };

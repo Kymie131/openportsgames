@@ -26,5 +26,6 @@ export const ArTonelicoIiMelodyOfMetafalica: Port = {
     credit: "Wikipedia",
   },
   notes: "Ar tonelico II: Melody of Metafalica — matching decompilation (SLPS_258.19).",
-  notesEs: "Decompilación que coincide byte a byte de Ar tonelico II: Melody of Metafalica (SLPS_258.19).",
+  notesEs:
+    "Decompilación que coincide byte a byte de Ar tonelico II: Melody of Metafalica (SLPS_258.19).",
 };

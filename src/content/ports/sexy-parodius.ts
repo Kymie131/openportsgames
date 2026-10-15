@@ -26,5 +26,6 @@ export const SexyParodius: Port = {
     credit: "Wikipedia",
   },
   notes: "Owned-input Windows x86-64 PSXRecomp project for Sexy Parodius (Japan, SLPM-86009).",
-  notesEs: "Proyecto PSXRecomp para Windows x86-64 con entrada propia de Sexy Parodius (Japón, SLPM-86009).",
+  notesEs:
+    "Proyecto PSXRecomp para Windows x86-64 con entrada propia de Sexy Parodius (Japón, SLPM-86009).",
 };

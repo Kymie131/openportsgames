@@ -9,6 +9,7 @@ export const ssxTrickyDecomp: Port = {
   publisher: "Electronic Arts",
   originalYear: 2001,
   portType: "decompilation",
+  type: "decomp-in-progress",
   genre: "sports",
   openSource: true,
   originalGameLicense: "proprietary",

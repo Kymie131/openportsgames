@@ -20,8 +20,10 @@ export const strikers: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "GameCube",
-  notes: "Super Mario Strikers ported to PC, macOS, Linux and Nintendo Switch from its decompiled code (not a recompilation). Requires your own game.",
-  notesEs: "Super Mario Strikers portado a PC, macOS, Linux y Nintendo Switch desde su código decompilado (no es una recompilación). Requiere tu propio juego.",
+  notes:
+    "Super Mario Strikers ported to PC, macOS, Linux and Nintendo Switch from its decompiled code (not a recompilation). Requires your own game.",
+  notesEs:
+    "Super Mario Strikers portado a PC, macOS, Linux y Nintendo Switch desde su código decompilado (no es una recompilación). Requiere tu propio juego.",
   cover: {
     src: "https://raw.githubusercontent.com/new-coke/strikers/refs/heads/main/smstrikers-port/assets/icon/strikers.ico",
     alt: "Super Mario Strikers (cover)",

@@ -26,5 +26,6 @@ export const MortalKombatVsDcUniverse: Port = {
     credit: "Wikipedia",
   },
   notes: "An unofficial port of Mortal Kombat vs. DC Universe to PC (More platforms coming).",
-  notesEs: "Un port no oficial de Mortal Kombat vs. DC Universe a PC (más plataformas próximamente).",
+  notesEs:
+    "Un port no oficial de Mortal Kombat vs. DC Universe a PC (más plataformas próximamente).",
 };

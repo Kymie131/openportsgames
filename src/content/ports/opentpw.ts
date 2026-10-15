@@ -21,5 +21,6 @@ export const Opentpw: Port = {
   sourceVerified: true,
   originalSystem: "Other",
   notes: "An open-source re-implementation of Bullfrog's Sim Theme Park / Theme Park World (1999).",
-  notesEs: "Reimplementación de código abierto de Sim Theme Park / Theme Park World (1999) de Bullfrog.",
+  notesEs:
+    "Reimplementación de código abierto de Sim Theme Park / Theme Park World (1999) de Bullfrog.",
 };

@@ -9,6 +9,7 @@ export const BurnoutParadiseB5Decomp: Port = {
   publisher: "Unknown",
   originalYear: 2000,
   portType: "decompilation",
+  type: "decomp-in-progress",
   genre: "action-adventure",
   openSource: true,
   originalGameLicense: "proprietary",

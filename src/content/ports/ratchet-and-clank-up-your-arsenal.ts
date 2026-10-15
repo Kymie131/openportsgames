@@ -26,5 +26,6 @@ export const RatchetAndClankUpYourArsenal: Port = {
     credit: "Wikipedia",
   },
   notes: "Ratchet & Clank 3: Up Your Arsenal PS2 C Source Code Decompilation Project.",
-  notesEs: "Proyecto de decompilación a código C del PlayStation 2 de Ratchet & Clank 3: Up Your Arsenal.",
+  notesEs:
+    "Proyecto de decompilación a código C del PlayStation 2 de Ratchet & Clank 3: Up Your Arsenal.",
 };

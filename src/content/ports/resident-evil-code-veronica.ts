@@ -25,6 +25,8 @@ export const ResidentEvilCodeVeronica: Port = {
     alt: "Resident Evil - Code: Veronica (box art)",
     credit: "Wikipedia",
   },
-  notes: "Decompilation project of Resident Evil - Code: Veronica (DC) which aims to reconstruct the source code of the game.",
-  notesEs: "Proyecto de decompilación de Resident Evil - Code: Veronica (DC) que busca reconstruir el código fuente.",
+  notes:
+    "Decompilation project of Resident Evil - Code: Veronica (DC) which aims to reconstruct the source code of the game.",
+  notesEs:
+    "Proyecto de decompilación de Resident Evil - Code: Veronica (DC) que busca reconstruir el código fuente.",
 };

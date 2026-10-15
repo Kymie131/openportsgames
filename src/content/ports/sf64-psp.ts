@@ -20,8 +20,10 @@ export const sf64Psp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo 64",
-  notes: "Port of Star Fox 64 to the PlayStation Portable, based on the decompilation. Requires your own ROM.",
-  notesEs: "Port de Star Fox 64 a la PlayStation Portable, basado en la decompilación. Requiere tu propia ROM.",
+  notes:
+    "Port of Star Fox 64 to the PlayStation Portable, based on the decompilation. Requires your own ROM.",
+  notesEs:
+    "Port de Star Fox 64 a la PlayStation Portable, basado en la decompilación. Requiere tu propia ROM.",
   cover: {
     src: "https://cdn2.steamgriddb.com/icon_thumb/2b962f0b627cf45414b498eb963dde7d.png",
     alt: "Star Fox 64 (cover)",

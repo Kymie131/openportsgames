@@ -9,6 +9,7 @@ export const breathOfTheWildDecomp: Port = {
   publisher: "Nintendo",
   originalYear: 2017,
   portType: "decompilation",
+  type: "decomp-in-progress",
   genre: "action-adventure",
   openSource: true,
   originalGameLicense: "proprietary",

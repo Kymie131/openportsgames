@@ -20,6 +20,8 @@ export const SerioussamclassicVk: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
-  notes: "Open source game engine version developed by Croteam for Serious Sam Classic with Vulkan support (Windows, Linux, FreeBSD, OpenBSD, macOS, Raspberry Pi OS). Based on https://github.com/sultim-t/Serious-Engine-Vk and linux port https://github.com/icculus/Serious-Engine.",
-  notesEs: "Versión del motor de código abierto de Croteam para Serious Sam Classic con soporte Vulkan (Windows, Linux, FreeBSD, OpenBSD, macOS y Raspberry Pi OS). Basado en Serious-Engine-Vk y en el port a Linux de icculus.",
+  notes:
+    "Open source game engine version developed by Croteam for Serious Sam Classic with Vulkan support (Windows, Linux, FreeBSD, OpenBSD, macOS, Raspberry Pi OS). Based on https://github.com/sultim-t/Serious-Engine-Vk and linux port https://github.com/icculus/Serious-Engine.",
+  notesEs:
+    "Versión del motor de código abierto de Croteam para Serious Sam Classic con soporte Vulkan (Windows, Linux, FreeBSD, OpenBSD, macOS y Raspberry Pi OS). Basado en Serious-Engine-Vk y en el port a Linux de icculus.",
 };

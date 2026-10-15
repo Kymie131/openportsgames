@@ -20,8 +20,10 @@ export const scdaXbeRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Xbox",
-  notes: "Unofficial PC port of the original Xbox version of Splinter Cell: Double Agent via static recompilation. Needs your own game files.",
-  notesEs: "Port no oficial para PC de la versión de Xbox original de Splinter Cell: Double Agent mediante recompilación estática. Necesita tus propios archivos del juego.",
+  notes:
+    "Unofficial PC port of the original Xbox version of Splinter Cell: Double Agent via static recompilation. Needs your own game files.",
+  notesEs:
+    "Port no oficial para PC de la versión de Xbox original de Splinter Cell: Double Agent mediante recompilación estática. Necesita tus propios archivos del juego.",
   cover: {
     src: "https://cdn2.steamgriddb.com/icon/6775a0635c302542da2c32aa19d86be0/32/256x256.png",
     alt: "Tom Clancy's Splinter Cell: Double Agent (cover)",

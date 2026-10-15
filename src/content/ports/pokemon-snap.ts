@@ -25,6 +25,7 @@ export const PokemonSnap: Port = {
     alt: "Pokemon Snap (box art)",
     credit: "Box art",
   },
-  notes: "Static recompilation of Pokémon Snap (N64, 1999) for PC platforms (Windows, Linux, macOS).",
+  notes:
+    "Static recompilation of Pokémon Snap (N64, 1999) for PC platforms (Windows, Linux, macOS).",
   notesEs: "Recompilación estática de Pokémon Snap (N64, 1999) para PC (Windows, Linux, macOS).",
 };

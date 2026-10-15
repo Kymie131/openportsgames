@@ -25,7 +25,8 @@ export const bloodborneAndroid: Port = {
   notesEs:
     "Port experimental para Android de Bloodborne (PS4, CUSA03173 v1.09) para dispositivos Snapdragon, basado en el proyecto bbport. El runtime y el renderizador corren de forma nativa en ARM64, mientras el código x86-64 original del juego se traduce en tiempo real con FEXCore. Arranca, carga partidas y renderiza bien, pero sigue siendo una alfa. Requiere tu propia copia descifrada de Bloodborne actualizada a la v1.09.",
   requirements: {
-    minimum: "Android 9 or newer with a Snapdragon 8 Gen 2 / 8 Elite class SoC, Vulkan and 4 KB memory pages.",
+    minimum:
+      "Android 9 or newer with a Snapdragon 8 Gen 2 / 8 Elite class SoC, Vulkan and 4 KB memory pages.",
   },
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",

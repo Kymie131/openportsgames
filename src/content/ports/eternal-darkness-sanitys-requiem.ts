@@ -25,6 +25,7 @@ export const EternalDarknessSanitysRequiem: Port = {
     alt: "Eternal Darkness: Sanity's Requiem (box art)",
     credit: "Wikipedia",
   },
-  notes: "Matching decompilation of Eternal Darkness: Sanity's Requiem (GEDE01) — dtk/objdiff pipeline.",
+  notes:
+    "Matching decompilation of Eternal Darkness: Sanity's Requiem (GEDE01) — dtk/objdiff pipeline.",
   notesEs: "Decompilación que coincide de Eternal Darkness: Sanity's Requiem (GEDE01).",
 };

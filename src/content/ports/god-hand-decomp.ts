@@ -9,6 +9,7 @@ export const godHandDecomp: Port = {
   publisher: "Capcom",
   originalYear: 2006,
   portType: "decompilation",
+  type: "decomp-in-progress",
   genre: "action-adventure",
   openSource: true,
   originalGameLicense: "proprietary",

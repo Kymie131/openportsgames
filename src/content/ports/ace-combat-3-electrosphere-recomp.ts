@@ -19,6 +19,7 @@ export const aceCombat3ElectrosphereRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystem: "PlayStation",
+  region: "Japan",
   notes:
     "Recompilation of Ace Combat 3: Electrosphere (PS1, Japan SLPS-02020 / SLPS-02021) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

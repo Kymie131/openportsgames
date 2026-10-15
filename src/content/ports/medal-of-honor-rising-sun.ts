@@ -25,6 +25,7 @@ export const MedalOfHonorRisingSun: Port = {
     alt: "Medal of Honor: Rising Sun (box art)",
     credit: "Box art",
   },
-  notes: "Matching decompilation of Medal of Honor: Rising Sun (GameCube, USA / GR8E69). AI-assisted contributors welcome.",
+  notes:
+    "Matching decompilation of Medal of Honor: Rising Sun (GameCube, USA / GR8E69). AI-assisted contributors welcome.",
   notesEs: "Decompilación que coincide de Medal of Honor: Rising Sun (GameCube, USA / GR8E69).",
 };

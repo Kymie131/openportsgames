@@ -25,6 +25,8 @@ export const Freeciv: Port = {
     alt: "freeciv (cover)",
     credit: "Wikipedia",
   },
-  notes: "Freeciv is a Free and Open Source empire-building strategy game inspired by the history of human civilization. Upstream repository for the standalone Freeciv client and server. Report bugs and submit patches at https://redmine.freeciv.org/projects/freeciv.",
-  notesEs: "Freeciv es un juego de estrategia de construcción de imperios libre y de código abierto inspirado en la historia de la civilización. Repositorio principal del cliente y servidor autónomo de Freeciv. Informa de errores y envía parches en redmine.freeciv.org.",
+  notes:
+    "Freeciv is a Free and Open Source empire-building strategy game inspired by the history of human civilization. Upstream repository for the standalone Freeciv client and server. Report bugs and submit patches at https://redmine.freeciv.org/projects/freeciv.",
+  notesEs:
+    "Freeciv es un juego de estrategia de construcción de imperios libre y de código abierto inspirado en la historia de la civilización. Repositorio principal del cliente y servidor autónomo de Freeciv. Informa de errores y envía parches en redmine.freeciv.org.",
 };

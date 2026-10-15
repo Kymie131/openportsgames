@@ -9,13 +9,11 @@ import {
   FlaskConical,
   Gamepad2,
   HardDrive,
-  Heart,
   Monitor,
   Smartphone,
   Zap,
 } from "lucide-react";
 import { useLocale, useT } from "@/lib/i18n/use-i18n";
-import { SUPPORT_PAYPAL_URL } from "@/lib/support";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Container } from "@/components/layout/container";
@@ -69,16 +67,6 @@ export function HomeContent({
               className="shadow-lg shadow-accent/25 hover:shadow-accent/40 transition-shadow"
             >
               <Link href="/ports">{t.home.browseCatalog}</Link>
-            </Button>
-            <Button asChild variant="secondary" size="lg">
-              <a
-                href={SUPPORT_PAYPAL_URL || "/support"}
-                target={SUPPORT_PAYPAL_URL ? "_blank" : undefined}
-                rel={SUPPORT_PAYPAL_URL ? "noopener noreferrer" : undefined}
-              >
-                <Heart className="size-4" aria-hidden="true" />
-                {t.support.donate}
-              </a>
             </Button>
           </div>
         </div>

@@ -26,6 +26,7 @@ export const portTypes = [
   "source-port",
   "runtime-port",
 ] as const;
+export const portKinds = ["playable-port", "decomp-in-progress", "tool"] as const;
 export const portStatuses = ["stable", "beta", "alpha", "takedown"] as const;
 export const genres = [
   "platformer",
@@ -68,6 +69,7 @@ const normalPort = z.object({
   openSource: z.boolean(),
   originalGameLicense: z.enum(["proprietary", "freeware", "open"]).optional(),
   portType: z.enum(portTypes),
+  type: z.enum(portKinds).optional(),
   platforms: z.array(z.enum(platformKeys)).min(1),
   status: z.union([z.enum(["stable", "beta", "alpha"]), z.literal("takedown")]),
   release: z.object({
@@ -88,6 +90,8 @@ const normalPort = z.object({
   notes: z.string().max(1000).optional(),
   notesEs: z.string().max(1000).optional(),
   originalSystem: z.string().min(2).max(80).optional(),
+  /** Region of the original release this port targets, when regional variants exist. */
+  region: z.string().min(2).max(40).optional(),
   features: z.array(z.string().min(3).max(120)).max(20).optional(),
   featuresEs: z.array(z.string().min(3).max(120)).max(20).optional(),
   aiDisclosure: z
@@ -99,6 +103,8 @@ const normalPort = z.object({
   sourceVerified: z.boolean().optional(),
   sourceIsIndex: z.boolean().optional(),
   sourceDead: z.boolean().optional(),
+  /** Excludes the detail page from search indexes. Easy to drop per entry. */
+  noindex: z.boolean().optional(),
   warning: z.string().min(3).max(400).optional(),
   warningEs: z.string().min(3).max(400).optional(),
   installGuide: z
@@ -201,6 +207,7 @@ export type Port = {
   openSource: boolean;
   originalGameLicense?: "proprietary" | "freeware" | "open";
   portType: (typeof portTypes)[number];
+  type?: (typeof portKinds)[number];
   platforms: (typeof platformKeys)[number][];
   release: { version: string | null; date: string | null };
   sources: string[];
@@ -214,12 +221,15 @@ export type Port = {
   notes?: string;
   notesEs?: string;
   originalSystem?: string;
+  /** Region of the original release this port targets, when regional variants exist. */
+  region?: string;
   features?: string[];
   featuresEs?: string[];
   aiDisclosure?: { source: string; quote: string };
   sourceVerified?: boolean;
   sourceIsIndex?: boolean;
   sourceDead?: boolean;
+  noindex?: boolean;
   warning?: string;
   warningEs?: string;
   installGuide?: {

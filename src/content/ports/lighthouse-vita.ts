@@ -20,8 +20,10 @@ export const lighthouseVita: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo 64",
-  notes: "PlayStation Vita port of Lighthouse, the native Banjo-Kazooie decompilation. Requires your own ROM.",
-  notesEs: "Port para PlayStation Vita de Lighthouse, la decompilación nativa de Banjo-Kazooie. Requiere tu propia ROM.",
+  notes:
+    "PlayStation Vita port of Lighthouse, the native Banjo-Kazooie decompilation. Requires your own ROM.",
+  notesEs:
+    "Port para PlayStation Vita de Lighthouse, la decompilación nativa de Banjo-Kazooie. Requiere tu propia ROM.",
   cover: {
     src: "https://cdn2.steamgriddb.com/icon_thumb/7c220a2091c26a7f5e9f1cfb099511e3.png",
     alt: "Banjo-Kazooie (cover)",

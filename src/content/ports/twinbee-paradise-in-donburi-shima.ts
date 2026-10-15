@@ -20,6 +20,8 @@ export const TwinbeeParadiseInDonburiShima: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
-  notes: "Researching of TwinBee PARADISE in Donburi Island. Doing research and documentation on how the game operates in the orginal engine and works on different operating systems.",
-  notesEs: "Investigación y documentación de TwinBee PARADISE in Donburi Island: cómo funciona el motor original y en distintos sistemas.",
+  notes:
+    "Researching of TwinBee PARADISE in Donburi Island. Doing research and documentation on how the game operates in the orginal engine and works on different operating systems.",
+  notesEs:
+    "Investigación y documentación de TwinBee PARADISE in Donburi Island: cómo funciona el motor original y en distintos sistemas.",
 };

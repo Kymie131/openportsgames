@@ -9,6 +9,7 @@ export const parasiteEveIiDecomp: Port = {
   publisher: "Square Enix",
   originalYear: 1999,
   portType: "decompilation",
+  type: "decomp-in-progress",
   genre: "action-adventure",
   openSource: true,
   originalGameLicense: "proprietary",

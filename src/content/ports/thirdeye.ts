@@ -20,6 +20,8 @@ export const Thirdeye: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
-  notes: "ThirdEye is an open source AESOP replacement to play Eye of the Beholder 3 and Dungeon Hack.",
-  notesEs: "ThirdEye es un reemplazo de código abierto de AESOP para jugar a Eye of the Beholder 3 y Dungeon Hack.",
+  notes:
+    "ThirdEye is an open source AESOP replacement to play Eye of the Beholder 3 and Dungeon Hack.",
+  notesEs:
+    "ThirdEye es un reemplazo de código abierto de AESOP para jugar a Eye of the Beholder 3 y Dungeon Hack.",
 };

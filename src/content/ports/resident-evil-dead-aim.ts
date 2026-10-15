@@ -25,6 +25,7 @@ export const ResidentEvilDeadAim: Port = {
     alt: "Resident Evil: Dead Aim (box art)",
     credit: "Box art",
   },
-  notes: "A work-in-progress decompilation of Capcom's Sony PlayStation 2 game, Resident Evil: Dead Aim.",
+  notes:
+    "A work-in-progress decompilation of Capcom's Sony PlayStation 2 game, Resident Evil: Dead Aim.",
   notesEs: "Decompilación de Resident Evil: Dead Aim de Capcom para PlayStation 2, en desarrollo.",
 };

@@ -20,6 +20,6 @@ export const ChasmReverse: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
-  notes: "Tools for reverse-engineering of game \"Chasm: The Rift\".",
+  notes: 'Tools for reverse-engineering of game "Chasm: The Rift".',
   notesEs: "Herramientas de ingeniería inversa del juego «Chasm: The Rift».",
 };

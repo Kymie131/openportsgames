@@ -20,6 +20,8 @@ export const _1oom: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
-  notes: "1oom is a Master of Orion Classic (1993) game engine recreation that requires the original files to run.",
-  notesEs: "1oom es una recreación del motor de Master of Orion Classic (1993) que necesita los archivos originales para funcionar.",
+  notes:
+    "1oom is a Master of Orion Classic (1993) game engine recreation that requires the original files to run.",
+  notesEs:
+    "1oom es una recreación del motor de Master of Orion Classic (1993) que necesita los archivos originales para funcionar.",
 };

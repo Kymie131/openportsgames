@@ -9,6 +9,7 @@ export const Dgengine: Port = {
   publisher: "Unknown",
   originalYear: 2000,
   portType: "source-port",
+  type: "playable-port",
   genre: "action-adventure",
   openSource: true,
   originalGameLicense: "proprietary",

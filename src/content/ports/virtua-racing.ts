@@ -20,6 +20,8 @@ export const VirtuaRacing: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
-  notes: "Complete static recompilation of Virtua Racing for the Sega 32X (optimization in progress).",
-  notesEs: "Recompilación estática completa de Virtua Racing para Sega 32X (optimización en curso).",
+  notes:
+    "Complete static recompilation of Virtua Racing for the Sega 32X (optimization in progress).",
+  notesEs:
+    "Recompilación estática completa de Virtua Racing para Sega 32X (optimización en curso).",
 };

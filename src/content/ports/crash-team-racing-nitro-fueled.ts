@@ -28,7 +28,8 @@ export const crashTeamRacingNitroFueled: Port = {
   notesEs:
     "Port nativo no oficial de Crash Team Racing: Nitro-Fueled (PS4, CUSA13795 v1.21). Ejecuta el código x86-64 original del juego directamente en la CPU con un runtime pequeño basado en bbport, y traduce los gráficos de PS4 a Vulkan mediante componentes derivados de shadPS4; no es un emulador convencional. Las builds de Linux vienen de SacredFire y la bifurcación de Windows, de GetLostIn. Requiere tu propia copia descifrada del juego base y la actualización 1.21.",
   requirements: {
-    minimum: "Windows 10/11 or Linux with a Vulkan-capable GPU, plus your own decrypted CUSA13795 copy with update 1.21.",
+    minimum:
+      "Windows 10/11 or Linux with a Vulkan-capable GPU, plus your own decrypted CUSA13795 copy with update 1.21.",
   },
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/36/Crash_Team_Racing_Nitro-Fueled_cover_art.jpg",

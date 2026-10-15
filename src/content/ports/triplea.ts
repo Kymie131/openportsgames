@@ -20,6 +20,8 @@ export const Triplea: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
-  notes: "TripleA is a turn based strategy game and board game engine, similar to Axis & Allies or Risk.",
-  notesEs: "TripleA es un juego de estrategia por turnos y motor de juegos de mesa, similar a Axis & Allies o Risk.",
+  notes:
+    "TripleA is a turn based strategy game and board game engine, similar to Axis & Allies or Risk.",
+  notesEs:
+    "TripleA es un juego de estrategia por turnos y motor de juegos de mesa, similar a Axis & Allies o Risk.",
 };

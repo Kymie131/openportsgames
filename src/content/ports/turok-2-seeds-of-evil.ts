@@ -25,6 +25,8 @@ export const Turok2SeedsOfEvil: Port = {
     alt: "Turok 2: Seeds of Evil (box art)",
     credit: "Box art",
   },
-  notes: "Work-in-progress decompilation of Turok 2: Seeds of Evil (N64). Stepping stone toward native macOS/Android ports of the Acclaim Studios London engine.",
-  notesEs: "Decompilación de Turok 2: Seeds of Evil (N64), en desarrollo. Paso previo a ports nativos del motor de Acclaim Studios London.",
+  notes:
+    "Work-in-progress decompilation of Turok 2: Seeds of Evil (N64). Stepping stone toward native macOS/Android ports of the Acclaim Studios London engine.",
+  notesEs:
+    "Decompilación de Turok 2: Seeds of Evil (N64), en desarrollo. Paso previo a ports nativos del motor de Acclaim Studios London.",
 };

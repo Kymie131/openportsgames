@@ -25,6 +25,7 @@ export const ShiningForceIi: Port = {
     alt: "Shining Force II (box art)",
     credit: "Wikipedia",
   },
-  notes: "A disassembly of the game \"Shining Force II\" for documentation and fan-project purposes.",
-  notesEs: "Desensamblado del juego «Shining Force II» con fines de documentación y proyectos de fans.",
+  notes: 'A disassembly of the game "Shining Force II" for documentation and fan-project purposes.',
+  notesEs:
+    "Desensamblado del juego «Shining Force II» con fines de documentación y proyectos de fans.",
 };

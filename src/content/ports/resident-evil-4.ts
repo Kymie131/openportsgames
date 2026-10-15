@@ -25,6 +25,8 @@ export const ResidentEvil4: Port = {
     alt: "Resident Evil 4 (box art)",
     credit: "Box art",
   },
-  notes: "Resident Evil 4 (GameCube, G4BE08 debug build) — complete byte-identical decompilation to C/C++.",
-  notesEs: "Resident Evil 4 (GameCube, build de depuración G4BE08): decompilación completa byte a byte a C/C++.",
+  notes:
+    "Resident Evil 4 (GameCube, G4BE08 debug build) — complete byte-identical decompilation to C/C++.",
+  notesEs:
+    "Resident Evil 4 (GameCube, build de depuración G4BE08): decompilación completa byte a byte a C/C++.",
 };

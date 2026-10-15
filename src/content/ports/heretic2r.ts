@@ -21,5 +21,6 @@ export const Heretic2r: Port = {
   sourceVerified: true,
   originalSystem: "Other",
   notes: "Heretic II (1998, Raven Software) reverse-engineered source port.",
-  notesEs: "Port del código fuente reconstruido por ingeniería inversa de Heretic II (Raven Software, 1998).",
+  notesEs:
+    "Port del código fuente reconstruido por ingeniería inversa de Heretic II (Raven Software, 1998).",
 };

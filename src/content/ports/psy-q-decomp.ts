@@ -9,6 +9,7 @@ export const psyQDecomp: Port = {
   publisher: "Sony Computer Entertainment",
   originalYear: 1994,
   portType: "decompilation",
+  type: "tool",
   genre: "simulation",
   openSource: true,
   originalGameLicense: "proprietary",

@@ -26,5 +26,6 @@ export const MarioKartDs: Port = {
     credit: "Wikipedia",
   },
   notes: "Mario Kart DS (EU) reverse-engineering work: ASM-hacking and other tools.",
-  notesEs: "Trabajo de ingeniería inversa de Mario Kart DS (EU): hacking de ASM y otras herramientas.",
+  notesEs:
+    "Trabajo de ingeniería inversa de Mario Kart DS (EU): hacking de ASM y otras herramientas.",
 };

@@ -26,5 +26,6 @@ export const YuGiOhTheEternalDuelistSoul: Port = {
     credit: "Box art",
   },
   notes: "Matching decompilation of Yu-Gi-Oh! The Eternal Duelist Soul (GBA). Bring your own ROM.",
-  notesEs: "Decompilación que coincide de Yu-Gi-Oh! The Eternal Duelist Soul (GBA). Aporta tu propia ROM.",
+  notesEs:
+    "Decompilación que coincide de Yu-Gi-Oh! The Eternal Duelist Soul (GBA). Aporta tu propia ROM.",
 };

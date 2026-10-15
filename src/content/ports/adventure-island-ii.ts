@@ -25,6 +25,8 @@ export const AdventureIslandIi: Port = {
     alt: "Adventure Island II (cover)",
     credit: "Wikipedia",
   },
-  notes: "Static recompilation of Adventure Island II (NES) for Windows 10 and 11. ROM not included.",
-  notesEs: "Recompilación estática de Adventure Island II (NES) para Windows 10 y 11. No incluye la ROM.",
+  notes:
+    "Static recompilation of Adventure Island II (NES) for Windows 10 and 11. ROM not included.",
+  notesEs:
+    "Recompilación estática de Adventure Island II (NES) para Windows 10 y 11. No incluye la ROM.",
 };

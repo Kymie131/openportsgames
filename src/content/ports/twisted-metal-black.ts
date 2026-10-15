@@ -26,5 +26,6 @@ export const TwistedMetalBlack: Port = {
     credit: "Box art",
   },
   notes: "[WIP] Matching decompilation of Twisted Metal: Black (2001) for the Playstation 2.",
-  notesEs: "Decompilación que coincide de Twisted Metal: Black (2001) para PlayStation 2, en desarrollo.",
+  notesEs:
+    "Decompilación que coincide de Twisted Metal: Black (2001) para PlayStation 2, en desarrollo.",
 };

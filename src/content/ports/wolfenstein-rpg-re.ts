@@ -20,8 +20,10 @@ export const wolfensteinRpgRe: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
-  notes: "Reverse-engineering of Wolfenstein RPG (mobile, 2009) by [GEC], reconstructing the original engine. Needs the original game data.",
-  notesEs: "Ingeniería inversa de Wolfenstein RPG (móvil, 2009) por [GEC], que reconstruye el motor original. Necesita los datos del juego original.",
+  notes:
+    "Reverse-engineering of Wolfenstein RPG (mobile, 2009) by [GEC], reconstructing the original engine. Needs the original game data.",
+  notesEs:
+    "Ingeniería inversa de Wolfenstein RPG (móvil, 2009) por [GEC], que reconstruye el motor original. Necesita los datos del juego original.",
   cover: {
     src: "https://raw.githubusercontent.com/Erick194/WolfensteinRPG-RE/refs/heads/main/src/appicon.ico",
     alt: "Wolfenstein RPG (cover)",

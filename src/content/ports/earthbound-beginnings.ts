@@ -26,5 +26,6 @@ export const EarthboundBeginnings: Port = {
     credit: "Wikipedia",
   },
   notes: "Ghidra decompilation of Earthbound Zero (Mother) with no copyrighted material.",
-  notesEs: "Decompilación con Ghidra de EarthBound Zero (Mother), sin material con derechos de autor.",
+  notesEs:
+    "Decompilación con Ghidra de EarthBound Zero (Mother), sin material con derechos de autor.",
 };

@@ -25,6 +25,8 @@ export const GeometryWarsRetroEvolved2: Port = {
     alt: "Geometry Wars: Retro Evolved 2 (cover)",
     credit: "Wikipedia",
   },
-  notes: "Geometry Wars: Retro Evolved 2 native PC port via static recompilation, with TRG launcher, high frame rates, local achievements and offline leaderboards.",
-  notesEs: "Port para PC nativo de Geometry Wars: Retro Evolved 2 mediante recompilación estática, con lanzador TRG, altos fps, logros locales y clasificaciones sin conexión.",
+  notes:
+    "Geometry Wars: Retro Evolved 2 native PC port via static recompilation, with TRG launcher, high frame rates, local achievements and offline leaderboards.",
+  notesEs:
+    "Port para PC nativo de Geometry Wars: Retro Evolved 2 mediante recompilación estática, con lanzador TRG, altos fps, logros locales y clasificaciones sin conexión.",
 };

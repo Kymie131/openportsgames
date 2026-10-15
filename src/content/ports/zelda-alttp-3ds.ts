@@ -20,8 +20,10 @@ export const zeldaAlttp3ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Super Nintendo",
-  notes: "Nintendo 3DS dual-screen port of A Link to the Past, based on the zelda3 reimplementation. Requires your own ROM.",
-  notesEs: "Port a doble pantalla de Nintendo 3DS de A Link to the Past, basado en la reimplementación zelda3. Requiere tu propia ROM.",
+  notes:
+    "Nintendo 3DS dual-screen port of A Link to the Past, based on the zelda3 reimplementation. Requires your own ROM.",
+  notesEs:
+    "Port a doble pantalla de Nintendo 3DS de A Link to the Past, basado en la reimplementación zelda3. Requiere tu propia ROM.",
   cover: {
     src: "https://cdn2.steamgriddb.com/icon_thumb/6bdb3b5d567a727c51d69ea8bf4accde.png",
     alt: "The Legend of Zelda: A Link to the Past (cover)",

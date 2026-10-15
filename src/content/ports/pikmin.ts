@@ -9,6 +9,7 @@ export const pikmin: Port = {
   publisher: "Nintendo",
   originalYear: 2001,
   portType: "decompilation",
+  type: "decomp-in-progress",
   genre: "strategy",
   openSource: true,
   platforms: ["windows", "linux", "macos"],

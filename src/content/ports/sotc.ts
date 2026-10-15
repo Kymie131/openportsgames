@@ -9,6 +9,7 @@ export const sotc: Port = {
   publisher: "Sony Computer Entertainment",
   originalYear: 2005,
   portType: "decompilation",
+  type: "decomp-in-progress",
   genre: "action-adventure",
   openSource: true,
   originalGameLicense: "proprietary",

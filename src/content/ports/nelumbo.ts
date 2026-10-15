@@ -20,8 +20,10 @@ export const nelumbo: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
-  notes: "Reimplementation of the Lotus racing trilogy (Lotus Esprit Turbo Challenge, Turbo Challenge 2 and Lotus III), distributed on itch.io.",
-  notesEs: "Reimplementación de la trilogía de carreras Lotus (Lotus Esprit Turbo Challenge, Turbo Challenge 2 y Lotus III), distribuida en itch.io.",
+  notes:
+    "Reimplementation of the Lotus racing trilogy (Lotus Esprit Turbo Challenge, Turbo Challenge 2 and Lotus III), distributed on itch.io.",
+  notesEs:
+    "Reimplementación de la trilogía de carreras Lotus (Lotus Esprit Turbo Challenge, Turbo Challenge 2 y Lotus III), distribuida en itch.io.",
   cover: {
     src: "https://cdn2.steamgriddb.com/thumb/15ff25fd515e3c151b797bcef1bf3fb9.jpg",
     alt: "Lotus Trilogy (cover)",

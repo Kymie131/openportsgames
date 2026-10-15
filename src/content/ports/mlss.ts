@@ -9,6 +9,7 @@ export const mlss: Port = {
   publisher: "Nintendo",
   originalYear: 2003,
   portType: "decompilation",
+  type: "decomp-in-progress",
   genre: "rpg",
   openSource: true,
   originalGameLicense: "proprietary",

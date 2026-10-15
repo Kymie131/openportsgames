@@ -25,6 +25,7 @@ export const NewPlayControlPikmin2: Port = {
     alt: "New Play Control! Pikmin 2 (box art)",
     credit: "Wikipedia",
   },
-  notes: "A decompilation of New Play Control! Pikmin 2 (USA) brought to you by fans of the series.",
+  notes:
+    "A decompilation of New Play Control! Pikmin 2 (USA) brought to you by fans of the series.",
   notesEs: "Una decompilación de New Play Control! Pikmin 2 (USA) hecha por fans de la saga.",
 };
