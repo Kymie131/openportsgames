@@ -68,8 +68,10 @@ keep these redirects above any catch-all.
 
 ### Plan B — Bulk Redirects list (CSV)
 
-`docs/redirects-301.csv` holds every mapping explicitly (1.197 rows: 11 sections
-plus every port). Regenerate it after catalog changes:
+`docs/redirects-301.csv` holds every mapping explicitly (1.195 rows: 11 sections
+plus every registered port). It is derived from the modules wired into
+`src/content/ports/index.ts`, so unregistered ("orphan") files never produce a
+redirect to a page that does not exist. Regenerate it after catalog changes:
 
 ```bash
 node scripts/gen-redirects.mjs
