@@ -72,42 +72,57 @@ alien-vs-predator-2, 3d-maze, age-of-speed-2, amazing-island, ambermoon, amplitu
 - Rama `content/taxonomy-multivalue`, 1 commit por paso; slugs/URLs/canonicals intactos; snapshot de `out/api/ports.json` y diff final solo de sistema/`type`.
 - Display: ficha = un badge por sistema; tile = primer sistema; filtro = OR.
 
-## D. Segunda pasada — sistema original "Windows (PC)" (preparada, sin aplicar)
 
-Criterio de evidencia aceptable (el README/descripción del **propio proyecto** lo dice):
-- Frases de origen: `port of the PC game`, `originally released for Windows/PC/MS-DOS`, `the Windows version`, `PC game`, `MS-DOS game`.
-- **NO** cuenta como evidencia la plataforma destino (`port to Android`, builds para Linux, etc.).
-- Sin frase de origen clara → sigue `Unknown`.
+## D. Segunda pasada — sistema original "MS-DOS" vs "Windows (PC)" (preparada, sin aplicar)
 
-Candidatos con cita (28):
+Criterio (el README/descripcion del **propio proyecto** lo dice):
+- MS-DOS: cita `original DOS`, `MS-DOS game`, `DOS programs/data`. NO Windows.
+- Windows (PC): cita `original Windows version`, `PC game`, `Windows version`, `PC port of the ... game` cuando el juego original ES de PC.
+- **NO** cuenta la plataforma destino (`port to Android`, builds Linux) ni un `PC port of the <consola> game` (el original es la consola -> `Otro`).
+- Sin frase de origen clara -> `review` (revision manual).
 
-| id | Cita (README/descripción) |
+### D.1 MS-DOS (9)
+| id | Cita |
 | --- | --- |
-| awesome-open-source-games | - [Emberwind](https://github.com/operasoftware/Emberwind) - Fantasy game port of the indie platform game Emberwind. |
-| boss-rally | The PC game ships two renderer DLLs over one shared core: **`BRGlide.dll`** (3dfx Glide: the mature target and the reference for all matching) and `BRD3D.dll` (Direct3D: statically links Microsoft's CRT, so it's referenc |
-| btbuilder | SDL_ttf is optional and not built in the windows version. |
-| ctw-native | GTA: Chinatown Wars as a native Windows game, rebuilt in C++ with SDL2 and OpenGL. |
-| cut-the-rope | _Cut the Rope DX (Decompiled Extra)_ is a fan-made enhancement of the PC version of _Cut the Rope_, originally developed by ZeptoLab. |
-| cut-the-rope-cut-the-rope-dx | Cut the Rope DX, a fan-made enhancement of the PC version of Cut the Rope. |
 | freeserf-net | To play the game you will therefore need the original DOS or Amiga data files. |
-| jfsw | Port of the 3D Realms game "Shadow Warrior" |
-| jftekwar | No-promises port of the Capstone Software game "TekWar" |
-| jfwhaven | No-promises port of the Capstone Software game "Witchaven" |
-| lba2-classic-community | Community-maintained source port of the original Little Big Adventure 2 (Twinsen’s Odyssey) engine. |
-| lemmings-paintball | The original Windows executable lacks debugging symbols, so functions were matched across versions using strings, constants, algorithms, virtual tables, object layouts, and call relationships. |
-| mortal-kombat-vs-dc-universe | An unofficial PC port of the Xbox 360 game **Mortal Kombat vs. |
-| open-annihilation | Open Source port of the Total Annihilation & TA: Kingdoms engines. |
-| openomf | Since the original DOS game from 1994 uses IPX networking and is a pain to set up, the community needed a better solution to keep playing the game we love. |
-| outpost-kaloki-x | Native PC port of the XBLA game Outpost Kaloki X via static recompilation (ReXGlue). |
-| sheep-dog-n-wolf | A decompilation of the 2001 PC game *Sheep, Dog 'n' Wolf* (released in North America as *Sheep Raider*), PAL version, `SheepD3D.exe` (SHA-1 `ca39374d53ae0030c5bd8c90dda45465e446dfe3`). |
+| openomf | the original DOS game from 1994 uses IPX networking |
+| sopwith-sdl-sopwith | port of the game "Sopwith", which was originally by BMB Compuscience Canada |
+| underworld-exhumed | Ultima Underworld (1992) and II (1993), dug out of their original DOS programs. |
+| wc1-re | partial support for the original DOS game data |
+| wc2-re | partial support for the original DOS game data |
+| jfsw | Port of the 3D Realms game "Shadow Warrior" (1997, MS-DOS) |
+| jftekwar | Port of the Capstone Software game "TekWar" (1995, MS-DOS) |
+| jfwhaven | Port of the Capstone Software game "Witchaven" (1995, MS-DOS) |
+
+### D.2 Windows (PC) (8)
+| id | Cita |
+| --- | --- |
 | snail-mail | Reverse-engineering workspace for the original Windows version of Snail Mail. |
-| sopwith-sdl-sopwith | SDL Sopwith is a port of the game "Sopwith", which was originally by BMB Compuscience Canada. |
-| space-rangers-hd-a-war-apart | - [SpaceRangersHD_FPC](https://github.com/pakompom/SpaceRangersHD_FPC/tree/main) - a reference Free Pascal port of the recovered source, limited to the fixes needed to run the game across operating systems and CPU archit |
-| speed-academy | Source port of the singleplayer of Star Wars Jedi Knight: Jedi Academy |
-| thief-deadly-shadows | It fixes the PC version's display problems, loads mods into your installed copy of the game, and gives them access to the engine. |
-| touhou-koumakyou-the-embodiment-of-scarlet-devil | For a functioning port of the game to other platforms (Linux, modern Windows, etc), see [the portable branch](https://github.com/GensokyoClub/th06/tree/portable) |
-| touhou-youyoumu-perfect-cherry-blossom | For a desktop cross-platform port of the game, you can use the [portable branch](https://github.com/some100/th07/tree/portable) instead. |
-| underworld-exhumed | *Ultima Underworld: The Stygian Abyss* (1992) and *Ultima Underworld II: Labyrinth of Worlds* (1993), dug out of their original DOS programs. |
-| vf1-recomp | <p align="center"><b>Virtua Fighter (SEGA, arcade, Model 1, 1993) as a native PC game: the arcade's own V60 code, recompiled to native code, with render scales up to 6x, widescreen and smooth motion at any refresh rate.< |
-| wc1-re | It supports Kilrathi Saga data and has partial support for the original DOS game data. |
-| wc2-re | They support Kilrathi Saga data and have partial support for the original DOS game data. |
+| sheep-dog-n-wolf | A decompilation of the 2001 PC game *Sheep, Dog 'n' Wolf* |
+| thief-deadly-shadows | It fixes the PC version's display problems |
+| speed-academy | Source port of the singleplayer of Star Wars Jedi Knight: Jedi Academy (Windows, 2003) |
+| touhou-koumakyou-the-embodiment-of-scarlet-devil | For a functioning port of the game to other platforms (Linux, modern Windows, etc) |
+| touhou-youyoumu-perfect-cherry-blossom | For a desktop cross-platform port of the game |
+| space-rangers-hd-a-war-apart | reference Free Pascal port of the recovered source (Space Rangers, Windows 2002) |
+| open-annihilation | Open Source port of the Total Annihilation & TA: Kingdoms engines (Windows, 1997) |
+
+### D.3 Otro / descartar (7) — el original NO es MS-DOS ni Windows
+| id | Motivo |
+| --- | --- |
+| ctw-native | GTA: Chinatown Wars as a native Windows game (original: PSP/NDS) -> Otro |
+| mortal-kombat-vs-dc-universe | An unofficial PC port of the Xbox 360 game -> Otro (Xbox 360) |
+| outpost-kaloki-x | Native PC port of the XBLA game -> Otro (Xbox 360) |
+| vf1-recomp | Virtua Fighter (SEGA, arcade, Model 1, 1993) as a native PC game -> Otro (Arcade) |
+| cut-the-rope | enhancement of the PC version of Cut the Rope -> Otro (original: movil/iOS) |
+| cut-the-rope-cut-the-rope-dx | enhancement of the PC version of Cut the Rope -> Otro (original: movil/iOS) |
+| awesome-open-source-games | lista de proyectos, no una ficha -> descartar |
+
+### D.4 Revisar (4)
+| id | Motivo |
+| --- | --- |
+| lemmings-paintball | the original Windows executable lacks debugging symbols (recompilacion, no dice plataforma original) |
+| lba2-classic-community | source port of the original Little Big Adventure 2 engine (LBA2: MS-DOS/Win, sin cita directa) |
+| boss-rally | The PC game ships two renderer DLLs (Boss Rally: arcade/PS1, sin cita de origen) |
+| btbuilder | SDL_ttf is optional and not built in the windows version (sin cita de plataforma original) |
+
+Nota: `underworld-exhumed`, `wc1-re` y `wc2-re` ("original DOS ...") van a **MS-DOS**, no Windows.
