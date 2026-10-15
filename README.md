@@ -10,6 +10,8 @@ The site hosts no downloadable files and links to none. Static build: no
 accounts, no database.
 
 - EN/ES, dark and light themes.
+- Listings are server-rendered (crawlable) and paginate with real URLs; a
+  **System & tools** section catalogues non-game entries.
 - Translations were assisted by an LLM.
 
 ## Tech

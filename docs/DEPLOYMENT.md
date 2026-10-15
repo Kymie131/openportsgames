@@ -22,6 +22,10 @@ domain root on **Cloudflare Pages**. `npm run build` writes `out/`.
 Routes live under `app/[lang]` and are generated for `en` and `es`:
 
 - `/en/…` and `/es/…` for every page, including `/en/ports/<slug>/`.
+- The catalog listings are paginated at `/en/ports/page/2/`, `/en/pc/page/N/`
+  and `/en/android/page/N/` (page 1 is the base path; `/page/1/` is never
+  generated). Each page has its own canonical and is listed in the sitemap.
+- `/tools` lists the entries whose `kind` is `system` or `tool`.
 - `/` is a static language chooser (visible links plus a `navigator.language`
   redirect); it canonicalizes to `/en/` and is not listed in the sitemap.
 - `/api/ports.json`, `/sitemap.xml`, `/robots.txt` stay at the root and are

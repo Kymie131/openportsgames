@@ -80,6 +80,24 @@ A static, versioned snapshot emitted at build time
 `kind` field). `sources`/`website`/`docs`/`discord` are always `https:`. The
 authoritative zod schema is `catalogApiSchema` in `src/lib/ports/api-json.ts`.
 
+## SEO and listings
+
+- Catalog listings (`/ports`, `/pc`, `/android`) are **server-rendered**: the
+  H1, the intro and the first 48 ports are real links in the static HTML. They
+  paginate at `/…/page/N/` (`generateStaticParams`, page 1 is the base path),
+  with real Previous/Next/number links, one canonical per page, reciprocal
+  `hreflang` and a sitemap entry.
+- Filters, search and `?sort` are progressive enhancement: the query is read
+  after mount (`window.location.search`), never during render, so the subtree
+  does not bail out to client-only rendering. The query never enters the
+  canonical.
+- `/console` lists each console and its ports as real links; `/emulators` lists
+  each generation as a real link.
+- Ficha meta description comes from `portDescription()` (`lib/ports/description.ts`):
+  the localized body text, a localized template fallback, padded to 70–155 chars.
+  `portShareImage()` (`lib/ports/share.ts`) uses the cover as `og:image` /
+  `twitter:image` when present.
+
 ## Build and deploy
 
 ```bash
