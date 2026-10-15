@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { LocalizedLink as Link } from "@/components/i18n/localized-link";
 import { ExternalLink } from "lucide-react";
 import type { Port } from "@/lib/ports/schema";
 import { GithubMark } from "@/components/platforms/github-mark";
@@ -125,6 +125,11 @@ export function PortTile({
           ))}
         </div>
         <div className="flex flex-wrap items-center justify-end gap-1.5">
+          {port.wip && (
+            <span className="rounded-full border border-accent/40 bg-[color-mix(in_oklab,var(--accent)_12%,transparent)] px-2 py-0.5 text-xs font-medium text-accent">
+              {t.catalog.inDevelopment}
+            </span>
+          )}
           <span
             className={cn("rounded-full px-2 py-0.5 text-xs font-medium", STATUS_TONE[port.status])}
           >

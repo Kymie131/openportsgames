@@ -69,7 +69,6 @@ describe("catalog ports", () => {
       // PortsDR is an index; all its entries share one landing page.
       "https://portsdr.com/": [
         "buck-bumble-recomp",
-        "dragon-ball-gt-final-bout-recomp",
         "samurai-shodown-warriors-rage-recomp",
         "super-mario-all-stars-recomp",
         "timesplitters-2-recomp",

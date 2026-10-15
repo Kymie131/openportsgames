@@ -1,5 +1,4 @@
 import type { Port } from "@/lib/ports/schema";
-
 export const Nocturne: Port = {
   schema: "port",
   id: "nocturne",
@@ -20,11 +19,6 @@ export const Nocturne: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
-  cover: {
-    src: "https://upload.wikimedia.org/wikipedia/commons/2/27/Nocturne_Op._15_No._3.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
-    alt: "Nocturne (cover)",
-    credit: "Wikipedia",
-  },
   notes: "Nocturne Decompilation.",
   notesEs: "Decompilación de Nocturne.",
 };

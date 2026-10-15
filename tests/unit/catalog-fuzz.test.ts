@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { ports } from "@/lib/ports";
+import { portKind } from "@/lib/ports/schema";
 import {
   MAX_QUERY_LENGTH,
   applyCatalog,
@@ -12,9 +13,11 @@ import {
 
 const index = buildIndex(ports);
 
-/** Ports inside the "all" scope, which excludes console homebrew platforms. */
-const inAllScope = ports.filter((port) =>
-  port.platforms.some((platform) => SCOPED_PLATFORMS.all.includes(platform)),
+/** Ports inside the "all" scope, which excludes console homebrew platforms and non-game entries. */
+const inAllScope = ports.filter(
+  (port) =>
+    portKind(port) === "game" &&
+    port.platforms.some((platform) => SCOPED_PLATFORMS.all.includes(platform)),
 );
 const ALPHABET = "abcdefghijklmnopqrstuvwxyz0123456789";
 

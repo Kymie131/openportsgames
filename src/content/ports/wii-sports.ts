@@ -18,6 +18,7 @@ export const WiiSports: Port = {
   sources: ["https://github.com/doldecomp/ogws"],
   license: { spdx: "CC0-1.0" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystem: "Wii",
   cover: {

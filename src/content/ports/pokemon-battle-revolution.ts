@@ -18,6 +18,7 @@ export const PokemonBattleRevolution: Port = {
   sources: ["https://github.com/bgsamm/pbr-dtk"],
   license: { spdx: "CC0-1.0" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystem: "Other",
   cover: {

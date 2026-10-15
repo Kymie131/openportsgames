@@ -18,6 +18,7 @@ export const ResidentEvil4DreamcastPortRe4dc: Port = {
   sources: ["https://github.com/lamb2k/re4dc"],
   license: { spdx: "CC0-1.0" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystem: "Dreamcast",
   notes: "Work-in-progress Resident Evil 4 port for Sega Dreamcast, with native PowerVR rendering, VMU saves and Flycast-tested play builds.",

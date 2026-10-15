@@ -184,6 +184,23 @@ import { animalCrossingPcPort } from "./animal-crossing-pc-port";
 import { metroidPrimePort } from "./metroid-prime-port";
 import { haloCeUniversal } from "./halo-ce-universal";
 import { haloCeWeb } from "./halo-ce-web";
+import { dishsoap } from "./dishsoap";
+import { infiniteMario64Ever } from "./infinite-mario-64-ever";
+import { nelumbo } from "./nelumbo";
+import { scdaXbeRecomp } from "./scda-xbe-recomp";
+import { wolfensteinRpgRe } from "./wolfenstein-rpg-re";
+import { legendOfDoom3ds } from "./legend-of-doom-3ds";
+import { marioKart643ds } from "./mario-kart-64-3ds";
+import { zeldaAlttp3ds } from "./zelda-alttp-3ds";
+import { zeldaTmc3ds } from "./zelda-tmc-3ds";
+import { ootPsp } from "./oot-psp";
+import { sf64Psp } from "./sf64-psp";
+import { ctrHighOctane } from "./ctr-high-octane";
+import { lighthouseVita } from "./lighthouse-vita";
+import { unleashedrecompNx } from "./unleashedrecomp-nx";
+import { strikers } from "./strikers";
+import { ghostship } from "./ghostship";
+import { shadowOfTheColossusPc } from "./shadow-of-the-colossus-pc";
 import { bloodborneAndroid } from "./bloodborne-android";
 import { crashTeamRacingNitroFueled } from "./crash-team-racing-nitro-fueled";
 import { lostOdysseyRecomp } from "./lost-odyssey-recomp";
@@ -405,6 +422,7 @@ import { tonyHawksProject8Recomp } from "./tony-hawks-project-8-recomp";
 import { wweSmackdownVsRaw2007Recomp } from "./wwe-smackdown-vs-raw-2007-recomp";
 import { deadlyPremonitionRecomp } from "./deadly-premonition-recomp";
 import { dragonBallZBudokaiHd } from "./dragon-ball-z-budokai-hd";
+import { dragonBallZBudokaiTenkaichi3 } from "./dragon-ball-z-budokai-tenkaichi-3";
 import { dragonBallZBudokai3Hd } from "./dragon-ball-z-budokai-3-hd";
 import { forzaMotorsport4Recomp } from "./forza-motorsport-4-recomp";
 import { forzaHorizon2Recomp } from "./forza-horizon-2-recomp";
@@ -859,7 +877,7 @@ import { PokemonMdRed } from "./pokemon-md-red";
 import { PokemonPlatinum } from "./pokemon-platinum";
 import { SheepDogNWolfRewooled } from "./sheep-dog-n-wolf-rewooled";
 import { TouhouKoumakyouTheEmbodimentOfScarletDevil } from "./touhou-koumakyou-the-embodiment-of-scarlet-devil";
-import { FushigiNoDungeonFRaiNoShiren2OniShRaiShirenJ } from "./fushigi-no-dungeon-f-rai-no-shiren-2-oni-sh-rai-shiren-j";
+import { FushigiNoDungeonFuraiNoShiren2OniShuraiShirenJo } from "./fushigi-no-dungeon-furai-no-shiren-2-oni-shurai-shiren-jo";
 import { KingdomHeartsReCoded } from "./kingdom-hearts-re-coded";
 import { MegamiIbunrokuPersona } from "./megami-ibunroku-persona";
 import { ShinMegamiTenseiDigitalDevilSaga } from "./shin-megami-tensei-digital-devil-saga";
@@ -883,7 +901,7 @@ import { MortalKombatDeception } from "./mortal-kombat-deception";
 import { NewPlayControlPikmin } from "./new-play-control-pikmin";
 import { NewPlayControlPikmin2 } from "./new-play-control-pikmin-2";
 import { Nocturne } from "./nocturne";
-import { PokMonBlack2AndWhite2 } from "./pok-mon-black-2-and-white-2";
+import { PokemonBlack2AndWhite2 } from "./pokemon-black-2-and-white-2";
 import { ShaunPalmersProSnowboarder } from "./shaun-palmers-pro-snowboarder";
 import { SheepDogNWolf } from "./sheep-dog-n-wolf";
 import { SonicBattle } from "./sonic-battle";
@@ -937,7 +955,7 @@ import { MarioParty2 } from "./mario-party-2";
 import { MarioParty6 } from "./mario-party-6";
 import { Mother12Japan } from "./mother-1-2-japan";
 import { PhoenixWrightAceAttorneyJusticeForAll } from "./phoenix-wright-ace-attorney-justice-for-all";
-import { PokMonMoon } from "./pok-mon-moon";
+import { PokemonMoon } from "./pokemon-moon";
 import { ResidentEvilCodeVeronica } from "./resident-evil-code-veronica";
 import { ResidentEvilDeadAim } from "./resident-evil-dead-aim";
 import { SpongebobMovesIn } from "./spongebob-moves-in";
@@ -1099,7 +1117,7 @@ import { MonsterHunter4Ultimate } from "./monster-hunter-4-ultimate";
 import { MvpBaseball2005 } from "./mvp-baseball-2005";
 import { PokemonBattleRevolution } from "./pokemon-battle-revolution";
 import { PokeparkWiiPikachusAdventure } from "./pokepark-wii-pikachus-adventure";
-import { PokMonSword } from "./pok-mon-sword";
+import { PokemonSword } from "./pokemon-sword";
 import { RatchetAndClankGoingCommandoUsaV101 } from "./ratchet-and-clank-going-commando-usa-v1-01";
 import { RatchetAndClankUpYourArsenal } from "./ratchet-and-clank-up-your-arsenal";
 import { RatchetDeadlocked } from "./ratchet-deadlocked";
@@ -1111,7 +1129,7 @@ import { ThiefDeadlyShadows } from "./thief-deadly-shadows";
 import { WiiFitPlus } from "./wii-fit-plus";
 import { Wild9 } from "./wild-9";
 import { Xbox360Kernel } from "./xbox-360-kernel";
-import { Kamiden } from "./kamiden";
+import { Okamiden } from "./okamiden";
 import { CrashTagTeamRacing } from "./crash-tag-team-racing";
 import { Homeworld2 } from "./homeworld-2";
 import { LegoStarWarsIiiTheCloneWars } from "./lego-star-wars-iii-the-clone-wars";
@@ -1140,7 +1158,7 @@ import { PokemonTcg2 } from "./pokemon-tcg-2";
 import { ShiningForceIi } from "./shining-force-ii";
 import { ZeldaNoDensetsuKamigamiNoTriforce } from "./zelda-no-densetsu-kamigami-no-triforce";
 import { Jetpac } from "./jetpac";
-import { JpnPokMonBlue } from "./jpn-pok-mon-blue";
+import { JpnPokemonBlue } from "./jpn-pokemon-blue";
 import { KidChameleon } from "./kid-chameleon";
 import { ManicMiner } from "./manic-miner";
 import { MegamanZero3 } from "./megaman-zero-3";
@@ -1393,6 +1411,23 @@ export const portCases: Port[] = [
   metroidPrimePort,
   haloCeUniversal,
   haloCeWeb,
+  dishsoap,
+  infiniteMario64Ever,
+  nelumbo,
+  scdaXbeRecomp,
+  wolfensteinRpgRe,
+  legendOfDoom3ds,
+  marioKart643ds,
+  zeldaAlttp3ds,
+  zeldaTmc3ds,
+  ootPsp,
+  sf64Psp,
+  ctrHighOctane,
+  lighthouseVita,
+  unleashedrecompNx,
+  strikers,
+  ghostship,
+  shadowOfTheColossusPc,
   bloodborneAndroid,
   crashTeamRacingNitroFueled,
   lostOdysseyRecomp,
@@ -1652,6 +1687,7 @@ export const portCases: Port[] = [
   wweSmackdownVsRaw2007Recomp,
   deadlyPremonitionRecomp,
   dragonBallZBudokaiHd,
+  dragonBallZBudokaiTenkaichi3,
   dragonBallZBudokai3Hd,
   forzaMotorsport4Recomp,
   exitRecomp,
@@ -2027,7 +2063,7 @@ export const portCases: Port[] = [
   PokemonPlatinum,
   SheepDogNWolfRewooled,
   TouhouKoumakyouTheEmbodimentOfScarletDevil,
-  FushigiNoDungeonFRaiNoShiren2OniShRaiShirenJ,
+  FushigiNoDungeonFuraiNoShiren2OniShuraiShirenJo,
   KingdomHeartsReCoded,
   MegamiIbunrokuPersona,
   ShinMegamiTenseiDigitalDevilSaga,
@@ -2051,7 +2087,7 @@ export const portCases: Port[] = [
   NewPlayControlPikmin,
   NewPlayControlPikmin2,
   Nocturne,
-  PokMonBlack2AndWhite2,
+  PokemonBlack2AndWhite2,
   ShaunPalmersProSnowboarder,
   SheepDogNWolf,
   SonicBattle,
@@ -2105,7 +2141,7 @@ export const portCases: Port[] = [
   MarioParty6,
   Mother12Japan,
   PhoenixWrightAceAttorneyJusticeForAll,
-  PokMonMoon,
+  PokemonMoon,
   ResidentEvilCodeVeronica,
   ResidentEvilDeadAim,
   SpongebobMovesIn,
@@ -2267,7 +2303,7 @@ export const portCases: Port[] = [
   MvpBaseball2005,
   PokemonBattleRevolution,
   PokeparkWiiPikachusAdventure,
-  PokMonSword,
+  PokemonSword,
   RatchetAndClankGoingCommandoUsaV101,
   RatchetAndClankUpYourArsenal,
   RatchetDeadlocked,
@@ -2279,7 +2315,7 @@ export const portCases: Port[] = [
   WiiFitPlus,
   Wild9,
   Xbox360Kernel,
-  Kamiden,
+  Okamiden,
   CrashTagTeamRacing,
   Homeworld2,
   LegoStarWarsIiiTheCloneWars,
@@ -2308,7 +2344,7 @@ export const portCases: Port[] = [
   ShiningForceIi,
   ZeldaNoDensetsuKamigamiNoTriforce,
   Jetpac,
-  JpnPokMonBlue,
+  JpnPokemonBlue,
   KidChameleon,
   ManicMiner,
   MegamanZero3,

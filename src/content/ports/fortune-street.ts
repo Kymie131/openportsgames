@@ -18,6 +18,7 @@ export const FortuneStreet: Port = {
   sources: ["https://github.com/FortuneStreetModding/boom-street-decomp"],
   license: { spdx: "CC0-1.0" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystem: "Other",
   cover: {

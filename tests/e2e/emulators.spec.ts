@@ -2,7 +2,7 @@ import { expect, test } from "@playwright/test";
 
 test.describe("emulators section", () => {
   test("lists generations and drills into a console's emulators", async ({ page }) => {
-    await page.goto("/emulators");
+    await page.goto("/en/emulators");
     await expect(page.locator("h1")).toHaveText(/Emulators|Emuladores/);
 
     // Pick the fifth generation.
@@ -19,13 +19,13 @@ test.describe("emulators section", () => {
   });
 
   test("PS5 lists its experimental emulators", async ({ page }) => {
-    await page.goto("/emulators?gen=gen-9&console=playstation-5");
+    await page.goto("/en/emulators?gen=gen-9&console=playstation-5");
     await expect(page.getByRole("heading", { name: "SharpEmu" })).toBeVisible();
     await expect(page.getByRole("heading", { name: "KytyPS5" })).toBeVisible();
   });
 
   test("a console with no emulator shows the empty state", async ({ page }) => {
-    await page.goto("/emulators?gen=gen-9&console=xbox-series");
+    await page.goto("/en/emulators?gen=gen-9&console=xbox-series");
     await expect(page.getByText(/No public emulator yet|Aún sin emulador público/)).toBeVisible();
   });
 });

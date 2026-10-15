@@ -18,6 +18,7 @@ export const RatchetAndClankPal: Port = {
   sources: ["https://github.com/OpenRAC/rac1-decomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystem: "PlayStation 2",
   notes: "A work-in-progress matching decompilation of the original Ratchet & Clank (2002) for PlayStation 2 (SCES_509.16, PAL v2.00). Focuses on reconstructing clean, idiomatic C/C++ source code identical to the retail executable, paving the way for native PC re-implementation and game preservation.",

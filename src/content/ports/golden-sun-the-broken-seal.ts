@@ -18,6 +18,7 @@ export const GoldenSunTheBrokenSeal: Port = {
   sources: ["https://github.com/Coaltergeist/goldensun-decomp"],
   license: { spdx: "NOASSERTION" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystem: "Game Boy Advance",
   cover: {

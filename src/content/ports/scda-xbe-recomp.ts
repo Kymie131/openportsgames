@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const scdaXbeRecomp: Port = {
+  schema: "port",
+  id: "scda-xbe-recomp",
+  title: "Splinter Cell: Double Agent (Xbox Recomp)",
+  game: "Tom Clancy's Splinter Cell: Double Agent",
+  developers: ["TGP482"],
+  publisher: "Ubisoft",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/TGP482/SCDA-XBERecomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystem: "Xbox",
+  notes: "Unofficial PC port of the original Xbox version of Splinter Cell: Double Agent via static recompilation. Needs your own game files.",
+  notesEs: "Port no oficial para PC de la versión de Xbox original de Splinter Cell: Double Agent mediante recompilación estática. Necesita tus propios archivos del juego.",
+  cover: {
+    src: "https://cdn2.steamgriddb.com/icon/6775a0635c302542da2c32aa19d86be0/32/256x256.png",
+    alt: "Tom Clancy's Splinter Cell: Double Agent (cover)",
+    credit: "SteamGridDB",
+  },
+};

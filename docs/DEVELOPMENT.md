@@ -40,13 +40,24 @@ scripts/        Release checker, static preview
 
 ## Port schema
 
-`src/lib/ports/schema.ts` is the reference. Fields: `id`, `title`, `game`,
+`src/lib/ports/schema.ts` is the reference. Fields: `id`, `kind`, `title`, `game`,
 `developers`, `publisher`, `originalYear`, `genre`, `openSource`,
 `originalGameLicense`, `portType`, `platforms`, `status`, `release`, `sources`,
-`website`, `docs`, `discord`, `license`, `verified`, `verifiedAt`, `notes`,
+`website`, `docs`, `discord`, `license`, `verified`, `verifiedAt`, `wip`, `notes`,
 `notesEs`, `originalSystem`, `features`, `featuresEs`, `requirements`,
 `screenshots`, `cover`, `installGuide`.
 
+- `kind`: `game` (default), `system` or `tool`. Only `game` entries appear in the
+  catalog listings (`/ports`, `/pc`, `/android`, `/console`), the counters, the
+  home "Latest releases"/"Featured" and the paginated listings; `system`/`tool`
+  entries keep their page under `/ports/<slug>/` (indexable, searchable) and are
+  listed under `/tools`. See `getGamePorts()` / `getToolPorts()`. `/tools` also
+  renders a categorized list of popular desktop programs from
+  `src/content/programs.ts` (GIMP, LibreOffice, the ArtCraft suite, …), each
+  linking to its official site.
+- `wip: true` marks a project that is still being decompiled/built and has no
+  playable release (`release.version` is null). The card and ficha show an "In
+  development" badge and a notice, so visitors do not expect a download.
 - `genre`: `platformer`, `action-adventure`, `rpg`, `racing`, `strategy`,
   `shooter`, `fighting`, `sports`, `simulation`, `open-world`, `puzzle`, `music`.
 - `portType`: `decompilation`, `recompilation`, `reimplementation`,
@@ -77,9 +88,27 @@ and a known profile whose `tester` matches the record's `testerId`.
 A static, versioned snapshot emitted at build time
 (`src/app/api/ports.json/route.ts` via `src/lib/ports/api-json.ts`). Shape:
 `schema`, `version`, `generatedAt`, `site`, `ports[]`, `hardware[]`, `tests[]`.
-`ports` excludes `takedown`. `sources`/`website`/`docs`/`discord` are always
-`https:`. The authoritative zod schema is `catalogApiSchema` in
-`src/lib/ports/api-json.ts`.
+`ports` excludes `takedown` and includes every `kind` (each port carries its
+`kind` field). `sources`/`website`/`docs`/`discord` are always `https:`. The
+authoritative zod schema is `catalogApiSchema` in `src/lib/ports/api-json.ts`.
+
+## SEO and listings
+
+- Catalog listings (`/ports`, `/pc`, `/android`) are **server-rendered**: the
+  H1, the intro and the first 48 ports are real links in the static HTML. They
+  paginate at `/…/page/N/` (`generateStaticParams`, page 1 is the base path),
+  with real Previous/Next/number links, one canonical per page, reciprocal
+  `hreflang` and a sitemap entry.
+- Filters, search and `?sort` are progressive enhancement: the query is read
+  after mount (`window.location.search`), never during render, so the subtree
+  does not bail out to client-only rendering. The query never enters the
+  canonical.
+- `/console` lists each console and its ports as real links; `/emulators` lists
+  each generation as a real link.
+- Ficha meta description comes from `portDescription()` (`lib/ports/description.ts`):
+  the localized body text, a localized template fallback, padded to 70–155 chars.
+  `portShareImage()` (`lib/ports/share.ts`) uses the cover as `og:image` /
+  `twitter:image` when present.
 
 ## Backend (`api/`)
 

@@ -1,5 +1,4 @@
 import type { Port } from "@/lib/ports/schema";
-
 export const Spearmint: Port = {
   schema: "port",
   id: "spearmint",
@@ -20,11 +19,6 @@ export const Spearmint: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
-  cover: {
-    src: "https://upload.wikimedia.org/wikipedia/commons/0/05/Minze.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
-    alt: "spearmint (cover)",
-    credit: "Wikipedia",
-  },
   notes: "Spearmint — an updated id Tech 3 engine for continuing the classics and creating new games.",
   notesEs: "Spearmint: un motor id Tech 3 actualizado para continuar los clásicos y crear juegos nuevos.",
 };

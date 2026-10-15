@@ -18,6 +18,7 @@ export const PokemonEmerald3dPokeemerald3d: Port = {
   sources: ["https://github.com/tripplyons/pokeemerald-3d"],
   license: { spdx: "NOASSERTION" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystem: "Other",
   notes: "Pokemon Emerald in 3D (in WebAssembly).",

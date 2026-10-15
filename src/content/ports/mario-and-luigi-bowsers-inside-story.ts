@@ -18,6 +18,7 @@ export const MarioAndLuigiBowsersInsideStory: Port = {
   sources: ["https://github.com/istornz/bowsers-inside-story-decomp"],
   license: { spdx: "CC0-1.0" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystem: "Nintendo DS",
   cover: {

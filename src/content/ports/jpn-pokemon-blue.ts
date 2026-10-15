@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const JpnPokemonBlue: Port = {
+  schema: "port",
+  id: "jpn-pokemon-blue",
+  title: "JPN Pokémon Blue",
+  game: "JPN Pokémon Blue",
+  developers: ["Narishma-gb"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Narishma-gb/pokeblue"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  wip: true,
+  sourceVerified: true,
+  originalSystem: "Game Boy",
+  notes: "Disassembly of JPN Pokémon Blue.",
+  notesEs: "Desensamblado de Pokémon Blue (Japón).",
+};

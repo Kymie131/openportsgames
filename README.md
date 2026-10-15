@@ -11,6 +11,8 @@ export plus a small Cloudflare Workers backend (`api/`) that powers optional
 sign-in, ratings and comments.
 
 - EN/ES, dark and light themes.
+- Listings are server-rendered (crawlable) and paginate with real URLs; a
+  **System & tools** section catalogues non-game entries.
 - Translations were assisted by an LLM.
 
 ## Tech

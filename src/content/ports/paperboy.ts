@@ -1,5 +1,4 @@
 import type { Port } from "@/lib/ports/schema";
-
 export const Paperboy: Port = {
   schema: "port",
   id: "paperboy",
@@ -20,11 +19,6 @@ export const Paperboy: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Nintendo 64",
-  cover: {
-    src: "https://upload.wikimedia.org/wikipedia/commons/d/d7/Toronto_Star_paperboy_Whitby.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
-    alt: "Paperboy (cover)",
-    credit: "Wikipedia",
-  },
   notes: "Decompilation of Paperboy (N64).",
   notesEs: "Decompilación de Paperboy (N64).",
 };

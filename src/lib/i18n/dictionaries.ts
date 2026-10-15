@@ -32,6 +32,7 @@ const en = {
     project: "Project",
     guides: "Guides",
     emulators: "Emulators",
+    tools: "Tools",
     submit: "Submit",
     support: "Support",
     about: "About",
@@ -89,11 +90,12 @@ const en = {
     statusStable: "Stable",
     statusBeta: "Beta",
     statusAlpha: "Alpha",
+    inDevelopment: "In development",
     stateVerified: "Verified",
     stateUnverified: "Not verified",
     sortLabel: "Sort",
     sortRelevance: "Relevance",
-    sortTitle: "Title",
+    sortTitle: "Title (A–Z)",
     sortTitleDesc: "Title (Z–A)",
     sortNewest: "Newest",
     sortStars: "GitHub stars",
@@ -144,10 +146,14 @@ const en = {
   },
   detail: {
     backToCatalog: "Back to catalog",
+    backToTools: "System & tools",
     overview: "Overview",
     originalSystem: "Original system",
     technique: "Technique",
     status: "Status",
+    inDevelopment: "In development",
+    inDevelopmentNotice:
+      "Work in progress: there is no playable download yet. For now it is a code repository, so you can follow the decompilation but not play it yet.",
     license: "License",
     licenseNotDetected: "not detected",
     about: "About this port",
@@ -354,6 +360,19 @@ const en = {
     noResults: "No emulators match your search.",
     disclaimer:
       "Emulators require the console BIOS and your own game copies. This catalog hosts no emulator builds or ROMs.",
+  },
+  tools: {
+    title: "Tools",
+    subtitle:
+      "Popular free and open-source programs, grouped by category. Most are alternatives to paid software such as Adobe's or Microsoft's.",
+    intro:
+      "Every entry links to the project's official site. This section is separate from the game catalog.",
+    programsTitle: "Popular programs",
+    replaces: "Replaces",
+    officialSite: "Official site",
+    platformsLabel: "Platforms",
+    systemTitle: "Console system software",
+    empty: "No programs listed yet.",
   },
   submit: {
     title: "Submit",
@@ -639,6 +658,7 @@ const es: Messages = {
     project: "Proyecto",
     guides: "Guías",
     emulators: "Emuladores",
+    tools: "Herramientas",
     submit: "Enviar",
     support: "Apoyo",
     about: "Acerca de",
@@ -697,11 +717,12 @@ const es: Messages = {
     statusStable: "Estable",
     statusBeta: "Beta",
     statusAlpha: "Alfa",
+    inDevelopment: "En desarrollo",
     stateVerified: "Verificado",
     stateUnverified: "No verificado",
     sortLabel: "Ordenar",
     sortRelevance: "Relevancia",
-    sortTitle: "Título",
+    sortTitle: "Título (A–Z)",
     sortTitleDesc: "Título (Z–A)",
     sortNewest: "Más reciente",
     sortStars: "Estrellas de GitHub",
@@ -752,10 +773,14 @@ const es: Messages = {
   },
   detail: {
     backToCatalog: "Volver al catálogo",
+    backToTools: "Sistema y herramientas",
     overview: "Resumen",
     originalSystem: "Sistema original",
     technique: "Técnica",
     status: "Estado",
+    inDevelopment: "En desarrollo",
+    inDevelopmentNotice:
+      "En desarrollo: todavía no hay una versión jugable descargable. Por ahora es un repositorio de código, así que puedes seguir la descompilación pero todavía no jugarlo.",
     license: "Licencia",
     licenseNotDetected: "no detectada",
     about: "Sobre este port",
@@ -962,6 +987,19 @@ const es: Messages = {
     noResults: "Ningún emulador coincide con tu búsqueda.",
     disclaimer:
       "Los emuladores requieren la BIOS de la consola y tus propias copias. Este catálogo no aloja emuladores ni ROMs.",
+  },
+  tools: {
+    title: "Herramientas",
+    subtitle:
+      "Programas libres y gratuitos muy usados, agrupados por categoría. La mayoría son alternativas a software de pago como el de Adobe o Microsoft.",
+    intro:
+      "Cada entrada enlaza al sitio oficial del proyecto. Esta sección es aparte del catálogo de juegos.",
+    programsTitle: "Programas populares",
+    replaces: "Sustituye a",
+    officialSite: "Sitio oficial",
+    platformsLabel: "Plataformas",
+    systemTitle: "Software de sistema de consolas",
+    empty: "Todavía no hay programas listados.",
   },
   submit: {
     title: "Enviar",

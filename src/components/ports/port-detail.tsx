@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
+import { LocalizedLink as Link } from "@/components/i18n/localized-link";
 import {
   ArrowLeft,
   CircleAlert,
@@ -12,6 +12,7 @@ import {
   MessageCircle,
 } from "lucide-react";
 import type { HardwareProfile, Port, TestRecord } from "@/lib/ports/schema";
+import { portKind } from "@/lib/ports/schema";
 import type { TestStatus } from "@/components/catalog/test-badge";
 import { TestBadge } from "@/components/catalog/test-badge";
 import { GiteaMark } from "@/components/platforms/gitea-mark";
@@ -64,16 +65,17 @@ export function PortDetail({
   const t = useT();
   const locale = useLocale();
   const needsOriginalAssets = !port.noOriginalGameRequired;
+  const isGame = portKind(port) === "game";
 
   return (
     <div className="flex flex-col gap-8">
       <div className="flex flex-col gap-3">
         <Link
-          href="/ports"
+          href={isGame ? "/ports" : "/tools"}
           className="inline-flex items-center gap-1 text-sm text-link transition-colors hover:text-link-hover"
         >
           <ArrowLeft className="size-4" aria-hidden="true" />
-          {t.detail.backToCatalog}
+          {isGame ? t.detail.backToCatalog : t.detail.backToTools}
         </Link>
 
         <header className="flex flex-col gap-3">
@@ -94,6 +96,11 @@ export function PortDetail({
             >
               {t.catalog[statusKey(port.status)]}
             </span>
+            {port.wip && (
+              <span className="rounded-full border border-accent/40 bg-[color-mix(in_oklab,var(--accent)_12%,transparent)] px-2 py-0.5 text-xs font-medium text-accent">
+                {t.detail.inDevelopment}
+              </span>
+            )}
             {!port.openSource && (
               <span className="rounded-full bg-[color-mix(in_oklab,var(--danger)_15%,transparent)] px-2 py-0.5 text-xs font-medium text-danger">
                 {t.catalog.closedSource}
@@ -124,6 +131,12 @@ export function PortDetail({
       {port.warning && (
         <p className="rounded-xl border border-warning/40 bg-[color-mix(in_oklab,var(--warning)_12%,transparent)] px-4 py-3 text-sm leading-relaxed text-warning">
           {locale === "es" ? (port.warningEs ?? port.warning) : port.warning}
+        </p>
+      )}
+
+      {port.wip && (
+        <p className="rounded-xl border border-accent/40 bg-[color-mix(in_oklab,var(--accent)_10%,transparent)] px-4 py-3 text-sm leading-relaxed text-accent">
+          {t.detail.inDevelopmentNotice}
         </p>
       )}
 

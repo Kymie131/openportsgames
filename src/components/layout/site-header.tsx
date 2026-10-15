@@ -1,12 +1,13 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import Link from "next/link";
+import { LocalizedLink as Link } from "@/components/i18n/localized-link";
 import { usePathname, useRouter } from "next/navigation";
 import * as Dialog from "@radix-ui/react-dialog";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 import { ChevronDown, Menu, Search, X } from "lucide-react";
-import { useT } from "@/lib/i18n/use-i18n";
+import { useLocale, useT } from "@/lib/i18n/use-i18n";
+import { localizePath, stripLocale } from "@/lib/i18n/locales";
 import { SITE_NAME } from "@/lib/site";
 import { assetPath, cn } from "@/lib/utils";
 import { Container } from "./container";
@@ -21,11 +22,12 @@ const NAV_ITEMS = [
   { href: "/android", key: "android" as const },
   { href: "/console", key: "console" as const },
   { href: "/emulators", key: "emulators" as const },
-  { href: "/guides", key: "guides" as const },
-  { href: "/testing", key: "testing" as const },
+  { href: "/tools", key: "tools" as const },
 ];
 
 const PROJECT_ITEMS = [
+  { href: "/guides", key: "guides" as const },
+  { href: "/testing", key: "testing" as const },
   { href: "/submit", key: "submit" as const },
   { href: "/support", key: "support" as const },
   { href: "/about", key: "about" as const },
@@ -40,8 +42,10 @@ function isActive(pathname: string, href: string): boolean {
 
 export function SiteHeader() {
   const t = useT();
+  const locale = useLocale();
   const pathname = usePathname();
   const router = useRouter();
+  const rest = stripLocale(pathname);
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [query, setQuery] = useState("");
@@ -73,12 +77,13 @@ export function SiteHeader() {
   const submitSearch = (event: React.FormEvent) => {
     event.preventDefault();
     const value = query.trim();
-    const base = pathname.startsWith("/emulators")
+    const base = rest.startsWith("/emulators")
       ? "/emulators"
-      : pathname.startsWith("/console")
+      : rest.startsWith("/console")
         ? "/console"
         : "/ports";
-    router.push(value ? `${base}?q=${encodeURIComponent(value)}` : base);
+    const target = localizePath(locale, base);
+    router.push(value ? `${target}?q=${encodeURIComponent(value)}` : target);
     setOpen(false);
   };
 
@@ -89,27 +94,27 @@ export function SiteHeader() {
         scrolled ? "border-b border-border shadow-sm" : "border-b border-transparent",
       )}
     >
-      <Container wide className="flex h-14 items-center justify-between gap-4 md:h-16">
-        <div className="flex min-w-0 items-center gap-6">
+      <Container wide className="flex h-16 items-center justify-between gap-4 md:h-20">
+        <div className="flex min-w-0 items-center gap-5">
           <Link href="/" className="flex shrink-0 items-center" aria-label={t.nav.home}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={assetPath("/logos/brand/openportsgames-transparent.png")}
               alt=""
-              className="h-7 w-auto"
+              className="h-8 w-auto md:h-9"
             />
           </Link>
 
           <nav aria-label={t.common.mainNav} className="hidden items-center gap-1 xl:flex">
             {NAV_ITEMS.map((item) => {
-              const active = isActive(pathname, item.href);
+              const active = isActive(rest, item.href);
               return (
                 <Link
                   key={item.href}
                   href={item.href}
                   aria-current={active ? "page" : undefined}
                   className={cn(
-                    "rounded-md px-2.5 py-1.5 text-sm transition-colors duration-150",
+                    "whitespace-nowrap rounded-md px-3 py-2 text-sm transition-colors duration-150",
                     active
                       ? "bg-accent text-accent-contrast hover:bg-accent-hover hover:text-accent-contrast"
                       : "text-muted hover:bg-surface-2 hover:text-foreground",
@@ -122,7 +127,7 @@ export function SiteHeader() {
             <DropdownMenu.Root>
               <DropdownMenu.Trigger
                 asChild
-                className="rounded-md px-2.5 py-1.5 text-sm text-muted transition-colors duration-150 hover:bg-surface-2 hover:text-foreground outline-none data-[state=open]:bg-surface-2 data-[state=open]:text-foreground"
+                className="whitespace-nowrap rounded-md px-3 py-2 text-sm text-muted transition-colors duration-150 hover:bg-surface-2 hover:text-foreground outline-none data-[state=open]:bg-surface-2 data-[state=open]:text-foreground"
               >
                 <button type="button" className="inline-flex items-center gap-1">
                   {t.nav.project}
@@ -136,7 +141,7 @@ export function SiteHeader() {
                   className="z-50 min-w-40 rounded-md border border-border bg-background p-1 shadow-md"
                 >
                   {PROJECT_ITEMS.map((item) => {
-                    const active = isActive(pathname, item.href);
+                    const active = isActive(rest, item.href);
                     return (
                       <DropdownMenu.Item key={item.href} asChild className="outline-none">
                         <Link
@@ -172,7 +177,7 @@ export function SiteHeader() {
               onChange={(event) => setQuery(event.target.value)}
               placeholder={t.catalog.searchPlaceholder}
               aria-label={t.catalog.searchPlaceholder}
-              className="w-28 bg-transparent text-xs text-foreground placeholder:text-muted focus:outline-none lg:w-40"
+              className="w-28 bg-transparent text-xs text-foreground placeholder:text-muted focus:outline-none lg:w-36"
             />
             <kbd className="hidden rounded bg-surface-2 px-1.5 py-0.5 font-mono text-[10px] text-muted lg:inline-block">
               /
@@ -241,7 +246,7 @@ export function SiteHeader() {
                   )}
                   <div className="flex flex-col gap-1">
                     {[...NAV_ITEMS, ...PROJECT_ITEMS].map((item) => {
-                      const active = isActive(pathname, item.href);
+                      const active = isActive(rest, item.href);
                       return (
                         <Link
                           key={item.href}

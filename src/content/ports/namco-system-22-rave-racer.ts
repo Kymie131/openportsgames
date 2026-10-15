@@ -13,11 +13,11 @@ export const namcoSystem22RaveRacer: Port = {
   openSource: true,
   platforms: ["windows", "linux"],
   status: "beta",
-  release: { version: "0.7.0", date: "2026-10-10" },
+  release: { version: "0.8.1", date: "2026-10-14" },
   sources: ["https://github.com/spacestate1/namco22-decompile"],
   license: { spdx: "MIT" },
   verified: true,
-  verifiedAt: "2026-09-30",
+  verifiedAt: "2026-10-14",
   originalSystem: "Namco System 22",
   features: [
     "Playable races with sound",

@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { LocalizedLink as Link } from "@/components/i18n/localized-link";
 import { useT } from "@/lib/i18n/use-i18n";
 import { Container } from "./container";
 
@@ -14,6 +14,7 @@ const FOOTER_GROUPS = [
       { href: "/android", key: "android" as const },
       { href: "/console", key: "console" as const },
       { href: "/emulators", key: "emulators" as const },
+      { href: "/tools", key: "tools" as const },
     ],
   },
   {

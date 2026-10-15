@@ -18,6 +18,7 @@ export const psyQDecomp: Port = {
   sources: ["https://github.com/sozud/psy-q-decomp"],
   license: { spdx: "MIT" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystem: "PlayStation",
   notes:

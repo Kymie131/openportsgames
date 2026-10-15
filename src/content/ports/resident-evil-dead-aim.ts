@@ -18,6 +18,7 @@ export const ResidentEvilDeadAim: Port = {
   sources: ["https://github.com/cakehonolulu/Bullseye"],
   license: { spdx: "NOASSERTION" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystem: "PlayStation 2",
   cover: {

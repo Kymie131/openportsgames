@@ -12,7 +12,7 @@ export const cod4Ios: Port = {
   genre: "shooter",
   openSource: true,
   originalGameLicense: "proprietary",
-  platforms: ["ios"],
+  platforms: ["ios", "switch"],
   status: "beta",
   release: { version: null, date: null },
   sources: ["https://github.com/DevZer0D4Y/COD4iOS-COD4NS"],

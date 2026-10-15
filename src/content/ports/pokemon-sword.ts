@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const PokemonSword: Port = {
+  schema: "port",
+  id: "pokemon-sword",
+  title: "Pokémon Sword",
+  game: "Pokémon Sword",
+  developers: ["charlieduzstuf"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/charlieduzstuf/pokesword"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  wip: true,
+  sourceVerified: true,
+  originalSystem: "Other",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/fa/Pok%C3%A9mon_Sword_and_Shield.jpg",
+    alt: "Pokémon Sword (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Matching decompilation of Pokemon Sword (Switch, build 562).",
+  notesEs: "Decompilación que coincide de Pokémon Sword (Switch, build 562).",
+};

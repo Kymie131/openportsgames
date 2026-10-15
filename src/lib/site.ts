@@ -2,6 +2,13 @@
 
 export const SITE_NAME = "OpenPortsGames";
 
+/**
+ * Date the editorial/static pages (home, guides, legal, …) were last revised.
+ * Used as a fixed `<lastmod>` in the sitemap so it reflects content changes
+ * instead of the build time. Bump it when those pages change.
+ */
+export const SITE_CONTENT_UPDATED = "2026-10-14";
+
 export const SITE_DESCRIPTION =
   "Every link goes to the project's page (repository, releases or website), never to game files. Entries with the verification mark were reviewed one by one.";
 

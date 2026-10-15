@@ -12,7 +12,7 @@ export const TheBindingOfIsaacRepentance: Port = {
   genre: "action-adventure",
   openSource: true,
   originalGameLicense: "proprietary",
-  platforms: ["windows", "linux", "macos"],
+  platforms: ["psvita"],
   status: "alpha",
   release: { version: null, date: null },
   sources: ["https://github.com/0xl0cal/repentogxm"],

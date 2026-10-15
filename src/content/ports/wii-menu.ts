@@ -3,6 +3,7 @@ import type { Port } from "@/lib/ports/schema";
 export const wiiMenu: Port = {
   schema: "port",
   id: "wii-menu",
+  kind: "system",
   title: "Wii Menu",
   game: "Wii Menu",
   developers: ["koopthekoopa"],
