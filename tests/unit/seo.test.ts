@@ -8,15 +8,16 @@ describe("meta description summarizer", () => {
     expect(summarize(text)).toBe(text);
   });
 
-  it("cuts long descriptions on a word boundary and appends an ellipsis", () => {
+  it("cuts long descriptions on a word boundary and closes with a period", () => {
     const long =
       "Fully commented disassembly of the first generation Pokémon games that builds " +
       "byte-perfect copies via rgbds. Produces the original Game Boy ROM rather than " +
       "a native modern executable.";
     const summary = summarize(long);
     expect(summary.length).toBeLessThanOrEqual(156);
-    expect(summary.endsWith("…")).toBe(true);
-    expect(summary[summary.length - 2]).not.toBe(" ");
+    expect(summary.endsWith(".")).toBe(true);
+    expect(summary.slice(-2, -1)).not.toBe(" ");
+    expect(summary).not.toContain("…");
   });
 
   it("defaults to a 155-character cap", () => {
@@ -25,11 +26,12 @@ describe("meta description summarizer", () => {
 
   it("hard-cuts an unbroken token longer than the cap", () => {
     const summary = summarize("z".repeat(300));
-    expect(summary).toBe("z".repeat(155) + "…");
+    expect(summary).toBe("z".repeat(155) + ".");
   });
 
-  it("uses the ellipsis glyph, never an ASCII ellipsis", () => {
-    expect(summarize("a".repeat(200))).toContain("…");
+  it("never uses an ellipsis glyph", () => {
+    expect(summarize("a".repeat(200))).not.toContain("…");
+    expect(summarize("a".repeat(200)).endsWith(".")).toBe(true);
   });
 });
 
