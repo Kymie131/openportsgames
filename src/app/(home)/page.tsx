@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     languages: {
       en: `${getSiteUrl()}/en/`,
       es: `${getSiteUrl()}/es/`,
-      "x-default": `${getSiteUrl()}/`,
+      "x-default": `${getSiteUrl()}/en/`,
     },
   },
 };

@@ -23,11 +23,14 @@ Routes live under `app/[lang]` and are generated for `en` and `es`:
 
 - `/en/…` and `/es/…` for every page, including `/en/ports/<slug>/`.
 - `/` is a static language chooser (visible links plus a `navigator.language`
-  redirect); `x-default` points to `/`.
+  redirect); it canonicalizes to `/en/` and is not listed in the sitemap.
 - `/api/ports.json`, `/sitemap.xml`, `/robots.txt` stay at the root and are
   language-neutral.
 - Every page sets a self-referential `canonical` and reciprocal
-  `hreflang` (`en`, `es`, `x-default -> en`). The sitemap lists both locales.
+  `hreflang` (`en`, `es`, `x-default -> /en/`). `x-default` always points to the
+  **English** URL of the same page — a crawlable page listed in the sitemap — so
+  the alternates never cross hreflang clusters. The sitemap lists both locales
+  and repeats the same three alternates on every `<url>`.
 
 ## Legacy URLs (301)
 
