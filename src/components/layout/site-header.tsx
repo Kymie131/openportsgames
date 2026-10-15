@@ -93,14 +93,14 @@ export function SiteHeader() {
         scrolled ? "border-b border-border shadow-sm" : "border-b border-transparent",
       )}
     >
-      <Container wide className="flex h-14 items-center justify-between gap-4 md:h-16">
-        <div className="flex min-w-0 items-center gap-4">
+      <Container wide className="flex h-16 items-center justify-between gap-4 md:h-20">
+        <div className="flex min-w-0 items-center gap-5">
           <Link href="/" className="flex shrink-0 items-center" aria-label={t.nav.home}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={assetPath("/logos/brand/openportsgames-transparent.png")}
               alt=""
-              className="h-7 w-auto"
+              className="h-8 w-auto md:h-9"
             />
           </Link>
 
@@ -113,7 +113,7 @@ export function SiteHeader() {
                   href={item.href}
                   aria-current={active ? "page" : undefined}
                   className={cn(
-                    "whitespace-nowrap rounded-md px-2.5 py-1.5 text-sm transition-colors duration-150",
+                    "whitespace-nowrap rounded-md px-3 py-2 text-sm transition-colors duration-150",
                     active
                       ? "bg-accent text-accent-contrast hover:bg-accent-hover hover:text-accent-contrast"
                       : "text-muted hover:bg-surface-2 hover:text-foreground",
@@ -126,7 +126,7 @@ export function SiteHeader() {
             <DropdownMenu.Root>
               <DropdownMenu.Trigger
                 asChild
-                className="whitespace-nowrap rounded-md px-2.5 py-1.5 text-sm text-muted transition-colors duration-150 hover:bg-surface-2 hover:text-foreground outline-none data-[state=open]:bg-surface-2 data-[state=open]:text-foreground"
+                className="whitespace-nowrap rounded-md px-3 py-2 text-sm text-muted transition-colors duration-150 hover:bg-surface-2 hover:text-foreground outline-none data-[state=open]:bg-surface-2 data-[state=open]:text-foreground"
               >
                 <button type="button" className="inline-flex items-center gap-1">
                   {t.nav.project}
