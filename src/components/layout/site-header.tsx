@@ -21,6 +21,7 @@ const NAV_ITEMS = [
   { href: "/android", key: "android" as const },
   { href: "/console", key: "console" as const },
   { href: "/emulators", key: "emulators" as const },
+  { href: "/tools", key: "tools" as const },
   { href: "/guides", key: "guides" as const },
   { href: "/testing", key: "testing" as const },
 ];

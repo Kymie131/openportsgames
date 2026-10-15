@@ -12,6 +12,7 @@ import {
   MessageCircle,
 } from "lucide-react";
 import type { HardwareProfile, Port, TestRecord } from "@/lib/ports/schema";
+import { portKind } from "@/lib/ports/schema";
 import type { TestStatus } from "@/components/catalog/test-badge";
 import { TestBadge } from "@/components/catalog/test-badge";
 import { GiteaMark } from "@/components/platforms/gitea-mark";
@@ -64,16 +65,17 @@ export function PortDetail({
   const t = useT();
   const locale = useLocale();
   const needsOriginalAssets = !port.noOriginalGameRequired;
+  const isGame = portKind(port) === "game";
 
   return (
     <div className="flex flex-col gap-8">
       <div className="flex flex-col gap-3">
         <Link
-          href="/ports"
+          href={isGame ? "/ports" : "/tools"}
           className="inline-flex items-center gap-1 text-sm text-link transition-colors hover:text-link-hover"
         >
           <ArrowLeft className="size-4" aria-hidden="true" />
-          {t.detail.backToCatalog}
+          {isGame ? t.detail.backToCatalog : t.detail.backToTools}
         </Link>
 
         <header className="flex flex-col gap-3">

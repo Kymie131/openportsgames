@@ -16,6 +16,7 @@ import {
   hardware,
 } from "@/lib/ports";
 import { absoluteUrl } from "@/lib/site";
+import { portKind } from "@/lib/ports/schema";
 
 export function generateStaticParams() {
   return [...getPortIdSet()].map((id) => ({ slug: id }));
@@ -69,11 +70,20 @@ export default async function PortPage({
 
   const tests = getTestsForPort(port.id);
   const hardwareById = Object.fromEntries(hardware.map((profile) => [profile.id, profile]));
-
-  return (
-    <>
-      <JsonLd
-        data={{
+  const operatingSystem = port.platforms.map((platform) =>
+    platform === "windows"
+      ? "Windows"
+      : platform === "linux"
+        ? "Linux"
+        : platform === "macos"
+          ? "macOS"
+          : platform === "android"
+            ? "Android"
+            : platform,
+  );
+  const jsonLd =
+    portKind(port) === "game"
+      ? {
           "@context": "https://schema.org",
           "@type": "VideoGame",
           name: port.title,
@@ -83,18 +93,25 @@ export default async function PortPage({
           developer: port.developers.map((name) => ({ "@type": "Organization", name })),
           license: port.license.spdx,
           genre: "Native re-release",
-          operatingSystem: port.platforms.map((platform) =>
-            platform === "windows"
-              ? "Windows"
-              : platform === "linux"
-                ? "Linux"
-                : platform === "macos"
-                  ? "macOS"
-                  : "Android",
-          ),
+          operatingSystem,
           inLanguage: [locale],
-        }}
-      />
+        }
+      : {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          name: port.title,
+          description: port.notes ?? `${port.game} native reimplementation.`,
+          url: absoluteUrl(`/ports/${port.id}`),
+          applicationCategory: "UtilitiesApplication",
+          developer: port.developers.map((name) => ({ "@type": "Organization", name })),
+          license: port.license.spdx,
+          operatingSystem,
+          inLanguage: [locale],
+        };
+
+  return (
+    <>
+      <JsonLd data={jsonLd} />
       <section className="py-8">
         <Container className="max-w-3xl">
           <PortDetail

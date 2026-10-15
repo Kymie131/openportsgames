@@ -4,6 +4,7 @@ import { hardwareProfiles } from "@/content/hardware";
 import { testRecords } from "@/content/tests";
 import {
   hardwareSchema,
+  portKind,
   portSchema,
   testRecordSchema,
   type HardwareProfile,
@@ -42,12 +43,25 @@ export function getPorts(): Port[] {
   return [...ports].sort((a, b) => a.title.localeCompare(b.title));
 }
 
+/** Catalog entries whose `kind` is `game` (excludes system software and tools). */
+export function getGamePorts(): Port[] {
+  return getPorts().filter((port) => portKind(port) === "game");
+}
+
+/** Catalog entries that are not games (system software, tools). */
+export function getToolPorts(): Port[] {
+  return getPorts().filter((port) => portKind(port) !== "game");
+}
+
 /**
  * Ports ordered by release date (newest first). Ports without a date fall to the
- * end, ordered by `verifiedAt` then title.
+ * end, ordered by `verifiedAt` then title. Only `kind: "game"` entries are
+ * included, so the home "Latest releases" never lists system software or tools.
  */
 export function getLatestPorts(limit?: number): Port[] {
-  const sorted = [...ports].sort((a, b) => {
+  const sorted = ports
+    .filter((port) => portKind(port) === "game")
+    .sort((a, b) => {
     const da = a.release.date ?? "";
     const db = b.release.date ?? "";
     if (da !== db) {
@@ -113,8 +127,9 @@ export function getTestsForPort(portId: string): TestRecord[] {
   return (testByPort.get(portId) ?? []).sort((a, b) => b.date.localeCompare(a.date));
 }
 
+/** Number of catalogued games (`kind: "game"`). */
 export function getPortCount(): number {
-  return ports.length;
+  return ports.filter((port) => portKind(port) === "game").length;
 }
 
 /**

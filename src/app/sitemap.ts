@@ -12,6 +12,7 @@ const STATIC_PAGES = [
   "/android",
   "/console",
   "/emulators",
+  "/tools",
   "/testing",
   "/guides",
   "/submit",

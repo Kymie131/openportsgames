@@ -1,5 +1,13 @@
 import MiniSearch from "minisearch";
-import { genres, platformKeys, portTypes, type Genre, type PlatformKey, type Port } from "./schema";
+import {
+  genres,
+  platformKeys,
+  portKind,
+  portTypes,
+  type Genre,
+  type PlatformKey,
+  type Port,
+} from "./schema";
 
 export type SortKey = "relevance" | "title" | "title-desc" | "newest" | "stars";
 export type StatusValue = "stable" | "beta" | "alpha";
@@ -227,6 +235,9 @@ export function applyCatalog(
 
   const results = ports
     .filter((port) => {
+      // System software and tools stay out of the browse listings; a search
+      // query can still surface them.
+      if (portKind(port) !== "game" && query.length === 0) return false;
       if (!port.platforms.some((candidate) => scopePlatforms.includes(candidate))) {
         return false;
       }

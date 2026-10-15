@@ -27,6 +27,8 @@ export const portTypes = [
   "runtime-port",
 ] as const;
 export const portStatuses = ["stable", "beta", "alpha", "takedown"] as const;
+export const portKinds = ["game", "system", "tool"] as const;
+export type PortKind = (typeof portKinds)[number];
 export const genres = [
   "platformer",
   "action-adventure",
@@ -59,6 +61,7 @@ const LICENSE_SPDX = /^[A-Za-z0-9][A-Za-z0-9.+-]*$/;
 const normalPort = z.object({
   schema: z.literal("port"),
   id: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, "id must be a lowercase kebab slug"),
+  kind: z.enum(portKinds).default("game"),
   title: z.string().min(3).max(80),
   game: z.string().min(2).max(80),
   developers: z.array(z.string().min(2).max(40)).min(1).max(6),
@@ -192,6 +195,12 @@ export type Port = {
   schema: "port";
   status: "stable" | "beta" | "alpha";
   id: string;
+  /**
+   * `game` (the default, omitted in most content files), `system` or `tool`.
+   * The zod schema supplies the default, so a validated `Port` always has a
+   * concrete value; use `portKind()` instead of reading it directly.
+   */
+  kind?: PortKind;
   title: string;
   game: string;
   developers: string[];
@@ -248,3 +257,8 @@ export type TakedownPort = {
 
 export type HardwareProfile = z.infer<typeof hardwareSchema>;
 export type TestRecord = z.infer<typeof testRecordSchema>;
+
+/** Resolves a port's kind, applying the schema's `game` default. */
+export function portKind(port: Pick<Port, "kind">): PortKind {
+  return port.kind ?? "game";
+}

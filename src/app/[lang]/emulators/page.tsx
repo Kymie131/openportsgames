@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import type { Metadata } from "next";
 import { Container } from "@/components/layout/container";
 import { EmulatorsClient } from "@/components/emulators/emulators-client";
-import { getPorts } from "@/lib/ports";
+import { getGamePorts } from "@/lib/ports";
 import { originalSystemById } from "@/content/ports/meta";
 import { pageMeta } from "@/lib/seo";
 import { dictionaries } from "@/lib/i18n/dictionaries";
@@ -25,7 +25,7 @@ export async function generateMetadata({
 
 export default function EmulatorsPage() {
   const portsBySystem: Record<string, number> = {};
-  for (const port of getPorts()) {
+  for (const port of getGamePorts()) {
     const system = originalSystemById[port.id];
     if (system) portsBySystem[system] = (portsBySystem[system] ?? 0) + 1;
   }

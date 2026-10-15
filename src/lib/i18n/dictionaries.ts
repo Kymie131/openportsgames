@@ -32,6 +32,7 @@ const en = {
     project: "Project",
     guides: "Guides",
     emulators: "Emulators",
+    tools: "System & tools",
     submit: "Submit",
     support: "Support",
     about: "About",
@@ -142,6 +143,7 @@ const en = {
   },
   detail: {
     backToCatalog: "Back to catalog",
+    backToTools: "System & tools",
     overview: "Overview",
     originalSystem: "Original system",
     technique: "Technique",
@@ -353,6 +355,15 @@ const en = {
     disclaimer:
       "Emulators require the console BIOS and your own game copies. This catalog hosts no emulator builds or ROMs.",
   },
+  tools: {
+    title: "System & tools",
+    subtitle:
+      "System software and low-level tools catalogued next to the games. They are not games: they recreate a console's system software, a kernel or a development tool, and they still need files from a system you own.",
+    intro:
+      "Each entry links to its official project. This section is meant to grow as more open source system software and tools are documented.",
+    count: (count: number) => `${count} entr${count === 1 ? "y" : "ies"}`,
+    empty: "No system software or tools catalogued yet.",
+  },
   submit: {
     title: "Submit",
     subtitle: "How to propose a port or a test, and what the catalog accepts.",
@@ -496,6 +507,7 @@ const es: Messages = {
     project: "Proyecto",
     guides: "Guías",
     emulators: "Emuladores",
+    tools: "Sistema y herramientas",
     submit: "Enviar",
     support: "Apoyo",
     about: "Acerca de",
@@ -607,6 +619,7 @@ const es: Messages = {
   },
   detail: {
     backToCatalog: "Volver al catálogo",
+    backToTools: "Sistema y herramientas",
     overview: "Resumen",
     originalSystem: "Sistema original",
     technique: "Técnica",
@@ -817,6 +830,15 @@ const es: Messages = {
     noResults: "Ningún emulador coincide con tu búsqueda.",
     disclaimer:
       "Los emuladores requieren la BIOS de la consola y tus propias copias. Este catálogo no aloja emuladores ni ROMs.",
+  },
+  tools: {
+    title: "Sistema y herramientas",
+    subtitle:
+      "Software de sistema y herramientas de bajo nivel catalogados junto a los juegos. No son juegos: recrean el software de sistema de una consola, un kernel o una herramienta de desarrollo, y también necesitan archivos de un sistema que poseas.",
+    intro:
+      "Cada entrada enlaza a su proyecto oficial. Esta sección está pensada para crecer a medida que se documenten más herramientas y software de sistema de código abierto.",
+    count: (count: number) => `${count} entr${count === 1 ? "ada" : "adas"}`,
+    empty: "Todavía no hay software de sistema ni herramientas catalogadas.",
   },
   submit: {
     title: "Enviar",

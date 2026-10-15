@@ -34,13 +34,18 @@ scripts/        Release checker, static preview
 
 ## Port schema
 
-`src/lib/ports/schema.ts` is the reference. Fields: `id`, `title`, `game`,
+`src/lib/ports/schema.ts` is the reference. Fields: `id`, `kind`, `title`, `game`,
 `developers`, `publisher`, `originalYear`, `genre`, `openSource`,
 `originalGameLicense`, `portType`, `platforms`, `status`, `release`, `sources`,
 `website`, `docs`, `discord`, `license`, `verified`, `verifiedAt`, `notes`,
 `notesEs`, `originalSystem`, `features`, `featuresEs`, `requirements`,
 `screenshots`, `cover`, `installGuide`.
 
+- `kind`: `game` (default), `system` or `tool`. Only `game` entries appear in the
+  catalog listings (`/ports`, `/pc`, `/android`, `/console`), the counters, the
+  home "Latest releases"/"Featured" and the paginated listings; `system`/`tool`
+  entries keep their page under `/ports/<slug>/` (indexable, searchable) and are
+  listed under `/tools`. See `getGamePorts()` / `getToolPorts()`.
 - `genre`: `platformer`, `action-adventure`, `rpg`, `racing`, `strategy`,
   `shooter`, `fighting`, `sports`, `simulation`, `open-world`, `puzzle`, `music`.
 - `portType`: `decompilation`, `recompilation`, `reimplementation`,
@@ -71,9 +76,9 @@ and a known profile whose `tester` matches the record's `testerId`.
 A static, versioned snapshot emitted at build time
 (`src/app/api/ports.json/route.ts` via `src/lib/ports/api-json.ts`). Shape:
 `schema`, `version`, `generatedAt`, `site`, `ports[]`, `hardware[]`, `tests[]`.
-`ports` excludes `takedown`. `sources`/`website`/`docs`/`discord` are always
-`https:`. The authoritative zod schema is `catalogApiSchema` in
-`src/lib/ports/api-json.ts`.
+`ports` excludes `takedown` and includes every `kind` (each port carries its
+`kind` field). `sources`/`website`/`docs`/`discord` are always `https:`. The
+authoritative zod schema is `catalogApiSchema` in `src/lib/ports/api-json.ts`.
 
 ## Build and deploy
 

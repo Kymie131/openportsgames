@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import type { Metadata } from "next";
 import { Container } from "@/components/layout/container";
 import { ConsoleClient } from "@/components/console/console-client";
-import { getPorts, getTestStatuses } from "@/lib/ports";
+import { getGamePorts, getTestStatuses } from "@/lib/ports";
 import { originalSystemById } from "@/content/ports/meta";
 import { pageMeta } from "@/lib/seo";
 import { dictionaries } from "@/lib/i18n/dictionaries";
@@ -26,7 +26,7 @@ export async function generateMetadata({
 
 export default function ConsolePage() {
   const portsByPlatform: Record<string, Port[]> = {};
-  for (const port of getPorts()) {
+  for (const port of getGamePorts()) {
     for (const platform of port.platforms) {
       (portsByPlatform[platform] ??= []).push(port);
     }
