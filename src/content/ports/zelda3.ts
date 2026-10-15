@@ -9,6 +9,7 @@ export const zelda3: Port = {
   publisher: "Nintendo",
   originalYear: 1991,
   portType: "decompilation",
+  type: "playable-port",
   genre: "action-adventure",
   openSource: true,
   platforms: ["windows", "linux"],

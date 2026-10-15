@@ -11,6 +11,7 @@ export const spaghettiKart: Port = {
   genre: "racing",
   openSource: true,
   portType: "decompilation",
+  type: "playable-port",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
   release: { version: "1.0.0", date: "2026-02-25" },

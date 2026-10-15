@@ -11,6 +11,7 @@ export const lighthouse: Port = {
   genre: "platformer",
   openSource: true,
   portType: "decompilation",
+  type: "playable-port",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
   release: { version: "1.1.0", date: "2026-08-17" },

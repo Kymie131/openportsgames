@@ -9,6 +9,7 @@ export const shockolate: Port = {
   publisher: "Origin Systems",
   originalYear: 1994,
   portType: "reimplementation",
+  type: "playable-port",
   genre: "action-adventure",
   openSource: true,
   platforms: ["windows", "linux"],

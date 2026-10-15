@@ -11,6 +11,7 @@ export const roadRash64Recompiled: Port = {
   genre: "racing",
   openSource: true,
   portType: "recompilation",
+  type: "playable-port",
   platforms: ["windows", "linux"],
   status: "stable",
   release: { version: "1.4.6", date: "2026-10-14" },

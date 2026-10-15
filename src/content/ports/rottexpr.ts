@@ -11,6 +11,7 @@ export const rottexpr: Port = {
   genre: "shooter",
   openSource: true,
   portType: "source-port",
+  type: "playable-port",
   platforms: ["windows"],
   status: "alpha",
   release: { version: "0.01", date: "2021-01-19" },

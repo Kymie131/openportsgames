@@ -11,6 +11,7 @@ export const harvestMoon64Recomp: Port = {
   genre: "rpg",
   openSource: true,
   portType: "recompilation",
+  type: "playable-port",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
   release: { version: "1.2.2", date: "2026-09-25" },

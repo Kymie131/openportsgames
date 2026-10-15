@@ -9,6 +9,7 @@ export const superMarioBrosRemastered: Port = {
   publisher: "Nintendo",
   originalYear: 1985,
   portType: "reimplementation",
+  type: "playable-port",
   genre: "platformer",
   openSource: true,
   platforms: ["windows", "linux", "macos"],

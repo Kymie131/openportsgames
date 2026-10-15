@@ -11,6 +11,7 @@ export const nuggetDoom: Port = {
   genre: "shooter",
   openSource: true,
   portType: "source-port",
+  type: "playable-port",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
   release: { version: "6.0.1", date: "2026-09-09" },

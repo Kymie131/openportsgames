@@ -11,6 +11,7 @@ export const chocolateDoom: Port = {
   genre: "shooter",
   openSource: true,
   portType: "source-port",
+  type: "playable-port",
   platforms: ["windows", "macos"],
   status: "stable",
   release: { version: "3.1.1", date: "2025-08-14" },

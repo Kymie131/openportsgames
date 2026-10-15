@@ -11,6 +11,7 @@ export const dinosaurPlanetRecomp: Port = {
   genre: "platformer",
   openSource: true,
   portType: "recompilation",
+  type: "playable-port",
   platforms: ["windows", "linux"],
   status: "alpha",
   release: { version: "0.3.0", date: "2026-05-31" },

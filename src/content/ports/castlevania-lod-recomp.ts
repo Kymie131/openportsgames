@@ -11,6 +11,7 @@ export const castlevaniaLodRecomp: Port = {
   genre: "action-adventure",
   openSource: true,
   portType: "recompilation",
+  type: "playable-port",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
   release: { version: "0.2.27", date: "2026-09-28" },

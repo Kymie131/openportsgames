@@ -11,6 +11,7 @@ export const crispyDoom: Port = {
   genre: "shooter",
   openSource: true,
   portType: "source-port",
+  type: "playable-port",
   platforms: ["windows"],
   status: "stable",
   release: { version: "7.2", date: "2026-10-12" },

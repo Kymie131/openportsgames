@@ -9,6 +9,7 @@ export const unchartedNathanDrakeCollectionPc: Port = {
   publisher: "Sony Interactive Entertainment",
   originalYear: 2015,
   portType: "runtime-port",
+  type: "playable-port",
   genre: "action-adventure",
   openSource: true,
   originalGameLicense: "proprietary",

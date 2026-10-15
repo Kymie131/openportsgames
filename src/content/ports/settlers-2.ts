@@ -11,6 +11,7 @@ export const settlers2: Port = {
   genre: "strategy",
   openSource: true,
   portType: "source-port",
+  type: "playable-port",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
   release: { version: "0.9.5", date: "2022-02-28" },

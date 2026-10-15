@@ -8,7 +8,7 @@ export const _3dMaze: Port = {
   developers: ["x86matthew"],
   publisher: "Unknown",
   originalYear: 2000,
-  portType: "decompilation",
+  portType: "runtime-port",
   genre: "action-adventure",
   openSource: true,
   originalGameLicense: "proprietary",

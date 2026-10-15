@@ -11,6 +11,7 @@ export const wargusPort: Port = {
   genre: "strategy",
   openSource: true,
   portType: "source-port",
+  type: "playable-port",
   platforms: ["windows"],
   status: "beta",
   release: { version: "3.3.2", date: "2022-08-10" },

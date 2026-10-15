@@ -9,6 +9,7 @@ export const corsixth: Port = {
   publisher: "Electronic Arts",
   originalYear: 1997,
   portType: "reimplementation",
+  type: "playable-port",
   genre: "simulation",
   openSource: true,
   platforms: ["windows", "linux", "macos"],

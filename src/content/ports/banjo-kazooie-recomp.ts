@@ -11,6 +11,7 @@ export const banjoKazooieRecomp: Port = {
   genre: "platformer",
   openSource: true,
   portType: "recompilation",
+  type: "playable-port",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
   release: { version: "1.0.2", date: "2026-07-31" },

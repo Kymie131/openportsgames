@@ -9,6 +9,7 @@ export const sonic12: Port = {
   publisher: "Sega",
   originalYear: 1991,
   portType: "decompilation",
+  type: "playable-port",
   genre: "platformer",
   openSource: true,
   platforms: ["windows", "linux", "macos"],

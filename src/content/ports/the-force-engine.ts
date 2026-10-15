@@ -11,6 +11,7 @@ export const theForceEngine: Port = {
   genre: "action-adventure",
   openSource: true,
   portType: "reimplementation",
+  type: "playable-port",
   platforms: ["windows"],
   status: "beta",
   release: { version: "1.22.420", date: "2025-09-10" },

@@ -11,6 +11,7 @@ export const rbDoom3Bfg: Port = {
   genre: "shooter",
   openSource: true,
   portType: "source-port",
+  type: "playable-port",
   platforms: ["windows"],
   status: "stable",
   release: { version: "1.6.0", date: "2025-05-10" },

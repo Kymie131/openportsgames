@@ -9,6 +9,7 @@ export const openRct2: Port = {
   publisher: "Infogrames",
   originalYear: 2002,
   portType: "reimplementation",
+  type: "playable-port",
   genre: "simulation",
   openSource: true,
   platforms: ["windows", "linux", "macos"],

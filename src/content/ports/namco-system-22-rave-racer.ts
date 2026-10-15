@@ -9,6 +9,7 @@ export const namcoSystem22RaveRacer: Port = {
   publisher: "Namco",
   originalYear: 1995,
   portType: "decompilation",
+  type: "playable-port",
   genre: "racing",
   openSource: true,
   platforms: ["windows", "linux"],

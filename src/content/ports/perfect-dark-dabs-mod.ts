@@ -11,6 +11,7 @@ export const perfectDarkDabsMod: Port = {
   genre: "shooter",
   openSource: true,
   portType: "decompilation",
+  type: "playable-port",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
   release: { version: "3.14.0", date: "2026-10-03" },

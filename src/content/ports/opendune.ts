@@ -9,6 +9,7 @@ export const openDune: Port = {
   publisher: "Virgin Interactive",
   originalYear: 1992,
   portType: "reimplementation",
+  type: "playable-port",
   genre: "strategy",
   openSource: true,
   platforms: ["windows", "linux", "macos"],

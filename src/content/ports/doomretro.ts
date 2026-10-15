@@ -11,6 +11,7 @@ export const doomRetro: Port = {
   genre: "shooter",
   openSource: true,
   portType: "source-port",
+  type: "playable-port",
   platforms: ["windows"],
   status: "stable",
   release: { version: "6.3", date: "2026-08-08" },

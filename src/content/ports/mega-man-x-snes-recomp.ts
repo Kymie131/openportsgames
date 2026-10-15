@@ -11,6 +11,7 @@ export const megaManXSnesRecomp: Port = {
   genre: "platformer",
   openSource: true,
   portType: "recompilation",
+  type: "playable-port",
   platforms: ["windows", "linux"],
   status: "beta",
   release: { version: "2.2.3-alpha", date: "2026-10-14" },

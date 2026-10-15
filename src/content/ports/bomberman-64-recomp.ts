@@ -11,6 +11,7 @@ export const bomberman64Recomp: Port = {
   genre: "action-adventure",
   openSource: true,
   portType: "recompilation",
+  type: "playable-port",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
   release: { version: "1.0.0", date: "2026-03-22" },

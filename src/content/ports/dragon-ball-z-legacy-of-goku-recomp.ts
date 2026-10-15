@@ -11,6 +11,7 @@ export const dragonBallZLegacyOfGokuRecomp: Port = {
   genre: "rpg",
   openSource: true,
   portType: "recompilation",
+  type: "playable-port",
   platforms: ["windows"],
   status: "alpha",
   release: { version: "0.0.2", date: "2026-08-03" },

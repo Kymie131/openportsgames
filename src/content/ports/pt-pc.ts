@@ -9,6 +9,7 @@ export const ptPc: Port = {
   publisher: "Konami",
   originalYear: 2014,
   portType: "reimplementation",
+  type: "playable-port",
   genre: "action-adventure",
   openSource: true,
   originalGameLicense: "proprietary",

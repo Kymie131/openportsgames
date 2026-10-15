@@ -11,6 +11,7 @@ export const spaceCadetPinball: Port = {
   genre: "simulation",
   openSource: true,
   portType: "reimplementation",
+  type: "playable-port",
   platforms: ["windows", "macos"],
   status: "stable",
   release: { version: "2.1.0", date: "2023-10-16" },

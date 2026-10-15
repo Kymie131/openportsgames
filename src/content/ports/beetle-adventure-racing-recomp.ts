@@ -11,6 +11,7 @@ export const beetleAdventureRacingRecomp: Port = {
   genre: "racing",
   openSource: true,
   portType: "recompilation",
+  type: "playable-port",
   platforms: ["windows"],
   status: "alpha",
   release: { version: "0.4.2-alpha", date: "2026-09-20" },

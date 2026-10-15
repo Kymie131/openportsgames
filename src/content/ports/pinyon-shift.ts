@@ -9,6 +9,7 @@ export const pinyonShift: Port = {
   publisher: "Microsoft Studios",
   originalYear: 2012,
   portType: "recompilation",
+  type: "playable-port",
   genre: "racing",
   openSource: true,
   originalGameLicense: "proprietary",

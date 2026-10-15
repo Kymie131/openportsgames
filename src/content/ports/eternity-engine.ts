@@ -11,6 +11,7 @@ export const eternityEngine: Port = {
   genre: "shooter",
   openSource: true,
   portType: "source-port",
+  type: "playable-port",
   platforms: ["windows"],
   status: "alpha",
   release: { version: "4.06.00", date: "2026-06-13" },

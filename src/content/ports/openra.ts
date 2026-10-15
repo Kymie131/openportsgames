@@ -9,6 +9,7 @@ export const openra: Port = {
   publisher: "Virgin Interactive",
   originalYear: 1996,
   portType: "reimplementation",
+  type: "playable-port",
   genre: "strategy",
   openSource: true,
   platforms: ["windows", "linux", "macos"],

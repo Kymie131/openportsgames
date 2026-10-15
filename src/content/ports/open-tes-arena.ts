@@ -11,6 +11,7 @@ export const openTesaArena: Port = {
   genre: "rpg",
   openSource: true,
   portType: "source-port",
+  type: "playable-port",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
   release: { version: "0.18.0", date: "2026-08-13" },

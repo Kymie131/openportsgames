@@ -9,6 +9,7 @@ export const openjazz: Port = {
   publisher: "Epic MegaGames",
   originalYear: 1994,
   portType: "reimplementation",
+  type: "playable-port",
   genre: "platformer",
   openSource: true,
   platforms: ["windows", "linux", "macos"],

@@ -11,6 +11,7 @@ export const conkerBadFurDayRecomp: Port = {
   genre: "platformer",
   openSource: true,
   portType: "recompilation",
+  type: "playable-port",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
   release: { version: "0.1.6", date: "2026-10-13" },

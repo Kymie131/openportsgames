@@ -11,6 +11,7 @@ export const smwRev: Port = {
   genre: "platformer",
   openSource: true,
   portType: "reimplementation",
+  type: "playable-port",
   platforms: ["windows"],
   status: "alpha",
   release: { version: "0.1", date: "2023-08-16" },

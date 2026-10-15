@@ -11,6 +11,7 @@ export const doom3Dude: Port = {
   genre: "shooter",
   openSource: true,
   portType: "source-port",
+  type: "playable-port",
   platforms: ["windows", "linux"],
   status: "beta",
   release: { version: "0.9.5", date: "2026-10-05" },

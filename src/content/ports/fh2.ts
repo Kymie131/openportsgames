@@ -9,6 +9,7 @@ export const fh2: Port = {
   publisher: "The 3DO Company",
   originalYear: 1996,
   portType: "reimplementation",
+  type: "playable-port",
   genre: "strategy",
   openSource: true,
   platforms: ["windows", "linux", "macos", "android"],
