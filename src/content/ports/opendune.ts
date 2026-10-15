@@ -27,4 +27,5 @@ export const openDune: Port = {
     alt: "Dune II (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["MS-DOS"],
 };

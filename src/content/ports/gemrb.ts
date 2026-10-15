@@ -37,4 +37,5 @@ export const gemrb: Port = {
     alt: "Baldur's Gate (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["MS-DOS","Windows"],
 };

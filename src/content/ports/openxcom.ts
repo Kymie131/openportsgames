@@ -65,4 +65,5 @@ export const openXcom: Port = {
     alt: "X-COM: UFO Defense (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["MS-DOS","Amiga"],
 };

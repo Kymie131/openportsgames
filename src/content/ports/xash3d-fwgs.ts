@@ -62,4 +62,5 @@ export const xash3d: Port = {
     alt: "Half-Life (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["Windows"],
 };

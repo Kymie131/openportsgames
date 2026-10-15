@@ -30,4 +30,5 @@ export const vcmi: Port = {
     alt: "Heroes of Might and Magic III (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["MS-DOS","Windows"],
 };

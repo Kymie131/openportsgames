@@ -66,4 +66,5 @@ export const openTtd: Port = {
     alt: "Transport Tycoon Deluxe (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["MS-DOS","Amiga"],
 };

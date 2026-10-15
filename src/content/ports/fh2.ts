@@ -63,4 +63,5 @@ export const fh2: Port = {
     alt: "Heroes of Might and Magic II (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["MS-DOS"],
 };

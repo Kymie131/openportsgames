@@ -882,7 +882,7 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "pokemon-puzzle-league": ["Unknown"],
   "shin-megami-tensei-persona-4": ["PlayStation 2"],
   starflight: ["Unknown"],
-  "alien-vs-predator-2": ["Unknown"],
+  "alien-vs-predator-2": ["Windows"],
   "another-mind": ["Unknown"],
   "boss-rally": ["Unknown"],
   "bumpys-arcade-fantasy": ["Arcade"],

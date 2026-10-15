@@ -28,4 +28,5 @@ export const openjazz: Port = {
     alt: "Jazz Jackrabbit (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["MS-DOS"],
 };
