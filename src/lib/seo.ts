@@ -31,11 +31,17 @@ export function pageMeta({
   title,
   description,
   path,
+  image,
+  twitterCard,
 }: {
   locale: Locale;
   title?: string;
   description: string;
   path: string;
+  /** Per-page share image; falls back to the generic OpenPortsGames card. */
+  image?: { url: string; alt: string };
+  /** Overrides the Twitter card type (defaults to `summary` when an image is set). */
+  twitterCard?: "summary" | "summary_large_image";
 }): Metadata {
   const canonical = absoluteUrl(localizePath(locale, path));
   const languages = {
@@ -43,6 +49,7 @@ export function pageMeta({
     es: absoluteUrl(localizePath("es", path)),
     "x-default": absoluteUrl(localizePath("en", path)),
   };
+  const ogImages = image ? [{ url: image.url, alt: image.alt }] : [OG_IMAGE];
   return {
     ...(title ? { title } : {}),
     description,
@@ -55,13 +62,13 @@ export function pageMeta({
       type: "website",
       locale: OG_LOCALE[locale],
       alternateLocale: locale === "es" ? ["en_US"] : ["es_ES"],
-      images: [OG_IMAGE],
+      images: ogImages,
     },
     twitter: {
-      card: "summary_large_image",
+      card: twitterCard ?? (image ? "summary" : "summary_large_image"),
       title: title ? `${title} · ${SITE_NAME}` : SITE_NAME,
       description,
-      images: [OG_IMAGE.url],
+      images: [image ? image.url : OG_IMAGE.url],
     },
   };
 }

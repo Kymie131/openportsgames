@@ -6,6 +6,7 @@ import { TakedownNotice } from "@/components/ports/takedown-notice";
 import { JsonLd } from "@/components/seo/json-ld";
 import { pageMeta } from "@/lib/seo";
 import { portDescription } from "@/lib/ports/description";
+import { portShareImage } from "@/lib/ports/share";
 import { asLocale } from "@/lib/i18n/locales";
 import { dictionaries } from "@/lib/i18n/dictionaries";
 import {
@@ -40,11 +41,14 @@ export async function generateMetadata({
       robots: { index: false, follow: false },
     };
   }
+  const image = portShareImage(locale, port);
   return pageMeta({
     locale,
     title: port.title,
     description: portDescription(locale, port, dictionaries[locale]),
     path: `/ports/${port.id}`,
+    image,
+    twitterCard: image ? "summary" : "summary_large_image",
   });
 }
 
