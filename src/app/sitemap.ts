@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getPorts, portLastModified } from "@/lib/ports";
+import { catalogPageCount, type CatalogScope } from "@/lib/ports/catalog";
 import { absoluteUrl, SITE_CONTENT_UPDATED } from "@/lib/site";
 import { locales, localizePath } from "@/lib/i18n/locales";
 
@@ -21,6 +22,13 @@ const STATIC_PAGES = [
   "/legal",
 ];
 
+/** Sections whose listings paginate at `/…/page/N/` (page 1 is the base path). */
+const PAGINATED: { base: string; scope: CatalogScope }[] = [
+  { base: "/ports", scope: "all" },
+  { base: "/pc", scope: "pc" },
+  { base: "/android", scope: "android" },
+];
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
 
@@ -40,7 +48,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
   };
 
   for (const path of STATIC_PAGES) addPath(path, SITE_CONTENT_UPDATED);
-  for (const port of getPorts()) addPath(`/ports/${port.id}`, portLastModified(port));
+
+  const allPorts = getPorts();
+  for (const { base, scope } of PAGINATED) {
+    const pages = catalogPageCount(allPorts, scope);
+    for (let page = 2; page <= pages; page += 1) {
+      addPath(`${base}/page/${page}`, SITE_CONTENT_UPDATED);
+    }
+  }
+
+  for (const port of allPorts) addPath(`/ports/${port.id}`, portLastModified(port));
 
   return entries;
 }

@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
 import * as Dialog from "@radix-ui/react-dialog";
 import { ChevronDown, Search, SlidersHorizontal, X } from "lucide-react";
 import type { ReactNode } from "react";
@@ -31,7 +32,8 @@ import {
   type TestedValue,
 } from "@/lib/ports/catalog";
 import { PortTile } from "./port-tile";
-import { useT } from "@/lib/i18n/use-i18n";
+import { useLocale, useT } from "@/lib/i18n/use-i18n";
+import { localizePath } from "@/lib/i18n/locales";
 import { cn } from "@/lib/utils";
 
 function toggleValue(list: string[], value: string): string[] {
@@ -45,6 +47,8 @@ export function CatalogClient({
   originalSystems,
   stars,
   scope,
+  page,
+  basePath,
 }: {
   ports: Port[];
   testStatuses: Record<string, "current" | "stale">;
@@ -52,14 +56,19 @@ export function CatalogClient({
   originalSystems: Record<string, string>;
   stars: Record<string, number>;
   scope: CatalogScope;
+  /** Current 1-based page, from the path (`/ports/page/N/`). */
+  page: number;
+  /** Section path without the locale, e.g. `/ports`, `/pc`, `/android`. */
+  basePath: string;
 }) {
   const t = useT();
-  const pathname = usePathname();
+  const locale = useLocale();
   const router = useRouter();
-  const searchParams = useSearchParams();
 
-  const searchKey = searchParams.toString();
-  const state = useMemo(() => parseCatalogState(new URLSearchParams(searchKey)), [searchKey]);
+  // The server render and the first client render both use the default state so
+  // hydration matches. The filters are read from the URL after mount, which lets
+  // the static HTML keep the crawlable list instead of bailing out to CSR.
+  const [state, setState] = useState<CatalogState>(defaultCatalogState);
   const [draft, setDraft] = useState(state.query);
   const [drawerOpen, setDrawerOpen] = useState(false);
   const index = useMemo(() => buildIndex(ports), [ports]);
@@ -68,11 +77,30 @@ export function CatalogClient({
     () => applyCatalog(ports, index, state, scope, { originalSystems, testResults, stars }),
     [ports, index, state, scope, originalSystems, testResults, stars],
   );
-  const pageResult = useMemo(() => paginate(results, state.page), [results, state.page]);
+  const pageResult = useMemo(() => paginate(results, page), [results, page]);
 
-  // Sync draft when the URL query changes externally (navigation, back/forward).
-  // useState alone freezes the first-render value, so client-side navigation can
-  // start with a stale query that filters the list to a single port.
+  const sectionHref = localizePath(locale, basePath);
+
+  // Progressive enhancement: read the filters from the URL once mounted and on
+  // back/forward, without forcing the whole subtree to render on the client.
+  useEffect(() => {
+    const readUrl = () => setState(parseCatalogState(new URLSearchParams(window.location.search)));
+    readUrl();
+    window.addEventListener("popstate", readUrl);
+    return () => window.removeEventListener("popstate", readUrl);
+  }, []);
+
+  const queryParams = () => {
+    const params = catalogStateToParams({ ...state, page: 1 });
+    return params.size ? `?${params.toString()}` : "";
+  };
+
+  const pageHref = (target: number) => {
+    const base = target === 1 ? sectionHref : `${sectionHref}page/${target}/`;
+    return `${base}${queryParams()}`;
+  };
+
+  // Sync draft when the query changes externally (navigation, back/forward).
   const pushedQuery = useRef(state.query);
   useEffect(() => {
     if (state.query === pushedQuery.current) return;
@@ -83,18 +111,18 @@ export function CatalogClient({
   const scopePlatforms = SCOPED_PLATFORMS[scope];
 
   const commit = (next: CatalogState) => {
-    const params = catalogStateToParams(next);
-    const href = params.size ? `${pathname}?${params.toString()}` : pathname;
+    const params = catalogStateToParams({ ...next, page: 1 });
+    const href = params.size ? `${sectionHref}?${params.toString()}` : sectionHref;
+    setState({ ...next, page: 1 });
     void router.replace(href, { scroll: false });
   };
 
   const clear = () => {
     pushedQuery.current = "";
     setDraft("");
-    void router.replace(pathname, { scroll: false });
+    setState(defaultCatalogState);
+    void router.replace(sectionHref, { scroll: false });
   };
-
-  const goToPage = (page: number) => commit({ ...state, page });
 
   const resultsHeadingRef = useRef<HTMLHeadingElement>(null);
   const gridRef = useRef<HTMLDivElement>(null);
@@ -112,12 +140,13 @@ export function CatalogClient({
       pushedQuery.current = draft;
       const next = { ...state, query: draft, sort: defaultCatalogState.sort, page: 1 };
       const params = catalogStateToParams(next);
-      void router.replace(params.size ? `${pathname}?${params.toString()}` : pathname, {
+      setState(next);
+      void router.replace(params.size ? `${sectionHref}?${params.toString()}` : sectionHref, {
         scroll: false,
       });
     }, 150);
     return () => window.clearTimeout(id);
-  }, [draft, state, pathname, router]);
+  }, [draft, state, sectionHref, router]);
 
   const filterCount = activeFilterCount(state);
   const canClear = hasActiveFilters(state);
@@ -227,7 +256,7 @@ export function CatalogClient({
               <Pagination
                 page={pageResult.page}
                 pageCount={pageResult.pageCount}
-                onPageChange={goToPage}
+                hrefFor={pageHref}
               />
             </>
           ) : (
@@ -322,57 +351,57 @@ const PAGER_ACTIVE =
 function Pagination({
   page,
   pageCount,
-  onPageChange,
+  hrefFor,
 }: {
   page: number;
   pageCount: number;
-  onPageChange: (page: number) => void;
+  hrefFor: (page: number) => string;
 }) {
   const t = useT();
   if (pageCount <= 1) return null;
   const items = pageWindow(page, pageCount);
+
+  const link = (target: number, label: ReactNode, active: boolean, disabled: boolean, aria: string) => {
+    if (disabled) {
+      return (
+        <span
+          key={`disabled-${target}-${aria}`}
+          aria-disabled="true"
+          className={cn(PAGER_BASE, PAGER_INACTIVE, "cursor-not-allowed opacity-50")}
+        >
+          {label}
+        </span>
+      );
+    }
+    return (
+      <Link
+        key={`page-${target}-${aria}`}
+        href={hrefFor(target)}
+        aria-current={active ? "page" : undefined}
+        aria-label={aria}
+        className={cn(PAGER_BASE, active ? PAGER_ACTIVE : PAGER_INACTIVE)}
+      >
+        {label}
+      </Link>
+    );
+  };
 
   return (
     <nav
       aria-label={t.catalog.pagination}
       className="flex flex-wrap items-center justify-center gap-1.5"
     >
-      <button
-        type="button"
-        onClick={() => onPageChange(page - 1)}
-        disabled={page <= 1}
-        aria-disabled={page <= 1}
-        className={cn(PAGER_BASE, PAGER_INACTIVE)}
-      >
-        {t.catalog.previous}
-      </button>
+      {link(page - 1, t.catalog.previous, false, page <= 1, t.catalog.previous)}
       {items.map((item, index) =>
         item === "…" ? (
           <span key={`gap-${index}`} aria-hidden="true" className="px-1 text-muted">
             …
           </span>
         ) : (
-          <button
-            key={item}
-            type="button"
-            onClick={() => onPageChange(item)}
-            aria-current={item === page ? "page" : undefined}
-            aria-label={t.catalog.goToPage(item)}
-            className={cn(PAGER_BASE, item === page ? PAGER_ACTIVE : PAGER_INACTIVE)}
-          >
-            {item}
-          </button>
+          link(item, item, item === page, false, t.catalog.goToPage(item))
         ),
       )}
-      <button
-        type="button"
-        onClick={() => onPageChange(page + 1)}
-        disabled={page >= pageCount}
-        aria-disabled={page >= pageCount}
-        className={cn(PAGER_BASE, PAGER_INACTIVE)}
-      >
-        {t.catalog.next}
-      </button>
+      {link(page + 1, t.catalog.next, false, page >= pageCount, t.catalog.next)}
     </nav>
   );
 }

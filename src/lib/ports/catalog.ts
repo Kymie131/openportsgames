@@ -49,8 +49,8 @@ export const defaultCatalogState: CatalogState = {
   page: 1,
 };
 
-/** Ports shown per catalog page. */
-export const PAGE_SIZE = 30;
+/** Ports shown per catalog page. Also the number of links rendered server-side. */
+export const PAGE_SIZE = 48;
 
 const CONSOLE_PLATFORMS: PlatformKey[] = [
   "switch",
@@ -75,6 +75,26 @@ export const SCOPED_PLATFORMS: Record<"all" | "pc" | "android" | "console", Plat
 };
 
 export type CatalogScope = keyof typeof SCOPED_PLATFORMS;
+
+/**
+ * The list shown with the default state (no filters, no query, no sort): every
+ * `game` in the scope, ordered by title. This is the deterministic order the
+ * catalog UI falls back to, so the server-rendered HTML and the hydrated client
+ * agree.
+ */
+export function browseCatalog(ports: Port[], scope: CatalogScope): Port[] {
+  const scopePlatforms = SCOPED_PLATFORMS[scope];
+  return ports
+    .filter(
+      (port) => portKind(port) === "game" && port.platforms.some((p) => scopePlatforms.includes(p)),
+    )
+    .sort((a, b) => a.title.localeCompare(b.title));
+}
+
+/** Number of pages for a scope using the default state. */
+export function catalogPageCount(ports: Port[], scope: CatalogScope): number {
+  return Math.max(1, Math.ceil(browseCatalog(ports, scope).length / PAGE_SIZE));
+}
 
 export interface CatalogOptions {
   originalSystems?: Record<string, string>;
