@@ -18,6 +18,7 @@ export const guiltyGearRecomp: Port = {
   sources: ["https://github.com/omegakatana92/GuiltyGearRecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
+  wip: true,
   originalSystem: "PlayStation",
   notes:
     "Recompilation of Guilty Gear (PS1) under development with PSXRecomp. It ships a Windows launcher where you pick your own .cue and use either the bundled OpenBIOS or your own BIOS; the project is still a work in progress and not considered finished.",

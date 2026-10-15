@@ -18,6 +18,7 @@ export const PokemonSword: Port = {
   sources: ["https://github.com/charlieduzstuf/pokesword"],
   license: { spdx: "NOASSERTION" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystem: "Other",
   cover: {

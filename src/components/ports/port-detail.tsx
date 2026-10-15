@@ -96,6 +96,11 @@ export function PortDetail({
             >
               {t.catalog[statusKey(port.status)]}
             </span>
+            {port.wip && (
+              <span className="rounded-full border border-accent/40 bg-[color-mix(in_oklab,var(--accent)_12%,transparent)] px-2 py-0.5 text-xs font-medium text-accent">
+                {t.detail.inDevelopment}
+              </span>
+            )}
             {!port.openSource && (
               <span className="rounded-full bg-[color-mix(in_oklab,var(--danger)_15%,transparent)] px-2 py-0.5 text-xs font-medium text-danger">
                 {t.catalog.closedSource}
@@ -126,6 +131,12 @@ export function PortDetail({
       {port.warning && (
         <p className="rounded-xl border border-warning/40 bg-[color-mix(in_oklab,var(--warning)_12%,transparent)] px-4 py-3 text-sm leading-relaxed text-warning">
           {locale === "es" ? (port.warningEs ?? port.warning) : port.warning}
+        </p>
+      )}
+
+      {port.wip && (
+        <p className="rounded-xl border border-accent/40 bg-[color-mix(in_oklab,var(--accent)_10%,transparent)] px-4 py-3 text-sm leading-relaxed text-accent">
+          {t.detail.inDevelopmentNotice}
         </p>
       )}
 

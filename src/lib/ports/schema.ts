@@ -87,6 +87,8 @@ const normalPort = z.object({
   }),
   verified: z.boolean(),
   verifiedAt: isoDate.optional(),
+  /** Work in progress: the project is still being decompiled/built and there is no playable release yet. */
+  wip: z.boolean().optional(),
   noOriginalGameRequired: z.boolean().optional(),
   notes: z.string().max(1000).optional(),
   notesEs: z.string().max(1000).optional(),
@@ -219,6 +221,8 @@ export type Port = {
   license: { spdx: string; note?: string };
   verified: boolean;
   verifiedAt?: string;
+  /** Work in progress: still being decompiled/built, no playable download yet. */
+  wip?: boolean;
   noOriginalGameRequired?: boolean;
   notes?: string;
   notesEs?: string;

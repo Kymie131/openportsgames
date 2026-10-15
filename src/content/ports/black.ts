@@ -18,6 +18,7 @@ export const Black: Port = {
   sources: ["https://github.com/squiddonaut/pokeblack"],
   license: { spdx: "NOASSERTION" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystem: "Nintendo DS",
   notes: "Decompilation of English Pokémon Black.",

@@ -18,6 +18,7 @@ export const breathOfTheWildDecomp: Port = {
   sources: ["https://github.com/zeldaret/botw"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystem: "Wii U",
   notes:

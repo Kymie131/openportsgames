@@ -37,7 +37,7 @@ scripts/        Release checker, static preview
 `src/lib/ports/schema.ts` is the reference. Fields: `id`, `kind`, `title`, `game`,
 `developers`, `publisher`, `originalYear`, `genre`, `openSource`,
 `originalGameLicense`, `portType`, `platforms`, `status`, `release`, `sources`,
-`website`, `docs`, `discord`, `license`, `verified`, `verifiedAt`, `notes`,
+`website`, `docs`, `discord`, `license`, `verified`, `verifiedAt`, `wip`, `notes`,
 `notesEs`, `originalSystem`, `features`, `featuresEs`, `requirements`,
 `screenshots`, `cover`, `installGuide`.
 
@@ -46,6 +46,9 @@ scripts/        Release checker, static preview
   home "Latest releases"/"Featured" and the paginated listings; `system`/`tool`
   entries keep their page under `/ports/<slug>/` (indexable, searchable) and are
   listed under `/tools`. See `getGamePorts()` / `getToolPorts()`.
+- `wip: true` marks a project that is still being decompiled/built and has no
+  playable release (`release.version` is null). The card and ficha show an "In
+  development" badge and a notice, so visitors do not expect a download.
 - `genre`: `platformer`, `action-adventure`, `rpg`, `racing`, `strategy`,
   `shooter`, `fighting`, `sports`, `simulation`, `open-world`, `puzzle`, `music`.
 - `portType`: `decompilation`, `recompilation`, `reimplementation`,

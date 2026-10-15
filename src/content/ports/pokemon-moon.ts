@@ -18,6 +18,7 @@ export const PokemonMoon: Port = {
   sources: ["https://github.com/gradenGnostic/pokemoon"],
   license: { spdx: "NOASSERTION" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystem: "Other",
   cover: {

@@ -18,6 +18,7 @@ export const sotc: Port = {
   sources: ["https://github.com/Fantaskink/SOTC"],
   license: { spdx: "MIT" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystem: "PlayStation 2",
   notes:

@@ -18,6 +18,7 @@ export const BioMenace: Port = {
   sources: ["https://github.com/lethal-guitar/BioMenaceDecomp"],
   license: { spdx: "GPL-2.0" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystem: "Other",
   cover: {

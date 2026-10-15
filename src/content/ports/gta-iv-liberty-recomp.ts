@@ -18,6 +18,7 @@ export const gtaIvLibertyRecomp: Port = {
   sources: ["https://github.com/OZORDI/LibertyRecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
+  wip: true,
   originalSystem: "Xbox 360",
   notes:
     "Recompilation of the Xbox 360 Grand Theft Auto IV with a ReXGlue SDK fork, in early development. It targets Windows, Linux, macOS and Android (plus iOS and Switch) to bring the game to platforms it never reached.",

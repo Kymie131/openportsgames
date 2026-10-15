@@ -18,6 +18,7 @@ export const LegoBatmanTheVideogame: Port = {
   sources: ["https://github.com/wasdhjklxyz/lbtvg"],
   license: { spdx: "GPL-3.0" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystem: "Other",
   cover: {

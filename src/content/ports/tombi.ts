@@ -18,6 +18,7 @@ export const Tombi: Port = {
   sources: ["https://github.com/afsenovilla/Tombi-Decomp"],
   license: { spdx: "NOASSERTION" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystem: "PlayStation",
   cover: {

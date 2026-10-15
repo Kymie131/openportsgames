@@ -18,6 +18,7 @@ export const JpnPokemonBlue: Port = {
   sources: ["https://github.com/Narishma-gb/pokeblue"],
   license: { spdx: "NOASSERTION" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystem: "Game Boy",
   notes: "Disassembly of JPN Pokémon Blue.",

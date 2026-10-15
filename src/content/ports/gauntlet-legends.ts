@@ -18,6 +18,7 @@ export const GauntletLegends: Port = {
   sources: ["https://github.com/Drahsid/gauntlet-legends"],
   license: { spdx: "NOASSERTION" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystem: "Nintendo 64",
   cover: {

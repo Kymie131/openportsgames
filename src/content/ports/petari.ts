@@ -18,6 +18,7 @@ export const petari: Port = {
   discord: "https://discord.gg/ZxEqyYeZbf",
   license: { spdx: "CC0-1.0" },
   verified: false,
+  wip: true,
   originalSystem: "Wii",
   notes:
     "Ongoing decompilation of Super Mario Galaxy (Wii). No tagged releases yet; builds track the repository and still require assets from the original game.",

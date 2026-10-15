@@ -18,6 +18,7 @@ export const WonderProjectJ2JosetteOfTheCorloForest: Port = {
   sources: ["https://github.com/LLONSIT-glitch/wonder"],
   license: { spdx: "CC0-1.0" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystem: "Other",
   notes: "A work in progress decompilation of Wonder Project J2.",
