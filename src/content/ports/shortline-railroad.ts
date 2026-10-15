@@ -1,5 +1,4 @@
 import type { Port } from "@/lib/ports/schema";
-
 export const ShortlineRailroad: Port = {
   schema: "port",
   id: "shortline-railroad",
@@ -20,11 +19,6 @@ export const ShortlineRailroad: Port = {
   verified: false,
   sourceVerified: true,
   originalSystem: "Other",
-  cover: {
-    src: "https://upload.wikimedia.org/wikipedia/commons/6/67/DCP_0441kyle.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
-    alt: "Shortline railroad (cover)",
-    credit: "Wikipedia",
-  },
   notes: "The reversed source code for ShortLine v1.1 game.",
   notesEs: "El código fuente reconstruido del juego ShortLine v1.1.",
 };

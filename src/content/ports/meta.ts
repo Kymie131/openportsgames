@@ -896,7 +896,7 @@ export const originalSystemById: Record<Port["id"], string> = {
   "the-oregon-trail-windows-95": "Other",
   "aidyn-chronicles-the-first-mage": "Nintendo 64",
   "battlefield-2": "Other",
-  black: "Other",
+  black: "Nintendo DS",
   "chibi-robo": "Other",
   "dragon-quest-ix": "Nintendo DS",
   "earthbound-mother-2": "Other",
