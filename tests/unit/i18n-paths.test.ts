@@ -8,6 +8,25 @@ describe("localizePath", () => {
     expect(localizePath("en", "/")).toBe("/en/");
     expect(localizePath("es", "/guides/")).toBe("/es/guides/");
   });
+
+  it("keeps the trailing slash before the query string", () => {
+    expect(localizePath("es", "/ports?sort=newest")).toBe("/es/ports/?sort=newest");
+    expect(localizePath("en", "/pc?q=zelda&page=2")).toBe("/en/pc/?q=zelda&page=2");
+    expect(localizePath("es", "/ports/")).toBe("/es/ports/");
+  });
+
+  it("keeps the trailing slash before a hash and combined query+hash", () => {
+    expect(localizePath("es", "/guides#faq")).toBe("/es/guides/#faq");
+    expect(localizePath("en", "/ports?sort=newest#top")).toBe("/en/ports/?sort=newest#top");
+    expect(localizePath("es", "/#main")).toBe("/es/#main");
+  });
+
+  it("never emits a slash directly after a query or hash", () => {
+    for (const path of ["/ports?sort=newest", "/ports?q=a#b", "/x#y"]) {
+      const localized = localizePath("es", path);
+      expect(localized).not.toMatch(/[?#][^?#]*\/$/);
+    }
+  });
 });
 
 describe("stripLocale", () => {
