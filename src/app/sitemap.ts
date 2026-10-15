@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getPorts, portLastModified } from "@/lib/ports";
+import { getPorts, isIndexablePort, portLastModified } from "@/lib/ports";
 import { absoluteUrl, SITE_CONTENT_UPDATED } from "@/lib/site";
 import { locales, localizePath } from "@/lib/i18n/locales";
 
@@ -39,7 +39,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   };
 
   for (const path of STATIC_PAGES) addPath(path, SITE_CONTENT_UPDATED);
-  for (const port of getPorts()) addPath(`/ports/${port.id}`, portLastModified(port));
+  for (const port of getPorts()) {
+    if (isIndexablePort(port)) addPath(`/ports/${port.id}`, portLastModified(port));
+  }
 
   return entries;
 }

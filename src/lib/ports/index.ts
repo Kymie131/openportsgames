@@ -46,6 +46,23 @@ export function originalSystemOf(portId: string): string | undefined {
   return originalSystemsOf(portId).find((system) => system !== UNKNOWN_SYSTEM);
 }
 
+/** A port has its own content when it carries notes, features, a guide or art. */
+export function hasOwnContent(port: Port): boolean {
+  return Boolean(
+    port.notes || port.features?.length || port.installGuide || port.screenshots?.length,
+  );
+}
+
+/**
+ * Whether a port may be indexed and listed in the sitemap. Explicit `noindex`
+ * wins; otherwise an unverified port with no content of its own is excluded so
+ * search engines only see entries we can stand behind.
+ */
+export function isIndexablePort(port: Port): boolean {
+  if (port.noindex) return false;
+  return port.verified || hasOwnContent(port);
+}
+
 export function getPorts(): Port[] {
   return [...ports].sort((a, b) => a.title.localeCompare(b.title));
 }

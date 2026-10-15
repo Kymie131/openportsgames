@@ -15,6 +15,7 @@ import {
   getTakedownPort,
   getTestsForPort,
   getTestStatuses,
+  isIndexablePort,
   originalSystemsOf,
   hardware,
 } from "@/lib/ports";
@@ -22,13 +23,6 @@ import { absoluteUrl } from "@/lib/site";
 
 export function generateStaticParams() {
   return [...getPortIdSet()].map((id) => ({ slug: id }));
-}
-
-/** A port has its own content when it carries notes, features, a guide or art. */
-function hasOwnContent(port: NonNullable<ReturnType<typeof getPort>>): boolean {
-  return Boolean(
-    port.notes || port.features?.length || port.installGuide || port.screenshots?.length,
-  );
 }
 
 export async function generateMetadata({
@@ -67,9 +61,7 @@ export async function generateMetadata({
       images: [{ url: ogImage, width: 1200, height: 630, alt: `${port.game} — ${port.title}` }],
     },
     twitter: { ...base.twitter, images: [ogImage] },
-    ...(port.noindex || (!port.verified && !hasOwnContent(port))
-      ? { robots: { index: false, follow: true } }
-      : {}),
+    ...(!isIndexablePort(port) ? { robots: { index: false, follow: true } } : {}),
   };
 }
 
