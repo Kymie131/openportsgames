@@ -117,6 +117,17 @@ export function getPortCount(): number {
   return ports.length;
 }
 
+/**
+ * Date the port's data last changed: its latest release date, else when it was
+ * verified. `undefined` when neither is known, so the sitemap can omit lastmod.
+ */
+export function portLastModified(port: Port): string | undefined {
+  const dates = [port.release.date, port.verifiedAt].filter(
+    (date): date is string => date !== null && date !== undefined,
+  );
+  return dates.length > 0 ? dates.sort().at(-1) : undefined;
+}
+
 export function getAndroidPortCount(): number {
   return ports.filter((port) => port.platforms.includes("android")).length;
 }
