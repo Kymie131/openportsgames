@@ -1,11 +1,11 @@
 import type { Port } from "@/lib/ports/schema";
 
-export const Kamiden: Port = {
+export const JpnPokemonBlue: Port = {
   schema: "port",
-  id: "kamiden",
-  title: "Ōkamiden",
-  game: "Ōkamiden",
-  developers: ["dothacktranslate"],
+  id: "jpn-pokemon-blue",
+  title: "JPN Pokémon Blue",
+  game: "JPN Pokémon Blue",
+  developers: ["Narishma-gb"],
   publisher: "Unknown",
   originalYear: 2000,
   portType: "decompilation",
@@ -15,11 +15,11 @@ export const Kamiden: Port = {
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
   release: { version: null, date: null },
-  sources: ["https://github.com/dothacktranslate/okamiden-decomp"],
+  sources: ["https://github.com/Narishma-gb/pokeblue"],
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo DS",
-  notes: "Decompilation of Okamiden (U) for the Nintendo DS.",
-  notesEs: "Decompilación de Okamiden (U) para Nintendo DS.",
+  originalSystem: "Game Boy",
+  notes: "Disassembly of JPN Pokémon Blue.",
+  notesEs: "Desensamblado de Pokémon Blue (Japón).",
 };

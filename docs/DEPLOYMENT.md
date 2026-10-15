@@ -65,7 +65,7 @@ keep these redirects above any catch-all.
 
 ### Plan B — Bulk Redirects list (CSV)
 
-`docs/redirects-301.csv` holds every mapping explicitly (1.180 rows: 11 sections
+`docs/redirects-301.csv` holds every mapping explicitly (1.197 rows: 11 sections
 plus every port). Regenerate it after catalog changes:
 
 ```bash
@@ -74,6 +74,31 @@ node scripts/gen-redirects.mjs
 
 Upload it under **Rules → Bulk Redirects** as a list with columns
 `source_url,target_url,status`.
+
+### Slug renames (301) — `docs/redirects-slugs.csv`
+
+Slugs are built with `slugify()` in `src/lib/ports/slug.ts`, which decomposes
+Unicode (NFD) and drops diacritics **before** collapsing to a kebab slug. Older
+imports skipped that step, so accented letters became stray hyphens
+(`Pokémon` → `pok-mon`, `Fūrai` → `f-rai`, `Ōkamiden` → `kamiden`). Those slugs
+were regenerated; `docs/redirects-slugs.csv` maps every old URL to its new one
+for the three source forms that can appear in the wild:
+
+```
+https://openportsgames.com/ports/<old>/      ->  .../en/ports/<new>/
+https://openportsgames.com/en/ports/<old>/   ->  .../en/ports/<new>/
+https://openportsgames.com/es/ports/<old>/   ->  .../es/ports/<new>/
+```
+
+(The legacy root form is included so it does not chain through
+`/en/ports/<old>/`.) Regenerate it after editing the rename table:
+
+```bash
+node scripts/gen-slug-redirects.mjs
+```
+
+Upload it under **Rules → Bulk Redirects** with the same
+`source_url,target_url,status` columns, above any catch-all.
 
 ## Cutover order (important)
 

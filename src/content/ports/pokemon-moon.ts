@@ -1,8 +1,8 @@
 import type { Port } from "@/lib/ports/schema";
 
-export const PokMonMoon: Port = {
+export const PokemonMoon: Port = {
   schema: "port",
-  id: "pok-mon-moon",
+  id: "pokemon-moon",
   title: "Pokémon Moon",
   game: "Pokémon Moon",
   developers: ["gradenGnostic"],

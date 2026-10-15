@@ -1,8 +1,8 @@
 import type { Port } from "@/lib/ports/schema";
 
-export const FushigiNoDungeonFRaiNoShiren2OniShRaiShirenJ: Port = {
+export const FushigiNoDungeonFuraiNoShiren2OniShuraiShirenJo: Port = {
   schema: "port",
-  id: "fushigi-no-dungeon-f-rai-no-shiren-2-oni-sh-rai-shiren-j",
+  id: "fushigi-no-dungeon-furai-no-shiren-2-oni-shurai-shiren-jo",
   title: "Fushigi no Dungeon: Fūrai no Shiren 2 — Oni Shūrai! Shiren-jō!",
   game: "Fushigi no Dungeon: Fūrai no Shiren 2 — Oni Shūrai! Shiren-jō!",
   developers: ["mschienbein"],
