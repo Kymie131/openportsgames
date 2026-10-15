@@ -9,7 +9,6 @@ export const spyro3Decomp: Port = {
   publisher: "Sony Computer Entertainment",
   originalYear: 2000,
   portType: "decompilation",
-  type: "decomp-in-progress",
   genre: "platformer",
   openSource: true,
   originalGameLicense: "proprietary",

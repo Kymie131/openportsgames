@@ -9,7 +9,6 @@ export const Arkanoid: Port = {
   publisher: "Unknown",
   originalYear: 2000,
   portType: "decompilation",
-  type: "decomp-in-progress",
   genre: "action-adventure",
   openSource: true,
   originalGameLicense: "proprietary",

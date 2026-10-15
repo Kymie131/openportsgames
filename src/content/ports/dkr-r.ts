@@ -9,7 +9,6 @@ export const dkrR: Port = {
   publisher: "Nintendo",
   originalYear: 1997,
   portType: "recompilation",
-  type: "playable-port",
   genre: "racing",
   openSource: true,
   platforms: ["windows", "linux", "macos"],

@@ -9,7 +9,6 @@ export const crashBandicoot: Port = {
   publisher: "Sony Computer Entertainment",
   originalYear: 1996,
   portType: "recompilation",
-  type: "playable-port",
   genre: "platformer",
   openSource: true,
   platforms: ["windows", "linux", "android"],

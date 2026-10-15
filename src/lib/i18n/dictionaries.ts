@@ -32,6 +32,7 @@ const en = {
     project: "Project",
     guides: "Guides",
     emulators: "Emulators",
+    tools: "Tools",
     submit: "Submit",
     support: "Support",
     about: "About",
@@ -87,6 +88,7 @@ const en = {
     statusStable: "Stable",
     statusBeta: "Beta",
     statusAlpha: "Alpha",
+    inDevelopment: "In development",
     stateVerified: "Verified",
     stateUnverified: "Not verified",
     sortLabel: "Sort",
@@ -115,7 +117,6 @@ const en = {
     showingRange: (from: number, to: number, total: number) =>
       `Showing ${from}–${to} of ${total} ports`,
     resultsHeading: "Catalog results",
-    sameRepo: "Same repository",
     pagination: "Pagination",
     previous: "Previous",
     next: "Next",
@@ -143,13 +144,14 @@ const en = {
   },
   detail: {
     backToCatalog: "Back to catalog",
-    breadcrumb: "Breadcrumb",
-    relatedTitle: "Other ports of the same console, technique or developer",
+    backToTools: "System & tools",
     overview: "Overview",
     originalSystem: "Original system",
-    region: "Region",
     technique: "Technique",
     status: "Status",
+    inDevelopment: "In development",
+    inDevelopmentNotice:
+      "Work in progress: there is no playable download yet. For now it is a code repository, so you can follow the decompilation but not play it yet.",
     license: "License",
     licenseNotDetected: "not detected",
     about: "About this port",
@@ -169,7 +171,6 @@ const en = {
     noTests: "No tests yet.",
     aiLabel: "Declares AI use",
     aiSource: "Project statement",
-    imageCredit: "Image © its owner, shown only to identify the project.",
     unverifiedSource: "Source not verified by the team",
     verifiedSource: "Source verified by the team",
     indexSource: "Source: community index, no project repository",
@@ -225,9 +226,9 @@ const en = {
   home: {
     browseCatalog: "Browse the catalog",
     eyebrow: "Native ports",
-    lead: "Native ports of classic games: decompilations, recompilations and engine rewrites that run on your own PC or phone, with no emulator.",
+    lead: "A catalog where we preserve video games, made by gamers for gamers.",
     leadSub:
-      "Every entry links to the project's own page (repository, releases or website), never to game files. Entries with the verification mark were reviewed one by one against that source.",
+      "Every link goes to the project's page (repository, releases or website), never to game files. Entries with the verification mark were reviewed one by one.",
     statsPorts: (count: number) => `${count} ports catalogued`,
     statsAndroid: (count: number) => `${count} for Android`,
     statsTested: (count: number) =>
@@ -236,7 +237,7 @@ const en = {
       count === 1 ? "1 with a verified source" : `${count} with a verified source`,
     featuredTitle: "Featured ports",
     featuredSubtitle:
-      "A few projects to start with: long-running, open source, with releases you can build from the project's own page.",
+      "Games we won't let die, for posterity and for the love of the art of video games.",
     latestTitle: "Latest releases",
     latestSubtitle:
       "The most recent versions added to the catalog, ordered by the project's own release date.",
@@ -260,7 +261,7 @@ const en = {
       "Projects keep their code public and release through their official channels.",
     principleOwn: "Your own copy",
     principleOwnDesc:
-      "You bring the game; the project brings the engine. No port distributes the original files.",
+      "A library of ports built for your device. You only need your copy of the game.",
     ctaTitle: "Missing a port?",
     ctaDesc:
       "You can propose a port by checking the requirements first and sending it from the Submit page.",
@@ -372,6 +373,19 @@ const en = {
     noResults: "No emulators match your search.",
     disclaimer:
       "Emulators require the console BIOS and your own game copies. This catalog hosts no emulator builds or ROMs.",
+  },
+  tools: {
+    title: "Tools",
+    subtitle:
+      "Popular free and open-source programs, grouped by category. Most are alternatives to paid software such as Adobe's or Microsoft's.",
+    intro:
+      "Every entry links to the project's official site. This section is separate from the game catalog.",
+    programsTitle: "Popular programs",
+    replaces: "Replaces",
+    officialSite: "Official site",
+    platformsLabel: "Platforms",
+    systemTitle: "Console system software",
+    empty: "No programs listed yet.",
   },
   submit: {
     title: "Submit",
@@ -516,6 +530,7 @@ const es: Messages = {
     project: "Proyecto",
     guides: "Guías",
     emulators: "Emuladores",
+    tools: "Herramientas",
     submit: "Enviar",
     support: "Apoyo",
     about: "Acerca de",
@@ -572,6 +587,7 @@ const es: Messages = {
     statusStable: "Estable",
     statusBeta: "Beta",
     statusAlpha: "Alfa",
+    inDevelopment: "En desarrollo",
     stateVerified: "Verificado",
     stateUnverified: "No verificado",
     sortLabel: "Ordenar",
@@ -600,7 +616,6 @@ const es: Messages = {
     showingRange: (from: number, to: number, total: number) =>
       `Mostrando ${from}–${to} de ${total} ports`,
     resultsHeading: "Resultados del catálogo",
-    sameRepo: "Mismo repositorio",
     pagination: "Paginación",
     previous: "Anterior",
     next: "Siguiente",
@@ -628,13 +643,14 @@ const es: Messages = {
   },
   detail: {
     backToCatalog: "Volver al catálogo",
-    breadcrumb: "Ruta de navegación",
-    relatedTitle: "Otros ports de la misma consola, técnica o desarrollador",
+    backToTools: "Sistema y herramientas",
     overview: "Resumen",
     originalSystem: "Sistema original",
-    region: "Región",
     technique: "Técnica",
     status: "Estado",
+    inDevelopment: "En desarrollo",
+    inDevelopmentNotice:
+      "En desarrollo: todavía no hay una versión jugable descargable. Por ahora es un repositorio de código, así que puedes seguir la descompilación pero todavía no jugarlo.",
     license: "Licencia",
     licenseNotDetected: "no detectada",
     about: "Sobre este port",
@@ -654,7 +670,6 @@ const es: Messages = {
     noTests: "Sin pruebas todavía.",
     aiLabel: "Declara uso de IA",
     aiSource: "Declaración del proyecto",
-    imageCredit: "Imagen © de su titular, mostrada solo para identificar el proyecto.",
     unverifiedSource: "Fuente sin verificar por el equipo",
     verifiedSource: "Fuente verificada por el equipo",
     indexSource: "Fuente: índice comunitario, sin repo del proyecto",
@@ -710,9 +725,9 @@ const es: Messages = {
   home: {
     browseCatalog: "Explorar el catálogo",
     eyebrow: "Ports nativos",
-    lead: "Ports nativos de juegos clásicos: decompilaciones, recompilaciones y reescrituras de motor que corren en tu propio PC o móvil, sin emulador.",
+    lead: "Un catálogo donde preservamos los videojuegos, hecho por gamers para gamers.",
     leadSub:
-      "Cada ficha enlaza a la página del propio proyecto (repositorio, releases o web), nunca a archivos del juego. Las fichas con la marca de verificación se revisaron una a una contra esa fuente.",
+      "Cada enlace lleva a la página del proyecto (repositorio, releases o web), nunca a archivos de juegos. Las fichas con la marca de verificación se revisaron una por una.",
     statsPorts: (count: number) => `${count} ports en el catálogo`,
     statsAndroid: (count: number) => `${count} para Android`,
     statsTested: (count: number) =>
@@ -721,7 +736,7 @@ const es: Messages = {
       count === 1 ? "1 con fuente verificada" : `${count} con fuente verificada`,
     featuredTitle: "Ports destacados",
     featuredSubtitle:
-      "Algunos proyectos para empezar: de larga trayectoria, código abierto y con releases que puedes compilar desde su propia página.",
+      "Juegos que no dejaremos morir, por la posteridad y el amor al arte de los videojuegos.",
     latestTitle: "Últimas versiones",
     latestSubtitle:
       "Las versiones más recientes añadidas al catálogo, ordenadas por la fecha de publicación del propio proyecto.",
@@ -745,7 +760,7 @@ const es: Messages = {
       "Los proyectos mantienen su código público y publican por sus canales oficiales.",
     principleOwn: "Tu propia copia",
     principleOwnDesc:
-      "Tú aportas el juego; el proyecto aporta el motor. Ningún port distribuye los archivos originales.",
+      "Una biblioteca de ports pensados para tu dispositivo. Solo necesitas tu copia del juego.",
     ctaTitle: "¿Falta un port?",
     ctaDesc:
       "Puedes proponer un port revisando antes los requisitos y enviándolo desde la página Enviar.",
@@ -857,6 +872,19 @@ const es: Messages = {
     noResults: "Ningún emulador coincide con tu búsqueda.",
     disclaimer:
       "Los emuladores requieren la BIOS de la consola y tus propias copias. Este catálogo no aloja emuladores ni ROMs.",
+  },
+  tools: {
+    title: "Herramientas",
+    subtitle:
+      "Programas libres y gratuitos muy usados, agrupados por categoría. La mayoría son alternativas a software de pago como el de Adobe o Microsoft.",
+    intro:
+      "Cada entrada enlaza al sitio oficial del proyecto. Esta sección es aparte del catálogo de juegos.",
+    programsTitle: "Programas populares",
+    replaces: "Sustituye a",
+    officialSite: "Sitio oficial",
+    platformsLabel: "Plataformas",
+    systemTitle: "Software de sistema de consolas",
+    empty: "Todavía no hay programas listados.",
   },
   submit: {
     title: "Enviar",

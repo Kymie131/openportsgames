@@ -1,5 +1,4 @@
 import type { Port } from "@/lib/ports/schema";
-
 export const Antares: Port = {
   schema: "port",
   id: "antares",
@@ -20,11 +19,6 @@ export const Antares: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
-  cover: {
-    src: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Scorpius_constellation_map.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
-    alt: "Antares (cover)",
-    credit: "Wikipedia",
-  },
   notes: "A tactical space combat game.",
   notesEs: "Un juego de combate espacial táctico.",
 };

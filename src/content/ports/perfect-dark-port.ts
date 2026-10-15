@@ -12,7 +12,7 @@ export const perfectDarkPort: Port = {
   genre: "shooter",
   openSource: true,
   platforms: ["windows", "linux", "macos"],
-  status: "alpha",
+  status: "beta",
   release: { version: null, date: null },
   sources: ["https://github.com/perfect-dark-pc-port/perfect_dark"],
   license: { spdx: "MIT" },

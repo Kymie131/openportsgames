@@ -11,7 +11,6 @@ export const openMohaa: Port = {
   genre: "shooter",
   openSource: true,
   portType: "source-port",
-  type: "playable-port",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
   release: { version: "0.82.1", date: "2025-08-05" },

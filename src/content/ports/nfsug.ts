@@ -9,7 +9,6 @@ export const nfsug: Port = {
   publisher: "Electronic Arts",
   originalYear: 2003,
   portType: "decompilation",
-  type: "decomp-in-progress",
   genre: "racing",
   openSource: true,
   originalGameLicense: "proprietary",

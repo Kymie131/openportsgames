@@ -11,7 +11,6 @@ export const pilotwings64Recomp: Port = {
   genre: "simulation",
   openSource: true,
   portType: "recompilation",
-  type: "playable-port",
   platforms: ["windows", "linux"],
   status: "alpha",
   release: { version: "0.1.1", date: "2026-09-17" },

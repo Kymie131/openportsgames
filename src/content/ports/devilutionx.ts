@@ -9,7 +9,6 @@ export const devilutionX: Port = {
   publisher: "Blizzard Entertainment",
   originalYear: 1996,
   portType: "reimplementation",
-  type: "playable-port",
   genre: "rpg",
   openSource: true,
   platforms: ["windows", "linux", "macos", "android"],

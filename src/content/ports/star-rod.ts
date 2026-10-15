@@ -9,7 +9,6 @@ export const starRod: Port = {
   publisher: "Nintendo",
   originalYear: 2000,
   portType: "decompilation",
-  type: "playable-port",
   genre: "rpg",
   openSource: true,
   platforms: ["windows", "linux", "macos"],

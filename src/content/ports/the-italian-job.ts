@@ -18,6 +18,7 @@ export const TheItalianJob: Port = {
   sources: ["https://github.com/dashr9230/Caper"],
   license: { spdx: "MIT" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystems: ["Unknown"],
   notes: "A work-in-progress non-matching decompilation of The Italian Job (2001) video game.",

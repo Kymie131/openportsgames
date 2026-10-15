@@ -9,7 +9,6 @@ export const openGoal: Port = {
   publisher: "Sony Computer Entertainment",
   originalYear: 2001,
   portType: "decompilation",
-  type: "playable-port",
   genre: "platformer",
   openSource: true,
   platforms: ["windows", "linux", "macos"],

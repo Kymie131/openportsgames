@@ -9,7 +9,6 @@ export const downpourRecomp: Port = {
   publisher: "Konami Digital Entertainment",
   originalYear: 2012,
   portType: "recompilation",
-  type: "playable-port",
   genre: "action-adventure",
   openSource: true,
   platforms: ["windows"],

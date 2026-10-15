@@ -9,7 +9,6 @@ export const breathOfTheWildDecomp: Port = {
   publisher: "Nintendo",
   originalYear: 2017,
   portType: "decompilation",
-  type: "decomp-in-progress",
   genre: "action-adventure",
   openSource: true,
   originalGameLicense: "proprietary",
@@ -19,6 +18,7 @@ export const breathOfTheWildDecomp: Port = {
   sources: ["https://github.com/zeldaret/botw"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystems: ["Wii U"],
   notes:

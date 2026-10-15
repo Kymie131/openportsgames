@@ -9,7 +9,6 @@ export const arxLibertatis: Port = {
   publisher: "JoWooD Productions",
   originalYear: 2002,
   portType: "source-port",
-  type: "playable-port",
   genre: "rpg",
   openSource: true,
   platforms: ["windows", "linux"],

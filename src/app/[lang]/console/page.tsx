@@ -2,13 +2,11 @@ import { Suspense } from "react";
 import type { Metadata } from "next";
 import { Container } from "@/components/layout/container";
 import { ConsoleClient } from "@/components/console/console-client";
-import { JsonLd } from "@/components/seo/json-ld";
-import { getPorts, getTestStatuses } from "@/lib/ports";
+import { getGamePorts, getTestStatuses } from "@/lib/ports";
 import { originalSystemsById } from "@/content/ports/meta";
-import { breadcrumbList, pageMeta } from "@/lib/seo";
+import { pageMeta } from "@/lib/seo";
 import { dictionaries } from "@/lib/i18n/dictionaries";
-import { asLocale, localizePath } from "@/lib/i18n/locales";
-import { absoluteUrl } from "@/lib/site";
+import { asLocale } from "@/lib/i18n/locales";
 import type { Port } from "@/lib/ports/schema";
 
 export async function generateMetadata({
@@ -26,12 +24,9 @@ export async function generateMetadata({
   });
 }
 
-export default async function ConsolePage({ params }: { params: Promise<{ lang: string }> }) {
-  const { lang } = await params;
-  const locale = asLocale(lang);
-  const t = dictionaries[locale];
+export default function ConsolePage() {
   const portsByPlatform: Record<string, Port[]> = {};
-  for (const port of getPorts()) {
+  for (const port of getGamePorts()) {
     for (const platform of port.platforms) {
       (portsByPlatform[platform] ??= []).push(port);
     }
@@ -39,12 +34,6 @@ export default async function ConsolePage({ params }: { params: Promise<{ lang: 
 
   return (
     <section className="py-8">
-      <JsonLd
-        data={breadcrumbList([
-          { name: t.nav.home, url: absoluteUrl(localizePath(locale, "/")) },
-          { name: t.nav.console, url: absoluteUrl(localizePath(locale, "/console")) },
-        ])}
-      />
       <Container>
         <Suspense>
           <ConsoleClient

@@ -18,7 +18,7 @@ export const regaidenRecomp: Port = {
   sources: ["https://github.com/sergiomanzur/regaiden-recomp"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystems: ["Game Boy", "Game Boy Color"],
+  originalSystems: ["Game Boy","Game Boy Color"],
   notes:
     "Static recompilation of Resident Evil Gaiden (Game Boy Color) to native C/C++, with widescreen, dynamic 2D lighting and HD texture support. It needs your own game data.",
   notesEs:

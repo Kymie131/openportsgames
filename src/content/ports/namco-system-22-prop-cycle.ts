@@ -9,7 +9,6 @@ export const namcoSystem22PropCycle: Port = {
   publisher: "Namco",
   originalYear: 1996,
   portType: "decompilation",
-  type: "playable-port",
   genre: "simulation",
   openSource: true,
   platforms: ["windows", "linux"],

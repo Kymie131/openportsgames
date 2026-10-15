@@ -1,13 +1,15 @@
 "use client";
 
-import { useMemo, useRef } from "react";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { useEffect, useMemo, useRef, useState } from "react";
+import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
 import { ArrowLeft, ArrowRight, Search } from "lucide-react";
 import { consoleDefs, getConsoleDef } from "@/content/consoles";
 import { ConsoleMark } from "@/components/emulators/console-mark";
 import { PortTile } from "@/components/catalog/port-tile";
 import type { TestStatus } from "@/components/catalog/test-badge";
 import type { Port } from "@/lib/ports/schema";
+import { localizePath } from "@/lib/i18n/locales";
 import { useLocale, useT } from "@/lib/i18n/use-i18n";
 
 export function ConsoleClient({
@@ -23,11 +25,22 @@ export function ConsoleClient({
   const locale = useLocale();
   const pathname = usePathname();
   const router = useRouter();
-  const params = useSearchParams();
+  const [search, setSearch] = useState("");
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  // Read the query after mount so the console list is server-rendered (crawlable)
+  // instead of bailing out to client-only rendering.
+  useEffect(() => {
+    const read = () => setSearch(window.location.search.replace(/^\?/, ""));
+    read();
+    window.addEventListener("popstate", read);
+    return () => window.removeEventListener("popstate", read);
+  }, []);
+
+  const params = useMemo(() => new URLSearchParams(search), [search]);
   const slug = params.get("console");
   const def = slug ? getConsoleDef(slug) : undefined;
   const query = (params.get("q") ?? "").trim();
-  const inputRef = useRef<HTMLInputElement>(null);
 
   const allPorts = useMemo(() => {
     const seen = new Set<string>();
@@ -49,6 +62,7 @@ export function ConsoleClient({
     const value = (next.q ?? "").trim();
     if (value) sp.set("q", value);
     const s = sp.toString();
+    setSearch(s);
     router.replace(s ? `${pathname}?${s}` : pathname, { scroll: false });
   };
 
@@ -159,13 +173,15 @@ export function ConsoleClient({
       ) : (
         <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {consoleDefs.map((consoleDef) => {
-            const count = (portsByPlatform[consoleDef.platform] ?? []).length;
+            const ports = portsByPlatform[consoleDef.platform] ?? [];
             return (
-              <li key={consoleDef.slug}>
-                <button
-                  type="button"
-                  onClick={() => go({ console: consoleDef.slug })}
-                  className="flex w-full items-center gap-3 rounded-lg border border-border bg-surface p-4 text-left transition-[border-color,background-color] duration-150 hover:border-accent-hover hover:bg-surface-2"
+              <li
+                key={consoleDef.slug}
+                className="rounded-lg border border-border bg-surface p-4 transition-colors duration-150 hover:border-accent-hover"
+              >
+                <Link
+                  href={`${pathname}?console=${consoleDef.slug}`}
+                  className="flex w-full items-center gap-3 text-left"
                 >
                   <ConsoleMark
                     abbreviation={consoleDef.abbreviation}
@@ -179,10 +195,24 @@ export function ConsoleClient({
                     <span className="text-xs text-muted">
                       {consoleDef.manufacturer} · {consoleDef.year}
                     </span>
-                    <span className="text-xs text-muted">{t.console.portCount(count)}</span>
+                    <span className="text-xs text-muted">{t.console.portCount(ports.length)}</span>
                   </span>
                   <ArrowRight className="ml-auto size-4 shrink-0 text-muted" aria-hidden="true" />
-                </button>
+                </Link>
+                {ports.length > 0 && (
+                  <ul className="mt-3 flex flex-wrap gap-x-3 gap-y-1 border-t border-border pt-3">
+                    {ports.map((port) => (
+                      <li key={port.id}>
+                        <Link
+                          href={localizePath(locale, `/ports/${port.id}`)}
+                          className="text-xs text-link transition-colors hover:text-link-hover"
+                        >
+                          {port.game}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </li>
             );
           })}

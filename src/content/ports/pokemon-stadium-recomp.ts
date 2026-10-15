@@ -11,7 +11,6 @@ export const pokemonStadiumRecomp: Port = {
   genre: "strategy",
   openSource: true,
   portType: "recompilation",
-  type: "playable-port",
   platforms: ["windows"],
   status: "beta",
   release: { version: "0.4.7-beta", date: "2026-08-15" },

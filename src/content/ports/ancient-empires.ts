@@ -1,5 +1,4 @@
 import type { Port } from "@/lib/ports/schema";
-
 export const AncientEmpires: Port = {
   schema: "port",
   id: "ancient-empires",
@@ -20,11 +19,6 @@ export const AncientEmpires: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
-  cover: {
-    src: "https://upload.wikimedia.org/wikipedia/commons/8/81/Modern_Empires.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
-    alt: "Ancient Empires (cover)",
-    credit: "Wikipedia",
-  },
   notes: "Decompilation of the mobile game Ancient Empires (2004).",
   notesEs: "Decompilación del juego móvil Ancient Empires (2004).",
 };

@@ -3,6 +3,7 @@ import type { Port } from "@/lib/ports/schema";
 export const Xbox360Kernel: Port = {
   schema: "port",
   id: "xbox-360-kernel",
+  kind: "system",
   title: "Xbox 360 Kernel",
   game: "Xbox 360 Kernel",
   developers: ["AleBello7276"],

@@ -1,5 +1,9 @@
 // Generates the plan-B redirect list (docs/redirects-301.csv) from the catalog.
 // Plan A is a wildcard Redirect Rule per section, documented in docs/DEPLOYMENT.md.
+//
+// Ids are taken from the ports actually registered in src/content/ports/index.ts
+// (not from every file on disk): unregistered/orphan files produce no page, so a
+// redirect pointing at them would 404.
 import fs from "node:fs";
 import path from "node:path";
 
@@ -7,10 +11,17 @@ const ROOT = process.cwd();
 const BASE = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://openportsgames.com").replace(/\/+$/, "");
 const dir = path.join(ROOT, "src", "content", "ports");
 
+// Modules wired into the catalog, e.g. import { x } from "./sm64ex";
+const index = fs.readFileSync(path.join(dir, "index.ts"), "utf8");
+const modules = [...index.matchAll(/from\s+"\.\/([^"]+)"/g)].map((m) => m[1]);
+
 const ids = [];
-for (const f of fs.readdirSync(dir)) {
-  if (!f.endsWith(".ts") || ["index.ts", "meta.ts", "console-logos.ts"].includes(f)) continue;
-  const match = fs.readFileSync(path.join(dir, f), "utf8").match(/id:\s*"([a-z0-9-]+)"/);
+for (const mod of modules) {
+  const file = path.join(dir, `${mod}.ts`);
+  if (!fs.existsSync(file)) continue;
+  const src = fs.readFileSync(file, "utf8");
+  if (/status:\s*"takedown"/.test(src)) continue;
+  const match = src.match(/id:\s*"([a-z0-9-]+)"/);
   if (match) ids.push(match[1]);
 }
 

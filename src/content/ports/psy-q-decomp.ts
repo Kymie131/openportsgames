@@ -9,7 +9,7 @@ export const psyQDecomp: Port = {
   publisher: "Sony Computer Entertainment",
   originalYear: 1994,
   portType: "decompilation",
-  type: "tool",
+  kind: "tool",
   genre: "simulation",
   openSource: true,
   originalGameLicense: "proprietary",
@@ -19,6 +19,7 @@ export const psyQDecomp: Port = {
   sources: ["https://github.com/sozud/psy-q-decomp"],
   license: { spdx: "MIT" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
   notes:

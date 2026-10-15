@@ -9,7 +9,6 @@ export const raze: Port = {
   publisher: "GT Interactive",
   originalYear: 1996,
   portType: "source-port",
-  type: "playable-port",
   genre: "shooter",
   openSource: true,
   platforms: ["windows", "macos"],

@@ -9,7 +9,6 @@ export const namcoSystem22TokyoWars: Port = {
   publisher: "Namco",
   originalYear: 1996,
   portType: "decompilation",
-  type: "playable-port",
   genre: "fighting",
   openSource: true,
   platforms: ["windows", "linux"],

@@ -18,6 +18,7 @@ export const area51Source: Port = {
   sources: ["https://github.com/ProjectDreamland/area51"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
+  wip: true,
   originalSystems: ["Windows"],
   notes:
     "Preservation project working to make the leaked Area 51 (2005) PC source buildable on modern systems. Note: it uses the leaked source, is not yet playable, and needs the retail game data.",

@@ -9,7 +9,6 @@ export const vcmi: Port = {
   publisher: "The 3DO Company",
   originalYear: 1999,
   portType: "reimplementation",
-  type: "playable-port",
   genre: "strategy",
   openSource: true,
   platforms: ["windows", "linux", "macos"],

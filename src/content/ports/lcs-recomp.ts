@@ -9,7 +9,6 @@ export const lcsRecomp: Port = {
   publisher: "Rockstar Games",
   originalYear: 2005,
   portType: "recompilation",
-  type: "playable-port",
   genre: "open-world",
   openSource: true,
   platforms: ["windows", "linux"],

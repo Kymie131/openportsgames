@@ -11,7 +11,6 @@ export const openTyrian: Port = {
   genre: "shooter",
   openSource: true,
   portType: "source-port",
-  type: "playable-port",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
   release: { version: "2.1.20260913", date: "2026-09-14" },

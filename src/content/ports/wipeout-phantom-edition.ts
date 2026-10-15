@@ -9,7 +9,6 @@ export const wipeoutPhantomEdition: Port = {
   publisher: "Psygnosis",
   originalYear: 1995,
   portType: "source-port",
-  type: "playable-port",
   genre: "racing",
   openSource: false,
   platforms: ["windows"],

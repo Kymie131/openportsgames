@@ -11,7 +11,6 @@ export const spaceStationSiliconValleyRecomp: Port = {
   genre: "simulation",
   openSource: true,
   portType: "recompilation",
-  type: "playable-port",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
   release: { version: "0.2.0", date: "2026-03-13" },

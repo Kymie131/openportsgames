@@ -18,6 +18,7 @@ export const RatchetAndClankPal: Port = {
   sources: ["https://github.com/OpenRAC/rac1-decomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
   notes:

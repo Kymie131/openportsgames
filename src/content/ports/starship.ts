@@ -11,7 +11,6 @@ export const starship: Port = {
   genre: "shooter",
   openSource: true,
   portType: "decompilation",
-  type: "playable-port",
   platforms: ["windows", "linux"],
   status: "alpha",
   release: { version: "2.0.0", date: "2025-05-25" },

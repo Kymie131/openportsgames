@@ -18,6 +18,7 @@ export const FroggersAdventuresTempleOfTheFrog: Port = {
   sources: ["https://github.com/JRickey/frog-adv-temple-decomp"],
   license: { spdx: "NOASSERTION" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystems: ["Unknown"],
   cover: {

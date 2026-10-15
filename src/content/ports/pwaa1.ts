@@ -9,7 +9,6 @@ export const pwaa1: Port = {
   publisher: "Capcom",
   originalYear: 2001,
   portType: "decompilation",
-  type: "decomp-in-progress",
   genre: "action-adventure",
   openSource: true,
   originalGameLicense: "proprietary",

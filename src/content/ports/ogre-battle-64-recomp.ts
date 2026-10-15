@@ -11,7 +11,6 @@ export const ogreBattle64Recomp: Port = {
   genre: "strategy",
   openSource: true,
   portType: "recompilation",
-  type: "playable-port",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
   release: { version: "0.8.3", date: "2026-10-14" },

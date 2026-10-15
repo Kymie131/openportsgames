@@ -11,7 +11,6 @@ export const doom64ExPlus: Port = {
   genre: "shooter",
   openSource: true,
   portType: "source-port",
-  type: "playable-port",
   platforms: ["windows"],
   status: "stable",
   release: { version: "5.2.0.0", date: "2025-10-20" },

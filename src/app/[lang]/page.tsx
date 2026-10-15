@@ -5,12 +5,13 @@ import {
   getLatestPortsGrouped,
   getPort,
   getPortCount,
-  getPorts,
+  getGamePorts,
   getTestedPortIds,
   getTestStatuses,
   originalSystemOf,
 } from "@/lib/ports";
 import type { Port } from "@/lib/ports/schema";
+import { portKind } from "@/lib/ports/schema";
 import { pageMeta } from "@/lib/seo";
 import { SITE_NAME, getSiteUrl } from "@/lib/site";
 import { dictionaries } from "@/lib/i18n/dictionaries";
@@ -61,7 +62,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
   const latest = getLatestPortsGrouped(6).map(withMeta);
 
   const featured = FEATURED_SLUGS.map((id) => getPort(id))
-    .filter((port): port is Port => port !== undefined)
+    .filter((port): port is Port => port !== undefined && portKind(port) === "game")
     .map(withMeta);
 
   return (
@@ -81,7 +82,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         featured={featured}
         counts={{
           ports: getPortCount(),
-          verifiedSource: getPorts().filter((port) => port.sourceVerified).length,
+          verifiedSource: getGamePorts().filter((port) => port.sourceVerified).length,
           tested: getTestedPortIds().size,
         }}
       />

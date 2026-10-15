@@ -9,7 +9,6 @@ export const bloodbornePc: Port = {
   publisher: "Sony Computer Entertainment",
   originalYear: 2015,
   portType: "runtime-port",
-  type: "playable-port",
   genre: "action-adventure",
   openSource: true,
   originalGameLicense: "proprietary",

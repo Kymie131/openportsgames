@@ -18,6 +18,7 @@ export const CostumeQuest: Port = {
   sources: ["https://github.com/Costume-Quest-Modding/CostumeQuest-Decomp"],
   license: { spdx: "Apache-2.0" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystems: ["Unknown"],
   cover: {

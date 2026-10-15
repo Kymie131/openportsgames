@@ -9,7 +9,6 @@ export const sonicAdvance2Decomp: Port = {
   publisher: "Sega",
   originalYear: 2002,
   portType: "decompilation",
-  type: "decomp-in-progress",
   genre: "platformer",
   openSource: true,
   originalGameLicense: "proprietary",

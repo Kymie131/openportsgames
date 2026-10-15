@@ -14,7 +14,7 @@ Optional: `website`, `docs`, `discord`, `verifiedAt`, `originalGameLicense`,
 `noOriginalGameRequired`, `notes`, `notesEs`, `features`, `featuresEs`, `aiDisclosure`,
 `sourceVerified`, `sourceIsIndex`, `sourceDead`, `noindex`, `warning`, `warningEs`,
 `installGuide`, `requirements`, `screenshots`, `cover`, `originalSystems`, `region`,
-`type`.
+`kind`.
 
 ### `originalSystems` (string[])
 
@@ -30,15 +30,16 @@ confirmed from the project's own README or description, the value is the sentine
 - Helpers: `originalSystemsOf(id)` (array) and `originalSystemOf(id)` (first known, or
   `undefined`).
 
-### `type`
+### `kind`
 
-Optional classification independent of `portType`:
+Optional classification used by the listings and the `/tools` section (defaults to
+`"game"`):
 
-- `playable-port` — a playable build/release.
-- `decomp-in-progress` — decompilation/disassembly without a playable build yet.
+- `game` — a playable port of a game (default).
+- `system` — system software (e.g. the Wii menu, the Xbox 360 kernel).
 - `tool` — emulator, engine, launcher, SDK or index.
 
-Absent means **unclassified** (not shown as a filter and never used for `noindex`).
+Read it through `portKind(port)` (applies the default) rather than the raw field.
 
 ### `region`
 

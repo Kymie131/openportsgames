@@ -9,7 +9,6 @@ export const bfbbDecomp: Port = {
   publisher: "THQ",
   originalYear: 2003,
   portType: "decompilation",
-  type: "decomp-in-progress",
   genre: "platformer",
   openSource: true,
   originalGameLicense: "proprietary",

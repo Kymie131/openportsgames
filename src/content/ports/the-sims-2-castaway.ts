@@ -18,6 +18,7 @@ export const TheSims2Castaway: Port = {
   sources: ["https://github.com/HaydnTrigg/Castaway"],
   license: { spdx: "CC0-1.0" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystems: ["Unknown"],
   cover: {

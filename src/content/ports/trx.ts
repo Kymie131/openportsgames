@@ -11,7 +11,6 @@ export const trxPort: Port = {
   genre: "action-adventure",
   openSource: true,
   portType: "source-port",
-  type: "playable-port",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
   release: { version: "1.11.1", date: "2026-09-22" },

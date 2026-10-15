@@ -9,7 +9,6 @@ export const rsdkv3Decompilation: Port = {
   publisher: "Sega",
   originalYear: 1993,
   portType: "decompilation",
-  type: "playable-port",
   genre: "platformer",
   openSource: true,
   platforms: ["windows", "linux", "macos", "android"],

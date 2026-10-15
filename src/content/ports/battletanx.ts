@@ -18,6 +18,7 @@ export const Battletanx: Port = {
   sources: ["https://github.com/AbuN64/battletanx-decomp"],
   license: { spdx: "NOASSERTION" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   cover: {

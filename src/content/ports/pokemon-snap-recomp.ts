@@ -11,7 +11,6 @@ export const pokemonSnapRecomp: Port = {
   genre: "shooter",
   openSource: true,
   portType: "recompilation",
-  type: "playable-port",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
   release: { version: "1.1.4", date: "2026-10-11" },

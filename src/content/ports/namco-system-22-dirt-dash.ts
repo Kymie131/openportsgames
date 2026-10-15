@@ -9,7 +9,6 @@ export const namcoSystem22DirtDash: Port = {
   publisher: "Namco",
   originalYear: 1995,
   portType: "decompilation",
-  type: "playable-port",
   genre: "racing",
   openSource: true,
   platforms: ["windows", "linux"],

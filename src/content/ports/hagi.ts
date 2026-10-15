@@ -9,7 +9,7 @@ export const hagi: Port = {
   publisher: "GRAnimated",
   originalYear: 2023,
   portType: "decompilation",
-  type: "tool",
+  kind: "tool",
   genre: "simulation",
   openSource: true,
   originalGameLicense: "proprietary",

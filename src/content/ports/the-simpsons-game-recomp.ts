@@ -11,7 +11,6 @@ export const theSimpsonsGameRecomp: Port = {
   genre: "action-adventure",
   openSource: true,
   portType: "recompilation",
-  type: "playable-port",
   platforms: ["windows", "linux"],
   status: "alpha",
   release: { version: "0.0.6.5", date: "2026-10-10" },

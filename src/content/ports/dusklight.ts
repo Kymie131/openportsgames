@@ -11,7 +11,6 @@ export const dusklight: Port = {
   genre: "action-adventure",
   openSource: true,
   portType: "reimplementation",
-  type: "playable-port",
   platforms: ["windows", "linux", "macos", "android"],
   status: "beta",
   release: { version: "2.0.3", date: "2026-09-30" },

@@ -1,6 +1,6 @@
 import { z } from "zod";
 import { hardware, ports, testRecordsValidated } from "./index";
-import { hardwareSchema, portSchema, testRecordSchema } from "./schema";
+import { hardwareSchema, portKind, portSchema, testRecordSchema } from "./schema";
 
 /** Versioned JSON payload of the full catalog (see docs/API.md). */
 export const catalogApiSchema = z.object({
@@ -21,7 +21,7 @@ export function buildCatalogJson(siteUrl: string, now: Date = new Date()): Catal
     version: 2,
     generatedAt: now.toISOString().slice(0, 10),
     site: siteUrl,
-    ports: [...ports],
+    ports: ports.map((port) => ({ ...port, kind: portKind(port) })),
     hardware: [...hardware],
     tests: [...testRecordsValidated],
   };

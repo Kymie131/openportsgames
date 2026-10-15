@@ -1,5 +1,4 @@
 import type { Port } from "@/lib/ports/schema";
-
 export const AliceInWonderland: Port = {
   schema: "port",
   id: "alice-in-wonderland",
@@ -20,11 +19,6 @@ export const AliceInWonderland: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Wii"],
-  cover: {
-    src: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Alice%27s_Adventures_in_Wonderland_cover_%281865%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
-    alt: "Alice in Wonderland (cover)",
-    credit: "Wikipedia",
-  },
   notes: "A decompilation of Alice in Wonderland (Wii 2010) by Étranges Libellules.",
   notesEs: "Decompilación de Alice in Wonderland (Wii, 2010) de Étranges Libellules.",
 };

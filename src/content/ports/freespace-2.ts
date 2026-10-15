@@ -11,7 +11,6 @@ export const freeSpace2: Port = {
   genre: "simulation",
   openSource: true,
   portType: "source-port",
-  type: "playable-port",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
   release: { version: "26.2.0-RC1", date: "2026-09-24" },

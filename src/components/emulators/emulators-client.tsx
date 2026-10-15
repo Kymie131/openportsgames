@@ -1,8 +1,9 @@
 "use client";
 
-import { useMemo, useRef } from "react";
-import { LocalizedLink as Link } from "@/components/i18n/localized-link";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { useEffect, useMemo, useRef, useState } from "react";
+import Link from "next/link";
+import { LocalizedLink as LocalizedLinkComponent } from "@/components/i18n/localized-link";
+import { usePathname, useRouter } from "next/navigation";
 import { ArrowLeft, ArrowRight, ExternalLink, Layers, Search } from "lucide-react";
 import {
   allConsoles,
@@ -65,8 +66,18 @@ export function EmulatorsClient({ portsBySystem }: { portsBySystem: Record<strin
   const locale = useLocale();
   const pathname = usePathname();
   const router = useRouter();
-  const params = useSearchParams();
+  const [search, setSearch] = useState("");
 
+  // Read the query after mount so the generation list is server-rendered and
+  // crawlable instead of bailing out to client-only rendering.
+  useEffect(() => {
+    const read = () => setSearch(window.location.search.replace(/^\?/, ""));
+    read();
+    window.addEventListener("popstate", read);
+    return () => window.removeEventListener("popstate", read);
+  }, []);
+
+  const params = useMemo(() => new URLSearchParams(search), [search]);
   const genId = params.get("gen");
   const consoleSlug = params.get("console");
 
@@ -74,6 +85,7 @@ export function EmulatorsClient({ portsBySystem }: { portsBySystem: Record<strin
   const consoleDef = generation && consoleSlug ? getConsole(consoleSlug) : undefined;
 
   const go = (query: string) => {
+    setSearch(query);
     router.replace(query ? `${pathname}?${query}` : pathname, { scroll: false });
   };
 
@@ -157,9 +169,8 @@ export function EmulatorsClient({ portsBySystem }: { portsBySystem: Record<strin
         <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {generation.consoles.map((consoleDef) => (
             <li key={consoleDef.slug}>
-              <button
-                type="button"
-                onClick={() => go(`gen=${generation.id}&console=${consoleDef.slug}`)}
+              <Link
+                href={`${pathname}?gen=${generation.id}&console=${consoleDef.slug}`}
                 className="flex w-full items-center gap-3 rounded-lg border border-border bg-surface p-4 text-left transition-[border-color,background-color] duration-150 hover:border-accent-hover hover:bg-surface-2"
               >
                 <ConsoleMark
@@ -181,7 +192,7 @@ export function EmulatorsClient({ portsBySystem }: { portsBySystem: Record<strin
                   </span>
                 </span>
                 <ArrowRight className="ml-auto size-4 shrink-0 text-muted" aria-hidden="true" />
-              </button>
+              </Link>
             </li>
           ))}
         </ul>
@@ -236,9 +247,8 @@ export function EmulatorsClient({ portsBySystem }: { portsBySystem: Record<strin
           const emuCount = gen.consoles.reduce((sum, c) => sum + c.emulators.length, 0);
           return (
             <li key={gen.id}>
-              <button
-                type="button"
-                onClick={() => go(`gen=${gen.id}`)}
+              <Link
+                href={`${pathname}?gen=${gen.id}`}
                 className="flex h-full w-full flex-col gap-3 rounded-lg border border-border bg-surface p-5 text-left transition-[border-color,background-color] duration-150 hover:border-accent-hover hover:bg-surface-2"
               >
                 <span className="flex items-center gap-2">
@@ -264,7 +274,7 @@ export function EmulatorsClient({ portsBySystem }: { portsBySystem: Record<strin
                     />
                   ))}
                 </span>
-              </button>
+              </Link>
             </li>
           );
         })}
@@ -396,12 +406,12 @@ function ConsoleView({
             {consoleDef.manufacturer} · {consoleDef.year}
           </p>
           {portCount > 0 && (
-            <Link
+            <LocalizedLinkComponent
               href={`/ports?system=${encodeURIComponent((CONSOLE_TO_SYSTEM[consoleDef.slug] ?? [])[0] ?? "")}`}
               className="w-fit text-xs text-link transition-colors hover:text-link-hover"
             >
               {t.emulators.catalogPorts(portCount)}
-            </Link>
+            </LocalizedLinkComponent>
           )}
         </div>
       </header>

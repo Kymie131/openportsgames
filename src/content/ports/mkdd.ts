@@ -9,7 +9,6 @@ export const mkdd: Port = {
   publisher: "Nintendo",
   originalYear: 2003,
   portType: "decompilation",
-  type: "decomp-in-progress",
   genre: "racing",
   openSource: true,
   originalGameLicense: "proprietary",

@@ -11,7 +11,6 @@ export const goldenEye64Recompiled: Port = {
   genre: "shooter",
   openSource: true,
   portType: "recompilation",
-  type: "playable-port",
   platforms: ["macos", "linux"],
   status: "beta",
   release: { version: "1.0.0", date: "2026-08-20" },

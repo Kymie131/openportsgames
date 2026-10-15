@@ -11,7 +11,6 @@ export const unleashedRecompiled: Port = {
   genre: "platformer",
   openSource: true,
   portType: "recompilation",
-  type: "playable-port",
   platforms: ["windows", "linux"],
   status: "stable",
   release: { version: "1.0.3", date: "2025-04-03" },

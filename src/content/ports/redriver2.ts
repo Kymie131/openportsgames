@@ -9,7 +9,6 @@ export const redriver2: Port = {
   publisher: "Infogrames",
   originalYear: 2000,
   portType: "decompilation",
-  type: "playable-port",
   genre: "racing",
   openSource: true,
   platforms: ["windows", "linux"],

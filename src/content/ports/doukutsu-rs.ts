@@ -11,7 +11,6 @@ export const doukutsuRs: Port = {
   genre: "platformer",
   openSource: true,
   portType: "reimplementation",
-  type: "playable-port",
   platforms: ["windows", "linux", "macos", "android"],
   status: "stable",
   release: { version: "1.0.0", date: "2026-06-03" },

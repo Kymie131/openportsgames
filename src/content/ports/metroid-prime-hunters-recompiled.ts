@@ -11,7 +11,6 @@ export const metroidPrimeHuntersRecompiled: Port = {
   genre: "shooter",
   openSource: true,
   portType: "recompilation",
-  type: "playable-port",
   platforms: ["windows", "linux"],
   status: "alpha",
   release: { version: "0.7.3-alpha", date: "2026-09-10" },

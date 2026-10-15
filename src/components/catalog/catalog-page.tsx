@@ -12,6 +12,8 @@ export function CatalogPage({
   originalSystems,
   stars,
   scope,
+  page,
+  basePath,
 }: {
   ports: Port[];
   testStatuses: Record<string, "current" | "stale">;
@@ -19,6 +21,8 @@ export function CatalogPage({
   originalSystems: Record<string, string[]>;
   stars: Record<string, number>;
   scope: CatalogScope;
+  page: number;
+  basePath: string;
 }) {
   const t = useT();
   const title = scope === "all" ? t.catalog.title : t.platforms[scope];
@@ -44,6 +48,8 @@ export function CatalogPage({
         originalSystems={originalSystems}
         stars={stars}
         scope={scope}
+        page={page}
+        basePath={basePath}
       />
     </div>
   );

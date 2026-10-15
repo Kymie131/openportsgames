@@ -9,7 +9,7 @@ export const awesomeOpenSourceGames: Port = {
   publisher: "michelpereira",
   originalYear: 2020,
   portType: "source-port",
-  type: "tool",
+  kind: "tool",
   genre: "simulation",
   openSource: true,
   originalGameLicense: "open",

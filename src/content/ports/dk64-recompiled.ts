@@ -11,7 +11,6 @@ export const dk64Recompiled: Port = {
   genre: "platformer",
   openSource: true,
   portType: "recompilation",
-  type: "playable-port",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
   release: { version: "1.0.3", date: "2026-09-30" },

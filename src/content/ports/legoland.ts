@@ -1,5 +1,4 @@
 import type { Port } from "@/lib/ports/schema";
-
 export const Legoland: Port = {
   schema: "port",
   id: "legoland",
@@ -20,11 +19,6 @@ export const Legoland: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
-  cover: {
-    src: "https://upload.wikimedia.org/wikipedia/en/b/bd/Legoland_Parks_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
-    alt: "Legoland (cover)",
-    credit: "Wikipedia",
-  },
   notes: "Decompilation of Legoland (Other).",
   notesEs: "Decompilación de Legoland (Other).",
 };

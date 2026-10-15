@@ -9,7 +9,6 @@ export const pikmin: Port = {
   publisher: "Nintendo",
   originalYear: 2001,
   portType: "decompilation",
-  type: "decomp-in-progress",
   genre: "strategy",
   openSource: true,
   platforms: ["windows", "linux", "macos"],
@@ -19,6 +18,7 @@ export const pikmin: Port = {
   discord: "https://discord.gg/CWKqYMePX8",
   license: { spdx: "CC0-1.0" },
   verified: false,
+  wip: true,
   originalSystems: ["GameCube"],
   notes:
     "Decompilation of Pikmin (GameCube) that aims to produce a playable native build from the original machine code. Work-in-progress with no tagged releases; requires a dump of the original game.",

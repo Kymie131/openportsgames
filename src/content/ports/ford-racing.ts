@@ -18,6 +18,7 @@ export const FordRacing: Port = {
   sources: ["https://github.com/dashr9230/Gt2"],
   license: { spdx: "NOASSERTION" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystems: ["Unknown"],
   notes: "A work-in-progress non-matching decompilation of Ford Racing (2000) video game.",

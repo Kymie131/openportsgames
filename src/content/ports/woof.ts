@@ -11,7 +11,6 @@ export const woofPort: Port = {
   genre: "shooter",
   openSource: true,
   portType: "source-port",
-  type: "playable-port",
   platforms: ["windows", "linux"],
   status: "stable",
   release: { version: "16.0.0", date: "2026-09-08" },

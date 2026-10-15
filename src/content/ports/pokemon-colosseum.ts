@@ -18,6 +18,7 @@ export const PokemonColosseum: Port = {
   sources: ["https://github.com/dougchansan/pkmn-colosseum"],
   license: { spdx: "MIT" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystems: ["Unknown"],
   cover: {

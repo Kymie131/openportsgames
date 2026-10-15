@@ -9,7 +9,6 @@ export const reblue: Port = {
   publisher: "Microsoft Game Studios",
   originalYear: 2006,
   portType: "recompilation",
-  type: "playable-port",
   genre: "rpg",
   openSource: true,
   originalGameLicense: "proprietary",

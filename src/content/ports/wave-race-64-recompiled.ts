@@ -11,7 +11,6 @@ export const waveRace64Recompiled: Port = {
   genre: "racing",
   openSource: true,
   portType: "recompilation",
-  type: "playable-port",
   platforms: ["windows", "macos"],
   status: "beta",
   release: { version: "0.4.0-macos.3", date: "2026-09-07" },

@@ -9,7 +9,6 @@ export const legendOfManaDecomp: Port = {
   publisher: "Square Enix",
   originalYear: 1999,
   portType: "decompilation",
-  type: "decomp-in-progress",
   genre: "rpg",
   openSource: true,
   originalGameLicense: "proprietary",

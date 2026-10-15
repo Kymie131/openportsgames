@@ -11,7 +11,6 @@ export const zelda64Recomp: Port = {
   genre: "action-adventure",
   openSource: true,
   portType: "recompilation",
-  type: "playable-port",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
   release: { version: "1.2.2", date: "2025-08-27" },

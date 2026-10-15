@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { ports } from "@/lib/ports";
+import { portKind } from "@/lib/ports/schema";
 import {
   activeFilterCount,
   applyCatalog,
@@ -14,9 +15,11 @@ import {
 
 const index = buildIndex(ports);
 
-/** Ports inside the "all" scope, which excludes console homebrew platforms. */
-const inAllScope = ports.filter((port) =>
-  port.platforms.some((platform) => SCOPED_PLATFORMS.all.includes(platform)),
+/** Ports inside the "all" scope, which excludes console homebrew platforms and non-game entries. */
+const inAllScope = ports.filter(
+  (port) =>
+    portKind(port) === "game" &&
+    port.platforms.some((platform) => SCOPED_PLATFORMS.all.includes(platform)),
 );
 
 function state(overrides: Partial<CatalogState>): CatalogState {
@@ -52,7 +55,9 @@ describe("applyCatalog", () => {
   });
 
   it("scopes the platform filter to the current view", () => {
-    const androidPorts = ports.filter((port) => port.platforms.includes("android"));
+    const androidPorts = ports.filter(
+      (port) => portKind(port) === "game" && port.platforms.includes("android"),
+    );
     const { results } = applyCatalog(ports, index, state({}), "android");
     expect(results.length).toBe(androidPorts.length);
     for (const port of results) {

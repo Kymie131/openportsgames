@@ -11,7 +11,6 @@ export const sonic3Air: Port = {
   genre: "platformer",
   openSource: true,
   portType: "source-port",
-  type: "playable-port",
   platforms: ["windows", "linux", "macos", "android"],
   status: "stable",
   release: { version: "26.03.28.0", date: "2026-03-28" },

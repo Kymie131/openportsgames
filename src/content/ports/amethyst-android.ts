@@ -9,7 +9,7 @@ export const amethystAndroid: Port = {
   publisher: "Mojang Studios",
   originalYear: 2011,
   portType: "runtime-port",
-  type: "tool",
+  kind: "tool",
   genre: "simulation",
   openSource: true,
   originalGameLicense: "proprietary",

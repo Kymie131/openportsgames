@@ -9,7 +9,6 @@ export const twoShip: Port = {
   publisher: "Nintendo",
   originalYear: 2000,
   portType: "decompilation",
-  type: "playable-port",
   genre: "action-adventure",
   openSource: true,
   platforms: ["windows", "linux", "macos"],

@@ -18,6 +18,7 @@ export const RadioHelicopter: Port = {
   sources: ["https://github.com/Bsquo/pcopter_wii"],
   license: { spdx: "CC0-1.0" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystems: ["Unknown"],
   notes: "A work-in-progress matching decompilation of Radio Helicopter.",

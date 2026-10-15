@@ -11,7 +11,6 @@ export const quest64Recomp: Port = {
   genre: "action-adventure",
   openSource: true,
   portType: "recompilation",
-  type: "playable-port",
   platforms: ["windows"],
   status: "alpha",
   release: { version: "0.1", date: "2026-01-11" },

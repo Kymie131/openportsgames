@@ -11,7 +11,6 @@ export const openFodder: Port = {
   genre: "strategy",
   openSource: true,
   portType: "source-port",
-  type: "playable-port",
   platforms: ["windows"],
   status: "beta",
   release: { version: "2.0.0", date: "2025-12-16" },

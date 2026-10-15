@@ -11,7 +11,6 @@ export const fZeroSnesRecompiled: Port = {
   genre: "racing",
   openSource: true,
   portType: "recompilation",
-  type: "playable-port",
   platforms: ["windows", "linux"],
   status: "stable",
   release: { version: "1.8.3", date: "2026-09-22" },

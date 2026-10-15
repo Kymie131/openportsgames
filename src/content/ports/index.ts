@@ -423,6 +423,7 @@ import { tonyHawksProject8Recomp } from "./tony-hawks-project-8-recomp";
 import { wweSmackdownVsRaw2007Recomp } from "./wwe-smackdown-vs-raw-2007-recomp";
 import { deadlyPremonitionRecomp } from "./deadly-premonition-recomp";
 import { dragonBallZBudokaiHd } from "./dragon-ball-z-budokai-hd";
+import { dragonBallZBudokaiTenkaichi3 } from "./dragon-ball-z-budokai-tenkaichi-3";
 import { dragonBallZBudokai3Hd } from "./dragon-ball-z-budokai-3-hd";
 import { forzaMotorsport4Recomp } from "./forza-motorsport-4-recomp";
 import { forzaHorizon2Recomp } from "./forza-horizon-2-recomp";
@@ -1694,6 +1695,7 @@ export const portCases: Port[] = [
   wweSmackdownVsRaw2007Recomp,
   deadlyPremonitionRecomp,
   dragonBallZBudokaiHd,
+  dragonBallZBudokaiTenkaichi3,
   dragonBallZBudokai3Hd,
   forzaMotorsport4Recomp,
   exitRecomp,

@@ -11,7 +11,6 @@ export const ironwail: Port = {
   genre: "shooter",
   openSource: true,
   portType: "source-port",
-  type: "playable-port",
   platforms: ["windows", "linux"],
   status: "stable",
   release: { version: "0.8.2", date: "2026-08-11" },

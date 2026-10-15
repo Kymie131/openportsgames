@@ -11,7 +11,6 @@ export const openLoco: Port = {
   genre: "simulation",
   openSource: true,
   portType: "source-port",
-  type: "playable-port",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
   release: { version: "26.09", date: "2026-09-18" },

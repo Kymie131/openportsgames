@@ -11,7 +11,6 @@ export const prBoomPlusRt: Port = {
   genre: "shooter",
   openSource: true,
   portType: "source-port",
-  type: "playable-port",
   platforms: ["linux"],
   status: "beta",
   release: { version: "2.6.1-rt1.0.7", date: "2026-06-22" },

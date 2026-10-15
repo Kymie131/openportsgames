@@ -1,5 +1,11 @@
 # Fase 3b — Taxonomía + `type` (revisión; sin reescritura)
 
+> **Nota (integración con `main`):** la rama se fusionó con `origin/main`, que ya
+> traía el campo **`kind`** (`game | system | tool`). Se **descartó nuestro `type`**:
+> `playable-port`/`decomp-in-progress` ↔ `kind:"game"`, y `tool` ↔ `kind:"tool"`.
+> Se conserva lo demás de esta nota (multi-valor `originalSystems`, `Unknown`,
+> mapeos de sistemas). Las secciones que hablan de `type` quedan como histórico.
+
 Generado desde `src/content/ports/` y la API de GitHub (solo lectura). **Nada reescrito.**
 
 ## A. `type`

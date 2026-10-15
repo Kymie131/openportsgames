@@ -11,7 +11,6 @@ export const librelancer: Port = {
   genre: "open-world",
   openSource: true,
   portType: "reimplementation",
-  type: "playable-port",
   platforms: ["windows"],
   status: "beta",
   release: { version: "2025.11", date: "2025-11-07" },

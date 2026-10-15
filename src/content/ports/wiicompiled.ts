@@ -9,7 +9,6 @@ export const wiiCompiled: Port = {
   publisher: "Nintendo",
   originalYear: 2008,
   portType: "recompilation",
-  type: "playable-port",
   genre: "racing",
   openSource: true,
   platforms: ["windows"],

@@ -1,5 +1,4 @@
 import type { Port } from "@/lib/ports/schema";
-
 export const Ratatouille: Port = {
   schema: "port",
   id: "ratatouille",
@@ -20,11 +19,6 @@ export const Ratatouille: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
-  cover: {
-    src: "https://upload.wikimedia.org/wikipedia/commons/3/37/Ratatouille_home_cooked.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
-    alt: "Ratatouille (cover)",
-    credit: "Wikipedia",
-  },
   notes: "Decompilation project of Disney-Pixar Ratatouille (USA) for the Nintendo GameCube.",
   notesEs: "Proyecto de decompilación de Ratatouille de Disney-Pixar (USA) para Nintendo GameCube.",
 };

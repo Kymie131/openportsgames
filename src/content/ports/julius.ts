@@ -9,7 +9,6 @@ export const julius: Port = {
   publisher: "Sierra On-Line",
   originalYear: 1998,
   portType: "reimplementation",
-  type: "playable-port",
   genre: "strategy",
   openSource: true,
   platforms: ["windows", "linux", "macos", "android"],

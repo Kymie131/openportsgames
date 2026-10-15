@@ -11,7 +11,6 @@ export const ja2Stracciatella: Port = {
   genre: "strategy",
   openSource: true,
   portType: "source-port",
-  type: "playable-port",
   platforms: ["windows", "linux", "macos", "android"],
   status: "stable",
   release: { version: "0.22.1", date: "2025-10-05" },

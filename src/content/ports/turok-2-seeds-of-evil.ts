@@ -18,6 +18,7 @@ export const Turok2SeedsOfEvil: Port = {
   sources: ["https://github.com/mgrz18/turok2-decomp"],
   license: { spdx: "CC0-1.0" },
   verified: false,
+  wip: true,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   cover: {

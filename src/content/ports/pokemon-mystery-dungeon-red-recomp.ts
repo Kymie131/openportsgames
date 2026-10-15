@@ -14,7 +14,7 @@ export const pokemonMysteryDungeonRedRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.0", date: "2026-09-26" },
   sources: ["https://github.com/Asphaltian/pmd-green"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,

@@ -9,7 +9,6 @@ export const symphonyRecomp: Port = {
   publisher: "Konami",
   originalYear: 1997,
   portType: "recompilation",
-  type: "playable-port",
   genre: "action-adventure",
   openSource: true,
   platforms: ["windows", "linux", "macos"],

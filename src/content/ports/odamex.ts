@@ -11,7 +11,6 @@ export const odamexPort: Port = {
   genre: "shooter",
   openSource: true,
   portType: "source-port",
-  type: "playable-port",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
   release: { version: "12.3.0", date: "2026-08-06" },

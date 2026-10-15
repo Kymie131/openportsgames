@@ -9,7 +9,6 @@ export const kh1: Port = {
   publisher: "Square",
   originalYear: 2002,
   portType: "decompilation",
-  type: "decomp-in-progress",
   genre: "rpg",
   openSource: true,
   originalGameLicense: "proprietary",

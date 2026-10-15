@@ -9,7 +9,6 @@ export const lsdDecomp: Port = {
   publisher: "Asmik Ace",
   originalYear: 1998,
   portType: "decompilation",
-  type: "decomp-in-progress",
   genre: "simulation",
   openSource: true,
   originalGameLicense: "proprietary",

@@ -9,7 +9,6 @@ export const halo2Decomp: Port = {
   publisher: "Microsoft Game Studios",
   originalYear: 2004,
   portType: "decompilation",
-  type: "decomp-in-progress",
   genre: "shooter",
   openSource: true,
   originalGameLicense: "proprietary",

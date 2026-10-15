@@ -1,5 +1,4 @@
 import type { Port } from "@/lib/ports/schema";
-
 export const Flame: Port = {
   schema: "port",
   id: "flame",
@@ -20,11 +19,6 @@ export const Flame: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
-  cover: {
-    src: "https://upload.wikimedia.org/wikipedia/commons/5/5b/DancingFlames.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
-    alt: "Flame (cover)",
-    credit: "Wikipedia",
-  },
   notes: "Dungeon Keeper II partial recompilation with bug fixes.",
   notesEs: "Recompilación parcial de Dungeon Keeper II con correcciones.",
 };

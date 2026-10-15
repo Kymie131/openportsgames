@@ -9,7 +9,6 @@ export const dhewm3: Port = {
   publisher: "Activision",
   originalYear: 2004,
   portType: "source-port",
-  type: "playable-port",
   genre: "shooter",
   openSource: true,
   platforms: ["windows", "linux", "macos"],
