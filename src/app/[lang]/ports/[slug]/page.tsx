@@ -4,8 +4,10 @@ import { Container } from "@/components/layout/container";
 import { PortDetail } from "@/components/ports/port-detail";
 import { TakedownNotice } from "@/components/ports/takedown-notice";
 import { JsonLd } from "@/components/seo/json-ld";
-import { pageMeta, summarize } from "@/lib/seo";
+import { pageMeta } from "@/lib/seo";
+import { portDescription } from "@/lib/ports/description";
 import { asLocale } from "@/lib/i18n/locales";
+import { dictionaries } from "@/lib/i18n/dictionaries";
 import {
   getPort,
   getPortIdSet,
@@ -41,9 +43,7 @@ export async function generateMetadata({
   return pageMeta({
     locale,
     title: port.title,
-    description: summarize(
-      port.notes ?? `${port.game} native port for ${port.platforms.join(", ")}.`,
-    ),
+    description: portDescription(locale, port, dictionaries[locale]),
     path: `/ports/${port.id}`,
   });
 }
