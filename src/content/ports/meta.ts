@@ -487,6 +487,7 @@ export const originalSystemById: Record<Port["id"], string> = {
   "wwe-smackdown-vs-raw-2007-recomp": "Xbox 360",
   "deadly-premonition-recomp": "Xbox 360",
   "dragon-ball-z-budokai-hd": "Xbox 360",
+  "dragon-ball-z-budokai-tenkaichi-3": "PlayStation 2",
   "dragon-ball-z-budokai-3-hd": "Xbox 360",
   "forza-motorsport-4-recomp": "Xbox 360",
   "exit-recomp": "Xbox 360",

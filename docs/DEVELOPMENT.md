@@ -45,7 +45,10 @@ scripts/        Release checker, static preview
   catalog listings (`/ports`, `/pc`, `/android`, `/console`), the counters, the
   home "Latest releases"/"Featured" and the paginated listings; `system`/`tool`
   entries keep their page under `/ports/<slug>/` (indexable, searchable) and are
-  listed under `/tools`. See `getGamePorts()` / `getToolPorts()`.
+  listed under `/tools`. See `getGamePorts()` / `getToolPorts()`. `/tools` also
+  renders a categorized list of popular desktop programs from
+  `src/content/programs.ts` (GIMP, LibreOffice, the ArtCraft suite, …), each
+  linking to its official site.
 - `wip: true` marks a project that is still being decompiled/built and has no
   playable release (`release.version` is null). The card and ficha show an "In
   development" badge and a notice, so visitors do not expect a download.

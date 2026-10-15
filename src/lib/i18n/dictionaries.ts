@@ -32,7 +32,7 @@ const en = {
     project: "Project",
     guides: "Guides",
     emulators: "Emulators",
-    tools: "System & tools",
+    tools: "Tools",
     submit: "Submit",
     support: "Support",
     about: "About",
@@ -360,13 +360,17 @@ const en = {
       "Emulators require the console BIOS and your own game copies. This catalog hosts no emulator builds or ROMs.",
   },
   tools: {
-    title: "System & tools",
+    title: "Tools",
     subtitle:
-      "System software and low-level tools catalogued next to the games. They are not games: they recreate a console's system software, a kernel or a development tool, and they still need files from a system you own.",
+      "Popular free and open-source programs, grouped by category. Most are alternatives to paid software such as Adobe's or Microsoft's.",
     intro:
-      "Each entry links to its official project. This section is meant to grow as more open source system software and tools are documented.",
-    count: (count: number) => `${count} entr${count === 1 ? "y" : "ies"}`,
-    empty: "No system software or tools catalogued yet.",
+      "Every entry links to the project's official site. This section is separate from the game catalog.",
+    programsTitle: "Popular programs",
+    replaces: "Replaces",
+    officialSite: "Official site",
+    platformsLabel: "Platforms",
+    systemTitle: "Console system software",
+    empty: "No programs listed yet.",
   },
   submit: {
     title: "Submit",
@@ -511,7 +515,7 @@ const es: Messages = {
     project: "Proyecto",
     guides: "Guías",
     emulators: "Emuladores",
-    tools: "Sistema y herramientas",
+    tools: "Herramientas",
     submit: "Enviar",
     support: "Apoyo",
     about: "Acerca de",
@@ -840,13 +844,17 @@ const es: Messages = {
       "Los emuladores requieren la BIOS de la consola y tus propias copias. Este catálogo no aloja emuladores ni ROMs.",
   },
   tools: {
-    title: "Sistema y herramientas",
+    title: "Herramientas",
     subtitle:
-      "Software de sistema y herramientas de bajo nivel catalogados junto a los juegos. No son juegos: recrean el software de sistema de una consola, un kernel o una herramienta de desarrollo, y también necesitan archivos de un sistema que poseas.",
+      "Programas libres y gratuitos muy usados, agrupados por categoría. La mayoría son alternativas a software de pago como el de Adobe o Microsoft.",
     intro:
-      "Cada entrada enlaza a su proyecto oficial. Esta sección está pensada para crecer a medida que se documenten más herramientas y software de sistema de código abierto.",
-    count: (count: number) => `${count} entr${count === 1 ? "ada" : "adas"}`,
-    empty: "Todavía no hay software de sistema ni herramientas catalogadas.",
+      "Cada entrada enlaza al sitio oficial del proyecto. Esta sección es aparte del catálogo de juegos.",
+    programsTitle: "Programas populares",
+    replaces: "Sustituye a",
+    officialSite: "Sitio oficial",
+    platformsLabel: "Plataformas",
+    systemTitle: "Software de sistema de consolas",
+    empty: "Todavía no hay programas listados.",
   },
   submit: {
     title: "Enviar",

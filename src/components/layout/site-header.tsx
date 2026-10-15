@@ -113,7 +113,7 @@ export function SiteHeader() {
                   href={item.href}
                   aria-current={active ? "page" : undefined}
                   className={cn(
-                    "rounded-md px-2.5 py-1.5 text-sm transition-colors duration-150",
+                    "whitespace-nowrap rounded-md px-2.5 py-1.5 text-sm transition-colors duration-150",
                     active
                       ? "bg-accent text-accent-contrast hover:bg-accent-hover hover:text-accent-contrast"
                       : "text-muted hover:bg-surface-2 hover:text-foreground",
@@ -126,7 +126,7 @@ export function SiteHeader() {
             <DropdownMenu.Root>
               <DropdownMenu.Trigger
                 asChild
-                className="rounded-md px-2.5 py-1.5 text-sm text-muted transition-colors duration-150 hover:bg-surface-2 hover:text-foreground outline-none data-[state=open]:bg-surface-2 data-[state=open]:text-foreground"
+                className="whitespace-nowrap rounded-md px-2.5 py-1.5 text-sm text-muted transition-colors duration-150 hover:bg-surface-2 hover:text-foreground outline-none data-[state=open]:bg-surface-2 data-[state=open]:text-foreground"
               >
                 <button type="button" className="inline-flex items-center gap-1">
                   {t.nav.project}
