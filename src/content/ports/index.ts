@@ -1205,6 +1205,7 @@ import { wweSmackdownVsRaw2011Recomp } from "./wwe-smackdown-vs-raw-2011-recomp"
 import { theDarknessEstacado } from "./the-darkness-estacado";
 import { marioKartWiiAndroid } from "./mario-kart-wii-android";
 import { ecstaticaRecompiled } from "./ecstatica-recompiled";
+import { spiderManEdgeOfTimeProject2099 } from "./spider-man-edge-of-time-project-2099";
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -2412,4 +2413,5 @@ export const portCases: Port[] = [
   theDarknessEstacado,
   marioKartWiiAndroid,
   ecstaticaRecompiled,
+  spiderManEdgeOfTimeProject2099,
 ];
