@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const narutoStorm3FullBurstRecomp: Port = {
+  schema: "port",
+  id: "naruto-ultimate-ninja-storm-3-full-burst-recomp",
+  title: "Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst (Port)",
+  game: "Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst",
+  developers: ["Masterllgod"],
+  publisher: "Bandai Namco",
+  originalYear: 2013,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Masterllgod/naruto-storm-3-full-burst-port-nativo"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  notes: "Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst (Xbox 360, 2013) running natively on Android (ARM64) and PC (Windows x64) via static recompilation, no CPU emulator. Built by Masterllgod; no game files are included, you need your own copy. Documentation only so far (no build yet).",
+  notesEs: "Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst (Xbox 360, 2013) corriendo de forma nativa en Android (ARM64) y PC (Windows x64) por recompilación estática, sin emulador de CPU. Hecho por Masterllgod; no incluye archivos del juego, necesitas tu propia copia. De momento solo documentación (sin build todavía).",
+};
