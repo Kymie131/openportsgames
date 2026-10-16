@@ -1200,4 +1200,8 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "nfs-underground-2-recompiled": ["Windows"],
   "open-test-drive-unlimited": ["Windows"],
   "virtua-fighter-2-recomp": ["Arcade"],
+  "call-of-duty-mw2-android": ["Xbox 360"],
+  "goemon-64-recompiled-android": ["Nintendo 64"],
+  "def-jam-fight-for-ny-recomp": ["Xbox"],
+  "wwe-smackdown-vs-raw-2011-recomp": ["Xbox 360"],
 };
