@@ -1208,4 +1208,10 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "mario-kart-wii-android": ["Wii"],
   "ecstatica-recompiled": ["Unknown"],
   "spider-man-edge-of-time-project-2099": ["Unknown"],
+  "naruto-ultimate-ninja-storm-generations-recomp": ["Xbox 360"],
+  "naruto-rise-of-a-ninja-recomp": ["Xbox 360"],
+  "naruto-the-broken-bond-recomp": ["Xbox 360"],
+  "naruto-ultimate-ninja-storm-revolution-recomp": ["Xbox 360"],
+  "naruto-ultimate-ninja-storm-2-recomp": ["Xbox 360"],
+  "naruto-ultimate-ninja-storm-3-full-burst-recomp": ["Xbox 360"],
 };

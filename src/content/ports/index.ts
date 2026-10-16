@@ -1206,6 +1206,12 @@ import { theDarknessEstacado } from "./the-darkness-estacado";
 import { marioKartWiiAndroid } from "./mario-kart-wii-android";
 import { ecstaticaRecompiled } from "./ecstatica-recompiled";
 import { spiderManEdgeOfTimeProject2099 } from "./spider-man-edge-of-time-project-2099";
+import { narutoStormGenerationsRecomp } from "./naruto-ultimate-ninja-storm-generations-recomp";
+import { narutoRiseOfANinjaRecomp } from "./naruto-rise-of-a-ninja-recomp";
+import { narutoTheBrokenBondRecomp } from "./naruto-the-broken-bond-recomp";
+import { narutoStormRevolutionRecomp } from "./naruto-ultimate-ninja-storm-revolution-recomp";
+import { narutoStorm2Recomp } from "./naruto-ultimate-ninja-storm-2-recomp";
+import { narutoStorm3FullBurstRecomp } from "./naruto-ultimate-ninja-storm-3-full-burst-recomp";
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -2414,4 +2420,10 @@ export const portCases: Port[] = [
   marioKartWiiAndroid,
   ecstaticaRecompiled,
   spiderManEdgeOfTimeProject2099,
+  narutoStormGenerationsRecomp,
+  narutoRiseOfANinjaRecomp,
+  narutoTheBrokenBondRecomp,
+  narutoStormRevolutionRecomp,
+  narutoStorm2Recomp,
+  narutoStorm3FullBurstRecomp,
 ];
