@@ -19,7 +19,7 @@ export const wargusPort: Port = {
   license: { spdx: "GPL-2.0" },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   notes:
     "Engine reimplementation for Warcraft II, intended to be compatible with the retail data files.",
   notesEs:

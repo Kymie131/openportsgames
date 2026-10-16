@@ -18,7 +18,7 @@ export const goldenEye64Recompiled: Port = {
   license: { spdx: "GPL-3.0" },
   verified: true,
   verifiedAt: "2026-09-22",
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   features: [
     "Native macOS and Linux builds via N64Recomp and RT64",
     "Metal (macOS) and Vulkan (Linux) rendering",

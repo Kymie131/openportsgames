@@ -19,7 +19,7 @@ export const Ezquake: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "main ezQuake source code base.",
   notesEs: "Base del código fuente principal de ezQuake.",
 };

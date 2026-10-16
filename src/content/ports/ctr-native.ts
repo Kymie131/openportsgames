@@ -18,7 +18,7 @@ export const ctrNative: Port = {
   discord: "https://discord.gg/WHkuh2n",
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   features: [
     "Direct NTSC-U retail disc image loading",
     "Retail-parity Adventure, menu, cutscene and audio states",

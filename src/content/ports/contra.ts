@@ -19,7 +19,8 @@ export const Contra: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo Entertainment System",
-  notes: "An annotated disassembly with supplemental materials of the Contra (US) and Probotector NES game.",
+  originalSystems: ["Nintendo Entertainment System"],
+  notes:
+    "An annotated disassembly with supplemental materials of the Contra (US) and Probotector NES game.",
   notesEs: "Desensamblado anotado, con material adicional, de Contra (US) y Probotector para NES.",
 };

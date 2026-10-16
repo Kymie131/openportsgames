@@ -19,7 +19,7 @@ export const Taradino: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "SDL2 port of Rise of the Triad.",
   notesEs: "Port a SDL2 de Rise of the Triad.",
 };

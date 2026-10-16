@@ -18,7 +18,7 @@ export const Paperboy: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes: "Decompilation of Paperboy (N64).",
   notesEs: "Decompilación de Paperboy (N64).",
 };

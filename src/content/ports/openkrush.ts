@@ -19,7 +19,7 @@ export const Openkrush: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "A KKnD and KKnD2 mod on OpenRA engine.",
   notesEs: "Un mod de KKnD y KKnD2 sobre el motor OpenRA.",
 };

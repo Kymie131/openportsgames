@@ -19,7 +19,7 @@ export const FushigiNoDungeonFuraiNoShiren2OniShuraiShirenJo: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes: "Matching decompilation of Fushigi no Dungeon: Fuurai no Shiren 2 (N64, Japan).",
   notesEs: "Decompilación que coincide de Fushigi no Dungeon: Fuurai no Shiren 2 (N64, Japón).",
 };

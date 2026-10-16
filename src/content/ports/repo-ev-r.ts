@@ -18,7 +18,7 @@ export const repoEvR: Port = {
   sources: ["https://github.com/Zhes-20/R.E.P.O.E.V.R"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Unofficial Android and iOS port of R.E.P.O. with touch and smartphone-VR modes, and crossplay with Steam through EVRMod. It needs the original PC game files.",
   notesEs:

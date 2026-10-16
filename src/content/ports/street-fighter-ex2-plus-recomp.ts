@@ -18,7 +18,7 @@ export const streetFighterEx2PlusRecomp: Port = {
   sources: ["https://github.com/strider973/Street-Fighter-EX2-Plus-Recompiled"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Static recompilation of Street Fighter EX2 Plus (PlayStation) built on PSXRecomp. It requires the original game.",
   notesEs:

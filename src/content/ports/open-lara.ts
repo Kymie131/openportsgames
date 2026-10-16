@@ -43,4 +43,5 @@ export const openLara: Port = {
     alt: "Tomb Raider (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["PlayStation","Sega Saturn"],
 };

@@ -18,7 +18,7 @@ export const neoDriftOutRecomp: Port = {
   sources: ["https://github.com/sp00nznet/neodriftout"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "Neo Geo",
+  originalSystems: ["Neo Geo"],
   notes:
     "Native PC port of Neo Drift Out through static recompilation of the original Neo Geo 68000 code. It needs the original game.",
   notesEs:

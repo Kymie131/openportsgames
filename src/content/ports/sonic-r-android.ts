@@ -18,7 +18,7 @@ export const sonicRAndroid: Port = {
   sources: ["https://github.com/ZinexDa/sonic-r-android"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Sega Saturn",
+  originalSystems: ["Sega Saturn"],
   notes:
     "Native Android port of the Sonic R PC decompilation, with a GLES2 renderer, 60 FPS and touch controls. It requires your own PC game files and includes no retail assets.",
   notesEs:

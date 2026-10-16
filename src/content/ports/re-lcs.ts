@@ -20,7 +20,7 @@ export const reLcs: Port = {
     note: "no license file published with the project",
   },
   verified: false,
-  originalSystem: "PlayStation Portable",
+  originalSystems: ["PlayStation Portable"],
   features: [
     "Vendored librw with an OpenGL 3 backend, no external library needed",
     "SDL2 and OpenGL ES build for handhelds and other embedded devices",

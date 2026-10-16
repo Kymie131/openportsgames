@@ -19,7 +19,7 @@ export const DigimonDigitalCardBattle: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Digimon: Digital Card Battle (Other).",
   notesEs: "Decompilación de Digimon: Digital Card Battle (Other).",
 };

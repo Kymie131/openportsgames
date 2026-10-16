@@ -18,7 +18,7 @@ export const wwfWrestlemania2000Recomp: Port = {
   sources: ["https://github.com/jessetbh/WWFWrestleMania2000Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Static recompilation of WWF WrestleMania 2000 (N64) with N64Recomp and the RT64 renderer. It requires your own game files.",
   notesEs:

@@ -19,7 +19,7 @@ export const OregonTrailIi: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/77/Oregon_Trail_II_cover.jpg",
     alt: "Oregon Trail II (cover)",

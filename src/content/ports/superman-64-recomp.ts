@@ -18,7 +18,7 @@ export const superman64Recomp: Port = {
   sources: ["https://github.com/gcsmith/Superman64Recomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Native recompilation of Superman (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

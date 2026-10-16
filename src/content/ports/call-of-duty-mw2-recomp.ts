@@ -18,7 +18,7 @@ export const callOfDutyMw2Recomp: Port = {
   sources: ["https://github.com/PaulCombal/mw2-recompiled"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Recompilation of Call of Duty: Modern Warfare 2 (Xbox 360) to native Windows and Linux. It requires the game itself.",
   notesEs:

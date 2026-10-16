@@ -18,7 +18,7 @@ export const jazz2Native: Port = {
   sources: ["https://github.com/deathkiller/jazz2-native"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Open-source reimplementation of Jazz Jackrabbit 2 in C++, covering the shareware demo, Holiday Hare '98, The Secret Files and Christmas Chronicles, with some JJ2+ and MLLE features. Builds run on Windows, Linux, macOS and Android and use your own game files.",
   notesEs:

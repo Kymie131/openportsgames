@@ -18,7 +18,7 @@ export const eternityEngine: Port = {
   license: { spdx: "GPL-3.0" },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   features: [
     "Modern renderer with dynamic lights and reflections",
     "Heightmap support for unlimited room heights",

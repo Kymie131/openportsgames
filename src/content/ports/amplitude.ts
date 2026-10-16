@@ -19,7 +19,7 @@ export const Amplitude: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Amplitude (2003).",
   notesEs: "Decompilación de Amplitude (2003).",
 };

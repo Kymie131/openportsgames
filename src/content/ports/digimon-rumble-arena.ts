@@ -19,12 +19,13 @@ export const DigimonRumbleArena: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/56/Digimon_Rumble_Arena_cover.png",
     alt: "Digimon Rumble Arena (cover)",
     credit: "Wikipedia",
   },
-  notes: "Digimon Rumble Arena (Digimon Tamers: Battle Evolution, PS1, Japan) matching decompilation.",
+  notes:
+    "Digimon Rumble Arena (Digimon Tamers: Battle Evolution, PS1, Japan) matching decompilation.",
   notesEs: "Decompilación que coincide de Digimon Rumble Arena (Digimon Tamers, PS1, Japón).",
 };

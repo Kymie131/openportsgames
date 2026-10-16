@@ -124,3 +124,35 @@ redirect into a 404:
 3. **Verify.** `curl -I https://openportsgames.com/ports/sm64ex/` must return
    `301` with `location: https://openportsgames.com/en/ports/sm64ex/`. Then submit
    the updated sitemap in Google Search Console / Bing.
+
+## Build: no network dependency, and the OG worker crash
+
+The static export does **not** depend on the network:
+
+- `src/app/[lang]/ports/[slug]/opengraph-image.tsx` renders **text and shapes only**
+  (via `ImageResponse`): it makes **no** external request and uses **no** remote cover.
+- No `fetch`/XHR runs at build time, and `next.config.ts` declares no
+  `remotePatterns`/`domains`.
+
+Intermittent failure seen locally, **not reproduced and not captured**:
+
+```
+Export encountered an error on /[lang]/ports/[slug]/opengraph-image/route
+syscall: 'write'  (EPIPE)
+⨯ Next.js build worker exited with code: 1 … exiting the build
+```
+
+It failed on a **different slug each run** while generating the ~2,400 OG PNGs.
+**Hypothesis (unconfirmed):** the local environment — the repo lives under
+**OneDrive on Windows**, where transient file-write errors during `export` are
+plausible. CI (`ubuntu-24.04`, Node 22) has stayed green. **If it reappears,
+capture the full trace before retrying.**
+
+Concurrency/memory knobs (if a host needs them): the build peaks around **~3 GB of
+Node RSS**; Next 16 exposes `experimental.staticGenerationMaxConcurrency`,
+`experimental.staticGenerationMinPagesPerWorker`, `experimental.workerThreads` and
+`experimental.cpus` to bound the static-generation workers.
+
+The export-size check (`scripts/check-export-size.mjs`, run from `postbuild`) prints
+`[export-size] N files in out/ (warn at 18000, limit 20000)` and **always exits 0**:
+it only warns, it never fails the build.

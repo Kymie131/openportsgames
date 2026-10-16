@@ -19,7 +19,9 @@ export const NeedForSpeed16: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
-  notes: "An attempt to recreate the classic Need for Speed Games (1-6), unpacking their original data files into a modern, scratch built engine.",
-  notesEs: "Intento de recrear los clásicos Need for Speed (1-6), extrayendo sus datos originales a un motor nuevo.",
+  originalSystems: ["Unknown"],
+  notes:
+    "An attempt to recreate the classic Need for Speed Games (1-6), unpacking their original data files into a modern, scratch built engine.",
+  notesEs:
+    "Intento de recrear los clásicos Need for Speed (1-6), extrayendo sus datos originales a un motor nuevo.",
 };

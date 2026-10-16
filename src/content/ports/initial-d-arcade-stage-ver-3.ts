@@ -21,7 +21,9 @@ export const InitialDArcadeStageVer3: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Arcade",
-  notes: "Native SH-4 AOT recompilation of Initial D Arcade Stage 3 (NAOMI 2) — BIOS-free Vulkan public early demo (WIP).",
-  notesEs: "Recompilación AOT nativa para SH-4 de Initial D Arcade Stage 3 (NAOMI 2): demo pública temprana en Vulkan sin BIOS (en desarrollo).",
+  originalSystems: ["Arcade"],
+  notes:
+    "Native SH-4 AOT recompilation of Initial D Arcade Stage 3 (NAOMI 2) — BIOS-free Vulkan public early demo (WIP).",
+  notesEs:
+    "Recompilación AOT nativa para SH-4 de Initial D Arcade Stage 3 (NAOMI 2): demo pública temprana en Vulkan sin BIOS (en desarrollo).",
 };

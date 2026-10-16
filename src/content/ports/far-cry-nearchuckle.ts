@@ -18,7 +18,7 @@ export const farCryNearChuckle: Port = {
   sources: ["https://github.com/Player124413/NearChuckle-android-edition"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Android and Linux port of Far Cry (CryEngine 1) via SDL3, based on NearChuckle and using Mesa Zink for OpenGL over Vulkan. Note: it relies on the leaked Far Cry source and needs the game itself.",
   notesEs:

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Container } from "@/components/layout/container";
 import { EmulatorsClient } from "@/components/emulators/emulators-client";
 import { getGamePorts } from "@/lib/ports";
-import { originalSystemById } from "@/content/ports/meta";
+import { originalSystemsById } from "@/content/ports/meta";
 import { pageMeta } from "@/lib/seo";
 import { dictionaries } from "@/lib/i18n/dictionaries";
 import { asLocale } from "@/lib/i18n/locales";
@@ -26,8 +26,10 @@ export async function generateMetadata({
 export default function EmulatorsPage() {
   const portsBySystem: Record<string, number> = {};
   for (const port of getGamePorts()) {
-    const system = originalSystemById[port.id];
-    if (system) portsBySystem[system] = (portsBySystem[system] ?? 0) + 1;
+    for (const system of originalSystemsById[port.id] ?? []) {
+      if (system === "Unknown") continue;
+      portsBySystem[system] = (portsBySystem[system] ?? 0) + 1;
+    }
   }
 
   return (

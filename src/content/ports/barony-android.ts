@@ -18,7 +18,7 @@ export const baronyAndroid: Port = {
   sources: ["https://github.com/DifferentNet/barony-android-port"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Android fork of the Barony source, published with the developer's permission. The APK contains engine code only and needs an owned Barony v5.0.2 installation for its data.",
   notesEs:

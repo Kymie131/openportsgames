@@ -19,7 +19,7 @@ export const ChronoCross: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["PlayStation"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/9a/Chronocrossbox.jpg",
     alt: "Chrono Cross (box art)",

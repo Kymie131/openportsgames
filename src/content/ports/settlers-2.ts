@@ -18,7 +18,7 @@ export const settlers2: Port = {
   license: { spdx: "GPL-2.0" },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   features: ["Cross-platform desktop builds", "Extended scenario and scripting support"],
   featuresEs: [
     "Builds de escritorio multiplataforma",

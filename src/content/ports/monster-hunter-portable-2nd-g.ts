@@ -19,7 +19,7 @@ export const MonsterHunterPortable2ndG: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/01/MonsterHunterFreedomUnite.jpg",
     alt: "Monster Hunter Portable 2nd G (box art)",

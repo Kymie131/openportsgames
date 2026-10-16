@@ -18,7 +18,7 @@ export const nfs3Android: Port = {
   sources: ["https://github.com/ZloiKILLER/nfs3recompiled-android"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Recompilation of Need for Speed III: Hot Pursuit that runs on Android. It needs your own game files.",
   notesEs:

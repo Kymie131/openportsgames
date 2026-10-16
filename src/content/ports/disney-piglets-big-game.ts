@@ -19,7 +19,7 @@ export const DisneyPigletsBigGame: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Piglet's Big Game (GC).",
   notesEs: "Decompilación de Piglet's Big Game (GC).",
 };

@@ -18,7 +18,7 @@ export const yakumo: Port = {
   sources: ["https://github.com/TeamGDB/Yakumo"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "PlayStation Portable",
+  originalSystems: ["PlayStation Portable"],
   notes:
     "Static recompilation of Monster Hunter Portable 3rd HD (PSP) into a native executable, using Vulkan and SDL3. It builds for desktop and Android and requires a copy of the game.",
   notesEs:

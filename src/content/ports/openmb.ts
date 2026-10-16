@@ -19,7 +19,9 @@ export const Openmb: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
-  notes: "Open Source role-playing game engine for Taleworlds' Mount&Blade Series written in C# using Ogre3d Engine.",
-  notesEs: "Motor de rol de código abierto para la saga Mount&Blade de Taleworlds, escrito en C# con Ogre3D.",
+  originalSystems: ["Unknown"],
+  notes:
+    "Open Source role-playing game engine for Taleworlds' Mount&Blade Series written in C# using Ogre3d Engine.",
+  notesEs:
+    "Motor de rol de código abierto para la saga Mount&Blade de Taleworlds, escrito en C# con Ogre3D.",
 };

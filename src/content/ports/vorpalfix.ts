@@ -19,7 +19,9 @@ export const Vorpalfix: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
-  notes: "A patch that addresses various technical issues and adds quality-of-life improvements to the 2011 remaster of American McGee's Alice.",
-  notesEs: "Parche que corrige varios problemas técnicos y añade mejoras de calidad de vida al remaster de 2011 de American McGee's Alice.",
+  originalSystems: ["Unknown"],
+  notes:
+    "A patch that addresses various technical issues and adds quality-of-life improvements to the 2011 remaster of American McGee's Alice.",
+  notesEs:
+    "Parche que corrige varios problemas técnicos y añade mejoras de calidad de vida al remaster de 2011 de American McGee's Alice.",
 };

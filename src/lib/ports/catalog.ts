@@ -97,7 +97,7 @@ export function catalogPageCount(ports: Port[], scope: CatalogScope): number {
 }
 
 export interface CatalogOptions {
-  originalSystems?: Record<string, string>;
+  originalSystems?: Record<string, string[]>;
   testResults?: Record<string, "pass" | "fail">;
   stars?: Record<string, number>;
 }
@@ -224,13 +224,20 @@ export function buildIndex(ports: Port[]): MiniSearch<Port> {
   return index;
 }
 
-export function availableSystems(ports: Port[], originalSystems: Record<string, string>): string[] {
+export function availableSystems(
+  ports: Port[],
+  originalSystems: Record<string, string[]>,
+): string[] {
   const systems = new Set<string>();
+  let hasUnknown = false;
   for (const port of ports) {
-    const system = originalSystems[port.id];
-    if (system !== undefined) systems.add(system);
+    for (const system of originalSystems[port.id] ?? []) {
+      if (system === "Unknown") hasUnknown = true;
+      else systems.add(system);
+    }
   }
-  return [...systems].sort((a, b) => a.localeCompare(b));
+  const sorted = [...systems].sort((a, b) => a.localeCompare(b));
+  return hasUnknown ? [...sorted, "Unknown"] : sorted;
 }
 
 function pick<T extends string>(value: string | null, allowed: readonly T[], fallback: T): T {
@@ -269,8 +276,8 @@ export function applyCatalog(
       if (state.state.includes("unverified") && port.verified) return false;
       if (state.technique.length > 0 && !state.technique.includes(port.portType)) return false;
       if (state.system.length > 0) {
-        const system = originalSystems[port.id];
-        if (system === undefined || !state.system.includes(system)) return false;
+        const systems = originalSystems[port.id] ?? [];
+        if (!state.system.some((system) => systems.includes(system))) return false;
       }
       if (state.genre.length > 0 && !state.genre.includes(port.genre)) return false;
       if (state.source.includes("open") && !port.openSource) return false;

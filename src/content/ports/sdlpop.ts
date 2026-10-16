@@ -17,7 +17,7 @@ export const sdlPoP: Port = {
   sources: ["https://github.com/NagyD/SDLPoP"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   features: ["SDL2 backends", "Restored level editor", "Modern display scaling options"],
   featuresEs: [
     "Backends SDL2",

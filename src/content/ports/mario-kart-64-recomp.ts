@@ -18,7 +18,7 @@ export const marioKart64Recomp: Port = {
   sources: ["https://github.com/sonicdcer/MarioKart64Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Static recompilation of Mario Kart 64 (N64, USA) with N64Recomp and the RT64 renderer. It loads the assets from your own copy directly, with no separate extraction step, and adds widescreen, unlocked framerate and mod support.",
   notesEs:

@@ -19,7 +19,9 @@ export const Openciv3: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
-  notes: "OpenCiv3 is an open-source, cross-platform, mod-oriented, modernized remake of Civilization III by the fan community built with the Godot Engine and C#, with capabilities inspired by the best of the 4X genre and lessons learned from modding Civ3.",
-  notesEs: "OpenCiv3 es un remake modernizado, de código abierto, multiplataforma y orientado a mods de Civilization III, hecho por la comunidad de fans con el motor Godot y C#. Sus capacidades se inspiran en lo mejor del género 4X y en las lecciones aprendidas al modear Civ3.",
+  originalSystems: ["Unknown"],
+  notes:
+    "OpenCiv3 is an open-source, cross-platform, mod-oriented, modernized remake of Civilization III by the fan community built with the Godot Engine and C#, with capabilities inspired by the best of the 4X genre and lessons learned from modding Civ3.",
+  notesEs:
+    "OpenCiv3 es un remake modernizado, de código abierto, multiplataforma y orientado a mods de Civilization III, hecho por la comunidad de fans con el motor Godot y C#. Sus capacidades se inspiran en lo mejor del género 4X y en las lecciones aprendidas al modear Civ3.",
 };

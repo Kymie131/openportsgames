@@ -19,7 +19,7 @@ export const PrinceMonogame: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Monogame implementation of Prince of Persia 2.",
   notesEs: "Implementación en MonoGame de Prince of Persia 2.",
 };

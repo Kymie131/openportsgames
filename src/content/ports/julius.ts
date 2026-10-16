@@ -27,4 +27,5 @@ export const julius: Port = {
     alt: "Caesar III (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["Windows"],
 };

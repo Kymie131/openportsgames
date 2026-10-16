@@ -18,7 +18,7 @@ export const voyagerEliteForceAndroid: Port = {
   sources: ["https://github.com/imjustadudegamer/VoyagerSP-Android"],
   license: { spdx: "GPL-2.0" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Android single-player port of Star Trek: Voyager - Elite Force, built on idTech3/Quake3e with a Vulkan renderer. It needs the original game files.",
   notesEs:

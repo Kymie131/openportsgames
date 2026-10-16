@@ -30,4 +30,5 @@ export const fallout1Ce: Port = {
     alt: "Fallout (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["MS-DOS"],
 };

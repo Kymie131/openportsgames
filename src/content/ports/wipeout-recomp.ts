@@ -18,7 +18,7 @@ export const wipeoutRecomp: Port = {
   sources: ["https://github.com/alexbeavs-ps1-ports/wipeout-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Recompilation of WipEout (PS1, Europe SCES-00010) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

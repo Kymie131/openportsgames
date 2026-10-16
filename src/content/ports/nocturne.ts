@@ -18,7 +18,7 @@ export const Nocturne: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Nocturne Decompilation.",
   notesEs: "Decompilación de Nocturne.",
 };

@@ -18,7 +18,7 @@ export const haloCeUniversal: Port = {
   sources: ["https://github.com/cybersecurity/halo-ce-universal"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox",
+  originalSystems: ["Xbox"],
   notes:
     "Decompilation-based native port of Halo: Combat Evolved (Xbox) for Windows, Linux and Android. The player supplies their own legally obtained Xbox disc image; the repository ships no game content. The Android build targets arm64 with OpenGL ES 3 and SDL3, needs Android 9 or later and plays best with a Bluetooth or USB gamepad; system-link multiplayer works across Windows, Linux and Android.",
   notesEs:

@@ -18,7 +18,7 @@ export const rottexpr: Port = {
   license: { spdx: "GPL-2.0" },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   notes: "Experimental Rise of the Triad engine rewrite.",
   notesEs: "Reescritura experimental del motor de Rise of the Triad.",
   cover: {

@@ -17,7 +17,7 @@ export const bt3Recomp: Port = {
   sources: ["https://github.com/z3xox/BT3-Recomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   features: [
     "Static recompilation of the PS2 executable to C++ at build time",
     "OpenGL renderer",

@@ -19,7 +19,7 @@ export const MarioParty2: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/23/Marioparty2.jpg",
     alt: "Mario Party 2 (box art)",

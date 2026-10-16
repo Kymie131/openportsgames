@@ -19,7 +19,7 @@ export const Jfwhaven: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
-  notes: "No-promises port of the Capstone Software game \"Witchaven\".",
+  originalSystems: ["Unknown"],
+  notes: 'No-promises port of the Capstone Software game "Witchaven".',
   notesEs: "Port sin garantías del juego de Capstone Software «Witchaven».",
 };

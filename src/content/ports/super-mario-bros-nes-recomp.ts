@@ -18,7 +18,7 @@ export const superMarioBrosNesRecomp: Port = {
   sources: ["https://github.com/mstan/SuperMarioBrosNESRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
-  originalSystem: "Nintendo Entertainment System",
+  originalSystems: ["Nintendo Entertainment System"],
   notes:
     "Native recompilation of Super Mario Bros. (NES). The player supplies their own legally obtained ROM; the repository ships no game content. An earlier fork by TechnicallyComputers exists; this is the repository listed here.",
   notesEs:

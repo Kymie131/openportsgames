@@ -18,7 +18,7 @@ export const pokemonPlatinumRecomp: Port = {
   sources: ["https://github.com/cybervisi0n/pokeplatinum"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Nintendo DS",
+  originalSystems: ["Nintendo DS"],
   notes:
     "64-bit PC port of Pokémon Platinum based on the pret decompilation and the libntr suite. It needs a copy of the game.",
   notesEs:

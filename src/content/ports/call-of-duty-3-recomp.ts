@@ -18,7 +18,7 @@ export const callOfDuty3Recomp: Port = {
   sources: ["https://github.com/FrankHUN88453/CoD3Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Recompilation of Call of Duty 3 (Xbox 360) to native Windows. It requires your own game files.",
   notesEs:

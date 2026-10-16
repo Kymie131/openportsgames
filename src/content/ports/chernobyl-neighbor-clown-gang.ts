@@ -19,7 +19,7 @@ export const ChernobylNeighborClownGang: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
-  notes: "Decompilation of the game \"Chernobyl Neighbor. Clown Gang\". This is not a port to PC.",
+  originalSystems: ["Unknown"],
+  notes: 'Decompilation of the game "Chernobyl Neighbor. Clown Gang". This is not a port to PC.',
   notesEs: "Decompilación del juego «Chernobyl Neighbor. Clown Gang». No es un port a PC.",
 };

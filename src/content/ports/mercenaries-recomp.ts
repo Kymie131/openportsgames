@@ -19,7 +19,7 @@ export const mercenariesRecomp: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   notes:
     "Native recompilation of Mercenaries: Playground of Destruction (PlayStation 2) for Windows. It needs your own copy of the game.",
   notesEs:

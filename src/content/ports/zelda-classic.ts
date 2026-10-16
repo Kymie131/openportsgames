@@ -19,7 +19,7 @@ export const zeldaClassic: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo Entertainment System",
+  originalSystems: ["Nintendo Entertainment System"],
   notes:
     "Free 2D engine and editor that recreates The Legend of Zelda. It does not need the original game data.",
   notesEs:

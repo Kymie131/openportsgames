@@ -1,5 +1,5 @@
 import { portCases } from "@/content/ports";
-import { originalSystemById } from "@/content/ports/meta";
+import { originalSystemsById } from "@/content/ports/meta";
 import { hardwareProfiles } from "@/content/hardware";
 import { testRecords } from "@/content/tests";
 import {
@@ -35,8 +35,33 @@ for (const test of testRecordsValidated) {
   testByPort.set(test.portId, list);
 }
 
+export const UNKNOWN_SYSTEM = "Unknown";
+
+/** Normalized multi-value original systems for a port. */
+export function originalSystemsOf(portId: string): string[] {
+  return originalSystemsById[portId] ?? [];
+}
+
+/** First known original system (skips `Unknown`), for single-system UI. */
 export function originalSystemOf(portId: string): string | undefined {
-  return originalSystemById[portId];
+  return originalSystemsOf(portId).find((system) => system !== UNKNOWN_SYSTEM);
+}
+
+/** A port has its own content when it carries notes, features, a guide or art. */
+export function hasOwnContent(port: Port): boolean {
+  return Boolean(
+    port.notes || port.features?.length || port.installGuide || port.screenshots?.length,
+  );
+}
+
+/**
+ * Whether a port may be indexed and listed in the sitemap. Explicit `noindex`
+ * wins; otherwise an unverified port with no content of its own is excluded so
+ * search engines only see entries we can stand behind.
+ */
+export function isIndexablePort(port: Port): boolean {
+  if (port.noindex) return false;
+  return port.verified || hasOwnContent(port);
 }
 
 export function getPorts(): Port[] {
@@ -81,6 +106,38 @@ export function getLatestPorts(limit?: number): Port[] {
 
 export function getPort(id: string): Port | undefined {
   return byId.get(id);
+}
+
+function repoGroupKey(port: Port): string {
+  for (const source of port.sources) {
+    const match = /^https:\/\/github\.com\/([^/]+\/[^/#?]+)/.exec(source);
+    if (match) return match[1].toLowerCase();
+  }
+  return `id:${port.id}`;
+}
+
+/**
+ * Latest ports with one slot per source repository (so a repo that backs
+ * several entries, like the Namco System 22 recompilations, occupies a single
+ * slot). Within a repo group the verified entry wins.
+ */
+export function getLatestPortsGrouped(limit?: number): Port[] {
+  const byRepo = new Map<string, Port>();
+  for (const port of getLatestPorts()) {
+    const key = repoGroupKey(port);
+    const current = byRepo.get(key);
+    if (!current || (!current.verified && port.verified)) byRepo.set(key, port);
+  }
+  const list = [...byRepo.values()].sort((a, b) => {
+    const da = a.release.date ?? "";
+    const db = b.release.date ?? "";
+    if (da !== db) {
+      if (da && db) return db.localeCompare(da);
+      return da ? -1 : 1;
+    }
+    return a.title.localeCompare(b.title);
+  });
+  return limit !== undefined ? list.slice(0, limit) : list;
 }
 
 export function getTakedownPort(id: string): TakedownPort | undefined {

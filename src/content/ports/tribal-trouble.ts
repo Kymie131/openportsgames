@@ -19,7 +19,7 @@ export const TribalTrouble: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Source port of Tribal Trouble (Other).",
   notesEs: "Port del código fuente de Tribal Trouble (Other).",
 };

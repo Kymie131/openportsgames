@@ -18,7 +18,7 @@ export const voyagerEliteForceHolomatch: Port = {
   sources: ["https://github.com/imjustadudegamer/VoyagerHM-Android"],
   license: { spdx: "GPL-2.0" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Android port of the Holomatch multiplayer of Star Trek: Voyager - Elite Force, with Vulkan, touch controls and gamepad support. It needs the original game files.",
   notesEs:

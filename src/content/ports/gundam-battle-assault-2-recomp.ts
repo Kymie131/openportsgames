@@ -18,7 +18,7 @@ export const gundamBattleAssault2Recomp: Port = {
   sources: ["https://github.com/omegakatana92/GundamBattleAssault2Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Recompilation of Gundam: Battle Assault 2 (PS1) in progress with PSXRecomp. You bring your own disc and it uses OpenBIOS; it is still under development.",
   notesEs:

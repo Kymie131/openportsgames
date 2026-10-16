@@ -19,7 +19,7 @@ export const Deltarune: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "DELTARUNE Decompilation.",
   notesEs: "Decompilación de DELTARUNE.",
 };

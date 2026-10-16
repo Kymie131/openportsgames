@@ -19,7 +19,7 @@ export const woofPort: Port = {
   license: { spdx: "GPL-2.0" },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   features: [
     "Multiple game modes including Boom and MBF",
     "High-resolution replacement textures",

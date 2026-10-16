@@ -19,7 +19,7 @@ export const ShatteredParadise: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Shattered Paradise's main repository and installation Kit.",
   notesEs: "Repositorio principal e instalador de Shattered Paradise.",
 };

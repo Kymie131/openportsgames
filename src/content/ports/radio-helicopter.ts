@@ -20,7 +20,7 @@ export const RadioHelicopter: Port = {
   verified: false,
   wip: true,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "A work-in-progress matching decompilation of Radio Helicopter.",
   notesEs: "Decompilación que coincide de Radio Helicopter, en desarrollo.",
 };

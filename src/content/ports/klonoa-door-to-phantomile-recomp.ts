@@ -19,7 +19,7 @@ export const klonoaDoorToPhantomileRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "A PortsDR community listing; no repository or release is public. The original game is required.",
   notesEs:

@@ -20,7 +20,7 @@ export const Battletanx: Port = {
   verified: false,
   wip: true,
   sourceVerified: true,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/67/BattleTanx.jpg",
     alt: "BattleTanx (box art)",

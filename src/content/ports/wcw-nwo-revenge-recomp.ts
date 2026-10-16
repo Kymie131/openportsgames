@@ -18,7 +18,7 @@ export const wcwNwoRevengeRecomp: Port = {
   sources: ["https://github.com/jessetbh/WCWnWoRevengeRecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Native recompilation of WCW/nWo Revenge (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

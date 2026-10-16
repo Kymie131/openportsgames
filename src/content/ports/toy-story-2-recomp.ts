@@ -18,7 +18,7 @@ export const toyStory2Recomp: Port = {
   sources: ["https://github.com/PeriBluGaming/ToyStory2Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Static recompilation of Toy Story 2: Buzz Lightyear to the Rescue (PlayStation) using PSXRecomp. It needs your own game files.",
   notesEs:

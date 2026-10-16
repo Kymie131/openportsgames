@@ -20,7 +20,9 @@ export const RatchetAndClankPal: Port = {
   verified: false,
   wip: true,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
-  notes: "A work-in-progress matching decompilation of the original Ratchet & Clank (2002) for PlayStation 2 (SCES_509.16, PAL v2.00). Focuses on reconstructing clean, idiomatic C/C++ source code identical to the retail executable, paving the way for native PC re-implementation and game preservation.",
-  notesEs: "Decompilación que coincide del Ratchet & Clank original (2002) para PlayStation 2 (SCES_509.16, PAL v2.00), en desarrollo. Se centra en reconstruir código C/C++ idiomático idéntico al ejecutable comercial, allanando el camino a un port nativo.",
+  originalSystems: ["PlayStation 2"],
+  notes:
+    "A work-in-progress matching decompilation of the original Ratchet & Clank (2002) for PlayStation 2 (SCES_509.16, PAL v2.00). Focuses on reconstructing clean, idiomatic C/C++ source code identical to the retail executable, paving the way for native PC re-implementation and game preservation.",
+  notesEs:
+    "Decompilación que coincide del Ratchet & Clank original (2002) para PlayStation 2 (SCES_509.16, PAL v2.00), en desarrollo. Se centra en reconstruir código C/C++ idiomático idéntico al ejecutable comercial, allanando el camino a un port nativo.",
 };

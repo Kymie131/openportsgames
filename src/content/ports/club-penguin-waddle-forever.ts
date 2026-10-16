@@ -19,7 +19,7 @@ export const ClubPenguinWaddleForever: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Singleplayer and playable digital archive version of Club Penguin.",
   notesEs: "Archivo digital de Club Penguin, jugable en solitario.",
 };

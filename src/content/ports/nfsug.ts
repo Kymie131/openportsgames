@@ -14,12 +14,13 @@ export const nfsug: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
+  wip: true,
   release: { version: null, date: null },
   sources: ["https://github.com/dbalatoni13/nfsug"],
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   notes:
     "Decompilation of Need for Speed: Underground. A research codebase; it requires game files from a copy you own.",
   notesEs:

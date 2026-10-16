@@ -19,7 +19,7 @@ export const dragonQuestViiiRecomp: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   notes:
     "Static recompilation of Dragon Quest VIII: Journey of the Cursed King (PlayStation 2) for Windows. It needs your own copy of the game.",
   notesEs:

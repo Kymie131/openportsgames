@@ -35,4 +35,5 @@ export const dhewm3: Port = {
     alt: "Doom 3 (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["Windows"],
 };

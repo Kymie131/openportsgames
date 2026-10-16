@@ -18,7 +18,7 @@ export const medalOfHonorFrontlineRecomp: Port = {
   sources: ["https://github.com/ant0-blase/MOHFrontline-GC-RECOMP"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   notes:
     "Static recompilation of Medal of Honor: Frontline (GameCube) with ReXGlue. It requires the original game.",
   notesEs:

@@ -14,12 +14,13 @@ export const godHandDecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
+  wip: true,
   release: { version: null, date: null },
   sources: ["https://github.com/LucasPicoli/god-hand-decomp"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   notes:
     "Matching decompilation of God Hand for the PlayStation 2. A research codebase; it requires game files from a copy you own.",
   notesEs:

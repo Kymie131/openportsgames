@@ -18,7 +18,7 @@ export const ufcUndisputed3Recomp: Port = {
   sources: ["https://github.com/paulogaab21/ufc3recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Native PC recompilation of UFC Undisputed 3 (Xbox 360) with ReXGlue. The game is not included.",
   notesEs:

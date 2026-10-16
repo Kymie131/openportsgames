@@ -18,7 +18,7 @@ export const openmwAndroid: Port = {
   sources: ["https://github.com/Sisah2/openmw-android"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Android port of OpenMW, the open-source Morrowind engine. It runs Morrowind with your own game data.",
   notesEs:

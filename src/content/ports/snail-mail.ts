@@ -19,7 +19,7 @@ export const SnailMail: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Snail Mail (Other).",
   notesEs: "Decompilación de Snail Mail (Other).",
 };

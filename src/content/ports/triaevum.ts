@@ -18,7 +18,7 @@ export const triAevum: Port = {
   license: { spdx: "GPL-3.0-or-later" },
   verified: true,
   verifiedAt: "2026-09-22",
-  originalSystem: "Nintendo 3DS",
+  originalSystems: ["Nintendo 3DS"],
   features: [
     "NRI/Vulkan renderer with cel shading and outlines",
     "60/90 FPS interpolation of the 30 Hz game state",

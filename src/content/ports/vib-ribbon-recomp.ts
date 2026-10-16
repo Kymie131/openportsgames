@@ -18,7 +18,7 @@ export const vibRibbonRecomp: Port = {
   sources: ["https://github.com/alexbeavs-ps1-ports/vib-ribbon-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Recompilation of Vib-Ribbon (PS1, Europe SCES-02873) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

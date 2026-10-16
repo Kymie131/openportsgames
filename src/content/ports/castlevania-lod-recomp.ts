@@ -17,7 +17,7 @@ export const castlevaniaLodRecomp: Port = {
   sources: ["https://github.com/fliperama86/cvlod_recomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   features: [
     "Aspect ratio modes (Original, Expand, Manual) cycled with F6",
     "Anti-aliasing up to 8x MSAA, cycled with F7",

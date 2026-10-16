@@ -19,7 +19,7 @@ export const MarvelVsCapcom2: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   notes: "Decompilation of Marvel vs. Capcom 2 (PlayStation 2).",
   notesEs: "Decompilación de Marvel vs. Capcom 2 (PlayStation 2).",
 };

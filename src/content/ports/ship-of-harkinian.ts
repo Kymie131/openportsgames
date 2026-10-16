@@ -53,4 +53,5 @@ export const shipOfHarkinian: Port = {
     alt: "The Legend of Zelda: Ocarina of Time (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["Nintendo 64"],
 };

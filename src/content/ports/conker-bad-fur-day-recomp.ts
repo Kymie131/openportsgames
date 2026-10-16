@@ -18,7 +18,7 @@ export const conkerBadFurDayRecomp: Port = {
   license: { spdx: "MIT" },
   verified: true,
   verifiedAt: "2026-10-14",
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   features: [
     "RT64 renderer with higher resolutions, widescreen and anti-aliasing",
     "High frame-rate presentation",

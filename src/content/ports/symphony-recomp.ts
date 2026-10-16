@@ -21,7 +21,7 @@ export const symphonyRecomp: Port = {
     note: "no SPDX license in the repository",
   },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   features: [
     "Widescreen and resolution scaling",
     "Built-in modding and asset replacement system",

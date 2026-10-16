@@ -23,7 +23,7 @@ export const smwRev: Port = {
   },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "Super Nintendo",
+  originalSystems: ["Super Nintendo"],
   notes:
     "SNES ROM reimplementation. The project publishes no game assets, so a legally obtained copy of Super Mario World is required.",
   notesEs:

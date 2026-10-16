@@ -21,7 +21,7 @@ export const wipeoutPhantomEdition: Port = {
   },
   verified: true,
   verifiedAt: "2026-09-30",
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   features: [
     "Uncapped frame rate decoupled from the simulation",
     "Widescreen and high resolution rendering options",

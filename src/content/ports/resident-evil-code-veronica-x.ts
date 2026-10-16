@@ -19,7 +19,9 @@ export const ResidentEvilCodeVeronicaX: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
-  notes: "Decompilation project of Resident Evil - Code: Veronica X (GC) which aims to reconstruct the source code of the game.",
-  notesEs: "Proyecto de decompilación de Resident Evil - Code: Veronica X (GC) que busca reconstruir el código fuente.",
+  originalSystems: ["Unknown"],
+  notes:
+    "Decompilation project of Resident Evil - Code: Veronica X (GC) which aims to reconstruct the source code of the game.",
+  notesEs:
+    "Proyecto de decompilación de Resident Evil - Code: Veronica X (GC) que busca reconstruir el código fuente.",
 };

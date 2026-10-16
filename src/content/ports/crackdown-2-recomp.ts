@@ -18,7 +18,7 @@ export const crackdown2Recomp: Port = {
   sources: ["https://github.com/matty45/Crackdown2-Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes: "The project publishes no description.",
   notesEs: "El proyecto no publica descripción.",
   cover: {

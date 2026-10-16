@@ -20,7 +20,7 @@ export const FroggersAdventuresTempleOfTheFrog: Port = {
   verified: false,
   wip: true,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/53/Frogger%27s_Adventures_Temple_of_the_Frog_Cover.png",
     alt: "Frogger's Adventures: Temple of the Frog (cover)",

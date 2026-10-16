@@ -19,7 +19,7 @@ export const AlienVsPredator2: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes: "Reconstruction of Aliens versus Predator 2. It requires game files from a copy you own.",
   notesEs:
     "Reconstrucción de Aliens versus Predator 2. Requiere archivos del juego de una copia que poseas.",

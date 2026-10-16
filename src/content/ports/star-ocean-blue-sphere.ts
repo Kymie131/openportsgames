@@ -19,7 +19,7 @@ export const StarOceanBlueSphere: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/81/Star_Ocean_Blue_Sphere_Game_Boy_Color_box_art.jpg",
     alt: "Star Ocean: Blue Sphere (box art)",

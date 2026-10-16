@@ -19,7 +19,7 @@ export const CosmosCosmicAdventure: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["MS-DOS"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c9/Cosmoscosmicadventurecover.jpg",
     alt: "Cosmo's Cosmic Adventure (box art)",

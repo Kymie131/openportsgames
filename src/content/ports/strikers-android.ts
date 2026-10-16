@@ -18,7 +18,7 @@ export const strikersAndroid: Port = {
   sources: ["https://github.com/luisxl15/Strikers-Android-Port"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   notes:
     "Community Android port of Super Mario Strikers (GameCube). It needs the game itself and its files.",
   notesEs:

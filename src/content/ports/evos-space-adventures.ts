@@ -19,7 +19,9 @@ export const EvosSpaceAdventures: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo 64",
-  notes: "Evo's Space Adventures for PSX. A proof of concept, matching PSX decompilation, leveraging tools from N64 decomp projects.",
-  notesEs: "Evo's Space Adventures para PSX. Prueba de concepto, decompilación que coincide para PSX.",
+  originalSystems: ["Nintendo 64"],
+  notes:
+    "Evo's Space Adventures for PSX. A proof of concept, matching PSX decompilation, leveraging tools from N64 decomp projects.",
+  notesEs:
+    "Evo's Space Adventures para PSX. Prueba de concepto, decompilación que coincide para PSX.",
 };

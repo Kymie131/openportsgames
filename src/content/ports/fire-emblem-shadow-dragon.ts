@@ -19,7 +19,7 @@ export const FireEmblemShadowDragon: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/9b/Fire_Emblem_DS.jpg",
     alt: "Fire Emblem: Shadow Dragon (box art)",

@@ -19,12 +19,12 @@ export const TheWorldEndsWithYou: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo DS",
+  originalSystems: ["Nintendo DS"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/fb/The_World_Ends_With_You.jpg",
     alt: "The World Ends with You (box art)",
     credit: "Wikipedia",
   },
-  notes: "A reverse engineered implementation of \"The World Ends With You\" for the Nintendo DS.",
+  notes: 'A reverse engineered implementation of "The World Ends With You" for the Nintendo DS.',
   notesEs: "Reimplementación por ingeniería inversa de «The World Ends With You» para Nintendo DS.",
 };

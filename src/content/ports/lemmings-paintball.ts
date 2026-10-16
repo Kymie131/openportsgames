@@ -19,7 +19,7 @@ export const LemmingsPaintball: Port = {
   license: { spdx: "Unlicense" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/24/Lemmings_Paintball_Coverart.png",
     alt: "Lemmings Paintball (box art)",

@@ -19,7 +19,7 @@ export const DsProtect: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo DS",
+  originalSystems: ["Nintendo DS"],
   notes: "Decompilation of DS Protect.",
   notesEs: "Decompilación de DS Protect.",
 };

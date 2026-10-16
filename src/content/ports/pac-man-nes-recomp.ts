@@ -18,7 +18,7 @@ export const pacManNesRecomp: Port = {
   sources: ["https://github.com/Mr-Shizzy/PacManRecomp"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "Nintendo Entertainment System",
+  originalSystems: ["Nintendo Entertainment System"],
   notes:
     "Native recompilation of Pac-Man (Nintendo Entertainment System). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

@@ -20,7 +20,7 @@ export const CostumeQuest: Port = {
   verified: false,
   wip: true,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/de/Costume-quest-cover.jpg",
     alt: "Costume Quest (box art)",

@@ -20,7 +20,7 @@ export const PokemonBattleRevolution: Port = {
   verified: false,
   wip: true,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/94/Pok%C3%A9mon_Battle_Revolution_Coverart.png",
     alt: "Pokemon Battle Revolution (box art)",

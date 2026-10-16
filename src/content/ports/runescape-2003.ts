@@ -19,7 +19,7 @@ export const Runescape2003: Port = {
   license: { spdx: "AGPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "🍫 runescape classic client ported to C.",
   notesEs: "Cliente de RuneScape Classic de 2003 portado a C.",
 };

@@ -18,7 +18,7 @@ export const goemon64Recompiled: Port = {
   sources: ["https://github.com/klorfmorf/Goemon64Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Native recompilation of Mystical Ninja Starring Goemon (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

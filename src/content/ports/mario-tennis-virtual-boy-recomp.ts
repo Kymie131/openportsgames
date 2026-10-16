@@ -18,7 +18,7 @@ export const marioTennisVirtualBoyRecomp: Port = {
   sources: ["https://github.com/mstan/MarioTennisVirtualBoyRecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Virtual Boy",
+  originalSystems: ["Virtual Boy"],
   notes:
     "Static recompilation of Mario's Tennis (Virtual Boy) using the vbrecomp toolkit. It requires your own ROM and does not include the game.",
   notesEs:

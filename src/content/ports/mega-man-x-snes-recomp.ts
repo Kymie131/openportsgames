@@ -21,7 +21,7 @@ export const megaManXSnesRecomp: Port = {
     note: "Repository declares no SPDX license, so reuse rights are unstated.",
   },
   verified: false,
-  originalSystem: "Super Nintendo",
+  originalSystems: ["Super Nintendo"],
   features: [
     "Adaptive and fixed widescreen respecting display aspect",
     "Launcher can be reopened mid-game with Ctrl+L or Select+L3",

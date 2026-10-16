@@ -20,7 +20,7 @@ export const spaceStationSiliconValleyRecomp: Port = {
     note: "Repository ships no license file, so reuse rights are unstated.",
   },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   features: ["Widescreen support", "Mod support"],
   featuresEs: ["Soporte panorámico", "Soporte de mods"],
   notes:

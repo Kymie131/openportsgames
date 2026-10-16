@@ -19,7 +19,7 @@ export const SonicBattle: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Sonic%20Battle%20(Europe)%20(En,Ja,Fr,De,Es,It).png",
     alt: "Sonic Battle (box art)",

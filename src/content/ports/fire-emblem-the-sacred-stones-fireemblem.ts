@@ -19,7 +19,7 @@ export const FireEmblemTheSacredStonesFireemblem: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation/disassembly of Fire Emblem: The Sacred Stones.",
   notesEs: "Decompilación/desensamblado de Fire Emblem: The Sacred Stones.",
 };

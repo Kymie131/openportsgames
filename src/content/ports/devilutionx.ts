@@ -52,4 +52,5 @@ export const devilutionX: Port = {
     alt: "Diablo (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["MS-DOS"],
 };

@@ -19,7 +19,7 @@ export const FlatoutUltimateCarnage: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "My attempted decompilation of FlatOut: Ultimate Carnage.",
   notesEs: "Intento de decompilación de FlatOut: Ultimate Carnage.",
 };

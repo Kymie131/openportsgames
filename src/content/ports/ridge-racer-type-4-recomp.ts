@@ -18,7 +18,7 @@ export const ridgeRacerType4Recomp: Port = {
   sources: ["https://github.com/tetrisgm/RidgeRacerType4Recomp"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Native recompilation of R4: Ridge Racer Type 4 (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:

@@ -18,7 +18,7 @@ export const rayman2N64Recomp: Port = {
   sources: ["https://github.com/danielgomesvieira2000/rayman-2-the-great-escape-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Static recompilation of Rayman 2: The Great Escape (N64) with N64Recomp and the RT64 renderer. It requires your own game files.",
   notesEs:

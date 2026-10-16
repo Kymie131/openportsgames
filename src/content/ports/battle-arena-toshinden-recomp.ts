@@ -19,7 +19,7 @@ export const battleArenaToshindenRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Listed on the PortsDR community index with no public repository. You need the original game.",
   notesEs:

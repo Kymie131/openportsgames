@@ -19,7 +19,7 @@ export const godOfWar3Recomp: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 4",
+  originalSystems: ["PlayStation 4"],
   notes:
     "Windows port of God of War III Remastered (PS4): the original x86-64 executable runs directly on the CPU through a custom runtime, with graphics on shadPS4's Vulkan video core and cuesta4's fixes. Playable start to finish, with a 240 FPS patch, launcher and in-game menu. It needs your own dump (CUSA01623 v1.02).",
   notesEs:

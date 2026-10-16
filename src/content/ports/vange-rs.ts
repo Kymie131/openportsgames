@@ -19,7 +19,7 @@ export const VangeRs: Port = {
   license: { spdx: "Apache-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Rusty Vangers clone.",
   notesEs: "Clon de Vangers en Rust.",
 };

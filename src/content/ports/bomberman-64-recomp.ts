@@ -17,7 +17,7 @@ export const bomberman64Recomp: Port = {
   sources: ["https://github.com/RevoSucks/BM64Recomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   features: [
     "High framerate support",
     "Widescreen and ultrawide support",

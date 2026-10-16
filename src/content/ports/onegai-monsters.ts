@@ -19,7 +19,7 @@ export const OnegaiMonsters: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Onegai Monsters (Other).",
   notesEs: "Decompilación de Onegai Monsters (Other).",
 };

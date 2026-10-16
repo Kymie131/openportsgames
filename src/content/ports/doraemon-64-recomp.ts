@@ -19,7 +19,7 @@ export const doraemon64Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Native recompilation of Doraemon: Nobita to Mittsu no Seireiseki (Nintendo 64) for Windows. It needs your own copy of the game.",
   notesEs:

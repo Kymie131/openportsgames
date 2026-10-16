@@ -19,12 +19,14 @@ export const AdventureIslandIi: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo Entertainment System",
+  originalSystems: ["Nintendo Entertainment System"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/2c/Adventure_Island_2_box_art.jpg",
     alt: "Adventure Island II (cover)",
     credit: "Wikipedia",
   },
-  notes: "Static recompilation of Adventure Island II (NES) for Windows 10 and 11. ROM not included.",
-  notesEs: "Recompilación estática de Adventure Island II (NES) para Windows 10 y 11. No incluye la ROM.",
+  notes:
+    "Static recompilation of Adventure Island II (NES) for Windows 10 and 11. ROM not included.",
+  notesEs:
+    "Recompilación estática de Adventure Island II (NES) para Windows 10 y 11. No incluye la ROM.",
 };

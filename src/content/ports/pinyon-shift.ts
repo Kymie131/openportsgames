@@ -19,7 +19,7 @@ export const pinyonShift: Port = {
   license: { spdx: "BSD-3-Clause" },
   verified: true,
   verifiedAt: "2026-10-14",
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Playable preview of a static recompilation of Forza Horizon (Xbox 360) for PC, distributed as versioned releases. The port code is public (BSD-3-Clause), but the game itself is proprietary: you must supply your own Xbox 360 copy, and the repository ships no game content. Several similarly named forks exist; this is the original repository.",
   notesEs:

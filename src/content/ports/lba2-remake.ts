@@ -19,7 +19,7 @@ export const lba2Remake: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Reimplementation of Little Big Adventure 2 (Twinsen's Odyssey) that runs the original game assets.",
   notesEs:

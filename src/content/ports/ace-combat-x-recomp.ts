@@ -19,7 +19,7 @@ export const aceCombatXRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation Portable",
+  originalSystems: ["PlayStation Portable"],
   notes:
     "Listed on the PortsDR community index with no public repository. You need the original game.",
   notesEs:

@@ -31,4 +31,5 @@ export const opensage: Port = {
     alt: "Command & Conquer: Generals (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["Windows"],
 };

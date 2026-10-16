@@ -18,7 +18,7 @@ export const Flame: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Dungeon Keeper II partial recompilation with bug fixes.",
   notesEs: "Recompilación parcial de Dungeon Keeper II con correcciones.",
 };

@@ -20,7 +20,7 @@ export const dragonBallZLegacyOfGokuRecomp: Port = {
     note: "No project-wide license file detected in the repository.",
   },
   verified: false,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   features: [
     "Static recompilation of the GBA executable",
     "Experimental preview: byproduct of the gbarecomp framework",

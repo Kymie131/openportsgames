@@ -19,9 +19,11 @@ export const infiniteMario64Ever: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo 64",
-  notes: "Fork of Infinite Mario 64 (originally by TwilightPB), a Super Mario 64-based project. Requires your own copy of the game.",
-  notesEs: "Bifurcación de Infinite Mario 64 (original de TwilightPB), un proyecto basado en Super Mario 64. Requiere tu propia copia del juego.",
+  originalSystems: ["Nintendo 64"],
+  notes:
+    "Fork of Infinite Mario 64 (originally by TwilightPB), a Super Mario 64-based project. Requires your own copy of the game.",
+  notesEs:
+    "Bifurcación de Infinite Mario 64 (original de TwilightPB), un proyecto basado en Super Mario 64. Requiere tu propia copia del juego.",
   cover: {
     src: "https://img.itch.zone/aW1nLzE1MjEwNzc3LnBuZw==/original/EubFkM.png",
     alt: "Super Mario 64 (cover)",

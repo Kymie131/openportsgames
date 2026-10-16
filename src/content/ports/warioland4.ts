@@ -19,7 +19,7 @@ export const warioland4: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   notes:
     "Clean-room decompilation of Wario Land 4 for the Game Boy Advance. A research codebase; it requires game files from a copy you own.",
   notesEs:

@@ -19,7 +19,9 @@ export function portDescription(locale: Locale, port: Port, t: Messages): string
 
   if (localized === "") {
     const platform =
-      port.platforms.map((key) => t.platforms[key]).join(", ") || port.originalSystem || "PC";
+      port.platforms.map((key) => t.platforms[key]).join(", ") ||
+    port.originalSystems?.find((system) => system !== "Unknown") ||
+    "PC";
     const technique = t.portTypes[port.portType];
     return summarize(
       locale === "es"

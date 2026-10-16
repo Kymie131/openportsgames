@@ -19,7 +19,7 @@ export const MarioTeachesTyping3: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "A decompilation of Mario Teaches Typing 3.",
   notesEs: "Una decompilación de Mario Teaches Typing 3.",
 };

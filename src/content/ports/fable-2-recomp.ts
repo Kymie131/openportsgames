@@ -19,7 +19,7 @@ export const fable2Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Recompilation of Fable II (Xbox 360) with the ReXGlue SDK. An optional Windows launcher sets resolution, internal render scale, filtering, VSync and the FPS cap (30/60/120 and uncapped), with keyboard and mouse. A second recompilation project exists in parallel.",
   notesEs:

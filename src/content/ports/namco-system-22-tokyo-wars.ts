@@ -18,7 +18,7 @@ export const namcoSystem22TokyoWars: Port = {
   license: { spdx: "MIT" },
   verified: true,
   verifiedAt: "2026-10-14",
-  originalSystem: "Namco System 22",
+  originalSystems: ["Namco System 22"],
   features: [
     "Attract mode and full game playable, with sound",
     "Widescreen rendering on top of the original Mode 22 output",

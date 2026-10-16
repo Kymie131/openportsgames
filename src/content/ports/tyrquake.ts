@@ -19,7 +19,7 @@ export const Tyrquake: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Libretro port of Tyrquake (Quake 1 engine).",
   notesEs: "Port para Libretro de Tyrquake (motor de Quake 1).",
 };

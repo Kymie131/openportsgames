@@ -18,7 +18,7 @@ export const Ratatouille: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   notes: "Decompilation project of Disney-Pixar Ratatouille (USA) for the Nintendo GameCube.",
   notesEs: "Proyecto de decompilación de Ratatouille de Disney-Pixar (USA) para Nintendo GameCube.",
 };

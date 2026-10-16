@@ -19,7 +19,8 @@ export const Heretic2r: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Heretic II (1998, Raven Software) reverse-engineered source port.",
-  notesEs: "Port del código fuente reconstruido por ingeniería inversa de Heretic II (Raven Software, 1998).",
+  notesEs:
+    "Port del código fuente reconstruido por ingeniería inversa de Heretic II (Raven Software, 1998).",
 };

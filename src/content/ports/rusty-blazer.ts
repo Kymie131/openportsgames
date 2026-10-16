@@ -19,7 +19,7 @@ export const rustyBlazer: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Super Nintendo",
+  originalSystems: ["Super Nintendo"],
   notes:
     "Decompilation of Soul Blazer rewritten in Rust. A research codebase; it requires game files from a copy you own.",
   notesEs:

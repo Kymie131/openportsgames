@@ -19,7 +19,7 @@ export const BetrayalAtKrondor: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["MS-DOS"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/20/Betrayal_at_Krondor6.jpg",
     alt: "Betrayal at Krondor (box art)",

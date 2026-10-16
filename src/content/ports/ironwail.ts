@@ -18,7 +18,7 @@ export const ironwail: Port = {
   license: { spdx: "GPL-2.0" },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   features: [
     "SDL2 backends for video and input",
     "Quakespasm base with extended limits",

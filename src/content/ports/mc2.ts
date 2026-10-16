@@ -19,7 +19,7 @@ export const Mc2: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Mech Commander 2 open source engine + OpenGL Linux port.",
   notesEs: "Motor de código abierto de Mech Commander 2 con port a Linux en OpenGL.",
 };

@@ -18,7 +18,7 @@ export const gumshoeNesRecomp: Port = {
   sources: ["https://github.com/mstan/GumshoeNESRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
-  originalSystem: "Nintendo Entertainment System",
+  originalSystems: ["Nintendo Entertainment System"],
   notes:
     "Static recompilation of Gumshoe (NES) with the NESRecomp framework. Playable end-to-end with the Zapper on the mouse; one known cosmetic bug remains in the corner timer and shot counter.",
   notesEs:

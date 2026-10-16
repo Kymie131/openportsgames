@@ -18,7 +18,7 @@ export const silentEngine: Port = {
   sources: ["https://github.com/Sezzary/SilentEngine"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Hand-written native engine for Silent Hill, developed by a contributor to the decompilation project as a non-AI alternative to the AI-assisted PC port. It runs the game natively on PC and requires a copy of the game. An independent project from the other Silent Hill PC port in the catalog.",
   notesEs:

@@ -18,7 +18,7 @@ export const pvzFusionAndroid: Port = {
   sources: ["https://github.com/Teyliu/PVZF-Translation"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Android version of Plants vs. Zombies Fusion, a fan mod of the original Plants vs. Zombies. It needs the original game files.",
   notesEs:

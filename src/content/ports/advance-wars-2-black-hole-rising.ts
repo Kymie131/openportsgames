@@ -19,7 +19,7 @@ export const AdvanceWars2BlackHoleRising: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Advance%20Wars%202%20-%20Black%20Hole%20Rising%20(Europe)%20(En,Fr,De,Es,It)%20(Virtual%20Console).png",
     alt: "Advance Wars 2: Black Hole Rising (box art)",

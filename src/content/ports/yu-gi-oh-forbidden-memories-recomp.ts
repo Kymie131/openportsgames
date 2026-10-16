@@ -18,7 +18,7 @@ export const yuGiOhForbiddenMemoriesRecomp: Port = {
   sources: ["https://github.com/Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Decompilation and recompilation of Yu-Gi-Oh! Forbidden Memories (PlayStation) to a native executable. It needs the original game.",
   notesEs:

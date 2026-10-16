@@ -18,7 +18,7 @@ export const smbVanillaPort: Port = {
   sources: ["https://github.com/nukep/smb-vanilla-port"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Nintendo Entertainment System",
+  originalSystems: ["Nintendo Entertainment System"],
   notes:
     "Decompilation-based native port of Super Mario Bros. (Nintendo Entertainment System). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

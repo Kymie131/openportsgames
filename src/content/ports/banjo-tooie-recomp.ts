@@ -19,7 +19,7 @@ export const banjoTooieRecomp: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes: "Native Windows PC port of Banjo-Tooie (Nintendo 64). It needs your own copy of the game.",
   notesEs:
     "Port nativo para Windows de Banjo-Tooie (Nintendo 64). Necesita tu propia copia del juego.",

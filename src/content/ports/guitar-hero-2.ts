@@ -19,7 +19,7 @@ export const GuitarHero2: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/83/Guitar_Hero_II.jpg",
     alt: "Guitar Hero 2 (box art)",

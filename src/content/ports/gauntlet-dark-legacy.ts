@@ -19,7 +19,7 @@ export const GauntletDarkLegacy: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e4/Gauntlet_Dark_Legacy_Coverart.png",
     alt: "Gauntlet Dark Legacy (cover)",

@@ -19,7 +19,7 @@ export const SonicHeroes: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Sonic%20Heroes%20(Europe)%20(En,Ja,Fr,De,Es,It).png",
     alt: "Sonic Heroes (box art)",

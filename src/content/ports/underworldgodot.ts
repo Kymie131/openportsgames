@@ -19,7 +19,7 @@ export const Underworldgodot: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Engine recreation for Ultima Underworld and Ultima Underworld 2 using the Godot Engine.",
   notesEs: "Recreación del motor de Ultima Underworld y Ultima Underworld 2 con el motor Godot.",
 };

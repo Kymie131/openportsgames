@@ -18,7 +18,7 @@ export const fearAndHungerTerminaAndroid: Port = {
   sources: ["https://github.com/Chokage/Fear-and-Hunger-2-Termina-Mobile"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Ongoing community project to bring Fear & Hunger 2: Termina to Android. It runs the game without an emulator and needs your own copy.",
   notesEs:

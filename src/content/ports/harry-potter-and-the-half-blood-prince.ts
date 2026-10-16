@@ -19,7 +19,7 @@ export const HarryPotterAndTheHalfBloodPrince: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b5/Harry_Potter_and_the_Half-Blood_Prince_cover.png",
     alt: "Harry Potter And The Half Blood Prince (cover)",

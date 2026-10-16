@@ -19,7 +19,7 @@ export const JumpingFlash: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/2e/Jumping_Flash_art.png",
     alt: "Jumping Flash (cover)",

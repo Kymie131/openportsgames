@@ -19,12 +19,14 @@ export const SheepDogNWolf: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/8c/Sheep_Dog_n_Wolf.jpg",
     alt: "Sheep, Dog 'n' Wolf (box art)",
     credit: "Wikipedia",
   },
-  notes: "A byte-matching decompilation of Sheep, Dog 'n' Wolf (Sheep Raider, 2001, PC): source that compiles with the original Visual C++ 6.0 to the exact original exe, plus a mod loader, a 3D level editor and tools. Bring your own copy of the game.",
-  notesEs: "Decompilación byte a byte de Sheep, Dog 'n' Wolf (Sheep Raider, 2001, PC), con mod loader, editor de niveles 3D y herramientas. Aporta tu propia copia.",
+  notes:
+    "A byte-matching decompilation of Sheep, Dog 'n' Wolf (Sheep Raider, 2001, PC): source that compiles with the original Visual C++ 6.0 to the exact original exe, plus a mod loader, a 3D level editor and tools. Bring your own copy of the game.",
+  notesEs:
+    "Decompilación byte a byte de Sheep, Dog 'n' Wolf (Sheep Raider, 2001, PC), con mod loader, editor de niveles 3D y herramientas. Aporta tu propia copia.",
 };

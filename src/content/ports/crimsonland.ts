@@ -19,7 +19,7 @@ export const Crimsonland: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/2f/Crimsonland.jpg",
     alt: "Crimsonland (box art)",

@@ -20,7 +20,7 @@ export const openLoco: Port = {
   license: { spdx: "MIT" },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   features: [
     "Cross-platform desktop builds",
     "Scenario and multiplayer support",

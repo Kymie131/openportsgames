@@ -18,7 +18,7 @@ export const srb2Android: Port = {
   sources: ["https://github.com/bitten2up/SRB2-Android"],
   license: { spdx: "GPL-2.0" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Android build of Sonic Robo Blast 2, the free 3D Sonic fangame based on a modified Doom Legacy engine. It is a standalone game and needs no original assets.",
   notesEs:

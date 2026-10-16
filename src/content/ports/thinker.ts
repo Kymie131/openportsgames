@@ -19,7 +19,7 @@ export const Thinker: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Improved game engine features for SMACX.",
   notesEs: "Funciones de motor mejoradas para SMACX.",
 };

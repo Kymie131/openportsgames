@@ -18,7 +18,7 @@ export const lookingGlassAlice: Port = {
   sources: ["https://github.com/skulitom/LookingGlass"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Rust reimplementation of American McGee's Alice that runs the full campaign on Windows with controller support and modern display options. It is an experimental preview and needs your own game data.",
   notesEs:

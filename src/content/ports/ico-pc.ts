@@ -19,7 +19,7 @@ export const icoPc: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   notes:
     "Native port of Ico built from the PlayStation 2 decompilation, for Windows, Linux, macOS and Android. It needs your own copy of the game.",
   notesEs:

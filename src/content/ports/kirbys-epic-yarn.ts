@@ -19,7 +19,7 @@ export const KirbysEpicYarn: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Kirby's Epic Yarn decompilation.",
   notesEs: "Decompilación de Kirby's Epic Yarn.",
 };

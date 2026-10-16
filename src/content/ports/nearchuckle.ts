@@ -19,7 +19,7 @@ export const Nearchuckle: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "A Linux port of Far Cry 1.",
   notesEs: "Un port para Linux de Far Cry 1.",
 };

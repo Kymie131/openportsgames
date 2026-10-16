@@ -19,7 +19,7 @@ export const SkiesOfArcadiaLegends: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "A matching decompilation of Skies Of Arcadia Legends.",
   notesEs: "Decompilación que coincide de Skies of Arcadia Legends.",
 };

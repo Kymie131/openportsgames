@@ -22,7 +22,7 @@ export const dsdaDoom: Port = {
   },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   features: [
     "Demo playback compatible with the original demo format",
     "Configurable keyboard and mouse emulation",

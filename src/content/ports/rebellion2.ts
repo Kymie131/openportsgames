@@ -19,7 +19,7 @@ export const Rebellion2: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Remake of the classic Star Wars Rebellion game for PC using Unity.",
   notesEs: "Remake del clásico Star Wars Rebellion para PC con Unity.",
 };

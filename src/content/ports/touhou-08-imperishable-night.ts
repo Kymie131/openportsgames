@@ -19,7 +19,7 @@ export const Touhou08ImperishableNight: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Touhou 08: Imperishable Night (Other).",
   notesEs: "Decompilación de Touhou 08: Imperishable Night (Other).",
 };

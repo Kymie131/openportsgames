@@ -19,7 +19,7 @@ export const darkPlaces: Port = {
   website: "https://icculus.org/twilight/darkplaces/",
   license: { spdx: "GPL-2.0" },
   verified: false,
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   notes:
     "Quake engine with client-server multiplayer and a fullscreen console. The newest tag, v20140513, is a dated build stamp rather than a semantic version, so no release version is recorded.",
   notesEs:

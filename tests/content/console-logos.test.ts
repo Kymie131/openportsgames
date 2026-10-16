@@ -6,7 +6,7 @@ import {
   consoleLogoSlugBySystem,
   consoleLogoSlugs,
 } from "@/content/ports/console-logos";
-import { originalSystemOf, ports } from "@/lib/ports";
+import { originalSystemsOf, ports, UNKNOWN_SYSTEM } from "@/lib/ports";
 
 const LOGO_DIR = path.join(process.cwd(), "public", "logos", "console");
 
@@ -36,7 +36,7 @@ describe("console logo badges", () => {
 
   it("annotates every catalog entry with a resolvable logo or an explicit fallback", () => {
     for (const port of ports) {
-      const system = originalSystemOf(port.id) ?? "";
+      const system = originalSystemsOf(port.id).find((s) => s !== UNKNOWN_SYSTEM) ?? "";
       const logo = consoleLogoForSystem(system);
       if (logo !== null) {
         expect(existsSync(path.join(LOGO_DIR, path.basename(logo))), port.id).toBe(true);

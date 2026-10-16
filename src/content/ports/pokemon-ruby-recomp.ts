@@ -18,7 +18,7 @@ export const pokemonRubyRecomp: Port = {
   sources: ["https://github.com/mstan/RubySapphireRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   notes:
     "Static recompilation of Pokémon Ruby (GBA) with the gbarecomp framework. It requires the original game.",
   notesEs:

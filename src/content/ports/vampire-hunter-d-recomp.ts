@@ -18,7 +18,7 @@ export const vampireHunterDRecomp: Port = {
   sources: ["https://github.com/alexbeavs-ps1-ports/vampire-hunter-d-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Recompilation of Vampire Hunter D (PS1, USA SLUS-01138) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

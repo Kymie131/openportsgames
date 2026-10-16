@@ -19,7 +19,7 @@ export const Fuel: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/9a/Fuel_%282009_video_game_-_box_art%29.jpg",
     alt: "FUEL (box art)",

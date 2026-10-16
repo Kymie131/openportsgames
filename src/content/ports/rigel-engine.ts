@@ -19,7 +19,7 @@ export const rigelEngine: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   notes:
     "Modern reimplementation of Duke Nukem II that runs the original game data, with widescreen and enhancements. It needs your own copy of the game.",
   notesEs:

@@ -19,7 +19,7 @@ export const TheJourneymanProjectTurbo: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
-  notes: "Decompilation of \"The Journeyman Project Turbo!\" (1994).",
+  originalSystems: ["Unknown"],
+  notes: 'Decompilation of "The Journeyman Project Turbo!" (1994).',
   notesEs: "Decompilación de «The Journeyman Project Turbo!» (1994).",
 };

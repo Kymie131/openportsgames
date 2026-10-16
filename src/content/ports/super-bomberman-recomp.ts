@@ -19,7 +19,7 @@ export const superBombermanRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Super Nintendo",
+  originalSystems: ["Super Nintendo"],
   notes:
     "Native recompilation of Super Bomberman (SNES) for Windows. It needs your own copy of the game.",
   notesEs:

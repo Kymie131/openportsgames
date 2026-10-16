@@ -19,7 +19,7 @@ export const DiamondRush: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Diamond Rush.",
   notesEs: "Decompilación de Diamond Rush.",
 };

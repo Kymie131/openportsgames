@@ -19,7 +19,7 @@ export const KirbyAirRide: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/ba/Karbox.jpg",
     alt: "Kirby Air Ride (box art)",

@@ -19,7 +19,9 @@ export const Zeldawwhdrecompandroid: Port = {
   license: { spdx: "MPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
-  notes: "Wind Waker HD recompiled for Android (native ARM + Vulkan, no emulator), enhanced: native widescreen, fixed shadows, pinch-to-zoom camera, phone-made touch controls with in-game icons, 60 fps interpolation and performance work. Bring your own game dump.",
-  notesEs: "Wind Waker HD recompilado para Android (ARM nativo + Vulkan, sin emulador), con panorámico nativo, sombras corregidas, 60 fps interpolados y más. Aporta tu propio volcado del juego.",
+  originalSystems: ["Unknown"],
+  notes:
+    "Wind Waker HD recompiled for Android (native ARM + Vulkan, no emulator), enhanced: native widescreen, fixed shadows, pinch-to-zoom camera, phone-made touch controls with in-game icons, 60 fps interpolation and performance work. Bring your own game dump.",
+  notesEs:
+    "Wind Waker HD recompilado para Android (ARM nativo + Vulkan, sin emulador), con panorámico nativo, sombras corregidas, 60 fps interpolados y más. Aporta tu propio volcado del juego.",
 };

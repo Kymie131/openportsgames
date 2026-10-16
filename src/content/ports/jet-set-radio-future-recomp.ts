@@ -19,7 +19,7 @@ export const jetSetRadioFutureRecomp: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox",
+  originalSystems: ["Xbox"],
   notes:
     "Static recompilation of Jet Set Radio Future (Xbox) for Windows. It needs your own copy of the game.",
   notesEs:

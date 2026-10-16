@@ -19,7 +19,7 @@ export const conan2007Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Native DirectX 12 rendering. Controller only. Up to 120 FPS, because physics break above that.",
   notesEs:

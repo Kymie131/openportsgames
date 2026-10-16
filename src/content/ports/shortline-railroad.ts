@@ -18,7 +18,7 @@ export const ShortlineRailroad: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "The reversed source code for ShortLine v1.1 game.",
   notesEs: "El código fuente reconstruido del juego ShortLine v1.1.",
 };

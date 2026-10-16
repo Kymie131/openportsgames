@@ -18,7 +18,7 @@ export const syphonFilter2Recompiled: Port = {
   sources: ["https://github.com/Alexbeav/syphon-filter-2-recompiled"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Experimental recompilation of Syphon Filter 2 (PS1, USA, two discs, SCUS-94451) with PSXRecomp. A build-it-yourself Windows kit: a SETUP.bat detects the disc, downloads the tools and compiles, with no need for Visual Studio or Git. It is still an alpha (v0.1.2).",
   notesEs:

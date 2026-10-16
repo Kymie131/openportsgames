@@ -19,7 +19,7 @@ export const HarvestMoonFriendsOfMineralTown: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Harvest Moon (Story of Seasons): Friends of Mineral Town.",
   notesEs: "Decompilación de Harvest Moon (Story of Seasons): Friends of Mineral Town.",
 };

@@ -18,7 +18,7 @@ export const chameleonTwist2Recomp: Port = {
   sources: ["https://github.com/Rainchus/ChameleonTwist2-JP-Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Static recompilation of Chameleon Twist 2 (N64, Japanese release) with N64Recomp and RT64. It adds widescreen, unlocked framerate, an optional dual-analog camera and Linux and Steam Deck support.",
   notesEs:

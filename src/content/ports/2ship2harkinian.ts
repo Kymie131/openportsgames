@@ -45,4 +45,5 @@ export const twoShip: Port = {
     alt: "The Legend of Zelda: Majora's Mask (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["Nintendo 64"],
 };

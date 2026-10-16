@@ -20,7 +20,9 @@ export const ResidentEvil4DreamcastPortRe4dc: Port = {
   verified: false,
   wip: true,
   sourceVerified: true,
-  originalSystem: "Dreamcast",
-  notes: "Work-in-progress Resident Evil 4 port for Sega Dreamcast, with native PowerVR rendering, VMU saves and Flycast-tested play builds.",
-  notesEs: "Port de Resident Evil 4 para Sega Dreamcast, en desarrollo, con renderizado PowerVR nativo y guardados en VMU.",
+  originalSystems: ["Dreamcast"],
+  notes:
+    "Work-in-progress Resident Evil 4 port for Sega Dreamcast, with native PowerVR rendering, VMU saves and Flycast-tested play builds.",
+  notesEs:
+    "Port de Resident Evil 4 para Sega Dreamcast, en desarrollo, con renderizado PowerVR nativo y guardados en VMU.",
 };

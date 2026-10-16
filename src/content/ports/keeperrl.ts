@@ -19,7 +19,7 @@ export const Keeperrl: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Source code of KeeperRL.",
   notesEs: "Código fuente de KeeperRL.",
 };

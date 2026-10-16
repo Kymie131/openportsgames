@@ -19,7 +19,7 @@ export const WiiPlay: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Wii",
+  originalSystems: ["Wii"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/Wii%20Play%20(Europe)%20(En,Fr,De,Es,It)%20(Rev%201).png",
     alt: "Wii Play (box art)",

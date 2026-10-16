@@ -18,7 +18,7 @@ export const supermanReturnsRecomp: Port = {
   sources: ["https://github.com/MrPowerUp82/superman_returns_recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Native recompilation of Superman Returns (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:

@@ -18,7 +18,7 @@ export const hamsterMonogatari64Recomp: Port = {
   sources: ["https://github.com/SrBananaMan/Hamster64Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Native recompilation of Hamster Monogatari 64 (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

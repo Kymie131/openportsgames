@@ -18,7 +18,7 @@ export const xMenLegendsRecomp: Port = {
   sources: ["https://github.com/GTTeancum/OpenXML1xbox"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox",
+  originalSystems: ["Xbox"],
   notes: "Static recompilation of X-Men Legends (Xbox) with ReXGlue. It requires the game itself.",
   notesEs: "Recompilación estática de X-Men Legends (Xbox) con ReXGlue. Requiere el propio juego.",
   cover: {

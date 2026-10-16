@@ -30,4 +30,5 @@ export const sonicMania: Port = {
     alt: "Sonic Mania (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["Windows"],
 };

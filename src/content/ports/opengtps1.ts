@@ -18,7 +18,7 @@ export const openGtps1: Port = {
   sources: ["https://github.com/GTTeancum/OpenGTPS1"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Native recompilation of Gran Turismo 2 (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:

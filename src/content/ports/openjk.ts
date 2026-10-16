@@ -30,4 +30,5 @@ export const openJk: Port = {
     alt: "Star Wars Jedi Knight: Jedi Academy (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["Windows"],
 };

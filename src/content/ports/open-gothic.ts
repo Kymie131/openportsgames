@@ -18,7 +18,7 @@ export const openGothic: Port = {
   discord: "https://discord.gg/G9XvcFQnn6",
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   features: ["Modern renderer with dynamic lighting", "Cross-platform desktop builds"],
   featuresEs: [
     "Renderizador moderno con iluminación dinámica",

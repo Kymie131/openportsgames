@@ -19,7 +19,7 @@ export const PanzerDragoonSaga: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/64/PanzerDragoonSagaBox.jpg",
     alt: "Panzer Dragoon Saga (box art)",

@@ -18,7 +18,7 @@ export const pgr4Recomp: Port = {
   sources: ["https://github.com/beatrixzy/PGR4-Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Static recompilation of Project Gotham Racing 4 (Xbox 360) built with ReXGlue. Bring your own game data.",
   notesEs:

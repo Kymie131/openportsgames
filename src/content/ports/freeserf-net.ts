@@ -19,7 +19,7 @@ export const FreeserfNet: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Settlers 1 clone written in C#.",
   notesEs: "Clon de Settlers 1 escrito en C#.",
 };

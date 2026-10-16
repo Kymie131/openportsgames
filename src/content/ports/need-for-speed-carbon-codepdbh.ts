@@ -19,12 +19,14 @@ export const NeedForSpeedCarbonCodepdbh: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a4/Need_for_Speed_Carbon_Game_Cover.jpg",
     alt: "Need for Speed Carbon (cover)",
     credit: "Wikipedia",
   },
-  notes: "Experimental static recompilation of Need for Speed Carbon for Xbox 360 using ReXGlue. Windows x64 prototype, analysis fixes and build instructions.",
-  notesEs: "Recompilación estática experimental de Need for Speed Carbon para Xbox 360 con ReXGlue. Prototipo para Windows x64.",
+  notes:
+    "Experimental static recompilation of Need for Speed Carbon for Xbox 360 using ReXGlue. Windows x64 prototype, analysis fixes and build instructions.",
+  notesEs:
+    "Recompilación estática experimental de Need for Speed Carbon para Xbox 360 con ReXGlue. Prototipo para Windows x64.",
 };

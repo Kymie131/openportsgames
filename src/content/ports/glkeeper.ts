@@ -19,7 +19,7 @@ export const Glkeeper: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Open Source Dungeon Keeper 2 Reimplementation.",
   notesEs: "Reimplementación de código abierto de Dungeon Keeper 2.",
 };

@@ -204,6 +204,21 @@ const en = {
     tester: "Tester",
     noBadge: "A port only shows a badge when a registered test exists.",
   },
+  game: {
+    title: "Falling shapes",
+    subtitle:
+      "Drop shapes and merge two of the same kind into a bigger one. Reach the star and don't let the stack cross the line.",
+    score: "Score",
+    best: "Best",
+    next: "Next",
+    play: "Play",
+    restart: "Play again",
+    gameOver: "Game over",
+    gameOverBody: "The stack reached the top. Merge two equal shapes to make room.",
+    howTo: "Tap or click to drop a shape. Merge two equal shapes to make them grow.",
+    controls:
+      "PC: move the mouse and click, or use the arrow keys and the space bar. Mobile: drag and release.",
+  },
   brand: {
     tagline:
       "A community catalog of native game ports for PC and Android: decompilations, recompilations and engine rewrites.",
@@ -687,6 +702,21 @@ const es: Messages = {
     updatedAt: "Última actualización",
     tester: "Probador",
     noBadge: "Un port solo muestra insignia si hay una prueba registrada.",
+  },
+  game: {
+    title: "Figuras que caen",
+    subtitle:
+      "Deja caer figuras y junta dos iguales para formar una más grande. Llega a la estrella y no dejes que la torre pase la línea.",
+    score: "Puntos",
+    best: "Récord",
+    next: "Siguiente",
+    play: "Jugar",
+    restart: "Jugar de nuevo",
+    gameOver: "Fin del juego",
+    gameOverBody: "La torre llegó arriba. Junta dos figuras iguales para hacer sitio.",
+    howTo: "Toca o haz clic para soltar una figura. Junta dos iguales para que crezcan.",
+    controls:
+      "PC: mueve el ratón y haz clic, o usa las flechas y la barra espaciadora. Móvil: arrastra y suelta.",
   },
   brand: {
     tagline:

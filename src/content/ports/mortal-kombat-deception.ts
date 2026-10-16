@@ -19,7 +19,7 @@ export const MortalKombatDeception: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/29/MK_Deception_Cover_Artwork.jpeg",
     alt: "Mortal Kombat: Deception (cover)",

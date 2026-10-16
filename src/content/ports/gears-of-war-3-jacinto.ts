@@ -19,7 +19,7 @@ export const gearsOfWar3Jacinto: Port = {
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
   sourceVerified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   warning:
     "This version was built from a leaked development build, not from your own copy of the game. Its legal situation differs from the rest of the catalog and it may be removed.",
   warningEs:

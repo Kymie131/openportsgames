@@ -18,7 +18,7 @@ export const tf15Client: Port = {
   sources: ["https://github.com/Velaron/tf15-client"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Reverse-engineered client for Team Fortress Classic, distributed for Android, Windows and Linux and run through Xash3D FWGS. It needs the original game data.",
   notesEs:

@@ -18,7 +18,7 @@ export const streetsOfRageRecomp: Port = {
   sources: ["https://github.com/RuiNelson/StreetsOfRageProject"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Sega Mega Drive / Genesis",
+  originalSystems: ["Sega Mega Drive / Genesis"],
   notes:
     "Native recompilation of Streets of Rage (Sega Mega Drive / Genesis). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

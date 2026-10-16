@@ -19,7 +19,7 @@ export const TheOperativeNoOneLivesForeverNolfsrc: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Source code reconstruction of The Operative: No One Lives Forever.",
   notesEs: "Reconstrucción del código fuente de The Operative: No One Lives Forever.",
 };

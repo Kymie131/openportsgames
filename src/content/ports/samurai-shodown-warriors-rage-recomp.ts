@@ -19,7 +19,7 @@ export const samuraiShodownWarriorsRageRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
   sourceIsIndex: true,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Recompilation of Samurai Shodown: Warriors Rage (PlayStation) listed by the PortsDR community index. No public repository or release is linked.",
   notesEs:

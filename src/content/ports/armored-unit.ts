@@ -19,7 +19,7 @@ export const ArmoredUnit: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Disassembly/Decompilation for the Armored Unit game for the Wonderswan.",
   notesEs: "Desensamblado/decompilación del juego Armored Unit para Wonderswan.",
 };

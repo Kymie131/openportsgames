@@ -19,7 +19,7 @@ export const redriver2: Port = {
   license: { spdx: "MIT" },
   verified: true,
   verifiedAt: "2026-09-30",
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   features: [
     "Game logic translated from MIPS back to C, no interpreter involved",
     "Types and function names recovered from the retail .SYM debug symbols",

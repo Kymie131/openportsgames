@@ -19,7 +19,7 @@ export const Openxw: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Source port of OpenXW (Other).",
   notesEs: "Port del código fuente de OpenXW (Other).",
 };

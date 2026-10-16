@@ -19,7 +19,7 @@ export const SuperMario3dLand: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Super Mario 3D Land EU Decompilation.",
   notesEs: "Decompilación de Super Mario 3D Land (EU).",
 };

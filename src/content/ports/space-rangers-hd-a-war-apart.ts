@@ -19,7 +19,8 @@ export const SpaceRangersHdAWarApart: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
-  notes: "A matching Delphi decompilation of Space Rangers HD: A War Apart - Космические рейнджеры HD: Революция.",
+  originalSystems: ["Unknown"],
+  notes:
+    "A matching Delphi decompilation of Space Rangers HD: A War Apart - Космические рейнджеры HD: Революция.",
   notesEs: "Decompilación que coincide en Delphi de Space Rangers HD: A War Apart.",
 };

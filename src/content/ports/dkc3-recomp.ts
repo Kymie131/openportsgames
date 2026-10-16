@@ -18,7 +18,7 @@ export const dkc3Recomp: Port = {
   sources: ["https://github.com/elliotttate/DKC3Recomp"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "Super Nintendo",
+  originalSystems: ["Super Nintendo"],
   notes:
     "Static recompilation of Donkey Kong Country 3 (SNES, USA En/Fr) with snesrecomp. It is in bring-up: it covers boot, the launcher, save states and Lakeside Limbo, with verified 16:10, 16:9 and 21:9 widescreen.",
   notesEs:

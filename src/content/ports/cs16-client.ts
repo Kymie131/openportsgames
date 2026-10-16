@@ -18,7 +18,7 @@ export const cs16Client: Port = {
   sources: ["https://github.com/Velaron/cs16-client"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Reverse-engineered client for Counter-Strike 1.6 aimed at mobile and other unsupported platforms. It runs the original game data and ships builds for Android, Windows and Linux.",
   notesEs:

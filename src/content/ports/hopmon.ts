@@ -19,7 +19,7 @@ export const Hopmon: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Cross-platform Hopmon decompilation/reimplementation.",
   notesEs: "Decompilación/reimplementación multiplataforma de Hopmon.",
 };

@@ -19,7 +19,7 @@ export const Splatterhouse: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Splatterhouse (Other).",
   notesEs: "Decompilación de Splatterhouse (Other).",
 };

@@ -19,7 +19,7 @@ export const RatchetAndClankUsa: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Preserving Ratchet & Clank (2002) through decompilation.",
   notesEs: "Preservación de Ratchet & Clank (2002) mediante decompilación.",
 };

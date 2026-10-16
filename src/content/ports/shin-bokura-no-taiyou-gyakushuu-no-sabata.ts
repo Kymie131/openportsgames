@@ -19,7 +19,7 @@ export const ShinBokuraNoTaiyouGyakushuuNoSabata: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Shin Bokura no Taiyou: Gyakushuu no Sabata (Other).",
   notesEs: "Decompilación de Shin Bokura no Taiyou: Gyakushuu no Sabata (Other).",
 };

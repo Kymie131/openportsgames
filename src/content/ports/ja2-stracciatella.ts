@@ -23,7 +23,7 @@ export const ja2Stracciatella: Port = {
   },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   features: [
     "Cross-platform desktop builds",
     "Android build",

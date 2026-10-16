@@ -19,7 +19,7 @@ export const Okamiden: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo DS",
+  originalSystems: ["Nintendo DS"],
   notes: "Decompilation of Okamiden (U) for the Nintendo DS.",
   notesEs: "Decompilación de Okamiden (U) para Nintendo DS.",
 };

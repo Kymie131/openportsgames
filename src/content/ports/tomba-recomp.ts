@@ -18,7 +18,7 @@ export const tombaRecomp: Port = {
   sources: ["https://github.com/mstan/TombaRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Static recompilation of Tomba! (USA, SCUS-94236) with PSXRecomp. It includes the Seamless Loading mod, which swaps asset-loading routines for native equivalents.",
   notesEs:

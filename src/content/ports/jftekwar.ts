@@ -19,7 +19,7 @@ export const Jftekwar: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
-  notes: "No-promises port of the Capstone Software game \"TekWar\".",
+  originalSystems: ["Unknown"],
+  notes: 'No-promises port of the Capstone Software game "TekWar".',
   notesEs: "Port sin garantías del juego de Capstone Software «TekWar».",
 };

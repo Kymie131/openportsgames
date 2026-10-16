@@ -20,7 +20,7 @@ export const Xbox360Kernel: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes: "Xbox 360 Kernel decompilation.",
   notesEs: "Decompilación del kernel de Xbox 360.",
 };

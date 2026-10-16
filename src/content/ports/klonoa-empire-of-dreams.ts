@@ -19,7 +19,7 @@ export const KlonoaEmpireOfDreams: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/70/Klonoa_Empire_of_Dreams_Packaging02.jpg",
     alt: "Klonoa: Empire of Dreams (box art)",

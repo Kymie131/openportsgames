@@ -19,7 +19,7 @@ export const DrBrainActionReaction: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompiled Assets From Dr Brain Action Reaction (1999).",
   notesEs: "Recursos decompilados de Dr. Brain: Action Reaction (1999).",
 };

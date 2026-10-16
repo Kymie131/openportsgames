@@ -19,7 +19,8 @@ export const NeedForSpeedHighStakesPs1: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation",
-  notes: "Byte-matching decompilation of Need for Speed High Stakes (PSX) - splat + maspsx + objdiff.",
+  originalSystems: ["PlayStation"],
+  notes:
+    "Byte-matching decompilation of Need for Speed High Stakes (PSX) - splat + maspsx + objdiff.",
   notesEs: "Decompilación que coincide byte a byte de Need for Speed: High Stakes (PSX).",
 };

@@ -19,7 +19,7 @@ export const shadowOfTheColossusPc: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 4",
+  originalSystems: ["PlayStation 4"],
   notes:
     "Unofficial native Windows port of the Shadow of the Colossus remake (PS4, CUSA08809). It runs the game's original x86-64 code through a small runtime derived from bbport and a Vulkan renderer based on shadPS4, so it is not a conventional emulator. Requires your own decrypted copy of the game.",
   notesEs:

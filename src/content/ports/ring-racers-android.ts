@@ -18,7 +18,7 @@ export const ringRacersAndroid: Port = {
   sources: ["https://github.com/bitten2up/RingRacers"],
   license: { spdx: "GPL-2.0" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Android build of Dr. Robotnik's Ring Racers, the free kart racer from Kart Krew based on Sonic Robo Blast 2. It is a standalone fangame with no original assets.",
   notesEs:

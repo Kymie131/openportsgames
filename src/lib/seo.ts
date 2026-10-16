@@ -13,12 +13,42 @@ const DESCRIPTION_MAX = 155;
 
 const OG_LOCALE: Record<Locale, string> = { en: "en_US", es: "es_ES" };
 
-/** Truncates a description for meta tags on a word boundary. */
+/**
+ * Trims a description for meta tags. Collapses whitespace, cuts on a word
+ * boundary and closes with a period, so it never ends mid-sentence and never
+ * shows an ellipsis.
+ */
 export function summarize(text: string, max: number = DESCRIPTION_MAX): string {
-  if (text.length <= max) return text;
-  const cut = text.slice(0, max);
+  const clean = text.replace(/\s+/g, " ").trim();
+  if (clean.length <= max) return clean;
+  const cut = clean.slice(0, max);
   const lastSpace = cut.lastIndexOf(" ");
-  return `${lastSpace > 0 ? cut.slice(0, lastSpace) : cut}…`;
+  const head = (lastSpace > 0 ? cut.slice(0, lastSpace) : cut).replace(
+    /[\s,;:.\u2013\u2014-]+$/,
+    "",
+  );
+  return `${head}.`;
+}
+
+/** `<title>` for a port page: the game, the platform and the port's own name. */
+export function portTitle(locale: Locale, game: string, portName: string): string {
+  return locale === "es"
+    ? `${game} port nativo para PC – ${portName}`
+    : `${game} native PC port – ${portName}`;
+}
+
+/** Schema.org BreadcrumbList for a list of {name, url} items, in order. */
+export function breadcrumbList(items: { name: string; url: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: item.url,
+    })),
+  };
 }
 
 /**

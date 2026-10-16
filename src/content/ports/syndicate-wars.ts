@@ -19,7 +19,7 @@ export const SyndicateWars: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["MS-DOS"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/ec/Syndicate_Wars_Coverart.png",
     alt: "Syndicate Wars (box art)",

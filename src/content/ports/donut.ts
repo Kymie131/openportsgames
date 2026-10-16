@@ -18,7 +18,7 @@ export const donut: Port = {
   discord: "https://discord.gg/U7jFGJKuW4",
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   features: [
     "Open source reimplementation in modern C++",
     "Modern OpenGL renderer",

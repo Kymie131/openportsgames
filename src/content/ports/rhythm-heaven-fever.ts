@@ -19,7 +19,7 @@ export const RhythmHeavenFever: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/bb/Rhythm-heaven-fever.jpg",
     alt: "Rhythm Heaven Fever (box art)",

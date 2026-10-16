@@ -19,7 +19,7 @@ export const warzone2100: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Open-source continuation of the real-time strategy game Warzone 2100, released by Eidos in 2004. Free and self-contained.",
   notesEs:

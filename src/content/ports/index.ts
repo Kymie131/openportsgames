@@ -213,6 +213,7 @@ import { wetRecomp } from "./wet-recomp";
 import { tooHumanRecomp } from "./too-human-recomp";
 import { spiderManEdgeOfTimeRecomp } from "./spider-man-edge-of-time-recomp";
 import { bloodbornePc } from "./bloodborne-pc";
+import { unchartedNathanDrakeCollectionPc } from "./uncharted-nathan-drake-collection-pc";
 import { ptPc } from "./pt-pc";
 import { silentHillPc } from "./silent-hill-pc";
 import { silentEngine } from "./silent-engine";
@@ -545,6 +546,13 @@ import { tf15Client } from "./tf15-client";
 import { baronyAndroid } from "./barony-android";
 import { godOfThunderAndroid } from "./god-of-thunder-android";
 import { pinballFantasiesAndroid } from "./pinball-fantasies-android";
+import { dinoTale } from "./dinotale";
+import { battlezoneRiseOfTheBlackDogsRecomp } from "./battlezone-rise-of-the-black-dogs-recomp";
+import { battletanxGlobalAssaultRecomp } from "./battletanx-global-assault-recomp";
+import { goldenSunAndroid } from "./golden-sun-android";
+import { descentAndroid } from "./descent-android";
+import { descent2Android } from "./descent-2-android";
+import { jillOfTheJungleAndroid } from "./jill-of-the-jungle-android";
 import { unciv } from "./unciv";
 import { srb2Android } from "./srb2-android";
 import { ringRacersAndroid } from "./ring-racers-android";
@@ -1440,6 +1448,7 @@ export const portCases: Port[] = [
   tooHumanRecomp,
   spiderManEdgeOfTimeRecomp,
   bloodbornePc,
+  unchartedNathanDrakeCollectionPc,
   ptPc,
   silentHillPc,
   silentEngine,
@@ -1731,6 +1740,13 @@ export const portCases: Port[] = [
   baronyAndroid,
   godOfThunderAndroid,
   pinballFantasiesAndroid,
+  dinoTale,
+  battlezoneRiseOfTheBlackDogsRecomp,
+  battletanxGlobalAssaultRecomp,
+  goldenSunAndroid,
+  descentAndroid,
+  descent2Android,
+  jillOfTheJungleAndroid,
   unciv,
   srb2Android,
   ringRacersAndroid,

@@ -18,7 +18,7 @@ export const Machines: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Community fork of Machines: Wired for War.",
   notesEs: "Bifurcación comunitaria de Machines: Wired for War.",
 };

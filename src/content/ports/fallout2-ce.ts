@@ -30,4 +30,5 @@ export const fallout2Ce: Port = {
     alt: "Fallout 2 (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["Windows"],
 };

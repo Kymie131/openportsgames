@@ -37,4 +37,5 @@ export const sonic12: Port = {
     alt: "Sonic the Hedgehog / Sonic the Hedgehog 2 (cover)",
     credit: "Box art",
   },
+  originalSystems: ["Sega Mega Drive / Genesis"],
 };

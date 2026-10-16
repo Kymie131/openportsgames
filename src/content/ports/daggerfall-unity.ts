@@ -66,4 +66,5 @@ export const daggerfallUnity: Port = {
     alt: "The Elder Scrolls II: Daggerfall (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["MS-DOS"],
 };

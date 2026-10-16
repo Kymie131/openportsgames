@@ -19,7 +19,7 @@ export const DefendersAndDragons: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Defenders & Dragons by Glu.",
   notesEs: "Decompilación de Defenders & Dragons de Glu.",
 };

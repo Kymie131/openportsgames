@@ -19,7 +19,9 @@ export const FinalFantasyXiv10: Port = {
   license: { spdx: "AGPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
-  notes: "Clean-room decompilation of the FINAL FANTASY XIV 1.23b Windows client binaries (ffxivgame/boot/login/updater/config). Hybrid matching + functional/wire reverse-engineering under Ghidra and a byte-identical VS2005+PSDK recompilation toolchain.",
-  notesEs: "Decompilación de sala limpia de los binarios del cliente de Windows de FINAL FANTASY XIV 1.23b (ffxivgame/boot/login/updater/config). Coincidencia híbrida e ingeniería inversa funcional y de protocolo con Ghidra y una cadena de recompilación byte a byte en VS2005+PSDK.",
+  originalSystems: ["Unknown"],
+  notes:
+    "Clean-room decompilation of the FINAL FANTASY XIV 1.23b Windows client binaries (ffxivgame/boot/login/updater/config). Hybrid matching + functional/wire reverse-engineering under Ghidra and a byte-identical VS2005+PSDK recompilation toolchain.",
+  notesEs:
+    "Decompilación de sala limpia de los binarios del cliente de Windows de FINAL FANTASY XIV 1.23b (ffxivgame/boot/login/updater/config). Coincidencia híbrida e ingeniería inversa funcional y de protocolo con Ghidra y una cadena de recompilación byte a byte en VS2005+PSDK.",
 };

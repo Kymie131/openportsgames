@@ -19,7 +19,7 @@ export const ZoneOfTheEnders2: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/fe/Zone_of_the_enders_2nd_runner.jpg",
     alt: "Zone of the Enders 2 (box art)",

@@ -19,7 +19,8 @@ export const ChocolateQuake: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
-  notes: "A purist Quake source port that restores the original look and feel of v1.09 and earlier.",
+  originalSystems: ["MS-DOS"],
+  notes:
+    "A purist Quake source port that restores the original look and feel of v1.09 and earlier.",
   notesEs: "Port purista de Quake que recupera el aspecto y la sensación de la v1.09 y anteriores.",
 };

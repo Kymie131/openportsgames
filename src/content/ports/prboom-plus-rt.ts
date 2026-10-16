@@ -21,7 +21,7 @@ export const prBoomPlusRt: Port = {
   },
   verified: true,
   verifiedAt: "2026-09-22",
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   features: [
     "Real-time path-traced lighting for Doom",
     "Builds and runs on Linux with AMD RADV/Mesa fixes",

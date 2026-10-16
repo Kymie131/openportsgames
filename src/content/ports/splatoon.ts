@@ -19,7 +19,7 @@ export const Splatoon: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Wii U",
+  originalSystems: ["Wii U"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Splatoon_monochrome_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
     alt: "Splatoon (cover)",

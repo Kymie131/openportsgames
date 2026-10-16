@@ -14,12 +14,13 @@ export const psychonautsDecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
+  wip: true,
   release: { version: null, date: null },
   sources: ["https://github.com/DrDecki/psychonauts-decomp"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Decompilation of Psychonauts. A research codebase; it requires game files from a copy you own.",
   notesEs:

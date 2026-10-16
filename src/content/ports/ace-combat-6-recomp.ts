@@ -18,7 +18,7 @@ export const aceCombat6Recomp: Port = {
   sources: ["https://github.com/sal063/AC6_recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Static recompilation of Ace Combat 6: Fires of Liberation (Xbox 360) with ReXGlue, with 60 FPS and resolution scaling. It requires a copy of the game.",
   notesEs:

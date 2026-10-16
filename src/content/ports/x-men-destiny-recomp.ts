@@ -18,7 +18,7 @@ export const xMenDestinyRecomp: Port = {
   sources: ["https://github.com/florinp93/xmd-recompiled"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Static recompilation of X-Men Destiny (Xbox 360) with the ReXGlue SDK, rendering through Direct3D 12 on Windows and Vulkan on Linux. It ships no game content and includes a launcher for graphics and controls.",
   notesEs:

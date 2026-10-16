@@ -20,7 +20,7 @@ export const openMohaa: Port = {
   license: { spdx: "GPL-2.0" },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   features: ["Reimplementation of the id Tech 3 era engine", "Cross-platform desktop builds"],
   featuresEs: [
     "Reimplementación del motor de la era id Tech 3",

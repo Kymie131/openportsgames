@@ -19,7 +19,7 @@ export const LionheartRemake: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Amiga"],
   notes: "Java remake of Lionheart amiga game.",
   notesEs: "Remake en Java del juego Lionheart de Amiga.",
 };

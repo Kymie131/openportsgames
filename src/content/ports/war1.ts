@@ -19,7 +19,7 @@ export const War1: Port = {
   license: { spdx: "Zlib" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["MS-DOS"],
   notes: "A remake of Warcraft: Orcs & Humans written in C.",
   notesEs: "Un remake de Warcraft: Orcs & Humans escrito en C.",
 };

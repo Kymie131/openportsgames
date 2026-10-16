@@ -37,4 +37,5 @@ export const shockolate: Port = {
     alt: "System Shock (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["MS-DOS"],
 };

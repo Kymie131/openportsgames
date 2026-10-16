@@ -19,7 +19,7 @@ export const Sfall: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "sfall - Engine modifications for Fallout 2.",
   notesEs: "sfall: modificaciones del motor de Fallout 2.",
 };

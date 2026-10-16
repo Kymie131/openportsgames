@@ -18,7 +18,7 @@ export const lcsRecomp: Port = {
   license: { spdx: "MIT" },
   verified: true,
   verifiedAt: "2026-09-30",
-  originalSystem: "PlayStation Portable",
+  originalSystems: ["PlayStation Portable"],
   features: [
     "Built on the PSPRecomp static recompilation framework",
     "DirectX 12 renderer on Windows, Vulkan on Linux",

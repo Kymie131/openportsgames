@@ -19,7 +19,7 @@ export const ShadowTheHedgehog: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Shadow the Hedgehog (Other).",
   notesEs: "Decompilación de Shadow the Hedgehog (Other).",
 };

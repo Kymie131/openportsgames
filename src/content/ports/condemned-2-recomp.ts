@@ -18,7 +18,7 @@ export const condemned2Recomp: Port = {
   sources: ["https://github.com/psxrestore/Condemned2Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Static recompilation of Condemned 2: Bloodshot (Xbox 360) with ReXGlue, with mouse look and graphics settings. Playable start to finish, still with rough edges.",
   notesEs:

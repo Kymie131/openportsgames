@@ -14,12 +14,13 @@ export const sonicAdvance2Decomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
+  wip: true,
   release: { version: null, date: null },
   sources: ["https://github.com/SAT-R/sa2"],
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   notes:
     "Decompilation and port of Sonic Advance 1 and 2. A research codebase; it requires game files from a copy you own.",
   notesEs:

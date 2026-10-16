@@ -29,4 +29,5 @@ export const d1xRebirth: Port = {
     alt: "Descent (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["MS-DOS"],
 };

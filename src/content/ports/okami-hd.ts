@@ -19,12 +19,14 @@ export const OkamiHd: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/be/OkamiNTSCcoverFinal.jpg",
     alt: "Okami HD (box art)",
     credit: "Wikipedia",
   },
-  notes: "A decompilation project for OkamiHD. The main focus is modding for now, but a full decomp is the end goal.",
-  notesEs: "Proyecto de decompilación de Okami HD. De momento se centra en el modding, pero el objetivo final es una decompilación completa.",
+  notes:
+    "A decompilation project for OkamiHD. The main focus is modding for now, but a full decomp is the end goal.",
+  notesEs:
+    "Proyecto de decompilación de Okami HD. De momento se centra en el modding, pero el objetivo final es una decompilación completa.",
 };

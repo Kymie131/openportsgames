@@ -19,7 +19,7 @@ export const TwistedMetalHarborCity: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   notes: "Matching decompilation of Twisted Metal: Harbor City (PS2).",
   notesEs: "Decompilación que coincide de Twisted Metal: Harbor City (PS2).",
 };

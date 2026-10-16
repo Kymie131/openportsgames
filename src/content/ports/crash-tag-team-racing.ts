@@ -19,7 +19,7 @@ export const CrashTagTeamRacing: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Crash%20Tag%20Team%20Racing%20(Europe,%20Australia).png",
     alt: "Crash Tag Team Racing (box art)",

@@ -69,4 +69,5 @@ export const openmw: Port = {
     alt: "The Elder Scrolls III: Morrowind (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["Windows"],
 };

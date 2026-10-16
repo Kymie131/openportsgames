@@ -19,7 +19,7 @@ export const MafiaTheCityOfLostHeaven: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/ba/MafiaUSCov.jpg",
     alt: "Mafia: The City of Lost Heaven (box art)",

@@ -17,7 +17,7 @@ export const chocolateDoom: Port = {
   sources: ["https://github.com/chocolate-doom/chocolate-doom"],
   license: { spdx: "GPL-2.0" },
   verified: false,
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   features: [
     "Option to enable or disable smooth pixel scaling",
     "Native OpenGL texture format for better performance",

@@ -19,7 +19,7 @@ export const HarvestMassiveEncounter: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "harvest: massive encounter / matching decompilation and modern port.",
   notesEs: "harvest: massive encounter / decompilación que coincide y port moderno.",
 };

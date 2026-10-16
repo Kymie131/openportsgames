@@ -19,7 +19,7 @@ export const dragonBallZBurstLimitRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Native recompilation of Dragon Ball Z: Burst Limit (Xbox 360) for Windows. It needs your own copy of the game.",
   notesEs:

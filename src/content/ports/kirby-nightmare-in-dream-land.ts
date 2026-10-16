@@ -19,7 +19,7 @@ export const KirbyNightmareInDreamLand: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Game Boy Advance"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/ae/Kirby%27s_Adventure_Coverart.png",
     alt: "Kirby: Nightmare in Dream Land (cover)",

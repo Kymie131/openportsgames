@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { HomeContent } from "@/components/home/home-content";
 import { JsonLd } from "@/components/seo/json-ld";
 import {
-  getLatestPorts,
+  getLatestPortsGrouped,
   getPort,
   getPortCount,
   getGamePorts,
@@ -26,6 +26,11 @@ const FEATURED_SLUGS = [
   "triaevum",
 ];
 
+const HOME_TITLE = {
+  en: "OpenPortsGames – native ports, recompilations and decompilations for PC and Android",
+  es: "OpenPortsGames – Catálogo de ports nativos, recompilaciones y decompilaciones para PC y Android",
+} as const;
+
 export async function generateMetadata({
   params,
 }: {
@@ -33,11 +38,14 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang } = await params;
   const locale = asLocale(lang);
-  return pageMeta({
-    locale,
-    description: dictionaries[locale].brand.tagline,
-    path: "/",
-  });
+  return {
+    ...pageMeta({
+      locale,
+      description: dictionaries[locale].brand.tagline,
+      path: "/",
+    }),
+    title: { absolute: HOME_TITLE[locale] },
+  };
 }
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
@@ -51,7 +59,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     system: originalSystemOf(port.id),
   });
 
-  const latest = getLatestPorts(6).map(withMeta);
+  const latest = getLatestPortsGrouped(6).map(withMeta);
 
   const featured = FEATURED_SLUGS.map((id) => getPort(id))
     .filter((port): port is Port => port !== undefined && portKind(port) === "game")

@@ -20,7 +20,7 @@ export const digimonWorldRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Recompilation of Digimon World (PlayStation) hosted on GitLab. You need your own game data.",
   notesEs:

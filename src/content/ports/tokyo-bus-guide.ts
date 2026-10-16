@@ -19,7 +19,7 @@ export const TokyoBusGuide: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Dreamcast",
+  originalSystems: ["Dreamcast"],
   cover: {
     src: "https://thumbnails.libretro.com/Sega%20-%20Dreamcast/Named_Boxarts/Tokyo%20Bus%20Guide%20(Japan)%20(Rev%20A).png",
     alt: "Tokyo Bus Guide (box art)",

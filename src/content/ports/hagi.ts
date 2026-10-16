@@ -9,6 +9,7 @@ export const hagi: Port = {
   publisher: "GRAnimated",
   originalYear: 2023,
   portType: "decompilation",
+  kind: "tool",
   genre: "simulation",
   openSource: true,
   originalGameLicense: "proprietary",
@@ -19,7 +20,7 @@ export const hagi: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   notes:
     "Decompilation of the Hagi GameCube and Wii emulator bundled with Super Mario 3D All-Stars. It is an emulator, not a game.",
   notesEs:

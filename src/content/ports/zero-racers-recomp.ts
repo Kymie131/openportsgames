@@ -18,7 +18,7 @@ export const zeroRacersRecomp: Port = {
   sources: ["https://github.com/mstan/ZeroRacersVirtualBoyRecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Virtual Boy",
+  originalSystems: ["Virtual Boy"],
   notes:
     "Native recompilation of the unreleased Virtual Boy game Zero Racers, built with recomp-ui and a cosimulation harness. It needs your own ROM and ships no game data.",
   notesEs:

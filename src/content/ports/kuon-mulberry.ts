@@ -19,7 +19,7 @@ export const KuonMulberry: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["PlayStation 2"],
   notes: "Decompilation of Kuon (Mulberry) (Other).",
   notesEs: "Decompilación de Kuon (Mulberry) (Other).",
 };

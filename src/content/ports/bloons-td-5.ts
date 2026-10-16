@@ -19,7 +19,7 @@ export const BloonsTd5: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "A decompilation effort targeting the game Bloons TD 5.",
   notesEs: "Intento de decompilación del juego Bloons TD 5.",
 };

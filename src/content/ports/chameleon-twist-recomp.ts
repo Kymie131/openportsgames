@@ -18,7 +18,7 @@ export const chameleonTwistRecomp: Port = {
   sources: ["https://github.com/Rainchus/ChameleonTwist1-JP-Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Static recompilation of Chameleon Twist (N64) with N64Recomp and the RT64 renderer. It requires a copy of the game.",
   notesEs:

@@ -19,7 +19,7 @@ export const FireEmblemTheBindingBlade: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/77/Fuuin_no_Tsurugi.jpg",
     alt: "Fire Emblem: The Binding Blade (box art)",

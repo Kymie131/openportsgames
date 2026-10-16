@@ -18,7 +18,7 @@ export const thymePort: Port = {
   discord: "https://discord.gg/UnWK2Tw",
   license: { spdx: "GPL-2.0" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Engine reimplementation for Generals and Zero Hour. The single GitHub release is a prerelease, so no stable version is recorded.",
   notesEs:

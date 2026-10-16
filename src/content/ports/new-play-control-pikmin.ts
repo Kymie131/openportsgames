@@ -19,12 +19,13 @@ export const NewPlayControlPikmin: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/13/Pikmin_cover_art.jpg",
     alt: "New Play Control! Pikmin (cover)",
     credit: "Wikipedia",
   },
-  notes: "A decompilation of New Play Control! Pikmin 1 (USA) brought to you by fans of the series.",
+  notes:
+    "A decompilation of New Play Control! Pikmin 1 (USA) brought to you by fans of the series.",
   notesEs: "Una decompilación de New Play Control! Pikmin 1 (USA) hecha por fans de la saga.",
 };

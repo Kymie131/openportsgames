@@ -18,7 +18,7 @@ export const battleship: Port = {
   sources: ["https://github.com/JRickey/BattleShip"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "PC port of Super Smash Bros. (N64) for the USA and Japanese releases, built on the ssb-decomp-re decompilation with libultraship. It runs on Windows, Linux, macOS and Android, and adds widescreen, texture packs, C mods and competitive options.",
   notesEs:

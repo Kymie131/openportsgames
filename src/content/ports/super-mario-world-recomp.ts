@@ -21,7 +21,7 @@ export const superMarioWorldRecomp: Port = {
     note: "Repository declares no SPDX license, so reuse rights are unstated.",
   },
   verified: false,
-  originalSystem: "Super Nintendo",
+  originalSystems: ["Super Nintendo"],
   features: [
     "SMW Adaptive Widescreen mod enabled from the launcher's Mods page",
     "Aspect ratio options: fit to screen by default, plus fixed ratios",

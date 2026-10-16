@@ -21,7 +21,7 @@ export const vivaPinataRecomp: Port = {
   sourceDead: true,
   warning: "The original repository was taken down and the link no longer resolves.",
   warningEs: "El repositorio original fue retirado y el enlace ya no responde.",
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Recompilation of the original Viva Piñata (Xbox 360) for Windows. It needs your own game data.",
   notesEs:

@@ -19,12 +19,14 @@ export const GeorgeOfTheJungleAndTheSearchForTheSecret: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/d2/George_of_the_Jungle_and_the_Search_for_the_Secret_cover_art.png",
     alt: "George of the Jungle and the Search for the Secret (cover)",
     credit: "Wikipedia",
   },
-  notes: "Matching decompilation research for George of the Jungle and the Search for the Secret (USA, PS2).",
-  notesEs: "Investigación de decompilación exacta de George of the Jungle and the Search for the Secret (USA, PS2).",
+  notes:
+    "Matching decompilation research for George of the Jungle and the Search for the Secret (USA, PS2).",
+  notesEs:
+    "Investigación de decompilación exacta de George of the Jungle and the Search for the Secret (USA, PS2).",
 };

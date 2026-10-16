@@ -22,7 +22,7 @@ export const freeSpace2: Port = {
   },
   verified: true,
   verifiedAt: "2026-10-14",
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   features: [
     "Cross-platform desktop builds",
     "Modern OpenGL and Vulkan renderers",

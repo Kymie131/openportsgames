@@ -19,12 +19,13 @@ export const Jetpac: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["ZX Spectrum"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/ad/Jetpac_Coverart.png",
     alt: "Jetpac (cover)",
     credit: "Wikipedia",
   },
   notes: "JETPAC: fully annotated source code of this classic 8-bit game (1983, ZX Spectrum).",
-  notesEs: "JETPAC: código fuente totalmente anotado de este clásico de 8 bits (1983, ZX Spectrum).",
+  notesEs:
+    "JETPAC: código fuente totalmente anotado de este clásico de 8 bits (1983, ZX Spectrum).",
 };

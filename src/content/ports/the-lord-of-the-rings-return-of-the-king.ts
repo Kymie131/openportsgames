@@ -19,7 +19,7 @@ export const TheLordOfTheRingsReturnOfTheKing: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/48/Lord_Rings_Return_King.jpg",
     alt: "The Lord of the Rings: Return of the King (box art)",

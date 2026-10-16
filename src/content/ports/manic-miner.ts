@@ -19,7 +19,7 @@ export const ManicMiner: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/31/Manic_miner_bugbyte.jpg",
     alt: "Manic Miner (box art)",

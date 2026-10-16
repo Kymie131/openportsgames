@@ -18,7 +18,7 @@ export const martianGothicRecomp: Port = {
   sources: ["https://github.com/alexbeavs-ps1-ports/martian-gothic-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Bare recompilation of Martian Gothic: Unification (PlayStation) built with the PSXRecomp toolkit and recomp-ui. It ships no game content and needs your own disc plus a BIOS.",
   notesEs:

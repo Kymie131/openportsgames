@@ -20,7 +20,7 @@ export const Opence: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox",
+  originalSystems: ["Xbox"],
   notes:
     "Community-edition port of the Halo: Combat Evolved (Xbox) decompilation to Windows, Linux, Android and the web. Desktop builds are 32-bit x86 with OpenGL 4.5; Android is arm64 with OpenGL ES 3 (Android 9+); the browser build is WebAssembly with WebGL 2 and plays at halocombatevolved.com. The player supplies their own Xbox disc image; no game data is distributed. System-link multiplayer supports up to 128 players across Windows, Linux, Android and browsers.",
   notesEs:

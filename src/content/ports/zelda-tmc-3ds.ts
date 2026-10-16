@@ -19,9 +19,11 @@ export const zeldaTmc3ds: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Game Boy Advance",
-  notes: "Native Nintendo 3DS port of The Minish Cap, based on Project Picori. Requires your own ROM.",
-  notesEs: "Port nativo para Nintendo 3DS de The Minish Cap, basado en Project Picori. Requiere tu propia ROM.",
+  originalSystems: ["Game Boy Advance"],
+  notes:
+    "Native Nintendo 3DS port of The Minish Cap, based on Project Picori. Requires your own ROM.",
+  notesEs:
+    "Port nativo para Nintendo 3DS de The Minish Cap, basado en Project Picori. Requiere tu propia ROM.",
   cover: {
     src: "https://cdn2.steamgriddb.com/thumb/e98002ab38ca88f2ca5e461cc99c5d2b.jpg",
     alt: "The Legend of Zelda: The Minish Cap (cover)",

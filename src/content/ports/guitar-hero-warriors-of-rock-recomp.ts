@@ -18,7 +18,7 @@ export const guitarHeroWarriorsOfRockRecomp: Port = {
   sources: ["https://github.com/ronniecloud/re-wor"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Recompiled Guitar Hero: Warriors of Rock (Xbox 360) to run natively on Windows through ReXGlue. Own the game to play.",
   notesEs:

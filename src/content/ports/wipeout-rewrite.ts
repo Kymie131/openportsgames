@@ -20,7 +20,7 @@ export const wipeoutRewrite: Port = {
     note: "no project license file found in the repository",
   },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Rewritten version of the classic PlayStation wipEout. No license file and no tagged releases are published, so no version is recorded.",
   notesEs:

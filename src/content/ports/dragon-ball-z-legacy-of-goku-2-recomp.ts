@@ -18,7 +18,7 @@ export const dragonBallZLegacyOfGoku2Recomp: Port = {
   sources: ["https://github.com/mstan/DragonBallZLegacyofGokuIIRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   notes:
     "Static recompilation of Dragon Ball Z: The Legacy of Goku II (GBA) with the gbarecomp framework. It requires a copy of the game.",
   notesEs:

@@ -18,7 +18,7 @@ export const ftlPocketWormhole: Port = {
   sources: ["https://github.com/adamkulik/pocket-wormhole"],
   license: { spdx: "GPL-2.0" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Native Android port of Project Wormhole, the open-source FTL engine implementation. It runs FTL: Faster Than Light on Android using your own game files.",
   notesEs:

@@ -19,7 +19,9 @@ export const RyzomCore: Port = {
   license: { spdx: "AGPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
-  notes: "Ryzom Core is the open-source MMORPG framework built on the NeL engine, maintained by the Ryzom Core community. The commercial Ryzom game is developed by Ryzom Forge on a downstream fork at gitlab.com/ryzom.",
-  notesEs: "Ryzom Core es el framework MMORPG de código abierto construido sobre el motor NeL, mantenido por la comunidad de Ryzom Core. El juego comercial Ryzom lo desarrolla Ryzom Forge en una bifurcación propia en gitlab.com/ryzom.",
+  originalSystems: ["Unknown"],
+  notes:
+    "Ryzom Core is the open-source MMORPG framework built on the NeL engine, maintained by the Ryzom Core community. The commercial Ryzom game is developed by Ryzom Forge on a downstream fork at gitlab.com/ryzom.",
+  notesEs:
+    "Ryzom Core es el framework MMORPG de código abierto construido sobre el motor NeL, mantenido por la comunidad de Ryzom Core. El juego comercial Ryzom lo desarrolla Ryzom Forge en una bifurcación propia en gitlab.com/ryzom.",
 };

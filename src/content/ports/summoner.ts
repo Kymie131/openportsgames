@@ -19,7 +19,7 @@ export const Summoner: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Matching decompilation of Summoner (PC, 2001).",
   notesEs: "Decompilación que coincide de Summoner (PC, 2001).",
 };
