@@ -20,6 +20,7 @@ export const superMarioGalaxyNebula: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Wii"],
+  related: ["petari", "super-mario-galaxy-android"],
   aiDisclosure: {
     source: "https://github.com/keepvaibin/nebula",
     quote: "Nebula was built with AI coding agents (Anthropic's Claude).",

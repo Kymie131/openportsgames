@@ -20,6 +20,7 @@ export const forzaHorizon2Android: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  related: ["forza-horizon-2-recomp"],
   notes:
     "Unofficial static recompilation of Forza Horizon 2 (Xbox 360, 2014) for Android and Linux. It ships no game files and does nothing without files extracted from your own legally obtained copy. Non-commercial fan project, not affiliated with Microsoft/Xbox Game Studios/Playground Games/Turn 10.",
   notesEs:
