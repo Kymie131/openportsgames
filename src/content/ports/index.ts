@@ -1192,6 +1192,9 @@ import { psyQDecomp } from "./psy-q-decomp";
 import { hagi } from "./hagi";
 import { ootGcDecomp } from "./oot-gc-decomp";
 import { awesomeOpenSourceGames } from "./awesome-open-source-games";
+import { superMarioGalaxyNebula } from "./super-mario-galaxy-nebula";
+import { superMarioGalaxyAndroid } from "./super-mario-galaxy-android";
+import { forzaHorizon2Android } from "./forza-horizon-2-android";
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -2386,4 +2389,7 @@ export const portCases: Port[] = [
   hagi,
   ootGcDecomp,
   awesomeOpenSourceGames,
+  superMarioGalaxyNebula,
+  superMarioGalaxyAndroid,
+  forzaHorizon2Android,
 ];
