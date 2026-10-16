@@ -16,6 +16,7 @@ import {
   getTestsForPort,
   getTestStatuses,
   originalSystemOf,
+  relatedPorts,
   hardware,
 } from "@/lib/ports";
 import { absoluteUrl } from "@/lib/site";
@@ -123,6 +124,11 @@ export default async function PortPage({
             tests={tests}
             hardwareById={hardwareById}
             originalSystem={originalSystemOf(port.id) ?? "—"}
+            related={relatedPorts(port.id).map((entry) => ({
+              id: entry.id,
+              title: entry.title,
+              game: entry.game,
+            }))}
             testStatus={getTestStatuses()[port.id]}
           />
         </Container>

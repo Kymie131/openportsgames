@@ -47,6 +47,19 @@ export function originalSystemOf(portId: string): string | undefined {
   return originalSystemsOf(portId).find((system) => system !== UNKNOWN_SYSTEM);
 }
 
+/** Ports explicitly related to this one (declared on either side), excluding itself. */
+export function relatedPorts(portId: string): Port[] {
+  const port = byId.get(portId);
+  const ids = new Set<string>(port?.related ?? []);
+  for (const other of ports) {
+    if (other.related?.includes(portId)) ids.add(other.id);
+  }
+  ids.delete(portId);
+  return [...ids]
+    .map((id) => byId.get(id))
+    .filter((entry): entry is Port => Boolean(entry));
+}
+
 /** A port has its own content when it carries notes, features, a guide or art. */
 export function hasOwnContent(port: Port): boolean {
   return Boolean(

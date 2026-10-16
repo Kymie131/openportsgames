@@ -93,6 +93,8 @@ const normalPort = z.object({
   notes: z.string().max(1000).optional(),
   notesEs: z.string().max(1000).optional(),
   originalSystems: z.array(z.string().min(2).max(80)).optional(),
+  /** Ids of related ports (variants of the same game, e.g. PC and Android builds). */
+  related: z.array(z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/)).max(20).optional(),
   /** Region of the original release this port targets, when regional variants exist. */
   region: z.string().min(2).max(40).optional(),
   features: z.array(z.string().min(3).max(120)).max(20).optional(),
@@ -231,6 +233,8 @@ export type Port = {
   notes?: string;
   notesEs?: string;
   originalSystems?: string[];
+  /** Ids of related ports (variants of the same game). */
+  related?: string[];
   /** Region of the original release this port targets, when regional variants exist. */
   region?: string;
   features?: string[];
