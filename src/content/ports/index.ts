@@ -1202,6 +1202,7 @@ import { callOfDutyMw2Android } from "./call-of-duty-mw2-android";
 import { goemon64RecompiledAndroid } from "./goemon-64-recompiled-android";
 import { defJamFightForNyRecomp } from "./def-jam-fight-for-ny-recomp";
 import { wweSmackdownVsRaw2011Recomp } from "./wwe-smackdown-vs-raw-2011-recomp";
+import { theDarknessEstacado } from "./the-darkness-estacado";
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -2406,4 +2407,5 @@ export const portCases: Port[] = [
   goemon64RecompiledAndroid,
   defJamFightForNyRecomp,
   wweSmackdownVsRaw2011Recomp,
+  theDarknessEstacado,
 ];

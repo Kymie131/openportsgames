@@ -1204,4 +1204,5 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "goemon-64-recompiled-android": ["Nintendo 64"],
   "def-jam-fight-for-ny-recomp": ["Xbox"],
   "wwe-smackdown-vs-raw-2011-recomp": ["Xbox 360"],
+  "the-darkness-estacado": ["Xbox 360"],
 };
