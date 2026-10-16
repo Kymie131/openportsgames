@@ -1214,4 +1214,7 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "naruto-ultimate-ninja-storm-revolution-recomp": ["Xbox 360"],
   "naruto-ultimate-ninja-storm-2-recomp": ["Xbox 360"],
   "naruto-ultimate-ninja-storm-3-full-burst-recomp": ["Xbox 360"],
+  "god-of-war-3-android": ["PlayStation 4"],
+  "dragon-ball-raging-blast-2-android": ["Xbox 360"],
+  "super-mario-galaxy-ios": ["Wii"],
 };
