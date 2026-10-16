@@ -1203,6 +1203,8 @@ import { goemon64RecompiledAndroid } from "./goemon-64-recompiled-android";
 import { defJamFightForNyRecomp } from "./def-jam-fight-for-ny-recomp";
 import { wweSmackdownVsRaw2011Recomp } from "./wwe-smackdown-vs-raw-2011-recomp";
 import { theDarknessEstacado } from "./the-darkness-estacado";
+import { marioKartWiiAndroid } from "./mario-kart-wii-android";
+import { ecstaticaRecompiled } from "./ecstatica-recompiled";
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -2408,4 +2410,6 @@ export const portCases: Port[] = [
   defJamFightForNyRecomp,
   wweSmackdownVsRaw2011Recomp,
   theDarknessEstacado,
+  marioKartWiiAndroid,
+  ecstaticaRecompiled,
 ];
