@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const FireEmblemTheSacredStonesFireemblem: Port = {
+  schema: "port",
+  id: "fire-emblem-the-sacred-stones-fireemblem",
+  title: "FIre Emblem: The Sacred Stones",
+  game: "FIre Emblem: The Sacred Stones",
+  developers: ["FireEmblemUniverse"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/FireEmblemUniverse/fireemblem8u"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Decompilation/disassembly of Fire Emblem: The Sacred Stones.",
+  notesEs: "Decompilación/desensamblado de Fire Emblem: The Sacred Stones.",
+};

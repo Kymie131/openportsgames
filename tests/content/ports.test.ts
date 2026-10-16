@@ -66,6 +66,11 @@ describe("catalog ports", () => {
       "https://github.com/dxx-rebirth/dxx-rebirth": ["d1x-rebirth", "dxx-rebirth"],
       "https://github.com/elliotttate/DKC3Recomp": ["dkc-recompiled", "dkc3-recomp"],
       "https://github.com/elliotttate/DKC2Recomp": ["dkc-recompiled", "dkc2-recomp"],
+      // Pending fusion: fire-emblem-the-sacred-stones-fireemblem -> fire-emblem-the-sacred-stones.
+      "https://github.com/FireEmblemUniverse/fireemblem8u": [
+        "fire-emblem-the-sacred-stones",
+        "fire-emblem-the-sacred-stones-fireemblem",
+      ],
       // PortsDR is an index; all its entries share one landing page.
       "https://portsdr.com/": [
         "buck-bumble-recomp",

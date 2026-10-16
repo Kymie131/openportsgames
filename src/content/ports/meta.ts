@@ -312,6 +312,7 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "fire-emblem-the-binding-blade": ["Unknown"],
   "fire-emblem-the-blazing-blade": ["Unknown"],
   "fire-emblem-the-sacred-stones": ["Unknown"],
+  "fire-emblem-the-sacred-stones-fireemblem": ["Unknown"],
   "five-nights-at-freddys": ["Unknown"],
   "five-nights-at-freddys-2": ["Unknown"],
   "flame": ["Unknown"],

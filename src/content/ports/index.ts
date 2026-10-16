@@ -1148,6 +1148,7 @@ import { ExciteTruck } from "./excite-truck";
 import { PokemonCrystal } from "./pokemon-crystal";
 import { FireEmblemSeimaNoKouseki } from "./fire-emblem-seima-no-kouseki";
 import { FireEmblemTheSacredStones } from "./fire-emblem-the-sacred-stones";
+import { FireEmblemTheSacredStonesFireemblem } from "./fire-emblem-the-sacred-stones-fireemblem";
 import { OracleOfAgesAndSeasons } from "./oracle-of-ages-and-seasons";
 import { PokemonGold } from "./pokemon-gold";
 import { PokemonGoldSpaceworldDemo } from "./pokemon-gold-spaceworld-demo";
@@ -2341,6 +2342,7 @@ export const portCases: Port[] = [
   PokemonCrystal,
   FireEmblemSeimaNoKouseki,
   FireEmblemTheSacredStones,
+  FireEmblemTheSacredStonesFireemblem,
   OracleOfAgesAndSeasons,
   PokemonGold,
   PokemonGoldSpaceworldDemo,
