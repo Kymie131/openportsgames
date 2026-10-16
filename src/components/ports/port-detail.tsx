@@ -54,12 +54,14 @@ export function PortDetail({
   tests,
   hardwareById,
   originalSystem,
+  related,
   testStatus,
 }: {
   port: Port;
   tests: TestRecord[];
   hardwareById: Record<string, HardwareProfile>;
   originalSystem: string;
+  related: { id: string; title: string; game: string }[];
   testStatus?: TestStatus;
 }) {
   const t = useT();
@@ -429,6 +431,26 @@ export function PortDetail({
           </a>
         </div>
       </section>
+
+      {related.length > 0 && (
+        <section aria-labelledby="related-heading" className="border-t border-border pt-6">
+          <h2 id="related-heading" className="mb-3 text-sm font-semibold text-foreground">
+            {t.detail.related}
+          </h2>
+          <ul className="flex flex-col gap-2">
+            {related.map((entry) => (
+              <li key={entry.id}>
+                <Link
+                  href={`/ports/${entry.id}`}
+                  className="text-sm text-link transition-colors hover:text-link-hover"
+                >
+                  {entry.game === entry.title ? entry.title : `${entry.game} — ${entry.title}`}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
     </div>
   );
 }

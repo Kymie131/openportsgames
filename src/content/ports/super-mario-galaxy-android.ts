@@ -20,6 +20,7 @@ export const superMarioGalaxyAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Wii"],
+  related: ["petari", "super-mario-galaxy-nebula"],
   notes:
     "Native 100% ARM64 Android port of Super Mario Galaxy (Wii, 2007), compiled from reconstructed C++ source (built on the Petari decompilation). Vulkan 1.0 (OpenGL ES 3.2 fallback) and AAudio; it is not an emulator and needs your own game dump. Early version (graphical glitches possible). Latest release: v0.0.1cx.",
   notesEs:
