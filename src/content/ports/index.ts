@@ -1212,6 +1212,9 @@ import { narutoTheBrokenBondRecomp } from "./naruto-the-broken-bond-recomp";
 import { narutoStormRevolutionRecomp } from "./naruto-ultimate-ninja-storm-revolution-recomp";
 import { narutoStorm2Recomp } from "./naruto-ultimate-ninja-storm-2-recomp";
 import { narutoStorm3FullBurstRecomp } from "./naruto-ultimate-ninja-storm-3-full-burst-recomp";
+import { godOfWar3Android } from "./god-of-war-3-android";
+import { dragonBallRagingBlast2Android } from "./dragon-ball-raging-blast-2-android";
+import { superMarioGalaxyIos } from "./super-mario-galaxy-ios";
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -2426,4 +2429,7 @@ export const portCases: Port[] = [
   narutoStormRevolutionRecomp,
   narutoStorm2Recomp,
   narutoStorm3FullBurstRecomp,
+  godOfWar3Android,
+  dragonBallRagingBlast2Android,
+  superMarioGalaxyIos,
 ];

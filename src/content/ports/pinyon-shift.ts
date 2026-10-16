@@ -12,7 +12,7 @@ export const pinyonShift: Port = {
   genre: "racing",
   openSource: true,
   originalGameLicense: "proprietary",
-  platforms: ["windows"],
+  platforms: ["windows", "linux", "macos", "android"],
   status: "alpha",
   release: { version: "0.5.1", date: "2026-10-12" },
   sources: ["https://github.com/arcanite24/pinyon-shift"],
