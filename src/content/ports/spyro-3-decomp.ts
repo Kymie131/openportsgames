@@ -14,6 +14,7 @@ export const spyro3Decomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
+  wip: true,
   release: { version: null, date: null },
   sources: ["https://github.com/TheMobyCollective/spyro-3"],
   license: { spdx: "CC0-1.0" },

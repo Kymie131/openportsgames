@@ -14,6 +14,7 @@ export const kh1: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
+  wip: true,
   release: { version: null, date: null },
   sources: ["https://github.com/ethteck/kh1"],
   license: { spdx: "NOASSERTION" },

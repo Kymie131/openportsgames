@@ -14,6 +14,7 @@ export const mkdd: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
+  wip: true,
   release: { version: null, date: null },
   sources: ["https://github.com/doldecomp/mkdd"],
   license: { spdx: "CC0-1.0" },

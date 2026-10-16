@@ -14,6 +14,7 @@ export const nfsug: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
+  wip: true,
   release: { version: null, date: null },
   sources: ["https://github.com/dbalatoni13/nfsug"],
   license: { spdx: "CC0-1.0" },

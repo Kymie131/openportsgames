@@ -14,6 +14,7 @@ export const FireEmblemSeimaNoKouseki: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
+  wip: true,
   release: { version: null, date: null },
   sources: ["https://github.com/laqieer/fireemblem8j"],
   license: { spdx: "NOASSERTION" },

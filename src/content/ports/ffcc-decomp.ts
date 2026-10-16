@@ -14,6 +14,7 @@ export const ffccDecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
+  wip: true,
   release: { version: null, date: null },
   sources: ["https://github.com/zcanann/FFCC-Decomp"],
   license: { spdx: "CC0-1.0" },

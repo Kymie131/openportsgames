@@ -14,6 +14,7 @@ export const halo2Decomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
+  wip: true,
   release: { version: null, date: null },
   sources: ["https://github.com/kirklandsig/halo2-decompiled"],
   license: { spdx: "CC0-1.0" },

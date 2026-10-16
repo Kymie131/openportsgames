@@ -14,6 +14,7 @@ export const BurnoutParadiseB5Decomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
+  wip: true,
   release: { version: null, date: null },
   sources: ["https://github.com/BurnoutDecomp/b5-decomp"],
   license: { spdx: "NOASSERTION" },

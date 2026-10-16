@@ -14,6 +14,7 @@ export const pwaa1: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
+  wip: true,
   release: { version: null, date: null },
   sources: ["https://github.com/atasro2/pwaa1"],
   license: { spdx: "NOASSERTION" },

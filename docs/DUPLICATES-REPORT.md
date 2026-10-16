@@ -92,3 +92,11 @@ These are **not** duplicates — do not merge:
 2. Review the 10 rows in §2.3; for each choose **merge**, **variant**, or **`noindex`**.
 3. Once decided, add a `noindex` flag (or a `duplicateOf` field) and update
    `tests/content/ports.test.ts` so the decision is enforced.
+
+## Temporary code marker
+
+`tests/content/ports.test.ts` allow-lists `https://github.com/FireEmblemUniverse/fireemblem8u`
+(`fire-emblem-the-sacred-stones` + `fire-emblem-the-sacred-stones-fireemblem`) **only**
+so the shared-source invariant passes while both entries coexist. This allow-list entry
+is **temporary** and must be removed in the same change that fuses
+`fire-emblem-the-sacred-stones-fireemblem` into `fire-emblem-the-sacred-stones` (301).

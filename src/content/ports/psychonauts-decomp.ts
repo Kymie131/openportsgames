@@ -14,6 +14,7 @@ export const psychonautsDecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
+  wip: true,
   release: { version: null, date: null },
   sources: ["https://github.com/DrDecki/psychonauts-decomp"],
   license: { spdx: "MIT" },

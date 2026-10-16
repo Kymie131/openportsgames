@@ -13,6 +13,7 @@ export const pokered: Port = {
   openSource: true,
   platforms: ["windows", "linux", "macos"],
   status: "stable",
+  wip: true,
   release: { version: null, date: null },
   sources: ["https://github.com/pret/pokered"],
   license: {
