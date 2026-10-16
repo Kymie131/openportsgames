@@ -18,6 +18,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Container } from "@/components/layout/container";
 import { PortTile } from "@/components/catalog/port-tile";
+import { SUPPORT_PAYPAL_URL } from "@/lib/support";
 import type { TestStatus } from "@/components/catalog/test-badge";
 import type { Port } from "@/lib/ports/schema";
 
@@ -68,7 +69,19 @@ export function HomeContent({
             >
               <Link href="/ports">{t.home.browseCatalog}</Link>
             </Button>
+            {SUPPORT_PAYPAL_URL ? (
+              <Button asChild variant="secondary" size="lg">
+                <a href={SUPPORT_PAYPAL_URL} target="_blank" rel="noopener noreferrer">
+                  {t.support.donate}
+                </a>
+              </Button>
+            ) : (
+              <Button asChild variant="secondary" size="lg">
+                <Link href="/support">{t.support.donate}</Link>
+              </Button>
+            )}
           </div>
+          <p className="max-w-2xl text-xs leading-5 text-muted">{t.support.noPressure}</p>
         </div>
 
         <dl className="grid max-w-2xl grid-cols-1 gap-4 sm:grid-cols-2">
