@@ -1198,6 +1198,10 @@ import { forzaHorizon2Android } from "./forza-horizon-2-android";
 import { nfsUnderground2Recompiled } from "./nfs-underground-2-recompiled";
 import { openTestDriveUnlimited } from "./open-test-drive-unlimited";
 import { virtuaFighter2Recomp } from "./virtua-fighter-2-recomp";
+import { callOfDutyMw2Android } from "./call-of-duty-mw2-android";
+import { goemon64RecompiledAndroid } from "./goemon-64-recompiled-android";
+import { defJamFightForNyRecomp } from "./def-jam-fight-for-ny-recomp";
+import { wweSmackdownVsRaw2011Recomp } from "./wwe-smackdown-vs-raw-2011-recomp";
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -2398,4 +2402,8 @@ export const portCases: Port[] = [
   nfsUnderground2Recompiled,
   openTestDriveUnlimited,
   virtuaFighter2Recomp,
+  callOfDutyMw2Android,
+  goemon64RecompiledAndroid,
+  defJamFightForNyRecomp,
+  wweSmackdownVsRaw2011Recomp,
 ];
