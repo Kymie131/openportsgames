@@ -1194,4 +1194,7 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "zone-of-the-enders-2": ["Unknown"],
   "zone-of-the-enders-3-guy-savage-from-metal-gear-solid-3": ["Unknown"],
   "zuma-deluxe-android": ["Windows"],
+  "super-mario-galaxy-nebula": ["Wii"],
+  "super-mario-galaxy-android": ["Wii"],
+  "forza-horizon-2-android": ["Xbox 360"],
 };
