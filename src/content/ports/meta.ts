@@ -1207,4 +1207,5 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "the-darkness-estacado": ["Xbox 360"],
   "mario-kart-wii-android": ["Wii"],
   "ecstatica-recompiled": ["Unknown"],
+  "spider-man-edge-of-time-project-2099": ["Unknown"],
 };
