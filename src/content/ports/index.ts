@@ -1195,6 +1195,9 @@ import { awesomeOpenSourceGames } from "./awesome-open-source-games";
 import { superMarioGalaxyNebula } from "./super-mario-galaxy-nebula";
 import { superMarioGalaxyAndroid } from "./super-mario-galaxy-android";
 import { forzaHorizon2Android } from "./forza-horizon-2-android";
+import { nfsUnderground2Recompiled } from "./nfs-underground-2-recompiled";
+import { openTestDriveUnlimited } from "./open-test-drive-unlimited";
+import { virtuaFighter2Recomp } from "./virtua-fighter-2-recomp";
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -2392,4 +2395,7 @@ export const portCases: Port[] = [
   superMarioGalaxyNebula,
   superMarioGalaxyAndroid,
   forzaHorizon2Android,
+  nfsUnderground2Recompiled,
+  openTestDriveUnlimited,
+  virtuaFighter2Recomp,
 ];

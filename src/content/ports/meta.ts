@@ -1197,4 +1197,7 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "super-mario-galaxy-nebula": ["Wii"],
   "super-mario-galaxy-android": ["Wii"],
   "forza-horizon-2-android": ["Xbox 360"],
+  "nfs-underground-2-recompiled": ["Windows"],
+  "open-test-drive-unlimited": ["Windows"],
+  "virtua-fighter-2-recomp": ["Arcade"],
 };
