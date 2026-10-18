@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tekken3RecompHybrid: Port = {
+  schema: "port",
+  id: "tekken-3-recomp-hybrid",
+  title: "Tekken 3 Hybrid Recompilation",
+  game: "Tekken 3",
+  developers: ["FishB0nes98"],
+  publisher: "Namco",
+  originalYear: 1997,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/FishB0nes98/Tekken3Recompiled"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  related: ["tekken-3-recomp"],
+  notes: "Hybrid recompilation preview of Tekken 3 (PlayStation, 1997) with Jun Kazama, widescreen, custom skins and local asset import tools. Pick your own CUE/BIN image. Latest tag: v0.1.4.",
+  notesEs: "Avance de recompilación híbrida de Tekken 3 (PlayStation, 1997) con Jun Kazama, widescreen, skins personalizadas y herramientas de importación de assets locales. Elige tu propia imagen CUE/BIN. Último tag: v0.1.4.",
+};

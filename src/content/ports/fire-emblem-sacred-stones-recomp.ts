@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const fireEmblemSacredStonesRecomp: Port = {
+  schema: "port",
+  id: "fire-emblem-sacred-stones-recomp",
+  title: "Fire Emblem: The Sacred Stones (Recompiled)",
+  game: "Fire Emblem: The Sacred Stones",
+  developers: ["Lordingard"],
+  publisher: "Nintendo",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Lordingard/SacredStonesRecomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Game Boy Advance"],
+  related: ["fire-emblem-the-sacred-stones"],
+  notes: "Playable Windows and Android ARM64 static recompilation of Fire Emblem: The Sacred Stones (Game Boy Advance, 2004). Still early, but playable. Latest release: v0.1.20.",
+  notesEs: "Recompilación estática ARM64 jugable para Windows y Android de Fire Emblem: The Sacred Stones (Game Boy Advance, 2004). Todavía es pronto, pero se puede jugar. Última release: v0.1.20.",
+};

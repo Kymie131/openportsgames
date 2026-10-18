@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const metalGearSolidPs1Recomp: Port = {
+  schema: "port",
+  id: "metal-gear-solid-ps1-recomp",
+  title: "Midnight Ghost Stone (Metal Gear Solid, PS1)",
+  game: "Metal Gear Solid",
+  developers: ["coccofresco"],
+  publisher: "Konami",
+  originalYear: 1998,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/coccofresco/mgsone-recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  related: ["metal-gear-solid-recomp"],
+  aiDisclosure: {"source":"https://github.com/coccofresco/mgsone-recomp","quote":"AI-MADE PROJECT."},
+  notes: "Midnight Ghost Stone: a native PC recompilation of Metal Gear Solid (PlayStation, 1998) with an original-asset Vulkan presentation. Experimental alpha, and an explicitly AI-made project. Latest tag: alpha.1.",
+  notesEs: "Midnight Ghost Stone: recompilación nativa para PC de Metal Gear Solid (PlayStation, 1998) con presentación en Vulkan sobre los assets originales. Alpha experimental y proyecto declarado como hecho con IA. Último tag: alpha.1.",
+};

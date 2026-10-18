@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const muscleMarchRecomp: Port = {
+  schema: "port",
+  id: "muscle-march-recomp",
+  title: "Muscle March (PC)",
+  game: "Muscle March",
+  developers: ["tmcleroy"],
+  publisher: "Bandai Namco",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/tmcleroy/muscle-march-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Wii"],
+  notes: "Unofficial native PC port of Muscle March (WiiWare, 2009) by static recompilation for macOS, Linux, Steam Deck and Windows. Beta: it plays the whole game but is lightly tested. Requires your own copy. Latest tag: v0.1.0-beta.5.",
+  notesEs: "Port nativo a PC no oficial de Muscle March (WiiWare, 2009) mediante recompilación estática para macOS, Linux, Steam Deck y Windows. Beta: se juega entero pero está poco probado. Requiere tu propia copia. Último tag: v0.1.0-beta.5.",
+};

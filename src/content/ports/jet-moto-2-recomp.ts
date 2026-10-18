@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jetMoto2Recomp: Port = {
+  schema: "port",
+  id: "jet-moto-2-recomp",
+  title: "Jet Moto 2 Recompiled",
+  game: "Jet Moto 2: Championship Edition",
+  developers: ["goodshepherd23"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 1998,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/goodshepherd23/JetMoto2-Recomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  notes: "Native PC build of Jet Moto 2: Championship Edition (PlayStation, 1998, SCUS-94167) via RecompOne static recompilation. No emulator and no BIOS: bring your own disc. Latest release: v0.1.4.",
+  notesEs: "Build nativo para PC de Jet Moto 2: Championship Edition (PlayStation, 1998, SCUS-94167) mediante recompilación estática con RecompOne. Sin emulador ni BIOS: aporta tu propio disco. Última release: v0.1.4.",
+};

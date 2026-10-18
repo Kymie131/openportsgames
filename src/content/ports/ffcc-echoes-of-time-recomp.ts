@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ffccEchoesOfTimeRecomp: Port = {
+  schema: "port",
+  id: "ffcc-echoes-of-time-recomp",
+  title: "Final Fantasy Crystal Chronicles: Echoes of Time (PC)",
+  game: "Final Fantasy Crystal Chronicles: Echoes of Time",
+  developers: ["JonathanDC64"],
+  publisher: "Square Enix",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/JonathanDC64/FFCCEOT-Recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo DS"],
+  notes: "Native PC port of Final Fantasy Crystal Chronicles: Echoes of Time (Nintendo DS, 2009) by static recompilation: the ARM code is translated to C and compiled on your PC, not emulated. Bring your own ROM. Latest tag: v0.3.1-alpha.",
+  notesEs: "Port nativo a PC de Final Fantasy Crystal Chronicles: Echoes of Time (Nintendo DS, 2009) por recompilación estática: el código ARM se traduce a C y se compila en tu PC, no se emula. Aporta tu propia ROM. Último tag: v0.3.1-alpha.",
+};

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ridgeRacerPs1Decomp: Port = {
+  schema: "port",
+  id: "ridge-racer-ps1-decomp",
+  title: "Ridge Racer Decompilation",
+  game: "Ridge Racer",
+  developers: ["kazuyette"],
+  publisher: "Namco",
+  originalYear: 1994,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/kazuyette/rr-decomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  related: ["ridge-racer-ps1-recomp"],
+  region: "Japan",
+  notes: "Matching decompilation of Ridge Racer (PlayStation, 1994, SLPS-00001, Japan) plus a static recompilation that boots and plays natively on Linux and Windows. No game data: bring your own disc. Latest release: v0.1.0.",
+  notesEs: "Decompilación matching de Ridge Racer (PlayStation, 1994, SLPS-00001, Japón) más una recompilación estática que arranca y se juega de forma nativa en Linux y Windows. Sin datos del juego: aporta tu propio disco. Última release: v0.1.0.",
+};

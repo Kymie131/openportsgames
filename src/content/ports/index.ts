@@ -1263,6 +1263,28 @@ import { doomSnesRecomp } from "./doom-snes-recomp";
 import { midtownMadness3 } from "./midtown-madness-3";
 import { linksAwakeningDxPortable } from "./links-awakening-dx-portable";
 
+import { tekken3RecompHybrid } from "./tekken-3-recomp-hybrid";
+import { ridgeRacerPs1Decomp } from "./ridge-racer-ps1-decomp";
+import { theBrowsingOfIsaac } from "./the-browsing-of-isaac";
+import { nfsMostWantedBlackEditionRecomp } from "./nfs-most-wanted-black-edition-recomp";
+import { svr2011Recomp } from "./svr2011-recomp";
+import { fireEmblemSacredStonesRecomp } from "./fire-emblem-sacred-stones-recomp";
+import { haloReachRecomp } from "./halo-reach-recomp";
+import { stuntsHd } from "./stunts-hd";
+import { rogueSquadron64Recomp } from "./rogue-squadron-64-recomp";
+import { muscleMarchRecomp } from "./muscle-march-recomp";
+import { alabasterDawnAndroid } from "./alabaster-dawn-android";
+import { ffccEchoesOfTimeRecomp } from "./ffcc-echoes-of-time-recomp";
+import { godOfWarNativePort } from "./god-of-war-native-port";
+import { hydroThunderHurricaneRecomp } from "./hydro-thunder-hurricane-recomp";
+import { metalGearSolidPs1Recomp } from "./metal-gear-solid-ps1-recomp";
+import { pointBlankRecompiled } from "./point-blank-recompiled";
+import { aerobizSupersonicDisasm } from "./aerobiz-supersonic-disasm";
+import { jetMoto2Recomp } from "./jet-moto-2-recomp";
+import { residentEvilCodeVeronicaRecomp } from "./resident-evil-code-veronica-recomp";
+import { princeOfPersiaClassicPsvita } from "./prince-of-persia-classic-psvita";
+import { battletanxGlobalAssaultPcPort } from "./battletanx-global-assault-pc-port";
+
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -2526,4 +2548,25 @@ export const portCases: Port[] = [
   doomSnesRecomp,
   midtownMadness3,
   linksAwakeningDxPortable,
+  tekken3RecompHybrid,
+  ridgeRacerPs1Decomp,
+  theBrowsingOfIsaac,
+  nfsMostWantedBlackEditionRecomp,
+  svr2011Recomp,
+  fireEmblemSacredStonesRecomp,
+  haloReachRecomp,
+  stuntsHd,
+  rogueSquadron64Recomp,
+  muscleMarchRecomp,
+  alabasterDawnAndroid,
+  ffccEchoesOfTimeRecomp,
+  godOfWarNativePort,
+  hydroThunderHurricaneRecomp,
+  metalGearSolidPs1Recomp,
+  pointBlankRecompiled,
+  aerobizSupersonicDisasm,
+  jetMoto2Recomp,
+  residentEvilCodeVeronicaRecomp,
+  princeOfPersiaClassicPsvita,
+  battletanxGlobalAssaultPcPort,
 ];

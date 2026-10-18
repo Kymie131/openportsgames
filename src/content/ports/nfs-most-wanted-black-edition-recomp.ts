@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nfsMostWantedBlackEditionRecomp: Port = {
+  schema: "port",
+  id: "nfs-most-wanted-black-edition-recomp",
+  title: "Need for Speed: Most Wanted (Black Edition, PC)",
+  game: "Need for Speed: Most Wanted",
+  developers: ["veritr1x"],
+  publisher: "Electronic Arts",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos","ios","web"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/veritr1x/nfsmw-recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  related: ["nfs-most-wanted-recomp","nfs-most-wanted-decomp"],
+  notes: "Recompilation of Need for Speed: Most Wanted (the 2005 PC Black Edition) built on recomp-kit for macOS, iPad, Linux, Windows and browser hosts, with Metal, Vulkan and WebGPU rendering. Bring your own game files.",
+  notesEs: "Recompilación de Need for Speed: Most Wanted (la Black Edition de PC de 2005) construida sobre recomp-kit para macOS, iPad, Linux, Windows y navegador, con render Metal, Vulkan y WebGPU. Aporta tus propios archivos del juego.",
+};
