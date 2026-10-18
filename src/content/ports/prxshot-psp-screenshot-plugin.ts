@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const prxshotPspScreenshotPlugin: Port = {
+  schema: "port",
+  id: "prxshot-psp-screenshot-plugin",
+  title: "prxshot (PSP screenshot plugin)",
+  game: "PlayStation Portable",
+  developers: ["codestation"],
+  publisher: "Sony",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["psp"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/codestation/prxshot"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "PlayStation Portable (Sony, 2004) running on PlayStation Portable through source port. You need your own copy of the game.",
+  notesEs: "PlayStation Portable (Sony, 2004) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
+};

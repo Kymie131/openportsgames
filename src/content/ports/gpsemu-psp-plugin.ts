@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gpsemuPspPlugin: Port = {
+  schema: "port",
+  id: "gpsemu-psp-plugin",
+  title: "GPSemu (PSP plugin)",
+  game: "PlayStation Portable",
+  developers: ["RegularRabbit05"],
+  publisher: "Sony",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/RegularRabbit05/GPSemu"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "PlayStation Portable (Sony, 2004) running on PlayStation Portable through source port. Latest release: 26696342940. You need your own copy of the game.",
+  notesEs: "PlayStation Portable (Sony, 2004) en PlayStation Portable mediante port de código. Última release: 26696342940. Necesitas tu propia copia del juego.",
+};

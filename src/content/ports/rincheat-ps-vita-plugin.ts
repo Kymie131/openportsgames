@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rincheatPsVitaPlugin: Port = {
+  schema: "port",
+  id: "rincheat-ps-vita-plugin",
+  title: "rinCheat (PS Vita plugin)",
+  game: "PlayStation Vita",
+  developers: ["Rinnegatamante"],
+  publisher: "Sony",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Rinnegatamante/rinCheat"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "PlayStation Vita (Sony, 2011) running on PlayStation Vita through source port. Latest release: beta4_debug. You need your own copy of the game.",
+  notesEs: "PlayStation Vita (Sony, 2011) en PlayStation Vita mediante port de código. Última release: beta4_debug. Necesitas tu propia copia del juego.",
+};

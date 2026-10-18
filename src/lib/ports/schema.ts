@@ -43,6 +43,14 @@ export const portTypes = [
 export const portStatuses = ["stable", "beta", "alpha", "takedown"] as const;
 export const portKinds = ["game", "system", "tool"] as const;
 export type PortKind = (typeof portKinds)[number];
+/**
+ * What the entry is, from the point of view of the console it belongs to:
+ * a `port` (native port, recompilation or decompilation of an existing game,
+ * the default), `homebrew` (a game written for the console) or `plugin`
+ * (a utility or plugin that extends the console, e.g. a PSP PRX).
+ */
+export const portCategories = ["port", "homebrew", "plugin"] as const;
+export type PortCategory = (typeof portCategories)[number];
 export const genres = [
   "platformer",
   "action-adventure",
@@ -76,6 +84,7 @@ const normalPort = z.object({
   schema: z.literal("port"),
   id: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, "id must be a lowercase kebab slug"),
   kind: z.enum(portKinds).default("game"),
+  category: z.enum(portCategories).optional(),
   title: z.string().min(3).max(80),
   game: z.string().min(2).max(80),
   developers: z.array(z.string().min(2).max(40)).min(1).max(6),
@@ -223,6 +232,8 @@ export type Port = {
    * concrete value; use `portKind()` instead of reading it directly.
    */
   kind?: PortKind;
+  /** `port` (default), `homebrew` or `plugin`; see `portCategory()`. */
+  category?: PortCategory;
   title: string;
   game: string;
   developers: string[];
@@ -290,4 +301,9 @@ export type TestRecord = z.infer<typeof testRecordSchema>;
 /** Resolves a port's kind, applying the schema's `game` default. */
 export function portKind(port: Pick<Port, "kind">): PortKind {
   return port.kind ?? "game";
+}
+
+/** Resolves what the entry is for its console, applying the `port` default. */
+export function portCategory(port: Pick<Port, "category">): PortCategory {
+  return port.category ?? "port";
 }

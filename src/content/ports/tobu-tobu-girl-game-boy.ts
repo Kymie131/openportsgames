@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tobuTobuGirlGameBoy: Port = {
+  schema: "port",
+  id: "tobu-tobu-girl-game-boy",
+  title: "Tobu Tobu Girl (Game Boy)",
+  game: "Tobu Tobu Girl",
+  developers: ["SimonLarsen"],
+  publisher: "Homebrew",
+  originalYear: 2017,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["gb"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/SimonLarsen/tobutobugirl"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Tobu Tobu Girl (Homebrew, 2017) running on gb through source port. You need your own copy of the game.",
+  notesEs: "Tobu Tobu Girl (Homebrew, 2017) en gb mediante port de código. Necesitas tu propia copia del juego.",
+};

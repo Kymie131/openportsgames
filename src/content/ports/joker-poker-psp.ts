@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jokerPokerPsp: Port = {
+  schema: "port",
+  id: "joker-poker-psp",
+  title: "Joker Poker (PSP)",
+  game: "Joker Poker",
+  developers: ["kwerenta"],
+  publisher: "Homebrew",
+  originalYear: 2025,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/kwerenta/joker-poker"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Joker Poker (Homebrew, 2025) running on PlayStation Portable through source port. Latest release: v0.40. You need your own copy of the game.",
+  notesEs: "Joker Poker (Homebrew, 2025) en PlayStation Portable mediante port de código. Última release: v0.40. Necesitas tu propia copia del juego.",
+};

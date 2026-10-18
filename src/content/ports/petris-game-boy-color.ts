@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const petrisGameBoyColor: Port = {
+  schema: "port",
+  id: "petris-game-boy-color",
+  title: "Petris (Game Boy Color)",
+  game: "Petris",
+  developers: ["bbbbbr"],
+  publisher: "Homebrew",
+  originalYear: 2023,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["gbc"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/bbbbbr/Petris"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Petris (Homebrew, 2023) running on gbc through source port. You need your own copy of the game.",
+  notesEs: "Petris (Homebrew, 2023) en gbc mediante port de código. Necesitas tu propia copia del juego.",
+};

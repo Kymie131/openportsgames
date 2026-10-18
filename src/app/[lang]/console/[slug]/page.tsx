@@ -1,17 +1,16 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ExternalLink } from "lucide-react";
-import { GithubMark } from "@/components/platforms/github-mark";
 import { Container } from "@/components/layout/container";
 import { ConsoleMark } from "@/components/emulators/console-mark";
-import { PortTile } from "@/components/catalog/port-tile";
+import { ConsoleTabs, type HubEmulator } from "@/components/console/console-tabs";
+import { GithubMark } from "@/components/platforms/github-mark";
 import { consoleDefs } from "@/content/consoles";
 import { getConsoleHub } from "@/lib/console-hub";
 import { getTestStatuses } from "@/lib/ports";
 import { pageMeta } from "@/lib/seo";
 import { dictionaries } from "@/lib/i18n/dictionaries";
 import { asLocale, localizePath, locales } from "@/lib/i18n/locales";
-import type { Port } from "@/lib/ports/schema";
 
 export function generateStaticParams() {
   return locales.flatMap((lang) => consoleDefs.map((def) => ({ lang, slug: def.slug })));
@@ -35,47 +34,6 @@ export async function generateMetadata({
   });
 }
 
-function Section({
-  title,
-  help,
-  empty,
-  ports,
-  testStatuses,
-}: {
-  title: string;
-  help: string;
-  empty: string;
-  ports: Port[];
-  testStatuses: Record<string, "current" | "stale">;
-}) {
-  return (
-    <section className="flex flex-col gap-4">
-      <div className="flex flex-col gap-1">
-        <h2 className="text-lg font-semibold tracking-tight">{title}</h2>
-        <p className="max-w-2xl text-sm text-muted">{help}</p>
-      </div>
-      {ports.length === 0 ? (
-        <p className="rounded-lg border border-dashed border-border bg-surface px-5 py-6 text-sm text-muted">
-          {empty}
-        </p>
-      ) : (
-        <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {ports.map((port, index) => (
-            <li key={port.id}>
-              <PortTile
-                port={port}
-                testStatus={testStatuses[port.id]}
-                className="h-full"
-                eager={index < 3}
-              />
-            </li>
-          ))}
-        </ul>
-      )}
-    </section>
-  );
-}
-
 export default async function ConsoleHubPage({
   params,
 }: {
@@ -88,6 +46,15 @@ export default async function ConsoleHubPage({
 
   const t = dictionaries[locale].console;
   const testStatuses = getTestStatuses();
+  const emulators: HubEmulator[] = hub.emulators.map((emu) => ({
+    id: emu.id,
+    name: emu.name,
+    source: emu.source,
+    compatibility: emu.compatibility,
+    recommended: Boolean(emu.recommended),
+    note: emu.note[locale],
+  }));
+
   const github = hub.sources.filter((source) => source.github);
   const others = hub.sources.filter((source) => !source.github);
 
@@ -120,19 +87,13 @@ export default async function ConsoleHubPage({
           </div>
         </header>
 
-        <Section
-          title={t.runningTitle}
-          help={t.runningHelp}
-          empty={t.runningEmpty}
-          ports={hub.running}
-          testStatuses={testStatuses}
-        />
-
-        <Section
-          title={t.gamesTitle}
-          help={t.gamesHelp}
-          empty={t.gamesEmpty}
-          ports={hub.games}
+        <ConsoleTabs
+          slug={hub.def.slug}
+          running={hub.running}
+          games={hub.games}
+          homebrew={hub.homebrew}
+          plugins={hub.plugins}
+          emulators={emulators}
           testStatuses={testStatuses}
         />
 

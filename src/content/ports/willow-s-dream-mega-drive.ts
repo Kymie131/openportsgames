@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const willowSDreamMegaDrive: Port = {
+  schema: "port",
+  id: "willow-s-dream-mega-drive",
+  title: "Willow's Dream (Mega Drive)",
+  game: "Willow's Dream",
+  developers: ["marcellodash"],
+  publisher: "Homebrew",
+  originalYear: 2023,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["genesis"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/marcellodash/willows-dream"],
+  license: { spdx: "LGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Willow's Dream (Homebrew, 2023) running on genesis through source port. You need your own copy of the game.",
+  notesEs: "Willow's Dream (Homebrew, 2023) en genesis mediante port de código. Necesitas tu propia copia del juego.",
+};

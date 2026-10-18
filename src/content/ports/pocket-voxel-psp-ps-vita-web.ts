@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pocketVoxelPspPsVitaWeb: Port = {
+  schema: "port",
+  id: "pocket-voxel-psp-ps-vita-web",
+  title: "Pocket Voxel (PSP, PS Vita, web)",
+  game: "Pocket Voxel",
+  developers: ["pocket-nexus"],
+  publisher: "Pocket Nexus",
+  originalYear: 2025,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["psp","psvita","web"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/pocket-nexus/pocket-voxel"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Pocket Voxel (Pocket Nexus, 2025) running on PlayStation Portable and PlayStation Vita and the web through source port. You need your own copy of the game.",
+  notesEs: "Pocket Voxel (Pocket Nexus, 2025) en PlayStation Portable and PlayStation Vita and the web mediante port de código. Necesitas tu propia copia del juego.",
+};

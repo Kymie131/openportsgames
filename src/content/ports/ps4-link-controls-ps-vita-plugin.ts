@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ps4LinkControlsPsVitaPlugin: Port = {
+  schema: "port",
+  id: "ps4-link-controls-ps-vita-plugin",
+  title: "PS4 Link Controls (PS Vita plugin)",
+  game: "PlayStation Vita",
+  developers: ["nowrep"],
+  publisher: "Sony",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/nowrep/vita-ps4linkcontrols"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "PlayStation Vita (Sony, 2011) running on PlayStation Vita through source port. Latest release: r7. You need your own copy of the game.",
+  notesEs: "PlayStation Vita (Sony, 2011) en PlayStation Vita mediante port de código. Última release: r7. Necesitas tu propia copia del juego.",
+};

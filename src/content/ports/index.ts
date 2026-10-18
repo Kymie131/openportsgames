@@ -1729,6 +1729,55 @@ import { superMarioBrosSwitch } from "./super-mario-bros-switch";
 
 import { dusklightPs4 } from "./dusklight-ps4";
 
+import { prxshotPspScreenshotPlugin } from "./prxshot-psp-screenshot-plugin";
+import { pspKillswitchPlugin } from "./psp-killswitch-plugin";
+import { mschangePspPlugin } from "./mschange-psp-plugin";
+import { missyhudPspPlugin } from "./missyhud-psp-plugin";
+import { gpsemuPspPlugin } from "./gpsemu-psp-plugin";
+import { pspsysmonPspPlugin } from "./pspsysmon-psp-plugin";
+import { pspwaveXmbWaveEditor } from "./pspwave-xmb-wave-editor";
+import { psp5GameLauncherForPsp } from "./psp5-game-launcher-for-psp";
+import { storestationPspAppsAndPluginsStore } from "./storestation-psp-apps-and-plugins-store";
+import { arkPluginConverter } from "./ark-plugin-converter";
+import { sandstoneEnginePspGameEngine } from "./sandstone-engine-psp-game-engine";
+import { pocketGameMakerPspEngine } from "./pocket-game-maker-psp-engine";
+import { fpkgiPackageManager } from "./fpkgi-package-manager";
+import { vitagrafixPsVitaPlugin } from "./vitagrafix-ps-vita-plugin";
+import { vitaUdcdUvcPsVitaPlugin } from "./vita-udcd-uvc-ps-vita-plugin";
+import { psvitaStoragemgrPlugin } from "./psvita-storagemgr-plugin";
+import { ds4vitaPsVitaPlugin } from "./ds4vita-ps-vita-plugin";
+import { rincheatPsVitaPlugin } from "./rincheat-ps-vita-plugin";
+import { vitabrightPsVitaPlugin } from "./vitabright-ps-vita-plugin";
+import { gohanmemPsVitaCheatPlugin } from "./gohanmem-ps-vita-cheat-plugin";
+import { vitaNearestNeighbourPlugin } from "./vita-nearest-neighbour-plugin";
+import { _8bitvitaPsVitaPlugin } from "./8bitvita-ps-vita-plugin";
+import { vitaRecorderPsVitaPlugin } from "./vita-recorder-ps-vita-plugin";
+import { eqvitaPsVitaAudioPlugin } from "./eqvita-ps-vita-audio-plugin";
+import { ps4LinkControlsPsVitaPlugin } from "./ps4-link-controls-ps-vita-plugin";
+import { gr544pPsVitaPlugin } from "./gr544p-ps-vita-plugin";
+import { psVitaUsbAudioMidiPlugin } from "./ps-vita-usb-audio-midi-plugin";
+import { controlmole3dsPlugin } from "./controlmole-3ds-plugin";
+import { spelunkyPspHomebrewRemake } from "./spelunky-psp-homebrew-remake";
+import { openstrikePsp } from "./openstrike-psp";
+import { pocketVoxelPspPsVitaWeb } from "./pocket-voxel-psp-ps-vita-web";
+import { battleGrounds3Psp } from "./battle-grounds-3-psp";
+import { gothsNVampsPsp } from "./goths-n-vamps-psp";
+import { mudkipAdventuresPsp } from "./mudkip-adventures-psp";
+import { jokerPokerPsp } from "./joker-poker-psp";
+import { tobuTobuGirlGameBoy } from "./tobu-tobu-girl-game-boy";
+import { tobuTobuGirlDxGameBoyColor } from "./tobu-tobu-girl-dx-game-boy-color";
+import { evolandGbDemake } from "./evoland-gb-demake";
+import { petrisGameBoyColor } from "./petris-game-boy-color";
+import { airakiGameBoy } from "./airaki-game-boy";
+import { googleDinoGameBoyAdvance } from "./google-dino-game-boy-advance";
+import { spaceRescueSquadSnes } from "./space-rescue-squad-snes";
+import { bomberworldSnes } from "./bomberworld-snes";
+import { cryptoslasherSnes } from "./cryptoslasher-snes";
+import { tetrisMdMegaDrive } from "./tetris-md-mega-drive";
+import { megaCarWarsMegaDrive } from "./mega-car-wars-mega-drive";
+import { willowSDreamMegaDrive } from "./willow-s-dream-mega-drive";
+import { wertactics3ds } from "./wertactics-3ds";
+
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -3438,4 +3487,55 @@ export const portCases: Port[] = [
   doom2dGba,
   superMarioBrosSwitch,
   dusklightPs4,
+
+
+
+  prxshotPspScreenshotPlugin,
+  pspKillswitchPlugin,
+  mschangePspPlugin,
+  missyhudPspPlugin,
+  gpsemuPspPlugin,
+  pspsysmonPspPlugin,
+  pspwaveXmbWaveEditor,
+  psp5GameLauncherForPsp,
+  storestationPspAppsAndPluginsStore,
+  arkPluginConverter,
+  sandstoneEnginePspGameEngine,
+  pocketGameMakerPspEngine,
+  fpkgiPackageManager,
+  vitagrafixPsVitaPlugin,
+  vitaUdcdUvcPsVitaPlugin,
+  psvitaStoragemgrPlugin,
+  ds4vitaPsVitaPlugin,
+  rincheatPsVitaPlugin,
+  vitabrightPsVitaPlugin,
+  gohanmemPsVitaCheatPlugin,
+  vitaNearestNeighbourPlugin,
+  _8bitvitaPsVitaPlugin,
+  vitaRecorderPsVitaPlugin,
+  eqvitaPsVitaAudioPlugin,
+  ps4LinkControlsPsVitaPlugin,
+  gr544pPsVitaPlugin,
+  psVitaUsbAudioMidiPlugin,
+  controlmole3dsPlugin,
+  spelunkyPspHomebrewRemake,
+  openstrikePsp,
+  pocketVoxelPspPsVitaWeb,
+  battleGrounds3Psp,
+  gothsNVampsPsp,
+  mudkipAdventuresPsp,
+  jokerPokerPsp,
+  tobuTobuGirlGameBoy,
+  tobuTobuGirlDxGameBoyColor,
+  evolandGbDemake,
+  petrisGameBoyColor,
+  airakiGameBoy,
+  googleDinoGameBoyAdvance,
+  spaceRescueSquadSnes,
+  bomberworldSnes,
+  cryptoslasherSnes,
+  tetrisMdMegaDrive,
+  megaCarWarsMegaDrive,
+  willowSDreamMegaDrive,
+  wertactics3ds,
 ];

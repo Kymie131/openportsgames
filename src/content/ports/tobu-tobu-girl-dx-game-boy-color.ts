@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tobuTobuGirlDxGameBoyColor: Port = {
+  schema: "port",
+  id: "tobu-tobu-girl-dx-game-boy-color",
+  title: "Tobu Tobu Girl DX (Game Boy Color)",
+  game: "Tobu Tobu Girl",
+  developers: ["SimonLarsen"],
+  publisher: "Homebrew",
+  originalYear: 2018,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["gb","gbc"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/SimonLarsen/tobutobugirl-dx"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Tobu Tobu Girl (Homebrew, 2018) running on gb and gbc through source port. You need your own copy of the game.",
+  notesEs: "Tobu Tobu Girl (Homebrew, 2018) en gb and gbc mediante port de código. Necesitas tu propia copia del juego.",
+};

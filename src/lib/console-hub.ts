@@ -1,6 +1,7 @@
 import { consoleDefs, getConsoleDef, type ConsoleDef } from "@/content/consoles";
+import { getConsole as getEmulatorConsole, type Emulator } from "@/content/emulators";
 import { getPorts, originalSystemsOf } from "@/lib/ports";
-import type { Port } from "@/lib/ports/schema";
+import { portCategory, type Port } from "@/lib/ports/schema";
 
 /**
  * `originalSystem` labels that belong to each console. A port whose original
@@ -44,14 +45,25 @@ export interface CommunitySource {
   github: boolean;
 }
 
+/** Console slugs whose emulator registry entry uses a different slug. */
+const EMULATOR_SLUG_BY_HUB: Record<string, string> = {
+  "mega-drive": "genesis",
+};
+
 export interface ConsoleHub {
   def: ConsoleDef;
-  /** Builds whose target platform is this console. */
+  /** Native ports, recompilations and decompilations that target this console. */
   running: Port[];
+  /** Games written for this console (homebrew). */
+  homebrew: Port[];
+  /** Utilities and plugins that extend this console. */
+  plugins: Port[];
   /** Ports of games that originally shipped on this console. */
   games: Port[];
   /** Every publishing host behind those entries. */
   sources: CommunitySource[];
+  /** Emulators registered for this console, when the registry knows it. */
+  emulators: Emulator[];
 }
 
 function byTitle(a: Port, b: Port): number {
@@ -91,17 +103,28 @@ export function getConsoleHub(slug: string): ConsoleHub | undefined {
   const ports = getPorts();
   const labels = new Set(SYSTEM_LABELS_BY_CONSOLE[def.slug] ?? []);
 
-  const running = ports
-    .filter((port) => port.platforms.includes(def.platform))
-    .sort(byTitle);
+  const targeting = ports.filter((port) => port.platforms.includes(def.platform));
+  const running = targeting.filter((port) => portCategory(port) === "port").sort(byTitle);
+  const homebrew = targeting.filter((port) => portCategory(port) === "homebrew").sort(byTitle);
+  const plugins = targeting.filter((port) => portCategory(port) === "plugin").sort(byTitle);
 
-  const runningIds = new Set(running.map((port) => port.id));
+  const targetingIds = new Set(targeting.map((port) => port.id));
   const games = ports
-    .filter((port) => !runningIds.has(port.id))
+    .filter((port) => !targetingIds.has(port.id))
     .filter((port) => originalSystemsOf(port.id).some((system) => labels.has(system)))
     .sort(byTitle);
 
-  return { def, running, games, sources: collectSources([...running, ...games]) };
+  const emulatorConsole = getEmulatorConsole(EMULATOR_SLUG_BY_HUB[def.slug] ?? def.slug);
+
+  return {
+    def,
+    running,
+    homebrew,
+    plugins,
+    games,
+    sources: collectSources([...running, ...homebrew, ...plugins, ...games]),
+    emulators: emulatorConsole?.emulators ?? [],
+  };
 }
 
 export function getAllConsoleHubs(): ConsoleHub[] {

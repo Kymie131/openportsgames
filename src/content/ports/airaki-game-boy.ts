@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const airakiGameBoy: Port = {
+  schema: "port",
+  id: "airaki-game-boy",
+  title: "Airaki (Game Boy)",
+  game: "Airaki",
+  developers: ["furrtek"],
+  publisher: "Homebrew",
+  originalYear: 2014,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["gb"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/furrtek/Airaki"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Airaki (Homebrew, 2014) running on gb through source port. You need your own copy of the game.",
+  notesEs: "Airaki (Homebrew, 2014) en gb mediante port de código. Necesitas tu propia copia del juego.",
+};

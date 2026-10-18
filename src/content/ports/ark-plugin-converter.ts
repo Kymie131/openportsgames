@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const arkPluginConverter: Port = {
+  schema: "port",
+  id: "ark-plugin-converter",
+  title: "ARK Plugin Converter",
+  game: "PlayStation Portable",
+  developers: ["krazynez"],
+  publisher: "Sony",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["psp"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/krazynez/ARK-Plugin-Converter"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "PlayStation Portable (Sony, 2004) running on PlayStation Portable through source port. You need your own copy of the game.",
+  notesEs: "PlayStation Portable (Sony, 2004) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
+};

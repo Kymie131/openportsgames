@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const vitaRecorderPsVitaPlugin: Port = {
+  schema: "port",
+  id: "vita-recorder-ps-vita-plugin",
+  title: "Vita Recorder (PS Vita plugin)",
+  game: "PlayStation Vita",
+  developers: ["Rinnegatamante"],
+  publisher: "Sony",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["psvita"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Rinnegatamante/Vita-Recorder"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "PlayStation Vita (Sony, 2011) running on PlayStation Vita through source port. You need your own copy of the game.",
+  notesEs: "PlayStation Vita (Sony, 2011) en PlayStation Vita mediante port de código. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const spelunkyPspHomebrewRemake: Port = {
+  schema: "port",
+  id: "spelunky-psp-homebrew-remake",
+  title: "Spelunky (PSP homebrew remake)",
+  game: "Spelunky",
+  developers: ["dbeef"],
+  publisher: "Derek Yu",
+  originalYear: 2008,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/dbeef/spelunky-psp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Spelunky (Derek Yu, 2008) running on PlayStation Portable through source port. Latest release: v0.5. You need your own copy of the game.",
+  notesEs: "Spelunky (Derek Yu, 2008) en PlayStation Portable mediante port de código. Última release: v0.5. Necesitas tu propia copia del juego.",
+};

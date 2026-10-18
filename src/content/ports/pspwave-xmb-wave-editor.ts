@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pspwaveXmbWaveEditor: Port = {
+  schema: "port",
+  id: "pspwave-xmb-wave-editor",
+  title: "PSPWave (XMB wave editor)",
+  game: "PlayStation Portable",
+  developers: ["violinmelody"],
+  publisher: "Sony",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/violinmelody/PSPWave"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "PlayStation Portable (Sony, 2004) running on PlayStation Portable through source port. Latest release: 1.1.0. You need your own copy of the game.",
+  notesEs: "PlayStation Portable (Sony, 2004) en PlayStation Portable mediante port de código. Última release: 1.1.0. Necesitas tu propia copia del juego.",
+};

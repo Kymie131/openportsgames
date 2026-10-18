@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const psp5GameLauncherForPsp: Port = {
+  schema: "port",
+  id: "psp5-game-launcher-for-psp",
+  title: "PSP5 (game launcher for PSP)",
+  game: "PlayStation Portable",
+  developers: ["08Weber"],
+  publisher: "Sony",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/08Weber/psp5"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "PlayStation Portable (Sony, 2004) running on PlayStation Portable through source port. Latest release: v1.5.3. You need your own copy of the game.",
+  notesEs: "PlayStation Portable (Sony, 2004) en PlayStation Portable mediante port de código. Última release: v1.5.3. Necesitas tu propia copia del juego.",
+};

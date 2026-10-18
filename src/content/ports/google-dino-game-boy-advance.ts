@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const googleDinoGameBoyAdvance: Port = {
+  schema: "port",
+  id: "google-dino-game-boy-advance",
+  title: "Google Dino (Game Boy Advance)",
+  game: "Chrome Dino",
+  developers: ["fritzem"],
+  publisher: "Google",
+  originalYear: 2014,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["gba"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/fritzem/Google-Dino-GBA"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "Chrome Dino (Google, 2014) running on gba through source port. Latest release: 1.1. You need your own copy of the game.",
+  notesEs: "Chrome Dino (Google, 2014) en gba mediante port de código. Última release: 1.1. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bomberworldSnes: Port = {
+  schema: "port",
+  id: "bomberworld-snes",
+  title: "Bomberworld (SNES)",
+  game: "Bomberworld",
+  developers: ["1r3n33"],
+  publisher: "Homebrew",
+  originalYear: 2021,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["snes"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/1r3n33/bomberworld"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Bomberworld (Homebrew, 2021) running on snes through source port. Latest release: release-94-2020-05-21. You need your own copy of the game.",
+  notesEs: "Bomberworld (Homebrew, 2021) en snes mediante port de código. Última release: release-94-2020-05-21. Necesitas tu propia copia del juego.",
+};

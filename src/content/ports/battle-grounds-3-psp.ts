@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const battleGrounds3Psp: Port = {
+  schema: "port",
+  id: "battle-grounds-3-psp",
+  title: "Battle Grounds 3 (PSP)",
+  game: "Battle Grounds 3",
+  developers: ["xfacter"],
+  publisher: "Homebrew",
+  originalYear: 2020,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/xfacter/battlegrounds3"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Battle Grounds 3 (Homebrew, 2020) running on PlayStation Portable through source port. Latest release: v0.5.0. You need your own copy of the game.",
+  notesEs: "Battle Grounds 3 (Homebrew, 2020) en PlayStation Portable mediante port de código. Última release: v0.5.0. Necesitas tu propia copia del juego.",
+};

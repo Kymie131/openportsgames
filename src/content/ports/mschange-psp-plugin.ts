@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mschangePspPlugin: Port = {
+  schema: "port",
+  id: "mschange-psp-plugin",
+  title: "MSChange (PSP plugin)",
+  game: "PlayStation Portable",
+  developers: ["YuriSizuku"],
+  publisher: "Sony",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/YuriSizuku/psp-MSChange"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "PlayStation Portable (Sony, 2004) running on PlayStation Portable through source port. Latest release: v0.1. You need your own copy of the game.",
+  notesEs: "PlayStation Portable (Sony, 2004) en PlayStation Portable mediante port de código. Última release: v0.1. Necesitas tu propia copia del juego.",
+};

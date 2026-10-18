@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gr544pPsVitaPlugin: Port = {
+  schema: "port",
+  id: "gr544p-ps-vita-plugin",
+  title: "GR544P (PS Vita plugin)",
+  game: "PlayStation Vita",
+  developers: ["junminlee2004"],
+  publisher: "Sony",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/junminlee2004/GR544P"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "PlayStation Vita (Sony, 2011) running on PlayStation Vita through source port. Latest release: v4.0. You need your own copy of the game.",
+  notesEs: "PlayStation Vita (Sony, 2011) en PlayStation Vita mediante port de código. Última release: v4.0. Necesitas tu propia copia del juego.",
+};

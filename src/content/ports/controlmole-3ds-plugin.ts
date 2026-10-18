@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const controlmole3dsPlugin: Port = {
+  schema: "port",
+  id: "controlmole-3ds-plugin",
+  title: "ControlMole (3DS plugin)",
+  game: "Nintendo 3DS",
+  developers: ["skrimby1"],
+  publisher: "Nintendo",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/skrimby1/controlmole-3ds"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Nintendo 3DS (Nintendo, 2011) running on Nintendo 3DS through source port. Latest release: v1.0.0. You need your own copy of the game.",
+  notesEs: "Nintendo 3DS (Nintendo, 2011) en Nintendo 3DS mediante port de código. Última release: v1.0.0. Necesitas tu propia copia del juego.",
+};

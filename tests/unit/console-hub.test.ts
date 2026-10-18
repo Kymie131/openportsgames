@@ -67,4 +67,26 @@ describe("console hub", () => {
   it("returns undefined for an unknown console", () => {
     expect(getConsoleHub("no-existe")).toBeUndefined();
   });
+
+  it("splits entries into ports, homebrew and plugins by category", () => {
+    const psp = getConsoleHub("playstation-portable")!;
+    const homebrewIds = psp.homebrew.map((port) => port.id);
+    const pluginIds = psp.plugins.map((port) => port.id);
+    const runningIds = psp.running.map((port) => port.id);
+
+    expect(homebrewIds).toContain("spelunky-psp-homebrew-remake");
+    expect(pluginIds).toContain("prxshot-psp-screenshot-plugin");
+    for (const id of runningIds) {
+      expect(homebrewIds.includes(id) || pluginIds.includes(id), id).toBe(false);
+    }
+    for (const group of [psp.running, psp.homebrew, psp.plugins]) {
+      for (const port of group) expect(port.platforms).toContain("psp");
+    }
+  });
+
+  it("exposes the emulators registered for the console", () => {
+    expect(getConsoleHub("playstation")!.emulators.length).toBeGreaterThan(0);
+    expect(getConsoleHub("mega-drive")!.emulators.length).toBeGreaterThan(0);
+    expect(getConsoleHub("arcade")!.emulators.length).toBe(0);
+  });
 });
