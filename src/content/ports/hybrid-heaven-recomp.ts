@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const hybridHeavenRecomp: Port = {
+  schema: "port",
+  id: "hybrid-heaven-recomp",
+  title: "Hybrid Heaven (PC)",
+  game: "Hybrid Heaven",
+  developers: ["hunkstalker"],
+  publisher: "Konami",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/hunkstalker/hybrid-heaven-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  aiDisclosure: {"source":"https://github.com/hunkstalker/hybrid-heaven-recomp","quote":"Unofficial AI native PC port of Hybrid Heaven"},
+  notes: "Unofficial AI native PC port of Hybrid Heaven (Nintendo 64, 1999) via static recompilation with N64Recomp, RT64 and N64ModernRuntime, featuring a purist UI. Windows, Linux and Steam Deck. Early phase. Latest release: v0.7.3.",
+  notesEs: "Port nativo a PC no oficial y hecho con IA de Hybrid Heaven (Nintendo 64, 1999) mediante recompilación estática con N64Recomp, RT64 y N64ModernRuntime, con interfaz purista. Windows, Linux y Steam Deck. Fase temprana. Última release: v0.7.3.",
+};

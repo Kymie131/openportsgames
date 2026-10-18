@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const aceCombat5LinuxRecomp: Port = {
+  schema: "port",
+  id: "ace-combat-5-linux-recomp",
+  title: "Ace Combat 5 (Linux Performance Fork)",
+  game: "Ace Combat 5: The Unsung War",
+  developers: ["Harold0777"],
+  publisher: "Namco",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["linux"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Harold0777/eagle_five_recomp"],
+  license: { spdx: "Apache-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 2"],
+  related: ["ace-combat-5-recomp"],
+  notes: "Static recompilation of Ace Combat 5: The Unsung War (USA) for Linux, presented as a Linux performance fork of the project. Requires Vulkan 1.2+. Latest release: v0.3.0.",
+  notesEs: "Recompilación estática de Ace Combat 5: The Unsung War (USA) para Linux, presentada como fork de rendimiento para Linux del proyecto. Requiere Vulkan 1.2+. Última release: v0.3.0.",
+};

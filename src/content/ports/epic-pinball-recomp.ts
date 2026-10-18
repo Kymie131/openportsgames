@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const epicPinballRecomp: Port = {
+  schema: "port",
+  id: "epic-pinball-recomp",
+  title: "Epic Pinball (Recompiled)",
+  game: "Epic Pinball",
+  developers: ["sp00nznet"],
+  publisher: "Epic MegaGames",
+  originalYear: 1993,
+  portType: "recompilation",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sp00nznet/epicpinball"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["MS-DOS"],
+  notes: "Epic Pinball (Epic MegaGames, 1993): all thirteen tables of the GOG Complete Collection taken apart from their shipping DOS executables and rebuilt as one native program for Windows or Linux. No DOSBox, no emulator.",
+  notesEs: "Epic Pinball (Epic MegaGames, 1993): las trece mesas de la Complete Collection de GOG extraídas de sus ejecutables de DOS originales y reconstruidas como un único programa nativo para Windows o Linux. Sin DOSBox ni emulador.",
+};

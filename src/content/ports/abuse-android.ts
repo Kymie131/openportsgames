@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const abuseAndroid: Port = {
+  schema: "port",
+  id: "abuse-android",
+  title: "Abuse (Android)",
+  game: "Abuse",
+  developers: ["ShadowPilotX"],
+  publisher: "Crack dot Com",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ShadowPilotX/Abuse-Android"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["MS-DOS"],
+  notes: "Native Android port of the 1996 dark sci-fi platformer Abuse by Crack dot Com, built on top of apancik/Abuse_2025. Latest release: v1.1.",
+  notesEs: "Port nativo para Android del plataformas oscuro de ciencia ficción Abuse (Crack dot Com, 1996), construido sobre apancik/Abuse_2025. Última release: v1.1.",
+};

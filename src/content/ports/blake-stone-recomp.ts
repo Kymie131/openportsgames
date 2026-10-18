@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const blakeStoneRecomp: Port = {
+  schema: "port",
+  id: "blake-stone-recomp",
+  title: "Blake Stone (Recompiled)",
+  game: "Blake Stone: Aliens of Gold / Planet Strike",
+  developers: ["sp00nznet"],
+  publisher: "Apogee Software",
+  originalYear: 1993,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sp00nznet/blakestone"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["MS-DOS"],
+  notes: "Blake Stone: Aliens of Gold (1993) and Planet Strike (1994) taken apart from their shipping DOS executables and rebuilt as native Windows programs. No DOSBox, no emulator. Bring your own game files.",
+  notesEs: "Blake Stone: Aliens of Gold (1993) y Planet Strike (1994) extraídos de sus ejecutables de DOS originales y reconstruidos como programas nativos de Windows. Sin DOSBox, sin emulador. Aporta tus propios archivos del juego.",
+};

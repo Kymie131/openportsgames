@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const projectElevenRecomp: Port = {
+  schema: "port",
+  id: "project-eleven-recomp",
+  title: "11eyes CrossOver (PC)",
+  game: "11eyes CrossOver",
+  developers: ["ThePlayer14"],
+  publisher: "5pb.",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ThePlayer14/project-eleven-recomp"],
+  license: { spdx: "Unlicense" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  related: ["steins-gate-recomp"],
+  notes: "Native PC recompilation of the Xbox 360 version of 11eyes CrossOver using ReXGlue. You must build it yourself with your legally owned game files. Latest tag: windows-rex-v0.10.",
+  notesEs: "Recompilación nativa para PC de la versión de Xbox 360 de 11eyes CrossOver usando ReXGlue. Hay que compilarla con tus propios archivos legales del juego. Último tag: windows-rex-v0.10.",
+};

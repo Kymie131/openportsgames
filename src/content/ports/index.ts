@@ -1285,6 +1285,25 @@ import { residentEvilCodeVeronicaRecomp } from "./resident-evil-code-veronica-re
 import { princeOfPersiaClassicPsvita } from "./prince-of-persia-classic-psvita";
 import { battletanxGlobalAssaultPcPort } from "./battletanx-global-assault-pc-port";
 
+import { _3on3NhlArcadeRecomp } from "./3on3-nhl-arcade-recomp";
+import { ben10OmniverseRecomp } from "./ben-10-omniverse-recomp";
+import { alleycatX8664Recomp } from "./alleycat-x86-64-recomp";
+import { aegisWingXblaRecomp } from "./aegis-wing-xbla-recomp";
+import { blakeStoneRecomp } from "./blake-stone-recomp";
+import { hybridHeavenRecomp } from "./hybrid-heaven-recomp";
+import { persona3FesRecompiled } from "./persona-3-fes-recompiled";
+import { wwe2k14Recomp } from "./wwe-2k14-recomp";
+import { timesplittersFuturePerfectRecomp } from "./timesplitters-future-perfect-recomp";
+import { projectElevenRecomp } from "./project-eleven-recomp";
+import { turokRageWarsRecomp } from "./turok-rage-wars-recomp";
+import { epicPinballRecomp } from "./epic-pinball-recomp";
+import { digimonWorld3Recomp } from "./digimon-world-3-recomp";
+import { steinsGateRecomp } from "./steins-gate-recomp";
+import { aceCombat5LinuxRecomp } from "./ace-combat-5-linux-recomp";
+import { abuseAndroid } from "./abuse-android";
+import { therapyWithDrAlbertKruegerAndroid } from "./therapy-with-dr-albert-krueger-android";
+import { elfenLiedFightingAndroid } from "./elfen-lied-fighting-android";
+
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -2569,4 +2588,22 @@ export const portCases: Port[] = [
   residentEvilCodeVeronicaRecomp,
   princeOfPersiaClassicPsvita,
   battletanxGlobalAssaultPcPort,
+  _3on3NhlArcadeRecomp,
+  ben10OmniverseRecomp,
+  alleycatX8664Recomp,
+  aegisWingXblaRecomp,
+  blakeStoneRecomp,
+  hybridHeavenRecomp,
+  persona3FesRecompiled,
+  wwe2k14Recomp,
+  timesplittersFuturePerfectRecomp,
+  projectElevenRecomp,
+  turokRageWarsRecomp,
+  epicPinballRecomp,
+  digimonWorld3Recomp,
+  steinsGateRecomp,
+  aceCombat5LinuxRecomp,
+  abuseAndroid,
+  therapyWithDrAlbertKruegerAndroid,
+  elfenLiedFightingAndroid,
 ];

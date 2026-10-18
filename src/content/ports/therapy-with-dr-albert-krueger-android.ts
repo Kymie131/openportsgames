@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const therapyWithDrAlbertKruegerAndroid: Port = {
+  schema: "port",
+  id: "therapy-with-dr-albert-krueger-android",
+  title: "Therapy With Dr. Albert Krueger (Android)",
+  game: "Therapy With Dr. Albert Krueger",
+  developers: ["Unkzittys"],
+  publisher: "dino999z",
+  originalYear: 2020,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Unkzittys/TherapyWithDrAlbertKrueger_AndroidPort"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Android version of the Ren'Py horror RPG Therapy With Dr. Albert Krueger, made with the original creator's and Ren'Py's open-source engine. Latest release: 1.0.2.",
+  notesEs: "Versión para Android del RPG de terror Therapy With Dr. Albert Krueger, hecho con el motor Ren'Py y con permiso del creador original. Última release: 1.0.2.",
+};

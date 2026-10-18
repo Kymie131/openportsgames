@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const _3on3NhlArcadeRecomp: Port = {
+  schema: "port",
+  id: "3on3-nhl-arcade-recomp",
+  title: "3 on 3 NHL Arcade (PC)",
+  game: "3 on 3 NHL Arcade",
+  developers: ["Wndwsqrrl"],
+  publisher: "EA Sports",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Wndwsqrrl/3on3NHL-recomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  notes: "Native PC port of 3 on 3 NHL Arcade (Xbox 360, 2009) by static recompilation. Latest release: v0.1.1.",
+  notesEs: "Port nativo a PC de 3 on 3 NHL Arcade (Xbox 360, 2009) mediante recompilación estática. Última release: v0.1.1.",
+};
