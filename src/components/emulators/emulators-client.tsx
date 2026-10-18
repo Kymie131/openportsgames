@@ -84,6 +84,13 @@ export function EmulatorsClient({ portsBySystem }: { portsBySystem: Record<strin
   const generation = genId ? getGeneration(genId) : undefined;
   const consoleDef = generation && consoleSlug ? getConsole(consoleSlug) : undefined;
 
+  /** Keeps the URL and the view in sync: Next client navigation alone would only change the URL. */
+  const drill = (query: string) => (event: React.MouseEvent<HTMLAnchorElement>) => {
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) return;
+    event.preventDefault();
+    go(query);
+  };
+
   const go = (query: string) => {
     setSearch(query);
     router.replace(query ? `${pathname}?${query}` : pathname, { scroll: false });
@@ -171,6 +178,7 @@ export function EmulatorsClient({ portsBySystem }: { portsBySystem: Record<strin
             <li key={consoleDef.slug}>
               <Link
                 href={`${pathname}?gen=${generation.id}&console=${consoleDef.slug}`}
+                onClick={drill(`gen=${generation.id}&console=${consoleDef.slug}`)}
                 className="flex w-full items-center gap-3 rounded-lg border border-border bg-surface p-4 text-left transition-[border-color,background-color] duration-150 hover:border-accent-hover hover:bg-surface-2"
               >
                 <ConsoleMark
@@ -249,6 +257,7 @@ export function EmulatorsClient({ portsBySystem }: { portsBySystem: Record<strin
             <li key={gen.id}>
               <Link
                 href={`${pathname}?gen=${gen.id}`}
+                onClick={drill(`gen=${gen.id}`)}
                 className="flex h-full w-full flex-col gap-3 rounded-lg border border-border bg-surface p-5 text-left transition-[border-color,background-color] duration-150 hover:border-accent-hover hover:bg-surface-2"
               >
                 <span className="flex items-center gap-2">

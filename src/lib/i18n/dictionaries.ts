@@ -336,7 +336,7 @@ const en = {
   console: {
     title: "Console homebrew",
     subtitle:
-      "Native ports and homebrew builds that run on consoles. Pick a console to see what exists.",
+      "Every console we cover: native builds that run on it and the community ports of its own games, whatever host publishes them.",
     allConsoles: "All consoles",
     portCount: (count: number) => `${count} port${count === 1 ? "" : "s"}`,
     noPorts: "No ports yet",
@@ -345,6 +345,21 @@ const en = {
     searchPlaceholder: "Search console homebrew",
     searchResults: (count: number) => `${count} result${count === 1 ? "" : "s"}`,
     noResults: "No homebrew ports match your search.",
+    hubTotal: (running: number, games: number) =>
+      `${running} build${running === 1 ? "" : "s"} for this console, ${games} port${games === 1 ? "" : "s"} of its games`,
+    runningTitle: "Builds that run on this console",
+    runningHelp:
+      "Native ports, recompilations and homebrew that target this hardware. You usually need your own copy of the game.",
+    runningEmpty: "No build targets this console yet.",
+    gamesTitle: "Community ports of its games",
+    gamesHelp:
+      "These projects rebuild games that originally shipped on this console and run them on PC, Android or another system.",
+    gamesEmpty: "No port of this console's games is catalogued yet.",
+    sourcesTitle: "Where the community publishes it",
+    sourcesHelp:
+      "GitHub is not the only source: every host behind these entries, with how many projects it carries.",
+    sourcesCount: (count: number) => `${count} project${count === 1 ? "" : "s"}`,
+    sourcesOther: "Other hosts",
   },
   emulators: {
     title: "Emulators",
@@ -836,7 +851,7 @@ const es: Messages = {
   console: {
     title: "Homebrew para consolas",
     subtitle:
-      "Ports nativos y builds homebrew que funcionan en consolas. Elige una consola para ver qué hay.",
+      "Todas las consolas que cubrimos: builds nativas que funcionan en ellas y ports de la comunidad de sus propios juegos, sin importar en qué sitio se publiquen.",
     allConsoles: "Todas las consolas",
     portCount: (count: number) => `${count} port${count === 1 ? "" : "s"}`,
     noPorts: "Aún no hay ports",
@@ -845,6 +860,21 @@ const es: Messages = {
     searchPlaceholder: "Buscar homebrew de consolas",
     searchResults: (count: number) => `${count} resultado${count === 1 ? "" : "s"}`,
     noResults: "Ningún port homebrew coincide con tu búsqueda.",
+    hubTotal: (running: number, games: number) =>
+      `${running} build${running === 1 ? "" : "s"} para esta consola, ${games} port${games === 1 ? "" : "s"} de sus juegos`,
+    runningTitle: "Builds que funcionan en esta consola",
+    runningHelp:
+      "Ports nativos, recompilaciones y homebrew dirigidos a este hardware. Normalmente necesitas tu propia copia del juego.",
+    runningEmpty: "Todavía no hay ninguna build para esta consola.",
+    gamesTitle: "Ports de la comunidad de sus juegos",
+    gamesHelp:
+      "Estos proyectos reconstruyen juegos que salieron originalmente en esta consola y los ejecutan en PC, Android u otro sistema.",
+    gamesEmpty: "Todavía no hay ningún port catalogado de los juegos de esta consola.",
+    sourcesTitle: "Dónde lo publica la comunidad",
+    sourcesHelp:
+      "GitHub no es la única fuente: todos los sitios detrás de estas fichas y cuántos proyectos alberga cada uno.",
+    sourcesCount: (count: number) => `${count} proyecto${count === 1 ? "" : "s"}`,
+    sourcesOther: "Otros sitios",
   },
   emulators: {
     title: "Emuladores",
