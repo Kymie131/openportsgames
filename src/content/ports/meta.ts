@@ -1185,7 +1185,7 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "zelda-tmc-3ds": ["Game Boy Advance"],
   "zelda3": ["Super Nintendo"],
   "zelda64-recomp": ["Nintendo 64"],
-  "zeldawwhdrecompandroid": ["Unknown"],
+  "zeldawwhdrecompandroid": ["Wii U"],
   "zero-hour-reforged": ["Unknown"],
   "zero-k": ["Unknown"],
   "zero-racers-recomp": ["Virtual Boy"],
@@ -1302,4 +1302,7 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "abuse-android": ["MS-DOS"],
   "therapy-with-dr-albert-krueger-android": ["Windows"],
   "elfen-lied-fighting-android": ["Windows"],
+  "isaac-rebirth-android": ["Windows"],
+  "isaac-flash-recomp": ["Windows"],
+  "wind-waker-hd-android-plus": ["Wii U"],
 };

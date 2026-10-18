@@ -1304,6 +1304,10 @@ import { abuseAndroid } from "./abuse-android";
 import { therapyWithDrAlbertKruegerAndroid } from "./therapy-with-dr-albert-krueger-android";
 import { elfenLiedFightingAndroid } from "./elfen-lied-fighting-android";
 
+import { isaacRebirthAndroid } from "./isaac-rebirth-android";
+import { isaacFlashRecomp } from "./isaac-flash-recomp";
+import { windWakerHdAndroidPlus } from "./wind-waker-hd-android-plus";
+
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -2606,4 +2610,7 @@ export const portCases: Port[] = [
   abuseAndroid,
   therapyWithDrAlbertKruegerAndroid,
   elfenLiedFightingAndroid,
+  isaacRebirthAndroid,
+  isaacFlashRecomp,
+  windWakerHdAndroidPlus,
 ];
