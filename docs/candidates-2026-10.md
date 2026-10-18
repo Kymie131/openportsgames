@@ -41,7 +41,13 @@ Para **todos** los repos del catálogo: comparar último release/tag y fecha del
 reportar versiones nuevas, repos archivados/renombrados/movidos, borrados (404) y fichas con `Unknown` donde el
 README ya diga el sistema. (Requiere ~1.200 requests; no ejecutado en esta pasada.)
 
-## Hallazgos que ya tocan el catálogo (para Etapa 2 o correcciones)
-1. **`skate-3-mobile`**: repo renombrado a `Buku313/Skate3-Android` → actualizar la URL de la fuente (mismo repo).
-2. **`new-super-mario-bros-wii-recomp`**: el repo ahora soporta **Android** además de Windows.
+## Hallazgos que ya tocan el catálogo (resueltos el 2026-10-18)
+1. **`skate-3-mobile`**: **la nota anterior era incorrecta**. La API devuelve `name: "Skate3-Mobile"` tanto al pedir `Buku313/Skate3-Android` como `Buku313/Skate3-Mobile`, así que el nombre actual del repo es `Skate3-Mobile`; la ficha ya apunta a ese repo y **no hay que cambiar la URL**.
+2. **`new-super-mario-bros-wii-recomp`**: ya declara `platforms: ["windows", "android"]` en la ficha. Sin cambio.
 3. **`metroid-prime-port`**: sin cambios (ya es GameCube).
+4. **`zeldawwhdrecompandroid`**: **corregido**. La ficha tenía `platforms` de escritorio, `genre: "shooter"` y `originalSystems: ["Unknown"]`; ahora es Android, `action-adventure` y Wii U, con el `game` real (The Legend of Zelda: The Wind Waker HD) y `related` a las otras fichas de Wind Waker.
+5. **`god-of-war-3-android`** (`zFitness/gow3_android`), **`call-of-duty-mw2-android`** (`OpenPort-Labs/mw2-android`) y **`goemon-64-recompiled-android`** (`ogdanimal/Goemon64Recomp-Android`): los tres están ya en el catálogo con esos repos. Sin cambio.
+6. **`rayman-origins-recomp`**: la ficha ya describe el port a Nintendo Switch de `XDanfr/RaymanOriginsRecomp`; no hace falta una ficha "variante".
+7. **Isaac**: añadidas `isaac-rebirth-android` (`caos-obliquo/tboi-recomp`, MIT, móvil primero) e `isaac-flash-recomp` (`whylurking/IsaacRecomp`), y **`the-browsing-of-isaac`** (`chiikabu/the-browsing-of-isaac`, WebAssembly).
+8. **`Nycolazs/WindWakerHD-Android-Plus`**: añadida como `wind-waker-hd-android-plus`, enlazada a las otras fichas de Wind Waker HD.
+

@@ -4,7 +4,7 @@ import { Container } from "@/components/layout/container";
 import { PortDetail } from "@/components/ports/port-detail";
 import { TakedownNotice } from "@/components/ports/takedown-notice";
 import { JsonLd } from "@/components/seo/json-ld";
-import { pageMeta } from "@/lib/seo";
+import { pageMeta, portTitle } from "@/lib/seo";
 import { portDescription } from "@/lib/ports/description";
 import { portShareImage } from "@/lib/ports/share";
 import { asLocale } from "@/lib/i18n/locales";
@@ -45,7 +45,7 @@ export async function generateMetadata({
   const image = portShareImage(locale, port);
   return pageMeta({
     locale,
-    title: port.title,
+    title: portTitle(locale, port.game, port.title, port.platforms),
     description: portDescription(locale, port, dictionaries[locale]),
     path: `/ports/${port.id}`,
     image,

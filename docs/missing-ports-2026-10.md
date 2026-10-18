@@ -1,7 +1,8 @@
 # Puertos que FALTAN — descubrimiento 2026-10
 
 Fuente de esta pasada: **topics de GitHub** (`recomp`, `recompilation`, `static-recompilation`, `decompilation`, `android-port`) + la cuenta **`wootbeer`**, cruzado contra el catálogo **por URL de repo**.
-Excluidos de la lista: repos que **ya están en el catálogo** y **herramientas/emuladores** (van en la sección B).
+Pese al filtro inicial, **26 de los 143 repos de la sección A ya estaban en el catálogo** (ver sección C); se listan aquí porque proceden del barrido y su estado se volvió a verificar.
+Excluidos de la lista: **herramientas/emuladores** (van en la sección B).
 
 ## A. Juegos candidatos que faltan (143)
 
@@ -182,7 +183,27 @@ Excluidos de la lista: repos que **ya están en el catálogo** y **herramientas/
 | Jstar269/nakagawa-recomp | 8 | 2026-10-16 | Experimental PSP static recompiler and native runtime using user-supplied lawful inputs. |
 | BlackLineInteractive/SHO-GTA-VCS-PS2Recomp | 7 | 2026-08-05 | Playstation 2 Static Recompiler Silent Hill Origins & GTA Vice City Stories |
 
-## C. Pendiente de más pasadas
+## C. Resultado del barrido (2026-10-18)
+
+Estado por repo, verificado con la API de GitHub (archived, license, último push, última release y assets) y cruzado con el catálogo **por URL de repo**:
+
+- **143 candidatos** en la sección A.
+- **26 ya estaban en el catálogo** (mismo repo): `pmret/papermario`, `Xeeynamo/sotn-decomp`, `GRAnimated/MinecraftLCE`, `projectPiki/pikmin2`, `tangosdev/sm64ds-decomp`, `Dyotson/ForzaHorizon1-ReImagined`, `opentestdriveunlimited/OpenTestDriveUnlimited`, `dorPXP/driftdroid`, `Jorge262007/FFTARecomp`, `KaikoClanworth1/wwe-svr2011-pc`, `invinceble55-wq/Estacado-The-Darkness-Recomp`, `GenryTheFox0/Project-2099`, `vyanhursky/DefJamFFNY-recomp`, `Andiweli/Unreal-Android`, `christianortel/skate2-recompile-pc`, `CMR2Decomp/CMR2Decomp`, `sp00nznet/redalert2-recomp`, `RussoPhone/tomodachi-ltd-recomp`, `spacefarergames/EcstaticaRecompiled`, `mr-finster/vf2-recomp`, `BlackLineInteractive/Driveclub-Port`, `gamboozino/ngbrecomp`, `shaneomac1337/WWE-AllStars-Recomp`, `Masterllgod/naruto-storm-generations-port-nativo`, `Masterllgod/naruto-rise-of-a-ninja-port-nativo`, `raulzrrs/letsgo-recomp`.
+- **70 fichas nuevas** (lotes 7-10, una por repo distinto): 28 decompilaciones/recomps de PS1/N64/PS2/Xbox/PS3/PS4 + 21 recomps de Xbox 360/PS1/PS2 y ports Android + 18 recomps y ports Android + 3 variantes (Isaac Android/Flash y Wind Waker HD Android).
+- **21 descartados** por no ser juegos ni ports (revisar antes de reintentar): `mborgerson/mdec`, `i12bp8/decomp.wtf`, `hgarrereyn/STRIDE`, `mahaloz/sailr-eval`, `Xenomega/NESgen`, `TGP482/XboxXBERecomp`, `snuri00/psp-web-recomp`, `sp00nznet/model2recomp`, `aharonahdoot/RecompCore`, `aharonahdoot/GXRuntime`, `minsusun/boosting-recomp-with-dslr`, `ioncodes/llvm8`, `boburning/portcove`, `neurocontrarian/recomp-board`, `chdir/aria2-android`, `rlei/fastd-android`, `bmaslakov/android-close-pixelate`, `mikikg/AndroidJgltfViewer`, `seanpm2001/SDE_MobileServer_Android`, `seanpm2001/Crime-City-Rewritten_Android`, `DrDab/TrcAttendance-Android`.
+- **7 descartados** por ser otro tipo de contenido: `Physics365/991CN-X-CW-Decompilation` (calculadora), `rajdeep-3305/android-porting-guide` y `JinAsukin/utage-to-renpy-android-port` (guías), `adeen-s/droid-config-wt88047`, `oriaj-nocrala/sm-a107m-lineageos21` y `jian45154/redmi-k30-pro-postmarketos` (ports de SO para móviles), `dashr9230/SA-MP` (mod multijugador).
+- **8 descartados** por estado del proyecto:
+  - `Unchiga/YuGiOhForbiddenMemoriesRecomp`: el propio repo indica que se movió a `Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled`, que ya está en el catálogo.
+  - `tmcleroy/vampire-savior-recomp`: movido a `tmcleroy/cps2recomp` (launcher multi-juego).
+  - `mrfox-1/GoldenEye-Recomp-Watch-Music-Fix`: parche de arreglos sobre otro port, no un port.
+  - `QianLieXian/HoleDweller-zhCN-Auto-APK`: parches de traducción y un empaquetador de APK.
+  - `kazwtto/KristalLauncher`: launcher del motor Kristal.
+  - `Ericintersexual55/OpenGOAL-Jak-PC-Port` e `ingunnfranklyn0931/jak-3-pc-port-opengoal`: repos de redistribución que apuntan a OpenGOAL (`opengoal` ya está en el catálogo).
+  - `yashin-sh/WiiCompiled-Switch`: el propio README dice que el render del juego "sigue sin probarse"; se reevaluará cuando renderice.
+- **2 pendientes de decisión editorial**: `halo-re/halo` (decompilación de investigación de Halo CE Xbox, sin actividad desde 2023 y ya cubierta por OpenCE) y `DogParty/iPodClickWheelRecomps` (colección de juegos de iPod: no tiene un género ni un juego único, se añadirá como fichas individuales si se identifican).
+- **1 descartado por el esquema actual**: `Sergey004/FNAF1-Recomp-proj` (rompehielos de FNAF para **Xbox 360**: `platforms` solo admite sistemas destino de PC/consolas modernas, no la propia Xbox 360).
+
+## D. Pendiente de más pasadas
 - Fuentes externas aún **no** recorridas: **PortMaster**, **heldgames.com**, **readonlymemo.com** (N64 recompiled/decomp), **F-Droid** (Games con repo fuente), **PortsDR**.
-- **1c**: revisar los ~1.200 repos que ya tenemos (release/tag, último commit, archivados, renombrados, 404, `Unknown` con sistema en README).
-- Para cada candidato de la sección A falta: tipo (port/recomp/decomp), plataforma destino, `originalSystem` (solo con README), licencia y estado.
+- **1c**: revisar los ~1.300 repos que ya tenemos (release/tag, último commit, archivados, renombrados, 404, `Unknown` con sistema en README). Primer caso corregido: `zeldawwhdrecompandroid` (plataforma, género y sistema estaban mal).
+
