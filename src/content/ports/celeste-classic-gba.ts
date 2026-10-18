@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const celesteClassicGba: Port = {
+  schema: "port",
+  id: "celeste-classic-gba",
+  title: "Celeste Classic (GBA)",
+  game: "Celeste Classic",
+  developers: ["JeffRuLz"],
+  publisher: "Maddy Thorson",
+  originalYear: 2016,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "open",
+  platforms: ["gba"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/JeffRuLz/Celeste-Classic-GBA"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "Celeste Classic (Maddy Thorson, 2016) running on gba through source port. Latest release: v1.2. The original game is free software, so no commercial copy is needed.",
+  notesEs: "Celeste Classic (Maddy Thorson, 2016) en gba mediante port de código. Última release: v1.2. El juego original es software libre, así que no hace falta una copia comercial.",
+};

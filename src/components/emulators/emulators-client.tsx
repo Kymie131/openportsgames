@@ -298,7 +298,7 @@ export function EmulatorsClient({ portsBySystem }: { portsBySystem: Record<strin
   );
 }
 
-const PLATFORM_LABEL: Record<EmulatorPlatform, string> = {
+const PLATFORM_LABEL: Partial<Record<EmulatorPlatform, string>> = {
   windows: "Windows",
   linux: "Linux",
   macos: "macOS",
@@ -353,7 +353,7 @@ function EmulatorCard({ emu, consoleName }: { emu: Emulator; consoleName?: strin
           <span className="text-foreground/70">{t.emulators.platformsLabel}:</span>
           {emu.platforms.map((p) => (
             <span key={p} className="rounded bg-surface-2 px-1.5 py-0.5">
-              {PLATFORM_LABEL[p]}
+              {PLATFORM_LABEL[p] ?? p}
             </span>
           ))}
         </span>

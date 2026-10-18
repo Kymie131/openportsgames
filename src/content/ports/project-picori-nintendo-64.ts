@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const projectPicoriNintendo64: Port = {
+  schema: "port",
+  id: "project-picori-nintendo-64",
+  title: "Project Picori (Nintendo 64)",
+  game: "The Legend of Zelda: The Minish Cap",
+  developers: ["999sian"],
+  publisher: "Nintendo",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["n64"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/999sian/picori-n64"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Game Boy Advance"],
+  notes: "The Legend of Zelda: The Minish Cap (Nintendo, 2004) running on n64 through source port. You need your own copy of the game.",
+  notesEs: "The Legend of Zelda: The Minish Cap (Nintendo, 2004) en n64 mediante port de código. Necesitas tu propia copia del juego.",
+};

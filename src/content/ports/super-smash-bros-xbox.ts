@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superSmashBrosXbox: Port = {
+  schema: "port",
+  id: "super-smash-bros-xbox",
+  title: "Super Smash Bros. (Xbox)",
+  game: "Super Smash Bros.",
+  developers: ["Team-Resurgent"],
+  publisher: "Nintendo",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["xbox"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Team-Resurgent/SSB-X"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  notes: "Super Smash Bros. (Nintendo, 1999) running on xbox through decompilation. You need your own copy of the game.",
+  notesEs: "Super Smash Bros. (Nintendo, 1999) en xbox mediante decompilación. Necesitas tu propia copia del juego.",
+};

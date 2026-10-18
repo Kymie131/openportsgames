@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superMarioSunshinePs5: Port = {
+  schema: "port",
+  id: "super-mario-sunshine-ps5",
+  title: "Super Mario Sunshine (PS5)",
+  game: "Super Mario Sunshine",
+  developers: ["griches"],
+  publisher: "Nintendo",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps5"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/griches/PS5_Sunshine"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  notes: "Super Mario Sunshine (Nintendo, 2002) running on ps5 through static recompilation. Latest release: v0.10.0. You need your own copy of the game.",
+  notesEs: "Super Mario Sunshine (Nintendo, 2002) en ps5 mediante recompilación estática. Última release: v0.10.0. Necesitas tu propia copia del juego.",
+};

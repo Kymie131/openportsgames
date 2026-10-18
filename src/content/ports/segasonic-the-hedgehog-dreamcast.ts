@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const segasonicTheHedgehogDreamcast: Port = {
+  schema: "port",
+  id: "segasonic-the-hedgehog-dreamcast",
+  title: "SegaSonic the Hedgehog (Dreamcast)",
+  game: "SegaSonic the Hedgehog",
+  developers: ["FlowerGenius"],
+  publisher: "Sega",
+  originalYear: 1993,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["dreamcast"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/FlowerGenius/SegaSonicDreams"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Arcade"],
+  notes: "SegaSonic the Hedgehog (Sega, 1993) running on dreamcast through source port. You need your own copy of the game.",
+  notesEs: "SegaSonic the Hedgehog (Sega, 1993) en dreamcast mediante port de código. Necesitas tu propia copia del juego.",
+};

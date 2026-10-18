@@ -1609,6 +1609,39 @@ import { moonPc } from "./moon-pc";
 import { virtualHydlidePc } from "./virtual-hydlide-pc";
 import { deltarunePs3 } from "./deltarune-ps3";
 
+import { kungFuMasterSnes } from "./kung-fu-master-snes";
+import { superSmashBrosXbox } from "./super-smash-bros-xbox";
+import { marioKart64Xbox } from "./mario-kart-64-xbox";
+import { rockbotDreamcast } from "./rockbot-dreamcast";
+import { segasonicTheHedgehogDreamcast } from "./segasonic-the-hedgehog-dreamcast";
+import { celesteClassicGba } from "./celeste-classic-gba";
+import { coupSegaSaturn } from "./coup-sega-saturn";
+import { projectPicoriNintendo64 } from "./project-picori-nintendo-64";
+import { starshipMadnessNintendo64 } from "./starship-madness-nintendo-64";
+import { katawaShoujoGba } from "./katawa-shoujo-gba";
+import { superMarioSunshinePs5 } from "./super-mario-sunshine-ps5";
+import { wweSmackdownVsRaw2008Ps5 } from "./wwe-smackdown-vs-raw-2008-ps5";
+import { halfLifePs5 } from "./half-life-ps5";
+import { pokemonRedBlue3dsGen1recomp } from "./pokemon-red-blue-3ds-gen1recomp";
+import { theLedgePsVita } from "./the-ledge-ps-vita";
+import { afraidOfMonstersPsVita } from "./afraid-of-monsters-ps-vita";
+import { brotatoPsVita } from "./brotato-ps-vita";
+import { iWannaReachTheUnityPsVita } from "./i-wanna-reach-the-unity-ps-vita";
+import { elliSHouse3dsPspGba } from "./elli-s-house-3ds-psp-gba";
+import { emazingMazes3ds } from "./emazing-mazes-3ds";
+import { timeTraveler3ds } from "./time-traveler-3ds";
+import { theSmiler3ds } from "./the-smiler-3ds";
+import { tilePuzzleUltimate3ds } from "./tile-puzzle-ultimate-3ds";
+import { daytonaUsa3dsPcAndroid } from "./daytona-usa-3ds-pc-android";
+import { doom3dsPrboom } from "./doom-3ds-prboom";
+import { jezzball3ds } from "./jezzball-3ds";
+import { blockoutIi3ds } from "./blockout-ii-3ds";
+import { supertuxDs } from "./supertux-ds";
+import { cDogsSdlWii } from "./c-dogs-sdl-wii";
+import { ledheadWii } from "./ledhead-wii";
+import { superMarioWarWii } from "./super-mario-war-wii";
+import { theMazeWii } from "./the-maze-wii";
+
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -3202,4 +3235,36 @@ export const portCases: Port[] = [
   moonPc,
   virtualHydlidePc,
   deltarunePs3,
+  kungFuMasterSnes,
+  superSmashBrosXbox,
+  marioKart64Xbox,
+  rockbotDreamcast,
+  segasonicTheHedgehogDreamcast,
+  celesteClassicGba,
+  coupSegaSaturn,
+  projectPicoriNintendo64,
+  starshipMadnessNintendo64,
+  katawaShoujoGba,
+  superMarioSunshinePs5,
+  wweSmackdownVsRaw2008Ps5,
+  halfLifePs5,
+  pokemonRedBlue3dsGen1recomp,
+  theLedgePsVita,
+  afraidOfMonstersPsVita,
+  brotatoPsVita,
+  iWannaReachTheUnityPsVita,
+  elliSHouse3dsPspGba,
+  emazingMazes3ds,
+  timeTraveler3ds,
+  theSmiler3ds,
+  tilePuzzleUltimate3ds,
+  daytonaUsa3dsPcAndroid,
+  doom3dsPrboom,
+  jezzball3ds,
+  blockoutIi3ds,
+  supertuxDs,
+  cDogsSdlWii,
+  ledheadWii,
+  superMarioWarWii,
+  theMazeWii,
 ];

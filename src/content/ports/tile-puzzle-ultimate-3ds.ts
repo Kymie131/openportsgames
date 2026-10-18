@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tilePuzzleUltimate3ds: Port = {
+  schema: "port",
+  id: "tile-puzzle-ultimate-3ds",
+  title: "Tile Puzzle Ultimate (3DS)",
+  game: "Tile Puzzle Ultimate",
+  developers: ["Sharper-Dev"],
+  publisher: "Homebrew",
+  originalYear: 2013,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Sharper-Dev/Tile-Puzzle-Ultimate-For-3DS"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "Tile Puzzle Ultimate (Homebrew, 2013) running on Nintendo 3DS through source port. Latest release: 0.1.0. You need your own copy of the game.",
+  notesEs: "Tile Puzzle Ultimate (Homebrew, 2013) en Nintendo 3DS mediante port de código. Última release: 0.1.0. Necesitas tu propia copia del juego.",
+};

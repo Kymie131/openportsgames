@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const brotatoPsVita: Port = {
+  schema: "port",
+  id: "brotato-ps-vita",
+  title: "Brotato (PS Vita)",
+  game: "Brotato",
+  developers: ["tuptus887"],
+  publisher: "Blobfish",
+  originalYear: 2023,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/tuptus887/brotato-vita-3.7gd"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Brotato (Blobfish, 2023) running on PlayStation Vita through source port. You need your own copy of the game.",
+  notesEs: "Brotato (Blobfish, 2023) en PlayStation Vita mediante port de código. Necesitas tu propia copia del juego.",
+};

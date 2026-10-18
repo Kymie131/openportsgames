@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const theMazeWii: Port = {
+  schema: "port",
+  id: "the-maze-wii",
+  title: "The Maze (Wii)",
+  game: "The Maze",
+  developers: ["ponkis"],
+  publisher: "Winterrowd",
+  originalYear: 2009,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["wii"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ponkis/the-maze-wii"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "The Maze (Winterrowd, 2009) running on Wii through source port. You need your own copy of the game.",
+  notesEs: "The Maze (Winterrowd, 2009) en Wii mediante port de código. Necesitas tu propia copia del juego.",
+};

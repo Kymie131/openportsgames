@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const starshipMadnessNintendo64: Port = {
+  schema: "port",
+  id: "starship-madness-nintendo-64",
+  title: "Starship Madness (Nintendo 64)",
+  game: "Starship Madness",
+  developers: ["SpookyIluha"],
+  publisher: "Homebrew",
+  originalYear: 2015,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["n64"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/SpookyIluha/StarshipMadness64"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Dreamcast"],
+  notes: "Starship Madness (Homebrew, 2015) running on n64 through source port. Latest release: release_006. You need your own copy of the game.",
+  notesEs: "Starship Madness (Homebrew, 2015) en n64 mediante port de código. Última release: release_006. Necesitas tu propia copia del juego.",
+};

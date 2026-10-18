@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const theLedgePsVita: Port = {
+  schema: "port",
+  id: "the-ledge-ps-vita",
+  title: "The Ledge (PS Vita)",
+  game: "The Ledge",
+  developers: ["beaufortribbons"],
+  publisher: "Homebrew",
+  originalYear: 2022,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/beaufortribbons/The-Ledge-Vita"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "The Ledge (Homebrew, 2022) running on PlayStation Vita through source port. Latest release: v0.34. You need your own copy of the game.",
+  notesEs: "The Ledge (Homebrew, 2022) en PlayStation Vita mediante port de código. Última release: v0.34. Necesitas tu propia copia del juego.",
+};

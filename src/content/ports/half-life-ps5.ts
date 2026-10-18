@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const halfLifePs5: Port = {
+  schema: "port",
+  id: "half-life-ps5",
+  title: "Half-Life (PS5)",
+  game: "Half-Life",
+  developers: ["GordonProsperoMan"],
+  publisher: "Sierra On-Line",
+  originalYear: 1998,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps5"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/GordonProsperoMan/xash3d-ps5"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Half-Life (Sierra On-Line, 1998) running on ps5 through source port. Latest release: v1.3. You need your own copy of the game.",
+  notesEs: "Half-Life (Sierra On-Line, 1998) en ps5 mediante port de código. Última release: v1.3. Necesitas tu propia copia del juego.",
+};

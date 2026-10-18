@@ -18,6 +18,20 @@ export const SYSTEM_LABELS_BY_CONSOLE: Record<string, string[]> = {
   "wii-u": ["Wii U"],
   "playstation-4": ["PlayStation 4"],
   switch: ["Nintendo Switch", "Switch"],
+  playstation: ["PlayStation"],
+  "playstation-5": ["PlayStation 5"],
+  xbox: ["Xbox"],
+  "xbox-360": ["Xbox 360"],
+  nes: ["Nintendo Entertainment System"],
+  snes: ["Super Nintendo"],
+  "nintendo-64": ["Nintendo 64"],
+  "game-boy": ["Game Boy", "Game Boy / Game Boy Color"],
+  "game-boy-color": ["Game Boy Color", "Game Boy / Game Boy Color"],
+  "game-boy-advance": ["Game Boy Advance"],
+  "mega-drive": ["Sega Mega Drive / Genesis", "Sega 32X"],
+  "sega-saturn": ["Sega Saturn"],
+  dreamcast: ["Dreamcast"],
+  arcade: ["Arcade", "Neo Geo", "Namco System 22"],
 };
 
 /** One host that publishes projects for a console, GitHub or not. */

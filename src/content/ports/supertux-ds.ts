@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const supertuxDs: Port = {
+  schema: "port",
+  id: "supertux-ds",
+  title: "SuperTux (DS)",
+  game: "SuperTux",
+  developers: ["headshot2017"],
+  publisher: "SuperTux team",
+  originalYear: 2003,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "open",
+  platforms: ["ds"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/headshot2017/supertux-nds"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "SuperTux (SuperTux team, 2003) running on Nintendo DS through source port. The original game is free software, so no commercial copy is needed.",
+  notesEs: "SuperTux (SuperTux team, 2003) en Nintendo DS mediante port de código. El juego original es software libre, así que no hace falta una copia comercial.",
+};

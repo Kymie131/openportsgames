@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jezzball3ds: Port = {
+  schema: "port",
+  id: "jezzball-3ds",
+  title: "JezzBall (3DS)",
+  game: "JezzBall",
+  developers: ["raulbojalil"],
+  publisher: "Microsoft",
+  originalYear: 1992,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/raulbojalil/jezzball3ds"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "JezzBall (Microsoft, 1992) running on Nintendo 3DS through source port. You need your own copy of the game.",
+  notesEs: "JezzBall (Microsoft, 1992) en Nintendo 3DS mediante port de código. Necesitas tu propia copia del juego.",
+};

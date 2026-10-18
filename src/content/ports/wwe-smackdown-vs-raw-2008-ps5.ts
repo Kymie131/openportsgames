@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const wweSmackdownVsRaw2008Ps5: Port = {
+  schema: "port",
+  id: "wwe-smackdown-vs-raw-2008-ps5",
+  title: "WWE SmackDown vs. Raw 2008 (PS5)",
+  game: "WWE SmackDown vs. Raw 2008",
+  developers: ["elripalda"],
+  publisher: "THQ",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps5"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/elripalda/SvR2008-Recomp-PS5"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  notes: "WWE SmackDown vs. Raw 2008 (THQ, 2007) running on ps5 through static recompilation. Latest release: v1.0. You need your own copy of the game.",
+  notesEs: "WWE SmackDown vs. Raw 2008 (THQ, 2007) en ps5 mediante recompilación estática. Última release: v1.0. Necesitas tu propia copia del juego.",
+};

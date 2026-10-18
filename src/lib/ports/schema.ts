@@ -17,6 +17,20 @@ export const platformKeys = [
   "ps2",
   "ps3",
   "ps4",
+  "ps5",
+  "ps1",
+  "xbox",
+  "xbox360",
+  "nes",
+  "snes",
+  "n64",
+  "gb",
+  "gbc",
+  "gba",
+  "genesis",
+  "saturn",
+  "dreamcast",
+  "arcade",
 ] as const;
 export type PlatformKey = (typeof platformKeys)[number];
 export const portTypes = [

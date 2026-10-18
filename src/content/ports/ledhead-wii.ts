@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ledheadWii: Port = {
+  schema: "port",
+  id: "ledhead-wii",
+  title: "LedHEAD (Wii)",
+  game: "LedHEAD",
+  developers: ["nebiun"],
+  publisher: "Peter Hirschberg",
+  originalYear: 2001,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["wii"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/nebiun/ledHeadWii"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "LedHEAD (Peter Hirschberg, 2001) running on Wii through source port. Latest release: 1.2. You need your own copy of the game.",
+  notesEs: "LedHEAD (Peter Hirschberg, 2001) en Wii mediante port de código. Última release: 1.2. Necesitas tu propia copia del juego.",
+};

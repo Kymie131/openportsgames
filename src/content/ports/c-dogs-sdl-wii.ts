@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const cDogsSdlWii: Port = {
+  schema: "port",
+  id: "c-dogs-sdl-wii",
+  title: "C-Dogs SDL (Wii)",
+  game: "C-Dogs",
+  developers: ["insin"],
+  publisher: "Ronny Wester",
+  originalYear: 1997,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "open",
+  platforms: ["wii"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/insin/cdogs-wii"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["MS-DOS"],
+  notes: "C-Dogs (Ronny Wester, 1997) running on Wii through source port. The original game is free software, so no commercial copy is needed.",
+  notesEs: "C-Dogs (Ronny Wester, 1997) en Wii mediante port de código. El juego original es software libre, así que no hace falta una copia comercial.",
+};

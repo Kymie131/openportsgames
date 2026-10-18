@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const emazingMazes3ds: Port = {
+  schema: "port",
+  id: "emazing-mazes-3ds",
+  title: "eMazing Mazes (3DS)",
+  game: "eMazing Mazes",
+  developers: ["Chiroptelia"],
+  publisher: "eGames",
+  originalYear: 2003,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Chiroptelia/Maze3D"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "eMazing Mazes (eGames, 2003) running on Nintendo 3DS through source port. Latest release: v1.0.0. You need your own copy of the game.",
+  notesEs: "eMazing Mazes (eGames, 2003) en Nintendo 3DS mediante port de código. Última release: v1.0.0. Necesitas tu propia copia del juego.",
+};
