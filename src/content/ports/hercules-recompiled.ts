@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const herculesRecompiled: Port = {
+  schema: "port",
+  id: "hercules-recompiled",
+  title: "Disney's Hercules Recompiled",
+  game: "Disney's Hercules",
+  developers: ["obaidr1"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 1997,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/obaidr1/hercules-recompiled"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  notes: "Native PC port of Disney's Hercules (PlayStation, 1997, SCES-00893) built from the game's decompilation, plus the decompilation itself. No game data included. Latest release: v0.5.5.",
+  notesEs: "Port nativo a PC de Disney's Hercules (PlayStation, 1997, SCES-00893) construido a partir de la decompilación del juego, más la propia decompilación. No incluye datos del juego. Última release: v0.5.5.",
+};

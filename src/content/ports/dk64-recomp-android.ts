@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const dk64RecompAndroid: Port = {
+  schema: "port",
+  id: "dk64-recomp-android",
+  title: "Donkey Kong 64 (Android)",
+  game: "Donkey Kong 64",
+  developers: ["deivid22srk"],
+  publisher: "Nintendo",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/deivid22srk/dk64-recomp-android"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  related: ["dk64-recompiled"],
+  notes: "Android port (NDK) of Donkey Kong 64: Recompiled, with RT64/Vulkan, N64ModernRuntime and SDL2. Bring your own NTSC-U 1.0 ROM. Latest release: v1.0.3-android-r7.",
+  notesEs: "Port para Android (NDK) de Donkey Kong 64: Recompiled, con RT64/Vulkan, N64ModernRuntime y SDL2. Aporta tu propia ROM NTSC-U 1.0. Última release: v1.0.3-android-r7.",
+};

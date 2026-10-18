@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mother3RecompAndroid: Port = {
+  schema: "port",
+  id: "mother-3-recomp-android",
+  title: "MOTHER 3 Recompiled (PC/Android)",
+  game: "MOTHER 3",
+  developers: ["josiahg2502-glitch"],
+  publisher: "Nintendo",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/josiahg2502-glitch/Mother3Recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Game Boy Advance"],
+  related: ["mother-3-recomp"],
+  notes: "MOTHER 3 (Game Boy Advance, 2006) for Windows, Linux and Android, with support for the fan translation patches. Bring your own ROM. Latest release: v1.0.6.",
+  notesEs: "MOTHER 3 (Game Boy Advance, 2006) para Windows, Linux y Android, con soporte de los parches de traducción de los fans. Aporta tu propia ROM. Última release: v1.0.6.",
+};

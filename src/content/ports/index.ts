@@ -1307,6 +1307,68 @@ import { isaacRebirthAndroid } from "./isaac-rebirth-android";
 import { isaacFlashRecomp } from "./isaac-flash-recomp";
 import { windWakerHdAndroidPlus } from "./wind-waker-hd-android-plus";
 
+import { psydoom } from "./psydoom";
+import { sm64plus } from "./sm64plus";
+import { sm64coopdx } from "./sm64coopdx";
+import { projectPicori } from "./project-picori";
+import { medievilRecompBlacklabel } from "./medievil-recomp-blacklabel";
+
+import { diddyKongRacingGoldenballoon } from "./diddy-kong-racing-goldenballoon";
+import { pilotwings64Birdman64 } from "./pilotwings-64-birdman64";
+import { bloodbornePcWindows } from "./bloodborne-pc-windows";
+import { bluewake } from "./bluewake";
+import { kartpad } from "./kartpad";
+import { maskpad } from "./maskpad";
+import { sunpad } from "./sunpad";
+import { ballpad } from "./ballpad";
+import { goldeneye007Recomp } from "./goldeneye-007-recomp";
+import { herculesRecompiled } from "./hercules-recompiled";
+import { jetSetRadioFutureUnleashed } from "./jet-set-radio-future-unleashed";
+import { mother3RecompAndroid } from "./mother-3-recomp-android";
+import { nfsMostWantedAndroid } from "./nfs-most-wanted-android";
+import { castlevaniaSotnRecompNocturne } from "./castlevania-sotn-recomp-nocturne";
+import { ridgeRacer6Recomp } from "./ridge-racer-6-recomp";
+import { budokaiTenkaichi3Pc } from "./budokai-tenkaichi-3-pc";
+import { valkyrieProfileRecompEd1z19 } from "./valkyrie-profile-recomp-ed1z19";
+import { wetRecompWindows } from "./wet-recomp-windows";
+import { blastCorpsPowerDozer } from "./blast-corps-power-dozer";
+import { jackieChanStuntmasterRechan } from "./jackie-chan-stuntmaster-rechan";
+import { castlevaniaLegacyOfDarknessRecomp } from "./castlevania-legacy-of-darkness-recomp";
+import { harvestMoon64Android } from "./harvest-moon-64-android";
+import { dk64RecompAndroid } from "./dk64-recomp-android";
+import { zelda3Android } from "./zelda3-android";
+import { systemShockAndroid } from "./system-shock-android";
+import { animalCrossingGcAndroid } from "./animal-crossing-gc-android";
+import { paperMarioRecut } from "./paper-mario-recut";
+import { smaRemasteredAndroid } from "./sma-remastered-android";
+import { tenchuStealthAssassinsRecompHero } from "./tenchu-stealth-assassins-recomp-hero";
+import { alienResurrectionRecompHero } from "./alien-resurrection-recomp-hero";
+import { metalSlugXRecompTechnically } from "./metal-slug-x-recomp-technically";
+
+import { castlevania64Recomp } from "./castlevania-64-recomp";
+
+import { endlessSkyAndroid } from "./endless-sky-android";
+import { projectR } from "./project-r";
+import { streetsOfRage2NewEra } from "./streets-of-rage-2-new-era";
+
+import { ctrNativeAndroid } from "./ctr-native-android";
+import { doomRpgRe } from "./doom-rpg-re";
+import { doomIiRpgRe } from "./doom-ii-rpg-re";
+import { marioParty4PcZeranemesis } from "./mario-party-4-pc-zeranemesis";
+import { partyboard } from "./partyboard";
+import { perfectDarkAndroid } from "./perfect-dark-android";
+import { raceWave46 } from "./race-wave-46";
+import { waveRace64Decomp } from "./wave-race-64-decomp";
+import { naughtyBearPanicInParadiseRecomp } from "./naughty-bear-panic-in-paradise-recomp";
+import { shipOfHarkinianAndroid } from "./ship-of-harkinian-android";
+import { strikersWiicompiled } from "./strikers-wiicompiled";
+import { castlevaniaSotnRecompSergiomanzur } from "./castlevania-sotn-recomp-sergiomanzur";
+import { minishCapAndroid } from "./minish-cap-android";
+import { waveRace64RecompDaniel } from "./wave-race-64-recomp-daniel";
+import { wipeoutXlRecompNjh } from "./wipeout-xl-recomp-njh";
+import { zelda64RecompAndroid } from "./zelda64-recomp-android";
+import { zeldaWwhdRecompAndroid } from "./zelda-wwhd-recomp-android";
+
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -2611,4 +2673,61 @@ export const portCases: Port[] = [
   isaacRebirthAndroid,
   isaacFlashRecomp,
   windWakerHdAndroidPlus,
+  psydoom,
+  sm64plus,
+  sm64coopdx,
+  projectPicori,
+  medievilRecompBlacklabel,
+  diddyKongRacingGoldenballoon,
+  pilotwings64Birdman64,
+  bloodbornePcWindows,
+  bluewake,
+  kartpad,
+  maskpad,
+  sunpad,
+  ballpad,
+  goldeneye007Recomp,
+  herculesRecompiled,
+  jetSetRadioFutureUnleashed,
+  mother3RecompAndroid,
+  nfsMostWantedAndroid,
+  castlevaniaSotnRecompNocturne,
+  ridgeRacer6Recomp,
+  budokaiTenkaichi3Pc,
+  valkyrieProfileRecompEd1z19,
+  wetRecompWindows,
+  blastCorpsPowerDozer,
+  jackieChanStuntmasterRechan,
+  castlevaniaLegacyOfDarknessRecomp,
+  harvestMoon64Android,
+  dk64RecompAndroid,
+  zelda3Android,
+  systemShockAndroid,
+  animalCrossingGcAndroid,
+  paperMarioRecut,
+  smaRemasteredAndroid,
+  tenchuStealthAssassinsRecompHero,
+  alienResurrectionRecompHero,
+  metalSlugXRecompTechnically,
+  castlevania64Recomp,
+  endlessSkyAndroid,
+  projectR,
+  streetsOfRage2NewEra,
+  ctrNativeAndroid,
+  doomRpgRe,
+  doomIiRpgRe,
+  marioParty4PcZeranemesis,
+  partyboard,
+  perfectDarkAndroid,
+  raceWave46,
+  waveRace64Decomp,
+  naughtyBearPanicInParadiseRecomp,
+  shipOfHarkinianAndroid,
+  strikersWiicompiled,
+  castlevaniaSotnRecompSergiomanzur,
+  minishCapAndroid,
+  waveRace64RecompDaniel,
+  wipeoutXlRecompNjh,
+  zelda64RecompAndroid,
+  zeldaWwhdRecompAndroid,
 ];

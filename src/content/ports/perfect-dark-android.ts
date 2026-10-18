@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const perfectDarkAndroid: Port = {
+  schema: "port",
+  id: "perfect-dark-android",
+  title: "Perfect Dark (Android)",
+  game: "Perfect Dark",
+  developers: ["izzy2lost"],
+  publisher: "Rare",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/izzy2lost/perfect_dark"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  related: ["perfect-dark-port"],
+  notes: "Android port of the n64decomp/perfect_dark port of Perfect Dark (Nintendo 64, 2000). Work in progress. Latest release: 2.0.0.",
+  notesEs: "Port para Android del port n64decomp/perfect_dark de Perfect Dark (Nintendo 64, 2000). En desarrollo. Última release: 2.0.0.",
+};

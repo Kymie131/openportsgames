@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const smaRemasteredAndroid: Port = {
+  schema: "port",
+  id: "sma-remastered-android",
+  title: "Super Mario Bros. Remastered (Android)",
+  game: "Super Mario Bros.",
+  developers: ["mircowuffwuff"],
+  publisher: "Nintendo",
+  originalYear: 1985,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/mircowuffwuff/super-mario-bros.-remastered-android"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo Entertainment System"],
+  related: ["super-mario-bros-remastered"],
+  notes: "Android port of Super Mario Bros. Remastered by JoeMama and their team. Latest release: 9.",
+  notesEs: "Port para Android de Super Mario Bros. Remastered de JoeMama y su equipo. Última release: 9.",
+};

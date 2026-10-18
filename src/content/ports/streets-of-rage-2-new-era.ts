@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const streetsOfRage2NewEra: Port = {
+  schema: "port",
+  id: "streets-of-rage-2-new-era",
+  title: "Streets of Rage 2 New Era",
+  game: "Streets of Rage 2",
+  developers: ["SOR2 New Era team"],
+  publisher: "Sega",
+  originalYear: 1992,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://www.sor2newera.com/"],
+  license: { spdx: "NOASSERTION", note: "license not declared on the project page" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Sega Mega Drive / Genesis"],
+  notes: "Fan-made port of Streets of Rage 2 to modern platforms: the game was ported manually through reverse engineering, and the project describes it as the best version of the game ever. Distributed from its own site (v3.1.0).",
+  notesEs: "Port hecho por fans de Streets of Rage 2 a plataformas modernas: el juego se portó a mano mediante ingeniería inversa y el proyecto lo describe como la mejor versión del juego hasta ahora. Se distribuye desde su propia web (v3.1.0).",
+};

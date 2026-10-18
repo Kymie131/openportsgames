@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const minishCapAndroid: Port = {
+  schema: "port",
+  id: "minish-cap-android",
+  title: "Minish Cap (Android, dual screen)",
+  game: "The Legend of Zelda: The Minish Cap",
+  developers: ["samyost1"],
+  publisher: "Nintendo",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/samyost1/tmc-android"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Game Boy Advance"],
+  related: ["project-picori","minish-cap"],
+  notes: "Minish Cap dual-screen mod for the AYN Thor, with a bottom-screen map, quest status and touch inventory decoded from the game. Latest release: v1.2.",
+  notesEs: "Mod de doble pantalla de Minish Cap para la AYN Thor, con mapa, estado de misiones e inventario táctil decodificados del juego. Última release: v1.2.",
+};

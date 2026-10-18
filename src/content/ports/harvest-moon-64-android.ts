@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const harvestMoon64Android: Port = {
+  schema: "port",
+  id: "harvest-moon-64-android",
+  title: "Harvest Moon 64 (Android)",
+  game: "Harvest Moon 64",
+  developers: ["igawa6"],
+  publisher: "Natsume",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/igawa6/HarvestMoon64Recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  related: ["harvest-moon-64-recomp"],
+  notes: "Android port of Harvest Moon 64 (Nintendo 64, 1999) made with N64: Recompiled. Bring your own ROM. Latest release: v0.2.0.",
+  notesEs: "Port para Android de Harvest Moon 64 (Nintendo 64, 1999) hecho con N64: Recompiled. Aporta tu propia ROM. Última release: v0.2.0.",
+};

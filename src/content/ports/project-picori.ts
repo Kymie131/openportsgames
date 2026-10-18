@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const projectPicori: Port = {
+  schema: "port",
+  id: "project-picori",
+  title: "Project Picori (Minish Cap PC)",
+  game: "The Legend of Zelda: The Minish Cap",
+  developers: ["999sian"],
+  publisher: "Nintendo",
+  originalYear: 2004,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos","android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/999sian/tmc"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Game Boy Advance"],
+  related: ["minish-cap","zelda-tmc-3ds"],
+  notes: "Project Picori: native port of The Legend of Zelda: The Minish Cap (GBA, 2004) built on the game's decompilation, with SDL3, a vendored software PPU renderer and agbplay audio. Work in progress; release v0.9.5 ships Windows, Linux and macOS builds plus an Android APK. You need your own ROM.",
+  notesEs: "Project Picori: port nativo de The Legend of Zelda: The Minish Cap (GBA, 2004) construido sobre la decompilación del juego, con SDL3, un renderizador PPU por software propio y audio agbplay. En desarrollo; la release v0.9.5 publica builds para Windows, Linux y macOS más un APK de Android. Necesitas tu propia ROM.",
+};

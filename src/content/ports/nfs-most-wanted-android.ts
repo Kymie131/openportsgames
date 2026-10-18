@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nfsMostWantedAndroid: Port = {
+  schema: "port",
+  id: "nfs-most-wanted-android",
+  title: "Need for Speed: Most Wanted (Android)",
+  game: "Need for Speed: Most Wanted",
+  developers: ["codepdbh"],
+  publisher: "Electronic Arts",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/codepdbh/nfsmw-android"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  related: ["nfs-most-wanted-recomp","nfs-most-wanted-decomp"],
+  notes: "Need for Speed: Most Wanted (2005) running natively on Android through static recompilation. Bring your own game files. Latest release: v0.6.0.",
+  notesEs: "Need for Speed: Most Wanted (2005) funcionando de forma nativa en Android mediante recompilación estática. Aporta tus propios archivos del juego. Última release: v0.6.0.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const wetRecompWindows: Port = {
+  schema: "port",
+  id: "wet-recomp-windows",
+  title: "WET Recomp (Windows)",
+  game: "WET",
+  developers: ["Supermedo"],
+  publisher: "Bethesda Softworks",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Supermedo/wet-recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  related: ["wet-recomp"],
+  notes: "Fan PC port of WET (Xbox 360, 2009) using ReXGlue. Does not include game files. Latest release: v0.6.0.",
+  notesEs: "Port de PC hecho por fans de WET (Xbox 360, 2009) usando ReXGlue. No incluye archivos del juego. Última release: v0.6.0.",
+};

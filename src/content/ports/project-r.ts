@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const projectR: Port = {
+  schema: "port",
+  id: "project-r",
+  title: "Project R (San Francisco Rush)",
+  game: "San Francisco Rush",
+  developers: ["t3hd0gg"],
+  publisher: "Atari Games",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://t3hd0gg.com/project-r/"],
+  license: { spdx: "NOASSERTION", note: "license not declared on the project page" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Arcade"],
+  notes: "Project R covers San Francisco Rush: The Rock - Alcatraz Edition and San Francisco Rush 2049, the arcade racing games, reverse engineered into native PC builds. Distributed from the project's own site (v0.7.1, July 2025). The project does not publish source code on GitHub.",
+  notesEs: "Project R cubre San Francisco Rush: The Rock - Alcatraz Edition y San Francisco Rush 2049, los juegos de carreras de arcade, reescritos a builds nativos de PC. Se distribuye desde la propia web del proyecto (v0.7.1, julio de 2025). El proyecto no publica el código fuente en GitHub.",
+};

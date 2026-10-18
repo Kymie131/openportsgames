@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const kartpad: Port = {
+  schema: "port",
+  id: "kartpad",
+  title: "KartPad (Mario Kart Wii)",
+  game: "Mario Kart Wii",
+  developers: ["chrissotraidis"],
+  publisher: "Nintendo",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ios","android","macos"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/chrissotraidis/kartpad"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Wii"],
+  related: ["mario-kart-wii-android"],
+  notes: "Mario Kart Wii and Retro Rewind running natively on iPhone, iPad, Apple TV, Mac and Android. Built on the Wii decompilation work, not an emulator. Bring your own game. Latest release: v0.8.3.",
+  notesEs: "Mario Kart Wii y Retro Rewind funcionando de forma nativa en iPhone, iPad, Apple TV, Mac y Android. Construido sobre el trabajo de decompilación de Wii, no es un emulador. Aporta tu propio juego. Última release: v0.8.3.",
+};

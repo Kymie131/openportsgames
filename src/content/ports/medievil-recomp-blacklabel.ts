@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const medievilRecompBlacklabel: Port = {
+  schema: "port",
+  id: "medievil-recomp-blacklabel",
+  title: "MediEvil Recomp (BlackLabelHQ)",
+  game: "MediEvil",
+  developers: ["BlackLabelHQ"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 1998,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/BlackLabelHQ/MediEvilRecomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  related: ["medievil-recomp","medievil-ii-recomp"],
+  notes: "Static recompilation of the USA PlayStation release of MediEvil by the BlackLabelHQ team. Open beta: some features are still incomplete. The README states the code is written by hand with no AI involvement. Release v0.2b ships Windows, Linux and macOS builds.",
+  notesEs: "Recompilación estática de la versión USA de PlayStation de MediEvil por el equipo BlackLabelHQ. Beta abierta: algunas funciones aún están incompletas. El README afirma que el código está escrito a mano sin intervención de IA. La release v0.2b publica builds para Windows, Linux y macOS.",
+};

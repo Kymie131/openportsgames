@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const blastCorpsPowerDozer: Port = {
+  schema: "port",
+  id: "blast-corps-power-dozer",
+  title: "Power Dozer (Blast Corps)",
+  game: "Blast Corps",
+  developers: ["djultra64"],
+  publisher: "Nintendo",
+  originalYear: 1997,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/djultra64/Power-Dozer"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  notes: "Power Dozer: native port of Blast Corps (Nintendo 64, 1997) using static recompilation for Linux and Windows. Bring your own ROM. Latest release: v0.84.",
+  notesEs: "Power Dozer: port nativo de Blast Corps (Nintendo 64, 1997) mediante recompilación estática para Linux y Windows. Aporta tu propia ROM. Última release: v0.84.",
+};

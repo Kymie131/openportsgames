@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sm64plus: Port = {
+  schema: "port",
+  id: "sm64plus",
+  title: "SM64Plus",
+  game: "Super Mario 64",
+  developers: ["MorsGames"],
+  publisher: "Nintendo",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/MorsGames/sm64plus"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  related: ["sm64ex","sm64coopdx"],
+  notes: "Fork of the Super Mario 64 PC port focused on quality of life and customisation: more responsive controls, an improved camera, an extended moveset, extra modes and 60 FPS interpolation. The launcher is distributed from MFGG and Linux builds from the project's Discord.",
+  notesEs: "Fork del port de PC de Super Mario 64 centrado en calidad de vida y personalización: controles más ágiles, cámara mejorada, moveset ampliado, modos extra e interpolación a 60 FPS. El launcher se distribuye desde MFGG y las builds de Linux desde el Discord del proyecto.",
+};

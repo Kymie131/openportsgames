@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const naughtyBearPanicInParadiseRecomp: Port = {
+  schema: "port",
+  id: "naughty-bear-panic-in-paradise-recomp",
+  title: "Naughty Bear: Panic in Paradise (PC)",
+  game: "Naughty Bear: Panic in Paradise",
+  developers: ["MaxDeadBear"],
+  publisher: "505 Games",
+  originalYear: 2012,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/MaxDeadBear/restuff_inParadise"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  related: ["naughty-bear-restuff"],
+  notes: "Recompilation project for Naughty Bear: Panic in Paradise (Xbox 360, 2012). Latest release: release_v1.1.",
+  notesEs: "Proyecto de recompilación de Naughty Bear: Panic in Paradise (Xbox 360, 2012). Última release: release_v1.1.",
+};

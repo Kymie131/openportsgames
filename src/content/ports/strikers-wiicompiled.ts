@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const strikersWiicompiled: Port = {
+  schema: "port",
+  id: "strikers-wiicompiled",
+  title: "Mario Strikers Charged (WiiCompiled)",
+  game: "Mario Strikers Charged",
+  developers: ["BlackAndBlue95"],
+  publisher: "Nintendo",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/BlackAndBlue95/Strikers-WiiCompiled"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Wii"],
+  related: ["mario-strikers-charged-recomp"],
+  notes: "Native PC port of Mario Strikers Charged (Wii, 2007) via static recompilation, a fork of WiiCompiled. No game data included.",
+  notesEs: "Port nativo a PC de Mario Strikers Charged (Wii, 2007) mediante recompilación estática, un fork de WiiCompiled. No incluye datos del juego.",
+};

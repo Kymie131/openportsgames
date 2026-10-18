@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const valkyrieProfileRecompEd1z19: Port = {
+  schema: "port",
+  id: "valkyrie-profile-recomp-ed1z19",
+  title: "Valkyrie Profile Recompiled (Ed1z19)",
+  game: "Valkyrie Profile",
+  developers: ["Ed1z19"],
+  publisher: "Enix",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Ed1z19/ValkyrieRecomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  related: ["valkyrie-profile-recomp"],
+  notes: "Native PC recompilation of Valkyrie Profile (PlayStation, 1999) powered by PSXRecomp. Bring your own disc. Latest release: v1.0.1.",
+  notesEs: "Recompilación nativa para PC de Valkyrie Profile (PlayStation, 1999) con PSXRecomp. Aporta tu propio disco. Última release: v1.0.1.",
+};

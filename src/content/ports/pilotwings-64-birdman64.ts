@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pilotwings64Birdman64: Port = {
+  schema: "port",
+  id: "pilotwings-64-birdman64",
+  title: "Birdman64 (Pilotwings 64)",
+  game: "Pilotwings 64",
+  developers: ["NoahVl"],
+  publisher: "Nintendo",
+  originalYear: 1996,
+  portType: "recompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/NoahVl/Birdman64"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  related: ["pilotwings-64-recomp"],
+  notes: "Pilotwings 64 (Nintendo 64, 1996) as a native PC game for Windows and Linux: widescreen, 144 Hz and beyond, and gamepad support. Bring your own ROM; no emulator involved. Latest release: v1.3.0.",
+  notesEs: "Pilotwings 64 (Nintendo 64, 1996) como juego nativo de PC para Windows y Linux: panorámico, 144 Hz o más y soporte de mando. Aporta tu propia ROM; sin emulador. Última release: v1.3.0.",
+};

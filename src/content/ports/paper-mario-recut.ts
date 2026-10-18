@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const paperMarioRecut: Port = {
+  schema: "port",
+  id: "paper-mario-recut",
+  title: "Paper Mario ReCut",
+  game: "Paper Mario",
+  developers: ["SMCGames"],
+  publisher: "Nintendo",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/SMCGames/Paper-Mario-ReCut"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  related: ["paper-mario-decomp","paper-mario-paperboat"],
+  notes: "A PC port of Paper Mario (Nintendo 64, 2000) built on the game's decompilation. Work in progress, no release yet.",
+  notesEs: "Port a PC de Paper Mario (Nintendo 64, 2000) construido sobre la decompilación del juego. En desarrollo, sin release todavía.",
+};

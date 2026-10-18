@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ridgeRacer6Recomp: Port = {
+  schema: "port",
+  id: "ridge-racer-6-recomp",
+  title: "Ridge Racer 6 Recompilation",
+  game: "Ridge Racer 6",
+  developers: ["Sirhalo23"],
+  publisher: "Namco",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Sirhalo23/RidgeRacer6-Recompilation"],
+  license: { spdx: "BSD-3-Clause" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  notes: "Recompilation of the Xbox 360 release of Ridge Racer 6 for PC. Work in progress. Latest release: v0.1.5.",
+  notesEs: "Recompilación de la versión de Xbox 360 de Ridge Racer 6 para PC. En desarrollo. Última release: v0.1.5.",
+};

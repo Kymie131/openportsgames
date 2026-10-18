@@ -15,7 +15,10 @@ export const ghostship: Port = {
   platforms: ["windows", "linux", "macos", "android", "ios", "switch"],
   status: "beta",
   release: { version: null, date: null },
-  sources: ["https://www.harbourmasters.org/game/ghostship"],
+  sources: [
+    "https://github.com/HarbourMasters/Ghostship",
+    "https://www.harbourmasters.org/game/ghostship",
+  ],
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
