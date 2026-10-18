@@ -1,9 +1,9 @@
 import type { Port } from "@/lib/ports/schema";
 
-export const unofficialPortAndroid: Port = {
+export const lookOutsideAndroid: Port = {
   schema: "port",
-  id: "unofficial-port-android",
-  title: "Unofficial Port (Android)",
+  id: "look-outside-android",
+  title: "Look Outside (Android)",
   game: "Look Outside",
   developers: ["Guixs232"],
   publisher: "Kowloon Nights",

@@ -1,9 +1,9 @@
 import type { Port } from "@/lib/ports/schema";
 
-export const unofficialPort: Port = {
+export const infiniteBlade2Android: Port = {
   schema: "port",
-  id: "unofficial-port",
-  title: "Unofficial Port",
+  id: "infinite-blade-2-android",
+  title: "Infinite Blade II (Android)",
   game: "Infinite Blade II",
   developers: ["jelqedagain"],
   publisher: "Infinite Blade",

@@ -1,9 +1,9 @@
 import type { Port } from "@/lib/ports/schema";
 
-export const superMarioBrosRemasteredAndroid1362: Port = {
+export const superMarioBrosRemasteredAndroid: Port = {
   schema: "port",
-  id: "super-mario-bros-remastered-android-1362",
-  title: "Super Mario Bros. Remastered (Android) 1362",
+  id: "super-mario-bros-remastered-android",
+  title: "Super Mario Bros. Remastered (Android, mircey)",
   game: "Super Mario Bros.",
   developers: ["mircey"],
   publisher: "Nintendo",

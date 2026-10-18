@@ -1,10 +1,10 @@
 import type { Port } from "@/lib/ports/schema";
 
-export const unofficialPortAndroid1460: Port = {
+export const pokemonSurvivorBurstAndroid: Port = {
   schema: "port",
-  id: "unofficial-port-android-1460",
-  title: "Unofficial Port (Android) 1460",
-  game: "Pokemon Survivor Burst",
+  id: "pokemon-survivor-burst-android",
+  title: "Pokémon Survivor Burst (Android)",
+  game: "Pokémon Survivor Burst",
   developers: ["TryTheSauceBoss"],
   publisher: "TryTheSauceBoss",
   originalYear: 2024,

@@ -1,9 +1,9 @@
 import type { Port } from "@/lib/ports/schema";
 
-export const sm64coopdx2: Port = {
+export const sm64coopdxAndroid: Port = {
   schema: "port",
-  id: "sm64coopdx-2",
-  title: "SM64coopdx",
+  id: "sm64coopdx-android",
+  title: "sm64coopdx (Android)",
   game: "Super Mario 64",
   developers: ["ManIsCat2"],
   publisher: "Nintendo",

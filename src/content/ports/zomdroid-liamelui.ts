@@ -1,9 +1,9 @@
 import type { Port } from "@/lib/ports/schema";
 
-export const zomdroidAndroid: Port = {
+export const zomdroidLiamelui: Port = {
   schema: "port",
-  id: "zomdroid-android",
-  title: "Zomdroid (Android)",
+  id: "zomdroid-liamelui",
+  title: "Zomdroid (liamelui)",
   game: "Project Zomboid",
   developers: ["liamelui"],
   publisher: "The Indie Stone",

@@ -1369,7 +1369,7 @@ import { wipeoutXlRecompNjh } from "./wipeout-xl-recomp-njh";
 import { zelda64RecompAndroid } from "./zelda64-recomp-android";
 import { zeldaWwhdRecompAndroid } from "./zelda-wwhd-recomp-android";
 
-import { superMarioBrosRemasteredAndroid1362 } from "./super-mario-bros-remastered-android-1362";
+import { superMarioBrosRemasteredAndroid } from "./super-mario-bros-remastered-android";
 import { zeldaIi2pSplitscreenAndroid } from "./zelda-ii-2p-splitscreen-android";
 import { dragonBallZSuperSaiyaDensetsuSnesDecomp } from "./dragon-ball-z-super-saiya-densetsu-snes-decomp";
 import { zelda3launcher } from "./zelda3launcher";
@@ -1385,7 +1385,7 @@ import { megaman64RecompMobile } from "./megaman-64-recomp-mobile";
 import { paperboatAndroid } from "./paperboat-android";
 import { classicCoreEngines } from "./classic-core-engines";
 import { starshipAndroid } from "./starship-android";
-import { sm64coopdx2 } from "./sm64coopdx-2";
+import { sm64coopdxAndroid } from "./sm64coopdx-android";
 import { ghostshipAndroid } from "./ghostship-android";
 import { shipwrightAndroidOutdated } from "./shipwright-android-outdated";
 import { shipwrightAndroid } from "./shipwright-android";
@@ -1457,9 +1457,9 @@ import { hexenIiClassicCoreEngines } from "./hexen-ii-classic-core-engines";
 import { hexenIiPortalOfPraevusClassicCoreEngines } from "./hexen-ii-portal-of-praevus-classic-core-engines";
 import { silksongandroidDualScren } from "./silksongandroid-dual-scren";
 import { silksongandroidachievementsDualScreen } from "./silksongandroidachievements-dual-screen";
-import { unofficialPort } from "./unofficial-port";
+import { infiniteBlade2Android } from "./infinite-blade-2-android";
 import { jazz2Ressurection } from "./jazz-2-ressurection";
-import { unofficialPortAndroid } from "./unofficial-port-android";
+import { lookOutsideAndroid } from "./look-outside-android";
 import { zalithlauncher2 } from "./zalithlauncher2";
 import { foldCraftLauncher } from "./fold-craft-launcher";
 import { mojoLauncher } from "./mojo-launcher";
@@ -1467,9 +1467,9 @@ import { pojavlauncher } from "./pojavlauncher";
 import { pvzPortable } from "./pvz-portable";
 import { pokemonReloadedEnAndroid } from "./pokemon-reloaded-en-android";
 import { showdownDsDualScreen } from "./showdown-ds-dual-screen";
-import { unofficialPortAndroid1460 } from "./unofficial-port-android-1460";
-import { zomdroid } from "./zomdroid";
-import { zomdroidAndroid } from "./zomdroid-android";
+import { pokemonSurvivorBurstAndroid } from "./pokemon-survivor-burst-android";
+import { zomdroidEtonedemid } from "./zomdroid-etonedemid";
+import { zomdroidLiamelui } from "./zomdroid-liamelui";
 import { quakeClassicCoreEngines } from "./quake-classic-core-engines";
 import { quakeScourgeOfArmagonClassicCoreEngines } from "./quake-scourge-of-armagon-classic-core-engines";
 import { quakeDissolutionOfEternityClassicCoreEngines } from "./quake-dissolution-of-eternity-classic-core-engines";
@@ -1483,9 +1483,9 @@ import { sts2MobileLauncher } from "./sts2-mobile-launcher";
 import { sonic1Forever } from "./sonic-1-forever";
 import { sonicManiaDecompilationAndroid } from "./sonic-mania-decompilation-android";
 import { spaceStation14Mobile } from "./space-station-14-mobile";
-import { daggerfallUnity2 } from "./daggerfall-unity-2";
+import { daggerfallUnityAndroid } from "./daggerfall-unity-android";
 import { corsixthAndroid } from "./corsixth-android";
-import { unofficialPortAndroid1478 } from "./unofficial-port-android-1478";
+import { theSimpsonsHitAndRunAndroid } from "./the-simpsons-hit-and-run-android";
 import { titanicGodot30thAnniversaryEdition } from "./titanic-godot-30th-anniversary-edition";
 import { ufo50AndroidUnofficial } from "./ufo-50-android-unofficial";
 import { woodyre } from "./woodyre";
@@ -2857,7 +2857,7 @@ export const portCases: Port[] = [
   wipeoutXlRecompNjh,
   zelda64RecompAndroid,
   zeldaWwhdRecompAndroid,
-  superMarioBrosRemasteredAndroid1362,
+  superMarioBrosRemasteredAndroid,
   zeldaIi2pSplitscreenAndroid,
   dragonBallZSuperSaiyaDensetsuSnesDecomp,
   zelda3launcher,
@@ -2873,7 +2873,7 @@ export const portCases: Port[] = [
   paperboatAndroid,
   classicCoreEngines,
   starshipAndroid,
-  sm64coopdx2,
+  sm64coopdxAndroid,
   ghostshipAndroid,
   shipwrightAndroidOutdated,
   shipwrightAndroid,
@@ -2945,9 +2945,9 @@ export const portCases: Port[] = [
   hexenIiPortalOfPraevusClassicCoreEngines,
   silksongandroidDualScren,
   silksongandroidachievementsDualScreen,
-  unofficialPort,
+  infiniteBlade2Android,
   jazz2Ressurection,
-  unofficialPortAndroid,
+  lookOutsideAndroid,
   zalithlauncher2,
   foldCraftLauncher,
   mojoLauncher,
@@ -2955,9 +2955,9 @@ export const portCases: Port[] = [
   pvzPortable,
   pokemonReloadedEnAndroid,
   showdownDsDualScreen,
-  unofficialPortAndroid1460,
-  zomdroid,
-  zomdroidAndroid,
+  pokemonSurvivorBurstAndroid,
+  zomdroidEtonedemid,
+  zomdroidLiamelui,
   quakeClassicCoreEngines,
   quakeScourgeOfArmagonClassicCoreEngines,
   quakeDissolutionOfEternityClassicCoreEngines,
@@ -2971,9 +2971,9 @@ export const portCases: Port[] = [
   sonic1Forever,
   sonicManiaDecompilationAndroid,
   spaceStation14Mobile,
-  daggerfallUnity2,
+  daggerfallUnityAndroid,
   corsixthAndroid,
-  unofficialPortAndroid1478,
+  theSimpsonsHitAndRunAndroid,
   titanicGodot30thAnniversaryEdition,
   ufo50AndroidUnofficial,
   woodyre,

@@ -1,9 +1,9 @@
 import type { Port } from "@/lib/ports/schema";
 
-export const unofficialPortAndroid1478: Port = {
+export const theSimpsonsHitAndRunAndroid: Port = {
   schema: "port",
-  id: "unofficial-port-android-1478",
-  title: "Unofficial Port (Android) 1478",
+  id: "the-simpsons-hit-and-run-android",
+  title: "The Simpsons: Hit & Run (Android)",
   game: "The Simpsons: Hit & Run",
   developers: ["Carlox33"],
   publisher: "Vivendi Universal Games",

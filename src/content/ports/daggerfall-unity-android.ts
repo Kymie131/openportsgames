@@ -1,10 +1,10 @@
 import type { Port } from "@/lib/ports/schema";
 
-export const daggerfallUnity2: Port = {
+export const daggerfallUnityAndroid: Port = {
   schema: "port",
-  id: "daggerfall-unity-2",
-  title: "DaggerFall Unity",
-  game: "The Elder Scrolls II: DaggerFall",
+  id: "daggerfall-unity-android",
+  title: "Daggerfall Unity (Android)",
+  game: "The Elder Scrolls II: Daggerfall",
   developers: ["Vwing"],
   publisher: "Bethesda Softworks",
   originalYear: 1996,
