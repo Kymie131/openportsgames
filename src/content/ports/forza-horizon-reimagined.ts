@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const forzaHorizonReimagined: Port = {
+  schema: "port",
+  id: "forza-horizon-reimagined",
+  title: "Forza Horizon 1: ReImagined",
+  game: "Forza Horizon",
+  developers: ["Dyotson"],
+  publisher: "Xbox Game Studios",
+  originalYear: 2012,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Dyotson/ForzaHorizon1-ReImagined"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  related: ["pinyon-shift"],
+  notes: "Forza Horizon (Xbox 360, 2012) natively on PC, rebuilt around a modern Horizon experience (shared online free roam, leaderboards/rivals, 120/144 fps, self-hostable online server). Separate project from the other Forza Horizon entry in the catalog. Latest release: v0.1.22.",
+  notesEs: "Forza Horizon (Xbox 360, 2012) nativo en PC, reconstruido con una experiencia Horizon moderna (mundo libre online, clasificaciones/rivales, 120/144 fps, servidor online autoalojable). Proyecto distinto de la otra ficha de Forza Horizon. Última release: v0.1.22.",
+};

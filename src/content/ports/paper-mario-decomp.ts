@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const paperMarioDecomp: Port = {
+  schema: "port",
+  id: "paper-mario-decomp",
+  title: "Paper Mario Decompilation",
+  game: "Paper Mario",
+  developers: ["pmret"],
+  publisher: "Nintendo",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/pmret/papermario"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  related: ["star-rod"],
+  notes: "Work-in-progress decompilation of Paper Mario (Nintendo 64). Separate project from the other Paper Mario decompilation in the catalog.",
+  notesEs: "Decompilación en curso de Paper Mario (Nintendo 64). Proyecto distinto de la otra decompilación de Paper Mario del catálogo.",
+};

@@ -1229,4 +1229,10 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "colin-mcrae-rally-2-decomp": ["Windows"],
   "minecraft-lce-decomp": ["Nintendo Switch"],
   "super-mario-64-ds-decomp": ["Nintendo DS"],
+  "driveclub-native": ["PlayStation 4"],
+  "final-fantasy-tactics-advance-recomp": ["Game Boy Advance"],
+  "castlevania-sotn-decomp": ["PlayStation"],
+  "paper-mario-decomp": ["Nintendo 64"],
+  "pikmin-2-decomp": ["GameCube"],
+  "forza-horizon-reimagined": ["Xbox 360"],
 };

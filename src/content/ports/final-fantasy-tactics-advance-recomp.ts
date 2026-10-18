@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const finalFantasyTacticsAdvanceRecomp: Port = {
+  schema: "port",
+  id: "final-fantasy-tactics-advance-recomp",
+  title: "FFTARecomp",
+  game: "Final Fantasy Tactics Advance",
+  developers: ["Jorge262007"],
+  publisher: "Square Enix",
+  originalYear: 2003,
+  portType: "recompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Jorge262007/FFTARecomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Game Boy Advance"],
+  notes: "Final Fantasy Tactics Advance (GBA, 2003) running natively on Windows PC, Linux PC and Steam Deck, with widescreen, video/audio options and a one-click installer. Latest release: v2.0.",
+  notesEs: "Final Fantasy Tactics Advance (GBA, 2003) nativo en PC Windows, Linux y Steam Deck, con widescreen, opciones de vídeo/audio e instalador de un clic. Última release: v2.0.",
+};

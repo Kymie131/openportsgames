@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const castlevaniaSotnDecomp: Port = {
+  schema: "port",
+  id: "castlevania-sotn-decomp",
+  title: "Castlevania: SotN Decompilation",
+  game: "Castlevania: Symphony of the Night",
+  developers: ["Xeeynamo"],
+  publisher: "Konami",
+  originalYear: 1997,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Xeeynamo/sotn-decomp"],
+  license: { spdx: "AGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  related: ["symphony-recomp"],
+  notes: "Work-in-progress matching decompilation of Castlevania: Symphony of the Night (PlayStation 1, PSP and Sega Saturn). Separate project from the recompilation already in the catalog.",
+  notesEs: "Decompilación matching en curso de Castlevania: Symphony of the Night (PlayStation 1, PSP y Sega Saturn). Proyecto distinto de la recompilación que ya está en el catálogo.",
+};
