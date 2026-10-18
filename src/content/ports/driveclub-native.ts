@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const driveclubNative: Port = {
+  schema: "port",
+  id: "driveclub-native",
+  title: "Driveclub Native",
+  game: "Driveclub",
+  developers: ["BlackLineInteractive"],
+  publisher: "Sony Interactive Entertainment",
+  originalYear: 2014,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/BlackLineInteractive/Driveclub-Port"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 4"],
+  notes: "Native port of Driveclub (PS4, CUSA00003) to macOS and Windows. No release yet (work in progress); you supply your own copy of the game.",
+  notesEs: "Port nativo de Driveclub (PS4, CUSA00003) a macOS y Windows. Aún sin release (en desarrollo); aportas tu propia copia del juego.",
+};

@@ -1227,6 +1227,12 @@ import { skate2PcRecomp } from "./skate-2-pc-recomp";
 import { colinMcRaeRally2Decomp } from "./colin-mcrae-rally-2-decomp";
 import { minecraftLceDecomp } from "./minecraft-lce-decomp";
 import { superMario64DsDecomp } from "./super-mario-64-ds-decomp";
+import { driveclubNative } from "./driveclub-native";
+import { finalFantasyTacticsAdvanceRecomp } from "./final-fantasy-tactics-advance-recomp";
+import { castlevaniaSotnDecomp } from "./castlevania-sotn-decomp";
+import { paperMarioDecomp } from "./paper-mario-decomp";
+import { pikmin2Decomp } from "./pikmin-2-decomp";
+import { forzaHorizonReimagined } from "./forza-horizon-reimagined";
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -2456,4 +2462,10 @@ export const portCases: Port[] = [
   colinMcRaeRally2Decomp,
   minecraftLceDecomp,
   superMario64DsDecomp,
+  driveclubNative,
+  finalFantasyTacticsAdvanceRecomp,
+  castlevaniaSotnDecomp,
+  paperMarioDecomp,
+  pikmin2Decomp,
+  forzaHorizonReimagined,
 ];
