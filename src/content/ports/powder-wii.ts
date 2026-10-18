@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const powderWii: Port = {
+  schema: "port",
+  id: "powder-wii",
+  title: "POWDER (Wii)",
+  game: "POWDER",
+  developers: ["insin"],
+  publisher: "Jeff Lait",
+  originalYear: 2003,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["wii"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/insin/POWDER-wii"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Game Boy Advance"],
+  notes: "POWDER (Jeff Lait, 2003) running on Wii through source port. You need your own copy of the game.",
+  notesEs: "POWDER (Jeff Lait, 2003) en Wii mediante port de código. Necesitas tu propia copia del juego.",
+};

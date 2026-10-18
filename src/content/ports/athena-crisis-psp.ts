@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const athenaCrisisPsp: Port = {
+  schema: "port",
+  id: "athena-crisis-psp",
+  title: "Athena Crisis (PSP)",
+  game: "Athena Crisis",
+  developers: ["pocket-nexus"],
+  publisher: "Nakama Game Studio",
+  originalYear: 2024,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/pocket-nexus/athena-crisis-pocket"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "Athena Crisis (Nakama Game Studio, 2024) running on PlayStation Portable through source port. You need your own copy of the game.",
+  notesEs: "Athena Crisis (Nakama Game Studio, 2024) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
+};

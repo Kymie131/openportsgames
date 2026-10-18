@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const battletanxPcBdragoncore: Port = {
+  schema: "port",
+  id: "battletanx-pc-bdragoncore",
+  title: "BattleTanx (PC, bdragoncore)",
+  game: "BattleTanx",
+  developers: ["bdragoncore"],
+  publisher: "3DO",
+  originalYear: 1998,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/bdragoncore/battle-tanx-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  notes: "BattleTanx (3DO, 1998) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "BattleTanx (3DO, 1998) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

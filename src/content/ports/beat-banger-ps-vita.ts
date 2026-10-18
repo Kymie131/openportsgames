@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const beatBangerPsVita: Port = {
+  schema: "port",
+  id: "beat-banger-ps-vita",
+  title: "Beat Banger (PS Vita)",
+  game: "Beat Banger",
+  developers: ["masteroga101"],
+  publisher: "Bunny Studio",
+  originalYear: 2023,
+  portType: "source-port",
+  genre: "music",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/masteroga101/Beat-Banger-PsVita-"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Beat Banger (Bunny Studio, 2023) running on PlayStation Vita through source port. Latest release: v0.99. You need your own copy of the game.",
+  notesEs: "Beat Banger (Bunny Studio, 2023) en PlayStation Vita mediante port de código. Última release: v0.99. Necesitas tu propia copia del juego.",
+};

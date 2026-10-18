@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const arcRiseFantasiaPc: Port = {
+  schema: "port",
+  id: "arc-rise-fantasia-pc",
+  title: "Arc Rise Fantasia (PC)",
+  game: "Arc Rise Fantasia",
+  developers: ["vs-sr-dev"],
+  publisher: "Marvelous Entertainment",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/vs-sr-dev/pc-arcrisefantasia"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Wii"],
+  notes: "Arc Rise Fantasia (Marvelous Entertainment, 2009) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Arc Rise Fantasia (Marvelous Entertainment, 2009) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

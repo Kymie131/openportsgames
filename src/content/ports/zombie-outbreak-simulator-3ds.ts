@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const zombieOutbreakSimulator3ds: Port = {
+  schema: "port",
+  id: "zombie-outbreak-simulator-3ds",
+  title: "Zombie Outbreak Simulator (3DS)",
+  game: "Zombie Outbreak Simulator",
+  developers: ["Octoblimp"],
+  publisher: "Fan game",
+  originalYear: 2013,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Octoblimp/ZOS-3DS"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "Zombie Outbreak Simulator (Fan game, 2013) running on Nintendo 3DS through source port. Latest release: v1.1.0. You need your own copy of the game.",
+  notesEs: "Zombie Outbreak Simulator (Fan game, 2013) en Nintendo 3DS mediante port de código. Última release: v1.1.0. Necesitas tu propia copia del juego.",
+};

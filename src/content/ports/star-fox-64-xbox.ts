@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const starFox64Xbox: Port = {
+  schema: "port",
+  id: "star-fox-64-xbox",
+  title: "Star Fox 64 (Xbox)",
+  game: "Star Fox 64",
+  developers: ["Team-Resurgent"],
+  publisher: "Nintendo",
+  originalYear: 1997,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["xbox"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Team-Resurgent/Star-Fox-64-X"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  notes: "Star Fox 64 (Nintendo, 1997) running on xbox through decompilation. You need your own copy of the game.",
+  notesEs: "Star Fox 64 (Nintendo, 1997) en xbox mediante decompilación. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const monsterHunterDynamicHuntingPsVita: Port = {
+  schema: "port",
+  id: "monster-hunter-dynamic-hunting-ps-vita",
+  title: "Monster Hunter Dynamic Hunting (PS Vita)",
+  game: "Monster Hunter Dynamic Hunting",
+  developers: ["MuukalainenPuhuu"],
+  publisher: "Capcom",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/MuukalainenPuhuu/Vita-MH-DH"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "Monster Hunter Dynamic Hunting (Capcom, 2011) running on PlayStation Vita through source port. Latest release: 1.1. You need your own copy of the game.",
+  notesEs: "Monster Hunter Dynamic Hunting (Capcom, 2011) en PlayStation Vita mediante port de código. Última release: 1.1. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const minicraftWii: Port = {
+  schema: "port",
+  id: "minicraft-wii",
+  title: "Minicraft (Wii)",
+  game: "Minicraft",
+  developers: ["txmbrs"],
+  publisher: "Notch",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["wii"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/txmbrs/minicraft-wii"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Minicraft (Notch, 2011) running on Wii through source port. You need your own copy of the game.",
+  notesEs: "Minicraft (Notch, 2011) en Wii mediante port de código. Necesitas tu propia copia del juego.",
+};

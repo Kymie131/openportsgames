@@ -1642,6 +1642,41 @@ import { ledheadWii } from "./ledhead-wii";
 import { superMarioWarWii } from "./super-mario-war-wii";
 import { theMazeWii } from "./the-maze-wii";
 
+import { wonderfulEverydayPsVita } from "./wonderful-everyday-ps-vita";
+import { girlsFrontlinePsVita } from "./girls-frontline-ps-vita";
+import { cookieClicker3ds } from "./cookie-clicker-3ds";
+import { hydraCastleLabyrinthPsp } from "./hydra-castle-labyrinth-psp";
+import { plumberSDonTWearTiesConsoles } from "./plumber-s-don-t-wear-ties-consoles";
+import { sonicTheHedgehog2MegaDrive } from "./sonic-the-hedgehog-2-mega-drive";
+import { superMario64Ds3ds } from "./super-mario-64-ds-3ds";
+import { papaSPizzeria3ds } from "./papa-s-pizzeria-3ds";
+import { touhou6Switch } from "./touhou-6-switch";
+import { hybridHeavenPcDanielgomesvieira2000 } from "./hybrid-heaven-pc-danielgomesvieira2000";
+import { shadowOfTheColossusPcFrameGeneration } from "./shadow-of-the-colossus-pc-frame-generation";
+import { monsterHunterDynamicHuntingPsVita } from "./monster-hunter-dynamic-hunting-ps-vita";
+import { superMarioBrosRemasteredSwitch } from "./super-mario-bros-remastered-switch";
+import { tekkenTagTournament2LinuxWiiUEdition } from "./tekken-tag-tournament-2-linux-wii-u-edition";
+import { cutTheRopePsVita } from "./cut-the-rope-ps-vita";
+import { battletanxPcBdragoncore } from "./battletanx-pc-bdragoncore";
+import { armyMenSargeSHeroesPc } from "./army-men-sarge-s-heroes-pc";
+import { diddyKongRacingPcCyscott } from "./diddy-kong-racing-pc-cyscott";
+import { starFox64Xbox } from "./star-fox-64-xbox";
+import { lugaruDreamcast } from "./lugaru-dreamcast";
+import { touhouCollectionPs4 } from "./touhou-collection-ps4";
+import { athenaCrisisPsp } from "./athena-crisis-psp";
+import { beatBangerPsVita } from "./beat-banger-ps-vita";
+import { bikeRaceProPsVita } from "./bike-race-pro-ps-vita";
+import { minicraftWii } from "./minicraft-wii";
+import { arcRiseFantasiaPc } from "./arc-rise-fantasia-pc";
+import { dragonQuestSwordsPc } from "./dragon-quest-swords-pc";
+import { sopwithWii } from "./sopwith-wii";
+import { powderWii } from "./powder-wii";
+import { deltaruneChapter1Wii } from "./deltarune-chapter-1-wii";
+import { superKawaiBreakupSim3ds } from "./super-kawai-breakup-sim-3ds";
+import { jezzballWiiU } from "./jezzball-wii-u";
+import { zombieOutbreakSimulator3ds } from "./zombie-outbreak-simulator-3ds";
+import { hashiPsVita } from "./hashi-ps-vita";
+
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -3267,4 +3302,38 @@ export const portCases: Port[] = [
   ledheadWii,
   superMarioWarWii,
   theMazeWii,
+  wonderfulEverydayPsVita,
+  girlsFrontlinePsVita,
+  cookieClicker3ds,
+  hydraCastleLabyrinthPsp,
+  plumberSDonTWearTiesConsoles,
+  sonicTheHedgehog2MegaDrive,
+  superMario64Ds3ds,
+  papaSPizzeria3ds,
+  touhou6Switch,
+  hybridHeavenPcDanielgomesvieira2000,
+  shadowOfTheColossusPcFrameGeneration,
+  monsterHunterDynamicHuntingPsVita,
+  superMarioBrosRemasteredSwitch,
+  tekkenTagTournament2LinuxWiiUEdition,
+  cutTheRopePsVita,
+  battletanxPcBdragoncore,
+  armyMenSargeSHeroesPc,
+  diddyKongRacingPcCyscott,
+  starFox64Xbox,
+  lugaruDreamcast,
+  touhouCollectionPs4,
+  athenaCrisisPsp,
+  beatBangerPsVita,
+  bikeRaceProPsVita,
+  minicraftWii,
+  arcRiseFantasiaPc,
+  dragonQuestSwordsPc,
+  sopwithWii,
+  powderWii,
+  deltaruneChapter1Wii,
+  superKawaiBreakupSim3ds,
+  jezzballWiiU,
+  zombieOutbreakSimulator3ds,
+  hashiPsVita,
 ];

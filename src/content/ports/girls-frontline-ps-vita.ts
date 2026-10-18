@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const girlsFrontlinePsVita: Port = {
+  schema: "port",
+  id: "girls-frontline-ps-vita",
+  title: "Girls' Frontline (PS Vita)",
+  game: "Girls' Frontline",
+  developers: ["haskou"],
+  publisher: "Sunborn",
+  originalYear: 2017,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/haskou/gfl-psvita"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "Girls' Frontline (Sunborn, 2017) running on PlayStation Vita through source port. You need your own copy of the game.",
+  notesEs: "Girls' Frontline (Sunborn, 2017) en PlayStation Vita mediante port de código. Necesitas tu propia copia del juego.",
+};

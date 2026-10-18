@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tekkenTagTournament2LinuxWiiUEdition: Port = {
+  schema: "port",
+  id: "tekken-tag-tournament-2-linux-wii-u-edition",
+  title: "Tekken Tag Tournament 2 (Linux, Wii U edition)",
+  game: "Tekken Tag Tournament 2",
+  developers: ["Petexy"],
+  publisher: "Bandai Namco",
+  originalYear: 2012,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["linux"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Petexy/Tekken-Tag-2-Recompiled"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Wii U"],
+  notes: "Tekken Tag Tournament 2 (Bandai Namco, 2012) running on Linux through static recompilation. You need your own copy of the game.",
+  notesEs: "Tekken Tag Tournament 2 (Bandai Namco, 2012) en Linux mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

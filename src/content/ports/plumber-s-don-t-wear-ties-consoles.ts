@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const plumberSDonTWearTiesConsoles: Port = {
+  schema: "port",
+  id: "plumber-s-don-t-wear-ties-consoles",
+  title: "Plumber's Don't Wear Ties (consoles)",
+  game: "Plumber's Don't Wear Ties",
+  developers: ["MaikelChan"],
+  publisher: "Unknown",
+  originalYear: 1993,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch","wii","wiiu","3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/MaikelChan/PlumbersDontWearTies-SDL"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Plumber's Don't Wear Ties (Unknown, 1993) running on Nintendo Switch and Wii and Wii U and Nintendo 3DS through source port. Latest release: v0.2-wiiu. You need your own copy of the game.",
+  notesEs: "Plumber's Don't Wear Ties (Unknown, 1993) en Nintendo Switch and Wii and Wii U and Nintendo 3DS mediante port de código. Última release: v0.2-wiiu. Necesitas tu propia copia del juego.",
+};

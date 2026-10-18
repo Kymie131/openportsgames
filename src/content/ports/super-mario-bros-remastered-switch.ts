@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superMarioBrosRemasteredSwitch: Port = {
+  schema: "port",
+  id: "super-mario-bros-remastered-switch",
+  title: "Super Mario Bros. Remastered (Switch)",
+  game: "Super Mario Bros.",
+  developers: ["delsonazevedo"],
+  publisher: "Nintendo",
+  originalYear: 1985,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/delsonazevedo/Super-Mario-Bros.-Remastered-Switch"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo Entertainment System"],
+  notes: "Super Mario Bros. (Nintendo, 1985) running on Nintendo Switch through source port. Latest release: 1.0.0. You need your own copy of the game.",
+  notesEs: "Super Mario Bros. (Nintendo, 1985) en Nintendo Switch mediante port de código. Última release: 1.0.0. Necesitas tu propia copia del juego.",
+};

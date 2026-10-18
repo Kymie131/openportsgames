@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const touhou6Switch: Port = {
+  schema: "port",
+  id: "touhou-6-switch",
+  title: "Touhou 6 (Switch)",
+  game: "Touhou 6: The Embodiment of Scarlet Devil",
+  developers: ["saekaze"],
+  publisher: "Team Shanghai Alice",
+  originalYear: 2002,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/saekaze/th06-switch"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Touhou 6: The Embodiment of Scarlet Devil (Team Shanghai Alice, 2002) running on Nintendo Switch through source port. Latest release: v1.02h-r2. You need your own copy of the game.",
+  notesEs: "Touhou 6: The Embodiment of Scarlet Devil (Team Shanghai Alice, 2002) en Nintendo Switch mediante port de código. Última release: v1.02h-r2. Necesitas tu propia copia del juego.",
+};

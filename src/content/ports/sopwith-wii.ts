@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sopwithWii: Port = {
+  schema: "port",
+  id: "sopwith-wii",
+  title: "Sopwith (Wii)",
+  game: "Sopwith",
+  developers: ["insin"],
+  publisher: "BMB Compuscience",
+  originalYear: 1984,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["wii"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/insin/sopwith-wii"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["MS-DOS"],
+  notes: "Sopwith (BMB Compuscience, 1984) running on Wii through source port. You need your own copy of the game.",
+  notesEs: "Sopwith (BMB Compuscience, 1984) en Wii mediante port de código. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const dragonQuestSwordsPc: Port = {
+  schema: "port",
+  id: "dragon-quest-swords-pc",
+  title: "Dragon Quest Swords (PC)",
+  game: "Dragon Quest Swords: The Masked Queen and the Tower of Mirrors",
+  developers: ["vs-sr-dev"],
+  publisher: "Square Enix",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/vs-sr-dev/pc-dragonquestswords"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Wii"],
+  notes: "Dragon Quest Swords: The Masked Queen and the Tower of Mirrors (Square Enix, 2007) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Dragon Quest Swords: The Masked Queen and the Tower of Mirrors (Square Enix, 2007) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};
