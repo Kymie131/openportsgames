@@ -24,19 +24,24 @@ solo enlazaba la web del proyecto) y `legend-of-dragoon-severed-chains` (web ofi
   `Alexbeav/medievil-recomp`, `Alexbeav/parasite-eve-recomp`, `Alexbeav/syphon-filter-2-recompiled`,
   `Alexbeav/xena-warrior-princess-recomp` (el catálogo ya los tiene bajo `alexbeavs-ps1-ports`),
   `NoRain211/doaxbv-re` (renombrado, ya actualizado) y `cybersecurity/halo-ce-universal` (`OpenCommunityEdition/OpenCE`).
-- **Juegos ya fichados con otro repositorio**: `some-scurvy-dog/BanjoTooieRecompiled` (existe `banjo-tooie-recomp`),
-  `sergiomanzur/SymphonyRecomp` sí se añadió, pero `zeranemesis/Marioparty4` y `mariopartyrd/partyboard` se
-  añadieron como proyectos distintos de `mario-party-4-recomp`.
-- **Forks Android de ports ya fichados**: `izzy2lost/Ghostship`, `izzy2lost/Lighthouse`, `izzy2lost/SpaghettiKart`,
-  `izzy2lost/Starship`, `ManIsCat2/sm64coopdx`, `elliotttate/Wind-Waker-Recomp`, `Jameriquiah/2ship2harkinian`
-  (el catálogo ya cubre esas variantes o no aportan una ficha propia).
+- **Juegos ya fichados con otro repositorio**: `some-scurvy-dog/BanjoTooieRecompiled` (existe `banjo-tooie-recomp`).
+  En cambio `zeranemesis/Marioparty4` y `mariopartyrd/partyboard` sí se ficharon como proyectos distintos de
+  `mario-party-4-recomp`.
+- **Forks que se acabaron fichando desde la hoja Android** (segunda vuelta): `izzy2lost/Ghostship`
+  (`ghostship-android`), `izzy2lost/Lighthouse` (`lighthouse-android`), `izzy2lost/SpaghettiKart`
+  (`spaghettikart-android`), `izzy2lost/Starship` (`starship-android`), `ManIsCat2/sm64coopdx`
+  (`sm64coopdx-android`) y `Jameriquiah/2ship2harkinian` (`2-ship-2-harkinian-2s2h`). Solo queda descartado
+  `elliotttate/Wind-Waker-Recomp` (fork personal de BlueWake).
 - **Launchers y gestores, no ports**: `open-goal/launcher`, `Goopie`, `chasem-dev/sms-launcher`,
   `RadzPrower/Super-Metroid-Launcher`, `RadzPrower/Zelda-3-Launcher`, `qurious-pixel/SMAS_Launcher`,
   `xander-haj/Z3R-Launcher`, `boburning/portcove`.
 - **No es un port**: `ZQuestClassic/ZQuestClassic` (el propio autor aclara que es un motor de aventuras, no una
   decompilación de Zelda 1) y `Gzh0821/pvzg_site` (repositorio de la web del port, no del port).
-- **Sin información suficiente**: `motor-dev/nfs-recompiled` (no identifica qué entrega de NFS es),
-  `Edwin2929/sma3-recomp-android.` (nombre de repositorio malformado) y `T3CHNOLOG1C/SacredFire` (404).
+- **Sin información suficiente o inexistente**: `motor-dev/nfs-recompiled` (no identifica qué entrega de NFS es),
+  `T3CHNOLOG1C/SacredFire` (404) y los seis repositorios caídos de la hoja Android (ver arriba).
+  `Edwin2929/sma3-recomp-android.` sí se fichó (`sma3-recomp-android`).
+- **Parches y contenido no jugable**: `Rickow/SFA3max-PSP-widescreen` (parche de widescreen para Street Fighter
+  Alpha 3 MAX) y `mrfox-1/GoldenEye-Recomp-Watch-Music-Fix` (paquete de arreglos sobre otro port).
 
 ## Limitación de esquema detectada
 
