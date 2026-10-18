@@ -1248,7 +1248,6 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "bloodborne-decomp": ["PlayStation 4"],
   "super-mario-strikers-decomp": ["GameCube"],
   "super-mario-strikers-recomp": ["GameCube"],
-  "doaxvb-re": ["Xbox"],
   "switch-waker-hd": ["Wii U"],
   "halo-ce-iphone": ["Xbox"],
   "goldeneye-007-xbla-recomp": ["Xbox 360"],

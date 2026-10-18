@@ -16,7 +16,7 @@ export const FireEmblemSeimaNoKouseki: Port = {
   status: "alpha",
   wip: true,
   release: { version: null, date: null },
-  sources: ["https://github.com/laqieer/fireemblem8j"],
+  sources: ["https://github.com/curiosity-led-me-here/fireemblem8j"],
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,

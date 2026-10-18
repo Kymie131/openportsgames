@@ -16,7 +16,7 @@ export const megaManX4Recomp: Port = {
   status: "beta",
   release: { version: null, date: null },
   sources: ["https://github.com/mstan/MegaManX4Recomp"],
-  license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
+  license: { spdx: "MIT", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
   originalSystems: ["PlayStation"],
   notes:

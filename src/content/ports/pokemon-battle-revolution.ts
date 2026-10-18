@@ -15,7 +15,7 @@ export const PokemonBattleRevolution: Port = {
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
   release: { version: null, date: null },
-  sources: ["https://github.com/bgsamm/pbr-dtk"],
+  sources: ["https://github.com/pbr-ret/pbr-decomp"],
   license: { spdx: "CC0-1.0" },
   verified: false,
   wip: true,

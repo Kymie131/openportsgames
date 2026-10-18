@@ -14,7 +14,7 @@ export const nBlood: Port = {
   platforms: ["windows", "linux"],
   status: "alpha",
   release: { version: null, date: null },
-  sources: ["https://github.com/nukeykt/NBlood"],
+  sources: ["https://github.com/NBlood/NBlood"],
   website: "https://discord.gg/nNQWEvSTvZ",
   license: {
     spdx: "NOASSERTION",

@@ -20,7 +20,7 @@ export const doa3Re: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox"],
-  related: ["doaxvb-re"],
+  related: ["doaxbv-re"],
   notes: "Native Windows port of Dead or Alive 3 (Xbox, 2001) built by static recompilation with a hand-written runtime, with the goal of rewriting it into readable source. Requires your own copy of the game. Latest release: v0.2.",
   notesEs: "Port nativo para Windows de Dead or Alive 3 (Xbox, 2001) mediante recompilación estática con runtime propio, con el objetivo de reescribirlo a código legible. Requiere tu propia copia del juego. Última release: v0.2.",
 };

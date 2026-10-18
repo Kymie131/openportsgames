@@ -15,7 +15,7 @@ export const _1080Snowboarding: Port = {
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
   release: { version: null, date: null },
-  sources: ["https://github.com/bigyoshi51/1080-decomp"],
+  sources: ["https://github.com/djsaunde/1080-decomp"],
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,

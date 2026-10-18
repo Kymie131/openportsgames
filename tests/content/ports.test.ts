@@ -71,6 +71,9 @@ describe("catalog ports", () => {
         "fire-emblem-the-sacred-stones",
         "fire-emblem-the-sacred-stones-fireemblem",
       ],
+      // The upstream repository was renamed, so both entries now point at it.
+      "https://github.com/dsda-org/dsda-doom": ["dsda-doom", "dsda-doom-dsda-org"],
+      "https://github.com/OpenCommunityEdition/OpenCE": ["halo-ce-universal", "opence"],
       // PortsDR is an index; all its entries share one landing page.
       "https://portsdr.com/": [
         "buck-bumble-recomp",

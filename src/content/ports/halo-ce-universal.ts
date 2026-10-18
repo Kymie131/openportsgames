@@ -15,7 +15,7 @@ export const haloCeUniversal: Port = {
   platforms: ["windows", "linux", "android"],
   status: "beta",
   release: { version: null, date: null },
-  sources: ["https://github.com/cybersecurity/halo-ce-universal"],
+  sources: ["https://github.com/OpenCommunityEdition/OpenCE"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Xbox"],

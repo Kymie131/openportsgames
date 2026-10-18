@@ -1247,7 +1247,6 @@ import { spiderMan2000Decomp } from "./spider-man-2000-decomp";
 import { bloodborneDecomp } from "./bloodborne-decomp";
 import { superMarioStrikersDecomp } from "./super-mario-strikers-decomp";
 import { superMarioStrikersRecomp } from "./super-mario-strikers-recomp";
-import { doaxvbRe } from "./doaxvb-re";
 import { switchWakerHd } from "./switch-waker-hd";
 import { haloCeIphone } from "./halo-ce-iphone";
 import { goldeneye007XblaRecomp } from "./goldeneye-007-xbla-recomp";
@@ -2556,7 +2555,6 @@ export const portCases: Port[] = [
   bloodborneDecomp,
   superMarioStrikersDecomp,
   superMarioStrikersRecomp,
-  doaxvbRe,
   switchWakerHd,
   haloCeIphone,
   goldeneye007XblaRecomp,
