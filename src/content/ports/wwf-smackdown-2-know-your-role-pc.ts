@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const wwfSmackdown2KnowYourRolePc: Port = {
+  schema: "port",
+  id: "wwf-smackdown-2-know-your-role-pc",
+  title: "WWF SmackDown! 2: Know Your Role (PC)",
+  game: "WWF SmackDown! 2: Know Your Role",
+  developers: ["fabioap-cpu"],
+  publisher: "THQ",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/fabioap-cpu/WWF-SmackDown-2-Recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  notes: "WWF SmackDown! 2: Know Your Role (THQ, 2000) running on Windows through static recompilation. Latest release: v1.1. You need your own copy of the game.",
+  notesEs: "WWF SmackDown! 2: Know Your Role (THQ, 2000) en Windows mediante recompilación estática. Última release: v1.1. Necesitas tu propia copia del juego.",
+};

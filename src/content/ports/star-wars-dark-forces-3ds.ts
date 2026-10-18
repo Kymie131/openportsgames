@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const starWarsDarkForces3ds: Port = {
+  schema: "port",
+  id: "star-wars-dark-forces-3ds",
+  title: "Star Wars: Dark Forces (3DS)",
+  game: "Star Wars: Dark Forces",
+  developers: ["benny04131985-lab"],
+  publisher: "LucasArts",
+  originalYear: 1995,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/benny04131985-lab/DarkForces3DS"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["MS-DOS"],
+  notes: "Star Wars: Dark Forces (LucasArts, 1995) running on Nintendo 3DS through source port. Latest release: v1.0.0. You need your own copy of the game.",
+  notesEs: "Star Wars: Dark Forces (LucasArts, 1995) en Nintendo 3DS mediante port de código. Última release: v1.0.0. Necesitas tu propia copia del juego.",
+};

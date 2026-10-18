@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const starWarsBattlefrontRenegadeSquadronPc: Port = {
+  schema: "port",
+  id: "star-wars-battlefront-renegade-squadron-pc",
+  title: "Star Wars Battlefront: Renegade Squadron (PC)",
+  game: "Star Wars Battlefront: Renegade Squadron",
+  developers: ["GTTeancum"],
+  publisher: "LucasArts",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/GTTeancum/StarWars-RenegadeSquadron-PC"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation Portable"],
+  notes: "Star Wars Battlefront: Renegade Squadron (LucasArts, 2007) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Star Wars Battlefront: Renegade Squadron (LucasArts, 2007) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

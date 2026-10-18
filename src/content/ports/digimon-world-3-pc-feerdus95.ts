@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const digimonWorld3PcFeerdus95: Port = {
+  schema: "port",
+  id: "digimon-world-3-pc-feerdus95",
+  title: "Digimon World 3 (PC, Feerdus95)",
+  game: "Digimon World 3",
+  developers: ["Feerdus95"],
+  publisher: "Bandai",
+  originalYear: 2002,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Feerdus95/dw3-native-port"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  notes: "Digimon World 3 (Bandai, 2002) running on Windows through decompilation. You need your own copy of the game.",
+  notesEs: "Digimon World 3 (Bandai, 2002) en Windows mediante decompilación. Necesitas tu propia copia del juego.",
+};

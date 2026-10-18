@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const splosionManPc: Port = {
+  schema: "port",
+  id: "splosion-man-pc",
+  title: "'Splosion Man (PC)",
+  game: "'Splosion Man",
+  developers: ["thefixinhixon"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/thefixinhixon/SplosionManRecomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  notes: "'Splosion Man (Microsoft Game Studios, 2009) running on Windows and Linux through static recompilation. Latest release: v2.0. You need your own copy of the game.",
+  notesEs: "'Splosion Man (Microsoft Game Studios, 2009) en Windows and Linux mediante recompilación estática. Última release: v2.0. Necesitas tu propia copia del juego.",
+};

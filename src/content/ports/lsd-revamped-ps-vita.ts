@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const lsdRevampedPsVita: Port = {
+  schema: "port",
+  id: "lsd-revamped-ps-vita",
+  title: "LSD Revamped (PS Vita)",
+  game: "LSD: Dream Emulator",
+  developers: ["arielxflores"],
+  publisher: "Asmik Ace",
+  originalYear: 1998,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/arielxflores/LSDRevamped-Vita"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  notes: "LSD: Dream Emulator (Asmik Ace, 1998) running on PlayStation Vita through source port. Latest release: v1.0. You need your own copy of the game.",
+  notesEs: "LSD: Dream Emulator (Asmik Ace, 1998) en PlayStation Vita mediante port de código. Última release: v1.0. Necesitas tu propia copia del juego.",
+};

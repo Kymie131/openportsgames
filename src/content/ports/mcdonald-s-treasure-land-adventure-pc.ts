@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mcdonaldSTreasureLandAdventurePc: Port = {
+  schema: "port",
+  id: "mcdonald-s-treasure-land-adventure-pc",
+  title: "McDonald's Treasure Land Adventure (PC)",
+  game: "McDonald's Treasure Land Adventure",
+  developers: ["elfhuo-Github"],
+  publisher: "Sega",
+  originalYear: 1993,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/elfhuo-Github/McDonaldsTreasureLandRecomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Sega Mega Drive / Genesis"],
+  notes: "McDonald's Treasure Land Adventure (Sega, 1993) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "McDonald's Treasure Land Adventure (Sega, 1993) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

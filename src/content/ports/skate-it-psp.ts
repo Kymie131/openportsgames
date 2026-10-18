@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const skateItPsp: Port = {
+  schema: "port",
+  id: "skate-it-psp",
+  title: "Skate It (PSP)",
+  game: "Skate It",
+  developers: ["slimhagrid"],
+  publisher: "Electronic Arts",
+  originalYear: 2008,
+  portType: "source-port",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/slimhagrid/Skate-It-PSP"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo DS"],
+  notes: "Skate It (Electronic Arts, 2008) running on PlayStation Portable through source port. You need your own copy of the game.",
+  notesEs: "Skate It (Electronic Arts, 2008) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
+};

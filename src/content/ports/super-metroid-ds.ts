@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superMetroidDs: Port = {
+  schema: "port",
+  id: "super-metroid-ds",
+  title: "Super Metroid (DS)",
+  game: "Super Metroid",
+  developers: ["linuxkafe"],
+  publisher: "Nintendo",
+  originalYear: 1994,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ds"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/linuxkafe/SuperMetroidDS"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Super Nintendo"],
+  notes: "Super Metroid (Nintendo, 1994) running on Nintendo DS through static recompilation. You need your own copy of the game.",
+  notesEs: "Super Metroid (Nintendo, 1994) en Nintendo DS mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

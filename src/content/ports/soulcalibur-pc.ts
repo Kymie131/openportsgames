@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const soulcaliburPc: Port = {
+  schema: "port",
+  id: "soulcalibur-pc",
+  title: "Soulcalibur (PC)",
+  game: "Soulcalibur",
+  developers: ["danielgomesvieira2000"],
+  publisher: "Namco",
+  originalYear: 1998,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/danielgomesvieira2000/soulcalibur-recomp"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Dreamcast"],
+  notes: "Soulcalibur (Namco, 1998) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Soulcalibur (Namco, 1998) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

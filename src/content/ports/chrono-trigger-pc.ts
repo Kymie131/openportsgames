@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const chronoTriggerPc: Port = {
+  schema: "port",
+  id: "chrono-trigger-pc",
+  title: "Chrono Trigger (PC)",
+  game: "Chrono Trigger",
+  developers: ["ThisIsAkill"],
+  publisher: "Square",
+  originalYear: 1995,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "open",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ThisIsAkill/ct-recomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Super Nintendo"],
+  notes: "Chrono Trigger (Square, 1995) running on Windows through static recompilation. The original game is free software, so no commercial copy is needed.",
+  notesEs: "Chrono Trigger (Square, 1995) en Windows mediante recompilación estática. El juego original es software libre, así que no hace falta una copia comercial.",
+};

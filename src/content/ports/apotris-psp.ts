@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const apotrisPsp: Port = {
+  schema: "port",
+  id: "apotris-psp",
+  title: "Apotris (PSP)",
+  game: "Apotris",
+  developers: ["dadcapgamer"],
+  publisher: "Akouzoukos",
+  originalYear: 2021,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/dadcapgamer/apotrisPSP"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Game Boy Advance"],
+  notes: "Apotris (Akouzoukos, 2021) running on PlayStation Portable through source port. Latest release: v4.1.0-psp1. You need your own copy of the game.",
+  notesEs: "Apotris (Akouzoukos, 2021) en PlayStation Portable mediante port de código. Última release: v4.1.0-psp1. Necesitas tu propia copia del juego.",
+};

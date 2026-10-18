@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superMarioBrosSwitch: Port = {
+  schema: "port",
+  id: "super-mario-bros-switch",
+  title: "Super Mario Bros. (Switch)",
+  game: "Super Mario Bros.",
+  developers: ["sverigeunit"],
+  publisher: "Nintendo",
+  originalYear: 1985,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sverigeunit/Mario-Bros-Switch-Port"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo Entertainment System"],
+  notes: "Super Mario Bros. (Nintendo, 1985) running on Nintendo Switch through source port. You need your own copy of the game.",
+  notesEs: "Super Mario Bros. (Nintendo, 1985) en Nintendo Switch mediante port de código. Necesitas tu propia copia del juego.",
+};

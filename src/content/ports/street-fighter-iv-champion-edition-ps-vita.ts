@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const streetFighterIvChampionEditionPsVita: Port = {
+  schema: "port",
+  id: "street-fighter-iv-champion-edition-ps-vita",
+  title: "Street Fighter IV: Champion Edition (PS Vita)",
+  game: "Street Fighter IV",
+  developers: ["frangarcj"],
+  publisher: "Capcom",
+  originalYear: 2017,
+  portType: "source-port",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/frangarcj/sf4ce_vita"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "Street Fighter IV (Capcom, 2017) running on PlayStation Vita through source port. You need your own copy of the game.",
+  notesEs: "Street Fighter IV (Capcom, 2017) en PlayStation Vita mediante port de código. Necesitas tu propia copia del juego.",
+};

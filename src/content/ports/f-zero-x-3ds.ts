@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const fZeroX3ds: Port = {
+  schema: "port",
+  id: "f-zero-x-3ds",
+  title: "F-Zero X (3DS)",
+  game: "F-Zero X",
+  developers: ["cruxxxxxx"],
+  publisher: "Nintendo",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/cruxxxxxx/gdx-3ds"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  notes: "F-Zero X (Nintendo, 1998) running on Nintendo 3DS through decompilation. Latest release: v0.9.0. You need your own copy of the game.",
+  notesEs: "F-Zero X (Nintendo, 1998) en Nintendo 3DS mediante decompilación. Última release: v0.9.0. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const quakeWii: Port = {
+  schema: "port",
+  id: "quake-wii",
+  title: "Quake (Wii)",
+  game: "Quake",
+  developers: ["eluancm"],
+  publisher: "id Software",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "open",
+  platforms: ["wii"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/eluancm/quake-gamecube"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["MS-DOS"],
+  notes: "Quake (id Software, 1996) running on Wii through source port. The original game is free software, so no commercial copy is needed.",
+  notesEs: "Quake (id Software, 1996) en Wii mediante port de código. El juego original es software libre, así que no hace falta una copia comercial.",
+};

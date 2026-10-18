@@ -1677,6 +1677,56 @@ import { jezzballWiiU } from "./jezzball-wii-u";
 import { zombieOutbreakSimulator3ds } from "./zombie-outbreak-simulator-3ds";
 import { hashiPsVita } from "./hashi-ps-vita";
 
+import { conker64Recompiled } from "./conker64-recompiled";
+import { gearsOfWar2Pc } from "./gears-of-war-2-pc";
+import { burnoutCrashPc } from "./burnout-crash-pc";
+import { scoobyDooNightOf100FrightsPc } from "./scooby-doo-night-of-100-frights-pc";
+import { scoobyDooUnmaskedPc } from "./scooby-doo-unmasked-pc";
+import { streetsOfRageRemasterDreamcast } from "./streets-of-rage-remaster-dreamcast";
+import { animalCrossingAnbernicHandhelds } from "./animal-crossing-anbernic-handhelds";
+import { animalCrossingXbox } from "./animal-crossing-xbox";
+import { animalCrossingDreamcast } from "./animal-crossing-dreamcast";
+import { tomJerryWarOfTheWhiskersPc } from "./tom-jerry-war-of-the-whiskers-pc";
+import { superSmashBrosPsp } from "./super-smash-bros-psp";
+import { minecraftPocketEdition3ds } from "./minecraft-pocket-edition-3ds";
+import { starWarsTheCloneWarsPc } from "./star-wars-the-clone-wars-pc";
+import { starWarsBattlefrontRenegadeSquadronPc } from "./star-wars-battlefront-renegade-squadron-pc";
+import { tekkenPc } from "./tekken-pc";
+import { wwfSmackdown2KnowYourRolePc } from "./wwf-smackdown-2-know-your-role-pc";
+import { splosionManPc } from "./splosion-man-pc";
+import { falloutPs3 } from "./fallout-ps3";
+import { projectIGIPsVita } from "./project-i-g-i-ps-vita";
+import { earthwormJimHdPc } from "./earthworm-jim-hd-pc";
+import { digimonWorld3PcFeerdus95 } from "./digimon-world-3-pc-feerdus95";
+import { chronoTriggerPc } from "./chrono-trigger-pc";
+import { skateItPsp } from "./skate-it-psp";
+import { snatcherPsp } from "./snatcher-psp";
+import { lsdRevampedPsVita } from "./lsd-revamped-ps-vita";
+import { mystDs } from "./myst-ds";
+import { rivenDs } from "./riven-ds";
+import { illusionOfGaiaPc } from "./illusion-of-gaia-pc";
+import { mcdonaldSTreasureLandAdventurePc } from "./mcdonald-s-treasure-land-adventure-pc";
+import { fiveNightsAtFreddyS2WiiU } from "./five-nights-at-freddy-s-2-wii-u";
+import { superDodgeBallPc } from "./super-dodge-ball-pc";
+import { nhlHockey94Pc } from "./nhl-hockey-94-pc";
+import { diddyKongRacingWii } from "./diddy-kong-racing-wii";
+import { twilightPrincessHdMacos } from "./twilight-princess-hd-macos";
+import { fZeroX3ds } from "./f-zero-x-3ds";
+import { srb2kartPsVita } from "./srb2kart-ps-vita";
+import { streetFighterIvChampionEditionPsVita } from "./street-fighter-iv-champion-edition-ps-vita";
+import { _3dPinballSpaceCadetPsp } from "./3d-pinball-space-cadet-psp";
+import { animalCrossingPs3 } from "./animal-crossing-ps3";
+import { quakeWii } from "./quake-wii";
+import { soulcaliburPc } from "./soulcalibur-pc";
+import { deltarune3dsRanchBlad } from "./deltarune-3ds-ranch-blad";
+import { purgatoryNarakuPsp } from "./purgatory-naraku-psp";
+import { apotrisPsp } from "./apotris-psp";
+import { princeOfPersia3ds } from "./prince-of-persia-3ds";
+import { starWarsDarkForces3ds } from "./star-wars-dark-forces-3ds";
+import { superMetroidDs } from "./super-metroid-ds";
+import { doom2dGba } from "./doom-2d-gba";
+import { superMarioBrosSwitch } from "./super-mario-bros-switch";
+
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -3336,4 +3386,53 @@ export const portCases: Port[] = [
   jezzballWiiU,
   zombieOutbreakSimulator3ds,
   hashiPsVita,
+  conker64Recompiled,
+  gearsOfWar2Pc,
+  burnoutCrashPc,
+  scoobyDooNightOf100FrightsPc,
+  scoobyDooUnmaskedPc,
+  streetsOfRageRemasterDreamcast,
+  animalCrossingAnbernicHandhelds,
+  animalCrossingXbox,
+  animalCrossingDreamcast,
+  tomJerryWarOfTheWhiskersPc,
+  superSmashBrosPsp,
+  minecraftPocketEdition3ds,
+  starWarsTheCloneWarsPc,
+  starWarsBattlefrontRenegadeSquadronPc,
+  tekkenPc,
+  wwfSmackdown2KnowYourRolePc,
+  splosionManPc,
+  falloutPs3,
+  projectIGIPsVita,
+  earthwormJimHdPc,
+  digimonWorld3PcFeerdus95,
+  chronoTriggerPc,
+  skateItPsp,
+  snatcherPsp,
+  lsdRevampedPsVita,
+  mystDs,
+  rivenDs,
+  illusionOfGaiaPc,
+  mcdonaldSTreasureLandAdventurePc,
+  fiveNightsAtFreddyS2WiiU,
+  superDodgeBallPc,
+  nhlHockey94Pc,
+  diddyKongRacingWii,
+  twilightPrincessHdMacos,
+  fZeroX3ds,
+  srb2kartPsVita,
+  streetFighterIvChampionEditionPsVita,
+  _3dPinballSpaceCadetPsp,
+  animalCrossingPs3,
+  quakeWii,
+  soulcaliburPc,
+  deltarune3dsRanchBlad,
+  purgatoryNarakuPsp,
+  apotrisPsp,
+  princeOfPersia3ds,
+  starWarsDarkForces3ds,
+  superMetroidDs,
+  doom2dGba,
+  superMarioBrosSwitch,
 ];

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const conker64Recompiled: Port = {
+  schema: "port",
+  id: "conker64-recompiled",
+  title: "Conker64: Recompiled",
+  game: "Conker's Bad Fur Day",
+  developers: ["Conker64Recomp"],
+  publisher: "Rare",
+  originalYear: 2001,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Conker64Recomp/conker64-recompiled"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  notes: "Conker's Bad Fur Day (Rare, 2001) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Conker's Bad Fur Day (Rare, 2001) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

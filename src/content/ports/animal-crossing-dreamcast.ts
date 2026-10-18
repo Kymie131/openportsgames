@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const animalCrossingDreamcast: Port = {
+  schema: "port",
+  id: "animal-crossing-dreamcast",
+  title: "Animal Crossing (Dreamcast)",
+  game: "Animal Crossing",
+  developers: ["TechProGabe"],
+  publisher: "Nintendo",
+  originalYear: 2001,
+  portType: "recompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["dreamcast"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/TechProGabe/OpenCrossing-Dreamcast"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  notes: "Animal Crossing (Nintendo, 2001) running on dreamcast through static recompilation. You need your own copy of the game.",
+  notesEs: "Animal Crossing (Nintendo, 2001) en dreamcast mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

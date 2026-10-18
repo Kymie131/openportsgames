@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tomJerryWarOfTheWhiskersPc: Port = {
+  schema: "port",
+  id: "tom-jerry-war-of-the-whiskers-pc",
+  title: "Tom & Jerry: War of the Whiskers (PC)",
+  game: "Tom & Jerry: War of the Whiskers",
+  developers: ["shihabal3amri"],
+  publisher: "NewKidCo",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/shihabal3amri/tom-jerry-war-of-the-whiskers-pc"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox"],
+  notes: "Tom & Jerry: War of the Whiskers (NewKidCo, 2002) running on Windows through static recompilation. Latest release: v2.2.0. You need your own copy of the game.",
+  notesEs: "Tom & Jerry: War of the Whiskers (NewKidCo, 2002) en Windows mediante recompilación estática. Última release: v2.2.0. Necesitas tu propia copia del juego.",
+};

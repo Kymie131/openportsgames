@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const twilightPrincessHdMacos: Port = {
+  schema: "port",
+  id: "twilight-princess-hd-macos",
+  title: "Twilight Princess HD (macOS)",
+  game: "The Legend of Zelda: Twilight Princess HD",
+  developers: ["AsadSi"],
+  publisher: "Nintendo",
+  originalYear: 2016,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/AsadSi/twilight-princess-hd-recomp"],
+  license: { spdx: "MPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Wii U"],
+  notes: "The Legend of Zelda: Twilight Princess HD (Nintendo, 2016) running on macOS through static recompilation. You need your own copy of the game.",
+  notesEs: "The Legend of Zelda: Twilight Princess HD (Nintendo, 2016) en macOS mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const scoobyDooNightOf100FrightsPc: Port = {
+  schema: "port",
+  id: "scooby-doo-night-of-100-frights-pc",
+  title: "Scooby-Doo! Night of 100 Frights (PC)",
+  game: "Scooby-Doo! Night of 100 Frights",
+  developers: ["josiahg2502-glitch"],
+  publisher: "THQ",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/josiahg2502-glitch/Scooby-Doo-Refrightened"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  notes: "Scooby-Doo! Night of 100 Frights (THQ, 2002) running on Windows through static recompilation. Latest release: v1.0.2. You need your own copy of the game.",
+  notesEs: "Scooby-Doo! Night of 100 Frights (THQ, 2002) en Windows mediante recompilación estática. Última release: v1.0.2. Necesitas tu propia copia del juego.",
+};

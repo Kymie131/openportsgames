@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const srb2kartPsVita: Port = {
+  schema: "port",
+  id: "srb2kart-ps-vita",
+  title: "SRB2Kart (PS Vita)",
+  game: "Sonic Robo Blast 2 Kart",
+  developers: ["Esodland"],
+  publisher: "Kart Krew",
+  originalYear: 2019,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Esodland/SRB2Kart-PSVita-PSTV"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Sonic Robo Blast 2 Kart (Kart Krew, 2019) running on PlayStation Vita through source port. Latest release: v2.1. You need your own copy of the game.",
+  notesEs: "Sonic Robo Blast 2 Kart (Kart Krew, 2019) en PlayStation Vita mediante port de código. Última release: v2.1. Necesitas tu propia copia del juego.",
+};

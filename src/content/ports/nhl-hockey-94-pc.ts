@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nhlHockey94Pc: Port = {
+  schema: "port",
+  id: "nhl-hockey-94-pc",
+  title: "NHL Hockey '94 (PC)",
+  game: "NHL '94",
+  developers: ["Mhopkinsinc"],
+  publisher: "Electronic Arts",
+  originalYear: 1993,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Mhopkinsinc/NHL94Recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Sega Mega Drive / Genesis"],
+  notes: "NHL '94 (Electronic Arts, 1993) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "NHL '94 (Electronic Arts, 1993) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

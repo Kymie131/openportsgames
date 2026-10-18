@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const minecraftPocketEdition3ds: Port = {
+  schema: "port",
+  id: "minecraft-pocket-edition-3ds",
+  title: "Minecraft: Pocket Edition (3DS)",
+  game: "Minecraft",
+  developers: ["colthardy2020-lab"],
+  publisher: "Mojang Studios",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/colthardy2020-lab/3DS-MCPE-1.7.3-Prototype"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "Minecraft (Mojang Studios, 2011) running on Nintendo 3DS through source port. You need your own copy of the game.",
+  notesEs: "Minecraft (Mojang Studios, 2011) en Nintendo 3DS mediante port de código. Necesitas tu propia copia del juego.",
+};

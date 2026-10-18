@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superDodgeBallPc: Port = {
+  schema: "port",
+  id: "super-dodge-ball-pc",
+  title: "Super Dodge Ball (PC)",
+  game: "Super Dodge Ball",
+  developers: ["saftle"],
+  publisher: "Technos Japan",
+  originalYear: 1988,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/saftle/Super-Dodgeball-Recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo Entertainment System"],
+  notes: "Super Dodge Ball (Technos Japan, 1988) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Super Dodge Ball (Technos Japan, 1988) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

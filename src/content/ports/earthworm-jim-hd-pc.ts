@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const earthwormJimHdPc: Port = {
+  schema: "port",
+  id: "earthworm-jim-hd-pc",
+  title: "Earthworm Jim HD (PC)",
+  game: "Earthworm Jim",
+  developers: ["devEx780"],
+  publisher: "Interplay Entertainment",
+  originalYear: 2010,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/devEx780/earthworm-jim-hd-recomp"],
+  license: { spdx: "BSD-3-Clause" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  notes: "Earthworm Jim (Interplay Entertainment, 2010) running on Windows and Linux through static recompilation. Latest release: v0.1.0. You need your own copy of the game.",
+  notesEs: "Earthworm Jim (Interplay Entertainment, 2010) en Windows and Linux mediante recompilación estática. Última release: v0.1.0. Necesitas tu propia copia del juego.",
+};

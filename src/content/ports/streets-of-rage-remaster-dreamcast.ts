@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const streetsOfRageRemasterDreamcast: Port = {
+  schema: "port",
+  id: "streets-of-rage-remaster-dreamcast",
+  title: "Streets of Rage Remaster (Dreamcast)",
+  game: "Streets of Rage",
+  developers: ["richstokes"],
+  publisher: "Sega",
+  originalYear: 1991,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["dreamcast"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/richstokes/dreamcast-streets-of-rage-remaster"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Sega Mega Drive / Genesis"],
+  notes: "Streets of Rage (Sega, 1991) running on dreamcast through source port. You need your own copy of the game.",
+  notesEs: "Streets of Rage (Sega, 1991) en dreamcast mediante port de código. Necesitas tu propia copia del juego.",
+};

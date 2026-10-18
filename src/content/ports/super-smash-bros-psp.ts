@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superSmashBrosPsp: Port = {
+  schema: "port",
+  id: "super-smash-bros-psp",
+  title: "Super Smash Bros. (PSP)",
+  game: "Super Smash Bros.",
+  developers: ["ItsNoHax"],
+  publisher: "Nintendo",
+  originalYear: 1999,
+  portType: "source-port",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ItsNoHax/SSB64PSP"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  notes: "Super Smash Bros. (Nintendo, 1999) running on PlayStation Portable through source port. You need your own copy of the game.",
+  notesEs: "Super Smash Bros. (Nintendo, 1999) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
+};
