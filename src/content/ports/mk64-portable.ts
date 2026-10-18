@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mk64Portable: Port = {
+  schema: "port",
+  id: "mk64-portable",
+  title: "MK64 Portable (Mario Kart 64, PSP)",
+  game: "Mario Kart 64",
+  developers: ["beckerd"],
+  publisher: "Nintendo",
+  originalYear: 1996,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/beckerd/psp_mk64_portable"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  related: ["mario-kart-64-recomp"],
+  notes: "Native PSP port of Mario Kart 64 built on the n64decomp/mk64 decompilation: 60 FPS in single player and 30 FPS in ad-hoc multiplayer. It contains no game data and builds it from your own ROM on first start. Latest release: v1.7.",
+  notesEs: "Port nativo para PSP de Mario Kart 64 construido sobre la decompilación n64decomp/mk64: 60 FPS en un jugador y 30 FPS en multijugador ad-hoc. No contiene datos del juego y los construye desde tu propia ROM al arrancar. Última release: v1.7.",
+};

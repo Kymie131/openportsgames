@@ -73,6 +73,40 @@ etiqueta a `src/content/systems.ts`.
 | GTA San Andreas para PSP | Fichado: `gtasa-psp` (`vizPilot/gtasa_psp`, WIP sobre el codigo de re3) |
 | Spotify en la 3DS | Fichado como herramienta: `spotify-3ds` (`davidabejon/spotify-3ds`, muestra y controla el estado de Spotify desde la consola) |
 
+## Tercera vuelta: seccion PSP (r/PSP) y lista de Android del usuario
+
+Recorrida la recopilacion de ports recientes de PSP y la lista de recomendaciones de Android. **15 fichas nuevas**:
+
+| Ficha | Proyecto | Plataforma |
+| --- | --- | --- |
+| `perfect-dark-psp` | `z2442/perfect_dark-PSP` (jugable de principio a fin) | PSP |
+| `sonic-cd-psp` | `Koichive/RSDKv3-PSP` (decompilacion de Retro Engine v3) | PSP |
+| `portabletale` | `Volterith/PortableTale` (Undertale en Lua, WIP) | PSP |
+| `psp-latro` | `GreenNinja2525/PSP-latro` (Balatro, retirado por DMCA: ficha con aviso) | PSP |
+| `jgr-portable` | `beckerd/psp_jgr_portable` (Jet Grind Radio) | PSP |
+| `mk64-portable` | `beckerd/psp_mk64_portable` (Mario Kart 64 sobre la decompilacion) | PSP |
+| `helltaker-psp` | `surelynotvain/helltaker-psp` (Helltaker + Examtaker) | PSP |
+| `wordle-psp` | `imRohan/wordle-psp` | PSP |
+| `touhou-6-psp` | `kan8223-dotcom/th06-psp-native` | PSP |
+| `touhou-10-psp` | `kan8223-dotcom/th10-psp-native` | PSP |
+| `persona-4-psp` | `tojikoumori/P4toPSP` (PS2 a PSP, experimental) | PSP |
+| `gta-iii-psp` | `st1x51/re3psp_files` (GTA III via re3) | PSP |
+| `gtasa-psp` | `vizPilot/gtasa_psp` (GTA San Andreas, WIP) | PSP |
+| `tekken-6-android` | `zxyandreay/azazel6` (Tekken 6 de PSP a Android) | Android |
+| `street-fighter-iii-3rd-strike-xbox` | `Manya3084/SF33RDSXBRecompo` (3rd Strike de Xbox) | Windows |
+
+**Ya estaban cubiertos**: Ocarina of Time (PSP) (`oot-psp`, `z2442/oot-PSP`), Minecraft PE para PSP
+(`minecraft-psp`), Mario Kart 64 en Android (`spaghettikart-android`), Perfect Dark en Android
+(`perfect-dark-android`) y las seis fichas de Naruto con build Android.
+
+**No encontrados** (la lista enlaza a paginas sin repositorio publico): el port de **Street Fighter III: 3rd Strike
+para PSP** (pagina de retrogametalk, sin repo) y **Fallout 1 y 2 para PSP** (hilo de Reddit, sin repo). Si aparece
+el repositorio, se fichan igual que el resto.
+
+**Descartados**: `Rickow/SFA3max-PSP-widescreen` (parche de widescreen, no un port), `kwerenta/joker-poker` y
+`RoboShock1086/baltatro-like-game-for-PSP` (juegos propios inspirados en Balatro, no ports) y
+`Saymond/PSP-apps` (coleccion de ports de apps J2ME, no de juegos).
+
 ## Cobertura Android de todo el catalogo
 
 `docs/ANDROID-COVERAGE-2026-10.md` lista, agrupados por sistema original, los juegos del catalogo que todavia

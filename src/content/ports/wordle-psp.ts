@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const wordlePsp: Port = {
+  schema: "port",
+  id: "wordle-psp",
+  title: "Wordle (PSP)",
+  game: "Wordle",
+  developers: ["imRohan"],
+  publisher: "The New York Times",
+  originalYear: 2021,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/imRohan/wordle-psp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "Native port of Wordle to the Sony PSP with D-pad and face-button controls and an on-screen QWERTY keyboard. Latest release: v0.0.2.",
+  notesEs: "Port nativo de Wordle para la PSP de Sony con controles de cruceta y botones y un teclado QWERTY en pantalla. Última release: v0.0.2.",
+};

@@ -1496,6 +1496,26 @@ import { openborAndroid } from "./openbor-android";
 import { gtasaPsp } from "./gtasa-psp";
 import { spotify3ds } from "./spotify-3ds";
 
+
+import { perfectDarkPsp } from "./perfect-dark-psp";
+import { sonicCdPsp } from "./sonic-cd-psp";
+import { portabletale } from "./portabletale";
+import { jgrPortable } from "./jgr-portable";
+import { mk64Portable } from "./mk64-portable";
+import { helltakerPsp } from "./helltaker-psp";
+import { wordlePsp } from "./wordle-psp";
+import { touhou6Psp } from "./touhou-6-psp";
+import { touhou10Psp } from "./touhou-10-psp";
+import { persona4Psp } from "./persona-4-psp";
+import { tekken6Android } from "./tekken-6-android";
+import { streetFighterIii3rdStrikeXbox } from "./street-fighter-iii-3rd-strike-xbox";
+import { dragonBallZTenkaichiTagTeam } from "./dragon-ball-z-tenkaichi-tag-team";
+
+import { pspLatro } from "./psp-latro";
+
+
+import { gtaIiiPsp } from "./gta-iii-psp";
+
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -2982,4 +3002,19 @@ export const portCases: Port[] = [
   openborAndroid,
   gtasaPsp,
   spotify3ds,
+  perfectDarkPsp,
+  sonicCdPsp,
+  portabletale,
+  jgrPortable,
+  mk64Portable,
+  helltakerPsp,
+  wordlePsp,
+  touhou6Psp,
+  touhou10Psp,
+  persona4Psp,
+  tekken6Android,
+  streetFighterIii3rdStrikeXbox,
+  dragonBallZTenkaichiTagTeam,
+  pspLatro,
+  gtaIiiPsp,
 ];

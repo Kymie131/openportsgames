@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tekken6Android: Port = {
+  schema: "port",
+  id: "tekken-6-android",
+  title: "Tekken 6 (Android, experimental)",
+  game: "Tekken 6",
+  developers: ["zxyandreay"],
+  publisher: "Bandai Namco",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/zxyandreay/azazel6"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation Portable"],
+  related: ["tekken-3-recomp","tekken-3-recomp-hybrid"],
+  notes: "Azazel6: independent, unofficial research project towards a standalone native Android ARM64 port of Tekken 6 for PSP, translating the Allegrex/MIPS code ahead of time to C++ plus a PSP runtime. Not playable yet and no APK: users must supply their own game copy.",
+  notesEs: "Azazel6: proyecto de investigación independiente y no oficial hacia un port nativo para Android ARM64 de Tekken 6 de PSP, traduciendo el código Allegrex/MIPS por adelantado a C++ más un runtime de PSP. Aún no es jugable y no hay APK: el usuario aporta su propia copia del juego.",
+};

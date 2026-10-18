@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const touhou10Psp: Port = {
+  schema: "port",
+  id: "touhou-10-psp",
+  title: "Touhou 10 (PSP)",
+  game: "Touhou 10: Mountain of Faith",
+  developers: ["kan8223-dotcom"],
+  publisher: "Team Shanghai Alice",
+  originalYear: 2007,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/kan8223-dotcom/th10-psp-native"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  related: ["touhou-6-psp"],
+  notes: "Unofficial PSP port of Touhou 10: Mountain of Faith from the upstream C++ reimplementation, running on the PSP CPU and GE. A single EBOOT covers both the PSP-1000 and the PSP-2000/3000/Go. No game data included. Latest release: v1.1.0.",
+  notesEs: "Port no oficial para PSP de Touhou 10: Mountain of Faith a partir de la reimplementación en C++ original, ejecutándose en la CPU y la GE de la PSP. Un único EBOOT cubre la PSP-1000 y la PSP-2000/3000/Go. No incluye datos del juego. Última release: v1.1.0.",
+};

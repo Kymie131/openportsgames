@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sonicCdPsp: Port = {
+  schema: "port",
+  id: "sonic-cd-psp",
+  title: "Sonic CD (PSP)",
+  game: "Sonic CD",
+  developers: ["Koichive"],
+  publisher: "Sega",
+  originalYear: 1993,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "stable",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Koichive/RSDKv3-PSP"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Sega CD / Mega-CD"],
+  related: ["rsdkv3-decompilation"],
+  notes: "Complete port of the Retro Engine v3 decompilation (the engine behind Sonic CD 2011) to the PlayStation Portable. It needs the assets of an official release, which you must own. Latest release: 2.0.",
+  notesEs: "Port completo de la decompilación de Retro Engine v3 (el motor de Sonic CD 2011) a PlayStation Portable. Necesita los recursos de una versión oficial que debes poseer. Última release: 2.0.",
+};

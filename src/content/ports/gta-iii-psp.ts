@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gtaIiiPsp: Port = {
+  schema: "port",
+  id: "gta-iii-psp",
+  title: "Grand Theft Auto III (PSP)",
+  game: "Grand Theft Auto III",
+  developers: ["st1x51"],
+  publisher: "Rockstar Games",
+  originalYear: 2001,
+  portType: "source-port",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/st1x51/re3psp_files"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 2"],
+  related: ["re3-android-evolved","gtasa-psp","re-lcs"],
+  notes: "Grand Theft Auto III running natively on the PSP through the re3 reverse-engineered codebase. This repository collects the PSP files and conversion instructions; you need your own copy of GTA III, including its audio folder.",
+  notesEs: "Grand Theft Auto III funcionando de forma nativa en la PSP mediante el código reversado de re3. Este repositorio reúne los archivos para PSP y las instrucciones de conversión; necesitas tu propia copia de GTA III, incluida su carpeta de audio.",
+};
