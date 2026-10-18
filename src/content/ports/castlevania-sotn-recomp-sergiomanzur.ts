@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const castlevaniaSotnRecompSergiomanzur: Port = {
+  schema: "port",
+  id: "castlevania-sotn-recomp-sergiomanzur",
+  title: "SymphonyRecomp (Symphony of the Night, sergiomanzur)",
+  game: "Castlevania: Symphony of the Night",
+  developers: ["sergiomanzur"],
+  publisher: "Konami",
+  originalYear: 1997,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sergiomanzur/SymphonyRecomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  related: ["castlevania-sotn-decomp","castlevania-sotn-recomp-nocturne"],
+  notes: "Recompilation project for Castlevania: Symphony of the Night (PS1, 1997) with Windows and Android builds. Bring your own disc. Latest release: android-v0.10.1b.",
+  notesEs: "Proyecto de recompilación de Castlevania: Symphony of the Night (PS1, 1997) con builds de Windows y Android. Aporta tu propio disco. Última release: android-v0.10.1b.",
+};

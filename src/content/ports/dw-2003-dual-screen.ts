@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const dw2003DualScreen: Port = {
+  schema: "port",
+  id: "dw-2003-dual-screen",
+  title: "DW 2003 (Dual Screen)",
+  game: "Digimon World 3",
+  developers: ["rsigristc"],
+  publisher: "Bandai",
+  originalYear: 2002,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/rsigristc/DW3-DS-Android"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  notes: "Digimon World 3 (Bandai, 2002) for Android (source port). Latest release: v1.4.0. Needs your own copy of the game.",
+  notesEs: "Digimon World 3 (Bandai, 2002) para Android (port de código). Última release: v1.4.0. Necesita tu propia copia del juego.",
+};

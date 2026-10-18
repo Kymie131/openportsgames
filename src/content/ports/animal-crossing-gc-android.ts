@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const animalCrossingGcAndroid: Port = {
+  schema: "port",
+  id: "animal-crossing-gc-android",
+  title: "Animal Crossing (Android)",
+  game: "Animal Crossing",
+  developers: ["zwaetschge"],
+  publisher: "Nintendo",
+  originalYear: 2001,
+  portType: "recompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/zwaetschge/ACGC-Android-Port"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  related: ["animal-crossing-pc-port"],
+  aiDisclosure: {"source":"https://github.com/zwaetschge/ACGC-Android-Port","quote":"built with Z.ai, OpenAI Codex and Claude"},
+  notes: "Android port of the Animal Crossing (GameCube) PC port. The README states it was built with Z.ai, OpenAI Codex and Claude. Bring your own disc. Latest release: v0.5.0.",
+  notesEs: "Port para Android del port de PC de Animal Crossing (GameCube). El README indica que se construyó con Z.ai, OpenAI Codex y Claude. Aporta tu propio disco. Última release: v0.5.0.",
+};

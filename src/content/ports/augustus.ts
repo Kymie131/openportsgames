@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const augustus: Port = {
+  schema: "port",
+  id: "augustus",
+  title: "Augustus",
+  game: "Caesar III",
+  developers: ["Keriew"],
+  publisher: "Sierra On-Line",
+  originalYear: 1998,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Keriew/augustus"],
+  license: { spdx: "AGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Caesar III (Sierra On-Line, 1998) for Android (source port). Latest release: v4.0.0. Needs your own copy of the game (Game Files).",
+  notesEs: "Caesar III (Sierra On-Line, 1998) para Android (port de código). Última release: v4.0.0. Necesita tu propia copia del juego.",
+};

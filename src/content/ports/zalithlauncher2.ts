@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const zalithlauncher2: Port = {
+  schema: "port",
+  id: "zalithlauncher2",
+  kind: "tool",
+  title: "ZalithLauncher2",
+  game: "Minecraft Java Edition",
+  developers: ["ZalithLauncher"],
+  publisher: "Mojang Studios",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ZalithLauncher/ZalithLauncher2"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Minecraft Java Edition (Mojang Studios, 2011) an Android tool. Latest release: 2.7.1. Needs your own copy of the game (?).",
+  notesEs: "Minecraft Java Edition (Mojang Studios, 2011) una herramienta para Android. Última release: 2.7.1. Necesita tu propia copia del juego.",
+};

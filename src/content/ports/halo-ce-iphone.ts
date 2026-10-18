@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const haloCeIphone: Port = {
+  schema: "port",
+  id: "halo-ce-iphone",
+  title: "Halo: Combat Evolved (iOS/macOS)",
+  game: "Halo: Combat Evolved",
+  developers: ["chrissotraidis"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2001,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ios","macos"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/chrissotraidis/projectreach"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox"],
+  related: ["halo-ce-universal","halo-ce-web"],
+  notes: "HaloPad: Halo: Combat Evolved (Xbox, 2001) running natively on iPhone, iPad and Mac, built on OpenCE, the open-source decompilation engine. Online matches up to 128 players and Custom Edition servers; game data not included. Latest release: v0.3.10.",
+  notesEs: "HaloPad: Halo: Combat Evolved (Xbox, 2001) nativo en iPhone, iPad y Mac, construido sobre OpenCE, el motor de decompilación de código abierto. Partidas online de hasta 128 jugadores y servidores de Custom Edition; no incluye los datos del juego. Última release: v0.3.10.",
+};

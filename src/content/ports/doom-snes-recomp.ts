@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const doomSnesRecomp: Port = {
+  schema: "port",
+  id: "doom-snes-recomp",
+  title: "Doom SNES (PC Recompilation)",
+  game: "Doom",
+  developers: ["Cacodemontube"],
+  publisher: "id Software",
+  originalYear: 1995,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Cacodemontube/DoomSNESRecomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Super Nintendo"],
+  notes: "Native PC port of SNES Doom (1995) built with SNESRecomp, with quality-of-life improvements. Work in progress. Latest release: v0.03.",
+  notesEs: "Port nativo a PC del Doom de Super Nintendo (1995) construido con SNESRecomp, con mejoras de calidad de vida. En desarrollo. Última release: v0.03.",
+};

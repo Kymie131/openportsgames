@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const hydroThunderHurricaneRecomp: Port = {
+  schema: "port",
+  id: "hydro-thunder-hurricane-recomp",
+  title: "Hydro Thunder Hurricane (PC)",
+  game: "Hydro Thunder Hurricane",
+  developers: ["visibou"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2010,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/visibou/htrecomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  notes: "Native PC build of Hydro Thunder Hurricane (Xbox 360, 2010) produced by static recompilation with the ReXGlue SDK: a real port rather than an emulator. Latest release: Release.",
+  notesEs: "Build nativo para PC de Hydro Thunder Hurricane (Xbox 360, 2010) mediante recompilación estática con el SDK ReXGlue: un port real, no un emulador. Última release: Release.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const battleTanxRecomp: Port = {
+  schema: "port",
+  id: "battle-tanx-recomp",
+  title: "BattleTanx (PC)",
+  game: "BattleTanx",
+  developers: ["wootbeer"],
+  publisher: "3DO",
+  originalYear: 1998,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/wootbeer/btrecomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  related: ["battletanx","battletanx-global-assault-recomp"],
+  notes: "Native PC port of BattleTanx (Nintendo 64, 1998) built by statically recompiling the N64 game with N64Recomp and N64ModernRuntime. You need your own copy of the game. Latest release: 0.1.1.",
+  notesEs: "Port nativo a PC de BattleTanx (Nintendo 64, 1998) mediante recompilación estática del juego de N64 con N64Recomp y N64ModernRuntime. Necesitas tu propia copia del juego. Última release: 0.1.1.",
+};

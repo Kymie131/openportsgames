@@ -1,6 +1,34 @@
 import { describe, expect, it } from "vitest";
-import { OG_IMAGE, pageMeta, summarize } from "@/lib/seo";
+import { OG_IMAGE, pageMeta, portPlatformLabel, portTitle, summarize } from "@/lib/seo";
 import { absoluteUrl } from "@/lib/site";
+
+describe("port page titles", () => {
+  it("names the actual target platform instead of always saying PC", () => {
+    expect(portTitle("en", "Super Mario Galaxy", "GalaxyPad", ["android"])).toBe(
+      "Super Mario Galaxy native Android port – GalaxyPad",
+    );
+    expect(portTitle("es", "Super Mario Galaxy", "GalaxyPad", ["android"])).toBe(
+      "Super Mario Galaxy port nativo para Android – GalaxyPad",
+    );
+    expect(portTitle("en", "Wind Waker HD", "SwitchWakerHD", ["switch"])).toBe(
+      "Wind Waker HD native Nintendo Switch port – SwitchWakerHD",
+    );
+  });
+
+  it("keeps PC when the port also ships on desktop platforms", () => {
+    expect(
+      portTitle("en", "Forza Horizon", "Pinyon Shift", ["windows", "linux", "android"]),
+    ).toBe("Forza Horizon native PC port – Pinyon Shift");
+  });
+
+  it("labels each non-desktop target", () => {
+    expect(portPlatformLabel(["windows"])).toBe("PC");
+    expect(portPlatformLabel(["web"])).toBe("PC");
+    expect(portPlatformLabel(["ios"])).toBe("iOS");
+    expect(portPlatformLabel(["psvita"])).toBe("PS Vita");
+    expect(portPlatformLabel(["3ds"])).toBe("Nintendo 3DS");
+  });
+});
 
 describe("meta description summarizer", () => {
   it("keeps short descriptions untouched", () => {

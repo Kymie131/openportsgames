@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const doomRpgRe: Port = {
+  schema: "port",
+  id: "doom-rpg-re",
+  title: "Doom RPG Reverse Engineering",
+  game: "Doom RPG",
+  developers: ["Erick194"],
+  publisher: "id Software",
+  originalYear: 2005,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Erick194/DoomRPG-RE"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "Reverse engineering of Doom RPG, the mobile turn-based game by id Software, by the [GEC] group. Latest release: v0.2.2.",
+  notesEs: "Ingeniería inversa de Doom RPG, el juego por turnos para móviles de id Software, por el grupo [GEC]. Última release: v0.2.2.",
+};

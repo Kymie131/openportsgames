@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bloodborneDecomp: Port = {
+  schema: "port",
+  id: "bloodborne-decomp",
+  title: "Bloodborne Decompilation",
+  game: "Bloodborne",
+  developers: ["Yharnam-Hunters"],
+  publisher: "Sony Interactive Entertainment",
+  originalYear: 2015,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Yharnam-Hunters/Paleblood"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  wip: true,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 4"],
+  related: ["bloodborne-pc","bloodborne-android"],
+  notes: "Decompilation of Bloodborne (PS4, CUSA03173 v1.09) with its own runtime: 21 of 157757 functions verified so far, so the game does not run on it yet. No game files included.",
+  notesEs: "Decompilación de Bloodborne (PS4, CUSA03173 v1.09) con runtime propio: 21 de 157757 funciones verificadas por ahora, así que el juego aún no se ejecuta en él. No incluye archivos del juego.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const waveRace64Decomp: Port = {
+  schema: "port",
+  id: "wave-race-64-decomp",
+  title: "Wave Race 64 Decompilation",
+  game: "Wave Race 64",
+  developers: ["LLONSIT"],
+  publisher: "Nintendo",
+  originalYear: 1996,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/LLONSIT/Wave-Race-64"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  related: ["wave-race-64-recompiled","race-wave-46"],
+  notes: "Early work-in-progress decompilation of Wave Race 64 (Nintendo 64, 1996). No playable release of its own.",
+  notesEs: "Decompilación temprana y en curso de Wave Race 64 (Nintendo 64, 1996). Sin release jugable propia.",
+};

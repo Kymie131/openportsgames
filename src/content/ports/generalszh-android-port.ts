@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const generalszhAndroidPort: Port = {
+  schema: "port",
+  id: "generalszh-android-port",
+  title: "GeneralsZH Android Port",
+  game: "Command & Conquer: Generals: Zero Hour",
+  developers: ["MYSOREZ"],
+  publisher: "Electronic Arts",
+  originalYear: 2003,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/MYSOREZ/GeneralsZH-Android-Port"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Command & Conquer: Generals: Zero Hour (Electronic Arts, 2003) for Android (source port). Latest release: v1.4.0. Needs your own copy of the game.",
+  notesEs: "Command & Conquer: Generals: Zero Hour (Electronic Arts, 2003) para Android (port de código). Última release: v1.4.0. Necesita tu propia copia del juego.",
+};

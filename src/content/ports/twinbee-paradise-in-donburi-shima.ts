@@ -15,7 +15,7 @@ export const TwinbeeParadiseInDonburiShima: Port = {
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
   release: { version: null, date: null },
-  sources: ["https://github.com/Jhuyghue/donburi-decomp"],
+  sources: ["https://github.com/Jhuyghue/donburi-recomp"],
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,

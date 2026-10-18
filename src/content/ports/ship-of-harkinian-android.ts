@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const shipOfHarkinianAndroid: Port = {
+  schema: "port",
+  id: "ship-of-harkinian-android",
+  title: "Ship of Harkinian (Android)",
+  game: "The Legend of Zelda: Ocarina of Time",
+  developers: ["linkzenic"],
+  publisher: "Nintendo",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/linkzenic/Shipwright-Android"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  related: ["ship-of-harkinian"],
+  notes: "Unofficial Android fork of Ship of Harkinian, the native port of The Legend of Zelda: Ocarina of Time (Nintendo 64, 1998). Latest release: v9.3.0-android.1.",
+  notesEs: "Fork no oficial para Android de Ship of Harkinian, el port nativo de The Legend of Zelda: Ocarina of Time (Nintendo 64, 1998). Última release: v9.3.0-android.1.",
+};

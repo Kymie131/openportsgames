@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const quakeIiiArenaClassicCoreEngines: Port = {
+  schema: "port",
+  id: "quake-iii-arena-classic-core-engines",
+  title: "Quake III Arena (Classic Core Engines)",
+  game: "Quake III Arena",
+  developers: ["sandstranger"],
+  publisher: "id Software",
+  originalYear: 1999,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sandstranger/com.mobilerpgpack.phone"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Quake III Arena (id Software, 1999) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (baseq3 folder).",
+  notesEs: "Quake III Arena (id Software, 1999) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
+};

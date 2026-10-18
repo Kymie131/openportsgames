@@ -15,7 +15,7 @@ export const syphonFilter2Recompiled: Port = {
   platforms: ["windows"],
   status: "alpha",
   release: { version: null, date: null },
-  sources: ["https://github.com/Alexbeav/syphon-filter-2-recompiled"],
+  sources: ["https://github.com/alexbeavs-ps1-ports/syphon-filter-2-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],

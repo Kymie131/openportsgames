@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const midnightClubLaIos: Port = {
+  schema: "port",
+  id: "midnight-club-la-ios",
+  title: "Midnight Club: Los Angeles (iPhone/iPad)",
+  game: "Midnight Club: Los Angeles",
+  developers: ["KoreanSeats1"],
+  publisher: "Rockstar Games",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ios"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/KoreanSeats1/MCLA-4iOS"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  related: ["midnight-club-la-recomp"],
+  notes: "Midnight Club: Los Angeles on iPhone and iPad: ARM64 static recompilation with native Metal rendering and an experimental 60 FPS patch. Bring your own game files. Latest release: v1.0.4.",
+  notesEs: "Midnight Club: Los Angeles en iPhone y iPad: recompilación estática ARM64 con render nativo Metal y un parche experimental de 60 FPS. Aporta tus propios archivos del juego. Última release: v1.0.4.",
+};

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const dbzBurstLimitAndroid: Port = {
+  schema: "port",
+  id: "dbz-burst-limit-android",
+  title: "DBZ Burst Limit Android",
+  game: "Dragon Ball Z: Burst Limit",
+  developers: ["nahalewski"],
+  publisher: "Bandai Namco",
+  originalYear: 2008,
+  portType: "source-port",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/nahalewski/DBZBL-Android-LAN"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  notes: "Dragon Ball Z: Burst Limit (Bandai Namco, 2008) for Android (source port). Needs your own copy of the game.",
+  notesEs: "Dragon Ball Z: Burst Limit (Bandai Namco, 2008) para Android (port de código). Necesita tu propia copia del juego.",
+};

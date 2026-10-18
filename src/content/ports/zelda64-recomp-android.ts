@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const zelda64RecompAndroid: Port = {
+  schema: "port",
+  id: "zelda64-recomp-android",
+  title: "Zelda64 Recompiled (Android)",
+  game: "The Legend of Zelda: Majora's Mask",
+  developers: ["linkzenic"],
+  publisher: "Nintendo",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/linkzenic/Zelda64Recomp-Android"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  related: ["zelda64-recomp","maskpad"],
+  notes: "Android port of Zelda64 Recompiled, the Majora's Mask (Nintendo 64, 2000) recompilation. Bring your own ROM. Latest release: 0.6.10.",
+  notesEs: "Port para Android de Zelda64 Recompiled, la recompilación de Majora's Mask (Nintendo 64, 2000). Aporta tu propia ROM. Última release: 0.6.10.",
+};

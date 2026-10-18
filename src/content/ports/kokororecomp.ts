@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const kokororecomp: Port = {
+  schema: "port",
+  id: "kokororecomp",
+  title: "KokoroRecomp",
+  game: "KoroKoro Postnin",
+  developers: ["elprogramadorloco-arch"],
+  publisher: "Nintendo",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/elprogramadorloco-arch/korokoro-recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "KoroKoro Postnin (Nintendo, 2000) for Android (static recompilation). Latest release: v0.1. Needs your own copy of the game.",
+  notesEs: "KoroKoro Postnin (Nintendo, 2000) para Android (recompilación estática). Última release: v0.1. Necesita tu propia copia del juego.",
+};

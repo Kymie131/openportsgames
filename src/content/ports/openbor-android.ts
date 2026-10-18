@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const openborAndroid: Port = {
+  schema: "port",
+  id: "openbor-android",
+  kind: "tool",
+  title: "OpenBoR (Android)",
+  game: "OpenBoR",
+  developers: ["DCurrent"],
+  publisher: "DCurrent",
+  originalYear: 2001,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/DCurrent/openbor"],
+  license: { spdx: "BSD-3-Clause" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "OpenBoR (DCurrent, 2001) an Android tool. Latest release: v7533. Needs your own copy of the game (YES).",
+  notesEs: "OpenBoR (DCurrent, 2001) una herramienta para Android. Última release: v7533. Necesita tu propia copia del juego.",
+};

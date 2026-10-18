@@ -15,7 +15,7 @@ export const crashTwinsanityRecomp: Port = {
   platforms: ["windows"],
   status: "beta",
   release: { version: null, date: null },
-  sources: ["https://github.com/menaman123/Ps2Recomp"],
+  sources: ["https://github.com/menaman123/NativeEE"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,

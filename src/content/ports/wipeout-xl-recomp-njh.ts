@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const wipeoutXlRecompNjh: Port = {
+  schema: "port",
+  id: "wipeout-xl-recomp-njh",
+  title: "Wipeout XL (NJH-1001)",
+  game: "Wipeout XL",
+  developers: ["NJH-1001"],
+  publisher: "Psygnosis",
+  originalYear: 1996,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/NJH-1001/Wipeout2K97XL"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  related: ["wipeout-xl-recomp"],
+  notes: "Windows x64 setup kit for Wipeout XL (USA, SCUS-94351) with an OpenBIOS, configurable NeGcon dual sticks, optional widescreen and extra tracks. Bring your own disc. Latest release: v0.1.0.",
+  notesEs: "Kit de instalación para Windows x64 de Wipeout XL (USA, SCUS-94351) con OpenBIOS, doble stick NeGcon configurable, panorámico opcional y pistas extra. Aporta tu propio disco. Última release: v0.1.0.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const zelda3Android: Port = {
+  schema: "port",
+  id: "zelda3-android",
+  title: "Zelda3 (Android)",
+  game: "The Legend of Zelda: A Link to the Past",
+  developers: ["samyost1"],
+  publisher: "Nintendo",
+  originalYear: 1991,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/samyost1/zelda3-android"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Super Nintendo"],
+  related: ["zelda3"],
+  notes: "Port of the zelda3 reimplementation of A Link to the Past (Super Nintendo, 1991) to Android. Bring your own ROM. Latest release: v2.0.",
+  notesEs: "Port a Android de la reimplementación zelda3 de A Link to the Past (Super Nintendo, 1991). Aporta tu propia ROM. Última release: v2.0.",
+};

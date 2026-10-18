@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const openWheels: Port = {
+  schema: "port",
+  id: "open-wheels",
+  title: "Open Wheels",
+  game: "Happy Wheels",
+  developers: ["officialmelon"],
+  publisher: "Jim Bonacci",
+  originalYear: 2010,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/officialmelon/OpenWheels"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Happy Wheels (Jim Bonacci, 2010) for Android (source port). Latest release: v0.3.0. Needs your own copy of the game.",
+  notesEs: "Happy Wheels (Jim Bonacci, 2010) para Android (port de código). Última release: v0.3.0. Necesita tu propia copia del juego.",
+};

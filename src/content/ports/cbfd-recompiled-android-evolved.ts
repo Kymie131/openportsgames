@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const cbfdRecompiledAndroidEvolved: Port = {
+  schema: "port",
+  id: "cbfd-recompiled-android-evolved",
+  title: "CBFD Recompiled Android Evolved",
+  game: "Conker's Bad Fur Day",
+  developers: ["codepdbh"],
+  publisher: "Rare",
+  originalYear: 2001,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/codepdbh/CBFD-Recompiled-Android-Evolved"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  notes: "Conker's Bad Fur Day (Rare, 2001) for Android (static recompilation). Latest release: android-v0.2.15. Needs your own copy of the game.",
+  notesEs: "Conker's Bad Fur Day (Rare, 2001) para Android (recompilación estática). Última release: android-v0.2.15. Necesita tu propia copia del juego.",
+};

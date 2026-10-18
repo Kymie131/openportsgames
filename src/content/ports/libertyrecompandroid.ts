@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const libertyrecompandroid: Port = {
+  schema: "port",
+  id: "libertyrecompandroid",
+  title: "LibertyRecompAndroid",
+  game: "Grand Theft Auto IV",
+  developers: ["vaduur"],
+  publisher: "Rockstar Games",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/vaduur/LibertyRecompAndroid"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  notes: "Grand Theft Auto IV (Rockstar Games, 2008) for Android (static recompilation). Latest release: v0.5.9.3. Needs your own copy of the game.",
+  notesEs: "Grand Theft Auto IV (Rockstar Games, 2008) para Android (recompilación estática). Última release: v0.5.9.3. Necesita tu propia copia del juego.",
+};

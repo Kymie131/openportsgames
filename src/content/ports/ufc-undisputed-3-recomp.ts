@@ -15,7 +15,7 @@ export const ufcUndisputed3Recomp: Port = {
   platforms: ["windows"],
   status: "beta",
   release: { version: null, date: null },
-  sources: ["https://github.com/paulogaab21/ufc3recomp"],
+  sources: ["https://github.com/Shadowww9858/Ufc3recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Xbox 360"],

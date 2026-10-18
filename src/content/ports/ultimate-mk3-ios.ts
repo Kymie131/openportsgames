@@ -15,7 +15,7 @@ export const UltimateMk3Ios: Port = {
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
   release: { version: null, date: null },
-  sources: ["https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Recomp"],
+  sources: ["https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled"],
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,

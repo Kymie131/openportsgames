@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ufo50AndroidUnofficial: Port = {
+  schema: "port",
+  id: "ufo-50-android-unofficial",
+  title: "UFO 50 Android Unofficial",
+  game: "UFO 50",
+  developers: ["eboody"],
+  publisher: "Mossmouth",
+  originalYear: 2024,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/eboody/UFO50AndroidUnofficial"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "UFO 50 (Mossmouth, 2024) for Android (source port). Needs your own copy of the game.",
+  notesEs: "UFO 50 (Mossmouth, 2024) para Android (port de código). Necesita tu propia copia del juego.",
+};

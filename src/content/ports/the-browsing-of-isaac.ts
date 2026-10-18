@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const theBrowsingOfIsaac: Port = {
+  schema: "port",
+  id: "the-browsing-of-isaac",
+  title: "The Browsing of Isaac",
+  game: "The Binding of Isaac: Repentance+",
+  developers: ["chiikabu"],
+  publisher: "Nicalis",
+  originalYear: 2021,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["web"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/chiikabu/the-browsing-of-isaac"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  related: ["the-binding-of-isaac-repentance"],
+  notes: "The Binding of Isaac: Repentance+ recompiled to WebAssembly and playable in a browser tab (tboi.online). Requires your own copy of the game.",
+  notesEs: "The Binding of Isaac: Repentance+ recompilado a WebAssembly y jugable en una pestaña del navegador (tboi.online). Requiere tu propia copia del juego.",
+};

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const budokaiTenkaichi3Pc: Port = {
+  schema: "port",
+  id: "budokai-tenkaichi-3-pc",
+  title: "Budokai Tenkaichi 3 (PC)",
+  game: "Dragon Ball Z: Budokai Tenkaichi 3",
+  developers: ["z3xox"],
+  publisher: "Bandai Namco",
+  originalYear: 2007,
+  portType: "decompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/z3xox/Tenkaichi3Decomp"],
+  license: { spdx: "AGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 2"],
+  notes: "PC port of Dragon Ball Z: Budokai Tenkaichi 3 (PS2, 2007) built on the game's decompilation project. Bring your own copy of the game. Latest release: v0.1.37.",
+  notesEs: "Port a PC de Dragon Ball Z: Budokai Tenkaichi 3 (PS2, 2007) construido sobre el proyecto de decompilación del juego. Aporta tu propia copia del juego. Última release: v0.1.37.",
+};

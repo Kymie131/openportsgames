@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const spotify3ds: Port = {
+  schema: "port",
+  id: "spotify-3ds",
+  title: "Spotify for Nintendo 3DS (homebrew)",
+  game: "Spotify",
+  developers: ["davidabejon"],
+  publisher: "Spotify",
+  originalYear: 2026,
+  portType: "source-port",
+  genre: "music",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/davidabejon/spotify-3ds"],
+  license: { spdx: "Apache-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Homebrew application for the Nintendo 3DS that displays and controls the Spotify status of the account you connect, so playback can be managed from the console. It is not a replacement for the official Spotify client. Last push: 2026-10-18.",
+  notesEs: "Aplicación homebrew para Nintendo 3DS que muestra y controla el estado de Spotify de la cuenta que conectes, para poder gestionar la reproducción desde la consola. No sustituye al cliente oficial de Spotify. Último push: 2026-10-18.",
+};

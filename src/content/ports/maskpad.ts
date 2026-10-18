@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const maskpad: Port = {
+  schema: "port",
+  id: "maskpad",
+  title: "MaskPad (Majora's Mask iOS)",
+  game: "The Legend of Zelda: Majora's Mask",
+  developers: ["chrissotraidis"],
+  publisher: "Nintendo",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ios"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/chrissotraidis/maskpad"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  related: ["2ship2harkinian"],
+  notes: "The Legend of Zelda: Majora's Mask via 2 Ship 2 Harkinian, rebuilt for iPhone and iPad. Requires your own copy of the game. Latest release: v0.2.1.",
+  notesEs: "The Legend of Zelda: Majora's Mask mediante 2 Ship 2 Harkinian, reconstruido para iPhone y iPad. Requiere tu propia copia del juego. Última release: v0.2.1.",
+};

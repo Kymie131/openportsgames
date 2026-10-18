@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const dora643: Port = {
+  schema: "port",
+  id: "dora64-3",
+  title: "Dora64-3",
+  game: "Doraemon 3: Nobita no Machi SOS!",
+  developers: ["citrongames"],
+  publisher: "Epoch",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/citrongames/Dora64-3"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Doraemon 3: Nobita no Machi SOS! (Epoch, 2000) for Android (source port). Latest release: v1.0.0. Needs your own copy of the game.",
+  notesEs: "Doraemon 3: Nobita no Machi SOS! (Epoch, 2000) para Android (port de código). Última release: v1.0.0. Necesita tu propia copia del juego.",
+};

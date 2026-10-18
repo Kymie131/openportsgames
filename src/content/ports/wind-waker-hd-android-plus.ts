@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const windWakerHdAndroidPlus: Port = {
+  schema: "port",
+  id: "wind-waker-hd-android-plus",
+  title: "Wind Waker HD Recompiled for Android (Plus)",
+  game: "The Legend of Zelda: The Wind Waker HD",
+  developers: ["Nycolazs"],
+  publisher: "Nintendo",
+  originalYear: 2013,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Nycolazs/WindWakerHD-Android-Plus"],
+  license: { spdx: "MPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Wii U"],
+  related: ["zeldawwhdrecompandroid","switch-waker-hd","wind-waker-hd-recomp"],
+  notes: "The Legend of Zelda: The Wind Waker HD running natively on Android phones and tablets: the game's PowerPC code becomes native ARM64 and its graphics run on Vulkan. Adds a built-in Brazilian Portuguese translation, HUD editor, .wua support and controller gyro. Bring your own game. Latest release: v1.11.1.",
+  notesEs: "The Legend of Zelda: The Wind Waker HD funcionando de forma nativa en móviles y tablets Android: el código PowerPC pasa a ARM64 nativo y sus gráficos corren en Vulkan. Añade traducción al portugués de Brasil, editor de HUD, soporte .wua y giroscopio de mando. Aporta tu propio juego. Última release: v1.11.1.",
+};

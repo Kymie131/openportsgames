@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const descentMobile: Port = {
+  schema: "port",
+  id: "descent-mobile",
+  title: "Descent Mobile",
+  game: "Descent",
+  developers: ["devint1"],
+  publisher: "Interplay Entertainment",
+  originalYear: 1995,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/devint1/Descent-Mobile"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["MS-DOS"],
+  notes: "Descent (Interplay Entertainment, 1995) for Android (source port). Needs your own copy of the game.",
+  notesEs: "Descent (Interplay Entertainment, 1995) para Android (port de código). Necesita tu propia copia del juego.",
+};

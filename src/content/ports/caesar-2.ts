@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const caesar2: Port = {
+  schema: "port",
+  id: "caesar-2",
+  title: "Caesar II (Native)",
+  game: "Caesar II",
+  developers: ["second-impressions"],
+  publisher: "Sierra On-Line",
+  originalYear: 1995,
+  portType: "decompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos","web"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/second-impressions/caesar2-port"],
+  license: { spdx: "AGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["MS-DOS"],
+  notes: "Portable continuation of the Caesar II (1995) source reconstruction: the game's own code was recovered from the original executable and builds natively on Linux, Windows, macOS and the browser. No DOSBox, no emulator. Latest release: v1.0.3.",
+  notesEs: "Continuación portable de la reconstrucción del código de Caesar II (1995): el propio código del juego se recuperó del ejecutable original y compila de forma nativa en Linux, Windows, macOS y el navegador. Sin DOSBox ni emulador. Última release: v1.0.3.",
+};

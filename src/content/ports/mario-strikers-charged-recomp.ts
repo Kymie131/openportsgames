@@ -15,7 +15,7 @@ export const marioStrikersChargedRecomp: Port = {
   platforms: ["windows", "linux", "macos"],
   status: "beta",
   release: { version: null, date: null },
-  sources: ["https://github.com/yannicksuter/mscharged-port"],
+  sources: ["https://github.com/previouslevelgames/recharged"],
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,

@@ -15,7 +15,7 @@ export const smbVanillaPort: Port = {
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
   release: { version: null, date: null },
-  sources: ["https://github.com/nukep/smb-vanilla-port"],
+  sources: ["https://github.com/nukep/SMB-Vanilla"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Nintendo Entertainment System"],

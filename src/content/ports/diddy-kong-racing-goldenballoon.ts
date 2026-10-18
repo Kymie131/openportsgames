@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const diddyKongRacingGoldenballoon: Port = {
+  schema: "port",
+  id: "diddy-kong-racing-goldenballoon",
+  title: "Golden Balloon (Diddy Kong Racing)",
+  game: "Diddy Kong Racing",
+  developers: ["akratch"],
+  publisher: "Nintendo",
+  originalYear: 1997,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","web"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/akratch/goldenballoon"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  notes: "Golden Balloon: native Windows and browser port of Diddy Kong Racing (Nintendo 64, 1997) built from the game's decompilation. Bring your own ROM. Latest release: v1.8.0.",
+  notesEs: "Golden Balloon: port nativo para Windows y navegador de Diddy Kong Racing (Nintendo 64, 1997) construido a partir de la decompilación del juego. Aporta tu propia ROM. Última release: v1.8.0.",
+};

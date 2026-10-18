@@ -19,6 +19,7 @@ export const PokemonSnap: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
+  sourceDead: true,
   originalSystems: ["Nintendo 64"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Pokemon%20Snap%20(Australia).png",
@@ -26,6 +27,6 @@ export const PokemonSnap: Port = {
     credit: "Box art",
   },
   notes:
-    "Static recompilation of Pokémon Snap (N64, 1999) for PC platforms (Windows, Linux, macOS).",
-  notesEs: "Recompilación estática de Pokémon Snap (N64, 1999) para PC (Windows, Linux, macOS).",
+    "Static recompilation of Pokémon Snap (N64, 1999) for PC platforms (Windows, Linux, macOS). The upstream repository is no longer available.",
+  notesEs: "Recompilación estática de Pokémon Snap (N64, 1999) para PC (Windows, Linux, macOS). El repositorio original ya no está disponible.",
 };

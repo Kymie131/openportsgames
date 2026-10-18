@@ -15,7 +15,7 @@ export const forecastChannel: Port = {
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
   release: { version: null, date: null },
-  sources: ["https://github.com/GuestDreemurr/forecast"],
+  sources: ["https://github.com/doldecomp/forecast"],
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,

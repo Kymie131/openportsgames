@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const halo1TouchControlFork: Port = {
+  schema: "port",
+  id: "halo-1-touch-control-fork",
+  title: "Halo 1 Touch Control Fork",
+  game: "Halo: Combat Evolved",
+  developers: ["theLlamaNet"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2001,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/theLlamaNet/halo-ce-android"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox"],
+  notes: "Halo: Combat Evolved (Microsoft Game Studios, 2001) for Android (source port). Latest release: 4.0. Needs your own copy of the game.",
+  notesEs: "Halo: Combat Evolved (Microsoft Game Studios, 2001) para Android (port de código). Última release: 4.0. Necesita tu propia copia del juego.",
+};

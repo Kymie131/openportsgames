@@ -15,7 +15,7 @@ export const yakuzaDeadSoulsRecomp: Port = {
   platforms: ["windows"],
   status: "beta",
   release: { version: null, date: null },
-  sources: ["https://github.com/canersaka/Yakuza-Dead-Souls-EX"],
+  sources: ["https://github.com/canersaka/Yakuza-Dead-Souls-Recompiled"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,

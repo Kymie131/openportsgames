@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const alleycatX8664Recomp: Port = {
+  schema: "port",
+  id: "alleycat-x86-64-recomp",
+  title: "Alley Cat (x86-64 Recompilation)",
+  game: "Alley Cat",
+  developers: ["petarov"],
+  publisher: "SynSoft",
+  originalYear: 1984,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["web","windows","macos","linux"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/petarov/alleycat.exe"],
+  license: { spdx: "Unlicense" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["MS-DOS"],
+  aiDisclosure: {"source":"https://github.com/petarov/alleycat.exe","quote":"About 99% of the code is LLM-generated and only roughly reviewed."},
+  notes: "Recompilation of Alley Cat (Bill Williams, 1984) from its original DOS executable for x86_64 platforms, with CGA and PCjr graphics. About 99% of the code is LLM-generated. Latest release: 1.3.",
+  notesEs: "Recompilación de Alley Cat (Bill Williams, 1984) desde su ejecutable original de DOS para plataformas x86_64, con gráficos CGA y PCjr. Alrededor del 99 % del código lo generó un LLM. Última release: 1.3.",
+};

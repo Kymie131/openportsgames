@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mkvdcuAndroid: Port = {
+  schema: "port",
+  id: "mkvdcu-android",
+  title: "MKVDCU Android",
+  game: "Mortal Kombat vs. DC Universe",
+  developers: ["lemooz"],
+  publisher: "Midway Games",
+  originalYear: 2008,
+  portType: "source-port",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/lemooz/MKVDCU-Android"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Mortal Kombat vs. DC Universe (Midway Games, 2008) for Android (source port). Needs your own copy of the game.",
+  notesEs: "Mortal Kombat vs. DC Universe (Midway Games, 2008) para Android (port de código). Necesita tu propia copia del juego.",
+};

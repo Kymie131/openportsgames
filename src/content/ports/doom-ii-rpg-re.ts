@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const doomIiRpgRe: Port = {
+  schema: "port",
+  id: "doom-ii-rpg-re",
+  title: "Doom II RPG Reverse Engineering",
+  game: "Doom II RPG",
+  developers: ["Erick194"],
+  publisher: "id Software",
+  originalYear: 2009,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Erick194/DoomIIRPG-RE"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  related: ["doom-rpg-re"],
+  notes: "Reverse engineering of Doom II RPG, the mobile sequel to Doom RPG, by the [GEC] group. Latest release: v.0.1 (2023).",
+  notesEs: "Ingeniería inversa de Doom II RPG, la secuela para móviles de Doom RPG, por el grupo [GEC]. Última release: v.0.1 (2023).",
+};

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ben10OmniverseRecomp: Port = {
+  schema: "port",
+  id: "ben-10-omniverse-recomp",
+  title: "Ben 10 Omniverse (macOS)",
+  game: "Ben 10 Omniverse",
+  developers: ["andrebrumdev"],
+  publisher: "D3Publisher",
+  originalYear: 2012,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/andrebrumdev/ben10-omniverse-recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 3"],
+  notes: "Ben 10 Omniverse (PS3, BLUS31017 v01.00) running natively on Apple Silicon: the PowerPC and Cell SPU code is translated ahead of time to C/C++ and linked against a reimplementation. No emulator, no JIT, and no game code or assets included.",
+  notesEs: "Ben 10 Omniverse (PS3, BLUS31017 v01.00) funcionando de forma nativa en Apple Silicon: el código PowerPC y de las SPU del Cell se traduce previamente a C/C++ y se enlaza contra una reimplementación. Sin emulador, sin JIT y sin código ni assets del juego.",
+};

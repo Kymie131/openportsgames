@@ -30,11 +30,38 @@ export function summarize(text: string, max: number = DESCRIPTION_MAX): string {
   return `${head}.`;
 }
 
-/** `<title>` for a port page: the game, the platform and the port's own name. */
-export function portTitle(locale: Locale, game: string, portName: string): string {
+/**
+ * Short label for the platform a port targets, as it should read in a title:
+ * Android, iOS, Nintendo Switch, or PC for desktop/web targets. A port that
+ * also ships on desktop keeps "PC" so it matches the usual "… pc port" query.
+ */
+export function portPlatformLabel(platforms: readonly string[]): string {
+  const hasDesktop = platforms.some((key) =>
+    ["windows", "linux", "macos", "web"].includes(key),
+  );
+  if (!hasDesktop) {
+    if (platforms.includes("android")) return "Android";
+    if (platforms.includes("ios")) return "iOS";
+    if (platforms.includes("switch")) return "Nintendo Switch";
+    if (platforms.includes("psvita")) return "PS Vita";
+    if (platforms.includes("3ds")) return "Nintendo 3DS";
+    if (platforms.includes("wii")) return "Wii";
+    if (platforms.includes("wiiu")) return "Wii U";
+  }
+  return "PC";
+}
+
+/** `<title>` for a port page: the game, the target platform and the port's own name. */
+export function portTitle(
+  locale: Locale,
+  game: string,
+  portName: string,
+  platforms: readonly string[],
+): string {
+  const platform = portPlatformLabel(platforms);
   return locale === "es"
-    ? `${game} port nativo para PC – ${portName}`
-    : `${game} native PC port – ${portName}`;
+    ? `${game} port nativo para ${platform} – ${portName}`
+    : `${game} native ${platform} port – ${portName}`;
 }
 
 /** Schema.org BreadcrumbList for a list of {name, url} items, in order. */

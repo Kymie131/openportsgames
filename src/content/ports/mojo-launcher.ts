@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mojoLauncher: Port = {
+  schema: "port",
+  id: "mojo-launcher",
+  kind: "tool",
+  title: "Mojo Launcher",
+  game: "Minecraft Java Edition",
+  developers: ["MojoLauncher"],
+  publisher: "Mojang Studios",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/MojoLauncher/MojoLauncher"],
+  license: { spdx: "LGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Minecraft Java Edition (Mojang Studios, 2011) an Android tool. Latest release: iris. Needs your own copy of the game (?).",
+  notesEs: "Minecraft Java Edition (Mojang Studios, 2011) una herramienta para Android. Última release: iris. Necesita tu propia copia del juego.",
+};

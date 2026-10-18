@@ -71,6 +71,32 @@ describe("catalog ports", () => {
         "fire-emblem-the-sacred-stones",
         "fire-emblem-the-sacred-stones-fireemblem",
       ],
+      // The upstream repository was renamed, so both entries now point at it.
+      "https://github.com/dsda-org/dsda-doom": ["dsda-doom", "dsda-doom-dsda-org"],
+      "https://github.com/OpenCommunityEdition/OpenCE": ["halo-ce-universal", "opence"],
+      // "Classic Core Engines" is one Android port pack that covers many id/Quake-engine games.
+      "https://github.com/sandstranger/com.mobilerpgpack.phone": [
+        "chex-quest-classic-core-engines",
+        "classic-core-engines",
+        "doom-3-bfg-edition-classic-core-engines",
+        "doom-64-remastered-classic-core-engines",
+        "doom-classic-core-engines",
+        "doom-ii-classic-core-engines",
+        "doom-playstation-classic-core-engines",
+        "final-doom-playstation-classic-core-engines",
+        "hacx-classic-core-engines",
+        "heretic-classic-core-engines",
+        "hexen-classic-core-engines",
+        "hexen-ii-classic-core-engines",
+        "hexen-ii-portal-of-praevus-classic-core-engines",
+        "openarena-classic-core-engines",
+        "quake-classic-core-engines",
+        "quake-dissolution-of-eternity-classic-core-engines",
+        "quake-ii-classic-core-engines",
+        "quake-iii-arena-classic-core-engines",
+        "quake-scourge-of-armagon-classic-core-engines",
+        "wolfenstein-rpg-classic-core-engines",
+      ],
       // PortsDR is an index; all its entries share one landing page.
       "https://portsdr.com/": [
         "buck-bumble-recomp",

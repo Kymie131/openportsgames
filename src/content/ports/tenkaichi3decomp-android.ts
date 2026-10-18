@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tenkaichi3decompAndroid: Port = {
+  schema: "port",
+  id: "tenkaichi3decomp-android",
+  title: "Tenkaichi3Decomp Android",
+  game: "Dragon Ball Z: Budokai Tenkaichi 3",
+  developers: ["dfdx047"],
+  publisher: "Bandai Namco",
+  originalYear: 2007,
+  portType: "decompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/dfdx047/Tenkaichi3DecompAndroid"],
+  license: { spdx: "AGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 2"],
+  notes: "Dragon Ball Z: Budokai Tenkaichi 3 (Bandai Namco, 2007) for Android (decompilation). Latest release: android-v0.7.3. Needs your own copy of the game.",
+  notesEs: "Dragon Ball Z: Budokai Tenkaichi 3 (Bandai Namco, 2007) para Android (decompilación). Última release: android-v0.7.3. Necesita tu propia copia del juego.",
+};

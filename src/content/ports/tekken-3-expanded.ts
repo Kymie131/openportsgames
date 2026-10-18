@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tekken3Expanded: Port = {
+  schema: "port",
+  id: "tekken-3-expanded",
+  title: "Tekken 3 Expanded",
+  game: "Tekken 3",
+  developers: ["omarma"],
+  publisher: "Namco",
+  originalYear: 1997,
+  portType: "source-port",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/omarma/tekken3-expanded"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  notes: "Tekken 3 (Namco, 1997) for Android (source port). Latest release: v1.3.0. Needs your own copy of the game (Need PS1 ROM and arcade roms).",
+  notesEs: "Tekken 3 (Namco, 1997) para Android (port de código). Última release: v1.3.0. Necesita tu propia copia del juego.",
+};

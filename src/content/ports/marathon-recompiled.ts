@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const marathonRecompiled: Port = {
+  schema: "port",
+  id: "marathon-recompiled",
+  title: "Marathon Recompiled",
+  game: "Sonic The Hedgehog (2006)",
+  developers: ["Player124413"],
+  publisher: "Sega",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Player124413/MarathonRecomp_android-test-edition"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Sonic The Hedgehog (2006) (Sega, 2006) for Android (static recompilation). Latest release: Third. Needs your own copy of the game (Sonic 2006 ISO).",
+  notesEs: "Sonic The Hedgehog (2006) (Sega, 2006) para Android (recompilación estática). Última release: Third. Necesita tu propia copia del juego.",
+};

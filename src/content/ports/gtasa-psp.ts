@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gtasaPsp: Port = {
+  schema: "port",
+  id: "gtasa-psp",
+  title: "Grand Theft Auto: San Andreas (PSP)",
+  game: "Grand Theft Auto: San Andreas",
+  developers: ["vizPilot"],
+  publisher: "Rockstar Games",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/vizPilot/gtasa_psp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 2"],
+  related: ["re-lcs","re3-android-evolved"],
+  notes: "Work-in-progress port of Grand Theft Auto: San Andreas from PC to the PSP, based on the re3 reverse-engineered codebase. No release yet.",
+  notesEs: "Port en desarrollo de Grand Theft Auto: San Andreas de PC a PSP, basado en el código reversado de re3. Sin release todavía.",
+};

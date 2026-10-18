@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const partyboard: Port = {
+  schema: "port",
+  id: "partyboard",
+  title: "PartyBoard (Mario Party 4)",
+  game: "Mario Party 4",
+  developers: ["mariopartyrd"],
+  publisher: "Nintendo",
+  originalYear: 2002,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/mariopartyrd/partyboard"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  related: ["mario-party-4-recomp","mario-party-4-pc-zeranemesis"],
+  notes: "PartyBoard: work-in-progress PC port of Mario Party 4 (GameCube, 2002). No release yet.",
+  notesEs: "PartyBoard: port a PC en desarrollo de Mario Party 4 (GameCube, 2002). Sin release todavía.",
+};

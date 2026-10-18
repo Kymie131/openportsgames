@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const marioParty4PcZeranemesis: Port = {
+  schema: "port",
+  id: "mario-party-4-pc-zeranemesis",
+  title: "Mario Party 4 (PC, zeranemesis)",
+  game: "Mario Party 4",
+  developers: ["zeranemesis"],
+  publisher: "Nintendo",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/zeranemesis/Marioparty4"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  related: ["mario-party-4-recomp"],
+  notes: "Work-in-progress PC port of Mario Party 4 (GameCube, 2002). No release yet.",
+  notesEs: "Port a PC en desarrollo de Mario Party 4 (GameCube, 2002). Sin release todavía.",
+};

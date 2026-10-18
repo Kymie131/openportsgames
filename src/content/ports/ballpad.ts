@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ballpad: Port = {
+  schema: "port",
+  id: "ballpad",
+  title: "BallPad (Super Mario Strikers iOS)",
+  game: "Super Mario Strikers",
+  developers: ["chrissotraidis"],
+  publisher: "Nintendo",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ios"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/chrissotraidis/ballpad"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  related: ["strikers","super-mario-strikers-decomp"],
+  notes: "Super Mario Strikers native for iPhone and iPadOS (GameCube, 2005). Bring your own game. Latest release: v1.1.1.",
+  notesEs: "Super Mario Strikers nativo para iPhone e iPadOS (GameCube, 2005). Aporta tu propio juego. Última release: v1.1.1.",
+};

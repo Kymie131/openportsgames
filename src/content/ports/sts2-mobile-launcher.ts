@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sts2MobileLauncher: Port = {
+  schema: "port",
+  id: "sts2-mobile-launcher",
+  kind: "tool",
+  title: "StS2 Mobile Launcher",
+  game: "Slay The Spire 2",
+  developers: ["ModinMobileSTS"],
+  publisher: "Humble Bundle",
+  originalYear: 2026,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ModinMobileSTS/Sts2MobileLauncher"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Slay The Spire 2 (Humble Bundle, 2026) an Android tool. Latest release: v0.1.11. Needs your own copy of the game.",
+  notesEs: "Slay The Spire 2 (Humble Bundle, 2026) una herramienta para Android. Última release: v0.1.11. Necesita tu propia copia del juego.",
+};

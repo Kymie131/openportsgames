@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const psprecompViceCityStories: Port = {
+  schema: "port",
+  id: "psprecomp-vice-city-stories",
+  title: "PSPRecomp · Vice City Stories",
+  game: "Grand Theft Auto: Vice City Stories",
+  developers: ["codepdbh"],
+  publisher: "Rockstar Games",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/codepdbh/PSPRecomp-VCS-Android"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation Portable"],
+  notes: "Grand Theft Auto: Vice City Stories (Rockstar Games, 2006) for Android (static recompilation). Needs your own copy of the game.",
+  notesEs: "Grand Theft Auto: Vice City Stories (Rockstar Games, 2006) para Android (recompilación estática). Necesita tu propia copia del juego.",
+};

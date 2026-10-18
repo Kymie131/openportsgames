@@ -15,7 +15,7 @@ export const pokewildsAndroid: Port = {
   platforms: ["android"],
   status: "beta",
   release: { version: null, date: null },
-  sources: ["https://github.com/TryTheSauceBoss/Pokewilds-Android"],
+  sources: ["https://github.com/TryTheSauceBoss/Pokewilds-Godot"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Windows"],

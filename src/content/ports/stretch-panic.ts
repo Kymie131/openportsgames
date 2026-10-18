@@ -16,7 +16,7 @@ export const StretchPanic: Port = {
   status: "alpha",
   release: { version: null, date: null },
   sources: ["https://github.com/Harskov/stretch-panic-usa"],
-  license: { spdx: "MIT" },
+  license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],

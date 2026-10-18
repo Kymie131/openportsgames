@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const halo1Decomp: Port = {
+  schema: "port",
+  id: "halo-1-decomp",
+  title: "Halo 1 Decomp",
+  game: "Halo: Combat Evolved",
+  developers: ["cybersecurity"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2001,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/cybersecurity/halo-ce-universal"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox"],
+  notes: "Halo: Combat Evolved (Microsoft Game Studios, 2001) for Android (decompilation). Latest release: build-232. Needs your own copy of the game.",
+  notesEs: "Halo: Combat Evolved (Microsoft Game Studios, 2001) para Android (decompilación). Última release: build-232. Necesita tu propia copia del juego.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const princeOfPersiaClassicPsvita: Port = {
+  schema: "port",
+  id: "prince-of-persia-classic-psvita",
+  title: "Prince of Persia Classic (PS Vita)",
+  game: "Prince of Persia Classic",
+  developers: ["MetalSyntax"],
+  publisher: "Ubisoft",
+  originalYear: 2007,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/MetalSyntax/prince-of-persia-classic-psvita-port"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  related: ["prince-monogame"],
+  notes: "PS Vita homebrew port and wrapper for Prince of Persia Classic (the 2007 remake), built on the Android release with soloader-boilerplate. Guide included for installing it on the console. Latest release: v01.45.",
+  notesEs: "Port y wrapper homebrew para PS Vita de Prince of Persia Classic (el remake de 2007), construido sobre la versión de Android con soloader-boilerplate. Incluye guía de instalación en la consola. Última release: v01.45.",
+};

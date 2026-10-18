@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const knossosnet: Port = {
+  schema: "port",
+  id: "knossosnet",
+  kind: "tool",
+  title: "KnossosNET",
+  game: "Freespace 2",
+  developers: ["KnossosNET"],
+  publisher: "Interplay Entertainment",
+  originalYear: 1999,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "open",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/KnossosNET/Knossos.NET"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Freespace 2 (Interplay Entertainment, 1999) an Android tool. Latest release: v1.3.12. Needs your own copy of the game (??).",
+  notesEs: "Freespace 2 (Interplay Entertainment, 1999) una herramienta para Android. Última release: v1.3.12. Necesita tu propia copia del juego.",
+};

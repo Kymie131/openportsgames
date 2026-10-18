@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const undeadNeighborEatersAndroidNativePort: Port = {
+  schema: "port",
+  id: "undead-neighbor-eaters-android-native-port",
+  title: "Undead Neighbor Eaters — Android Native Port",
+  game: "Zombies Ate My Neighbors",
+  developers: ["sirdankz"],
+  publisher: "Konami",
+  originalYear: 1993,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "open",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sirdankz/Undead-Neighbor-Eaters-Droid"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Zombies Ate My Neighbors (Konami, 1993) for Android (source port). Latest release: DROID. Needs your own copy of the game.",
+  notesEs: "Zombies Ate My Neighbors (Konami, 1993) para Android (port de código). Última release: DROID. Necesita tu propia copia del juego.",
+};

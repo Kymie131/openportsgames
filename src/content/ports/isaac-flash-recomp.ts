@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const isaacFlashRecomp: Port = {
+  schema: "port",
+  id: "isaac-flash-recomp",
+  title: "The Binding of Isaac (Native Recompilation)",
+  game: "The Binding of Isaac",
+  developers: ["whylurking"],
+  publisher: "Edmund McMillen",
+  originalYear: 2011,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","switch"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/whylurking/IsaacRecomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  related: ["the-binding-of-isaac-repentance","isaac-rebirth-android"],
+  notes: "Native C++ recompilation of the original Flash The Binding of Isaac (2011) at 60 fps and 1080p for Windows, Linux and Switch. Requires the original game from Steam; the v1.3.0 release also ships an APK asset.",
+  notesEs: "Recompilación nativa en C++ del The Binding of Isaac original (Flash, 2011) a 60 fps y 1080p para Windows, Linux y Switch. Requiere el juego original de Steam; la release v1.3.0 también incluye un APK.",
+};

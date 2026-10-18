@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const persona3FesRecompiled: Port = {
+  schema: "port",
+  id: "persona-3-fes-recompiled",
+  title: "Persona 3 FES Recompiled",
+  game: "Persona 3 FES",
+  developers: ["poopoocacacacaca"],
+  publisher: "Atlus",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/poopoocacacacaca/p3fes-recompiled"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 2"],
+  related: ["shin-megami-tensei-persona-4"],
+  aiDisclosure: {"source":"https://github.com/poopoocacacacaca/p3fes-recompiled","quote":"AI-Powered Static Recompilation of Persona 3 FES (USA)"},
+  notes: "AI-powered attempt at a static recompilation of Shin Megami Tensei: Persona 3 FES (NTSC-U SLUS-21621). Experimental; no playable release yet.",
+  notesEs: "Intento asistido por IA de recompilación estática de Shin Megami Tensei: Persona 3 FES (NTSC-U SLUS-21621). Experimental; sin release jugable todavía.",
+};

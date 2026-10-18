@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sonic1Forever: Port = {
+  schema: "port",
+  id: "sonic-1-forever",
+  title: "Sonic 1 Forever",
+  game: "Sonic 1 Forever",
+  developers: ["ElspethThePict"],
+  publisher: "Sega",
+  originalYear: 1991,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ElspethThePict/S1Forever"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Sonic 1 Forever (Sega, 1991) for Android (decompilation). Latest release: 1.5.1. Needs your own copy of the game (Data.rsdk).",
+  notesEs: "Sonic 1 Forever (Sega, 1991) para Android (decompilación). Última release: 1.5.1. Necesita tu propia copia del juego.",
+};

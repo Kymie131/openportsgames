@@ -15,7 +15,7 @@ export const Opensc2k: Port = {
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
   release: { version: null, date: null },
-  sources: ["https://github.com/nicholas-ochoa/OpenSC2K"],
+  sources: ["https://github.com/OpenSC2K/OpenSC2K"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,

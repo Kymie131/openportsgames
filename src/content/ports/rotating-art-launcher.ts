@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rotatingArtLauncher: Port = {
+  schema: "port",
+  id: "rotating-art-launcher",
+  kind: "tool",
+  title: "Rotating Art Launcher",
+  game: "Celeste",
+  developers: ["FireworkSky"],
+  publisher: "FireworkSky",
+  originalYear: 2024,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/FireworkSky/RotatingartLauncher"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Celeste (FireworkSky, 2024) an Android tool. Latest release: v2.1.1. Needs your own copy of the game (Celeste 1.4.0.0 Linux).",
+  notesEs: "Celeste (FireworkSky, 2024) una herramienta para Android. Última release: v2.1.1. Necesita tu propia copia del juego.",
+};

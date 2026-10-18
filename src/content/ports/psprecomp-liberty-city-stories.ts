@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const psprecompLibertyCityStories: Port = {
+  schema: "port",
+  id: "psprecomp-liberty-city-stories",
+  title: "PSPRecomp · Liberty City Stories",
+  game: "Grand Theft Auto: Liberty City Stories",
+  developers: ["codepdbh"],
+  publisher: "Rockstar Games",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/codepdbh/PSPRecomp-LCS-Android"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation Portable"],
+  notes: "Grand Theft Auto: Liberty City Stories (Rockstar Games, 2005) for Android (static recompilation). Needs your own copy of the game.",
+  notesEs: "Grand Theft Auto: Liberty City Stories (Rockstar Games, 2005) para Android (recompilación estática). Necesita tu propia copia del juego.",
+};
