@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nfsMostWantedDecomp: Port = {
+  schema: "port",
+  id: "nfs-most-wanted-decomp",
+  title: "Need for Speed: Most Wanted Decompilation",
+  game: "Need for Speed: Most Wanted",
+  developers: ["dbalatoni13"],
+  publisher: "Electronic Arts",
+  originalYear: 2005,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/dbalatoni13/nfsmw"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  related: ["nfs-most-wanted-recomp"],
+  notes: "Work-in-progress 1:1 decompilation of several versions of Need for Speed: Most Wanted (2005). Its only release is a tooling add-on (extension_0.1.0), not a playable build.",
+  notesEs: "Decompilación 1:1 en curso de varias versiones de Need for Speed: Most Wanted (2005). Su única release es un complemento de herramientas (extension_0.1.0), no una build jugable.",
+};

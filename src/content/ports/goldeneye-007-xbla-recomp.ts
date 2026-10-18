@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const goldeneye007XblaRecomp: Port = {
+  schema: "port",
+  id: "goldeneye-007-xbla-recomp",
+  title: "GoldenEye 007 (XBLA remaster, PC)",
+  game: "GoldenEye 007",
+  developers: ["CaiusCodes"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 1997,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/CaiusCodes/GoldenEye-007-XBLA-PC-Recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  related: ["goldeneye-64-recompiled","goldeneye-pc-port"],
+  notes: "Native Windows PC recompilation of the unreleased GoldenEye 007 Xbox 360/XBLA remaster, built with ReXGlue. Up to 4K, 16:9 and 21:9, 60 FPS and switchable original/remastered visuals. Requires your own copy. Latest release: v0.9.5d.",
+  notesEs: "Recompilación nativa para Windows del remaster de GoldenEye 007 para Xbox 360/XBLA que nunca se publicó, construida con ReXGlue. Hasta 4K, 16:9 y 21:9, 60 FPS y visuales originales/remasterizados conmutables. Requiere tu propia copia. Última release: v0.9.5d.",
+};

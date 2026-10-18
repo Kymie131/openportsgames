@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const silentHill3Decomp: Port = {
+  schema: "port",
+  id: "silent-hill-3-decomp",
+  title: "Silent Hill 3 Decompilation",
+  game: "Silent Hill 3",
+  developers: ["dreamingmoths"],
+  publisher: "Konami",
+  originalYear: 2003,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/dreamingmoths/memory-of-alessa"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 2"],
+  related: ["silent-hill-3-recomp"],
+  notes: "In-progress matching decompilation of Silent Hill 3 (PlayStation 2, 2003), developed under the project name memory of alessa.",
+  notesEs: "Decompilación en curso (matching) de Silent Hill 3 (PlayStation 2, 2003), desarrollada con el nombre de proyecto memory of alessa.",
+};

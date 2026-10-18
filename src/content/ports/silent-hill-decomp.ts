@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const silentHillDecomp: Port = {
+  schema: "port",
+  id: "silent-hill-decomp",
+  title: "Silent Hill Decompilation",
+  game: "Silent Hill",
+  developers: ["shdecompilations"],
+  publisher: "Konami",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/shdecompilations/silent-hill-decomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  related: ["silent-hill-pc"],
+  notes: "In-progress matching decompilation of the 1.1 US release of Silent Hill (PlayStation, 1999). No playable release yet: it rebuilds the game from your own disc.",
+  notesEs: "Decompilación en curso (matching) de la versión 1.1 USA de Silent Hill (PlayStation, 1999). Sin release jugable todavía: reconstruye el juego desde tu propio disco.",
+};

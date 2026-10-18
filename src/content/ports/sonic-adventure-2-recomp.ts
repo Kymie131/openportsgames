@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sonicAdventure2Recomp: Port = {
+  schema: "port",
+  id: "sonic-adventure-2-recomp",
+  title: "Sonic Adventure 2 Recompiled",
+  game: "Sonic Adventure 2",
+  developers: ["kittycache9"],
+  publisher: "Sega",
+  originalYear: 2001,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/kittycache9/OpenSA2"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Dreamcast"],
+  related: ["sonic-adventure-recomp"],
+  notes: "OpenSA2: native port of Sonic Adventure 2 by static recompilation for Linux, Windows and Android. Experimental source preview, no playable release yet.",
+  notesEs: "OpenSA2: port nativo de Sonic Adventure 2 por recompilación estática para Linux, Windows y Android. Avance de código experimental, sin release jugable todavía.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const spiderMan2000Decomp: Port = {
+  schema: "port",
+  id: "spider-man-2000-decomp",
+  title: "Spider-Man (2000) Decompilation",
+  game: "Spider-Man",
+  developers: ["krystalgamer"],
+  publisher: "Activision",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/krystalgamer/spidey-decomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  related: ["spider-man-recomp"],
+  notes: "Decompilation of the PC port of Neversoft's Spider-Man (2000). The repository is public but documents almost nothing yet.",
+  notesEs: "Decompilación del port de PC de Spider-Man de Neversoft (2000). El repositorio es público pero todavía no documenta casi nada.",
+};

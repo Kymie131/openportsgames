@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ssxTrickyOpentricky: Port = {
+  schema: "port",
+  id: "ssx-tricky-opentricky",
+  title: "OpenTricky (SSX Tricky, PC)",
+  game: "SSX Tricky",
+  developers: ["GiZcesi"],
+  publisher: "Electronic Arts",
+  originalYear: 2001,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/GiZcesi/OpenTricky"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 2"],
+  related: ["ssx-tricky-decomp","ssx-tricky-xbox-recomp"],
+  notes: "Unofficial PC port of SSX Tricky by static recompilation. Bring your own disc. Latest tags: v0.1.3-unstable.",
+  notesEs: "Port no oficial a PC de SSX Tricky mediante recompilación estática. Aporta tu propio disco. Últimos tags: v0.1.3-unstable.",
+};

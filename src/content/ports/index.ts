@@ -1233,6 +1233,36 @@ import { castlevaniaSotnDecomp } from "./castlevania-sotn-decomp";
 import { paperMarioDecomp } from "./paper-mario-decomp";
 import { pikmin2Decomp } from "./pikmin-2-decomp";
 import { forzaHorizonReimagined } from "./forza-horizon-reimagined";
+
+import { majorasMaskDecomp } from "./majoras-mask-decomp";
+import { silentHillDecomp } from "./silent-hill-decomp";
+import { metroidPrimeDecomp } from "./metroid-prime-decomp";
+import { slyCooperDecomp } from "./sly-cooper-decomp";
+import { nfsMostWantedDecomp } from "./nfs-most-wanted-decomp";
+import { snowboardKids2Decomp } from "./snowboard-kids-2-decomp";
+import { vibRibbonDecomp } from "./vib-ribbon-decomp";
+import { metroidZeroMissionDecomp } from "./metroid-zero-mission-decomp";
+import { silentHill3Decomp } from "./silent-hill-3-decomp";
+import { spiderMan2000Decomp } from "./spider-man-2000-decomp";
+import { bloodborneDecomp } from "./bloodborne-decomp";
+import { superMarioStrikersDecomp } from "./super-mario-strikers-decomp";
+import { superMarioStrikersRecomp } from "./super-mario-strikers-recomp";
+import { doaxvbRe } from "./doaxvb-re";
+import { switchWakerHd } from "./switch-waker-hd";
+import { haloCeIphone } from "./halo-ce-iphone";
+import { goldeneye007XblaRecomp } from "./goldeneye-007-xbla-recomp";
+import { annepad } from "./annepad";
+import { ssxTrickyOpentricky } from "./ssx-tricky-opentricky";
+import { ssxTrickyXboxRecomp } from "./ssx-tricky-xbox-recomp";
+import { sonicAdventure2Recomp } from "./sonic-adventure-2-recomp";
+import { midnightClubLaIos } from "./midnight-club-la-ios";
+import { battleTanxRecomp } from "./battle-tanx-recomp";
+import { caesar2 } from "./caesar-2";
+import { doa3Re } from "./doa3-re";
+import { doomSnesRecomp } from "./doom-snes-recomp";
+import { midtownMadness3 } from "./midtown-madness-3";
+import { linksAwakeningDxPortable } from "./links-awakening-dx-portable";
+
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -2468,4 +2498,32 @@ export const portCases: Port[] = [
   paperMarioDecomp,
   pikmin2Decomp,
   forzaHorizonReimagined,
+  majorasMaskDecomp,
+  silentHillDecomp,
+  metroidPrimeDecomp,
+  slyCooperDecomp,
+  nfsMostWantedDecomp,
+  snowboardKids2Decomp,
+  vibRibbonDecomp,
+  metroidZeroMissionDecomp,
+  silentHill3Decomp,
+  spiderMan2000Decomp,
+  bloodborneDecomp,
+  superMarioStrikersDecomp,
+  superMarioStrikersRecomp,
+  doaxvbRe,
+  switchWakerHd,
+  haloCeIphone,
+  goldeneye007XblaRecomp,
+  annepad,
+  ssxTrickyOpentricky,
+  ssxTrickyXboxRecomp,
+  sonicAdventure2Recomp,
+  midnightClubLaIos,
+  battleTanxRecomp,
+  caesar2,
+  doa3Re,
+  doomSnesRecomp,
+  midtownMadness3,
+  linksAwakeningDxPortable,
 ];

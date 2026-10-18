@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const doaxvbRe: Port = {
+  schema: "port",
+  id: "doaxvb-re",
+  title: "Dead or Alive Xtreme Beach Volleyball (PC)",
+  game: "Dead or Alive Xtreme Beach Volleyball",
+  developers: ["NoRain211"],
+  publisher: "Tecmo",
+  originalYear: 2003,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","macos","linux"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/NoRain211/doaxvb-re"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox"],
+  notes: "Native PC port of Dead or Alive Xtreme Beach Volleyball (Xbox, 2003) built by static recompilation with a hand-written runtime. Requires your own copy of the game. Latest release: v0.5.3.",
+  notesEs: "Port nativo a PC de Dead or Alive Xtreme Beach Volleyball (Xbox, 2003) mediante recompilación estática con un runtime propio. Requiere tu propia copia del juego. Última release: v0.5.3.",
+};
