@@ -1215,6 +1215,12 @@ import { narutoStorm3FullBurstRecomp } from "./naruto-ultimate-ninja-storm-3-ful
 import { godOfWar3Android } from "./god-of-war-3-android";
 import { dragonBallRagingBlast2Android } from "./dragon-ball-raging-blast-2-android";
 import { superMarioGalaxyIos } from "./super-mario-galaxy-ios";
+import { eternalDarknessRecomp } from "./eternal-darkness-recomp";
+import { godOfWar2HdRecomp } from "./god-of-war-2-hd-recomp";
+import { pokemonLetsGoRecomp } from "./pokemon-lets-go-recomp";
+import { redAlert2Recomp } from "./red-alert-2-recomp";
+import { ninjaGaidenBlackRecomp } from "./ninja-gaiden-black-recomp";
+import { wweAllStarsRecomp } from "./wwe-all-stars-recomp";
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -2432,4 +2438,10 @@ export const portCases: Port[] = [
   godOfWar3Android,
   dragonBallRagingBlast2Android,
   superMarioGalaxyIos,
+  eternalDarknessRecomp,
+  godOfWar2HdRecomp,
+  pokemonLetsGoRecomp,
+  redAlert2Recomp,
+  ninjaGaidenBlackRecomp,
+  wweAllStarsRecomp,
 ];
