@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const lookingGlass: Port = {
+  schema: "port",
+  id: "looking-glass",
+  title: "Looking Glass",
+  game: "American McGee's Alice",
+  developers: ["Player124413"],
+  publisher: "Electronic Arts",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Player124413/Looking-Glass-android-edition"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  warning: "This Android port distributes the game's own files, so it is not built from a copy you own. Its legal situation differs from the rest of the catalog and it may be removed.",
+  warningEs: "Este port de Android distribuye los archivos del propio juego, así que no se construye desde una copia tuya. Su situación legal es distinta a la del resto del catálogo y puede ser retirada.",
+  notes: "American McGee's Alice (Electronic Arts, 2000) for Android (source port). Latest release: Four. It ships the game files with the port, so it does not build from your own copy.",
+  notesEs: "American McGee's Alice (Electronic Arts, 2000) para Android (port de código). Última release: Four. Distribuye los archivos del propio juego con el port, así que no se construye desde tu propia copia.",
+};

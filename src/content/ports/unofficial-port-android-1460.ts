@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const unofficialPortAndroid1460: Port = {
+  schema: "port",
+  id: "unofficial-port-android-1460",
+  title: "Unofficial Port (Android) 1460",
+  game: "Pokemon Survivor Burst",
+  developers: ["TryTheSauceBoss"],
+  publisher: "TryTheSauceBoss",
+  originalYear: 2024,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/TryTheSauceBoss/pokemon-survivorburst-android"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Pokemon Survivor Burst (TryTheSauceBoss, 2024) for Android (source port). Latest release: v9.0. Needs your own copy of the game.",
+  notesEs: "Pokemon Survivor Burst (TryTheSauceBoss, 2024) para Android (port de código). Última release: v9.0. Necesita tu propia copia del juego.",
+};

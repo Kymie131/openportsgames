@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const megaman64RecompMobile: Port = {
+  schema: "port",
+  id: "megaman-64-recomp-mobile",
+  title: "Megaman 64 Recomp Mobile",
+  game: "Mega Man 64",
+  developers: ["DevZer0D4Y"],
+  publisher: "Capcom",
+  originalYear: 1997,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/DevZer0D4Y/MegaMan64Recompiled-Mobile"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  notes: "Mega Man 64 (Capcom, 1997) for Android (static recompilation). Latest release: v0.9.1-mobile.1. Needs your own copy of the game.",
+  notesEs: "Mega Man 64 (Capcom, 1997) para Android (recompilación estática). Última release: v0.9.1-mobile.1. Necesita tu propia copia del juego.",
+};

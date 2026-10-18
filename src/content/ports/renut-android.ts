@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const renutAndroid: Port = {
+  schema: "port",
+  id: "renut-android",
+  title: "Renut Android",
+  game: "Banjo-Kazooie: Nuts & Bolts",
+  developers: ["Innersargento"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2008,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Innersargento/Renut-Android"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  notes: "Banjo-Kazooie: Nuts & Bolts (Microsoft Game Studios, 2008) for Android (source port). Latest release: 0.4.0. Needs your own copy of the game.",
+  notesEs: "Banjo-Kazooie: Nuts & Bolts (Microsoft Game Studios, 2008) para Android (port de código). Última release: 0.4.0. Necesita tu propia copia del juego.",
+};

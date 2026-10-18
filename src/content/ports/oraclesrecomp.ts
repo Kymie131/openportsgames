@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const oraclesrecomp: Port = {
+  schema: "port",
+  id: "oraclesrecomp",
+  title: "OraclesRecomp",
+  game: "The Legend of Zelda: Oracle of Ages",
+  developers: ["kirby-letsgo"],
+  publisher: "Nintendo",
+  originalYear: 2001,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/kirby-letsgo/oracles-decomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "The Legend of Zelda: Oracle of Ages (Nintendo, 2001) for Android (decompilation). Needs your own copy of the game.",
+  notesEs: "The Legend of Zelda: Oracle of Ages (Nintendo, 2001) para Android (decompilación). Necesita tu propia copia del juego.",
+};

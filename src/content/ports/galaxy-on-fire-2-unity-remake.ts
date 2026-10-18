@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const galaxyOnFire2UnityRemake: Port = {
+  schema: "port",
+  id: "galaxy-on-fire-2-unity-remake",
+  title: "Galaxy On Fire 2 Unity Remake",
+  game: "Galaxy on Fire 2™ Full HD",
+  developers: ["JoppieToppie"],
+  publisher: "Fishlabs",
+  originalYear: 2009,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/JoppieToppie/Galaxy-on-Fire-2-Unity-Remake"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Galaxy on Fire 2™ Full HD (Fishlabs, 2009) for Android (source port). Latest release: 2026.10.18. Needs your own copy of the game.",
+  notesEs: "Galaxy on Fire 2™ Full HD (Fishlabs, 2009) para Android (port de código). Última release: 2026.10.18. Necesita tu propia copia del juego.",
+};

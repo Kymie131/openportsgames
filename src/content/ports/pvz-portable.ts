@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pvzPortable: Port = {
+  schema: "port",
+  id: "pvz-portable",
+  title: "PvZ Portable",
+  game: "Plants vs Zombies",
+  developers: ["wszqkzqk"],
+  publisher: "PopCap Games",
+  originalYear: 2009,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/wszqkzqk/PvZ-Portable"],
+  license: { spdx: "LGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Plants vs Zombies (PopCap Games, 2009) for Android (source port). Latest release: 0.2.5. Needs your own copy of the game (Needs Goty Edition).",
+  notesEs: "Plants vs Zombies (PopCap Games, 2009) para Android (port de código). Última release: 0.2.5. Necesita tu propia copia del juego.",
+};

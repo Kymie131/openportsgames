@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const unofficialPortAndroid1478: Port = {
+  schema: "port",
+  id: "unofficial-port-android-1478",
+  title: "Unofficial Port (Android) 1478",
+  game: "The Simpsons: Hit & Run",
+  developers: ["Carlox33"],
+  publisher: "Vivendi Universal Games",
+  originalYear: 2003,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Carlox33/The-Simpsons-Hit-and-Run-Android"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "The Simpsons: Hit & Run (Vivendi Universal Games, 2003) for Android (source port). Latest release: v0.93. Needs your own copy of the game (Game Files).",
+  notesEs: "The Simpsons: Hit & Run (Vivendi Universal Games, 2003) para Android (port de código). Última release: v0.93. Necesita tu propia copia del juego.",
+};

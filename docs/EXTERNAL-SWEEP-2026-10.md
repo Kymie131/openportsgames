@@ -50,6 +50,35 @@ Tres proyectos reales no se pueden fichar porque `platforms` solo admite sistema
 Si se quiere cubrirlos, hay que añadir los destinos al enum de `platforms` (`src/lib/ports/schema.ts`) y su
 etiqueta a `src/content/systems.ts`.
 
+## Segunda vuelta (lista de la comunidad, 2026-10-18)
+
+| Fuente | Qué se hizo | Resultado |
+| --- | --- | --- |
+| **Google Sheet «Android Ports - Game Files»** (Community Ports, 498 filas) | Extraídos los 339 enlaces de GitHub y cruzados por URL | 189 ya estaban en el catálogo; **144 repos nuevos**, de los que se ficharon **125** (123 en lote + `gtasa-psp` y `spotify-3ds`) |
+| **Lista de r/AndroidGaming y r/SBCGaming** (recomendaciones) | Comparadas las recomendaciones con el catálogo | Ya cubiertas: OpenMW (+`openmw-android`), Daggerfall Unity (mas `Vwing/daggerfall-unity-android`), Ship of Harkinian, Banjo-Kazooie recomp, Perfect Dark, Fallout 1/2 (CE), KOTOR (`reone-kotor`), Hollow Knight/Silksong (SilksongAndroid) |
+
+### Decisiones tomadas en esta vuelta
+
+- **Pack multi-juego**: `sandstranger/com.mobilerpgpack.phone` (Android) es **una sola aplicación** que ejecuta los juegos del motor id/Quake. La ficha del pack es `kind: "tool"` y se abrieron **19 fichas individuales** para los juegos mas buscados (Doom, Doom 3 BFG, Doom 64, Quake 1/2/3, Hexen, Hexen II, Heretic, HacX, OpenArena, Wolfenstein RPG, packs de mision). Los juegos restantes del pack (Arx Fatalis, Chex Quest 3, C&C, Red Alert, Widelans, Doom RPG, etc.) figuran dentro de la ficha del pack, no como fichas sueltas.
+- **Herramientas, no juegos**: los lanzadores de Minecraft Java (`ZalithLauncher2`, `FoldCraftLauncher`, `MojoLauncher`, `pojavlauncher`), `RotatingartLauncher`, `Knossos.NET`, `Sts2MobileLauncher` y `OpenBoR` se ficharon como `kind: "tool"` (9 en total), con su lista actualizada en `tests/content/kinds.test.ts`.
+- **Advertencia legal (estilo Gears)**: se aplico a las **2** fichas con evidencia de que **distribuyen los archivos del juego** (no se excluyo ninguna): `Revers-BR/0ad-android-releases` (builds de 0 A.D. para Android) y `Player124413/Looking-Glass-android-edition` (Alice completo). El resto de fichas de esta vuelta indican en sus notas que **necesitan tu propia copia** y, cuando la hoja lo detalla, el nombre del archivo requerido.
+- **6 repositorios caidos** en la hoja (404) y por tanto no fichados: `kandowontu/starfox-enhanced`, `WINDROID-EMU/Bomber-Man-Hero`, `Gilleece/goldeneye-omniport`, `WINDROID-EMU/NFSMW-RECOMP`, `WINDROID-EMU/Silent-Hill-Downpour-port-android`, `XHYN-PH/XHYN-V`.
+
+### Peticiones concretas de esta vuelta
+
+| Peticion | Resultado |
+| --- | --- |
+| Port nativo de Super Mario Bros. Wonder | Fichado: `super-mario-bros-wonder-recomp` (`BelmanteGu/SuperMarioWonderRecomp`) |
+| Naruto Shippuden para Android | Ya cubierto: 6 fichas de la serie con builds Android/PC (`naruto-ultimate-ninja-storm-2-recomp`, `-3-full-burst-`, `-generations-`, `-revolution-`, `naruto-the-broken-bond-recomp`, `naruto-rise-of-a-ninja-recomp`) |
+| GTA San Andreas para PSP | Fichado: `gtasa-psp` (`vizPilot/gtasa_psp`, WIP sobre el codigo de re3) |
+| Spotify en la 3DS | Fichado como herramienta: `spotify-3ds` (`davidabejon/spotify-3ds`, muestra y controla el estado de Spotify desde la consola) |
+
+## Cobertura Android de todo el catalogo
+
+`docs/ANDROID-COVERAGE-2026-10.md` lista, agrupados por sistema original, los juegos del catalogo que todavia
+**no** tienen ninguna ficha con Android entre sus plataformas (1.014 de 1.244 juegos), y los 230 que si la tienen.
+Es la lista de trabajo para la proxima vuelta de busqueda de variantes Android.
+
 ## Pendiente para la siguiente pasada
 
 1. **F-Droid completo**: la categoría Games con repositorio fuente (el índice `index-v2.json` es grande; conviene

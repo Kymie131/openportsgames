@@ -12,6 +12,15 @@ const TOOL_IDS = [
   "hagi",
   "psy-q-decomp",
   "rerac-launcher",
+  "classic-core-engines",
+  "rotating-art-launcher",
+  "knossosnet",
+  "zalithlauncher2",
+  "fold-craft-launcher",
+  "mojo-launcher",
+  "pojavlauncher",
+  "sts2-mobile-launcher",
+  "openbor-android",
 ];
 const NON_GAME_IDS = [...SYSTEM_IDS, ...TOOL_IDS].sort();
 

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const moonPearl: Port = {
+  schema: "port",
+  id: "moon-pearl",
+  title: "Moon Pearl",
+  game: "The Legend of Zelda: A Link to the Past",
+  developers: ["DoutorRaposo"],
+  publisher: "Nintendo",
+  originalYear: 1991,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/DoutorRaposo/moonpearl"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Super Nintendo"],
+  notes: "The Legend of Zelda: A Link to the Past (Nintendo, 1991) for Android (reimplementation). Latest release: v1.0.0. Needs your own copy of the game (Legend of Zelda, The - A Link to the Past (USA).sfc).",
+  notesEs: "The Legend of Zelda: A Link to the Past (Nintendo, 1991) para Android (reimplementación). Última release: v1.0.0. Necesita tu propia copia del juego.",
+};

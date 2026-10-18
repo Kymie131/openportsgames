@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rechan: Port = {
+  schema: "port",
+  id: "rechan",
+  title: "ReChan",
+  game: "Jackie Chan: Stuntmaster",
+  developers: ["deivid22srk"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/deivid22srk/ReChan-Android"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Jackie Chan: Stuntmaster (Sony Computer Entertainment, 2000) for Android (source port). Latest release: build-44. Needs your own copy of the game.",
+  notesEs: "Jackie Chan: Stuntmaster (Sony Computer Entertainment, 2000) para Android (port de código). Última release: build-44. Necesita tu propia copia del juego.",
+};

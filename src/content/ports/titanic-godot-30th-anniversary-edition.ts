@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const titanicGodot30thAnniversaryEdition: Port = {
+  schema: "port",
+  id: "titanic-godot-30th-anniversary-edition",
+  title: "titanic-godot - 30th anniversary edition",
+  game: "Titanic: Adventure Out of Time",
+  developers: ["itskenny0"],
+  publisher: "Cyberflix",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/itskenny0/titanic-godot"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Titanic: Adventure Out of Time (Cyberflix, 1996) for Android (source port). Latest release: v0.6.0. Needs your own copy of the game.",
+  notesEs: "Titanic: Adventure Out of Time (Cyberflix, 1996) para Android (port de código). Última release: v0.6.0. Necesita tu propia copia del juego.",
+};

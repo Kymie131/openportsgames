@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const doom3BfgEditionClassicCoreEngines: Port = {
+  schema: "port",
+  id: "doom-3-bfg-edition-classic-core-engines",
+  title: "Doom 3 BFG Edition (Classic Core Engines)",
+  game: "Doom 3 BFG Edition",
+  developers: ["sandstranger"],
+  publisher: "id Software",
+  originalYear: 2012,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sandstranger/com.mobilerpgpack.phone"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Doom 3 BFG Edition (id Software, 2012) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (base folder).",
+  notesEs: "Doom 3 BFG Edition (id Software, 2012) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
+};

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const waveRacer64RecompForAndroid: Port = {
+  schema: "port",
+  id: "wave-racer-64-recomp-for-android",
+  title: "Wave Racer 64 recomp for android",
+  game: "Wave Race 64",
+  developers: ["HLLArtyParty"],
+  publisher: "Nintendo",
+  originalYear: 1996,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/HLLArtyParty/WaveRace64RecompForAndroid"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  notes: "Wave Race 64 (Nintendo, 1996) for Android (static recompilation). Needs your own copy of the game (Wave Race 64 - Kawasaki Jet Ski (USA) (Rev 1) Z64).",
+  notesEs: "Wave Race 64 (Nintendo, 1996) para Android (recompilación estática). Necesita tu propia copia del juego.",
+};

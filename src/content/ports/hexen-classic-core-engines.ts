@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const hexenClassicCoreEngines: Port = {
+  schema: "port",
+  id: "hexen-classic-core-engines",
+  title: "Hexen (Classic Core Engines)",
+  game: "Hexen: Beyond Heretic",
+  developers: ["sandstranger"],
+  publisher: "Raven Software",
+  originalYear: 1995,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sandstranger/com.mobilerpgpack.phone"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Hexen: Beyond Heretic (Raven Software, 1995) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (HEXEN.WAD).",
+  notesEs: "Hexen: Beyond Heretic (Raven Software, 1995) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
+};

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const recompiledSteel: Port = {
+  schema: "port",
+  id: "recompiled-steel",
+  title: "ReCompiled Steel",
+  game: "Real Steel",
+  developers: ["tokeneffortports"],
+  publisher: "Zoo Entertainment",
+  originalYear: 2011,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/tokeneffortports/ReCompiledSteel"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Real Steel (Zoo Entertainment, 2011) for Android (static recompilation). Latest release: v0.2.0. Needs your own copy of the game.",
+  notesEs: "Real Steel (Zoo Entertainment, 2011) para Android (recompilación estática). Última release: v0.2.0. Necesita tu propia copia del juego.",
+};

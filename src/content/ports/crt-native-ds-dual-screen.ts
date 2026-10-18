@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const crtNativeDsDualScreen: Port = {
+  schema: "port",
+  id: "crt-native-ds-dual-screen",
+  title: "CRT Native DS (Dual Screen)",
+  game: "CTR: Crash Team Racing",
+  developers: ["igawa6"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 1999,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/igawa6/ctr-native-android"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "CTR: Crash Team Racing (Sony Computer Entertainment, 1999) for Android (source port). Latest release: v0.1.0. Needs your own copy of the game (CTR - Crash Team Racing (USA)).",
+  notesEs: "CTR: Crash Team Racing (Sony Computer Entertainment, 1999) para Android (port de código). Última release: v0.1.0. Necesita tu propia copia del juego.",
+};

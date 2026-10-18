@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const classicCoreEngines: Port = {
+  schema: "port",
+  id: "classic-core-engines",
+  kind: "tool",
+  title: "Classic Core Engines",
+  game: "Perfect Dark",
+  developers: ["sandstranger"],
+  publisher: "Id Software",
+  originalYear: 1993,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sandstranger/com.mobilerpgpack.phone"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Perfect Dark (Id Software, 1993) an Android tool. Latest release: 3.5.0. Needs your own copy of the game (Perfect Dark (USA) (Rev 1).z64).",
+  notesEs: "Perfect Dark (Id Software, 1993) una herramienta para Android. Última release: 3.5.0. Necesita tu propia copia del juego.",
+};

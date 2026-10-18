@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const hereticClassicCoreEngines: Port = {
+  schema: "port",
+  id: "heretic-classic-core-engines",
+  title: "Heretic (Classic Core Engines)",
+  game: "Heretic: Shadow of the Serpent Riders",
+  developers: ["sandstranger"],
+  publisher: "Raven Software",
+  originalYear: 1994,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sandstranger/com.mobilerpgpack.phone"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Heretic: Shadow of the Serpent Riders (Raven Software, 1994) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (HERETIC.WAD).",
+  notesEs: "Heretic: Shadow of the Serpent Riders (Raven Software, 1994) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
+};

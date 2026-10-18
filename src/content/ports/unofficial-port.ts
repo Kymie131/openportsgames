@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const unofficialPort: Port = {
+  schema: "port",
+  id: "unofficial-port",
+  title: "Unofficial Port",
+  game: "Infinite Blade II",
+  developers: ["jelqedagain"],
+  publisher: "Infinite Blade",
+  originalYear: 2019,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/jelqedagain/ib-2-3-android"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Infinite Blade II (Infinite Blade, 2019) for Android (source port). Latest release: ib3. Needs your own copy of the game.",
+  notesEs: "Infinite Blade II (Infinite Blade, 2019) para Android (port de código). Última release: ib3. Necesita tu propia copia del juego.",
+};

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const silksongandroidachievementsDualScreen: Port = {
+  schema: "port",
+  id: "silksongandroidachievements-dual-screen",
+  title: "SilksongAndroidAchievements (Dual Screen)",
+  game: "Hollow Knight: Silksong",
+  developers: ["OmegaUwUr"],
+  publisher: "Team Cherry",
+  originalYear: 2025,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/OmegaUwUr/SilksongAndroid-Achievements"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Hollow Knight: Silksong (Team Cherry, 2025) for Android (source port). Latest release: v1.0.0. Needs your own copy of the game (Need Linux Game Files).",
+  notesEs: "Hollow Knight: Silksong (Team Cherry, 2025) para Android (port de código). Última release: v1.0.0. Necesita tu propia copia del juego.",
+};

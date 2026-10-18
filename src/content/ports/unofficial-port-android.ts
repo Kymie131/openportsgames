@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const unofficialPortAndroid: Port = {
+  schema: "port",
+  id: "unofficial-port-android",
+  title: "Unofficial Port (Android)",
+  game: "Look Outside",
+  developers: ["Guixs232"],
+  publisher: "Kowloon Nights",
+  originalYear: 2024,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Guixs232/Look-Outside-Recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Look Outside (Kowloon Nights, 2024) for Android (static recompilation). Latest release: v0.12.2. Needs your own copy of the game.",
+  notesEs: "Look Outside (Kowloon Nights, 2024) para Android (recompilación estática). Última release: v0.12.2. Necesita tu propia copia del juego.",
+};

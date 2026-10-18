@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const showdownDsDualScreen: Port = {
+  schema: "port",
+  id: "showdown-ds-dual-screen",
+  title: "Showdown DS (Dual Screen)",
+  game: "Pokémon Showdown",
+  developers: ["castdrian"],
+  publisher: "The Pokémon Company",
+  originalYear: 2016,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/castdrian/showdown-ds"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Pokémon Showdown (The Pokémon Company, 2016) for Android (source port). Needs your own copy of the game (??).",
+  notesEs: "Pokémon Showdown (The Pokémon Company, 2016) para Android (port de código). Necesita tu propia copia del juego.",
+};

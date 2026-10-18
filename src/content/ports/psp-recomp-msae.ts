@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pspRecompMsae: Port = {
+  schema: "port",
+  id: "psp-recomp-msae",
+  title: "PSP Recomp - MSAE",
+  game: "MotorStorm: Arctic Edge",
+  developers: ["coole42-pixel"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/coole42-pixel/PSPRecomp-MSAE"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "MotorStorm: Arctic Edge (Sony Computer Entertainment, 2009) for Android (static recompilation). Latest release: v0.2.0. Needs your own copy of the game.",
+  notesEs: "MotorStorm: Arctic Edge (Sony Computer Entertainment, 2009) para Android (recompilación estática). Última release: v0.2.0. Necesita tu propia copia del juego.",
+};

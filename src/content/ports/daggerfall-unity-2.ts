@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const daggerfallUnity2: Port = {
+  schema: "port",
+  id: "daggerfall-unity-2",
+  title: "DaggerFall Unity",
+  game: "The Elder Scrolls II: DaggerFall",
+  developers: ["Vwing"],
+  publisher: "Bethesda Softworks",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Vwing/daggerfall-unity-android"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "The Elder Scrolls II: DaggerFall (Bethesda Softworks, 1996) for Android (source port). Latest release: v1.1.1.9. Needs your own copy of the game (DaggerfallGameFiles.zip).",
+  notesEs: "The Elder Scrolls II: DaggerFall (Bethesda Softworks, 1996) para Android (port de código). Última release: v1.1.1.9. Necesita tu propia copia del juego.",
+};
