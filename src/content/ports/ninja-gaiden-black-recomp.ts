@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ninjaGaidenBlackRecomp: Port = {
+  schema: "port",
+  id: "ninja-gaiden-black-recomp",
+  title: "Ninja Gaiden Black Recompiled",
+  game: "Ninja Gaiden Black",
+  developers: ["gamboozino"],
+  publisher: "Tecmo",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/gamboozino/ngbrecomp"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox"],
+  notes: "Ninja Gaiden Black (Xbox, 2005) as a native port for windows, linux via static recompilation, not an emulator. It ships no game code or data: bring your own copy. Latest release: v0.9.18.",
+  notesEs: "Ninja Gaiden Black (Xbox, 2005) como port nativo para windows, linux mediante recompilación estática, no un emulador. No incluye código ni datos del juego: aporta tu propia copia. Última release: v0.9.18.",
+};

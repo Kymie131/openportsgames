@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const redAlert2Recomp: Port = {
+  schema: "port",
+  id: "red-alert-2-recomp",
+  title: "Red Alert 2 & Yuri's Revenge Recompiled",
+  game: "Command & Conquer: Red Alert 2",
+  developers: ["sp00nznet"],
+  publisher: "Electronic Arts",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sp00nznet/redalert2-recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Command & Conquer: Red Alert 2 (Windows, 2000) as a native port for windows via static recompilation, not an emulator. It ships no game code or data: bring your own copy. No release yet.",
+  notesEs: "Command & Conquer: Red Alert 2 (Windows, 2000) como port nativo para windows mediante recompilación estática, no un emulador. No incluye código ni datos del juego: aporta tu propia copia. Aún sin release.",
+};

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const wweAllStarsRecomp: Port = {
+  schema: "port",
+  id: "wwe-all-stars-recomp",
+  title: "WWE All Stars (PC)",
+  game: "WWE All Stars",
+  developers: ["shaneomac1337"],
+  publisher: "THQ",
+  originalYear: 2011,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/shaneomac1337/WWE-AllStars-Recomp"],
+  license: { spdx: "BSD-3-Clause" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  notes: "WWE All Stars (Xbox 360, 2011) as a native port for windows via static recompilation, not an emulator. It ships no game code or data: bring your own copy. Latest release: v1.4.0.",
+  notesEs: "WWE All Stars (Xbox 360, 2011) como port nativo para windows mediante recompilación estática, no un emulador. No incluye código ni datos del juego: aporta tu propia copia. Última release: v1.4.0.",
+};
