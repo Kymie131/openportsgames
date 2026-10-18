@@ -1727,6 +1727,8 @@ import { superMetroidDs } from "./super-metroid-ds";
 import { doom2dGba } from "./doom-2d-gba";
 import { superMarioBrosSwitch } from "./super-mario-bros-switch";
 
+import { dusklightPs4 } from "./dusklight-ps4";
+
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -3435,4 +3437,5 @@ export const portCases: Port[] = [
   superMetroidDs,
   doom2dGba,
   superMarioBrosSwitch,
+  dusklightPs4,
 ];

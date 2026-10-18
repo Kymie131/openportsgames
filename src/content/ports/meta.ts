@@ -1708,4 +1708,5 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "super-metroid-ds": ["Super Nintendo"],
   "doom-2d-gba": ["MS-DOS"],
   "super-mario-bros-switch": ["Nintendo Entertainment System"],
+  "dusklight-ps4": ["GameCube"],
 };
