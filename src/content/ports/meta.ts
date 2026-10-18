@@ -1223,4 +1223,10 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "red-alert-2-recomp": ["Windows"],
   "ninja-gaiden-black-recomp": ["Xbox"],
   "wwe-all-stars-recomp": ["Xbox 360"],
+  "tomodachi-ltd-recomp": ["Nintendo Switch"],
+  "unreal-android": ["Windows"],
+  "skate-2-pc-recomp": ["Xbox 360"],
+  "colin-mcrae-rally-2-decomp": ["Windows"],
+  "minecraft-lce-decomp": ["Nintendo Switch"],
+  "super-mario-64-ds-decomp": ["Nintendo DS"],
 };

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const colinMcRaeRally2Decomp: Port = {
+  schema: "port",
+  id: "colin-mcrae-rally-2-decomp",
+  title: "Colin McRae Rally 2.0 Decompilation",
+  game: "Colin McRae Rally 2.0",
+  developers: ["CMR2Decomp"],
+  publisher: "Codemasters",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/CMR2Decomp/CMR2Decomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Work-in-progress decompilation of Colin McRae Rally 2.0 (PC, 2000), using reccmp to verify functions and globals. Early stage. No release.",
+  notesEs: "Decompilación en curso de Colin McRae Rally 2.0 (PC, 2000), usando reccmp para verificar funciones y globales. Fase inicial. Sin release.",
+};

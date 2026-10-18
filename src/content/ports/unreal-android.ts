@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const unrealAndroid: Port = {
+  schema: "port",
+  id: "unreal-android",
+  title: "Unreal (Android)",
+  game: "Unreal",
+  developers: ["Andiweli"],
+  publisher: "Epic Games",
+  originalYear: 1998,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Andiweli/Unreal-Android"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Port of Unreal (1998, version 200) to Android 8+ (32/64-bit) and the OUYA console, with controller, touchscreen and keyboard/mouse support. You need your own copy of the game. Latest release: v2.2.1 (APK).",
+  notesEs: "Port de Unreal (1998, versión 200) a Android 8+ (32/64 bits) y la consola OUYA, con soporte de mando, pantalla táctil y teclado/ratón. Necesitas tu propia copia del juego. Última release: v2.2.1 (APK).",
+};

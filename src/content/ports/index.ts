@@ -1221,6 +1221,12 @@ import { pokemonLetsGoRecomp } from "./pokemon-lets-go-recomp";
 import { redAlert2Recomp } from "./red-alert-2-recomp";
 import { ninjaGaidenBlackRecomp } from "./ninja-gaiden-black-recomp";
 import { wweAllStarsRecomp } from "./wwe-all-stars-recomp";
+import { tomodachiLtdRecomp } from "./tomodachi-ltd-recomp";
+import { unrealAndroid } from "./unreal-android";
+import { skate2PcRecomp } from "./skate-2-pc-recomp";
+import { colinMcRaeRally2Decomp } from "./colin-mcrae-rally-2-decomp";
+import { minecraftLceDecomp } from "./minecraft-lce-decomp";
+import { superMario64DsDecomp } from "./super-mario-64-ds-decomp";
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -2444,4 +2450,10 @@ export const portCases: Port[] = [
   redAlert2Recomp,
   ninjaGaidenBlackRecomp,
   wweAllStarsRecomp,
+  tomodachiLtdRecomp,
+  unrealAndroid,
+  skate2PcRecomp,
+  colinMcRaeRally2Decomp,
+  minecraftLceDecomp,
+  superMario64DsDecomp,
 ];

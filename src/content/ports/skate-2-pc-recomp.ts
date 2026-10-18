@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const skate2PcRecomp: Port = {
+  schema: "port",
+  id: "skate-2-pc-recomp",
+  title: "Skate 2 (PC)",
+  game: "Skate 2",
+  developers: ["christianortel"],
+  publisher: "Electronic Arts",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/christianortel/skate2-recompile-pc"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  notes: "Community Windows port of the Xbox 360 version of Skate 2, built with ReXGlue, with controller support, adjustable rendering quality and unlocked FPS. Original game files required. Latest release: v0.1.1.",
+  notesEs: "Port comunitario para Windows de la versión de Xbox 360 de Skate 2, con ReXGlue, soporte de mando, calidad de render ajustable y FPS desbloqueados. Requiere los archivos originales del juego. Última release: v0.1.1.",
+};

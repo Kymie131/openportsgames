@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tomodachiLtdRecomp: Port = {
+  schema: "port",
+  id: "tomodachi-ltd-recomp",
+  title: "Tomodachi LTD Recomp",
+  game: "Tomodachi Life",
+  developers: ["RussoPhone"],
+  publisher: "Nintendo",
+  originalYear: 2013,
+  portType: "recompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/RussoPhone/tomodachi-ltd-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo Switch"],
+  notes: "Experimental PC recompilation of Tomodachi Life (Nintendo Switch, 2013). The game's ARM code is recompiled for x86-64, but the executable still relies on suyu-derived emulation and runtime components for graphics, audio and Switch system services: it is not an emulator-free native port. No game files included.",
+  notesEs: "Recompilación experimental para PC de Tomodachi Life (Nintendo Switch, 2013). El código ARM se recompila a x86-64, pero el ejecutable aún depende de emulación derivada de suyu y componentes de runtime para gráficos, audio y servicios del sistema de Switch: no es un port nativo sin emulador. Sin archivos del juego.",
+};

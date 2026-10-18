@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const minecraftLceDecomp: Port = {
+  schema: "port",
+  id: "minecraft-lce-decomp",
+  title: "Minecraft: LCE Decompilation",
+  game: "Minecraft: Nintendo Switch Edition",
+  developers: ["GRAnimated"],
+  publisher: "Mojang Studios",
+  originalYear: 2017,
+  portType: "decompilation",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/GRAnimated/MinecraftLCE"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo Switch"],
+  notes: "Work-in-progress decompilation of Minecraft: Legacy Console Edition (Nintendo Switch Edition v1.0.17). The repository contains no game assets and cannot be used to play the game. Progress was about 11%.",
+  notesEs: "Decompilación en curso de Minecraft: Legacy Console Edition (Nintendo Switch Edition v1.0.17). El repositorio no contiene assets del juego y no sirve para jugarlo. Progreso en torno al 11%.",
+};
