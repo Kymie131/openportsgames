@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const theImpossibleGamePsVita: Port = {
+  schema: "port",
+  id: "the-impossible-game-ps-vita",
+  title: "The Impossible Game (PS Vita)",
+  game: "The Impossible Game",
+  developers: ["MetalSyntax"],
+  publisher: "Fluke Games",
+  originalYear: 2009,
+  portType: "source-port",
+  genre: "music",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/MetalSyntax/The-Impossible-Game-vita"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "The Impossible Game (Fluke Games, 2009) running on PlayStation Vita through source port. Latest release: v.1.1.0. You need your own copy of the game.",
+  notesEs: "The Impossible Game (Fluke Games, 2009) en PlayStation Vita mediante port de código. Última release: v.1.1.0. Necesitas tu propia copia del juego.",
+};

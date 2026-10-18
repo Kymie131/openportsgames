@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const touhou8Psp: Port = {
+  schema: "port",
+  id: "touhou-8-psp",
+  title: "Touhou 8 (PSP)",
+  game: "Touhou 8: Imperishable Night",
+  developers: ["kan8223-dotcom"],
+  publisher: "Team Shanghai Alice",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/kan8223-dotcom/th08-psp-native"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Touhou 8: Imperishable Night (Team Shanghai Alice, 2004) running on PlayStation Portable through source port. Latest release: v0.4.1. You need your own copy of the game.",
+  notesEs: "Touhou 8: Imperishable Night (Team Shanghai Alice, 2004) en PlayStation Portable mediante port de código. Última release: v0.4.1. Necesitas tu propia copia del juego.",
+};

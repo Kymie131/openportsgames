@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const deltarune3ds: Port = {
+  schema: "port",
+  id: "deltarune-3ds",
+  title: "Deltarune (3DS)",
+  game: "Deltarune",
+  developers: ["LinkTroisUn"],
+  publisher: "Toby Fox",
+  originalYear: 2018,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/LinkTroisUn/DELTARUNE-3DS"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Deltarune (Toby Fox, 2018) running on Nintendo 3DS through source port. Latest release: 1.0.0. You need your own copy of the game.",
+  notesEs: "Deltarune (Toby Fox, 2018) en Nintendo 3DS mediante port de código. Última release: 1.0.0. Necesitas tu propia copia del juego.",
+};

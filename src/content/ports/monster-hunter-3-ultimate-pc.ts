@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const monsterHunter3UltimatePc: Port = {
+  schema: "port",
+  id: "monster-hunter-3-ultimate-pc",
+  title: "Monster Hunter 3 Ultimate (PC)",
+  game: "Monster Hunter 3 Ultimate",
+  developers: ["glinesbdev"],
+  publisher: "Capcom",
+  originalYear: 2013,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/glinesbdev/mh3u-port"],
+  license: { spdx: "AGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Wii U"],
+  notes: "Monster Hunter 3 Ultimate (Capcom, 2013) running on Windows and Linux through static recompilation. You need your own copy of the game.",
+  notesEs: "Monster Hunter 3 Ultimate (Capcom, 2013) en Windows and Linux mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

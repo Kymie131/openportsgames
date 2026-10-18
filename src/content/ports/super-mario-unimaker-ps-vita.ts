@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superMarioUnimakerPsVita: Port = {
+  schema: "port",
+  id: "super-mario-unimaker-ps-vita",
+  title: "Super Mario UniMaker (PS Vita)",
+  game: "Super Mario UniMaker",
+  developers: ["MEGAgameBoy"],
+  publisher: "Fan game",
+  originalYear: 2015,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/MEGAgameBoy/Super-Mario-UniMaker-PS-Vita-Port"],
+  license: { spdx: "BSD-3-Clause" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Super Mario UniMaker (Fan game, 2015) running on PlayStation Vita through source port. Latest release: 1.2.3.4. You need your own copy of the game.",
+  notesEs: "Super Mario UniMaker (Fan game, 2015) en PlayStation Vita mediante port de código. Última release: 1.2.3.4. Necesitas tu propia copia del juego.",
+};

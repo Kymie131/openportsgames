@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const armyOfTwoPc: Port = {
+  schema: "port",
+  id: "army-of-two-pc",
+  title: "Army of Two (PC)",
+  game: "Army of Two",
+  developers: ["OpenPortroid"],
+  publisher: "Electronic Arts",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/OpenPortroid/ArmyOfTwoRecompilation"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  notes: "Army of Two (Electronic Arts, 2008) running on Windows through static recompilation. Latest release: v1.2. You need your own copy of the game.",
+  notesEs: "Army of Two (Electronic Arts, 2008) en Windows mediante recompilación estática. Última release: v1.2. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const twilightPrincessSwitchAlekSEdition: Port = {
+  schema: "port",
+  id: "twilight-princess-switch-alek-s-edition",
+  title: "Twilight Princess (Switch, Alek's Edition)",
+  game: "The Legend of Zelda: Twilight Princess",
+  developers: ["Alexgg1014"],
+  publisher: "Nintendo",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Alexgg1014/The-Legend-of-Zelda-Twilight-Princess-Alek-s-Ultimate-NX-Edition"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  notes: "The Legend of Zelda: Twilight Princess (Nintendo, 2006) running on Nintendo Switch through static recompilation. Latest release: v1.0.0-beta.2. You need your own copy of the game.",
+  notesEs: "The Legend of Zelda: Twilight Princess (Nintendo, 2006) en Nintendo Switch mediante recompilación estática. Última release: v1.0.0-beta.2. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const waveRace64PcChronic8000: Port = {
+  schema: "port",
+  id: "wave-race-64-pc-chronic8000",
+  title: "Wave Race 64 (PC, chronic8000)",
+  game: "Wave Race 64",
+  developers: ["chronic8000"],
+  publisher: "Nintendo",
+  originalYear: 1996,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/chronic8000/WaveRace64Recompiled"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  notes: "Wave Race 64 (Nintendo, 1996) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Wave Race 64 (Nintendo, 1996) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

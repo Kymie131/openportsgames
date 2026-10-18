@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const deepSeaWindWaker60Fps: Port = {
+  schema: "port",
+  id: "deep-sea-wind-waker-60-fps",
+  title: "Deep Sea (Wind Waker, 60 fps)",
+  game: "The Legend of Zelda: The Wind Waker",
+  developers: ["AH64-dll"],
+  publisher: "Nintendo",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/AH64-dll/DeepSea"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  notes: "The Legend of Zelda: The Wind Waker (Nintendo, 2002) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "The Legend of Zelda: The Wind Waker (Nintendo, 2002) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

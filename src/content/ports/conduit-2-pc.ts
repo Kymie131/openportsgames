@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const conduit2Pc: Port = {
+  schema: "port",
+  id: "conduit-2-pc",
+  title: "Conduit 2 (PC)",
+  game: "Conduit 2",
+  developers: ["vs-sr-dev"],
+  publisher: "Sega",
+  originalYear: 2011,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/vs-sr-dev/pc-conduit2"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Wii"],
+  notes: "Conduit 2 (Sega, 2011) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Conduit 2 (Sega, 2011) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

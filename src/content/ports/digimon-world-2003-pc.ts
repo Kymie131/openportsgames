@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const digimonWorld2003Pc: Port = {
+  schema: "port",
+  id: "digimon-world-2003-pc",
+  title: "Digimon World 2003 (PC)",
+  game: "Digimon World 3",
+  developers: ["gascarcella"],
+  publisher: "Bandai",
+  originalYear: 2002,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/gascarcella/dw2003recomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  notes: "Digimon World 3 (Bandai, 2002) running on Windows through decompilation. Latest release: v0.4.0. You need your own copy of the game.",
+  notesEs: "Digimon World 3 (Bandai, 2002) en Windows mediante decompilación. Última release: v0.4.0. Necesitas tu propia copia del juego.",
+};

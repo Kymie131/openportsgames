@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const conkerSBadFurDayPsVita: Port = {
+  schema: "port",
+  id: "conker-s-bad-fur-day-ps-vita",
+  title: "Conker's Bad Fur Day (PS Vita)",
+  game: "Conker's Bad Fur Day",
+  developers: ["HenryKun55"],
+  publisher: "Rare",
+  originalYear: 2001,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/HenryKun55/CBFD-Recompiled"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  notes: "Conker's Bad Fur Day (Rare, 2001) running on PlayStation Vita through static recompilation. You need your own copy of the game.",
+  notesEs: "Conker's Bad Fur Day (Rare, 2001) en PlayStation Vita mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const strikeGunnerStgPc: Port = {
+  schema: "port",
+  id: "strike-gunner-stg-pc",
+  title: "Strike Gunner STG (PC)",
+  game: "Strike Gunner STG",
+  developers: ["SlippyGetBackHere"],
+  publisher: "Athena",
+  originalYear: 1992,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/SlippyGetBackHere/Strike-Gunner-STG-Recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Super Nintendo"],
+  notes: "Strike Gunner STG (Athena, 1992) running on Windows through static recompilation. Latest release: v0.2.0. You need your own copy of the game.",
+  notesEs: "Strike Gunner STG (Athena, 1992) en Windows mediante recompilación estática. Última release: v0.2.0. Necesitas tu propia copia del juego.",
+};

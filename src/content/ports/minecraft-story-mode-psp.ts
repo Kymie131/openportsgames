@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const minecraftStoryModePsp: Port = {
+  schema: "port",
+  id: "minecraft-story-mode-psp",
+  title: "Minecraft: Story Mode (PSP)",
+  game: "Minecraft: Story Mode",
+  developers: ["entitybtw"],
+  publisher: "Telltale Games",
+  originalYear: 2015,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/entitybtw/mcsm_portable"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Minecraft: Story Mode (Telltale Games, 2015) running on PlayStation Portable through source port. Latest release: 1.7. You need your own copy of the game.",
+  notesEs: "Minecraft: Story Mode (Telltale Games, 2015) en PlayStation Portable mediante port de código. Última release: 1.7. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rayman3PcGbaVersion: Port = {
+  schema: "port",
+  id: "rayman-3-pc-gba-version",
+  title: "Rayman 3 (PC, GBA version)",
+  game: "Rayman 3",
+  developers: ["RayCarrot"],
+  publisher: "Ubisoft",
+  originalYear: 2003,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/RayCarrot/Rayman3Readvanced"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Game Boy Advance"],
+  notes: "Rayman 3 (Ubisoft, 2003) running on Windows through source port. You need your own copy of the game.",
+  notesEs: "Rayman 3 (Ubisoft, 2003) en Windows mediante port de código. Necesitas tu propia copia del juego.",
+};

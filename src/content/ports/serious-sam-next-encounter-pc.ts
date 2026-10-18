@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const seriousSamNextEncounterPc: Port = {
+  schema: "port",
+  id: "serious-sam-next-encounter-pc",
+  title: "Serious Sam: Next Encounter (PC)",
+  game: "Serious Sam: Next Encounter",
+  developers: ["takoshero96"],
+  publisher: "Global Star Software",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/takoshero96/Silly-ReEncounter"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  notes: "Serious Sam: Next Encounter (Global Star Software, 2004) running on Windows through static recompilation. Latest release: update. You need your own copy of the game.",
+  notesEs: "Serious Sam: Next Encounter (Global Star Software, 2004) en Windows mediante recompilación estática. Última release: update. Necesitas tu propia copia del juego.",
+};

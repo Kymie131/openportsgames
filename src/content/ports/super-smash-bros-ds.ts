@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superSmashBrosDs: Port = {
+  schema: "port",
+  id: "super-smash-bros-ds",
+  title: "Super Smash Bros. (DS)",
+  game: "Super Smash Bros.",
+  developers: ["rockenrooster"],
+  publisher: "Nintendo",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ds"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/rockenrooster/Smash64DS_Port"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  notes: "Super Smash Bros. (Nintendo, 1999) running on Nintendo DS through decompilation. You need your own copy of the game.",
+  notesEs: "Super Smash Bros. (Nintendo, 1999) en Nintendo DS mediante decompilación. Necesitas tu propia copia del juego.",
+};

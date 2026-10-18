@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const everlastingSummer3ds: Port = {
+  schema: "port",
+  id: "everlasting-summer-3ds",
+  title: "Everlasting Summer (3DS)",
+  game: "Everlasting Summer",
+  developers: ["btfkk"],
+  publisher: "Soviet Games",
+  originalYear: 2014,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/btfkk/Everlasting-Summer-3DS"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Everlasting Summer (Soviet Games, 2014) running on Nintendo 3DS through source port. Latest release: v0.01. You need your own copy of the game.",
+  notesEs: "Everlasting Summer (Soviet Games, 2014) en Nintendo 3DS mediante port de código. Última release: v0.01. Necesitas tu propia copia del juego.",
+};

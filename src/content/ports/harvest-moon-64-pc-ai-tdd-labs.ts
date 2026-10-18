@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const harvestMoon64PcAiTddLabs: Port = {
+  schema: "port",
+  id: "harvest-moon-64-pc-ai-tdd-labs",
+  title: "Harvest Moon 64 (PC, ai-tdd-labs)",
+  game: "Harvest Moon 64",
+  developers: ["ai-tdd-labs"],
+  publisher: "Natsume",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ai-tdd-labs/harvest-moon-64-recompiled"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  notes: "Harvest Moon 64 (Natsume, 1999) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Harvest Moon 64 (Natsume, 1999) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

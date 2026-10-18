@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bouncePsp: Port = {
+  schema: "port",
+  id: "bounce-psp",
+  title: "Bounce (PSP)",
+  game: "Bounce",
+  developers: ["amdray"],
+  publisher: "Nokia",
+  originalYear: 2002,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/amdray/bounce_zero"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "Bounce (Nokia, 2002) running on PlayStation Portable through source port. Latest release: v1.1. You need your own copy of the game.",
+  notesEs: "Bounce (Nokia, 2002) en PlayStation Portable mediante port de código. Última release: v1.1. Necesitas tu propia copia del juego.",
+};

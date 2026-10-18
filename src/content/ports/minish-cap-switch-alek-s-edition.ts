@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const minishCapSwitchAlekSEdition: Port = {
+  schema: "port",
+  id: "minish-cap-switch-alek-s-edition",
+  title: "Minish Cap (Switch, Alek's Edition)",
+  game: "The Legend of Zelda: The Minish Cap",
+  developers: ["Alexgg1014"],
+  publisher: "Nintendo",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Alexgg1014/The-Legend-of-Zelda-The-Minish-Cap-Alek-s-Ultimate-NX-Edition"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Game Boy Advance"],
+  notes: "The Legend of Zelda: The Minish Cap (Nintendo, 2004) running on Nintendo Switch through source port. Latest release: v2.0.1. You need your own copy of the game.",
+  notesEs: "The Legend of Zelda: The Minish Cap (Nintendo, 2004) en Nintendo Switch mediante port de código. Última release: v2.0.1. Necesitas tu propia copia del juego.",
+};

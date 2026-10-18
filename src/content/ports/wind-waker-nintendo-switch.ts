@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const windWakerNintendoSwitch: Port = {
+  schema: "port",
+  id: "wind-waker-nintendo-switch",
+  title: "Wind Waker (Nintendo Switch)",
+  game: "The Legend of Zelda: The Wind Waker",
+  developers: ["centollOS"],
+  publisher: "Nintendo",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/centollOS/SwitchWaker"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  notes: "The Legend of Zelda: The Wind Waker (Nintendo, 2002) running on Nintendo Switch through static recompilation. Latest release: v0.4.2. You need your own copy of the game.",
+  notesEs: "The Legend of Zelda: The Wind Waker (Nintendo, 2002) en Nintendo Switch mediante recompilación estática. Última release: v0.4.2. Necesitas tu propia copia del juego.",
+};

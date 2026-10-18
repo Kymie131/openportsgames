@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gtaIvIosIpados: Port = {
+  schema: "port",
+  id: "gta-iv-ios-ipados",
+  title: "GTA IV (iOS/iPadOS)",
+  game: "Grand Theft Auto IV",
+  developers: ["KoreanSeats1"],
+  publisher: "Rockstar Games",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ios"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/KoreanSeats1/Theft4"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  notes: "Grand Theft Auto IV (Rockstar Games, 2008) running on iPhone and iPad through static recompilation. Latest release: v0.3.2. You need your own copy of the game.",
+  notesEs: "Grand Theft Auto IV (Rockstar Games, 2008) en iPhone and iPad mediante recompilación estática. Última release: v0.3.2. Necesitas tu propia copia del juego.",
+};

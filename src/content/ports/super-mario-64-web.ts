@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superMario64Web: Port = {
+  schema: "port",
+  id: "super-mario-64-web",
+  title: "Super Mario 64 (web)",
+  game: "Super Mario 64",
+  developers: ["lwllac"],
+  publisher: "Nintendo",
+  originalYear: 1996,
+  portType: "reimplementation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["web"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/lwllac/sm64"],
+  license: { spdx: "Apache-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  notes: "Super Mario 64 (Nintendo, 1996) running on the web through reimplementation. Latest release: verson. You need your own copy of the game.",
+  notesEs: "Super Mario 64 (Nintendo, 1996) en the web mediante reimplementación. Última release: verson. Necesitas tu propia copia del juego.",
+};

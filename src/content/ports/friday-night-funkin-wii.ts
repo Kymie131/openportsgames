@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const fridayNightFunkinWii: Port = {
+  schema: "port",
+  id: "friday-night-funkin-wii",
+  title: "Friday Night Funkin' (Wii)",
+  game: "Friday Night Funkin'",
+  developers: ["NicktasticDEV"],
+  publisher: "Funkin' Crew",
+  originalYear: 2020,
+  portType: "source-port",
+  genre: "music",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["wii"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/NicktasticDEV/Funkin-Wii"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Friday Night Funkin' (Funkin' Crew, 2020) running on Wii through source port. You need your own copy of the game.",
+  notesEs: "Friday Night Funkin' (Funkin' Crew, 2020) en Wii mediante port de código. Necesitas tu propia copia del juego.",
+};

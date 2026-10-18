@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const kOnHoukagoLivePc: Port = {
+  schema: "port",
+  id: "k-on-houkago-live-pc",
+  title: "K-On! Houkago Live!! (PC)",
+  game: "K-On! Houkago Live!!",
+  developers: ["EDGX73"],
+  publisher: "Sega",
+  originalYear: 2010,
+  portType: "recompilation",
+  genre: "music",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/EDGX73/KOn-Houkago-Live-Recompiled"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation Portable"],
+  notes: "K-On! Houkago Live!! (Sega, 2010) running on Windows through static recompilation. Latest release: v0.1.0. You need your own copy of the game.",
+  notesEs: "K-On! Houkago Live!! (Sega, 2010) en Windows mediante recompilación estática. Última release: v0.1.0. Necesitas tu propia copia del juego.",
+};

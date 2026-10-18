@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const osu3ds: Port = {
+  schema: "port",
+  id: "osu-3ds",
+  title: "osu! (3DS)",
+  game: "osu!",
+  developers: ["whatdahopper-archive"],
+  publisher: "ppy",
+  originalYear: 2007,
+  portType: "source-port",
+  genre: "music",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/whatdahopper-archive/osu-3ds"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "osu! (ppy, 2007) running on Nintendo 3DS through source port. You need your own copy of the game.",
+  notesEs: "osu! (ppy, 2007) en Nintendo 3DS mediante port de código. Necesitas tu propia copia del juego.",
+};

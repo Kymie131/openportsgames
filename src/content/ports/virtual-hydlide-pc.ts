@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const virtualHydlidePc: Port = {
+  schema: "port",
+  id: "virtual-hydlide-pc",
+  title: "Virtual Hydlide (PC)",
+  game: "Virtual Hydlide",
+  developers: ["vs-sr-dev"],
+  publisher: "Sega",
+  originalYear: 1995,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/vs-sr-dev/pc-virtualhydlide"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Sega Saturn"],
+  notes: "Virtual Hydlide (Sega, 1995) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Virtual Hydlide (Sega, 1995) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

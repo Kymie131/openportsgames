@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const civilizationSnesPc: Port = {
+  schema: "port",
+  id: "civilization-snes-pc",
+  title: "Civilization (SNES, PC)",
+  game: "Civilization",
+  developers: ["Junior-Jones"],
+  publisher: "MicroProse",
+  originalYear: 1994,
+  portType: "recompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Junior-Jones/Civilization-SNES-Static-Recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Super Nintendo"],
+  notes: "Civilization (MicroProse, 1994) running on Windows through static recompilation. Latest release: v1.3.0. You need your own copy of the game.",
+  notesEs: "Civilization (MicroProse, 1994) en Windows mediante recompilación estática. Última release: v1.3.0. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const planetBlupiWiiU: Port = {
+  schema: "port",
+  id: "planet-blupi-wii-u",
+  title: "Planet Blupi (Wii U)",
+  game: "Planet Blupi",
+  developers: ["vs-sr-dev"],
+  publisher: "Epsitec",
+  originalYear: 1997,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["wiiu"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/vs-sr-dev/wiiu-planetblupi"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Planet Blupi (Epsitec, 1997) running on Wii U through source port. You need your own copy of the game.",
+  notesEs: "Planet Blupi (Epsitec, 1997) en Wii U mediante port de código. Necesitas tu propia copia del juego.",
+};

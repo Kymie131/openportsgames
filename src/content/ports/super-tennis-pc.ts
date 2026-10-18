@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superTennisPc: Port = {
+  schema: "port",
+  id: "super-tennis-pc",
+  title: "Super Tennis (PC)",
+  game: "Super Tennis",
+  developers: ["craigshaw"],
+  publisher: "Nintendo",
+  originalYear: 1991,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/craigshaw/SuperTennisRecomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Super Nintendo"],
+  notes: "Super Tennis (Nintendo, 1991) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Super Tennis (Nintendo, 1991) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const topGearPc: Port = {
+  schema: "port",
+  id: "top-gear-pc",
+  title: "Top Gear (PC)",
+  game: "Top Gear",
+  developers: ["Junior-Jones"],
+  publisher: "Kemco",
+  originalYear: 1992,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Junior-Jones/Top-Gear-SNES-Static-Recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Super Nintendo"],
+  notes: "Top Gear (Kemco, 1992) running on Windows through static recompilation. Latest release: v2.1.0. You need your own copy of the game.",
+  notesEs: "Top Gear (Kemco, 1992) en Windows mediante recompilación estática. Última release: v2.1.0. Necesitas tu propia copia del juego.",
+};

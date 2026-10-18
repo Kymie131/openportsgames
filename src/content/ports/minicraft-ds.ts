@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const minicraftDs: Port = {
+  schema: "port",
+  id: "minicraft-ds",
+  title: "Minicraft (DS)",
+  game: "Minicraft",
+  developers: ["ArthurCose"],
+  publisher: "Notch",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ArthurCose/Minicraft-DS-Edition"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Minicraft (Notch, 2011) running on Nintendo DS through source port. Latest release: v1.0.0-beta.3. You need your own copy of the game.",
+  notesEs: "Minicraft (Notch, 2011) en Nintendo DS mediante port de código. Última release: v1.0.0-beta.3. Necesitas tu propia copia del juego.",
+};

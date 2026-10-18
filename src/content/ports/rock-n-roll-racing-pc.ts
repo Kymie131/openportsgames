@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rockNRollRacingPc: Port = {
+  schema: "port",
+  id: "rock-n-roll-racing-pc",
+  title: "Rock n' Roll Racing (PC)",
+  game: "Rock n' Roll Racing",
+  developers: ["Junior-Jones"],
+  publisher: "Interplay Entertainment",
+  originalYear: 1993,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Junior-Jones/Rock-N-Roll-Racing-SNES-Static-Recomp"],
+  license: { spdx: "Zlib" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Super Nintendo"],
+  notes: "Rock n' Roll Racing (Interplay Entertainment, 1993) running on Windows through static recompilation. Latest release: v1.0.0. You need your own copy of the game.",
+  notesEs: "Rock n' Roll Racing (Interplay Entertainment, 1993) en Windows mediante recompilación estática. Última release: v1.0.0. Necesitas tu propia copia del juego.",
+};

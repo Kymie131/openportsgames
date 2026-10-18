@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const blackPc: Port = {
+  schema: "port",
+  id: "black-pc",
+  title: "BLACK (PC)",
+  game: "BLACK",
+  developers: ["Spark198rus"],
+  publisher: "Electronic Arts",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Spark198rus/black-pc"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox"],
+  notes: "BLACK (Electronic Arts, 2006) running on Windows through static recompilation. Latest release: v0.2.0. You need your own copy of the game.",
+  notesEs: "BLACK (Electronic Arts, 2006) en Windows mediante recompilación estática. Última release: v0.2.0. Necesitas tu propia copia del juego.",
+};

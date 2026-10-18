@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const goGoAckmanPc: Port = {
+  schema: "port",
+  id: "go-go-ackman-pc",
+  title: "Go Go Ackman (PC)",
+  game: "Go Go Ackman",
+  developers: ["catmidori"],
+  publisher: "Banpresto",
+  originalYear: 1994,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/catmidori/gogoackman1recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Super Nintendo"],
+  notes: "Go Go Ackman (Banpresto, 1994) running on Windows through static recompilation. Latest release: v1.0. You need your own copy of the game.",
+  notesEs: "Go Go Ackman (Banpresto, 1994) en Windows mediante recompilación estática. Última release: v1.0. Necesitas tu propia copia del juego.",
+};

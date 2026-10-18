@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const woodyWoodpeckerPsp: Port = {
+  schema: "port",
+  id: "woody-woodpecker-psp",
+  title: "Woody Woodpecker (PSP)",
+  game: "Woody Woodpecker: Escape from Buzz Buzzard Park",
+  developers: ["wendersondiazx"],
+  publisher: "Cryo Interactive",
+  originalYear: 2002,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/wendersondiazx/Woody-Portable"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 2"],
+  notes: "Woody Woodpecker: Escape from Buzz Buzzard Park (Cryo Interactive, 2002) running on PlayStation Portable through source port. You need your own copy of the game.",
+  notesEs: "Woody Woodpecker: Escape from Buzz Buzzard Park (Cryo Interactive, 2002) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
+};

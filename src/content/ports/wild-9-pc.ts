@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const wild9Pc: Port = {
+  schema: "port",
+  id: "wild-9-pc",
+  title: "Wild 9 (PC)",
+  game: "Wild 9",
+  developers: ["plinkr"],
+  publisher: "Interplay Entertainment",
+  originalYear: 1998,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/plinkr/Wild9Recomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  notes: "Wild 9 (Interplay Entertainment, 1998) running on Windows through static recompilation. Latest release: v0.1.7. You need your own copy of the game.",
+  notesEs: "Wild 9 (Interplay Entertainment, 1998) en Windows mediante recompilación estática. Última release: v0.1.7. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const spiderManWebOfShadowsPc: Port = {
+  schema: "port",
+  id: "spider-man-web-of-shadows-pc",
+  title: "Spider-Man: Web of Shadows (PC)",
+  game: "Spider-Man: Web of Shadows",
+  developers: ["toowasmir"],
+  publisher: "Activision",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/toowasmir/WebOfShadowsRecomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  notes: "Spider-Man: Web of Shadows (Activision, 2008) running on Windows through static recompilation. Latest release: v2.0.0. You need your own copy of the game.",
+  notesEs: "Spider-Man: Web of Shadows (Activision, 2008) en Windows mediante recompilación estática. Última release: v2.0.0. Necesitas tu propia copia del juego.",
+};

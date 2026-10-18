@@ -1516,6 +1516,99 @@ import { pspLatro } from "./psp-latro";
 
 import { gtaIiiPsp } from "./gta-iii-psp";
 
+import { minecraftStoryModePsp } from "./minecraft-story-mode-psp";
+import { pokemonPlatinumSoulsilverPsp } from "./pokemon-platinum-soulsilver-psp";
+import { godOfWarChainsOfOlympusPc } from "./god-of-war-chains-of-olympus-pc";
+import { touhou8Psp } from "./touhou-8-psp";
+import { touhou7Psp } from "./touhou-7-psp";
+import { touhou6PspJeongJimin } from "./touhou-6-psp-jeong-jimin";
+import { woodyWoodpeckerPsp } from "./woody-woodpecker-psp";
+import { doomRpgPsp } from "./doom-rpg-psp";
+import { bouncePsp } from "./bounce-psp";
+import { extremeTuxRacerPsp } from "./extreme-tux-racer-psp";
+import { _2048Psp } from "./2048-psp";
+import { hollowKnightPspHomebrew } from "./hollow-knight-psp-homebrew";
+import { kOnHoukagoLivePc } from "./k-on-houkago-live-pc";
+import { dokiDokiLiteratureClubPsVita } from "./doki-doki-literature-club-ps-vita";
+import { tonyHawkSUndergroundPsVita } from "./tony-hawk-s-underground-ps-vita";
+import { gtaLibertyCityStoriesPsVita } from "./gta-liberty-city-stories-ps-vita";
+import { _9mmHdPsVita } from "./9mm-hd-ps-vita";
+import { superMarioUnimakerPsVita } from "./super-mario-unimaker-ps-vita";
+import { sonicTimeTwistedPsVita } from "./sonic-time-twisted-ps-vita";
+import { untitledGooseGamePsVita } from "./untitled-goose-game-ps-vita";
+import { theImpossibleGamePsVita } from "./the-impossible-game-ps-vita";
+import { supertuxMilestone2VitaSwitchPs3 } from "./supertux-milestone-2-vita-switch-ps3";
+import { conkerSBadFurDayPsVita } from "./conker-s-bad-fur-day-ps-vita";
+import { minicraft3ds } from "./minicraft-3ds";
+import { minicraftDs } from "./minicraft-ds";
+import { deltarune3ds } from "./deltarune-3ds";
+import { osu3ds } from "./osu-3ds";
+import { starFox3ds } from "./star-fox-3ds";
+import { silentHill23ds } from "./silent-hill-2-3ds";
+import { papersPlease3ds } from "./papers-please-3ds";
+import { everlastingSummer3ds } from "./everlasting-summer-3ds";
+import { neonValley3ds } from "./neon-valley-3ds";
+import { blockBlast3ds } from "./block-blast-3ds";
+import { legoWorldBuilder3ds } from "./lego-world-builder-3ds";
+import { portalDs } from "./portal-ds";
+import { superSmashBrosDs } from "./super-smash-bros-ds";
+import { littleBigAdventureDs } from "./little-big-adventure-ds";
+import { tanksDs } from "./tanks-ds";
+import { balatroWiiU } from "./balatro-wii-u";
+import { fridayNightFunkinWii } from "./friday-night-funkin-wii";
+import { planetBlupiWiiU } from "./planet-blupi-wii-u";
+import { windWakerNintendoSwitch } from "./wind-waker-nintendo-switch";
+import { minishCapSwitchAlekSEdition } from "./minish-cap-switch-alek-s-edition";
+import { twilightPrincessSwitchAlekSEdition } from "./twilight-princess-switch-alek-s-edition";
+import { superMarioWorldRemasteredPlusSwitch } from "./super-mario-world-remastered-plus-switch";
+import { touhou7Switch } from "./touhou-7-switch";
+import { sonicTheFightersSwitch } from "./sonic-the-fighters-switch";
+import { supertuxSwitch } from "./supertux-switch";
+import { sm64coopdxSwitch } from "./sm64coopdx-switch";
+import { needForSpeedMostWanted2012Switch } from "./need-for-speed-most-wanted-2012-switch";
+import { skiesOfArcadiaLegendsPc } from "./skies-of-arcadia-legends-pc";
+import { seriousSamNextEncounterPc } from "./serious-sam-next-encounter-pc";
+import { deepSeaWindWaker60Fps } from "./deep-sea-wind-waker-60-fps";
+import { digimonWorld2003Pc } from "./digimon-world-2003-pc";
+import { wild9Pc } from "./wild-9-pc";
+import { crashBandicoot2Pc } from "./crash-bandicoot-2-pc";
+import { twistedMetal14Pc } from "./twisted-metal-1-4-pc";
+import { twistedMetal2012Pc } from "./twisted-metal-2012-pc";
+import { gtaIvIosIpados } from "./gta-iv-ios-ipados";
+import { armyOfTwoPc } from "./army-of-two-pc";
+import { blackPc } from "./black-pc";
+import { theLordOfTheRingsTheTwoTowersPc } from "./the-lord-of-the-rings-the-two-towers-pc";
+import { spiderManWebOfShadowsPc } from "./spider-man-web-of-shadows-pc";
+import { crackdownPc } from "./crackdown-pc";
+import { wweSmackdownVsRaw2010Pc } from "./wwe-smackdown-vs-raw-2010-pc";
+import { wweSmackdownVsRaw2009Pc } from "./wwe-smackdown-vs-raw-2009-pc";
+import { wweSmackdownVsRaw2008Pc } from "./wwe-smackdown-vs-raw-2008-pc";
+import { tekkenTagTournament2Pc } from "./tekken-tag-tournament-2-pc";
+import { topGearPc } from "./top-gear-pc";
+import { simcitySnesPc } from "./simcity-snes-pc";
+import { civilizationSnesPc } from "./civilization-snes-pc";
+import { rockNRollRacingPc } from "./rock-n-roll-racing-pc";
+import { sunsetRidersPc } from "./sunset-riders-pc";
+import { goGoAckmanPc } from "./go-go-ackman-pc";
+import { superTennisPc } from "./super-tennis-pc";
+import { strikeGunnerStgPc } from "./strike-gunner-stg-pc";
+import { bodyHarvestPc } from "./body-harvest-pc";
+import { sinPunishmentPc } from "./sin-punishment-pc";
+import { ocarinaOfTimePcRayTraced } from "./ocarina-of-time-pc-ray-traced";
+import { waveRace64PcChronic8000 } from "./wave-race-64-pc-chronic8000";
+import { kenGriffeyJrSSlugfestPc } from "./ken-griffey-jr-s-slugfest-pc";
+import { harvestMoon64PcAiTddLabs } from "./harvest-moon-64-pc-ai-tdd-labs";
+import { banjoKazooieAndroid8cee } from "./banjo-kazooie-android-8cee";
+import { rayman3PcGbaVersion } from "./rayman-3-pc-gba-version";
+import { superMario64Web } from "./super-mario-64-web";
+import { theLastStoryPc } from "./the-last-story-pc";
+import { skywardSwordPc } from "./skyward-sword-pc";
+import { monsterHunter3UltimatePc } from "./monster-hunter-3-ultimate-pc";
+import { conduit2Pc } from "./conduit-2-pc";
+import { moonPc } from "./moon-pc";
+import { virtualHydlidePc } from "./virtual-hydlide-pc";
+import { deltarunePs3 } from "./deltarune-ps3";
+
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -3017,4 +3110,96 @@ export const portCases: Port[] = [
   dragonBallZTenkaichiTagTeam,
   pspLatro,
   gtaIiiPsp,
+  minecraftStoryModePsp,
+  pokemonPlatinumSoulsilverPsp,
+  godOfWarChainsOfOlympusPc,
+  touhou8Psp,
+  touhou7Psp,
+  touhou6PspJeongJimin,
+  woodyWoodpeckerPsp,
+  doomRpgPsp,
+  bouncePsp,
+  extremeTuxRacerPsp,
+  _2048Psp,
+  hollowKnightPspHomebrew,
+  kOnHoukagoLivePc,
+  dokiDokiLiteratureClubPsVita,
+  tonyHawkSUndergroundPsVita,
+  gtaLibertyCityStoriesPsVita,
+  _9mmHdPsVita,
+  superMarioUnimakerPsVita,
+  sonicTimeTwistedPsVita,
+  untitledGooseGamePsVita,
+  theImpossibleGamePsVita,
+  supertuxMilestone2VitaSwitchPs3,
+  conkerSBadFurDayPsVita,
+  minicraft3ds,
+  minicraftDs,
+  deltarune3ds,
+  osu3ds,
+  starFox3ds,
+  silentHill23ds,
+  papersPlease3ds,
+  everlastingSummer3ds,
+  neonValley3ds,
+  blockBlast3ds,
+  legoWorldBuilder3ds,
+  portalDs,
+  superSmashBrosDs,
+  littleBigAdventureDs,
+  tanksDs,
+  balatroWiiU,
+  fridayNightFunkinWii,
+  planetBlupiWiiU,
+  windWakerNintendoSwitch,
+  minishCapSwitchAlekSEdition,
+  twilightPrincessSwitchAlekSEdition,
+  superMarioWorldRemasteredPlusSwitch,
+  touhou7Switch,
+  sonicTheFightersSwitch,
+  supertuxSwitch,
+  sm64coopdxSwitch,
+  needForSpeedMostWanted2012Switch,
+  skiesOfArcadiaLegendsPc,
+  seriousSamNextEncounterPc,
+  deepSeaWindWaker60Fps,
+  digimonWorld2003Pc,
+  wild9Pc,
+  crashBandicoot2Pc,
+  twistedMetal14Pc,
+  twistedMetal2012Pc,
+  gtaIvIosIpados,
+  armyOfTwoPc,
+  blackPc,
+  theLordOfTheRingsTheTwoTowersPc,
+  spiderManWebOfShadowsPc,
+  crackdownPc,
+  wweSmackdownVsRaw2010Pc,
+  wweSmackdownVsRaw2009Pc,
+  wweSmackdownVsRaw2008Pc,
+  tekkenTagTournament2Pc,
+  topGearPc,
+  simcitySnesPc,
+  civilizationSnesPc,
+  rockNRollRacingPc,
+  sunsetRidersPc,
+  goGoAckmanPc,
+  superTennisPc,
+  strikeGunnerStgPc,
+  bodyHarvestPc,
+  sinPunishmentPc,
+  ocarinaOfTimePcRayTraced,
+  waveRace64PcChronic8000,
+  kenGriffeyJrSSlugfestPc,
+  harvestMoon64PcAiTddLabs,
+  banjoKazooieAndroid8cee,
+  rayman3PcGbaVersion,
+  superMario64Web,
+  theLastStoryPc,
+  skywardSwordPc,
+  monsterHunter3UltimatePc,
+  conduit2Pc,
+  moonPc,
+  virtualHydlidePc,
+  deltarunePs3,
 ];

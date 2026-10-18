@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const doomRpgPsp: Port = {
+  schema: "port",
+  id: "doom-rpg-psp",
+  title: "Doom RPG (PSP)",
+  game: "Doom RPG",
+  developers: ["dadcapgamer"],
+  publisher: "id Software",
+  originalYear: 2005,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/dadcapgamer/DoomRPG4PSP"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "Doom RPG (id Software, 2005) running on PlayStation Portable through decompilation. You need your own copy of the game.",
+  notesEs: "Doom RPG (id Software, 2005) en PlayStation Portable mediante decompilación. Necesitas tu propia copia del juego.",
+};

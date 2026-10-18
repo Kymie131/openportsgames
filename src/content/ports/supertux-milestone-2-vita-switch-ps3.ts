@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const supertuxMilestone2VitaSwitchPs3: Port = {
+  schema: "port",
+  id: "supertux-milestone-2-vita-switch-ps3",
+  title: "SuperTux Milestone 2 (Vita, Switch, PS3)",
+  game: "SuperTux",
+  developers: ["theheroGAC"],
+  publisher: "SuperTux team",
+  originalYear: 2016,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "open",
+  platforms: ["psvita","switch","ps3"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/theheroGAC/SuperTux-Milestone-2-Multi-Console"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "SuperTux (SuperTux team, 2016) running on PlayStation Vita and Nintendo Switch and PlayStation 3 through source port. Latest release: 1.00. The original game is free software, so no commercial copy is needed.",
+  notesEs: "SuperTux (SuperTux team, 2016) en PlayStation Vita and Nintendo Switch and PlayStation 3 mediante port de código. Última release: 1.00. El juego original es software libre, así que no hace falta una copia comercial.",
+};

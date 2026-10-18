@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const supertuxSwitch: Port = {
+  schema: "port",
+  id: "supertux-switch",
+  title: "SuperTux (Switch)",
+  game: "SuperTux",
+  developers: ["headshot2017"],
+  publisher: "SuperTux team",
+  originalYear: 2003,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "open",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/headshot2017/supertux-switch"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "SuperTux (SuperTux team, 2003) running on Nintendo Switch through source port. Latest release: v0.1.1b. The original game is free software, so no commercial copy is needed.",
+  notesEs: "SuperTux (SuperTux team, 2003) en Nintendo Switch mediante port de código. Última release: v0.1.1b. El juego original es software libre, así que no hace falta una copia comercial.",
+};

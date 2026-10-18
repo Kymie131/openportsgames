@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const balatroWiiU: Port = {
+  schema: "port",
+  id: "balatro-wii-u",
+  title: "Balatro (Wii U)",
+  game: "Balatro",
+  developers: ["Balatro-U"],
+  publisher: "Playstack",
+  originalYear: 2024,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["wiiu"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Balatro-U/Balatro-Wii-U"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Balatro (Playstack, 2024) running on Wii U through source port. You need your own copy of the game.",
+  notesEs: "Balatro (Playstack, 2024) en Wii U mediante port de código. Necesitas tu propia copia del juego.",
+};

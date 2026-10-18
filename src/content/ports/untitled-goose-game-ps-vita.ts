@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const untitledGooseGamePsVita: Port = {
+  schema: "port",
+  id: "untitled-goose-game-ps-vita",
+  title: "Untitled Goose Game (PS Vita)",
+  game: "Untitled Goose Game",
+  developers: ["PatnosDD"],
+  publisher: "Panic",
+  originalYear: 2019,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/PatnosDD/Untitled-Goose-Game-PS-VITA"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Untitled Goose Game (Panic, 2019) running on PlayStation Vita through source port. Latest release: v0.1. You need your own copy of the game.",
+  notesEs: "Untitled Goose Game (Panic, 2019) en PlayStation Vita mediante port de código. Última release: v0.1. Necesitas tu propia copia del juego.",
+};

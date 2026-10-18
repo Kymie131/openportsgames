@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sonicTheFightersSwitch: Port = {
+  schema: "port",
+  id: "sonic-the-fighters-switch",
+  title: "Sonic the Fighters (Switch)",
+  game: "Sonic the Fighters",
+  developers: ["boraeskicioglu"],
+  publisher: "Sega",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/boraeskicioglu/sonic_the_fighters_nx"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Arcade"],
+  notes: "Sonic the Fighters (Sega, 1996) running on Nintendo Switch through source port. Latest release: 0.8.3. You need your own copy of the game.",
+  notesEs: "Sonic the Fighters (Sega, 1996) en Nintendo Switch mediante port de código. Última release: 0.8.3. Necesitas tu propia copia del juego.",
+};

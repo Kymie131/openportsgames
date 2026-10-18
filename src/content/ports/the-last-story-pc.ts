@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const theLastStoryPc: Port = {
+  schema: "port",
+  id: "the-last-story-pc",
+  title: "The Last Story (PC)",
+  game: "The Last Story",
+  developers: ["vs-sr-dev"],
+  publisher: "Nintendo",
+  originalYear: 2011,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/vs-sr-dev/pc-thelaststory"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Wii"],
+  notes: "The Last Story (Nintendo, 2011) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "The Last Story (Nintendo, 2011) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

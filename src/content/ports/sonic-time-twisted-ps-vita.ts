@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sonicTimeTwistedPsVita: Port = {
+  schema: "port",
+  id: "sonic-time-twisted-ps-vita",
+  title: "Sonic Time Twisted (PS Vita)",
+  game: "Sonic Time Twisted",
+  developers: ["MEGAgameBoy"],
+  publisher: "Overbound",
+  originalYear: 2016,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/MEGAgameBoy/Sonic-Time-Twisted-PS-Vita-Port"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Sonic Time Twisted (Overbound, 2016) running on PlayStation Vita through source port. You need your own copy of the game.",
+  notesEs: "Sonic Time Twisted (Overbound, 2016) en PlayStation Vita mediante port de código. Necesitas tu propia copia del juego.",
+};
