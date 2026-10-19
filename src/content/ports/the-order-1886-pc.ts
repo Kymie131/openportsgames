@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const theOrder1886Pc: Port = {
+  schema: "port",
+  id: "the-order-1886-pc",
+  title: "The Order: 1886 (PC)",
+  game: "The Order: 1886",
+  developers: ["IgorAugustoHH"],
+  publisher: "Ready at Dawn",
+  originalYear: 2015,
+  portType: "runtime-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/IgorAugustoHH/The-Order-1886-PC-Port"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 4"],
+  notes: "The Order: 1886 (Ready at Dawn, 2015) running on Windows through runtime layer. You need your own copy of the game.",
+  notesEs: "The Order: 1886 (Ready at Dawn, 2015) en Windows mediante capa de ejecución. Necesitas tu propia copia del juego.",
+};

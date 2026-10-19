@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const crazyTaxiClassicSwitch: Port = {
+  schema: "port",
+  id: "crazy-taxi-classic-switch",
+  title: "Crazy Taxi Classic (Switch)",
+  game: "Crazy Taxi",
+  developers: ["delsonazevedo"],
+  publisher: "Hitmaker",
+  originalYear: 1999,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/delsonazevedo/crazytaxy_nx"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Crazy Taxi (Hitmaker, 1999) running on Nintendo Switch through source port. Latest release: 1.0.0. You need your own copy of the game.",
+  notesEs: "Crazy Taxi (Hitmaker, 1999) en Nintendo Switch mediante port de código. Última release: 1.0.0. Necesitas tu propia copia del juego.",
+};

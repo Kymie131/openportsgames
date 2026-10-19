@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const crashTwinsanityPc: Port = {
+  schema: "port",
+  id: "crash-twinsanity-pc",
+  title: "Crash Twinsanity (PC)",
+  game: "Crash Twinsanity",
+  developers: ["GioPixelGH"],
+  publisher: "Traveller's Tales",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/GioPixelGH/Crash-Twinsanity-Windows"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 2"],
+  notes: "Crash Twinsanity (Traveller's Tales, 2004) running on Windows through static recompilation. Latest release: v1.0.9. You need your own copy of the game.",
+  notesEs: "Crash Twinsanity (Traveller's Tales, 2004) en Windows mediante recompilación estática. Última release: v1.0.9. Necesitas tu propia copia del juego.",
+};

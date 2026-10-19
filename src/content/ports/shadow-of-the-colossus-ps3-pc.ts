@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const shadowOfTheColossusPs3Pc: Port = {
+  schema: "port",
+  id: "shadow-of-the-colossus-ps3-pc",
+  title: "Shadow of the Colossus (PS3) PC",
+  game: "Shadow of the Colossus",
+  developers: ["sp00nznet"],
+  publisher: "Team Ico",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sp00nznet/shadowofthecolossus"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 3"],
+  notes: "Shadow of the Colossus (Team Ico, 2005) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Shadow of the Colossus (Team Ico, 2005) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

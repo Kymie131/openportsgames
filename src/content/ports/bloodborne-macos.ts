@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bloodborneMacos: Port = {
+  schema: "port",
+  id: "bloodborne-macos",
+  title: "Bloodborne (macOS)",
+  game: "Bloodborne",
+  developers: ["Wooloomooloo2"],
+  publisher: "FromSoftware",
+  originalYear: 2015,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["macos"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Wooloomooloo2/bloodborne_mac_port"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 4"],
+  notes: "Bloodborne (FromSoftware, 2015) running on macOS through runtime layer. Latest release: mac-v0.5.2. You need your own copy of the game.",
+  notesEs: "Bloodborne (FromSoftware, 2015) en macOS mediante capa de ejecución. Última release: mac-v0.5.2. Necesitas tu propia copia del juego.",
+};

@@ -75,6 +75,11 @@ describe("catalog ports", () => {
       "https://github.com/dsda-org/dsda-doom": ["dsda-doom", "dsda-doom-dsda-org"],
       "https://github.com/OpenCommunityEdition/OpenCE": ["halo-ce-universal", "opence"],
       // "Classic Core Engines" is one Android port pack that covers many id/Quake-engine games.
+      // One repository ships both the PC and the reloaded release of Conker's Bad Fur Day.
+      "https://github.com/DahSidiAbdallah/ConkerBFDReloaded": [
+        "conker-s-bad-fur-day-pc",
+        "conker-s-bad-fur-day-reloaded",
+      ],
       "https://github.com/sandstranger/com.mobilerpgpack.phone": [
         "chex-quest-classic-core-engines",
         "classic-core-engines",

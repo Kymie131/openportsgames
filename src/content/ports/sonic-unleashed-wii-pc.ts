@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sonicUnleashedWiiPc: Port = {
+  schema: "port",
+  id: "sonic-unleashed-wii-pc",
+  title: "Sonic Unleashed (Wii) PC",
+  game: "Sonic Unleashed",
+  developers: ["K-r0zen"],
+  publisher: "Sonic Team",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/K-r0zen/Unwiished-Recomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Wii"],
+  notes: "Sonic Unleashed (Sonic Team, 2008) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Sonic Unleashed (Sonic Team, 2008) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

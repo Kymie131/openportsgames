@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pokemonEmeraldPs2: Port = {
+  schema: "port",
+  id: "pokemon-emerald-ps2",
+  title: "Pokémon Emerald (PS2)",
+  game: "Pokémon Emerald",
+  developers: ["dnllnoe"],
+  publisher: "Game Freak",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps2"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/dnllnoe/pokeemerald-ps2"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Game Boy Advance"],
+  notes: "Pokémon Emerald (Game Freak, 2004) running on PlayStation 2 through source port. You need your own copy of the game.",
+  notesEs: "Pokémon Emerald (Game Freak, 2004) en PlayStation 2 mediante port de código. Necesitas tu propia copia del juego.",
+};

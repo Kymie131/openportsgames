@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pes2013Switch: Port = {
+  schema: "port",
+  id: "pes-2013-switch",
+  title: "PES 2013 (Switch)",
+  game: "Pro Evolution Soccer 2013",
+  developers: ["Ibnuard"],
+  publisher: "Konami",
+  originalYear: 2012,
+  portType: "runtime-port",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Ibnuard/pes13_nx"],
+  license: { spdx: "LGPL-2.1" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Pro Evolution Soccer 2013 (Konami, 2012) running on Nintendo Switch through runtime layer. Latest release: v0.4.2. You need your own copy of the game.",
+  notesEs: "Pro Evolution Soccer 2013 (Konami, 2012) en Nintendo Switch mediante capa de ejecución. Última release: v0.4.2. Necesitas tu propia copia del juego.",
+};

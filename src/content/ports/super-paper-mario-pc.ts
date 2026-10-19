@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superPaperMarioPc: Port = {
+  schema: "port",
+  id: "super-paper-mario-pc",
+  title: "Super Paper Mario (PC)",
+  game: "Super Paper Mario",
+  developers: ["josiahg2502-glitch"],
+  publisher: "Intelligent Systems",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/josiahg2502-glitch/NewSuperPaperBros"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Wii"],
+  notes: "Super Paper Mario (Intelligent Systems, 2007) running on Windows through static recompilation. Latest release: v1.0.3. You need your own copy of the game.",
+  notesEs: "Super Paper Mario (Intelligent Systems, 2007) en Windows mediante recompilación estática. Última release: v1.0.3. Necesitas tu propia copia del juego.",
+};

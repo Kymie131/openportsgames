@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jakAndDaxterThePrecursorLegacyApple: Port = {
+  schema: "port",
+  id: "jak-and-daxter-the-precursor-legacy-apple",
+  title: "Jak and Daxter: The Precursor Legacy (Apple)",
+  game: "Jak and Daxter: The Precursor Legacy",
+  developers: ["chrissotraidis"],
+  publisher: "Naughty Dog",
+  originalYear: 2001,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ios","macos"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/chrissotraidis/ottsel"],
+  license: { spdx: "ISC" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 2"],
+  notes: "Jak and Daxter: The Precursor Legacy (Naughty Dog, 2001) running on iPhone and iPad and macOS through decompilation. Latest release: v0.1.0. You need your own copy of the game.",
+  notesEs: "Jak and Daxter: The Precursor Legacy (Naughty Dog, 2001) en iPhone and iPad and macOS mediante decompilación. Última release: v0.1.0. Necesitas tu propia copia del juego.",
+};

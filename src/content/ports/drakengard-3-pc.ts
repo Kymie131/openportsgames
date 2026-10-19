@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const drakengard3Pc: Port = {
+  schema: "port",
+  id: "drakengard-3-pc",
+  title: "Drakengard 3 (PC)",
+  game: "Drakengard 3",
+  developers: ["soyjxck"],
+  publisher: "Access Games",
+  originalYear: 2013,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/soyjxck/dod3-recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 3"],
+  notes: "Drakengard 3 (Access Games, 2013) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Drakengard 3 (Access Games, 2013) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

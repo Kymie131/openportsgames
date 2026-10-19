@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const legoDimensionsPc: Port = {
+  schema: "port",
+  id: "lego-dimensions-pc",
+  title: "LEGO Dimensions (PC)",
+  game: "LEGO Dimensions",
+  developers: ["vascon-es"],
+  publisher: "TT Games",
+  originalYear: 2015,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/vascon-es/lego-dimensions-pc"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 4"],
+  notes: "LEGO Dimensions (TT Games, 2015) running on Windows through runtime layer. Latest release: v1.2. You need your own copy of the game.",
+  notesEs: "LEGO Dimensions (TT Games, 2015) en Windows mediante capa de ejecución. Última release: v1.2. Necesitas tu propia copia del juego.",
+};

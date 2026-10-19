@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const conkerSBadFurDayReloaded: Port = {
+  schema: "port",
+  id: "conker-s-bad-fur-day-reloaded",
+  title: "Conker's Bad Fur Day: Reloaded",
+  game: "Conker's Bad Fur Day",
+  developers: ["DahSidiAbdallah"],
+  publisher: "Rare",
+  originalYear: 2001,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/DahSidiAbdallah/ConkerBFDReloaded"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  notes: "Conker's Bad Fur Day (Rare, 2001) running on Windows and Linux through static recompilation. Latest release: v1.4.1. You need your own copy of the game.",
+  notesEs: "Conker's Bad Fur Day (Rare, 2001) en Windows and Linux mediante recompilación estática. Última release: v1.4.1. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const godOfWarAscensionPc: Port = {
+  schema: "port",
+  id: "god-of-war-ascension-pc",
+  title: "God of War: Ascension (PC)",
+  game: "God of War: Ascension",
+  developers: ["arnaldolima1"],
+  publisher: "SCE Santa Monica Studio",
+  originalYear: 2013,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/arnaldolima1/gow-ascension-pc"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 3"],
+  notes: "God of War: Ascension (SCE Santa Monica Studio, 2013) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "God of War: Ascension (SCE Santa Monica Studio, 2013) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

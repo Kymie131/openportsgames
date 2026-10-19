@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const dragonSCrownProPc: Port = {
+  schema: "port",
+  id: "dragon-s-crown-pro-pc",
+  title: "Dragon's Crown Pro (PC)",
+  game: "Dragon's Crown Pro",
+  developers: ["saulob"],
+  publisher: "Vanillaware",
+  originalYear: 2018,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/saulob/dragons-crown-pro-pc"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 4"],
+  notes: "Dragon's Crown Pro (Vanillaware, 2018) running on Windows through runtime layer. Latest release: v0.6.0. You need your own copy of the game.",
+  notesEs: "Dragon's Crown Pro (Vanillaware, 2018) en Windows mediante capa de ejecución. Última release: v0.6.0. Necesitas tu propia copia del juego.",
+};

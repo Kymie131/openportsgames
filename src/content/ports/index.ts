@@ -1845,6 +1845,57 @@ import { tailscaleNxSwitchSysmodule } from "./tailscale-nx-switch-sysmodule";
 import { sysdvrUvcCaptureSwitchSysmodule } from "./sysdvr-uvc-capture-switch-sysmodule";
 import { nxGamehideSwitchSysmodule } from "./nx-gamehide-switch-sysmodule";
 
+import { conkerSBadFurDayReloaded } from "./conker-s-bad-fur-day-reloaded";
+import { infamousSecondSonPc } from "./infamous-second-son-pc";
+import { theLastGuardianPc } from "./the-last-guardian-pc";
+import { gravityRush2Pc } from "./gravity-rush-2-pc";
+import { dragonSCrownProPc } from "./dragon-s-crown-pro-pc";
+import { eaSportsUfc3Pc } from "./ea-sports-ufc-3-pc";
+import { medievil2019Pc } from "./medievil-2019-pc";
+import { bloodborneMacos } from "./bloodborne-macos";
+import { unicornOverlordPc } from "./unicorn-overlord-pc";
+import { legoDimensionsPc } from "./lego-dimensions-pc";
+import { theOrder1886Pc } from "./the-order-1886-pc";
+import { gravityRushRemasteredPc } from "./gravity-rush-remastered-pc";
+import { shipOfHarkinianPs4 } from "./ship-of-harkinian-ps4";
+import { prototypePc } from "./prototype-pc";
+import { infamous2Pc } from "./infamous-2-pc";
+import { drakengard3Pc } from "./drakengard-3-pc";
+import { armoredCoreForAnswerPc } from "./armored-core-for-answer-pc";
+import { armoredCore4Pc } from "./armored-core-4-pc";
+import { godOfWarAscensionPc } from "./god-of-war-ascension-pc";
+import { twistedMetal2012Pc2 } from "./twisted-metal-2012-pc-2";
+import { shadowOfTheColossusPs3Pc } from "./shadow-of-the-colossus-ps3-pc";
+import { ratchetClankPc } from "./ratchet-clank-pc";
+import { killzonePc } from "./killzone-pc";
+import { urbanReignPc } from "./urban-reign-pc";
+import { godOfWarPs2Pc } from "./god-of-war-ps2-pc";
+import { downhillDominationPc } from "./downhill-domination-pc";
+import { granTurismo4Pc } from "./gran-turismo-4-pc";
+import { crashTwinsanityPc } from "./crash-twinsanity-pc";
+import { wayOfTheSamurai2Pc } from "./way-of-the-samurai-2-pc";
+import { shadowOfTheColossusPs2Decomp } from "./shadow-of-the-colossus-ps2-decomp";
+import { shadowOfTheColossusCelosia } from "./shadow-of-the-colossus-celosia";
+import { jakAndDaxterThePrecursorLegacyApple } from "./jak-and-daxter-the-precursor-legacy-apple";
+import { shadowTheHedgehogPc } from "./shadow-the-hedgehog-pc";
+import { pokemonEmeraldPs2 } from "./pokemon-emerald-ps2";
+import { needForSpeedUnderground2Gamecube } from "./need-for-speed-underground-2-gamecube";
+import { superPaperMarioPc } from "./super-paper-mario-pc";
+import { sonicUnleashedWiiPc } from "./sonic-unleashed-wii-pc";
+import { marioKartWii3ds } from "./mario-kart-wii-3ds";
+import { persona3Portable3ds } from "./persona-3-portable-3ds";
+import { balatro3dsHomebrew } from "./balatro-3ds-homebrew";
+import { conkerSBadFurDayPc } from "./conker-s-bad-fur-day-pc";
+import { donkeyKong64Switch } from "./donkey-kong-64-switch";
+import { needForSpeedUnderground2Switch } from "./need-for-speed-underground-2-switch";
+import { needForSpeedUndergroundSwitch } from "./need-for-speed-underground-switch";
+import { needForSpeedCarbonSwitch } from "./need-for-speed-carbon-switch";
+import { plantsVsZombies2Switch } from "./plants-vs-zombies-2-switch";
+import { sonicTheHedgehog4EpisodeIiSwitch } from "./sonic-the-hedgehog-4-episode-ii-switch";
+import { crazyTaxiClassicSwitch } from "./crazy-taxi-classic-switch";
+import { pes2013Switch } from "./pes-2013-switch";
+import { linkSAwakeningPc } from "./link-s-awakening-pc";
+
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -3671,4 +3722,54 @@ export const portCases: Port[] = [
   tailscaleNxSwitchSysmodule,
   sysdvrUvcCaptureSwitchSysmodule,
   nxGamehideSwitchSysmodule,
+  conkerSBadFurDayReloaded,
+  infamousSecondSonPc,
+  theLastGuardianPc,
+  gravityRush2Pc,
+  dragonSCrownProPc,
+  eaSportsUfc3Pc,
+  medievil2019Pc,
+  bloodborneMacos,
+  unicornOverlordPc,
+  legoDimensionsPc,
+  theOrder1886Pc,
+  gravityRushRemasteredPc,
+  shipOfHarkinianPs4,
+  prototypePc,
+  infamous2Pc,
+  drakengard3Pc,
+  armoredCoreForAnswerPc,
+  armoredCore4Pc,
+  godOfWarAscensionPc,
+  twistedMetal2012Pc2,
+  shadowOfTheColossusPs3Pc,
+  ratchetClankPc,
+  killzonePc,
+  urbanReignPc,
+  godOfWarPs2Pc,
+  downhillDominationPc,
+  granTurismo4Pc,
+  crashTwinsanityPc,
+  wayOfTheSamurai2Pc,
+  shadowOfTheColossusPs2Decomp,
+  shadowOfTheColossusCelosia,
+  jakAndDaxterThePrecursorLegacyApple,
+  shadowTheHedgehogPc,
+  pokemonEmeraldPs2,
+  needForSpeedUnderground2Gamecube,
+  superPaperMarioPc,
+  sonicUnleashedWiiPc,
+  marioKartWii3ds,
+  persona3Portable3ds,
+  balatro3dsHomebrew,
+  conkerSBadFurDayPc,
+  donkeyKong64Switch,
+  needForSpeedUnderground2Switch,
+  needForSpeedUndergroundSwitch,
+  needForSpeedCarbonSwitch,
+  plantsVsZombies2Switch,
+  sonicTheHedgehog4EpisodeIiSwitch,
+  crazyTaxiClassicSwitch,
+  pes2013Switch,
+  linkSAwakeningPc,
 ];

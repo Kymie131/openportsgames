@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const urbanReignPc: Port = {
+  schema: "port",
+  id: "urban-reign-pc",
+  title: "Urban Reign (PC)",
+  game: "Urban Reign",
+  developers: ["thiagordsfx"],
+  publisher: "Namco",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/thiagordsfx/urban-reign-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 2"],
+  notes: "Urban Reign (Namco, 2005) running on Windows through static recompilation. Latest release: v1.3.0. You need your own copy of the game.",
+  notesEs: "Urban Reign (Namco, 2005) en Windows mediante recompilación estática. Última release: v1.3.0. Necesitas tu propia copia del juego.",
+};

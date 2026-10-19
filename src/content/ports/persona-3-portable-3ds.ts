@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const persona3Portable3ds: Port = {
+  schema: "port",
+  id: "persona-3-portable-3ds",
+  title: "Persona 3 Portable (3DS)",
+  game: "Persona 3 Portable",
+  developers: ["endercodezz"],
+  publisher: "Atlus",
+  originalYear: 2010,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/endercodezz/P3P3DS"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation Portable"],
+  notes: "Persona 3 Portable (Atlus, 2010) running on Nintendo 3DS through source port. Latest release: v0.3.1. You need your own copy of the game.",
+  notesEs: "Persona 3 Portable (Atlus, 2010) en Nintendo 3DS mediante port de código. Última release: v0.3.1. Necesitas tu propia copia del juego.",
+};

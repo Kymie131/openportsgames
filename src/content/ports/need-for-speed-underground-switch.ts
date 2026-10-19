@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const needForSpeedUndergroundSwitch: Port = {
+  schema: "port",
+  id: "need-for-speed-underground-switch",
+  title: "Need for Speed: Underground (Switch)",
+  game: "Need for Speed: Underground",
+  developers: ["antoxa2584x"],
+  publisher: "EA Black Box",
+  originalYear: 2003,
+  portType: "runtime-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/antoxa2584x/nfsu1-sw"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox"],
+  notes: "Need for Speed: Underground (EA Black Box, 2003) running on Nintendo Switch through runtime layer. Latest release: v0.4.0. You need your own copy of the game.",
+  notesEs: "Need for Speed: Underground (EA Black Box, 2003) en Nintendo Switch mediante capa de ejecución. Última release: v0.4.0. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const needForSpeedCarbonSwitch: Port = {
+  schema: "port",
+  id: "need-for-speed-carbon-switch",
+  title: "Need for Speed: Carbon (Switch)",
+  game: "Need for Speed: Carbon",
+  developers: ["antoxa2584x"],
+  publisher: "EA Black Box",
+  originalYear: 2006,
+  portType: "runtime-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/antoxa2584x/nfsc-sw"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox"],
+  notes: "Need for Speed: Carbon (EA Black Box, 2006) running on Nintendo Switch through runtime layer. Latest release: v0.2.4. You need your own copy of the game.",
+  notesEs: "Need for Speed: Carbon (EA Black Box, 2006) en Nintendo Switch mediante capa de ejecución. Última release: v0.2.4. Necesitas tu propia copia del juego.",
+};

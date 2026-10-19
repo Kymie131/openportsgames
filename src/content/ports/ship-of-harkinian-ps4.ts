@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const shipOfHarkinianPs4: Port = {
+  schema: "port",
+  id: "ship-of-harkinian-ps4",
+  title: "Ship of Harkinian (PS4)",
+  game: "The Legend of Zelda: Ocarina of Time",
+  developers: ["alechurri"],
+  publisher: "Nintendo",
+  originalYear: 1998,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps4"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/alechurri/shipofharkinian-ps4"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  notes: "The Legend of Zelda: Ocarina of Time (Nintendo, 1998) running on PlayStation 4 through source port. Latest release: v0.2.0. You need your own copy of the game.",
+  notesEs: "The Legend of Zelda: Ocarina of Time (Nintendo, 1998) en PlayStation 4 mediante port de código. Última release: v0.2.0. Necesitas tu propia copia del juego.",
+};

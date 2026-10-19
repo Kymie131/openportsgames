@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const theLastGuardianPc: Port = {
+  schema: "port",
+  id: "the-last-guardian-pc",
+  title: "The Last Guardian (PC)",
+  game: "The Last Guardian",
+  developers: ["HayatoG"],
+  publisher: "genDESIGN",
+  originalYear: 2016,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/HayatoG/tlg_pc"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 4"],
+  notes: "The Last Guardian (genDESIGN, 2016) running on Windows through runtime layer. Latest release: v2026.10.17-b8d5f41. You need your own copy of the game.",
+  notesEs: "The Last Guardian (genDESIGN, 2016) en Windows mediante capa de ejecución. Última release: v2026.10.17-b8d5f41. Necesitas tu propia copia del juego.",
+};

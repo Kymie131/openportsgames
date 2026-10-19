@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ratchetClankPc: Port = {
+  schema: "port",
+  id: "ratchet-clank-pc",
+  title: "Ratchet & Clank (PC)",
+  game: "Ratchet & Clank",
+  developers: ["daino-selvatico"],
+  publisher: "Insomniac Games",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/daino-selvatico/rac1-native-game"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 2"],
+  notes: "Ratchet & Clank (Insomniac Games, 2002) running on Windows through static recompilation. Latest release: v0.4.0. You need your own copy of the game.",
+  notesEs: "Ratchet & Clank (Insomniac Games, 2002) en Windows mediante recompilación estática. Última release: v0.4.0. Necesitas tu propia copia del juego.",
+};

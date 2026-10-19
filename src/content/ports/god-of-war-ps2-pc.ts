@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const godOfWarPs2Pc: Port = {
+  schema: "port",
+  id: "god-of-war-ps2-pc",
+  title: "God of War (PS2) PC",
+  game: "God of War",
+  developers: ["YYOzcan"],
+  publisher: "SCE Santa Monica Studio",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/YYOzcan/Tobiichi-Port"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 2"],
+  notes: "God of War (SCE Santa Monica Studio, 2005) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "God of War (SCE Santa Monica Studio, 2005) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};
