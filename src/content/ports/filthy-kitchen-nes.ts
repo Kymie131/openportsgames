@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const filthyKitchenNes: Port = {
+  schema: "port",
+  id: "filthy-kitchen-nes",
+  title: "Filthy Kitchen (NES)",
+  game: "Filthy Kitchen",
+  developers: ["dustmop"],
+  publisher: "Homebrew",
+  originalYear: 2016,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["nes"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/dustmop/filthy-kitchen"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Filthy Kitchen (Homebrew, 2016) running on nes through source port. You need your own copy of the game.",
+  notesEs: "Filthy Kitchen (Homebrew, 2016) en nes mediante port de código. Necesitas tu propia copia del juego.",
+};

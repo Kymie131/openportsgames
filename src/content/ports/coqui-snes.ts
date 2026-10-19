@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const coquiSnes: Port = {
+  schema: "port",
+  id: "coqui-snes",
+  title: "Coqui (SNES)",
+  game: "Coqui",
+  developers: ["VibezZzCoder"],
+  publisher: "Homebrew",
+  originalYear: 2026,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["snes"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/VibezZzCoder/coqui-snes"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Coqui (Homebrew, 2026) running on snes through source port. Latest release: v1.1. You need your own copy of the game.",
+  notesEs: "Coqui (Homebrew, 2026) en snes mediante port de código. Última release: v1.1. Necesitas tu propia copia del juego.",
+};

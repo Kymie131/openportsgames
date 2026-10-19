@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const key2conSwitchSysmodule: Port = {
+  schema: "port",
+  id: "key2con-switch-sysmodule",
+  title: "key2con (Switch sysmodule)",
+  game: "Nintendo Switch",
+  developers: ["EnzoBernardinoMartins"],
+  publisher: "Nintendo",
+  originalYear: 2017,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/EnzoBernardinoMartins/key2con"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Nintendo Switch (Nintendo, 2017) running on Nintendo Switch through source port. Latest release: v0.2.0. You need your own copy of the game.",
+  notesEs: "Nintendo Switch (Nintendo, 2017) en Nintendo Switch mediante port de código. Última release: v0.2.0. Necesitas tu propia copia del juego.",
+};

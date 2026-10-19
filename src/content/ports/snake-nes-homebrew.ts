@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const snakeNesHomebrew: Port = {
+  schema: "port",
+  id: "snake-nes-homebrew",
+  title: "Snake (NES homebrew)",
+  game: "Snake",
+  developers: ["sebastiandine"],
+  publisher: "Homebrew",
+  originalYear: 2022,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["nes"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sebastiandine/openNES-Snake"],
+  license: { spdx: "Zlib" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Snake (Homebrew, 2022) running on nes through source port. Latest release: v1.0.9. You need your own copy of the game.",
+  notesEs: "Snake (Homebrew, 2022) en nes mediante port de código. Última release: v1.0.9. Necesitas tu propia copia del juego.",
+};

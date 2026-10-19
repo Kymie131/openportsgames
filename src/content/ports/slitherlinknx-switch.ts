@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const slitherlinknxSwitch: Port = {
+  schema: "port",
+  id: "slitherlinknx-switch",
+  title: "SlitherlinkNX (Switch)",
+  game: "Slitherlink",
+  developers: ["Tardigrade-nx"],
+  publisher: "Nikoli",
+  originalYear: 2019,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Tardigrade-nx/SlitherlinkNX"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Slitherlink (Nikoli, 2019) running on Nintendo Switch through source port. Latest release: 1.1. You need your own copy of the game.",
+  notesEs: "Slitherlink (Nikoli, 2019) en Nintendo Switch mediante port de código. Última release: 1.1. Necesitas tu propia copia del juego.",
+};

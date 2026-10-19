@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const caveStoryMegaDrive: Port = {
+  schema: "port",
+  id: "cave-story-mega-drive",
+  title: "Cave Story (Mega Drive)",
+  game: "Cave Story",
+  developers: ["andwn"],
+  publisher: "Studio Pixel",
+  originalYear: 2025,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["genesis"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/andwn/cave-story-md"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Cave Story (Studio Pixel, 2025) running on genesis through source port. Latest release: v0.8.8. You need your own copy of the game.",
+  notesEs: "Cave Story (Studio Pixel, 2025) en genesis mediante port de código. Última release: v0.8.8. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const minecraft3dsMegapackPlugin3ds: Port = {
+  schema: "port",
+  id: "minecraft-3ds-megapack-plugin-3ds",
+  title: "Minecraft 3DS Megapack Plugin (3DS)",
+  game: "Nintendo 3DS",
+  developers: ["Cracko298"],
+  publisher: "Nintendo",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Cracko298/megapackPlugin"],
+  license: { spdx: "Apache-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Nintendo 3DS (Nintendo, 2011) running on Nintendo 3DS through source port. Latest release: 1.0.0-release. You need your own copy of the game.",
+  notesEs: "Nintendo 3DS (Nintendo, 2011) en Nintendo 3DS mediante port de código. Última release: 1.0.0-release. Necesitas tu propia copia del juego.",
+};

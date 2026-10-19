@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const othelloWiiU: Port = {
+  schema: "port",
+  id: "othello-wii-u",
+  title: "Othello (Wii U)",
+  game: "Othello",
+  developers: ["MartinButlerAAA"],
+  publisher: "Homebrew",
+  originalYear: 2026,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["wiiu"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/MartinButlerAAA/Othello"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Othello (Homebrew, 2026) running on Wii U through source port. Latest release: 1.6.0. You need your own copy of the game.",
+  notesEs: "Othello (Homebrew, 2026) en Wii U mediante port de código. Última release: 1.6.0. Necesitas tu propia copia del juego.",
+};

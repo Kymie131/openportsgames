@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const etchySketchyGameBoyAdvance: Port = {
+  schema: "port",
+  id: "etchy-sketchy-game-boy-advance",
+  title: "Etchy Sketchy (Game Boy Advance)",
+  game: "Etchy Sketchy",
+  developers: ["Shellywell123"],
+  publisher: "Homebrew",
+  originalYear: 2023,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["gba"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Shellywell123/Etchy-Sketchy.gba"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Etchy Sketchy (Homebrew, 2023) running on gba through source port. Latest release: v0.1. You need your own copy of the game.",
+  notesEs: "Etchy Sketchy (Homebrew, 2023) en gba mediante port de código. Última release: v0.1. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pong64Nintendo64: Port = {
+  schema: "port",
+  id: "pong-64-nintendo-64",
+  title: "Pong 64 (Nintendo 64)",
+  game: "Pong",
+  developers: ["JumpiX64"],
+  publisher: "Atari",
+  originalYear: 2026,
+  portType: "source-port",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["n64"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/JumpiX64/Pong64"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Pong (Atari, 2026) running on n64 through source port. Latest release: v0.6. You need your own copy of the game.",
+  notesEs: "Pong (Atari, 2026) en n64 mediante port de código. Última release: v0.6. Necesitas tu propia copia del juego.",
+};

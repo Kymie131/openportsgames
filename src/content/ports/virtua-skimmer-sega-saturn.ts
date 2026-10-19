@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const virtuaSkimmerSegaSaturn: Port = {
+  schema: "port",
+  id: "virtua-skimmer-sega-saturn",
+  title: "Virtua Skimmer (Sega Saturn)",
+  game: "Virtua Skimmer",
+  developers: ["VirtuaSkimmer"],
+  publisher: "Homebrew",
+  originalYear: 2018,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["saturn"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/VirtuaSkimmer/Virtua-Skimmer-Sega-Saturn-"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Virtua Skimmer (Homebrew, 2018) running on saturn through source port. Latest release: v.04. You need your own copy of the game.",
+  notesEs: "Virtua Skimmer (Homebrew, 2018) en saturn mediante port de código. Última release: v.04. Necesitas tu propia copia del juego.",
+};

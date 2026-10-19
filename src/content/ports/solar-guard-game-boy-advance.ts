@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const solarGuardGameBoyAdvance: Port = {
+  schema: "port",
+  id: "solar-guard-game-boy-advance",
+  title: "Solar Guard (Game Boy Advance)",
+  game: "Solar Guard",
+  developers: ["Deft-Spade"],
+  publisher: "Homebrew",
+  originalYear: 2021,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["gba"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Deft-Spade/Solar-Guard"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Solar Guard (Homebrew, 2021) running on gba through source port. Latest release: GBA-JAM-2021. You need your own copy of the game.",
+  notesEs: "Solar Guard (Homebrew, 2021) en gba mediante port de código. Última release: GBA-JAM-2021. Necesitas tu propia copia del juego.",
+};

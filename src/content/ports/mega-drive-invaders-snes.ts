@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const megaDriveInvadersSnes: Port = {
+  schema: "port",
+  id: "mega-drive-invaders-snes",
+  title: "Mega Drive Invaders (SNES)",
+  game: "Mega Drive Invaders",
+  developers: ["hali-coding"],
+  publisher: "Homebrew",
+  originalYear: 2026,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["snes"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/hali-coding/megadriveinvaders"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Mega Drive Invaders (Homebrew, 2026) running on snes through source port. Latest release: v1.2.0. You need your own copy of the game.",
+  notesEs: "Mega Drive Invaders (Homebrew, 2026) en snes mediante port de código. Última release: v1.2.0. Necesitas tu propia copia del juego.",
+};

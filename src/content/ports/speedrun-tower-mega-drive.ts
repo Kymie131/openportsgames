@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const speedrunTowerMegaDrive: Port = {
+  schema: "port",
+  id: "speedrun-tower-mega-drive",
+  title: "Speedrun Tower (Mega Drive)",
+  game: "Speedrun Tower",
+  developers: ["huguesjohnson"],
+  publisher: "Homebrew",
+  originalYear: 2022,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["genesis"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/huguesjohnson/speedrun-tower"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Speedrun Tower (Homebrew, 2022) running on genesis through source port. Latest release: SG-1.0. You need your own copy of the game.",
+  notesEs: "Speedrun Tower (Homebrew, 2022) en genesis mediante port de código. Última release: SG-1.0. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const starfallSalvageGameBoyColor: Port = {
+  schema: "port",
+  id: "starfall-salvage-game-boy-color",
+  title: "Starfall Salvage (Game Boy Color)",
+  game: "Starfall Salvage",
+  developers: ["steph4n-gh"],
+  publisher: "Homebrew",
+  originalYear: 2026,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["gbc"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/steph4n-gh/starfall-salvage"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Starfall Salvage (Homebrew, 2026) running on gbc through source port. Latest release: v1.2. You need your own copy of the game.",
+  notesEs: "Starfall Salvage (Homebrew, 2026) en gbc mediante port de código. Última release: v1.2. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const kumiDaikoBeatoff64Nintendo64: Port = {
+  schema: "port",
+  id: "kumi-daiko-beatoff-64-nintendo-64",
+  title: "Kumi-Daiko Beatoff 64 (Nintendo 64)",
+  game: "Kumi-Daiko Beatoff 64",
+  developers: ["ptimonen"],
+  publisher: "Homebrew",
+  originalYear: 2020,
+  portType: "source-port",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["n64"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ptimonen/n64-riistahillo"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Kumi-Daiko Beatoff 64 (Homebrew, 2020) running on n64 through source port. Latest release: 1.0. You need your own copy of the game.",
+  notesEs: "Kumi-Daiko Beatoff 64 (Homebrew, 2020) en n64 mediante port de código. Última release: 1.0. Necesitas tu propia copia del juego.",
+};

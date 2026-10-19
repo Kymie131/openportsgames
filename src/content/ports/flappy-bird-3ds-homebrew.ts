@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const flappyBird3dsHomebrew: Port = {
+  schema: "port",
+  id: "flappy-bird-3ds-homebrew",
+  title: "Flappy Bird (3DS homebrew)",
+  game: "Flappy Bird",
+  developers: ["MillKeny"],
+  publisher: "Homebrew",
+  originalYear: 2025,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/MillKeny/flappy"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Flappy Bird (Homebrew, 2025) running on Nintendo 3DS through source port. Latest release: v1.1. You need your own copy of the game.",
+  notesEs: "Flappy Bird (Homebrew, 2025) en Nintendo 3DS mediante port de código. Última release: v1.1. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const fromBelowNes: Port = {
+  schema: "port",
+  id: "from-below-nes",
+  title: "From Below (NES)",
+  game: "From Below",
+  developers: ["mhughson"],
+  publisher: "Homebrew",
+  originalYear: 2020,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["nes"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/mhughson/mbh-firstnes"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "From Below (Homebrew, 2020) running on nes through source port. You need your own copy of the game.",
+  notesEs: "From Below (Homebrew, 2020) en nes mediante port de código. Necesitas tu propia copia del juego.",
+};

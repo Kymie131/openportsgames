@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nxScreenuploaderSwitchSysmodule: Port = {
+  schema: "port",
+  id: "nx-screenuploader-switch-sysmodule",
+  title: "NX ScreenUploader (Switch sysmodule)",
+  game: "Nintendo Switch",
+  developers: ["sakarie9"],
+  publisher: "Nintendo",
+  originalYear: 2017,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sakarie9/NX-ScreenUploader"],
+  license: { spdx: "LGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Nintendo Switch (Nintendo, 2017) running on Nintendo Switch through source port. Latest release: v0.4.0. You need your own copy of the game.",
+  notesEs: "Nintendo Switch (Nintendo, 2017) en Nintendo Switch mediante port de código. Última release: v0.4.0. Necesitas tu propia copia del juego.",
+};

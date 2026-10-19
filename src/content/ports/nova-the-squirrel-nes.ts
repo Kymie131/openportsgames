@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const novaTheSquirrelNes: Port = {
+  schema: "port",
+  id: "nova-the-squirrel-nes",
+  title: "Nova the Squirrel (NES)",
+  game: "Nova the Squirrel",
+  developers: ["NovaSquirrel"],
+  publisher: "Homebrew",
+  originalYear: 2019,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["nes"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/NovaSquirrel/NovaTheSquirrel"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Nova the Squirrel (Homebrew, 2019) running on nes through source port. Latest release: v1.0.6a. You need your own copy of the game.",
+  notesEs: "Nova the Squirrel (Homebrew, 2019) en nes mediante port de código. Última release: v1.0.6a. Necesitas tu propia copia del juego.",
+};

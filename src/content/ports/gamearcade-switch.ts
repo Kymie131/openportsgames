@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gamearcadeSwitch: Port = {
+  schema: "port",
+  id: "gamearcade-switch",
+  title: "GameArcade (Switch)",
+  game: "GameArcade",
+  developers: ["Sblerky"],
+  publisher: "Homebrew",
+  originalYear: 2021,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Sblerky/GameArcade"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "GameArcade (Homebrew, 2021) running on Nintendo Switch through source port. Latest release: 1.0.0. You need your own copy of the game.",
+  notesEs: "GameArcade (Homebrew, 2021) en Nintendo Switch mediante port de código. Última release: 1.0.0. Necesitas tu propia copia del juego.",
+};

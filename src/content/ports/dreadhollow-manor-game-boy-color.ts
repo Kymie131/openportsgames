@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const dreadhollowManorGameBoyColor: Port = {
+  schema: "port",
+  id: "dreadhollow-manor-game-boy-color",
+  title: "Dreadhollow Manor (Game Boy Color)",
+  game: "Dreadhollow Manor",
+  developers: ["retroromrunner"],
+  publisher: "Homebrew",
+  originalYear: 2026,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["gbc"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/retroromrunner/dreadhollow-gbc"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Dreadhollow Manor (Homebrew, 2026) running on gbc through source port. Latest release: v12. You need your own copy of the game.",
+  notesEs: "Dreadhollow Manor (Homebrew, 2026) en gbc mediante port de código. Última release: v12. Necesitas tu propia copia del juego.",
+};

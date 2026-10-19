@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const wiiredxWiiUAromaPlugin: Port = {
+  schema: "port",
+  id: "wiiredx-wii-u-aroma-plugin",
+  title: "WiiredX (Wii U Aroma plugin)",
+  game: "Wii U",
+  developers: ["ssnoots"],
+  publisher: "Nintendo",
+  originalYear: 2012,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["wiiu"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ssnoots/WiiredX"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Wii U (Nintendo, 2012) running on Wii U through source port. Latest release: v0.7.1. You need your own copy of the game.",
+  notesEs: "Wii U (Nintendo, 2012) en Wii U mediante port de código. Última release: v0.7.1. Necesitas tu propia copia del juego.",
+};

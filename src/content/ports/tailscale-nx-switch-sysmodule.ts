@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tailscaleNxSwitchSysmodule: Port = {
+  schema: "port",
+  id: "tailscale-nx-switch-sysmodule",
+  title: "Tailscale NX (Switch sysmodule)",
+  game: "Nintendo Switch",
+  developers: ["UnderwaterOverground"],
+  publisher: "Nintendo",
+  originalYear: 2017,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/UnderwaterOverground/tailscale-nx"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Nintendo Switch (Nintendo, 2017) running on Nintendo Switch through source port. Latest release: v1.1.2. You need your own copy of the game.",
+  notesEs: "Nintendo Switch (Nintendo, 2017) en Nintendo Switch mediante port de código. Última release: v1.1.2. Necesitas tu propia copia del juego.",
+};

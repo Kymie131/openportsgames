@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const _20483ds: Port = {
+  schema: "port",
+  id: "2048-3ds",
+  title: "2048 (3DS)",
+  game: "2048",
+  developers: ["0rientd"],
+  publisher: "Gabriele Cirulli",
+  originalYear: 2026,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/0rientd/2048-port-3ds"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "2048 (Gabriele Cirulli, 2026) running on Nintendo 3DS through source port. Latest release: v1.1.1. You need your own copy of the game.",
+  notesEs: "2048 (Gabriele Cirulli, 2026) en Nintendo 3DS mediante port de código. Última release: v1.1.1. Necesitas tu propia copia del juego.",
+};

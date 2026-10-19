@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sameGame3ds: Port = {
+  schema: "port",
+  id: "same-game-3ds",
+  title: "Same Game (3DS)",
+  game: "Same Game",
+  developers: ["DiS-tronics"],
+  publisher: "Homebrew",
+  originalYear: 2016,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/DiS-tronics/3DS_Same_Game"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Same Game (Homebrew, 2016) running on Nintendo 3DS through source port. Latest release: v0.2. You need your own copy of the game.",
+  notesEs: "Same Game (Homebrew, 2016) en Nintendo 3DS mediante port de código. Última release: v0.2. Necesitas tu propia copia del juego.",
+};

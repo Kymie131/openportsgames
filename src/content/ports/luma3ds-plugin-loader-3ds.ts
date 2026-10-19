@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const luma3dsPluginLoader3ds: Port = {
+  schema: "port",
+  id: "luma3ds-plugin-loader-3ds",
+  title: "Luma3DS Plugin Loader (3DS)",
+  game: "Nintendo 3DS",
+  developers: ["suprstarrd"],
+  publisher: "Nintendo",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/suprstarrd/Luma3DS_plg"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Nintendo 3DS (Nintendo, 2011) running on Nintendo 3DS through source port. Latest release: 10.1.3. You need your own copy of the game.",
+  notesEs: "Nintendo 3DS (Nintendo, 2011) en Nintendo 3DS mediante port de código. Última release: 10.1.3. Necesitas tu propia copia del juego.",
+};

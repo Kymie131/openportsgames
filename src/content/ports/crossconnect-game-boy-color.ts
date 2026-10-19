@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const crossconnectGameBoyColor: Port = {
+  schema: "port",
+  id: "crossconnect-game-boy-color",
+  title: "CrossConnect (Game Boy Color)",
+  game: "CrossConnect",
+  developers: ["QuinnPainter"],
+  publisher: "Homebrew",
+  originalYear: 2022,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["gbc"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/QuinnPainter/CrossConnect"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "CrossConnect (Homebrew, 2022) running on gbc through source port. Latest release: 1.0. You need your own copy of the game.",
+  notesEs: "CrossConnect (Homebrew, 2022) en gbc mediante port de código. Última release: 1.0. Necesitas tu propia copia del juego.",
+};

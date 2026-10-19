@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const papayaHudWiiUAromaPlugin: Port = {
+  schema: "port",
+  id: "papaya-hud-wii-u-aroma-plugin",
+  title: "Papaya HUD (Wii U Aroma plugin)",
+  game: "Wii U",
+  developers: ["dkosmari"],
+  publisher: "Nintendo",
+  originalYear: 2012,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["wiiu"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/dkosmari/Papaya-HUD"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Wii U (Nintendo, 2012) running on Wii U through source port. Latest release: v0.4.2. You need your own copy of the game.",
+  notesEs: "Wii U (Nintendo, 2012) en Wii U mediante port de código. Última release: v0.4.2. Necesitas tu propia copia del juego.",
+};

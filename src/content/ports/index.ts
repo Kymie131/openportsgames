@@ -1778,6 +1778,73 @@ import { megaCarWarsMegaDrive } from "./mega-car-wars-mega-drive";
 import { willowSDreamMegaDrive } from "./willow-s-dream-mega-drive";
 import { wertactics3ds } from "./wertactics-3ds";
 
+import { novaTheSquirrelNes } from "./nova-the-squirrel-nes";
+import { fromBelowNes } from "./from-below-nes";
+import { snakeNesHomebrew } from "./snake-nes-homebrew";
+import { filthyKitchenNes } from "./filthy-kitchen-nes";
+import { mirohNes } from "./miroh-nes";
+import { _8BitTableTennisNes } from "./8-bit-table-tennis-nes";
+import { roborunNes } from "./roborun-nes";
+import { crossconnectGameBoyColor } from "./crossconnect-game-boy-color";
+import { crucibleExeGameBoyColor } from "./crucible-exe-game-boy-color";
+import { moonwakeGameBoyColor } from "./moonwake-game-boy-color";
+import { starfallSalvageGameBoyColor } from "./starfall-salvage-game-boy-color";
+import { dreadhollowManorGameBoyColor } from "./dreadhollow-manor-game-boy-color";
+import { guardaConLasGbcGameBoyColor } from "./guarda-con-las-gbc-game-boy-color";
+import { solarGuardGameBoyAdvance } from "./solar-guard-game-boy-advance";
+import { etchySketchyGameBoyAdvance } from "./etchy-sketchy-game-boy-advance";
+import { snekGameBoyAdvance } from "./snek-game-boy-advance";
+import { megaDriveInvadersSnes } from "./mega-drive-invaders-snes";
+import { eucThrillsSnes } from "./euc-thrills-snes";
+import { coquiSnes } from "./coqui-snes";
+import { caveStoryMegaDrive } from "./cave-story-mega-drive";
+import { speedrunTowerMegaDrive } from "./speedrun-tower-mega-drive";
+import { kumiDaikoBeatoff64Nintendo64 } from "./kumi-daiko-beatoff-64-nintendo-64";
+import { superbounce64Nintendo64 } from "./superbounce-64-nintendo-64";
+import { pong64Nintendo64 } from "./pong-64-nintendo-64";
+import { dreamcastHomebrewCollectionDreamcast } from "./dreamcast-homebrew-collection-dreamcast";
+import { asteroidsTerraSegaSaturn } from "./asteroids-terra-sega-saturn";
+import { virtuaSkimmerSegaSaturn } from "./virtua-skimmer-sega-saturn";
+import { unGamePlaystation } from "./un-game-playstation";
+import { bottomlessBlockBarrage3ds } from "./bottomless-block-barrage-3ds";
+import { flappyBird3dsHomebrew } from "./flappy-bird-3ds-homebrew";
+import { robinHoodSPlatformGame3ds } from "./robin-hood-s-platform-game-3ds";
+import { jetSki3ds } from "./jet-ski-3ds";
+import { _20483ds } from "./2048-3ds";
+import { petTheCat3ds } from "./pet-the-cat-3ds";
+import { emberclutch3ds } from "./emberclutch-3ds";
+import { sameGame3ds } from "./same-game-3ds";
+import { sudokulWii } from "./sudokul-wii";
+import { trogdorReburninatedWii } from "./trogdor-reburninated-wii";
+import { untitledSandGameWiiU } from "./untitled-sand-game-wii-u";
+import { multidrcSpaceDemoWiiU } from "./multidrc-space-demo-wii-u";
+import { lightsOutWii } from "./lights-out-wii";
+import { othelloWiiU } from "./othello-wii-u";
+import { fluctusWiiU } from "./fluctus-wii-u";
+import { gamearcadeSwitch } from "./gamearcade-switch";
+import { slitherlinknxSwitch } from "./slitherlinknx-switch";
+import { pinballNxSwitch } from "./pinball-nx-switch";
+import { _2planesSwitch } from "./2planes-switch";
+import { miichanicLuma3dsPlugin } from "./miichanic-luma3ds-plugin";
+import { minecraft3dsMegapackPlugin3ds } from "./minecraft-3ds-megapack-plugin-3ds";
+import { ctrcomposer3dsPluginFramework } from "./ctrcomposer-3ds-plugin-framework";
+import { luma3dsPluginLoaderScript3ds } from "./luma3ds-plugin-loader-script-3ds";
+import { luma3dsPluginLoader3ds } from "./luma3ds-plugin-loader-3ds";
+import { papayaHudWiiUAromaPlugin } from "./papaya-hud-wii-u-aroma-plugin";
+import { tcpgeckoAromaWiiUPlugin } from "./tcpgecko-aroma-wii-u-plugin";
+import { justgetmiionlineWiiUAromaPlugin } from "./justgetmiionline-wii-u-aroma-plugin";
+import { riibootmiiWiiUAromaPlugin } from "./riibootmii-wii-u-aroma-plugin";
+import { vinoConfigPatcherWiiUAromaPlugin } from "./vino-config-patcher-wii-u-aroma-plugin";
+import { wiiredxWiiUAromaPlugin } from "./wiiredx-wii-u-aroma-plugin";
+import { switchpresenceSwitchSysmodule } from "./switchpresence-switch-sysmodule";
+import { switchpresenceRewrittenSwitchSysmodule } from "./switchpresence-rewritten-switch-sysmodule";
+import { pngshotSwitchSysmodule } from "./pngshot-switch-sysmodule";
+import { key2conSwitchSysmodule } from "./key2con-switch-sysmodule";
+import { nxScreenuploaderSwitchSysmodule } from "./nx-screenuploader-switch-sysmodule";
+import { tailscaleNxSwitchSysmodule } from "./tailscale-nx-switch-sysmodule";
+import { sysdvrUvcCaptureSwitchSysmodule } from "./sysdvr-uvc-capture-switch-sysmodule";
+import { nxGamehideSwitchSysmodule } from "./nx-gamehide-switch-sysmodule";
+
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -3538,4 +3605,70 @@ export const portCases: Port[] = [
   megaCarWarsMegaDrive,
   willowSDreamMegaDrive,
   wertactics3ds,
+  novaTheSquirrelNes,
+  fromBelowNes,
+  snakeNesHomebrew,
+  filthyKitchenNes,
+  mirohNes,
+  _8BitTableTennisNes,
+  roborunNes,
+  crossconnectGameBoyColor,
+  crucibleExeGameBoyColor,
+  moonwakeGameBoyColor,
+  starfallSalvageGameBoyColor,
+  dreadhollowManorGameBoyColor,
+  guardaConLasGbcGameBoyColor,
+  solarGuardGameBoyAdvance,
+  etchySketchyGameBoyAdvance,
+  snekGameBoyAdvance,
+  megaDriveInvadersSnes,
+  eucThrillsSnes,
+  coquiSnes,
+  caveStoryMegaDrive,
+  speedrunTowerMegaDrive,
+  kumiDaikoBeatoff64Nintendo64,
+  superbounce64Nintendo64,
+  pong64Nintendo64,
+  dreamcastHomebrewCollectionDreamcast,
+  asteroidsTerraSegaSaturn,
+  virtuaSkimmerSegaSaturn,
+  unGamePlaystation,
+  bottomlessBlockBarrage3ds,
+  flappyBird3dsHomebrew,
+  robinHoodSPlatformGame3ds,
+  jetSki3ds,
+  _20483ds,
+  petTheCat3ds,
+  emberclutch3ds,
+  sameGame3ds,
+  sudokulWii,
+  trogdorReburninatedWii,
+  untitledSandGameWiiU,
+  multidrcSpaceDemoWiiU,
+  lightsOutWii,
+  othelloWiiU,
+  fluctusWiiU,
+  gamearcadeSwitch,
+  slitherlinknxSwitch,
+  pinballNxSwitch,
+  _2planesSwitch,
+  miichanicLuma3dsPlugin,
+  minecraft3dsMegapackPlugin3ds,
+  ctrcomposer3dsPluginFramework,
+  luma3dsPluginLoaderScript3ds,
+  luma3dsPluginLoader3ds,
+  papayaHudWiiUAromaPlugin,
+  tcpgeckoAromaWiiUPlugin,
+  justgetmiionlineWiiUAromaPlugin,
+  riibootmiiWiiUAromaPlugin,
+  vinoConfigPatcherWiiUAromaPlugin,
+  wiiredxWiiUAromaPlugin,
+  switchpresenceSwitchSysmodule,
+  switchpresenceRewrittenSwitchSysmodule,
+  pngshotSwitchSysmodule,
+  key2conSwitchSysmodule,
+  nxScreenuploaderSwitchSysmodule,
+  tailscaleNxSwitchSysmodule,
+  sysdvrUvcCaptureSwitchSysmodule,
+  nxGamehideSwitchSysmodule,
 ];

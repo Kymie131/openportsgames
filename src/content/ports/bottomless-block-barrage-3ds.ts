@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bottomlessBlockBarrage3ds: Port = {
+  schema: "port",
+  id: "bottomless-block-barrage-3ds",
+  title: "Bottomless Block Barrage (3DS)",
+  game: "Bottomless Block Barrage",
+  developers: ["TricksterGuy"],
+  publisher: "Homebrew",
+  originalYear: 2017,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/TricksterGuy/bottomless-block-barrage"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Bottomless Block Barrage (Homebrew, 2017) running on Nintendo 3DS through source port. Latest release: v0.2.0. You need your own copy of the game.",
+  notesEs: "Bottomless Block Barrage (Homebrew, 2017) en Nintendo 3DS mediante port de código. Última release: v0.2.0. Necesitas tu propia copia del juego.",
+};

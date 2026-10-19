@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const petTheCat3ds: Port = {
+  schema: "port",
+  id: "pet-the-cat-3ds",
+  title: "Pet the Cat (3DS)",
+  game: "Pet the Cat",
+  developers: ["Pet-the-cat"],
+  publisher: "Homebrew",
+  originalYear: 2024,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Pet-the-cat/pet_the_cat_3ds_tui"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Pet the Cat (Homebrew, 2024) running on Nintendo 3DS through source port. Latest release: v0.3.0. You need your own copy of the game.",
+  notesEs: "Pet the Cat (Homebrew, 2024) en Nintendo 3DS mediante port de código. Última release: v0.3.0. Necesitas tu propia copia del juego.",
+};
