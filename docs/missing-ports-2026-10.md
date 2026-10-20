@@ -207,3 +207,44 @@ Estado por repo, verificado con la API de GitHub (archived, license, último pus
 - Fuentes externas aún **no** recorridas: **PortMaster**, **heldgames.com**, **readonlymemo.com** (N64 recompiled/decomp), **F-Droid** (Games con repo fuente), **PortsDR**.
 - **1c**: revisar los ~1.300 repos que ya tenemos (release/tag, último commit, archivados, renombrados, 404, `Unknown` con sistema en README). Primer caso corregido: `zeldawwhdrecompandroid` (plataforma, género y sistema estaban mal).
 
+## E. Cuarta pasada: topics de GitHub (2026-10-20)
+
+Se recorrieron los topics que quedaban pendientes: `psp-homebrew`, `psvita-homebrew`,
+`3ds-homebrew`, `wii-homebrew`, `wiiu-homebrew`, `switch-homebrew`, `gamecube-homebrew`,
+`n64recomp` y `static-recompilation` (con `stars:>=2` en los de consola). El cruce por
+URL de repositorio contra el catálogo dejó **387 repos sin ficha**.
+
+Resultado: **28 fichas nuevas**.
+
+- **Recomps y ports nativos**: `window-smash` (Smash Ultimate en PC), `sega-rally-port0r`,
+  `lotr-return-of-the-king-recomp`, `lotr-two-towers-recomp`, `soulcalibur-ii-hd-recomp`,
+  `starcraft-64-recomp`, `ssf2t-hd-remix-recomp`, `prototype-switch`, `prototype-2-switch`,
+  `heart-of-darkness-port`, `touhou-6-vita`, `inotia-3-vita`, `buckshot-roulette-vita`,
+  `bomberman-64-switch`, `bird-and-beans-wii`, `supertux-wii`, `hexen-ii-3ds`,
+  `pokemon-emerald-psp` y `sm64-psp`.
+- **Homebrew**: `cavex`, `gxcraft`, `craftus-reloaded`, `3dstris`, `pingo`,
+  `splatoon-3ds`, `platform-shooter-psp` y `vita-tetris`.
+- **Herramienta**: `cps2-recomp` (lanzador de los ports nativos de CPS-1/CPS-2).
+
+Descartados en esta pasada:
+
+- **Herramientas, runtimes y emuladores**: `ran-j/PS2Recomp`, `bgyss/SwitchRecomp`,
+  `fearkov/3dsrecomp`, `wie-project/PS4Recomp`, `aharonahdoot/RecompCore`,
+  `snuri00/psp-web-recomp`, `sp00nznet/model2recomp`, `Xenomega/NESgen`, `ioncodes/llvm8`.
+- **Gestores, launchers y clientes**: `BernardoGiordano/Checkpoint`,
+  `fortheusers/hb-appstore`, `ppkantorski/Ultrahand-Overlay`, `jessetbh/AkiLauncher`,
+  `mq1/TinyWiiBackupManager`, `Day-OS/green-vita`, `p0mpurin/Kasumi`,
+  `OpenCloudGaming/OpenNOW-Switch`.
+- **Juegos que ya tienen otra ficha**: `sp00nznet/saintsrow` (`saints-row-recomp`),
+  `HikariLucy/SnowboardKids-Recomp` (`snowboard-kids-recompiled`),
+  `Creckeryop/3dsCookieClicker` (`cookie-clicker-3ds`), `JustKidding23/Ocarina-of-Time-PSP`
+  (`oot-psp`) y `zarif98/midnightclub` (`midnight-club-la-recomp`).
+- **Temas, editores de guardado, plugins y guías**: el resto de los 387 (no son juegos).
+
+Pendiente de esta pasada:
+
+- `Sergey004/FNAF1-Recomp-proj` ya se puede fichar: `xbox360` existe en `platformKeys`
+  desde el barrido de consola (la nota de la sección C quedó obsoleta).
+- `sp00nznet/xboxdashboard` es el panel de la Xbox original, no un juego: encajaría como
+  `kind: "system"` si se quiere cubrir.
+- `halo-re/halo` y `DogParty/iPodClickWheelRecomps` siguen a la espera de decisión editorial.

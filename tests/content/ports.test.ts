@@ -80,6 +80,16 @@ describe("catalog ports", () => {
         "conker-s-bad-fur-day-pc",
         "conker-s-bad-fur-day-reloaded",
       ],
+      // One repository ships both The Two Towers and The Return of the King.
+      "https://github.com/Shagg88/Athelas": [
+        "lotr-return-of-the-king-recomp",
+        "lotr-two-towers-recomp",
+      ],
+      // One repository ships both Prototype games for the Switch.
+      "https://github.com/fungalspores/prototype-switch": [
+        "prototype-switch",
+        "prototype-2-switch",
+      ],
       "https://github.com/sandstranger/com.mobilerpgpack.phone": [
         "chex-quest-classic-core-engines",
         "classic-core-engines",

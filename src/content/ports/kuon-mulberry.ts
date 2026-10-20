@@ -19,8 +19,9 @@ export const KuonMulberry: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  sourceDead: true,
   originalSystems: ["PlayStation 2"],
-  notes: "Decompilation of Kuon (Mulberry) (Other). The upstream repository is no longer available.",
-  notesEs: "Decompilación de Kuon (Mulberry) (Other). El repositorio original ya no está disponible.",
+  notes:
+    "Decompilation of Kuon (PlayStation 2) through the Mulberry project. The repository is public and hosts the source code.",
+  notesEs:
+    "Decompilación de Kuon (PlayStation 2) mediante el proyecto Mulberry. El repositorio es público y aloja el código fuente.",
 };

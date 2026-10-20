@@ -32,21 +32,43 @@ export function summarize(text: string, max: number = DESCRIPTION_MAX): string {
 
 /**
  * Short label for the platform a port targets, as it should read in a title:
- * Android, iOS, Nintendo Switch, or PC for desktop/web targets. A port that
+ * Android, iOS, a console name, or PC for desktop/web targets. A port that
  * also ships on desktop keeps "PC" so it matches the usual "… pc port" query.
  */
 export function portPlatformLabel(platforms: readonly string[]): string {
-  const hasDesktop = platforms.some((key) =>
-    ["windows", "linux", "macos", "web"].includes(key),
-  );
+  const hasDesktop = platforms.some((key) => ["windows", "linux", "macos", "web"].includes(key));
   if (!hasDesktop) {
-    if (platforms.includes("android")) return "Android";
-    if (platforms.includes("ios")) return "iOS";
-    if (platforms.includes("switch")) return "Nintendo Switch";
-    if (platforms.includes("psvita")) return "PS Vita";
-    if (platforms.includes("3ds")) return "Nintendo 3DS";
-    if (platforms.includes("wii")) return "Wii";
-    if (platforms.includes("wiiu")) return "Wii U";
+    const labels: ReadonlyArray<readonly [string, string]> = [
+      ["android", "Android"],
+      ["ios", "iOS"],
+      ["switch", "Nintendo Switch"],
+      ["psvita", "PS Vita"],
+      ["3ds", "Nintendo 3DS"],
+      ["ds", "Nintendo DS"],
+      ["wiiu", "Wii U"],
+      ["wii", "Wii"],
+      ["ps5", "PlayStation 5"],
+      ["ps4", "PlayStation 4"],
+      ["ps3", "PlayStation 3"],
+      ["ps2", "PlayStation 2"],
+      ["ps1", "PlayStation"],
+      ["psp", "PSP"],
+      ["xbox360", "Xbox 360"],
+      ["xbox", "Xbox"],
+      ["n64", "Nintendo 64"],
+      ["snes", "SNES"],
+      ["nes", "NES"],
+      ["gba", "Game Boy Advance"],
+      ["gbc", "Game Boy Color"],
+      ["gb", "Game Boy"],
+      ["dreamcast", "Dreamcast"],
+      ["saturn", "Sega Saturn"],
+      ["genesis", "Sega Genesis"],
+      ["arcade", "Arcade"],
+    ];
+    for (const [key, label] of labels) {
+      if (platforms.includes(key)) return label;
+    }
   }
   return "PC";
 }

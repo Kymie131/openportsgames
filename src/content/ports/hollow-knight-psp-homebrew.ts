@@ -5,7 +5,7 @@ export const hollowKnightPspHomebrew: Port = {
   id: "hollow-knight-psp-homebrew",
   title: "Hollow Knight (PSP, homebrew)",
   game: "Hollow Knight",
-  developers: ["lkaww"],
+  developers: ["lkawf"],
   publisher: "Team Cherry",
   originalYear: 2017,
   portType: "source-port",
@@ -15,11 +15,13 @@ export const hollowKnightPspHomebrew: Port = {
   platforms: ["psp"],
   status: "alpha",
   release: { version: null, date: null },
-  sources: ["https://github.com/lkaww/HollowKnightPSP"],
+  sources: ["https://lkawf.itch.io/hollow-knight-on-psp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
-  notes: "Hollow Knight (Team Cherry, 2017) running on PlayStation Portable through source port. You need your own copy of the game.",
-  notesEs: "Hollow Knight (Team Cherry, 2017) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
+  notes:
+    "Hollow Knight (Team Cherry, 2017) running on PlayStation Portable through source port. You need your own copy of the game.",
+  notesEs:
+    "Hollow Knight (Team Cherry, 2017) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
 };

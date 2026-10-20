@@ -16,9 +16,9 @@ describe("port page titles", () => {
   });
 
   it("keeps PC when the port also ships on desktop platforms", () => {
-    expect(
-      portTitle("en", "Forza Horizon", "Pinyon Shift", ["windows", "linux", "android"]),
-    ).toBe("Forza Horizon native PC port – Pinyon Shift");
+    expect(portTitle("en", "Forza Horizon", "Pinyon Shift", ["windows", "linux", "android"])).toBe(
+      "Forza Horizon native PC port – Pinyon Shift",
+    );
   });
 
   it("labels each non-desktop target", () => {
@@ -27,6 +27,14 @@ describe("port page titles", () => {
     expect(portPlatformLabel(["ios"])).toBe("iOS");
     expect(portPlatformLabel(["psvita"])).toBe("PS Vita");
     expect(portPlatformLabel(["3ds"])).toBe("Nintendo 3DS");
+    expect(portPlatformLabel(["psp"])).toBe("PSP");
+    expect(portPlatformLabel(["ps2"])).toBe("PlayStation 2");
+    expect(portPlatformLabel(["n64"])).toBe("Nintendo 64");
+    expect(portPlatformLabel(["ds"])).toBe("Nintendo DS");
+    expect(portPlatformLabel(["xbox360"])).toBe("Xbox 360");
+    expect(portPlatformLabel(["dreamcast"])).toBe("Dreamcast");
+    expect(portPlatformLabel(["arcade"])).toBe("Arcade");
+    expect(portPlatformLabel(["windows", "psp"])).toBe("PC");
   });
 });
 

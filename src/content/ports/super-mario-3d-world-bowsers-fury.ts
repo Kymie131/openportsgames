@@ -19,6 +19,7 @@ export const SuperMario3dWorldBowsersFury: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
+  sourceDead: true,
   originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/5e/Super_Mario_3D_World_box_art.jpg",

@@ -1895,6 +1895,34 @@ import { sonicTheHedgehog4EpisodeIiSwitch } from "./sonic-the-hedgehog-4-episode
 import { crazyTaxiClassicSwitch } from "./crazy-taxi-classic-switch";
 import { pes2013Switch } from "./pes-2013-switch";
 import { linkSAwakeningPc } from "./link-s-awakening-pc";
+import { windowSmash } from "./window-smash";
+import { segaRallyPort0r } from "./sega-rally-port0r";
+import { lotrReturnOfTheKingRecomp } from "./lotr-return-of-the-king-recomp";
+import { lotrTwoTowersRecomp } from "./lotr-two-towers-recomp";
+import { soulcaliburIiHdRecomp } from "./soulcalibur-ii-hd-recomp";
+import { starcraft64Recomp } from "./starcraft-64-recomp";
+import { ssf2tHdRemixRecomp } from "./ssf2t-hd-remix-recomp";
+import { prototypeSwitch } from "./prototype-switch";
+import { prototype2Switch } from "./prototype-2-switch";
+import { heartOfDarknessPort } from "./heart-of-darkness-port";
+import { touhou6Vita } from "./touhou-6-vita";
+import { inotia3Vita } from "./inotia-3-vita";
+import { buckshotRouletteVita } from "./buckshot-roulette-vita";
+import { bomberman64Switch } from "./bomberman-64-switch";
+import { birdAndBeansWii } from "./bird-and-beans-wii";
+import { supertuxWii } from "./supertux-wii";
+import { hexenIi3ds } from "./hexen-ii-3ds";
+import { pokemonEmeraldPsp } from "./pokemon-emerald-psp";
+import { sm64Psp } from "./sm64-psp";
+import { cavex } from "./cavex";
+import { gxcraft } from "./gxcraft";
+import { craftusReloaded } from "./craftus-reloaded";
+import { threeDstris } from "./3dstris";
+import { pingo } from "./pingo";
+import { splatoon3ds } from "./splatoon-3ds";
+import { platformShooterPsp } from "./platform-shooter-psp";
+import { vitaTetris } from "./vita-tetris";
+import { cps2Recomp } from "./cps2-recomp";
 
 export const portCases: Port[] = [
   sm64ex,
@@ -3772,4 +3800,32 @@ export const portCases: Port[] = [
   crazyTaxiClassicSwitch,
   pes2013Switch,
   linkSAwakeningPc,
+  windowSmash,
+  segaRallyPort0r,
+  lotrReturnOfTheKingRecomp,
+  lotrTwoTowersRecomp,
+  soulcaliburIiHdRecomp,
+  starcraft64Recomp,
+  ssf2tHdRemixRecomp,
+  prototypeSwitch,
+  prototype2Switch,
+  heartOfDarknessPort,
+  touhou6Vita,
+  inotia3Vita,
+  buckshotRouletteVita,
+  bomberman64Switch,
+  birdAndBeansWii,
+  supertuxWii,
+  hexenIi3ds,
+  pokemonEmeraldPsp,
+  sm64Psp,
+  cavex,
+  gxcraft,
+  craftusReloaded,
+  threeDstris,
+  pingo,
+  splatoon3ds,
+  platformShooterPsp,
+  vitaTetris,
+  cps2Recomp,
 ];

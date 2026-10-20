@@ -19,6 +19,7 @@ export const CtwNative: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
+  sourceDead: true,
   originalSystems: ["Unknown"],
   notes: "Bringing GTA: Chinatown Wars to native PC with your own game files.",
   notesEs: "Lleva GTA: Chinatown Wars a PC nativo con tus propios archivos del juego.",

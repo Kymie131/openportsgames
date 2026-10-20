@@ -13,6 +13,7 @@ const TOOL_IDS = [
   "psy-q-decomp",
   "rerac-launcher",
   "classic-core-engines",
+  "cps2-recomp",
   "rotating-art-launcher",
   "knossosnet",
   "zalithlauncher2",
@@ -91,7 +92,11 @@ describe("port kinds", () => {
   });
 
   it("getToolPorts returns exactly the non-game entries", () => {
-    expect(getToolPorts().map((port) => port.id).sort()).toEqual(NON_GAME_IDS);
+    expect(
+      getToolPorts()
+        .map((port) => port.id)
+        .sort(),
+    ).toEqual(NON_GAME_IDS);
   });
 
   it("defaults every other entry to game", () => {
@@ -108,7 +113,10 @@ describe("port kinds", () => {
 
   it("keeps non-game entries reachable through the full catalog", () => {
     for (const port of getToolPorts()) {
-      expect(getPorts().some((entry) => entry.id === port.id), port.id).toBe(true);
+      expect(
+        getPorts().some((entry) => entry.id === port.id),
+        port.id,
+      ).toBe(true);
     }
   });
 });
