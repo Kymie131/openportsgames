@@ -18,7 +18,7 @@ export const metroidPrimePort: Port = {
   sources: ["https://github.com/Odrannnn/MetroidPrimePort"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   notes:
     "Decompilation-based native port of Metroid Prime (GameCube). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:

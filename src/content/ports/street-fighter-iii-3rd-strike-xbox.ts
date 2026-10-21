@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const streetFighterIii3rdStrikeXbox: Port = {
+  schema: "port",
+  id: "street-fighter-iii-3rd-strike-xbox",
+  title: "Street Fighter III: 3rd Strike (Xbox port)",
+  game: "Street Fighter III: 3rd Strike",
+  developers: ["Manya3084"],
+  publisher: "Capcom",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Manya3084/SF33RDSXBRecompo"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox"],
+  related: ["street-fighter-iii-3rd-strike-3sx"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e6/Street_Fighter_III_3rd_Strike_%28flyer%29.png",
+    alt: "Street Fighter III: 3rd Strike (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "x86-64 port of Street Fighter III: 3rd Strike built from the original Xbox release, with SDL3, Vulkan, OpenGL and OpenAL. On first launch it asks for your own Xbox disc image or extracted game folder.",
+  notesEs: "Port x86-64 de Street Fighter III: 3rd Strike construido desde la versión de Xbox original, con SDL3, Vulkan, OpenGL y OpenAL. Al arrancar pide tu propia imagen de disco de Xbox o la carpeta extraída del juego.",
+};

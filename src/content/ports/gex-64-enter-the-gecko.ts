@@ -19,7 +19,7 @@ export const Gex64EnterTheGecko: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/59/Gex2Cover.jpg",
     alt: "Gex 64: Enter the Gecko (box art)",

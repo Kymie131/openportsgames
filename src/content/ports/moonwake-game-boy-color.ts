@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const moonwakeGameBoyColor: Port = {
+  schema: "port",
+  id: "moonwake-game-boy-color",
+  title: "Moonwake (Game Boy Color)",
+  game: "Moonwake",
+  developers: ["sdiaoune"],
+  publisher: "Homebrew",
+  originalYear: 2026,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["gbc"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sdiaoune/moonwake"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Moonwake (Homebrew, 2026) running on gbc through source port. Latest release: v2.0.0. You need your own copy of the game.",
+  notesEs: "Moonwake (Homebrew, 2026) en gbc mediante port de código. Última release: v2.0.0. Necesitas tu propia copia del juego.",
+};

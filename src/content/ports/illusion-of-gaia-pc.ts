@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const illusionOfGaiaPc: Port = {
+  schema: "port",
+  id: "illusion-of-gaia-pc",
+  title: "Illusion of Gaia (PC)",
+  game: "Illusion of Gaia",
+  developers: ["mrOt4"],
+  publisher: "Enix",
+  originalYear: 1993,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos","switch","android","3ds","psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/mrOt4/babel-recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Super Nintendo"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/1a/Iogbox.jpg",
+    alt: "Illusion of Gaia (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Illusion of Gaia (Enix, 1993) running on Windows and Linux and macOS and Nintendo Switch and Android and Nintendo 3DS and PlayStation Vita through static recompilation. Latest release: v1.0. You need your own copy of the game.",
+  notesEs: "Illusion of Gaia (Enix, 1993) en Windows and Linux and macOS and Nintendo Switch and Android and Nintendo 3DS and PlayStation Vita mediante recompilación estática. Última release: v1.0. Necesitas tu propia copia del juego.",
+};

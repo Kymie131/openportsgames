@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const openarenaClassicCoreEngines: Port = {
+  schema: "port",
+  id: "openarena-classic-core-engines",
+  title: "OpenArena (Classic Core Engines)",
+  game: "OpenArena",
+  developers: ["sandstranger"],
+  publisher: "OpenArena team",
+  originalYear: 2005,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "open",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sandstranger/com.mobilerpgpack.phone"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "OpenArena (OpenArena team, 2005) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (baseoa folder).",
+  notesEs: "OpenArena (OpenArena team, 2005) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
+};

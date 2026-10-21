@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const twistedMetal2012Pc: Port = {
+  schema: "port",
+  id: "twisted-metal-2012-pc",
+  title: "Twisted Metal (2012, PC)",
+  game: "Twisted Metal",
+  developers: ["franklincg"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2012,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/franklincg/twisted-metal-2012-ps3-native-port"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 3"],
+  notes: "Twisted Metal (Sony Computer Entertainment, 2012) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Twisted Metal (Sony Computer Entertainment, 2012) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

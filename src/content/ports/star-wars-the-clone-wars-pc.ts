@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const starWarsTheCloneWarsPc: Port = {
+  schema: "port",
+  id: "star-wars-the-clone-wars-pc",
+  title: "Star Wars: The Clone Wars (PC)",
+  game: "Star Wars: The Clone Wars",
+  developers: ["GTTeancum"],
+  publisher: "LucasArts",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/GTTeancum/StarWars-CloneWars-PC"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox"],
+  notes: "Star Wars: The Clone Wars (LucasArts, 2002) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Star Wars: The Clone Wars (LucasArts, 2002) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

@@ -19,7 +19,7 @@ export const openFodder: Port = {
   license: { spdx: "GPL-3.0" },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   notes:
     "Engine reimplementation for the Cannon Fodder series, supporting several of the original titles.",
   notesEs:

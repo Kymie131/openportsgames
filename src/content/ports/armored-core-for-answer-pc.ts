@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const armoredCoreForAnswerPc: Port = {
+  schema: "port",
+  id: "armored-core-for-answer-pc",
+  title: "Armored Core: For Answer (PC)",
+  game: "Armored Core: For Answer",
+  developers: ["SulphurS16"],
+  publisher: "FromSoftware",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/SulphurS16/ACFA-Port"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 3"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/29/Armored_Core_for_Answer_cover_art.PNG",
+    alt: "Armored Core: For Answer (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Armored Core: For Answer (FromSoftware, 2008) running on Windows through static recompilation. Latest release: v0.7.2. You need your own copy of the game.",
+  notesEs: "Armored Core: For Answer (FromSoftware, 2008) en Windows mediante recompilación estática. Última release: v0.7.2. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const dragonBallZTenkaichiTagTeam: Port = {
+  schema: "port",
+  id: "dragon-ball-z-tenkaichi-tag-team",
+  title: "Tenkawa (Dragon Ball Z: Tenkaichi Tag Team)",
+  game: "Dragon Ball Z: Tenkaichi Tag Team",
+  developers: ["TeamGDB"],
+  publisher: "Bandai Namco",
+  originalYear: 2010,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/TeamGDB/Tenkawa"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation Portable"],
+  notes: "Tenkawa: native port of the PSP game Dragon Ball Z: Tenkaichi Tag Team by static recompilation, translating its PSP code ahead of time to C++ and running it on a reimplementation of the PSP system software. Not an emulator and not playable yet.",
+  notesEs: "Tenkawa: port nativo del juego de PSP Dragon Ball Z: Tenkaichi Tag Team mediante recompilación estática, traduciendo su código de PSP a C++ por adelantado y ejecutándolo sobre una reimplementación del sistema de la PSP. No es un emulador y todavía no es jugable.",
+};

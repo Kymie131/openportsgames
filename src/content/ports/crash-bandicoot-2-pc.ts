@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const crashBandicoot2Pc: Port = {
+  schema: "port",
+  id: "crash-bandicoot-2-pc",
+  title: "Crash Bandicoot 2 (PC)",
+  game: "Crash Bandicoot 2: Cortex Strikes Back",
+  developers: ["omegakatana92"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 1997,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/omegakatana92/CrashBandicoot2Recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e6/Crash_Bandicoot_2_Cortex_Strikes_Back_Game_Cover.jpg",
+    alt: "Crash Bandicoot 2: Cortex Strikes Back (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Crash Bandicoot 2: Cortex Strikes Back (Sony Computer Entertainment, 1997) running on Windows through static recompilation. Latest release: v1.0.0. You need your own copy of the game.",
+  notesEs: "Crash Bandicoot 2: Cortex Strikes Back (Sony Computer Entertainment, 1997) en Windows mediante recompilación estática. Última release: v1.0.0. Necesitas tu propia copia del juego.",
+};

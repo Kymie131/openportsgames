@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const lightsOutWii: Port = {
+  schema: "port",
+  id: "lights-out-wii",
+  title: "Lights Out (Wii)",
+  game: "Lights Out",
+  developers: ["BHSPitMonkey"],
+  publisher: "Homebrew",
+  originalYear: 2023,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["wii"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/BHSPitMonkey/LiightsOut"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Lights Out (Homebrew, 2023) running on Wii through source port. Latest release: v1.0-beta5. You need your own copy of the game.",
+  notesEs: "Lights Out (Homebrew, 2023) en Wii mediante port de código. Última release: v1.0-beta5. Necesitas tu propia copia del juego.",
+};

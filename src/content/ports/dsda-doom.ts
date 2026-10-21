@@ -14,7 +14,7 @@ export const dsdaDoom: Port = {
   platforms: ["windows", "linux", "macos"],
   status: "stable",
   release: { version: "0.30.1", date: "2026-10-09" },
-  sources: ["https://github.com/kraflab/dsda-doom"],
+  sources: ["https://github.com/dsda-org/dsda-doom"],
   discord: "https://discord.gg/9paQ52zQUT",
   license: {
     spdx: "NOASSERTION",
@@ -22,7 +22,7 @@ export const dsdaDoom: Port = {
   },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   features: [
     "Demo playback compatible with the original demo format",
     "Configurable keyboard and mouse emulation",

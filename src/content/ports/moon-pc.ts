@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const moonPc: Port = {
+  schema: "port",
+  id: "moon-pc",
+  title: "Moon (PC)",
+  game: "Moon",
+  developers: ["vs-sr-dev"],
+  publisher: "Mastiff",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/vs-sr-dev/pc-moon"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo DS"],
+  notes: "Moon (Mastiff, 2009) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Moon (Mastiff, 2009) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

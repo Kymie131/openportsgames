@@ -19,7 +19,7 @@ export const PokemonHeartgold: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/cb/PokemonHGSSBox.jpg",
     alt: "Pokemon HeartGold (box art)",

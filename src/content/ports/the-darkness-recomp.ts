@@ -18,7 +18,7 @@ export const theDarknessRecomp: Port = {
   sources: ["https://github.com/portingpete/The-Darkness-Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Static recompilation of The Darkness (Xbox 360) with DarkRecomp and a Direct3D 11 renderer, with no runtime emulation. It supports mouse and gamepad, video settings, XMA audio and saving.",
   notesEs:

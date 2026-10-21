@@ -30,4 +30,5 @@ export const starRod: Port = {
     alt: "Paper Mario (cover)",
     credit: "Box art",
   },
+  originalSystems: ["Nintendo 64"],
 };

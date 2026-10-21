@@ -97,7 +97,7 @@ export function catalogPageCount(ports: Port[], scope: CatalogScope): number {
 }
 
 export interface CatalogOptions {
-  originalSystems?: Record<string, string>;
+  originalSystems?: Record<string, string[]>;
   testResults?: Record<string, "pass" | "fail">;
   stars?: Record<string, number>;
 }
@@ -111,6 +111,30 @@ const SORT_VALUES: SortKey[] = ["relevance", "title", "title-desc", "newest", "s
 
 /** Maximum accepted query length (protects the search index). */
 export const MAX_QUERY_LENGTH = 200;
+
+/** Common words that should not narrow an AND search on their own. */
+const STOPWORDS = new Set([
+  "a", "an", "the", "of", "and", "or", "to", "for", "in", "on", "at", "is", "it", "its",
+  "de", "la", "el", "los", "las", "un", "una", "y", "o", "del", "al", "en", "que", "con",
+]);
+
+/** Lowercases and strips diacritics so "Pokémon" and "pokemon" match. */
+export function foldSearch(value: string): string {
+  return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+}
+
+/**
+ * Normalizes a query for search: folds accents, splits on non-alphanumeric
+ * characters and drops stopwords, so every remaining term must match (AND).
+ */
+export function normalizeQuery(value: string): string {
+  return value
+    .split(/[^\p{L}\p{N}]+/u)
+    .map((term) => foldSearch(term))
+    .filter((term) => term.length > 0 && !STOPWORDS.has(term))
+    .join(" ")
+    .slice(0, MAX_QUERY_LENGTH);
+}
 
 interface ParamSource {
   get(name: string): string | null;
@@ -218,19 +242,27 @@ export function buildIndex(ports: Port[]): MiniSearch<Port> {
     idField: "id",
     fields: ["title", "id", "game", "developers", "publisher", "genre", "portType"],
     storeFields: ["id"],
-    searchOptions: { prefix: true, fuzzy: 0.2, combineWith: "OR" },
+    searchOptions: { prefix: true, combineWith: "AND" },
+    processTerm: (term) => foldSearch(term),
   });
   index.addAll(ports);
   return index;
 }
 
-export function availableSystems(ports: Port[], originalSystems: Record<string, string>): string[] {
+export function availableSystems(
+  ports: Port[],
+  originalSystems: Record<string, string[]>,
+): string[] {
   const systems = new Set<string>();
+  let hasUnknown = false;
   for (const port of ports) {
-    const system = originalSystems[port.id];
-    if (system !== undefined) systems.add(system);
+    for (const system of originalSystems[port.id] ?? []) {
+      if (system === "Unknown") hasUnknown = true;
+      else systems.add(system);
+    }
   }
-  return [...systems].sort((a, b) => a.localeCompare(b));
+  const sorted = [...systems].sort((a, b) => a.localeCompare(b));
+  return hasUnknown ? [...sorted, "Unknown"] : sorted;
 }
 
 function pick<T extends string>(value: string | null, allowed: readonly T[], fallback: T): T {
@@ -246,7 +278,7 @@ export function applyCatalog(
 ): { results: Port[]; total: number } {
   const scopePlatforms = SCOPED_PLATFORMS[scope];
 
-  const query = state.query.trim().slice(0, MAX_QUERY_LENGTH);
+  const query = normalizeQuery(state.query);
   const qResults = query.length > 0 ? index.search(query) : [];
   const queryIds = query.length > 0 ? new Set(qResults.map((r) => r.id)) : null;
   const scoreById = new Map(qResults.map((r) => [r.id, r.score] as const));
@@ -269,8 +301,8 @@ export function applyCatalog(
       if (state.state.includes("unverified") && port.verified) return false;
       if (state.technique.length > 0 && !state.technique.includes(port.portType)) return false;
       if (state.system.length > 0) {
-        const system = originalSystems[port.id];
-        if (system === undefined || !state.system.includes(system)) return false;
+        const systems = originalSystems[port.id] ?? [];
+        if (!state.system.some((system) => systems.includes(system))) return false;
       }
       if (state.genre.length > 0 && !state.genre.includes(port.genre)) return false;
       if (state.source.includes("open") && !port.openSource) return false;

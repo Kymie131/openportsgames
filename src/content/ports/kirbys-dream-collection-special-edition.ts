@@ -19,7 +19,7 @@ export const KirbysDreamCollectionSpecialEdition: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Kirby's Dream Collection: Special Edition.",
   notesEs: "Decompilación de Kirby's Dream Collection: Special Edition.",
 };

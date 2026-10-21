@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const perfectDarkPsp: Port = {
+  schema: "port",
+  id: "perfect-dark-psp",
+  title: "Perfect Dark (PSP)",
+  game: "Perfect Dark",
+  developers: ["z2442"],
+  publisher: "Rare",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/z2442/perfect_dark-PSP"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  related: ["perfect-dark-port","perfect-dark-android"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg",
+    alt: "Perfect Dark (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "PSP port of Perfect Dark (Nintendo 64, 2000) based on the PC port, playable from start to finish at a framerate close to the N64, with native GE rendering. You build it with your own matching ROM.",
+  notesEs: "Port para PSP de Perfect Dark (Nintendo 64, 2000) basado en el port de PC, jugable de principio a fin y con una tasa de fotogramas cercana a la de N64, con render nativo por la GE. Se compila con tu propia ROM compatible.",
+};

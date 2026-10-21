@@ -18,7 +18,7 @@ export const sonicSecretRingsReignition: Port = {
   sources: ["https://github.com/kumapauz/project-reignition"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Wii",
+  originalSystems: ["Wii"],
   notes:
     "Project Reignition is a fan remake of Sonic and the Secret Rings (Wii) for Windows. It is a community project and does not use the original game's assets directly.",
   notesEs:

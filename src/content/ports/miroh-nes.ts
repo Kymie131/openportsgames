@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mirohNes: Port = {
+  schema: "port",
+  id: "miroh-nes",
+  title: "Miroh (NES)",
+  game: "Miroh",
+  developers: ["wendelscardua"],
+  publisher: "Homebrew",
+  originalYear: 2023,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["nes"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/wendelscardua/miroh"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Miroh (Homebrew, 2023) running on nes through source port. Latest release: 3.1.3-beta. You need your own copy of the game.",
+  notesEs: "Miroh (Homebrew, 2023) en nes mediante port de código. Última release: 3.1.3-beta. Necesitas tu propia copia del juego.",
+};

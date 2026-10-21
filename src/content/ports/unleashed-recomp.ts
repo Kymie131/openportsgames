@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const unleashedRecomp: Port = {
+  schema: "port",
+  id: "unleashed-recomp",
+  title: "Unleashed Recomp",
+  game: "Sonic Unleashed",
+  developers: ["SansNope"],
+  publisher: "Sega",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/SansNope/UnleashedRecomp-Android"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a0/Sonic_unleashed_boxart.jpg",
+    alt: "Sonic Unleashed (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Sonic Unleashed (Sega, 2008) for Android (static recompilation). Latest release: v0.6.1. Needs your own copy of the game (Sonic Unleashed ISO).",
+  notesEs: "Sonic Unleashed (Sega, 2008) para Android (recompilación estática). Última release: v0.6.1. Necesita tu propia copia del juego.",
+};

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gravityRushRemasteredPc: Port = {
+  schema: "port",
+  id: "gravity-rush-remastered-pc",
+  title: "Gravity Rush Remastered (PC)",
+  game: "Gravity Rush Remastered",
+  developers: ["Prathewsh"],
+  publisher: "SIE Japan Studio",
+  originalYear: 2015,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Prathewsh/gravityrush_pc"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 4"],
+  notes: "Gravity Rush Remastered (SIE Japan Studio, 2015) running on Windows through runtime layer. You need your own copy of the game.",
+  notesEs: "Gravity Rush Remastered (SIE Japan Studio, 2015) en Windows mediante capa de ejecución. Necesitas tu propia copia del juego.",
+};

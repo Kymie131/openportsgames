@@ -18,7 +18,7 @@ export const rimworldAndroid: Port = {
   sources: ["https://github.com/udarmolota/rimdroid"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Android launcher that runs RimWorld on phones and tablets. It requires the desktop game files from your own copy.",
   notesEs:

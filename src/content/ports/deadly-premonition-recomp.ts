@@ -18,7 +18,7 @@ export const deadlyPremonitionRecomp: Port = {
   sources: ["https://github.com/LittleBitUA/DPRecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Recompiled Deadly Premonition (Xbox 360) to run natively on Windows through ReXGlue. Own the game to play.",
   notesEs:

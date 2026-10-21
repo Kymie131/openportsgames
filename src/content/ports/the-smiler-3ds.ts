@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const theSmiler3ds: Port = {
+  schema: "port",
+  id: "the-smiler-3ds",
+  title: "The Smiler (3DS)",
+  game: "The Smiler",
+  developers: ["SW7-2013"],
+  publisher: "Alton Towers",
+  originalYear: 2013,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/SW7-2013/The-Smiler-Game-New-Nintendo-3DS-Edition"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "The Smiler (Alton Towers, 2013) running on Nintendo 3DS through source port. Latest release: JoinUs. You need your own copy of the game.",
+  notesEs: "The Smiler (Alton Towers, 2013) en Nintendo 3DS mediante port de código. Última release: JoinUs. Necesitas tu propia copia del juego.",
+};

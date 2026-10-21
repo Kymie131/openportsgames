@@ -20,7 +20,7 @@ export const PokemonSword: Port = {
   verified: false,
   wip: true,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/fa/Pok%C3%A9mon_Sword_and_Shield.jpg",
     alt: "Pokémon Sword (box art)",

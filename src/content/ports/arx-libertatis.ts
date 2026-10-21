@@ -40,4 +40,5 @@ export const arxLibertatis: Port = {
     alt: "Arx Fatalis (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["Windows"],
 };

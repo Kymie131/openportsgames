@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const afraidOfMonstersPsVita: Port = {
+  schema: "port",
+  id: "afraid-of-monsters-ps-vita",
+  title: "Afraid of Monsters (PS Vita)",
+  game: "Afraid of Monsters",
+  developers: ["D3adly1nfection"],
+  publisher: "Team Psykskallar",
+  originalYear: 2007,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/D3adly1nfection/Afraid-of-Monsters-Vita-Version"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Afraid of Monsters (Team Psykskallar, 2007) running on PlayStation Vita through source port. You need your own copy of the game.",
+  notesEs: "Afraid of Monsters (Team Psykskallar, 2007) en PlayStation Vita mediante port de código. Necesitas tu propia copia del juego.",
+};

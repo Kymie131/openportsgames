@@ -18,7 +18,7 @@ export const ufo50Android: Port = {
   sources: ["https://github.com/Skyline969/UFO50AndroidUnofficial"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Unofficial tool that builds an Android version of UFO 50. It requires the game itself to produce the data.",
   notesEs:

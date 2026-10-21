@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const deltarunePs3: Port = {
+  schema: "port",
+  id: "deltarune-ps3",
+  title: "Deltarune (PS3)",
+  game: "Deltarune",
+  developers: ["miduzikk"],
+  publisher: "Toby Fox",
+  originalYear: 2018,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps3"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/miduzikk/ProjectDELTA"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1671210/header.jpg",
+    alt: "Deltarune (cover art)",
+    credit: "Steam",
+  },
+  notes: "Deltarune (Toby Fox, 2018) running on PlayStation 3 through source port. You need your own copy of the game.",
+  notesEs: "Deltarune (Toby Fox, 2018) en PlayStation 3 mediante port de código. Necesitas tu propia copia del juego.",
+};

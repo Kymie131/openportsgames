@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const residentEvilCodeVeronicaRecomp: Port = {
+  schema: "port",
+  id: "resident-evil-code-veronica-recomp",
+  title: "Resident Evil CODE:Veronica Recompiled",
+  game: "Resident Evil: Code Veronica X",
+  developers: ["psxrestore"],
+  publisher: "Capcom",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/psxrestore/VeronicaRecomp"],
+  license: { spdx: "BSD-3-Clause" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Dreamcast"],
+  related: ["resident-evil-code-veronica-decomp","resident-evil-code-veronica"],
+  notes: "Static recompilation of Resident Evil CODE:Veronica built with ReXGlue. Work in progress: it only ships source code to build it, so you must own a legitimate copy and extract its assets.",
+  notesEs: "Recompilación estática de Resident Evil CODE:Veronica construida con ReXGlue. En desarrollo: solo incluye el código fuente para compilarla, así que necesitas una copia legítima y extraer sus assets.",
+};

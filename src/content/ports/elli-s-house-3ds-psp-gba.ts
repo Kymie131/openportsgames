@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const elliSHouse3dsPspGba: Port = {
+  schema: "port",
+  id: "elli-s-house-3ds-psp-gba",
+  title: "Elli's House (3DS, PSP, GBA)",
+  game: "Elli's House",
+  developers: ["glacialmoongames"],
+  publisher: "Glacial Moon Games",
+  originalYear: 2021,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds","psp","gba"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/glacialmoongames/EllisHouseCpp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Elli's House (Glacial Moon Games, 2021) running on Nintendo 3DS and PlayStation Portable and gba through source port. Latest release: v0.1.0-port-preview. You need your own copy of the game.",
+  notesEs: "Elli's House (Glacial Moon Games, 2021) en Nintendo 3DS and PlayStation Portable and gba mediante port de código. Última release: v0.1.0-port-preview. Necesitas tu propia copia del juego.",
+};

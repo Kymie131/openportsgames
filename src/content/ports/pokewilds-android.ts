@@ -15,10 +15,10 @@ export const pokewildsAndroid: Port = {
   platforms: ["android"],
   status: "beta",
   release: { version: null, date: null },
-  sources: ["https://github.com/TryTheSauceBoss/Pokewilds-Android"],
+  sources: ["https://github.com/TryTheSauceBoss/Pokewilds-Godot"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Native Android port of PokeWilds, the open-source creature-collecting fan game. It is a standalone build that does not need commercial assets.",
   notesEs:

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pojavlauncher: Port = {
+  schema: "port",
+  id: "pojavlauncher",
+  kind: "tool",
+  title: "PojavLauncher",
+  game: "Minecraft Java Edition",
+  developers: ["pojavlauncherteam"],
+  publisher: "Mojang Studios",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/pojavlauncherteam/pojavlauncher"],
+  license: { spdx: "LGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Minecraft Java Edition (Mojang Studios, 2011) an Android tool. Latest release: gladiolus. Needs your own copy of the game.",
+  notesEs: "Minecraft Java Edition (Mojang Studios, 2011) una herramienta para Android. Última release: gladiolus. Necesita tu propia copia del juego.",
+};

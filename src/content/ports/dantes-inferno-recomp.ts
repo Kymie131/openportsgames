@@ -19,7 +19,7 @@ export const dantesInfernoRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Native Dante's Inferno (Xbox 360) port built with ReXGlue. Renders through D3D12 and Vulkan, no emulation.",
   notesEs:

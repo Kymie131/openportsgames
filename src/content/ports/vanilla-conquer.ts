@@ -21,7 +21,7 @@ export const vanillaConquer: Port = {
     note: "project-specific license terms, not an OSI license",
   },
   verified: false,
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   notes:
     "Engine reimplementation for the original Command & Conquer. The single GitHub release is a prerelease.",
   notesEs:

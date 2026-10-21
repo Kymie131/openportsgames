@@ -15,11 +15,11 @@ export const yakuzaDeadSoulsRecomp: Port = {
   platforms: ["windows"],
   status: "beta",
   release: { version: null, date: null },
-  sources: ["https://github.com/canersaka/Yakuza-Dead-Souls-EX"],
+  sources: ["https://github.com/canersaka/Yakuza-Dead-Souls-Recompiled"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 3",
+  originalSystems: ["PlayStation 3"],
   notes:
     "Static recompilation of Yakuza: Dead Souls (PlayStation 3) for Windows. It needs your own copy of the game.",
   notesEs:

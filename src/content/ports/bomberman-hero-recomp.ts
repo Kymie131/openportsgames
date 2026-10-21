@@ -17,7 +17,7 @@ export const bombermanHeroRecomp: Port = {
   sources: ["https://github.com/RevoSucks/BMHeroRecomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Static recompilation of Bomberman Hero (N64, USA) with N64Recomp and RT64. It adds widescreen, unlocked framerate, instant load times and mod and texture-pack support.",
   notesEs:

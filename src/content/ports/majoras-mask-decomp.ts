@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const majorasMaskDecomp: Port = {
+  schema: "port",
+  id: "majoras-mask-decomp",
+  title: "Majora's Mask Decompilation",
+  game: "The Legend of Zelda: Majora's Mask",
+  developers: ["zeldaret"],
+  publisher: "Nintendo",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/zeldaret/mm"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg",
+    alt: "The Legend of Zelda: Majora's Mask (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Work-in-progress matching decompilation of The Legend of Zelda: Majora's Mask (Nintendo 64). It builds a byte-matching ROM from your own copy; the repository publishes no playable build of its own.",
+  notesEs: "Decompilación en curso (matching) de The Legend of Zelda: Majora's Mask (Nintendo 64). Compila una ROM idéntica a la original desde tu propia copia; el repositorio no publica ninguna build jugable propia.",
+};

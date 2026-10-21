@@ -18,7 +18,7 @@ export const doa3Recomp: Port = {
   sources: ["https://github.com/parkerallan/doa3-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox",
+  originalSystems: ["Xbox"],
   notes:
     "Static recompilation of Dead or Alive 3 (Xbox) with ReXGlue. It requires a copy of the game.",
   notesEs:

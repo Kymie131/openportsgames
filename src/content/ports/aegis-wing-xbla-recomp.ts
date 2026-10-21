@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const aegisWingXblaRecomp: Port = {
+  schema: "port",
+  id: "aegis-wing-xbla-recomp",
+  title: "Aegis Wing (PC)",
+  game: "Aegis Wing",
+  developers: ["CaiusCodes"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/CaiusCodes/Aegis-Wing-XBLA-PC-Recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  notes: "Native Windows PC version of Aegis Wing (Xbox Live Arcade, 2007) created through static recompilation with ReXGlue, up to 4K at 60 FPS with keyboard, mouse and controllers. Requires your own copy. Latest release: v0.9.1.",
+  notesEs: "Versión nativa para Windows de Aegis Wing (Xbox Live Arcade, 2007) creada mediante recompilación estática con ReXGlue, hasta 4K a 60 FPS con teclado, ratón y mandos. Requiere tu propia copia. Última release: v0.9.1.",
+};

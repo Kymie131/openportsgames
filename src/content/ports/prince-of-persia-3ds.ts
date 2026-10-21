@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const princeOfPersia3ds: Port = {
+  schema: "port",
+  id: "prince-of-persia-3ds",
+  title: "Prince of Persia (3DS)",
+  game: "Prince of Persia",
+  developers: ["larm504"],
+  publisher: "Broderbund",
+  originalYear: 1989,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/larm504/SDLPoP-3DS"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["MS-DOS"],
+  notes: "Prince of Persia (Broderbund, 1989) running on Nintendo 3DS through source port. Latest release: v1.1. You need your own copy of the game.",
+  notesEs: "Prince of Persia (Broderbund, 1989) en Nintendo 3DS mediante port de código. Última release: v1.1. Necesitas tu propia copia del juego.",
+};

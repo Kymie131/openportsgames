@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pTForAndroidDualScreen: Port = {
+  schema: "port",
+  id: "p-t-for-android-dual-screen",
+  title: "P.T. for Android (Dual Screen)",
+  game: "P.T.",
+  developers: ["StoneColdOS"],
+  publisher: "Kojima Productions",
+  originalYear: 2014,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/StoneColdOS/pt-pc"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "P.T. (Kojima Productions, 2014) for Android (source port). Needs your own copy of the game (P.T. .pkg).",
+  notesEs: "P.T. (Kojima Productions, 2014) para Android (port de código). Necesita tu propia copia del juego.",
+};

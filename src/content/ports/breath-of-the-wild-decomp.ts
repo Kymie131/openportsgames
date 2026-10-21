@@ -20,7 +20,7 @@ export const breathOfTheWildDecomp: Port = {
   verified: false,
   wip: true,
   sourceVerified: true,
-  originalSystem: "Wii U",
+  originalSystems: ["Wii U"],
   notes:
     "Work-in-progress decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0). A research codebase with no playable build; it requires game files from a copy you own.",
   notesEs:

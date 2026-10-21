@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const silentHill23ds: Port = {
+  schema: "port",
+  id: "silent-hill-2-3ds",
+  title: "Silent Hill 2 (3DS)",
+  game: "Silent Hill 2",
+  developers: ["ankushKun"],
+  publisher: "Konami",
+  originalYear: 2001,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ankushKun/sh23ds"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/95/Silent_Hill_2.jpg",
+    alt: "Silent Hill 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Silent Hill 2 (Konami, 2001) running on Nintendo 3DS through source port. Latest release: v0.1.2. You need your own copy of the game.",
+  notesEs: "Silent Hill 2 (Konami, 2001) en Nintendo 3DS mediante port de código. Última release: v0.1.2. Necesitas tu propia copia del juego.",
+};

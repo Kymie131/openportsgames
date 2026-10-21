@@ -18,7 +18,7 @@ export const dnzhRecomp: Port = {
   sources: ["https://github.com/sonicdcer/DNZHRecomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Native recompilation of Duke Nukem: Zero Hour (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pointBlankRecompiled: Port = {
+  schema: "port",
+  id: "point-blank-recompiled",
+  title: "Point Blank (PC)",
+  game: "Point Blank",
+  developers: ["TekRantGaming"],
+  publisher: "Namco",
+  originalYear: 1994,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/TekRantGaming/point-blank-recompiled"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  notes: "Native PC port of Namco's Point Blank (PlayStation, 1994) by static recompilation with PSXRecomp: aim with the mouse or a controller, no light gun needed. Bring your own disc. Latest release: v1.1.0.",
+  notesEs: "Port nativo a PC de Point Blank de Namco (PlayStation, 1994) mediante recompilación estática con PSXRecomp: apunta con el ratón o un mando, sin pistola de luz. Aporta tu propio disco. Última release: v1.1.0.",
+};

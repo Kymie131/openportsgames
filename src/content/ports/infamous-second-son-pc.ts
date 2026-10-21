@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const infamousSecondSonPc: Port = {
+  schema: "port",
+  id: "infamous-second-son-pc",
+  title: "inFAMOUS Second Son (PC)",
+  game: "inFAMOUS Second Son",
+  developers: ["HayatoG"],
+  publisher: "Sucker Punch Productions",
+  originalYear: 2014,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/HayatoG/iss_pc"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/34/Infamous_second_son_boxart.jpg",
+    alt: "inFAMOUS Second Son (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "inFAMOUS Second Son (Sucker Punch Productions, 2014) running on Windows through runtime layer. Latest release: v2026.10.19-d3995fe. You need your own copy of the game.",
+  notesEs: "inFAMOUS Second Son (Sucker Punch Productions, 2014) en Windows mediante capa de ejecución. Última release: v2026.10.19-d3995fe. Necesitas tu propia copia del juego.",
+};

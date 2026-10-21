@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const balatro3dsHomebrew: Port = {
+  schema: "port",
+  id: "balatro-3ds-homebrew",
+  title: "Balatro (3DS homebrew)",
+  game: "Balatro",
+  developers: ["idkhan"],
+  publisher: "LocalThunk",
+  originalYear: 2024,
+  portType: "reimplementation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/idkhan/Balatro3DS"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/89/Balatro_cover.jpg",
+    alt: "Balatro (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Balatro (LocalThunk, 2024) running on Nintendo 3DS through reimplementation. Latest release: v2.0.5-base. You need your own copy of the game.",
+  notesEs: "Balatro (LocalThunk, 2024) en Nintendo 3DS mediante reimplementación. Última release: v2.0.5-base. Necesitas tu propia copia del juego.",
+};

@@ -18,7 +18,7 @@ export const marathonAndroid: Port = {
   sources: ["https://github.com/daniele-rapagnani/alephone-android"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Macintosh",
+  originalSystems: ["Macintosh"],
   notes:
     "Android port of the Aleph One engine, used to run the Marathon games with their original data. It builds on the open-source Aleph One codebase.",
   notesEs:

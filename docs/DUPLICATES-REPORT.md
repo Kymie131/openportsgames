@@ -60,7 +60,7 @@ project. `openmw` vs `openmw-android`, `strikers` vs `strikers-android`,
 | ------------ | -------- | ---------------- |
 | `pokemon-snap` & `pokemon-snap-recomp` | Both recompilations of Pokémon Snap (N64); repos `dreamsailing59-ops/Snapshot` vs `JackandBeans/Snap64Recomp`. | Keep the more maintained repo; `noindex` the other or merge. |
 | `resident-evil-code-veronica-decomp` & `resident-evil-code-veronica-x` | Both "Code Veronica X" decompilations; repos `AshfordFamily/recvx-decomp` vs `fmil95/recvx-gc-decomp`. | Same game, two teams → merge or `noindex` one. |
-| `fire-emblem-the-sacred-stones-fireemblem` & `fire-emblem-the-sacred-stones` | Identical game; both forks of `fireemblem8u` (`FireEmblemUniverse` vs `laqieer`). | Likely one fork → merge; keep the upstream. |
+| `fire-emblem-the-sacred-stones-fireemblem` & `fire-emblem-the-sacred-stones` | Identical game; both forks of `fireemblem8u` (`FireEmblemUniverse` vs `laqieer`). **Source that stays: `FireEmblemUniverse/fireemblem8u` (upstream).** | Likely one fork → merge into `fire-emblem-the-sacred-stones` (upstream source). |
 | `need-for-speed-carbon-codepdbh` & `need-for-speed-carbon` | Same game, two recompilation repos (`codepdbh` vs `Sampreeth004`). | Duplicate → pick one, `noindex`/merge the other. |
 | `kings-field-recomp` (`verdite1`) & `verdite2` | Same developer (`Voicedrew11`), same game (King's Field); `verdite1`/`verdite2` are two parts. | Merge into one King's Field entry; also fix the `verdite`-style titles. |
 | `unleashed-recompiled` & `unleashedrecomp-nx` | Same project; `-nx` is the Switch port of `hedge-dev/UnleashedRecomp` by another dev. | Treat the NX build as a variant of one entry, not a separate port. |
@@ -92,3 +92,11 @@ These are **not** duplicates — do not merge:
 2. Review the 10 rows in §2.3; for each choose **merge**, **variant**, or **`noindex`**.
 3. Once decided, add a `noindex` flag (or a `duplicateOf` field) and update
    `tests/content/ports.test.ts` so the decision is enforced.
+
+## Temporary code marker
+
+`tests/content/ports.test.ts` allow-lists `https://github.com/FireEmblemUniverse/fireemblem8u`
+(`fire-emblem-the-sacred-stones` + `fire-emblem-the-sacred-stones-fireemblem`) **only**
+so the shared-source invariant passes while both entries coexist. This allow-list entry
+is **temporary** and must be removed in the same change that fuses
+`fire-emblem-the-sacred-stones-fireemblem` into `fire-emblem-the-sacred-stones` (301).

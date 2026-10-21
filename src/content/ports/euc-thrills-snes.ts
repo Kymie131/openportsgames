@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const eucThrillsSnes: Port = {
+  schema: "port",
+  id: "euc-thrills-snes",
+  title: "EUC Thrills (SNES)",
+  game: "EUC Thrills",
+  developers: ["VibezZzCoder"],
+  publisher: "Homebrew",
+  originalYear: 2026,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["snes"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/VibezZzCoder/EUC-Thrills-SNES-Edition"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "EUC Thrills (Homebrew, 2026) running on snes through source port. Latest release: v1.1. You need your own copy of the game.",
+  notesEs: "EUC Thrills (Homebrew, 2026) en snes mediante port de código. Última release: v1.1. Necesitas tu propia copia del juego.",
+};

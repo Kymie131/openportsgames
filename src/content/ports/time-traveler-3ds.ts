@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const timeTraveler3ds: Port = {
+  schema: "port",
+  id: "time-traveler-3ds",
+  title: "Time Traveler (3DS)",
+  game: "Time Traveler",
+  developers: ["mholzinger"],
+  publisher: "Sega",
+  originalYear: 1991,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/mholzinger/save-hologram-time-traveler"],
+  license: { spdx: "BSD-3-Clause" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Arcade"],
+  notes: "Time Traveler (Sega, 1991) running on Nintendo 3DS through decompilation. You need your own copy of the game.",
+  notesEs: "Time Traveler (Sega, 1991) en Nintendo 3DS mediante decompilación. Necesitas tu propia copia del juego.",
+};

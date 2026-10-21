@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const doom2dGba: Port = {
+  schema: "port",
+  id: "doom-2d-gba",
+  title: "Doom 2D (GBA)",
+  game: "Doom 2D",
+  developers: ["neparij"],
+  publisher: "Homebrew",
+  originalYear: 1997,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["gba"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/neparij/doom2d-agb"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["MS-DOS"],
+  notes: "Doom 2D (Homebrew, 1997) running on gba through source port. Latest release: v0.2.0. You need your own copy of the game.",
+  notesEs: "Doom 2D (Homebrew, 1997) en gba mediante port de código. Última release: v0.2.0. Necesitas tu propia copia del juego.",
+};

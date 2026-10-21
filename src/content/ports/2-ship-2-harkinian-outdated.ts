@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const _2Ship2HarkinianOutdated: Port = {
+  schema: "port",
+  id: "2-ship-2-harkinian-outdated",
+  title: "2 Ship 2 Harkinian (Outdated)",
+  game: "The Legend of Zelda: Majora's Mask",
+  developers: ["Waterdish"],
+  publisher: "Nintendo",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Waterdish/2ship2harkinian-Android"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg",
+    alt: "The Legend of Zelda: Majora's Mask (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Legend of Zelda: Majora's Mask (Nintendo, 2000) for Android (source port). Latest release: v1.1.2P1. Needs your own copy of the game (Legend of Zelda, The - Majora's Mask (USA).z64).",
+  notesEs: "The Legend of Zelda: Majora's Mask (Nintendo, 2000) para Android (port de código). Última release: v1.1.2P1. Necesita tu propia copia del juego.",
+};

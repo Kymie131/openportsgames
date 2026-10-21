@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pokemonRedBlue3dsGen1recomp: Port = {
+  schema: "port",
+  id: "pokemon-red-blue-3ds-gen1recomp",
+  title: "Pokemon Red & Blue (3DS, Gen1Recomp)",
+  game: "Pokemon Red",
+  developers: ["cohako"],
+  publisher: "Nintendo",
+  originalYear: 1996,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/cohako/gen1recomp-lua-native-3ds-port"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Game Boy"],
+  notes: "Pokemon Red (Nintendo, 1996) running on Nintendo 3DS through decompilation. Latest release: v0.0.1. You need your own copy of the game.",
+  notesEs: "Pokemon Red (Nintendo, 1996) en Nintendo 3DS mediante decompilación. Última release: v0.0.1. Necesitas tu propia copia del juego.",
+};

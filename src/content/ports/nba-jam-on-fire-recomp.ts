@@ -19,7 +19,7 @@ export const nbaJamOnFireRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Native PC port of NBA Jam: On Fire Edition (Xbox 360 XBLA). It needs your own copy of the game.",
   notesEs:

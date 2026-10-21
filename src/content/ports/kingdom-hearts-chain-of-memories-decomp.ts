@@ -14,12 +14,13 @@ export const kingdomHeartsChainOfMemoriesDecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
+  wip: true,
   release: { version: null, date: null },
   sources: ["https://github.com/Pheenoh/khcom"],
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   notes:
     "Decompilation of Kingdom Hearts: Chain of Memories (Game Boy Advance). A research codebase; it requires game files from a copy you own.",
   notesEs:

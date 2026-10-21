@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const cutTheRopePsVita: Port = {
+  schema: "port",
+  id: "cut-the-rope-ps-vita",
+  title: "Cut the Rope (PS Vita)",
+  game: "Cut the Rope",
+  developers: ["Clyppe"],
+  publisher: "ZeptoLab",
+  originalYear: 2010,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Clyppe/cut-the-rope-vita"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "Cut the Rope (ZeptoLab, 2010) running on PlayStation Vita through source port. Latest release: v0.2.0. You need your own copy of the game.",
+  notesEs: "Cut the Rope (ZeptoLab, 2010) en PlayStation Vita mediante port de código. Última release: v0.2.0. Necesitas tu propia copia del juego.",
+};

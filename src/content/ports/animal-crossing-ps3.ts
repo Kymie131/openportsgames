@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const animalCrossingPs3: Port = {
+  schema: "port",
+  id: "animal-crossing-ps3",
+  title: "Animal Crossing (PS3)",
+  game: "Animal Crossing",
+  developers: ["EstudioCases"],
+  publisher: "Nintendo",
+  originalYear: 2001,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps3"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/EstudioCases/Animal-Crossing-Ps3-Port"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  notes: "Animal Crossing (Nintendo, 2001) running on PlayStation 3 through source port. You need your own copy of the game.",
+  notesEs: "Animal Crossing (Nintendo, 2001) en PlayStation 3 mediante port de código. Necesitas tu propia copia del juego.",
+};

@@ -19,7 +19,7 @@ export const etLegacy: Port = {
   website: "https://www.etlegacy.com",
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   features: [
     "Continuation of the open source Enemy Territory code",
     "Modern engine improvements and fixes",

@@ -18,7 +18,7 @@ export const castlevaniaCircleOfTheMoonRecomp: Port = {
   sources: ["https://github.com/Zaxaerith/CastlevaniaCircleOfTheMoonRecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   notes:
     "Static recompilation of Castlevania: Circle of the Moon (GBA) with the gbarecomp framework. It requires your own game data.",
   notesEs:

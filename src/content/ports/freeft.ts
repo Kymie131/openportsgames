@@ -19,7 +19,7 @@ export const Freeft: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Isometric action game engine.",
   notesEs: "Motor de juego de acción isométrico.",
 };

@@ -18,7 +18,7 @@ export const cod4Ios: Port = {
   sources: ["https://github.com/DevZer0D4Y/COD4iOS-COD4NS"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Community port of Call of Duty 4: Modern Warfare for iOS, with an additional build for Nintendo Switch. It needs the original game.",
   notesEs:

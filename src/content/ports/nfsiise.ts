@@ -18,7 +18,7 @@ export const nfsiise: Port = {
   sources: ["https://github.com/zaps166/NFSIISE"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Cross-platform wrapper that runs Need for Speed II SE with 3D acceleration and TCP networking, using the original game files. It builds for Windows, Linux, macOS and Android.",
   notesEs:

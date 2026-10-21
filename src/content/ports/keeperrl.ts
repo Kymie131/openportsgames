@@ -19,7 +19,12 @@ export const Keeperrl: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/329970/header.jpg",
+    alt: "KeeperRL (cover art)",
+    credit: "Steam",
+  },
   notes: "Source code of KeeperRL.",
   notesEs: "Código fuente de KeeperRL.",
 };

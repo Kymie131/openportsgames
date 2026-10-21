@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ds4vitaPsVitaPlugin: Port = {
+  schema: "port",
+  id: "ds4vita-ps-vita-plugin",
+  title: "ds4vita (PS Vita plugin)",
+  game: "PlayStation Vita",
+  developers: ["xerpi"],
+  publisher: "Sony",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/xerpi/ds4vita"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "PlayStation Vita (Sony, 2011) running on PlayStation Vita through source port. Latest release: hooks. You need your own copy of the game.",
+  notesEs: "PlayStation Vita (Sony, 2011) en PlayStation Vita mediante port de código. Última release: hooks. Necesitas tu propia copia del juego.",
+};

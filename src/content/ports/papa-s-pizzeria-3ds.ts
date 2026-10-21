@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const papaSPizzeria3ds: Port = {
+  schema: "port",
+  id: "papa-s-pizzeria-3ds",
+  title: "Papa's Pizzeria (3DS)",
+  game: "Papa's Pizzeria",
+  developers: ["zylonity"],
+  publisher: "Flipline Studios",
+  originalYear: 2007,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/zylonity/PapasPizzeria-n3DS"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "Papa's Pizzeria (Flipline Studios, 2007) running on Nintendo 3DS through source port. Latest release: v0.6-alpha. You need your own copy of the game.",
+  notesEs: "Papa's Pizzeria (Flipline Studios, 2007) en Nintendo 3DS mediante port de código. Última release: v0.6-alpha. Necesitas tu propia copia del juego.",
+};

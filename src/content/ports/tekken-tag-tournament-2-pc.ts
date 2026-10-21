@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tekkenTagTournament2Pc: Port = {
+  schema: "port",
+  id: "tekken-tag-tournament-2-pc",
+  title: "Tekken Tag Tournament 2 (PC)",
+  game: "Tekken Tag Tournament 2",
+  developers: ["shihabal3amri"],
+  publisher: "Bandai Namco",
+  originalYear: 2011,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/shihabal3amri/tekken-tag-tournament-2-pc"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5c/Tekken_TT2_console.png",
+    alt: "Tekken Tag Tournament 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Tekken Tag Tournament 2 (Bandai Namco, 2011) running on Windows through static recompilation. Latest release: v0.1.6. You need your own copy of the game.",
+  notesEs: "Tekken Tag Tournament 2 (Bandai Namco, 2011) en Windows mediante recompilación estática. Última release: v0.1.6. Necesitas tu propia copia del juego.",
+};

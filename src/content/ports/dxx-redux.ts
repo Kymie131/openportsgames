@@ -19,7 +19,7 @@ export const DxxRedux: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Descent 1&2 source port based on DXX-Retro.",
   notesEs: "Port del código fuente de Descent 1 y 2 basado en DXX-Retro.",
 };

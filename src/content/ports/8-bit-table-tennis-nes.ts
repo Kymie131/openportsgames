@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const _8BitTableTennisNes: Port = {
+  schema: "port",
+  id: "8-bit-table-tennis-nes",
+  title: "8-bit Table Tennis (NES)",
+  game: "8-bit Table Tennis",
+  developers: ["mike42"],
+  publisher: "Homebrew",
+  originalYear: 2020,
+  portType: "source-port",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["nes"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/mike42/8bit-table-tennis"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "8-bit Table Tennis (Homebrew, 2020) running on nes through source port. Latest release: v1.0. You need your own copy of the game.",
+  notesEs: "8-bit Table Tennis (Homebrew, 2020) en nes mediante port de código. Última release: v1.0. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jazz2Ressurection: Port = {
+  schema: "port",
+  id: "jazz-2-ressurection",
+  title: "Jazz 2 Ressurection",
+  game: "Jazz Jackrabbit 2",
+  developers: ["deathkiller"],
+  publisher: "Epic MegaGames",
+  originalYear: 1998,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/deathkiller/jazz2"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f0/Jazz_Jackrabbit_2.PNG",
+    alt: "Jazz Jackrabbit 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Jazz Jackrabbit 2 (Epic MegaGames, 1998) for Android (source port). Latest release: 3.9.0. Needs your own copy of the game (Game Files).",
+  notesEs: "Jazz Jackrabbit 2 (Epic MegaGames, 1998) para Android (port de código). Última release: 3.9.0. Necesita tu propia copia del juego.",
+};

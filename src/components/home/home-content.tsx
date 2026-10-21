@@ -9,17 +9,17 @@ import {
   FlaskConical,
   Gamepad2,
   HardDrive,
-  Heart,
   Monitor,
   Smartphone,
   Zap,
 } from "lucide-react";
 import { useLocale, useT } from "@/lib/i18n/use-i18n";
-import { SUPPORT_PAYPAL_URL } from "@/lib/support";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Container } from "@/components/layout/container";
 import { PortTile } from "@/components/catalog/port-tile";
+import { HalloweenDecor } from "./halloween-decor";
+import { SUPPORT_PAYPAL_URL } from "@/lib/support";
 import type { TestStatus } from "@/components/catalog/test-badge";
 import type { Port } from "@/lib/ports/schema";
 
@@ -31,10 +31,12 @@ export type FeaturedPort = {
 
 export function HomeContent({
   latest,
+  recentlyAdded,
   featured,
   counts,
 }: {
   latest: FeaturedPort[];
+  recentlyAdded: FeaturedPort[];
   featured: FeaturedPort[];
   counts: { ports: number; verifiedSource: number; tested: number };
 }) {
@@ -45,15 +47,16 @@ export function HomeContent({
   return (
     <Container className="py-14 sm:py-20">
       {/* Hero */}
-      <section aria-labelledby="home-hero" className="space-y-12">
-        <div className="max-w-2xl space-y-6">
+      <section aria-labelledby="home-hero" className="relative space-y-12">
+        <HalloweenDecor />
+        <div className="relative z-10 max-w-2xl space-y-6">
           <Badge tone="accent" className="font-mono uppercase tracking-widest">
             {t.home.eyebrow}
           </Badge>
           <div className="space-y-4">
             <h1
               id="home-hero"
-              className="text-gradient text-5xl font-bold tracking-tight sm:text-6xl drop-shadow-sm"
+              className="text-gradient text-4xl font-bold tracking-tight drop-shadow-sm sm:text-5xl md:text-6xl"
             >
               OpenPortsGames
             </h1>
@@ -70,20 +73,22 @@ export function HomeContent({
             >
               <Link href="/ports">{t.home.browseCatalog}</Link>
             </Button>
-            <Button asChild variant="secondary" size="lg">
-              <a
-                href={SUPPORT_PAYPAL_URL || "/support"}
-                target={SUPPORT_PAYPAL_URL ? "_blank" : undefined}
-                rel={SUPPORT_PAYPAL_URL ? "noopener noreferrer" : undefined}
-              >
-                <Heart className="size-4" aria-hidden="true" />
-                {t.support.donate}
-              </a>
-            </Button>
+            {SUPPORT_PAYPAL_URL ? (
+              <Button asChild variant="secondary" size="lg">
+                <a href={SUPPORT_PAYPAL_URL} target="_blank" rel="noopener noreferrer">
+                  {t.support.donate}
+                </a>
+              </Button>
+            ) : (
+              <Button asChild variant="secondary" size="lg">
+                <Link href="/support">{t.support.donate}</Link>
+              </Button>
+            )}
           </div>
+          <p className="max-w-2xl text-xs leading-5 text-muted">{t.support.noPressure}</p>
         </div>
 
-        <dl className="grid max-w-2xl grid-cols-1 gap-4 sm:grid-cols-2">
+        <dl className="relative z-10 grid max-w-2xl grid-cols-1 gap-4 sm:grid-cols-2">
           <div className="rounded-xl border border-border bg-surface px-6 py-5 shadow-sm">
             <dt className="font-mono text-3xl font-bold tracking-tight text-foreground">
               {toNumber(counts.ports)}
@@ -102,6 +107,32 @@ export function HomeContent({
           </div>
         </dl>
       </section>
+
+      {recentlyAdded.length > 0 && (
+        <section className="mt-14 sm:mt-24" aria-labelledby="new-heading">
+          <div className="mb-6 flex flex-wrap items-end justify-between gap-x-6 gap-y-3">
+            <div className="space-y-1">
+              <h2
+                id="new-heading"
+                className="text-2xl font-semibold tracking-tight text-foreground"
+              >
+                {t.home.newTitle}
+              </h2>
+              <p className="max-w-xl text-sm leading-6 text-muted">{t.home.newSubtitle}</p>
+            </div>
+            <Button asChild variant="ghost" size="sm" className="group">
+              <Link href="/ports?sort=newest">
+                {t.home.viewAll}
+                <ArrowRight
+                  className="size-3.5 transition-transform duration-150 group-hover:translate-x-0.5"
+                  aria-hidden="true"
+                />
+              </Link>
+            </Button>
+          </div>
+          <PortGrid ports={recentlyAdded} />
+        </section>
+      )}
 
       {latest.length > 0 && (
         <section className="mt-14 sm:mt-24" aria-labelledby="latest-heading">

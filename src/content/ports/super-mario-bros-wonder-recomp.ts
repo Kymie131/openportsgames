@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superMarioBrosWonderRecomp: Port = {
+  schema: "port",
+  id: "super-mario-bros-wonder-recomp",
+  title: "Super Mario Bros. Wonder Recomp",
+  game: "Super Mario Bros. Wonder",
+  developers: ["BelmanteGu"],
+  publisher: "Nintendo",
+  originalYear: 2023,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/BelmanteGu/SuperMarioWonderRecomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a3/Mariowonder.png",
+    alt: "Super Mario Bros. Wonder (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Super Mario Bros. Wonder (Nintendo, 2023) for Android (static recompilation). Needs your own copy of the game.",
+  notesEs: "Super Mario Bros. Wonder (Nintendo, 2023) para Android (recompilación estática). Necesita tu propia copia del juego.",
+};

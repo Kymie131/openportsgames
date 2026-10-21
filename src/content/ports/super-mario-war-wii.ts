@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superMarioWarWii: Port = {
+  schema: "port",
+  id: "super-mario-war-wii",
+  title: "Super Mario War (Wii)",
+  game: "Super Mario War",
+  developers: ["jpzm"],
+  publisher: "Super Mario War team",
+  originalYear: 2006,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "open",
+  platforms: ["wii"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/jpzm/smwwii"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "Super Mario War (Super Mario War team, 2006) running on Wii through source port. Latest release: v0.1.0. The original game is free software, so no commercial copy is needed.",
+  notesEs: "Super Mario War (Super Mario War team, 2006) en Wii mediante port de código. Última release: v0.1.0. El juego original es software libre, así que no hace falta una copia comercial.",
+};

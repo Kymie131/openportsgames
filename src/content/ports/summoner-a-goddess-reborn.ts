@@ -19,7 +19,7 @@ export const SummonerAGoddessReborn: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/80/Summoner_2_Coverart.png",
     alt: "Summoner: A Goddess Reborn (box art)",

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jgrPortable: Port = {
+  schema: "port",
+  id: "jgr-portable",
+  title: "JGR Portable (Jet Grind Radio, PSP)",
+  game: "Jet Set Radio",
+  developers: ["beckerd"],
+  publisher: "Sega",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/beckerd/psp_jgr_portable"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Dreamcast"],
+  related: ["jet-set-radio-future-unleashed"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7b/Jetsetradiopalboxart.jpg",
+    alt: "Jet Set Radio (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "JGR Portable is an unofficial native PSP port of Jet Grind Radio (Dreamcast, 2000) built through reverse engineering. The repository ships source code and conversion tools; the original game assets are not included. Latest release: 1.0.2.",
+  notesEs: "JGR Portable es un port nativo no oficial para PSP de Jet Grind Radio (Dreamcast, 2000) hecho mediante ingeniería inversa. El repositorio incluye el código y las herramientas de conversión; los recursos del juego original no están incluidos. Última release: 1.0.2.",
+};

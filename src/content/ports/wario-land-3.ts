@@ -19,7 +19,7 @@ export const WarioLand3: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/cb/Warioland3.jpg",
     alt: "Wario Land 3 (box art)",

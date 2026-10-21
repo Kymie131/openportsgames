@@ -19,7 +19,7 @@ export const riiablo: Port = {
   license: { spdx: "Apache-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Open-source reimplementation of Diablo II written in Java (LibGDX) that runs the original game data. It needs your own copy of the game.",
   notesEs:

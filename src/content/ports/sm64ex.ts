@@ -43,4 +43,5 @@ export const sm64ex: Port = {
     alt: "Super Mario 64 (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["Nintendo 64"],
 };

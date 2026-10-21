@@ -18,7 +18,7 @@ export const sonic1GenesisRecomp: Port = {
   sources: ["https://github.com/mstan/SonicTheHedgehogRecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Sega Mega Drive / Genesis",
+  originalSystems: ["Sega Mega Drive / Genesis"],
   notes:
     "Native recompilation of Sonic the Hedgehog (Sega Mega Drive / Genesis). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

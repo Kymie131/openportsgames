@@ -19,12 +19,13 @@ export const ShiningForce: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/20/Shining_Force.jpg",
     alt: "Shining Force (box art)",
     credit: "Wikipedia",
   },
-  notes: "A disassembly of the game \"Shining Force\" for documentation and fan-project purposes.",
-  notesEs: "Desensamblado del juego «Shining Force» con fines de documentación y proyectos de fans.",
+  notes: 'A disassembly of the game "Shining Force" for documentation and fan-project purposes.',
+  notesEs:
+    "Desensamblado del juego «Shining Force» con fines de documentación y proyectos de fans.",
 };

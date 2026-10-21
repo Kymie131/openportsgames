@@ -18,11 +18,12 @@ export const rayman2N64Recomp: Port = {
   sources: ["https://github.com/danielgomesvieira2000/rayman-2-the-great-escape-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  sourceDead: true,
+  originalSystems: ["Nintendo 64"],
   notes:
-    "Static recompilation of Rayman 2: The Great Escape (N64) with N64Recomp and the RT64 renderer. It requires your own game files.",
+    "Static recompilation of Rayman 2: The Great Escape (N64) with N64Recomp and the RT64 renderer. It requires your own game files. The upstream repository is no longer available.",
   notesEs:
-    "Recompilación estática de Rayman 2: The Great Escape (N64) con N64Recomp y el renderizador RT64. Requiere tus propios archivos del juego.",
+    "Recompilación estática de Rayman 2: The Great Escape (N64) con N64Recomp y el renderizador RT64. Requiere tus propios archivos del juego. El repositorio original ya no está disponible.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Rayman%202%20-%20The%20Great%20Escape%20(Europe)%20(En,Fr,De,Es,It).png",
     alt: "Rayman 2: The Great Escape (box art)",

@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const marioKart64Xbox: Port = {
+  schema: "port",
+  id: "mario-kart-64-xbox",
+  title: "Mario Kart 64 (Xbox)",
+  game: "Mario Kart 64",
+  developers: ["Team-Resurgent"],
+  publisher: "Nintendo",
+  originalYear: 1996,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["xbox"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Team-Resurgent/Mario-Kart-64-X"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a1/Mario_Kart_64.jpg",
+    alt: "Mario Kart 64 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Mario Kart 64 (Nintendo, 1996) running on xbox through decompilation. You need your own copy of the game.",
+  notesEs: "Mario Kart 64 (Nintendo, 1996) en xbox mediante decompilación. Necesitas tu propia copia del juego.",
+};

@@ -19,7 +19,7 @@ export const MarioPartyDs: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo DS",
+  originalSystems: ["Nintendo DS"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/0f/Mario_Party_DS_US_cover.jpg",
     alt: "Mario Party DS (box art)",

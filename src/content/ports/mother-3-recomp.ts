@@ -19,7 +19,7 @@ export const mother3Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   notes:
     "Static recompilation of Mother 3 (Game Boy Advance) for Windows. It needs your own copy of the game.",
   notesEs:

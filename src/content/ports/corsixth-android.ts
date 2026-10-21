@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const corsixthAndroid: Port = {
+  schema: "port",
+  id: "corsixth-android",
+  title: "CorsixTH Android",
+  game: "Theme Hospital",
+  developers: ["alanwoolley"],
+  publisher: "Electronic Arts",
+  originalYear: 1997,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/alanwoolley/CorsixTH-Android"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["MS-DOS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/26/Theme_Hospital.front_cover.jpg",
+    alt: "Theme Hospital (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Theme Hospital (Electronic Arts, 1997) for Android (source port). Needs your own copy of the game (HOSP folder).",
+  notesEs: "Theme Hospital (Electronic Arts, 1997) para Android (port de código). Necesita tu propia copia del juego.",
+};

@@ -18,7 +18,7 @@ export const dkc2Recomp: Port = {
   sources: ["https://github.com/elliotttate/DKC2Recomp"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "Super Nintendo",
+  originalSystems: ["Super Nintendo"],
   notes:
     "Static recompilation of Donkey Kong Country 2 (SNES) with snesrecomp. The original repository is archived; active development moved to elliotttate/DKC2Recomp.",
   notesEs:

@@ -19,7 +19,7 @@ export const ZoneOfTheEnders1: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Zone of the Enders, in progress.",
   notesEs: "Decompilación de Zone of the Enders, en desarrollo.",
 };

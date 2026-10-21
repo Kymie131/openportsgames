@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ssxTrickyXboxRecomp: Port = {
+  schema: "port",
+  id: "ssx-tricky-xbox-recomp",
+  title: "SSX Tricky Recompilation (Xbox, Linux)",
+  game: "SSX Tricky",
+  developers: ["reindance"],
+  publisher: "Electronic Arts",
+  originalYear: 2001,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["linux","windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/reindance/ssx-tricky-recomp"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox"],
+  related: ["ssx-tricky-decomp","ssx-tricky-opentricky"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6a/SSX_Tricky.jpg",
+    alt: "SSX Tricky (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Linux-first native recompilation of the original Xbox US release of SSX Tricky. Built locally from your own extracted game files; experimental Windows support. Latest tag: v0.1.0.",
+  notesEs: "Recompilación nativa de SSX Tricky (versión USA de Xbox original) con Linux como plataforma principal. Se compila localmente desde tus propios archivos extraídos; soporte de Windows experimental. Último tag: v0.1.0.",
+};

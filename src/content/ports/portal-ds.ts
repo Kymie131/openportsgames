@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const portalDs: Port = {
+  schema: "port",
+  id: "portal-ds",
+  title: "Portal (DS)",
+  game: "Portal",
+  developers: ["smealum"],
+  publisher: "Valve",
+  originalYear: 2007,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/smealum/portalDS"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/400/header.jpg",
+    alt: "Portal (cover art)",
+    credit: "Steam",
+  },
+  notes: "Portal (Valve, 2007) running on Nintendo DS through source port. Latest release: r1. You need your own copy of the game.",
+  notesEs: "Portal (Valve, 2007) en Nintendo DS mediante port de código. Última release: r1. Necesitas tu propia copia del juego.",
+};

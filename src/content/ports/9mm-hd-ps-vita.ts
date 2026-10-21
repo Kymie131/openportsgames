@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const _9mmHdPsVita: Port = {
+  schema: "port",
+  id: "9mm-hd-ps-vita",
+  title: "9mm HD (PS Vita)",
+  game: "9mm",
+  developers: ["iwannagooutside"],
+  publisher: "Gameloft",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/iwannagooutside/9mm-vita"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "9mm (Gameloft, 2011) running on PlayStation Vita through source port. Latest release: v1.0. You need your own copy of the game.",
+  notesEs: "9mm (Gameloft, 2011) en PlayStation Vita mediante port de código. Última release: v1.0. Necesitas tu propia copia del juego.",
+};

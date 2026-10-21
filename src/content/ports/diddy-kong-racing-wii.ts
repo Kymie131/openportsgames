@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const diddyKongRacingWii: Port = {
+  schema: "port",
+  id: "diddy-kong-racing-wii",
+  title: "Diddy Kong Racing (Wii)",
+  game: "Diddy Kong Racing",
+  developers: ["Ch1nguya"],
+  publisher: "Nintendo",
+  originalYear: 1997,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["wii"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Ch1nguya/DKR-R-WII"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/72/Diddy_Kong_Racing_Cover_Art.png",
+    alt: "Diddy Kong Racing (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Diddy Kong Racing (Nintendo, 1997) running on Wii through static recompilation. Latest release: v0.1.0-alpha. You need your own copy of the game.",
+  notesEs: "Diddy Kong Racing (Nintendo, 1997) en Wii mediante recompilación estática. Última release: v0.1.0-alpha. Necesitas tu propia copia del juego.",
+};

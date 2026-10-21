@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const laytonMansionMirrorPc: Port = {
+  schema: "port",
+  id: "layton-mansion-mirror-pc",
+  title: "Layton: Mansion of the Deathly Mirror (PC)",
+  game: "Professor Layton and the Mansion of the Deathly Mirror",
+  developers: ["LaytonLostMedia"],
+  publisher: "Level-5",
+  originalYear: 2008,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "stable",
+  release: { version: "2.0", date: "2025-10-30" },
+  sources: ["https://github.com/LaytonLostMedia/LaytonMotdmPcPort"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-21",
+  originalSystems: ["Mobile"],
+  notes: "PC restoration and native port of the lost Japan-only Professor Layton mobile game. Built by the community from preserved assets; no commercial release exists.",
+  notesEs: "Restauración y port nativo para PC del juego móvil perdido de Professor Layton, publicado solo en Japón. Reconstruido por la comunidad a partir de materiales preservados; no existe una versión comercial.",
+};

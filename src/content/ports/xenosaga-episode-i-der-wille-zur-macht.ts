@@ -19,7 +19,7 @@ export const XenosagaEpisodeIDerWilleZurMacht: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Xenosaga%20Episode%20I%20-%20Der%20Wille%20zur%20Macht%20(Japan)%20(Premium%20Box).png",
     alt: "Xenosaga Episode I: Der Wille zur Macht (box art)",

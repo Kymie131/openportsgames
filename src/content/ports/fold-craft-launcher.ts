@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const foldCraftLauncher: Port = {
+  schema: "port",
+  id: "fold-craft-launcher",
+  kind: "tool",
+  title: "Fold Craft Launcher",
+  game: "Minecraft Java Edition",
+  developers: ["FCL-Team"],
+  publisher: "Mojang Studios",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/FCL-Team/FoldCraftLauncher"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Minecraft Java Edition (Mojang Studios, 2011) an Android tool. Latest release: 1.3.4.0. Needs your own copy of the game (?).",
+  notesEs: "Minecraft Java Edition (Mojang Studios, 2011) una herramienta para Android. Última release: 1.3.4.0. Necesita tu propia copia del juego.",
+};

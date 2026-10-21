@@ -19,7 +19,7 @@ export const RockstarGamesPresentsTableTennis: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/33/Rockstar_Table_Tennis_Game_Cover.jpg",
     alt: "Rockstar Games Presents Table Tennis (box art)",

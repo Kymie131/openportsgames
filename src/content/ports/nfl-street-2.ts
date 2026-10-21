@@ -19,7 +19,7 @@ export const NflStreet2: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/NFL%20Street%202%20(Europe).png",
     alt: "NFL Street 2 (box art)",

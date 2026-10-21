@@ -19,7 +19,14 @@ export const TheBindingOfIsaacRepentance: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
-  notes: "PS Vita port of The Binding of Isaac: Repentance by static recompilation of the PC executable to ARM.",
-  notesEs: "Port a PS Vita de The Binding of Isaac: Repentance mediante recompilación estática del ejecutable de PC a ARM.",
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1426300/header.jpg",
+    alt: "The Binding of Isaac: Repentance (cover art)",
+    credit: "Steam",
+  },
+  notes:
+    "PS Vita port of The Binding of Isaac: Repentance by static recompilation of the PC executable to ARM.",
+  notesEs:
+    "Port a PS Vita de The Binding of Isaac: Repentance mediante recompilación estática del ejecutable de PC a ARM.",
 };

@@ -36,4 +36,5 @@ export const openage: Port = {
     alt: "Age of Empires II (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["MS-DOS","Windows"],
 };

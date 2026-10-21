@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const fluctusWiiU: Port = {
+  schema: "port",
+  id: "fluctus-wii-u",
+  title: "Fluctus (Wii U)",
+  game: "Fluctus",
+  developers: ["kianbennett"],
+  publisher: "Homebrew",
+  originalYear: 2020,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["wiiu"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/kianbennett/fluctus-wiiu"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Fluctus (Homebrew, 2020) running on Wii U through source port. Latest release: 1.0.0. You need your own copy of the game.",
+  notesEs: "Fluctus (Homebrew, 2020) en Wii U mediante port de código. Última release: 1.0.0. Necesitas tu propia copia del juego.",
+};

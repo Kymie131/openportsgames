@@ -4,7 +4,10 @@ import { pageMeta } from "@/lib/seo";
 import { dictionaries } from "@/lib/i18n/dictionaries";
 import { asLocale } from "@/lib/i18n/locales";
 
-const TITLE = { en: "Android ports", es: "Ports para Android" } as const;
+const DESCRIPTION = {
+  en: "Native Android ports and APK builds of PC and console games: decompilations, recompilations and engine rewrites. No emulators, no game files.",
+  es: "Ports nativos para Android y builds APK de juegos de PC y consola: decompilaciones, recompilaciones y reimplementaciones. Sin emuladores ni archivos de juego.",
+} as const;
 
 export async function generateMetadata({
   params,
@@ -15,8 +18,8 @@ export async function generateMetadata({
   const locale = asLocale(lang);
   return pageMeta({
     locale,
-    title: TITLE[locale],
-    description: dictionaries[locale].catalog.subtitleAndroid,
+    title: dictionaries[locale].catalog.titleAndroid,
+    description: DESCRIPTION[locale],
     path: "/android",
   });
 }

@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const fiveNightsAtFreddyS2WiiU: Port = {
+  schema: "port",
+  id: "five-nights-at-freddy-s-2-wii-u",
+  title: "Five Nights at Freddy's 2 (Wii U)",
+  game: "Five Nights at Freddy's 2",
+  developers: ["wikiblog0"],
+  publisher: "Scott Cawthon",
+  originalYear: 2014,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["wiiu"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/wikiblog0/FNaF-2-WiiU"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/332800/header.jpg",
+    alt: "Five Nights at Freddy's 2 (cover art)",
+    credit: "Steam",
+  },
+  notes: "Five Nights at Freddy's 2 (Scott Cawthon, 2014) running on Wii U through source port. Latest release: v1.0h1. You need your own copy of the game.",
+  notesEs: "Five Nights at Freddy's 2 (Scott Cawthon, 2014) en Wii U mediante port de código. Última release: v1.0h1. Necesitas tu propia copia del juego.",
+};

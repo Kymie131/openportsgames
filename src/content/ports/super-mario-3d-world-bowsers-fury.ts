@@ -19,7 +19,8 @@ export const SuperMario3dWorldBowsersFury: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  sourceDead: true,
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/5e/Super_Mario_3D_World_box_art.jpg",
     alt: "Super Mario 3D World + Bowser's Fury (box art)",

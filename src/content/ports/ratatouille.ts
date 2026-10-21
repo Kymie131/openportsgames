@@ -14,11 +14,11 @@ export const Ratatouille: Port = {
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
   release: { version: null, date: null },
-  sources: ["https://github.com/ZounaModding/RatDecomp"],
+  sources: ["https://github.com/Mhanna112-code/RatDecomp"],
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   notes: "Decompilation project of Disney-Pixar Ratatouille (USA) for the Nintendo GameCube.",
   notesEs: "Proyecto de decompilación de Ratatouille de Disney-Pixar (USA) para Nintendo GameCube.",
 };

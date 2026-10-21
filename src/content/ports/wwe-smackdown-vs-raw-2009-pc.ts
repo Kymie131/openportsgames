@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const wweSmackdownVsRaw2009Pc: Port = {
+  schema: "port",
+  id: "wwe-smackdown-vs-raw-2009-pc",
+  title: "WWE SmackDown vs. Raw 2009 (PC)",
+  game: "WWE SmackDown vs. Raw 2009",
+  developers: ["nefariousjosiah"],
+  publisher: "THQ",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/nefariousjosiah/WWE-SVR2009-RECOMP"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/be/SmackDownvsRaw09.jpg",
+    alt: "WWE SmackDown vs. Raw 2009 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "WWE SmackDown vs. Raw 2009 (THQ, 2008) running on Windows and Linux through static recompilation. Latest release: v0.6.6. You need your own copy of the game.",
+  notesEs: "WWE SmackDown vs. Raw 2009 (THQ, 2008) en Windows and Linux mediante recompilación estática. Última release: v0.6.6. Necesitas tu propia copia del juego.",
+};

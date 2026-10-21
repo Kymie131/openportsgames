@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const downhillDominationPc: Port = {
+  schema: "port",
+  id: "downhill-domination-pc",
+  title: "Downhill Domination (PC)",
+  game: "Downhill Domination",
+  developers: ["Pedroj-64"],
+  publisher: "Incog Inc.",
+  originalYear: 2003,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Pedroj-64/DownHill-Port-PC"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/25/Downhill_Domination_Coverart.png",
+    alt: "Downhill Domination (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Downhill Domination (Incog Inc., 2003) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Downhill Domination (Incog Inc., 2003) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

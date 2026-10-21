@@ -9,6 +9,7 @@ export const awesomeOpenSourceGames: Port = {
   publisher: "michelpereira",
   originalYear: 2020,
   portType: "source-port",
+  kind: "tool",
   genre: "simulation",
   openSource: true,
   originalGameLicense: "open",
@@ -19,7 +20,7 @@ export const awesomeOpenSourceGames: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes:
     "Curated list of games whose source code is available on GitHub. It is a resource index, not a single port.",
   notesEs:

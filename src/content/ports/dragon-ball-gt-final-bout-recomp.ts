@@ -19,7 +19,7 @@ export const dragonBallGtFinalBoutRecomp: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Static recompilation of Dragon Ball GT: Final Bout (PlayStation, SLUS-00493) for Windows, with widescreen, Vulkan and LAN/direct-IP netplay. Bring your own disc.",
   notesEs:

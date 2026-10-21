@@ -19,7 +19,12 @@ export const FreedomFighters: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1347780/header.jpg",
+    alt: "Freedom Fighters (cover art)",
+    credit: "Steam",
+  },
   notes: "Decompilation project of Freedom Fighters.",
   notesEs: "Proyecto de decompilación de Freedom Fighters.",
 };

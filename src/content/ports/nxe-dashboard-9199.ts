@@ -19,9 +19,10 @@ export const nxeDashboard9199: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  sourceDead: true,
+  originalSystems: ["Xbox 360"],
   notes:
-    "Static recompilation of the Xbox 360 NXE Dashboard. It is system software, not a game. It requires files from a console you own.",
+    "Static recompilation of the Xbox 360 NXE Dashboard. It is system software, not a game. It requires files from a console you own. The upstream repository is no longer available.",
   notesEs:
-    "Recompilación estática del NXE Dashboard de Xbox 360. Es software de sistema, no un juego. Requiere archivos de una consola que poseas.",
+    "Recompilación estática del NXE Dashboard de Xbox 360. Es software de sistema, no un juego. Requiere archivos de una consola que poseas. El repositorio original ya no está disponible.",
 };

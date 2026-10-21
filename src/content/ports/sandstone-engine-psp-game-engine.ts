@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sandstoneEnginePspGameEngine: Port = {
+  schema: "port",
+  id: "sandstone-engine-psp-game-engine",
+  title: "Sandstone Engine (PSP game engine)",
+  game: "PlayStation Portable",
+  developers: ["SandstoneDev"],
+  publisher: "Sony",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/SandstoneDev/sandstone-engine"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "PlayStation Portable (Sony, 2004) running on PlayStation Portable through source port. Latest release: b1009. You need your own copy of the game.",
+  notesEs: "PlayStation Portable (Sony, 2004) en PlayStation Portable mediante port de código. Última release: b1009. Necesitas tu propia copia del juego.",
+};

@@ -19,7 +19,7 @@ export const CallOfDutyFutureWarfare: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "This is a static recompilation/PC port of Call of Duty: Future Warfare.",
   notesEs: "Recompilación estática/port para PC de Call of Duty: Future Warfare.",
 };

@@ -18,7 +18,7 @@ export const celesteAndroid: Port = {
   sources: ["https://github.com/BelmanteGu/CelesteAndroid"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Native Android port of Celeste that runs your own PC copy, built with .NET, FNA and SDL3 and rendered with Vulkan. It includes a launcher to import the game.",
   notesEs:

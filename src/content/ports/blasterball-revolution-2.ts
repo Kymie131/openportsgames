@@ -19,7 +19,7 @@ export const BlasterballRevolution2: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Heavily WIP Decompilation of Blasterball Revolution 2.",
   notesEs: "Decompilación de Blasterball Revolution 2, muy en desarrollo.",
 };

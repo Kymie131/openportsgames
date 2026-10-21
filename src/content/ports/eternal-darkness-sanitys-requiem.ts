@@ -19,12 +19,13 @@ export const EternalDarknessSanitysRequiem: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/8d/Eternal_Darkness_box.jpg",
     alt: "Eternal Darkness: Sanity's Requiem (box art)",
     credit: "Wikipedia",
   },
-  notes: "Matching decompilation of Eternal Darkness: Sanity's Requiem (GEDE01) — dtk/objdiff pipeline.",
+  notes:
+    "Matching decompilation of Eternal Darkness: Sanity's Requiem (GEDE01) — dtk/objdiff pipeline.",
   notesEs: "Decompilación que coincide de Eternal Darkness: Sanity's Requiem (GEDE01).",
 };

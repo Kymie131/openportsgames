@@ -18,7 +18,7 @@ export const sdlpal: Port = {
   sources: ["https://github.com/sdlpal/sdlpal"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   notes:
     "SDL-based reimplementation of the Chinese RPG PAL (The Legend of Sword and Fairy). It runs the original data files on modern systems, with builds for Windows, Linux, macOS and Android.",
   notesEs:

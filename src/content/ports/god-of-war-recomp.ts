@@ -18,7 +18,7 @@ export const godOfWarRecomp: Port = {
   sources: ["https://github.com/KIexster/god-of-war-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   notes:
     "Static recompilation of God of War (PlayStation 2, NTSC-U SCUS-97399) with PS2Recomp. In development; it needs your own copy of the game.",
   notesEs:

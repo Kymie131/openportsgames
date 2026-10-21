@@ -21,7 +21,7 @@ export const rsdkv3Decompilation: Port = {
   },
   verified: true,
   verifiedAt: "2026-09-30",
-  originalSystem: "Sega CD / Mega-CD",
+  originalSystems: ["Sega CD / Mega-CD"],
   features: [
     "Windows, Linux, macOS and Android builds",
     "Built-in mod loader and modding API",

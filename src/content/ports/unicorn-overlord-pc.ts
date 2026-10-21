@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const unicornOverlordPc: Port = {
+  schema: "port",
+  id: "unicorn-overlord-pc",
+  title: "Unicorn Overlord (PC)",
+  game: "Unicorn Overlord",
+  developers: ["hachi23"],
+  publisher: "Vanillaware",
+  originalYear: 2024,
+  portType: "runtime-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/hachi23/unicorn_overlord_pc"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a1/Unicorn_Overlord_cover.jpg",
+    alt: "Unicorn Overlord (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Unicorn Overlord (Vanillaware, 2024) running on Windows through runtime layer. Latest release: v1.0.0. You need your own copy of the game.",
+  notesEs: "Unicorn Overlord (Vanillaware, 2024) en Windows mediante capa de ejecución. Última release: v1.0.0. Necesitas tu propia copia del juego.",
+};

@@ -18,7 +18,7 @@ export const finalFantasyVSnesRecomp: Port = {
   sources: ["https://github.com/brainWave4/FinalFantasyVSNESRecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Super Nintendo",
+  originalSystems: ["Super Nintendo"],
   notes:
     "Static recompilation of Final Fantasy V (Super Nintendo) to a native executable. It requires your own ROM and ships no game data.",
   notesEs:

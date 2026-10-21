@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const touhouCollectionPs4: Port = {
+  schema: "port",
+  id: "touhou-collection-ps4",
+  title: "Touhou Collection (PS4)",
+  game: "Touhou 6: The Embodiment of Scarlet Devil",
+  developers: ["EmiiBytee"],
+  publisher: "Team Shanghai Alice",
+  originalYear: 2002,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps4"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/EmiiBytee/Touhou-PS4"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Touhou 6: The Embodiment of Scarlet Devil (Team Shanghai Alice, 2002) running on PlayStation 4 through source port. Latest release: v1.1.0. You need your own copy of the game.",
+  notesEs: "Touhou 6: The Embodiment of Scarlet Devil (Team Shanghai Alice, 2002) en PlayStation 4 mediante port de código. Última release: v1.1.0. Necesitas tu propia copia del juego.",
+};

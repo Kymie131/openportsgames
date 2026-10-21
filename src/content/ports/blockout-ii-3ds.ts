@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const blockoutIi3ds: Port = {
+  schema: "port",
+  id: "blockout-ii-3ds",
+  title: "BlockOut II (3DS)",
+  game: "BlockOut II",
+  developers: ["Swallow74"],
+  publisher: "BlockOut II team",
+  originalYear: 2008,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Swallow74/3ds-homebrew-lab"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "BlockOut II (BlockOut II team, 2008) running on Nintendo 3DS through source port. Latest release: blockfall-3ds-v1.0. You need your own copy of the game.",
+  notesEs: "BlockOut II (BlockOut II team, 2008) en Nintendo 3DS mediante port de código. Última release: blockfall-3ds-v1.0. Necesitas tu propia copia del juego.",
+};

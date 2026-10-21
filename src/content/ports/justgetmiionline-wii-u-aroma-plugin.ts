@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const justgetmiionlineWiiUAromaPlugin: Port = {
+  schema: "port",
+  id: "justgetmiionline-wii-u-aroma-plugin",
+  title: "JustGetMiiOnline (Wii U Aroma plugin)",
+  game: "Wii U",
+  developers: ["handyandy87"],
+  publisher: "Nintendo",
+  originalYear: 2012,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["wiiu"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/handyandy87/JustGetMiiOnline"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Wii U (Nintendo, 2012) running on Wii U through source port. Latest release: v1.0.2. You need your own copy of the game.",
+  notesEs: "Wii U (Nintendo, 2012) en Wii U mediante port de código. Última release: v1.0.2. Necesitas tu propia copia del juego.",
+};

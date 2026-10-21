@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const storestationPspAppsAndPluginsStore: Port = {
+  schema: "port",
+  id: "storestation-psp-apps-and-plugins-store",
+  title: "StoreStation (PSP apps and plugins store)",
+  game: "PlayStation Portable",
+  developers: ["StoreStation"],
+  publisher: "Sony",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/StoreStation/StoreStation"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "PlayStation Portable (Sony, 2004) running on PlayStation Portable through source port. Latest release: 1.3. You need your own copy of the game.",
+  notesEs: "PlayStation Portable (Sony, 2004) en PlayStation Portable mediante port de código. Última release: 1.3. Necesitas tu propia copia del juego.",
+};

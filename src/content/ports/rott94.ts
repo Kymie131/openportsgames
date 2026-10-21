@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rott94: Port = {
+  schema: "port",
+  id: "rott94",
+  title: "ROTT94",
+  game: "Rise of the Triad: Dark War",
+  developers: ["h4mu"],
+  publisher: "Apogee Software",
+  originalYear: 1994,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/h4mu/rott94"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/358410/header.jpg",
+    alt: "Rise of the Triad: Dark War (cover art)",
+    credit: "Steam",
+  },
+  notes: "Rise of the Triad: Dark War (Apogee Software, 1994) for Android (source port). Needs your own copy of the game (DARKWAR.RTC, DARKWAR.RTL, DARKWAR.WAD, REMOTE1.RTS, HUNTBGIN.RTL).",
+  notesEs: "Rise of the Triad: Dark War (Apogee Software, 1994) para Android (port de código). Necesita tu propia copia del juego.",
+};

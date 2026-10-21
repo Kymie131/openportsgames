@@ -20,7 +20,7 @@ export const odamexPort: Port = {
   license: { spdx: "GPL-2.0" },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   features: [
     "Client-server multiplayer",
     "High dynamic range lighting",

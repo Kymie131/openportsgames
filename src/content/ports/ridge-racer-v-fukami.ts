@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ridgeRacerVFukami: Port = {
+  schema: "port",
+  id: "ridge-racer-v-fukami",
+  title: "Fukami (Ridge Racer V)",
+  game: "Ridge Racer V",
+  developers: ["danisandoval"],
+  publisher: "Namco",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "stable",
+  release: { version: "1.1.0", date: "2026-10-14" },
+  sources: ["https://github.com/danisandoval/fukami"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-21",
+  originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/1b/RidgeRacerVCover.jpg",
+    alt: "Ridge Racer V (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Static recompilation of Ridge Racer V (PS2) with ultrawide resolutions and low input latency. No game files are distributed.",
+  notesEs: "Recompilación estática de Ridge Racer V (PS2) con resoluciones ultrapanorámicas y baja latencia de entrada. No distribuye archivos del juego.",
+};

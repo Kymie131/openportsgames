@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const zeldaIi2pSplitscreenAndroid: Port = {
+  schema: "port",
+  id: "zelda-ii-2p-splitscreen-android",
+  title: "Zelda II 2P Splitscreen — Android",
+  game: "Zelda II: The Adventure of Link",
+  developers: ["doctormajid7-ux"],
+  publisher: "Nintendo",
+  originalYear: 1987,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/doctormajid7-ux/z2rs-android-2p-splitscreen"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo Entertainment System"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+    alt: "Zelda II: The Adventure of Link (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Zelda II: The Adventure of Link (Nintendo, 1987) for Android (source port). Latest release: v0.1.0-android. Needs your own copy of the game.",
+  notesEs: "Zelda II: The Adventure of Link (Nintendo, 1987) para Android (port de código). Última release: v0.1.0-android. Necesita tu propia copia del juego.",
+};

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const switchWakerHd: Port = {
+  schema: "port",
+  id: "switch-waker-hd",
+  title: "Wind Waker HD (Nintendo Switch)",
+  game: "The Legend of Zelda: The Wind Waker HD",
+  developers: ["centollOS"],
+  publisher: "Nintendo",
+  originalYear: 2013,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/centollOS/SwitchWakerHD"],
+  license: { spdx: "MPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Wii U"],
+  related: ["wind-waker-hd-recomp","wind-waker-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
+    alt: "The Legend of Zelda: The Wind Waker HD (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Wind Waker HD (Wii U, 2013) statically recompiled for Nintendo Switch homebrew with a deko3d renderer. Requires your own game dump. Latest release: v0.4.7.",
+  notesEs: "Wind Waker HD (Wii U, 2013) recompilado estáticamente para homebrew de Nintendo Switch con un render deko3d. Requiere tu propio volcado del juego. Última release: v0.4.7.",
+};

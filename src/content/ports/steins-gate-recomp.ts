@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const steinsGateRecomp: Port = {
+  schema: "port",
+  id: "steins-gate-recomp",
+  title: "Steins;Gate (PC)",
+  game: "Steins;Gate",
+  developers: ["ThePlayer14"],
+  publisher: "5pb.",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ThePlayer14/project-gate-recomp"],
+  license: { spdx: "Unlicense" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  related: ["project-eleven-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e4/Steins%3BGate_cover_art.jpg",
+    alt: "Steins;Gate (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Steins;Gate Xbox 360 recompilation for PC using ReXGlue, a follow-up to project-eleven sharing the same codebase. Latest tag: windows.",
+  notesEs: "Recompilación para PC de Steins;Gate de Xbox 360 usando ReXGlue, continuación de project-eleven con el mismo código base. Último tag: windows.",
+};

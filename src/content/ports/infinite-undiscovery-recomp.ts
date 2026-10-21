@@ -18,7 +18,7 @@ export const infiniteUndiscoveryRecomp: Port = {
   sources: ["https://github.com/doc-haz/infinite-undiscovery-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Recompilation of Infinite Undiscovery (Xbox 360) to a native Windows executable. It does not include the game.",
   notesEs:

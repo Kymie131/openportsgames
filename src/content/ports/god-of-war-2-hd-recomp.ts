@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const godOfWar2HdRecomp: Port = {
+  schema: "port",
+  id: "god-of-war-2-hd-recomp",
+  title: "God of War II HD (macOS)",
+  game: "God of War II HD",
+  developers: ["andrebrumdev"],
+  publisher: "Sony Interactive Entertainment",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/andrebrumdev/gow2-recomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 3"],
+  notes: "God of War II HD (PlayStation 3, 2009) as a native port for macos via static recompilation, not an emulator. It ships no game code or data: bring your own copy. Latest release: kit-macos-20260930.",
+  notesEs: "God of War II HD (PlayStation 3, 2009) como port nativo para macos mediante recompilación estática, no un emulador. No incluye código ni datos del juego: aporta tu propia copia. Última release: kit-macos-20260930.",
+};

@@ -17,6 +17,20 @@ export const platformKeys = [
   "ps2",
   "ps3",
   "ps4",
+  "ps5",
+  "ps1",
+  "xbox",
+  "xbox360",
+  "nes",
+  "snes",
+  "n64",
+  "gb",
+  "gbc",
+  "gba",
+  "genesis",
+  "saturn",
+  "dreamcast",
+  "arcade",
 ] as const;
 export type PlatformKey = (typeof platformKeys)[number];
 export const portTypes = [
@@ -29,6 +43,14 @@ export const portTypes = [
 export const portStatuses = ["stable", "beta", "alpha", "takedown"] as const;
 export const portKinds = ["game", "system", "tool"] as const;
 export type PortKind = (typeof portKinds)[number];
+/**
+ * What the entry is, from the point of view of the console it belongs to:
+ * a `port` (native port, recompilation or decompilation of an existing game,
+ * the default), `homebrew` (a game written for the console) or `plugin`
+ * (a utility or plugin that extends the console, e.g. a PSP PRX).
+ */
+export const portCategories = ["port", "homebrew", "plugin"] as const;
+export type PortCategory = (typeof portCategories)[number];
 export const genres = [
   "platformer",
   "action-adventure",
@@ -62,6 +84,7 @@ const normalPort = z.object({
   schema: z.literal("port"),
   id: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, "id must be a lowercase kebab slug"),
   kind: z.enum(portKinds).default("game"),
+  category: z.enum(portCategories).optional(),
   title: z.string().min(3).max(80),
   game: z.string().min(2).max(80),
   developers: z.array(z.string().min(2).max(40)).min(1).max(6),
@@ -87,12 +110,18 @@ const normalPort = z.object({
   }),
   verified: z.boolean(),
   verifiedAt: isoDate.optional(),
+  /** Date the entry was added to this catalog (not the game's release date). */
+  addedAt: isoDate.optional(),
   /** Work in progress: the project is still being decompiled/built and there is no playable release yet. */
   wip: z.boolean().optional(),
   noOriginalGameRequired: z.boolean().optional(),
   notes: z.string().max(1000).optional(),
   notesEs: z.string().max(1000).optional(),
-  originalSystem: z.string().min(2).max(80).optional(),
+  originalSystems: z.array(z.string().min(2).max(80)).optional(),
+  /** Ids of related ports (variants of the same game, e.g. PC and Android builds). */
+  related: z.array(z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/)).max(20).optional(),
+  /** Region of the original release this port targets, when regional variants exist. */
+  region: z.string().min(2).max(40).optional(),
   features: z.array(z.string().min(3).max(120)).max(20).optional(),
   featuresEs: z.array(z.string().min(3).max(120)).max(20).optional(),
   aiDisclosure: z
@@ -104,6 +133,8 @@ const normalPort = z.object({
   sourceVerified: z.boolean().optional(),
   sourceIsIndex: z.boolean().optional(),
   sourceDead: z.boolean().optional(),
+  /** Excludes the detail page from search indexes. Easy to drop per entry. */
+  noindex: z.boolean().optional(),
   warning: z.string().min(3).max(400).optional(),
   warningEs: z.string().min(3).max(400).optional(),
   installGuide: z
@@ -203,6 +234,8 @@ export type Port = {
    * concrete value; use `portKind()` instead of reading it directly.
    */
   kind?: PortKind;
+  /** `port` (default), `homebrew` or `plugin`; see `portCategory()`. */
+  category?: PortCategory;
   title: string;
   game: string;
   developers: string[];
@@ -221,18 +254,25 @@ export type Port = {
   license: { spdx: string; note?: string };
   verified: boolean;
   verifiedAt?: string;
+  /** Date the entry was added to this catalog (not the game's release date). */
+  addedAt?: string;
   /** Work in progress: still being decompiled/built, no playable download yet. */
   wip?: boolean;
   noOriginalGameRequired?: boolean;
   notes?: string;
   notesEs?: string;
-  originalSystem?: string;
+  originalSystems?: string[];
+  /** Ids of related ports (variants of the same game). */
+  related?: string[];
+  /** Region of the original release this port targets, when regional variants exist. */
+  region?: string;
   features?: string[];
   featuresEs?: string[];
   aiDisclosure?: { source: string; quote: string };
   sourceVerified?: boolean;
   sourceIsIndex?: boolean;
   sourceDead?: boolean;
+  noindex?: boolean;
   warning?: string;
   warningEs?: string;
   installGuide?: {
@@ -265,4 +305,9 @@ export type TestRecord = z.infer<typeof testRecordSchema>;
 /** Resolves a port's kind, applying the schema's `game` default. */
 export function portKind(port: Pick<Port, "kind">): PortKind {
   return port.kind ?? "game";
+}
+
+/** Resolves what the entry is for its console, applying the `port` default. */
+export function portCategory(port: Pick<Port, "category">): PortCategory {
+  return port.category ?? "port";
 }

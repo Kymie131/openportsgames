@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superMario64DsDecomp: Port = {
+  schema: "port",
+  id: "super-mario-64-ds-decomp",
+  title: "Super Mario 64 DS Decompilation",
+  game: "Super Mario 64 DS",
+  developers: ["tangosdev"],
+  publisher: "Nintendo",
+  originalYear: 2004,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/tangosdev/sm64ds-decomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo DS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/12/Super_Mario_64_DS_Coverart.png",
+    alt: "Super Mario 64 DS (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "From-scratch, byte-matching decompilation of Super Mario 64 DS (Nintendo DS, 2004) into C/C++, with a live progress atlas and matching tools. The repository has no ROM or Nintendo assets; a PC port is distributed separately.",
+  notesEs: "Decompilación desde cero, byte-matching, de Super Mario 64 DS (Nintendo DS, 2004) a C/C++, con atlas de progreso y herramientas de matching. El repositorio no incluye ROM ni assets de Nintendo; el port a PC se distribuye aparte.",
+};

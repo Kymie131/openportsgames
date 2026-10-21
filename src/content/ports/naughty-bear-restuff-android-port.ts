@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const naughtyBearRestuffAndroidPort: Port = {
+  schema: "port",
+  id: "naughty-bear-restuff-android-port",
+  title: "Naughty Bear Restuff Android Port",
+  game: "Naughty Bear",
+  developers: ["deivid22srk"],
+  publisher: "505 Games",
+  originalYear: 2009,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/deivid22srk/naughtybear-restuff-android"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0f/Naughty_Bear.jpg",
+    alt: "Naughty Bear (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Naughty Bear (505 Games, 2009) for Android (source port). Latest release: v1.1.0. Needs your own copy of the game (Naughty Bear Gold Edition ISO).",
+  notesEs: "Naughty Bear (505 Games, 2009) para Android (port de código). Última release: v1.1.0. Necesita tu propia copia del juego.",
+};

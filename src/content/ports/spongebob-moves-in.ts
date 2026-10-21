@@ -19,7 +19,7 @@ export const SpongebobMovesIn: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "A decompilation of the Android client of SpongeBob Moves In!.",
   notesEs: "Una decompilación del cliente de Android de SpongeBob Moves In!",
 };

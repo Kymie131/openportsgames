@@ -19,7 +19,7 @@ export const UndertaleYellow: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "A Decompilation of UnderTale Yellow v1.2.1.",
   notesEs: "Una decompilación de UnderTale Yellow v1.2.1.",
 };

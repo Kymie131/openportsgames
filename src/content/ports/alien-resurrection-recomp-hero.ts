@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const alienResurrectionRecompHero: Port = {
+  schema: "port",
+  id: "alien-resurrection-recomp-hero",
+  title: "Alien Resurrection Recomp (Heromachine)",
+  game: "Alien Resurrection",
+  developers: ["Heromachine"],
+  publisher: "Fox Interactive",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Heromachine/AlienResurrection-Recompilation"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  related: ["alien-resurrection-recomp"],
+  notes: "Static recompilation of Alien Resurrection (PlayStation, 2000) for Windows. Bring your own disc. Latest release: v0.3.0.",
+  notesEs: "Recompilación estática de Alien Resurrection (PlayStation, 2000) para Windows. Aporta tu propio disco. Última release: v0.3.0.",
+};

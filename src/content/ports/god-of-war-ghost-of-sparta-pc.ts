@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const godOfWarGhostOfSpartaPc: Port = {
+  schema: "port",
+  id: "god-of-war-ghost-of-sparta-pc",
+  title: "God of War: Ghost of Sparta (PC)",
+  game: "God of War: Ghost of Sparta",
+  developers: ["arnaldolima1"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2010,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["macos", "windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/arnaldolima1/gow-ghost-of-sparta-pc"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-21",
+  originalSystems: ["PlayStation Portable"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/26/GOW_Ghost_of_Sparta_boxart.jpg",
+    alt: "God of War: Ghost of Sparta (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Native PC port of God of War: Ghost of Sparta (PSP) by static recompilation, built on PortableKit with Vulkan. macOS is the first target. Requires your own copy of the game.",
+  notesEs: "Port nativo para PC de God of War: Ghost of Sparta (PSP) mediante recompilación estática, construido sobre PortableKit con Vulkan. macOS es el primer objetivo. Requiere tu propia copia del juego.",
+};

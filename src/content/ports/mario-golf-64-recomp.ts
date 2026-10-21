@@ -19,7 +19,7 @@ export const marioGolf64Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Static recompilation of Mario Golf (Nintendo 64) for Windows. It needs your own copy of the game.",
   notesEs:

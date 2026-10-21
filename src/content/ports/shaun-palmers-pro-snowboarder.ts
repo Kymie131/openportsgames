@@ -19,7 +19,7 @@ export const ShaunPalmersProSnowboarder: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/0c/Shaun_Palmer%27s_Pro_Snowboarder.jpg",
     alt: "Shaun Palmer's Pro Snowboarder (box art)",

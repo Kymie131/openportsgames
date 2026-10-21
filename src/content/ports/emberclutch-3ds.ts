@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const emberclutch3ds: Port = {
+  schema: "port",
+  id: "emberclutch-3ds",
+  title: "Emberclutch (3DS)",
+  game: "Emberclutch",
+  developers: ["RedLynx101"],
+  publisher: "Homebrew",
+  originalYear: 2026,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/RedLynx101/emberclutch"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Emberclutch (Homebrew, 2026) running on Nintendo 3DS through source port. Latest release: v1.0.2. You need your own copy of the game.",
+  notesEs: "Emberclutch (Homebrew, 2026) en Nintendo 3DS mediante port de código. Última release: v1.0.2. Necesitas tu propia copia del juego.",
+};

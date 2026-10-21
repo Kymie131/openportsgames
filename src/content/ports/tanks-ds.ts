@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tanksDs: Port = {
+  schema: "port",
+  id: "tanks-ds",
+  title: "Tanks! (DS)",
+  game: "Wii Play: Tanks!",
+  developers: ["CamdynR"],
+  publisher: "Nintendo",
+  originalYear: 2006,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ds"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/CamdynR/Nintendo-DS-Tanks-Game"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Wii"],
+  notes: "Wii Play: Tanks! (Nintendo, 2006) running on Nintendo DS through source port. You need your own copy of the game.",
+  notesEs: "Wii Play: Tanks! (Nintendo, 2006) en Nintendo DS mediante port de código. Necesitas tu propia copia del juego.",
+};

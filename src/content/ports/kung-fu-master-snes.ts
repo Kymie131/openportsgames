@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const kungFuMasterSnes: Port = {
+  schema: "port",
+  id: "kung-fu-master-snes",
+  title: "Kung Fu Master (SNES)",
+  game: "Kung Fu Master",
+  developers: ["AntiheroSoftware"],
+  publisher: "Irem",
+  originalYear: 1984,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["snes"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/AntiheroSoftware/sfc-Kung-Fu-Master"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Arcade"],
+  notes: "Kung Fu Master (Irem, 1984) running on snes through source port. You need your own copy of the game.",
+  notesEs: "Kung Fu Master (Irem, 1984) en snes mediante port de código. Necesitas tu propia copia del juego.",
+};

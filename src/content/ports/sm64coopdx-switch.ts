@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sm64coopdxSwitch: Port = {
+  schema: "port",
+  id: "sm64coopdx-switch",
+  title: "sm64coopdx (Switch)",
+  game: "Super Mario 64",
+  developers: ["ArcheSV"],
+  publisher: "Nintendo",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ArcheSV/sm64coopdx-switch"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
+    alt: "Super Mario 64 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Super Mario 64 (Nintendo, 1996) running on Nintendo Switch through source port. You need your own copy of the game.",
+  notesEs: "Super Mario 64 (Nintendo, 1996) en Nintendo Switch mediante port de código. Necesitas tu propia copia del juego.",
+};

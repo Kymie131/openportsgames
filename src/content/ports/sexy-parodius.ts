@@ -19,12 +19,13 @@ export const SexyParodius: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/09/Sexy_Parodius.jpg",
     alt: "Sexy Parodius (box art)",
     credit: "Wikipedia",
   },
   notes: "Owned-input Windows x86-64 PSXRecomp project for Sexy Parodius (Japan, SLPM-86009).",
-  notesEs: "Proyecto PSXRecomp para Windows x86-64 con entrada propia de Sexy Parodius (Japón, SLPM-86009).",
+  notesEs:
+    "Proyecto PSXRecomp para Windows x86-64 con entrada propia de Sexy Parodius (Japón, SLPM-86009).",
 };

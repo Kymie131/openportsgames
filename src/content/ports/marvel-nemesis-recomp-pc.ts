@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const marvelNemesisRecompPc: Port = {
+  schema: "port",
+  id: "marvel-nemesis-recomp-pc",
+  title: "Marvel Nemesis Recomp",
+  game: "Marvel Nemesis: Rise of the Imperfects",
+  developers: ["15Cyber"],
+  publisher: "Electronic Arts",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/15Cyber/marvel-nemesis-recomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-21",
+  originalSystems: ["Xbox"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/19/Marvel_Nemesis.jpg",
+    alt: "Marvel Nemesis: Rise of the Imperfects (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Alpha static recompilation of Marvel Nemesis: Rise of the Imperfects, with graphics options, native PC settings and local Versus. Source-only; bring your own game.",
+  notesEs: "Recompilación estática en alpha de Marvel Nemesis: Rise of the Imperfects, con opciones gráficas, ajustes nativos de PC y Versus local. Solo código; aporta tu propia copia del juego.",
+};

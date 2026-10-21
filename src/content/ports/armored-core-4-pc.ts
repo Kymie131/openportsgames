@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const armoredCore4Pc: Port = {
+  schema: "port",
+  id: "armored-core-4-pc",
+  title: "Armored Core 4 (PC)",
+  game: "Armored Core 4",
+  developers: ["SulphurS16"],
+  publisher: "FromSoftware",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/SulphurS16/AC4-Port"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 3"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/69/Armored_Core_4.jpg",
+    alt: "Armored Core 4 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Armored Core 4 (FromSoftware, 2006) running on Windows through static recompilation. Latest release: v0.5.0. You need your own copy of the game.",
+  notesEs: "Armored Core 4 (FromSoftware, 2006) en Windows mediante recompilación estática. Última release: v0.5.0. Necesitas tu propia copia del juego.",
+};

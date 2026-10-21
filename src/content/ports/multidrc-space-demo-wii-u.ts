@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const multidrcSpaceDemoWiiU: Port = {
+  schema: "port",
+  id: "multidrc-space-demo-wii-u",
+  title: "MultiDRC Space Demo (Wii U)",
+  game: "MultiDRC Space Demo",
+  developers: ["GaryOderNichts"],
+  publisher: "Homebrew",
+  originalYear: 2022,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["wiiu"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/GaryOderNichts/MultiDRCSpaceDemo"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "MultiDRC Space Demo (Homebrew, 2022) running on Wii U through source port. Latest release: v0.1. You need your own copy of the game.",
+  notesEs: "MultiDRC Space Demo (Homebrew, 2022) en Wii U mediante port de código. Última release: v0.1. Necesitas tu propia copia del juego.",
+};

@@ -19,7 +19,9 @@ export const IdleOfficeTycoon: Port = {
   license: { spdx: "Unlicense" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
-  notes: "A repository detailing my decompilation and disassembly process of the reverse engineering of the iOS game Idle Office Tycoon.",
-  notesEs: "Repositorio que detalla mi proceso de decompilación y desensamblado del juego de iOS Idle Office Tycoon.",
+  originalSystems: ["Unknown"],
+  notes:
+    "A repository detailing my decompilation and disassembly process of the reverse engineering of the iOS game Idle Office Tycoon.",
+  notesEs:
+    "Repositorio que detalla mi proceso de decompilación y desensamblado del juego de iOS Idle Office Tycoon.",
 };

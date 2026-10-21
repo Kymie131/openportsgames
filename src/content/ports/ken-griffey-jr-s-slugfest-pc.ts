@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const kenGriffeyJrSSlugfestPc: Port = {
+  schema: "port",
+  id: "ken-griffey-jr-s-slugfest-pc",
+  title: "Ken Griffey Jr.'s Slugfest (PC)",
+  game: "Ken Griffey Jr.'s Slugfest",
+  developers: ["CalenCyr"],
+  publisher: "Nintendo",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/CalenCyr/SlugfestRecompiled"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/71/Ken_Griffey_Jr.%27s_Slugfest_cover.png",
+    alt: "Ken Griffey Jr.'s Slugfest (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Ken Griffey Jr.'s Slugfest (Nintendo, 1999) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Ken Griffey Jr.'s Slugfest (Nintendo, 1999) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

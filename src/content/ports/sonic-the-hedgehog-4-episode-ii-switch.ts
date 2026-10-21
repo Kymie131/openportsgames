@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sonicTheHedgehog4EpisodeIiSwitch: Port = {
+  schema: "port",
+  id: "sonic-the-hedgehog-4-episode-ii-switch",
+  title: "Sonic the Hedgehog 4: Episode II (Switch)",
+  game: "Sonic the Hedgehog 4: Episode II",
+  developers: ["boraeskicioglu"],
+  publisher: "Sonic Team",
+  originalYear: 2012,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/boraeskicioglu/s4ep2-nx"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/1f/S4E2_Boxart.png",
+    alt: "Sonic the Hedgehog 4: Episode II (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Sonic the Hedgehog 4: Episode II (Sonic Team, 2012) running on Nintendo Switch through source port. Latest release: s4ep2_nx-0.2. You need your own copy of the game.",
+  notesEs: "Sonic the Hedgehog 4: Episode II (Sonic Team, 2012) en Nintendo Switch mediante port de código. Última release: s4ep2_nx-0.2. Necesitas tu propia copia del juego.",
+};

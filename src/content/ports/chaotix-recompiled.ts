@@ -18,7 +18,7 @@ export const chaotixRecompiled: Port = {
   sources: ["https://github.com/YuutaTsubasa/ChaotixRecompiled"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "Sega 32X",
+  originalSystems: ["Sega 32X"],
   notes:
     "Static recompilation of Knuckles' Chaotix (Sega 32X) to native C++, with true widescreen. It builds for Windows, Linux, macOS and Android and requires your own ROM.",
   notesEs:

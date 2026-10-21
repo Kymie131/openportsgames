@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const linksAwakeningDxPortable: Port = {
+  schema: "port",
+  id: "links-awakening-dx-portable",
+  title: "Link's Awakening DX (multi-platform port)",
+  game: "The Legend of Zelda: Link's Awakening DX",
+  developers: ["sp00nznet"],
+  publisher: "Nintendo",
+  originalYear: 1998,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps3","ps4","3ds","wii"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sp00nznet/linksawakening-portable"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Game Boy Color"],
+  related: ["links-awakening-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5c/The_Legend_of_Zelda_-_Link%27s_Awakening_DX_box_art.png",
+    alt: "The Legend of Zelda: Link's Awakening DX (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Legend of Zelda: Link's Awakening DX statically recompiled to native C and ported to PlayStation 4, PlayStation 3, Nintendo 3DS and Wii, each with its own backend. No ROM included.",
+  notesEs: "The Legend of Zelda: Link's Awakening DX recompilado estáticamente a C nativo y portado a PlayStation 4, PlayStation 3, Nintendo 3DS y Wii, cada uno con su propio backend. No incluye la ROM.",
+};

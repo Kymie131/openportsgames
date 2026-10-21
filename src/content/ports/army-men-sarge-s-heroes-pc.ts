@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const armyMenSargeSHeroesPc: Port = {
+  schema: "port",
+  id: "army-men-sarge-s-heroes-pc",
+  title: "Army Men: Sarge's Heroes (PC)",
+  game: "Army Men: Sarge's Heroes",
+  developers: ["RangerXT"],
+  publisher: "3DO",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/RangerXT/Army-Men-Sarges-Heroes-64-Recompiled"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/75/Army_Men_Sarge%E2%80%99s_Heroes_Cover.jpg",
+    alt: "Army Men: Sarge's Heroes (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Army Men: Sarge's Heroes (3DO, 1999) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Army Men: Sarge's Heroes (3DO, 1999) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

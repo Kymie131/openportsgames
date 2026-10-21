@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pikmin2Decomp: Port = {
+  schema: "port",
+  id: "pikmin-2-decomp",
+  title: "Pikmin 2 Decompilation",
+  game: "Pikmin 2",
+  developers: ["projectPiki"],
+  publisher: "Nintendo",
+  originalYear: 2004,
+  portType: "decompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/projectPiki/pikmin2"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  related: ["new-play-control-pikmin-2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/38/Pikmin_2_Case.jpg",
+    alt: "Pikmin 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "A decompilation of Pikmin 2 (USA, GameCube). Separate project from the Pikmin 2 entries already in the catalog.",
+  notesEs: "Decompilación de Pikmin 2 (USA, GameCube). Proyecto distinto de las fichas de Pikmin 2 ya presentes.",
+};

@@ -20,7 +20,7 @@ export const doukutsuRs: Port = {
   license: { spdx: "MIT" },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   features: ["Cross-platform desktop builds", "Android build", "Multiple unofficial translations"],
   featuresEs: [
     "Builds de escritorio multiplataforma",

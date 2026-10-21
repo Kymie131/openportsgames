@@ -19,7 +19,9 @@ export const Vf1Recomp: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
-  notes: "Virtua Fighter (Sega Model 1, 1993) statically recompiled for Mac, Windows and Steam Deck: up to 6x, widescreen, smooth 120 fps. Bring your own vf.zip.",
-  notesEs: "Virtua Fighter (Sega Model 1, 1993) recompilado estáticamente para Mac, Windows y Steam Deck: hasta 6x, panorámico y 120 fps suaves. Aporta tu propio vf.zip.",
+  originalSystems: ["Unknown"],
+  notes:
+    "Virtua Fighter (Sega Model 1, 1993) statically recompiled for Mac, Windows and Steam Deck: up to 6x, widescreen, smooth 120 fps. Bring your own vf.zip.",
+  notesEs:
+    "Virtua Fighter (Sega Model 1, 1993) recompilado estáticamente para Mac, Windows y Steam Deck: hasta 6x, panorámico y 120 fps suaves. Aporta tu propio vf.zip.",
 };

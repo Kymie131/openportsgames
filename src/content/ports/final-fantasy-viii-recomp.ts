@@ -18,7 +18,7 @@ export const finalFantasyViiiRecomp: Port = {
   sources: ["https://github.com/alexbeavs-ps1-ports/final-fantasy-viii-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Recompilation of Final Fantasy VIII (PS1, USA SLUS-00892) with PSXRecomp and the recomp-ui launcher. It needs your own disc and a European SCPH-5502/5552 BIOS; the wizard generates and compiles the game on your machine. Published as release candidate 0.1.0, with gameplay acceptance still pending.",
   notesEs:

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const svr2011Recomp: Port = {
+  schema: "port",
+  id: "svr2011-recomp",
+  title: "WWE SmackDown vs. Raw 2011 (ReXGlue)",
+  game: "WWE SmackDown vs. Raw 2011",
+  developers: ["shaneomac1337"],
+  publisher: "THQ",
+  originalYear: 2010,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/shaneomac1337/SVR2011-Recomp"],
+  license: { spdx: "BSD-3-Clause" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  related: ["wwe-smackdown-vs-raw-2011-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/79/Wwe_svr_11_cover_art.jpg",
+    alt: "WWE SmackDown vs. Raw 2011 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Unofficial Windows version of WWE SmackDown vs. Raw 2011 (Xbox 360) recompiled with ReXGlue: the game code runs as a normal Windows program instead of an emulator. Bring your own disc image. Latest release: v0.5.0.",
+  notesEs: "Versión no oficial para Windows de WWE SmackDown vs. Raw 2011 (Xbox 360) recompilada con ReXGlue: el código del juego se ejecuta como un programa normal de Windows en lugar de en un emulador. Aporta tu propia imagen de disco. Última release: v0.5.0.",
+};

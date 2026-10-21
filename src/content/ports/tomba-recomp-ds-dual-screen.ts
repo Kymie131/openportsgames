@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tombaRecompDsDualScreen: Port = {
+  schema: "port",
+  id: "tomba-recomp-ds-dual-screen",
+  title: "Tomba Recomp DS (Dual Screen)",
+  game: "Tomba! 2: The Evil Swine Return",
+  developers: ["igawa6"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/igawa6/Tomba2RecompDS"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/ff/Tomba%21_2_-_The_Evil_Swine_Return_Coverart.png",
+    alt: "Tomba! 2: The Evil Swine Return (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Tomba! 2: The Evil Swine Return (Sony Computer Entertainment, 1999) for Android (static recompilation). Latest release: v0.1.0. Needs your own copy of the game.",
+  notesEs: "Tomba! 2: The Evil Swine Return (Sony Computer Entertainment, 1999) para Android (recompilación estática). Última release: v0.1.0. Necesita tu propia copia del juego.",
+};

@@ -19,7 +19,7 @@ export const StarWarsEpisode1Racer: Port = {
   license: { spdx: "AGPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Star Wars Episode 1 Racer Decompilation project.",
   notesEs: "Proyecto de decompilación de Star Wars Episode I: Racer.",
 };

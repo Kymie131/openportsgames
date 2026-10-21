@@ -19,7 +19,7 @@ export const TheOregonTrailWindows95: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "WIP Decompilation of The Oregon Trail for Windows 95.",
   notesEs: "Decompilación de The Oregon Trail para Windows 95, en desarrollo.",
 };

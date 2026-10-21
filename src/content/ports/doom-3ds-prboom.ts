@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const doom3dsPrboom: Port = {
+  schema: "port",
+  id: "doom-3ds-prboom",
+  title: "Doom (3DS, PrBoom+)",
+  game: "Doom",
+  developers: ["Damnerz"],
+  publisher: "id Software",
+  originalYear: 1993,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Damnerz/PrBOOMplus-ENHANCED-3ds"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["MS-DOS"],
+  notes: "Doom (id Software, 1993) running on Nintendo 3DS through source port. You need your own copy of the game.",
+  notesEs: "Doom (id Software, 1993) en Nintendo 3DS mediante port de código. Necesitas tu propia copia del juego.",
+};

@@ -19,7 +19,9 @@ export const SimpsonsWrestlingRecompiled: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation",
-  notes: "The Simpsons Wrestling (PS1, USA) recompiled for Windows and Linux with psxrecomp and the TRG Launcher: 16:9, HD, 60 FPS, skip intro, everything unlocked. Bring your own disc.",
-  notesEs: "The Simpsons Wrestling (PS1, USA) recompilado para Windows y Linux con psxrecomp y el lanzador TRG: 16:9, HD, 60 FPS, intro omitida y todo desbloqueado.",
+  originalSystems: ["PlayStation"],
+  notes:
+    "The Simpsons Wrestling (PS1, USA) recompiled for Windows and Linux with psxrecomp and the TRG Launcher: 16:9, HD, 60 FPS, skip intro, everything unlocked. Bring your own disc.",
+  notesEs:
+    "The Simpsons Wrestling (PS1, USA) recompilado para Windows y Linux con psxrecomp y el lanzador TRG: 16:9, HD, 60 FPS, intro omitida y todo desbloqueado.",
 };

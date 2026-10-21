@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const needForSpeedUnderground2Gamecube: Port = {
+  schema: "port",
+  id: "need-for-speed-underground-2-gamecube",
+  title: "Need for Speed: Underground 2 (GameCube)",
+  game: "Need for Speed: Underground 2",
+  developers: ["cobanov"],
+  publisher: "EA Black Box",
+  originalYear: 2004,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/cobanov/nfsu2-decomp"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/10/Nfsu2-win-cover.jpg",
+    alt: "Need for Speed: Underground 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Need for Speed: Underground 2 (EA Black Box, 2004) running on Windows through decompilation. You need your own copy of the game.",
+  notesEs: "Need for Speed: Underground 2 (EA Black Box, 2004) en Windows mediante decompilación. Necesitas tu propia copia del juego.",
+};

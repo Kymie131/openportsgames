@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ocarinaOfTimePcRayTraced: Port = {
+  schema: "port",
+  id: "ocarina-of-time-pc-ray-traced",
+  title: "Ocarina of Time (PC, ray traced)",
+  game: "The Legend of Zelda: Ocarina of Time",
+  developers: ["JonB-Dev"],
+  publisher: "Nintendo",
+  originalYear: 1998,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/JonB-Dev/oot-recompiled"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
+    alt: "The Legend of Zelda: Ocarina of Time (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Legend of Zelda: Ocarina of Time (Nintendo, 1998) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "The Legend of Zelda: Ocarina of Time (Nintendo, 1998) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

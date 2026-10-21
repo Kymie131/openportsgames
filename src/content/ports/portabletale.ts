@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const portabletale: Port = {
+  schema: "port",
+  id: "portabletale",
+  title: "PortableTale (Undertale, PSP)",
+  game: "Undertale",
+  developers: ["Volterith"],
+  publisher: "Toby Fox",
+  originalYear: 2015,
+  portType: "reimplementation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Volterith/PortableTale"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/391540/header.jpg",
+    alt: "Undertale (cover art)",
+    credit: "Steam",
+  },
+  notes: "PortableTale is a recreation of Undertale for the PSP written in Lua on top of LuaPlayerPlus. Work in progress: the intro is nearly done while the battle engine is still pending. It ships as a source EBOOT.PBP.",
+  notesEs: "PortableTale es una recreación de Undertale para PSP escrita en Lua sobre LuaPlayerPlus. En desarrollo: la intro está casi terminada pero el motor de combate sigue pendiente. Se distribuye como EBOOT.PBP de código.",
+};

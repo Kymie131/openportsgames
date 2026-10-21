@@ -18,7 +18,7 @@ export const fearAndHungerAndroid: Port = {
   sources: ["https://github.com/Chokage/Fear-And-Hunger-Android-Application"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Android version of Fear & Hunger that runs the game without an emulator. It is a community port distributed as an app and needs a copy of the game.",
   notesEs:

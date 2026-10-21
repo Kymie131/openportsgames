@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pokemonReloadedEnAndroid: Port = {
+  schema: "port",
+  id: "pokemon-reloaded-en-android",
+  title: "Pokémon Reloaded en Android",
+  game: "Pokemon Reloaded",
+  developers: ["Klisee"],
+  publisher: "Klisee",
+  originalYear: 2020,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Klisee/pokemon-reloaded-android"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Pokemon Reloaded (Klisee, 2020) for Android (source port). Latest release: v0.3.1. Needs your own copy of the game.",
+  notesEs: "Pokemon Reloaded (Klisee, 2020) para Android (port de código). Última release: v0.3.1. Necesita tu propia copia del juego.",
+};

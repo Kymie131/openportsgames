@@ -16,11 +16,11 @@ export const CostumeQuest: Port = {
   status: "alpha",
   release: { version: null, date: null },
   sources: ["https://github.com/Costume-Quest-Modding/CostumeQuest-Decomp"],
-  license: { spdx: "Apache-2.0" },
+  license: { spdx: "BSD-2-Clause" },
   verified: false,
   wip: true,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/de/Costume-quest-cover.jpg",
     alt: "Costume Quest (box art)",

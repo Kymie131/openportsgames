@@ -19,7 +19,7 @@ export const KinectSports: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/ae/Kinect_Sports.jpg",
     alt: "Kinect Sports (box art)",

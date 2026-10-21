@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const timesplittersFuturePerfectRecomp: Port = {
+  schema: "port",
+  id: "timesplitters-future-perfect-recomp",
+  title: "TimeSplitters: Future Perfect (PC)",
+  game: "TimeSplitters: Future Perfect",
+  developers: ["NeilSeligmann"],
+  publisher: "Electronic Arts",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/NeilSeligmann/tsfp-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox"],
+  related: ["timesplitters-2-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/48/TimeSplitters_-_Future_Perfect_cover.jpg",
+    alt: "TimeSplitters: Future Perfect (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Static recompilation of the original Xbox build of TimeSplitters: Future Perfect (2005) into C, with a native host layer for kernel, XDK, D3D8/NV2A rendering on Vulkan, audio and input. Experimental; no release yet.",
+  notesEs: "Recompilación estática de la versión de Xbox original de TimeSplitters: Future Perfect (2005) a C, con una capa nativa de host para kernel, XDK, render D3D8/NV2A sobre Vulkan, audio y entrada. Experimental; sin release todavía.",
+};

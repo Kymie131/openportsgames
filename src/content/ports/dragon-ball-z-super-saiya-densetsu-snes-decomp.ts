@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const dragonBallZSuperSaiyaDensetsuSnesDecomp: Port = {
+  schema: "port",
+  id: "dragon-ball-z-super-saiya-densetsu-snes-decomp",
+  title: "Dragon Ball Z: Super Saiya Densetsu SNES Decomp",
+  game: "Dragon Ball Z: Super Saiya Densetsu",
+  developers: ["JackRushante"],
+  publisher: "Bandai",
+  originalYear: 1992,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/JackRushante/DBZ-Super-Saiya-Densetsu-Rust"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Dragon Ball Z: Super Saiya Densetsu (Bandai, 1992) for Android (decompilation). Needs your own copy of the game.",
+  notesEs: "Dragon Ball Z: Super Saiya Densetsu (Bandai, 1992) para Android (decompilación). Necesita tu propia copia del juego.",
+};

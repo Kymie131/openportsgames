@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const donkeyKong64Switch: Port = {
+  schema: "port",
+  id: "donkey-kong-64-switch",
+  title: "Donkey Kong 64 (Switch)",
+  game: "Donkey Kong 64",
+  developers: ["Trinalord777"],
+  publisher: "Rare",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Trinalord777/DK64Recomp-NX"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/ae/DonkeyKong64CoverArt.jpg",
+    alt: "Donkey Kong 64 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Donkey Kong 64 (Rare, 1999) running on Nintendo Switch through static recompilation. Latest release: v1.1.2. You need your own copy of the game.",
+  notesEs: "Donkey Kong 64 (Rare, 1999) en Nintendo Switch mediante recompilación estática. Última release: v1.1.2. Necesitas tu propia copia del juego.",
+};

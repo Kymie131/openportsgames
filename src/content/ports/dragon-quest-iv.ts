@@ -19,7 +19,7 @@ export const DragonQuestIv: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo DS",
+  originalSystems: ["Nintendo DS"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/db/Dragon_Quest_IV_cover.jpg",
     alt: "Dragon Quest IV (cover)",

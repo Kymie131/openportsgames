@@ -17,7 +17,7 @@ export const islePortable: Port = {
   sources: ["https://github.com/isledecomp/isle-portable"],
   license: { spdx: "LGPL-3.0" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   features: ["Cross-platform desktop builds", "Android build", "SDL2 backends"],
   featuresEs: ["Builds de escritorio multiplataforma", "Build para Android", "Backends SDL2"],
   notes:

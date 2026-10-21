@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pinballNxSwitch: Port = {
+  schema: "port",
+  id: "pinball-nx-switch",
+  title: "Pinball NX (Switch)",
+  game: "Pinball NX",
+  developers: ["minkcv"],
+  publisher: "Homebrew",
+  originalYear: 2021,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/minkcv/pinballnx"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Pinball NX (Homebrew, 2021) running on Nintendo Switch through source port. Latest release: 1.0. You need your own copy of the game.",
+  notesEs: "Pinball NX (Homebrew, 2021) en Nintendo Switch mediante port de código. Última release: 1.0. Necesitas tu propia copia del juego.",
+};

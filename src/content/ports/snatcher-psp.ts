@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const snatcherPsp: Port = {
+  schema: "port",
+  id: "snatcher-psp",
+  title: "Snatcher (PSP)",
+  game: "Snatcher",
+  developers: ["slimhagrid"],
+  publisher: "Konami",
+  originalYear: 1994,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/slimhagrid/Snatcher-PSP"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Sega CD / Mega-CD"],
+  notes: "Snatcher (Konami, 1994) running on PlayStation Portable through source port. You need your own copy of the game.",
+  notesEs: "Snatcher (Konami, 1994) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
+};

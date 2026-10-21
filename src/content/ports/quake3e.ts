@@ -19,7 +19,7 @@ export const Quake3e: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Improved Quake III Arena engine.",
   notesEs: "Motor mejorado de Quake III Arena.",
 };

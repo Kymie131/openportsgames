@@ -18,7 +18,7 @@ export const tekken3Recomp: Port = {
   sources: ["https://github.com/fabioap-cpu/Tekken3Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Static recompilation of Tekken 3 (PS1, USA) with PSXRecomp. Playable with memory-card saving and HD scaling; it ships a custom CDDA engine patch that removes the music stutters and shows the game's real internal FPS in the title bar.",
   notesEs:

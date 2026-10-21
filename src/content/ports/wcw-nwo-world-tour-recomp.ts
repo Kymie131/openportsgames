@@ -18,7 +18,7 @@ export const wcwNwoWorldTourRecomp: Port = {
   sources: ["https://github.com/jessetbh/WCWvsNWOWorldTourRecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Static recompilation of WCW vs. nWo World Tour (N64) with N64Recomp and the RT64 renderer. It requires the game itself.",
   notesEs:

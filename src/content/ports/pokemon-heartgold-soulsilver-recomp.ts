@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pokemonHeartgoldSoulsilverRecomp: Port = {
+  schema: "port",
+  id: "pokemon-heartgold-soulsilver-recomp",
+  title: "Pokémon HeartGold & SoulSilver Recomp",
+  game: "Pokémon HeartGold and SoulSilver",
+  developers: ["ClickingMaster"],
+  publisher: "Nintendo",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "stable",
+  release: { version: "0.4.2", date: "2026-10-18" },
+  sources: ["https://github.com/ClickingMaster/ssrecomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-21",
+  originalSystems: ["Nintendo DS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/cb/PokemonHGSSBox.jpg",
+    alt: "Pokémon HeartGold and SoulSilver (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Native Windows recompilation of Pokémon HeartGold and SoulSilver with a single-screen interface. Requires your own dump of the Nintendo DS games.",
+  notesEs: "Recompilación nativa para Windows de Pokémon HeartGold y SoulSilver con interfaz de pantalla única. Requiere tu propio volcado de los juegos de Nintendo DS.",
+};

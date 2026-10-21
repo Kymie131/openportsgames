@@ -7,7 +7,9 @@ import {
   availableSystems,
   buildIndex,
   catalogStateToParams,
+  foldSearch,
   hasActiveFilters,
+  normalizeQuery,
   parseCatalogState,
   SCOPED_PLATFORMS,
   type CatalogState,
@@ -55,7 +57,9 @@ describe("applyCatalog", () => {
   });
 
   it("scopes the platform filter to the current view", () => {
-    const androidPorts = ports.filter((port) => port.platforms.includes("android"));
+    const androidPorts = ports.filter(
+      (port) => portKind(port) === "game" && port.platforms.includes("android"),
+    );
     const { results } = applyCatalog(ports, index, state({}), "android");
     expect(results.length).toBe(androidPorts.length);
     for (const port of results) {
@@ -136,12 +140,12 @@ describe("applyCatalog", () => {
   });
 
   it("filters by original system label", () => {
-    const systems: Record<string, string> = { sm64ex: "Nintendo 64" };
+    const systems: Record<string, string[]> = { sm64ex: ["Nintendo 64"] };
     const { results } = applyCatalog(ports, index, state({ system: ["Nintendo 64"] }), "all", {
       originalSystems: systems,
     });
     for (const port of results) {
-      expect(systems[port.id] ?? "").toBe("Nintendo 64");
+      expect((systems[port.id] ?? []).includes("Nintendo 64")).toBe(true);
     }
   });
 
@@ -188,10 +192,10 @@ describe("applyCatalog", () => {
   });
 
   it("lists unique original systems alphabetically", () => {
-    const systems: Record<string, string> = {
-      sm64ex: "Nintendo 64",
-      "ship-of-harkinian": "Nintendo 64",
-      openmw: "Personal computer",
+    const systems: Record<string, string[]> = {
+      sm64ex: ["Nintendo 64"],
+      "ship-of-harkinian": ["Nintendo 64"],
+      openmw: ["Personal computer"],
     };
     expect(availableSystems(ports, systems)).toEqual(["Nintendo 64", "Personal computer"]);
   });
@@ -251,5 +255,41 @@ describe("filter helpers", () => {
     expect(activeFilterCount(state({ status: ["beta", "alpha"], platform: ["windows"] }))).toBe(3);
     expect(activeFilterCount(state({ sort: "relevance" }))).toBe(0);
     expect(activeFilterCount(state({ sort: "stars" }))).toBe(1);
+  });
+});
+
+describe("search", () => {
+  const SEARCHED_FIELDS = ["title", "id", "game", "developers", "publisher", "genre", "portType"];
+  const haystack = (port: (typeof ports)[number]) =>
+    foldSearch(SEARCHED_FIELDS.map((field) => String((port as Record<string, unknown>)[field] ?? "")).join(" "));
+  const run = (query: string) => applyCatalog(ports, index, state({ query })).results;
+
+  it("requires every term (AND) for a multi-word game name", () => {
+    const results = run("god of war");
+    expect(results.length).toBeGreaterThan(0);
+    for (const port of results) {
+      expect(haystack(port)).toContain("god");
+      expect(haystack(port)).toContain("war");
+    }
+  });
+
+  it("finds a game by prefix while typing", () => {
+    const results = run("zelda");
+    expect(results.length).toBeGreaterThan(0);
+    for (const port of results) expect(haystack(port)).toContain("zelda");
+  });
+
+  it("finds a port by its own name", () => {
+    expect(run("ship of harkinian").some((port) => port.id === "ship-of-harkinian")).toBe(true);
+  });
+
+  it("ignores stopwords, which never narrow a search on their own", () => {
+    expect(normalizeQuery("of the and")).toBe("");
+    expect(run("of the and").length).toBe(run("").length);
+  });
+
+  it("is accent-insensitive", () => {
+    expect(foldSearch("Pokémon")).toBe("pokemon");
+    expect(normalizeQuery("Pokémon")).toBe("pokemon");
   });
 });

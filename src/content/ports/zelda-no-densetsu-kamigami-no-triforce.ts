@@ -19,7 +19,7 @@ export const ZeldaNoDensetsuKamigamiNoTriforce: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg",
     alt: "Zelda no Densetsu: Kamigami no Triforce (box art)",

@@ -18,7 +18,7 @@ export const freedroidClassic: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   noOriginalGameRequired: true,
-  originalSystem: "Commodore 64",
+  originalSystems: ["Commodore 64"],
   notes:
     "Free software remake of the 1985 Commodore 64 classic Paradroid. Built from source with autotools and SDL2; Linux is the documented target platform.",
   notesEs:

@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const katawaShoujoGba: Port = {
+  schema: "port",
+  id: "katawa-shoujo-gba",
+  title: "Katawa Shoujo (GBA)",
+  game: "Katawa Shoujo",
+  developers: ["neparij"],
+  publisher: "Four Leaf Studios",
+  originalYear: 2012,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["gba"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/neparij/katawa-shoujo-agb"],
+  license: { spdx: "MPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/3068300/header.jpg",
+    alt: "Katawa Shoujo (cover art)",
+    credit: "Steam",
+  },
+  notes: "Katawa Shoujo (Four Leaf Studios, 2012) running on gba through source port. Latest release: v0.4.11-workflow. You need your own copy of the game.",
+  notesEs: "Katawa Shoujo (Four Leaf Studios, 2012) en gba mediante port de código. Última release: v0.4.11-workflow. Necesitas tu propia copia del juego.",
+};

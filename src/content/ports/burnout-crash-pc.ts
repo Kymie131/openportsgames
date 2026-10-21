@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const burnoutCrashPc: Port = {
+  schema: "port",
+  id: "burnout-crash-pc",
+  title: "Burnout CRASH! (PC)",
+  game: "Burnout CRASH!",
+  developers: ["kiesxoxo"],
+  publisher: "Electronic Arts",
+  originalYear: 2011,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/kiesxoxo/burnout-crash-recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  notes: "Burnout CRASH! (Electronic Arts, 2011) running on Windows through static recompilation. Latest release: v0.1.1. You need your own copy of the game.",
+  notesEs: "Burnout CRASH! (Electronic Arts, 2011) en Windows mediante recompilación estática. Última release: v0.1.1. Necesitas tu propia copia del juego.",
+};

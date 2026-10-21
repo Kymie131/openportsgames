@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bikeRaceProPsVita: Port = {
+  schema: "port",
+  id: "bike-race-pro-ps-vita",
+  title: "Bike Race Pro (PS Vita)",
+  game: "Bike Race",
+  developers: ["franciscoclou"],
+  publisher: "Top Free Games",
+  originalYear: 2012,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/franciscoclou/bikerace-vita"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "Bike Race (Top Free Games, 2012) running on PlayStation Vita through source port. Latest release: v1.1. You need your own copy of the game.",
+  notesEs: "Bike Race (Top Free Games, 2012) en PlayStation Vita mediante port de código. Última release: v1.1. Necesitas tu propia copia del juego.",
+};

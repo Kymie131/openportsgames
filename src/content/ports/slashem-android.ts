@@ -18,7 +18,7 @@ export const slashemAndroid: Port = {
   sources: ["https://github.com/gurrhack/SlashEM-Android"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   notes:
     "Android port of SLASH'EM, the NetHack variant known for its expanded classes and items. It is a standalone build that does not need the original game.",
   notesEs:

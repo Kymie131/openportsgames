@@ -18,7 +18,7 @@ export const spaceCadetPinball: Port = {
   license: { spdx: "MIT" },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   features: [
     "Faithful recreation of the original physics and rules",
     "Cross-platform desktop builds",

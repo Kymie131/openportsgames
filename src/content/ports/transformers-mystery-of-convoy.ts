@@ -19,7 +19,12 @@ export const TransformersMysteryOfConvoy: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/fc/Transformers_Mystery_of_Comvoy_Famicom_box.png",
+    alt: "Transformers: Mystery Of Convoy (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Decompilation of Transformers: Mystery Of Convoy (Other).",
   notesEs: "Decompilación de Transformers: Mystery Of Convoy (Other).",
 };

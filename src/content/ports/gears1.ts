@@ -18,7 +18,7 @@ export const gears1: Port = {
   sources: ["https://github.com/SomeoneIsWorking/gears1"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Early PC-native port of Gears of War (Xbox 360) via static recompilation. The port code is public (MIT), but the game is proprietary: you must supply your own copy, and the project ships no game content. It is an alpha: it recompiles, but it does not run yet, as its own README states.",
   notesEs:

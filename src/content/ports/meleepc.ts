@@ -19,7 +19,9 @@ export const Meleepc: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
-  notes: "Native PC port of Super Smash Bros. Melee (NTSC-U 1.02), built from doldecomp/melee on aurora. No game data; bring your own disc.",
-  notesEs: "Port para PC nativo de Super Smash Bros. Melee (NTSC-U 1.02), hecho desde doldecomp/melee sobre aurora. Sin datos del juego: aporta tu propio disco.",
+  originalSystems: ["Unknown"],
+  notes:
+    "Native PC port of Super Smash Bros. Melee (NTSC-U 1.02), built from doldecomp/melee on aurora. No game data; bring your own disc.",
+  notesEs:
+    "Port para PC nativo de Super Smash Bros. Melee (NTSC-U 1.02), hecho desde doldecomp/melee sobre aurora. Sin datos del juego: aporta tu propio disco.",
 };

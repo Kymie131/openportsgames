@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const dusklightPs4: Port = {
+  schema: "port",
+  id: "dusklight-ps4",
+  title: "Dusklight (PS4)",
+  game: "The Legend of Zelda: Twilight Princess",
+  developers: ["BgbrhrWatchinOVO"],
+  publisher: "Nintendo",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps4"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/BgbrhrWatchinOVO/dusklight-ps4"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0e/The_Legend_of_Zelda_Twilight_Princess_Game_Cover.jpg",
+    alt: "The Legend of Zelda: Twilight Princess (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Legend of Zelda: Twilight Princess (Nintendo, 2006) running on PlayStation 4 through static recompilation. Latest release: Release. You need your own copy of the game.",
+  notesEs: "The Legend of Zelda: Twilight Princess (Nintendo, 2006) en PlayStation 4 mediante recompilación estática. Última release: Release. Necesitas tu propia copia del juego.",
+};

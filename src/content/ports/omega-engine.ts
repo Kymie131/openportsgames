@@ -19,7 +19,7 @@ export const OmegaEngine: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Modern OpenArena engine based on Quake3e.",
   notesEs: "Motor moderno de OpenArena basado en Quake3e.",
 };

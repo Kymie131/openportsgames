@@ -18,7 +18,7 @@ export const segaSuperstarsTennisRematch: Port = {
   sources: ["https://github.com/m1ndcrap/Sega-Superstars-Tennis-ReMatch"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Recompilation of Sega Superstars Tennis (Xbox 360) to native Windows via ReXGlue. You supply the game files.",
   notesEs:

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const luma3dsPluginLoaderScript3ds: Port = {
+  schema: "port",
+  id: "luma3ds-plugin-loader-script-3ds",
+  title: "Luma3DS Plugin Loader Script (3DS)",
+  game: "Nintendo 3DS",
+  developers: ["Lillievela"],
+  publisher: "Nintendo",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Lillievela/Luma3ds-plgldr-script"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Nintendo 3DS (Nintendo, 2011) running on Nintendo 3DS through source port. Latest release: 1.0. You need your own copy of the game.",
+  notesEs: "Nintendo 3DS (Nintendo, 2011) en Nintendo 3DS mediante port de código. Última release: 1.0. Necesitas tu propia copia del juego.",
+};

@@ -14,12 +14,13 @@ export const residentEvilCodeVeronicaDecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
+  wip: true,
   release: { version: null, date: null },
   sources: ["https://github.com/AshfordFamily/recvx-decomp"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Dreamcast",
+  originalSystems: ["Dreamcast"],
   notes:
     "Completed decompilation of Resident Evil: Code Veronica X. A research codebase; it requires game files from a copy you own.",
   notesEs:

@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superMarioWorldRemasteredPlusSwitch: Port = {
+  schema: "port",
+  id: "super-mario-world-remastered-plus-switch",
+  title: "Super Mario World Remastered Plus (Switch)",
+  game: "Super Mario World",
+  developers: ["delsonazevedo"],
+  publisher: "Nintendo",
+  originalYear: 1990,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/delsonazevedo/Super-Mario-World-Remastered-Plus-Switch"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Super Nintendo"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png",
+    alt: "Super Mario World (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Super Mario World (Nintendo, 1990) running on Nintendo Switch through source port. Latest release: 1.0.2. You need your own copy of the game.",
+  notesEs: "Super Mario World (Nintendo, 1990) en Nintendo Switch mediante port de código. Última release: 1.0.2. Necesitas tu propia copia del juego.",
+};

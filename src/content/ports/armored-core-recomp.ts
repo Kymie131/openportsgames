@@ -18,7 +18,7 @@ export const armoredCoreRecomp: Port = {
   sources: ["https://github.com/alexbeavs-ps1-ports/armored-core-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Recompilation of Armored Core (PS1, Europe SCES-00842) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

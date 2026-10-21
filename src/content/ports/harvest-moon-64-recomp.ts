@@ -18,7 +18,7 @@ export const harvestMoon64Recomp: Port = {
   discord: "https://discord.gg/AWZThJ4dPf",
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   features: ["Widescreen and ultrawide support", "Mod support", "Windows, Linux and macOS builds"],
   featuresEs: [
     "Soporte panorámico y ultrapanorámico",

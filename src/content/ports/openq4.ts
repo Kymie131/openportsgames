@@ -19,7 +19,7 @@ export const openq4: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Modern source port of Quake 4 based on the released id Tech 4 code. It needs your own copy of the game.",
   notesEs:

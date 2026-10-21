@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const burnout2Recompilation: Port = {
+  schema: "port",
+  id: "burnout-2-recompilation",
+  title: "Burnout 2: Point of Impact Recompiled",
+  game: "Burnout 2: Point of Impact",
+  developers: ["timftw21"],
+  publisher: "Acclaim Entertainment",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "stable",
+  release: { version: "1.7", date: "2026-10-19" },
+  sources: ["https://github.com/timftw21/burnout2-recompilation"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-21",
+  originalSystems: ["Xbox"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/2a/Burnout_2_-_Point_of_Impact.jpg",
+    alt: "Burnout 2: Point of Impact (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Static recompilation of Burnout 2: Point of Impact, including the Crash mode, running natively on Windows at 60 FPS. Requires your own game copy.",
+  notesEs: "Recompilación estática de Burnout 2: Point of Impact, incluido el modo Crash, corriendo de forma nativa en Windows a 60 FPS. Requiere tu propia copia del juego.",
+};

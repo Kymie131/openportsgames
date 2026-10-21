@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const granTurismo4Pc: Port = {
+  schema: "port",
+  id: "gran-turismo-4-pc",
+  title: "Gran Turismo 4 (PC)",
+  game: "Gran Turismo 4",
+  developers: ["gustavocanepa"],
+  publisher: "Polyphony Digital",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/gustavocanepa/gt4-native"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/06/Gran_Turismo_4.jpg",
+    alt: "Gran Turismo 4 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Gran Turismo 4 (Polyphony Digital, 2004) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Gran Turismo 4 (Polyphony Digital, 2004) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

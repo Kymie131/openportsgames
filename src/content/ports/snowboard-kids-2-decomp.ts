@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const snowboardKids2Decomp: Port = {
+  schema: "port",
+  id: "snowboard-kids-2-decomp",
+  title: "Snowboard Kids 2 Decompilation",
+  game: "Snowboard Kids 2",
+  developers: ["cdlewis"],
+  publisher: "Atlus",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/cdlewis/snowboardkids2-decomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  related: ["snowboard-kids-2-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/23/Snowboard_Kids_2_cover.jpg",
+    alt: "Snowboard Kids 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Snowboard Kids 2 (Nintendo 64, 1999). Work in progress; no playable release yet.",
+  notesEs: "Decompilación de Snowboard Kids 2 (Nintendo 64, 1999). En desarrollo; sin release jugable todavía.",
+};

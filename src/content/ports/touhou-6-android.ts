@@ -18,7 +18,7 @@ export const touhou6Android: Port = {
   sources: ["https://github.com/cardanawandra/th06"],
   license: { spdx: "CC0-1.0" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Android port based on the decompilation of Touhou 6: The Embodiment of Scarlet Devil (version 1.02h). It needs the original game files.",
   notesEs:

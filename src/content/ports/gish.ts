@@ -18,7 +18,7 @@ export const gish: Port = {
   sources: ["https://github.com/EXL/Gish"],
   license: { spdx: "GPL-2.0" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Android port of the physics platformer Gish, built on SDL2, OpenAL and GL4ES. It uses the game's released source and needs the original data files.",
   notesEs:

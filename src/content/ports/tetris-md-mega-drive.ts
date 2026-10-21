@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tetrisMdMegaDrive: Port = {
+  schema: "port",
+  id: "tetris-md-mega-drive",
+  title: "Tetris MD (Mega Drive)",
+  game: "Tetris",
+  developers: ["NeroJin"],
+  publisher: "Alexey Pajitnov",
+  originalYear: 2021,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["genesis"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/NeroJin/TetrisMD"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Tetris (Alexey Pajitnov, 2021) running on genesis through source port. Latest release: v1.0. You need your own copy of the game.",
+  notesEs: "Tetris (Alexey Pajitnov, 2021) en genesis mediante port de código. Última release: v1.0. Necesitas tu propia copia del juego.",
+};

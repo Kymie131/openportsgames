@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const openstrikePsp: Port = {
+  schema: "port",
+  id: "openstrike-psp",
+  title: "OpenStrike (PSP)",
+  game: "OpenStrike",
+  developers: ["pocket-nexus"],
+  publisher: "Pocket Nexus",
+  originalYear: 2025,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["psp"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/pocket-nexus/open-strike"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "OpenStrike (Pocket Nexus, 2025) running on PlayStation Portable through source port. You need your own copy of the game.",
+  notesEs: "OpenStrike (Pocket Nexus, 2025) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
+};

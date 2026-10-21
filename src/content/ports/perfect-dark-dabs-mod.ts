@@ -18,7 +18,7 @@ export const perfectDarkDabsMod: Port = {
   license: { spdx: "MIT" },
   verified: true,
   verifiedAt: "2026-09-22",
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   features: [
     "Jump, combat roll, melee combos and third-person camera",
     "Combat Simulator raised to 80 simulants",

@@ -18,7 +18,7 @@ export const freekingKingpin: Port = {
   sources: ["https://github.com/ernestbuffington/freeking"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Open-source reimplementation of the Kingpin: Life of Crime engine, intended to run with the retail game data. It builds for Windows, Linux and macOS.",
   notesEs:

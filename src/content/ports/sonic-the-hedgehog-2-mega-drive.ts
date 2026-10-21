@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sonicTheHedgehog2MegaDrive: Port = {
+  schema: "port",
+  id: "sonic-the-hedgehog-2-mega-drive",
+  title: "Sonic the Hedgehog 2 (Mega Drive)",
+  game: "Sonic the Hedgehog 2",
+  developers: ["mstan"],
+  publisher: "Sega",
+  originalYear: 1992,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["genesis"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/mstan/SonicTheHedgehog2Recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Sega Mega Drive / Genesis"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg",
+    alt: "Sonic the Hedgehog 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Sonic the Hedgehog 2 (Sega, 1992) running on genesis through static recompilation. Latest release: v0.8.3. You need your own copy of the game.",
+  notesEs: "Sonic the Hedgehog 2 (Sega, 1992) en genesis mediante recompilación estática. Última release: v0.8.3. Necesitas tu propia copia del juego.",
+};

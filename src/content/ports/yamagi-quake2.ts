@@ -31,4 +31,5 @@ export const yamagiQuake2: Port = {
     alt: "Quake II (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["Windows"],
 };

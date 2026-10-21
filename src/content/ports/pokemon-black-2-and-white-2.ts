@@ -19,7 +19,7 @@ export const PokemonBlack2AndWhite2: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/dd/Pokemon_White_2.png",
     alt: "Pokémon Black 2 and White 2 (box art)",

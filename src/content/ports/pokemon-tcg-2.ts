@@ -19,7 +19,7 @@ export const PokemonTcg2: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Disassembly of Pokémon TCG 2.",
   notesEs: "Desensamblado de Pokémon TCG 2.",
 };

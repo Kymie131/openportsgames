@@ -18,7 +18,7 @@ export const zeldaNesRecomp: Port = {
   sources: ["https://github.com/mstan/LegendOfZeldaNESRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
-  originalSystem: "Nintendo Entertainment System",
+  originalSystems: ["Nintendo Entertainment System"],
   notes:
     "Static recompilation of The Legend of Zelda (NES) with nesrecomp. It covers the overworld, dungeons, items and battery-backed saving.",
   notesEs:

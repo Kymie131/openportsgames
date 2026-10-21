@@ -19,7 +19,7 @@ export const Meridian59: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/f1/Meridian_59_cover.jpg",
     alt: "Meridian 59 (box art)",

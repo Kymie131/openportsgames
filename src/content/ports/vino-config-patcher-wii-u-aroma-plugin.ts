@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const vinoConfigPatcherWiiUAromaPlugin: Port = {
+  schema: "port",
+  id: "vino-config-patcher-wii-u-aroma-plugin",
+  title: "Vino Config Patcher (Wii U Aroma plugin)",
+  game: "Wii U",
+  developers: ["literally2084"],
+  publisher: "Nintendo",
+  originalYear: 2012,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["wiiu"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/literally2084/vino-config-patcher-plugin"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Wii U (Nintendo, 2012) running on Wii U through source port. Latest release: 1.1. You need your own copy of the game.",
+  notesEs: "Wii U (Nintendo, 2012) en Wii U mediante port de código. Última release: 1.1. Necesitas tu propia copia del juego.",
+};

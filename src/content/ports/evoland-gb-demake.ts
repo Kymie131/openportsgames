@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const evolandGbDemake: Port = {
+  schema: "port",
+  id: "evoland-gb-demake",
+  title: "Evoland GB (demake)",
+  game: "Evoland",
+  developers: ["flozz"],
+  publisher: "Shiro Games",
+  originalYear: 2019,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["gb"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/flozz/evoland.gb"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/233470/header.jpg",
+    alt: "Evoland (cover art)",
+    credit: "Steam",
+  },
+  notes: "Evoland (Shiro Games, 2019) running on gb through source port. You need your own copy of the game.",
+  notesEs: "Evoland (Shiro Games, 2019) en gb mediante port de código. Necesitas tu propia copia del juego.",
+};

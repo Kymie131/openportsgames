@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ctrcomposer3dsPluginFramework: Port = {
+  schema: "port",
+  id: "ctrcomposer-3ds-plugin-framework",
+  title: "CTRComposer (3DS plugin framework)",
+  game: "Nintendo 3DS",
+  developers: ["samaBR85"],
+  publisher: "Nintendo",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/samaBR85/CTRComposer"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Nintendo 3DS (Nintendo, 2011) running on Nintendo 3DS through source port. Latest release: v1.1.4. You need your own copy of the game.",
+  notesEs: "Nintendo 3DS (Nintendo, 2011) en Nintendo 3DS mediante port de código. Última release: v1.1.4. Necesitas tu propia copia del juego.",
+};

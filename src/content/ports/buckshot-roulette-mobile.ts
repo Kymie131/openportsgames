@@ -18,7 +18,7 @@ export const buckshotRouletteMobile: Port = {
   sources: ["https://github.com/officialmelon/Buckshot-Roulette-Mobile"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Mobile port of Buckshot Roulette for Android and iOS. It needs your own game data and is a community project.",
   notesEs:

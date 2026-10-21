@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gearsOfWar2Pc: Port = {
+  schema: "port",
+  id: "gears-of-war-2-pc",
+  title: "Gears of War 2 (PC)",
+  game: "Gears of War 2",
+  developers: ["santiquiroz"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/santiquiroz/gears-of-war-2-pc-port"],
+  license: { spdx: "BSD-3-Clause" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e0/Gears_of_War_2_Game_Cover.jpg",
+    alt: "Gears of War 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Gears of War 2 (Microsoft Game Studios, 2008) running on Windows through static recompilation. Latest release: v0.2.2. You need your own copy of the game.",
+  notesEs: "Gears of War 2 (Microsoft Game Studios, 2008) en Windows mediante recompilación estática. Última release: v0.2.2. Necesitas tu propia copia del juego.",
+};

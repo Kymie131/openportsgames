@@ -18,7 +18,7 @@ export const Spearmint: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Spearmint — an updated id Tech 3 engine for continuing the classics and creating new games.",
   notesEs: "Spearmint: un motor id Tech 3 actualizado para continuar los clásicos y crear juegos nuevos.",
 };

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const trogdorReburninatedWii: Port = {
+  schema: "port",
+  id: "trogdor-reburninated-wii",
+  title: "Trogdor Reburninated (Wii)",
+  game: "Trogdor",
+  developers: ["Mode8fx"],
+  publisher: "Homestar Runner",
+  originalYear: 2026,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["wii"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Mode8fx/Trogdor-Reburninated"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Trogdor (Homestar Runner, 2026) running on Wii through source port. Latest release: v2.4. You need your own copy of the game.",
+  notesEs: "Trogdor (Homestar Runner, 2026) en Wii mediante port de código. Última release: v2.4. Necesitas tu propia copia del juego.",
+};

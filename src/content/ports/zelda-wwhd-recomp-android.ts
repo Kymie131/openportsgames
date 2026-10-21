@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const zeldaWwhdRecompAndroid: Port = {
+  schema: "port",
+  id: "zelda-wwhd-recomp-android",
+  title: "ZeldaWWHDRecompAndroid (GreenNaugahyde)",
+  game: "The Legend of Zelda: The Wind Waker HD",
+  developers: ["GreenNaugahyde"],
+  publisher: "Nintendo",
+  originalYear: 2013,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/GreenNaugahyde/ZeldaWWHDRecompAndroid"],
+  license: { spdx: "MPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Wii U"],
+  related: ["zeldawwhdrecompandroid","wind-waker-hd-android-plus","switch-waker-hd"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
+    alt: "The Legend of Zelda: The Wind Waker HD (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Legend of Zelda: The Wind Waker HD (Wii U, 2013) recompiled for Android. Bring your own game. Latest release: v0.9.4.",
+  notesEs: "The Legend of Zelda: The Wind Waker HD (Wii U, 2013) recompilado para Android. Aporta tu propio juego. Última release: v0.9.4.",
+};

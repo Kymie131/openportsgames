@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const untitledSandGameWiiU: Port = {
+  schema: "port",
+  id: "untitled-sand-game-wii-u",
+  title: "Untitled Sand Game (Wii U)",
+  game: "Untitled Sand Game",
+  developers: ["Crementif"],
+  publisher: "Homebrew",
+  originalYear: 2025,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["wiiu"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Crementif/UntitledSandGame"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Untitled Sand Game (Homebrew, 2025) running on Wii U through source port. Latest release: 1.0. You need your own copy of the game.",
+  notesEs: "Untitled Sand Game (Homebrew, 2025) en Wii U mediante port de código. Última release: 1.0. Necesitas tu propia copia del juego.",
+};

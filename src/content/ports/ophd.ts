@@ -19,7 +19,7 @@ export const Ophd: Port = {
   license: { spdx: "BSD-3-Clause" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "OutpostHD - Open source remake of Sierra On-Line's Outpost.",
   notesEs: "OutpostHD: remake de código abierto de Outpost de Sierra On-Line.",
 };

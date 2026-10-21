@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const marioKartWii3ds: Port = {
+  schema: "port",
+  id: "mario-kart-wii-3ds",
+  title: "Mario Kart Wii (3DS)",
+  game: "Mario Kart Wii",
+  developers: ["MiniBandit"],
+  publisher: "Nintendo",
+  originalYear: 2008,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/MiniBandit/MKW-3DS"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Wii"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png",
+    alt: "Mario Kart Wii (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Mario Kart Wii (Nintendo, 2008) running on Nintendo 3DS through source port. Latest release: v0.5.2. You need your own copy of the game.",
+  notesEs: "Mario Kart Wii (Nintendo, 2008) en Nintendo 3DS mediante port de código. Última release: v0.5.2. Necesitas tu propia copia del juego.",
+};

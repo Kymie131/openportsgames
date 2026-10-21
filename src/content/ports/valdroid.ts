@@ -18,7 +18,7 @@ export const valdroid: Port = {
   sources: ["https://github.com/udarmolota/ValDroid"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Unofficial Android launcher for Valheim. It requires the desktop game files from your own copy.",
   notesEs:

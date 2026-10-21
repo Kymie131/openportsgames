@@ -19,7 +19,7 @@ export const OpenAnnihilation: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Open Source port of the Total Annihilation & TA: Kingdoms engines.",
   notesEs: "Port de código abierto de los motores de Total Annihilation y TA: Kingdoms.",
 };

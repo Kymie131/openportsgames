@@ -40,4 +40,5 @@ export const corsixth: Port = {
     alt: "Theme Hospital (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["MS-DOS"],
 };

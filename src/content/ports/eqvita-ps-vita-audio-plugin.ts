@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const eqvitaPsVitaAudioPlugin: Port = {
+  schema: "port",
+  id: "eqvita-ps-vita-audio-plugin",
+  title: "EQVita (PS Vita audio plugin)",
+  game: "PlayStation Vita",
+  developers: ["shev0k"],
+  publisher: "Sony",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/shev0k/EQVita"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "PlayStation Vita (Sony, 2011) running on PlayStation Vita through source port. Latest release: v1.14.0. You need your own copy of the game.",
+  notesEs: "PlayStation Vita (Sony, 2011) en PlayStation Vita mediante port de código. Última release: v1.14.0. Necesitas tu propia copia del juego.",
+};

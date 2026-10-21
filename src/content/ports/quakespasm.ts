@@ -18,7 +18,7 @@ export const quakeSpasm: Port = {
   website: "https://sourceforge.net/projects/quakespasm/",
   license: { spdx: "GPL-2.0" },
   verified: false,
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   features: ["SDL2 backends", "16-bit textures and sprites", "Quake expansion support"],
   featuresEs: ["Backends SDL2", "Texturas y sprites de 16 bits", "Soporte de expansiones de Quake"],
   notes:

@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jezzballWiiU: Port = {
+  schema: "port",
+  id: "jezzball-wii-u",
+  title: "JezzBall (Wii U)",
+  game: "JezzBall",
+  developers: ["raulbojalil"],
+  publisher: "Microsoft",
+  originalYear: 1992,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["wiiu"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/raulbojalil/jezzballu"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/72/Jezzdale0.png",
+    alt: "JezzBall (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "JezzBall (Microsoft, 1992) running on Wii U through source port. You need your own copy of the game.",
+  notesEs: "JezzBall (Microsoft, 1992) en Wii U mediante port de código. Necesitas tu propia copia del juego.",
+};

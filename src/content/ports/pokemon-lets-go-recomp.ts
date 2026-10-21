@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pokemonLetsGoRecomp: Port = {
+  schema: "port",
+  id: "pokemon-lets-go-recomp",
+  title: "Let's Go Recomp",
+  game: "Pokémon: Let's Go, Eevee!",
+  developers: ["raulzrrs"],
+  publisher: "The Pokémon Company",
+  originalYear: 2018,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/raulzrrs/letsgo-recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo Switch"],
+  notes: "Pokémon: Let's Go, Eevee! (Nintendo Switch, 2018) as a native port for windows via static recompilation, not an emulator. It ships no game code or data: bring your own copy. Latest release: v0.2.2.",
+  notesEs: "Pokémon: Let's Go, Eevee! (Nintendo Switch, 2018) como port nativo para windows mediante recompilación estática, no un emulador. No incluye código ni datos del juego: aporta tu propia copia. Última release: v0.2.2.",
+};

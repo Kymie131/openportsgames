@@ -1,5 +1,30 @@
 import type { Port } from "@/lib/ports/schema";
 import { sm64ex } from "./sm64ex";
+import { demonsSoulsPs5Pc } from "./demons-souls-ps5-pc";
+import { shaolinmonksrecompPc } from "./shaolinmonksrecomp-pc";
+import { fifaStreetPcPortPc } from "./fifa-street-pc-port-pc";
+import { gearsJudgmentRecomp } from "./gears-judgment-recomp";
+import { lostOdysseyHdRemaster } from "./lost-odyssey-hd-remaster";
+import { massEffectNx } from "./mass-effect-nx";
+import { defJamVendettaRecomp } from "./def-jam-vendetta-recomp";
+import { burnout2Recompilation } from "./burnout-2-recompilation";
+import { black2006Recomp } from "./black-2006-recomp";
+import { ridgeRacerVFukami } from "./ridge-racer-v-fukami";
+import { sonicCdDecompilation } from "./sonic-cd-decompilation";
+import { projectMidasPc } from "./project-midas-pc";
+import { medalOfHonorPsxRecompPc } from "./medal-of-honor-psx-recomp-pc";
+import { granTurismoSportRygtPc } from "./gran-turismo-sport-rygt-pc";
+import { finesthourremasteredPc } from "./finesthourremastered-pc";
+import { burnout3Takedawn } from "./burnout-3-takedawn";
+import { residentEvil3Revisited } from "./resident-evil-3-revisited";
+import { swrotsPcPc } from "./swrots-pc-pc";
+import { silentHill2Sh2Nx } from "./silent-hill-2-sh2-nx";
+import { skullburglarPc } from "./skullburglar-pc";
+import { laytonMansionMirrorPc } from "./layton-mansion-mirror-pc";
+import { marvelNemesisRecompPc } from "./marvel-nemesis-recomp-pc";
+import { pokemonHeartgoldSoulsilverRecomp } from "./pokemon-heartgold-soulsilver-recomp";
+import { bayonetta2Recomp } from "./bayonetta-2-recomp";
+import { godOfWarGhostOfSpartaPc } from "./god-of-war-ghost-of-sparta-pc";
 import { shipOfHarkinian } from "./ship-of-harkinian";
 import { twoShip } from "./2ship2harkinian";
 import { starRod } from "./star-rod";
@@ -213,6 +238,7 @@ import { wetRecomp } from "./wet-recomp";
 import { tooHumanRecomp } from "./too-human-recomp";
 import { spiderManEdgeOfTimeRecomp } from "./spider-man-edge-of-time-recomp";
 import { bloodbornePc } from "./bloodborne-pc";
+import { unchartedNathanDrakeCollectionPc } from "./uncharted-nathan-drake-collection-pc";
 import { ptPc } from "./pt-pc";
 import { silentHillPc } from "./silent-hill-pc";
 import { silentEngine } from "./silent-engine";
@@ -545,6 +571,13 @@ import { tf15Client } from "./tf15-client";
 import { baronyAndroid } from "./barony-android";
 import { godOfThunderAndroid } from "./god-of-thunder-android";
 import { pinballFantasiesAndroid } from "./pinball-fantasies-android";
+import { dinoTale } from "./dinotale";
+import { battlezoneRiseOfTheBlackDogsRecomp } from "./battlezone-rise-of-the-black-dogs-recomp";
+import { battletanxGlobalAssaultRecomp } from "./battletanx-global-assault-recomp";
+import { goldenSunAndroid } from "./golden-sun-android";
+import { descentAndroid } from "./descent-android";
+import { descent2Android } from "./descent-2-android";
+import { jillOfTheJungleAndroid } from "./jill-of-the-jungle-android";
 import { unciv } from "./unciv";
 import { srb2Android } from "./srb2-android";
 import { ringRacersAndroid } from "./ring-racers-android";
@@ -1184,6 +1217,738 @@ import { psyQDecomp } from "./psy-q-decomp";
 import { hagi } from "./hagi";
 import { ootGcDecomp } from "./oot-gc-decomp";
 import { awesomeOpenSourceGames } from "./awesome-open-source-games";
+import { superMarioGalaxyNebula } from "./super-mario-galaxy-nebula";
+import { superMarioGalaxyAndroid } from "./super-mario-galaxy-android";
+import { forzaHorizon2Android } from "./forza-horizon-2-android";
+import { nfsUnderground2Recompiled } from "./nfs-underground-2-recompiled";
+import { openTestDriveUnlimited } from "./open-test-drive-unlimited";
+import { virtuaFighter2Recomp } from "./virtua-fighter-2-recomp";
+import { callOfDutyMw2Android } from "./call-of-duty-mw2-android";
+import { goemon64RecompiledAndroid } from "./goemon-64-recompiled-android";
+import { defJamFightForNyRecomp } from "./def-jam-fight-for-ny-recomp";
+import { wweSmackdownVsRaw2011Recomp } from "./wwe-smackdown-vs-raw-2011-recomp";
+import { theDarknessEstacado } from "./the-darkness-estacado";
+import { marioKartWiiAndroid } from "./mario-kart-wii-android";
+import { ecstaticaRecompiled } from "./ecstatica-recompiled";
+import { spiderManEdgeOfTimeProject2099 } from "./spider-man-edge-of-time-project-2099";
+import { narutoStormGenerationsRecomp } from "./naruto-ultimate-ninja-storm-generations-recomp";
+import { narutoRiseOfANinjaRecomp } from "./naruto-rise-of-a-ninja-recomp";
+import { narutoTheBrokenBondRecomp } from "./naruto-the-broken-bond-recomp";
+import { narutoStormRevolutionRecomp } from "./naruto-ultimate-ninja-storm-revolution-recomp";
+import { narutoStorm2Recomp } from "./naruto-ultimate-ninja-storm-2-recomp";
+import { narutoStorm3FullBurstRecomp } from "./naruto-ultimate-ninja-storm-3-full-burst-recomp";
+import { godOfWar3Android } from "./god-of-war-3-android";
+import { dragonBallRagingBlast2Android } from "./dragon-ball-raging-blast-2-android";
+import { superMarioGalaxyIos } from "./super-mario-galaxy-ios";
+import { eternalDarknessRecomp } from "./eternal-darkness-recomp";
+import { godOfWar2HdRecomp } from "./god-of-war-2-hd-recomp";
+import { pokemonLetsGoRecomp } from "./pokemon-lets-go-recomp";
+import { redAlert2Recomp } from "./red-alert-2-recomp";
+import { ninjaGaidenBlackRecomp } from "./ninja-gaiden-black-recomp";
+import { wweAllStarsRecomp } from "./wwe-all-stars-recomp";
+import { tomodachiLtdRecomp } from "./tomodachi-ltd-recomp";
+import { unrealAndroid } from "./unreal-android";
+import { skate2PcRecomp } from "./skate-2-pc-recomp";
+import { colinMcRaeRally2Decomp } from "./colin-mcrae-rally-2-decomp";
+import { minecraftLceDecomp } from "./minecraft-lce-decomp";
+import { superMario64DsDecomp } from "./super-mario-64-ds-decomp";
+import { driveclubNative } from "./driveclub-native";
+import { finalFantasyTacticsAdvanceRecomp } from "./final-fantasy-tactics-advance-recomp";
+import { castlevaniaSotnDecomp } from "./castlevania-sotn-decomp";
+import { paperMarioDecomp } from "./paper-mario-decomp";
+import { pikmin2Decomp } from "./pikmin-2-decomp";
+import { forzaHorizonReimagined } from "./forza-horizon-reimagined";
+
+import { majorasMaskDecomp } from "./majoras-mask-decomp";
+import { silentHillDecomp } from "./silent-hill-decomp";
+import { metroidPrimeDecomp } from "./metroid-prime-decomp";
+import { slyCooperDecomp } from "./sly-cooper-decomp";
+import { nfsMostWantedDecomp } from "./nfs-most-wanted-decomp";
+import { snowboardKids2Decomp } from "./snowboard-kids-2-decomp";
+import { vibRibbonDecomp } from "./vib-ribbon-decomp";
+import { metroidZeroMissionDecomp } from "./metroid-zero-mission-decomp";
+import { silentHill3Decomp } from "./silent-hill-3-decomp";
+import { spiderMan2000Decomp } from "./spider-man-2000-decomp";
+import { bloodborneDecomp } from "./bloodborne-decomp";
+import { superMarioStrikersDecomp } from "./super-mario-strikers-decomp";
+import { superMarioStrikersRecomp } from "./super-mario-strikers-recomp";
+import { switchWakerHd } from "./switch-waker-hd";
+import { haloCeIphone } from "./halo-ce-iphone";
+import { goldeneye007XblaRecomp } from "./goldeneye-007-xbla-recomp";
+import { annepad } from "./annepad";
+import { ssxTrickyOpentricky } from "./ssx-tricky-opentricky";
+import { ssxTrickyXboxRecomp } from "./ssx-tricky-xbox-recomp";
+import { sonicAdventure2Recomp } from "./sonic-adventure-2-recomp";
+import { midnightClubLaIos } from "./midnight-club-la-ios";
+import { battleTanxRecomp } from "./battle-tanx-recomp";
+import { caesar2 } from "./caesar-2";
+import { doa3Re } from "./doa3-re";
+import { doomSnesRecomp } from "./doom-snes-recomp";
+import { midtownMadness3 } from "./midtown-madness-3";
+import { linksAwakeningDxPortable } from "./links-awakening-dx-portable";
+
+import { tekken3RecompHybrid } from "./tekken-3-recomp-hybrid";
+import { ridgeRacerPs1Decomp } from "./ridge-racer-ps1-decomp";
+import { theBrowsingOfIsaac } from "./the-browsing-of-isaac";
+import { nfsMostWantedBlackEditionRecomp } from "./nfs-most-wanted-black-edition-recomp";
+import { svr2011Recomp } from "./svr2011-recomp";
+import { fireEmblemSacredStonesRecomp } from "./fire-emblem-sacred-stones-recomp";
+import { haloReachRecomp } from "./halo-reach-recomp";
+import { stuntsHd } from "./stunts-hd";
+import { rogueSquadron64Recomp } from "./rogue-squadron-64-recomp";
+import { muscleMarchRecomp } from "./muscle-march-recomp";
+import { alabasterDawnAndroid } from "./alabaster-dawn-android";
+import { ffccEchoesOfTimeRecomp } from "./ffcc-echoes-of-time-recomp";
+import { godOfWarNativePort } from "./god-of-war-native-port";
+import { hydroThunderHurricaneRecomp } from "./hydro-thunder-hurricane-recomp";
+import { metalGearSolidPs1Recomp } from "./metal-gear-solid-ps1-recomp";
+import { pointBlankRecompiled } from "./point-blank-recompiled";
+import { aerobizSupersonicDisasm } from "./aerobiz-supersonic-disasm";
+import { jetMoto2Recomp } from "./jet-moto-2-recomp";
+import { residentEvilCodeVeronicaRecomp } from "./resident-evil-code-veronica-recomp";
+import { princeOfPersiaClassicPsvita } from "./prince-of-persia-classic-psvita";
+import { battletanxGlobalAssaultPcPort } from "./battletanx-global-assault-pc-port";
+
+import { _3on3NhlArcadeRecomp } from "./3on3-nhl-arcade-recomp";
+import { ben10OmniverseRecomp } from "./ben-10-omniverse-recomp";
+import { alleycatX8664Recomp } from "./alleycat-x86-64-recomp";
+import { aegisWingXblaRecomp } from "./aegis-wing-xbla-recomp";
+import { blakeStoneRecomp } from "./blake-stone-recomp";
+import { hybridHeavenRecomp } from "./hybrid-heaven-recomp";
+import { persona3FesRecompiled } from "./persona-3-fes-recompiled";
+import { wwe2k14Recomp } from "./wwe-2k14-recomp";
+import { timesplittersFuturePerfectRecomp } from "./timesplitters-future-perfect-recomp";
+import { projectElevenRecomp } from "./project-eleven-recomp";
+import { turokRageWarsRecomp } from "./turok-rage-wars-recomp";
+import { epicPinballRecomp } from "./epic-pinball-recomp";
+import { digimonWorld3Recomp } from "./digimon-world-3-recomp";
+import { steinsGateRecomp } from "./steins-gate-recomp";
+import { aceCombat5LinuxRecomp } from "./ace-combat-5-linux-recomp";
+import { abuseAndroid } from "./abuse-android";
+import { therapyWithDrAlbertKruegerAndroid } from "./therapy-with-dr-albert-krueger-android";
+import { elfenLiedFightingAndroid } from "./elfen-lied-fighting-android";
+
+import { isaacRebirthAndroid } from "./isaac-rebirth-android";
+import { isaacFlashRecomp } from "./isaac-flash-recomp";
+import { windWakerHdAndroidPlus } from "./wind-waker-hd-android-plus";
+
+import { psydoom } from "./psydoom";
+import { sm64plus } from "./sm64plus";
+import { sm64coopdx } from "./sm64coopdx";
+import { projectPicori } from "./project-picori";
+import { medievilRecompBlacklabel } from "./medievil-recomp-blacklabel";
+
+import { diddyKongRacingGoldenballoon } from "./diddy-kong-racing-goldenballoon";
+import { pilotwings64Birdman64 } from "./pilotwings-64-birdman64";
+import { bloodbornePcWindows } from "./bloodborne-pc-windows";
+import { bluewake } from "./bluewake";
+import { kartpad } from "./kartpad";
+import { maskpad } from "./maskpad";
+import { sunpad } from "./sunpad";
+import { ballpad } from "./ballpad";
+import { goldeneye007Recomp } from "./goldeneye-007-recomp";
+import { herculesRecompiled } from "./hercules-recompiled";
+import { jetSetRadioFutureUnleashed } from "./jet-set-radio-future-unleashed";
+import { mother3RecompAndroid } from "./mother-3-recomp-android";
+import { nfsMostWantedAndroid } from "./nfs-most-wanted-android";
+import { castlevaniaSotnRecompNocturne } from "./castlevania-sotn-recomp-nocturne";
+import { ridgeRacer6Recomp } from "./ridge-racer-6-recomp";
+import { budokaiTenkaichi3Pc } from "./budokai-tenkaichi-3-pc";
+import { valkyrieProfileRecompEd1z19 } from "./valkyrie-profile-recomp-ed1z19";
+import { wetRecompWindows } from "./wet-recomp-windows";
+import { blastCorpsPowerDozer } from "./blast-corps-power-dozer";
+import { jackieChanStuntmasterRechan } from "./jackie-chan-stuntmaster-rechan";
+import { castlevaniaLegacyOfDarknessRecomp } from "./castlevania-legacy-of-darkness-recomp";
+import { harvestMoon64Android } from "./harvest-moon-64-android";
+import { dk64RecompAndroid } from "./dk64-recomp-android";
+import { zelda3Android } from "./zelda3-android";
+import { systemShockAndroid } from "./system-shock-android";
+import { animalCrossingGcAndroid } from "./animal-crossing-gc-android";
+import { paperMarioRecut } from "./paper-mario-recut";
+import { smaRemasteredAndroid } from "./sma-remastered-android";
+import { tenchuStealthAssassinsRecompHero } from "./tenchu-stealth-assassins-recomp-hero";
+import { alienResurrectionRecompHero } from "./alien-resurrection-recomp-hero";
+import { metalSlugXRecompTechnically } from "./metal-slug-x-recomp-technically";
+
+import { castlevania64Recomp } from "./castlevania-64-recomp";
+
+import { endlessSkyAndroid } from "./endless-sky-android";
+import { projectR } from "./project-r";
+import { streetsOfRage2NewEra } from "./streets-of-rage-2-new-era";
+
+import { ctrNativeAndroid } from "./ctr-native-android";
+import { doomRpgRe } from "./doom-rpg-re";
+import { doomIiRpgRe } from "./doom-ii-rpg-re";
+import { marioParty4PcZeranemesis } from "./mario-party-4-pc-zeranemesis";
+import { partyboard } from "./partyboard";
+import { perfectDarkAndroid } from "./perfect-dark-android";
+import { raceWave46 } from "./race-wave-46";
+import { waveRace64Decomp } from "./wave-race-64-decomp";
+import { naughtyBearPanicInParadiseRecomp } from "./naughty-bear-panic-in-paradise-recomp";
+import { shipOfHarkinianAndroid } from "./ship-of-harkinian-android";
+import { strikersWiicompiled } from "./strikers-wiicompiled";
+import { castlevaniaSotnRecompSergiomanzur } from "./castlevania-sotn-recomp-sergiomanzur";
+import { minishCapAndroid } from "./minish-cap-android";
+import { waveRace64RecompDaniel } from "./wave-race-64-recomp-daniel";
+import { wipeoutXlRecompNjh } from "./wipeout-xl-recomp-njh";
+import { zelda64RecompAndroid } from "./zelda64-recomp-android";
+import { zeldaWwhdRecompAndroid } from "./zelda-wwhd-recomp-android";
+
+import { superMarioBrosRemasteredAndroid } from "./super-mario-bros-remastered-android";
+import { zeldaIi2pSplitscreenAndroid } from "./zelda-ii-2p-splitscreen-android";
+import { dragonBallZSuperSaiyaDensetsuSnesDecomp } from "./dragon-ball-z-super-saiya-densetsu-snes-decomp";
+import { zelda3launcher } from "./zelda3launcher";
+import { moonPearl } from "./moon-pearl";
+import { superMetroidDualScreen } from "./super-metroid-dual-screen";
+import { undeadNeighborEatersAndroidNativePort } from "./undead-neighbor-eaters-android-native-port";
+import { lighthouseAndroid } from "./lighthouse-android";
+import { cbfdRecompiledAndroidEvolved } from "./cbfd-recompiled-android-evolved";
+import { dora643 } from "./dora64-3";
+import { hybridHeavenRecompiled } from "./hybrid-heaven-recompiled";
+import { spaghettikartAndroid } from "./spaghettikart-android";
+import { megaman64RecompMobile } from "./megaman-64-recomp-mobile";
+import { paperboatAndroid } from "./paperboat-android";
+import { classicCoreEngines } from "./classic-core-engines";
+import { starshipAndroid } from "./starship-android";
+import { sm64coopdxAndroid } from "./sm64coopdx-android";
+import { ghostshipAndroid } from "./ghostship-android";
+import { shipwrightAndroidOutdated } from "./shipwright-android-outdated";
+import { shipwrightAndroid } from "./shipwright-android";
+import { _2Ship2HarkinianOutdated } from "./2-ship-2-harkinian-outdated";
+import { _2Ship2HarkinianAndroid } from "./2-ship-2-harkinian-android";
+import { _2Ship2Harkinian2s2h } from "./2-ship-2-harkinian-2s2h";
+import { waveRacer64RecompForAndroid } from "./wave-racer-64-recomp-for-android";
+import { oraclesrecomp } from "./oraclesrecomp";
+import { theOraclesProject } from "./the-oracles-project";
+import { fttaRecomp } from "./ftta-recomp";
+import { sma3RecompAndroid } from "./sma3-recomp-android";
+import { huntersRecompDualScreen } from "./hunters-recomp-dual-screen";
+import { zelda3dsAndroidTriaevum } from "./zelda-3ds-android-triaevum";
+import { superMarioBrosWonderRecomp } from "./super-mario-bros-wonder-recomp";
+import { ac3Decomp } from "./ac3-decomp";
+import { crtNativeDsDualScreen } from "./crt-native-ds-dual-screen";
+import { dw2003DualScreen } from "./dw-2003-dual-screen";
+import { doomPlaystationClassicCoreEngines } from "./doom-playstation-classic-core-engines";
+import { finalDoomPlaystationClassicCoreEngines } from "./final-doom-playstation-classic-core-engines";
+import { rechan } from "./rechan";
+import { kokororecomp } from "./kokororecomp";
+import { tekken3Expanded } from "./tekken-3-expanded";
+import { tombaRecompDsDualScreen } from "./tomba-recomp-ds-dual-screen";
+import { tenkaichi3decompAndroid } from "./tenkaichi3decomp-android";
+import { pTForAndroidDualScreen } from "./p-t-for-android-dual-screen";
+import { psprecompLibertyCityStories } from "./psprecomp-liberty-city-stories";
+import { psprecompViceCityStories } from "./psprecomp-vice-city-stories";
+import { pspRecompMsae } from "./psp-recomp-msae";
+import { deadOrAliveXtremeBeachVolleyballAndroid } from "./dead-or-alive-xtreme-beach-volleyball-android";
+import { halo1Decomp } from "./halo-1-decomp";
+import { halo1DecompFork } from "./halo-1-decomp-fork";
+import { halo1TouchControlFork } from "./halo-1-touch-control-fork";
+import { renutAndroid } from "./renut-android";
+import { dbzBurstLimitAndroid } from "./dbz-burst-limit-android";
+import { goldenEyeRecompDualScreen } from "./golden-eye-recomp-dual-screen";
+import { libertyrecompandroid } from "./libertyrecompandroid";
+import { mkvdcuAndroid } from "./mkvdcu-android";
+import { naughtyBearRestuffAndroidPort } from "./naughty-bear-restuff-android-port";
+import { recompiledSteel } from "./recompiled-steel";
+import { skate3Android } from "./skate-3-android";
+import { skate3Port } from "./skate-3-port";
+import { marathonRecompiled } from "./marathon-recompiled";
+import { unleashedRecomp } from "./unleashed-recomp";
+import { project8recomp } from "./project8recomp";
+import { _0ADParaAndroidArm64 } from "./0-a-d-para-android-arm64";
+import { lookingGlass } from "./looking-glass";
+import { augustus } from "./augustus";
+import { rotatingArtLauncher } from "./rotating-art-launcher";
+import { chexQuestClassicCoreEngines } from "./chex-quest-classic-core-engines";
+import { generalszhAndroidPort } from "./generalszh-android-port";
+import { descentMobile } from "./descent-mobile";
+import { descent2Mobile } from "./descent-2-mobile";
+import { doomClassicCoreEngines } from "./doom-classic-core-engines";
+import { doomIiClassicCoreEngines } from "./doom-ii-classic-core-engines";
+import { doom3BfgEditionClassicCoreEngines } from "./doom-3-bfg-edition-classic-core-engines";
+import { doom64RemasteredClassicCoreEngines } from "./doom-64-remastered-classic-core-engines";
+import { opennevada } from "./opennevada";
+import { freespace } from "./freespace";
+import { knossosnet } from "./knossosnet";
+import { galaxyOnFire2UnityRemake } from "./galaxy-on-fire-2-unity-remake";
+import { gdroid } from "./gdroid";
+import { re3AndroidEvolved } from "./re3-android-evolved";
+import { revcAndroidEvolved } from "./revc-android-evolved";
+import { hacxClassicCoreEngines } from "./hacx-classic-core-engines";
+import { openWheels } from "./open-wheels";
+import { hereticClassicCoreEngines } from "./heretic-classic-core-engines";
+import { hexenClassicCoreEngines } from "./hexen-classic-core-engines";
+import { hexenIiClassicCoreEngines } from "./hexen-ii-classic-core-engines";
+import { hexenIiPortalOfPraevusClassicCoreEngines } from "./hexen-ii-portal-of-praevus-classic-core-engines";
+import { silksongandroidDualScren } from "./silksongandroid-dual-scren";
+import { silksongandroidachievementsDualScreen } from "./silksongandroidachievements-dual-screen";
+import { infiniteBlade2Android } from "./infinite-blade-2-android";
+import { jazz2Ressurection } from "./jazz-2-ressurection";
+import { lookOutsideAndroid } from "./look-outside-android";
+import { zalithlauncher2 } from "./zalithlauncher2";
+import { foldCraftLauncher } from "./fold-craft-launcher";
+import { mojoLauncher } from "./mojo-launcher";
+import { pojavlauncher } from "./pojavlauncher";
+import { pvzPortable } from "./pvz-portable";
+import { pokemonReloadedEnAndroid } from "./pokemon-reloaded-en-android";
+import { showdownDsDualScreen } from "./showdown-ds-dual-screen";
+import { pokemonSurvivorBurstAndroid } from "./pokemon-survivor-burst-android";
+import { zomdroidEtonedemid } from "./zomdroid-etonedemid";
+import { zomdroidLiamelui } from "./zomdroid-liamelui";
+import { quakeClassicCoreEngines } from "./quake-classic-core-engines";
+import { quakeScourgeOfArmagonClassicCoreEngines } from "./quake-scourge-of-armagon-classic-core-engines";
+import { quakeDissolutionOfEternityClassicCoreEngines } from "./quake-dissolution-of-eternity-classic-core-engines";
+import { quakeIiClassicCoreEngines } from "./quake-ii-classic-core-engines";
+import { quakeIiiArenaClassicCoreEngines } from "./quake-iii-arena-classic-core-engines";
+import { openarenaClassicCoreEngines } from "./openarena-classic-core-engines";
+import { rott94 } from "./rott94";
+import { gzselacoAndroidDualScreen } from "./gzselaco-android-dual-screen";
+import { slaytheamethyst } from "./slaytheamethyst";
+import { sts2MobileLauncher } from "./sts2-mobile-launcher";
+import { sonic1Forever } from "./sonic-1-forever";
+import { sonicManiaDecompilationAndroid } from "./sonic-mania-decompilation-android";
+import { spaceStation14Mobile } from "./space-station-14-mobile";
+import { daggerfallUnityAndroid } from "./daggerfall-unity-android";
+import { corsixthAndroid } from "./corsixth-android";
+import { theSimpsonsHitAndRunAndroid } from "./the-simpsons-hit-and-run-android";
+import { titanicGodot30thAnniversaryEdition } from "./titanic-godot-30th-anniversary-edition";
+import { ufo50AndroidUnofficial } from "./ufo-50-android-unofficial";
+import { woodyre } from "./woodyre";
+import { wolfensteinRpgClassicCoreEngines } from "./wolfenstein-rpg-classic-core-engines";
+import { openXcomAndroid } from "./open-xcom-android";
+import { openborAndroid } from "./openbor-android";
+
+import { gtasaPsp } from "./gtasa-psp";
+import { spotify3ds } from "./spotify-3ds";
+
+
+import { perfectDarkPsp } from "./perfect-dark-psp";
+import { sonicCdPsp } from "./sonic-cd-psp";
+import { portabletale } from "./portabletale";
+import { jgrPortable } from "./jgr-portable";
+import { mk64Portable } from "./mk64-portable";
+import { helltakerPsp } from "./helltaker-psp";
+import { wordlePsp } from "./wordle-psp";
+import { touhou6Psp } from "./touhou-6-psp";
+import { touhou10Psp } from "./touhou-10-psp";
+import { persona4Psp } from "./persona-4-psp";
+import { tekken6Android } from "./tekken-6-android";
+import { streetFighterIii3rdStrikeXbox } from "./street-fighter-iii-3rd-strike-xbox";
+import { dragonBallZTenkaichiTagTeam } from "./dragon-ball-z-tenkaichi-tag-team";
+
+import { pspLatro } from "./psp-latro";
+
+
+import { gtaIiiPsp } from "./gta-iii-psp";
+
+import { minecraftStoryModePsp } from "./minecraft-story-mode-psp";
+import { pokemonPlatinumSoulsilverPsp } from "./pokemon-platinum-soulsilver-psp";
+import { godOfWarChainsOfOlympusPc } from "./god-of-war-chains-of-olympus-pc";
+import { touhou8Psp } from "./touhou-8-psp";
+import { touhou7Psp } from "./touhou-7-psp";
+import { touhou6PspJeongJimin } from "./touhou-6-psp-jeong-jimin";
+import { woodyWoodpeckerPsp } from "./woody-woodpecker-psp";
+import { doomRpgPsp } from "./doom-rpg-psp";
+import { bouncePsp } from "./bounce-psp";
+import { extremeTuxRacerPsp } from "./extreme-tux-racer-psp";
+import { _2048Psp } from "./2048-psp";
+import { hollowKnightPspHomebrew } from "./hollow-knight-psp-homebrew";
+import { kOnHoukagoLivePc } from "./k-on-houkago-live-pc";
+import { dokiDokiLiteratureClubPsVita } from "./doki-doki-literature-club-ps-vita";
+import { tonyHawkSUndergroundPsVita } from "./tony-hawk-s-underground-ps-vita";
+import { gtaLibertyCityStoriesPsVita } from "./gta-liberty-city-stories-ps-vita";
+import { _9mmHdPsVita } from "./9mm-hd-ps-vita";
+import { superMarioUnimakerPsVita } from "./super-mario-unimaker-ps-vita";
+import { sonicTimeTwistedPsVita } from "./sonic-time-twisted-ps-vita";
+import { untitledGooseGamePsVita } from "./untitled-goose-game-ps-vita";
+import { theImpossibleGamePsVita } from "./the-impossible-game-ps-vita";
+import { supertuxMilestone2VitaSwitchPs3 } from "./supertux-milestone-2-vita-switch-ps3";
+import { conkerSBadFurDayPsVita } from "./conker-s-bad-fur-day-ps-vita";
+import { minicraft3ds } from "./minicraft-3ds";
+import { minicraftDs } from "./minicraft-ds";
+import { deltarune3ds } from "./deltarune-3ds";
+import { osu3ds } from "./osu-3ds";
+import { starFox3ds } from "./star-fox-3ds";
+import { silentHill23ds } from "./silent-hill-2-3ds";
+import { papersPlease3ds } from "./papers-please-3ds";
+import { everlastingSummer3ds } from "./everlasting-summer-3ds";
+import { neonValley3ds } from "./neon-valley-3ds";
+import { blockBlast3ds } from "./block-blast-3ds";
+import { legoWorldBuilder3ds } from "./lego-world-builder-3ds";
+import { portalDs } from "./portal-ds";
+import { superSmashBrosDs } from "./super-smash-bros-ds";
+import { littleBigAdventureDs } from "./little-big-adventure-ds";
+import { tanksDs } from "./tanks-ds";
+import { balatroWiiU } from "./balatro-wii-u";
+import { fridayNightFunkinWii } from "./friday-night-funkin-wii";
+import { planetBlupiWiiU } from "./planet-blupi-wii-u";
+import { windWakerNintendoSwitch } from "./wind-waker-nintendo-switch";
+import { minishCapSwitchAlekSEdition } from "./minish-cap-switch-alek-s-edition";
+import { twilightPrincessSwitchAlekSEdition } from "./twilight-princess-switch-alek-s-edition";
+import { superMarioWorldRemasteredPlusSwitch } from "./super-mario-world-remastered-plus-switch";
+import { touhou7Switch } from "./touhou-7-switch";
+import { sonicTheFightersSwitch } from "./sonic-the-fighters-switch";
+import { supertuxSwitch } from "./supertux-switch";
+import { sm64coopdxSwitch } from "./sm64coopdx-switch";
+import { needForSpeedMostWanted2012Switch } from "./need-for-speed-most-wanted-2012-switch";
+import { skiesOfArcadiaLegendsPc } from "./skies-of-arcadia-legends-pc";
+import { seriousSamNextEncounterPc } from "./serious-sam-next-encounter-pc";
+import { deepSeaWindWaker60Fps } from "./deep-sea-wind-waker-60-fps";
+import { digimonWorld2003Pc } from "./digimon-world-2003-pc";
+import { wild9Pc } from "./wild-9-pc";
+import { crashBandicoot2Pc } from "./crash-bandicoot-2-pc";
+import { twistedMetal14Pc } from "./twisted-metal-1-4-pc";
+import { twistedMetal2012Pc } from "./twisted-metal-2012-pc";
+import { gtaIvIosIpados } from "./gta-iv-ios-ipados";
+import { armyOfTwoPc } from "./army-of-two-pc";
+import { blackPc } from "./black-pc";
+import { theLordOfTheRingsTheTwoTowersPc } from "./the-lord-of-the-rings-the-two-towers-pc";
+import { spiderManWebOfShadowsPc } from "./spider-man-web-of-shadows-pc";
+import { crackdownPc } from "./crackdown-pc";
+import { wweSmackdownVsRaw2010Pc } from "./wwe-smackdown-vs-raw-2010-pc";
+import { wweSmackdownVsRaw2009Pc } from "./wwe-smackdown-vs-raw-2009-pc";
+import { wweSmackdownVsRaw2008Pc } from "./wwe-smackdown-vs-raw-2008-pc";
+import { tekkenTagTournament2Pc } from "./tekken-tag-tournament-2-pc";
+import { topGearPc } from "./top-gear-pc";
+import { simcitySnesPc } from "./simcity-snes-pc";
+import { civilizationSnesPc } from "./civilization-snes-pc";
+import { rockNRollRacingPc } from "./rock-n-roll-racing-pc";
+import { sunsetRidersPc } from "./sunset-riders-pc";
+import { goGoAckmanPc } from "./go-go-ackman-pc";
+import { superTennisPc } from "./super-tennis-pc";
+import { strikeGunnerStgPc } from "./strike-gunner-stg-pc";
+import { bodyHarvestPc } from "./body-harvest-pc";
+import { sinPunishmentPc } from "./sin-punishment-pc";
+import { ocarinaOfTimePcRayTraced } from "./ocarina-of-time-pc-ray-traced";
+import { waveRace64PcChronic8000 } from "./wave-race-64-pc-chronic8000";
+import { kenGriffeyJrSSlugfestPc } from "./ken-griffey-jr-s-slugfest-pc";
+import { harvestMoon64PcAiTddLabs } from "./harvest-moon-64-pc-ai-tdd-labs";
+import { banjoKazooieAndroid8cee } from "./banjo-kazooie-android-8cee";
+import { rayman3PcGbaVersion } from "./rayman-3-pc-gba-version";
+import { superMario64Web } from "./super-mario-64-web";
+import { theLastStoryPc } from "./the-last-story-pc";
+import { skywardSwordPc } from "./skyward-sword-pc";
+import { monsterHunter3UltimatePc } from "./monster-hunter-3-ultimate-pc";
+import { conduit2Pc } from "./conduit-2-pc";
+import { moonPc } from "./moon-pc";
+import { virtualHydlidePc } from "./virtual-hydlide-pc";
+import { deltarunePs3 } from "./deltarune-ps3";
+
+import { kungFuMasterSnes } from "./kung-fu-master-snes";
+import { superSmashBrosXbox } from "./super-smash-bros-xbox";
+import { marioKart64Xbox } from "./mario-kart-64-xbox";
+import { rockbotDreamcast } from "./rockbot-dreamcast";
+import { segasonicTheHedgehogDreamcast } from "./segasonic-the-hedgehog-dreamcast";
+import { celesteClassicGba } from "./celeste-classic-gba";
+import { coupSegaSaturn } from "./coup-sega-saturn";
+import { projectPicoriNintendo64 } from "./project-picori-nintendo-64";
+import { starshipMadnessNintendo64 } from "./starship-madness-nintendo-64";
+import { katawaShoujoGba } from "./katawa-shoujo-gba";
+import { superMarioSunshinePs5 } from "./super-mario-sunshine-ps5";
+import { wweSmackdownVsRaw2008Ps5 } from "./wwe-smackdown-vs-raw-2008-ps5";
+import { halfLifePs5 } from "./half-life-ps5";
+import { pokemonRedBlue3dsGen1recomp } from "./pokemon-red-blue-3ds-gen1recomp";
+import { theLedgePsVita } from "./the-ledge-ps-vita";
+import { afraidOfMonstersPsVita } from "./afraid-of-monsters-ps-vita";
+import { brotatoPsVita } from "./brotato-ps-vita";
+import { iWannaReachTheUnityPsVita } from "./i-wanna-reach-the-unity-ps-vita";
+import { elliSHouse3dsPspGba } from "./elli-s-house-3ds-psp-gba";
+import { emazingMazes3ds } from "./emazing-mazes-3ds";
+import { timeTraveler3ds } from "./time-traveler-3ds";
+import { theSmiler3ds } from "./the-smiler-3ds";
+import { tilePuzzleUltimate3ds } from "./tile-puzzle-ultimate-3ds";
+import { daytonaUsa3dsPcAndroid } from "./daytona-usa-3ds-pc-android";
+import { doom3dsPrboom } from "./doom-3ds-prboom";
+import { jezzball3ds } from "./jezzball-3ds";
+import { blockoutIi3ds } from "./blockout-ii-3ds";
+import { supertuxDs } from "./supertux-ds";
+import { cDogsSdlWii } from "./c-dogs-sdl-wii";
+import { ledheadWii } from "./ledhead-wii";
+import { superMarioWarWii } from "./super-mario-war-wii";
+import { theMazeWii } from "./the-maze-wii";
+
+import { wonderfulEverydayPsVita } from "./wonderful-everyday-ps-vita";
+import { girlsFrontlinePsVita } from "./girls-frontline-ps-vita";
+import { cookieClicker3ds } from "./cookie-clicker-3ds";
+import { hydraCastleLabyrinthPsp } from "./hydra-castle-labyrinth-psp";
+import { plumberSDonTWearTiesConsoles } from "./plumber-s-don-t-wear-ties-consoles";
+import { sonicTheHedgehog2MegaDrive } from "./sonic-the-hedgehog-2-mega-drive";
+import { superMario64Ds3ds } from "./super-mario-64-ds-3ds";
+import { papaSPizzeria3ds } from "./papa-s-pizzeria-3ds";
+import { touhou6Switch } from "./touhou-6-switch";
+import { hybridHeavenPcDanielgomesvieira2000 } from "./hybrid-heaven-pc-danielgomesvieira2000";
+import { shadowOfTheColossusPcFrameGeneration } from "./shadow-of-the-colossus-pc-frame-generation";
+import { monsterHunterDynamicHuntingPsVita } from "./monster-hunter-dynamic-hunting-ps-vita";
+import { superMarioBrosRemasteredSwitch } from "./super-mario-bros-remastered-switch";
+import { tekkenTagTournament2LinuxWiiUEdition } from "./tekken-tag-tournament-2-linux-wii-u-edition";
+import { cutTheRopePsVita } from "./cut-the-rope-ps-vita";
+import { battletanxPcBdragoncore } from "./battletanx-pc-bdragoncore";
+import { armyMenSargeSHeroesPc } from "./army-men-sarge-s-heroes-pc";
+import { diddyKongRacingPcCyscott } from "./diddy-kong-racing-pc-cyscott";
+import { starFox64Xbox } from "./star-fox-64-xbox";
+import { lugaruDreamcast } from "./lugaru-dreamcast";
+import { touhouCollectionPs4 } from "./touhou-collection-ps4";
+import { athenaCrisisPsp } from "./athena-crisis-psp";
+import { beatBangerPsVita } from "./beat-banger-ps-vita";
+import { bikeRaceProPsVita } from "./bike-race-pro-ps-vita";
+import { minicraftWii } from "./minicraft-wii";
+import { arcRiseFantasiaPc } from "./arc-rise-fantasia-pc";
+import { dragonQuestSwordsPc } from "./dragon-quest-swords-pc";
+import { sopwithWii } from "./sopwith-wii";
+import { powderWii } from "./powder-wii";
+import { deltaruneChapter1Wii } from "./deltarune-chapter-1-wii";
+import { superKawaiBreakupSim3ds } from "./super-kawai-breakup-sim-3ds";
+import { jezzballWiiU } from "./jezzball-wii-u";
+import { zombieOutbreakSimulator3ds } from "./zombie-outbreak-simulator-3ds";
+import { hashiPsVita } from "./hashi-ps-vita";
+
+import { conker64Recompiled } from "./conker64-recompiled";
+import { gearsOfWar2Pc } from "./gears-of-war-2-pc";
+import { burnoutCrashPc } from "./burnout-crash-pc";
+import { scoobyDooNightOf100FrightsPc } from "./scooby-doo-night-of-100-frights-pc";
+import { scoobyDooUnmaskedPc } from "./scooby-doo-unmasked-pc";
+import { streetsOfRageRemasterDreamcast } from "./streets-of-rage-remaster-dreamcast";
+import { animalCrossingAnbernicHandhelds } from "./animal-crossing-anbernic-handhelds";
+import { animalCrossingXbox } from "./animal-crossing-xbox";
+import { animalCrossingDreamcast } from "./animal-crossing-dreamcast";
+import { tomJerryWarOfTheWhiskersPc } from "./tom-jerry-war-of-the-whiskers-pc";
+import { superSmashBrosPsp } from "./super-smash-bros-psp";
+import { minecraftPocketEdition3ds } from "./minecraft-pocket-edition-3ds";
+import { starWarsTheCloneWarsPc } from "./star-wars-the-clone-wars-pc";
+import { starWarsBattlefrontRenegadeSquadronPc } from "./star-wars-battlefront-renegade-squadron-pc";
+import { tekkenPc } from "./tekken-pc";
+import { wwfSmackdown2KnowYourRolePc } from "./wwf-smackdown-2-know-your-role-pc";
+import { splosionManPc } from "./splosion-man-pc";
+import { falloutPs3 } from "./fallout-ps3";
+import { projectIGIPsVita } from "./project-i-g-i-ps-vita";
+import { earthwormJimHdPc } from "./earthworm-jim-hd-pc";
+import { digimonWorld3PcFeerdus95 } from "./digimon-world-3-pc-feerdus95";
+import { chronoTriggerPc } from "./chrono-trigger-pc";
+import { skateItPsp } from "./skate-it-psp";
+import { snatcherPsp } from "./snatcher-psp";
+import { lsdRevampedPsVita } from "./lsd-revamped-ps-vita";
+import { mystDs } from "./myst-ds";
+import { rivenDs } from "./riven-ds";
+import { illusionOfGaiaPc } from "./illusion-of-gaia-pc";
+import { mcdonaldSTreasureLandAdventurePc } from "./mcdonald-s-treasure-land-adventure-pc";
+import { fiveNightsAtFreddyS2WiiU } from "./five-nights-at-freddy-s-2-wii-u";
+import { superDodgeBallPc } from "./super-dodge-ball-pc";
+import { nhlHockey94Pc } from "./nhl-hockey-94-pc";
+import { diddyKongRacingWii } from "./diddy-kong-racing-wii";
+import { twilightPrincessHdMacos } from "./twilight-princess-hd-macos";
+import { fZeroX3ds } from "./f-zero-x-3ds";
+import { srb2kartPsVita } from "./srb2kart-ps-vita";
+import { streetFighterIvChampionEditionPsVita } from "./street-fighter-iv-champion-edition-ps-vita";
+import { _3dPinballSpaceCadetPsp } from "./3d-pinball-space-cadet-psp";
+import { animalCrossingPs3 } from "./animal-crossing-ps3";
+import { quakeWii } from "./quake-wii";
+import { soulcaliburPc } from "./soulcalibur-pc";
+import { deltarune3dsRanchBlad } from "./deltarune-3ds-ranch-blad";
+import { purgatoryNarakuPsp } from "./purgatory-naraku-psp";
+import { apotrisPsp } from "./apotris-psp";
+import { princeOfPersia3ds } from "./prince-of-persia-3ds";
+import { starWarsDarkForces3ds } from "./star-wars-dark-forces-3ds";
+import { superMetroidDs } from "./super-metroid-ds";
+import { doom2dGba } from "./doom-2d-gba";
+import { superMarioBrosSwitch } from "./super-mario-bros-switch";
+
+import { dusklightPs4 } from "./dusklight-ps4";
+
+import { prxshotPspScreenshotPlugin } from "./prxshot-psp-screenshot-plugin";
+import { pspKillswitchPlugin } from "./psp-killswitch-plugin";
+import { mschangePspPlugin } from "./mschange-psp-plugin";
+import { missyhudPspPlugin } from "./missyhud-psp-plugin";
+import { gpsemuPspPlugin } from "./gpsemu-psp-plugin";
+import { pspsysmonPspPlugin } from "./pspsysmon-psp-plugin";
+import { pspwaveXmbWaveEditor } from "./pspwave-xmb-wave-editor";
+import { psp5GameLauncherForPsp } from "./psp5-game-launcher-for-psp";
+import { storestationPspAppsAndPluginsStore } from "./storestation-psp-apps-and-plugins-store";
+import { arkPluginConverter } from "./ark-plugin-converter";
+import { sandstoneEnginePspGameEngine } from "./sandstone-engine-psp-game-engine";
+import { pocketGameMakerPspEngine } from "./pocket-game-maker-psp-engine";
+import { fpkgiPackageManager } from "./fpkgi-package-manager";
+import { vitagrafixPsVitaPlugin } from "./vitagrafix-ps-vita-plugin";
+import { vitaUdcdUvcPsVitaPlugin } from "./vita-udcd-uvc-ps-vita-plugin";
+import { psvitaStoragemgrPlugin } from "./psvita-storagemgr-plugin";
+import { ds4vitaPsVitaPlugin } from "./ds4vita-ps-vita-plugin";
+import { rincheatPsVitaPlugin } from "./rincheat-ps-vita-plugin";
+import { vitabrightPsVitaPlugin } from "./vitabright-ps-vita-plugin";
+import { gohanmemPsVitaCheatPlugin } from "./gohanmem-ps-vita-cheat-plugin";
+import { vitaNearestNeighbourPlugin } from "./vita-nearest-neighbour-plugin";
+import { _8bitvitaPsVitaPlugin } from "./8bitvita-ps-vita-plugin";
+import { vitaRecorderPsVitaPlugin } from "./vita-recorder-ps-vita-plugin";
+import { eqvitaPsVitaAudioPlugin } from "./eqvita-ps-vita-audio-plugin";
+import { ps4LinkControlsPsVitaPlugin } from "./ps4-link-controls-ps-vita-plugin";
+import { gr544pPsVitaPlugin } from "./gr544p-ps-vita-plugin";
+import { psVitaUsbAudioMidiPlugin } from "./ps-vita-usb-audio-midi-plugin";
+import { controlmole3dsPlugin } from "./controlmole-3ds-plugin";
+import { spelunkyPspHomebrewRemake } from "./spelunky-psp-homebrew-remake";
+import { openstrikePsp } from "./openstrike-psp";
+import { pocketVoxelPspPsVitaWeb } from "./pocket-voxel-psp-ps-vita-web";
+import { battleGrounds3Psp } from "./battle-grounds-3-psp";
+import { gothsNVampsPsp } from "./goths-n-vamps-psp";
+import { mudkipAdventuresPsp } from "./mudkip-adventures-psp";
+import { jokerPokerPsp } from "./joker-poker-psp";
+import { tobuTobuGirlGameBoy } from "./tobu-tobu-girl-game-boy";
+import { tobuTobuGirlDxGameBoyColor } from "./tobu-tobu-girl-dx-game-boy-color";
+import { evolandGbDemake } from "./evoland-gb-demake";
+import { petrisGameBoyColor } from "./petris-game-boy-color";
+import { airakiGameBoy } from "./airaki-game-boy";
+import { googleDinoGameBoyAdvance } from "./google-dino-game-boy-advance";
+import { spaceRescueSquadSnes } from "./space-rescue-squad-snes";
+import { bomberworldSnes } from "./bomberworld-snes";
+import { cryptoslasherSnes } from "./cryptoslasher-snes";
+import { tetrisMdMegaDrive } from "./tetris-md-mega-drive";
+import { megaCarWarsMegaDrive } from "./mega-car-wars-mega-drive";
+import { willowSDreamMegaDrive } from "./willow-s-dream-mega-drive";
+import { wertactics3ds } from "./wertactics-3ds";
+
+import { novaTheSquirrelNes } from "./nova-the-squirrel-nes";
+import { fromBelowNes } from "./from-below-nes";
+import { snakeNesHomebrew } from "./snake-nes-homebrew";
+import { filthyKitchenNes } from "./filthy-kitchen-nes";
+import { mirohNes } from "./miroh-nes";
+import { _8BitTableTennisNes } from "./8-bit-table-tennis-nes";
+import { roborunNes } from "./roborun-nes";
+import { crossconnectGameBoyColor } from "./crossconnect-game-boy-color";
+import { crucibleExeGameBoyColor } from "./crucible-exe-game-boy-color";
+import { moonwakeGameBoyColor } from "./moonwake-game-boy-color";
+import { starfallSalvageGameBoyColor } from "./starfall-salvage-game-boy-color";
+import { dreadhollowManorGameBoyColor } from "./dreadhollow-manor-game-boy-color";
+import { guardaConLasGbcGameBoyColor } from "./guarda-con-las-gbc-game-boy-color";
+import { solarGuardGameBoyAdvance } from "./solar-guard-game-boy-advance";
+import { etchySketchyGameBoyAdvance } from "./etchy-sketchy-game-boy-advance";
+import { snekGameBoyAdvance } from "./snek-game-boy-advance";
+import { megaDriveInvadersSnes } from "./mega-drive-invaders-snes";
+import { eucThrillsSnes } from "./euc-thrills-snes";
+import { coquiSnes } from "./coqui-snes";
+import { caveStoryMegaDrive } from "./cave-story-mega-drive";
+import { speedrunTowerMegaDrive } from "./speedrun-tower-mega-drive";
+import { kumiDaikoBeatoff64Nintendo64 } from "./kumi-daiko-beatoff-64-nintendo-64";
+import { superbounce64Nintendo64 } from "./superbounce-64-nintendo-64";
+import { pong64Nintendo64 } from "./pong-64-nintendo-64";
+import { dreamcastHomebrewCollectionDreamcast } from "./dreamcast-homebrew-collection-dreamcast";
+import { asteroidsTerraSegaSaturn } from "./asteroids-terra-sega-saturn";
+import { virtuaSkimmerSegaSaturn } from "./virtua-skimmer-sega-saturn";
+import { unGamePlaystation } from "./un-game-playstation";
+import { bottomlessBlockBarrage3ds } from "./bottomless-block-barrage-3ds";
+import { flappyBird3dsHomebrew } from "./flappy-bird-3ds-homebrew";
+import { robinHoodSPlatformGame3ds } from "./robin-hood-s-platform-game-3ds";
+import { jetSki3ds } from "./jet-ski-3ds";
+import { _20483ds } from "./2048-3ds";
+import { petTheCat3ds } from "./pet-the-cat-3ds";
+import { emberclutch3ds } from "./emberclutch-3ds";
+import { sameGame3ds } from "./same-game-3ds";
+import { sudokulWii } from "./sudokul-wii";
+import { trogdorReburninatedWii } from "./trogdor-reburninated-wii";
+import { untitledSandGameWiiU } from "./untitled-sand-game-wii-u";
+import { multidrcSpaceDemoWiiU } from "./multidrc-space-demo-wii-u";
+import { lightsOutWii } from "./lights-out-wii";
+import { othelloWiiU } from "./othello-wii-u";
+import { fluctusWiiU } from "./fluctus-wii-u";
+import { gamearcadeSwitch } from "./gamearcade-switch";
+import { slitherlinknxSwitch } from "./slitherlinknx-switch";
+import { pinballNxSwitch } from "./pinball-nx-switch";
+import { _2planesSwitch } from "./2planes-switch";
+import { miichanicLuma3dsPlugin } from "./miichanic-luma3ds-plugin";
+import { minecraft3dsMegapackPlugin3ds } from "./minecraft-3ds-megapack-plugin-3ds";
+import { ctrcomposer3dsPluginFramework } from "./ctrcomposer-3ds-plugin-framework";
+import { luma3dsPluginLoaderScript3ds } from "./luma3ds-plugin-loader-script-3ds";
+import { luma3dsPluginLoader3ds } from "./luma3ds-plugin-loader-3ds";
+import { papayaHudWiiUAromaPlugin } from "./papaya-hud-wii-u-aroma-plugin";
+import { tcpgeckoAromaWiiUPlugin } from "./tcpgecko-aroma-wii-u-plugin";
+import { justgetmiionlineWiiUAromaPlugin } from "./justgetmiionline-wii-u-aroma-plugin";
+import { riibootmiiWiiUAromaPlugin } from "./riibootmii-wii-u-aroma-plugin";
+import { vinoConfigPatcherWiiUAromaPlugin } from "./vino-config-patcher-wii-u-aroma-plugin";
+import { wiiredxWiiUAromaPlugin } from "./wiiredx-wii-u-aroma-plugin";
+import { switchpresenceSwitchSysmodule } from "./switchpresence-switch-sysmodule";
+import { switchpresenceRewrittenSwitchSysmodule } from "./switchpresence-rewritten-switch-sysmodule";
+import { pngshotSwitchSysmodule } from "./pngshot-switch-sysmodule";
+import { key2conSwitchSysmodule } from "./key2con-switch-sysmodule";
+import { nxScreenuploaderSwitchSysmodule } from "./nx-screenuploader-switch-sysmodule";
+import { tailscaleNxSwitchSysmodule } from "./tailscale-nx-switch-sysmodule";
+import { sysdvrUvcCaptureSwitchSysmodule } from "./sysdvr-uvc-capture-switch-sysmodule";
+import { nxGamehideSwitchSysmodule } from "./nx-gamehide-switch-sysmodule";
+
+import { conkerSBadFurDayReloaded } from "./conker-s-bad-fur-day-reloaded";
+import { infamousSecondSonPc } from "./infamous-second-son-pc";
+import { theLastGuardianPc } from "./the-last-guardian-pc";
+import { gravityRush2Pc } from "./gravity-rush-2-pc";
+import { dragonSCrownProPc } from "./dragon-s-crown-pro-pc";
+import { eaSportsUfc3Pc } from "./ea-sports-ufc-3-pc";
+import { medievil2019Pc } from "./medievil-2019-pc";
+import { bloodborneMacos } from "./bloodborne-macos";
+import { unicornOverlordPc } from "./unicorn-overlord-pc";
+import { legoDimensionsPc } from "./lego-dimensions-pc";
+import { theOrder1886Pc } from "./the-order-1886-pc";
+import { gravityRushRemasteredPc } from "./gravity-rush-remastered-pc";
+import { shipOfHarkinianPs4 } from "./ship-of-harkinian-ps4";
+import { prototypePc } from "./prototype-pc";
+import { infamous2Pc } from "./infamous-2-pc";
+import { drakengard3Pc } from "./drakengard-3-pc";
+import { armoredCoreForAnswerPc } from "./armored-core-for-answer-pc";
+import { armoredCore4Pc } from "./armored-core-4-pc";
+import { godOfWarAscensionPc } from "./god-of-war-ascension-pc";
+import { twistedMetal2012Pc2 } from "./twisted-metal-2012-pc-2";
+import { shadowOfTheColossusPs3Pc } from "./shadow-of-the-colossus-ps3-pc";
+import { ratchetClankPc } from "./ratchet-clank-pc";
+import { killzonePc } from "./killzone-pc";
+import { urbanReignPc } from "./urban-reign-pc";
+import { godOfWarPs2Pc } from "./god-of-war-ps2-pc";
+import { downhillDominationPc } from "./downhill-domination-pc";
+import { granTurismo4Pc } from "./gran-turismo-4-pc";
+import { crashTwinsanityPc } from "./crash-twinsanity-pc";
+import { wayOfTheSamurai2Pc } from "./way-of-the-samurai-2-pc";
+import { shadowOfTheColossusPs2Decomp } from "./shadow-of-the-colossus-ps2-decomp";
+import { shadowOfTheColossusCelosia } from "./shadow-of-the-colossus-celosia";
+import { jakAndDaxterThePrecursorLegacyApple } from "./jak-and-daxter-the-precursor-legacy-apple";
+import { shadowTheHedgehogPc } from "./shadow-the-hedgehog-pc";
+import { pokemonEmeraldPs2 } from "./pokemon-emerald-ps2";
+import { needForSpeedUnderground2Gamecube } from "./need-for-speed-underground-2-gamecube";
+import { superPaperMarioPc } from "./super-paper-mario-pc";
+import { sonicUnleashedWiiPc } from "./sonic-unleashed-wii-pc";
+import { marioKartWii3ds } from "./mario-kart-wii-3ds";
+import { persona3Portable3ds } from "./persona-3-portable-3ds";
+import { balatro3dsHomebrew } from "./balatro-3ds-homebrew";
+import { conkerSBadFurDayPc } from "./conker-s-bad-fur-day-pc";
+import { donkeyKong64Switch } from "./donkey-kong-64-switch";
+import { needForSpeedUnderground2Switch } from "./need-for-speed-underground-2-switch";
+import { needForSpeedUndergroundSwitch } from "./need-for-speed-underground-switch";
+import { needForSpeedCarbonSwitch } from "./need-for-speed-carbon-switch";
+import { plantsVsZombies2Switch } from "./plants-vs-zombies-2-switch";
+import { sonicTheHedgehog4EpisodeIiSwitch } from "./sonic-the-hedgehog-4-episode-ii-switch";
+import { crazyTaxiClassicSwitch } from "./crazy-taxi-classic-switch";
+import { pes2013Switch } from "./pes-2013-switch";
+import { linkSAwakeningPc } from "./link-s-awakening-pc";
+import { windowSmash } from "./window-smash";
+import { segaRallyPort0r } from "./sega-rally-port0r";
+import { lotrReturnOfTheKingRecomp } from "./lotr-return-of-the-king-recomp";
+import { lotrTwoTowersRecomp } from "./lotr-two-towers-recomp";
+import { soulcaliburIiHdRecomp } from "./soulcalibur-ii-hd-recomp";
+import { starcraft64Recomp } from "./starcraft-64-recomp";
+import { ssf2tHdRemixRecomp } from "./ssf2t-hd-remix-recomp";
+import { prototypeSwitch } from "./prototype-switch";
+import { prototype2Switch } from "./prototype-2-switch";
+import { heartOfDarknessPort } from "./heart-of-darkness-port";
+import { touhou6Vita } from "./touhou-6-vita";
+import { inotia3Vita } from "./inotia-3-vita";
+import { buckshotRouletteVita } from "./buckshot-roulette-vita";
+import { bomberman64Switch } from "./bomberman-64-switch";
+import { birdAndBeansWii } from "./bird-and-beans-wii";
+import { supertuxWii } from "./supertux-wii";
+import { hexenIi3ds } from "./hexen-ii-3ds";
+import { pokemonEmeraldPsp } from "./pokemon-emerald-psp";
+import { sm64Psp } from "./sm64-psp";
+import { cavex } from "./cavex";
+import { gxcraft } from "./gxcraft";
+import { craftusReloaded } from "./craftus-reloaded";
+import { threeDstris } from "./3dstris";
+import { pingo } from "./pingo";
+import { splatoon3ds } from "./splatoon-3ds";
+import { platformShooterPsp } from "./platform-shooter-psp";
+import { vitaTetris } from "./vita-tetris";
+import { cps2Recomp } from "./cps2-recomp";
+
 export const portCases: Port[] = [
   sm64ex,
   shipOfHarkinian,
@@ -1440,6 +2205,7 @@ export const portCases: Port[] = [
   tooHumanRecomp,
   spiderManEdgeOfTimeRecomp,
   bloodbornePc,
+  unchartedNathanDrakeCollectionPc,
   ptPc,
   silentHillPc,
   silentEngine,
@@ -1731,6 +2497,13 @@ export const portCases: Port[] = [
   baronyAndroid,
   godOfThunderAndroid,
   pinballFantasiesAndroid,
+  dinoTale,
+  battlezoneRiseOfTheBlackDogsRecomp,
+  battletanxGlobalAssaultRecomp,
+  goldenSunAndroid,
+  descentAndroid,
+  descent2Android,
+  jillOfTheJungleAndroid,
   unciv,
   srb2Android,
   ringRacersAndroid,
@@ -2370,4 +3143,739 @@ export const portCases: Port[] = [
   hagi,
   ootGcDecomp,
   awesomeOpenSourceGames,
+  superMarioGalaxyNebula,
+  superMarioGalaxyAndroid,
+  forzaHorizon2Android,
+  nfsUnderground2Recompiled,
+  openTestDriveUnlimited,
+  virtuaFighter2Recomp,
+  callOfDutyMw2Android,
+  goemon64RecompiledAndroid,
+  defJamFightForNyRecomp,
+  wweSmackdownVsRaw2011Recomp,
+  theDarknessEstacado,
+  marioKartWiiAndroid,
+  ecstaticaRecompiled,
+  spiderManEdgeOfTimeProject2099,
+  narutoStormGenerationsRecomp,
+  narutoRiseOfANinjaRecomp,
+  narutoTheBrokenBondRecomp,
+  narutoStormRevolutionRecomp,
+  narutoStorm2Recomp,
+  narutoStorm3FullBurstRecomp,
+  godOfWar3Android,
+  dragonBallRagingBlast2Android,
+  superMarioGalaxyIos,
+  eternalDarknessRecomp,
+  godOfWar2HdRecomp,
+  pokemonLetsGoRecomp,
+  redAlert2Recomp,
+  ninjaGaidenBlackRecomp,
+  wweAllStarsRecomp,
+  tomodachiLtdRecomp,
+  unrealAndroid,
+  skate2PcRecomp,
+  colinMcRaeRally2Decomp,
+  minecraftLceDecomp,
+  superMario64DsDecomp,
+  driveclubNative,
+  finalFantasyTacticsAdvanceRecomp,
+  castlevaniaSotnDecomp,
+  paperMarioDecomp,
+  pikmin2Decomp,
+  forzaHorizonReimagined,
+  majorasMaskDecomp,
+  silentHillDecomp,
+  metroidPrimeDecomp,
+  slyCooperDecomp,
+  nfsMostWantedDecomp,
+  snowboardKids2Decomp,
+  vibRibbonDecomp,
+  metroidZeroMissionDecomp,
+  silentHill3Decomp,
+  spiderMan2000Decomp,
+  bloodborneDecomp,
+  superMarioStrikersDecomp,
+  superMarioStrikersRecomp,
+  switchWakerHd,
+  haloCeIphone,
+  goldeneye007XblaRecomp,
+  annepad,
+  ssxTrickyOpentricky,
+  ssxTrickyXboxRecomp,
+  sonicAdventure2Recomp,
+  midnightClubLaIos,
+  battleTanxRecomp,
+  caesar2,
+  doa3Re,
+  doomSnesRecomp,
+  midtownMadness3,
+  linksAwakeningDxPortable,
+  tekken3RecompHybrid,
+  ridgeRacerPs1Decomp,
+  theBrowsingOfIsaac,
+  nfsMostWantedBlackEditionRecomp,
+  svr2011Recomp,
+  fireEmblemSacredStonesRecomp,
+  haloReachRecomp,
+  stuntsHd,
+  rogueSquadron64Recomp,
+  muscleMarchRecomp,
+  alabasterDawnAndroid,
+  ffccEchoesOfTimeRecomp,
+  godOfWarNativePort,
+  hydroThunderHurricaneRecomp,
+  metalGearSolidPs1Recomp,
+  pointBlankRecompiled,
+  aerobizSupersonicDisasm,
+  jetMoto2Recomp,
+  residentEvilCodeVeronicaRecomp,
+  princeOfPersiaClassicPsvita,
+  battletanxGlobalAssaultPcPort,
+  _3on3NhlArcadeRecomp,
+  ben10OmniverseRecomp,
+  alleycatX8664Recomp,
+  aegisWingXblaRecomp,
+  blakeStoneRecomp,
+  hybridHeavenRecomp,
+  persona3FesRecompiled,
+  wwe2k14Recomp,
+  timesplittersFuturePerfectRecomp,
+  projectElevenRecomp,
+  turokRageWarsRecomp,
+  epicPinballRecomp,
+  digimonWorld3Recomp,
+  steinsGateRecomp,
+  aceCombat5LinuxRecomp,
+  abuseAndroid,
+  therapyWithDrAlbertKruegerAndroid,
+  elfenLiedFightingAndroid,
+  isaacRebirthAndroid,
+  isaacFlashRecomp,
+  windWakerHdAndroidPlus,
+  psydoom,
+  sm64plus,
+  sm64coopdx,
+  projectPicori,
+  medievilRecompBlacklabel,
+  diddyKongRacingGoldenballoon,
+  pilotwings64Birdman64,
+  bloodbornePcWindows,
+  bluewake,
+  kartpad,
+  maskpad,
+  sunpad,
+  ballpad,
+  goldeneye007Recomp,
+  herculesRecompiled,
+  jetSetRadioFutureUnleashed,
+  mother3RecompAndroid,
+  nfsMostWantedAndroid,
+  castlevaniaSotnRecompNocturne,
+  ridgeRacer6Recomp,
+  budokaiTenkaichi3Pc,
+  valkyrieProfileRecompEd1z19,
+  wetRecompWindows,
+  blastCorpsPowerDozer,
+  jackieChanStuntmasterRechan,
+  castlevaniaLegacyOfDarknessRecomp,
+  harvestMoon64Android,
+  dk64RecompAndroid,
+  zelda3Android,
+  systemShockAndroid,
+  animalCrossingGcAndroid,
+  paperMarioRecut,
+  smaRemasteredAndroid,
+  tenchuStealthAssassinsRecompHero,
+  alienResurrectionRecompHero,
+  metalSlugXRecompTechnically,
+  castlevania64Recomp,
+  endlessSkyAndroid,
+  projectR,
+  streetsOfRage2NewEra,
+  ctrNativeAndroid,
+  doomRpgRe,
+  doomIiRpgRe,
+  marioParty4PcZeranemesis,
+  partyboard,
+  perfectDarkAndroid,
+  raceWave46,
+  waveRace64Decomp,
+  naughtyBearPanicInParadiseRecomp,
+  shipOfHarkinianAndroid,
+  strikersWiicompiled,
+  castlevaniaSotnRecompSergiomanzur,
+  minishCapAndroid,
+  waveRace64RecompDaniel,
+  wipeoutXlRecompNjh,
+  zelda64RecompAndroid,
+  zeldaWwhdRecompAndroid,
+  superMarioBrosRemasteredAndroid,
+  zeldaIi2pSplitscreenAndroid,
+  dragonBallZSuperSaiyaDensetsuSnesDecomp,
+  zelda3launcher,
+  moonPearl,
+  superMetroidDualScreen,
+  undeadNeighborEatersAndroidNativePort,
+  lighthouseAndroid,
+  cbfdRecompiledAndroidEvolved,
+  dora643,
+  hybridHeavenRecompiled,
+  spaghettikartAndroid,
+  megaman64RecompMobile,
+  paperboatAndroid,
+  classicCoreEngines,
+  starshipAndroid,
+  sm64coopdxAndroid,
+  ghostshipAndroid,
+  shipwrightAndroidOutdated,
+  shipwrightAndroid,
+  _2Ship2HarkinianOutdated,
+  _2Ship2HarkinianAndroid,
+  _2Ship2Harkinian2s2h,
+  waveRacer64RecompForAndroid,
+  oraclesrecomp,
+  theOraclesProject,
+  fttaRecomp,
+  sma3RecompAndroid,
+  huntersRecompDualScreen,
+  zelda3dsAndroidTriaevum,
+  superMarioBrosWonderRecomp,
+  ac3Decomp,
+  crtNativeDsDualScreen,
+  dw2003DualScreen,
+  doomPlaystationClassicCoreEngines,
+  finalDoomPlaystationClassicCoreEngines,
+  rechan,
+  kokororecomp,
+  tekken3Expanded,
+  tombaRecompDsDualScreen,
+  tenkaichi3decompAndroid,
+  pTForAndroidDualScreen,
+  psprecompLibertyCityStories,
+  psprecompViceCityStories,
+  pspRecompMsae,
+  deadOrAliveXtremeBeachVolleyballAndroid,
+  halo1Decomp,
+  halo1DecompFork,
+  halo1TouchControlFork,
+  renutAndroid,
+  dbzBurstLimitAndroid,
+  goldenEyeRecompDualScreen,
+  libertyrecompandroid,
+  mkvdcuAndroid,
+  naughtyBearRestuffAndroidPort,
+  recompiledSteel,
+  skate3Android,
+  skate3Port,
+  marathonRecompiled,
+  unleashedRecomp,
+  project8recomp,
+  _0ADParaAndroidArm64,
+  lookingGlass,
+  augustus,
+  rotatingArtLauncher,
+  chexQuestClassicCoreEngines,
+  generalszhAndroidPort,
+  descentMobile,
+  descent2Mobile,
+  doomClassicCoreEngines,
+  doomIiClassicCoreEngines,
+  doom3BfgEditionClassicCoreEngines,
+  doom64RemasteredClassicCoreEngines,
+  opennevada,
+  freespace,
+  knossosnet,
+  galaxyOnFire2UnityRemake,
+  gdroid,
+  re3AndroidEvolved,
+  revcAndroidEvolved,
+  hacxClassicCoreEngines,
+  openWheels,
+  hereticClassicCoreEngines,
+  hexenClassicCoreEngines,
+  hexenIiClassicCoreEngines,
+  hexenIiPortalOfPraevusClassicCoreEngines,
+  silksongandroidDualScren,
+  silksongandroidachievementsDualScreen,
+  infiniteBlade2Android,
+  jazz2Ressurection,
+  lookOutsideAndroid,
+  zalithlauncher2,
+  foldCraftLauncher,
+  mojoLauncher,
+  pojavlauncher,
+  pvzPortable,
+  pokemonReloadedEnAndroid,
+  showdownDsDualScreen,
+  pokemonSurvivorBurstAndroid,
+  zomdroidEtonedemid,
+  zomdroidLiamelui,
+  quakeClassicCoreEngines,
+  quakeScourgeOfArmagonClassicCoreEngines,
+  quakeDissolutionOfEternityClassicCoreEngines,
+  quakeIiClassicCoreEngines,
+  quakeIiiArenaClassicCoreEngines,
+  openarenaClassicCoreEngines,
+  rott94,
+  gzselacoAndroidDualScreen,
+  slaytheamethyst,
+  sts2MobileLauncher,
+  sonic1Forever,
+  sonicManiaDecompilationAndroid,
+  spaceStation14Mobile,
+  daggerfallUnityAndroid,
+  corsixthAndroid,
+  theSimpsonsHitAndRunAndroid,
+  titanicGodot30thAnniversaryEdition,
+  ufo50AndroidUnofficial,
+  woodyre,
+  wolfensteinRpgClassicCoreEngines,
+  openXcomAndroid,
+  openborAndroid,
+  gtasaPsp,
+  spotify3ds,
+  perfectDarkPsp,
+  sonicCdPsp,
+  portabletale,
+  jgrPortable,
+  mk64Portable,
+  helltakerPsp,
+  wordlePsp,
+  touhou6Psp,
+  touhou10Psp,
+  persona4Psp,
+  tekken6Android,
+  streetFighterIii3rdStrikeXbox,
+  dragonBallZTenkaichiTagTeam,
+  pspLatro,
+  gtaIiiPsp,
+  minecraftStoryModePsp,
+  pokemonPlatinumSoulsilverPsp,
+  godOfWarChainsOfOlympusPc,
+  touhou8Psp,
+  touhou7Psp,
+  touhou6PspJeongJimin,
+  woodyWoodpeckerPsp,
+  doomRpgPsp,
+  bouncePsp,
+  extremeTuxRacerPsp,
+  _2048Psp,
+  hollowKnightPspHomebrew,
+  kOnHoukagoLivePc,
+  dokiDokiLiteratureClubPsVita,
+  tonyHawkSUndergroundPsVita,
+  gtaLibertyCityStoriesPsVita,
+  _9mmHdPsVita,
+  superMarioUnimakerPsVita,
+  sonicTimeTwistedPsVita,
+  untitledGooseGamePsVita,
+  theImpossibleGamePsVita,
+  supertuxMilestone2VitaSwitchPs3,
+  conkerSBadFurDayPsVita,
+  minicraft3ds,
+  minicraftDs,
+  deltarune3ds,
+  osu3ds,
+  starFox3ds,
+  silentHill23ds,
+  papersPlease3ds,
+  everlastingSummer3ds,
+  neonValley3ds,
+  blockBlast3ds,
+  legoWorldBuilder3ds,
+  portalDs,
+  superSmashBrosDs,
+  littleBigAdventureDs,
+  tanksDs,
+  balatroWiiU,
+  fridayNightFunkinWii,
+  planetBlupiWiiU,
+  windWakerNintendoSwitch,
+  minishCapSwitchAlekSEdition,
+  twilightPrincessSwitchAlekSEdition,
+  superMarioWorldRemasteredPlusSwitch,
+  touhou7Switch,
+  sonicTheFightersSwitch,
+  supertuxSwitch,
+  sm64coopdxSwitch,
+  needForSpeedMostWanted2012Switch,
+  skiesOfArcadiaLegendsPc,
+  seriousSamNextEncounterPc,
+  deepSeaWindWaker60Fps,
+  digimonWorld2003Pc,
+  wild9Pc,
+  crashBandicoot2Pc,
+  twistedMetal14Pc,
+  twistedMetal2012Pc,
+  gtaIvIosIpados,
+  armyOfTwoPc,
+  blackPc,
+  theLordOfTheRingsTheTwoTowersPc,
+  spiderManWebOfShadowsPc,
+  crackdownPc,
+  wweSmackdownVsRaw2010Pc,
+  wweSmackdownVsRaw2009Pc,
+  wweSmackdownVsRaw2008Pc,
+  tekkenTagTournament2Pc,
+  topGearPc,
+  simcitySnesPc,
+  civilizationSnesPc,
+  rockNRollRacingPc,
+  sunsetRidersPc,
+  goGoAckmanPc,
+  superTennisPc,
+  strikeGunnerStgPc,
+  bodyHarvestPc,
+  sinPunishmentPc,
+  ocarinaOfTimePcRayTraced,
+  waveRace64PcChronic8000,
+  kenGriffeyJrSSlugfestPc,
+  harvestMoon64PcAiTddLabs,
+  banjoKazooieAndroid8cee,
+  rayman3PcGbaVersion,
+  superMario64Web,
+  theLastStoryPc,
+  skywardSwordPc,
+  monsterHunter3UltimatePc,
+  conduit2Pc,
+  moonPc,
+  virtualHydlidePc,
+  deltarunePs3,
+  kungFuMasterSnes,
+  superSmashBrosXbox,
+  marioKart64Xbox,
+  rockbotDreamcast,
+  segasonicTheHedgehogDreamcast,
+  celesteClassicGba,
+  coupSegaSaturn,
+  projectPicoriNintendo64,
+  starshipMadnessNintendo64,
+  katawaShoujoGba,
+  superMarioSunshinePs5,
+  wweSmackdownVsRaw2008Ps5,
+  halfLifePs5,
+  pokemonRedBlue3dsGen1recomp,
+  theLedgePsVita,
+  afraidOfMonstersPsVita,
+  brotatoPsVita,
+  iWannaReachTheUnityPsVita,
+  elliSHouse3dsPspGba,
+  emazingMazes3ds,
+  timeTraveler3ds,
+  theSmiler3ds,
+  tilePuzzleUltimate3ds,
+  daytonaUsa3dsPcAndroid,
+  doom3dsPrboom,
+  jezzball3ds,
+  blockoutIi3ds,
+  supertuxDs,
+  cDogsSdlWii,
+  ledheadWii,
+  superMarioWarWii,
+  theMazeWii,
+  wonderfulEverydayPsVita,
+  girlsFrontlinePsVita,
+  cookieClicker3ds,
+  hydraCastleLabyrinthPsp,
+  plumberSDonTWearTiesConsoles,
+  sonicTheHedgehog2MegaDrive,
+  superMario64Ds3ds,
+  papaSPizzeria3ds,
+  touhou6Switch,
+  hybridHeavenPcDanielgomesvieira2000,
+  shadowOfTheColossusPcFrameGeneration,
+  monsterHunterDynamicHuntingPsVita,
+  superMarioBrosRemasteredSwitch,
+  tekkenTagTournament2LinuxWiiUEdition,
+  cutTheRopePsVita,
+  battletanxPcBdragoncore,
+  armyMenSargeSHeroesPc,
+  diddyKongRacingPcCyscott,
+  starFox64Xbox,
+  lugaruDreamcast,
+  touhouCollectionPs4,
+  athenaCrisisPsp,
+  beatBangerPsVita,
+  bikeRaceProPsVita,
+  minicraftWii,
+  arcRiseFantasiaPc,
+  dragonQuestSwordsPc,
+  sopwithWii,
+  powderWii,
+  deltaruneChapter1Wii,
+  superKawaiBreakupSim3ds,
+  jezzballWiiU,
+  zombieOutbreakSimulator3ds,
+  hashiPsVita,
+  conker64Recompiled,
+  gearsOfWar2Pc,
+  burnoutCrashPc,
+  scoobyDooNightOf100FrightsPc,
+  scoobyDooUnmaskedPc,
+  streetsOfRageRemasterDreamcast,
+  animalCrossingAnbernicHandhelds,
+  animalCrossingXbox,
+  animalCrossingDreamcast,
+  tomJerryWarOfTheWhiskersPc,
+  superSmashBrosPsp,
+  minecraftPocketEdition3ds,
+  starWarsTheCloneWarsPc,
+  starWarsBattlefrontRenegadeSquadronPc,
+  tekkenPc,
+  wwfSmackdown2KnowYourRolePc,
+  splosionManPc,
+  falloutPs3,
+  projectIGIPsVita,
+  earthwormJimHdPc,
+  digimonWorld3PcFeerdus95,
+  chronoTriggerPc,
+  skateItPsp,
+  snatcherPsp,
+  lsdRevampedPsVita,
+  mystDs,
+  rivenDs,
+  illusionOfGaiaPc,
+  mcdonaldSTreasureLandAdventurePc,
+  fiveNightsAtFreddyS2WiiU,
+  superDodgeBallPc,
+  nhlHockey94Pc,
+  diddyKongRacingWii,
+  twilightPrincessHdMacos,
+  fZeroX3ds,
+  srb2kartPsVita,
+  streetFighterIvChampionEditionPsVita,
+  _3dPinballSpaceCadetPsp,
+  animalCrossingPs3,
+  quakeWii,
+  soulcaliburPc,
+  deltarune3dsRanchBlad,
+  purgatoryNarakuPsp,
+  apotrisPsp,
+  princeOfPersia3ds,
+  starWarsDarkForces3ds,
+  superMetroidDs,
+  doom2dGba,
+  superMarioBrosSwitch,
+  dusklightPs4,
+
+
+
+  prxshotPspScreenshotPlugin,
+  pspKillswitchPlugin,
+  mschangePspPlugin,
+  missyhudPspPlugin,
+  gpsemuPspPlugin,
+  pspsysmonPspPlugin,
+  pspwaveXmbWaveEditor,
+  psp5GameLauncherForPsp,
+  storestationPspAppsAndPluginsStore,
+  arkPluginConverter,
+  sandstoneEnginePspGameEngine,
+  pocketGameMakerPspEngine,
+  fpkgiPackageManager,
+  vitagrafixPsVitaPlugin,
+  vitaUdcdUvcPsVitaPlugin,
+  psvitaStoragemgrPlugin,
+  ds4vitaPsVitaPlugin,
+  rincheatPsVitaPlugin,
+  vitabrightPsVitaPlugin,
+  gohanmemPsVitaCheatPlugin,
+  vitaNearestNeighbourPlugin,
+  _8bitvitaPsVitaPlugin,
+  vitaRecorderPsVitaPlugin,
+  eqvitaPsVitaAudioPlugin,
+  ps4LinkControlsPsVitaPlugin,
+  gr544pPsVitaPlugin,
+  psVitaUsbAudioMidiPlugin,
+  controlmole3dsPlugin,
+  spelunkyPspHomebrewRemake,
+  openstrikePsp,
+  pocketVoxelPspPsVitaWeb,
+  battleGrounds3Psp,
+  gothsNVampsPsp,
+  mudkipAdventuresPsp,
+  jokerPokerPsp,
+  tobuTobuGirlGameBoy,
+  tobuTobuGirlDxGameBoyColor,
+  evolandGbDemake,
+  petrisGameBoyColor,
+  airakiGameBoy,
+  googleDinoGameBoyAdvance,
+  spaceRescueSquadSnes,
+  bomberworldSnes,
+  cryptoslasherSnes,
+  tetrisMdMegaDrive,
+  megaCarWarsMegaDrive,
+  willowSDreamMegaDrive,
+  wertactics3ds,
+  novaTheSquirrelNes,
+  fromBelowNes,
+  snakeNesHomebrew,
+  filthyKitchenNes,
+  mirohNes,
+  _8BitTableTennisNes,
+  roborunNes,
+  crossconnectGameBoyColor,
+  crucibleExeGameBoyColor,
+  moonwakeGameBoyColor,
+  starfallSalvageGameBoyColor,
+  dreadhollowManorGameBoyColor,
+  guardaConLasGbcGameBoyColor,
+  solarGuardGameBoyAdvance,
+  etchySketchyGameBoyAdvance,
+  snekGameBoyAdvance,
+  megaDriveInvadersSnes,
+  eucThrillsSnes,
+  coquiSnes,
+  caveStoryMegaDrive,
+  speedrunTowerMegaDrive,
+  kumiDaikoBeatoff64Nintendo64,
+  superbounce64Nintendo64,
+  pong64Nintendo64,
+  dreamcastHomebrewCollectionDreamcast,
+  asteroidsTerraSegaSaturn,
+  virtuaSkimmerSegaSaturn,
+  unGamePlaystation,
+  bottomlessBlockBarrage3ds,
+  flappyBird3dsHomebrew,
+  robinHoodSPlatformGame3ds,
+  jetSki3ds,
+  _20483ds,
+  petTheCat3ds,
+  emberclutch3ds,
+  sameGame3ds,
+  sudokulWii,
+  trogdorReburninatedWii,
+  untitledSandGameWiiU,
+  multidrcSpaceDemoWiiU,
+  lightsOutWii,
+  othelloWiiU,
+  fluctusWiiU,
+  gamearcadeSwitch,
+  slitherlinknxSwitch,
+  pinballNxSwitch,
+  _2planesSwitch,
+  miichanicLuma3dsPlugin,
+  minecraft3dsMegapackPlugin3ds,
+  ctrcomposer3dsPluginFramework,
+  luma3dsPluginLoaderScript3ds,
+  luma3dsPluginLoader3ds,
+  papayaHudWiiUAromaPlugin,
+  tcpgeckoAromaWiiUPlugin,
+  justgetmiionlineWiiUAromaPlugin,
+  riibootmiiWiiUAromaPlugin,
+  vinoConfigPatcherWiiUAromaPlugin,
+  wiiredxWiiUAromaPlugin,
+  switchpresenceSwitchSysmodule,
+  switchpresenceRewrittenSwitchSysmodule,
+  pngshotSwitchSysmodule,
+  key2conSwitchSysmodule,
+  nxScreenuploaderSwitchSysmodule,
+  tailscaleNxSwitchSysmodule,
+  sysdvrUvcCaptureSwitchSysmodule,
+  nxGamehideSwitchSysmodule,
+  conkerSBadFurDayReloaded,
+  infamousSecondSonPc,
+  theLastGuardianPc,
+  gravityRush2Pc,
+  dragonSCrownProPc,
+  eaSportsUfc3Pc,
+  medievil2019Pc,
+  bloodborneMacos,
+  unicornOverlordPc,
+  legoDimensionsPc,
+  theOrder1886Pc,
+  gravityRushRemasteredPc,
+  shipOfHarkinianPs4,
+  prototypePc,
+  infamous2Pc,
+  drakengard3Pc,
+  armoredCoreForAnswerPc,
+  armoredCore4Pc,
+  godOfWarAscensionPc,
+  twistedMetal2012Pc2,
+  shadowOfTheColossusPs3Pc,
+  ratchetClankPc,
+  killzonePc,
+  urbanReignPc,
+  godOfWarPs2Pc,
+  downhillDominationPc,
+  granTurismo4Pc,
+  crashTwinsanityPc,
+  wayOfTheSamurai2Pc,
+  shadowOfTheColossusPs2Decomp,
+  shadowOfTheColossusCelosia,
+  jakAndDaxterThePrecursorLegacyApple,
+  shadowTheHedgehogPc,
+  pokemonEmeraldPs2,
+  needForSpeedUnderground2Gamecube,
+  superPaperMarioPc,
+  sonicUnleashedWiiPc,
+  marioKartWii3ds,
+  persona3Portable3ds,
+  balatro3dsHomebrew,
+  conkerSBadFurDayPc,
+  donkeyKong64Switch,
+  needForSpeedUnderground2Switch,
+  needForSpeedUndergroundSwitch,
+  needForSpeedCarbonSwitch,
+  plantsVsZombies2Switch,
+  sonicTheHedgehog4EpisodeIiSwitch,
+  crazyTaxiClassicSwitch,
+  pes2013Switch,
+  linkSAwakeningPc,
+  windowSmash,
+  segaRallyPort0r,
+  lotrReturnOfTheKingRecomp,
+  lotrTwoTowersRecomp,
+  soulcaliburIiHdRecomp,
+  starcraft64Recomp,
+  ssf2tHdRemixRecomp,
+  prototypeSwitch,
+  prototype2Switch,
+  heartOfDarknessPort,
+  touhou6Vita,
+  inotia3Vita,
+  buckshotRouletteVita,
+  bomberman64Switch,
+  birdAndBeansWii,
+  supertuxWii,
+  hexenIi3ds,
+  pokemonEmeraldPsp,
+  sm64Psp,
+  cavex,
+  gxcraft,
+  craftusReloaded,
+  threeDstris,
+  pingo,
+  splatoon3ds,
+  platformShooterPsp,
+  vitaTetris,
+  cps2Recomp,
+  demonsSoulsPs5Pc,
+  shaolinmonksrecompPc,
+  fifaStreetPcPortPc,
+  gearsJudgmentRecomp,
+  lostOdysseyHdRemaster,
+  massEffectNx,
+  defJamVendettaRecomp,
+  burnout2Recompilation,
+  black2006Recomp,
+  ridgeRacerVFukami,
+  sonicCdDecompilation,
+  projectMidasPc,
+  medalOfHonorPsxRecompPc,
+  granTurismoSportRygtPc,
+  finesthourremasteredPc,
+  burnout3Takedawn,
+  residentEvil3Revisited,
+  swrotsPcPc,
+  silentHill2Sh2Nx,
+  skullburglarPc,
+  laytonMansionMirrorPc,
+  marvelNemesisRecompPc,
+  pokemonHeartgoldSoulsilverRecomp,
+  bayonetta2Recomp,
+  godOfWarGhostOfSpartaPc,
 ];

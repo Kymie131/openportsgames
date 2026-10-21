@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const spaceRescueSquadSnes: Port = {
+  schema: "port",
+  id: "space-rescue-squad-snes",
+  title: "Space Rescue Squad (SNES)",
+  game: "Space Rescue Squad",
+  developers: ["undisbeliever"],
+  publisher: "Homebrew",
+  originalYear: 2023,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["snes"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/undisbeliever/space-rescue-squad"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Space Rescue Squad (Homebrew, 2023) running on snes through source port. Latest release: game-jam-v1.1. You need your own copy of the game.",
+  notesEs: "Space Rescue Squad (Homebrew, 2023) en snes mediante port de código. Última release: game-jam-v1.1. Necesitas tu propia copia del juego.",
+};

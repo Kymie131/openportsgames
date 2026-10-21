@@ -19,7 +19,8 @@ export const Remc2: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Recode Binary code of game Magic Carpet2 to C/C++ language(remake MC2 for any platform).",
-  notesEs: "Recodificación a C/C++ del código binario de Magic Carpet 2 (remake para cualquier plataforma).",
+  notesEs:
+    "Recodificación a C/C++ del código binario de Magic Carpet 2 (remake para cualquier plataforma).",
 };

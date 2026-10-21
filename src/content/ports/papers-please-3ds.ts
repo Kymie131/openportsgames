@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const papersPlease3ds: Port = {
+  schema: "port",
+  id: "papers-please-3ds",
+  title: "Papers, Please (3DS)",
+  game: "Papers, Please",
+  developers: ["sunnyhoang314"],
+  publisher: "3909",
+  originalYear: 2013,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sunnyhoang314/Papers-Please-N3DS"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/239030/header.jpg",
+    alt: "Papers, Please (cover art)",
+    credit: "Steam",
+  },
+  notes: "Papers, Please (3909, 2013) running on Nintendo 3DS through source port. You need your own copy of the game.",
+  notesEs: "Papers, Please (3909, 2013) en Nintendo 3DS mediante port de código. Necesitas tu propia copia del juego.",
+};

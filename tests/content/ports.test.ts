@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getPorts, ports, originalSystemOf } from "@/lib/ports";
+import { getPorts, ports, originalSystemsOf } from "@/lib/ports";
 import { todayIso, isBeforeOrOn } from "@/lib/dates";
 
 describe("catalog ports", () => {
@@ -66,6 +66,52 @@ describe("catalog ports", () => {
       "https://github.com/dxx-rebirth/dxx-rebirth": ["d1x-rebirth", "dxx-rebirth"],
       "https://github.com/elliotttate/DKC3Recomp": ["dkc-recompiled", "dkc3-recomp"],
       "https://github.com/elliotttate/DKC2Recomp": ["dkc-recompiled", "dkc2-recomp"],
+      // Pending fusion: fire-emblem-the-sacred-stones-fireemblem -> fire-emblem-the-sacred-stones.
+      "https://github.com/FireEmblemUniverse/fireemblem8u": [
+        "fire-emblem-the-sacred-stones",
+        "fire-emblem-the-sacred-stones-fireemblem",
+      ],
+      // The upstream repository was renamed, so both entries now point at it.
+      "https://github.com/dsda-org/dsda-doom": ["dsda-doom", "dsda-doom-dsda-org"],
+      "https://github.com/OpenCommunityEdition/OpenCE": ["halo-ce-universal", "opence"],
+      // "Classic Core Engines" is one Android port pack that covers many id/Quake-engine games.
+      // One repository ships both the PC and the reloaded release of Conker's Bad Fur Day.
+      "https://github.com/DahSidiAbdallah/ConkerBFDReloaded": [
+        "conker-s-bad-fur-day-pc",
+        "conker-s-bad-fur-day-reloaded",
+      ],
+      // One repository ships both The Two Towers and The Return of the King.
+      "https://github.com/Shagg88/Athelas": [
+        "lotr-return-of-the-king-recomp",
+        "lotr-two-towers-recomp",
+      ],
+      // One repository ships both Prototype games for the Switch.
+      "https://github.com/fungalspores/prototype-switch": [
+        "prototype-switch",
+        "prototype-2-switch",
+      ],
+      "https://github.com/sandstranger/com.mobilerpgpack.phone": [
+        "chex-quest-classic-core-engines",
+        "classic-core-engines",
+        "doom-3-bfg-edition-classic-core-engines",
+        "doom-64-remastered-classic-core-engines",
+        "doom-classic-core-engines",
+        "doom-ii-classic-core-engines",
+        "doom-playstation-classic-core-engines",
+        "final-doom-playstation-classic-core-engines",
+        "hacx-classic-core-engines",
+        "heretic-classic-core-engines",
+        "hexen-classic-core-engines",
+        "hexen-ii-classic-core-engines",
+        "hexen-ii-portal-of-praevus-classic-core-engines",
+        "openarena-classic-core-engines",
+        "quake-classic-core-engines",
+        "quake-dissolution-of-eternity-classic-core-engines",
+        "quake-ii-classic-core-engines",
+        "quake-iii-arena-classic-core-engines",
+        "quake-scourge-of-armagon-classic-core-engines",
+        "wolfenstein-rpg-classic-core-engines",
+      ],
       // PortsDR is an index; all its entries share one landing page.
       "https://portsdr.com/": [
         "buck-bumble-recomp",
@@ -94,7 +140,7 @@ describe("catalog ports", () => {
 
   it("annotates every port with its original system", () => {
     for (const port of ports) {
-      expect(originalSystemOf(port.id), port.id).toBeTruthy();
+      expect(originalSystemsOf(port.id).length, port.id).toBeGreaterThan(0);
     }
   });
 

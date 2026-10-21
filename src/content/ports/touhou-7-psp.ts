@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const touhou7Psp: Port = {
+  schema: "port",
+  id: "touhou-7-psp",
+  title: "Touhou 7 (PSP)",
+  game: "Touhou 7: Perfect Cherry Blossom",
+  developers: ["kan8223-dotcom"],
+  publisher: "Team Shanghai Alice",
+  originalYear: 2003,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/kan8223-dotcom/th07-psp-native"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Touhou 7: Perfect Cherry Blossom (Team Shanghai Alice, 2003) running on PlayStation Portable through source port. Latest release: v0.2.1-beta. You need your own copy of the game.",
+  notesEs: "Touhou 7: Perfect Cherry Blossom (Team Shanghai Alice, 2003) en PlayStation Portable mediante port de código. Última release: v0.2.1-beta. Necesitas tu propia copia del juego.",
+};

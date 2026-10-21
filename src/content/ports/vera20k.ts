@@ -19,7 +19,7 @@ export const Vera20k: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Red Alert 2: Yuri's Revenge rebuilt in Rust / 用 Rust 重写的《红警2：尤里的复仇》.",
   notesEs: "Red Alert 2: Yuri's Revenge reconstruido en Rust.",
 };

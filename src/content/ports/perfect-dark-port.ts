@@ -17,7 +17,7 @@ export const perfectDarkPort: Port = {
   sources: ["https://github.com/perfect-dark-pc-port/perfect_dark"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   features: [
     "Port of the matching N64 decompilation to modern platforms",
     "Widescreen, mouselook and dual analog support",

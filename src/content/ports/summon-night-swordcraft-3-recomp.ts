@@ -18,7 +18,7 @@ export const summonNightSwordcraft3Recomp: Port = {
   sources: ["https://github.com/Nicktendonick/SummonNightSwordcraftStory3Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   notes:
     "Static recompilation of Summon Night: Craft Sword Monogatari - Hajimari no Ishi (GBA) with the gbarecomp framework. It requires your own game data.",
   notesEs:

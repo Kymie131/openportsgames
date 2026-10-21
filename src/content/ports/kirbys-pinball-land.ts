@@ -19,12 +19,14 @@ export const KirbysPinballLand: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/ee/Kirbys-Pinball-Land-Gameboy-Boxart.png",
     alt: "Kirby's Pinball Land (cover)",
     credit: "Wikipedia",
   },
-  notes: "A fan-made recompilation of Kirby's Pinball Land for modern systems. Requires the user's own legally obtained ROM. No copyrighted ROM or Nintendo/HAL Laboratory assets are included. Supports fullscreen with Alt+Enter, keyboard controls, and community contributions. Switch 2 support may be considered where possible.",
-  notesEs: "Recompilación hecha por fans de Kirby's Pinball Land para sistemas modernos. Requiere que el usuario aporte su propia ROM obtenida legalmente. No incluye ROM ni recursos con derechos de autor.",
+  notes:
+    "A fan-made recompilation of Kirby's Pinball Land for modern systems. Requires the user's own legally obtained ROM. No copyrighted ROM or Nintendo/HAL Laboratory assets are included. Supports fullscreen with Alt+Enter, keyboard controls, and community contributions. Switch 2 support may be considered where possible.",
+  notesEs:
+    "Recompilación hecha por fans de Kirby's Pinball Land para sistemas modernos. Requiere que el usuario aporte su propia ROM obtenida legalmente. No incluye ROM ni recursos con derechos de autor.",
 };

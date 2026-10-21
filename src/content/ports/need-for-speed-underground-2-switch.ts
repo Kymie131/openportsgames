@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const needForSpeedUnderground2Switch: Port = {
+  schema: "port",
+  id: "need-for-speed-underground-2-switch",
+  title: "Need for Speed: Underground 2 (Switch)",
+  game: "Need for Speed: Underground 2",
+  developers: ["antoxa2584x"],
+  publisher: "EA Black Box",
+  originalYear: 2004,
+  portType: "runtime-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/antoxa2584x/nfsu2-sw"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/10/Nfsu2-win-cover.jpg",
+    alt: "Need for Speed: Underground 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Need for Speed: Underground 2 (EA Black Box, 2004) running on Nintendo Switch through runtime layer. Latest release: v0.5.13. You need your own copy of the game.",
+  notesEs: "Need for Speed: Underground 2 (EA Black Box, 2004) en Nintendo Switch mediante capa de ejecución. Última release: v0.5.13. Necesitas tu propia copia del juego.",
+};

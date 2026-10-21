@@ -8,6 +8,7 @@ export const Ares: Port = {
   publisher: "Unknown",
   originalYear: 2000,
   portType: "decompilation",
+  kind: "tool",
   genre: "platformer",
   openSource: true,
   originalGameLicense: "proprietary",
@@ -18,7 +19,7 @@ export const Ares: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "ares is a cross-platform, open source, multi-system emulator, focusing on accuracy and preservation.",
   notesEs: "ares es un emulador multi-sistema de código abierto y multiplataforma, centrado en la precisión y la preservación.",
 };

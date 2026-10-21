@@ -19,7 +19,7 @@ export const TyTheTasmanianTiger: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/62/Ty_the_Tasmanian_Tiger_Coverart.jpg",
     alt: "Ty the Tasmanian Tiger (box art)",

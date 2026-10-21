@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const doomPlaystationClassicCoreEngines: Port = {
+  schema: "port",
+  id: "doom-playstation-classic-core-engines",
+  title: "Doom (PlayStation, Classic Core Engines)",
+  game: "Doom (Playstation)",
+  developers: ["sandstranger"],
+  publisher: "id Software",
+  originalYear: 1995,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sandstranger/com.mobilerpgpack.phone"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Doom (Playstation) (id Software, 1995) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (.bin and .cue files).",
+  notesEs: "Doom (Playstation) (id Software, 1995) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
+};

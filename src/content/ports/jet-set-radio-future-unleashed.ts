@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jetSetRadioFutureUnleashed: Port = {
+  schema: "port",
+  id: "jet-set-radio-future-unleashed",
+  title: "Jet Set Radio Future Unleashed",
+  game: "Jet Set Radio Future",
+  developers: ["JuMatt"],
+  publisher: "Sega",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/JuMatt/JetSetRadioFuture-Unleashed"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7a/JetSetRadioFuturebox.jpg",
+    alt: "Jet Set Radio Future (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Jet Set Radio Future (Xbox, 2002) running natively on PC and Android. Bring your own copy of the game. Latest release: v0.4.7.",
+  notesEs: "Jet Set Radio Future (Xbox, 2002) funcionando de forma nativa en PC y Android. Aporta tu propia copia del juego. Última release: v0.4.7.",
+};

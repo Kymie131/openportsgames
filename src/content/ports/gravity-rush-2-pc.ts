@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gravityRush2Pc: Port = {
+  schema: "port",
+  id: "gravity-rush-2-pc",
+  title: "Gravity Rush 2 (PC)",
+  game: "Gravity Rush 2",
+  developers: ["HayatoG"],
+  publisher: "SIE Japan Studio",
+  originalYear: 2017,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/HayatoG/gr2_pc"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/94/Gravity_Rush_2.jpg",
+    alt: "Gravity Rush 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Gravity Rush 2 (SIE Japan Studio, 2017) running on Windows through runtime layer. Latest release: v2026.10.17-fd637d0. You need your own copy of the game.",
+  notesEs: "Gravity Rush 2 (SIE Japan Studio, 2017) en Windows mediante capa de ejecución. Última release: v2026.10.17-fd637d0. Necesitas tu propia copia del juego.",
+};

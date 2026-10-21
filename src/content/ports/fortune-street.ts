@@ -20,7 +20,7 @@ export const FortuneStreet: Port = {
   verified: false,
   wip: true,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/2f/FortuneStreet.jpg",
     alt: "Fortune Street (box art)",

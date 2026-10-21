@@ -37,4 +37,5 @@ export const openRct2: Port = {
     alt: "RollerCoaster Tycoon 2 (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["Windows"],
 };

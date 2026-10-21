@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const openXcomAndroid: Port = {
+  schema: "port",
+  id: "open-xcom-android",
+  title: "Open XCom Android",
+  game: "XCom: UFO Defense",
+  developers: ["sfalexrog"],
+  publisher: "MicroProse",
+  originalYear: 1994,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sfalexrog/openxcom-android"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "XCom: UFO Defense (MicroProse, 1994) for Android (source port). Latest release: v0.2. Needs your own copy of the game (Game Files).",
+  notesEs: "XCom: UFO Defense (MicroProse, 1994) para Android (port de código). Última release: v0.2. Necesita tu propia copia del juego.",
+};

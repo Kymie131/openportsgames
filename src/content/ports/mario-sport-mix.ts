@@ -19,7 +19,7 @@ export const MarioSportMix: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Mario Sport Mix decompilation.",
   notesEs: "Decompilación de Mario Sport Mix.",
 };

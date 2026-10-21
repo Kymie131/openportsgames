@@ -19,7 +19,7 @@ export const PokemonPlatinum: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/ca/Pokemon_Platinum.png",
     alt: "Pokemon Platinum (box art)",

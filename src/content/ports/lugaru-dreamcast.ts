@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const lugaruDreamcast: Port = {
+  schema: "port",
+  id: "lugaru-dreamcast",
+  title: "Lugaru (Dreamcast)",
+  game: "Lugaru",
+  developers: ["dressupgeekout"],
+  publisher: "Wolfire Games",
+  originalYear: 2005,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["dreamcast"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/dressupgeekout/lugarudc"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Lugaru (Wolfire Games, 2005) running on dreamcast through source port. You need your own copy of the game.",
+  notesEs: "Lugaru (Wolfire Games, 2005) en dreamcast mediante port de código. Necesitas tu propia copia del juego.",
+};

@@ -19,7 +19,12 @@ export const ShadowTheHedgehog: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/41/ShadowTheHedgehogSA2.png",
+    alt: "Shadow the Hedgehog (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Decompilation of Shadow the Hedgehog (Other).",
   notesEs: "Decompilación de Shadow the Hedgehog (Other).",
 };

@@ -20,12 +20,13 @@ export const GoldenSunTheBrokenSeal: Port = {
   verified: false,
   wip: true,
   sourceVerified: true,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/f8/Golden_Sun_video_game_box_art.jpg",
     alt: "Golden Sun: The Broken Seal (cover)",
     credit: "Wikipedia",
   },
   notes: "Work-in-progress decompilation of Golden Sun (GBA, 2001). Builds a byte-identical ROM.",
-  notesEs: "Decompilación de Golden Sun (GBA, 2001), en desarrollo. Genera una ROM idéntica byte a byte.",
+  notesEs:
+    "Decompilación de Golden Sun (GBA, 2001), en desarrollo. Genera una ROM idéntica byte a byte.",
 };

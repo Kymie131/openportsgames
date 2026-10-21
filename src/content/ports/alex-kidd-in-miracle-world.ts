@@ -19,7 +19,7 @@ export const AlexKiddInMiracleWorld: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Sega Master System"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/ae/AlexKiddInMiracleWorldBox.jpg",
     alt: "Alex Kidd in Miracle World (box art)",

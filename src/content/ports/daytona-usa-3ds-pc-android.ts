@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const daytonaUsa3dsPcAndroid: Port = {
+  schema: "port",
+  id: "daytona-usa-3ds-pc-android",
+  title: "Daytona USA (3DS, PC, Android)",
+  game: "Daytona USA",
+  developers: ["wigwoo1"],
+  publisher: "Sega",
+  originalYear: 1994,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds","windows","android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/wigwoo1/daytona-arcade-port"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Arcade"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c2/Daytona_USA_arcade_flyer.jpg",
+    alt: "Daytona USA (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Daytona USA (Sega, 1994) running on Nintendo 3DS and Windows and Android through source port. You need your own copy of the game.",
+  notesEs: "Daytona USA (Sega, 1994) en Nintendo 3DS and Windows and Android mediante port de código. Necesitas tu propia copia del juego.",
+};

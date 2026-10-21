@@ -18,7 +18,7 @@ export const nuggetDoom: Port = {
   license: { spdx: "GPL-2.0" },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   features: [
     "Modern renderer with shadows and reflections",
     "Extensive modding and scripting support",

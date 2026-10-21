@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ghostshipAndroid: Port = {
+  schema: "port",
+  id: "ghostship-android",
+  title: "Ghostship (Android)",
+  game: "Super Mario 64",
+  developers: ["izzy2lost"],
+  publisher: "Nintendo",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/izzy2lost/Ghostship"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
+    alt: "Super Mario 64 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Super Mario 64 (Nintendo, 1996) for Android (source port). Latest release: 1.0.1. Needs your own copy of the game (Ghostship folder).",
+  notesEs: "Super Mario 64 (Nintendo, 1996) para Android (port de código). Última release: 1.0.1. Necesita tu propia copia del juego.",
+};

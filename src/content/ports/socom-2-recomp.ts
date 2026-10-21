@@ -18,7 +18,7 @@ export const socom2Recomp: Port = {
   sources: ["https://github.com/Scotho/socom-unzipped"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   notes:
     "Static recompilation of SOCOM II: U.S. Navy SEALs (PlayStation 2) to PC, with self-hosted online play. It requires the game itself.",
   notesEs:

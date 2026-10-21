@@ -23,13 +23,13 @@ export const librelancer: Port = {
   },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   features: ["Reimplementation of the Freelancer engine", "Cross-platform C++ codebase"],
   featuresEs: ["Reimplementación del motor de Freelancer", "Base de código C++ multiplataforma"],
   notes:
-    "Engine reimplementation for Freelancer. The repository ships an MIT LICENSE file even though the GitHub license field reports NOASSERTION.",
+    "Engine reimplementation for Freelancer. The repository ships an MIT LICENSE file even though the GitHub license field reports NOASSERTION. The upstream repository is archived (read-only).",
   notesEs:
-    "Reimplementación del motor de Freelancer. El repositorio incluye un archivo LICENSE MIT aunque el campo de licencia de GitHub informa NOASSERTION.",
+    "Reimplementación del motor de Freelancer. El repositorio incluye un archivo LICENSE MIT aunque el campo de licencia de GitHub informa NOASSERTION. El repositorio original está archivado (solo lectura).",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/4d/Fl_box.jpg",
     alt: "Freelancer (box art)",

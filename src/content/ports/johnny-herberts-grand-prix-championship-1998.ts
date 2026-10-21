@@ -19,7 +19,8 @@ export const JohnnyHerbertsGrandPrixChampionship1998: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
-  notes: "Decompilation of Johnny Herbert's Grand Prix Championship 1998 (Other).",
-  notesEs: "Decompilación de Johnny Herbert's Grand Prix Championship 1998 (Other).",
+  sourceDead: true,
+  originalSystems: ["Unknown"],
+  notes: "Decompilation of Johnny Herbert's Grand Prix Championship 1998 (Other). The upstream repository is no longer available.",
+  notesEs: "Decompilación de Johnny Herbert's Grand Prix Championship 1998 (Other). El repositorio original ya no está disponible.",
 };

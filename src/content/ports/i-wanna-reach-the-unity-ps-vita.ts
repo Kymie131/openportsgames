@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const iWannaReachTheUnityPsVita: Port = {
+  schema: "port",
+  id: "i-wanna-reach-the-unity-ps-vita",
+  title: "I Wanna Reach The Unity (PS Vita)",
+  game: "I Wanna Reach The Unity",
+  developers: ["MEGAgameBoy"],
+  publisher: "Fan game",
+  originalYear: 2015,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/MEGAgameBoy/I-Wanna-Reach-The-Unity-PS-Vita-Port"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "I Wanna Reach The Unity (Fan game, 2015) running on PlayStation Vita through source port. Latest release: 1.0. You need your own copy of the game.",
+  notesEs: "I Wanna Reach The Unity (Fan game, 2015) en PlayStation Vita mediante port de código. Última release: 1.0. Necesitas tu propia copia del juego.",
+};

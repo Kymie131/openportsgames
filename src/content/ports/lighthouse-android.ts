@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const lighthouseAndroid: Port = {
+  schema: "port",
+  id: "lighthouse-android",
+  title: "Lighthouse (Android)",
+  game: "Banjo-Kazooie",
+  developers: ["izzy2lost"],
+  publisher: "Nintendo",
+  originalYear: 1998,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/izzy2lost/Lighthouse"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  notes: "Banjo-Kazooie (Nintendo, 1998) for Android (source port). Latest release: 1.0.2. Needs your own copy of the game (Banjo-Kazooie (USA) (Rev 1).z64).",
+  notesEs: "Banjo-Kazooie (Nintendo, 1998) para Android (port de código). Última release: 1.0.2. Necesita tu propia copia del juego.",
+};

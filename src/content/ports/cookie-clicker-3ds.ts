@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const cookieClicker3ds: Port = {
+  schema: "port",
+  id: "cookie-clicker-3ds",
+  title: "Cookie Clicker (3DS)",
+  game: "Cookie Clicker",
+  developers: ["GabrielRRussell"],
+  publisher: "Orteil",
+  originalYear: 2013,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/GabrielRRussell/CookieCollector-3DS-"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1454400/header.jpg",
+    alt: "Cookie Clicker (cover art)",
+    credit: "Steam",
+  },
+  notes: "Cookie Clicker (Orteil, 2013) running on Nintendo 3DS through source port. Latest release: v1.6.0. You need your own copy of the game.",
+  notesEs: "Cookie Clicker (Orteil, 2013) en Nintendo 3DS mediante port de código. Última release: v1.6.0. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const skywardSwordPc: Port = {
+  schema: "port",
+  id: "skyward-sword-pc",
+  title: "Skyward Sword (PC)",
+  game: "The Legend of Zelda: Skyward Sword",
+  developers: ["Kyra422"],
+  publisher: "Nintendo",
+  originalYear: 2011,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Kyra422/skybreak"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Wii"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/99/Legend_of_Zelda_Skyward_Sword_boxart.png",
+    alt: "The Legend of Zelda: Skyward Sword (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Legend of Zelda: Skyward Sword (Nintendo, 2011) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "The Legend of Zelda: Skyward Sword (Nintendo, 2011) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

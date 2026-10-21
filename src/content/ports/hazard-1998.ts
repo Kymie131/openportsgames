@@ -19,7 +19,7 @@ export const Hazard1998: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Hazard 1998 (Other).",
   notesEs: "Decompilación de Hazard 1998 (Other).",
 };

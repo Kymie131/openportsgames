@@ -18,7 +18,7 @@ export const vpw64Recomp: Port = {
   sources: ["https://github.com/jessetbh/VPW64Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Static recompilation of Virtual Pro Wrestling 64 (N64) with N64Recomp and the RT64 renderer. It requires the original game.",
   notesEs:

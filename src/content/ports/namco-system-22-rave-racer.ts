@@ -18,7 +18,7 @@ export const namcoSystem22RaveRacer: Port = {
   license: { spdx: "MIT" },
   verified: true,
   verifiedAt: "2026-10-14",
-  originalSystem: "Namco System 22",
+  originalSystems: ["Namco System 22"],
   features: [
     "Playable races with sound",
     "Windows and Linux packages on the releases page, no building needed",

@@ -18,7 +18,7 @@ export const superMarioAdvance4Recomp: Port = {
   sources: ["https://github.com/mstan/SuperMarioAdvance4Recomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   notes:
     "Static recompilation of Super Mario Advance 4: Super Mario Bros. 3 (GBA) with the gbarecomp framework. It requires the original game.",
   notesEs:

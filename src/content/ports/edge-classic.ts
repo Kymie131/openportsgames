@@ -19,7 +19,8 @@ export const EdgeClassic: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Cross-Platform OpenGL Doom Source Port with powerful modding features.",
-  notesEs: "Port de código fuente de Doom con OpenGL y multiplataforma, con potentes funciones de modding.",
+  notesEs:
+    "Port de código fuente de Doom con OpenGL y multiplataforma, con potentes funciones de modding.",
 };

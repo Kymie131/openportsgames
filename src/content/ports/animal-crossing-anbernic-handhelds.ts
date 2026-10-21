@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const animalCrossingAnbernicHandhelds: Port = {
+  schema: "port",
+  id: "animal-crossing-anbernic-handhelds",
+  title: "Animal Crossing (Anbernic handhelds)",
+  game: "Animal Crossing",
+  developers: ["TechProGabe"],
+  publisher: "Nintendo",
+  originalYear: 2001,
+  portType: "recompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["linux"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/TechProGabe/OpenCrossing-Anbernic"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  notes: "Animal Crossing (Nintendo, 2001) running on Linux through static recompilation. Latest release: v0.5.0. You need your own copy of the game.",
+  notesEs: "Animal Crossing (Nintendo, 2001) en Linux mediante recompilación estática. Última release: v0.5.0. Necesitas tu propia copia del juego.",
+};

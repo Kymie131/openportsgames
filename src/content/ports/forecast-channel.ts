@@ -15,11 +15,11 @@ export const forecastChannel: Port = {
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
   release: { version: null, date: null },
-  sources: ["https://github.com/GuestDreemurr/forecast"],
+  sources: ["https://github.com/doldecomp/forecast"],
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Wii",
+  originalSystems: ["Wii"],
   notes:
     "Decompilation of the Wii's Forecast Channel (USA/NTSC v7). It is system software, not a game. A research codebase; it requires files from a console you own.",
   notesEs:

@@ -19,7 +19,7 @@ export const BumpysArcadeFantasy: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Arcade",
+  originalSystems: ["Arcade"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/0d/Bumpy_Cover_Art.jpg",
     alt: "Bumpy's Arcade Fantasy (cover)",

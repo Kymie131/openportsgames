@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ctrNativeAndroid: Port = {
+  schema: "port",
+  id: "ctr-native-android",
+  title: "Crash Team Racing (Android)",
+  game: "Crash Team Racing",
+  developers: ["Simon358"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Simon358/ctr-native-android"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  related: ["ctr-native"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/4f/CrashTeamRacingNACover.png",
+    alt: "Crash Team Racing (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Android port of the Crash Team Racing decompilation project (PS1, 1999). Bring your own disc. Latest release: Android-Build4.",
+  notesEs: "Port para Android del proyecto de decompilación de Crash Team Racing (PS1, 1999). Aporta tu propio disco. Última release: Android-Build4.",
+};

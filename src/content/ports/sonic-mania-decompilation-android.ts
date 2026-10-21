@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sonicManiaDecompilationAndroid: Port = {
+  schema: "port",
+  id: "sonic-mania-decompilation-android",
+  title: "Sonic Mania Decompilation (Android)",
+  game: "Sonic Mania Plus",
+  developers: ["RSDKModding"],
+  publisher: "Sega",
+  originalYear: 2017,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/RSDKModding/RSDKv5-Decompilation"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Sonic Mania Plus (Sega, 2017) for Android (decompilation). Latest release: v1.1.1. Needs your own copy of the game (Game Files).",
+  notesEs: "Sonic Mania Plus (Sega, 2017) para Android (decompilación). Última release: v1.1.1. Necesita tu propia copia del juego.",
+};

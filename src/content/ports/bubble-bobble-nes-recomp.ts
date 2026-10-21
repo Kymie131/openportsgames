@@ -18,7 +18,7 @@ export const bubbleBobbleNesRecomp: Port = {
   sources: ["https://github.com/Junior-Jones/Bubble-Bobble-NES-Static-Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Nintendo Entertainment System",
+  originalSystems: ["Nintendo Entertainment System"],
   notes:
     "Static recompilation of Bubble Bobble (NES) for Windows 10 and 11. The ROM is not included, so you need your own copy.",
   notesEs:

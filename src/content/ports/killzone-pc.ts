@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const killzonePc: Port = {
+  schema: "port",
+  id: "killzone-pc",
+  title: "Killzone (PC)",
+  game: "Killzone",
+  developers: ["drakolordx7"],
+  publisher: "Guerrilla Games",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/drakolordx7/KillzoneRecomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 2"],
+  notes: "Killzone (Guerrilla Games, 2004) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Killzone (Guerrilla Games, 2004) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

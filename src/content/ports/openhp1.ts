@@ -18,7 +18,7 @@ export const openhp1: Port = {
   sources: ["https://github.com/SplittyDev/openhp1"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Open reimplementation of the PC version of Harry Potter and the Philosopher's Stone. It requires the original game files to run.",
   notesEs:

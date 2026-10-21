@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const twistedMetal14Pc: Port = {
+  schema: "port",
+  id: "twisted-metal-1-4-pc",
+  title: "Twisted Metal 1-4 (PC)",
+  game: "Twisted Metal",
+  developers: ["jcoker85"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 1995,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/jcoker85/TwistedMetal1234Recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  notes: "Twisted Metal (Sony Computer Entertainment, 1995) running on Windows through static recompilation. Latest release: v1.0.0. You need your own copy of the game.",
+  notesEs: "Twisted Metal (Sony Computer Entertainment, 1995) en Windows mediante recompilación estática. Última release: v1.0.0. Necesitas tu propia copia del juego.",
+};

@@ -19,7 +19,7 @@ export const EarthboundPhaseDistorter: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "A Mother 2/EarthBound PC Port.",
   notesEs: "Un port para PC de Mother 2 / EarthBound.",
 };

@@ -19,7 +19,7 @@ export const RomanovsVengeance: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Romanov's Vengeance is an OpenRA mod based on Red Alert 2.",
   notesEs: "Romanov's Vengeance es un mod de OpenRA basado en Red Alert 2.",
 };

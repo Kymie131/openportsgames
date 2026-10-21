@@ -18,7 +18,7 @@ export const Legoland: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Legoland (Other).",
   notesEs: "Decompilación de Legoland (Other).",
 };

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const neonValley3ds: Port = {
+  schema: "port",
+  id: "neon-valley-3ds",
+  title: "Neon Valley (3DS)",
+  game: "Neon Valley",
+  developers: ["Cracko298"],
+  publisher: "Fan game",
+  originalYear: 2019,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Cracko298/NeonValley3DS"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "Neon Valley (Fan game, 2019) running on Nintendo 3DS through source port. Latest release: v0.6.3. You need your own copy of the game.",
+  notesEs: "Neon Valley (Fan game, 2019) en Nintendo 3DS mediante port de código. Última release: v0.6.3. Necesitas tu propia copia del juego.",
+};

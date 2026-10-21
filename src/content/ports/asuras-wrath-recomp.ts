@@ -19,7 +19,7 @@ export const asurasWrathRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Static recompilation of Asura's Wrath (Xbox 360) for Windows. It needs your own copy of the game.",
   notesEs:

@@ -19,7 +19,14 @@ export const SpaceStation14: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
-  notes: "A multiplayer game about paranoia and chaos on a space station. Remake of the cult-classic Space Station 13.",
-  notesEs: "Juego multijugador sobre paranoia y caos en una estación espacial. Remake del clásico de culto Space Station 13.",
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1255460/header.jpg",
+    alt: "Space Station 14 (cover art)",
+    credit: "Steam",
+  },
+  notes:
+    "A multiplayer game about paranoia and chaos on a space station. Remake of the cult-classic Space Station 13.",
+  notesEs:
+    "Juego multijugador sobre paranoia y caos en una estación espacial. Remake del clásico de culto Space Station 13.",
 };

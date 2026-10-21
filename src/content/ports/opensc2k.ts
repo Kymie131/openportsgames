@@ -15,11 +15,13 @@ export const Opensc2k: Port = {
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
   release: { version: null, date: null },
-  sources: ["https://github.com/nicholas-ochoa/OpenSC2K"],
+  sources: ["https://github.com/OpenSC2K/OpenSC2K"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
-  notes: "OpenSC2K - Open Source remake of Sim City 2000 using rust and godot. Available for macOS, Windows and Linux.",
-  notesEs: "OpenSC2K: remake de código abierto de SimCity 2000 en Rust y Godot. Disponible para macOS, Windows y Linux.",
+  originalSystems: ["Unknown"],
+  notes:
+    "OpenSC2K - Open Source remake of Sim City 2000 using rust and godot. Available for macOS, Windows and Linux.",
+  notesEs:
+    "OpenSC2K: remake de código abierto de SimCity 2000 en Rust y Godot. Disponible para macOS, Windows y Linux.",
 };

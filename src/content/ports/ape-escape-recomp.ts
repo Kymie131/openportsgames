@@ -18,7 +18,7 @@ export const apeEscapeRecomp: Port = {
   sources: ["https://github.com/mstan/ApeEscapeRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Static recompilation of Ape Escape (USA, SCUS-94423) with PSXRecomp. The releases precompile 47 disc overlays and two minigames; two archive members remain unresolved.",
   notesEs:

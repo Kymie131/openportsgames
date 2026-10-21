@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const psVitaUsbAudioMidiPlugin: Port = {
+  schema: "port",
+  id: "ps-vita-usb-audio-midi-plugin",
+  title: "PS Vita USB Audio MIDI (plugin)",
+  game: "PlayStation Vita",
+  developers: ["intermynd-instruments"],
+  publisher: "Sony",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/intermynd-instruments/psvita-usb-audio-midi"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "PlayStation Vita (Sony, 2011) running on PlayStation Vita through source port. Latest release: v0.2. You need your own copy of the game.",
+  notesEs: "PlayStation Vita (Sony, 2011) en PlayStation Vita mediante port de código. Última release: v0.2. Necesitas tu propia copia del juego.",
+};

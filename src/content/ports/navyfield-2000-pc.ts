@@ -19,7 +19,7 @@ export const Navyfield2000Pc: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of NavyField 2000 PC (Other).",
   notesEs: "Decompilación de NavyField 2000 PC (Other).",
 };

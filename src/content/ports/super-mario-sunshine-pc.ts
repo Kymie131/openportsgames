@@ -18,7 +18,7 @@ export const superMarioSunshinePc: Port = {
   sources: ["https://github.com/TekRantGaming/sms-pc-port"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   notes:
     "Native port of Super Mario Sunshine (GameCube) built from its decompilation. It requires the game itself.",
   notesEs:

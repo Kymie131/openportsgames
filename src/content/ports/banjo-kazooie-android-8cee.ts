@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const banjoKazooieAndroid8cee: Port = {
+  schema: "port",
+  id: "banjo-kazooie-android-8cee",
+  title: "Banjo-Kazooie (Android, 8cee)",
+  game: "Banjo-Kazooie",
+  developers: ["8cee"],
+  publisher: "Nintendo",
+  originalYear: 1998,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/8cee/BanjoRecomp-Android"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  notes: "Banjo-Kazooie (Nintendo, 1998) running on Android through static recompilation. You need your own copy of the game.",
+  notesEs: "Banjo-Kazooie (Nintendo, 1998) en Android mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

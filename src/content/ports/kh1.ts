@@ -14,12 +14,13 @@ export const kh1: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
+  wip: true,
   release: { version: null, date: null },
   sources: ["https://github.com/ethteck/kh1"],
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   notes:
     "Decompilation of Kingdom Hearts for the PlayStation 2. A research codebase; it requires game files from a copy you own.",
   notesEs:

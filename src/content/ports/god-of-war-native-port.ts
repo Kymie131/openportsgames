@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const godOfWarNativePort: Port = {
+  schema: "port",
+  id: "god-of-war-native-port",
+  title: "God of War (PC Native Port)",
+  game: "God of War",
+  developers: ["Waffle565"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Waffle565/God-Of-War-Native-Port"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 2"],
+  related: ["god-of-war-2-hd-recomp","god-of-war-3-android"],
+  notes: "Native PC port of God of War (PS2, NTSC-U SCUS-97399): the game code is statically recompiled to C++ with PS2Recomp and the PS2 hardware is replaced by native code, not emulated. Requires your own copy. Experimental.",
+  notesEs: "Port nativo a PC de God of War (PS2, NTSC-U SCUS-97399): el código del juego se recompila estáticamente a C++ con PS2Recomp y el hardware de PS2 se sustituye por código nativo, sin emulación. Requiere tu propia copia. Experimental.",
+};

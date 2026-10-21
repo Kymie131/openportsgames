@@ -19,7 +19,7 @@ export const BigBrainAcademyWiiDegree: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Wii",
+  originalSystems: ["Wii"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/Big%20Brain%20Academy%20-%20Wii%20Degree%20(USA)%20(En,Fr,Es).png",
     alt: "Big Brain Academy: Wii Degree (box art)",

@@ -18,7 +18,7 @@ export const project1944Recomp: Port = {
   sources: ["https://github.com/zenit2893-cmyk/project-1944"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "A separate recompilation of Call of Duty 3 (Xbox 360) by another developer. It builds for Windows and needs your own game data.",
   notesEs:

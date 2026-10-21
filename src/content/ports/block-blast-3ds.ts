@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const blockBlast3ds: Port = {
+  schema: "port",
+  id: "block-blast-3ds",
+  title: "Block Blast! (3DS)",
+  game: "Block Blast!",
+  developers: ["TheFilipcom4607"],
+  publisher: "Hungry Studio",
+  originalYear: 2022,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/TheFilipcom4607/BlockBlast-3DS"],
+  license: { spdx: "Zlib" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "Block Blast! (Hungry Studio, 2022) running on Nintendo 3DS through source port. Latest release: V1.3. You need your own copy of the game.",
+  notesEs: "Block Blast! (Hungry Studio, 2022) en Nintendo 3DS mediante port de código. Última release: V1.3. Necesitas tu propia copia del juego.",
+};

@@ -19,7 +19,7 @@ export const DaytonaArcadeRecomp: Port = {
   license: { spdx: "BSD-3-Clause" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Arcade",
+  originalSystems: ["Arcade"],
   notes: "Static recompilation of Daytona Arcade Recomp (Arcade).",
   notesEs: "Recompilación estática de Daytona Arcade Recomp (Arcade).",
 };

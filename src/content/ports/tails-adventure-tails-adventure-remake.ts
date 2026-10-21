@@ -19,7 +19,7 @@ export const TailsAdventureTailsAdventureRemake: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Game Gear"],
   notes: "Tails Adventure remade from the ground up for PC and Android.",
   notesEs: "Tails Adventure rehacido desde cero para PC y Android.",
 };

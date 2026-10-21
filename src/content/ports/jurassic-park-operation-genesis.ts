@@ -19,12 +19,14 @@ export const JurassicParkOperationGenesis: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Sega Mega Drive / Genesis",
+  originalSystems: ["Sega Mega Drive / Genesis"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/0b/Jurassic_Park_Operation_Genesis_Cover.jpg",
     alt: "Jurassic Park: Operation Genesis (cover)",
     credit: "Wikipedia",
   },
-  notes: "Decompilation of Jurassic Park: Operation Genesis (JPOG) and the Toshi Engine version 1.0.",
-  notesEs: "Decompilación de Jurassic Park: Operation Genesis (JPOG) y del motor Toshi versión 1.0.",
+  notes:
+    "Decompilation of Jurassic Park: Operation Genesis (JPOG) and the Toshi Engine version 1.0.",
+  notesEs:
+    "Decompilación de Jurassic Park: Operation Genesis (JPOG) y del motor Toshi versión 1.0.",
 };

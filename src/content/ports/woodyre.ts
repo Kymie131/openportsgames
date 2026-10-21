@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const woodyre: Port = {
+  schema: "port",
+  id: "woodyre",
+  title: "WoodyRE",
+  game: "Woody Woodpecker: Escape from Buzz Buzzard Park",
+  developers: ["jjmhalew"],
+  publisher: "Cryo Interactive",
+  originalYear: 2002,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/jjmhalew/WoodyRE"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a6/Woody_Woodpecker_-_Escape_from_Buzz_Buzzard_Park.jpg",
+    alt: "Woody Woodpecker: Escape from Buzz Buzzard Park (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Woody Woodpecker: Escape from Buzz Buzzard Park (Cryo Interactive, 2002) for Android (source port). Latest release: v1.0.11. Needs your own copy of the game.",
+  notesEs: "Woody Woodpecker: Escape from Buzz Buzzard Park (Cryo Interactive, 2002) para Android (port de código). Última release: v1.0.11. Necesita tu propia copia del juego.",
+};

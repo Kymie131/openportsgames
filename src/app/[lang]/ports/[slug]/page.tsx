@@ -5,7 +5,7 @@ import { PortDetail } from "@/components/ports/port-detail";
 import { TakedownNotice } from "@/components/ports/takedown-notice";
 import { PortCommunity } from "@/components/community/port-community";
 import { JsonLd } from "@/components/seo/json-ld";
-import { pageMeta } from "@/lib/seo";
+import { pageMeta, portTitle } from "@/lib/seo";
 import { portDescription } from "@/lib/ports/description";
 import { portShareImage } from "@/lib/ports/share";
 import { asLocale } from "@/lib/i18n/locales";
@@ -17,6 +17,7 @@ import {
   getTestsForPort,
   getTestStatuses,
   originalSystemOf,
+  relatedPorts,
   hardware,
 } from "@/lib/ports";
 import { absoluteUrl } from "@/lib/site";
@@ -45,7 +46,7 @@ export async function generateMetadata({
   const image = portShareImage(locale, port);
   return pageMeta({
     locale,
-    title: port.title,
+    title: portTitle(locale, port.game, port.title, port.platforms),
     description: portDescription(locale, port, dictionaries[locale]),
     path: `/ports/${port.id}`,
     image,
@@ -124,6 +125,11 @@ export default async function PortPage({
             tests={tests}
             hardwareById={hardwareById}
             originalSystem={originalSystemOf(port.id) ?? "—"}
+            related={relatedPorts(port.id).map((entry) => ({
+              id: entry.id,
+              title: entry.title,
+              game: entry.game,
+            }))}
             testStatus={getTestStatuses()[port.id]}
           />
           <div className="mt-8">

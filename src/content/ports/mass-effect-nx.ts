@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const massEffectNx: Port = {
+  schema: "port",
+  id: "mass-effect-nx",
+  title: "Mass Effect Recompiled (Xbox 360)",
+  game: "Mass Effect",
+  developers: ["nebadasSwifty"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "stable",
+  release: { version: "0.2.1", date: "2026-10-09" },
+  sources: ["https://github.com/nebadasSwifty/masseffect-nx"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-21",
+  originalSystems: ["Xbox 360"],
+  notes: "Static recompilation of the first Mass Effect from the Xbox 360 release, running the original binaries natively on Windows. No game data included.",
+  notesEs: "Recompilación estática del primer Mass Effect desde la versión de Xbox 360, ejecutando los binarios originales de forma nativa en Windows. No incluye archivos del juego.",
+};

@@ -19,7 +19,9 @@ export const GoldeneyePcPort: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo 64",
-  notes: "GoldenEye 007 (N64, 1997) as a native PC game for Windows, Linux, Steam Deck and macOS. Built from the open decompilation, with widescreen, mouse and keyboard or controller, and split-screen. Not an emulator.",
-  notesEs: "GoldenEye 007 (N64, 1997) como juego nativo de PC para Windows, Linux, Steam Deck y macOS. Hecho desde la decompilación abierta, con panorámico, ratón y teclado o mando, y pantalla dividida. No es un emulador.",
+  originalSystems: ["Nintendo 64"],
+  notes:
+    "GoldenEye 007 (N64, 1997) as a native PC game for Windows, Linux, Steam Deck and macOS. Built from the open decompilation, with widescreen, mouse and keyboard or controller, and split-screen. Not an emulator.",
+  notesEs:
+    "GoldenEye 007 (N64, 1997) como juego nativo de PC para Windows, Linux, Steam Deck y macOS. Hecho desde la decompilación abierta, con panorámico, ratón y teclado o mando, y pantalla dividida. No es un emulador.",
 };

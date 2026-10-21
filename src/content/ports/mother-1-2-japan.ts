@@ -19,7 +19,7 @@ export const Mother12Japan: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Mother 1+2 (Japan) (Other).",
   notesEs: "Decompilación de Mother 1+2 (Japan) (Other).",
 };

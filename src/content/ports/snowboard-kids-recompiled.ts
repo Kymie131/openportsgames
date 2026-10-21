@@ -18,7 +18,7 @@ export const snowboardKidsRecompiled: Port = {
   sources: ["https://github.com/boricuapab/snowboardkids-recompiled"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Static recompilation of Snowboard Kids (N64) with N64Recomp and the RT64 renderer. It requires your own game files.",
   notesEs:

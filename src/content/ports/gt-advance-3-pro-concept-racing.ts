@@ -19,7 +19,7 @@ export const GtAdvance3ProConceptRacing: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Game Boy Advance"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/58/GT3_Cover_Art.JPG",
     alt: "GT Advance 3: Pro Concept Racing (cover)",

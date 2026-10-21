@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sunpad: Port = {
+  schema: "port",
+  id: "sunpad",
+  title: "SunPad (Super Mario Sunshine iOS/macOS)",
+  game: "Super Mario Sunshine",
+  developers: ["chrissotraidis"],
+  publisher: "Nintendo",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ios","macos"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/chrissotraidis/sunpad"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  related: ["super-mario-sunshine-pc","super-mario-sunshine-android"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/05/Super_Mario_Sunshine_Box_Art.png",
+    alt: "Super Mario Sunshine (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Super Mario Sunshine on iPhone, iPad, Apple Silicon Mac and Apple TV through static recompilation with native Metal rendering. Bring your own game. Latest release: v0.2.1.",
+  notesEs: "Super Mario Sunshine en iPhone, iPad, Mac con Apple Silicon y Apple TV mediante recompilación estática con render nativo Metal. Aporta tu propio juego. Última release: v0.2.1.",
+};

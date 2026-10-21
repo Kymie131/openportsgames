@@ -19,7 +19,9 @@ export const Ps2Osdsys: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
-  notes: "The PS2 OSDSYS (Crystal Clock, menus, opening, Browser) reimplemented natively in C++26 and Vulkan, bit-faithful to the console.",
-  notesEs: "OSDSYS de PS2 (reloj Crystal, menús, apertura, navegador) reimplementado de forma nativa en C++26 y Vulkan, fiel bit a bit a la consola.",
+  originalSystems: ["PlayStation 2"],
+  notes:
+    "The PS2 OSDSYS (Crystal Clock, menus, opening, Browser) reimplemented natively in C++26 and Vulkan, bit-faithful to the console.",
+  notesEs:
+    "OSDSYS de PS2 (reloj Crystal, menús, apertura, navegador) reimplementado de forma nativa en C++26 y Vulkan, fiel bit a bit a la consola.",
 };

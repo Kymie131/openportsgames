@@ -57,12 +57,29 @@ const en = {
     ps2: "PlayStation 2",
     ps3: "PlayStation 3",
     ps4: "PlayStation 4",
+    ps5: "PlayStation 5",
+    ps1: "PlayStation",
+    xbox: "Xbox",
+    xbox360: "Xbox 360",
+    nes: "NES",
+    snes: "Super Nintendo",
+    n64: "Nintendo 64",
+    gb: "Game Boy",
+    gbc: "Game Boy Color",
+    gba: "Game Boy Advance",
+    genesis: "Mega Drive / Genesis",
+    saturn: "Sega Saturn",
+    dreamcast: "Dreamcast",
+    arcade: "Arcade",
     pc: "PC",
     androidScope: "Android",
     console: "Console",
   },
   catalog: {
-    title: "Catalog",
+    title: "Native game ports catalog",
+    titlePc: "Native PC ports",
+    titleAndroid: "Android ports (APK)",
+    titleConsole: "Console ports",
     subtitle: "Browse native ports: decompilations, recompilations and engine reimplementations.",
     subtitlePc: "Native ports for PC: Windows, Linux and macOS.",
     subtitleAndroid: "Native ports compiled for Android.",
@@ -187,6 +204,7 @@ const en = {
     resultPass: "Pass",
     resultFail: "Fail",
     report: "Report a broken link or wrong data",
+    related: "Related ports",
     notFound: "Port not found",
     onlyEnglish: "Text available only in English.",
   },
@@ -205,6 +223,21 @@ const en = {
     updatedAt: "Last updated",
     tester: "Tester",
     noBadge: "A port only shows a badge when a registered test exists.",
+  },
+  game: {
+    title: "Falling shapes",
+    subtitle:
+      "Drop shapes and merge two of the same kind into a bigger one. Reach the star and don't let the stack cross the line.",
+    score: "Score",
+    best: "Best",
+    next: "Next",
+    play: "Play",
+    restart: "Play again",
+    gameOver: "Game over",
+    gameOverBody: "The stack reached the top. Merge two equal shapes to make room.",
+    howTo: "Tap or click to drop a shape. Merge two equal shapes to make them grow.",
+    controls:
+      "PC: move the mouse and click, or use the arrow keys and the space bar. Mobile: drag and release.",
   },
   brand: {
     tagline:
@@ -225,9 +258,12 @@ const en = {
     featuredTitle: "Featured ports",
     featuredSubtitle:
       "Games we won't let die, for posterity and for the love of the art of video games.",
-    latestTitle: "Latest releases",
+    newTitle: "New in the catalog",
+    newSubtitle:
+      "The latest entries added to the catalog, each one linking to its official project.",
+    latestTitle: "Latest updates",
     latestSubtitle:
-      "The most recent versions added to the catalog, ordered by the project's own release date.",
+      "Projects that published a new version most recently, in their own release order.",
     viewAll: "Browse the full catalog",
     exploreTitle: "Explore the site",
     explorePC: "PC releases",
@@ -299,6 +335,45 @@ const en = {
       "In many countries it is legal to make a copy of a game you own; check your country's law. You extract the data with the tools each project documents. Some games are also sold again officially by their publisher.",
       "Never download third-party bundles: besides being illegal, they are a common way to catch malware. Use only official sources (the ones linked here).",
     ],
+    phoneTitle: "Phone ports: Android step by step",
+    phoneIntro:
+      "A phone port is not an emulator and not a random APK: it is the original game recompiled for ARM64 and packaged as a normal Android app. This is what changes, what you need and how to install it without handing your phone to a stranger.",
+    phonePoints: [
+      {
+        title: "It is not an emulator",
+        body: "The game runs natively on the phone's CPU. There is no console being simulated, so performance and battery life are usually better than with an emulator.",
+      },
+      {
+        title: "You still need your copy",
+        body: "The app does not include the game's data. You extract it from your own legal copy and place it where the project's README says.",
+      },
+      {
+        title: "Official APK only",
+        body: "Download from the project's GitHub or website. Repackaged APKs from aggregators are the most common way to get malware.",
+      },
+      {
+        title: "ARM64 and a modern GPU",
+        body: "Most current ports are ARM64 and ask for Vulkan 1.0 or OpenGL ES 3.2. A 2019 phone on Android 10 can work; a 2016 phone probably will not.",
+      },
+      {
+        title: "Controls",
+        body: "Some ports ship touch controls; others expect a Bluetooth gamepad. Check the entry before installing.",
+      },
+      {
+        title: "Storage and permissions",
+        body: "Reserve several GB and review the permissions. A port never needs your contacts, SMS or location.",
+      },
+    ],
+    phoneStepsTitle: "Step by step",
+    phoneSteps: [
+      "Open the entry and confirm that Android appears under platforms.",
+      "Follow the official link and download the release built for arm64-v8a.",
+      "Install the APK from your file manager. Android will ask to allow 'unknown apps' for that manager; that is expected.",
+      "Copy the game data into the folder named in the README, then open the app.",
+      "If it fails, check the Android version, Vulkan support and free space before trying another build.",
+    ],
+    phoneWarning:
+      "Red flag: a page that asks for payment, uses link shorteners or installs a second 'installer'. Go back to the catalog entry and use its official link.",
     faqTitle: "Frequently asked questions",
     faq: [
       {
@@ -317,12 +392,20 @@ const en = {
         q: "Is there anything for Android?",
         a: "Yes. Android is one of the catalog's platforms; some projects ship official Android builds, and they are tagged in the catalog.",
       },
+      {
+        q: "Can I play a PC port on my phone?",
+        a: "Only if the project publishes an ARM64 Android build. A Windows PC port cannot be installed on Android.",
+      },
+      {
+        q: "Does a phone port work offline?",
+        a: "Yes, once installed and with the game data in place. The only online step is downloading the release.",
+      },
     ],
   },
   console: {
     title: "Console homebrew",
     subtitle:
-      "Native ports and homebrew builds that run on consoles. Pick a console to see what exists.",
+      "Every console we cover: native builds that run on it and the community ports of its own games, whatever host publishes them.",
     allConsoles: "All consoles",
     portCount: (count: number) => `${count} port${count === 1 ? "" : "s"}`,
     noPorts: "No ports yet",
@@ -331,6 +414,42 @@ const en = {
     searchPlaceholder: "Search console homebrew",
     searchResults: (count: number) => `${count} result${count === 1 ? "" : "s"}`,
     noResults: "No homebrew ports match your search.",
+    hubTotal: (running: number, games: number) =>
+      `${running} build${running === 1 ? "" : "s"} for this console, ${games} port${games === 1 ? "" : "s"} of its games`,
+    runningTitle: "Builds that run on this console",
+    runningHelp:
+      "Native ports, recompilations and homebrew that target this hardware. You usually need your own copy of the game.",
+    runningEmpty: "No build targets this console yet.",
+    gamesTitle: "Community ports of its games",
+    gamesHelp:
+      "These projects rebuild games that originally shipped on this console and run them on PC, Android or another system.",
+    gamesEmpty: "No port of this console's games is catalogued yet.",
+    sourcesTitle: "Where the community publishes it",
+    sourcesHelp:
+      "GitHub is not the only source: every host behind these entries, with how many projects it carries.",
+    sourcesCount: (count: number) => `${count} project${count === 1 ? "" : "s"}`,
+    sourcesOther: "Other hosts",
+    tabs: {
+      label: "Sections",
+      ports: "Ports",
+      homebrew: "Homebrew",
+      plugins: "Plugins and tools",
+      emulators: "Emulators",
+    },
+    homebrewTitle: "Homebrew for this console",
+    homebrewHelp:
+      "Games written for this console by the community, with no original release behind them.",
+    homebrewEmpty: "No homebrew game catalogued for this console yet.",
+    pluginsTitle: "Plugins and tools",
+    pluginsHelp:
+      "Utilities that extend the console: plugins, loaders, launchers and managers.",
+    pluginsEmpty: "No plugin or tool catalogued for this console yet.",
+    emulatorsTitle: "Emulators",
+    emulatorsHelp: "Programs that emulate this console on another platform.",
+    emulatorsEmpty: "No public emulator catalogued for this console yet.",
+    emulatorsLink: "See the emulators section",
+    emulatorsPick: "Best pick",
+    emulatorsSource: "Project site",
   },
   emulators: {
     title: "Emulators",
@@ -683,12 +802,29 @@ const es: Messages = {
     ps2: "PlayStation 2",
     ps3: "PlayStation 3",
     ps4: "PlayStation 4",
+    ps5: "PlayStation 5",
+    ps1: "PlayStation",
+    xbox: "Xbox",
+    xbox360: "Xbox 360",
+    nes: "NES",
+    snes: "Super Nintendo",
+    n64: "Nintendo 64",
+    gb: "Game Boy",
+    gbc: "Game Boy Color",
+    gba: "Game Boy Advance",
+    genesis: "Mega Drive / Genesis",
+    saturn: "Sega Saturn",
+    dreamcast: "Dreamcast",
+    arcade: "Arcade",
     pc: "PC",
     androidScope: "Android",
     console: "Consolas",
   },
   catalog: {
-    title: "Catálogo",
+    title: "Catálogo de ports nativos",
+    titlePc: "Ports nativos para PC",
+    titleAndroid: "Ports para Android (APK)",
+    titleConsole: "Ports para consola",
     subtitle:
       "Explora los ports nativos: decompilaciones, recompilaciones y reimplementaciones de motor.",
     subtitlePc: "Ports nativos para PC: Windows, Linux y macOS.",
@@ -814,6 +950,7 @@ const es: Messages = {
     resultPass: "Correcto",
     resultFail: "Fallido",
     report: "Informar de un enlace roto o datos incorrectos",
+    related: "Ports relacionados",
     notFound: "Port no encontrado",
     onlyEnglish: "Texto disponible solo en inglés.",
   },
@@ -832,6 +969,21 @@ const es: Messages = {
     updatedAt: "Última actualización",
     tester: "Probador",
     noBadge: "Un port solo muestra insignia si hay una prueba registrada.",
+  },
+  game: {
+    title: "Figuras que caen",
+    subtitle:
+      "Deja caer figuras y junta dos iguales para formar una más grande. Llega a la estrella y no dejes que la torre pase la línea.",
+    score: "Puntos",
+    best: "Récord",
+    next: "Siguiente",
+    play: "Jugar",
+    restart: "Jugar de nuevo",
+    gameOver: "Fin del juego",
+    gameOverBody: "La torre llegó arriba. Junta dos figuras iguales para hacer sitio.",
+    howTo: "Toca o haz clic para soltar una figura. Junta dos iguales para que crezcan.",
+    controls:
+      "PC: mueve el ratón y haz clic, o usa las flechas y la barra espaciadora. Móvil: arrastra y suelta.",
   },
   brand: {
     tagline:
@@ -852,9 +1004,12 @@ const es: Messages = {
     featuredTitle: "Ports destacados",
     featuredSubtitle:
       "Juegos que no dejaremos morir, por la posteridad y el amor al arte de los videojuegos.",
-    latestTitle: "Últimas versiones",
+    newTitle: "Nuevos en el catálogo",
+    newSubtitle:
+      "Las últimas fichas añadidas al catálogo, cada una con el enlace oficial de su proyecto.",
+    latestTitle: "Últimas actualizaciones",
     latestSubtitle:
-      "Las versiones más recientes añadidas al catálogo, ordenadas por la fecha de publicación del propio proyecto.",
+      "Los proyectos que han publicado una versión nueva más recientemente, en su propio orden de release.",
     viewAll: "Explorar el catálogo completo",
     exploreTitle: "Explora el sitio",
     explorePC: "Para PC",
@@ -926,6 +1081,45 @@ const es: Messages = {
       "En muchos países es legal hacer una copia de tu propio juego; revisa la ley de tu país. Extraes los datos con las herramientas que documenta cada proyecto. Algunos juegos también se venden de nuevo oficialmente por su editor.",
       "Nunca descargues paquetes de terceros: además de ser ilegal, son una forma habitual de coger malware. Usa solo fuentes oficiales (las que se enlazan aquí).",
     ],
+    phoneTitle: "Ports para teléfono: Android paso a paso",
+    phoneIntro:
+      "Un port de teléfono no es un emulador ni un APK cualquiera: es el juego original recompilado para ARM64 y empaquetado como una app normal de Android. Esto es lo que cambia, lo que necesitas y cómo instalarlo sin regalarle el móvil a un desconocido.",
+    phonePoints: [
+      {
+        title: "No es un emulador",
+        body: "El juego corre nativo en la CPU del móvil. No hay una consola simulada, así que el rendimiento y la batería suelen ser mejores que con un emulador.",
+      },
+      {
+        title: "Sigues necesitando tu copia",
+        body: "La app no incluye los datos del juego. Los extraes de tu propia copia legal y los colocas donde indique el README del proyecto.",
+      },
+      {
+        title: "Solo APK oficial",
+        body: "Descarga desde el GitHub o la web del proyecto. Los APK reempaquetados de agregadores son la vía más habitual de malware.",
+      },
+      {
+        title: "ARM64 y una GPU moderna",
+        body: "Casi todos los ports actuales son ARM64 y piden Vulkan 1.0 u OpenGL ES 3.2. Un móvil de 2019 con Android 10 puede funcionar; uno de 2016 probablemente no.",
+      },
+      {
+        title: "Controles",
+        body: "Algunos ports traen controles táctiles; otros esperan un mando Bluetooth. Revisa la ficha antes de instalar.",
+      },
+      {
+        title: "Almacenamiento y permisos",
+        body: "Reserva varios GB y revisa los permisos. Un port nunca necesita tus contactos, SMS ni ubicación.",
+      },
+    ],
+    phoneStepsTitle: "Paso a paso",
+    phoneSteps: [
+      "Abre la ficha y confirma que Android aparece entre las plataformas.",
+      "Sigue el enlace oficial y descarga la release compilada para arm64-v8a.",
+      "Instala el APK desde el gestor de archivos. Android pedirá permitir 'apps desconocidas' para ese gestor; es normal.",
+      "Copia los datos del juego a la carpeta que indique el README y abre la app.",
+      "Si falla, revisa la versión de Android, el soporte de Vulkan y el espacio libre antes de probar otra build.",
+    ],
+    phoneWarning:
+      "Señal de alarma: una página que pide pago, usa acortadores o instala un segundo 'instalador'. Vuelve a la ficha del catálogo y usa su enlace oficial.",
     faqTitle: "Preguntas frecuentes",
     faq: [
       {
@@ -944,12 +1138,20 @@ const es: Messages = {
         q: "¿Hay algo para Android?",
         a: "Sí. Android es una de las plataformas del catálogo; algunos proyectos publican compilaciones oficiales para Android y así figuran en el catálogo.",
       },
+      {
+        q: "¿Puedo jugar un port de PC en mi móvil?",
+        a: "Solo si el proyecto publica una build ARM64 para Android. Un port para Windows no se puede instalar en Android.",
+      },
+      {
+        q: "¿Un port de teléfono funciona sin conexión?",
+        a: "Sí, una vez instalado y con los datos del juego en su sitio. El único paso online es descargar la release.",
+      },
     ],
   },
   console: {
     title: "Homebrew para consolas",
     subtitle:
-      "Ports nativos y builds homebrew que funcionan en consolas. Elige una consola para ver qué hay.",
+      "Todas las consolas que cubrimos: builds nativas que funcionan en ellas y ports de la comunidad de sus propios juegos, sin importar en qué sitio se publiquen.",
     allConsoles: "Todas las consolas",
     portCount: (count: number) => `${count} port${count === 1 ? "" : "s"}`,
     noPorts: "Aún no hay ports",
@@ -958,6 +1160,42 @@ const es: Messages = {
     searchPlaceholder: "Buscar homebrew de consolas",
     searchResults: (count: number) => `${count} resultado${count === 1 ? "" : "s"}`,
     noResults: "Ningún port homebrew coincide con tu búsqueda.",
+    hubTotal: (running: number, games: number) =>
+      `${running} build${running === 1 ? "" : "s"} para esta consola, ${games} port${games === 1 ? "" : "s"} de sus juegos`,
+    runningTitle: "Builds que funcionan en esta consola",
+    runningHelp:
+      "Ports nativos, recompilaciones y homebrew dirigidos a este hardware. Normalmente necesitas tu propia copia del juego.",
+    runningEmpty: "Todavía no hay ninguna build para esta consola.",
+    gamesTitle: "Ports de la comunidad de sus juegos",
+    gamesHelp:
+      "Estos proyectos reconstruyen juegos que salieron originalmente en esta consola y los ejecutan en PC, Android u otro sistema.",
+    gamesEmpty: "Todavía no hay ningún port catalogado de los juegos de esta consola.",
+    sourcesTitle: "Dónde lo publica la comunidad",
+    sourcesHelp:
+      "GitHub no es la única fuente: todos los sitios detrás de estas fichas y cuántos proyectos alberga cada uno.",
+    sourcesCount: (count: number) => `${count} proyecto${count === 1 ? "" : "s"}`,
+    sourcesOther: "Otros sitios",
+    tabs: {
+      label: "Secciones",
+      ports: "Ports",
+      homebrew: "Homebrew",
+      plugins: "Plugins y utilidades",
+      emulators: "Emuladores",
+    },
+    homebrewTitle: "Homebrew de esta consola",
+    homebrewHelp:
+      "Juegos creados por la comunidad para esta consola, sin una versión original detrás.",
+    homebrewEmpty: "Todavía no hay ningún homebrew catalogado para esta consola.",
+    pluginsTitle: "Plugins y utilidades",
+    pluginsHelp:
+      "Programas que amplían la consola: plugins, cargadores, lanzadores y gestores.",
+    pluginsEmpty: "Todavía no hay ningún plugin o utilidad catalogado para esta consola.",
+    emulatorsTitle: "Emuladores",
+    emulatorsHelp: "Programas que emulan esta consola en otra plataforma.",
+    emulatorsEmpty: "Todavía no hay ningún emulador público catalogado para esta consola.",
+    emulatorsLink: "Ver la sección de emuladores",
+    emulatorsPick: "Mejor opción",
+    emulatorsSource: "Web del proyecto",
   },
   emulators: {
     title: "Emuladores",

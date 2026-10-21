@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rockbotDreamcast: Port = {
+  schema: "port",
+  id: "rockbot-dreamcast",
+  title: "Rockbot (Dreamcast)",
+  game: "Rockbot",
+  developers: ["arcadenea"],
+  publisher: "Upperland Studio",
+  originalYear: 2010,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "open",
+  platforms: ["dreamcast"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/arcadenea/rockbot"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Rockbot (Upperland Studio, 2010) running on dreamcast through source port. Latest release: 1.1.0. The original game is free software, so no commercial copy is needed.",
+  notesEs: "Rockbot (Upperland Studio, 2010) en dreamcast mediante port de código. Última release: 1.1.0. El juego original es software libre, así que no hace falta una copia comercial.",
+};

@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const wweSmackdownVsRaw2008Pc: Port = {
+  schema: "port",
+  id: "wwe-smackdown-vs-raw-2008-pc",
+  title: "WWE SmackDown vs. Raw 2008 (PC)",
+  game: "WWE SmackDown vs. Raw 2008",
+  developers: ["nefariousjosiah"],
+  publisher: "THQ",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/nefariousjosiah/WWE-SVR2008-RECOMP"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b4/SmackDown%21vsRAW2008.jpg",
+    alt: "WWE SmackDown vs. Raw 2008 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "WWE SmackDown vs. Raw 2008 (THQ, 2007) running on Windows and Linux through static recompilation. Latest release: v1.0.5. You need your own copy of the game.",
+  notesEs: "WWE SmackDown vs. Raw 2008 (THQ, 2007) en Windows and Linux mediante recompilación estática. Última release: v1.0.5. Necesitas tu propia copia del juego.",
+};

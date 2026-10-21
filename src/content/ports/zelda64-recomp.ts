@@ -19,7 +19,7 @@ export const zelda64Recomp: Port = {
   license: { spdx: "GPL-3.0" },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   features: [
     "Static recompilation of the original game code into a native port",
     "Widescreen and ultrawide support",

@@ -19,7 +19,7 @@ export const FlappyBird: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "A Flappy Bird Windows Phone Decompilation.",
   notesEs: "Decompilación de Flappy Bird para Windows Phone.",
 };

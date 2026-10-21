@@ -18,7 +18,7 @@ export const unrealTournamentAndroid: Port = {
   sources: ["https://github.com/Andiweli/UT99-Android"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Android port of Unreal Tournament 99 (v400) for 32 and 64-bit devices, playable with a controller, touchscreen or keyboard and mouse. It needs the original game files.",
   notesEs:

@@ -19,7 +19,7 @@ export const freeSO: Port = {
   license: { spdx: "MPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Open-source reimplementation of The Sims Online that runs the original game data. It needs your own copy of the game.",
   notesEs:

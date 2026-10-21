@@ -19,7 +19,9 @@ export const FroggerHesBack: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation",
-  notes: "A compileable setup of Frogger 1997 for the Sony PlayStation. A perfect byte-match to the retail version.",
-  notesEs: "Montaje compilable de Frogger (1997) para Sony PlayStation. Coincidencia exacta byte a byte con la versión comercial.",
+  originalSystems: ["PlayStation"],
+  notes:
+    "A compileable setup of Frogger 1997 for the Sony PlayStation. A perfect byte-match to the retail version.",
+  notesEs:
+    "Montaje compilable de Frogger (1997) para Sony PlayStation. Coincidencia exacta byte a byte con la versión comercial.",
 };

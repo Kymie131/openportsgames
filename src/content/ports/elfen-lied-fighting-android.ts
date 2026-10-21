@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const elfenLiedFightingAndroid: Port = {
+  schema: "port",
+  id: "elfen-lied-fighting-android",
+  title: "Elfen Lied Fighting (Android)",
+  game: "Elfen Lied Fighting",
+  developers: ["yugenmagan"],
+  publisher: "Fan-made",
+  originalYear: 2025,
+  portType: "source-port",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/yugenmagan/elfen-lied-fighting-android"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Unofficial native Android port of the fan-made Elfen Lied Fighting PC game: offline play, touch controls and Japanese, English and Russian languages. Android 10+. Latest tag: v1.0.0-rc1.",
+  notesEs: "Port nativo no oficial para Android del juego fan-made Elfen Lied Fighting de PC: juego offline, controles táctiles e idiomas japonés, inglés y ruso. Android 10+. Último tag: v1.0.0-rc1.",
+};

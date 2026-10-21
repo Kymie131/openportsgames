@@ -19,7 +19,12 @@ export const BombermanLandTouch2: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo DS",
-  notes: "A reverse engineered implementation of \"Bomberman Land Touch 2\" for the Nintendo DS.",
+  originalSystems: ["Nintendo DS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8b/Bomberman_Land_Touch_2.jpg",
+    alt: "Bomberman Land Touch 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: 'A reverse engineered implementation of "Bomberman Land Touch 2" for the Nintendo DS.',
   notesEs: "Reimplementación por ingeniería inversa de «Bomberman Land Touch 2» para Nintendo DS.",
 };

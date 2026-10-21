@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const quakeIiClassicCoreEngines: Port = {
+  schema: "port",
+  id: "quake-ii-classic-core-engines",
+  title: "Quake II (Classic Core Engines)",
+  game: "Quake II",
+  developers: ["sandstranger"],
+  publisher: "id Software",
+  originalYear: 1997,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sandstranger/com.mobilerpgpack.phone"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation","Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b5/Quake2box.jpg",
+    alt: "Quake II (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Quake II (id Software, 1997) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (baseq2 folder).",
+  notesEs: "Quake II (id Software, 1997) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
+};

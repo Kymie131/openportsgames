@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const finesthourremasteredPc: Port = {
+  schema: "port",
+  id: "finesthourremastered-pc",
+  title: "Finest Hour Remastered",
+  game: "Call of Duty: Finest Hour",
+  developers: ["crazyriddler"],
+  publisher: "Activision",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "stable",
+  release: { version: null, date: null },
+  sources: ["https://github.com/crazyriddler/FinestHourRemastered"],
+  license: { spdx: "NOASSERTION", note: "no license file in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-21",
+  originalSystems: ["Xbox"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/31/Codfhbox.jpg",
+    alt: "Call of Duty: Finest Hour (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Static recompilation of Call of Duty: Finest Hour (Xbox) with Direct3D 12, mouse and keyboard, up to 360 FPS, widescreen and optional remastered graphics. Bring your own game.",
+  notesEs: "Recompilación estática de Call of Duty: Finest Hour (Xbox) con Direct3D 12, ratón y teclado, hasta 360 FPS, pantalla ancha y gráficos remasterizados opcionales. Aporta tu propia copia del juego.",
+};

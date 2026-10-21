@@ -19,7 +19,7 @@ export const Glover: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "A Static Recompilation of Glover by ThatGuyMcd.",
   notesEs: "Recompilación estática de Glover por ThatGuyMcd.",
 };

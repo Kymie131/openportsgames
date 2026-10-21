@@ -20,7 +20,7 @@ export const WonderProjectJ2JosetteOfTheCorloForest: Port = {
   verified: false,
   wip: true,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "A work in progress decompilation of Wonder Project J2.",
   notesEs: "Decompilación de Wonder Project J2, en desarrollo.",
 };

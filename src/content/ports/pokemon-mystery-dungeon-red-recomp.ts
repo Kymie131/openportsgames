@@ -18,7 +18,7 @@ export const pokemonMysteryDungeonRedRecomp: Port = {
   sources: ["https://github.com/Asphaltian/pmd-green"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   notes:
     "Static recompilation of Pokémon Mystery Dungeon: Red Rescue Team (GBA) with the gbarecomp framework. It requires your own game data.",
   notesEs:

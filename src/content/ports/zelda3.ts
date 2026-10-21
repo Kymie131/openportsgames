@@ -22,7 +22,7 @@ export const zelda3: Port = {
   },
   verified: true,
   verifiedAt: "2026-09-22",
-  originalSystem: "Super Nintendo",
+  originalSystems: ["Super Nintendo"],
   features: [
     "Native builds for Windows and Linux",
     "Plays from the original zelda3.sfc ROM placed next to the executable",

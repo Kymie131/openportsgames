@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sinPunishmentPc: Port = {
+  schema: "port",
+  id: "sin-punishment-pc",
+  title: "Sin & Punishment (PC)",
+  game: "Sin & Punishment",
+  developers: ["maximilianoide"],
+  publisher: "Nintendo",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/maximilianoide/sin-punishment-recompiled"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/68/N64_-_Sin_%26_Punishment.jpg",
+    alt: "Sin & Punishment (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Sin & Punishment (Nintendo, 2000) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Sin & Punishment (Nintendo, 2000) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

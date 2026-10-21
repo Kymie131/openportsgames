@@ -43,4 +43,5 @@ export const vkQuake: Port = {
     alt: "Quake (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["MS-DOS"],
 };

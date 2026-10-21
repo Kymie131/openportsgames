@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bodyHarvestPc: Port = {
+  schema: "port",
+  id: "body-harvest-pc",
+  title: "Body Harvest (PC)",
+  game: "Body Harvest",
+  developers: ["mcsoderh"],
+  publisher: "Gremlin Interactive",
+  originalYear: 1998,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/mcsoderh/BodyHarvestRecomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a3/Body_Harvest.jpg",
+    alt: "Body Harvest (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Body Harvest (Gremlin Interactive, 1998) running on Windows through static recompilation. Latest release: v1.0.0. You need your own copy of the game.",
+  notesEs: "Body Harvest (Gremlin Interactive, 1998) en Windows mediante recompilación estática. Última release: v1.0.0. Necesitas tu propia copia del juego.",
+};

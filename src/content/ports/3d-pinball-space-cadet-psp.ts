@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const _3dPinballSpaceCadetPsp: Port = {
+  schema: "port",
+  id: "3d-pinball-space-cadet-psp",
+  title: "3D Pinball: Space Cadet (PSP)",
+  game: "3D Pinball for Windows",
+  developers: ["kira97-fdroid"],
+  publisher: "Microsoft",
+  originalYear: 1995,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/kira97-fdroid/SpaceCadetPinball-PSP"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "3D Pinball for Windows (Microsoft, 1995) running on PlayStation Portable through source port. Latest release: v1.0.2. You need your own copy of the game.",
+  notesEs: "3D Pinball for Windows (Microsoft, 1995) en PlayStation Portable mediante port de código. Última release: v1.0.2. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const castlevania64Recomp: Port = {
+  schema: "port",
+  id: "castlevania-64-recomp",
+  title: "Castlevania 64 Recompiled",
+  game: "Castlevania",
+  developers: ["spacefarergames"],
+  publisher: "Konami",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/spacefarergames/CV64-Recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  related: ["castlevania-legacy-of-darkness-recomp"],
+  notes: "Static recompilation and remaster of Castlevania (Nintendo 64, 1999), also known as Castlevania 64: native PC port with refactored code and modern presentation. Bring your own ROM.",
+  notesEs: "Recompilación estática y remaster de Castlevania (Nintendo 64, 1999), conocido como Castlevania 64: port nativo a PC con código refactorizado y presentación moderna. Aporta tu propia ROM.",
+};

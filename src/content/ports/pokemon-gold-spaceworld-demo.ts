@@ -19,7 +19,7 @@ export const PokemonGoldSpaceworldDemo: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Disassembly of the Pokémon Gold and Silver 1997 Space World demo.",
   notesEs: "Desensamblado de la demo SpaceWorld de 1997 de Pokémon Gold y Silver.",
 };

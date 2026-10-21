@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tenchuStealthAssassinsRecompHero: Port = {
+  schema: "port",
+  id: "tenchu-stealth-assassins-recomp-hero",
+  title: "Tenchu: Stealth Assassins Recomp (Heromachine)",
+  game: "Tenchu: Stealth Assassins",
+  developers: ["Heromachine"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 1998,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Heromachine/Tenchu-SA-Recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  related: ["tenchu-stealth-assassins-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6f/Tenchu_Stealth_Assassins.jpg",
+    alt: "Tenchu: Stealth Assassins (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Static recompilation of Tenchu: Stealth Assassins (PlayStation, 1998) to C#. It ships the tool, not the game: bring your own disc. Latest release: v0.1.0.",
+  notesEs: "Recompilación estática de Tenchu: Stealth Assassins (PlayStation, 1998) a C#. Publica la herramienta, no el juego: aporta tu propio disco. Última release: v0.1.0.",
+};

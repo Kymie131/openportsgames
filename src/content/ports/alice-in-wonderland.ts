@@ -18,7 +18,7 @@ export const AliceInWonderland: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Wii",
+  originalSystems: ["Wii"],
   notes: "A decompilation of Alice in Wonderland (Wii 2010) by Étranges Libellules.",
   notesEs: "Decompilación de Alice in Wonderland (Wii, 2010) de Étranges Libellules.",
 };

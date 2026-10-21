@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const eternalDarknessRecomp: Port = {
+  schema: "port",
+  id: "eternal-darkness-recomp",
+  title: "Eternal Darkness Recomp",
+  game: "Eternal Darkness: Sanity's Requiem",
+  developers: ["griches"],
+  publisher: "Nintendo",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","macos","linux"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/griches/EternalDarknessRecomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  notes: "Eternal Darkness: Sanity's Requiem (GameCube, 2002) as a native port for windows, macos, linux via static recompilation, not an emulator. It ships no game code or data: bring your own copy. Latest release: v0.9.0.",
+  notesEs: "Eternal Darkness: Sanity's Requiem (GameCube, 2002) como port nativo para windows, macos, linux mediante recompilación estática, no un emulador. No incluye código ni datos del juego: aporta tu propia copia. Última release: v0.9.0.",
+};

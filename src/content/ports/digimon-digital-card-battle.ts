@@ -19,7 +19,12 @@ export const DigimonDigitalCardBattle: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/3e/Digimondigitalcardbattle.jpg",
+    alt: "Digimon: Digital Card Battle (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Decompilation of Digimon: Digital Card Battle (Other).",
   notesEs: "Decompilación de Digimon: Digital Card Battle (Other).",
 };

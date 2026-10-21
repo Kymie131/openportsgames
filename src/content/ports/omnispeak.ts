@@ -19,7 +19,7 @@ export const omnispeak: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   notes:
     "Open-source reimplementation of Commander Keen: Goodbye, Galaxy (Episodes 4-6) that runs the original game data. It needs your own copy of the games.",
   notesEs:

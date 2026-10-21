@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gdroid: Port = {
+  schema: "port",
+  id: "gdroid",
+  title: "GDroid",
+  game: "Garry's Mod",
+  developers: ["tinsarfal"],
+  publisher: "Facepunch Studios",
+  originalYear: 2006,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/tinsarfal/GDroid"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/4000/header.jpg",
+    alt: "Garry's Mod (cover art)",
+    credit: "Steam",
+  },
+  notes: "Garry's Mod (Facepunch Studios, 2006) for Android (source port). Latest release: 0.1.29. Needs your own copy of the game.",
+  notesEs: "Garry's Mod (Facepunch Studios, 2006) para Android (port de código). Última release: 0.1.29. Necesita tu propia copia del juego.",
+};

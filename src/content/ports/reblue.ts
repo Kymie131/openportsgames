@@ -19,7 +19,7 @@ export const reblue: Port = {
   license: { spdx: "BSD-3-Clause" },
   verified: true,
   verifiedAt: "2026-10-08",
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Static recompilation of Blue Dragon (Xbox 360) built on the ReXGlue SDK, with a native renderer tailored to the game engine instead of a borrowed emulator backend. It merges the original three discs into one executable and adds 4K, unlocked frame rates, widescreen, keyboard and mouse, achievements and a full mod toolset. The player supplies their own disc dump; the repository ships no game content.",
   notesEs:

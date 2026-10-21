@@ -3,7 +3,7 @@ import { CatalogPage } from "./catalog-page";
 import { Container } from "@/components/layout/container";
 import { getPorts, getTestResults, getTestStatuses } from "@/lib/ports";
 import type { CatalogScope } from "@/lib/ports/catalog";
-import { originalSystemById } from "@/content/ports/meta";
+import { originalSystemsById } from "@/content/ports/meta";
 import { githubStars } from "@/content/github-stars";
 
 /** Server wrapper shared by the paginated catalog pages (`/ports`, `/pc`, `/android`). */
@@ -24,7 +24,7 @@ export function CatalogSection({
             ports={getPorts()}
             testStatuses={getTestStatuses()}
             testResults={getTestResults()}
-            originalSystems={originalSystemById}
+            originalSystems={originalSystemsById}
             stars={githubStars}
             scope={scope}
             page={page}

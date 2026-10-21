@@ -18,7 +18,7 @@ export const dragonBallZBudokaiHd: Port = {
   sources: ["https://github.com/WistfulHopes/DBZ1"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "ReXGlue static recompilation of Dragon Ball Z: Budokai HD Collection (Xbox 360) for Windows. Needs the original game files.",
   notesEs:

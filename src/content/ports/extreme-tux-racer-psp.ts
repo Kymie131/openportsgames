@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const extremeTuxRacerPsp: Port = {
+  schema: "port",
+  id: "extreme-tux-racer-psp",
+  title: "Extreme Tux Racer (PSP)",
+  game: "Extreme Tux Racer",
+  developers: ["chriopter"],
+  publisher: "Extreme Tux Racer team",
+  originalYear: 2008,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "open",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/chriopter/psp-tuxracer"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Extreme Tux Racer (Extreme Tux Racer team, 2008) running on PlayStation Portable through source port. Latest release: v1.0.0. The original game is free software, so no commercial copy is needed.",
+  notesEs: "Extreme Tux Racer (Extreme Tux Racer team, 2008) en PlayStation Portable mediante port de código. Última release: v1.0.0. El juego original es software libre, así que no hace falta una copia comercial.",
+};

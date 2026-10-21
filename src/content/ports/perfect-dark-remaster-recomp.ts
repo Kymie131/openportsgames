@@ -18,7 +18,7 @@ export const perfectDarkRemasterRecomp: Port = {
   sources: ["https://github.com/nikolaygorb/PerfectDarkRemasterRecomp"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Native recompilation of Perfect Dark (XBLA Remaster) (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:

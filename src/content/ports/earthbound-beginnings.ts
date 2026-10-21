@@ -19,12 +19,13 @@ export const EarthboundBeginnings: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c4/EarthBound_Beginnings_cover_art.png",
     alt: "Earthbound Beginnings (cover)",
     credit: "Wikipedia",
   },
   notes: "Ghidra decompilation of Earthbound Zero (Mother) with no copyrighted material.",
-  notesEs: "Decompilación con Ghidra de EarthBound Zero (Mother), sin material con derechos de autor.",
+  notesEs:
+    "Decompilación con Ghidra de EarthBound Zero (Mother), sin material con derechos de autor.",
 };

@@ -18,7 +18,7 @@ export const pokemonStadiumRecomp: Port = {
   discord: "https://discord.gg/Ad9BwSzctP",
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   features: [
     "Up to four player controllers, assignable to individual slots",
     "4x MSAA anti-aliasing enabled by default",
@@ -30,9 +30,9 @@ export const pokemonStadiumRecomp: Port = {
     "Ajustes de gráficos y control recordados entre sesiones",
   ],
   notes:
-    "Static recompilation of Pokémon Stadium (N64, USA v1.0) with N64Recomp. It implements the Transfer Pak and GB Tower, and adds its own launcher (SS Anne) to set up carts and controllers. The project went unmaintained in August 2026; the latest release stays available.",
+    "Static recompilation of Pokémon Stadium (N64, USA v1.0) with N64Recomp. It implements the Transfer Pak and GB Tower, and adds its own launcher (SS Anne) to set up carts and controllers. The project went unmaintained in August 2026; the latest release stays available. The upstream repository is archived (read-only).",
   notesEs:
-    "Recompilación estática de Pokémon Stadium (N64, USA v1.0) con N64Recomp. Implementa el Transfer Pak y el GB Tower, y añade un lanzador propio (SS Anne) para configurar cartuchos y mandos. El proyecto quedó sin mantenimiento en agosto de 2026; la última release sigue disponible.",
+    "Recompilación estática de Pokémon Stadium (N64, USA v1.0) con N64Recomp. Implementa el Transfer Pak y el GB Tower, y añade un lanzador propio (SS Anne) para configurar cartuchos y mandos. El proyecto quedó sin mantenimiento en agosto de 2026; la última release sigue disponible. El repositorio original está archivado (solo lectura).",
   screenshots: [
     {
       src: "https://raw.githubusercontent.com/mstan/PokemonStadiumRecomp/main/docs/launcher.png",

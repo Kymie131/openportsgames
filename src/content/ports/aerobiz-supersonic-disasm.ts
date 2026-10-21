@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const aerobizSupersonicDisasm: Port = {
+  schema: "port",
+  id: "aerobiz-supersonic-disasm",
+  title: "Aerobiz Supersonic (Disassembly)",
+  game: "Aerobiz Supersonic",
+  developers: ["matiaszanolli"],
+  publisher: "Koei",
+  originalYear: 1993,
+  portType: "decompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/matiaszanolli/aerobiz-disasm"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Sega Mega Drive / Genesis"],
+  notes: "Full disassembly and reassembly project for Aerobiz Supersonic (USA) on the Sega Genesis / Mega Drive, also described as a complete static recompilation of the game.",
+  notesEs: "Proyecto completo de desensamblado y reensamblado de Aerobiz Supersonic (USA) para Sega Genesis / Mega Drive, descrito también como recompilación estática completa del juego.",
+};

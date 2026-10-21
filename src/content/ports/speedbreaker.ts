@@ -19,7 +19,9 @@ export const Speedbreaker: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
-  notes: "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
-  notesEs: "Recompilación estática no oficial de la versión de Xbox 360 de Need for Speed: Most Wanted (2005): port nativo para Steam Deck, Linux y Mac. Aporta tu propio disco: no incluye archivos del juego.",
+  originalSystems: ["Xbox 360"],
+  notes:
+    "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
+  notesEs:
+    "Recompilación estática no oficial de la versión de Xbox 360 de Need for Speed: Most Wanted (2005): port nativo para Steam Deck, Linux y Mac. Aporta tu propio disco: no incluye archivos del juego.",
 };

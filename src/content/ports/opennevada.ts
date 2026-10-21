@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const opennevada: Port = {
+  schema: "port",
+  id: "opennevada",
+  title: "OpenNevada",
+  game: "Fallout New Vegas",
+  developers: ["RedZeroGotcha"],
+  publisher: "Bethesda Softworks",
+  originalYear: 2010,
+  portType: "source-port",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/RedZeroGotcha/OpenNevada-Android"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/4/43/Free_depiction_of_the_Fallout_New_Vegas_Xbox_360_box_art_%28cropped%29.png",
+    alt: "Fallout New Vegas (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Fallout New Vegas (Bethesda Softworks, 2010) for Android (source port). Needs your own copy of the game.",
+  notesEs: "Fallout New Vegas (Bethesda Softworks, 2010) para Android (port de código). Necesita tu propia copia del juego.",
+};

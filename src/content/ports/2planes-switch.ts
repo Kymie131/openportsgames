@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const _2planesSwitch: Port = {
+  schema: "port",
+  id: "2planes-switch",
+  title: "2Planes (Switch)",
+  game: "2Planes",
+  developers: ["mactec0"],
+  publisher: "Homebrew",
+  originalYear: 2018,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/mactec0/2Planes_SWITCH"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "2Planes (Homebrew, 2018) running on Nintendo Switch through source port. Latest release: 1.0.1. You need your own copy of the game.",
+  notesEs: "2Planes (Homebrew, 2018) en Nintendo Switch mediante port de código. Última release: 1.0.1. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const fpkgiPackageManager: Port = {
+  schema: "port",
+  id: "fpkgi-package-manager",
+  title: "FPKGi (package manager)",
+  game: "PlayStation Portable",
+  developers: ["ItsJokerZz"],
+  publisher: "Sony",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["psp","psvita","ps3"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ItsJokerZz/FPKGi"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "PlayStation Portable (Sony, 2004) running on PlayStation Portable and PlayStation Vita and PlayStation 3 through source port. Latest release: v1.10.0. You need your own copy of the game.",
+  notesEs: "PlayStation Portable (Sony, 2004) en PlayStation Portable and PlayStation Vita and PlayStation 3 mediante port de código. Última release: v1.10.0. Necesitas tu propia copia del juego.",
+};

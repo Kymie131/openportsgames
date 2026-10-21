@@ -18,7 +18,7 @@ export const deadRising2CaseZeroRecomp: Port = {
   sources: ["https://github.com/wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Native port of Dead Rising 2: Case Zero (Xbox 360) with XenonRecomp and XenosRecomp, on a purpose-built engine with a Vulkan renderer and real XMA audio. Fully playable start to finish, with online co-op, the level cap raised to 50 and a 60 fps mode.",
   notesEs:

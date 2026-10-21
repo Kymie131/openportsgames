@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const theLordOfTheRingsTheTwoTowersPc: Port = {
+  schema: "port",
+  id: "the-lord-of-the-rings-the-two-towers-pc",
+  title: "The Lord of the Rings: The Two Towers (PC)",
+  game: "The Lord of the Rings: The Two Towers",
+  developers: ["Gumpolas"],
+  publisher: "Electronic Arts",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Gumpolas/TooTawersRecomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox"],
+  notes: "The Lord of the Rings: The Two Towers (Electronic Arts, 2002) running on Windows through static recompilation. Latest release: 1.9.2. You need your own copy of the game.",
+  notesEs: "The Lord of the Rings: The Two Towers (Electronic Arts, 2002) en Windows mediante recompilación estática. Última release: 1.9.2. Necesitas tu propia copia del juego.",
+};

@@ -18,7 +18,7 @@ export const nethackAndroid: Port = {
   sources: ["https://github.com/gurrhack/NetHack-Android"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Android port of NetHack, the classic open-source roguelike. It is a standalone build that does not need the original game.",
   notesEs:

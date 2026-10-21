@@ -19,7 +19,7 @@ export const Chulip: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6e/Coverchulip.jpg",
     alt: "Chulip (cover)",

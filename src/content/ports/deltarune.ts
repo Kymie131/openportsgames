@@ -19,7 +19,12 @@ export const Deltarune: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1671210/header.jpg",
+    alt: "Deltarune (cover art)",
+    credit: "Steam",
+  },
   notes: "DELTARUNE Decompilation.",
   notesEs: "Decompilación de DELTARUNE.",
 };

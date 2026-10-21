@@ -53,7 +53,7 @@ export function CatalogClient({
   ports: Port[];
   testStatuses: Record<string, "current" | "stale">;
   testResults: Record<string, "pass" | "fail">;
-  originalSystems: Record<string, string>;
+  originalSystems: Record<string, string[]>;
   stars: Record<string, number>;
   scope: CatalogScope;
   /** Current 1-based page, from the path (`/ports/page/N/`). */
@@ -247,7 +247,7 @@ export function CatalogClient({
                       port={port}
                       testStatus={testStatuses[port.id]}
                       stars={stars[port.id]}
-                      system={originalSystems[port.id]}
+                      system={(originalSystems[port.id] ?? []).find((s) => s !== "Unknown")}
                       eager={index < 6}
                     />
                   </li>

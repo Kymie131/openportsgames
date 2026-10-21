@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const shadowOfTheColossusPs2Decomp: Port = {
+  schema: "port",
+  id: "shadow-of-the-colossus-ps2-decomp",
+  title: "Shadow of the Colossus (PS2 decomp)",
+  game: "Shadow of the Colossus",
+  developers: ["TheRealestNwah"],
+  publisher: "Team Ico",
+  originalYear: 2005,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/TheRealestNwah/sotc-decomp"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f8/Shadow_of_the_Colossus_%282005%29_cover.jpg",
+    alt: "Shadow of the Colossus (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Shadow of the Colossus (Team Ico, 2005) running on Windows through decompilation. You need your own copy of the game.",
+  notesEs: "Shadow of the Colossus (Team Ico, 2005) en Windows mediante decompilación. Necesitas tu propia copia del juego.",
+};

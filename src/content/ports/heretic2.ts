@@ -19,7 +19,7 @@ export const Heretic2: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Heretic2 playground sandbox. Can contain non GPL code. Be careful!!!!.",
   notesEs: "Banco de pruebas de Heretic2. Puede contener código no GPL. ¡Cuidado!",
 };

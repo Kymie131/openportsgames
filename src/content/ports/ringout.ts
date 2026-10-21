@@ -18,7 +18,7 @@ export const ringOut: Port = {
   sources: ["https://github.com/jackpoison-prog/RingOut"],
   license: { spdx: "GPL-2.0" },
   verified: false,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   notes:
     "Static recompilation of SoulCalibur II to a native app. The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jetSki3ds: Port = {
+  schema: "port",
+  id: "jet-ski-3ds",
+  title: "Jet Ski (3DS)",
+  game: "Jet Ski",
+  developers: ["miltoncandelero"],
+  publisher: "Homebrew",
+  originalYear: 2017,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/miltoncandelero/JETSKI-3DS"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Jet Ski (Homebrew, 2017) running on Nintendo 3DS through source port. Latest release: Potato-Version. You need your own copy of the game.",
+  notesEs: "Jet Ski (Homebrew, 2017) en Nintendo 3DS mediante port de código. Última release: Potato-Version. Necesitas tu propia copia del juego.",
+};

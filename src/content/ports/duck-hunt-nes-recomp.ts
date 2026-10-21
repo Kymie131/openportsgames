@@ -18,7 +18,7 @@ export const duckHuntNesRecomp: Port = {
   sources: ["https://github.com/mstan/DuckHuntNESRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
-  originalSystem: "Nintendo Entertainment System",
+  originalSystems: ["Nintendo Entertainment System"],
   notes:
     "Static recompilation of Duck Hunt (NES) with the NESRecomp framework. Playable, and the Zapper is driven by the mouse: you aim with the cursor and fire with the left click.",
   notesEs:

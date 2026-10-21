@@ -19,7 +19,7 @@ export const DogsLife: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/80/Dog%27s_Life_Coverart.png",
     alt: "Dog's Life (cover)",

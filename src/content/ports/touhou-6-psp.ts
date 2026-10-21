@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const touhou6Psp: Port = {
+  schema: "port",
+  id: "touhou-6-psp",
+  title: "Touhou 6 (PSP)",
+  game: "Touhou 6: The Embodiment of Scarlet Devil",
+  developers: ["kan8223-dotcom"],
+  publisher: "Team Shanghai Alice",
+  originalYear: 2002,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/kan8223-dotcom/th06-psp-native"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  related: ["touhou-6-android"],
+  notes: "Unofficial native PSP port of Touhou Koumakyou (TH06) that draws straight to the PSP Graphics Engine through libGU. It ships no original game data: you need your own copy of the PC version 1.02f. Latest release: v1.0.1.",
+  notesEs: "Port nativo no oficial para PSP de Touhou Koumakyou (TH06) que dibuja directamente en la Graphics Engine de la PSP mediante libGU. No incluye datos del juego original: necesitas tu propia copia de la versión de PC 1.02f. Última release: v1.0.1.",
+};

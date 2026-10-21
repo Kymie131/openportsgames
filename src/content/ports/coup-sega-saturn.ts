@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const coupSegaSaturn: Port = {
+  schema: "port",
+  id: "coup-sega-saturn",
+  title: "Coup (Sega Saturn)",
+  game: "Coup",
+  developers: ["likeagfeld"],
+  publisher: "Indie Boards & Cards",
+  originalYear: 2012,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["saturn"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/likeagfeld/coup-saturn"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "Coup (Indie Boards & Cards, 2012) running on saturn through source port. Latest release: v2.0-beta. You need your own copy of the game.",
+  notesEs: "Coup (Indie Boards & Cards, 2012) en saturn mediante port de código. Última release: v2.0-beta. Necesitas tu propia copia del juego.",
+};

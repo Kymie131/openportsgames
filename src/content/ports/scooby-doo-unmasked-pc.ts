@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const scoobyDooUnmaskedPc: Port = {
+  schema: "port",
+  id: "scooby-doo-unmasked-pc",
+  title: "Scooby-Doo! Unmasked (PC)",
+  game: "Scooby-Doo! Unmasked",
+  developers: ["josiahg2502-glitch"],
+  publisher: "THQ",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/josiahg2502-glitch/Scooby-Doo-ReMasked"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a0/SD_Unmasked.jpg",
+    alt: "Scooby-Doo! Unmasked (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Scooby-Doo! Unmasked (THQ, 2005) running on Windows through static recompilation. Latest release: v1.0.1. You need your own copy of the game.",
+  notesEs: "Scooby-Doo! Unmasked (THQ, 2005) en Windows mediante recompilación estática. Última release: v1.0.1. Necesitas tu propia copia del juego.",
+};

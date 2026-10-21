@@ -19,7 +19,7 @@ export const PermafrostEngine: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "An OpenGL RTS game engine written in C.",
   notesEs: "Motor de juego RTS con OpenGL escrito en C.",
 };

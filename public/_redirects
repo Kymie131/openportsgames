@@ -1,0 +1,62 @@
+# Legacy pre-i18n URLs -> English equivalents.
+#
+# The site used to serve /ports/<slug>/, /pc/, /android/… at the domain root.
+# Those paths are still indexed by Google and keep showing up in Search Console,
+# but they no longer exist in the static export (routes live under /en/ and
+# /es/). Cloudflare Pages applies this file before serving an asset, so each
+# legacy URL answers with a single 301 instead of a 404.
+#
+# /en/ and /es/ are never touched, and neither are /api/*, /sitemap.xml,
+# /robots.txt or the root language chooser.
+
+/ports            /en/ports/           301
+/ports/           /en/ports/           301
+/ports/*          /en/ports/:splat     301
+
+/pc               /en/pc/              301
+/pc/              /en/pc/              301
+/pc/*             /en/pc/:splat        301
+
+/android          /en/android/         301
+/android/         /en/android/         301
+/android/*        /en/android/:splat   301
+
+/console          /en/console/         301
+/console/         /en/console/         301
+/console/*        /en/console/:splat   301
+
+/emulators        /en/emulators/       301
+/emulators/       /en/emulators/       301
+/emulators/*      /en/emulators/:splat 301
+
+/guides           /en/guides/          301
+/guides/          /en/guides/          301
+/guides/*         /en/guides/:splat    301
+
+/testing          /en/testing/         301
+/testing/         /en/testing/         301
+/testing/*        /en/testing/:splat   301
+
+/submit           /en/submit/          301
+/submit/          /en/submit/          301
+/submit/*         /en/submit/:splat    301
+
+/support          /en/support/         301
+/support/         /en/support/         301
+/support/*        /en/support/:splat   301
+
+/about            /en/about/           301
+/about/           /en/about/           301
+/about/*          /en/about/:splat     301
+
+/legal            /en/legal/           301
+/legal/           /en/legal/           301
+/legal/*          /en/legal/:splat     301
+
+/tools            /en/tools/           301
+/tools/           /en/tools/           301
+/tools/*          /en/tools/:splat     301
+
+/game             /en/game/            301
+/game/            /en/game/            301
+/game/*           /en/game/:splat      301

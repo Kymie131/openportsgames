@@ -19,9 +19,11 @@ export const legendOfDoom3ds: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "MS-DOS",
-  notes: "Port of the Legend of Doom total conversion (a Doom mod) to New Nintendo 3DS, based on GZDoom 4.7.1.",
-  notesEs: "Port de la conversión total Legend of Doom (un mod de Doom) a New Nintendo 3DS, basado en GZDoom 4.7.1.",
+  originalSystems: ["MS-DOS"],
+  notes:
+    "Port of the Legend of Doom total conversion (a Doom mod) to New Nintendo 3DS, based on GZDoom 4.7.1.",
+  notesEs:
+    "Port de la conversión total Legend of Doom (un mod de Doom) a New Nintendo 3DS, basado en GZDoom 4.7.1.",
   cover: {
     src: "https://raw.githubusercontent.com/EstebanPdN/legend-of-doom-3ds/refs/heads/main/platform/3ds/assets/splash.png",
     alt: "Legend of Doom (cover)",

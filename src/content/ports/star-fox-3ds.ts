@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const starFox3ds: Port = {
+  schema: "port",
+  id: "star-fox-3ds",
+  title: "Star Fox (3DS)",
+  game: "Star Fox",
+  developers: ["EstebanPdN"],
+  publisher: "Nintendo",
+  originalYear: 1993,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/EstebanPdN/starwing-3ds"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Super Nintendo"],
+  notes: "Star Fox (Nintendo, 1993) running on Nintendo 3DS through source port. Latest release: v1.0. You need your own copy of the game.",
+  notesEs: "Star Fox (Nintendo, 1993) en Nintendo 3DS mediante port de código. Última release: v1.0. Necesitas tu propia copia del juego.",
+};

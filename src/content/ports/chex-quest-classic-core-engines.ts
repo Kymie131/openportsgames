@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const chexQuestClassicCoreEngines: Port = {
+  schema: "port",
+  id: "chex-quest-classic-core-engines",
+  title: "Chex Quest (Classic Core Engines)",
+  game: "Chex Quest",
+  developers: ["sandstranger"],
+  publisher: "Digital Café",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sandstranger/com.mobilerpgpack.phone"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/12/Chex_Quest-front_cover.png",
+    alt: "Chex Quest (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Chex Quest (Digital Café, 1996) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (CHEX.WAD).",
+  notesEs: "Chex Quest (Digital Café, 1996) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
+};

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bluewake: Port = {
+  schema: "port",
+  id: "bluewake",
+  title: "BlueWake (The Wind Waker)",
+  game: "The Legend of Zelda: The Wind Waker",
+  developers: ["chrissotraidis"],
+  publisher: "Nintendo",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["macos","ios","windows","linux","android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/chrissotraidis/bluewake"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  related: ["wind-waker-recomp","wind-waker-hd-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
+    alt: "The Legend of Zelda: The Wind Waker (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "BlueWake: The Legend of Zelda: The Wind Waker (GameCube, 2002) recompiled natively for macOS, iOS, Windows, Linux and Android. Bring your own game disc. Latest release: v0.8.0.",
+  notesEs: "BlueWake: The Legend of Zelda: The Wind Waker (GameCube, 2002) recompilado de forma nativa para macOS, iOS, Windows, Linux y Android. Aporta tu propio disco del juego. Última release: v0.8.0.",
+};

@@ -18,11 +18,12 @@ export const superman64Recomp: Port = {
   sources: ["https://github.com/gcsmith/Superman64Recomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  sourceDead: true,
+  originalSystems: ["Nintendo 64"],
   notes:
-    "Native recompilation of Superman (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
+    "Native recompilation of Superman (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content. The upstream repository is no longer available.",
   notesEs:
-    "Recompilación nativa de Superman (Nintendo 64). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+    "Recompilación nativa de Superman (Nintendo 64). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego. El repositorio original ya no está disponible.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Superman%20(USA)%20(Beta)%20(1998-09-06).png",
     alt: "Superman (box art)",

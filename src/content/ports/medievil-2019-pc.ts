@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const medievil2019Pc: Port = {
+  schema: "port",
+  id: "medievil-2019-pc",
+  title: "MediEvil (2019) PC",
+  game: "MediEvil",
+  developers: ["bc160201983"],
+  publisher: "Other Ocean Interactive",
+  originalYear: 2019,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/bc160201983/medievil_2019_pc_port"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d3/Medievil_cover.jpg",
+    alt: "MediEvil (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "MediEvil (Other Ocean Interactive, 2019) running on Windows through runtime layer. Latest release: v1.3.5. You need your own copy of the game.",
+  notesEs: "MediEvil (Other Ocean Interactive, 2019) en Windows mediante capa de ejecución. Última release: v1.3.5. Necesitas tu propia copia del juego.",
+};

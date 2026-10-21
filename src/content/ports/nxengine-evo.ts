@@ -37,4 +37,5 @@ export const nxEngine: Port = {
     alt: "Cave Story (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["Windows"],
 };

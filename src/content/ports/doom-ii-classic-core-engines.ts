@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const doomIiClassicCoreEngines: Port = {
+  schema: "port",
+  id: "doom-ii-classic-core-engines",
+  title: "Doom II (Classic Core Engines)",
+  game: "Doom II",
+  developers: ["sandstranger"],
+  publisher: "id Software",
+  originalYear: 1994,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sandstranger/com.mobilerpgpack.phone"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/29/Doom_II_-_Hell_on_Earth_Coverart.png",
+    alt: "Doom II (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Doom II (id Software, 1994) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (DOOM2.WAD).",
+  notesEs: "Doom II (id Software, 1994) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
+};

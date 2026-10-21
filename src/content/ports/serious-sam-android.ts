@@ -18,7 +18,7 @@ export const seriousSamAndroid: Port = {
   sources: ["https://github.com/Skyrimus/Serious-Sam-Android"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Android port of Serious Sam: The First Encounter and The Second Encounter, built on the released Serious Engine source. It needs the original game files.",
   notesEs:

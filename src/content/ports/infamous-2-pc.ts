@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const infamous2Pc: Port = {
+  schema: "port",
+  id: "infamous-2-pc",
+  title: "inFAMOUS 2 (PC)",
+  game: "inFAMOUS 2",
+  developers: ["ThiagoFraga761"],
+  publisher: "Sucker Punch Productions",
+  originalYear: 2011,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ThiagoFraga761/infamous2-pc"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 3"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/db/Infamous_2.png",
+    alt: "inFAMOUS 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "inFAMOUS 2 (Sucker Punch Productions, 2011) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "inFAMOUS 2 (Sucker Punch Productions, 2011) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

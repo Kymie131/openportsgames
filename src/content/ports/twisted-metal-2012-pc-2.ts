@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const twistedMetal2012Pc2: Port = {
+  schema: "port",
+  id: "twisted-metal-2012-pc-2",
+  title: "Twisted Metal (2012) PC",
+  game: "Twisted Metal",
+  developers: ["sp00nznet"],
+  publisher: "Eat Sleep Play",
+  originalYear: 2012,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sp00nznet/twistedmetal"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 3"],
+  notes: "Twisted Metal (Eat Sleep Play, 2012) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Twisted Metal (Eat Sleep Play, 2012) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

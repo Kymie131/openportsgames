@@ -19,7 +19,13 @@ export const SpaceRangersHdAWarApart: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
-  notes: "A matching Delphi decompilation of Space Rangers HD: A War Apart - Космические рейнджеры HD: Революция.",
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/214730/header.jpg",
+    alt: "Space Rangers HD: A War Apart (cover art)",
+    credit: "Steam",
+  },
+  notes:
+    "A matching Delphi decompilation of Space Rangers HD: A War Apart - Космические рейнджеры HD: Революция.",
   notesEs: "Decompilación que coincide en Delphi de Space Rangers HD: A War Apart.",
 };

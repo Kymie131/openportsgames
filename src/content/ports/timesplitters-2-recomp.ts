@@ -19,7 +19,7 @@ export const timesplitters2Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
   sourceIsIndex: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   notes: "Community entry from PortsDR. No repository is public; the game is not included.",
   notesEs: "Entrada comunitaria de PortsDR. No hay repositorio público; el juego no se incluye.",
   cover: {

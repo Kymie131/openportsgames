@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const skiesOfArcadiaLegendsPc: Port = {
+  schema: "port",
+  id: "skies-of-arcadia-legends-pc",
+  title: "Skies of Arcadia Legends (PC)",
+  game: "Skies of Arcadia Legends",
+  developers: ["ogdanimal"],
+  publisher: "Sega",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ogdanimal/SkiesOfArcadiaLegends-Recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  notes: "Skies of Arcadia Legends (Sega, 2002) running on Windows and Linux through static recompilation. You need your own copy of the game.",
+  notesEs: "Skies of Arcadia Legends (Sega, 2002) en Windows and Linux mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

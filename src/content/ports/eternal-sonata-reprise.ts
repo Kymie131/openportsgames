@@ -18,7 +18,7 @@ export const eternalSonataReprise: Port = {
   sources: ["https://github.com/birabittoh/EternalSonataReprise"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Static recompilation of Eternal Sonata (Xbox 360) with ReXGlue. It converts the PPC executable to native x86_64 and wraps it in a small host runtime with overlays and hooks for mods; builds for Windows, Linux, macOS and Android.",
   notesEs:

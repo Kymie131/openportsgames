@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const skate3Android: Port = {
+  schema: "port",
+  id: "skate-3-android",
+  title: "Skate 3 android",
+  game: "Skate 3",
+  developers: ["andrewnakas"],
+  publisher: "Electronic Arts",
+  originalYear: 2010,
+  portType: "source-port",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/andrewnakas/skate3-android"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/84/Skate-3-Boxart.jpg",
+    alt: "Skate 3 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Skate 3 (Electronic Arts, 2010) for Android (source port). Latest release: v0.2.0. Needs your own copy of the game (Skate 3 ISO).",
+  notesEs: "Skate 3 (Electronic Arts, 2010) para Android (port de código). Última release: v0.2.0. Necesita tu propia copia del juego.",
+};

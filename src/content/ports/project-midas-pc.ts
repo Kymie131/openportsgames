@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const projectMidasPc: Port = {
+  schema: "port",
+  id: "project-midas-pc",
+  title: "Project Midas (GoldenEye 007)",
+  game: "GoldenEye 007",
+  developers: ["murkantor"],
+  publisher: "Nintendo",
+  originalYear: 1997,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "stable",
+  release: { version: "1.0.1", date: "2026-10-18" },
+  sources: ["https://github.com/murkantor/Project-Midas"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-21",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/13/GoldenEye_007_N64_cover.jpg",
+    alt: "GoldenEye 007 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "PC port of GoldenEye 007 built from the Nintendo 64 decompilation, with widescreen, mouse look and modern controller support. Co-op, netplay and mods are in development.",
+  notesEs: "Port para PC de GoldenEye 007 construido desde la descompilación de Nintendo 64, con pantalla ancha, ratón y mandos modernos. El cooperativo, el netplay y los mods están en desarrollo.",
+};

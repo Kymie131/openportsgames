@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superbounce64Nintendo64: Port = {
+  schema: "port",
+  id: "superbounce-64-nintendo-64",
+  title: "Superbounce 64 (Nintendo 64)",
+  game: "Superbounce 64",
+  developers: ["Cyd0n1a"],
+  publisher: "Homebrew",
+  originalYear: 2026,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["n64"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Cyd0n1a/Superbounce64"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Superbounce 64 (Homebrew, 2026) running on n64 through source port. Latest release: v0.9a. You need your own copy of the game.",
+  notesEs: "Superbounce 64 (Homebrew, 2026) en n64 mediante port de código. Última release: v0.9a. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superMarioStrikersDecomp: Port = {
+  schema: "port",
+  id: "super-mario-strikers-decomp",
+  title: "Super Mario Strikers Decompilation",
+  game: "Super Mario Strikers",
+  developers: ["yannicksuter"],
+  publisher: "Nintendo",
+  originalYear: 2005,
+  portType: "decompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/yannicksuter/smstrikers-decomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  related: ["strikers","strikers-android","super-mario-strikers-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b3/Supermariostrikersbox.jpg",
+    alt: "Super Mario Strikers (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Super Mario Strikers (GameCube, 2005). No playable release of its own.",
+  notesEs: "Decompilación de Super Mario Strikers (GameCube, 2005). Sin release jugable propia.",
+};

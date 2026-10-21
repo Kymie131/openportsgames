@@ -18,7 +18,7 @@ export const unnethackAndroid: Port = {
   sources: ["https://github.com/gurrhack/UnNetHack-Android"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   notes:
     "Android port of UnNetHack, a variant of NetHack with extra content and tweaks. It is a standalone build that does not need the original game.",
   notesEs:

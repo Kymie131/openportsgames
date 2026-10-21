@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const zomdroidEtonedemid: Port = {
+  schema: "port",
+  id: "zomdroid-etonedemid",
+  title: "Zomdroid (etonedemid)",
+  game: "Project Zomboid",
+  developers: ["etonedemid"],
+  publisher: "The Indie Stone",
+  originalYear: 2013,
+  portType: "source-port",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/etonedemid/zomdroid-"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/108600/header.jpg",
+    alt: "Project Zomboid (cover art)",
+    credit: "Steam",
+  },
+  notes: "Project Zomboid (The Indie Stone, 2013) for Android (source port). Latest release: v1.9.0. Needs your own copy of the game (Game Files - 41.78.16 by Cc Inno).",
+  notesEs: "Project Zomboid (The Indie Stone, 2013) para Android (port de código). Última release: v1.9.0. Necesita tu propia copia del juego.",
+};

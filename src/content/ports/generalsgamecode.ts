@@ -19,7 +19,7 @@ export const Generalsgamecode: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Command and Conquer: Generals - Zero Hour.",
   notesEs: "Command and Conquer: Generals - Zero Hour.",
 };

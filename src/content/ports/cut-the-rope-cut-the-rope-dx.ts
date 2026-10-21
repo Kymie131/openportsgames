@@ -19,7 +19,9 @@ export const CutTheRopeCutTheRopeDx: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
-  notes: "Cut the Rope DX, a fan-made enhancement of the PC version of Cut the Rope. Now available on web!.",
-  notesEs: "Cut the Rope DX, una mejora hecha por fans de la versión de PC de Cut the Rope. ¡Ya disponible en la web!",
+  originalSystems: ["Unknown"],
+  notes:
+    "Cut the Rope DX, a fan-made enhancement of the PC version of Cut the Rope. Now available on web!.",
+  notesEs:
+    "Cut the Rope DX, una mejora hecha por fans de la versión de PC de Cut the Rope. ¡Ya disponible en la web!",
 };

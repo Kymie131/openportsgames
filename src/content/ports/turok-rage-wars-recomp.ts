@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const turokRageWarsRecomp: Port = {
+  schema: "port",
+  id: "turok-rage-wars-recomp",
+  title: "Turok: Rage Wars (PC)",
+  game: "Turok: Rage Wars",
+  developers: ["wootbeer"],
+  publisher: "Acclaim Entertainment",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/wootbeer/PaxDino"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f1/Ragewarsbox.jpg",
+    alt: "Turok: Rage Wars (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Native PC port of Turok: Rage Wars (Nintendo 64, 1999) made by statically recompiling the game with N64Recomp and running it on N64ModernRuntime. You need the game file from a licensed copy. Latest release: v0.1.2.",
+  notesEs: "Port nativo a PC de Turok: Rage Wars (Nintendo 64, 1999) hecho recompilando estáticamente el juego con N64Recomp y ejecutándolo sobre N64ModernRuntime. Necesitas el archivo de una copia con licencia. Última release: v0.1.2.",
+};

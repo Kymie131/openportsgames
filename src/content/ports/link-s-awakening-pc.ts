@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const linkSAwakeningPc: Port = {
+  schema: "port",
+  id: "link-s-awakening-pc",
+  title: "Link's Awakening (PC)",
+  game: "The Legend of Zelda: Link's Awakening",
+  developers: ["peiikai"],
+  publisher: "Nintendo",
+  originalYear: 2019,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/peiikai/LASRecomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo Switch"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c1/Link%27s_Awakening.png",
+    alt: "The Legend of Zelda: Link's Awakening (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Legend of Zelda: Link's Awakening (Nintendo, 2019) running on Windows through static recompilation. Latest release: beta_4. You need your own copy of the game.",
+  notesEs: "The Legend of Zelda: Link's Awakening (Nintendo, 2019) en Windows mediante recompilación estática. Última release: beta_4. Necesitas tu propia copia del juego.",
+};

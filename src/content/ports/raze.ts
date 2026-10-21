@@ -28,4 +28,5 @@ export const raze: Port = {
     alt: "Duke Nukem 3D (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["MS-DOS"],
 };

@@ -19,7 +19,7 @@ export const DragonQuestIx: Port = {
   license: { spdx: "Unlicense" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo DS",
+  originalSystems: ["Nintendo DS"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/bb/DragonQuestIXBoxArtJP.png",
     alt: "Dragon Quest IX (cover)",

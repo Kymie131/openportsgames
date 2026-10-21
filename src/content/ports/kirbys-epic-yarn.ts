@@ -19,7 +19,12 @@ export const KirbysEpicYarn: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e3/Kirby%27s_Epic_Yarn_Title.png",
+    alt: "Kirby's Epic Yarn (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Kirby's Epic Yarn decompilation.",
   notesEs: "Decompilación de Kirby's Epic Yarn.",
 };

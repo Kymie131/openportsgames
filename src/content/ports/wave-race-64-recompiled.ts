@@ -21,7 +21,7 @@ export const waveRace64Recompiled: Port = {
   },
   verified: true,
   verifiedAt: "2026-09-22",
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   features: [
     "Windows x64 and Apple Silicon macOS builds",
     "Native D3D12 / Metal rendering with dynamic water",

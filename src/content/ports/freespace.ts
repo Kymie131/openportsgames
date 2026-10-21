@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const freespace: Port = {
+  schema: "port",
+  id: "freespace",
+  title: "FreeSpace",
+  game: "Freespace 2",
+  developers: ["lubomyr"],
+  publisher: "Interplay Entertainment",
+  originalYear: 1999,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "open",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/lubomyr/freespace2"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0d/Freespace2box.jpg",
+    alt: "Freespace 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Freespace 2 (Interplay Entertainment, 1999) for Android (source port). Needs your own copy of the game.",
+  notesEs: "Freespace 2 (Interplay Entertainment, 1999) para Android (port de código). Necesita tu propia copia del juego.",
+};

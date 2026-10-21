@@ -18,7 +18,7 @@ export const jetMotoAnthologyRecomp: Port = {
   sources: ["https://github.com/GTTeancum/Jet-Moto-Anthology"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Cumulative recompilation project for the Jet Moto games (PlayStation) with rendering improvements. It needs your own game datas.",
   notesEs:

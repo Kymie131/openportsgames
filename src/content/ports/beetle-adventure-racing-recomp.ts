@@ -17,7 +17,7 @@ export const beetleAdventureRacingRecomp: Port = {
   sources: ["https://github.com/danielgomesvieira2000/beetle-adventure-racing-recomp"],
   license: { spdx: "AGPL-3.0" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   features: [
     "High framerate with high-FPS interpolation and working audio",
     "RecompFrontend launcher with settings, input binding and pause menu",

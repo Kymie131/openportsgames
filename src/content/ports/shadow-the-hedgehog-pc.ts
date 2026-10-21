@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const shadowTheHedgehogPc: Port = {
+  schema: "port",
+  id: "shadow-the-hedgehog-pc",
+  title: "Shadow the Hedgehog (PC)",
+  game: "Shadow the Hedgehog",
+  developers: ["nicolasserpa"],
+  publisher: "Sonic Team",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/nicolasserpa/shadow-the-hedgehog-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/41/ShadowTheHedgehogSA2.png",
+    alt: "Shadow the Hedgehog (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Shadow the Hedgehog (Sonic Team, 2005) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Shadow the Hedgehog (Sonic Team, 2005) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

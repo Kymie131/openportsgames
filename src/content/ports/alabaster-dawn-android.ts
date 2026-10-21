@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const alabasterDawnAndroid: Port = {
+  schema: "port",
+  id: "alabaster-dawn-android",
+  title: "Alabaster Dawn (Android)",
+  game: "Alabaster Dawn",
+  developers: ["moronigranja"],
+  publisher: "Radical Fish Games",
+  originalYear: 2025,
+  portType: "runtime-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/moronigranja/alabaster-android"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/3110760/header.jpg",
+    alt: "Alabaster Dawn (cover art)",
+    credit: "Steam",
+  },
+  notes: "Unofficial Android WebView port of Alabaster Dawn (Radical Fish Games) plus a desktop controller fix. No game files included: you need your own copy. Latest release: v0.9.0.",
+  notesEs: "Port no oficial para Android mediante WebView de Alabaster Dawn (Radical Fish Games) más un arreglo de mando en escritorio. No incluye archivos del juego: necesitas tu propia copia. Última release: v0.9.0.",
+};

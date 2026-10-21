@@ -19,7 +19,7 @@ export const WcwNwoThunder: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e9/WCW_nWo_Thunder_Coverart.png",
     alt: "WCW/nWo Thunder (box art)",

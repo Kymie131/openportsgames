@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const purgatoryNarakuPsp: Port = {
+  schema: "port",
+  id: "purgatory-naraku-psp",
+  title: "Purgatory -NARAKU- (PSP)",
+  game: "Purgatory -NARAKU-",
+  developers: ["askq5-sys"],
+  publisher: "Fan game",
+  originalYear: 2024,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/askq5-sys/Purgatory-NARAKU-PSP"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/2851770/header.jpg",
+    alt: "Purgatory -NARAKU- (cover art)",
+    credit: "Steam",
+  },
+  notes: "Purgatory -NARAKU- (Fan game, 2024) running on PlayStation Portable through source port. You need your own copy of the game.",
+  notesEs: "Purgatory -NARAKU- (Fan game, 2024) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
+};

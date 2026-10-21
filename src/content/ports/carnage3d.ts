@@ -19,7 +19,7 @@ export const Carnage3d: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Reimplementation of Grand Theft Auto 1 [GTA1].",
   notesEs: "Reimplementación de Grand Theft Auto 1 [GTA1].",
 };

@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const fttaRecomp: Port = {
+  schema: "port",
+  id: "ftta-recomp",
+  title: "FTTA Recomp",
+  game: "Final Fantasy Tactics Advance",
+  developers: ["james2doyle"],
+  publisher: "Square",
+  originalYear: 2003,
+  portType: "recompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/james2doyle/ffta-recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Game Boy Advance"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c4/FinalFantasyTacticsAdvanceGBACoverArtUS.jpg",
+    alt: "Final Fantasy Tactics Advance (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Final Fantasy Tactics Advance (Square, 2003) for Android (static recompilation). Latest release: v1.6. Needs your own copy of the game.",
+  notesEs: "Final Fantasy Tactics Advance (Square, 2003) para Android (recompilación estática). Última release: v1.6. Necesita tu propia copia del juego.",
+};

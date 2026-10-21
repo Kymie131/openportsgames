@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rogueSquadron64Recomp: Port = {
+  schema: "port",
+  id: "rogue-squadron-64-recomp",
+  title: "Star Wars: Rogue Squadron (PC)",
+  game: "Star Wars: Rogue Squadron",
+  developers: ["MikeSemicolonD"],
+  publisher: "LucasArts",
+  originalYear: 1998,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/MikeSemicolonD/RogueSquadron64Recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  related: ["rogue-squadron-decomp"],
+  aiDisclosure: {"source":"https://github.com/MikeSemicolonD/RogueSquadron64Recomp","quote":"A fully playable (AI assisted) static recompilation"},
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b6/Star-wars-rogue-squadron.jpg",
+    alt: "Star Wars: Rogue Squadron (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Fully playable AI-assisted static recompilation of Star Wars: Rogue Squadron (USA v1.0) for Windows 10, Linux and Android. No game files included.",
+  notesEs: "Recompilación estática asistida por IA y totalmente jugable de Star Wars: Rogue Squadron (USA v1.0) para Windows 10, Linux y Android. No incluye archivos del juego.",
+};

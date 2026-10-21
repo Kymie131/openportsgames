@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const slyCooperDecomp: Port = {
+  schema: "port",
+  id: "sly-cooper-decomp",
+  title: "Sly Cooper Decompilation",
+  game: "Sly Cooper and the Thievius Raccoonus",
+  developers: ["TheOnlyZac"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2002,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/TheOnlyZac/sly1"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 2"],
+  related: ["sly-cooper-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8e/SlyCooper2002cover.jpg",
+    alt: "Sly Cooper and the Thievius Raccoonus (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Decompilation of Sly Cooper and the Thievius Raccoonus (PlayStation 2, 2002). Work in progress; it builds the game from your own disc.",
+  notesEs: "Decompilación de Sly Cooper and the Thievius Raccoonus (PlayStation 2, 2002). En desarrollo; compila el juego desde tu propio disco.",
+};

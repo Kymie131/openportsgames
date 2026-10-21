@@ -100,8 +100,8 @@ async function main() {
 
     const ogImage = (html.match(/<meta property="og:image" content="([^"]*)"/) ?? [])[1] ?? "";
     const twImage = (html.match(/<meta name="twitter:image" content="([^"]*)"/) ?? [])[1] ?? "";
-    if (!ogImage.startsWith("http") || !ogImage.endsWith(".png")) {
-      warn(`social: ${label} og:image no es una URL absoluta .png`);
+    if (!ogImage.startsWith("https://")) {
+      warn(`social: ${label} og:image no es una URL absoluta https`);
     } else if (!socialImages[ogImage]) {
       socialImages[ogImage] = true;
       const img = await fetchOk(ogImage, "imagen social");
@@ -112,8 +112,8 @@ async function main() {
         }
       }
     }
-    if (!twImage.startsWith("http") || !twImage.endsWith(".png")) {
-      warn(`social: ${label} twitter:image no es una URL absoluta .png`);
+    if (!twImage.startsWith("https://")) {
+      warn(`social: ${label} twitter:image no es una URL absoluta https`);
     }
 
     const h1 = (html.match(/<h1/g) ?? []).length;

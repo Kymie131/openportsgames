@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const theOraclesProject: Port = {
+  schema: "port",
+  id: "the-oracles-project",
+  title: "The Oracles Project",
+  game: "The Legend of Zelda: Oracle of Ages",
+  developers: ["thibautbus"],
+  publisher: "Nintendo",
+  originalYear: 2001,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/thibautbus/top"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "The Legend of Zelda: Oracle of Ages (Nintendo, 2001) for Android (source port). Latest release: v1.2.0. Needs your own copy of the game.",
+  notesEs: "The Legend of Zelda: Oracle of Ages (Nintendo, 2001) para Android (port de código). Última release: v1.2.0. Necesita tu propia copia del juego.",
+};

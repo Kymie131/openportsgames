@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getImageHosts } from "@/lib/ports";
+import { getImageHosts, ports } from "@/lib/ports";
 
 describe("getImageHosts", () => {
   it("returns a small, de-duplicated, ranked list of image hosts", () => {
@@ -14,7 +14,16 @@ describe("getImageHosts", () => {
   });
 
   it("puts the busiest host first", () => {
-    const hosts = getImageHosts(1);
-    expect(hosts[0]).toBe("thumbnails.libretro.com");
+    const counts = new Map<string, number>();
+    const add = (url: string) => {
+      const host = new URL(url).host;
+      counts.set(host, (counts.get(host) ?? 0) + 1);
+    };
+    for (const port of ports) {
+      for (const shot of port.screenshots ?? []) add(shot.src);
+      if (port.cover) add(port.cover.src);
+    }
+    const busiest = [...counts.entries()].sort((a, b) => b[1] - a[1])[0]?.[0];
+    expect(getImageHosts(1)[0]).toBe(busiest);
   });
 });

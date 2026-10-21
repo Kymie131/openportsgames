@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const megaCarWarsMegaDrive: Port = {
+  schema: "port",
+  id: "mega-car-wars-mega-drive",
+  title: "Mega Car Wars (Mega Drive)",
+  game: "Mega Car Wars",
+  developers: ["realbrucest"],
+  publisher: "Homebrew",
+  originalYear: 2023,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["genesis"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/realbrucest/Mega-Car-Wars"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Mega Car Wars (Homebrew, 2023) running on genesis through source port. You need your own copy of the game.",
+  notesEs: "Mega Car Wars (Homebrew, 2023) en genesis mediante port de código. Necesitas tu propia copia del juego.",
+};

@@ -21,7 +21,7 @@ export const openGoal: Port = {
   license: { spdx: "ISC" },
   verified: true,
   verifiedAt: "2026-09-30",
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   features: [
     "Original GOAL code decompiled and recompiled for x86-64",
     "Jak and Daxter treated as complete, Jak II in beta, Jak 3 in progress",

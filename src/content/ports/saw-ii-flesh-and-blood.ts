@@ -19,7 +19,7 @@ export const SawIiFleshAndBlood: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a9/Saw_II_Flesh_%26_Blood.JPG",
     alt: "Saw II: Flesh & Blood (box art)",

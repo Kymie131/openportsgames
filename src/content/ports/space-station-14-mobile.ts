@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const spaceStation14Mobile: Port = {
+  schema: "port",
+  id: "space-station-14-mobile",
+  title: "Space Station 14 Mobile",
+  game: "Space Station 14",
+  developers: ["SolomonNumb1"],
+  publisher: "Space Wizards Federation",
+  originalYear: 2023,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/SolomonNumb1/space-station-14-mobile"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1255460/header.jpg",
+    alt: "Space Station 14 (cover art)",
+    credit: "Steam",
+  },
+  notes: "Space Station 14 (Space Wizards Federation, 2023) for Android (source port). Latest release: v1.3.0. Needs your own copy of the game.",
+  notesEs: "Space Station 14 (Space Wizards Federation, 2023) para Android (port de código). Última release: v1.3.0. Necesita tu propia copia del juego.",
+};

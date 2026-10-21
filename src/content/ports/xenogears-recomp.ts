@@ -18,7 +18,7 @@ export const xenogearsRecomp: Port = {
   sources: ["https://github.com/OpokXeno/xenogears-recomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Native recompilation of Xenogears (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:

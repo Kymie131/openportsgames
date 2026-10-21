@@ -36,4 +36,5 @@ export const openapoc: Port = {
     alt: "X-COM: Apocalypse (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["MS-DOS","Windows"],
 };

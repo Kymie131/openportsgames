@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const unGamePlaystation: Port = {
+  schema: "port",
+  id: "un-game-playstation",
+  title: "UN Game (PlayStation)",
+  game: "UN Game",
+  developers: ["Jarwesbub"],
+  publisher: "Homebrew",
+  originalYear: 2026,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["ps1"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Jarwesbub/un-game-psx-demo"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "UN Game (Homebrew, 2026) running on ps1 through source port. Latest release: v1.0.1. You need your own copy of the game.",
+  notesEs: "UN Game (Homebrew, 2026) en ps1 mediante port de código. Última release: v1.0.1. Necesitas tu propia copia del juego.",
+};

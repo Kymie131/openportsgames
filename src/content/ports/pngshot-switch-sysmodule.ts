@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pngshotSwitchSysmodule: Port = {
+  schema: "port",
+  id: "pngshot-switch-sysmodule",
+  title: "PNGShot (Switch sysmodule)",
+  game: "Nintendo Switch",
+  developers: ["J-D-K"],
+  publisher: "Nintendo",
+  originalYear: 2017,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/J-D-K/PNGShot"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Nintendo Switch (Nintendo, 2017) running on Nintendo Switch through source port. Latest release: 2.6.0. You need your own copy of the game.",
+  notesEs: "Nintendo Switch (Nintendo, 2017) en Nintendo Switch mediante port de código. Última release: 2.6.0. Necesitas tu propia copia del juego.",
+};

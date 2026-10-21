@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const needForSpeedMostWanted2012Switch: Port = {
+  schema: "port",
+  id: "need-for-speed-most-wanted-2012-switch",
+  title: "Need for Speed: Most Wanted (2012, Switch)",
+  game: "Need for Speed: Most Wanted",
+  developers: ["SantiBros"],
+  publisher: "Electronic Arts",
+  originalYear: 2012,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/SantiBros/NFSMostWanted2012-Android-Switch"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1262560/header.jpg",
+    alt: "Need for Speed: Most Wanted (cover art)",
+    credit: "Steam",
+  },
+  notes: "Need for Speed: Most Wanted (Electronic Arts, 2012) running on Nintendo Switch through source port. You need your own copy of the game.",
+  notesEs: "Need for Speed: Most Wanted (Electronic Arts, 2012) en Nintendo Switch mediante port de código. Necesitas tu propia copia del juego.",
+};

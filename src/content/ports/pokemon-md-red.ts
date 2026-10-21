@@ -19,7 +19,7 @@ export const PokemonMdRed: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of Pokémon Mystery Dungeon: Red Rescue Team.",
   notesEs: "Decompilación de Pokémon Mundo Misterioso: Equipo de Rescate Rojo.",
 };

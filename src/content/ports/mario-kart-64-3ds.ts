@@ -19,9 +19,11 @@ export const marioKart643ds: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo 64",
-  notes: "Native Nintendo 3DS port built from the Mario Kart 64 decompilation. Requires your own ROM.",
-  notesEs: "Port nativo para Nintendo 3DS construido desde la decompilación de Mario Kart 64. Requiere tu propia ROM.",
+  originalSystems: ["Nintendo 64"],
+  notes:
+    "Native Nintendo 3DS port built from the Mario Kart 64 decompilation. Requires your own ROM.",
+  notesEs:
+    "Port nativo para Nintendo 3DS construido desde la decompilación de Mario Kart 64. Requiere tu propia ROM.",
   cover: {
     src: "https://cdn2.steamgriddb.com/thumb/e5494d23b18b5c822bcaa9fe8fd077bf.jpg",
     alt: "Mario Kart 64 (cover)",

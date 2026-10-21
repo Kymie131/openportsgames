@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const animalCrossingXbox: Port = {
+  schema: "port",
+  id: "animal-crossing-xbox",
+  title: "Animal Crossing (Xbox)",
+  game: "Animal Crossing",
+  developers: ["TechProGabe"],
+  publisher: "Nintendo",
+  originalYear: 2001,
+  portType: "recompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["xbox"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/TechProGabe/OpenCrossing-Xbox"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  notes: "Animal Crossing (Nintendo, 2001) running on xbox through static recompilation. Latest release: v1.1. You need your own copy of the game.",
+  notesEs: "Animal Crossing (Nintendo, 2001) en xbox mediante recompilación estática. Última release: v1.1. Necesitas tu propia copia del juego.",
+};

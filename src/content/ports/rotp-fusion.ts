@@ -19,7 +19,9 @@ export const RotpFusion: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
-  notes: "Created by Ray Fowler, Remnants of the Precursors is an open-source modernization of the original 1993 Master of Orion.",
-  notesEs: "Remnants of the Precursors es una modernización de código abierto del Master of Orion original de 1993, creada por Ray Fowler.",
+  originalSystems: ["Unknown"],
+  notes:
+    "Created by Ray Fowler, Remnants of the Precursors is an open-source modernization of the original 1993 Master of Orion.",
+  notesEs:
+    "Remnants of the Precursors es una modernización de código abierto del Master of Orion original de 1993, creada por Ray Fowler.",
 };

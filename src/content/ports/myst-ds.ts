@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mystDs: Port = {
+  schema: "port",
+  id: "myst-ds",
+  title: "MYST (DS)",
+  game: "MYST",
+  developers: ["Warioware64"],
+  publisher: "Broderbund",
+  originalYear: 1993,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Warioware64/myst-nds-port"],
+  license: { spdx: "Apache-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6a/MystCover.png",
+    alt: "MYST (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "MYST (Broderbund, 1993) running on Nintendo DS through source port. Latest release: v1.0.0. You need your own copy of the game.",
+  notesEs: "MYST (Broderbund, 1993) en Nintendo DS mediante port de código. Última release: v1.0.0. Necesitas tu propia copia del juego.",
+};

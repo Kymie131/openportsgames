@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const minicraft3ds: Port = {
+  schema: "port",
+  id: "minicraft-3ds",
+  title: "Minicraft (3DS)",
+  game: "Minicraft",
+  developers: ["DavidSM64"],
+  publisher: "Notch",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/DavidSM64/Minicraft3DS"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/d/db/Minicraft_Title_Screen.png",
+    alt: "Minicraft (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Minicraft (Notch, 2011) running on Nintendo 3DS through source port. You need your own copy of the game.",
+  notesEs: "Minicraft (Notch, 2011) en Nintendo 3DS mediante port de código. Necesitas tu propia copia del juego.",
+};

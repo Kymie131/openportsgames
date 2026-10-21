@@ -18,7 +18,7 @@ export const pinballFantasiesAndroid: Port = {
   sources: ["https://github.com/wootbeer/pbfandroid"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   notes:
     "Decompilation and source port of the DOS pinball game Pinball Fantasies for Android, with touch controls. It requires the original game files.",
   notesEs:

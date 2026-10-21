@@ -18,7 +18,7 @@ export const forzaMotorsport4Recomp: Port = {
   sources: ["https://github.com/Alexbeav/fm4-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Recompilation of Forza Motorsport 4 (Xbox 360) to native Windows via ReXGlue. You supply the game files.",
   notesEs:

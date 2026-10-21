@@ -4,7 +4,10 @@ import { pageMeta } from "@/lib/seo";
 import { dictionaries } from "@/lib/i18n/dictionaries";
 import { asLocale } from "@/lib/i18n/locales";
 
-const TITLE = { en: "PC ports", es: "Ports para PC" } as const;
+const DESCRIPTION = {
+  en: "Native PC ports of console games: decompilations, recompilations and engine rewrites for Windows, Linux and macOS. Official sources only.",
+  es: "Ports nativos para PC de juegos de consola: decompilaciones, recompilaciones y reimplementaciones para Windows, Linux y macOS. Solo fuentes oficiales.",
+} as const;
 
 export async function generateMetadata({
   params,
@@ -15,8 +18,8 @@ export async function generateMetadata({
   const locale = asLocale(lang);
   return pageMeta({
     locale,
-    title: TITLE[locale],
-    description: dictionaries[locale].catalog.subtitlePc,
+    title: dictionaries[locale].catalog.titlePc,
+    description: DESCRIPTION[locale],
     path: "/pc",
   });
 }

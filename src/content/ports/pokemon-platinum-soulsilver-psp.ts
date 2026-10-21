@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pokemonPlatinumSoulsilverPsp: Port = {
+  schema: "port",
+  id: "pokemon-platinum-soulsilver-psp",
+  title: "Pokemon Platinum & SoulSilver (PSP)",
+  game: "Pokemon Platinum",
+  developers: ["IbrahimIrfan"],
+  publisher: "Nintendo",
+  originalYear: 2008,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/IbrahimIrfan/pspoke"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo DS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/ca/Pokemon_Platinum.png",
+    alt: "Pokemon Platinum (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Pokemon Platinum (Nintendo, 2008) running on PlayStation Portable through source port. Latest release: v0.1.10-beta. You need your own copy of the game.",
+  notesEs: "Pokemon Platinum (Nintendo, 2008) en PlayStation Portable mediante port de código. Última release: v0.1.10-beta. Necesitas tu propia copia del juego.",
+};

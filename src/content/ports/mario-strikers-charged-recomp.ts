@@ -15,11 +15,11 @@ export const marioStrikersChargedRecomp: Port = {
   platforms: ["windows", "linux", "macos"],
   status: "beta",
   release: { version: null, date: null },
-  sources: ["https://github.com/yannicksuter/mscharged-port"],
+  sources: ["https://github.com/previouslevelgames/recharged"],
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Wii",
+  originalSystems: ["Wii"],
   notes:
     "Mario Strikers Charged (Wii) ported to PC, macOS and Linux from its decompilation. It needs your own copy of the game.",
   notesEs:

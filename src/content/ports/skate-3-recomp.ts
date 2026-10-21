@@ -18,7 +18,7 @@ export const skate3Recomp: Port = {
   sources: ["https://github.com/mchughalex/skate3recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Native recompilation of Skate 3 (Xbox 360) with a custom ReXGlue SDK fork. A native renderer on Direct3D 12 and Vulkan (more than double the frame rate at a fraction of the GPU cost) and builds for Windows, Linux and macOS.",
   notesEs:

@@ -19,7 +19,7 @@ export const dodonpachiSaidaioujouRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "DoDonPachi SaiDaiOuJou (Xbox 360) recompiled with ReXGlue. It requires the 1.01 title update. Keyboard and mouse are enabled from the in-game menu (F4).",
   notesEs:

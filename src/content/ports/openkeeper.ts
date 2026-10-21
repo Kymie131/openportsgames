@@ -19,7 +19,7 @@ export const openkeeper: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Open-source remake of Dungeon Keeper 2 that runs the original game assets. It needs your own copy of the game.",
   notesEs:

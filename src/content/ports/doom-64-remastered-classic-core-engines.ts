@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const doom64RemasteredClassicCoreEngines: Port = {
+  schema: "port",
+  id: "doom-64-remastered-classic-core-engines",
+  title: "Doom 64 Remastered (Classic Core Engines)",
+  game: "Doom 64 Remastered",
+  developers: ["sandstranger"],
+  publisher: "id Software",
+  originalYear: 2020,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sandstranger/com.mobilerpgpack.phone"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Doom 64 Remastered (id Software, 2020) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (DOOM64.WAD, DOOMSND.DLS, Doom64.kpf).",
+  notesEs: "Doom 64 Remastered (id Software, 2020) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
+};

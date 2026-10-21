@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superMetroidDualScreen: Port = {
+  schema: "port",
+  id: "super-metroid-dual-screen",
+  title: "Super Metroid (Dual Screen)",
+  game: "Super Metroid",
+  developers: ["Raekwon1603"],
+  publisher: "Nintendo",
+  originalYear: 1994,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Raekwon1603/super_metroid-android"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Super Nintendo"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg",
+    alt: "Super Metroid (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Super Metroid (Nintendo, 1994) for Android (source port). Latest release: v1.2. Needs your own copy of the game (Super Metroid (Japan, USA) (En, Ja).sfc).",
+  notesEs: "Super Metroid (Nintendo, 1994) para Android (port de código). Última release: v1.2. Necesita tu propia copia del juego.",
+};

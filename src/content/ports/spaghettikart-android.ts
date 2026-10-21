@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const spaghettikartAndroid: Port = {
+  schema: "port",
+  id: "spaghettikart-android",
+  title: "SpaghettiKart (Android)",
+  game: "Mario Kart 64",
+  developers: ["izzy2lost"],
+  publisher: "Nintendo",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/izzy2lost/SpaghettiKart"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a1/Mario_Kart_64.jpg",
+    alt: "Mario Kart 64 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Mario Kart 64 (Nintendo, 1996) for Android (source port). Latest release: 2.0.0. Needs your own copy of the game (Mario Kart 64 (USA).z64).",
+  notesEs: "Mario Kart 64 (Nintendo, 1996) para Android (port de código). Última release: 2.0.0. Necesita tu propia copia del juego.",
+};

@@ -19,7 +19,7 @@ export const AreYouSmarterThanA5thGraderMakeTheGrade: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Are%20You%20Smarter%20than%20a%205th%20Grader%20Make%20the%20Grade%20(USA).png",
     alt: "Are You Smarter Than a 5th Grader: Make the Grade (box art)",

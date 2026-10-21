@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ac3Decomp: Port = {
+  schema: "port",
+  id: "ac3-decomp",
+  title: "Ac3-Decomp",
+  game: "Ace Combat 3: Electrosphere",
+  developers: ["vzepec"],
+  publisher: "Namco",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/vzepec/ac3-decomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/12/Ace_Combat_3_cover.jpg",
+    alt: "Ace Combat 3: Electrosphere (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Ace Combat 3: Electrosphere (Namco, 1999) for Android (decompilation). Needs your own copy of the game.",
+  notesEs: "Ace Combat 3: Electrosphere (Namco, 1999) para Android (decompilación). Necesita tu propia copia del juego.",
+};

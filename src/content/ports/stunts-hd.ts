@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const stuntsHd: Port = {
+  schema: "port",
+  id: "stunts-hd",
+  title: "Stunts HD",
+  game: "Stunts / 4D Sports Driving",
+  developers: ["mr-finster"],
+  publisher: "Brøderbund",
+  originalYear: 1990,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["web","windows","linux","macos"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/mr-finster/stunts-hd"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["MS-DOS"],
+  related: ["playstunts"],
+  notes: "Stunts / 4D Sports Driving (DOS, 1990) recompiled for the browser and desktop: HD 3D, widescreen and the original's own physics. Bring your own copy. Latest release: v1.5.14.",
+  notesEs: "Stunts / 4D Sports Driving (DOS, 1990) recompilado para navegador y escritorio: 3D en HD, widescreen y la física original del juego. Aporta tu propia copia. Última release: v1.5.14.",
+};

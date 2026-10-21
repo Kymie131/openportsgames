@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const metroidPrimeDecomp: Port = {
+  schema: "port",
+  id: "metroid-prime-decomp",
+  title: "Metroid Prime Decompilation",
+  game: "Metroid Prime",
+  developers: ["PrimeDecomp"],
+  publisher: "Nintendo",
+  originalYear: 2002,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/PrimeDecomp/prime"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  related: ["metroid-prime-port"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/ba/MetroidPrimebox.jpg",
+    alt: "Metroid Prime (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Matching decompilation of Metroid Prime (GameCube, 2002). It rebuilds the game code and data from your own copy; there is no playable download of its own.",
+  notesEs: "Decompilación matching de Metroid Prime (GameCube, 2002). Reconstruye el código y los datos del juego desde tu propia copia; no tiene descarga jugable propia.",
+};

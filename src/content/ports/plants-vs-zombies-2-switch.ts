@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const plantsVsZombies2Switch: Port = {
+  schema: "port",
+  id: "plants-vs-zombies-2-switch",
+  title: "Plants vs. Zombies 2 (Switch)",
+  game: "Plants vs. Zombies 2",
+  developers: ["xflipperkast"],
+  publisher: "PopCap Games",
+  originalYear: 2013,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/xflipperkast/PVZ2_NX"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Plants vs. Zombies 2 (PopCap Games, 2013) running on Nintendo Switch through source port. Latest release: v1.2.0. You need your own copy of the game.",
+  notesEs: "Plants vs. Zombies 2 (PopCap Games, 2013) en Nintendo Switch mediante port de código. Última release: v1.2.0. Necesitas tu propia copia del juego.",
+};

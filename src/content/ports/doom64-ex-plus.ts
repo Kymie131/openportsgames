@@ -21,7 +21,7 @@ export const doom64ExPlus: Port = {
   },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   features: [
     "Source-based Doom 64 expansion",
     "Rerelease of the original maps plus new content",
@@ -33,9 +33,9 @@ export const doom64ExPlus: Port = {
     "Iluminación moderna y soporte panorámico",
   ],
   notes:
-    "Complete source port of Doom 64. The project is archived on GitHub and its license is a custom Limited Use Software License, so the terms are not an OSI license.",
+    "Complete source port of Doom 64. The project is archived on GitHub and its license is a custom Limited Use Software License, so the terms are not an OSI license. The upstream repository is archived (read-only).",
   notesEs:
-    "Port de código fuente completo de Doom 64. El proyecto está archivado en GitHub y su licencia es una Limited Use Software License propia, por lo que sus términos no son una licencia OSI.",
+    "Port de código fuente completo de Doom 64. El proyecto está archivado en GitHub y su licencia es una Limited Use Software License propia, por lo que sus términos no son una licencia OSI. El repositorio original está archivado (solo lectura).",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Doom%2064%20(USA).png",
     alt: "Doom 64 (box art)",

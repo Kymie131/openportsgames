@@ -19,7 +19,12 @@ export const HarvestMassiveEncounter: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/15400/header.jpg",
+    alt: "Harvest: Massive Encounter (cover art)",
+    credit: "Steam",
+  },
   notes: "harvest: massive encounter / matching decompilation and modern port.",
   notesEs: "harvest: massive encounter / decompilación que coincide y port moderno.",
 };

@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const zelda3dsAndroidTriaevum: Port = {
+  schema: "port",
+  id: "zelda-3ds-android-triaevum",
+  title: "Zelda 3DS Android (TriAevum)",
+  game: "The Legend of Zelda: Ocarina of Time 3D",
+  developers: ["WINDROID-EMU"],
+  publisher: "Nintendo",
+  originalYear: 2011,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/WINDROID-EMU/RECOMP-ZELDA-3DS-ANDROID"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 3DS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/30/The_Legend_of_Zelda_Ocarina_of_Time_3D_box_art.png",
+    alt: "The Legend of Zelda: Ocarina of Time 3D (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Legend of Zelda: Ocarina of Time 3D (Nintendo, 2011) for Android (static recompilation). Latest release: v1.0.0-android. Needs your own copy of the game.",
+  notesEs: "The Legend of Zelda: Ocarina of Time 3D (Nintendo, 2011) para Android (recompilación estática). Última release: v1.0.0-android. Necesita tu propia copia del juego.",
+};

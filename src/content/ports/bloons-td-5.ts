@@ -19,7 +19,12 @@ export const BloonsTd5: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/306020/header.jpg",
+    alt: "Bloons TD 5 (cover art)",
+    credit: "Steam",
+  },
   notes: "A decompilation effort targeting the game Bloons TD 5.",
   notesEs: "Intento de decompilación del juego Bloons TD 5.",
 };

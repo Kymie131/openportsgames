@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const fifaStreetPcPortPc: Port = {
+  schema: "port",
+  id: "fifa-street-pc-port-pc",
+  title: "FIFA Street (2012) PC",
+  game: "FIFA Street",
+  developers: ["samuelit0davila"],
+  publisher: "EA Sports",
+  originalYear: 2012,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "2.0.7-online-beta", date: "2026-10-21" },
+  sources: ["https://github.com/samuelit0davila/fifa-street-pc-port"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-21",
+  originalSystems: ["Xbox 360"],
+  notes: "Native PC build of the 2012 FIFA Street reboot, recompiled from the Xbox 360 version. Includes an online beta; you must supply your own copy of the game.",
+  notesEs: "Build nativa para PC del reboot de FIFA Street de 2012, recompilada desde la versión de Xbox 360. Incluye una beta online; debes aportar tu propia copia del juego.",
+};

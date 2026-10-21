@@ -85,3 +85,49 @@ describe("redirect lists", () => {
     }
   });
 });
+
+describe("Cloudflare _redirects", () => {
+  const text = fs.readFileSync(path.join(root, "public/_redirects"), "utf8");
+  const rules = text
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter((line) => line !== "" && !line.startsWith("#"))
+    .map((line) => line.split(/\s+/));
+
+  it("only emits well-formed 301s into /en/", () => {
+    expect(rules.length).toBeGreaterThan(0);
+    for (const rule of rules) {
+      expect(rule, rule.join(" ")).toHaveLength(3);
+      const [source, target, status] = rule;
+      expect(status, source).toBe("301");
+      expect(target.startsWith("/en/"), source).toBe(true);
+      expect(source.startsWith("/en/") || source.startsWith("/es/"), source).toBe(false);
+      expect(source.startsWith("/api/"), source).toBe(false);
+    }
+  });
+
+  it("keeps each section inside its own /en/ path", () => {
+    for (const [source, target] of rules) {
+      const sourceSection = source.replace(/^\//, "").split("/")[0];
+      const targetSection = target.replace(/^\/en\//, "").split("/")[0];
+      expect(targetSection, `${source} -> ${target}`).toBe(sourceSection);
+    }
+  });
+
+  it("wildcards every localized section so nested legacy URLs also 301", () => {
+    for (const section of SECTIONS) {
+      const wildcard = rules.find(([source]) => source === `/${section}/*`);
+      expect(wildcard, section).toBeDefined();
+      expect(wildcard?.[1]).toBe(`/en/${section}/:splat`);
+    }
+  });
+
+  it("covers the bare and trailing-slash roots", () => {
+    for (const section of SECTIONS) {
+      const roots = rules
+        .filter(([source]) => source === `/${section}` || source === `/${section}/`)
+        .map(([, target]) => target);
+      expect(roots, section).toEqual([`/en/${section}/`, `/en/${section}/`]);
+    }
+  });
+});

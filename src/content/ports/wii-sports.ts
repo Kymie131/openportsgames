@@ -20,7 +20,7 @@ export const WiiSports: Port = {
   verified: false,
   wip: true,
   sourceVerified: true,
-  originalSystem: "Wii",
+  originalSystems: ["Wii"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/Wii%20Sports%20(Europe)%20(En,Fr,De,Es,It)%20(Rev%201).png",
     alt: "Wii Sports (box art)",

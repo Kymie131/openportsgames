@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const projectIGIPsVita: Port = {
+  schema: "port",
+  id: "project-i-g-i-ps-vita",
+  title: "Project I.G.I. (PS Vita)",
+  game: "Project I.G.I.",
+  developers: ["HenryKun55"],
+  publisher: "Eidos Interactive",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/HenryKun55/igi-vita"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/fe/Project_I.G.I._I%27m_Going_In_%28cover%29.jpg",
+    alt: "Project I.G.I. (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Project I.G.I. (Eidos Interactive, 2000) running on PlayStation Vita through source port. Latest release: v0.5.0. You need your own copy of the game.",
+  notesEs: "Project I.G.I. (Eidos Interactive, 2000) en PlayStation Vita mediante port de código. Última release: v0.5.0. Necesitas tu propia copia del juego.",
+};

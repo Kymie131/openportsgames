@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const starshipAndroid: Port = {
+  schema: "port",
+  id: "starship-android",
+  title: "Starship (Android)",
+  game: "Star Fox 64",
+  developers: ["izzy2lost"],
+  publisher: "Nintendo",
+  originalYear: 1997,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/izzy2lost/Starship"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/63/StarFox64_N64_Game_Box.jpg",
+    alt: "Star Fox 64 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Star Fox 64 (Nintendo, 1997) for Android (source port). Latest release: v2.0.0. Needs your own copy of the game (Star Fox 64 (USA) (Rev 1).z64).",
+  notesEs: "Star Fox 64 (Nintendo, 1997) para Android (port de código). Última release: v2.0.0. Necesita tu propia copia del juego.",
+};

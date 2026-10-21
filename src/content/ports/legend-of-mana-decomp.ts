@@ -14,12 +14,13 @@ export const legendOfManaDecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
+  wip: true,
   release: { version: null, date: null },
   sources: ["https://github.com/celophi/lom-decomp"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Matching decompilation of Legend of Mana (PlayStation). A research codebase; it requires game files from a copy you own.",
   notesEs:

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const castlevaniaLegacyOfDarknessRecomp: Port = {
+  schema: "port",
+  id: "castlevania-legacy-of-darkness-recomp",
+  title: "Castlevania: Legacy of Darkness (PC)",
+  game: "Castlevania: Legacy of Darkness",
+  developers: ["sergiomanzur"],
+  publisher: "Konami",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sergiomanzur/cvlod_recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  related: ["castlevania-64-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/37/Castlevania_Legacy_of_Darkness.jpg",
+    alt: "Castlevania: Legacy of Darkness (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Castlevania: Legacy of Darkness (Nintendo 64, 1999) recompiled into a native executable with N64Recomp, with Windows and Android builds. Bring your own ROM. Latest release: v0.2.31.",
+  notesEs: "Castlevania: Legacy of Darkness (Nintendo 64, 1999) recompilado a un ejecutable nativo con N64Recomp, con builds de Windows y Android. Aporta tu propia ROM. Última release: v0.2.31.",
+};

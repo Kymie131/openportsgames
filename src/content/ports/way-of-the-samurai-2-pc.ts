@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const wayOfTheSamurai2Pc: Port = {
+  schema: "port",
+  id: "way-of-the-samurai-2-pc",
+  title: "Way of the Samurai 2 (PC)",
+  game: "Way of the Samurai 2",
+  developers: ["acklavidian"],
+  publisher: "Acquire",
+  originalYear: 2003,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["linux"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/acklavidian/decomp_wots2"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f9/Way_of_the_Samurai_2_cover.jpg",
+    alt: "Way of the Samurai 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Way of the Samurai 2 (Acquire, 2003) running on Linux through decompilation. Latest release: v0.3.10. You need your own copy of the game.",
+  notesEs: "Way of the Samurai 2 (Acquire, 2003) en Linux mediante decompilación. Última release: v0.3.10. Necesitas tu propia copia del juego.",
+};

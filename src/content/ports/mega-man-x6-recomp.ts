@@ -18,7 +18,7 @@ export const megaManX6Recomp: Port = {
   sources: ["https://github.com/mstan/MegaManX6Recomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Native recompilation of Mega Man X6 (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:

@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const _2048Psp: Port = {
+  schema: "port",
+  id: "2048-psp",
+  title: "2048 (PSP)",
+  game: "2048",
+  developers: ["violinmelody"],
+  publisher: "Gabriele Cirulli",
+  originalYear: 2014,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "open",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/violinmelody/2048PSP"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "2048 (Gabriele Cirulli, 2014) running on PlayStation Portable through source port. Latest release: 1.0.0. The original game is free software, so no commercial copy is needed.",
+  notesEs: "2048 (Gabriele Cirulli, 2014) en PlayStation Portable mediante port de código. Última release: 1.0.0. El juego original es software libre, así que no hace falta una copia comercial.",
+};

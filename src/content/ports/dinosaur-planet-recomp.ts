@@ -18,7 +18,7 @@ export const dinosaurPlanetRecomp: Port = {
   discord: "https://discord.gg/SUrA4aV7UW",
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   features: ["Configurable window size, including a 4:3 aspect ratio option"],
   featuresEs: ["Tamaño de ventana configurable, incluida una opción de relación de aspecto 4:3"],
   notes:

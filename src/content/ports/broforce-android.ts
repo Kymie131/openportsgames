@@ -18,7 +18,7 @@ export const broforceAndroid: Port = {
   sources: ["https://github.com/BelmanteGu/BroforceAndroid"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Unofficial Android port of Broforce designed for gamepads. It ships no game files and needs your own Steam copy.",
   notesEs:

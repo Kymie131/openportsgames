@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sma3RecompAndroid: Port = {
+  schema: "port",
+  id: "sma3-recomp-android",
+  title: "SMA3 Recomp Android",
+  game: "Super Mario Advance 3: Yoshi's Island",
+  developers: ["Edwin2929"],
+  publisher: "Nintendo",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Edwin2929/sma3-recomp-android."],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Super Mario Advance 3: Yoshi's Island (Nintendo, 2002) for Android (static recompilation). Latest release: Descarga. Needs your own copy of the game (Yoshi’s Island: Super Mario Advance 3 (USA)).",
+  notesEs: "Super Mario Advance 3: Yoshi's Island (Nintendo, 2002) para Android (recompilación estática). Última release: Descarga. Necesita tu propia copia del juego.",
+};

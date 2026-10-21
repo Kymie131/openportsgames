@@ -18,7 +18,7 @@ export const wiiCompiled: Port = {
   license: { spdx: "GPL-3.0" },
   verified: true,
   verifiedAt: "2026-09-19",
-  originalSystem: "Wii",
+  originalSystems: ["Wii"],
   features: [
     "Native 1080p with unlocked frame rate",
     "Online and local multiplayer",

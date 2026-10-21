@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const crackdownPc: Port = {
+  schema: "port",
+  id: "crackdown-pc",
+  title: "Crackdown (PC)",
+  game: "Crackdown",
+  developers: ["Unowa001"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Unowa001/crackdown-recomp"],
+  license: { spdx: "BSD-3-Clause" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  notes: "Crackdown (Microsoft Game Studios, 2007) running on Windows through static recompilation. Latest release: v1.0.0. You need your own copy of the game.",
+  notesEs: "Crackdown (Microsoft Game Studios, 2007) en Windows mediante recompilación estática. Última release: v1.0.0. Necesitas tu propia copia del juego.",
+};

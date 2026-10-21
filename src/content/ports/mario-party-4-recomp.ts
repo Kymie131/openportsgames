@@ -18,7 +18,7 @@ export const marioParty4Recomp: Port = {
   sources: ["https://github.com/mariopartyrd/marioparty4"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   notes:
     "Static recompilation of Mario Party 4 (GameCube) with ReXGlue. It requires a copy of the game.",
   notesEs:

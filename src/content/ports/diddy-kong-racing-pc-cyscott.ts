@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const diddyKongRacingPcCyscott: Port = {
+  schema: "port",
+  id: "diddy-kong-racing-pc-cyscott",
+  title: "Diddy Kong Racing (PC, cyscott)",
+  game: "Diddy Kong Racing",
+  developers: ["cyscott"],
+  publisher: "Nintendo",
+  originalYear: 1997,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/cyscott/dkr-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/72/Diddy_Kong_Racing_Cover_Art.png",
+    alt: "Diddy Kong Racing (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Diddy Kong Racing (Nintendo, 1997) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Diddy Kong Racing (Nintendo, 1997) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

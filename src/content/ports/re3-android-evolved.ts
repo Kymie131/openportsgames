@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const re3AndroidEvolved: Port = {
+  schema: "port",
+  id: "re3-android-evolved",
+  title: "Re3 Android Evolved",
+  game: "Grand Theft Auto III",
+  developers: ["codepdbh"],
+  publisher: "Rockstar Games",
+  originalYear: 2001,
+  portType: "source-port",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/codepdbh/re3-android-port-evolved"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/be/GTA3boxcover.jpg",
+    alt: "Grand Theft Auto III (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Grand Theft Auto III (Rockstar Games, 2001) for Android (source port). Latest release: v1.0.7. Needs your own copy of the game.",
+  notesEs: "Grand Theft Auto III (Rockstar Games, 2001) para Android (port de código). Última release: v1.0.7. Necesita tu propia copia del juego.",
+};

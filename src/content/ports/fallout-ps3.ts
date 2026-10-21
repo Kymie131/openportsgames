@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const falloutPs3: Port = {
+  schema: "port",
+  id: "fallout-ps3",
+  title: "Fallout (PS3)",
+  game: "Fallout",
+  developers: ["akinozgen"],
+  publisher: "Interplay Entertainment",
+  originalYear: 1997,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps3"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/akinozgen/fallout1-ce-ps3"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["MS-DOS"],
+  notes: "Fallout (Interplay Entertainment, 1997) running on PlayStation 3 through source port. Latest release: v0.1.0. You need your own copy of the game.",
+  notesEs: "Fallout (Interplay Entertainment, 1997) en PlayStation 3 mediante port de código. Última release: v0.1.0. Necesitas tu propia copia del juego.",
+};

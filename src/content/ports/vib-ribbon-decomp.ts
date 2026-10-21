@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const vibRibbonDecomp: Port = {
+  schema: "port",
+  id: "vib-ribbon-decomp",
+  title: "Vib-Ribbon Decompilation",
+  game: "Vib-Ribbon",
+  developers: ["open-ribbon"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "music",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/open-ribbon/open-ribbon"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  related: ["vib-ribbon-recomp"],
+  region: "PAL",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/ed/Vib-Ribbon.jpg",
+    alt: "Vib-Ribbon (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Work-in-progress decompilation of the PAL build of Vib-Ribbon (PlayStation, 1999).",
+  notesEs: "Decompilación en curso de la versión PAL de Vib-Ribbon (PlayStation, 1999).",
+};

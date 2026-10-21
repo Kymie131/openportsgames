@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const paperboatAndroid: Port = {
+  schema: "port",
+  id: "paperboat-android",
+  title: "PaperBoat (Android)",
+  game: "Paper Mario",
+  developers: ["chris43123"],
+  publisher: "Nintendo",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/chris43123/PaperBoat"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  notes: "Paper Mario (Nintendo, 2000) for Android (source port). Latest release: v1.1.0-airx.1. Needs your own copy of the game.",
+  notesEs: "Paper Mario (Nintendo, 2000) para Android (port de código). Última release: v1.1.0-airx.1. Necesita tu propia copia del juego.",
+};

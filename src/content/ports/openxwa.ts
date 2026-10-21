@@ -19,7 +19,7 @@ export const Openxwa: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Source port of OpenXWA (Other).",
   notesEs: "Port del código fuente de OpenXWA (Other).",
 };

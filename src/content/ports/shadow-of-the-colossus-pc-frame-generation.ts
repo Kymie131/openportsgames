@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const shadowOfTheColossusPcFrameGeneration: Port = {
+  schema: "port",
+  id: "shadow-of-the-colossus-pc-frame-generation",
+  title: "Shadow of the Colossus (PC, frame generation)",
+  game: "Shadow of the Colossus",
+  developers: ["nakaionyt"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/nakaionyt/ShadowOfTheColossus-PC-FrameGen"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f8/Shadow_of_the_Colossus_%282005%29_cover.jpg",
+    alt: "Shadow of the Colossus (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Shadow of the Colossus (Sony Computer Entertainment, 2005) running on Windows through static recompilation. Latest release: v0.57-fg2. You need your own copy of the game.",
+  notesEs: "Shadow of the Colossus (Sony Computer Entertainment, 2005) en Windows mediante recompilación estática. Última release: v0.57-fg2. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const persona4Psp: Port = {
+  schema: "port",
+  id: "persona-4-psp",
+  title: "Persona 4 (PSP, experimental)",
+  game: "Persona 4",
+  developers: ["tojikoumori"],
+  publisher: "Atlus",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/tojikoumori/P4toPSP"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 2"],
+  related: ["shin-megami-tensei-persona-4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/10/Shin_Megami_Tensei_Persona_4.jpg",
+    alt: "Persona 4 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Experimental project to run the PlayStation 2 version of Persona 4 natively on the PSP by recompiling the game's original code into C++ and recreating the PS2 functions it depends on, behind a custom runtime. No release yet.",
+  notesEs: "Proyecto experimental para ejecutar de forma nativa en la PSP la versión de PlayStation 2 de Persona 4, recompilando el código original a C++ y recreando las funciones de PS2 de las que depende dentro de un runtime propio. Sin release todavía.",
+};

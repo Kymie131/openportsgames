@@ -19,7 +19,7 @@ export const Wc1Re: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Wing Commander 1 source reconstruction and SDL2 port.",
   notesEs: "Reconstrucción del código fuente y port a SDL2 de Wing Commander 1.",
 };

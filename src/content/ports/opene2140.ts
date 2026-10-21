@@ -19,7 +19,7 @@ export const Opene2140: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Remake of Earth 2140 using OpenRA.",
   notesEs: "Remake de Earth 2140 con OpenRA.",
 };

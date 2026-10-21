@@ -19,7 +19,7 @@ export const crispyDoom: Port = {
   license: { spdx: "GPL-2.0" },
   verified: true,
   verifiedAt: "2026-10-14",
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   features: [
     "Hi-res sprites and textures replacing the Doom 1 art",
     "Optional sound effects pack",

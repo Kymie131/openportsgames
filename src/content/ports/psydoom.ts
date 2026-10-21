@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const psydoom: Port = {
+  schema: "port",
+  id: "psydoom",
+  title: "PsyDoom (PlayStation Doom backport)",
+  game: "Doom",
+  developers: ["BodbDearg"],
+  publisher: "id Software",
+  originalYear: 1995,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "stable",
+  release: { version: null, date: null },
+  sources: ["https://github.com/BodbDearg/PsyDoom"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  notes: "Backport of PlayStation Doom and Final Doom to PC via reverse engineering: the game's original MIPS code was gradually converted into structured C++ and now runs natively, with the PSX GPU and SPU emulated and an optional Vulkan renderer. Release 1.1.1 ships Windows, macOS and Linux (AppImage) builds.",
+  notesEs: "Retroport de Doom y Final Doom de PlayStation a PC mediante ingeniería inversa: el código MIPS original se convirtió progresivamente en C++ estructurado y ahora se ejecuta de forma nativa, con la GPU y la SPU de PSX emuladas y un renderizador Vulkan opcional. La release 1.1.1 publica builds para Windows, macOS y Linux (AppImage).",
+};

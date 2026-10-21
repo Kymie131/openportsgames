@@ -19,7 +19,7 @@ export const TheSpongebobSquarepantsMovie: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Decompilation of The SpongeBob SquarePants Movie (Other).",
   notesEs: "Decompilación de The SpongeBob SquarePants Movie (Other).",
 };

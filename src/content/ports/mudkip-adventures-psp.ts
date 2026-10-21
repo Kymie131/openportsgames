@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mudkipAdventuresPsp: Port = {
+  schema: "port",
+  id: "mudkip-adventures-psp",
+  title: "Mudkip Adventures (PSP)",
+  game: "Mudkip Adventures",
+  developers: ["albe"],
+  publisher: "Homebrew",
+  originalYear: 2021,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["psp"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/albe/mudkip-adventures"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Mudkip Adventures (Homebrew, 2021) running on PlayStation Portable through source port. You need your own copy of the game.",
+  notesEs: "Mudkip Adventures (Homebrew, 2021) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
+};

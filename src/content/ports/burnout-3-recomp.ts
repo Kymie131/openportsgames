@@ -18,7 +18,7 @@ export const burnout3Recomp: Port = {
   sources: ["https://github.com/sp00nznet/burnout3"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox",
+  originalSystems: ["Xbox"],
   notes:
     "Static recompilation of Burnout 3: Takedown (Xbox) with ReXGlue. It requires a copy of the game.",
   notesEs:

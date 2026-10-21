@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gzselacoAndroidDualScreen: Port = {
+  schema: "port",
+  id: "gzselaco-android-dual-screen",
+  title: "GZSelaco Android (Dual Screen)",
+  game: "Selaco",
+  developers: ["danillogical"],
+  publisher: "Altered Orbit Studios",
+  originalYear: 2024,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/danillogical/GZSelaco-android"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1592280/header.jpg",
+    alt: "Selaco (cover art)",
+    credit: "Steam",
+  },
+  notes: "Selaco (Altered Orbit Studios, 2024) for Android (source port). Latest release: v0.2.0. Needs your own copy of the game.",
+  notesEs: "Selaco (Altered Orbit Studios, 2024) para Android (port de código). Última release: v0.2.0. Necesita tu propia copia del juego.",
+};

@@ -19,7 +19,7 @@ export const OpenttdOpenttdPatches: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "OpenTTD - http://www.openttd.org/ - with additional patches.",
   notesEs: "OpenTTD (openttd.org) con parches adicionales.",
 };

@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rivenDs: Port = {
+  schema: "port",
+  id: "riven-ds",
+  title: "Riven (DS)",
+  game: "Riven",
+  developers: ["Warioware64"],
+  publisher: "Red Orb Entertainment",
+  originalYear: 1997,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Warioware64/Riven-The-Sequel-Of-Myst-NDS-Port"],
+  license: { spdx: "Apache-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/32/Riven_Coverart.png",
+    alt: "Riven (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Riven (Red Orb Entertainment, 1997) running on Nintendo DS through source port. Latest release: v1.0.0. You need your own copy of the game.",
+  notesEs: "Riven (Red Orb Entertainment, 1997) en Nintendo DS mediante port de código. Última release: v1.0.0. Necesitas tu propia copia del juego.",
+};

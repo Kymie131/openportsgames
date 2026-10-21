@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const shipwrightAndroid: Port = {
+  schema: "port",
+  id: "shipwright-android",
+  title: "Shipwright Android",
+  game: "The Legend of Zelda: Ocarina of Time",
+  developers: ["please-be-nice"],
+  publisher: "Nintendo",
+  originalYear: 1998,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/please-be-nice/Shipwright-android"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube","Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
+    alt: "The Legend of Zelda: Ocarina of Time (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Legend of Zelda: Ocarina of Time (Nintendo, 1998) for Android (source port). Latest release: v9.2.3-android.4.3. Needs your own copy of the game (ZELOOTD.z64 (Debug Build)).",
+  notesEs: "The Legend of Zelda: Ocarina of Time (Nintendo, 1998) para Android (port de código). Última release: v9.2.3-android.4.3. Necesita tu propia copia del juego.",
+};

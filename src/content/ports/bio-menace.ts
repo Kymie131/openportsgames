@@ -20,7 +20,7 @@ export const BioMenace: Port = {
   verified: false,
   wip: true,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["MS-DOS"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/22/Bio_Menace_Cover.jpg",
     alt: "Bio Menace (cover)",

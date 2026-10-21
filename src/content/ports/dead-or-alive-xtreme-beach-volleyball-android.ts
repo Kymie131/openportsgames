@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const deadOrAliveXtremeBeachVolleyballAndroid: Port = {
+  schema: "port",
+  id: "dead-or-alive-xtreme-beach-volleyball-android",
+  title: "Dead or Alive Xtreme Beach Volleyball · Android",
+  game: "Dead or Alive: Xtreme Beach Volleyball",
+  developers: ["Wannamingo"],
+  publisher: "Tecmo",
+  originalYear: 2003,
+  portType: "source-port",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Wannamingo/DoAXBV"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8d/Doaxbvbox.jpg",
+    alt: "Dead or Alive: Xtreme Beach Volleyball (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Dead or Alive: Xtreme Beach Volleyball (Tecmo, 2003) for Android (source port). Latest release: v0.4.2-ru-USA6-Beach. Needs your own copy of the game.",
+  notesEs: "Dead or Alive: Xtreme Beach Volleyball (Tecmo, 2003) para Android (port de código). Última release: v0.4.2-ru-USA6-Beach. Necesita tu propia copia del juego.",
+};

@@ -18,7 +18,7 @@ export const pokemonEmeraldDualScreen: Port = {
   sources: ["https://github.com/Goldoire/pokeemerald-dualscreen"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Game Boy Advance",
+  originalSystems: ["Game Boy Advance"],
   notes:
     "Static recompilation of Pokémon Emerald (GBA) with the gbarecomp framework. It requires the original game.",
   notesEs:

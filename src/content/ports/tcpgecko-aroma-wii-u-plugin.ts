@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tcpgeckoAromaWiiUPlugin: Port = {
+  schema: "port",
+  id: "tcpgecko-aroma-wii-u-plugin",
+  title: "TCPGecko Aroma (Wii U plugin)",
+  game: "Wii U",
+  developers: ["Teotia444"],
+  publisher: "Nintendo",
+  originalYear: 2012,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "plugin",
+  kind: "tool",
+  platforms: ["wiiu"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Teotia444/TCPGeckoAroma"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Wii U (Nintendo, 2012) running on Wii U through source port. Latest release: 1.0.0. You need your own copy of the game.",
+  notesEs: "Wii U (Nintendo, 2012) en Wii U mediante port de código. Última release: 1.0.0. Necesitas tu propia copia del juego.",
+};

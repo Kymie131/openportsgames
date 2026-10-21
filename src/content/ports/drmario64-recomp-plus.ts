@@ -18,7 +18,7 @@ export const drMario64RecompPlus: Port = {
   sources: ["https://github.com/theboy181/drmario64_recomp_plus"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Native recompilation of Dr. Mario 64 with extra quality-of-life additions. The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

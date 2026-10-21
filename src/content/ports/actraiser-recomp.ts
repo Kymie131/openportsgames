@@ -18,7 +18,7 @@ export const actraiserRecomp: Port = {
   sources: ["https://github.com/DerrickGold/ar-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Super Nintendo",
+  originalSystems: ["Super Nintendo"],
   notes:
     "Recompilation of ActRaiser (Super Nintendo) for Windows, Linux and macOS. It needs your own ROM of the game.",
   notesEs:

@@ -64,4 +64,5 @@ export const eduke32: Port = {
     alt: "Duke Nukem 3D (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["MS-DOS"],
 };

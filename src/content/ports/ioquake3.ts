@@ -34,4 +34,5 @@ export const ioquake3: Port = {
     alt: "Quake III Arena (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["Windows"],
 };

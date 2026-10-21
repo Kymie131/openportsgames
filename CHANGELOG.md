@@ -5,8 +5,24 @@ conventional prefixes.
 
 ## [Unreleased]
 
+### Fixed
+
+- The static export now stays under Cloudflare Pages' 20,000-file limit:
+  `postbuild` prunes duplicate `__next._full.txt` prefetch copies and the unused
+  per-port `opengraph-image` files. Share cards keep using each entry's cover or
+  the shared root card, so nothing visible changes.
+
 ### Added
 
+- 28 ports from the GitHub topics sweep (`psp-homebrew`, `psvita-homebrew`,
+  `3ds-homebrew`, `wii-homebrew`, `wiiu-homebrew`, `switch-homebrew`,
+  `n64recomp`, `static-recompilation`): WindowSmash (Smash Bros. Ultimate on
+  PC), Sega Rally (Port0r), both Lord of the Rings ports from Athelas,
+  Soulcalibur II HD, StarCraft 64, SSF2T HD Remix, Prototype 1/2 on Switch,
+  Heart of Darkness, Touhou 6 and Inotia 3 on PS Vita, Buckshot Roulette,
+  Bomberman 64 on Switch, Bird & Beans and SuperTux on Wii, Hexen II on 3DS,
+  Pokemon Emerald and Super Mario 64 on PSP, plus eight homebrew games and
+  the CPS-2 Recomp launcher. See `docs/missing-ports-2026-10.md` (section E).
 - Box art for the whole catalog: every port now shows a cover. Classic
   systems use libretro-thumbnails; the modern consoles (PS4, PS5, Xbox 360,
   Switch) use official cover art from Wikipedia/Wikimedia, credited as such.

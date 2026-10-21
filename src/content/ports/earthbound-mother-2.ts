@@ -19,7 +19,7 @@ export const EarthboundMother2: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Source code recreation for the game Earthbound.",
   notesEs: "Recreación del código fuente de EarthBound.",
 };

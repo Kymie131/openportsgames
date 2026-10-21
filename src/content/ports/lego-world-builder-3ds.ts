@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const legoWorldBuilder3ds: Port = {
+  schema: "port",
+  id: "lego-world-builder-3ds",
+  title: "LEGO World Builder (3DS)",
+  game: "LEGO World Builder",
+  developers: ["AgitationSkeleton"],
+  publisher: "Gamelab",
+  originalYear: 2002,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/AgitationSkeleton/lego-world-builder-3ds"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "LEGO World Builder (Gamelab, 2002) running on Nintendo 3DS through source port. Latest release: v1.0.0. You need your own copy of the game.",
+  notesEs: "LEGO World Builder (Gamelab, 2002) en Nintendo 3DS mediante port de código. Última release: v1.0.0. Necesitas tu propia copia del juego.",
+};

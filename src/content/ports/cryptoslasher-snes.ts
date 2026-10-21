@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const cryptoslasherSnes: Port = {
+  schema: "port",
+  id: "cryptoslasher-snes",
+  title: "CryptoSlasher (SNES)",
+  game: "CryptoSlasher",
+  developers: ["charasyn"],
+  publisher: "Homebrew",
+  originalYear: 2022,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["snes"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/charasyn/snes-cryptoslasher"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "CryptoSlasher (Homebrew, 2022) running on snes through source port. You need your own copy of the game.",
+  notesEs: "CryptoSlasher (Homebrew, 2022) en snes mediante port de código. Necesitas tu propia copia del juego.",
+};

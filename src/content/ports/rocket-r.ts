@@ -18,7 +18,7 @@ export const rocketR: Port = {
   sources: ["https://github.com/ThatGuyMcd/Rocket-R"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Native recompilation of Rocket: Robot on Wheels (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

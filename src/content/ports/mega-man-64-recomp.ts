@@ -18,7 +18,7 @@ export const megaMan64Recomp: Port = {
   sources: ["https://github.com/MegaMan64Recomp/MegaMan64Recompiled"],
   license: { spdx: "GPL-3.0" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Native recompilation of Mega Man 64 (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

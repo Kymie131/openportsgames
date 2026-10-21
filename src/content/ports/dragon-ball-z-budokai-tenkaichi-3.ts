@@ -20,7 +20,7 @@ export const dragonBallZBudokaiTenkaichi3: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: false,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   notes:
     "Budokai Tenkaichi 3 running in the browser, compiled to WebAssembly from the game's decompiled code. The player supplies their own legally obtained disc image; the game data is read locally and never uploaded.",
   notesEs:

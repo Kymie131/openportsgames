@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const project8recomp: Port = {
+  schema: "port",
+  id: "project8recomp",
+  title: "Project8Recomp",
+  game: "Tony Hawk's Project 8",
+  developers: ["moddedrounds"],
+  publisher: "Activision",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/moddedrounds/THP8-Android"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8c/Tony_Hawk%27s_Project_8_cover.jpg",
+    alt: "Tony Hawk's Project 8 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Tony Hawk's Project 8 (Activision, 2007) for Android (static recompilation). Latest release: v1.2.4. Needs your own copy of the game.",
+  notesEs: "Tony Hawk's Project 8 (Activision, 2007) para Android (recompilación estática). Última release: v1.2.4. Necesita tu propia copia del juego.",
+};

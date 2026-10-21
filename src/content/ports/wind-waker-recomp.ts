@@ -18,7 +18,7 @@ export const windWakerRecomp: Port = {
   sources: ["https://github.com/sp00nznet/ww"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   notes:
     "Static recompilation of The Legend of Zelda: The Wind Waker (GameCube) to a native app. The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:

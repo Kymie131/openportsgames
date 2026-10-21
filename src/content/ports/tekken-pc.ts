@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tekkenPc: Port = {
+  schema: "port",
+  id: "tekken-pc",
+  title: "Tekken (PC)",
+  game: "Tekken",
+  developers: ["fabioap-cpu"],
+  publisher: "Namco",
+  originalYear: 1994,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/fabioap-cpu/Tekken1Recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  notes: "Tekken (Namco, 1994) running on Windows through static recompilation. Latest release: v2.1. You need your own copy of the game.",
+  notesEs: "Tekken (Namco, 1994) en Windows mediante recompilación estática. Última release: v2.1. Necesitas tu propia copia del juego.",
+};

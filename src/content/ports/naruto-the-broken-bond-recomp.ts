@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const narutoTheBrokenBondRecomp: Port = {
+  schema: "port",
+  id: "naruto-the-broken-bond-recomp",
+  title: "Naruto: The Broken Bond (Port)",
+  game: "Naruto: The Broken Bond",
+  developers: ["Masterllgod"],
+  publisher: "Ubisoft",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Masterllgod/naruto-the-broken-bond-port-nativo"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b3/Naruto_The_Broken_Bond.jpg",
+    alt: "Naruto: The Broken Bond (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Naruto: The Broken Bond (Xbox 360, 2008) running natively on Android (ARM64) and PC (Windows x64) via static recompilation, no CPU emulator. Built by Masterllgod; no game files are included, you need your own copy. Documentation only so far (no build yet).",
+  notesEs: "Naruto: The Broken Bond (Xbox 360, 2008) corriendo de forma nativa en Android (ARM64) y PC (Windows x64) por recompilación estática, sin emulador de CPU. Hecho por Masterllgod; no incluye archivos del juego, necesitas tu propia copia. De momento solo documentación (sin build todavía).",
+};

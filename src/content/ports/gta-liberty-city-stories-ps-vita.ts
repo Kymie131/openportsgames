@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gtaLibertyCityStoriesPsVita: Port = {
+  schema: "port",
+  id: "gta-liberty-city-stories-ps-vita",
+  title: "GTA: Liberty City Stories (PS Vita)",
+  game: "Grand Theft Auto: Liberty City Stories",
+  developers: ["fauxrougee"],
+  publisher: "Rockstar Games",
+  originalYear: 2005,
+  portType: "source-port",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/fauxrougee/GTALCS-psvita-port"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation Portable"],
+  notes: "Grand Theft Auto: Liberty City Stories (Rockstar Games, 2005) running on PlayStation Vita through source port. Latest release: v01.19. You need your own copy of the game.",
+  notesEs: "Grand Theft Auto: Liberty City Stories (Rockstar Games, 2005) en PlayStation Vita mediante port de código. Última release: v01.19. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sunsetRidersPc: Port = {
+  schema: "port",
+  id: "sunset-riders-pc",
+  title: "Sunset Riders (PC)",
+  game: "Sunset Riders",
+  developers: ["diogozarpelo"],
+  publisher: "Konami",
+  originalYear: 1993,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/diogozarpelo/sunset-riders-recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Super Nintendo"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a1/Sunset_Riders_Arcade_Flyer.png",
+    alt: "Sunset Riders (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Sunset Riders (Konami, 1993) running on Windows through static recompilation. You need your own copy of the game.",
+  notesEs: "Sunset Riders (Konami, 1993) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
+};

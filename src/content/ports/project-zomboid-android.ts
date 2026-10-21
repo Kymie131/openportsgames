@@ -18,7 +18,7 @@ export const projectZomboidAndroid: Port = {
   sources: ["https://github.com/udarmolota/zomdroid"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Unofficial Android launcher for Project Zomboid. It needs a purchased copy of the desktop game and its files.",
   notesEs:

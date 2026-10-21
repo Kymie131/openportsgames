@@ -15,13 +15,12 @@ export const starfoxEnhanced: Port = {
   platforms: ["windows", "linux", "macos", "android"],
   status: "alpha",
   release: { version: null, date: null },
-  sources: ["https://github.com/kandowontu/starfox-enhanced"],
+  sources: ["https://github.com/kandowontu2/starfox-enhanced"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  sourceDead: true,
   warning: "The original repository was taken down and the link no longer resolves.",
   warningEs: "El repositorio original fue retirado y el enlace ya no responde.",
-  originalSystem: "Super Nintendo",
+  originalSystems: ["Super Nintendo"],
   notes:
     "Native C++/SDL3 port of the open-source UltraStarFox codebase, with high frame rates, widescreen and optional visual enhancements. It validates your own Star Fox ROM and runs on desktop and mobile.",
   notesEs:

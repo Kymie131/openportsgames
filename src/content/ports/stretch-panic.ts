@@ -16,10 +16,10 @@ export const StretchPanic: Port = {
   status: "alpha",
   release: { version: null, date: null },
   sources: ["https://github.com/Harskov/stretch-panic-usa"],
-  license: { spdx: "MIT" },
+  license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Stretch%20Panic%20(USA).png",
     alt: "Stretch Panic (box art)",

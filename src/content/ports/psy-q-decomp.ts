@@ -9,6 +9,7 @@ export const psyQDecomp: Port = {
   publisher: "Sony Computer Entertainment",
   originalYear: 1994,
   portType: "decompilation",
+  kind: "tool",
   genre: "simulation",
   openSource: true,
   originalGameLicense: "proprietary",
@@ -20,7 +21,7 @@ export const psyQDecomp: Port = {
   verified: false,
   wip: true,
   sourceVerified: true,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Work-in-progress decompilation of the PS1 Psy-Q SDK libraries. It is a development kit, not a game.",
   notesEs:

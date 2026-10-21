@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const metroidZeroMissionDecomp: Port = {
+  schema: "port",
+  id: "metroid-zero-mission-decomp",
+  title: "Metroid: Zero Mission Decompilation",
+  game: "Metroid: Zero Mission",
+  developers: ["metroidret"],
+  publisher: "Nintendo",
+  originalYear: 2004,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/metroidret/mzm"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Game Boy Advance"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7d/Metroid_--_Zero_Mission_%28box_art%29.jpg",
+    alt: "Metroid: Zero Mission (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Matching decompilation of Metroid: Zero Mission (Game Boy Advance, 2004) with 99.89% of functions decompiled. No playable download: it builds the ROM from your own copy.",
+  notesEs: "Decompilación matching de Metroid: Zero Mission (Game Boy Advance, 2004) con el 99,89 % de las funciones decompiladas. Sin descarga jugable: compila la ROM desde tu propia copia.",
+};

@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const descent2Mobile: Port = {
+  schema: "port",
+  id: "descent-2-mobile",
+  title: "Descent 2 Mobile",
+  game: "Descent II",
+  developers: ["devint1"],
+  publisher: "Interplay Entertainment",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/devint1/Descent2-Mobile"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["MS-DOS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a9/Descent_II_cover_art.png",
+    alt: "Descent II (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Descent II (Interplay Entertainment, 1996) for Android (source port). Needs your own copy of the game.",
+  notesEs: "Descent II (Interplay Entertainment, 1996) para Android (port de código). Necesita tu propia copia del juego.",
+};

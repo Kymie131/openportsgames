@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superMario64Ds3ds: Port = {
+  schema: "port",
+  id: "super-mario-64-ds-3ds",
+  title: "Super Mario 64 DS (3DS)",
+  game: "Super Mario 64 DS",
+  developers: ["SebastienBreton"],
+  publisher: "Nintendo",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/SebastienBreton/sm64ds-3ds"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo DS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/12/Super_Mario_64_DS_Coverart.png",
+    alt: "Super Mario 64 DS (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Super Mario 64 DS (Nintendo, 2004) running on Nintendo 3DS through source port. You need your own copy of the game.",
+  notesEs: "Super Mario 64 DS (Nintendo, 2004) en Nintendo 3DS mediante port de código. Necesitas tu propia copia del juego.",
+};

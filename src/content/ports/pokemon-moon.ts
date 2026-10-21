@@ -20,7 +20,7 @@ export const PokemonMoon: Port = {
   verified: false,
   wip: true,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/ba/Pokemon_Sun_Boxart.jpg",
     alt: "Pokémon Moon (cover)",

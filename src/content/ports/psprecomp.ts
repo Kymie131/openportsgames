@@ -17,7 +17,7 @@ export const pspRecomp: Port = {
   sources: ["https://github.com/jessicanataliagta/PSPRecomp"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystem: "PlayStation Portable",
+  originalSystems: ["PlayStation Portable"],
   features: [
     "Static recompiler that turns Allegrex code into C++ translation units",
     "Vice City Stories is the first working profile",

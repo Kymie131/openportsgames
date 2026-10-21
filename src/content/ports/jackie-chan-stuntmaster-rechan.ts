@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jackieChanStuntmasterRechan: Port = {
+  schema: "port",
+  id: "jackie-chan-stuntmaster-rechan",
+  title: "ReChan (Jackie Chan Stuntmaster)",
+  game: "Jackie Chan Stuntmaster",
+  developers: ["SilverwireGames"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2000,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/SilverwireGames/ReChan"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  related: ["jackie-chan-stuntmaster-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e6/JackieChanStuntmaster.jpg",
+    alt: "Jackie Chan Stuntmaster (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "ReChan: reimplementation of Jackie Chan Stuntmaster (PlayStation, 2000). Bring your own disc. Latest release: v1.0.1.",
+  notesEs: "ReChan: reimplementación de Jackie Chan Stuntmaster (PlayStation, 2000). Aporta tu propio disco. Última release: v1.0.1.",
+};

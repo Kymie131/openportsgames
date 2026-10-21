@@ -18,7 +18,7 @@ export const rumbleRosesXxRecomp: Port = {
   sources: ["https://github.com/Revan67/RumbleRosesXX-Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes:
     "Recompilation of Rumble Roses XX (Xbox 360) for Windows. It needs the original game and does not bundle any content.",
   notesEs:

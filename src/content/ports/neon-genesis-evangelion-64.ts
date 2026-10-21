@@ -19,7 +19,7 @@ export const NeonGenesisEvangelion64: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/cf/Neon_Genesis_Evangelion_64_Game_Box.jpg",
     alt: "Neon Genesis Evangelion 64 (box art)",

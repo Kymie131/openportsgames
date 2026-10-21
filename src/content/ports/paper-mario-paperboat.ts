@@ -18,7 +18,7 @@ export const paperMarioPaperboat: Port = {
   sources: ["https://github.com/HarbourMasters/PaperBoat"],
   license: { spdx: "CC0-1.0" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Decompilation-based native port of Paper Mario (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

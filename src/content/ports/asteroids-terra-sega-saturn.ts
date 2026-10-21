@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const asteroidsTerraSegaSaturn: Port = {
+  schema: "port",
+  id: "asteroids-terra-sega-saturn",
+  title: "Asteroids Terra (Sega Saturn)",
+  game: "Asteroids Terra",
+  developers: ["mxfolken"],
+  publisher: "Homebrew",
+  originalYear: 2021,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["saturn"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/mxfolken/AsteroidsTerra"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Asteroids Terra (Homebrew, 2021) running on saturn through source port. Latest release: 1. You need your own copy of the game.",
+  notesEs: "Asteroids Terra (Homebrew, 2021) en saturn mediante port de código. Última release: 1. Necesitas tu propia copia del juego.",
+};

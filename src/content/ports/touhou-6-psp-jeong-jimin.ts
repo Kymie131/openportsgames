@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const touhou6PspJeongJimin: Port = {
+  schema: "port",
+  id: "touhou-6-psp-jeong-jimin",
+  title: "Touhou 6 (PSP, jeong-jimin)",
+  game: "Touhou 6: The Embodiment of Scarlet Devil",
+  developers: ["jeong-jimin-github"],
+  publisher: "Team Shanghai Alice",
+  originalYear: 2002,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/jeong-jimin-github/PSP_TH06"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Touhou 6: The Embodiment of Scarlet Devil (Team Shanghai Alice, 2002) running on PlayStation Portable through source port. You need your own copy of the game.",
+  notesEs: "Touhou 6: The Embodiment of Scarlet Devil (Team Shanghai Alice, 2002) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
+};

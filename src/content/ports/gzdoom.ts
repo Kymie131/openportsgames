@@ -38,4 +38,5 @@ export const gzdoom: Port = {
     alt: "Doom (box art)",
     credit: "Wikipedia",
   },
+  originalSystems: ["MS-DOS"],
 };

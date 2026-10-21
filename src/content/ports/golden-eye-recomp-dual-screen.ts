@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const goldenEyeRecompDualScreen: Port = {
+  schema: "port",
+  id: "golden-eye-recomp-dual-screen",
+  title: "Golden Eye Recomp (Dual Screen)",
+  game: "GoldenEye 007: Reloaded",
+  developers: ["jeffory"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2010,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/jeffory/GoldenEye-Recomp"],
+  license: { spdx: "Unlicense" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "GoldenEye 007: Reloaded (Microsoft Game Studios, 2010) for Android (static recompilation). Latest release: v1.7.1. Needs your own copy of the game (Golden Eye 007 Remaster folder).",
+  notesEs: "GoldenEye 007: Reloaded (Microsoft Game Studios, 2010) para Android (recompilación estática). Última release: v1.7.1. Necesita tu propia copia del juego.",
+};

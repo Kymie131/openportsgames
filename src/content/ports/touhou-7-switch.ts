@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const touhou7Switch: Port = {
+  schema: "port",
+  id: "touhou-7-switch",
+  title: "Touhou 7 (Switch)",
+  game: "Touhou 7: Perfect Cherry Blossom",
+  developers: ["saekaze"],
+  publisher: "Team Shanghai Alice",
+  originalYear: 2003,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/saekaze/th07-switch"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Touhou 7: Perfect Cherry Blossom (Team Shanghai Alice, 2003) running on Nintendo Switch through source port. Latest release: v1.00b-r5. You need your own copy of the game.",
+  notesEs: "Touhou 7: Perfect Cherry Blossom (Team Shanghai Alice, 2003) en Nintendo Switch mediante port de código. Última release: v1.00b-r5. Necesitas tu propia copia del juego.",
+};

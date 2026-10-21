@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const hybridHeavenPcDanielgomesvieira2000: Port = {
+  schema: "port",
+  id: "hybrid-heaven-pc-danielgomesvieira2000",
+  title: "Hybrid Heaven (PC, danielgomesvieira2000)",
+  game: "Hybrid Heaven",
+  developers: ["danielgomesvieira2000"],
+  publisher: "Konami",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/danielgomesvieira2000/hybrid-heaven-recomp"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/db/Hybridheaven.jpg",
+    alt: "Hybrid Heaven (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Hybrid Heaven (Konami, 1999) running on Windows through static recompilation. Latest release: v0.2.0. You need your own copy of the game.",
+  notesEs: "Hybrid Heaven (Konami, 1999) en Windows mediante recompilación estática. Última release: v0.2.0. Necesitas tu propia copia del juego.",
+};

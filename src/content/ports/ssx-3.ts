@@ -19,7 +19,7 @@ export const Ssx3: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/43/SSX_3_Coverart.png",
     alt: "SSX 3 (box art)",

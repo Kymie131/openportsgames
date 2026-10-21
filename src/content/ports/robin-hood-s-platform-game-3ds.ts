@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const robinHoodSPlatformGame3ds: Port = {
+  schema: "port",
+  id: "robin-hood-s-platform-game-3ds",
+  title: "Robin Hood's Platform Game (3DS)",
+  game: "Robin Hood's Platform Game",
+  developers: ["esoteric-programmer"],
+  publisher: "Homebrew",
+  originalYear: 2017,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/esoteric-programmer/robin-hood"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Robin Hood's Platform Game (Homebrew, 2017) running on Nintendo 3DS through source port. Latest release: v0.1.1. You need your own copy of the game.",
+  notesEs: "Robin Hood's Platform Game (Homebrew, 2017) en Nintendo 3DS mediante port de código. Última release: v0.1.1. Necesitas tu propia copia del juego.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const wertactics3ds: Port = {
+  schema: "port",
+  id: "wertactics-3ds",
+  title: "Wertactics (3DS)",
+  game: "Wertactics",
+  developers: ["AleXwern"],
+  publisher: "Homebrew",
+  originalYear: 2023,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["3ds"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/AleXwern/Wertactics"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Wertactics (Homebrew, 2023) running on Nintendo 3DS through source port. You need your own copy of the game.",
+  notesEs: "Wertactics (Homebrew, 2023) en Nintendo 3DS mediante port de código. Necesitas tu propia copia del juego.",
+};

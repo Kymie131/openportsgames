@@ -19,7 +19,7 @@ export const XdGaleOfDarkness: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   notes: "A decompilation of Pokemon XD for the Nintendo GameCube.",
   notesEs: "Una decompilación de Pokémon XD para Nintendo GameCube.",
 };

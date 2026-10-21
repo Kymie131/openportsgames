@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const hashiPsVita: Port = {
+  schema: "port",
+  id: "hashi-ps-vita",
+  title: "Hashi (PS Vita)",
+  game: "Hashi",
+  developers: ["samobot"],
+  publisher: "Nikoli",
+  originalYear: 1989,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/samobot/hashi-vita"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "Hashi (Nikoli, 1989) running on PlayStation Vita through source port. Latest release: v1.0.0. You need your own copy of the game.",
+  notesEs: "Hashi (Nikoli, 1989) en PlayStation Vita mediante port de código. Última release: v1.0.0. Necesitas tu propia copia del juego.",
+};

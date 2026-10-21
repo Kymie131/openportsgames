@@ -19,7 +19,7 @@ export const rec98: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PC-98",
+  originalSystems: ["PC-98"],
   notes:
     "Reverse-engineering project for the first five Touhou games on PC-98. A research codebase; it requires game files from a copy you own.",
   notesEs:

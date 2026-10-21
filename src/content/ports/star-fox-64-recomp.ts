@@ -18,7 +18,7 @@ export const starFox64Recomp: Port = {
   sources: ["https://github.com/sonicdcer/Starfox64Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes:
     "Static recompilation of Star Fox 64 (N64, USA v1.1 Rev A) with N64Recomp and RT64. It adds widescreen, unlocked framerate, mods (with a Thunderstore page) and instant load times.",
   notesEs:

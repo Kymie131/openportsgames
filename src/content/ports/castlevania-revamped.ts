@@ -18,7 +18,7 @@ export const castlevaniaRevamped: Port = {
   sources: ["https://github.com/eboody/Castlevania-ReVamped-Open-Source-Edition"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Nintendo Entertainment System",
+  originalSystems: ["Nintendo Entertainment System"],
   notes:
     "Android reimplementation of the original Castlevania, distributed as an open-source build. It uses the game's original assets from your own copy.",
   notesEs:

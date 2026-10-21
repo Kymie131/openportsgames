@@ -43,6 +43,11 @@ The pre-i18n site served English (and the same pages) at the root:
 **301 to the `/en/…` equivalent** to keep the accumulated SEO. Redirects live in
 Cloudflare (a static export cannot emit them).
 
+`public/_redirects` already ships the wildcard rules with the build, so
+Cloudflare Pages applies them automatically (`npm run build` copies the file to
+`out/_redirects`). The dashboard rules below are only a fallback; keep both in
+sync when a section is added or renamed.
+
 ### Plan A — one wildcard Redirect Rule per section (recommended)
 
 Create **Rules → Redirect Rules** and add one **Single Redirect** per section.
@@ -72,7 +77,7 @@ keep these redirects above any catch-all.
 
 ### Plan B — Bulk Redirects list (CSV)
 
-`docs/redirects-301.csv` holds every mapping explicitly (1.195 rows: 11 sections
+`docs/redirects-301.csv` holds every mapping explicitly (1.911 rows: 11 sections
 plus every registered port). It is derived from the modules wired into
 `src/content/ports/index.ts`, so unregistered ("orphan") files never produce a
 redirect to a page that does not exist. Regenerate it after catalog changes:
@@ -124,3 +129,26 @@ redirect into a 404:
 3. **Verify.** `curl -I https://openportsgames.com/ports/sm64ex/` must return
    `301` with `location: https://openportsgames.com/en/ports/sm64ex/`. Then submit
    the updated sitemap in Google Search Console / Bing.
+
+## Build: no network dependency
+
+The static export does **not** depend on the network:
+
+- Share images come from the entry's own cover, or from the shared root card
+  (`out/opengraph-image.png`) when the entry has no cover; there is no
+  per-port OG image route.
+- No `fetch`/XHR runs at build time, and `next.config.ts` declares no
+  `remotePatterns`/`domains`.
+
+
+Concurrency/memory knobs (if a host needs them): the build peaks around **~3 GB of
+Node RSS**; Next 16 exposes `experimental.staticGenerationMaxConcurrency`,
+`experimental.staticGenerationMinPagesPerWorker`, `experimental.workerThreads` and
+`experimental.cpus` to bound the static-generation workers.
+
+The `postbuild` step first runs `scripts/prune-export.mjs`, which removes
+`__next._full.txt` prefetch copies (byte-identical to their sibling `index.txt`) and
+the unused per-port `opengraph-image` files. It verifies each duplicate before
+deleting it and always exits 0. Then `scripts/check-export-size.mjs` prints
+`[export-size] N files in out/ (warn at 18000, limit 20000)` and **always exits 0**:
+it only warns, it never fails the build.

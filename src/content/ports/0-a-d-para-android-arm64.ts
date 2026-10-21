@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const _0ADParaAndroidArm64: Port = {
+  schema: "port",
+  id: "0-a-d-para-android-arm64",
+  title: "0 A.D. para Android ARM64",
+  game: "0 A.D.",
+  developers: ["Revers-BR"],
+  publisher: "Wildfire Games",
+  originalYear: 2010,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "open",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Revers-BR/0ad-android-releases"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  warning: "This Android port distributes the game's own files, so it is not built from a copy you own. Its legal situation differs from the rest of the catalog and it may be removed.",
+  warningEs: "Este port de Android distribuye los archivos del propio juego, así que no se construye desde una copia tuya. Su situación legal es distinta a la del resto del catálogo y puede ser retirada.",
+  notes: "0 A.D. (Wildfire Games, 2010) for Android (source port). Latest release: v0.28.0-android-1. It ships the game files with the port, so it does not build from your own copy.",
+  notesEs: "0 A.D. (Wildfire Games, 2010) para Android (port de código). Última release: v0.28.0-android-1. Distribuye los archivos del propio juego con el port, así que no se construye desde tu propia copia.",
+};

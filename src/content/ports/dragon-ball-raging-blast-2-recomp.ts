@@ -19,7 +19,7 @@ export const dragonBallRagingBlast2Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   notes: "Recompiled with the ReXGlue SDK.",
   notesEs: "Recompilado con el SDK ReXGlue.",
   cover: {

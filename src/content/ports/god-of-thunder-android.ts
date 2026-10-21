@@ -18,7 +18,7 @@ export const godOfThunderAndroid: Port = {
   sources: ["https://github.com/wootbeer/gotandroid"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   notes:
     "Source port of the 1993 DOS game God of Thunder for Android, with extra quality-of-life features. It needs the original game files, whose license is free.",
   notesEs:

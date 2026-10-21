@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const deltarune3dsRanchBlad: Port = {
+  schema: "port",
+  id: "deltarune-3ds-ranch-blad",
+  title: "Deltarune (3DS, RANCH-BLAD)",
+  game: "Deltarune",
+  developers: ["RANCH-BLAD"],
+  publisher: "Toby Fox",
+  originalYear: 2018,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/RANCH-BLAD/DELTARUNE-ON-3DS"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1671210/header.jpg",
+    alt: "Deltarune (cover art)",
+    credit: "Steam",
+  },
+  notes: "Deltarune (Toby Fox, 2018) running on Nintendo 3DS through source port. You need your own copy of the game.",
+  notesEs: "Deltarune (Toby Fox, 2018) en Nintendo 3DS mediante port de código. Necesitas tu propia copia del juego.",
+};

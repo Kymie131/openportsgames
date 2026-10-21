@@ -19,7 +19,7 @@ export const Btbuilder: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Bt Builder is an open source implementation of the Bard's Tale Construction Set.",
   notesEs: "Bt Builder es una implementación de código abierto del Bard's Tale Construction Set.",
 };

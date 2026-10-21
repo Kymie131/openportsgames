@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const digimonWorld3Recomp: Port = {
+  schema: "port",
+  id: "digimon-world-3-recomp",
+  title: "Digimon World 3 (PC)",
+  game: "Digimon World 3",
+  developers: ["MikeRavenelle"],
+  publisher: "Bandai",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/MikeRavenelle/DigimonWorld3-Recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation"],
+  related: ["digimon-world-recomp","digimon-world-2-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/43/Digimonworld3boxart.jpg",
+    alt: "Digimon World 3 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Static recompilation of Digimon World 3 (PlayStation, 2002, NTSC-U SLUS-01436): the main executable and all 263 overlays are translated ahead of time to C and linked against a reimplementation. Widescreen, HD backgrounds and gamepad support. Requires your own copy. Latest tag: models-v1.",
+  notesEs: "Recompilación estática de Digimon World 3 (PlayStation, 2002, NTSC-U SLUS-01436): el ejecutable principal y las 263 overlays se traducen previamente a C y se enlazan contra una reimplementación. Widescreen, fondos en HD y soporte de mando. Requiere tu propia copia. Último tag: models-v1.",
+};

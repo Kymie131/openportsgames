@@ -18,7 +18,7 @@ export const Antares: Port = {
   license: { spdx: "LGPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "A tactical space combat game.",
   notesEs: "Un juego de combate espacial táctico.",
 };

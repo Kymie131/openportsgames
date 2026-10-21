@@ -5,13 +5,12 @@ import { ExternalLink } from "lucide-react";
 import type { Port } from "@/lib/ports/schema";
 import { GithubMark } from "@/components/platforms/github-mark";
 import { PlatformMark } from "@/components/platforms/platform-mark";
-import { SystemMark } from "@/components/platforms/system-mark";
 import { TestBadge, type TestStatus } from "./test-badge";
-import { consoleLogoForSystem } from "@/content/ports/console-logos";
-import { isPixelArtSystem } from "@/lib/ports/images";
+import { imageAlt, isPixelArtSystem, primaryImage } from "@/lib/ports/images";
 import { ScreenshotFrame } from "@/components/ports/screenshot-frame";
+import { PortImageFallback } from "@/components/ports/port-image-fallback";
 import { SystemBadge } from "@/components/platforms/system-badge";
-import { useT } from "@/lib/i18n/use-i18n";
+import { useLocale, useT } from "@/lib/i18n/use-i18n";
 import { cn } from "@/lib/utils";
 
 const STATUS_TONE: Record<Port["status"], string> = {
@@ -36,16 +35,13 @@ export function PortTile({
   eager?: boolean;
 }) {
   const t = useT();
+  const locale = useLocale();
   const [source] = port.sources;
   const starLabel =
     stars !== undefined && stars > 0 ? new Intl.NumberFormat("en").format(stars) : undefined;
-  const consoleLogo = consoleLogoForSystem(system);
-  const fallbackShot = port.screenshots?.[0];
-  const art = port.cover
-    ? { src: port.cover.src, alt: port.cover.alt }
-    : fallbackShot
-      ? { src: fallbackShot.src, alt: fallbackShot.alt }
-      : undefined;
+  const primary = primaryImage(port);
+  const statusLabel = t.catalog[`status${cap(port.status)}`];
+  const fallback = <PortImageFallback game={port.game} system={system} statusLabel={statusLabel} />;
 
   return (
     <article
@@ -56,51 +52,24 @@ export function PortTile({
         className,
       )}
     >
-      {art ? (
-        <Link
-          href={`/ports/${port.id}`}
-          className="block overflow-hidden rounded-md border border-border transition-colors duration-150 hover:border-accent-hover"
-          aria-label={port.title}
-        >
+      <Link
+        href={`/ports/${port.id}`}
+        className="block overflow-hidden rounded-md border border-border transition-colors duration-150 hover:border-accent-hover"
+        aria-label={port.title}
+      >
+        {primary ? (
           <ScreenshotFrame
-            src={art.src}
-            alt={art.alt}
+            src={primary.src}
+            alt={imageAlt(primary.kind, port.game, locale)}
             pixelated={isPixelArtSystem(system)}
             className="aspect-video w-full"
             eager={eager}
+            fallback={fallback}
           />
-        </Link>
-      ) : (
-        <Link
-          href={`/ports/${port.id}`}
-          className="relative flex aspect-video items-center justify-center overflow-hidden rounded-md border border-border bg-gradient-to-br from-surface-2 to-surface transition-colors duration-150 hover:border-accent-hover"
-          aria-label={port.title}
-        >
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,color-mix(in_srgb,var(--accent)_8%,transparent)_0%,transparent_70%)]" />
-          {consoleLogo ? (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img
-              src={consoleLogo}
-              alt={system ?? ""}
-              className="relative z-10 max-h-11 max-w-[70%] rounded-md bg-white/95 px-3 py-1.5 shadow-xs object-contain"
-              loading="lazy"
-            />
-          ) : (
-            <div className="relative z-10 flex flex-col items-center justify-center gap-1.5 px-3 text-center">
-              {system && (
-                <SystemMark
-                  system={system}
-                  glyphClassName="size-6"
-                  labelClassName="text-xs font-mono font-medium tracking-wider text-muted uppercase"
-                />
-              )}
-              <span className="line-clamp-3 text-sm font-semibold leading-snug text-foreground/70">
-                {port.game}
-              </span>
-            </div>
-          )}
-        </Link>
-      )}
+        ) : (
+          <div className="aspect-video w-full">{fallback}</div>
+        )}
+      </Link>
 
       <div className="flex flex-1 flex-col gap-1">
         <h3 className="line-clamp-2 text-base font-semibold leading-snug">

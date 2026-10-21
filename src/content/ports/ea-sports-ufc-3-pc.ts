@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const eaSportsUfc3Pc: Port = {
+  schema: "port",
+  id: "ea-sports-ufc-3-pc",
+  title: "EA Sports UFC 3 (PC)",
+  game: "EA Sports UFC 3",
+  developers: ["GNSB"],
+  publisher: "EA Vancouver",
+  originalYear: 2018,
+  portType: "runtime-port",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/GNSB/UFC-3-PS4-PORT-LINUX-WINDOWS"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/fc/EA_Sports_UFC_3_Official_Boxart.jpg",
+    alt: "EA Sports UFC 3 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "EA Sports UFC 3 (EA Vancouver, 2018) running on Windows through runtime layer. Latest release: ufc3-v0.1.6. You need your own copy of the game.",
+  notesEs: "EA Sports UFC 3 (EA Vancouver, 2018) en Windows mediante capa de ejecución. Última release: ufc3-v0.1.6. Necesitas tu propia copia del juego.",
+};

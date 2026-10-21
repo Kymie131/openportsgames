@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const godOfWarChainsOfOlympusPc: Port = {
+  schema: "port",
+  id: "god-of-war-chains-of-olympus-pc",
+  title: "God of War: Chains of Olympus (PC)",
+  game: "God of War: Chains of Olympus",
+  developers: ["DrummingBird1"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/DrummingBird1/gow-psp-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation Portable"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/3a/God_of_War_Chains_of_Olympus_NA_version_front_cover.jpg",
+    alt: "God of War: Chains of Olympus (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "God of War: Chains of Olympus (Sony Computer Entertainment, 2008) running on Windows through static recompilation. Latest release: v1.2.0. You need your own copy of the game.",
+  notesEs: "God of War: Chains of Olympus (Sony Computer Entertainment, 2008) en Windows mediante recompilación estática. Última release: v1.2.0. Necesitas tu propia copia del juego.",
+};

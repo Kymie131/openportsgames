@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const snekGameBoyAdvance: Port = {
+  schema: "port",
+  id: "snek-game-boy-advance",
+  title: "Snek (Game Boy Advance)",
+  game: "Snek",
+  developers: ["syelan34"],
+  publisher: "Homebrew",
+  originalYear: 2023,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["gba"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/syelan34/snekGBA"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Snek (Homebrew, 2023) running on gba through source port. Latest release: v1.0.0. You need your own copy of the game.",
+  notesEs: "Snek (Homebrew, 2023) en gba mediante port de código. Última release: v1.0.0. Necesitas tu propia copia del juego.",
+};

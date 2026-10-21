@@ -14,12 +14,13 @@ export const ootGcDecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
+  wip: true,
   release: { version: null, date: null },
   sources: ["https://github.com/zeldaret/oot-gc"],
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "GameCube",
+  originalSystems: ["GameCube"],
   notes:
     "Decompilation of the GameCube emulator build of Ocarina of Time (JP-CE). A research codebase; it requires game files from a copy you own.",
   notesEs:

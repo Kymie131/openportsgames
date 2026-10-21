@@ -19,7 +19,7 @@ export const silentHill3Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation 2",
+  originalSystems: ["PlayStation 2"],
   notes:
     "Silent Hill 3 (PlayStation 2) statically recompiled for the Nintendo Switch. It needs your own copy of the game.",
   notesEs:

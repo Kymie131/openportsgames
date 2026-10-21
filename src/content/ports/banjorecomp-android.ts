@@ -19,7 +19,7 @@ export const BanjorecompAndroid: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Nintendo 64",
+  originalSystems: ["Nintendo 64"],
   notes: "Android Port of Banjo-Kazooie made using N64: Recompiled.",
   notesEs: "Port para Android de Banjo-Kazooie hecho con N64: Recompiled.",
 };

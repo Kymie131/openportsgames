@@ -18,7 +18,7 @@ export const futureCopLapdRecomp: Port = {
   sources: ["https://github.com/alexbeavs-ps1-ports/future-cop-lapd-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Recompilation of Future Cop: L.A.P.D. (PS1, Europe SLES-01449) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

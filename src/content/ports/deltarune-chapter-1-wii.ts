@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const deltaruneChapter1Wii: Port = {
+  schema: "port",
+  id: "deltarune-chapter-1-wii",
+  title: "Deltarune Chapter 1 (Wii)",
+  game: "Deltarune",
+  developers: ["WiiPhoney"],
+  publisher: "Toby Fox",
+  originalYear: 2018,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["wii"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/WiiPhoney/Deltarune-Chapter-1-For-the-Wii"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1671210/header.jpg",
+    alt: "Deltarune (cover art)",
+    credit: "Steam",
+  },
+  notes: "Deltarune (Toby Fox, 2018) running on Wii through source port. You need your own copy of the game.",
+  notesEs: "Deltarune (Toby Fox, 2018) en Wii mediante port de código. Necesitas tu propia copia del juego.",
+};

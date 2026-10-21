@@ -19,7 +19,7 @@ export const BossRally: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e6/Boss_Rally_PC_Cover.jpeg",
     alt: "Boss Rally (box art)",

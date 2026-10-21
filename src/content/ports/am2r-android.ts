@@ -18,7 +18,7 @@ export const am2rAndroid: Port = {
   sources: ["https://github.com/am2r-android/AM2R-Autopatcher-Android"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "Game Boy",
+  originalSystems: ["Game Boy"],
   notes:
     "Android tool that patches the fan remake AM2R 1.1 into a modern Android build. It works with your own copy of the AM2R files.",
   notesEs:

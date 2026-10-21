@@ -18,7 +18,7 @@ export const einhanderRecomp: Port = {
   sources: ["https://github.com/strider973/Einhander-Recompiled"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Static recompilation of Einhander (PS1, USA) built on PSXRecomp. It requires your own disc image; it uses OpenBIOS for generation unless you supply your own SCPH BIOS. The project is still a scaffold, with no published release.",
   notesEs:

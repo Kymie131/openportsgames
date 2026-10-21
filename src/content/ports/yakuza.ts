@@ -19,7 +19,7 @@ export const Yakuza: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Yakuza 1 Decompilation.",
   notesEs: "Decompilación de Yakuza 1.",
 };

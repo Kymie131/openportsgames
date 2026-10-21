@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superMarioStrikersRecomp: Port = {
+  schema: "port",
+  id: "super-mario-strikers-recomp",
+  title: "Super Mario Strikers Recompiled (RecompCore)",
+  game: "Super Mario Strikers",
+  developers: ["aharonahdoot"],
+  publisher: "Nintendo",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/aharonahdoot/StrikersRecomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["GameCube"],
+  related: ["strikers","super-mario-strikers-decomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b3/Supermariostrikersbox.jpg",
+    alt: "Super Mario Strikers (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Static recompilation of Super Mario Strikers (G4QE01, NTSC) that serves as the worked example for the RecompCore and GXRuntime projects. No game data included. Latest release: v0.1.0.",
+  notesEs: "Recompilación estática de Super Mario Strikers (G4QE01, NTSC) que sirve de ejemplo para los proyectos RecompCore y GXRuntime. No incluye datos del juego. Última release: v0.1.0.",
+};

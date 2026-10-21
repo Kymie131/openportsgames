@@ -19,7 +19,7 @@ export const trxPort: Port = {
   license: { spdx: "GPL-3.0" },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "MS-DOS",
+  originalSystems: ["MS-DOS"],
   features: [
     "Cross-platform desktop builds",
     "Modern renderer and audio",

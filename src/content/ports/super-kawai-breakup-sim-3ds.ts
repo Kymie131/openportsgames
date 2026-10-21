@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superKawaiBreakupSim3ds: Port = {
+  schema: "port",
+  id: "super-kawai-breakup-sim-3ds",
+  title: "Super Kawai Breakup Sim (3DS)",
+  game: "Super Kawai Breakup Sim",
+  developers: ["Dangerbites"],
+  publisher: "Fan game",
+  originalYear: 2020,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Dangerbites/BreakupSimulator3DS"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Other"],
+  notes: "Super Kawai Breakup Sim (Fan game, 2020) running on Nintendo 3DS through source port. Latest release: Major. You need your own copy of the game.",
+  notesEs: "Super Kawai Breakup Sim (Fan game, 2020) en Nintendo 3DS mediante port de código. Última release: Major. Necesitas tu propia copia del juego.",
+};

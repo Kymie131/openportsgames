@@ -20,7 +20,7 @@ export const Black: Port = {
   verified: false,
   wip: true,
   sourceVerified: true,
-  originalSystem: "Nintendo DS",
+  originalSystems: ["Nintendo DS"],
   notes: "Decompilation of English Pokémon Black.",
   notesEs: "Decompilación de Pokémon Black en inglés.",
 };

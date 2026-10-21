@@ -19,7 +19,7 @@ export const breathOfFireIiiRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "PlayStation",
+  originalSystems: ["PlayStation"],
   notes:
     "Recompilation of Breath of Fire III (PlayStation) for Windows. It needs your own copy of the game.",
   notesEs:

@@ -19,7 +19,7 @@ export const area51Source: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   wip: true,
-  originalSystem: "Microsoft Windows",
+  originalSystems: ["Windows"],
   notes:
     "Preservation project working to make the leaked Area 51 (2005) PC source buildable on modern systems. Note: it uses the leaked source, is not yet playable, and needs the retail game data.",
   notesEs:

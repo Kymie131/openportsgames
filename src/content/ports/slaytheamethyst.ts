@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const slaytheamethyst: Port = {
+  schema: "port",
+  id: "slaytheamethyst",
+  title: "SlayTheAmethyst",
+  game: "Slay the Spire",
+  developers: ["ModinMobileSTS"],
+  publisher: "Humble Bundle",
+  originalYear: 2019,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ModinMobileSTS/SlayTheAmethystModded"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/646570/header.jpg",
+    alt: "Slay the Spire (cover art)",
+    credit: "Steam",
+  },
+  notes: "Slay the Spire (Humble Bundle, 2019) for Android (source port). Latest release: v1.6.3. Needs your own copy of the game.",
+  notesEs: "Slay the Spire (Humble Bundle, 2019) para Android (port de código). Última release: v1.6.3. Necesita tu propia copia del juego.",
+};

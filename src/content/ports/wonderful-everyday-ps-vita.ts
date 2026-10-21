@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const wonderfulEverydayPsVita: Port = {
+  schema: "port",
+  id: "wonderful-everyday-ps-vita",
+  title: "Wonderful Everyday (PS Vita)",
+  game: "Wonderful Everyday",
+  developers: ["haskou"],
+  publisher: "Frontwing",
+  originalYear: 2010,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/haskou/subahibi-psvita"],
+  license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Wonderful Everyday (Frontwing, 2010) running on PlayStation Vita through source port. Latest release: v1.0.0. You need your own copy of the game.",
+  notesEs: "Wonderful Everyday (Frontwing, 2010) en PlayStation Vita mediante port de código. Última release: v1.0.0. Necesitas tu propia copia del juego.",
+};

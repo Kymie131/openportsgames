@@ -19,7 +19,7 @@ export const CDogsSdl: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "Classic overhead run-and-gun game.",
   notesEs: "Clásico juego de acción con vista cenital.",
 };

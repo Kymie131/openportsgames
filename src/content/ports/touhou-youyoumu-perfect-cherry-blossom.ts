@@ -19,7 +19,7 @@ export const TouhouYouyoumuPerfectCherryBlossom: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystem: "Other",
+  originalSystems: ["Unknown"],
   notes: "A decompilation of 東方妖々夢 ～ Perfect Cherry Blossom 1.00b (Touhou 7).",
   notesEs: "Una decompilación de 東方妖々夢 ～ Perfect Cherry Blossom 1.00b (Touhou 7).",
 };

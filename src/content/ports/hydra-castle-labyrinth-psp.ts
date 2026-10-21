@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const hydraCastleLabyrinthPsp: Port = {
+  schema: "port",
+  id: "hydra-castle-labyrinth-psp",
+  title: "Hydra Castle Labyrinth (PSP)",
+  game: "Hydra Castle Labyrinth",
+  developers: ["JeffRuLz"],
+  publisher: "Buster",
+  originalYear: 2010,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/JeffRuLz/OpenHCL"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Windows"],
+  notes: "Hydra Castle Labyrinth (Buster, 2010) running on PlayStation Portable through source port. Latest release: untagged-289a342ec6863598160c. You need your own copy of the game.",
+  notesEs: "Hydra Castle Labyrinth (Buster, 2010) en PlayStation Portable mediante port de código. Última release: untagged-289a342ec6863598160c. Necesitas tu propia copia del juego.",
+};

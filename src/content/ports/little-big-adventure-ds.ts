@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const littleBigAdventureDs: Port = {
+  schema: "port",
+  id: "little-big-adventure-ds",
+  title: "Little Big Adventure (DS)",
+  game: "Little Big Adventure",
+  developers: ["vs-sr-dev"],
+  publisher: "Electronic Arts",
+  originalYear: 1994,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ds"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/vs-sr-dev/ds-lba"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["MS-DOS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/83/Little_Big_Adventure.jpg",
+    alt: "Little Big Adventure (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Little Big Adventure (Electronic Arts, 1994) running on Nintendo DS through source port. You need your own copy of the game.",
+  notesEs: "Little Big Adventure (Electronic Arts, 1994) en Nintendo DS mediante port de código. Necesitas tu propia copia del juego.",
+};

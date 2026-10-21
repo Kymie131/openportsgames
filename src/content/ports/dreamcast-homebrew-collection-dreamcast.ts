@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const dreamcastHomebrewCollectionDreamcast: Port = {
+  schema: "port",
+  id: "dreamcast-homebrew-collection-dreamcast",
+  title: "Dreamcast Homebrew Collection (Dreamcast)",
+  game: "Dreamcast Homebrew Collection",
+  developers: ["richstokes"],
+  publisher: "Homebrew",
+  originalYear: 2026,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["dreamcast"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/richstokes/dreamcast-homebrew"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Dreamcast Homebrew Collection (Homebrew, 2026) running on dreamcast through source port. Latest release: continuous. You need your own copy of the game.",
+  notesEs: "Dreamcast Homebrew Collection (Homebrew, 2026) en dreamcast mediante port de código. Última release: continuous. Necesitas tu propia copia del juego.",
+};

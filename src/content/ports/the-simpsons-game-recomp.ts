@@ -18,7 +18,7 @@ export const theSimpsonsGameRecomp: Port = {
   license: { spdx: "GPL-3.0" },
   verified: true,
   verifiedAt: "2026-10-01",
-  originalSystem: "Xbox 360",
+  originalSystems: ["Xbox 360"],
   features: [
     "Ahead-of-time translation of the PowerPC executable into C++",
     "ReXGlue runtime derived from the Xenia project",

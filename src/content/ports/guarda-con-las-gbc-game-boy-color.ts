@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const guardaConLasGbcGameBoyColor: Port = {
+  schema: "port",
+  id: "guarda-con-las-gbc-game-boy-color",
+  title: "Guarda con las GBC (Game Boy Color)",
+  game: "Guarda con las GBC",
+  developers: ["afska"],
+  publisher: "Homebrew",
+  originalYear: 2023,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  category: "homebrew",
+  platforms: ["gbc"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/afska/guarda-con-las-gbc"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Unknown"],
+  notes: "Guarda con las GBC (Homebrew, 2023) running on gbc through source port. Latest release: 1.0.0. You need your own copy of the game.",
+  notesEs: "Guarda con las GBC (Homebrew, 2023) en gbc mediante port de código. Última release: 1.0.0. Necesitas tu propia copia del juego.",
+};
