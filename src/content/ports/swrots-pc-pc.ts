@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const swrotsPcPc: Port = {
+  schema: "port",
+  id: "swrots-pc-pc",
+  title: "Revenge of the Sith PC",
+  game: "Star Wars: Episode III – Revenge of the Sith",
+  developers: ["jedijosh920"],
+  publisher: "LucasArts",
+  originalYear: 2005,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/jedijosh920/SWROTS-PC"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-21",
+  originalSystems: ["Xbox"],
+  notes: "Modern native conversion of the Xbox version of Star Wars: Episode III – Revenge of the Sith. Still in development; you need your own copy of the game.",
+  notesEs: "Conversión nativa moderna de la versión de Xbox de Star Wars: Episode III – Revenge of the Sith. Sigue en desarrollo; necesitas tu propia copia del juego.",
+};

@@ -206,6 +206,22 @@ export function getPortCount(): number {
  * Date the port's data last changed: its latest release date, else when it was
  * verified. `undefined` when neither is known, so the sitemap can omit lastmod.
  */
+/**
+ * Entries added to the catalog most recently, newest first. `addedAt` records
+ * when the catalog ingested the entry, so this list is independent from each
+ * project's own release date.
+ */
+export function getRecentlyAddedPorts(limit?: number): Port[] {
+  const sorted = ports
+    .filter((port) => port.addedAt)
+    .sort((a, b) => {
+      const da = a.addedAt ?? "";
+      const db = b.addedAt ?? "";
+      return db.localeCompare(da) || a.title.localeCompare(b.title);
+    });
+  return limit !== undefined ? sorted.slice(0, limit) : sorted;
+}
+
 export function portLastModified(port: Port): string | undefined {
   const dates = [port.release.date, port.verifiedAt].filter(
     (date): date is string => date !== null && date !== undefined,

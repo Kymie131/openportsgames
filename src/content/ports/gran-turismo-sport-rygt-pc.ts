@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const granTurismoSportRygtPc: Port = {
+  schema: "port",
+  id: "gran-turismo-sport-rygt-pc",
+  title: "RyGT (Gran Turismo Sport)",
+  game: "Gran Turismo Sport",
+  developers: ["mlgprorektm8"],
+  publisher: "Sony Interactive Entertainment",
+  originalYear: 2017,
+  portType: "runtime-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/mlgprorektm8/RyGT"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-21",
+  originalSystems: ["PlayStation 4"],
+  notes: "Native Windows runtime for Gran Turismo Sport built on Ryty, with a Vulkan shadGT renderer, full races, four-player splitscreen and an unlocked frame rate. No game data included.",
+  notesEs: "Runtime nativo para Windows de Gran Turismo Sport basado en Ryty, con renderizador Vulkan shadGT, carreras completas, pantalla dividida para cuatro jugadores y tasa de fotogramas desbloqueada. No incluye archivos del juego.",
+};

@@ -11,7 +11,22 @@ export const OG_IMAGE = {
 
 const DESCRIPTION_MAX = 155;
 
+/** Search results usually truncate a title after ~60 characters. */
+export const TITLE_MAX = 60;
+
+/** The brand suffix is only appended while the title still fits a SERP line. */
+const BRAND_SUFFIX_MAX = 46;
+
 const OG_LOCALE: Record<Locale, string> = { en: "en_US", es: "es_ES" };
+
+/** Lowercase, accent-free, alphanumerics only: "Pokémon (Android)" -> "pokemonandroid". */
+function normalizeName(value: string): string {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "");
+}
 
 /**
  * Trims a description for meta tags. Collapses whitespace, cuts on a word
@@ -73,17 +88,50 @@ export function portPlatformLabel(platforms: readonly string[]): string {
   return "PC";
 }
 
-/** `<title>` for a port page: the game, the target platform and the port's own name. */
+/**
+ * True when the project name only repeats the game, e.g. "Hollow Knight
+ * (Android)" for Hollow Knight on Android. Appending it would pad the title
+ * without adding a single word the searcher used.
+ */
+function isRedundantPortName(portName: string, game: string): boolean {
+  const name = normalizeName(portName);
+  const title = normalizeName(game);
+  if (name === "" || title === "") return true;
+  return name.includes(title);
+}
+
+/**
+ * Platform label used in a page title. Entries whose first platform is Android
+ * are Android-first (e.g. "forza-horizon-2-android"), so they must say Android
+ * even when the same project also ships a Linux build.
+ */
+function titlePlatformLabel(platforms: readonly string[]): string {
+  return platforms[0] === "android" ? "Android" : portPlatformLabel(platforms);
+}
+
+/**
+ * `<title>` for a port page. The project name leads when it is distinctive
+ * ("bbport", "Pinyon Shift", "TriAevum"): those are real queries and users
+ * click the result that echoes them. The game and platform words stay in the
+ * title for the long tail ("… android port", "… pc port"), and the whole
+ * string is kept inside the SERP budget instead of being truncated mid-word.
+ */
 export function portTitle(
   locale: Locale,
   game: string,
   portName: string,
   platforms: readonly string[],
 ): string {
-  const platform = portPlatformLabel(platforms);
-  return locale === "es"
-    ? `${game} port nativo para ${platform} – ${portName}`
-    : `${game} native ${platform} port – ${portName}`;
+  const platform = titlePlatformLabel(platforms);
+  const core =
+    locale === "es"
+      ? `${game}, port nativo para ${platform}`
+      : `${game} native ${platform} port`;
+
+  if (isRedundantPortName(portName, game)) return core;
+
+  const named = `${portName}: ${core}`;
+  return named.length <= TITLE_MAX ? named : core;
 }
 
 /** Schema.org BreadcrumbList for a list of {name, url} items, in order. */
@@ -129,8 +177,15 @@ export function pageMeta({
     "x-default": absoluteUrl(localizePath("en", path)),
   };
   const ogImages = image ? [{ url: image.url, alt: image.alt }] : [OG_IMAGE];
+  // Absolute titles bypass the layout template: the brand is only appended
+  // when the page title is short enough to survive Google's ~60-char cut.
+  const absoluteTitle = title
+    ? title.length <= BRAND_SUFFIX_MAX
+      ? `${title} · ${SITE_NAME}`
+      : title
+    : undefined;
   return {
-    ...(title ? { title } : {}),
+    ...(absoluteTitle ? { title: { absolute: absoluteTitle } } : {}),
     description,
     alternates: { canonical, languages },
     openGraph: {

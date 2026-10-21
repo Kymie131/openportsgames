@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const demonsSoulsPs5Pc: Port = {
+  schema: "port",
+  id: "demons-souls-ps5-pc",
+  title: "Demon's Souls Remake (PC)",
+  game: "Demon's Souls",
+  developers: ["ymatrix1"],
+  publisher: "Sony Interactive Entertainment",
+  originalYear: 2020,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ymatrix1/PortPS5"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-21",
+  originalSystems: ["PlayStation 5"],
+  notes: "Native PC runtime for the Demon's Souls remake: the PS5 x86-64 binaries run directly on the CPU, with graphics translated to Vulkan and a 60/120 FPS target. The project is in development and ships no game files; you need your own copy.",
+  notesEs: "Runtime nativo para PC del remake de Demon's Souls: los binarios x86-64 de PS5 corren directamente en la CPU, con los gráficos traducidos a Vulkan y objetivo de 60/120 FPS. El proyecto está en desarrollo y no incluye archivos del juego; necesitas tu propia copia.",
+};

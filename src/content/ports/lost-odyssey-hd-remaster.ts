@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const lostOdysseyHdRemaster: Port = {
+  schema: "port",
+  id: "lost-odyssey-hd-remaster",
+  title: "Lost Odyssey HD Remaster",
+  game: "Lost Odyssey",
+  developers: ["faligame"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "stable",
+  release: { version: "0.2.0", date: "2026-10-13" },
+  sources: ["https://github.com/faligame/lost-odyssey-hd-remaster"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-21",
+  originalSystems: ["Xbox 360"],
+  notes: "Enhanced PC build of Lost Odyssey with HD textures, 60 FPS and audio fixes. The repository is archived, so treat it as a preserved release. Requires your own copy of the game.",
+  notesEs: "Build mejorada para PC de Lost Odyssey con texturas HD, 60 FPS y correcciones de audio. El repositorio está archivado, así que funciona como release preservada. Requiere tu propia copia del juego.",
+};

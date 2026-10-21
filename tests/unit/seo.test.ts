@@ -5,20 +5,46 @@ import { absoluteUrl } from "@/lib/site";
 describe("port page titles", () => {
   it("names the actual target platform instead of always saying PC", () => {
     expect(portTitle("en", "Super Mario Galaxy", "GalaxyPad", ["android"])).toBe(
-      "Super Mario Galaxy native Android port – GalaxyPad",
+      "GalaxyPad: Super Mario Galaxy native Android port",
     );
     expect(portTitle("es", "Super Mario Galaxy", "GalaxyPad", ["android"])).toBe(
-      "Super Mario Galaxy port nativo para Android – GalaxyPad",
+      "GalaxyPad: Super Mario Galaxy, port nativo para Android",
     );
     expect(portTitle("en", "Wind Waker HD", "SwitchWakerHD", ["switch"])).toBe(
-      "Wind Waker HD native Nintendo Switch port – SwitchWakerHD",
+      "SwitchWakerHD: Wind Waker HD native Nintendo Switch port",
     );
   });
 
   it("keeps PC when the port also ships on desktop platforms", () => {
     expect(portTitle("en", "Forza Horizon", "Pinyon Shift", ["windows", "linux", "android"])).toBe(
-      "Forza Horizon native PC port – Pinyon Shift",
+      "Pinyon Shift: Forza Horizon native PC port",
     );
+  });
+
+  it("treats an Android-first entry as Android even with a desktop build", () => {
+    expect(portTitle("en", "Forza Horizon 2", "FH2 Recompiled", ["android", "linux"])).toBe(
+      "FH2 Recompiled: Forza Horizon 2 native Android port",
+    );
+  });
+
+  it("drops a project name that only repeats the game", () => {
+    expect(portTitle("en", "Hollow Knight", "Hollow Knight (Android)", ["android"])).toBe(
+      "Hollow Knight native Android port",
+    );
+    expect(portTitle("en", "God of War III Remastered", "God of War III Remastered (Android)", ["android"])).toBe(
+      "God of War III Remastered native Android port",
+    );
+  });
+
+  it("keeps the title inside the SERP budget by dropping the project name", () => {
+    const title = portTitle(
+      "en",
+      "The Legend of Zelda: Ocarina of Time 3D",
+      "TriAevum",
+      ["windows", "linux"],
+    );
+    expect(title).toBe("The Legend of Zelda: Ocarina of Time 3D native PC port");
+    expect(title.length).toBeLessThanOrEqual(60);
   });
 
   it("labels each non-desktop target", () => {
@@ -94,5 +120,16 @@ describe("per-locale page metadata", () => {
     const meta = pageMeta({ locale: "en", description: "desc", path: "/ports/sm64ex" });
     expect(meta.alternates?.canonical).toBe(absoluteUrl("/en/ports/sm64ex/"));
     expect(meta.openGraph?.locale).toBe("en_US");
+  });
+
+  it("appends the brand while the title fits a search result", () => {
+    const meta = pageMeta({ locale: "es", title: "Guías", description: "desc", path: "/guides" });
+    expect(meta.title).toEqual({ absolute: "Guías · OpenPortsGames" });
+  });
+
+  it("keeps the brand out of long titles instead of truncating them", () => {
+    const title = "Super Mario Galaxy native Android port – Galaxy Android";
+    const meta = pageMeta({ locale: "en", title, description: "desc", path: "/android" });
+    expect(meta.title).toEqual({ absolute: title });
   });
 });

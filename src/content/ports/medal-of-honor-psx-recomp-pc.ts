@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const medalOfHonorPsxRecompPc: Port = {
+  schema: "port",
+  id: "medal-of-honor-psx-recomp-pc",
+  title: "Medal of Honor (1999) Recomp",
+  game: "Medal of Honor",
+  developers: ["FractalEngineer"],
+  publisher: "Electronic Arts",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.5", date: "2026-10-15" },
+  sources: ["https://github.com/FractalEngineer/Medal-Of-Honor-PSX-Recomp"],
+  license: { spdx: "NOASSERTION", note: "no license file in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-21",
+  originalSystems: ["PlayStation"],
+  notes: "Early native recompilation of the original Medal of Honor (PS1), with modern controls, a flat-screen mode and optional OpenXR VR. Requires your own copy of the game.",
+  notesEs: "Recompilación nativa temprana del Medal of Honor original (PS1), con controles modernos, modo de pantalla plana y VR OpenXR opcional. Requiere tu propia copia del juego.",
+};

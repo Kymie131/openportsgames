@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const defJamVendettaRecomp: Port = {
+  schema: "port",
+  id: "def-jam-vendetta-recomp",
+  title: "Def Jam Vendetta Recompiled",
+  game: "Def Jam Vendetta",
+  developers: ["jcsix694"],
+  publisher: "EA Sports BIG",
+  originalYear: 2003,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "stable",
+  release: { version: "0.4.1", date: "2026-10-17" },
+  sources: ["https://github.com/jcsix694/def-jam-vendetta-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-21",
+  originalSystems: ["PlayStation 2"],
+  notes: "Native Windows port of the first Def Jam fighting game, rebuilt from the PlayStation 2 version. You need your own copy of the game disc.",
+  notesEs: "Port nativo para Windows del primer juego de lucha de Def Jam, reconstruido desde la versión de PlayStation 2. Necesitas tu propia copia del disco.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const black2006Recomp: Port = {
+  schema: "port",
+  id: "black-2006-recomp",
+  title: "Black-2006 Recomp",
+  game: "BLACK",
+  developers: ["portingpete"],
+  publisher: "Electronic Arts",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "stable",
+  release: { version: null, date: null },
+  sources: ["https://github.com/portingpete/Black-2006-Recomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-21",
+  originalSystems: ["Xbox"],
+  notes: "Static recompilation of Criterion's BLACK (2006) for Windows, with the original destruction and 60 FPS. This is a different project from the Spark198rus port already in the catalog.",
+  notesEs: "Recompilación estática de BLACK (2006) de Criterion para Windows, con la destrucción original y 60 FPS. Es un proyecto distinto del port de Spark198rus que ya está en el catálogo.",
+};

@@ -6,6 +6,7 @@ import {
   getPort,
   getPortCount,
   getGamePorts,
+  getRecentlyAddedPorts,
   getTestedPortIds,
   getTestStatuses,
   originalSystemOf,
@@ -59,7 +60,14 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     system: originalSystemOf(port.id),
   });
 
-  const latest = getLatestPortsGrouped(6).map(withMeta);
+  const recentlyAdded = getRecentlyAddedPorts(6)
+    .filter((port) => portKind(port) === "game")
+    .map(withMeta);
+  const newIds = new Set(recentlyAdded.map(({ port }) => port.id));
+  const latest = getLatestPortsGrouped(12)
+    .filter((port) => !newIds.has(port.id))
+    .slice(0, 6)
+    .map(withMeta);
 
   const featured = FEATURED_SLUGS.map((id) => getPort(id))
     .filter((port): port is Port => port !== undefined && portKind(port) === "game")
@@ -79,6 +87,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       />
       <HomeContent
         latest={latest}
+        recentlyAdded={recentlyAdded}
         featured={featured}
         counts={{
           ports: getPortCount(),

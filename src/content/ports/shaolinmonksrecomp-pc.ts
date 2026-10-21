@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const shaolinmonksrecompPc: Port = {
+  schema: "port",
+  id: "shaolinmonksrecomp-pc",
+  title: "Shaolin Monks Recomp",
+  game: "Mortal Kombat: Shaolin Monks",
+  developers: ["OAleex"],
+  publisher: "Midway Games",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.2.0", date: "2026-10-19" },
+  sources: ["https://github.com/OAleex/ShaolinMonksRecomp"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-21",
+  originalSystems: ["Xbox"],
+  notes: "Static recompilation of Mortal Kombat: Shaolin Monks (Xbox) for Windows. The original disc is required; the repository does not include game assets.",
+  notesEs: "Recompilación estática de Mortal Kombat: Shaolin Monks (Xbox) para Windows. Requiere el disco original; el repositorio no incluye archivos del juego.",
+};

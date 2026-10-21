@@ -1,5 +1,30 @@
 import type { Port } from "@/lib/ports/schema";
 import { sm64ex } from "./sm64ex";
+import { demonsSoulsPs5Pc } from "./demons-souls-ps5-pc";
+import { shaolinmonksrecompPc } from "./shaolinmonksrecomp-pc";
+import { fifaStreetPcPortPc } from "./fifa-street-pc-port-pc";
+import { gearsJudgmentRecomp } from "./gears-judgment-recomp";
+import { lostOdysseyHdRemaster } from "./lost-odyssey-hd-remaster";
+import { massEffectNx } from "./mass-effect-nx";
+import { defJamVendettaRecomp } from "./def-jam-vendetta-recomp";
+import { burnout2Recompilation } from "./burnout-2-recompilation";
+import { black2006Recomp } from "./black-2006-recomp";
+import { ridgeRacerVFukami } from "./ridge-racer-v-fukami";
+import { sonicCdDecompilation } from "./sonic-cd-decompilation";
+import { projectMidasPc } from "./project-midas-pc";
+import { medalOfHonorPsxRecompPc } from "./medal-of-honor-psx-recomp-pc";
+import { granTurismoSportRygtPc } from "./gran-turismo-sport-rygt-pc";
+import { finesthourremasteredPc } from "./finesthourremastered-pc";
+import { burnout3Takedawn } from "./burnout-3-takedawn";
+import { residentEvil3Revisited } from "./resident-evil-3-revisited";
+import { swrotsPcPc } from "./swrots-pc-pc";
+import { silentHill2Sh2Nx } from "./silent-hill-2-sh2-nx";
+import { skullburglarPc } from "./skullburglar-pc";
+import { laytonMansionMirrorPc } from "./layton-mansion-mirror-pc";
+import { marvelNemesisRecompPc } from "./marvel-nemesis-recomp-pc";
+import { pokemonHeartgoldSoulsilverRecomp } from "./pokemon-heartgold-soulsilver-recomp";
+import { bayonetta2Recomp } from "./bayonetta-2-recomp";
+import { godOfWarGhostOfSpartaPc } from "./god-of-war-ghost-of-sparta-pc";
 import { shipOfHarkinian } from "./ship-of-harkinian";
 import { twoShip } from "./2ship2harkinian";
 import { starRod } from "./star-rod";
@@ -3828,4 +3853,29 @@ export const portCases: Port[] = [
   platformShooterPsp,
   vitaTetris,
   cps2Recomp,
+  demonsSoulsPs5Pc,
+  shaolinmonksrecompPc,
+  fifaStreetPcPortPc,
+  gearsJudgmentRecomp,
+  lostOdysseyHdRemaster,
+  massEffectNx,
+  defJamVendettaRecomp,
+  burnout2Recompilation,
+  black2006Recomp,
+  ridgeRacerVFukami,
+  sonicCdDecompilation,
+  projectMidasPc,
+  medalOfHonorPsxRecompPc,
+  granTurismoSportRygtPc,
+  finesthourremasteredPc,
+  burnout3Takedawn,
+  residentEvil3Revisited,
+  swrotsPcPc,
+  silentHill2Sh2Nx,
+  skullburglarPc,
+  laytonMansionMirrorPc,
+  marvelNemesisRecompPc,
+  pokemonHeartgoldSoulsilverRecomp,
+  bayonetta2Recomp,
+  godOfWarGhostOfSpartaPc,
 ];

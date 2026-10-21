@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bayonetta2Recomp: Port = {
+  schema: "port",
+  id: "bayonetta-2-recomp",
+  title: "Bayonetta 2 Recompiled",
+  game: "Bayonetta 2",
+  developers: ["K0NL"],
+  publisher: "Nintendo",
+  originalYear: 2014,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: "0.2.7", date: "2026-10-20" },
+  sources: ["https://github.com/K0NL/B2recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-21",
+  originalSystems: ["Nintendo Switch"],
+  notes: "Unofficial static recompilation of Bayonetta 2 for Windows, built from the Nintendo Switch release. You must supply your own copy of the game.",
+  notesEs: "Recompilación estática no oficial de Bayonetta 2 para Windows, construida desde la versión de Nintendo Switch. Debes aportar tu propia copia del juego.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const skullburglarPc: Port = {
+  schema: "port",
+  id: "skullburglar-pc",
+  title: "Skullburglar (50 Cent: Blood on the Sand)",
+  game: "50 Cent: Blood on the Sand",
+  developers: ["nlwstein"],
+  publisher: "THQ",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/nlwstein/skullburglar"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-21",
+  originalSystems: ["Xbox 360"],
+  notes: "Work-in-progress native recompilation of the third-person shooter 50 Cent: Blood on the Sand (Xbox 360). Bring your own copy of the game.",
+  notesEs: "Recompilación nativa en desarrollo del shooter en tercera persona 50 Cent: Blood on the Sand (Xbox 360). Aporta tu propia copia del juego.",
+};

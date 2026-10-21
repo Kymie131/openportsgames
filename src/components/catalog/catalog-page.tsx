@@ -25,15 +25,20 @@ export function CatalogPage({
   basePath: string;
 }) {
   const t = useT();
-  const title = scope === "all" ? t.catalog.title : t.platforms[scope];
-  const subtitle =
-    scope === "all"
-      ? t.catalog.subtitle
-      : scope === "pc"
-        ? t.catalog.subtitlePc
-        : scope === "console"
-          ? t.catalog.subtitleConsole
-          : t.catalog.subtitleAndroid;
+  const titles: Record<CatalogScope, string> = {
+    all: t.catalog.title,
+    pc: t.catalog.titlePc,
+    android: t.catalog.titleAndroid,
+    console: t.catalog.titleConsole,
+  };
+  const subtitles: Record<CatalogScope, string> = {
+    all: t.catalog.subtitle,
+    pc: t.catalog.subtitlePc,
+    android: t.catalog.subtitleAndroid,
+    console: t.catalog.subtitleConsole,
+  };
+  const title = titles[scope];
+  const subtitle = subtitles[scope];
 
   return (
     <div className="flex flex-col gap-6">

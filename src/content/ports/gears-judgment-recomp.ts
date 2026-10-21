@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gearsJudgmentRecomp: Port = {
+  schema: "port",
+  id: "gears-judgment-recomp",
+  title: "Gears of War: Judgment Recomp",
+  game: "Gears of War: Judgment",
+  developers: ["OverkillLabs3"],
+  publisher: "Microsoft Studios",
+  originalYear: 2013,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.2.1", date: "2026-10-11" },
+  sources: ["https://github.com/OverkillLabs3/gears-judgement-recomp"],
+  license: { spdx: "BSD-3-Clause" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-21",
+  originalSystems: ["Xbox 360"],
+  notes: "Windows recompilation of the Gears of War: Judgment campaign with mouse aim, an unlocked frame rate and FSR support. Bring your own game copy.",
+  notesEs: "Recompilación para Windows de la campaña de Gears of War: Judgment con puntería de ratón, tasa de fotogramas desbloqueada y soporte FSR. Necesitas tu propia copia del juego.",
+};

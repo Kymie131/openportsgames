@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const burnout3Takedawn: Port = {
+  schema: "port",
+  id: "burnout-3-takedawn",
+  title: "TakeDawn (Burnout 3)",
+  game: "Burnout 3: Takedown",
+  developers: ["xenophobentx"],
+  publisher: "Electronic Arts",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: "0.2.0", date: "2026-10-17" },
+  sources: ["https://github.com/xenophobentx/takedawn"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-21",
+  originalSystems: ["Xbox"],
+  notes: "Static recompilation preview of Burnout 3: Takedown for Windows and Steam Deck, with support for a custom soundtrack. This is a separate project from the sp00nznet recompilation.",
+  notesEs: "Vista previa de la recompilación estática de Burnout 3: Takedown para Windows y Steam Deck, con soporte de banda sonora personalizada. Es un proyecto distinto de la recompilación de sp00nznet.",
+};

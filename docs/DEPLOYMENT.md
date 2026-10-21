@@ -43,6 +43,11 @@ The pre-i18n site served English (and the same pages) at the root:
 **301 to the `/en/…` equivalent** to keep the accumulated SEO. Redirects live in
 Cloudflare (a static export cannot emit them).
 
+`public/_redirects` already ships the wildcard rules with the build, so
+Cloudflare Pages applies them automatically (`npm run build` copies the file to
+`out/_redirects`). The dashboard rules below are only a fallback; keep both in
+sync when a section is added or renamed.
+
 ### Plan A — one wildcard Redirect Rule per section (recommended)
 
 Create **Rules → Redirect Rules** and add one **Single Redirect** per section.

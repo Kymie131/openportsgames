@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const residentEvil3Revisited: Port = {
+  schema: "port",
+  id: "resident-evil-3-revisited",
+  title: "RE-Visited (Resident Evil 3)",
+  game: "Resident Evil 3: Nemesis",
+  developers: ["BrazilianHobbyist"],
+  publisher: "Capcom",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "stable",
+  release: { version: "1.7.0", date: "2026-10-20" },
+  sources: ["https://github.com/BrazilianHobbyist/Project-RE-Visited-RE3"],
+  license: { spdx: "NOASSERTION", note: "no license file in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-21",
+  originalSystems: ["PlayStation"],
+  notes: "Native PC port of Resident Evil 3: Nemesis with an improved 3D renderer, modern controls and widescreen support. Separate from the alexbeavs PS1 recompilation already catalogued.",
+  notesEs: "Port nativo para PC de Resident Evil 3: Nemesis con renderizador 3D mejorado, controles modernos y soporte de pantalla ancha. Es distinto de la recompilación de alexbeavs ya catalogada.",
+};

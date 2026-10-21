@@ -95,12 +95,12 @@ export function SiteHeader() {
     >
       <Container wide className="flex h-16 items-center justify-between gap-4 md:h-20">
         <div className="flex min-w-0 items-center gap-5">
-          <Link href="/" className="flex shrink-0 items-center" aria-label={t.nav.home}>
+          <Link href="/" className="flex min-w-0 shrink items-center" aria-label={t.nav.home}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={assetPath("/logos/brand/openportsgames-transparent.png")}
               alt=""
-              className="h-8 w-auto md:h-9"
+              className="h-7 w-auto max-w-[9rem] object-contain sm:h-8 sm:max-w-none md:h-9"
             />
           </Link>
 

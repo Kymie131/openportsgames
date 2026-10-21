@@ -37,6 +37,28 @@ export function GuideContent() {
       <DocSection title={t.guides.copyTitle}>
         <DocList items={t.guides.copy} />
       </DocSection>
+      <DocSection title={t.guides.phoneTitle}>
+        <DocParagraph>{t.guides.phoneIntro}</DocParagraph>
+        <dl className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+          {t.guides.phonePoints.map((point) => (
+            <div key={point.title} className="rounded-lg border border-border bg-surface p-4">
+              <dt className="text-sm font-semibold text-foreground">{point.title}</dt>
+              <dd className="mt-1 text-sm leading-6 text-muted">{point.body}</dd>
+            </div>
+          ))}
+        </dl>
+        <h3 className="pt-1 text-sm font-semibold text-foreground">{t.guides.phoneStepsTitle}</h3>
+        <ol className="flex list-decimal flex-col gap-2 pl-5 text-sm leading-6 text-muted marker:font-mono marker:text-accent">
+          {t.guides.phoneSteps.map((step) => (
+            <li key={step} className="pl-1">
+              {step}
+            </li>
+          ))}
+        </ol>
+        <p className="rounded-lg border border-amber-500/30 bg-amber-500/10 p-4 text-sm leading-6 text-foreground">
+          {t.guides.phoneWarning}
+        </p>
+      </DocSection>
       <DocSection title={t.guides.faqTitle}>
         <dl className="flex flex-col gap-4">
           {t.guides.faq.map((item, index) => (
