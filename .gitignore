@@ -65,3 +65,7 @@ dev-preview.log
 
 # Generated catalog export (scripts/import)
 ports-all.json
+
+# local dev logs
+api/dev.log
+front-dev.log
