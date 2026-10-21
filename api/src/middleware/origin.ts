@@ -7,7 +7,14 @@ const UNSAFE_METHODS = new Set(["POST", "PUT", "PATCH", "DELETE"]);
 export function allowedOrigins(env: Env): string[] {
   const origins = [env.SITE_ORIGIN];
   if (env.ENVIRONMENT === "dev") {
-    origins.push("http://localhost:3000");
+    origins.push(
+      "http://localhost:3000",
+      "http://localhost:3001",
+      "http://localhost:3002",
+      "http://127.0.0.1:3000",
+      "http://127.0.0.1:3001",
+      "http://127.0.0.1:3002",
+    );
   }
   return origins;
 }
