@@ -9,10 +9,10 @@ export const portIdSchema = z
   .max(PORT_ID_MAX_LENGTH)
   .regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, "invalid_port_id");
 
-/** A star rating must be a whole number between 1 and 5. */
-export const starsSchema = z.number().int().min(1).max(5);
+/** A heart rating must be a whole number between 1 and 5. */
+export const heartsSchema = z.number().int().min(1).max(5);
 
-export const ratingBodySchema = z.object({ stars: starsSchema });
+export const ratingBodySchema = z.object({ hearts: heartsSchema });
 
 /**
  * Round a rating average to one decimal place.

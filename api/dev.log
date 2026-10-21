@@ -1,0 +1,41 @@
+
+> openportsgames-api@0.1.0 dev
+> wrangler dev
+
+
+ ⛅️ wrangler 4.151.0
+────────────────────
+Using secrets defined in .dev.vars
+Your Worker has access to the following bindings:
+Binding                                            Resource                  Mode
+env.DB (openportsgames-db)                         D1 Database               local
+env.SITE_ORIGIN ("(hidden)")                       Environment Variable      local
+env.ENVIRONMENT ("(hidden)")                       Environment Variable      local
+env.BETTER_AUTH_SECRET ("(hidden)")                Environment Variable      local
+env.BETTER_AUTH_URL ("(hidden)")                   Environment Variable      local
+env.COOKIE_DOMAIN ("(hidden)")                     Environment Variable      local
+env.GOOGLE_CLIENT_ID ("(hidden)")                  Environment Variable      local
+env.GOOGLE_CLIENT_SECRET ("(hidden)")              Environment Variable      local
+env.DISCORD_CLIENT_ID ("(hidden)")                 Environment Variable      local
+env.DISCORD_CLIENT_SECRET ("(hidden)")             Environment Variable      local
+env.GITHUB_CLIENT_ID ("(hidden)")                  Environment Variable      local
+env.GITHUB_CLIENT_SECRET ("(hidden)")              Environment Variable      local
+env.TURNSTILE_SECRET ("(hidden)")                  Environment Variable      local
+
+⎔ Starting local server...
+[wrangler:info] Ready on http://127.0.0.1:8787
+[wrangler:info] GET /health 200 OK (13ms)
+[wrangler:info] GET /ratings/sm64ex 200 OK (60ms)
+[wrangler:info] GET /comments/sm64ex 200 OK (11ms)
+[wrangler:info] GET /ratings/not-a-real-port 404 Not Found (6ms)
+[wrangler:info] GET /comments/not-a-real-port 404 Not Found (5ms)
+[wrangler:info] GET /me 401 Unauthorized (4ms)
+[wrangler:info] PUT /ratings/sm64ex 403 Forbidden (3ms)
+[wrangler:info] PUT /ratings/sm64ex 401 Unauthorized (5ms)
+[wrangler:info] PUT /ratings/sm64ex 401 Unauthorized (5ms)
+[wrangler:info] GET /comments/sm64ex 200 OK (9ms)
+[wrangler:info] GET /comments/sm64ex 400 Bad Request (5ms)
+⎔ Reloading local server...
+⎔ Local server updated and ready
+[wrangler:info] GET /ratings/sm64ex 200 OK (50ms)
+[wrangler:info] OPTIONS /ratings/sm64ex 204 No Content (10ms)

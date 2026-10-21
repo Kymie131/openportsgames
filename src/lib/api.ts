@@ -18,7 +18,7 @@ export type PublicUser = {
   image: string | null;
 };
 
-/** Aggregated rating for a port, plus the caller's own stars when logged in. */
+/** Aggregated rating for a port, plus the caller's own hearts when logged in. */
 export type RatingStats = {
   average: number | null;
   count: number;
@@ -29,8 +29,29 @@ export type CommentItem = {
   id: string;
   body: string;
   createdAt: string;
+  parentId: string | null;
   author: PublicUser;
   mine: boolean;
+};
+
+export type MissingPortStatus = "open" | "done" | "hidden";
+
+export type MissingPortItem = {
+  id: string;
+  title: string;
+  game: string;
+  platform: string;
+  url: string | null;
+  notes: string | null;
+  status: MissingPortStatus;
+  createdAt: string;
+  author: PublicUser;
+  mine: boolean;
+};
+
+export type MissingPortsPage = {
+  items: MissingPortItem[];
+  nextCursor: string | null;
 };
 
 export type CommentsPage = {

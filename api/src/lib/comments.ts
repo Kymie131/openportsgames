@@ -40,6 +40,7 @@ export const commentBodySchema = z
 export const createCommentSchema = z.object({
   body: commentBodySchema,
   turnstileToken: z.string(),
+  parentId: z.string().uuid().nullish(),
 });
 
 export const reportReasonSchema = z

@@ -73,6 +73,7 @@ comments.get("/:portId", optionalUser(), async (c) => {
       body: schema.comment.body,
       createdAt: schema.comment.createdAt,
       userId: schema.comment.userId,
+      parentId: schema.comment.parentId,
       authorId: schema.user.id,
       authorName: schema.user.name,
       authorImage: schema.user.image,
@@ -90,6 +91,7 @@ comments.get("/:portId", optionalUser(), async (c) => {
     id: row.id,
     body: row.body,
     createdAt: row.createdAt.toISOString(),
+    parentId: row.parentId ?? null,
     author: toPublicUser({
       id: row.authorId,
       name: row.authorName,
@@ -124,10 +126,31 @@ comments.post(
     const now = new Date();
     const id = crypto.randomUUID();
 
+    let parentId = parsed.data.parentId ?? null;
+    if (parentId) {
+      const parentRows = await db
+        .select({
+          id: schema.comment.id,
+          portId: schema.comment.portId,
+          parentId: schema.comment.parentId,
+          status: schema.comment.status,
+        })
+        .from(schema.comment)
+        .where(eq(schema.comment.id, parentId))
+        .limit(1);
+      const parent = parentRows[0];
+      if (!parent || parent.portId !== portId || parent.status !== "visible") {
+        return c.json({ error: "invalid_parent" }, 400);
+      }
+      // Keep threads two levels deep: a reply to a reply joins the root thread.
+      parentId = parent.parentId ?? parent.id;
+    }
+
     await db.insert(schema.comment).values({
       id,
       userId: user.id,
       portId,
+      parentId,
       body: parsed.data.body,
       status: "visible",
       createdAt: now,
@@ -138,6 +161,7 @@ comments.post(
         id,
         body: parsed.data.body,
         createdAt: now.toISOString(),
+        parentId,
         author: toPublicUser(user),
         mine: true,
       },
@@ -167,6 +191,7 @@ comments.delete(
       return c.json({ error: "forbidden" }, 403);
     }
 
+    await db.delete(schema.comment).where(eq(schema.comment.parentId, id));
     await db.delete(schema.comment).where(eq(schema.comment.id, id));
     return c.json({ ok: true });
   },

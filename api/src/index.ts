@@ -11,6 +11,7 @@ import { rateLimit } from "./middleware/ratelimit";
 import { requireUser, type SessionEnv } from "./middleware/session";
 import { admin } from "./routes/admin";
 import { comments } from "./routes/comments";
+import { missing } from "./routes/missing";
 import { ratings } from "./routes/ratings";
 
 const app = new Hono<SessionEnv>();
@@ -82,6 +83,7 @@ app.delete(
 
 app.route("/ratings", ratings);
 app.route("/comments", comments);
+app.route("/missing", missing);
 app.route("/admin", admin);
 
 app.onError((_err, c) => c.json({ error: "internal_error" }, 500));

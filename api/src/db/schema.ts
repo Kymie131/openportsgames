@@ -7,6 +7,7 @@ import {
   sqliteTable,
   text,
   unique,
+  type AnySQLiteColumn,
 } from "drizzle-orm/sqlite-core";
 
 export const user = sqliteTable("user", {
@@ -125,6 +126,9 @@ export const comment = sqliteTable(
       .notNull()
       .references(() => user.id, { onDelete: "cascade" }),
     portId: text("port_id").notNull(),
+    parentId: text("parent_id").references((): AnySQLiteColumn => comment.id, {
+      onDelete: "cascade",
+    }),
     body: text("body").notNull(),
     status: text("status", { enum: ["visible", "hidden"] }).default("visible").notNull(),
     createdAt: integer("created_at", { mode: "timestamp_ms" })
@@ -137,6 +141,7 @@ export const comment = sqliteTable(
       table.status,
       table.createdAt,
     ),
+    index("comment_parentId_idx").on(table.parentId),
     check("comment_status_check", sql`${table.status} in ('visible', 'hidden')`),
   ],
 );
@@ -162,6 +167,64 @@ export const report = sqliteTable(
   ],
 );
 
+export const missingPort = sqliteTable(
+  "missing_port",
+  {
+    id: text("id").primaryKey(),
+    title: text("title").notNull(),
+    game: text("game").notNull(),
+    platform: text("platform").notNull(),
+    url: text("url"),
+    notes: text("notes"),
+    userId: text("user_id")
+      .notNull()
+      .references(() => user.id, { onDelete: "cascade" }),
+    status: text("status", { enum: ["open", "done", "hidden"] })
+      .default("open")
+      .notNull(),
+    createdAt: integer("created_at", { mode: "timestamp_ms" })
+      .default(sql`(cast(unixepoch('subsecond') * 1000 as integer))`)
+      .notNull(),
+  },
+  (table) => [
+    index("missing_port_status_createdAt_idx").on(table.status, table.createdAt),
+    check("missing_port_status_check", sql`${table.status} in ('open', 'done', 'hidden')`),
+  ],
+);
+
+export const missingPortComment = sqliteTable(
+  "missing_port_comment",
+  {
+    id: text("id").primaryKey(),
+    missingPortId: text("missing_port_id")
+      .notNull()
+      .references(() => missingPort.id, { onDelete: "cascade" }),
+    userId: text("user_id")
+      .notNull()
+      .references(() => user.id, { onDelete: "cascade" }),
+    parentId: text("parent_id").references((): AnySQLiteColumn => missingPortComment.id, {
+      onDelete: "cascade",
+    }),
+    body: text("body").notNull(),
+    status: text("status", { enum: ["visible", "hidden"] }).default("visible").notNull(),
+    createdAt: integer("created_at", { mode: "timestamp_ms" })
+      .default(sql`(cast(unixepoch('subsecond') * 1000 as integer))`)
+      .notNull(),
+  },
+  (table) => [
+    index("missing_port_comment_missingId_status_createdAt_idx").on(
+      table.missingPortId,
+      table.status,
+      table.createdAt,
+    ),
+    index("missing_port_comment_parentId_idx").on(table.parentId),
+    check(
+      "missing_port_comment_status_check",
+      sql`${table.status} in ('visible', 'hidden')`,
+    ),
+  ],
+);
+
 export const rateLimit = sqliteTable("rate_limit", {
   key: text("key").primaryKey(),
   windowStart: integer("window_start").notNull(),
@@ -173,6 +236,8 @@ export const userRelations = relations(user, ({ many }) => ({
   accounts: many(account),
   comments: many(comment),
   reports: many(report),
+  missingPorts: many(missingPort),
+  missingPortComments: many(missingPortComment),
 }));
 
 export const sessionRelations = relations(session, ({ one }) => ({
@@ -205,5 +270,29 @@ export const reportRelations = relations(report, ({ one }) => ({
   user: one(user, {
     fields: [report.userId],
     references: [user.id],
+  }),
+}));
+
+export const missingPortRelations = relations(missingPort, ({ one, many }) => ({
+  user: one(user, {
+    fields: [missingPort.userId],
+    references: [user.id],
+  }),
+  comments: many(missingPortComment),
+}));
+
+export const missingPortCommentRelations = relations(missingPortComment, ({ one }) => ({
+  missingPort: one(missingPort, {
+    fields: [missingPortComment.missingPortId],
+    references: [missingPort.id],
+  }),
+  user: one(user, {
+    fields: [missingPortComment.userId],
+    references: [user.id],
+  }),
+  parent: one(missingPortComment, {
+    fields: [missingPortComment.parentId],
+    references: [missingPortComment.id],
+    relationName: "missing_port_comment_replies",
   }),
 }));

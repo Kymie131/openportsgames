@@ -22,6 +22,7 @@ const FOOTER_GROUPS = [
     items: [
       { href: "/testing", key: "testing" as const },
       { href: "/guides", key: "guides" as const },
+      { href: "/missing", key: "missingPorts" as const },
       { href: "/submit", key: "submit" as const },
     ],
   },

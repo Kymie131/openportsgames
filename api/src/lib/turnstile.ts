@@ -16,7 +16,10 @@ export async function verifyTurnstile(
   secret: string | undefined | null,
   ip?: string | null,
 ): Promise<boolean> {
-  if (!token || !secret) return false;
+  // Turnstile is optional until the deployment configures a secret: without
+  // one, the rate limiter is the only spam control. Production should set it.
+  if (!secret) return true;
+  if (!token) return false;
 
   try {
     const body = new URLSearchParams();

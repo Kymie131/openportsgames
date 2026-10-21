@@ -9,6 +9,7 @@ import {
   LogIn,
   LogOut,
   MessageCircle,
+  Pencil,
   Trash2,
 } from "lucide-react";
 import { authClient, useSessionUser } from "@/lib/auth-client";
@@ -48,6 +49,10 @@ export function LoginButton({ className }: { className?: string }) {
   const [deleteOpen, setDeleteOpen] = useState(false);
   const [deleting, setDeleting] = useState(false);
   const [deleteError, setDeleteError] = useState<string | null>(null);
+  const [nicknameOpen, setNicknameOpen] = useState(false);
+  const [nickname, setNickname] = useState("");
+  const [nicknameSaving, setNicknameSaving] = useState(false);
+  const [nicknameError, setNicknameError] = useState<string | null>(null);
 
   const triggerClass = cn(
     "inline-flex h-9 items-center gap-1.5 rounded-md border border-border bg-surface px-2 text-sm text-foreground transition-colors duration-150 hover:bg-surface-2",
@@ -102,6 +107,29 @@ export function LoginButton({ className }: { className?: string }) {
       await authClient.signOut();
     } catch {
       /* The server already cleared the session cookie; a reload also works. */
+    }
+  }
+
+  async function saveNickname() {
+    const value = nickname.trim();
+    setNicknameError(null);
+    if (value.length < 2 || value.length > 40) {
+      setNicknameError(t.community.login.nicknameError);
+      return;
+    }
+    setNicknameSaving(true);
+    try {
+      const { error: updateError } = await authClient.updateUser({ name: value });
+      if (updateError) {
+        setNicknameError(t.community.login.nicknameError);
+        setNicknameSaving(false);
+        return;
+      }
+      setNicknameOpen(false);
+      window.location.reload();
+    } catch {
+      setNicknameError(t.community.login.nicknameError);
+      setNicknameSaving(false);
     }
   }
 
@@ -161,6 +189,18 @@ export function LoginButton({ className }: { className?: string }) {
                 >
                   <LogOut className="size-4" aria-hidden="true" />
                   {t.community.login.signOut}
+                </DropdownMenu.Item>
+                <DropdownMenu.Item
+                  onSelect={() => {
+                    setNickname(user.name);
+                    setNicknameError(null);
+                    setNicknameOpen(true);
+                  }}
+                  disabled={busy}
+                  className="flex cursor-pointer items-center gap-2 rounded-sm px-2.5 py-1.5 text-sm text-foreground outline-none transition-colors hover:bg-surface-2 focus:bg-surface-2 data-[disabled]:pointer-events-none data-[disabled]:opacity-60"
+                >
+                  <Pencil className="size-4" aria-hidden="true" />
+                  {t.community.login.nickname}
                 </DropdownMenu.Item>
                 <DropdownMenu.Item
                   onSelect={() => {
@@ -228,6 +268,48 @@ export function LoginButton({ className }: { className?: string }) {
           >
             {deleting ? t.community.login.deleteWorking : t.community.login.deleteConfirm}
           </Button>
+        </div>
+      </Dialog>
+      <Dialog
+        open={nicknameOpen}
+        onOpenChange={(open) => {
+          if (!nicknameSaving) setNicknameOpen(open);
+        }}
+        title={t.community.login.nicknameTitle}
+        description={t.community.login.nicknameDescription}
+      >
+        <div className="flex flex-col gap-3">
+          <label htmlFor="opg-nickname" className="sr-only">
+            {t.community.login.nicknamePlaceholder}
+          </label>
+          <input
+            id="opg-nickname"
+            value={nickname}
+            onChange={(event) => setNickname(event.target.value)}
+            maxLength={40}
+            placeholder={t.community.login.nicknamePlaceholder}
+            className="w-full rounded-md border border-border bg-background px-3 py-2 text-sm text-foreground placeholder:text-muted focus:border-accent focus:outline-none focus-visible:ring-2 focus-visible:ring-ring/50"
+          />
+          {nicknameError && (
+            <p role="alert" className="text-sm text-danger">
+              {nicknameError}
+            </p>
+          )}
+          <div className="flex justify-end gap-2">
+            <Button
+              variant="secondary"
+              size="sm"
+              onClick={() => setNicknameOpen(false)}
+              disabled={nicknameSaving}
+            >
+              {t.community.login.deleteCancel}
+            </Button>
+            <Button size="sm" onClick={() => void saveNickname()} disabled={nicknameSaving}>
+              {nicknameSaving
+                ? t.community.login.nicknameSaving
+                : t.community.login.nicknameSave}
+            </Button>
+          </div>
         </div>
       </Dialog>
     </>

@@ -1,4 +1,4 @@
-import { Hono } from "hono";
+﻿import { Hono } from "hono";
 import { drizzle } from "drizzle-orm/d1";
 import { and, eq, sql } from "drizzle-orm";
 
@@ -74,13 +74,13 @@ ratings.put("/:portId", requireUser(), rateLimit(), async (c) => {
     .values({
       userId: user.id,
       portId,
-      stars: parsed.data.stars,
+      stars: parsed.data.hearts,
       createdAt: now,
       updatedAt: now,
     })
     .onConflictDoUpdate({
       target: [schema.rating.userId, schema.rating.portId],
-      set: { stars: parsed.data.stars, updatedAt: now },
+      set: { stars: parsed.data.hearts, updatedAt: now },
     });
 
   return c.json(await readStats(c, portId, user.id));
@@ -99,3 +99,5 @@ ratings.delete("/:portId", requireUser(), rateLimit(), async (c) => {
 
   return c.json(await readStats(c, portId, user.id));
 });
+
+

@@ -28,6 +28,7 @@ const NAV_ITEMS = [
 const PROJECT_ITEMS = [
   { href: "/guides", key: "guides" as const },
   { href: "/testing", key: "testing" as const },
+  { href: "/missing", key: "missingPorts" as const },
   { href: "/submit", key: "submit" as const },
   { href: "/support", key: "support" as const },
   { href: "/about", key: "about" as const },

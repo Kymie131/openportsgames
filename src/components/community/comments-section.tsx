@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Flag, LoaderCircle, Send, Trash2 } from "lucide-react";
+import { Flag, LoaderCircle, Reply, Send, Trash2 } from "lucide-react";
 import {
   ApiError,
   TURNSTILE_SITE_KEY,
@@ -26,7 +26,7 @@ function formatWhen(iso: string, locale: string): string {
   return date.toLocaleString(locale, { dateStyle: "medium", timeStyle: "short" });
 }
 
-/** Comment list with keyset pagination, a Turnstile-gated box, delete and report. */
+/** Comment list with keyset pagination, replies, a Turnstile-gated box, delete and report. */
 export function CommentsSection({ portId }: { portId: string }) {
   const t = useT();
   const locale = useLocale();
@@ -45,6 +45,13 @@ export function CommentsSection({ portId }: { portId: string }) {
   const [token, setToken] = useState<string | null>(null);
   const [resetKey, setResetKey] = useState(0);
   const [submitting, setSubmitting] = useState(false);
+
+  const [replyFormFor, setReplyFormFor] = useState<string | null>(null);
+  const [replyBody, setReplyBody] = useState("");
+  const [replyToken, setReplyToken] = useState<string | null>(null);
+  const [replyResetKey, setReplyResetKey] = useState(0);
+  const [replySubmitting, setReplySubmitting] = useState(false);
+  const [replyError, setReplyError] = useState<string | null>(null);
 
   const [deletingId, setDeletingId] = useState<string | null>(null);
   const [actionError, setActionError] = useState<string | null>(null);
@@ -108,7 +115,7 @@ export function CommentsSection({ portId }: { portId: string }) {
       setActionError(t.community.comments.emptyBody);
       return;
     }
-    if (!token) {
+    if (TURNSTILE_SITE_KEY && !token) {
       setActionError(t.community.comments.turnstileRequired);
       return;
     }
@@ -117,7 +124,7 @@ export function CommentsSection({ portId }: { portId: string }) {
     try {
       const created = await apiFetch<CommentItem>(`/comments/${encodeURIComponent(portId)}`, {
         method: "POST",
-        body: JSON.stringify({ body: value, turnstileToken: token }),
+        body: JSON.stringify({ body: value, turnstileToken: token ?? "" }),
       });
       setFeed((current) => ({
         key: requestKey,
@@ -142,6 +149,56 @@ export function CommentsSection({ portId }: { portId: string }) {
     }
   }
 
+  async function submitReply(parent: CommentItem) {
+    const value = replyBody.trim();
+    const rootId = parent.parentId ?? parent.id;
+    setReplyError(null);
+    setNotice(null);
+
+    if (!value) {
+      setReplyError(t.community.comments.emptyBody);
+      return;
+    }
+    if (TURNSTILE_SITE_KEY && !replyToken) {
+      setReplyError(t.community.comments.turnstileRequired);
+      return;
+    }
+
+    setReplySubmitting(true);
+    try {
+      const created = await apiFetch<CommentItem>(`/comments/${encodeURIComponent(portId)}`, {
+        method: "POST",
+        body: JSON.stringify({
+          body: value,
+          turnstileToken: replyToken ?? "",
+          parentId: rootId,
+        }),
+      });
+      setFeed((current) => {
+        const next = [...current.items];
+        const index = next.findIndex((item) => item.id === rootId);
+        if (index >= 0) next.splice(index + 1, 0, created);
+        else next.unshift(created);
+        return { ...current, items: next };
+      });
+      setReplyBody("");
+      setReplyFormFor(null);
+      setNotice(t.community.comments.posted);
+    } catch (error) {
+      if (error instanceof ApiError && error.code === "turnstile_failed") {
+        setReplyError(t.community.comments.turnstileError);
+      } else if (error instanceof ApiError && (error.status === 401 || error.status === 403)) {
+        setReplyError(t.community.comments.signInToComment);
+      } else {
+        setReplyError(t.community.comments.replyError);
+      }
+    } finally {
+      setReplyToken(null);
+      setReplyResetKey((key) => key + 1);
+      setReplySubmitting(false);
+    }
+  }
+
   async function removeComment(id: string) {
     const previous = items;
     setActionError(null);
@@ -149,7 +206,7 @@ export function CommentsSection({ portId }: { portId: string }) {
     setDeletingId(id);
     setFeed((current) => ({
       ...current,
-      items: current.items.filter((item) => item.id !== id),
+      items: current.items.filter((item) => item.id !== id && item.parentId !== id),
     }));
     try {
       await apiFetch<{ ok: boolean }>(`/comments/${encodeURIComponent(id)}`, { method: "DELETE" });
@@ -256,7 +313,13 @@ export function CommentsSection({ portId }: { portId: string }) {
         <>
           <ul className="flex flex-col gap-3">
             {items.map((item) => (
-              <li key={item.id} className="rounded-xl border border-border bg-surface p-4">
+              <li
+                key={item.id}
+                className={cn(
+                  "rounded-xl border border-border bg-surface p-4",
+                  item.parentId && "ml-6 border-l-2 border-l-accent/40",
+                )}
+              >
                 <div className="flex items-start gap-3">
                   <UserAvatar
                     name={item.author.name}
@@ -279,6 +342,20 @@ export function CommentsSection({ portId }: { portId: string }) {
                       {item.body}
                     </p>
                     <div className="mt-2 flex items-center gap-2">
+                      {user && (
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setReplyFormFor(replyFormFor === item.id ? null : item.id);
+                            setReplyBody("");
+                            setReplyError(null);
+                          }}
+                          className="inline-flex items-center gap-1.5 rounded-md px-2 py-1 text-xs text-muted transition-colors duration-150 hover:bg-surface-2 hover:text-foreground"
+                        >
+                          <Reply className="size-3.5" aria-hidden="true" />
+                          {t.community.comments.reply}
+                        </button>
+                      )}
                       {item.mine && (
                         <button
                           type="button"
@@ -309,6 +386,58 @@ export function CommentsSection({ portId }: { portId: string }) {
                         </button>
                       )}
                     </div>
+
+                    {replyFormFor === item.id && user && (
+                      <div className="mt-3 flex flex-col gap-2 rounded-lg border border-border bg-background p-3">
+                        <textarea
+                          value={replyBody}
+                          onChange={(event) => setReplyBody(event.target.value)}
+                          maxLength={COMMENT_MAX_LENGTH}
+                          rows={2}
+                          placeholder={t.community.comments.replyPlaceholder}
+                          aria-label={t.community.comments.replyPlaceholder}
+                          className="w-full resize-y rounded-md border border-border bg-surface px-3 py-2 text-sm text-foreground placeholder:text-muted focus:border-accent focus:outline-none focus-visible:ring-2 focus-visible:ring-ring/50"
+                        />
+                        <div className="flex flex-wrap items-center justify-between gap-2">
+                          <Turnstile
+                            siteKey={TURNSTILE_SITE_KEY}
+                            resetKey={replyResetKey}
+                            onVerify={setReplyToken}
+                            onExpire={() => setReplyToken(null)}
+                            onError={() => setReplyToken(null)}
+                          />
+                          <div className="flex items-center gap-2">
+                            <Button
+                              type="button"
+                              variant="secondary"
+                              size="sm"
+                              onClick={() => setReplyFormFor(null)}
+                              disabled={replySubmitting}
+                            >
+                              {t.community.comments.replyCancel}
+                            </Button>
+                            <Button
+                              type="button"
+                              size="sm"
+                              onClick={() => void submitReply(item)}
+                              disabled={replySubmitting}
+                            >
+                              {replySubmitting && (
+                                <LoaderCircle className="size-4 animate-spin" aria-hidden="true" />
+                              )}
+                              {replySubmitting
+                                ? t.community.comments.replySubmitting
+                                : t.community.comments.replySubmit}
+                            </Button>
+                          </div>
+                        </div>
+                        {replyError && (
+                          <p role="alert" className="text-xs text-danger">
+                            {replyError}
+                          </p>
+                        )}
+                      </div>
+                    )}
                   </div>
                 </div>
               </li>

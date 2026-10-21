@@ -22,6 +22,13 @@
       "when": 1792004286953,
       "tag": "0002_salty_archangel",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1792613502760,
+      "tag": "0003_brainy_paper_doll",
+      "breakpoints": true
     }
   ]
 }

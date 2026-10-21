@@ -1,13 +1,13 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useState } from "react";
-import { LoaderCircle, Star, Trash2 } from "lucide-react";
+import { LoaderCircle, Heart, Trash2 } from "lucide-react";
 import { ApiError, apiFetch, type RatingStats } from "@/lib/api";
 import { useSessionUser } from "@/lib/auth-client";
 import { useT } from "@/lib/i18n/use-i18n";
 import { cn } from "@/lib/utils";
 
-const MAX_STARS = 5;
+const MAX_HEARTS = 5;
 
 function round1(value: number): number {
   return Math.round(value * 10) / 10;
@@ -32,15 +32,15 @@ function project(stats: RatingStats, next: number | null): RatingStats {
   return { average: count > 0 ? round1(total / count) : null, count, mine: next };
 }
 
-function Stars({ value, className }: { value: number; className?: string }) {
+function Hearts({ value, className }: { value: number; className?: string }) {
   return (
     <span className={cn("inline-flex items-center gap-0.5", className)} aria-hidden="true">
-      {Array.from({ length: MAX_STARS }, (_, index) => (
-        <Star
+      {Array.from({ length: MAX_HEARTS }, (_, index) => (
+        <Heart
           key={index}
           className={cn(
             "size-4",
-            index < Math.round(value) ? "fill-accent text-accent" : "text-border",
+            index < Math.round(value) ? "fill-rose-500 text-rose-500" : "text-border",
           )}
         />
       ))}
@@ -49,7 +49,7 @@ function Stars({ value, className }: { value: number; className?: string }) {
 }
 
 /** Average score plus a keyboard-accessible control for the logged user. */
-export function StarRating({ portId }: { portId: string }) {
+export function HeartRating({ portId }: { portId: string }) {
   const t = useT();
   const { user, isPending: sessionPending } = useSessionUser();
   const [state, setState] = useState<{
@@ -98,7 +98,7 @@ export function StarRating({ portId }: { portId: string }) {
             })
           : await apiFetch<RatingStats>(`/ratings/${encodeURIComponent(portId)}`, {
               method: "PUT",
-              body: JSON.stringify({ stars: next }),
+              body: JSON.stringify({ hearts: next }),
             });
       setState({ key: requestKey, status: "ready", data });
     } catch (error) {
@@ -119,7 +119,7 @@ export function StarRating({ portId }: { portId: string }) {
 
     if (event.key === "ArrowRight" || event.key === "ArrowUp") {
       event.preventDefault();
-      void apply(Math.min(MAX_STARS, current + 1));
+      void apply(Math.min(MAX_HEARTS, current + 1));
     } else if (event.key === "ArrowLeft" || event.key === "ArrowDown") {
       event.preventDefault();
       void apply(Math.max(1, (current || 1) - 1));
@@ -150,12 +150,12 @@ export function StarRating({ portId }: { portId: string }) {
           <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
             {stats.count > 0 && stats.average !== null ? (
               <>
-                <Stars value={stats.average} />
+                <Hearts value={stats.average} />
                 <span className="text-sm font-medium">
                   {t.community.rating.averageValue(stats.average)}
                 </span>
                 <span className="text-sm text-muted">
-                  · {t.community.rating.countLabel(stats.count)}
+                  Â· {t.community.rating.countLabel(stats.count)}
                 </span>
               </>
             ) : (
@@ -173,7 +173,7 @@ export function StarRating({ portId }: { portId: string }) {
                 onMouseLeave={() => setHover(0)}
                 className="inline-flex items-center gap-0.5"
               >
-                {Array.from({ length: MAX_STARS }, (_, index) => index + 1).map((value) => {
+                {Array.from({ length: MAX_HEARTS }, (_, index) => index + 1).map((value) => {
                   const selected = stats.mine === value;
                   const filled = activeValue >= value;
                   return (
@@ -182,7 +182,7 @@ export function StarRating({ portId }: { portId: string }) {
                       type="button"
                       role="radio"
                       aria-checked={selected}
-                      aria-label={t.community.rating.rateStars(value)}
+                      aria-label={t.community.rating.rateHearts(value)}
                       tabIndex={selected || (stats.mine === null && value === 1) ? 0 : -1}
                       disabled={pending}
                       onMouseEnter={() => setHover(value)}
@@ -191,8 +191,8 @@ export function StarRating({ portId }: { portId: string }) {
                       onClick={() => void apply(selected ? null : value)}
                       className="rounded-sm p-1 transition-colors duration-150 hover:text-accent-hover disabled:opacity-60"
                     >
-                      <Star
-                        className={cn("size-6", filled ? "fill-accent text-accent" : "text-border")}
+                      <Heart
+                        className={cn("size-6", filled ? "fill-rose-500 text-rose-500" : "text-border")}
                         aria-hidden="true"
                       />
                     </button>
@@ -230,3 +230,4 @@ export function StarRating({ portId }: { portId: string }) {
     </section>
   );
 }
+

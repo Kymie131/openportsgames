@@ -17,6 +17,7 @@ const STATIC_PAGES = [
   "/tools",
   "/testing",
   "/guides",
+  "/missing",
   "/submit",
   "/support",
   "/about",

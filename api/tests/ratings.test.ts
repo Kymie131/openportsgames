@@ -4,7 +4,7 @@ import {
   portIdSchema,
   ratingBodySchema,
   roundToOneDecimal,
-  starsSchema,
+  heartsSchema,
 } from "../src/lib/ratings";
 
 describe("portIdSchema", () => {
@@ -25,31 +25,31 @@ describe("portIdSchema", () => {
   });
 });
 
-describe("starsSchema", () => {
+describe("heartsSchema", () => {
   it("accepts integers from 1 to 5", () => {
     for (const n of [1, 2, 3, 4, 5]) {
-      expect(starsSchema.safeParse(n).success).toBe(true);
+      expect(heartsSchema.safeParse(n).success).toBe(true);
     }
   });
 
   it("rejects out-of-range and non-integer values", () => {
     for (const bad of [0, 6, -1, 2.5, "3", null, undefined]) {
-      expect(starsSchema.safeParse(bad).success).toBe(false);
+      expect(heartsSchema.safeParse(bad).success).toBe(false);
     }
   });
 });
 
 describe("ratingBodySchema", () => {
-  it("accepts a stars object", () => {
-    expect(ratingBodySchema.safeParse({ stars: 4 })).toEqual({
+  it("accepts a hearts object", () => {
+    expect(ratingBodySchema.safeParse({ hearts: 4 })).toEqual({
       success: true,
-      data: { stars: 4 },
+      data: { hearts: 4 },
     });
   });
 
   it("rejects malformed bodies", () => {
     expect(ratingBodySchema.safeParse({}).success).toBe(false);
-    expect(ratingBodySchema.safeParse({ stars: 9 }).success).toBe(false);
+    expect(ratingBodySchema.safeParse({ hearts: 9 }).success).toBe(false);
     expect(ratingBodySchema.safeParse(null).success).toBe(false);
   });
 });
