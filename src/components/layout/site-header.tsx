@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useRef, useState } from "react";
 import { LocalizedLink as Link } from "@/components/i18n/localized-link";
@@ -95,14 +95,14 @@ export function SiteHeader() {
         scrolled ? "border-b border-border shadow-sm" : "border-b border-transparent",
       )}
     >
-      <Container wide className="flex h-16 items-center justify-between gap-4 md:h-20">
-        <div className="flex min-w-0 items-center gap-5">
+      <Container wide className="flex h-16 items-center justify-between gap-3 md:h-20">
+        <div className="flex min-w-0 items-center gap-3">
           <Link href="/" className="flex min-w-0 shrink items-center" aria-label={t.nav.home}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={assetPath("/logos/brand/openportsgames-transparent.png")}
               alt=""
-              className="h-7 w-auto max-w-[9rem] object-contain sm:h-8 sm:max-w-none md:h-9"
+              className="h-7 w-auto max-w-[9rem] object-contain sm:h-8 md:h-9"
             />
           </Link>
 
@@ -280,3 +280,4 @@ export function SiteHeader() {
     </header>
   );
 }
+
