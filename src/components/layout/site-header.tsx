@@ -97,7 +97,7 @@ export function SiteHeader() {
     >
       <Container wide className="flex h-16 items-center justify-between gap-3 md:h-20">
         <div className="flex min-w-0 items-center gap-3">
-          <Link href="/" className="flex min-w-0 shrink items-center" aria-label={t.nav.home}>
+          <Link href="/" className="flex shrink-0 items-center" aria-label={t.nav.home}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={assetPath("/logos/brand/openportsgames-transparent.png")}
@@ -280,4 +280,5 @@ export function SiteHeader() {
     </header>
   );
 }
+
 
