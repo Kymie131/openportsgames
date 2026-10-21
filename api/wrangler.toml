@@ -1,14 +1,20 @@
-name = "openportsgames-api"
+﻿name = "openportsgames-api"
 main = "src/index.ts"
 compatibility_date = "2026-10-14"
 compatibility_flags = ["nodejs_compat"]
 
+routes = [{ pattern = "api.openportsgames.com", custom_domain = true }]
+
 [[d1_databases]]
 binding = "DB"
 database_name = "openportsgames-db"
-database_id = "REPLACE_ME"
+database_id = "8f93d4d1-d729-4bf8-97d8-69610e64d8b8"
 migrations_dir = "drizzle"
 
 [vars]
 SITE_ORIGIN = "https://openportsgames.com"
 ENVIRONMENT = "production"
+COOKIE_DOMAIN = ".openportsgames.com"
+
+
+
