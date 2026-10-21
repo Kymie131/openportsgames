@@ -5,6 +5,13 @@ conventional prefixes.
 
 ## [Unreleased]
 
+### Fixed
+
+- The static export now stays under Cloudflare Pages' 20,000-file limit:
+  `postbuild` prunes duplicate `__next._full.txt` prefetch copies and the unused
+  per-port `opengraph-image` files. Share cards keep using each entry's cover or
+  the shared root card, so nothing visible changes.
+
 ### Added
 
 - 28 ports from the GitHub topics sweep (`psp-homebrew`, `psvita-homebrew`,
