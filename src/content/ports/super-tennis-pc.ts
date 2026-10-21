@@ -20,6 +20,11 @@ export const superTennisPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Super Nintendo"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/1d/SNES_Super_Tennis_cover_art.jpg",
+    alt: "Super Tennis (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Super Tennis (Nintendo, 1991) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Super Tennis (Nintendo, 1991) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

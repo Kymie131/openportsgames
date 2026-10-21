@@ -20,6 +20,11 @@ export const lsdRevampedPsVita: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a9/LSD_Coverart.png",
+    alt: "LSD: Dream Emulator (box art)",
+    credit: "Wikipedia",
+  },
   notes: "LSD: Dream Emulator (Asmik Ace, 1998) running on PlayStation Vita through source port. Latest release: v1.0. You need your own copy of the game.",
   notesEs: "LSD: Dream Emulator (Asmik Ace, 1998) en PlayStation Vita mediante port de código. Última release: v1.0. Necesitas tu propia copia del juego.",
 };

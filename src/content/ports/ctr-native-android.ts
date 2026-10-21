@@ -21,6 +21,11 @@ export const ctrNativeAndroid: Port = {
   sourceVerified: true,
   originalSystems: ["PlayStation"],
   related: ["ctr-native"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/4f/CrashTeamRacingNACover.png",
+    alt: "Crash Team Racing (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Android port of the Crash Team Racing decompilation project (PS1, 1999). Bring your own disc. Latest release: Android-Build4.",
   notesEs: "Port para Android del proyecto de decompilación de Crash Team Racing (PS1, 1999). Aporta tu propio disco. Última release: Android-Build4.",
 };

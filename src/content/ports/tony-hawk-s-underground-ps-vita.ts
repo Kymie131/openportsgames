@@ -20,6 +20,11 @@ export const tonyHawkSUndergroundPsVita: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/98/Tony_Hawk%27s_Underground_PlayStation2_box_art_cover.jpg",
+    alt: "Tony Hawk's Underground (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Tony Hawk's Underground (Activision, 2003) running on PlayStation Vita through source port. Latest release: v1.2.0. You need your own copy of the game.",
   notesEs: "Tony Hawk's Underground (Activision, 2003) en PlayStation Vita mediante port de código. Última release: v1.2.0. Necesitas tu propia copia del juego.",
 };

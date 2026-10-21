@@ -20,6 +20,11 @@ export const pokemonEmeraldPs2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy Advance"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f7/PokemonEmeraldBox.jpg",
+    alt: "Pokémon Emerald (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Pokémon Emerald (Game Freak, 2004) running on PlayStation 2 through source port. You need your own copy of the game.",
   notesEs: "Pokémon Emerald (Game Freak, 2004) en PlayStation 2 mediante port de código. Necesitas tu propia copia del juego.",
 };

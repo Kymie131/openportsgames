@@ -20,6 +20,11 @@ export const defJamFightForNyRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/3a/Def_Jam_Fight_for_NY.jpg",
+    alt: "Def Jam: Fight for NY (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Def Jam: Fight for NY (original Xbox) recompiled to a native port for Windows, macOS and Linux (including Steam Deck), Direct3D 11 / Vulkan. Unofficial fan port; it needs your own game dump. Latest release: v0.9.3.",
   notesEs:

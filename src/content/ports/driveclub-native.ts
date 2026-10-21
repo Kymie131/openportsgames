@@ -20,6 +20,11 @@ export const driveclubNative: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6f/Driveclub_box_art.jpg",
+    alt: "Driveclub (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Native port of Driveclub (PS4, CUSA00003) to macOS and Windows. No release yet (work in progress); you supply your own copy of the game.",
   notesEs: "Port nativo de Driveclub (PS4, CUSA00003) a macOS y Windows. Aún sin release (en desarrollo); aportas tu propia copia del juego.",
 };

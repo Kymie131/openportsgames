@@ -20,6 +20,11 @@ export const dokiDokiLiteratureClubPsVita: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7c/Doki_Doki_Literature_Club_Cover.jpg",
+    alt: "Doki Doki Literature Club! (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Doki Doki Literature Club! (Team Salvato, 2017) running on PlayStation Vita through source port. Latest release: v1.2.3. You need your own copy of the game.",
   notesEs: "Doki Doki Literature Club! (Team Salvato, 2017) en PlayStation Vita mediante port de código. Última release: v1.2.3. Necesitas tu propia copia del juego.",
 };

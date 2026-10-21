@@ -21,6 +21,11 @@ export const projectPicori: Port = {
   sourceVerified: true,
   originalSystems: ["Game Boy Advance"],
   related: ["minish-cap","zelda-tmc-3ds"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0a/TLOZ-_Minish_Cap_NA_Box_art.png",
+    alt: "The Legend of Zelda: The Minish Cap (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Project Picori: native port of The Legend of Zelda: The Minish Cap (GBA, 2004) built on the game's decompilation, with SDL3, a vendored software PPU renderer and agbplay audio. Work in progress; release v0.9.5 ships Windows, Linux and macOS builds plus an Android APK. You need your own ROM.",
   notesEs: "Project Picori: port nativo de The Legend of Zelda: The Minish Cap (GBA, 2004) construido sobre la decompilación del juego, con SDL3, un renderizador PPU por software propio y audio agbplay. En desarrollo; la release v0.9.5 publica builds para Windows, Linux y macOS más un APK de Android. Necesitas tu propia ROM.",
 };

@@ -21,6 +21,11 @@ export const silentHill3Decomp: Port = {
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
   related: ["silent-hill-3-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/ca/Sh3_boxart.jpg",
+    alt: "Silent Hill 3 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "In-progress matching decompilation of Silent Hill 3 (PlayStation 2, 2003), developed under the project name memory of alessa.",
   notesEs: "Decompilación en curso (matching) de Silent Hill 3 (PlayStation 2, 2003), desarrollada con el nombre de proyecto memory of alessa.",
 };

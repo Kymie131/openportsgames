@@ -20,6 +20,11 @@ export const jezzball3ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/72/Jezzdale0.png",
+    alt: "JezzBall (box art)",
+    credit: "Wikipedia",
+  },
   notes: "JezzBall (Microsoft, 1992) running on Nintendo 3DS through source port. You need your own copy of the game.",
   notesEs: "JezzBall (Microsoft, 1992) en Nintendo 3DS mediante port de código. Necesitas tu propia copia del juego.",
 };

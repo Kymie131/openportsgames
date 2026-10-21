@@ -20,6 +20,11 @@ export const augustus: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/56/Caeser_III_Coverart.jpg",
+    alt: "Caesar III (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Caesar III (Sierra On-Line, 1998) for Android (source port). Latest release: v4.0.0. Needs your own copy of the game (Game Files).",
   notesEs: "Caesar III (Sierra On-Line, 1998) para Android (port de código). Última release: v4.0.0. Necesita tu propia copia del juego.",
 };

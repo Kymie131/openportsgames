@@ -20,6 +20,11 @@ export const superMetroidDs: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Super Nintendo"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg",
+    alt: "Super Metroid (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Super Metroid (Nintendo, 1994) running on Nintendo DS through static recompilation. You need your own copy of the game.",
   notesEs: "Super Metroid (Nintendo, 1994) en Nintendo DS mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

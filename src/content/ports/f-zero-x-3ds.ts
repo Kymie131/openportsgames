@@ -20,6 +20,11 @@ export const fZeroX3ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/21/F-Zero_X_box_art.jpg",
+    alt: "F-Zero X (box art)",
+    credit: "Wikipedia",
+  },
   notes: "F-Zero X (Nintendo, 1998) running on Nintendo 3DS through decompilation. Latest release: v0.9.0. You need your own copy of the game.",
   notesEs: "F-Zero X (Nintendo, 1998) en Nintendo 3DS mediante decompilación. Última release: v0.9.0. Necesitas tu propia copia del juego.",
 };

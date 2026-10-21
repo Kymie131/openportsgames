@@ -20,6 +20,11 @@ export const infamous2Pc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 3"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/db/Infamous_2.png",
+    alt: "inFAMOUS 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "inFAMOUS 2 (Sucker Punch Productions, 2011) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "inFAMOUS 2 (Sucker Punch Productions, 2011) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

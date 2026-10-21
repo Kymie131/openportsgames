@@ -20,6 +20,11 @@ export const donkeyKong64Switch: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/ae/DonkeyKong64CoverArt.jpg",
+    alt: "Donkey Kong 64 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Donkey Kong 64 (Rare, 1999) running on Nintendo Switch through static recompilation. Latest release: v1.1.2. You need your own copy of the game.",
   notesEs: "Donkey Kong 64 (Rare, 1999) en Nintendo Switch mediante recompilación estática. Última release: v1.1.2. Necesitas tu propia copia del juego.",
 };

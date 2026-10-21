@@ -20,6 +20,11 @@ export const hollowKnightPspHomebrew: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/de/Hollow_Knight_2026_cover_art.jpg",
+    alt: "Hollow Knight (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Hollow Knight (Team Cherry, 2017) running on PlayStation Portable through source port. You need your own copy of the game.",
   notesEs:

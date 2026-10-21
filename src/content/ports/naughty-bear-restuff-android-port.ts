@@ -20,6 +20,11 @@ export const naughtyBearRestuffAndroidPort: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0f/Naughty_Bear.jpg",
+    alt: "Naughty Bear (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Naughty Bear (505 Games, 2009) for Android (source port). Latest release: v1.1.0. Needs your own copy of the game (Naughty Bear Gold Edition ISO).",
   notesEs: "Naughty Bear (505 Games, 2009) para Android (port de código). Última release: v1.1.0. Necesita tu propia copia del juego.",
 };

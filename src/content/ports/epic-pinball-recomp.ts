@@ -20,6 +20,11 @@ export const epicPinballRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f1/Epic_Pinball_UK_CD_Cover.jpg",
+    alt: "Epic Pinball (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Epic Pinball (Epic MegaGames, 1993): all thirteen tables of the GOG Complete Collection taken apart from their shipping DOS executables and rebuilt as one native program for Windows or Linux. No DOSBox, no emulator.",
   notesEs: "Epic Pinball (Epic MegaGames, 1993): las trece mesas de la Complete Collection de GOG extraídas de sus ejecutables de DOS originales y reconstruidas como un único programa nativo para Windows o Linux. Sin DOSBox ni emulador.",
 };

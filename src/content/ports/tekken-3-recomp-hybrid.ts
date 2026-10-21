@@ -21,6 +21,11 @@ export const tekken3RecompHybrid: Port = {
   sourceVerified: true,
   originalSystems: ["PlayStation"],
   related: ["tekken-3-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7d/Tekken_3_flyer.jpg",
+    alt: "Tekken 3 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Hybrid recompilation preview of Tekken 3 (PlayStation, 1997) with Jun Kazama, widescreen, custom skins and local asset import tools. Pick your own CUE/BIN image. Latest tag: v0.1.4.",
   notesEs: "Avance de recompilación híbrida de Tekken 3 (PlayStation, 1997) con Jun Kazama, widescreen, skins personalizadas y herramientas de importación de assets locales. Elige tu propia imagen CUE/BIN. Último tag: v0.1.4.",
 };

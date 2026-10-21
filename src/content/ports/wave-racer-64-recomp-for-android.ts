@@ -20,6 +20,11 @@ export const waveRacer64RecompForAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e6/Wave_Race_64_Coverart.png",
+    alt: "Wave Race 64 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Wave Race 64 (Nintendo, 1996) for Android (static recompilation). Needs your own copy of the game (Wave Race 64 - Kawasaki Jet Ski (USA) (Rev 1) Z64).",
   notesEs: "Wave Race 64 (Nintendo, 1996) para Android (recompilación estática). Necesita tu propia copia del juego.",
 };

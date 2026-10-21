@@ -20,6 +20,11 @@ export const spaceStation14Mobile: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1255460/header.jpg",
+    alt: "Space Station 14 (cover art)",
+    credit: "Steam",
+  },
   notes: "Space Station 14 (Space Wizards Federation, 2023) for Android (source port). Latest release: v1.3.0. Needs your own copy of the game.",
   notesEs: "Space Station 14 (Space Wizards Federation, 2023) para Android (port de código). Última release: v1.3.0. Necesita tu propia copia del juego.",
 };

@@ -20,6 +20,11 @@ export const linkSAwakeningPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo Switch"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c1/Link%27s_Awakening.png",
+    alt: "The Legend of Zelda: Link's Awakening (box art)",
+    credit: "Wikipedia",
+  },
   notes: "The Legend of Zelda: Link's Awakening (Nintendo, 2019) running on Windows through static recompilation. Latest release: beta_4. You need your own copy of the game.",
   notesEs: "The Legend of Zelda: Link's Awakening (Nintendo, 2019) en Windows mediante recompilación estática. Última release: beta_4. Necesitas tu propia copia del juego.",
 };

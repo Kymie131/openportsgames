@@ -20,6 +20,11 @@ export const everlastingSummer3ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/331470/header.jpg",
+    alt: "Everlasting Summer (cover art)",
+    credit: "Steam",
+  },
   notes: "Everlasting Summer (Soviet Games, 2014) running on Nintendo 3DS through source port. Latest release: v0.01. You need your own copy of the game.",
   notesEs: "Everlasting Summer (Soviet Games, 2014) en Nintendo 3DS mediante port de código. Última release: v0.01. Necesitas tu propia copia del juego.",
 };

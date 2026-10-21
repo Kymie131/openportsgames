@@ -20,6 +20,11 @@ export const sinPunishmentPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/68/N64_-_Sin_%26_Punishment.jpg",
+    alt: "Sin & Punishment (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Sin & Punishment (Nintendo, 2000) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Sin & Punishment (Nintendo, 2000) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

@@ -21,6 +21,11 @@ export const goldeneye007XblaRecomp: Port = {
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["goldeneye-64-recompiled","goldeneye-pc-port"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/13/GoldenEye_007_N64_cover.jpg",
+    alt: "GoldenEye 007 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Native Windows PC recompilation of the unreleased GoldenEye 007 Xbox 360/XBLA remaster, built with ReXGlue. Up to 4K, 16:9 and 21:9, 60 FPS and switchable original/remastered visuals. Requires your own copy. Latest release: v0.9.5d.",
   notesEs: "Recompilación nativa para Windows del remaster de GoldenEye 007 para Xbox 360/XBLA que nunca se publicó, construida con ReXGlue. Hasta 4K, 16:9 y 21:9, 60 FPS y visuales originales/remasterizados conmutables. Requiere tu propia copia. Última release: v0.9.5d.",
 };

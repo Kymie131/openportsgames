@@ -20,6 +20,11 @@ export const balatroWiiU: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/89/Balatro_cover.jpg",
+    alt: "Balatro (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Balatro (Playstack, 2024) running on Wii U through source port. You need your own copy of the game.",
   notesEs: "Balatro (Playstack, 2024) en Wii U mediante port de código. Necesitas tu propia copia del juego.",
 };

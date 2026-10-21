@@ -21,6 +21,11 @@ export const sm64plus: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["sm64ex","sm64coopdx"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
+    alt: "Super Mario 64 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Fork of the Super Mario 64 PC port focused on quality of life and customisation: more responsive controls, an improved camera, an extended moveset, extra modes and 60 FPS interpolation. The launcher is distributed from MFGG and Linux builds from the project's Discord.",
   notesEs: "Fork del port de PC de Super Mario 64 centrado en calidad de vida y personalización: controles más ágiles, cámara mejorada, moveset ampliado, modos extra e interpolación a 60 FPS. El launcher se distribuye desde MFGG y las builds de Linux desde el Discord del proyecto.",
 };

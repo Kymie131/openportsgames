@@ -20,6 +20,11 @@ export const ssf2tHdRemixRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/9b/SSF_HD_Remix_Boxart.jpg",
+    alt: "Super Street Fighter II Turbo HD Remix (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Super Street Fighter II Turbo HD Remix (Capcom, 2008) running natively on Windows and Linux through static recompilation. Bring your own game package.",
   notesEs:

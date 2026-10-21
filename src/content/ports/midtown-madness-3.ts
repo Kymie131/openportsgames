@@ -20,6 +20,11 @@ export const midtownMadness3: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/47/Midtown_Madness_3_Coverart.png",
+    alt: "Midtown Madness 3 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Midtown Madness 3 (Xbox, 2003) running on Windows 10/11 x64 by static recompilation with Direct3D 11, keyboard controls, widescreen, custom cars and gameplay fixes. Build from your own game disc. Latest release: v1.0.",
   notesEs: "Midtown Madness 3 (Xbox, 2003) en Windows 10/11 x64 mediante recompilación estática con Direct3D 11, controles de teclado, widescreen, coches personalizados y arreglos de jugabilidad. Se instala desde tu propio disco del juego. Última release: v1.0.",
 };

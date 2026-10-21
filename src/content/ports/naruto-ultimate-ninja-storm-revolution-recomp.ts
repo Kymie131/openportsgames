@@ -20,6 +20,11 @@ export const narutoStormRevolutionRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f2/NarutoStormRevolutionCover.jpg",
+    alt: "Naruto Shippuden: Ultimate Ninja Storm Revolution (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Naruto Shippuden: Ultimate Ninja Storm Revolution (Xbox 360, 2014) running natively on Android (ARM64) and PC (Windows x64) via static recompilation, no CPU emulator. Built by Masterllgod; no game files are included, you need your own copy. Documentation only so far (no build yet).",
   notesEs: "Naruto Shippuden: Ultimate Ninja Storm Revolution (Xbox 360, 2014) corriendo de forma nativa en Android (ARM64) y PC (Windows x64) por recompilación estática, sin emulador de CPU. Hecho por Masterllgod; no incluye archivos del juego, necesitas tu propia copia. De momento solo documentación (sin build todavía).",
 };

@@ -21,6 +21,11 @@ export const bayonetta2Recomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["Nintendo Switch"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b1/Bayonetta_2_box_artwork.png",
+    alt: "Bayonetta 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Unofficial static recompilation of Bayonetta 2 for Windows, built from the Nintendo Switch release. You must supply your own copy of the game.",
   notesEs: "Recompilación estática no oficial de Bayonetta 2 para Windows, construida desde la versión de Nintendo Switch. Debes aportar tu propia copia del juego.",
 };

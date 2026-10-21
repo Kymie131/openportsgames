@@ -20,6 +20,11 @@ export const superMario64Ds3ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo DS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/12/Super_Mario_64_DS_Coverart.png",
+    alt: "Super Mario 64 DS (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Super Mario 64 DS (Nintendo, 2004) running on Nintendo 3DS through source port. You need your own copy of the game.",
   notesEs: "Super Mario 64 DS (Nintendo, 2004) en Nintendo 3DS mediante port de código. Necesitas tu propia copia del juego.",
 };

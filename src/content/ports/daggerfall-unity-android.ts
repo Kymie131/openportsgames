@@ -20,6 +20,11 @@ export const daggerfallUnityAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a4/Daggerfall_Cover_art.gif",
+    alt: "The Elder Scrolls II: Daggerfall (box art)",
+    credit: "Wikipedia",
+  },
   notes: "The Elder Scrolls II: DaggerFall (Bethesda Softworks, 1996) for Android (source port). Latest release: v1.1.1.9. Needs your own copy of the game (DaggerfallGameFiles.zip).",
   notesEs: "The Elder Scrolls II: DaggerFall (Bethesda Softworks, 1996) para Android (port de código). Última release: v1.1.1.9. Necesita tu propia copia del juego.",
 };

@@ -21,6 +21,11 @@ export const ssxTrickyOpentricky: Port = {
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
   related: ["ssx-tricky-decomp","ssx-tricky-xbox-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6a/SSX_Tricky.jpg",
+    alt: "SSX Tricky (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Unofficial PC port of SSX Tricky by static recompilation. Bring your own disc. Latest tags: v0.1.3-unstable.",
   notesEs: "Port no oficial a PC de SSX Tricky mediante recompilación estática. Aporta tu propio disco. Últimos tags: v0.1.3-unstable.",
 };

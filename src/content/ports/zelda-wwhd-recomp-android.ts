@@ -21,6 +21,11 @@ export const zeldaWwhdRecompAndroid: Port = {
   sourceVerified: true,
   originalSystems: ["Wii U"],
   related: ["zeldawwhdrecompandroid","wind-waker-hd-android-plus","switch-waker-hd"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
+    alt: "The Legend of Zelda: The Wind Waker HD (box art)",
+    credit: "Wikipedia",
+  },
   notes: "The Legend of Zelda: The Wind Waker HD (Wii U, 2013) recompiled for Android. Bring your own game. Latest release: v0.9.4.",
   notesEs: "The Legend of Zelda: The Wind Waker HD (Wii U, 2013) recompilado para Android. Aporta tu propio juego. Última release: v0.9.4.",
 };

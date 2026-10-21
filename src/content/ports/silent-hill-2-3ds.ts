@@ -20,6 +20,11 @@ export const silentHill23ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/95/Silent_Hill_2.jpg",
+    alt: "Silent Hill 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Silent Hill 2 (Konami, 2001) running on Nintendo 3DS through source port. Latest release: v0.1.2. You need your own copy of the game.",
   notesEs: "Silent Hill 2 (Konami, 2001) en Nintendo 3DS mediante port de código. Última release: v0.1.2. Necesitas tu propia copia del juego.",
 };

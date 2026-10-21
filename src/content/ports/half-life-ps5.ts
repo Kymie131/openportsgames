@@ -20,6 +20,11 @@ export const halfLifePs5: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/70/header.jpg",
+    alt: "Half-Life (cover art)",
+    credit: "Steam",
+  },
   notes: "Half-Life (Sierra On-Line, 1998) running on ps5 through source port. Latest release: v1.3. You need your own copy of the game.",
   notesEs: "Half-Life (Sierra On-Line, 1998) en ps5 mediante port de código. Última release: v1.3. Necesitas tu propia copia del juego.",
 };

@@ -25,6 +25,11 @@ export const superMarioGalaxyNebula: Port = {
     source: "https://github.com/keepvaibin/nebula",
     quote: "Nebula was built with AI coding agents (Anthropic's Claude).",
   },
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/76/SuperMarioGalaxy.jpg",
+    alt: "Super Mario Galaxy (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Static recompilation of Super Mario Galaxy for Windows: the PowerPC code is translated to C++ ahead of time and run on a native Direct3D 12 runtime. Work in progress (some areas below 60 FPS, lighting/bloom differences and bugs); it needs your own copy of the game. Latest release: v1.0.0. Built with AI coding agents (the game's own logic is the original code, not AI-written). NOT affiliated with Nintendo.",
   notesEs:

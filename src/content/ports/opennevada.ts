@@ -20,6 +20,11 @@ export const opennevada: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/4/43/Free_depiction_of_the_Fallout_New_Vegas_Xbox_360_box_art_%28cropped%29.png",
+    alt: "Fallout New Vegas (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Fallout New Vegas (Bethesda Softworks, 2010) for Android (source port). Needs your own copy of the game.",
   notesEs: "Fallout New Vegas (Bethesda Softworks, 2010) para Android (port de código). Necesita tu propia copia del juego.",
 };

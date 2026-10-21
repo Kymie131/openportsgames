@@ -20,6 +20,11 @@ export const projectIGIPsVita: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/fe/Project_I.G.I._I%27m_Going_In_%28cover%29.jpg",
+    alt: "Project I.G.I. (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Project I.G.I. (Eidos Interactive, 2000) running on PlayStation Vita through source port. Latest release: v0.5.0. You need your own copy of the game.",
   notesEs: "Project I.G.I. (Eidos Interactive, 2000) en PlayStation Vita mediante port de código. Última release: v0.5.0. Necesitas tu propia copia del juego.",
 };

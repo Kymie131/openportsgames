@@ -21,6 +21,11 @@ export const mk64Portable: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["mario-kart-64-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a1/Mario_Kart_64.jpg",
+    alt: "Mario Kart 64 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Native PSP port of Mario Kart 64 built on the n64decomp/mk64 decompilation: 60 FPS in single player and 30 FPS in ad-hoc multiplayer. It contains no game data and builds it from your own ROM on first start. Latest release: v1.7.",
   notesEs: "Port nativo para PSP de Mario Kart 64 construido sobre la decompilación n64decomp/mk64: 60 FPS en un jugador y 30 FPS en multijugador ad-hoc. No contiene datos del juego y los construye desde tu propia ROM al arrancar. Última release: v1.7.",
 };

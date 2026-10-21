@@ -20,6 +20,11 @@ export const superMarioSunshinePs5: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/05/Super_Mario_Sunshine_Box_Art.png",
+    alt: "Super Mario Sunshine (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Super Mario Sunshine (Nintendo, 2002) running on ps5 through static recompilation. Latest release: v0.10.0. You need your own copy of the game.",
   notesEs: "Super Mario Sunshine (Nintendo, 2002) en ps5 mediante recompilación estática. Última release: v0.10.0. Necesitas tu propia copia del juego.",
 };

@@ -20,6 +20,11 @@ export const portabletale: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/391540/header.jpg",
+    alt: "Undertale (cover art)",
+    credit: "Steam",
+  },
   notes: "PortableTale is a recreation of Undertale for the PSP written in Lua on top of LuaPlayerPlus. Work in progress: the intro is nearly done while the battle engine is still pending. It ships as a source EBOOT.PBP.",
   notesEs: "PortableTale es una recreación de Undertale para PSP escrita en Lua sobre LuaPlayerPlus. En desarrollo: la intro está casi terminada pero el motor de combate sigue pendiente. Se distribuye como EBOOT.PBP de código.",
 };

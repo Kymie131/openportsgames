@@ -20,6 +20,11 @@ export const Deltarune: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1671210/header.jpg",
+    alt: "Deltarune (cover art)",
+    credit: "Steam",
+  },
   notes: "DELTARUNE Decompilation.",
   notesEs: "Decompilación de DELTARUNE.",
 };

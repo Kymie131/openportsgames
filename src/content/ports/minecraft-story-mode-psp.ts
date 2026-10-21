@@ -20,6 +20,11 @@ export const minecraftStoryModePsp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/04/Minecraft_Story_Mode_cover.jpeg",
+    alt: "Minecraft: Story Mode (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Minecraft: Story Mode (Telltale Games, 2015) running on PlayStation Portable through source port. Latest release: 1.7. You need your own copy of the game.",
   notesEs: "Minecraft: Story Mode (Telltale Games, 2015) en PlayStation Portable mediante port de código. Última release: 1.7. Necesitas tu propia copia del juego.",
 };

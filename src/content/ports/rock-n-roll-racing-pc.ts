@@ -20,6 +20,11 @@ export const rockNRollRacingPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Super Nintendo"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/ef/Rock_N%27_Roll_Racing_Cover.jpg",
+    alt: "Rock n' Roll Racing (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Rock n' Roll Racing (Interplay Entertainment, 1993) running on Windows through static recompilation. Latest release: v1.0.0. You need your own copy of the game.",
   notesEs: "Rock n' Roll Racing (Interplay Entertainment, 1993) en Windows mediante recompilación estática. Última release: v1.0.0. Necesitas tu propia copia del juego.",
 };

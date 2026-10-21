@@ -21,6 +21,11 @@ export const granTurismoSportRygtPc: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/96/GT_Sport_cover_art.jpg",
+    alt: "Gran Turismo Sport (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Native Windows runtime for Gran Turismo Sport built on Ryty, with a Vulkan shadGT renderer, full races, four-player splitscreen and an unlocked frame rate. No game data included.",
   notesEs: "Runtime nativo para Windows de Gran Turismo Sport basado en Ryty, con renderizador Vulkan shadGT, carreras completas, pantalla dividida para cuatro jugadores y tasa de fotogramas desbloqueada. No incluye archivos del juego.",
 };

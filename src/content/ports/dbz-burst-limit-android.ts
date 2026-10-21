@@ -20,6 +20,11 @@ export const dbzBurstLimitAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/55/Dragon_Ball_Z_Burst_Limit.jpg",
+    alt: "Dragon Ball Z: Burst Limit (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Dragon Ball Z: Burst Limit (Bandai Namco, 2008) for Android (source port). Needs your own copy of the game.",
   notesEs: "Dragon Ball Z: Burst Limit (Bandai Namco, 2008) para Android (port de código). Necesita tu propia copia del juego.",
 };

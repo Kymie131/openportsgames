@@ -20,6 +20,11 @@ export const chexQuestClassicCoreEngines: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/12/Chex_Quest-front_cover.png",
+    alt: "Chex Quest (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Chex Quest (Digital Café, 1996) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (CHEX.WAD).",
   notesEs: "Chex Quest (Digital Café, 1996) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
 };

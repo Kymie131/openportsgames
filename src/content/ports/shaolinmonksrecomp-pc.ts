@@ -21,6 +21,11 @@ export const shaolinmonksrecompPc: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["Xbox"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/29/PS2MKSM.JPG",
+    alt: "Mortal Kombat: Shaolin Monks (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Static recompilation of Mortal Kombat: Shaolin Monks (Xbox) for Windows. The original disc is required; the repository does not include game assets.",
   notesEs: "Recompilación estática de Mortal Kombat: Shaolin Monks (Xbox) para Windows. Requiere el disco original; el repositorio no incluye archivos del juego.",
 };

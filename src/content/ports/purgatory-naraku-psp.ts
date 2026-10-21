@@ -20,6 +20,11 @@ export const purgatoryNarakuPsp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Other"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/2851770/header.jpg",
+    alt: "Purgatory -NARAKU- (cover art)",
+    credit: "Steam",
+  },
   notes: "Purgatory -NARAKU- (Fan game, 2024) running on PlayStation Portable through source port. You need your own copy of the game.",
   notesEs: "Purgatory -NARAKU- (Fan game, 2024) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
 };

@@ -20,6 +20,11 @@ export const superMetroidDualScreen: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Super Nintendo"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg",
+    alt: "Super Metroid (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Super Metroid (Nintendo, 1994) for Android (source port). Latest release: v1.2. Needs your own copy of the game (Super Metroid (Japan, USA) (En, Ja).sfc).",
   notesEs: "Super Metroid (Nintendo, 1994) para Android (port de código). Última release: v1.2. Necesita tu propia copia del juego.",
 };

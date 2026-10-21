@@ -21,6 +21,11 @@ export const tekken6Android: Port = {
   sourceVerified: true,
   originalSystems: ["PlayStation Portable"],
   related: ["tekken-3-recomp","tekken-3-recomp-hybrid"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/21/Tekken_6_Box_Art.jpg",
+    alt: "Tekken 6 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Azazel6: independent, unofficial research project towards a standalone native Android ARM64 port of Tekken 6 for PSP, translating the Allegrex/MIPS code ahead of time to C++ plus a PSP runtime. Not playable yet and no APK: users must supply their own game copy.",
   notesEs: "Azazel6: proyecto de investigación independiente y no oficial hacia un port nativo para Android ARM64 de Tekken 6 de PSP, traduciendo el código Allegrex/MIPS por adelantado a C++ más un runtime de PSP. Aún no es jugable y no hay APK: el usuario aporta su propia copia del juego.",
 };

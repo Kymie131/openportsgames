@@ -20,6 +20,11 @@ export const Terraria: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 3"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/1a/Terraria_Steam_artwork.jpg",
+    alt: "Terraria (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "A functional decompilation & PC port of the console version of Terraria released on the Xbox 360 & PS3 in 2013.",
   notesEs:

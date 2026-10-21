@@ -21,6 +21,11 @@ export const skullburglarPc: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/14/50_Cent_Blood_on_the_Sand.jpg",
+    alt: "50 Cent: Blood on the Sand (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Work-in-progress native recompilation of the third-person shooter 50 Cent: Blood on the Sand (Xbox 360). Bring your own copy of the game.",
   notesEs: "Recompilación nativa en desarrollo del shooter en tercera persona 50 Cent: Blood on the Sand (Xbox 360). Aporta tu propia copia del juego.",
 };

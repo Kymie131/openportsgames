@@ -20,6 +20,11 @@ export const gearsOfWar2Pc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e0/Gears_of_War_2_Game_Cover.jpg",
+    alt: "Gears of War 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Gears of War 2 (Microsoft Game Studios, 2008) running on Windows through static recompilation. Latest release: v0.2.2. You need your own copy of the game.",
   notesEs: "Gears of War 2 (Microsoft Game Studios, 2008) en Windows mediante recompilación estática. Última release: v0.2.2. Necesitas tu propia copia del juego.",
 };

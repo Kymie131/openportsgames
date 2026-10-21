@@ -20,6 +20,11 @@ export const athenaCrisisPsp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Other"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/2456430/header.jpg",
+    alt: "Athena Crisis (cover art)",
+    credit: "Steam",
+  },
   notes: "Athena Crisis (Nakama Game Studio, 2024) running on PlayStation Portable through source port. You need your own copy of the game.",
   notesEs: "Athena Crisis (Nakama Game Studio, 2024) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
 };

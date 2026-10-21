@@ -20,6 +20,11 @@ export const ridgeRacer6Recomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/Ridge_Racer_6.jpg",
+    alt: "Ridge Racer 6 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Recompilation of the Xbox 360 release of Ridge Racer 6 for PC. Work in progress. Latest release: v0.1.5.",
   notesEs: "Recompilación de la versión de Xbox 360 de Ridge Racer 6 para PC. En desarrollo. Última release: v0.1.5.",
 };

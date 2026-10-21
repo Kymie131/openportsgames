@@ -20,6 +20,11 @@ export const skywardSwordPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Wii"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/99/Legend_of_Zelda_Skyward_Sword_boxart.png",
+    alt: "The Legend of Zelda: Skyward Sword (box art)",
+    credit: "Wikipedia",
+  },
   notes: "The Legend of Zelda: Skyward Sword (Nintendo, 2011) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "The Legend of Zelda: Skyward Sword (Nintendo, 2011) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

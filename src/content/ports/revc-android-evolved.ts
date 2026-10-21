@@ -20,6 +20,11 @@ export const revcAndroidEvolved: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/ce/Vice-city-cover.jpg",
+    alt: "Grand Theft Auto: Vice City (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Grand Theft Auto: Vice City (Rockstar Games, 2002) for Android (source port). Latest release: v1.0.11. Needs your own copy of the game.",
   notesEs: "Grand Theft Auto: Vice City (Rockstar Games, 2002) para Android (port de código). Última release: v1.0.11. Necesita tu propia copia del juego.",
 };

@@ -20,6 +20,11 @@ export const narutoStormGenerationsRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b7/Naruto-generations-ps3-pegi-pack-resize.jpg",
+    alt: "Naruto Shippuden: Ultimate Ninja Storm Generations (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Naruto Shippuden: Ultimate Ninja Storm Generations (Xbox 360, 2012) running natively on Android (ARM64) and PC (Windows x64) via static recompilation, no CPU emulator. Built by Masterllgod; no game files are included, you need your own copy. Latest release: v0.3.",
   notesEs: "Naruto Shippuden: Ultimate Ninja Storm Generations (Xbox 360, 2012) corriendo de forma nativa en Android (ARM64) y PC (Windows x64) por recompilación estática, sin emulador de CPU. Hecho por Masterllgod; no incluye archivos del juego, necesitas tu propia copia. Última release: v0.3.",
 };

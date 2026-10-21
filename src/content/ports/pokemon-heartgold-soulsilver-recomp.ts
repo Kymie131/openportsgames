@@ -21,6 +21,11 @@ export const pokemonHeartgoldSoulsilverRecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["Nintendo DS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/cb/PokemonHGSSBox.jpg",
+    alt: "Pokémon HeartGold and SoulSilver (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Native Windows recompilation of Pokémon HeartGold and SoulSilver with a single-screen interface. Requires your own dump of the Nintendo DS games.",
   notesEs: "Recompilación nativa para Windows de Pokémon HeartGold y SoulSilver con interfaz de pantalla única. Requiere tu propio volcado de los juegos de Nintendo DS.",
 };

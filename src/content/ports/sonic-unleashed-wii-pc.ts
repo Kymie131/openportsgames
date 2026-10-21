@@ -20,6 +20,11 @@ export const sonicUnleashedWiiPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Wii"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a0/Sonic_unleashed_boxart.jpg",
+    alt: "Sonic Unleashed (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Sonic Unleashed (Sonic Team, 2008) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Sonic Unleashed (Sonic Team, 2008) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

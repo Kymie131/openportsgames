@@ -20,6 +20,11 @@ export const shipwrightAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube","Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
+    alt: "The Legend of Zelda: Ocarina of Time (box art)",
+    credit: "Wikipedia",
+  },
   notes: "The Legend of Zelda: Ocarina of Time (Nintendo, 1998) for Android (source port). Latest release: v9.2.3-android.4.3. Needs your own copy of the game (ZELOOTD.z64 (Debug Build)).",
   notesEs: "The Legend of Zelda: Ocarina of Time (Nintendo, 1998) para Android (port de código). Última release: v9.2.3-android.4.3. Necesita tu propia copia del juego.",
 };

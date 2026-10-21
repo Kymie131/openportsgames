@@ -20,6 +20,11 @@ export const GeometryDash: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/322170/header.jpg",
+    alt: "Geometry Dash (cover art)",
+    credit: "Steam",
+  },
   notes: "A decompilation of Geometry Dash version 1.710.",
   notesEs: "Decompilación de Geometry Dash 1.710.",
 };

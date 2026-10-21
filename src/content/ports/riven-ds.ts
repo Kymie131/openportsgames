@@ -20,6 +20,11 @@ export const rivenDs: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/32/Riven_Coverart.png",
+    alt: "Riven (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Riven (Red Orb Entertainment, 1997) running on Nintendo DS through source port. Latest release: v1.0.0. You need your own copy of the game.",
   notesEs: "Riven (Red Orb Entertainment, 1997) en Nintendo DS mediante port de código. Última release: v1.0.0. Necesitas tu propia copia del juego.",
 };

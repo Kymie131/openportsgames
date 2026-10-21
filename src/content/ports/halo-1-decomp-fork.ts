@@ -20,6 +20,11 @@ export const halo1DecompFork: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg",
+    alt: "Halo: Combat Evolved (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Halo: Combat Evolved (Microsoft Game Studios, 2001) for Android (decompilation). Latest release: build-103. Needs your own copy of the game.",
   notesEs: "Halo: Combat Evolved (Microsoft Game Studios, 2001) para Android (decompilación). Última release: build-103. Necesita tu propia copia del juego.",
 };

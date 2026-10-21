@@ -20,6 +20,11 @@ export const pes2013Switch: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/46/Pro_Evolution_Soccer_2013_cover.jpg",
+    alt: "Pro Evolution Soccer 2013 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Pro Evolution Soccer 2013 (Konami, 2012) running on Nintendo Switch through runtime layer. Latest release: v0.4.2. You need your own copy of the game.",
   notesEs: "Pro Evolution Soccer 2013 (Konami, 2012) en Nintendo Switch mediante capa de ejecución. Última release: v0.4.2. Necesitas tu propia copia del juego.",
 };

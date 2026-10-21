@@ -20,6 +20,11 @@ export const illusionOfGaiaPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Super Nintendo"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/1a/Iogbox.jpg",
+    alt: "Illusion of Gaia (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Illusion of Gaia (Enix, 1993) running on Windows and Linux and macOS and Nintendo Switch and Android and Nintendo 3DS and PlayStation Vita through static recompilation. Latest release: v1.0. You need your own copy of the game.",
   notesEs: "Illusion of Gaia (Enix, 1993) en Windows and Linux and macOS and Nintendo Switch and Android and Nintendo 3DS and PlayStation Vita mediante recompilación estática. Última release: v1.0. Necesitas tu propia copia del juego.",
 };

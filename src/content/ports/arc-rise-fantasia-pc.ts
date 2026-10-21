@@ -20,6 +20,11 @@ export const arcRiseFantasiaPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Wii"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/05/Arf_wii.jpg",
+    alt: "Arc Rise Fantasia (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Arc Rise Fantasia (Marvelous Entertainment, 2009) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Arc Rise Fantasia (Marvelous Entertainment, 2009) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

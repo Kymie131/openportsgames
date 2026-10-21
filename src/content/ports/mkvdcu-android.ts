@@ -20,6 +20,11 @@ export const mkvdcuAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6b/Mortal_Kombat_vs._DC_Universe_Coverart.png",
+    alt: "Mortal Kombat vs. DC Universe (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Mortal Kombat vs. DC Universe (Midway Games, 2008) for Android (source port). Needs your own copy of the game.",
   notesEs: "Mortal Kombat vs. DC Universe (Midway Games, 2008) para Android (port de código). Necesita tu propia copia del juego.",
 };

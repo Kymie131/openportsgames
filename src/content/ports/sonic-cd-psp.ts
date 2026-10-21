@@ -21,6 +21,11 @@ export const sonicCdPsp: Port = {
   sourceVerified: true,
   originalSystems: ["Sega CD / Mega-CD"],
   related: ["rsdkv3-decompilation"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e1/Sonic_CD_North_American_cover_art.jpg",
+    alt: "Sonic CD (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Complete port of the Retro Engine v3 decompilation (the engine behind Sonic CD 2011) to the PlayStation Portable. It needs the assets of an official release, which you must own. Latest release: 2.0.",
   notesEs: "Port completo de la decompilación de Retro Engine v3 (el motor de Sonic CD 2011) a PlayStation Portable. Necesita los recursos de una versión oficial que debes poseer. Última release: 2.0.",
 };

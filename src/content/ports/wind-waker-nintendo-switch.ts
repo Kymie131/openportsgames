@@ -20,6 +20,11 @@ export const windWakerNintendoSwitch: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
+    alt: "The Legend of Zelda: The Wind Waker (box art)",
+    credit: "Wikipedia",
+  },
   notes: "The Legend of Zelda: The Wind Waker (Nintendo, 2002) running on Nintendo Switch through static recompilation. Latest release: v0.4.2. You need your own copy of the game.",
   notesEs: "The Legend of Zelda: The Wind Waker (Nintendo, 2002) en Nintendo Switch mediante recompilación estática. Última release: v0.4.2. Necesitas tu propia copia del juego.",
 };

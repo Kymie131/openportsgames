@@ -20,6 +20,11 @@ export const FateExtella: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/511680/header.jpg",
+    alt: "Fate EXTELLA (cover art)",
+    credit: "Steam",
+  },
   notes: "Fate EXTELLA Decompilation.",
   notesEs: "Decompilación de Fate/EXTELLA.",
 };

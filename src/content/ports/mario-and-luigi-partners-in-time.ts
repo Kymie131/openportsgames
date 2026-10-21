@@ -20,6 +20,11 @@ export const MarioAndLuigiPartnersInTime: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/ba/Mario_%26_Luigi_-_Parnters_In_Time_%28box_art%29.jpg",
+    alt: "Mario & Luigi - Partners in Time (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Decompilation of Mario & Luigi - Partners in Time (Other).",
   notesEs: "Decompilación de Mario & Luigi - Partners in Time (Other).",
 };

@@ -20,6 +20,11 @@ export const streetsOfRage2NewEra: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Sega Mega Drive / Genesis"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/26/Streets_of_Rage_2.jpg",
+    alt: "Streets of Rage 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Fan-made port of Streets of Rage 2 to modern platforms: the game was ported manually through reverse engineering, and the project describes it as the best version of the game ever. Distributed from its own site (v3.1.0).",
   notesEs: "Port hecho por fans de Streets of Rage 2 a plataformas modernas: el juego se portó a mano mediante ingeniería inversa y el proyecto lo describe como la mejor versión del juego hasta ahora. Se distribuye desde su propia web (v3.1.0).",
 };

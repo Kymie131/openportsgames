@@ -20,6 +20,11 @@ export const shadowOfTheColossusPcFrameGeneration: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f8/Shadow_of_the_Colossus_%282005%29_cover.jpg",
+    alt: "Shadow of the Colossus (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Shadow of the Colossus (Sony Computer Entertainment, 2005) running on Windows through static recompilation. Latest release: v0.57-fg2. You need your own copy of the game.",
   notesEs: "Shadow of the Colossus (Sony Computer Entertainment, 2005) en Windows mediante recompilación estática. Última release: v0.57-fg2. Necesitas tu propia copia del juego.",
 };

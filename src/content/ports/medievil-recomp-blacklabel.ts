@@ -21,6 +21,11 @@ export const medievilRecompBlacklabel: Port = {
   sourceVerified: true,
   originalSystems: ["PlayStation"],
   related: ["medievil-recomp","medievil-ii-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d3/Medievil_cover.jpg",
+    alt: "MediEvil (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Static recompilation of the USA PlayStation release of MediEvil by the BlackLabelHQ team. Open beta: some features are still incomplete. The README states the code is written by hand with no AI involvement. Release v0.2b ships Windows, Linux and macOS builds.",
   notesEs: "Recompilación estática de la versión USA de PlayStation de MediEvil por el equipo BlackLabelHQ. Beta abierta: algunas funciones aún están incompletas. El README afirma que el código está escrito a mano sin intervención de IA. La release v0.2b publica builds para Windows, Linux y macOS.",
 };

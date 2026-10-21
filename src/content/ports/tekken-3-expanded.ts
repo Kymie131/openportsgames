@@ -20,6 +20,11 @@ export const tekken3Expanded: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7d/Tekken_3_flyer.jpg",
+    alt: "Tekken 3 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Tekken 3 (Namco, 1997) for Android (source port). Latest release: v1.3.0. Needs your own copy of the game (Need PS1 ROM and arcade roms).",
   notesEs: "Tekken 3 (Namco, 1997) para Android (port de código). Última release: v1.3.0. Necesita tu propia copia del juego.",
 };

@@ -20,6 +20,11 @@ export const littleBigAdventureDs: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/83/Little_Big_Adventure.jpg",
+    alt: "Little Big Adventure (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Little Big Adventure (Electronic Arts, 1994) running on Nintendo DS through source port. You need your own copy of the game.",
   notesEs: "Little Big Adventure (Electronic Arts, 1994) en Nintendo DS mediante port de código. Necesitas tu propia copia del juego.",
 };

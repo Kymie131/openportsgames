@@ -20,6 +20,11 @@ export const theImpossibleGamePsVita: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Other"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/251630/header.jpg",
+    alt: "The Impossible Game (cover art)",
+    credit: "Steam",
+  },
   notes: "The Impossible Game (Fluke Games, 2009) running on PlayStation Vita through source port. Latest release: v.1.1.0. You need your own copy of the game.",
   notesEs: "The Impossible Game (Fluke Games, 2009) en PlayStation Vita mediante port de código. Última release: v.1.1.0. Necesitas tu propia copia del juego.",
 };

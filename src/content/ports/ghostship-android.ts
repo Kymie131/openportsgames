@@ -20,6 +20,11 @@ export const ghostshipAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
+    alt: "Super Mario 64 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Super Mario 64 (Nintendo, 1996) for Android (source port). Latest release: 1.0.1. Needs your own copy of the game (Ghostship folder).",
   notesEs: "Super Mario 64 (Nintendo, 1996) para Android (port de código). Última release: 1.0.1. Necesita tu propia copia del juego.",
 };

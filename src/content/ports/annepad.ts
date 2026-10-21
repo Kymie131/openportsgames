@@ -21,6 +21,11 @@ export const annepad: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["pokemon-stadium-recomp","pokemon-stadium-1","pokemon-stadium-2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/70/Pokemonstadiumbox.jpg",
+    alt: "Pokémon Stadium (box art)",
+    credit: "Wikipedia",
+  },
   notes: "AnnePad: Pokémon Stadium for iPhone and iPad via static recompilation, with native Metal rendering, touch controls, persistent saves and ROM-free local builds. Latest release: v0.2.2.",
   notesEs: "AnnePad: Pokémon Stadium para iPhone y iPad mediante recompilación estática, con render nativo Metal, controles táctiles, guardado persistente y builds locales sin ROM. Última release: v0.2.2.",
 };

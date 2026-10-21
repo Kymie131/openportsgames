@@ -20,6 +20,11 @@ export const kenGriffeyJrSSlugfestPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/71/Ken_Griffey_Jr.%27s_Slugfest_cover.png",
+    alt: "Ken Griffey Jr.'s Slugfest (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Ken Griffey Jr.'s Slugfest (Nintendo, 1999) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Ken Griffey Jr.'s Slugfest (Nintendo, 1999) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

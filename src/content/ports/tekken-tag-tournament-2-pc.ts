@@ -20,6 +20,11 @@ export const tekkenTagTournament2Pc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5c/Tekken_TT2_console.png",
+    alt: "Tekken Tag Tournament 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Tekken Tag Tournament 2 (Bandai Namco, 2011) running on Windows through static recompilation. Latest release: v0.1.6. You need your own copy of the game.",
   notesEs: "Tekken Tag Tournament 2 (Bandai Namco, 2011) en Windows mediante recompilación estática. Última release: v0.1.6. Necesitas tu propia copia del juego.",
 };

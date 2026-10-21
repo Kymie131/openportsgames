@@ -21,6 +21,11 @@ export const maskpad: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["2ship2harkinian"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg",
+    alt: "The Legend of Zelda: Majora's Mask (box art)",
+    credit: "Wikipedia",
+  },
   notes: "The Legend of Zelda: Majora's Mask via 2 Ship 2 Harkinian, rebuilt for iPhone and iPad. Requires your own copy of the game. Latest release: v0.2.1.",
   notesEs: "The Legend of Zelda: Majora's Mask mediante 2 Ship 2 Harkinian, reconstruido para iPhone y iPad. Requiere tu propia copia del juego. Última release: v0.2.1.",
 };

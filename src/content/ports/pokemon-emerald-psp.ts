@@ -25,6 +25,11 @@ export const pokemonEmeraldPsp: Port = {
     quote: "Built with the use of AI (Claude).",
   },
   originalSystems: ["Game Boy Advance"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f7/PokemonEmeraldBox.jpg",
+    alt: "Pokémon Emerald (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Pokémon Emerald (Nintendo, 2004) running natively on PSP through decompilation, with three save files, a file select and turbo mode. Bring your own game.",
   notesEs:

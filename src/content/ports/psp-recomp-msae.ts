@@ -20,6 +20,11 @@ export const pspRecompMsae: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f7/MotorStorm_Arctic_Edge.jpg",
+    alt: "MotorStorm: Arctic Edge (box art)",
+    credit: "Wikipedia",
+  },
   notes: "MotorStorm: Arctic Edge (Sony Computer Entertainment, 2009) for Android (static recompilation). Latest release: v0.2.0. Needs your own copy of the game.",
   notesEs: "MotorStorm: Arctic Edge (Sony Computer Entertainment, 2009) para Android (recompilación estática). Última release: v0.2.0. Necesita tu propia copia del juego.",
 };

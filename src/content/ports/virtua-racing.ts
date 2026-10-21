@@ -20,6 +20,11 @@ export const VirtuaRacing: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/12/Virtua_Racing_arcade_flyer.jpg",
+    alt: "Virtua Racing (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Complete static recompilation of Virtua Racing for the Sega 32X (optimization in progress).",
   notesEs:

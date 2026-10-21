@@ -20,6 +20,11 @@ export const skate3Port: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/84/Skate-3-Boxart.jpg",
+    alt: "Skate 3 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Skate 3 (Electronic Arts, 2010) for Android (source port). Latest release: v1.3.3. Needs your own copy of the game (Skate 3 ISO).",
   notesEs: "Skate 3 (Electronic Arts, 2010) para Android (port de código). Última release: v1.3.3. Necesita tu propia copia del juego.",
 };

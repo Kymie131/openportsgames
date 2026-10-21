@@ -21,6 +21,11 @@ export const smaRemasteredAndroid: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo Entertainment System"],
   related: ["super-mario-bros-remastered"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png",
+    alt: "Super Mario Bros. (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Android port of Super Mario Bros. Remastered by JoeMama and their team. Latest release: 9.",
   notesEs: "Port para Android de Super Mario Bros. Remastered de JoeMama y su equipo. Última release: 9.",
 };

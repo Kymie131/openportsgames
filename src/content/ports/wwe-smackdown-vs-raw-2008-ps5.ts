@@ -20,6 +20,11 @@ export const wweSmackdownVsRaw2008Ps5: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b4/SmackDown%21vsRAW2008.jpg",
+    alt: "WWE SmackDown vs. Raw 2008 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "WWE SmackDown vs. Raw 2008 (THQ, 2007) running on ps5 through static recompilation. Latest release: v1.0. You need your own copy of the game.",
   notesEs: "WWE SmackDown vs. Raw 2008 (THQ, 2007) en ps5 mediante recompilación estática. Última release: v1.0. Necesitas tu propia copia del juego.",
 };

@@ -20,6 +20,11 @@ export const fttaRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy Advance"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c4/FinalFantasyTacticsAdvanceGBACoverArtUS.jpg",
+    alt: "Final Fantasy Tactics Advance (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Final Fantasy Tactics Advance (Square, 2003) for Android (static recompilation). Latest release: v1.6. Needs your own copy of the game.",
   notesEs: "Final Fantasy Tactics Advance (Square, 2003) para Android (recompilación estática). Última release: v1.6. Necesita tu propia copia del juego.",
 };

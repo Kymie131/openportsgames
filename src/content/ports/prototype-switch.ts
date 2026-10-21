@@ -21,6 +21,11 @@ export const prototypeSwitch: Port = {
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["prototype-2-switch"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/10150/header.jpg",
+    alt: "Prototype (cover art)",
+    credit: "Steam",
+  },
   notes:
     "Prototype (Activision, 2009) running natively on Nintendo Switch through static recompilation of the Xbox 360 version. No game files are included.",
   notesEs:

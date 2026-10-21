@@ -21,6 +21,11 @@ export const silentHill2Sh2Nx: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/95/Silent_Hill_2.jpg",
+    alt: "Silent Hill 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Native PC port of Silent Hill 2 based on reverse engineering of the PlayStation 2 binary, with audio and rendering fixes. No game files are included.",
   notesEs: "Port nativo para PC de Silent Hill 2 basado en ingeniería inversa del binario de PlayStation 2, con correcciones de audio y renderizado. No incluye archivos del juego.",
 };

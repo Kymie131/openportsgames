@@ -21,6 +21,11 @@ export const goldeneye007Recomp: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["goldeneye-64-recompiled","goldeneye-007-xbla-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/13/GoldenEye_007_N64_cover.jpg",
+    alt: "GoldenEye 007 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "GoldenEye 007 (Nintendo 64, 1997) as a native Windows program, with mouselook, widescreen and modern controllers. Latest release: Goldeneye1.2.4.",
   notesEs: "GoldenEye 007 (Nintendo 64, 1997) como programa nativo de Windows, con mouselook, panorámico y mandos modernos. Última release: Goldeneye1.2.4.",
 };

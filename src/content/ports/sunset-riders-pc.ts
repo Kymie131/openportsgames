@@ -20,6 +20,11 @@ export const sunsetRidersPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Super Nintendo"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a1/Sunset_Riders_Arcade_Flyer.png",
+    alt: "Sunset Riders (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Sunset Riders (Konami, 1993) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Sunset Riders (Konami, 1993) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

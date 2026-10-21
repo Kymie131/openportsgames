@@ -20,6 +20,11 @@ export const conduit2Pc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Wii"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d8/Conduit-2-Boxart.png",
+    alt: "Conduit 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Conduit 2 (Sega, 2011) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Conduit 2 (Sega, 2011) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

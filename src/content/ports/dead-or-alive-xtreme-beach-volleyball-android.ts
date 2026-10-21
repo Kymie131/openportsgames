@@ -20,6 +20,11 @@ export const deadOrAliveXtremeBeachVolleyballAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8d/Doaxbvbox.jpg",
+    alt: "Dead or Alive: Xtreme Beach Volleyball (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Dead or Alive: Xtreme Beach Volleyball (Tecmo, 2003) for Android (source port). Latest release: v0.4.2-ru-USA6-Beach. Needs your own copy of the game.",
   notesEs: "Dead or Alive: Xtreme Beach Volleyball (Tecmo, 2003) para Android (port de código). Última release: v0.4.2-ru-USA6-Beach. Necesita tu propia copia del juego.",
 };

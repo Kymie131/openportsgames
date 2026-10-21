@@ -21,6 +21,11 @@ export const kartpad: Port = {
   sourceVerified: true,
   originalSystems: ["Wii"],
   related: ["mario-kart-wii-android"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png",
+    alt: "Mario Kart Wii (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Mario Kart Wii and Retro Rewind running natively on iPhone, iPad, Apple TV, Mac and Android. Built on the Wii decompilation work, not an emulator. Bring your own game. Latest release: v0.8.3.",
   notesEs: "Mario Kart Wii y Retro Rewind funcionando de forma nativa en iPhone, iPad, Apple TV, Mac y Android. Construido sobre el trabajo de decompilación de Wii, no es un emulador. Aporta tu propio juego. Última release: v0.8.3.",
 };

@@ -20,6 +20,11 @@ export const infamousSecondSonPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/34/Infamous_second_son_boxart.jpg",
+    alt: "inFAMOUS Second Son (box art)",
+    credit: "Wikipedia",
+  },
   notes: "inFAMOUS Second Son (Sucker Punch Productions, 2014) running on Windows through runtime layer. Latest release: v2026.10.19-d3995fe. You need your own copy of the game.",
   notesEs: "inFAMOUS Second Son (Sucker Punch Productions, 2014) en Windows mediante capa de ejecución. Última release: v2026.10.19-d3995fe. Necesitas tu propia copia del juego.",
 };

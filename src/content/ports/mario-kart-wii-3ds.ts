@@ -20,6 +20,11 @@ export const marioKartWii3ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Wii"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png",
+    alt: "Mario Kart Wii (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Mario Kart Wii (Nintendo, 2008) running on Nintendo 3DS through source port. Latest release: v0.5.2. You need your own copy of the game.",
   notesEs: "Mario Kart Wii (Nintendo, 2008) en Nintendo 3DS mediante port de código. Última release: v0.5.2. Necesitas tu propia copia del juego.",
 };

@@ -21,6 +21,11 @@ export const dk64RecompAndroid: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["dk64-recompiled"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/ae/DonkeyKong64CoverArt.jpg",
+    alt: "Donkey Kong 64 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Android port (NDK) of Donkey Kong 64: Recompiled, with RT64/Vulkan, N64ModernRuntime and SDL2. Bring your own NTSC-U 1.0 ROM. Latest release: v1.0.3-android-r7.",
   notesEs: "Port para Android (NDK) de Donkey Kong 64: Recompiled, con RT64/Vulkan, N64ModernRuntime y SDL2. Aporta tu propia ROM NTSC-U 1.0. Última release: v1.0.3-android-r7.",
 };

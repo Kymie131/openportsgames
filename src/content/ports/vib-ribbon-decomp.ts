@@ -22,6 +22,11 @@ export const vibRibbonDecomp: Port = {
   originalSystems: ["PlayStation"],
   related: ["vib-ribbon-recomp"],
   region: "PAL",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/ed/Vib-Ribbon.jpg",
+    alt: "Vib-Ribbon (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Work-in-progress decompilation of the PAL build of Vib-Ribbon (PlayStation, 1999).",
   notesEs: "Decompilación en curso de la versión PAL de Vib-Ribbon (PlayStation, 1999).",
 };

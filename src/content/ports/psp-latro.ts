@@ -24,6 +24,11 @@ export const pspLatro: Port = {
     "The original project was removed from GitHub after a DMCA takedown by Balatro's author. This fork only archives it and the port is limited: it is not the full game.",
   warningEs:
     "El proyecto original fue retirado de GitHub tras una reclamación DMCA del autor de Balatro. Este fork solo lo archiva y el port es limitado: no es el juego completo.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/89/Balatro_cover.jpg",
+    alt: "Balatro (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Limited fan-recreation of Balatro for the Sony PSP by InternalRegister, archived in this fork after the original repository was taken down. It requires files from your own copy of the game. Latest release: latest (2025-10-05).",
   notesEs:

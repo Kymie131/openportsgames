@@ -21,6 +21,11 @@ export const burnout3Takedawn: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["Xbox"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/93/Burnout_3_-_Takedown_Coverart.jpg",
+    alt: "Burnout 3: Takedown (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Static recompilation preview of Burnout 3: Takedown for Windows and Steam Deck, with support for a custom soundtrack. This is a separate project from the sp00nznet recompilation.",
   notesEs: "Vista previa de la recompilación estática de Burnout 3: Takedown para Windows y Steam Deck, con soporte de banda sonora personalizada. Es un proyecto distinto de la recompilación de sp00nznet.",
 };

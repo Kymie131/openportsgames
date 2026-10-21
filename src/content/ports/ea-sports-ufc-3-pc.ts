@@ -20,6 +20,11 @@ export const eaSportsUfc3Pc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/fc/EA_Sports_UFC_3_Official_Boxart.jpg",
+    alt: "EA Sports UFC 3 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "EA Sports UFC 3 (EA Vancouver, 2018) running on Windows through runtime layer. Latest release: ufc3-v0.1.6. You need your own copy of the game.",
   notesEs: "EA Sports UFC 3 (EA Vancouver, 2018) en Windows mediante capa de ejecución. Última release: ufc3-v0.1.6. Necesitas tu propia copia del juego.",
 };

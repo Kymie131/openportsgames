@@ -20,6 +20,11 @@ export const tekkenTagTournament2LinuxWiiUEdition: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Wii U"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5c/Tekken_TT2_console.png",
+    alt: "Tekken Tag Tournament 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Tekken Tag Tournament 2 (Bandai Namco, 2012) running on Linux through static recompilation. You need your own copy of the game.",
   notesEs: "Tekken Tag Tournament 2 (Bandai Namco, 2012) en Linux mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

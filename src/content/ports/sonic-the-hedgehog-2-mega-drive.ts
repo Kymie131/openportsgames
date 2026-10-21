@@ -20,6 +20,11 @@ export const sonicTheHedgehog2MegaDrive: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Sega Mega Drive / Genesis"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg",
+    alt: "Sonic the Hedgehog 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Sonic the Hedgehog 2 (Sega, 1992) running on genesis through static recompilation. Latest release: v0.8.3. You need your own copy of the game.",
   notesEs: "Sonic the Hedgehog 2 (Sega, 1992) en genesis mediante recompilación estática. Última release: v0.8.3. Necesitas tu propia copia del juego.",
 };

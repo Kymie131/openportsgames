@@ -20,6 +20,11 @@ export const scoobyDooNightOf100FrightsPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/9b/Scooby-Doo%21_Night_of_100_Frights_Coverart.png",
+    alt: "Scooby-Doo! Night of 100 Frights (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Scooby-Doo! Night of 100 Frights (THQ, 2002) running on Windows through static recompilation. Latest release: v1.0.2. You need your own copy of the game.",
   notesEs: "Scooby-Doo! Night of 100 Frights (THQ, 2002) en Windows mediante recompilación estática. Última release: v1.0.2. Necesitas tu propia copia del juego.",
 };

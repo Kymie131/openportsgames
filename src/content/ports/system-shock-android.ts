@@ -21,6 +21,11 @@ export const systemShockAndroid: Port = {
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
   related: ["shockolate"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/93/Sysshock.jpg",
+    alt: "System Shock (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Native Android/ARM64 port of System Shock based on Shockolate, with reproducible builds and open engineering notes. Bring your own copy of the game. Latest release: v1.0.0.",
   notesEs: "Port nativo para Android/ARM64 de System Shock basado en Shockolate, con builds reproducibles y notas de ingeniería abiertas. Aporta tu propia copia del juego. Última release: v1.0.0.",
 };

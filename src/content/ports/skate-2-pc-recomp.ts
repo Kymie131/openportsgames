@@ -20,6 +20,11 @@ export const skate2PcRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/bb/Skate_2_Cover.jpg",
+    alt: "Skate 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Community Windows port of the Xbox 360 version of Skate 2, built with ReXGlue, with controller support, adjustable rendering quality and unlocked FPS. Original game files required. Latest release: v0.1.1.",
   notesEs: "Port comunitario para Windows de la versión de Xbox 360 de Skate 2, con ReXGlue, soporte de mando, calidad de render ajustable y FPS desbloqueados. Requiere los archivos originales del juego. Última release: v0.1.1.",
 };

@@ -20,6 +20,11 @@ export const turokRageWarsRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f1/Ragewarsbox.jpg",
+    alt: "Turok: Rage Wars (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Native PC port of Turok: Rage Wars (Nintendo 64, 1999) made by statically recompiling the game with N64Recomp and running it on N64ModernRuntime. You need the game file from a licensed copy. Latest release: v0.1.2.",
   notesEs: "Port nativo a PC de Turok: Rage Wars (Nintendo 64, 1999) hecho recompilando estáticamente el juego con N64Recomp y ejecutándolo sobre N64ModernRuntime. Necesitas el archivo de una copia con licencia. Última release: v0.1.2.",
 };

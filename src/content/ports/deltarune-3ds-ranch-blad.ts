@@ -20,6 +20,11 @@ export const deltarune3dsRanchBlad: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1671210/header.jpg",
+    alt: "Deltarune (cover art)",
+    credit: "Steam",
+  },
   notes: "Deltarune (Toby Fox, 2018) running on Nintendo 3DS through source port. You need your own copy of the game.",
   notesEs: "Deltarune (Toby Fox, 2018) en Nintendo 3DS mediante port de código. Necesitas tu propia copia del juego.",
 };

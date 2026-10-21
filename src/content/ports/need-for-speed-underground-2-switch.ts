@@ -20,6 +20,11 @@ export const needForSpeedUnderground2Switch: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/10/Nfsu2-win-cover.jpg",
+    alt: "Need for Speed: Underground 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Need for Speed: Underground 2 (EA Black Box, 2004) running on Nintendo Switch through runtime layer. Latest release: v0.5.13. You need your own copy of the game.",
   notesEs: "Need for Speed: Underground 2 (EA Black Box, 2004) en Nintendo Switch mediante capa de ejecución. Última release: v0.5.13. Necesitas tu propia copia del juego.",
 };

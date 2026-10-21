@@ -21,6 +21,11 @@ export const hexenIi3ds: Port = {
   sourceVerified: true,
   originalSystems: ["Windows"],
   related: ["hexen-ii-classic-core-engines"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b1/HexenIIbox.jpg",
+    alt: "Hexen II (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Hexen II (id Software, 1997) ported natively to Nintendo 3DS from the original source code. You need the game data files to play.",
   notesEs:

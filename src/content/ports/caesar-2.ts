@@ -20,6 +20,11 @@ export const caesar2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/52/Caesar_II_Coverart.png",
+    alt: "Caesar II (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Portable continuation of the Caesar II (1995) source reconstruction: the game's own code was recovered from the original executable and builds natively on Linux, Windows, macOS and the browser. No DOSBox, no emulator. Latest release: v1.0.3.",
   notesEs: "Continuación portable de la reconstrucción del código de Caesar II (1995): el propio código del juego se recuperó del ejecutable original y compila de forma nativa en Linux, Windows, macOS y el navegador. Sin DOSBox ni emulador. Última release: v1.0.3.",
 };

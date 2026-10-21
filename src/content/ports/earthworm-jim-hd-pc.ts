@@ -20,6 +20,11 @@ export const earthwormJimHdPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/38480/header.jpg",
+    alt: "Earthworm Jim (cover art)",
+    credit: "Steam",
+  },
   notes: "Earthworm Jim (Interplay Entertainment, 2010) running on Windows and Linux through static recompilation. Latest release: v0.1.0. You need your own copy of the game.",
   notesEs: "Earthworm Jim (Interplay Entertainment, 2010) en Windows and Linux mediante recompilación estática. Última release: v0.1.0. Necesitas tu propia copia del juego.",
 };

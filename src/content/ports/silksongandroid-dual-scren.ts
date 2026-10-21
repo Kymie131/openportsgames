@@ -20,6 +20,11 @@ export const silksongandroidDualScren: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/05/Silksong.jpg",
+    alt: "Hollow Knight: Silksong (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Hollow Knight: Silksong (Team Cherry, 2025) for Android (source port). Latest release: v2.0.0. Needs your own copy of the game (Need Linux Game Files).",
   notesEs: "Hollow Knight: Silksong (Team Cherry, 2025) para Android (port de código). Última release: v2.0.0. Necesita tu propia copia del juego.",
 };

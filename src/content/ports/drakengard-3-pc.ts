@@ -20,6 +20,11 @@ export const drakengard3Pc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 3"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8a/Drakengard_3_boxart.png",
+    alt: "Drakengard 3 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Drakengard 3 (Access Games, 2013) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Drakengard 3 (Access Games, 2013) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

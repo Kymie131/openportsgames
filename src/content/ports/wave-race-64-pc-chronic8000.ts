@@ -20,6 +20,11 @@ export const waveRace64PcChronic8000: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e6/Wave_Race_64_Coverart.png",
+    alt: "Wave Race 64 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Wave Race 64 (Nintendo, 1996) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Wave Race 64 (Nintendo, 1996) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

@@ -21,6 +21,11 @@ export const evolandGbDemake: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/233470/header.jpg",
+    alt: "Evoland (cover art)",
+    credit: "Steam",
+  },
   notes: "Evoland (Shiro Games, 2019) running on gb through source port. You need your own copy of the game.",
   notesEs: "Evoland (Shiro Games, 2019) en gb mediante port de código. Necesitas tu propia copia del juego.",
 };

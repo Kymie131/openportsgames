@@ -20,6 +20,11 @@ export const daytonaUsa3dsPcAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Arcade"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c2/Daytona_USA_arcade_flyer.jpg",
+    alt: "Daytona USA (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Daytona USA (Sega, 1994) running on Nintendo 3DS and Windows and Android through source port. You need your own copy of the game.",
   notesEs: "Daytona USA (Sega, 1994) en Nintendo 3DS and Windows and Android mediante port de código. Necesitas tu propia copia del juego.",
 };

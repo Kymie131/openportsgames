@@ -20,6 +20,11 @@ export const legoDimensionsPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/ff/Lego_Dimensions_PS4_Box_Cover.jpg",
+    alt: "LEGO Dimensions (box art)",
+    credit: "Wikipedia",
+  },
   notes: "LEGO Dimensions (TT Games, 2015) running on Windows through runtime layer. Latest release: v1.2. You need your own copy of the game.",
   notesEs: "LEGO Dimensions (TT Games, 2015) en Windows mediante capa de ejecución. Última release: v1.2. Necesitas tu propia copia del juego.",
 };

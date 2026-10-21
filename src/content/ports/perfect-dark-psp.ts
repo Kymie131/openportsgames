@@ -21,6 +21,11 @@ export const perfectDarkPsp: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["perfect-dark-port","perfect-dark-android"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg",
+    alt: "Perfect Dark (box art)",
+    credit: "Wikipedia",
+  },
   notes: "PSP port of Perfect Dark (Nintendo 64, 2000) based on the PC port, playable from start to finish at a framerate close to the N64, with native GE rendering. You build it with your own matching ROM.",
   notesEs: "Port para PSP de Perfect Dark (Nintendo 64, 2000) basado en el port de PC, jugable de principio a fin y con una tasa de fotogramas cercana a la de N64, con render nativo por la GE. Se compila con tu propia ROM compatible.",
 };

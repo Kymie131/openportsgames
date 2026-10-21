@@ -20,6 +20,11 @@ export const DrBrainActionReaction: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c5/Dr._Brain_-_Action_Reaction_Coverart.png",
+    alt: "Dr. Brain Action Reaction (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Decompiled Assets From Dr Brain Action Reaction (1999).",
   notesEs: "Recursos decompilados de Dr. Brain: Action Reaction (1999).",
 };

@@ -20,6 +20,11 @@ export const galaxyOnFire2UnityRemake: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/212010/header.jpg",
+    alt: "Galaxy on Fire 2™ Full HD (cover art)",
+    credit: "Steam",
+  },
   notes: "Galaxy on Fire 2™ Full HD (Fishlabs, 2009) for Android (source port). Latest release: 2026.10.18. Needs your own copy of the game.",
   notesEs: "Galaxy on Fire 2™ Full HD (Fishlabs, 2009) para Android (port de código). Última release: 2026.10.18. Necesita tu propia copia del juego.",
 };

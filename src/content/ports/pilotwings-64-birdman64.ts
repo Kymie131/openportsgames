@@ -21,6 +21,11 @@ export const pilotwings64Birdman64: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["pilotwings-64-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/94/Pilotwings_64_box.jpg",
+    alt: "Pilotwings 64 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Pilotwings 64 (Nintendo 64, 1996) as a native PC game for Windows and Linux: widescreen, 144 Hz and beyond, and gamepad support. Bring your own ROM; no emulator involved. Latest release: v1.3.0.",
   notesEs: "Pilotwings 64 (Nintendo 64, 1996) como juego nativo de PC para Windows y Linux: panorámico, 144 Hz o más y soporte de mando. Aporta tu propia ROM; sin emulador. Última release: v1.3.0.",
 };

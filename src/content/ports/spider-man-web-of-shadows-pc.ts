@@ -20,6 +20,11 @@ export const spiderManWebOfShadowsPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/48/Web_of_shadows_boxart.jpg",
+    alt: "Spider-Man: Web of Shadows (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Spider-Man: Web of Shadows (Activision, 2008) running on Windows through static recompilation. Latest release: v2.0.0. You need your own copy of the game.",
   notesEs: "Spider-Man: Web of Shadows (Activision, 2008) en Windows mediante recompilación estática. Última release: v2.0.0. Necesitas tu propia copia del juego.",
 };

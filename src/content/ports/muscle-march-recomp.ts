@@ -20,6 +20,11 @@ export const muscleMarchRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Wii"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c7/Muscle_March_Coverart.png",
+    alt: "Muscle March (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Unofficial native PC port of Muscle March (WiiWare, 2009) by static recompilation for macOS, Linux, Steam Deck and Windows. Beta: it plays the whole game but is lightly tested. Requires your own copy. Latest tag: v0.1.0-beta.5.",
   notesEs: "Port nativo a PC no oficial de Muscle March (WiiWare, 2009) mediante recompilación estática para macOS, Linux, Steam Deck y Windows. Beta: se juega entero pero está poco probado. Requiere tu propia copia. Último tag: v0.1.0-beta.5.",
 };

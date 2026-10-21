@@ -20,6 +20,11 @@ export const diddyKongRacingGoldenballoon: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/72/Diddy_Kong_Racing_Cover_Art.png",
+    alt: "Diddy Kong Racing (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Golden Balloon: native Windows and browser port of Diddy Kong Racing (Nintendo 64, 1997) built from the game's decompilation. Bring your own ROM. Latest release: v1.8.0.",
   notesEs: "Golden Balloon: port nativo para Windows y navegador de Diddy Kong Racing (Nintendo 64, 1997) construido a partir de la decompilación del juego. Aporta tu propia ROM. Última release: v1.8.0.",
 };

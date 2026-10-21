@@ -21,6 +21,11 @@ export const demonsSoulsPs5Pc: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["PlayStation 5"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/91/Demon%27s_Souls_Cover.jpg",
+    alt: "Demon's Souls (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Native PC runtime for the Demon's Souls remake: the PS5 x86-64 binaries run directly on the CPU, with graphics translated to Vulkan and a 60/120 FPS target. The project is in development and ships no game files; you need your own copy.",
   notesEs: "Runtime nativo para PC del remake de Demon's Souls: los binarios x86-64 de PS5 corren directamente en la CPU, con los gráficos traducidos a Vulkan y objetivo de 60/120 FPS. El proyecto está en desarrollo y no incluye archivos del juego; necesitas tu propia copia.",
 };

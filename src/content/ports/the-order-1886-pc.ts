@@ -20,6 +20,11 @@ export const theOrder1886Pc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/00/The_Order_1886_Cover_Art.png",
+    alt: "The Order: 1886 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "The Order: 1886 (Ready at Dawn, 2015) running on Windows through runtime layer. You need your own copy of the game.",
   notesEs: "The Order: 1886 (Ready at Dawn, 2015) en Windows mediante capa de ejecución. Necesitas tu propia copia del juego.",
 };

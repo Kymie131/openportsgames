@@ -20,6 +20,11 @@ export const harvestMoon64PcAiTddLabs: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6a/Harvest_Moon_64_Coverart.png",
+    alt: "Harvest Moon 64 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Harvest Moon 64 (Natsume, 1999) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Harvest Moon 64 (Natsume, 1999) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

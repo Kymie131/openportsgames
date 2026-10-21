@@ -20,6 +20,11 @@ export const starshipAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/63/StarFox64_N64_Game_Box.jpg",
+    alt: "Star Fox 64 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Star Fox 64 (Nintendo, 1997) for Android (source port). Latest release: v2.0.0. Needs your own copy of the game (Star Fox 64 (USA) (Rev 1).z64).",
   notesEs: "Star Fox 64 (Nintendo, 1997) para Android (port de código). Última release: v2.0.0. Necesita tu propia copia del juego.",
 };

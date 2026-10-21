@@ -21,6 +21,11 @@ export const mother3RecompAndroid: Port = {
   sourceVerified: true,
   originalSystems: ["Game Boy Advance"],
   related: ["mother-3-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/ee/Deluxe_package.jpg",
+    alt: "MOTHER 3 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "MOTHER 3 (Game Boy Advance, 2006) for Windows, Linux and Android, with support for the fan translation patches. Bring your own ROM. Latest release: v1.0.6.",
   notesEs: "MOTHER 3 (Game Boy Advance, 2006) para Windows, Linux y Android, con soporte de los parches de traducción de los fans. Aporta tu propia ROM. Última release: v1.0.6.",
 };

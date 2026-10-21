@@ -20,6 +20,11 @@ export const sm64coopdxAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
+    alt: "Super Mario 64 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Super Mario 64 (Nintendo, 1996) for Android (source port). Latest release: Av1.5.1. Needs your own copy of the game (Super Mario 64 (USA).z64).",
   notesEs: "Super Mario 64 (Nintendo, 1996) para Android (port de código). Última release: Av1.5.1. Necesita tu propia copia del juego.",
 };

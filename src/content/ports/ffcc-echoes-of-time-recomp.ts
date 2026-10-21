@@ -20,6 +20,11 @@ export const ffccEchoesOfTimeRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo DS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/15/CC_Echoes_of_Time_cover_art.jpg",
+    alt: "Final Fantasy Crystal Chronicles: Echoes of Time (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Native PC port of Final Fantasy Crystal Chronicles: Echoes of Time (Nintendo DS, 2009) by static recompilation: the ARM code is translated to C and compiled on your PC, not emulated. Bring your own ROM. Latest tag: v0.3.1-alpha.",
   notesEs: "Port nativo a PC de Final Fantasy Crystal Chronicles: Echoes of Time (Nintendo DS, 2009) por recompilación estática: el código ARM se traduce a C y se compila en tu PC, no se emula. Aporta tu propia ROM. Último tag: v0.3.1-alpha.",
 };

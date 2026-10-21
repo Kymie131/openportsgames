@@ -20,6 +20,11 @@ export const twilightPrincessSwitchAlekSEdition: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0e/The_Legend_of_Zelda_Twilight_Princess_Game_Cover.jpg",
+    alt: "The Legend of Zelda: Twilight Princess (box art)",
+    credit: "Wikipedia",
+  },
   notes: "The Legend of Zelda: Twilight Princess (Nintendo, 2006) running on Nintendo Switch through static recompilation. Latest release: v1.0.0-beta.2. You need your own copy of the game.",
   notesEs: "The Legend of Zelda: Twilight Princess (Nintendo, 2006) en Nintendo Switch mediante recompilación estática. Última release: v1.0.0-beta.2. Necesitas tu propia copia del juego.",
 };

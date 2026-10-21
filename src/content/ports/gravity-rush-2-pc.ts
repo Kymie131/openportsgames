@@ -20,6 +20,11 @@ export const gravityRush2Pc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/94/Gravity_Rush_2.jpg",
+    alt: "Gravity Rush 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Gravity Rush 2 (SIE Japan Studio, 2017) running on Windows through runtime layer. Latest release: v2026.10.17-fd637d0. You need your own copy of the game.",
   notesEs: "Gravity Rush 2 (SIE Japan Studio, 2017) en Windows mediante capa de ejecución. Última release: v2026.10.17-fd637d0. Necesitas tu propia copia del juego.",
 };

@@ -20,6 +20,11 @@ export const _2Ship2HarkinianAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg",
+    alt: "The Legend of Zelda: Majora's Mask (box art)",
+    credit: "Wikipedia",
+  },
   notes: "The Legend of Zelda: Majora's Mask (Nintendo, 2000) for Android (source port). Latest release: v5.0.1-android.2. Needs your own copy of the game (Legend of Zelda, The - Majora's Mask (USA).z64).",
   notesEs: "The Legend of Zelda: Majora's Mask (Nintendo, 2000) para Android (port de código). Última release: v5.0.1-android.2. Necesita tu propia copia del juego.",
 };

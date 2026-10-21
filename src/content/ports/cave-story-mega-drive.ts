@@ -21,6 +21,11 @@ export const caveStoryMegaDrive: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/83/Cave_Story_title_screen.png",
+    alt: "Cave Story (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Cave Story (Studio Pixel, 2025) running on genesis through source port. Latest release: v0.8.8. You need your own copy of the game.",
   notesEs: "Cave Story (Studio Pixel, 2025) en genesis mediante port de código. Última release: v0.8.8. Necesitas tu propia copia del juego.",
 };

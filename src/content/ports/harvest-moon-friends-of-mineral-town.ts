@@ -20,6 +20,11 @@ export const HarvestMoonFriendsOfMineralTown: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7a/Harvest_Moon-_FoMT.jpg",
+    alt: "Harvest Moon: Friends Of Mineral Town (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Decompilation of Harvest Moon (Story of Seasons): Friends of Mineral Town.",
   notesEs: "Decompilación de Harvest Moon (Story of Seasons): Friends of Mineral Town.",
 };

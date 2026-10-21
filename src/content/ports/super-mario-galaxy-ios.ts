@@ -21,6 +21,11 @@ export const superMarioGalaxyIos: Port = {
   sourceVerified: true,
   originalSystems: ["Wii"],
   related: ["petari", "super-mario-galaxy-nebula", "super-mario-galaxy-android"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/76/SuperMarioGalaxy.jpg",
+    alt: "Super Mario Galaxy (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "GalaxyPad: Super Mario Galaxy (Wii, 2007) native for iOS, iPadOS and macOS, with native ARM64 game code and a Metal renderer. Experimental preview. Latest release: v0.2.2.",
   notesEs:

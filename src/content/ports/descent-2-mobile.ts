@@ -20,6 +20,11 @@ export const descent2Mobile: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a9/Descent_II_cover_art.png",
+    alt: "Descent II (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Descent II (Interplay Entertainment, 1996) for Android (source port). Needs your own copy of the game.",
   notesEs: "Descent II (Interplay Entertainment, 1996) para Android (port de código). Necesita tu propia copia del juego.",
 };

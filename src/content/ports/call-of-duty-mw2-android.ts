@@ -21,6 +21,11 @@ export const callOfDutyMw2Android: Port = {
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["call-of-duty-mw2-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/52/Call_of_Duty_Modern_Warfare_2_%282009%29_cover.png",
+    alt: "Call of Duty: Modern Warfare 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Call of Duty: Modern Warfare 2 (2009, Xbox 360) recompiled ahead-of-time into native code for Android (ARM64), Linux and Windows (x86-64), with Vulkan rendering, touchscreen and controller input. Not an emulator; it requires user-supplied game files. Experimental. Latest release: v0.0.2 (APK).",
   notesEs:

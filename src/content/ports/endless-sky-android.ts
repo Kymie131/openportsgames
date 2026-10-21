@@ -20,6 +20,11 @@ export const endlessSkyAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/404410/header.jpg",
+    alt: "Endless Sky (cover art)",
+    credit: "Steam",
+  },
   notes: "Endless Mobile: fork of the open-source game Endless Sky that adds Android support plus touchscreen and interface changes. Distributed through F-Droid as com.github.thewierdnut.endless_mobile; CI also publishes debug APKs. The game itself is free software, so no commercial copy is required.",
   notesEs: "Endless Mobile: fork del juego de código abierto Endless Sky que añade soporte de Android junto con cambios táctiles y de interfaz. Se distribuye en F-Droid como com.github.thewierdnut.endless_mobile; la CI también publica APKs de depuración. El juego es software libre, así que no hace falta una copia comercial.",
 };

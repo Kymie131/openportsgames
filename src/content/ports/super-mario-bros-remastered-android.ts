@@ -20,6 +20,11 @@ export const superMarioBrosRemasteredAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo Entertainment System"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png",
+    alt: "Super Mario Bros. (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Super Mario Bros. (Nintendo, 1985) for Android (source port). Latest release: 9. Needs your own copy of the game (Super Mario Bros. (World).nes).",
   notesEs: "Super Mario Bros. (Nintendo, 1985) para Android (port de código). Última release: 9. Necesita tu propia copia del juego.",
 };

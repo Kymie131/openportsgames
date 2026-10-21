@@ -20,6 +20,11 @@ export const colinMcRaeRally2Decomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/9e/Colin_McRae_Rally_2_cover.jpg",
+    alt: "Colin McRae Rally 2.0 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Work-in-progress decompilation of Colin McRae Rally 2.0 (PC, 2000), using reccmp to verify functions and globals. Early stage. No release.",
   notesEs: "Decompilación en curso de Colin McRae Rally 2.0 (PC, 2000), usando reccmp para verificar funciones y globales. Fase inicial. Sin release.",
 };

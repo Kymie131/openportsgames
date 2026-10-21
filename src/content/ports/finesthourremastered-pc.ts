@@ -21,6 +21,11 @@ export const finesthourremasteredPc: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["Xbox"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/31/Codfhbox.jpg",
+    alt: "Call of Duty: Finest Hour (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Static recompilation of Call of Duty: Finest Hour (Xbox) with Direct3D 12, mouse and keyboard, up to 360 FPS, widescreen and optional remastered graphics. Bring your own game.",
   notesEs: "Recompilación estática de Call of Duty: Finest Hour (Xbox) con Direct3D 12, ratón y teclado, hasta 360 FPS, pantalla ancha y gráficos remasterizados opcionales. Aporta tu propia copia del juego.",
 };

@@ -20,6 +20,11 @@ export const titanicGodot30thAnniversaryEdition: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/785480/header.jpg",
+    alt: "Titanic: Adventure Out of Time (cover art)",
+    credit: "Steam",
+  },
   notes: "Titanic: Adventure Out of Time (Cyberflix, 1996) for Android (source port). Latest release: v0.6.0. Needs your own copy of the game.",
   notesEs: "Titanic: Adventure Out of Time (Cyberflix, 1996) para Android (port de código). Última release: v0.6.0. Necesita tu propia copia del juego.",
 };

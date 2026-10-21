@@ -20,6 +20,11 @@ export const superMarioBrosWonderRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a3/Mariowonder.png",
+    alt: "Super Mario Bros. Wonder (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Super Mario Bros. Wonder (Nintendo, 2023) for Android (static recompilation). Needs your own copy of the game.",
   notesEs: "Super Mario Bros. Wonder (Nintendo, 2023) para Android (recompilación estática). Necesita tu propia copia del juego.",
 };

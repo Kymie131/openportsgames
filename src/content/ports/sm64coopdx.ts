@@ -21,6 +21,11 @@ export const sm64coopdx: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["sm64ex","sm64plus"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
+    alt: "Super Mario 64 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Online multiplayer for the Super Mario 64 PC port that synchronises every entity and level for several players at once, with an extended Lua API for mods. Official continuation of the earlier sm64ex-coop project; release v1.5.1 ships Windows, Linux, macOS and SteamOS builds.",
   notesEs: "Multijugador online para el port de PC de Super Mario 64 que sincroniza todas las entidades y niveles para varios jugadores a la vez, con una API Lua ampliada para mods. Continuación oficial del anterior proyecto sm64ex-coop; la release v1.5.1 publica builds para Windows, Linux, macOS y SteamOS.",
 };

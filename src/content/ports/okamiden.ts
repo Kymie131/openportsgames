@@ -20,6 +20,11 @@ export const Okamiden: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo DS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/83/Okamiden-title.jpg",
+    alt: "Ōkamiden (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Decompilation of Okamiden (U) for the Nintendo DS.",
   notesEs: "Decompilación de Okamiden (U) para Nintendo DS.",
 };

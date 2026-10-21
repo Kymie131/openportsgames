@@ -21,6 +21,11 @@ export const marvelNemesisRecompPc: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["Xbox"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/19/Marvel_Nemesis.jpg",
+    alt: "Marvel Nemesis: Rise of the Imperfects (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Alpha static recompilation of Marvel Nemesis: Rise of the Imperfects, with graphics options, native PC settings and local Versus. Source-only; bring your own game.",
   notesEs: "Recompilación estática en alpha de Marvel Nemesis: Rise of the Imperfects, con opciones gráficas, ajustes nativos de PC y Versus local. Solo código; aporta tu propia copia del juego.",
 };

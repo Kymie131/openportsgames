@@ -20,6 +20,11 @@ export const rott94: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/358410/header.jpg",
+    alt: "Rise of the Triad: Dark War (cover art)",
+    credit: "Steam",
+  },
   notes: "Rise of the Triad: Dark War (Apogee Software, 1994) for Android (source port). Needs your own copy of the game (DARKWAR.RTC, DARKWAR.RTL, DARKWAR.WAD, REMOTE1.RTS, HUNTBGIN.RTL).",
   notesEs: "Rise of the Triad: Dark War (Apogee Software, 1994) para Android (port de código). Necesita tu propia copia del juego.",
 };

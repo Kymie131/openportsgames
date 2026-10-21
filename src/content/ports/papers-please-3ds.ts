@@ -20,6 +20,11 @@ export const papersPlease3ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/239030/header.jpg",
+    alt: "Papers, Please (cover art)",
+    credit: "Steam",
+  },
   notes: "Papers, Please (3909, 2013) running on Nintendo 3DS through source port. You need your own copy of the game.",
   notesEs: "Papers, Please (3909, 2013) en Nintendo 3DS mediante port de código. Necesitas tu propia copia del juego.",
 };

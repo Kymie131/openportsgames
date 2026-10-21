@@ -20,6 +20,11 @@ export const superPaperMarioPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Wii"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c9/Super_Paper_Mario_cover.jpg",
+    alt: "Super Paper Mario (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Super Paper Mario (Intelligent Systems, 2007) running on Windows through static recompilation. Latest release: v1.0.3. You need your own copy of the game.",
   notesEs: "Super Paper Mario (Intelligent Systems, 2007) en Windows mediante recompilación estática. Última release: v1.0.3. Necesitas tu propia copia del juego.",
 };

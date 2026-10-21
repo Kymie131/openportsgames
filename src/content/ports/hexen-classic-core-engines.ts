@@ -20,6 +20,11 @@ export const hexenClassicCoreEngines: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/3d/Hexenbox.jpg",
+    alt: "Hexen: Beyond Heretic (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Hexen: Beyond Heretic (Raven Software, 1995) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (HEXEN.WAD).",
   notesEs: "Hexen: Beyond Heretic (Raven Software, 1995) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
 };

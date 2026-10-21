@@ -20,6 +20,11 @@ export const superMario64DsDecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo DS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/12/Super_Mario_64_DS_Coverart.png",
+    alt: "Super Mario 64 DS (box art)",
+    credit: "Wikipedia",
+  },
   notes: "From-scratch, byte-matching decompilation of Super Mario 64 DS (Nintendo DS, 2004) into C/C++, with a live progress atlas and matching tools. The repository has no ROM or Nintendo assets; a PC port is distributed separately.",
   notesEs: "Decompilación desde cero, byte-matching, de Super Mario 64 DS (Nintendo DS, 2004) a C/C++, con atlas de progreso y herramientas de matching. El repositorio no incluye ROM ni assets de Nintendo; el port a PC se distribuye aparte.",
 };

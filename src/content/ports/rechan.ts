@@ -20,6 +20,11 @@ export const rechan: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e6/JackieChanStuntmaster.jpg",
+    alt: "Jackie Chan: Stuntmaster (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Jackie Chan: Stuntmaster (Sony Computer Entertainment, 2000) for Android (source port). Latest release: build-44. Needs your own copy of the game.",
   notesEs: "Jackie Chan: Stuntmaster (Sony Computer Entertainment, 2000) para Android (port de código). Última release: build-44. Necesita tu propia copia del juego.",
 };

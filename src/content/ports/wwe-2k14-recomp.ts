@@ -20,6 +20,11 @@ export const wwe2k14Recomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/ec/WWE_2K14_cover.jpg",
+    alt: "WWE 2K14 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Unofficial native PC port of WWE 2K14 (Xbox 360, 2013) by static recompilation, 60 FPS and up to 4K. Based on the WWE '13 Recomp and ReXGlue. Bring your own game. Latest release: v1.1.",
   notesEs: "Port nativo a PC no oficial de WWE 2K14 (Xbox 360, 2013) mediante recompilación estática, 60 FPS y hasta 4K. Basado en el WWE '13 Recomp y ReXGlue. Aporta tu propio juego. Última release: v1.1.",
 };

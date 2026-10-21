@@ -21,6 +21,11 @@ export const linksAwakeningDxPortable: Port = {
   sourceVerified: true,
   originalSystems: ["Game Boy Color"],
   related: ["links-awakening-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5c/The_Legend_of_Zelda_-_Link%27s_Awakening_DX_box_art.png",
+    alt: "The Legend of Zelda: Link's Awakening DX (box art)",
+    credit: "Wikipedia",
+  },
   notes: "The Legend of Zelda: Link's Awakening DX statically recompiled to native C and ported to PlayStation 4, PlayStation 3, Nintendo 3DS and Wii, each with its own backend. No ROM included.",
   notesEs: "The Legend of Zelda: Link's Awakening DX recompilado estáticamente a C nativo y portado a PlayStation 4, PlayStation 3, Nintendo 3DS y Wii, cada uno con su propio backend. No incluye la ROM.",
 };

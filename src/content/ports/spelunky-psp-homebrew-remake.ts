@@ -21,6 +21,11 @@ export const spelunkyPspHomebrewRemake: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5b/Spelunky.jpg",
+    alt: "Spelunky (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Spelunky (Derek Yu, 2008) running on PlayStation Portable through source port. Latest release: v0.5. You need your own copy of the game.",
   notesEs: "Spelunky (Derek Yu, 2008) en PlayStation Portable mediante port de código. Última release: v0.5. Necesitas tu propia copia del juego.",
 };

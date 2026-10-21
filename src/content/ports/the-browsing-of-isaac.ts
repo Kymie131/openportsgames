@@ -21,6 +21,11 @@ export const theBrowsingOfIsaac: Port = {
   sourceVerified: true,
   originalSystems: ["Windows"],
   related: ["the-binding-of-isaac-repentance"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1426300/header.jpg",
+    alt: "The Binding of Isaac: Repentance+ (cover art)",
+    credit: "Steam",
+  },
   notes: "The Binding of Isaac: Repentance+ recompiled to WebAssembly and playable in a browser tab (tboi.online). Requires your own copy of the game.",
   notesEs: "The Binding of Isaac: Repentance+ recompilado a WebAssembly y jugable en una pestaña del navegador (tboi.online). Requiere tu propia copia del juego.",
 };

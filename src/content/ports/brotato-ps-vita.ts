@@ -20,6 +20,11 @@ export const brotatoPsVita: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/11/Brotato_cover.jpg",
+    alt: "Brotato (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Brotato (Blobfish, 2023) running on PlayStation Vita through source port. You need your own copy of the game.",
   notesEs: "Brotato (Blobfish, 2023) en PlayStation Vita mediante port de código. Necesitas tu propia copia del juego.",
 };

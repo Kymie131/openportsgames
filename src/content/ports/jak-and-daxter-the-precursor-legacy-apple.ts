@@ -20,6 +20,11 @@ export const jakAndDaxterThePrecursorLegacyApple: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b6/Jak_and_Daxter_-_The_Precursor_Legacy_Coverart.png",
+    alt: "Jak and Daxter: The Precursor Legacy (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Jak and Daxter: The Precursor Legacy (Naughty Dog, 2001) running on iPhone and iPad and macOS through decompilation. Latest release: v0.1.0. You need your own copy of the game.",
   notesEs: "Jak and Daxter: The Precursor Legacy (Naughty Dog, 2001) en iPhone and iPad and macOS mediante decompilación. Última release: v0.1.0. Necesitas tu propia copia del juego.",
 };

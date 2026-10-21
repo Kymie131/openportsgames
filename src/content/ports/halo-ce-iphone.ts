@@ -21,6 +21,11 @@ export const haloCeIphone: Port = {
   sourceVerified: true,
   originalSystems: ["Xbox"],
   related: ["halo-ce-universal","halo-ce-web"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg",
+    alt: "Halo: Combat Evolved (box art)",
+    credit: "Wikipedia",
+  },
   notes: "HaloPad: Halo: Combat Evolved (Xbox, 2001) running natively on iPhone, iPad and Mac, built on OpenCE, the open-source decompilation engine. Online matches up to 128 players and Custom Edition servers; game data not included. Latest release: v0.3.10.",
   notesEs: "HaloPad: Halo: Combat Evolved (Xbox, 2001) nativo en iPhone, iPad y Mac, construido sobre OpenCE, el motor de decompilación de código abierto. Partidas online de hasta 128 jugadores y servidores de Custom Edition; no incluye los datos del juego. Última release: v0.3.10.",
 };

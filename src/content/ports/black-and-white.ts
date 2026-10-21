@@ -20,6 +20,11 @@ export const BlackAndWhite: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1998450/header.jpg",
+    alt: "Black and White (cover art)",
+    credit: "Steam",
+  },
   notes: "Decompilation of Black & White 1.",
   notesEs: "Decompilación de Black & White 1.",
 };

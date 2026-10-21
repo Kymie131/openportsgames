@@ -21,6 +21,11 @@ export const Zeldawwhdrecompandroid: Port = {
   sourceVerified: true,
   originalSystems: ["Wii U"],
   related: ["wind-waker-hd-recomp", "wind-waker-recomp", "switch-waker-hd"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
+    alt: "The Legend of Zelda: The Wind Waker HD (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Wind Waker HD recompiled for Android (native ARM + Vulkan, no emulator), enhanced: native widescreen, fixed shadows, pinch-to-zoom camera, phone-made touch controls with in-game icons, 60 fps interpolation and performance work. Bring your own game dump.",
   notesEs:

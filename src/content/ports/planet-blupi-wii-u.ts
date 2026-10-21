@@ -20,6 +20,11 @@ export const planetBlupiWiiU: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/84/Planet_Blupi_Cover.webp",
+    alt: "Planet Blupi (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Planet Blupi (Epsitec, 1997) running on Wii U through source port. You need your own copy of the game.",
   notesEs: "Planet Blupi (Epsitec, 1997) en Wii U mediante port de código. Necesitas tu propia copia del juego.",
 };

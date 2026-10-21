@@ -21,6 +21,11 @@ export const castlevaniaSotnDecomp: Port = {
   sourceVerified: true,
   originalSystems: ["PlayStation"],
   related: ["symphony-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg",
+    alt: "Castlevania: Symphony of the Night (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Work-in-progress matching decompilation of Castlevania: Symphony of the Night (PlayStation 1, PSP and Sega Saturn). Separate project from the recompilation already in the catalog.",
   notesEs: "Decompilación matching en curso de Castlevania: Symphony of the Night (PlayStation 1, PSP y Sega Saturn). Proyecto distinto de la recompilación que ya está en el catálogo.",
 };

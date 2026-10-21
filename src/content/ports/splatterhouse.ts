@@ -20,6 +20,11 @@ export const Splatterhouse: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/70/Splatterhouse_arcadeflyer.png",
+    alt: "Splatterhouse (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Decompilation of Splatterhouse (Other).",
   notesEs: "Decompilación de Splatterhouse (Other).",
 };

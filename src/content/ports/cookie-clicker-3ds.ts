@@ -20,6 +20,11 @@ export const cookieClicker3ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Other"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1454400/header.jpg",
+    alt: "Cookie Clicker (cover art)",
+    credit: "Steam",
+  },
   notes: "Cookie Clicker (Orteil, 2013) running on Nintendo 3DS through source port. Latest release: v1.6.0. You need your own copy of the game.",
   notesEs: "Cookie Clicker (Orteil, 2013) en Nintendo 3DS mediante port de código. Última release: v1.6.0. Necesitas tu propia copia del juego.",
 };

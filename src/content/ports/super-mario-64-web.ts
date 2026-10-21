@@ -20,6 +20,11 @@ export const superMario64Web: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
+    alt: "Super Mario 64 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Super Mario 64 (Nintendo, 1996) running on the web through reimplementation. Latest release: verson. You need your own copy of the game.",
   notesEs: "Super Mario 64 (Nintendo, 1996) en the web mediante reimplementación. Última release: verson. Necesitas tu propia copia del juego.",
 };

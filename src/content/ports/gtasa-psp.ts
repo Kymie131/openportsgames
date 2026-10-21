@@ -21,6 +21,11 @@ export const gtasaPsp: Port = {
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
   related: ["re-lcs","re3-android-evolved"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c4/GTASABOX.jpg",
+    alt: "Grand Theft Auto: San Andreas (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Work-in-progress port of Grand Theft Auto: San Andreas from PC to the PSP, based on the re3 reverse-engineered codebase. No release yet.",
   notesEs: "Port en desarrollo de Grand Theft Auto: San Andreas de PC a PSP, basado en el código reversado de re3. Sin release todavía.",
 };

@@ -20,6 +20,11 @@ export const bloodborneMacos: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
+    alt: "Bloodborne (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Bloodborne (FromSoftware, 2015) running on macOS through runtime layer. Latest release: mac-v0.5.2. You need your own copy of the game.",
   notesEs: "Bloodborne (FromSoftware, 2015) en macOS mediante capa de ejecución. Última release: mac-v0.5.2. Necesitas tu propia copia del juego.",
 };

@@ -20,6 +20,11 @@ export const shadowOfTheColossusCelosia: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f8/Shadow_of_the_Colossus_%282005%29_cover.jpg",
+    alt: "Shadow of the Colossus (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Shadow of the Colossus (Team Ico, 2005) running on macOS and PlayStation Vita through static recompilation. You need your own copy of the game.",
   notesEs: "Shadow of the Colossus (Team Ico, 2005) en macOS and PlayStation Vita mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

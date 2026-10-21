@@ -21,6 +21,11 @@ export const switchWakerHd: Port = {
   sourceVerified: true,
   originalSystems: ["Wii U"],
   related: ["wind-waker-hd-recomp","wind-waker-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
+    alt: "The Legend of Zelda: The Wind Waker HD (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Wind Waker HD (Wii U, 2013) statically recompiled for Nintendo Switch homebrew with a deko3d renderer. Requires your own game dump. Latest release: v0.4.7.",
   notesEs: "Wind Waker HD (Wii U, 2013) recompilado estáticamente para homebrew de Nintendo Switch con un render deko3d. Requiere tu propio volcado del juego. Última release: v0.4.7.",
 };

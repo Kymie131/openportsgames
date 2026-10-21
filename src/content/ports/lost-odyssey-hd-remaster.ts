@@ -21,6 +21,11 @@ export const lostOdysseyHdRemaster: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/09/Lost_Odyssey_cover.jpg",
+    alt: "Lost Odyssey (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Enhanced PC build of Lost Odyssey with HD textures, 60 FPS and audio fixes. The repository is archived, so treat it as a preserved release. Requires your own copy of the game.",
   notesEs: "Build mejorada para PC de Lost Odyssey con texturas HD, 60 FPS y correcciones de audio. El repositorio está archivado, así que funciona como release preservada. Requiere tu propia copia del juego.",
 };

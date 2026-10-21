@@ -20,6 +20,11 @@ export const zomdroidEtonedemid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/108600/header.jpg",
+    alt: "Project Zomboid (cover art)",
+    credit: "Steam",
+  },
   notes: "Project Zomboid (The Indie Stone, 2013) for Android (source port). Latest release: v1.9.0. Needs your own copy of the game (Game Files - 41.78.16 by Cc Inno).",
   notesEs: "Project Zomboid (The Indie Stone, 2013) para Android (port de código). Última release: v1.9.0. Necesita tu propia copia del juego.",
 };

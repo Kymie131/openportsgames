@@ -21,6 +21,11 @@ export const ballpad: Port = {
   sourceVerified: true,
   originalSystems: ["GameCube"],
   related: ["strikers","super-mario-strikers-decomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b3/Supermariostrikersbox.jpg",
+    alt: "Super Mario Strikers (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Super Mario Strikers native for iPhone and iPadOS (GameCube, 2005). Bring your own game. Latest release: v1.1.1.",
   notesEs: "Super Mario Strikers nativo para iPhone e iPadOS (GameCube, 2005). Aporta tu propio juego. Última release: v1.1.1.",
 };

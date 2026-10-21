@@ -20,6 +20,11 @@ export const hybridHeavenRecompiled: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/db/Hybridheaven.jpg",
+    alt: "Hybrid Heaven (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Hybrid Heaven (Konami, 1999) for Android (static recompilation). Latest release: v1.0.1. Needs your own copy of the game (Need USA Rom).",
   notesEs: "Hybrid Heaven (Konami, 1999) para Android (recompilación estática). Última release: v1.0.1. Necesita tu propia copia del juego.",
 };

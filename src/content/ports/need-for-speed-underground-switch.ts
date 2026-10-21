@@ -20,6 +20,11 @@ export const needForSpeedUndergroundSwitch: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/52/Need_for_Speed_Underground_cover.jpg",
+    alt: "Need for Speed: Underground (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Need for Speed: Underground (EA Black Box, 2003) running on Nintendo Switch through runtime layer. Latest release: v0.4.0. You need your own copy of the game.",
   notesEs: "Need for Speed: Underground (EA Black Box, 2003) en Nintendo Switch mediante capa de ejecución. Última release: v0.4.0. Necesitas tu propia copia del juego.",
 };

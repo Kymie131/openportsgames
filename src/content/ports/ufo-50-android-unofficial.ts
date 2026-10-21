@@ -20,6 +20,11 @@ export const ufo50AndroidUnofficial: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a6/UFO_50_cover.png",
+    alt: "UFO 50 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "UFO 50 (Mossmouth, 2024) for Android (source port). Needs your own copy of the game.",
   notesEs: "UFO 50 (Mossmouth, 2024) para Android (port de código). Necesita tu propia copia del juego.",
 };

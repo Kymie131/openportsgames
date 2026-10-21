@@ -20,6 +20,11 @@ export const battletanxPcBdragoncore: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/67/BattleTanx.jpg",
+    alt: "BattleTanx (box art)",
+    credit: "Wikipedia",
+  },
   notes: "BattleTanx (3DO, 1998) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "BattleTanx (3DO, 1998) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

@@ -21,6 +21,11 @@ export const defJamVendettaRecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f7/Def_Jam_Vendetta_-_Front_Cover_-_NTSC_-_Gamecube.jpg",
+    alt: "Def Jam Vendetta (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Native Windows port of the first Def Jam fighting game, rebuilt from the PlayStation 2 version. You need your own copy of the game disc.",
   notesEs: "Port nativo para Windows del primer juego de lucha de Def Jam, reconstruido desde la versión de PlayStation 2. Necesitas tu propia copia del disco.",
 };

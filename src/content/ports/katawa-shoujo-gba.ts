@@ -20,6 +20,11 @@ export const katawaShoujoGba: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/3068300/header.jpg",
+    alt: "Katawa Shoujo (cover art)",
+    credit: "Steam",
+  },
   notes: "Katawa Shoujo (Four Leaf Studios, 2012) running on gba through source port. Latest release: v0.4.11-workflow. You need your own copy of the game.",
   notesEs: "Katawa Shoujo (Four Leaf Studios, 2012) en gba mediante port de código. Última release: v0.4.11-workflow. Necesitas tu propia copia del juego.",
 };

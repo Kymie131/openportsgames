@@ -20,6 +20,11 @@ export const DuckGame: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/312530/header.jpg",
+    alt: "Duck Game (cover art)",
+    credit: "Steam",
+  },
   notes: "Duck Game decompiled & rebuilt with some added features,.",
   notesEs: "Duck Game decompilado y reconstruido, con algunas funciones añadidas.",
 };

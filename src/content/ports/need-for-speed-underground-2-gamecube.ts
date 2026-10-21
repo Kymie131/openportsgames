@@ -20,6 +20,11 @@ export const needForSpeedUnderground2Gamecube: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/10/Nfsu2-win-cover.jpg",
+    alt: "Need for Speed: Underground 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Need for Speed: Underground 2 (EA Black Box, 2004) running on Windows through decompilation. You need your own copy of the game.",
   notesEs: "Need for Speed: Underground 2 (EA Black Box, 2004) en Windows mediante decompilación. Necesitas tu propia copia del juego.",
 };

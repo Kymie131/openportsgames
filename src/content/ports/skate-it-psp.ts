@@ -20,6 +20,11 @@ export const skateItPsp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo DS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e3/Skate-it-box-cover.jpg",
+    alt: "Skate It (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Skate It (Electronic Arts, 2008) running on PlayStation Portable through source port. You need your own copy of the game.",
   notesEs: "Skate It (Electronic Arts, 2008) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
 };

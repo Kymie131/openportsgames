@@ -20,6 +20,11 @@ export const helltakerPsp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/de/Helltaker_Cover.jpg",
+    alt: "Helltaker (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Complete fan-made port (demake) of Helltaker and Examtaker for the Sony PSP with a native C engine, playtested on real hardware and running on ARK-4/ARK-5. Latest release: full-game-2.1.",
   notesEs: "Port completo hecho por fans (demake) de Helltaker y Examtaker para la PSP de Sony con un motor nativo en C, probado en hardware real y funcionando en ARK-4/ARK-5. Última release: full-game-2.1.",
 };

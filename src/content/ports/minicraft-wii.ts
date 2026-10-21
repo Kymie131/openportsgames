@@ -20,6 +20,11 @@ export const minicraftWii: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/d/db/Minicraft_Title_Screen.png",
+    alt: "Minicraft (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Minicraft (Notch, 2011) running on Wii through source port. You need your own copy of the game.",
   notesEs: "Minicraft (Notch, 2011) en Wii mediante port de código. Necesitas tu propia copia del juego.",
 };

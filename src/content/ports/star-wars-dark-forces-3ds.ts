@@ -20,6 +20,11 @@ export const starWarsDarkForces3ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/4f/Dark_Forces_box_cover.jpg",
+    alt: "Star Wars: Dark Forces (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Star Wars: Dark Forces (LucasArts, 1995) running on Nintendo 3DS through source port. Latest release: v1.0.0. You need your own copy of the game.",
   notesEs: "Star Wars: Dark Forces (LucasArts, 1995) en Nintendo 3DS mediante port de código. Última release: v1.0.0. Necesitas tu propia copia del juego.",
 };

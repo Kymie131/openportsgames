@@ -20,6 +20,11 @@ export const ecstaticaRecompiled: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b5/Ecstatica_Coverart.png",
+    alt: "Ecstatica (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Ecstatica Recompiled (Ecstatica I and II): a 64-bit native modernization of both ellipsoid survival games for Windows 10/11, with full HD support, modern controller support and enhanced music/artwork. Free, non-profit fan project. The README does not state the original platform, so the original system is left as Unknown. Pre-release: 1.0 Staging.",
   notesEs:

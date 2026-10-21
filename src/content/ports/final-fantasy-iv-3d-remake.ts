@@ -20,6 +20,11 @@ export const FinalFantasyIv3dRemake: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/312750/header.jpg",
+    alt: "Final Fantasy IV (3D Remake) (cover art)",
+    credit: "Steam",
+  },
   notes: "An open-source decompilation of Final Fantasy IV (3D Remake).",
   notesEs: "Decompilación de código abierto de Final Fantasy IV (3D Remake).",
 };

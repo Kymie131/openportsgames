@@ -21,6 +21,11 @@ export const castlevaniaSotnRecompSergiomanzur: Port = {
   sourceVerified: true,
   originalSystems: ["PlayStation"],
   related: ["castlevania-sotn-decomp","castlevania-sotn-recomp-nocturne"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg",
+    alt: "Castlevania: Symphony of the Night (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Recompilation project for Castlevania: Symphony of the Night (PS1, 1997) with Windows and Android builds. Bring your own disc. Latest release: android-v0.10.1b.",
   notesEs: "Proyecto de recompilación de Castlevania: Symphony of the Night (PS1, 1997) con builds de Windows y Android. Aporta tu propio disco. Última release: android-v0.10.1b.",
 };

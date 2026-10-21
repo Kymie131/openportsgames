@@ -20,6 +20,11 @@ export const digimonWorld2003Pc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/43/Digimonworld3boxart.jpg",
+    alt: "Digimon World 3 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Digimon World 3 (Bandai, 2002) running on Windows through decompilation. Latest release: v0.4.0. You need your own copy of the game.",
   notesEs: "Digimon World 3 (Bandai, 2002) en Windows mediante decompilación. Última release: v0.4.0. Necesitas tu propia copia del juego.",
 };

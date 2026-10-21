@@ -21,6 +21,11 @@ export const windowSmash: Port = {
   sourceVerified: true,
   wip: true,
   originalSystems: ["Nintendo Switch"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg",
+    alt: "Super Smash Bros. Ultimate (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Super Smash Bros. Ultimate (Nintendo, 2018) running natively on Windows, Linux and macOS through static recompilation. You need your own copy.",
   notesEs:

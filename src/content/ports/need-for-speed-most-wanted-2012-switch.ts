@@ -20,6 +20,11 @@ export const needForSpeedMostWanted2012Switch: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Other"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1262560/header.jpg",
+    alt: "Need for Speed: Most Wanted (cover art)",
+    credit: "Steam",
+  },
   notes: "Need for Speed: Most Wanted (Electronic Arts, 2012) running on Nintendo Switch through source port. You need your own copy of the game.",
   notesEs: "Need for Speed: Most Wanted (Electronic Arts, 2012) en Nintendo Switch mediante port de código. Necesitas tu propia copia del juego.",
 };

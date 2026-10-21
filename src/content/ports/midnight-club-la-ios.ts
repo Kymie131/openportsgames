@@ -21,6 +21,11 @@ export const midnightClubLaIos: Port = {
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["midnight-club-la-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/ea/Midnight_Club-Los_Angeles.jpg",
+    alt: "Midnight Club: Los Angeles (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Midnight Club: Los Angeles on iPhone and iPad: ARM64 static recompilation with native Metal rendering and an experimental 60 FPS patch. Bring your own game files. Latest release: v1.0.4.",
   notesEs: "Midnight Club: Los Angeles en iPhone y iPad: recompilación estática ARM64 con render nativo Metal y un parche experimental de 60 FPS. Aporta tus propios archivos del juego. Última release: v1.0.4.",
 };

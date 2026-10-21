@@ -20,6 +20,11 @@ export const SuperGhoulsNGhosts: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/35/GhoulsSNES_boxart.JPG",
+    alt: "Super Ghouls ‘n Ghosts (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Decompilation of Super Ghouls ‘n Ghosts (Other).",
   notesEs: "Decompilación de Super Ghouls ‘n Ghosts (Other).",
 };

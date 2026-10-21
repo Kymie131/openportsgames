@@ -21,6 +21,11 @@ export const hybridHeavenRecomp: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   aiDisclosure: {"source":"https://github.com/hunkstalker/hybrid-heaven-recomp","quote":"Unofficial AI native PC port of Hybrid Heaven"},
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/db/Hybridheaven.jpg",
+    alt: "Hybrid Heaven (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Unofficial AI native PC port of Hybrid Heaven (Nintendo 64, 1999) via static recompilation with N64Recomp, RT64 and N64ModernRuntime, featuring a purist UI. Windows, Linux and Steam Deck. Early phase. Latest release: v0.7.3.",
   notesEs: "Port nativo a PC no oficial y hecho con IA de Hybrid Heaven (Nintendo 64, 1999) mediante recompilación estática con N64Recomp, RT64 y N64ModernRuntime, con interfaz purista. Windows, Linux y Steam Deck. Fase temprana. Última release: v0.7.3.",
 };

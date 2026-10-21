@@ -20,6 +20,11 @@ export const mystDs: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6a/MystCover.png",
+    alt: "MYST (box art)",
+    credit: "Wikipedia",
+  },
   notes: "MYST (Broderbund, 1993) running on Nintendo DS through source port. Latest release: v1.0.0. You need your own copy of the game.",
   notesEs: "MYST (Broderbund, 1993) en Nintendo DS mediante port de código. Última release: v1.0.0. Necesitas tu propia copia del juego.",
 };

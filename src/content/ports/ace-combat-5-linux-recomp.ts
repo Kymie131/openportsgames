@@ -21,6 +21,11 @@ export const aceCombat5LinuxRecomp: Port = {
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
   related: ["ace-combat-5-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Ace_Combat_5_The_Unsung_War_Game_Cover.png",
+    alt: "Ace Combat 5: The Unsung War (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Static recompilation of Ace Combat 5: The Unsung War (USA) for Linux, presented as a Linux performance fork of the project. Requires Vulkan 1.2+. Latest release: v0.3.0.",
   notesEs: "Recompilación estática de Ace Combat 5: The Unsung War (USA) para Linux, presentada como fork de rendimiento para Linux del proyecto. Requiere Vulkan 1.2+. Última release: v0.3.0.",
 };

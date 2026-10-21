@@ -20,6 +20,11 @@ export const virtuaFighter2Recomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Arcade"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/01/Virtua-fighter-2-box.jpg",
+    alt: "Virtua Fighter 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Virtua Fighter 2 (Sega, arcade, Model 2, 1994) as a native PC game: the arcade's i960 program is recompiled to native code, with render scales up to 6x, widescreen and smooth motion at any refresh rate. Bring your own vf2.zip. Latest release: v0.1.9.",
   notesEs:

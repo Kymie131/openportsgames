@@ -20,6 +20,11 @@ export const renutAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/63/Banjo-Kazooie_Nuts_%26_Bolts_Game_Cover.jpg",
+    alt: "Banjo-Kazooie: Nuts & Bolts (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Banjo-Kazooie: Nuts & Bolts (Microsoft Game Studios, 2008) for Android (source port). Latest release: 0.4.0. Needs your own copy of the game.",
   notesEs: "Banjo-Kazooie: Nuts & Bolts (Microsoft Game Studios, 2008) para Android (port de código). Última release: 0.4.0. Necesita tu propia copia del juego.",
 };

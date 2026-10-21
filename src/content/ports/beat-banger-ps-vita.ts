@@ -20,6 +20,11 @@ export const beatBangerPsVita: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1813430/header.jpg",
+    alt: "Beat Banger (cover art)",
+    credit: "Steam",
+  },
   notes: "Beat Banger (Bunny Studio, 2023) running on PlayStation Vita through source port. Latest release: v0.99. You need your own copy of the game.",
   notesEs: "Beat Banger (Bunny Studio, 2023) en PlayStation Vita mediante port de código. Última release: v0.99. Necesitas tu propia copia del juego.",
 };

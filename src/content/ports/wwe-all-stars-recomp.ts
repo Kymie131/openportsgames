@@ -20,6 +20,11 @@ export const wweAllStarsRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/54/WWEAllStarsCoverArt.png",
+    alt: "WWE All Stars (box art)",
+    credit: "Wikipedia",
+  },
   notes: "WWE All Stars (Xbox 360, 2011) as a native port for windows via static recompilation, not an emulator. It ships no game code or data: bring your own copy. Latest release: v1.4.0.",
   notesEs: "WWE All Stars (Xbox 360, 2011) como port nativo para windows mediante recompilación estática, no un emulador. No incluye código ni datos del juego: aporta tu propia copia. Última release: v1.4.0.",
 };

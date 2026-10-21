@@ -21,6 +21,11 @@ export const haloReachRecomp: Port = {
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["halo-reach"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5c/Halo-_Reach_box_art.png",
+    alt: "Halo Reach (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Native PC port of Halo: Reach (Xbox 360, 2010) built by statically recompiling the original PowerPC executable to C++ with the ReXGlue SDK. Playable on Linux, work in progress on Windows. No game code or assets included.",
   notesEs: "Port nativo a PC de Halo: Reach (Xbox 360, 2010) mediante recompilación estática del ejecutable PowerPC original a C++ con el SDK ReXGlue. Jugable en Linux, en desarrollo en Windows. No incluye código ni assets del juego.",
 };

@@ -21,6 +21,11 @@ export const castlevaniaLegacyOfDarknessRecomp: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["castlevania-64-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/37/Castlevania_Legacy_of_Darkness.jpg",
+    alt: "Castlevania: Legacy of Darkness (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Castlevania: Legacy of Darkness (Nintendo 64, 1999) recompiled into a native executable with N64Recomp, with Windows and Android builds. Bring your own ROM. Latest release: v0.2.31.",
   notesEs: "Castlevania: Legacy of Darkness (Nintendo 64, 1999) recompilado a un ejecutable nativo con N64Recomp, con builds de Windows y Android. Aporta tu propia ROM. Última release: v0.2.31.",
 };

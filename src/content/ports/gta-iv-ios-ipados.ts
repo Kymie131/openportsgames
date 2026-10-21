@@ -20,6 +20,11 @@ export const gtaIvIosIpados: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b7/Grand_Theft_Auto_IV_cover.jpg",
+    alt: "Grand Theft Auto IV (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Grand Theft Auto IV (Rockstar Games, 2008) running on iPhone and iPad through static recompilation. Latest release: v0.3.2. You need your own copy of the game.",
   notesEs: "Grand Theft Auto IV (Rockstar Games, 2008) en iPhone and iPad mediante recompilación estática. Última release: v0.3.2. Necesitas tu propia copia del juego.",
 };

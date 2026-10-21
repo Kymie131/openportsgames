@@ -20,6 +20,11 @@ export const cbfdRecompiledAndroidEvolved: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/99/Conkersbfdbox.jpg",
+    alt: "Conker's Bad Fur Day (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Conker's Bad Fur Day (Rare, 2001) for Android (static recompilation). Latest release: android-v0.2.15. Needs your own copy of the game.",
   notesEs: "Conker's Bad Fur Day (Rare, 2001) para Android (recompilación estática). Última release: android-v0.2.15. Necesita tu propia copia del juego.",
 };

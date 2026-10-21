@@ -20,6 +20,11 @@ export const starWarsBattlefrontRenegadeSquadronPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation Portable"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d3/Star_Wars_Battlefront_-_Renegade_Squadron_Coverart.png",
+    alt: "Star Wars Battlefront: Renegade Squadron (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Star Wars Battlefront: Renegade Squadron (LucasArts, 2007) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Star Wars Battlefront: Renegade Squadron (LucasArts, 2007) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

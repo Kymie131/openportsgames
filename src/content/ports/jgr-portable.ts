@@ -21,6 +21,11 @@ export const jgrPortable: Port = {
   sourceVerified: true,
   originalSystems: ["Dreamcast"],
   related: ["jet-set-radio-future-unleashed"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7b/Jetsetradiopalboxart.jpg",
+    alt: "Jet Set Radio (box art)",
+    credit: "Wikipedia",
+  },
   notes: "JGR Portable is an unofficial native PSP port of Jet Grind Radio (Dreamcast, 2000) built through reverse engineering. The repository ships source code and conversion tools; the original game assets are not included. Latest release: 1.0.2.",
   notesEs: "JGR Portable es un port nativo no oficial para PSP de Jet Grind Radio (Dreamcast, 2000) hecho mediante ingeniería inversa. El repositorio incluye el código y las herramientas de conversión; los recursos del juego original no están incluidos. Última release: 1.0.2.",
 };

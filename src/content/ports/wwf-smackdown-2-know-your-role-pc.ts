@@ -20,6 +20,11 @@ export const wwfSmackdown2KnowYourRolePc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0a/WWFSmackDown2KnowYourRole.jpg",
+    alt: "WWF SmackDown! 2: Know Your Role (box art)",
+    credit: "Wikipedia",
+  },
   notes: "WWF SmackDown! 2: Know Your Role (THQ, 2000) running on Windows through static recompilation. Latest release: v1.1. You need your own copy of the game.",
   notesEs: "WWF SmackDown! 2: Know Your Role (THQ, 2000) en Windows mediante recompilación estática. Última release: v1.1. Necesitas tu propia copia del juego.",
 };

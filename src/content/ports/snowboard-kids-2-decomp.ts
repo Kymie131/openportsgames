@@ -21,6 +21,11 @@ export const snowboardKids2Decomp: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["snowboard-kids-2-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/23/Snowboard_Kids_2_cover.jpg",
+    alt: "Snowboard Kids 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Decompilation of Snowboard Kids 2 (Nintendo 64, 1999). Work in progress; no playable release yet.",
   notesEs: "Decompilación de Snowboard Kids 2 (Nintendo 64, 1999). En desarrollo; sin release jugable todavía.",
 };

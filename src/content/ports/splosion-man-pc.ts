@@ -20,6 +20,11 @@ export const splosionManPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/22/Splosion_Man.jpg",
+    alt: "'Splosion Man (box art)",
+    credit: "Wikipedia",
+  },
   notes: "'Splosion Man (Microsoft Game Studios, 2009) running on Windows and Linux through static recompilation. Latest release: v2.0. You need your own copy of the game.",
   notesEs: "'Splosion Man (Microsoft Game Studios, 2009) en Windows and Linux mediante recompilación estática. Última release: v2.0. Necesitas tu propia copia del juego.",
 };

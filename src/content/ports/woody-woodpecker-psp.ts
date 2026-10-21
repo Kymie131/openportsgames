@@ -20,6 +20,11 @@ export const woodyWoodpeckerPsp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a6/Woody_Woodpecker_-_Escape_from_Buzz_Buzzard_Park.jpg",
+    alt: "Woody Woodpecker: Escape from Buzz Buzzard Park (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Woody Woodpecker: Escape from Buzz Buzzard Park (Cryo Interactive, 2002) running on PlayStation Portable through source port. You need your own copy of the game.",
   notesEs: "Woody Woodpecker: Escape from Buzz Buzzard Park (Cryo Interactive, 2002) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
 };

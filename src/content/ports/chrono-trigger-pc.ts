@@ -20,6 +20,11 @@ export const chronoTriggerPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Super Nintendo"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a7/Chrono_Trigger.jpg",
+    alt: "Chrono Trigger (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Chrono Trigger (Square, 1995) running on Windows through static recompilation. The original game is free software, so no commercial copy is needed.",
   notesEs: "Chrono Trigger (Square, 1995) en Windows mediante recompilación estática. El juego original es software libre, así que no hace falta una copia comercial.",
 };

@@ -20,6 +20,11 @@ export const conkerSBadFurDayPsVita: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/99/Conkersbfdbox.jpg",
+    alt: "Conker's Bad Fur Day (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Conker's Bad Fur Day (Rare, 2001) running on PlayStation Vita through static recompilation. You need your own copy of the game.",
   notesEs: "Conker's Bad Fur Day (Rare, 2001) en PlayStation Vita mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

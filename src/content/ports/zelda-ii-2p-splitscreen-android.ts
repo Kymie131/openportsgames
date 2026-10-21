@@ -20,6 +20,11 @@ export const zeldaIi2pSplitscreenAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo Entertainment System"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg",
+    alt: "Zelda II: The Adventure of Link (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Zelda II: The Adventure of Link (Nintendo, 1987) for Android (source port). Latest release: v0.1.0-android. Needs your own copy of the game.",
   notesEs: "Zelda II: The Adventure of Link (Nintendo, 1987) para Android (port de código). Última release: v0.1.0-android. Necesita tu propia copia del juego.",
 };

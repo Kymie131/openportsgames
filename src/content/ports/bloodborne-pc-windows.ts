@@ -21,6 +21,11 @@ export const bloodbornePcWindows: Port = {
   sourceVerified: true,
   originalSystems: ["PlayStation 4"],
   related: ["bloodborne-pc","bloodborne-android"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
+    alt: "Bloodborne (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Windows 10/11 build of the bbport runtime for Bloodborne (PS4, CUSA03173 v1.09): the game's own x86-64 code runs natively, PS4 libraries are replaced by a small runtime and the graphics go through Vulkan. A launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, mods and cheats. No game files included. Latest release: windows-v1.9.1.",
   notesEs: "Build para Windows 10/11 del runtime bbport de Bloodborne (PS4, CUSA03173 v1.09): el propio código x86-64 del juego se ejecuta de forma nativa, las librerías de PS4 se sustituyen por un runtime pequeño y los gráficos pasan por Vulkan. Launcher en 13 idiomas, DLSS, FSR 3.1/4, FPS desbloqueados, mods y trucos. No incluye archivos del juego. Última release: windows-v1.9.1.",
 };

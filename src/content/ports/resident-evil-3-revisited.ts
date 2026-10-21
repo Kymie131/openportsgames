@@ -21,6 +21,11 @@ export const residentEvil3Revisited: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a5/Resident_Evil_3_Cover.jpg",
+    alt: "Resident Evil 3: Nemesis (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Native PC port of Resident Evil 3: Nemesis with an improved 3D renderer, modern controls and widescreen support. Separate from the alexbeavs PS1 recompilation already catalogued.",
   notesEs: "Port nativo para PC de Resident Evil 3: Nemesis con renderizador 3D mejorado, controles modernos y soporte de pantalla ancha. Es distinto de la recompilación de alexbeavs ya catalogada.",
 };

@@ -22,6 +22,11 @@ export const bloodborneDecomp: Port = {
   sourceVerified: true,
   originalSystems: ["PlayStation 4"],
   related: ["bloodborne-pc","bloodborne-android"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
+    alt: "Bloodborne (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Decompilation of Bloodborne (PS4, CUSA03173 v1.09) with its own runtime: 21 of 157757 functions verified so far, so the game does not run on it yet. No game files included.",
   notesEs: "Decompilación de Bloodborne (PS4, CUSA03173 v1.09) con runtime propio: 21 de 157757 funciones verificadas por ahora, así que el juego aún no se ejecuta en él. No incluye archivos del juego.",
 };

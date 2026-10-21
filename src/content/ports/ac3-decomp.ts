@@ -20,6 +20,11 @@ export const ac3Decomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/12/Ace_Combat_3_cover.jpg",
+    alt: "Ace Combat 3: Electrosphere (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Ace Combat 3: Electrosphere (Namco, 1999) for Android (decompilation). Needs your own copy of the game.",
   notesEs: "Ace Combat 3: Electrosphere (Namco, 1999) para Android (decompilación). Necesita tu propia copia del juego.",
 };

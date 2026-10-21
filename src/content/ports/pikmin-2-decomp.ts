@@ -21,6 +21,11 @@ export const pikmin2Decomp: Port = {
   sourceVerified: true,
   originalSystems: ["GameCube"],
   related: ["new-play-control-pikmin-2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/38/Pikmin_2_Case.jpg",
+    alt: "Pikmin 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "A decompilation of Pikmin 2 (USA, GameCube). Separate project from the Pikmin 2 entries already in the catalog.",
   notesEs: "Decompilación de Pikmin 2 (USA, GameCube). Proyecto distinto de las fichas de Pikmin 2 ya presentes.",
 };

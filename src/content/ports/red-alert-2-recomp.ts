@@ -20,6 +20,11 @@ export const redAlert2Recomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/11/Cncra2-win-cover.jpg",
+    alt: "Command & Conquer: Red Alert 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Command & Conquer: Red Alert 2 (Windows, 2000) as a native port for windows via static recompilation, not an emulator. It ships no game code or data: bring your own copy. No release yet.",
   notesEs: "Command & Conquer: Red Alert 2 (Windows, 2000) como port nativo para windows mediante recompilación estática, no un emulador. No incluye código ni datos del juego: aporta tu propia copia. Aún sin release.",
 };

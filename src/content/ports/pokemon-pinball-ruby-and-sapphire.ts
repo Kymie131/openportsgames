@@ -20,6 +20,11 @@ export const PokemonPinballRubyAndSapphire: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/82/Pokemonpinballrubyandsapphire.png",
+    alt: "Pokemon Pinball Ruby & Sapphire (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Decompilation of Pokémon Pinball: Ruby & Sapphire.",
   notesEs: "Decompilación de Pokémon Pinball: Ruby & Sapphire.",
 };

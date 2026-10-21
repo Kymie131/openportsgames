@@ -20,6 +20,11 @@ export const DiamondRush: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/4d/Diamond_rush_screenshot_%28java_version%29.png",
+    alt: "Diamond Rush (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Decompilation of Diamond Rush.",
   notesEs: "Decompilación de Diamond Rush.",
 };

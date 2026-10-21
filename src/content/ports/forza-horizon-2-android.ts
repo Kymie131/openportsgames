@@ -21,6 +21,11 @@ export const forzaHorizon2Android: Port = {
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["forza-horizon-2-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/2e/Forza_Horizon_2_Cover_Art.png",
+    alt: "Forza Horizon 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Unofficial static recompilation of Forza Horizon 2 (Xbox 360, 2014) for Android and Linux. It ships no game files and does nothing without files extracted from your own legally obtained copy. Non-commercial fan project, not affiliated with Microsoft/Xbox Game Studios/Playground Games/Turn 10.",
   notesEs:

@@ -20,6 +20,11 @@ export const project8recomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8c/Tony_Hawk%27s_Project_8_cover.jpg",
+    alt: "Tony Hawk's Project 8 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Tony Hawk's Project 8 (Activision, 2007) for Android (static recompilation). Latest release: v1.2.4. Needs your own copy of the game.",
   notesEs: "Tony Hawk's Project 8 (Activision, 2007) para Android (recompilación estática). Última release: v1.2.4. Necesita tu propia copia del juego.",
 };

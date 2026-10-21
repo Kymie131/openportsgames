@@ -21,6 +21,11 @@ export const gearsJudgmentRecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/00/Gears_of_War-_Judgment_cover.jpg",
+    alt: "Gears of War: Judgment (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Windows recompilation of the Gears of War: Judgment campaign with mouse aim, an unlocked frame rate and FSR support. Bring your own game copy.",
   notesEs: "Recompilación para Windows de la campaña de Gears of War: Judgment con puntería de ratón, tasa de fotogramas desbloqueada y soporte FSR. Necesitas tu propia copia del juego.",
 };

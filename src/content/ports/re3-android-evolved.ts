@@ -20,6 +20,11 @@ export const re3AndroidEvolved: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/be/GTA3boxcover.jpg",
+    alt: "Grand Theft Auto III (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Grand Theft Auto III (Rockstar Games, 2001) for Android (source port). Latest release: v1.0.7. Needs your own copy of the game.",
   notesEs: "Grand Theft Auto III (Rockstar Games, 2001) para Android (port de código). Última release: v1.0.7. Necesita tu propia copia del juego.",
 };

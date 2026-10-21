@@ -20,6 +20,11 @@ export const needForSpeedCarbonSwitch: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a4/Need_for_Speed_Carbon_Game_Cover.jpg",
+    alt: "Need for Speed: Carbon (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Need for Speed: Carbon (EA Black Box, 2006) running on Nintendo Switch through runtime layer. Latest release: v0.2.4. You need your own copy of the game.",
   notesEs: "Need for Speed: Carbon (EA Black Box, 2006) en Nintendo Switch mediante capa de ejecución. Última release: v0.2.4. Necesitas tu propia copia del juego.",
 };

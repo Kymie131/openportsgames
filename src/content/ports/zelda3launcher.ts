@@ -20,6 +20,11 @@ export const zelda3launcher: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Super Nintendo"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg",
+    alt: "The Legend of Zelda: A Link to the Past (box art)",
+    credit: "Wikipedia",
+  },
   notes: "The Legend of Zelda: A Link to the Past (Nintendo, 1991) for Android (reimplementation). Latest release: v1.0.1. Needs your own copy of the game (zelda3_assets.dat).",
   notesEs: "The Legend of Zelda: A Link to the Past (Nintendo, 1991) para Android (reimplementación). Última release: v1.0.1. Necesita tu propia copia del juego.",
 };

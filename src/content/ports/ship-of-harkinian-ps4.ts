@@ -20,6 +20,11 @@ export const shipOfHarkinianPs4: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
+    alt: "The Legend of Zelda: Ocarina of Time (box art)",
+    credit: "Wikipedia",
+  },
   notes: "The Legend of Zelda: Ocarina of Time (Nintendo, 1998) running on PlayStation 4 through source port. Latest release: v0.2.0. You need your own copy of the game.",
   notesEs: "The Legend of Zelda: Ocarina of Time (Nintendo, 1998) en PlayStation 4 mediante port de código. Última release: v0.2.0. Necesitas tu propia copia del juego.",
 };

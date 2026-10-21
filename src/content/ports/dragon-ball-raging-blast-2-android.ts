@@ -21,6 +21,11 @@ export const dragonBallRagingBlast2Android: Port = {
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["dragon-ball-raging-blast-2-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6f/Raging_Blast_2.jpg",
+    alt: "Dragon Ball: Raging Blast 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Android (arm64) port of RB2 Recompiled: Dragon Ball: Raging Blast 2 recompiled with the ReXGlue SDK, packaged as an Android APK. No game data included; you need your own legally dumped copy. Latest release: v1.2.3 (APK).",
   notesEs:

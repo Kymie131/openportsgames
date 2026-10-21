@@ -20,6 +20,11 @@ export const huntersRecompDualScreen: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b2/Mph_cover_updated.jpg",
+    alt: "Metroid Prime: Hunters (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Metroid Prime: Hunters (Nintendo, 2006) for Android (static recompilation). Latest release: v0.2.5. Needs your own copy of the game (Metroid Prime Hunters (USA) 1.0 NDS).",
   notesEs: "Metroid Prime: Hunters (Nintendo, 2006) para Android (recompilación estática). Última release: v0.2.5. Necesita tu propia copia del juego.",
 };

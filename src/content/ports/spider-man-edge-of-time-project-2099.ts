@@ -21,6 +21,11 @@ export const spiderManEdgeOfTimeProject2099: Port = {
   sourceVerified: true,
   originalSystems: ["Unknown"],
   related: ["spider-man-edge-of-time-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/df/Spider-Man_Edge_of_Time.jpg",
+    alt: "Spider-Man: Edge of Time (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Project 2099: an unofficial Windows recompilation of Spider-Man: Edge of Time, with PC controls, settings, localization (six-language guides), achievements and mod support. Separate project from the other Spider-Man: Edge of Time entry in the catalog; the README does not state the original platform, so the original system is left as Unknown. Latest release: v2.0.0-beta.5.",
   notesEs:

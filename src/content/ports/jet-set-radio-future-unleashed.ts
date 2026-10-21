@@ -20,6 +20,11 @@ export const jetSetRadioFutureUnleashed: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7a/JetSetRadioFuturebox.jpg",
+    alt: "Jet Set Radio Future (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Jet Set Radio Future (Xbox, 2002) running natively on PC and Android. Bring your own copy of the game. Latest release: v0.4.7.",
   notesEs: "Jet Set Radio Future (Xbox, 2002) funcionando de forma nativa en PC y Android. Aporta tu propia copia del juego. Última release: v0.4.7.",
 };

@@ -20,6 +20,11 @@ export const wayOfTheSamurai2Pc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f9/Way_of_the_Samurai_2_cover.jpg",
+    alt: "Way of the Samurai 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Way of the Samurai 2 (Acquire, 2003) running on Linux through decompilation. Latest release: v0.3.10. You need your own copy of the game.",
   notesEs: "Way of the Samurai 2 (Acquire, 2003) en Linux mediante decompilación. Última release: v0.3.10. Necesitas tu propia copia del juego.",
 };

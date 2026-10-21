@@ -20,6 +20,11 @@ export const openTestDriveUnlimited: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/63/Test_Drive_Unlimited_boxart.jpg",
+    alt: "Test Drive Unlimited (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Open source port of Test Drive Unlimited PC (TDU, MC 1.66A). Work in progress: the goal is a new client that fixes issues found in the original. It requires your own copy of the game.",
   notesEs:

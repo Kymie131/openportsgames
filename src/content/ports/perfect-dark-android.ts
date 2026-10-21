@@ -21,6 +21,11 @@ export const perfectDarkAndroid: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["perfect-dark-port"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg",
+    alt: "Perfect Dark (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Android port of the n64decomp/perfect_dark port of Perfect Dark (Nintendo 64, 2000). Work in progress. Latest release: 2.0.0.",
   notesEs: "Port para Android del port n64decomp/perfect_dark de Perfect Dark (Nintendo 64, 2000). En desarrollo. Última release: 2.0.0.",
 };

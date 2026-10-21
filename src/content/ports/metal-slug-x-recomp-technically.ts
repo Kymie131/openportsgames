@@ -21,6 +21,11 @@ export const metalSlugXRecompTechnically: Port = {
   sourceVerified: true,
   originalSystems: ["PlayStation"],
   related: ["metal-slug-x-recomp"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/312610/header.jpg",
+    alt: "Metal Slug X (cover art)",
+    credit: "Steam",
+  },
   notes: "Metal Slug X (PlayStation, 1999) made with PSXRecomp, part of the R.A.I.D. community. Bring your own disc. Latest release: v0.1.21.",
   notesEs: "Metal Slug X (PlayStation, 1999) hecho con PSXRecomp, parte de la comunidad R.A.I.D. Aporta tu propio disco. Última release: v0.1.21.",
 };

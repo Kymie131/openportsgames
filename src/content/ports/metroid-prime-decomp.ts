@@ -21,6 +21,11 @@ export const metroidPrimeDecomp: Port = {
   sourceVerified: true,
   originalSystems: ["GameCube"],
   related: ["metroid-prime-port"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/ba/MetroidPrimebox.jpg",
+    alt: "Metroid Prime (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Matching decompilation of Metroid Prime (GameCube, 2002). It rebuilds the game code and data from your own copy; there is no playable download of its own.",
   notesEs: "Decompilación matching de Metroid Prime (GameCube, 2002). Reconstruye el código y los datos del juego desde tu propia copia; no tiene descarga jugable propia.",
 };

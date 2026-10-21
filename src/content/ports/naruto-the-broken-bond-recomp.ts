@@ -20,6 +20,11 @@ export const narutoTheBrokenBondRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b3/Naruto_The_Broken_Bond.jpg",
+    alt: "Naruto: The Broken Bond (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Naruto: The Broken Bond (Xbox 360, 2008) running natively on Android (ARM64) and PC (Windows x64) via static recompilation, no CPU emulator. Built by Masterllgod; no game files are included, you need your own copy. Documentation only so far (no build yet).",
   notesEs: "Naruto: The Broken Bond (Xbox 360, 2008) corriendo de forma nativa en Android (ARM64) y PC (Windows x64) por recompilación estática, sin emulador de CPU. Hecho por Masterllgod; no incluye archivos del juego, necesitas tu propia copia. De momento solo documentación (sin build todavía).",
 };

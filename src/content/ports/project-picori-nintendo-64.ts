@@ -20,6 +20,11 @@ export const projectPicoriNintendo64: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy Advance"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0a/TLOZ-_Minish_Cap_NA_Box_art.png",
+    alt: "The Legend of Zelda: The Minish Cap (box art)",
+    credit: "Wikipedia",
+  },
   notes: "The Legend of Zelda: The Minish Cap (Nintendo, 2004) running on n64 through source port. You need your own copy of the game.",
   notesEs: "The Legend of Zelda: The Minish Cap (Nintendo, 2004) en n64 mediante port de código. Necesitas tu propia copia del juego.",
 };

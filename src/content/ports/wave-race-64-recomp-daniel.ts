@@ -22,6 +22,11 @@ export const waveRace64RecompDaniel: Port = {
   originalSystems: ["Nintendo 64"],
   related: ["wave-race-64-recompiled","race-wave-46"],
   aiDisclosure: {"source":"https://github.com/danielgomesvieira2000/wave-race-64-recomp","quote":"An AI-coded PC port of the Nintendo 64 game 'Wave Race 64'."},
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e6/Wave_Race_64_Coverart.png",
+    alt: "Wave Race 64 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "AI-coded PC port of Wave Race 64 (Nintendo 64, 1996). Bring your own ROM. Latest release: v1.0.2.",
   notesEs: "Port a PC escrito con IA de Wave Race 64 (Nintendo 64, 1996). Aporta tu propia ROM. Última release: v1.0.2.",
 };

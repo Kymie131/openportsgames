@@ -20,6 +20,11 @@ export const FireEmblemTheSacredStonesFireemblem: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG",
+    alt: "FIre Emblem: The Sacred Stones (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Decompilation/disassembly of Fire Emblem: The Sacred Stones.",
   notesEs: "Decompilación/desensamblado de Fire Emblem: The Sacred Stones.",
 };

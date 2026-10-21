@@ -20,6 +20,11 @@ export const virtualHydlidePc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Sega Saturn"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/49/Virtual_Hydlide_Box_Art.jpg",
+    alt: "Virtual Hydlide (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Virtual Hydlide (Sega, 1995) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Virtual Hydlide (Sega, 1995) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

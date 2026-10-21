@@ -21,6 +21,11 @@ export const strikersWiicompiled: Port = {
   sourceVerified: true,
   originalSystems: ["Wii"],
   related: ["mario-strikers-charged-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/50/Mario_Strikers_Charged.jpg",
+    alt: "Mario Strikers Charged (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Native PC port of Mario Strikers Charged (Wii, 2007) via static recompilation, a fork of WiiCompiled. No game data included.",
   notesEs: "Port nativo a PC de Mario Strikers Charged (Wii, 2007) mediante recompilación estática, un fork de WiiCompiled. No incluye datos del juego.",
 };

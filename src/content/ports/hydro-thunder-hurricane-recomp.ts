@@ -20,6 +20,11 @@ export const hydroThunderHurricaneRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/1e/Hydro-thunder-hurricane-cover-01.png",
+    alt: "Hydro Thunder Hurricane (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Native PC build of Hydro Thunder Hurricane (Xbox 360, 2010) produced by static recompilation with the ReXGlue SDK: a real port rather than an emulator. Latest release: Release.",
   notesEs: "Build nativo para PC de Hydro Thunder Hurricane (Xbox 360, 2010) mediante recompilación estática con el SDK ReXGlue: un port real, no un emulador. Última release: Release.",
 };

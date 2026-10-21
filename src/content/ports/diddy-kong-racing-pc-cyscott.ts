@@ -20,6 +20,11 @@ export const diddyKongRacingPcCyscott: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/72/Diddy_Kong_Racing_Cover_Art.png",
+    alt: "Diddy Kong Racing (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Diddy Kong Racing (Nintendo, 1997) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Diddy Kong Racing (Nintendo, 1997) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

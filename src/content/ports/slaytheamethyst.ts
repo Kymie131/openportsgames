@@ -20,6 +20,11 @@ export const slaytheamethyst: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/646570/header.jpg",
+    alt: "Slay the Spire (cover art)",
+    credit: "Steam",
+  },
   notes: "Slay the Spire (Humble Bundle, 2019) for Android (source port). Latest release: v1.6.3. Needs your own copy of the game.",
   notesEs: "Slay the Spire (Humble Bundle, 2019) para Android (port de código). Última release: v1.6.3. Necesita tu propia copia del juego.",
 };

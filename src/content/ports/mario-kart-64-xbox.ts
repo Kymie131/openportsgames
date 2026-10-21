@@ -20,6 +20,11 @@ export const marioKart64Xbox: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a1/Mario_Kart_64.jpg",
+    alt: "Mario Kart 64 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Mario Kart 64 (Nintendo, 1996) running on xbox through decompilation. You need your own copy of the game.",
   notesEs: "Mario Kart 64 (Nintendo, 1996) en xbox mediante decompilación. Necesitas tu propia copia del juego.",
 };

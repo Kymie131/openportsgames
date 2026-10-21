@@ -21,6 +21,11 @@ export const battleTanxRecomp: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["battletanx","battletanx-global-assault-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/67/BattleTanx.jpg",
+    alt: "BattleTanx (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Native PC port of BattleTanx (Nintendo 64, 1998) built by statically recompiling the N64 game with N64Recomp and N64ModernRuntime. You need your own copy of the game. Latest release: 0.1.1.",
   notesEs: "Port nativo a PC de BattleTanx (Nintendo 64, 1998) mediante recompilación estática del juego de N64 con N64Recomp y N64ModernRuntime. Necesitas tu propia copia del juego. Última release: 0.1.1.",
 };

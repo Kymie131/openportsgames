@@ -20,6 +20,11 @@ export const supertuxMilestone2VitaSwitchPs3: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1572920/header.jpg",
+    alt: "SuperTux (cover art)",
+    credit: "Steam",
+  },
   notes: "SuperTux (SuperTux team, 2016) running on PlayStation Vita and Nintendo Switch and PlayStation 3 through source port. Latest release: 1.00. The original game is free software, so no commercial copy is needed.",
   notesEs: "SuperTux (SuperTux team, 2016) en PlayStation Vita and Nintendo Switch and PlayStation 3 mediante port de código. Última release: 1.00. El juego original es software libre, así que no hace falta una copia comercial.",
 };

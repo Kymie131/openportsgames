@@ -20,6 +20,11 @@ export const _3on3NhlArcadeRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/ea/3_on_3_NHL_Arcade_cover.jpg",
+    alt: "3 on 3 NHL Arcade (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Native PC port of 3 on 3 NHL Arcade (Xbox 360, 2009) by static recompilation. Latest release: v0.1.1.",
   notesEs: "Port nativo a PC de 3 on 3 NHL Arcade (Xbox 360, 2009) mediante recompilación estática. Última release: v0.1.1.",
 };

@@ -20,6 +20,11 @@ export const doomIiClassicCoreEngines: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/29/Doom_II_-_Hell_on_Earth_Coverart.png",
+    alt: "Doom II (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Doom II (id Software, 1994) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (DOOM2.WAD).",
   notesEs: "Doom II (id Software, 1994) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
 };

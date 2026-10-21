@@ -21,6 +21,11 @@ export const gtaIiiPsp: Port = {
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
   related: ["re3-android-evolved","gtasa-psp","re-lcs"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/be/GTA3boxcover.jpg",
+    alt: "Grand Theft Auto III (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Grand Theft Auto III running natively on the PSP through the re3 reverse-engineered codebase. This repository collects the PSP files and conversion instructions; you need your own copy of GTA III, including its audio folder.",
   notesEs: "Grand Theft Auto III funcionando de forma nativa en la PSP mediante el código reversado de re3. Este repositorio reúne los archivos para PSP y las instrucciones de conversión; necesitas tu propia copia de GTA III, incluida su carpeta de audio.",
 };

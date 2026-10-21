@@ -21,6 +21,11 @@ export const castlevaniaSotnRecompNocturne: Port = {
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["castlevania-sotn-decomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg",
+    alt: "Castlevania: Symphony of the Night (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Static recompilation of the Xbox Live Arcade version of Castlevania: Symphony of the Night for Windows and Linux, built on the ReXGlue SDK. Bring your own copy. Latest release: v1.4.5.",
   notesEs: "Recompilación estática de la versión de Xbox Live Arcade de Castlevania: Symphony of the Night para Windows y Linux, construida sobre el SDK ReXGlue. Aporta tu propia copia. Última release: v1.4.5.",
 };

@@ -21,6 +21,11 @@ export const prototype2Switch: Port = {
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["prototype-switch"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/fb/Prototype_2_game.jpg",
+    alt: "Prototype 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Prototype 2 (Activision, 2012) running natively on Nintendo Switch through static recompilation of the Xbox 360 version. It requires your own copy of the game.",
   notesEs:

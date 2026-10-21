@@ -20,6 +20,11 @@ export const wild9Pc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a4/Wild_9_Coverart.png",
+    alt: "Wild 9 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Wild 9 (Interplay Entertainment, 1998) running on Windows through static recompilation. Latest release: v0.1.7. You need your own copy of the game.",
   notesEs: "Wild 9 (Interplay Entertainment, 1998) en Windows mediante recompilación estática. Última release: v0.1.7. Necesitas tu propia copia del juego.",
 };

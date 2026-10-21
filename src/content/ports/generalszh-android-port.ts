@@ -20,6 +20,11 @@ export const generalszhAndroidPort: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/20/Cncgzh-win-cover.jpg",
+    alt: "Command & Conquer: Generals: Zero Hour (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Command & Conquer: Generals: Zero Hour (Electronic Arts, 2003) for Android (source port). Latest release: v1.4.0. Needs your own copy of the game.",
   notesEs: "Command & Conquer: Generals: Zero Hour (Electronic Arts, 2003) para Android (port de código). Última release: v1.4.0. Necesita tu propia copia del juego.",
 };

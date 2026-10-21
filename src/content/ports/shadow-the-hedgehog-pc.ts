@@ -20,6 +20,11 @@ export const shadowTheHedgehogPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/41/ShadowTheHedgehogSA2.png",
+    alt: "Shadow the Hedgehog (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Shadow the Hedgehog (Sonic Team, 2005) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Shadow the Hedgehog (Sonic Team, 2005) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

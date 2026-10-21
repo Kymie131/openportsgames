@@ -20,6 +20,11 @@ export const spaghettikartAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a1/Mario_Kart_64.jpg",
+    alt: "Mario Kart 64 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Mario Kart 64 (Nintendo, 1996) for Android (source port). Latest release: 2.0.0. Needs your own copy of the game (Mario Kart 64 (USA).z64).",
   notesEs: "Mario Kart 64 (Nintendo, 1996) para Android (port de código). Última release: 2.0.0. Necesita tu propia copia del juego.",
 };

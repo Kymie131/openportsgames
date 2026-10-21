@@ -21,6 +21,11 @@ export const fireEmblemSacredStonesRecomp: Port = {
   sourceVerified: true,
   originalSystems: ["Game Boy Advance"],
   related: ["fire-emblem-the-sacred-stones"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG",
+    alt: "Fire Emblem: The Sacred Stones (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Playable Windows and Android ARM64 static recompilation of Fire Emblem: The Sacred Stones (Game Boy Advance, 2004). Still early, but playable. Latest release: v0.1.20.",
   notesEs: "Recompilación estática ARM64 jugable para Windows y Android de Fire Emblem: The Sacred Stones (Game Boy Advance, 2004). Todavía es pronto, pero se puede jugar. Última release: v0.1.20.",
 };

@@ -20,6 +20,11 @@ export const TheBindingOfIsaacRepentance: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1426300/header.jpg",
+    alt: "The Binding of Isaac: Repentance (cover art)",
+    credit: "Steam",
+  },
   notes:
     "PS Vita port of The Binding of Isaac: Repentance by static recompilation of the PC executable to ARM.",
   notesEs:

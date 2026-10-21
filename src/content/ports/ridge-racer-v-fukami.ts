@@ -21,6 +21,11 @@ export const ridgeRacerVFukami: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/1b/RidgeRacerVCover.jpg",
+    alt: "Ridge Racer V (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Static recompilation of Ridge Racer V (PS2) with ultrawide resolutions and low input latency. No game files are distributed.",
   notesEs: "Recompilación estática de Ridge Racer V (PS2) con resoluciones ultrapanorámicas y baja latencia de entrada. No distribuye archivos del juego.",
 };

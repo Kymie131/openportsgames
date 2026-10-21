@@ -20,6 +20,11 @@ export const ocarinaOfTimePcRayTraced: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
+    alt: "The Legend of Zelda: Ocarina of Time (box art)",
+    credit: "Wikipedia",
+  },
   notes: "The Legend of Zelda: Ocarina of Time (Nintendo, 1998) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "The Legend of Zelda: Ocarina of Time (Nintendo, 1998) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

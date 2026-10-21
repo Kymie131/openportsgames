@@ -20,6 +20,11 @@ export const quakeIiiArenaClassicCoreEngines: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a1/Quake3Title.jpg",
+    alt: "Quake III Arena (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Quake III Arena (id Software, 1999) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (baseq3 folder).",
   notesEs: "Quake III Arena (id Software, 1999) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
 };

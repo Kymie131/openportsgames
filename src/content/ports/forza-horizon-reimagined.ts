@@ -21,6 +21,11 @@ export const forzaHorizonReimagined: Port = {
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["pinyon-shift"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/77/Forza_Horizon_boxart.jpg",
+    alt: "Forza Horizon (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Forza Horizon (Xbox 360, 2012) natively on PC, rebuilt around a modern Horizon experience (shared online free roam, leaderboards/rivals, 120/144 fps, self-hostable online server). Separate project from the other Forza Horizon entry in the catalog. Latest release: v0.1.22.",
   notesEs: "Forza Horizon (Xbox 360, 2012) nativo en PC, reconstruido con una experiencia Horizon moderna (mundo libre online, clasificaciones/rivales, 120/144 fps, servidor online autoalojable). Proyecto distinto de la otra ficha de Forza Horizon. Última release: v0.1.22.",
 };

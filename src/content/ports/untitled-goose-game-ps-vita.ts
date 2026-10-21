@@ -20,6 +20,11 @@ export const untitledGooseGamePsVita: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b2/Untitled_Goose_Game_Cover_art.jpg",
+    alt: "Untitled Goose Game (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Untitled Goose Game (Panic, 2019) running on PlayStation Vita through source port. Latest release: v0.1. You need your own copy of the game.",
   notesEs: "Untitled Goose Game (Panic, 2019) en PlayStation Vita mediante port de código. Última release: v0.1. Necesitas tu propia copia del juego.",
 };

@@ -20,6 +20,11 @@ export const medievil2019Pc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d3/Medievil_cover.jpg",
+    alt: "MediEvil (box art)",
+    credit: "Wikipedia",
+  },
   notes: "MediEvil (Other Ocean Interactive, 2019) running on Windows through runtime layer. Latest release: v1.3.5. You need your own copy of the game.",
   notesEs: "MediEvil (Other Ocean Interactive, 2019) en Windows mediante capa de ejecución. Última release: v1.3.5. Necesitas tu propia copia del juego.",
 };

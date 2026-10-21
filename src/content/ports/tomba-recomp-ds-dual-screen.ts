@@ -20,6 +20,11 @@ export const tombaRecompDsDualScreen: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/ff/Tomba%21_2_-_The_Evil_Swine_Return_Coverart.png",
+    alt: "Tomba! 2: The Evil Swine Return (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Tomba! 2: The Evil Swine Return (Sony Computer Entertainment, 1999) for Android (static recompilation). Latest release: v0.1.0. Needs your own copy of the game.",
   notesEs: "Tomba! 2: The Evil Swine Return (Sony Computer Entertainment, 1999) para Android (recompilación estática). Última release: v0.1.0. Necesita tu propia copia del juego.",
 };

@@ -20,6 +20,11 @@ export const deepSeaWindWaker60Fps: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
+    alt: "The Legend of Zelda: The Wind Waker (box art)",
+    credit: "Wikipedia",
+  },
   notes: "The Legend of Zelda: The Wind Waker (Nintendo, 2002) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "The Legend of Zelda: The Wind Waker (Nintendo, 2002) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

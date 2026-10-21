@@ -21,6 +21,11 @@ export const goemon64RecompiledAndroid: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["goemon-64-recompiled"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/9e/MysticalNinjaStarringGoemon.jpg",
+    alt: "Mystical Ninja Starring Goemon (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Android port of Goemon 64: Recompiled: plays Mystical Ninja Starring Goemon (Nintendo 64) natively on phone or handheld, using RT64 for Vulkan rendering. Packaging/port layer on top of the upstream recompilation (built on N64: Recompiled). The APK does not include the game; you need your own ROM. Latest release: v1.0.8 (APK).",
   notesEs:

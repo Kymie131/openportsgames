@@ -21,6 +21,11 @@ export const sonicAdventure2Recomp: Port = {
   sourceVerified: true,
   originalSystems: ["Dreamcast"],
   related: ["sonic-adventure-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/99/Sonic_Adventure_2_cover.png",
+    alt: "Sonic Adventure 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "OpenSA2: native port of Sonic Adventure 2 by static recompilation for Linux, Windows and Android. Experimental source preview, no playable release yet.",
   notesEs: "OpenSA2: port nativo de Sonic Adventure 2 por recompilación estática para Linux, Windows y Android. Avance de código experimental, sin release jugable todavía.",
 };

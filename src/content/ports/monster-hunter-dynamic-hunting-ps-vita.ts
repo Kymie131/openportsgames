@@ -20,6 +20,11 @@ export const monsterHunterDynamicHuntingPsVita: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Other"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/77/Monster_Hunter_Dynamic_Hunting_cover.jpg",
+    alt: "Monster Hunter Dynamic Hunting (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Monster Hunter Dynamic Hunting (Capcom, 2011) running on PlayStation Vita through source port. Latest release: 1.1. You need your own copy of the game.",
   notesEs: "Monster Hunter Dynamic Hunting (Capcom, 2011) en PlayStation Vita mediante port de código. Última release: 1.1. Necesitas tu propia copia del juego.",
 };

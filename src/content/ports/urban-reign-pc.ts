@@ -20,6 +20,11 @@ export const urbanReignPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6d/Urb-cover.jpg",
+    alt: "Urban Reign (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Urban Reign (Namco, 2005) running on Windows through static recompilation. Latest release: v1.3.0. You need your own copy of the game.",
   notesEs: "Urban Reign (Namco, 2005) en Windows mediante recompilación estática. Última release: v1.3.0. Necesitas tu propia copia del juego.",
 };

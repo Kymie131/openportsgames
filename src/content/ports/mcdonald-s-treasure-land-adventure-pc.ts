@@ -20,6 +20,11 @@ export const mcdonaldSTreasureLandAdventurePc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Sega Mega Drive / Genesis"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5b/McDonald%27s_Treasure_Land_Adventure_Sega_Genesis.jpg",
+    alt: "McDonald's Treasure Land Adventure (box art)",
+    credit: "Wikipedia",
+  },
   notes: "McDonald's Treasure Land Adventure (Sega, 1993) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "McDonald's Treasure Land Adventure (Sega, 1993) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

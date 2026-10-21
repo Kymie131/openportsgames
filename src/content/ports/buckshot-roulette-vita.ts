@@ -21,6 +21,11 @@ export const buckshotRouletteVita: Port = {
   sourceVerified: true,
   originalSystems: ["Windows"],
   related: ["buckshot-roulette-mobile"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/72/Buckshot_Roulette_Cover.jpg",
+    alt: "Buckshot Roulette (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Buckshot Roulette (Mike Klubnika, 2023) ported natively to PS Vita at 60 fps, with the full single-player campaign. You need your own Steam copy of the game.",
   notesEs:

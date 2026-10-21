@@ -21,6 +21,11 @@ export const superMarioStrikersRecomp: Port = {
   sourceVerified: true,
   originalSystems: ["GameCube"],
   related: ["strikers","super-mario-strikers-decomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b3/Supermariostrikersbox.jpg",
+    alt: "Super Mario Strikers (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Static recompilation of Super Mario Strikers (G4QE01, NTSC) that serves as the worked example for the RecompCore and GXRuntime projects. No game data included. Latest release: v0.1.0.",
   notesEs: "Recompilación estática de Super Mario Strikers (G4QE01, NTSC) que sirve de ejemplo para los proyectos RecompCore y GXRuntime. No incluye datos del juego. Última release: v0.1.0.",
 };

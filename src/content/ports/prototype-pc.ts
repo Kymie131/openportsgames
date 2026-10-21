@@ -20,6 +20,11 @@ export const prototypePc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/10150/header.jpg",
+    alt: "PROTOTYPE (cover art)",
+    credit: "Steam",
+  },
   notes: "PROTOTYPE (Radical Entertainment, 2009) running on Windows through runtime layer. Latest release: v0.5.2. You need your own copy of the game.",
   notesEs: "PROTOTYPE (Radical Entertainment, 2009) en Windows mediante capa de ejecución. Última release: v0.5.2. Necesitas tu propia copia del juego.",
 };

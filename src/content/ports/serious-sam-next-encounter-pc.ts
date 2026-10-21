@@ -20,6 +20,11 @@ export const seriousSamNextEncounterPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/64/Serious_Sam_Next_Encounter.jpg",
+    alt: "Serious Sam: Next Encounter (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Serious Sam: Next Encounter (Global Star Software, 2004) running on Windows through static recompilation. Latest release: update. You need your own copy of the game.",
   notesEs: "Serious Sam: Next Encounter (Global Star Software, 2004) en Windows mediante recompilación estática. Última release: update. Necesitas tu propia copia del juego.",
 };

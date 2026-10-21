@@ -20,6 +20,11 @@ export const starFox64Xbox: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/63/StarFox64_N64_Game_Box.jpg",
+    alt: "Star Fox 64 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Star Fox 64 (Nintendo, 1997) running on xbox through decompilation. You need your own copy of the game.",
   notesEs: "Star Fox 64 (Nintendo, 1997) en xbox mediante decompilación. Necesitas tu propia copia del juego.",
 };

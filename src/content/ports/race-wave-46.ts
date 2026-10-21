@@ -22,6 +22,11 @@ export const raceWave46: Port = {
   originalSystems: ["Nintendo 64"],
   related: ["wave-race-64-recompiled","wave-race-64-decomp"],
   aiDisclosure: {"source":"https://github.com/DomazinUS/RaceWave46","quote":"An AI-assisted Wave Race 64 recompilation for Windows"},
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e6/Wave_Race_64_Coverart.png",
+    alt: "Wave Race 64 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "AI-assisted recompilation of Wave Race 64 (Nintendo 64, 1996) for Windows, with modern graphics and expanded local multiplayer. Latest release: v1.0.0.",
   notesEs: "Recompilación asistida por IA de Wave Race 64 (Nintendo 64, 1996) para Windows, con gráficos modernos y multijugador local ampliado. Última release: v1.0.0.",
 };

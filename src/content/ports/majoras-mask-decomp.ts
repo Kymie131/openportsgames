@@ -20,6 +20,11 @@ export const majorasMaskDecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg",
+    alt: "The Legend of Zelda: Majora's Mask (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Work-in-progress matching decompilation of The Legend of Zelda: Majora's Mask (Nintendo 64). It builds a byte-matching ROM from your own copy; the repository publishes no playable build of its own.",
   notesEs: "Decompilación en curso (matching) de The Legend of Zelda: Majora's Mask (Nintendo 64). Compila una ROM idéntica a la original desde tu propia copia; el repositorio no publica ninguna build jugable propia.",
 };

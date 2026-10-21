@@ -20,6 +20,11 @@ export const unicornOverlordPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a1/Unicorn_Overlord_cover.jpg",
+    alt: "Unicorn Overlord (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Unicorn Overlord (Vanillaware, 2024) running on Windows through runtime layer. Latest release: v1.0.0. You need your own copy of the game.",
   notesEs: "Unicorn Overlord (Vanillaware, 2024) en Windows mediante capa de ejecución. Última release: v1.0.0. Necesitas tu propia copia del juego.",
 };

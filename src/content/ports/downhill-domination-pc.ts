@@ -20,6 +20,11 @@ export const downhillDominationPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/25/Downhill_Domination_Coverart.png",
+    alt: "Downhill Domination (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Downhill Domination (Incog Inc., 2003) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Downhill Domination (Incog Inc., 2003) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

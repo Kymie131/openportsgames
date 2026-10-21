@@ -20,6 +20,11 @@ export const finalFantasyTacticsAdvanceRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy Advance"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c4/FinalFantasyTacticsAdvanceGBACoverArtUS.jpg",
+    alt: "Final Fantasy Tactics Advance (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Final Fantasy Tactics Advance (GBA, 2003) running natively on Windows PC, Linux PC and Steam Deck, with widescreen, video/audio options and a one-click installer. Latest release: v2.0.",
   notesEs: "Final Fantasy Tactics Advance (GBA, 2003) nativo en PC Windows, Linux y Steam Deck, con widescreen, opciones de vídeo/audio e instalador de un clic. Última release: v2.0.",
 };

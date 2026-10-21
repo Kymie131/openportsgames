@@ -20,6 +20,11 @@ export const birdAndBeansWii: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo DS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/62/Bird_%26_Beans_Cover.png",
+    alt: "Bird & Beans (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Bird & Beans / Pyoro (Nintendo, 2008) ported to Wii with both games, the original gameplay code and new menus. You need your own DSiWare ROM.",
   notesEs:

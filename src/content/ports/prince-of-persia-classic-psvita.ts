@@ -21,6 +21,11 @@ export const princeOfPersiaClassicPsvita: Port = {
   sourceVerified: true,
   originalSystems: ["Other"],
   related: ["prince-monogame"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/9d/PrinceOfPersiaClassicPsnCover.jpg",
+    alt: "Prince of Persia Classic (box art)",
+    credit: "Wikipedia",
+  },
   notes: "PS Vita homebrew port and wrapper for Prince of Persia Classic (the 2007 remake), built on the Android release with soloader-boilerplate. Guide included for installing it on the console. Latest release: v01.45.",
   notesEs: "Port y wrapper homebrew para PS Vita de Prince of Persia Classic (el remake de 2007), construido sobre la versión de Android con soloader-boilerplate. Incluye guía de instalación en la consola. Última release: v01.45.",
 };

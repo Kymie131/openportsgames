@@ -20,6 +20,11 @@ export const sonicTheFightersSwitch: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Arcade"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5b/Sonic_the_Fighters.png",
+    alt: "Sonic the Fighters (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Sonic the Fighters (Sega, 1996) running on Nintendo Switch through source port. Latest release: 0.8.3. You need your own copy of the game.",
   notesEs: "Sonic the Fighters (Sega, 1996) en Nintendo Switch mediante port de código. Última release: 0.8.3. Necesitas tu propia copia del juego.",
 };

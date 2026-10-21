@@ -20,6 +20,11 @@ export const gzselacoAndroidDualScreen: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1592280/header.jpg",
+    alt: "Selaco (cover art)",
+    credit: "Steam",
+  },
   notes: "Selaco (Altered Orbit Studios, 2024) for Android (source port). Latest release: v0.2.0. Needs your own copy of the game.",
   notesEs: "Selaco (Altered Orbit Studios, 2024) para Android (port de código). Última release: v0.2.0. Necesita tu propia copia del juego.",
 };

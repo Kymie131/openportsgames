@@ -20,6 +20,11 @@ export const jazz2Ressurection: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f0/Jazz_Jackrabbit_2.PNG",
+    alt: "Jazz Jackrabbit 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Jazz Jackrabbit 2 (Epic MegaGames, 1998) for Android (source port). Latest release: 3.9.0. Needs your own copy of the game (Game Files).",
   notesEs: "Jazz Jackrabbit 2 (Epic MegaGames, 1998) para Android (port de código). Última release: 3.9.0. Necesita tu propia copia del juego.",
 };

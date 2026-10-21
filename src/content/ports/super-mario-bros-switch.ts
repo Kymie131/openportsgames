@@ -20,6 +20,11 @@ export const superMarioBrosSwitch: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo Entertainment System"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png",
+    alt: "Super Mario Bros. (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Super Mario Bros. (Nintendo, 1985) running on Nintendo Switch through source port. You need your own copy of the game.",
   notesEs: "Super Mario Bros. (Nintendo, 1985) en Nintendo Switch mediante port de código. Necesitas tu propia copia del juego.",
 };

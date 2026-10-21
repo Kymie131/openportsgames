@@ -20,6 +20,11 @@ export const wweSmackdownVsRaw2011Recomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/79/Wwe_svr_11_cover_art.jpg",
+    alt: "WWE SmackDown vs. Raw 2011 (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Native Windows port of WWE SmackDown vs. Raw 2011 (Xbox 360, 2010). The game's code is statically recompiled to C++ (ReXGlue SDK) and built into an ordinary Windows program on a Xenia-derived runtime, Direct3D 12, XAudio2 and XInput. Adds 720p/900p/1080p/1440p/4K, anti-aliasing, VSync and 60 fps. Bring your own disc. Latest release: v2.1.3.",
   notesEs:

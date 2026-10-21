@@ -21,6 +21,11 @@ export const zelda64RecompAndroid: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["zelda64-recomp","maskpad"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg",
+    alt: "The Legend of Zelda: Majora's Mask (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Android port of Zelda64 Recompiled, the Majora's Mask (Nintendo 64, 2000) recompilation. Bring your own ROM. Latest release: 0.6.10.",
   notesEs: "Port para Android de Zelda64 Recompiled, la recompilación de Majora's Mask (Nintendo 64, 2000). Aporta tu propia ROM. Última release: 0.6.10.",
 };

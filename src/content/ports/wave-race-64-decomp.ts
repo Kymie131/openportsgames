@@ -21,6 +21,11 @@ export const waveRace64Decomp: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["wave-race-64-recompiled","race-wave-46"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e6/Wave_Race_64_Coverart.png",
+    alt: "Wave Race 64 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Early work-in-progress decompilation of Wave Race 64 (Nintendo 64, 1996). No playable release of its own.",
   notesEs: "Decompilación temprana y en curso de Wave Race 64 (Nintendo 64, 1996). Sin release jugable propia.",
 };

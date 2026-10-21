@@ -20,6 +20,11 @@ export const armyMenSargeSHeroesPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/75/Army_Men_Sarge%E2%80%99s_Heroes_Cover.jpg",
+    alt: "Army Men: Sarge's Heroes (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Army Men: Sarge's Heroes (3DO, 1999) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Army Men: Sarge's Heroes (3DO, 1999) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

@@ -21,6 +21,11 @@ export const isaacRebirthAndroid: Port = {
   sourceVerified: true,
   originalSystems: ["Windows"],
   related: ["the-binding-of-isaac-repentance","the-browsing-of-isaac","isaac-flash-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e1/The_Binding_of_Issac_Rebirth_cover.jpg",
+    alt: "The Binding of Isaac: Rebirth (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Clean-room C++17 engine for The Binding of Isaac: Rebirth/Repentance that reads your own Steam install at runtime and ships no game assets. Mobile-first (arm64 Android), then Linux x86_64.",
   notesEs: "Motor C++17 de desarrollo limpio para The Binding of Isaac: Rebirth/Repentance que lee tu propia instalación de Steam en tiempo de ejecución y no incluye assets del juego. Primero móvil (Android arm64) y luego Linux x86_64.",
 };

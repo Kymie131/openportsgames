@@ -21,6 +21,11 @@ export const slyCooperDecomp: Port = {
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
   related: ["sly-cooper-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8e/SlyCooper2002cover.jpg",
+    alt: "Sly Cooper and the Thievius Raccoonus (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Decompilation of Sly Cooper and the Thievius Raccoonus (PlayStation 2, 2002). Work in progress; it builds the game from your own disc.",
   notesEs: "Decompilación de Sly Cooper and the Thievius Raccoonus (PlayStation 2, 2002). En desarrollo; compila el juego desde tu propio disco.",
 };

@@ -21,6 +21,11 @@ export const steinsGateRecomp: Port = {
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["project-eleven-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e4/Steins%3BGate_cover_art.jpg",
+    alt: "Steins;Gate (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Steins;Gate Xbox 360 recompilation for PC using ReXGlue, a follow-up to project-eleven sharing the same codebase. Latest tag: windows.",
   notesEs: "Recompilación para PC de Steins;Gate de Xbox 360 usando ReXGlue, continuación de project-eleven con el mismo código base. Último tag: windows.",
 };

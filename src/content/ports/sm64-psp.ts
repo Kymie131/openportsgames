@@ -26,6 +26,11 @@ export const sm64Psp: Port = {
   },
   originalSystems: ["Nintendo 64"],
   related: ["sm64ex"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
+    alt: "Super Mario 64 (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Super Mario 64 (Nintendo, 1996) running natively on PSP, based on the sm64-port decompilation. It requires your own ROM and includes no game data.",
   notesEs:

@@ -21,6 +21,11 @@ export const shipOfHarkinianAndroid: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["ship-of-harkinian"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
+    alt: "The Legend of Zelda: Ocarina of Time (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Unofficial Android fork of Ship of Harkinian, the native port of The Legend of Zelda: Ocarina of Time (Nintendo 64, 1998). Latest release: v9.3.0-android.1.",
   notesEs: "Fork no oficial para Android de Ship of Harkinian, el port nativo de The Legend of Zelda: Ocarina of Time (Nintendo 64, 1998). Última release: v9.3.0-android.1.",
 };

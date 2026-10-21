@@ -20,6 +20,11 @@ export const undeadNeighborEatersAndroidNativePort: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/75/Zombies_Ate_My_Neighbors_box.jpg",
+    alt: "Zombies Ate My Neighbors (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Zombies Ate My Neighbors (Konami, 1993) for Android (source port). Latest release: DROID. Needs your own copy of the game.",
   notesEs: "Zombies Ate My Neighbors (Konami, 1993) para Android (port de código). Última release: DROID. Necesita tu propia copia del juego.",
 };

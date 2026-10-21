@@ -20,6 +20,11 @@ export const granTurismo4Pc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/06/Gran_Turismo_4.jpg",
+    alt: "Gran Turismo 4 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Gran Turismo 4 (Polyphony Digital, 2004) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Gran Turismo 4 (Polyphony Digital, 2004) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

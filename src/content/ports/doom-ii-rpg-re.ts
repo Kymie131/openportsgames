@@ -21,6 +21,11 @@ export const doomIiRpgRe: Port = {
   sourceVerified: true,
   originalSystems: ["Other"],
   related: ["doom-rpg-re"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f6/Doom_II_RPG_cover.jpg",
+    alt: "Doom II RPG (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Reverse engineering of Doom II RPG, the mobile sequel to Doom RPG, by the [GEC] group. Latest release: v.0.1 (2023).",
   notesEs: "Ingeniería inversa de Doom II RPG, la secuela para móviles de Doom RPG, por el grupo [GEC]. Última release: v.0.1 (2023).",
 };

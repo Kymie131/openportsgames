@@ -21,6 +21,11 @@ export const marioKartWiiAndroid: Port = {
   sourceVerified: true,
   originalSystems: ["Wii"],
   related: ["wiicompiled"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png",
+    alt: "Mario Kart Wii (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Native Android port of Mario Kart Wii (built on WiiCompiled, a static recompilation), adding touch controls, motion steering, a mobile settings sidebar, a launcher and an in-app way to build an install from your own game disc. No emulator, interpreter or JIT: the game runs as native ARM64 code. No Nintendo code or assets included. Latest release: v1.3.0.",
   notesEs:

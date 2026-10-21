@@ -21,6 +21,11 @@ export const harvestMoon64Android: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["harvest-moon-64-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6a/Harvest_Moon_64_Coverart.png",
+    alt: "Harvest Moon 64 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Android port of Harvest Moon 64 (Nintendo 64, 1999) made with N64: Recompiled. Bring your own ROM. Latest release: v0.2.0.",
   notesEs: "Port para Android de Harvest Moon 64 (Nintendo 64, 1999) hecho con N64: Recompiled. Aporta tu propia ROM. Última release: v0.2.0.",
 };

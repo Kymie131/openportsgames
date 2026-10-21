@@ -20,6 +20,11 @@ export const minicraftDs: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/d/db/Minicraft_Title_Screen.png",
+    alt: "Minicraft (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Minicraft (Notch, 2011) running on Nintendo DS through source port. Latest release: v1.0.0-beta.3. You need your own copy of the game.",
   notesEs: "Minicraft (Notch, 2011) en Nintendo DS mediante port de código. Última release: v1.0.0-beta.3. Necesitas tu propia copia del juego.",
 };

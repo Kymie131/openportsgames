@@ -21,6 +21,11 @@ export const partyboard: Port = {
   sourceVerified: true,
   originalSystems: ["GameCube"],
   related: ["mario-party-4-recomp","mario-party-4-pc-zeranemesis"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/58/Mario_Party_4.jpg",
+    alt: "Mario Party 4 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "PartyBoard: work-in-progress PC port of Mario Party 4 (GameCube, 2002). No release yet.",
   notesEs: "PartyBoard: port a PC en desarrollo de Mario Party 4 (GameCube, 2002). Sin release todavía.",
 };

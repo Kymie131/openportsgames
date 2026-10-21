@@ -20,6 +20,11 @@ export const hybridHeavenPcDanielgomesvieira2000: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/db/Hybridheaven.jpg",
+    alt: "Hybrid Heaven (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Hybrid Heaven (Konami, 1999) running on Windows through static recompilation. Latest release: v0.2.0. You need your own copy of the game.",
   notesEs: "Hybrid Heaven (Konami, 1999) en Windows mediante recompilación estática. Última release: v0.2.0. Necesitas tu propia copia del juego.",
 };

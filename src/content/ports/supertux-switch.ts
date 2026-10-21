@@ -20,6 +20,11 @@ export const supertuxSwitch: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1572920/header.jpg",
+    alt: "SuperTux (cover art)",
+    credit: "Steam",
+  },
   notes: "SuperTux (SuperTux team, 2003) running on Nintendo Switch through source port. Latest release: v0.1.1b. The original game is free software, so no commercial copy is needed.",
   notesEs: "SuperTux (SuperTux team, 2003) en Nintendo Switch mediante port de código. Última release: v0.1.1b. El juego original es software libre, así que no hace falta una copia comercial.",
 };

@@ -19,6 +19,11 @@ export const Nocturne: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1374860/header.jpg",
+    alt: "Nocturne (cover art)",
+    credit: "Steam",
+  },
   notes: "Nocturne Decompilation.",
   notesEs: "Decompilación de Nocturne.",
 };

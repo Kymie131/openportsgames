@@ -22,6 +22,11 @@ export const lookingGlass: Port = {
   originalSystems: ["Windows"],
   warning: "This Android port distributes the game's own files, so it is not built from a copy you own. Its legal situation differs from the rest of the catalog and it may be removed.",
   warningEs: "Este port de Android distribuye los archivos del propio juego, así que no se construye desde una copia tuya. Su situación legal es distinta a la del resto del catálogo y puede ser retirada.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a9/American_McGee_Alice_cover.png",
+    alt: "American McGee's Alice (box art)",
+    credit: "Wikipedia",
+  },
   notes: "American McGee's Alice (Electronic Arts, 2000) for Android (source port). Latest release: Four. It ships the game files with the port, so it does not build from your own copy.",
   notesEs: "American McGee's Alice (Electronic Arts, 2000) para Android (port de código). Última release: Four. Distribuye los archivos del propio juego con el port, así que no se construye desde tu propia copia.",
 };

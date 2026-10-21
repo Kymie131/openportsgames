@@ -21,6 +21,11 @@ export const zelda3Android: Port = {
   sourceVerified: true,
   originalSystems: ["Super Nintendo"],
   related: ["zelda3"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg",
+    alt: "The Legend of Zelda: A Link to the Past (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Port of the zelda3 reimplementation of A Link to the Past (Super Nintendo, 1991) to Android. Bring your own ROM. Latest release: v2.0.",
   notesEs: "Port a Android de la reimplementación zelda3 de A Link to the Past (Super Nintendo, 1991). Aporta tu propia ROM. Última release: v2.0.",
 };

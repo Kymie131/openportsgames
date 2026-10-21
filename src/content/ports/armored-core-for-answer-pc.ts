@@ -20,6 +20,11 @@ export const armoredCoreForAnswerPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 3"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/29/Armored_Core_for_Answer_cover_art.PNG",
+    alt: "Armored Core: For Answer (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Armored Core: For Answer (FromSoftware, 2008) running on Windows through static recompilation. Latest release: v0.7.2. You need your own copy of the game.",
   notesEs: "Armored Core: For Answer (FromSoftware, 2008) en Windows mediante recompilación estática. Última release: v0.7.2. Necesitas tu propia copia del juego.",
 };

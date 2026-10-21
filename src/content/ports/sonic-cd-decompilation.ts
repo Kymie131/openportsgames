@@ -21,6 +21,11 @@ export const sonicCdDecompilation: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["Sega CD / Mega-CD"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e1/Sonic_CD_North_American_cover_art.jpg",
+    alt: "Sonic CD (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Complete decompilation of the 2011 Sonic CD remaster (Retro Engine v3), playable on Windows, Linux and macOS with both soundtracks and Tails. Requires the 2011 game data.",
   notesEs: "DescompilaciÃ³n completa del remaster de Sonic CD de 2011 (Retro Engine v3), jugable en Windows, Linux y macOS con ambas bandas sonoras y Tails. Requiere los datos del juego de 2011.",
 };

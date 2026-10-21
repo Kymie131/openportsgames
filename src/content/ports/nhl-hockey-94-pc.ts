@@ -20,6 +20,11 @@ export const nhlHockey94Pc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Sega Mega Drive / Genesis"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/40/NHL_%2794_Cover.jpg",
+    alt: "NHL '94 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "NHL '94 (Electronic Arts, 1993) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "NHL '94 (Electronic Arts, 1993) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

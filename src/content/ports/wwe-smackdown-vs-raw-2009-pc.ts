@@ -20,6 +20,11 @@ export const wweSmackdownVsRaw2009Pc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/be/SmackDownvsRaw09.jpg",
+    alt: "WWE SmackDown vs. Raw 2009 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "WWE SmackDown vs. Raw 2009 (THQ, 2008) running on Windows and Linux through static recompilation. Latest release: v0.6.6. You need your own copy of the game.",
   notesEs: "WWE SmackDown vs. Raw 2009 (THQ, 2008) en Windows and Linux mediante recompilación estática. Última release: v0.6.6. Necesitas tu propia copia del juego.",
 };

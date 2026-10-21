@@ -20,6 +20,11 @@ export const conkerSBadFurDayReloaded: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/99/Conkersbfdbox.jpg",
+    alt: "Conker's Bad Fur Day (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Conker's Bad Fur Day (Rare, 2001) running on Windows and Linux through static recompilation. Latest release: v1.4.1. You need your own copy of the game.",
   notesEs: "Conker's Bad Fur Day (Rare, 2001) en Windows and Linux mediante recompilación estática. Última release: v1.4.1. Necesitas tu propia copia del juego.",
 };

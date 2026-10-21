@@ -21,6 +21,11 @@ export const supertuxWii: Port = {
   sourceVerified: true,
   originalSystems: ["Windows"],
   related: ["supertux-switch", "supertux-ds", "supertux-milestone-2-vita-switch-ps3"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1572920/header.jpg",
+    alt: "SuperTux (cover art)",
+    credit: "Steam",
+  },
   notes:
     "SuperTux Milestone 1 (SuperTux team, 2003) ported to Wii with bug fixes and performance work. The original game is free software, so no copy is needed.",
   notesEs:
