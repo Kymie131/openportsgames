@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const whiteAlbum2Android: Port = {
+  schema: "port",
+  id: "white-album-2-android",
+  title: "WHITE ALBUM2 (Android)",
+  game: "WHITE ALBUM2",
+  developers: ["dorakyuraduang"],
+  publisher: "Aquaplus",
+  originalYear: 2011,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "windows"],
+  status: "alpha",
+  release: { version: "0.3.0-beta", date: "2026-08-31" },
+  sources: ["https://github.com/dorakyuraduang/whitealbum2-Android"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Windows"],
+  notes: "Static recompilation project for WHITE ALBUM2 with Windows x64 and Android ARM64 targets. Bring your own game files.",
+  notesEs: "Proyecto de recompilación estática de WHITE ALBUM2 con objetivos Windows x64 y Android ARM64. Aporta tus propios archivos del juego.",
+};

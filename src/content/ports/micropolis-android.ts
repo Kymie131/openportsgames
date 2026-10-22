@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const micropolisAndroid: Port = {
+  schema: "port",
+  id: "micropolis-android",
+  title: "Micropolis (Android)",
+  game: "Micropolis",
+  developers: ["ds17f"],
+  publisher: "Maxis",
+  originalYear: 1989,
+  portType: "reimplementation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "0.1.7", date: "2026-09-30" },
+  sources: ["https://github.com/ds17f/andropolis"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["MS-DOS"],
+  notes: "Native Android port of Micropolis, the open-source SimCity engine, running the MicropolisCore C++ core through NDK and JNI.",
+  notesEs: "Port nativo para Android de Micropolis, el motor open source de SimCity, ejecutando el núcleo C++ MicropolisCore mediante NDK y JNI.",
+};

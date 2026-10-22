@@ -1,5 +1,14 @@
 import type { Port } from "@/lib/ports/schema";
 import { sm64ex } from "./sm64ex";
+import { aerofoilAndroid } from "./aerofoil-android";
+import { micropolisAndroid } from "./micropolis-android";
+import { prehistorik2Android } from "./prehistorik-2-android";
+import { richman4Android } from "./richman-4-android";
+import { spaceRangersHdAndroid } from "./space-rangers-hd-android";
+import { touhou6Sdl2Android } from "./touhou-6-sdl2-android";
+import { whiteAlbum2Android } from "./white-album-2-android";
+import { ultima5Android } from "./ultima-5-android";
+import { openttdAndroid } from "./openttd-android";
 import { colinMcraeRally2Android } from "./colin-mcrae-rally-2-android";
 import { cncRedAlertAndroid } from "./cnc-red-alert-android";
 import { cncTiberianDawnAndroid } from "./cnc-tiberian-dawn-android";
@@ -3954,4 +3963,13 @@ export const portCases: Port[] = [
   kensLabyrinthAndroid,
   spoutAndroid,
   buffyChaosBleedsAndroid,
+  aerofoilAndroid,
+  micropolisAndroid,
+  prehistorik2Android,
+  richman4Android,
+  spaceRangersHdAndroid,
+  touhou6Sdl2Android,
+  whiteAlbum2Android,
+  ultima5Android,
+  openttdAndroid,
 ];

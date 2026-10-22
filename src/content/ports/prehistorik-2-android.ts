@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const prehistorik2Android: Port = {
+  schema: "port",
+  id: "prehistorik-2-android",
+  title: "Prehistorik 2 (Android)",
+  game: "Prehistorik 2",
+  developers: ["missingno7"],
+  publisher: "Titus Interactive",
+  originalYear: 1993,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "0.4.0", date: "2026-07-12" },
+  sources: ["https://github.com/missingno7/pre2_port"],
+  license: { spdx: "NOASSERTION", note: "no license file in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["MS-DOS"],
+  notes: "Source-port workbench for Prehistorik 2 with an arm64 Android APK. Bring your own copy of the DOS game.",
+  notesEs: "Banco de trabajo de código fuente de Prehistorik 2 con APK arm64 para Android. Aporta tu propia copia del juego de DOS.",
+};

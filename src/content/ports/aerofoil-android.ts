@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const aerofoilAndroid: Port = {
+  schema: "port",
+  id: "aerofoil-android",
+  title: "Aerofoil (Glider PRO)",
+  game: "Glider PRO",
+  developers: ["elasota"],
+  publisher: "Casady & Greene",
+  originalYear: 1994,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "stable",
+  release: { version: "1.1.2", date: "2021-11-10" },
+  sources: ["https://github.com/elasota/Aerofoil"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Macintosh"],
+  notes: "Multiplatform port of Glider PRO, the classic Macintosh paper airplane game, with an Android build and the original house layouts.",
+  notesEs: "Port multiplataforma de Glider PRO, el clásico juego de aviones de papel de Macintosh, con build para Android y las casas originales.",
+};

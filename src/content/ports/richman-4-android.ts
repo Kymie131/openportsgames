@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const richman4Android: Port = {
+  schema: "port",
+  id: "richman-4-android",
+  title: "Richman 4 (Android)",
+  game: "Richman 4",
+  developers: ["lhr0909"],
+  publisher: "Softstar",
+  originalYear: 1998,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/lhr0909/richman4-remastered"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Windows"],
+  notes: "Native C++ and SDL3 port of Richman 4 (大富翁4) for macOS and Android. Requires your own copy of the game.",
+  notesEs: "Port nativo en C++ y SDL3 de Richman 4 (大富翁4) para macOS y Android. Requiere tu propia copia del juego.",
+};

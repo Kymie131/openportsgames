@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const touhou6Sdl2Android: Port = {
+  schema: "port",
+  id: "touhou-6-sdl2-android",
+  title: "Touhou 6 (SDL2)",
+  game: "Touhou 6: The Embodiment of Scarlet Devil",
+  developers: ["CNTianQi233"],
+  publisher: "Team Shanghai Alice",
+  originalYear: 2002,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "1.1.0", date: "2026-05-20" },
+  sources: ["https://github.com/CNTianQi233/th06-sdl2"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8b/Th06cover.jpg",
+    alt: "Touhou 6: The Embodiment of Scarlet Devil (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Rebuild of the Touhou 6 decompilation that replaces Direct3D 8 with SDL2 and OpenGL, adding an Android build. Bring your own game data.",
+  notesEs: "Reconstrucción de la descompilación de Touhou 6 que sustituye Direct3D 8 por SDL2 y OpenGL, añadiendo build para Android. Aporta tus propios datos del juego.",
+};

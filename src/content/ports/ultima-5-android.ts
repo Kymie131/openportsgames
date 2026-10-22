@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ultima5Android: Port = {
+  schema: "port",
+  id: "ultima-5-android",
+  title: "Ultima V (Android)",
+  game: "Ultima V: Warriors of Destiny",
+  developers: ["synthwave-pixel"],
+  publisher: "Origin Systems",
+  originalYear: 1988,
+  portType: "reimplementation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "1.1.140", date: "2026-10-22" },
+  sources: ["https://github.com/synthwave-pixel/ultima5"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["MS-DOS"],
+  notes: "Modernized Ultima V engine with an Android build, adding a touch-friendly interface on top of the original DOS role-playing game.",
+  notesEs: "Motor modernizado de Ultima V con build para Android, que añade una interfaz táctil sobre el juego de rol original de DOS.",
+};

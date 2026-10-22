@@ -1967,4 +1967,13 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "kens-labyrinth-android": ["MS-DOS"],
   "spout-android": ["Windows"],
   "buffy-chaos-bleeds-android": ["Xbox"],
+  "aerofoil-android": ["Macintosh"],
+  "micropolis-android": ["MS-DOS"],
+  "prehistorik-2-android": ["MS-DOS"],
+  "richman-4-android": ["Windows"],
+  "space-rangers-hd-android": ["Windows"],
+  "touhou-6-sdl2-android": ["Windows"],
+  "white-album-2-android": ["Windows"],
+  "ultima-5-android": ["MS-DOS"],
+  "openttd-android": ["MS-DOS"],
 };

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const openttdAndroid: Port = {
+  schema: "port",
+  id: "openttd-android",
+  title: "OpenTTD (Android)",
+  game: "Transport Tycoon Deluxe",
+  developers: ["pelya"],
+  publisher: "MicroProse",
+  originalYear: 1994,
+  portType: "reimplementation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "1.9.1", date: "2019-04-26" },
+  sources: ["https://github.com/pelya/openttd-android"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["MS-DOS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7f/Transport_Tycoon_Coverart.jpg",
+    alt: "Transport Tycoon Deluxe (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Android build of OpenTTD with touch controls and the full transport management simulation.",
+  notesEs: "Build para Android de OpenTTD con controles táctiles y toda la simulación de gestión de transporte.",
+};

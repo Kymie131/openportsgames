@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const spaceRangersHdAndroid: Port = {
+  schema: "port",
+  id: "space-rangers-hd-android",
+  title: "Space Rangers HD (Android)",
+  game: "Space Rangers HD: A War Apart",
+  developers: ["pakompom"],
+  publisher: "1C Company",
+  originalYear: 2013,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "windows", "linux"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/pakompom/SpaceRangersHD_FPC"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/214730/header.jpg",
+    alt: "Space Rangers HD: A War Apart (box art)",
+    credit: "Steam",
+  },
+  notes: "Cross-platform port of Space Rangers HD: A War Apart built from the decompilation, with an Android arm64 APK. No game data included.",
+  notesEs: "Port multiplataforma de Space Rangers HD: A War Apart construido desde la descompilación, con APK arm64 para Android. No incluye datos del juego.",
+};
