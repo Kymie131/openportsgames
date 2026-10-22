@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mdkAndroid: Port = {
+  schema: "port",
+  id: "mdk-android",
+  title: "MDK (Android)",
+  game: "MDK",
+  developers: ["nautilusbits"],
+  publisher: "Interplay Entertainment",
+  originalYear: 1997,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "windows"],
+  status: "beta",
+  release: { version: "1.1.1", date: "2026-10-20" },
+  sources: ["https://github.com/nautilusbits/mdk-sdl"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/MDK%20(Europe)%20(En,Fr,De,Es,It).png",
+    alt: "MDK (box art)",
+    credit: "Box art",
+  },
+  notes: "C# and SDL3 port of MDK based on reverse engineering, with Android builds, stereo 3D, a Cardboard VR viewer and gamepad support. Work in progress.",
+  notesEs: "Port de MDK en C# y SDL3 basado en ingeniería inversa, con builds para Android, estéreo 3D, visor VR Cardboard y mando. En desarrollo.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const brogueAndroid: Port = {
+  schema: "port",
+  id: "brogue-android",
+  title: "Brogue (Android)",
+  game: "Brogue",
+  developers: ["bilgincoskun"],
+  publisher: "Independent",
+  originalYear: 2009,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "0.12.5.2", date: "2023-03-14" },
+  sources: ["https://github.com/bilgincoskun/brogue-android-port"],
+  license: { spdx: "AGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Windows"],
+  notes: "Android port of the Brogue roguelike, with touch controls and the original dungeon crawl.",
+  notesEs: "Port para Android del roguelike Brogue, con controles táctiles y el descenso de mazmorras original.",
+};

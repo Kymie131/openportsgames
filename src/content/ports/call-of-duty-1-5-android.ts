@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const callOfDuty15Android: Port = {
+  schema: "port",
+  id: "call-of-duty-1-5-android",
+  title: "Call of Duty 1.5 (Android)",
+  game: "Call of Duty",
+  developers: ["Dr3amyBerry"],
+  publisher: "Activision",
+  originalYear: 2003,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: "0.2.4", date: "2026-10-15" },
+  sources: ["https://github.com/Dr3amyBerry/callofrecomp"],
+  license: { spdx: "NOASSERTION", note: "no license file in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Windows"],
+  notes: "Experimental static recompilation of classic Call of Duty 1.5 for Android. Bring your own original PC game files.",
+  notesEs: "Recompilación estática experimental de Call of Duty 1.5 clásico para Android. Aporta tus archivos originales del juego de PC.",
+};

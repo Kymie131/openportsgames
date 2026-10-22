@@ -1,5 +1,24 @@
 import type { Port } from "@/lib/ports/schema";
 import { sm64ex } from "./sm64ex";
+import { colinMcraeRally2Android } from "./colin-mcrae-rally-2-android";
+import { cncRedAlertAndroid } from "./cnc-red-alert-android";
+import { cncTiberianDawnAndroid } from "./cnc-tiberian-dawn-android";
+import { knyttStoriesAndroid } from "./knytt-stories-android";
+import { mdkAndroid } from "./mdk-android";
+import { raptorAndroid } from "./raptor-android";
+import { tyrian2000Android } from "./tyrian-2000-android";
+import { apotrisAndroid } from "./apotris-android";
+import { oracleOfAgesGodot } from "./oracle-of-ages-godot";
+import { dbzBurstLimitRecompAndroid } from "./dbz-burst-limit-recomp-android";
+import { callOfDuty15Android } from "./call-of-duty-1-5-android";
+import { roadTripAndroid } from "./road-trip-android";
+import { seriousSamSecondEncounterAndroid } from "./serious-sam-second-encounter-android";
+import { spaceCadetPinballAndroid } from "./space-cadet-pinball-android";
+import { warcraft2Android } from "./warcraft-2-android";
+import { brogueAndroid } from "./brogue-android";
+import { kensLabyrinthAndroid } from "./kens-labyrinth-android";
+import { spoutAndroid } from "./spout-android";
+import { buffyChaosBleedsAndroid } from "./buffy-chaos-bleeds-android";
 import { haloCeAndroid } from "./halo-ce-android";
 import { blackAndroid } from "./black-android";
 import { shaolinMonksAndroid } from "./shaolin-monks-android";
@@ -3916,4 +3935,23 @@ export const portCases: Port[] = [
   openmwAndroidAndiweli,
   spelunkyClassicHdAndroid,
   zumaDeluxePortable,
+  colinMcraeRally2Android,
+  cncRedAlertAndroid,
+  cncTiberianDawnAndroid,
+  knyttStoriesAndroid,
+  mdkAndroid,
+  raptorAndroid,
+  tyrian2000Android,
+  apotrisAndroid,
+  oracleOfAgesGodot,
+  dbzBurstLimitRecompAndroid,
+  callOfDuty15Android,
+  roadTripAndroid,
+  seriousSamSecondEncounterAndroid,
+  spaceCadetPinballAndroid,
+  warcraft2Android,
+  brogueAndroid,
+  kensLabyrinthAndroid,
+  spoutAndroid,
+  buffyChaosBleedsAndroid,
 ];

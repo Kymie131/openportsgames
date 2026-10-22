@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tyrian2000Android: Port = {
+  schema: "port",
+  id: "tyrian-2000-android",
+  title: "Tyrian 2000 (Android)",
+  game: "Tyrian 2000",
+  developers: ["andyvand"],
+  publisher: "Epic MegaGames",
+  originalYear: 1999,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "3.0.0-SDL3", date: "2025-01-28" },
+  sources: ["https://github.com/andyvand/opentyrian2000"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["MS-DOS"],
+  notes: "Open-source port of Tyrian 2000 with an Android package in releases, built on the original DOS shoot-em-up data.",
+  notesEs: "Port de código abierto de Tyrian 2000 con paquete para Android en las releases, construido sobre los datos originales del shooter de DOS.",
+};

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const spaceCadetPinballAndroid: Port = {
+  schema: "port",
+  id: "space-cadet-pinball-android",
+  title: "3D Pinball Space Cadet (Android)",
+  game: "3D Pinball for Windows: Space Cadet",
+  developers: ["iscle"],
+  publisher: "Microsoft",
+  originalYear: 1995,
+  portType: "reimplementation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/iscle/SpaceCadetPinball"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Space-cadet.png",
+    alt: "3D Pinball for Windows: Space Cadet (box art)",
+    credit: "Wikimedia Commons",
+  },
+  notes: "Android port of 3D Pinball for Windows – Space Cadet, with touch controls and the original table.",
+  notesEs: "Port para Android de 3D Pinball for Windows – Space Cadet, con controles táctiles y la mesa original.",
+};

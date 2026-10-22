@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const cncRedAlertAndroid: Port = {
+  schema: "port",
+  id: "cnc-red-alert-android",
+  title: "Command & Conquer: Red Alert (Android)",
+  game: "Command & Conquer: Red Alert",
+  developers: ["dk8827"],
+  publisher: "Electronic Arts",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "linux", "macos"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/dk8827/ra-port"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/71/Cncra-win-cover.jpg",
+    alt: "Command & Conquer: Red Alert (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Unofficial native port of Command & Conquer: Red Alert for Android, iOS, Linux and macOS with SDL2 video, audio and input. No game assets included.",
+  notesEs: "Port nativo no oficial de Command & Conquer: Red Alert para Android, iOS, Linux y macOS con vídeo, audio y entrada SDL2. No incluye recursos del juego.",
+};

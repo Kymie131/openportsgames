@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const seriousSamSecondEncounterAndroid: Port = {
+  schema: "port",
+  id: "serious-sam-second-encounter-android",
+  title: "Serious Sam: The Second Encounter (Android)",
+  game: "Serious Sam: The Second Encounter",
+  developers: ["aarcangeli"],
+  publisher: "Croteam",
+  originalYear: 2002,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "1.04.0", date: "2019-05-19" },
+  sources: ["https://github.com/aarcangeli/Serious-Sam-Android"],
+  license: { spdx: "NOASSERTION", note: "no license file in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Windows"],
+  notes: "Android port of Serious Sam: The Second Encounter. Bring your own copy of the game.",
+  notesEs: "Port para Android de Serious Sam: The Second Encounter. Aporta tu propia copia del juego.",
+};

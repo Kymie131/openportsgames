@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const apotrisAndroid: Port = {
+  schema: "port",
+  id: "apotris-android",
+  title: "Apotris (Android)",
+  game: "Apotris",
+  developers: ["SanGraphic"],
+  publisher: "Independent",
+  originalYear: 2022,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/SanGraphic/Apotris-Android"],
+  license: { spdx: "NOASSERTION", note: "no license file in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Game Boy Advance"],
+  notes: "Unofficial native Android port of Apotris, built from the arm64 Linux version, with touch controls and the original block-stacking rules.",
+  notesEs: "Port nativo no oficial para Android de Apotris, construido desde la versión Linux arm64, con controles táctiles y las reglas originales de bloques.",
+};

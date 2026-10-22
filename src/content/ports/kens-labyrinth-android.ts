@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const kensLabyrinthAndroid: Port = {
+  schema: "port",
+  id: "kens-labyrinth-android",
+  title: "Ken's Labyrinth (Android)",
+  game: "Ken's Labyrinth",
+  developers: ["EXL"],
+  publisher: "Epic MegaGames",
+  originalYear: 1993,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "1.2", date: "2017-05-04" },
+  sources: ["https://github.com/EXL/KenLab3d"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["MS-DOS"],
+  notes: "Port of Ken's Labyrinth for Android using SDL2, with touch controls and the original levels.",
+  notesEs: "Port de Ken's Labyrinth para Android con SDL2, controles táctiles y los niveles originales.",
+};

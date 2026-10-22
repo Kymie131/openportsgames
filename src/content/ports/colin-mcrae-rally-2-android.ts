@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const colinMcraeRally2Android: Port = {
+  schema: "port",
+  id: "colin-mcrae-rally-2-android",
+  title: "Colin McRae Rally 2.0 (Android)",
+  game: "Colin McRae Rally 2.0",
+  developers: ["pablocpas"],
+  publisher: "Codemasters",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "windows"],
+  status: "beta",
+  release: { version: "1.5.5", date: "2026-10-21" },
+  sources: ["https://github.com/pablocpas/OpenCMR2"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Colin%20McRae%20Rally%202.0%20(Europe)%20(En,Fr,De,Es,It)%20(Rev%201).png",
+    alt: "Colin McRae Rally 2.0 (box art)",
+    credit: "Box art",
+  },
+  notes: "Native SDL3 port of Colin McRae Rally 2.0 built from the CMR2Decomp decompilation, with Android and Windows builds. No game data included.",
+  notesEs: "Port nativo con SDL3 de Colin McRae Rally 2.0 construido desde la descompilación CMR2Decomp, con builds para Android y Windows. No incluye datos del juego.",
+};

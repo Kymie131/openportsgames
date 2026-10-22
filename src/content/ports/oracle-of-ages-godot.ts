@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const oracleOfAgesGodot: Port = {
+  schema: "port",
+  id: "oracle-of-ages-godot",
+  title: "Oracle of Ages (Godot)",
+  game: "The Legend of Zelda: Oracle of Ages",
+  developers: ["SHOEGAZEssb"],
+  publisher: "Nintendo",
+  originalYear: 2001,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: "0.0.3", date: "2026-10-22" },
+  sources: ["https://github.com/SHOEGAZEssb/ooa-godot"],
+  license: { spdx: "NOASSERTION", note: "no license file in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Game Boy Color"],
+  notes: "In-progress Godot and C# reconstruction of The Legend of Zelda: Oracle of Ages based on the disassembly, with an Android arm64 APK.",
+  notesEs: "Reconstrucción en desarrollo de The Legend of Zelda: Oracle of Ages en Godot y C#, basada en la desensamblación, con APK arm64 para Android.",
+};

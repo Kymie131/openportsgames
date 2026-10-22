@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const knyttStoriesAndroid: Port = {
+  schema: "port",
+  id: "knytt-stories-android",
+  title: "Knytt Stories (Android)",
+  game: "Knytt Stories",
+  developers: ["youkaicountry"],
+  publisher: "Nicklas Nygren",
+  originalYear: 2007,
+  portType: "reimplementation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "0.7.3", date: "2026-07-08" },
+  sources: ["https://github.com/youkaicountry/yknytt"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Windows"],
+  notes: "Open-source Godot (C#) implementation of Knytt Stories with an Android APK in releases. Needs the original game data.",
+  notesEs: "Implementación de código abierto de Knytt Stories en Godot (C#) con APK para Android en las releases. Necesita los datos originales del juego.",
+};

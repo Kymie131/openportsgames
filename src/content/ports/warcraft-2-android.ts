@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const warcraft2Android: Port = {
+  schema: "port",
+  id: "warcraft-2-android",
+  title: "Warcraft II (Android)",
+  game: "Warcraft II: Tides of Darkness",
+  developers: ["blairisme"],
+  publisher: "Blizzard Entertainment",
+  originalYear: 1995,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "windows", "macos"],
+  status: "beta",
+  release: { version: "0.2.2", date: "2019-09-03" },
+  sources: ["https://github.com/blairisme/warcraft"],
+  license: { spdx: "MPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Windows"],
+  notes: "Warcraft II port for Android, Windows and macOS. Bring your own game data.",
+  notesEs: "Port de Warcraft II para Android, Windows y macOS. Aporta tus propios datos del juego.",
+};

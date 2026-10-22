@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const buffyChaosBleedsAndroid: Port = {
+  schema: "port",
+  id: "buffy-chaos-bleeds-android",
+  title: "Buffy the Vampire Slayer: Chaos Bleeds (Android)",
+  game: "Buffy the Vampire Slayer: Chaos Bleeds",
+  developers: ["KaikoClanworth1"],
+  publisher: "Vivendi Universal Games",
+  originalYear: 2003,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "windows"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-10-02" },
+  sources: ["https://github.com/KaikoClanworth1/buffy-chaos-bleeds-pc"],
+  license: { spdx: "NOASSERTION", note: "no license file in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Xbox"],
+  notes: "Native port of Buffy the Vampire Slayer: Chaos Bleeds (Xbox) for Windows and Android. Bring your own disc.",
+  notesEs: "Port nativo de Buffy the Vampire Slayer: Chaos Bleeds (Xbox) para Windows y Android. Aporta tu propio disco.",
+};

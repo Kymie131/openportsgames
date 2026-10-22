@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const dbzBurstLimitRecompAndroid: Port = {
+  schema: "port",
+  id: "dbz-burst-limit-recomp-android",
+  title: "Dragon Ball Z: Burst Limit (Android)",
+  game: "Dragon Ball Z: Burst Limit",
+  developers: ["dfdx047"],
+  publisher: "Bandai Namco",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "0.1.2", date: "2026-10-17" },
+  sources: ["https://github.com/dfdx047/Dragon-Burst"],
+  license: { spdx: "NOASSERTION", note: "no license file in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/55/Dragon_Ball_Z_Burst_Limit.jpg",
+    alt: "Dragon Ball Z: Burst Limit (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Native Android recompilation of Dragon Ball Z: Burst Limit with ReXGlue. Bring your own copy of the Xbox 360 game.",
+  notesEs: "Recompilación nativa para Android de Dragon Ball Z: Burst Limit con ReXGlue. Aporta tu propia copia del juego de Xbox 360.",
+};

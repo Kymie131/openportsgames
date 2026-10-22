@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const roadTripAndroid: Port = {
+  schema: "port",
+  id: "road-trip-android",
+  title: "Road Trip (Android)",
+  game: "Road Trip",
+  developers: ["silentsudin"],
+  publisher: "Takara",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "macos"],
+  status: "beta",
+  release: { version: "0.2.3", date: "2026-10-11" },
+  sources: ["https://github.com/silentsudin/RoadTripAdventure-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["PlayStation 2"],
+  notes: "Static recompilation of Road Trip (Choro Q HG 2) for Android and macOS, built from your own disc, with HD texture packs and a second-screen map.",
+  notesEs: "Recompilación estática de Road Trip (Choro Q HG 2) para Android y macOS, construida desde tu propio disco, con packs de texturas HD y mapa en segunda pantalla.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const raptorAndroid: Port = {
+  schema: "port",
+  id: "raptor-android",
+  title: "Raptor: Call of the Shadows (Android)",
+  game: "Raptor: Call of the Shadows",
+  developers: ["skynettx"],
+  publisher: "Apogee Software",
+  originalYear: 1994,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "0.8.2", date: "2026-09-28" },
+  sources: ["https://github.com/skynettx/raptor"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["MS-DOS"],
+  notes: "Reverse-engineered source port of Raptor: Call of the Shadows with an Android APK in releases. Bring your own game data.",
+  notesEs: "Port de código fuente de Raptor: Call of the Shadows obtenido por ingeniería inversa, con APK para Android en las releases. Aporta tus propios datos del juego.",
+};

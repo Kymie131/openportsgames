@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const spoutAndroid: Port = {
+  schema: "port",
+  id: "spout-android",
+  title: "Spout (Android)",
+  game: "Spout",
+  developers: ["EXL"],
+  publisher: "Independent",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "1.2", date: "2017-05-04" },
+  sources: ["https://github.com/EXL/Spout"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Windows"],
+  notes: "Port of Spout for Android using OpenGL ES, with the original cave-flying and block-drilling gameplay.",
+  notesEs: "Port de Spout para Android con OpenGL ES, con la jugabilidad original de volar por cuevas y perforar bloques.",
+};
