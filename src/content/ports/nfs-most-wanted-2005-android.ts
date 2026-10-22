@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nfsMostWanted2005Android: Port = {
+  schema: "port",
+  id: "nfs-most-wanted-2005-android",
+  title: "Need for Speed: Most Wanted (2005, Android)",
+  game: "Need for Speed: Most Wanted",
+  developers: ["codepdbh"],
+  publisher: "Electronic Arts",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "windows"],
+  status: "beta",
+  release: { version: "0.1.7", date: "2026-10-20" },
+  sources: ["https://github.com/codepdbh/nfsmwpc-recompiled"],
+  license: { spdx: "NOASSERTION", note: "no license file in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1262560/header.jpg",
+    alt: "Need for Speed: Most Wanted (box art)",
+    credit: "Steam",
+  },
+  notes: "Static recompilation of the 2005 PC version of Need for Speed: Most Wanted for native Android ARM64 and Windows. Bring your own game files.",
+  notesEs: "Recompilación estática de la versión de PC de 2005 de Need for Speed: Most Wanted para Android ARM64 y Windows nativos. Aporta tus propios archivos del juego.",
+};

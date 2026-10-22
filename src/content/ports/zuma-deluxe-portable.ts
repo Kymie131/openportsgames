@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const zumaDeluxePortable: Port = {
+  schema: "port",
+  id: "zuma-deluxe-portable",
+  title: "Zuma Deluxe (Portable)",
+  game: "Zuma Deluxe",
+  developers: ["abduznik"],
+  publisher: "PopCap Games",
+  originalYear: 2003,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "windows", "linux"],
+  status: "beta",
+  release: { version: "0.1.1", date: "2026-10-19" },
+  sources: ["https://github.com/abduznik/ZumaPortable"],
+  license: { spdx: "LGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/3330/header.jpg",
+    alt: "Zuma Deluxe (box art)",
+    credit: "Steam",
+  },
+  notes: "Open-source SDL2 port of Zuma Deluxe for Android, Windows and Linux. Bring your own game data.",
+  notesEs: "Port de código abierto con SDL2 de Zuma Deluxe para Android, Windows y Linux. Aporta tus propios datos del juego.",
+};

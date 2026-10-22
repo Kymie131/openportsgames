@@ -1,0 +1,468 @@
+// Batch of native Android ports from the curated awesome-android-native-ports
+// list that were missing from this catalog. Repositories and SPDX licenses were
+// checked through the GitHub API on 2026-10-22; releases are taken from each
+// repository's latest GitHub release.
+const fs = require("fs");
+const path = require("path");
+
+const ROOT = process.cwd();
+const DIR = path.join(ROOT, "src/content/ports");
+
+const E = [
+  {
+    id: "halo-ce-android",
+    title: "Halo: Combat Evolved (Android)",
+    game: "Halo: Combat Evolved",
+    dev: "FulGerNet",
+    pub: "Microsoft Game Studios",
+    year: 2001,
+    genre: "shooter",
+    sys: "Xbox",
+    type: "decompilation",
+    status: "beta",
+    version: "4.0",
+    date: "2026-10-11",
+    platforms: ["android"],
+    repo: "FulGerNet/halo-ce-android",
+    license: "CC0-1.0",
+    en: "Android port of the Halo: Combat Evolved decompilation, with touch controls and controller support. Bring your own copy of the Xbox game.",
+    es: "Port para Android de la descompilación de Halo: Combat Evolved, con controles táctiles y mando. Aporta tu propia copia del juego de Xbox.",
+  },
+  {
+    id: "black-android",
+    title: "BLACK (Android)",
+    game: "BLACK",
+    dev: "RanggaCasper",
+    pub: "Electronic Arts",
+    year: 2006,
+    genre: "shooter",
+    sys: "Xbox",
+    type: "recompilation",
+    status: "beta",
+    version: "1.5.0",
+    date: "2026-10-21",
+    platforms: ["android"],
+    repo: "RanggaCasper/Black-Android",
+    license: "MIT",
+    en: "Native Android port of BLACK (Xbox) with touch controls, gyroscope aiming, controller support and extended graphics options. Bring your own disc image.",
+    es: "Port nativo para Android de BLACK (Xbox) con controles táctiles, puntería por giroscopio, mando y opciones gráficas ampliadas. Aporta tu propio volcado del disco.",
+  },
+  {
+    id: "shaolin-monks-android",
+    title: "Mortal Kombat: Shaolin Monks (Android)",
+    game: "Mortal Kombat: Shaolin Monks",
+    dev: "RanggaCasper",
+    pub: "Midway Games",
+    year: 2005,
+    genre: "fighting",
+    sys: "Xbox",
+    type: "recompilation",
+    status: "beta",
+    version: "0.2",
+    date: "2026-10-21",
+    platforms: ["android"],
+    repo: "RanggaCasper/ShaolinMonks-Android",
+    license: "MIT",
+    en: "Android arm64 port of Mortal Kombat: Shaolin Monks (Xbox) via XboxXBE-Recomp, with Vulkan, touch/gamepad controls and CRT/FXAA filters. Bring your own disc image.",
+    es: "Port arm64 para Android de Mortal Kombat: Shaolin Monks (Xbox) con XboxXBE-Recomp, Vulkan, controles táctiles o mando y filtros CRT/FXAA. Aporta tu propio volcado del disco.",
+  },
+  {
+    id: "nfs-underground-android",
+    title: "Need for Speed: Underground (Android)",
+    game: "Need for Speed: Underground",
+    dev: "codepdbh",
+    pub: "Electronic Arts",
+    year: 2003,
+    genre: "racing",
+    sys: "PlayStation 2",
+    type: "recompilation",
+    status: "beta",
+    version: "0.2.5",
+    date: "2026-10-20",
+    platforms: ["android", "windows"],
+    repo: "codepdbh/nfsu1-recompiled",
+    license: "NOASSERTION",
+    licenseNote: "no license file in the repository",
+    en: "Static recompilation of Need for Speed: Underground (2003) to native Android and Windows code, with no emulator. Bring your own copy of the game.",
+    es: "Recompilación estática de Need for Speed: Underground (2003) a código nativo para Android y Windows, sin emulador. Aporta tu propia copia del juego.",
+  },
+  {
+    id: "nfs-most-wanted-2005-android",
+    title: "Need for Speed: Most Wanted (2005, Android)",
+    game: "Need for Speed: Most Wanted",
+    dev: "codepdbh",
+    pub: "Electronic Arts",
+    year: 2005,
+    genre: "racing",
+    sys: "Windows",
+    type: "recompilation",
+    status: "beta",
+    version: "0.1.7",
+    date: "2026-10-20",
+    platforms: ["android", "windows"],
+    repo: "codepdbh/nfsmwpc-recompiled",
+    license: "NOASSERTION",
+    licenseNote: "no license file in the repository",
+    en: "Static recompilation of the 2005 PC version of Need for Speed: Most Wanted for native Android ARM64 and Windows. Bring your own game files.",
+    es: "Recompilación estática de la versión de PC de 2005 de Need for Speed: Most Wanted para Android ARM64 y Windows nativos. Aporta tus propios archivos del juego.",
+  },
+  {
+    id: "nfs3-hot-pursuit-android-evolved",
+    title: "Need for Speed III: Hot Pursuit (Android Evolved)",
+    game: "Need for Speed III: Hot Pursuit",
+    dev: "codepdbh",
+    pub: "Electronic Arts",
+    year: 1998,
+    genre: "racing",
+    sys: "Windows",
+    type: "recompilation",
+    status: "beta",
+    version: "0.3.2",
+    date: "2026-10-09",
+    platforms: ["android"],
+    repo: "codepdbh/NFS3-HP-AndroidEvolved",
+    license: "NOASSERTION",
+    licenseNote: "no license file in the repository",
+    en: "Native ARM64 Android port of Need for Speed III: Hot Pursuit based on the nfs-recompiled project. Original game data required.",
+    es: "Port nativo ARM64 para Android de Need for Speed III: Hot Pursuit basado en el proyecto nfs-recompiled. Requiere los datos originales del juego.",
+  },
+  {
+    id: "prince-of-persia-sands-of-time-android",
+    title: "Prince of Persia: The Sands of Time (Android)",
+    game: "Prince of Persia: The Sands of Time",
+    dev: "FulGerNet",
+    pub: "Ubisoft",
+    year: 2003,
+    genre: "action-adventure",
+    sys: "Xbox",
+    type: "recompilation",
+    status: "beta",
+    version: "0.2.0",
+    date: "2026-10-21",
+    platforms: ["android", "windows"],
+    repo: "FulGerNet/rePOP",
+    license: "NOASSERTION",
+    licenseNote: "no SPDX license in the repository",
+    en: "Static recompilation of the original Xbox Prince of Persia trilogy for Android and PC, starting with The Sands of Time. Bring your own disc.",
+    es: "Recompilación estática de la trilogía original de Prince of Persia de Xbox para Android y PC, empezando por The Sands of Time. Aporta tu propio disco.",
+  },
+  {
+    id: "mario-party-6-native",
+    title: "Mario Party 6 (Native Port)",
+    game: "Mario Party 6",
+    dev: "iirg4x",
+    pub: "Nintendo",
+    year: 2004,
+    genre: "puzzle",
+    sys: "GameCube",
+    type: "recompilation",
+    status: "beta",
+    version: "0.4.0",
+    date: "2026-09-12",
+    platforms: ["android", "windows"],
+    repo: "iirg4x/mp6-native-port",
+    license: "NOASSERTION",
+    licenseNote: "no license file in the repository",
+    en: "Native Windows and Android port of Mario Party 6 built on the byte-accurate GameCube decompilation. Game files are not included; supply your own disc.",
+    es: "Port nativo para Windows y Android de Mario Party 6 sobre la descompilación byte-exacta de GameCube. No incluye archivos del juego; aporta tu propio disco.",
+  },
+  {
+    id: "twilight-princess-dusklight-dual-screen",
+    title: "Twilight Princess (Dusklight Dual Screen)",
+    game: "The Legend of Zelda: Twilight Princess",
+    dev: "igawa6",
+    pub: "Nintendo",
+    year: 2006,
+    genre: "action-adventure",
+    sys: "GameCube",
+    type: "source-port",
+    status: "beta",
+    version: "2.0.3-ds-3.0.3",
+    date: "2026-10-06",
+    platforms: ["android"],
+    repo: "igawa6/dusklight",
+    license: "CC0-1.0",
+    en: "Android fork of Dusklight (Twilight Princess) with a second-screen layout for dual-screen handhelds such as the AYN Thor. Requires your own game files.",
+    es: "Fork para Android de Dusklight (Twilight Princess) con diseño de segunda pantalla para handhelds de doble pantalla como la AYN Thor. Requiere tus propios archivos del juego.",
+  },
+  {
+    id: "kingdom-hearts-com-android",
+    title: "Kingdom Hearts: Chain of Memories (ReKHCoM)",
+    game: "Kingdom Hearts: Chain of Memories",
+    dev: "MatyMeatBoy",
+    pub: "Square Enix",
+    year: 2004,
+    genre: "rpg",
+    sys: "Game Boy Advance",
+    type: "decompilation",
+    status: "alpha",
+    version: "1.9.14",
+    date: "2026-10-21",
+    platforms: ["android", "windows"],
+    repo: "MatyMeatBoy/ReKHCoM",
+    license: "CC0-1.0",
+    en: "Android alpha of the Kingdom Hearts: Chain of Memories decompilation, with widescreen support and optional touch controls. Bring your own cartridge.",
+    es: "Alpha para Android de la descompilación de Kingdom Hearts: Chain of Memories, con pantalla ancha y controles táctiles opcionales. Aporta tu propio cartucho.",
+  },
+  {
+    id: "links-awakening-android-plus",
+    title: "Link's Awakening (Switch, Android)",
+    game: "The Legend of Zelda: Link's Awakening",
+    dev: "Nycolazs",
+    pub: "Nintendo",
+    year: 2019,
+    genre: "action-adventure",
+    sys: "Nintendo Switch",
+    type: "recompilation",
+    status: "beta",
+    version: "1.1.2",
+    date: "2026-10-21",
+    platforms: ["android"],
+    repo: "Nycolazs/LASRecomp-Android-Plus",
+    license: "NOASSERTION",
+    licenseNote: "no SPDX license in the repository",
+    en: "Android ARM64 recompilation of Link's Awakening (Switch) with touch controls and 60 FPS frame generation; set up from your own game on the phone.",
+    es: "Recompilación ARM64 para Android de Link's Awakening (Switch) con controles táctiles y generación de fotogramas a 60 FPS; se configura con tu propio juego en el teléfono.",
+  },
+  {
+    id: "echoes-of-wisdom-recomp",
+    title: "Echoes of Wisdom (Recomp)",
+    game: "The Legend of Zelda: Echoes of Wisdom",
+    dev: "Nycolazs",
+    pub: "Nintendo",
+    year: 2024,
+    genre: "action-adventure",
+    sys: "Nintendo Switch",
+    type: "recompilation",
+    status: "alpha",
+    version: null,
+    date: null,
+    platforms: ["android", "windows"],
+    repo: "Nycolazs/EoWRecomp",
+    license: "NOASSERTION",
+    licenseNote: "no SPDX license in the repository",
+    en: "Alpha static recompilation of The Legend of Zelda: Echoes of Wisdom (Switch) for Android and PC. No game files included; bring your own copy.",
+    es: "Recompilación estática en alpha de The Legend of Zelda: Echoes of Wisdom (Switch) para Android y PC. No incluye archivos del juego; aporta tu propia copia.",
+  },
+  {
+    id: "super-mario-land-2-recomp",
+    title: "Super Mario Land 2: 6 Golden Coins (Recomp)",
+    game: "Super Mario Land 2: 6 Golden Coins",
+    dev: "mstan",
+    pub: "Nintendo",
+    year: 1992,
+    genre: "platformer",
+    sys: "Game Boy",
+    type: "recompilation",
+    status: "beta",
+    version: "0.2.0",
+    date: "2026-10-19",
+    platforms: ["android"],
+    repo: "mstan/SuperMarioLand2Recomp",
+    license: "NOASSERTION",
+    licenseNote: "no license file in the repository",
+    en: "Static recompilation of Super Mario Land 2: 6 Golden Coins (Game Boy) with adaptive widescreen and DX mods, including an Android ARM64 build.",
+    es: "Recompilación estática de Super Mario Land 2: 6 Golden Coins (Game Boy) con pantalla ancha adaptativa y mods DX, incluida una build ARM64 para Android.",
+  },
+  {
+    id: "wario-land-3-recomp",
+    title: "Wario Land 3 (Recomp)",
+    game: "Wario Land 3",
+    dev: "GABRIELNNK",
+    pub: "Nintendo",
+    year: 2000,
+    genre: "platformer",
+    sys: "Game Boy Color",
+    type: "recompilation",
+    status: "beta",
+    version: "1.1.1",
+    date: "2026-10-20",
+    platforms: ["android"],
+    repo: "GABRIELNNK/Bigodao",
+    license: "MIT",
+    en: "Static recompilation of Wario Land 3 with widescreen and mod support, including an Android ARM64 build and HD tile/music packs.",
+    es: "Recompilación estática de Wario Land 3 con pantalla ancha y soporte de mods, incluida una build ARM64 para Android y packs HD de tiles y música.",
+  },
+  {
+    id: "carmageddon-2-android",
+    title: "Carmageddon 2 (Android)",
+    game: "Carmageddon 2: Carpocalypse Now",
+    dev: "Link4Electronics",
+    pub: "Interplay Entertainment",
+    year: 1998,
+    genre: "racing",
+    sys: "Windows",
+    type: "decompilation",
+    status: "beta",
+    version: "0.60",
+    date: "2026-10-12",
+    platforms: ["android"],
+    repo: "Link4Electronics/Carpocalypse2",
+    license: "GPL-3.0",
+    en: "Decompilation and native Android port of Carmageddon 2, with armv7 APKs. Bring your own original game data.",
+    es: "Descompilación y port nativo para Android de Carmageddon 2, con APK para armv7. Aporta los datos originales del juego.",
+  },
+  {
+    id: "cnc-generals-zero-hour-android",
+    title: "Command & Conquer: Generals - Zero Hour (Android)",
+    game: "Command & Conquer: Generals - Zero Hour",
+    dev: "molotovgit",
+    pub: "Electronic Arts",
+    year: 2003,
+    genre: "strategy",
+    sys: "Windows",
+    type: "source-port",
+    status: "alpha",
+    version: "0.1.0",
+    date: "2026-07-10",
+    platforms: ["android"],
+    repo: "molotovgit/CnC-Generals-ZeroHour-Android",
+    license: "NOASSERTION",
+    licenseNote: "no SPDX license in the repository",
+    en: "Android arm64 port of Command & Conquer: Generals - Zero Hour built on GeneralsX, SDL3 and DXVK, with touch controls. Bring your own retail game files.",
+    es: "Port arm64 para Android de Command & Conquer: Generals - Zero Hour sobre GeneralsX, SDL3 y DXVK, con controles táctiles. Aporta tus archivos originales del juego.",
+  },
+  {
+    id: "openmw-android-andiweli",
+    title: "OpenMW Android (Andiweli)",
+    game: "The Elder Scrolls III: Morrowind",
+    dev: "Andiweli",
+    pub: "Bethesda Softworks",
+    year: 2002,
+    genre: "rpg",
+    sys: "Windows",
+    type: "reimplementation",
+    status: "beta",
+    version: "0.51.0-12",
+    date: "2026-10-20",
+    platforms: ["android"],
+    repo: "Andiweli/OpenMW-Android",
+    license: "GPL-3.0",
+    en: "OpenMW for Android and ChromeOS based on the Cavebros port, with optimizations and new shaders. Requires your own Morrowind data files.",
+    es: "OpenMW para Android y ChromeOS basado en el port de Cavebros, con optimizaciones y nuevos shaders. Requiere tus propios archivos de Morrowind.",
+  },
+  {
+    id: "spelunky-classic-hd-android",
+    title: "Spelunky Classic HD (Android)",
+    game: "Spelunky Classic HD",
+    dev: "yancharkin",
+    pub: "Independent",
+    year: 2008,
+    genre: "platformer",
+    sys: "Windows",
+    type: "source-port",
+    status: "beta",
+    version: "1.2.2",
+    date: "2025-09-03",
+    platforms: ["android"],
+    repo: "yancharkin/SpelunkyClassicHD",
+    license: "NOASSERTION",
+    licenseNote: "no license file in the repository",
+    en: "Modified Spelunky Classic built from the published GameMaker source, with a universal Android APK and the original roguelike platforming.",
+    es: "Spelunky Classic modificado, construido desde el código GameMaker publicado, con un APK universal para Android y el plataformas roguelike original.",
+  },
+  {
+    id: "zuma-deluxe-portable",
+    title: "Zuma Deluxe (Portable)",
+    game: "Zuma Deluxe",
+    dev: "abduznik",
+    pub: "PopCap Games",
+    year: 2003,
+    genre: "puzzle",
+    sys: "Windows",
+    type: "source-port",
+    status: "beta",
+    version: "0.1.1",
+    date: "2026-10-19",
+    platforms: ["android", "windows", "linux"],
+    repo: "abduznik/ZumaPortable",
+    license: "LGPL-3.0",
+    en: "Open-source SDL2 port of Zuma Deluxe for Android, Windows and Linux. Bring your own game data.",
+    es: "Port de código abierto con SDL2 de Zuma Deluxe para Android, Windows y Linux. Aporta tus propios datos del juego.",
+  },
+];
+
+const camel = (id) =>
+  id.split("-").map((w, i) => (i === 0 ? w : w[0].toUpperCase() + w.slice(1))).join("");
+const q = (v) => JSON.stringify(v);
+
+const indexBefore = fs.readFileSync(path.join(DIR, "index.ts"), "utf8");
+const existingIds = new Set();
+const existingTitles = new Set();
+for (const m of indexBefore.matchAll(/from\s+"\.\/([^"]+)"/g)) {
+  const src = fs.readFileSync(path.join(DIR, `${m[1]}.ts`), "utf8");
+  const id = src.match(/id:\s*"([^"]+)"/)?.[1];
+  const title = src.match(/\btitle:\s*"([^"]+)"/)?.[1];
+  if (id) existingIds.add(id);
+  if (title) existingTitles.add(title.toLowerCase());
+}
+for (const r of E) {
+  if (existingIds.has(r.id)) throw new Error(`duplicate id ${r.id}`);
+  if (existingTitles.has(r.title.toLowerCase())) throw new Error(`duplicate title ${r.title}`);
+}
+
+const files = [];
+for (const r of E) {
+  const license = r.licenseNote
+    ? `{ spdx: ${q(r.license)}, note: ${q(r.licenseNote)} }`
+    : `{ spdx: ${q(r.license)} }`;
+  const body = `import type { Port } from "@/lib/ports/schema";
+
+export const ${camel(r.id)}: Port = {
+  schema: "port",
+  id: ${q(r.id)},
+  title: ${q(r.title)},
+  game: ${q(r.game)},
+  developers: [${q(r.dev)}],
+  publisher: ${q(r.pub)},
+  originalYear: ${r.year},
+  portType: ${q(r.type)},
+  genre: ${q(r.genre)},
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: [${r.platforms.map(q).join(", ")}],
+  status: ${q(r.status)},
+  release: { version: ${r.version ? q(r.version) : "null"}, date: ${r.date ? q(r.date) : "null"} },
+  sources: [${q(`https://github.com/${r.repo}`)}],
+  license: ${license},
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: [${q(r.sys)}],
+  notes: ${q(r.en)},
+  notesEs: ${q(r.es)},
+};
+`;
+  fs.writeFileSync(path.join(DIR, `${r.id}.ts`), body, "utf8");
+  files.push([r.id, camel(r.id), r.sys]);
+}
+
+let idx = indexBefore;
+const importAnchor = 'import { sm64ex } from "./sm64ex";';
+if (!idx.includes(importAnchor)) throw new Error("import anchor not found");
+idx = idx.replace(
+  importAnchor,
+  importAnchor + "\n" + files.map(([id, c]) => `import { ${c} } from "./${id}";`).join("\n"),
+);
+const arrayAnchor = "\n];";
+const lastArray = idx.lastIndexOf(arrayAnchor);
+if (lastArray === -1) throw new Error("array anchor not found");
+idx =
+  idx.slice(0, lastArray) +
+  "\n" +
+  files.map(([, c]) => `  ${c},`).join("\n") +
+  idx.slice(lastArray);
+fs.writeFileSync(path.join(DIR, "index.ts"), idx, "utf8");
+
+let meta = fs.readFileSync(path.join(DIR, "meta.ts"), "utf8");
+const metaAnchor = "\n};";
+const lastMeta = meta.lastIndexOf(metaAnchor);
+if (lastMeta === -1) throw new Error("meta anchor not found");
+meta =
+  meta.slice(0, lastMeta) +
+  "\n" +
+  files.map(([id, , sys]) => `  ${q(id)}: [${q(sys)}],`).join("\n") +
+  meta.slice(lastMeta);
+fs.writeFileSync(path.join(DIR, "meta.ts"), meta, "utf8");
+
+console.log(`wrote ${files.length} Android port files and wired index.ts + meta.ts`);

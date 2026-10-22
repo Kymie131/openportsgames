@@ -41,3 +41,8 @@ Las 513 fichas restantes no tienen pÃ¡gina de Wikipedia con imagen ni resultado 
 
 Se reutilizó la portada ya catalogada del mismo juego en **77 fichas** que no tenían imagen. Quedan unas 525 sin carátula (homebrew, plugins o juegos sin página con imagen).
 
+
+## Ronda 3 (2026-10-22)
+
+13 de los 19 ports de Android nuevos recibieron la carátula del mismo juego desde otra ficha del catálogo.
+

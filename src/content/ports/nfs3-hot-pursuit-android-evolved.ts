@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nfs3HotPursuitAndroidEvolved: Port = {
+  schema: "port",
+  id: "nfs3-hot-pursuit-android-evolved",
+  title: "Need for Speed III: Hot Pursuit (Android Evolved)",
+  game: "Need for Speed III: Hot Pursuit",
+  developers: ["codepdbh"],
+  publisher: "Electronic Arts",
+  originalYear: 1998,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "0.3.2", date: "2026-10-09" },
+  sources: ["https://github.com/codepdbh/NFS3-HP-AndroidEvolved"],
+  license: { spdx: "NOASSERTION", note: "no license file in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a6/NFS_III_Hot_Pursuit_%28PC%2C_US%29_cover_art.jpg",
+    alt: "Need for Speed III: Hot Pursuit (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Native ARM64 Android port of Need for Speed III: Hot Pursuit based on the nfs-recompiled project. Original game data required.",
+  notesEs: "Port nativo ARM64 para Android de Need for Speed III: Hot Pursuit basado en el proyecto nfs-recompiled. Requiere los datos originales del juego.",
+};

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const cncGeneralsZeroHourAndroid: Port = {
+  schema: "port",
+  id: "cnc-generals-zero-hour-android",
+  title: "Command & Conquer: Generals - Zero Hour (Android)",
+  game: "Command & Conquer: Generals - Zero Hour",
+  developers: ["molotovgit"],
+  publisher: "Electronic Arts",
+  originalYear: 2003,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: "0.1.0", date: "2026-07-10" },
+  sources: ["https://github.com/molotovgit/CnC-Generals-ZeroHour-Android"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/20/Cncgzh-win-cover.jpg",
+    alt: "Command & Conquer: Generals - Zero Hour (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Android arm64 port of Command & Conquer: Generals - Zero Hour built on GeneralsX, SDL3 and DXVK, with touch controls. Bring your own retail game files.",
+  notesEs: "Port arm64 para Android de Command & Conquer: Generals - Zero Hour sobre GeneralsX, SDL3 y DXVK, con controles táctiles. Aporta tus archivos originales del juego.",
+};

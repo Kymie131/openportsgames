@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superMarioLand2Recomp: Port = {
+  schema: "port",
+  id: "super-mario-land-2-recomp",
+  title: "Super Mario Land 2: 6 Golden Coins (Recomp)",
+  game: "Super Mario Land 2: 6 Golden Coins",
+  developers: ["mstan"],
+  publisher: "Nintendo",
+  originalYear: 1992,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "0.2.0", date: "2026-10-19" },
+  sources: ["https://github.com/mstan/SuperMarioLand2Recomp"],
+  license: { spdx: "NOASSERTION", note: "no license file in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Game Boy"],
+  notes: "Static recompilation of Super Mario Land 2: 6 Golden Coins (Game Boy) with adaptive widescreen and DX mods, including an Android ARM64 build.",
+  notesEs: "Recompilación estática de Super Mario Land 2: 6 Golden Coins (Game Boy) con pantalla ancha adaptativa y mods DX, incluida una build ARM64 para Android.",
+};

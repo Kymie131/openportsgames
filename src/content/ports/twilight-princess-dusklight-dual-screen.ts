@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const twilightPrincessDusklightDualScreen: Port = {
+  schema: "port",
+  id: "twilight-princess-dusklight-dual-screen",
+  title: "Twilight Princess (Dusklight Dual Screen)",
+  game: "The Legend of Zelda: Twilight Princess",
+  developers: ["igawa6"],
+  publisher: "Nintendo",
+  originalYear: 2006,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "2.0.3-ds-3.0.3", date: "2026-10-06" },
+  sources: ["https://github.com/igawa6/dusklight"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["GameCube"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0e/The_Legend_of_Zelda_Twilight_Princess_Game_Cover.jpg",
+    alt: "The Legend of Zelda: Twilight Princess (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Android fork of Dusklight (Twilight Princess) with a second-screen layout for dual-screen handhelds such as the AYN Thor. Requires your own game files.",
+  notesEs: "Fork para Android de Dusklight (Twilight Princess) con diseño de segunda pantalla para handhelds de doble pantalla como la AYN Thor. Requiere tus propios archivos del juego.",
+};

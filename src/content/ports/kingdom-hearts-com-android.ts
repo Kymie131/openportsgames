@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const kingdomHeartsComAndroid: Port = {
+  schema: "port",
+  id: "kingdom-hearts-com-android",
+  title: "Kingdom Hearts: Chain of Memories (ReKHCoM)",
+  game: "Kingdom Hearts: Chain of Memories",
+  developers: ["MatyMeatBoy"],
+  publisher: "Square Enix",
+  originalYear: 2004,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "windows"],
+  status: "alpha",
+  release: { version: "1.9.14", date: "2026-10-21" },
+  sources: ["https://github.com/MatyMeatBoy/ReKHCoM"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Game Boy Advance"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Kingdom%20Hearts%20-%20Chain%20of%20Memories%20(USA).png",
+    alt: "Kingdom Hearts: Chain of Memories (box art)",
+    credit: "Box art",
+  },
+  notes: "Android alpha of the Kingdom Hearts: Chain of Memories decompilation, with widescreen support and optional touch controls. Bring your own cartridge.",
+  notesEs: "Alpha para Android de la descompilación de Kingdom Hearts: Chain of Memories, con pantalla ancha y controles táctiles opcionales. Aporta tu propio cartucho.",
+};

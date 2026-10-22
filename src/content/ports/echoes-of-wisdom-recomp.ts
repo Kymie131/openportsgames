@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const echoesOfWisdomRecomp: Port = {
+  schema: "port",
+  id: "echoes-of-wisdom-recomp",
+  title: "Echoes of Wisdom (Recomp)",
+  game: "The Legend of Zelda: Echoes of Wisdom",
+  developers: ["Nycolazs"],
+  publisher: "Nintendo",
+  originalYear: 2024,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Nycolazs/EoWRecomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Nintendo Switch"],
+  notes: "Alpha static recompilation of The Legend of Zelda: Echoes of Wisdom (Switch) for Android and PC. No game files included; bring your own copy.",
+  notesEs: "Recompilación estática en alpha de The Legend of Zelda: Echoes of Wisdom (Switch) para Android y PC. No incluye archivos del juego; aporta tu propia copia.",
+};

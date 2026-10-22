@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const princeOfPersiaSandsOfTimeAndroid: Port = {
+  schema: "port",
+  id: "prince-of-persia-sands-of-time-android",
+  title: "Prince of Persia: The Sands of Time (Android)",
+  game: "Prince of Persia: The Sands of Time",
+  developers: ["FulGerNet"],
+  publisher: "Ubisoft",
+  originalYear: 2003,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "windows"],
+  status: "beta",
+  release: { version: "0.2.0", date: "2026-10-21" },
+  sources: ["https://github.com/FulGerNet/rePOP"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Xbox"],
+  notes: "Static recompilation of the original Xbox Prince of Persia trilogy for Android and PC, starting with The Sands of Time. Bring your own disc.",
+  notesEs: "Recompilación estática de la trilogía original de Prince of Persia de Xbox para Android y PC, empezando por The Sands of Time. Aporta tu propio disco.",
+};

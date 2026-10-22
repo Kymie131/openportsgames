@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const carmageddon2Android: Port = {
+  schema: "port",
+  id: "carmageddon-2-android",
+  title: "Carmageddon 2 (Android)",
+  game: "Carmageddon 2: Carpocalypse Now",
+  developers: ["Link4Electronics"],
+  publisher: "Interplay Entertainment",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "0.60", date: "2026-10-12" },
+  sources: ["https://github.com/Link4Electronics/Carpocalypse2"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Windows"],
+  notes: "Decompilation and native Android port of Carmageddon 2, with armv7 APKs. Bring your own original game data.",
+  notesEs: "Descompilación y port nativo para Android de Carmageddon 2, con APK para armv7. Aporta los datos originales del juego.",
+};

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const openmwAndroidAndiweli: Port = {
+  schema: "port",
+  id: "openmw-android-andiweli",
+  title: "OpenMW Android (Andiweli)",
+  game: "The Elder Scrolls III: Morrowind",
+  developers: ["Andiweli"],
+  publisher: "Bethesda Softworks",
+  originalYear: 2002,
+  portType: "reimplementation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "0.51.0-12", date: "2026-10-20" },
+  sources: ["https://github.com/Andiweli/OpenMW-Android"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/53/MorrowindCOVER.jpg",
+    alt: "The Elder Scrolls III: Morrowind (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "OpenMW for Android and ChromeOS based on the Cavebros port, with optimizations and new shaders. Requires your own Morrowind data files.",
+  notesEs: "OpenMW para Android y ChromeOS basado en el port de Cavebros, con optimizaciones y nuevos shaders. Requiere tus propios archivos de Morrowind.",
+};

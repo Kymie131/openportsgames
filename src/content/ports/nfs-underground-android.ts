@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nfsUndergroundAndroid: Port = {
+  schema: "port",
+  id: "nfs-underground-android",
+  title: "Need for Speed: Underground (Android)",
+  game: "Need for Speed: Underground",
+  developers: ["codepdbh"],
+  publisher: "Electronic Arts",
+  originalYear: 2003,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "windows"],
+  status: "beta",
+  release: { version: "0.2.5", date: "2026-10-20" },
+  sources: ["https://github.com/codepdbh/nfsu1-recompiled"],
+  license: { spdx: "NOASSERTION", note: "no license file in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/52/Need_for_Speed_Underground_cover.jpg",
+    alt: "Need for Speed: Underground (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Static recompilation of Need for Speed: Underground (2003) to native Android and Windows code, with no emulator. Bring your own copy of the game.",
+  notesEs: "Recompilación estática de Need for Speed: Underground (2003) a código nativo para Android y Windows, sin emulador. Aporta tu propia copia del juego.",
+};

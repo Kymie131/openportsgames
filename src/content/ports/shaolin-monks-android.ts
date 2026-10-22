@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const shaolinMonksAndroid: Port = {
+  schema: "port",
+  id: "shaolin-monks-android",
+  title: "Mortal Kombat: Shaolin Monks (Android)",
+  game: "Mortal Kombat: Shaolin Monks",
+  developers: ["RanggaCasper"],
+  publisher: "Midway Games",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "0.2", date: "2026-10-21" },
+  sources: ["https://github.com/RanggaCasper/ShaolinMonks-Android"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Xbox"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/29/PS2MKSM.JPG",
+    alt: "Mortal Kombat: Shaolin Monks (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Android arm64 port of Mortal Kombat: Shaolin Monks (Xbox) via XboxXBE-Recomp, with Vulkan, touch/gamepad controls and CRT/FXAA filters. Bring your own disc image.",
+  notesEs: "Port arm64 para Android de Mortal Kombat: Shaolin Monks (Xbox) con XboxXBE-Recomp, Vulkan, controles táctiles o mando y filtros CRT/FXAA. Aporta tu propio volcado del disco.",
+};

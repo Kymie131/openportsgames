@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const blackAndroid: Port = {
+  schema: "port",
+  id: "black-android",
+  title: "BLACK (Android)",
+  game: "BLACK",
+  developers: ["RanggaCasper"],
+  publisher: "Electronic Arts",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "1.5.0", date: "2026-10-21" },
+  sources: ["https://github.com/RanggaCasper/Black-Android"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Xbox"],
+  notes: "Native Android port of BLACK (Xbox) with touch controls, gyroscope aiming, controller support and extended graphics options. Bring your own disc image.",
+  notesEs: "Port nativo para Android de BLACK (Xbox) con controles táctiles, puntería por giroscopio, mando y opciones gráficas ampliadas. Aporta tu propio volcado del disco.",
+};

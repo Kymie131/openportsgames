@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const marioParty6Native: Port = {
+  schema: "port",
+  id: "mario-party-6-native",
+  title: "Mario Party 6 (Native Port)",
+  game: "Mario Party 6",
+  developers: ["iirg4x"],
+  publisher: "Nintendo",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "windows"],
+  status: "beta",
+  release: { version: "0.4.0", date: "2026-09-12" },
+  sources: ["https://github.com/iirg4x/mp6-native-port"],
+  license: { spdx: "NOASSERTION", note: "no license file in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["GameCube"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c6/Mario_Party_6_Coverart.png",
+    alt: "Mario Party 6 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Native Windows and Android port of Mario Party 6 built on the byte-accurate GameCube decompilation. Game files are not included; supply your own disc.",
+  notesEs: "Port nativo para Windows y Android de Mario Party 6 sobre la descompilación byte-exacta de GameCube. No incluye archivos del juego; aporta tu propio disco.",
+};

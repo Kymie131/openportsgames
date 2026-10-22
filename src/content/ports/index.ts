@@ -1,5 +1,24 @@
 import type { Port } from "@/lib/ports/schema";
 import { sm64ex } from "./sm64ex";
+import { haloCeAndroid } from "./halo-ce-android";
+import { blackAndroid } from "./black-android";
+import { shaolinMonksAndroid } from "./shaolin-monks-android";
+import { nfsUndergroundAndroid } from "./nfs-underground-android";
+import { nfsMostWanted2005Android } from "./nfs-most-wanted-2005-android";
+import { nfs3HotPursuitAndroidEvolved } from "./nfs3-hot-pursuit-android-evolved";
+import { princeOfPersiaSandsOfTimeAndroid } from "./prince-of-persia-sands-of-time-android";
+import { marioParty6Native } from "./mario-party-6-native";
+import { twilightPrincessDusklightDualScreen } from "./twilight-princess-dusklight-dual-screen";
+import { kingdomHeartsComAndroid } from "./kingdom-hearts-com-android";
+import { linksAwakeningAndroidPlus } from "./links-awakening-android-plus";
+import { echoesOfWisdomRecomp } from "./echoes-of-wisdom-recomp";
+import { superMarioLand2Recomp } from "./super-mario-land-2-recomp";
+import { warioLand3Recomp } from "./wario-land-3-recomp";
+import { carmageddon2Android } from "./carmageddon-2-android";
+import { cncGeneralsZeroHourAndroid } from "./cnc-generals-zero-hour-android";
+import { openmwAndroidAndiweli } from "./openmw-android-andiweli";
+import { spelunkyClassicHdAndroid } from "./spelunky-classic-hd-android";
+import { zumaDeluxePortable } from "./zuma-deluxe-portable";
 import { demonsSoulsPs5Pc } from "./demons-souls-ps5-pc";
 import { shaolinmonksrecompPc } from "./shaolinmonksrecomp-pc";
 import { fifaStreetPcPortPc } from "./fifa-street-pc-port-pc";
@@ -3878,4 +3897,23 @@ export const portCases: Port[] = [
   pokemonHeartgoldSoulsilverRecomp,
   bayonetta2Recomp,
   godOfWarGhostOfSpartaPc,
+  haloCeAndroid,
+  blackAndroid,
+  shaolinMonksAndroid,
+  nfsUndergroundAndroid,
+  nfsMostWanted2005Android,
+  nfs3HotPursuitAndroidEvolved,
+  princeOfPersiaSandsOfTimeAndroid,
+  marioParty6Native,
+  twilightPrincessDusklightDualScreen,
+  kingdomHeartsComAndroid,
+  linksAwakeningAndroidPlus,
+  echoesOfWisdomRecomp,
+  superMarioLand2Recomp,
+  warioLand3Recomp,
+  carmageddon2Android,
+  cncGeneralsZeroHourAndroid,
+  openmwAndroidAndiweli,
+  spelunkyClassicHdAndroid,
+  zumaDeluxePortable,
 ];

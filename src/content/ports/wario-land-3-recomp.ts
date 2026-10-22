@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const warioLand3Recomp: Port = {
+  schema: "port",
+  id: "wario-land-3-recomp",
+  title: "Wario Land 3 (Recomp)",
+  game: "Wario Land 3",
+  developers: ["GABRIELNNK"],
+  publisher: "Nintendo",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "1.1.1", date: "2026-10-20" },
+  sources: ["https://github.com/GABRIELNNK/Bigodao"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Game Boy Color"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/cb/Warioland3.jpg",
+    alt: "Wario Land 3 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Static recompilation of Wario Land 3 with widescreen and mod support, including an Android ARM64 build and HD tile/music packs.",
+  notesEs: "Recompilación estática de Wario Land 3 con pantalla ancha y soporte de mods, incluida una build ARM64 para Android y packs HD de tiles y música.",
+};

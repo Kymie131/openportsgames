@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const spelunkyClassicHdAndroid: Port = {
+  schema: "port",
+  id: "spelunky-classic-hd-android",
+  title: "Spelunky Classic HD (Android)",
+  game: "Spelunky Classic HD",
+  developers: ["yancharkin"],
+  publisher: "Independent",
+  originalYear: 2008,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "1.2.2", date: "2025-09-03" },
+  sources: ["https://github.com/yancharkin/SpelunkyClassicHD"],
+  license: { spdx: "NOASSERTION", note: "no license file in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Windows"],
+  notes: "Modified Spelunky Classic built from the published GameMaker source, with a universal Android APK and the original roguelike platforming.",
+  notesEs: "Spelunky Classic modificado, construido desde el código GameMaker publicado, con un APK universal para Android y el plataformas roguelike original.",
+};

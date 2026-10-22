@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const linksAwakeningAndroidPlus: Port = {
+  schema: "port",
+  id: "links-awakening-android-plus",
+  title: "Link's Awakening (Switch, Android)",
+  game: "The Legend of Zelda: Link's Awakening",
+  developers: ["Nycolazs"],
+  publisher: "Nintendo",
+  originalYear: 2019,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "1.1.2", date: "2026-10-21" },
+  sources: ["https://github.com/Nycolazs/LASRecomp-Android-Plus"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Nintendo Switch"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c1/Link%27s_Awakening.png",
+    alt: "The Legend of Zelda: Link's Awakening (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Android ARM64 recompilation of Link's Awakening (Switch) with touch controls and 60 FPS frame generation; set up from your own game on the phone.",
+  notesEs: "Recompilación ARM64 para Android de Link's Awakening (Switch) con controles táctiles y generación de fotogramas a 60 FPS; se configura con tu propio juego en el teléfono.",
+};

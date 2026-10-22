@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const haloCeAndroid: Port = {
+  schema: "port",
+  id: "halo-ce-android",
+  title: "Halo: Combat Evolved (Android)",
+  game: "Halo: Combat Evolved",
+  developers: ["FulGerNet"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2001,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "4.0", date: "2026-10-11" },
+  sources: ["https://github.com/FulGerNet/halo-ce-android"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-22",
+  originalSystems: ["Xbox"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg",
+    alt: "Halo: Combat Evolved (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Android port of the Halo: Combat Evolved decompilation, with touch controls and controller support. Bring your own copy of the Xbox game.",
+  notesEs: "Port para Android de la descompilación de Halo: Combat Evolved, con controles táctiles y mando. Aporta tu propia copia del juego de Xbox.",
+};
