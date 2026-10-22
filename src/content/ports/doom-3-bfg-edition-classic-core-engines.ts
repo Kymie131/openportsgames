@@ -20,6 +20,11 @@ export const doom3BfgEditionClassicCoreEngines: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/4e/Doom3box.jpg",
+    alt: "Doom 3 BFG Edition (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Doom 3 BFG Edition (id Software, 2012) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (base folder).",
   notesEs: "Doom 3 BFG Edition (id Software, 2012) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
 };

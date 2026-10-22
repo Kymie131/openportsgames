@@ -21,6 +21,11 @@ export const touhou6Vita: Port = {
   sourceVerified: true,
   originalSystems: ["Windows"],
   related: ["touhou-6-android", "touhou-6-psp-jeong-jimin"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8b/Th06cover.jpg",
+    alt: "Touhou 6: The Embodiment of Scarlet Devil (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Touhou 6: The Embodiment of Scarlet Devil (Team Shanghai Alice, 2002) on PS Vita, based on the portable decompilation. You need the original game files.",
   notesEs:

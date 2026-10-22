@@ -21,6 +21,11 @@ export const paperMarioDecomp: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["star-rod"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Paper%20Mario%20(USA).png",
+    alt: "Paper Mario (box art)",
+    credit: "Box art",
+  },
   notes: "Work-in-progress decompilation of Paper Mario (Nintendo 64). Separate project from the other Paper Mario decompilation in the catalog.",
   notesEs: "Decompilación en curso de Paper Mario (Nintendo 64). Proyecto distinto de la otra decompilación de Paper Mario del catálogo.",
 };

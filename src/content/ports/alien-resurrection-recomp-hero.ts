@@ -21,6 +21,11 @@ export const alienResurrectionRecompHero: Port = {
   sourceVerified: true,
   originalSystems: ["PlayStation"],
   related: ["alien-resurrection-recomp"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Alien%20Resurrection%20(Europe)%20(En,Fr,De,Es,It).png",
+    alt: "Alien Resurrection (box art)",
+    credit: "Box art",
+  },
   notes: "Static recompilation of Alien Resurrection (PlayStation, 2000) for Windows. Bring your own disc. Latest release: v0.3.0.",
   notesEs: "Recompilación estática de Alien Resurrection (PlayStation, 2000) para Windows. Aporta tu propio disco. Última release: v0.3.0.",
 };

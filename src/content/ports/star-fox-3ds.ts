@@ -20,6 +20,11 @@ export const starFox3ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Super Nintendo"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Star%20Fox%20(Japan)%20(Rev%201).png",
+    alt: "Star Fox (box art)",
+    credit: "Box art",
+  },
   notes: "Star Fox (Nintendo, 1993) running on Nintendo 3DS through source port. Latest release: v1.0. You need your own copy of the game.",
   notesEs: "Star Fox (Nintendo, 1993) en Nintendo 3DS mediante port de código. Última release: v1.0. Necesitas tu propia copia del juego.",
 };

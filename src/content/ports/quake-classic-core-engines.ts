@@ -20,6 +20,11 @@ export const quakeClassicCoreEngines: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
+  cover: {
+    src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Quake%20(1996).png",
+    alt: "Quake (box art)",
+    credit: "Box art",
+  },
   notes: "Quake (id Software, 1996) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (id1 folder by pabwrld).",
   notesEs: "Quake (id Software, 1996) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
 };

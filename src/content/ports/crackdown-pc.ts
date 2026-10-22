@@ -20,6 +20,11 @@ export const crackdownPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/35/Crackdownfinalbox.jpg",
+    alt: "Crackdown (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Crackdown (Microsoft Game Studios, 2007) running on Windows through static recompilation. Latest release: v1.0.0. You need your own copy of the game.",
   notesEs: "Crackdown (Microsoft Game Studios, 2007) en Windows mediante recompilación estática. Última release: v1.0.0. Necesitas tu propia copia del juego.",
 };

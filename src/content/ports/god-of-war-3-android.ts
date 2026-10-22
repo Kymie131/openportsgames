@@ -21,6 +21,11 @@ export const godOfWar3Android: Port = {
   sourceVerified: true,
   originalSystems: ["PlayStation 4"],
   related: ["god-of-war-3-recomp"],
+  cover: {
+    src: "https://images.launchbox-app.com//1eb8d6bc-e4f2-4296-8e44-42c6e698528d.jpg",
+    alt: "God of War III Remastered (box art)",
+    credit: "LaunchBox Games Database",
+  },
   notes:
     "Native Android (ARM64) port of God of War III Remastered (PS4), powered by FEXCore, Vulkan/Turnip and a game-specific runtime. Work in progress; you need your own copy of the game. Latest release: v2.1.6-android4 (APK).",
   notesEs:

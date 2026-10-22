@@ -20,6 +20,11 @@ export const blastCorpsPowerDozer: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/83/Blast_Corps_Coverart.png",
+    alt: "Blast Corps (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Power Dozer: native port of Blast Corps (Nintendo 64, 1997) using static recompilation for Linux and Windows. Bring your own ROM. Latest release: v0.84.",
   notesEs: "Power Dozer: port nativo de Blast Corps (Nintendo 64, 1997) mediante recompilación estática para Linux y Windows. Aporta tu propia ROM. Última release: v0.84.",
 };

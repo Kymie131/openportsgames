@@ -20,6 +20,11 @@ export const touhou6PspJeongJimin: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8b/Th06cover.jpg",
+    alt: "Touhou 6: The Embodiment of Scarlet Devil (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Touhou 6: The Embodiment of Scarlet Devil (Team Shanghai Alice, 2002) running on PlayStation Portable through source port. You need your own copy of the game.",
   notesEs: "Touhou 6: The Embodiment of Scarlet Devil (Team Shanghai Alice, 2002) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
 };

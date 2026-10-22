@@ -20,6 +20,11 @@ export const paperboatAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Paper%20Mario%20(USA).png",
+    alt: "Paper Mario (box art)",
+    credit: "Box art",
+  },
   notes: "Paper Mario (Nintendo, 2000) for Android (source port). Latest release: v1.1.0-airx.1. Needs your own copy of the game.",
   notesEs: "Paper Mario (Nintendo, 2000) para Android (port de código). Última release: v1.1.0-airx.1. Necesita tu propia copia del juego.",
 };

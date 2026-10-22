@@ -21,6 +21,11 @@ export const knossosnet: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0d/Freespace2box.jpg",
+    alt: "Freespace 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Freespace 2 (Interplay Entertainment, 1999) an Android tool. Latest release: v1.3.12. Needs your own copy of the game (??).",
   notesEs: "Freespace 2 (Interplay Entertainment, 1999) una herramienta para Android. Última release: v1.3.12. Necesita tu propia copia del juego.",
 };

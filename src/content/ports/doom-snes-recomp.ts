@@ -20,6 +20,11 @@ export const doomSnesRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Super Nintendo"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg",
+    alt: "Doom (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Native PC port of SNES Doom (1995) built with SNESRecomp, with quality-of-life improvements. Work in progress. Latest release: v0.03.",
   notesEs: "Port nativo a PC del Doom de Super Nintendo (1995) construido con SNESRecomp, con mejoras de calidad de vida. En desarrollo. Última release: v0.03.",
 };

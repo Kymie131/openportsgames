@@ -20,6 +20,11 @@ export const crashTwinsanityPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e3/Crash_Twinsanity_North_American_PS2_cover.jpg",
+    alt: "Crash Twinsanity (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Crash Twinsanity (Traveller's Tales, 2004) running on Windows through static recompilation. Latest release: v1.0.9. You need your own copy of the game.",
   notesEs: "Crash Twinsanity (Traveller's Tales, 2004) en Windows mediante recompilación estática. Última release: v1.0.9. Necesitas tu propia copia del juego.",
 };

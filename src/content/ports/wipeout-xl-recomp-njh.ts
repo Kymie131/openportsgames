@@ -21,6 +21,11 @@ export const wipeoutXlRecompNjh: Port = {
   sourceVerified: true,
   originalSystems: ["PlayStation"],
   related: ["wipeout-xl-recomp"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Wipeout%20XL%20(Japan,%20Asia).png",
+    alt: "Wipeout XL (box art)",
+    credit: "Box art",
+  },
   notes: "Windows x64 setup kit for Wipeout XL (USA, SCUS-94351) with an OpenBIOS, configurable NeGcon dual sticks, optional widescreen and extra tracks. Bring your own disc. Latest release: v0.1.0.",
   notesEs: "Kit de instalación para Windows x64 de Wipeout XL (USA, SCUS-94351) con OpenBIOS, doble stick NeGcon configurable, panorámico opcional y pistas extra. Aporta tu propio disco. Última release: v0.1.0.",
 };

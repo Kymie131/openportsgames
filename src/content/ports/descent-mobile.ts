@@ -20,6 +20,11 @@ export const descentMobile: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5f/Descent_cover.png",
+    alt: "Descent (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Descent (Interplay Entertainment, 1995) for Android (source port). Needs your own copy of the game.",
   notesEs: "Descent (Interplay Entertainment, 1995) para Android (port de código). Necesita tu propia copia del juego.",
 };

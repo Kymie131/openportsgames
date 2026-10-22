@@ -20,6 +20,11 @@ export const budokaiTenkaichi3Pc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Dragon%20Ball%20Z%20-%20Budokai%20Tenkaichi%203%20(Europe,%20Australia)%20(En,Fr,De,Es,It).png",
+    alt: "Dragon Ball Z: Budokai Tenkaichi 3 (box art)",
+    credit: "Box art",
+  },
   notes: "PC port of Dragon Ball Z: Budokai Tenkaichi 3 (PS2, 2007) built on the game's decompilation project. Bring your own copy of the game. Latest release: v0.1.37.",
   notesEs: "Port a PC de Dragon Ball Z: Budokai Tenkaichi 3 (PS2, 2007) construido sobre el proyecto de decompilación del juego. Aporta tu propia copia del juego. Última release: v0.1.37.",
 };

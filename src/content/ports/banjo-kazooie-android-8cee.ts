@@ -20,6 +20,11 @@ export const banjoKazooieAndroid8cee: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Banjo-Kazooie%20(USA).png",
+    alt: "Banjo-Kazooie (box art)",
+    credit: "Box art",
+  },
   notes: "Banjo-Kazooie (Nintendo, 1998) running on Android through static recompilation. You need your own copy of the game.",
   notesEs: "Banjo-Kazooie (Nintendo, 1998) en Android mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

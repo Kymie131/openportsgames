@@ -20,6 +20,11 @@ export const animalCrossingAnbernicHandhelds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Animal%20Crossing%20(USA).png",
+    alt: "Animal Crossing (box art)",
+    credit: "Box art",
+  },
   notes: "Animal Crossing (Nintendo, 2001) running on Linux through static recompilation. Latest release: v0.5.0. You need your own copy of the game.",
   notesEs: "Animal Crossing (Nintendo, 2001) en Linux mediante recompilación estática. Última release: v0.5.0. Necesitas tu propia copia del juego.",
 };

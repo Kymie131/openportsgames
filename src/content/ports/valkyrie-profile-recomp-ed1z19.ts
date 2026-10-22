@@ -21,6 +21,11 @@ export const valkyrieProfileRecompEd1z19: Port = {
   sourceVerified: true,
   originalSystems: ["PlayStation"],
   related: ["valkyrie-profile-recomp"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Valkyrie%20Profile%20(Japan)%20(Rev%201).png",
+    alt: "Valkyrie Profile (box art)",
+    credit: "Box art",
+  },
   notes: "Native PC recompilation of Valkyrie Profile (PlayStation, 1999) powered by PSXRecomp. Bring your own disc. Latest release: v1.0.1.",
   notesEs: "Recompilación nativa para PC de Valkyrie Profile (PlayStation, 1999) con PSXRecomp. Aporta tu propio disco. Última release: v1.0.1.",
 };

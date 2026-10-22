@@ -20,6 +20,11 @@ export const psprecompViceCityStories: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation Portable"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Grand%20Theft%20Auto%20-%20Vice%20City%20Stories%20(USA).png",
+    alt: "Grand Theft Auto: Vice City Stories (box art)",
+    credit: "Box art",
+  },
   notes: "Grand Theft Auto: Vice City Stories (Rockstar Games, 2006) for Android (static recompilation). Needs your own copy of the game.",
   notesEs: "Grand Theft Auto: Vice City Stories (Rockstar Games, 2006) para Android (recompilación estática). Necesita tu propia copia del juego.",
 };

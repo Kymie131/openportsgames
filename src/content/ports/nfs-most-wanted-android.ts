@@ -21,6 +21,11 @@ export const nfsMostWantedAndroid: Port = {
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["nfs-most-wanted-recomp","nfs-most-wanted-decomp"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1262560/header.jpg",
+    alt: "Need for Speed: Most Wanted (box art)",
+    credit: "Steam",
+  },
   notes: "Need for Speed: Most Wanted (2005) running natively on Android through static recompilation. Bring your own game files. Latest release: v0.6.0.",
   notesEs: "Need for Speed: Most Wanted (2005) funcionando de forma nativa en Android mediante recompilación estática. Aporta tus propios archivos del juego. Última release: v0.6.0.",
 };

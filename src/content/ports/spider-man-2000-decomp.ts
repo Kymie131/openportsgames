@@ -21,6 +21,11 @@ export const spiderMan2000Decomp: Port = {
   sourceVerified: true,
   originalSystems: ["Windows"],
   related: ["spider-man-recomp"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Spider-Man%20(Europe).png",
+    alt: "Spider-Man (box art)",
+    credit: "Box art",
+  },
   notes: "Decompilation of the PC port of Neversoft's Spider-Man (2000). The repository is public but documents almost nothing yet.",
   notesEs: "Decompilación del port de PC de Spider-Man de Neversoft (2000). El repositorio es público pero todavía no documenta casi nada.",
 };

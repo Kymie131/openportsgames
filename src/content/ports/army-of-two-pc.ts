@@ -20,6 +20,11 @@ export const armyOfTwoPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/72/ArmyofTwo_front-1-.jpg",
+    alt: "Army of Two (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Army of Two (Electronic Arts, 2008) running on Windows through static recompilation. Latest release: v1.2. You need your own copy of the game.",
   notesEs: "Army of Two (Electronic Arts, 2008) en Windows mediante recompilación estática. Última release: v1.2. Necesitas tu propia copia del juego.",
 };

@@ -20,6 +20,11 @@ export const doomClassicCoreEngines: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS","Super Nintendo","PlayStation"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg",
+    alt: "Doom (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Doom (id Software, 1993) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (DOOM.WAD).",
   notesEs: "Doom (id Software, 1993) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
 };

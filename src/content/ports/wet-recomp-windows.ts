@@ -21,6 +21,11 @@ export const wetRecompWindows: Port = {
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["wet-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/98/Wet_game.jpg",
+    alt: "WET (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Fan PC port of WET (Xbox 360, 2009) using ReXGlue. Does not include game files. Latest release: v0.6.0.",
   notesEs: "Port de PC hecho por fans de WET (Xbox 360, 2009) usando ReXGlue. No incluye archivos del juego. Última release: v0.6.0.",
 };

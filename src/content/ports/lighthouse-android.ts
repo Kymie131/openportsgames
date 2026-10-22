@@ -20,6 +20,11 @@ export const lighthouseAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Banjo-Kazooie%20(USA).png",
+    alt: "Banjo-Kazooie (box art)",
+    credit: "Box art",
+  },
   notes: "Banjo-Kazooie (Nintendo, 1998) for Android (source port). Latest release: 1.0.2. Needs your own copy of the game (Banjo-Kazooie (USA) (Rev 1).z64).",
   notesEs: "Banjo-Kazooie (Nintendo, 1998) para Android (port de código). Última release: 1.0.2. Necesita tu propia copia del juego.",
 };

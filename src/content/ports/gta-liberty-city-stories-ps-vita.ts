@@ -20,6 +20,11 @@ export const gtaLibertyCityStoriesPsVita: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation Portable"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Grand%20Theft%20Auto%20-%20Liberty%20City%20Stories%20(USA)%20(En%2CFr%2CDe%2CEs%2CIt)%20(v1.05).png",
+    alt: "Grand Theft Auto: Liberty City Stories (box art)",
+    credit: "Box art",
+  },
   notes: "Grand Theft Auto: Liberty City Stories (Rockstar Games, 2005) running on PlayStation Vita through source port. Latest release: v01.19. You need your own copy of the game.",
   notesEs: "Grand Theft Auto: Liberty City Stories (Rockstar Games, 2005) en PlayStation Vita mediante port de código. Última release: v01.19. Necesitas tu propia copia del juego.",
 };

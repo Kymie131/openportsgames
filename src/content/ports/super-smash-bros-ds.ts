@@ -20,6 +20,11 @@ export const superSmashBrosDs: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Super%20Smash%20Bros.%20(USA).png",
+    alt: "Super Smash Bros. (box art)",
+    credit: "Box art",
+  },
   notes: "Super Smash Bros. (Nintendo, 1999) running on Nintendo DS through decompilation. You need your own copy of the game.",
   notesEs: "Super Smash Bros. (Nintendo, 1999) en Nintendo DS mediante decompilación. Necesitas tu propia copia del juego.",
 };

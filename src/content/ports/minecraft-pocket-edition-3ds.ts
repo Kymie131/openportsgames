@@ -20,6 +20,11 @@ export const minecraftPocketEdition3ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Other"],
+  cover: {
+    src: "https://github.com/user-attachments/assets/c58041a0-fcc8-4499-b131-c75cea22dc7b",
+    alt: "Minecraft (box art)",
+    credit: "Minecraft PE PSP",
+  },
   notes: "Minecraft (Mojang Studios, 2011) running on Nintendo 3DS through source port. You need your own copy of the game.",
   notesEs: "Minecraft (Mojang Studios, 2011) en Nintendo 3DS mediante port de código. Necesitas tu propia copia del juego.",
 };

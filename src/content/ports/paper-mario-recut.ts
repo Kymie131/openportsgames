@@ -21,6 +21,11 @@ export const paperMarioRecut: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["paper-mario-decomp","paper-mario-paperboat"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Paper%20Mario%20(USA).png",
+    alt: "Paper Mario (box art)",
+    credit: "Box art",
+  },
   notes: "A PC port of Paper Mario (Nintendo 64, 2000) built on the game's decompilation. Work in progress, no release yet.",
   notesEs: "Port a PC de Paper Mario (Nintendo 64, 2000) construido sobre la decompilación del juego. En desarrollo, sin release todavía.",
 };

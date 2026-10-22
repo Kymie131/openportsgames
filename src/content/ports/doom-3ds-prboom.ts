@@ -20,6 +20,11 @@ export const doom3dsPrboom: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg",
+    alt: "Doom (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Doom (id Software, 1993) running on Nintendo 3DS through source port. You need your own copy of the game.",
   notesEs: "Doom (id Software, 1993) en Nintendo 3DS mediante port de código. Necesitas tu propia copia del juego.",
 };

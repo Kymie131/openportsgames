@@ -20,6 +20,11 @@ export const PokemonFirered: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20-%20FireRed%20Version%20(USA).png",
+    alt: "Pokemon FireRed (box art)",
+    credit: "Box art",
+  },
   notes: "Decompilation of Pokémon FireRed/LeafGreen.",
   notesEs: "Decompilación de Pokémon FireRed/LeafGreen.",
 };

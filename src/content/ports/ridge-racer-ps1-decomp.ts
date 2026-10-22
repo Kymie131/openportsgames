@@ -22,6 +22,11 @@ export const ridgeRacerPs1Decomp: Port = {
   originalSystems: ["PlayStation"],
   related: ["ridge-racer-ps1-recomp"],
   region: "Japan",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Ridge%20Racer%20(USA).png",
+    alt: "Ridge Racer (box art)",
+    credit: "Box art",
+  },
   notes: "Matching decompilation of Ridge Racer (PlayStation, 1994, SLPS-00001, Japan) plus a static recompilation that boots and plays natively on Linux and Windows. No game data: bring your own disc. Latest release: v0.1.0.",
   notesEs: "Decompilación matching de Ridge Racer (PlayStation, 1994, SLPS-00001, Japón) más una recompilación estática que arranca y se juega de forma nativa en Linux y Windows. Sin datos del juego: aporta tu propio disco. Última release: v0.1.0.",
 };

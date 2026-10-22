@@ -20,6 +20,11 @@ export const megaman64RecompMobile: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Mega%20Man%2064%20(USA).png",
+    alt: "Mega Man 64 (box art)",
+    credit: "Box art",
+  },
   notes: "Mega Man 64 (Capcom, 1997) for Android (static recompilation). Latest release: v0.9.1-mobile.1. Needs your own copy of the game.",
   notesEs: "Mega Man 64 (Capcom, 1997) para Android (recompilación estática). Última release: v0.9.1-mobile.1. Necesita tu propia copia del juego.",
 };

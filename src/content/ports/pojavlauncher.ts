@@ -21,6 +21,11 @@ export const pojavlauncher: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/f/f4/Caves_%26_Cliffs_II_-_Alex_%26_Steve_I.png",
+    alt: "Minecraft Java Edition (box art)",
+    credit: "Wikimedia Commons",
+  },
   notes: "Minecraft Java Edition (Mojang Studios, 2011) an Android tool. Latest release: gladiolus. Needs your own copy of the game.",
   notesEs: "Minecraft Java Edition (Mojang Studios, 2011) una herramienta para Android. Última release: gladiolus. Necesita tu propia copia del juego.",
 };

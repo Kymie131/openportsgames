@@ -20,6 +20,11 @@ export const pvzPortable: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/9c/PlantsvsZombiesCoverArt.jpg",
+    alt: "Plants vs Zombies (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Plants vs Zombies (PopCap Games, 2009) for Android (source port). Latest release: 0.2.5. Needs your own copy of the game (Needs Goty Edition).",
   notesEs: "Plants vs Zombies (PopCap Games, 2009) para Android (port de código). Última release: 0.2.5. Necesita tu propia copia del juego.",
 };

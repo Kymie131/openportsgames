@@ -21,6 +21,11 @@ export const tetrisMdMegaDrive: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Tetris%20(Japan)%20(En).png",
+    alt: "Tetris (box art)",
+    credit: "Box art",
+  },
   notes: "Tetris (Alexey Pajitnov, 2021) running on genesis through source port. Latest release: v1.0. You need your own copy of the game.",
   notesEs: "Tetris (Alexey Pajitnov, 2021) en genesis mediante port de código. Última release: v1.0. Necesitas tu propia copia del juego.",
 };

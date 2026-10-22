@@ -22,6 +22,11 @@ export const animalCrossingGcAndroid: Port = {
   originalSystems: ["GameCube"],
   related: ["animal-crossing-pc-port"],
   aiDisclosure: {"source":"https://github.com/zwaetschge/ACGC-Android-Port","quote":"built with Z.ai, OpenAI Codex and Claude"},
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Animal%20Crossing%20(USA).png",
+    alt: "Animal Crossing (box art)",
+    credit: "Box art",
+  },
   notes: "Android port of the Animal Crossing (GameCube) PC port. The README states it was built with Z.ai, OpenAI Codex and Claude. Bring your own disc. Latest release: v0.5.0.",
   notesEs: "Port para Android del port de PC de Animal Crossing (GameCube). El README indica que se construyó con Z.ai, OpenAI Codex y Claude. Aporta tu propio disco. Última release: v0.5.0.",
 };

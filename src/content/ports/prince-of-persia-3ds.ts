@@ -20,6 +20,11 @@ export const princeOfPersia3ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
+  cover: {
+    src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Prince%20of%20Persia.png",
+    alt: "Prince of Persia (box art)",
+    credit: "Box art",
+  },
   notes: "Prince of Persia (Broderbund, 1989) running on Nintendo 3DS through source port. Latest release: v1.1. You need your own copy of the game.",
   notesEs: "Prince of Persia (Broderbund, 1989) en Nintendo 3DS mediante port de código. Última release: v1.1. Necesitas tu propia copia del juego.",
 };

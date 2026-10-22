@@ -20,6 +20,11 @@ export const ResidentEvilCodeVeronicaX: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/44/RECV_boxart.jpg",
+    alt: "Resident Evil – Code: Veronica X (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Decompilation project of Resident Evil - Code: Veronica X (GC) which aims to reconstruct the source code of the game.",
   notesEs:

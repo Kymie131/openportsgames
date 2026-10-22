@@ -21,6 +21,11 @@ export const nfsMostWantedDecomp: Port = {
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["nfs-most-wanted-recomp"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1262560/header.jpg",
+    alt: "Need for Speed: Most Wanted (box art)",
+    credit: "Steam",
+  },
   notes: "Work-in-progress 1:1 decompilation of several versions of Need for Speed: Most Wanted (2005). Its only release is a tooling add-on (extension_0.1.0), not a playable build.",
   notesEs: "Decompilación 1:1 en curso de varias versiones de Need for Speed: Most Wanted (2005). Su única release es un complemento de herramientas (extension_0.1.0), no una build jugable.",
 };

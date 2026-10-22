@@ -21,6 +21,11 @@ export const dragonBallZBudokaiTenkaichi3: Port = {
   verified: false,
   sourceVerified: false,
   originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Dragon%20Ball%20Z%20-%20Budokai%20Tenkaichi%203%20(Europe,%20Australia)%20(En,Fr,De,Es,It).png",
+    alt: "Dragon Ball Z: Budokai Tenkaichi 3 (box art)",
+    credit: "Box art",
+  },
   notes:
     "Budokai Tenkaichi 3 running in the browser, compiled to WebAssembly from the game's decompiled code. The player supplies their own legally obtained disc image; the game data is read locally and never uploaded.",
   notesEs:

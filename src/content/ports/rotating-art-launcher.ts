@@ -21,6 +21,11 @@ export const rotatingArtLauncher: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Celeste_box_art_full.png",
+    alt: "Celeste (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Celeste (FireworkSky, 2024) an Android tool. Latest release: v2.1.1. Needs your own copy of the game (Celeste 1.4.0.0 Linux).",
   notesEs: "Celeste (FireworkSky, 2024) una herramienta para Android. Última release: v2.1.1. Necesita tu propia copia del juego.",
 };

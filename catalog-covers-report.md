@@ -36,3 +36,8 @@ Fuentes aplicadas: Wikipedia 365 Â· Steam 55.
 ## Pendientes
 
 Las 513 fichas restantes no tienen pÃ¡gina de Wikipedia con imagen ni resultado fiable en Steam (homebrew, plugins o juegos muy minoritarios). Mantienen el fallback visual del sistema. Se puede reintentar mÃ¡s adelante con libretro o SteamGridDB.
+
+## Ronda 2 (2026-10-22)
+
+Se reutilizó la portada ya catalogada del mismo juego en **77 fichas** que no tenían imagen. Quedan unas 525 sin carátula (homebrew, plugins o juegos sin página con imagen).
+

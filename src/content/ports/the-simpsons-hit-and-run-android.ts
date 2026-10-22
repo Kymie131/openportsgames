@@ -20,6 +20,11 @@ export const theSimpsonsHitAndRunAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5f/The_Simpsons_Hit_and_Run_cover.png",
+    alt: "The Simpsons: Hit & Run (box art)",
+    credit: "Wikipedia",
+  },
   notes: "The Simpsons: Hit & Run (Vivendi Universal Games, 2003) for Android (source port). Latest release: v0.93. Needs your own copy of the game (Game Files).",
   notesEs: "The Simpsons: Hit & Run (Vivendi Universal Games, 2003) para Android (port de código). Última release: v0.93. Necesita tu propia copia del juego.",
 };

@@ -21,6 +21,11 @@ export const silentHillDecomp: Port = {
   sourceVerified: true,
   originalSystems: ["PlayStation"],
   related: ["silent-hill-pc"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Silent%20Hill%20(USA).png",
+    alt: "Silent Hill (box art)",
+    credit: "Box art",
+  },
   notes: "In-progress matching decompilation of the 1.1 US release of Silent Hill (PlayStation, 1999). No playable release yet: it rebuilds the game from your own disc.",
   notesEs: "Decompilación en curso (matching) de la versión 1.1 USA de Silent Hill (PlayStation, 1999). Sin release jugable todavía: reconstruye el juego desde tu propio disco.",
 };

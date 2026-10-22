@@ -20,6 +20,11 @@ export const godOfWarPs2Pc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b5/God_of_War_%282005%29_cover.jpg",
+    alt: "God of War (box art)",
+    credit: "Wikipedia",
+  },
   notes: "God of War (SCE Santa Monica Studio, 2005) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "God of War (SCE Santa Monica Studio, 2005) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

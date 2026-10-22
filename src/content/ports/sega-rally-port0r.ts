@@ -21,6 +21,11 @@ export const segaRallyPort0r: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Arcade"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/eb/Sega_Rally_flyer.jpg",
+    alt: "Sega Rally Championship (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Sega Rally Championship (Sega, 1994) ported natively to Switch, Android, Linux and macOS from the arcade original. You need your own ROM.",
   notesEs:

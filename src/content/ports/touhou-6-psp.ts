@@ -21,6 +21,11 @@ export const touhou6Psp: Port = {
   sourceVerified: true,
   originalSystems: ["Windows"],
   related: ["touhou-6-android"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8b/Th06cover.jpg",
+    alt: "Touhou 6: The Embodiment of Scarlet Devil (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Unofficial native PSP port of Touhou Koumakyou (TH06) that draws straight to the PSP Graphics Engine through libGU. It ships no original game data: you need your own copy of the PC version 1.02f. Latest release: v1.0.1.",
   notesEs: "Port nativo no oficial para PSP de Touhou Koumakyou (TH06) que dibuja directamente en la Graphics Engine de la PSP mediante libGU. No incluye datos del juego original: necesitas tu propia copia de la versión de PC 1.02f. Última release: v1.0.1.",
 };

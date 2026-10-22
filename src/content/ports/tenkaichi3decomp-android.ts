@@ -20,6 +20,11 @@ export const tenkaichi3decompAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Dragon%20Ball%20Z%20-%20Budokai%20Tenkaichi%203%20(Europe,%20Australia)%20(En,Fr,De,Es,It).png",
+    alt: "Dragon Ball Z: Budokai Tenkaichi 3 (box art)",
+    credit: "Box art",
+  },
   notes: "Dragon Ball Z: Budokai Tenkaichi 3 (Bandai Namco, 2007) for Android (decompilation). Latest release: android-v0.7.3. Needs your own copy of the game.",
   notesEs: "Dragon Ball Z: Budokai Tenkaichi 3 (Bandai Namco, 2007) para Android (decompilación). Última release: android-v0.7.3. Necesita tu propia copia del juego.",
 };

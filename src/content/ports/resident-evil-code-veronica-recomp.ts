@@ -21,6 +21,11 @@ export const residentEvilCodeVeronicaRecomp: Port = {
   sourceVerified: true,
   originalSystems: ["Dreamcast"],
   related: ["resident-evil-code-veronica-decomp","resident-evil-code-veronica"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/44/RECV_boxart.jpg",
+    alt: "Resident Evil: Code Veronica X (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Static recompilation of Resident Evil CODE:Veronica built with ReXGlue. Work in progress: it only ships source code to build it, so you must own a legitimate copy and extract its assets.",
   notesEs: "Recompilación estática de Resident Evil CODE:Veronica construida con ReXGlue. En desarrollo: solo incluye el código fuente para compilarla, así que necesitas una copia legítima y extraer sus assets.",
 };

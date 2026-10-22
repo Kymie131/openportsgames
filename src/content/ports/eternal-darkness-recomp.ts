@@ -20,6 +20,11 @@ export const eternalDarknessRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8d/Eternal_Darkness_box.jpg",
+    alt: "Eternal Darkness: Sanity's Requiem (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Eternal Darkness: Sanity's Requiem (GameCube, 2002) as a native port for windows, macos, linux via static recompilation, not an emulator. It ships no game code or data: bring your own copy. Latest release: v0.9.0.",
   notesEs: "Eternal Darkness: Sanity's Requiem (GameCube, 2002) como port nativo para windows, macos, linux mediante recompilación estática, no un emulador. No incluye código ni datos del juego: aporta tu propia copia. Última release: v0.9.0.",
 };

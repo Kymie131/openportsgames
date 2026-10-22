@@ -21,6 +21,11 @@ export const theDarknessEstacado: Port = {
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["the-darkness-recomp"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/1c/Darkness_cover.jpg",
+    alt: "The Darkness (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Estacado: a native PC recompilation of The Darkness (Xbox 360, 2007), separate from the other The Darkness project in the catalog. The game's PowerPC code is translated to C++ and runs on Windows with a Direct3D 12 layer (ReXGlue + XenonRecomp). Free, non-commercial fan project; no game data included. Pre-release, tested only on one Windows 11 + NVIDIA RTX PC. Latest release: v0.9.8.",
   notesEs:

@@ -20,6 +20,11 @@ export const quakeWii: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
+  cover: {
+    src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Quake%20(1996).png",
+    alt: "Quake (box art)",
+    credit: "Box art",
+  },
   notes: "Quake (id Software, 1996) running on Wii through source port. The original game is free software, so no commercial copy is needed.",
   notesEs: "Quake (id Software, 1996) en Wii mediante port de código. El juego original es software libre, así que no hace falta una copia comercial.",
 };

@@ -20,6 +20,11 @@ export const marathonRecompiled: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d1/Sonic_the_Hedgehog_Next-Gen_Box_Art.JPG",
+    alt: "Sonic The Hedgehog (2006) (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Sonic The Hedgehog (2006) (Sega, 2006) for Android (static recompilation). Latest release: Third. Needs your own copy of the game (Sonic 2006 ISO).",
   notesEs: "Sonic The Hedgehog (2006) (Sega, 2006) para Android (recompilación estática). Última release: Third. Necesita tu propia copia del juego.",
 };

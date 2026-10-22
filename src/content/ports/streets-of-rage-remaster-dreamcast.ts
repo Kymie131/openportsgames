@@ -20,6 +20,11 @@ export const streetsOfRageRemasterDreamcast: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Sega Mega Drive / Genesis"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sega%20-%20Mega%20Drive%20-%20Genesis/Named_Boxarts/Streets%20of%20Rage%20(USA).png",
+    alt: "Streets of Rage (box art)",
+    credit: "Box art",
+  },
   notes: "Streets of Rage (Sega, 1991) running on dreamcast through source port. You need your own copy of the game.",
   notesEs: "Streets of Rage (Sega, 1991) en dreamcast mediante port de código. Necesitas tu propia copia del juego.",
 };

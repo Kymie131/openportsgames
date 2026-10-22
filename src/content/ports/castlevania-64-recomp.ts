@@ -21,6 +21,11 @@ export const castlevania64Recomp: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["castlevania-legacy-of-darkness-recomp"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Castlevania%20(Europe)%20(Virtual%20Console).png",
+    alt: "Castlevania (box art)",
+    credit: "Box art",
+  },
   notes: "Static recompilation and remaster of Castlevania (Nintendo 64, 1999), also known as Castlevania 64: native PC port with refactored code and modern presentation. Bring your own ROM.",
   notesEs: "Recompilación estática y remaster de Castlevania (Nintendo 64, 1999), conocido como Castlevania 64: port nativo a PC con código refactorizado y presentación moderna. Aporta tu propia ROM.",
 };

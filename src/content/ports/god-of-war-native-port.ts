@@ -21,6 +21,11 @@ export const godOfWarNativePort: Port = {
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
   related: ["god-of-war-2-hd-recomp","god-of-war-3-android"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b5/God_of_War_%282005%29_cover.jpg",
+    alt: "God of War (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Native PC port of God of War (PS2, NTSC-U SCUS-97399): the game code is statically recompiled to C++ with PS2Recomp and the PS2 hardware is replaced by native code, not emulated. Requires your own copy. Experimental.",
   notesEs: "Port nativo a PC de God of War (PS2, NTSC-U SCUS-97399): el código del juego se recompila estáticamente a C++ con PS2Recomp y el hardware de PS2 se sustituye por código nativo, sin emulación. Requiere tu propia copia. Experimental.",
 };

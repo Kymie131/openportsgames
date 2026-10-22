@@ -22,6 +22,11 @@ export const metalGearSolidPs1Recomp: Port = {
   originalSystems: ["PlayStation"],
   related: ["metal-gear-solid-recomp"],
   aiDisclosure: {"source":"https://github.com/coccofresco/mgsone-recomp","quote":"AI-MADE PROJECT."},
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Metal%20Gear%20Solid%20(Europe).png",
+    alt: "Metal Gear Solid (box art)",
+    credit: "Box art",
+  },
   notes: "Midnight Ghost Stone: a native PC recompilation of Metal Gear Solid (PlayStation, 1998) with an original-asset Vulkan presentation. Experimental alpha, and an explicitly AI-made project. Latest tag: alpha.1.",
   notesEs: "Midnight Ghost Stone: recompilación nativa para PC de Metal Gear Solid (PlayStation, 1998) con presentación en Vulkan sobre los assets originales. Alpha experimental y proyecto declarado como hecho con IA. Último tag: alpha.1.",
 };

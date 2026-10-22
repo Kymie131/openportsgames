@@ -20,6 +20,11 @@ export const falloutPs3: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/af/Fallout.jpg",
+    alt: "Fallout (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Fallout (Interplay Entertainment, 1997) running on PlayStation 3 through source port. Latest release: v0.1.0. You need your own copy of the game.",
   notesEs: "Fallout (Interplay Entertainment, 1997) en PlayStation 3 mediante port de código. Última release: v0.1.0. Necesitas tu propia copia del juego.",
 };

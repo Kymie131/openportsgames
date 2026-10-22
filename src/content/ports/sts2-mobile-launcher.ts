@@ -21,6 +21,11 @@ export const sts2MobileLauncher: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/2868840/header.jpg",
+    alt: "Slay The Spire 2 (box art)",
+    credit: "Steam",
+  },
   notes: "Slay The Spire 2 (Humble Bundle, 2026) an Android tool. Latest release: v0.1.11. Needs your own copy of the game.",
   notesEs: "Slay The Spire 2 (Humble Bundle, 2026) una herramienta para Android. Última release: v0.1.11. Necesita tu propia copia del juego.",
 };

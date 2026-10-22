@@ -20,6 +20,11 @@ export const animalCrossingPs3: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Animal%20Crossing%20(USA).png",
+    alt: "Animal Crossing (box art)",
+    credit: "Box art",
+  },
   notes: "Animal Crossing (Nintendo, 2001) running on PlayStation 3 through source port. You need your own copy of the game.",
   notesEs: "Animal Crossing (Nintendo, 2001) en PlayStation 3 mediante port de código. Necesitas tu propia copia del juego.",
 };

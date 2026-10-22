@@ -21,6 +21,11 @@ export const classicCoreEngines: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg",
+    alt: "Perfect Dark (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Perfect Dark (Id Software, 1993) an Android tool. Latest release: 3.5.0. Needs your own copy of the game (Perfect Dark (USA) (Rev 1).z64).",
   notesEs: "Perfect Dark (Id Software, 1993) una herramienta para Android. Última release: 3.5.0. Necesita tu propia copia del juego.",
 };

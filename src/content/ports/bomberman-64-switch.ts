@@ -21,6 +21,11 @@ export const bomberman64Switch: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["bomberman-64-recomp"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Bomberman%2064%20(USA).png",
+    alt: "Bomberman 64 (box art)",
+    credit: "Box art",
+  },
   notes:
     "Bomberman 64 (Hudson Soft, 1997) running natively on Nintendo Switch through N64Recomp and libultraship. It requires your own ROM and ships no game assets.",
   notesEs:

@@ -20,6 +20,11 @@ export const pokemonRedBlue3dsGen1recomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Pokemon%20-%20Red%20Version%20(USA,%20Europe)%20(SGB%20Enhanced).png",
+    alt: "Pokemon Red (box art)",
+    credit: "Box art",
+  },
   notes: "Pokemon Red (Nintendo, 1996) running on Nintendo 3DS through decompilation. Latest release: v0.0.1. You need your own copy of the game.",
   notesEs: "Pokemon Red (Nintendo, 1996) en Nintendo 3DS mediante decompilación. Última release: v0.0.1. Necesitas tu propia copia del juego.",
 };
