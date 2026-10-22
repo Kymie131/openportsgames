@@ -46,3 +46,7 @@ Se reutilizó la portada ya catalogada del mismo juego en **77 fichas** que no te
 
 13 de los 19 ports de Android nuevos recibieron la carátula del mismo juego desde otra ficha del catálogo.
 
+
+## Ronda 4 (2026-10-22)
+
+5 de los 19 ports del segundo lote de Android y 3 del tercer lote recibieron la portada del mismo juego desde otra ficha. Total acumulado: 518 fichas con caratula. Quedan unas 504 sin imagen (homebrew, plugins o juegos sin pagina con imagen).
