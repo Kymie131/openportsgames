@@ -6,8 +6,8 @@ export const BattletanxGlobalAssault: Port = {
   title: "BattleTanx: Global Assault",
   game: "BattleTanx: Global Assault",
   developers: ["TheGh0stShip"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "The 3DO Company",
+  originalYear: 1999,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -26,7 +26,7 @@ export const BattletanxGlobalAssault: Port = {
     credit: "Box art",
   },
   notes:
-    "100% matching decompilation of BattleTanx: Global Assault (N64, USA Rev 0) — foundation for VitaTanxGA.",
+    "100% matching decompilation of BattleTanx: Global Assault (N64, USA Rev 0) — foundation for VitaTanxGA. The playable PC port built on it is catalogued separately.",
   notesEs:
-    "Decompilación 100% exacta de BattleTanx: Global Assault (N64, USA Rev 0), base de VitaTanxGA.",
+    "Descompilación 100% exacta de BattleTanx: Global Assault (N64, USA Rev 0), base de VitaTanxGA. El port jugable para PC construido sobre ella se cataloga aparte.",
 };

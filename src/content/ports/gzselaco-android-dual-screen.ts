@@ -3,7 +3,7 @@ import type { Port } from "@/lib/ports/schema";
 export const gzselacoAndroidDualScreen: Port = {
   schema: "port",
   id: "gzselaco-android-dual-screen",
-  title: "GZSelaco Android (Dual Screen)",
+  title: "GZSelaco (Android)",
   game: "Selaco",
   developers: ["danillogical"],
   publisher: "Altered Orbit Studios",
@@ -12,7 +12,7 @@ export const gzselacoAndroidDualScreen: Port = {
   genre: "shooter",
   openSource: true,
   originalGameLicense: "proprietary",
-  platforms: ["android"],
+  platforms: ["android", "macos"],
   status: "beta",
   release: { version: null, date: null },
   sources: ["https://github.com/danillogical/GZSelaco-android"],
@@ -25,6 +25,8 @@ export const gzselacoAndroidDualScreen: Port = {
     alt: "Selaco (cover art)",
     credit: "Steam",
   },
-  notes: "Selaco (Altered Orbit Studios, 2024) for Android (source port). Latest release: v0.2.0. Needs your own copy of the game.",
-  notesEs: "Selaco (Altered Orbit Studios, 2024) para Android (port de código). Última release: v0.2.0. Necesita tu propia copia del juego.",
+  notes:
+    "Selaco (Altered Orbit Studios, 2024) for Android and macOS (source port). Latest release: v0.2.0. Needs your own copy of the game. A user reported a crash on a Samsung Galaxy S26 Ultra after the permissions prompt; the port targets Android handhelds and dual-screen devices and has not been validated on phones.",
+  notesEs:
+    "Selaco (Altered Orbit Studios, 2024) para Android y macOS (port de código). Última release: v0.2.0. Necesita tu propia copia del juego. Un usuario reportó un cierre inesperado en un Samsung Galaxy S26 Ultra tras el aviso de permisos; el port está pensado para handhelds Android y dispositivos de doble pantalla, y no se ha validado en teléfonos.",
 };
