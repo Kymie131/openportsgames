@@ -69,6 +69,29 @@ export function createAuth(env: Env) {
         },
       },
     },
+    databaseHooks: {
+      user: {
+        create: {
+          before: async (user) => {
+            const name = typeof user.name === "string" ? user.name.trim() : "";
+            return {
+              data: {
+                ...user,
+                name: name.length >= 2 ? name.slice(0, 40) : "Player",
+              },
+            };
+          },
+        },
+        update: {
+          before: async (user) => {
+            if (user.name === undefined) return;
+            const name = typeof user.name === "string" ? user.name.trim() : "";
+            if (name.length < 2 || name.length > 40) return false;
+            return { data: { ...user, name } };
+          },
+        },
+      },
+    },
     session: {
       expiresIn: DAY_IN_SECONDS * 7,
       updateAge: DAY_IN_SECONDS,

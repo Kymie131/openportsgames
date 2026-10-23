@@ -34,6 +34,16 @@ app.on(["GET", "POST"], "/api/auth/*", (c) => createAuth(c.env).handler(c.req.ra
 
 app.get("/health", (c) => c.json({ ok: true }));
 
+app.get("/config", (c) =>
+  c.json({
+    providers: {
+      google: Boolean(c.env.GOOGLE_CLIENT_ID && c.env.GOOGLE_CLIENT_SECRET),
+      discord: Boolean(c.env.DISCORD_CLIENT_ID && c.env.DISCORD_CLIENT_SECRET),
+      github: Boolean(c.env.GITHUB_CLIENT_ID && c.env.GITHUB_CLIENT_SECRET),
+    },
+  }),
+);
+
 app.get("/me", requireUser(), (c) => {
   const user = c.get("user");
   return c.json({

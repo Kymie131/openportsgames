@@ -59,6 +59,15 @@ export type CommentsPage = {
   nextCursor: string | null;
 };
 
+/** Which social providers the Worker has credentials for. */
+export type AuthConfig = {
+  providers: {
+    google: boolean;
+    discord: boolean;
+    github: boolean;
+  };
+};
+
 /** Error carrying the HTTP status and the generic API error code. */
 export class ApiError extends Error {
   readonly status: number;
@@ -102,4 +111,9 @@ export async function apiFetch<T>(path: string, init?: RequestInit): Promise<T> 
 
   if (response.status === 204) return undefined as T;
   return (await response.json()) as T;
+}
+
+/** Read which social providers are configured on the API. */
+export async function getAuthConfig(): Promise<AuthConfig> {
+  return apiFetch<AuthConfig>("/config");
 }

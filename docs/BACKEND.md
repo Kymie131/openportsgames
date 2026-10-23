@@ -112,6 +112,19 @@ npm run dev                      # http://localhost:8787
 
 En el front, `NEXT_PUBLIC_API_URL=http://localhost:8787`.
 
+## Estado y administración
+
+- `GET /config` indica qué proveedores OAuth tienen credenciales. El menú de acceso solo muestra los configurados y avisa cuando no hay ninguno.
+- El apodo se valida en el servidor: 2-40 caracteres, se recorta y se aplica al crear la cuenta y al actualizarlo.
+- Para moderar, inicia sesión y promueve tu cuenta una vez (el usuario debe existir):
+
+```bash
+cd api
+npm run promote-admin -- tu@email.com
+```
+
+Después, `GET /admin/reports`, `PATCH /admin/comments/:id` (`{"status":"hidden"}` o `{"status":"visible"}`) y `DELETE /admin/users/:id` requieren la cookie de una cuenta con rol `admin`. Si los llamas con `curl`, añade `-H "Origin: https://openportsgames.com"`: el Worker rechaza toda escritura sin un origen permitido.
+
 ## Notas
 
 - `api/src/port-ids.json` se genera con `npm run gen:ids` desde `api/`. **Regénéralo cada vez que añadas ports** o la API devolverá 404 en sus ratings/comentarios.

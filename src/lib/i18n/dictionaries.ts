@@ -689,6 +689,7 @@ const en = {
       withGitHub: "Continue with GitHub",
       signedInAs: (name: string) => `Signed in as ${name}`,
       error: "Sign-in failed. Please try again.",
+      unavailable: "Sign-in is not configured yet. Please try again later.",
       deleteAccount: "Delete my account",
       deleteTitle: "Delete your account?",
       deleteDescription:
@@ -1487,6 +1488,7 @@ const es: Messages = {
       withGitHub: "Continuar con GitHub",
       signedInAs: (name: string) => `Sesión de ${name}`,
       error: "No se pudo iniciar sesión. Inténtalo de nuevo.",
+      unavailable: "El inicio de sesión aún no está configurado. Inténtalo más tarde.",
       deleteAccount: "Eliminar mi cuenta",
       deleteTitle: "¿Eliminar tu cuenta?",
       deleteDescription:

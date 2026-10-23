@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 import {
   ChevronDown,
@@ -13,7 +13,7 @@ import {
   Trash2,
 } from "lucide-react";
 import { authClient, useSessionUser } from "@/lib/auth-client";
-import { apiFetch } from "@/lib/api";
+import { apiFetch, getAuthConfig } from "@/lib/api";
 import { useT } from "@/lib/i18n/use-i18n";
 import { GithubMark } from "@/components/platforms/github-mark";
 import { Button } from "@/components/ui/button";
@@ -53,6 +53,23 @@ export function LoginButton({ className }: { className?: string }) {
   const [nickname, setNickname] = useState("");
   const [nicknameSaving, setNicknameSaving] = useState(false);
   const [nicknameError, setNicknameError] = useState<string | null>(null);
+  const [enabled, setEnabled] = useState<Record<Provider, boolean> | null>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    getAuthConfig()
+      .then((config) => {
+        if (!cancelled) setEnabled(config.providers);
+      })
+      .catch(() => {
+        if (!cancelled) setEnabled({ google: true, discord: true, github: true });
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  const providers = PROVIDERS.filter((provider) => !enabled || enabled[provider.id]);
 
   const triggerClass = cn(
     "inline-flex h-9 items-center gap-1.5 rounded-md border border-border bg-surface px-2 text-sm text-foreground transition-colors duration-150 hover:bg-surface-2",
@@ -214,8 +231,10 @@ export function LoginButton({ className }: { className?: string }) {
                   {t.community.login.deleteAccount}
                 </DropdownMenu.Item>
               </>
+            ) : providers.length === 0 ? (
+              <p className="px-2.5 py-1.5 text-xs text-muted">{t.community.login.unavailable}</p>
             ) : (
-              PROVIDERS.map((provider) => (
+              providers.map((provider) => (
                 <DropdownMenu.Item
                   key={provider.id}
                   onSelect={(event) => {
