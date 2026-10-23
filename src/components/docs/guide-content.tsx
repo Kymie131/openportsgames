@@ -1,5 +1,6 @@
 "use client";
 
+import { LocalizedLink as Link } from "@/components/i18n/localized-link";
 import { useT } from "@/lib/i18n/use-i18n";
 import { DocHeader, DocList, DocPage, DocParagraph, DocSection } from "./editorial";
 
@@ -59,6 +60,78 @@ export function GuideContent() {
           {t.guides.phoneWarning}
         </p>
       </DocSection>
+
+      <DocSection title={t.guides.winlatorTitle}>
+        <DocParagraph>{t.guides.winlatorIntro}</DocParagraph>
+        <p className="rounded-lg border border-amber-500/30 bg-amber-500/10 p-4 text-sm leading-6 text-foreground">
+          {t.guides.winlatorWarning}
+        </p>
+        <h3 className="pt-1 text-sm font-semibold text-foreground">
+          {t.guides.winlatorStepsTitle}
+        </h3>
+        <ol className="flex list-decimal flex-col gap-2 pl-5 text-sm leading-6 text-muted marker:font-mono marker:text-accent">
+          {t.guides.winlatorSteps.map((step) => (
+            <li key={step} className="pl-1">
+              {step}
+            </li>
+          ))}
+        </ol>
+        <h3 className="pt-1 text-sm font-semibold text-foreground">
+          {t.guides.winlatorExamplesTitle}
+        </h3>
+        <dl className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+          {t.guides.winlatorExamples.map((example) => (
+            <div key={example.name} className="rounded-lg border border-border bg-surface p-4">
+              <dt className="text-sm font-semibold text-foreground">{example.name}</dt>
+              <dd className="mt-1 text-sm leading-6 text-muted">{example.body}</dd>
+              <a
+                href={example.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-3 inline-flex text-xs font-medium text-accent hover:underline"
+              >
+                Steam ↗
+              </a>
+            </div>
+          ))}
+        </dl>
+        <a
+          href="https://github.com/brunodev85/winlator"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex text-sm font-medium text-accent hover:underline"
+        >
+          {t.guides.winlatorSource} ↗
+        </a>
+      </DocSection>
+
+      <DocSection title={t.guides.kytyTitle}>
+        <DocParagraph>{t.guides.kytyIntro}</DocParagraph>
+        <p className="rounded-lg border border-amber-500/30 bg-amber-500/10 p-4 text-sm leading-6 text-foreground">
+          {t.guides.kytyWarning}
+        </p>
+        <ol className="flex list-decimal flex-col gap-2 pl-5 text-sm leading-6 text-muted marker:font-mono marker:text-accent">
+          {t.guides.kytySteps.map((step) => (
+            <li key={step} className="pl-1">
+              {step}
+            </li>
+          ))}
+        </ol>
+        <div className="flex flex-wrap items-center gap-4">
+          <Link href="/emulators" className="text-sm font-medium text-accent hover:underline">
+            {t.nav.emulators} →
+          </Link>
+          <a
+            href="https://github.com/KytyPS5/KytyPS5"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm font-medium text-accent hover:underline"
+          >
+            {t.guides.kytySource} ↗
+          </a>
+        </div>
+      </DocSection>
+
       <DocSection title={t.guides.faqTitle}>
         <dl className="flex flex-col gap-4">
           {t.guides.faq.map((item, index) => (

@@ -412,6 +412,45 @@ const en = {
     ],
     phoneWarning:
       "Red flag: a page that asks for payment, uses link shorteners or installs a second 'installer'. Go back to the catalog entry and use its official link.",
+    winlatorTitle: "Windows games on Android: Winlator",
+    winlatorIntro:
+      "Winlator is a compatibility layer that runs Windows x86/x64 games on Android using Wine, Box86/Box64 and DXVK. It is emulation, not a native port: performance depends heavily on the phone.",
+    winlatorWarning:
+      "Use only the official Winlator build and your own game copy. Avoid repackaged APKs that bundle game data; they are the usual source of malware and legal problems.",
+    winlatorStepsTitle: "Setup",
+    winlatorSteps: [
+      "Download Winlator from its official GitHub and install the APK.",
+      "Create a container with a recent Wine build; on Adreno GPUs, install Turnip drivers if the project recommends them.",
+      "Copy the game folder from your own legal installation to the phone.",
+      "Add the game's .exe inside the container and adjust DXVK/VKD3D and resolution for that title.",
+      "Test with low settings first. If it does not boot, try another Wine/DXVK combination before giving up.",
+    ],
+    winlatorExamplesTitle: "Examples",
+    winlatorExamples: [
+      {
+        name: "Sleeping Dogs: Definitive Edition",
+        body: "Open-world action; a Snapdragon 8 Gen 2 or newer is recommended. Expect tinkering and variable frame rates.",
+        url: "https://store.steampowered.com/app/307690/Sleeping_Dogs_Definitive_Edition/",
+      },
+      {
+        name: "Prototype",
+        body: "DirectX 9-era open-world game; some community configurations run it, but stability varies by device.",
+        url: "https://store.steampowered.com/app/10150/Prototype/",
+      },
+    ],
+    winlatorSource: "Winlator on GitHub",
+    kytyTitle: "PS5 on PC: KytyPS5 and Astro Bot",
+    kytyIntro:
+      "KytyPS5 is an experimental PS5 emulator listed in the emulators section. Astro Bot is a PS5 title, so it depends on emulator compatibility, not on a native port.",
+    kytyWarning:
+      "PS5 emulation is still immature. Astro Bot may not boot or may run with severe glitches; check the project's compatibility reports before downloading anything.",
+    kytySteps: [
+      "Open the emulators section and read the PlayStation 5 entry.",
+      "Check the emulator's compatibility list for Astro Bot and your firmware version.",
+      "Use only your own dumped game and firmware files; the project does not provide them.",
+      "Follow the emulator's setup guide and expect crashes, missing graphics or unplayable speeds.",
+    ],
+    kytySource: "KytyPS5 on GitHub",
     faqTitle: "Frequently asked questions",
     faq: [
       {
@@ -1242,6 +1281,45 @@ const es: Messages = {
     ],
     phoneWarning:
       "Señal de alarma: una página que pide pago, usa acortadores o instala un segundo 'instalador'. Vuelve a la ficha del catálogo y usa su enlace oficial.",
+    winlatorTitle: "Juegos de Windows en Android: Winlator",
+    winlatorIntro:
+      "Winlator es una capa de compatibilidad que ejecuta juegos de Windows x86/x64 en Android con Wine, Box86/Box64 y DXVK. Es emulación, no un port nativo: el rendimiento depende mucho del teléfono.",
+    winlatorWarning:
+      "Usa solo la build oficial de Winlator y tu propia copia del juego. Evita APK reempaquetados con los datos del juego; suelen ser la vía habitual de malware y problemas legales.",
+    winlatorStepsTitle: "Configuración",
+    winlatorSteps: [
+      "Descarga Winlator desde su GitHub oficial e instala el APK.",
+      "Crea un contenedor con una build reciente de Wine; en GPU Adreno, instala drivers Turnip si el proyecto los recomienda.",
+      "Copia la carpeta del juego desde tu propia instalación legal al teléfono.",
+      "Añade el .exe del juego dentro del contenedor y ajusta DXVK/VKD3D y la resolución para ese título.",
+      "Prueba primero con ajustes bajos. Si no arranca, cambia de combinación Wine/DXVK antes de rendirte.",
+    ],
+    winlatorExamplesTitle: "Ejemplos",
+    winlatorExamples: [
+      {
+        name: "Sleeping Dogs: Definitive Edition",
+        body: "Acción de mundo abierto; se recomienda Snapdragon 8 Gen 2 o superior. Habrá que ajustar opciones y los FPS variarán.",
+        url: "https://store.steampowered.com/app/307690/Sleeping_Dogs_Definitive_Edition/",
+      },
+      {
+        name: "Prototype",
+        body: "Juego de mundo abierto de la era DirectX 9; algunas configuraciones de la comunidad lo mueven, pero la estabilidad cambia según el dispositivo.",
+        url: "https://store.steampowered.com/app/10150/Prototype/",
+      },
+    ],
+    winlatorSource: "Winlator en GitHub",
+    kytyTitle: "PS5 en PC: KytyPS5 y Astro Bot",
+    kytyIntro:
+      "KytyPS5 es un emulador experimental de PS5 que aparece en la sección de emuladores. Astro Bot es un título de PS5, así que depende de la compatibilidad del emulador, no de un port nativo.",
+    kytyWarning:
+      "La emulación de PS5 sigue siendo inmadura. Astro Bot puede no arrancar o hacerlo con fallos graves; revisa los informes de compatibilidad del proyecto antes de descargar nada.",
+    kytySteps: [
+      "Abre la sección de emuladores y lee la ficha de PlayStation 5.",
+      "Consulta la lista de compatibilidad del emulador para Astro Bot y tu versión de firmware.",
+      "Usa solo tus propios volcados del juego y del firmware; el proyecto no los proporciona.",
+      "Sigue la guía de configuración del emulador y espera cuelgues, gráficos ausentes o velocidades injugables.",
+    ],
+    kytySource: "KytyPS5 en GitHub",
     faqTitle: "Preguntas frecuentes",
     faq: [
       {
