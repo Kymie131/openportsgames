@@ -147,8 +147,14 @@ Node RSS**; Next 16 exposes `experimental.staticGenerationMaxConcurrency`,
 `experimental.cpus` to bound the static-generation workers.
 
 The `postbuild` step first runs `scripts/prune-export.mjs`, which removes
-`__next._full.txt` prefetch copies (byte-identical to their sibling `index.txt`) and
-the unused per-port `opengraph-image` files. It verifies each duplicate before
-deleting it and always exits 0. Then `scripts/check-export-size.mjs` prints
+`__next._full.txt` prefetch copies (byte-identical to their sibling `index.txt`),
+the unused per-port `opengraph-image` files and the three per-port RSC payloads per
+locale (`index.txt`, `__next._tree.txt` and `__next.$d$lang/.../__PAGE__.txt`).
+Port pages keep only their `index.html` per locale: direct loads and SEO are
+unchanged, while client-side transitions to a port fall back to a full page load.
+That leaves ~2 files per port and raises the practical catalog capacity from
+~2,000 to ~9,500 entries under Cloudflare Pages' 20,000-file limit. The script
+verifies duplicates before deleting them and always exits 0. Then
+`scripts/check-export-size.mjs` prints
 `[export-size] N files in out/ (warn at 18000, limit 20000)` and **always exits 0**:
 it only warns, it never fails the build.
