@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mirrorSEdgeAndroid: Port = {
+  schema: "port",
+  id: "mirror-s-edge-android",
+  title: "Mirror's Edge (Android)",
+  game: "Mirror's Edge",
+  developers: ["MoonCellar-Team"],
+  publisher: "Electronic Arts",
+  originalYear: 2010,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "windows", "linux"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-10-22" },
+  sources: ["https://github.com/MoonCellar-Team/Glassline"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Unofficial port of the 2010 iPad version of Mirror's Edge to Android, Linux and Windows, with touch controls and gamepad support.",
+  notesEs: "Port no oficial de la versión iPad de Mirror's Edge (2010) a Android, Linux y Windows, con controles táctiles y mando.",
+};

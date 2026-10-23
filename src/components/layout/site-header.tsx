@@ -21,6 +21,7 @@ const NAV_ITEMS = [
   { href: "/pc", key: "pc" as const },
   { href: "/android", key: "android" as const },
   { href: "/console", key: "console" as const },
+  { href: "/explore", key: "explore" as const },
   { href: "/emulators", key: "emulators" as const },
   { href: "/tools", key: "tools" as const },
 ];

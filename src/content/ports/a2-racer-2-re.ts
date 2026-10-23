@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const a2Racer2Re: Port = {
+  schema: "port",
+  id: "a2-racer-2-re",
+  title: "A2 Racer II (Browser)",
+  game: "A2 Racer II",
+  developers: ["berobloom"],
+  publisher: "Davilex Games",
+  originalYear: 1998,
+  portType: "reimplementation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["linux", "web"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/berobloom/a2racer2-re"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Reverse engineering and C reimplementation of A2 Racer II for Linux and the browser via WebAssembly. Needs your own game data.",
+  notesEs: "Ingeniería inversa y reimplementación en C de A2 Racer II para Linux y el navegador mediante WebAssembly. Necesita tus propios datos del juego.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const deadOrAlive2UltimateRecomp: Port = {
+  schema: "port",
+  id: "dead-or-alive-2-ultimate-recomp",
+  title: "Dead or Alive 2 Ultimate Recompiled",
+  game: "Dead or Alive 2 Ultimate",
+  developers: ["NoRain211"],
+  publisher: "Tecmo",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.2", date: "2026-10-20" },
+  sources: ["https://github.com/NoRain211/doa2u-re"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox"],
+  notes: "Static recompilation of Dead or Alive 2 Ultimate (Xbox) for Windows with a hand-written runtime. Requires your own copy of the game.",
+  notesEs: "Recompilación estática de Dead or Alive 2 Ultimate (Xbox) para Windows con un runtime propio. Requiere tu propia copia del juego.",
+};

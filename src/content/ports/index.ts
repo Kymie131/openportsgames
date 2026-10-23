@@ -1,5 +1,17 @@
 import type { Port } from "@/lib/ports/schema";
 import { sm64ex } from "./sm64ex";
+import { residentEvilOutbreakBrowser } from "./resident-evil-outbreak-browser";
+import { warOfTheMonstersRecomp } from "./war-of-the-monsters-recomp";
+import { championsOfNorrathRecomp } from "./champions-of-norrath-recomp";
+import { tenchuZRecomp } from "./tenchu-z-recomp";
+import { mirrorSEdgeAndroid } from "./mirror-s-edge-android";
+import { deadOrAlive2UltimateRecomp } from "./dead-or-alive-2-ultimate-recomp";
+import { a2Racer2Re } from "./a2-racer-2-re";
+import { sonicAdvanceWeb } from "./sonic-advance-web";
+import { gtaViceCityWeb } from "./gta-vice-city-web";
+import { cncGeneralsZeroHourWeb } from "./cnc-generals-zero-hour-web";
+import { vvvvvvWeb } from "./vvvvvv-web";
+import { quakeIiWeb } from "./quake-ii-web";
 import { aerofoilAndroid } from "./aerofoil-android";
 import { micropolisAndroid } from "./micropolis-android";
 import { prehistorik2Android } from "./prehistorik-2-android";
@@ -3972,4 +3984,16 @@ export const portCases: Port[] = [
   whiteAlbum2Android,
   ultima5Android,
   openttdAndroid,
+  residentEvilOutbreakBrowser,
+  warOfTheMonstersRecomp,
+  championsOfNorrathRecomp,
+  tenchuZRecomp,
+  mirrorSEdgeAndroid,
+  deadOrAlive2UltimateRecomp,
+  a2Racer2Re,
+  sonicAdvanceWeb,
+  gtaViceCityWeb,
+  cncGeneralsZeroHourWeb,
+  vvvvvvWeb,
+  quakeIiWeb,
 ];

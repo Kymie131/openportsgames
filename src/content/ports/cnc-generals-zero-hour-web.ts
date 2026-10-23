@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const cncGeneralsZeroHourWeb: Port = {
+  schema: "port",
+  id: "cnc-generals-zero-hour-web",
+  title: "Command & Conquer: Generals - Zero Hour (Web)",
+  game: "Command & Conquer: Generals - Zero Hour",
+  developers: ["origami-ltd"],
+  publisher: "Electronic Arts",
+  originalYear: 2003,
+  portType: "recompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["web"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/origami-ltd/wasm-generals"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/20/Cncgzh-win-cover.jpg",
+    alt: "Command & Conquer: Generals - Zero Hour (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "WebAssembly and WebGPU port of Command & Conquer: Generals - Zero Hour that loads your own game files. No assets are bundled.",
+  notesEs: "Port a WebAssembly y WebGPU de Command & Conquer: Generals - Zero Hour que carga tus propios archivos. No incluye recursos.",
+};

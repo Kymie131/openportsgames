@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const warOfTheMonstersRecomp: Port = {
+  schema: "port",
+  id: "war-of-the-monsters-recomp",
+  title: "War of the Monsters Recompiled",
+  game: "War of the Monsters",
+  developers: ["yanm1103"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/yanm1103/War_of_the_Monsters_recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  notes: "Work-in-progress static recompilation of War of the Monsters (PS2) with quality-of-life fixes and new features. Bring your own disc.",
+  notesEs: "Recompilación estática en curso de War of the Monsters (PS2), con mejoras de calidad de vida y funciones nuevas. Aporta tu propio disco.",
+};

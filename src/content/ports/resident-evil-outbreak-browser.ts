@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const residentEvilOutbreakBrowser: Port = {
+  schema: "port",
+  id: "resident-evil-outbreak-browser",
+  title: "Resident Evil Outbreak (Browser)",
+  game: "Resident Evil Outbreak",
+  developers: ["OutbreakWeb"],
+  publisher: "Capcom",
+  originalYear: 2003,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: false,
+  originalGameLicense: "proprietary",
+  platforms: ["web"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://outbreakweb.com"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Resident%20Evil%20-%20Outbreak%20(USA)%20(v2.00).png",
+    alt: "Resident Evil Outbreak (box art)",
+    credit: "Box art",
+  },
+  notes: "Browser version of the Resident Evil Outbreak decomp, covering File #1 and File #2 with scenarios, online play and private rooms. Unofficial fan project.",
+  notesEs: "Versión de navegador de la decompilación de Resident Evil Outbreak, con File #1 y File #2, escenarios, online y salas privadas. Proyecto fan no oficial.",
+  warning: "Unofficial fan project with its own server; Capcom has not endorsed it.",
+  warningEs: "Proyecto fan no oficial con servidor propio; Capcom no lo ha respaldado.",
+};

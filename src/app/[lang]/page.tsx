@@ -13,6 +13,9 @@ import {
 } from "@/lib/ports";
 import type { Port } from "@/lib/ports/schema";
 import { portKind } from "@/lib/ports/schema";
+import { originalSystemsById } from "@/content/ports/meta";
+import { resolveSystem } from "@/content/systems";
+import type { ConsoleSummary } from "@/components/home/console-grid";
 import { pageMeta } from "@/lib/seo";
 import { SITE_NAME, getSiteUrl } from "@/lib/site";
 import { dictionaries } from "@/lib/i18n/dictionaries";
@@ -26,6 +29,16 @@ const FEATURED_SLUGS = [
   "metroid-prime-hunters-recompiled",
   "triaevum",
 ];
+
+const NON_CONSOLE_SYSTEMS = new Set([
+  "windows",
+  "ms-dos",
+  "macintosh",
+  "amiga",
+  "commodore-64",
+  "zx-spectrum",
+  "other",
+]);
 
 const HOME_TITLE = {
   en: "OpenPortsGames – native ports, recompilations and decompilations for PC and Android",
@@ -73,6 +86,34 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     .filter((port): port is Port => port !== undefined && portKind(port) === "game")
     .map(withMeta);
 
+  const portsBySystem = new Map<string, Set<string>>();
+  const resolvedBySystem = new Map<string, NonNullable<ReturnType<typeof resolveSystem>>>();
+  for (const port of getGamePorts()) {
+    for (const label of originalSystemsById[port.id] ?? []) {
+      const resolved = resolveSystem(label);
+      if (!resolved || NON_CONSOLE_SYSTEMS.has(resolved.slug)) continue;
+      const ids = portsBySystem.get(resolved.slug) ?? new Set<string>();
+      ids.add(port.id);
+      portsBySystem.set(resolved.slug, ids);
+      resolvedBySystem.set(resolved.slug, resolved);
+    }
+  }
+  const consoleSystems: ConsoleSummary[] = [...portsBySystem.entries()]
+    .map(([slug, ids]) => {
+      const resolved = resolvedBySystem.get(slug);
+      if (!resolved) return null;
+      return {
+        slug,
+        name: resolved.name,
+        logo: resolved.logo,
+        color: resolved.definition.color,
+        count: ids.size,
+      };
+    })
+    .filter((entry): entry is ConsoleSummary => entry !== null)
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 18);
+
   return (
     <>
       <JsonLd
@@ -89,6 +130,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         latest={latest}
         recentlyAdded={recentlyAdded}
         featured={featured}
+        systems={consoleSystems}
         counts={{
           ports: getPortCount(),
           verifiedSource: getGamePorts().filter((port) => port.sourceVerified).length,

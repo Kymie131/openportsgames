@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tenchuZRecomp: Port = {
+  schema: "port",
+  id: "tenchu-z-recomp",
+  title: "Tenchu Z Recompiled",
+  game: "Tenchu Z",
+  developers: ["Llamapixels"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Llamapixels/TenchuZRecomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Work-in-progress HoloCatt static recompilation of Tenchu Z (Xbox 360) for Windows. Bring your own disc image.",
+  notesEs: "Recompilación estática HoloCatt en curso de Tenchu Z (Xbox 360) para Windows. Aporta tu propia imagen del disco.",
+};

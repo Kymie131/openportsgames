@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const championsOfNorrathRecomp: Port = {
+  schema: "port",
+  id: "champions-of-norrath-recomp",
+  title: "Champions of Norrath Recompiled",
+  game: "Champions of Norrath",
+  developers: ["sandroct"],
+  publisher: "Sony Online Entertainment",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sandroct/CoNRecomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  notes: "Work-in-progress native Windows port of Champions of Norrath built with PS2Recomp. Bring your own game disc.",
+  notesEs: "Port nativo en curso para Windows de Champions of Norrath, construido con PS2Recomp. Aporta tu propio disco del juego.",
+};

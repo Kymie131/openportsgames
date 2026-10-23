@@ -19,6 +19,7 @@ import { Badge } from "@/components/ui/badge";
 import { Container } from "@/components/layout/container";
 import { PortTile } from "@/components/catalog/port-tile";
 import { HalloweenDecor } from "./halloween-decor";
+import { ConsoleGrid, type ConsoleSummary } from "./console-grid";
 import { SUPPORT_PAYPAL_URL } from "@/lib/support";
 import type { TestStatus } from "@/components/catalog/test-badge";
 import type { Port } from "@/lib/ports/schema";
@@ -33,11 +34,13 @@ export function HomeContent({
   latest,
   recentlyAdded,
   featured,
+  systems,
   counts,
 }: {
   latest: FeaturedPort[];
   recentlyAdded: FeaturedPort[];
   featured: FeaturedPort[];
+  systems: ConsoleSummary[];
   counts: { ports: number; verifiedSource: number; tested: number };
 }) {
   const t = useT();
@@ -107,6 +110,8 @@ export function HomeContent({
           </div>
         </dl>
       </section>
+
+      <ConsoleGrid systems={systems} />
 
       {recentlyAdded.length > 0 && (
         <section className="mt-14 sm:mt-24" aria-labelledby="new-heading">

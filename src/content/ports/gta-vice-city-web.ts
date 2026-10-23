@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gtaViceCityWeb: Port = {
+  schema: "port",
+  id: "gta-vice-city-web",
+  title: "Grand Theft Auto: Vice City (Web)",
+  game: "Grand Theft Auto: Vice City",
+  developers: ["origami-ltd"],
+  publisher: "Rockstar Games",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["web"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/origami-ltd/wasm-revc"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/ce/Vice-city-cover.jpg",
+    alt: "Grand Theft Auto: Vice City (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "WebAssembly and WebGPU port of Grand Theft Auto: Vice City that streams your own game files in the browser. No game data included.",
+  notesEs: "Port a WebAssembly y WebGPU de Grand Theft Auto: Vice City que transmite tus propios archivos en el navegador. No incluye datos del juego.",
+};

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const quakeIiWeb: Port = {
+  schema: "port",
+  id: "quake-ii-web",
+  title: "Quake II (Web)",
+  game: "Quake II",
+  developers: ["GMH-Code"],
+  publisher: "id Software",
+  originalYear: 1997,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["web"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/GMH-Code/Qwasm2"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b5/Quake2box.jpg",
+    alt: "Quake II (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Quake II engine in the browser with WebGL 2 and software-rendered modes. Bring your own game data.",
+  notesEs: "Motor de Quake II en el navegador con WebGL 2 y modos de render por software. Aporta tus propios datos del juego.",
+};

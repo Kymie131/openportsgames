@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const vvvvvvWeb: Port = {
+  schema: "port",
+  id: "vvvvvv-web",
+  title: "VVVVVV (Web)",
+  game: "VVVVVV",
+  developers: ["cyanpurr"],
+  publisher: "Terry Cavanagh",
+  originalYear: 2010,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["web"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/cyanpurr/VVVVVV-WASM"],
+  license: { spdx: "NOASSERTION", note: "no license file in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/5/52/VVVVVV_-_The_Tomb_of_Mad_Carew.png",
+    alt: "VVVVVV (box art)",
+    credit: "Wikimedia Commons",
+  },
+  notes: "WebAssembly port of VVVVVV for the browser, built from the open-source game. Bring your own data files.",
+  notesEs: "Port a WebAssembly de VVVVVV para el navegador, construido desde el juego open source. Aporta tus propios archivos de datos.",
+};

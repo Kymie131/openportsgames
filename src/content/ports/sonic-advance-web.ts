@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sonicAdvanceWeb: Port = {
+  schema: "port",
+  id: "sonic-advance-web",
+  title: "Sonic Advance (Web)",
+  game: "Sonic Advance",
+  developers: ["NahuelGenchi"],
+  publisher: "Sega",
+  originalYear: 2003,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["web"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/NahuelGenchi/onsoku-advance"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Game Boy Advance"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Sonic%20Advance%20(USA)%20(En,Ja).png",
+    alt: "Sonic Advance (box art)",
+    credit: "Box art",
+  },
+  notes: "From-scratch front-end port of Sonic Advance that runs in the browser without emulation, using assets extracted from your own ROM.",
+  notesEs: "Port del front-end de Sonic Advance hecho desde cero que corre en el navegador sin emulación, usando recursos extraídos de tu propia ROM.",
+};
