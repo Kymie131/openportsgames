@@ -25,6 +25,8 @@ export const starWarsDarkForces3ds: Port = {
     alt: "Star Wars: Dark Forces (box art)",
     credit: "Wikipedia",
   },
+  summary: "Star Wars: Dark Forces is a first-person shooter video game developed and published by LucasArts. It was released in 1995 for MS-DOS and Macintosh, and in 1996 for the PlayStation. The story is set in the Star Wars expanded universe and begins shortly before the original Star Wars film, before flashing forward to a year after the film's events.",
+  summaryEs: "Star Wars: Dark Forces fue el primer FPS basado en el universo de Star Wars y uno de los primeros videojuegos en comercializarse en formato CD-ROM por las secuencias de video que incorporaba, que ocupaban un considerable tamaño para la época.",
   notes: "Star Wars: Dark Forces (LucasArts, 1995) running on Nintendo 3DS through source port. Latest release: v1.0.0. You need your own copy of the game.",
   notesEs: "Star Wars: Dark Forces (LucasArts, 1995) en Nintendo 3DS mediante port de código. Última release: v1.0.0. Necesitas tu propia copia del juego.",
 };

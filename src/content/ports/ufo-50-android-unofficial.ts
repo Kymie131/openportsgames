@@ -25,6 +25,8 @@ export const ufo50AndroidUnofficial: Port = {
     alt: "UFO 50 (box art)",
     credit: "Wikipedia",
   },
+  summary: "UFO 50 is a video game collection developed and published by Mossmouth for Windows in September 2024 and for Nintendo Switch in August 2025. It features 50 unique games of varying genres and length. The games were a collaborative effort by six developers over the course of several years, its development akin to a game jam.",
+  summaryEs: "UFO 50 es un videojuego de acción y aventura publicado por Mossmouth en 2024.",
   notes: "UFO 50 (Mossmouth, 2024) for Android (source port). Needs your own copy of the game.",
   notesEs: "UFO 50 (Mossmouth, 2024) para Android (port de código). Necesita tu propia copia del juego.",
 };

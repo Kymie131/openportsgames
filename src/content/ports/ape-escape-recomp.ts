@@ -19,6 +19,8 @@ export const apeEscapeRecomp: Port = {
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Ape Escape is a series of video games developed primarily by Japan Studio and published and owned by Sony Interactive Entertainment. The series incorporates ape-related humour, unique gameplay, and a wide variety of pop culture references. The first game in the series is the first to require the DualShock or Dual Analog controller to play.",
+  summaryEs: "Ape Escape es un videojuego de plataformas.",
   notes:
     "Static recompilation of Ape Escape (USA, SCUS-94423) with PSXRecomp. The releases precompile 47 disc overlays and two minigames; two archive members remain unresolved.",
   notesEs:

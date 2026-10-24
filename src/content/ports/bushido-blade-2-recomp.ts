@@ -19,6 +19,8 @@ export const bushidoBlade2Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Bushido Blade 2 is a 1998 fighting video game developed by Lightweight and published by Square for the PlayStation. It is the sequel to Bushido Blade, which had been released the previous year. The game was re-released in 2008 for PlayStation Network. The game is similar to the first, except the story and characters expand and relate on two rival clans/gangs/schools; The Narukagami, and the Shainto, in which both clans seek a different journey, while still in opposition of each other and their mission.",
+  summaryEs: "Bushido Blade 2 es un videojuego de lucha publicado por Square en 1998.",
   notes:
     "Recompilation of Bushido Blade 2 (PS1, USA SLUS-00663) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

@@ -21,6 +21,8 @@ export const morsgamesMoonchildfe: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "[Gameplay Mechanics]• Controls: Simple mouse-click navigation to advance the story.• Branching Narrative: Player choices directly influence the plot, leading to multiple unique endings.• Standard Features: Includes essential functions such as Skip, Auto-mode, Save/Load, and Message Backlog.",
+  summaryEs: "Moon Child es un videojuego de acción y aventura publicado por D.U.F.F. en 2026.",
   notes: "Moon Child: engine remake by MorsGames for Windows. Bring your own copy of the game.",
   notesEs: "Moon Child: recreación de motor de MorsGames para Windows. Aporta tu propia copia del juego.",
 };

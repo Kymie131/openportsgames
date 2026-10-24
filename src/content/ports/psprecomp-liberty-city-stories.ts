@@ -25,6 +25,8 @@ export const psprecompLibertyCityStories: Port = {
     alt: "Grand Theft Auto: Liberty City Stories (box art)",
     credit: "Box art",
   },
+  summary: "Grand Theft Auto: Liberty City Stories is a 2005 action-adventure game developed in a collaboration between Rockstar Leeds and Rockstar North, and published by Rockstar Games. The ninth installment in the Grand Theft Auto series, it was initially released as a PlayStation Portable exclusive in October 2005. A port for the PlayStation 2 was later released in June 2006. At the time of release, the recommended retail price of the PS2 port was around half the price of the PSP version, because the PS2 version does not feature the custom soundtrack ripping capability of the PSP version.",
+  summaryEs: "Grand Theft Auto: Liberty City Stories es el decimoprimer juego de la serie Grand Theft Auto, desarrollado por Rockstar North en colaboración con Rockstar Leeds y distribuido por Rockstar Games. El juego se creó principalmente para el sistema PlayStation Portable (PSP), PlayStation 2 (PS2) lanzada en 2006. Por las grandes ventas del mismo también se lanzó para dispositivos iOS, Android y Fire OS el 17 de diciembre de 2015, 11 de febrero de 2016 y 11 de marzo de 2016, respectivamente.",
   notes: "Grand Theft Auto: Liberty City Stories (Rockstar Games, 2005) for Android (static recompilation). Needs your own copy of the game.",
   notesEs: "Grand Theft Auto: Liberty City Stories (Rockstar Games, 2005) para Android (recompilación estática). Necesita tu propia copia del juego.",
 };

@@ -19,6 +19,8 @@ export const naughtyBearRestuff: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Xbox 360"],
+  summary: "Naughty Bear is a 2010 action-adventure video game developed by Canadian studio Artificial Mind and Movement and released by Italian publisher 505 Games for the PlayStation 3, Xbox 360, and iOS. The game is set on the fictional Perfection Island in the 1980s, where sentient teddy bears live in harmony. Naughty Bear is a shabby teddy bear who is rude, which earns him disdain from other bears, and starts a vengeful rampage against them when he is shunned from a birthday party. The game received mixed reviews from critics.",
+  summaryEs: "Naughty Bear es un videojuego de acción y aventura publicado por 505 Games en 2010.",
   notes:
     "Native recompilation of Naughty Bear (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:

@@ -20,6 +20,8 @@ export const omnispeak: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
+  summary: "Commander Keen in Goodbye, Galaxy is a two-part episodic side-scrolling platform video game developed by id Software and published by Apogee Software in 1991 for DOS. It consists of the fifth and sixth episodes of the Commander Keen series, though they are numbered as the fourth and fifth, as Commander Keen in Keen Dreams is not part of the main continuity.",
+  summaryEs: "Commander Keen in Goodbye, Galaxy es un videojuego de plataformas publicado por Apogee Software en 1991.",
   notes:
     "Open-source reimplementation of Commander Keen: Goodbye, Galaxy (Episodes 4-6) that runs the original game data. It needs your own copy of the games.",
   notesEs:

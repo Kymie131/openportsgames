@@ -25,6 +25,8 @@ export const pes2013Switch: Port = {
     alt: "Pro Evolution Soccer 2013 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Pro Evolution Soccer 2013 is an association football video game developed and published by Konami. The game was announced by Konami on April 18, 2012. For the first time of the series, all 20 teams from the Brazilian national league, Campeonato Brasileiro Serie A, are included in the game series. The UEFA Champions League and UEFA Europa League features in the game. PES 2013 was the last game in the series available on a Nintendo home console and was succeeded by Pro Evolution Soccer 2014.",
+  summaryEs: "Pro Evolution Soccer 2013 es un videojuego de fútbol de la serie Pro Evolution Soccer desarrollado y publicado por Konami. El juego fue anunciado por Konami el 18 de abril de 2012, fue lanzado el 20 de septiembre en Europa y empezó a ser puesto en venta el 25 de septiembre en América.",
   notes: "Pro Evolution Soccer 2013 (Konami, 2012) running on Nintendo Switch through runtime layer. Latest release: v0.4.2. You need your own copy of the game.",
   notesEs: "Pro Evolution Soccer 2013 (Konami, 2012) en Nintendo Switch mediante capa de ejecución. Última release: v0.4.2. Necesitas tu propia copia del juego.",
 };

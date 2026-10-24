@@ -25,6 +25,8 @@ export const untitledGooseGamePsVita: Port = {
     alt: "Untitled Goose Game (box art)",
     credit: "Wikipedia",
   },
+  summary: "Untitled Goose Game is a 2019 indie puzzle stealth game developed by House House and published by Panic Inc. Players control a goose who bothers the inhabitants of an English village. Players must use the goose's abilities to manipulate objects and non-player characters to complete objectives. It was released on macOS, Nintendo Switch, and Windows on 20 September 2019, and PlayStation 4 and Xbox One on 17 December 2019.",
+  summaryEs: "Untitled Goose Game es un videojuego de rompecabezas y de sigilo desarrollado por House House y publicado por Panic el 20 de septiembre de 2019 para Windows, macOS y Nintendo Switch y el 17 de diciembre de 2019 en PlayStation 4 y Xbox One. El juego recibió críticas generalmente positivas, y los críticos elogiaron su jugabilidad y humor tontos.",
   notes: "Untitled Goose Game (Panic, 2019) running on PlayStation Vita through source port. Latest release: v0.1. You need your own copy of the game.",
   notesEs: "Untitled Goose Game (Panic, 2019) en PlayStation Vita mediante port de código. Última release: v0.1. Necesitas tu propia copia del juego.",
 };

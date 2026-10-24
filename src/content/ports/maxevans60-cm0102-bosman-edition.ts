@@ -22,6 +22,8 @@ export const maxevans60Cm0102BosmanEdition: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Windows"],
+  summary: "Championship Manager: Season 01/02 is a football management simulation video game in Sports Interactive's Championship Manager series. It was released for Microsoft Windows in October 2001, and for Mac in November 2001. It was later released on Xbox in April 2002. It was released as freeware in 2008. The game allowed players to take charge of any club in one of around 100 leagues across 27 countries, with responsibility for tactics and signings. The game sold more than 300,000 copies in the United Kingdom and is still popular and regularly updated.",
+  summaryEs: "Championship Manager: Season 01/02 es un videojuego de acción y aventura publicado por Eidos Interactive en 2001.",
   notes: "Championship Manager: Season 01/02: static recompilation by maxevans60 for Windows, Linux, macOS. Bring your own copy of the game.",
   notesEs: "Championship Manager: Season 01/02: recompilación estática de maxevans60 para Windows, Linux, macOS. Aporta tu propia copia del juego.",
 };

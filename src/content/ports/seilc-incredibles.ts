@@ -22,6 +22,8 @@ export const seilcIncredibles: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo GameCube"],
+  summary: "The Incredibles is an action-adventure video game based on Disney/Pixar's 2004 film of the same name developed by Heavy Iron Studios and published by THQ. The game was released for the Game Boy Advance, GameCube, Mac OS X, PlayStation 2, Windows and Xbox. Samuel L. Jackson, Spencer Fox (Dash), Sarah Vowell (Violet), and Jason Lee reprise their roles from the film, with the rest of the cast being replaced by different voice actors. The game's music was composed by Michael Giacchino, who also scored the film.",
+  summaryEs: "Los Increíbles es un videojuego basado en la película del mismo título, estrenado en 2004 para las consolas Xbox, PlayStation 2, Nintendo GameCube, Game Boy Advance, PC, Macintosh y para teléfono móvil. Una nota que la versión de la consola es sólo para el juego de los Increíbles y una de las primeras licencias de los juegos de Disney es calificarlo \"T para Teen\" por el ESRB.",
   notes: "The Incredibles: decompilation by seilc for Windows. Bring your own copy of the game.",
   notesEs: "The Incredibles: decompilación de seilc para Windows. Aporta tu propia copia del juego.",
 };

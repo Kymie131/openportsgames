@@ -25,6 +25,8 @@ export const silksongandroidachievementsDualScreen: Port = {
     alt: "Hollow Knight: Silksong (box art)",
     credit: "Wikipedia",
   },
+  summary: "Hollow Knight: Silksong is a 2025 Metroidvania game developed and published by Australian independent developer Team Cherry. The sequel to Hollow Knight (2017), the story follows Hallownest's former princess-protector, Hornet—a major secondary character in Hollow Knight—after she is captured and transported to the unfamiliar land of Pharloom. Gameplay sees the player navigating through the large, interconnected areas of this kingdom, where they must battle enemies, traverse platforming challenges, and complete quests using various skills, tools, and movement mechanics.",
+  summaryEs: "Hollow Knight: Silksong es un videojuego metroidvania desarrollado por el estudio independiente australiano Team Cherry. Es la secuela del videojuego de 2017 Hollow Knight. Desarrollado para Windows, macOS, Linux, Nintendo Switch, Nintendo Switch 2, Xbox One, Xbox Series X/S, PlayStation 4 y PlayStation 5, fue anunciado oficialmente el 14 de febrero de 2019. Fue lanzado el 4 de septiembre de 2025.",
   notes: "Hollow Knight: Silksong (Team Cherry, 2025) for Android (source port). Latest release: v1.0.0. Needs your own copy of the game (Need Linux Game Files).",
   notesEs: "Hollow Knight: Silksong (Team Cherry, 2025) para Android (port de código). Última release: v1.0.0. Necesita tu propia copia del juego.",
 };

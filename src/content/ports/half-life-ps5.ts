@@ -25,6 +25,8 @@ export const halfLifePs5: Port = {
     alt: "Half-Life (cover art)",
     credit: "Steam",
   },
+  summary: "Half-Life is a 1998 first-person shooter (FPS) game developed by Valve Corporation and published by Sierra Studios for Windows. It was Valve's debut product and the first game in the Half-Life series. The player controls Gordon Freeman, a theoretical physicist who must escape from the Black Mesa Research Facility after it is overrun by aliens following a disastrous scientific experiment. Its gameplay consists of combat, exploration and puzzles.",
+  summaryEs: "Half-Life es un videojuego de disparos en primera persona de 1998 desarrollado por Valve Corporation y publicado por Sierra Studios para Windows. Fue el producto debut de Valve y el primer juego de la serie Half-Life. El jugador asume el papel de Gordon Freeman, un científico que debe escapar de Black Mesa Research Facility tras ser invadido por extraterrestres después de un desastroso experimento científico. La jugabilidad se basa en combate, exploración y puzles.",
   notes: "Half-Life (Sierra On-Line, 1998) running on ps5 through source port. Latest release: v1.3. You need your own copy of the game.",
   notesEs: "Half-Life (Sierra On-Line, 1998) en ps5 mediante port de código. Última release: v1.3. Necesitas tu propia copia del juego.",
 };

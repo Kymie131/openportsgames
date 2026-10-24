@@ -6,8 +6,8 @@ export const OkamiHd: Port = {
   title: "Okami HD",
   game: "Okami HD",
   developers: ["Shintensu"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "Capcom",
+  originalYear: 2012,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const OkamiHd: Port = {
     alt: "Okami HD (box art)",
     credit: "Wikipedia",
   },
+  summary: "Okami HD is a action-adventure game published by Capcom in 2012.",
+  summaryEs: "Okami HD es un videojuego de acción y aventura publicado por Capcom en 2012.",
   notes:
     "A decompilation project for OkamiHD. The main focus is modding for now, but a full decomp is the end goal.",
   notesEs:

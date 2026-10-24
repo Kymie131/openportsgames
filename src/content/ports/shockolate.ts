@@ -21,6 +21,8 @@ export const shockolate: Port = {
   },
   verified: true,
   verifiedAt: "2026-10-01",
+  summary: "System Shock is a 1994 first-person action-adventure video game developed by LookingGlass Technologies and published by Origin Systems. It was directed by Doug Church with Warren Spector serving as producer. The game is set aboard a space station in a cyberpunk vision of the year 2072. Assuming the role of a nameless security hacker, the player attempts to hinder the plans of a malevolent artificial intelligence called SHODAN.",
+  summaryEs: "System Shock es un videojuego de rol de acción desarrollado por Looking Glass Technologies y distribuido por Origin Systems. Fue puesto a la venta el 26 de marzo de 1994. El juego tuvo una secuela, System Shock 2, publicada el 11 de agosto de 1999.",
   notes:
     "Reimplementation of the System Shock engine. The last tagged release is 0.7.7; tags from 0.8.0 onward are marked as prereleases.",
   notesEs:

@@ -19,6 +19,8 @@ export const infiniteUndiscoveryRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Xbox 360"],
+  summary: "Infinite Undiscovery is a 2008 action role-playing game developed by Microsoft Game Studios Japan and tri-Ace and published by Square Enix for the Xbox 360. It tells the story of the main character Capell and his journey to sever the chains that are holding the moon, with the help of the Liberation Force. The game received mixed to positive reviews from critics.",
+  summaryEs: "Infinite Undiscovery es un videojuego de rol de acción de 2008 desarrollado por Microsoft Game Studios Japan y tri-Ace, y publicado por Square Enix para Xbox 360. Narra la historia del protagonista, Capell, y su viaje para romper las cadenas que mantienen sujeta a la Luna, con la ayuda de la Fuerza de Liberación. El juego recibió críticas entre mixtas y positivas.",
   notes:
     "Recompilation of Infinite Undiscovery (Xbox 360) to a native Windows executable. It does not include the game.",
   notesEs:

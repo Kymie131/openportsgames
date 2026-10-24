@@ -25,6 +25,8 @@ export const _3on3NhlArcadeRecomp: Port = {
     alt: "3 on 3 NHL Arcade (box art)",
     credit: "Wikipedia",
   },
+  summary: "3 on 3 NHL Arcade is an NHL-licensed arcade-style hockey sports game for the Xbox 360 and PlayStation 3, using the NHL 09 engine. The game was developed by NHL 09's EA Canada under the EA Sports Freestyle banner and was one of three games released using the branding alongside FaceBreaker and NASCAR Kart Racing.",
+  summaryEs: "3 on 3 NHL Arcade es un videojuego de deportes publicado por EA Sports en 2009.",
   notes: "Native PC port of 3 on 3 NHL Arcade (Xbox 360, 2009) by static recompilation. Latest release: v0.1.1.",
   notesEs: "Port nativo a PC de 3 on 3 NHL Arcade (Xbox 360, 2009) mediante recompilación estática. Última release: v0.1.1.",
 };

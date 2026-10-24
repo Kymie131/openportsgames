@@ -22,6 +22,8 @@ export const reRacRerac: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Ratchet & Clank is a series of action-adventure platform and third-person shooter video games created and developed by Insomniac Games and published by Sony Interactive Entertainment as a flagship title for Sony's PlayStation 2. High Impact Games developed two installments for the PlayStation Portable while other studios were involved in remasters and ports.",
+  summaryEs: "Ratchet & Clank es una serie de videojuegos de acción y aventura, plataformas y disparos en tercera persona creados y desarrollados por Insomniac Games y publicados por Sony Interactive Entertainment para consolas PlayStation, como PlayStation 2, PlayStation 3, PlayStation 4 y PlayStation 5, con excepción de Size Matters y Secret Agent Clank, ambos desarrollados por High Impact Games para PlayStation Portable. La serie era exclusiva de las plataformas Sony hasta que Rift Apart recibió un puerto de Windows en 2023. En 2016 se lanzó una adaptación cinematográfica animada.",
   notes: "Ratchet & Clank: engine remake by re-rac for Windows. Bring your own copy of the game.",
   notesEs: "Ratchet & Clank: recreación de motor de re-rac para Windows. Aporta tu propia copia del juego.",
 };

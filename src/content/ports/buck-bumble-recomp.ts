@@ -20,6 +20,8 @@ export const buckBumbleRecomp: Port = {
   verified: false,
   sourceIsIndex: true,
   originalSystems: ["Nintendo 64"],
+  summary: "Buck Bumble is a 3D third-person shooter video game developed by Argonaut Software, that was published in 1998 by UbiSoft for the Nintendo 64. The game's premise centers around a war of two factions of anthropomorphic insects, created as a result of a chemical spill in London. The game received lukewarm reviews at release, even positive ones mentioning technical shortcomings. However the soundtrack and its main theme, both composed by Justin Scharvona, were praised after release, and it's enjoyed a modern resurgence of popularity, despite the game's otherwise relative obscurity.",
+  summaryEs: "Buck Bumble es un videojuego de acción para Nintendo 64 desarrollado por la compañía de videojuegos británica Argonaut Games y publicado por Ubisoft en 1998. Buck Bumble' es, asimismo, el nombre de la abeja ciborg que protagoniza este videojuego.",
   notes: "Tracked by PortsDR. No public repo is linked yet, and you supply the game files.",
   notesEs: "Seguido por PortsDR. Todavía no hay repo público, y tú aportas los archivos del juego.",
   cover: {

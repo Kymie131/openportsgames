@@ -19,6 +19,8 @@ export const monsterRancherRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Monster Rancher, known in Japan as Monster Farm , is a Japanese media franchise and series of life simulation role-playing video games created by Tecmo. The series consists of fifteen games across numerous different video game platforms, and an anime adaptation that aired from 1999 to 2000.",
+  summaryEs: "Monster Rancher es un videojuego de simulación en 1997.",
   notes:
     "Recompilation of Monster Rancher (PS1, USA SLUS-00568) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

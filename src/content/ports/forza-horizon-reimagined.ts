@@ -26,6 +26,8 @@ export const forzaHorizonReimagined: Port = {
     alt: "Forza Horizon (box art)",
     credit: "Wikipedia",
   },
+  summary: "Forza Horizon is a 2012 racing video game developed by Playground Games and published by Microsoft Studios for the Xbox 360 on 23 October 2012. The game is the fifth instalment of the Forza series, having originally spun-off from Turn 10 Studios-developed Forza Motorsport titles. Taking place during the fictitious Horizon Festival, a street racing event, the player's aim is to progress via winning races, while also increasing their popularity level by performing stunts and activities.",
+  summaryEs: "Forza Horizon es un videojuego de carreras de mundo abierto para los dispositivos Xbox 360. Desarrollado principalmente por el desarrollador de juegos británico Playground Games y el desarrollador indie Rodrigo Martínez en asociación con Turn 10 Studios, el juego es parte de la franquicia de Forza Motorsport, pero se considera más un spin-off en lugar del siguiente juego de la serie.",
   notes: "Forza Horizon (Xbox 360, 2012) natively on PC, rebuilt around a modern Horizon experience (shared online free roam, leaderboards/rivals, 120/144 fps, self-hostable online server). Separate project from the other Forza Horizon entry in the catalog. Latest release: v0.1.22.",
   notesEs: "Forza Horizon (Xbox 360, 2012) nativo en PC, reconstruido con una experiencia Horizon moderna (mundo libre online, clasificaciones/rivales, 120/144 fps, servidor online autoalojable). Proyecto distinto de la otra ficha de Forza Horizon. Última release: v0.1.22.",
 };

@@ -21,6 +21,8 @@ export const spelunkyClassicHdAndroid: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["Windows"],
+  summary: "Spelunky Classic HD is a platform game.",
+  summaryEs: "Spelunky Classic HD es un videojuego de plataformas.",
   notes: "Modified Spelunky Classic built from the published GameMaker source, with a universal Android APK and the original roguelike platforming.",
   notesEs: "Spelunky Classic modificado, construido desde el código GameMaker publicado, con un APK universal para Android y el plataformas roguelike original.",
 };

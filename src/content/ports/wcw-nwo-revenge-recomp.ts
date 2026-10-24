@@ -19,6 +19,8 @@ export const wcwNwoRevengeRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Nintendo 64"],
+  summary: "WCW/nWo Revenge is a professional wrestling video game developed by Asmik Ace Entertainment and AKI Corporation and released by THQ in 1998 for the Nintendo 64 game console. It is the sequel to 1997's WCW vs. nWo: World Tour. Like its predecessor, Revenge features AKI's proprietary grappling system; as well as heavily improved graphics, a championship mode, and a large roster of wrestlers.",
+  summaryEs: "WCW/nWo Revenge es un videojuego de lucha publicado por THQ en 1998.",
   notes:
     "Native recompilation of WCW/nWo Revenge (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

@@ -22,6 +22,8 @@ export const synamaxmusicSinistar: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Sinistar is a 1983 multidirectional shooter arcade video game developed and manufactured by Williams Electronics. It was created by Sam Dicker, Jack Haeger, Noah Falstein, RJ Mical, Python Anghelo, and Richard Witt. Players control a space pilot who battles the eponymous Sinistar, a giant, anthropomorphic spacecraft. The game is known for its use of digitized speech and high difficulty level.",
+  summaryEs: "Sinistar es un videojuego arcade de disparos multidireccional desarrollado y fabricado por Williams Electronics. El juego fue lanzado en 1983, aunque el aviso de copyright del juego dice 1982. Sinistar fue creado por Sam Dicker, Jack Haeger, Noah Falstein, RJ Mical, Python Anghelo, y Richard Witt. Además del rugiente antagonista del juego, Sinistar es conocido por su alto nivel de dificultad.",
   notes: "Sinistar: decompilation by synamaxmusic for Windows. Bring your own copy of the game.",
   notesEs: "Sinistar: decompilación de synamaxmusic para Windows. Aporta tu propia copia del juego.",
 };

@@ -20,6 +20,8 @@ export const dantesInfernoRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  summary: "Dante's Inferno is a 2010 action-adventure game developed by Visceral Games and published by Electronic Arts. The game was released for PlayStation 3, Xbox 360 and PlayStation Portable in February 2010. The PlayStation Portable version was developed by Artificial Mind and Movement.",
+  summaryEs: "Dante's Inferno es un videojuego de acción perteneciente al género secundario hack and slash desarrollado por Visceral Games y publicado por Electronic Arts para PlayStation 3, Xbox 360 y PlayStation Portable. Está basado en la primera parte de la Divina Comedia del poeta Dante Alighieri.",
   notes:
     "Native Dante's Inferno (Xbox 360) port built with ReXGlue. Renders through D3D12 and Vulkan, no emulation.",
   notesEs:

@@ -25,6 +25,8 @@ export const BetrayalAtKrondor: Port = {
     alt: "Betrayal at Krondor (box art)",
     credit: "Wikipedia",
   },
+  summary: "Betrayal at Krondor is an MS-DOS-based role-playing video game developed by Dynamix and released by Sierra On-Line in the summer of 1993. Betrayal at Krondor takes place largely in Midkemia, the fantasy world developed by Raymond E. Feist in his Riftwar novels. The game is designed to resemble a book, separated into chapters and narrated in the third-person with a quick-save bookmark feature.",
+  summaryEs: "Betrayal at Krondor es un videojuego de rol de MS-DOS desarrollado por Dynamix y lanzado por Sierra On-Line en el verano de 1993. Betrayal at Krondor se desarrolla principalmente en Midkemia, el mundo de fantasía desarrollado por Raymond E. Feist en sus novelas de Riftwar. El juego está diseñado para parecer un libro, separado en capítulos y narrado en tercera persona con una función de guardado rápido con un marcapáginas.",
   notes: "Betrayal at Krondor: A byte-perfect recompilation of the 1993 classic.",
   notesEs: "Betrayal at Krondor: una recompilación byte a byte del clásico de 1993.",
 };

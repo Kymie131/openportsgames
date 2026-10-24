@@ -25,6 +25,8 @@ export const augustus: Port = {
     alt: "Caesar III (box art)",
     credit: "Wikipedia",
   },
+  summary: "Caesar III is a city-building game released on September 30, 1998, for Microsoft Windows and Mac OS, developed by Impressions Games and published by Sierra On-Line. It is the third installment of the Caesar series of games and is part of Sierra's City Building series. Players assume the role of a provincial governor to build thriving cities across the Roman Empire, in which they must ensure their citizens have their needs met, and deal with various disasters, angry gods and hostile enemies.",
+  summaryEs: "Caesar III es un juego de ordenador desarrollado por Impressions Games y distribuido por Sierra Entertainment; es el tercer título de la saga de juegos Caesar, concretamente de la serie de juegos de Sierra City Building Series y se lanzó al mercado en 1998.",
   notes: "Caesar III (Sierra On-Line, 1998) for Android (source port). Latest release: v4.0.0. Needs your own copy of the game (Game Files).",
   notesEs: "Caesar III (Sierra On-Line, 1998) para Android (port de código). Última release: v4.0.0. Necesita tu propia copia del juego.",
 };

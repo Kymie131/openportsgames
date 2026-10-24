@@ -22,6 +22,8 @@ export const vanillaConquer: Port = {
   },
   verified: false,
   originalSystems: ["MS-DOS"],
+  summary: "Command & Conquer is a real-time strategy video game developed and published by Westwood Studios in 1995. Set in an alternate history, the game tells the story of a world war between two globalized factions: the Global Defense Initiative of the United Nations and a revolutionary militant organization called the Brotherhood of Nod, led by the mysterious Kane.",
+  summaryEs: "Command & Conquer es un videojuego de estrategia en tiempo real desarrollado y publicado por Westwood Studios en 1995. Ambientado en una historia alternativa, el juego cuenta la historia de una guerra mundial entre dos facciones globalizadas: la Iniciativa de Defensa Global de las Naciones Unidas y una organización militante revolucionaria llamada la Hermandad de Nod, liderada por el misterioso Kane.",
   notes:
     "Engine reimplementation for the original Command & Conquer. The single GitHub release is a prerelease.",
   notesEs:

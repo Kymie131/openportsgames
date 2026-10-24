@@ -22,6 +22,8 @@ export const officialmelonBo2Recompiled: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  summary: "Call of Duty: Black Ops II is a 2012 first-person shooter game developed by Treyarch and published by Activision. It was released for Windows, PlayStation 3, and Xbox 360 on November 13, 2012, and for the Wii U on November 18 in North America and November 30 in PAL regions. Black Ops II is the ninth game in the Call of Duty franchise of video games, a sequel to the 2010 game Call of Duty: Black Ops and the first Call of Duty game for the Wii U.",
+  summaryEs: "Call of Duty: Black Ops II es un videojuego de disparos en primera persona desarrollado por Treyarch y distribuido por Activision. Se lanzó para Windows, PlayStation 3 y Xbox 360 el 12 de noviembre de 2012, y para Wii U el 18 de noviembre en América del Norte y el 30 de noviembre en las regiones PAL. Black Ops II es el noveno juego de la franquicia de videojuegos Call of Duty, una secuela del juego de 2010 Call of Duty: Black Ops y el primer juego de Call of Duty para Wii U.",
   notes: "Call of Duty: Black Ops II: static recompilation by officialmelon for Windows. Bring your own copy of the game.",
   notesEs: "Call of Duty: Black Ops II: recompilación estática de officialmelon para Windows. Aporta tu propia copia del juego.",
 };

@@ -25,6 +25,8 @@ export const nhlHockey94Pc: Port = {
     alt: "NHL '94 (box art)",
     credit: "Wikipedia",
   },
+  summary: "NHL '94 is an ice hockey game by EA Sports released for the Genesis, Super NES. and MS-DOS in 1993, then the Sega CD in 1994. The MS-DOS version is titled NHL Hockey, without the \"'94\" in the title. It is the third game in the NHL series and the first in the series to be officially licensed by both the National Hockey League (NHL) and the NHL Players' Association (NHLPA). NHL '94 launched to critical acclaim. It is often considered among the greatest sports video games and is widely considered the greatest hockey game of all time.",
+  summaryEs: "NHL '94 es un videojuego de deportes publicado por EA Sports en 1993.",
   notes: "NHL '94 (Electronic Arts, 1993) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "NHL '94 (Electronic Arts, 1993) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

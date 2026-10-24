@@ -26,6 +26,8 @@ export const gearsJudgmentRecomp: Port = {
     alt: "Gears of War: Judgment (box art)",
     credit: "Wikipedia",
   },
+  summary: "Gears of War: Judgment is a 2013 third-person shooter video game developed by People Can Fly and Epic Games and published by Microsoft Studios for the Xbox 360. It was released in North America and Australia on March 19, 2013, and in Europe on March 22. It is a spin-off of the Gears of War series and a prequel to Gears of War. The game follows Damon Baird, Augustus Cole and their squad Kilo as they are put on trial for disobeying orders just six weeks after Emergence Day.",
+  summaryEs: "Gears of War: Judgment es un videojuego de disparos en tercera persona. Es el cuarto título de la saga Gears of War, se estrenó el 19 de marzo para Norteamérica y partes de Europa y el 21 de marzo se estrenó para las demás regiones. El 4 de junio de 2012, Microsoft anunció oficialmente el desarrollo del juego en la conferencia de prensa de la compañía durante la Electronic Entertainment Expo 2012, antes de lanzar un tráiler del debut y demostrar las fantásticas características de multijugador.",
   notes: "Windows recompilation of the Gears of War: Judgment campaign with mouse aim, an unlocked frame rate and FSR support. Bring your own game copy.",
   notesEs: "Recompilación para Windows de la campaña de Gears of War: Judgment con puntería de ratón, tasa de fotogramas desbloqueada y soporte FSR. Necesitas tu propia copia del juego.",
 };

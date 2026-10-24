@@ -20,6 +20,8 @@ export const aceCombatXRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation Portable"],
+  summary: "Ace Combat X: Skies of Deception is a 2006 combat flight simulation video game for the PlayStation Portable. It is the first installment of the Ace Combat franchise for the PlayStation Portable, and the second for a handheld game system.",
+  summaryEs: "Ace Combat X: Skies of Deception es un videojuego de disparos publicado por Namco en 2006.",
   notes:
     "Listed on the PortsDR community index with no public repository. You need the original game.",
   notesEs:

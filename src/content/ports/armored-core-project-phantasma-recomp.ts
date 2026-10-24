@@ -19,6 +19,8 @@ export const armoredCoreProjectPhantasmaRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Armored Core: Project Phantasma is a 1997 third-person shooter mecha video game developed and published by FromSoftware for the PlayStation. Project Phantasma is the second entry in the Armored Core series and a prequel to the original Armored Core. The game was not released in Europe.",
+  summaryEs: "Armored Core: Project Phantasma es un videojuego de 1997 para la PlayStation. Este es parte de la serie Armored Core.",
   notes:
     "Recompilation of Armored Core: Project Phantasma (PS1, USA SLUS-00670) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

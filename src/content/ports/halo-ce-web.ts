@@ -21,6 +21,8 @@ export const haloCeWeb: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox"],
+  summary: "Halo: Combat Evolved is a 2001 first-person shooter game developed by Bungie and published by Microsoft Game Studios. The game was released on November 15, 2001 for the Xbox, with ports to Microsoft Windows and Mac OS X released in 2003. It is the first installment in the Halo franchise. Set in the 26th century, players assume the role of Master Chief, a cybernetically enhanced supersoldier.",
+  summaryEs: "Halo: Combat Evolved, comúnmente conocido como Halo, Halo CE o Halo 1, es un videojuego de disparos en primera persona desarrollado por Bungie Studios y publicado por Microsoft Game Studios el 15 de noviembre de 2001, a manera de título debut de la videoconsola Xbox, y de la cual es considerado como su aplicación asesina. Es el primer juego de la franquicia Halo.",
   notes:
     "The Halo: Combat Evolved (Xbox) decompilation compiled to WebAssembly and drawn with WebGL 2, playable in the browser. The menu and the 13 multiplayer maps are rebuilt through a clean-room pipeline that regenerates or replaces textures, sounds and fonts, so no retail data is distributed. The campaign and multiplayer maps can be loaded from your own legally obtained Xbox disc image, and multiplayer works over invite links.",
   notesEs:

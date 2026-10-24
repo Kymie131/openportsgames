@@ -26,6 +26,8 @@ export const princeOfPersiaClassicPsvita: Port = {
     alt: "Prince of Persia Classic (box art)",
     credit: "Wikipedia",
   },
+  summary: "Prince of Persia Classic is a 2007 action-platform game developed by Gameloft Montreal and published by Gameloft and Ubisoft. It is a remake of the original Prince of Persia (1989) that utilizes the visual style introduced in 2003's Prince of Persia: The Sands of Time. Similarly to the original, players control an unnamed protagonist, the Prince referenced in the title, who must save the imprisoned Princess from the evil Grand Vizier Jaffar, who attempts to conquer the land while her father, the Sultan, is away. The game is generally considered to be non-canon to the Prince of Persia series.",
+  summaryEs: "Prince of Persia Classic es un videojuego de acción y aventura en 2007.",
   notes: "PS Vita homebrew port and wrapper for Prince of Persia Classic (the 2007 remake), built on the Android release with soloader-boilerplate. Guide included for installing it on the console. Latest release: v01.45.",
   notesEs: "Port y wrapper homebrew para PS Vita de Prince of Persia Classic (el remake de 2007), construido sobre la versión de Android con soloader-boilerplate. Incluye guía de instalación en la consola. Última release: v01.45.",
 };

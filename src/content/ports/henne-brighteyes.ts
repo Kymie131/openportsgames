@@ -7,7 +7,7 @@ export const henneBrighteyes: Port = {
   game: "Realms of Arkania: Blade of Destiny",
   developers: ["Henne"],
   publisher: "United Independent Entertainment",
-  originalYear: 2013,
+  originalYear: 1992,
   portType: "reimplementation",
   genre: "rpg",
   openSource: true,
@@ -22,6 +22,8 @@ export const henneBrighteyes: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Realms of Arkania: Blade of Destiny is a role-playing video game developed by Attic Entertainment Software. It was the first game based on the German pen & paper RPG system The Dark Eye by Schmidt Spiele. The original German version of the game was released in 1992. Due to its success it was translated to English and released by Sir-Tech in 1993.",
+  summaryEs: "Realms of Arkania:Blade of Destiny es un videojuego de rol desarrollado por Attic Entertainment Software. Éste fue el primer videojuego basado en el sistema de bolígrafo y papel del juego de rol alemán Das Schwarze Auge. La versión original alemana salió a la venta en 1992. Debido a su éxito fue traducido al inglés en 1993.",
   notes: "Realms of Arkania: Blade of Destiny: engine remake by Henne for Windows. Bring your own copy of the game.",
   notesEs: "Realms of Arkania: Blade of Destiny: recreación de motor de Henne para Windows. Aporta tu propia copia del juego.",
 };

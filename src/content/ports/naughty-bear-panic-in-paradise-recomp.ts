@@ -21,6 +21,8 @@ export const naughtyBearPanicInParadiseRecomp: Port = {
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["naughty-bear-restuff"],
+  summary: "Naughty Bear: Panic in Paradise is a action-adventure game in 2012.",
+  summaryEs: "Naughty Bear: Panic in Paradise es un videojuego de acción y aventura en 2012.",
   notes: "Recompilation project for Naughty Bear: Panic in Paradise (Xbox 360, 2012). Latest release: release_v1.1.",
   notesEs: "Proyecto de recompilación de Naughty Bear: Panic in Paradise (Xbox 360, 2012). Última release: release_v1.1.",
 };

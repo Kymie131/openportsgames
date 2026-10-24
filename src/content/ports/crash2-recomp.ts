@@ -19,6 +19,8 @@ export const crash2Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Crash Bandicoot 2: Cortex Strikes Back is a 1997 platform game developed by Naughty Dog and published by Sony Computer Entertainment for the PlayStation. It is a sequel to Crash Bandicoot (1996), and is part of the Crash Bandicoot series. Taking place on a fictional group of islands near Australia, Crash Bandicoot 2 follows the adventures of the anthropomorphic bandicoot named Crash. Crash is abducted by series villain Doctor Neo Cortex, who tricks him into thinking he wants to save the world. Crash is thrust into several parts of N.",
+  summaryEs: "Crash Bandicoot 2: Cortex Strikes Back es un videojuego de plataformas desarrollado por Naughty Dog y publicado por Sony Computer Entertainment para PlayStation. Es la secuela de Crash Bandicoot (1996), y forma parte de la serie homónima.",
   notes:
     "Native port of Crash Bandicoot 2: Cortex Strikes Back (PS1, USA, SCUS-94154) with psxrecomp. A launcher builds the game from your own disc image (no BIOS needed, OpenBIOS is included) and it is completable start to finish, still as a preview.",
   notesEs:

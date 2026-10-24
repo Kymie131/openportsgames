@@ -20,6 +20,8 @@ export const mobileSuitGundamSeedBattleAssaultRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy Advance"],
+  summary: "Mobile Suit Gundam SEED: Battle Assault is a fighting game published by Bandai in 2004.",
+  summaryEs: "Mobile Suit Gundam SEED: Battle Assault es un videojuego de lucha publicado por Bandai en 2004.",
   notes:
     "A PortsDR community listing; no repository or release is public. The original game is required.",
   notesEs:

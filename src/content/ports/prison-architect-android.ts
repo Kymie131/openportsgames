@@ -19,6 +19,8 @@ export const prisonArchitectAndroid: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   originalSystems: ["Windows"],
+  summary: "Only the world’s most ruthless Warden can contain the world’s most ruthless inmates. Design and develop your personalized penitentiary in Prison Architect.",
+  summaryEs: "Prison Architect es un videojuego de simulación publicado por Paradox Interactive en 2015.",
   notes:
     "Android launcher for Prison Architect, based on the desktop game. It needs the game itself files.",
   notesEs:

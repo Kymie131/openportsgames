@@ -30,6 +30,8 @@ export const redriver2: Port = {
     "Tipos y nombres de función recuperados de los símbolos de depuración .SYM minoristas",
     "Builds para Windows y Linux de 64 bits",
   ],
+  summary: "Driver 2 is a 2000 action driving video game and the second installment of the Driver series. It was developed by Reflections Interactive and published by Infogrames for PlayStation. A port to the Game Boy Advance, titled Driver 2 Advance, was released in 2002, developed by Sennari Interactive and released under Infogrames' Atari range of products.",
+  summaryEs: "Driver 2, Driver 2: Back on the Streets o Driver 2: The Wheelman is Back es un videojuego de acción y conducción, la segunda entrega de la serie Driver. Fue desarrollado por Reflections Interactive y publicado por Infogrames. El jugador asume el papel de un policía llamado Tanner, que ingresa al mundo criminal. Su tarea es formar una banda internacional.",
   notes:
     "Driver 2 disassembled and translated to C by the OpenDriver2 team. Geometry still runs on Psy-X, which descends from an emulator, so it is not a from-scratch port. Needs the data files from your own PlayStation disc.",
   notesEs:

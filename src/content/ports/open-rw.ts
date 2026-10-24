@@ -19,6 +19,8 @@ export const openRw: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   originalSystems: ["Windows"],
+  summary: "Grand Theft Auto III is a 2001 action-adventure game developed by DMA Design and published by Rockstar Games. It is the first 3D game in the Grand Theft Auto series. Set in Liberty City, loosely based on New York City, the game follows Claude, a silent protagonist who becomes entangled in a world of crime, drugs, gang warfare, and corruption while pursuing revenge against his ex-girlfriend. The game is played from a third-person perspective and its world is navigated on foot or by vehicle. Its open world design lets the player freely roam Liberty City, which consists of three islands.",
+  summaryEs: "Grand Theft Auto III es un videojuego de acción y aventura de mundo abierto de disparos en tercera persona de 2001 desarrollado por DMA Design y publicado por Rockstar Games. Es la tercera entrada principal de la serie Grand Theft Auto, después de Grand Theft Auto 2 de 1999, y la quinta instalación en general.",
   notes:
     "Unofficial open source recreation of the original game executable. No tagged releases are published, so builds track the repository. A legitimate PC copy of Grand Theft Auto III is required to play.",
   notesEs:

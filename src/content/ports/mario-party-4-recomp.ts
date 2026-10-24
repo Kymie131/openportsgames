@@ -19,6 +19,8 @@ export const marioParty4Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["GameCube"],
+  summary: "Mario Party 4 is a 2002 party video game developed by Hudson Soft and published by Nintendo for the GameCube. It is the fourth installment in the Mario Party series and the first one to be released for GameCube. Like the previous games in the series, it features eight playable characters from the Mario franchise—Mario, Luigi, Princess Peach, Yoshi, Wario, Donkey Kong, Princess Daisy, and Waluigi—competing in a board game, with the objective of each of the six game boards being to earn the most Stars.",
+  summaryEs: "Mario Party 4 es la cuarta parte de la saga Mario Party, desarrollada por Hudson y distribuida por Nintendo y es el primer videojuego de la saga para el Nintendo GameCube. Su lanzamiento en Norteamérica fue el 21 de octubre de 2002.",
   notes:
     "Static recompilation of Mario Party 4 (GameCube) with ReXGlue. It requires a copy of the game.",
   notesEs:

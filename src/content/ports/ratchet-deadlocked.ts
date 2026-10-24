@@ -6,7 +6,7 @@ export const RatchetDeadlocked: Port = {
   title: "Ratchet: Deadlocked",
   game: "Ratchet: Deadlocked",
   developers: ["OpenRAC"],
-  publisher: "Unknown",
+  publisher: "Sony Interactive Entertainment",
   originalYear: 2005,
   portType: "decompilation",
   genre: "action-adventure",
@@ -25,6 +25,8 @@ export const RatchetDeadlocked: Port = {
     alt: "Ratchet: Deadlocked (box art)",
     credit: "Box art",
   },
+  summary: "Ratchet: Deadlocked is a 2005 third-person shooter platform video game developed by Insomniac Games and published by Sony Computer Entertainment for the PlayStation 2. It is the fourth installment of the Ratchet & Clank series. The game's story begins as Ratchet, Clank, and Al are abducted and forced to compete in \"DreadZone\", a violent game show in which heroes are forced to kill each other. Ratchet is given a \"DeadLock\" collar, which will explode if he becomes uncooperative or boring. The three must find a way to deactivate the collars and free the other heroes being held prisoner.",
+  summaryEs: "Ratchet: Deadlocked es un videojuego de plataformas de disparos en tercera persona de 2005 desarrollado por Insomniac Games y publicado por Sony Computer Entertainment para PlayStation 2. Es la cuarta entrega de la serie Ratchet & Clank. La historia del juego comienza cuando Ratchet, Clank y Al son secuestrados y obligados a competir en \"DreadZone\", un violento programa de juegos donde los héroes se ven forzados a matarse entre sí. A Ratchet le colocan un collar de bloqueo que explotará si se muestra poco cooperativo o aburrido.",
   notes: "Matching decompilation of Ratchet: Deadlocked (2005, PS2).",
   notesEs: "Decompilación que coincide de Ratchet: Deadlocked (2005, PS2).",
 };

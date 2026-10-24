@@ -22,6 +22,8 @@ export const isledecompIsle: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Lego Island is a Lego-themed open world action-adventure game developed and published by Mindscape. It was released for Windows on September 26, 1997, as the second Lego video game overall and the first one outside Japan. In the \"proto-open world\" game, players explore the eponymous island as one of five unique minifigure characters, and can build vehicles and complete side quests; the game's main story involves Pepper Roni, a pizza delivery boy, and his efforts to stop an escaped prisoner known as the Brickster from destroying the island.",
+  summaryEs: "Lego Island es un videojuego de acción y aventura de mundo abierto basado en Lego, desarrollado y publicado por Mindscape. Salió a la venta para Windows el 26 de septiembre de 1997, siendo el segundo juego de la franquicia y el primero fuera de Japón. En este «mundo abierto proto», los jugadores exploran la isla homónima en el papel de uno de los cinco personajes minifigura únicos, y pueden construir vehículos y completar misiones secundarias.",
   notes: "Lego Island: decompilation by isledecomp for Windows. Bring your own copy of the game.",
   notesEs: "Lego Island: decompilación de isledecomp para Windows. Aporta tu propia copia del juego.",
 };

@@ -20,6 +20,8 @@ export const xMenMutantAcademy2Recomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  summary: "X-Men: Mutant Academy 2 is a 2.5D fighting game for the PlayStation video game console. It was developed by Paradox Development and published by Activision on September 18, 2001. It is the sequel to X-Men: Mutant Academy and predecessor to X-Men: Next Dimension.",
+  summaryEs: "X-Men: Mutant Academy 2 es un videojuego de lucha en 2.5D desarrollado por Paradox Development y publicado por Activision para PlayStation. Fue el 18 de septiembre de 2001. Es la secuela de X-Men: Mutant Academy y predecesora de X-Men: Next Dimension.",
   notes:
     "Listed on the PortsDR community index with no public repository. You need your own game data.",
   notesEs:

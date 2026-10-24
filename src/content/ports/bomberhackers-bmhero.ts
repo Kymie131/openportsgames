@@ -27,6 +27,8 @@ export const bomberhackersBmhero: Port = {
     alt: "Bomberman Hero (box art)",
     credit: "Box art",
   },
+  summary: "Bomberman Hero is a platform video game developed by A.I Co., Ltd. and published by Hudson Soft for the Nintendo 64. It is the second Bomberman game to be released on the system, following Bomberman 64 (1997). It is notable for being a dramatic deviation from previous Bomberman titles, featuring predominant platforming gameplay as opposed to the series' traditional top-down strategy gameplay.",
+  summaryEs: "Bomberman Hero es un videojuego de acción y la continuación de Bomberman 64 para la consola Nintendo 64.",
   notes: "Bomberman Hero: decompilation by Bomberhackers for Windows. Bring your own copy of the game.",
   notesEs: "Bomberman Hero: decompilación de Bomberhackers para Windows. Aporta tu propia copia del juego.",
 };

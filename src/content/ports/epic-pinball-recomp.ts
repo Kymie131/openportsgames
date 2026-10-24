@@ -25,6 +25,8 @@ export const epicPinballRecomp: Port = {
     alt: "Epic Pinball (box art)",
     credit: "Wikipedia",
   },
+  summary: "Epic Pinball is a 1993 pinball video game developed by James Schmalz and published by Epic MegaGames. The initial release pre-dated Schmalz' Digital Extremes name. The game is played from a 2D top-down view within a scrollable window with plain raster graphics in 320x240. It was noted for being programmed entirely in x86 assembly language for MS-DOS systems.",
+  summaryEs: "Epic Pinball es un videojuego de puzles en 1993.",
   notes: "Epic Pinball (Epic MegaGames, 1993): all thirteen tables of the GOG Complete Collection taken apart from their shipping DOS executables and rebuilt as one native program for Windows or Linux. No DOSBox, no emulator.",
   notesEs: "Epic Pinball (Epic MegaGames, 1993): las trece mesas de la Complete Collection de GOG extraídas de sus ejecutables de DOS originales y reconstruidas como un único programa nativo para Windows o Linux. Sin DOSBox ni emulador.",
 };

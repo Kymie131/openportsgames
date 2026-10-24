@@ -26,6 +26,8 @@ export const goemon64RecompiledAndroid: Port = {
     alt: "Mystical Ninja Starring Goemon (box art)",
     credit: "Wikipedia",
   },
+  summary: "Mystical Ninja Starring Goemon is a 1997 platform action-adventure game developed by Konami Computer Entertainment Osaka and published by Konami for the Nintendo 64. The second Ganbare Goemon game released in North America and Europe, and the twelfth mainline installment overall, follows The Legend of the Mystical Ninja and features hybrid elements of platform games and action-adventure games.",
+  summaryEs: "Mystical Ninja Starring Goemon es un videojuego creado por Konami para Nintendo 64 en 1997. Es uno de los pocos juegos de esta saga que ha logrado salir de Japón, llegando también a Europa y Estados Unidos. Ha logrado estar entre los 35 mejores juegos de Nintendo 64. En Nintendo 64 tiene dos secuelas: Ganbare Goemon: Derodero Dōchū Obake Tenko Mori y Goemon: Mononoke Sugoroku, inédito en occidente.",
   notes:
     "Android port of Goemon 64: Recompiled: plays Mystical Ninja Starring Goemon (Nintendo 64) natively on phone or handheld, using RT64 for Vulkan rendering. Packaging/port layer on top of the upstream recompilation (built on N64: Recompiled). The APK does not include the game; you need your own ROM. Latest release: v1.0.8 (APK).",
   notesEs:

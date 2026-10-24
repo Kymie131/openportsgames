@@ -20,6 +20,8 @@ export const pTForAndroidDualScreen: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "P.T. is a 2014 interactive teaser for the video game Silent Hills, a cancelled installment in the Silent Hill series. It is a psychological horror game developed by Kojima Productions under the pseudonym \"7780s Studio\" and published by Konami Digital Entertainment. It was directed and designed by Hideo Kojima in collaboration with filmmaker Guillermo del Toro, and was released for free on the PlayStation 4.",
+  summaryEs: "P.T. es un videojuego en primera persona de tipo videojuego de terror desarrollado por el estudio nipón Kojima Productions y distribuido por Konami bajo la dirección del creador de videojuegos Hideo Kojima y del cineasta mexicano, ganador del Oscar, Guillermo del Toro. Salió a la venta el 12 de agosto de 2014 para PlayStation 4 en exclusividad.",
   notes: "P.T. (Kojima Productions, 2014) for Android (source port). Needs your own copy of the game (P.T. .pkg).",
   notesEs: "P.T. (Kojima Productions, 2014) para Android (port de código). Necesita tu propia copia del juego.",
 };

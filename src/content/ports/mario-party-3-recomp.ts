@@ -20,6 +20,8 @@ export const marioParty3Recomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  summary: "Mario Party 3 is a 2000 party video game developed by Hudson Soft and published by Nintendo for the Nintendo 64. The third installment in the Mario Party series, it was first released in Japan on December 7, 2000, in North America on May 7, 2001, in Australia on September 3, 2001, and in Europe on November 16, 2001. As with the previous installments, the player chooses between eight playable characters: Mario, Luigi, Princess Peach, Yoshi, Wario, and Donkey Kong from the first two games, alongside newcomers Princess Daisy and Waluigi.",
+  summaryEs: "Mario Party 3 es un videojuego de tablero desarrollado por Hudson Soft y distribuido por Nintendo. Es la tercera entrega de la serie Mario Party y la última que salió para la consola Nintendo 64. En Europa fue lanzado el 16 de noviembre de 2001 y con un cierto retraso, pues en Japón ya había salido el juego desde el 7 de diciembre de 2000 y en Norteamérica desde el 7 de mayo de 2001, habiendo pasado medio año desde su salida en Norteamérica y casi un año desde su salida en tierras niponas. Además, fue el último juego de Nintendo 64 que vio la luz en Europa y Japón.",
   notes:
     "Static recompilation of Mario Party 3 (Nintendo 64) for Windows. It needs your own copy of the game.",
   notesEs:

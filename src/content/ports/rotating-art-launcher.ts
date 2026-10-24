@@ -8,7 +8,7 @@ export const rotatingArtLauncher: Port = {
   game: "Celeste",
   developers: ["FireworkSky"],
   publisher: "FireworkSky",
-  originalYear: 2024,
+  originalYear: 2018,
   portType: "source-port",
   genre: "simulation",
   openSource: true,
@@ -26,6 +26,8 @@ export const rotatingArtLauncher: Port = {
     alt: "Celeste (box art)",
     credit: "Wikipedia",
   },
+  summary: "Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight platformer from the creators of TowerFall. Brave hundreds of hand-crafted challenges, uncover devious secrets, and piece together the mystery of the mountain.",
+  summaryEs: "Celeste es un videojuego de plataformas publicado por Maddy Makes Games Inc. en 2018.",
   notes: "Celeste (FireworkSky, 2024) an Android tool. Latest release: v2.1.1. Needs your own copy of the game (Celeste 1.4.0.0 Linux).",
   notesEs: "Celeste (FireworkSky, 2024) una herramienta para Android. Última release: v2.1.1. Necesita tu propia copia del juego.",
 };

@@ -25,6 +25,8 @@ export const SpaceStation14: Port = {
     alt: "Space Station 14 (cover art)",
     credit: "Steam",
   },
+  summary: "Space Station 14, commonly abbreviated SS14, is a free and open-source multiplayer role-playing game developed by Space Wizards Federation, a community of volunteers. A remake and modernisation of Space Station 13, it combines the operation of a space station with environmental hazards, sabotage and conflict between players. Participants assume occupations or antagonistic roles, with the events of each round emerging from their actions and interactions with the station's systems.",
+  summaryEs: "Space Station 14 es un videojuego de acción y aventura.",
   notes:
     "A multiplayer game about paranoia and chaos on a space station. Remake of the cult-classic Space Station 13.",
   notesEs:

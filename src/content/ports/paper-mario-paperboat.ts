@@ -19,6 +19,8 @@ export const paperMarioPaperboat: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   originalSystems: ["Nintendo 64"],
+  summary: "Paper Mario is a 2000 role-playing video game developed by Intelligent Systems and published by Nintendo for the Nintendo 64 home video game console. Paper Mario is the first game in the Paper Mario series. First released in Japan in 2000 and then internationally in 2001, Paper Mario was later re-released for Nintendo's Wii Virtual Console in July 2007, the Wii U Virtual Console in April 2015, and the Nintendo Classics service on December 10, 2021.",
+  summaryEs: "Paper Mario es un videojuego de rol desarrollado por Intelligent Systems y publicado por Nintendo para la videoconsola doméstica Nintendo 64. Es el primer videojuego de la serie del mismo nombre. Lanzado por primera vez en Japón en el año 2000 y luego a nivel internacional en 2001, ha sido relanzado más tarde para la Consola Virtual de Wii en julio de 2007, la de Wii U en abril de 2015 y en Nintendo Switch Online + Expansion Pack el 10 de diciembre de 2021.",
   notes:
     "Decompilation-based native port of Paper Mario (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

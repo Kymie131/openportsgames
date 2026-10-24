@@ -6,7 +6,7 @@ export const isledecompRacersPortable: Port = {
   title: "LEGO Racers (racers-portable)",
   game: "LEGO Racers",
   developers: ["isledecomp"],
-  publisher: "Unknown",
+  publisher: "The Lego Group",
   originalYear: 1999,
   portType: "decompilation",
   genre: "action-adventure",
@@ -27,6 +27,8 @@ export const isledecompRacersPortable: Port = {
     alt: "LEGO Racers (box art)",
     credit: "Wikipedia",
   },
+  summary: "Lego Racers is a 1999 Lego-themed kart racing video game developed by High Voltage Software and published by Lego Media for Microsoft Windows, followed by console ports to Nintendo 64 and PlayStation. Set in the fictional \"Legoland\" universe, the single-player mode follows various minifigure characters competing in a racing competition created by a fictional racing champion called Rocket Racer.",
+  summaryEs: "Lego Racers es un videojuego de carreras de karts con temática Lego desarrollado por High Voltage Software y publicado por Lego Media para Microsoft Windows en 1999, seguido de versiones para Nintendo 64 y PlayStation. Ambientado en el universo ficticio de «Legoland», el modo para un solo jugador sigue a varios personajes minifiguras que compiten en una carrera creada por un campeón de carreras ficticio llamado Rocket Racer.",
   notes: "LEGO Racers: decompilation by isledecomp for Windows. Bring your own copy of the game.",
   notesEs: "LEGO Racers: decompilación de isledecomp para Windows. Aporta tu propia copia del juego.",
 };

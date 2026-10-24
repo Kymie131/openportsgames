@@ -20,6 +20,8 @@ export const dragonBallRagingBlast2Recomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  summary: "Dragon Ball: Raging Blast 2 is a video game based on the manga and anime franchise Dragon Ball and is a follow-up to the 2009 video game Dragon Ball: Raging Blast. It was developed by Spike and published by Namco Bandai under the Bandai label for the PlayStation 3 and Xbox 360 gaming consoles in the beginning of November 2010.",
+  summaryEs: "Dragon Ball: Raging Blast 2 es un videojuego basado en el manga y anime Dragon Ball y es el que sigue el juego de 2009 Dragon Ball: Raging Blast. Es desarrollado por Spike y publicado por Namco Bandai para las consolas de PlayStation 3 y Xbox 360 en todo Norteamérica, mientras que en cualquier otra parte que sería publicada bajo la etiqueta Bandai. Fue lanzado en noviembre de 2010.",
   notes: "Recompiled with the ReXGlue SDK.",
   notesEs: "Recompilado con el SDK ReXGlue.",
   cover: {

@@ -7,7 +7,7 @@ export const FiveNightsAtFreddys2: Port = {
   game: "Five Nights At Freddy's 2",
   developers: ["fr3dsp"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2014,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const FiveNightsAtFreddys2: Port = {
     alt: "Five Nights At Freddy's 2 (cover art)",
     credit: "Steam",
   },
+  summary: "Welcome back to the new and improved Freddy Fazbear's Pizza! As always, Fazbear Entertainment is not responsible for death or dismemberment.",
+  summaryEs: "Five Nights at Freddy's 2 es un videojuego de acción y aventura publicado por Scott Cawthon en 2014.",
   notes: "A Five Nights at Freddy's 2 Windows Phone Decompilation.",
   notesEs: "Decompilación de Five Nights at Freddy's 2 para Windows Phone.",
 };

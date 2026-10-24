@@ -19,6 +19,8 @@ export const extremeGRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Nintendo 64"],
+  summary: "Extreme-G is a futuristic racing video game developed by Probe Entertainment and published by Acclaim Entertainment, featuring an original trance soundtrack. It was released for the Nintendo 64 in 1997, with a Japan release on May 29, 1998. Despite the competitive landscape of Nintendo 64 racing games, Extreme-G received moderately positive reviews and achieved commercial success. A sequel, Extreme-G 2, was launched in 1998, followed by two additional titles: Extreme-G 3 (2001) and XGRA: Extreme-G Racing Association (2003).",
+  summaryEs: "Extreme-G es un videojuego de carreras futurista desarrollado por Probe Entertainment y publicado por Acclaim Entertainment, con una banda sonora de trance original. Fue lanzado para Nintendo 64 en 1997, y fue lanzado en Japón el 29 de mayo de 1998. A pesar del abarrotado campo de juegos de carreras de Nintendo 64, Extreme-G recibió críticas moderadamente positivas y fue un éxito comercial. En 1998 se lanzó una secuela, Extreme-G 2, seguida de dos juegos adicionales: Extreme-G 3 y XGRA: Extreme G Racing Association.",
   notes:
     "Static recompilation of Extreme-G (Nintendo 64) to a native PC executable. It needs the original game and ships no assets.",
   notesEs:

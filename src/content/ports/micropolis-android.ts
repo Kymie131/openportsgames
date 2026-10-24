@@ -21,6 +21,8 @@ export const micropolisAndroid: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["MS-DOS"],
+  summary: "SimCity is a city-building simulation video game developed by Will Wright, and released for several platforms from 1989 to 1991. SimCity features two-dimensional graphics and an overhead perspective. The game's objective is to create a city, develop residential and industrial areas, build infrastructure, and collect taxes for further city development. Importance is placed on increasing the population's standard of living, maintaining a balance between the different sectors, and monitoring the region's environmental situations to prevent the settlement from declining and going bankrupt.",
+  summaryEs: "Micropolis es un videojuego de simulación en 2008.",
   notes: "Native Android port of Micropolis, the open-source SimCity engine, running the MicropolisCore C++ core through NDK and JNI.",
   notesEs: "Port nativo para Android de Micropolis, el motor open source de SimCity, ejecutando el núcleo C++ MicropolisCore mediante NDK y JNI.",
 };

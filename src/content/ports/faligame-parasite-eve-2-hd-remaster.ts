@@ -27,6 +27,8 @@ export const faligameParasiteEve2HdRemaster: Port = {
     alt: "Parasite Eve II (box art)",
     credit: "Box art",
   },
+  summary: "Parasite Eve II is a 1999 action role-playing game released for the PlayStation. The game was developed and published by Square, published in Japan in 1999 and in both North America and, unlike the previous game, in PAL regions in 2000. It is the sequel to Parasite Eve and the second game in the series of the same name.",
+  summaryEs: "Parasite Eve II es un videojuego de terror de un jugador publicado en el año 1999 por la compañía japonesa Squaresoft para la videoconsola PlayStation de Sony. A diferencia de su predecesor, Parasite Eve, que es un videojuego de rol o RPG, Parasite Eve II pertenece al género de videojuegos de terror.",
   notes: "Parasite Eve II: static recompilation by faligame for Windows. Bring your own copy of the game.",
   notesEs: "Parasite Eve II: recompilación estática de faligame para Windows. Aporta tu propia copia del juego.",
 };

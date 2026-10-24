@@ -27,6 +27,8 @@ export const zestydevyDinosaurPlanet: Port = {
     alt: "Dinosaur Planet (box art)",
     credit: "Box art",
   },
+  summary: "Dinosaur Planet is a platform game published by Nintendo.",
+  summaryEs: "Dinosaur Planet es un videojuego de plataformas publicado por Nintendo.",
   notes: "Dinosaur Planet: decompilation by zestydevy for Windows. Bring your own copy of the game.",
   notesEs: "Dinosaur Planet: decompilación de zestydevy para Windows. Aporta tu propia copia del juego.",
 };

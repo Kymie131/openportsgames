@@ -26,6 +26,8 @@ export const metroidPrimeDecomp: Port = {
     alt: "Metroid Prime (box art)",
     credit: "Wikipedia",
   },
+  summary: "Metroid Prime is a 2002 action-adventure game developed by Retro Studios and published by Nintendo for the GameCube. It is the fifth main Metroid game, and the first to use 3D computer graphics and a first-person perspective. It was released in North America in November 2002 and in Japan and Europe the following year. Along with the Game Boy Advance game Metroid Fusion, released simultaneously in North America, Prime marked the return of the Metroid series after an eight-year hiatus following Super Metroid (1994).",
+  summaryEs: "Metroid Prime es un videojuego de acción-aventura en primera persona con componentes de disparos y plataformas, desarrollado por Retro Studios y distribuido por Nintendo para la consola Nintendo GameCube, fue lanzado el 19 de noviembre de 2002 en América, el 28 de febrero de 2003 en Japón y el 21 de marzo de 2003 en Europa. Es el primero de la serie Metroid en ser tridimensional y usar la vista en primera persona, también fue el primer videojuego de la serie Metroid en no haber sido desarrollado en Japón.",
   notes: "Matching decompilation of Metroid Prime (GameCube, 2002). It rebuilds the game code and data from your own copy; there is no playable download of its own.",
   notesEs: "Decompilación matching de Metroid Prime (GameCube, 2002). Reconstruye el código y los datos del juego desde tu propia copia; no tiene descarga jugable propia.",
 };

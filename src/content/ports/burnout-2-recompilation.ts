@@ -26,6 +26,8 @@ export const burnout2Recompilation: Port = {
     alt: "Burnout 2: Point of Impact (box art)",
     credit: "Wikipedia",
   },
+  summary: "Burnout 2: Point of Impact is a 2002 racing video game developed by Criterion Games and published by Acclaim Entertainment for PlayStation 2, GameCube and Xbox. It is the sequel to the 2001 video game Burnout and the second title in the Burnout series. It was the last Burnout game to be released on the GameCube and the series would not see a release on a Nintendo platform until the release of Burnout Legends in 2005. The game also marked Acclaim's last entry in the Burnout series, as Acclaim would go bankrupt in 2004; the rest of the series would be published by Electronic Arts.",
+  summaryEs: "Burnout 2: Point of Impact es la secuela de Burnout. Fue creado por Criterion Games y publicado por Acclaim. Lanzado en octubre de 2002 para la PlayStation 2 y más tarde lanzado para la Nintendo GameCube y la Xbox entre abril y mayo de 2003, respectivamente, además la versión de Xbox incluye nuevas características.",
   notes: "Static recompilation of Burnout 2: Point of Impact, including the Crash mode, running natively on Windows at 60 FPS. Requires your own game copy.",
   notesEs: "Recompilación estática de Burnout 2: Point of Impact, incluido el modo Crash, corriendo de forma nativa en Windows a 60 FPS. Requiere tu propia copia del juego.",
 };

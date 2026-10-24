@@ -36,6 +36,8 @@ export const crashBandicoot: Port = {
       credit: "Crash Bandicoot Launcher",
     },
   ],
+  summary: "Crash Bandicoot is a video game franchise created by Naughty Dog as a flagship title for Sony's PlayStation console. The series began with the development of the first game in 1994, inspired by the emerging capabilities of 3D consoles and games like Donkey Kong Country (1994). The protagonist, initially conceived as \"Willy the Wombat\", evolved into Crash Bandicoot, a goofy, genetically mutated eastern barred bandicoot who escapes the clutches of the mad scientist Doctor Neo Cortex.",
+  summaryEs: "Crash Bandicoot es una franquicia de videojuegos creada por Naughty Dog como título insignia para la consola PlayStation de Sony. La serie comenzó con el desarrollo del primer juego en 1994, inspirado en las capacidades emergentes de las consolas 3D y en juegos como Donkey Kong Country (1994). El protagonista, concebido inicialmente como «Willy the Wombat», evolucionó hasta convertirse en Crash Bandicoot, un bandicoot rayado oriental, torpe y genéticamente mutado, que escapa de las garras del científico loco Doctor Neo Cortex.",
   notes:
     "Native PC port of Crash Bandicoot (PS1) produced via the RecompOne static recompilation stack, distributed as versioned releases. Requires your own PS1 disc dump. The project is not affiliated with the original developer.",
   notesEs:

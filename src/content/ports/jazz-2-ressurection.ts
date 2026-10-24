@@ -25,6 +25,8 @@ export const jazz2Ressurection: Port = {
     alt: "Jazz Jackrabbit 2 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Jazz Jackrabbit 2 is a 1998 platform game produced by Epic MegaGames. It was released for Windows, and later for Macintosh. Like the first game, Jazz Jackrabbit, Jazz Jackrabbit 2 is a side-scrolling platform game but features additional multiplayer options, including the ability to play over a LAN or the Internet. The game was re-released on GOG.com along with the first game on November 30, 2017.",
+  summaryEs: "Jazz Jackrabbit 2 es un videojuego de plataformas producido por Epic MegaGames, ahora conocido como Epic Games. Fue puesto en venta en 1998 para PC's que ejecuten Windows, y más tarde para los ordenadores Macintosh. Es la secuela de Jazz Jackrabbit.",
   notes: "Jazz Jackrabbit 2 (Epic MegaGames, 1998) for Android (source port). Latest release: 3.9.0. Needs your own copy of the game (Game Files).",
   notesEs: "Jazz Jackrabbit 2 (Epic MegaGames, 1998) para Android (port de código). Última release: 3.9.0. Necesita tu propia copia del juego.",
 };

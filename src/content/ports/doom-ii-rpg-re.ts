@@ -26,6 +26,8 @@ export const doomIiRpgRe: Port = {
     alt: "Doom II RPG (box art)",
     credit: "Wikipedia",
   },
+  summary: "Doom II RPG is a 2009 role-playing video game developed and published by id Software. It is the sequel to Doom RPG. It was released for Java ME on November 23, 2009, and for iOS on February 8, 2010. It uses the Wolfenstein RPG engine and was developed by id partners Fountainhead Entertainment via the merger id Mobile.",
+  summaryEs: "Doom II RPG es un videojuego de rol de disparos en primera persona desarrollado y publicado por id Software. Es la secuela de Doom RPG. Fue lanzado para teléfonos móviles Java ME el 23 de noviembre de 2009 y para iPhone el 8 de febrero de 2010. Utiliza el motor Wolfenstein RPG y fue desarrollado por los socios de id Fountainhead Entertainment a través de la fusión id Mobile.",
   notes: "Reverse engineering of Doom II RPG, the mobile sequel to Doom RPG, by the [GEC] group. Latest release: v.0.1 (2023).",
   notesEs: "Ingeniería inversa de Doom II RPG, la secuela para móviles de Doom RPG, por el grupo [GEC]. Última release: v.0.1 (2023).",
 };

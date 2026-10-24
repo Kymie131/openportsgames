@@ -26,6 +26,8 @@ export const knossosnet: Port = {
     alt: "Freespace 2 (box art)",
     credit: "Wikipedia",
   },
+  summary: "FreeSpace 2 is a 1999 space combat simulation video game developed by Volition as the sequel to Descent: FreeSpace – The Great War. It was completed ahead of schedule in less than a year, and released to very positive reviews, but the game became a commercial failure, and was described by certain critics as one of 1999's most unfairly overlooked titles.",
+  summaryEs: "Freespace 2 es un videojuego de simulación publicado por Interplay Entertainment en 1999.",
   notes: "Freespace 2 (Interplay Entertainment, 1999) an Android tool. Latest release: v1.3.12. Needs your own copy of the game (??).",
   notesEs: "Freespace 2 (Interplay Entertainment, 1999) una herramienta para Android. Última release: v1.3.12. Necesita tu propia copia del juego.",
 };

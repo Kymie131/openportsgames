@@ -19,6 +19,8 @@ export const destructionDerbyRawRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Destruction Derby Raw is a 2000 racing video game developed by Studio 33 and published by Sony Computer Entertainment for the PlayStation. it is the third main installment in Psygnosis's Destruction Derby series following Destruction Derby 2 (1996), and fourth overall after the Nintendo 64 exclusive Destruction Derby 64 (1999).",
+  summaryEs: "Destruction Derby Raw es un videojuego de carreras desarrollado por Studio 33 y publicado por Sony Computer Entertainment Europe en Europa y por Midway Games en Norteamérica para la PlayStation y es la cuarta entrega de la serie Destruction Derby lanzado en 2000.",
   notes:
     "Recompilation of Destruction Derby Raw (PS1, USA SLUS-00912) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

@@ -26,6 +26,8 @@ export const silentHill2Sh2Nx: Port = {
     alt: "Silent Hill 2 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Silent Hill 2 is a 2001 survival horror video game developed by Konami's Team Silent and published by Konami for the PlayStation 2. The second installment in the Silent Hill series, Silent Hill 2 centers on James Sunderland, a widower who journeys to the town of Silent Hill after receiving a letter from his dead wife. An extended version containing a bonus scenario, Born from a Wish, and other additions was published for Xbox in December of the same year.",
+  summaryEs: "Silent Hill 2 es un videojuego de terror psicológico y supervivencia desarrollado por Team Silent, un grupo de Konami Computer Entertainment Tokyo, y publicado por Konami para PlayStation 2. La segunda entrega de la saga Silent Hill, Silent Hill 2, se centra en James Sunderland, un viudo que viaja a Silent Hill tras recibir una carta de su difunta esposa. En diciembre de ese mismo año, se publicó para Xbox una versión extendida con un escenario extra, \"Born from a Wish\", y otros añadidos.",
   notes: "Native PC port of Silent Hill 2 based on reverse engineering of the PlayStation 2 binary, with audio and rendering fixes. No game files are included.",
   notesEs: "Port nativo para PC de Silent Hill 2 basado en ingeniería inversa del binario de PlayStation 2, con correcciones de audio y renderizado. No incluye archivos del juego.",
 };

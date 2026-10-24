@@ -25,6 +25,8 @@ export const tombaRecompDsDualScreen: Port = {
     alt: "Tomba! 2: The Evil Swine Return (box art)",
     credit: "Wikipedia",
   },
+  summary: "Tomba! 2: The Evil Swine Return is an action-adventure platform video game developed and published by Whoopee Camp for the PlayStation. The game was released in Japan in 1999 and internationally by Sony Computer Entertainment the following year. The game is a sequel to Tomba! and centers on the exploits of the eponymous feral child as he attempts to rescue his friend Tabby from an evil race of anthropomorphic pigs.",
+  summaryEs: "Tombi! 2: Contra los cerdiablos, también conocido en inglés como Tomba! 2: The Evil Swine Return en région NTSC, simplemente Tombi! 2 en la región PAL (europea) o トンバ! ザ・ワイルドアドベンチャー en Japón), es un videojuego de acción y aventuras de plataformas, desarrollado por Whoopee Camp y publicado por Sony Computer Entertainment para la videoconsola PlayStation. Salió a la venta en el año 1999 para Japón y Norteamérica, y en el año 2000 para la región PAL. El juego es una secuela de Tombi!",
   notes: "Tomba! 2: The Evil Swine Return (Sony Computer Entertainment, 1999) for Android (static recompilation). Latest release: v0.1.0. Needs your own copy of the game.",
   notesEs: "Tomba! 2: The Evil Swine Return (Sony Computer Entertainment, 1999) para Android (recompilación estática). Última release: v0.1.0. Necesita tu propia copia del juego.",
 };

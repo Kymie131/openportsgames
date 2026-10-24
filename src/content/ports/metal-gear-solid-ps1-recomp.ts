@@ -27,6 +27,8 @@ export const metalGearSolidPs1Recomp: Port = {
     alt: "Metal Gear Solid (box art)",
     credit: "Box art",
   },
+  summary: "Metal Gear Solid is a 1998 action-adventure stealth game developed and published by Konami for the PlayStation. Directed, produced, and written by Hideo Kojima, the game is the third mainline installment in the Metal Gear series and serves as a sequel to the MSX2 game Metal Gear 2: Solid Snake (1990). The game's story follows Solid Snake, a former Special Forces operative who is pulled out of retirement by the U.S. government to infiltrate Shadow Moses, a nuclear weapons facility that has been taken over by rogue unit FOXHOUND, led by Liquid Snake.",
+  summaryEs: "Metal Gear Solid es un videojuego de acción-aventura y sigilo de 1998 desarrollado por Konami Computer Entertainment Japan, publicado por Konami para la consola PlayStation y dirigido por Hideo Kojima. Fue lanzado el 3 de septiembre de 1998 en Japón, el 21 de octubre de 1998 en Norteamérica y el 26 de febrero de 1999 en Europa. El juego fue desarrollado y pensado únicamente para la consola Playstation, según la entrevista que dio Kojima a la Revista Famitsu en la celebración de los 20 años de Playstatión.",
   notes: "Midnight Ghost Stone: a native PC recompilation of Metal Gear Solid (PlayStation, 1998) with an original-asset Vulkan presentation. Experimental alpha, and an explicitly AI-made project. Latest tag: alpha.1.",
   notesEs: "Midnight Ghost Stone: recompilación nativa para PC de Metal Gear Solid (PlayStation, 1998) con presentación en Vulkan sobre los assets originales. Alpha experimental y proyecto declarado como hecho con IA. Último tag: alpha.1.",
 };

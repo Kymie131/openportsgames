@@ -19,6 +19,8 @@ export const forzaMotorsport4Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Xbox 360"],
+  summary: "Forza Motorsport 4 is a 2011 racing video game developed by Turn 10 Studios and published by Microsoft Studios for the Xbox 360. It is the fourth installment in the Forza series. It is the first title in the series to support the Kinect sensor alongside the traditional controller-based gameplay. It is the last Forza Motorsport released for Xbox 360; 2012's Forza Horizon and its 2014 sequel were the last two Forza games for the platform, while 2013's Forza Motorsport 5 was released as an Xbox One exclusive.",
+  summaryEs: "Forza Motorsport 4 es un videojuego de carreras desarrollado por Turn 10 Studios para la Xbox 360.",
   notes:
     "Recompilation of Forza Motorsport 4 (Xbox 360) to native Windows via ReXGlue. You supply the game files.",
   notesEs:

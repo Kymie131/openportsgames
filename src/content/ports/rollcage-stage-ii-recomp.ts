@@ -19,6 +19,8 @@ export const rollcageStageIiRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Rollcage Stage II, also released as Death Track Racing, is a 2000 racing video game developed by Attention to Detail and published by Sony Computer Entertainment for the PlayStation and Microsoft Windows. It is the sequel to Rollcage; unlike its predecessor, Psygnosis did not publish the game anywhere, In addition to basic racing, the game also utilizes combat elements. The game's playable vehicles are equipped with weapons, which are collected along the track as bonus items and can be used against competing cars.",
+  summaryEs: "Rollcage Stage II es un videojuego de carreras publicado por SCE Studio Liverpool en 2000.",
   notes:
     "Recompilation of Rollcage Stage II (PS1, USA SLUS-00867) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

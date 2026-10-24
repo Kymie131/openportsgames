@@ -25,6 +25,8 @@ export const godOfWarAscensionPc: Port = {
     alt: "God of War: Ascension (box art)",
     credit: "Wikipedia",
   },
+  summary: "God of War: Ascension is a 2013 action-adventure game developed by Santa Monica Studio and published by Sony Computer Entertainment for the PlayStation 3. Released in March 2013, it is the seventh installment in the God of War series and the second chronologically. Loosely based on Greek mythology, it is set in ancient Greece with vengeance as its central motif. The player controls the protagonist, Kratos, the former servant of the God of War Ares, who tricked Kratos into killing his own wife and daughter. In response to this tragedy, Kratos renounced Ares, breaking his blood oath to the god.",
+  summaryEs: "God of War: Ascension es un videojuego de acción-aventura hack and slash desarrollado por Santa Monica Studio y publicado por Sony Computer Entertainment para la PlayStation 3. Lanzado en marzo de 2013, es la séptima entrega de la serie God of War, la primera cronológicamente y una precuela de toda la serie. Basado libremente en la mitología griega, está ambientado en la antigua Grecia con la venganza como motivo central. El jugador controla al protagonista, Kratos, el ex sirviente del dios de la guerra Ares, que engañó a Kratos para que matara a su esposa e hija.",
   notes: "God of War: Ascension (SCE Santa Monica Studio, 2013) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "God of War: Ascension (SCE Santa Monica Studio, 2013) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

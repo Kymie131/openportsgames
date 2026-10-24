@@ -6,7 +6,7 @@ export const andersfischernielsenSsx3Decomp: Port = {
   title: "SSX 3 (ssx3-decomp)",
   game: "SSX 3",
   developers: ["andersfischernielsen"],
-  publisher: "Unknown",
+  publisher: "EA Sports Big",
   originalYear: 2003,
   portType: "decompilation",
   genre: "action-adventure",
@@ -27,6 +27,8 @@ export const andersfischernielsenSsx3Decomp: Port = {
     alt: "SSX 3 (box art)",
     credit: "Wikipedia",
   },
+  summary: "SSX 3 is a 2003 snowboarding video game developed by EA Canada and published by Electronic Arts under the EA Sports BIG label. The third installment in the SSX series, it was released on October 21, 2003, for the PlayStation 2, Xbox, and GameCube, and was later ported to the Game Boy Advance by Visual Impact on November 11, 2003, and to the Gizmondo by Exient Entertainment on August 31, 2005, as a launch title.",
+  summaryEs: "SSX 3 es un videojuego de snowboarding publicado por Electronic Arts y desarrollado por EA Sports BIG, que fue lanzado a finales del 2003. Es la tercera instalación en la serie de juegos SSX, y está aprobado con THX.",
   notes: "SSX 3: decompilation by andersfischernielsen for Windows. Bring your own copy of the game.",
   notesEs: "SSX 3: decompilación de andersfischernielsen para Windows. Aporta tu propia copia del juego.",
 };

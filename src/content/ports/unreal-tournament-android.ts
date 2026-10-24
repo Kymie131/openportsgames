@@ -19,6 +19,8 @@ export const unrealTournamentAndroid: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Windows"],
+  summary: "Unreal Tournament is a 1999 first-person shooter game developed by Epic Games and Digital Extremes. The second installment in the Unreal series, it was first published by GT Interactive in 1999 for Windows, and later released on the PlayStation 2 and Dreamcast by Infogrames in 2000 and 2001, respectively. Players compete in a series of matches of various types, with the general aim of out-killing opponents. The PC and Dreamcast versions support multiplayer online or over a local area network.",
+  summaryEs: "Unreal Tournament, también conocido como UT y llamado en ocasiones UT99, UT Classic, UT1, o UT:GOTY para diferenciarlo de sus sucesores, es un videojuego de disparos en primera persona. Lanzado al mercado en 1999, es la continuación del juego Unreal de Epic Games, y su principal enfoque es la acción para multijugador. Compite directamente con el juego Quake III Arena de id Software, que salió al mercado diez días después.",
   notes:
     "Android port of Unreal Tournament 99 (v400) for 32 and 64-bit devices, playable with a controller, touchscreen or keyboard and mouse. It needs the original game files.",
   notesEs:

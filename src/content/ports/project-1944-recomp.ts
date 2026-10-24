@@ -19,6 +19,8 @@ export const project1944Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Xbox 360"],
+  summary: "Call of Duty 3 is a 2006 first-person shooter game developed by Treyarch and published by Activision. It is the third major installment in the Call of Duty series. It was released for PlayStation 2, Xbox, Xbox 360, PlayStation 3 and Wii. It was a launch title for the PlayStation 3 and Wii in North America, Europe and Australia. It is also the only major installment to not release on PC.",
+  summaryEs: "Call of Duty 3 es la tercera entrega de la serie de videojuegos Call of Duty. El título fue publicado al mercado tanto en las consolas de séptima generación como en Xbox y PlayStation 2. Anteriormente, se tuvo planeado lanzar una versión para Nintendo Gamecube, pero fue cancelada.",
   notes:
     "A separate recompilation of Call of Duty 3 (Xbox 360) by another developer. It builds for Windows and needs your own game data.",
   notesEs:

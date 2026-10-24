@@ -26,6 +26,8 @@ export const spelunkyPspHomebrewRemake: Port = {
     alt: "Spelunky (box art)",
     credit: "Wikipedia",
   },
+  summary: "Spelunky is a 2008 platform video game created by independent developer Derek Yu and released as source-available freeware for Microsoft Windows. It was remade for the Xbox 360 in 2012, with ports of the new version following for various platforms, including back to Microsoft Windows. The player controls a spelunker who explores a series of caves while collecting treasure, saving damsels, fighting enemies, and dodging traps. The caves are procedurally generated, making each run-through of the game unique.",
+  summaryEs: "Spelunky es un videojuego independiente de acción y aventura creado por Derek Yu e inicialmente lanzado como freeware para Microsoft Windows. Luego fue relanzado para Xbox 360, PlayStation 3, PlayStation Vita y nuevamente para Microsoft Windows. En Spelunky, el jugador controla a un espeleólogo que explora una serie de cavernas coleccionando tesoros, salvando damiselas y evadiendo trampas. La primera versión del juego fue lanzada el 21 de diciembre de 2008. El código fuente de la versión de 2008 de Windows fue hecho público el 25 de diciembre de 2009.",
   notes: "Spelunky (Derek Yu, 2008) running on PlayStation Portable through source port. Latest release: v0.5. You need your own copy of the game.",
   notesEs: "Spelunky (Derek Yu, 2008) en PlayStation Portable mediante port de código. Última release: v0.5. Necesitas tu propia copia del juego.",
 };

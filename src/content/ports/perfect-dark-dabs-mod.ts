@@ -31,6 +31,8 @@ export const perfectDarkDabsMod: Port = {
     "Remake GE-X Plus de GoldenEye cargado desde tu ROM",
     "Reporte de errores con una tecla desde el juego",
   ],
+  summary: "Perfect Dark is a 2000 first-person shooter game developed and published by Rare for the Nintendo 64. The first game of the Perfect Dark series, it follows Joanna Dark, an agent of the Carrington Institute research centre, as she attempts to stop an extraterrestrial conspiracy by rival corporation dataDyne. The game features a campaign mode where the player must complete a series of levels to progress through the story, as well as a range of multiplayer options, including a co-operative mode and traditional deathmatch settings with computer-controlled bots.",
+  summaryEs: "Perfect Dark es un videojuego de disparos en primera persona de 2000 desarrollado y publicado por Rare para Nintendo 64. Es el primer juego de la serie Perfect Dark y sigue a Joanna Dark, una agente del centro de investigación del Instituto Carrington, mientras intenta detener una conspiración extraterrestre por una corporación rival llamada dataDyne.",
   notes:
     "Community decompilation of Perfect Dark with extended mod features, published as 'Dab's Mod'. The repository documents its AI-assisted development process. Requires the player's own legally obtained Perfect Dark ROM.",
   notesEs:

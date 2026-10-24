@@ -26,6 +26,8 @@ export const mother3RecompAndroid: Port = {
     alt: "MOTHER 3 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Mother 3 is a 2006 role-playing video game developed by Brownie Brown and HAL Laboratory and published by Nintendo for the Game Boy Advance. It is the third and final entry in the Mother series. The game follows Lucas, a young boy with psychic abilities, and a party of characters as they attempt to prevent a mysterious invading army from corrupting and destroying the world.",
+  summaryEs: "Mother 3 es un videojuego del género RPG para Game Boy Advance, desarrollado por HAL Laboratory y Brownie Brown, publicado por Nintendo y lanzado sólo en Japón. Es el tercer y último juego en la serie de videojuegos Mother. Fue lanzado en Japón el 20 de abril del 2006. El juego sigue a Lucas, un joven con habilidades psíquicas, y a un grupo de personajes que intentan evitar que un misterioso ejército invasor corrompa y destruya el mundo.",
   notes: "MOTHER 3 (Game Boy Advance, 2006) for Windows, Linux and Android, with support for the fan translation patches. Bring your own ROM. Latest release: v1.0.6.",
   notesEs: "MOTHER 3 (Game Boy Advance, 2006) para Windows, Linux y Android, con soporte de los parches de traducción de los fans. Aporta tu propia ROM. Última release: v1.0.6.",
 };

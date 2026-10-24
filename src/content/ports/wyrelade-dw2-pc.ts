@@ -26,6 +26,8 @@ export const wyreladeDw2Pc: Port = {
     alt: "Digimon World 2 (box art)",
     credit: "Box art",
   },
+  summary: "Digimon World 2 is a dungeon crawler video game developed by BEC and published by Bandai for the PlayStation as part of their Digimon series. It is the sequel to the original Digimon World, and was released in Japan in July 2000 and North America the following year in April 2001. The player controls Akira, a Digimon Tamer whose goal is to climb to the top of the Digimon World.",
+  summaryEs: "Digimon World 2 es el segundo videojuego de la franquicia Digimon World, con un estilo de juego de calabozos. En esta entrega, el jugador controla a Akira, una joven , miembro de los Guard Tamers, cuyo deber es proteger el Digimundo de cualquier amenaza.",
   notes: "Digimon World 2: decompilation by Wyrelade for Windows. Bring your own copy of the game.",
   notesEs: "Digimon World 2: decompilación de Wyrelade para Windows. Aporta tu propia copia del juego.",
 };

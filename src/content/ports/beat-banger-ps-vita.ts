@@ -25,6 +25,8 @@ export const beatBangerPsVita: Port = {
     alt: "Beat Banger (cover art)",
     credit: "Steam",
   },
+  summary: "Beat Banger is a music game in 2023.",
+  summaryEs: "Beat Banger es un videojuego de música en 2023.",
   notes: "Beat Banger (Bunny Studio, 2023) running on PlayStation Vita through source port. Latest release: v0.99. You need your own copy of the game.",
   notesEs: "Beat Banger (Bunny Studio, 2023) en PlayStation Vita mediante port de código. Última release: v0.99. Necesitas tu propia copia del juego.",
 };

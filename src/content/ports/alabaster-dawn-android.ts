@@ -25,6 +25,8 @@ export const alabasterDawnAndroid: Port = {
     alt: "Alabaster Dawn (cover art)",
     credit: "Steam",
   },
+  summary: "Alabaster Dawn is a role-playing game published by Radical Fish Games in 2026.",
+  summaryEs: "Alabaster Dawn es un videojuego de rol publicado por Radical Fish Games en 2026.",
   notes: "Unofficial Android WebView port of Alabaster Dawn (Radical Fish Games) plus a desktop controller fix. No game files included: you need your own copy. Latest release: v0.9.0.",
   notesEs: "Port no oficial para Android mediante WebView de Alabaster Dawn (Radical Fish Games) más un arreglo de mando en escritorio. No incluye archivos del juego: necesitas tu propia copia. Última release: v0.9.0.",
 };

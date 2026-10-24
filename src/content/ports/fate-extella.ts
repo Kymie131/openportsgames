@@ -7,7 +7,7 @@ export const FateExtella: Port = {
   game: "Fate EXTELLA",
   developers: ["bIue9076r"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2017,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const FateExtella: Port = {
     alt: "Fate EXTELLA (cover art)",
     credit: "Steam",
   },
+  summary: "In the digital realm of SE.RA.PH, the Holy Grail War is over, but the land’s new ruler faces challenges and threats from all sides. The servants now find themselves drawing up tense and unlikely alliances, preparing for a conflict that may tear SE.RA.PH apart...or destroy it entirely.",
+  summaryEs: "Fate EXTELLA es un videojuego de acción y aventura publicado por XSEED Games en 2017.",
   notes: "Fate EXTELLA Decompilation.",
   notesEs: "Decompilación de Fate/EXTELLA.",
 };

@@ -19,6 +19,8 @@ export const repoEvR: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Windows"],
+  summary: "R.E.P.O. is an online cooperative survival horror video game developed and published by Swedish game studio Semiwork for Windows. It was released in early access on 26 February 2025 on Steam. It is developed in the Unity game engine.",
+  summaryEs: "R.E.P.O. es un videojuego cooperativo de survival horror desarrollado por Semiwork para PC. Fue lanzado en Steam como acceso anticipado el 28 de febrero de 2025. En su año de estreno, fue uno de los 5 videojuegos nuevos más vendidos en la plataforma.",
   notes:
     "Unofficial Android and iOS port of R.E.P.O. with touch and smartphone-VR modes, and crossplay with Steam through EVRMod. It needs the original PC game files.",
   notesEs:

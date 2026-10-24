@@ -25,6 +25,8 @@ export const diddyKongRacingGoldenballoon: Port = {
     alt: "Diddy Kong Racing (box art)",
     credit: "Wikipedia",
   },
+  summary: "Diddy Kong Racing is a 1997 kart racing game developed and published by Rare for the Nintendo 64. The game revolves around Diddy Kong and his friends' attempt to defeat the intergalactic antagonist, a wizard pig named Wizpig, through winning a series of races. The player takes control of any of the featured characters throughout the game. Diddy Kong Racing features five worlds with four racetracks each, and the ability to drive a car, hovercraft, or pilot an aeroplane.",
+  summaryEs: "Diddy Kong Racing es un videojuego de carreras para Nintendo 64 desarrollado por Rare. Fue lanzado al mercado en noviembre de 1997. Se vendieron 800.000 copias en las 2 semanas anteriores a la Navidad de 1997, convirtiéndose así en juego más rápidamente vendido por aquel entonces según el Libro Guinness de los récords.",
   notes: "Golden Balloon: native Windows and browser port of Diddy Kong Racing (Nintendo 64, 1997) built from the game's decompilation. Bring your own ROM. Latest release: v1.8.0.",
   notesEs: "Golden Balloon: port nativo para Windows y navegador de Diddy Kong Racing (Nintendo 64, 1997) construido a partir de la decompilación del juego. Aporta tu propia ROM. Última release: v1.8.0.",
 };

@@ -7,7 +7,7 @@ export const streetFighterIvChampionEditionPsVita: Port = {
   game: "Street Fighter IV",
   developers: ["frangarcj"],
   publisher: "Capcom",
-  originalYear: 2017,
+  originalYear: 2008,
   portType: "source-port",
   genre: "fighting",
   openSource: true,
@@ -25,6 +25,8 @@ export const streetFighterIvChampionEditionPsVita: Port = {
     alt: "Street Fighter IV (box art)",
     credit: "Wikipedia",
   },
+  summary: "Street Fighter IV is a 2008 fighting game developed by Capcom and Dimps and published by Capcom. It was the first original main entry in the Street Fighter series after eleven years of being hiatus and the sequel to Street Fighter III (1997). Designed for the Taito Type X2 arcade hardware, it was ported with additional features in 2009 to PlayStation 3, Xbox 360 and Windows, along with mobile versions later on.",
+  summaryEs: "Street Fighter IV es un videojuego de lucha producido por Capcom. Tiene versiones en arcade, iOS, Android, PlayStation 3, Xbox 360 y PC. El juego para arcade fue realizado en Japón el 18 de julio de 2008 con importaciones de máquinas recreativas en salas estadounidenses en agosto. Las versiones de consola para PlayStation 3 y Xbox 360 fueron realizadas el 12 de febrero de 2009 en Japón y en Norteamérica el 16 de febrero, con fecha previa para el 18 de febrero. La fecha oficial en Europa fue el 20 de febrero.",
   notes: "Street Fighter IV (Capcom, 2017) running on PlayStation Vita through source port. You need your own copy of the game.",
   notesEs: "Street Fighter IV (Capcom, 2017) en PlayStation Vita mediante port de código. Necesitas tu propia copia del juego.",
 };

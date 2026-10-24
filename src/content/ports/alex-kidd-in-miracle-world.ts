@@ -7,7 +7,7 @@ export const AlexKiddInMiracleWorld: Port = {
   game: "Alex Kidd in Miracle World",
   developers: ["lhsazevedo"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 1986,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const AlexKiddInMiracleWorld: Port = {
     alt: "Alex Kidd in Miracle World (box art)",
     credit: "Wikipedia",
   },
+  summary: "Alex Kidd in Miracle World is a platform game developed and published by Sega for the Master System. It was released in Japan on November 1, 1986, followed by North America in December 1986, and Europe in 1987. It was later built into many Master System and Master System II consoles. A remake developed by Jankenteam and published by Merge Games, titled Alex Kidd in Miracle World DX, was released on June 22, 2021.",
+  summaryEs: "Alex Kidd in Miracle World es un videojuego de plataformas, desarrollado por Sega para la consola de 8 bits Sega Master System protagonizado por Alex Kidd. Fue lanzado por primera vez en Japón el día 1 de noviembre de 1986, y distribuido posteriormente a Europa en 1987 y anteriormente Estados Unidos en 1986.",
   notes: "Disassembly of the original Alex Kidd in Miracle World.",
   notesEs: "Desensamblado del original Alex Kidd in Miracle World.",
 };

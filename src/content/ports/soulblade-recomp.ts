@@ -20,6 +20,8 @@ export const soulbladeRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  summary: "&quot;Soul Blade&quot; is a 2D platform action game with classic hand-drawn 2D animations that provide a smooth and immersive visual experience. The combat system is built around the &quot;swordplay&quot; mechanism, delivering intense and exhilarating battles.",
+  summaryEs: "SoulBlade es un videojuego de lucha publicado por IndieArk.",
   notes: "Tracked by PortsDR. No public repo is linked yet, and you supply the game files.",
   notesEs: "Seguido por PortsDR. Todavía no hay repo público, y tú aportas los archivos del juego.",
   cover: {

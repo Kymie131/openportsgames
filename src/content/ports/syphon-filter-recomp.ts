@@ -19,6 +19,8 @@ export const syphonFilterRecomp: Port = {
   license: { spdx: "MIT" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Syphon Filter is a 1999 third-person shooter video game developed by Eidetic and published by Sony Computer Entertainment for the PlayStation. 989 Studios released the game in North America. It is the first installment in the Syphon Filter franchise. The plot centers on special agents Gabriel \"Gabe\" Logan and Lian Xing who are tasked by the United States government to apprehend a German international terrorist.",
+  summaryEs: "Syphon Filter es un videojuego perteneciente al género de acción y sigilo en tercera persona desarrollado por la empresa Eidetic y publicado por 989 Studios para PlayStation 1. Es el primer videojuego de la serie Syphon Filter, la trama se centra en los agentes especiales Gabriel \"Gabe\" Logan y Lian Xing, encargados por el gobierno de los Estados Unidos para detener a un terrorista internacional de Alemania.",
   notes:
     "Unofficial Windows runtime for Syphon Filter (NTSC-U 1.1) that pairs the original PlayStation gameplay code with a native host for rendering, input, audio and FMV. It contains no game data and needs your own disc.",
   notesEs:

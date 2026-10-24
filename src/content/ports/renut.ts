@@ -19,6 +19,8 @@ export const renut: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Xbox 360"],
+  summary: "Banjo-Kazooie: Nuts & Bolts is a 2008 platform game developed by Rare and published by Microsoft Game Studios for the Xbox 360. Set eight years after Banjo-Tooie (2000), Nuts & Bolts follows the bear-and-bird duo Banjo & Kazooie as they compete with the witch Gruntilda for ownership of their home. Although Nuts & Bolts retains the structure of previous Banjo-Kazooie games—collecting jigsaw puzzle pieces to progress—it shifts the focus from exploration to vehicle construction.",
+  summaryEs: "Banjo-Kazooie: Nuts & Bolts es un juego CMS y una plataforma de la serie de videojuegos Banjo-Kazooie, de la compañía de juegos inglesa Rare. Fue anunciado por primera vez en la demostración de la Xbox 360. Es el quinto juego de la serie, pero es el tercero que es una aventura completa en una consola de sobremesa. Está situado 8 años después de Banjo-Tooie. También es el primer juego de la serie no afiliado a Nintendo.",
   notes:
     "Native recompilation of Banjo-Kazooie: Nuts & Bolts (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:

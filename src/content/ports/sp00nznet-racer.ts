@@ -22,6 +22,8 @@ export const sp00nznetRacer: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo 64"],
+  summary: "Two Engines. One Champion. No Limits.",
+  summaryEs: "Star Wars Episode I: Racer es un videojuego de acción y aventura publicado por Lucasfilm en 2018.",
   notes: "Star Wars Episode I: Racer: static recompilation by sp00nznet for Windows. Bring your own copy of the game.",
   notesEs: "Star Wars Episode I: Racer: recompilación estática de sp00nznet para Windows. Aporta tu propia copia del juego.",
 };

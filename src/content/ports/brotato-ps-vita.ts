@@ -25,6 +25,8 @@ export const brotatoPsVita: Port = {
     alt: "Brotato (box art)",
     credit: "Wikipedia",
   },
+  summary: "Brotato is a 2023 top-down shoot 'em up roguelike video game developed by French independent developer Thomas Gervraud under the studio name Blobfish. Later development was taken over by Evil Empire under Blobfish's oversight.",
+  summaryEs: "Brotato es un videojuego de acción y aventura publicado por Blobfish Games en 2022.",
   notes: "Brotato (Blobfish, 2023) running on PlayStation Vita through source port. You need your own copy of the game.",
   notesEs: "Brotato (Blobfish, 2023) en PlayStation Vita mediante port de código. Necesitas tu propia copia del juego.",
 };

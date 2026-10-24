@@ -7,7 +7,7 @@ export const viniferaDevelopersVinifera: Port = {
   game: "Command & Conquer: Tiberian Sun",
   developers: ["Vinifera-Developers"],
   publisher: "Electronic Arts",
-  originalYear: 2024,
+  originalYear: 1999,
   portType: "decompilation",
   genre: "strategy",
   openSource: true,
@@ -21,6 +21,8 @@ export const viniferaDevelopersVinifera: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Command & Conquer: Tiberian Sun is a 1999 real-time strategy video game developed by Westwood Studios, published by Electronic Arts, and released exclusively for Windows in August 1999. The game is the sequel to the 1995 game Command & Conquer. It featured new semi-3D graphics, a more futuristic sci-fi setting, and new gameplay features such as vehicles capable of hovering or burrowing.",
+  summaryEs: "Command & Conquer: Tiberian Sun es un videojuego de estrategia en tiempo real que pertenece a la serie de Command & Conquer, desarrollado por Westwood Studios y lanzado en 1999 por Electronic Arts.",
   notes: "Command & Conquer: Tiberian Sun: decompilation by Vinifera-Developers for Windows. Bring your own copy of the game.",
   notesEs: "Command & Conquer: Tiberian Sun: decompilación de Vinifera-Developers para Windows. Aporta tu propia copia del juego.",
 };

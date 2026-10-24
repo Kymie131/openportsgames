@@ -19,6 +19,8 @@ export const superMarioAdvance4Recomp: Port = {
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
   originalSystems: ["Game Boy Advance"],
+  summary: "Super Mario Advance 4: Super Mario Bros. 3 is a 2003 platform game developed and published by Nintendo for the Game Boy Advance. It was released in Japan, and later released in Europe, North America, and Australia. It is an enhanced remake of the 1988 NES video game Super Mario Bros. 3, and is based on the remake found in Super Mario All-Stars for the Super Nintendo Entertainment System. Players control either Mario or Luigi as they travel through the eight kingdoms of the Mushroom World to rescue Princess Peach from Bowser.",
+  summaryEs: "Super Mario Advance 4: Super Mario Bros. 3 es un videojuego de plataformas publicado por Nintendo en 2003.",
   notes:
     "Static recompilation of Super Mario Advance 4: Super Mario Bros. 3 (GBA) with the gbarecomp framework. It requires the original game.",
   notesEs:

@@ -25,6 +25,8 @@ export const BombermanLandTouch2: Port = {
     alt: "Bomberman Land Touch 2 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Bomberman Land Touch! 2 is a puzzle video game for the Nintendo DS released in Japan on July 19, 2007, and in North America, Europe, and Australia in 2008. Part of the Bomberman franchise, it is the sequel to Bomberman Land Touch! and the seventh game in the Bomberman Land series.",
+  summaryEs: "Bomberman Land Touch! 2, conocido en Japón como Touch! Bomberman Land Star Bomber's Miracle World, es un videojuego de puzles y minijuegos protagonizado por Bomberman y desarrollado por Hudson Soft para Nintendo DS. Es la secuela directa de Bomberman Land Touch!.",
   notes: 'A reverse engineered implementation of "Bomberman Land Touch 2" for the Nintendo DS.',
   notesEs: "Reimplementación por ingeniería inversa de «Bomberman Land Touch 2» para Nintendo DS.",
 };

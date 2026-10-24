@@ -19,6 +19,8 @@ export const theMummyRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "The Mummy is a 2000 action-adventure video game for PlayStation, Microsoft Windows and Game Boy Color based on the 1999 film of the same name. It was published by Konami.",
+  summaryEs: "The Mummy es un videojuego de acción y aventura publicado por Konami en 2000.",
   notes:
     "Recompilation of The Mummy (PS1, USA SLUS-01187) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

@@ -25,6 +25,8 @@ export const monsterHunterDynamicHuntingPsVita: Port = {
     alt: "Monster Hunter Dynamic Hunting (box art)",
     credit: "Wikipedia",
   },
+  summary: "Monster Hunter Dynamic Hunting is a fighting game developed and published by Capcom for iOS and Android. It was released on June 1, 2011. It is a spin-off of the action adventure game series Monster Hunter, and features both single-player and cooperative multiplayer modes of gameplay.",
+  summaryEs: "Monster Hunter Dynamic Hunting es un videojuego de acción y aventura en 2011.",
   notes: "Monster Hunter Dynamic Hunting (Capcom, 2011) running on PlayStation Vita through source port. Latest release: 1.1. You need your own copy of the game.",
   notesEs: "Monster Hunter Dynamic Hunting (Capcom, 2011) en PlayStation Vita mediante port de código. Última release: 1.1. Necesitas tu propia copia del juego.",
 };

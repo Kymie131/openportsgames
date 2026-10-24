@@ -39,6 +39,8 @@ export const namcoSystem22PropCycle: Port = {
       credit: "spacestate1/namco22-decompile",
     },
   ],
+  summary: "Prop Cycle is a 1996 arcade game developed and published by Namco.",
+  summaryEs: "Prop Cycle es un juego arcade de 1996 desarrollado y publicado por Namco.",
   notes:
     "Decompilation of the 1996 Namco arcade boat game for PC. Ships as ready-made Windows and Linux packages; you supply the arcade ROM set, which is not included.",
   notesEs:

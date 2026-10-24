@@ -6,7 +6,7 @@ export const LemmingsPaintball: Port = {
   title: "Lemmings Paintball",
   game: "Lemmings Paintball",
   developers: ["vonhoff"],
-  publisher: "Unknown",
+  publisher: "SCE Studio Liverpool",
   originalYear: 1996,
   portType: "decompilation",
   genre: "action-adventure",
@@ -25,6 +25,8 @@ export const LemmingsPaintball: Port = {
     alt: "Lemmings Paintball (box art)",
     credit: "Wikipedia",
   },
+  summary: "Lemmings Paintball is an action video game from the Lemmings franchise made by Visual Sciences and published by Psygnosis in 1996.",
+  summaryEs: "Lemmings Paintball es un videojuego de acción y aventura publicado por SCE Studio Liverpool en 1996.",
   notes: "Matching decompilation of Lemmings Paintball (1996, Windows 95).",
   notesEs: "Decompilación que coincide de Lemmings Paintball (1996, Windows 95).",
 };

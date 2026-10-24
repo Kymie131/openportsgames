@@ -27,6 +27,8 @@ export const mahmoudMessTekken6Recomp: Port = {
     alt: "Tekken 6 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Tekken 6 is a 2007 fighting game developed and published by Namco Bandai Games. It is the sixth main and seventh overall installment in the Tekken franchise. It was released on arcades in November 2007 as the first game running on the PlayStation 3-based System 357 arcade board. A year later, the game received an update, subtitled Bloodline Rebellion; both versions also saw a limited release in North America. A home version based on the update was released for the PlayStation 3 and Xbox 360 in October 2009; this was the first time a main installment was produced for a non-Sony console.",
+  summaryEs: "Tekken 6 es la sexta entrega de la serie de videojuegos de lucha Tekken. Fue lanzado en las máquinas arcade el 26 de noviembre de 2007 en Japón y para las consolas de séptima generación PlayStation 3 y Xbox 360 el 27, 29 y 30 de octubre de 2009, y para PlayStation Portable el 11 de diciembre de 2009 ; además, el vestuario de algunos de los personajes estuvieron a cargo del famoso grupo mangakas Clamp [cita requerida] y como dato interesante en esta entrega podemos encontrar la reconstrucción y modernización de 3 escenarios de Tekken Tag Tournament: por ejemplo Lightning Storm, Manji Valley y N",
   notes: "Tekken 6: static recompilation by mahmoud-mess for Windows. Bring your own copy of the game.",
   notesEs: "Tekken 6: recompilación estática de mahmoud-mess para Windows. Aporta tu propia copia del juego.",
 };

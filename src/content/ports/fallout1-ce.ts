@@ -21,6 +21,8 @@ export const fallout1Ce: Port = {
   },
   verified: true,
   verifiedAt: "2026-09-19",
+  summary: "Fallout is an American media franchise of post-apocalyptic role-playing video games created by Tim Cain and Leonard Boyarsky, at Interplay Entertainment. The series, set in the first half of the 3rd millennium, follows the descendants of survivors of a mutually destructive nuclear exchange between the United States and China that marked the culmination of a series of conflicts over resources which began in the middle of the 21st century.",
+  summaryEs: "Fallout es una serie de videojuegos de rol publicados originalmente por Interplay, posteriormente por Bethesda Softworks y actualmente por Xbox Game Studios. Aunque las tramas de los videojuegos se desarrollan en los siglos XXII y XXIII, prevalece una gran influencia de la cultura de posguerra desarrollada en los años 1950 en Estados Unidos, así como la combinación de esperanza y progreso tecnológico, junto con el miedo a la aniquilación nuclear y los efectos de una tercera guerra mundial a finales del siglo XXI y posterior.",
   notes:
     "Community engine for Fallout rebuilt for modern operating systems. Requires the original Fallout game files.",
   notesEs:

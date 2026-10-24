@@ -7,7 +7,7 @@ export const alexbatalovArcanumCe: Port = {
   game: "Arcanum: Of Steamworks and Magick Obscura",
   developers: ["alexbatalov"],
   publisher: "Activision",
-  originalYear: 2016,
+  originalYear: 2001,
   portType: "decompilation",
   genre: "rpg",
   openSource: true,
@@ -22,6 +22,8 @@ export const alexbatalovArcanumCe: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Arcanum: Of Steamworks and Magick Obscura is a 2001 role-playing video game developed by Troika Games and published by Sierra On-Line for Microsoft Windows. The game's story takes place within a fantasy setting currently undergoing a transformation from its own Industrial Revolution, in which magic competes against technological gadgets, and focuses on the efforts of a zeppelin crash survivor to find out who attacked the vessel, ultimately discovering a plot by an ancient power to return to the world and cause chaos.",
+  summaryEs: "Arcanum: Of Steamworks and Magic Obscura es un videojuego de rol desarrollado por Troika Games y publicado por Sierra Enterntainment para Microsoft Windows.",
   notes: "Arcanum: Of Steamworks and Magick Obscura: decompilation by alexbatalov for Windows. Bring your own copy of the game.",
   notesEs: "Arcanum: Of Steamworks and Magick Obscura: decompilación de alexbatalov para Windows. Aporta tu propia copia del juego.",
 };

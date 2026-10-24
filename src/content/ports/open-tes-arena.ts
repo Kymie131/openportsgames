@@ -22,6 +22,8 @@ export const openTesaArena: Port = {
   originalSystems: ["MS-DOS"],
   features: ["Cross-platform desktop builds", "Modern renderer and input handling"],
   featuresEs: ["Builds de escritorio multiplataforma", "Renderizador y manejo de entrada modernos"],
+  summary: "The Elder Scrolls: Arena is a 1994 action role-playing game developed and published by Bethesda Softworks. The first game in the Elder Scrolls series, it was released for MS-DOS on March 25, 1994. The game follows the player trying to uncover a conspiracy against Emperor Uriel Septim VII.",
+  summaryEs: "The Elder Scrolls: Arena es un videojuego de rol desarrollado para PCs que aún lleven el sistema operativo MS-DOS, aunque se puede emular en sistemas más modernos como Microsoft Windows. Es la primera entrega de la serie The Elder Scrolls. El juego fue desarrollado por Bethesda Softworks, y fue lanzado en el año 1994 en Estados Unidos.",
   notes: "Cross-platform engine for The Elder Scrolls: Arena. The original game data is required.",
   notesEs:
     "Motor multiplataforma para The Elder Scrolls: Arena. Se requieren los datos del juego original.",

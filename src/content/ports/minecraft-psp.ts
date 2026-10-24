@@ -20,6 +20,8 @@ export const minecraftPsp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  summary: "Minecraft is a sandbox video game developed and published by the Swedish company Mojang Studios. Following its initial public alpha release as an early access title on 17 May 2009, it was formally released on 18 November 2011 for personal computers. The game has since been ported to numerous platforms, including mobile devices and various video game consoles.",
+  summaryEs: "Minecraft es un videojuego de construcción de tipo «mundo abierto» o en inglés sandbox creado originalmente por el sueco Markus Persson, que creó posteriormente Mojang Studios. Está programado en el lenguaje de programación Java para la versión Java Edition y posteriormente desarrollado en C++ para la versión de Bedrock Edition. Fue lanzado el 17 de mayo de 2009, y después de numerosos cambios, su primera versión estable «1.0» fue publicada el 18 de noviembre de 2011.",
   notes:
     "Homebrew port of Minecraft Pocket Edition to the PlayStation Portable, with the world and gameplay ported from the MCPE 0.6.1 sources. It runs on every PSP model, including the 32 MB PSP-1000, and needs custom firmware to install.",
   notesEs:

@@ -35,6 +35,8 @@ export const dkcRecompiled: Port = {
     "Paquetes de música MSU-1 y variantes de mods",
     "Arreglos de cooperativo para Donkey Kong Country 2",
   ],
+  summary: "Donkey Kong Country, known in Japan as Super Donkey Kong, is a 1994 platform game developed by Rare and published by Nintendo for the Super Nintendo Entertainment System (SNES). It follows the gorilla Donkey Kong and his nephew Diddy Kong as they set out to recover their stolen banana hoard from the crocodile King K. Rool and his army, the Kremlings. The player traverses 40 side-scrolling levels as they jump between platforms and avoid obstacles. They collect items, ride minecarts and animals, defeat enemies and bosses, and find secret bonus stages.",
+  summaryEs: "Donkey Kong Country, conocido en Japón como Super Donkey Kong, es un videojuego de plataformas desarrollado por Rare y publicado por Nintendo para la Super Nintendo (SNES). Sigue al gorila Donkey Kong y su sobrino Diddy Kong, quienes se lanzan a la aventura para recuperar su alijo de plátanos robado por el cocodrilo King K. Rool y su ejército, los Kremlings. El jugador recorre cuarenta niveles de desplazamiento lateral mientras salta entre plataformas y evita obstáculos. Recoge objetos, monta en vagonetas y animales, derrota a enemigos y jefes, y encuentra fases de bonificación secretas.",
   notes:
     "Recompilation trilogy covering Donkey Kong Country, Donkey Kong Country 2: Diddy's Kong Quest and Donkey Kong Country 3: Dixie Kong's Double Trouble, each from its own repository. Requires the player's own legally dumped ROM per game.",
   notesEs:

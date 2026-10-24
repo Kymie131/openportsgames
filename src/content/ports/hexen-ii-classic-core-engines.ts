@@ -25,6 +25,8 @@ export const hexenIiClassicCoreEngines: Port = {
     alt: "Hexen II (box art)",
     credit: "Wikipedia",
   },
+  summary: "Hexen II is a 1997 first-person shooter game developed by Raven Software and published by id Software for Windows. It is the third game in the Hexen/Heretic series, and the last in the Serpent Riders trilogy. Using a modified Quake engine, it features single-player and multiplayer game modes, as well as four character classes to choose from, each with different abilities. These include the \"offensive\" Paladin, the \"defensive\" Crusader, the spell-casting Necromancer, and the stealthy Assassin.",
+  summaryEs: "Hexen II es un videojuego de disparos en primera persona de fantasía oscura desarrollado por Raven Software entre 1996 y 1997, publicado por id Software y distribuido por Activision. Fue la tercera entrega en las series Hexen/Heretic, y el último en la trilogía de Serpent Riders. Fue puesto a disposición a través de Steam, el 3 de agosto de 2007. Utiliza un motor modificado de Quake, tiene modos un jugador y multijugador, así como cuatro clases de personajes para elegir, cada uno con diferentes habilidades.",
   notes: "Hexen II (Raven Software, 1997) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (data1 folder).",
   notesEs: "Hexen II (Raven Software, 1997) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
 };

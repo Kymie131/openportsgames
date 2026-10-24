@@ -26,6 +26,8 @@ export const bayonetta2Recomp: Port = {
     alt: "Bayonetta 2 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Bayonetta 2 is a 2014 action-adventure game developed by PlatinumGames and published by Nintendo for the Wii U. It is the sequel to the 2009 game Bayonetta, and was directed by Yusuke Hashimoto and produced by Atsushi Inaba, Akiko Kuroda, and Hitoshi Yamagami, under supervision by series creator Hideki Kamiya.",
+  summaryEs: "Bayonetta 2 (ベヨネッタ2) es un videojuego de acción publicado por Nintendo y desarrollado por PlatinumGames para la videoconsola Wii U con los propietarios de la franquicia Sega actuando como asesores. A diferencia del juego anterior, que estaba disponible en la PlayStation 3 y Xbox 360, la segunda entrega de la saga estaría disponible sólo en consolas de Nintendo.",
   notes: "Unofficial static recompilation of Bayonetta 2 for Windows, built from the Nintendo Switch release. You must supply your own copy of the game.",
   notesEs: "Recompilación estática no oficial de Bayonetta 2 para Windows, construida desde la versión de Nintendo Switch. Debes aportar tu propia copia del juego.",
 };

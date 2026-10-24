@@ -19,6 +19,8 @@ export const tf15Client: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Windows"],
+  summary: "Team Fortress Classic is a 1999 first-person shooter game developed by Valve and published by Sierra Studios. It was originally released in April 1999 as a mod for Valve's 1998 Windows game Half-Life, and is based on Team Fortress, a mod for the 1996 game Quake.",
+  summaryEs: "Team Fortress Classic es uno de los mods oficiales de Valve, incluido en la actualización 1.1.1.0 de Half-Life, junto a Deathmatch Classic y Ricochet. Un juego FPS que combina acción y estrategia en dos o más equipos rivales con diferentes clases de soldado a elegir por cada jugador. Está basado en el juego original Team Fortress.",
   notes:
     "Reverse-engineered client for Team Fortress Classic, distributed for Android, Windows and Linux and run through Xash3D FWGS. It needs the original game data.",
   notesEs:

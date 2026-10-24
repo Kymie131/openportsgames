@@ -6,7 +6,7 @@ export const TigerWoodsPgaTour2004: Port = {
   title: "Tiger Woods PGA Tour 2004",
   game: "Tiger Woods PGA Tour 2004",
   developers: ["mitsevox"],
-  publisher: "Unknown",
+  publisher: "Electronic Arts",
   originalYear: 2004,
   portType: "decompilation",
   genre: "action-adventure",
@@ -25,6 +25,8 @@ export const TigerWoodsPgaTour2004: Port = {
     alt: "Tiger Woods PGA Tour 2004 (box art)",
     credit: "Box art",
   },
+  summary: "Tiger Woods PGA Tour 2004 is a sports video game developed by EA Redwood Shores for the GameCube, PlayStation 2 and Xbox versions, Headgate Studios for the Microsoft Windows version, and Backbone Emeryville for the Game Boy Advance and N-Gage versions, and published by EA Sports for GameCube, PlayStation 2, Windows, Xbox, Game Boy Advance and N-Gage.",
+  summaryEs: "Tiger Woods PGA Tour 2004 es un videojuego de acción y aventura publicado por Electronic Arts en 2003.",
   notes: "Decompilation and asset research for Tiger Woods PGA Tour 2004 (GameCube, GW4E69).",
   notesEs:
     "Decompilación e investigación de recursos de Tiger Woods PGA Tour 2004 (GameCube, GW4E69).",

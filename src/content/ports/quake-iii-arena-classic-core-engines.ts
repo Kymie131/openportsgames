@@ -25,6 +25,8 @@ export const quakeIiiArenaClassicCoreEngines: Port = {
     alt: "Quake III Arena (box art)",
     credit: "Wikipedia",
   },
+  summary: "Quake III Arena is a 1999 first-person shooter game developed by id Software. The third installment of the Quake series, it focuses primarily on multiplayer gameplay, becoming one of the first modern arena shooters. While the single-player mode in previous installments were story-based, in Arena it is reduced to a player versus environment variant of the core multiplayer mode.",
+  summaryEs: "Quake III Arena o Quake 3 es un videojuego de disparos en primera persona publicado el 2 de diciembre de 1999. El juego fue desarrollado por id Software, con música compuesta por Sonic Mayhem y Front Line Assembly. Quake III Arena es el tercer título en la serie y difiere de juegos anteriores de la serie Quake en excluir los elementos comunes de los denominados juegos para un solo jugador, enfocándose en su lugar en la acción multijugador.",
   notes: "Quake III Arena (id Software, 1999) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (baseq3 folder).",
   notesEs: "Quake III Arena (id Software, 1999) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
 };

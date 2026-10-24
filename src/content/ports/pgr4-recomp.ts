@@ -19,6 +19,8 @@ export const pgr4Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Xbox 360"],
+  summary: "Project Gotham Racing 4 is a 2007 racing video game developed by Bizarre Creations and published by Microsoft Game Studios. The fourth main title of the Project Gotham Racing series, it was released exclusively for the Xbox 360. New features included weather effects, Bulldog mode, and the inclusion of motorcycles.",
+  summaryEs: "Project Gotham Racing 4 es la secuela del juego lanzado para Xbox 360, Project Gotham Racing 3.",
   notes:
     "Static recompilation of Project Gotham Racing 4 (Xbox 360) built with ReXGlue. Bring your own game data.",
   notesEs:

@@ -28,6 +28,8 @@ export const Battletanx: Port = {
     alt: "BattleTanx (box art)",
     credit: "Wikipedia",
   },
+  summary: "BattleTanx is a 1998 action game released for the Nintendo 64, produced by The 3DO Company. The game was followed by a 1999 sequel, titled BattleTanx: Global Assault.",
+  summaryEs: "BattleTanx es un videojuego de acción y aventura publicado por The 3DO Company en 1998.",
   notes:
     "Matching decompilation of BattleTanx for the Nintendo 64 (USA Rev 0, NBXE), with a verified ROM contract and reproducible build gates. The decompilation is complete; it ships no game files, so you must supply your own cartridge dump. An earlier in-progress decompilation by AbuN64 remains linked as provenance.",
   notesEs:

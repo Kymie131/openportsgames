@@ -25,6 +25,8 @@ export const urbanReignPc: Port = {
     alt: "Urban Reign (box art)",
     credit: "Wikipedia",
   },
+  summary: "Urban Reign is a beat 'em up game developed and published by Namco for the PlayStation 2. It features 60 player characters to accommodate its four-player multiplayer mode, two of which are Marshall Law and Paul Phoenix from Namco's Tekken series.",
+  summaryEs: "Urban Reign es un videojuego de lucha, concretamente un Yo contra el barrio de la compañía Namco para PlayStation 2 creado en el 2005.",
   notes: "Urban Reign (Namco, 2005) running on Windows through static recompilation. Latest release: v1.3.0. You need your own copy of the game.",
   notesEs: "Urban Reign (Namco, 2005) en Windows mediante recompilación estática. Última release: v1.3.0. Necesitas tu propia copia del juego.",
 };

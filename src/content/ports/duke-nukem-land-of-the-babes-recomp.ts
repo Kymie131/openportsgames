@@ -19,6 +19,8 @@ export const dukeNukemLandOfTheBabesRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Duke Nukem: Land of the Babes is a 2000 third-person shooter video game developed by n-Space and published by Infogrames for the PlayStation. A spin-off of 3D Realms' Duke Nukem series, it received mostly negative reviews.",
+  summaryEs: "Duke Nukem: Land of The Babes es un videojuego de la serie Duke Nukem del año 2000. Este juego es una secuela directa del videojuego sacado el año 1998, Duke Nukem: Time to Kill.",
   notes:
     "Recompilation of Duke Nukem: Land of the Babes (PS1, USA SLUS-01002) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

@@ -22,6 +22,8 @@ export const apfelteesaftOt6Reconstruction: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Fortnite is a 2017 online video game and game platform developed and released by Epic Games. It is available in seven distinct game mode versions that otherwise share the same general gameplay and game engine: Fortnite Battle Royale, a battle royale game in which up to 100 players fight to be the last person standing; Fortnite Save the World, a cooperative hybrid tower defense-shooter and survival game in which up to four players fight off zombie-like creatures and defend objects with traps and fortifications they can build; Fortnite Creative, in which players are given complete freedom to cre",
+  summaryEs: "Fortnite es un videojuego del año 2017 desarrollado por la empresa Epic Games lanzado como diferentes paquetes de software, que presentan seis modos de juego diferentes, pero que comparten el mismo motor de juego y mecánicas. Fue anunciado en los premios Spike Video Game Awards en 2011.",
   notes: "Fortnite: decompilation by ApfelTeeSaft for Windows. Bring your own copy of the game.",
   notesEs: "Fortnite: decompilación de ApfelTeeSaft para Windows. Aporta tu propia copia del juego.",
 };

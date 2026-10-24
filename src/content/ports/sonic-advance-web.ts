@@ -26,6 +26,8 @@ export const sonicAdvanceWeb: Port = {
     alt: "Sonic Advance (box art)",
     credit: "Box art",
   },
+  summary: "Sonic Advance is a 2001 platform game developed by Sonic Team and Dimps and published by Sega for the Game Boy Advance. It was one of the first Sonic the Hedgehog games to be released on a Nintendo console along with Sonic Adventure 2: Battle on the GameCube, and was produced in commemoration of the series' tenth anniversary. The story follows Sonic, Tails, Knuckles, and Amy as they journey to stop Doctor Eggman from taking over the world. Controlling a character, players are tasked with completing each level, defeating Eggman and his robot army, and collecting the seven Chaos Emeralds.",
+  summaryEs: "Sonic Advance es un videojuego de plataformas de acción de desplazamiento lateral de 2001 desarrollado por Dimps y publicado originalmente por Sega, THQ e Infogrames para Game Boy Advance (GBA). Fue el primer juego de Sonic the Hedgehog lanzado en una consola de Nintendo junto con Sonic Adventure 2 Battle en Nintendo GameCube (GCN), y fue producido en conmemoración del décimo aniversario de la serie. La historia sigue a Sonic, Tails, Knuckles y Amy en su viaje para salvar la Isla Sur y evitar que el Doctor Eggman se apodere del mundo.",
   notes: "From-scratch front-end port of Sonic Advance that runs in the browser without emulation, using assets extracted from your own ROM.",
   notesEs: "Port del front-end de Sonic Advance hecho desde cero que corre en el navegador sin emulación, usando recursos extraídos de tu propia ROM.",
 };

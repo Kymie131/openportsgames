@@ -44,6 +44,8 @@ export const openmw: Port = {
       credit: "OpenMW",
     },
   ],
+  summary: "The Elder Scrolls III: Morrowind is a 2002 action role-playing game developed by Bethesda Game Studios and published by Bethesda Softworks. It is the third installment in The Elder Scrolls series, following 1996's The Elder Scrolls II: Daggerfall, and was released for Microsoft Windows and Xbox. The main story takes place on Vvardenfell, an island in the Dunmer province of Morrowind, part of the continent of Tamriel. The central quests concern the demigod Dagoth Ur, housed within the volcanic Red Mountain, who seeks to gain power and break Morrowind free from Imperial reign.",
+  summaryEs: "The Elder Scrolls III: Morrowind es la tercera entrega de la conocida serie de videojuegos de rol The Elder Scrolls. El videojuego fue publicado en América del Norte y Europa para PC y Xbox entre el 1 de mayo y el 22 de noviembre de 2002, y ha sido desarrollado por Bethesda Game Studios y distribuido por Bethesda Softworks y Ubisoft. El juego ha vendido más de 4 millones de copias en todo el mundo. El juego ha sido lanzado en inglés, pero cuenta con una traducción no oficial al español.",
   notes:
     "Recreation of the Morrowind engine with mod support and an official Android build. Requires the original Morrowind game files.",
   notesEs:

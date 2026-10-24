@@ -7,7 +7,7 @@ export const Turok2SeedsOfEvil: Port = {
   game: "Turok 2: Seeds of Evil",
   developers: ["mgrz18"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 1998,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -26,6 +26,8 @@ export const Turok2SeedsOfEvil: Port = {
     alt: "Turok 2: Seeds of Evil (box art)",
     credit: "Box art",
   },
+  summary: "Turok 2: Seeds of Evil is a first-person shooter video game developed by Iguana Entertainment and published by Acclaim Entertainment. It was released for the Nintendo 64 console in 1998 and ported to Microsoft Windows computers in 1999. Seeds of Evil is the second game in the Turok video game series and a sequel to Turok: Dinosaur Hunter. The game follows the story of a Turok and his efforts to stop a powerful alien entity from escaping the confines of his Lightship.",
+  summaryEs: "Turok 2: Seeds of Evil es un videojuego de disparos en primera persona para Nintendo 64, Windows 9x y Game Boy Color. Fue lanzado en 1998 y está basado en una serie de cómics de Acclaim Comics, Turok. Fue un juego adelantado a su época, mostrando unos gráficos excelentes, una excelente banda sonora, además de un vasto y creativo arsenal de armas. También fue uno de los primeros juegos de Nintendo 64 en utilizar el aumento de RAM del Expansion Pak, como Star Wars: Rogue Squadron, Top Gear Overdrive y NFL Quarterback Club '99.",
   notes:
     "Work-in-progress decompilation of Turok 2: Seeds of Evil (N64). Stepping stone toward native macOS/Android ports of the Acclaim Studios London engine.",
   notesEs:

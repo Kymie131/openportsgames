@@ -19,6 +19,8 @@ export const martianGothicRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Martian Gothic: Unification is a 2000 survival horror video game developed by Creative Reality for Microsoft Windows and Coyote Developments for the PlayStation and published by TalonSoft for Microsoft Windows and Take-Two Interactive for the PlayStation. It takes place on a Martian base in the year 2019, where a crew of three have been tasked to investigate 10 months of radio silence. They soon find that the crew members of the base have been killed, and now become re-animated bloodthirsty zombies.",
+  summaryEs: "Martian Gothic: Unification es un videojuego de acción y aventura publicado por TalonSoft en 2000.",
   notes:
     "Bare recompilation of Martian Gothic: Unification (PlayStation) built with the PSXRecomp toolkit and recomp-ui. It ships no game content and needs your own disc plus a BIOS.",
   notesEs:

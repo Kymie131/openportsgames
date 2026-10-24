@@ -26,6 +26,8 @@ export const castlevaniaLegacyOfDarknessRecomp: Port = {
     alt: "Castlevania: Legacy of Darkness (box art)",
     credit: "Wikipedia",
   },
+  summary: "Castlevania: Legacy of Darkness is a 1999 action-adventure game developed and published by Konami for the Nintendo 64. A prequel and expanded version of Castlevania , also released earlier in the year on the same platform, it contains a revision of the original game with improved graphics, added villains, and alternate versions of some levels.",
+  summaryEs: "Castlevania Legacy of Darkness es un videojuego desarrollado y publicado por Konami para Nintendo 64. Pertenece a la serie Castlevania y es una precuela del videojuego Castlevania 64, publicado con anterioridad también para Nintendo 64 pero con una historia posterior dentro de la saga. Castlevania: Legacy of Darkness salió al mercado el 30 de noviembre de 1999 en Norteamérica, el 25 de diciembre de 1999 en Japón y el 3 de marzo de 2000 en Europa, siendo el segundo y último juego de la serie Castlevania que llegó a Nintendo 64.",
   notes: "Castlevania: Legacy of Darkness (Nintendo 64, 1999) recompiled into a native executable with N64Recomp, with Windows and Android builds. Bring your own ROM. Latest release: v0.2.31.",
   notesEs: "Castlevania: Legacy of Darkness (Nintendo 64, 1999) recompilado a un ejecutable nativo con N64Recomp, con builds de Windows y Android. Aporta tu propia ROM. Última release: v0.2.31.",
 };

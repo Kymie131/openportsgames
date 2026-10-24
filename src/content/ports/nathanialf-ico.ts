@@ -26,6 +26,8 @@ export const nathanialfIco: Port = {
     alt: "Ico (box art)",
     credit: "Box art",
   },
+  summary: "Ico is a 2001 action-adventure video game by Sony Computer Entertainment for the PlayStation 2. It was first released in September and December 2001 for North America and Japan, respectively, with a March 2002 release for Europe. It was first re-released in Europe with its spiritual successor, Shadow of the Colossus, in 2006. A high-definition remaster, included in the Ico & Shadow of the Colossus Collection, was released for PlayStation 3 in 2011. The story follows Ico and Yorda as they escape an abandoned castle to save each other from being sacrificed.",
+  summaryEs: "Ico es un videojuego de aventura-puzles para PlayStation 2 publicado a finales del año 2001 por Sony Computer Entertainment. La dirección del proyecto y el desarrollo del mismo corrieron a cargo de Fumito Ueda, quien quería crear un juego de estilo minimalista alrededor del concepto «chico conoce chica». Aunque fue originalmente planeado para la PlayStation, los cuatro años que duró su desarrollo causaron el cambio de plataforma.",
   notes: "Ico: decompilation by nathanialf for Windows. Bring your own copy of the game.",
   notesEs: "Ico: decompilación de nathanialf para Windows. Aporta tu propia copia del juego.",
 };

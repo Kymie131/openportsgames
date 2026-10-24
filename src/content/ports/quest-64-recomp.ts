@@ -23,6 +23,8 @@ export const quest64Recomp: Port = {
   requirements: {
     minimum: "x86-64 CPU with SSE4.1, such as an Intel Core 2 Penryn or newer",
   },
+  summary: "Quest 64 is a role-playing video game (RPG) developed by Imagineer for the Nintendo 64. It was released in North America in June 1998 by THQ, Europe in September 1998 by Konami and Japan in July 1999 by Imagineer. It is the first role-playing video game released for the system in North America.",
+  summaryEs: "Holy Magic Century lanzado como Quest 64 es un RPG de acción controlando un único personaje desarrollado por Imagineer y distribuido por THQ. Fue lanzado para Nintendo 64 en 1998 en Norteamérica y Europa, y Japón en 1999 bajo el título Eltale Monsters. El lanzamiento fue bastante ignorado debido principalmente al lanzamiento cercano de The Legend of Zelda: Ocarina of Time. La historia del juego ocurre en un mundo de fantasía donde el personaje controlado por el jugador es un aprendiz de mago llamado Ayron.",
   notes:
     "Recompilation of Quest 64 that requires the 1.0 North American release of the game. Only a Windows executable is published so far, with other systems announced. Very wide aspect ratios can show animation artifacts at the screen edges.",
   notesEs:

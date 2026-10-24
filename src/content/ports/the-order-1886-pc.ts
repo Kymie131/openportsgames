@@ -25,6 +25,8 @@ export const theOrder1886Pc: Port = {
     alt: "The Order: 1886 (box art)",
     credit: "Wikipedia",
   },
+  summary: "The Order: 1886 is a 2015 action-adventure video game developed by Ready at Dawn and published by Sony Computer Entertainment for the PlayStation 4. Set in an 1886 alternate history steampunk London, the game follows the Knights of the Round Table as they battle to keep the world safe from half-breeds, such as werewolves and vampires, as well as fringe organizations rebelling against the government.",
+  summaryEs: "The Order: 1886 es un videojuego de disparos en tercera persona para un solo jugador desarrollado por Ready at Dawn y SCE Santa Monica Studio, y publicado por Sony Computer Entertainment, que fue anunciado en el evento E3 2013 y fue lanzado exclusivamente para la PlayStation 4 el 20 de febrero de 2015.",
   notes: "The Order: 1886 (Ready at Dawn, 2015) running on Windows through runtime layer. You need your own copy of the game.",
   notesEs: "The Order: 1886 (Ready at Dawn, 2015) en Windows mediante capa de ejecución. Necesitas tu propia copia del juego.",
 };

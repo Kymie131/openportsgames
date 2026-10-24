@@ -31,6 +31,8 @@ export const arxLibertatis: Port = {
       credit: "Arx Libertatis",
     },
   ],
+  summary: "Arx Fatalis is a 2002 action role-playing game developed by Arkane Studios and released for Windows and Xbox. The game is played from a first-person perspective and is set on a world whose sun has failed, forcing the above-ground creatures to take refuge in caverns. The game's mechanics include the use of mouse gestures to cast spells. Arx Fatalis received mostly positive reviews from critics but was not commercially successful. In 2011, Arkane Studios released the game's source code under the GNU General Public License (GPL), though the game assets remain proprietary.",
+  summaryEs: "Arx Fatalis es un videojuego de rol lanzado el 12 de noviembre de 2002 para PC y el 23 de diciembre de 2003 para Xbox por Arkane Studios.",
   notes:
     "Cross-platform source port of the first-person RPG Arx Fatalis. A free playable experience is possible using the game demo.",
   notesEs:

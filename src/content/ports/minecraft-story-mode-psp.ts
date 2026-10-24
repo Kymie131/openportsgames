@@ -25,6 +25,8 @@ export const minecraftStoryModePsp: Port = {
     alt: "Minecraft: Story Mode (box art)",
     credit: "Wikipedia",
   },
+  summary: "Minecraft: Story Mode is a discontinued episodic point-and-click video game developed and published by Telltale Games, based on Mojang Studios' sandbox game Minecraft. The first five episodes were released from October 2015 to March 2016, and an additional three episodes were released as downloadable content (DLC) in mid-2016. A second season consisting of five episodes was released from July to December 2017.",
+  summaryEs: "Minecraft: Story Mode es un videojuego point-and-click desarrollada y publicada por Telltale Games. Está basado en el videojuego Minecraft. Es un videojuego gráfico de aventura similar a otros juegos de Telltale Games, lanzado como una serie de episodios. El jugador recogerá artículos, resolverá puzles y hablará con personajes que no son jugadores a través de árboles de conversación para aprender sobre la historia y determinar qué hacer a continuación.",
   notes: "Minecraft: Story Mode (Telltale Games, 2015) running on PlayStation Portable through source port. Latest release: 1.7. You need your own copy of the game.",
   notesEs: "Minecraft: Story Mode (Telltale Games, 2015) en PlayStation Portable mediante port de código. Última release: 1.7. Necesitas tu propia copia del juego.",
 };

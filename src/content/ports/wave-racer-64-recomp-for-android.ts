@@ -25,6 +25,8 @@ export const waveRacer64RecompForAndroid: Port = {
     alt: "Wave Race 64 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Wave Race 64 is a 1996 racing video game developed and published by Nintendo for the Nintendo 64. It is the second entry in the Wave Race series following the 1992 Game Boy game Wave Race. Gameplay involves the player racing on a personal watercraft on a variety of courses while successfully manoeuvring the vehicle around various buoys. A multiplayer mode where two players can compete against each other on a chosen course is also included. The game supports the Controller Pak, which allows players to transfer saved data from one game cartridge to another.",
+  summaryEs: "Wave Race 64 es un videojuego de carreras de motos de agua desarrollado por Nintendo EAD en 1996 para la consola Nintendo 64. Este juego acompañó el lanzamiento de la consola en los tres mercados. Es el segundo juego de la saga iniciada con Wave Race para Game Boy, y continuada con Wave Race: Blue Storm para Nintendo GameCube.",
   notes: "Wave Race 64 (Nintendo, 1996) for Android (static recompilation). Needs your own copy of the game (Wave Race 64 - Kawasaki Jet Ski (USA) (Rev 1) Z64).",
   notesEs: "Wave Race 64 (Nintendo, 1996) para Android (recompilación estática). Necesita tu propia copia del juego.",
 };

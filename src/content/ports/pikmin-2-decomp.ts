@@ -26,6 +26,8 @@ export const pikmin2Decomp: Port = {
     alt: "Pikmin 2 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Pikmin 2 is a 2004 real-time strategy puzzle video game developed and published by Nintendo for the GameCube. It is the direct sequel to the 2001 game Pikmin and the second game in the Pikmin series. In the game, Captain Olimar returns to the Pikmin planet to collect valuable treasure after learning that the company he works for—Hocotate Freight—is on the verge of bankruptcy.",
+  summaryEs: "Pikmin 2 (ピクミン２) es un videojuego de estrategia en tiempo real desarrollado y distribuido por Nintendo originalmente para la consola Nintendo GameCube y más tarde el 10 de junio de 2012 para Wii. El juego llegó al mercado el 29 de abril de 2004 en Japón, el 30 de agosto de 2004 en Estados Unidos y el 8 de octubre del mismo año en Europa.",
   notes: "A decompilation of Pikmin 2 (USA, GameCube). Separate project from the Pikmin 2 entries already in the catalog.",
   notesEs: "Decompilación de Pikmin 2 (USA, GameCube). Proyecto distinto de las fichas de Pikmin 2 ya presentes.",
 };

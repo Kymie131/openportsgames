@@ -19,6 +19,8 @@ export const automobiliLamborghiniRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Nintendo 64"],
+  summary: "Automobili Lamborghini is a 1997 racing video game developed and published by Titus France for the Nintendo 64. It is a successor to Lamborghini American Challenge.",
+  summaryEs: "Automobili Lamborghini es un videojuego de carreras de 1997 desarrollado y publicado por Titus Software para Nintendo 64. Es el sucesor de Lamborghini American Challenge.",
   notes:
     "Static recompilation of Automobili Lamborghini (N64) with N64Recomp and the RT64 renderer. It requires a copy of the game.",
   notesEs:

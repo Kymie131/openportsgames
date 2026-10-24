@@ -25,6 +25,8 @@ export const shipOfHarkinianPs4: Port = {
     alt: "The Legend of Zelda: Ocarina of Time (box art)",
     credit: "Wikipedia",
   },
+  summary: "The Legend of Zelda: Ocarina of Time is a 1998 action-adventure game developed and published by Nintendo for the Nintendo 64. It was the first Legend of Zelda game with 3D graphics. It was released in Japan and North America in November 1998 and in PAL regions the following month.",
+  summaryEs: "The Legend of Zelda: Ocarina of Time es un videojuego de acción-aventura de 1998 desarrollado por la filial Nintendo EAD y publicado por Nintendo para la consola Nintendo 64. Fue lanzado en Japón el 21 de noviembre de 1998, mientras que a Norteamérica llegó dos días después, el 23 de noviembre, y en Europa se estrenó el 11 de diciembre de ese mismo año. Para el caso de Sudamérica, fue presentado en Chile el 23 de noviembre de 1998 en un evento especial para periodistas.",
   notes: "The Legend of Zelda: Ocarina of Time (Nintendo, 1998) running on PlayStation 4 through source port. Latest release: v0.2.0. You need your own copy of the game.",
   notesEs: "The Legend of Zelda: Ocarina of Time (Nintendo, 1998) en PlayStation 4 mediante port de código. Última release: v0.2.0. Necesitas tu propia copia del juego.",
 };

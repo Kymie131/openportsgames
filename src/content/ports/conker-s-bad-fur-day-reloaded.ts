@@ -25,6 +25,8 @@ export const conkerSBadFurDayReloaded: Port = {
     alt: "Conker's Bad Fur Day (box art)",
     credit: "Wikipedia",
   },
+  summary: "Conker's Bad Fur Day is a 2001 platform game developed by Rare for the Nintendo 64. It is the second installment in the Conker series, after Conker's Pocket Tales (1999). The game follows Conker, a greedy, hard-drinking red squirrel who must return home to his girlfriend, Berri, after an evening of heavily drinking at the local pub. Most of the game requires the player to complete a linear sequence of challenges that involve jumping over obstacles, solving puzzles, and fighting enemies. In the multiplayer mode, up to four players can compete against each other in seven different game types.",
+  summaryEs: "Conker's Bad Fur Day es un videojuego de plataformas de 2001 desarrollado y publicado por Rare para Nintendo 64. La historia sigue a Conker, una ardilla roja codiciosa y alcohólica que debe regresar a su casa con su novia Berry. La mayor parte del juego requiere que el jugador complete una secuencia lineal de desafíos que implican saltar obstáculos, resolver acertijos y luchar contra enemigos. También se incluye un modo multijugador en el que hasta cuatro jugadores pueden competir entre sí en siete tipos de juegos diferentes.",
   notes: "Conker's Bad Fur Day (Rare, 2001) running on Windows and Linux through static recompilation. Latest release: v1.4.1. You need your own copy of the game.",
   notesEs: "Conker's Bad Fur Day (Rare, 2001) en Windows and Linux mediante recompilación estática. Última release: v1.4.1. Necesitas tu propia copia del juego.",
 };

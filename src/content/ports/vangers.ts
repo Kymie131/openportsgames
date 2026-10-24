@@ -7,7 +7,7 @@ export const Vangers: Port = {
   game: "Vangers",
   developers: ["KranX"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2014,
   portType: "source-port",
   genre: "racing",
   openSource: true,
@@ -25,6 +25,8 @@ export const Vangers: Port = {
     alt: "Vangers (box art)",
     credit: "Wikipedia",
   },
+  summary: "Mind-altering sandbox game that can be described as a racing role-playing adventure game with a complicated storyline. You’ll find a unique atmosphere, complete freedom and lots of gameplay hours to figure out what’s the game is all about.",
+  summaryEs: "Vange-rs es un videojuego de acción y aventura publicado por Association K-D Lab en 2014.",
   notes: "The video game that combines elements of the racing and role-playing genres.",
   notesEs: "El videojuego que combina elementos de carreras y rol.",
 };

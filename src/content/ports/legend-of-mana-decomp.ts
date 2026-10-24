@@ -21,6 +21,8 @@ export const legendOfManaDecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  summary: "Legend of Mana is a 1999 action role-playing game developed and published by Square for the PlayStation. It is a spin-off of the Mana series. Set in a high fantasy universe, the game follows an unnamed hero as they restore the land of Fa'Diel by creating the world around them and completing a number of interrelated quests in order to restore the Tree of Mana.",
+  summaryEs: "Legend of Mana, conocido en Japón como Seiken Densetsu: Legend of Mana es la cuarta entrega de la serie Mana. El juego se lanzó para PlayStation en Japón el quince de julio de 1999 y en Estados Unidos el 7 de junio del año siguiente, con cierta demora en Canadá con respecto a Estados Unidos. La desarrolladora y distribuidora del videojuego fue Squaresoft, aunque la labor de distribución fue llevada en Norteamérica por su filial Square Electronic Arts. En España, no vio la luz hasta el 1 de abril de 2000.",
   notes:
     "Matching decompilation of Legend of Mana (PlayStation). A research codebase; it requires game files from a copy you own.",
   notesEs:

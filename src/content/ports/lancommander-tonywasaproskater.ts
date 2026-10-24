@@ -26,6 +26,8 @@ export const lancommanderTonywasaproskater: Port = {
     alt: "Tony Hawk's Pro Skater (box art)",
     credit: "Box art",
   },
+  summary: "Tony Hawk's Pro Skater, released as Tony Hawk's Skateboarding in the United Kingdom, Australia, New Zealand, and parts of Europe, is a 1999 skateboarding video game developed by Neversoft and published by Activision. It is the first installment in the Tony Hawk's series. It was released for the PlayStation on September 29, 1999 and was later ported to the Nintendo 64, Game Boy Color, Dreamcast, and N-Gage.",
+  summaryEs: "Tony Hawk's Pro Skater, distribuido como Tony Hawk's Skateboarding en el Reino Unido, Australia, Nueva Zelanda y partes de Europa, es un videojuego de skateboarding desarrollado por Neversoft y publicado por Activision. Su lanzamiento original tuvo lugar en la consola PlayStation el 29 de septiembre de 1999, aunque su éxito comercial propició adaptaciones posteriores para Nintendo 64, Game Boy Color, Dreamcast e incluso la plataforma portátil N-Gage.",
   notes: "Tony Hawk's Pro Skater: decompilation by LANCommander for Windows, Linux. Bring your own copy of the game.",
   notesEs: "Tony Hawk's Pro Skater: decompilación de LANCommander para Windows, Linux. Aporta tu propia copia del juego.",
 };

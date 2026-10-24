@@ -20,6 +20,8 @@ export const twinE: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
+  summary: "Little Big Adventure is a retro action-adventure game originally released in 1994. Equipped with your Magicball, you will have to face the evil Dr. Funfrock to save your girlfriend and the world of Twinsun.",
+  summaryEs: "Little Big Adventure es un videojuego de acción y aventura publicado por [2.21] en 2015.",
   notes: "Open-source engine for Little Big Adventure that runs the original game assets.",
   notesEs:
     "Motor de código abierto para Little Big Adventure que ejecuta los recursos del juego original.",

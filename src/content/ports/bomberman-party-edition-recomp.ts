@@ -7,7 +7,7 @@ export const bombermanPartyEditionRecomp: Port = {
   game: "Bomberman Party Edition",
   developers: ["PortsDR"],
   publisher: "Hudson Soft",
-  originalYear: 2000,
+  originalYear: 1998,
   portType: "recompilation",
   genre: "action-adventure",
   openSource: false,
@@ -20,6 +20,8 @@ export const bombermanPartyEditionRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  summary: "Bomberman Party Edition, known in Japan and Europe as simply Bomberman, is a PlayStation version of the 1983 game Bomberman. In addition to vintage graphics for single player mode, an option for enhanced graphics is added. The game was released to the PlayStation Network as a PSone Classic on May 28, 2008, in Japan and December 10, 2009, in North America.",
+  summaryEs: "Bomberman Party Edition, conocido simplemente como Bomberman en Japón y Europa, es una versión para PlayStation del juego Bomberman de 1983. Además de ofrecer gráficos clásicos en el modo de un jugador, añade la opción de gráficos mejorados. El juego fue lanzado en PlayStation Network como un PSone Classic el 28 de mayo de 2008 en Japón y el 10 de diciembre de 2009 en Norteamérica.",
   notes: "PortsDR lists this recompilation without a public repository. Own the game to play it.",
   notesEs:
     "PortsDR lista esta recompilación sin repositorio público. Necesitas el juego para jugarla.",

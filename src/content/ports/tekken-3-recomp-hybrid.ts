@@ -26,6 +26,8 @@ export const tekken3RecompHybrid: Port = {
     alt: "Tekken 3 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Tekken 3 (鉄拳3) is a 1997 fighting game developed and published by Namco. It is the third installment in the Tekken series and the first game built on the Namco System 12 arcade hardware. The game takes place nineteen years after Tekken 2 (1995) and features a largely new cast of characters, including the debut of several staple characters such as Jin Kazama, Ling Xiaoyu and Bryan Fury, and adds a sidestepping ability to every character. Tekken 3 was ported to the PlayStation in 1998 with additional content, including a beat 'em up mode called Tekken Force.",
+  summaryEs: "Tekken 3 (鉄拳3) es la tercera entrega de Tekken, la popular serie de juegos de lucha. Fue el primer juego lanzado en el hardware del System 12 de Namco en 1997, aparte de ser la última entrega de Tekken para PlayStation. Fue lanzado para PlayStation en 1998 y en 2005 para PlayStation 2 como parte del Modo Historia del Arcade de Tekken 5.",
   notes: "Hybrid recompilation preview of Tekken 3 (PlayStation, 1997) with Jun Kazama, widescreen, custom skins and local asset import tools. Pick your own CUE/BIN image. Latest tag: v0.1.4.",
   notesEs: "Avance de recompilación híbrida de Tekken 3 (PlayStation, 1997) con Jun Kazama, widescreen, skins personalizadas y herramientas de importación de assets locales. Elige tu propia imagen CUE/BIN. Último tag: v0.1.4.",
 };

@@ -25,6 +25,8 @@ export const skywardSwordPc: Port = {
     alt: "The Legend of Zelda: Skyward Sword (box art)",
     credit: "Wikipedia",
   },
+  summary: "The Legend of Zelda: Skyward Sword is a 2011 action-adventure game developed and published by Nintendo for the Wii. A mainline entry in The Legend of Zelda series, Skyward Sword is the first game in the Zelda timeline, and details the origins of the Triforce and the Master Sword. The series main protagonist Link, a resident of a floating town called Skyloft, sets out to rescue his childhood friend Zelda after she is kidnapped and brought to the abandoned lands below the clouds.",
+  summaryEs: "The Legend of Zelda: Skyward Sword es un videojuego de acción y aventura de 2011 de la serie The Legend of Zelda, desarrollado por la filial Nintendo EAD en colaboración con Tantalus Media y publicado por Nintendo para la consola Wii. Fue lanzado el 18 de noviembre de 2011 en Europa y el 20 de noviembre de 2011 en América.",
   notes: "The Legend of Zelda: Skyward Sword (Nintendo, 2011) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "The Legend of Zelda: Skyward Sword (Nintendo, 2011) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

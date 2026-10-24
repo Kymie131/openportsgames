@@ -21,6 +21,8 @@ export const vcmi: Port = {
     spdx: "GPL-2.0",
   },
   verified: false,
+  summary: "This is the original version of the game from 1999. The pack includes the original Heroes of Might and Magic III and its two expansions: Armageddon's Blade and The Shadow of Death.",
+  summaryEs: "Heroes of Might and Magic III es un videojuego de estrategia publicado por Ubisoft en 2026.",
   notes:
     "Open-source recreation of the Heroes of Might and Magic III engine, loadable with the original game data. Active development with a long release history.",
   notesEs:

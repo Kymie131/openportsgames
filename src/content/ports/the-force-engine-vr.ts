@@ -19,6 +19,8 @@ export const theForceEngineVr: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   originalSystems: ["MS-DOS"],
+  summary: "Star Wars: Dark Forces is a first-person shooter video game developed and published by LucasArts. It was released in 1995 for MS-DOS and Macintosh, and in 1996 for the PlayStation. The story is set in the Star Wars expanded universe and begins shortly before the original Star Wars film, before flashing forward to a year after the film's events.",
+  summaryEs: "Star Wars: Dark Forces fue el primer FPS basado en el universo de Star Wars y uno de los primeros videojuegos en comercializarse en formato CD-ROM por las secuencias de video que incorporaba, que ocupaban un considerable tamaño para la época.",
   notes:
     "VR-oriented build of The Force Engine (a Jedi Engine replacement) that supports Dark Forces and its mods on Android. It needs the original game.",
   notesEs:

@@ -26,6 +26,8 @@ export const skullburglarPc: Port = {
     alt: "50 Cent: Blood on the Sand (box art)",
     credit: "Wikipedia",
   },
+  summary: "50 Cent: Blood on the Sand is a third-person shooter video game developed by Swordfish Studios and published by THQ for the PlayStation 3 and Xbox 360. It serves as the sequel to 50 Cent: Bulletproof, and was released in February 2009. The game centers around a fictional 50 Cent and G-Unit concert, set in an unspecified location in the Middle East. After the group's payment, a diamond-encrusted skull, is stolen, they must fight to retrieve it from the thieves.",
+  summaryEs: "50 Cent: Blood on the Sand es un videojuego de disparos publicado por THQ en 2009.",
   notes: "Work-in-progress native recompilation of the third-person shooter 50 Cent: Blood on the Sand (Xbox 360). Bring your own copy of the game.",
   notesEs: "Recompilación nativa en desarrollo del shooter en tercera persona 50 Cent: Blood on the Sand (Xbox 360). Aporta tu propia copia del juego.",
 };

@@ -22,6 +22,8 @@ export const starWarsJediPowerBattlesRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  summary: "Star Wars Episode I: Jedi Power Battles is a 2000 action video game based on the 1999 film Star Wars: Episode I – The Phantom Menace. It was released for the PlayStation and Dreamcast in 2000, followed by the Game Boy Advance in 2001. A remastered version of the game was released for Windows, Nintendo Switch, PlayStation 4, PlayStation 5, Xbox One, and Xbox Series X/S in January 2025.",
+  summaryEs: "Star Wars Episodio I: Jedi Power Battles es un juego de aventura y acción basado en la película Star Wars Episodio I: La amenaza fantasma. El videojuego salió a la venta para las consolas PlayStation, Dreamcast y Game Boy Advance",
   notes: "Indexed by PortsDR. No official repository is available, and it needs your own copy.",
   notesEs: "Indexado en PortsDR. No hay repositorio oficial disponible y necesita tu propia copia.",
   cover: {

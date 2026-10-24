@@ -21,6 +21,8 @@ export const smm2recompSmm2recomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo Switch"],
+  summary: "Super Mario Maker 2 is a 2019 platform game and game creation system developed and published by Nintendo for the Nintendo Switch. It is the sequel to Super Mario Maker (2015) and was released worldwide on June 28, 2019. The gameplay is largely retained from that of its predecessor, in which players create their own custom courses using assets from various games across the Super Mario franchise and share them online. Super Mario Maker 2 introduces new features and course assets, including a single player story mode and new level assets based on Super Mario 3D World.",
+  summaryEs: "Super Mario Maker 2 es un videojuego de plataformas y de creación de niveles desarrollado y publicado por Nintendo para Nintendo Switch. Es la secuela de Super Mario Maker y salió a la venta el 28 de junio de 2019 en todo el mundo. El videojuego conserva en gran medida la jugabilidad de su predecesor, en la que los jugadores crean sus propios niveles personalizados utilizando elementos de varios videojuegos de la franquicia Super Mario y compartirlos en línea.",
   notes: "Super Mario Maker 2: static recompilation by smm2recomp for Windows. Bring your own copy of the game.",
   notesEs: "Super Mario Maker 2: recompilación estática de smm2recomp para Windows. Aporta tu propia copia del juego.",
 };

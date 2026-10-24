@@ -26,6 +26,8 @@ export const balatro3dsHomebrew: Port = {
     alt: "Balatro (box art)",
     credit: "Wikipedia",
   },
+  summary: "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.",
+  summaryEs: "Balatro es un videojuego de estrategia publicado por Playstack en 2024.",
   notes: "Balatro (LocalThunk, 2024) running on Nintendo 3DS through reimplementation. Latest release: v2.0.5-base. You need your own copy of the game.",
   notesEs: "Balatro (LocalThunk, 2024) en Nintendo 3DS mediante reimplementación. Última release: v2.0.5-base. Necesitas tu propia copia del juego.",
 };

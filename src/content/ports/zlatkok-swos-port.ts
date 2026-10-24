@@ -21,6 +21,8 @@ export const zlatkokSwosPort: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Sensible World of Soccer 96/97 is a sports game in 1996.",
+  summaryEs: "Sensible World of Soccer 96/97 es un videojuego de deportes en 1996.",
   notes: "Sensible World of Soccer 96/97: source port by zlatkok for Windows. Bring your own copy of the game.",
   notesEs: "Sensible World of Soccer 96/97: source port de zlatkok para Windows. Aporta tu propia copia del juego.",
 };

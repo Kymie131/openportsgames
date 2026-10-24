@@ -7,7 +7,7 @@ export const PopnMusic: Port = {
   game: "Pop'N Music",
   developers: ["Erizur"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 1999,
   portType: "decompilation",
   genre: "music",
   openSource: true,
@@ -25,6 +25,8 @@ export const PopnMusic: Port = {
     alt: "Pop'N Music (cover)",
     credit: "Wikipedia",
   },
+  summary: "Pop'N Music is a music game in 1999.",
+  summaryEs: "pop'n music , es el primer videojuego de la franquicia de la saga de pop'n music. Su primer debut fue en septiembre de 1998 en la versión Arcade, y en febrero de 1999 salieron sus versiones caseras para PlayStation y Sega Dreamcast. fue desarrollado por Konami y MZD Design.",
   notes: "pop'n music CS1 PSX decompilation.",
   notesEs: "Decompilación de pop'n music CS1 para PSX.",
 };

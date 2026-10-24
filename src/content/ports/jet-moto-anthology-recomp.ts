@@ -19,6 +19,8 @@ export const jetMotoAnthologyRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Jet Moto is a 1996 racing video game developed by Sony Interactive Studios America and SingleTrac and published by Sony Computer Entertainment for the PlayStation. It was released in North America on October 31, 1996; in 1997 for Europe in February and Japan on August 7. A Windows version was released only in North America on November 13, 1997, by Sony Interactive Studios America. Jet Moto was made available for the PlayStation Portable and PlayStation 3 via the PlayStation Network in February 2007.",
+  summaryEs: "Jet Moto es un videojuego de carreras publicado por Sony Interactive Entertainment en 1996.",
   notes:
     "Cumulative recompilation project for the Jet Moto games (PlayStation) with rendering improvements. It needs your own game datas.",
   notesEs:

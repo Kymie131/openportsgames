@@ -26,6 +26,8 @@ export const haloCeIphone: Port = {
     alt: "Halo: Combat Evolved (box art)",
     credit: "Wikipedia",
   },
+  summary: "Halo: Combat Evolved is a 2001 first-person shooter game developed by Bungie and published by Microsoft Game Studios. The game was released on November 15, 2001 for the Xbox, with ports to Microsoft Windows and Mac OS X released in 2003. It is the first installment in the Halo franchise. Set in the 26th century, players assume the role of Master Chief, a cybernetically enhanced supersoldier.",
+  summaryEs: "Halo: Combat Evolved, comúnmente conocido como Halo, Halo CE o Halo 1, es un videojuego de disparos en primera persona desarrollado por Bungie Studios y publicado por Microsoft Game Studios el 15 de noviembre de 2001, a manera de título debut de la videoconsola Xbox, y de la cual es considerado como su aplicación asesina. Es el primer juego de la franquicia Halo.",
   notes: "HaloPad: Halo: Combat Evolved (Xbox, 2001) running natively on iPhone, iPad and Mac, built on OpenCE, the open-source decompilation engine. Online matches up to 128 players and Custom Edition servers; game data not included. Latest release: v0.3.10.",
   notesEs: "HaloPad: Halo: Combat Evolved (Xbox, 2001) nativo en iPhone, iPad y Mac, construido sobre OpenCE, el motor de decompilación de código abierto. Partidas online de hasta 128 jugadores y servidores de Custom Edition; no incluye los datos del juego. Última release: v0.3.10.",
 };

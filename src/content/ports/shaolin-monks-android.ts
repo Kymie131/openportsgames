@@ -26,6 +26,8 @@ export const shaolinMonksAndroid: Port = {
     alt: "Mortal Kombat: Shaolin Monks (box art)",
     credit: "Wikipedia",
   },
+  summary: "Mortal Kombat: Shaolin Monks is a 2005 action-adventure game developed and published by Midway for the PlayStation 2 and Xbox. A spin-off of the Mortal Kombat franchise, it is a retelling of the events of Mortal Kombat II (1993). Players control the eponymous Shaolin monks Liu Kang and Kung Lao in either single player or cooperative play as they protect Earthrealm from the forces of Outworld.",
+  summaryEs: "Mortal Kombat: Shaolin Monks es un videojuego beat 'em up de acción y aventuras desarrollado y publicado por Midway para la PlayStation 2 y Xbox en 2005. El tercer spin-off de la franquicia Mortal Kombat, es un recuento de los eventos del segundo juego, comenzando después del final del primero. El juego se centra en los epónimos monjes Shaolin: Liu Kang y Kung Lao, en sus aventuras por los reinos en un intento de detener los planes de Shang Tsung de dominar el reino de la Tierra.",
   notes: "Android arm64 port of Mortal Kombat: Shaolin Monks (Xbox) via XboxXBE-Recomp, with Vulkan, touch/gamepad controls and CRT/FXAA filters. Bring your own disc image.",
   notesEs: "Port arm64 para Android de Mortal Kombat: Shaolin Monks (Xbox) con XboxXBE-Recomp, Vulkan, controles táctiles o mando y filtros CRT/FXAA. Aporta tu propio volcado del disco.",
 };

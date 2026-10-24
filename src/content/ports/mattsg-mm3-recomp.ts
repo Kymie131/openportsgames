@@ -22,6 +22,8 @@ export const mattsgMm3Recomp: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Midtown Madness 3 is a 2003 racing video game developed by Digital Illusions CE and published by Microsoft Game Studios for the Xbox. It is the third and currently to date, final game in the Midtown Madness series. A version for mobile phones, developed by BeTomorrow and published by In-Fusio, was released in 2004. This marked a change from the developer of the first two games, Angel Studios, which had moved on to work on the Midnight Club series.",
+  summaryEs: "Midtown Madness 3 es un videojuego para Xbox, publicado en 2003. Es parte de la serie de videojuegos Midtown Madness. Por primera vez en la serie, el juego fue exclusivo de Xbox, con una versión de Windows rumoreada para un lanzamiento posterior, pero fue desechada en última instancia.",
   notes: "Midtown Madness 3: static recompilation by MattSG for Windows. Bring your own copy of the game.",
   notesEs: "Midtown Madness 3: recompilación estática de MattSG para Windows. Aporta tu propia copia del juego.",
   cover: {

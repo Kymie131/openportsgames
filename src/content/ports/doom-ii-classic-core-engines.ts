@@ -25,6 +25,8 @@ export const doomIiClassicCoreEngines: Port = {
     alt: "Doom II (box art)",
     credit: "Wikipedia",
   },
+  summary: "Doom II, also known as Doom II: Hell on Earth, is a 1994 first-person shooter video game developed and published by id Software for MS-DOS. It was released on Mac OS the following year. Whereas the original Doom was initially only available through shareware and mail order, Doom II was the first Doom game released initially in stores.",
+  summaryEs: "Doom II: Hell on Earth es un videojuego de disparos en primera persona desarrollado por ID Software. Fue lanzado para MS-DOS en 1994 y Macintosh 1995. A diferencia del Doom original, que inicialmente solo estaba disponible a través de shareware y pedidos por correo, Doom II se vendió en las tiendas.",
   notes: "Doom II (id Software, 1994) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (DOOM2.WAD).",
   notesEs: "Doom II (id Software, 1994) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
 };

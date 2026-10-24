@@ -20,6 +20,8 @@ export const scdaXbeRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox"],
+  summary: "Tom Clancy's Splinter Cell: Double Agent is a 2006 action-adventure stealth game co-developed by Ubisoft Milan and Ubisoft Shanghai, and published by Ubisoft. The Splinter Cell series, endorsed by American author Tom Clancy, follows Sam Fisher, an agent employed by a black-ops division of the National Security Agency (NSA), dubbed Third Echelon. The game was released for GameCube, PlayStation 2, Xbox and Xbox 360 in October 2006. The Wii and Windows versions were released in November 2006. A PlayStation 3 version was released in March 2007.",
+  summaryEs: "Tom Clancy´s Splinter Cell: Double Agent es el cuarto episodio de la saga de videojuegos de aventura/acción/infiltración Splinter Cell, a la venta para las consolas GameCube, Wii, PlayStation 2, PlayStation 3, Xbox 360, xbox, PSP y ordenadores personales. Además el título también fue publicado para teléfonos móviles.",
   notes:
     "Unofficial PC port of the original Xbox version of Splinter Cell: Double Agent via static recompilation. Needs your own game files.",
   notesEs:

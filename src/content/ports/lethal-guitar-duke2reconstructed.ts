@@ -22,6 +22,8 @@ export const lethalGuitarDuke2reconstructed: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Duke Nukem II is a 1993 platform game developed and published by Apogee Software. The game consists of four episodes, the first available as shareware. It is the follow-up to 1991's Duke Nukem, and followed by Duke Nukem 3D in 1996. Todd Replogle was the primary designer of all three games.",
+  summaryEs: "Duke Nukem II es un videojuego de plataformas para MS-DOS desarrollado por Apogee Software y publicado el 3 de diciembre de 1993. El videojuego consiste de cuatro episodios, el primero disponible como shareware. No debe confundirse con el primer episodio de Duke Nukem, es el segundo videojuego de la serie Duke Nukem, secuela del videojuego de 1991 y seguido por Duke Nukem 3D en 1996.",
   notes: "Duke Nukem II: decompilation by lethal-guitar for Windows. Bring your own copy of the game.",
   notesEs: "Duke Nukem II: decompilación de lethal-guitar para Windows. Aporta tu propia copia del juego.",
 };

@@ -7,7 +7,7 @@ export const medievil2019Pc: Port = {
   game: "MediEvil",
   developers: ["bc160201983"],
   publisher: "Other Ocean Interactive",
-  originalYear: 2019,
+  originalYear: 1998,
   portType: "runtime-port",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const medievil2019Pc: Port = {
     alt: "MediEvil (box art)",
     credit: "Wikipedia",
   },
+  summary: "MediEvil is a 1998 action-adventure game developed and published by Sony Computer Entertainment for the PlayStation. The game is set in the medieval Kingdom of Gallowmere and centers around the charlatan protagonist, Sir Daniel Fortesque, as he makes an attempt to stop antagonist Zarok's invasion of the kingdom whilst simultaneously redeeming himself.",
+  summaryEs: "MediEvil es un videojuego de acción-aventura del género hack and slash desarrollado por SCE Studio Cambridge y publicado por Sony Computer Entertainment para la PlayStation. El juego está ambientado en el reino medieval de Gallowmere y se centra en el protagonista del charlatán, Sir Daniel Fortesque, que intenta detener la invasión del reino por parte del antagonista Zarok mientras se redime a sí mismo.",
   notes: "MediEvil (Other Ocean Interactive, 2019) running on Windows through runtime layer. Latest release: v1.3.5. You need your own copy of the game.",
   notesEs: "MediEvil (Other Ocean Interactive, 2019) en Windows mediante capa de ejecución. Última release: v1.3.5. Necesitas tu propia copia del juego.",
 };

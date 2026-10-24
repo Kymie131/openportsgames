@@ -19,6 +19,8 @@ export const xenaWarriorPrincessRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Xena: Warrior Princess is a hack and slash video game developed by Universal Studios Digital Arts and co-published by Electronic Arts and Universal Interactive Studios for the PlayStation in 1999. A Game Boy Color version was developed and published by Titus Interactive in 2001. Each version is based on the television series of the same name, which aired from 1995 to 2001.",
+  summaryEs: "Xena: Warrior Princess es un videojuego que fue lanzado en PlayStation, desarrollado por Universal Interactive Studios y publicado por Electronic Arts en 1999, sobre la serie de televisión Xena: la princesa guerrera.",
   notes:
     "Recompilation of Xena: Warrior Princess (PS1, USA SLUS-00977) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

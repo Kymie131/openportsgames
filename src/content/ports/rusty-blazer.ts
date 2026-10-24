@@ -20,6 +20,8 @@ export const rustyBlazer: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Super Nintendo"],
+  summary: "Soul Blazer, released in Japan as Soul Blader, is an action role-playing video game developed by Quintet and published by Enix for the Super Nintendo Entertainment System. It was released in 1992 in Japan and North America, but not released in Europe until 1994. It was not released in the United Kingdom.",
+  summaryEs: "Soul Blazer, conocido en Japón como Soul Blader, es un Action-RPG para Super Nintendo desarrollado por Quintet y publicado por Enix en 1992. Es un juego similar en temática al anterior juego de Quintet ActRaiser, ya que el jugador toma el papel de un ángel enviado por una deidad para destruir monstruos y liberar las almas capturadas de los seres vivos del planeta. Para muchos es considerado el primer juego de la \"Soul Blazer Trilogy\", seguido por Illusion of Gaia y Terranigma.",
   notes:
     "Decompilation of Soul Blazer rewritten in Rust. A research codebase; it requires game files from a copy you own.",
   notesEs:

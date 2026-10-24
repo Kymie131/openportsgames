@@ -21,6 +21,8 @@ export const p0herculabsHl360Forza3: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  summary: "Forza Motorsport 3 is a 2009 racing video game developed for Xbox 360 by Turn 10 Studios. It is the sequel to Forza Motorsport 2 and the third installment in the Forza series. The game includes more than 400 customizable cars from 50 manufacturers and more than 100 racetrack variations with the ability to race up to eight cars on track at a time. These cars vary from production cars to race cars such as those from the American Le Mans Series.",
+  summaryEs: "Forza Motorsport 3 es un videojuego de carreras desarrollado para Xbox 360 por Turn 10 Studios. Fue lanzado en octubre de 2009. Es la secuela de Forza Motorsport 2 y la tercera entrega de la serie Forza Motorsport. El juego incluye más de 400 automóviles personalizables de 50 fabricantes y más de 100 variaciones en pistas de carreras con la capacidad de correr con 8 coches a la vez.",
   notes: "Forza Motorsport 3: source port by 0herculabs for Windows. Bring your own copy of the game.",
   notesEs: "Forza Motorsport 3: source port de 0herculabs para Windows. Aporta tu propia copia del juego.",
 };

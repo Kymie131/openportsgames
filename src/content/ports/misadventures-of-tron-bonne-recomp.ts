@@ -19,6 +19,8 @@ export const misadventuresOfTronBonneRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "The Misadventures of Tron Bonne is a 1999 action-adventure game developed and published by Capcom for the PlayStation. Released in Japan in 1999 and in North America and Europe in 2000, the game is part of the Mega Man Legends series, and is also a prequel and spin-off of the first Legends game. Rather than focusing on the heroic protagonists of the series, the game follows series antihero Tron Bonne, sister of the criminal Bonne family of air pirates. The Japanese version included PocketStation support, whereas the North American and European version did not.",
+  summaryEs: "The Misadventures of Tron Bonne es un videojuego de acción y aventura publicado por Capcom en 1999.",
   notes:
     "Recompilation of The Misadventures of Tron Bonne (PS1, Europe SLES-02795) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

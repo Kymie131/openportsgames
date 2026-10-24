@@ -6,7 +6,7 @@ export const PokemonCrystal: Port = {
   title: "Pokemon Crystal",
   game: "Pokemon Crystal",
   developers: ["pret"],
-  publisher: "Unknown",
+  publisher: "Nintendo",
   originalYear: 2000,
   portType: "decompilation",
   genre: "rpg",
@@ -25,6 +25,8 @@ export const PokemonCrystal: Port = {
     alt: "Pokemon Crystal (cover)",
     credit: "Wikipedia",
   },
+  summary: "Pokémon Crystal Version is a role-playing video game developed by Game Freak and published by Nintendo for the Game Boy Color, released in Japan in December 2000 and internationally throughout 2001. Serving as an enhanced edition of the 1999 titles Pokémon Gold and Silver, it is the final entry in the second generation of the Pokémon game series. The game introduced several new features, including additional story elements, a Battle Tower area, the option to play as a female protagonist, animated Pokémon sprites during battles, and various minor improvements.",
+  summaryEs: "Pokémon Edición Oro y Edición Plata, conocidos en Japón como Pocket Monsters Kin & Gin , son la segunda entrega de la serie de videojuegos de Pokémon, de género RPG, desarrollados por la compañía japonesa Game Freak y publicados por Nintendo para su consola portátil Game Boy Color y para Nintendo 3DS en la Consola Virtual, pero también en formato físico con código de descarga. Los juegos poseen una capacidad dual de conexión, puesto que se pueden jugar tanto en la Color como en la consola monocromática Game Boy. Sin embargo, la versión Pokémon Crystal no posee esa dualidad.",
   notes: "Disassembly of Pokémon Crystal.",
   notesEs: "Desensamblado de Pokémon Crystal.",
 };

@@ -7,7 +7,7 @@ export const evolandGbDemake: Port = {
   game: "Evoland",
   developers: ["flozz"],
   publisher: "Shiro Games",
-  originalYear: 2019,
+  originalYear: 2013,
   portType: "source-port",
   genre: "rpg",
   openSource: true,
@@ -26,6 +26,8 @@ export const evolandGbDemake: Port = {
     alt: "Evoland (cover art)",
     credit: "Steam",
   },
+  summary: "Evoland is a 2013 role-playing video game developed and published by Shiro Games. Evoland was released for Microsoft Windows and OS X in April 2013, Android and iOS in February 2015 and Linux in March 2015.",
+  summaryEs: "Evoland es un videojuego de rol de 2013 desarrollado y distribuido por Shiro Games, una empresa de desarrolladores francesa que radica en Burdeos. Evoland fue principalmente publicado para Microsoft Windows y OS X en 4 de abril de 2013, luego para Android e iOS en 2 de febrero de 2015 y para Linux en 9 de marzo de 2015.",
   notes: "Evoland (Shiro Games, 2019) running on gb through source port. You need your own copy of the game.",
   notesEs: "Evoland (Shiro Games, 2019) en gb mediante port de código. Necesitas tu propia copia del juego.",
 };

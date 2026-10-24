@@ -19,6 +19,8 @@ export const superRobotWars64Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Nintendo 64"],
+  summary: "Super Robot Wars 64 is a tactical role-playing game for the Nintendo 64 and part of the Super Robot Wars series. It was released only in Japan in 1999, and features extensive connectivity with Super Robot Wars: Link Battler for Game Boy Color.",
+  summaryEs: "Super Robot Wars 64 es un videojuego de estrategia publicado por Banpresto en 1999.",
   notes:
     "Static recompilation of Super Robot Wars 64 (N64) with N64Recomp and the RT64 renderer. It requires your own game data.",
   notesEs:

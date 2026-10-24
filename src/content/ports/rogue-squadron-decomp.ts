@@ -21,6 +21,8 @@ export const rogueSquadronDecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  summary: "Star Wars: Rogue Squadron or Star Wars: Rogue Squadron 3D is an arcade-style flight action game co-developed by Factor 5 and LucasArts. The first of the Rogue Squadron trilogy, it was published by LucasArts and Nintendo and released for Microsoft Windows and Nintendo 64 in December 1998. The game's story was influenced by the Star Wars: X-wing – Rogue Squadron comics and is set in the fictional Star Wars galaxy, taking place primarily between events in the films Star Wars and The Empire Strikes Back.",
+  summaryEs: "Star Wars: Rogue Squadron es un videojuego de acción y aventura publicado por Lucasfilm Games en 1998.",
   notes:
     "Decompilation of Star Wars: Rogue Squadron for the Nintendo 64. A research codebase; it requires game files from a copy you own.",
   notesEs:

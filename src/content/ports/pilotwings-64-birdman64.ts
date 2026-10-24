@@ -26,6 +26,8 @@ export const pilotwings64Birdman64: Port = {
     alt: "Pilotwings 64 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Pilotwings 64 is a 1996 flight simulation video game developed by Nintendo and Paradigm Simulation and published by Nintendo for the Nintendo 64. It was one of three launch titles for the Nintendo 64 in Japan as well as Europe and one of two launch titles in North America, along with Super Mario 64. Pilotwings 64 is a sequel to Pilotwings for the Super Nintendo Entertainment System, which was a North American launch game for its respective console in 1991. Also like that game, Pilotwings 64 received production input from Nintendo producer and EAD General Manager Shigeru Miyamoto.",
+  summaryEs: "Pilotwings 64 es un videojuego para la Nintendo 64 publicado en 1996, junto con el lanzamiento de la consola. Fue el único de los dos títulos lanzados conjuntamente con la consola junto con Super Mario 64. El juego es una secuela de Pilotwings, aparecido para la SNES, el cual fue también un título publicado con el lanzamiento de esta consola.",
   notes: "Pilotwings 64 (Nintendo 64, 1996) as a native PC game for Windows and Linux: widescreen, 144 Hz and beyond, and gamepad support. Bring your own ROM; no emulator involved. Latest release: v1.3.0.",
   notesEs: "Pilotwings 64 (Nintendo 64, 1996) como juego nativo de PC para Windows y Linux: panorámico, 144 Hz o más y soporte de mando. Aporta tu propia ROM; sin emulador. Última release: v1.3.0.",
 };

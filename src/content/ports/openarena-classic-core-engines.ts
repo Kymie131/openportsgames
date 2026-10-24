@@ -20,6 +20,8 @@ export const openarenaClassicCoreEngines: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "OpenArena is a free and open-source video game. It is a first-person shooter, and a fork of ioquake which in itself was a fork of Quake III Arena.",
+  summaryEs: "OpenArena es un videojuego en 3D Libre, perteneciente al género de acción en primera persona. OpenArena fue lanzado al mercado como la primera prueba de beta el 19 de agosto de 2005, un día después de que el código fuente del motor gráfico de Quake III fuera liberado bajo Licencia GPL.",
   notes: "OpenArena (OpenArena team, 2005) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (baseoa folder).",
   notesEs: "OpenArena (OpenArena team, 2005) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
 };

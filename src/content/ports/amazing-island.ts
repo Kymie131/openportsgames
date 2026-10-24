@@ -7,7 +7,7 @@ export const AmazingIsland: Port = {
   game: "Amazing Island",
   developers: ["EltaleLibrarian"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2004,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const AmazingIsland: Port = {
     alt: "Amazing Island (box art)",
     credit: "Wikipedia",
   },
+  summary: "Amazing Island is a 2004 action-adventure game developed by Ancient and Hitmaker and published by Sega for the GameCube.",
+  summaryEs: "Amazing Island es un videojuego desarrollado por Ancient y Hitmaker y publicado por Sega para GameCube. El juego salió en Japón en enero de 2004 y en Norteamérica en agosto del mismo año.",
   notes: "WIP Amazing Island decompilation.",
   notesEs: "Decompilación de Amazing Island, en desarrollo.",
 };

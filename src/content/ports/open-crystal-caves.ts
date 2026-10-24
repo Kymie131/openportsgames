@@ -20,6 +20,8 @@ export const openCrystalCaves: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
+  summary: "Crystal Caves is a side-scrolling platform game developed and published by Apogee Software for IBM PC compatibles. The game is divided into three episodes with the first distributed as shareware and the other two available for purchase. Designer Frank Maddin said the method worked \"pretty well\" for the time. Crystal Caves was inspired by the 1982 game Miner 2049er for Atari 8-bit computers.",
+  summaryEs: "Crystal Caves es un videojuego de plataformas publicado por Apogee Software en 1991.",
   notes:
     "Unofficial open-source engine reimplementation of Crystal Caves (MS-DOS). It needs your own copy of the game.",
   notesEs:

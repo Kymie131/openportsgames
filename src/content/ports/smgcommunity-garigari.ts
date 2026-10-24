@@ -22,6 +22,8 @@ export const smgcommunityGarigari: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Wii"],
+  summary: "Super Mario Galaxy 2 is a 2010 platform game developed and published by Nintendo for the Wii. It was first announced at E3 2009 and is the sequel to 2007's Super Mario Galaxy. Much like the first game, the story follows Mario as he pursues the Koopa King, Bowser, into outer space, where he has imprisoned Princess Peach and taken control of the universe using Power Stars and Grand Stars. Mario must travel across various galaxies to recover the Power Stars in order to travel to the center of the universe and rescue Princess Peach.",
+  summaryEs: "Super Mario Galaxy 2 es un videojuego de plataformas de 2010 desarrollado y publicado por Nintendo para la Nintendo Wii. Se anunció por primera vez en E3 2009 y es la secuela de Super Mario Galaxy de 2007. Fue lanzado en todo el mundo en 2010. Al igual que el primer juego, la historia sigue a Mario mientras persigue al Rey Koopa, Bowser, en el espacio exterior, donde ha encarcelado a la princesa Peach y ha tomado el control del universo usando las Estrellas de Poder y la Gran Estrella.",
   notes: "Super Mario Galaxy 2: decompilation by SMGCommunity for Windows. Bring your own copy of the game.",
   notesEs: "Super Mario Galaxy 2: decompilación de SMGCommunity para Windows. Aporta tu propia copia del juego.",
 };

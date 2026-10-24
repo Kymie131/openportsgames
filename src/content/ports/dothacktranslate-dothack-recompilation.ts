@@ -22,6 +22,8 @@ export const dothacktranslateDothackRecompilation: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation 2"],
+  summary: ".hack//Infection is a role-playing game published by Bandai in 2002.",
+  summaryEs: ".hack//Infection es un videojuego de rol publicado por Bandai en 2002.",
   notes: ".hack//Infection: static recompilation by dothacktranslate for Windows. Bring your own copy of the game.",
   notesEs: ".hack//Infection: recompilación estática de dothacktranslate para Windows. Aporta tu propia copia del juego.",
 };

@@ -26,6 +26,8 @@ export const isaacRebirthAndroid: Port = {
     alt: "The Binding of Isaac: Rebirth (box art)",
     credit: "Wikipedia",
   },
+  summary: "The Binding of Isaac: Rebirth is a 2014 roguelike action-adventure game designed by Edmund McMillen and developed and published by Nicalis. Rebirth was released for Linux, Microsoft Windows, macOS, PlayStation 4 and PlayStation Vita in November 2014, for Xbox One, New Nintendo 3DS and Wii U in July 2015, for iOS in January 2017, for Nintendo Switch in March 2017, and for PlayStation 5 and Xbox Series X/S in November 2021, and Nintendo Switch 2 in November 2026.",
+  summaryEs: "The Binding of Isaac: Rebirth es un videojuego de acción y aventura roguelike de 2014 diseñado por Edmund McMillen y desarrollado y publicado por Nicalis. Rebirth se lanzó para Linux, Microsoft Windows, macOS, PlayStation 4 y PlayStation Vita en noviembre de 2014; para Xbox One, New Nintendo 3DS y Wii U en julio de 2015; para iOS en enero de 2017; y para Nintendo Switch en marzo de 2017. Las versiones para PlayStation 5 y Xbox Series X/S se lanzaron en noviembre de 2021.",
   notes: "Clean-room C++17 engine for The Binding of Isaac: Rebirth/Repentance that reads your own Steam install at runtime and ships no game assets. Mobile-first (arm64 Android), then Linux x86_64.",
   notesEs: "Motor C++17 de desarrollo limpio para The Binding of Isaac: Rebirth/Repentance que lee tu propia instalación de Steam en tiempo de ejecución y no incluye assets del juego. Primero móvil (Android arm64) y luego Linux x86_64.",
 };

@@ -20,6 +20,8 @@ export const zelda2AdventureOfLinkRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo Entertainment System"],
+  summary: "Zelda II: The Adventure of Link is a 1987 action role-playing game developed and published by Nintendo. It is the second installment in the Legend of Zelda series, and was released in Japan for the Famicom Disk System on January 14, 1987, less than a year after the Japanese release and seven months before the North American release of the original The Legend of Zelda. Zelda II was released in North America and the PAL region for the Nintendo Entertainment System in late 1988, almost two years after its initial release in Japan.",
+  summaryEs: "Zelda II: The Adventure of Link, conocido en Japón como Link no Bouken y a veces llamado The Legend of Zelda 2, es un videojuego publicado en 1987 para la Nintendo Entertainment System y el segundo de la saga de juegos The Legend of Zelda. Fue relanzado para Game Boy Advance en 2004 bajo la colección Classic NES Series y en 2003 para Nintendo Gamecube en el recopilatorio The Legend of Zelda: Collector's Edition.",
   notes:
     "Listed on the PortsDR community index with no public repository. You need your own game files.",
   notesEs:

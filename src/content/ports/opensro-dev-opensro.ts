@@ -22,6 +22,8 @@ export const opensroDevOpensro: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Windows"],
+  summary: "Silkroad Online is a fantasy MMORPG set in the 7th century AD, along the Silk Road between China and Europe. The game requires no periodic subscription fee, but players can purchase premium items to customize or accelerate gameplay.",
+  summaryEs: "Silkroad Online es un MMORPG gratuito lanzado el 21 de febrero de 2006 por la compañía surcoreana Joymax. El juego está basado en gran medida en la histórica Ruta de la Seda y transcurre en las civilizaciones china, islámica, egipcia y europea. A partir del 10 de julio de 2018, Silkroad R pasó a ser parte de Silkroad Online, ya que el primero, solo contaba de un servidor y el mismo carecía de actividad.",
   notes: "Silkroad Online: engine remake by opensro-dev for the browser, Windows. Playable in the browser.",
   notesEs: "Silkroad Online: recreación de motor de opensro-dev para el navegador, Windows. Jugable en el navegador.",
 };

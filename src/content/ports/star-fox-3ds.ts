@@ -25,6 +25,8 @@ export const starFox3ds: Port = {
     alt: "Star Fox (box art)",
     credit: "Box art",
   },
+  summary: "Star Fox, known as Starwing in PAL regions, is a 1993 rail shooter game developed by Nintendo EAD and Argonaut Software, and published by Nintendo for the Super Nintendo Entertainment System (SNES). The first entry in the Star Fox series, the story follows pilot Fox McCloud and his elite squadron of mercenaries known as the Star Fox team defending their homeworld of Corneria against the invading forces of the malevolent mad scientist Andross.",
+  summaryEs: "Star Fox es un videojuego que se lanzó en 1993 para Super Nintendo e inició la saga del mismo nombre. El juego fue publicado como Starwing en Europa. Se caracteriza por ser unos de los mejores del género de disparos en naves espaciales, mostraba gráficos en tres dimensiones gracias a un chip especial llamado Super FX incluido en el cartucho de juego, llegando a vender 4 millones de copias en todo el mundo. Fue programado por el equipo inglés Argonaut Software para Nintendo.",
   notes: "Star Fox (Nintendo, 1993) running on Nintendo 3DS through source port. Latest release: v1.0. You need your own copy of the game.",
   notesEs: "Star Fox (Nintendo, 1993) en Nintendo 3DS mediante port de código. Última release: v1.0. Necesitas tu propia copia del juego.",
 };

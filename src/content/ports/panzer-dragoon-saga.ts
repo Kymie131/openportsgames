@@ -7,7 +7,7 @@ export const PanzerDragoonSaga: Port = {
   game: "Panzer Dragoon Saga",
   developers: ["yaz0r"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 1998,
   portType: "reimplementation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const PanzerDragoonSaga: Port = {
     alt: "Panzer Dragoon Saga (box art)",
     credit: "Wikipedia",
   },
+  summary: "Panzer Dragoon Saga, known in Japan as Azel: Panzer Dragoon RPG, is a 1998 role-playing video game developed by Team Andromeda and published by Sega for the Sega Saturn. It replaces the rail shooter gameplay of previous Panzer Dragoon games with RPG elements such as random encounters, semi-turn-based battles and free-roaming exploration. The player controls Edge, a young mercenary who rides a dragon and encounters a mysterious girl from a vanished civilization.",
+  summaryEs: "Panzer Dragoon Saga es un videojuego de acción y aventura en 1998.",
   notes: "Reverse engineering of Panzer Dragoon Saga.",
   notesEs: "Ingeniería inversa de Panzer Dragoon Saga.",
 };

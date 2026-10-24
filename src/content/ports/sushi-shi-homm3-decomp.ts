@@ -27,6 +27,8 @@ export const sushiShiHomm3Decomp: Port = {
     alt: "Heroes of Might and Magic III (box art)",
     credit: "Wikipedia",
   },
+  summary: "This is the original version of the game from 1999. The pack includes the original Heroes of Might and Magic III and its two expansions: Armageddon's Blade and The Shadow of Death.",
+  summaryEs: "Heroes of Might and Magic III es un videojuego de estrategia publicado por Ubisoft en 2026.",
   notes: "Heroes of Might and Magic III: decompilation by sushi-shi for Windows. Bring your own copy of the game.",
   notesEs: "Heroes of Might and Magic III: decompilación de sushi-shi para Windows. Aporta tu propia copia del juego.",
 };

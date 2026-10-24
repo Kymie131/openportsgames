@@ -22,6 +22,8 @@ export const p9933faZumaDeluxeTas: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Deep in the jungle lie hidden temples bursting with traps and trickery, and it's up to you to uncover their treasures. Fire magical balls from your stone frog idol to make matches of three or more and clear the deadly chain before it reaches the golden skull.",
+  summaryEs: "Zuma Deluxe es un videojuego de puzles publicado por PopCap Games, Inc. en 2006.",
   notes: "Zuma Deluxe: decompilation by 9933fa for Windows. Bring your own copy of the game.",
   notesEs: "Zuma Deluxe: decompilación de 9933fa para Windows. Aporta tu propia copia del juego.",
   cover: {

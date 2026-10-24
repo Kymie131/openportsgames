@@ -6,7 +6,7 @@ export const Ssx: Port = {
   title: "SSX",
   game: "SSX",
   developers: ["ssxdecomp"],
-  publisher: "Unknown",
+  publisher: "Electronic Arts Victor",
   originalYear: 2000,
   portType: "decompilation",
   genre: "action-adventure",
@@ -20,6 +20,8 @@ export const Ssx: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "SSX is a 2000 snowboarding video game developed by EA Canada and published by Electronic Arts as a launch title for the PlayStation 2. It is the first game in the SSX series, as well as the first title released under the EA Sports BIG publishing label, which specialized in extreme sports titles with an arcade feel.",
+  summaryEs: "SSX es el primer videojuego de la saga de videojuegos homónima de snowboarding publicados por EA Sports BIG. Fue desarrollado por EA Canada y lanzado junto con el lanzamiento exclusivo de PlayStation 2 en octubre del 2000.",
   notes: "Decompilation of SSX (2000).",
   notesEs: "Decompilación de SSX (2000).",
 };

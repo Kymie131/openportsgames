@@ -20,6 +20,8 @@ export const bombermanWorldRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  summary: "Bomberman World is a maze action video game developed and published by Hudson Soft for the PlayStation. It is part of the Bomberman series. The game was also re-released for PCs in 2002 alongside the TurboGrafx-16 version of Bomberman and Bomberman '93 as part of a compilation disc titled Bomberman Collection.",
+  summaryEs: "Bomberman World es un videojuego de acción y laberintos lanzado en 1998 por Hudson Soft para la PlayStation. Es parte de la serie Bomberman. El juego también ha sido relanzado para PC en 2002 junto con la versión de Bomberman de TurboGrafx-16 y Bomberman '93 como parte de un disco recopilatorio titulado Bomberman Collection.",
   notes: "Indexed by PortsDR. No official repository is available, and it needs your own copy.",
   notesEs: "Indexado en PortsDR. No hay repositorio oficial disponible y necesita tu propia copia.",
   cover: {

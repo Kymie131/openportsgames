@@ -20,6 +20,8 @@ export const battletanxGlobalAssaultRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  summary: "BattleTanx: Global Assault is an action game developed and published by The 3DO Company for the Nintendo 64 and PlayStation, in which players control futuristic tanks in a post-apocalyptic scenario. It is a sequel to the Nintendo 64 game BattleTanx, which utilized the same method of game play. Although it earned relatively positive reviews from critics, 3DO went bankrupt before another sequel could be released.",
+  summaryEs: "BattleTanx: Global Assault es un videojuego de acción y aventura publicado por The 3DO Company en 1999.",
   notes:
     "Native recompilation of BattleTanx: Global Assault (Nintendo 64) with N64Recomp and RT64, in super-beta state for Windows and Linux. An Android build is planned. It needs the player's own legally obtained game dump.",
   notesEs:

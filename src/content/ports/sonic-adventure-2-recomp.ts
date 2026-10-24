@@ -26,6 +26,8 @@ export const sonicAdventure2Recomp: Port = {
     alt: "Sonic Adventure 2 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Sonic Adventure 2 is a 2001 platform game developed by Sonic Team USA and published by Sega for the Dreamcast. It features two good-vs-evil stories: Sonic the Hedgehog, Miles \"Tails\" Prower, and Knuckles the Echidna attempt to save the world, while Shadow the Hedgehog, Doctor Eggman, and Rouge the Bat attempt to conquer it. The stories are divided into three gameplay styles: fast-paced platforming for Sonic and Shadow, third-person shooting for Tails and Eggman, and exploration-based treasure hunting for Knuckles and Rouge.",
+  summaryEs: "Sonic Adventure 2 es un videojuego de la saga Sonic the Hedgehog, desarrollado por Sonic Team. Es el tercer y último título de la franquicia lanzado para la consola Dreamcast de Sega, siendo el último juego de Sonic publicado en una consola Sega tras sus predecesores Sonic Adventure y Sonic Shuffle. Tiempo después, fue adaptado para la Nintendo GameCube bajo el título Sonic Adventure 2: Battle con ligeras modificaciones y mejoras.",
   notes: "OpenSA2: native port of Sonic Adventure 2 by static recompilation for Linux, Windows and Android. Experimental source preview, no playable release yet.",
   notesEs: "OpenSA2: port nativo de Sonic Adventure 2 por recompilación estática para Linux, Windows y Android. Avance de código experimental, sin release jugable todavía.",
 };

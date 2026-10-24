@@ -25,6 +25,8 @@ export const pspRecompMsae: Port = {
     alt: "MotorStorm: Arctic Edge (box art)",
     credit: "Wikipedia",
   },
+  summary: "MotorStorm: Arctic Edge is a 2009 racing video game developed by Bigbig Studios and published by Sony Computer Entertainment for the PlayStation Portable. A port developed by Virtuos for the PlayStation 2 was released the same year. It is the third game in the MotorStorm series and the only one to not be released on the PlayStation 3.",
+  summaryEs: "MotorStorm: Arctic Edge es el tercer juego de la serie de videojuegos MotorStorm, desarrollado por Bigbig Studios y publicado por Sony Computer Entertainment para PlayStation Portable y PlayStation 2, que se lanzó en 2009.",
   notes: "MotorStorm: Arctic Edge (Sony Computer Entertainment, 2009) for Android (static recompilation). Latest release: v0.2.0. Needs your own copy of the game.",
   notesEs: "MotorStorm: Arctic Edge (Sony Computer Entertainment, 2009) para Android (recompilación estática). Última release: v0.2.0. Necesita tu propia copia del juego.",
 };

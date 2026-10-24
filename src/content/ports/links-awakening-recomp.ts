@@ -19,6 +19,8 @@ export const linksAwakeningRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Game Boy","Game Boy Color"],
+  summary: "The Legend of Zelda: Link's Awakening DX is a 1998 action-adventure game developed and published by Nintendo for the Game Boy Color. The game is a colorized version of the 1993 Game Boy title The Legend of Zelda: Link's Awakening, in which protagonist Link must fight monsters, explore dungeons and solve puzzles to escape from Koholint Island. The DX version of Link's Awakening features gameplay additions including a color-themed dungeon and support for the Game Boy Printer.",
+  summaryEs: "The Legend of Zelda: Link's Awakening DX es un videojuego de acción y aventura publicado por Nintendo en 1998.",
   notes:
     "Static recompilation of The Legend of Zelda: Link's Awakening DX to a native app, with portable builds for PS4, PS3 and 3DS alongside Windows. The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

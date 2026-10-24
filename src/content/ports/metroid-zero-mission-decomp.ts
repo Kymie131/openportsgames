@@ -25,6 +25,8 @@ export const metroidZeroMissionDecomp: Port = {
     alt: "Metroid: Zero Mission (box art)",
     credit: "Wikipedia",
   },
+  summary: "Metroid: Zero Mission is a 2004 action-adventure game developed and published by Nintendo for the Game Boy Advance. It is a remake of the original Metroid (1986), with updated visuals and gameplay.",
+  summaryEs: "Metroid: Zero Mission es un videojuego de acción-aventura de 2004 de la serie Metroid, desarrollado por la filial Nintendo Research & Development 1 y publicado por Nintendo para la consola Game Boy Advance. Fue lanzado en Estados Unidos el 9 de febrero de 2004, mientras que en Europa llegó el 8 de abril de 2004, y en Japón se estrenó el 27 de mayo del mismo año.",
   notes: "Matching decompilation of Metroid: Zero Mission (Game Boy Advance, 2004) with 99.89% of functions decompiled. No playable download: it builds the ROM from your own copy.",
   notesEs: "Decompilación matching de Metroid: Zero Mission (Game Boy Advance, 2004) con el 99,89 % de las funciones decompiladas. Sin descarga jugable: compila la ROM desde tu propia copia.",
 };

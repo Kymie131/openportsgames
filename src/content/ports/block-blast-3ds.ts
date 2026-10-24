@@ -20,6 +20,8 @@ export const blockBlast3ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Other"],
+  summary: "Block Blast! is a puzzle game launched on April 3, 2022 for iOS, and September 23, 2022 for Android, It is available for iPad, Android, and iPhone devices. It is a game where users have to combine colored blocks. Designed with numerous levels, the puzzle game usually leads the charts in terms of downloads. As of January 2026, it was the world's most downloaded game. By March of the same year, its MAUs had reached 300 million. It comes in Classic and Adventure Master modes.",
+  summaryEs: "Block Blast! es un videojuego de puzles en 2022.",
   notes: "Block Blast! (Hungry Studio, 2022) running on Nintendo 3DS through source port. Latest release: V1.3. You need your own copy of the game.",
   notesEs: "Block Blast! (Hungry Studio, 2022) en Nintendo 3DS mediante port de código. Última release: V1.3. Necesitas tu propia copia del juego.",
 };

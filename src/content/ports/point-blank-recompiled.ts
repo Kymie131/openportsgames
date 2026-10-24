@@ -20,6 +20,8 @@ export const pointBlankRecompiled: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  summary: "Point Blank is a first-person shooter video game developed by the South Korean company Zepetto for Microsoft Windows.",
+  summaryEs: "Point Blank es un videojuego de disparos publicado por NC en 2010.",
   notes: "Native PC port of Namco's Point Blank (PlayStation, 1994) by static recompilation with PSXRecomp: aim with the mouse or a controller, no light gun needed. Bring your own disc. Latest release: v1.1.0.",
   notesEs: "Port nativo a PC de Point Blank de Namco (PlayStation, 1994) mediante recompilación estática con PSXRecomp: apunta con el ratón o un mando, sin pistola de luz. Aporta tu propio disco. Última release: v1.1.0.",
 };

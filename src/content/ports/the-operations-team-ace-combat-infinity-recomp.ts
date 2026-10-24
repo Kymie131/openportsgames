@@ -21,6 +21,8 @@ export const theOperationsTeamAceCombatInfinityRecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation 3"],
+  summary: "Ace Combat Infinity is a 2014 combat flight simulation video game developed by Project Aces and published by Bandai Namco Games for the PlayStation 3. It is the sixteenth title in the Ace Combat series, and was released worldwide in May 2014. It is the first partially free-to-play title in the series, and unlike most games in the series, Infinity takes place on Earth. Still, it includes certain elements from past Ace Combat games, namely historical events, organizations, superweapons and original aircraft.",
+  summaryEs: "Ace Combat Infinity es un videojuego de acción y aventura publicado por Bandai Namco Entertainment en 2014.",
   notes: "Ace Combat Infinity: static recompilation by The-OPERATIONS-Team for Windows. Bring your own copy of the game.",
   notesEs: "Ace Combat Infinity: recompilación estática de The-OPERATIONS-Team para Windows. Aporta tu propia copia del juego.",
 };

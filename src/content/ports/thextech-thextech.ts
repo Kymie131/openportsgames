@@ -21,6 +21,8 @@ export const thextechThextech: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Windows"],
+  summary: "Super Mario Bros. X is a platform game in 2009.",
+  summaryEs: "Super Mario Bros. X es un videojuego de plataformas en 2009.",
   notes: "Super Mario Bros. X: source port by TheXTech for Windows. Bring your own copy of the game.",
   notesEs: "Super Mario Bros. X: source port de TheXTech para Windows. Aporta tu propia copia del juego.",
 };

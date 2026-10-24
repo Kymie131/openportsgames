@@ -21,6 +21,8 @@ export const stradamaPonPc: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Rockman EXE Phantom of Network is a 2004 video game in the Mega Man Battle Network series for mobile phones developed by Capcom. The game was only released and made available in Japan. It is most well known for featuring five original characters that did not appear in any other video games: the magician Mr. Hat with his NetNavi HatMan and son Shuichi Ubochi , as well as the NetNavis JammingMan and Cache. All of these characters, however, appeared in the Rockman EXE anime series. The game was followed by a 2006 Japan-exclusive sequel for mobile phones entitled Rockman EXE Legend of Network.",
+  summaryEs: "Rockman EXE Phantom of Network es un videojuego de rol publicado por Capcom en 2004.",
   notes: "Rockman EXE Phantom of Network: source port by StraDaMa for Windows. Bring your own copy of the game.",
   notesEs: "Rockman EXE Phantom of Network: source port de StraDaMa para Windows. Aporta tu propia copia del juego.",
 };

@@ -21,6 +21,8 @@ export const massEffectNx: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["Xbox 360"],
+  summary: "Mass Effect is a military science fiction media franchise created by Casey Hudson. The franchise depicts a distant future where humanity and several alien civilizations have colonized the galaxy using technology left behind by advanced precursor civilizations.",
+  summaryEs: "Mass Effect era una franquicia de medios de ciencia ficción militar creada por Casey Hudson. La franquicia representa un futuro lejano donde la humanidad y varias civilizaciones alienígenas han colonizado la Vía Láctea utilizando tecnología dejada por las civilizaciones precursoras avanzadas.",
   notes: "Static recompilation of the first Mass Effect from the Xbox 360 release, running the original binaries natively on Windows. No game data included.",
   notesEs: "Recompilación estática del primer Mass Effect desde la versión de Xbox 360, ejecutando los binarios originales de forma nativa en Windows. No incluye archivos del juego.",
 };

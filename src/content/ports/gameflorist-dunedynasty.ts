@@ -21,6 +21,8 @@ export const gamefloristDunedynasty: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Dune II: The Building of a Dynasty is a 1992 real-time strategy game developed by Westwood Studios and published by Virgin Games. It serves as the sequel to Dune, which came out earlier that same year.",
+  summaryEs: "Dune II: The Building of a Dynasty es un juego de estrategia en tiempo real desarrollado por Westwood Studios y publicado por Virgin Games en diciembre de 1992. Está basado en la película de David Lynch de 1984 Dune, una adaptación de la novela de ciencia ficción del mismo nombre escrita por Frank Herbert.",
   notes: "Dune II: source port by gameflorist for Windows. Bring your own copy of the game.",
   notesEs: "Dune II: source port de gameflorist para Windows. Aporta tu propia copia del juego.",
 };

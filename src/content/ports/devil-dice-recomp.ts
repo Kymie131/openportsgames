@@ -19,6 +19,8 @@ export const devilDiceRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Devil Dice, known in Japan as XI, pronounced [sai], is a puzzle video game developed by Shift and published by Sony Computer Entertainment for the PlayStation. It was released in Japan in 1998 and Europe in 1999, and by THQ in North America in 1998. The game is a million-seller and a demo version was released as a PlayStation Classic game for the PlayStation 3 and PlayStation Portable (PSP) on 7 November 2007.",
+  summaryEs: "Devil Dice es un videojuego de puzles publicado por Sony Interactive Entertainment en 1998.",
   notes:
     "Recompilation of Devil Dice (PS1, Europe SCES-01312) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

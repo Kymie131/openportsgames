@@ -19,6 +19,8 @@ export const incredibleCrisisRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Incredible Crisis, known in Japan as Tondemo Crisis! , is a PlayStation video game developed by Polygon Magic. The game was published in Japan by Tokuma Shoten on June 24, 1999. Translated versions were released by Titus Interactive in North America and Europe throughout November 2000.",
+  summaryEs: "Incredible Crisis es un videojuego de acción y aventura publicado por Tokuma Shoten en 1999.",
   notes:
     "Recompilation of Incredible Crisis (PS1, USA SLUS-01225) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

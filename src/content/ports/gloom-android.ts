@@ -19,6 +19,8 @@ export const gloomAndroid: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["MS-DOS","Amiga"],
+  summary: "Gloom is a 1995 computer game for the Amiga computer. Gloom was the first commercially released Amiga clone of first-person shooter Doom.",
+  summaryEs: "Gloom es un videojuego de disparos publicado por Idigicon Limited en 1995.",
   notes:
     "Modern source port of the Amiga FPS Gloom with an improved renderer, focused on Android. It needs the original game data.",
   notesEs:

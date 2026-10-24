@@ -20,6 +20,8 @@ export const tekkenPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  summary: "Tekken (鉄拳) is a 1994 fighting game developed and published by Namco. It was originally released on arcades, then ported to the PlayStation home console in 1995. One of the earliest 3D polygon-based games of the genre, Tekken was Namco's answer to Virtua Fighter and was designed by Seiichi Ishii, who himself was also the game's designer when he worked at Sega previously. The game was developed on the purpose-built low-cost System 11 board, based on PlayStation hardware.",
+  summaryEs: "Tekken es un videojuego de lucha del año 1994 desarrollado y distribuido por Namco para correr en máquinas recreativas. Luego, en 1995, se publicó una versión para la PlayStation original de Sony. Tekken fue uno de los primeros videojuegos de lucha en estar hechos enteramente en gráficos tridimensionales poligonales, y fue creado por Namco para competir contra el entonces célebre Virtua Fighter de su otrora rival, Sega. Fue diseñado por Seiichi Ishii, el mismo programador que diseñó a Virtua Fighter cuando trabajaba en Sega dos años antes.",
   notes: "Tekken (Namco, 1994) running on Windows through static recompilation. Latest release: v2.1. You need your own copy of the game.",
   notesEs: "Tekken (Namco, 1994) en Windows mediante recompilación estática. Última release: v2.1. Necesitas tu propia copia del juego.",
 };

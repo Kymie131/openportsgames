@@ -19,6 +19,8 @@ export const valkyrieProfileRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Valkyrie Profile or Valkyrie is a series of role-playing video games created by Masaki Norimoto and Yoshiharu Gotanda, primarily developed by tri-Ace and published by Square Enix. The series is notable for featuring elements from Norse mythology.",
+  summaryEs: "Valkyrie Profile es un videojuego de rol.",
   notes:
     "Recompilation of Valkyrie Profile (PS1, USA SLUS-01156) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

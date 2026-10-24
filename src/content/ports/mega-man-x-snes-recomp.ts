@@ -32,6 +32,8 @@ export const megaManXSnesRecomp: Port = {
     "El lanzador puede reabrirse a mitad de partida con Ctrl+L o Select+L3",
     "Ajustes predefinidos de shaders de SNES compartidos y geometría con aspect ratio de píxel, guardados al cerrar",
   ],
+  summary: "Mega Man X is a 1993 platform game developed and published by Capcom for the Super Nintendo Entertainment System. It was the first Mega Man game for the 16-bit console and the first game in the Mega Man X series, a spin-off of the original Mega Man series that began on the Super NES's predecessor, the Nintendo Entertainment System. The game takes place a century after the original Mega Man series, and is set in a futuristic world populated by both humans and \"Reploids\", robots capable of thinking, feeling, and growing like their human creators.",
+  summaryEs: "Mega Man X, conocido como Rockman X en Japón, es un videojuego desarrollado en 1993 por Capcom, es el primer videojuego de la serie Mega Man X. Mega Man X es la primera subsaga de Mega Man, y fue creada principalmente como el escalón para progresar desde los videojuegos de Mega Man de la NES a los de la Super Nintendo.",
   notes:
     "Mega Man X recompiled for the Super Nintendo with snesrecomp; the player supplies their own legally obtained game.",
   notesEs:

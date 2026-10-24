@@ -25,6 +25,8 @@ export const mcdonaldSTreasureLandAdventurePc: Port = {
     alt: "McDonald's Treasure Land Adventure (box art)",
     credit: "Wikipedia",
   },
+  summary: "McDonald's Treasure Land Adventure is a 1993 platform game developed by Treasure and published by Sega for the Sega Genesis. Based on the McDonald's fast food restaurant chain, specifically its McDonaldland marketing campaign, players control Ronald McDonald in his efforts to retrieve the missing pieces of a map that lead to the location of a buried treasure from a group of villains. Ronald can defeat enemies by using a magic attack and can latch onto hooks with his scarf to reach higher platforms.",
+  summaryEs: "McDonald's Treasure Land Adventure es un videojuego de plataformas desarrollado por Treasure y publicado por Sega para la Mega Drive. Basado en la cadena de restaurantes de comida rápida McDonald's, concretamente en su campaña de mercadotecnia McDonaldland, los jugadores controlan a Ronald McDonald en su intento por recuperar de un grupo de villanos las piezas perdidas de un mapa que conducen a la ubicación de un tesoro enterrado. Puede derrotar a los enemigos al utilizar un ataque mágico y logra engancharse a ganchos con su bufanda para alcanzar plataformas más altas.",
   notes: "McDonald's Treasure Land Adventure (Sega, 1993) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "McDonald's Treasure Land Adventure (Sega, 1993) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

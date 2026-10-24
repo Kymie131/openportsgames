@@ -20,6 +20,8 @@ export const fable2Recomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  summary: "Fable II is a 2008 action role-playing video game developed by Lionhead Studios and published by Microsoft Game Studios for Xbox 360. The game is the second installment in the Fable game series, and the sequel to 2004's Fable. The story takes place within the fictional land of Albion, 500 years after the first game. Players assume the role of a young hero who is destined to stop a former ruler turned madman from destroying the world. The game features several prominent actors portraying major characters in the game, including Zoë Wanamaker, Ron Glass and Stephen Fry.",
+  summaryEs: "Fable II es un videojuego de rol de acción para la videoconsola Xbox 360, lanzado el 21 de octubre del 2008 y desarrollado por Lionhead Studios y publicado por Microsoft Game Studios. Se trata de una secuela a Fable (Xbox) y Fable: The Lost Chapters (PC).",
   notes:
     "Recompilation of Fable II (Xbox 360) with the ReXGlue SDK. An optional Windows launcher sets resolution, internal render scale, filtering, VSync and the FPS cap (30/60/120 and uncapped), with keyboard and mouse. A second recompilation project exists in parallel.",
   notesEs:

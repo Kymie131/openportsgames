@@ -7,7 +7,7 @@ export const FlappyBird: Port = {
   game: "Flappy Bird",
   developers: ["fr3dsp"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2013,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -20,6 +20,8 @@ export const FlappyBird: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Flappy Bird is a 2013 casual mobile game developed by Vietnamese video game artist and programmer Dong Nguyen, under his game development company .Gears. The game is a side-scroller where the player controls a bird, Faby, attempting to fly between columns of green pipes without hitting them. The player's score is determined by the number of pipes they fly through. Nguyen created the game over a period of several days, using the bird from a cancelled game made in 2012.",
+  summaryEs: "Flappy Bird fue un juego para móviles desarrollado en Vietnam por el programador vietnamita Dong Nguyeny. Publicado por .GEARS Studios, un pequeño desarrollador de juegos independiente, con sede en Vietnam. El juego fue publicado el 24 de mayo de 2013, y fue eliminado de App Store y Google Play por su creador el 9 de febrero de 2014.",
   notes: "A Flappy Bird Windows Phone Decompilation.",
   notesEs: "Decompilación de Flappy Bird para Windows Phone.",
 };

@@ -19,6 +19,8 @@ export const mortalKombatTrilogyRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Mortal Kombat Trilogy is a 1996 fighting game released by Midway as the second and final update to Mortal Kombat 3 for the PlayStation, Nintendo 64, Sega Saturn and PCs. Further versions were also released for the Game.com and R-Zone. It features a similar basic gameplay system and the same story as Ultimate Mortal Kombat 3, but adds characters and stages restored from Mortal Kombat and Mortal Kombat II. New additions to the game included the \"Aggressor\" bar and the Brutality mechanic. The game was met with mixed to positive reviews upon release.",
+  summaryEs: "Mortal Kombat Trilogy (MKT) es el quinto videojuego de la serie de videojuegos de lucha Mortal Kombat, la segunda actualización de la tercera entrega, publicado por Midway Games en 1996 inicialmente para Nintendo 64, y, tras negociaciones, fue publicado también para PlayStation, Sega Saturn y PC.",
   notes:
     "Recompilation of Mortal Kombat Trilogy (PS1, USA SLUS-00330) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

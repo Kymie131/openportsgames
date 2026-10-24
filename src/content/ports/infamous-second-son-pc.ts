@@ -25,6 +25,8 @@ export const infamousSecondSonPc: Port = {
     alt: "inFAMOUS Second Son (box art)",
     credit: "Wikipedia",
   },
+  summary: "Infamous Second Son is a 2014 action-adventure video game developed by Sucker Punch Productions and published by Sony Computer Entertainment for the PlayStation 4. The third installment in the Infamous series, it serves as a standalone sequel to 2011's Infamous 2. The player-controlled protagonist possesses superpower abilities that players use in combat and when traveling across the city. The story follows protagonist Delsin Rowe fighting the Department of Unified Protection (D.U.P.) in a fictionalized Seattle.",
+  summaryEs: "Infamous Second Son es un videojuego de acción-aventura hack & slash de mundo abierto desarrollado por Sucker Punch Productions y publicado por Sony Computer Entertainment. La secuela independiente de inFAMOUS 2 de 2011 y la tercera entrega de la serie inFAMOUS, el juego fue lanzado para PlayStation 4 el 21 de marzo de 2014. El protagonista controlado por el jugador posee habilidades de superpoderes que los jugadores usan en combate y cuando viajan por la ciudad.",
   notes: "inFAMOUS Second Son (Sucker Punch Productions, 2014) running on Windows through runtime layer. Latest release: v2026.10.19-d3995fe. You need your own copy of the game.",
   notesEs: "inFAMOUS Second Son (Sucker Punch Productions, 2014) en Windows mediante capa de ejecución. Última release: v2026.10.19-d3995fe. Necesitas tu propia copia del juego.",
 };

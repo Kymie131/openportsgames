@@ -25,6 +25,8 @@ export const littleBigAdventureDs: Port = {
     alt: "Little Big Adventure (box art)",
     credit: "Wikipedia",
   },
+  summary: "Little Big Adventure is a retro action-adventure game originally released in 1994. Equipped with your Magicball, you will have to face the evil Dr. Funfrock to save your girlfriend and the world of Twinsun.",
+  summaryEs: "Little Big Adventure es un videojuego de acción y aventura publicado por [2.21] en 2015.",
   notes: "Little Big Adventure (Electronic Arts, 1994) running on Nintendo DS through source port. You need your own copy of the game.",
   notesEs: "Little Big Adventure (Electronic Arts, 1994) en Nintendo DS mediante port de código. Necesitas tu propia copia del juego.",
 };

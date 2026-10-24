@@ -19,6 +19,8 @@ export const sdlpal: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   originalSystems: ["MS-DOS"],
+  summary: "The Legend of Sword and Fairy, also known colloquially as Sword and Fairy 1 (仙劍一), is a fantasy adventure role-playing video game developed by the Taiwanese game company Softstar Entertainment, incorporating elements of wuxia, shenmo and xianxia and heavy inspirations from traditional Chinese mythology. Initially released in 1995 for the MS-DOS platform, the game was later re-released for Windows 95 in 1997, for Sega Saturn in 1999, and as a re-rendered version for Windows 98/Windows XP in 2001.",
+  summaryEs: "The Legend of Sword and Fairy es un videojuego de rol en 1995.",
   notes:
     "SDL-based reimplementation of the Chinese RPG PAL (The Legend of Sword and Fairy). It runs the original data files on modern systems, with builds for Windows, Linux, macOS and Android.",
   notesEs:

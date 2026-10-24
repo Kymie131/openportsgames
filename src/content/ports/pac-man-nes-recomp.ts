@@ -19,6 +19,8 @@ export const pacManNesRecomp: Port = {
   license: { spdx: "MIT" },
   verified: false,
   originalSystems: ["Nintendo Entertainment System"],
+  summary: "Pac-Man is a 1982 maze video game developed and published by Atari, Inc. for the Atari 2600 as a port of Namco's 1980 arcade game of the same name. The player controls the title character, who attempts to eat all of the wafers in a maze while avoiding four ghosts that pursue him. Eating flashing wafers at the corners of the screen causes the ghosts to temporarily turn blue and flee, allowing Pac-Man to eat them for bonus points. Once eaten, a ghost is reduced to a pair of eyes, which return to the center of the maze to be restored.",
+  summaryEs: "En 1982, Atari Inc. lanzó una conversión de Pac-Man, el éxito de arcade perteneciente a Namco para su Atari 2600. Como en la versión original, el jugador controla al personaje principal con un joystick. El objetivo consiste en atravesar un laberinto comiendo todos los puntos que se encuentran en él mientras se evita a cuatro fantasmas.",
   notes:
     "Native recompilation of Pac-Man (Nintendo Entertainment System). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

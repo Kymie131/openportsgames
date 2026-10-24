@@ -20,6 +20,8 @@ export const fateUnlimitedCodesRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation Portable"],
+  summary: "Fate/Unlimited Codes is a fighting game developed by Eighting and published by Capcom. It was first released on June 11, 2008 for the Namco System 246 arcade system in Japan, later receiving a port to the PlayStation 2 in December 2008. An enhanced port for the PlayStation Portable would be released on June 18, 2009 in Japan. The game was subsequently localized and released digitally for the PlayStation Store in North America and Europe in September 2009, and later delisted in May 2012.",
+  summaryEs: "Fate/Unlimited Codes es un videojuego de lucha publicado por Capcom en 2008.",
   notes:
     "Hybrid native project for Fate/Unlimited Codes that combines a PSP static recompilation of the gameplay with PS2 assets and controls, still in development. It ships no game files and needs your own copy.",
   notesEs:

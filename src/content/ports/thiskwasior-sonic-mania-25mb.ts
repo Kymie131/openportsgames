@@ -22,6 +22,8 @@ export const thiskwasiorSonicMania25mb: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Sonic Mania is a 2017 platform game developed by Christian Whitehead, PagodaWest Games and Headcannon and published by Sega. Produced in commemoration of the Sonic the Hedgehog series' 25th anniversary, Sonic Mania pays homage to the original Sega Genesis Sonic games, featuring speedy side-scrolling gameplay. It takes place over 13 levels, including several redesigned from past games. The story follows Sonic, Tails and Knuckles as they venture to defeat Doctor Eggman and his robotic henchmen, the Hard-Boiled Heavies.",
+  summaryEs: "Sonic Mania es un videojuego de plataformas en 2D desarrollado por Christian Whitehead, Headcannon y PagodaWest Games, supervisado por Sonic Team y publicado por Sega para Nintendo Switch, PlayStation 4, Xbox One, Windows (Steam) y para Android e iOS posteriormente.",
   notes: "Sonic Mania: decompilation by ThisKwasior for Windows. Bring your own copy of the game.",
   notesEs: "Sonic Mania: decompilación de ThisKwasior para Windows. Aporta tu propia copia del juego.",
   cover: {

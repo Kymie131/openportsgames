@@ -25,6 +25,8 @@ export const rechan: Port = {
     alt: "Jackie Chan: Stuntmaster (box art)",
     credit: "Wikipedia",
   },
+  summary: "Jackie Chan Stuntmaster is a 2000 beat 'em up platform video game developed by Radical Entertainment for the PlayStation. Midway Games released it in North America while Sony Computer Entertainment released it in Europe.",
+  summaryEs: "Jackie Chan Stuntmaster es un juego de peleas beat em'up para PlayStation basado en el actor y artista marcial Jackie Chan.",
   notes: "Jackie Chan: Stuntmaster (Sony Computer Entertainment, 2000) for Android (source port). Latest release: build-44. Needs your own copy of the game.",
   notesEs: "Jackie Chan: Stuntmaster (Sony Computer Entertainment, 2000) para Android (port de código). Última release: build-44. Necesita tu propia copia del juego.",
 };

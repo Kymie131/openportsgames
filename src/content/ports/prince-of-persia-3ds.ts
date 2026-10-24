@@ -25,6 +25,8 @@ export const princeOfPersia3ds: Port = {
     alt: "Prince of Persia (box art)",
     credit: "Box art",
   },
+  summary: "Prince of Persia is a 2008 action-adventure game developed by Ubisoft Montreal and published by Ubisoft. It is the seventh main installment in the Prince of Persia franchise, and the second reboot, establishing a new continuity that is separate from other games in the series. It was released in the United States on December 2, 2008, for PlayStation 3 and Xbox 360, and on December 9 for Windows. It was released on March 24, 2009, for Mac OS X via the Cider engine.",
+  summaryEs: "Prince of Persia es un videojuego de acción-aventura y plataformas desarrollado por Ubisoft Montreal y publicado por Ubisoft. Fue lanzado el 2 de diciembre de 2008 para PlayStation 3 y Xbox 360, mientras que la versión para Microsoft Windows se estrenó el 9 de diciembre de 2008.",
   notes: "Prince of Persia (Broderbund, 1989) running on Nintendo 3DS through source port. Latest release: v1.1. You need your own copy of the game.",
   notesEs: "Prince of Persia (Broderbund, 1989) en Nintendo 3DS mediante port de código. Última release: v1.1. Necesitas tu propia copia del juego.",
 };

@@ -19,6 +19,8 @@ export const colonyWarsRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Colony Wars is a 1997 space combat simulation video game developed and published by Psygnosis for the PlayStation. Players complete space combat missions using preselected starfighters equipped with various weapons. The game features multiple paths of missions and outcomes, depending on the player's performance. It was followed by Colony Wars: Vengeance in 1998, and Colony Wars: Red Sun in 2000.",
+  summaryEs: "Colony Wars es un videojuego de disparos publicado por Artdink en 1997.",
   notes:
     "Recompilation of Colony Wars (PS1, USA SLUS-00543 / SLUS-00554) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

@@ -22,6 +22,8 @@ export const opencoduoCoduomp: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Call of Duty: United Offensive is an expansion pack for the first-person shooter video game Call of Duty. It was developed by Gray Matter Studios, with contributions from Pi Studios, and published by Activision. It was released for Microsoft Windows on September 14, 2004, and for Mac OS X on November 22, 2004.",
+  summaryEs: "Call of Duty: United Offensive es un pack de expansión para el famoso juego FPS Call of Duty. Ha sido desarrollado por Gray Matter Interactive, con contribuciones de Pi Studios, y distribuido por Activision. Fue lanzado para Microsoft Windows el 14 de septiembre de 2004.",
   notes: "Call of Duty: United Offensive: decompilation by opencoduo for Windows. Bring your own copy of the game.",
   notesEs: "Call of Duty: United Offensive: decompilación de opencoduo para Windows. Aporta tu propia copia del juego.",
 };

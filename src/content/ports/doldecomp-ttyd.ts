@@ -22,6 +22,8 @@ export const doldecompTtyd: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo GameCube"],
+  summary: "Paper Mario: The Thousand-Year Door is a 2004 role-playing video game developed by Intelligent Systems and published by Nintendo for the GameCube. The Thousand-Year Door is the second game in the Paper Mario series following Paper Mario, and is part of the larger Mario franchise. In the game, when Mario and Princess Peach get involved in the search for a mystic treasure that holds great fortune, Peach is kidnapped by an alien group called the X-Nauts; Mario sets out to find the treasure and save the princess.",
+  summaryEs: "Paper Mario: The Thousand-Year Door es un juego del género RPG desarrollado por la compañía Intelligent Systems y publicado por Nintendo para Nintendo GameCube. The Thousand-Year Door es el cuarto juego dentro de la serie de Mario RPG y el segundo de la serie Paper Mario.",
   notes: "Paper Mario: The Thousand-Year Door: decompilation by doldecomp for Windows. Bring your own copy of the game.",
   notesEs: "Paper Mario: The Thousand-Year Door: decompilación de doldecomp para Windows. Aporta tu propia copia del juego.",
 };

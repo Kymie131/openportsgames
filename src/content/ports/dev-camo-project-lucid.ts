@@ -22,6 +22,8 @@ export const devCamoProjectLucid: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Windows"],
+  summary: "Sonic Dream Team is a 2023 platformer developed by Hardlight and published by Sega. An installment in the Sonic the Hedgehog series, it was released on iOS, macOS and tvOS through Apple Arcade on December 5, 2023. The game follows Sonic, Tails, Knuckles, Amy Rose, Rouge and Cream traversing across Reverie Haven which is corrupted by Doctor Eggman—using a mysterious device protected by a guardian named Ariem—to stop him. As one of the six characters, the player will collect Dream Orbs by completing a series of missions across multiple stages.",
+  summaryEs: "Sonic Dream Team es un videojuego de plataformas de 2023 desarrollado por Hardlight y publicado por Sega. Una entrega de la serie Sonic the Hedgehog, se lanzó en iOS, macOS y tvOS a través de Apple Arcade el 5 de diciembre de 2023. El juego sigue a Sonic, Tails, Knuckles, Amy Rose, Rouge y Cream atravesando Reverie Haven, que está corrompido por Doctor Eggman, usando un misterioso dispositivo protegido por un guardián llamado Ariem, para detenerlo. El jugador irá recogiendo Dream Orbs de uno de los seis personajes al completar una serie de misiones en varias etapas.",
   notes: "Sonic Dream Team: decompilation by dev-camo for Windows, Linux, macOS. Bring your own copy of the game.",
   notesEs: "Sonic Dream Team: decompilación de dev-camo para Windows, Linux, macOS. Aporta tu propia copia del juego.",
 };

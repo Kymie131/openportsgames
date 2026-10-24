@@ -22,6 +22,8 @@ export const mkstSssv: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Space Station Silicon Valley is a platform video game developed by DMA Design and published by Take-Two Interactive. It was originally released for the Nintendo 64 in October 1998. An adaptation of the game for Game Boy Color was developed by Tarantula Studios and released in 1999. A PlayStation port, developed by Runecraft, was released in 2000, under the name Evo's Space Adventures. Players control Evo, a robot reduced to a crawling microchip after a ship crash, and are tasked with taking control of animals to solve puzzles and defeat enemies.",
+  summaryEs: "Space Station Silicon Valley es un videojuego de plataformas lanzado en octubre de 1998 por la desarrolladora escocesa DMA Design. Fue lanzado inicialmente para la Nintendo 64, y más tarde portado en dos versiones exclusivas en Europa, primeramente para la PlayStation, bajo el título de Evo's Space Adventures en 1999, y ese mismo año para la Game Boy Color. Varios glitches estuvieron presentes en el juego, pero esto no le impidió lograr buenas críticas.",
   notes: "Space Station Silicon Valley: decompilation by mkst for Windows. Bring your own copy of the game.",
   notesEs: "Space Station Silicon Valley: decompilación de mkst para Windows. Aporta tu propia copia del juego.",
 };

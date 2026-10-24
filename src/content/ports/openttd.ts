@@ -45,6 +45,8 @@ export const openTtd: Port = {
       credit: "OpenTTD",
     },
   ],
+  summary: "Transport Tycoon is a business simulation game designed and programmed by Chris Sawyer for MS-DOS. It was published by MicroProse in November 1994. Using an isometric 2D view with graphics by Simon Foster, the player acts as a transport company owner, who competes against rival companies to make as much profit as possible by transporting passengers and various goods by road, rail, sea, and air.",
+  summaryEs: "Transport Tycoon Deluxe es un videojuego de simulación publicado por MicroProse en 1994.",
   notes:
     "Open source simulation game based on Transport Tycoon Deluxe. Ships with the freely redistributable OpenGFX graphics, so no original game data is required.",
   notesEs:

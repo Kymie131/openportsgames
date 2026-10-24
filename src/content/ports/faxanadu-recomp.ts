@@ -19,6 +19,8 @@ export const faxanaduRecomp: Port = {
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
   originalSystems: ["Nintendo Entertainment System"],
+  summary: "Faxanadu is an action role-playing platform video game for the Nintendo Entertainment System. The name was licensed by computer game developer Falcom and was developed and released in Japan by Hudson Soft in 1987. Nintendo released the game in the United States and Europe as a first-party title under license from Hudson Soft.",
+  summaryEs: "Faxanadu es el título de un videojuego de la empresa Hudson Soft para la consola NES Nintendo. Fue lanzado al mercado en el año 1987, siendo lanzado en América en 1989 y en Europa en 1990 (distribuido por Mattel. Fue desarrollando por Hudson Soft con licencia de Nihon Falcom.",
   notes:
     "Static recompilation of Faxanadu (NES) with the NESRecomp framework. Playable from start to finish, with mantra (password) auto-load so you don't have to type them by hand.",
   notesEs:

@@ -22,6 +22,8 @@ export const jvicu2001Rr64Decomp: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo 64"],
+  summary: "Ridge Racer 64 is a 2000 racing video game developed by Nintendo Software Technology and published by Nintendo for the Nintendo 64. It is the first title of Namco's Ridge Racer series to not be on arcades or a PlayStation console, with Namco licensing the series to Nintendo to develop the game. In 2004, the game was remade for the Nintendo DS as Ridge Racer DS, which uses the system's features such as the touch-screen and wireless multi-player. Additionally, Gina Cavalli from R: Racing Evolution replaced Reiko Nagase as the mascot in the DS version.",
+  summaryEs: "Ridge Racer 64 es un videojuego de carreras desarrollado por Nintendo Software Technology para Nintendo 64 en el año 2000. Cuenta con pistas de Ridge Racer y Ridge Racer Revolution y su propio conjunto de pistas en el desierto exclusivo para Nintendo 64, llamado Renegade.",
   notes: "Ridge Racer 64: decompilation by jvicu2001 for Windows. Bring your own copy of the game.",
   notesEs: "Ridge Racer 64: decompilación de jvicu2001 para Windows. Aporta tu propia copia del juego.",
 };

@@ -22,6 +22,8 @@ export const rushreSonicrushadventureDecomp: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Sonic Rush Adventure is a 2007 platform game developed by Dimps and Sonic Team and published by Sega for the Nintendo DS. The sequel to 2005's Sonic Rush, it follows Sonic the Hedgehog and Tails, who are teleported to an alternate dimension and seek the help of Blaze the Cat, while battling a band of robot pirates. Gameplay is similar to prior installments in the Sonic the Hedgehog franchise, with players controlling Sonic or Blaze through a series of side-scrolling levels while collecting rings and defeating enemies.",
+  summaryEs: "Sonic Rush Adventure es la continuación del videojuego Sonic Rush, el cual fue creado por Dimps en colaboración con Sonic Team, fue distribuido por Sega para la consola Nintendo DS.",
   notes: "Sonic Rush Adventure: decompilation by RushRE for Windows. Bring your own copy of the game.",
   notesEs: "Sonic Rush Adventure: decompilación de RushRE para Windows. Aporta tu propia copia del juego.",
 };

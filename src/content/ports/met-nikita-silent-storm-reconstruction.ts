@@ -22,6 +22,8 @@ export const metNikitaSilentStormReconstruction: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Windows"],
+  summary: "Silent Storm is a 2003 turn-based tactics video game developed by Nival Interactive and published by JoWooD. The game is set in a fictionalized World War II Europe with science fiction elements.",
+  summaryEs: "Silent Storm es un videojuego de rol publicado por 1C Company en 2003.",
   notes: "Silent Storm: decompilation by met-nikita for Windows. Bring your own copy of the game.",
   notesEs: "Silent Storm: decompilación de met-nikita para Windows. Aporta tu propia copia del juego.",
 };

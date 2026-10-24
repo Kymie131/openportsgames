@@ -19,6 +19,8 @@ export const goemon64Recompiled: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Nintendo 64"],
+  summary: "Mystical Ninja Starring Goemon is a 1997 platform action-adventure game developed by Konami Computer Entertainment Osaka and published by Konami for the Nintendo 64. The second Ganbare Goemon game released in North America and Europe, and the twelfth mainline installment overall, follows The Legend of the Mystical Ninja and features hybrid elements of platform games and action-adventure games.",
+  summaryEs: "Mystical Ninja Starring Goemon es un videojuego creado por Konami para Nintendo 64 en 1997. Es uno de los pocos juegos de esta saga que ha logrado salir de Japón, llegando también a Europa y Estados Unidos. Ha logrado estar entre los 35 mejores juegos de Nintendo 64. En Nintendo 64 tiene dos secuelas: Ganbare Goemon: Derodero Dōchū Obake Tenko Mori y Goemon: Mononoke Sugoroku, inédito en occidente.",
   notes:
     "Native recompilation of Mystical Ninja Starring Goemon (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

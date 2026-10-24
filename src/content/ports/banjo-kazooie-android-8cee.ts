@@ -25,6 +25,8 @@ export const banjoKazooieAndroid8cee: Port = {
     alt: "Banjo-Kazooie (box art)",
     credit: "Box art",
   },
+  summary: "Banjo-Kazooie is a 1998 platform game developed by Rare and published by Nintendo for the Nintendo 64. Controlling the player characters, the bear Banjo and the bird Kazooie, the player attempts to save Banjo's kidnapped sister Tooty from the witch Gruntilda. The player explores nine nonlinear worlds to gather items and progress. Using Banjo and Kazooie's traversal and combat abilities, they complete challenges such as solving puzzles, jumping over obstacles, and defeating bosses.",
+  summaryEs: "Banjo-Kazooie es un videojuego de plataformas de 1998 desarrollado por la compañía británica Rare y publicado por Nintendo para Nintendo 64. Controlando a los personajes, el oso Banjo y el pájaro Kazooie, el jugador intenta salvar a la hermana secuestrada de Banjo, Tooty, de la bruja Gruntilda. Se puede explorar nueve mundos no lineales para reunir elementos y progresar. Usando las habilidades transversales y de combate de Banjo y Kazooie, completan desafíos como resolver acertijos, saltar obstáculos y derrotar a jefes.",
   notes: "Banjo-Kazooie (Nintendo, 1998) running on Android through static recompilation. You need your own copy of the game.",
   notesEs: "Banjo-Kazooie (Nintendo, 1998) en Android mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

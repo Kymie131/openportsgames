@@ -19,6 +19,8 @@ export const tetrisphereRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Nintendo 64"],
+  summary: "Tetrisphere is a puzzle video game developed by H2O Entertainment and published by Nintendo for the Nintendo 64. It was released in North America on August 11, 1997, and in PAL regions in February 1998. The game, originally titled Phear, was initially intended for release on the Atari Jaguar in early 1995 but was reworked into a Tetris game for the N64 after Nintendo, a licensee for The Tetris Company, obtained the publishing rights.",
+  summaryEs: "Tetrisphere es un videojuego de puzles publicado por Nintendo en 1997.",
   notes:
     "Static recompilation of Tetrisphere (N64) with N64Recomp and the RT64 renderer. It requires a copy of the game.",
   notesEs:

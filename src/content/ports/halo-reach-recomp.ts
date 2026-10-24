@@ -26,6 +26,8 @@ export const haloReachRecomp: Port = {
     alt: "Halo Reach (box art)",
     credit: "Wikipedia",
   },
+  summary: "Halo: Reach is a 2010 first-person shooter video game developed by Bungie and published by Microsoft Game Studios for the Xbox 360 console. It is the sixth installment in the Halo series, and a direct prequel to Halo: Combat Evolved. The game takes place in the year 2552, where humanity is locked in a war with an alien theocracy known as the Covenant, which seeks to exterminate humanity. Players control Noble Six, a member of an elite squad of supersoldiers, known as Noble Team, attempting to stage a defense of the human world known as Reach, which falls under Covenant attack.",
+  summaryEs: "Halo Reach es un videojuego de disparos en primera persona desarrollado por Bungie y publicado por Microsoft Game Studios para la consola Xbox 360 y posteriormente retrocompatible con Xbox One. Es el sexto videojuego de la saga Halo, así como su tercer videojuego Publicado. Fue anunciado por primera vez el 2009 en Spike Video Game Awards.",
   notes: "Native PC port of Halo: Reach (Xbox 360, 2010) built by statically recompiling the original PowerPC executable to C++ with the ReXGlue SDK. Playable on Linux, work in progress on Windows. No game code or assets included.",
   notesEs: "Port nativo a PC de Halo: Reach (Xbox 360, 2010) mediante recompilación estática del ejecutable PowerPC original a C++ con el SDK ReXGlue. Jugable en Linux, en desarrollo en Windows. No incluye código ni assets del juego.",
 };

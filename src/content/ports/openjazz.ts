@@ -19,6 +19,8 @@ export const openjazz: Port = {
     spdx: "GPL-2.0",
   },
   verified: false,
+  summary: "Jazz Jackrabbit is a 1994 platform game developed and published by Epic MegaGames. It was released for MS-DOS-based computers. The game was re-released on GOG.com along with Jazz Jackrabbit 2 on November 30, 2017, with support for Windows, macOS, and Linux.",
+  summaryEs: "Jazz Jackrabbit es un videojuego de plataformas en 1994.",
   notes:
     "Free, open-source version of the classic Jazz Jackrabbit games, started in 2005. Project activity has slowed and there is no clear roadmap.",
   notesEs:

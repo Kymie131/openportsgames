@@ -21,6 +21,8 @@ export const kingdomHeartsChainOfMemoriesDecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy Advance"],
+  summary: "Kingdom Hearts: Chain of Memories is a 2004 action role-playing game developed by Square Enix and Jupiter and published by Square Enix in collaboration with Disney Interactive for the Game Boy Advance (GBA). The second game in the Kingdom Hearts series, it is a direct sequel to Kingdom Hearts whose ending is set about a year before the events of Kingdom Hearts II. Chain of Memories follows Sora and his friends as they explore Castle Oblivion while battling Organization XIII, a new group of antagonists.",
+  summaryEs: "Kingdom Hearts: Chain of Memories es un videojuego japonés creado exclusivamente para Game Boy Advance por Square Enix. El juego retoma la historia donde acaba Kingdom Hearts para PlayStation 2 y los primeros 50-60 días de Kingdom Hearts 358/2 Days. Su secuela inmediata es Kingdom Hearts II.",
   notes:
     "Decompilation of Kingdom Hearts: Chain of Memories (Game Boy Advance). A research codebase; it requires game files from a copy you own.",
   notesEs:

@@ -19,6 +19,8 @@ export const pokemonMysteryDungeonRedRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Game Boy Advance"],
+  summary: "Pokémon Mystery Dungeon: Blue Rescue Team and Pokémon Mystery Dungeon: Red Rescue Team are a matched pair of Pokémon video games for the Nintendo DS and Game Boy Advance, respectively. The games were developed by Chunsoft and published by The Pokémon Company and Nintendo. Red Rescue Team was the last Pokémon game released for the Game Boy Advance. The two versions are mostly identical, with Blue Rescue Team taking advantage of the dual-screen features and increased graphical and sound capabilities of the Nintendo DS. The game has six Pokémon exclusive to each version.",
+  summaryEs: "Pokémon Mystery Dungeon: Red Rescue Team es un videojuego de rol.",
   notes:
     "Static recompilation of Pokémon Mystery Dungeon: Red Rescue Team (GBA) with the gbarecomp framework. It requires your own game data.",
   notesEs:

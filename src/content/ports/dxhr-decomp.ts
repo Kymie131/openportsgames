@@ -21,6 +21,8 @@ export const dxhrDecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  summary: "Deus Ex: Human Revolution is an action role-playing game developed by Eidos-Montréal and published by Square Enix. The game is a prequel to the original Deus Ex (2000) and the third installment in the Deus Ex series. The gameplay combines first-person shooter, stealth, and role-playing elements. It features exploration and combat in environments connected to multiple city-based hubs, in addition to quests that grant experience and allow customization of the main character's abilities with items called Praxis Kits.",
+  summaryEs: "Deus Ex: Human Revolution es el tercer videojuego de la serie de videojuegos de rol y acción en primera persona Deus Ex. Es la precuela de Deus Ex. Ha sido desarrollado por la empresa Eidos Montréal.",
   notes:
     "Decompilation of the CDC engine used by Deus Ex: Human Revolution. A research codebase; it requires game files from a copy you own.",
   notesEs:

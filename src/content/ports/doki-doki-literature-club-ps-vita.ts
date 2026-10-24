@@ -25,6 +25,8 @@ export const dokiDokiLiteratureClubPsVita: Port = {
     alt: "Doki Doki Literature Club! (box art)",
     credit: "Wikipedia",
   },
+  summary: "The Literature Club is full of cute girls! Will you write the way into their heart? This game is not suitable for children or those who are easily disturbed.",
+  summaryEs: "Doki Doki Literature Club! es un videojuego de acción y aventura publicado por Team Salvato en 2017.",
   notes: "Doki Doki Literature Club! (Team Salvato, 2017) running on PlayStation Vita through source port. Latest release: v1.2.3. You need your own copy of the game.",
   notesEs: "Doki Doki Literature Club! (Team Salvato, 2017) en PlayStation Vita mediante port de código. Última release: v1.2.3. Necesitas tu propia copia del juego.",
 };

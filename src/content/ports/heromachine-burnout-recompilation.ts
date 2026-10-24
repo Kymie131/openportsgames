@@ -21,6 +21,8 @@ export const heromachineBurnoutRecompilation: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Burnout is a 2001 racing video game developed by Criterion Games and published by Acclaim Entertainment. It was released for the PlayStation 2 in 2001 and GameCube and Xbox in 2002. It is the first instalment in the Burnout series.",
+  summaryEs: "Burnout es un videojuego de carreras de 2001 desarrollado por Criterion Games y distribuido por Acclaim Entertainment para la PlayStation 2, Xbox y GameCube. La versión de PlayStation 2 fue lanzada en Norteamérica el 1 de noviembre de 2001, y el 16 de noviembre en Europa. La versión de GameCube fue lanzada en Norteamérica el 29 de abril de 2002, y el 3 de mayo en Europa. La versión de Xbox fue lanzada en Norteamérica el 30 de abril de 2002, y el 5 de mayo en Europa.",
   notes: "Burnout: static recompilation by Heromachine for Windows. Bring your own copy of the game.",
   notesEs: "Burnout: recompilación estática de Heromachine para Windows. Aporta tu propia copia del juego.",
 };

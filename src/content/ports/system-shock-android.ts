@@ -26,6 +26,8 @@ export const systemShockAndroid: Port = {
     alt: "System Shock (box art)",
     credit: "Wikipedia",
   },
+  summary: "System Shock is a 1994 first-person action-adventure video game developed by LookingGlass Technologies and published by Origin Systems. It was directed by Doug Church with Warren Spector serving as producer. The game is set aboard a space station in a cyberpunk vision of the year 2072. Assuming the role of a nameless security hacker, the player attempts to hinder the plans of a malevolent artificial intelligence called SHODAN.",
+  summaryEs: "System Shock es un videojuego de rol de acción desarrollado por Looking Glass Technologies y distribuido por Origin Systems. Fue puesto a la venta el 26 de marzo de 1994. El juego tuvo una secuela, System Shock 2, publicada el 11 de agosto de 1999.",
   notes: "Native Android/ARM64 port of System Shock based on Shockolate, with reproducible builds and open engineering notes. Bring your own copy of the game. Latest release: v1.0.0.",
   notesEs: "Port nativo para Android/ARM64 de System Shock basado en Shockolate, con builds reproducibles y notas de ingeniería abiertas. Aporta tu propia copia del juego. Última release: v1.0.0.",
 };

@@ -19,6 +19,8 @@ export const monsterRancher2Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Monster Rancher 2, known in Japan as Monster Farm 2 , is a life simulation role-playing video game developed and published by Tecmo for the PlayStation. It is the second installment in the Monster Rancher series. It is the first game in the franchise to be released in Europe and PAL region, where it was published in October 2000 under the name Monster Rancher.",
+  summaryEs: "Monster Rancher 2 es un videojuego de simulación publicado por Tecmo en 1999.",
   notes:
     "Recompilation of Monster Rancher 2 (PS1, USA SLUS-00917) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

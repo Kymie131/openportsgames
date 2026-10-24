@@ -19,6 +19,8 @@ export const gundamBattleMasterRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Gundam: The Battle Master is a fighting game published by Bandai in 1997.",
+  summaryEs: "Gundam: The Battle Master es un videojuego de lucha publicado por Bandai en 1997.",
   notes:
     "Recompilation of Gundam: The Battle Master (PS1) in progress with PSXRecomp. It needs your own disc; it uses OpenBIOS by default and offers a desktop launcher. It is not finished yet.",
   notesEs:

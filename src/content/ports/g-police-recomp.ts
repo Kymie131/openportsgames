@@ -19,6 +19,8 @@ export const gPoliceRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "G-Police is a 1997 combat flight simulation video game developed and published by Psygnosis for PlayStation and Microsoft Windows.",
+  summaryEs: "G-Police es un videojuego de simulación de combate aéreo de 1997 desarrollado y publicado por Psygnosis para PlayStation y Windows.",
   notes:
     "Recompilation of G-Police (PS1, USA SLUS-00544) with PSXRecomp and the recomp-ui launcher. It needs your disc and a European SCPH-5502/5552 BIOS; the wizard handles generating and compiling. Release candidate 0.1.0, with gameplay validation still pending.",
   notesEs:

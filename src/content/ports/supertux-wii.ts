@@ -26,6 +26,8 @@ export const supertuxWii: Port = {
     alt: "SuperTux (cover art)",
     credit: "Steam",
   },
+  summary: "Classic 2D jump'n'run sidescroller featuring Tux the penguin. Run and jump through multiple worlds, fighting off enemies by jumping on them, bumping them from below or tossing objects at them, grabbing power-ups and other stuff on the way.",
+  summaryEs: "SuperTux es un videojuego de plataformas publicado por The SuperTux Team en 2022.",
   notes:
     "SuperTux Milestone 1 (SuperTux team, 2003) ported to Wii with bug fixes and performance work. The original game is free software, so no copy is needed.",
   notesEs:

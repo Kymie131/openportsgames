@@ -21,6 +21,8 @@ export const mirrorSEdgeAndroid: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Mirror's Edge is a side-scrolling platform game developed by IronMonkey Studios and published by Electronic Arts. It was released for iPad and iPhone in 2010, and for Windows Phone in 2012. The game is a prequel to the original Mirror's Edge, setting the scene about Runners and the city's shady corporations. It received very positive reviews from critics.",
+  summaryEs: "Mirror's Edge es un juego de plataformas de desplazamiento lateral desarrollado por IronMonkey Studios y publicado por Electronic Arts. Fue lanzado para iPad y iPhone en 2010, y para Windows Phone en 2012. El juego es una precuela del Mirror's Edge original, preparando la escena sobre los Runners y las corporaciones turbias de la ciudad. Recibió críticas muy positivas de los críticos.",
   notes: "Unofficial port of the 2010 iPad version of Mirror's Edge to Android, Linux and Windows, with touch controls and gamepad support.",
   notesEs: "Port no oficial de la versión iPad de Mirror's Edge (2010) a Android, Linux y Windows, con controles táctiles y mando.",
 };

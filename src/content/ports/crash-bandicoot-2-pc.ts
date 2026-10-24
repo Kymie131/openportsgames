@@ -25,6 +25,8 @@ export const crashBandicoot2Pc: Port = {
     alt: "Crash Bandicoot 2: Cortex Strikes Back (box art)",
     credit: "Wikipedia",
   },
+  summary: "Crash Bandicoot 2: Cortex Strikes Back is a 1997 platform game developed by Naughty Dog and published by Sony Computer Entertainment for the PlayStation. It is a sequel to Crash Bandicoot (1996), and is part of the Crash Bandicoot series. Taking place on a fictional group of islands near Australia, Crash Bandicoot 2 follows the adventures of the anthropomorphic bandicoot named Crash. Crash is abducted by series villain Doctor Neo Cortex, who tricks him into thinking he wants to save the world. Crash is thrust into several parts of N.",
+  summaryEs: "Crash Bandicoot 2: Cortex Strikes Back es un videojuego de plataformas desarrollado por Naughty Dog y publicado por Sony Computer Entertainment para PlayStation. Es la secuela de Crash Bandicoot (1996), y forma parte de la serie homónima.",
   notes: "Crash Bandicoot 2: Cortex Strikes Back (Sony Computer Entertainment, 1997) running on Windows through static recompilation. Latest release: v1.0.0. You need your own copy of the game.",
   notesEs: "Crash Bandicoot 2: Cortex Strikes Back (Sony Computer Entertainment, 1997) en Windows mediante recompilación estática. Última release: v1.0.0. Necesitas tu propia copia del juego.",
 };

@@ -19,6 +19,8 @@ export const issdNative: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Super Nintendo"],
+  summary: "International Superstar Soccer Deluxe, known as Jikkyou World Soccer 2: Fighting Eleven in Japan and also known as ISS Deluxe, is a 1995 football video game and the sequel to International Superstar Soccer developed and published by Konami. The Deluxe version was published first to the SNES in 1995, then the Mega Drive in 1996 and finally the PlayStation in 1997.",
+  summaryEs: "International Superstar Soccer Deluxe es un videojuego de fútbol de la serie International Superstar Soccer creado por la compañía japonesa Konami Corporation. Este juego fue publicado en el año 1995. El juego goza de una perspectiva lateral, y fue distribuido en cartuchos de 32 megas para las plataformas SNES, Mega Drive y en formato CD-ROM para PlayStation.",
   notes:
     "Native recompilation project for International Superstar Soccer Deluxe (SNES), with an AI-assisted workflow. It targets Android and needs your own ROM.",
   notesEs:

@@ -30,6 +30,8 @@ export const bt3Recomp: Port = {
     "Interfaz ImGui sobre SDL2 con soporte de mando",
     "Trae tu propia imagen de disco: no se incluye código ni recursos del juego",
   ],
+  summary: "Dragon Ball Z: Budokai Tenkaichi 3 is a fighting game published by Bandai Namco Entertainment in 2007.",
+  summaryEs: "Dragon Ball Z: Budokai Tenkaichi 3 es un videojuego de acción y lucha en 3D desarrollado por Spike y publicado por Atari en Norteamérica y por Namco Bandai en Europa y Japón para PlayStation 2 y Wii. La versión para PlayStation 2 salió a la venta en Norteamérica y Europa el 9 y el 13 de noviembre de 2007, respectivamente. El lanzamiento de la de Wii tuvo lugar el 3 de diciembre de 2007 en los Estados Unidos y el 15 de febrero de 2008 en el Reino Unido. En Japón, ambas adaptaciones debutaron el 4 de octubre de 2007.",
   notes:
     "Static recompilation of Dragon Ball Z: Budokai Tenkaichi 3 (PS2, USA, SLUS-21678) with PS2Recomp. It translates the MIPS code to C++ from your own disc image and ships its own front-end; playable, with widescreen and texture-pack and mod support.",
   notesEs:

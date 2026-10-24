@@ -25,6 +25,8 @@ export const chronoTriggerPc: Port = {
     alt: "Chrono Trigger (box art)",
     credit: "Wikipedia",
   },
+  summary: "Chrono Trigger is a 1995 role-playing video game developed and published by Square for the Super Nintendo Entertainment System. It is the first installment of the Chrono series. The game's plot follows a group of adventurers who travel through time to prevent a global catastrophe.",
+  summaryEs: "Chrono Trigger es un videojuego de rol desarrollado y publicado por Square para la videoconsola Super Nintendo Entertainment System (SNES). Es el primero de los títulos que componen la saga Chrono. Fue lanzado por primera vez el 11 de marzo de 1995 en Japón y el 22 de agosto de 1995 en Estados Unidos. La historia del juego sigue a un grupo de jóvenes aventureros que fueron transportados a través del tiempo accidentalmente y descubrieron que el mundo iba a ser destruido en un futuro lejano.",
   notes: "Chrono Trigger (Square, 1995) running on Windows through static recompilation. The original game is free software, so no commercial copy is needed.",
   notesEs: "Chrono Trigger (Square, 1995) en Windows mediante recompilación estática. El juego original es software libre, así que no hace falta una copia comercial.",
 };

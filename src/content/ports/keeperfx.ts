@@ -31,6 +31,8 @@ export const keeperFx: Port = {
     "Campañas, mapas, criaturas y soporte de mods adicionales",
     "Multijugador sobre un protocolo moderno con servidor maestro dedicado",
   ],
+  summary: "Dungeon Keeper is a strategy video game developed by Bullfrog Productions and published by Electronic Arts. It was released on 27 June 1997 for MS-DOS and Windows 95. In Dungeon Keeper, the player builds and manages a dungeon, protecting it from invading \"hero\" characters intent on stealing its accumulated treasures, killing monsters and ultimately the player's demise. The ultimate goal is to conquer the world by destroying the heroic forces and rival dungeon keepers in each realm. A character known as the Avatar appears as the final hero.",
+  summaryEs: "Dungeon Keeper es un videojuego de estrategia y rol para PC publicado por Bullfrog Productions en 1997.",
   notes:
     "Started as a Dungeon Keeper decompilation and is now a full rewrite plus a fan expansion. Windows only, with native cross-platform builds listed as future work. Requires the original Dungeon Keeper files.",
   notesEs:

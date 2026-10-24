@@ -26,6 +26,8 @@ export const bluewake: Port = {
     alt: "The Legend of Zelda: The Wind Waker (box art)",
     credit: "Wikipedia",
   },
+  summary: "The Legend of Zelda: The Wind Waker is a 2002 action-adventure game developed and published by Nintendo for the GameCube. An installment in The Legend of Zelda series, it was released in Japan on December 13, 2002, in North America on March 23, 2003, and in Europe on May 2, 2003.",
+  summaryEs: "The Legend of Zelda: The Wind Waker, conocido en Japón como Zelda no Densetsu: Kaze no Takuto , es un videojuego de acción-aventura de 2002 desarrollado por la filial EAD y distribuido por Nintendo para la videoconsola Nintendo GameCube. Es el décimo lanzamiento de la franquicia The Legend of Zelda y la precuela directa de The Legend of Zelda: Phantom Hourglass, de Nintendo DS.",
   notes: "BlueWake: The Legend of Zelda: The Wind Waker (GameCube, 2002) recompiled natively for macOS, iOS, Windows, Linux and Android. Bring your own game disc. Latest release: v0.8.0.",
   notesEs: "BlueWake: The Legend of Zelda: The Wind Waker (GameCube, 2002) recompilado de forma nativa para macOS, iOS, Windows, Linux y Android. Aporta tu propio disco del juego. Última release: v0.8.0.",
 };

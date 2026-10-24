@@ -21,6 +21,8 @@ export const geno55Wg3dRecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo 64"],
+  summary: "Wayne Gretzky's 3D Hockey is a 1996 ice hockey video game developed and published by Atari Games for arcades. A port for the Nintendo 64 was released a month after the arcade version, making it the first-ever four-player game for the Nintendo 64. The game was followed by Wayne Gretzky's 3D Hockey '98 in 1997.",
+  summaryEs: "Wayne Gretzky's 3D Hockey es un videojuego de acción y aventura publicado por Atari Games en 1996.",
   notes: "Wayne Gretzky's 3D Hockey: static recompilation by geno55 for Windows. Bring your own copy of the game.",
   notesEs: "Wayne Gretzky's 3D Hockey: recompilación estática de geno55 para Windows. Aporta tu propia copia del juego.",
 };

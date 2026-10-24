@@ -26,6 +26,8 @@ export const granTurismoSportRygtPc: Port = {
     alt: "Gran Turismo Sport (box art)",
     credit: "Wikipedia",
   },
+  summary: "Gran Turismo Sport is a 2017 sim racing video game developed by Polyphony Digital and published by Sony Interactive Entertainment for the PlayStation 4. It is the twelfth game in the Gran Turismo series.",
+  summaryEs: "Gran Turismo Sport es un videojuego de carreras desarrollado por Polyphony Digital y publicado por Sony Interactive Entertainment para la consola de videojuegos PlayStation 4.",
   notes: "Native Windows runtime for Gran Turismo Sport built on Ryty, with a Vulkan shadGT renderer, full races, four-player splitscreen and an unlocked frame rate. No game data included.",
   notesEs: "Runtime nativo para Windows de Gran Turismo Sport basado en Ryty, con renderizador Vulkan shadGT, carreras completas, pantalla dividida para cuatro jugadores y tasa de fotogramas desbloqueada. No incluye archivos del juego.",
 };

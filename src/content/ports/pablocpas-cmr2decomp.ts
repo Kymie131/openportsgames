@@ -27,6 +27,8 @@ export const pablocpasCmr2decomp: Port = {
     alt: "Colin McRae Rally 2.0 (box art)",
     credit: "Box art",
   },
+  summary: "Colin McRae Rally 2.0 is a racing video game developed and published by Codemasters for PlayStation, Microsoft Windows and Game Boy Advance.",
+  summaryEs: "Colin McRae Rally 2.0 es un videojuego de carreras y el segundo juego de la serie Colin McRae Rally, desarrollado y publicado por Codemasters. Originalmente lanzado en Europa el 7 de julio de 2000 para PlayStation, también fue lanzado para PC y Game Boy Advance incluso en Norte y Latinoamérica.",
   notes: "Colin McRae Rally 2.0: decompilation by pablocpas for Windows. Bring your own copy of the game.",
   notesEs: "Colin McRae Rally 2.0: decompilación de pablocpas para Windows. Aporta tu propia copia del juego.",
 };

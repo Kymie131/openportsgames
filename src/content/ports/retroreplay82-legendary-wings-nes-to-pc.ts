@@ -22,6 +22,8 @@ export const retroreplay82LegendaryWingsNesToPc: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo Entertainment System"],
+  summary: "Legendary Wings, released in Japan as Aresu no Tsubasa, is a 1986 vertically scrolling shooter and run and gun video game developed and published by Capcom for arcades. The player takes control of a young soldier equipped with magical wings who must save the world from a malfunctioning supercomputer. A home version for the Nintendo Entertainment System was released exclusively in North America in 1988. The original coin-op version is included in Capcom Classics Collection for PlayStation 2 and Xbox and in Capcom Classics Collection Remixed for PlayStation Portable.",
+  summaryEs: "Legendary Wings es un videojuego de fantasía de tipo Matamarcianos lanzado por Capcom, originalmente como arcade, en 1986. El juego se desarrolla en un paisaje de la mitología griega y consiste en tomar el control de un joven soldado equipado con alas mágicas que debe salvar al mundo de una supercomputadora extraterrestre. Una versión casera para la Nintendo Entertainment System fue lanzada exclusivamente en América del Norte en 1988.",
   notes: "Legendary Wings: engine remake by retroreplay82 for Windows. Bring your own copy of the game.",
   notesEs: "Legendary Wings: recreación de motor de retroreplay82 para Windows. Aporta tu propia copia del juego.",
 };

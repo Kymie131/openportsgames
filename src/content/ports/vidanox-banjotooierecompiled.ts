@@ -26,6 +26,8 @@ export const vidanoxBanjotooierecompiled: Port = {
     alt: "Banjo-Tooie (box art)",
     credit: "Box art",
   },
+  summary: "Banjo-Tooie is a 2000 platform game developed by Rare and published by Nintendo for the Nintendo 64 console. It is the second game in the Banjo-Kazooie series and the sequel to Banjo-Kazooie. The game follows the returning protagonists Banjo and Kazooie as they attempt to stop the plans of the witch Gruntilda and two of her sisters, who intend to vaporise the inhabitants of the game's island setting.",
+  summaryEs: "Banjo-Tooie es la secuela directa del juego de Nintendo 64 de 1998 llamado Banjo-Kazooie. Se publicó el 1 de noviembre de 2000 para la consola Nintendo 64. Creado por Rareware, sus personajes principales son Banjo y Kazooie del popular juego original.",
   notes: "Banjo-Tooie: static recompilation by Vidanox for Windows, Linux. Bring your own copy of the game.",
   notesEs: "Banjo-Tooie: recompilación estática de Vidanox para Windows, Linux. Aporta tu propia copia del juego.",
 };

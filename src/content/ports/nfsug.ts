@@ -21,6 +21,8 @@ export const nfsug: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  summary: "Need for Speed: Underground is a 2003 racing video game and the seventh installment in the Need for Speed series following Hot Pursuit 2 (2002). It was developed by EA Black Box and published by Electronic Arts. Three different versions of the game were produced: one for consoles and Microsoft Windows, and another for the Game Boy Advance. An arcade version developed and published by Global VR came out two years later.",
+  summaryEs: "Need for Speed: Underground es un videojuego de carreras desarrollado por EA Black Box y publicado por Electronic Arts en el 2003. Es parte de la saga de videojuegos Need for Speed y ha sido desarrollado por EA Black Box.",
   notes:
     "Decompilation of Need for Speed: Underground. A research codebase; it requires game files from a copy you own.",
   notesEs:

@@ -27,6 +27,8 @@ export const stufno102Tenkaichi3decomp: Port = {
     alt: "Dragon Ball Z: Budokai Tenkaichi 3 (box art)",
     credit: "Box art",
   },
+  summary: "Dragon Ball Z: Budokai Tenkaichi 3 is a fighting game published by Bandai Namco Entertainment in 2007.",
+  summaryEs: "Dragon Ball Z: Budokai Tenkaichi 3 es un videojuego de acción y lucha en 3D desarrollado por Spike y publicado por Atari en Norteamérica y por Namco Bandai en Europa y Japón para PlayStation 2 y Wii. La versión para PlayStation 2 salió a la venta en Norteamérica y Europa el 9 y el 13 de noviembre de 2007, respectivamente. El lanzamiento de la de Wii tuvo lugar el 3 de diciembre de 2007 en los Estados Unidos y el 15 de febrero de 2008 en el Reino Unido. En Japón, ambas adaptaciones debutaron el 4 de octubre de 2007.",
   notes: "Dragon Ball Z: Budokai Tenkaichi 3: source port by stufno102 for the browser, Windows. Playable in the browser.",
   notesEs: "Dragon Ball Z: Budokai Tenkaichi 3: source port de stufno102 para el navegador, Windows. Jugable en el navegador.",
 };

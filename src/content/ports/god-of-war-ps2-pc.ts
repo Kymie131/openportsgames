@@ -25,6 +25,8 @@ export const godOfWarPs2Pc: Port = {
     alt: "God of War (box art)",
     credit: "Wikipedia",
   },
+  summary: "God of War is a 2005 action-adventure game developed by Santa Monica Studio and published by Sony Computer Entertainment (SCE). First released for the PlayStation 2 on March 22, 2005, the game is the first installment in the God of War series and the fourth chronologically. Loosely based on Greek mythology, it is set in ancient Greece with vengeance as its central motif. The player controls the protagonist Kratos, a Spartan warrior who serves the Olympian gods.",
+  summaryEs: "God of War es un videojuego de acción y aventuras hack and slash desarrollado por Santa Monica Studio y publicado por Sony Computer Entertainment para la PlayStation 2. Es la primera entrega de la serie God of War y la tercera cronológicamente. Basado libremente en la mitología griega, está ambientado en la antigua Grecia con la venganza como motivo central. El jugador controla al protagonista Kratos, un guerrero espartano que sirve a los dioses del Olimpo.",
   notes: "God of War (SCE Santa Monica Studio, 2005) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "God of War (SCE Santa Monica Studio, 2005) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

@@ -26,6 +26,8 @@ export const hexenIi3ds: Port = {
     alt: "Hexen II (box art)",
     credit: "Wikipedia",
   },
+  summary: "Hexen II is a 1997 first-person shooter game developed by Raven Software and published by id Software for Windows. It is the third game in the Hexen/Heretic series, and the last in the Serpent Riders trilogy. Using a modified Quake engine, it features single-player and multiplayer game modes, as well as four character classes to choose from, each with different abilities. These include the \"offensive\" Paladin, the \"defensive\" Crusader, the spell-casting Necromancer, and the stealthy Assassin.",
+  summaryEs: "Hexen II es un videojuego de disparos en primera persona de fantasía oscura desarrollado por Raven Software entre 1996 y 1997, publicado por id Software y distribuido por Activision. Fue la tercera entrega en las series Hexen/Heretic, y el último en la trilogía de Serpent Riders. Fue puesto a disposición a través de Steam, el 3 de agosto de 2007. Utiliza un motor modificado de Quake, tiene modos un jugador y multijugador, así como cuatro clases de personajes para elegir, cada uno con diferentes habilidades.",
   notes:
     "Hexen II (id Software, 1997) ported natively to Nintendo 3DS from the original source code. You need the game data files to play.",
   notesEs:

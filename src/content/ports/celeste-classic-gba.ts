@@ -20,6 +20,8 @@ export const celesteClassicGba: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Other"],
+  summary: "Celeste Classic is a platform game in 2015.",
+  summaryEs: "Celeste Classic es un videojuego de plataformas en 2015.",
   notes: "Celeste Classic (Maddy Thorson, 2016) running on gba through source port. Latest release: v1.2. The original game is free software, so no commercial copy is needed.",
   notesEs: "Celeste Classic (Maddy Thorson, 2016) en gba mediante port de código. Última release: v1.2. El juego original es software libre, así que no hace falta una copia comercial.",
 };

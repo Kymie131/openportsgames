@@ -21,6 +21,8 @@ export const dr89TimeCrisisVr: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Arcade"],
+  summary: "Time Crisis is a 1995 light-gun shooter video game developed and published by Namco for arcades. The first installment in the Time Crisis series, the game differentiated itself from other light-gun shooters of the time by incorporating a pedal that controls when the player character takes cover to reload and avoid enemy fire. Players have a limited amount of time to clear each section by defeating enemies.",
+  summaryEs: "Time Crisis es un Videojuego de disparos disponible al principio en salas con máquinas recreativas y posteriormente para la consola PlayStation y teléfonos móviles. Debutó en 1997 y en los años siguientes han ido apareciendo en máquinas recreativas tres secuelas y tres spin-off.",
   notes: "Time Crisis: decompilation by DR-89 for Windows. Bring your own copy of the game.",
   notesEs: "Time Crisis: decompilación de DR-89 para Windows. Aporta tu propia copia del juego.",
 };

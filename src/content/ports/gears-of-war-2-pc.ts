@@ -25,6 +25,8 @@ export const gearsOfWar2Pc: Port = {
     alt: "Gears of War 2 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Gears of War 2 is a 2008 third-person shooter video game developed by Epic Games and published by Microsoft Game Studios for the Xbox 360. It is the second installment of the Gears of War series, with lead design by Cliff Bleszinski. The game was released in North America, Europe and Australia on November 7, 2008, and was released in Japan on July 30, 2009. The game expands technically on the previous game by using a modified Unreal Engine 3. The development team brought in comic book writer Joshua Ortega to help write the plot for the game.",
+  summaryEs: "Gears of War 2 es un videojuego de disparos en tercera persona creado por la compañía desarrolladora Epic Games y anunciado por Microsoft para su distribución exclusiva para la videoconsola Xbox 360. Es la secuela del aclamado título Gears of War. El videojuego fue presentado por primera vez el 20 de febrero de 2008 por el programador y diseñador del proyecto, Cliff Bleszinski, durante la Conferencia de Desarrolladores de Videojuegos y fue lanzado al mercado el 8 de octubre de 2008, utilizando una versión mejorada del reconocido motor gráfico Unreal Engine 3.",
   notes: "Gears of War 2 (Microsoft Game Studios, 2008) running on Windows through static recompilation. Latest release: v0.2.2. You need your own copy of the game.",
   notesEs: "Gears of War 2 (Microsoft Game Studios, 2008) en Windows mediante recompilación estática. Última release: v0.2.2. Necesitas tu propia copia del juego.",
 };

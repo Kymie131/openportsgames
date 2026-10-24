@@ -20,6 +20,8 @@ export const openapoc: Port = {
     spdx: "GPL-3.0",
   },
   verified: false,
+  summary: "X-COM: Apocalypse is a 1997 science fiction tactical strategy video game developed by Mythos Games and published by MicroProse for DOS. It is the third installment in the X-COM series, following Terror from the Deep. Set 50 years after the second campaign, the game takes place primarily within the futuristic megalopolis of Mega-Primus.",
+  summaryEs: "X-COM: Apocalypse es el tercero en la serie de videojuegos X-COM. Desarrollado por Mythos Games y distribuido por Microprose, fue publicado en 1997 para DOS y Microsoft Windows.",
   notes:
     "Open-source reimplementation of the X-COM: Apocalypse engine, written in C++ with SDL2. Requires the original game files to run.",
   notesEs:

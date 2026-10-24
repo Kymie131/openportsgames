@@ -7,7 +7,7 @@ export const AirTrafficChaos: Port = {
   game: "Air Traffic Chaos",
   developers: ["sasja-san"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2007,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const AirTrafficChaos: Port = {
     alt: "Air Traffic Chaos (box art)",
     credit: "Wikipedia",
   },
+  summary: "Air Traffic Chaos is an air traffic controller simulation video game developed by Sonic Powered and published by Majesco for the Nintendo DS handheld video game console. It had previously been released in Japan under the name Boku wa Kōkū Kanseikan , and it was released later in the PAL region under the title Air Traffic Controller by DS. A video game demo was made available before its release for the Wii's Nintendo Channel.",
+  summaryEs: "Air Traffic Chaos es un videojuego de simulación de tráfico aéreo desarrollado por Sonic Powered y publicado por Majesco Entertainment para el Nintendo DS. Anteriormente fue lanzado en Japón con el nombre Boku wa Kōkū Kanseikan , y fue lanzado más tarde en la región europea (PAL) bajo el nombre Air Traffic Controller by DS. Un demo estuvo disponible antes de su lanzamiento a través del Canal de Nintendo de Wii.",
   notes: "Air Traffic Chaos for Nintendo DS. Decompilation and modification project.",
   notesEs: "Proyecto de decompilación y modificación de Air Traffic Chaos para Nintendo DS.",
 };

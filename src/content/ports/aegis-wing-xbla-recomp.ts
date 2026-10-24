@@ -20,6 +20,8 @@ export const aegisWingXblaRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  summary: "Aegis Wing is a 2007 scrolling shooter video game developed by Carbonated Games and three independent Microsoft interns for the Xbox Live Arcade. The game was released worldwide on May 16, 2007, available free to all Xbox Live members in North America.",
+  summaryEs: "Aegis Wing es un videojuego de disparos de desplazamiento lateral de 2007 desarrollado por Carbonated Games y tres becarios independientes de Microsoft para Xbox Live Arcade, publicado por Microsoft Game Studios. El juego se lanzó a nivel mundial el 16 de mayo de 2007 y estuvo disponible de forma gratuita para todos los miembros de Xbox Live en Norteamérica.",
   notes: "Native Windows PC version of Aegis Wing (Xbox Live Arcade, 2007) created through static recompilation with ReXGlue, up to 4K at 60 FPS with keyboard, mouse and controllers. Requires your own copy. Latest release: v0.9.1.",
   notesEs: "Versión nativa para Windows de Aegis Wing (Xbox Live Arcade, 2007) creada mediante recompilación estática con ReXGlue, hasta 4K a 60 FPS con teclado, ratón y mandos. Requiere tu propia copia. Última release: v0.9.1.",
 };

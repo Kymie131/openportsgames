@@ -7,7 +7,7 @@ export const pong64Nintendo64: Port = {
   game: "Pong",
   developers: ["JumpiX64"],
   publisher: "Atari",
-  originalYear: 2026,
+  originalYear: 1972,
   portType: "source-port",
   genre: "sports",
   openSource: true,
@@ -21,6 +21,8 @@ export const pong64Nintendo64: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Pong is a 1972 sports video game developed and published by Atari, Inc. for arcades. It was created by Allan Alcorn as a training exercise assigned to him by Atari co-founder Nolan Bushnell. Bushnell and Atari co-founder Ted Dabney were so surprised by the quality of Alcorn's work that they decided to manufacture the game. Bushnell based the game's concept on an electronic ping-pong game included on the Magnavox Odyssey, the first home video game console; in response, Magnavox later sued Atari for patent infringement.",
+  summaryEs: "Pong es un videojuego de consolas de primera generación publicado por Atari, creado por Nolan Bushnell y lanzado el 29 de noviembre de 1972. Pong está basado en el deporte de tenis de mesa. La palabra Pong es una marca registrada por Atari Interactive, mientras que la palabra genérica «pong» es usada para describir el género de videojuegos «ball and paddle».",
   notes: "Pong (Atari, 2026) running on n64 through source port. Latest release: v0.6. You need your own copy of the game.",
   notesEs: "Pong (Atari, 2026) en n64 mediante port de código. Última release: v0.6. Necesitas tu propia copia del juego.",
 };

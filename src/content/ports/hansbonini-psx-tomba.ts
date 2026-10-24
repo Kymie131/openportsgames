@@ -22,6 +22,8 @@ export const hansboniniPsxTomba: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Tomba!, known as Tombi! in Europe, is a 1997 platform-adventure game developed and published by Whoopee Camp for the PlayStation. It was released in Japan in 1997 and internationally by Sony Computer Entertainment the following year. The game centers on the eponymous feral child as he attempts to recover his grandfather's bracelet from an evil race of anthropomorphic pigs.",
+  summaryEs: "Tomba! es un videojuego de plataformas, acción y aventura creado por Whoopee Camp Co. Ltd. y publicado por Sony Computer Entertainment para la consola de videojuego PlayStation. Fue lanzado en 1997 para Japón y en 1998 para Norteamérica y la región PAL. Tombi! también contó con una secuela titulada Tombi! 2: The Evil Swine Return en 1999. También ha sido lanzado en PlayStation Network por MonkeyPaw Games. La saga es fue idea del creador de juegosTokuro Fujiwara, quien creó los videojuegos Ghosts'n Goblins y Mega Man.",
   notes: "Tomba!: decompilation by hansbonini for Windows. Bring your own copy of the game.",
   notesEs: "Tomba!: decompilación de hansbonini para Windows. Aporta tu propia copia del juego.",
 };

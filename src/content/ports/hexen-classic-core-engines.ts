@@ -25,6 +25,8 @@ export const hexenClassicCoreEngines: Port = {
     alt: "Hexen: Beyond Heretic (box art)",
     credit: "Wikipedia",
   },
+  summary: "Hexen: Beyond Heretic is a 1995 first-person shooter video game developed by Raven Software and published by id Software for MS-DOS. It is the sequel to 1994's Heretic, and the second game in Raven Software's \"Serpent Riders\" trilogy, which culminated with Hexen II. The title comes from the German noun Hexen, which means \"witches\", and/or the verb hexen, which means \"to cast a spell\". Game producer John Romero stated that a third, unreleased game in this series was to be called Hecatomb.",
+  summaryEs: "HeXen: Beyond Heretic, o simplemente HeXen para algunas plataformas, es un videojuego de disparos en primera persona desarrollado por Raven Software y publicado por id Software para PC (MS-DOS), PlayStation, Sega Saturn y Nintendo 64. Se creía que era la secuela de Heretic, en el que se narraban las aventuras del elfo Sidhe Corvus contra el primero de los temidos Jinetes de la Serpiente, pero solo se trata de un juego spin off, sumido en el mismo universo, pero en un mundo diferente.",
   notes: "Hexen: Beyond Heretic (Raven Software, 1995) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (HEXEN.WAD).",
   notesEs: "Hexen: Beyond Heretic (Raven Software, 1995) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
 };

@@ -20,6 +20,8 @@ export const killzonePc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  summary: "Killzone is a 2004 first-person shooter video game developed by Guerrilla Games and published by Sony Computer Entertainment for the PlayStation 2. It is the first installment of the Killzone series and the first partnership between Guerrilla and Sony. A remaster developed by Supermassive Games was re-released within the Killzone Trilogy for PlayStation 3 as well as a standalone PSN title in 2012.",
+  summaryEs: "Killzone es un videojuego de acción de disparos en primera persona desarrollado por Guerrilla Games y publicado por Sony Computer Entertainment para la PlayStation 2. Es la primera entrega de la serie Killzone y la primera colaboración entre Guerrilla y Sony. Una remasterización desarrollada por Supermassive Games fue relanzada dentro de Killzone Trilogy para PlayStation 3, así como un título independiente de PSN en 2012.",
   notes: "Killzone (Guerrilla Games, 2004) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Killzone (Guerrilla Games, 2004) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

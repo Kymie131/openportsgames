@@ -25,6 +25,8 @@ export const katawaShoujoGba: Port = {
     alt: "Katawa Shoujo (cover art)",
     credit: "Steam",
   },
+  summary: "Katawa Shoujo is a romantic visual novel set in the fictional Japanese Yamaku High School for disabled children. Hisao's congenital heart defect forces him to move to a new school. Despite his difficulties, Hisao is able to find friends—and perhaps love, if he plays his cards right.",
+  summaryEs: "Katawa Shoujo es un videojuego de acción y aventura publicado por Four Leaf Studios en 2024.",
   notes: "Katawa Shoujo (Four Leaf Studios, 2012) running on gba through source port. Latest release: v0.4.11-workflow. You need your own copy of the game.",
   notesEs: "Katawa Shoujo (Four Leaf Studios, 2012) en gba mediante port de código. Última release: v0.4.11-workflow. Necesitas tu propia copia del juego.",
 };

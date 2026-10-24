@@ -7,7 +7,7 @@ export const BloonsTd5: Port = {
   game: "Bloons TD 5",
   developers: ["NKHook"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2014,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const BloonsTd5: Port = {
     alt: "Bloons TD 5 (cover art)",
     credit: "Steam",
   },
+  summary: "Bloons Tower Defense is a series of tower defense games under the Bloons series created and produced by Ninja Kiwi. The game was initially developed as a browser game, built upon the Adobe Flash platform and released in mid 2007. Later games in the series expanded to support various mobile platforms, including Android, iOS, Windows Phone, PlayStation Portable, Nintendo DSi, Windows, Linux and MacOS. Older games in the Bloons series are available through the Ninja Kiwi Archive on Steam, with the newest game in the archive being Bloons TD 5.",
+  summaryEs: "Bloons TD 5 es un videojuego de acción y aventura en 2014.",
   notes: "A decompilation effort targeting the game Bloons TD 5.",
   notesEs: "Intento de decompilación del juego Bloons TD 5.",
 };

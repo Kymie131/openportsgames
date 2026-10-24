@@ -26,6 +26,8 @@ export const mustafasamer93ApocalypsePcNativePort: Port = {
     alt: "Apocalypse (box art)",
     credit: "Box art",
   },
+  summary: "Apocalypse is a third-person shooter platform video game released for the PlayStation, developed by Neversoft Entertainment and published by Activision in 1998. It features actor Bruce Willis, who provides the likeness and voice for the main character, Trey Kincaid.",
+  summaryEs: "Apocalypse es un videojuego de disparos en 1998.",
   notes: "Apocalypse: source port by MustafaSamer93 for Windows. Bring your own copy of the game.",
   notesEs: "Apocalypse: source port de MustafaSamer93 para Windows. Aporta tu propia copia del juego.",
 };

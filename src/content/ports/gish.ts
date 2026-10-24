@@ -19,6 +19,8 @@ export const gish: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   originalSystems: ["Windows"],
+  summary: "Gish isn't your average hero. In fact, he's not your average anything...you see, Gish is a ball of tar. A Sunday stroll with his lady friend, Brea, goes awry when a shadowy figure emerges from an open manhole and pulls Brea below ground.",
+  summaryEs: "Gish es un videojuego de plataformas publicado por Chronic Logic en 2007.",
   notes:
     "Android port of the physics platformer Gish, built on SDL2, OpenAL and GL4ES. It uses the game's released source and needs the original data files.",
   notesEs:

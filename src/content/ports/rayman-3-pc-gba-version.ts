@@ -20,6 +20,8 @@ export const rayman3PcGbaVersion: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy Advance"],
+  summary: "Rayman 3 is a platform game.",
+  summaryEs: "Rayman 3 es un videojuego de plataformas.",
   notes: "Rayman 3 (Ubisoft, 2003) running on Windows through source port. You need your own copy of the game.",
   notesEs: "Rayman 3 (Ubisoft, 2003) en Windows mediante port de código. Necesitas tu propia copia del juego.",
 };

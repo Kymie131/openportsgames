@@ -19,6 +19,8 @@ export const hamsterMonogatari64Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Nintendo 64"],
+  summary: "Hamster Monogatari 64 is a 2001 pet simulation video game developed and published by Culture Brain for the Nintendo 64 in Japan. It is a part of the Hamster Monogatari series.",
+  summaryEs: "Hamster Monogatari 64 (ハムスター物語64) es un videojuego de simulación desarrollado y publicado por Culture Brain para Nintendo 64. En el juego el jugador tiene que criar y cuidar diversos hamsters como si de mascotas reales se trataran. El juego únicamente fue distribuido en tierras niponas, llegando al mercado japonés el 6 de abril de 2001.",
   notes:
     "Native recompilation of Hamster Monogatari 64 (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

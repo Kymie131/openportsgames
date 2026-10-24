@@ -7,7 +7,7 @@ export const SonicHeroes: Port = {
   game: "Sonic Heroes",
   developers: ["Jovinull"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2003,
   portType: "decompilation",
   genre: "platformer",
   openSource: true,
@@ -25,6 +25,8 @@ export const SonicHeroes: Port = {
     alt: "Sonic Heroes (box art)",
     credit: "Box art",
   },
+  summary: "Sonic Heroes is a 2003 platform game developed by Sonic Team USA and published by Sega for the GameCube, PlayStation 2, Xbox, and Windows. The player controls teams of three Sonic characters and navigates levels while collecting rings, defeating robots, and avoiding obstacles. They swap between characters, who each have unique abilities, to overcome obstacles. Sonic Heroes downplays the action-adventure and exploration-based gameplay of previous 3D Sonic games in favor of linear gameplay similar to the Sega Genesis Sonic games.",
+  summaryEs: "Sonic Heroes es un videojuego de plataformas desarrollado por Sonic Team USA y publicado por Sega como parte de la serie Sonic the Hedgehog. El jugador compite con un equipo de personajes de la serie a través de niveles para acumular anillos, derrotar robots y recoger las siete Esmeraldas del Caos necesarias para derrotar al Doctor Eggman. En cada nivel, el jugador cambia entre los tres personajes del equipo, cada uno con habilidades únicas, para superar los obstáculos.",
   notes: "Decompilation of Sonic Heroes for the Nintendo GameCube.",
   notesEs: "Decompilación de Sonic Heroes para Nintendo GameCube.",
 };

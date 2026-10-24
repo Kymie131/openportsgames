@@ -20,6 +20,8 @@ export const goldenEyeRecompDualScreen: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "GoldenEye 007: Reloaded is a shooter game.",
+  summaryEs: "GoldenEye 007: Reloaded es un videojuego de disparos.",
   notes: "GoldenEye 007: Reloaded (Microsoft Game Studios, 2010) for Android (static recompilation). Latest release: v1.7.1. Needs your own copy of the game (Golden Eye 007 Remaster folder).",
   notesEs: "GoldenEye 007: Reloaded (Microsoft Game Studios, 2010) para Android (recompilación estática). Última release: v1.7.1. Necesita tu propia copia del juego.",
 };

@@ -22,6 +22,8 @@ export const puddzAstralchainPc: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo Switch"],
+  summary: "Astral Chain is a 2019 action-adventure game developed by PlatinumGames and published by Nintendo for the Nintendo Switch. It was directed by Takahisa Taura, who was previously lead game designer for Nier: Automata, under supervision by Devil May Cry and Bayonetta series creator Hideki Kamiya, and character designs from manga artist Masakazu Katsura.",
+  summaryEs: "Astral Chain es videojuego de acción-aventura desarrollado por PlatinumGames y publicado por Nintendo para la Nintendo Switch. Está dirigida por Takahisa Taura, quien anteriormente fue diseñadora de juegos para NieR: Automata, bajo la supervisión del creador de la serie Devil May Cry y Bayonetta, y diseños de personajes del artista de manga Masakazu Katsura. Fue lanzado el 30 de agosto de 2019.",
   notes: "Astral Chain: static recompilation by Puddz for Windows. Bring your own copy of the game.",
   notesEs: "Astral Chain: recompilación estática de Puddz para Windows. Aporta tu propia copia del juego.",
 };

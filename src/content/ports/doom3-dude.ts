@@ -31,6 +31,8 @@ export const doom3Dude: Port = {
     "HDR, SSAO y escalado FSR2",
     "Teselación por GPU e interpolación de renderizado a 60 FPS",
   ],
+  summary: "Doom 3 is a 2004 first-person shooter survival horror game developed by id Software and published by Activision. It was originally released for Windows on August 3, 2004, before being adapted for Linux later that year, and ported by Aspyr Media for Mac OS X in 2005. Vicarious Visions ported the game to the Xbox, releasing it worldwide on April 4, 2005.",
+  summaryEs: "Doom 3 es un videojuego de disparos en primera persona desarrollado por id Software y publicado por Activision. Existen versiones para Microsoft Windows, GNU/Linux, Mac OS X y para la videoconsola Xbox.",
   notes:
     "DUDE (Doom3 Unified Development Engine) updates the id Tech 4 Doom 3 engine with modern rendering, ray tracing and a Vulkan backend. The repository commits its tooling and discloses that development is AI-assisted. Requires the Doom 3 files the player owns.",
   notesEs:

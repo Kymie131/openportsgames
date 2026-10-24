@@ -26,6 +26,8 @@ export const linksAwakeningDxPortable: Port = {
     alt: "The Legend of Zelda: Link's Awakening DX (box art)",
     credit: "Wikipedia",
   },
+  summary: "The Legend of Zelda: Link's Awakening DX is a 1998 action-adventure game developed and published by Nintendo for the Game Boy Color. The game is a colorized version of the 1993 Game Boy title The Legend of Zelda: Link's Awakening, in which protagonist Link must fight monsters, explore dungeons and solve puzzles to escape from Koholint Island. The DX version of Link's Awakening features gameplay additions including a color-themed dungeon and support for the Game Boy Printer.",
+  summaryEs: "The Legend of Zelda: Link's Awakening DX es un videojuego de acción y aventura publicado por Nintendo en 1998.",
   notes: "The Legend of Zelda: Link's Awakening DX statically recompiled to native C and ported to PlayStation 4, PlayStation 3, Nintendo 3DS and Wii, each with its own backend. No ROM included.",
   notesEs: "The Legend of Zelda: Link's Awakening DX recompilado estáticamente a C nativo y portado a PlayStation 4, PlayStation 3, Nintendo 3DS y Wii, cada uno con su propio backend. No incluye la ROM.",
 };

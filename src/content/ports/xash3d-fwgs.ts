@@ -53,6 +53,8 @@ export const xash3d: Port = {
       credit: "Xash3D FWGS",
     },
   ],
+  summary: "Half-Life is a 1998 first-person shooter (FPS) game developed by Valve Corporation and published by Sierra Studios for Windows. It was Valve's debut product and the first game in the Half-Life series. The player controls Gordon Freeman, a theoretical physicist who must escape from the Black Mesa Research Facility after it is overrun by aliens following a disastrous scientific experiment. Its gameplay consists of combat, exploration and puzzles.",
+  summaryEs: "Half-Life es un videojuego de disparos en primera persona de 1998 desarrollado por Valve Corporation y publicado por Sierra Studios para Windows. Fue el producto debut de Valve y el primer juego de la serie Half-Life. El jugador asume el papel de Gordon Freeman, un científico que debe escapar de Black Mesa Research Facility tras ser invadido por extraterrestres después de un desastroso experimento científico. La jugabilidad se basa en combate, exploración y puzles.",
   notes:
     "Open source reimplementation of the Half-Life engine, including a working Android build. Uses rolling 'continuous' releases. Requires the original Half-Life game files.",
   notesEs:

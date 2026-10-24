@@ -22,6 +22,8 @@ export const karamzov123FzeroGxDecomp: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo GameCube"],
+  summary: "F-Zero GX is a 2003 racing game developed by Amusement Vision, a division of Sega, and published by Nintendo for the GameCube. It was released in Japan on July 25, 2003, North America on August 25, Australia on October 24, and Europe on October 31. Sega also released an arcade version, F-Zero AX, which uses the Triforce arcade system board.",
+  summaryEs: "F-Zero GX es un videojuego de carreras desarrollado por Amusement Vision y publicado por Nintendo para la consola GameCube en 2003. Funciona con una versión mejorada del motor utilizado en Super Monkey Ball. F-Zero AX, la contraparte arcade de GX, utiliza la placa del sistema arcade Triforce, concebida a partir de una alianza comercial entre Nintendo, Namco y Sega.",
   notes: "F-Zero GX: decompilation by karamzov123 for Windows. Bring your own copy of the game.",
   notesEs: "F-Zero GX: decompilación de karamzov123 para Windows. Aporta tu propia copia del juego.",
 };

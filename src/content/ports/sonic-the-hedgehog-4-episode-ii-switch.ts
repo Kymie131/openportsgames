@@ -25,6 +25,8 @@ export const sonicTheHedgehog4EpisodeIiSwitch: Port = {
     alt: "Sonic the Hedgehog 4: Episode II (box art)",
     credit: "Wikipedia",
   },
+  summary: "Sonic the Hedgehog 4: Episode II is a platform game developed by Dimps and Sonic Team, and published by Sega for the PlayStation 3, Xbox 360, iOS, Android, and Windows in 2012. It was ported to the Ouya and Nvidia Shield in 2013.",
+  summaryEs: "Sonic the Hedgehog 4: Episode II es un videojuego de plataformas en 2012.",
   notes: "Sonic the Hedgehog 4: Episode II (Sonic Team, 2012) running on Nintendo Switch through source port. Latest release: s4ep2_nx-0.2. You need your own copy of the game.",
   notesEs: "Sonic the Hedgehog 4: Episode II (Sonic Team, 2012) en Nintendo Switch mediante port de código. Última release: s4ep2_nx-0.2. Necesitas tu propia copia del juego.",
 };

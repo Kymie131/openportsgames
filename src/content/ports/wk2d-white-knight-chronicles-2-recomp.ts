@@ -22,6 +22,8 @@ export const wk2dWhiteKnightChronicles2Recomp: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation 3"],
+  summary: "White Knight Chronicles II is a video game developed by Level-5 and published by Sony Computer Entertainment in Japan and Europe and by D3 Publisher in North America for the PlayStation 3. The game is a direct sequel to White Knight Chronicles (2008). The game was released in Japan on July 8, 2010, in PAL regions in June 2011, and in North America on September 13.",
+  summaryEs: "White Knight Chronicles II es un videojuego de rol publicado por Sony Interactive Entertainment en 2010.",
   notes: "White Knight Chronicles II: static recompilation by WK2D for Windows. Bring your own copy of the game.",
   notesEs: "White Knight Chronicles II: recompilación estática de WK2D para Windows. Aporta tu propia copia del juego.",
 };

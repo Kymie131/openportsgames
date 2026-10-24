@@ -22,6 +22,8 @@ export const dashr9230SaMp: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Windows"],
+  summary: "San Andreas Multiplayer is a shooter game in 2006.",
+  summaryEs: "San Andreas Multiplayer es un videojuego de disparos en 2006.",
   notes: "San Andreas Multiplayer: decompilation by dashr9230 for Windows. Bring your own copy of the game.",
   notesEs: "San Andreas Multiplayer: decompilación de dashr9230 para Windows. Aporta tu propia copia del juego.",
 };

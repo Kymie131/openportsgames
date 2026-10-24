@@ -26,6 +26,8 @@ export const mdkAndroid: Port = {
     alt: "MDK (box art)",
     credit: "Box art",
   },
+  summary: "MDK is a 1997 third-person shooter video game developed by Shiny Entertainment for Windows and subsequently ported to Mac OS by Shokwave, and to the PlayStation by Neversoft. The game was published on all systems by Playmates Interactive Entertainment (PIE) in North America, while Shiny handled the European release.",
+  summaryEs: "MDK es un videojuego en tercera persona creado por Shiny Entertainment en 1997. Fue lanzado para PC, PlayStation y Macintosh. El juego fue elogiado por la calidad de los gráficos para ese tiempo, y la banda sonora. Tuvo una secuela llamada MDK 2 en el año 2000.",
   notes: "C# and SDL3 port of MDK based on reverse engineering, with Android builds, stereo 3D, a Cardboard VR viewer and gamepad support. Work in progress.",
   notesEs: "Port de MDK en C# y SDL3 basado en ingeniería inversa, con builds para Android, estéreo 3D, visor VR Cardboard y mando. En desarrollo.",
 };

@@ -20,6 +20,8 @@ export const ShatteredParadise: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Shattered Paradise is a dark turn-based roguelike RPG inspired by The Divine Comedy. Descend through Inferno, Purgatory and Paradise in the aftermath of a rebellion that shattered creation itself. Prepare to challenge God... and live with everything that follows.",
+  summaryEs: "Shattered Paradise es un videojuego de acción y aventura publicado por TBD.",
   notes: "Shattered Paradise's main repository and installation Kit.",
   notesEs: "Repositorio principal e instalador de Shattered Paradise.",
 };

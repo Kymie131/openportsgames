@@ -19,6 +19,8 @@ export const fadeToBlackRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Fade to Black is a 1995 action-adventure game developed by Delphine Software International and published by Electronic Arts. It is the sequel to the 1992 video game Flashback. The game was released for MS-DOS with full Gouraud-shaded 3D graphics, and PlayStation with fully textured 3D.",
+  summaryEs: "Fade to Black es un videojuego perteneciente a la categoría aventura de acción o aventura de disparo en 3D desarrollado por Delphine Software originalmente para PC en 1995. En 1996 tuvo una versión para PlayStation que, en el año 2008, fue reeditada en la PlayStation Network para PlayStation 3 y PSP. Unas versiones para Sega Saturn y Nintendo 64 lanzan este juego pero fueron cancelados sin motivo aparente. Es la secuela de Flashback: The Quest for Identity, juego anterior al más puro estilo de aventura de acción de plataformas.",
   notes:
     "Recompilation of Fade to Black (PS1, USA SLUS-00236) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

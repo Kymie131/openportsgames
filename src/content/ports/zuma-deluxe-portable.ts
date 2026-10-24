@@ -26,6 +26,8 @@ export const zumaDeluxePortable: Port = {
     alt: "Zuma Deluxe (box art)",
     credit: "Steam",
   },
+  summary: "Deep in the jungle lie hidden temples bursting with traps and trickery, and it's up to you to uncover their treasures. Fire magical balls from your stone frog idol to make matches of three or more and clear the deadly chain before it reaches the golden skull.",
+  summaryEs: "Zuma Deluxe es un videojuego de puzles publicado por PopCap Games, Inc. en 2006.",
   notes: "Open-source SDL2 port of Zuma Deluxe for Android, Windows and Linux. Bring your own game data.",
   notesEs: "Port de código abierto con SDL2 de Zuma Deluxe para Android, Windows y Linux. Aporta tus propios datos del juego.",
 };

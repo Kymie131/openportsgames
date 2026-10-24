@@ -26,6 +26,8 @@ export const turningwheelBarony: Port = {
     alt: "Barony (box art)",
     credit: "Steam",
   },
+  summary: "Barony is a role-playing game in 2015.",
+  summaryEs: "Barony es un videojuego de rol en 2015.",
   notes: "Barony: engine remake by TurningWheel for Windows. Bring your own copy of the game.",
   notesEs: "Barony: recreación de motor de TurningWheel para Windows. Aporta tu propia copia del juego.",
 };

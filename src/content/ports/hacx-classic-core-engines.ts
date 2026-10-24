@@ -20,6 +20,8 @@ export const hacxClassicCoreEngines: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Doom modding is the practice of creating modifications for games in the first-person shooter franchise Doom developed by id Software, such as the original Doom and its sequel, Doom II: Hell on Earth. These modifications allow players to design new levels, change graphics and sounds, and adjust gameplay mechanics.",
+  summaryEs: "HacX es un videojuego de disparos.",
   notes: "HacX (Banjo Software, 1997) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (HACX.WAD).",
   notesEs: "HacX (Banjo Software, 1997) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
 };

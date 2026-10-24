@@ -20,6 +20,8 @@ export const Ares: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "ARES is a VR Milsim platform with interactive features, simulated combat scenarios, and customization options. Play solo or online with other players in different gamemodes across an open milsim sandbox experience rooted deep in player-driven campaigns missions, &amp; scenarios. Gear up and embark!",
+  summaryEs: "ares es un videojuego de plataformas publicado por Prelancer Studios.",
   notes: "ares is a cross-platform, open source, multi-system emulator, focusing on accuracy and preservation.",
   notesEs: "ares es un emulador multi-sistema de código abierto y multiplataforma, centrado en la precisión y la preservación.",
 };

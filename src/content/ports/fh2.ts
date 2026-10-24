@@ -21,6 +21,8 @@ export const fh2: Port = {
     spdx: "GPL-2.0",
   },
   verified: false,
+  summary: "Heroes of Might and Magic II is a strategy game published by The 3DO Company in 2000.",
+  summaryEs: "Heroes of Might and Magic II es un videojuego de estrategia publicado por The 3DO Company en 2000.",
   notes:
     "Engine reimplementation for Heroes of Might and Magic II, written from scratch in C++. Ships official Android builds on Google Play plus Windows, macOS and Linux releases.",
   notesEs:

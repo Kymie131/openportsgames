@@ -19,6 +19,8 @@ export const azureDreamsRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Azure Dreams is a dungeon crawler role-playing video game developed by Konami Computer Entertainment Tokyo and published by Konami for the PlayStation. A Game Boy Color game with the same name was developed by Konami Computer Entertainment Nagoya and released two years later. A spiritual sequel, Tao's Adventure: Curse of the Demon Seal, was released on the Nintendo DS in 2005.",
+  summaryEs: "Azure Dreams, lanzado en Japón como Other Life: Azure Dreams es un videojuego para PlayStation distribuido por Konami que fue lanzado en el año 1997. Más tarde, una versión para Game Boy fue presentada. En 2005 salió una semi-secuela, Tao´s adventure: Curse of the Demon Seal, para la Nintendo DS.",
   notes:
     "Recompilation of Azure Dreams (PS1, USA SLUS-00614) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

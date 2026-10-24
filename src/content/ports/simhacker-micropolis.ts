@@ -22,6 +22,8 @@ export const simhackerMicropolis: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "SimCity is an open-ended city-building video game franchise originally designed by Will Wright. The first game in the series, SimCity, was published by Maxis in 1989 and was followed by several sequels and many other spin-off Sim titles, including 2000's The Sims, which itself became a best-selling computer game and franchise. Maxis developed the series independently until 1997, and continued under the ownership of Electronic Arts (EA) until 2003. EA commissioned various spinoffs from other companies during the 2000s, focusing on console and mobile releases.",
+  summaryEs: "SimCity es una serie de videojuegos de construcción de ciudades desarrollada y publicada por Maxis en sus primeros juegos. La temática de los juegos de la serie se enfoca en la creación, gestión y evolución de ciudades.",
   notes: "SimCity: source port by SimHacker for Windows. Bring your own copy of the game.",
   notesEs: "SimCity: source port de SimHacker para Windows. Aporta tu propia copia del juego.",
 };

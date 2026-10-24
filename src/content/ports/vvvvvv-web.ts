@@ -26,6 +26,8 @@ export const vvvvvvWeb: Port = {
     alt: "VVVVVV (box art)",
     credit: "Wikimedia Commons",
   },
+  summary: "VVVVVV is a 2010 puzzle-platform game created by Terry Cavanagh. In the game, the player controls Captain Viridian, who must rescue their spacecrew after a teleporter malfunction caused them to be separated in Dimension VVVVVV. The gameplay is characterized by the inability of the player to jump, instead controlling the direction of gravity, causing the player to fall upwards or downwards. The game consists of more than 400 individual rooms, and also supports the creation of user-created levels.",
+  summaryEs: "VVVVVV es un videojuego 2D de plataformas y puzles, creado usando Adobe Flash. Está disponible para GNU/Linux, Microsoft Windows, Mac OS, Nintendo 3DS, PlayStation Vita, PlayStation 4, Nintendo Switch, iOS, Android, Ouya y Pandora.",
   notes: "WebAssembly port of VVVVVV for the browser, built from the open-source game. Bring your own data files.",
   notesEs: "Port a WebAssembly de VVVVVV para el navegador, construido desde el juego open source. Aporta tus propios archivos de datos.",
 };

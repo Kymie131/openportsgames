@@ -29,6 +29,8 @@ export const pspLatro: Port = {
     alt: "Balatro (box art)",
     credit: "Wikipedia",
   },
+  summary: "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.",
+  summaryEs: "Balatro es un videojuego de estrategia publicado por Playstack en 2024.",
   notes:
     "Limited fan-recreation of Balatro for the Sony PSP by InternalRegister, archived in this fork after the original repository was taken down. It requires files from your own copy of the game. Latest release: latest (2025-10-05).",
   notesEs:

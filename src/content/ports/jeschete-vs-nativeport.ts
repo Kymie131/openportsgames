@@ -6,7 +6,7 @@ export const jescheteVsNativeport: Port = {
   title: "Vagrant Story (VS-NativePort)",
   game: "Vagrant Story",
   developers: ["JEschete"],
-  publisher: "Unknown",
+  publisher: "Square",
   originalYear: 2000,
   portType: "source-port",
   genre: "action-adventure",
@@ -27,6 +27,8 @@ export const jescheteVsNativeport: Port = {
     alt: "Vagrant Story (box art)",
     credit: "Wikipedia",
   },
+  summary: "Vagrant Story is a 2000 action role-playing game developed and published by Square for the PlayStation. The game has been re-released by Square Enix through the PlayStation Network for the PlayStation 3, PlayStation Portable and PlayStation Vita consoles. Vagrant Story was primarily developed by the team responsible for Final Fantasy Tactics, with Yasumi Matsuno serving as director, producer, designer, and writer.",
+  summaryEs: "Vagrant Story es un juego JRPG desarrollado y publicado por Square Co., Ltd., para la consola de videojuegos PlayStation. El juego fue lanzado en el año 2000, y ha sido relanzado a través de la PlayStation Network para las consolas PlayStation 3 y PlayStation Portable. Se caracteriza por su fascinante argumento, la creación/modificación de armas, resolución de acertijos y el uso de Magia. Vagrant Story fue desarrollado principalmente por el equipo responsable de Final Fantasy Tactics, con Yasumi Matsuno como productor, escritor y director.",
   notes: "Vagrant Story: source port by JEschete for Windows. Bring your own copy of the game.",
   notesEs: "Vagrant Story: source port de JEschete para Windows. Aporta tu propia copia del juego.",
 };

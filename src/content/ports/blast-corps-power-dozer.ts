@@ -25,6 +25,8 @@ export const blastCorpsPowerDozer: Port = {
     alt: "Blast Corps (box art)",
     credit: "Wikipedia",
   },
+  summary: "Blast Corps is a 1997 action game developed by Rare and published by Nintendo for the Nintendo 64. The player uses vehicles to destroy buildings in the path of a runaway nuclear missile carrier. In the game's 57 levels, the player solves puzzles by transferring between vehicles to move objects and bridge gaps. It was released in March 1997 in Japan and North America. A wider release followed at the end of that year.",
+  summaryEs: "Blast Corps es un videojuego de 1997 para la Nintendo 64, siendo la mecánica principal del juego utilizar vehículos para destruir y limpiar el camino de un vehículo con misiles nucleares. El juego contiene un total de 57 niveles en el cual utilizaremos diversas mecánicas para la resolución de diversos puzles como mover objetos con los distintos vehículos para rellenar huecos para que hagan de puente. Fue desarrollado por Rare, publicado por Nintendo y lanzado en marzo de 1997 en Japón y Norteamérica.",
   notes: "Power Dozer: native port of Blast Corps (Nintendo 64, 1997) using static recompilation for Linux and Windows. Bring your own ROM. Latest release: v0.84.",
   notesEs: "Power Dozer: port nativo de Blast Corps (Nintendo 64, 1997) mediante recompilación estática para Linux y Windows. Aporta tu propia ROM. Última release: v0.84.",
 };

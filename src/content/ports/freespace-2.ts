@@ -33,6 +33,8 @@ export const freeSpace2: Port = {
     "Renderizadores OpenGL y Vulkan modernos",
     "Scripting de misiones extensible",
   ],
+  summary: "FreeSpace 2 is a 1999 space combat simulation video game developed by Volition as the sequel to Descent: FreeSpace – The Great War. It was completed ahead of schedule in less than a year, and released to very positive reviews, but the game became a commercial failure, and was described by certain critics as one of 1999's most unfairly overlooked titles.",
+  summaryEs: "Freespace 2 es un videojuego de simulación publicado por Interplay Entertainment en 1999.",
   notes:
     "Open source engine for FreeSpace 2. The newest tag is a release candidate, so the last stable release is recorded. Licensing is governed by a custom Copying.md with additional terms rather than a standard OSI license.",
   notesEs:

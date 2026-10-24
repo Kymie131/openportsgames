@@ -26,6 +26,8 @@ export const nfsMostWantedDecomp: Port = {
     alt: "Need for Speed: Most Wanted (box art)",
     credit: "Steam",
   },
+  summary: "Need for Speed: Most Wanted is a 2012 racing game developed by Criterion Games and published by Electronic Arts. Most Wanted is the nineteenth title in the Need for Speed series and was released worldwide for Microsoft Windows, PlayStation 3, Xbox 360, PlayStation Vita, iOS and Android, beginning in North America in 2012. A Wii U version, under the title Need for Speed: Most Wanted U, was released in 2013. Like its predecessor, 2010's Hot Pursuit, the game is a revival of the original 2005 Most Wanted title.",
+  summaryEs: "Need for Speed: Most Wanted es un videojuego de carreras de la saga Need for Speed desarrollado por Electronic Arts y Criterion Games para Xbox 360, PlayStation 3, Wii U, PlayStation Vita y PC. El juego fue lanzado el 31 de octubre de 2012. Se trata de una versión renovada del Most Wanted (2005) original, por lo tanto no es una secuela directa.",
   notes: "Work-in-progress 1:1 decompilation of several versions of Need for Speed: Most Wanted (2005). Its only release is a tooling add-on (extension_0.1.0), not a playable build.",
   notesEs: "Decompilación 1:1 en curso de varias versiones de Need for Speed: Most Wanted (2005). Su única release es un complemento de herramientas (extension_0.1.0), no una build jugable.",
 };

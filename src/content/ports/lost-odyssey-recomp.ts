@@ -19,6 +19,8 @@ export const lostOdysseyRecomp: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   originalSystems: ["Xbox 360"],
+  summary: "Lost Odyssey is a role-playing video game developed by Mistwalker and Feelplus and published by Microsoft Game Studios for the Xbox 360. Additionally, the game can be purchased from the Xbox digital store and played on Xbox One and Xbox Series consoles through the Xbox backwards compatibility program.",
+  summaryEs: "Lost Odyssey es un RPG desarrollado por Mistwalker, junto con Feelplus, para Xbox 360.",
   notes:
     "Native recompilation of Lost Odyssey (Xbox 360). Builds for Windows x64, Linux x64, macOS arm64 and Android arm64, with Direct3D 12, Vulkan or Metal.",
   notesEs:

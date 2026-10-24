@@ -20,6 +20,8 @@ export const aceCombat5Recomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  summary: "Ace Combat 5: The Unsung War is a 2004 combat flight simulation game developed and published by Namco for the PlayStation 2. It is the fifth entry in the Ace Combat series, serving as a sequel to Ace Combat 04: Shattered Skies, and is likewise also set in the series' fictional universe of Strangereal. Set in 2010, the game's story follows fighter pilot \"Blaze\" and his squadron as they fight in a war between the superpower states of Osea and Yuktobania, and uncover the major conspiracy fueling the conflict that threatens to destroy both belligerents.",
+  summaryEs: "Ace Combat 5: The Unsung War, lanzado como Ace Combat: Squadron Leader en Europa, es un videojuego basado en la aviación militar para la plataforma PlayStation 2. Es la quinta entrega de la saga Ace Combat y narra los hechos posteriores al Ace Combat Zero, de la guerra ficticia Circum-Pacífica. El videojuego fue lanzado al mercado entre 2004 y 2005, dependiendo en cada país.",
   notes: "Tracked by PortsDR. No public repo is linked yet, and you supply the game files.",
   notesEs: "Seguido por PortsDR. Todavía no hay repo público, y tú aportas los archivos del juego.",
   cover: {

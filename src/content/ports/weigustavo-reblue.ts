@@ -22,6 +22,8 @@ export const weigustavoReblue: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Blue Dragon is a role-playing video game developed by Mistwalker and Artoon in collaboration with Microsoft Game Studios Japan and published by Microsoft Game Studios for the Xbox 360. It is based on a design by Final Fantasy series creator Hironobu Sakaguchi, who also supervised development and wrote the plot. It is both Mistwalker's debut title and the first title to be helmed by Sakaguchi outside of Square Enix.",
+  summaryEs: "Blue Dragon es un juego de rol para la consola de videojuegos Xbox 360. Fue desarrollado por Mistwalker y Artoon, publicado y financiado por Microsoft Game Studios, basado en un diseño parecido a la serie de Final Fantasy por el creador de esta, Hironobu Sakaguchi, quién también supervisó el desarrollo de Blue Dragon. También cuenta con la ayuda de Akira Toriyama, creador de Dragon Ball y Dr. Slump entre otras series, que ha creado los personajes de este juego de rol.",
   notes: "Blue Dragon: static recompilation by WeiGustavo for Windows. Bring your own copy of the game.",
   notesEs: "Blue Dragon: recompilación estática de WeiGustavo para Windows. Aporta tu propia copia del juego.",
 };

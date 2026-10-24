@@ -19,6 +19,8 @@ export const bubbleBobbleNesRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Nintendo Entertainment System"],
+  summary: "Bubble Bobble is a 1986 platform video game developed and published by Taito for arcades. It was released in North America by Romstar and in Europe by Electrocoin. Players control Bub and Bob, two dragons who set out to save their girlfriends from a world called the Cave of Monsters. In each level, Bub and Bob must defeat every enemy present by trapping them in bubbles and popping them. The enemies will then turn into bonus items when they hit the ground. There are 100 levels total, each becoming progressively more difficult.",
+  summaryEs: "Bubble Bobble es un videojuego de plataformas creado por Taito que ha sido lanzado en múltiples soportes. La primera versión fue creada para máquinas recreativas en el año 1986.",
   notes:
     "Static recompilation of Bubble Bobble (NES) for Windows 10 and 11. The ROM is not included, so you need your own copy.",
   notesEs:

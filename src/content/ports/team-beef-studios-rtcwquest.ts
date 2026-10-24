@@ -26,6 +26,8 @@ export const teamBeefStudiosRtcwquest: Port = {
     alt: "Return to Castle Wolfenstein (box art)",
     credit: "Wikipedia",
   },
+  summary: "Return to Castle Wolfenstein is a 2001 first-person shooter game developed by Gray Matter Studios and published by Activision. It was initially released for Microsoft Windows and subsequently for the PlayStation 2, Xbox, Linux, and Macintosh in the following years. The game serves as a reboot of the Wolfenstein series. id Software, the developers of Wolfenstein 3D, oversaw the development and were credited as executive producers.",
+  summaryEs: "Return to Castle Wolfenstein es la tercera secuela del videojuego creado por id Software Wolfenstein 3D. Creado en el año 2001 por la desarrolladora Gray Matter Studios usando la tecnología de Quake III Arena. Fue un juego altamente esperado y de un éxito bastante marcado sobre todo en su aspecto multijugador. El 12 de agosto de 2010 el código fuente, tanto sencillo como multiplayer, fue liberado bajo los términos de la licencia GPL.",
   notes: "Return to Castle Wolfenstein: source port by Team-Beef-Studios for Windows. Bring your own copy of the game.",
   notesEs: "Return to Castle Wolfenstein: source port de Team-Beef-Studios para Windows. Aporta tu propia copia del juego.",
 };

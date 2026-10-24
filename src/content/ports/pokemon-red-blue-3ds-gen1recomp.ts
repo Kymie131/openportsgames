@@ -25,6 +25,8 @@ export const pokemonRedBlue3dsGen1recomp: Port = {
     alt: "Pokemon Red (box art)",
     credit: "Box art",
   },
+  summary: "Pokémon Red Version and Pokémon Blue Version are 1996 role-playing video games (RPGs) developed by Game Freak and published by Nintendo for the Game Boy. They are the first installments of the Pokémon video game series and were first released in Japan as Pocket Monsters Red and Pocket Monsters Green, followed by the special edition Pocket Monsters Blue later that year.",
+  summaryEs: "Pokémon Red es un videojuego de rol publicado por Nintendo en 1996.",
   notes: "Pokemon Red (Nintendo, 1996) running on Nintendo 3DS through decompilation. Latest release: v0.0.1. You need your own copy of the game.",
   notesEs: "Pokemon Red (Nintendo, 1996) en Nintendo 3DS mediante decompilación. Última release: v0.0.1. Necesitas tu propia copia del juego.",
 };

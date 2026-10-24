@@ -25,6 +25,8 @@ export const drakengard3Pc: Port = {
     alt: "Drakengard 3 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Drakengard 3, known in Japan as Drag-On Dragoon 3, is a 2013 action role-playing video game developed by Access Games and published by Square Enix exclusively for PlayStation 3. It is the third main game in the Drakengard series and a prequel to the original game. The game, like the rest of the series, features a mixture of ground-based hack-and-slash combat and aerial battles. The story focuses on Zero, a woman who can manipulate magic through song. Partnering with a dragon named Mikhail, Zero set out to kill her five sisters, who rule the world's regions.",
+  summaryEs: "Drakengard 3, conocido en Japón como Drag-On Dragoon 3, es un rol de acción videojuego desarrollado por Access Games y publicado por Square Enix en exclusiva para PlayStation 3. Es el tercer juego de la serie Drakengard y una precuela de la aventura original de la PS2. El videojuego, como el resto de la serie, presenta una mezcla de combates terrestres de hack-and-slash con algunas secciones puntuales de batallas aéreas. La historia se centra en Zero, una mujer que puede manipular la magia a través de la canción.",
   notes: "Drakengard 3 (Access Games, 2013) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Drakengard 3 (Access Games, 2013) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

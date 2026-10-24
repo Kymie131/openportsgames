@@ -19,6 +19,8 @@ export const rumbleRosesXxRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Xbox 360"],
+  summary: "Rumble Roses XX is a professional wrestling fighting game developed by Yuke's for the Xbox 360 as the sequel to the 2004 PlayStation 2 game Rumble Roses. The game was released by Konami in 2006.",
+  summaryEs: "Rumble Roses XX es un videojuego de lucha lucha libre femenina del 2006, exclusivamente para la Xbox 360. Fue desarrollado por Konami y YUKE's Future Media Creators.",
   notes:
     "Recompilation of Rumble Roses XX (Xbox 360) for Windows. It needs the original game and does not bundle any content.",
   notesEs:

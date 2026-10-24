@@ -22,6 +22,8 @@ export const marvelVsCapcomRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  summary: "Marvel vs. Capcom: Clash of Super Heroes is a 1998 crossover fighting game developed and published by Capcom for the CP System II arcade system. It is the third installment in the Marvel vs. Capcom series, which features characters from Capcom's video game franchises and characters from Marvel Comics. Unlike the series' previous entry, Marvel Super Heroes vs. Street Fighter (1997), this sequel features characters from numerous Capcom video game franchises, rather than strictly Street Fighter characters.",
+  summaryEs: "Marvel vs. Capcom: Clash of Super Heroes, o simplemente conocido como \"Marvel Vs. Capcom\" o \"MVC\", es un videojuego de lucha crossovers entre las compañías Marvel Comics y Capcom lanzado a principios de 1998. Para el videojuego se rescatan muchos personajes clásicos de esta última compañía, tales como Mega Man, Strider Hiryū o Captain Commando. Es la tercera entrega de la serie Marvel vs. Capcom.",
   notes: "Indexed by PortsDR. No official repository is available, and it needs your own copy.",
   notesEs: "Indexado en PortsDR. No hay repositorio oficial disponible y necesita tu propia copia.",
   cover: {

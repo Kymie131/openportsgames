@@ -20,6 +20,8 @@ export const lba2Remake: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  summary: "Little Big Adventure 2 is a 1997 adventure game developed by Adeline Software International and published by Electronic Arts.",
+  summaryEs: "Litle Big Adventure 2 es un videojuego para ordenadores desarrollado por Adeline Software International. Es la secuela del juego Little Big Adventure.",
   notes:
     "Reimplementation of Little Big Adventure 2 (Twinsen's Odyssey) that runs the original game assets.",
   notesEs:

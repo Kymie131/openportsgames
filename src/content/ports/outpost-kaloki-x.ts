@@ -6,8 +6,8 @@ export const OutpostKalokiX: Port = {
   title: "Outpost Kaloki X",
   game: "Outpost Kaloki X",
   developers: ["TekRantGaming"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "Xbox Game Studios",
+  originalYear: 2004,
   portType: "recompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const OutpostKalokiX: Port = {
     alt: "Outpost Kaloki X (cover)",
     credit: "Wikipedia",
   },
+  summary: "Outpost Kaloki is a city-building video game developed by NinjaBee that places the player in the role of a manager, tasked with building a financially successful fantasy space station. An enhanced port, known as Outpost Kaloki X, was available for download from Xbox Live Arcade on the Xbox 360.",
+  summaryEs: "Outpost Kaloki X es un videojuego de acción y aventura publicado por Xbox Game Studios en 2004.",
   notes:
     "Native PC port of the XBLA game Outpost Kaloki X via static recompilation (ReXGlue). Bring your own game files.",
   notesEs:

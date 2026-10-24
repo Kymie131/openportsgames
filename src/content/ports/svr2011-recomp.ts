@@ -26,6 +26,8 @@ export const svr2011Recomp: Port = {
     alt: "WWE SmackDown vs. Raw 2011 (box art)",
     credit: "Wikipedia",
   },
+  summary: "WWE SmackDown vs. Raw 2011 is a professional wrestling video game developed by Yuke's and published by THQ for the PlayStation 2, PlayStation 3, PlayStation Portable, Xbox 360, and Wii systems. The game was released worldwide in October 2010, with the PS3 and Xbox 360 versions for Japan in February 2011.",
+  summaryEs: "WWE SmackDown vs. Raw 2011 es un videojuego de lucha libre profesional desarrollado por Yuke's y distribuido por THQ para los sistemas PlayStation 2 (PS2), PlayStation 3 (PS3), PlayStation Portable, Wii y Xbox 360. Es el duodécimo juego de la serie WWE SmackDown vs. Raw y es la secuela de WWE SmackDown vs. Raw 2010. Fue lanzado el 26 de octubre de 2010 en América del Norte, el 28 de octubre de 2010 en Australia y el 29 de octubre de 2010 en Europa. El juego se basa en las dos marcas de la World Wrestling Entertainment (WWE), Raw y SmackDown.",
   notes: "Unofficial Windows version of WWE SmackDown vs. Raw 2011 (Xbox 360) recompiled with ReXGlue: the game code runs as a normal Windows program instead of an emulator. Bring your own disc image. Latest release: v0.5.0.",
   notesEs: "Versión no oficial para Windows de WWE SmackDown vs. Raw 2011 (Xbox 360) recompilada con ReXGlue: el código del juego se ejecuta como un programa normal de Windows en lugar de en un emulador. Aporta tu propia imagen de disco. Última release: v0.5.0.",
 };

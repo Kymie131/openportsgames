@@ -25,6 +25,8 @@ export const balatroWiiU: Port = {
     alt: "Balatro (box art)",
     credit: "Wikipedia",
   },
+  summary: "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.",
+  summaryEs: "Balatro es un videojuego de estrategia publicado por Playstack en 2024.",
   notes: "Balatro (Playstack, 2024) running on Wii U through source port. You need your own copy of the game.",
   notesEs: "Balatro (Playstack, 2024) en Wii U mediante port de código. Necesitas tu propia copia del juego.",
 };

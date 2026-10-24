@@ -22,6 +22,8 @@ export const p3dge7161JiggleOrPhysics: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Arcade"],
+  summary: "Dead or Alive ++ is a fighting game published by Tecmo in 1998.",
+  summaryEs: "Dead or Alive ++ es un videojuego de lucha publicado por Tecmo en 1998.",
   notes: "Dead or Alive ++: static recompilation by 3dge7161 for Windows. Bring your own copy of the game.",
   notesEs: "Dead or Alive ++: recompilación estática de 3dge7161 para Windows. Aporta tu propia copia del juego.",
 };

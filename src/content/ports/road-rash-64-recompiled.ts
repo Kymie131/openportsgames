@@ -31,6 +31,8 @@ export const roadRash64Recompiled: Port = {
     "Rotación de música personalizada y 52 logros locales",
     "Pantalla dividida y multijugador en línea experimental",
   ],
+  summary: "Road Rash 64 is a 1999 racing game developed by Pacific Coast Power and Light and published by THQ for the Nintendo 64. The game is the fifth of seven entries in the Road Rash series of video games, the only entry to be published by THQ and the only entry to be released for the Nintendo 64 platform.",
+  summaryEs: "Road Rash 64 es un videojuego de carreras desarrollado por Pacific Coast Power and Light y publicado por THQ para Nintendo 64. El juego es el quinto de seis entregas en la serie de videojuegos Road Rash, la única entrada publicada por THQ y la única que se lanzó para la plataforma Nintendo 64.",
   notes:
     "Native recompilation of Road Rash 64. The README discloses that AI was used extensively during development, including code changes, debugging and launcher artwork. Requires the player's own legally obtained ROM.",
   notesEs:

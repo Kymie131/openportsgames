@@ -25,6 +25,8 @@ export const slaytheamethyst: Port = {
     alt: "Slay the Spire (cover art)",
     credit: "Steam",
   },
+  summary: "Slay the Spire is a 2019 roguelike deck-building game developed by the indie studio Mega Crit. It was published by Mega Crit for its initial PC release and by Humble Bundle for home consoles and mobile platforms. The game was released in early access for Microsoft Windows, macOS, and Linux in late 2017, with an official release in January 2019. It was released for PlayStation 4 in May 2019, for Nintendo Switch in June 2019 and for Xbox One in August 2019. An iOS version was released in June 2020, with an Android version released in February 2021.",
+  summaryEs: "Slay the Spire es un videojuego roguelike, RPG de cartas y mazmorras desarrollado por MegaCrit y publicado por Humble Bundle. El acceso anticipado estuvo disponible primero en Mac, Windows y Linux a finales del 2017, y en 2019 fue lanzada la versión completa también para Nintendo Switch, PlayStation 4 y Xbox One. Las versiones de iOS y Android fueron lanzadas en 2020 y 2021 respectivamente.",
   notes: "Slay the Spire (Humble Bundle, 2019) for Android (source port). Latest release: v1.6.3. Needs your own copy of the game.",
   notesEs: "Slay the Spire (Humble Bundle, 2019) para Android (port de código). Última release: v1.6.3. Necesita tu propia copia del juego.",
 };

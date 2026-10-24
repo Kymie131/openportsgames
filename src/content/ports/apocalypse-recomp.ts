@@ -19,6 +19,8 @@ export const apocalypseRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Apocalypse is a third-person shooter platform video game released for the PlayStation, developed by Neversoft Entertainment and published by Activision in 1998. It features actor Bruce Willis, who provides the likeness and voice for the main character, Trey Kincaid.",
+  summaryEs: "Apocalypse es un videojuego de disparos en 1998.",
   notes:
     "Recompilation of Apocalypse (PS1, Europe SLES-00460) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

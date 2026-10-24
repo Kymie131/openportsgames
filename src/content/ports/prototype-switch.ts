@@ -26,6 +26,8 @@ export const prototypeSwitch: Port = {
     alt: "Prototype (cover art)",
     credit: "Steam",
   },
+  summary: "Prototype is a 2009 action-adventure video game developed by Radical Entertainment and published by Activision. It was released in June 2009 for the PlayStation 3, Xbox 360, and Microsoft Windows. In July 2015, the game was re-released alongside its sequel as the Prototype Biohazard Bundle for the PlayStation 4 and Xbox One. Separate versions of the two games became available in August 2015.",
+  summaryEs: "Prototype es un videojuego de acción-aventura de mundo abierto desarrollado por Radical Entertainment y publicado por Activision. Fue lanzado en junio de 2009 para PlayStation 3, Xbox 360 y Microsoft Windows. En julio de 2015, el juego fue relanzado junto con su secuela como el Prototype Biohazard Bundle para PlayStation 4 y Xbox One. Las versiones separadas de los dos juegos estuvieron disponibles en agosto de 2015.",
   notes:
     "Prototype (Activision, 2009) running natively on Nintendo Switch through static recompilation of the Xbox 360 version. No game files are included.",
   notesEs:

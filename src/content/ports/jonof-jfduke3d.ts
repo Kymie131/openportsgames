@@ -22,6 +22,8 @@ export const jonofJfduke3d: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Duke Nukem 3D is a 1996 first-person shooter game developed by 3D Realms and published by FormGen for MS-DOS. It is a sequel to the platform games Duke Nukem and Duke Nukem II, published by 3D Realms.",
+  summaryEs: "Duke Nukem 3D es un videojuego de disparos en primera persona en 3D, desarrollado y distribuido por 3D Realms en 1996. Es la continuación de dos videojuegos de plataformas anteriores, Duke Nukem y Duke Nukem II. Posee una expansión llamada Duke Nukem 3D: Atomic Edition.",
   notes: "Duke Nukem 3D: source port by jonof for Windows. Bring your own copy of the game.",
   notesEs: "Duke Nukem 3D: source port de jonof para Windows. Aporta tu propia copia del juego.",
 };

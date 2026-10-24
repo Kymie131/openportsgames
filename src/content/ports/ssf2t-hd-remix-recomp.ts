@@ -25,6 +25,8 @@ export const ssf2tHdRemixRecomp: Port = {
     alt: "Super Street Fighter II Turbo HD Remix (box art)",
     credit: "Wikipedia",
   },
+  summary: "Super Street Fighter II Turbo HD Remix is a 2008 fighting game initially released on the PlayStation Store and Xbox Live Arcade services. A physical copy of the game was later released as part of Capcom Digital Collection. It is a remake of 1994's Super Street Fighter II Turbo featuring the original game and a high definition version using graphics drawn by UDON Entertainment, and arranged music by OverClocked ReMix members.",
+  summaryEs: "Super Street Fighter II Turbo HD Remix es un juego de la PlayStation 3 y Xbox Live Arcade lanzado en el año 2008. Es un remake mejorado de Super Street Fighter II Turbo.",
   notes:
     "Super Street Fighter II Turbo HD Remix (Capcom, 2008) running natively on Windows and Linux through static recompilation. Bring your own game package.",
   notesEs:

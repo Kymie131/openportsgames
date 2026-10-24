@@ -22,6 +22,8 @@ export const testdriveupgradeTdure: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Test Drive Unlimited is a 2006 racing video game developed by Eden Games for Xbox 360 and Windows, with Atari Melbourne House developed the PlayStation 2 and PlayStation Portable versions, and published by Atari. Being the eighteenth entry in the Test Drive series, Unlimited serves as a reboot of the franchise, discarding the continuity of the previous games. The game features over 125 licensed sports cars and motorcycles and the terrain is modeled after the Hawaiian island of Oʻahu that features over 1,000 miles (1,600 km) of roads and highways.",
+  summaryEs: "Test Drive Unlimited es un videojuego de carreras callejeras de 2006 desarrollado por Eden Games y distribuido por Atari para Xbox 360, Microsoft Windows, PlayStation 2 y PlayStation Portable. A pesar de ser la decimoctava entrega de la serie Test Drive, Test Drive Unlimited sirve como un reinicio de la franquicia, descartando la continuidad de sus juegos predecesores.",
   notes: "Test Drive Unlimited: static recompilation by testdriveupgrade for Windows. Bring your own copy of the game.",
   notesEs: "Test Drive Unlimited: recompilación estática de testdriveupgrade para Windows. Aporta tu propia copia del juego.",
   cover: {

@@ -19,6 +19,8 @@ export const syphonFilter2Recompiled: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Syphon Filter 2 is a 2000 third-person shooter video game developed by Eidetic and published by Sony Computer Entertainment for the PlayStation. It is the second installment in the Syphon Filter franchise and a sequel to 1999 Syphon Filter. It is the last game in the series to be released by 989 Studios in North America. In 2022, it was added to the premium collection for PlayStation Plus.",
+  summaryEs: "Syphon Filter 2 es un videojuego perteneciente al género de disparos y sigilo en tercera persona para la consola PlayStation 1, realizado por \"989 Studios\". Éste es el segundo juego de la saga Syphon Filter, e inicia exactamente donde terminó el primer videojuego Syphon Filter.",
   notes:
     "Experimental recompilation of Syphon Filter 2 (PS1, USA, two discs, SCUS-94451) with PSXRecomp. A build-it-yourself Windows kit: a SETUP.bat detects the disc, downloads the tools and compiles, with no need for Visual Studio or Git. It is still an alpha (v0.1.2).",
   notesEs:

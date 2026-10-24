@@ -39,6 +39,8 @@ export const namcoSystem22RaveRacer: Port = {
       credit: "spacestate1/namco22-decompile",
     },
   ],
+  summary: "Rave Racer is a 1995 racing video game developed and published by Namco for arcades. It is the third title in the Ridge Racer series and the follow-up to Ridge Racer and Ridge Racer 2. Rave Racer runs on Namco System 22 hardware, and could be played by two people per cabinet for up to eight players total when up to four of them were linked together. Compared to Ridge Racer 2, Rave Racer adds two new tracks as well as the ability to play the original two, various handling changes, force feedback steering, and improved car and racetrack graphics.",
+  summaryEs: "Rave Racer es un videojuego de carreras arcade que fue lanzado por Namco en 1995. Se ejecuta en el hardware Namco System 22, y podría ser jugado por dos personas por gabinete para hasta ocho jugadores en total cuando hasta cuatro de ellos estaban vinculados entre sí. Es el tercer título arcade de la serie Ridge Racer y la continuación de Ridge Racer y Ridge Racer 2.",
   notes:
     "Decompilation of the 1995 Namco arcade racer for PC. This one also needs the separate sound board ROM set (namcoc74.zip) alongside the game ROM.",
   notesEs:

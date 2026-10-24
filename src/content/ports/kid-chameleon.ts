@@ -7,7 +7,7 @@ export const KidChameleon: Port = {
   game: "Kid Chameleon",
   developers: ["sonicretro"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 1992,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const KidChameleon: Port = {
     alt: "Kid Chameleon (box art)",
     credit: "Wikipedia",
   },
+  summary: "Kid Chameleon is a 1992 platform game developed and published by Sega for the Sega Genesis. The player controls the \"Kid Chameleon\" and attempts to save his peers from a virtual reality video game's rogue artificial intelligence. The gameplay involves the player going through a series of levels, in which the goal is to reach a flag at the end. The central mechanic revolves around different forms, obtained from masks, which are used to progress through levels.",
+  summaryEs: "Kid Chameleon, conocido como Chameleon Kid en Japón, es un videojuego de plataformas publicado para Mega Drive. La premisa del videojuego es que el personaje principal, Casey, puede utilizar máscaras para transformarse en personajes diferentes con el fin de utilizar diferentes habilidades.",
   notes: "Split disassembly of Kid Chameleon.",
   notesEs: "Desensamblado dividido de Kid Chameleon.",
 };

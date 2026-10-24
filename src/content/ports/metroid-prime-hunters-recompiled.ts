@@ -38,6 +38,8 @@ export const metroidPrimeHuntersRecompiled: Port = {
       credit: "Metroid Prime Hunters Recompiled",
     },
   ],
+  summary: "Metroid Prime Hunters is a 2006 action-adventure game developed by Nintendo Software Technology and published by Nintendo for the Nintendo DS. It was released in North America in March 2006, with other territories later. The story takes place in between the events of Metroid Prime and Metroid Prime 2: Echoes. Players assume the role of series protagonist Samus Aran, who investigates a mysterious message that originated from the Alimbic Cluster and comes into contact with a legion of bounty hunters.",
+  summaryEs: "Metroid Prime: Hunters es un videojuego de acción en primera persona para Nintendo DS y cuyos acontecimientos se dan entre Metroid Prime y Metroid Prime 2: Echoes. Fue desarrollado por Nintendo Software Technology, un equipo de desarrollo interno de Nintendo con base en Redmond, Washington. El juego fue lanzado el 20 de marzo de 2006 en Estados Unidos, y en mayo y junio en Europa y Japón, respectivamente.",
   notes:
     "Native recompilation of the Nintendo DS first-person shooter Metroid Prime Hunters, labeled by its author as a public alpha. Requires the player's own legally obtained copy of the game.",
   notesEs:

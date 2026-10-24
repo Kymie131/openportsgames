@@ -26,6 +26,8 @@ export const omegakatana92SamuaiShodownWarriorsRageRecomp: Port = {
     alt: "Samurai Shodown: Warriors Rage (box art)",
     credit: "Box art",
   },
+  summary: "Samurai Shodown: Warriors Rage is the seventh game in SNK's Samurai Shodown series of fighting games, and the third 3D game. It was designed for the original Sony PlayStation console.",
+  summaryEs: "Samurai Shodown: Warriors Rage, conocido como New Chapter of Samurai Spirits, Strange Tale of the Swordsman: Revival of the Blue and Red Blade en Japón, es el séptimo juego de SNK de la serie Samurai Shodown de videojuegos de lucha, y el tercer juego en 3D. Fue diseñado para la consola Sony PlayStation original.",
   notes: "Samurai Shodown: Warriors Rage: static recompilation by omegakatana92 for Windows. Bring your own copy of the game.",
   notesEs: "Samurai Shodown: Warriors Rage: recompilación estática de omegakatana92 para Windows. Aporta tu propia copia del juego.",
 };

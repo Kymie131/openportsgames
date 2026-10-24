@@ -19,6 +19,8 @@ export const bloodOmenLegacyOfKainRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Blood Omen: Legacy of Kain is a 1996 action-adventure video game developed by Silicon Knights and published by Crystal Dynamics for the PlayStation. A Windows port developed by Semi Logic Entertainments was released by Activision under license from Crystal Dynamics in 1997. It is the first title in the Legacy of Kain series. The game was re-released digitally via GOG.com in 2021.",
+  summaryEs: "Blood Omen: Legacy of Kain es un videojuego de acción y aventura desarrollado por Silicon Knights y publicado por Crystal Dynamics, con la participación en la distribución de Activision y BMG Interactive. Fue lanzado para PlayStation en 1996, y una versión para Microsoft Windows fue desarrollada por Semi Logic Entertainments y lanzada conjuntamente por Crystal Dynamics y Activision en 1997, que luego fue relanzada digitalmente a través de GOG.com en 2021. El juego es el primer título de la serie Legacy of Kain.",
   notes:
     "Recompilation of Blood Omen: Legacy of Kain (PS1, USA SLUS-00027) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

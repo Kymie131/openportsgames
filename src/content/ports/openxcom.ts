@@ -42,6 +42,8 @@ export const openXcom: Port = {
       credit: "OpenXcom",
     },
   ],
+  summary: "You are in control of X-COM: an organization formed by the world's governments to fight the ever-increasing alien menace.",
+  summaryEs: "XCom: UFO Defense es un videojuego de estrategia publicado por 2K en 2008.",
   notes:
     "Open source reimplementation of the original X-COM engine. The tagged v1.0 release is from 2014; current builds are distributed via openxcom.org. Requires original X-COM data.",
   notesEs:

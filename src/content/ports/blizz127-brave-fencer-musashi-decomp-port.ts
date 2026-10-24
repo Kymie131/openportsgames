@@ -27,6 +27,8 @@ export const blizz127BraveFencerMusashiDecompPort: Port = {
     alt: "Brave Fencer Musashi (box art)",
     credit: "Box art",
   },
+  summary: "Brave Fencer Musashi is a 1998 platform video game developed and published by Square for the PlayStation. The game involves real-time sword-based combat in a 3D environment; it also features segments of voiced over dialogue and role-playing game elements such as a day-night cycle and resting to restore energy.",
+  summaryEs: "Brave Fencer Musashi es un videojuego de rol de acción desarrollado y publicado por Square en 1998 para la consola doméstica PlayStation. El juego implica combates con espadas en tiempo real en un entorno 3D; también presenta segmentos de diálogos con voz y elementos de juegos de rol, como un ciclo día-noche y descanso para recuperar energía.",
   notes: "Brave Fencer Musashi: source port by Blizz127 for Windows, Linux. Bring your own copy of the game.",
   notesEs: "Brave Fencer Musashi: source port de Blizz127 para Windows, Linux. Aporta tu propia copia del juego.",
 };

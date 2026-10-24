@@ -19,6 +19,8 @@ export const chaotixRecompiled: Port = {
   license: { spdx: "MIT" },
   verified: false,
   originalSystems: ["Sega 32X"],
+  summary: "Knuckles' Chaotix is a 1995 platform game developed and published by Sega for the 32X. A spin-off of the Sonic the Hedgehog series, it features Knuckles the Echidna and four other characters known as the Chaotix, who must prevent Doctor Robotnik and Metal Sonic from obtaining six magic rings and conquering a mysterious island. The gameplay is similar to previous Sonic games: players complete levels while collecting rings and defeating enemies.",
+  summaryEs: "Knuckles' Chaotix es un videojuego de plataformas de 1995, desarrollado y publicado por Sega para la consola 32X. Como derivado de la serie Sonic the Hedgehog, el título presenta a Knuckles the Echidna y a otros cuatro personajes conocidos como los «Chaotix», quienes deben impedir que el Doctor Robotnik y Metal Sonic obtengan seis anillos mágicos y conquisten una misteriosa isla. La jugabilidad es similar a la de entregas anteriores de Sonic: los jugadores completan niveles mientras recolectan anillos y derrotan enemigos.",
   notes:
     "Static recompilation of Knuckles' Chaotix (Sega 32X) to native C++, with true widescreen. It builds for Windows, Linux, macOS and Android and requires your own ROM.",
   notesEs:

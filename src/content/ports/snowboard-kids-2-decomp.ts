@@ -26,6 +26,8 @@ export const snowboardKids2Decomp: Port = {
     alt: "Snowboard Kids 2 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Snowboard Kids 2 is a snowboarding video game developed by Racjin and published by Atlus. It serves as the sequel to Snowboard Kids and was later followed by another sequel, SBK: Snowboard Kids.",
+  summaryEs: "Snowboard Kids 2 es un videojuego de deportes en 1999.",
   notes: "Decompilation of Snowboard Kids 2 (Nintendo 64, 1999). Work in progress; no playable release yet.",
   notesEs: "Decompilación de Snowboard Kids 2 (Nintendo 64, 1999). En desarrollo; sin release jugable todavía.",
 };

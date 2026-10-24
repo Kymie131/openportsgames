@@ -26,6 +26,8 @@ export const omegakatana92ArmoredCoreRecomp: Port = {
     alt: "Armored Core (box art)",
     credit: "Box art",
   },
+  summary: "Armored Core is a 1997 third-person shooter mecha video game developed by FromSoftware for the PlayStation. The first installment in the Armored Core series, it was released outside Japan by Sony Computer Entertainment. A digital port was released in 2007 in Japan and 2015 in North America on the PlayStation Network as a part of the PSone Classics line of games.",
+  summaryEs: "Armored Core es un videojuego de mecha lanzado en 1997. Este es el primero en la serie Armored Core para la PlayStation Portable, PlayStation, PlayStation 2, Xbox 360 y plataformas de telefonía móvil. Este es un videojuego de acción de perspectiva en tercera persona.",
   notes: "Armored Core: static recompilation by omegakatana92 for Windows. Bring your own copy of the game.",
   notesEs: "Armored Core: recompilación estática de omegakatana92 para Windows. Aporta tu propia copia del juego.",
 };

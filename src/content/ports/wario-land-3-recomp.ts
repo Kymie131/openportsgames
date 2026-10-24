@@ -26,6 +26,8 @@ export const warioLand3Recomp: Port = {
     alt: "Wario Land 3 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Wario Land 3, known in Japan as Wario Land 3: Mysterious Music Box, is a 2000 platform game developed by Nintendo R&D1 and published by Nintendo for the Game Boy Color. The game's plot centers around Wario who must free a mysterious figure who is trapped inside a music box. The game was released in Japan on March 21, 2000, Europe on April 14, 2000, and North America on May 30, 2000.",
+  summaryEs: "Wario Land 3 es un videojuego de plataformas de progresión no lineal lanzado por Nintendo para la consola Game Boy Color, protagonizado por Wario, siendo uno de los mejores juegos para esta plataforma. La historia del juego trata de que Wario está encerrado en un mundo que está dentro de una caja musical y debe salir de ahí. Este videojuego es el más avanzado de la saga Wario Land para Game Boy Color.",
   notes: "Static recompilation of Wario Land 3 with widescreen and mod support, including an Android ARM64 build and HD tile/music packs.",
   notesEs: "Recompilación estática de Wario Land 3 con pantalla ancha y soporte de mods, incluida una build ARM64 para Android y packs HD de tiles y música.",
 };

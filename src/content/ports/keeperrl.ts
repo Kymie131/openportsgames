@@ -7,7 +7,7 @@ export const Keeperrl: Port = {
   game: "KeeperRL",
   developers: ["miki151"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2015,
   portType: "source-port",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const Keeperrl: Port = {
     alt: "KeeperRL (cover art)",
     credit: "Steam",
   },
+  summary: "KeeperRL is a action-adventure game in 2015.",
+  summaryEs: "KeeperRL es un videojuego de acción y aventura en 2015.",
   notes: "Source code of KeeperRL.",
   notesEs: "Código fuente de KeeperRL.",
 };

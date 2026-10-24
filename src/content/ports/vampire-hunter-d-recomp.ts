@@ -7,7 +7,7 @@ export const vampireHunterDRecomp: Port = {
   game: "Vampire Hunter D",
   developers: ["alexbeavs"],
   publisher: "Jaleco",
-  originalYear: 2000,
+  originalYear: 1999,
   portType: "recompilation",
   genre: "action-adventure",
   openSource: true,
@@ -19,6 +19,8 @@ export const vampireHunterDRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Vampire Hunter D is a PlayStation video game based on the series of books and movies of the same name. Along with Countdown Vampires, it is one of the few survival horror games to revolve around vampires.",
+  summaryEs: "Vampire Hunter D es un videojuego de acción y aventura publicado por Jaleco en 1999.",
   notes:
     "Recompilation of Vampire Hunter D (PS1, USA SLUS-01138) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

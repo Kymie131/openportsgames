@@ -32,6 +32,8 @@ export const doom64ExPlus: Port = {
     "Reedición de los mapas originales más contenido nuevo",
     "Iluminación moderna y soporte panorámico",
   ],
+  summary: "Doom 64 is a 1997 first-person shooter game developed and published by Midway Games for the Nintendo 64. It is the second spin-off in id Software's Doom series after Final Doom (1996), and the fourth game in the series overall.",
+  summaryEs: "Doom 64 es un videojuego de disparos en primera persona desarrollado y publicado por Midway Games para Nintendo 64 en 1997. Este videojuego pertenece a la serie de videojuegos de shooter en primera persona Doom. En un principio se lanzó exclusivamente para la Nintendo 64 pero se lanzó para PlayStation 4, Xbox One y PC y luego se relanzó para Nintendo Switch, como una mejora en varios aspectos a la versión original basada en las anteriores videoconsolas.",
   notes:
     "Complete source port of Doom 64. The project is archived on GitHub and its license is a custom Limited Use Software License, so the terms are not an OSI license. The upstream repository is archived (read-only).",
   notesEs:

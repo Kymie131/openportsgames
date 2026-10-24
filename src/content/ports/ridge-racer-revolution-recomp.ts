@@ -19,6 +19,8 @@ export const ridgeRacerRevolutionRecomp: Port = {
   license: { spdx: "MIT" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Ridge Racer Revolution is a 1995 racing video game developed and published by Namco for the PlayStation. It is the sequel to the PlayStation version of Ridge Racer. Like the original Ridge Racer, the player races computer-controlled cars with the objective of winning a series of races, and supports Namco's NeGcon controller. Ridge Racer Revolution adds two hidden cars, and two-player support via the PlayStation Link cable, and took roughly the same time to develop as the first. The intention was to increase the depth and add features.",
+  summaryEs: "Ridge Racer Revolution es un videojuego de carreras de arcade desarrollado y publicado por Namco para la PlayStation en 1995. Es la secuela de PlayStation de Ridge Racer. Al igual que el Ridge Racer original, el jugador corre autos controlados por computadora con el objetivo de ganar una serie de carreras, y es compatible con el controlador NeGcon de Namco. Ridge Racer Revolution agrega dos autos ocultos y soporte para dos jugadores a través del PlayStation Link Cable, y tomó aproximadamente el mismo tiempo para desarrollarse que el primero.",
   notes:
     "Native recompilation of Ridge Racer Revolution (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:

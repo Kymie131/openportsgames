@@ -26,6 +26,8 @@ export const marioParty6Native: Port = {
     alt: "Mario Party 6 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Mario Party 6 is a 2004 party video game developed by Hudson Soft and published by Nintendo for the GameCube. It is the sixth installment in the Mario Party series, the third title in the series for the GameCube, and the first GameCube game to make use of a microphone add-on. The game was released in Japan on November 18, 2004, in North America on December 6, 2004, in Europe on March 18, 2005, and in Australia on September 15, 2005.",
+  summaryEs: "Mario Party 6 es la sexta entrega de la saga Mario Party, desarrollada por Hudson Soft y distribuida por Nintendo y es el tercer videojuego de la saga para el Nintendo GameCube. Su lanzamiento original tuvo lugar a finales de 2004 y 18 de marzo de 2005 en Europa.",
   notes: "Native Windows and Android port of Mario Party 6 built on the byte-accurate GameCube decompilation. Game files are not included; supply your own disc.",
   notesEs: "Port nativo para Windows y Android de Mario Party 6 sobre la descompilación byte-exacta de GameCube. No incluye archivos del juego; aporta tu propio disco.",
 };

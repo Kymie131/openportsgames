@@ -25,6 +25,8 @@ export const superMarioBrosWonderRecomp: Port = {
     alt: "Super Mario Bros. Wonder (box art)",
     credit: "Wikipedia",
   },
+  summary: "Super Mario Bros. Wonder is a 2023 platform game by Nintendo for the Nintendo Switch. It is the first side-scrolling Super Mario platform game since New Super Mario Bros. U (2012). The player controls one of the following; Mario, Luigi, Peach, Daisy, Blue Toad, Yellow Toad, one of four Yoshis and Nabbit, as they attempt to stop Bowser, who plots to take over a new land known as the Flower Kingdom after using the magical Wonder Flower to fuse himself with the kingdom's castle.",
+  summaryEs: "Super Mario Bros. Wonder es un videojuego de plataformas de 2023 desarrollado y publicado por Nintendo para la Nintendo Switch. Es el primer juego tradicional de Super Mario de desplazamiento lateral desde New Super Mario Bros. U (2012). El jugador controla a Mario, Luigi y sus amigos mientras intentan detener a Bowser, que planea hacerse cargo de una nueva tierra conocida como el Reino de las Flores después de usar la mágica Flor de la Maravilla para fusionarse con el castillo del reino.",
   notes: "Super Mario Bros. Wonder (Nintendo, 2023) for Android (static recompilation). Needs your own copy of the game.",
   notesEs: "Super Mario Bros. Wonder (Nintendo, 2023) para Android (recompilación estática). Necesita tu propia copia del juego.",
 };

@@ -20,6 +20,8 @@ export const wordlePsp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Other"],
+  summary: "Wordle is a puzzle game published by gigantumgames in 2021.",
+  summaryEs: "Wordle es un videojuego de puzles publicado por gigantumgames en 2021.",
   notes: "Native port of Wordle to the Sony PSP with D-pad and face-button controls and an on-screen QWERTY keyboard. Latest release: v0.0.2.",
   notesEs: "Port nativo de Wordle para la PSP de Sony con controles de cruceta y botones y un teclado QWERTY en pantalla. Última release: v0.0.2.",
 };

@@ -20,6 +20,8 @@ export const mercenariesRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  summary: "Mercenaries: Playground of Destruction is an action-adventure video game developed by Pandemic Studios and published by LucasArts for PlayStation 2 and Xbox. Additionally, the game can be purchased from the Xbox digital store and played on Xbox One and Xbox Series consoles through the Xbox backwards compatibility program.",
+  summaryEs: "Mercenarios: El arte de la destrucción es un videojuego de acción en tercera persona ambientado en un imaginario golpe de Estado en Corea del Norte en septiembre de 2009. Fue sacado a la venta el 18 de febrero de 2005. Actualmente hay una secuela, titulada Mercenarios 2: World in Flames, ambientada en Venezuela.",
   notes:
     "Native recompilation of Mercenaries: Playground of Destruction (PlayStation 2) for Windows. It needs your own copy of the game.",
   notesEs:

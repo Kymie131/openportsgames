@@ -6,7 +6,7 @@ export const Starflight: Port = {
   title: "Starflight",
   game: "Starflight",
   developers: ["s-macke"],
-  publisher: "Unknown",
+  publisher: "Electronic Arts",
   originalYear: 1986,
   portType: "reimplementation",
   genre: "action-adventure",
@@ -25,6 +25,8 @@ export const Starflight: Port = {
     alt: "Starflight (box art)",
     credit: "Wikipedia",
   },
+  summary: "Starflight is a space exploration, combat, and trading role-playing video game created by Binary Systems and published by Electronic Arts in 1986. Originally developed for IBM PC compatibles, it was later ported to the Amiga, Atari ST, Mac, and Commodore 64. A fully revamped version of the game was released for the Genesis in 1991.",
+  summaryEs: "Starflight es un videojuego publicado por Electronic Arts y desarrollado por Binary Systems en 1986. Originalmente desarrollado para DOS y Tandy, fue posteriormente lanzado al mercado para Amiga, Atari ST, Macintosh y Commodore 64. Una versión totalmente renovada del juego fue desarrollado para Mega Drive en 1991.",
   notes: "Reverse engineered game Starflight (1986).",
   notesEs: "Ingeniería inversa del juego Starflight (1986).",
 };

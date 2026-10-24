@@ -21,6 +21,8 @@ export const xripUoClient: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Windows"],
+  summary: "Ultima Online (UO) is a fantasy massively multiplayer online role-playing game (MMORPG) released on September 24, 1997 by Origin Systems.",
+  summaryEs: "Ultima Online es un videojuego de rol multijugador masivo en línea publicado el 30 de septiembre de 1997 bajo la dirección de Richard Garriot Origin Systems y se juega en línea en un universo de ficción similar al de otros juegos de la serie Ultima.",
   notes: "Ultima Online: decompilation by xrip for Windows. Bring your own copy of the game.",
   notesEs: "Ultima Online: decompilación de xrip para Windows. Aporta tu propia copia del juego.",
 };

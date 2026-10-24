@@ -25,6 +25,8 @@ export const needForSpeedCarbonSwitch: Port = {
     alt: "Need for Speed: Carbon (box art)",
     credit: "Wikipedia",
   },
+  summary: "Need for Speed: Carbon is a 2006 racing video game and the tenth installment in the Need for Speed series. Developed by EA Black Box, Rovio Mobile and published by Electronic Arts, it was released on October 31, 2006, for the PlayStation 2, Xbox, Xbox 360, GameCube, Windows, and Mac OS X, on November 17, 2006 as a launch title for the PlayStation 3, and November 19, 2006 as a launch title for the Wii and in 2008 for arcade cabinets. A portable version, Need for Speed: Carbon – Own the City, was released for the PlayStation Portable, Game Boy Advance, Nintendo DS and Zeebo.",
+  summaryEs: "Need for Speed: Carbon (En castellano: Need for Speed: Carbono) es un videojuego de carreras desarrollado por EA Black Box y publicado por Electronic Arts. Es la décima entrega de la saga de videojuegos Need for Speed. Fue mostrado por primera vez en la conferencia de Sony durante el E3 de 2006. Es el primer juego de la saga lanzado para PlayStation 3 y Wii y presenta un énfasis marcado en las carreras ilegales nocturnas. El videojuego presenta a la actriz y modelo Emmanuelle Vaugier como su modelo.",
   notes: "Need for Speed: Carbon (EA Black Box, 2006) running on Nintendo Switch through runtime layer. Latest release: v0.2.4. You need your own copy of the game.",
   notesEs: "Need for Speed: Carbon (EA Black Box, 2006) en Nintendo Switch mediante capa de ejecución. Última release: v0.2.4. Necesitas tu propia copia del juego.",
 };

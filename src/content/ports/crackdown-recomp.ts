@@ -19,6 +19,8 @@ export const crackdownRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Xbox 360"],
+  summary: "Crackdown is a 2007 action-adventure game developed by Realtime Worlds and published by Microsoft Game Studios for the Xbox 360. Crackdown was conceived by Realtime Worlds' founder, David Jones, who also created Grand Theft Auto and Lemmings.",
+  summaryEs: "Crackdown, lanzado en Japón como Riot Act, es un juego de acción urbana, lanzado el 20 de febrero de 2007 para la Xbox 360. Desarrollado por Realtime Worlds y distribuidor por Microsoft Game Studios. El juego viene de la mente de David Jones, quien ayudó a la creación de Grand Theft Auto y Lemmings. Un número limitado de las versiones lanzadas en América del Norte vienen con una invitación para la beta multijugador de Halo 3. El motor gráfico usa físicas realistas y un nuevo estilo de cel-shading.",
   notes:
     "ReXGlue static recompilation of Crackdown (Xbox 360) for Windows. Needs the original game files.",
   notesEs:

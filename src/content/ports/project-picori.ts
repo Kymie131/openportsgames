@@ -26,6 +26,8 @@ export const projectPicori: Port = {
     alt: "The Legend of Zelda: The Minish Cap (box art)",
     credit: "Wikipedia",
   },
+  summary: "The Legend of Zelda: The Minish Cap is a 2004 action-adventure game developed by Capcom and Flagship and published by Nintendo for the Game Boy Advance. The twelfth entry in The Legend of Zelda series, The Minish Cap was released for the Game Boy Advance in Japan and Europe in 2004 and in North America and Australia the following year.",
+  summaryEs: "The Legend of Zelda: The Minish Cap, conocido en Japón como Zelda no Densetsu: Fushigi no Bōshi , es el duodécimo videojuego de la saga The Legend of Zelda, desarrollado por Flagship bajo la supervisión de Nintendo. The Minish Cap es el primer título original de la saga para consola portátil tras la reedición de The Legend of Zelda: A Link to the Past junto con el primer Zelda multijugador, The Legend of Zelda: Four Swords. El juego llegó a Game Boy Advance en noviembre de 2004 en Japón y Europa, y a principios de 2005 en Estados Unidos y Australia.",
   notes: "Project Picori: native port of The Legend of Zelda: The Minish Cap (GBA, 2004) built on the game's decompilation, with SDL3, a vendored software PPU renderer and agbplay audio. Work in progress; release v0.9.5 ships Windows, Linux and macOS builds plus an Android APK. You need your own ROM.",
   notesEs: "Project Picori: port nativo de The Legend of Zelda: The Minish Cap (GBA, 2004) construido sobre la decompilación del juego, con SDL3, un renderizador PPU por software propio y audio agbplay. En desarrollo; la release v0.9.5 publica builds para Windows, Linux y macOS más un APK de Android. Necesitas tu propia ROM.",
 };

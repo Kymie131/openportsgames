@@ -25,6 +25,8 @@ export const mkvdcuAndroid: Port = {
     alt: "Mortal Kombat vs. DC Universe (box art)",
     credit: "Wikipedia",
   },
+  summary: "Mortal Kombat vs. DC Universe is a 2008 crossover fighting game developed and published by Midway Games for the PlayStation 3 and Xbox 360. The game is a crossover between Mortal Kombat and the DC Universe, and is the eighth main installment in the Mortal Kombat franchise. The game was released on November 16, 2008.",
+  summaryEs: "Mortal Kombat vs. DC Universe es un videojuego de peleas que junta las franquicias de Mortal Kombat y DC Comics, fue desarrollado por Midway Games —siendo este su último proyecto, ya que la compañía entró en bancarrota poco después— y por Warner Bros. Interactive. Es el primer título de la franquicia Mortal Kombat que solo se encuentra disponible para consolas de séptima generación. Salió a la venta 16 de noviembre de 2008 para las plataformas de Xbox 360 y PlayStation 3, posee dos bandos con 11 personajes cada uno, 22 en total.",
   notes: "Mortal Kombat vs. DC Universe (Midway Games, 2008) for Android (source port). Needs your own copy of the game.",
   notesEs: "Mortal Kombat vs. DC Universe (Midway Games, 2008) para Android (port de código). Necesita tu propia copia del juego.",
 };

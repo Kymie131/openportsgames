@@ -7,7 +7,7 @@ export const CrashTagTeamRacing: Port = {
   game: "Crash Tag Team Racing",
   developers: ["bluisblu"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2005,
   portType: "decompilation",
   genre: "racing",
   openSource: true,
@@ -25,6 +25,8 @@ export const CrashTagTeamRacing: Port = {
     alt: "Crash Tag Team Racing (box art)",
     credit: "Box art",
   },
+  summary: "Crash Tag Team Racing is a 2005 kart racing and platform game developed by Radical Entertainment and published by Vivendi Universal Games for the PlayStation 2 (PS2), Xbox, GameCube, and PlayStation Portable (PSP). A version for the Nintendo DS by Sensory Sweep Studios was cancelled near its completion. It is the third racing game in the Crash Bandicoot video game series, following Crash Nitro Kart (2003). The game's story takes place in a racing-based theme park, in which Crash Bandicoot must recover its missing Power Gems to claim the park's ownership.",
+  summaryEs: "Crash Tag Team Racing es un videojuego de carreras de karts de 2005 desarrollado por Radical Entertainment y publicado por Vivendi Universal Games para PlayStation 2 (PS2), Xbox, GameCube y PlayStation Portable (PSP). Una versión para Nintendo DS de Sensory Sweep Studios fue cancelada cerca de su finalización. Es el tercer juego de carreras de la serie de videojuegos Crash Bandicoot, tras Crash Nitro Kart.",
   notes: "Decompilation of Crash Tag Team Racing (US) for Gamecube.",
   notesEs: "Decompilación de Crash Tag Team Racing (US) para GameCube.",
 };

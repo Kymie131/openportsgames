@@ -7,7 +7,7 @@ export const jbalcombRemom: Port = {
   game: "Master of Magic",
   developers: ["jbalcomb"],
   publisher: "Slitherine Ltd.",
-  originalYear: 2022,
+  originalYear: 1995,
   portType: "decompilation",
   genre: "rpg",
   openSource: true,
@@ -21,6 +21,8 @@ export const jbalcombRemom: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Master of Magic is a single-player, fantasy turn-based 4X strategy game in which the player plays as a wizard attempting to dominate two linked worlds. From a small settlement, the player manages resources, builds cities and armies, and researches spells, growing an empire and fighting the other wizards.",
+  summaryEs: "Master of Magic es un videojuego de estrategia por turnos, de construcción de imperios en un universo de fantasía.",
   notes: "Master of Magic: decompilation by jbalcomb for Windows. Bring your own copy of the game.",
   notesEs: "Master of Magic: decompilación de jbalcomb para Windows. Aporta tu propia copia del juego.",
 };

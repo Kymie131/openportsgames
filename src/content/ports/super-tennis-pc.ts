@@ -7,7 +7,7 @@ export const superTennisPc: Port = {
   game: "Super Tennis",
   developers: ["craigshaw"],
   publisher: "Nintendo",
-  originalYear: 1991,
+  originalYear: 1985,
   portType: "recompilation",
   genre: "sports",
   openSource: true,
@@ -25,6 +25,8 @@ export const superTennisPc: Port = {
     alt: "Super Tennis (box art)",
     credit: "Wikipedia",
   },
+  summary: "Super Tennis is a 1985 tennis video game developed and published by Sega for the Master System. It was known in Japan as Great Tennis (グレートテニス). It was released as a Sega Card, and additionally as a cartridge in Europe.",
+  summaryEs: "Super Tennis es un videojuego de deportes en 1985.",
   notes: "Super Tennis (Nintendo, 1991) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Super Tennis (Nintendo, 1991) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

@@ -19,6 +19,8 @@ export const burnout3Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Xbox"],
+  summary: "Burnout 3: Takedown is a 2004 racing video game developed by Criterion Games and published by Electronic Arts. It is the third instalment in the Burnout series, which is characterised by fast-paced arcade racing. A staple of the series is the use of boost, earned through risky driving, to rapidly increase a car's speed. The central mechanic introduced in Burnout 3 is Takedowns, which allow players to slam their opponents until they crash. Takedowns work in conjunction with the boost system by filling up and extending the boost meter.",
+  summaryEs: "Burnout 3: Takedown es un videojuego de carreras desarrollado por Criterion Studios y distribuido por Electronic Arts que salió a la venta el 18 de septiembre de 2004 para las plataformas Xbox y PlayStation 2. Es la tercera entrega de la saga Burnout, y la primera en ser distribuida por EA Games tras el cierre de Acclaim, estando este más cuidado en cuanto a gráficos y sonido. La secuela de este juego es Burnout Revenge.",
   notes:
     "Static recompilation of Burnout 3: Takedown (Xbox) with ReXGlue. It requires a copy of the game.",
   notesEs:

@@ -19,6 +19,8 @@ export const aloneInTheDarkTheNewNightmareRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Alone in the Dark: The New Nightmare is a survival horror video game and the fourth installment and first reboot of the video game series Alone in the Dark, developed by Darkworks and published by Infogrames. The game was released in 2001 on Windows, PlayStation, Dreamcast, and Game Boy Color. A PlayStation 2 version of the game was also released several months after and only in Europe.",
+  summaryEs: "Alone in the Dark: The New Nightmare es la cuarta entrega de la saga de videojuegos de terror Alone in the Dark desarrollado por Darkworks y publicada por Infogrames. El juego salió a la venta en distintas plataformas incluyendo PlayStation, Dreamcast, PlayStation 2, Microsoft Windows y Game Boy Color.",
   notes:
     "Recompilation of Alone in the Dark: The New Nightmare (PS1, Europe SLES-02801 / SLES-12801) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

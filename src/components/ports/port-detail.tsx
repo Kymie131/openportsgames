@@ -142,6 +142,48 @@ export function PortDetail({
         </p>
       )}
 
+      {isGame && (
+        <section className="rounded-2xl border border-border bg-surface p-5 sm:p-6">
+          <div className="flex flex-col gap-2">
+            <h2 className="text-lg font-semibold tracking-tight">{t.detail.gameAbout}</h2>
+            {port.summary || port.summaryEs ? (
+              <p className="text-sm leading-relaxed text-muted">
+                {locale === "es" ? (port.summaryEs ?? port.summary) : port.summary}
+              </p>
+            ) : (
+              <p className="text-sm leading-relaxed text-muted">{t.detail.noGameSummary}</p>
+            )}
+          </div>
+          <dl className="mt-5 grid grid-cols-2 gap-4 sm:grid-cols-4">
+            <div className="flex flex-col gap-0.5">
+              <dt className="text-xs text-muted">{t.detail.gameYear}</dt>
+              <dd className="text-sm font-medium text-foreground">{port.originalYear}</dd>
+            </div>
+            <div className="flex flex-col gap-0.5">
+              <dt className="text-xs text-muted">{t.detail.gamePublisher}</dt>
+              <dd className="text-sm font-medium text-foreground">
+                {port.publisher === "Unknown" ? "—" : port.publisher}
+              </dd>
+            </div>
+            <div className="flex flex-col gap-0.5">
+              <dt className="text-xs text-muted">{t.detail.gameGenre}</dt>
+              <dd className="text-sm font-medium text-foreground">
+                {t.catalog.genres[port.genre]}
+              </dd>
+            </div>
+            <div className="flex flex-col gap-0.5">
+              <dt className="text-xs text-muted">{t.detail.originalSystem}</dt>
+              <dd>
+                <SystemBadge system={originalSystem} size="sm" />
+              </dd>
+            </div>
+          </dl>
+          {(port.summary || port.summaryEs) && (
+            <p className="mt-4 text-[11px] text-muted">{t.detail.gameSummaryNote}</p>
+          )}
+        </section>
+      )}
+
       {port.cover ? (
         <figure className="relative">
           <ScreenshotFrame

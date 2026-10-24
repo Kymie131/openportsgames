@@ -25,6 +25,8 @@ export const bodyHarvestPc: Port = {
     alt: "Body Harvest (box art)",
     credit: "Wikipedia",
   },
+  summary: "Body Harvest is a 1998 action-adventure video game developed by DMA Design and published by Gremlin Interactive for the Nintendo 64. It was intended to be a launch title for the system, but was delayed due to its original publisher, Nintendo, having issues with the game's violent themes; they eventually dropped the game, leaving DMA to find a new publisher. Gremlin would later acquire the rights to the game and released it in Europe, while Midway Games released it in North America.",
+  summaryEs: "Body Harvest es un videojuego realizado para la Nintendo 64 desarrollado por DMA Design. Fue concebido para ser lanzado junto al lanzamiento de la consola pero tuvo que ser retrasado debido a problemas con su distribuidor y con la política de Nintendo respecto a juegos de temática adulta teniendo que encontrar un nuevo distribuidor siendo distribuida al final por Gremlin Graphics en octubre de 1998.",
   notes: "Body Harvest (Gremlin Interactive, 1998) running on Windows through static recompilation. Latest release: v1.0.0. You need your own copy of the game.",
   notesEs: "Body Harvest (Gremlin Interactive, 1998) en Windows mediante recompilación estática. Última release: v1.0.0. Necesitas tu propia copia del juego.",
 };

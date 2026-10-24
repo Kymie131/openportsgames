@@ -21,6 +21,8 @@ export const carmageddon2Android: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["Windows"],
+  summary: "The world's first high-speed internal organ liberation simulator is back in full 3D! The slaughter is bloodier, the body parts fly further, and the destruction is heavier. Crash and burn through the 3D rendered crowds with the pedal to the metal.",
+  summaryEs: "Carmageddon 2: Carpocalypse Now es un videojuego de carreras publicado por THQ Nordic en 2014.",
   notes: "Decompilation and native Android port of Carmageddon 2, with armv7 APKs. Bring your own original game data.",
   notesEs: "Descompilación y port nativo para Android de Carmageddon 2, con APK para armv7. Aporta los datos originales del juego.",
 };

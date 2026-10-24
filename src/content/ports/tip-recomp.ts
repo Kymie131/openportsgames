@@ -20,6 +20,8 @@ export const tipRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  summary: "Viva Piñata: Trouble in Paradise is a 2008 simulation video game for the Xbox 360. It is the sequel to the 2006 video game, Viva Piñata, and the third game in the Viva Piñata series. Developed by Rare and published by Microsoft Game Studios, the game builds atop its predecessor, in which the player tends a garden and the piñata creatures that come to live there. New features to the series include a cooperative multiplayer mode, a new plot, additional types of piñata creatures, Xbox Live Vision Camera support, and two new areas for capturing piñatas.",
+  summaryEs: "Viva Piñata: Trouble in Paradise es el sucesor del videojuego de simulación Viva Piñata desarrollado por Rare en el que ahora ofrece nuevas piñatas, objetos y lugares.",
   notes:
     "Native recompilation of Viva Pinata: Trouble in Paradise (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:

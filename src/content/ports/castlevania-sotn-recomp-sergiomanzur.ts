@@ -26,6 +26,8 @@ export const castlevaniaSotnRecompSergiomanzur: Port = {
     alt: "Castlevania: Symphony of the Night (box art)",
     credit: "Wikipedia",
   },
+  summary: "Castlevania: Symphony of the Night is a 1997 action role-playing game developed and published by Konami for the PlayStation and Sega Saturn. It is a direct sequel to Castlevania: Rondo of Blood, set five years after its events. It was directed and produced by Toru Hagihara, with Koji Igarashi acting as assistant director.",
+  summaryEs: "Castlevania: Symphony of the Night, conocido en Japón como Akumajō Dracula X: Gekka no Yasōkyoku , es un videojuego de acción-aventura de gráficos 2D desarrollado y publicado por Konami en el año 1997. Es el XIII episodio de las series de Castlevania, siendo este el primero lanzado para las consolas PlayStation y Saturn. Por otro lado, hablamos de una secuela directa de su antecesor solo lanzado en Japón: Akumajou Dracula X: Chi no Rondo para la plataforma de NEC PC-Engine CD.",
   notes: "Recompilation project for Castlevania: Symphony of the Night (PS1, 1997) with Windows and Android builds. Bring your own disc. Latest release: android-v0.10.1b.",
   notesEs: "Proyecto de recompilación de Castlevania: Symphony of the Night (PS1, 1997) con builds de Windows y Android. Aporta tu propio disco. Última release: android-v0.10.1b.",
 };

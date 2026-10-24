@@ -25,6 +25,8 @@ export const deltaruneChapter1Wii: Port = {
     alt: "Deltarune (cover art)",
     credit: "Steam",
   },
+  summary: "Deltarune is an episodic role-playing video game created by American indie developer Toby Fox. Set in a parallel universe to his 2015 game Undertale, it follows Kris, a human teenager predetermined to save the world alongside Susie, a monster, and Ralsei, a prince from the Dark World. Throughout the story, the party establishes relationships with a variety of allies and opponents. The combat system is turn-based and uses bullet hell mechanics. Like in Undertale, enemy encounters can be resolved peacefully or through violence.",
+  summaryEs: "Deltarune es un videojuego de rol creado por el desarrollador independiente estadounidense Toby Fox. El jugador controla a un ser humano, Kris, en un mundo donde los monstruos viven en la superficie de la Tierra. Kris y una compañera de clase llamada Susie caen de la Tierra a un lugar llamado \"Mundo Oscuro\" donde se encuentran con Ralsei, quien les informa que son héroes destinados a restaurar el equilibrio del mundo. Los jugadores se encuentran con varios seres que se hacen llamar \"Oscuros\" durante una búsqueda profetizada para sellar la fuente oscura.",
   notes: "Deltarune (Toby Fox, 2018) running on Wii through source port. You need your own copy of the game.",
   notesEs: "Deltarune (Toby Fox, 2018) en Wii mediante port de código. Necesitas tu propia copia del juego.",
 };

@@ -22,6 +22,8 @@ export const p4dStuntsRestunts: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["MS-DOS"],
+  summary: "Stunts is a 3D racing video game developed by Distinctive Software and published by Broderbund in 1990. The game places emphasis on racing on stunt tracks and features a track editor. It is influenced by the arcade game Hard Drivin' (1989).",
+  summaryEs: "Stunts es un videojuego de carreras desarrollado por Distinctive Software, Inc. (DSI). Fue publicado por Brøderbund en 1990 para los Estados Unidos y por Mindscape para el Reino Unido en 1991. Claramente influenciado por otros videojuegos clásicos del género como Hard Drivin' y Test Drive con unos gráficos y una estructura de juego similar, y de Stunt Driver y de Stunt Car Racer de Geoff Crammond. El juego fue creado originalmente para PC y después llevado al Amiga. La versión de Amiga es más lenta que otros juegos de esta computadora, sobre todo con los detalles gráficos al máximo.",
   notes: "Stunts: decompilation by 4d-stunts for Windows. Bring your own copy of the game.",
   notesEs: "Stunts: decompilación de 4d-stunts para Windows. Aporta tu propia copia del juego.",
 };

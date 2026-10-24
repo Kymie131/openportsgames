@@ -19,6 +19,8 @@ export const streetFighterEx2PlusRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Street Fighter EX2 Plus is a fighting game published by Capcom in 1999.",
+  summaryEs: "Street Fighter EX2 Plus es un videojuego de lucha publicado por Capcom en 1999.",
   notes:
     "Static recompilation of Street Fighter EX2 Plus (PlayStation) built on PSXRecomp. It requires the original game.",
   notesEs:

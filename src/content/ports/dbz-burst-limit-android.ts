@@ -25,6 +25,8 @@ export const dbzBurstLimitAndroid: Port = {
     alt: "Dragon Ball Z: Burst Limit (box art)",
     credit: "Wikipedia",
   },
+  summary: "Dragon Ball Z: Burst Limit is a fighting video game for the PlayStation 3 and Xbox 360 based on the anime Dragon Ball Z. The game was developed by Dimps and published in North America and Australia by Atari, and in Japan and Europe by Namco Bandai under the Bandai label. It was released in Japan on June 5, 2008, in Europe on June 6, 2008, North America on June 10, 2008, and in Australia on July 3, 2008.",
+  summaryEs: "Dragon Ball Z: Burst Limit es un videojuego de lucha para PlayStation 3 y Xbox 360 basado en el anime Dragon Ball Z. El videojuego fue desarrollado por Dimps y publicado en Norteamérica y Australia por Atari, y en Japón y Europa por Namco Bandai bajo la etiqueta Bandai. Fue lanzado en Japón el 5 de junio de 2008, en Europa el 6 de junio de 2008, en América del Norte el 10 de junio de 2008 y en Australia el 3 de julio de 2008.",
   notes: "Dragon Ball Z: Burst Limit (Bandai Namco, 2008) for Android (source port). Needs your own copy of the game.",
   notesEs: "Dragon Ball Z: Burst Limit (Bandai Namco, 2008) para Android (port de código). Necesita tu propia copia del juego.",
 };

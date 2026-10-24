@@ -19,6 +19,8 @@ export const spiderMan2EnterElectroRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Spider-Man 2: Enter: Electro is a 2001 action-adventure video game based on the Marvel Comics character Spider-Man. It was developed by Vicarious Visions and published by Activision exclusively for the PlayStation. It is the sequel to Spider-Man (2000) and directly follows the events of the game, as Spider-Man attempts to thwart a criminal conspiracy orchestrated by Electro.",
+  summaryEs: "Spider-Man 2: Enter Electro es un videojuego de acción y aventuras de 2001 basado en el personaje Spider-Man de Marvel Comics. Fue desarrollado por Vicarious Visions y publicado por Activision en exclusiva para PlayStation. Es la secuela de Spider-Man (2000) y sigue directamente los acontecimientos del juego, mientras Spider-Man intenta frustrar una conspiración criminal orquestada por Electro.",
   notes:
     "Recompilation of Spider-Man 2: Enter Electro (PS1, USA SLUS-01378) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

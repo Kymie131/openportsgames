@@ -21,6 +21,8 @@ export const hk21xPgr2Recomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox"],
+  summary: "Project Gotham Racing 2 is a 2003 arcade-style racing video game developed by Bizarre Creations and published by Microsoft Game Studios. It was released exclusively for the Xbox in 2003 as the successor to 2001's Project Gotham Racing.",
+  summaryEs: "Project Gotham Racing 2 es un videojuego de carreras desarrollado por Bizarre Creations y publicado por Microsoft Game Studios. Fue lanzado exclusivamente para Xbox en noviembre de 2003.",
   notes: "Project Gotham Racing 2: static recompilation by hk21x for Windows. Bring your own copy of the game.",
   notesEs: "Project Gotham Racing 2: recompilación estática de hk21x para Windows. Aporta tu propia copia del juego.",
 };

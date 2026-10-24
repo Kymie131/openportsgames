@@ -25,6 +25,8 @@ export const superSmashBrosXbox: Port = {
     alt: "Super Smash Bros. (box art)",
     credit: "Box art",
   },
+  summary: "Super Smash Bros. is a series of platform fighting video games published by Nintendo. Created by Masahiro Sakurai, the Super Smash Bros. series is a crossover featuring many characters from other video game series created by Nintendo and other developers. Its gameplay is distinct from traditional fighting games, with players aiming to knock each other off stages after accumulating damage with numerous attacks. The games have also featured a variety of side modes, including single-player story modes.",
+  summaryEs: "Super Smash Bros. es una serie de videojuegos de lucha, creada por Masahiro Sakurai, quien dirigió todos los juegos, y distribuida por Nintendo, el cual presenta personajes invitados de franquicias establecidas en Nintendo y otras compañías de videojuegos y ha vendido en total más de 71 millones de unidades. La serie es conocida por su objetivo de jugabilidad único, que difiere de los juegos de pelea tradicionales, en donde el objetivo es aumentar contadores de daño y derribar a los oponentes del escenario en lugar de agotar las barras de salud.",
   notes: "Super Smash Bros. (Nintendo, 1999) running on xbox through decompilation. You need your own copy of the game.",
   notesEs: "Super Smash Bros. (Nintendo, 1999) en xbox mediante decompilación. Necesitas tu propia copia del juego.",
 };

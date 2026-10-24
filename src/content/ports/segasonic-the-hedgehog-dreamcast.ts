@@ -20,6 +20,8 @@ export const segasonicTheHedgehogDreamcast: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Arcade"],
+  summary: "SegaSonic the Hedgehog is a 1993 arcade game in the Sonic the Hedgehog series by Sega. Controlling Sonic the Hedgehog and his friends Mighty the Armadillo and Ray the Flying Squirrel, the player must escape an island after they are kidnapped by the villain, Doctor Eggman. The game uses an isometric perspective. Players use a trackball to move the characters while dodging obstacles and collecting rings. The game was developed by Sega's arcade division, Sega AM3. It is one of four Sonic games with the SegaSonic name and was inspired by the 1984 game Marble Madness.",
+  summaryEs: "SegaSonic the Hedgehog es un videojuego de plataformas con vista isométrica desarrollado y publicado por Sega. Es un videojuego de arcade perteneciente la serie de Sonic the Hedgehog, que sigue a Sonic the Hedgehog y sus amigos Mighty the Armadillo y Ray the Flying Squirrel, quienes deben escapar de una isla luego de ser secuestrados por el antagonista de la serie, Doctor Eggman. Los jugadores usan un trackball para mover a los personajes y escapar de la isla lo más rápido posible, esquivando obstáculos y recogiendo anillos.",
   notes: "SegaSonic the Hedgehog (Sega, 1993) running on dreamcast through source port. You need your own copy of the game.",
   notesEs: "SegaSonic the Hedgehog (Sega, 1993) en dreamcast mediante port de código. Necesitas tu propia copia del juego.",
 };

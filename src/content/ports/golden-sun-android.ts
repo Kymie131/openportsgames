@@ -20,6 +20,8 @@ export const goldenSunAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy Advance"],
+  summary: "Golden Sun is a 2001 role-playing video game developed by Camelot Software Planning and published by Nintendo for the Game Boy Advance. The game follows a band of magic-attuned teenagers called Adepts on a mission to protect the world of Weyard from alchemy, a potentially destructive power that was sealed away long ago. During their quest, the Adepts develop new magic abilities called Psynergy, assist others, and learn more about why alchemy was sealed away. Golden Sun is followed by a sequel, The Lost Age, which together form a complete story.",
+  summaryEs: "Golden Sun es la primera entrega de una serie de videojuegos RPG, lanzada para Game Boy Advance, distribuida por Nintendo y desarrollada por Camelot Software Planning. Fue lanzada en agosto de 2001 en Japón, en noviembre del mismo año en Estados Unidos y en Europa en febrero de 2002.",
   notes:
     "Android recompiled port of Golden Sun (Game Boy Advance), based on GSRecomp and brought over with the Descore framework. The player supplies their own legally obtained ROM; the app contains no game code, ROM or assets.",
   notesEs:

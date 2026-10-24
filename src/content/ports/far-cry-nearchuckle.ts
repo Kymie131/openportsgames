@@ -19,6 +19,8 @@ export const farCryNearChuckle: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Windows"],
+  summary: "Far Cry is an anthology franchise of first-person shooter games published by Ubisoft. The first game, Far Cry, was developed by Crytek to premiere their CryEngine software, and released in March 2004. Subsequently, Ubisoft obtained the rights to the franchise and the bulk of the development is handled by Ubisoft Montreal with assistance from other Ubisoft satellite studios. The following games in the series have used a Ubisoft-modified version of the CryEngine, the Dunia Engine, allowing for open world gameplay.",
+  summaryEs: "Far Cry es una serie de videojuegos de acción en primera persona creada por Crytek y distribuido por Ubisoft. El primer juego de la serie fue Far Cry, desarrollado en Alemania por Crytek y distribuido por Ubisoft en 2004 para Microsoft Windows. Debido al éxito que obtuvo se desarrollaron varias secuelas con el mismo título: Far Cry 2, Far Cry 3, Far Cry 4, Far Cry 5 y Far Cry 6. También se han lanzado expansiones e historias alternas como: Far Cry Instincts, Far Cry 3: Blood Dragon, Far Cry Primal y Far Cry New Dawn.",
   notes:
     "Android and Linux port of Far Cry (CryEngine 1) via SDL3, based on NearChuckle and using Mesa Zink for OpenGL over Vulkan. Note: it relies on the leaked Far Cry source and needs the game itself.",
   notesEs:

@@ -25,6 +25,8 @@ export const gdroid: Port = {
     alt: "Garry's Mod (cover art)",
     credit: "Steam",
   },
+  summary: "Garry's Mod is a physics sandbox. There aren't any predefined aims or goals. We give you the tools and leave you to play.",
+  summaryEs: "Garry's Mod es un videojuego de simulación publicado por Valve en 2006.",
   notes: "Garry's Mod (Facepunch Studios, 2006) for Android (source port). Latest release: 0.1.29. Needs your own copy of the game.",
   notesEs: "Garry's Mod (Facepunch Studios, 2006) para Android (port de código). Última release: 0.1.29. Necesita tu propia copia del juego.",
 };

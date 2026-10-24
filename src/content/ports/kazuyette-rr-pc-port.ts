@@ -22,6 +22,8 @@ export const kazuyetteRrPcPort: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Ridge Racer is a 1993 racing video game developed and published by Namco for arcades. It is the first installment in Namco's Ridge Racer series. It was released initially on the Namco System 22 arcade system board and ported to the PlayStation home console in 1994. Ridge Racer was notable for being the first arcade video game with 3D texture-mapped graphics, with its System 22 hardware capable of texture mapping and Gouraud shading.",
+  summaryEs: "Ridge Racer es un videojuego de carreras desarrollado y publicado por Namco de 1993. Se lanzó inicialmente en la placa de sistema arcade Namco System 22 y se transfirió a la consola PlayStation en 1994. Es el primer título de la serie Ridge Racer lanzada para arcades y consolas domésticas. El objetivo es terminar en primer lugar en una serie de carreras. La versión de PlayStation es compatible con el controlador NeGcon de Namco.",
   notes: "Ridge Racer: source port by kazuyette for Windows. Bring your own copy of the game.",
   notesEs: "Ridge Racer: source port de kazuyette para Windows. Aporta tu propia copia del juego.",
   cover: {

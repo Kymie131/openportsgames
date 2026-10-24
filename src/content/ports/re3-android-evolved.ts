@@ -25,6 +25,8 @@ export const re3AndroidEvolved: Port = {
     alt: "Grand Theft Auto III (box art)",
     credit: "Wikipedia",
   },
+  summary: "Grand Theft Auto III is a 2001 action-adventure game developed by DMA Design and published by Rockstar Games. It is the first 3D game in the Grand Theft Auto series. Set in Liberty City, loosely based on New York City, the game follows Claude, a silent protagonist who becomes entangled in a world of crime, drugs, gang warfare, and corruption while pursuing revenge against his ex-girlfriend. The game is played from a third-person perspective and its world is navigated on foot or by vehicle. Its open world design lets the player freely roam Liberty City, which consists of three islands.",
+  summaryEs: "Grand Theft Auto III es un videojuego de acción y aventura de mundo abierto de disparos en tercera persona de 2001 desarrollado por DMA Design y publicado por Rockstar Games. Es la tercera entrada principal de la serie Grand Theft Auto, después de Grand Theft Auto 2 de 1999, y la quinta instalación en general.",
   notes: "Grand Theft Auto III (Rockstar Games, 2001) for Android (source port). Latest release: v1.0.7. Needs your own copy of the game.",
   notesEs: "Grand Theft Auto III (Rockstar Games, 2001) para Android (port de código). Última release: v1.0.7. Necesita tu propia copia del juego.",
 };

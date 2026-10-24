@@ -19,6 +19,8 @@ export const castlevaniaCircleOfTheMoonRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Game Boy Advance"],
+  summary: "Castlevania: Circle of the Moon, titled Castlevania in PAL regions, is a 2001 action role-playing game developed and published by Konami for the Game Boy Advance handheld game console. The game was developed as a stand-alone title in the Castlevania series and as a launch title for the Game Boy Advance.",
+  summaryEs: "Castlevania: Circle of the Moon, conocido en Japón como Devil's Castle Dracula: Circle of the Moon fue el primer videojuego de la saga Castlevania para Game Boy Advance de Nintendo. El personaje principal es Nathan Graves, el cual fue entrenado por Morris Baldwing, quien encerró a Drácula junto a los padres de Nathan 10 años atrás.",
   notes:
     "Static recompilation of Castlevania: Circle of the Moon (GBA) with the gbarecomp framework. It requires your own game data.",
   notesEs:

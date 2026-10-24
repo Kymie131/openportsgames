@@ -20,6 +20,8 @@ export const silentHillPc: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Silent Hill is a 1999 survival horror video game developed by Konami's Team Silent and published by Konami for the PlayStation. It is the first installment in the Silent Hill video game series. The game follows Harry Mason as he searches for his missing adopted daughter in the eponymous fictional American town of Silent Hill. Stumbling upon a cult conducting a rite to revive a deity it worships, he discovers her true origin. Five game endings are possible, depending on the actions taken by the player, including one joke ending.",
+  summaryEs: "Silent Hill es un videojuego de terror y supervivencia desarrollado por Team Silent y publicado por Konami, un grupo de Konami Computer Entertainment Tokyo. Fue lanzado para PlayStation en Norteamérica en enero de 1999, y en Japón y Europa más tarde ese mismo año. Silent Hill emplea una cámara en tercera persona y entornos tridimensionales en tiempo real; los desarrolladores usaron niebla y oscuridad para disfrazar las limitaciones del hardware.",
   notes:
     "Native PC port of the original PlayStation Silent Hill, built on the silent-hill-decomp decompilation with PsyCross (a PsyQ SDK compatibility layer). It runs as a real Windows/Linux executable compiled from the decompiled C source, not an emulator or a static recompilation, and is playable start to finish with widescreen, high resolution, uncapped FPS, alternate cameras and mod support. Development is openly AI-assisted (Claude) over reviewed, hand-directed edits; you must supply your own game dump.",
   notesEs:

@@ -26,6 +26,8 @@ export const twilightPrincessDusklightDualScreen: Port = {
     alt: "The Legend of Zelda: Twilight Princess (box art)",
     credit: "Wikipedia",
   },
+  summary: "The Legend of Zelda: Twilight Princess is a 2006 action-adventure game developed and published by Nintendo for the GameCube and Wii. Originally planned for release exclusively on the GameCube in November 2005, Nintendo delayed the release to refine the game, add more content and port it to the Wii. The Wii version was a launch game in North America in November 2006 and in Japan, Europe and Australia the following month. The GameCube version was released in December 2006 as the final first-party game for the console.",
+  summaryEs: "The Legend of Zelda: Twilight Princess es un videojuego de acción-aventura de 2006 desarrollado por la filial EAD y distribuido por Nintendo para las videoconsolas GameCube y Wii (2006). Es el decimotercer lanzamiento de la franquicia The Legend of Zelda y el undécimo juego de su línea principal.",
   notes: "Android fork of Dusklight (Twilight Princess) with a second-screen layout for dual-screen handhelds such as the AYN Thor. Requires your own game files.",
   notesEs: "Fork para Android de Dusklight (Twilight Princess) con diseño de segunda pantalla para handhelds de doble pantalla como la AYN Thor. Requiere tus propios archivos del juego.",
 };

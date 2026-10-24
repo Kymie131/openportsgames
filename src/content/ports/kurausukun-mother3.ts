@@ -27,6 +27,8 @@ export const kurausukunMother3: Port = {
     alt: "Mother 3 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Mother 3 is a 2006 role-playing video game developed by Brownie Brown and HAL Laboratory and published by Nintendo for the Game Boy Advance. It is the third and final entry in the Mother series. The game follows Lucas, a young boy with psychic abilities, and a party of characters as they attempt to prevent a mysterious invading army from corrupting and destroying the world.",
+  summaryEs: "Mother 3 es un videojuego del género RPG para Game Boy Advance, desarrollado por HAL Laboratory y Brownie Brown, publicado por Nintendo y lanzado sólo en Japón. Es el tercer y último juego en la serie de videojuegos Mother. Fue lanzado en Japón el 20 de abril del 2006. El juego sigue a Lucas, un joven con habilidades psíquicas, y a un grupo de personajes que intentan evitar que un misterioso ejército invasor corrompa y destruya el mundo.",
   notes: "Mother 3: decompilation by Kurausukun for Windows. Bring your own copy of the game.",
   notesEs: "Mother 3: decompilación de Kurausukun para Windows. Aporta tu propia copia del juego.",
 };

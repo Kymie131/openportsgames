@@ -6,7 +6,7 @@ export const crabinacrabicBadcompanyrecomp: Port = {
   title: "Battlefield: Bad Company",
   game: "Battlefield: Bad Company",
   developers: ["crabinacrabic"],
-  publisher: "Unknown",
+  publisher: "Electronic Arts",
   originalYear: 2008,
   portType: "recompilation",
   genre: "shooter",
@@ -22,6 +22,8 @@ export const crabinacrabicBadcompanyrecomp: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Battlefield: Bad Company is a 2008 first-person shooter game developed by DICE and published by Electronic Arts for the PlayStation 3 and Xbox 360. It is the sixth installment in the Battlefield series. It was released in North America on 23 June 2008, followed by a European release on 26 June.",
+  summaryEs: "Battlefield: Bad Company es un videojuego de acción en primera persona desarrollado por EA Digital Illusions CE y distribuido por Electronic Arts. Bad Company es el primer juego de la serie Battlefield desarrollado para Xbox 360 y PlayStation 3. Fue lanzado en Norteamérica el 23 de junio de 2008, seguido de un lanzamiento en Europa el 26 de junio. El juego fue insinuado justo antes del lanzamiento de Battlefield 2, y anunciado dieciséis meses más tarde. Una secuela, Battlefield: Bad Company 2 fue lanzada para PlayStation 3, Xbox 360 y Windows.",
   notes: "Battlefield: Bad Company: static recompilation by crabinacrabic for Windows. Bring your own copy of the game.",
   notesEs: "Battlefield: Bad Company: recompilación estática de crabinacrabic para Windows. Aporta tu propia copia del juego.",
 };

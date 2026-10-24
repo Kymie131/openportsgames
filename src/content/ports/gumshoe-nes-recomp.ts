@@ -19,6 +19,8 @@ export const gumshoeNesRecomp: Port = {
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
   originalSystems: ["Nintendo Entertainment System"],
+  summary: "Gumshoe is a light gun shooter video game developed and published by Nintendo for the VS. System arcade hardware and the Nintendo Entertainment System console. It was released in 1986 in North America and in 1988 in Europe. It was not released in Japan, which is unusual for a Nintendo game. It was designed by Yoshio Sakamoto.",
+  summaryEs: "Gumshoe es un videojuego de disparos con pistola de luz desarrollado y publicado por Nintendo para el hardware arcade VS. System y la consola Nintendo Entertainment System. Fue lanzado en 1986 en Norteamérica y en 1988 en Europa. Algo inusual para un juego de Nintendo es que no se lanzó en Japón. El juego fue diseñado por Yoshio Sakamoto.",
   notes:
     "Static recompilation of Gumshoe (NES) with the NESRecomp framework. Playable end-to-end with the Zapper on the mouse; one known cosmetic bug remains in the corner timer and shot counter.",
   notesEs:

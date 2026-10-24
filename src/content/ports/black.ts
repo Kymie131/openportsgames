@@ -21,6 +21,8 @@ export const Black: Port = {
   wip: true,
   sourceVerified: true,
   originalSystems: ["Nintendo DS"],
+  summary: "Pokémon Black Version and Pokémon White Version are 2010 role-playing video games developed by Game Freak and published by The Pokémon Company and Nintendo for the Nintendo DS. They are the first installments in the fifth generation of the Pokémon video game series. First released in Japan on 18 September 2010, they were later released in Europe, North America and Australia in March 2011. Sequels to Black and White, Pokémon Black 2 and Pokémon White 2, were released for the Nintendo DS in 2012.",
+  summaryEs: "Pokémon Black es un videojuego de rol publicado por Nintendo en 2010.",
   notes: "Decompilation of English Pokémon Black.",
   notesEs: "Decompilación de Pokémon Black en inglés.",
 };

@@ -25,6 +25,8 @@ export const rott94: Port = {
     alt: "Rise of the Triad: Dark War (cover art)",
     credit: "Steam",
   },
+  summary: "You are part of an elite group of operatives called HUNT (High-risk United Nations Taskforce), and you must stop a maniac cult leader from killing millions of people. You are equipped with high-tech weaponry and magical instruments that defy description to invade the monastery and stop the madness.",
+  summaryEs: "Rise of the Triad: Dark War es un videojuego de disparos publicado por Apogee Entertainment en 2014.",
   notes: "Rise of the Triad: Dark War (Apogee Software, 1994) for Android (source port). Needs your own copy of the game (DARKWAR.RTC, DARKWAR.RTL, DARKWAR.WAD, REMOTE1.RTS, HUNTBGIN.RTL).",
   notesEs: "Rise of the Triad: Dark War (Apogee Software, 1994) para Android (port de código). Necesita tu propia copia del juego.",
 };

@@ -7,7 +7,7 @@ export const earthwormJimHdPc: Port = {
   game: "Earthworm Jim",
   developers: ["devEx780"],
   publisher: "Interplay Entertainment",
-  originalYear: 2010,
+  originalYear: 1994,
   portType: "recompilation",
   genre: "platformer",
   openSource: true,
@@ -25,6 +25,8 @@ export const earthwormJimHdPc: Port = {
     alt: "Earthworm Jim (cover art)",
     credit: "Steam",
   },
+  summary: "Earthworm Jim is a series of platform games featuring an earthworm named Jim who wears a robotic suit and battles the forces of evil. The series is noted for its platforming and shooting gameplay, surreal humor, and edgy art style. Four games were released in the series: Earthworm Jim, Earthworm Jim 2, Earthworm Jim 3D, and Earthworm Jim: Menace 2 the Galaxy, with the first game released in 1994. The series had lain dormant for almost a decade before Gameloft remade the original game in HD for PlayStation Network and Xbox Live Arcade in 2010.",
+  summaryEs: "Earthworm Jim es una serie de videojuegos de plataformas desarrollada por Shiny Entertainment y distribuida por Interplay Entertainment, cuyo primer juego fue lanzado en agosto de 1994. La serie se distingue por su juego de plataforma y disparos, su humor surrealista y el estilo de su arte. Esta serie cuenta con cuatro títulos lanzados: Earthworm Jim, Earthworm Jim 2, Earthworm Jim 3D, y Earthworm Jim: Menace 2 the Galaxy.",
   notes: "Earthworm Jim (Interplay Entertainment, 2010) running on Windows and Linux through static recompilation. Latest release: v0.1.0. You need your own copy of the game.",
   notesEs: "Earthworm Jim (Interplay Entertainment, 2010) en Windows and Linux mediante recompilación estática. Última release: v0.1.0. Necesitas tu propia copia del juego.",
 };

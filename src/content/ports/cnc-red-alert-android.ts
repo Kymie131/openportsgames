@@ -26,6 +26,8 @@ export const cncRedAlertAndroid: Port = {
     alt: "Command & Conquer: Red Alert (box art)",
     credit: "Wikipedia",
   },
+  summary: "Command & Conquer: Red Alert is a real-time strategy video game in the Command & Conquer franchise, developed and published by Westwood Studios in 1996. The second game to bear the Command & Conquer title, Red Alert is the prequel to the original Command & Conquer of 1995, and takes place in the alternate early history of Command & Conquer when Allied Forces battle an aggressive Soviet Union for control over the European mainland.",
+  summaryEs: "Command & Conquer Red Alert es un videojuego de estrategia en tiempo real de la serie Command & Conquer creado por Westwood Studios en 1996. Los eventos de Red Alert tienen lugar en una realidad alternativa en la cual las fuerzas aliadas se enfrentan a las fuerzas de la Unión Soviética en una encarnizada contienda militar por el control del continente europeo. Inicialmente sólo estaba en versión para PC, y subsiguientemente para PlayStation.",
   notes: "Unofficial native port of Command & Conquer: Red Alert for Android, iOS, Linux and macOS with SDL2 video, audio and input. No game assets included.",
   notesEs: "Port nativo no oficial de Command & Conquer: Red Alert para Android, iOS, Linux y macOS con vídeo, audio y entrada SDL2. No incluye recursos del juego.",
 };

@@ -25,6 +25,8 @@ export const corsixthAndroid: Port = {
     alt: "Theme Hospital (box art)",
     credit: "Wikipedia",
   },
+  summary: "Theme Hospital is a business simulation game developed by Bullfrog Productions and published by Electronic Arts in 1997 for MS-DOS and Microsoft Windows compatible PCs in which players design and operate a privately owned hospital with the goal of curing patients of fictitious comical ailments. The game is the thematic successor to Theme Park, also produced by Bullfrog, and the second installment in their Theme series, and part of their Designer Series. The game is noted for its humour, and contains numerous references to pop culture.",
+  summaryEs: "Theme Hospital es un videojuego de simulación desarrollado por Bullfrog Productions y publicado por Electronic Arts en 1997, en el cual el jugador diseña y opera un hospital. Como la mayoría de los juegos de Bullfrog Theme Hospital está impregnado de un excéntrico sentido del humor. Este juego es el sucesor espiritual de Theme Park, un juego también producido por Bullfrog.",
   notes: "Theme Hospital (Electronic Arts, 1997) for Android (source port). Needs your own copy of the game (HOSP folder).",
   notesEs: "Theme Hospital (Electronic Arts, 1997) para Android (port de código). Necesita tu propia copia del juego.",
 };

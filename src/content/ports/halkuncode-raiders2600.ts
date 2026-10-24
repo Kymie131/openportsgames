@@ -22,6 +22,8 @@ export const halkuncodeRaiders2600: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Raiders of the Lost Ark is a 1982 adventure game developed and published by Atari, Inc. for the Atari 2600, based on the 1981 film of the same name. The game was designed by Howard Scott Warshaw.",
+  summaryEs: "Raiders of the Lost Ark es un videojuego creado para el Atari 2600 y basado en la película Raiders of the Lost Ark. El juego fue diseñado por Howard Scott Warshaw.",
   notes: "Raiders of the Lost Ark: engine remake by halkuncode for Windows. Bring your own copy of the game.",
   notesEs: "Raiders of the Lost Ark: recreación de motor de halkuncode para Windows. Aporta tu propia copia del juego.",
 };

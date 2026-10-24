@@ -20,6 +20,8 @@ export const dodonpachiSaidaioujouRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  summary: "DoDonPachi SaiDaiOuJou is a 2012 vertically scrolling bullet hell arcade game released by Cave, and the sixth chapter in Cave's DonPachi series.",
+  summaryEs: "DoDonPachi SaiDaiOuJou es un videojuego de disparos publicado por CAVE en 2012.",
   notes:
     "DoDonPachi SaiDaiOuJou (Xbox 360) recompiled with ReXGlue. It requires the 1.01 title update. Keyboard and mouse are enabled from the in-game menu (F4).",
   notesEs:

@@ -19,6 +19,8 @@ export const minecraftX360Ios: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Xbox 360"],
+  summary: "Minecraft: Xbox 360 Edition is a simulation game in 2012.",
+  summaryEs: "Minecraft: Xbox 360 Edition es un videojuego de simulación en 2012.",
   notes:
     "Recompilation project for Minecraft: Xbox 360 Edition that targets iOS. It is indexed by recomp.fyi and requires your own game data.",
   notesEs:

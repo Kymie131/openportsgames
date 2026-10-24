@@ -19,6 +19,8 @@ export const vibRibbonRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Vib-Ribbon is a 1999 rhythm video game developed by NanaOn-Sha and released by Sony Computer Entertainment for the PlayStation. The game came out in Japan on 9 December 1999 and in Europe on 30 August 2000, but was never released for the PlayStation in North America; it was re-released on the PlayStation 3 via PlayStation Network in October 2014, which finally brought the game to North America in addition to Japan and Europe. NanaOn-Sha had previously developed the PaRappa the Rapper series of games for Sony.",
+  summaryEs: "Vib-Ribbon es un videojuego musical creado por Masaya Matsuura y desarrollado por NanaOn-Sha para PlayStation. Salió a la venta el 9 de diciembre de 1999 en Japón y un año más tarde en Europa. Se trata de un juego rítmico cuya particularidad es que el software queda cargado en la memoria RAM, lo que permite retirar el CD del juego y utilizar canciones de cualquier otro disco compacto. El juego se puede jugar en PlayStation 2 debido a la retrocompatibilidad.",
   notes:
     "Recompilation of Vib-Ribbon (PS1, Europe SCES-02873) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

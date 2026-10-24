@@ -29,6 +29,8 @@ export const dragonBallZLegacyOfGokuRecomp: Port = {
     "Recompilación estática del ejecutable de GBA",
     "Vista previa experimental: subproducto del marco gbarecomp",
   ],
+  summary: "Dragon Ball Z: The Legacy of Goku is an action role-playing video game for the Game Boy Advance, based on the anime series Dragon Ball Z and part of the Dragon Ball video game series, developed by Webfoot Technologies and released in 2002. The first part of the trilogy of the same name, it was released in North America on May 14, 2002 and in Europe on October 4, 2002, published by Infogrames. In it the player, as the protagonist Goku, faces various missions and fights along the plot of the first three seasons of the series, up to the Frieza Saga.",
+  summaryEs: "Dragon Ball Z: El legado de Goku es un videojuego de rol de acción para Game Boy Advance basado en la serie original Dragon Ball Z. El juego fue lanzado al mercado en Norteamérica el 14 de mayo de 2002 y en Europa el 4 de octubre del mismo año. En algunos emuladores, el juego era incompatible debido a problemas de hardware.",
   notes:
     "Experimental recompilation. The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

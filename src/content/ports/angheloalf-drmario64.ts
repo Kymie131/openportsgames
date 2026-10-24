@@ -27,6 +27,8 @@ export const angheloalfDrmario64: Port = {
     alt: "Dr. Mario 64 (box art)",
     credit: "Box art",
   },
+  summary: "Dr. Mario 64 is a 2001 tile-matching action puzzle game developed and published by Nintendo for the Nintendo 64. The game is an enhanced remake of Dr. Mario, which was originally released for the NES and Game Boy consoles in 1990, and is based around characters from the 2000 Game Boy Color game Wario Land 3. The game's soundtrack was composed by Seiichi Tokunaga, featuring arrangements of classic Dr. Mario tunes and new compositions. The game was released in North America on April 9, 2001.",
+  summaryEs: "Dr. Mario 64 es un videojuego de lógica basado en el juego Dr. Mario. Fue desarrollado por la compañía Newcome y distribuido por Nintendo, publicado para la Nintendo 64 en 2001, y es la continuación del citado Dr Mario, que apareció en 1990 para las consolas NES y Game Boy.",
   notes: "Dr. Mario 64: decompilation by AngheloAlf for Windows. Bring your own copy of the game.",
   notesEs: "Dr. Mario 64: decompilación de AngheloAlf para Windows. Aporta tu propia copia del juego.",
 };

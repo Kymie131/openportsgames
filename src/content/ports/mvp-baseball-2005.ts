@@ -6,7 +6,7 @@ export const MvpBaseball2005: Port = {
   title: "MVP Baseball 2005",
   game: "MVP Baseball 2005",
   developers: ["mitsevox"],
-  publisher: "Unknown",
+  publisher: "Electronic Arts",
   originalYear: 2005,
   portType: "decompilation",
   genre: "action-adventure",
@@ -25,6 +25,8 @@ export const MvpBaseball2005: Port = {
     alt: "MVP Baseball 2005 (cover)",
     credit: "Wikipedia",
   },
+  summary: "MVP Baseball 2005 is a 2005 baseball video game developed by EA Canada and published by EA Sports. It features Boston Red Sox left fielder Manny Ramirez on its cover. It is considered by many to be the best baseball video game of all time, and possibly the best sports video game of all time.",
+  summaryEs: "MVP Baseball 2005 es un videojuego de acción y aventura publicado por Electronic Arts en 2005.",
   notes: "Decompilation and asset research for MVP Baseball 2005 (GameCube, GV4E69).",
   notesEs: "Decompilación e investigación de recursos de MVP Baseball 2005 (GameCube, GV4E69).",
 };

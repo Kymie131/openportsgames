@@ -19,6 +19,8 @@ export const rivalSchoolsRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Rival Schools: United by Fate, known in Japan as Private Justice Academy: Legion of Heroes, is a 1997 3D fighting game produced by Capcom originally released as an arcade game on Sony ZN-2 hardware. Rival Schools revolves around tag team battles between groups of students from various schools in a Japanese city, and uses a comical and humorous style. Sakura Kasugano from Capcom's Street Fighter series also appears as a character in the game.",
+  summaryEs: "Para la banda de post-hardcore, véase Rival Schools",
   notes:
     "Recompilation of Rival Schools: United by Fate (PS1, USA SLUS-00681) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

@@ -19,6 +19,8 @@ export const oddworldAbeSOddyseeRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Oddworld: Abe's Oddysee is a platform video game developed by Oddworld Inhabitants and published by GT Interactive. It was released in 1997 for the PlayStation game console, and computers running MS-DOS and Windows. A Game Boy version was released as Oddworld Adventures in 1998.",
+  summaryEs: "Oddworld: Abe's Oddysee fue uno de los primeros videojuegos importantes para la PlayStation de Sony, que posteriormente salió para PC. El juego fue reconocido por su alto nivel gráfico y sonoro con unas excepcionales escenas animadas, explotando al máximo las capacidades de la consola. Estaba prevista también una versión para Sega Saturn pero finalmente fue cancelada por motivos desconocidos.",
   notes:
     "Recompilation of Oddworld: Abe's Oddysee (PS1, USA SLUS-00190) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

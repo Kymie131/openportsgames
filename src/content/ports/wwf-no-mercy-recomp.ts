@@ -19,6 +19,8 @@ export const wwfNoMercyRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Nintendo 64"],
+  summary: "WWF No Mercy is a professional wrestling video game released in 2000 by THQ for the Nintendo 64. It is based on the World Wrestling Federation and is named after the WWF's annual event of the same name. Developed by Asmik Ace Entertainment and AKI Corporation, No Mercy is the last in a series of Nintendo 64 wrestling games from the companies that started with WCW vs. nWo: World Tour.",
+  summaryEs: "WWF No Mercy es un videojuego de lucha libre profesional publicado en 2000 en la consola Nintendo 64, desarrollado por Asmik Ace Entertainment y AKI Corporation y publicado por THQ. Está basado en la World Wrestling Federation y lleva el nombre del evento anual del mismo nombre. No Mercy es el sucesor de WWF WWF WrestleMania 2000 de 1999. No Mercy fue bien recibido por los jugadores y críticos por igual.",
   notes:
     "Static recompilation of WWF No Mercy (N64) with N64Recomp and the RT64 renderer. It requires the original game.",
   notesEs:

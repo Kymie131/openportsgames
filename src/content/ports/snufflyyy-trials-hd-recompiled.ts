@@ -22,6 +22,8 @@ export const snufflyyyTrialsHdRecompiled: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  summary: "Trials HD is an Xbox Live Arcade game developed by RedLynx and published by Microsoft Game Studios. It was released on August 12, 2009 as part of the second annual Xbox Live Summer of Arcade and was later re-released in a retail pack alongside Limbo and 'Splosion Man in April 2011. It is a 2.5D puzzle/racing game. The player must guide a trial motorcycle with exaggerated physics through various obstacles to reach each stage's finish line.",
+  summaryEs: "Trials HD es un videojuego del Xbox Live Arcade desarrollado por RedLynx y distribuido por Microsoft Game Studios. Fue lanzado el 12 de agosto de 2009 como parte del segundo Xbox Live Summer of Arcade. Es un videojuego de puzle/carreras representado en 2.5 dimensiones. El jugador debe guiar una motocicleta de trial a través de escenarios con varios obstáculos intentando llegar a la línea de meta.",
   notes: "Trials HD: static recompilation by snufflyyy for Windows. Bring your own copy of the game.",
   notesEs: "Trials HD: recompilación estática de snufflyyy para Windows. Aporta tu propia copia del juego.",
 };

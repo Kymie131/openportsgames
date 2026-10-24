@@ -19,6 +19,8 @@ export const cncRenegade: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Windows"],
+  summary: "Command & Conquer: Renegade is a first- and third-person shooter video game developed by Westwood Studios and is part of the Command & Conquer series. It is the only Command & Conquer game that uses the first-person view and was the last installment in the series to be produced under Westwood Studios banner. It was released on February 26, 2002 by EA Games. The game received generally favorable reviews from critics.",
+  summaryEs: "Command & Conquer: Renegade es un videojuego de disparos en primera persona para PC, que forma parte de la serie Command & Conquer. Se trata del primer videojuego de la serie en primera persona.",
   notes:
     "Official source release of Command & Conquer: Renegade published by EA. It can be built on Windows and uses the retail game assets. The upstream repository is archived (read-only).",
   notesEs:

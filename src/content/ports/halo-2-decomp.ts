@@ -21,6 +21,8 @@ export const halo2Decomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox"],
+  summary: "Halo 2 is a 2004 first-person shooter game developed by Bungie and published by Microsoft Game Studios for the Xbox. The second installment in the Halo franchise, the campaign follows the supersoldier Master Chief and the disgraced alien commander Arbiter in a 26th-century conflict between the United Nations Space Command, the genocidal Covenant, and the parasitic Flood.",
+  summaryEs: "Halo 2 es un videojuego de disparos en primera persona desarrollado por Bungie Studios y lanzado para la consola Xbox en 2004. Es la segunda entrega en la franquicia de Halo y su trama continúa los sucesos relatados en Halo: Combat Evolved.",
   notes:
     "Decompilation of Halo 2 for the original Xbox. A research codebase; it requires game files from a copy you own.",
   notesEs:

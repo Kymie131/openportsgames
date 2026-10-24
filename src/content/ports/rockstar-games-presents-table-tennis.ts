@@ -25,6 +25,8 @@ export const RockstarGamesPresentsTableTennis: Port = {
     alt: "Rockstar Games Presents Table Tennis (box art)",
     credit: "Wikipedia",
   },
+  summary: "Rockstar Games Presents Table Tennis is a 2006 table tennis simulation video game developed by Rockstar San Diego and published by Rockstar Games. The game is a realistic simulation of the sport table tennis, with the main objective to make the opponent fail to hit the ball.",
+  summaryEs: "Rockstar Games Presents Table Tennis es un videojuego de simulación de tenis de mesa para Xbox 360 y Wii desarrollado por Rockstar San Diego y publicado por Rockstar Games, con un nuevo sistema de control y el nuevo motor de Rockstar, el Rockstar Advanced Game Engine.",
   notes: "Full Decompilation of a 2006 Table Tennis Game.",
   notesEs: "Decompilación completa del juego de tenis de mesa de 2006.",
 };

@@ -19,6 +19,8 @@ export const tenchuStealthAssassinsRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Tenchu: Stealth Assassins is a 1998 stealth video game, developed by Acquire and published by Sony Music Entertainment Japan for the PlayStation. It is the first installment in the Tenchu series, with Activision releasing the game outside Japan. Following Rikimaru and Ayame of the Azuma ninja clan as they complete missions for their employer Lord Gohda in Sengoku-era Japan, the gameplay involves the player guiding their chosen character through missions. With the aim to being undetected while either avoiding or quietly killing enemies.",
+  summaryEs: "Tenchu: Stealth Assassins es un videojuego de sigilo desarrollado por Acquire y publicado por Sony Music y Activision el 26 de febrero de 1998 en Japón, el 31 de agosto de 1998 en Estados Unidos y posteriormente en Europa para las plataformas PlayStation, PlayStation 2, XBox, XBox 360, PlayStation Portable y Nintendo DS. El jugador ejerce el papel de un ninja, a lo largo de 10 pantallas, donde en cada una de ellas deberá cumplir una misión. En esta primera versión de la saga Tenchu están disponibles dos personajes, Rikimaru y Ayame, a las órdenes de su maestro, Lord Gohda.",
   notes:
     "Recompilation of Tenchu: Stealth Assassins (PS1, USA SLUS-00706) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

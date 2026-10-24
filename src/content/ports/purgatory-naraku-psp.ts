@@ -25,6 +25,8 @@ export const purgatoryNarakuPsp: Port = {
     alt: "Purgatory -NARAKU- (cover art)",
     credit: "Steam",
   },
+  summary: "This is a survival horror action game in which a young girl &quot;Enri&quot; tries to escape from a mysterious facility filled with blood and madness.",
+  summaryEs: "Purgatory -NARAKU- es un videojuego de acción y aventura publicado por Gotcha Gotcha Games en 2024.",
   notes: "Purgatory -NARAKU- (Fan game, 2024) running on PlayStation Portable through source port. You need your own copy of the game.",
   notesEs: "Purgatory -NARAKU- (Fan game, 2024) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
 };

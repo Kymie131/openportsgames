@@ -19,6 +19,8 @@ export const cannonball: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Arcade"],
+  summary: "OutRun is a racing game in 2024.",
+  summaryEs: "OutRun es un videojuego de carreras en 2024.",
   notes:
     "CannonBall is an enhanced OutRun engine that runs the arcade game with 60 FPS, widescreen and new tracks. It needs the original OutRun ROM and builds for Windows, Linux and macOS.",
   notesEs:

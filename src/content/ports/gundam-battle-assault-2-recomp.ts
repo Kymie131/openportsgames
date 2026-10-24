@@ -19,6 +19,8 @@ export const gundamBattleAssault2Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Gundam: Battle Assault 2 is a 2002 fighting video game developed by Natsume Co., Ltd. for the PlayStation. Based on the Gundam franchise, it is a follow-up to Gundam: Battle Assault (1998). The story is divided into three storylines following a pilot from Mobile Fighter G Gundam, Mobile Suit Gundam Wing and Mobile Suit Gundam. Its gameplay consists of one-on-one fights, with a main six-button configuration, featuring special moves and two playable modes, while players can select any available mech to battle against enemies in story mode.",
+  summaryEs: "Gundam: Battle Assault 2 es un videojuego de lucha publicado por Bandai en 2002.",
   notes:
     "Recompilation of Gundam: Battle Assault 2 (PS1) in progress with PSXRecomp. You bring your own disc and it uses OpenBIOS; it is still under development.",
   notesEs:

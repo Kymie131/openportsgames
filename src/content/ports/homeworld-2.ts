@@ -7,7 +7,7 @@ export const Homeworld2: Port = {
   game: "Homeworld 2",
   developers: ["HaydnTrigg"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2003,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const Homeworld2: Port = {
     alt: "Homeworld 2 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Homeworld 2 is a 2003 real-time strategy video game sequel to Homeworld, developed by Relic Entertainment and published by Sierra Entertainment. Its story concerns Hiigara's response to a new enemy called the Vaygr. Its gameplay takes a new direction with the enhancement of its graphics and audio. In contrast to the closely equivalent Kushan and Taiidan forces of the original game, Vaygr and Hiigaran spaceships differ significantly in design and application.",
+  summaryEs: "Homeworld 2 es un videojuego de acción y aventura en 2003.",
   notes: "Homeworld 2 Classic Decomplication.",
   notesEs: "Decompilación de Homeworld 2 Classic.",
 };

@@ -25,6 +25,8 @@ export const wwfSmackdown2KnowYourRolePc: Port = {
     alt: "WWF SmackDown! 2: Know Your Role (box art)",
     credit: "Wikipedia",
   },
+  summary: "WWF SmackDown! 2: Know Your Role, known in Japan as Exciting Pro Wrestling 2 , is a professional wrestling video game developed by Yuke's released in North America on November 20, 2000, Europe on December 1, 2000, and Japan on January 25, 2001 on the PlayStation by THQ. It is the sequel to WWF SmackDown!, and the second game in the SmackDown series, itself based on the World Wrestling Federation professional wrestling promotion.",
+  summaryEs: "WWF SmackDown! 2: Know Your Role es un videojuego de lucha libre profesional lanzado en PlayStation por THQ y desarrollado por Yuke's Future Media Creators. Es parte de la serie WWF SmackDown!, basada en la empresa de lucha libre World Wrestling Federation (WWF). Es la secuela de WWF SmackDown!, y fue sucedido por WWF SmackDown! Just Bring It para PlayStation 2. Este fue el último de los seis juegos de la WWF que se hizo para PlayStation.",
   notes: "WWF SmackDown! 2: Know Your Role (THQ, 2000) running on Windows through static recompilation. Latest release: v1.1. You need your own copy of the game.",
   notesEs: "WWF SmackDown! 2: Know Your Role (THQ, 2000) en Windows mediante recompilación estática. Última release: v1.1. Necesitas tu propia copia del juego.",
 };

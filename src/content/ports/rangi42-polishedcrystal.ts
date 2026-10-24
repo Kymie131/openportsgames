@@ -21,6 +21,8 @@ export const rangi42Polishedcrystal: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Game Boy / Game Boy Color"],
+  summary: "Pokémon Gold Version and Pokémon Silver Version are 1999 role-playing video games developed by Game Freak and published by Nintendo for the Game Boy Color. They are the first installments in the second generation of the Pokémon video game series. They were released in Japan on November 21st, 1999, Australia and North America on October 15th, 2000, and Europe on April 6th, 2001.",
+  summaryEs: "Pokémon Edición Oro y Edición Plata, conocidos en Japón como Pocket Monsters Kin & Gin , son la segunda entrega de la serie de videojuegos de Pokémon, de género RPG, desarrollados por la compañía japonesa Game Freak y publicados por Nintendo para su consola portátil Game Boy Color y para Nintendo 3DS en la Consola Virtual, pero también en formato físico con código de descarga. Los juegos poseen una capacidad dual de conexión, puesto que se pueden jugar tanto en la Color como en la consola monocromática Game Boy. Sin embargo, la versión Pokémon Crystal no posee esa dualidad.",
   notes: "Pokémon Gold and Silver: decompilation by Rangi42 for Windows. Bring your own copy of the game.",
   notesEs: "Pokémon Gold and Silver: decompilación de Rangi42 para Windows. Aporta tu propia copia del juego.",
 };

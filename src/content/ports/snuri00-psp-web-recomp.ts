@@ -27,6 +27,8 @@ export const snuri00PspWebRecomp: Port = {
     alt: "God of War: Chains of Olympus (box art)",
     credit: "Wikipedia",
   },
+  summary: "God of War: Chains of Olympus is a 2008 action-adventure game developed by Ready at Dawn, and published by Sony Computer Entertainment (SCE). It was first released for the PlayStation Portable (PSP) handheld console on March 4, 2008. The game is the fourth installment in the God of War series, the third chronologically, and a prequel to the original God of War. It is loosely based on Greek mythology and set in ancient Greece, with vengeance as its central motif. The player controls Kratos, a Spartan warrior who serves the Olympian gods.",
+  summaryEs: "God of War: Chains of Olympus es un videojuego de acción y aventura de hack and slash desarrollado por Ready at Dawn y publicado por Sony Computer Entertainment (SCE). El juego se lanzó por primera vez para la videoconsola portátil PlayStation Portable (PSP) el 4 de marzo de 2008. Es la segunda entrada derivada de la serie God of War, el cuarto juego en general, y tiene lugar entre el título de 2013 God of War: Ascension y el God of War original. Se basa libremente en la mitología griega y está ambientada en la antigua Grecia, con la venganza como motivo central.",
   notes: "God of War: Chains of Olympus: static recompilation by snuri00 for Windows. Bring your own copy of the game.",
   notesEs: "God of War: Chains of Olympus: recompilación estática de snuri00 para Windows. Aporta tu propia copia del juego.",
 };

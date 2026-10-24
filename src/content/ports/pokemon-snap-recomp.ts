@@ -30,6 +30,8 @@ export const pokemonSnapRecomp: Port = {
     "Exportación de las fotos de la cámara del juego",
     "Antialiasing de hasta 8x con programas de shader en caché",
   ],
+  summary: "Pokémon Snap is a 1999 photography video game developed by HAL Laboratory and published by Nintendo for the Nintendo 64. It was first released in Japan in March 1999 and was later released in July 1999 in North America and in September 2000 for PAL regions. It is a spin-off game in the Pokémon series, being one of the first console-based games for it, and featuring many Pokémon rendered for the first time in real-time 3D. The game was re-released for the Wii's Virtual Console in December 2007, for the Wii U's Virtual Console in 2016, and for the Nintendo Classics service in June 2022.",
+  summaryEs: "Pokémon Snap es un videojuego creado por HAL Laboratory y Pax Softnica para la consola Nintendo 64, y posteriormente publicado para la Consola Virtual de la consola Wii de Nintendo en diciembre de 2007. A diferencia de otros juegos sobre Pokémon, que suelen ser sobre luchas entre Pokémon, el protagonista de éste es un fotógrafo que desde una plataforma móvil se desplaza a lo largo de todo un escenario consiguiendo fotos de todas las especies que es posible encontrar.",
   notes:
     "Static recompilation of Pokémon Snap; the player supplies their own legally obtained game.",
   notesEs:

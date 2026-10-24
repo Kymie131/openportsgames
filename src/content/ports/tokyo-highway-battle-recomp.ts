@@ -19,6 +19,8 @@ export const tokyoHighwayBattleRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Tokyo Highway Battle is a 1996 racing video game developed by Genki for the PlayStation and Sega Saturn. It was released in Japan as Shutokou Battle: Drift King for the PlayStation, and Shutokō Battle '97 for the Saturn. The game is part of the Shutokou Battle franchise.",
+  summaryEs: "Tokyo Highway Battle es un videojuego de carreras desarrollado por Genki y publicado por Jaleco en 1996 para PlayStation y Sega Saturn. Fue lanzado en Japón como Shutokō Battle: Drift King para PlayStation y Shutokō Battle '97 para Sega Saturn. El juego es parte de la franquicia Shutokō Battle.",
   notes:
     "Recompilation of Tokyo Highway Battle (PS1, USA SLUS-00229) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

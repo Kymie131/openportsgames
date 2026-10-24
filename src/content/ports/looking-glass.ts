@@ -27,6 +27,8 @@ export const lookingGlass: Port = {
     alt: "American McGee's Alice (box art)",
     credit: "Wikipedia",
   },
+  summary: "American McGee's Alice is a 2000 third-person dark fantasy action-adventure video game developed by Rogue Entertainment under the direction of designer American McGee and published by Electronic Arts under the EA Games banner. The game was originally released for Windows and Mac OS. Although a planned PlayStation 2 port was cancelled, the game was later released digitally for the PlayStation 3 and Xbox 360 via downloadable content for its sequel.",
+  summaryEs: "American McGee's Alice es un videojuego de terror y acción en tercera persona para ordenador lanzado el 6 de diciembre del 2000, y toma lugar en el universo de Alicia en el País de las Maravillas. Fue desarrollado por Rogue Entertainment, diseñado por American McGee y publicado por Electronic Arts. Su banda musical fue compuesta por Chris Vrenna.",
   notes: "American McGee's Alice (Electronic Arts, 2000) for Android (source port). Latest release: Four. It ships the game files with the port, so it does not build from your own copy.",
   notesEs: "American McGee's Alice (Electronic Arts, 2000) para Android (port de código). Última release: Four. Distribuye los archivos del propio juego con el port, así que no se construye desde tu propia copia.",
 };

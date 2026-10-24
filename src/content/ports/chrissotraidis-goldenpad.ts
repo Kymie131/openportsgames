@@ -21,6 +21,8 @@ export const chrissotraidisGoldenpad: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "GoldenEye 007 is a 2010 first-person shooter video game developed by Eurocom and published by Activision for the Wii, with a handheld version for Nintendo DS developed by n-Space. It is a modern reimagining of the 1995 James Bond film GoldenEye as well as a remake of the 1997 Nintendo 64 game of the same name. The game was officially announced by Nintendo at their E3 2010 conference presentation. It was released in November 2010 in tandem with another James Bond game, Blood Stone. It was the fifth James Bond game developed by Eurocom and their second under Activision.",
+  summaryEs: "GoldenEye 007 es un videojuego de disparos en primera persona desarrollado por Eurocom y distribuido por Activision y MGM Interactive. Es el remake del videojuego del mismo nombre desarrollado por Rare y publicado por Nintendo en 1997 para la consola Nintendo 64 y una reinterpretación de la película de James Bond de 1995, GoldenEye.",
   notes: "GoldenEye 007: source port by chrissotraidis for Windows, macOS. Bring your own copy of the game.",
   notesEs: "GoldenEye 007: source port de chrissotraidis para Windows, macOS. Aporta tu propia copia del juego.",
   cover: {

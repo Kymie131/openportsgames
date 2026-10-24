@@ -21,6 +21,8 @@ export const mrFinsterVf3Recomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Virtua Fighter 3 is a 1996 fighting video game developed and published by Sega, the sequel to 1994's Virtua Fighter 2 as part of the Virtua Fighter series. Released originally in arcades, Virtua Fighter 3 was the first arcade game to run on the Sega Model 3 system board. The use of this new hardware gave the game revolutionary graphics for its time. Two new characters were added to the roster: Aoi and Taka-Arashi, both of whom are oriented around traditional Japanese martial arts.",
+  summaryEs: "Virtua Fighter 3 es un juego de lucha desarrollado por Sega-AM2, y lanzado en 1996 para la placa arcade Model 3. Es el tercer juego de la serie Virtua Fighter, que incluye a dos nuevos personajes: Aoi Umenoji, una luchadora japonesa del estilo Aiki-Jujutsu, y Taka-Arashi, un luchador de sumo, ambos provenientes de Japón. Taka Arashi no volvería a aparecer en los juegos de la serie hasta la versión R de Virtua Fighter 5.",
   notes: "Virtua Fighter 3: static recompilation by mr-finster for Windows, macOS. Bring your own copy of the game.",
   notesEs: "Virtua Fighter 3: recompilación estática de mr-finster para Windows, macOS. Aporta tu propia copia del juego.",
 };

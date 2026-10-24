@@ -19,6 +19,8 @@ export const yuGiOhForbiddenMemoriesRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Yu-Gi-Oh! Forbidden Memories is a 1999 digital collectible card game developed and published by Konami for the PlayStation. It is based on the Kazuki Takahashi manga Yu-Gi-Oh! and operates on a modified version of the Yu-Gi-Oh! Trading Card Game. The single-player campaign follows an ancient Egyptian prince, an ancestor of series protagonist Yugi Mutou, who must recover the Millennium Items and thwart the scheme of the evil high priest Heishin. The game was originally released in Japan in 1999, followed by releases in North America in 2002 and in Europe in 2003.",
+  summaryEs: "Yu-Gi-Oh! Forbidden Memories, es un videojuego basado en el manga y series de anime Yu-Gi-Oh!.",
   notes:
     "Decompilation and recompilation of Yu-Gi-Oh! Forbidden Memories (PlayStation) to a native executable. It needs the original game.",
   notesEs:

@@ -25,6 +25,8 @@ export const hybridHeavenRecompiled: Port = {
     alt: "Hybrid Heaven (box art)",
     credit: "Wikipedia",
   },
+  summary: "Hybrid Heaven is a 1999 action role playing game developed by Konami Computer Entertainment Osaka and published by Konami for Nintendo 64. This game is most notable for its peculiar mix of genres: it has aspects of both role-playing video games and action-adventure games. It is also one of the few Nintendo 64 titles to support a widescreen mode.",
+  summaryEs: "Hybrid Heaven es un videojuego desarrollado por Konami Computer Entertainment Osaka y lanzado para la Nintendo 64 en 1999. El juego es una notable mezcla de diferentes géneros siendo sus principales dos géneros como el rol y los juegos de aventura de acción. Los diseñadores tenían la esperanza de crear una nueva mecánica de un sistema de batallas RPG. Es también uno de los pocos títulos de Nintendo 64 que tiene soporte en formato widescreen.",
   notes: "Hybrid Heaven (Konami, 1999) for Android (static recompilation). Latest release: v1.0.1. Needs your own copy of the game (Need USA Rom).",
   notesEs: "Hybrid Heaven (Konami, 1999) para Android (recompilación estática). Última release: v1.0.1. Necesita tu propia copia del juego.",
 };

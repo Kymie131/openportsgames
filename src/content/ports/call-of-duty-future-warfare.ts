@@ -20,6 +20,8 @@ export const CallOfDutyFutureWarfare: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Call of Duty: Future Warfare is a action-adventure game.",
+  summaryEs: "Call Of Duty: Future Warfare, o también denominado internamente como \"NX1\" es un juego de disparos de ciencia ficción en primera persona cancelado desarrollado entre 2010 y 2012 por Neversoft y que sería distribuido por Activision.",
   notes: "This is a static recompilation/PC port of Call of Duty: Future Warfare.",
   notesEs: "Recompilación estática/port para PC de Call of Duty: Future Warfare.",
 };

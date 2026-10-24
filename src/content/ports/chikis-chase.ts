@@ -7,7 +7,7 @@ export const ChikisChase: Port = {
   game: "Chiki's Chase",
   developers: ["gays-studio"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2020,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -20,6 +20,8 @@ export const ChikisChase: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Chiki's Chase is a action-adventure game in 2020.",
+  summaryEs: "Chiki's Chase es un videojuego de acción y aventura en 2020.",
   notes: "chiki's chase v2.3.3.",
   notesEs: "chiki's chase v2.3.3.",
 };

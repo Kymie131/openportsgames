@@ -25,6 +25,8 @@ export const sunsetRidersPc: Port = {
     alt: "Sunset Riders (box art)",
     credit: "Wikipedia",
   },
+  summary: "Sunset Riders is a 1991 run and gun video game developed and published by Konami for arcades. It was released in North America in October 1991 and Japan in November 1991. It is set in the American Old West, where the player(s) take control of bounty hunters who are seeking the rewards offered for various criminals.",
+  summaryEs: "Sunset Riders es un videojuego de arcade creado por Konami en 1991. Está ambientado en el salvaje oeste estadounidense. El juego fue más tarde convertido a las consolas Mega Drive en 1992, y al SNES en 1993. La versión arcade fue dirigida por H. Tsujimoto, quien está además acreditado en la dirección de la versión arcade de Super Contra.",
   notes: "Sunset Riders (Konami, 1993) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Sunset Riders (Konami, 1993) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

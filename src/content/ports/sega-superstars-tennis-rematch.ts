@@ -19,6 +19,8 @@ export const segaSuperstarsTennisRematch: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Xbox 360"],
+  summary: "Sega Superstars Tennis is a sports video game developed by Sumo Digital and published by Sega. It is the second title in the Sega All-Stars series, preceded by Sega Superstars (2004), and crosses over characters, locations, and soundtracks from several Sega franchises, including Sonic the Hedgehog, Space Channel 5, and Super Monkey Ball. It is the first and only Sega-themed tennis game to represent multiple franchises, and is the first game to feature Alex Kidd since the release of Alex Kidd in Shinobi World (1990).",
+  summaryEs: "Sega Superstars Tennis es un videojuego de tenis desarrollado por Sumo Digital y publicado por Sega. El juego fue publicado el 18 de marzo de 2008 en América del Norte, el 20 de marzo de 2008 en Europa, y el 27 de marzo de 2008 en Australia. El juego incluye dieciséis personajes controlables de franquicias de Sega así como diez canchas de tenis. En total, quince franquicias de Sega son representadas en el juego. Junto con Sonic & Sega All-Stars Racing, tendrá una versión de Mac OS X por Feral Interactive.",
   notes:
     "Recompilation of Sega Superstars Tennis (Xbox 360) to native Windows via ReXGlue. You supply the game files.",
   notesEs:

@@ -19,6 +19,8 @@ export const celesteAndroid: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Windows"],
+  summary: "Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight platformer from the creators of TowerFall. Brave hundreds of hand-crafted challenges, uncover devious secrets, and piece together the mystery of the mountain.",
+  summaryEs: "Celeste es un videojuego de plataformas publicado por Maddy Makes Games Inc. en 2018.",
   notes:
     "Native Android port of Celeste that runs your own PC copy, built with .NET, FNA and SDL3 and rendered with Vulkan. It includes a launcher to import the game.",
   notesEs:

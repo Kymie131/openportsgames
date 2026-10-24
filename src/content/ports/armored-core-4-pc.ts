@@ -25,6 +25,8 @@ export const armoredCore4Pc: Port = {
     alt: "Armored Core 4 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Armored Core 4 is a 2006 mecha-based vehicular combat game developed by FromSoftware for the PlayStation 3 and Xbox 360. The fourth main entry of the Armored Core series, the game serves as a reboot for the franchise and is set in the future where a war has made the nations of Earth devastated and their respective governments have been replaced by corporations. Conflicts soon begin to break out between the corporations, which use massive combat robots, Armored Cores, to fight each other. The player is a Lynx, a name given to pilots of highly advanced NEXT Armored Cores.",
+  summaryEs: "Armored Core 4 es un videojuego para la PlayStation 3 y Xbox 360. Este es la 12.ª entrega de la serie Armored Core de From Software, a pesar de estar titulado Armored Core 4. Armored Core 4 está ambientado en el futuro, donde una inminente gran guerra potencialmente dejara a las naciones de la tierra devastadas y sus respectivos gobiernos asumidos por las empresas. El juego presenta un sistema personalizado para la personalización de los mecanismos del jugador en línea y un modo donde los jugadores pueden luchar entre sí por la PlayStation Network o Xbox Live.",
   notes: "Armored Core 4 (FromSoftware, 2006) running on Windows through static recompilation. Latest release: v0.5.0. You need your own copy of the game.",
   notesEs: "Armored Core 4 (FromSoftware, 2006) en Windows mediante recompilación estática. Última release: v0.5.0. Necesitas tu propia copia del juego.",
 };

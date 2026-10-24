@@ -25,6 +25,8 @@ export const portalDs: Port = {
     alt: "Portal (cover art)",
     credit: "Steam",
   },
+  summary: "Portal is a 2007 puzzle-platform game developed and published by Valve. It was originally released in a bundle, The Orange Box, for Windows, Xbox 360 and PlayStation 3, and has been ported to other systems, including Mac OS X, Linux, Android, and Nintendo Switch.",
+  summaryEs: "Portal es un videojuego de plataformas y puzles de 2007 desarrollado y publicado por Valve. Se lanzó originalmente en un paquete, The Orange Box, para Windows, Xbox 360 y PlayStation 3, y desde entonces se ha adaptado a otros sistemas, como Mac OS X, Linux, Android —a través de Nvidia Shield— y Nintendo Switch.",
   notes: "Portal (Valve, 2007) running on Nintendo DS through source port. Latest release: r1. You need your own copy of the game.",
   notesEs: "Portal (Valve, 2007) en Nintendo DS mediante port de código. Última release: r1. Necesitas tu propia copia del juego.",
 };

@@ -27,6 +27,8 @@ export const jelleesMksc: Port = {
     alt: "Mario Kart: Super Circuit (box art)",
     credit: "Box art",
   },
+  summary: "Mario Kart: Super Circuit is a 2001 kart racing game for the Game Boy Advance (GBA). It is the third Mario Kart game and retains its predecessors' gameplay: as a Mario franchise character, the player races opponents around tracks based on locales from the Super Mario platform games. Tracks contain obstacles and power-ups that respectively hamper and aid the player's progress. Super Circuit includes various single-player and multiplayer game modes, including a Grand Prix racing mode and a last man standing battle mode.",
+  summaryEs: "Mario Kart: Super Circuit es un videojuego de carreras desarrollado por Intelligent Systems y distribuido por Nintendo para la Game Boy Advance (GBA). Se trata del tercer título de la saga Mario Kart y mantiene la mecánica de sus predecesores: el jugador, en el papel de un personaje de la franquicia Mario, compite contra sus rivales en circuitos inspirados en escenarios de las entregas de plataformas de Super Mario. Contienen obstáculos y potenciadores que, respectivamente, dificultan y facilitan el avance.",
   notes: "Mario Kart: Super Circuit: decompilation by jellees for Windows. Bring your own copy of the game.",
   notesEs: "Mario Kart: Super Circuit: decompilación de jellees para Windows. Aporta tu propia copia del juego.",
 };

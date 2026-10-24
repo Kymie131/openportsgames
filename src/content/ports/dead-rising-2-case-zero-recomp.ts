@@ -19,6 +19,8 @@ export const deadRising2CaseZeroRecomp: Port = {
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
   originalSystems: ["Xbox 360"],
+  summary: "Dead Rising 2: Case Zero is a action-adventure game in 2010.",
+  summaryEs: "Dead Rising 2: Case Zero es un videojuego de acción y aventura en 2010.",
   notes:
     "Native port of Dead Rising 2: Case Zero (Xbox 360) with XenonRecomp and XenosRecomp, on a purpose-built engine with a Vulkan renderer and real XMA audio. Fully playable start to finish, with online co-op, the level cap raised to 50 and a 60 fps mode.",
   notesEs:

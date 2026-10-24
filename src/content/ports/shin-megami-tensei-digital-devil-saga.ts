@@ -7,7 +7,7 @@ export const ShinMegamiTenseiDigitalDevilSaga: Port = {
   game: "Shin Megami Tensei: Digital Devil Saga",
   developers: ["Megami-Decomps"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2004,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const ShinMegamiTenseiDigitalDevilSaga: Port = {
     alt: "Shin Megami Tensei: Digital Devil Saga (box art)",
     credit: "Box art",
   },
+  summary: "Shin Megami Tensei: Digital Devil Saga is a duology of role-playing video games developed by Atlus for the PlayStation 2. They are a spin-off of the Megami Tensei series. The first Digital Devil Saga was released in Japan in 2004, North America in 2005, and Europe in 2006. Its direct sequel, Shin Megami Tensei: Digital Devil Saga 2, released in 2005 in Japan and North America, and 2007 in Europe and Australasia. The games were published in Europe and Australasia by Ghostlight and in other regions by Atlus and its North American subsidiary Atlus USA.",
+  summaryEs: "Shin Megami Tensei: Digital Devil Saga (DDS), conocido en Japón como Digital Devil Saga: Avatar Tuner, es un videojuego de rol para PlayStation 2 desarrollado por Atlus que se lanzó en Japón el 15 de julio de 2004. En España, su fecha de lanzamiento fue el 21 de julio de 2006 para PlayStation 2 y el 4 de junio de 2014 para el sistema de descarga PlayStation Network. Consiste en un spin-off o sub-saga de la serie de videojuegos Megami Tensei.",
   notes: "Matching decompilation of Shin Megami Tensei: Digital Devil Saga 1 & 2 (PS2).",
   notesEs: "Decompilación que coincide de Shin Megami Tensei: Digital Devil Saga 1 y 2 (PS2).",
 };

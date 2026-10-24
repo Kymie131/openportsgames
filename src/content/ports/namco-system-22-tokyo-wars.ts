@@ -39,6 +39,8 @@ export const namcoSystem22TokyoWars: Port = {
       credit: "spacestate1/namco22-decompile",
     },
   ],
+  summary: "Tokyo Wars is a 1996 vehicular combat video game developed and published by Namco for arcades. Hamster Corporation released the game as part of their Arcade Archives series for the Nintendo Switch and PlayStation 4, as well as their Arcade Archives 2 series for the Nintendo Switch 2, PlayStation 5 and Xbox Series X/S in November 2025.",
+  summaryEs: "Tokyo Wars es un videojuego de disparos de batalla de tanques de arcade de 1996 desarrollado y publicado por Namco.",
   notes:
     "Decompilation of the 1996 Namco arcade tank combat game for PC. Single ROM set, no separate sound board data required.",
   notesEs:

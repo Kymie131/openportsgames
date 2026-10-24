@@ -19,6 +19,8 @@ export const wrecklessRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Xbox"],
+  summary: "Wreckless: The Yakuza Missions, known in Japan as Double S.T.E.A.L. , is a 2002 racing video game originally released on the Xbox and later for GameCube and PlayStation 2, using Traveller's Tales' in-house game engine, under the codename \"T-Total\", on the latter platform. The game is set in Hong Kong, in which the player completes missions.",
+  summaryEs: "Wreckless: The Yakuza Missions es un videojuego de carreras lanzado originalmente en Xbox y más tarde para GameCube y PlayStation 2. El juego es un juego de conducción ambientado en Hong Kong, en el que el jugador completa misiones.",
   notes:
     "Static recompilation of Wreckless: The Yakuza Missions (Xbox) with ReXGlue. It requires a copy of the game.",
   notesEs:

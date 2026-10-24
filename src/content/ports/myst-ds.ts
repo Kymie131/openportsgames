@@ -25,6 +25,8 @@ export const mystDs: Port = {
     alt: "MYST (box art)",
     credit: "Wikipedia",
   },
+  summary: "Myst is a 1993 adventure video game developed by Cyan and published by Broderbund for Mac OS. In the game, the player travels via a special book to a mysterious island called Myst. The player interacts with objects and traverses the environment by clicking on pre-rendered imagery. Solving puzzles allows the player to travel to other worlds (\"Ages\"), which reveal the backstory of the game's characters and help the player make the choice of whom to aid.",
+  summaryEs: "Myst es un juego de aventura gráfica de tipo point-and-click diseñada por los hermanos Robyn Miller y Rand Miller. Fue desarrollado por Cyan, Inc, en Washington y publicado y distribuido por Brøderbund. Los hermanos Miller comenzaron su trabajo con Myst en 1991, en un ordenador Macintosh, y su adaptación a la plataforma Windows fue lanzada el 24 de septiembre de 1993.",
   notes: "MYST (Broderbund, 1993) running on Nintendo DS through source port. Latest release: v1.0.0. You need your own copy of the game.",
   notesEs: "MYST (Broderbund, 1993) en Nintendo DS mediante port de código. Última release: v1.0.0. Necesitas tu propia copia del juego.",
 };

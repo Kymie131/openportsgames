@@ -26,6 +26,8 @@ export const missingthepixelMtrPgr4: Port = {
     alt: "Project Gotham Racing 4 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Project Gotham Racing 4 is a 2007 racing video game developed by Bizarre Creations and published by Microsoft Game Studios. The fourth main title of the Project Gotham Racing series, it was released exclusively for the Xbox 360. New features included weather effects, Bulldog mode, and the inclusion of motorcycles.",
+  summaryEs: "Project Gotham Racing 4 es la secuela del juego lanzado para Xbox 360, Project Gotham Racing 3.",
   notes: "Project Gotham Racing 4: static recompilation by MissingThePixel for Windows. Bring your own copy of the game.",
   notesEs: "Project Gotham Racing 4: recompilación estática de MissingThePixel para Windows. Aporta tu propia copia del juego.",
 };

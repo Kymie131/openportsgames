@@ -26,6 +26,8 @@ export const godOfWar3Android: Port = {
     alt: "God of War III Remastered (box art)",
     credit: "LaunchBox Games Database",
   },
+  summary: "God of War III Remastered is a action-adventure game in 2015.",
+  summaryEs: "God of War III Remastered es un videojuego de acción y aventura en 2015.",
   notes:
     "Native Android (ARM64) port of God of War III Remastered (PS4), powered by FEXCore, Vulkan/Turnip and a game-specific runtime. Work in progress; you need your own copy of the game. Latest release: v2.1.6-android4 (APK).",
   notesEs:

@@ -19,6 +19,8 @@ export const starFox64Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Nintendo 64"],
+  summary: "Star Fox 64, known as Lylat Wars in PAL regions, is a 1997 rail shooter game developed and published by Nintendo for the Nintendo 64. It is the second Star Fox game, following Star Fox (1993) for the Super Nintendo Entertainment System (SNES). It was the first Nintendo 64 game to support the Rumble Pak, which initially came bundled with retail copies.",
+  summaryEs: "Star Fox 64 es un rail shooter de combates aéreos para la consola Nintendo 64. Es un reboot del juego Star Fox para Super Nintendo y es el único juego de la serie de Star Fox desarrollado para Nintendo 64. Apareció en 1997, formando parte del grupo de juegos que salieron junto al Nintendo 64. Se comercializó acompañado del accesorio \"Rumble Pak\", el cual hacía vibrar al mando, lo cual fue toda una novedad. El juego vendió 4 millones de copias desde su lanzamiento, convirtiéndolo en uno de los mejores juegos vendidos para la consola.",
   notes:
     "Static recompilation of Star Fox 64 (N64, USA v1.1 Rev A) with N64Recomp and RT64. It adds widescreen, unlocked framerate, mods (with a Thunderstore page) and instant load times.",
   notesEs:

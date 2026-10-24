@@ -7,7 +7,7 @@ export const sameGame3ds: Port = {
   game: "Same Game",
   developers: ["DiS-tronics"],
   publisher: "Homebrew",
-  originalYear: 2016,
+  originalYear: 1985,
   portType: "source-port",
   genre: "puzzle",
   openSource: true,
@@ -21,6 +21,8 @@ export const sameGame3ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "SameGame (さめがめ) is a tile-matching puzzle video game originally released under the name CHAIN SHOT in 1985 by Kuniaki \"Morisuke\" Moribe. It has since been ported to numerous computer platforms, handheld devices, and even TiVo, with new versions as of 2016.",
+  summaryEs: "SameGame es un videojuego de lógica desarrollado por Red, Amccus, Birthday y Shimada Kikaku y publicado por Hudson Soft, que fue lanzado para Super Famicom en 1996 y Game Boy en 1997.",
   notes: "Same Game (Homebrew, 2016) running on Nintendo 3DS through source port. Latest release: v0.2. You need your own copy of the game.",
   notesEs: "Same Game (Homebrew, 2016) en Nintendo 3DS mediante port de código. Última release: v0.2. Necesitas tu propia copia del juego.",
 };

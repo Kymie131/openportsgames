@@ -19,6 +19,8 @@ export const vpw64Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Nintendo 64"],
+  summary: "Virtual Pro Wrestling 64 is a professional wrestling video game released in 1997 on the Nintendo 64 and the second game in the Virtual Pro Wrestling series. The game is a sequel to the original Virtual Pro Wrestling released in 1996 exclusively for the PlayStation. The game was only released in Japan, and is the Japanese counterpart to WCW vs. nWo: World Tour.",
+  summaryEs: "Virtual Pro Wrestling 64 es un videojuego de lucha publicado por Asmik Ace Entertainment en 1997.",
   notes:
     "Static recompilation of Virtual Pro Wrestling 64 (N64) with N64Recomp and the RT64 renderer. It requires the original game.",
   notesEs:

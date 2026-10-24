@@ -19,6 +19,8 @@ export const jadeCocoonRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Jade Cocoon: Story of the Tamamayu is a role-playing video game developed by Genki exclusively for PlayStation. The game combines elements of role-playing video games and virtual pet management. It was developed by Genki in collaboration with Katsuya Kondō, character designer for the Studio Ghibli movies Kiki's Delivery Service and Ocean Waves.",
+  summaryEs: "Jade Cocoon: Story of the Tamamayu es un videojuego de rol publicado por Crave Entertainment en 1998.",
   notes:
     "Recompilation of Jade Cocoon: Story of the Tamamayu (PS1, USA SLUS-00854) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

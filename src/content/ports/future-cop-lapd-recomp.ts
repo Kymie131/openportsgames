@@ -19,6 +19,8 @@ export const futureCopLapdRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Future Cop: LAPD is a third-person shooter developed by EA Redwood Shores and published by Electronic Arts and released first for the PlayStation, then Mac OS and Windows. Future Cop was originally developed as an installment of the Strike series.",
+  summaryEs: "Future Cop: LAPD es un videojuego perteneciente al género de disparos en tercera persona, y Videojuegos multijugador de arena de batalla en línea desarrollado por EA Redwood Shores y publicado por Electronic Arts y lanzado primero para la PlayStation 1, luego Mac OS y Microsoft Windows. Future Cop fue desarrollado originalmente como una entrega de la serie Strike.",
   notes:
     "Recompilation of Future Cop: L.A.P.D. (PS1, Europe SLES-01449) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

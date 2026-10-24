@@ -26,6 +26,8 @@ export const medievilRecompBlacklabel: Port = {
     alt: "MediEvil (box art)",
     credit: "Wikipedia",
   },
+  summary: "MediEvil is a 1998 action-adventure game developed and published by Sony Computer Entertainment for the PlayStation. The game is set in the medieval Kingdom of Gallowmere and centers around the charlatan protagonist, Sir Daniel Fortesque, as he makes an attempt to stop antagonist Zarok's invasion of the kingdom whilst simultaneously redeeming himself.",
+  summaryEs: "MediEvil es un videojuego de acción-aventura del género hack and slash desarrollado por SCE Studio Cambridge y publicado por Sony Computer Entertainment para la PlayStation. El juego está ambientado en el reino medieval de Gallowmere y se centra en el protagonista del charlatán, Sir Daniel Fortesque, que intenta detener la invasión del reino por parte del antagonista Zarok mientras se redime a sí mismo.",
   notes: "Static recompilation of the USA PlayStation release of MediEvil by the BlackLabelHQ team. Open beta: some features are still incomplete. The README states the code is written by hand with no AI involvement. Release v0.2b ships Windows, Linux and macOS builds.",
   notesEs: "Recompilación estática de la versión USA de PlayStation de MediEvil por el equipo BlackLabelHQ. Beta abierta: algunas funciones aún están incompletas. El README afirma que el código está escrito a mano sin intervención de IA. La release v0.2b publica builds para Windows, Linux y macOS.",
 };

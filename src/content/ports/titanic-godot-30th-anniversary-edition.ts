@@ -25,6 +25,8 @@ export const titanicGodot30thAnniversaryEdition: Port = {
     alt: "Titanic: Adventure Out of Time (cover art)",
     credit: "Steam",
   },
+  summary: "Intrigue and adventure await you on board the Titanic, the most famous ocean liner in history. As a British secret agent on a vital mission, it is up to you to change the course of history as you explore the world’s most luxurious ocean vessel in all its original splendour.",
+  summaryEs: "Titanic: Adventure Out of Time es un videojuego de acción y aventura publicado por GTE Entertainment en 2018.",
   notes: "Titanic: Adventure Out of Time (Cyberflix, 1996) for Android (source port). Latest release: v0.6.0. Needs your own copy of the game.",
   notesEs: "Titanic: Adventure Out of Time (Cyberflix, 1996) para Android (port de código). Última release: v0.6.0. Necesita tu propia copia del juego.",
 };

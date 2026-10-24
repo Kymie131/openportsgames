@@ -6,7 +6,7 @@ export const LegoBatmanTheVideogame: Port = {
   title: "LEGO Batman: The Videogame",
   game: "LEGO Batman: The Videogame",
   developers: ["wasdhjklxyz"],
-  publisher: "Unknown",
+  publisher: "Warner Bros. Games",
   originalYear: 2008,
   portType: "decompilation",
   genre: "action-adventure",
@@ -26,6 +26,8 @@ export const LegoBatmanTheVideogame: Port = {
     alt: "LEGO Batman: The Videogame (cover)",
     credit: "Wikipedia",
   },
+  summary: "Lego Batman: The Videogame is a 2008 action-adventure game developed by Traveller's Tales and published by Warner Bros. Interactive Entertainment for the Xbox 360, PlayStation 2, PlayStation 3, PlayStation Portable, Wii, Nintendo DS, and Microsoft Windows. A port for Mac OS X was released in April 2009 by Feral Interactive. The game is based on the DC Comics character Batman, as well as the eponymous Lego Batman toyline.",
+  summaryEs: "Lego Batman: The Videogame o Lego Batman: El videojuego es un videojuego de acción-aventura basado en los cómics de Batman, personaje de DC Comics, y ambientado en el mundo de bloques de LEGO. El juego ha sido desarrollado por Traveller's Tales y publicado por Warner Bros. Interactive Entertainment para las consolas Nintendo DS, Wii, PlayStation Portable, PlayStation 2, PlayStation 3 y Xbox 360, y también para PC. El juego llegó al mercado el 23 de septiembre de 2008, el 10 de octubre de 2008 en Europa y el 15 de octubre del mismo año en Australia.",
   notes: "A work-in-progress decompilation of LEGO® Batman™: The Videogame (2008, PC).",
   notesEs: "Decompilación de LEGO Batman: The Videogame (2008, PC), en desarrollo.",
 };

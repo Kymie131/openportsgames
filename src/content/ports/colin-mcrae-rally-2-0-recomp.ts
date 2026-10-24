@@ -19,6 +19,8 @@ export const colinMcraeRally20Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Colin McRae Rally 2.0 is a racing video game developed and published by Codemasters for PlayStation, Microsoft Windows and Game Boy Advance.",
+  summaryEs: "Colin McRae Rally 2.0 es un videojuego de carreras y el segundo juego de la serie Colin McRae Rally, desarrollado y publicado por Codemasters. Originalmente lanzado en Europa el 7 de julio de 2000 para PlayStation, también fue lanzado para PC y Game Boy Advance incluso en Norte y Latinoamérica.",
   notes:
     "Recompilation of Colin McRae Rally 2.0 (PS1, USA SLUS-01222) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

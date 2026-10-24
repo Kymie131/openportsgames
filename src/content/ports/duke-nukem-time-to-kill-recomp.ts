@@ -19,6 +19,8 @@ export const dukeNukemTimeToKillRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Duke Nukem: Time to Kill is a 1998 third-person shooter video game developed by n-Space and published by GT Interactive for the PlayStation. It received mostly positive reviews.",
+  summaryEs: "Duke Nukem Time to Kill es un videojuego de acción-aventura en tercera persona, desarrollado por n-Space y 3D Realms, distribuido por GT Interactive. Fue lanzado exclusivamente para la consola PlayStation el 30 de septiembre de 1998 en Estados Unidos y el 15 de febrero de 1999 en Europa.",
   notes:
     "Recompilation of Duke Nukem: Time to Kill (PS1, USA SLUS-00583) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

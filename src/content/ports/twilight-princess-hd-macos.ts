@@ -25,6 +25,8 @@ export const twilightPrincessHdMacos: Port = {
     alt: "The Legend of Zelda: Twilight Princess HD (box art)",
     credit: "Wikipedia",
   },
+  summary: "The Legend of Zelda: Twilight Princess is a 2006 action-adventure game developed and published by Nintendo for the GameCube and Wii. Originally planned for release exclusively on the GameCube in November 2005, Nintendo delayed the release to refine the game, add more content and port it to the Wii. The Wii version was a launch game in North America in November 2006 and in Japan, Europe and Australia the following month. The GameCube version was released in December 2006 as the final first-party game for the console.",
+  summaryEs: "The Legend of Zelda: Twilight Princess HD es un videojuego de acción y aventura publicado por Nintendo en 2016.",
   notes: "The Legend of Zelda: Twilight Princess HD (Nintendo, 2016) running on macOS through static recompilation. You need your own copy of the game.",
   notesEs: "The Legend of Zelda: Twilight Princess HD (Nintendo, 2016) en macOS mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

@@ -25,6 +25,8 @@ export const daggerfallUnityAndroid: Port = {
     alt: "The Elder Scrolls II: Daggerfall (box art)",
     credit: "Wikipedia",
   },
+  summary: "The Elder Scrolls II: Daggerfall is a 1996 action role-playing game published by Bethesda Softworks. The second installment in the Elder Scrolls series, it was released on September 20, 1996 for MS-DOS, following the success of 1994's The Elder Scrolls: Arena. The story follows the player, sent by the Emperor, to free the ghost of King Lysandus from his earthly shackles and discover what happened to a letter sent from the Emperor to the former queen of Daggerfall.",
+  summaryEs: "The Elder Scrolls II: Daggerfall es la segunda entrega de la serie de videojuegos de rol The Elder Scrolls. Fue desarrollado por Bethesda Softworks y publicado en el año 1996 en Europa y Estados Unidos para el sistema operativo MS-DOS. Desde el 9 de julio de 2009 puede descargarse de forma gratuita desde el sitio web de Bethesda en conmemoración al 15 aniversario de The Elder Scrolls.",
   notes: "The Elder Scrolls II: DaggerFall (Bethesda Softworks, 1996) for Android (source port). Latest release: v1.1.1.9. Needs your own copy of the game (DaggerfallGameFiles.zip).",
   notesEs: "The Elder Scrolls II: DaggerFall (Bethesda Softworks, 1996) para Android (port de código). Última release: v1.1.1.9. Necesita tu propia copia del juego.",
 };

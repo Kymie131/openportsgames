@@ -26,6 +26,8 @@ export const marvelNemesisRecompPc: Port = {
     alt: "Marvel Nemesis: Rise of the Imperfects (box art)",
     credit: "Wikipedia",
   },
+  summary: "Marvel Nemesis: Rise of the Imperfects is a fighting game for the PlayStation 2, Xbox, GameCube, Nintendo DS, and PlayStation Portable, which ties into the Marvel Nemesis comic book series. Developed by Nihilistic Software and EA Canada for consoles, EA Canada's Team Fusion division for PlayStation Portable, and Sensory Sweep Studios for DS, and published by Electronic Arts, the game was released in North America in September 2005 and in PAL territories in October 2005. The game focuses on Marvel Comics characters facing a new team of super villains known as The Imperfects.",
+  summaryEs: "Marvel Nemesis: Rise of the Imperfects es un videojuego de lucha beat'em up para las consolas PlayStation 2, Xbox, GameCube, Nintendo DS y PSP, con vínculos con la serie de cómics Marvel Nemesis. Aunque se tenía que planificar también para la versión de Game Boy Advance pero nunca fue lanzada oficialmente.",
   notes: "Alpha static recompilation of Marvel Nemesis: Rise of the Imperfects, with graphics options, native PC settings and local Versus. Source-only; bring your own game.",
   notesEs: "Recompilación estática en alpha de Marvel Nemesis: Rise of the Imperfects, con opciones gráficas, ajustes nativos de PC y Versus local. Solo código; aporta tu propia copia del juego.",
 };

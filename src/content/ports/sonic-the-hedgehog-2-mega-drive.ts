@@ -25,6 +25,8 @@ export const sonicTheHedgehog2MegaDrive: Port = {
     alt: "Sonic the Hedgehog 2 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Sonic the Hedgehog 2 is a 1992 platform game developed by Sega Technical Institute (STI) for the Sega Genesis. Players control Sonic as he attempts to stop Doctor Robotnik from stealing the Chaos Emeralds to power his space station, the Death Egg. Like the first Sonic the Hedgehog (1991), players traverse side-scrolling levels at high speeds while collecting rings, defeating enemies, and fighting bosses. Sonic 2 introduces Sonic's sidekick Miles \"Tails\" Prower and features faster gameplay, larger levels, a multiplayer mode, and special stages featuring pre-rendered 3D graphics.",
+  summaryEs: "Sonic the Hedgehog 2 es un videojuego de plataformas en 1992.",
   notes: "Sonic the Hedgehog 2 (Sega, 1992) running on genesis through static recompilation. Latest release: v0.8.3. You need your own copy of the game.",
   notesEs: "Sonic the Hedgehog 2 (Sega, 1992) en genesis mediante recompilación estática. Última release: v0.8.3. Necesitas tu propia copia del juego.",
 };

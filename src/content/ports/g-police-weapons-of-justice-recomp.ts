@@ -19,6 +19,8 @@ export const gPoliceWeaponsOfJusticeRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "G-Police: Weapons of Justice is a 1999 combat flight simulation video game and sequel to G-Police, developed by Psygnosis for the PlayStation.",
+  summaryEs: "G-Police: Weapons of Justice es un videojuego de simulación de vuelo de combate de 1999 y secuela de G-Police, desarrollado por Psygnosis para PlayStation.",
   notes:
     "Recompilation of G-Police: Weapons of Justice (PS1, USA SLUS-00798) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

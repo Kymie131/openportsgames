@@ -26,6 +26,8 @@ export const openMohaa: Port = {
     "Reimplementación del motor de la era id Tech 3",
     "Builds de escritorio multiplataforma",
   ],
+  summary: "Medal of Honor: Allied Assault is a 2002 first-person shooter game developed by 2015 and published by Electronic Arts. It was released for Windows and Mac OS X as the third game in the Medal of Honor video game series. The game uses the id Tech 3 engine, with modifications from Heavy Metal: F.A.K.K.², to simulate infantry combat in the European and North African theaters during World War II.",
+  summaryEs: "Medal of Honor: Allied Assault (MoHAA), conocido en español como Medalla de Honor: Asalto Aliado, es un videojuego de disparos en primera persona para PC desarrollado por la empresa 2015, Inc. y creado por Steven Spielberg. Es la tercera parte de la serie Medal of Honor. El juego, que usa el motor gráfico de Quake III Arena con algunas modificaciones, simula algunos de los combates más trascendentales de la campaña estadounidense durante la invasión de Europa y el norte de África en la Segunda Guerra Mundial.",
   notes: "Open source continuation of the Medal of Honor: Allied Assault codebase.",
   notesEs: "Continuación de código abierto del código de Medal of Honor: Allied Assault.",
   screenshots: [

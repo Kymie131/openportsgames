@@ -7,7 +7,7 @@ export const Megaglest: Port = {
   game: "MegaGlest",
   developers: ["MegaGlest"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2010,
   portType: "source-port",
   genre: "platformer",
   openSource: true,
@@ -25,6 +25,8 @@ export const Megaglest: Port = {
     alt: "MegaGlest (cover)",
     credit: "Wikipedia",
   },
+  summary: "MegaGlest is a free and open source real-time strategy computer game in a fantasy world, mixing elements of re-imagined past civilizations, magic and steampunk. It is an actively developed fork of the 2004 game Glest, which is no longer under development.",
+  summaryEs: "MegaGlest es un videojuego de plataformas en 2010.",
   notes: "MegaGlest real-time strategy game engine (cross-platform, 3-d).",
   notesEs: "Motor de juego de estrategia en tiempo real MegaGlest (multiplataforma, 3D).",
 };

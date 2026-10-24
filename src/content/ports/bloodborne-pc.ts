@@ -20,6 +20,8 @@ export const bloodbornePc: Port = {
   verified: true,
   verifiedAt: "2026-10-07",
   originalSystems: ["PlayStation 4"],
+  summary: "Bloodborne is a 2015 action role-playing game developed by FromSoftware and published by Sony Computer Entertainment for the PlayStation 4. The game follows a Hunter through the decrepit Gothic, Victorian-era inspired city of Yharnam, whose inhabitants are afflicted with a blood-borne disease. Attempting to find the source of the plague, the player's character unravels the city's mysteries while fighting beasts and eldritch beings.",
+  summaryEs: "Bloodborne es un videojuego de rol de acción dirigido por Hidetaka Miyazaki, desarrollado por From Software y distribuido por JapanStudio y Sony Computer Entertainment para la plataforma de PlayStation 4. El videojuego sigue las acciones del personaje del jugador, el Cazador, a través de Yharnam, una ciudad ficticia de estilo victoriano, cuyos habitantes han sido afectados con una enfermedad de transmisión sanguínea anormal.",
   notes:
     "Native runtime port of Bloodborne (PS4, CUSA03173 v1.09). The game's own x86-64 code runs directly on the CPU with no emulation, a small runtime written for this one title replaces the PS4 system libraries, and the graphics are translated to Vulkan by a renderer derived from shadPS4 (the project is not affiliated with the shadPS4 team). It is neither a decompilation nor a general emulator, and it ships no game files: you must supply your own decrypted dump. The Linux build is the reference; community Windows ports exist. It is still in development and not verified from start to finish.",
   notesEs:

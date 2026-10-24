@@ -25,6 +25,8 @@ export const pokemonPlatinumSoulsilverPsp: Port = {
     alt: "Pokemon Platinum (box art)",
     credit: "Wikipedia",
   },
+  summary: "Pokémon Platinum Version is a 2008 role-playing video game developed by Game Freak and published by The Pokémon Company and Nintendo for the Nintendo DS. The game is an enhanced version of the 2006 titles Pokémon Diamond and Pearl and is part of the fourth generation of the Pokémon video game series. It was released in Japan in September 2008 and internationally throughout 2009.",
+  summaryEs: "Pokémon Platinum Version, conocido en Japón como Pocket Monsters Platina es un videojuego de rol perteneciente a la serie de videojuegos Pokémon. Se puede considerar como un remake de los juegos Pokémon Diamante y Perla, tal y como lo fue Pokémon Yellow para las versiones Rojo y Azul; Pokémon Cristal para las versiones Oro y Plata; y Pokémon Esmeralda para las versiones Rubí y Zafiro. Fue lanzado al mercado el 13 de septiembre de 2008 en Japón.",
   notes: "Pokemon Platinum (Nintendo, 2008) running on PlayStation Portable through source port. Latest release: v0.1.10-beta. You need your own copy of the game.",
   notesEs: "Pokemon Platinum (Nintendo, 2008) en PlayStation Portable mediante port de código. Última release: v0.1.10-beta. Necesitas tu propia copia del juego.",
 };

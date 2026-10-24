@@ -26,6 +26,8 @@ export const residentEvil3Revisited: Port = {
     alt: "Resident Evil 3: Nemesis (box art)",
     credit: "Wikipedia",
   },
+  summary: "Resident Evil 3: Nemesis is a 1999 survival horror game developed and published by Capcom for the PlayStation. It takes place almost concurrently with the events of Resident Evil 2. The player controls the former elite agent Jill Valentine as she escapes from Raccoon City, which has been overrun by zombies. The game uses the same engine as its predecessors and features 3D models over pre-rendered backgrounds with fixed camera angles. Choices through the game affect how the story unfolds and which ending is achieved.",
+  summaryEs: "Resident Evil 3: Nemesis —cuyo título original es Biohazard 3: Last Escape es un videojuego de acción-aventura de terror y supervivencia desarrollado y distribuido por Capcom originalmente para PlayStation. Es el tercer juego de la serie Resident Evil y tiene lugar casi al mismo tiempo que los eventos de Resident Evil 2. El jugador debe controlar a la exagente de élite Jill Valentine mientras escapa de Raccoon City, que ha sido invadida por zombies. El juego utiliza el mismo motor que sus predecesores y presenta modelos 3D sobre fondos prerenderizados con ángulos de cámara fijos.",
   notes: "Native PC port of Resident Evil 3: Nemesis with an improved 3D renderer, modern controls and widescreen support. Separate from the alexbeavs PS1 recompilation already catalogued.",
   notesEs: "Port nativo para PC de Resident Evil 3: Nemesis con renderizador 3D mejorado, controles modernos y soporte de pantalla ancha. Es distinto de la recompilación de alexbeavs ya catalogada.",
 };

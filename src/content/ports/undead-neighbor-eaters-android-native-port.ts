@@ -25,6 +25,8 @@ export const undeadNeighborEatersAndroidNativePort: Port = {
     alt: "Zombies Ate My Neighbors (box art)",
     credit: "Wikipedia",
   },
+  summary: "Zombies Ate My Neighbors is a 1993 run and gun video game developed by LucasArts and published by Konami for the Super Nintendo Entertainment System and Sega Genesis. The player controls the protagonists Zeke and Julie in order to rescue the titular neighbors from monsters often seen in horror films. Aiding them in this task are a variety of weapons and power-ups that can be used to battle the numerous enemies in each level.",
+  summaryEs: "Zombies Ate My Neighbors es un videojuego de 1993, de acción, plataformas y disparos para las consolas Mega Drive de Sega y Super NES de Nintendo. El juego fue desarrollado, distribuido y producido originalmente por LucasArts como un homenaje cómico a clásicas películas de terror de la década de 1950 hasta la década de 1980. Fue publicado por Konami. El juego fue relanzado el 29 de junio de 2021 junto con al juego Ghoul Patrol en plataformas de octava generación y PC por parte de Disney Interactive / LucasFilm Games en colaboración con DotEmu.",
   notes: "Zombies Ate My Neighbors (Konami, 1993) for Android (source port). Latest release: DROID. Needs your own copy of the game.",
   notesEs: "Zombies Ate My Neighbors (Konami, 1993) para Android (port de código). Última release: DROID. Necesita tu propia copia del juego.",
 };

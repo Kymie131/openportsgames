@@ -20,6 +20,8 @@ export const godOfWar3Recomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 4"],
+  summary: "God of War III Remastered is a action-adventure game in 2015.",
+  summaryEs: "God of War III Remastered es un videojuego de acción y aventura en 2015.",
   notes:
     "Windows port of God of War III Remastered (PS4): the original x86-64 executable runs directly on the CPU through a custom runtime, with graphics on shadPS4's Vulkan video core and cuesta4's fixes. Playable start to finish, with a 240 FPS patch, launcher and in-game menu. It needs your own dump (CUSA01623 v1.02).",
   notesEs:

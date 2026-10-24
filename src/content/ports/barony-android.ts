@@ -19,6 +19,8 @@ export const baronyAndroid: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Windows"],
+  summary: "Barony is a role-playing game in 2015.",
+  summaryEs: "Barony es un videojuego de rol en 2015.",
   notes:
     "Android fork of the Barony source, published with the developer's permission. The APK contains engine code only and needs an owned Barony v5.0.2 installation for its data.",
   notesEs:

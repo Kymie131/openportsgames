@@ -19,6 +19,8 @@ export const sonicRAndroid: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Sega Saturn"],
+  summary: "Sonic R is a 1997 racing game developed by Traveller's Tales and Sonic Team and published by Sega for the Sega Saturn. It is the third racing game in the Sonic the Hedgehog series, and the first to feature 3D computer graphics. The player races one of ten Sonic characters in various Sonic-themed race tracks as they attempt to stop Doctor Robotnik from stealing the Chaos Emeralds and enslaving the world. Sonic R features single-player and multiplayer game modes, and while similar to kart racing games such as Mario Kart, it places an emphasis on jumping and exploration.",
+  summaryEs: "Sonic R es un videojuego de carreras de 1997 desarrollado por Traveller's Tales y Sonic Team para Sega Saturn. Es el tercer juego de carreras de la serie Sonic the Hedgehog y el primero en contar con gráficos de computadora en 3D. El jugador compite con uno de los diez personajes de Sonic en varias pistas de carreras con temática de Sonic mientras intentan evitar que el Dr. Robotnik robe las Chaos Emeralds y esclavice al mundo.",
   notes:
     "Native Android port of the Sonic R PC decompilation, with a GLES2 renderer, 60 FPS and touch controls. It requires your own PC game files and includes no retail assets.",
   notesEs:

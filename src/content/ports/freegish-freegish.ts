@@ -26,6 +26,8 @@ export const freegishFreegish: Port = {
     alt: "Gish (box art)",
     credit: "Wikipedia",
   },
+  summary: "Gish isn't your average hero. In fact, he's not your average anything...you see, Gish is a ball of tar. A Sunday stroll with his lady friend, Brea, goes awry when a shadowy figure emerges from an open manhole and pulls Brea below ground.",
+  summaryEs: "Gish es un videojuego de plataformas publicado por Chronic Logic en 2007.",
   notes: "Gish: source port by freegish for Windows. Bring your own copy of the game.",
   notesEs: "Gish: source port de freegish para Windows. Aporta tu propia copia del juego.",
 };

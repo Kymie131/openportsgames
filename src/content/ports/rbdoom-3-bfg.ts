@@ -31,6 +31,8 @@ export const rbDoom3Bfg: Port = {
     "Soporte del editor de misiones",
     "Amplia configuración y scripting",
   ],
+  summary: "Doom 3 is a 2004 first-person shooter survival horror game developed by id Software and published by Activision. It was originally released for Windows on August 3, 2004, before being adapted for Linux later that year, and ported by Aspyr Media for Mac OS X in 2005. Vicarious Visions ported the game to the Xbox, releasing it worldwide on April 4, 2005.",
+  summaryEs: "Doom 3 BFG Edition es una remasterización de Doom 3, el cual fue lanzado el 15 de octubre de 2012 en Australia, el 16 de octubre de 2012 en América del Norte, el 19 de octubre de 2012 en Europa y el 22 de noviembre de 2012 en Japón para PC, PlayStation 3, y Xbox 360.",
   notes: "Open source reimplementation of the id Tech 4 engine used by Doom 3 BFG Edition.",
   notesEs: "Reimplementación de código abierto del motor id Tech 4 usado por Doom 3 BFG Edition.",
   screenshots: [

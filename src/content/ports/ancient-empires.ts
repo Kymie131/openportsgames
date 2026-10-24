@@ -5,7 +5,7 @@ export const AncientEmpires: Port = {
   title: "Ancient Empires",
   game: "Ancient Empires",
   developers: ["Atomk"],
-  publisher: "Unknown",
+  publisher: "Macrospace",
   originalYear: 2004,
   portType: "decompilation",
   genre: "action-adventure",
@@ -19,6 +19,8 @@ export const AncientEmpires: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Ancient Empires is a action-adventure game published by Macrospace in 2004.",
+  summaryEs: "Ancient Empires es un videojuego de acción y aventura publicado por Macrospace en 2004.",
   notes: "Decompilation of the mobile game Ancient Empires (2004).",
   notesEs: "Decompilación del juego móvil Ancient Empires (2004).",
 };

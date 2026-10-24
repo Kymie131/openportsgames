@@ -20,6 +20,8 @@ export const metalSlugXxRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation Portable"],
+  summary: "Metal Slug 7 is a run and gun video game developed by SNK Playmore for the Nintendo DS. It is the seventh and final title in the main Metal Slug series. It marks the first game in the main series that would be released without an arcade version. The game was released in 2008 for Japan on July 22 and North America on November 28 by Ignition Entertainment.",
+  summaryEs: "Metal Slug XX es una modificación mejorada de Metal Slug 7, publicado en diciembre de 2009 para la Playstation Portable, Xbox Live Arcade con nuevos contenidos, PlayStation 4 y Microsoft Windows (Steam). Esta versión cuenta con contenido adicional así como un modo multijugador.",
   notes:
     "Static recompilation of Metal Slug XX (PSP) using the ReXGlue SDK, for Windows. It needs your own copy of the game.",
   notesEs:

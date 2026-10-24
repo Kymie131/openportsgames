@@ -20,6 +20,8 @@ export const jillOfTheJungleAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
+  summary: "Jill of the Jungle is a platform game in 1992.",
+  summaryEs: "Jill of the Jungle es un videojuego de plataformas en 1992.",
   notes:
     "Source port of Jill of the Jungle (MS-DOS) for Android with quality-of-life features and on-screen touch controls, built on the Descore framework. It needs the player's own copy of the game files.",
   notesEs:

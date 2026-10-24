@@ -6,7 +6,7 @@ export const PokemonStadium2: Port = {
   title: "Pokemon Stadium 2",
   game: "Pokemon Stadium 2",
   developers: ["pret"],
-  publisher: "Unknown",
+  publisher: "Nintendo",
   originalYear: 2000,
   portType: "decompilation",
   genre: "rpg",
@@ -25,6 +25,8 @@ export const PokemonStadium2: Port = {
     alt: "Pokemon Stadium 2 (cover)",
     credit: "Wikipedia",
   },
+  summary: "Pokémon Stadium 2, known in Japan as Pokémon Stadium Gold & Silver, is a strategy video game developed and published by Nintendo for the Nintendo 64. It is the third game in the Pokémon Stadium series, following prior releases Pocket Monsters Stadium and Pokémon Stadium. It features all 251 Pokémon from the first and second generations of the franchise, and allows for players to battle either with other players or against computer-controlled opponents.",
+  summaryEs: "Pokémon Stadium 2, conocido en Japón como Pokemon Stadium Kin Gin , es un videojuego editado el 19 de octubre de 2001 para Nintendo 64, siendo la secuela directa de Pokémon Stadium. En esta segunda parte, al igual que en la primera, puedes librar combates Pokémon en 3D, con multitud de modos de juego.",
   notes: "Decompilation of Pokémon Stadium 2 (US).",
   notesEs: "Decompilación de Pokémon Stadium 2 (US).",
 };

@@ -25,6 +25,8 @@ export const naughtyBearRestuffAndroidPort: Port = {
     alt: "Naughty Bear (box art)",
     credit: "Wikipedia",
   },
+  summary: "Naughty Bear is a 2010 action-adventure video game developed by Canadian studio Artificial Mind and Movement and released by Italian publisher 505 Games for the PlayStation 3, Xbox 360, and iOS. The game is set on the fictional Perfection Island in the 1980s, where sentient teddy bears live in harmony. Naughty Bear is a shabby teddy bear who is rude, which earns him disdain from other bears, and starts a vengeful rampage against them when he is shunned from a birthday party. The game received mixed reviews from critics.",
+  summaryEs: "Naughty Bear es un videojuego de acción y aventura publicado por 505 Games en 2010.",
   notes: "Naughty Bear (505 Games, 2009) for Android (source port). Latest release: v1.1.0. Needs your own copy of the game (Naughty Bear Gold Edition ISO).",
   notesEs: "Naughty Bear (505 Games, 2009) para Android (port de código). Última release: v1.1.0. Necesita tu propia copia del juego.",
 };

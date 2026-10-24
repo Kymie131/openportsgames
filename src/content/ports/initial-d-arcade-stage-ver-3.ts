@@ -7,7 +7,7 @@ export const InitialDArcadeStageVer3: Port = {
   game: "Initial D Arcade Stage Ver.3",
   developers: ["distilledorion-sketch"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2004,
   portType: "recompilation",
   genre: "action-adventure",
   openSource: true,
@@ -22,6 +22,8 @@ export const InitialDArcadeStageVer3: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Arcade"],
+  summary: "Initial D Arcade Stage Ver.3 is a action-adventure game in 2004.",
+  summaryEs: "Initial D: Arcade Stage Ver. 3 es un videojuego de carreras arcade de 2004 basado en la serie Initial D desarrollado por Sega Rosso y publicado por Sega. Es el tercer juego de la serie Initial D: Arcade Stage.",
   notes:
     "Native SH-4 AOT recompilation of Initial D Arcade Stage 3 (NAOMI 2) — BIOS-free Vulkan public early demo (WIP).",
   notesEs:

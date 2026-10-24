@@ -7,7 +7,7 @@ export const dogpartyIpodclickwheelrecomps: Port = {
   game: "Lost",
   developers: ["DogParty"],
   publisher: "Hunter Studio",
-  originalYear: 2026,
+  originalYear: 2007,
   portType: "recompilation",
   genre: "rpg",
   openSource: true,
@@ -21,6 +21,8 @@ export const dogpartyIpodclickwheelrecomps: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Lost is a role-playing game published by Gameloft in 2007.",
+  summaryEs: "Lost es un videojuego de rol publicado por Gameloft en 2007.",
   notes: "Lost: static recompilation by DogParty for Windows. Bring your own copy of the game.",
   notesEs: "Lost: recompilación estática de DogParty para Windows. Aporta tu propia copia del juego.",
 };

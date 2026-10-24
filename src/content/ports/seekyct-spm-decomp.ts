@@ -27,6 +27,8 @@ export const seekyctSpmDecomp: Port = {
     alt: "Super Paper Mario (box art)",
     credit: "Wikipedia",
   },
+  summary: "Super Paper Mario is a 2007 action role-playing game developed by Intelligent Systems and published by Nintendo for the Wii. It is the third installment in the Paper Mario series following Paper Mario: The Thousand-Year Door (2004), and the first Mario game on the Wii. The game follows Mario, Peach, Bowser, and Luigi as they attempt to collect Pure Hearts and stop Count Bleck and his minions from destroying the universe.",
+  summaryEs: "Super Paper Mario es un videojuego de rol de acción (RPG) de 2007 desarrollado por Intelligent Systems y publicado por Nintendo para Wii. Es la tercera entrega de la serie Paper Mario y el primero de la saga Mario que se lanza para Wii. El juego sigue a Mario, Peach, Bowser y Luigi mientras intentan recolectar los Corazones Puros y evitar que el Conde Cenizo y sus secuaces destruyan el universo.",
   notes: "Super Paper Mario: decompilation by SeekyCt for Windows. Bring your own copy of the game.",
   notesEs: "Super Paper Mario: decompilación de SeekyCt para Windows. Aporta tu propia copia del juego.",
 };

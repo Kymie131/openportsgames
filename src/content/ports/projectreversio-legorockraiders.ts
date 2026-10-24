@@ -22,6 +22,8 @@ export const projectreversioLegorockraiders: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Windows"],
+  summary: "Lego Rock Raiders is a 1999 Lego-themed video game developed by Data Design Interactive and published by Lego Media for Microsoft Windows and PlayStation. It is based on the Lego theme of the same name. The Windows version was released in November 1999, while a differently built game for PlayStation was released in December 1999 in Europe and in August 2000 in North America.",
+  summaryEs: "LEGO Rock Raiders es un videojuego de acción y aventura publicado por Lego Interactive en 1999.",
   notes: "LEGO Rock Raiders: decompilation by ProjectReversio for Windows. Bring your own copy of the game.",
   notesEs: "LEGO Rock Raiders: decompilación de ProjectReversio para Windows. Aporta tu propia copia del juego.",
 };

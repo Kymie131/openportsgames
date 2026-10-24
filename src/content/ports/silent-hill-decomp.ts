@@ -26,6 +26,8 @@ export const silentHillDecomp: Port = {
     alt: "Silent Hill (box art)",
     credit: "Box art",
   },
+  summary: "Silent Hill is a 1999 survival horror video game developed by Konami's Team Silent and published by Konami for the PlayStation. It is the first installment in the Silent Hill video game series. The game follows Harry Mason as he searches for his missing adopted daughter in the eponymous fictional American town of Silent Hill. Stumbling upon a cult conducting a rite to revive a deity it worships, he discovers her true origin. Five game endings are possible, depending on the actions taken by the player, including one joke ending.",
+  summaryEs: "Silent Hill es un videojuego de terror y supervivencia desarrollado por Team Silent y publicado por Konami, un grupo de Konami Computer Entertainment Tokyo. Fue lanzado para PlayStation en Norteamérica en enero de 1999, y en Japón y Europa más tarde ese mismo año. Silent Hill emplea una cámara en tercera persona y entornos tridimensionales en tiempo real; los desarrolladores usaron niebla y oscuridad para disfrazar las limitaciones del hardware.",
   notes: "In-progress matching decompilation of the 1.1 US release of Silent Hill (PlayStation, 1999). No playable release yet: it rebuilds the game from your own disc.",
   notesEs: "Decompilación en curso (matching) de la versión 1.1 USA de Silent Hill (PlayStation, 1999). Sin release jugable todavía: reconstruye el juego desde tu propio disco.",
 };

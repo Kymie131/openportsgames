@@ -25,6 +25,8 @@ export const zomdroidEtonedemid: Port = {
     alt: "Project Zomboid (cover art)",
     credit: "Steam",
   },
+  summary: "Project Zomboid is an upcoming survival video game developed by British and Canadian independent developer The Indie Stone. The game is set in 1993 in the post-apocalyptic, zombie-infested exclusion zone of the fictional Knox Country, Kentucky, in the United States. The player is challenged to survive for as long as possible before inevitably dying.",
+  summaryEs: "Project Zomboid es un videojuego de supervivencia isométrico de mundo abierto desarrollado por el estudio independiente británico y canadiense The Indie Stone. El videojuego se desarrolla en la zona de exclusión postapocalíptica e infestada de zombis en una versión ficticia de Knox County, Kentucky, donde el jugador tiene el desafío de sobrevivir el mayor tiempo posible antes de morir. Fue uno de los primeros cinco videojuegos lanzados en la sección de financiación alfa del portal de videojuegos Desura.",
   notes: "Project Zomboid (The Indie Stone, 2013) for Android (source port). Latest release: v1.9.0. Needs your own copy of the game (Game Files - 41.78.16 by Cc Inno).",
   notesEs: "Project Zomboid (The Indie Stone, 2013) para Android (port de código). Última release: v1.9.0. Necesita tu propia copia del juego.",
 };

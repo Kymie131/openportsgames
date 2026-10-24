@@ -25,6 +25,8 @@ export const streetsOfRage2NewEra: Port = {
     alt: "Streets of Rage 2 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Streets of Rage 2, known as Bare Knuckle II in Japan, is a 1992 beat 'em up video game developed by Ancient and published by Sega for the Sega Genesis. The sequel to Streets of Rage (1991), the characters Axel Stone and Blaze Fielding return while the game also introduces two new characters: Max Thunder, and Eddie \"Skate\" Hunter, the younger brother of Adam Hunter from the first game.",
+  summaryEs: "Streets of Rage 2, deletreado como Streets of Rage II en Europa y conocido en Japón como ベア・ナックルII 死闘への鎮魂歌（レクイエム） , es un videojuego de tipo beat 'em up con desplazamiento lateral desarrollado principalmente por Ancient con apoyo de otras empresas y publicado por Sega para la consola Mega Drive. Fue lanzado en América del Norte el 20 de diciembre de 1992, mientras que a Europa llegó unos días después, el 1 de enero de 1993, y en Japón se estrenó el 14 de enero de ese mismo año. Se trata del segundo juego perteneciente a la serie Streets of Rage.",
   notes: "Fan-made port of Streets of Rage 2 to modern platforms: the game was ported manually through reverse engineering, and the project describes it as the best version of the game ever. Distributed from its own site (v3.1.0).",
   notesEs: "Port hecho por fans de Streets of Rage 2 a plataformas modernas: el juego se portó a mano mediante ingeniería inversa y el proyecto lo describe como la mejor versión del juego hasta ahora. Se distribuye desde su propia web (v3.1.0).",
 };

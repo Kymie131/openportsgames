@@ -26,6 +26,8 @@ export const raccoonrecompResidenteviloutbreakrecompiled: Port = {
     alt: "Resident Evil Outbreak (box art)",
     credit: "Box art",
   },
+  summary: "Resident Evil Outbreak is a survival horror video game developed and published by Capcom for the PlayStation 2. It was released on December 11, 2003 in Japan, on March 30, 2004 in North America, and on September 17, 2004 in PAL regions. It was the first entry in the Resident Evil video game series to feature cooperative gameplay and online multiplayer support, although online support was not available for the PAL versions of the game.",
+  summaryEs: "Resident Evil Outbreak conocido en Japón como Biohazard Outbreak es un videojuego de acción-aventura de terror y supervivencia desarrollado por Capcom y producido por Tsuyoshi Tanaka para PlayStation 2. Es la primera entrega de la franquicia que incluye la opción para jugar en línea. Fue publicado por primera vez el 11 de diciembre de 2003 en Japón; posteriormente, el 31 de marzo de 2004 en Norteamérica y el 17 de septiembre de 2004 en Europa.",
   notes: "Resident Evil Outbreak: static recompilation by RaccoonRecomp for Windows. Bring your own copy of the game.",
   notesEs: "Resident Evil Outbreak: recompilación estática de RaccoonRecomp para Windows. Aporta tu propia copia del juego.",
 };

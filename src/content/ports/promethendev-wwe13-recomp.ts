@@ -21,6 +21,8 @@ export const promethendevWwe13Recomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  summary: "WWE '13 is a professional wrestling video game developed by Yuke's and published by THQ for the PlayStation 3, Xbox 360 and Wii. It was released on October 30, 2012, in North America and November 2, 2012, in United Kingdom. It is the fourteenth overall installment in the WWE series, the sequel to WWE '12, and the last installment to be released on a Nintendo console until WWE 2K18 for the Nintendo Switch in 2017. It was also the last WWE-licensed game to be published by THQ before the company's demise in January 2013, ending their relationship with WWE after 14 years.",
+  summaryEs: "WWE '13 es un videojuego de lucha libre profesional que fue desarrollado por Yuke's y que es distribuido por THQ para la PlayStation 3, Xbox 360 y Wii. Es el segundo juego en la serie WWE y décimo quinto en las series combinadas. Es la secuela de WWE '12 y fue lanzado el 30 de octubre de 2012 en América del Norte, el 1 de noviembre de 2012 en Australia y el 2 de noviembre de 2012 en Europa. Fue el último juego de la franquicia en lanzarse para la consola Wii.",
   notes: "WWE '13: static recompilation by PromethenDev for Windows, Linux. Bring your own copy of the game.",
   notesEs: "WWE '13: recompilación estática de PromethenDev para Windows, Linux. Aporta tu propia copia del juego.",
 };

@@ -19,6 +19,8 @@ export const fightingForceRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Fighting Force is a beat 'em up video game developed by Core Design and published in 1997 by Eidos Interactive for PlayStation and Windows. A Nintendo 64 version was published by Crave Entertainment in 1999. The Japanese version for the PlayStation was published by Electronic Arts Victor. Announced by Core shortly after the success of Tomb Raider, Fighting Force was highly anticipated and commercially successful but met with mixed reviews. It was followed by Fighting Force 2.",
+  summaryEs: "Fighting Force es un videojuego en 3D del género Yo contra el barrio, lanzado en 1997, desarrollado por Core Design y publicado por Eidos. Concebido en la misma línea clásica de los juegos Streets of Rage y Double Dragon pero por diferencias creativas entre Sega y Core Design el juego cambió de nombre y terminó siendo lanzado para la PlayStation, PC y Nintendo 64.",
   notes:
     "Recompilation of Fighting Force (PS1, USA SLUS-00433) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

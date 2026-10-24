@@ -26,6 +26,8 @@ export const lostOdysseyHdRemaster: Port = {
     alt: "Lost Odyssey (box art)",
     credit: "Wikipedia",
   },
+  summary: "Lost Odyssey is a role-playing video game developed by Mistwalker and Feelplus and published by Microsoft Game Studios for the Xbox 360. Additionally, the game can be purchased from the Xbox digital store and played on Xbox One and Xbox Series consoles through the Xbox backwards compatibility program.",
+  summaryEs: "Lost Odyssey es un RPG desarrollado por Mistwalker, junto con Feelplus, para Xbox 360.",
   notes: "Enhanced PC build of Lost Odyssey with HD textures, 60 FPS and audio fixes. The repository is archived, so treat it as a preserved release. Requires your own copy of the game.",
   notesEs: "Build mejorada para PC de Lost Odyssey con texturas HD, 60 FPS y correcciones de audio. El repositorio está archivado, así que funciona como release preservada. Requiere tu propia copia del juego.",
 };

@@ -27,6 +27,8 @@ export const caiiiycukVcmiWasm: Port = {
     alt: "Heroes of Might and Magic III (box art)",
     credit: "Wikipedia",
   },
+  summary: "This is the original version of the game from 1999. The pack includes the original Heroes of Might and Magic III and its two expansions: Armageddon's Blade and The Shadow of Death.",
+  summaryEs: "Heroes of Might and Magic III es un videojuego de estrategia publicado por Ubisoft en 2026.",
   notes: "Heroes of Might and Magic III: browser port by caiiiycuk for the browser. Playable in the browser.",
   notesEs: "Heroes of Might and Magic III: port de navegador de caiiiycuk para el navegador. Jugable en el navegador.",
 };

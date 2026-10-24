@@ -25,6 +25,8 @@ export const harvestMoon64PcAiTddLabs: Port = {
     alt: "Harvest Moon 64 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Harvest Moon 64, released in Japan as Bokujō Monogatari 2 (牧場物語2), is a 1999 farm simulation video game developed by Victor Interactive Software for the Nintendo 64 console. It was published by Victor Interactive in Japan and by Natsume Inc. in North America. It is the third game in the Story of Seasons series.",
+  summaryEs: "Harvest Moon 64 es un videojuego de simulación publicado por Winning Entertainment Group en 1999.",
   notes: "Harvest Moon 64 (Natsume, 1999) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Harvest Moon 64 (Natsume, 1999) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

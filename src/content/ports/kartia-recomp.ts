@@ -19,6 +19,8 @@ export const kartiaRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Kartia: The Word of Fate, known as Legend of Kartia in Europe and Rebus in Japan, is a tactical role-playing game developed and published by Atlus for the PlayStation. It is best known for the work of its art designer, Yoshitaka Amano, who had previously worked on the Final Fantasy series. Shigenori Soejima, another artist who would later be known for his work on the Persona series, also contributed to the game as an item graphics artist. The game was re-released on the Japanese PlayStation Network in 2011.",
+  summaryEs: "Kartia: The Word of Fate es un videojuego de estrategia publicado por Konami en 1998.",
   notes:
     "Recompilation of Kartia: The Word of Fate (PS1, USA SLUS-00631) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

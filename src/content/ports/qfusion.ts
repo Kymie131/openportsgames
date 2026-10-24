@@ -25,6 +25,8 @@ export const Qfusion: Port = {
     alt: "qfusion (box art)",
     credit: "Wikipedia",
   },
+  summary: "id Tech 2, originally known as the Quake II engine, is a game engine developed by id Software for use in their 1997 first-person shooter Quake II. Like its predecessor, the Quake engine, the Quake II engine was also licensed to other developers, appearing in several other games of the era, before being made freely available under the terms of the GNU General Public License on December 22, 2001.",
+  summaryEs: "qfusion es un videojuego de plataformas.",
   notes: "Source code for cross-platform OpenGL gaming engine.",
   notesEs: "Código fuente de un motor de juego OpenGL multiplataforma.",
 };

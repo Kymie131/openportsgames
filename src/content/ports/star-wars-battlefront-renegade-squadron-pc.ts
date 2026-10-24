@@ -25,6 +25,8 @@ export const starWarsBattlefrontRenegadeSquadronPc: Port = {
     alt: "Star Wars Battlefront: Renegade Squadron (box art)",
     credit: "Wikipedia",
   },
+  summary: "Star Wars Battlefront: Renegade Squadron is a third-person shooter video game based on the Star Wars franchise. It is the third entry in the Star Wars: Battlefront series and the first handheld exclusive. It was released on October 9, 2007 in North America and later in Australia and Europe, as a PlayStation Portable (PSP) exclusive. Renegade Squadron was one of the first games available in a bundle pack with the newly released PSP redesign.",
+  summaryEs: "Star Wars Battlefront: Renegade Squadron es el tercer videojuego de la saga Star Wars Battlefront. Este videojuego fue desarrollado por LucasArts y Rebellion Developments. Se lanzó en Norteamérica el 9 de octubre de 2007 y en Europa tres días después. El juego solo está disponible para la PlayStation Portable. Está recomendado para mayores de 12 años. Fue uno de los primerios videojuegos disponibles en forma de pack con las nuevas versiones de la PSP como la PlayStation Portable Slim.",
   notes: "Star Wars Battlefront: Renegade Squadron (LucasArts, 2007) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Star Wars Battlefront: Renegade Squadron (LucasArts, 2007) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

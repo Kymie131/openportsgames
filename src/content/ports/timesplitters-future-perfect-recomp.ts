@@ -26,6 +26,8 @@ export const timesplittersFuturePerfectRecomp: Port = {
     alt: "TimeSplitters: Future Perfect (box art)",
     credit: "Wikipedia",
   },
+  summary: "TimeSplitters: Future Perfect is a 2005 first-person shooter video game developed by Free Radical Design and published by Electronic Arts for the GameCube, PlayStation 2, and Xbox.",
+  summaryEs: "TimeSplitters: Future perfect es la tercera y última entrega de la saga TimeSplitters. Este que fue desarrollado por Free Radical y publicado por EA Games. Este videojuego, que opta por la acción en primera persona, vuelve a innovar como hizo su antecesor, TimeSplitters 2. Esta vez fue EA Games quién se ocupó de la distribución y, como hizo la anterior entrega, mejoró en muchos más aspectos que TimeSplitters 2 respecto a TimeSplitters.",
   notes: "Static recompilation of the original Xbox build of TimeSplitters: Future Perfect (2005) into C, with a native host layer for kernel, XDK, D3D8/NV2A rendering on Vulkan, audio and input. Experimental; no release yet.",
   notesEs: "Recompilación estática de la versión de Xbox original de TimeSplitters: Future Perfect (2005) a C, con una capa nativa de host para kernel, XDK, render D3D8/NV2A sobre Vulkan, audio y entrada. Experimental; sin release todavía.",
 };

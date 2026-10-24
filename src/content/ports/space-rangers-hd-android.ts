@@ -26,6 +26,8 @@ export const spaceRangersHdAndroid: Port = {
     alt: "Space Rangers HD: A War Apart (box art)",
     credit: "Steam",
   },
+  summary: "Space Rangers HD: A War Apart is a action-adventure game published by 1C Company in 2013.",
+  summaryEs: "Space Rangers HD: A War Apart es un videojuego de acción y aventura publicado por 1C Company en 2013.",
   notes: "Cross-platform port of Space Rangers HD: A War Apart built from the decompilation, with an Android arm64 APK. No game data included.",
   notesEs: "Port multiplataforma de Space Rangers HD: A War Apart construido desde la descompilación, con APK arm64 para Android. No incluye datos del juego.",
 };

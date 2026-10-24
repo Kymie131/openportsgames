@@ -7,7 +7,7 @@ export const InsaniquariumDeluxe: Port = {
   game: "Insaniquarium Deluxe",
   developers: ["Vindirect"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2006,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const InsaniquariumDeluxe: Port = {
     alt: "Insaniquarium Deluxe (cover)",
     credit: "Wikipedia",
   },
+  summary: "The craziest aquarium game ever! Tend to your fish, keep them happy and they'll reward you with coins and jewels. Buy tank upgrades or egg parts which hatch different in-tank pets. These pets can help you feed your fish, collect coins, or even protect against the aliens that will invade your tank.",
+  summaryEs: "Insaniquarium Deluxe es un videojuego de acción y aventura publicado por PopCap Games, Inc. en 2006.",
   notes: "Insaniquarium Deluxe (1.1) decompilation.",
   notesEs: "Decompilación de Insaniquarium Deluxe (1.1).",
 };

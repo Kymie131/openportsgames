@@ -24,6 +24,8 @@ export const settlers2: Port = {
     "Builds de escritorio multiplataforma",
     "Soporte ampliado de escenarios y scripting",
   ],
+  summary: "The Settlers II, originally released as The Settlers II: Veni, Vidi, Vici, is a 1996 city-building game with real-time strategy elements for MS-DOS, Mac OS, and Nintendo DS. Developed and published by Blue Byte Software, the DOS version was released in Germany in April 1996, and in the United Kingdom and North America in August. In December, Blue Byte released an expansion, The Settlers II Mission CD, featuring new single-player campaign missions, new maps for both single-player and multiplayer modes, and a map editor.",
+  summaryEs: "The Settlers II: Veni, Vidi, Vici es un videojuego de estrategia en tiempo real para PC publicado en 1996 y desarrollado por Blue Byte. Fue considerado uno de los mejores y más populares de Europa, vendiendo más de un millón de copias.",
   notes: "Open source reimplementation of The Settlers II engine.",
   notesEs: "Reimplementación de código abierto del motor de The Settlers II.",
   cover: {

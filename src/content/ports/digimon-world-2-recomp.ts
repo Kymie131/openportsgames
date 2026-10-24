@@ -19,6 +19,8 @@ export const digimonWorld2Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Digimon World 2 is a dungeon crawler video game developed by BEC and published by Bandai for the PlayStation as part of their Digimon series. It is the sequel to the original Digimon World, and was released in Japan in July 2000 and North America the following year in April 2001. The player controls Akira, a Digimon Tamer whose goal is to climb to the top of the Digimon World.",
+  summaryEs: "Digimon World 2 es el segundo videojuego de la franquicia Digimon World, con un estilo de juego de calabozos. En esta entrega, el jugador controla a Akira, una joven , miembro de los Guard Tamers, cuyo deber es proteger el Digimundo de cualquier amenaza.",
   notes:
     "Recompilation of Digimon World 2 (PS1, USA SLUS-01193) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

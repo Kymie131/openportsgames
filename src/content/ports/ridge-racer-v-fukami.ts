@@ -26,6 +26,8 @@ export const ridgeRacerVFukami: Port = {
     alt: "Ridge Racer V (box art)",
     credit: "Wikipedia",
   },
+  summary: "Ridge Racer V is a 2000 racing video game developed and published by Namco for the PlayStation 2. It was released as a launch title for the console and later followed by an arcade version subtitled Arcade Battle. Ridge Racer V is the fifth main title of the Ridge Racer series following R4: Ridge Racer Type 4 and the only one to be released on PlayStation 2.",
+  summaryEs: "Ridge Racer V es un videojuego de carreras desarrollado y publicado por Namco para PlayStation 2 y cabinas Namco System 246. Centrándose en las carreras de deriva a alta velocidad en la ficticia Ridge City, el juego presenta 7 pistas, 15 vehículos y 6 modos de juego. Además es el primer juego de la consola PlayStation 2.",
   notes: "Static recompilation of Ridge Racer V (PS2) with ultrawide resolutions and low input latency. No game files are distributed.",
   notesEs: "Recompilación estática de Ridge Racer V (PS2) con resoluciones ultrapanorámicas y baja latencia de entrada. No distribuye archivos del juego.",
 };

@@ -26,6 +26,8 @@ export const theBrowsingOfIsaac: Port = {
     alt: "The Binding of Isaac: Repentance+ (cover art)",
     credit: "Steam",
   },
+  summary: "The Binding of Isaac: Repentance is the ultimate version of Binding of Isaac, featuring all content from the Rebirth, Afterbirth and Afterbirth+ expansions, plus hundreds of new features and improvements. The ultimate edition of the genre-defining roguelike!",
+  summaryEs: "The Binding of Isaac: Repentance es un videojuego de acción y aventura publicado por Nicalis, Inc. en 2021.",
   notes: "The Binding of Isaac: Repentance+ recompiled to WebAssembly and playable in a browser tab (tboi.online). Requires your own copy of the game.",
   notesEs: "The Binding of Isaac: Repentance+ recompilado a WebAssembly y jugable en una pestaña del navegador (tboi.online). Requiere tu propia copia del juego.",
 };

@@ -7,7 +7,7 @@ export const BraveFrontier: Port = {
   game: "Brave Frontier",
   developers: ["decompfrontier"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2013,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const BraveFrontier: Port = {
     alt: "Brave Frontier (box art)",
     credit: "Wikipedia",
   },
+  summary: "Brave Frontier was a Japanese mobile role-playing game developed and published by A-Lim, originally for Apple's iOS and later for Android and Kindle Fire. It was first released in Japan by A-Lim on July 3, 2013, and later released worldwide by Gumi and managed by 2 locations, Gumi Asia and Gumi Europe. A sequel game titled Brave Frontier 2 was released only in Japan on February 22, 2018 while a global-exclusive sequel, titled Brave Frontier: The Last Summoner was released on September 17, 2018. The game ended all services across all platforms and regions on April 27, 2022.",
+  summaryEs: "Brave Frontier es un videojuego de acción y aventura en 2013.",
   notes: "Decompilation of Brave Frontier client.",
   notesEs: "Decompilación del cliente de Brave Frontier.",
 };

@@ -21,6 +21,8 @@ export const sonicAdvance2Decomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy Advance"],
+  summary: "Sonic Advance 2 is a 2002 platform game developed by Dimps and published by Sega for the Game Boy Advance. It is an installment in the Sonic the Hedgehog series and the sequel to 2001's Sonic Advance. The story follows Sonic as he sets out to save his friends and retrieve the seven magical Chaos Emeralds from Dr. Eggman. Gameplay consists of the player completing various levels as one of five characters, each with their own unique attributes. After each zone is completed, the player faces Dr. Eggman in a boss battle.",
+  summaryEs: "Sonic Advance 2 es un videojuego desarrollado por SEGA en 2002 para la Game Boy Advance. Este juego es el segundo de la serie Sonic que aparece para una portátil de Nintendo, continuando así la línea marcada por su antecesor, Sonic Advance.",
   notes:
     "Decompilation and port of Sonic Advance 1 and 2. A research codebase; it requires game files from a copy you own.",
   notesEs:

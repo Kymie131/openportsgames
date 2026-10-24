@@ -26,6 +26,8 @@ export const battleTanxRecomp: Port = {
     alt: "BattleTanx (box art)",
     credit: "Wikipedia",
   },
+  summary: "BattleTanx is a 1998 action game released for the Nintendo 64, produced by The 3DO Company. The game was followed by a 1999 sequel, titled BattleTanx: Global Assault.",
+  summaryEs: "BattleTanx es un videojuego de acción y aventura publicado por The 3DO Company en 1998.",
   notes: "Native PC port of BattleTanx (Nintendo 64, 1998) built by statically recompiling the N64 game with N64Recomp and N64ModernRuntime. You need your own copy of the game. Latest release: 0.1.1.",
   notesEs: "Port nativo a PC de BattleTanx (Nintendo 64, 1998) mediante recompilación estática del juego de N64 con N64Recomp y N64ModernRuntime. Necesitas tu propia copia del juego. Última release: 0.1.1.",
 };

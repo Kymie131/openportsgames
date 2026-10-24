@@ -19,6 +19,8 @@ export const silentBomberRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Silent Bomber is a 1999 action video game developed by CyberConnect and published by Bandai for the PlayStation. Silent Bomber is based on the classic top down shoot 'em up genre but with a twist: Instead of shooting the enemy, the player blows them up using bombs. It was the second and last game to be developed by CyberConnect, after Tail Concerto, before they rebranded as CyberConnect2 in 2001. In 2006, it was released for the PlayStation Network in Japan.",
+  summaryEs: "Silent Bomber es un videojuego de acción y aventura en 1999.",
   notes:
     "Recompilation of Silent Bomber (PS1, Europe SLES-02792) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

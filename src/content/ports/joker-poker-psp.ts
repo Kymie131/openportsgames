@@ -21,6 +21,8 @@ export const jokerPokerPsp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Joker Poker is a puzzle game.",
+  summaryEs: "Joker Poker es un videojuego de puzles.",
   notes: "Joker Poker (Homebrew, 2025) running on PlayStation Portable through source port. Latest release: v0.40. You need your own copy of the game.",
   notesEs: "Joker Poker (Homebrew, 2025) en PlayStation Portable mediante port de código. Última release: v0.40. Necesitas tu propia copia del juego.",
 };

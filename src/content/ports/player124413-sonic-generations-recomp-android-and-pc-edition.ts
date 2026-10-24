@@ -27,6 +27,8 @@ export const player124413SonicGenerationsRecompAndroidAndPcEdition: Port = {
     alt: "Sonic Generations (box art)",
     credit: "Wikipedia",
   },
+  summary: "Sonic Generations is a 2011 platform game developed by Sonic Team and published by Sega for the PlayStation 3, Xbox 360, Windows, and Nintendo 3DS. Produced in commemoration of the 20th anniversary of the Sonic the Hedgehog series, the game follows Sonic and his sidekick Tails as they form an alliance with their past selves and travel through levels from previous Sonic games.",
+  summaryEs: "Sonic Generations es un videojuego de plataformas de la serie Sonic the Hedgehog. Fue producido por Sega y su lanzamiento fue el 1 de noviembre de 2011, para celebrar el 20º aniversario del nacimiento de Sonic. Está disponible para las plataformas Windows, Nintendo 3DS, Xbox 360 y PlayStation 3.",
   notes: "Sonic Generations: static recompilation by Player124413 for Windows. Bring your own copy of the game.",
   notesEs: "Sonic Generations: recompilación estática de Player124413 para Windows. Aporta tu propia copia del juego.",
 };

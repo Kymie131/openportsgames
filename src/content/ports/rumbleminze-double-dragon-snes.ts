@@ -22,6 +22,8 @@ export const rumbleminzeDoubleDragonSnes: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Arcade"],
+  summary: "Double Dragon is a 1987 beat 'em up video game developed by Technōs Japan and published by Taito for arcades. The game's development was led by Yoshihisa Kishimoto, and it is a spiritual and technological successor to Technos' earlier beat 'em up, Nekketsu Kōha Kunio-kun (1986), released outside of Japan by Taito as Renegade; Kishimoto originally envisioned it as a direct sequel and part of the Kunio-kun series, before making it a new game with a different cast and setting.",
+  summaryEs: "Double Dragon es un videojuego lanzado para máquinas recreativas en 1987, desarrollado por Technos Japan, que pertenece al género Beat'em up. Su distribución en Europa y Norteamérica la llevó a cabo Taito. El título se considera un sucesor no oficial del videojuego Renegade de Technos, de similar temática. Double Dragon alcanzó un gran éxito en los salones recreativos e inició una etapa de gran popularidad para los Beat´em up, tanto en recreativas como en consolas. Actualmente es considerado como un clásico.",
   notes: "Double Dragon: source port by rumbleminze for Windows. Bring your own copy of the game.",
   notesEs: "Double Dragon: source port de rumbleminze para Windows. Aporta tu propia copia del juego.",
 };

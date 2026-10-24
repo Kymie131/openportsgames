@@ -25,6 +25,8 @@ export const fZeroX3ds: Port = {
     alt: "F-Zero X (box art)",
     credit: "Wikipedia",
   },
+  summary: "F-Zero X is a 1998 racing game developed and published by Nintendo for the Nintendo 64. It is the sequel to the original F-Zero (1990), and the first F-Zero game with 3D graphics. It has a steep learning curve and its gameplay experience is similar to that of the original. The F-Zero X Expansion Kit, an expansion pack for the 64DD featuring 12 more tracks and track and vehicle editors, was released in Japan in 2000.",
+  summaryEs: "F-Zero X es un videojuego de carreras futurista desarrollado y distribuido por Nintendo en 1998 para la videoconsola Nintendo 64. Es la continuación de F-Zero de Super Nintendo, y el segundo videojuego de la serie del mismo nombre.",
   notes: "F-Zero X (Nintendo, 1998) running on Nintendo 3DS through decompilation. Latest release: v0.9.0. You need your own copy of the game.",
   notesEs: "F-Zero X (Nintendo, 1998) en Nintendo 3DS mediante decompilación. Última release: v0.9.0. Necesitas tu propia copia del juego.",
 };

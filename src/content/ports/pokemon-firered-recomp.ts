@@ -19,6 +19,8 @@ export const pokemonFireredRecomp: Port = {
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
   originalSystems: ["Game Boy Advance"],
+  summary: "Pokémon FireRed Version and Pokémon LeafGreen Version are 2004 remakes of the 1996 role-playing video games Pokémon Red and Green. They were developed by Game Freak and published by The Pokémon Company and Nintendo for the Game Boy Advance. FireRed and LeafGreen were first released in Japan in January 2004 and was released in the same year as FireRed and LeafGreen versions in North America and Europe in September and October 2004, respectively.",
+  summaryEs: "Pokemon FireRed es un videojuego de rol publicado por Nintendo en 2004.",
   notes:
     "Static recompilation of Pokémon FireRed (GBA) with the gbarecomp framework. It requires the game itself.",
   notesEs:

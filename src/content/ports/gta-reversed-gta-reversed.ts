@@ -27,6 +27,8 @@ export const gtaReversedGtaReversed: Port = {
     alt: "Grand Theft Auto: San Andreas (box art)",
     credit: "Wikipedia",
   },
+  summary: "Grand Theft Auto: San Andreas is a 2004 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the fifth main game in the Grand Theft Auto series and the seventh overall entry, following 2002's Grand Theft Auto: Vice City. Set within the fictional U.S. state of San Andreas in 1992, the game follows Carl \"CJ\" Johnson, a former gangster who returns home following his mother's murder.",
+  summaryEs: "Grand Theft Auto: San Andreas es un videojuego de acción-aventura de mundo abierto de disparos en tercera persona desarrollado por Rockstar North y publicado por Rockstar Games. Es el quinto videojuego principal de la serie Grand Theft Auto, después de Grand Theft Auto: Vice City de 2002, y la séptima entrega en general. Ambientado en el estado estadounidense ficticio de San Andreas, el juego sigue a Carl \"CJ\" Johnson, que regresa a casa después del asesinato de su madre y descubre que su antigua banda ha perdido gran parte de su territorio.",
   notes: "Grand Theft Auto: San Andreas: engine remake by gta-reversed for Windows. Bring your own copy of the game.",
   notesEs: "Grand Theft Auto: San Andreas: recreación de motor de gta-reversed para Windows. Aporta tu propia copia del juego.",
 };

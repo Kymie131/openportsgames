@@ -26,6 +26,8 @@ export const defJamVendettaRecomp: Port = {
     alt: "Def Jam Vendetta (box art)",
     credit: "Wikipedia",
   },
+  summary: "Def Jam Vendetta is a 3D professional wrestling fighting video game developed by AKI Corporation and EA Canada and published by Electronic Arts under the EA Sports BIG label. It was released for the GameCube and PlayStation 2 in April 2003. The game is the first main installment in EA's Def Jam-licensed hip-hop video game series. It was the publisher's first attempt at a wrestling video game since WCW Backstage Assault.",
+  summaryEs: "Def Jam Vendetta es un videojuego de 2003 sobre la lucha libre profesional en donde se incorporan el hip hop. Fue lanzado para la PlayStation 2 y el GameCube el 2003 y según algunos criterios este fue el primer videojuego de lucha libre de EA. El motor del juego fue originalmente diseñado para su uso en una secuela de EA WCW Mayhem, pero EA pierde la licencia WCW cuando la empresa de lucha libre fue comprado por la World Wrestling Entertainment en 2001. Hasta ahora, tan solo se han presentado dos secuelas; Def Jam: Fight For NY en 2004 y Def Jam: Icon en 2007.",
   notes: "Native Windows port of the first Def Jam fighting game, rebuilt from the PlayStation 2 version. You need your own copy of the game disc.",
   notesEs: "Port nativo para Windows del primer juego de lucha de Def Jam, reconstruido desde la versión de PlayStation 2. Necesitas tu propia copia del disco.",
 };

@@ -37,6 +37,8 @@ export const dusklight: Port = {
     "Builds oficiales para Windows, Linux, macOS y Android",
     "Soporte de mods de la comunidad",
   ],
+  summary: "The Legend of Zelda: Twilight Princess is a 2006 action-adventure game developed and published by Nintendo for the GameCube and Wii. Originally planned for release exclusively on the GameCube in November 2005, Nintendo delayed the release to refine the game, add more content and port it to the Wii. The Wii version was a launch game in North America in November 2006 and in Japan, Europe and Australia the following month. The GameCube version was released in December 2006 as the final first-party game for the console.",
+  summaryEs: "The Legend of Zelda: Twilight Princess es un videojuego de acción-aventura de 2006 desarrollado por la filial EAD y distribuido por Nintendo para las videoconsolas GameCube y Wii (2006). Es el decimotercer lanzamiento de la franquicia The Legend of Zelda y el undécimo juego de su línea principal.",
   notes:
     "From-scratch reimplementation of The Legend of Zelda: Twilight Princess that reads the game's assets from a legally dumped copy of the game disc. Ships official builds for every catalog platform, with the Android build compiled for ARM64; some platforms are supported on a best-effort basis.",
   notesEs:

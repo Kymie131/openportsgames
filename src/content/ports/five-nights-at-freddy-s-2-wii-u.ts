@@ -25,6 +25,8 @@ export const fiveNightsAtFreddyS2WiiU: Port = {
     alt: "Five Nights at Freddy's 2 (cover art)",
     credit: "Steam",
   },
+  summary: "Welcome back to the new and improved Freddy Fazbear's Pizza! As always, Fazbear Entertainment is not responsible for death or dismemberment.",
+  summaryEs: "Five Nights at Freddy's 2 es un videojuego de acción y aventura publicado por Scott Cawthon en 2014.",
   notes: "Five Nights at Freddy's 2 (Scott Cawthon, 2014) running on Wii U through source port. Latest release: v1.0h1. You need your own copy of the game.",
   notesEs: "Five Nights at Freddy's 2 (Scott Cawthon, 2014) en Wii U mediante port de código. Última release: v1.0h1. Necesitas tu propia copia del juego.",
 };

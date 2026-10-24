@@ -25,6 +25,8 @@ export const turokRageWarsRecomp: Port = {
     alt: "Turok: Rage Wars (box art)",
     credit: "Wikipedia",
   },
+  summary: "Turok: Rage Wars is a first-person shooter video game developed by Acclaim Studios Austin and published by Acclaim Entertainment. It was released for the Nintendo 64 video game console in 1999 as part of the Turok series. It is one of the first modern arena shooters, with a heavy emphasis on multiplayer gameplay. It supports a maximum of four players simultaneously via split-screen. The game also supports the Nintendo 64 Expansion Pak for high-resolution graphics, but does not require it.",
+  summaryEs: "Turok: Rage Wars es un videojuego de shooter en primera persona desarrollado por Acclaim Studios Austin y publicado por Acclaim Entertainment. Fue lanzado para la consola de videojuegos Nintendo 64 en 1999. Rage Wars es un juego que no es canon en la serie de videojuegos Turok, con un gran énfasis en multijugador. Admite un máximo de cuatro jugadores simultáneamente a través de pantalla dividida. El juego también es compatible con Expansion Pak de Nintendo 64 para gráficos de alta resolución, pero no lo requiere.",
   notes: "Native PC port of Turok: Rage Wars (Nintendo 64, 1999) made by statically recompiling the game with N64Recomp and running it on N64ModernRuntime. You need the game file from a licensed copy. Latest release: v0.1.2.",
   notesEs: "Port nativo a PC de Turok: Rage Wars (Nintendo 64, 1999) hecho recompilando estáticamente el juego con N64Recomp y ejecutándolo sobre N64ModernRuntime. Necesitas el archivo de una copia con licencia. Última release: v0.1.2.",
 };

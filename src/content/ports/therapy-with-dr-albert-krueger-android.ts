@@ -20,6 +20,8 @@ export const therapyWithDrAlbertKruegerAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  summary: "Therapy With Dr. Albert Krueger is a role-playing game.",
+  summaryEs: "Therapy With Dr. Albert Krueger es un videojuego de rol.",
   notes: "Android version of the Ren'Py horror RPG Therapy With Dr. Albert Krueger, made with the original creator's and Ren'Py's open-source engine. Latest release: 1.0.2.",
   notesEs: "Versión para Android del RPG de terror Therapy With Dr. Albert Krueger, hecho con el motor Ren'Py y con permiso del creador original. Última release: 1.0.2.",
 };

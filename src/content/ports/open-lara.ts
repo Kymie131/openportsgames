@@ -20,6 +20,8 @@ export const openLara: Port = {
     spdx: "BSD-2-Clause",
   },
   verified: false,
+  summary: "Tomb Raider, also known under Lara Croft: Tomb Raider from 1996 to 2008, is a media franchise that originated with an action-adventure video game series created by British developer Core Design. The franchise is currently owned by Embracer Group and operated by CDE Entertainment; it was formerly owned by Eidos Interactive, then by Square Enix Europe after Square Enix's acquisition of Eidos in 2009 until Embracer Group purchased the intellectual property alongside Eidos in 2022.",
+  summaryEs: "Tomb Raider es una franquicia de medios, que incluye una serie de videojuegos, historietas, películas y serie anime que giran alrededor de las aventuras de la arqueóloga británica Lara Croft. Desde la publicación del primer juego en el año 1996 de la mano de las empresas Core Design y Eidos Interactive, la popularidad de la protagonista fue incrementándose notablemente, siendo reconocida en el año 2006 por el Libro Guinness de los récords como la \"Heroína humana más exitosa de los videojuegos\".",
   notes:
     "Reverse-engineered engine for the original Tomb Raider. No numbered releases; builds track the repository. Requires Tomb Raider 1 data files (legally obtained).",
   notesEs:

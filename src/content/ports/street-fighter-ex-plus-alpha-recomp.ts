@@ -20,6 +20,8 @@ export const streetFighterExPlusAlphaRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  summary: "Street Fighter EX Plus Alpha is a fighting game.",
+  summaryEs: "Street Fighter EX Plus Alpha es un videojuego de lucha.",
   notes:
     "A PortsDR community listing; no repository or release is public. The original game is required.",
   notesEs:

@@ -7,7 +7,7 @@ export const Simutrans: Port = {
   game: "simutrans",
   developers: ["simutrans"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2016,
   portType: "source-port",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const Simutrans: Port = {
     alt: "simutrans (cover)",
     credit: "Wikipedia",
   },
+  summary: "Simutrans is a freeware and open-source transportation simulator. Your goal is to establish a successful transport company. Transport passengers, mail and goods by rail, road, ship, and even air. Interconnect districts, cities, public buildings, industries and tourist attractions.",
+  summaryEs: "simutrans es un videojuego de acción y aventura publicado por The Simutrans Team en 2016.",
   notes: "Source port of simutrans (Other).",
   notesEs: "Port del código fuente de simutrans (Other).",
 };

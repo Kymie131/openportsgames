@@ -22,6 +22,8 @@ export const girianseedMgstts: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo GameCube"],
+  summary: "Metal Gear Solid: The Twin Snakes is a 2004 action-adventure stealth game developed by Konami and Silicon Knights and published by Konami for the GameCube. It is a remake of 1998's Metal Gear Solid.",
+  summaryEs: "Metal Gear Solid: The Twin Snakes es un videojuego de acción y sigilo desarrollado por Silicon Knights y producido por Konami. Fue distribuido en el año 2004 para la consola GameCube de Nintendo.",
   notes: "Metal Gear Solid: The Twin Snakes: decompilation by GirianSeed for Windows. Bring your own copy of the game.",
   notesEs: "Metal Gear Solid: The Twin Snakes: decompilación de GirianSeed para Windows. Aporta tu propia copia del juego.",
 };

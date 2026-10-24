@@ -21,6 +21,8 @@ export const chunchunqFifa09Recomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  summary: "FIFA 09 is a football simulation video game developed by EA Canada and published by Electronic Arts under the EA Sports label. It was released in October 2008 for Microsoft Windows, Nintendo DS, PlayStation 2, PlayStation 3, PlayStation Portable, Wii, Xbox 360 and Zeebo. It was later in November 2008 released for the N-Gage 2.0 and mobile phones.",
+  summaryEs: "FIFA 09 es la decimosexta entrega publicada por Electronic Arts de la serie FIFA Soccer. Desarrollado por EA Canadá, es publicado por Electronic Arts en todo el mundo bajo el sello EA Sports. Fue lanzado el 3 de octubre de 2008 en Europa, el 2 de octubre de 2008 en Australia, el 14 de octubre en Estados Unidos y el 28 de octubre en México.",
   notes: "FIFA 09: static recompilation by ChunchunQ for Windows. Bring your own copy of the game.",
   notesEs: "FIFA 09: recompilación estática de ChunchunQ para Windows. Aporta tu propia copia del juego.",
 };

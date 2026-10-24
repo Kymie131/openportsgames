@@ -7,7 +7,7 @@ export const FinalFantasyIv3dRemake: Port = {
   game: "Final Fantasy IV (3D Remake)",
   developers: ["GlitchedDeveloper"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2014,
   portType: "decompilation",
   genre: "rpg",
   openSource: true,
@@ -25,6 +25,8 @@ export const FinalFantasyIv3dRemake: Port = {
     alt: "Final Fantasy IV (3D Remake) (cover art)",
     credit: "Steam",
   },
+  summary: "FINAL FANTASY IV makes its debut on PC! Lose yourself in this timeless tale of heroes, betrayal, love and redemption.",
+  summaryEs: "Final Fantasy IV (3D Remake) es un videojuego de rol publicado por Square Enix en 2014.",
   notes: "An open-source decompilation of Final Fantasy IV (3D Remake).",
   notesEs: "Decompilación de código abierto de Final Fantasy IV (3D Remake).",
 };

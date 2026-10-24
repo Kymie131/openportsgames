@@ -26,6 +26,8 @@ export const partyboard: Port = {
     alt: "Mario Party 4 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Mario Party 4 is a 2002 party video game developed by Hudson Soft and published by Nintendo for the GameCube. It is the fourth installment in the Mario Party series and the first one to be released for GameCube. Like the previous games in the series, it features eight playable characters from the Mario franchise—Mario, Luigi, Princess Peach, Yoshi, Wario, Donkey Kong, Princess Daisy, and Waluigi—competing in a board game, with the objective of each of the six game boards being to earn the most Stars.",
+  summaryEs: "Mario Party 4 es la cuarta parte de la saga Mario Party, desarrollada por Hudson y distribuida por Nintendo y es el primer videojuego de la saga para el Nintendo GameCube. Su lanzamiento en Norteamérica fue el 21 de octubre de 2002.",
   notes: "PartyBoard: work-in-progress PC port of Mario Party 4 (GameCube, 2002). No release yet.",
   notesEs: "PartyBoard: port a PC en desarrollo de Mario Party 4 (GameCube, 2002). Sin release todavía.",
 };

@@ -7,7 +7,7 @@ export const TokyoBusGuide: Port = {
   game: "Tokyo Bus Guide",
   developers: ["lhsazevedo"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 1999,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const TokyoBusGuide: Port = {
     alt: "Tokyo Bus Guide (box art)",
     credit: "Box art",
   },
+  summary: "Tokyo Bus Guide is a action-adventure game in 1999.",
+  summaryEs: "Tokyo Bus Guide es un videojuego de acción y aventura en 1999.",
   notes: "Decompiling Tokyo Bus Guide (東京バス案内) for the Sega Dreamcast.",
   notesEs: "Decompilación de Tokyo Bus Guide (東京バス案内) para Sega Dreamcast.",
 };

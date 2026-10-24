@@ -29,6 +29,8 @@ export const donut: Port = {
     "Renderizador OpenGL moderno",
     "Requiere recursos del juego original aportados por el jugador",
   ],
+  summary: "The Simpsons: Hit & Run is a 2003 action-adventure game developed by Radical Entertainment and published by Vivendi Universal Games. It is based on the American animated television series The Simpsons, and is the 22nd installment in The Simpsons series of video games.",
+  summaryEs: "The Simpsons: Hit & Run es un videojuego de carreras y acción-aventura basado en la serie animada estadounidense Los Simpson. Desarrollado por Radical Entertainment, editado por Fox Interactive y distribuido por Vivendi Games en Norteamérica y por Sierra Entertainment en el resto del mundo. Salió a la venta en 2003 para GameCube, PlayStation 2, Xbox y Microsoft Windows. Los guionistas del programa hicieron la historia y los diálogos, y los actores habituales proporcionaron las voces de los personajes.",
   notes:
     "Open source reimplementation of The Simpsons: Hit & Run in modern C++ and modern OpenGL. It needs the original game assets.",
   notesEs:

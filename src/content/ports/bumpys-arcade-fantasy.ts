@@ -25,6 +25,8 @@ export const BumpysArcadeFantasy: Port = {
     alt: "Bumpy's Arcade Fantasy (cover)",
     credit: "Wikipedia",
   },
+  summary: "Bumpy's Arcade Fantasy is a action-adventure game.",
+  summaryEs: "Bumpy's Arcade Fantasy es un videojuego de acción y aventura.",
   notes: "Decompilation of Bumpy's Arcade Fantasy, lead by Claude.",
   notesEs: "Decompilación de Bumpy's Arcade Fantasy.",
 };

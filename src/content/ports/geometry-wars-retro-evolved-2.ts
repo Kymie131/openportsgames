@@ -7,7 +7,7 @@ export const GeometryWarsRetroEvolved2: Port = {
   game: "Geometry Wars: Retro Evolved 2",
   developers: ["saulob"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2008,
   portType: "recompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const GeometryWarsRetroEvolved2: Port = {
     alt: "Geometry Wars: Retro Evolved 2 (cover)",
     credit: "Wikipedia",
   },
+  summary: "Geometry Wars: Retro Evolved 2 is a multidirectional shooter developed by Bizarre Creations and published by Microsoft Game Studios and Activision. It was released on Xbox Live Arcade on July 30, 2008 as a sequel to Geometry Wars: Retro Evolved. It was followed by Geometry Wars 3: Dimensions, a sequel published in 2014 by Lucid Games, which was founded by former members of Bizarre Creations.",
+  summaryEs: "Geometry Wars: Retro Evolved 2 es un videojuego de acción y aventura en 2008.",
   notes:
     "Geometry Wars: Retro Evolved 2 native PC port via static recompilation, with TRG launcher, high frame rates, local achievements and offline leaderboards.",
   notesEs:

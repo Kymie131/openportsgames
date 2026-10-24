@@ -21,6 +21,8 @@ export const swrotsPcPc: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["Xbox"],
+  summary: "Star Wars: Episode III – Revenge of the Sith is an action video game based on the 2005 film of the same name. It was released on May 5, 2005, for the PlayStation 2, Xbox, Game Boy Advance, Nintendo DS, and Symbian OS. For the Xbox 360's backwards compatible lineup, Revenge of the Sith is one out of the 400+ backwards compatible games for the 360. As part of the PlayStation 2 classics program, the PlayStation 2 version was re-released in Europe on the PlayStation Network on February 11, 2015, and in North America on April 28, 2015 for PlayStation 3.",
+  summaryEs: "Star Wars: Episodio III - La Venganza de los Sith es un videojuego de acción de LucasArts basado en la película del mismo nombre, que se estrenó unos días después. El juego se centra en las aventuras que suceden en la película desde la perspectiva de los protagonistas Obi-Wan Kenobi y Anakin Skywalker. El juego se publicó el 4 de mayo de 2005 para las consolas PlayStation 2, Xbox, Game Boy Advance y Nintendo DS. Además, contó con una versión para móviles lanzada el 2 de abril de 2005.",
   notes: "Modern native conversion of the Xbox version of Star Wars: Episode III – Revenge of the Sith. Still in development; you need your own copy of the game.",
   notesEs: "Conversión nativa moderna de la versión de Xbox de Star Wars: Episode III – Revenge of the Sith. Sigue en desarrollo; necesitas tu propia copia del juego.",
 };

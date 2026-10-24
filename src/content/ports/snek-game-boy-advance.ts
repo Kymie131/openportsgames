@@ -21,6 +21,8 @@ export const snekGameBoyAdvance: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Snek is a puzzle game.",
+  summaryEs: "Snek es un videojuego de puzles.",
   notes: "Snek (Homebrew, 2023) running on gba through source port. Latest release: v1.0.0. You need your own copy of the game.",
   notesEs: "Snek (Homebrew, 2023) en gba mediante port de código. Última release: v1.0.0. Necesitas tu propia copia del juego.",
 };

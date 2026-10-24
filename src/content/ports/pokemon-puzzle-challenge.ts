@@ -6,7 +6,7 @@ export const PokemonPuzzleChallenge: Port = {
   title: "Pokemon Puzzle Challenge",
   game: "Pokemon Puzzle Challenge",
   developers: ["pret"],
-  publisher: "Unknown",
+  publisher: "Nintendo",
   originalYear: 2000,
   portType: "decompilation",
   genre: "rpg",
@@ -25,6 +25,8 @@ export const PokemonPuzzleChallenge: Port = {
     alt: "Pokemon Puzzle Challenge (cover)",
     credit: "Wikipedia",
   },
+  summary: "Pokémon Puzzle Challenge is a puzzle video game developed by Intelligent Systems and published by Nintendo for the Game Boy Color. It was released in Japan on September 21, 2000; in North America on December 4, 2000; and in PAL regions on June 15, 2001, it is the second Pokémon-themed entry in the Puzzle League series. While its Nintendo 64 counterpart Pokémon Puzzle League is visually based on the Pokemon anime, Puzzle Challenge instead draws inspiration from the Pokémon Gold and Silver games. The game features multiple modes of play and support for competitive play between two players.",
+  summaryEs: "Pokémon Puzzle Challenge, conocido en Japón como Pokemon de Panepon , es un videojuego para la Game Boy Color. Está basado en Panel de Pon, con personajes de la franquicia Pokémon. Los personajes de Pokémon Puzzle Challenge están basados en aquellos de Oro y Plata, mientras que los de Pokémon Puzzle League—su equivalente para Nintendo 64—fueron basados en los personaje del anime. Sin embargo, el juego también está centrado en vencer a los líderes de Johto en un puzzle challenge en la región de Johto. El modo de juego se divide en 1 Jugador, 2 Jugadores y Entrenamiento.",
   notes: "Disassembly of Pokémon Puzzle Challenge.",
   notesEs: "Desensamblado de Pokémon Puzzle Challenge.",
 };

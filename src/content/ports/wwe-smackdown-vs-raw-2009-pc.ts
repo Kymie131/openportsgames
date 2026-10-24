@@ -25,6 +25,8 @@ export const wweSmackdownVsRaw2009Pc: Port = {
     alt: "WWE SmackDown vs. Raw 2009 (box art)",
     credit: "Wikipedia",
   },
+  summary: "WWE SmackDown vs. Raw 2009 is a professional wrestling video game developed by Yuke's and published by THQ for the PlayStation 2, PlayStation 3, PlayStation Portable, Wii, and Xbox 360 video game consoles, with TOSE overseeing development for the Nintendo DS version. The game was first released on November 9, 2008, in North America. It is the tenth overall installment in the video game series based on the World Wrestling Entertainment (WWE) promotion, and the fifth game under the SmackDown vs. Raw name, named after the promotion's Raw and SmackDown brands.",
+  summaryEs: "WWE SmackDown vs. Raw 2009 es un videojuego de lucha libre profesional desarrollado por Yuke's y publicado por THQ para las consolas de videojuego PlayStation 3, PlayStation 2, PlayStation Portable, Nintendo DS, Wii y Xbox 360. Es el décimo juego de la serie WWE SmackDown vs. Raw y es la secuela de su antecesor del 2007, WWE SmackDown vs. Raw 2008 y fue sucedido por WWE SmackDown vs. Raw 2010 en el 2009. TOSE supervisó el desarrollo para la versión de Nintendo DS. El lanzamiento del juego en América del Norte fue el 9 de noviembre de 2008.",
   notes: "WWE SmackDown vs. Raw 2009 (THQ, 2008) running on Windows and Linux through static recompilation. Latest release: v0.6.6. You need your own copy of the game.",
   notesEs: "WWE SmackDown vs. Raw 2009 (THQ, 2008) en Windows and Linux mediante recompilación estática. Última release: v0.6.6. Necesitas tu propia copia del juego.",
 };

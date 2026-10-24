@@ -19,6 +19,8 @@ export const cs16Client: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Windows"],
+  summary: "Counter-Strike (CS) is a series of multiplayer tactical first-person shooter video games, in which opposing teams attempt to complete various objectives. The series began on Windows in 1999 with the release of the first game, Counter-Strike. It was initially released as a mod for Half-Life that was designed by Minh Le and Jess Cliffe before the rights to the mod's intellectual property were acquired by Valve, the developers of Half-Life, who then turned Counter-Strike into a retail product released in 2000.",
+  summaryEs: "Counter-Strike (CS) es una serie de videojuegos multijugador de disparos en primera persona tácticos en los que equipos de terroristas luchan para perpetrar un acto de terror mientras que los antiterroristas intentan prevenirlo. La serie comenzó en Windows en 1999 con el lanzamiento del primer videojuego, Counter-Strike.",
   notes:
     "Reverse-engineered client for Counter-Strike 1.6 aimed at mobile and other unsupported platforms. It runs the original game data and ships builds for Android, Windows and Linux.",
   notesEs:

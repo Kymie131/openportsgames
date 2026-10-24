@@ -26,6 +26,8 @@ export const ondrejederDriveclubPcWrapper: Port = {
     alt: "Driveclub (box art)",
     credit: "Wikipedia",
   },
+  summary: "Driveclub is a 2014 racing video game developed by Evolution Studios and published by Sony Computer Entertainment for the PlayStation 4. It was announced during the PlayStation 4 press conference on 20 February 2013, and, after several delays, was released worldwide in October 2014.",
+  summaryEs: "Driveclub es un videojuego de carreras desarrollado por Evolution Studios y publicado por Sony Computer Entertainment, en exclusiva para la consola PlayStation 4. Driveclub fue anunciado oficialmente durante la conferencia de prensa de PlayStation el 20 de febrero de 2013. El juego fue lanzado en octubre de 2014.",
   notes: "Driveclub: source port by ondrejeder for Windows. Bring your own copy of the game.",
   notesEs: "Driveclub: source port de ondrejeder para Windows. Aporta tu propia copia del juego.",
 };

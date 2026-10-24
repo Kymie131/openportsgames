@@ -20,6 +20,8 @@ export const doomRpgRe: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Other"],
+  summary: "Doom RPG is a 2005 role-playing video game developed by Fountainhead Entertainment and published by JAMDAT Mobile for mobile phones. It combines the Doom first-person shooter franchise with role-playing elements. The storyline incorporates many similar events of Doom 3, but involves different characters than those in the third game.",
+  summaryEs: "Doom RPG es un videojuego para teléfonos móviles desarrollado por Fountainhead Entertainment y publicado por JAMDAT Mobile. Combina la franquicia Doom con elementos de un videojuego de rol. La historia incorpora muchos eventos similares a Doom 3, pero involucra personajes diferentes a los del tercer juego.",
   notes: "Reverse engineering of Doom RPG, the mobile turn-based game by id Software, by the [GEC] group. Latest release: v0.2.2.",
   notesEs: "Ingeniería inversa de Doom RPG, el juego por turnos para móviles de id Software, por el grupo [GEC]. Última release: v0.2.2.",
 };

@@ -25,6 +25,8 @@ export const jakAndDaxterThePrecursorLegacyApple: Port = {
     alt: "Jak and Daxter: The Precursor Legacy (box art)",
     credit: "Wikipedia",
   },
+  summary: "Jak and Daxter: The Precursor Legacy is a 2001 platform video game developed by Naughty Dog and published by Sony Computer Entertainment for the PlayStation 2 (PS2). The player controls Jak, who sets out to reverse the transformation of his friend Daxter into an \"ottsel\", a fictional hybrid of an otter and a weasel. This quest eventually turns into an effort to stop a rogue sage from corrupting the world. The game takes place in a cohesive and non-linear world, allowing the player to freely explore interconnected areas.",
+  summaryEs: "Jak and Daxter: El legado de los Precursores es un videojuego de plataformas desarrollado por Naughty Dog y publicado por Sony Computer Entertainment para la PlayStation 2 el 4 de diciembre de 2001, como el primer juego de la serie Jak and Daxter. El juego sigue a los protagonistas, un joven adolescente llamado Jak, mientras intenta ayudar a su amigo Daxter después de que se transforma en un \"ottsel\", un híbrido ficticio de una nutria y una comadreja.",
   notes: "Jak and Daxter: The Precursor Legacy (Naughty Dog, 2001) running on iPhone and iPad and macOS through decompilation. Latest release: v0.1.0. You need your own copy of the game.",
   notesEs: "Jak and Daxter: The Precursor Legacy (Naughty Dog, 2001) en iPhone and iPad and macOS mediante decompilación. Última release: v0.1.0. Necesitas tu propia copia del juego.",
 };

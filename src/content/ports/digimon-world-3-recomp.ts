@@ -26,6 +26,8 @@ export const digimonWorld3Recomp: Port = {
     alt: "Digimon World 3 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Digimon World 3 , also known as Digimon World 2003 in Europe and Australia, is a role-playing video game for the PlayStation developed by BEC and Boom Corp, and published by Bandai. It is the third installment in the Digimon World series and it was first released in June 2002 in North America and then in July 2002 in Japan and November 2002 in Europe. The game tells the story of Junior, who begins playing an MMORPG called \"Digimon Online\" with his friends, but when terrorists attack, Junior and the other players are trapped within the game and must find a way out using his Digimon partners.",
+  summaryEs: "Digimon World 3 es el tercer videojuego lanzado por Bandai para continuar la saga DW.",
   notes: "Static recompilation of Digimon World 3 (PlayStation, 2002, NTSC-U SLUS-01436): the main executable and all 263 overlays are translated ahead of time to C and linked against a reimplementation. Widescreen, HD backgrounds and gamepad support. Requires your own copy. Latest tag: models-v1.",
   notesEs: "Recompilación estática de Digimon World 3 (PlayStation, 2002, NTSC-U SLUS-01436): el ejecutable principal y las 263 overlays se traducen previamente a C y se enlazan contra una reimplementación. Widescreen, fondos en HD y soporte de mando. Requiere tu propia copia. Último tag: models-v1.",
 };

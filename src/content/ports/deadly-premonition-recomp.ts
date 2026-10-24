@@ -19,6 +19,8 @@ export const deadlyPremonitionRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Xbox 360"],
+  summary: "Deadly Premonition is a 2010 open world survival horror video game developed by Access Games. Set in the fictional rural American town of Greenvale, Washington, the story follows FBI Special Agent Francis York Morgan as he investigates the murder of an eighteen-year-old woman, which bears similarities to a series of murders across the country.",
+  summaryEs: "Deadly Premonition es un videojuego de terror para las consolas Xbox 360 y PlayStation 3, perteneciente al género survival horror en mundo abierto.",
   notes:
     "Recompiled Deadly Premonition (Xbox 360) to run natively on Windows through ReXGlue. Own the game to play.",
   notesEs:

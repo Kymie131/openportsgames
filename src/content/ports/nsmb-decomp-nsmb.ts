@@ -22,6 +22,8 @@ export const nsmbDecompNsmb: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "New Super Mario Bros. is a 2006 platform game developed and published by Nintendo for the Nintendo DS. It was first released in May 2006 in North America and Japan, in Europe and Australia in June 2006, in South Korea in March 2007, and in China in July 2009. It is the first installment in the New Super Mario Bros. subseries of the Super Mario series and the first side-scrolling Super Mario game since Yoshi's Island (1995). It follows Mario as he fights his way through Bowser's henchmen to rescue Princess Peach.",
+  summaryEs: "New Super Mario Bros. es un videojuego de plataformas desarrollado y publicado por Nintendo para la Nintendo DS. Salió a la venta en mayo de 2006 en Norteamérica y Japón, en junio en Europa y Australia, en marzo de 2007 en Corea del Sur y en julio de 2009 en China. Es la primera entrega de la subserie New Super Mario Bros. de la serie Super Mario y el primero de desplazamiento lateral desde Yoshi's Island (1995). Sigue a Mario mientras se abre paso luchando contra los secuaces de Bowser para rescatar a la Princesa Peach.",
   notes: "New Super Mario Bros.: decompilation by NSMB-Decomp for Windows. Bring your own copy of the game.",
   notesEs: "New Super Mario Bros.: decompilación de NSMB-Decomp para Windows. Aporta tu propia copia del juego.",
 };

@@ -21,6 +21,8 @@ export const elprogramadorlocoArchJim2Recomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation"],
+  summary: "Earthworm Jim 2 is a 1995 run and gun video game developed by Shiny Entertainment and published by Playmates Interactive Entertainment. It is the sequel to Earthworm Jim, the second game in the Earthworm Jim series. It was released in late 1995 and early 1996 depending on the region and video game console, initially for the Sega Genesis and Super Nintendo Entertainment System, before being ported to other platforms.",
+  summaryEs: "Earthworm Jim 2 es un videojuego de plataformas cuyo protagonista en un gusano de tierra llamado Jim, que va enfundando en un traje espacial. Se trata de una secuela del juego original Earthworm Jim, y el último trabajo de la serie donde intervinieron los creadores originales del personaje: Doug TenNapel, David Perry y la compañía Shiny Entertainment. Fue lanzado a finales del año 1995 Inicialmente fue lanzado para Mega Drive y Super Nintendo, y posteriormente pasó a otras videoconsolas.",
   notes: "Earthworm Jim 2: static recompilation by elprogramadorloco-arch for Windows. Bring your own copy of the game.",
   notesEs: "Earthworm Jim 2: recompilación estática de elprogramadorloco-arch para Windows. Aporta tu propia copia del juego.",
 };

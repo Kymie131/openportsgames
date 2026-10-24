@@ -25,6 +25,8 @@ export const kenGriffeyJrSSlugfestPc: Port = {
     alt: "Ken Griffey Jr.'s Slugfest (box art)",
     credit: "Wikipedia",
   },
+  summary: "Ken Griffey Jr.'s Slugfest is a 1999 baseball video game developed by Angel Studios and published by Nintendo for the Nintendo 64. It was released in May 1999 only in North America. A Game Boy Color port developed by Software Creations was released in June 1999. Featuring real-life player Ken Griffey Jr., it is a sequel to Major League Baseball Featuring Ken Griffey Jr., released for the Nintendo 64, which itself was preceded by Software Creation's Ken Griffey Jr. Presents Major League Baseball and Rare's Ken Griffey Jr.'s Winning Run, both released for the Super NES.",
+  summaryEs: "Ken Griffey Jr.'s Slugfest es un videojuego de béisbol desarrollado por Angel Studios y publicado por Nintendo para las consolas Nintendo 64 y Game Boy Color. El juego únicamente salió en Estados Unidos, llegando al mercado norteamericano el 11 de mayo de 1999.",
   notes: "Ken Griffey Jr.'s Slugfest (Nintendo, 1999) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Ken Griffey Jr.'s Slugfest (Nintendo, 1999) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

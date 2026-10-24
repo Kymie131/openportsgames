@@ -1,0 +1,410 @@
+# Informe de metadatos de juegos
+
+- Fichas con metadatos de juego: **1943**
+- Sinopsis añadidas: **0**
+- Publishers completados (solo si faltaban): **0**
+- Fichas sin coincidencia en Wikidata/Wikipedia/Steam: **615**
+- Años que difieren más de 1 respecto a la fuente: **96**
+
+## Años a revisar
+
+- `0-a-d-para-android-arm64` — 0 A.D.: ficha 2010, wikidata 2021
+- `2006-scape-2006scape` — RuneScape: ficha 2006, steam 2020
+- `2048-3ds` — 2048: ficha 2014, steam 2018
+- `2048-psp` — 2048: ficha 2014, steam 2018
+- `9933fa-zuma-deluxe-tas` — Zuma Deluxe: ficha 2003, steam 2006
+- `aerofoil-android` — Glider PRO: ficha 1994, wikidata 1988
+- `alula-circleshootapp` — Zuma Deluxe: ficha 2003, steam 2006
+- `bep1s69-nfsmw-ios` — Need for Speed: Most Wanted: ficha 2005, wikidata 2012
+- `caiiiycuk-vcmi-wasm` — Heroes of Might and Magic III: ficha 1999, steam 2026
+- `cannonball` — OutRun: ficha 1986, wikidata 2024
+- `carmageddon-2-android` — Carmageddon 2: Carpocalypse Now: ficha 1998, steam 2014
+- `castlevania-revamped` — Castlevania: ficha 1986, wikidata 1998
+- `chrissotraidis-goldenpad` — GoldenEye 007: ficha 1997, wikidata 2010
+- `civilization-snes-pc` — Civilization: ficha 1994, wikidata 1991
+- `classic-core-engines` — Perfect Dark: ficha 1993, wikidata 2000
+- `cookie-clicker-3ds` — Cookie Clicker: ficha 2013, steam 2021
+- `daytona-usa-recomp` — Daytona USA: ficha 1993, wikidata 1995
+- `devilutionx` — Diablo: ficha 1996, wikidata 2006
+- `diablo-recomp` — Diablo: ficha 1998, wikidata 2006
+- `diasurgical-devilution` — Diablo: ficha 1996, wikidata 2006
+- `doom-snes-recomp` — Doom: ficha 1995, wikidata 1993
+- `elforeign-nfs-most-wanted-mac` — Need for Speed: Most Wanted: ficha 2005, wikidata 2012
+- `endprodukt-cannonball-dx` — OutRun: ficha 1986, wikidata 2024
+- `exit-recomp` — EXIT: ficha 2008, wikidata 2005
+- `fable2recomp-beanrecomp` — GoldenEye 007: ficha 1997, wikidata 2010
+- `felipeprado0-spartanport` — God of War III Remastered: ficha 2010, wikidata 2015
+- `fh2` — Heroes of Might and Magic II: ficha 1996, wikidata 2000
+- `freegish-freegish` — Gish: ficha 2004, steam 2007
+- `from-below-nes` — From Below: ficha 2020, steam 2026
+- `galaxy-on-fire-2-unity-remake` — Galaxy on Fire 2™ Full HD: ficha 2009, steam 2012
+- `gish` — Gish: ficha 2004, steam 2007
+- `god-of-war-3-recomp` — God of War III Remastered: ficha 2010, wikidata 2015
+- `goldeneye-007-recomp` — GoldenEye 007: ficha 1997, wikidata 2010
+- `goldeneye-007-xbla-recomp` — GoldenEye 007: ficha 1997, wikidata 2010
+- `goldeneye-64-recompiled` — GoldenEye 007: ficha 1997, wikidata 2010
+- `heretic-classic-core-engines` — Heretic: Shadow of the Serpent Riders: ficha 1994, wikidata 2007
+- `katawa-shoujo-gba` — Katawa Shoujo: ficha 2012, steam 2024
+- `kholdfuzion-goldenrecomp` — GoldenEye 007: ficha 1997, wikidata 2010
+- `little-big-adventure-ds` — Little Big Adventure: ficha 1994, steam 2015
+- `mabec-games-tekken-3-for-linux` — Tekken 3: ficha 1998, wikidata 1996
+- `marathon-android` — Marathon: ficha 1994, steam 2026
+- `mass-effect-nx` — Mass Effect: ficha 2007, wikidata 2012
+- `medal-of-honor-psx-recomp-pc` — Medal of Honor: ficha 1999, wikidata 2010
+- `mercuryworkshop-terraria-wasm` — Terraria: ficha 2013, wikidata 2011
+- `metal-slug-x-recomp` — Metal Slug X: ficha 2001, wikidata 1999
+- `metal-slug-xx-recomp` — Metal Slug XX: ficha 2009, wikidata 2019
+- `metavert-io-lofp` — Legends of Future Past: ficha 1990, wikidata 1992
+- `micropolis-android` — Micropolis: ficha 1989, wikidata 2008
+- `minecraft-pocket-edition-3ds` — Minecraft: ficha 2011, wikidata 2009
+- `minecraft-psp` — Minecraft: ficha 2011, wikidata 2009
+- `monster-hunter-3-ultimate-pc` — Monster Hunter 3 Ultimate: ficha 2013, wikidata 2011
+- `n64decomp-007` — GoldenEye 007: ficha 1997, wikidata 2010
+- `nfs-most-wanted-2005-android` — Need for Speed: Most Wanted: ficha 2005, wikidata 2012
+- `nfs-most-wanted-android` — Need for Speed: Most Wanted: ficha 2005, wikidata 2012
+- `nfs-most-wanted-black-edition-recomp` — Need for Speed: Most Wanted: ficha 2005, wikidata 2012
+- `nfs-most-wanted-decomp` — Need for Speed: Most Wanted: ficha 2005, wikidata 2012
+- `open-xcom-android` — XCom: UFO Defense: ficha 1994, steam 2008
+- `opencoduo-coduomp` — Call of Duty: United Offensive: ficha 2006, wikidata 2004
+- `openloco` — Locomotion: ficha 2004, steam 2019
+- `openxcom` — X-COM: UFO Defense: ficha 1994, steam 2008
+- `pac-man-nes-recomp` — Pac-Man: ficha 1984, wikidata 1982
+- `pet-the-cat-3ds` — Pet the Cat: ficha 2024, steam 2026
+- `point-blank-recompiled` — Point Blank: ficha 1994, wikidata 2010
+- `prince-of-persia-3ds` — Prince of Persia: ficha 1989, wikidata 2008
+- `project-midas-pc` — GoldenEye 007: ficha 1997, wikidata 2010
+- `psydoom` — Doom: ficha 1995, wikidata 1993
+- `quake-ii-recomp` — Quake II: ficha 1999, wikidata 1997
+- `richman-4-android` — Richman 4: ficha 1998, steam 2022
+- `road-trip-android` — Road Trip: ficha 2002, wikidata 2022
+- `roborun-nes` — RoboRun: ficha 2021, steam 2019
+- `rott94` — Rise of the Triad: Dark War: ficha 1994, steam 2014
+- `rumbleminze-super-super-dodgeball` — Super Dodge Ball: ficha 1988, wikidata 1990
+- `sdlpop` — Prince of Persia: ficha 1989, wikidata 2008
+- `sonic-advance-web` — Sonic Advance: ficha 2003, wikidata 2001
+- `sopwith-wii` — Sopwith: ficha 1984, steam 2026
+- `sp00nznet-racer` — Star Wars Episode I: Racer: ficha 1999, steam 2018
+- `steins-gate-recomp` — Steins;Gate: ficha 2009, steam 2016
+- `sunset-riders-pc` — Sunset Riders: ficha 1993, wikidata 1991
+- `super-dodge-ball-pc` — Super Dodge Ball: ficha 1988, wikidata 1990
+- `supertux-ds` — SuperTux: ficha 2003, steam 2022
+- `supertux-milestone-2-vita-switch-ps3` — SuperTux: ficha 2016, steam 2022
+- `supertux-switch` — SuperTux: ficha 2003, steam 2022
+- `supertux-wii` — SuperTux: ficha 2003, steam 2022
+- `sushi-shi-homm3-decomp` — Heroes of Might and Magic III: ficha 1999, steam 2026
+- `tekken-3-recomp` — Tekken 3: ficha 1998, wikidata 1996
+- `tenchu-z-recomp` — Tenchu Z: ficha 2008, wikidata 2006
+- `terraria` — Terraria: ficha 2013, wikidata 2011
+- `the-italian-job` — The Italian Job: ficha 2001, wikidata 2003
+- `titanic-godot-30th-anniversary-edition` — Titanic: Adventure Out of Time: ficha 1996, steam 2018
+- `twin-e` — Little Big Adventure: ficha 1994, steam 2015
+- `vcmi` — Heroes of Might and Magic III: ficha 1999, steam 2026
+- `war-of-the-monsters-recomp` — War of the Monsters: ficha 2005, wikidata 2003
+- `ysrdevs-goldeneye-metal` — GoldenEye 007: ficha 1997, wikidata 2010
+- `zgzinfinity-outrun` — OutRun: ficha 1986, wikidata 2024
+- `zuma-deluxe-android` — Zuma Deluxe: ficha 2003, steam 2006
+- `zuma-deluxe-portable` — Zuma Deluxe: ficha 2003, steam 2006
+
+## Sin coincidencia
+
+- `1oom` — 1oom
+- `2planes-switch` — 2Planes
+- `2tie-mh1j` — Monster Hunter
+- `3d-pinball-space-cadet-psp` — 3D Pinball for Windows
+- `3dstris` — 3DStris
+- `8-bit-table-tennis-nes` — 8-bit Table Tennis
+- `8bitvita-ps-vita-plugin` — PlayStation Vita
+- `abuse-android` — Abuse
+- `ac3-decomp` — Ace Combat 3: Electrosphere
+- `ace-combat-3-electrosphere-recomp` — Ace Combat 3: Electrosphere
+- `ace-combat-3-electrosphere-usa-recomp` — Ace Combat 3: Electrosphere
+- `adamrt-fft-decomp` — Final Fantasy Tactics
+- `afraid-of-monsters-ps-vita` — Afraid of Monsters
+- `aikatore-recvx-enhanced-port` — Resident Evil - Code: Veronica X
+- `airaki-game-boy` — Airaki
+- `aleph-one` — Marathon 2
+- `alexbeavs-ps1-recomps-psxrecomp-ports` — Alexbeav's PS1 recomps (psxrecomp-ports)
+- `alice-in-wonderland` — Alice in Wonderland
+- `alien-resurrection-recomp-hero` — Alien Resurrection
+- `alien-resurrection-recomp` — Alien Resurrection
+- `alien-vs-predator-2` — Alien vs. Predator 2
+- `am2r-android` — Another Metroid 2 Remake
+- `amethyst-android` — Minecraft: Java Edition
+- `ammaarreshi-skyroads-port` — SkyRoads (skyroads-port (1:1 C11))
+- `animal-forest-e` — Animal Forest e+
+- `animal-forest` — Animal Forest
+- `apotris-android` — Apotris
+- `apotris-psp` — Apotris
+- `ar-tonelico-ii-melody-of-metafalica` — Ar tonelico II: Melody of Metafalica
+- `are-you-smarter-than-a-5th-grader-make-the-grade` — Are You Smarter Than a 5th Grader: Make the Grade
+- `ark-plugin-converter` — PlayStation Portable
+- `armored-unit` — Armored Unit
+- `asteroids-terra-sega-saturn` — Asteroids Terra
+- `awesome-open-source-games` — Awesome Open Source Games
+- `banjorecomp-android` — BanjoRecomp Android
+- `barrett` — Barrett
+- `battle-grounds-3-psp` — Battle Grounds 3
+- `ben-10-omniverse-recomp` — Ben 10 Omniverse
+- `betterspades` — BetterSpades
+- `biggestsonicfan-stfdecomp` — Sonic The Fighters
+- `bike-race-pro-ps-vita` — Bike Race
+- `bird-and-beans-wii` — Bird & Beans
+- `black-2006-recomp` — BLACK
+- `black-and-white` — Black and White
+- `black-android` — BLACK
+- `black-pc` — BLACK
+- `blake-stone-recomp` — Blake Stone: Aliens of Gold / Planet Strike
+- `blasterball-revolution-2` — Blasterball Revolution 2
+- `bloody-roar-ii-recomp` — Bloody Roar II
+- `bomberworld-snes` — Bomberworld
+- `bottomless-block-barrage-3ds` — Bottomless Block Barrage
+- `bounce-psp` — Bounce
+- `bounce` — Bounce
+- `brogue-android` — Brogue
+- `bruder-grimm-animal-forest-psp` — Animal Forest
+- `bstone` — BStone
+- `btbuilder` — BtBuilder
+- `bubsy-3d-furbitten-planet` — Bubsy 3D - Furbitten Planet
+- `burnout-paradise-b5-decomp` — Burnout Paradise (b5-decomp)
+- `c-dogs-sdl` — C-Dogs SDL
+- `carl0srmz-littleplanet` — Sonic CD
+- `carnage3d` — Carnage3D
+- `catacombgl` — CatacombGL
+- `cavex` — CaveX
+- `chameleon-twist-2-recomp` — Chameleon Twist 2
+- `chameleontwistret-chameleontwist2v1-0-jp` — Chameleon Twist 2
+- `chasm-reverse` — Chasm-Reverse
+- `chernobyl-neighbor-clown-gang` — Chernobyl Neighbor. Clown Gang
+- `chocolate-quake` — Chocolate Quake
+- `classicube-classicube` — ClassiCube
+- `club-penguin-waddle-forever` — Club Penguin (Waddle Forever)
+- `cnc-tiberian-dawn-android` — Command & Conquer: Tiberian Dawn
+- `conan-2007-recomp` — Conan
+- `contra` — Contra
+- `controlmole-3ds-plugin` — Nintendo 3DS
+- `coqui-snes` — Coqui
+- `coup-sega-saturn` — Coup
+- `cps2-recomp` — CPS-2 arcade collection
+- `craftus-reloaded` — Craftus Reloaded
+- `crash-bandicoot-3-warped-recomp` — Crash Bandicoot 3: Warped
+- `crossconnect-game-boy-color` — CrossConnect
+- `crt-native-ds-dual-screen` — CTR: Crash Team Racing
+- `crucible-exe-game-boy-color` — CRUCIBLE.EXE
+- `cryptoslasher-snes` — CryptoSlasher
+- `ctrcomposer-3ds-plugin-framework` — Nintendo 3DS
+- `ctw-native` — CTW-Native
+- `cut-the-rope-cut-the-rope-dx` — Cut the Rope (Cut the Rope: DX)
+- `d1x-rebirth` — Descent
+- `dance-dance-revolution-1st-mix` — Dance Dance Revolution 1st Mix
+- `dark-cloud-2-recomp` — Dark Cloud 2
+- `daytona-arcade-recomp` — Daytona Arcade Recomp
+- `dcrsdk-soniccd-dc` — Sonic CD
+- `dead-or-alive-2-ultimate-recomp` — Dead or Alive 2 Ultimate
+- `dead-or-alive-xtreme-beach-volleyball-android` — Dead or Alive: Xtreme Beach Volleyball
+- `defenders-and-dragons` — Defenders & Dragons
+- `descent-android` — Descent
+- `descent-mobile` — Descent
+- `dgengine` — DGEngine
+- `diegodedios-alienrerecomp` — Alien Resurrection
+- `digimon-digital-card-battle` — Digimon: Digital Card Battle
+- `digimon-world-2003-recomp` — Digimon World 2003
+- `disney-piglets-big-game` — Disney Piglet's Big Game
+- `doaxbv-re` — Dead or Alive Xtreme Beach Volleyball
+- `doma-days` — DOMA Days
+- `doom-64-remastered-classic-core-engines` — Doom 64 Remastered
+- `doom-playstation-classic-core-engines` — Doom (Playstation)
+- `doom64-ex-plus-enhanced` — DOOM64-EX-Plus-Enhanced
+- `dora64-3` — Doraemon 3: Nobita no Machi SOS!
+- `dr-brain-action-reaction` — Dr. Brain Action Reaction
+- `dragon-ball-z-budokai-3-hd` — Dragon Ball Z: Budokai 3 HD
+- `dragon-ball-z-budokai-hd` — Dragon Ball Z: Budokai HD Collection
+- `dragon-quest-swords-pc` — Dragon Quest Swords: The Masked Queen and the Tower of Mirrors
+- `dragon-s-crown-pro-pc` — Dragon's Crown Pro
+- `dreadhollow-manor-game-boy-color` — Dreadhollow Manor
+- `dreamcast-homebrew-collection-dreamcast` — Dreamcast Homebrew Collection
+- `driver-recomp` — Driver
+- `ds-protect` — DS Protect
+- `ds4vita-ps-vita-plugin` — PlayStation Vita
+- `dsda-doom-dsda-org` — DSDA-Doom
+- `dxx-redux` — dxx-redux
+- `earthbound-beginnings` — Earthbound Beginnings
+- `earthbound-mother-2` — EarthBound / Mother 2
+- `earthbound-phase-distorter` — EarthBound (Phase Distorter)
+- `edge-classic` — EDGE-classic
+- `elfen-lied-fighting-android` — Elfen Lied Fighting
+- `elli-s-house-3ds-psp-gba` — Elli's House
+- `emazing-mazes-3ds` — eMazing Mazes
+- `emberclutch-3ds` — Emberclutch
+- `emperorreborn` — EmperorReborn
+- `eqvita-ps-vita-audio-plugin` — PlayStation Vita
+- `etchy-sketchy-game-boy-advance` — Etchy Sketchy
+- `euc-thrills-snes` — EUC Thrills
+- `euspring1-blackdefinitivehdpc` — BLACK
+- `evos-space-adventures` — Evo's Space Adventures
+- `exult` — Ultima VII
+- `ezquake` — ezQuake
+- `f-15-ii-enhanced` — F-15 II Enhanced
+- `f-15-ii` — F-15 II
+- `filthy-kitchen-nes` — Filthy Kitchen
+- `final-doom-playstation-classic-core-engines` — Final Doom (Playstation)
+- `final-fantasy-tactics-recomp` — Final Fantasy Tactics
+- `final-fantasy-xiv-1-0` — Final Fantasy XIV (1.0)
+- `fire-emblem-seima-no-kouseki` — Fire Emblem: Seima no Kouseki
+- `fire-emblem-the-blazing-blade` — Fire Emblem: The Blazing Blade
+- `flame` — Flame
+- `fluctus-wii-u` — Fluctus
+- `fold-craft-launcher` — Minecraft Java Edition
+- `forecast-channel` — Forecast Channel
+- `fpkgi-package-manager` — PlayStation Portable
+- `freeciv` — freeciv
+- `freedoom` — Freedoom
+- `freeft` — FreeFT
+- `freeserf-net` — freeserf.net
+- `friday-night-funkin-wii` — Friday Night Funkin'
+- `frogger-hes-back` — Frogger: He's Back!
+- `fuel` — FUEL
+- `fushigi-no-dungeon-furai-no-shiren-2-oni-shurai-shiren-jo` — Fushigi no Dungeon: Fūrai no Shiren 2 — Oni Shūrai! Shiren-jō!
+- `gamearcade-switch` — GameArcade
+- `generalsgamecode` — GeneralsGameCode
+- `gex-64-enter-the-gecko` — Gex 64: Enter the Gecko
+- `ghost-in-the-shell-recomp` — Ghost in the Shell
+- `ghosts-and-graves` — Ghosts And Graves
+- `glkeeper` — GLKeeper
+- `glsmac` — GLSMAC
+- `gohanmem-ps-vita-cheat-plugin` — PlayStation Vita
+- `golden-sun-the-broken-seal` — Golden Sun: The Broken Seal
+- `goldeneye-pc-port` — GoldenEye PC Port
+- `google-dino-game-boy-advance` — Chrome Dino
+- `goths-n-vamps-psp` — Goths n Vamps
+- `gpsemu-psp-plugin` — PlayStation Portable
+- `gr544p-ps-vita-plugin` — PlayStation Vita
+- `green-farm-3` — Green Farm 3
+- `gsrecomp` — GSRecomp
+- `guarda-con-las-gbc-game-boy-color` — Guarda con las GBC
+- `guitar-hero-2` — Guitar Hero 2
+- `gundam-battle-master-2-recomp` — Gundam: The Battle Master 2
+- `gxcraft` — GXCraft
+- `gzh0821-pvzge-web` — Plants vs. Zombies 2
+- `hagi` — Hagi
+- `hashi-ps-vita` — Hashi
+- `hazard-1998` — Hazard 1998
+- `heavymetal` — heavymetal
+- `heretic2` — heretic2
+- `heretic2r` — Heretic2R
+- `heromachine-breakdown-recompilation` — Breakdown
+- `hexen-ii-portal-of-praevus-classic-core-engines` — Hexen II: Mission Pack – Portal of Praevus⁠
+- `hopmon` — Hopmon
+- `hydra-castle-labyrinth-psp` — Hydra Castle Labyrinth
+- `i-wanna-reach-the-unity-ps-vita` — I Wanna Reach The Unity
+- `idle-office-tycoon` — Idle Office Tycoon
+- `idtech4a-harmattan-edition` — idTech4A++ (Harmattan Edition)
+- `inazuma-eleven-3-sekai-e-no-chousen-the-ogre` — Inazuma Eleven 3 - Sekai e no Chousen: The Ogre!!
+- `indionicarao-dxx-3ds` — Descent
+- `infinite-blade-2-android` — Infinite Blade II
+- `inotia-3-vita` — Inotia 3: Children of Carnia
+- `japabu-mickey-saves-the-day-3d-adventure` — Mickey Saves the Day 3D Adventure
+- `jet-moto-2-recomp` — Jet Moto 2: Championship Edition
+- `jet-set-radio-future-recomp` — Jet Set Radio Future
+- `jet-set-radio-future-unleashed` — Jet Set Radio Future
+- `jet-ski-3ds` — Jet Ski
+- `jfsw` — jfsw
+- `jftekwar` — jftekwar
+- `jfwhaven` — jfwhaven
+- `jnmartin84-wipeout-dc` — Wipeout
+- `johnny-herberts-grand-prix-championship-1998` — Johnny Herbert's Grand Prix Championship 1998
+- `jon-zu-shroom95-decomp` — MapleStory
+- `jotd666-bagman` — Bagman (bagman (arcade -> 68k transcode))
+- `jpn-pokemon-blue` — JPN Pokémon Blue
+- `justgetmiionline-wii-u-aroma-plugin` — Wii U
+- `k-on-houkago-live-pc` — K-On! Houkago Live!!
+- `kameo-repowered` — Kameo: Elements of Power
+- `key2con-switch-sysmodule` — Nintendo Switch
+- `king-kong-recomp` — Peter Jackson's King Kong
+- `kirbys-dream-collection-special-edition` — Kirby's Dream Collection - Special Edition
+- `kirbys-return-to-dream-land-kirby-wii-recomp` — Kirby's Return to Dream Land (Kirby Wii Recomp)
+- `kknd-krush-kill-n-destroy` — KKND: Krush Kill 'n Destroy
+- `kokororecomp` — KoroKoro Postnin
+- `komputerowa-gratka-3d-magiczna-kula-papatki` — Komputerowa Gratka 3D - Magiczna Kula Papatki
+- `koudelka-recomp` — Koudelka
+- `kroplabeskidu-flipendo` — Flipendo
+- `kumi-daiko-beatoff-64-nintendo-64` — Kumi-Daiko Beatoff 64
+- `kuon-mulberry` — Kuon (Mulberry)
+- `kylofon-acesofthepacific-enhanced` — Aces of the Pacific Enhanced
+- `kylofon-test-drive-3-sdl3` — Test Drive III
+- `kylofon-testdrive3-enhanced` — Test Drive III Enhanced
+- `lba2-classic-community` — lba2-classic-community
+- `ledhead-wii` — LedHEAD
+- `legend-of-doom-3ds` — Legend of Doom
+- `lego-battles` — Lego Battles
+- `lego-creator-knights-kingdom` — Lego Creator Knights Kingdom
+- `lego-world-builder-3ds` — LEGO World Builder
+- `lilium-voyager` — lilium-voyager
+- `lionheart-remake` — Lionheart Remake
+- `looney-tunes-carrot-crazy` — Looney Tunes: Carrot Crazy
+- `lotr-return-of-the-king-recomp` — The Lord of the Rings: The Return of the King
+- `lotr-two-towers-recomp` — The Lord of the Rings: The Two Towers
+- `lsd-decomp` — LSD: Dream Emulator
+- `lsd-revamped-ps-vita` — LSD: Dream Emulator
+- `luma3ds-plugin-loader-3ds` — Nintendo 3DS
+- `luma3ds-plugin-loader-script-3ds` — Nintendo 3DS
+- `mabec-games-iss2000-recomp` — Mabecs International Superstar Soccer 2000
+- `madnesspatch` — MadnessPatch
+- `mafia-the-city-of-lost-heaven` — Mafia: The City of Lost Heaven
+- `marathon-recomp` — Sonic the Hedgehog (2006)
+- `marathon-recompiled` — Sonic The Hedgehog (2006)
+- `mario-and-luigi-partners-in-time` — Mario & Luigi - Partners in Time
+- `mario-golf-64-recomp` — Mario Golf
+- `mario-party-1` — Mario Party 1
+- `mario-sport-mix` — Mario Sport Mix
+- `mario-teaches-typing-3` — Mario Teaches Typing 3
+- `mario-tennis-virtual-boy-recomp` — Mario's Tennis
+- `markmoxon-elite-source-code-commodore-64` — Elite
+- `marvel-vs-capcom-2` — Marvel vs. Capcom 2
+- `maxdeadbear-kameorepowered` — Kameo: Elements of Power
+- `maxr` — maxr
+- `mc2` — mc2
+- `medievil-ii-recomp` — MediEvil II
+- `mega-car-wars-mega-drive` — Mega Car Wars
+- `mega-drive-invaders-snes` — Mega Drive Invaders
+- `mega-man-64-recomp` — Mega Man 64
+- `megaman-64-recomp-mobile` — Mega Man 64
+- `megami-ibunroku-persona` — Megami Ibunroku Persona
+- `meleepc` — MeleePC
+- `miichanic-luma3ds-plugin` — Nintendo 3DS
+- `minecraft-3ds-megapack-plugin-3ds` — Nintendo 3DS
+- `mint-arena` — mint-arena
+- `miroh-nes` — Miroh
+- `missyhud-psp-plugin` — PlayStation Portable
+- `mojo-launcher` — Minecraft Java Edition
+- `monde-lointain-mariogolf64` — Mario Golf
+- `monster-hunter-portable-2nd-g` — Monster Hunter Portable 2nd G
+- `moon-pc` — Moon
+- `moonwake-game-boy-color` — Moonwake
+- `mother-1-2-japan` — Mother 1+2 (Japan)
+- `mother-earthbound-zero-earthbound-beginnings` — Mother/Earthbound Zero/Earthbound Beginnings
+- `mr-boom` — Mr.Boom
+- `mschange-psp-plugin` — PlayStation Portable
+- `mudkip-adventures-psp` — Mudkip Adventures
+- `multidrc-space-demo-wii-u` — MultiDRC Space Demo
+- `mwcc` — Metrowerks CodeWarrior for GameCube
+- `mwenge-uridium` — Uridium (uridium (+ UridiumFraktion))
+- `n0zom1z0-th08-web` — Touhou 8: Imperishable Night
+- `n0zom1z0-th08` — Touhou 8: Imperishable Night
+- `naruto-ultimate-ninja-storm-3-full-burst-recomp` — Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst
+- `nautilusbits-skynet-godot` — The Terminator: SkyNET
+- `navyfield-2000-pc` — NavyField 2000 PC
+- `nba-jam-on-fire-recomp` — NBA Jam: On Fire Edition
+- `nblood` — Blood
+- `nearchuckle` — NearChuckle
+- `need-for-speed-1-6` — Need For Speed 1-6
+- `need-for-speed-high-stakes-ps1` — Need for Speed: High Stakes (PS1)
+- `nelumbo` — Lotus Trilogy
+- `neo-drift-out-recomp` — Neo Drift Out
+- `neon-genesis-evangelion-64` — Neon Genesis Evangelion 64
+- `neon-valley-3ds` — Neon Valley
+- `new-play-control-pikmin-2` — New Play Control! Pikmin 2
+- `new-play-control-pikmin` — New Play Control! Pikmin
+- `nfs-most-wanted-recomp` — Need for Speed: Most Wanted (2005)
+- `nfsiise` — Need for Speed II SE
+- `nova-the-squirrel-nes` — Nova the Squirrel
+

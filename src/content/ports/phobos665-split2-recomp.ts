@@ -26,6 +26,8 @@ export const phobos665Split2Recomp: Port = {
     alt: "TimeSplitters 2 (box art)",
     credit: "Wikipedia",
   },
+  summary: "TimeSplitters 2 is a first-person shooter video game, developed by Free Radical Design, published by Eidos Interactive, and released in October 2002 for PlayStation 2, Xbox and GameCube. The game's story focuses on the efforts of a space marine who seeks to recover powerful time crystals from a race of alien mutants called TimeSplitters, which leads them to taking on the form of an individual dealing with their own problems across different time periods between the 19th and 25th century.",
+  summaryEs: "TimeSplitters 2 es la segunda entrega de la saga TimeSplitters, dándole a la saga un tremendo cambio respecto a su antecesor, TimeSplitters. Su sucesor fue TimeSplitters Future Perfect. Este videojuego, lanzado en 2002 continúa con la acción directa a la que incitaba TimeSplitters pero mejorada en diversos aspectos:- Los gráficos mejoraban y aparecián escenas de video en consecuencia. - El listado de niveles y personajes aumentaba conservando antiguos y creando nuevos. - Los modos de juego también aumentaban dándole al juego multijugador más posibilidades.",
   notes: "TimeSplitters 2: static recompilation by phobos665 for Windows. Bring your own copy of the game.",
   notesEs: "TimeSplitters 2: recompilación estática de phobos665 para Windows. Aporta tu propia copia del juego.",
 };

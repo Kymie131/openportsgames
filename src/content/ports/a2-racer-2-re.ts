@@ -21,6 +21,8 @@ export const a2Racer2Re: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Windows"],
+  summary: "A2 Racer II is a racing game published by Davilex Games in 1998.",
+  summaryEs: "A2 Racer II es un videojuego de carreras de 1998 desarrollado y publicado por Davilex Games para PlayStation y Windows. Es la secuela de A2 Racer.",
   notes: "Reverse engineering and C reimplementation of A2 Racer II for Linux and the browser via WebAssembly. Needs your own game data.",
   notesEs: "Ingeniería inversa y reimplementación en C de A2 Racer II para Linux y el navegador mediante WebAssembly. Necesita tus propios datos del juego.",
 };

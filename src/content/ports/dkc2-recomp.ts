@@ -19,6 +19,8 @@ export const dkc2Recomp: Port = {
   license: { spdx: "MIT" },
   verified: false,
   originalSystems: ["Super Nintendo"],
+  summary: "Donkey Kong Country 2: Diddy's Kong Quest is a 1995 platform game developed by Rare and published by Nintendo for the Super Nintendo Entertainment System (SNES). It was released on 21 November 1995 in Japan, 4 December in North America, and 14 December in Europe. It is the second installment of the Donkey Kong Country series and the sequel to Donkey Kong Country (1994). It was re-released for the Game Boy Advance (GBA) in 2004. The game was made available for download on the Virtual Console for the Wii and Wii U in 2007 and 2015, respectively.",
+  summaryEs: "Donkey Kong Country 2: Diddy's Kong Quest es un videojuego de plataformas desarrollado por Rare y publicado por Nintendo en noviembre de 1995 en Norteamérica y Japón, y en diciembre en Europa. Es la segunda entrega de la serie Donkey Kong Country y la secuela directa del juego homónimo. La trama se centra en Diddy Kong y su prometida Dixie Kong, que intentan rescatar a Donkey tras ser capturado por King K. Rool. La acción se desarrolla en la Isla Cocodrilo, compuesta por ocho mundos variados con un total de cincuenta y dos niveles.",
   notes:
     "Static recompilation of Donkey Kong Country 2 (SNES) with snesrecomp. The original repository is archived; active development moved to elliotttate/DKC2Recomp.",
   notesEs:

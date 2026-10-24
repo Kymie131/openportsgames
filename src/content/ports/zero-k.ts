@@ -7,7 +7,7 @@ export const ZeroK: Port = {
   game: "Zero-K",
   developers: ["ZeroK-RTS"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2018,
   portType: "source-port",
   genre: "strategy",
   openSource: true,
@@ -25,6 +25,8 @@ export const ZeroK: Port = {
     alt: "Zero-K (cover)",
     credit: "Wikipedia",
   },
+  summary: "Zero-K is a free multi-platform open source real-time strategy video game. Initially based on content from Total Annihilation on the open source Spring Engine, it was forked and all proprietary content replaced, and evolved into a completely new game with unique features. Among the games powered by the Spring Engine, Zero-K makes extensive use of Lua scripting for interface and gameplay changes/enhancements, as well as unique real-time strategy concepts such as a flat technology tree.",
+  summaryEs: "Zero-K es un videojuego de estrategia en 2018.",
   notes: "Open source RTS game running on the Spring/Recoil engine.",
   notesEs: "Juego RTS de código abierto sobre el motor Spring/Recoil.",
 };

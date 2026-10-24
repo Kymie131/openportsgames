@@ -21,6 +21,8 @@ export const chanseyisthebestSa2Nx: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo GameCube"],
+  summary: "Sonic Adventure 2: Battle is a platform game in 2002.",
+  summaryEs: "Sonic Adventure 2: Battle es un videojuego producido por Sonic Team y distribuido por Sega para la videoconsola GameCube y como expansión para Sonic Adventure 2 en Steam. El título es una reedición original del videojuego Sonic Adventure 2 de la videoconsola Dreamcast. Fue lanzado al mercado el 10 de diciembre de 2001 en Japón, el 12 de febrero de 2002 en Estados Unidos y el 3 de mayo de 2002 en Europa.",
   notes: "Sonic Adventure 2: Battle: static recompilation by ChanseyIsTheBest for Windows. Bring your own copy of the game.",
   notesEs: "Sonic Adventure 2: Battle: recompilación estática de ChanseyIsTheBest para Windows. Aporta tu propia copia del juego.",
 };

@@ -6,7 +6,7 @@ export const KazeNoNotam: Port = {
   title: "Kaze no Notam",
   game: "Kaze no Notam",
   developers: ["aaaaaaaaaaway"],
-  publisher: "Unknown",
+  publisher: "Artdink",
   originalYear: 1997,
   portType: "decompilation",
   genre: "action-adventure",
@@ -20,6 +20,8 @@ export const KazeNoNotam: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  summary: "Kaze no Notam is a action-adventure game published by Artdink in 1997.",
+  summaryEs: "Kaze no Notam es un videojuego de acción y aventura publicado por Artdink en 1997.",
   notes:
     "100% matching decompilation of Kaze no Notam (PS1, 1997). All 648 functions in C, byte-identical rebuild.",
   notesEs:

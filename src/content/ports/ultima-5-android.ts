@@ -21,6 +21,8 @@ export const ultima5Android: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["MS-DOS"],
+  summary: "Ultima V: Warriors of Destiny is the fifth entry in the role-playing video game series Ultima released in March 1988. It is the second in the \"Age of Enlightenment\" trilogy. The game's story takes a darker turn from its predecessor Ultima IV. Britannia's king Lord British is missing, replaced by a tyrant named Lord Blackthorn. The player must navigate a totalitarian world bent on enforcing its virtues through draconian means.",
+  summaryEs: "Ultima V: Warriors of Destiny (1988) es La Quinta Parte de la serie Ultima de juegos de rol.",
   notes: "Modernized Ultima V engine with an Android build, adding a touch-friendly interface on top of the original DOS role-playing game.",
   notesEs: "Motor modernizado de Ultima V con build para Android, que añade una interfaz táctil sobre el juego de rol original de DOS.",
 };

@@ -19,6 +19,8 @@ export const gtaIvLibertyRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Xbox 360"],
+  summary: "Grand Theft Auto IV is a 2008 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the sixth main entry in the Grand Theft Auto series, following 2004's Grand Theft Auto: San Andreas, and the eleventh entry overall. Set in the fictional Liberty City, based on New York City, the single-player story follows Eastern European war veteran Niko Bellic and his attempts to escape his past while under pressure from high-profile criminals.",
+  summaryEs: "Grand Theft Auto IV es un videojuego de acción-aventura de mundo abierto de disparos en tercera persona desarrollado por Rockstar North y distribuido por Rockstar Games. Es la sexta entrada principal de la serie Grand Theft Auto, después de Grand Theft Auto: Vice City Stories de 2006, y la undécima entrega en general. Ambientada en la ficticia Liberty City, basada en la ciudad de Nueva York, la historia para un jugador sigue al veterano de guerra de Europa del Este Niko Bellic, y sus intentos de escapar de su pasado mientras se encuentra bajo la presión de criminales de alto perfil.",
   notes:
     "Recompilation of the Xbox 360 Grand Theft Auto IV with a ReXGlue SDK fork, in early development. It targets Windows, Linux, macOS and Android (plus iOS and Switch) to bring the game to platforms it never reached.",
   notesEs:

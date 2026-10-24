@@ -20,6 +20,8 @@ export const warioland4: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy Advance"],
+  summary: "Wario Land 4 is a 2001 platform game developed by Nintendo R&D1 and published by Nintendo for the Game Boy Advance. It is the fourth installment in the Wario Land subseries of the Wario series. It was released in Japan in August 2001 and November 2001 internationally. In the game, Wario has to gather four treasures to unlock a pyramid and save Princess Shokora from the Golden Diva. The game received acclaim for its graphics and gameplay.",
+  summaryEs: "Wario Land 4 es un videojuego de plataformas de Wario desarrollado por Nintendo R&D1 para Game Boy Advance. Llegó al mercado en agosto de 2001 en Japón, en octubre de 2001 en Estados Unidos y en noviembre del mismo año en Europa. Más tarde, en 2004, también llegó al mercado en China.",
   notes:
     "Clean-room decompilation of Wario Land 4 for the Game Boy Advance. A research codebase; it requires game files from a copy you own.",
   notesEs:

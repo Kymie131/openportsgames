@@ -19,6 +19,8 @@ export const parasiteEveRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Parasite Eve is a 1998 role-playing video game developed and published by Square. The game is a sequel to the novel Parasite Eve, written by Hideaki Sena; it is the first game in the Parasite Eve video game series. The story follows New York City police officer Aya Brea over a six-day span in 1997 as she attempts to stop Eve, a woman who plans to destroy the human race through spontaneous human combustion. Players explore levels set in areas of New York while utilizing a pausable real-time combat system along with several role-playing elements.",
+  summaryEs: "Parasite Eve es un videojuego de terror de estrategia y acción, con algunos toques de videojuego de rol. Fue desarrollado por la empresa Squaresoft basándose en el libro homónimo de Hideaki Sena. Su banda sonora está compuesta por Yōko Shimomura.",
   notes:
     "Recompilation of Parasite Eve (PS1, USA SLUS-00662 / SLUS-00668) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

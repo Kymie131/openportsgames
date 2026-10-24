@@ -26,6 +26,8 @@ export const wetRecompWindows: Port = {
     alt: "WET (box art)",
     credit: "Wikipedia",
   },
+  summary: "Wet is a 2009 third-person shooter action game, developed by Artificial Mind & Movement and published by Bethesda Softworks for the PlayStation 3 and Xbox 360. A PlayStation Portable version was planned, but ultimately cancelled.",
+  summaryEs: "WET es un videojuego de acción y disparos en tercera persona programado por la empresa Artificial Mind and Movement y publicado por Bethesda Softworks para las consolas PlayStation 3 y Xbox 360. Fue puesto a la venta en América del Norte el 15 de septiembre de 2009 y en Europa el 18 de septiembre de 2009. Una versión para Japón salió al mercado el 17 de septiembre de 2009.",
   notes: "Fan PC port of WET (Xbox 360, 2009) using ReXGlue. Does not include game files. Latest release: v0.6.0.",
   notesEs: "Port de PC hecho por fans de WET (Xbox 360, 2009) usando ReXGlue. No incluye archivos del juego. Última release: v0.6.0.",
 };

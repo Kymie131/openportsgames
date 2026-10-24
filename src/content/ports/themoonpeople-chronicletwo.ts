@@ -22,6 +22,8 @@ export const themoonpeopleChronicletwo: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation 2"],
+  summary: "Dark Chronicle, released as Dark Cloud 2 in North America, is a 2002 action role-playing game developed by Level-5 and published by Sony Computer Entertainment for the PlayStation 2 (PS2). It was released in Japan before releasing in English in 2003. An emulated version of the game was released for the PlayStation 4 through the PlayStation Network in 2016.",
+  summaryEs: "Dark Chronicle es un videojuego desarrollado por Level-5 en el año 2002 para PlayStation 2 que cuenta la historia de Max y Mónica, dos chicos con la habilidad de viajar en el tiempo. Su género es el RPG. El compositor principal, quien crea si no toda, la mayor parte de la banda sonora de este videojuego es el compositor japonés Tomohito Nishiura,el cual, en la fecha de creación del videojuego es el compositor principal de la empresa desarrolladora del juego, Level 5",
   notes: "Dark Chronicle: decompilation by TheMoonPeople for Windows. Bring your own copy of the game.",
   notesEs: "Dark Chronicle: decompilación de TheMoonPeople para Windows. Aporta tu propia copia del juego.",
 };

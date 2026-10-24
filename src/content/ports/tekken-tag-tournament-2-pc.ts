@@ -25,6 +25,8 @@ export const tekkenTagTournament2Pc: Port = {
     alt: "Tekken Tag Tournament 2 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Tekken Tag Tournament 2 is a 2011 fighting game, the eighth installment in the Tekken fighting game series and the sequel to Tekken Tag Tournament. It was released for the arcades in September 2011. It received an update, subtitled Unlimited, in March 2012. A console version based on the update was released for PlayStation 3 and Xbox 360 in September 2012. It was ported to the Wii U as one of the system's launch titles in November 2012, subtitled Wii U Edition.",
+  summaryEs: "Tekken Tag Tournament 2 (鉄拳タッグトーナメント2) es un videojuego de lucha de la saga Tekken, ya lanzada en arcades y para consolas. Es la esperada secuela del primer Tekken Tag Tournament, lanzado originalmente en 1999. Tekken Tag Tournament 2 fue anunciado en el Tokyo Game Show de 2010 y fue lanzada en verano de 2011 en su versión arcade en Japón. Más tarde, en marzo de 2012 salió en arcades una actualización del juego renombrado como Tekken Unlimited.",
   notes: "Tekken Tag Tournament 2 (Bandai Namco, 2011) running on Windows through static recompilation. Latest release: v0.1.6. You need your own copy of the game.",
   notesEs: "Tekken Tag Tournament 2 (Bandai Namco, 2011) en Windows mediante recompilación estática. Última release: v0.1.6. Necesitas tu propia copia del juego.",
 };

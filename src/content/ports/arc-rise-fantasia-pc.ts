@@ -25,6 +25,8 @@ export const arcRiseFantasiaPc: Port = {
     alt: "Arc Rise Fantasia (box art)",
     credit: "Wikipedia",
   },
+  summary: "Arc Rise Fantasia is a 2009 role-playing video game (RPG) co-developed by Imageepoch and Marvelous Entertainment for the Wii. It was published in Japan by Marvelous Entertainment in 2009 and in North America by Ignition Entertainment in 2010. A planned European release through Rising Star Games was cancelled. Set in a fantasy world split between hostile factions beset by attacks from destructive Feldragons, the story follows mercenary L'Arc Bright Lagoon after he is saved by the priestess Ryfia and chosen as a Child of Easa, a figure who can remake the world.",
+  summaryEs: "Arc Rise Fantasia es un videojuego de rol publicado por UTV Ignition Games en 2009.",
   notes: "Arc Rise Fantasia (Marvelous Entertainment, 2009) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Arc Rise Fantasia (Marvelous Entertainment, 2009) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

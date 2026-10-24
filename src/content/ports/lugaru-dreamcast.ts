@@ -20,6 +20,8 @@ export const lugaruDreamcast: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  summary: "Lugaru: The Rabbit's Foot is the first commercial video game created by indie developer Wolfire Games. It is a cross-platform, open-source 3D action game. The player character is an anthropomorphic rabbit utilizing a wide variety of combat techniques to battle wolves and hostile rabbits. The name Lugaru is a phonetic spelling of \"loup-garou\", which is French for werewolf. It was well reviewed and was fairly well received among the shareware community, especially among Mac users. A sequel, Overgrowth, was released in 2017.",
+  summaryEs: "Lugaru es el primer videojuego comercial creado por el desarrollador independiente Wolfire Games. Es un juego de acción 3D de código abierto y multiplataforma. El personaje del jugador es un conejo antropomórfico que utiliza una gran variedad de técnicas de combate para luchar contra lobos y conejos hostiles. El nombre «Lugaru» es una escritura fonética de «loup-garou», que en francés significa hombre lobo. Obtuvo buenas críticas y fue bien recibido entre la comunidad de shareware, especialmente entre los usuarios de Mac. Una secuela, Overgrowth, fue lanzada en 2017.",
   notes: "Lugaru (Wolfire Games, 2005) running on dreamcast through source port. You need your own copy of the game.",
   notesEs: "Lugaru (Wolfire Games, 2005) en dreamcast mediante port de código. Necesitas tu propia copia del juego.",
 };

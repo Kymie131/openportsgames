@@ -7,7 +7,7 @@ export const nbloodRedneckRampageRe: Port = {
   game: "Redneck Rampage",
   developers: ["NBlood"],
   publisher: "Interplay",
-  originalYear: 2017,
+  originalYear: 1997,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -22,6 +22,8 @@ export const nbloodRedneckRampageRe: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Redneck Rampage is a 1997 first-person shooter game developed by Xatrix Entertainment and published by Interplay. The game has a hillbilly theme, primarily taking place in a fictional Arkansas town. Many of the weapons and power-ups border on the nonsensical, and in some ways the game is a parody of both first-person shooter games and rural American life. It features music by psychobilly and cowpunk artists such as The Beat Farmers and Mojo Nixon.",
+  summaryEs: "Redneck Rampage es un videojuego de ordenador de disparos en primera persona desarrollado por Xatrix Entertainment y publicado por Interplay en el año 1997. Fue lanzado para las plataformas DOS y Mac OS, y usa una versión modificada del motor Build Engine usado en Duke Nukem 3D.",
   notes: "Redneck Rampage: decompilation by NBlood for Windows. Bring your own copy of the game.",
   notesEs: "Redneck Rampage: decompilación de NBlood para Windows. Aporta tu propia copia del juego.",
 };

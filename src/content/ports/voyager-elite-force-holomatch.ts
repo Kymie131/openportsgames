@@ -19,6 +19,8 @@ export const voyagerEliteForceHolomatch: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   originalSystems: ["Windows"],
+  summary: "Star Trek: Voyager – Elite Force is a first-person shooter video game developed by Raven Software and published by Activision. The game was originally released on September 15, 2000 for Windows and Mac OS. A port for Mac OS developed by Westlake Interactive and published by Aspyr Media was released on November 20, 2002. Elite Force was ported to the PlayStation 2 by Pipe Dream Interactive and published by Majesco on December 11, 2001.",
+  summaryEs: "Star Trek: Voyager - Elite Force es un videojuego de disparos en 2000.",
   notes:
     "Android port of the Holomatch multiplayer of Star Trek: Voyager - Elite Force, with Vulkan, touch controls and gamepad support. It needs the original game files.",
   notesEs:

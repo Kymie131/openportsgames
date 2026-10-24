@@ -20,6 +20,8 @@ export const dragonBallGtFinalBoutRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  summary: "Dragon Ball GT: Final Bout, known in Japan and Europe as Dragon Ball: Final Bout , is a fighting game for the PlayStation. The game was developed by TOSE and released by Bandai in Japan, Europe and North America in 1997, making it the first North American release for a Dragon Ball video game.",
+  summaryEs: "Dragon Ball Final Bout, conocido en América del Norte como Dragon Ball GT: Final Bout, es un videojuego del género de lucha en 3D, basado en el universo de Dragon Ball, para PlayStation en 1997. Es el primer juego de Dragon Ball que tiene gráficos completamente poligonales. Los personajes que aparecen abarcan el final de Dragon Ball Z y Dragon Ball GT. Fue el último juego de Dragon Ball para PlayStation, y también fue el primer juego en aparecer en Norteamérica con la licencia Dragon Ball.",
   notes:
     "Static recompilation of Dragon Ball GT: Final Bout (PlayStation, SLUS-00493) for Windows, with widescreen, Vulkan and LAN/direct-IP netplay. Bring your own disc.",
   notesEs:

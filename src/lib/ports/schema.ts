@@ -115,6 +115,9 @@ const normalPort = z.object({
   /** Work in progress: the project is still being decompiled/built and there is no playable release yet. */
   wip: z.boolean().optional(),
   noOriginalGameRequired: z.boolean().optional(),
+  /** Bilingual synopsis of the original game (not the port), from Wikidata/Wikipedia. */
+  summary: z.string().max(600).optional(),
+  summaryEs: z.string().max(600).optional(),
   notes: z.string().max(1000).optional(),
   notesEs: z.string().max(1000).optional(),
   originalSystems: z.array(z.string().min(2).max(80)).optional(),
@@ -259,6 +262,8 @@ export type Port = {
   /** Work in progress: still being decompiled/built, no playable download yet. */
   wip?: boolean;
   noOriginalGameRequired?: boolean;
+  summary?: string;
+  summaryEs?: string;
   notes?: string;
   notesEs?: string;
   originalSystems?: string[];

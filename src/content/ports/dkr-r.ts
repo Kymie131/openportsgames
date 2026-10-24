@@ -36,6 +36,8 @@ export const dkrR: Port = {
     "Controles de Rumble Pak y Memory Pak mediante opciones del lanzador",
     "Backend de audio/entrada SDL3 con respaldo automático",
   ],
+  summary: "Diddy Kong Racing is a 1997 kart racing game developed and published by Rare for the Nintendo 64. The game revolves around Diddy Kong and his friends' attempt to defeat the intergalactic antagonist, a wizard pig named Wizpig, through winning a series of races. The player takes control of any of the featured characters throughout the game. Diddy Kong Racing features five worlds with four racetracks each, and the ability to drive a car, hovercraft, or pilot an aeroplane.",
+  summaryEs: "Diddy Kong Racing es un videojuego de carreras para Nintendo 64 desarrollado por Rare. Fue lanzado al mercado en noviembre de 1997. Se vendieron 800.000 copias en las 2 semanas anteriores a la Navidad de 1997, convirtiéndose así en juego más rápidamente vendido por aquel entonces según el Libro Guinness de los récords.",
   notes:
     "Native port of Diddy Kong Racing created through static recompilation of the Nintendo 64 binary, with releases for Windows, Linux and macOS (the macOS build is a community fork linked from each release). Requires the game dump from a cartridge or ROM you own. Version 1.0.4 is the latest tagged release.",
   notesEs:

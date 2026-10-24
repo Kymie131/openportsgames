@@ -7,7 +7,7 @@ export const jonathandc64Demonssoulsrecomp: Port = {
   game: "Demon's Souls",
   developers: ["JonathanDC64"],
   publisher: "Sony Interactive Entertainment",
-  originalYear: 2020,
+  originalYear: 2009,
   portType: "recompilation",
   genre: "action-adventure",
   openSource: true,
@@ -26,6 +26,8 @@ export const jonathandc64Demonssoulsrecomp: Port = {
     alt: "Demon's Souls (box art)",
     credit: "Wikipedia",
   },
+  summary: "Demon's Souls is a 2009 action role-playing game developed by FromSoftware and published by Sony Computer Entertainment for the PlayStation 3. It was released in Japan in February 2009, in North America by Atlus in October 2009, and in PAL territories by Namco Bandai Partners in June 2010. The game is referred to as a spiritual successor to FromSoftware's King's Field series.",
+  summaryEs: "Demon's Souls es un videojuego de rol de acción en tercera persona desarrollado por la compañía de videojuegos japonesa FromSoftware exclusivamente para la consola PlayStation 3 bajo la supervisión de Japan Studio. Fue distribuido en Japón por Sony Computer Entertainment en febrero de 2009, en Norteamérica por Atlus USA en octubre de 2009 y en Europa por Bandai Namco Games en junio de 2010. El juego es comúnmente descrito como un sucesor espiritual de King's Field, una serie RPG creada también por FromSoftware.",
   notes: "Demon's Souls: static recompilation by JonathanDC64 for Windows. Bring your own copy of the game.",
   notesEs: "Demon's Souls: recompilación estática de JonathanDC64 para Windows. Aporta tu propia copia del juego.",
 };

@@ -21,6 +21,8 @@ export const princeOfPersiaSandsOfTimeAndroid: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["Xbox"],
+  summary: "Prince of Persia: The Sands of Time is a action-adventure game in 2003.",
+  summaryEs: "Prince of Persia: The Sands of Time es un videojuego de acción y aventura en 2003.",
   notes: "Static recompilation of the original Xbox Prince of Persia trilogy for Android and PC, starting with The Sands of Time. Bring your own disc.",
   notesEs: "Recompilación estática de la trilogía original de Prince of Persia de Xbox para Android y PC, empezando por The Sands of Time. Aporta tu propio disco.",
 };

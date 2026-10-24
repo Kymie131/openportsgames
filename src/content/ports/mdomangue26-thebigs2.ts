@@ -21,6 +21,8 @@ export const mdomangue26Thebigs2: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  summary: "The Bigs 2 is a baseball sports video game developed by Blue Castle Games and published by 2K for the Xbox 360, PlayStation 3, PlayStation 2, Wii, and PlayStation Portable. The game serves as the direct sequel to The Bigs. The first trailer for the game revealed players like Ozzie Smith, Wade Boggs, Roberto Clemente, and Reggie Jackson and a number of other Hall of Famers. Milwaukee Brewers All-Star first baseman Prince Fielder is the cover athlete chosen by 2K Sports.",
+  summaryEs: "The Bigs 2 es un videojuego de deportes publicado por 2K Sports en 2009.",
   notes: "The Bigs 2: static recompilation by mdomangue26 for Windows. Bring your own copy of the game.",
   notesEs: "The Bigs 2: recompilación estática de mdomangue26 para Windows. Aporta tu propia copia del juego.",
 };

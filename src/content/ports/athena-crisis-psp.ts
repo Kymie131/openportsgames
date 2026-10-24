@@ -25,6 +25,8 @@ export const athenaCrisisPsp: Port = {
     alt: "Athena Crisis (cover art)",
     credit: "Steam",
   },
+  summary: "Athena Crisis is a strategy game in 2024.",
+  summaryEs: "Athena Crisis es un videojuego de estrategia en 2024.",
   notes: "Athena Crisis (Nakama Game Studio, 2024) running on PlayStation Portable through source port. You need your own copy of the game.",
   notesEs: "Athena Crisis (Nakama Game Studio, 2024) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
 };

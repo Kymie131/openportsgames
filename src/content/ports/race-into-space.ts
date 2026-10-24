@@ -20,6 +20,8 @@ export const RaceIntoSpace: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Race into Space is a action-adventure game.",
+  summaryEs: "Race into Space es un videojuego de acción y aventura.",
   notes:
     "This is the GitHub home of Race Into Space, the computer version of the Liftoff! board game by Fritz Bronner. It was developed by Strategic Visions and published by Interplay as a disk-based game in 1993 and a CD-ROM in 1994. It was open-sourced in 2005 and a number of improvements have been made over the original.",
   notesEs:

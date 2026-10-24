@@ -20,6 +20,8 @@ export const BeybladeVforceUltimateBladerJam: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy Advance"],
+  summary: "Beyblade VForce: Ultimate Blader Jam is a action-adventure game.",
+  summaryEs: "Beyblade VForce: Ultimate Blader Jam es un videojuego de acción y aventura.",
   notes: "Decompilation of Beyblade VForce: Ultimate Blader Jam (Game Boy Advance).",
   notesEs: "Decompilación de Beyblade VForce: Ultimate Blader Jam (Game Boy Advance).",
 };

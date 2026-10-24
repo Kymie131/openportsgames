@@ -26,6 +26,8 @@ export const steinsGateRecomp: Port = {
     alt: "Steins;Gate (box art)",
     credit: "Wikipedia",
   },
+  summary: "Developed by 5pb. and Nitroplus, STEINS;GATE was awarded Famitsu magazine's coveted annual Game of Excellence award and was voted one of the most emotionally charged “tear-inducing games” ever made, in a Famitsu poll. It is a gripping and moving Visual Novel, which has already spawned manga and anime adaptations.",
+  summaryEs: "Steins;Gate es un videojuego de acción y aventura publicado por Spike Chunsoft Co., Ltd. en 2016.",
   notes: "Steins;Gate Xbox 360 recompilation for PC using ReXGlue, a follow-up to project-eleven sharing the same codebase. Latest tag: windows.",
   notesEs: "Recompilación para PC de Steins;Gate de Xbox 360 usando ReXGlue, continuación de project-eleven con el mismo código base. Último tag: windows.",
 };

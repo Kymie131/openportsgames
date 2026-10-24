@@ -21,6 +21,8 @@ export const roborunNes: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Robo Run - This is an adventure game on the speed of reaction.",
+  summaryEs: "RoboRun es un videojuego de plataformas publicado por cBlck en 2019.",
   notes: "RoboRun (Homebrew, 2021) running on nes through source port. Latest release: 1.1. You need your own copy of the game.",
   notesEs: "RoboRun (Homebrew, 2021) en nes mediante port de código. Última release: 1.1. Necesitas tu propia copia del juego.",
 };

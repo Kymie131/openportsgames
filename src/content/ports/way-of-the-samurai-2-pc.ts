@@ -25,6 +25,8 @@ export const wayOfTheSamurai2Pc: Port = {
     alt: "Way of the Samurai 2 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Way of the Samurai 2 is a PlayStation 2 (PS2) action-adventure game released in 2003. It was re-released on PlayStation Portable in 2009 in Japan.",
+  summaryEs: "Way of the Samurai 2 es un videojuego de acción y aventura publicado por Spike en 2003.",
   notes: "Way of the Samurai 2 (Acquire, 2003) running on Linux through decompilation. Latest release: v0.3.10. You need your own copy of the game.",
   notesEs: "Way of the Samurai 2 (Acquire, 2003) en Linux mediante decompilación. Última release: v0.3.10. Necesitas tu propia copia del juego.",
 };

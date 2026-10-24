@@ -19,6 +19,8 @@ export const tonyHawkSProSkaterRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Tony Hawk's Pro Skater, released as Tony Hawk's Skateboarding in the United Kingdom, Australia, New Zealand, and parts of Europe, is a 1999 skateboarding video game developed by Neversoft and published by Activision. It is the first installment in the Tony Hawk's series. It was released for the PlayStation on September 29, 1999 and was later ported to the Nintendo 64, Game Boy Color, Dreamcast, and N-Gage.",
+  summaryEs: "Tony Hawk's Pro Skater, distribuido como Tony Hawk's Skateboarding en el Reino Unido, Australia, Nueva Zelanda y partes de Europa, es un videojuego de skateboarding desarrollado por Neversoft y publicado por Activision. Su lanzamiento original tuvo lugar en la consola PlayStation el 29 de septiembre de 1999, aunque su éxito comercial propició adaptaciones posteriores para Nintendo 64, Game Boy Color, Dreamcast e incluso la plataforma portátil N-Gage.",
   notes:
     "Recompilation of Tony Hawk's Pro Skater (PS1, USA SLUS-00860) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

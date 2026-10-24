@@ -25,6 +25,8 @@ export const eaSportsUfc3Pc: Port = {
     alt: "EA Sports UFC 3 (box art)",
     credit: "Wikipedia",
   },
+  summary: "EA Sports UFC 3 is a mixed martial arts fighting video game developed by EA Canada and published by EA Sports. \"The Notorious\" Conor McGregor, one of the previous cover fighters of EA Sports UFC 2, returned as the official cover fighter of the game. Serving as the sequel to 2014's EA Sports UFC and 2016's EA Sports UFC 2, it was released on February 2, 2018, for PlayStation 4 and Xbox One. A sequel, EA Sports UFC 4, was released on August 14, 2020.",
+  summaryEs: "EA Sports UFC 3 es un videojuego de artes marciales mixtas desarrollado por EA Canada y distribuido por EA Sports para PlayStation 4 y Xbox One. Se basa en la marca Ultimate Fighting Championship (UFC) y fue lanzado el 2 de febrero de 2018 a nivel mundial.",
   notes: "EA Sports UFC 3 (EA Vancouver, 2018) running on Windows through runtime layer. Latest release: ufc3-v0.1.6. You need your own copy of the game.",
   notesEs: "EA Sports UFC 3 (EA Vancouver, 2018) en Windows mediante capa de ejecución. Última release: ufc3-v0.1.6. Necesitas tu propia copia del juego.",
 };

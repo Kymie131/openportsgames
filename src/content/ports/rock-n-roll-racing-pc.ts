@@ -25,6 +25,8 @@ export const rockNRollRacingPc: Port = {
     alt: "Rock n' Roll Racing (box art)",
     credit: "Wikipedia",
   },
+  summary: "Rock n' Roll Racing is a vehicular combat-based racing video game developed by Silicon & Synapse and published by Interplay Productions for the Super Nintendo Entertainment System in 1993 and the Mega Drive/Genesis in 1994. The game prominently features a number of popular heavy metal and rock songs in its soundtrack, hence the game's title. After Silicon & Synapse rebranded into Blizzard Entertainment, a port to the Game Boy Advance was released in 2003.",
+  summaryEs: "Rock N' Roll Racing es un videojuego de carreras con combate lanzado en 1993 para Mega Drive y para SNES. Fue publicado por Interplay y desarrollado por Silicon & Synapse. Se hizo un remake para GBA en 2003.",
   notes: "Rock n' Roll Racing (Interplay Entertainment, 1993) running on Windows through static recompilation. Latest release: v1.0.0. You need your own copy of the game.",
   notesEs: "Rock n' Roll Racing (Interplay Entertainment, 1993) en Windows mediante recompilación estática. Última release: v1.0.0. Necesitas tu propia copia del juego.",
 };

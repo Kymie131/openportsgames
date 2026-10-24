@@ -25,6 +25,8 @@ export const seriousSamNextEncounterPc: Port = {
     alt: "Serious Sam: Next Encounter (box art)",
     credit: "Wikipedia",
   },
+  summary: "Serious Sam: Next Encounter is a 2004 first-person shooter game developed by Climax Solent and published by Global Star Software. As a spin-off in the Serious Sam series, it follows Sam \"Serious\" Stone, who tracks an unidentified enemy through ancient Rome, feudal China and Atlantis, and eliminates the forces the enemy controls to eventually uncover their identity. The player controls Sam through enclosed levels, fighting waves of enemies with an assortment of weapons and, occasionally, vehicles.",
+  summaryEs: "Serious Sam: Next Encounter es un videojuego de disparos publicado por 2K Play en 2004.",
   notes: "Serious Sam: Next Encounter (Global Star Software, 2004) running on Windows through static recompilation. Latest release: update. You need your own copy of the game.",
   notesEs: "Serious Sam: Next Encounter (Global Star Software, 2004) en Windows mediante recompilación estática. Última release: update. Necesitas tu propia copia del juego.",
 };

@@ -19,6 +19,8 @@ export const wildArmsRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Wild Arms is a role-playing video game developed by Media.Vision and published by Sony Computer Entertainment for the PlayStation. The game was released in Japan in 1996, in North America in 1997, and in Europe in 1998. It utilizes 2D computer graphics for navigating the world and setting, while battle sequences are rendered in 3D.",
+  summaryEs: "Wild Arms Es un videojuego de rol con una temática Wéstern desarrollado por la compañía Japonesa Media.Vision. Originalmente lanzado en Japón en 1996 para la consola PlayStation, más tarde fue traducido y lanzado en América del Norte en 1997 y en Europa en 1998 por Sony Computer Entertainment. Es notable no solo por ser uno de los primeros videojuegos de rol para la PlayStation, sino también por ser uno de pocos para ambientados en el Viejo Oeste. El juego presenta gráficas en 2D para las secuencias normales, mientras que las secuencias de batalla son mostradas en 3D.",
   notes:
     "Recompilation of Wild Arms (PS1, USA SCUS-94608) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

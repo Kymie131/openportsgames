@@ -25,6 +25,8 @@ export const wweSmackdownVsRaw2010Pc: Port = {
     alt: "WWE SmackDown vs. Raw 2010 (box art)",
     credit: "Wikipedia",
   },
+  summary: "WWE SmackDown vs. Raw 2010 is a professional wrestling video game developed by Yuke's and published by THQ for the PlayStation 2, PlayStation 3, PlayStation Portable, Wii, Nintendo DS, Xbox 360, and iOS. It was released worldwide in October 2009, with the PS3 and Xbox 360 versions for Japan in January 2010. TOSE oversaw the development for the Nintendo DS version, which was the last installment to be released for the handheld. 2010 was also the first installment to be released as an iPhone app, launching on App Store on December 23 the same year.",
+  summaryEs: "WWE SmackDown vs. Raw 2010 es un videojuego de lucha libre profesional desarrollado por Yuke's y distribuido por THQ para los sistemas PlayStation 2 (PS2), PlayStation 3 (PS3), PlayStation Portable (PSP), Wii, Nintendo DS y Xbox 360. Es el undécimo videojuego de la serie WWE SmackDown vs. Raw y es la secuela de su predecesor WWE SmackDown vs. Raw 2009 y fue sucedido por WWE SmackDown vs. Raw 2011. Fue lanzado el 20 de octubre de 2009 en América del Norte, el 22 de octubre de 2009 en Australia y el 23 de octubre de 2009 en Europa.",
   notes: "WWE SmackDown vs. Raw 2010 (THQ, 2009) running on Windows and Linux through static recompilation. Latest release: v0.6.8. You need your own copy of the game.",
   notesEs: "WWE SmackDown vs. Raw 2010 (THQ, 2009) en Windows and Linux mediante recompilación estática. Última release: v0.6.8. Necesitas tu propia copia del juego.",
 };

@@ -25,6 +25,8 @@ export const woodyWoodpeckerPsp: Port = {
     alt: "Woody Woodpecker: Escape from Buzz Buzzard Park (box art)",
     credit: "Wikipedia",
   },
+  summary: "Woody Woodpecker: Escape from Buzz Buzzard Park is a set of two video games based on the animated series The New Woody Woodpecker Show. One is for PlayStation 2 and Windows, and the other is for the Game Boy Color.",
+  summaryEs: "Woody Woodpecker: Escape from Buzz Buzzard Park es un videojuego de plataformas publicado para PlayStation 2, Windows y Game Boy Color en 2001 por DreamCatcher Interactive. El juego se basó en la serie animada El nuevo show del Pájaro Loco.",
   notes: "Woody Woodpecker: Escape from Buzz Buzzard Park (Cryo Interactive, 2002) running on PlayStation Portable through source port. You need your own copy of the game.",
   notesEs: "Woody Woodpecker: Escape from Buzz Buzzard Park (Cryo Interactive, 2002) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
 };

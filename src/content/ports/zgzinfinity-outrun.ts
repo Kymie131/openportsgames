@@ -21,6 +21,8 @@ export const zgzinfinityOutrun: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "OutRun is a racing game in 2024.",
+  summaryEs: "OutRun es un videojuego de carreras en 2024.",
   notes: "OutRun: engine remake by ZgzInfinity for Windows. Bring your own copy of the game.",
   notesEs: "OutRun: recreación de motor de ZgzInfinity para Windows. Aporta tu propia copia del juego.",
 };

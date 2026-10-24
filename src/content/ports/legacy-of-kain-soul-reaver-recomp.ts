@@ -19,6 +19,8 @@ export const legacyOfKainSoulReaverRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Legacy of Kain: Soul Reaver is a 1999 action-adventure video game developed by Crystal Dynamics and published by Eidos Interactive for the PlayStation and Windows. A port to the Dreamcast developed by Nixxes Software was released in 2000, serving as Nixxes' first project. The second game in the Legacy of Kain series, Soul Reaver is the sequel to Blood Omen: Legacy of Kain. Soul Reaver was followed by three games, one of which, Soul Reaver 2, is a direct sequel.",
+  summaryEs: "Legacy of Kain: Soul Reaver es un videojuego de acción-aventura desarrollado por Crystal Dynamics y publicado por Eidos Interactive. Fue publicado para la consola PlayStation, para el sistema operativo Microsoft Windows en 1999 y para Dreamcast en 2000. Soul Reaver es el segundo juego de la serie Legacy of Kain así como la secuela de Blood Omen: Legacy of Kain. Hay tres juegos más en la serie, de los cuales Legacy of Kain: Soul Reaver 2 es una secuela directa.",
   notes:
     "Recompilation of Legacy of Kain: Soul Reaver (PS1, Europe SLES-01301) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

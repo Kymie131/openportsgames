@@ -21,6 +21,8 @@ export const tenchuZRecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  summary: "Tenchu Z is an action-adventure stealth video game developed by Kei-Two and published by FromSoftware in Japan and Microsoft Game Studios worldwide for the Xbox 360 in 2006.",
+  summaryEs: "Tenchu Z es un videojuego de acción y aventura publicado por FromSoftware en 2006.",
   notes: "Work-in-progress HoloCatt static recompilation of Tenchu Z (Xbox 360) for Windows. Bring your own disc image.",
   notesEs: "Recompilación estática HoloCatt en curso de Tenchu Z (Xbox 360) para Windows. Aporta tu propia imagen del disco.",
 };

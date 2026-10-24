@@ -19,6 +19,8 @@ export const starboundAndroid: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Windows"],
+  summary: "You’ve fled your home, only to find yourself lost in space with a damaged ship. Your only option is to beam down to the planet below, repair your ship and set off to explore the universe...",
+  summaryEs: "Starbound es un videojuego de acción y aventura publicado por Chucklefish en 2016.",
   notes:
     "OpenStarbound port to mobile devices, bringing the Starbound sandbox to Android. It needs the game itself.",
   notesEs:

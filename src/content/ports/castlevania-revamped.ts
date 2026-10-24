@@ -19,6 +19,8 @@ export const castlevaniaRevamped: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Nintendo Entertainment System"],
+  summary: "Castlevania, also informally referred to as Castlevania 64, is a 1999 action-adventure game developed and published by Konami for the Nintendo 64. An expanded version of the game, Castlevania: Legacy of Darkness, was released later in the same year.",
+  summaryEs: "Castlevania, conocido como Castlevania 64, es un videojuego de 1999 publicado para Nintendo 64. Es el primer videojuego 3D de la serie Castlevania, y el primero que salió en el Nintendo 64. Fue desarrollado por KCEK.",
   notes:
     "Android reimplementation of the original Castlevania, distributed as an open-source build. It uses the game's original assets from your own copy.",
   notesEs:

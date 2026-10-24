@@ -19,6 +19,8 @@ export const godOfThunderAndroid: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["MS-DOS"],
+  summary: "God of Thunder is a puzzle video game for MS-DOS created by Ron Davis and published by Software Creations in 1993. It was released as shareware, then became freeware circa-2002. The plot and characters are based on Norse mythology with tongue-in-cheek humor.",
+  summaryEs: "God of Thunder es un videojuego de acción y aventura publicado por Software Creations en 1993.",
   notes:
     "Source port of the 1993 DOS game God of Thunder for Android, with extra quality-of-life features. It needs the original game files, whose license is free.",
   notesEs:

@@ -25,6 +25,8 @@ export const ecstaticaRecompiled: Port = {
     alt: "Ecstatica (box art)",
     credit: "Wikipedia",
   },
+  summary: "Ečstatica is a survival horror game for MS-DOS developed by British team Andrew Spencer Studios and released by Psygnosis in 1994. It was followed by a sequel, Ecstatica II, in 1997.",
+  summaryEs: "Ecstatica es un videojuego de acción y aventura publicado por SCE Studio Liverpool en 1994.",
   notes:
     "Ecstatica Recompiled (Ecstatica I and II): a 64-bit native modernization of both ellipsoid survival games for Windows 10/11, with full HD support, modern controller support and enhanced music/artwork. Free, non-profit fan project. The README does not state the original platform, so the original system is left as Unknown. Pre-release: 1.0 Staging.",
   notesEs:

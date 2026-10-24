@@ -19,6 +19,8 @@ export const tokyoJungleRecompiled: Port = {
   license: { spdx: "MIT" },
   verified: false,
   originalSystems: ["PlayStation 3"],
+  summary: "Tokyo Jungle is a science fiction survival action game developed by Crispy's! and Japan Studio and published by Sony Computer Entertainment for the PlayStation 3. The game takes place in a deserted, futuristic Tokyo, in which the city has transformed into a vicious wildlife wasteland.",
+  summaryEs: "Tokyo Jungle es un juego de supervivencia y acción de ciencia ficción desarrollado por Crispy's! y Japan Studios y publicado por Sony Computer Entertainment para la Playstation 3. El juego se ambienta en un desierto y futurista Tokyo, en el que la ciudad ha sido transformada en un feroz páramo de vida silvestre.",
   notes:
     "Static recompilation of Tokyo Jungle (PS3) with the ps3recomp framework. It boots, opens a D3D12 window, initialises audio and loads its data, but does not draw geometry yet.",
   notesEs:

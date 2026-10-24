@@ -25,6 +25,8 @@ export const wweAllStarsRecomp: Port = {
     alt: "WWE All Stars (box art)",
     credit: "Wikipedia",
   },
+  summary: "WWE All Stars is a 2011 professional wrestling video game published by THQ and released for Nintendo 3DS, PlayStation 2, PlayStation 3, PlayStation Portable, Wii and Xbox 360 systems. The game features current and former WWE wrestlers competing in fast-paced wrestling matches. It is also the only WWE video game to be available for the Nintendo 3DS and the last WWE video game to be released on the PlayStation 2 and PlayStation Portable.",
+  summaryEs: "WWE All Stars es un videojuego de lucha libre profesional publicado por THQ y desarrollado por THQ San Diego para las consolas PlayStation 2, PlayStation 3, PlayStation Portable, Wii, Xbox 360 y Nintendo 3DS. El juego cuenta con luchadores actuales y antiguos de la WWE compitiendo en combates de lucha libre de ritmo rápido. Fue lanzado el 29 de marzo de 2011 en América del Norte.",
   notes: "WWE All Stars (Xbox 360, 2011) as a native port for windows via static recompilation, not an emulator. It ships no game code or data: bring your own copy. Latest release: v1.4.0.",
   notesEs: "WWE All Stars (Xbox 360, 2011) como port nativo para windows mediante recompilación estática, no un emulador. No incluye código ni datos del juego: aporta tu propia copia. Última release: v1.4.0.",
 };

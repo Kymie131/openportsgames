@@ -27,6 +27,8 @@ export const doldecompSms: Port = {
     alt: "Super Mario Sunshine (box art)",
     credit: "Wikipedia",
   },
+  summary: "Super Mario Sunshine is a 2002 platform game developed and published by Nintendo for the GameCube. It is the second 3D game in the Super Mario series, following Super Mario 64 (1996). The game was directed by Yoshiaki Koizumi and Kenta Usui, produced by series creators Shigeru Miyamoto and Takashi Tezuka, written by Makoto Wada, and scored by Koji Kondo and Shinobu Tanaka.",
+  summaryEs: "Super Mario Sunshine es un videojuego de plataformas japonés de 2002 desarrollado y publicado por Nintendo para GameCube. Es el segundo juego en 3D de la serie Super Mario, después de Super Mario 64 (1996). El juego fue dirigido por Yoshiaki Koizumi y Kenta Usui, producido por los creadores de la serie Shigeru Miyamoto y Takashi Tezuka, escrito por Makoto Wada y musicalizado por Koji Kondo y Shinobu Tanaka.",
   notes: "Super Mario Sunshine: decompilation by doldecomp for Windows. Bring your own copy of the game.",
   notesEs: "Super Mario Sunshine: decompilación de doldecomp para Windows. Aporta tu propia copia del juego.",
 };

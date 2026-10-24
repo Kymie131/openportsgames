@@ -7,7 +7,7 @@ export const marisaChanUaSource: Port = {
   game: "Urban Assault",
   developers: ["Marisa-Chan"],
   publisher: "CedarGate Interactive",
-  originalYear: 2026,
+  originalYear: 1998,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -22,6 +22,8 @@ export const marisaChanUaSource: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Urban Assault is a 3D combined first-person shooter and real-time strategy computer game developed by the German company TerraTools and published by Microsoft in the year 1998.",
+  summaryEs: "Urban Assault es un videojuego de disparos en primera persona y estrategia en tiempo real en 3D, desarrollado por la compañía alemana TerraTools y publicado por Microsoft en 1998.",
   notes: "Urban Assault: decompilation by Marisa-Chan for Windows. Bring your own copy of the game.",
   notesEs: "Urban Assault: decompilación de Marisa-Chan para Windows. Aporta tu propia copia del juego.",
 };

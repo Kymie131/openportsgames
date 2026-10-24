@@ -21,6 +21,8 @@ export const fromBelowNes: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "A first-person mystery horror game where you explore a mysterious mansion, interact with objects, collect evidence and records, and uncover the truth behind a past incident.",
+  summaryEs: "From Below es un videojuego de acción y aventura publicado por Belowworks_studio en 2026.",
   notes: "From Below (Homebrew, 2020) running on nes through source port. You need your own copy of the game.",
   notesEs: "From Below (Homebrew, 2020) en nes mediante port de código. Necesitas tu propia copia del juego.",
 };

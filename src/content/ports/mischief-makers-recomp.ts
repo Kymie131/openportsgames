@@ -19,6 +19,8 @@ export const mischiefMakersRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Nintendo 64"],
+  summary: "Mischief Makers is a side-scrolling platform game developed for the Nintendo 64 gaming console by Treasure, and published in 1997 by Enix in Japan and by Nintendo internationally. The player assumes the role of Marina Liteyears, a robotic maid who journeys to rescue her creator, Professor Theo, from the emperor of Planet Clancer. The gameplay is displayed in 2.5D, based on grabbing, shaking, and throwing objects within five worlds and 52 levels.",
+  summaryEs: "Mischief Makers es un videojuego de plataformas/rompecabezas de scroll lateral en 2D desarrollado por Treasure y distribuido por Enix y Nintendo lanzado para Nintendo 64 en 1997. La protagonista del juego es la Cybot-Ultra-Intergaláctica G, Marina Liteyears, que es una criada robótica del despistado profesor Theo.",
   notes:
     "Static recompilation of Mischief Makers (N64) with N64Recomp and the RT64 renderer. It requires a copy of the game.",
   notesEs:

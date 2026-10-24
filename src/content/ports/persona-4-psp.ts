@@ -26,6 +26,8 @@ export const persona4Psp: Port = {
     alt: "Persona 4 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Persona 4, released outside Japan as Shin Megami Tensei: Persona 4, is a 2008 role-playing video game by Atlus. It is chronologically the fifth installment in the Persona series, and was released for the PlayStation 2 in Japan in July 2008, North America in December 2008, and in Europe and Australia in March 2009. It was one of the final major exclusives for the system. An enhanced version of the game, Persona 4 Golden, was released for PlayStation Vita in 2012 and received ports to Windows in 2020, and Nintendo Switch, PlayStation 4, Xbox One, and Xbox Series X/S in 2023.",
+  summaryEs: "Shin Megami Tensei: Persona 4, lanzado en Japón simplemente como Persona 4 (ペルソナ4), es un videojuego de rol desarrollado y publicado por Atlus para la consola de PlayStation 2, y cronológicamente es la quinta entrega dentro de la serie de Persona. Asimismo, este título forma parte de la franquicia Megami Tensei. En el mes de junio del 2008 se publicó en Japón, después tuvo su lanzamiento durante diciembre del mismo año en América del Norte, en Europa se presentó hasta marzo del 2009.",
   notes: "Experimental project to run the PlayStation 2 version of Persona 4 natively on the PSP by recompiling the game's original code into C++ and recreating the PS2 functions it depends on, behind a custom runtime. No release yet.",
   notesEs: "Proyecto experimental para ejecutar de forma nativa en la PSP la versión de PlayStation 2 de Persona 4, recompilando el código original a C++ y recreando las funciones de PS2 de las que depende dentro de un runtime propio. Sin release todavía.",
 };

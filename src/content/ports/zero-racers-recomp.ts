@@ -19,6 +19,8 @@ export const zeroRacersRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Virtual Boy"],
+  summary: "Zero Racers is a racing game developed by Nintendo for the Virtual Boy. It is a spin-off of the F-Zero series. Players choose one of four characters and race in hovercars against AI-controlled characters in fifteen tracks divided into three leagues.",
+  summaryEs: "Zero Racers fue un videojuego de carreras que estaba en desarrollo por Nintendo y planeado para ser lanzado en 1996 para la Virtual Boy. De haber sido lanzado, se hubiera convertido en el primer juego de la saga F-Zero en utilizar gráficos en 3D. Únicamente divulgado a través de las revistas de videojuegos, fue cancelado debido al fracaso comercial de la consola, pese a que el juego estaba listo para su lanzamiento.",
   notes:
     "Native recompilation of the unreleased Virtual Boy game Zero Racers, built with recomp-ui and a cosimulation harness. It needs your own ROM and ships no game data.",
   notesEs:

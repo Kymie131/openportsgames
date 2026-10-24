@@ -21,6 +21,8 @@ export const laureladastraMcdub3Nx: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox"],
+  summary: "Midnight Club 3: Dub Edition is a 2005 racing video game developed by Rockstar San Diego and published by Rockstar Games. It is the third installment in the Midnight Club series. Like previous installments in the series, the game is an arcade-style racer and focuses on wild, high-speed racing, rather than realistic physics and driving. The name is derived from a partnership between Rockstar and DUB Magazine, which features heavily in the game in the form of DUB-sponsored races and DUB-customized vehicles as prizes.",
+  summaryEs: "Midnight Club 3: DUB Edition es un videojuego de mundo abierto de carreras callejeras, desarrollado por Rockstar San Diego y publicado por Rockstar Games.",
   notes: "Midnight Club 3: DUB Edition: static recompilation by laureladastra for Windows, Linux, macOS. Bring your own copy of the game.",
   notesEs: "Midnight Club 3: DUB Edition: recompilación estática de laureladastra para Windows, Linux, macOS. Aporta tu propia copia del juego.",
 };

@@ -26,6 +26,8 @@ export const pokemonHeartgoldSoulsilverRecomp: Port = {
     alt: "Pokémon HeartGold and SoulSilver (box art)",
     credit: "Wikipedia",
   },
+  summary: "Pokémon HeartGold Version and Pokémon SoulSilver Version are 2009 remakes of the 1999 Game Boy Color role-playing video games Pokémon Gold and Silver, also including features from Pokémon Crystal. The games are part of the fourth generation of the Pokémon video game series, developed by Game Freak and published by The Pokémon Company and Nintendo for the Nintendo DS. In commemoration of the 10th anniversary of Gold and Silver, the games were released in Japan on September 12, 2009, and were later released in other regions during March 2010.",
+  summaryEs: "Pokémon Edición Oro HeartGold & Edición Plata SoulSilver, conocidos en Japón como Pocket Monsters HeartGold & SoulSilver , son los títulos de dos videojuegos para la videoconsola portátil Nintendo DS. Ambos fueron lanzados en septiembre de 2009 en Japón, y en marzo de 2010 en Europa y América. Se trata de unos remakes en conmemoración al décimo aniversario del lanzamiento de las versiones Pokémon Oro y Plata de 1999, que fueron lanzadas para la consola Game Boy Color.",
   notes: "Native Windows recompilation of Pokémon HeartGold and SoulSilver with a single-screen interface. Requires your own dump of the Nintendo DS games.",
   notesEs: "Recompilación nativa para Windows de Pokémon HeartGold y SoulSilver con interfaz de pantalla única. Requiere tu propio volcado de los juegos de Nintendo DS.",
 };

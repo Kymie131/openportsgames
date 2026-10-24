@@ -26,6 +26,8 @@ export const insanitybringerPiccuengine: Port = {
     alt: "Descent 3 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Descent 3 is a first-person shooter video game developed by Outrage Entertainment and published by Interplay Entertainment. It was originally released for Microsoft Windows in North America on June 17, 1999. Descent 3 is the third game in the Descent video game series and a sequel to Descent II. The game takes place in a science fiction setting of the Solar System where the player is cast as Material Defender, a mercenary who must help an organization known as the Red Acropolis Research Team to stop robots infected by an alien virus.",
+  summaryEs: "Descent 3 es un videojuego de disparos publicado por Interplay Entertainment en 1999.",
   notes: "Descent 3: source port by InsanityBringer for Windows. Bring your own copy of the game.",
   notesEs: "Descent 3: source port de InsanityBringer para Windows. Aporta tu propia copia del juego.",
 };

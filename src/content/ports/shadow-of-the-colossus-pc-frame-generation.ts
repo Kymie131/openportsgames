@@ -25,6 +25,8 @@ export const shadowOfTheColossusPcFrameGeneration: Port = {
     alt: "Shadow of the Colossus (box art)",
     credit: "Wikipedia",
   },
+  summary: "Shadow of the Colossus is a 2005 action-adventure game developed and published by Sony Computer Entertainment for the PlayStation 2. It takes place in a fantasy setting and follows Wander, a young man who enters an isolated and abandoned region of the realm seeking the power to revive a girl named Mono. The player assumes the role of Wander as he embarks on a mission that might entail Mono's resurrection: to locate and destroy the colossi, sixteen massive beings spread across the forbidden land, which the protagonist traverses by horseback and on foot.",
+  summaryEs: "Shadow of the Colossus es un videojuego de acción-aventura desarrollado y publicado por Sony Computer Entertainment (SCEI) para PlayStation 2. El juego fue publicado en Norteamérica y Japón en octubre de 2005, y posteriormente en Europa en febrero de 2006. Fue creado por el Estudio Internacional de Producción 1 de SCEI, el mismo grupo de desarrollo responsable del éxito de culto Ico.",
   notes: "Shadow of the Colossus (Sony Computer Entertainment, 2005) running on Windows through static recompilation. Latest release: v0.57-fg2. You need your own copy of the game.",
   notesEs: "Shadow of the Colossus (Sony Computer Entertainment, 2005) en Windows mediante recompilación estática. Última release: v0.57-fg2. Necesitas tu propia copia del juego.",
 };

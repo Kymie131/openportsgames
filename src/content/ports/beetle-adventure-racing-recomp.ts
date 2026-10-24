@@ -30,6 +30,8 @@ export const beetleAdventureRacingRecomp: Port = {
     "Panorámico con HUD que se expande según la relación de aspecto",
     "Filtro seleccionable de costuras del terreno",
   ],
+  summary: "Beetle Adventure Racing! is a racing game released for the Nintendo 64 in 1999. It was developed by Paradigm Entertainment and EA Canada, and published by Electronic Arts. Each vehicle in the game is a Volkswagen New Beetle, which was released the previous year. The gameplay involves racing other players on unlocked tracks, finding and destroying crates, and collecting colored ladybugs while battling other players. The single-player championship offers three circuits and a secret bonus circuit with new vehicles and tracks available upon completion.",
+  summaryEs: "Beetle Adventure Racing! es un videojuego de carreras lanzado para Nintendo 64 en 1999. Fue desarrollado por Paradigm Entertainment junto con EA Canada y publicado por Electronic Arts.",
   notes:
     "Static recompilation of Beetle Adventure Racing! (N64, USA) with N64Recomp and RT64. Playable: it boots through the menus into races at 60 fps, with widescreen, a 1x/2x/4x draw distance and internal-resolution scaling.",
   notesEs:

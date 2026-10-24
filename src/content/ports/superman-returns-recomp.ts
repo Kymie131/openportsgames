@@ -19,6 +19,8 @@ export const supermanReturnsRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Xbox 360"],
+  summary: "Superman Returns is a 2006 open world action video game based on the 2006 movie of the same name. It was developed by EA Tiburon and co-published by Electronic Arts and Warner Bros. Interactive Entertainment in conjunction with DC Comics. It was released for PlayStation 2, Xbox, Xbox 360, and Nintendo DS.",
+  summaryEs: "Superman Returns es un videojuego basado en la película del mismo título. Desarrollado por Electronic Arts-Tiburon en Orlando, Florida, en colaboración con Warner Bros, Interactive Entertainment y DC Comics.",
   notes:
     "Native recompilation of Superman Returns (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:

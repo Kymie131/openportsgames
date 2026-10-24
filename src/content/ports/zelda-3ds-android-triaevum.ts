@@ -25,6 +25,8 @@ export const zelda3dsAndroidTriaevum: Port = {
     alt: "The Legend of Zelda: Ocarina of Time 3D (box art)",
     credit: "Wikipedia",
   },
+  summary: "The Legend of Zelda: Ocarina of Time 3D is a 2011 action-adventure game developed by Grezzo and published by Nintendo for the Nintendo 3DS handheld game console. A remake of the original 1998 Nintendo 64 game, it features updated graphics, quality of life changes, stereoscopic 3D effects, and mirrored versions of the rearranged dungeons from Ocarina of Time Master Quest. The game was released in June 2011, with a digital release via the Nintendo eShop arriving in 2012.",
+  summaryEs: "The Legend of Zelda: Ocarina of Time 3D es un videojuego de acción y aventura publicado por Nintendo en 2011.",
   notes: "The Legend of Zelda: Ocarina of Time 3D (Nintendo, 2011) for Android (static recompilation). Latest release: v1.0.0-android. Needs your own copy of the game.",
   notesEs: "The Legend of Zelda: Ocarina of Time 3D (Nintendo, 2011) para Android (recompilación estática). Última release: v1.0.0-android. Necesita tu propia copia del juego.",
 };

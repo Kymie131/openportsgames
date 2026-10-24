@@ -25,6 +25,8 @@ export const opennevada: Port = {
     alt: "Fallout New Vegas (box art)",
     credit: "Wikipedia",
   },
+  summary: "Fallout: New Vegas is a 2010 action role-playing game developed by Obsidian Entertainment and published by Bethesda Softworks. The game, which was released for Microsoft Windows, PlayStation 3, and Xbox 360, is set in the Mojave Desert 204 years after a devastating nuclear war. The player controls a courier who survives an assassination attempt and becomes embroiled in a conflict between different governing factions that are vying for control of the region. Fallout: New Vegas features a freely explorable open world, and the player can engage in combat with a variety of weapons.",
+  summaryEs: "Fallout: New Vegas es un videojuego de rol de 2010 perteneciente a la saga Fallout, desarrollado por Obsidian Entertainment, y distribuido por Bethesda Softworks, considerado uno de los mejores videojuegos de toda la franquicia.",
   notes: "Fallout New Vegas (Bethesda Softworks, 2010) for Android (source port). Needs your own copy of the game.",
   notesEs: "Fallout New Vegas (Bethesda Softworks, 2010) para Android (port de código). Necesita tu propia copia del juego.",
 };

@@ -19,6 +19,8 @@ export const menInBlackTheGameRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Men in Black: The Game is an adventure video game developed by Gigawatt Studios for Microsoft Windows in 1997. Though it is a licensed game based on the 1997 film Men in Black, the plot is unrelated and it is a survival horror game as opposed to being a comedy. It is most likely a homage to the original The Men In Black comic book created by Lowell Cunningham with its dark aesthetics and 2D cinematics that resemble comic book panels. The game was ported to the PlayStation in 1998 by The Collective.",
+  summaryEs: "Men in Black: The Game es un videojuego de aventura desarrollado por Gigawatt Studios para Microsoft Windows en 1997. Aunque es un juego con licencia oficial basado en la película Men in Black de 1997, la trama no está relacionada y es un juego de survival horror en lugar de ser una comedia. El juego fue porteado a la PlayStation en 1998 por The Collective.",
   notes:
     "Recompilation of Men in Black: The Game (PS1, Europe SLES-01047) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

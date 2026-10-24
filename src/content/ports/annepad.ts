@@ -26,6 +26,8 @@ export const annepad: Port = {
     alt: "Pokémon Stadium (box art)",
     credit: "Wikipedia",
   },
+  summary: "Pokémon Stadium is a 1999 strategy video game developed and published by Nintendo for the Nintendo 64. The gameplay revolves around a 3D turn-based battling system using the 151 Pokémon from the Game Boy games Pokémon Red, Blue, and Yellow, with several in-game challenges for players to overcome. The game includes four \"Cups\", each of which is a series of three-on-three Pokémon battles against an ordered lineup of opponents. The \"Gym Leader Castle\" mode involves battles against several boss opponents who appeared in the Game Boy games.",
+  summaryEs: "Pokémon Stadium, conocido en Japón como Pokémon Stadium 2 , es un videojuego de Pokémon lanzado en abril de 2000 para Nintendo 64 en el que se pueden librar combates Pokémon en 3D, transferidos o no desde los juegos Pokémon Rojo y Azul y Pokémon Amarillo, con multitud de modos de juego. Existen dos versiones sin licencia del juego, como un juego raramente pobre para la Sega Mega Drive con muy pocos Pokémon para jugar que comparte música del juego Pocket Monsters 2, también para la Mega Drive.",
   notes: "AnnePad: Pokémon Stadium for iPhone and iPad via static recompilation, with native Metal rendering, touch controls, persistent saves and ROM-free local builds. Latest release: v0.2.2.",
   notesEs: "AnnePad: Pokémon Stadium para iPhone y iPad mediante recompilación estática, con render nativo Metal, controles táctiles, guardado persistente y builds locales sin ROM. Última release: v0.2.2.",
 };

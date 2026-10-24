@@ -7,7 +7,7 @@ export const demonsSoulsPs5Pc: Port = {
   game: "Demon's Souls",
   developers: ["ymatrix1"],
   publisher: "Sony Interactive Entertainment",
-  originalYear: 2020,
+  originalYear: 2009,
   portType: "runtime-port",
   genre: "action-adventure",
   openSource: true,
@@ -26,6 +26,8 @@ export const demonsSoulsPs5Pc: Port = {
     alt: "Demon's Souls (box art)",
     credit: "Wikipedia",
   },
+  summary: "Demon's Souls is a 2009 action role-playing game developed by FromSoftware and published by Sony Computer Entertainment for the PlayStation 3. It was released in Japan in February 2009, in North America by Atlus in October 2009, and in PAL territories by Namco Bandai Partners in June 2010. The game is referred to as a spiritual successor to FromSoftware's King's Field series.",
+  summaryEs: "Demon's Souls es un videojuego de rol de acción en tercera persona desarrollado por la compañía de videojuegos japonesa FromSoftware exclusivamente para la consola PlayStation 3 bajo la supervisión de Japan Studio. Fue distribuido en Japón por Sony Computer Entertainment en febrero de 2009, en Norteamérica por Atlus USA en octubre de 2009 y en Europa por Bandai Namco Games en junio de 2010. El juego es comúnmente descrito como un sucesor espiritual de King's Field, una serie RPG creada también por FromSoftware.",
   notes: "Native PC runtime for the Demon's Souls remake: the PS5 x86-64 binaries run directly on the CPU, with graphics translated to Vulkan and a 60/120 FPS target. The project is in development and ships no game files; you need your own copy.",
   notesEs: "Runtime nativo para PC del remake de Demon's Souls: los binarios x86-64 de PS5 corren directamente en la CPU, con los gráficos traducidos a Vulkan y objetivo de 60/120 FPS. El proyecto está en desarrollo y no incluye archivos del juego; necesitas tu propia copia.",
 };

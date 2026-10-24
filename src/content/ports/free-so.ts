@@ -20,6 +20,8 @@ export const freeSO: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  summary: "The Sims Online was a 2002 massively multiplayer online game (MMO) developed by Maxis and published by Electronic Arts (EA) for Microsoft Windows. The game was a subscription-based online multiplayer version of the 2000 Maxis game The Sims, in which players could interact with others on virtual user-made lots, buy and customise properties, and make in-game money by taking on jobs.",
+  summaryEs: "Los Sims Online es un juego en línea desarrollado por Maxis y distribuido por Electronic Arts.",
   notes:
     "Open-source reimplementation of The Sims Online that runs the original game data. It needs your own copy of the game.",
   notesEs:

@@ -26,6 +26,8 @@ export const bloodbornePcWindows: Port = {
     alt: "Bloodborne (box art)",
     credit: "Wikipedia",
   },
+  summary: "Bloodborne is a 2015 action role-playing game developed by FromSoftware and published by Sony Computer Entertainment for the PlayStation 4. The game follows a Hunter through the decrepit Gothic, Victorian-era inspired city of Yharnam, whose inhabitants are afflicted with a blood-borne disease. Attempting to find the source of the plague, the player's character unravels the city's mysteries while fighting beasts and eldritch beings.",
+  summaryEs: "Bloodborne es un videojuego de rol de acción dirigido por Hidetaka Miyazaki, desarrollado por From Software y distribuido por JapanStudio y Sony Computer Entertainment para la plataforma de PlayStation 4. El videojuego sigue las acciones del personaje del jugador, el Cazador, a través de Yharnam, una ciudad ficticia de estilo victoriano, cuyos habitantes han sido afectados con una enfermedad de transmisión sanguínea anormal.",
   notes: "Windows 10/11 build of the bbport runtime for Bloodborne (PS4, CUSA03173 v1.09): the game's own x86-64 code runs natively, PS4 libraries are replaced by a small runtime and the graphics go through Vulkan. A launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, mods and cheats. No game files included. Latest release: windows-v1.9.1.",
   notesEs: "Build para Windows 10/11 del runtime bbport de Bloodborne (PS4, CUSA03173 v1.09): el propio código x86-64 del juego se ejecuta de forma nativa, las librerías de PS4 se sustituyen por un runtime pequeño y los gráficos pasan por Vulkan. Launcher en 13 idiomas, DLSS, FSR 3.1/4, FPS desbloqueados, mods y trucos. No incluye archivos del juego. Última release: windows-v1.9.1.",
 };

@@ -7,7 +7,7 @@ export const Triplea: Port = {
   game: "triplea",
   developers: ["triplea-game"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2001,
   portType: "source-port",
   genre: "strategy",
   openSource: true,
@@ -20,6 +20,8 @@ export const Triplea: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "TripleA is a free and open-source turn based strategy game based on the Axis & Allies board game.",
+  summaryEs: "triplea es un videojuego de estrategia en 2001.",
   notes:
     "TripleA is a turn based strategy game and board game engine, similar to Axis & Allies or Risk.",
   notesEs:

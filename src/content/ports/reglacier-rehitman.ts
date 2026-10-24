@@ -7,7 +7,7 @@ export const reglacierRehitman: Port = {
   game: "Hitman: Codename 47",
   developers: ["ReGlacier"],
   publisher: "IO Interactive A/S",
-  originalYear: 2007,
+  originalYear: 2000,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -21,6 +21,8 @@ export const reglacierRehitman: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Hitman: Codename 47 is a stealth video game developed by IO Interactive and published by Eidos Interactive exclusively for Microsoft Windows in November 2000. It is the first entry in the Hitman series. The player controls Agent 47, a genetically enhanced human clone who is rigorously trained in methods of murder. Upon escaping from his testing facility, 47 is hired by the International Contract Agency (ICA), a global contract killing organization.",
+  summaryEs: "Hitman: Codename 47, nombrado en español como Hitman: Código 47 es un videojuego de disparos en tercera persona creado por la compañía IO Interactive y publicado por Eidos Interactive en 2000. Es el primer videojuego de la saga Hitman. Como en todos los juegos de la saga, el personaje principal es el Agente 47, un sicario que trabaja para la ICA.",
   notes: "Hitman: Codename 47: decompilation by ReGlacier for Windows. Bring your own copy of the game.",
   notesEs: "Hitman: Codename 47: decompilación de ReGlacier para Windows. Aporta tu propia copia del juego.",
 };

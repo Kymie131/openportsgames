@@ -25,6 +25,8 @@ export const narutoRiseOfANinjaRecomp: Port = {
     alt: "Naruto: Rise of a Ninja (box art)",
     credit: "Wikipedia",
   },
+  summary: "Naruto: Rise of a Ninja is an action adventure game for the Xbox 360 with high emphasis on fighting and platforming mechanics, like with most Naruto games, it features cel-shaded graphics. The game was developed by Ubisoft Montreal, making it the first Naruto game to be developed by a non-Japanese company. The game is specifically based on the English dubbed version of the anime. The game was released in 2007. A sequel titled Naruto: The Broken Bond was released in the following year.",
+  summaryEs: "Naruto: Rise of a Ninja es un videojuego para Xbox 360 desarrollo por Ubisoft Montreal, siendo así el primer juego de Naruto no desarrollado por una compañía japonesa. El juego mezcla plataforma, combates uno contra uno, diálogos y toques de RPG. La estética del juego es en Cel shading.",
   notes: "Naruto: Rise of a Ninja (Xbox 360, 2007) running natively on Android (ARM64) and PC (Windows x64) via static recompilation, no CPU emulator. Built by Masterllgod; no game files are included, you need your own copy. Latest release: v0.2.",
   notesEs: "Naruto: Rise of a Ninja (Xbox 360, 2007) corriendo de forma nativa en Android (ARM64) y PC (Windows x64) por recompilación estática, sin emulador de CPU. Hecho por Masterllgod; no incluye archivos del juego, necesitas tu propia copia. Última release: v0.2.",
 };

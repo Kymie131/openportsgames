@@ -20,6 +20,8 @@ export const theMazeWii: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Other"],
+  summary: "Escape an ever-shifting procedural labyrinth. Loot legendary armor, overcome challenges in crafting zones, and survive deadly traps in this fantasy Roguelite. With progressive difficulty and unique enemies, can you find the exit before the Ghost finds you?",
+  summaryEs: "The Maze es un videojuego de puzles publicado por Kurjus Games.",
   notes: "The Maze (Winterrowd, 2009) running on Wii through source port. You need your own copy of the game.",
   notesEs: "The Maze (Winterrowd, 2009) en Wii mediante port de código. Necesitas tu propia copia del juego.",
 };

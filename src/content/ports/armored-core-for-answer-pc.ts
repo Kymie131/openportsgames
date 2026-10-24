@@ -25,6 +25,8 @@ export const armoredCoreForAnswerPc: Port = {
     alt: "Armored Core: For Answer (box art)",
     credit: "Wikipedia",
   },
+  summary: "Armored Core: For Answer is a 2008 mecha-based vehicular combat game developed by FromSoftware and published by Ubisoft for the PlayStation 3 and Xbox 360. It is the 13th installment in the mecha-based Armored Core series, the game is the direct sequel to Armored Core 4.",
+  summaryEs: "Armored Core: For Answer es un videojuego para la PlayStation 3 y Xbox 360. Este es la 13 ª entrega de la serie Armored Core de From Software. Armored Core: For Answer es la secuela de Armored Core 4, y se lleva a cabo más de una década más tarde.",
   notes: "Armored Core: For Answer (FromSoftware, 2008) running on Windows through static recompilation. Latest release: v0.7.2. You need your own copy of the game.",
   notesEs: "Armored Core: For Answer (FromSoftware, 2008) en Windows mediante recompilación estática. Última release: v0.7.2. Necesitas tu propia copia del juego.",
 };

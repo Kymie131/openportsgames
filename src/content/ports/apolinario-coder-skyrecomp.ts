@@ -21,6 +21,8 @@ export const apolinarioCoderSkyrecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo Switch"],
+  summary: "The Legend of Zelda: Skyward Sword is a 2011 action-adventure game developed and published by Nintendo for the Wii. A mainline entry in The Legend of Zelda series, Skyward Sword is the first game in the Zelda timeline, and details the origins of the Master Sword, a recurring weapon within the series. Series protagonist Link, a resident of a floating town called Skyloft, sets out to rescue his childhood friend Zelda after she is kidnapped and brought to the abandoned lands below the clouds.",
+  summaryEs: "The Legend of Zelda: Skyward Sword HD es un videojuego de acción y aventura publicado por Nintendo en 2021.",
   notes: "The Legend of Zelda: Skyward Sword HD: static recompilation by Apolinario-coder for Windows. Bring your own copy of the game.",
   notesEs: "The Legend of Zelda: Skyward Sword HD: recompilación estática de Apolinario-coder para Windows. Aporta tu propia copia del juego.",
 };

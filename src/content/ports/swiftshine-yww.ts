@@ -22,6 +22,8 @@ export const swiftshineYww: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Wii U"],
+  summary: "Yoshi's Woolly World is a 2015 platform game developed by Good-Feel and published by Nintendo for the Wii U. Following Yoshi's New Island (2014), it is the seventh main installment in the Yoshi series and the third released for a home console, marking the first home console entry in over 17 years since 1997's Yoshi's Story. The game also serves as the spiritual successor to 2010's Kirby's Epic Yarn. The game features two Yoshis on their quest to rescue their friends, who have been converted to bundles of yarn by Kamek in order to create a new castle for Baby Bowser.",
+  summaryEs: "Yoshi's Woolly World, conocido en Japón como Yoshī'ūruwārudo , es un videojuego de plataformas de desplazamiento lateral en el que se maneja a Yoshi. Fue publicado para Wii U en 2015. El juego es similar a Super Mario World 2: Yoshi's Island, solo que se está en un mundo de lana y telas.",
   notes: "Yoshi's Woolly World: decompilation by Swiftshine for Windows. Bring your own copy of the game.",
   notesEs: "Yoshi's Woolly World: decompilación de Swiftshine para Windows. Aporta tu propia copia del juego.",
 };

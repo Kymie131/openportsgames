@@ -20,6 +20,8 @@ export const rayman2N64Recomp: Port = {
   verified: false,
   sourceDead: true,
   originalSystems: ["Nintendo 64"],
+  summary: "Rayman 2: The Great Escape is a 1999 platform game developed by Ubi Pictures and published by Ubi Soft for Windows, the Nintendo 64, Dreamcast and PlayStation. The sequel to the 1995 game. The game centers on the titular character Rayman, who is tasked with saving the fantastical land of the Fairy Glade from an army of robotic pirates led by Admiral Razorbeard.",
+  summaryEs: "Rayman 2: The Great Escape es un videojuego de plataformas de 1999, diseñado por Michel Ancel, producido por Ubisoft Montpellier y publicado por Ubisoft. El personaje principal del juego, Rayman, tiene la tarea de salvar a su amigo Globox, y al mismo tiempo a toda la tierra de cuento de hadas llamada el Claro de los Sueños, de un ejército de invasores llamados Piratas-Robot liderados por el almirante Razorbeard.",
   notes:
     "Static recompilation of Rayman 2: The Great Escape (N64) with N64Recomp and the RT64 renderer. It requires your own game files. The upstream repository is no longer available.",
   notesEs:

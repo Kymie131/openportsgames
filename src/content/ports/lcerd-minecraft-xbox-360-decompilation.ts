@@ -27,6 +27,8 @@ export const lcerdMinecraftXbox360Decompilation: Port = {
     alt: "Minecraft: Xbox 360 Edition (box art)",
     credit: "LaunchBox Games Database",
   },
+  summary: "Minecraft: Xbox 360 Edition is a simulation game in 2012.",
+  summaryEs: "Minecraft: Xbox 360 Edition es un videojuego de simulación en 2012.",
   notes: "Minecraft: Xbox 360 Edition: decompilation by LCERD for Windows. Bring your own copy of the game.",
   notesEs: "Minecraft: Xbox 360 Edition: decompilación de LCERD para Windows. Aporta tu propia copia del juego.",
 };

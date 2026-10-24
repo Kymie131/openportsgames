@@ -27,6 +27,8 @@ export const roengstromFf8Decomp: Port = {
     alt: "Final Fantasy VIII (box art)",
     credit: "Box art",
   },
+  summary: "Final Fantasy VIII is a 1999 role-playing video game developed and published by Square for the PlayStation console. It is the eighth main installment in the Final Fantasy series. Set on an unnamed fantasy world with science fiction elements, the game follows a group of young mercenaries, led by Squall Leonhart, as they are drawn into a conflict sparked by a sorceress named Edea Kramer who seized control of a powerful military state.",
+  summaryEs: "Final Fantasy VIII es un videojuego de tipo RPG desarrollado por Squaresoft en 1999 para el sistema PlayStation, aunque posteriormente salió una versión para PC. Es la octava entrega de la serie de videojuegos Final Fantasy. Este juego se aleja de la tónica de fantasía mostrada en las entregas anteriores enfocándose en presentar a personajes más realistas y el primero en contar con un tema musical cantado para el juego. El juego costó en total para su realización unos tres mil millones de Yenes en Japón.",
   notes: "Final Fantasy VIII: decompilation by roengstrom for Windows. Bring your own copy of the game.",
   notesEs: "Final Fantasy VIII: decompilación de roengstrom para Windows. Aporta tu propia copia del juego.",
 };

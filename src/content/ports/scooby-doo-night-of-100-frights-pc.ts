@@ -25,6 +25,8 @@ export const scoobyDooNightOf100FrightsPc: Port = {
     alt: "Scooby-Doo! Night of 100 Frights (box art)",
     credit: "Wikipedia",
   },
+  summary: "Scooby-Doo! Night of 100 Frights is a 3D platform game developed by Heavy Iron Studios and published by THQ for the PlayStation 2, GameCube, and Xbox. The game was released in May 2002 in North America and was released later that year in PAL regions. It was the first Scooby-Doo! video game on sixth-generation consoles. The PlayStation 2 version became a Greatest Hits title in May 2003. The next Scooby-Doo game to be released for consoles was Scooby-Doo! Mystery Mayhem.",
+  summaryEs: "Scooby-Doo! Night of 100 Frights es un videojuego de acción y aventura publicado por THQ en 2002.",
   notes: "Scooby-Doo! Night of 100 Frights (THQ, 2002) running on Windows through static recompilation. Latest release: v1.0.2. You need your own copy of the game.",
   notesEs: "Scooby-Doo! Night of 100 Frights (THQ, 2002) en Windows mediante recompilación estática. Última release: v1.0.2. Necesitas tu propia copia del juego.",
 };

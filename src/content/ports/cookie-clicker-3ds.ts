@@ -25,6 +25,8 @@ export const cookieClicker3ds: Port = {
     alt: "Cookie Clicker (cover art)",
     credit: "Steam",
   },
+  summary: "An idle game about making cookies! Originally released in 2013 on the web, and actively developed since then. This is the official version for Steam.",
+  summaryEs: "Cookie Clicker es un videojuego de simulación publicado por Playsaurus en 2021.",
   notes: "Cookie Clicker (Orteil, 2013) running on Nintendo 3DS through source port. Latest release: v1.6.0. You need your own copy of the game.",
   notesEs: "Cookie Clicker (Orteil, 2013) en Nintendo 3DS mediante port de código. Última release: v1.6.0. Necesitas tu propia copia del juego.",
 };

@@ -6,7 +6,7 @@ export const mercuryworkshopTerrariaWasm: Port = {
   title: "Terraria (terraria-wasm / Terrarium)",
   game: "Terraria",
   developers: ["MercuryWorkshop"],
-  publisher: "Unknown",
+  publisher: "505 Games",
   originalYear: 2013,
   portType: "source-port",
   genre: "action-adventure",
@@ -26,6 +26,8 @@ export const mercuryworkshopTerrariaWasm: Port = {
     alt: "Terraria (box art)",
     credit: "Wikipedia",
   },
+  summary: "Terraria is a 2011 action-adventure video game developed and published by Re-Logic. As a sandbox game, Terraria has no set goals. After creating the player character and choosing the game's difficulty, the player is placed in a two-dimensional, procedurally generated world where they explore, fight enemies, gather resources, and craft equipment. Players beat bosses, a tougher variety of enemies, to gain access to more items, resources, and equipment.",
+  summaryEs: "Terraria es un videojuego de acción-aventura y de mundo abierto producido por el estudio Re-Logic. Se caracteriza por la exploración, la elaboración de objetos, construcción de estructuras, y el combate. Actualmente se encuentra en la versión 1.4.5.8.",
   notes: "Terraria: browser port by MercuryWorkshop for the browser. Playable in the browser.",
   notesEs: "Terraria: port de navegador de MercuryWorkshop para el navegador. Jugable en el navegador.",
 };

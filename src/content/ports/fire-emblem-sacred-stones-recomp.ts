@@ -26,6 +26,8 @@ export const fireEmblemSacredStonesRecomp: Port = {
     alt: "Fire Emblem: The Sacred Stones (box art)",
     credit: "Wikipedia",
   },
+  summary: "Fire Emblem: The Sacred Stones is a tactical role-playing game developed by Intelligent Systems, and published by Nintendo for the Game Boy Advance handheld video game console in 2004 for Japan and 2005 in the West. It is the eighth entry in the Fire Emblem series, the second to be released outside Japan, and the third and final title to be developed for the Game Boy Advance after The Binding Blade and its prequel The Blazing Blade.",
+  summaryEs: "Fire Emblem: The Sacred Stones es un videojuego de rol táctico de la saga Fire Emblem, desarrollado por Intelligent Systems y publicado por Nintendo para la consola portátil Game Boy Advance en 2004 en Japón y en 2005 en Occidente. Es la octava entrega de la serie Fire Emblem,[c] la segunda en lanzarse fuera de Japón y el tercer y último título desarrollado para Game Boy Advance tras Fire Emblem: The Binding Blade y su precuela, Fire Emblem, también conocido como Fire Emblem: The Blazing Blade para diferenciarlo de la serie en sí.",
   notes: "Playable Windows and Android ARM64 static recompilation of Fire Emblem: The Sacred Stones (Game Boy Advance, 2004). Still early, but playable. Latest release: v0.1.20.",
   notesEs: "Recompilación estática ARM64 jugable para Windows y Android de Fire Emblem: The Sacred Stones (Game Boy Advance, 2004). Todavía es pronto, pero se puede jugar. Última release: v0.1.20.",
 };

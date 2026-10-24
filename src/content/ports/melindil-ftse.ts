@@ -7,7 +7,7 @@ export const melindilFtse: Port = {
   game: "Fallout Tactics: Brotherhood of Steel",
   developers: ["melindil"],
   publisher: "Bethesda Softworks",
-  originalYear: 2009,
+  originalYear: 2001,
   portType: "decompilation",
   genre: "rpg",
   openSource: true,
@@ -21,6 +21,8 @@ export const melindilFtse: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Fallout Tactics: A Post Nuclear Tactical Combat Game, or simply Fallout Tactics, is a turn-based real-time tactical role-playing game set in the post-apocalyptic Fallout universe. Developed by Micro Forté and published by 14 Degrees East, Fallout Tactics was released on 15 March 2001 for Microsoft Windows. It had sold over 300,000 units worldwide by 2008.",
+  summaryEs: "No confundir con Fallout: Brotherhood of Steel",
   notes: "Fallout Tactics: Brotherhood of Steel: decompilation by melindil for Windows. Bring your own copy of the game.",
   notesEs: "Fallout Tactics: Brotherhood of Steel: decompilación de melindil para Windows. Aporta tu propia copia del juego.",
 };

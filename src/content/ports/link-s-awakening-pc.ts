@@ -7,7 +7,7 @@ export const linkSAwakeningPc: Port = {
   game: "The Legend of Zelda: Link's Awakening",
   developers: ["peiikai"],
   publisher: "Nintendo",
-  originalYear: 2019,
+  originalYear: 1993,
   portType: "recompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const linkSAwakeningPc: Port = {
     alt: "The Legend of Zelda: Link's Awakening (box art)",
     credit: "Wikipedia",
   },
+  summary: "The Legend of Zelda: Link's Awakening is a 1993 action-adventure game developed and published by Nintendo for the Game Boy. It is the first installment in The Legend of Zelda series to be released on a handheld game console. Link's Awakening is one of the few Zelda games not to take place in the land of Hyrule, and it does not feature Princess Zelda or the Triforce relic. Instead, the protagonist Link begins the game stranded on Koholint Island, a place guarded by a whale-like deity called the Wind Fish.",
+  summaryEs: "The Legend of Zelda: Link's Awakening, conocido en Japón como Zelda no Densetsu: Yume o Miru Shima , es un videojuego de acción-aventura desarrollado y publicado por Nintendo para la videoconsola portátil Game Boy. Fue lanzado el 6 de junio de 1993 en Japón, el 1 de agosto de 1993 en Norteamérica y el 1 de diciembre de 1993 en Europa. Es la cuarta entrega oficial de la serie The Legend of Zelda y la primera para una videoconsola portátil.",
   notes: "The Legend of Zelda: Link's Awakening (Nintendo, 2019) running on Windows through static recompilation. Latest release: beta_4. You need your own copy of the game.",
   notesEs: "The Legend of Zelda: Link's Awakening (Nintendo, 2019) en Windows mediante recompilación estática. Última release: beta_4. Necesitas tu propia copia del juego.",
 };

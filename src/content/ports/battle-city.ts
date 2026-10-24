@@ -6,7 +6,7 @@ export const BattleCity: Port = {
   title: "Battle City",
   game: "Battle City",
   developers: ["vgrichina"],
-  publisher: "Unknown",
+  publisher: "Namco",
   originalYear: 1985,
   portType: "reimplementation",
   genre: "action-adventure",
@@ -25,6 +25,8 @@ export const BattleCity: Port = {
     alt: "Battle City (cover)",
     credit: "Wikipedia",
   },
+  summary: "Battle City is a 1985 multidirectional shooter video game developed and published by Namco for the Family Computer. Released only in Japan, it is the sequel to the arcade video game Tank Battalion.",
+  summaryEs: "Battle City es un videojuego de tanques producido y publicado por Namco como una adaptación del clásico arcade Tank Battalion. Está disponible para las videoconsolas de Nintendo NES, Game Boy y Wii.",
   notes:
     "Reverse engineering Battle City (Famicom, 1985) — annotated 6502 disassembly + browser reimplementation.",
   notesEs:

@@ -21,6 +21,8 @@ export const aerofoilAndroid: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["Macintosh"],
+  summary: "Glider is an action game written by John Calhoun for the Mac and published as shareware in 1988 under the company name Soft Dorothy Software. The object of the game is to fly a paper plane through the rooms of a house. Air currents from heat ducts and fans affect the plane's movement, while assorted household objects are usually deadly. Some rooms have special mechanics, such as the ability to slide along grease-covered surfaces. Each room is presented as a two-dimensional side view.",
+  summaryEs: "Glider es un videojuego de Macintosh escrito por John Calhoun y publicado como shareware en 1988 bajo la compañía Soft Dorothy Software. En 1991, una versión coloreada de Glider que incluía un nivel de edición fue publicado por Casady & Greene como Glider 4.0. En 1994, Casady & Greene publicó una versión mejorada del juego, GliderPRO, para la plataforma Mac. Cuando Casady & Greene declaró bancarrota en 2003, los derechos del juego volvieron a pertenecer al autor, quién optó dar el juego gratis en su web por un periodo de tiempo.",
   notes: "Multiplatform port of Glider PRO, the classic Macintosh paper airplane game, with an Android build and the original house layouts.",
   notesEs: "Port multiplataforma de Glider PRO, el clásico juego de aviones de papel de Macintosh, con build para Android y las casas originales.",
 };

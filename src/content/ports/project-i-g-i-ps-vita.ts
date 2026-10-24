@@ -25,6 +25,8 @@ export const projectIGIPsVita: Port = {
     alt: "Project I.G.I. (box art)",
     credit: "Wikipedia",
   },
+  summary: "Project I.G.I. is a tactical first-person shooter video game. It was developed by Innerloop Studios and released in December 2000 by Eidos Interactive. The game received mixed reviews due to shortcomings including a poorly programmed A.I., lack of a mid-game save option, and the lack of multiplayer features. However, it was praised for its sound design and graphics, thanks in part to its use of a proprietary game engine that was previously used in Innerloop's Joint Strike Fighter.",
+  summaryEs: "Project I.G.I. es un videojuego de disparos publicado por Eidos Interactive en 2000.",
   notes: "Project I.G.I. (Eidos Interactive, 2000) running on PlayStation Vita through source port. Latest release: v0.5.0. You need your own copy of the game.",
   notesEs: "Project I.G.I. (Eidos Interactive, 2000) en PlayStation Vita mediante port de código. Última release: v0.5.0. Necesitas tu propia copia del juego.",
 };

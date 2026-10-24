@@ -19,6 +19,8 @@ export const tailConcertoRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Tail Concerto is an action-adventure platform video game developed by CyberConnect and published by Bandai for the PlayStation. It is the first game to be developed by CyberConnect, as well as the first installment in the Little Tail Bronx series, which takes place in a steampunk fantasy world of floating islands populated by anthropomorphic dogs and cats. The game revolves around a teenaged canine police officer named Waffle Ryebread and his encounters with the Black Cats Gang, a group of sky pirates who aim to steal magic crystals.",
+  summaryEs: "Tail Concerto es un videojuego de acción y aventura en 1998.",
   notes:
     "Recompilation of Tail Concerto (PS1, USA SLUS-00660) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

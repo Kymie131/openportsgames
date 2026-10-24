@@ -26,6 +26,8 @@ export const metalSlugXRecompTechnically: Port = {
     alt: "Metal Slug X (cover art)",
     credit: "Steam",
   },
+  summary: "Metal Slug 2 is a 1998 run and gun video game developed and published by SNK for the Neo Geo arcade and home platforms. It is the second installment in the Metal Slug series and the first to not be developed by Nazca Corporation, who developed the 1996 game Metal Slug, as they were acquired and absorbed into SNK. The original version of the game had extensive slowdown and performance issues, eventually leading SNK to release a modified version in 1999, titled Metal Slug X: Super Vehicle-001 (メタルスラッグX).",
+  summaryEs: "Metal Slug X es un videojuego que forma parte de la saga Metal Slug. Fue estrenado para la consola Neo-Geo el 27 de mayo de 1999, y para PlayStation el 25 de enero de 2001. También forma parte del Metal Slug Anthology para la Wii, PlayStation 2 y PlayStation Portable. Metal Slug X es un spin-off de la versión Metal Slug 2 con nuevas características y remasterizado, logrando un éxito mayor.",
   notes: "Metal Slug X (PlayStation, 1999) made with PSXRecomp, part of the R.A.I.D. community. Bring your own disc. Latest release: v0.1.21.",
   notesEs: "Metal Slug X (PlayStation, 1999) hecho con PSXRecomp, parte de la comunidad R.A.I.D. Aporta tu propio disco. Última release: v0.1.21.",
 };

@@ -19,6 +19,8 @@ export const inColdBloodRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "In Cold Blood is a 2000 action-adventure video game developed by Revolution Software and published by Sony Computer Entertainment for the PlayStation. A port for Microsoft Windows was released in 2000 by Ubi Soft in Europe while DreamCatcher Interactive released both versions in North America in 2001. The player assumes the role of John Cord—an MI6 agent who is captured while on assignment and tries to figure out who betrayed him through a series of flashbacks.",
+  summaryEs: "In Cold Blood es un videojuego de acción y aventura publicado por Sony Interactive Entertainment en 2000.",
   notes:
     "Recompilation of In Cold Blood (PS1, USA SLUS-01294 / SLUS-01314) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

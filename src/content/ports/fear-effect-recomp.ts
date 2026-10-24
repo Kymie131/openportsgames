@@ -19,6 +19,8 @@ export const fearEffectRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Fear Effect is a 2000 action-adventure video game developed by Kronos Digital Entertainment and published by Eidos Interactive for the PlayStation. Set in the year 2050, the player controls three mercenaries in Hong Kong. The game contains elements of survival horror and stealth.",
+  summaryEs: "Fear Effect es un videojuego de acción y videojuego de terror realizado para la consola PlayStation en el año 1999. Fue desarrollado por Kronos Digital Entertainment y publicado por Eidos Interactive. La historia trata sobre tres mercenarios llamados Hana, Deke y Glas que tratan de recuperar la hija desaparecida de un acaudalado hombre de negocios chino. Es esencialmente una aventura cyberpunk futurista ambientada en Hong Kong. La historia también incorpora elementos de la mitología china. El juego fue seguido por una precuela, Fear Effect 2: Retro Helix.",
   notes:
     "Recompilation of Fear Effect (PS1, USA SLUS-00920) with PSXRecomp and the recomp-ui launcher. You bring your own disc and a European SCPH-5502/5552 BIOS; the game is generated and compiled on your machine. A 0.1.0 release candidate with gameplay not yet validated.",
   notesEs:

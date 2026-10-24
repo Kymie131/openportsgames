@@ -25,6 +25,8 @@ export const jezzball3ds: Port = {
     alt: "JezzBall (box art)",
     credit: "Wikipedia",
   },
+  summary: "JezzBall is a video game originally published for Microsoft Windows in 1992. The player must capture parts of a rectangular space by dividing it with horizontal or vertical lines. While each line is being drawn, it must not be touched by bouncing balls. JezzBall has similarities with Qix, a 1981 arcade game.",
+  summaryEs: "JezzBall es un videojuego de puzles publicado por Microsoft en 1992.",
   notes: "JezzBall (Microsoft, 1992) running on Nintendo 3DS through source port. You need your own copy of the game.",
   notesEs: "JezzBall (Microsoft, 1992) en Nintendo 3DS mediante port de código. Necesitas tu propia copia del juego.",
 };

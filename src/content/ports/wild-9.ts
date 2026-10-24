@@ -6,8 +6,8 @@ export const Wild9: Port = {
   title: "Wild 9",
   game: "Wild 9",
   developers: ["plinkr"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "Interplay Entertainment",
+  originalYear: 1998,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const Wild9: Port = {
     alt: "Wild 9 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Wild 9 is a 2.5D platform video game for the PlayStation. The game was designed by David Perry, developed by Shiny Entertainment, and published by Interplay Productions, all of whom were involved in Earthworm Jim series of video games. The game was released in North America and Europe in September 1998.",
+  summaryEs: "Wild 9 es un videojuego de acción y aventura publicado por Interplay Entertainment en 1998.",
   notes:
     "Matching decompilation of `Wild 9` for the Sony PlayStation 1, targeting the NTSC-U SLUS_004.25 executable, built with a reproducible GCC 2.8.0 PSX and GNU binutils 2.42 toolchain.",
   notesEs:

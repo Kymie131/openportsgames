@@ -25,6 +25,8 @@ export const donkeyKong64Switch: Port = {
     alt: "Donkey Kong 64 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Donkey Kong 64 is a 1999 platform game developed by Rare and published by Nintendo for the Nintendo 64. It is the first Donkey Kong game to feature 3D gameplay. As the gorilla Donkey Kong, the player explores themed levels to collect items and rescue his family members from the crocodile King K. Rool. The player completes minigames and puzzles as five playable Kong characters—each with their own special abilities—to receive bananas and other collectibles. In multiplayer modes, up to four players can compete in deathmatch and last man standing games.",
+  summaryEs: "Donkey Kong 64 es un videojuego de plataformas de 1999 desarrollado por Rare y publicado por Nintendo para Nintendo 64. Es el primer juego en 3D de la serie Donkey Kong. Como el gorila Donkey Kong, se explora niveles temáticos para recolectar artículos y rescatar a sus amigos secuestrados por el rey K. Rool. El jugador completa minijuegos y rompecabezas como cinco personajes Kong jugables, cada uno con sus propias habilidades especiales, para recibir plátanos y otros objetos coleccionables.",
   notes: "Donkey Kong 64 (Rare, 1999) running on Nintendo Switch through static recompilation. Latest release: v1.1.2. You need your own copy of the game.",
   notesEs: "Donkey Kong 64 (Rare, 1999) en Nintendo Switch mediante recompilación estática. Última release: v1.1.2. Necesitas tu propia copia del juego.",
 };

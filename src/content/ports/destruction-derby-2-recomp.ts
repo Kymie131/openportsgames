@@ -19,6 +19,8 @@ export const destructionDerby2Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Destruction Derby 2 is a 1996 vehicular combat racing video game developed by Reflections Interactive and published by Psygnosis for PlayStation and Microsoft Windows. The sequel to Destruction Derby (1995) and developed by the same team, players race with the goal of earning points by damaging opponent cars. Standard races and matches based in arenas with the goal of remaining the last player driving are also available.",
+  summaryEs: "Destruction Derby 2 es un videojuego de carreras de combate vehicular desarrollado por Reflections Interactive y publicado en 1996 por Psygnosis para Microsoft Windows y PlayStation. La versión para Sega Saturn fue cancelada después de que Perfect Entertainment's y THQ dejasen de dar soporte a la consola por su bajo rendimiento comercial.",
   notes:
     "Recompilation of Destruction Derby 2 (PS1, USA SCUS-94350) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

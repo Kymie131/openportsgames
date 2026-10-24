@@ -19,6 +19,8 @@ export const drMarioNesRecomp: Port = {
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
   originalSystems: ["Nintendo Entertainment System"],
+  summary: "Dr. Mario is a 1990 puzzle video game developed and published by Nintendo for the Nintendo Entertainment System and Game Boy. A spin-off of the Mario series, it is a falling block puzzle game in which the player's objective is to destroy the viruses populating the on-screen playing field by using colored capsules that are automatically tossed into the field by Dr. Mario. The player manipulates the falling capsules, to align the same colors, which destroys viruses. The player progresses through the game by eliminating all the viruses on the screen in each level.",
+  summaryEs: "Dr. Mario es un videojuego de lógica desarrollado por Nintendo publicado en el año 1990. Se lanzó para los sistemas NES, Game Boy y sistemas recreativos renombrada como Vs. Dr. Mario.",
   notes:
     "Static recompilation of Dr. Mario (NES) with the NESRecomp framework. Playable: title screen, options menu and 1-player mode, with separate builds for the USA (Rev 1) and European ROMs.",
   notesEs:

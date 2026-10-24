@@ -20,6 +20,8 @@ export const kirbysDreamLandRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy"],
+  summary: "Kirby's Dream Land is a 1992 platform game developed by HAL Laboratory and published by Nintendo for the Game Boy. It is the first game in the Kirby series and marks the debut of Kirby. It introduced many conventions that would appear in later games in the series. The game follows Kirby as he goes through five levels to retrieve the Sparkling Stars and food of Dream Land from King Dedede.",
+  summaryEs: "Kirby's Dream Land, es un videojuego de la videoconsola portátil Game Boy, desarrollado por HAL Laboratory. Fue el primer juego de la serie de Kirby. Primero fue lanzado en Japón el 27 de abril de 1992, en Estados Unidos y Canadá el 1 de agosto de 1992, en México el 6 de septiembre de 1992 y en Europa fue lanzado el 3 de agosto de 1992.",
   notes: "PortsDR lists this recompilation without a public repository. Own the game to play it.",
   notesEs:
     "PortsDR lista esta recompilación sin repositorio público. Necesitas el juego para jugarla.",

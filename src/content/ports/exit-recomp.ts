@@ -19,6 +19,8 @@ export const exitRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Xbox 360"],
+  summary: "Exit is a 2005 puzzle video game developed and published by Taito for the PlayStation Portable. It was released in Japan on December 15, 2005, in North America on February 14, 2006, in Australia on March 30, 2006, and in Europe on March 31, 2006. A version for the Xbox 360 was released via Xbox Live Arcade on October 24, 2007. A version for the Nintendo DS was released in 2008 as Exit DS.",
+  summaryEs: "Exit es un videojuego de plataformas desarrollado y publicado por Taito Corporation para el sistema PlayStation Portable. Se puso en venta en Japón el 15 de diciembre de 2005, y en Estados Unidos el 14 de febrero de 2006 y Europa el 31 de marzo de 2006, hubo una secuela desarrollada para Xbox Live llamada Exit 2.",
   notes: "A ReXGlue-based static recompilation of EXIT (Xbox 360). Requires your own copy.",
   notesEs: "Recompilación estática de EXIT (Xbox 360) basada en ReXGlue. Requiere tu propia copia.",
   cover: {

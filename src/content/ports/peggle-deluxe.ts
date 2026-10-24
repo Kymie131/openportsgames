@@ -7,7 +7,7 @@ export const PeggleDeluxe: Port = {
   game: "Peggle Deluxe",
   developers: ["teampopwork"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2007,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const PeggleDeluxe: Port = {
     alt: "Peggle Deluxe (box art)",
     credit: "Wikipedia",
   },
+  summary: "Take your best shot with energizing arcade fun! Aim, shoot, clear the orange pegs, then sit back and cheer as 10 whimsical teachers guide you to Peggle greatness.",
+  summaryEs: "Peggle Deluxe es un videojuego de acción y aventura publicado por PopCap Games, Inc. en 2007.",
   notes: "WIP Decompilation of Peggle Deluxe 1.01.",
   notesEs: "Decompilación de Peggle Deluxe 1.01, en desarrollo.",
 };

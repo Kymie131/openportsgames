@@ -21,6 +21,8 @@ export const dinosaurPlanetRecomp: Port = {
   originalSystems: ["Nintendo 64"],
   features: ["Configurable window size, including a 4:3 aspect ratio option"],
   featuresEs: ["Tamaño de ventana configurable, incluida una opción de relación de aspecto 4:3"],
+  summary: "Dinosaur Planet is a platform game published by Nintendo.",
+  summaryEs: "Dinosaur Planet es un videojuego de plataformas publicado por Nintendo.",
   notes:
     "Static recompilation of the unreleased 2000 Dinosaur Planet prototype by Rare. The original game was never commercially released, so this entry documents a prototype rather than a shipped title; the original prototype build is required to play.",
   notesEs:

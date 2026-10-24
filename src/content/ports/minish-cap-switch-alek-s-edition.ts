@@ -25,6 +25,8 @@ export const minishCapSwitchAlekSEdition: Port = {
     alt: "The Legend of Zelda: The Minish Cap (box art)",
     credit: "Wikipedia",
   },
+  summary: "The Legend of Zelda: The Minish Cap is a 2004 action-adventure game developed by Capcom and Flagship and published by Nintendo for the Game Boy Advance. The twelfth entry in The Legend of Zelda series, The Minish Cap was released for the Game Boy Advance in Japan and Europe in 2004 and in North America and Australia the following year.",
+  summaryEs: "The Legend of Zelda: The Minish Cap, conocido en Japón como Zelda no Densetsu: Fushigi no Bōshi , es el duodécimo videojuego de la saga The Legend of Zelda, desarrollado por Flagship bajo la supervisión de Nintendo. The Minish Cap es el primer título original de la saga para consola portátil tras la reedición de The Legend of Zelda: A Link to the Past junto con el primer Zelda multijugador, The Legend of Zelda: Four Swords. El juego llegó a Game Boy Advance en noviembre de 2004 en Japón y Europa, y a principios de 2005 en Estados Unidos y Australia.",
   notes: "The Legend of Zelda: The Minish Cap (Nintendo, 2004) running on Nintendo Switch through source port. Latest release: v2.0.1. You need your own copy of the game.",
   notesEs: "The Legend of Zelda: The Minish Cap (Nintendo, 2004) en Nintendo Switch mediante port de código. Última release: v2.0.1. Necesitas tu propia copia del juego.",
 };

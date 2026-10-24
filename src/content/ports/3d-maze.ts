@@ -7,7 +7,7 @@ export const _3dMaze: Port = {
   game: "3D Maze",
   developers: ["x86matthew"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 1982,
   portType: "runtime-port",
   genre: "action-adventure",
   openSource: true,
@@ -20,6 +20,8 @@ export const _3dMaze: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "3D Maze is a action-adventure game in 1982.",
+  summaryEs: "3D Maze es un videojuego de acción y aventura en 1982.",
   notes: "A playable version of Microsoft's old 3DMaze screensaver from Windows 9x.",
   notesEs: "Una versión jugable del antiguo salvapantallas 3DMaze de Microsoft para Windows 9x.",
 };

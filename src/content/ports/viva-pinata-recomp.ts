@@ -20,6 +20,8 @@ export const vivaPinataRecomp: Port = {
   verified: false,
 
   originalSystems: ["Xbox 360"],
+  summary: "Viva Piñata is a 2006 life simulation game developed by Rare and published by Microsoft Game Studios for the Xbox 360. The game revolves around the player tending to a neglected garden on Piñata Island, in which different variations of piñatas based on animals must be bred whilst fending off disruptive interlopers. The project was headed by Gregg Mayles and the team behind the Banjo-Kazooie series, based on an idea from Rare co-founder Tim Stamper. Microsoft wanted the game to become a key franchise for the platform, and developed a tie-in television series to accompany the series.",
+  summaryEs: "Viva Piñata es un videojuego de simulación para Xbox 360, PC y Nintendo DS desarrollado por Rare y distribuido por Microsoft Game Studios, en la cual tiene como objetivo cuidar un jardín de animales piñata.",
   notes:
     "Recompilation of the original Viva Piñata (Xbox 360) for Windows. It needs your own game data.",
   notesEs:

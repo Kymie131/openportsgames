@@ -25,6 +25,8 @@ export const galaxyOnFire2UnityRemake: Port = {
     alt: "Galaxy on Fire 2™ Full HD (cover art)",
     credit: "Steam",
   },
+  summary: "A hyperdrive malfunction sends Keith T. Maxwell tumbling through space and time to fight for his life against a mysterious alien armada that is wreaking havoc.",
+  summaryEs: "Galaxy on Fire 2™ Full HD es un videojuego de simulación publicado por bitComposer Games en 2012.",
   notes: "Galaxy on Fire 2™ Full HD (Fishlabs, 2009) for Android (source port). Latest release: 2026.10.18. Needs your own copy of the game.",
   notesEs: "Galaxy on Fire 2™ Full HD (Fishlabs, 2009) para Android (port de código). Última release: 2026.10.18. Necesita tu propia copia del juego.",
 };

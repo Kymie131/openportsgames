@@ -26,6 +26,8 @@ export const finesthourremasteredPc: Port = {
     alt: "Call of Duty: Finest Hour (box art)",
     credit: "Wikipedia",
   },
+  summary: "Call of Duty: Finest Hour is a 2004 first-person shooter video game developed by Spark Unlimited and published by Activision for GameCube, PlayStation 2, and Xbox. It is the first console installment of the Call of Duty series.",
+  summaryEs: "Call of duty: Finest Hour es un videojuego de disparos en primera persona y spin-off del primer Call of Duty, que pone de escenario nuevamente la Segunda Guerra Mundial. Es el tercer videojuego de esta exitosa serie y el primero que da el salto a las consolas PlayStation 2, Gamecube, y Xbox.",
   notes: "Static recompilation of Call of Duty: Finest Hour (Xbox) with Direct3D 12, mouse and keyboard, up to 360 FPS, widescreen and optional remastered graphics. Bring your own game.",
   notesEs: "Recompilación estática de Call of Duty: Finest Hour (Xbox) con Direct3D 12, ratón y teclado, hasta 360 FPS, pantalla ancha y gráficos remasterizados opcionales. Aporta tu propia copia del juego.",
 };

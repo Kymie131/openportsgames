@@ -25,6 +25,8 @@ export const spiderManWebOfShadowsPc: Port = {
     alt: "Spider-Man: Web of Shadows (box art)",
     credit: "Wikipedia",
   },
+  summary: "Spider-Man: Web of Shadows is a 2008 action-adventure video game based on the Marvel Comics character Spider-Man. The game was released in October 2008 across multiple platforms, and encompasses three drastically different versions: one released for Microsoft Windows, the PlayStation 3, Wii, and Xbox 360, which features an open world and non-linear gameplay; one for the PlayStation 2 and PlayStation Portable, which is a 2.5D side-scrolling beat 'em up; and one for the Nintendo DS, a Metroidvania-style beat 'em up.",
+  summaryEs: "Spider-Man: Web of Shadows es el título de un videojuego que abarca tres versiones: un juego de acción en 3D para Xbox 360, PlayStation 3, Microsoft Windows y Wii; un juego de acción beat em up de desplazamiento lateral 2.5D para PlayStation Portable y PlayStation 2, y una pelea de desplazamiento lateral 2.5D para Nintendo DS.",
   notes: "Spider-Man: Web of Shadows (Activision, 2008) running on Windows through static recompilation. Latest release: v2.0.0. You need your own copy of the game.",
   notesEs: "Spider-Man: Web of Shadows (Activision, 2008) en Windows mediante recompilación estática. Última release: v2.0.0. Necesitas tu propia copia del juego.",
 };

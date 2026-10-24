@@ -26,6 +26,8 @@ export const isaacFlashRecomp: Port = {
     alt: "The Binding of Isaac (cover art)",
     credit: "Steam",
   },
+  summary: "The Binding of Isaac is a action-adventure game.",
+  summaryEs: "The Binding of Isaac es un videojuego de acción y aventura.",
   notes: "Native C++ recompilation of the original Flash The Binding of Isaac (2011) at 60 fps and 1080p for Windows, Linux and Switch. Requires the original game from Steam; the v1.3.0 release also ships an APK asset.",
   notesEs: "Recompilación nativa en C++ del The Binding of Isaac original (Flash, 2011) a 60 fps y 1080p para Windows, Linux y Switch. Requiere el juego original de Steam; la release v1.3.0 también incluye un APK.",
 };

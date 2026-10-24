@@ -20,6 +20,8 @@ export const bloodyRoar2Recomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  summary: "Bloody Roar 2, known as Bloody Roar 2: Bringer of the New Age in Europe and Japan and as Bloody Roar II: The New Breed in the United States, is a 1998 arcade fighting video game developed by Raizing and published by Hudson Soft. It is the second installment in the Bloody Roar series. A port to the PlayStation home console was released in 1999. It has since been re-released for PlayStation 3, PlayStation Vita and PlayStation Portable via the North American PlayStation Network as of 2021. The game was followed up by Bloody Roar 3 (2000).",
+  summaryEs: "Bloody Roar 2 es la segunda parte de la saga de videojuegos de lucha Bloody Roar, que fue lanzada en versión arcade y consola. Las versiones de consola incluye los modos Arcade, History, Custom y Watch en donde podremos ver pelear al CPU vs CPU. Hudson se ha encargado de reducir el nivel de sangre y de gritos en la versión original (japonesa) de Bloody Roar 2, pero aumentó el nivel de los gráficos.",
   notes:
     "A PortsDR community listing; no repository or release is public. The original game is required.",
   notesEs:

@@ -20,6 +20,8 @@ export const dishsoap: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  summary: "The Dishwasher: Dead Samurai is a beat 'em up game developed by independent software developer James Silva for the Xbox 360's Xbox Live Arcade service. A Windows port was announced, but a release date on Steam has not yet been set.",
+  summaryEs: "The Dishwasher: Dead Samurai es un videojuego de acción y aventura publicado por Xbox Game Studios en 2009.",
   notes:
     "Community Android port of The Dishwasher: Dead Samurai (Xbox 360). It needs the original game.",
   notesEs:

@@ -27,6 +27,8 @@ export const carter54gitDethracePortedToWeb: Port = {
     alt: "Carmageddon (box art)",
     credit: "Wikipedia",
   },
+  summary: "Carmageddon is a vehicular combat video game released for PC in 1997. It was produced by Stainless Games and published by Interplay Productions and Sales Curve Interactive. It was ported to other platforms, and spawned a series.",
+  summaryEs: "Carmageddon es un videojuego de combate en vehículos creado en 1997 que destacó por incluir una proporción importante de violencia en su modo de juego. El juego tiene como misión principal acabar la carrera o destrozar los coches de los contrarios, no obstante la matanza de peatones es un aliciente. En su época sufrió duras críticas que irónicamente lo llevaron a los primeros puestos de ventas. El juego fue producido por Stainless Software y publicado por Interplay y Sales Curve Interactive (SCi).",
   notes: "Carmageddon: decompilation by Carter54git for Windows. Bring your own copy of the game.",
   notesEs: "Carmageddon: decompilación de Carter54git para Windows. Aporta tu propia copia del juego.",
 };

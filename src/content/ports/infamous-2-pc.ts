@@ -25,6 +25,8 @@ export const infamous2Pc: Port = {
     alt: "inFAMOUS 2 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Infamous 2 is a 2011 action-adventure video game developed by Sucker Punch Productions and published by Sony Computer Entertainment for the PlayStation 3. The second installment in the Infamous series, it is the sequel to the 2009 video game Infamous.",
+  summaryEs: "Infamous 2 es un videojuego de acción y aventura hack & slash de mundo abierto desarrollado por Sucker Punch Productions y publicado por Sony Computer Entertainment para la PlayStation 3. La segunda entrega de la serie inFAMOUS, es la secuela del videojuego inFAMOUS de 2009.",
   notes: "inFAMOUS 2 (Sucker Punch Productions, 2011) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "inFAMOUS 2 (Sucker Punch Productions, 2011) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

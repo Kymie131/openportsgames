@@ -20,6 +20,8 @@ export const openWheels: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Happy Wheels is a side-scrolling ragdoll physics-based platform browser game developed and published by Fancy Force. Created in 2010 by video game designer Jim Bonacci, the game features several player characters using various and often atypical vehicles to traverse the game's many user-generated levels. The game is best known for its graphic violence and the amount of user-generated content its players produce on a regular basis, with game maps shared on a public server.",
+  summaryEs: "Happy Wheels es un juego de navegador basado en la física ragdoll desarrollado y publicado por Fancy Force. Creado por el diseñador de videojuegos Jim Bonacci en 2010, el juego cuenta con varios personajes, que utilizan vehículos diferentes, a veces anormales, para atravesar muchos niveles del juego. El juego es conocido por su violencia gráfica y la cantidad de contenido generado por el usuario, que sus jugadores producen sobre una base regular, con los mapas de juego compartidos en un servidor público.",
   notes: "Happy Wheels (Jim Bonacci, 2010) for Android (source port). Latest release: v0.3.0. Needs your own copy of the game.",
   notesEs: "Happy Wheels (Jim Bonacci, 2010) para Android (port de código). Última release: v0.3.0. Necesita tu propia copia del juego.",
 };

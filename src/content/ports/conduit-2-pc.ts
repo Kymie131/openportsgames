@@ -25,6 +25,8 @@ export const conduit2Pc: Port = {
     alt: "Conduit 2 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Conduit 2 is a first-person shooter video game developed by High Voltage Software for the Wii video game console. It is the sequel to The Conduit. The definite article of the original title was dropped during development as the developers considered it \"too much of a mouthful\".",
+  summaryEs: "Conduit 2 es un videojuego de disparos en primera persona o FPS desarrollado por High Voltage Software y publicado por Sega exclusivamente para Wii. Es la secuela de The Conduit. Los desarrolladores decidieron cambiar el nombre a Conduit 2 porque pensaron que \"The Conduit 2\" no le quedaría bien, algo similar a lo ocurrido con las películas The Terminator y Terminator 2.",
   notes: "Conduit 2 (Sega, 2011) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Conduit 2 (Sega, 2011) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

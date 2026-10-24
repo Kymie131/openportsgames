@@ -25,6 +25,8 @@ export const NascarHeat2002: Port = {
     alt: "NASCAR Heat 2002 (cover)",
     credit: "Wikipedia",
   },
+  summary: "NASCAR Heat 2002, sometimes mislabeled as NASCAR Heat, is a NASCAR video game produced by Infogrames for the Xbox, PlayStation 2, and Game Boy Advance consoles. It is the successor to the 2000 game NASCAR Heat, and the predecessor to NASCAR: Dirt to Daytona. NASCAR Heat 2002 can have up to 24 (PS2) or 43 racers on one of 19 official NASCAR tracks, and the game was released in June 2001 for PlayStation 2. A port for the Xbox was released in November 2001. Developed by Crawfish Interactive, a distinct version for Game Boy Advance was released in May 2002.",
+  summaryEs: "NASCAR Heat 2002 es un videojuego de acción y aventura en 2001.",
   notes: "Matching decompilation of NASCAR Heat 2002 (GBA).",
   notesEs: "Decompilación que coincide de NASCAR Heat 2002 (GBA).",
 };

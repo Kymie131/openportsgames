@@ -25,6 +25,8 @@ export const scoobyDooUnmaskedPc: Port = {
     alt: "Scooby-Doo! Unmasked (box art)",
     credit: "Wikipedia",
   },
+  summary: "Scooby-Doo! Unmasked is a platform game based on the Scooby-Doo franchise. It was developed by Artificial Mind and Movement and published by THQ for the Xbox, PlayStation 2, GameCube, Game Boy Advance, and Nintendo DS.",
+  summaryEs: "Scooby-Doo! Unmasked es un videojuego de acción y aventura publicado por THQ en 2005.",
   notes: "Scooby-Doo! Unmasked (THQ, 2005) running on Windows through static recompilation. Latest release: v1.0.1. You need your own copy of the game.",
   notesEs: "Scooby-Doo! Unmasked (THQ, 2005) en Windows mediante recompilación estática. Última release: v1.0.1. Necesitas tu propia copia del juego.",
 };

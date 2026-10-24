@@ -25,6 +25,8 @@ export const skate3Android: Port = {
     alt: "Skate 3 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Skate 3 is a 2010 skateboarding video game, the third installment in the Skate series and the sequel to 2009's Skate 2, developed by EA Black Box and published by Electronic Arts. It was released worldwide in May 2010 for PlayStation 3 and Xbox 360. The game takes place in the fictional city of Port Carverton, which embraces skateboarding, unlike considering it a crime in the second game. The player character goes by the alias \"The Legend\". After failing to \"Jump The Shark\", their goal becomes creating a successful skateboarding team.",
+  summaryEs: "Skate 3 es la tercera entrega de la serie de videojuegos Skate, desarrollado por EA Black Box y distribuido por Electronic Arts. Publicado el 11 de mayo de 2010, es la secuela del juego del 2009, Skate 2.",
   notes: "Skate 3 (Electronic Arts, 2010) for Android (source port). Latest release: v0.2.0. Needs your own copy of the game (Skate 3 ISO).",
   notesEs: "Skate 3 (Electronic Arts, 2010) para Android (port de código). Última release: v0.2.0. Necesita tu propia copia del juego.",
 };

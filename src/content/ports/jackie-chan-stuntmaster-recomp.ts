@@ -19,6 +19,8 @@ export const jackieChanStuntmasterRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Jackie Chan Stuntmaster is a 2000 beat 'em up platform video game developed by Radical Entertainment for the PlayStation. Midway Games released it in North America while Sony Computer Entertainment released it in Europe.",
+  summaryEs: "Jackie Chan Stuntmaster es un juego de peleas beat em'up para PlayStation basado en el actor y artista marcial Jackie Chan.",
   notes:
     "Recompilation of Jackie Chan Stuntmaster (PS1, USA SLUS-00684) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

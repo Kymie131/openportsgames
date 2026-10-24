@@ -19,6 +19,8 @@ export const megaMan8Recomp: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Mega Man 8 is a 1996 platform game developed and published by Capcom. It was directed by Hayato Kaji and produced by Keiji Inafune, both of whom had previously worked on the series as artists. It is the eighth installment in the original Mega Man series, and was initially released in Japan on the PlayStation in 1996. The following year, Mega Man 8 saw a release on the Sega Saturn and was localized for both consoles in North America and the PlayStation alone in PAL regions. Mega Man 8 is the first game in the series made available on 32-bit consoles.",
+  summaryEs: "Mega Man 8, conocido en Japón como Rockman 8: Metal Heroes , es un videojuego de plataformas y acción publicado por Capcom. Es el octavo juego de la serie Mega Man, y fue originalmente publicado en Japón para PlayStation el 17 de diciembre de 1996. Al año siguiente, Mega Man 8 tuvo una versión para Sega Saturn y fue localizado para ambas consolas en Norteamérica y para PlayStation en territorios PAL. Con su lanzamiento, la franquicia cumplió su décimo aniversario. Mega Man 8 fue el primer juego de la serie que estuvo disponible para consolas de 32 bits.",
   notes:
     "Recompilation of Mega Man 8 (PlayStation) built with mstan's PSXRecomp tool. It includes no game assets and needs your own copy.",
   notesEs:

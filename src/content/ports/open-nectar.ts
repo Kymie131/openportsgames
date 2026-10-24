@@ -20,6 +20,8 @@ export const openNectar: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
+  summary: "Pikmin is a real-time strategy and puzzle video game series created by Shigeru Miyamoto, and developed and published by Nintendo. The games focus on directing a legion of plant-like creatures called Pikmin to collect items by destroying the area around them, avoiding hazards, and fighting fauna that are hazardous to both the player character and the Pikmin.",
+  summaryEs: "Pikmin es una serie de videojuegos creada por Shigeru Miyamoto, lanzada por primera vez en Nintendo GameCube; en la que el protagonista es un astronauta que deberá dirigir sus propios escuadrones de Pikmin, unas criaturas diminutas que le ayudarán a superar una serie de problemas. Los personajes protagónicos de la serie, Capitán Olimar y Luis están probablemente basados en Mario y Luigi, los emblemas de la compañía Nintendo.",
   notes:
     "Native port of Pikmin (GameCube) built on the projectPiki decompilation, with the GX graphics translated to OpenGL (no emulator). It runs on Windows, Linux and Android, and adds 30/60/120 FPS, widescreen, full audio, custom texture packs and local co-op.",
   notesEs:

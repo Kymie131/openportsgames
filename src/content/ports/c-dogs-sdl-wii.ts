@@ -20,6 +20,8 @@ export const cDogsSdlWii: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
+  summary: "C-Dogs, the sequel to Cyberdogs, is a shoot 'em up video game where players work cooperatively during missions and against each other in \"dogfight\" deathmatch mode.",
+  summaryEs: "C-Dogs es un videojuego de disparos en 1997.",
   notes: "C-Dogs (Ronny Wester, 1997) running on Wii through source port. The original game is free software, so no commercial copy is needed.",
   notesEs: "C-Dogs (Ronny Wester, 1997) en Wii mediante port de código. El juego original es software libre, así que no hace falta una copia comercial.",
 };

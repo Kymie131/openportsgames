@@ -25,6 +25,8 @@ export const fttaRecomp: Port = {
     alt: "Final Fantasy Tactics Advance (box art)",
     credit: "Wikipedia",
   },
+  summary: "Final Fantasy Tactics Advance is a 2003 tactical role-playing game developed by Square for the Game Boy Advance, and published by Square in Japan and Nintendo internationally. A successor to Final Fantasy Tactics (1997), the story follows the trials of some children from the town of St. Ivalice after a magical book transforms their home into a fantasy realm of the same name. Gameplay has player teams fighting in turn-based combat on a grid, with units using a themed Job system. A new feature is a \"Law\" system, which places random limitations on player action during battles.",
+  summaryEs: "Final Fantasy Tactics Advance es un videojuego desarrollado por Square Enix en 2003 para la consola Game Boy Advance. Este juego es un spin-off de la popular serie Final Fantasy y, al igual que el videojuego de 1997 Final Fantasy Tactics para PlayStation, cambia el estilo original de la serie para embarcarse a un género más táctico. El jugador dirige a un clan con diferentes miembros y controla sus acciones en unos escenarios distribuidos por casillas.",
   notes: "Final Fantasy Tactics Advance (Square, 2003) for Android (static recompilation). Latest release: v1.6. Needs your own copy of the game.",
   notesEs: "Final Fantasy Tactics Advance (Square, 2003) para Android (recompilación estática). Última release: v1.6. Necesita tu propia copia del juego.",
 };

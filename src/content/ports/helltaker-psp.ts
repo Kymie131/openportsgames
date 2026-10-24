@@ -25,6 +25,8 @@ export const helltakerPsp: Port = {
     alt: "Helltaker (box art)",
     credit: "Wikipedia",
   },
+  summary: "Helltaker is a 2020 freeware indie puzzle-adventure game with dating-sim elements designed by Polish developer Łukasz Piskorz, also known as \"vanripper\". It was released in May 2020 for Microsoft Windows, macOS, and Linux, and is described as \"a short game about sharply dressed demon girls\".",
+  summaryEs: "Helltaker es un juego de aventuras y misterio indie gratuito con elementos de simulación de citas diseñado por el desarrollador polaco Łukasz Piskorz, también conocido como Vanripper. Fue lanzado en mayo de 2020 para Microsoft Windows, macOS y Linux, y se describe como: \"un juego corto sobre chicas demoníacas elegantemente vestidas\".",
   notes: "Complete fan-made port (demake) of Helltaker and Examtaker for the Sony PSP with a native C engine, playtested on real hardware and running on ARK-4/ARK-5. Latest release: full-game-2.1.",
   notesEs: "Port completo hecho por fans (demake) de Helltaker y Examtaker para la PSP de Sony con un motor nativo en C, probado en hardware real y funcionando en ARK-4/ARK-5. Última release: full-game-2.1.",
 };

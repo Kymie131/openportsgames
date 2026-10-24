@@ -7,7 +7,7 @@ export const MonsterHunter4Ultimate: Port = {
   game: "Monster Hunter 4 Ultimate",
   developers: ["mhvuze"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2014,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const MonsterHunter4Ultimate: Port = {
     alt: "Monster Hunter 4 Ultimate (cover)",
     credit: "Wikipedia",
   },
+  summary: "Monster Hunter 4 Ultimate is a action-adventure game in 2014.",
+  summaryEs: "Monster Hunter 4 Ultimate es un videojuego de acción y aventura en 2014.",
   notes:
     "Progress tracking for a matching decompilation of Monster Hunter 4 Ultimate (Nintendo 3DS, EU v1.1).",
   notesEs:

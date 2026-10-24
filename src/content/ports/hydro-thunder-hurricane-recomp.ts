@@ -25,6 +25,8 @@ export const hydroThunderHurricaneRecomp: Port = {
     alt: "Hydro Thunder Hurricane (box art)",
     credit: "Wikipedia",
   },
+  summary: "Hydro Thunder Hurricane is a boat racing video game developed by Vector Unit and published by Microsoft Game Studios for the Xbox 360 via Xbox Live Arcade. The game was released on July 28, 2010 as part of Microsoft's Xbox Live Summer of Arcade promotion. It is the sequel to Hydro Thunder, originally an arcade game, and part of the Thunder series, developed by Midway Games and under license of Warner Bros. Games, Midway's license owner. It was also released onto the Windows Store. The game was added to the list of Xbox 360 backward compatible games on Xbox One on December 17, 2015.",
+  summaryEs: "Hydro Thunder Hurricane es un videojuego de carreras de botes desarrollado por Vector Unit y publicado por Microsoft Game Studios para Xbox 360 a través de Xbox Live Arcade. El juego fue lanzado el 28 de julio de 2010 como parte de la promoción Xbox Live Summer of Arcade de Microsoft. Es la secuela de Hydro Thunder, originalmente un juego de arcade y parte de la serie Thunder. También se lanzó a la Tienda Windows. El 17 de diciembre de 2015 se agregó a la lista de juegos compatibles con versiones anteriores de Xbox 360 en Xbox One.",
   notes: "Native PC build of Hydro Thunder Hurricane (Xbox 360, 2010) produced by static recompilation with the ReXGlue SDK: a real port rather than an emulator. Latest release: Release.",
   notesEs: "Build nativo para PC de Hydro Thunder Hurricane (Xbox 360, 2010) mediante recompilación estática con el SDK ReXGlue: un port real, no un emulador. Última release: Release.",
 };

@@ -27,6 +27,8 @@ export const nvdemuApeescaperecompMacwindowslinux: Port = {
     alt: "Ape Escape (box art)",
     credit: "Box art",
   },
+  summary: "Ape Escape is a series of video games developed primarily by Japan Studio and published and owned by Sony Interactive Entertainment. The series incorporates ape-related humour, unique gameplay, and a wide variety of pop culture references. The first game in the series is the first to require the DualShock or Dual Analog controller to play.",
+  summaryEs: "Ape Escape es un videojuego de plataformas.",
   notes: "Ape Escape: static recompilation by NVDEMU for Windows, macOS. Bring your own copy of the game.",
   notesEs: "Ape Escape: recompilación estática de NVDEMU para Windows, macOS. Aporta tu propia copia del juego.",
 };

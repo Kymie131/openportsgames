@@ -26,6 +26,8 @@ export const promethendevWwe2k14Recomp: Port = {
     alt: "WWE 2K14 (box art)",
     credit: "Wikipedia",
   },
+  summary: "WWE 2K14 is a professional wrestling video game developed by Yuke's and published by 2K for the PlayStation 3 and Xbox 360. It was released on October 29, 2013, in North America, October 30, 2013, in Japan, October 31, 2013, in Australia, and November 1, 2013, in Europe and India. The game's box art features The Rock as the cover athlete. It received generally mixed-to-positive reviews.",
+  summaryEs: "WWE 2K14 es un videojuego de lucha libre profesional desarrollado por Yuke's y Visual Concepts y publicado por 2K Sports, que está disponible para las consolas PlayStation 3 y Xbox 360. Es el primer juego publicado por 2K Sports desde que Take-Two consiguió la licencia de THQ tras su quiebra. Es una secuela de WWE '13 y el primer juego de la serie WWE 2K. Fue lanzado el 29 de octubre de 2013 en Norteamérica y el 1 de noviembre en Europa, al igual que en Sudamérica.",
   notes: "WWE 2K14: static recompilation by PromethenDev for Windows, Linux. Bring your own copy of the game.",
   notesEs: "WWE 2K14: recompilación estática de PromethenDev para Windows, Linux. Aporta tu propia copia del juego.",
 };

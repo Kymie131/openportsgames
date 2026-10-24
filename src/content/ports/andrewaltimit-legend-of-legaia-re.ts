@@ -26,6 +26,8 @@ export const andrewaltimitLegendOfLegaiaRe: Port = {
     alt: "Legend of Legaia (box art)",
     credit: "Box art",
   },
+  summary: "Legend of Legaia is a role-playing video game developed by Prokion and published by Sony Computer Entertainment for the PlayStation. Contrail handled the game's production. It was released in Japan in October 1998, North America in March 1999, and Europe in May 2000. A sequel, Legaia 2: Duel Saga, was released for the PlayStation 2.",
+  summaryEs: "Legend of Legaia es un videojuego para la consola PlayStation (PSOne) que en España salió en junio del 2000. El juego llegó a España con dos años de retraso. En Japón salió a la venta el juego a finales de 1998. Legend of Legaia es un juego con gráficos parecidos a Final Fantasy VII y compartía similitudes con esta saga. Tuvo una secuela en 2001 titulado Legaia 2: Duel Saga para la consola PlayStation 2.",
   notes: "Legend of Legaia: engine remake by AndrewAltimit for Windows. Bring your own copy of the game.",
   notesEs: "Legend of Legaia: recreación de motor de AndrewAltimit para Windows. Aporta tu propia copia del juego.",
 };

@@ -19,6 +19,8 @@ export const zumaDeluxeAndroid: Port = {
   license: { spdx: "MIT" },
   verified: false,
   originalSystems: ["Windows"],
+  summary: "Deep in the jungle lie hidden temples bursting with traps and trickery, and it's up to you to uncover their treasures. Fire magical balls from your stone frog idol to make matches of three or more and clear the deadly chain before it reaches the golden skull.",
+  summaryEs: "Zuma Deluxe es un videojuego de puzles publicado por PopCap Games, Inc. en 2006.",
   notes:
     "Unofficial Android build of Zuma Deluxe. It is distributed as an APK and needs the original game assets.",
   notesEs:

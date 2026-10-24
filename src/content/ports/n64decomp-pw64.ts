@@ -22,6 +22,8 @@ export const n64decompPw64: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Pilotwings 64 is a 1996 flight simulation video game developed by Nintendo and Paradigm Simulation and published by Nintendo for the Nintendo 64. It was one of three launch titles for the Nintendo 64 in Japan as well as Europe and one of two launch titles in North America, along with Super Mario 64. Pilotwings 64 is a sequel to Pilotwings for the Super Nintendo Entertainment System, which was a North American launch game for its respective console in 1991. Also like that game, Pilotwings 64 received production input from Nintendo producer and EAD General Manager Shigeru Miyamoto.",
+  summaryEs: "Pilotwings 64 es un videojuego para la Nintendo 64 publicado en 1996, junto con el lanzamiento de la consola. Fue el único de los dos títulos lanzados conjuntamente con la consola junto con Super Mario 64. El juego es una secuela de Pilotwings, aparecido para la SNES, el cual fue también un título publicado con el lanzamiento de esta consola.",
   notes: "Pilotwings 64: decompilation by n64decomp for Windows. Bring your own copy of the game.",
   notesEs: "Pilotwings 64: decompilación de n64decomp para Windows. Aporta tu propia copia del juego.",
   cover: {

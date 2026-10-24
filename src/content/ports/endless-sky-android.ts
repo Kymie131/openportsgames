@@ -25,6 +25,8 @@ export const endlessSkyAndroid: Port = {
     alt: "Endless Sky (cover art)",
     credit: "Steam",
   },
+  summary: "Endless Sky is a space trading and combat simulation video game, created by Michael Zahniser and first released in June 2015. In Endless Sky, the player starts out as a spaceship captain and can trade, transport passengers or fight pirates to earn money. There are also a few story lines that the player can choose to participate in. The game is similar to games in the Escape Velocity series.",
+  summaryEs: "Endless Sky es un videojuego de mundo abierto en 2015.",
   notes: "Endless Mobile: fork of the open-source game Endless Sky that adds Android support plus touchscreen and interface changes. Distributed through F-Droid as com.github.thewierdnut.endless_mobile; CI also publishes debug APKs. The game itself is free software, so no commercial copy is required.",
   notesEs: "Endless Mobile: fork del juego de código abierto Endless Sky que añade soporte de Android junto con cambios táctiles y de interfaz. Se distribuye en F-Droid como com.github.thewierdnut.endless_mobile; la CI también publica APKs de depuración. El juego es software libre, así que no hace falta una copia comercial.",
 };

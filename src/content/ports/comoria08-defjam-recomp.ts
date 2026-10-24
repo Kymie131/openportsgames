@@ -26,6 +26,8 @@ export const comoria08DefjamRecomp: Port = {
     alt: "Def Jam: Fight for NY (box art)",
     credit: "Wikipedia",
   },
+  summary: "Def Jam: Fight for NY is a 3D fighting video game developed by AKI Corporation and EA Canada and published by EA Games. It was released for the GameCube, PlayStation 2, and Xbox on September 21, 2004. The game is the second main installment in EA's Def Jam-licensed hip-hop video game series, and the direct sequel to Def Jam Vendetta. It was ported to the PlayStation Portable under the title Def Jam Fight for NY: The Takeover in 2006, and was followed up by Def Jam: Icon in 2007.",
+  summaryEs: "Def Jam: Fight for NY es un videojuego desarrollado por EA en colaboración con THX, cuyo juego es basado en la lucha callejera. Este juego de lucha también incorpora cantantes y actores famosos como por ejemplo Snoop Dogg, Sean Paul, Ice-T, Xzibit, Danny Trejo, etc. Se tenía planeada una versión para Game Boy Advance pero esta terminó siendo cancelada.",
   notes: "Def Jam: Fight for NY: static recompilation by comoria08 for Windows. Bring your own copy of the game.",
   notesEs: "Def Jam: Fight for NY: recompilación estática de comoria08 para Windows. Aporta tu propia copia del juego.",
 };

@@ -25,6 +25,8 @@ export const gzselacoAndroidDualScreen: Port = {
     alt: "Selaco (cover art)",
     credit: "Steam",
   },
+  summary: "Selaco is a shooter game in 2024.",
+  summaryEs: "Selaco es un videojuego de disparos en 2024.",
   notes:
     "Selaco (Altered Orbit Studios, 2024) for Android and macOS (source port). Latest release: v0.2.0. Needs your own copy of the game. A user reported a crash on a Samsung Galaxy S26 Ultra after the permissions prompt; the port targets Android handhelds and dual-screen devices and has not been validated on phones.",
   notesEs:

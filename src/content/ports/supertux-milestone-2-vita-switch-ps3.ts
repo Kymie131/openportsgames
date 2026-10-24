@@ -25,6 +25,8 @@ export const supertuxMilestone2VitaSwitchPs3: Port = {
     alt: "SuperTux (cover art)",
     credit: "Steam",
   },
+  summary: "Classic 2D jump'n'run sidescroller featuring Tux the penguin. Run and jump through multiple worlds, fighting off enemies by jumping on them, bumping them from below or tossing objects at them, grabbing power-ups and other stuff on the way.",
+  summaryEs: "SuperTux es un videojuego de plataformas publicado por The SuperTux Team en 2022.",
   notes: "SuperTux (SuperTux team, 2016) running on PlayStation Vita and Nintendo Switch and PlayStation 3 through source port. Latest release: 1.00. The original game is free software, so no commercial copy is needed.",
   notesEs: "SuperTux (SuperTux team, 2016) en PlayStation Vita and Nintendo Switch and PlayStation 3 mediante port de código. Última release: 1.00. El juego original es software libre, así que no hace falta una copia comercial.",
 };

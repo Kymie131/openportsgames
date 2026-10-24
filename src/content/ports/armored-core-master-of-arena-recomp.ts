@@ -19,6 +19,8 @@ export const armoredCoreMasterOfArenaRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Armored Core: Master of Arena is a 1999 third-person shooter video game developed and published by FromSoftware for the PlayStation. Master of Arena is the third entry in the Armored Core series and a direct sequel to Armored Core: Project Phantasma. It is the final game in the original Armored Core trilogy. The game was not released in Europe. An indirect sequel, Armored Core 2, was released on August 3, 2000, for the PlayStation 2.",
+  summaryEs: "Armored Core: Master of Arena es un videojuego de PlayStation. Este es parte de la serie Armored Core.",
   notes:
     "Recompilation of Armored Core: Master of Arena (PS1, USA SLUS-01030 / SLUS-01081) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

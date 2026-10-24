@@ -26,6 +26,8 @@ export const harvestMoon64Android: Port = {
     alt: "Harvest Moon 64 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Harvest Moon 64, released in Japan as Bokujō Monogatari 2 (牧場物語2), is a 1999 farm simulation video game developed by Victor Interactive Software for the Nintendo 64 console. It was published by Victor Interactive in Japan and by Natsume Inc. in North America. It is the third game in the Story of Seasons series.",
+  summaryEs: "Harvest Moon 64 es un videojuego de simulación publicado por Winning Entertainment Group en 1999.",
   notes: "Android port of Harvest Moon 64 (Nintendo 64, 1999) made with N64: Recompiled. Bring your own ROM. Latest release: v0.2.0.",
   notesEs: "Port para Android de Harvest Moon 64 (Nintendo 64, 1999) hecho con N64: Recompiled. Aporta tu propia ROM. Última release: v0.2.0.",
 };

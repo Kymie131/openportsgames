@@ -25,6 +25,8 @@ export const caesar2: Port = {
     alt: "Caesar II (box art)",
     credit: "Wikipedia",
   },
+  summary: "Caesar II is a 1995 video game of the Caesar video game series that takes place in Ancient Rome. It is the second game in the City Building series.",
+  summaryEs: "Caesar II es un videojuego, dentro del género de la construcción de ciudades. Está contextualizado en la antigua Roma, cuando el imperio romano se extiende más allá de Italia. Fue lanzado en 1995, desarrollado y diseñado por Impressions Games y distribuido por Sierra On-Line.",
   notes: "Portable continuation of the Caesar II (1995) source reconstruction: the game's own code was recovered from the original executable and builds natively on Linux, Windows, macOS and the browser. No DOSBox, no emulator. Latest release: v1.0.3.",
   notesEs: "Continuación portable de la reconstrucción del código de Caesar II (1995): el propio código del juego se recuperó del ejecutable original y compila de forma nativa en Linux, Windows, macOS y el navegador. Sin DOSBox ni emulador. Última release: v1.0.3.",
 };

@@ -25,6 +25,8 @@ export const theLastGuardianPc: Port = {
     alt: "The Last Guardian (box art)",
     credit: "Wikipedia",
   },
+  summary: "The Last Guardian is a 2016 action-adventure game developed by Japan Studio and GenDesign and published by Sony Interactive Entertainment for the PlayStation 4. Players control a boy who befriends a giant legendary creature named Trico; the two must work together to escape the dangerous ruins of an ancient civilization.",
+  summaryEs: "The Last Guardian , referido previamente bajo el nombre provisional Project Trico, es un videojuego perteneciente al género de acción-aventura desarrollado por el SIE Japan Studio y publicado por Sony Interactive Entertainment en exclusiva para la consola PlayStation 4. En el juego, los jugadores controlan a un niño que se hace amigo de una criatura gigante mitad pájaro, mitad mamífero, llamada Trico. The Last Guardian se lanzó en todo el mundo en diciembre del año 2016.",
   notes: "The Last Guardian (genDESIGN, 2016) running on Windows through runtime layer. Latest release: v2026.10.17-b8d5f41. You need your own copy of the game.",
   notesEs: "The Last Guardian (genDESIGN, 2016) en Windows mediante capa de ejecución. Última release: v2026.10.17-b8d5f41. Necesitas tu propia copia del juego.",
 };

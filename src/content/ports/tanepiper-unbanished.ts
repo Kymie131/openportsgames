@@ -7,7 +7,7 @@ export const tanepiperUnbanished: Port = {
   game: "Banished",
   developers: ["tanepiper"],
   publisher: "Nacon",
-  originalYear: 2026,
+  originalYear: 2014,
   portType: "source-port",
   genre: "simulation",
   openSource: true,
@@ -21,6 +21,8 @@ export const tanepiperUnbanished: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "In this city-building strategy game, you control a group of exiled travelers who decide to restart their lives in a new land. They have only the clothes on their backs and a cart filled with supplies from their homeland. The townspeople of Banished are your primary resource.",
+  summaryEs: "Banished es un videojuego de simulación publicado por Shining Rock Software LLC en 2014.",
   notes: "Banished: browser port by tanepiper for the browser. Playable in the browser.",
   notesEs: "Banished: port de navegador de tanepiper para el navegador. Jugable en el navegador.",
 };

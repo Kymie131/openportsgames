@@ -20,6 +20,8 @@ export const wonderfulEverydayPsVita: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  summary: "Wonderful Everyday: Diskontinuierliches Dasein , often abbreviated as SubaHibi, is a Japanese denpa horror mystery visual novel developed by KeroQ. It was released for Windows in 2010 and was given an international release by Frontwing in 2017. It is KeroQ's fourth game after Tsui no Sora, Nijūei and Moekan. SubaHibi shares characters and plot elements with Tsui no Sora, of which it is an expanded retelling.",
+  summaryEs: "Wonderful Everyday es un videojuego de acción y aventura publicado por Front Wing en 2010.",
   notes: "Wonderful Everyday (Frontwing, 2010) running on PlayStation Vita through source port. Latest release: v1.0.0. You need your own copy of the game.",
   notesEs: "Wonderful Everyday (Frontwing, 2010) en PlayStation Vita mediante port de código. Última release: v1.0.0. Necesitas tu propia copia del juego.",
 };

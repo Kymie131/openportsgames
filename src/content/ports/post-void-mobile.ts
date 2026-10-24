@@ -19,6 +19,8 @@ export const postVoidMobile: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Windows"],
+  summary: "Post Void is a shooter game in 2020.",
+  summaryEs: "Post Void es un videojuego de disparos en 2020.",
   notes:
     "Native ARM64 port of Post Void for Android, aiming to match the latest PC build. It needs your own game files.",
   notesEs:

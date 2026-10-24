@@ -26,6 +26,8 @@ export const cncGeneralsZeroHourWeb: Port = {
     alt: "Command & Conquer: Generals - Zero Hour (box art)",
     credit: "Wikipedia",
   },
+  summary: "Command and Conquer: Generals – Zero Hour is the expansion pack for the 2003 video game Command & Conquer: Generals. Zero Hour added several new abilities and units to each side, and a new mode of play called Generals' Challenge, along with a lot more changes, new features and bug/glitch fixes.",
+  summaryEs: "Command & Conquer: Generals Zero Hour es un videojuego de estrategia publicado por Electronic Arts en 2003.",
   notes: "WebAssembly and WebGPU port of Command & Conquer: Generals - Zero Hour that loads your own game files. No assets are bundled.",
   notesEs: "Port a WebAssembly y WebGPU de Command & Conquer: Generals - Zero Hour que carga tus propios archivos. No incluye recursos.",
 };

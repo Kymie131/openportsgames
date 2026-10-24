@@ -29,6 +29,8 @@ export const pokemonStadiumRecomp: Port = {
     "Antialiasing 4x MSAA activado por defecto",
     "Ajustes de gráficos y control recordados entre sesiones",
   ],
+  summary: "Pokémon Stadium is a 1999 strategy video game developed and published by Nintendo for the Nintendo 64. The gameplay revolves around a 3D turn-based battling system using the 151 Pokémon from the Game Boy games Pokémon Red, Blue, and Yellow, with several in-game challenges for players to overcome. The game includes four \"Cups\", each of which is a series of three-on-three Pokémon battles against an ordered lineup of opponents. The \"Gym Leader Castle\" mode involves battles against several boss opponents who appeared in the Game Boy games.",
+  summaryEs: "Pokémon Stadium, conocido en Japón como Pokémon Stadium 2 , es un videojuego de Pokémon lanzado en abril de 2000 para Nintendo 64 en el que se pueden librar combates Pokémon en 3D, transferidos o no desde los juegos Pokémon Rojo y Azul y Pokémon Amarillo, con multitud de modos de juego. Existen dos versiones sin licencia del juego, como un juego raramente pobre para la Sega Mega Drive con muy pocos Pokémon para jugar que comparte música del juego Pocket Monsters 2, también para la Mega Drive.",
   notes:
     "Static recompilation of Pokémon Stadium (N64, USA v1.0) with N64Recomp. It implements the Transfer Pak and GB Tower, and adds its own launcher (SS Anne) to set up carts and controllers. The project went unmaintained in August 2026; the latest release stays available. The upstream repository is archived (read-only).",
   notesEs:

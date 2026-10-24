@@ -26,6 +26,8 @@ export const smaRemasteredAndroid: Port = {
     alt: "Super Mario Bros. (box art)",
     credit: "Wikipedia",
   },
+  summary: "Super Mario Bros. is a 1985 platform game developed and published by Nintendo for the Nintendo Entertainment System (NES). Directed and produced by Shigeru Miyamoto, it is the successor to the 1983 arcade game Mario Bros. and the first game in the Super Mario series. Players control Mario, or his brother Luigi in the multiplayer mode, to traverse the Mushroom Kingdom to rescue Princess Toadstool from King Koopa. They traverse side-scrolling stages while avoiding hazards such as enemies and pits and collecting power-ups such as the Super Mushroom, Fire Flower, and Starman.",
+  summaryEs: "Super Mario Bros. es un videojuego de plataformas desarrollado y publicado por Nintendo para la Nintendo Entertainment System (NES). Dirigido y producido por Shigeru Miyamoto, es la secuela del arcade Mario Bros. de 1983 y el primero de la serie Super Mario. Los jugadores controlan a Mario, o a su hermano Luigi en el modo multijugador, para atravesar el Reino Champiñón y rescatar a la princesa Toadstool del rey Koopa —más tarde llamado Bowser—.",
   notes: "Android port of Super Mario Bros. Remastered by JoeMama and their team. Latest release: 9.",
   notesEs: "Port para Android de Super Mario Bros. Remastered de JoeMama y su equipo. Última release: 9.",
 };

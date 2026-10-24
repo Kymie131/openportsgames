@@ -19,6 +19,8 @@ export const teamBuddiesRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Team Buddies is a 2000 action strategy video game developed by Psygnosis and published by Sony Computer Entertainment for the PlayStation. It was released by Midway Games in North America. It was also the last game developed by Psygnosis' Camden Town studio before it was moved to Sony.",
+  summaryEs: "Team Buddies es un videojuego para la consola PlayStation lanzado el 15 de septiembre del año 2000. Desarrollado por SCE Studio Soho.",
   notes:
     "Recompilation of Team Buddies (PS1, Europe SCES-02986) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

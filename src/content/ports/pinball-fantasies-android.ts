@@ -19,6 +19,8 @@ export const pinballFantasiesAndroid: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["MS-DOS"],
+  summary: "Pinball Fantasies is a 1992 pinball video game originally developed by Digital Illusions and published by 21st Century Entertainment in Europe for the Amiga home computers. It is the sequel to Pinball Dreams, which was released earlier in the same year on multiple platforms. In the game, players can choose between any of four available playfields, each of which have their own thematic and main objectives in order to obtain the highest score possible.",
+  summaryEs: "Pinball Fantasies es un videojuego de pinball diseñado por Digital Illusions CE para el sistema Amiga, como una secuela a Pinball Dreams. Una futura secuela sería lanzada en 1995 llamada Pinball Illusions.",
   notes:
     "Decompilation and source port of the DOS pinball game Pinball Fantasies for Android, with touch controls. It requires the original game files.",
   notesEs:

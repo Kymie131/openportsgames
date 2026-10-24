@@ -19,6 +19,8 @@ export const finalFantasyIxRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Final Fantasy IX is a 2000 role-playing video game developed and published by Square for the PlayStation video game console. It is the ninth game in the main Final Fantasy series. The plot focuses on a war between nations in a medieval fantasy world called Gaia. Players follow a thief named Zidane Tribal who kidnaps princess Garnet Til Alexandros XVII as part of a ploy by the neighboring nation of Lindblum. He joins Garnet and a growing cast of characters on a quest to take down her mother, Queen Brahne of Alexandria, who started the war, while uncovering the various reasons behind it.",
+  summaryEs: "Final Fantasy IX es un videojuego de rol realizado por la empresa japonesa Squaresoft en 2000. Esta es la novena entrega del juego y el último capítulo de la saga realizado para la consola PlayStation. En esta ocasión, Squaresoft preparó un capítulo con el que pretendía volver a los orígenes de la saga, mostrándonos un mundo clásico entre lo medieval y lo fantástico.",
   notes:
     "Recompilation of Final Fantasy IX (PS1, USA SLUS-01251) with PSXRecomp and the recomp-ui launcher. It requires your own disc and a European SCPH-5502/5552 BIOS, and the wizard compiles the game locally. For now it is the 0.1.0 release candidate, with gameplay acceptance not yet closed.",
   notesEs:

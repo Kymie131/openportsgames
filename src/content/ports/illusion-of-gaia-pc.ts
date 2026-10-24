@@ -25,6 +25,8 @@ export const illusionOfGaiaPc: Port = {
     alt: "Illusion of Gaia (box art)",
     credit: "Wikipedia",
   },
+  summary: "Illusion of Gaia, known in PAL territories as Illusion of Time, is an action role-playing video game developed by Quintet for the Super Nintendo Entertainment System. The game was released in Japan by Enix in 1993, and in North America and PAL territories by Nintendo in 1994 and 1995. Set in a fantasy reimagining of Earth, the game's plot centers on a boy named Will who is chosen to save the world from an impending disaster.",
+  summaryEs: "Illusion of Time, conocido en Japón como ガイア幻想紀 y en Estados Unidos como Illusion of Gaia, es un videojuego del género ARPG lanzado en 1995 para la consola Super Nintendo. Fue desarrollado por Quintet. Enix publicó el juego en Japón, y Nintendo en Europa lo publicó en cuatro idiomas: inglés, francés, español y alemán.",
   notes: "Illusion of Gaia (Enix, 1993) running on Windows and Linux and macOS and Nintendo Switch and Android and Nintendo 3DS and PlayStation Vita through static recompilation. Latest release: v1.0. You need your own copy of the game.",
   notesEs: "Illusion of Gaia (Enix, 1993) en Windows and Linux and macOS and Nintendo Switch and Android and Nintendo 3DS and PlayStation Vita mediante recompilación estática. Última release: v1.0. Necesitas tu propia copia del juego.",
 };

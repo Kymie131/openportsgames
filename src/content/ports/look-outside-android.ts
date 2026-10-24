@@ -25,6 +25,8 @@ export const lookOutsideAndroid: Port = {
     alt: "Look Outside (box art)",
     credit: "Wikipedia",
   },
+  summary: "Look Outside is a 2025 survival horror role-playing video game developed by Francis Coulombe and published by Devolver Digital. The game takes place in an apartment building as a strange phenomenon outside begins transforming those who observe it into grotesque monsters. The player controls a solitary man named Sam as he survives in the building, exploring different areas, fighting enemies, interacting with other characters, and managing his well-being in the process.",
+  summaryEs: "Look Outside es un videojuego de rol publicado por Devolver Digital en 2025.",
   notes: "Look Outside (Kowloon Nights, 2024) for Android (static recompilation). Latest release: v0.12.2. Needs your own copy of the game.",
   notesEs: "Look Outside (Kowloon Nights, 2024) para Android (recompilación estática). Última release: v0.12.2. Necesita tu propia copia del juego.",
 };

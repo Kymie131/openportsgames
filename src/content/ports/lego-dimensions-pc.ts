@@ -25,6 +25,8 @@ export const legoDimensionsPc: Port = {
     alt: "LEGO Dimensions (box art)",
     credit: "Wikipedia",
   },
+  summary: "Lego Dimensions is a 2015 toys-to-life action-adventure game developed by Traveller's Tales and published by Warner Bros. Interactive Entertainment for the PlayStation 3, PlayStation 4, Xbox 360, Xbox One and Wii U. It is a crossover between Lego and over thirty different franchises, from which levels can be played through a USB toy pad peripheral. The Starter Pack, containing the game, the USB toy pad, three minifigures and one vehicle, was released in September 2015, while additional level packs and characters were released over the following two years.",
+  summaryEs: "Lego Dimensions era un videojuego de acción y aventura de la franquicia LEGO, desarrollado por Traveller's Tales y publicado y distribuido por Warner Bros. Interactive Entertainment, para las plataformas PlayStation 4, PlayStation 3, Wii U, Xbox One y Xbox 360. Ya no se encuentra disponible a la venta y sus servidores se encuentran cerrados.",
   notes: "LEGO Dimensions (TT Games, 2015) running on Windows through runtime layer. Latest release: v1.2. You need your own copy of the game.",
   notesEs: "LEGO Dimensions (TT Games, 2015) en Windows mediante capa de ejecución. Última release: v1.2. Necesitas tu propia copia del juego.",
 };

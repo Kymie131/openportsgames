@@ -21,6 +21,8 @@ export const edeeggLegendsRecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  summary: "Rayman Legends is a 2013 platform game developed by Ubisoft Montpellier and published by Ubisoft. It is the fifth main title in the Rayman series and the direct sequel to the 2011 game Rayman Origins. The game was released for Microsoft Windows, PlayStation 3, Xbox 360, Wii U, and PlayStation Vita platforms in August and September 2013. PlayStation 4 and Xbox One versions were released on February 18, 2014, with a Stadia version released in November 2021. A Nintendo Switch port, titled Rayman Legends Definitive Edition, was released in North America, Europe and Australia on September 12, 2017.",
+  summaryEs: "Rayman Legends es un videojuego de plataformas desarrollado por Ubisoft Montpellier y publicado por Ubisoft. Es el quinto título principal de la serie Rayman y la secuela directa del juego de 2011 Rayman Origins. El juego se lanzó para las plataformas Microsoft Windows, Xbox 360, PlayStation 3, Wii U y PlayStation Vita en agosto y septiembre de 2013. Las versiones de PlayStation 4 y Xbox One se lanzaron en febrero de 2014.",
   notes: "Rayman Legends: static recompilation by edeegg for Windows. Bring your own copy of the game.",
   notesEs: "Rayman Legends: recompilación estática de edeegg para Windows. Aporta tu propia copia del juego.",
 };

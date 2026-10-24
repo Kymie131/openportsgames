@@ -26,6 +26,8 @@ export const grichesPs5Windwakerhd: Port = {
     alt: "The Legend of Zelda: The Wind Waker HD (box art)",
     credit: "Wikipedia",
   },
+  summary: "The Legend of Zelda: The Wind Waker is a 2002 action-adventure game developed and published by Nintendo for the GameCube. An installment in The Legend of Zelda series, it was released in Japan on December 13, 2002, in North America on March 23, 2003, and in Europe on May 2, 2003.",
+  summaryEs: "The Legend of Zelda: The Wind Waker HD es un videojuego de acción y aventura publicado por Nintendo en 2013.",
   notes: "The Legend of Zelda: The Wind Waker HD: static recompilation by griches for Windows. Bring your own copy of the game.",
   notesEs: "The Legend of Zelda: The Wind Waker HD: recompilación estática de griches para Windows. Aporta tu propia copia del juego.",
 };

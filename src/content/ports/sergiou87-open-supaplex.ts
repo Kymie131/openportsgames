@@ -7,7 +7,7 @@ export const sergiou87OpenSupaplex: Port = {
   game: "Supaplex",
   developers: ["sergiou87"],
   publisher: "InArcade",
-  originalYear: 2018,
+  originalYear: 1991,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -21,6 +21,8 @@ export const sergiou87OpenSupaplex: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Supaplex is a video game created by Philip Jespersen and Michael Stopp, two Swiss students, and published by Digital Integration in 1991. It is an extended clone of Boulder Dash.",
+  summaryEs: "Supaplex es un videojuego de lógica creado por Michael Stopp y Philip Jespersen, dos estudiantes suizos, y publicado por Digital Integration en 1991. Es un clon mejorado de Boulder Dash.",
   notes: "Supaplex: decompilation by sergiou87 for Windows. Bring your own copy of the game.",
   notesEs: "Supaplex: decompilación de sergiou87 para Windows. Aporta tu propia copia del juego.",
 };

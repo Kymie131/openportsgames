@@ -25,6 +25,8 @@ export const generalszhAndroidPort: Port = {
     alt: "Command & Conquer: Generals: Zero Hour (box art)",
     credit: "Wikipedia",
   },
+  summary: "Command and Conquer: Generals – Zero Hour is the expansion pack for the 2003 video game Command & Conquer: Generals. Zero Hour added several new abilities and units to each side, and a new mode of play called Generals' Challenge, along with a lot more changes, new features and bug/glitch fixes.",
+  summaryEs: "Command & Conquer: Generals Zero Hour es un videojuego de estrategia publicado por Electronic Arts en 2003.",
   notes: "Command & Conquer: Generals: Zero Hour (Electronic Arts, 2003) for Android (source port). Latest release: v1.4.0. Needs your own copy of the game.",
   notesEs: "Command & Conquer: Generals: Zero Hour (Electronic Arts, 2003) para Android (port de código). Última release: v1.4.0. Necesita tu propia copia del juego.",
 };

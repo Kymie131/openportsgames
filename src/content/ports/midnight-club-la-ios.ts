@@ -26,6 +26,8 @@ export const midnightClubLaIos: Port = {
     alt: "Midnight Club: Los Angeles (box art)",
     credit: "Wikipedia",
   },
+  summary: "Midnight Club: Los Angeles is a 2008 racing video game developed by Rockstar San Diego and published by Rockstar Games. It is the fourth installment in the Midnight Club series before it was discontinued in January 2010. The game features 43 cars and 3 motorcycles. The open world map of Los Angeles is the size of all three cities from Midnight Club 3: DUB Edition combined. After several delays, Midnight Club: Los Angeles was released in October 2008.",
+  summaryEs: "Midnight Club: Los Angeles es un videojuego de carreras desarrollado por Rockstar San Diego y publicado por Rockstar Games. Es la cuarta entrega de la serie Midnight Club. El juego cuenta con 43 autos y 4 motocicletas. El mapa de mundo abierto de Los Ángeles es del tamaño de las tres ciudades de las entregas anteriores combinadas. Después de varios retrasos, Midnight Club: Los Angeles fue lanzado en octubre de 2008.",
   notes: "Midnight Club: Los Angeles on iPhone and iPad: ARM64 static recompilation with native Metal rendering and an experimental 60 FPS patch. Bring your own game files. Latest release: v1.0.4.",
   notesEs: "Midnight Club: Los Angeles en iPhone y iPad: recompilación estática ARM64 con render nativo Metal y un parche experimental de 60 FPS. Aporta tus propios archivos del juego. Última release: v1.0.4.",
 };

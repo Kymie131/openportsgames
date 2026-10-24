@@ -24,6 +24,8 @@ export const meleeNative: Port = {
   originalSystems: ["GameCube"],
   features: ["Native Apple Silicon (macOS) build", "Native Linux x86-64 build"],
   featuresEs: ["Build nativa para Apple Silicon (macOS)", "Build nativa para Linux x86-64"],
+  summary: "Super Smash Bros. Melee is a 2001 crossover fighting game developed by HAL Laboratory and published by Nintendo for the GameCube. It is the second installment in the Super Smash Bros. series. It features characters from Nintendo video game franchises such as Mario, The Legend of Zelda, Star Fox, Pokémon, and Donkey Kong among others. The stages and gameplay modes reference or take designs from these franchises as well.",
+  summaryEs: "Super Smash Bros. Melee, conocido en Japón como Dairantō Smash Brothers DX , a veces abreviado como SSBM o simplemente Melee, es el segundo título de la serie de juegos de lucha y acción crossover Super Smash Bros. distribuido para la Nintendo GameCube en el 2001 en Japón y los Estados Unidos, y al año siguiente en Europa y Australia. Es el sucesor de Super Smash Bros. para Nintendo 64 de 1999, y el predecesor de Super Smash Bros. Brawl para Wii de 2008. Fue desarrollado por HAL Laboratory, y dirigido por el productor Masahiro Sakurai.",
   notes:
     "Native port of Super Smash Bros. Melee built from the doldecomp research decompilation. First tagged release covers macOS Apple Silicon and Linux x86-64; Windows and Android builds are not published. Requires game files from a legally owned US NTSC 1.02 copy of the disc. The project, following its doldecomp origins, documents AI-assisted development in CONTRIBUTING.",
   notesEs:

@@ -20,6 +20,8 @@ export const tomodachiLtdRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo Switch"],
+  summary: "Tomodachi Life, known in Japan as Tomodachi Collection: New Life, is a 2013 social simulation video game developed and published by Nintendo for the Nintendo 3DS. It is the second entry in the Tomodachi Life series following the Japan-exclusive Nintendo DS title Tomodachi Collection (2009). The game follows the day-to-day interactions of Miis, customizable avatars, residing on an island as they build relationships and request help with problems, all overseen by the player. Tomodachi Life is nonlinear, the player's only goal being to maintain their Miis' happiness.",
+  summaryEs: "Tomodachi Life, llamado en Japón Colección Tomodachi: Nueva Vida es un videojuego de simulación social desarrollado y publicado por Nintendo para la consola Nintendo 3DS. Se trata de la secuela del juego Tomodachi Collection para Nintendo DS, que salió a la venta exclusivamente en Japón.",
   notes: "Experimental PC recompilation of Tomodachi Life (Nintendo Switch, 2013). The game's ARM code is recompiled for x86-64, but the executable still relies on suyu-derived emulation and runtime components for graphics, audio and Switch system services: it is not an emulator-free native port. No game files included.",
   notesEs: "Recompilación experimental para PC de Tomodachi Life (Nintendo Switch, 2013). El código ARM se recompila a x86-64, pero el ejecutable aún depende de emulación derivada de suyu y componentes de runtime para gráficos, audio y servicios del sistema de Switch: no es un port nativo sin emulador. Sin archivos del juego.",
 };

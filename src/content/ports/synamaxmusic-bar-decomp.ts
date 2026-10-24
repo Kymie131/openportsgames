@@ -22,6 +22,8 @@ export const synamaxmusicBarDecomp: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Beetle Adventure Racing! is a racing game released for the Nintendo 64 in 1999. It was developed by Paradigm Entertainment and EA Canada, and published by Electronic Arts. Each vehicle in the game is a Volkswagen New Beetle, which was released the previous year. The gameplay involves racing other players on unlocked tracks, finding and destroying crates, and collecting colored ladybugs while battling other players. The single-player championship offers three circuits and a secret bonus circuit with new vehicles and tracks available upon completion.",
+  summaryEs: "Beetle Adventure Racing! es un videojuego de carreras lanzado para Nintendo 64 en 1999. Fue desarrollado por Paradigm Entertainment junto con EA Canada y publicado por Electronic Arts.",
   notes: "Beetle Adventure Racing!: decompilation by synamaxmusic for Windows. Bring your own copy of the game.",
   notesEs: "Beetle Adventure Racing!: decompilación de synamaxmusic para Windows. Aporta tu propia copia del juego.",
 };

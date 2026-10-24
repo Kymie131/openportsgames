@@ -25,6 +25,8 @@ export const narutoTheBrokenBondRecomp: Port = {
     alt: "Naruto: The Broken Bond (box art)",
     credit: "Wikipedia",
   },
+  summary: "Naruto: The Broken Bond is an action adventure game developed by Ubisoft Montreal and published by Ubisoft for the Xbox 360. It was released worldwide in November 2008. It is a sequel to the 2007 game Naruto: Rise of a Ninja and is the second and final Naruto game to be published by Ubisoft before their rights to the IP expired.",
+  summaryEs: "Naruto: The Broken Bond es un videojuego de Ubisoft Montreal para Xbox360 del 2008. Es la secuela de Naruto: Rise of a Ninja. El juego fue presentado en la edición del E3 de 2008. El juego cuenta con las voces originales en japonés.",
   notes: "Naruto: The Broken Bond (Xbox 360, 2008) running natively on Android (ARM64) and PC (Windows x64) via static recompilation, no CPU emulator. Built by Masterllgod; no game files are included, you need your own copy. Documentation only so far (no build yet).",
   notesEs: "Naruto: The Broken Bond (Xbox 360, 2008) corriendo de forma nativa en Android (ARM64) y PC (Windows x64) por recompilación estática, sin emulador de CPU. Hecho por Masterllgod; no incluye archivos del juego, necesitas tu propia copia. De momento solo documentación (sin build todavía).",
 };

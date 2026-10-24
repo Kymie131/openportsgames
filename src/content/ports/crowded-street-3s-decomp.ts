@@ -27,6 +27,8 @@ export const crowdedStreet3sDecomp: Port = {
     alt: "Street Fighter III: 3rd Strike (box art)",
     credit: "Wikipedia",
   },
+  summary: "Street Fighter III: 3rd Strike - Fight for the Future is a 1999 fighting game developed and published by Capcom for arcades. It is the second and final updated version of Street Fighter III, following Street Fighter III: 2nd Impact. Like its predecessors, it runs on the CP System III hardware.",
+  summaryEs: "Street Fighter III 3rd Strike: Fight for the Future es un videojuego de lucha en 2D desarrollado y publicado por Capcom, lanzado originalmente para las salas de juego en 1999. Fue adaptado a Dreamcast, PlayStation 2 y Xbox entre el 2000 y 2010. Una versión en línea descargable titulada Street Fighter III: Third Strike Online Edition se lanzó para PlayStation Network y Xbox Live Arcade en 2011.",
   notes: "Street Fighter III: 3rd Strike: decompilation by crowded-street for Windows. Bring your own copy of the game.",
   notesEs: "Street Fighter III: 3rd Strike: decompilación de crowded-street para Windows. Aporta tu propia copia del juego.",
 };

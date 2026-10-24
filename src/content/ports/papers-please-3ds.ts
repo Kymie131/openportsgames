@@ -25,6 +25,8 @@ export const papersPlease3ds: Port = {
     alt: "Papers, Please (cover art)",
     credit: "Steam",
   },
+  summary: "Congratulations. The October labor lottery is complete. Your name was pulled. For immediate placement, report to the Ministry of Admission at Grestin Border Checkpoint. An apartment will be provided for you and your family in East Grestin. Expect a Class-8 dwelling.",
+  summaryEs: "Papers, Please es un videojuego de simulación publicado por 3909 en 2013.",
   notes: "Papers, Please (3909, 2013) running on Nintendo 3DS through source port. You need your own copy of the game.",
   notesEs: "Papers, Please (3909, 2013) en Nintendo 3DS mediante port de código. Necesitas tu propia copia del juego.",
 };

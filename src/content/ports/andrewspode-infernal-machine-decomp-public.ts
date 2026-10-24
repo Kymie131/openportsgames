@@ -7,7 +7,7 @@ export const andrewspodeInfernalMachineDecompPublic: Port = {
   game: "Indiana Jones and the Infernal Machine",
   developers: ["andrewspode"],
   publisher: "Lucasfilm",
-  originalYear: 2018,
+  originalYear: 1999,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -22,6 +22,8 @@ export const andrewspodeInfernalMachineDecompPublic: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Indiana Jones and the Infernal Machine is a 1999 action-adventure video game developed and published by LucasArts. The first 3D installment in the series, its gameplay focuses on solving puzzles, fighting enemies, and completing various platforming sections. The story is set in 1947, after the events of Indiana Jones and the Iron Phoenix, and puts the eponymous protagonist, the adventurer Indiana Jones, against the Soviet Union.",
+  summaryEs: "Indiana Jones y la Máquina Infernal es un videojuego para PC, Game Boy Color y Nintendo 64 publicado en 1999, que basa su trama en el personaje cinematográfico Indiana Jones, desarrollado por LucasArts. Una versión para PlayStation se planifica pero fue cancelada al principio del desarrollo.",
   notes: "Indiana Jones and the Infernal Machine: decompilation by andrewspode for Windows. Bring your own copy of the game.",
   notesEs: "Indiana Jones and the Infernal Machine: decompilación de andrewspode para Windows. Aporta tu propia copia del juego.",
 };

@@ -25,6 +25,8 @@ export const needForSpeedUnderground2Gamecube: Port = {
     alt: "Need for Speed: Underground 2 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Need for Speed: Underground 2 is a 2004 racing video game developed by EA Black Box and published by Electronic Arts. It is the eighth installment in the Need for Speed series and the direct sequel to Need for Speed: Underground. It was developed for Windows, GameCube, PlayStation 2, and Xbox. Game Boy Advance and Nintendo DS versions were developed by Pocketeers. Another version for mobile phones was also developed by Ideaworks Game Studio. Like its predecessor, it was a commercial success, selling around 11 million copies worldwide and breaking sales records in the United Kingdom.",
+  summaryEs: "Need for Speed: Underground 2 es un videojuego de carreras publicado por Electronic Arts y desarrollado por EA Black Box. Lanzado en 2004, es la secuela de Need for Speed: Underground, formando parte de la serie Need for Speed, disponible en Nintendo GameCube, PlayStation 2, Xbox, Nintendo DS, Game Boy Advance y Microsoft Windows.",
   notes: "Need for Speed: Underground 2 (EA Black Box, 2004) running on Windows through decompilation. You need your own copy of the game.",
   notesEs: "Need for Speed: Underground 2 (EA Black Box, 2004) en Windows mediante decompilación. Necesitas tu propia copia del juego.",
 };

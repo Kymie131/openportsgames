@@ -26,6 +26,8 @@ export const dhewm3: Port = {
       credit: "dhewm3 project",
     },
   ],
+  summary: "Doom 3 is a 2004 first-person shooter survival horror game developed by id Software and published by Activision. It was originally released for Windows on August 3, 2004, before being adapted for Linux later that year, and ported by Aspyr Media for Mac OS X in 2005. Vicarious Visions ported the game to the Xbox, releasing it worldwide on April 4, 2005.",
+  summaryEs: "Doom 3 es un videojuego de disparos en primera persona desarrollado por id Software y publicado por Activision. Existen versiones para Microsoft Windows, GNU/Linux, Mac OS X y para la videoconsola Xbox.",
   notes:
     "Source port of Doom 3 that keeps the original gameplay with bugfixes, widescreen support, 64-bit builds, EFX sound, mod-independent settings and gamepad support. Requires the original game data.",
   notesEs:

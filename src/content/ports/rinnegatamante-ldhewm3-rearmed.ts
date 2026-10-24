@@ -27,6 +27,8 @@ export const rinnegatamanteLdhewm3Rearmed: Port = {
     alt: "Doom 3 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Doom 3 is a 2004 first-person shooter survival horror game developed by id Software and published by Activision. It was originally released for Windows on August 3, 2004, before being adapted for Linux later that year, and ported by Aspyr Media for Mac OS X in 2005. Vicarious Visions ported the game to the Xbox, releasing it worldwide on April 4, 2005.",
+  summaryEs: "Doom 3 es un videojuego de disparos en primera persona desarrollado por id Software y publicado por Activision. Existen versiones para Microsoft Windows, GNU/Linux, Mac OS X y para la videoconsola Xbox.",
   notes: "Doom 3: source port by Rinnegatamante for Windows. Bring your own copy of the game.",
   notesEs: "Doom 3: source port de Rinnegatamante para Windows. Aporta tu propia copia del juego.",
 };

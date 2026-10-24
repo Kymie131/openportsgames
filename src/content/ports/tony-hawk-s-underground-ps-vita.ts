@@ -25,6 +25,8 @@ export const tonyHawkSUndergroundPsVita: Port = {
     alt: "Tony Hawk's Underground (box art)",
     credit: "Wikipedia",
   },
+  summary: "Tony Hawk's Underground is a 2003 skateboarding video game and the fifth entry in the Tony Hawk's series, following Tony Hawk's Pro Skater 4. It was developed by Neversoft and published by Activision for the GameCube, PlayStation 2, Xbox, and Game Boy Advance. In 2004, it was published for Windows in Australia and New Zealand as a budget release.",
+  summaryEs: "Tony Hawk's Underground es un videojuego de monopatinaje de 2003 y la quinta entrega de la serie Tony Hawk's, después de Tony Hawk's Pro Skater 4. Fue desarrollado por Neversoft y publicado por Activision para GameCube, PlayStation 2, Xbox y Game Boy Advance. En 2004, se publicó para Windows en Australia y Nueva Zelanda como una versión de bajo presupuesto.",
   notes: "Tony Hawk's Underground (Activision, 2003) running on PlayStation Vita through source port. Latest release: v1.2.0. You need your own copy of the game.",
   notesEs: "Tony Hawk's Underground (Activision, 2003) en PlayStation Vita mediante port de código. Última release: v1.2.0. Necesitas tu propia copia del juego.",
 };

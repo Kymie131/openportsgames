@@ -19,6 +19,8 @@ export const proPinballTimeshockRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Pro Pinball: Timeshock! is an pinball simulation video game developed by Cunning Developments and published by Empire Interactive for Microsoft Windows and PlayStation. It is the second game in the Pro Pinball series, and is themed around the concept of time travel.",
+  summaryEs: "Pro Pinball Timeshock! es un juego de pinball desarrollado por la compañía Cunning Developments. Es la segunda entrega de la conocida franquicia de Empire, una de las marcas más importantes de creación de máquinas de pinball en formato físico. Asimismo, Timeshock forma parte de una trilogía, que empezó con Pro Pinball: The Web y termina con, Pro Pinball Fantastic Journey.",
   notes:
     "Recompilation of Pro Pinball: Timeshock! (PS1, USA SLUS-00639) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

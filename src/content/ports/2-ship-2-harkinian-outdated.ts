@@ -25,6 +25,8 @@ export const _2Ship2HarkinianOutdated: Port = {
     alt: "The Legend of Zelda: Majora's Mask (box art)",
     credit: "Wikipedia",
   },
+  summary: "The Legend of Zelda: Majora's Mask is a 2000 action-adventure game developed and published by Nintendo for the Nintendo 64. It is the second game in The Legend of Zelda series to use 3D graphics, following Ocarina of Time (1998). Designed by a creative team led by Eiji Aonuma, Yoshiaki Koizumi, and Shigeru Miyamoto, Majora's Mask was completed in less than two years. It features enhanced graphics and several gameplay changes, but reuses elements and character models from Ocarina of Time, a creative decision made necessary by time constraints.",
+  summaryEs: "The Legend of Zelda: Majora's Mask es un videojuego de acción-aventura del año 2000 desarrollado y publicado por Nintendo para la Nintendo 64. Fue el segundo juego de The Legend of Zelda que utilizó gráficos 3D, después de Ocarina of Time (1998). Diseñado por un equipo creativo liderado por Eiji Aonuma, Yoshiaki Koizumi y Shigeru Miyamoto, Majora's Mask se completó en menos de dos años.",
   notes: "The Legend of Zelda: Majora's Mask (Nintendo, 2000) for Android (source port). Latest release: v1.1.2P1. Needs your own copy of the game (Legend of Zelda, The - Majora's Mask (USA).z64).",
   notesEs: "The Legend of Zelda: Majora's Mask (Nintendo, 2000) para Android (port de código). Última release: v1.1.2P1. Necesita tu propia copia del juego.",
 };

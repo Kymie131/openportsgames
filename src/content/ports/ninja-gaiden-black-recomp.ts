@@ -20,6 +20,8 @@ export const ninjaGaidenBlackRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox"],
+  summary: "Ninja Gaiden Black is a action-adventure game in 2005.",
+  summaryEs: "Ninja Gaiden Black es un videojuego hackanslash y aventura desarrollado por Team Ninja y distribuido por Tecmo en 2005.",
   notes: "Ninja Gaiden Black (Xbox, 2005) as a native port for windows, linux via static recompilation, not an emulator. It ships no game code or data: bring your own copy. Latest release: v0.9.18.",
   notesEs: "Ninja Gaiden Black (Xbox, 2005) como port nativo para windows, linux mediante recompilación estática, no un emulador. No incluye código ni datos del juego: aporta tu propia copia. Última release: v0.9.18.",
 };

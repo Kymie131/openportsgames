@@ -7,7 +7,7 @@ export const _20483ds: Port = {
   game: "2048",
   developers: ["0rientd"],
   publisher: "Gabriele Cirulli",
-  originalYear: 2026,
+  originalYear: 2014,
   portType: "source-port",
   genre: "puzzle",
   openSource: true,
@@ -21,6 +21,8 @@ export const _20483ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "THE ORIGINAL MADE BETTER | 2048 is a classic puzzle with the simple goal of reaching 2048. Move your tiles around the board – When two tiles with the same number touch, they merge into one!",
+  summaryEs: "2048 es un videojuego de puzles publicado por LA\\VA en 2018.",
   notes: "2048 (Gabriele Cirulli, 2026) running on Nintendo 3DS through source port. Latest release: v1.1.1. You need your own copy of the game.",
   notesEs: "2048 (Gabriele Cirulli, 2026) en Nintendo 3DS mediante port de código. Última release: v1.1.1. Necesitas tu propia copia del juego.",
 };

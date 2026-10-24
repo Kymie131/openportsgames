@@ -25,6 +25,8 @@ export const PrincessMaker4: Port = {
     alt: "Princess Maker 4 (cover)",
     credit: "Wikipedia",
   },
+  summary: "Princess Maker 4 is a action-adventure game.",
+  summaryEs: "Princess Maker 4 es un videojuego de acción y aventura.",
   notes: "Princess Maker 4 decompilation.",
   notesEs: "Decompilación de Princess Maker 4.",
 };

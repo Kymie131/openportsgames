@@ -25,6 +25,8 @@ export const falloutPs3: Port = {
     alt: "Fallout (box art)",
     credit: "Wikipedia",
   },
+  summary: "Fallout is an American media franchise of post-apocalyptic role-playing video games created by Tim Cain and Leonard Boyarsky, at Interplay Entertainment. The series, set in the first half of the 3rd millennium, follows the descendants of survivors of a mutually destructive nuclear exchange between the United States and China that marked the culmination of a series of conflicts over resources which began in the middle of the 21st century.",
+  summaryEs: "Fallout es una serie de videojuegos de rol publicados originalmente por Interplay, posteriormente por Bethesda Softworks y actualmente por Xbox Game Studios. Aunque las tramas de los videojuegos se desarrollan en los siglos XXII y XXIII, prevalece una gran influencia de la cultura de posguerra desarrollada en los años 1950 en Estados Unidos, así como la combinación de esperanza y progreso tecnológico, junto con el miedo a la aniquilación nuclear y los efectos de una tercera guerra mundial a finales del siglo XXI y posterior.",
   notes: "Fallout (Interplay Entertainment, 1997) running on PlayStation 3 through source port. Latest release: v0.1.0. You need your own copy of the game.",
   notesEs: "Fallout (Interplay Entertainment, 1997) en PlayStation 3 mediante port de código. Última release: v0.1.0. Necesitas tu propia copia del juego.",
 };

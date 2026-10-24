@@ -25,6 +25,8 @@ export const sonicUnleashedWiiPc: Port = {
     alt: "Sonic Unleashed (box art)",
     credit: "Wikipedia",
   },
+  summary: "Sonic Unleashed is a 2008 platform game developed by Sonic Team and published by Sega. An installment in the Sonic the Hedgehog series, it follows Sonic as he attempts to restore the world after his nemesis Doctor Eggman shatters it with a powerful laser to unleash an ancient evil known as Dark Gaia, while struggling with his new \"Werehog\" form, a werewolf-like affliction.",
+  summaryEs: "Sonic Unleashed conocido como Sonic World Adventure en Japón, es un videojuego de plataformas beat 'em up desarrollado por Sonic Team y publicado por Sega. Una entrega de la serie Sonic the Hedgehog, sigue a Sonic en su intento de restaurar el mundo después de que su némesis, el Doctor Eggman, lo destrozara con un potente láser para desatar a Dark Gaia, un antiguo mal que periódicamente transforma a Sonic en un hombre lobo.",
   notes: "Sonic Unleashed (Sonic Team, 2008) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Sonic Unleashed (Sonic Team, 2008) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

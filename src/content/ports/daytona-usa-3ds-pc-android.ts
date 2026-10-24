@@ -25,6 +25,8 @@ export const daytonaUsa3dsPcAndroid: Port = {
     alt: "Daytona USA (box art)",
     credit: "Wikipedia",
   },
+  summary: "Daytona USA is a 1994 racing game developed by Sega AM2 and published by Sega for arcades. Inspired by the popularity of the NASCAR motor racing series in the United States, it has players race stock cars on one of three courses. It was the first game released on the Sega Model 2 arcade system board.",
+  summaryEs: "Daytona USA es un videojuego de carreras desarrollado por Sega AM2 y publicado por Sega en el año 1994. En principio el juego fue desarrollado para máquinas recreativas y posteriormente fue portado a Sega Saturn, Sega Dreamcast, Windows y finalmente a Xbox Live y PlayStation Network.",
   notes: "Daytona USA (Sega, 1994) running on Nintendo 3DS and Windows and Android through source port. You need your own copy of the game.",
   notesEs: "Daytona USA (Sega, 1994) en Nintendo 3DS and Windows and Android mediante port de código. Necesitas tu propia copia del juego.",
 };

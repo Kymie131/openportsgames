@@ -6,8 +6,8 @@ export const GeorgeOfTheJungleAndTheSearchForTheSecret: Port = {
   title: "George of the Jungle and the Search for the Secret",
   game: "George of the Jungle and the Search for the Secret",
   developers: ["2gifts"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "UTV Ignition Games",
+  originalYear: 2008,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const GeorgeOfTheJungleAndTheSearchForTheSecret: Port = {
     alt: "George of the Jungle and the Search for the Secret (cover)",
     credit: "Wikipedia",
   },
+  summary: "George of the Jungle and the Search for the Secret is a platform video game based on the animated television program George of the Jungle.",
+  summaryEs: "George of the Jungle and the Search for the Secret es un videojuego de acción y aventura publicado por UTV Ignition Games en 2008.",
   notes:
     "Matching decompilation research for George of the Jungle and the Search for the Secret (USA, PS2).",
   notesEs:

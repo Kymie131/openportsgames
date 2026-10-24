@@ -20,6 +20,8 @@ export const _9mmHdPsVita: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Other"],
+  summary: "9mm is a shooter game.",
+  summaryEs: "9mm es un videojuego de disparos en tercera persona de 2011 desarrollado por Gameloft Bulgaria y publicado por Gameloft para Android, iOS y macOS. Fue lanzado el 13 de julio de 2011 para Android e iOS y el 22 de diciembre de 2011 para macOS.",
   notes: "9mm (Gameloft, 2011) running on PlayStation Vita through source port. Latest release: v1.0. You need your own copy of the game.",
   notesEs: "9mm (Gameloft, 2011) en PlayStation Vita mediante port de código. Última release: v1.0. Necesitas tu propia copia del juego.",
 };

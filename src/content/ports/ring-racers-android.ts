@@ -19,6 +19,8 @@ export const ringRacersAndroid: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   originalSystems: ["Windows"],
+  summary: "Dr. Robotnik's Ring Racers is a racing game.",
+  summaryEs: "Dr. Robotnik's Ring Racers es un videojuego de carreras.",
   notes:
     "Android build of Dr. Robotnik's Ring Racers, the free kart racer from Kart Krew based on Sonic Robo Blast 2. It is a standalone fangame with no original assets.",
   notesEs:

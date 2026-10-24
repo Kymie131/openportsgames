@@ -20,6 +20,8 @@ export const Unvanquished: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Unvanquished is a free and open-source video game. It is a multiplayer first-person shooter and real-time strategy game where Humans and Aliens fight for domination.",
+  summaryEs: "Unvanquished es un videojuego de disparos.",
   notes:
     "Unvanquished is a free and open source FPS/RTS hybrid game powered by the Daemon game engine. Historically based on Tremulous as a continuation with decades of work over it.",
   notesEs:

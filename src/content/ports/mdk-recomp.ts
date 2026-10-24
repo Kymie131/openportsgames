@@ -19,6 +19,8 @@ export const mdkRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "MDK is a 1997 third-person shooter video game developed by Shiny Entertainment for Windows and subsequently ported to Mac OS by Shokwave, and to the PlayStation by Neversoft. The game was published on all systems by Playmates Interactive Entertainment (PIE) in North America, while Shiny handled the European release.",
+  summaryEs: "MDK es un videojuego en tercera persona creado por Shiny Entertainment en 1997. Fue lanzado para PC, PlayStation y Macintosh. El juego fue elogiado por la calidad de los gráficos para ese tiempo, y la banda sonora. Tuvo una secuela llamada MDK 2 en el año 2000.",
   notes:
     "Recompilation of MDK (PS1, Europe SLES-00599) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

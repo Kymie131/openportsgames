@@ -27,6 +27,8 @@ export const renakunisakiSfadebug: Port = {
     alt: "Star Fox Adventures (box art)",
     credit: "Box art",
   },
+  summary: "Star Fox Adventures is a 2002 action-adventure game developed by Rare and published by Nintendo for the GameCube. The story is set eight years after the events of Star Fox 64, with players taking control of Fox McCloud, who is sent on a mission to visit the Dinosaur Planet in the Lylat System and prevent its destruction. Gameplay is divided between Adventure Mode, in which players explore environments while defeating enemies, solving puzzles, and collecting items, and Arwing Mode, which features rail shooter segments.",
+  summaryEs: "Star Fox Adventures es un videojuego de acción en tercera persona desarrollado por Rare en el 2002 para la videoconsola GameCube, fue el último juego desarrollado por Rare para esta consola. Es la secuela del juego Star Fox 64 de Nintendo 64, y el predecesor del juego Star Fox: Assault de GameCube, pertenece a la saga de juegos de Star Fox. El nombre completo del juego es Star Fox Adventures: Dinosaur Planet y también es conocido por sus siglas SFA o SFA:DP.",
   notes: "Star Fox Adventures: decompilation by RenaKunisaki for Windows. Bring your own copy of the game.",
   notesEs: "Star Fox Adventures: decompilación de RenaKunisaki para Windows. Aporta tu propia copia del juego.",
 };

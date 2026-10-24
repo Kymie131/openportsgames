@@ -25,6 +25,8 @@ export const everlastingSummer3ds: Port = {
     alt: "Everlasting Summer (cover art)",
     credit: "Steam",
   },
+  summary: "Everlasting Summer is a action-adventure game published by Soviet Games in 2013.",
+  summaryEs: "Everlasting Summer es un videojuego de acción y aventura publicado por Soviet Games en 2013.",
   notes: "Everlasting Summer (Soviet Games, 2014) running on Nintendo 3DS through source port. Latest release: v0.01. You need your own copy of the game.",
   notesEs: "Everlasting Summer (Soviet Games, 2014) en Nintendo 3DS mediante port de código. Última release: v0.01. Necesitas tu propia copia del juego.",
 };

@@ -25,6 +25,8 @@ export const descent2Mobile: Port = {
     alt: "Descent II (box art)",
     credit: "Wikipedia",
   },
+  summary: "Descent II is a 1996 first-person shooter game developed by Parallax Software and first published for MS-DOS by Interplay Productions. A version for the PlayStation was released under the title Descent Maximum. It is the second installment in the Descent video game series and the sequel to Descent.",
+  summaryEs: "Descent II es un videojuego de disparos publicado por Interplay Entertainment en 1996.",
   notes: "Descent II (Interplay Entertainment, 1996) for Android (source port). Needs your own copy of the game.",
   notesEs: "Descent II (Interplay Entertainment, 1996) para Android (port de código). Necesita tu propia copia del juego.",
 };

@@ -21,6 +21,8 @@ export const giangraStuntdoubleReignition: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  summary: "Stuntman: Ignition is the sequel to the video game Stuntman for the Xbox 360, PlayStation 3, PlayStation 2, and mobile phones. The Xbox 360 demo was released on the Xbox Live Marketplace on July 12, 2007. A sequel, Stuntman: Hollywood, was announced on June 2, 2026.",
+  summaryEs: "Stuntman: Ignition es la secuela del videojuego Stuntman para Xbox 360, PlayStation 3, PlayStation 2 y Teléfono móvil. El 3 de abril de 2005, se anunció que THQ había adquirido los derechos de la franquicia \"Stuntman\" de los editores originales Atari y los desarrolladores originales Reflections Interactive. También se anunció que Paradigm Entertainment ha desarrollado el juego para plataformas de próxima generación. El 19 de marzo de 2006, THQ habló sobre el juego por primera vez a \"Xbox 360 Gamer\", que también publicó una vista previa exclusiva del juego en el número 16 de la revista.",
   notes: "Stuntman: Ignition: static recompilation by giangra for Windows. Bring your own copy of the game.",
   notesEs: "Stuntman: Ignition: recompilación estática de giangra para Windows. Aporta tu propia copia del juego.",
 };

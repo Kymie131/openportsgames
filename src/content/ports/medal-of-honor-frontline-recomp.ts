@@ -19,6 +19,8 @@ export const medalOfHonorFrontlineRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["GameCube"],
+  summary: "Medal of Honor: Frontline is a first-person shooter video game in the Medal of Honor series, developed by EA Los Angeles and published by Electronic Arts. It was released in North America for the PlayStation 2 on May 29, 2002, and for the GameCube and Xbox on November 7, 2002. The player character is Lt. Jimmy Patterson, from the American Office of Strategic Services. Frontline takes place during the events of the first game and chronicles Patterson's journey as he fights his way across Europe into Nazi Germany during World War II.",
+  summaryEs: "Medal of Honor: Frontline es el cuarto título del videojuego de la serie Medal of Honor, publicado por Electronic Arts en noviembre de 2002 y la segunda, donde el jugador asume el papel del Teniente Jammes Patterson. La música es del compositor norteamericano Michael Giacchino.",
   notes:
     "Static recompilation of Medal of Honor: Frontline (GameCube) with ReXGlue. It requires the original game.",
   notesEs:

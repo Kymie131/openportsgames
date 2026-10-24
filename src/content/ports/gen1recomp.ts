@@ -19,6 +19,8 @@ export const gen1recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Game Boy"],
+  summary: "Pokémon Red Version and Pokémon Blue Version are 1996 role-playing video games (RPGs) developed by Game Freak and published by Nintendo for the Game Boy. They are the first installments of the Pokémon video game series and were first released in Japan as Pocket Monsters Red and Pocket Monsters Green, followed by the special edition Pocket Monsters Blue later that year.",
+  summaryEs: "Pokémon Red es un videojuego de rol publicado por Nintendo en 1996.",
   notes:
     "Native Lua/LÖVE2D recreation of the first-generation Pokémon games, also covering later generations. It builds for desktop and mobile and uses your own game data.",
   notesEs:

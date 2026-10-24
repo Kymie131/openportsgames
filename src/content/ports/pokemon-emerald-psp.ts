@@ -30,6 +30,8 @@ export const pokemonEmeraldPsp: Port = {
     alt: "Pokémon Emerald (box art)",
     credit: "Wikipedia",
   },
+  summary: "Pokémon Emerald Version is a 2004 role-playing video game developed by Game Freak and published by The Pokémon Company and Nintendo for the Game Boy Advance. It was first released in Japan in 2004, and was later released internationally in 2005. It is the fifth version, after both Pokémon Ruby and Sapphire and Pokémon FireRed and LeafGreen, and is the final game of the third generation of the Pokémon video game series.",
+  summaryEs: "Pokémon Edición Rubí y Pokémon Edición Zafiro, conocidos en Japón como Pocket Monsters Ruby & Sapphire , son dos videojuegos del género RPG pertenecientes a la tercera generación de la saga Pokémon, y los primeros en su tipo lanzados para la consola portátil Game Boy Advance de Nintendo. Ambos, marcan el principio de la tercera generación de la serie, y se ambientan en una nueva región denominada Hoenn.",
   notes:
     "Pokémon Emerald (Nintendo, 2004) running natively on PSP through decompilation, with three save files, a file select and turbo mode. Bring your own game.",
   notesEs:

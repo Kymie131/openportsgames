@@ -26,6 +26,8 @@ export const perfectDarkPsp: Port = {
     alt: "Perfect Dark (box art)",
     credit: "Wikipedia",
   },
+  summary: "Perfect Dark is a 2000 first-person shooter game developed and published by Rare for the Nintendo 64. The first game of the Perfect Dark series, it follows Joanna Dark, an agent of the Carrington Institute research centre, as she attempts to stop an extraterrestrial conspiracy by rival corporation dataDyne. The game features a campaign mode where the player must complete a series of levels to progress through the story, as well as a range of multiplayer options, including a co-operative mode and traditional deathmatch settings with computer-controlled bots.",
+  summaryEs: "Perfect Dark es un videojuego de disparos en primera persona de 2000 desarrollado y publicado por Rare para Nintendo 64. Es el primer juego de la serie Perfect Dark y sigue a Joanna Dark, una agente del centro de investigación del Instituto Carrington, mientras intenta detener una conspiración extraterrestre por una corporación rival llamada dataDyne.",
   notes: "PSP port of Perfect Dark (Nintendo 64, 2000) based on the PC port, playable from start to finish at a framerate close to the N64, with native GE rendering. You build it with your own matching ROM.",
   notesEs: "Port para PSP de Perfect Dark (Nintendo 64, 2000) basado en el port de PC, jugable de principio a fin y con una tasa de fotogramas cercana a la de N64, con render nativo por la GE. Se compila con tu propia ROM compatible.",
 };

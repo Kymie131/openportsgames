@@ -7,7 +7,7 @@ export const TheBindingOfIsaacRepentance: Port = {
   game: "The Binding of Isaac: Repentance",
   developers: ["0xl0cal"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2021,
   portType: "recompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const TheBindingOfIsaacRepentance: Port = {
     alt: "The Binding of Isaac: Repentance (cover art)",
     credit: "Steam",
   },
+  summary: "The Binding of Isaac: Repentance is the ultimate version of Binding of Isaac, featuring all content from the Rebirth, Afterbirth and Afterbirth+ expansions, plus hundreds of new features and improvements. The ultimate edition of the genre-defining roguelike!",
+  summaryEs: "The Binding of Isaac: Repentance es un videojuego de acción y aventura publicado por Nicalis, Inc. en 2021.",
   notes:
     "PS Vita port of The Binding of Isaac: Repentance by static recompilation of the PC executable to ARM.",
   notesEs:

@@ -19,6 +19,8 @@ export const freekingKingpin: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   originalSystems: ["Windows"],
+  summary: "Kingpin: Life of Crime is a 1999 first-person shooter developed by Xatrix Entertainment and published by Interplay Entertainment. The game begins with the player character wounded and beaten up by associates of the crime boss The Kingpin, and the story follows his thirst for revenge. Released shortly after the Columbine High School massacre, the game attracted controversy due to the overall timing of its release; thus, it was not sold by various retailers in the US, despite receiving generally positive reviews from critics. The game was also ported to Linux.",
+  summaryEs: "Kingpin: Life of Crime es un videojuego de disparos publicado por Interplay Entertainment en 1999.",
   notes:
     "Open-source reimplementation of the Kingpin: Life of Crime engine, intended to run with the retail game data. It builds for Windows, Linux and macOS.",
   notesEs:

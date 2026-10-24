@@ -26,6 +26,8 @@ export const kernaltrap8WorPlus: Port = {
     alt: "Guitar Hero: Warriors of Rock (box art)",
     credit: "Wikipedia",
   },
+  summary: "Guitar Hero: Warriors of Rock is a 2010 rhythm game developed by Neversoft and published by Activision. It is the sixth main installment, the eleventh overall installment in the Guitar Hero series and the final title in the Guitar Hero series to be developed by Neversoft. The game was released in September 2010 for PlayStation 3, Wii, and Xbox 360. Like the previous entries in the series, it is geared towards playing in a four-person band experience, including lead and bass guitar, drums, and vocals.",
+  summaryEs: "Guitar Hero: Warriors of Rock, anteriormente llamada Guitar Hero 6: Warriors of Rock, es la sexta entrega de la serie Guitar Hero para PlayStation 3, Wii, y Xbox 360. Este es el primer juego de Guitar Hero que no está disponible para PlayStation 2 debido a las bajas ventas que obtuvieron sus antecesores para dicha consola. El juego salió el 24 de septiembre en Europa y el 28 de septiembre en América (2010).",
   notes: "Guitar Hero: Warriors of Rock: decompilation by kernaltrap8 for Windows. Bring your own copy of the game.",
   notesEs: "Guitar Hero: Warriors of Rock: decompilación de kernaltrap8 para Windows. Aporta tu propia copia del juego.",
 };

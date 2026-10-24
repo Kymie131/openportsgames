@@ -26,6 +26,8 @@ export const gtaIiiPsp: Port = {
     alt: "Grand Theft Auto III (box art)",
     credit: "Wikipedia",
   },
+  summary: "Grand Theft Auto III is a 2001 action-adventure game developed by DMA Design and published by Rockstar Games. It is the first 3D game in the Grand Theft Auto series. Set in Liberty City, loosely based on New York City, the game follows Claude, a silent protagonist who becomes entangled in a world of crime, drugs, gang warfare, and corruption while pursuing revenge against his ex-girlfriend. The game is played from a third-person perspective and its world is navigated on foot or by vehicle. Its open world design lets the player freely roam Liberty City, which consists of three islands.",
+  summaryEs: "Grand Theft Auto III es un videojuego de acción y aventura de mundo abierto de disparos en tercera persona de 2001 desarrollado por DMA Design y publicado por Rockstar Games. Es la tercera entrada principal de la serie Grand Theft Auto, después de Grand Theft Auto 2 de 1999, y la quinta instalación en general.",
   notes: "Grand Theft Auto III running natively on the PSP through the re3 reverse-engineered codebase. This repository collects the PSP files and conversion instructions; you need your own copy of GTA III, including its audio folder.",
   notesEs: "Grand Theft Auto III funcionando de forma nativa en la PSP mediante el código reversado de re3. Este repositorio reúne los archivos para PSP y las instrucciones de conversión; necesitas tu propia copia de GTA III, incluida su carpeta de audio.",
 };

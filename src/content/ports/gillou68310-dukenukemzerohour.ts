@@ -27,6 +27,8 @@ export const gillou68310Dukenukemzerohour: Port = {
     alt: "Duke Nukem: Zero Hour (box art)",
     credit: "Box art",
   },
+  summary: "Duke Nukem: Zero Hour is a 1999 third-person shooter game in the Duke Nukem series, developed by Eurocom and published by GT Interactive for the Nintendo 64. The game uses a relatively large 32 megabyte cartridge and can also use the Expansion Pak to improve graphics, though this slows down the frame rate. It features a 4-player split-screen multiplayer mode that uses a first-person view.",
+  summaryEs: "Duke Nukem Zero Hour es un videojuego de acción-aventura en tercera persona para la consola Nintendo 64 de la saga Duke Nukem.",
   notes: "Duke Nukem: Zero Hour: decompilation by Gillou68310 for Windows. Bring your own copy of the game.",
   notesEs: "Duke Nukem: Zero Hour: decompilación de Gillou68310 para Windows. Aporta tu propia copia del juego.",
 };

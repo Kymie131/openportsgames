@@ -25,6 +25,8 @@ export const persona3Portable3ds: Port = {
     alt: "Persona 3 Portable (cover art)",
     credit: "Steam",
   },
+  summary: "Persona 3, released outside Japan as Shin Megami Tensei: Persona 3, is a 2006 role-playing video game developed by Atlus. It is the fourth main installment in the Persona series. It was originally released for the PlayStation 2 in Japan in 2006 and in North America in 2007. It has received several enhanced re-releases and ports: Persona 3 FES, an extended version featuring a new playable epilogue and other changes, was released for the PlayStation 2 in Japan in 2007 and worldwide in 2008.",
+  summaryEs: "Persona 3 Portable es un videojuego de rol en 2009.",
   notes: "Persona 3 Portable (Atlus, 2010) running on Nintendo 3DS through source port. Latest release: v0.3.1. You need your own copy of the game.",
   notesEs: "Persona 3 Portable (Atlus, 2010) en Nintendo 3DS mediante port de código. Última release: v0.3.1. Necesitas tu propia copia del juego.",
 };

@@ -45,6 +45,8 @@ export const daggerfallUnity: Port = {
       credit: "Daggerfall Workshop",
     },
   ],
+  summary: "The Elder Scrolls II: Daggerfall is a 1996 action role-playing game published by Bethesda Softworks. The second installment in the Elder Scrolls series, it was released on September 20, 1996 for MS-DOS, following the success of 1994's The Elder Scrolls: Arena. The story follows the player, sent by the Emperor, to free the ghost of King Lysandus from his earthly shackles and discover what happened to a letter sent from the Emperor to the former queen of Daggerfall.",
+  summaryEs: "The Elder Scrolls II: Daggerfall es la segunda entrega de la serie de videojuegos de rol The Elder Scrolls. Fue desarrollado por Bethesda Softworks y publicado en el año 1996 en Europa y Estados Unidos para el sistema operativo MS-DOS. Desde el 9 de julio de 2009 puede descargarse de forma gratuita desde el sitio web de Bethesda en conmemoración al 15 aniversario de The Elder Scrolls.",
   notes:
     "Open source recreation of Daggerfall on the Unity engine, now free to play for everyone. The Daggerfall Unity Installer bundles the required game data.",
   notesEs:

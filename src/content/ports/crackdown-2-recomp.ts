@@ -19,6 +19,8 @@ export const crackdown2Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Xbox 360"],
+  summary: "Crackdown 2 is a 2010 action-adventure game developed by Ruffian Games and published by Microsoft Game Studios. It was released for the Xbox 360 in July 2010 and is a direct sequel to the 2007 video game Crackdown. A sequel, Crackdown 3, was released for the Xbox One and Microsoft Windows in February 2019.",
+  summaryEs: "Crackdown 2 es un videojuego desarrollado en exclusiva para Xbox 360, es la secuela del aclamado título de 2007 Crackdown. Gracias a su jugabilidad totalmente nueva e innovadora, su gigantesco mundo lleno de vida, sus mejorados gráficos cell shading e insuperables opciones multijugador, “Crackdown 2” está llamado a convertirse en el juego de acción más completo para Xbox 360. Han pasado 10 años desde que los Agentes genéticamente mejorados acabaran con la guerra de bandas en Pacific City.",
   notes: "The project publishes no description.",
   notesEs: "El proyecto no publica descripción.",
   cover: {

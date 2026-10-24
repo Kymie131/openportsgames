@@ -26,6 +26,8 @@ export const sts2MobileLauncher: Port = {
     alt: "Slay The Spire 2 (box art)",
     credit: "Steam",
   },
+  summary: "Slay the Spire II is a roguelike deck-building game developed and published by Mega Crit. Similar to its 2019 predecessor Slay the Spire, players select a character to traverse multiple levels of the Spire while collecting and playing cards to defeat monsters. Slay the Spire II introduces two new characters in addition to three returning characters, as well as support for four player co-operative play.",
+  summaryEs: "Slay the Spire 2 es un videojuego de estrategia en 2025.",
   notes: "Slay The Spire 2 (Humble Bundle, 2026) an Android tool. Latest release: v0.1.11. Needs your own copy of the game.",
   notesEs: "Slay The Spire 2 (Humble Bundle, 2026) una herramienta para Android. Última release: v0.1.11. Necesita tu propia copia del juego.",
 };

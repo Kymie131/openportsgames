@@ -34,6 +34,8 @@ export const ja2Stracciatella: Port = {
     "Build para Android",
     "Bases de datos de objetos y mercenarios ampliadas",
   ],
+  summary: "Jagged Alliance 2 is a 1999 tactical role-playing game developed by Sir-Tech Canada for Microsoft Windows and later ported to Linux by Tribsoft. It is the third entry in the Jagged Alliance series. The game was followed by the expansion pack Unfinished Business in 2000. Two commercial versions of the mod Wildfire were released in 2004 in the form of expansion packs. The core game and the Unfinished Business expansion were combined and re-released under the title of Jagged Alliance 2 Gold Pack in 2002.",
+  summaryEs: "Jagged Alliance 2 es un videojuego de estrategia publicado por TalonSoft en 1999.",
   notes:
     "Open source reimplementation of Jagged Alliance 2. The repository carries an SFI Source Code license agreement rather than a standard SPDX license.",
   notesEs:

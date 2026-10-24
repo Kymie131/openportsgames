@@ -25,6 +25,8 @@ export const gtaIvIosIpados: Port = {
     alt: "Grand Theft Auto IV (box art)",
     credit: "Wikipedia",
   },
+  summary: "Grand Theft Auto IV is a 2008 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the sixth main entry in the Grand Theft Auto series, following 2004's Grand Theft Auto: San Andreas, and the eleventh entry overall. Set in the fictional Liberty City, based on New York City, the single-player story follows Eastern European war veteran Niko Bellic and his attempts to escape his past while under pressure from high-profile criminals.",
+  summaryEs: "Grand Theft Auto IV es un videojuego de acción-aventura de mundo abierto de disparos en tercera persona desarrollado por Rockstar North y distribuido por Rockstar Games. Es la sexta entrada principal de la serie Grand Theft Auto, después de Grand Theft Auto: Vice City Stories de 2006, y la undécima entrega en general. Ambientada en la ficticia Liberty City, basada en la ciudad de Nueva York, la historia para un jugador sigue al veterano de guerra de Europa del Este Niko Bellic, y sus intentos de escapar de su pasado mientras se encuentra bajo la presión de criminales de alto perfil.",
   notes: "Grand Theft Auto IV (Rockstar Games, 2008) running on iPhone and iPad through static recompilation. Latest release: v0.3.2. You need your own copy of the game.",
   notesEs: "Grand Theft Auto IV (Rockstar Games, 2008) en iPhone and iPad mediante recompilación estática. Última release: v0.3.2. Necesitas tu propia copia del juego.",
 };

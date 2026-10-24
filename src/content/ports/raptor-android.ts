@@ -21,6 +21,8 @@ export const raptorAndroid: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["MS-DOS"],
+  summary: "Raptor: Call of the Shadows is a vertically scrolling shooter developed by Cygnus Studios and published by Apogee Software. Its working title was \"Mercenary 2029\". It was released on April 1, 1994 for MS-DOS compatible systems. The first episode of the game, \"Bravo Sector\", was distributed as shareware, while the other two episodes were sold commercially.",
+  summaryEs: "Raptor: Call of the Shadows es un videojuego de aviones en 2D diseñado para el computador X86 y escrito para el sistema operativo DOS. Producido por la compañía de juegos de vídeo Cygnus Studios, el juego fue lanzado al mercado por la empresa Apogee Software el 1 de abril de 1994.",
   notes: "Reverse-engineered source port of Raptor: Call of the Shadows with an Android APK in releases. Bring your own game data.",
   notesEs: "Port de código fuente de Raptor: Call of the Shadows obtenido por ingeniería inversa, con APK para Android en las releases. Aporta tus propios datos del juego.",
 };

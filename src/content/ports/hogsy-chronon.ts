@@ -7,7 +7,7 @@ export const hogsyChronon: Port = {
   game: "Anachronox",
   developers: ["hogsy"],
   publisher: "Square Enix",
-  originalYear: 2013,
+  originalYear: 2001,
   portType: "reimplementation",
   genre: "shooter",
   openSource: true,
@@ -22,6 +22,8 @@ export const hogsyChronon: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Anachronox is a 2001 role-playing video game produced by Tom Hall and the Dallas Ion Storm games studio. The game is centered on Sylvester \"Sly Boots\" Bucelli, a down-and-out private investigator who looks for work in the slums of Anachronox, a once-abandoned planet near the galaxy's jumpgate hub. He travels to other planets, amasses an unlikely group of friends, and unravels a mystery that threatens the fate of the universe. The game's science fiction story was influenced by cyberpunk, film noir, and unconventional humor.",
+  summaryEs: "Anachronox es un videojuego de rol de 2001 producido por Tom Hall y el estudio de juegos Dallas Ion Storm. El juego se centra en Sylvester \"Sly Boots\" Bucelli, un investigador privado decadente que busca trabajo en los barrios bajos de Anachronox, un planeta que alguna vez estuvo abandonado cerca del centro de la puerta de enlace de la galaxia. Viaja a otros planetas, reúne un grupo de amigos poco probable y desentraña un misterio que amenaza el destino del universo. La historia de ciencia ficción del juego estuvo influenciada por el cyberpunk, el cine negro y el humor poco convencional.",
   notes: "Anachronox: engine remake by hogsy for Windows. Bring your own copy of the game.",
   notesEs: "Anachronox: recreación de motor de hogsy para Windows. Aporta tu propia copia del juego.",
 };

@@ -19,6 +19,8 @@ export const dxxRebirth: Port = {
   license: { spdx: "GPL-3.0" },
   verified: true,
   verifiedAt: "2026-09-25",
+  summary: "Descent II is a 1996 first-person shooter game developed by Parallax Software and first published for MS-DOS by Interplay Productions. A version for the PlayStation was released under the title Descent Maximum. It is the second installment in the Descent video game series and the sequel to Descent.",
+  summaryEs: "Descent II es un videojuego de disparos publicado por Interplay Entertainment en 1996.",
   notes:
     "Source port of Descent and Descent II with OpenGL rendering and modern hardware support. The last official release was published in 2018, when the project originator retired.",
   notesEs:

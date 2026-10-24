@@ -27,6 +27,8 @@ export const mercuryworkshopCelesteWasm: Port = {
     alt: "Celeste (box art)",
     credit: "Wikipedia",
   },
+  summary: "Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight platformer from the creators of TowerFall. Brave hundreds of hand-crafted challenges, uncover devious secrets, and piece together the mystery of the mountain.",
+  summaryEs: "Celeste es un videojuego de plataformas publicado por Maddy Makes Games Inc. en 2018.",
   notes: "Celeste: browser port by MercuryWorkshop for the browser. Playable in the browser.",
   notesEs: "Celeste: port de navegador de MercuryWorkshop para el navegador. Jugable en el navegador.",
 };

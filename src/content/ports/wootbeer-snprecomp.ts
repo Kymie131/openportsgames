@@ -21,6 +21,8 @@ export const wootbeerSnprecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo 64"],
+  summary: "Sin and Punishment is a rail shooter video game co-developed by Treasure and Nintendo for the Nintendo 64, and released in Japan in 2000. Its story takes place in the near future of 2007 when war breaks out as humanity is struggling with a global famine. The player takes on the roles of Saki and Airan as they fight to save Earth from destruction. The game employs a unique scheme that uses both the D-pad and control stick on the Nintendo 64 controller, allowing players to maneuver the character while simultaneously aiming the targeting reticle.",
+  summaryEs: "Sin and Punishment , es un videojuego de disparos de Nintendo 64 desarrollado por Treasure y lanzado al mercado por Nintendo el 21 de noviembre del año 2000 en Japón. El juego de Nintendo 64 sólo vio la luz en el mercado japonés, sin embargo, la versión para Consola Virtual lanzada en el año 2007 para Wii también fue lanzada en los mercados europeo y norteamericano.",
   notes: "Sin and Punishment: static recompilation by wootbeer for Windows. Bring your own copy of the game.",
   notesEs: "Sin and Punishment: recompilación estática de wootbeer para Windows. Aporta tu propia copia del juego.",
 };

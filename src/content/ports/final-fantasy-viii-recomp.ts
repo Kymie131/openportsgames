@@ -19,6 +19,8 @@ export const finalFantasyViiiRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Final Fantasy VIII is a 1999 role-playing video game developed and published by Square for the PlayStation console. It is the eighth main installment in the Final Fantasy series. Set on an unnamed fantasy world with science fiction elements, the game follows a group of young mercenaries, led by Squall Leonhart, as they are drawn into a conflict sparked by a sorceress named Edea Kramer who seized control of a powerful military state.",
+  summaryEs: "Final Fantasy VIII es un videojuego de tipo RPG desarrollado por Squaresoft en 1999 para el sistema PlayStation, aunque posteriormente salió una versión para PC. Es la octava entrega de la serie de videojuegos Final Fantasy. Este juego se aleja de la tónica de fantasía mostrada en las entregas anteriores enfocándose en presentar a personajes más realistas y el primero en contar con un tema musical cantado para el juego. El juego costó en total para su realización unos tres mil millones de Yenes en Japón.",
   notes:
     "Recompilation of Final Fantasy VIII (PS1, USA SLUS-00892) with PSXRecomp and the recomp-ui launcher. It needs your own disc and a European SCPH-5502/5552 BIOS; the wizard generates and compiles the game on your machine. Published as release candidate 0.1.0, with gameplay acceptance still pending.",
   notesEs:

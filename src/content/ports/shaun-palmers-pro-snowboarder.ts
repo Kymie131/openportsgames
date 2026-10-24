@@ -7,7 +7,7 @@ export const ShaunPalmersProSnowboarder: Port = {
   game: "Shaun Palmer's Pro Snowboarder",
   developers: ["Daniel-McCarthy"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2001,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const ShaunPalmersProSnowboarder: Port = {
     alt: "Shaun Palmer's Pro Snowboarder (box art)",
     credit: "Wikipedia",
   },
+  summary: "Shaun Palmer's Pro Snowboarder is a 2001 snowboarding video game with a similar feel to the Tony Hawk's Pro Skater series. It was developed by Dear Soft and published by Activision under the Activision O2 label. The game features ten famous snowboarders, including Shaun Palmer, Ross Powers and Shaun White. A demo version of the game is available in the options menu of the PlayStation 2 version of Tony Hawk's Pro Skater 3. A sequel was in development by Treyarch, with a concurrent GBA version by Vicarious Visions, but was later cancelled.",
+  summaryEs: "Shaun Palmer's Pro Snowboarder es un videojuego de acción y aventura en 2001.",
   notes: "Decompilation of Shaun Palmer's Pro Snowboarder (Other).",
   notesEs: "Decompilación de Shaun Palmer's Pro Snowboarder (Other).",
 };

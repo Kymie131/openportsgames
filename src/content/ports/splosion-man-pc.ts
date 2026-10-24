@@ -25,6 +25,8 @@ export const splosionManPc: Port = {
     alt: "'Splosion Man (box art)",
     credit: "Wikipedia",
   },
+  summary: "'Splosion Man is a 2009 platformer video game developed by Twisted Pixel Games for the Xbox 360, available through the Xbox Live Arcade digital download service. Released on July 22, 2009, as part of the Xbox Live Summer of Arcade, the game follows 'Splosion Man—an escaped science experiment with the ability to explode himself repeatedly—as he works his way through obstacles and traps trying to exit the fictional laboratory known as Big Science.",
+  summaryEs: "'Splosion Man es un videojuego de plataformas publicado por Xbox Game Studios en 2009.",
   notes: "'Splosion Man (Microsoft Game Studios, 2009) running on Windows and Linux through static recompilation. Latest release: v2.0. You need your own copy of the game.",
   notesEs: "'Splosion Man (Microsoft Game Studios, 2009) en Windows and Linux mediante recompilación estática. Última release: v2.0. Necesitas tu propia copia del juego.",
 };

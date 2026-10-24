@@ -26,6 +26,8 @@ export const mstanSupermario64dsrecomp: Port = {
     alt: "Super Mario 64 DS (box art)",
     credit: "Wikipedia",
   },
+  summary: "Super Mario 64 DS is a 2004 platform video game developed and published by Nintendo for the Nintendo DS. It is an enhanced remake of Super Mario 64, released in 1996 for the Nintendo 64. As with the original, the game's plot centers on rescuing Princess Peach from Bowser. Players start the game with Yoshi as the playable character and gain access to Mario, Luigi, and Wario as the story progresses.",
+  summaryEs: "Super Mario 64 DS es una nueva versión mejorada del videojuego de plataformas de 1996 Super Mario 64, desarrollado y publicado por Nintendo para la consola portátil Nintendo DS. Al igual que en el original, la trama gira en torno al rescate de la princesa Peach de las garras de Bowser. Los jugadores comienzan con Yoshi como personaje controlable y, a medida que avanza la historia, desbloquean a Mario, Luigi y Wario.",
   notes: "Super Mario 64 DS: static recompilation by mstan for Windows. Bring your own copy of the game.",
   notesEs: "Super Mario 64 DS: recompilación estática de mstan para Windows. Aporta tu propia copia del juego.",
 };

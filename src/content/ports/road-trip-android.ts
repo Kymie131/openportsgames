@@ -21,6 +21,8 @@ export const roadTripAndroid: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["PlayStation 2"],
+  summary: "Road Trip is a racing game in 2022.",
+  summaryEs: "Road Trip es un videojuego de carreras en 2022.",
   notes: "Static recompilation of Road Trip (Choro Q HG 2) for Android and macOS, built from your own disc, with HD texture packs and a second-screen map.",
   notesEs: "Recompilación estática de Road Trip (Choro Q HG 2) para Android y macOS, construida desde tu propio disco, con packs de texturas HD y mapa en segunda pantalla.",
 };

@@ -26,6 +26,8 @@ export const bc160201983UnchartedTheNathanDrakeCollectionPcPort: Port = {
     alt: "Uncharted: The Nathan Drake Collection (box art)",
     credit: "Wikipedia",
   },
+  summary: "Uncharted: The Nathan Drake Collection is a 2015 video game compilation developed by Bluepoint Games and published by Sony Computer Entertainment. It includes remastered versions of the first three main games in Naughty Dog's Uncharted series: Uncharted: Drake's Fortune (2007), Uncharted 2: Among Thieves (2009) and Uncharted 3: Drake's Deception (2011). The Nathan Drake Collection was released in October 2015 exclusively for PlayStation 4. Players control Nathan Drake, a treasure hunter who travels the world to uncover various historical mysteries.",
+  summaryEs: "Uncharted: The Nathan Drake Collection es una colección remasterizada de los juegos creados por el estudio de desarrollo norteamericano Naughty Dog, Uncharted: El tesoro de Drake, Uncharted 2: El reino de los ladrones y Uncharted 3: La traición de Drake. El juego, en su lanzamiento, incluía un código para la beta multijugador de Uncharted 4: El desenlace del ladrón, juego que llegó en exclusiva a PlayStation 4 el 10 de mayo de 2016. La beta estuvo disponible para los usuarios del 4 al 13 de diciembre de 2015.",
   notes: "Uncharted: The Nathan Drake Collection: source port by bc160201983 for Windows. Bring your own copy of the game.",
   notesEs: "Uncharted: The Nathan Drake Collection: source port de bc160201983 para Windows. Aporta tu propia copia del juego.",
 };

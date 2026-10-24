@@ -26,6 +26,8 @@ export const mk64Portable: Port = {
     alt: "Mario Kart 64 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Mario Kart 64 is a 1996 kart racing game for the Nintendo 64 (N64). Developed and published by Nintendo, it is the second installment in the Mario Kart series after 1992's Super Mario Kart. The game retains the gameplay of its predecessor: the player, controlling a Mario franchise character, races opponents around tracks based on locales from the Super Mario platform games. Tracks contain obstacles to slow the player down and item boxes which give the player power-ups to aid in their progress.",
+  summaryEs: "Mario Kart 64 es un videojuego de carreras para la Nintendo 64 (N64). Desarrollado y publicado por Nintendo, es la segunda entrega de la serie Mario Kart tras Super Mario Kart de 1992. Conserva la mecánica de su predecesor: el jugador, que controla a un personaje de la franquicia Mario, compite contra sus rivales en circuitos basados en escenarios de los plataformas de Super Mario. Contienen obstáculos para frenarlo y cajas de objetos que le proporcionan potenciadores para ayudarle a avanzar.",
   notes: "Native PSP port of Mario Kart 64 built on the n64decomp/mk64 decompilation: 60 FPS in single player and 30 FPS in ad-hoc multiplayer. It contains no game data and builds it from your own ROM on first start. Latest release: v1.7.",
   notesEs: "Port nativo para PSP de Mario Kart 64 construido sobre la decompilación n64decomp/mk64: 60 FPS en un jugador y 30 FPS en multijugador ad-hoc. No contiene datos del juego y los construye desde tu propia ROM al arrancar. Última release: v1.7.",
 };

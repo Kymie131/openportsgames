@@ -19,6 +19,8 @@ export const syphonFilter3Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Syphon Filter 3 is a 2001 third-person shooter video game developed and published by Sony Computer Entertainment for the PlayStation. It is the third installment in the Syphon Filter series and the last to be released on the PlayStation. It was re-released in 2023 for the PlayStation 4 and PlayStation 5.",
+  summaryEs: "Syphon Filter 3: Sentencia Final es un videojuego perteneciente al género de aventura en tercera persona para la consola PlayStation 1, realizado por la empresa SCEA. Éste es el tercer videojuego de la saga Syphon Filter, e inicia exactamente donde terminó el Syphon Filter 2.",
   notes:
     "Recompilation of Syphon Filter 3 (PS1, USA SCUS-94640) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

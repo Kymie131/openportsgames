@@ -39,6 +39,8 @@ export const namcoSystem22DirtDash: Port = {
       credit: "spacestate1/namco22-decompile",
     },
   ],
+  summary: "Dirt Dash is a 1995 off-road racing arcade game developed and published by Namco.",
+  summaryEs: "Dirt Dash es un videojuego de carreras publicado por Namco en 1995.",
   notes:
     "Decompilation of the 1995 Namco arcade rally game for PC. All five tracks are finished, which is more than the arcade original shipped with.",
   notesEs:

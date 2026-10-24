@@ -7,7 +7,7 @@ export const ShadowTheHedgehog: Port = {
   game: "Shadow the Hedgehog",
   developers: ["dev-camo"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2005,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const ShadowTheHedgehog: Port = {
     alt: "Shadow the Hedgehog (box art)",
     credit: "Wikipedia",
   },
+  summary: "Shadow the Hedgehog is a 2005 platform game developed by Sega Studios USA and published by Sega. It is a spinoff from the Sonic the Hedgehog series starring the character Shadow. It follows the amnesiac Shadow's attempts to learn about his past during an alien invasion. Gameplay is similar to previous Sonic games, featuring fast-paced platforming and ring collecting, but introduces third-person shooter and nonlinear elements. Shadow uses a variety of weapons to defeat enemies and complete missions that determine the plot and playable levels.",
+  summaryEs: "Shadow the Hedgehog es un videojuego de plataformas de 2005 desarrollado por Sega Studios USA —la antigua división estadounidense de Sonic Team— y publicado por Sega como parte de la serie Sonic the Hedgehog. Sirviendo de secuela de Sonic Heroes, el juego sigue a Shadow the Hedgehog, una creación del abuelo del Doctor Eggman, el Prof. Gerald Robotnik con la ayuda de Black Doom, mientras intenta aprender sobre su pasado mientras sufre de amnesia.",
   notes: "Decompilation of Shadow the Hedgehog (Other).",
   notesEs: "Decompilación de Shadow the Hedgehog (Other).",
 };

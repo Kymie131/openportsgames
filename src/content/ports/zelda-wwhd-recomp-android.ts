@@ -26,6 +26,8 @@ export const zeldaWwhdRecompAndroid: Port = {
     alt: "The Legend of Zelda: The Wind Waker HD (box art)",
     credit: "Wikipedia",
   },
+  summary: "The Legend of Zelda: The Wind Waker is a 2002 action-adventure game developed and published by Nintendo for the GameCube. An installment in The Legend of Zelda series, it was released in Japan on December 13, 2002, in North America on March 23, 2003, and in Europe on May 2, 2003.",
+  summaryEs: "The Legend of Zelda: The Wind Waker HD es un videojuego de acción y aventura publicado por Nintendo en 2013.",
   notes: "The Legend of Zelda: The Wind Waker HD (Wii U, 2013) recompiled for Android. Bring your own game. Latest release: v0.9.4.",
   notesEs: "The Legend of Zelda: The Wind Waker HD (Wii U, 2013) recompilado para Android. Aporta tu propio juego. Última release: v0.9.4.",
 };

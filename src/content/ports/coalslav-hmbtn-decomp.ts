@@ -22,6 +22,8 @@ export const coalslavHmbtnDecomp: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation"],
+  summary: "Harvest Moon: Back to Nature is a 1999 video game in the farm simulation series Story of Seasons developed by Victor Interactive Software and published outside of Japan by Natsume. It is the first Harvest Moon game for a non-Nintendo console. Characters from Harvest Moon 64 were transferred to be the characters in this game, although with new lifestyles, personalities, and relatives.",
+  summaryEs: "Harvest Moon: Back to Nature es un videojuego de la serie de simulación de granjas, Harvest Moon, desarrollado por Victor Interactive Software. Es el único juego de la serie Harvest Moon desarrollado para la PlayStation, así como el primer Harvest Moon publicado para una consola que no fuera Nintendo. Los personajes de Harvest Moon 64 fueron transferidos a este juego, aunque con nuevos estilos de vida, personalidades y familiares, incluyendo a las chicas cotejables de Harvest Moon 64.",
   notes: "Harvest Moon: Back to Nature: decompilation by coalslav for Windows. Bring your own copy of the game.",
   notesEs: "Harvest Moon: Back to Nature: decompilación de coalslav para Windows. Aporta tu propia copia del juego.",
 };

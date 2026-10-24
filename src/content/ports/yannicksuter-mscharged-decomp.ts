@@ -27,6 +27,8 @@ export const yannicksuterMschargedDecomp: Port = {
     alt: "Mario Strikers Charged (box art)",
     credit: "Box art",
   },
+  summary: "Mario Strikers Charged as is a 2007 sports video game developed by Next Level Games and published by Nintendo for the Wii. It is the sequel to Super Mario Strikers for the GameCube.",
+  summaryEs: "Mario Strikers Charged es un videojuego de fútbol desarrollado por Next Level Games y publicado por Nintendo para la consola Wii. Llegó al mercado el 25 de mayo de 2007 en Europa, el 30 de julio de 2007 en Norteamérica y el 20 de septiembre de 2007 en Japón. Es el segundo juego de la saga Mario Strikers, teniendo la misma temática que su predecesor Super Mario Strikers con algunas modificaciones en la jugabilidad.",
   notes: "Mario Strikers Charged: decompilation by yannicksuter for Windows. Bring your own copy of the game.",
   notesEs: "Mario Strikers Charged: decompilación de yannicksuter para Windows. Aporta tu propia copia del juego.",
 };

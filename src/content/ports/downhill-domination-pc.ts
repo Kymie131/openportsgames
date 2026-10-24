@@ -25,6 +25,8 @@ export const downhillDominationPc: Port = {
     alt: "Downhill Domination (box art)",
     credit: "Wikipedia",
   },
+  summary: "Downhill Domination is a racing video game developed by Incog Inc. Entertainment and published by Sony Computer Entertainment for the PlayStation 2. It was released in North America in 2003 and in Europe by Codemasters in 2004.",
+  summaryEs: "Downhill Domination es un videojuego de carreras desarrollado por Incog Inc. Entertainment y publicado por Sony Computer Entertainment para PlayStation 2. Fue lanzado en Norteamérica en 2003 y en Europa por Codemasters en 2004.",
   notes: "Downhill Domination (Incog Inc., 2003) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Downhill Domination (Incog Inc., 2003) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

@@ -22,6 +22,8 @@ export const foreverwipS1Port: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Sonic the Hedgehog is a 1991 platform game developed by Sonic Team and published by Sega for the Sega Genesis. It was released in North America and PAL regions in June and in Japan the following month. The player controls Sonic, a hedgehog who can run at supersonic speeds. The story follows Sonic as he aims to foil the mad scientist Doctor Robotnik's plans to seek the powerful Chaos Emeralds. The gameplay involves collecting rings as a form of health, and a simple control scheme, with jumping and attacking controlled by a single button.",
+  summaryEs: "Sonic the Hedgehog es un videojuego de plataformas desarrollado y publicado por Sega para la consola Mega Drive. Salió a la venta en las regiones PAL el 21 de junio, en Norteamérica dos días después, el 23 de junio, y en Japón al mes siguiente. El jugador controla a Sonic, un erizo que puede correr a velocidades supersónicas. La historia lo sigue en su intento de frustrar los planes del científico loco Dr. Robotnik, que busca las poderosas Chaos Emeralds.",
   notes: "Sonic the Hedgehog: source port by foreverWIP for Windows. Bring your own copy of the game.",
   notesEs: "Sonic the Hedgehog: source port de foreverWIP para Windows. Aporta tu propia copia del juego.",
 };

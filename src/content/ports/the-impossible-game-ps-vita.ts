@@ -25,6 +25,8 @@ export const theImpossibleGamePsVita: Port = {
     alt: "The Impossible Game (cover art)",
     credit: "Steam",
   },
+  summary: "The Impossible Game is a 2009 one-button platform game developed and published by Fluke Games. The objective is to guide a cube over spikes and pits. The Windows, macOS and Linux port was developed by Grip Games. First released in 2009, for the Xbox 360 via the Xbox Live Indie Games, The Impossible Game received generally mixed reviews.",
+  summaryEs: "The Impossible Game es un videojuego plataformero rítmico y arcade para Xbox 360 de 2009 originalmente. Desarrollado por FlukeDude y publicado por la compañía Grip Games. Su lanzamiento se produjo el 23 de noviembre de 2009 para Xbox 360, el 24 de abril de 2010 para iOS, el 14 de octubre de 2010 para Windows Phone, el 5 de diciembre de 2010 para Android, el 9 de mayo de 2011 para Symbian, el 6 de septiembre de 2011 para PlayStation 3 y PlayStation Portable, el 15 de febrero de 2012 para PlayStation Vita y el 8 de mayo de 2014 para Linux, MacOS y Windows.",
   notes: "The Impossible Game (Fluke Games, 2009) running on PlayStation Vita through source port. Latest release: v.1.1.0. You need your own copy of the game.",
   notesEs: "The Impossible Game (Fluke Games, 2009) en PlayStation Vita mediante port de código. Última release: v.1.1.0. Necesitas tu propia copia del juego.",
 };

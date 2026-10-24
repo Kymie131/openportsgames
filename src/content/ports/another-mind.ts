@@ -7,7 +7,7 @@ export const AnotherMind: Port = {
   game: "Another Mind",
   developers: ["halkuncode"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 1998,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const AnotherMind: Port = {
     alt: "Another Mind (box art)",
     credit: "Wikipedia",
   },
+  summary: "Another Mind is an adventure game created by Square for the PlayStation and released on November 12, 1998, in Japan. The game is presented as live-action full-motion video sequences.",
+  summaryEs: "Another Mind es un videojuego de acción y aventura en 1998.",
   notes: 'Decompiliation of Squaresoft\'s visual novel "Another Mind".',
   notesEs: "Decompilación de la novela visual de Squaresoft «Another Mind».",
 };

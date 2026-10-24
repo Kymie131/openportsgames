@@ -26,6 +26,8 @@ export const windowSmash: Port = {
     alt: "Super Smash Bros. Ultimate (box art)",
     credit: "Wikipedia",
   },
+  summary: "Super Smash Bros. Ultimate is a 2018 crossover fighting game developed by Bandai Namco Studios and Sora Ltd. and published by Nintendo for the Nintendo Switch. It is the fifth installment in the Super Smash Bros. series, succeeding Super Smash Bros. for Nintendo 3DS and Wii U (2014). The game follows the series' traditional style of gameplay, in which players control one of the various characters and use attacks to weaken their opponents and knock them out of an arena. It features a wide variety of game modes, including a single-player campaign and multiplayer versus modes.",
+  summaryEs: "Super Smash Bros. Ultimate es un videojuego de lucha desarrollado por Sora Ltd. y Bandai Namco Entertainment y distribuido por Nintendo para la consola Nintendo Switch. Fue lanzado a nivel mundial el 7 de diciembre de 2018 y se trata del quinto título de la serie Super Smash Bros.",
   notes:
     "Super Smash Bros. Ultimate (Nintendo, 2018) running natively on Windows, Linux and macOS through static recompilation. You need your own copy.",
   notesEs:

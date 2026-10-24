@@ -22,6 +22,8 @@ export const ozordiSanrecomp: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  summary: "Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the seventh main entry in the Grand Theft Auto series, following 2008's Grand Theft Auto IV, and the fifteenth instalment overall.",
+  summaryEs: "Grand Theft Auto V es un videojuego de acción y aventura de mundo abierto desarrollado por Rockstar North y publicado por Rockstar Games. Fue lanzado inicialmente el 17 de septiembre de 2013 para PlayStation 3 y Xbox 360. Posteriormente, se publicó el 18 de noviembre de 2014 para PlayStation 4 y Xbox One, incorporando, entre otras mejoras, un modo de juego con perspectiva en primera persona.",
   notes: "Grand Theft Auto V: static recompilation by OZORDI for Windows. Bring your own copy of the game.",
   notesEs: "Grand Theft Auto V: recompilación estática de OZORDI para Windows. Aporta tu propia copia del juego.",
 };

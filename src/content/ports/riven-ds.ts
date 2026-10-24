@@ -25,6 +25,8 @@ export const rivenDs: Port = {
     alt: "Riven (box art)",
     credit: "Wikipedia",
   },
+  summary: "Riven: The Sequel to Myst is a 1997 adventure game developed by Cyan Productions and published by Red Orb Entertainment for Mac OS and Microsoft Windows. It is the sequel to 1993's Myst, and the second installment of the Myst series. The game's story is set after the events of its predecessor; having rescued Atrus, who had been trapped by his sons, the player character is enlisted by him to free his wife from his power-hungry father, Gehn. Riven takes place almost entirely on the Age of Riven, a world slowly falling apart due to Gehn's destructive rule.",
+  summaryEs: "Riven es un juego de aventura gráfica tipo point-and-click. Es la secuela de Myst desarrollado por Cyan Worlds, el cual fue inicialmente publicado por Brøderbund. Riven fue distribuido en 5 discos compactos y liberado el 29 de octubre de 1997 en Norteamérica, y más tarde fue liberado en un solo DVD-ROM, el cual agregaba audio y 40 minutos de un video \"making-of\". Además de la versión de PC, Riven fue portado a varias otras plataformas, incluyendo PlayStation, Sega Saturn y Android.",
   notes: "Riven (Red Orb Entertainment, 1997) running on Nintendo DS through source port. Latest release: v1.0.0. You need your own copy of the game.",
   notesEs: "Riven (Red Orb Entertainment, 1997) en Nintendo DS mediante port de código. Última release: v1.0.0. Necesitas tu propia copia del juego.",
 };

@@ -25,6 +25,8 @@ export const portabletale: Port = {
     alt: "Undertale (cover art)",
     credit: "Steam",
   },
+  summary: "Undertale is a 2015 role-playing video game created by American indie developer Toby Fox. The player controls a child who has fallen into the Underground: a large, secluded region under the surface of the Earth, separated by a magical barrier. The player meets various monsters during the journey back to the surface, some of which may engage in combat. The combat system involves the player navigating through mini–bullet hell attacks by the opponent. They can opt to appease monsters in order to spare them instead of killing them.",
+  summaryEs: "Undertale es un videojuego de rol en 2D de 2015 creado por el desarrollador independiente estadounidense Toby Fox. El jugador controla a un niño que ha caído al subsuelo: una gran región aislada bajo la superficie de la Tierra, separada por una barrera mágica. El jugador se encuentra con varios monstruos durante su viaje de regreso a la superficie, aunque algunos monstruos pueden involucrar al jugador en una pelea. El sistema de combate involucra al jugador navegando a través de los ataques mini bullet hell por parte del oponente.",
   notes: "PortableTale is a recreation of Undertale for the PSP written in Lua on top of LuaPlayerPlus. Work in progress: the intro is nearly done while the battle engine is still pending. It ships as a source EBOOT.PBP.",
   notesEs: "PortableTale es una recreación de Undertale para PSP escrita en Lua sobre LuaPlayerPlus. En desarrollo: la intro está casi terminada pero el motor de combate sigue pendiente. Se distribuye como EBOOT.PBP de código.",
 };

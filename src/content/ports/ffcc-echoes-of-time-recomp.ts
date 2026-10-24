@@ -25,6 +25,8 @@ export const ffccEchoesOfTimeRecomp: Port = {
     alt: "Final Fantasy Crystal Chronicles: Echoes of Time (box art)",
     credit: "Wikipedia",
   },
+  summary: "Final Fantasy Crystal Chronicles: Echoes of Time is a Wii and Nintendo DS action role-playing game in the Final Fantasy Crystal Chronicles series developed by Square Enix.",
+  summaryEs: "Final Fantasy Crystal Chronicles: Echoes of Time es un videojuego de rol publicado por Square Enix en 2009.",
   notes: "Native PC port of Final Fantasy Crystal Chronicles: Echoes of Time (Nintendo DS, 2009) by static recompilation: the ARM code is translated to C and compiled on your PC, not emulated. Bring your own ROM. Latest tag: v0.3.1-alpha.",
   notesEs: "Port nativo a PC de Final Fantasy Crystal Chronicles: Echoes of Time (Nintendo DS, 2009) por recompilación estática: el código ARM se traduce a C y se compila en tu PC, no se emula. Aporta tu propia ROM. Último tag: v0.3.1-alpha.",
 };

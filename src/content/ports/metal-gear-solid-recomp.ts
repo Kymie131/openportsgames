@@ -19,6 +19,8 @@ export const metalGearSolidRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Metal Gear Solid is a 1998 action-adventure stealth game developed and published by Konami for the PlayStation. Directed, produced, and written by Hideo Kojima, the game is the third mainline installment in the Metal Gear series and serves as a sequel to the MSX2 game Metal Gear 2: Solid Snake (1990). The game's story follows Solid Snake, a former Special Forces operative who is pulled out of retirement by the U.S. government to infiltrate Shadow Moses, a nuclear weapons facility that has been taken over by rogue unit FOXHOUND, led by Liquid Snake.",
+  summaryEs: "Metal Gear Solid es un videojuego de acción-aventura y sigilo de 1998 desarrollado por Konami Computer Entertainment Japan, publicado por Konami para la consola PlayStation y dirigido por Hideo Kojima. Fue lanzado el 3 de septiembre de 1998 en Japón, el 21 de octubre de 1998 en Norteamérica y el 26 de febrero de 1999 en Europa. El juego fue desarrollado y pensado únicamente para la consola Playstation, según la entrevista que dio Kojima a la Revista Famitsu en la celebración de los 20 años de Playstatión.",
   notes:
     "Recompilation of Metal Gear Solid (PS1, Europe SLES-01370 / SLES-11370) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

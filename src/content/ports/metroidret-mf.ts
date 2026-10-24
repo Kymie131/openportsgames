@@ -22,6 +22,8 @@ export const metroidretMf: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Game Boy Advance"],
+  summary: "Metroid Fusion is a 2002 action-adventure game developed and published by Nintendo for the Game Boy Advance. It is the fourth main Metroid game. Players control the bounty hunter Samus Aran, who investigates a space station infected with shapeshifting parasites known as X. Along with the GameCube game Metroid Prime, Fusion marked the return of the Metroid series after an eight-year hiatus following Super Metroid (1994).",
+  summaryEs: "Metroid Fusion (también conocido como Metroid 4), es el cuarto videojuego de la saga Metroid, el primero en haber salido para Game Boy Advance. Fue desarrollado por Nintendo Research & Development 1 y publicado por Nintendo en 2002. Es la secuela directa de Metroid: Other M (2010) de Wii y la precuela de Metroid Dread (2021) de Nintendo Switch. Los jugadores controlan a la cazarrecompensas Samus Aran, quien investiga una estación espacial infectada con parásitos metamorfos conocidos como «X».",
   notes: "Metroid Fusion: decompilation by metroidret for Windows. Bring your own copy of the game.",
   notesEs: "Metroid Fusion: decompilación de metroidret para Windows. Aporta tu propia copia del juego.",
 };

@@ -25,6 +25,8 @@ export const crashTwinsanityPc: Port = {
     alt: "Crash Twinsanity (box art)",
     credit: "Wikipedia",
   },
+  summary: "Crash Twinsanity is a 2004 platform game developed by Traveller's Tales Oxford Studio and published by Vivendi Universal Games for the PlayStation 2 and Xbox. It is the eleventh installment in the Crash Bandicoot series and the fifth game in the main series. The game's story takes place three years after the events of Crash Bandicoot: The Wrath of Cortex and follows the main protagonist and antagonist of the series, Crash Bandicoot and Doctor Neo Cortex, who must work together to stop the Evil Twins — a pair of interdimensional parrots — from destroying N. Sanity Island.",
+  summaryEs: "Crash Twinsanity es un videojuego de plataformas desarrollado por Traveller's Tales y publicado por Vivendi Universal Games para PlayStation 2 y Xbox. Es la undécima entrega de la serie Crash Bandicoot y el quinto de la principal. La historia tiene lugar tres años después de los acontecimientos de Crash Bandicoot: la venganza de Cortex y sigue al protagonista y antagonista, Crash Bandicoot y Doctor Neo Cortex, quienes deben trabajar juntos para impedir que los Gemelos Malvados, un par de loros interdimensionales, destruyan la isla N. Sanity.",
   notes: "Crash Twinsanity (Traveller's Tales, 2004) running on Windows through static recompilation. Latest release: v1.0.9. You need your own copy of the game.",
   notesEs: "Crash Twinsanity (Traveller's Tales, 2004) en Windows mediante recompilación estática. Última release: v1.0.9. Necesitas tu propia copia del juego.",
 };

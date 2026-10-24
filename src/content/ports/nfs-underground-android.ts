@@ -26,6 +26,8 @@ export const nfsUndergroundAndroid: Port = {
     alt: "Need for Speed: Underground (box art)",
     credit: "Wikipedia",
   },
+  summary: "Need for Speed: Underground is a 2003 racing video game and the seventh installment in the Need for Speed series following Hot Pursuit 2 (2002). It was developed by EA Black Box and published by Electronic Arts. Three different versions of the game were produced: one for consoles and Microsoft Windows, and another for the Game Boy Advance. An arcade version developed and published by Global VR came out two years later.",
+  summaryEs: "Need for Speed: Underground es un videojuego de carreras desarrollado por EA Black Box y publicado por Electronic Arts en el 2003. Es parte de la saga de videojuegos Need for Speed y ha sido desarrollado por EA Black Box.",
   notes: "Static recompilation of Need for Speed: Underground (2003) to native Android and Windows code, with no emulator. Bring your own copy of the game.",
   notesEs: "Recompilación estática de Need for Speed: Underground (2003) a código nativo para Android y Windows, sin emulador. Aporta tu propia copia del juego.",
 };

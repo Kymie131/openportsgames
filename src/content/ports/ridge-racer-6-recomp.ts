@@ -25,6 +25,8 @@ export const ridgeRacer6Recomp: Port = {
     alt: "Ridge Racer 6 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Ridge Racer 6 is a 2005 racing video game developed and published by Namco for the Xbox 360. It is an installment in the Ridge Racer series. Unlike the previous mainline entries, which were released for either PlayStation or Nintendo consoles, this entry was released exclusively as a launch title for the Xbox 360 in 2005, marking the series' debut on Xbox consoles, while a European release followed in January 2006 through a co-publishing agreement with Electronic Arts.",
+  summaryEs: "Ridge Racer 6 es el penúltimo videojuego de la serie de videojuegos Ridge Racer, se encuentra disponible solamente para la consola Xbox 360. Cuenta con treinta nuevos circuitos y alrededor de 130 autos. El modo multijugador en línea permite un máximo de 14 jugadores compitiendo simultáneamente. Además se pueden descargar nuevos contenidos mediante el servicio Xbox Live de Microsoft, por ejemplo el replay \"fantasma\" de otro jugador para intentar batirlo.",
   notes: "Recompilation of the Xbox 360 release of Ridge Racer 6 for PC. Work in progress. Latest release: v0.1.5.",
   notesEs: "Recompilación de la versión de Xbox 360 de Ridge Racer 6 para PC. En desarrollo. Última release: v0.1.5.",
 };

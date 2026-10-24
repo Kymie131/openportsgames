@@ -25,6 +25,8 @@ export const chexQuestClassicCoreEngines: Port = {
     alt: "Chex Quest (box art)",
     credit: "Wikipedia",
   },
+  summary: "Chex Quest is a non-violent first-person shooter video game released in 1997 by Digital Café. It was originally intended as a Chex cereal promotion aimed at children aged 6–9 and up. It is a total conversion of the more explicitly violent video game Doom. Chex Quest won both a Golden EFFIE Award for Advertising Effectiveness and Golden Reggie Award for Promotional Achievement in 1998. It is known for being the first ever video game to be included as a cereal box prize.",
+  summaryEs: "Chex Quest es un videojuego de disparos en primera persona no violento creado en 1996 por Digital Café como una promoción de cereales Chex dirigida a niños de 6 a 9 años en adelante. Es una conversión total del videojuego Doom considerablemete más violento. Chex Quest ganó el Premio Golden EFFIE a la Eficacia Publicitaria en 1996 y el Premio Golden Reggie al Logro Promocional en 1998, y hoy es conocido por haber sido el primer videojuego de la historia en ser incluido en cajas de cereales como premio.",
   notes: "Chex Quest (Digital Café, 1996) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (CHEX.WAD).",
   notesEs: "Chex Quest (Digital Café, 1996) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
 };

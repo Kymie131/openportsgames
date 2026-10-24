@@ -26,6 +26,8 @@ export const phobosDevelopersPhobos: Port = {
     alt: "Command & Conquer: Red Alert 2 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Command & Conquer: Red Alert 2 is a real-time strategy video game released for Microsoft Windows on October 25, 2000, as the follow-up to Command & Conquer: Red Alert. Red Alert 2 picks up after the Allied campaign of the first game. Its expansion pack is Command & Conquer: Yuri's Revenge, released a year later in 2001. Red Alert 2 was principally developed by Westwood Pacific in collaboration with Westwood Studios.",
+  summaryEs: "Command & Conquer: Red Alert 2 es un videojuego de estrategia en tiempo real para PC, secuela de Command & Conquer: Red Alert cuyos eventos tienen lugar entre finales de los años 1960 y principios de los años 1970 según información que se muestra en ciertas partes del juego. Se le considera uno de los grandes exponentes de su género. Creado por Westwood Studios y publicado por Electronic Arts en el año 2000.",
   notes: "Command & Conquer: Red Alert 2: decompilation by Phobos-developers for Windows. Bring your own copy of the game.",
   notesEs: "Command & Conquer: Red Alert 2: decompilación de Phobos-developers para Windows. Aporta tu propia copia del juego.",
 };

@@ -53,6 +53,8 @@ export const downpourRecomp: Port = {
       credit: "Downpour Recompilation",
     },
   ],
+  summary: "Silent Hill: Downpour is a 2012 survival horror game developed by Vatra Games and published by Konami. The seventh installment in the Silent Hill series, the game centers on Murphy Pendleton, a prisoner who enters the town of Silent Hill, periodically entering the otherworld, leading him to unlock repressed memories. The game uses a third-person view and can be played in 3D. It was released in March 2012.",
+  summaryEs: "Silent Hill: Downpour es un videojuego de terror y supervivencia de 2012 desarrollado por Vatra Games y publicado por Konami. Downpour está ambientada en la serie de la ciudad americana ficticia del mismo nombre y se centra en Murphy Pendleton, un prisionero que entra en la ciudad, entrando periódicamente en el otro mundo, lo que lo lleva a desbloquear recuerdos reprimidos. El juego utiliza una vista en tercera persona y se puede jugar en 3D. Fue lanzado en marzo de 2012.",
   notes:
     "Native Windows port of the Xbox 360 version of Silent Hill: Downpour, produced by statically recompiling the PowerPC binary into x64 code. Requires you to dump the game partition from your own legally owned disc or digital copy — the launcher does the extraction. The developers named it 'Downpour Recompilation' and confirmed the extensive use of AI-assisted tooling during development.",
   notesEs:

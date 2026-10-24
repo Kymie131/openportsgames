@@ -20,6 +20,8 @@ export const dragonBallZTenkaichiTagTeam: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation Portable"],
+  summary: "Dragon Ball Z: Budokai Tenkaichi, released in Japan as Dragon Ball Z: Sparking! , is a series of fighting games developed by Spike based on the Dragon Ball franchise by Akira Toriyama. The series was published by Namco Bandai Games in Japan and Europe, and by Atari in North America and Australia until 2008. Since the third game, Bandai Namco has handled Dragon Ball game publishing in all regions, effectively ending Atari's involvement.",
+  summaryEs: "Dragon Ball Z: Tenkaichi Tag Team es un videojuego de lucha publicado por Bandai Namco Entertainment en 2010.",
   notes: "Tenkawa: native port of the PSP game Dragon Ball Z: Tenkaichi Tag Team by static recompilation, translating its PSP code ahead of time to C++ and running it on a reimplementation of the PSP system software. Not an emulator and not playable yet.",
   notesEs: "Tenkawa: port nativo del juego de PSP Dragon Ball Z: Tenkaichi Tag Team mediante recompilación estática, traduciendo su código de PSP a C++ por adelantado y ejecutándolo sobre una reimplementación del sistema de la PSP. No es un emulador y todavía no es jugable.",
 };

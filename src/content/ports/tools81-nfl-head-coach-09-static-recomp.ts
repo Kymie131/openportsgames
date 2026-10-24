@@ -21,6 +21,8 @@ export const tools81NflHeadCoach09StaticRecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  summary: "NFL Head Coach 09 is the follow-up to NFL Head Coach for the Xbox 360 and PlayStation 3. The game was released on August 12, 2008. The game is available in the 20th Anniversary Collector's Edition of Madden NFL 09, and was released as a standalone game on September 2, 2008. A large group of fans were also petitioning for a PAL (European) version of the game because the original game was released only in America.",
+  summaryEs: "NFL Head Coach 09 es un videojuego de acción y aventura publicado por EA Sports en 2008.",
   notes: "NFL Head Coach 09: static recompilation by tools81 for Windows. Bring your own copy of the game.",
   notesEs: "NFL Head Coach 09: recompilación estática de tools81 para Windows. Aporta tu propia copia del juego.",
 };

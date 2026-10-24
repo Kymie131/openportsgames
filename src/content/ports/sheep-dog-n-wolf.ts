@@ -25,6 +25,8 @@ export const SheepDogNWolf: Port = {
     alt: "Sheep, Dog 'n' Wolf (box art)",
     credit: "Wikipedia",
   },
+  summary: "Sheep, Dog 'n' Wolf is a puzzle-platformer stealth video game developed by Infogrames Lyon House and published by Infogrames for Microsoft Windows and PlayStation.",
+  summaryEs: "Looney Tunes: Perro & Lobo es un videojuego de plataformas, puzles e infiltración desarrollado, editado y distribuido por Infogrames. Salió a la venta inicialmente en Europa para el sistema Microsoft Windows el 14 de septiembre de 2001, y posteriormente para la consola PlayStation el 21 de septiembre. En Norteamérica, solo lanzaron la versión de esta última el 8 de octubre bajo el título Sheep Raider.",
   notes:
     "A byte-matching decompilation of Sheep, Dog 'n' Wolf (Sheep Raider, 2001, PC): source that compiles with the original Visual C++ 6.0 to the exact original exe, plus a mod loader, a 3D level editor and tools. Bring your own copy of the game.",
   notesEs:

@@ -7,7 +7,7 @@ export const DiamondRush: Port = {
   game: "Diamond Rush",
   developers: ["palaceswitcher"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2006,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const DiamondRush: Port = {
     alt: "Diamond Rush (box art)",
     credit: "Wikipedia",
   },
+  summary: "Diamond Rush is a 2006 action puzzle video game developed and published by Gameloft. It was released for Java Micro Edition mobile platforms in December 2006, and for BlackBerry devices in March 2009. In the game, the player controls an explorer who embarks on a quest to find certain crystals in three different regions: Angkor Wat, Bavaria, and Tibet. The game's title references archaeology, and the player must collect a significant amount of diamonds to unlock the worlds.",
+  summaryEs: "Diamond Rush es un videojuego de acción y rompecabezas desarrollado y publicado por Gameloft. Fue lanzado en diciembre de 2006 para plataformas móviles Java ME y en marzo de 2009 para dispositivos BlackBerry. En el juego, el jugador controla a un explorador de tierras que se embarca en la búsqueda de ciertos cristales en tres regiones distintas: Angkor Wat, Baviera y Tíbet. El título tiene un tema de arqueología y el jugador necesita recolectar una cantidad significativa de diamantes para desbloquear los mundos.",
   notes: "Decompilation of Diamond Rush.",
   notesEs: "Decompilación de Diamond Rush.",
 };

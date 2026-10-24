@@ -25,6 +25,8 @@ export const skateItPsp: Port = {
     alt: "Skate It (box art)",
     credit: "Wikipedia",
   },
+  summary: "Skate It is a skateboarding video game developed by EA Black Box, EA Montreal, and Exient Entertainment for the Nintendo DS, Wii, and iOS. The game is a spin-off of 2007's Skate and was released in 2008.",
+  summaryEs: "Skate It es un videojuego de skateboarding para Nintendo DS, Wii y iOS. En su versión para Wii permite el uso de la Wii Balance Board para una mayor sensación de realismo. El juego, desarrollado por Electronic Arts, fue lanzado al mercado en Norteamérica, Europa y Australia durante el mes de noviembre de 2008.",
   notes: "Skate It (Electronic Arts, 2008) running on PlayStation Portable through source port. You need your own copy of the game.",
   notesEs: "Skate It (Electronic Arts, 2008) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
 };

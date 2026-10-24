@@ -27,6 +27,8 @@ export const fmil95SoulRe: Port = {
     alt: "Legacy of Kain: Soul Reaver (box art)",
     credit: "Box art",
   },
+  summary: "Legacy of Kain: Soul Reaver is a 1999 action-adventure video game developed by Crystal Dynamics and published by Eidos Interactive for the PlayStation and Windows. A port to the Dreamcast developed by Nixxes Software was released in 2000, serving as Nixxes' first project. The second game in the Legacy of Kain series, Soul Reaver is the sequel to Blood Omen: Legacy of Kain. Soul Reaver was followed by three games, one of which, Soul Reaver 2, is a direct sequel.",
+  summaryEs: "Legacy of Kain: Soul Reaver es un videojuego de acción-aventura desarrollado por Crystal Dynamics y publicado por Eidos Interactive. Fue publicado para la consola PlayStation, para el sistema operativo Microsoft Windows en 1999 y para Dreamcast en 2000. Soul Reaver es el segundo juego de la serie Legacy of Kain así como la secuela de Blood Omen: Legacy of Kain. Hay tres juegos más en la serie, de los cuales Legacy of Kain: Soul Reaver 2 es una secuela directa.",
   notes: "Legacy of Kain: Soul Reaver: decompilation by fmil95 for Windows. Bring your own copy of the game.",
   notesEs: "Legacy of Kain: Soul Reaver: decompilación de fmil95 para Windows. Aporta tu propia copia del juego.",
 };

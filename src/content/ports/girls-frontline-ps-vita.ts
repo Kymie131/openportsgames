@@ -25,6 +25,8 @@ export const girlsFrontlinePsVita: Port = {
     alt: "Girls' Frontline (box art)",
     credit: "Wikipedia",
   },
+  summary: "Girls' Frontline is a mobile strategy role-playing game for Android and iOS developed by Chinese studio MICA Team, where players control echelons of android characters, known in-universe as T-Dolls, each carrying a distinctive real-world firearm. The game was released in Mainland China on 20 May 2016, in Hong Kong and Taiwan on 18 January 2017, and in South Korea on 30 June 2017.",
+  summaryEs: "Girl's Frontline es un videojuego de rol táctico para móviles desarrollado por MICA Team, una empresa oriunda de China. Se trata de un juego de tipo antropomorfismo moe, en el que el jugador tiene a su disposición controlar androides, conocidos en el juego como \"T-Dolls\" o \"Tactical Dolls \", cada una de las T-Dolls representa un arma de fuego del mundo real. El juego fue lanzado en China el 20 de mayo de 2016, y en Hong Kong y Taiwán, el 18 de enero de 2017. También fue lanzado en Corea del Sur el 30 de junio de 2017.",
   notes: "Girls' Frontline (Sunborn, 2017) running on PlayStation Vita through source port. You need your own copy of the game.",
   notesEs: "Girls' Frontline (Sunborn, 2017) en PlayStation Vita mediante port de código. Necesitas tu propia copia del juego.",
 };

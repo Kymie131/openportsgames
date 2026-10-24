@@ -25,6 +25,8 @@ export const armyMenSargeSHeroesPc: Port = {
     alt: "Army Men: Sarge's Heroes (box art)",
     credit: "Wikipedia",
   },
+  summary: "Army Men: Sarge's Heroes is a 1999 third-person shooter video game and the fourth entry in The 3DO Company's Army Men series, which are based on the green plastic figures of the same name. Its Nintendo 64 and PlayStation versions were developed and published by The 3DO Company. The port for the Dreamcast was developed by Saffire and published by Midway, while another for Microsoft Windows was published by GT Interactive.",
+  summaryEs: "Army Men: Sarge's Heroes es un videojuego de acción y aventura publicado por The 3DO Company en 1999.",
   notes: "Army Men: Sarge's Heroes (3DO, 1999) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Army Men: Sarge's Heroes (3DO, 1999) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

@@ -19,6 +19,8 @@ export const threadsOfFateRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Threads of Fate is an action role-playing game developed and published by Square for the PlayStation, released for Japan in 1999 and for North America in 2000. The story is split between two protagonists in search of an ancient relic said to grant any wish; the amnesiac Rue who seeks to revive a dead friend, and the banished princess Mint who dreams of conquering the world. Gameplay focuses on action-based combat while exploring dungeon levels featuring minor platforming elements.",
+  summaryEs: "Threads of Fate es un videojuego de acción y aventura publicado por Square en 1999.",
   notes:
     "Recompilation of Threads of Fate (PS1, USA SLUS-01019) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

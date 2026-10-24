@@ -42,6 +42,8 @@ export const openra: Port = {
     },
   ],
   originalSystems: ["MS-DOS"],
+  summary: "Command & Conquer: Red Alert is a real-time strategy video game in the Command & Conquer franchise, developed and published by Westwood Studios in 1996. The second game to bear the Command & Conquer title, Red Alert is the prequel to the original Command & Conquer of 1995, and takes place in the alternate early history of Command & Conquer when Allied Forces battle an aggressive Soviet Union for control over the European mainland.",
+  summaryEs: "Command & Conquer Red Alert es un videojuego de estrategia en tiempo real de la serie Command & Conquer creado por Westwood Studios en 1996. Los eventos de Red Alert tienen lugar en una realidad alternativa en la cual las fuerzas aliadas se enfrentan a las fuerzas de la Unión Soviética en una encarnizada contienda militar por el control del continente europeo. Inicialmente sólo estaba en versión para PC, y subsiguientemente para PlayStation.",
   notes:
     "Reimplementation of the Command & Conquer real-time strategy games, supporting Red Alert, Tiberian Dawn and Dune 2000 alongside modern quality-of-life features, online multiplayer and a dedicated launcher. Version numbers follow date-based releases (the 2025.0330 build corresponds to the release-20250330 tag).",
   notesEs:

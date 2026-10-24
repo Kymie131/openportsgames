@@ -25,6 +25,8 @@ export const muscleMarchRecomp: Port = {
     alt: "Muscle March (box art)",
     credit: "Wikipedia",
   },
+  summary: "Muscle March, known in Japan as Muscle Kōshinkyoku, is an action game developed and published by Namco Bandai Games for the Wii through the WiiWare service. It was released in Japan in 2009, and in North America and the PAL region in 2010. Players control one of seven different bodybuilders and try to catch a thief that has stolen their bodybuilding friends' tub of protein powder. Its gameplay is similar to Hole In The Wall, where players use the Wiimote and Nunchuck to perform specific bodybuilder poses to pass through corresponding holes in walls left by the thief.",
+  summaryEs: "Muscle March es un videojuego de acción y aventura publicado por Bandai Namco Entertainment en 2009.",
   notes: "Unofficial native PC port of Muscle March (WiiWare, 2009) by static recompilation for macOS, Linux, Steam Deck and Windows. Beta: it plays the whole game but is lightly tested. Requires your own copy. Latest tag: v0.1.0-beta.5.",
   notesEs: "Port nativo a PC no oficial de Muscle March (WiiWare, 2009) mediante recompilación estática para macOS, Linux, Steam Deck y Windows. Beta: se juega entero pero está poco probado. Requiere tu propia copia. Último tag: v0.1.0-beta.5.",
 };

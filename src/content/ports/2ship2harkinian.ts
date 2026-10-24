@@ -22,6 +22,8 @@ export const twoShip: Port = {
   },
   verified: true,
   verifiedAt: "2026-09-19",
+  summary: "The Legend of Zelda: Majora's Mask is a 2000 action-adventure game developed and published by Nintendo for the Nintendo 64. It is the second game in The Legend of Zelda series to use 3D graphics, following Ocarina of Time (1998). Designed by a creative team led by Eiji Aonuma, Yoshiaki Koizumi, and Shigeru Miyamoto, Majora's Mask was completed in less than two years. It features enhanced graphics and several gameplay changes, but reuses elements and character models from Ocarina of Time, a creative decision made necessary by time constraints.",
+  summaryEs: "The Legend of Zelda: Majora's Mask es un videojuego de acción-aventura del año 2000 desarrollado y publicado por Nintendo para la Nintendo 64. Fue el segundo juego de The Legend of Zelda que utilizó gráficos 3D, después de Ocarina of Time (1998). Diseñado por un equipo creativo liderado por Eiji Aonuma, Yoshiaki Koizumi y Shigeru Miyamoto, Majora's Mask se completó en menos de dos años.",
   notes:
     "Native port of Majora's Mask from the decompilation project. Requires the original North American Majora's Mask N64 ROM (legally obtained).",
   notesEs:

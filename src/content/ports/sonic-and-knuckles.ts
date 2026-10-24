@@ -7,7 +7,7 @@ export const SonicAndKnuckles: Port = {
   game: "Sonic & Knuckles",
   developers: ["sonicretro"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 1994,
   portType: "decompilation",
   genre: "platformer",
   openSource: true,
@@ -25,6 +25,8 @@ export const SonicAndKnuckles: Port = {
     alt: "Sonic & Knuckles (box art)",
     credit: "Wikipedia",
   },
+  summary: "Sonic & Knuckles is a 1994 platform game developed by Sega Technical Institute and published by Sega for the Sega Genesis. Players control Sonic the Hedgehog or Knuckles the Echidna in their quests to save Angel Island; Sonic tries to stop Doctor Robotnik from re-launching his orbital weapon, the Death Egg, while Knuckles scuffles with Robotnik's minion, EggRobo. Like previous Sonic games, players traverse side-scrolling levels at high speeds while collecting rings and defeating enemies.",
+  summaryEs: "Sonic & Knuckles es un videojuego de plataformas de la serie de Sonic the Hedgehog, hecho por Sega, originalmente para la Mega Drive/Genesis, y lanzado al mercado en 1994 protagonizado por Sonic the Hedgehog. Es la continuación inmediata de Sonic the Hedgehog 3, que había salido a la venta anteriormente, en el mismo año.",
   notes: "Sonic and Knuckles Disassembly.",
   notesEs: "Desensamblado de Sonic and Knuckles.",
 };

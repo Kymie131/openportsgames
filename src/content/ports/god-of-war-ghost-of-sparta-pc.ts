@@ -26,6 +26,8 @@ export const godOfWarGhostOfSpartaPc: Port = {
     alt: "God of War: Ghost of Sparta (box art)",
     credit: "Wikipedia",
   },
+  summary: "God of War: Ghost of Sparta is a 2010 action-adventure game developed by Ready at Dawn and published by Sony Computer Entertainment (SCE). It was first released for the PlayStation Portable (PSP) handheld console on November 2, 2010. The game is the sixth installment in the God of War series and the fifth chronologically. Loosely based on Greek mythology, Ghost of Sparta is set in ancient Greece with vengeance as its central motif. The player controls the protagonist Kratos, the God of War. Kratos is still haunted by the visions of his mortal past and decides to explore his origins.",
+  summaryEs: "God of War: Ghost of Sparta es un videojuego de acción-aventura en tercera persona desarrollado por Ready at Dawn Studios y SCE Santa Monica Studio. Publicado por Sony Computer Entertainment, primero fue lanzado para la consola portátil PlayStation Portable (PSP) el 2 de noviembre de 2010. Esta entrega es la sexta de la serie completa God of War y cuenta con un sistema actualizado de combate un 25% más que su predecesor, también para PSP, God of War: Chains of Olympus. El juego ha vendido casi 1,2 millones de copias a partir de junio de 2012.",
   notes: "Native PC port of God of War: Ghost of Sparta (PSP) by static recompilation, built on PortableKit with Vulkan. macOS is the first target. Requires your own copy of the game.",
   notesEs: "Port nativo para PC de God of War: Ghost of Sparta (PSP) mediante recompilación estática, construido sobre PortableKit con Vulkan. macOS es el primer objetivo. Requiere tu propia copia del juego.",
 };

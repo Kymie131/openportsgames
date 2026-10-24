@@ -6,7 +6,7 @@ export const Amplitude: Port = {
   title: "Amplitude",
   game: "Amplitude",
   developers: ["ieee802dot11ac"],
-  publisher: "Unknown",
+  publisher: "Sony Interactive Entertainment",
   originalYear: 2003,
   portType: "decompilation",
   genre: "action-adventure",
@@ -20,6 +20,8 @@ export const Amplitude: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Amplitude is a 2003 rhythm video game developed by Harmonix and published by Sony Computer Entertainment for the PlayStation 2. It is the sequel to Frequency (2001).",
+  summaryEs: "Amplitude es un videojuego de acción y aventura publicado por Sony Interactive Entertainment en 2003.",
   notes: "Decompilation of Amplitude (2003).",
   notesEs: "Decompilación de Amplitude (2003).",
 };

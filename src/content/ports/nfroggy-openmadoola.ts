@@ -21,6 +21,8 @@ export const nfroggyOpenmadoola: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo Entertainment System"],
+  summary: "The Wing of Madoola is a platform video game developed and published by Sunsoft. It was published in 1986 for the Family Computer. The game stars Lucia, a magic-wielding warrior of the Rameru clan. Darutos, a descendant of the Rameru line, found the Wing of Madoola statue and used it to build a demonic fortress and summon demons to conquer the world. Lucia must retrieve the statue and stop Darutos. Throughout the journey, the player explores and search for items and power-ups to increase Lucia's attributes, while fighting enemies and defeating bosses.",
+  summaryEs: "The Wing of Madoola es un videojuego de acción y aventura publicado por Sunsoft en 1986.",
   notes: "The Wing of Madoola: engine remake by nfroggy for Windows. Bring your own copy of the game.",
   notesEs: "The Wing of Madoola: recreación de motor de nfroggy para Windows. Aporta tu propia copia del juego.",
 };

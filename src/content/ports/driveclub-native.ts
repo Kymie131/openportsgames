@@ -25,6 +25,8 @@ export const driveclubNative: Port = {
     alt: "Driveclub (box art)",
     credit: "Wikipedia",
   },
+  summary: "Driveclub is a 2014 racing video game developed by Evolution Studios and published by Sony Computer Entertainment for the PlayStation 4. It was announced during the PlayStation 4 press conference on 20 February 2013, and, after several delays, was released worldwide in October 2014.",
+  summaryEs: "Driveclub es un videojuego de carreras desarrollado por Evolution Studios y publicado por Sony Computer Entertainment, en exclusiva para la consola PlayStation 4. Driveclub fue anunciado oficialmente durante la conferencia de prensa de PlayStation el 20 de febrero de 2013. El juego fue lanzado en octubre de 2014.",
   notes: "Native port of Driveclub (PS4, CUSA00003) to macOS and Windows. No release yet (work in progress); you supply your own copy of the game.",
   notesEs: "Port nativo de Driveclub (PS4, CUSA00003) a macOS y Windows. Aún sin release (en desarrollo); aportas tu propia copia del juego.",
 };

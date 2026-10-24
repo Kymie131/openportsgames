@@ -25,6 +25,8 @@ export const minicraft3ds: Port = {
     alt: "Minicraft (box art)",
     credit: "Wikipedia",
   },
+  summary: "Minicraft is a 2D top-down action game designed and programmed by Markus Persson, the creator of Minecraft, for the 22nd Ludum Dare, a 48-hour game programming competition. The game was released on December 19, 2011.",
+  summaryEs: "Minicraft es un videojuego de acción 2D visto desde arriba diseñado y programado por Markus Persson, para una Ludum Dare, una competición de programación de videojuegos de 48 horas. El juego se lanzó el 19 de diciembre del 2011.",
   notes: "Minicraft (Notch, 2011) running on Nintendo 3DS through source port. You need your own copy of the game.",
   notesEs: "Minicraft (Notch, 2011) en Nintendo 3DS mediante port de código. Necesitas tu propia copia del juego.",
 };

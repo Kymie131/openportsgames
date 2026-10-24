@@ -19,6 +19,8 @@ export const fearEffect2RetroHelixRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Fear Effect 2: Retro Helix is a 2001 action-adventure video game developed by Kronos Digital Entertainment and published by Eidos Interactive for the PlayStation. The game serves as a prequel to Fear Effect (2000).",
+  summaryEs: "Fear Effect 2: Retro Helix es un videojuego del 2001 para la PlayStation. Fue desarrollado por Kronos Digital Entertainment y publicado por Eidos Interactive. Fear Effect 2 es una precuela de los eventos sucedidos en Fear Effect.",
   notes:
     "Recompilation of Fear Effect 2: Retro Helix (PS1, USA SLUS-01266 / SLUS-01275) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

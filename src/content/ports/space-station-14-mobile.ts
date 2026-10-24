@@ -25,6 +25,8 @@ export const spaceStation14Mobile: Port = {
     alt: "Space Station 14 (cover art)",
     credit: "Steam",
   },
+  summary: "Space Station 14, commonly abbreviated SS14, is a free and open-source multiplayer role-playing game developed by Space Wizards Federation, a community of volunteers. A remake and modernisation of Space Station 13, it combines the operation of a space station with environmental hazards, sabotage and conflict between players. Participants assume occupations or antagonistic roles, with the events of each round emerging from their actions and interactions with the station's systems.",
+  summaryEs: "Space Station 14 es un videojuego de acción y aventura.",
   notes: "Space Station 14 (Space Wizards Federation, 2023) for Android (source port). Latest release: v1.3.0. Needs your own copy of the game.",
   notesEs: "Space Station 14 (Space Wizards Federation, 2023) para Android (port de código). Última release: v1.3.0. Necesita tu propia copia del juego.",
 };

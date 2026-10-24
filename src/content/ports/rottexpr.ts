@@ -19,6 +19,8 @@ export const rottexpr: Port = {
   verified: true,
   verifiedAt: "2026-10-01",
   originalSystems: ["MS-DOS"],
+  summary: "Rise of the Triad: Dark War is a first-person shooter video game, developed and published by Apogee Software in 1995. The player controls one of five members of a United Nations backed special forces unit, who have been sent to investigate a deadly cult operating on San Nicholas Island which seeks to destroy the nearby Los Angeles.",
+  summaryEs: "Rise Of The Triad es un videojuego de disparos en primera persona desarrollado y distribuido por 3D Realms. El juego narra las aventuras de un grupo de soldados pertenecientes a un grupo llamado HUNT quienes son enviados a la isla de San Nicolás a espiar las actividades de un clan liderado por un hombre que se hace llamar El Oscuro.",
   notes: "Experimental Rise of the Triad engine rewrite.",
   notesEs: "Reescritura experimental del motor de Rise of the Triad.",
   cover: {

@@ -19,6 +19,8 @@ export const marathonAndroid: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   originalSystems: ["Macintosh"],
+  summary: "Explore the lost colony of Tau Ceti IV, scavenging valuable loot in a high-stakes survival first person shooter from the creators of Halo and Destiny.",
+  summaryEs: "Marathon es un videojuego de disparos publicado por Bungie en 2026.",
   notes:
     "Android port of the Aleph One engine, used to run the Marathon games with their original data. It builds on the open-source Aleph One codebase.",
   notesEs:

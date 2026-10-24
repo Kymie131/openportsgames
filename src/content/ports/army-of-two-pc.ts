@@ -25,6 +25,8 @@ export const armyOfTwoPc: Port = {
     alt: "Army of Two (box art)",
     credit: "Wikipedia",
   },
+  summary: "Army of Two is a third-person shooter video game developed and published by Electronic Arts and released on March 4, 2008 for the Xbox 360 and PlayStation 3 consoles. The game is centered upon two mercenaries fighting through war, political turmoil, and a conspiracy from 1993 to 2009. Focusing on cooperative strategies, Army of Two's main feature is the necessity to use coordinated teamwork to accomplish the game's goals.",
+  summaryEs: "Army of Two es un juego desarrollado por Electronic Arts, para las consolas PlayStation 3 y Xbox 360 y lanzado el 6 de marzo de 2008.",
   notes: "Army of Two (Electronic Arts, 2008) running on Windows through static recompilation. Latest release: v1.2. You need your own copy of the game.",
   notesEs: "Army of Two (Electronic Arts, 2008) en Windows mediante recompilación estática. Última release: v1.2. Necesitas tu propia copia del juego.",
 };

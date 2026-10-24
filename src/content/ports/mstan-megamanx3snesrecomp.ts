@@ -21,6 +21,8 @@ export const mstanMegamanx3snesrecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Super Nintendo"],
+  summary: "Mega Man X3, known as Rockman X3 (ロックマンX3) in Japan, is a 1995 platform game developed by Minakuchi Engineering and published by Capcom for the Super Nintendo Entertainment System (SNES). The game was originally released in Japan on December 1, 1995, and later in North American and PAL regions in 1996. It is the third game in the Mega Man X series and the last to appear on the SNES. Mega Man X3 takes place in a fictional future in which the world is populated by humans and intelligent robots called \"Reploids\".",
+  summaryEs: "Mega Man X3, conocido como Rockman X3 en Japón, es un videojuego desarrollado por Capcom para la videoconsola Super Nintendo Entertainment System (SNES), PlayStation, Sega Saturn y PC. El juego se publicó originalmente en Japón el 1 de diciembre de 1995 y posteriormente en Norteamérica y en los mercados PAL en 1996; de igual manera las versiones para consolas de 32 bits aparecieron hasta 1996, y por último hubo una versión para PC lanzada en 1997. Es el tercer juego de la serie Mega Man X y el juego definitivo de la saga x.",
   notes: "Mega Man X3: static recompilation by mstan for Windows. Bring your own copy of the game.",
   notesEs: "Mega Man X3: recompilación estática de mstan para Windows. Aporta tu propia copia del juego.",
 };

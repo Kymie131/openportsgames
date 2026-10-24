@@ -19,6 +19,8 @@ export const nightmareCreaturesIiRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Nightmare Creatures II is a survival horror video game developed by Kalisto Entertainment and published by Konami for the PlayStation and Dreamcast. It is the sequel to Nightmare Creatures.",
+  summaryEs: "Nightmare Creatures II es un videojuego de terror, desarrollado por Kalisto Entertainment y publicado por Konami para las consolas PlayStation y Dreamcast. Es la secuela de Nightmare Creatures.",
   notes:
     "Recompilation of Nightmare Creatures II (PS1, USA SLUS-01112) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

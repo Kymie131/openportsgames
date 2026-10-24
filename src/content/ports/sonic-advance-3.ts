@@ -7,7 +7,7 @@ export const SonicAdvance3: Port = {
   game: "Sonic Advance 3",
   developers: ["SAT-R"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2004,
   portType: "decompilation",
   genre: "platformer",
   openSource: true,
@@ -25,6 +25,8 @@ export const SonicAdvance3: Port = {
     alt: "Sonic Advance 3 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Sonic Advance 3 is a 2004 platform game developed by Sonic Team and Dimps and published by Sega for the Game Boy Advance. It is part of the Sonic the Hedgehog series, and the sequel to Sonic Advance 2 (2002). The game stars the characters Sonic, Tails, Knuckles, Amy, and Cream as they seek to keep Doctor Eggman and his robot assistant Gemerl from building empires on each of seven chunks Eggman has divided the Earth into.",
+  summaryEs: "Sonic Advance 3 es un videojuego desarrollado por SEGA en 2004 para la plataforma portátil Game Boy Advance. Este juego es el tercer y último de la serie Sonic que aparece para una portátil de Nintendo y, además, permite al jugador, por primera vez en esta plataforma, interactuar entre dos personajes para avanzar en la aventura.",
   notes: "A decompilation of Sonic Advance 3.",
   notesEs: "Una decompilación de Sonic Advance 3.",
 };

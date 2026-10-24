@@ -25,6 +25,8 @@ export const diddyKongRacingPcCyscott: Port = {
     alt: "Diddy Kong Racing (box art)",
     credit: "Wikipedia",
   },
+  summary: "Diddy Kong Racing is a 1997 kart racing game developed and published by Rare for the Nintendo 64. The game revolves around Diddy Kong and his friends' attempt to defeat the intergalactic antagonist, a wizard pig named Wizpig, through winning a series of races. The player takes control of any of the featured characters throughout the game. Diddy Kong Racing features five worlds with four racetracks each, and the ability to drive a car, hovercraft, or pilot an aeroplane.",
+  summaryEs: "Diddy Kong Racing es un videojuego de carreras para Nintendo 64 desarrollado por Rare. Fue lanzado al mercado en noviembre de 1997. Se vendieron 800.000 copias en las 2 semanas anteriores a la Navidad de 1997, convirtiéndose así en juego más rápidamente vendido por aquel entonces según el Libro Guinness de los récords.",
   notes: "Diddy Kong Racing (Nintendo, 1997) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Diddy Kong Racing (Nintendo, 1997) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

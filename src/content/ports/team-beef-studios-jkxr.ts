@@ -7,7 +7,7 @@ export const teamBeefStudiosJkxr: Port = {
   game: "Star Wars Jedi Knight II: Jedi Outcast",
   developers: ["Team-Beef-Studios"],
   publisher: "LucasArts",
-  originalYear: 2009,
+  originalYear: 2002,
   portType: "source-port",
   genre: "action-adventure",
   openSource: true,
@@ -21,6 +21,8 @@ export const teamBeefStudiosJkxr: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Star Wars Jedi Knight II: Jedi Outcast is a 2002 first and third-person shooter video game developed by Raven Software for Windows and Mac OS. Westlake Interactive ported the game to Mac OS X, while the Xbox and GameCube versions were ported by Vicarious Visions; most versions were published by Activision and LucasArts, with only the Mac OS version published by Aspyr. The game is a sequel to 1997's Star Wars Jedi Knight: Dark Forces II, and the third main installment in the Star Wars: Jedi Knight series.",
+  summaryEs: "Star Wars Jedi Knight II: Jedi Outcast es la secuela del videojuego Jedi Knight: Dark Forces II. Fue desarrollado por la compañía Raven Software y distribuido en 2002 por LucasArts en Norteamérica y Activision en el resto del mundo. Basado en el motor de Quake III, existen versiones para las plataformas Microsoft Windows, Apple Macintosh, GameCube, Switch y Xbox.",
   notes: "Star Wars Jedi Knight II: Jedi Outcast: source port by Team-Beef-Studios for Windows. Bring your own copy of the game.",
   notesEs: "Star Wars Jedi Knight II: Jedi Outcast: source port de Team-Beef-Studios para Windows. Aporta tu propia copia del juego.",
 };

@@ -21,6 +21,8 @@ export const p006Scape2006scape: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "RuneScape is a high fantasy open world MMORPG. Explore an ever changing and evolving living world where new challenges, skills, and quests await. Featuring unprecedented player freedom, you choose how to play, adventure, and grow.",
+  summaryEs: "RuneScape es un videojuego de acción y aventura publicado por Jagex Ltd en 2020.",
   notes: "RuneScape: decompilation by 2006-Scape for Windows. Bring your own copy of the game.",
   notesEs: "RuneScape: decompilación de 2006-Scape para Windows. Aporta tu propia copia del juego.",
 };

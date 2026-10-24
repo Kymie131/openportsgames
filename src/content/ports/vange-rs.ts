@@ -7,7 +7,7 @@ export const VangeRs: Port = {
   game: "Vange-rs",
   developers: ["kvark"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2014,
   portType: "source-port",
   genre: "action-adventure",
   openSource: true,
@@ -20,6 +20,8 @@ export const VangeRs: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Mind-altering sandbox game that can be described as a racing role-playing adventure game with a complicated storyline. You’ll find a unique atmosphere, complete freedom and lots of gameplay hours to figure out what’s the game is all about.",
+  summaryEs: "Vange-rs es un videojuego de acción y aventura publicado por Association K-D Lab en 2014.",
   notes: "Rusty Vangers clone.",
   notesEs: "Clon de Vangers en Rust.",
 };

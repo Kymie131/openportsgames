@@ -7,7 +7,7 @@ export const SonicBattle: Port = {
   game: "Sonic Battle",
   developers: ["cypressru"],
   publisher: "Unknown",
-  originalYear: 2000,
+  originalYear: 2003,
   portType: "decompilation",
   genre: "platformer",
   openSource: true,
@@ -25,6 +25,8 @@ export const SonicBattle: Port = {
     alt: "Sonic Battle (box art)",
     credit: "Box art",
   },
+  summary: "Sonic Battle is a 2003 fighting game developed by Sonic Team and published by Sega for the Game Boy Advance. It is the second fighting game in the Sonic the Hedgehog series, the first game being Sonic the Fighters. It was released in Japan in December 2003 and in North America and Europe in early 2004. The game received a mixed response from critics.",
+  summaryEs: "Sonic Battle es un videojuego de lucha a modo batalla campal de la serie de Sonic the Hedgehog, desarrollado por Sonic Team y distribuido por THQ para el Game Boy Advance. Este es el segundo juego de lucha de Sonic; el primero es el juego arcade en 3D Sonic the Fighters.",
   notes: "Matching decompilation of Sonic Battle for Game Boy Advance.",
   notesEs: "Decompilación que coincide de Sonic Battle para Game Boy Advance.",
 };

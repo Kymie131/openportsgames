@@ -24,6 +24,8 @@ export const openGothic: Port = {
     "Renderizador moderno con iluminación dinámica",
     "Builds de escritorio multiplataforma",
   ],
+  summary: "Gothic II is a 2002 action role-playing game developed by Piranha Bytes for Microsoft Windows, and the sequel to Gothic. It was released for Microsoft Windows in 2002 in Germany, in 2003 in the rest of Europe and North America. A port titled Gothic II Complete Classic was released in 2023 and 2026 for Nintendo Switch, PlayStation 4, PlayStation 5, Xbox One and Xbox Series X/S.",
+  summaryEs: "Gothic II es un videojuego perteneciente al género de rol, es la secuela de Gothic, Desarrollado por la empresa alemana Piranha Bytes. Fue lanzado por primera vez el 29 de noviembre del año 2002 en Alemania, y en América del Norte después de casi un año, el 28 de octubre de 2003. El juego fue publicado por JoWooD Entertainment y Atari.",
   notes:
     "Engine reimplementation for Gothic II. Published GitHub releases are prereleases only, so no stable version is recorded.",
   notesEs:

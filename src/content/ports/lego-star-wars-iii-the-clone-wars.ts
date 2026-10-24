@@ -6,8 +6,8 @@ export const LegoStarWarsIiiTheCloneWars: Port = {
   title: "Lego Star Wars III: The Clone Wars",
   game: "Lego Star Wars III: The Clone Wars",
   developers: ["ThePlayerRolo"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "Lucasfilm Games",
+  originalYear: 2011,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -25,6 +25,8 @@ export const LegoStarWarsIiiTheCloneWars: Port = {
     alt: "Lego Star Wars III: The Clone Wars (box art)",
     credit: "Box art",
   },
+  summary: "Lego Star Wars III: The Clone Wars is a Lego-themed action-adventure video game developed by Traveller's Tales and published by LucasArts in March 2011 for the PlayStation 3, PlayStation Portable, Xbox 360, Wii, Nintendo DS, Microsoft Windows, and the Nintendo 3DS. It was one of the 3DS's launch titles. The game features missions and characters from the 2008 animated film Star Wars: The Clone Wars and its follow-up television series, as well as fan-favorites from the original Star Wars saga, in both single-player and multiplayer modes.",
+  summaryEs: "Lego Star Wars III: The Clone Wars o Lego Star Wars III: la Guerra de los Clones es un videojuego de Lego y Star Wars para PlayStation 3, PlayStation Portable, Xbox 360, Wii, Nintendo DS, Microsoft Windows y Nintendo 3DS lanzado entre el 19 y el 22 de marzo de 2011 Desarrollado por Traveller's Tales y publicado por LucasArts y TT Games. La trama del juego trata sobre las 2 primeras temporadas de Star Wars: La Guerra de los Clones.",
   notes:
     "A decompilation of Lego Star Wars III: The Clone Wars on Wii brought to you by a bunch of clever folks.",
   notesEs:

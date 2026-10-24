@@ -26,6 +26,8 @@ export const felipeprado0Spartanport: Port = {
     alt: "God of War III Remastered (box art)",
     credit: "LaunchBox Games Database",
   },
+  summary: "God of War III Remastered is a action-adventure game in 2015.",
+  summaryEs: "God of War III Remastered es un videojuego de acción y aventura en 2015.",
   notes: "God of War III Remastered: source port by FelipePrado0 for Windows, Linux. Bring your own copy of the game.",
   notesEs: "God of War III Remastered: source port de FelipePrado0 para Windows, Linux. Aporta tu propia copia del juego.",
 };

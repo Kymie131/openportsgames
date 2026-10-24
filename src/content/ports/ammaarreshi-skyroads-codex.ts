@@ -22,6 +22,8 @@ export const ammaarreshiSkyroadsCodex: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["MS-DOS"],
+  summary: "SkyRoads is a 1993 video game for MS-DOS developed by BlueMoon Software of Estonia. It is a remake of the 1990 video game Kosmonaut. It sold internationally and got low-cost retail (LCR) distribution deals from the U.S. to Taiwan.",
+  summaryEs: "SkyRoads es un videojuego de carreras publicado por Creative Dimensions en 1993.",
   notes: "SkyRoads: decompilation by ammaarreshi for Windows. Bring your own copy of the game.",
   notesEs: "SkyRoads: decompilación de ammaarreshi para Windows. Aporta tu propia copia del juego.",
 };

@@ -25,6 +25,8 @@ export const BattletanxGlobalAssault: Port = {
     alt: "BattleTanx: Global Assault (box art)",
     credit: "Box art",
   },
+  summary: "BattleTanx: Global Assault is an action game developed and published by The 3DO Company for the Nintendo 64 and PlayStation, in which players control futuristic tanks in a post-apocalyptic scenario. It is a sequel to the Nintendo 64 game BattleTanx, which utilized the same method of game play. Although it earned relatively positive reviews from critics, 3DO went bankrupt before another sequel could be released.",
+  summaryEs: "BattleTanx: Global Assault es un videojuego de acción y aventura publicado por The 3DO Company en 1999.",
   notes:
     "100% matching decompilation of BattleTanx: Global Assault (N64, USA Rev 0) — foundation for VitaTanxGA. The playable PC port built on it is catalogued separately.",
   notesEs:

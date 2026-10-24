@@ -20,6 +20,8 @@ export const kungFuMasterSnes: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Arcade"],
+  summary: "Kung-Fu Master, known as Spartan X in Japan, is a 1984 beat 'em up game developed and published by Irem for arcades. It was distributed by Data East in North America. Designed by Takashi Nishiyama, the game was based on Hong Kong martial arts films. It is a loose adaptation of the Jackie Chan, Sammo Hung and Yuen Biao film Wheels on Meals (1984), called Spartan X in Japan. The protagonist Thomas is named after Jackie Chan's character in the film. It is also heavily inspired by the Bruce Lee film Game of Death (1972), which was the basis for the game's concept.",
+  summaryEs: "Kung-Fu Master es un beat 'em up de desplazamiento lateral en 2D producido por Irem para máquinas arcade en 1984 y distribuido por Data East en Norteamérica. El juego salió en Japón bajo el título Spartan X, basado en la película de Jackie Chan llamada Kuai can che ; sin embargo, el juego no seguía la sinopsis de la película, únicamente coincidían los nombres del protagonista y su novia, permitiendo a Irem exportar el juego sin licencia, cambiando el título.",
   notes: "Kung Fu Master (Irem, 1984) running on snes through source port. You need your own copy of the game.",
   notesEs: "Kung Fu Master (Irem, 1984) en snes mediante port de código. Necesitas tu propia copia del juego.",
 };

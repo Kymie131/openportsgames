@@ -19,6 +19,8 @@ export const deadRising2CaseWestRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Xbox 360"],
+  summary: "Dead Rising 2: Case West is a action-adventure game in 2010.",
+  summaryEs: "Dead Rising 2: Case West es un videojuego de acción y aventura en 2010.",
   notes:
     "Recompilation of Dead Rising 2: Case West (Xbox 360) to native Windows via ReXGlue. You supply the game files.",
   notesEs:

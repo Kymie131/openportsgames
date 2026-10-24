@@ -22,6 +22,8 @@ export const jevargReVirtuaCop2: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Virtua Cop 2 is a 1995 light gun shooter video game developed by Sega AM2 and published by Sega for arcades. It was ported to the Sega Saturn in 1996, Windows in 1997, and Dreamcast in 2000. It was bundled with Virtua Cop in Virtua Cop: Elite Edition for PlayStation 2 in 2002. This game was known as Virtua Squad 2 for the North American PC release. The game was succeeded by Virtua Cop 3.",
+  summaryEs: "Virtua Cop 2 es un juego de arcade con pistola de luz, lanzado en 1995 y desarrollado internamente en Sega por su estudio AM2. Fue portado a sistemas domésticos en Sega Saturn en 1996. Se lanzó en PC en 1997 y en Sega Dreamcast en 2000. Posteriormente se incluyó con Virtua Cop en Virtua Cop: Elite Edition para PlayStation 2 en 2002.",
   notes: "Virtua Cop 2: decompilation by jevarg for Windows. Bring your own copy of the game.",
   notesEs: "Virtua Cop 2: decompilación de jevarg para Windows. Aporta tu propia copia del juego.",
 };

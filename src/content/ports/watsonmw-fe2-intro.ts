@@ -21,6 +21,8 @@ export const watsonmwFe2Intro: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Frontier: Elite II is a space trading and combat simulator video game written by David Braben and published by GameTek and Konami in October 1993 for the Amiga, Atari ST, and MS-DOS. It is the first sequel to the seminal game Elite from 1984. The game retains the open-ended gameplay of Elite, and adds realistic physics and an accurately modelled galaxy.",
+  summaryEs: "Frontier: Elite II es un videojuego de simulación de combate y comercio espacial escrito por David Braben y publicado por GameTek y Konami en octubre de 1993 y lanzado para Amiga, Atari ST y DOS. Es la primera secuela del juego seminal Elite de 1984.",
   notes: "Frontier: Elite II: decompilation by watsonmw for Windows. Bring your own copy of the game.",
   notesEs: "Frontier: Elite II: decompilación de watsonmw para Windows. Aporta tu propia copia del juego.",
 };
