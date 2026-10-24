@@ -23,6 +23,11 @@ export const AnimalForest: Port = {
   summary: "Animal Forest is a action-adventure game, released in 2000.",
   summaryEs: "Animal Forest es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/animal-forest.svg",
+    alt: "Animal Forest (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Decompilation of Animal Forest.",
   notesEs: "Decompilación de Animal Forest.",
 };

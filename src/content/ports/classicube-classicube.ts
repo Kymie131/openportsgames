@@ -24,6 +24,11 @@ export const classicubeClassicube: Port = {
   summary: "ClassiCube is a action-adventure game for Windows, released in 2013.",
   summaryEs: "ClassiCube es un videojuego de acci�n y aventura para Windows, lanzado en 2013.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/classicube.svg",
+    alt: "ClassiCube (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "ClassiCube: engine remake by ClassiCube for Windows. Bring your own copy of the game.",
   notesEs: "ClassiCube: recreación de motor de ClassiCube para Windows. Aporta tu propia copia del juego.",
 };

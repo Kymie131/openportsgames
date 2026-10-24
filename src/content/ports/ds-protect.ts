@@ -23,6 +23,11 @@ export const DsProtect: Port = {
   summary: "DS Protect is a action-adventure game for Nintendo DS, released in 2000.",
   summaryEs: "DS Protect es un videojuego de acci�n y aventura para Nintendo DS, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/ds-protect.svg",
+    alt: "DS Protect (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Decompilation of DS Protect.",
   notesEs: "Decompilación de DS Protect.",
 };

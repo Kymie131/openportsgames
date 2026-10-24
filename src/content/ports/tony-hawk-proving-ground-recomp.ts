@@ -24,6 +24,11 @@ export const tonyHawkProvingGroundRecomp: Port = {
   summary: "Tony Hawk's Proving Ground is a sports game published by Activision for Xbox 360, released in 2007.",
   summaryEs: "Tony Hawk's Proving Ground es un videojuego de deportes publicado por Activision para Xbox 360, lanzado en 2007.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/tony-hawk-s-proving-ground.svg",
+    alt: "Tony Hawk's Proving Ground (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Tony Hawk's Proving Ground statically recompiled from the Xbox 360 version for PC. Bring your own game.",
   notesEs: "Tony Hawk's Proving Ground recompilado estáticamente desde la versión de Xbox 360 para PC. Aporta tu propio juego.",
 };

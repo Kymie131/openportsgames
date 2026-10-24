@@ -24,6 +24,11 @@ export const decompalsYoshisStory: Port = {
   originalSystems: ["Unknown"],
   summary: "Yoshi's Story is a 1997 platform game published and developed by Nintendo for the Nintendo 64. Following the Super NES game Yoshi's Island (1995), it is the second main installment in the Yoshi series. It was released in Japan in December 1997, and worldwide the following year. The game has been subsequently re-released on the Wii, Wii U, and Nintendo Switch.",
   summaryEs: "Yoshi's Story es un videojuego de plataformas desarrollado y públicado por nintendo exclusivamente para la Nintendo 64 secuela del famoso juego para Super Nintendo, Super Mario World 2: Yoshi's Island. Se lanzó por primera vez en Japón en diciembre de 1997 y en todo el mundo el año siguiente es 1998. Fue relanzado en el servicio de Consola Virtual de Wii a finales de 2007,para la Consola Virtual de Wii U a principios de 2016 y en Nintendo Switch Online en octubre de 2021.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/yoshi-s-story.svg",
+    alt: "Yoshi's Story (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Yoshi's Story: decompilation by decompals for Windows. Bring your own copy of the game.",
   notesEs: "Yoshi's Story: decompilación de decompals para Windows. Aporta tu propia copia del juego.",
 };

@@ -23,6 +23,11 @@ export const zombieOutbreakSimulator3ds: Port = {
   summary: "Zombie Outbreak Simulator is a simulation game published by Fan game for Other, released in 2013.",
   summaryEs: "Zombie Outbreak Simulator es un videojuego de simulaci�n publicado por Fan game para Other, lanzado en 2013.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/zombie-outbreak-simulator.svg",
+    alt: "Zombie Outbreak Simulator (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Zombie Outbreak Simulator (Fan game, 2013) running on Nintendo 3DS through source port. Latest release: v1.1.0. You need your own copy of the game.",
   notesEs: "Zombie Outbreak Simulator (Fan game, 2013) en Nintendo 3DS mediante port de código. Última release: v1.1.0. Necesitas tu propia copia del juego.",
 };

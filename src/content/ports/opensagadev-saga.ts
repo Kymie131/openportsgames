@@ -24,6 +24,11 @@ export const opensagadevSaga: Port = {
   originalSystems: ["Xbox 360"],
   summary: "Lego Star Wars: The Complete Saga is a 2007 Lego-themed action-adventure video game based on the Lego Star Wars line of construction toys. The game was developed by Traveller's Tales and announced by LucasArts on 25 May 2007 at Celebration IV. It was released on 6 November 2007 in North America. The Complete Saga is a combination of its predecessors in the Lego Star Wars series, Lego Star Wars: The Video Game (2005) and its sequel, Lego Star Wars II: The Original Trilogy (2006). The Complete Saga follows the events of the first six episodes of the Skywalker Saga.",
   summaryEs: "Lego Star Wars: The Complete Saga o Lego Star Wars: La Saga Completa es un videojuego de acción y aventura basado en Star Wars con temas de la línea de juguetes Lego Star Wars por el grupo Lego. Es la combinación del juego Lego Star Wars: The Video Game y su secuela Lego Star Wars II: The Original Trilogy, que abarcan los seis primeros episodios de la saga.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/32440/header.jpg?t=1604517910",
+    alt: "Lego Star Wars: The Complete Saga (Steam header)",
+    credit: "Steam",
+  },
   notes: "Lego Star Wars: The Complete Saga: decompilation by opensagadev for Windows. Bring your own copy of the game.",
   notesEs: "Lego Star Wars: The Complete Saga: decompilación de opensagadev para Windows. Aporta tu propia copia del juego.",
 };

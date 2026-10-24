@@ -23,6 +23,11 @@ export const sal063AceCombat3StaticRecompilation: Port = {
   originalSystems: ["PlayStation"],
   summary: "Ace Combat is an arcade-style combat flight simulation video game series by Project Aces, an internal development team of Bandai Namco Entertainment, formerly Namco. Debuting in 1995 with Air Combat for the PlayStation, the series includes eight mainline installments, multiple spin-offs, and other forms of media, such as novels, model kits, soundtrack albums, and a web series. Since 2012, the series has been developed primarily by Bandai Namco Studios through its internal development group, Project Aces.",
   summaryEs: "Ace Combat es una serie de videojuegos desarrollados por la empresa japonesa Namco. En estos juegos se mezcla la simulación del combate aéreo con el estilo de los videojuegos de arcade. Aunque emplazados en países ficticios, muchos detalles de las ambientaciones creadas para los juegos de Ace Combat son similares a los de batallas realmente existentes, como las de la guerra del Golfo, la Guerra Fría o la Segunda Guerra Mundial. En estos juegos se incluyen aviones existentes en la actualidad pero también otros ficticios, especialmente fortalezas voladoras.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/ace-combat-3.svg",
+    alt: "Ace Combat 3 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Ace Combat 3: static recompilation by sal063 for Windows. Bring your own copy of the game.",
   notesEs: "Ace Combat 3: recompilación estática de sal063 para Windows. Aporta tu propia copia del juego.",
 };

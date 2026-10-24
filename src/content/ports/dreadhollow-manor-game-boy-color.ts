@@ -24,6 +24,11 @@ export const dreadhollowManorGameBoyColor: Port = {
   summary: "Dreadhollow Manor is a action-adventure game published by Homebrew, released in 2026.",
   summaryEs: "Dreadhollow Manor es un videojuego de acci�n y aventura publicado por Homebrew, lanzado en 2026.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/dreadhollow-manor.svg",
+    alt: "Dreadhollow Manor (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Dreadhollow Manor (Homebrew, 2026) running on gbc through source port. Latest release: v12. You need your own copy of the game.",
   notesEs: "Dreadhollow Manor (Homebrew, 2026) en gbc mediante port de código. Última release: v12. Necesitas tu propia copia del juego.",
 };

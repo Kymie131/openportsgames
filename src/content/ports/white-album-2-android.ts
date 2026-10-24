@@ -23,6 +23,11 @@ export const whiteAlbum2Android: Port = {
   originalSystems: ["Windows"],
   summary: "White Album 2 is a trilogy of Japanese adult visual novels developed by the visual novel company Leaf for the Microsoft Windows PC, and is the sequel to Leaf's earlier visual novel, White Album. The first part of the series, named White Album 2: Introductory Chapter, was released on March 26, 2010.",
   summaryEs: "White Album 2 es una de las dos novelas visuales japonesas para adultos desarrollados por la empresa de novelas visuales Leaf para las computadoras con el sistema operativo de Microsoft Windows, y es la secuela de la anterior novela visual de Leaf, White Album. Aunque es técnicamente una secuela por compartir universo con su precedesora, lo cierto es que se trata de historias totalmente independientes y con personajes diferentes. La primera parte de la novela, llamada White Album 2: Introductory Chapter fue lanzada el 26 de marzo de 2010.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/white-album2.svg",
+    alt: "WHITE ALBUM2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Static recompilation project for WHITE ALBUM2 with Windows x64 and Android ARM64 targets. Bring your own game files.",
   notesEs: "Proyecto de recompilación estática de WHITE ALBUM2 con objetivos Windows x64 y Android ARM64. Aporta tus propios archivos del juego.",
 };

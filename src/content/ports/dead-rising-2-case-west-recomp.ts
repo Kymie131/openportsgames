@@ -21,6 +21,11 @@ export const deadRising2CaseWestRecomp: Port = {
   originalSystems: ["Xbox 360"],
   summary: "Dead Rising 2: Case West is a action-adventure game in 2010.",
   summaryEs: "Dead Rising 2: Case West es un videojuego de acción y aventura en 2010.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/dead-rising-2-case-west.svg",
+    alt: "Dead Rising 2: Case West (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "Recompilation of Dead Rising 2: Case West (Xbox 360) to native Windows via ReXGlue. You supply the game files.",
   notesEs:

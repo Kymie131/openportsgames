@@ -23,6 +23,11 @@ export const SheepDogNWolfRewooled: Port = {
   summary: "Sheep Dog n Wolf: Rewooled is a action-adventure game for PlayStation, released in 2000.",
   summaryEs: "Sheep Dog n Wolf: Rewooled es un videojuego de acci�n y aventura para PlayStation, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/sheep-dog-n-wolf-rewooled.svg",
+    alt: "Sheep Dog n Wolf: Rewooled (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Decompilation of Sheep Dog n Wolf: Rewooled (Other).",
   notesEs: "Decompilación de Sheep Dog n Wolf: Rewooled (Other).",
 };

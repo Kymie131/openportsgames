@@ -24,6 +24,11 @@ export const marioAndLuigi3dsRDMilli4c: Port = {
   originalSystems: ["Nintendo 3DS"],
   summary: "Mario & Luigi: Dream Team, known in Europe and Australia as Mario & Luigi: Dream Team Bros., is a 2013 role-playing video game developed by AlphaDream and published by Nintendo for the Nintendo 3DS. The successor to Mario & Luigi: Bowser's Inside Story (2009), it is the fourth installment in the Mario & Luigi series, and a part of the larger Mario franchise.",
   summaryEs: "Mario & Luigi: Dream Team, conocido en Europa y Australia como Mario & Luigi: Dream Team Bros., es un videojuego de rol desarrollado por AlphaDream y publicado por Nintendo para la Nintendo 3DS. Sucesor de Bowser's Inside Story (2009), es la cuarta entrega de la serie Mario & Luigi, que forma parte de la franquicia Mario.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/mario-luigi-dream-team.svg",
+    alt: "Mario & Luigi: Dream Team (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Mario & Luigi: Dream Team: decompilation by Mario-and-Luigi-3Ds-R-D for Windows. Bring your own copy of the game.",
   notesEs: "Mario & Luigi: Dream Team: decompilación de Mario-and-Luigi-3Ds-R-D para Windows. Aporta tu propia copia del juego.",
 };

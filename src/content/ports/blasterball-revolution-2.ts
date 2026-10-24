@@ -23,6 +23,11 @@ export const BlasterballRevolution2: Port = {
   summary: "Blasterball Revolution 2 is a action-adventure game, released in 2000.",
   summaryEs: "Blasterball Revolution 2 es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/blasterball-revolution-2.svg",
+    alt: "Blasterball Revolution 2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Heavily WIP Decompilation of Blasterball Revolution 2.",
   notesEs: "Decompilación de Blasterball Revolution 2, muy en desarrollo.",
 };

@@ -23,6 +23,11 @@ export const Q2rtxperimental: Port = {
   summary: "Q2RTXPerimental is a shooter game, released in 2000.",
   summaryEs: "Q2RTXPerimental es un videojuego de disparos, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/q2rtxperimental.svg",
+    alt: "Q2RTXPerimental (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "My 'Experimental' fork of NVIDIA’s implementation of RTX ray-tracing in Quake II.",
   notesEs:
     "Mi bifurcación experimental de la implementación de ray tracing RTX de NVIDIA en Quake II.",

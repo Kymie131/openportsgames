@@ -24,6 +24,11 @@ export const capridogSpaceranger: Port = {
   originalSystems: ["Unknown"],
   summary: "Toy Story 2: Buzz Lightyear to the Rescue is a 1999 platform game developed by Traveller's Tales and published by Activision and Disney Interactive. Based on Disney and Pixar's computer-animated film Toy Story 2, it was released for Nintendo 64, PlayStation, Microsoft Windows, and Macintosh in late 1999, while a Dreamcast version followed in 2000. The computer versions were released under the title Disney/Pixar's Action Game, Toy Story 2. A different version, a side-scrolling platform game titled Toy Story 2, was also released in 1999 for the Game Boy Color.",
   summaryEs: "Toy Story 2: ¡Buzz Lightyear al rescate! es un videojuego de plataformas desarrollado por Traveller's Tales y publicado por Activision y Disney Interactive. Basado en la película animada por computadora Toy Story 2 de Disney/Pixar, salió a la venta para Nintendo 64, PlayStation, Microsoft Windows y Macintosh a finales de 1999, mientras que la versión de Dreamcast lo hizo en el año 2000. Las adaptaciones para computadora se lanzaron bajo el título Disney/Pixar's Action Game, Toy Story 2.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/toy-story-2-buzz-lightyear-to-the-rescue.svg",
+    alt: "Toy Story 2: Buzz Lightyear to the Rescue (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Toy Story 2: Buzz Lightyear to the Rescue: static recompilation by Capridog for Windows. Bring your own copy of the game.",
   notesEs: "Toy Story 2: Buzz Lightyear to the Rescue: recompilación estática de Capridog para Windows. Aporta tu propia copia del juego.",
 };

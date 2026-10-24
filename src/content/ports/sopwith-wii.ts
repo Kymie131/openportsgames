@@ -22,6 +22,11 @@ export const sopwithWii: Port = {
   originalSystems: ["MS-DOS"],
   summary: "Fly a WWI biplane in this faithful remake of the 1984 DOS classic. Bomb targets, dogfight enemies, and master the skies solo or in online multiplayer. Eight levels of escalating challenge await.",
   summaryEs: "Sopwith es un videojuego de disparos publicado por Cognitys en 2026.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/9/97/Sopwith-screenshot.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    alt: "Sopwith (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Sopwith (BMB Compuscience, 1984) running on Wii through source port. You need your own copy of the game.",
   notesEs: "Sopwith (BMB Compuscience, 1984) en Wii mediante port de código. Necesitas tu propia copia del juego.",
 };

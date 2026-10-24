@@ -24,6 +24,11 @@ export const willowSDreamMegaDrive: Port = {
   summary: "Willow's Dream is a role-playing game published by Homebrew, released in 2023.",
   summaryEs: "Willow's Dream es un videojuego de rol publicado por Homebrew, lanzado en 2023.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/willow-s-dream.svg",
+    alt: "Willow's Dream (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Willow's Dream (Homebrew, 2023) running on genesis through source port. You need your own copy of the game.",
   notesEs: "Willow's Dream (Homebrew, 2023) en genesis mediante port de código. Necesitas tu propia copia del juego.",
 };

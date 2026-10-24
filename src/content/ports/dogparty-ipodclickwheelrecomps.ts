@@ -23,6 +23,11 @@ export const dogpartyIpodclickwheelrecomps: Port = {
   originalSystems: ["Unknown"],
   summary: "Lost is a role-playing game published by Gameloft in 2007.",
   summaryEs: "Lost es un videojuego de rol publicado por Gameloft en 2007.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/London_After_Midnight_Poster_1927_MGM_%28cropped_to_content%29.jpg/960px-London_After_Midnight_Poster_1927_MGM_%28cropped_to_content%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "Lost (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Lost: static recompilation by DogParty for Windows. Bring your own copy of the game.",
   notesEs: "Lost: recompilación estática de DogParty para Windows. Aporta tu propia copia del juego.",
 };

@@ -24,6 +24,11 @@ export const omegakatana92BattleArenaToshindenGbRecomp: Port = {
   originalSystems: ["Unknown"],
   summary: "Battle Arena Toshinden, released as Toh Shin Den in Japan, is a 1995 fighting video game developed by Tamsoft and published by Takara for the PlayStation. The first game of its respective series, it was one of the first fighting games, after Virtua Fighter on arcade and console, to boast polygonal characters in a 3D environment, and features a sidestep maneuver which is credited for taking the genre into \"true 3D.\"",
   summaryEs: "Battle Arena Toshinden es un videojuego de lucha con armas creado y publicado en 1995 por Takara. Fue uno de los primeros juegos de lucha poligonales en 3D y apareció en PlayStation. Fue fuertemente promocionado por Sony como uno de los primeros juegos punteros de la consola. También aparecieron versiones para Sega Saturn, PC e incluso Game Boy.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/BattleArenaToshinden.svg/960px-BattleArenaToshinden.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "Battle Arena Toshinden (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Battle Arena Toshinden: static recompilation by omegakatana92 for Windows, Linux. Bring your own copy of the game.",
   notesEs: "Battle Arena Toshinden: recompilación estática de omegakatana92 para Windows, Linux. Aporta tu propia copia del juego.",
 };

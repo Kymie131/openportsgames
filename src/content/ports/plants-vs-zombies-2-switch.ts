@@ -22,6 +22,11 @@ export const plantsVsZombies2Switch: Port = {
   originalSystems: ["Unknown"],
   summary: "Plants vs. Zombies 2 is a tower defense video game developed by PopCap Games and published by Electronic Arts. It is the sequel to Plants vs. Zombies, and was released worldwide as a free-to-play game on the Apple App Store on August 15, 2013, and Google Play on October 2, 2013. The player defends the lawn from zombies by placing a variety of plants.",
   summaryEs: "Plants vs. Zombies 2 es un videojuego gratuito de defensa de torres de 2013 desarrollado por PopCap Games y publicado por Electronic Arts. Es la secuela de Plantas contra zombis y se lanzó mundialmente en la App Store de Apple el 15 de agosto de 2013 y en Google Play el 2 de octubre de 2013. El jugador defiende el jardín de los zombis colocando diversas plantas.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/plants-vs-zombies-2.svg",
+    alt: "Plants vs. Zombies 2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Plants vs. Zombies 2 (PopCap Games, 2013) running on Nintendo Switch through source port. Latest release: v1.2.0. You need your own copy of the game.",
   notesEs: "Plants vs. Zombies 2 (PopCap Games, 2013) en Nintendo Switch mediante port de código. Última release: v1.2.0. Necesitas tu propia copia del juego.",
 };

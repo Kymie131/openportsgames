@@ -23,6 +23,11 @@ export const ibrahimpuriInfamousPcEnhanced: Port = {
   originalSystems: ["PlayStation 3"],
   summary: "Infamous is a 2009 action-adventure video game developed by Sucker Punch Productions and published by Sony Computer Entertainment for the PlayStation 3. The player controls the protagonist Cole MacGrath, a bike messenger caught in the center of an explosion that devastates several city blocks of the fictional Empire City. The explosion sends the city into chaos while Cole finds himself with new electricity-based super powers.",
   summaryEs: "Infamous es un videojuego de acción-aventura no lineal de mundo abierto de 2009 desarrollado por Sucker Punch Productions y publicado por Sony Computer Entertainment para la PlayStation 3. El jugador controla al protagonista Cole MacGrath, un mensajero en bicicleta atrapado en el centro de una explosión que devasta varias cuadras de la ciudad ficticia Empire City. La explosión envía a la ciudad al caos mientras Cole se encuentra con nuevos superpoderes basados en la electricidad.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/infamous.svg",
+    alt: "inFamous (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "inFamous: static recompilation by ibrahimpuri for Windows. Bring your own copy of the game.",
   notesEs: "inFamous: recompilación estática de ibrahimpuri para Windows. Aporta tu propia copia del juego.",
 };

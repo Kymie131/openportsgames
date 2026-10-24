@@ -24,6 +24,11 @@ export const craftusReloaded: Port = {
   summary: "Craftus Reloaded is a simulation game published by RSDuck, released in 2020.",
   summaryEs: "Craftus Reloaded es un videojuego de simulaci�n publicado por RSDuck, lanzado en 2020.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/craftus-reloaded.svg",
+    alt: "Craftus Reloaded (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "Craftus Reloaded is a Minecraft-style voxel homebrew game built for the Nintendo 3DS, with block placing, crafting and a day-night cycle.",
   notesEs:

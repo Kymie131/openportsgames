@@ -23,6 +23,11 @@ export const pokemonSurvivorBurstAndroid: Port = {
   summary: "Pokémon Survivor Burst is a role-playing game published by TryTheSauceBoss, released in 2024.",
   summaryEs: "Pokémon Survivor Burst es un videojuego de rol publicado por TryTheSauceBoss, lanzado en 2024.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/pokemon-survivor-burst.svg",
+    alt: "Pokémon Survivor Burst (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Pokemon Survivor Burst (TryTheSauceBoss, 2024) for Android (source port). Latest release: v9.0. Needs your own copy of the game.",
   notesEs: "Pokemon Survivor Burst (TryTheSauceBoss, 2024) para Android (port de código). Última release: v9.0. Necesita tu propia copia del juego.",
 };

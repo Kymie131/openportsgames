@@ -23,6 +23,11 @@ export const jbalcombRemom: Port = {
   originalSystems: ["Unknown"],
   summary: "Master of Magic is a single-player, fantasy turn-based 4X strategy game in which the player plays as a wizard attempting to dominate two linked worlds. From a small settlement, the player manages resources, builds cities and armies, and researches spells, growing an empire and fighting the other wizards.",
   summaryEs: "Master of Magic es un videojuego de estrategia por turnos, de construcción de imperios en un universo de fantasía.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623070/header.jpg?t=1726823439",
+    alt: "Master of Magic (Steam header)",
+    credit: "Steam",
+  },
   notes: "Master of Magic: decompilation by jbalcomb for Windows. Bring your own copy of the game.",
   notesEs: "Master of Magic: decompilación de jbalcomb para Windows. Aporta tu propia copia del juego.",
 };

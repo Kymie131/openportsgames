@@ -24,6 +24,11 @@ export const p7akeem0AlbwDecompAi: Port = {
   originalSystems: ["Nintendo 3DS"],
   summary: "The Legend of Zelda: A Link Between Worlds is a 2013 action-adventure game developed and published by Nintendo for the Nintendo 3DS. The game is the 17th in The Legend of Zelda series and is a spiritual successor to the 1991 title The Legend of Zelda: A Link to the Past. Announced in April 2013, A Link Between Worlds was released in Australia, Europe, and North America in November, and in Japan a month later.",
   summaryEs: "The Legend of Zelda: A Link Between Worlds, conocido en Japón como Zelda No Densetsu: Kamigami no Triforce 2 , es un videojuego de acción-aventura desarrollado por Nintendo EAD para la videoconsola portátil Nintendo 3DS. Es la decimoséptima entrega original de la serie de videojuegos The Legend of Zelda y salió a la venta el 22 de noviembre de 2013 en Norteamérica y Europa, el 23 de noviembre en Australia, y el 26 de diciembre en Japón.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-a-link-between-worlds.svg",
+    alt: "The Legend of Zelda: A Link Between Worlds (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "The Legend of Zelda: A Link Between Worlds: decompilation by 7akeem0 for Windows. Bring your own copy of the game.",
   notesEs: "The Legend of Zelda: A Link Between Worlds: decompilación de 7akeem0 para Windows. Aporta tu propia copia del juego.",
 };

@@ -24,6 +24,11 @@ export const apotrisAndroid: Port = {
   summary: "Apotris is a puzzle game published by Independent for Game Boy Advance, released in 2022.",
   summaryEs: "Apotris es un videojuego de puzles publicado por Independent para Game Boy Advance, lanzado en 2022.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/apotris.svg",
+    alt: "Apotris (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Unofficial native Android port of Apotris, built from the arm64 Linux version, with touch controls and the original block-stacking rules.",
   notesEs: "Port nativo no oficial para Android de Apotris, construido desde la versión Linux arm64, con controles táctiles y las reglas originales de bloques.",
 };

@@ -23,6 +23,11 @@ export const OmegaEngine: Port = {
   summary: "OmegA-engine is a action-adventure game, released in 2000.",
   summaryEs: "OmegA-engine es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/omega-engine.svg",
+    alt: "OmegA-engine (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Modern OpenArena engine based on Quake3e.",
   notesEs: "Motor moderno de OpenArena basado en Quake3e.",
 };

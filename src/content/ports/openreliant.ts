@@ -23,6 +23,11 @@ export const Openreliant: Port = {
   summary: "OpenReliant is a action-adventure game, released in 2000.",
   summaryEs: "OpenReliant es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/openreliant.svg",
+    alt: "OpenReliant (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "An open-source reimplementation of StarLancer's engine, in Zig on SDL3. Needs your own copy of the game.",
   notesEs:

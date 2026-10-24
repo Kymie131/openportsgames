@@ -22,6 +22,11 @@ export const O21: Port = {
   originalSystems: ["Arcade"],
   summary: "O21 is a 2014 Pakistani spy thriller film, directed by Jami, and Summer Nicks and produced by Zeba Bakhtiar and her son Azaan Sami Khan. It is the first spy action thriller movie from Pakistan.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/o21.svg",
+    alt: "O21 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "FOSS remake of U95, an old submarine arcade game from 1995.",
   notesEs: "Remake libre de U95, un antiguo juego arcade de submarinos de 1995.",
 };

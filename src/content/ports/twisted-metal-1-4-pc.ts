@@ -22,6 +22,11 @@ export const twistedMetal14Pc: Port = {
   originalSystems: ["PlayStation"],
   summary: "Twisted Metal is a vehicular combat video game developed by SingleTrac and Sony Interactive Studios America, published by Sony Computer Entertainment for the PlayStation in 1995, with a port to Windows 95 published by Sony Music Entertainment Japan in 1996. The game's plot is centered on the titular competition in which various drivers in modified vehicles must destroy the other vehicles in an attempt to be the last one alive. The winner meets the organizer of the competition, a mysterious man named Calypso, who will grant the winner a single wish, regardless of price, size or even reality.",
   summaryEs: "Twisted Metal es un videojuego de combate en vehículos desarrollado por SingleTrac, producido por Sony Interactive Studios America y publicado por Sony Computer Entertainment para la PlayStation. El juego fue lanzado en América del Norte el 5 de noviembre de 1995 y en la región PAL en enero de 1996. La versión norteamericana se volvió a publicar para la línea de Sony Greatest Hits-hasta el 3 de marzo de 1997.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/twisted-metal.svg",
+    alt: "Twisted Metal (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Twisted Metal (Sony Computer Entertainment, 1995) running on Windows through static recompilation. Latest release: v1.0.0. You need your own copy of the game.",
   notesEs: "Twisted Metal (Sony Computer Entertainment, 1995) en Windows mediante recompilación estática. Última release: v1.0.0. Necesitas tu propia copia del juego.",
 };

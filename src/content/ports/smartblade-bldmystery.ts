@@ -24,6 +24,11 @@ export const smartbladeBldmystery: Port = {
   originalSystems: ["Windows"],
   summary: "Severance: Blade of Darkness is an action-adventure game developed by Rebel Act Studios and originally published by Codemasters. The game was released in North America and Europe for Microsoft Windows in February 2001, receiving generally favorable reviews. A remastered version was released on Steam and GOG in October 2021, and one year later on Nintendo Switch through the Nintendo eShop, marking the debut of this game on any home console. It was released for PlayStation 4, PlayStation 5, Xbox One and Xbox Series X/S in March 2023.",
   summaryEs: "Blade: The Edge of Darkness es un videojuego de acción en 3D desarrollado por la empresa española Rebel Act Studios y distribuido por Codemasters. En otros países el nombre tuvo que ser cambiado por motivos de copyright, pasándose a llamar Severance: Blade of Darkness.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/severance-blade-of-darkness.svg",
+    alt: "Severance: Blade of Darkness (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Severance: Blade of Darkness: decompilation by smartblade for Windows. Bring your own copy of the game.",
   notesEs: "Severance: Blade of Darkness: decompilación de smartblade para Windows. Aporta tu propia copia del juego.",
 };

@@ -22,6 +22,11 @@ export const TheSpongebobSquarepantsMovie: Port = {
   originalSystems: ["Unknown"],
   summary: "The SpongeBob SquarePants Movie is a 2004 platform game based on the 2004 film of the same name, in turn based on the animated television series SpongeBob SquarePants. The game was published by THQ for the PlayStation 2, Xbox, GameCube, Microsoft Windows, and Game Boy Advance. The PlayStation 2, Xbox, and GameCube versions were developed by Heavy Iron Studios. The Game Boy Advance version was developed by WayForward Technologies. The Microsoft Windows version was developed by AWE Games. The Mac version was developed by Aspyr. Most of the film's cast reprise their roles.",
   summaryEs: "Bob Esponja: la película es un videojuego de plataformas basado en la película animada homónima, que forma parte de la serie de televisión animada Bob Esponja de Nickelodeon creada por Stephen Hillenburg. Según la trama, Bob Esponja y su mejor amigo, Patricio Estrella, se dirigen a la ciudad prohibida de Ciudad Almeja para recuperar la corona robada del rey Neptuno y salvar a Mr. Krabs, condenado a muerte. Los protagonistas deberán atravesar diversos escenarios del mundo submarino, enfrentarse a los secuaces de Plankton y liberar a los habitantes de Fondo de Bikini.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-spongebob-squarepants-movie.svg",
+    alt: "The SpongeBob SquarePants Movie (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Decompilation of The SpongeBob SquarePants Movie (Other).",
   notesEs: "Decompilación de The SpongeBob SquarePants Movie (Other).",
 };

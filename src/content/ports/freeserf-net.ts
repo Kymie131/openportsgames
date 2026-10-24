@@ -23,6 +23,11 @@ export const FreeserfNet: Port = {
   summary: "freeserf.net is a action-adventure game, released in 2000.",
   summaryEs: "freeserf.net es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/freeserf-net.svg",
+    alt: "freeserf.net (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Settlers 1 clone written in C#.",
   notesEs: "Clon de Settlers 1 escrito en C#.",
 };

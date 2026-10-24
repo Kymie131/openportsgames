@@ -23,6 +23,11 @@ export const bluddyRails: Port = {
   originalSystems: ["MS-DOS"],
   summary: "Sid Meier's Railroad Tycoon is a business simulation designed by Sid Meier. The game is the first in the Railroad Tycoon series. The original idea came from the boardgame 1830: The Game of Railroads and Robber Barons.",
   summaryEs: "Sid Meier's Railroad Tycoon es un videojuego de simulación de negocios diseñado por Sid Meier.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/railroad-tycoon.svg",
+    alt: "Railroad Tycoon (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Railroad Tycoon: engine remake by bluddy for Windows. Bring your own copy of the game.",
   notesEs: "Railroad Tycoon: recreación de motor de bluddy para Windows. Aporta tu propia copia del juego.",
 };

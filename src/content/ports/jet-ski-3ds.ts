@@ -23,6 +23,11 @@ export const jetSki3ds: Port = {
   originalSystems: ["Unknown"],
   summary: "A jet ski, or personal watercraft, is a small recreational watercraft.",
   summaryEs: "Jet Ski es una marca de motos acuáticas fabricadas por Kawasaki Heavy Industries. El nombre, sin embargo, se ha convertido en un nombre común usado para cualquier tipo de moto acuática. Jet ski puede referirse también específicamente a las versiones de embarcaciones personales con brazo giratorio, conocidas como \"stand-ups\". Jetski incluyó el término stand-ups, ya que, en 1973, Kawasaki fue responsable de una producción limitada de stand-up como modelos diseñado por el reconocido inventor de las motos acuáticas Clayton Jacobsen II.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/jet-ski.svg",
+    alt: "Jet Ski (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Jet Ski (Homebrew, 2017) running on Nintendo 3DS through source port. Latest release: Potato-Version. You need your own copy of the game.",
   notesEs: "Jet Ski (Homebrew, 2017) en Nintendo 3DS mediante port de código. Última release: Potato-Version. Necesitas tu propia copia del juego.",
 };

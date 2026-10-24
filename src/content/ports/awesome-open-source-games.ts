@@ -21,6 +21,11 @@ export const awesomeOpenSourceGames: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://openportsgames.com/covers/generated/awesome-open-source-games.svg",
+    alt: "Awesome Open Source Games (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "Curated list of games whose source code is available on GitHub. It is a resource index, not a single port.",
   notesEs:

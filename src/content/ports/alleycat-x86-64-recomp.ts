@@ -23,6 +23,11 @@ export const alleycatX8664Recomp: Port = {
   aiDisclosure: {"source":"https://github.com/petarov/alleycat.exe","quote":"About 99% of the code is LLM-generated and only roughly reviewed."},
   summary: "Alley Cat is a video game created by Bill Williams and published by Synapse Software for Atari 8-bit computers in 1983. The player controls Freddy the Cat, who enters people's homes through open windows to perform various tasks in order to reach his love, Felicia. A port for the IBM PC as a self-booting disk and the IBM PCjr were published in 1984 by IBM. These use four-color CGA graphics.",
   summaryEs: "Alley Cat es un videojuego para PC y Atari 800 creado por Bill Williams de SynSoft en 1984, en el cual el jugador controla al gato Freddy, un gato con el cual tiene que hacer ciertas tareas en casa de extraños para así poder llegar a su amante, Felicia.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/alley-cat.svg",
+    alt: "Alley Cat (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Recompilation of Alley Cat (Bill Williams, 1984) from its original DOS executable for x86_64 platforms, with CGA and PCjr graphics. About 99% of the code is LLM-generated. Latest release: 1.3.",
   notesEs: "Recompilación de Alley Cat (Bill Williams, 1984) desde su ejecutable original de DOS para plataformas x86_64, con gráficos CGA y PCjr. Alrededor del 99 % del código lo generó un LLM. Última release: 1.3.",
 };

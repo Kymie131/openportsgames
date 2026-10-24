@@ -22,6 +22,11 @@ export const UndertaleYellow: Port = {
   originalSystems: ["Unknown"],
   summary: "Undertale Yellow is a role-playing video game released on Game Jolt for Microsoft Windows on December 9, 2023. Developed by Team Undertale Yellow as a fan-made prequel to Undertale, the game follows the last human who falls into the underground before Frisk, a child named Clover, who possesses the yellow soul from Undertale, as they journey on an unfamiliar path to the surface after entering the monster-inhabited Underground. The game was positively received upon release.",
   summaryEs: "UnderTale Yellow es un videojuego de acción y aventura en 2016.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/undertale-yellow.svg",
+    alt: "UnderTale Yellow (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "A Decompilation of UnderTale Yellow v1.2.1.",
   notesEs: "Una decompilación de UnderTale Yellow v1.2.1.",
 };

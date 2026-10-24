@@ -22,6 +22,11 @@ export const timeTraveler3ds: Port = {
   originalSystems: ["Arcade"],
   summary: "Time Traveler or Hologram Time Traveler is a LaserDisc interactive movie arcade game designed by Dragon's Lair creator Rick Dyer, and released in 1991 by Sega. Its plot is that an American old west cowboy named Marshal Gram travels to various timelines to rescue Princess Kyi-La and defeat the evil time lord Vulcor. The game is best known for its arcade cabinet which displays a \"holographic\" like projection, produced using optical technology from Dentsu.",
   summaryEs: "Time Traveler es un videojuego de acción y aventura en 1991.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1046740/header.jpg?t=1591543862",
+    alt: "Time Traveler (Steam header)",
+    credit: "Steam",
+  },
   notes: "Time Traveler (Sega, 1991) running on Nintendo 3DS through decompilation. You need your own copy of the game.",
   notesEs: "Time Traveler (Sega, 1991) en Nintendo 3DS mediante decompilación. Necesitas tu propia copia del juego.",
 };

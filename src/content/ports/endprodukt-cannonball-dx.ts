@@ -23,6 +23,11 @@ export const endproduktCannonballDx: Port = {
   originalSystems: ["Unknown"],
   summary: "OutRun is a racing game in 2024.",
   summaryEs: "OutRun es un videojuego de carreras en 2024.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187540/header.jpg?t=1734090727",
+    alt: "OutRun (Steam header)",
+    credit: "Steam",
+  },
   notes: "OutRun: engine remake by Endprodukt for Windows. Bring your own copy of the game.",
   notesEs: "OutRun: recreación de motor de Endprodukt para Windows. Aporta tu propia copia del juego.",
 };

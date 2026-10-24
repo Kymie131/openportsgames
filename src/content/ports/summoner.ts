@@ -22,6 +22,11 @@ export const Summoner: Port = {
   originalSystems: ["Unknown"],
   summary: "Summoner is a 2000 action role-playing game developed by Volition and published by THQ for the PlayStation 2. It was released as a launch title for the console and was subsequently ported to Microsoft Windows and Mac OS the following year. In the game, the player plays the role of Joseph and can assemble a team of compatriots and summon powerful monsters. The game has a world map, involved storyline, and unique hybrid combat system involving real-time and turn-based mechanisms.",
   summaryEs: "Summoner es un videojuego de acción y aventura publicado por THQ en 2000.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Shin_Megami_Tensei_-_Devil_Summoner_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    alt: "Summoner (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Matching decompilation of Summoner (PC, 2001).",
   notesEs: "Decompilación que coincide de Summoner (PC, 2001).",
 };

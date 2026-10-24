@@ -23,6 +23,11 @@ export const ShinBokuraNoTaiyouGyakushuuNoSabata: Port = {
   summary: "Shin Bokura no Taiyou: Gyakushuu no Sabata is a action-adventure game, released in 2000.",
   summaryEs: "Shin Bokura no Taiyou: Gyakushuu no Sabata es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/shin-bokura-no-taiyou-gyakushuu-no-sabata.svg",
+    alt: "Shin Bokura no Taiyou: Gyakushuu no Sabata (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Decompilation of Shin Bokura no Taiyou: Gyakushuu no Sabata (Other).",
   notesEs: "Decompilación de Shin Bokura no Taiyou: Gyakushuu no Sabata (Other).",
 };

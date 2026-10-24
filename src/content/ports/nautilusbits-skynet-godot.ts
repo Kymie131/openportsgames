@@ -24,6 +24,11 @@ export const nautilusbitsSkynetGodot: Port = {
   summary: "The Terminator: SkyNET is a shooter game, released in 1996.",
   summaryEs: "The Terminator: SkyNET es un videojuego de disparos, lanzado en 1996.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-terminator-skynet.svg",
+    alt: "The Terminator: SkyNET (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "The Terminator: SkyNET: source port by nautilusbits for Windows. Bring your own copy of the game.",
   notesEs: "The Terminator: SkyNET: source port de nautilusbits para Windows. Aporta tu propia copia del juego.",
 };

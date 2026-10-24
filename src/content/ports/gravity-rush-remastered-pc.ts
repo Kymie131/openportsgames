@@ -22,6 +22,11 @@ export const gravityRushRemasteredPc: Port = {
   originalSystems: ["PlayStation 4"],
   summary: "Gravity Rush Remastered is a action-adventure game in 2015.",
   summaryEs: "Gravity Rush Remastered es un videojuego de acción y aventura en 2015.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/gravity-rush-remastered.svg",
+    alt: "Gravity Rush Remastered (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Gravity Rush Remastered (SIE Japan Studio, 2015) running on Windows through runtime layer. You need your own copy of the game.",
   notesEs: "Gravity Rush Remastered (SIE Japan Studio, 2015) en Windows mediante capa de ejecución. Necesitas tu propia copia del juego.",
 };

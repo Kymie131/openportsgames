@@ -32,8 +32,10 @@ export const IMAGE_HOST_WHITELIST = [
   "thumb.wikimedia.org",
   "cdn2.steamgriddb.com",
   "cdn.cloudflare.steamstatic.com",
+  "shared.akamai.steamstatic.com",
   "images.launchbox-app.com",
   // Project-owned art (repository or its own site).
+  "openportsgames.com",
   "raw.githubusercontent.com",
   "user-images.githubusercontent.com",
   "github.com",

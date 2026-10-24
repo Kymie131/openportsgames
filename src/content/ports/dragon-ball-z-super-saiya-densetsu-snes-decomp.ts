@@ -22,6 +22,11 @@ export const dragonBallZSuperSaiyaDensetsuSnesDecomp: Port = {
   originalSystems: ["Unknown"],
   summary: "Dragon Ball Z: Super Saiya Densetsu is a role-playing game published by Bandai in 1992.",
   summaryEs: "Dragon Ball Z: Super Saiya Densetsu es un videojuego de rol publicado por Bandai en 1992.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/dragon-ball-z-super-saiya-densetsu.svg",
+    alt: "Dragon Ball Z: Super Saiya Densetsu (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Dragon Ball Z: Super Saiya Densetsu (Bandai, 1992) for Android (decompilation). Needs your own copy of the game.",
   notesEs: "Dragon Ball Z: Super Saiya Densetsu (Bandai, 1992) para Android (decompilación). Necesita tu propia copia del juego.",
 };

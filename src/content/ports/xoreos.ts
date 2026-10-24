@@ -23,6 +23,11 @@ export const Xoreos: Port = {
   summary: "xoreos is a action-adventure game, released in 2000.",
   summaryEs: "xoreos es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/xoreos.svg",
+    alt: "xoreos (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "A reimplementation of BioWare's Aurora engine (and derivatives). Pre-pre-alpha :P.",
   notesEs: "Una reimplementación del motor Aurora de BioWare (y derivados). Pre-pre-alpha :P.",
 };

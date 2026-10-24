@@ -24,6 +24,11 @@ export const PokemonEmerald3dPokeemerald3d: Port = {
   summary: "Pokemon Emerald 3D (pokeemerald-3d) is a role-playing game, released in 2000.",
   summaryEs: "Pokemon Emerald 3D (pokeemerald-3d) es un videojuego de rol, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/pokemon-emerald-3d-pokeemerald-3d.svg",
+    alt: "Pokemon Emerald 3D (pokeemerald-3d) (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Pokemon Emerald in 3D (in WebAssembly).",
   notesEs: "Pokémon Emerald en 3D (en WebAssembly).",
 };

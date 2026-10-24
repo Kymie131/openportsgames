@@ -23,6 +23,11 @@ export const Betterspades: Port = {
   summary: "BetterSpades is a action-adventure game, released in 2000.",
   summaryEs: "BetterSpades es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/betterspades.svg",
+    alt: "BetterSpades (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "BetterSpades, an Ace of Spades client targeted at low end systems (GL/ES 1.1). Runs on your grandmother's rig!.",
   notesEs:

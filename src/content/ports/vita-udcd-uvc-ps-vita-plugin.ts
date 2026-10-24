@@ -24,6 +24,11 @@ export const vitaUdcdUvcPsVitaPlugin: Port = {
   originalSystems: ["Unknown"],
   summary: "The PlayStation Vita is a handheld game console developed and marketed by Sony Computer Entertainment. It was first released in Japan on December 17, 2011, then in other international territories on February 22, 2012, and was produced until discontinuation on March 1, 2019. The console is the successor to the PlayStation Portable (PSP), and a part of the PlayStation brand of gaming devices; as part of the eighth generation of video game consoles, it primarily competed with the Nintendo 3DS.",
   summaryEs: "PlayStation Vita, también conocida como PS Vita, es la tercera y última videoconsola portátil creada por Sony Computer Entertainment, es la sucesora de PlayStation Portable y esta es la primera consola de Sony en ser diseñada por Mark Cerny en reemplazo de Ken Kutaragi, además es parte de la familia PlayStation de videoconsolas. Fue presentada el 27 de enero de 2011 y puesta a la venta el día 17 de diciembre del mismo año en Japón. La llegada a los países de Europa y América fue el 22 de febrero de 2012. Inicialmente, estaba destinada a competir directamente con la consola de Nintendo 3DS.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/PlayStation-Vita-1101-FL.png/960px-PlayStation-Vita-1101-FL.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "PlayStation Vita (box art)",
+    credit: "Wikipedia",
+  },
   notes: "PlayStation Vita (Sony, 2011) running on PlayStation Vita through source port. Latest release: 1.7. You need your own copy of the game.",
   notesEs: "PlayStation Vita (Sony, 2011) en PlayStation Vita mediante port de código. Última release: 1.7. Necesitas tu propia copia del juego.",
 };

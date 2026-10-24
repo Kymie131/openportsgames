@@ -24,6 +24,11 @@ export const sozudMmx4: Port = {
   originalSystems: ["Unknown"],
   summary: "Mega Man X4, known in Japan as Rockman X4 (ロックマンX4), is a 1997 platform game developed and published by Capcom. It is the fourth game in the Mega Man X series and the first game in the series to be released on the Sega Saturn and PlayStation. The two versions were released simultaneously in Japan in 1997. A North America release followed sometime thereafter, while Europe received only the PlayStation version in 1997.",
   summaryEs: "Mega Man X4, conocido como Rockman X4 en Japón, es el cuarto juego de la serie Mega Man X. Este juego fue lanzado originalmente el 1 de agosto de 1997 en Japón para las consolas Sega Saturn y PlayStation. Fue lanzado en Norteamérica en septiembre de 1997[cita requerida] para ambas consolas, mientras que en Europa fue lanzado solamente para la PlayStation el 13 de octubre de 1997.[cita requerida] La versión para PC fue publicada el 3 de diciembre de 1998 en Japón y en 1999 en Norteamérica y Europa, y se ejecuta en varios sistemas operativos, entre ellos Windows 95 y sus versiones posteriores.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/mega-man-x4.svg",
+    alt: "Mega Man X4 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Mega Man X4: decompilation by sozud for Windows. Bring your own copy of the game.",
   notesEs: "Mega Man X4: decompilación de sozud para Windows. Aporta tu propia copia del juego.",
 };

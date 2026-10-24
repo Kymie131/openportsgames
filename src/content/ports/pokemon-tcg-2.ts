@@ -23,6 +23,11 @@ export const PokemonTcg2: Port = {
   summary: "Pokemon TCG 2 is a role-playing game, released in 2000.",
   summaryEs: "Pokemon TCG 2 es un videojuego de rol, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/pokemon-tcg-2.svg",
+    alt: "Pokemon TCG 2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Disassembly of Pokémon TCG 2.",
   notesEs: "Desensamblado de Pokémon TCG 2.",
 };

@@ -23,6 +23,11 @@ export const craigshawFzerorecomp: Port = {
   originalSystems: ["Unknown"],
   summary: "F-Zero is a 1990 racing game developed and published by Nintendo for the Super Nintendo Entertainment System (SNES). It was released in Japan on November 21, 1990, in North America in August 1991, and in Europe in 1992. F-Zero is the first game in the F-Zero series and was a launch game for the SNES. F-Zero has been rereleased for the Virtual Console and Nintendo Classics services on various Nintendo platforms, and as part of the Super NES Classic Edition in 2017.",
   summaryEs: "F-Zero es un videojuego de carreras futurístico desarrollado por Nintendo EAD y publicado por Nintendo para la consola Super Nintendo Entertainment System (SNES). El juego fue lanzado en Japón el 21 de noviembre de 1990, en Estados Unidos el 23 de agosto de 1991 y en Europa el 4 de junio de 1992. F-Zero es el primer título de la serie del mismo nombre y fue uno de los dos principales títulos de lanzamiento de la SNES en Japón, pero también estuvo acompañado de otros juegos durante el lanzamiento de la consola en Estados Unidos y Europa.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/f-zero.svg",
+    alt: "F-Zero (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "F-Zero: static recompilation by craigshaw for Windows. Bring your own copy of the game.",
   notesEs: "F-Zero: recompilación estática de craigshaw para Windows. Aporta tu propia copia del juego.",
 };

@@ -23,6 +23,11 @@ export const voicedrew11Verdite3: Port = {
   originalSystems: ["PlayStation"],
   summary: "King's Field II is a 1995 action role-playing game developed and published by FromSoftware for the PlayStation. It is the second entry in the King's Field series and the first one to be released internationally; it was released as simply King's Field as the previous game was never released outside Japan.",
   summaryEs: "King's Field II es un videojuego de acción y aventura publicado por Sony Interactive Entertainment en 1995.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/king-s-field-ii.svg",
+    alt: "King's Field II (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "King's Field II: source port by Voicedrew11 for Windows. Bring your own copy of the game.",
   notesEs: "King's Field II: source port de Voicedrew11 para Windows. Aporta tu propia copia del juego.",
 };

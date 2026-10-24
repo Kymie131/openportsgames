@@ -22,6 +22,11 @@ export const psyQDecomp: Port = {
   wip: true,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://openportsgames.com/covers/generated/ps1-psy-q-sdk-libraries.svg",
+    alt: "PS1 Psy-Q SDK Libraries (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "Work-in-progress decompilation of the PS1 Psy-Q SDK libraries. It is a development kit, not a game.",
   notesEs:

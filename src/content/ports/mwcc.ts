@@ -23,6 +23,11 @@ export const mwcc: Port = {
   summary: "Metrowerks CodeWarrior for GameCube is a simulation game published by Metrowerks for GameCube, released in 2001.",
   summaryEs: "Metrowerks CodeWarrior for GameCube es un videojuego de simulaci�n publicado por Metrowerks para GameCube, lanzado en 2001.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/metrowerks-codewarrior-for-gamecube.svg",
+    alt: "Metrowerks CodeWarrior for GameCube (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "Decompilation of the Metrowerks CodeWarrior toolchain used for GameCube development. It is a compiler, not a game.",
   notesEs:

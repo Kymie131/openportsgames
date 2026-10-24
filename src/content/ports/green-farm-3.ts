@@ -23,6 +23,11 @@ export const GreenFarm3: Port = {
   summary: "Green Farm 3 is a action-adventure game, released in 2000.",
   summaryEs: "Green Farm 3 es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/green-farm-3.svg",
+    alt: "Green Farm 3 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Decompilation of Green Farm 3.",
   notesEs: "Decompilación de Green Farm 3.",
 };

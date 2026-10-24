@@ -22,6 +22,11 @@ export const touhou8Psp: Port = {
   originalSystems: ["Windows"],
   summary: "Touhou Eiyashou ~ Imperishable Night. is a 2004 vertical bullet hell scrolling shoot 'em up video game developed by Team Shanghai Alice. It is the eighth game in the Touhou Project series, and the third main Touhou Project game to be released specifically for the Windows operating system.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/touhou-8-imperishable-night.svg",
+    alt: "Touhou 8: Imperishable Night (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Touhou 8: Imperishable Night (Team Shanghai Alice, 2004) running on PlayStation Portable through source port. Latest release: v0.4.1. You need your own copy of the game.",
   notesEs: "Touhou 8: Imperishable Night (Team Shanghai Alice, 2004) en PlayStation Portable mediante port de código. Última release: v0.4.1. Necesitas tu propia copia del juego.",
 };

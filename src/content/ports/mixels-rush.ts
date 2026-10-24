@@ -22,6 +22,11 @@ export const MixelsRush: Port = {
   originalSystems: ["Unknown"],
   summary: "Mixels Rush is a action-adventure game published by Cartoon Network Studios in 2015.",
   summaryEs: "Mixels Rush es un videojuego de acción y aventura publicado por Cartoon Network Studios en 2015.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/mixels-rush.svg",
+    alt: "Mixels Rush (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "experimental decomp of Mixels Rush by lego.",
   notesEs: "Decompilación experimental de Mixels Rush de Lego.",
 };

@@ -24,6 +24,11 @@ export const sp00nznetBw: Port = {
   originalSystems: ["Unknown"],
   summary: "Black & White is a god video game developed by Lionhead Studios and published by Electronic Arts for Microsoft Windows in 2001 and by Feral Interactive in 2002 for Mac OS. Black & White combines elements of artificial life and strategy. The player acts as a god whose goal is to defeat Nemesis, another god who wants to take over the world. A primary theme is the concept of good and evil, with the atmosphere being affected by the player's moral choices.",
   summaryEs: "Black & White es un videojuego creado por Lionhead Studios, con Peter Molyneux a la cabeza. Fue lanzado en 2001 para Windows, y distribuido por la compañía Electronic Arts. Inicialmente también iba a tener versión para PlayStation y PlayStation 2, de las que se llegaron a ver vídeos e incluso demos para la prensa. Inexplicablemente, fue cancelado",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1998450/header.jpg?t=1786000497",
+    alt: "Black & White (Steam header)",
+    credit: "Steam",
+  },
   notes: "Black & White: static recompilation by sp00nznet for Windows. Bring your own copy of the game.",
   notesEs: "Black & White: recompilación estática de sp00nznet para Windows. Aporta tu propia copia del juego.",
 };

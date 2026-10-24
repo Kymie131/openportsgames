@@ -25,6 +25,11 @@ export const bruderGrimmAnimalForestPsp: Port = {
   summary: "Animal Forest is a action-adventure game, released in 2000.",
   summaryEs: "Animal Forest es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/animal-forest.svg",
+    alt: "Animal Forest (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Animal Forest: source port by bruder-grimm for Windows. Bring your own copy of the game.",
   notesEs: "Animal Forest: source port de bruder-grimm para Windows. Aporta tu propia copia del juego.",
 };

@@ -22,6 +22,11 @@ export const tanksDs: Port = {
   originalSystems: ["Wii"],
   summary: "Wii Play is a 2006 party video game developed and published by Nintendo for the Wii. It was released as a launch game for the console in Japan, Europe, and Australia in December 2006, and was released in North America in February 2007. The game features nine minigames, including a Duck Hunt-esque shooting range, a fishing game, and a billiards game, each of which are designed to showcase the features of the Wii Remote controller.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/wii-play-tanks.svg",
+    alt: "Wii Play: Tanks! (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Wii Play: Tanks! (Nintendo, 2006) running on Nintendo DS through source port. You need your own copy of the game.",
   notesEs: "Wii Play: Tanks! (Nintendo, 2006) en Nintendo DS mediante port de código. Necesitas tu propia copia del juego.",
 };

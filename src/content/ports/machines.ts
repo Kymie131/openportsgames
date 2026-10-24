@@ -21,6 +21,11 @@ export const Machines: Port = {
   originalSystems: ["Unknown"],
   summary: "Machines is a 3D real-time strategy game released for Microsoft Windows. Published by Acclaim and developed by Charybdis. As a 3D game of this genre. Machines also allowed players to directly control units with both a first and third-person view.",
   summaryEs: "machines es un videojuego de acción y aventura en 1999.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/machines.svg",
+    alt: "machines (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Community fork of Machines: Wired for War.",
   notesEs: "Bifurcación comunitaria de Machines: Wired for War.",
 };

@@ -22,6 +22,11 @@ export const powderWii: Port = {
   originalSystems: ["Game Boy Advance"],
   summary: "The Powder Toy is a falling-sand game originally created by Stanislaw K. Skowronek. It is now developed and maintained by LBPHacker, Simon, jacob1 and other contributors on GitHub. The Powder Toy is free and open-source software (FOSS) licensed under the GNU General Public License version 3.0. A total of 258 different in-game materials, each with custom behavior and interactions, are available in the game. In June 2024, The Powder Toy was released on Steam, garnering an \"Overwhelmingly Positive\" review score.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/3/31/PowderToy.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    alt: "POWDER (box art)",
+    credit: "Wikipedia",
+  },
   notes: "POWDER (Jeff Lait, 2003) running on Wii through source port. You need your own copy of the game.",
   notesEs: "POWDER (Jeff Lait, 2003) en Wii mediante port de código. Necesitas tu propia copia del juego.",
 };

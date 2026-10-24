@@ -24,6 +24,11 @@ export const ResidentEvil4DreamcastPortRe4dc: Port = {
   summary: "Resident Evil 4 (Dreamcast port, re4dc) is a action-adventure game for Dreamcast, released in 2000.",
   summaryEs: "Resident Evil 4 (Dreamcast port, re4dc) es un videojuego de acci�n y aventura para Dreamcast, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/resident-evil-4-dreamcast-port-re4dc.svg",
+    alt: "Resident Evil 4 (Dreamcast port, re4dc) (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "Work-in-progress Resident Evil 4 port for Sega Dreamcast, with native PowerVR rendering, VMU saves and Flycast-tested play builds.",
   notesEs:

@@ -23,6 +23,11 @@ export const petTheCat3ds: Port = {
   originalSystems: ["Unknown"],
   summary: "Pet the Cat is a bullet-hell shooter where you unleash powerful attacks by petting an adorable cat! Fight through endless waves of enemies and upgrade your kitty into a formidable force with food, items, and weapons.",
   summaryEs: "Pet the Cat es un videojuego de simulación publicado por TurboCat Software en 2026.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4605210/1b7d65e149f3f82f09d9ffc7867b331f453b90dc/header.jpg?t=1791988138",
+    alt: "Pet the Cat (Steam header)",
+    credit: "Steam",
+  },
   notes: "Pet the Cat (Homebrew, 2024) running on Nintendo 3DS through source port. Latest release: v0.3.0. You need your own copy of the game.",
   notesEs: "Pet the Cat (Homebrew, 2024) en Nintendo 3DS mediante port de código. Última release: v0.3.0. Necesitas tu propia copia del juego.",
 };

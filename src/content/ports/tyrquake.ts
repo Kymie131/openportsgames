@@ -23,6 +23,11 @@ export const Tyrquake: Port = {
   summary: "Tyrquake is a shooter game, released in 2000.",
   summaryEs: "Tyrquake es un videojuego de disparos, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/tyrquake.svg",
+    alt: "Tyrquake (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Libretro port of Tyrquake (Quake 1 engine).",
   notesEs: "Port para Libretro de Tyrquake (motor de Quake 1).",
 };

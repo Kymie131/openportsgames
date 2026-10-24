@@ -23,6 +23,11 @@ export const Sonic06Demo: Port = {
   summary: "Sonic 06 Demo is a platform game, released in 2000.",
   summaryEs: "Sonic 06 Demo es un videojuego de plataformas, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/sonic-06-demo.svg",
+    alt: "Sonic 06 Demo (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Sonic 06 Demo Recompilation using RexGlue.",
   notesEs: "Recompilación de la demo de Sonic 06 con ReXGlue.",
 };

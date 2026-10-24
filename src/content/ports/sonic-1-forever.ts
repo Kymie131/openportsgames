@@ -23,6 +23,11 @@ export const sonic1Forever: Port = {
   summary: "Sonic 1 Forever is a platform game published by Sega, released in 1991.",
   summaryEs: "Sonic 1 Forever es un videojuego de plataformas publicado por Sega, lanzado en 1991.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/sonic-1-forever.svg",
+    alt: "Sonic 1 Forever (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Sonic 1 Forever (Sega, 1991) for Android (decompilation). Latest release: 1.5.1. Needs your own copy of the game (Data.rsdk).",
   notesEs: "Sonic 1 Forever (Sega, 1991) para Android (decompilación). Última release: 1.5.1. Necesita tu propia copia del juego.",
 };

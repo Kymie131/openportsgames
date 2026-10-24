@@ -22,6 +22,11 @@ export const fridayNightFunkinWii: Port = {
   originalSystems: ["Windows"],
   summary: "Friday Night Funkin' is an upcoming rhythm video game developed by The Funkin' Crew Inc. It revolves around the player character, Boyfriend, who must defeat a variety of opponents in singing and rapping contests in order to continue dating his love interest, Girlfriend. Gameplay involves hitting notes with timed inputs while avoiding running out of health for the duration of the song. There are currently ten levels, alongside selected songs featuring more difficult remixes. The game is also open-source.",
   summaryEs: "Friday Night Funkin' es un videojuego de ritmo lanzado el 5 de octubre de 2020, desarrollado por un grupo llamado The Funkin' Crew, que está compuesto por el programador canadiense Cameron Taylor, también conocido como Ninjamuffin99; el artista David Brown, también conocido como PhantomArcade; y el músico Isaac Jacob García, conocido como Kawai Sprite. Fue lanzado en Newgrounds y en Itch.io. El juego tiene una mecánica de juego parecida a la de Rock Band, Guitar Hero, Dance Dance Revolution, StepMania, osu!",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/friday-night-funkin.svg",
+    alt: "Friday Night Funkin' (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Friday Night Funkin' (Funkin' Crew, 2020) running on Wii through source port. You need your own copy of the game.",
   notesEs: "Friday Night Funkin' (Funkin' Crew, 2020) en Wii mediante port de código. Necesitas tu propia copia del juego.",
 };

@@ -23,6 +23,11 @@ export const SpeedAcademy: Port = {
   summary: "Speed-Academy is a racing game, released in 2000.",
   summaryEs: "Speed-Academy es un videojuego de carreras, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/speed-academy.svg",
+    alt: "Speed-Academy (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Source port of the singleplayer of Star Wars Jedi Knight: Jedi Academy.",
   notesEs: "Port del código fuente del modo un jugador de Star Wars Jedi Knight: Jedi Academy.",
 };

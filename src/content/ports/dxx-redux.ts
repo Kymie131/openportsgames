@@ -23,6 +23,11 @@ export const DxxRedux: Port = {
   summary: "dxx-redux is a action-adventure game, released in 2000.",
   summaryEs: "dxx-redux es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/dxx-redux.svg",
+    alt: "dxx-redux (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Descent 1&2 source port based on DXX-Retro.",
   notesEs: "Port del código fuente de Descent 1 y 2 basado en DXX-Retro.",
 };

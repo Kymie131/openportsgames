@@ -24,6 +24,11 @@ export const paulie68000Zxspectrumcobra: Port = {
   originalSystems: ["Unknown"],
   summary: "Cobra is a 1986 platform game based on the film of the same name. It was developed and published by Ocean Software, and was released in Europe for Amstrad CPC, Commodore 64 (C64), and ZX Spectrum. By 1990, it received a budget re-release.",
   summaryEs: "Cobra es un juego de plataformas de 1986 basado en la película del mismo nombre. Fue desarrollado y distribuido por Ocean Software y fue lanzado en Europa para Amstrad CPC, Commodore 64 y ZX Spectrum. Fue relanzado en 1990.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/cobra.svg",
+    alt: "Cobra (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Cobra: decompilation by Paulie68000 for Windows. Bring your own copy of the game.",
   notesEs: "Cobra: decompilación de Paulie68000 para Windows. Aporta tu propia copia del juego.",
 };

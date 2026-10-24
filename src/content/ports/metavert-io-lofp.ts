@@ -24,6 +24,11 @@ export const metavertIoLofp: Port = {
   originalSystems: ["Unknown"],
   summary: "Legends of Future Past was the first commercial text-based MUD to make the transition from a proprietary network provider to the Internet. It was designed by Jon Radoff and Angela Bull. It was also notable in that it had paid Game Masters who conducted online events. The game was originally offered for $6.00 per hour in 1992 via CompuServe, and then lesser amounts via the Internet, operating until December 31, 1999.",
   summaryEs: "Legends of Future Past es un videojuego de acción y aventura en 1992.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/legends-of-future-past.svg",
+    alt: "Legends of Future Past (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Legends of Future Past: decompilation by metavert-io for Windows. Bring your own copy of the game.",
   notesEs: "Legends of Future Past: decompilación de metavert-io para Windows. Aporta tu propia copia del juego.",
 };

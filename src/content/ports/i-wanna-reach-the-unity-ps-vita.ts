@@ -23,6 +23,11 @@ export const iWannaReachTheUnityPsVita: Port = {
   summary: "I Wanna Reach The Unity is a platform game published by Fan game for Windows, released in 2015.",
   summaryEs: "I Wanna Reach The Unity es un videojuego de plataformas publicado por Fan game para Windows, lanzado en 2015.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/i-wanna-reach-the-unity.svg",
+    alt: "I Wanna Reach The Unity (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "I Wanna Reach The Unity (Fan game, 2015) running on PlayStation Vita through source port. Latest release: 1.0. You need your own copy of the game.",
   notesEs: "I Wanna Reach The Unity (Fan game, 2015) en PlayStation Vita mediante port de código. Última release: 1.0. Necesitas tu propia copia del juego.",
 };

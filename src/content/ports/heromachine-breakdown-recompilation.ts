@@ -23,6 +23,11 @@ export const heromachineBreakdownRecompilation: Port = {
   originalSystems: ["Unknown"],
   summary: "Breakdown may refer to:",
   summaryEs: "Breakdown puede referirse a:«Breakdown», sencillo de Mariah Carey y Stevie J. «Breakdown», sencillo de Grace Jones. «Breakdown», sencillo de Seether. Breakdown, película estadounidense de 1997, dirigida por Jonathan Mostow. Breakdown, videojuego para Xbox.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/breakdown.svg",
+    alt: "Breakdown (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Breakdown: static recompilation by Heromachine for Windows. Bring your own copy of the game.",
   notesEs: "Breakdown: recompilación estática de Heromachine para Windows. Aporta tu propia copia del juego.",
 };

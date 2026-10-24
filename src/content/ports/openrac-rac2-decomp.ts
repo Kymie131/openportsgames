@@ -24,6 +24,11 @@ export const openracRac2Decomp: Port = {
   originalSystems: ["PlayStation 2"],
   summary: "Ratchet & Clank: Going Commando is a 2003 third-person shooter platform video game developed by Insomniac Games and published by Sony Computer Entertainment for the PlayStation 2. It is the second game in the Ratchet & Clank series, following Ratchet & Clank (2002). David Kaye reprises his role as Clank while James Arnold Taylor replaces Mikey Kelley as Ratchet.",
   summaryEs: "Ratchet & Clank: Going Commando, conocido como Ratchet & Clank 2: Locked and Loaded en Australia y la mayoría de los países PAL y Ratchet & Clank 2: Totalmente a tope en España; es un videojuego de plataformas de disparos en tercera persona de 2003 desarrollado por Insomniac Games y publicado por Sony Computer Entertainment para PlayStation 2. Ratchet & Clank: Going Commando es el segundo juego de la franquicia Ratchet & Clank, después de Ratchet & Clank. David Kaye retoma su papel de Clank mientras James Arnold Taylor reemplaza a Mikey Kelley como Ratchet.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/ratchet-clank-going-commando.svg",
+    alt: "Ratchet & Clank: Going Commando (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Ratchet & Clank: Going Commando: decompilation by OpenRAC for Windows. Bring your own copy of the game.",
   notesEs: "Ratchet & Clank: Going Commando: decompilación de OpenRAC para Windows. Aporta tu propia copia del juego.",
 };

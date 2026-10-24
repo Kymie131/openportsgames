@@ -24,6 +24,11 @@ export const hcbtTbuddiesDecomp: Port = {
   originalSystems: ["Unknown"],
   summary: "Team Buddies is a 2000 action strategy video game developed by Psygnosis and published by Sony Computer Entertainment for the PlayStation. It was released by Midway Games in North America. It was also the last game developed by Psygnosis' Camden Town studio before it was moved to Sony.",
   summaryEs: "Team Buddies es un videojuego para la consola PlayStation lanzado el 15 de septiembre del año 2000. Desarrollado por SCE Studio Soho.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3521810/header.jpg?t=1740066236",
+    alt: "Team Buddies (Steam header)",
+    credit: "Steam",
+  },
   notes: "Team Buddies: decompilation by hcbt for Windows. Bring your own copy of the game.",
   notesEs: "Team Buddies: decompilación de hcbt para Windows. Aporta tu propia copia del juego.",
 };

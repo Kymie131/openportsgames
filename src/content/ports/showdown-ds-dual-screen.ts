@@ -22,6 +22,11 @@ export const showdownDsDualScreen: Port = {
   originalSystems: ["Unknown"],
   summary: "Pokémon Showdown is a fan-made simulator created by Guangcong \"Zarel\" Luo, for the purpose of competitive Pokémon battling using customisable teams of Pokémon. The site was adopted by Smogon University, a fan run community website and internet forum, in 2012, and became the official simulator used by the website and its forums. All Smogon tiers are available with individual competitive ladders on Showdown, with each tier split based on how often a certain species of Pokémon is used. Showdown is hosted as a web application and formerly as a Windows application.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/pokemon-showdown.svg",
+    alt: "Pokémon Showdown (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Pokémon Showdown (The Pokémon Company, 2016) for Android (source port). Needs your own copy of the game (??).",
   notesEs: "Pokémon Showdown (The Pokémon Company, 2016) para Android (port de código). Necesita tu propia copia del juego.",
 };

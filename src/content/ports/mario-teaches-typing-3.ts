@@ -22,6 +22,11 @@ export const MarioTeachesTyping3: Port = {
   originalSystems: ["Unknown"],
   summary: "Mario Teaches Typing is an educational video game developed and published by Interplay Productions for MS-DOS compatible operating systems, Windows, and Macintosh. It uses the Mario character, licensed from Nintendo, to teach keyboard skills. Featuring several modes of difficulty, it teaches typing letters, words, and sentences using aesthetics from Mario games.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/mario-teaches-typing-3.svg",
+    alt: "Mario Teaches Typing 3 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "A decompilation of Mario Teaches Typing 3.",
   notesEs: "Una decompilación de Mario Teaches Typing 3.",
 };

@@ -23,6 +23,11 @@ export const Mc2: Port = {
   summary: "mc2 is a action-adventure game, released in 2000.",
   summaryEs: "mc2 es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/mc2.svg",
+    alt: "mc2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Mech Commander 2 open source engine + OpenGL Linux port.",
   notesEs: "Motor de código abierto de Mech Commander 2 con port a Linux en OpenGL.",
 };

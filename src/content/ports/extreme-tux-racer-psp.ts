@@ -22,6 +22,11 @@ export const extremeTuxRacerPsp: Port = {
   originalSystems: ["Windows"],
   summary: "Tux Racer is a 2000 open-source winter sports racing video game starring the Linux mascot, Tux the penguin. It was originally developed by Jasmin Patry as a computer graphics project at the University of Waterloo. Later on, Patry and the newly founded Sunspire Studios, composed of several former students of the university, expanded it. In the game, the player controls Tux as he slides down a course of snow and ice collecting herrings.",
   summaryEs: "Extreme Tux Racer es un videojuego de carreras.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/extreme-tux-racer.svg",
+    alt: "Extreme Tux Racer (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Extreme Tux Racer (Extreme Tux Racer team, 2008) running on PlayStation Portable through source port. Latest release: v1.0.0. The original game is free software, so no commercial copy is needed.",
   notesEs: "Extreme Tux Racer (Extreme Tux Racer team, 2008) en PlayStation Portable mediante port de código. Última release: v1.0.0. El juego original es software libre, así que no hace falta una copia comercial.",
 };

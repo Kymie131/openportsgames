@@ -24,6 +24,11 @@ export const moonwakeGameBoyColor: Port = {
   summary: "Moonwake is a platform game published by Homebrew, released in 2026.",
   summaryEs: "Moonwake es un videojuego de plataformas publicado por Homebrew, lanzado en 2026.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/moonwake.svg",
+    alt: "Moonwake (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Moonwake (Homebrew, 2026) running on gbc through source port. Latest release: v2.0.0. You need your own copy of the game.",
   notesEs: "Moonwake (Homebrew, 2026) en gbc mediante port de código. Última release: v2.0.0. Necesitas tu propia copia del juego.",
 };

@@ -24,6 +24,11 @@ export const wertactics3ds: Port = {
   summary: "Wertactics is a strategy game published by Homebrew, released in 2023.",
   summaryEs: "Wertactics es un videojuego de estrategia publicado por Homebrew, lanzado en 2023.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/wertactics.svg",
+    alt: "Wertactics (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Wertactics (Homebrew, 2023) running on Nintendo 3DS through source port. You need your own copy of the game.",
   notesEs: "Wertactics (Homebrew, 2023) en Nintendo 3DS mediante port de código. Necesitas tu propia copia del juego.",
 };

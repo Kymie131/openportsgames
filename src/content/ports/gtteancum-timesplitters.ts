@@ -23,6 +23,11 @@ export const gtteancumTimesplitters: Port = {
   originalSystems: ["PlayStation 2"],
   summary: "TimeSplitters is a first-person shooter video game, developed by Free Radical Design, published by Eidos Interactive, and released in 2000 as a PlayStation 2 launch title. The game's premise focuses on players controlling a variety of different characters across different time periods over a span of 100 years, seeking to resolve a personal matter involving their own foes, which brings them into contact with an alien race known as the TimeSplitters, who seek to interfere.",
   summaryEs: "TimeSplitters es un videojuego de disparos en primera persona y la primera entrega de la serie de videojuegos homónima, que salió a la venta coincidiendo con las navidades de 2000. Su modo de juego es la acción frenética y directa. Fue este videojuego el que estrenó en PlayStation 2 los disparos en primera persona.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/en/thumb/6/6b/TimeSplittersLogoSeries.svg/960px-TimeSplittersLogoSeries.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "TimeSplitters (box art)",
+    credit: "Wikipedia",
+  },
   notes: "TimeSplitters: static recompilation by GTTeancum for Windows. Bring your own copy of the game.",
   notesEs: "TimeSplitters: recompilación estática de GTTeancum para Windows. Aporta tu propia copia del juego.",
 };

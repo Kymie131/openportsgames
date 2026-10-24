@@ -24,6 +24,11 @@ export const Ultima7Decomp: Port = {
   summary: "Ultima 7 Decomp is a action-adventure game, released in 2000.",
   summaryEs: "Ultima 7 Decomp es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/ultima-7-decomp.svg",
+    alt: "Ultima 7 Decomp (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "This is a decompiled and byte-verified rebuild of Ultima 7.",
   notesEs: "Una reconstrucción decompilada y verificada byte a byte de Ultima 7.",
 };

@@ -23,6 +23,11 @@ export const linkssy2Darkwatchdarkeredition: Port = {
   originalSystems: ["Xbox"],
   summary: "Darkwatch is a 2005 first-person shooter video game for the PlayStation 2 and Xbox. It was developed by High Moon Studios and published by Capcom in the United States and by Ubisoft in Europe and Australia.",
   summaryEs: "Darkwatch es un videojuego de terror y disparos en primera persona estilo western y steampunk, publicado el 16 de agosto de 2005 para las consolas PlayStation 2 y Xbox. El videojuego fue desarrollado por High Moon Studios y publicado por Ubisoft en Reino Unido, mientras que fue distribuido por Capcom en Estados Unidos y América.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2746680/89d96217042c604c66969b173a8b371aff3072bb/header.jpg?t=1761409545",
+    alt: "Darkwatch (Steam header)",
+    credit: "Steam",
+  },
   notes: "Darkwatch: static recompilation by linkssy2 for Windows. Bring your own copy of the game.",
   notesEs: "Darkwatch: recompilación estática de linkssy2 para Windows. Aporta tu propia copia del juego.",
 };

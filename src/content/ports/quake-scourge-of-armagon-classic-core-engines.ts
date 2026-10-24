@@ -22,6 +22,11 @@ export const quakeScourgeOfArmagonClassicCoreEngines: Port = {
   originalSystems: ["Unknown"],
   summary: "Quake is a 1996 first-person shooter video game developed by id Software and published by GT Interactive. The first game in the Quake series, it was originally released for MS-DOS and Windows, followed by Mac OS, Linux, and Saturn in 1997 and Nintendo 64 in 1998. The game's plot is centered around teleportation experiments, dubbed slipgates, which have resulted in an unforeseen invasion of Earth by a hostile force codenamed Quake, which commands a vast army of monsters.",
   summaryEs: "QUAKE Mission Pack 1: Scourge of Armagon es un videojuego de disparos en 1997.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/quake-mission-pack-1-scourge-of-armagon.svg",
+    alt: "QUAKE Mission Pack 1: Scourge of Armagon (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "QUAKE Mission Pack 1: Scourge of Armagon (Rogue Entertainment, 1997) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (hipnotic folder).",
   notesEs: "QUAKE Mission Pack 1: Scourge of Armagon (Rogue Entertainment, 1997) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
 };

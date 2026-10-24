@@ -22,6 +22,11 @@ export const blakeStoneRecomp: Port = {
   originalSystems: ["MS-DOS"],
   summary: "Blake Stone: Aliens of Gold is a first-person shooter for DOS created by JAM Productions and published by Apogee Software on December 5, 1993. The following year, a sequel called Blake Stone: Planet Strike was released, which continues where Aliens of Gold leaves off. Some copies of the game provided a Command Control Gravis Gamepad.",
   summaryEs: "Blake Stone: Aliens of Gold es un shooter en primera persona creado por JAM Productions y publicado por Apogee Software. Utiliza el motor gráfico de Wolfenstein 3D, al cual le añade muchas características tales como texturas de suelo y techo. La versión shareware del juego fue publicado el 3 de diciembre de 1993. Con la versión registrada de Blake Stone se incluía un cómic, el cual funcionaba como introducción al juego. En 1994 se publica Blake Stone: Planet Strike, una secuela continuación directa del primer título.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/blake-stone-aliens-of-gold-planet-strike.svg",
+    alt: "Blake Stone: Aliens of Gold / Planet Strike (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Blake Stone: Aliens of Gold (1993) and Planet Strike (1994) taken apart from their shipping DOS executables and rebuilt as native Windows programs. No DOSBox, no emulator. Bring your own game files.",
   notesEs: "Blake Stone: Aliens of Gold (1993) y Planet Strike (1994) extraídos de sus ejecutables de DOS originales y reconstruidos como programas nativos de Windows. Sin DOSBox, sin emulador. Aporta tus propios archivos del juego.",
 };

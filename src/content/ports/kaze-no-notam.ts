@@ -22,6 +22,11 @@ export const KazeNoNotam: Port = {
   originalSystems: ["PlayStation"],
   summary: "Kaze no Notam is a action-adventure game published by Artdink in 1997.",
   summaryEs: "Kaze no Notam es un videojuego de acción y aventura publicado por Artdink en 1997.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/kaze-no-notam.svg",
+    alt: "Kaze no Notam (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "100% matching decompilation of Kaze no Notam (PS1, 1997). All 648 functions in C, byte-identical rebuild.",
   notesEs:

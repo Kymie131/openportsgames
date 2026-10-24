@@ -22,6 +22,11 @@ export const skiesOfArcadiaLegendsPc: Port = {
   originalSystems: ["GameCube"],
   summary: "Skies of Arcadia is a 2000 role-playing video game developed by Overworks and published by Sega for the Dreamcast. Players control Vyse, a young air pirate, and his friends as they attempt to stop the Valuan Empire from reviving ancient weapons with the potential to destroy the world.",
   summaryEs: "Skies of Arcadia, comercializado en Japón como Eternal Arcadia, es un Videojuego de rol desarrollado por Overworks para la Dreamcast y distribuido por Sega en el año 2000. En 2002 se lanzó bajo el nombre Skies Of Arcadia Legends, a modo de versión del director con gráficos mejorados y numerosos extras, para GameCube. Legends también estuvo en desarrollo para PlayStation 2, sin embargo, fue cancelado después del lanzamiento de la versión de GameCube.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/skies-of-arcadia-legends.svg",
+    alt: "Skies of Arcadia Legends (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Skies of Arcadia Legends (Sega, 2002) running on Windows and Linux through static recompilation. You need your own copy of the game.",
   notesEs: "Skies of Arcadia Legends (Sega, 2002) en Windows and Linux mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

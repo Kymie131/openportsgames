@@ -23,6 +23,11 @@ export const EvosSpaceAdventures: Port = {
   summary: "Evo's Space Adventures is a action-adventure game for Nintendo 64, released in 2000.",
   summaryEs: "Evo's Space Adventures es un videojuego de acci�n y aventura para Nintendo 64, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/evo-s-space-adventures.svg",
+    alt: "Evo's Space Adventures (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "Evo's Space Adventures for PSX. A proof of concept, matching PSX decompilation, leveraging tools from N64 decomp projects.",
   notesEs:

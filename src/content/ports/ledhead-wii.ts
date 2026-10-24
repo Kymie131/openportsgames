@@ -23,6 +23,11 @@ export const ledheadWii: Port = {
   summary: "LedHEAD is a simulation game published by Peter Hirschberg for Windows, released in 2001.",
   summaryEs: "LedHEAD es un videojuego de simulaci�n publicado por Peter Hirschberg para Windows, lanzado en 2001.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/ledhead.svg",
+    alt: "LedHEAD (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "LedHEAD (Peter Hirschberg, 2001) running on Wii through source port. Latest release: 1.2. You need your own copy of the game.",
   notesEs: "LedHEAD (Peter Hirschberg, 2001) en Wii mediante port de código. Última release: 1.2. Necesitas tu propia copia del juego.",
 };

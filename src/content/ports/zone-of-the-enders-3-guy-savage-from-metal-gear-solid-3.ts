@@ -23,6 +23,11 @@ export const ZoneOfTheEnders3GuySavageFromMetalGearSolid3: Port = {
   summary: "Zone of the Enders 3 (Guy Savage from Metal Gear Solid 3) is a action-adventure game, released in 2000.",
   summaryEs: "Zone of the Enders 3 (Guy Savage from Metal Gear Solid 3) es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/zone-of-the-enders-3-guy-savage-from-metal-gear-solid-3.svg",
+    alt: "Zone of the Enders 3 (Guy Savage from Metal Gear Solid 3) (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Decompilation of Zone of the Enders 3, in progress.",
   notesEs: "Decompilación de Zone of the Enders 3, en desarrollo.",
 };

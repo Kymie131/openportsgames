@@ -22,6 +22,11 @@ export const TribalTrouble: Port = {
   originalSystems: ["Unknown"],
   summary: "Tribal Trouble is a real-time strategy video game for PC. The game pits natives of tropical islands against invading Vikings. The game was originally developed by independent studio Oddlabs. The game was well received by the press and has won several awards.",
   summaryEs: "Tribal Trouble es un videojuego de acción y aventura publicado por GarageGames en 2005.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/tribal-trouble.svg",
+    alt: "Tribal Trouble (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Source port of Tribal Trouble (Other).",
   notesEs: "Port del código fuente de Tribal Trouble (Other).",
 };

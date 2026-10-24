@@ -22,6 +22,11 @@ export const crazyTaxiClassicSwitch: Port = {
   originalSystems: ["Unknown"],
   summary: "Crazy Taxi is a racing video game developed and published by Sega. It is the first game in the Crazy Taxi series. In the game, players are tasked with picking up taxi customers and driving to their destination as quickly as possible. It was first released in arcades in 1999 then ported to other consoles starting with the Sega Dreamcast in 2000.",
   summaryEs: "Crazy Taxi (クレイジータクシー) es el primer videojuego de la saga del mismo nombre creado por Hitmaker y distribuido por Sega. Fue lanzado en su versión arcade en 1999 y para Dreamcast en 2000, posteriormente fue versionado para las consolas PlayStation 2 y GameCube y para PC en el año 2001.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/crazy-taxi.svg",
+    alt: "Crazy Taxi (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Crazy Taxi (Hitmaker, 1999) running on Nintendo Switch through source port. Latest release: 1.0.0. You need your own copy of the game.",
   notesEs: "Crazy Taxi (Hitmaker, 1999) en Nintendo Switch mediante port de código. Última release: 1.0.0. Necesitas tu propia copia del juego.",
 };

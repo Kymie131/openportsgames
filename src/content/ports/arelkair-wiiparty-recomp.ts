@@ -23,6 +23,11 @@ export const arelkairWiipartyRecomp: Port = {
   originalSystems: ["Wii"],
   summary: "Wii Party is a 2010 party video game developed by NDcube and published by Nintendo for the Wii. The game heavily borrows gameplay elements from the Mario Party series. It is also the first game in the Wii series that Shigeru Miyamoto did not produce. The game was released in Japan on July 8, 2010, in North America on October 3, 2010, in Australia on October 7, 2010, and in Europe on October 8, 2010. Wii Party was revealed by Satoru Iwata in a Financial Results Briefing on May 7, 2010. It received mixed reviews from critics and sold 9.35 million copies worldwide as of September 2021.",
   summaryEs: "Wii Party es un videojuego party desarrollado y distribuido por Nintendo para la consola de videojuegos Wii. Contiene bastantes elementos del sistema de juego de la serie Mario Party, otra franquicia de Nintendo. Asimismo, es el único videojuego de la serie Wii que Shigeru Miyamoto no produjo.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Wii-Console.png/960px-Wii-Console.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "Wii Party (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Wii Party: static recompilation by arelkair for Windows. Bring your own copy of the game.",
   notesEs: "Wii Party: recompilación estática de arelkair para Windows. Aporta tu propia copia del juego.",
 };

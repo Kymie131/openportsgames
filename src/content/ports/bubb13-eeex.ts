@@ -23,6 +23,11 @@ export const bubb13Eeex: Port = {
   originalSystems: ["Unknown"],
   summary: "Baldur's Gate: Enhanced Edition is a 2012 role-playing video game developed by Overhaul Games, a division of Beamdog, and published by Atari. It was released for Microsoft Windows on November 28, 2012, with additional releases between 2012 and 2014 for iPad, OS X, Android and Linux and most recently for Xbox One, PlayStation 4, and Nintendo Switch on October 15, 2019.",
   summaryEs: "Baldur's Gate: Edición Mejorada es una reedición del videojuego de rol Baldur's Gate y su expansión Baldur's Gate: Tales of the Sword Coast. Originalmente el juego fue publicado por Interplay Entertainment y desarrollado por BioWare. La serie cuenta con dos títulos, al igual que varios spin-offs. Luego de que el tercer juego de la serie fuera cancelado, Interplay perdió la licencia para producir los juegos, por lo que esta reedición está siendo llevada a cabo por Overhaul Games, una división de Beamdog.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/228280/9761e1ed90324b2102ffc3dac295eeabf03bea55/header.jpg?t=1787947527",
+    alt: "Baldur's Gate: Enhanced Edition (Steam header)",
+    credit: "Steam",
+  },
   notes: "Baldur's Gate: Enhanced Edition: decompilation by Bubb13 for Windows. Bring your own copy of the game.",
   notesEs: "Baldur's Gate: Enhanced Edition: decompilación de Bubb13 para Windows. Aporta tu propia copia del juego.",
 };

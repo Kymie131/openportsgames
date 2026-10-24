@@ -23,6 +23,11 @@ export const nsmbuRecompNsmbuRecomp: Port = {
   originalSystems: ["Wii U"],
   summary: "New Super Mario Bros. U is a 2012 platform game developed and published by Nintendo as a launch title for the Wii U. A sequel to New Super Mario Bros. Wii and the fourth and final entry in the New Super Mario Bros. series, following New Super Mario Bros. 2, it is the first Super Mario game to feature high-definition graphics. The plot follows Mario on his way to rescue Princess Peach and her castle from Bowser. The game retains the cooperative multiplayer mode from its prior entry.",
   summaryEs: "New Super Mario Bros. U es un videojuego de plataformas de 2012 desarrollado y publicado por Nintendo como título de lanzamiento para Wii U. Es la secuela de New Super Mario Bros. Wii y la cuarta y última entrega de la serie New Super Mario Bros., tras New Super Mario Bros. 2. En el juego, el jugador asume el papel de Mario en su camino para rescatar a la Princesa Peach y su castillo de Bowser. También es la primera entrega de la serie Super Mario en presentar gráficos de alta definición; el juego conserva el modo multijugador cooperativo de la entrega anterior.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/new-super-mario-bros-u.svg",
+    alt: "New Super Mario Bros. U (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "New Super Mario Bros. U: static recompilation by nsmbu-recomp for Windows. Bring your own copy of the game.",
   notesEs: "New Super Mario Bros. U: recompilación estática de nsmbu-recomp para Windows. Aporta tu propia copia del juego.",
 };

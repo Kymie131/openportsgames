@@ -23,6 +23,11 @@ export const MrBoom: Port = {
   summary: "Mr.Boom is a action-adventure game for Atari, released in 2000.",
   summaryEs: "Mr.Boom es un videojuego de acci�n y aventura para Atari, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/mr-boom.svg",
+    alt: "Mr.Boom (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Mr.Boom is an 8 player Bomberman clone for RetroArch/Libretro.",
   notesEs: "Mr.Boom es un clon de Bomberman para 8 jugadores para RetroArch/Libretro.",
 };

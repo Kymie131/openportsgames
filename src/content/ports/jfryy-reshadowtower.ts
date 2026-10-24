@@ -23,6 +23,11 @@ export const jfryyReshadowtower: Port = {
   originalSystems: ["PlayStation"],
   summary: "Shadow Tower is a 1998 action role-playing video game developed by FromSoftware for the PlayStation. The game was originally released in Japan by FromSoftware on June 25, 1998 and in North America by Agetec on November 23, 1999. Shadow Tower shares many similarities with the King's Field series of video games. A sequel, Shadow Tower Abyss, was released for the PlayStation 2 exclusively in Japan.",
   summaryEs: "Shadow Tower es un videojuego de rol de acción de 1998 desarrollado por FromSoftware para PlayStation. El juego fue lanzado originalmente por FromSoftware en Japón el 25 de junio de 1998, y por Agetec en Norteamérica el 23 de noviembre de 1999. Shadow Tower comparte muchas similitudes con la serie de videojuegos King's Field. Una secuela, Shadow Tower Abyss, fue lanzada para la PlayStation 2 exclusivamente en Japón.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/shadow-tower.svg",
+    alt: "Shadow Tower (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Shadow Tower: static recompilation by JFryy for Windows. Bring your own copy of the game.",
   notesEs: "Shadow Tower: recompilación estática de JFryy para Windows. Aporta tu propia copia del juego.",
 };

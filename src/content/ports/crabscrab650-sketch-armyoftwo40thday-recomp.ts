@@ -24,6 +24,11 @@ export const crabscrab650SketchArmyoftwo40thdayRecomp: Port = {
   originalSystems: ["Xbox 360"],
   summary: "Army of Two: The 40th Day is a 2010 third-person shooter video game developed by EA Montreal and published by Electronic Arts for PlayStation 3 and Xbox 360. The game was also released for PlayStation Portable, which was developed by Buzz Monkey. It is the sequel to Army of Two.",
   summaryEs: "Army of Two: The 40th Day es un videojuego de disparos en tercera persona, acción y aventura desarrollado por EA Montreal y publicado por Electronic Arts para PlayStation 3, Xbox 360 y PlayStation Portable. Es la secuela de Army of Two. Fue lanzado el 12 de enero de 2010 en Norteamérica y el 15 de enero en Europa.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Armyoftwo_game_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    alt: "Army of Two: The 40th Day (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Army of Two: The 40th Day: static recompilation by crabscrab650-sketch for Windows. Bring your own copy of the game.",
   notesEs: "Army of Two: The 40th Day: recompilación estática de crabscrab650-sketch para Windows. Aporta tu propia copia del juego.",
 };

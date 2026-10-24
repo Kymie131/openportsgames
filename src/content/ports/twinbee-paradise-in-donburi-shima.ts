@@ -23,6 +23,11 @@ export const TwinbeeParadiseInDonburiShima: Port = {
   summary: "TwinBee PARADISE in Donburi Shima is a action-adventure game, released in 2000.",
   summaryEs: "TwinBee PARADISE in Donburi Shima es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/twinbee-paradise-in-donburi-shima.svg",
+    alt: "TwinBee PARADISE in Donburi Shima (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "Researching of TwinBee PARADISE in Donburi Island. Doing research and documentation on how the game operates in the orginal engine and works on different operating systems.",
   notesEs:

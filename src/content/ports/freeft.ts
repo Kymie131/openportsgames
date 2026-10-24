@@ -23,6 +23,11 @@ export const Freeft: Port = {
   summary: "FreeFT is a action-adventure game, released in 2000.",
   summaryEs: "FreeFT es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/freeft.svg",
+    alt: "FreeFT (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Isometric action game engine.",
   notesEs: "Motor de juego de acción isométrico.",
 };

@@ -24,6 +24,11 @@ export const filthyKitchenNes: Port = {
   summary: "Filthy Kitchen is a action-adventure game published by Homebrew, released in 2016.",
   summaryEs: "Filthy Kitchen es un videojuego de acci�n y aventura publicado por Homebrew, lanzado en 2016.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/filthy-kitchen.svg",
+    alt: "Filthy Kitchen (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Filthy Kitchen (Homebrew, 2016) running on nes through source port. You need your own copy of the game.",
   notesEs: "Filthy Kitchen (Homebrew, 2016) en nes mediante port de código. Necesitas tu propia copia del juego.",
 };

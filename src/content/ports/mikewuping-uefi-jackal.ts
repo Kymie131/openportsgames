@@ -23,6 +23,11 @@ export const mikewupingUefiJackal: Port = {
   originalSystems: ["Arcade"],
   summary: "Jackal, released in North America as Top Gunner, is a run and gun video game developed and published by Konami for arcades. It was released in October 1986 and ported to the Nintendo Entertainment System, Famicom Disk System, ZX Spectrum, Commodore 64, and IBM PC compatibles.",
   summaryEs: "Chacal (Jackal , también distribuido bajo el título de Top Gunner, es un juego del género run and gun lanzado por Konami para Arcade en 1986. El jugador debe maniobrar un jeep armado para rescatar prisioneros de guerra atrapados en territorio de enemigo.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124230/953b10dcee407cbb6671efd94d889a63b3746eb7/header.jpg?t=1789794066",
+    alt: "Jackal (Steam header)",
+    credit: "Steam",
+  },
   notes: "Jackal: decompilation by MikeWuPing for Windows. Bring your own copy of the game.",
   notesEs: "Jackal: decompilación de MikeWuPing para Windows. Aporta tu propia copia del juego.",
 };

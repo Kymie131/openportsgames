@@ -23,6 +23,11 @@ export const othelloWiiU: Port = {
   originalSystems: ["Unknown"],
   summary: "Othello is a 1986 strategy video game developed by HAL Laboratory for the Nintendo Entertainment System and Game Boy. It was published by the toy company Kawada in Japan and Acclaim Entertainment in North America. The Game Boy version was published by Nintendo in Europe. It is based on the board game Othello, a version of Reversi sold by Tsukuda Original. The video game is seen as a solid rendition of the board game with good controls but a lack of features.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/othello.svg",
+    alt: "Othello (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Othello (Homebrew, 2026) running on Wii U through source port. Latest release: 1.6.0. You need your own copy of the game.",
   notesEs: "Othello (Homebrew, 2026) en Wii U mediante port de código. Última release: 1.6.0. Necesitas tu propia copia del juego.",
 };

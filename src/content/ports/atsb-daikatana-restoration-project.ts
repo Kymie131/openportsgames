@@ -23,6 +23,11 @@ export const atsbDaikatanaRestorationProject: Port = {
   originalSystems: ["Unknown"],
   summary: "John Romero's Daikatana, better known as simply Daikatana, is a 2000 first-person shooter action role-playing game developed by Ion Storm and published by Eidos Interactive for Windows. A port to the Nintendo 64 was released the same year by Kemco. Players control a swordsmaster who travels through various time periods using the eponymous Daikatana, a powerful sword tied to the fate of the world.",
   summaryEs: "Daikatana (大刀) es un videojuego de disparos en primera persona desarrollado por Ion Storm y publicado por Eidos Interactive para PC y Nintendo 64 en mayo de 2000.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242980/header.jpg?t=1783007455",
+    alt: "Daikatana (Steam header)",
+    credit: "Steam",
+  },
   notes: "Daikatana: source port by atsb for Windows. Bring your own copy of the game.",
   notesEs: "Daikatana: source port de atsb para Windows. Aporta tu propia copia del juego.",
 };

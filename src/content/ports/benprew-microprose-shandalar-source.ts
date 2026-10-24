@@ -24,6 +24,11 @@ export const benprewMicroproseShandalarSource: Port = {
   originalSystems: ["Windows"],
   summary: "Magic: The Gathering is a video game published by MicroProse in March 1997 based on the collectible card game Magic: The Gathering. It is often referred to as Shandalar, to distinguish it from other Magic video games since published, named after the plane of Shandalar where the game takes place. The player must travel the land and fight random enemies to gain cards, and defeat five wizards representing the five colors. The player must prevent one color from gaining too much power, and defeat the planeswalker Arzakon, who has a deck of all five colors.",
   summaryEs: "Magic: The Gathering es un videojuego de acción y aventura publicado por MicroProse en 1997.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Magic_the_Gathering_2017.svg/960px-Magic_the_Gathering_2017.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "Magic: The Gathering (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Magic: The Gathering: decompilation by benprew for Windows. Bring your own copy of the game.",
   notesEs: "Magic: The Gathering: decompilación de benprew para Windows. Aporta tu propia copia del juego.",
 };

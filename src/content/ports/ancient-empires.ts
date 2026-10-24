@@ -21,6 +21,11 @@ export const AncientEmpires: Port = {
   originalSystems: ["Unknown"],
   summary: "Ancient Empires is a action-adventure game published by Macrospace in 2004.",
   summaryEs: "Ancient Empires es un videojuego de acción y aventura publicado por Macrospace en 2004.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Ancient_Empires.jpg/960px-Ancient_Empires.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "Ancient Empires (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Decompilation of the mobile game Ancient Empires (2004).",
   notesEs: "Decompilación del juego móvil Ancient Empires (2004).",
 };

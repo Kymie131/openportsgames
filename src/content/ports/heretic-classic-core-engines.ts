@@ -22,6 +22,11 @@ export const hereticClassicCoreEngines: Port = {
   originalSystems: ["Unknown"],
   summary: "Heretic: Shadow of the Serpent Riders is a shooter game in 2007.",
   summaryEs: "Heretic: Shadow of the Serpent Riders es un videojuego de disparos en 2007.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/heretic-shadow-of-the-serpent-riders.svg",
+    alt: "Heretic: Shadow of the Serpent Riders (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Heretic: Shadow of the Serpent Riders (Raven Software, 1994) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (HERETIC.WAD).",
   notesEs: "Heretic: Shadow of the Serpent Riders (Raven Software, 1994) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
 };

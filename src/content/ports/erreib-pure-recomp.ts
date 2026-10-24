@@ -23,6 +23,11 @@ export const erreibPureRecomp: Port = {
   originalSystems: ["Unknown"],
   summary: "Wipeout Pure is a 2005 racing video game developed by Studio Liverpool and published by Sony Computer Entertainment for the PlayStation Portable. It was released as a launch title for the platform in North America and PAL territories, in March and September respectively. The sixth installment of the Wipeout series, following Wipeout Fusion (2002), the game takes place in the year 2197, exactly 100 years after the events of Wipeout 2097 (1996), and revolves around players competing in the FX300 anti-gravity racing league.",
   summaryEs: "Wipeout Pure es un videojuego de carreras futurista desarrollado por Sony Studio Liverpool y publicado por Sony Computer Entertainment para PlayStation Portable. Se lanzó por primera vez el 24 de marzo de 2005 en América del Norte, el 7 de abril de 2005 en Japón y el 1 de septiembre de 2005 en Europa. En Norteamérica y Europa, fue un título de lanzamiento para la plataforma.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/wipeout-pure.svg",
+    alt: "Wipeout Pure (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Wipeout Pure: static recompilation by erreib for Windows, macOS. Bring your own copy of the game.",
   notesEs: "Wipeout Pure: recompilación estática de erreib para Windows, macOS. Aporta tu propia copia del juego.",
 };

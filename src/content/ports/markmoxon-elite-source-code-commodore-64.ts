@@ -24,6 +24,11 @@ export const markmoxonEliteSourceCodeCommodore64: Port = {
   originalSystems: ["Unknown"],
   summary: "Elite is a space trading video game. It was written and developed by David Braben and Ian Bell and was originally published by Acornsoft for the BBC Micro computer in September 1984. Elite's open-ended game model, and revolutionary 3D graphics led to it being ported to virtually every contemporary home computer system and earned it a place as a classic and a genre maker in gaming history. The game's title derives from one of the player's goals of raising their combat rating to the exalted heights of \"Elite\".",
   summaryEs: "Sniper Elite es un videojuego del género de videojuego de disparos táctico desarrollado por la compañía británica Rebellion Developments. El personaje principal es un agente de la OSS, Karl Fairburne, disfrazado de un francotirador alemán que se inserta en Berlín en 1945, durante la Segunda Guerra Mundial, con el objetivo de obtener la tecnología de las armas alemanas antes que la NKVD soviética.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/elite.svg",
+    alt: "Elite (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Elite: decompilation by markmoxon for Windows. Bring your own copy of the game.",
   notesEs: "Elite: decompilación de markmoxon para Windows. Aporta tu propia copia del juego.",
 };

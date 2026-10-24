@@ -23,6 +23,11 @@ export const Navyfield2000Pc: Port = {
   summary: "NavyField 2000 PC is a action-adventure game, released in 2000.",
   summaryEs: "NavyField 2000 PC es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/navyfield-2000-pc.svg",
+    alt: "NavyField 2000 PC (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Decompilation of NavyField 2000 PC (Other).",
   notesEs: "Decompilación de NavyField 2000 PC (Other).",
 };

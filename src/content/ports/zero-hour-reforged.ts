@@ -23,6 +23,11 @@ export const ZeroHourReforged: Port = {
   summary: "Zero Hour Reforged is a action-adventure game, released in 2000.",
   summaryEs: "Zero Hour Reforged es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/zero-hour-reforged.svg",
+    alt: "Zero Hour Reforged (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "Zero Hour rebuilt from EA's source: x64, Direct3D 11, VS2022/CMake, ~60 original bugs fixed, an AI that builds a base. Bring your own game.",
   notesEs:

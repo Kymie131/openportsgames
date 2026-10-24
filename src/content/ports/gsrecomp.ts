@@ -23,6 +23,11 @@ export const Gsrecomp: Port = {
   summary: "GSRecomp is a action-adventure game, released in 2000.",
   summaryEs: "GSRecomp es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/gsrecomp.svg",
+    alt: "GSRecomp (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Static recompilation of GSRecomp (Other).",
   notesEs: "Recompilación estática de GSRecomp (Other).",
 };

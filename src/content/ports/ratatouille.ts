@@ -21,6 +21,11 @@ export const Ratatouille: Port = {
   originalSystems: ["GameCube"],
   summary: "Ratatouille is a 2007 American animated comedy-drama film written and directed by Brad Bird, from a story by Jan Pinkava, Jim Capobianco and Bird. Produced by Pixar Animation Studios for Walt Disney Pictures, the film stars the voices of Patton Oswalt, Lou Romano, Ian Holm, Janeane Garofalo, Peter O'Toole, Brian Dennehy, Peter Sohn and Brad Garrett. The title refers to the French dish ratatouille, and also references the species of the main character, a rat.",
   summaryEs: "Ratatouille puede referirse a:La especialidad gastronómica francesa de Niza llamada Ratatouille. Ratatouille (película) es una película estadounidense de Disney/Pixar de 2007. Ratatouille (banda sonora) es la banda sonora de la película homónima de 2007. Ratatouille (videojuego) es un videojuego basado en la película homónima de 2007.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/ratatouille.svg",
+    alt: "Ratatouille (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Decompilation project of Disney-Pixar Ratatouille (USA) for the Nintendo GameCube.",
   notesEs: "Proyecto de decompilación de Ratatouille de Disney-Pixar (USA) para Nintendo GameCube.",
 };

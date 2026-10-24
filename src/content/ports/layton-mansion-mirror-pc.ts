@@ -23,6 +23,11 @@ export const laytonMansionMirrorPc: Port = {
   originalSystems: ["Mobile"],
   summary: "Professor Layton is a puzzle adventure video game series and transmedia franchise developed by Level-5. The property consists primarily of seven main video games, a mobile spin-off, an animated theatrical film, and an anime television series, while additionally incorporating an array of secondary titles and media, including a crossover game with Capcom's Ace Attorney series.",
   summaryEs: "El profesor Layton y la mansión del espejo de la muerte es un juego de misterio y puzles desarrollado por la compañía japonesa Level-5. Se trata de un spin-off de la saga de videojuegos del Profesor Layton. Fue desarrollado para teléfonos i-mode y publicado en Japón el 29 de octubre de 2008, aunque fue relanzado el 1 de noviembre de 2012. Actualmente esta entrega está parcialmente considerada un Lost Media, ya que solo se conserva la versión original del juego, pero su edición REMIX sigue desaparecida.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/professor-layton-and-the-mansion-of-the-deathly-mirror.svg",
+    alt: "Professor Layton and the Mansion of the Deathly Mirror (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "PC restoration and native port of the lost Japan-only Professor Layton mobile game. Built by the community from preserved assets; no commercial release exists.",
   notesEs: "Restauración y port nativo para PC del juego móvil perdido de Professor Layton, publicado solo en Japón. Reconstruido por la comunidad a partir de materiales preservados; no existe una versión comercial.",
 };

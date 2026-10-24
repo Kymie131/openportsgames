@@ -24,6 +24,11 @@ export const googleDinoGameBoyAdvance: Port = {
   summary: "Chrome Dino is a platform game published by Google for Other, released in 2014.",
   summaryEs: "Chrome Dino es un videojuego de plataformas publicado por Google para Other, lanzado en 2014.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/chrome-dino.svg",
+    alt: "Chrome Dino (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Chrome Dino (Google, 2014) running on gba through source port. Latest release: 1.1. You need your own copy of the game.",
   notesEs: "Chrome Dino (Google, 2014) en gba mediante port de código. Última release: 1.1. Necesitas tu propia copia del juego.",
 };

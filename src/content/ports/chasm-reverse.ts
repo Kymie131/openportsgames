@@ -23,6 +23,11 @@ export const ChasmReverse: Port = {
   summary: "Chasm-Reverse is a action-adventure game, released in 2000.",
   summaryEs: "Chasm-Reverse es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/chasm-reverse.svg",
+    alt: "Chasm-Reverse (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: 'Tools for reverse-engineering of game "Chasm: The Rift".',
   notesEs: "Herramientas de ingeniería inversa del juego «Chasm: The Rift».",
 };

@@ -24,6 +24,11 @@ export const theindra55Cdcengine: Port = {
   originalSystems: ["Unknown"],
   summary: "Tomb Raider: Legend is a 2006 action-adventure video game developed by Crystal Dynamics and published by Eidos Interactive. It is the seventh main entry in the Tomb Raider series, and is described as a \"reimagining\" of the series and its protagonist Lara Croft. The game was released in 2006 for PlayStation 2, Windows, Xbox, Xbox 360, PlayStation Portable, GameCube, Game Boy Advance, Nintendo DS, and mobile phones. A PlayStation 3 port was released in 2011 as part of The Tomb Raider Trilogy.",
   summaryEs: "Tomb Raider: Legend es un videojuego de acción-aventura de disparos en tercera persona desarrollado por Crystal Dynamics y publicado por Eidos Interactive. Es la séptima entrada principal de la serie Tomb Raider y un reinicio de la serie que reimaginó los orígenes y el personaje de la protagonista de la serie Lara Croft. El juego fue lanzado en 2006 para Microsoft Windows, PlayStation 2, Xbox, Xbox 360, PlayStation Portable, GameCube, Game Boy Advance, Nintendo DS y teléfonos móviles. Un port de PlayStation 3 fue lanzado en 2011 como parte de The Tomb Raider Trilogy.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7000/header.jpg?t=1729009388",
+    alt: "Tomb Raider: Legend (Steam header)",
+    credit: "Steam",
+  },
   notes: "Tomb Raider: Legend: decompilation by TheIndra55 for Windows. Bring your own copy of the game.",
   notesEs: "Tomb Raider: Legend: decompilación de TheIndra55 para Windows. Aporta tu propia copia del juego.",
 };

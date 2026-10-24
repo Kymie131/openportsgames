@@ -24,6 +24,11 @@ export const cryptoslasherSnes: Port = {
   summary: "CryptoSlasher is a action-adventure game published by Homebrew, released in 2022.",
   summaryEs: "CryptoSlasher es un videojuego de acci�n y aventura publicado por Homebrew, lanzado en 2022.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/cryptoslasher.svg",
+    alt: "CryptoSlasher (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "CryptoSlasher (Homebrew, 2022) running on snes through source port. You need your own copy of the game.",
   notesEs: "CryptoSlasher (Homebrew, 2022) en snes mediante port de código. Necesitas tu propia copia del juego.",
 };

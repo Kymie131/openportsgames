@@ -23,6 +23,11 @@ export const Glsmac: Port = {
   summary: "GLSMAC is a action-adventure game, released in 2000.",
   summaryEs: "GLSMAC es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/glsmac.svg",
+    alt: "GLSMAC (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "Unofficial open-source OpenGL/SDL2 reimplementation of Sid Meier's Alpha Centauri ( + Alien Crossfire ).",
   notesEs:

@@ -23,6 +23,11 @@ export const Dgengine: Port = {
   summary: "DGEngine is a action-adventure game, released in 2000.",
   summaryEs: "DGEngine es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/dgengine.svg",
+    alt: "DGEngine (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "An implementation of the Diablo 1 game engine.",
   notesEs: "Una implementación del motor de Diablo 1.",
 };

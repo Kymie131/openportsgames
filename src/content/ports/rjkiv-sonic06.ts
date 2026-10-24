@@ -24,6 +24,11 @@ export const rjkivSonic06: Port = {
   originalSystems: ["Unknown"],
   summary: "Sonic the Hedgehog is a 1991 platform game developed by Sonic Team and published by Sega for the Sega Genesis. It was released in North America and PAL regions in June and in Japan the following month. The player controls Sonic, a hedgehog who can run at supersonic speeds. The story follows Sonic as he aims to foil the mad scientist Doctor Robotnik's plans to seek the powerful Chaos Emeralds. The gameplay involves collecting rings as a form of health, and a simple control scheme, with jumping and attacking controlled by a single button.",
   summaryEs: "Sonic the Hedgehog es un videojuego de plataformas desarrollado y publicado por Sega para la consola Mega Drive. Salió a la venta en las regiones PAL el 21 de junio, en Norteamérica dos días después, el 23 de junio, y en Japón al mes siguiente. El jugador controla a Sonic, un erizo que puede correr a velocidades supersónicas. La historia lo sigue en su intento de frustrar los planes del científico loco Dr. Robotnik, que busca las poderosas Chaos Emeralds.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Sonic_The_Hedgehog.svg/960px-Sonic_The_Hedgehog.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "Sonic the Hedgehog (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Sonic the Hedgehog: decompilation by rjkiv for Windows. Bring your own copy of the game.",
   notesEs: "Sonic the Hedgehog: decompilación de rjkiv para Windows. Aporta tu propia copia del juego.",
 };

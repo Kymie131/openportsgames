@@ -24,6 +24,11 @@ export const bomberhackersBm64tsa: Port = {
   originalSystems: ["Nintendo 64"],
   summary: "Bomberman 64: The Second Attack! is a 1999 action video game, the sequel to 1997's Bomberman 64.",
   summaryEs: "Bomberman 64: The Second Attack, conocido en Japón como Bakú Bomberman 2, es un videojuego desarrollado y publicado para Nintendo 64. Se trata de la secuela de Bomberman 64 y salió a la venta en el mercado japonés en diciembre de 1999, y en el mercado americano en mayo de 2000, no llegando a comercializarse en el mercado europeo.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/bomberman-64-the-second-attack.svg",
+    alt: "Bomberman 64: The Second Attack! (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Bomberman 64: The Second Attack!: decompilation by Bomberhackers for Windows. Bring your own copy of the game.",
   notesEs: "Bomberman 64: The Second Attack!: decompilación de Bomberhackers para Windows. Aporta tu propia copia del juego.",
 };

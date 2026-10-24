@@ -24,6 +24,11 @@ export const sirsymoSm2Recomp: Port = {
   originalSystems: ["Xbox"],
   summary: "Spider-Man 2 is a 2004 action-adventure game based on the 2004 film of the same name. The game is the sequel to 2002's Spider-Man, itself based on the 2002 film of the same name. It was released on June 29, 2004, for the PlayStation 2, GameCube, Xbox, Microsoft Windows, and Game Boy Advance, followed by N-Gage and Nintendo DS versions later the same year. A PlayStation Portable version was released almost one year later, on March 23, 2005.",
   summaryEs: "Spider-Man 2 es un videojuego de acción y aventuras de mundo abierto de 2004 basado en la película homónima de 2004. Es la secuela de Spider-Man de 2002, basado a su vez en la película homónima de 2002. Se lanzó el 29 de junio de 2004 para PlayStation 2, GameCube, Xbox, Microsoft Windows y Game Boy Advance, seguido de las versiones para N-Gage y Nintendo DS ese mismo año. Una versión para PlayStation Portable se lanzó casi un año después, el 23 de marzo de 2005.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/spider-man-2.svg",
+    alt: "Spider-Man 2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Spider-Man 2: static recompilation by SirSymo for Windows. Bring your own copy of the game.",
   notesEs: "Spider-Man 2: recompilación estática de SirSymo para Windows. Aporta tu propia copia del juego.",
 };

@@ -22,6 +22,11 @@ export const burnoutCrashPc: Port = {
   originalSystems: ["Xbox 360"],
   summary: "Burnout Crash! is a downloadable action racing video game in the Burnout series. It is developed by Criterion Games and published by Electronic Arts for PlayStation 3, Xbox 360, iOS via PlayStation Network, Xbox Live Arcade, and iTunes App Store.",
   summaryEs: "Burnout Crash! es un videojuego de carreras descargable de la serie Burnout. Está desarrollado por Criterion Games y publicado por Electronic Arts para PlayStation 3, Xbox 360, iOS a través de PlayStation Network, Xbox Live Arcade y iTunes App Store.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Burnout_Crash%21_logo_official_%28SGDB_14092%29.png/960px-Burnout_Crash%21_logo_official_%28SGDB_14092%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "Burnout CRASH! (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Burnout CRASH! (Electronic Arts, 2011) running on Windows through static recompilation. Latest release: v0.1.1. You need your own copy of the game.",
   notesEs: "Burnout CRASH! (Electronic Arts, 2011) en Windows mediante recompilación estática. Última release: v0.1.1. Necesitas tu propia copia del juego.",
 };

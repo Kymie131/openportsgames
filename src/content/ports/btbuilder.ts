@@ -23,6 +23,11 @@ export const Btbuilder: Port = {
   summary: "BtBuilder is a action-adventure game, released in 2000.",
   summaryEs: "BtBuilder es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/btbuilder.svg",
+    alt: "BtBuilder (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Bt Builder is an open source implementation of the Bard's Tale Construction Set.",
   notesEs: "Bt Builder es una implementación de código abierto del Bard's Tale Construction Set.",
 };

@@ -23,6 +23,11 @@ export const PokemonTcg1: Port = {
   summary: "Pokemon TCG 1 is a role-playing game, released in 2000.",
   summaryEs: "Pokemon TCG 1 es un videojuego de rol, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/pokemon-tcg-1.svg",
+    alt: "Pokemon TCG 1 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Disassembly of Pokémon TCG.",
   notesEs: "Desensamblado de Pokémon TCG.",
 };

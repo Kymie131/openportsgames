@@ -23,6 +23,11 @@ export const neonValley3ds: Port = {
   summary: "Neon Valley is a shooter game published by Fan game for Other, released in 2019.",
   summaryEs: "Neon Valley es un videojuego de disparos publicado por Fan game para Other, lanzado en 2019.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/neon-valley.svg",
+    alt: "Neon Valley (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Neon Valley (Fan game, 2019) running on Nintendo 3DS through source port. Latest release: v0.6.3. You need your own copy of the game.",
   notesEs: "Neon Valley (Fan game, 2019) en Nintendo 3DS mediante port de código. Última release: v0.6.3. Necesitas tu propia copia del juego.",
 };

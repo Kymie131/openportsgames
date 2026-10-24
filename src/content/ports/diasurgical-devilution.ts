@@ -24,6 +24,11 @@ export const diasurgicalDevilution: Port = {
   originalSystems: ["Unknown"],
   summary: "Diablo is an action role-playing dungeon crawler video game series originally developed by Blizzard North and continued by Blizzard Entertainment after the original North studio shut down in 2005. The franchise is made up of the four main games: Diablo, Diablo II, Diablo III, and Diablo IV.",
   summaryEs: "Diablo es una serie de videojuegos pertenecientes al género de acción, de Hack and Slash, y de Videojuegos de mazmorras desarrollada por Blizzard North y continuada por Blizzard Entertainment después del cierre del estudio del norte en 2005. La serie se compone de cinco videojuegos principales: Diablo I, Diablo II, Diablo III, Diablo Immortal y Diablo IV.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/diablo.svg",
+    alt: "Diablo (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Diablo: engine remake by diasurgical for Windows. Bring your own copy of the game.",
   notesEs: "Diablo: recreación de motor de diasurgical para Windows. Aporta tu propia copia del juego.",
 };

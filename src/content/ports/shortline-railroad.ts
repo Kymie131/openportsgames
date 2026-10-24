@@ -22,6 +22,11 @@ export const ShortlineRailroad: Port = {
   summary: "Shortline railroad is a action-adventure game, released in 2000.",
   summaryEs: "Shortline railroad es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/shortline-railroad.svg",
+    alt: "Shortline railroad (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "The reversed source code for ShortLine v1.1 game.",
   notesEs: "El código fuente reconstruido del juego ShortLine v1.1.",
 };

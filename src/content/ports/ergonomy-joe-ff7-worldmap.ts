@@ -24,6 +24,11 @@ export const ergonomyJoeFf7Worldmap: Port = {
   originalSystems: ["PlayStation"],
   summary: "Final Fantasy VII is a 1997 role-playing video game developed and published by Square for the PlayStation. The seventh main installment in the Final Fantasy series, it was released in Japan by Square Soft and internationally by Sony Computer Entertainment, becoming the first game in the main series to have a PAL release. The game's story follows Cloud Strife, a mercenary who joins an eco-terrorist organization to stop a world-controlling megacorporation from using the planet's life essence as an energy source.",
   summaryEs: "Final Fantasy VII es un videojuego de rol desarrollado y publicado por la empresa Square para la plataforma PlayStation. Publicado en 1997, se trata de la séptima entrega de la serie Final Fantasy y la primera de la saga en presentar gráficos tridimensionales, mostrando personajes completamente renderizados sobre escenarios prerrenderizados.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3837340/467568ecc51ea77191ce048636a6f211c1c93a9f/header.jpg?t=1775108423",
+    alt: "Final Fantasy VII (Steam header)",
+    credit: "Steam",
+  },
   notes: "Final Fantasy VII: decompilation by ergonomy-joe for Windows. Bring your own copy of the game.",
   notesEs: "Final Fantasy VII: decompilación de ergonomy-joe para Windows. Aporta tu propia copia del juego.",
 };

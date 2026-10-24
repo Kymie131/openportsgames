@@ -24,6 +24,11 @@ export const emberclutch3ds: Port = {
   summary: "Emberclutch is a role-playing game published by Homebrew, released in 2026.",
   summaryEs: "Emberclutch es un videojuego de rol publicado por Homebrew, lanzado en 2026.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/emberclutch.svg",
+    alt: "Emberclutch (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Emberclutch (Homebrew, 2026) running on Nintendo 3DS through source port. Latest release: v1.0.2. You need your own copy of the game.",
   notesEs: "Emberclutch (Homebrew, 2026) en Nintendo 3DS mediante port de código. Última release: v1.0.2. Necesitas tu propia copia del juego.",
 };

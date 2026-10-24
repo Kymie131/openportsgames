@@ -23,6 +23,11 @@ export const imrburnWwe12Pc: Port = {
   originalSystems: ["Xbox 360"],
   summary: "WWE '12 is a professional wrestling video game developed by Yuke's and published by THQ for the PlayStation 3, Wii, and Xbox 360. It was released on November 22, 2011, in North America, November 25 in Europe, and on January 26, 2012, in Japan. A Europe-exclusive WWE '12 WrestleMania Edition was released on May 25, 2012.",
   summaryEs: "WWE '12 es un videojuego de lucha libre profesional desarrollado por Yuke's y publicado por THQ para los sistemas PlayStation 3, Wii y Xbox 360. Es el primer juego de la serie WWE, el décimo cuarto en la serie combinada y es la secuela de WWE SmackDown vs. Raw 2011. Fue lanzado el 22 de noviembre de 2011 en América del Norte y el 25 de noviembre en el Reino Unido.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/wwe-12.svg",
+    alt: "WWE '12 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "WWE '12: static recompilation by iMrBurn for Windows. Bring your own copy of the game.",
   notesEs: "WWE '12: recompilación estática de iMrBurn para Windows. Aporta tu propia copia del juego.",
 };

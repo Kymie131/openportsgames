@@ -23,6 +23,11 @@ export const pingo: Port = {
   originalSystems: ["Unknown"],
   summary: "Pingo is an AI desktop pet that chats, roasts, remembers, and helps with tasks. Connect local models, official cloud; customize personality, voice, and look; let it observe your screen, keep memory and diary notes, use Skills, knowledge bases, and MCP, and play games with you.",
   summaryEs: "Pingo es un videojuego de puzles publicado por jianbinggaming.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4553020/9b3e27cb764a37bcda8fe2ce2a39b21e2ac1e69e/header.jpg?t=1790280852",
+    alt: "Pingo (Steam header)",
+    credit: "Steam",
+  },
   notes:
     "Pingo is a tile-painting puzzle game for PS Vita: fill the board with colours by swapping tiles. It is a free homebrew release with no original game.",
   notesEs:

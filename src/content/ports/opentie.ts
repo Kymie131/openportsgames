@@ -23,6 +23,11 @@ export const Opentie: Port = {
   summary: "OpenTIE is a action-adventure game, released in 2000.",
   summaryEs: "OpenTIE es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/opentie.svg",
+    alt: "OpenTIE (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Source port of OpenTIE (Other).",
   notesEs: "Port del código fuente de OpenTIE (Other).",
 };

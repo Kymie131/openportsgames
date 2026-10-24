@@ -23,6 +23,11 @@ export const ChocolateQuake: Port = {
   summary: "Chocolate Quake is a shooter game for MS-DOS, released in 2000.",
   summaryEs: "Chocolate Quake es un videojuego de disparos para MS-DOS, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/chocolate-quake.svg",
+    alt: "Chocolate Quake (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "A purist Quake source port that restores the original look and feel of v1.09 and earlier.",
   notesEs: "Port purista de Quake que recupera el aspecto y la sensación de la v1.09 y anteriores.",

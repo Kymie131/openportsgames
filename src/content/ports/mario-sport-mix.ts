@@ -23,6 +23,11 @@ export const MarioSportMix: Port = {
   summary: "Mario Sport Mix is a platform game, released in 2000.",
   summaryEs: "Mario Sport Mix es un videojuego de plataformas, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/mario-sport-mix.svg",
+    alt: "Mario Sport Mix (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Mario Sport Mix decompilation.",
   notesEs: "Decompilación de Mario Sport Mix.",
 };

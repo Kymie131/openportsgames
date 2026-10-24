@@ -24,6 +24,11 @@ export const b4ttycre4seSpiderMan3Recomp: Port = {
   originalSystems: ["Xbox 360"],
   summary: "Spider-Man 3 is a 2007 action-adventure game loosely based on the 2007 film of the same name. The game is the sequel to 2004's Spider-Man 2, itself based on the 2004 film of the same name. It was released for the PlayStation 3, PlayStation 2, Xbox 360, Microsoft Windows, Wii, Nintendo DS, and Game Boy Advance on May 4, 2007, and for the PlayStation Portable on October 16, 2007. Published by Activision, the PlayStation 3 and Xbox 360 versions were developed by Treyarch, while Vicarious Visions handled the development of the other versions, which are drastically different.",
   summaryEs: "Spider-Man 3 es un videojuego de acción y aventura de mundo abierto de 2007 basado libremente en la película homónima de 2007. Es la secuela de Spider-Man 2 de 2004, basado a su vez en la película homónima de 2004. Se lanzó para PlayStation 3, PlayStation 2, Xbox 360, Microsoft Windows, Wii, Nintendo DS y Game Boy Advance el 4 de mayo de 2007, y para PlayStation Portable el 16 de octubre de 2007.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/spider-man-3.svg",
+    alt: "Spider-Man 3 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Spider-Man 3: static recompilation by b4ttycre4se for Windows. Bring your own copy of the game.",
   notesEs: "Spider-Man 3: recompilación estática de b4ttycre4se para Windows. Aporta tu propia copia del juego.",
 };

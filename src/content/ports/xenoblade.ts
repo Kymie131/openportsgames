@@ -22,6 +22,11 @@ export const Xenoblade: Port = {
   originalSystems: ["Unknown"],
   summary: "Xenoblade is a series of action role-playing games developed by Monolith Soft and published by Nintendo. It is a part of the Xeno metaseries, from which it receives its namesake; the series is also co-created and directed by Tetsuya Takahashi.",
   summaryEs: "Xenoblade es un videojuego de acción y aventura.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/xenoblade.svg",
+    alt: "Xenoblade (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Decompilation of Xenoblade (JP).",
   notesEs: "Decompilación de Xenoblade (JP).",
 };

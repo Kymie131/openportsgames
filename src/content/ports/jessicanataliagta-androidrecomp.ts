@@ -24,6 +24,11 @@ export const jessicanataliagtaAndroidrecomp: Port = {
   originalSystems: ["Unknown"],
   summary: "Modern Combat 2: Black Pegasus is a 2010 first-person shooter developed by Gameloft Montreal, published by Gameloft for iOS, Android, Xperia Play and BlackBerry PlayBook devices as part of the Modern Combat series. It is a sequel to 2009's Modern Combat: Sandstorm, and features new environments, updated graphics and more robust multiplayer. A sequel was released in 2011, titled Modern Combat 3: Fallen Nation. This was followed by 2012's Modern Combat 4: Zero Hour and 2014's Modern Combat 5: Blackout.",
   summaryEs: "Modern Combat 2: Black Pegasus es un videojuegos de disparos en primera persona desarrollado y publicado por Gameloft para Android, Xperia Play y BlackBerry PlayBook como parte de la serie Modern Combat. Es una secuela de Modern Combat: Sandstorm de 2009 y presenta nuevos entornos, gráficos actualizados y un multijugador más robusto. En 2011 se lanzó una secuela, titulada Modern Combat 3: Fallen Nation. A esto le siguió Modern Combat 4: Zero Hour de 2012 y Modern Combat 5: Blackout de 2014.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/modern-combat-2-black-pegasus.svg",
+    alt: "Modern Combat 2: Black Pegasus (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Modern Combat 2: Black Pegasus: static recompilation by jessicanataliagta for Android, Windows. Bring your own copy of the game.",
   notesEs: "Modern Combat 2: Black Pegasus: recompilación estática de jessicanataliagta para Android, Windows. Aporta tu propia copia del juego.",
 };

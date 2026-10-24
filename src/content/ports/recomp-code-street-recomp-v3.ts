@@ -23,6 +23,11 @@ export const recompCodeStreetRecompV3: Port = {
   originalSystems: ["Nintendo GameCube"],
   summary: "NBA Street V3 is a 2005 basketball video game developed by EA Canada and published by Electronic Arts under the EA Sports BIG label for the GameCube, PlayStation 2, and Xbox. It is the third installment in the NBA Street series. The game was later ported to the PlayStation Portable under the title NBA Street Showdown. Baron Davis of the New Orleans Pelicans is featured on the cover.",
   summaryEs: "NBA Street V3 es un videojuego creado por EA Sports BIG de la serie de videojuegos de NBA Street. El juego fue lanzado en el año de 2005 para las videoconsolas GameCube, Xbox y PlayStation 2. En este juego no salen tantas leyendas como en la versión anterior pero tiene mejores gráficos y mejor jugabilidad.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/nba-street-v3.svg",
+    alt: "NBA Street V3 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "NBA Street V3: static recompilation by recomp-code for Windows. Bring your own copy of the game.",
   notesEs: "NBA Street V3: recompilación estática de recomp-code para Windows. Aporta tu propia copia del juego.",
 };

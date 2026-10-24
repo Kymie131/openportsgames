@@ -23,6 +23,11 @@ export const tomJerryWarOfTheWhiskersPc: Port = {
   summary: "Tom & Jerry: War of the Whiskers is a fighting game published by NewKidCo for Xbox, released in 2002.",
   summaryEs: "Tom & Jerry: War of the Whiskers es un videojuego de lucha publicado por NewKidCo para Xbox, lanzado en 2002.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/tom-jerry-war-of-the-whiskers.svg",
+    alt: "Tom & Jerry: War of the Whiskers (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Tom & Jerry: War of the Whiskers (NewKidCo, 2002) running on Windows through static recompilation. Latest release: v2.2.0. You need your own copy of the game.",
   notesEs: "Tom & Jerry: War of the Whiskers (NewKidCo, 2002) en Windows mediante recompilación estática. Última release: v2.2.0. Necesitas tu propia copia del juego.",
 };

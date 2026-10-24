@@ -22,6 +22,11 @@ export const Bounce: Port = {
   originalSystems: ["Unknown"],
   summary: "Bounce or The Bounce may refer to:Deflection (physics), the event where an object collides with and bounces against a plane surface",
   summaryEs: "Bounce puede referirse a:Bounce álbum de Bon Jovi. Bounce Tour, gira musical de Bon Jovi. Bounce (película), dirigida por Don Roos en el año 2000. «Bounce», canción de Raven-Symoné de 1999. «Bounce», canción de Calvin Harris de 2011. «Bounce», canción de Iggy Azalea de 2013. Bounce, videojuego del 2001.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/bounce.svg",
+    alt: "Bounce (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Decompilation/deobfuscation of 2001 javame game Bounce.",
   notesEs: "Decompilación/desofuscación del juego J2ME Bounce (2001).",
 };

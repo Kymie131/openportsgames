@@ -23,6 +23,11 @@ export const Ezquake: Port = {
   summary: "ezQuake is a action-adventure game, released in 2000.",
   summaryEs: "ezQuake es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/ezquake.svg",
+    alt: "ezQuake (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "main ezQuake source code base.",
   notesEs: "Base del código fuente principal de ezQuake.",
 };

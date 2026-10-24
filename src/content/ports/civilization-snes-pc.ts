@@ -22,6 +22,11 @@ export const civilizationSnesPc: Port = {
   originalSystems: ["Super Nintendo"],
   summary: "Sid Meier's Civilization is a 1991 turn-based strategy 4X video game developed and published by MicroProse. The game was originally developed for MS-DOS running on a PC, and it has undergone numerous revisions for various platforms. The player is tasked with leading an entire human civilization over the course of several millennia by controlling various areas such as urban development, exploration, government, trade, research, and military. The player can control individual units and advance the exploration, conquest and settlement of the game's world.",
   summaryEs: "Sid Meier's Civilization o Civilization I es un videojuego de estrategia por turnos creado por Sid Meier y publicado por MicroProse en 1991 para las plataformas MS-DOS, Microsoft Windows, Apple Macintosh, Commodore Amiga, Atari ST y Super NES.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/civilization.svg",
+    alt: "Civilization (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Civilization (MicroProse, 1994) running on Windows through static recompilation. Latest release: v1.3.0. You need your own copy of the game.",
   notesEs: "Civilization (MicroProse, 1994) en Windows mediante recompilación estática. Última release: v1.3.0. Necesitas tu propia copia del juego.",
 };

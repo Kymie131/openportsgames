@@ -23,6 +23,11 @@ export const Surrealengine: Port = {
   summary: "SurrealEngine is a action-adventure game, released in 2000.",
   summaryEs: "SurrealEngine es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/surrealengine.svg",
+    alt: "SurrealEngine (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Unreal Engine 1 Reimplementation.",
   notesEs: "Reimplementación del Unreal Engine 1.",
 };

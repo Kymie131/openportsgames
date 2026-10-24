@@ -24,6 +24,11 @@ export const buffjesusFabledecomp: Port = {
   originalSystems: ["Unknown"],
   summary: "Fable: The Lost Chapters is a role-playing game published by Xbox Game Studios in 2005.",
   summaryEs: "Fable: The Lost Chapters es un juego basado en el éxito de ventas de su antecesor Fable para Xbox, producido por la compañía Lionhead Studios. Fue lanzado para PC el 20 de septiembre de 2005, y para Xbox el 18 de octubre del mismo año.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/204030/header.jpg?t=1577393131",
+    alt: "Fable: The Lost Chapters (Steam header)",
+    credit: "Steam",
+  },
   notes: "Fable: The Lost Chapters: decompilation by BuffJesus for Windows. Bring your own copy of the game.",
   notesEs: "Fable: The Lost Chapters: decompilación de BuffJesus para Windows. Aporta tu propia copia del juego.",
 };

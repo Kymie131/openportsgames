@@ -22,6 +22,11 @@ export const strikeGunnerStgPc: Port = {
   originalSystems: ["Super Nintendo"],
   summary: "Strike Gunner S.T.G is a 1991 vertically scrolling shooter video game developed by Athena and published by Tecmo. It was released in Japan and North America in April 1991.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/strike-gunner-stg.svg",
+    alt: "Strike Gunner STG (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Strike Gunner STG (Athena, 1992) running on Windows through static recompilation. Latest release: v0.2.0. You need your own copy of the game.",
   notesEs: "Strike Gunner STG (Athena, 1992) en Windows mediante recompilación estática. Última release: v0.2.0. Necesitas tu propia copia del juego.",
 };

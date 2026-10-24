@@ -21,6 +21,11 @@ export const Legoland: Port = {
   originalSystems: ["Unknown"],
   summary: "Legoland is a Legoland-themed construction and management simulation video game released for Microsoft Windows on 1 May 2000. It shares many aspects with the RollerCoaster Tycoon series but with a more simplistic and child-friendly gameplay style. The voicework is provided by Justin Fletcher.",
   summaryEs: "Legoland es un videojuego de acción y aventura publicado por The Lego Group en 1999.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/en/thumb/b/bd/Legoland_Parks_logo.svg/960px-Legoland_Parks_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "Legoland (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Decompilation of Legoland (Other).",
   notesEs: "Decompilación de Legoland (Other).",
 };

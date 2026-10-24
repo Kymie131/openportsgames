@@ -23,6 +23,11 @@ export const LiliumVoyager: Port = {
   summary: "lilium-voyager is a action-adventure game, released in 2000.",
   summaryEs: "lilium-voyager es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/lilium-voyager.svg",
+    alt: "lilium-voyager (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "An engine replacement for Star Trek Voyager: Elite Force Holomatch (multiplayer).",
   notesEs: "Reemplazo del motor de Star Trek Voyager: Elite Force Holomatch (multijugador).",
 };

@@ -22,6 +22,11 @@ export const simcitySnesPc: Port = {
   originalSystems: ["Super Nintendo"],
   summary: "SimCity is an open-ended city-building video game franchise originally designed by Will Wright. The first game in the series, SimCity, was published by Maxis in 1989 and was followed by several sequels and many other spin-off Sim titles, including 2000's The Sims, which itself became a best-selling computer game and franchise. Maxis developed the series independently until 1997, and continued under the ownership of Electronic Arts (EA) until 2003. EA commissioned various spinoffs from other companies during the 2000s, focusing on console and mobile releases.",
   summaryEs: "SimCity es una serie de videojuegos de construcción de ciudades desarrollada y publicada por Maxis en sus primeros juegos. La temática de los juegos de la serie se enfoca en la creación, gestión y evolución de ciudades.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/simcity.svg",
+    alt: "SimCity (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "SimCity (Nintendo, 1991) running on Windows through static recompilation. Latest release: v1.4.1. You need your own copy of the game.",
   notesEs: "SimCity (Nintendo, 1991) en Windows mediante recompilación estática. Última release: v1.4.1. Necesitas tu propia copia del juego.",
 };

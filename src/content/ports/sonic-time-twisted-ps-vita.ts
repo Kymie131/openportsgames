@@ -22,6 +22,11 @@ export const sonicTimeTwistedPsVita: Port = {
   originalSystems: ["Windows"],
   summary: "Sonic Time Twisted is a platform game.",
   summaryEs: "Sonic Time Twisted es un videojuego de plataformas.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/sonic-time-twisted.svg",
+    alt: "Sonic Time Twisted (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Sonic Time Twisted (Overbound, 2016) running on PlayStation Vita through source port. You need your own copy of the game.",
   notesEs: "Sonic Time Twisted (Overbound, 2016) en PlayStation Vita mediante port de código. Necesitas tu propia copia del juego.",
 };

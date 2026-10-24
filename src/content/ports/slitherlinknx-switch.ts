@@ -23,6 +23,11 @@ export const slitherlinknxSwitch: Port = {
   originalSystems: ["Unknown"],
   summary: "SlitherLink is a kind of mathematical intelligence game, which consists of a checkerboard and a number in the checkerboard. When solving the problem, you must use the clues provided by the numbers to connect an uninterrupted closed loop on the checkerboard line.",
   summaryEs: "Slitherlink es un videojuego de puzles publicado por Vector Game en 2018.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/b/b6/Slitherlink-example.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    alt: "Slitherlink (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Slitherlink (Nikoli, 2019) running on Nintendo Switch through source port. Latest release: 1.1. You need your own copy of the game.",
   notesEs: "Slitherlink (Nikoli, 2019) en Nintendo Switch mediante port de código. Última release: 1.1. Necesitas tu propia copia del juego.",
 };

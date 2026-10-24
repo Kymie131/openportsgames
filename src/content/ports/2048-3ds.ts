@@ -23,6 +23,11 @@ export const _20483ds: Port = {
   originalSystems: ["Unknown"],
   summary: "THE ORIGINAL MADE BETTER | 2048 is a classic puzzle with the simple goal of reaching 2048. Move your tiles around the board – When two tiles with the same number touch, they merge into one!",
   summaryEs: "2048 es un videojuego de puzles publicado por LA\\VA en 2018.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/960px-2048_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "2048 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "2048 (Gabriele Cirulli, 2026) running on Nintendo 3DS through source port. Latest release: v1.1.1. You need your own copy of the game.",
   notesEs: "2048 (Gabriele Cirulli, 2026) en Nintendo 3DS mediante port de código. Última release: v1.1.1. Necesitas tu propia copia del juego.",
 };

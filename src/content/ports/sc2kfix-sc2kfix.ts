@@ -24,6 +24,11 @@ export const sc2kfixSc2kfix: Port = {
   originalSystems: ["Unknown"],
   summary: "SimCity 2000 is a city-building simulation video game jointly developed by Will Wright and Fred Haslam of Maxis. It is the successor to SimCity Classic (1989) and was released for Apple Macintosh and MS-DOS personal computers in 1993, after which it was released on many other platforms over the following years, such as the Sega Saturn and SNES game consoles in 1995 and the PlayStation in 1996.",
   summaryEs: "SimCity 2000, abreviado SC2K es un videojuego de simulación basado en la creación de ciudades. Fue la secuela del SimCity original, y el segundo de la serie SimCity. Maxis lo publicó en el año 1993 para ordenadores Apple Macintosh y MS-DOS. Posteriormente, lse publicó también para Amiga (1994), Microsoft Windows (1995), SNES (1995), Sega Saturn (1995), PlayStation (1996), Nintendo 64 (1998), Pocket PC (1999) y Game Boy Advance (2003).",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/simcity-2000.svg",
+    alt: "SimCity 2000 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "SimCity 2000: decompilation by sc2kfix for Windows. Bring your own copy of the game.",
   notesEs: "SimCity 2000: decompilación de sc2kfix para Windows. Aporta tu propia copia del juego.",
 };

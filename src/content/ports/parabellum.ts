@@ -22,6 +22,11 @@ export const Parabellum: Port = {
   originalSystems: ["Unknown"],
   summary: "Single player strategy with puzzle elements and focus on microcontrol. In the game you need to form an army to storm the castles and change formation during the attack. Capture castles and fortifications with various sets of attacking and defending units. Each unit has its own special ability.",
   summaryEs: "parabellum es un videojuego de acción y aventura publicado por NullCloneGames en 2020.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1338410/header.jpg?t=1603459228",
+    alt: "parabellum (Steam header)",
+    credit: "Steam",
+  },
   notes: "An attempt to build a #Travian 3.x clone written in #Rust.",
   notesEs: "Intento de clon de Travian 3.x escrito en Rust.",
 };

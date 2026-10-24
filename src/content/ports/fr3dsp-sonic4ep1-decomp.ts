@@ -24,6 +24,11 @@ export const fr3dspSonic4ep1Decomp: Port = {
   originalSystems: ["Unknown"],
   summary: "Sonic the Hedgehog 4 is a platform game in 1996.",
   summaryEs: "Sonic the Hedgehog 4 es un videojuego no autorizado para la Super Nintendo Entertainment System, que tiene su gráfica tomada de los juegos de Sonic the Hedgehog ocupando la jugabilidad del videojuego Speedy Gonzales: Los Gatos Bandidos. El juego fue creado por Twin Eagles Group, un grupo de programadores de videojuegos del Perú.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Sonic_The_Hedgehog.svg/960px-Sonic_The_Hedgehog.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "Sonic the Hedgehog 4 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Sonic the Hedgehog 4: decompilation by fr3dsp for Windows. Bring your own copy of the game.",
   notesEs: "Sonic the Hedgehog 4: decompilación de fr3dsp para Windows. Aporta tu propia copia del juego.",
 };

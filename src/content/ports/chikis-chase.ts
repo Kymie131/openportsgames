@@ -22,6 +22,11 @@ export const ChikisChase: Port = {
   originalSystems: ["Unknown"],
   summary: "Chiki's Chase is a action-adventure game in 2020.",
   summaryEs: "Chiki's Chase es un videojuego de acción y aventura en 2020.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/chiki-s-chase.svg",
+    alt: "Chiki's Chase (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "chiki's chase v2.3.3.",
   notesEs: "chiki's chase v2.3.3.",
 };

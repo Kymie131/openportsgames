@@ -24,6 +24,11 @@ export const skylandersImaginatorsRecomp: Port = {
   summary: "Skylanders: Imaginators is a action-adventure game published by Activision for Xbox 360, released in 2016.",
   summaryEs: "Skylanders: Imaginators es un videojuego de acci�n y aventura publicado por Activision para Xbox 360, lanzado en 2016.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/skylanders-imaginators.svg",
+    alt: "Skylanders: Imaginators (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Unofficial native Windows port of Skylanders: Imaginators (Xbox 360) via ReXGlue. Bring your own game.",
   notesEs: "Port nativo no oficial para Windows de Skylanders: Imaginators (Xbox 360) con ReXGlue. Aporta tu propio juego.",
 };

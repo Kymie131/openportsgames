@@ -24,6 +24,11 @@ export const adipociraDoraemon1: Port = {
   originalSystems: ["Unknown"],
   summary: "Many Doraemon video games were released for most video game systems in Japan. The following is a list of these.",
   summaryEs: "Doraemon: Nobita to Mittsu no Seireiseki es un videojuego de plataformas desarrollado y publicado por Epoch Co. para Nintendo 64. Fue lanzado sólo en Japón en 1997. El juego está basado en el manga japonés Doraemon y tiene dos secuelas de Nintendo 64, Doraemon 2: Nobita to Hikari no Shinden y Doraemon 3: Nobita no Machi SOS!, ambos lanzados únicamente en Japón.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/doraemon-nobita-to-mittsu-no-seireiseki.svg",
+    alt: "Doraemon: Nobita to Mittsu no Seireiseki (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Doraemon: Nobita to Mittsu no Seireiseki: decompilation by adipocira for Windows. Bring your own copy of the game.",
   notesEs: "Doraemon: Nobita to Mittsu no Seireiseki: decompilación de adipocira para Windows. Aporta tu propia copia del juego.",
 };

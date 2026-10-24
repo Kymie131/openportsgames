@@ -23,6 +23,11 @@ export const KomputerowaGratka3dMagicznaKulaPapatki: Port = {
   summary: "Komputerowa Gratka 3D - Magiczna Kula Papatki is a action-adventure game, released in 2000.",
   summaryEs: "Komputerowa Gratka 3D - Magiczna Kula Papatki es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/komputerowa-gratka-3d-magiczna-kula-papatki.svg",
+    alt: "Komputerowa Gratka 3D - Magiczna Kula Papatki (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: 'Recompilation project of "Magiczna kula Papatki".',
   notesEs: "Proyecto de recompilación de «Magiczna kula Papatki».",
 };

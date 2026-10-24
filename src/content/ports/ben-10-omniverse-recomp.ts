@@ -22,6 +22,11 @@ export const ben10OmniverseRecomp: Port = {
   originalSystems: ["PlayStation 3"],
   summary: "Ben 10: Omniverse is an American animated television series which serves as the sequel to Ben 10: Ultimate Alien (2010–2012) and the fourth series in the Ben 10 franchise, as well as the final series to be set in the original continuity. The series aired on Cartoon Network from September 22, 2012, to November 14, 2014, in the United States, across eight 10-episode serialised \"story arcs\" instead of a season-based episode release structure. Man of Action Studios, consisting of Duncan Rouleau, Joe Casey, Joe Kelly, and Steven T. Seagle, created the franchise.",
   summaryEs: "Ben 10: Omniverse es una serie animada de televisión de superhéroes y comedia estadounidense transmitido por Cartoon Network. Esta es la cuarta serie derivada de la franquicia Ben 10 y secuela directa de Ben 10: Ultimate Alien. Es creado y producido por Man of Action.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Ben_10_reboot_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    alt: "Ben 10 Omniverse (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Ben 10 Omniverse (PS3, BLUS31017 v01.00) running natively on Apple Silicon: the PowerPC and Cell SPU code is translated ahead of time to C/C++ and linked against a reimplementation. No emulator, no JIT, and no game code or assets included.",
   notesEs: "Ben 10 Omniverse (PS3, BLUS31017 v01.00) funcionando de forma nativa en Apple Silicon: el código PowerPC y de las SPU del Cell se traduce previamente a C/C++ y se enlaza contra una reimplementación. Sin emulador, sin JIT y sin código ni assets del juego.",
 };

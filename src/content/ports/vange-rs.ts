@@ -22,6 +22,11 @@ export const VangeRs: Port = {
   originalSystems: ["Unknown"],
   summary: "Mind-altering sandbox game that can be described as a racing role-playing adventure game with a complicated storyline. You’ll find a unique atmosphere, complete freedom and lots of gameplay hours to figure out what’s the game is all about.",
   summaryEs: "Vange-rs es un videojuego de acción y aventura publicado por Association K-D Lab en 2014.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264080/header.jpg?t=1775593098",
+    alt: "Vange-rs (Steam header)",
+    credit: "Steam",
+  },
   notes: "Rusty Vangers clone.",
   notesEs: "Clon de Vangers en Rust.",
 };

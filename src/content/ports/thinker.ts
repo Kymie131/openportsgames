@@ -23,6 +23,11 @@ export const Thinker: Port = {
   summary: "thinker is a action-adventure game, released in 2000.",
   summaryEs: "thinker es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/thinker.svg",
+    alt: "thinker (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Improved game engine features for SMACX.",
   notesEs: "Funciones de motor mejoradas para SMACX.",
 };

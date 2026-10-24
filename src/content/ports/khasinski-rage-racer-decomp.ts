@@ -24,6 +24,11 @@ export const khasinskiRageRacerDecomp: Port = {
   originalSystems: ["Unknown"],
   summary: "Rage Racer is a 1996 racing video game developed and published by Namco for the PlayStation. It is the fifth installment in the Ridge Racer series and the third on the PlayStation following Ridge Racer Revolution (1995). It was released in Japan on December 3, 1996, with releases elsewhere following in 1997. It was the first game in the series to feature a CGI animated introduction, and introduced a new \"mascot\", Reiko Nagase.",
   summaryEs: "Rage Racer es un videojuego de carreras desarrollado y publicado por Namco para PlayStation. Es el tercer título de la serie Ridge Racer. Se lanzó en Japón el 3 de diciembre de 1996, con lanzamientos en los Estados Unidos y Europa en 1997. Fue el primer juego de la serie en presentar una introducción animada CGI e introdujo una nueva \"mascota\", Reiko Nagase.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/rage-racer.svg",
+    alt: "Rage Racer (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Rage Racer: decompilation by khasinski for Windows. Bring your own copy of the game.",
   notesEs: "Rage Racer: decompilación de khasinski para Windows. Aporta tu propia copia del juego.",
 };

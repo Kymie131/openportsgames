@@ -22,6 +22,11 @@ export const _2048Psp: Port = {
   originalSystems: ["Other"],
   summary: "THE ORIGINAL MADE BETTER | 2048 is a classic puzzle with the simple goal of reaching 2048. Move your tiles around the board – When two tiles with the same number touch, they merge into one!",
   summaryEs: "2048 es un videojuego de puzles publicado por LA\\VA en 2018.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/960px-2048_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "2048 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "2048 (Gabriele Cirulli, 2014) running on PlayStation Portable through source port. Latest release: 1.0.0. The original game is free software, so no commercial copy is needed.",
   notesEs: "2048 (Gabriele Cirulli, 2014) en PlayStation Portable mediante port de código. Última release: 1.0.0. El juego original es software libre, así que no hace falta una copia comercial.",
 };

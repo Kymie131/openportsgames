@@ -24,6 +24,11 @@ export const ben10CosmicDestructionRecomp: Port = {
   summary: "Ben 10: Cosmic Destruction is a action-adventure game published by D3 Publisher for Xbox 360, released in 2010.",
   summaryEs: "Ben 10: Cosmic Destruction es un videojuego de acci�n y aventura publicado por D3 Publisher para Xbox 360, lanzado en 2010.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/ben-10-cosmic-destruction.svg",
+    alt: "Ben 10: Cosmic Destruction (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Experimental native Windows port of Ben 10: Cosmic Destruction via ReXGlue. Bring your own supported Xbox 360 copy.",
   notesEs: "Port nativo experimental para Windows de Ben 10: Cosmic Destruction con ReXGlue. Aporta tu copia compatible de Xbox 360.",
 };

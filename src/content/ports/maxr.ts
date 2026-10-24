@@ -23,6 +23,11 @@ export const Maxr: Port = {
   summary: "maxr is a strategy game, released in 2000.",
   summaryEs: "maxr es un videojuego de estrategia, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/maxr.svg",
+    alt: "maxr (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "A turn based strategy game.",
   notesEs: "Un juego de estrategia por turnos.",
 };

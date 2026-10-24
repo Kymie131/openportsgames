@@ -24,6 +24,11 @@ export const sudokulWii: Port = {
   summary: "SuDokuL is a puzzle game published by Homebrew, released in 2026.",
   summaryEs: "SuDokuL es un videojuego de puzles publicado por Homebrew, lanzado en 2026.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/sudokul.svg",
+    alt: "SuDokuL (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "SuDokuL (Homebrew, 2026) running on Wii through source port. Latest release: v1.5. You need your own copy of the game.",
   notesEs: "SuDokuL (Homebrew, 2026) en Wii mediante port de código. Última release: v1.5. Necesitas tu propia copia del juego.",
 };

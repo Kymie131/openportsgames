@@ -23,6 +23,11 @@ export const enrique363Voldorium: Port = {
   originalSystems: ["Unknown"],
   summary: "Soulcalibur is a fighting game franchise developed by Bandai Namco Studios and published by Bandai Namco Entertainment.",
   summaryEs: "Soulcalibur es una serie de videojuego de lucha basados en armas cuerpo a cuerpo con una historia fantástica, de Namco Bandai Games. La serie gira en torno a una espada que, después de años de derramamiento de sangre y odio, obtiene su propia alma, la Soul Edge, y la espada para contrarrestarla, Soul Calibur. La principal particularidad de esta serie es que cada personaje tiene su propia y única arma, y un estilo de lucha variado.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/soulcalibur.svg",
+    alt: "SoulCalibur (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "SoulCalibur: static recompilation by enrique363 for Windows. Bring your own copy of the game.",
   notesEs: "SoulCalibur: recompilación estática de enrique363 para Windows. Aporta tu propia copia del juego.",
 };

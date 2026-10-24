@@ -24,6 +24,11 @@ export const mabecGamesIss2000Recomp: Port = {
   summary: "Mabecs International Superstar Soccer 2000 is a action-adventure game, released in 2000.",
   summaryEs: "Mabecs International Superstar Soccer 2000 es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/mabecs-international-superstar-soccer-2000.svg",
+    alt: "Mabecs International Superstar Soccer 2000 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Mabecs International Superstar Soccer 2000: static recompilation by Mabec-games for Windows, Linux. Bring your own copy of the game.",
   notesEs: "Mabecs International Superstar Soccer 2000: recompilación estática de Mabec-games para Windows, Linux. Aporta tu propia copia del juego.",
 };

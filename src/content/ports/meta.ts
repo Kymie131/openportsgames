@@ -2573,9 +2573,7 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "fuse-recomp": ["Xbox 360"],
   "tony-hawk-proving-ground-recomp": ["Xbox 360"],
   "tekken-tag-tournament-2-recomp-team": ["Xbox 360"],
-  "sin-and-punishment-recomp": ["Nintendo 64"],
   "world-driver-championship-recomp": ["Nintendo 64"],
   "rush-2049-recomp": ["Nintendo 64"],
-  "wayne-gretzky-3d-hockey-recomp": ["Nintendo 64"],
   "gta-2-n64-recomp": ["Nintendo 64"],
 };

@@ -22,6 +22,11 @@ export const AgeOfSpeed2: Port = {
   originalSystems: ["Unknown"],
   summary: "Age of Speed 2 is a racing game.",
   summaryEs: "Age of Speed 2 es un videojuego de carreras de 2009 desarrollado por Silent Bay Studios y publicado por Miniclip para navegador. Es la segunda entrega de la serie Age of Speed.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/age-of-speed-2.svg",
+    alt: "Age of Speed 2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Age of Speed 2 Decompilation.",
   notesEs: "Decompilación de Age of Speed 2.",
 };

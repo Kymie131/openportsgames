@@ -22,6 +22,11 @@ export const Yakuza: Port = {
   originalSystems: ["Unknown"],
   summary: "Yakuza is a 2005 action-adventure game developed and published by Sega for the PlayStation 2. It was released in December 2005 in Japan and in September 2006 internationally. The story follows Kazuma Kiryu, a yakuza who spent ten years in prison for a crime he did not commit. After being released, he learns that the criminal underworld is searching for 10 billion yen that has been stolen from the Tojo clan. The game takes place in Kamurochō, a realistic recreation of Tokyo's Kabukicho district.",
   summaryEs: "Yakuza, conocido en Japón como Ryū ga Gotoku , es un videojuego de acción-aventura. Es el primer videojuego de la saga Yakuza. Fue desarrollado y publicado por Sega en 2005 para PlayStation 2.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Yakuza_franchise_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    alt: "Yakuza (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Yakuza 1 Decompilation.",
   notesEs: "Decompilación de Yakuza 1.",
 };

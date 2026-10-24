@@ -22,6 +22,11 @@ export const unrealAndroid: Port = {
   originalSystems: ["Windows"],
   summary: "Unreal is a 1998 first-person shooter game developed by Epic MegaGames and Digital Extremes and published by GT Interactive for Microsoft Windows. Set in a science-fiction universe, the player controls a prisoner whose prison spacecraft crash-lands on a mysterious planet, where they must find a way to escape while combatting the occupying alien empire. It is the first entry in the Unreal game series and was powered by the titular Unreal Engine. The game reached sales of 1.5 million units by 2002.",
   summaryEs: "Unreal es un videojuego de disparos en primera persona creado por Epic MegaGames, Digital Extremes y publicado por GT Interactive en el año 1998. Dispone de versiones para las plataformas GNU/Linux, Microsoft Windows y Apple Macintosh. Es el origen de la serie de videojuegos Unreal y de su motor Unreal Engine. El motor de juego del Unreal original sería la base de muchos otros juegos de la época. Su expansión, Return to Na Pali, fue lanzada el 1999.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Unreal_Engine_Logo_%28new_typeface%29.svg/960px-Unreal_Engine_Logo_%28new_typeface%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "Unreal (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Port of Unreal (1998, version 200) to Android 8+ (32/64-bit) and the OUYA console, with controller, touchscreen and keyboard/mouse support. You need your own copy of the game. Latest release: v2.2.1 (APK).",
   notesEs: "Port de Unreal (1998, versión 200) a Android 8+ (32/64 bits) y la consola OUYA, con soporte de mando, pantalla táctil y teclado/ratón. Necesitas tu propia copia del juego. Última release: v2.2.1 (APK).",
 };

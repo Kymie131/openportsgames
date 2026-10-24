@@ -23,6 +23,11 @@ export const nikolaygorbGoldeneye007reloadedrecomp: Port = {
   originalSystems: ["Unknown"],
   summary: "GoldenEye 007: Reloaded is a shooter game.",
   summaryEs: "GoldenEye 007: Reloaded es un videojuego de disparos.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/goldeneye-007-reloaded.svg",
+    alt: "GoldenEye 007: Reloaded (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "GoldenEye 007 Reloaded: static recompilation by nikolaygorb for Windows. Bring your own copy of the game.",
   notesEs: "GoldenEye 007 Reloaded: recompilación estática de nikolaygorb para Windows. Aporta tu propia copia del juego.",
 };

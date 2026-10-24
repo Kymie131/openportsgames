@@ -22,6 +22,11 @@ export const Glover: Port = {
   originalSystems: ["Unknown"],
   summary: "Glover is a puzzle-intensive adventure game made up of 6 worlds with 30 different levels. You control a charismatic glove that walks on two fingers, slaps harder than Steve Austin, dribbles faster than Scottie Pippen, and plays with a bouncy rubber ball.",
   summaryEs: "Glover es un videojuego de acción y aventura publicado por Piko Interactive LLC en 2022.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Donald_Glover_TIFF_2015.jpg/960px-Donald_Glover_TIFF_2015.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "Glover (box art)",
+    credit: "Wikipedia",
+  },
   notes: "A Static Recompilation of Glover by ThatGuyMcd.",
   notesEs: "Recompilación estática de Glover por ThatGuyMcd.",
 };

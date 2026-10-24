@@ -33,6 +33,11 @@ export const openLoco: Port = {
   ],
   summary: "Locomotion is a steamy railway puzzler. An alien stole your gold, and you’ve got to chase them into space to get it back. Haul wagons, flick switches, and reclaim your lost gold, through fifty-one increasingly tricky levels from home on the range to the final frontier.",
   summaryEs: "Locomotion es un videojuego de simulación publicado por Polyfox en 2019.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Yellowfin_tuna_nurp.jpg/960px-Yellowfin_tuna_nurp.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "Locomotion (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "Engine reimplementation for Transport Tycoon Deluxe style gameplay. The original game data is required.",
   notesEs:

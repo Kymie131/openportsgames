@@ -24,6 +24,11 @@ export const p96dotDragonAgeOriginsRecomp: Port = {
   originalSystems: ["Xbox 360"],
   summary: "Dragon Age: Origins is a 2009 role-playing video game developed by Canadian studio BioWare and published by Electronic Arts. It is the first game in the Dragon Age franchise. Set in the fictional kingdom of Ferelden during a period of civil strife, the game puts the player in the role of a warrior, mage, or rogue coming from an elven, human, or dwarven background. The player character is recruited into the Grey Wardens, an ancient order that stands against monstrous forces known as \"Darkspawn\", and is tasked with defeating the Archdemon that commands them and ending their invasion.",
   summaryEs: "Dragon Age: Origins conocido popularmente como Dragon Age es un videojuego de rol desarrollado por BioWare y publicado en noviembre de 2009 para Microsoft Windows (PC) y las videoconsolas PlayStation 3 y Xbox 360.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/dragon-age-origins.svg",
+    alt: "Dragon Age: Origins (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Dragon Age: Origins: static recompilation by 96dot for Windows. Bring your own copy of the game.",
   notesEs: "Dragon Age: Origins: recompilación estática de 96dot para Windows. Aporta tu propia copia del juego.",
 };

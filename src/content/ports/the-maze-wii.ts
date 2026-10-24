@@ -22,6 +22,11 @@ export const theMazeWii: Port = {
   originalSystems: ["Other"],
   summary: "Escape an ever-shifting procedural labyrinth. Loot legendary armor, overcome challenges in crafting zones, and survive deadly traps in this fantasy Roguelite. With progressive difficulty and unique enemies, can you find the exit before the Ghost finds you?",
   summaryEs: "The Maze es un videojuego de puzles publicado por Kurjus Games.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4369170/eff8555c1f20064d4b758d06d6faa2a24ab226c0/header.jpg?t=1791840522",
+    alt: "The Maze (Steam header)",
+    credit: "Steam",
+  },
   notes: "The Maze (Winterrowd, 2009) running on Wii through source port. You need your own copy of the game.",
   notesEs: "The Maze (Winterrowd, 2009) en Wii mediante port de código. Necesitas tu propia copia del juego.",
 };

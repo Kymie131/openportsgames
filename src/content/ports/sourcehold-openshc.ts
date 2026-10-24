@@ -24,6 +24,11 @@ export const sourceholdOpenshc: Port = {
   originalSystems: ["Unknown"],
   summary: "Stronghold: Crusader is a 2002 real-time strategy video game developed by Firefly Studios and originally published by Gathering of Developers for Windows. It is a sequel to the 2001 video game Stronghold. Crusader has much in common with the original Stronghold, but differs from its predecessor in the fact that the game is no longer set in Britain, instead being set in the Middle East during the Crusades. Another prominent addition not found in its predecessor is a skirmish mode in single-player, allowing customized battles with AI opponents instead of the linear campaign.",
   summaryEs: "Stronghold: Crusader es el sucesor del juego de Firefly Studios Stronghold (2001). Crusader tiene mucho en común con el Stronghold original, pero se diferencia de su predecesor en el hecho de que el juego ya no se encuentra en una pseudo-Europa, sino que está ambientado en el Oriente medio, durante las Cruzadas. El juego cuenta con varias nuevas unidades de Arabia que se pueden comprar en un edificio nuevo, \"The mercenary post\". Aunque las tropas árabes no requieren recursos para producir, éstas son bastante caras. El juego también fue lanzado como \"Stronghold Warchest\".",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/stronghold-crusader.svg",
+    alt: "Stronghold Crusader (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Stronghold Crusader: engine remake by sourcehold for Windows. Bring your own copy of the game.",
   notesEs: "Stronghold Crusader: recreación de motor de sourcehold para Windows. Aporta tu propia copia del juego.",
 };

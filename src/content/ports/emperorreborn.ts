@@ -23,6 +23,11 @@ export const Emperorreborn: Port = {
   summary: "EmperorReborn is a strategy game, released in 2000.",
   summaryEs: "EmperorReborn es un videojuego de estrategia, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/emperorreborn.svg",
+    alt: "EmperorReborn (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "Play Emperor: Battle for Dune on Windows 10 and 11 with real 16:9 widescreen, fullscreen and working multiplayer. Free, open-source launcher and patcher for the Westwood Dune RTS.",
   notesEs:

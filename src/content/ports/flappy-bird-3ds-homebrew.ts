@@ -23,6 +23,11 @@ export const flappyBird3dsHomebrew: Port = {
   originalSystems: ["Unknown"],
   summary: "Flappy Bird is a 2013 casual mobile game developed by Vietnamese video game artist and programmer Dong Nguyen, under his game development company .Gears. The game is a side-scroller where the player controls a bird, Faby, attempting to fly between columns of green pipes without hitting them. The player's score is determined by the number of pipes they fly through. Nguyen created the game over a period of several days, using the bird from a cancelled game made in 2012.",
   summaryEs: "Flappy Bird fue un juego para móviles desarrollado en Vietnam por el programador vietnamita Dong Nguyeny. Publicado por .GEARS Studios, un pequeño desarrollador de juegos independiente, con sede en Vietnam. El juego fue publicado el 24 de mayo de 2013, y fue eliminado de App Store y Google Play por su creador el 9 de febrero de 2014.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/flappy-bird.svg",
+    alt: "Flappy Bird (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Flappy Bird (Homebrew, 2025) running on Nintendo 3DS through source port. Latest release: v1.1. You need your own copy of the game.",
   notesEs: "Flappy Bird (Homebrew, 2025) en Nintendo 3DS mediante port de código. Última release: v1.1. Necesitas tu propia copia del juego.",
 };

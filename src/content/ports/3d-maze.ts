@@ -22,6 +22,11 @@ export const _3dMaze: Port = {
   originalSystems: ["Unknown"],
   summary: "3D Maze is a action-adventure game in 1982.",
   summaryEs: "3D Maze es un videojuego de acción y aventura en 1982.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3208860/header.jpg?t=1726840684",
+    alt: "3D Maze (Steam header)",
+    credit: "Steam",
+  },
   notes: "A playable version of Microsoft's old 3DMaze screensaver from Windows 9x.",
   notesEs: "Una versión jugable del antiguo salvapantallas 3DMaze de Microsoft para Windows 9x.",
 };

@@ -24,6 +24,11 @@ export const ivanno4317Dw4Gc: Port = {
   originalSystems: ["Nintendo GameCube"],
   summary: "Digimon World 4, known as Digimon World X in Japan, is an action role-playing game for PlayStation 2, GameCube, and Xbox developed by BEC and published by Bandai as part of their Digimon franchise. Unlike previous games in the Digimon World series, it features action-based hack and slash gameplay and supports up to four players. Each player plays as either an Agumon, Veemon, Guilmon, or Dorumon. The game is loosely based on the 2005 Digital Monster X-Evolution film, even using footage from the movie itself. Only the PlayStation 2 version was released in the PAL region.",
   summaryEs: "Digimon World 4 es un videojuego de rol publicado por Bandai Namco Entertainment en 2005.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/digimon-world-4.svg",
+    alt: "Digimon World 4 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Digimon World 4: decompilation by ivanno4317 for Windows. Bring your own copy of the game.",
   notesEs: "Digimon World 4: decompilación de ivanno4317 para Windows. Aporta tu propia copia del juego.",
 };

@@ -24,6 +24,11 @@ export const sp00nznetGta: Port = {
   originalSystems: ["Unknown"],
   summary: "Grand Theft Auto (GTA) is an action-adventure video game series created by David Jones and Mike Dailly. Later titles were developed under the oversight of brothers Dan and Sam Houser, Leslie Benzies and Aaron Garbut. It is primarily developed by British development house Rockstar North, and published by its American parent company, Rockstar Games. The name of the series is a term for motor vehicle theft in the United States.",
   summaryEs: "Grand Theft Auto es una serie de videojuegos de acción y aventura de mundo abierto creado por los británicos David Jones y Mike Dailly. Los títulos posteriores se desarrollaron bajo la supervisión de los hermanos Dan y Sam Houser, Leslie Benzies y Aaron Garbut. Es desarrollado principalmente por la casa de desarrollo británica Rockstar North y publicado por su empresa matriz estadounidense, Rockstar Games. El nombre de la serie es un término para el robo de vehículos de motor en los Estados Unidos.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Grand_Theft_Auto_logo_series.svg/960px-Grand_Theft_Auto_logo_series.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "Grand Theft Auto / GTA: London (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Grand Theft Auto / GTA: London: static recompilation by sp00nznet for Windows. Bring your own copy of the game.",
   notesEs: "Grand Theft Auto / GTA: London: recompilación estática de sp00nznet para Windows. Aporta tu propia copia del juego.",
 };

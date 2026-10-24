@@ -24,6 +24,11 @@ export const nycolazsAcnhrecomp: Port = {
   originalSystems: ["Nintendo Switch"],
   summary: "Animal Crossing: New Horizons is a 2020 social simulation game developed and published by Nintendo for the Nintendo Switch. It is the fifth main installment in the Animal Crossing series, following Animal Crossing: New Leaf. In New Horizons, the player controls a character who moves to a deserted island after purchasing a getaway package from Tom Nook, accomplishes assigned tasks, and develops the island as they choose. They can gather and craft items, customize the island, and develop it into a community of anthropomorphic animals.",
   summaryEs: "Animal Crossing: New Horizons es un videojuego de simulación social desarrollado y publicado por Nintendo para Nintendo Switch, cuya fecha de lanzamiento mundial fue el 20 de marzo de 2020. Es la novena entrega de la saga Animal Crossing y la quinta dentro de los videojuegos principales.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/animal-crossing-new-horizons.svg",
+    alt: "Animal Crossing: New Horizons (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Animal Crossing: New Horizons: static recompilation by Nycolazs for Windows, Linux, macOS. Bring your own copy of the game.",
   notesEs: "Animal Crossing: New Horizons: recompilación estática de Nycolazs para Windows, Linux, macOS. Aporta tu propia copia del juego.",
 };

@@ -23,6 +23,11 @@ export const lesca191204KillzoneShadowfallPc: Port = {
   originalSystems: ["PlayStation 4"],
   summary: "Killzone Shadow Fall is a 2013 first-person shooter video game developed by Guerrilla Games and published by Sony Computer Entertainment for the PlayStation 4. It is the sixth and most recent installment of the Killzone series. Killzone Shadow Fall was released on 15 November 2013 as a launch title for the PlayStation 4 in North America and 29 November 2013 in Europe.",
   summaryEs: "Killzone: Shadow Fall es un videojuego de acción en primera persona, desarrollado por Guerrilla Games y publicado por Sony Computer Entertainment, es un título exclusivo de PlayStation 4. Es el sexto juego en toda la serie Killzone y el cuarto para consolas domésticas.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/killzone-shadow-fall.svg",
+    alt: "Killzone Shadow Fall (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Killzone Shadow Fall: source port by lesca-191204 for Windows. Bring your own copy of the game.",
   notesEs: "Killzone Shadow Fall: source port de lesca-191204 para Windows. Aporta tu propia copia del juego.",
 };

@@ -23,6 +23,11 @@ export const greenswampdwellerTorchlightRekindled: Port = {
   originalSystems: ["Windows", "Xbox 360"],
   summary: "Torchlight is an action role-playing hack and slash dungeon crawler video game developed by Runic Games and published by Perfect World Entertainment. It was originally released for Windows in October 2009. The fantasy-themed game is set in the fictional town of Torchlight and the expansive caverns and dungeons nearby, which adventurers explore to collect valuable loot and battle hordes of monsters. Following the October 2009 digital distribution release, a Windows retail box version was released in the U.S.",
   summaryEs: "Torchlight es un videojuego de rol desarrollado por Runic Games y publicado por Perfect World. Salió a la venta para Microsoft Windows en octubre del 2009. El juego se desarrolla en un mundo fantástico donde existe un pueblo llamado Torchlight que está rodeado por largas cavernas y mazmorras las cuales se recorrerán en busca de aventuras luchando contra monstruos, recolectando oro y equipamiento. Una versión retail fue publicada para Windows en Estados Unidos en junio del 2010 por Encore, Inc, y JoWood Entertainment y luego otra en Europa en abril del mismo año.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/41500/header.jpg?t=1791961309",
+    alt: "Torchlight (Steam header)",
+    credit: "Steam",
+  },
   notes: "Torchlight: engine remake by GreenSwampDweller for Windows. Bring your own copy of the game.",
   notesEs: "Torchlight: recreación de motor de GreenSwampDweller para Windows. Aporta tu propia copia del juego.",
 };

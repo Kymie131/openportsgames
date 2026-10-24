@@ -22,6 +22,11 @@ export const FroggerHesBack: Port = {
   originalSystems: ["PlayStation"],
   summary: "Frogger is a 1981 action video game developed by Konami and published by Sega for arcades. It was released in North America by Sega/Gremlin. The object of the game is to direct five frogs to their homes by dodging traffic on a busy road, then crossing a river by jumping on floating logs, turtles, and alligators.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Sega_-_Gremlin_-_Frogger_-_December_1st_1981_Play_Meter_advert.jpg/960px-Sega_-_Gremlin_-_Frogger_-_December_1st_1981_Play_Meter_advert.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "Frogger: He's Back! (box art)",
+    credit: "Wikipedia",
+  },
   notes:
     "A compileable setup of Frogger 1997 for the Sony PlayStation. A perfect byte-match to the retail version.",
   notesEs:

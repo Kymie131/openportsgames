@@ -24,6 +24,11 @@ export const eucThrillsSnes: Port = {
   summary: "EUC Thrills is a simulation game published by Homebrew, released in 2026.",
   summaryEs: "EUC Thrills es un videojuego de simulaci�n publicado por Homebrew, lanzado en 2026.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/euc-thrills.svg",
+    alt: "EUC Thrills (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "EUC Thrills (Homebrew, 2026) running on snes through source port. Latest release: v1.1. You need your own copy of the game.",
   notesEs: "EUC Thrills (Homebrew, 2026) en snes mediante port de código. Última release: v1.1. Necesitas tu propia copia del juego.",
 };

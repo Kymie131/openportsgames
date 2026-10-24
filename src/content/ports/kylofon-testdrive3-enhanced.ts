@@ -24,6 +24,11 @@ export const kylofonTestdrive3Enhanced: Port = {
   summary: "Test Drive III Enhanced is a action-adventure game, released in 1990.",
   summaryEs: "Test Drive III Enhanced es un videojuego de acci�n y aventura, lanzado en 1990.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/test-drive-iii-enhanced.svg",
+    alt: "Test Drive III Enhanced (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Test Drive III Enhanced: engine remake by kylofon for Windows. Bring your own copy of the game.",
   notesEs: "Test Drive III Enhanced: recreación de motor de kylofon para Windows. Aporta tu propia copia del juego.",
 };

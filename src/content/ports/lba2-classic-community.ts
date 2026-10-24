@@ -23,6 +23,11 @@ export const Lba2ClassicCommunity: Port = {
   summary: "lba2-classic-community is a action-adventure game, released in 2000.",
   summaryEs: "lba2-classic-community es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/lba2-classic-community.svg",
+    alt: "lba2-classic-community (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "Community-maintained source port of the original Little Big Adventure 2 (Twinsen’s Odyssey) engine.",
   notesEs:

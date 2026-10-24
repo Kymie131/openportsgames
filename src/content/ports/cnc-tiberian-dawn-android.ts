@@ -24,6 +24,11 @@ export const cncTiberianDawnAndroid: Port = {
   summary: "Command & Conquer: Tiberian Dawn is a strategy game published by Electronic Arts for Windows, released in 1995.",
   summaryEs: "Command & Conquer: Tiberian Dawn es un videojuego de estrategia publicado por Electronic Arts para Windows, lanzado en 1995.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/command-conquer-tiberian-dawn.svg",
+    alt: "Command & Conquer: Tiberian Dawn (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Unofficial native port of Command & Conquer: Tiberian Dawn for Android, iOS and macOS. Bring your own game assets.",
   notesEs: "Port nativo no oficial de Command & Conquer: Tiberian Dawn para Android, iOS y macOS. Aporta tus propios recursos del juego.",
 };

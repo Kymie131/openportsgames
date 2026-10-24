@@ -24,6 +24,11 @@ export const link4electronicsFlyingdodgem: Port = {
   originalSystems: ["Windows"],
   summary: "Hover! is a video game that combines elements of the games bumper cars and capture the flag. It was included on CD-ROM versions of the Microsoft Windows 95 operating system. It was a showcase for the advanced multimedia capabilities available on personal computers at the time. It was not included with later versions of Windows, but still works on modern Windows. The game will not run on early Windows NT systems or Windows versions prior to Windows 95. It was officially remade in 2013 as a browser game to showcase the WebGL support in Internet Explorer 11.",
   summaryEs: "Hover! es un videojuego que fue incluido en el CD del sistema operativo Microsoft Windows 95. Fue una demostración de las avanzadas capacidades multimedia disponibles en los ordenadores personales de la época. Se puede ejecutar en todos los sistemas operativos de Microsoft, desde Windows 95 hasta Windows 7, no pudiendo ejecutarse en versiones anteriores. El 2 de octubre de 2013, Microsoft relanzó una versión actualizada de Hover!, basado en web y también como aplicación para Windows 8.1.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/hover.svg",
+    alt: "HOVER! (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "HOVER!: decompilation by Link4Electronics for Windows. Bring your own copy of the game.",
   notesEs: "HOVER!: decompilación de Link4Electronics para Windows. Aporta tu propia copia del juego.",
 };

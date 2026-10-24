@@ -24,6 +24,11 @@ export const spoutAndroid: Port = {
   summary: "Spout is a platform game published by Independent for Windows, released in 2011.",
   summaryEs: "Spout es un videojuego de plataformas publicado por Independent para Windows, lanzado en 2011.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/spout.svg",
+    alt: "Spout (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Port of Spout for Android using OpenGL ES, with the original cave-flying and block-drilling gameplay.",
   notesEs: "Port de Spout para Android con OpenGL ES, con la jugabilidad original de volar por cuevas y perforar bloques.",
 };

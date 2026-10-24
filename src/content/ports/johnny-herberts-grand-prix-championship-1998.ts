@@ -24,6 +24,11 @@ export const JohnnyHerbertsGrandPrixChampionship1998: Port = {
   summary: "Johnny Herbert's Grand Prix Championship 1998 is a action-adventure game, released in 1998.",
   summaryEs: "Johnny Herbert's Grand Prix Championship 1998 es un videojuego de acci�n y aventura, lanzado en 1998.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/johnny-herbert-s-grand-prix-championship-1998.svg",
+    alt: "Johnny Herbert's Grand Prix Championship 1998 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Decompilation of Johnny Herbert's Grand Prix Championship 1998 (Other). The upstream repository is no longer available.",
   notesEs: "Decompilación de Johnny Herbert's Grand Prix Championship 1998 (Other). El repositorio original ya no está disponible.",
 };

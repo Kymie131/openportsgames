@@ -23,6 +23,11 @@ export const jokerPokerPsp: Port = {
   originalSystems: ["Unknown"],
   summary: "Joker Poker is a puzzle game.",
   summaryEs: "Joker Poker es un videojuego de puzles.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/joker-poker.svg",
+    alt: "Joker Poker (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Joker Poker (Homebrew, 2025) running on PlayStation Portable through source port. Latest release: v0.40. You need your own copy of the game.",
   notesEs: "Joker Poker (Homebrew, 2025) en PlayStation Portable mediante port de código. Última release: v0.40. Necesitas tu propia copia del juego.",
 };

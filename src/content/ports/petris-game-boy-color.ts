@@ -23,6 +23,11 @@ export const petrisGameBoyColor: Port = {
   originalSystems: ["Unknown"],
   summary: "A new, simple and easy puzzle game you can play forever has finally arrived. It is called Petris.Rotate the shapes, move them right or left and try to create as many lines as you can.Colorful, relaxing game. Playing Petris may improve your cognitive skills.",
   summaryEs: "Petris es un videojuego de puzles publicado por Hot Pizza Games en 2024.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2641060/header.jpg?t=1710516435",
+    alt: "Petris (Steam header)",
+    credit: "Steam",
+  },
   notes: "Petris (Homebrew, 2023) running on gbc through source port. You need your own copy of the game.",
   notesEs: "Petris (Homebrew, 2023) en gbc mediante port de código. Necesitas tu propia copia del juego.",
 };

@@ -23,6 +23,11 @@ export const StarfoxRecomp: Port = {
   summary: "Starfox Recomp is a action-adventure game for Super Nintendo, released in 2000.",
   summaryEs: "Starfox Recomp es un videojuego de acci�n y aventura para Super Nintendo, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/starfox-recomp.svg",
+    alt: "Starfox Recomp (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "Star Fox recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community.",
   notesEs:

@@ -22,6 +22,11 @@ export const openXcomAndroid: Port = {
   originalSystems: ["Unknown"],
   summary: "You are in control of X-COM: an organization formed by the world's governments to fight the ever-increasing alien menace.",
   summaryEs: "XCom: UFO Defense es un videojuego de estrategia publicado por 2K en 2008.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7760/header.jpg?t=1571243544",
+    alt: "XCom: UFO Defense (Steam header)",
+    credit: "Steam",
+  },
   notes: "XCom: UFO Defense (MicroProse, 1994) for Android (source port). Latest release: v0.2. Needs your own copy of the game (Game Files).",
   notesEs: "XCom: UFO Defense (MicroProse, 1994) para Android (port de código). Última release: v0.2. Necesita tu propia copia del juego.",
 };

@@ -24,6 +24,11 @@ export const pocketGameMakerPspEngine: Port = {
   originalSystems: ["Unknown"],
   summary: "The PlayStation Portable (PSP) is a handheld game console developed and marketed by Sony Computer Entertainment. It was first released in Japan on December 12, 2004, in North America on March 24, 2005, and in PAL regions on September 1, 2005, and is the first handheld installment in the PlayStation line of consoles. As a seventh generation console, the PSP mainly competed with the Nintendo DS.",
   summaryEs: "PlayStation Portable (PSP) es una videoconsola portátil de la multinacional japonesa Sony, y la cuarta consola de la compañía en ser diseñada por Ken Kutaragi. Aparte de jugar videojuegos, podía conectarse a internet y reproducir multimedia. Se trata de la primera consola portátil a nivel mundial de Sony y la segunda lanzada en Japón.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/PSP-1000.png/960px-PSP-1000.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "PlayStation Portable (box art)",
+    credit: "Wikipedia",
+  },
   notes: "PlayStation Portable (Sony, 2004) running on PlayStation Portable through source port. Latest release: 0.83. You need your own copy of the game.",
   notesEs: "PlayStation Portable (Sony, 2004) en PlayStation Portable mediante port de código. Última release: 0.83. Necesitas tu propia copia del juego.",
 };

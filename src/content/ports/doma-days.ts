@@ -23,6 +23,11 @@ export const DomaDays: Port = {
   summary: "DOMA Days is a action-adventure game, released in 2000.",
   summaryEs: "DOMA Days es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/doma-days.svg",
+    alt: "DOMA Days (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "A decompilation of the Big Blue Bubble game `DOMA Days` (v1.01).",
   notesEs: "Decompilación del juego de Big Blue Bubble «DOMA Days» (v1.01).",
 };

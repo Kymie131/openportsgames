@@ -23,6 +23,11 @@ export const kylofonTestDrive3Sdl3: Port = {
   originalSystems: ["Unknown"],
   summary: "Test Drive is a series of racing games that were originally published by Accolade until they were bought by Infogrames, which later turned into Atari. The first game was released in 1987 and has since been followed by several sequels and spin-offs, the latest of which was released in 2024 and is the first by Nacon after purchasing the franchise from Atari.",
   summaryEs: "Test Drive es una franquicia de videojuegos de carreras. Originalmente publicado por Accolade, que fue luego comprado por Infogrames, el primer título vio la luz en 1987, y ha sido desde entonces seguido de una corriente de secuelas.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/test-drive-iii.svg",
+    alt: "Test Drive III (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Test Drive III: engine remake by kylofon for Windows. Bring your own copy of the game.",
   notesEs: "Test Drive III: recreación de motor de kylofon para Windows. Aporta tu propia copia del juego.",
 };

@@ -23,6 +23,11 @@ export const Opensc2k: Port = {
   summary: "OpenSC2K is a simulation game, released in 2000.",
   summaryEs: "OpenSC2K es un videojuego de simulaci�n, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/opensc2k.svg",
+    alt: "OpenSC2K (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "OpenSC2K - Open Source remake of Sim City 2000 using rust and godot. Available for macOS, Windows and Linux.",
   notesEs:

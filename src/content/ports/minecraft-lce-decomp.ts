@@ -22,6 +22,11 @@ export const minecraftLceDecomp: Port = {
   originalSystems: ["Nintendo Switch"],
   summary: "From 2012 to 2017, the sandbox video game Minecraft was ported by 4J Studios to multiple seventh and eighth generation video game consoles. These ports have become retroactively known as \"legacy console editions\". These platforms include, in order of release: Xbox 360, PlayStation 3, PlayStation 4, Xbox One, PlayStation Vita, Wii U, and Nintendo Switch.",
   summaryEs: "Minecraft: Nintendo Switch Edition es un videojuego de mundo abierto en 2017.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/minecraft-nintendo-switch-edition.svg",
+    alt: "Minecraft: Nintendo Switch Edition (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Work-in-progress decompilation of Minecraft: Legacy Console Edition (Nintendo Switch Edition v1.0.17). The repository contains no game assets and cannot be used to play the game. Progress was about 11%.",
   notesEs: "Decompilación en curso de Minecraft: Legacy Console Edition (Nintendo Switch Edition v1.0.17). El repositorio no contiene assets del juego y no sirve para jugarlo. Progreso en torno al 11%.",
 };

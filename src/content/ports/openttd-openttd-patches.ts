@@ -22,6 +22,11 @@ export const OpenttdOpenttdPatches: Port = {
   originalSystems: ["Unknown"],
   summary: "OpenTTD is a business simulation game in which players try to earn money by transporting passengers, minerals and goods via road, rail, water and air. It is an open-source remake and expansion of the 1995 Chris Sawyer video game Transport Tycoon Deluxe.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/openttd-openttd-patches.svg",
+    alt: "OpenTTD (OpenTTD-patches) (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "OpenTTD - http://www.openttd.org/ - with additional patches.",
   notesEs: "OpenTTD (openttd.org) con parches adicionales.",
 };

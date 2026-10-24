@@ -23,6 +23,11 @@ export const Mother12Japan: Port = {
   summary: "Mother 1+2 (Japan) is a action-adventure game, released in 2000.",
   summaryEs: "Mother 1+2 (Japan) es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/mother-1-2-japan.svg",
+    alt: "Mother 1+2 (Japan) (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Decompilation of Mother 1+2 (Japan) (Other).",
   notesEs: "Decompilación de Mother 1+2 (Japan) (Other).",
 };

@@ -24,6 +24,11 @@ export const skylandersTrapTeamRecomp: Port = {
   summary: "Skylanders: Trap Team is a action-adventure game published by Activision for Xbox 360, released in 2014.",
   summaryEs: "Skylanders: Trap Team es un videojuego de acci�n y aventura publicado por Activision para Xbox 360, lanzado en 2014.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/skylanders-trap-team.svg",
+    alt: "Skylanders: Trap Team (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Unofficial native Windows port of Skylanders: Trap Team (Xbox 360) via ReXGlue. Bring your own game.",
   notesEs: "Port nativo no oficial para Windows de Skylanders: Trap Team (Xbox 360) con ReXGlue. Aporta tu propio juego.",
 };

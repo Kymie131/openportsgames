@@ -22,6 +22,11 @@ export const Roller: Port = {
   originalSystems: ["Unknown"],
   summary: "Roller Champions is a free-to-play sports video game developed by Ubisoft Montreal and published by Ubisoft. It was released on May 25, 2022 for Microsoft Windows, PlayStation 4 and Xbox One, and for Nintendo Switch on June 21, 2022.",
   summaryEs: "Rock 'n' Roller es un videojuego de tipo arcade realizado por la compañía española de videojuegos Topo Soft en 1988 para los ordenadores de la época Sinclair ZX Spectrum, MSX, Amstrad CPC y PC",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/roller.svg",
+    alt: "Roller (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Reverse engineering and partially re-writing the 1995 game Whiplash/Fatal Racing.",
   notesEs: "Ingeniería inversa y reescritura parcial del juego de 1995 Whiplash/Fatal Racing.",
 };

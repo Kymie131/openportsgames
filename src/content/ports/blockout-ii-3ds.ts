@@ -22,6 +22,11 @@ export const blockoutIi3ds: Port = {
   originalSystems: ["Windows"],
   summary: "BlockOut II is a puzzle game.",
   summaryEs: "BlockOut II es un videojuego de puzles.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/blockout-ii.svg",
+    alt: "BlockOut II (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "BlockOut II (BlockOut II team, 2008) running on Nintendo 3DS through source port. Latest release: blockfall-3ds-v1.0. You need your own copy of the game.",
   notesEs: "BlockOut II (BlockOut II team, 2008) en Nintendo 3DS mediante port de código. Última release: blockfall-3ds-v1.0. Necesitas tu propia copia del juego.",
 };

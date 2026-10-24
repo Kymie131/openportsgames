@@ -22,6 +22,11 @@ export const doom2dGba: Port = {
   originalSystems: ["MS-DOS"],
   summary: "Doom 2D is a shooter game.",
   summaryEs: "Doom 2D es un videojuego de disparos.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/doom-2d.svg",
+    alt: "Doom 2D (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Doom 2D (Homebrew, 1997) running on gba through source port. Latest release: v0.2.0. You need your own copy of the game.",
   notesEs: "Doom 2D (Homebrew, 1997) en gba mediante port de código. Última release: v0.2.0. Necesitas tu propia copia del juego.",
 };

@@ -23,6 +23,11 @@ export const GhostsAndGraves: Port = {
   summary: "Ghosts And Graves is a action-adventure game for Nintendo Entertainment System, released in 2000.",
   summaryEs: "Ghosts And Graves es un videojuego de acci�n y aventura para Nintendo Entertainment System, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/ghosts-and-graves.svg",
+    alt: "Ghosts And Graves (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Ghosts and Graves is a Tents And Trees demake in 6502 assembly for the NES.",
   notesEs: "Ghosts and Graves es un demake de Tents And Trees en ensamblador 6502 para NES.",
 };

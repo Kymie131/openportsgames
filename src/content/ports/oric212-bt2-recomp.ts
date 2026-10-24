@@ -24,6 +24,11 @@ export const oric212Bt2Recomp: Port = {
   originalSystems: ["PlayStation 2"],
   summary: "Dragon Ball Z: Budokai Tenkaichi 2 is a fighting game published by Bandai Namco Entertainment in 2006.",
   summaryEs: "Dragon Ball Z: Budokai Tenkaichi 2 es un videojuego de lucha publicado por Bandai Namco Entertainment en 2006.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/b/bd/DBZBudokailogo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    alt: "Dragon Ball Z: Budokai Tenkaichi 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Dragon Ball Z: Budokai Tenkaichi 2: static recompilation by oric212 for Windows. Bring your own copy of the game.",
   notesEs: "Dragon Ball Z: Budokai Tenkaichi 2: recompilación estática de oric212 para Windows. Aporta tu propia copia del juego.",
 };

@@ -23,6 +23,11 @@ export const Openxwa: Port = {
   summary: "OpenXWA is a action-adventure game, released in 2000.",
   summaryEs: "OpenXWA es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/openxwa.svg",
+    alt: "OpenXWA (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Source port of OpenXWA (Other).",
   notesEs: "Port del código fuente de OpenXWA (Other).",
 };

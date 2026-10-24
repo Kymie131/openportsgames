@@ -24,6 +24,11 @@ export const zeldaretPh: Port = {
   originalSystems: ["Unknown"],
   summary: "The Legend of Zelda: Phantom Hourglass is a 2007 action-adventure game developed and published by Nintendo for the Nintendo DS handheld game console. It is the fourteenth installment in The Legend of Zelda series and the direct sequel to the 2002 GameCube game The Wind Waker. Phantom Hourglass was released worldwide in 2007, with the exception of South Korea in April 2008. It was re-released for the Wii U via the Virtual Console service in the PAL region in November 2015, in North America in May 2016, and in Japan in August 2016.",
   summaryEs: "The Legend of Zelda: Phantom Hourglass es un videojuego de acción-aventura desarrollado por Nintendo Entertainment Analysis and Development, distribuido por Nintendo para la consola portátil Nintendo DS, y lanzado en junio de 2007 en Japón, y en Norteamérica, Australia y Europa en octubre del mismo año. Es el decimocuarto título de la serie de Nintendo The Legend of Zelda y fue lanzado poco después de The Legend of Zelda: Twilight Princess para Wii y antes de The Legend of Zelda: Spirit Tracks para Nintendo DS.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-phantom-hourglass.svg",
+    alt: "The Legend of Zelda: Phantom Hourglass (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "The Legend of Zelda: Phantom Hourglass: decompilation by zeldaret for Windows. Bring your own copy of the game.",
   notesEs: "The Legend of Zelda: Phantom Hourglass: decompilación de zeldaret para Windows. Aporta tu propia copia del juego.",
 };

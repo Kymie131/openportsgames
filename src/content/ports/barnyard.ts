@@ -21,6 +21,11 @@ export const Barnyard: Port = {
   originalSystems: ["Unknown"],
   summary: "Barnyard is a party-oriented adventure game developed by Blue Tongue Entertainment and published by THQ; it is based on the movie of the same name. It was released on August 1, 2006 for GameCube, PlayStation 2, Game Boy Advance, and Microsoft Windows. A Wii version was released on November 30, 2006.",
   summaryEs: "Barnyard es un videojuego de acción y aventura publicado por THQ en 2006.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/barnyard.svg",
+    alt: "Barnyard (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Decompilation of Barnyard the video game and TOSHI 2.0 game engine developed by Blue Tongue Entertainment.",
   notesEs: "Decompilación del videojuego Barnyard y del motor TOSHI 2.0 de Blue Tongue Entertainment.",
 };

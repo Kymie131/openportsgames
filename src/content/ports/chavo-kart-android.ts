@@ -24,6 +24,11 @@ export const chavoKartAndroid: Port = {
   summary: "El Chavo Kart is a racing game published by Slang Studios for Xbox 360, released in 2014.",
   summaryEs: "El Chavo Kart es un videojuego de carreras publicado por Slang Studios para Xbox 360, lanzado en 2014.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/el-chavo-kart.svg",
+    alt: "El Chavo Kart (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Experimental Xbox 360 to Android ARM64 static recompilation of El Chavo Kart with ReXGlue. No game data included.",
   notesEs: "Recompilación estática experimental de El Chavo Kart de Xbox 360 a Android ARM64 con ReXGlue. No incluye datos del juego.",
 };

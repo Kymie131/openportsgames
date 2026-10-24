@@ -23,6 +23,11 @@ export const mango77xMhforever: Port = {
   originalSystems: ["PlayStation Portable"],
   summary: "Monster Hunter Freedom Unite is an action role-playing game developed and published by Capcom for the PlayStation Portable and iOS. It is an expanded version of the original Monster Hunter Freedom 2 and was released on March 27, 2008, in Japan as Monster Hunter Portable 2nd G .",
   summaryEs: "Monster Hunter Freedom Unite, conocido en Japón como Monster Hunter Portable 2nd G, es un videojuego de la serie Monster Hunter, para PlayStation Portable. Se trata de una expansión de Monster Hunter Freedom 2 y fue lanzado al mercado el 27 de marzo de 2008 en Japón, como Monster Hunter 2G. En el Tokyo Game Show de 2008 se anunció que sería lanzado para el resto del mundo como Monster Hunter Freedom Unite en primavera de 2009.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/monster-hunter-freedom-unite.svg",
+    alt: "Monster Hunter Freedom Unite (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Monster Hunter Freedom Unite: static recompilation by Mango77x for Windows. Bring your own copy of the game.",
   notesEs: "Monster Hunter Freedom Unite: recompilación estática de Mango77x para Windows. Aporta tu propia copia del juego.",
 };

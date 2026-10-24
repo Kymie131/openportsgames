@@ -24,6 +24,11 @@ export const bifftannen1DeadSpace2Recomp: Port = {
   originalSystems: ["Xbox 360"],
   summary: "Dead Space 2 is a 2011 survival horror game developed by Visceral Games and published by Electronic Arts. It was released for PlayStation 3, Windows, and Xbox 360 in January. The second mainline entry in the Dead Space series, set on the Titan-based Sprawl space station, follows series protagonist Isaac Clarke as he fights against both an outbreak of the monstrous Necromorphs and debilitating mental illness induced by the alien Markers. Gameplay features Isaac exploring a series of levels, solving puzzles to progress, and finding resources while fighting off Necromorphs.",
   summaryEs: "Dead Space 2 es un videojuego de horror de supervivencia de disparos en tercera persona secuela de Dead Space, desarrollado por Visceral Games y publicado por Electronic Arts para Xbox 360, PC y PlayStation 3. Situado tres años después de los acontecimientos del primer Dead Space, el juego sigue la lucha del protagonista Isaac Clarke contra un nuevo brote de necromorfos en Sprawl, una estación espacial sobre la luna más grande de Saturno, Titán, sin embargo la lucha de Isaac no se limita solamente a detener a los Necromorfos, sino también para salvarse a sí mismo de una demencia mortal.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Dead_Space_logo_%282023%29.svg/960px-Dead_Space_logo_%282023%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "Dead Space 2 (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Dead Space 2: static recompilation by bifftannen1 for Windows. Bring your own copy of the game.",
   notesEs: "Dead Space 2: recompilación estática de bifftannen1 para Windows. Aporta tu propia copia del juego.",
 };

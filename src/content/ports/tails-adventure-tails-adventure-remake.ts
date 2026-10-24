@@ -23,6 +23,11 @@ export const TailsAdventureTailsAdventureRemake: Port = {
   summary: "Tails Adventure (Tails Adventure Remake) is a action-adventure game for Game Gear, released in 2000.",
   summaryEs: "Tails Adventure (Tails Adventure Remake) es un videojuego de acci�n y aventura para Game Gear, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/tails-adventure-tails-adventure-remake.svg",
+    alt: "Tails Adventure (Tails Adventure Remake) (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Tails Adventure remade from the ground up for PC and Android.",
   notesEs: "Tails Adventure rehacido desde cero para PC y Android.",
 };

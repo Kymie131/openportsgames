@@ -23,6 +23,11 @@ export const F15Ii: Port = {
   summary: "F-15 II is a action-adventure game for MS-DOS, released in 2000.",
   summaryEs: "F-15 II es un videojuego de acci�n y aventura para MS-DOS, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/f-15-ii.svg",
+    alt: "F-15 II (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Reconstructed source code for the Microprose game F-15 Strike Eagle 2 for MS-DOS.",
   notesEs: "Reconstrucción del código fuente de F-15 Strike Eagle 2 de MicroProse para MS-DOS.",
 };

@@ -22,6 +22,11 @@ export const ClubPenguinWaddleForever: Port = {
   originalSystems: ["Unknown"],
   summary: "Club Penguin was a massively multiplayer online game (MMO) that ran from 2005 to 2017. The game featured a virtual world that included a wide range of online games and activities. It was created by New Horizon Interactive. Players used cartoon penguin avatars and played in an Antarctic-themed open world. After beta-testing, Club Penguin was available for the general public on October 24, 2005. It expanded into a large online community, such that by late 2007, Club Penguin reported that there were more than 30 million user accounts.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/club-penguin-waddle-forever.svg",
+    alt: "Club Penguin (Waddle Forever) (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Singleplayer and playable digital archive version of Club Penguin.",
   notesEs: "Archivo digital de Club Penguin, jugable en solitario.",
 };

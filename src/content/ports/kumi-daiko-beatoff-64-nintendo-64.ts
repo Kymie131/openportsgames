@@ -24,6 +24,11 @@ export const kumiDaikoBeatoff64Nintendo64: Port = {
   summary: "Kumi-Daiko Beatoff 64 is a fighting game published by Homebrew, released in 2020.",
   summaryEs: "Kumi-Daiko Beatoff 64 es un videojuego de lucha publicado por Homebrew, lanzado en 2020.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/kumi-daiko-beatoff-64.svg",
+    alt: "Kumi-Daiko Beatoff 64 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Kumi-Daiko Beatoff 64 (Homebrew, 2020) running on n64 through source port. Latest release: 1.0. You need your own copy of the game.",
   notesEs: "Kumi-Daiko Beatoff 64 (Homebrew, 2020) en n64 mediante port de código. Última release: 1.0. Necesitas tu propia copia del juego.",
 };

@@ -22,6 +22,11 @@ export const ZoneOfTheEnders1: Port = {
   originalSystems: ["Unknown"],
   summary: "Zone of the Enders is a video game franchise created by Hideo Kojima and Konami that focuses around combat in space with mecha called Orbital Frames. The original Zone of the Enders was released for the PlayStation 2 in March 2001. A sequel, Zone of the Enders: The 2nd Runner was released for the same system in 2003. In 2012, the two games were re-released in high-definition for the PlayStation 3 and Xbox 360 as Zone of the Enders HD Collection. Zone of the Enders: The Fist of Mars was released for Game Boy Advance in 2001.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/zone-of-the-enders-1.svg",
+    alt: "Zone of the Enders 1 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Decompilation of Zone of the Enders, in progress.",
   notesEs: "Decompilación de Zone of the Enders, en desarrollo.",
 };

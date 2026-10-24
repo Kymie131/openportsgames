@@ -22,6 +22,11 @@ export const moonPc: Port = {
   originalSystems: ["Nintendo DS"],
   summary: "Moon is a 2009 first-person shooter video game developed by Renegade Kid for the Nintendo DS. It was originally released in North America on January 13, 2009 by Mastiff and in Europe on June 3, 2009 by Gamebridge. An episodic remake and expansion titled Moon Chronicles was released by Renegade Kid for the Nintendo 3DS in 2014.",
   summaryEs: "Moon Cresta es un videojuego matamarcianos creado en 1980 por la empresa japonesa Nichibutsu.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/moon.svg",
+    alt: "Moon (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Moon (Mastiff, 2009) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Moon (Mastiff, 2009) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

@@ -23,6 +23,11 @@ export const Ps2Osdsys: Port = {
   summary: "PS2 OSDSYS is a action-adventure game for PlayStation 2, released in 2000.",
   summaryEs: "PS2 OSDSYS es un videojuego de acci�n y aventura para PlayStation 2, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/ps2-osdsys.svg",
+    alt: "PS2 OSDSYS (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "The PS2 OSDSYS (Crystal Clock, menus, opening, Browser) reimplemented natively in C++26 and Vulkan, bit-faithful to the console.",
   notesEs:

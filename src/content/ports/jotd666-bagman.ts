@@ -25,6 +25,11 @@ export const jotd666Bagman: Port = {
   summary: "Bagman (bagman (arcade -> 68k transcode)) is a action-adventure game, released in 1982.",
   summaryEs: "Bagman (bagman (arcade -> 68k transcode)) es un videojuego de acci�n y aventura, lanzado en 1982.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/bagman-bagman-arcade-68k-transcode.svg",
+    alt: "Bagman (bagman (arcade -> 68k transcode)) (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Bagman (bagman (arcade -> 68k transcode)): engine remake by jotd666 for Windows. Bring your own copy of the game.",
   notesEs: "Bagman (bagman (arcade -> 68k transcode)): recreación de motor de jotd666 para Windows. Aporta tu propia copia del juego.",
 };

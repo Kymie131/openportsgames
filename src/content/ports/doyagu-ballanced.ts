@@ -23,6 +23,11 @@ export const doyaguBallanced: Port = {
   originalSystems: ["Unknown"],
   summary: "Ballance is a 3D puzzle video game for Microsoft Windows. It was developed by German studio Cyparade, published by Atari Europe, and first released in Europe on 2 April 2004. The gameplay is similar to Marble Madness, in that the player controls a ball via keyboard, moving it along a course while trying not to fall off the screen.",
   summaryEs: "Ballance es un videojuego de rompecabezas por niveles, desarrollado por Cyparade en abril de 2004 para PC.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000770/header.jpg?t=1704463128",
+    alt: "Ballance (Steam header)",
+    credit: "Steam",
+  },
   notes: "Ballance: decompilation by doyaGu for Windows. Bring your own copy of the game.",
   notesEs: "Ballance: decompilación de doyaGu para Windows. Aporta tu propia copia del juego.",
 };

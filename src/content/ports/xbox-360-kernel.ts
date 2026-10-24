@@ -21,6 +21,11 @@ export const Xbox360Kernel: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://openportsgames.com/covers/generated/xbox-360-kernel.svg",
+    alt: "Xbox 360 Kernel (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Xbox 360 Kernel decompilation.",
   notesEs: "Decompilación del kernel de Xbox 360.",
 };

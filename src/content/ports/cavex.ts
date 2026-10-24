@@ -24,6 +24,11 @@ export const cavex: Port = {
   summary: "CaveX is a simulation game published by xtreme8000, released in 2025.",
   summaryEs: "CaveX es un videojuego de simulaci�n publicado por xtreme8000, lanzado en 2025.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/cavex.svg",
+    alt: "CaveX (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "CaveX is a Wii homebrew recreation of Minecraft Beta 1.7.3 with world generation, crafting and survival. It runs on original hardware and in emulators.",
   notesEs:

@@ -23,6 +23,11 @@ export const sonsegajpHwder: Port = {
   originalSystems: ["Nintendo Switch"],
   summary: "Hyrule Warriors: Definitive Edition is a action-adventure game published by Nintendo in 2018.",
   summaryEs: "Hyrule Warriors: Definitive Edition es un videojuego de acción y aventura publicado por Nintendo en 2018.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/hyrule-warriors-definitive-edition.svg",
+    alt: "Hyrule Warriors: Definitive Edition (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Hyrule Warriors: Definitive Edition: static recompilation by sonsegajp for Windows. Bring your own copy of the game.",
   notesEs: "Hyrule Warriors: Definitive Edition: recompilación estática de sonsegajp para Windows. Aporta tu propia copia del juego.",
 };

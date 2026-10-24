@@ -23,6 +23,11 @@ export const Vf1Recomp: Port = {
   summary: "vf1 recomp is a shooter game, released in 1993.",
   summaryEs: "vf1 recomp es un videojuego de disparos, lanzado en 1993.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/vf1-recomp.svg",
+    alt: "vf1 recomp (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "Virtua Fighter (Sega Model 1, 1993) statically recompiled for Mac, Windows and Steam Deck: up to 6x, widescreen, smooth 120 fps. Bring your own vf.zip.",
   notesEs:

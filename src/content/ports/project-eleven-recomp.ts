@@ -24,6 +24,11 @@ export const projectElevenRecomp: Port = {
   summary: "11eyes CrossOver is a action-adventure game published by 5pb. for Xbox 360, released in 2009.",
   summaryEs: "11eyes CrossOver es un videojuego de acci�n y aventura publicado por 5pb. para Xbox 360, lanzado en 2009.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/11eyes-crossover.svg",
+    alt: "11eyes CrossOver (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Native PC recompilation of the Xbox 360 version of 11eyes CrossOver using ReXGlue. You must build it yourself with your legally owned game files. Latest tag: windows-rex-v0.10.",
   notesEs: "Recompilación nativa para PC de la versión de Xbox 360 de 11eyes CrossOver usando ReXGlue. Hay que compilarla con tus propios archivos legales del juego. Último tag: windows-rex-v0.10.",
 };

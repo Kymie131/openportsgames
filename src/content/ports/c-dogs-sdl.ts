@@ -22,6 +22,11 @@ export const CDogsSdl: Port = {
   originalSystems: ["Unknown"],
   summary: "C-Dogs, the sequel to Cyberdogs, is a shoot 'em up video game where players work cooperatively during missions and against each other in \"dogfight\" deathmatch mode.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/8/8d/Cdogslogo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    alt: "C-Dogs SDL (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Classic overhead run-and-gun game.",
   notesEs: "Clásico juego de acción con vista cenital.",
 };

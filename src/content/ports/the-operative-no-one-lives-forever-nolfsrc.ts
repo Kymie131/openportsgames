@@ -23,6 +23,11 @@ export const TheOperativeNoOneLivesForeverNolfsrc: Port = {
   summary: "The Operative: No One Lives Forever (nolfsrc) is a action-adventure game, released in 2000.",
   summaryEs: "The Operative: No One Lives Forever (nolfsrc) es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-operative-no-one-lives-forever-nolfsrc.svg",
+    alt: "The Operative: No One Lives Forever (nolfsrc) (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Source code reconstruction of The Operative: No One Lives Forever.",
   notesEs: "Reconstrucción del código fuente de The Operative: No One Lives Forever.",
 };

@@ -24,6 +24,11 @@ export const skylandersSwapForceRecomp: Port = {
   summary: "Skylanders: Swap Force is a action-adventure game published by Activision for Xbox 360, released in 2013.",
   summaryEs: "Skylanders: Swap Force es un videojuego de acci�n y aventura publicado por Activision para Xbox 360, lanzado en 2013.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/skylanders-swap-force.svg",
+    alt: "Skylanders: Swap Force (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Unofficial native Windows port of Skylanders: Swap Force (Xbox 360) via ReXGlue. Bring your own game.",
   notesEs: "Port nativo no oficial para Windows de Skylanders: Swap Force (Xbox 360) con ReXGlue. Aporta tu propio juego.",
 };

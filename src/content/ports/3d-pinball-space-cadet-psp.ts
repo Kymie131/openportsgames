@@ -23,6 +23,11 @@ export const _3dPinballSpaceCadetPsp: Port = {
   summary: "3D Pinball for Windows is a puzzle game published by Microsoft for Windows, released in 1995.",
   summaryEs: "3D Pinball for Windows es un videojuego de puzles publicado por Microsoft para Windows, lanzado en 1995.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/3d-pinball-for-windows.svg",
+    alt: "3D Pinball for Windows (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "3D Pinball for Windows (Microsoft, 1995) running on PlayStation Portable through source port. Latest release: v1.0.2. You need your own copy of the game.",
   notesEs: "3D Pinball for Windows (Microsoft, 1995) en PlayStation Portable mediante port de código. Última release: v1.0.2. Necesitas tu propia copia del juego.",
 };

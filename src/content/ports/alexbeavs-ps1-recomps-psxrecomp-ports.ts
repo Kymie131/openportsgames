@@ -23,6 +23,11 @@ export const AlexbeavsPs1RecompsPsxrecompPorts: Port = {
   summary: "Alexbeav's PS1 recomps (psxrecomp-ports) is a action-adventure game for PlayStation, released in 2000.",
   summaryEs: "Alexbeav's PS1 recomps (psxrecomp-ports) es un videojuego de acci�n y aventura para PlayStation, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/alexbeav-s-ps1-recomps-psxrecomp-ports.svg",
+    alt: "Alexbeav's PS1 recomps (psxrecomp-ports) (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Unofficial noncommercial PlayStation recompilation releases.",
   notesEs: "Publicaciones de recompilación de PlayStation no oficiales y sin ánimo de lucro.",
 };

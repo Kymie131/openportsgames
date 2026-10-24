@@ -24,6 +24,11 @@ export const guardaConLasGbcGameBoyColor: Port = {
   summary: "Guarda con las GBC is a action-adventure game published by Homebrew, released in 2023.",
   summaryEs: "Guarda con las GBC es un videojuego de acci�n y aventura publicado por Homebrew, lanzado en 2023.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/guarda-con-las-gbc.svg",
+    alt: "Guarda con las GBC (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Guarda con las GBC (Homebrew, 2023) running on gbc through source port. Latest release: 1.0.0. You need your own copy of the game.",
   notesEs: "Guarda con las GBC (Homebrew, 2023) en gbc mediante port de código. Última release: 1.0.0. Necesitas tu propia copia del juego.",
 };

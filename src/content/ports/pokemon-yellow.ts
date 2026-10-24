@@ -22,6 +22,11 @@ export const PokemonYellow: Port = {
   originalSystems: ["Unknown"],
   summary: "Pokémon Red Version and Pokémon Blue Version are popular 1996 role-playing video games (RPGs) developed by Game Freak and published by Nintendo for the Game Boy. They are the first installments of the Pokémon video game series and were first released in Japan as Pocket Monsters Red and Pocket Monsters Green, followed by the special edition Pocket Monsters Blue later that year.",
   summaryEs: "Pokémon Yellow: Special Pikachu Edition, conocido en Japón como: Pocket Monsters Pikachu , es la tercera edición de los primeros videojuegos de Pokémon del género RPG para Game Boy. Es muy similar a Pokémon Red y Blue. Fue lanzado el 12 de septiembre de 1998 en Japón, y conocido como Pocket Monsters: Pikachu, sin utilizar el color amarillo como identificativo. Popularmente es conocido como \"Pokémon Show\" por basarse algo más a la serie de televisión, que salió después de los primeros videojuegos.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/pokemon-yellow.svg",
+    alt: "Pokemon Yellow (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Disassembly of Pokemon Yellow.",
   notesEs: "Desensamblado de Pokémon Yellow.",
 };

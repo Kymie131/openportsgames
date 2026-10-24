@@ -23,6 +23,11 @@ export const TheItalianJob: Port = {
   originalSystems: ["Unknown"],
   summary: "The Italian Job is a racing video game released in 2003 developed by Climax Brighton and published by Eidos Interactive. The game is based on the 2003 film of the same name. The game features a story mode based on the movie and a multiplayer mode where the player drives Minis through several different circuits in Hollywood and LA. The Windows version was planned, but was cancelled.",
   summaryEs: "The Italian Job es un videojuego de acción y aventura publicado por Eidos Interactive en 2003.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-italian-job.svg",
+    alt: "The Italian Job (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "A work-in-progress non-matching decompilation of The Italian Job (2001) video game.",
   notesEs: "Decompilación no exacta del videojuego The Italian Job (2001), en desarrollo.",
 };

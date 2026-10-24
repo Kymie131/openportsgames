@@ -24,6 +24,11 @@ export const denziGhCrashwocDecompPs2: Port = {
   originalSystems: ["PlayStation 2"],
   summary: "Crash Bandicoot: The Wrath of Cortex is a 2001 platform game developed by Traveller's Tales and published by Universal Interactive for the PlayStation 2, Xbox, and GameCube. It was first released for the PlayStation 2 in late 2001, and for the Xbox in April 2002; it was later ported to the GameCube by Eurocom Entertainment Software and was released in late 2002. It is the fourth main installment and the sixth overall in the Crash Bandicoot video game series, being the first of the series to not be released solely for a PlayStation console.",
   summaryEs: "Crash Bandicoot: The Wrath of Cortex es un videojuego de plataformas desarrollado por Traveller's Tales y publicado por Universal Interactive Studios. Se lanzó por primera vez para PlayStation 2 y luego se trasladó a Xbox y GameCube, y Eurocom desarrolló la versión de GameCube. Es la cuarta entrega principal y la sexta en general de la serie de videojuegos Crash Bandicoot, siendo la primera de la serie que no se lanza únicamente para una consola PlayStation.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/crash-bandicoot-the-wrath-of-cortex.svg",
+    alt: "Crash Bandicoot: The Wrath of Cortex (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Crash Bandicoot: The Wrath of Cortex: decompilation by denzi-gh for Windows. Bring your own copy of the game.",
   notesEs: "Crash Bandicoot: The Wrath of Cortex: decompilación de denzi-gh para Windows. Aporta tu propia copia del juego.",
 };

@@ -24,6 +24,11 @@ export const arnautdanielOpenhuey: Port = {
   originalSystems: ["PlayStation 2"],
   summary: "Haunting Ground is a 2005 survival horror video game developed and published by Capcom for the PlayStation 2. The story follows Fiona Belli, a young woman who wakes up in the dungeon of a castle after being involved in a car accident. The player controls Fiona as she befriends a White Shepherd, Hewie, and explores the castle with his aid to seek a means of escape and unravel the mysteries of it and its inhabitants. The game shares many similarities with Capcom's earlier survival horror title Clock Tower 3, and has been described as a spiritual successor to the Clock Tower series.",
   summaryEs: "Haunting Ground, conocido en Japón como Demento (デメント) y que podría ser traducido al español como Tierra de Tormentos, es un videojuego de terror en tercera persona, desarrollado por el Estudio de Producción 1 de Capcom y publicado por Capcom para la consola de videojuegos PS2 en 2005.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/haunting-ground.svg",
+    alt: "Haunting Ground (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Haunting Ground: decompilation by ArnautDaniel for Windows. Bring your own copy of the game.",
   notesEs: "Haunting Ground: decompilación de ArnautDaniel para Windows. Aporta tu propia copia del juego.",
 };

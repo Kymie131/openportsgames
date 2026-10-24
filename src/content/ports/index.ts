@@ -1936,10 +1936,8 @@ import { ben10CosmicDestructionRecomp } from "./ben-10-cosmic-destruction-recomp
 import { fuseRecomp } from "./fuse-recomp";
 import { tonyHawkProvingGroundRecomp } from "./tony-hawk-proving-ground-recomp";
 import { tekkenTagTournament2RecompTeam } from "./tekken-tag-tournament-2-recomp-team";
-import { sinAndPunishmentRecomp } from "./sin-and-punishment-recomp";
 import { worldDriverChampionshipRecomp } from "./world-driver-championship-recomp";
 import { rush2049Recomp } from "./rush-2049-recomp";
-import { wayneGretzky3dHockeyRecomp } from "./wayne-gretzky-3d-hockey-recomp";
 import { gta2N64Recomp } from "./gta-2-n64-recomp";
 import { sm64plus } from "./sm64plus";
 import { smaRemasteredAndroid } from "./sma-remastered-android";
@@ -5151,9 +5149,7 @@ export const portCases: Port[] = [
   fuseRecomp,
   tonyHawkProvingGroundRecomp,
   tekkenTagTournament2RecompTeam,
-  sinAndPunishmentRecomp,
   worldDriverChampionshipRecomp,
   rush2049Recomp,
-  wayneGretzky3dHockeyRecomp,
   gta2N64Recomp,
 ];

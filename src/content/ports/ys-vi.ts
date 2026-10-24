@@ -22,6 +22,11 @@ export const YsVi: Port = {
   originalSystems: ["Unknown"],
   summary: "Ys VI: The Ark of Napishtim is a 2003 action role-playing game developed by Nihon Falcom. It was first released for Windows before being ported by Konami to the PlayStation 2 in 2005 and the PlayStation Portable in 2006.",
   summaryEs: "Ys: The Ark of Napishtim es un videojuego de acción RPG japonés, desarrollado y publicado por Nihon Falcom Corporation. Es la sexta entrega de la serie de videojuegos Ys, y fue lanzada por primera vez en 2003 para la plataforma Windows y posteriormente el 2015 en un lanzamiento mundial por parte de Xseed Games. El juego fue llevado en 2005 a PlayStation 2 y en 2006 a PlayStation Portable, estos dos últimos por Konami y en un lanzamiento mundial. Es una de las primeras instalaciones en contener .ogg como formato de audio. [cita requerida]",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/ys-vi.svg",
+    alt: "Ys VI (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Exploration of Ys VI DX8 on Steam using Ghidra.",
   notesEs: "Exploración de Ys VI DX8 en Steam con Ghidra.",
 };

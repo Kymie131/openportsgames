@@ -22,6 +22,11 @@ export const DisneyPigletsBigGame: Port = {
   originalSystems: ["Unknown"],
   summary: "Disney's Piglet's Big Game is a 2003 action-adventure game developed by French developer Doki Denki Studio. Intended towards younger audiences, the game is based on the Disney version of the Winnie the Pooh franchise. The game is loosely based on Piglet's Big Movie, and centers around Piglet and how he tries to overcome his fears.",
   summaryEs: "Disney's Piglet's Big Game es un videojuego de acción y aventuras de 2003 desarrollado por el desarrollador francés Doki Denki Studio. El juego se centra en Piglet y en cómo intenta superar sus miedos. El juego está basado libremente en La gran película de Piglet.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/disney-piglet-s-big-game.svg",
+    alt: "Disney Piglet's Big Game (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Decompilation of Piglet's Big Game (GC).",
   notesEs: "Decompilación de Piglet's Big Game (GC).",
 };

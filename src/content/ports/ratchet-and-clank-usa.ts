@@ -23,6 +23,11 @@ export const RatchetAndClankUsa: Port = {
   summary: "Ratchet & Clank (USA) is a action-adventure game, released in 2002.",
   summaryEs: "Ratchet & Clank (USA) es un videojuego de acci�n y aventura, lanzado en 2002.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/ratchet-clank-usa.svg",
+    alt: "Ratchet & Clank (USA) (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Preserving Ratchet & Clank (2002) through decompilation.",
   notesEs: "Preservación de Ratchet & Clank (2002) mediante decompilación.",
 };

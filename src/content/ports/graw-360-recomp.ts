@@ -24,6 +24,11 @@ export const graw360Recomp: Port = {
   summary: "Tom Clancy's Ghost Recon Advanced Warfighter is a shooter game published by Ubisoft for Xbox 360, released in 2006.",
   summaryEs: "Tom Clancy's Ghost Recon Advanced Warfighter es un videojuego de disparos publicado por Ubisoft para Xbox 360, lanzado en 2006.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/tom-clancy-s-ghost-recon-advanced-warfighter.svg",
+    alt: "Tom Clancy's Ghost Recon Advanced Warfighter (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Xbox 360 Ghost Recon Advanced Warfighter statically recompiled to native PC. It reaches the start screen; bring your own disc.",
   notesEs: "Ghost Recon Advanced Warfighter de Xbox 360 recompilado estáticamente a PC nativo. Llega a la pantalla de inicio; aporta tu propio disco.",
 };

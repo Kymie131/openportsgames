@@ -24,6 +24,11 @@ export const akiClubVpw2: Port = {
   originalSystems: ["Nintendo 64"],
   summary: "Virtual Pro Wrestling 2: Ōdō Keishō is a professional wrestling video game released in 2000 for the Nintendo 64. The game was only released in Japan and is the sequel to 1997's Virtual Pro Wrestling 64. The subtitle, Ōdō Keishō, translates to English as Royal Road Succession, which is also the name of the game's single player mode.",
   summaryEs: "Virtual Pro Wrestling 2: Ōdō Keishō es un videojuego de acción y aventura publicado por Asmik Ace Entertainment en 2000.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/virtual-pro-wrestling-2-odo-keisho.svg",
+    alt: "Virtual Pro Wrestling 2: Ōdō Keishō (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Virtual Pro Wrestling 2: Ōdō Keishō: decompilation by AKI-Club for Windows. Bring your own copy of the game.",
   notesEs: "Virtual Pro Wrestling 2: Ōdō Keishō: decompilación de AKI-Club para Windows. Aporta tu propia copia del juego.",
 };

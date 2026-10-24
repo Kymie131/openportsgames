@@ -23,6 +23,11 @@ export const StarWarsEpisode1Racer: Port = {
   summary: "Star Wars Episode 1: Racer is a action-adventure game, released in 2000.",
   summaryEs: "Star Wars Episode 1: Racer es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/star-wars-episode-1-racer.svg",
+    alt: "Star Wars Episode 1: Racer (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Star Wars Episode 1 Racer Decompilation project.",
   notesEs: "Proyecto de decompilación de Star Wars Episode I: Racer.",
 };

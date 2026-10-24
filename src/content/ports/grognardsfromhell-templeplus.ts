@@ -23,6 +23,11 @@ export const grognardsfromhellTempleplus: Port = {
   originalSystems: ["Unknown"],
   summary: "The Temple of Elemental Evil is a 2003 role-playing video game by Troika Games. It is a remake of the classic Dungeons & Dragons adventure The Temple of Elemental Evil using the 3.5 edition rules. This is the only computer role-playing game to take place in the Greyhawk campaign setting, and the first video game to implement the 3.5 edition rule set. The game was published by Atari, who then held the interactive rights of the Dungeons & Dragons franchise.",
   summaryEs: "The Temple of Elemental Evil es un videojuego de estilo Juego de rol de 2003 hecho por Troika Games. Es un remake de la aventura del clásico Dungeons & Dragons del mismo título que utiliza las reglas de la edición 3.5. Este es el único videojuego que tiene lugar en el escenario de campaña Greyhawk, y el primer videojuego en implementar el conjunto de reglas de la edición 3.5. El juego fue publicado por Atari, quién entonces tenía los derechos interactivos de la franquicia Dungeons & Dragons.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3843520/d6fda3130d6c48cade2a18bc34b457e3461da727/header.jpg?t=1778148541",
+    alt: "The Temple of Elemental Evil (Steam header)",
+    credit: "Steam",
+  },
   notes: "The Temple of Elemental Evil: decompilation by GrognardsFromHell for Windows. Bring your own copy of the game.",
   notesEs: "The Temple of Elemental Evil: decompilación de GrognardsFromHell para Windows. Aporta tu propia copia del juego.",
 };

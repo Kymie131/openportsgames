@@ -23,6 +23,11 @@ export const Hopmon: Port = {
   summary: "Hopmon is a platform game, released in 2000.",
   summaryEs: "Hopmon es un videojuego de plataformas, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/hopmon.svg",
+    alt: "Hopmon (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Cross-platform Hopmon decompilation/reimplementation.",
   notesEs: "Decompilación/reimplementación multiplataforma de Hopmon.",
 };

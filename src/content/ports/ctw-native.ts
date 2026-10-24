@@ -24,6 +24,11 @@ export const CtwNative: Port = {
   summary: "CTW-Native is a open-world game, released in 2000.",
   summaryEs: "CTW-Native es un videojuego de mundo abierto, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/ctw-native.svg",
+    alt: "CTW-Native (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Bringing GTA: Chinatown Wars to native PC with your own game files.",
   notesEs: "Lleva GTA: Chinatown Wars a PC nativo con tus propios archivos del juego.",
 };

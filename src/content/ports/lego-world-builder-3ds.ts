@@ -22,6 +22,11 @@ export const legoWorldBuilder3ds: Port = {
   originalSystems: ["Other"],
   summary: "Lego is a brand of plastic construction toys manufactured by the Lego Group, a privately held company based in Billund, Denmark. Lego consists of variously coloured interlocking plastic bricks made of acrylonitrile butadiene styrene (ABS) that accompany an array of gears, figurines called minifigures, and various other parts. Its pieces can be assembled and connected in many ways to construct objects, including vehicles, buildings, and working robots. Assembled Lego models can be taken apart, and their pieces can be reused to create new constructions.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/lego-world-builder.svg",
+    alt: "LEGO World Builder (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "LEGO World Builder (Gamelab, 2002) running on Nintendo 3DS through source port. Latest release: v1.0.0. You need your own copy of the game.",
   notesEs: "LEGO World Builder (Gamelab, 2002) en Nintendo 3DS mediante port de código. Última release: v1.0.0. Necesitas tu propia copia del juego.",
 };

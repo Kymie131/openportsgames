@@ -24,6 +24,11 @@ export const tobuTobuGirlDxGameBoyColor: Port = {
   summary: "Tobu Tobu Girl is a platform game published by Homebrew, released in 2018.",
   summaryEs: "Tobu Tobu Girl es un videojuego de plataformas publicado por Homebrew, lanzado en 2018.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/tobu-tobu-girl.svg",
+    alt: "Tobu Tobu Girl (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Tobu Tobu Girl (Homebrew, 2018) running on gb and gbc through source port. You need your own copy of the game.",
   notesEs: "Tobu Tobu Girl (Homebrew, 2018) en gb and gbc mediante port de código. Necesitas tu propia copia del juego.",
 };

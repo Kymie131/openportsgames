@@ -22,6 +22,11 @@ export const SuperMario3dLand: Port = {
   originalSystems: ["Unknown"],
   summary: "Super Mario 3D Land is a 2011 platform game developed and published by Nintendo for the Nintendo 3DS. It was released worldwide in November 2011 as the first Mario game to be released for the system. It combines elements from both traditional 2D side-scrolling games and modern free-roaming 3D games in the Super Mario series. It also introduces new additional gameplay mechanics and power-ups. The main story is similar to previous installments, centering on Mario's efforts to rescue Princess Peach, who has been kidnapped by Bowser.",
   summaryEs: "Super Mario 3D Land es un videojuego de plataformas desarrollado y distribuido por Nintendo para la Nintendo 3DS. Salió a la venta en todo el mundo en noviembre de 2011 como el primer juego de Mario para esta consola. Combina elementos de las entregas tradicionales de desplazamiento lateral en 2D y los modernos en 3D con libertad de movimiento de la serie Super Mario. También introduce nuevas mecánicas y potenciadores adicionales.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/super-mario-3d-land.svg",
+    alt: "Super Mario 3D Land (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Super Mario 3D Land EU Decompilation.",
   notesEs: "Decompilación de Super Mario 3D Land (EU).",
 };

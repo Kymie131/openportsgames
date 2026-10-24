@@ -23,6 +23,11 @@ export const wargusWar1gus: Port = {
   originalSystems: ["Unknown"],
   summary: "Warcraft: Orcs & Humans is a real-time strategy game (RTS) developed and published by Blizzard Entertainment, and published by Interplay Productions in Europe. It was released for MS-DOS in North America on November 15, 1994, and for Mac OS in early 1996. The MS-DOS version was re-released by Sold-Out Software in 2002. It is the first game in the Warcraft fantasy game franchise.",
   summaryEs: "Warcraft: Orcs & Humans™ es un videojuego de estrategia creado por Blizzard Entertainment para PC. Es de los primeros juegos del género de estrategia en tiempo real o RTS. Warcraft: Orcs & Humans inicia la serie Warcraft y ocurre en un ambiente épico medieval donde los humanos del reino mítico de Azeroth enfrentan a los orcos invasores entre otras criaturas fantásticas.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/warcraft-orcs-humans.svg",
+    alt: "Warcraft: Orcs & Humans (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Warcraft: Orcs & Humans: engine remake by Wargus for Windows. Bring your own copy of the game.",
   notesEs: "Warcraft: Orcs & Humans: recreación de motor de Wargus para Windows. Aporta tu propia copia del juego.",
 };

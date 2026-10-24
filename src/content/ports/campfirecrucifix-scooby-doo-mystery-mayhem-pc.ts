@@ -24,6 +24,11 @@ export const campfirecrucifixScoobyDooMysteryMayhemPc: Port = {
   originalSystems: ["PlayStation 2"],
   summary: "Scooby-Doo! Mystery Mayhem is a third-person action-adventure video game based on the Scooby-Doo franchise. The game was developed by Artificial Mind and Movement and published by THQ in 2003 for the Game Boy Advance. It was later released for the PlayStation 2, GameCube, and Xbox in 2004.",
   summaryEs: "Scooby-Doo! Mystery Mayhem es un videojuego de acción y aventura publicado por THQ en 2003.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/scooby-doo-mystery-mayhem.svg",
+    alt: "Scooby-Doo! Mystery Mayhem (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Scooby-Doo! Mystery Mayhem: source port by Campfirecrucifix for Windows. Bring your own copy of the game.",
   notesEs: "Scooby-Doo! Mystery Mayhem: source port de Campfirecrucifix para Windows. Aporta tu propia copia del juego.",
 };

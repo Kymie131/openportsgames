@@ -1,0 +1,3832 @@
+{
+  "2048": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/960px-2048_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "2048 (box art)",
+    "credit": "Wikipedia"
+  },
+  "0ad": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/0_A.D._alpha_25_-_playing_as_Spartans.jpg/960px-0_A.D._alpha_25_-_playing_as_Spartans.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "0 A.D. (box art)",
+    "credit": "Wikipedia"
+  },
+  "forzamotorsport2": {
+    "src": "https://openportsgames.com/covers/generated/forza-motorsport-2.svg",
+    "alt": "Forza Motorsport 2 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "forzamotorsport3": {
+    "src": "https://openportsgames.com/covers/generated/forza-motorsport-3.svg",
+    "alt": "Forza Motorsport 3 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "1oom": {
+    "src": "https://openportsgames.com/covers/generated/1oom.svg",
+    "alt": "1oom (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "runescape": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1343400/164e54273831e76f820378b4c6e0c21e0a4834e2/header.jpg?t=1789550446",
+    "alt": "RuneScape (Steam header)",
+    "credit": "Steam"
+  },
+  "2planes": {
+    "src": "https://openportsgames.com/covers/generated/2planes.svg",
+    "alt": "2Planes (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "monsterhunter": {
+    "src": "https://openportsgames.com/covers/generated/monster-hunter.svg",
+    "alt": "Monster Hunter (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "3dmaze": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3208860/header.jpg?t=1726840684",
+    "alt": "3D Maze (Steam header)",
+    "credit": "Steam"
+  },
+  "3dpinballforwindows": {
+    "src": "https://openportsgames.com/covers/generated/3d-pinball-for-windows.svg",
+    "alt": "3D Pinball for Windows (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "deadoralive": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Dead_or_Alive_Xtreme_2_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "alt": "Dead or Alive ++ (box art)",
+    "credit": "Wikipedia"
+  },
+  "3dstris": {
+    "src": "https://openportsgames.com/covers/generated/3dstris.svg",
+    "alt": "3DStris (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "stunts": {
+    "src": "https://openportsgames.com/covers/generated/stunts.svg",
+    "alt": "Stunts (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "animalcrossingwildworld": {
+    "src": "https://openportsgames.com/covers/generated/animal-crossing-wild-world.svg",
+    "alt": "Animal Crossing: Wild World (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "thelegendofzeldaalinkbetweenworlds": {
+    "src": "https://openportsgames.com/covers/generated/the-legend-of-zelda-a-link-between-worlds.svg",
+    "alt": "The Legend of Zelda: A Link Between Worlds (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "8bittabletennis": {
+    "src": "https://openportsgames.com/covers/generated/8-bit-table-tennis.svg",
+    "alt": "8-bit Table Tennis (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "playstationvita": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/PlayStation-Vita-1101-FL.png/960px-PlayStation-Vita-1101-FL.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "PlayStation Vita (box art)",
+    "credit": "Wikipedia"
+  },
+  "dragonageorigins": {
+    "src": "https://openportsgames.com/covers/generated/dragon-age-origins.svg",
+    "alt": "Dragon Age: Origins (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "9mm": {
+    "src": "https://openportsgames.com/covers/generated/9mm.svg",
+    "alt": "9mm (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "a2racerii": {
+    "src": "https://openportsgames.com/covers/generated/a2-racer-ii.svg",
+    "alt": "A2 Racer II (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "twistedmetal": {
+    "src": "https://openportsgames.com/covers/generated/twisted-metal.svg",
+    "alt": "Twisted Metal (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "newsupermariobrosu": {
+    "src": "https://openportsgames.com/covers/generated/new-super-mario-bros-u.svg",
+    "alt": "New Super Mario Bros. U (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "abuse": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Abuse_-_launch_grenade_on_flyer.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "alt": "Abuse (box art)",
+    "credit": "Wikipedia"
+  },
+  "finalfantasytactics": {
+    "src": "https://openportsgames.com/covers/generated/final-fantasy-tactics.svg",
+    "alt": "Final Fantasy Tactics (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "doraemonnobitatomittsunoseireiseki": {
+    "src": "https://openportsgames.com/covers/generated/doraemon-nobita-to-mittsu-no-seireiseki.svg",
+    "alt": "Doraemon: Nobita to Mittsu no Seireiseki (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "aegiswing": {
+    "src": "https://openportsgames.com/covers/generated/aegis-wing.svg",
+    "alt": "Aegis Wing (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "aerobizsupersonic": {
+    "src": "https://openportsgames.com/covers/generated/aerobiz-supersonic.svg",
+    "alt": "Aerobiz Supersonic (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "gliderpro": {
+    "src": "https://openportsgames.com/covers/generated/glider-pro.svg",
+    "alt": "Glider PRO (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "afraidofmonsters": {
+    "src": "https://openportsgames.com/covers/generated/afraid-of-monsters.svg",
+    "alt": "Afraid of Monsters (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ageofspeed2": {
+    "src": "https://openportsgames.com/covers/generated/age-of-speed-2.svg",
+    "alt": "Age of Speed 2 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "airaki": {
+    "src": "https://openportsgames.com/covers/generated/airaki.svg",
+    "alt": "Airaki (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "finalfantasyvii": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3837340/467568ecc51ea77191ce048636a6f211c1c93a9f/header.jpg?t=1775108423",
+    "alt": "Final Fantasy VII (Steam header)",
+    "credit": "Steam"
+  },
+  "virtualprowrestling2odokeisho": {
+    "src": "https://openportsgames.com/covers/generated/virtual-pro-wrestling-2-odo-keisho.svg",
+    "alt": "Virtual Pro Wrestling 2: Ōdō Keishō (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "arcanumofsteamworksandmagickobscura": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/500810/header.jpg?t=1472585780",
+    "alt": "Arcanum: Of Steamworks and Magick Obscura (Steam header)",
+    "credit": "Steam"
+  },
+  "alexbeavsps1recompspsxrecompports": {
+    "src": "https://openportsgames.com/covers/generated/alexbeav-s-ps1-recomps-psxrecomp-ports.svg",
+    "alt": "Alexbeav's PS1 recomps (psxrecomp-ports) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "aliceinwonderland": {
+    "src": "https://openportsgames.com/covers/generated/alice-in-wonderland.svg",
+    "alt": "Alice in Wonderland (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "alleycat": {
+    "src": "https://openportsgames.com/covers/generated/alley-cat.svg",
+    "alt": "Alley Cat (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "metalgearsolidthetwinsnakes": {
+    "src": "https://openportsgames.com/covers/generated/metal-gear-solid-the-twin-snakes.svg",
+    "alt": "Metal Gear Solid: The Twin Snakes (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "skyroads": {
+    "src": "https://openportsgames.com/covers/generated/skyroads.svg",
+    "alt": "SkyRoads (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "skyroadsskyroadsport11c11": {
+    "src": "https://openportsgames.com/covers/generated/skyroads-skyroads-port-1-1-c11.svg",
+    "alt": "SkyRoads (skyroads-port (1:1 C11)) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "amplitude": {
+    "src": "https://openportsgames.com/covers/generated/amplitude.svg",
+    "alt": "Amplitude (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ancientempires": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Ancient_Empires.jpg/960px-Ancient_Empires.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Ancient Empires (box art)",
+    "credit": "Wikipedia"
+  },
+  "indianajonesandtheinfernalmachine": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/904540/header.jpg?t=1741737426",
+    "alt": "Indiana Jones and the Infernal Machine (Steam header)",
+    "credit": "Steam"
+  },
+  "doomrpg": {
+    "src": "https://openportsgames.com/covers/generated/doom-rpg.svg",
+    "alt": "Doom RPG (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "animalforest": {
+    "src": "https://openportsgames.com/covers/generated/animal-forest.svg",
+    "alt": "Animal Forest (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "animalforeste": {
+    "src": "https://openportsgames.com/covers/generated/animal-forest-e.svg",
+    "alt": "Animal Forest e+ (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "antares": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1175900/header.jpg?t=1582793723",
+    "alt": "Antares (Steam header)",
+    "credit": "Steam"
+  },
+  "blinx2mastersoftimeandspace": {
+    "src": "https://openportsgames.com/covers/generated/blinx-2-masters-of-time-and-space.svg",
+    "alt": "Blinx 2: Masters of Time and Space (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "fortnite": {
+    "src": "https://openportsgames.com/covers/generated/fortnite.svg",
+    "alt": "Fortnite (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "thelegendofzeldaskywardswordhd": {
+    "src": "https://openportsgames.com/covers/generated/the-legend-of-zelda-skyward-sword-hd.svg",
+    "alt": "The Legend of Zelda: Skyward Sword HD (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "apotris": {
+    "src": "https://openportsgames.com/covers/generated/apotris.svg",
+    "alt": "Apotris (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "wiiparty": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Wii-Console.png/960px-Wii-Console.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Wii Party (box art)",
+    "credit": "Wikipedia"
+  },
+  "ares": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3766840/6b8c5030472eabaf77c81093199104fdc98608aa/header.jpg?t=1785399408",
+    "alt": "ares (Steam header)",
+    "credit": "Steam"
+  },
+  "playstationportable": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/PSP-1000.png/960px-PSP-1000.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "PlayStation Portable (box art)",
+    "credit": "Wikipedia"
+  },
+  "armoredunit": {
+    "src": "https://openportsgames.com/covers/generated/armored-unit.svg",
+    "alt": "Armored Unit (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "hauntingground": {
+    "src": "https://openportsgames.com/covers/generated/haunting-ground.svg",
+    "alt": "Haunting Ground (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "superzzt": {
+    "src": "https://openportsgames.com/covers/generated/super-zzt.svg",
+    "alt": "Super ZZT (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ratchetclank": {
+    "src": "https://openportsgames.com/covers/generated/ratchet-clank.svg",
+    "alt": "Ratchet & Clank (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "asteroidsterra": {
+    "src": "https://openportsgames.com/covers/generated/asteroids-terra.svg",
+    "alt": "Asteroids Terra (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "daikatana": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242980/header.jpg?t=1783007455",
+    "alt": "Daikatana (Steam header)",
+    "credit": "Steam"
+  },
+  "awesomeopensourcegames": {
+    "src": "https://openportsgames.com/covers/generated/awesome-open-source-games.svg",
+    "alt": "Awesome Open Source Games (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "spiderman3": {
+    "src": "https://openportsgames.com/covers/generated/spider-man-3.svg",
+    "alt": "Spider-Man 3 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "banjorecompandroid": {
+    "src": "https://openportsgames.com/covers/generated/banjorecomp-android.svg",
+    "alt": "BanjoRecomp Android (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "barnyard": {
+    "src": "https://openportsgames.com/covers/generated/barnyard.svg",
+    "alt": "Barnyard (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "barrett": {
+    "src": "https://openportsgames.com/covers/generated/barrett.svg",
+    "alt": "Barrett (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "battlegrounds3": {
+    "src": "https://openportsgames.com/covers/generated/battle-grounds-3.svg",
+    "alt": "Battle Grounds 3 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ben10omniverse": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Ben_10_reboot_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "alt": "Ben 10 Omniverse (box art)",
+    "credit": "Wikipedia"
+  },
+  "sensibleworldofsoccer9697": {
+    "src": "https://openportsgames.com/covers/generated/sensible-world-of-soccer-96-97.svg",
+    "alt": "Sensible World of Soccer 96/97 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "magicthegathering": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Magic_the_Gathering_2017.svg/960px-Magic_the_Gathering_2017.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Magic: The Gathering (box art)",
+    "credit": "Wikipedia"
+  },
+  "betterspades": {
+    "src": "https://openportsgames.com/covers/generated/betterspades.svg",
+    "alt": "BetterSpades (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "beybladevforceultimatebladerjam": {
+    "src": "https://openportsgames.com/covers/generated/beyblade-vforce-ultimate-blader-jam.svg",
+    "alt": "Beyblade VForce: Ultimate Blader Jam (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "deadspace2": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Dead_Space_logo_%282023%29.svg/960px-Dead_Space_logo_%282023%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Dead Space 2 (box art)",
+    "credit": "Wikipedia"
+  },
+  "bikerace": {
+    "src": "https://openportsgames.com/covers/generated/bike-race.svg",
+    "alt": "Bike Race (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "pokemonblack": {
+    "src": "https://openportsgames.com/covers/generated/pokemon-black.svg",
+    "alt": "Pokémon Black (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "black": {
+    "src": "https://openportsgames.com/covers/generated/black.svg",
+    "alt": "BLACK (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "blakestonealiensofgoldplanetstrike": {
+    "src": "https://openportsgames.com/covers/generated/blake-stone-aliens-of-gold-planet-strike.svg",
+    "alt": "Blake Stone: Aliens of Gold / Planet Strike (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "blasterballrevolution2": {
+    "src": "https://openportsgames.com/covers/generated/blasterball-revolution-2.svg",
+    "alt": "Blasterball Revolution 2 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "blockblast": {
+    "src": "https://openportsgames.com/covers/generated/block-blast.svg",
+    "alt": "Block Blast! (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "blockoutii": {
+    "src": "https://openportsgames.com/covers/generated/blockout-ii.svg",
+    "alt": "BlockOut II (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "railroadtycoon": {
+    "src": "https://openportsgames.com/covers/generated/railroad-tycoon.svg",
+    "alt": "Railroad Tycoon (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "bomberman64thesecondattack": {
+    "src": "https://openportsgames.com/covers/generated/bomberman-64-the-second-attack.svg",
+    "alt": "Bomberman 64: The Second Attack! (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "bomberworld": {
+    "src": "https://openportsgames.com/covers/generated/bomberworld.svg",
+    "alt": "Bomberworld (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "diabloiii": {
+    "src": "https://openportsgames.com/covers/generated/diablo-iii.svg",
+    "alt": "Diablo III (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "bottomlessblockbarrage": {
+    "src": "https://openportsgames.com/covers/generated/bottomless-block-barrage.svg",
+    "alt": "Bottomless Block Barrage (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "bounce": {
+    "src": "https://openportsgames.com/covers/generated/bounce.svg",
+    "alt": "Bounce (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "brogue": {
+    "src": "https://thumb.wikimedia.org/wikipedia/en/thumb/0/0f/Brogue_title.png/960px-Brogue_title.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Brogue (box art)",
+    "credit": "Wikipedia"
+  },
+  "bloodyroarextreme": {
+    "src": "https://openportsgames.com/covers/generated/bloody-roar-extreme.svg",
+    "alt": "Bloody Roar Extreme (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "bstone": {
+    "src": "https://openportsgames.com/covers/generated/bstone.svg",
+    "alt": "BStone (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "btbuilder": {
+    "src": "https://openportsgames.com/covers/generated/btbuilder.svg",
+    "alt": "BtBuilder (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "baldursgateenhancededition": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/228280/9761e1ed90324b2102ffc3dac295eeabf03bea55/header.jpg?t=1787947527",
+    "alt": "Baldur's Gate: Enhanced Edition (Steam header)",
+    "credit": "Steam"
+  },
+  "bubsy3dfurbittenplanet": {
+    "src": "https://openportsgames.com/covers/generated/bubsy-3d-furbitten-planet.svg",
+    "alt": "Bubsy 3D - Furbitten Planet (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "fablethelostchapters": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/204030/header.jpg?t=1577393131",
+    "alt": "Fable: The Lost Chapters (Steam header)",
+    "credit": "Steam"
+  },
+  "buffythevampireslayerchaosbleeds": {
+    "src": "https://openportsgames.com/covers/generated/buffy-the-vampire-slayer-chaos-bleeds.svg",
+    "alt": "Buffy the Vampire Slayer: Chaos Bleeds (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "burnoutcrash": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Burnout_Crash%21_logo_official_%28SGDB_14092%29.png/960px-Burnout_Crash%21_logo_official_%28SGDB_14092%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Burnout CRASH! (box art)",
+    "credit": "Wikipedia"
+  },
+  "burnoutparadiseb5decomp": {
+    "src": "https://openportsgames.com/covers/generated/burnout-paradise-b5-decomp.svg",
+    "alt": "Burnout Paradise (b5-decomp) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "cdogssdl": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Cdogslogo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "alt": "C-Dogs SDL (box art)",
+    "credit": "Wikipedia"
+  },
+  "cdogs": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Cdogslogo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "alt": "C-Dogs (box art)",
+    "credit": "Wikipedia"
+  },
+  "callofduty": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/23af6cf41e2d09620caa07700a4cb3288dbcbaa8/header.jpg?t=1792807032",
+    "alt": "Call of Duty (Steam header)",
+    "credit": "Steam"
+  },
+  "callofdutyfuturewarfare": {
+    "src": "https://openportsgames.com/covers/generated/call-of-duty-future-warfare.svg",
+    "alt": "Call of Duty: Future Warfare (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "crashbandicootthewrathofcortex": {
+    "src": "https://openportsgames.com/covers/generated/crash-bandicoot-the-wrath-of-cortex.svg",
+    "alt": "Crash Bandicoot: The Wrath of Cortex (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "scoobydoomysterymayhem": {
+    "src": "https://openportsgames.com/covers/generated/scooby-doo-mystery-mayhem.svg",
+    "alt": "Scooby-Doo! Mystery Mayhem (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "toystory2buzzlightyeartotherescue": {
+    "src": "https://openportsgames.com/covers/generated/toy-story-2-buzz-lightyear-to-the-rescue.svg",
+    "alt": "Toy Story 2: Buzz Lightyear to the Rescue (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "carmageddon2carpocalypsenow": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282030/header.jpg?t=1727252729",
+    "alt": "Carmageddon 2: Carpocalypse Now (Steam header)",
+    "credit": "Steam"
+  },
+  "carnage3d": {
+    "src": "https://openportsgames.com/covers/generated/carnage3d.svg",
+    "alt": "Carnage3D (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "catacombgl": {
+    "src": "https://openportsgames.com/covers/generated/catacombgl.svg",
+    "alt": "CatacombGL (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "cavex": {
+    "src": "https://openportsgames.com/covers/generated/cavex.svg",
+    "alt": "CaveX (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "snowboardkids": {
+    "src": "https://openportsgames.com/covers/generated/snowboard-kids.svg",
+    "alt": "Snowboard Kids (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "celesteclassic": {
+    "src": "https://openportsgames.com/covers/generated/celeste-classic.svg",
+    "alt": "Celeste Classic (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "chameleontwist2": {
+    "src": "https://openportsgames.com/covers/generated/chameleon-twist-2.svg",
+    "alt": "Chameleon Twist 2 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "championsofnorrath": {
+    "src": "https://openportsgames.com/covers/generated/champions-of-norrath.svg",
+    "alt": "Champions of Norrath (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "sonicadventure2battle": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/217900/header.jpg?t=1762753202",
+    "alt": "Sonic Adventure 2: Battle (Steam header)",
+    "credit": "Steam"
+  },
+  "chasmreverse": {
+    "src": "https://openportsgames.com/covers/generated/chasm-reverse.svg",
+    "alt": "Chasm-Reverse (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "chernobylneighborclowngang": {
+    "src": "https://openportsgames.com/covers/generated/chernobyl-neighbor-clown-gang.svg",
+    "alt": "Chernobyl Neighbor. Clown Gang (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "chikischase": {
+    "src": "https://openportsgames.com/covers/generated/chiki-s-chase.svg",
+    "alt": "Chiki's Chase (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "chocolatequake": {
+    "src": "https://openportsgames.com/covers/generated/chocolate-quake.svg",
+    "alt": "Chocolate Quake (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "fifa09": {
+    "src": "https://openportsgames.com/covers/generated/fifa-09.svg",
+    "alt": "FIFA 09 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "civilization": {
+    "src": "https://openportsgames.com/covers/generated/civilization.svg",
+    "alt": "Civilization (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "classicube": {
+    "src": "https://openportsgames.com/covers/generated/classicube.svg",
+    "alt": "ClassiCube (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "pokemonsoulsilver": {
+    "src": "https://openportsgames.com/covers/generated/pokemon-soulsilver.svg",
+    "alt": "Pokémon SoulSilver (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "clubpenguinwaddleforever": {
+    "src": "https://openportsgames.com/covers/generated/club-penguin-waddle-forever.svg",
+    "alt": "Club Penguin (Waddle Forever) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "commandconquertiberiandawn": {
+    "src": "https://openportsgames.com/covers/generated/command-conquer-tiberian-dawn.svg",
+    "alt": "Command & Conquer: Tiberian Dawn (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "commandconquertiberiansun": {
+    "src": "https://openportsgames.com/covers/generated/command-conquer-tiberian-sun.svg",
+    "alt": "Command & Conquer: Tiberian Sun (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "harvestmoonbacktonature": {
+    "src": "https://openportsgames.com/covers/generated/harvest-moon-back-to-nature.svg",
+    "alt": "Harvest Moon: Back to Nature (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "contra": {
+    "src": "https://openportsgames.com/covers/generated/contra.svg",
+    "alt": "Contra (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "nintendo3ds": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/New_Nintendo_3DS.png/960px-New_Nintendo_3DS.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Nintendo 3DS (box art)",
+    "credit": "Wikipedia"
+  },
+  "skate": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3354750/79c5a87b61a396cc6e6b69e3a083727f175dea83/header.jpg?t=1788891347",
+    "alt": "Skate (Steam header)",
+    "credit": "Steam"
+  },
+  "coqui": {
+    "src": "https://openportsgames.com/covers/generated/coqui.svg",
+    "alt": "Coqui (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "coup": {
+    "src": "https://openportsgames.com/covers/generated/coup.svg",
+    "alt": "Coup (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "supermarioodyssey": {
+    "src": "https://openportsgames.com/covers/generated/super-mario-odyssey.svg",
+    "alt": "Super Mario Odyssey (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "cps2arcadecollection": {
+    "src": "https://openportsgames.com/covers/generated/cps-2-arcade-collection.svg",
+    "alt": "CPS-2 arcade collection (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "battlefieldbadcompany": {
+    "src": "https://openportsgames.com/covers/generated/battlefield-bad-company.svg",
+    "alt": "Battlefield: Bad Company (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "armyoftwothe40thday": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Armyoftwo_game_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "alt": "Army of Two: The 40th Day (box art)",
+    "credit": "Wikipedia"
+  },
+  "craftusreloaded": {
+    "src": "https://openportsgames.com/covers/generated/craftus-reloaded.svg",
+    "alt": "Craftus Reloaded (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "fzero": {
+    "src": "https://openportsgames.com/covers/generated/f-zero.svg",
+    "alt": "F-Zero (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "crazytaxi": {
+    "src": "https://openportsgames.com/covers/generated/crazy-taxi.svg",
+    "alt": "Crazy Taxi (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "crossconnect": {
+    "src": "https://openportsgames.com/covers/generated/crossconnect.svg",
+    "alt": "CrossConnect (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ctrcrashteamracing": {
+    "src": "https://openportsgames.com/covers/generated/ctr-crash-team-racing.svg",
+    "alt": "CTR: Crash Team Racing (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "crucibleexe": {
+    "src": "https://openportsgames.com/covers/generated/crucible-exe.svg",
+    "alt": "CRUCIBLE.EXE (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "cryptoslasher": {
+    "src": "https://openportsgames.com/covers/generated/cryptoslasher.svg",
+    "alt": "CryptoSlasher (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ctwnative": {
+    "src": "https://openportsgames.com/covers/generated/ctw-native.svg",
+    "alt": "CTW-Native (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "cuttherope": {
+    "src": "https://openportsgames.com/covers/generated/cut-the-rope.svg",
+    "alt": "Cut The Rope (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "cuttheropecuttheropedx": {
+    "src": "https://openportsgames.com/covers/generated/cut-the-rope-cut-the-rope-dx.svg",
+    "alt": "Cut the Rope (Cut the Rope: DX) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "dancedancerevolution1stmix": {
+    "src": "https://openportsgames.com/covers/generated/dance-dance-revolution-1st-mix.svg",
+    "alt": "Dance Dance Revolution 1st Mix (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "pokemonredandblue": {
+    "src": "https://openportsgames.com/covers/generated/pokemon-red-and-blue.svg",
+    "alt": "Pokémon Red and Blue (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "sanandreasmultiplayer": {
+    "src": "https://openportsgames.com/covers/generated/san-andreas-multiplayer.svg",
+    "alt": "San Andreas Multiplayer (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "daytonaarcaderecomp": {
+    "src": "https://openportsgames.com/covers/generated/daytona-arcade-recomp.svg",
+    "alt": "Daytona Arcade Recomp (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "deadoralive2ultimate": {
+    "src": "https://openportsgames.com/covers/generated/dead-or-alive-2-ultimate.svg",
+    "alt": "Dead or Alive 2 Ultimate (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "deadrising2casewest": {
+    "src": "https://openportsgames.com/covers/generated/dead-rising-2-case-west.svg",
+    "alt": "Dead Rising 2: Case West (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "deadrising2casezero": {
+    "src": "https://openportsgames.com/covers/generated/dead-rising-2-case-zero.svg",
+    "alt": "Dead Rising 2: Case Zero (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "yoshisstory": {
+    "src": "https://openportsgames.com/covers/generated/yoshi-s-story.svg",
+    "alt": "Yoshi's Story (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "defendersdragons": {
+    "src": "https://openportsgames.com/covers/generated/defenders-dragons.svg",
+    "alt": "Defenders & Dragons (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "sonicdreamteam": {
+    "src": "https://openportsgames.com/covers/generated/sonic-dream-team.svg",
+    "alt": "Sonic Dream Team (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "dgengine": {
+    "src": "https://openportsgames.com/covers/generated/dgengine.svg",
+    "alt": "DGEngine (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "diablo": {
+    "src": "https://openportsgames.com/covers/generated/diablo.svg",
+    "alt": "Diablo (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "disneypigletsbiggame": {
+    "src": "https://openportsgames.com/covers/generated/disney-piglet-s-big-game.svg",
+    "alt": "Disney Piglet's Big Game (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "clayfighter6313": {
+    "src": "https://openportsgames.com/covers/generated/clayfighter-631-3.svg",
+    "alt": "ClayFighter 63⅓ (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "lost": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/London_After_Midnight_Poster_1927_MGM_%28cropped_to_content%29.jpg/960px-London_After_Midnight_Poster_1927_MGM_%28cropped_to_content%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Lost (box art)",
+    "credit": "Wikipedia"
+  },
+  "supersmashbrosbrawl": {
+    "src": "https://openportsgames.com/covers/generated/super-smash-bros-brawl.svg",
+    "alt": "Super Smash Bros. Brawl (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "papermariothethousandyeardoor": {
+    "src": "https://openportsgames.com/covers/generated/paper-mario-the-thousand-year-door.svg",
+    "alt": "Paper Mario: The Thousand-Year Door (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "domadays": {
+    "src": "https://openportsgames.com/covers/generated/doma-days.svg",
+    "alt": "DOMA Days (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "doom2d": {
+    "src": "https://openportsgames.com/covers/generated/doom-2d.svg",
+    "alt": "Doom 2D (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "doom64remastered": {
+    "src": "https://openportsgames.com/covers/generated/doom-64-remastered.svg",
+    "alt": "Doom 64 Remastered (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "doomplaystation": {
+    "src": "https://openportsgames.com/covers/generated/doom-playstation.svg",
+    "alt": "Doom (Playstation) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "doom64explusenhanced": {
+    "src": "https://openportsgames.com/covers/generated/doom64-ex-plus-enhanced.svg",
+    "alt": "DOOM64-EX-Plus-Enhanced (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "doraemon3nobitanomachisos": {
+    "src": "https://openportsgames.com/covers/generated/doraemon-3-nobita-no-machi-sos.svg",
+    "alt": "Doraemon 3: Nobita no Machi SOS! (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "hackinfection": {
+    "src": "https://openportsgames.com/covers/generated/hack-infection.svg",
+    "alt": ".hack//Infection (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ballance": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000770/header.jpg?t=1704463128",
+    "alt": "Ballance (Steam header)",
+    "credit": "Steam"
+  },
+  "timecrisis": {
+    "src": "https://openportsgames.com/covers/generated/time-crisis.svg",
+    "alt": "Time Crisis (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "dragonballzsupersaiyadensetsu": {
+    "src": "https://openportsgames.com/covers/generated/dragon-ball-z-super-saiya-densetsu.svg",
+    "alt": "Dragon Ball Z: Super Saiya Densetsu (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "dragonballztenkaichitagteam": {
+    "src": "https://openportsgames.com/covers/generated/dragon-ball-z-tenkaichi-tag-team.svg",
+    "alt": "Dragon Ball Z: Tenkaichi Tag Team (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "dragonquestswordsthemaskedqueenandthetowerofmirrors": {
+    "src": "https://openportsgames.com/covers/generated/dragon-quest-swords-the-masked-queen-and-the-tower-of-mirrors.svg",
+    "alt": "Dragon Quest Swords: The Masked Queen and the Tower of Mirrors (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "dragonscrownpro": {
+    "src": "https://openportsgames.com/covers/generated/dragon-s-crown-pro.svg",
+    "alt": "Dragon's Crown Pro (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ultimaonline": {
+    "src": "https://openportsgames.com/covers/generated/ultima-online.svg",
+    "alt": "Ultima Online (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "dreadhollowmanor": {
+    "src": "https://openportsgames.com/covers/generated/dreadhollow-manor.svg",
+    "alt": "Dreadhollow Manor (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "dreamcasthomebrewcollection": {
+    "src": "https://openportsgames.com/covers/generated/dreamcast-homebrew-collection.svg",
+    "alt": "Dreamcast Homebrew Collection (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "dsprotect": {
+    "src": "https://openportsgames.com/covers/generated/ds-protect.svg",
+    "alt": "DS Protect (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "dsdadoom": {
+    "src": "https://openportsgames.com/covers/generated/dsda-doom.svg",
+    "alt": "DSDA-Doom (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "dxxredux": {
+    "src": "https://openportsgames.com/covers/generated/dxx-redux.svg",
+    "alt": "dxx-redux (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "earthboundmother2": {
+    "src": "https://openportsgames.com/covers/generated/earthbound-mother-2.svg",
+    "alt": "EarthBound / Mother 2 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "earthboundphasedistorter": {
+    "src": "https://openportsgames.com/covers/generated/earthbound-phase-distorter.svg",
+    "alt": "EarthBound (Phase Distorter) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "thelegendofzeldaechoesofwisdom": {
+    "src": "https://openportsgames.com/covers/generated/the-legend-of-zelda-echoes-of-wisdom.svg",
+    "alt": "The Legend of Zelda: Echoes of Wisdom (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "raymanlegends": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242550/baa48d04ecc914d5f193550c640c8450ddf67065/header.jpg?t=1792072424",
+    "alt": "Rayman Legends (Steam header)",
+    "credit": "Steam"
+  },
+  "edgeclassic": {
+    "src": "https://openportsgames.com/covers/generated/edge-classic.svg",
+    "alt": "EDGE-classic (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "elfenliedfighting": {
+    "src": "https://openportsgames.com/covers/generated/elfen-lied-fighting.svg",
+    "alt": "Elfen Lied Fighting (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ellishouse": {
+    "src": "https://openportsgames.com/covers/generated/elli-s-house.svg",
+    "alt": "Elli's House (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "legostarwarsthevideogame": {
+    "src": "https://openportsgames.com/covers/generated/lego-star-wars-the-video-game.svg",
+    "alt": "LEGO Star Wars: The Video Game (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "earthwormjim2": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/38490/header.jpg?t=1762282852",
+    "alt": "Earthworm Jim 2 (Steam header)",
+    "credit": "Steam"
+  },
+  "starwarsshadowsoftheempire": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/560170/header.jpg?t=1741729164",
+    "alt": "Star Wars: Shadows of the Empire (Steam header)",
+    "credit": "Steam"
+  },
+  "emazingmazes": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Longleat-maze.jpg/960px-Longleat-maze.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "eMazing Mazes (box art)",
+    "credit": "Wikipedia"
+  },
+  "emberclutch": {
+    "src": "https://openportsgames.com/covers/generated/emberclutch.svg",
+    "alt": "Emberclutch (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "emperorreborn": {
+    "src": "https://openportsgames.com/covers/generated/emperorreborn.svg",
+    "alt": "EmperorReborn (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "outrun": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187540/header.jpg?t=1734090727",
+    "alt": "OutRun (Steam header)",
+    "credit": "Steam"
+  },
+  "soulcalibur": {
+    "src": "https://openportsgames.com/covers/generated/soulcalibur.svg",
+    "alt": "SoulCalibur (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "medievaliitotalwar": {
+    "src": "https://openportsgames.com/covers/generated/medieval-ii-total-war.svg",
+    "alt": "Medieval II: Total War (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "doom64": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1148590/header.jpg?t=1750784988",
+    "alt": "Doom 64 (Steam header)",
+    "credit": "Steam"
+  },
+  "finaldoom": {
+    "src": "https://openportsgames.com/covers/generated/final-doom.svg",
+    "alt": "Final Doom (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "wipeoutpure": {
+    "src": "https://openportsgames.com/covers/generated/wipeout-pure.svg",
+    "alt": "Wipeout Pure (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "etchysketchy": {
+    "src": "https://openportsgames.com/covers/generated/etchy-sketchy.svg",
+    "alt": "Etchy Sketchy (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "eucthrills": {
+    "src": "https://openportsgames.com/covers/generated/euc-thrills.svg",
+    "alt": "EUC Thrills (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "evosspaceadventures": {
+    "src": "https://openportsgames.com/covers/generated/evo-s-space-adventures.svg",
+    "alt": "Evo's Space Adventures (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "celeste64fragmentsofthemountain": {
+    "src": "https://openportsgames.com/covers/generated/celeste-64-fragments-of-the-mountain.svg",
+    "alt": "Celeste 64: Fragments of the Mountain (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "extremetuxracer": {
+    "src": "https://openportsgames.com/covers/generated/extreme-tux-racer.svg",
+    "alt": "Extreme Tux Racer (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ezquake": {
+    "src": "https://openportsgames.com/covers/generated/ezquake.svg",
+    "alt": "ezQuake (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "f15ii": {
+    "src": "https://openportsgames.com/covers/generated/f-15-ii.svg",
+    "alt": "F-15 II (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "f15iienhanced": {
+    "src": "https://openportsgames.com/covers/generated/f-15-ii-enhanced.svg",
+    "alt": "F-15 II Enhanced (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "wolfenstein3d": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2270/header.jpg?t=1750784646",
+    "alt": "Wolfenstein 3D (Steam header)",
+    "credit": "Steam"
+  },
+  "rayman": {
+    "src": "https://openportsgames.com/covers/generated/rayman.svg",
+    "alt": "Rayman (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "fifastreet": {
+    "src": "https://openportsgames.com/covers/generated/fifa-street.svg",
+    "alt": "FIFA Street (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "filthykitchen": {
+    "src": "https://openportsgames.com/covers/generated/filthy-kitchen.svg",
+    "alt": "Filthy Kitchen (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "finaldoomplaystation": {
+    "src": "https://openportsgames.com/covers/generated/final-doom-playstation.svg",
+    "alt": "Final Doom (Playstation) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "finalfantasyxiv10": {
+    "src": "https://openportsgames.com/covers/generated/final-fantasy-xiv-1-0.svg",
+    "alt": "Final Fantasy XIV (1.0) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "flame": {
+    "src": "https://openportsgames.com/covers/generated/flame.svg",
+    "alt": "Flame (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "flappybird": {
+    "src": "https://openportsgames.com/covers/generated/flappy-bird.svg",
+    "alt": "Flappy Bird (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "flatoutultimatecarnage": {
+    "src": "https://openportsgames.com/covers/generated/flatout-ultimate-carnage.svg",
+    "alt": "FlatOut: Ultimate Carnage (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "flow": {
+    "src": "https://openportsgames.com/covers/generated/flow.svg",
+    "alt": "flOw (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "fluctus": {
+    "src": "https://openportsgames.com/covers/generated/fluctus.svg",
+    "alt": "Fluctus (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "fordracing": {
+    "src": "https://openportsgames.com/covers/generated/ford-racing.svg",
+    "alt": "Ford Racing (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "forecastchannel": {
+    "src": "https://openportsgames.com/covers/generated/forecast-channel.svg",
+    "alt": "Forecast Channel (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "azuredreams": {
+    "src": "https://openportsgames.com/covers/generated/azure-dreams.svg",
+    "alt": "Azure Dreams (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "sonicthehedgehog": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Sonic_The_Hedgehog.svg/960px-Sonic_The_Hedgehog.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Sonic the Hedgehog (box art)",
+    "credit": "Wikipedia"
+  },
+  "sonicthehedgehog4": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Sonic_The_Hedgehog.svg/960px-Sonic_The_Hedgehog.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Sonic the Hedgehog 4 (box art)",
+    "credit": "Wikipedia"
+  },
+  "habitat": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/299340/header.jpg?t=1773309693",
+    "alt": "Habitat (Steam header)",
+    "credit": "Steam"
+  },
+  "freedoom": {
+    "src": "https://openportsgames.com/covers/generated/freedoom.svg",
+    "alt": "Freedoom (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "freeft": {
+    "src": "https://openportsgames.com/covers/generated/freeft.svg",
+    "alt": "FreeFT (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "freeserfnet": {
+    "src": "https://openportsgames.com/covers/generated/freeserf-net.svg",
+    "alt": "freeserf.net (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "fridaynightfunkin": {
+    "src": "https://openportsgames.com/covers/generated/friday-night-funkin.svg",
+    "alt": "Friday Night Funkin' (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "froggerhesback": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Sega_-_Gremlin_-_Frogger_-_December_1st_1981_Play_Meter_advert.jpg/960px-Sega_-_Gremlin_-_Frogger_-_December_1st_1981_Play_Meter_advert.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Frogger: He's Back! (box art)",
+    "credit": "Wikipedia"
+  },
+  "frombelow": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4832070/6bcda657c0a6cb1dfc33aff5f2aedd992bac03aa/header.jpg?t=1787669749",
+    "alt": "From Below (Steam header)",
+    "credit": "Steam"
+  },
+  "fushiginodungeonfurainoshiren2onishuraishirenjo": {
+    "src": "https://openportsgames.com/covers/generated/fushigi-no-dungeon-furai-no-shiren-2-oni-shurai-shiren-jo.svg",
+    "alt": "Fushigi no Dungeon: Fūrai no Shiren 2 — Oni Shūrai! Shiren-jō! (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "gamearcade": {
+    "src": "https://openportsgames.com/covers/generated/gamearcade.svg",
+    "alt": "GameArcade (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "duneii": {
+    "src": "https://openportsgames.com/covers/generated/dune-ii.svg",
+    "alt": "Dune II (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "generalsgamecode": {
+    "src": "https://openportsgames.com/covers/generated/generalsgamecode.svg",
+    "alt": "GeneralsGameCode (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "waynegretzkys3dhockey": {
+    "src": "https://openportsgames.com/covers/generated/wayne-gretzky-s-3d-hockey.svg",
+    "alt": "Wayne Gretzky's 3D Hockey (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ghostsandgraves": {
+    "src": "https://openportsgames.com/covers/generated/ghosts-and-graves.svg",
+    "alt": "Ghosts And Graves (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "stuntmanignition": {
+    "src": "https://openportsgames.com/covers/generated/stuntman-ignition.svg",
+    "alt": "Stuntman: Ignition (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "glkeeper": {
+    "src": "https://openportsgames.com/covers/generated/glkeeper.svg",
+    "alt": "GLKeeper (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "glover": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Donald_Glover_TIFF_2015.jpg/960px-Donald_Glover_TIFF_2015.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Glover (box art)",
+    "credit": "Wikipedia"
+  },
+  "glsmac": {
+    "src": "https://openportsgames.com/covers/generated/glsmac.svg",
+    "alt": "GLSMAC (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "gogoackman": {
+    "src": "https://openportsgames.com/covers/generated/go-go-ackman.svg",
+    "alt": "Go Go Ackman (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "godofwariihd": {
+    "src": "https://openportsgames.com/covers/generated/god-of-war-ii-hd.svg",
+    "alt": "God of War II HD (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "goldeneye007reloaded": {
+    "src": "https://openportsgames.com/covers/generated/goldeneye-007-reloaded.svg",
+    "alt": "GoldenEye 007: Reloaded (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "goldeneyepcport": {
+    "src": "https://openportsgames.com/covers/generated/goldeneye-pc-port.svg",
+    "alt": "GoldenEye PC Port (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "chromedino": {
+    "src": "https://openportsgames.com/covers/generated/chrome-dino.svg",
+    "alt": "Chrome Dino (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "gothsnvamps": {
+    "src": "https://openportsgames.com/covers/generated/goths-n-vamps.svg",
+    "alt": "Goths n Vamps (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "simcity": {
+    "src": "https://openportsgames.com/covers/generated/simcity.svg",
+    "alt": "SimCity (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "gravityrushremastered": {
+    "src": "https://openportsgames.com/covers/generated/gravity-rush-remastered.svg",
+    "alt": "Gravity Rush Remastered (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "greenfarm3": {
+    "src": "https://openportsgames.com/covers/generated/green-farm-3.svg",
+    "alt": "Green Farm 3 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "torchlight": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/41500/header.jpg?t=1791961309",
+    "alt": "Torchlight (Steam header)",
+    "credit": "Steam"
+  },
+  "thetempleofelementalevil": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3843520/d6fda3130d6c48cade2a18bc34b457e3461da727/header.jpg?t=1778148541",
+    "alt": "The Temple of Elemental Evil (Steam header)",
+    "credit": "Steam"
+  },
+  "gsrecomp": {
+    "src": "https://openportsgames.com/covers/generated/gsrecomp.svg",
+    "alt": "GSRecomp (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "timesplitters": {
+    "src": "https://thumb.wikimedia.org/wikipedia/en/thumb/6/6b/TimeSplittersLogoSeries.svg/960px-TimeSplittersLogoSeries.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "TimeSplitters (box art)",
+    "credit": "Wikipedia"
+  },
+  "guardaconlasgbc": {
+    "src": "https://openportsgames.com/covers/generated/guarda-con-las-gbc.svg",
+    "alt": "Guarda con las GBC (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "gxcraft": {
+    "src": "https://openportsgames.com/covers/generated/gxcraft.svg",
+    "alt": "GXCraft (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "plantsvszombies2": {
+    "src": "https://openportsgames.com/covers/generated/plants-vs-zombies-2.svg",
+    "alt": "Plants vs. Zombies 2 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "hacx": {
+    "src": "https://openportsgames.com/covers/generated/hacx.svg",
+    "alt": "HacX (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "hagi": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Ianis_Hagi_2015_%28cropped%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "alt": "Hagi (box art)",
+    "credit": "Wikipedia"
+  },
+  "raidersofthelostark": {
+    "src": "https://openportsgames.com/covers/generated/raiders-of-the-lost-ark.svg",
+    "alt": "Raiders of the Lost Ark (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "tomba": {
+    "src": "https://openportsgames.com/covers/generated/tomba.svg",
+    "alt": "Tomba! (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "hashi": {
+    "src": "https://openportsgames.com/covers/generated/hashi.svg",
+    "alt": "Hashi (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "hazard1998": {
+    "src": "https://openportsgames.com/covers/generated/hazard-1998.svg",
+    "alt": "Hazard 1998 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "teambuddies": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3521810/header.jpg?t=1740066236",
+    "alt": "Team Buddies (Steam header)",
+    "credit": "Steam"
+  },
+  "heartofdarkness": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Blackwood%27s_Magazine_-_1899_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "alt": "Heart of Darkness (box art)",
+    "credit": "Wikipedia"
+  },
+  "heavymetal": {
+    "src": "https://openportsgames.com/covers/generated/heavymetal.svg",
+    "alt": "heavymetal (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "totalannihilation": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/298030/header.jpg?t=1726478823",
+    "alt": "Total Annihilation (Steam header)",
+    "credit": "Steam"
+  },
+  "realmsofarkaniabladeofdestiny": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/237550/header.jpg?t=1727966377",
+    "alt": "Realms of Arkania: Blade of Destiny (Steam header)",
+    "credit": "Steam"
+  },
+  "disneyshercules": {
+    "src": "https://openportsgames.com/covers/generated/disney-s-hercules.svg",
+    "alt": "Disney's Hercules (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "hereticshadowoftheserpentriders": {
+    "src": "https://openportsgames.com/covers/generated/heretic-shadow-of-the-serpent-riders.svg",
+    "alt": "Heretic: Shadow of the Serpent Riders (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "heretic2": {
+    "src": "https://openportsgames.com/covers/generated/heretic2.svg",
+    "alt": "heretic2 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "heretic2r": {
+    "src": "https://openportsgames.com/covers/generated/heretic2r.svg",
+    "alt": "Heretic2R (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "breakdown": {
+    "src": "https://openportsgames.com/covers/generated/breakdown.svg",
+    "alt": "Breakdown (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "burnout": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4453600/debb8c4cae0da4901374226c8f851222f43ce630/header.jpg?t=1787899125",
+    "alt": "Burnout (Steam header)",
+    "credit": "Steam"
+  },
+  "hexeniimissionpackportalofpraevus": {
+    "src": "https://openportsgames.com/covers/generated/hexen-ii-mission-pack-portal-of-praevus.svg",
+    "alt": "Hexen II: Mission Pack – Portal of Praevus⁠ (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ssxontour": {
+    "src": "https://openportsgames.com/covers/generated/ssx-on-tour.svg",
+    "alt": "SSX On Tour (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "projectgothamracing": {
+    "src": "https://openportsgames.com/covers/generated/project-gotham-racing.svg",
+    "alt": "Project Gotham Racing (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "projectgothamracing2": {
+    "src": "https://openportsgames.com/covers/generated/project-gotham-racing-2.svg",
+    "alt": "Project Gotham Racing 2 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "anachronox": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242940/header.jpg?t=1783003650",
+    "alt": "Anachronox (Steam header)",
+    "credit": "Steam"
+  },
+  "hopmon": {
+    "src": "https://openportsgames.com/covers/generated/hopmon.svg",
+    "alt": "Hopmon (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "2014fifaworldcupbrazil": {
+    "src": "https://openportsgames.com/covers/generated/2014-fifa-world-cup-brazil.svg",
+    "alt": "2014 FIFA World Cup Brazil (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "hydracastlelabyrinth": {
+    "src": "https://openportsgames.com/covers/generated/hydra-castle-labyrinth.svg",
+    "alt": "Hydra Castle Labyrinth (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "iwannareachtheunity": {
+    "src": "https://openportsgames.com/covers/generated/i-wanna-reach-the-unity.svg",
+    "alt": "I Wanna Reach The Unity (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "infamous": {
+    "src": "https://openportsgames.com/covers/generated/infamous.svg",
+    "alt": "inFamous (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "idleofficetycoon": {
+    "src": "https://openportsgames.com/covers/generated/idle-office-tycoon.svg",
+    "alt": "Idle Office Tycoon (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "idtech4aharmattanedition": {
+    "src": "https://openportsgames.com/covers/generated/idtech4a-harmattan-edition.svg",
+    "alt": "idTech4A++ (Harmattan Edition) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "wwe12": {
+    "src": "https://openportsgames.com/covers/generated/wwe-12.svg",
+    "alt": "WWE '12 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "inazumaeleven3sekaienochousentheogre": {
+    "src": "https://openportsgames.com/covers/generated/inazuma-eleven-3-sekai-e-no-chousen-the-ogre.svg",
+    "alt": "Inazuma Eleven 3 - Sekai e no Chousen: The Ogre!! (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "infinitebladeii": {
+    "src": "https://openportsgames.com/covers/generated/infinite-blade-ii.svg",
+    "alt": "Infinite Blade II (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "initialdarcadestagever3": {
+    "src": "https://openportsgames.com/covers/generated/initial-d-arcade-stage-ver-3.svg",
+    "alt": "Initial D Arcade Stage Ver.3 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "inotia3childrenofcarnia": {
+    "src": "https://openportsgames.com/covers/generated/inotia-3-children-of-carnia.svg",
+    "alt": "Inotia 3: Children of Carnia (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "shinmegamitenseiiv": {
+    "src": "https://openportsgames.com/covers/generated/shin-megami-tensei-iv.svg",
+    "alt": "Shin Megami Tensei IV (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "legoisland": {
+    "src": "https://openportsgames.com/covers/generated/lego-island.svg",
+    "alt": "Lego Island (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "digimonworld4": {
+    "src": "https://openportsgames.com/covers/generated/digimon-world-4.svg",
+    "alt": "Digimon World 4 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "mickeysavestheday3dadventure": {
+    "src": "https://openportsgames.com/covers/generated/mickey-saves-the-day-3d-adventure.svg",
+    "alt": "Mickey Saves the Day 3D Adventure (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "masterofmagic": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623070/header.jpg?t=1726823439",
+    "alt": "Master of Magic (Steam header)",
+    "credit": "Steam"
+  },
+  "banjokazooiegruntysrevenge": {
+    "src": "https://openportsgames.com/covers/generated/banjo-kazooie-grunty-s-revenge.svg",
+    "alt": "Banjo-Kazooie: Grunty's Revenge (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "moderncombat2blackpegasus": {
+    "src": "https://openportsgames.com/covers/generated/modern-combat-2-black-pegasus.svg",
+    "alt": "Modern Combat 2: Black Pegasus (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "jetmoto2championshipedition": {
+    "src": "https://openportsgames.com/covers/generated/jet-moto-2-championship-edition.svg",
+    "alt": "Jet Moto 2: Championship Edition (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "jetski": {
+    "src": "https://openportsgames.com/covers/generated/jet-ski.svg",
+    "alt": "Jet Ski (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "virtuacop2": {
+    "src": "https://openportsgames.com/covers/generated/virtua-cop-2.svg",
+    "alt": "Virtua Cop 2 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "shadowtower": {
+    "src": "https://openportsgames.com/covers/generated/shadow-tower.svg",
+    "alt": "Shadow Tower (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "jfsw": {
+    "src": "https://openportsgames.com/covers/generated/jfsw.svg",
+    "alt": "jfsw (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "jftekwar": {
+    "src": "https://openportsgames.com/covers/generated/jftekwar.svg",
+    "alt": "jftekwar (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "jfwhaven": {
+    "src": "https://openportsgames.com/covers/generated/jfwhaven.svg",
+    "alt": "jfwhaven (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "guitarheroii": {
+    "src": "https://openportsgames.com/covers/generated/guitar-hero-ii.svg",
+    "alt": "Guitar Hero II (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "wipeout": {
+    "src": "https://openportsgames.com/covers/generated/wipeout.svg",
+    "alt": "Wipeout (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "johnnyherbertsgrandprixchampionship1998": {
+    "src": "https://openportsgames.com/covers/generated/johnny-herbert-s-grand-prix-championship-1998.svg",
+    "alt": "Johnny Herbert's Grand Prix Championship 1998 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "jokerpoker": {
+    "src": "https://openportsgames.com/covers/generated/joker-poker.svg",
+    "alt": "Joker Poker (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "maplestory": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/MapleStory.svg/960px-MapleStory.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "MapleStory (box art)",
+    "credit": "Wikipedia"
+  },
+  "dukenukem3d": {
+    "src": "https://openportsgames.com/covers/generated/duke-nukem-3d.svg",
+    "alt": "Duke Nukem 3D (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "bugdom": {
+    "src": "https://openportsgames.com/covers/generated/bugdom.svg",
+    "alt": "Bugdom (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "bugdom2": {
+    "src": "https://openportsgames.com/covers/generated/bugdom-2.svg",
+    "alt": "Bugdom 2 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "cromagrally": {
+    "src": "https://openportsgames.com/covers/generated/cro-mag-rally.svg",
+    "alt": "Cro-Mag Rally (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ottomatic": {
+    "src": "https://openportsgames.com/covers/generated/otto-matic.svg",
+    "alt": "Otto Matic (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "bagmanbagmanarcade68ktranscode": {
+    "src": "https://openportsgames.com/covers/generated/bagman-bagman-arcade-68k-transcode.svg",
+    "alt": "Bagman (bagman (arcade -> 68k transcode)) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "jpnpokemonblue": {
+    "src": "https://openportsgames.com/covers/generated/jpn-pokemon-blue.svg",
+    "alt": "JPN Pokémon Blue (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "wiiu": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Wii_U_Console_and_Gamepad.png/960px-Wii_U_Console_and_Gamepad.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Wii U (box art)",
+    "credit": "Wikipedia"
+  },
+  "ridgeracer64": {
+    "src": "https://openportsgames.com/covers/generated/ridge-racer-64.svg",
+    "alt": "Ridge Racer 64 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "konhoukagolive": {
+    "src": "https://openportsgames.com/covers/generated/k-on-houkago-live.svg",
+    "alt": "K-On! Houkago Live!! (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "fzerogx": {
+    "src": "https://openportsgames.com/covers/generated/f-zero-gx.svg",
+    "alt": "F-Zero GX (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "kazenonotam": {
+    "src": "https://openportsgames.com/covers/generated/kaze-no-notam.svg",
+    "alt": "Kaze no Notam (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "kenslabyrinth": {
+    "src": "https://openportsgames.com/covers/generated/ken-s-labyrinth.svg",
+    "alt": "Ken's Labyrinth (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "breathoffireiii": {
+    "src": "https://openportsgames.com/covers/generated/breath-of-fire-iii.svg",
+    "alt": "Breath of Fire III (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "nintendoswitch": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Nintendo_Switch_2_logo.svg/960px-Nintendo_Switch_2_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Nintendo Switch (box art)",
+    "credit": "Wikipedia"
+  },
+  "rageracer": {
+    "src": "https://openportsgames.com/covers/generated/rage-racer.svg",
+    "alt": "Rage Racer (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "killzone": {
+    "src": "https://openportsgames.com/covers/generated/killzone.svg",
+    "alt": "Killzone (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "kingdomheartsrecoded": {
+    "src": "https://openportsgames.com/covers/generated/kingdom-hearts-re-coded.svg",
+    "alt": "Kingdom Hearts Re:coded (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "kirbysdreamcollectionspecialedition": {
+    "src": "https://openportsgames.com/covers/generated/kirby-s-dream-collection-special-edition.svg",
+    "alt": "Kirby's Dream Collection - Special Edition (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "kirbysreturntodreamlandkirbywiirecomp": {
+    "src": "https://openportsgames.com/covers/generated/kirby-s-return-to-dream-land-kirby-wii-recomp.svg",
+    "alt": "Kirby's Return to Dream Land (Kirby Wii Recomp) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "knyttstories": {
+    "src": "https://openportsgames.com/covers/generated/knytt-stories.svg",
+    "alt": "Knytt Stories (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "korokoropostnin": {
+    "src": "https://openportsgames.com/covers/generated/korokoro-postnin.svg",
+    "alt": "KoroKoro Postnin (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "komputerowagratka3dmagicznakulapapatki": {
+    "src": "https://openportsgames.com/covers/generated/komputerowa-gratka-3d-magiczna-kula-papatki.svg",
+    "alt": "Komputerowa Gratka 3D - Magiczna Kula Papatki (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "flipendo": {
+    "src": "https://openportsgames.com/covers/generated/flipendo.svg",
+    "alt": "Flipendo (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "kumidaikobeatoff64": {
+    "src": "https://openportsgames.com/covers/generated/kumi-daiko-beatoff-64.svg",
+    "alt": "Kumi-Daiko Beatoff 64 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "kungfumaster": {
+    "src": "https://openportsgames.com/covers/generated/kung-fu-master.svg",
+    "alt": "Kung Fu Master (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "kuonmulberry": {
+    "src": "https://openportsgames.com/covers/generated/kuon-mulberry.svg",
+    "alt": "Kuon (Mulberry) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "acesofthepacificenhanced": {
+    "src": "https://openportsgames.com/covers/generated/aces-of-the-pacific-enhanced.svg",
+    "alt": "Aces of the Pacific Enhanced (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "testdriveiii": {
+    "src": "https://openportsgames.com/covers/generated/test-drive-iii.svg",
+    "alt": "Test Drive III (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "testdriveiiienhanced": {
+    "src": "https://openportsgames.com/covers/generated/test-drive-iii-enhanced.svg",
+    "alt": "Test Drive III Enhanced (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "castlevaniaorderofecclesia": {
+    "src": "https://openportsgames.com/covers/generated/castlevania-order-of-ecclesia.svg",
+    "alt": "Castlevania: Order of Ecclesia (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "godhand": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/978970/header.jpg?t=1549857430",
+    "alt": "God Hand (Steam header)",
+    "credit": "Steam"
+  },
+  "midnightclub3dubedition": {
+    "src": "https://openportsgames.com/covers/generated/midnight-club-3-dub-edition.svg",
+    "alt": "Midnight Club 3: DUB Edition (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "professorlaytonandthemansionofthedeathlymirror": {
+    "src": "https://openportsgames.com/covers/generated/professor-layton-and-the-mansion-of-the-deathly-mirror.svg",
+    "alt": "Professor Layton and the Mansion of the Deathly Mirror (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "lba2classiccommunity": {
+    "src": "https://openportsgames.com/covers/generated/lba2-classic-community.svg",
+    "alt": "lba2-classic-community (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ledhead": {
+    "src": "https://openportsgames.com/covers/generated/ledhead.svg",
+    "alt": "LedHEAD (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "legoworldbuilder": {
+    "src": "https://openportsgames.com/covers/generated/lego-world-builder.svg",
+    "alt": "LEGO World Builder (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "legoland": {
+    "src": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/bd/Legoland_Parks_logo.svg/960px-Legoland_Parks_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Legoland (box art)",
+    "credit": "Wikipedia"
+  },
+  "killzoneshadowfall": {
+    "src": "https://openportsgames.com/covers/generated/killzone-shadow-fall.svg",
+    "alt": "Killzone Shadow Fall (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "dukenukemii": {
+    "src": "https://openportsgames.com/covers/generated/duke-nukem-ii.svg",
+    "alt": "Duke Nukem II (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "lightsout": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/948080/header.jpg?t=1751125061",
+    "alt": "Lights Out (Steam header)",
+    "credit": "Steam"
+  },
+  "warioland4": {
+    "src": "https://openportsgames.com/covers/generated/wario-land-4.svg",
+    "alt": "Wario Land 4 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "liliumvoyager": {
+    "src": "https://openportsgames.com/covers/generated/lilium-voyager.svg",
+    "alt": "lilium-voyager (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "hover": {
+    "src": "https://openportsgames.com/covers/generated/hover.svg",
+    "alt": "HOVER! (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "darkwatch": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2746680/89d96217042c604c66969b173a8b371aff3072bb/header.jpg?t=1761409545",
+    "alt": "Darkwatch (Steam header)",
+    "credit": "Steam"
+  },
+  "lionheartremake": {
+    "src": "https://openportsgames.com/covers/generated/lionheart-remake.svg",
+    "alt": "Lionheart Remake (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "thelordoftheringsthereturnoftheking": {
+    "src": "https://openportsgames.com/covers/generated/the-lord-of-the-rings-the-return-of-the-king.svg",
+    "alt": "The Lord of the Rings: The Return of the King (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "thelordoftheringsthetwotowers": {
+    "src": "https://openportsgames.com/covers/generated/the-lord-of-the-rings-the-two-towers.svg",
+    "alt": "The Lord of the Rings: The Two Towers (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "lugaru": {
+    "src": "https://openportsgames.com/covers/generated/lugaru.svg",
+    "alt": "Lugaru (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "mabecsinternationalsuperstarsoccer2000": {
+    "src": "https://openportsgames.com/covers/generated/mabecs-international-superstar-soccer-2000.svg",
+    "alt": "Mabecs International Superstar Soccer 2000 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "machines": {
+    "src": "https://openportsgames.com/covers/generated/machines.svg",
+    "alt": "machines (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "madnesspatch": {
+    "src": "https://openportsgames.com/covers/generated/madnesspatch.svg",
+    "alt": "MadnessPatch (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "monsterhunterfreedomunite": {
+    "src": "https://openportsgames.com/covers/generated/monster-hunter-freedom-unite.svg",
+    "alt": "Monster Hunter Freedom Unite (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "marioluigidreamteam": {
+    "src": "https://openportsgames.com/covers/generated/mario-luigi-dream-team.svg",
+    "alt": "Mario & Luigi: Dream Team (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "mariosportmix": {
+    "src": "https://openportsgames.com/covers/generated/mario-sport-mix.svg",
+    "alt": "Mario Sport Mix (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "marioteachestyping3": {
+    "src": "https://openportsgames.com/covers/generated/mario-teaches-typing-3.svg",
+    "alt": "Mario Teaches Typing 3 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "urbanassault": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4797420/be2d61831984032284d79e68851961f65800ce48/header.jpg?t=1783580517",
+    "alt": "Urban Assault (Steam header)",
+    "credit": "Steam"
+  },
+  "elite": {
+    "src": "https://openportsgames.com/covers/generated/elite.svg",
+    "alt": "Elite (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "marvelvscapcom2": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Marvel_vs_Capcom_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "alt": "Marvel vs. Capcom 2 (box art)",
+    "credit": "Wikipedia"
+  },
+  "masseffect": {
+    "src": "https://openportsgames.com/covers/generated/mass-effect.svg",
+    "alt": "Mass Effect (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "championshipmanagerseason0102": {
+    "src": "https://openportsgames.com/covers/generated/championship-manager-season-01-02.svg",
+    "alt": "Championship Manager: Season 01/02 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "maxr": {
+    "src": "https://openportsgames.com/covers/generated/maxr.svg",
+    "alt": "maxr (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "mc2": {
+    "src": "https://openportsgames.com/covers/generated/mc2.svg",
+    "alt": "mc2 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "thebigs2": {
+    "src": "https://openportsgames.com/covers/generated/the-bigs-2.svg",
+    "alt": "The Bigs 2 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "medalofhonor": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/47790/header.jpg?t=1777494872",
+    "alt": "Medal of Honor (Steam header)",
+    "credit": "Steam"
+  },
+  "megacarwars": {
+    "src": "https://openportsgames.com/covers/generated/mega-car-wars.svg",
+    "alt": "Mega Car Wars (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "megadriveinvaders": {
+    "src": "https://openportsgames.com/covers/generated/mega-drive-invaders.svg",
+    "alt": "Mega Drive Invaders (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "meleepc": {
+    "src": "https://openportsgames.com/covers/generated/meleepc.svg",
+    "alt": "MeleePC (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "fallouttacticsbrotherhoodofsteel": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/38420/header.jpg?t=1572025647",
+    "alt": "Fallout Tactics: Brotherhood of Steel (Steam header)",
+    "credit": "Steam"
+  },
+  "silentstorm": {
+    "src": "https://openportsgames.com/covers/generated/silent-storm.svg",
+    "alt": "Silent Storm (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "legendsoffuturepast": {
+    "src": "https://openportsgames.com/covers/generated/legends-of-future-past.svg",
+    "alt": "Legends of Future Past (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "metroidfusion": {
+    "src": "https://openportsgames.com/covers/generated/metroid-fusion.svg",
+    "alt": "Metroid Fusion (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "micropolis": {
+    "src": "https://openportsgames.com/covers/generated/micropolis.svg",
+    "alt": "Micropolis (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "jackal": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124230/953b10dcee407cbb6671efd94d889a63b3746eb7/header.jpg?t=1789794066",
+    "alt": "Jackal (Steam header)",
+    "credit": "Steam"
+  },
+  "minecraftnintendoswitchedition": {
+    "src": "https://openportsgames.com/covers/generated/minecraft-nintendo-switch-edition.svg",
+    "alt": "Minecraft: Nintendo Switch Edition (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "mintarena": {
+    "src": "https://openportsgames.com/covers/generated/mint-arena.svg",
+    "alt": "mint-arena (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "miroh": {
+    "src": "https://openportsgames.com/covers/generated/miroh.svg",
+    "alt": "Miroh (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "mirrorsedge": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/17410/header.jpg?t=1777394972",
+    "alt": "Mirror's Edge (Steam header)",
+    "credit": "Steam"
+  },
+  "callofdutyblackops": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/42700/header.jpg?t=1780962720",
+    "alt": "Call of Duty: Black Ops (Steam header)",
+    "credit": "Steam"
+  },
+  "mixelsrush": {
+    "src": "https://openportsgames.com/covers/generated/mixels-rush.svg",
+    "alt": "Mixels Rush (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "spacestationsiliconvalley": {
+    "src": "https://openportsgames.com/covers/generated/space-station-silicon-valley.svg",
+    "alt": "Space Station Silicon Valley (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "monsterhunter3ultimate": {
+    "src": "https://openportsgames.com/covers/generated/monster-hunter-3-ultimate.svg",
+    "alt": "Monster Hunter 3 Ultimate (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "moon": {
+    "src": "https://openportsgames.com/covers/generated/moon.svg",
+    "alt": "Moon (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "moonwake": {
+    "src": "https://openportsgames.com/covers/generated/moonwake.svg",
+    "alt": "Moonwake (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "moonchild": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656060/cf7ec3d8eed4e8058ed8b50eeaa1c4b637928d07/header.jpg?t=1782909854",
+    "alt": "Moon Child (Steam header)",
+    "credit": "Steam"
+  },
+  "rallisportchallenge2": {
+    "src": "https://openportsgames.com/covers/generated/rallisport-challenge-2.svg",
+    "alt": "RalliSport Challenge 2 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "mother12japan": {
+    "src": "https://openportsgames.com/covers/generated/mother-1-2-japan.svg",
+    "alt": "Mother 1+2 (Japan) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "motherearthboundzeroearthboundbeginnings": {
+    "src": "https://openportsgames.com/covers/generated/mother-earthbound-zero-earthbound-beginnings.svg",
+    "alt": "Mother/Earthbound Zero/Earthbound Beginnings (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "mrboom": {
+    "src": "https://openportsgames.com/covers/generated/mr-boom.svg",
+    "alt": "Mr.Boom (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "virtuafighter3": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Virtua_Fighter_2024_Logo.png/960px-Virtua_Fighter_2024_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Virtua Fighter 3 (box art)",
+    "credit": "Wikipedia"
+  },
+  "megamanx3": {
+    "src": "https://openportsgames.com/covers/generated/mega-man-x3.svg",
+    "alt": "Mega Man X3 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "mudkipadventures": {
+    "src": "https://openportsgames.com/covers/generated/mudkip-adventures.svg",
+    "alt": "Mudkip Adventures (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "multidrcspacedemo": {
+    "src": "https://openportsgames.com/covers/generated/multidrc-space-demo.svg",
+    "alt": "MultiDRC Space Demo (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "metrowerkscodewarriorforgamecube": {
+    "src": "https://openportsgames.com/covers/generated/metrowerks-codewarrior-for-gamecube.svg",
+    "alt": "Metrowerks CodeWarrior for GameCube (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "uridiumuridiumuridiumfraktion": {
+    "src": "https://openportsgames.com/covers/generated/uridium-uridium-uridiumfraktion.svg",
+    "alt": "Uridium (uridium (+ UridiumFraktion)) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "touhou8imperishablenight": {
+    "src": "https://openportsgames.com/covers/generated/touhou-8-imperishable-night.svg",
+    "alt": "Touhou 8: Imperishable Night (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "narutoshippudenultimateninjastorm3fullburst": {
+    "src": "https://openportsgames.com/covers/generated/naruto-shippuden-ultimate-ninja-storm-3-full-burst.svg",
+    "alt": "Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "naughtybearpanicinparadise": {
+    "src": "https://openportsgames.com/covers/generated/naughty-bear-panic-in-paradise.svg",
+    "alt": "Naughty Bear: Panic in Paradise (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "theterminatorskynet": {
+    "src": "https://openportsgames.com/covers/generated/the-terminator-skynet.svg",
+    "alt": "The Terminator: SkyNET (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "navyfield2000pc": {
+    "src": "https://openportsgames.com/covers/generated/navyfield-2000-pc.svg",
+    "alt": "NavyField 2000 PC (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "redneckrampage": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/565550/header.jpg?t=1670444866",
+    "alt": "Redneck Rampage (Steam header)",
+    "credit": "Steam"
+  },
+  "nearchuckle": {
+    "src": "https://openportsgames.com/covers/generated/nearchuckle.svg",
+    "alt": "NearChuckle (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "needforspeed16": {
+    "src": "https://openportsgames.com/covers/generated/need-for-speed-1-6.svg",
+    "alt": "Need For Speed 1-6 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "needforspeedhighstakesps1": {
+    "src": "https://openportsgames.com/covers/generated/need-for-speed-high-stakes-ps1.svg",
+    "alt": "Need for Speed: High Stakes (PS1) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "neonvalley": {
+    "src": "https://openportsgames.com/covers/generated/neon-valley.svg",
+    "alt": "Neon Valley (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "thewingofmadoola": {
+    "src": "https://openportsgames.com/covers/generated/the-wing-of-madoola.svg",
+    "alt": "The Wing of Madoola (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ninjagaidenblack": {
+    "src": "https://openportsgames.com/covers/generated/ninja-gaiden-black.svg",
+    "alt": "Ninja Gaiden Black (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "novathesquirrel": {
+    "src": "https://openportsgames.com/covers/generated/nova-the-squirrel.svg",
+    "alt": "Nova the Squirrel (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "newsupermariobros": {
+    "src": "https://openportsgames.com/covers/generated/new-super-mario-bros.svg",
+    "alt": "New Super Mario Bros. (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "neverwinternightsenhancededition": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/704450/header.jpg?t=1746124805",
+    "alt": "Neverwinter Nights: Enhanced Edition (Steam header)",
+    "credit": "Steam"
+  },
+  "nxedashboard9199": {
+    "src": "https://openportsgames.com/covers/generated/nxe-dashboard-9199.svg",
+    "alt": "NXE Dashboard 9199 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "animalcrossingnewhorizons": {
+    "src": "https://openportsgames.com/covers/generated/animal-crossing-new-horizons.svg",
+    "alt": "Animal Crossing: New Horizons (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "o21": {
+    "src": "https://openportsgames.com/covers/generated/o21.svg",
+    "alt": "O21 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "oddworld12": {
+    "src": "https://openportsgames.com/covers/generated/oddworld-1-2.svg",
+    "alt": "Oddworld 1-2 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "callofdutyblackopsii": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/202970/header.jpg?t=1780962925",
+    "alt": "Call of Duty: Black Ops II (Steam header)",
+    "credit": "Steam"
+  },
+  "omegaengine": {
+    "src": "https://openportsgames.com/covers/generated/omega-engine.svg",
+    "alt": "OmegA-engine (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "battlearenatoshinden": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/BattleArenaToshinden.svg/960px-BattleArenaToshinden.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Battle Arena Toshinden (box art)",
+    "credit": "Wikipedia"
+  },
+  "onegaimonsters": {
+    "src": "https://openportsgames.com/covers/generated/onegai-monsters.svg",
+    "alt": "Onegai Monsters (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "openannihilation": {
+    "src": "https://openportsgames.com/covers/generated/open-annihilation.svg",
+    "alt": "Open Annihilation (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "thelordoftheringsthebattleformiddleearthii": {
+    "src": "https://openportsgames.com/covers/generated/the-lord-of-the-rings-the-battle-for-middle-earth-ii.svg",
+    "alt": "The Lord of the Rings: The Battle for Middle-earth II (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "mightandmagicviviii": {
+    "src": "https://openportsgames.com/covers/generated/might-and-magic-vi-viii.svg",
+    "alt": "Might and Magic VI-VIII (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "jakanddaxterjakiijak3": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Jak_and_Daxter_logo_black.svg/960px-Jak_and_Daxter_logo_black.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Jak and Daxter / Jak II / Jak 3 (box art)",
+    "credit": "Wikipedia"
+  },
+  "happywheels": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Happy_Wheels_Logo.png/960px-Happy_Wheels_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Happy Wheels (box art)",
+    "credit": "Wikipedia"
+  },
+  "xcomufodefense": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7760/header.jpg?t=1571243544",
+    "alt": "XCom: UFO Defense (Steam header)",
+    "credit": "Steam"
+  },
+  "openarena": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Openarena-logo.svg/960px-Openarena-logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "OpenArena (box art)",
+    "credit": "Wikipedia"
+  },
+  "openbor": {
+    "src": "https://openportsgames.com/covers/generated/openbor.svg",
+    "alt": "OpenBoR (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "openciv3": {
+    "src": "https://openportsgames.com/covers/generated/openciv3.svg",
+    "alt": "OpenCiv3 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "callofdutyunitedoffensive": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2640/header.jpg?t=1780962034",
+    "alt": "Call of Duty: United Offensive (Steam header)",
+    "credit": "Steam"
+  },
+  "opene2140": {
+    "src": "https://openportsgames.com/covers/generated/opene2140.svg",
+    "alt": "OpenE2140 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "totalannihilationkingdoms": {
+    "src": "https://openportsgames.com/covers/generated/total-annihilation-kingdoms.svg",
+    "alt": "Total Annihilation: Kingdoms (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "openkrush": {
+    "src": "https://openportsgames.com/covers/generated/openkrush.svg",
+    "alt": "OpenKrush (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "locomotion": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Yellowfin_tuna_nurp.jpg/960px-Yellowfin_tuna_nurp.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Locomotion (box art)",
+    "credit": "Wikipedia"
+  },
+  "legostuntrally": {
+    "src": "https://openportsgames.com/covers/generated/lego-stunt-rally.svg",
+    "alt": "LEGO Stunt Rally (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "openmb": {
+    "src": "https://openportsgames.com/covers/generated/openmb.svg",
+    "alt": "OpenMB (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "nox": {
+    "src": "https://openportsgames.com/covers/generated/nox.svg",
+    "alt": "Nox (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "openomf": {
+    "src": "https://openportsgames.com/covers/generated/openomf.svg",
+    "alt": "openomf (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ratchetclankgoingcommando": {
+    "src": "https://openportsgames.com/covers/generated/ratchet-clank-going-commando.svg",
+    "alt": "Ratchet & Clank: Going Commando (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "openreliant": {
+    "src": "https://openportsgames.com/covers/generated/openreliant.svg",
+    "alt": "OpenReliant (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "legostarwarsthecompletesaga": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/32440/header.jpg?t=1604517910",
+    "alt": "Lego Star Wars: The Complete Saga (Steam header)",
+    "credit": "Steam"
+  },
+  "opensc2k": {
+    "src": "https://openportsgames.com/covers/generated/opensc2k.svg",
+    "alt": "OpenSC2K (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "openspideyps1": {
+    "src": "https://openportsgames.com/covers/generated/openspideyps1.svg",
+    "alt": "OpenSpideyPS1 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "silkroadonline": {
+    "src": "https://openportsgames.com/covers/generated/silkroad-online.svg",
+    "alt": "Silkroad Online (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "openstrike": {
+    "src": "https://openportsgames.com/covers/generated/openstrike.svg",
+    "alt": "OpenStrike (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "opentie": {
+    "src": "https://openportsgames.com/covers/generated/opentie.svg",
+    "alt": "OpenTIE (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "opentpw": {
+    "src": "https://openportsgames.com/covers/generated/opentpw.svg",
+    "alt": "OpenTPW (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "openttdopenttdpatches": {
+    "src": "https://openportsgames.com/covers/generated/openttd-openttd-patches.svg",
+    "alt": "OpenTTD (OpenTTD-patches) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "openxvt": {
+    "src": "https://openportsgames.com/covers/generated/openxvt.svg",
+    "alt": "OpenXvT (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "openxw": {
+    "src": "https://openportsgames.com/covers/generated/openxw.svg",
+    "alt": "OpenXW (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "openxwa": {
+    "src": "https://openportsgames.com/covers/generated/openxwa.svg",
+    "alt": "OpenXWA (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ophd": {
+    "src": "https://openportsgames.com/covers/generated/ophd.svg",
+    "alt": "OPHD (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "oracleofagesandseasons": {
+    "src": "https://openportsgames.com/covers/generated/oracle-of-ages-and-seasons.svg",
+    "alt": "Oracle of Ages and Seasons (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "thelegendofzeldaoracleofages": {
+    "src": "https://openportsgames.com/covers/generated/the-legend-of-zelda-oracle-of-ages.svg",
+    "alt": "The Legend of Zelda: Oracle of Ages (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "dragonballzbudokaitenkaichi2": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/b/bd/DBZBudokailogo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "alt": "Dragon Ball Z: Budokai Tenkaichi 2 (box art)",
+    "credit": "Wikipedia"
+  },
+  "osu": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Osu%21_logo_2024.png/960px-Osu%21_logo_2024.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "osu! (box art)",
+    "credit": "Wikipedia"
+  },
+  "othello": {
+    "src": "https://openportsgames.com/covers/generated/othello.svg",
+    "alt": "Othello (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "linksawakening": {
+    "src": "https://openportsgames.com/covers/generated/link-s-awakening.svg",
+    "alt": "Link's Awakening (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "grandtheftautov": {
+    "src": "https://openportsgames.com/covers/generated/grand-theft-auto-v.svg",
+    "alt": "Grand Theft Auto V (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "pt": {
+    "src": "https://openportsgames.com/covers/generated/p-t.svg",
+    "alt": "P.T. (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "papaspizzeria": {
+    "src": "https://openportsgames.com/covers/generated/papa-s-pizzeria.svg",
+    "alt": "Papa's Pizzeria (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "paperboy": {
+    "src": "https://openportsgames.com/covers/generated/paperboy.svg",
+    "alt": "Paperboy (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "parabellum": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1338410/header.jpg?t=1603459228",
+    "alt": "parabellum (Steam header)",
+    "credit": "Steam"
+  },
+  "plantsvszombiesgoty": {
+    "src": "https://openportsgames.com/covers/generated/plants-vs-zombies-goty.svg",
+    "alt": "Plants vs Zombies GOTY (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "chuckieegg": {
+    "src": "https://openportsgames.com/covers/generated/chuckie-egg.svg",
+    "alt": "Chuckie Egg (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "cobra": {
+    "src": "https://openportsgames.com/covers/generated/cobra.svg",
+    "alt": "Cobra (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "hyperactive": {
+    "src": "https://openportsgames.com/covers/generated/hyper-active.svg",
+    "alt": "Hyper Active (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "permafrostengine": {
+    "src": "https://openportsgames.com/covers/generated/permafrost-engine.svg",
+    "alt": "permafrost-engine (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "persona3fes": {
+    "src": "https://openportsgames.com/covers/generated/persona-3-fes.svg",
+    "alt": "Persona 3 FES (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "petthecat": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4605210/1b7d65e149f3f82f09d9ffc7867b331f453b90dc/header.jpg?t=1791988138",
+    "alt": "Pet the Cat (Steam header)",
+    "credit": "Steam"
+  },
+  "petris": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2641060/header.jpg?t=1710516435",
+    "alt": "Petris (Steam header)",
+    "credit": "Steam"
+  },
+  "pinballnx": {
+    "src": "https://openportsgames.com/covers/generated/pinball-nx.svg",
+    "alt": "Pinball NX (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "pingo": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4553020/9b3e27cb764a37bcda8fe2ce2a39b21e2ac1e69e/header.jpg?t=1790280852",
+    "alt": "Pingo (Steam header)",
+    "credit": "Steam"
+  },
+  "anodyne": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/234900/header.jpg?t=1792017927",
+    "alt": "Anodyne (Steam header)",
+    "credit": "Steam"
+  },
+  "platformshooter": {
+    "src": "https://openportsgames.com/covers/generated/platform-shooter.svg",
+    "alt": "Platform Shooter (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "openz": {
+    "src": "https://openportsgames.com/covers/generated/openz.svg",
+    "alt": "OpenZ (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "playstunts": {
+    "src": "https://openportsgames.com/covers/generated/playstunts.svg",
+    "alt": "PlayStunts (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "plumbersdontwearties": {
+    "src": "https://openportsgames.com/covers/generated/plumber-s-don-t-wear-ties.svg",
+    "alt": "Plumber's Don't Wear Ties (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "pocketvoxel": {
+    "src": "https://openportsgames.com/covers/generated/pocket-voxel.svg",
+    "alt": "Pocket Voxel (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "pointblank": {
+    "src": "https://openportsgames.com/covers/generated/point-blank.svg",
+    "alt": "Point Blank (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "pokemonemerald3dpokeemerald3d": {
+    "src": "https://openportsgames.com/covers/generated/pokemon-emerald-3d-pokeemerald-3d.svg",
+    "alt": "Pokemon Emerald 3D (pokeemerald-3d) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "pokemongoldspaceworlddemo": {
+    "src": "https://openportsgames.com/covers/generated/pokemon-gold-spaceworld-demo.svg",
+    "alt": "Pokemon Gold SpaceWorld Demo (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "pokemonletsgoeevee": {
+    "src": "https://openportsgames.com/covers/generated/pokemon-let-s-go-eevee.svg",
+    "alt": "Pokémon: Let's Go, Eevee! (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "pokemonmdred": {
+    "src": "https://openportsgames.com/covers/generated/pokemon-md-red.svg",
+    "alt": "Pokemon MD Red (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "pokemonmdsky": {
+    "src": "https://openportsgames.com/covers/generated/pokemon-md-sky.svg",
+    "alt": "Pokemon MD Sky (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "pokemonreloaded": {
+    "src": "https://openportsgames.com/covers/generated/pokemon-reloaded.svg",
+    "alt": "Pokemon Reloaded (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "pokemonstadium1": {
+    "src": "https://openportsgames.com/covers/generated/pokemon-stadium-1.svg",
+    "alt": "Pokemon Stadium 1 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "pokemonsurvivorburst": {
+    "src": "https://openportsgames.com/covers/generated/pokemon-survivor-burst.svg",
+    "alt": "Pokémon Survivor Burst (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "pokemontcg1": {
+    "src": "https://openportsgames.com/covers/generated/pokemon-tcg-1.svg",
+    "alt": "Pokemon TCG 1 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "pokemontcg2": {
+    "src": "https://openportsgames.com/covers/generated/pokemon-tcg-2.svg",
+    "alt": "Pokemon TCG 2 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "pokemonyellow": {
+    "src": "https://openportsgames.com/covers/generated/pokemon-yellow.svg",
+    "alt": "Pokemon Yellow (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "pong": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Signed_Pong_Cabinet.jpg/960px-Signed_Pong_Cabinet.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Pong (box art)",
+    "credit": "Wikipedia"
+  },
+  "powder": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/3/31/PowderToy.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "alt": "POWDER (box art)",
+    "credit": "Wikipedia"
+  },
+  "underworldrevisited": {
+    "src": "https://openportsgames.com/covers/generated/underworld-revisited.svg",
+    "alt": "Underworld Revisited (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "prehistorik2": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/749140/header.jpg?t=1762283986",
+    "alt": "Prehistorik 2 (Steam header)",
+    "credit": "Steam"
+  },
+  "princemonogame": {
+    "src": "https://openportsgames.com/covers/generated/prince-monogame.svg",
+    "alt": "Prince-Monogame (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "princeofpersiathesandsoftime": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13600/header.jpg?t=1720535333",
+    "alt": "Prince of Persia: The Sands of Time (Steam header)",
+    "credit": "Steam"
+  },
+  "11eyescrossover": {
+    "src": "https://openportsgames.com/covers/generated/11eyes-crossover.svg",
+    "alt": "11eyes CrossOver (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "sanfranciscorush": {
+    "src": "https://openportsgames.com/covers/generated/san-francisco-rush.svg",
+    "alt": "San Francisco Rush (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "legorockraiders": {
+    "src": "https://openportsgames.com/covers/generated/lego-rock-raiders.svg",
+    "alt": "LEGO Rock Raiders (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "wwe13": {
+    "src": "https://openportsgames.com/covers/generated/wwe-13.svg",
+    "alt": "WWE '13 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ps2osdsys": {
+    "src": "https://openportsgames.com/covers/generated/ps2-osdsys.svg",
+    "alt": "PS2 OSDSYS (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ps1psyqsdklibraries": {
+    "src": "https://openportsgames.com/covers/generated/ps1-psy-q-sdk-libraries.svg",
+    "alt": "PS1 Psy-Q SDK Libraries (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "astralchain": {
+    "src": "https://openportsgames.com/covers/generated/astral-chain.svg",
+    "alt": "Astral Chain (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "q2rtxperimental": {
+    "src": "https://openportsgames.com/covers/generated/q2rtxperimental.svg",
+    "alt": "Q2RTXPerimental (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "q2tools220": {
+    "src": "https://openportsgames.com/covers/generated/q2tools-220.svg",
+    "alt": "q2tools-220 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "quakemissionpack2dissolutionofeternity": {
+    "src": "https://openportsgames.com/covers/generated/quake-mission-pack-2-dissolution-of-eternity.svg",
+    "alt": "QUAKE Mission Pack 2: Dissolution of Eternity (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "quakemissionpack1scourgeofarmagon": {
+    "src": "https://openportsgames.com/covers/generated/quake-mission-pack-1-scourge-of-armagon.svg",
+    "alt": "QUAKE Mission Pack 1: Scourge of Armagon (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "quake3e": {
+    "src": "https://openportsgames.com/covers/generated/quake3e.svg",
+    "alt": "Quake3e (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "quakeforge": {
+    "src": "https://openportsgames.com/covers/generated/quakeforge.svg",
+    "alt": "quakeforge (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "outrun2006coast2coast": {
+    "src": "https://openportsgames.com/covers/generated/outrun-2006-coast-2-coast.svg",
+    "alt": "OutRun 2006: Coast 2 Coast (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "raceintospace": {
+    "src": "https://openportsgames.com/covers/generated/race-into-space.svg",
+    "alt": "Race into Space (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "radiohelicopter": {
+    "src": "https://openportsgames.com/covers/generated/radio-helicopter.svg",
+    "alt": "Radio Helicopter (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "pokemongoldandsilver": {
+    "src": "https://openportsgames.com/covers/generated/pokemon-gold-and-silver.svg",
+    "alt": "Pokémon Gold and Silver (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "acecombat6firesofliberation": {
+    "src": "https://openportsgames.com/covers/generated/ace-combat-6-fires-of-liberation.svg",
+    "alt": "Ace Combat 6: Fires of Liberation (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "raptorcalloftheshadows": {
+    "src": "https://openportsgames.com/covers/generated/raptor-call-of-the-shadows.svg",
+    "alt": "Raptor: Call of the Shadows (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ratatouille": {
+    "src": "https://openportsgames.com/covers/generated/ratatouille.svg",
+    "alt": "Ratatouille (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ratchetclankgoingcommandousav101": {
+    "src": "https://openportsgames.com/covers/generated/ratchet-clank-going-commando-usa-v1-01.svg",
+    "alt": "Ratchet & Clank: Going Commando (USA v1.01) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ratchetclankpal": {
+    "src": "https://openportsgames.com/covers/generated/ratchet-clank-pal.svg",
+    "alt": "Ratchet & Clank (PAL) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ratchetclankusa": {
+    "src": "https://openportsgames.com/covers/generated/ratchet-clank-usa.svg",
+    "alt": "Ratchet & Clank (USA) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "rayman3": {
+    "src": "https://openportsgames.com/covers/generated/rayman-3.svg",
+    "alt": "Rayman 3 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "rebellion2": {
+    "src": "https://openportsgames.com/covers/generated/rebellion2.svg",
+    "alt": "rebellion2 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "nbastreetv3": {
+    "src": "https://openportsgames.com/covers/generated/nba-street-v3.svg",
+    "alt": "NBA Street V3 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "realsteel": {
+    "src": "https://openportsgames.com/covers/generated/real-steel.svg",
+    "alt": "Real Steel (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "hitmancodename47": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6900/header.jpg?t=1732283914",
+    "alt": "Hitman: Codename 47 (Steam header)",
+    "credit": "Steam"
+  },
+  "remc2": {
+    "src": "https://openportsgames.com/covers/generated/remc2.svg",
+    "alt": "remc2 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "reraclauncher": {
+    "src": "https://openportsgames.com/covers/generated/rerac-launcher.svg",
+    "alt": "rerac launcher (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "residentevil4dreamcastportre4dc": {
+    "src": "https://openportsgames.com/covers/generated/resident-evil-4-dreamcast-port-re4dc.svg",
+    "alt": "Resident Evil 4 (Dreamcast port, re4dc) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "legendarywings": {
+    "src": "https://openportsgames.com/covers/generated/legendary-wings.svg",
+    "alt": "Legendary Wings (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "richman4": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2059810/header.jpg?t=1658992525",
+    "alt": "Richman 4 (Steam header)",
+    "credit": "Steam"
+  },
+  "theworldisnotenough": {
+    "src": "https://openportsgames.com/covers/generated/the-world-is-not-enough.svg",
+    "alt": "The World Is Not Enough (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "roadtrip": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1998390/header.jpg?t=1653589274",
+    "alt": "Road Trip (Steam header)",
+    "credit": "Steam"
+  },
+  "robinhoodsplatformgame": {
+    "src": "https://openportsgames.com/covers/generated/robin-hood-s-platform-game.svg",
+    "alt": "Robin Hood's Platform Game (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "roborun": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1081720/header.jpg?t=1558885856",
+    "alt": "RoboRun (Steam header)",
+    "credit": "Steam"
+  },
+  "rockbot": {
+    "src": "https://openportsgames.com/covers/generated/rockbot.svg",
+    "alt": "Rockbot (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "roller": {
+    "src": "https://openportsgames.com/covers/generated/roller.svg",
+    "alt": "Roller (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "romanovsvengeance": {
+    "src": "https://openportsgames.com/covers/generated/romanov-s-vengeance.svg",
+    "alt": "Romanov's Vengeance (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "rotpfusion": {
+    "src": "https://openportsgames.com/covers/generated/rotp-fusion.svg",
+    "alt": "Rotp-Fusion (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "sonicnexus": {
+    "src": "https://openportsgames.com/covers/generated/sonic-nexus.svg",
+    "alt": "Sonic Nexus (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "sonicthehedgehog2013": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Sonic_The_Hedgehog.svg/960px-Sonic_The_Hedgehog.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Sonic the Hedgehog (2013) (box art)",
+    "credit": "Wikipedia"
+  },
+  "finalfantasyxi": {
+    "src": "https://openportsgames.com/covers/generated/final-fantasy-xi.svg",
+    "alt": "Final Fantasy XI (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "doubledragon": {
+    "src": "https://openportsgames.com/covers/generated/double-dragon.svg",
+    "alt": "Double Dragon (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "superdodgeball": {
+    "src": "https://openportsgames.com/covers/generated/super-dodge-ball.svg",
+    "alt": "Super Dodge Ball (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "runescape2003": {
+    "src": "https://openportsgames.com/covers/generated/runescape-2003.svg",
+    "alt": "Runescape (2003) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "sonicrushadventure": {
+    "src": "https://openportsgames.com/covers/generated/sonic-rush-adventure.svg",
+    "alt": "Sonic Rush Adventure (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ryzomcore": {
+    "src": "https://openportsgames.com/covers/generated/ryzom-core.svg",
+    "alt": "Ryzom Core (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "acecombat3": {
+    "src": "https://openportsgames.com/covers/generated/ace-combat-3.svg",
+    "alt": "Ace Combat 3 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "samegame": {
+    "src": "https://openportsgames.com/covers/generated/same-game.svg",
+    "alt": "Same Game (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "samuraivszombies": {
+    "src": "https://openportsgames.com/covers/generated/samurai-vs-zombies.svg",
+    "alt": "Samurai Vs Zombies (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "simcity2000": {
+    "src": "https://openportsgames.com/covers/generated/simcity-2000.svg",
+    "alt": "SimCity 2000 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ultimaivquestoftheavatar": {
+    "src": "https://openportsgames.com/covers/generated/ultima-iv-quest-of-the-avatar.svg",
+    "alt": "Ultima IV: Quest of the Avatar (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "crusadernoremorse": {
+    "src": "https://openportsgames.com/covers/generated/crusader-no-remorse.svg",
+    "alt": "Crusader: No Remorse (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "segasonicthehedgehog": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Sonic_The_Hedgehog.svg/960px-Sonic_The_Hedgehog.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "SegaSonic the Hedgehog (box art)",
+    "credit": "Wikipedia"
+  },
+  "theincredibles": {
+    "src": "https://openportsgames.com/covers/generated/the-incredibles.svg",
+    "alt": "The Incredibles (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "supaplex": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/833140/header.jpg?t=1694005824",
+    "alt": "Supaplex (Steam header)",
+    "credit": "Steam"
+  },
+  "serialexperimentslain": {
+    "src": "https://openportsgames.com/covers/generated/serial-experiments-lain.svg",
+    "alt": "Serial Experiments Lain (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "serioussamthesecondencounter": {
+    "src": "https://openportsgames.com/covers/generated/serious-sam-the-second-encounter.svg",
+    "alt": "Serious Sam: The Second Encounter (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "serioussamalpharemake": {
+    "src": "https://openportsgames.com/covers/generated/serioussamalpharemake.svg",
+    "alt": "SeriousSamAlphaRemake (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "serioussamclassicvk": {
+    "src": "https://openportsgames.com/covers/generated/serioussamclassic-vk.svg",
+    "alt": "SeriousSamClassic-VK (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "sfall": {
+    "src": "https://openportsgames.com/covers/generated/sfall.svg",
+    "alt": "sfall (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "shatteredparadise": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3970040/a966d7269d9b10e078402adb777de1b74878946c/header.jpg?t=1779039032",
+    "alt": "Shattered Paradise (Steam header)",
+    "credit": "Steam"
+  },
+  "sheepdognwolfrewooled": {
+    "src": "https://openportsgames.com/covers/generated/sheep-dog-n-wolf-rewooled.svg",
+    "alt": "Sheep Dog n Wolf: Rewooled (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "sheepdognwolfsheepraider": {
+    "src": "https://openportsgames.com/covers/generated/sheep-dog-n-wolf-sheep-raider.svg",
+    "alt": "Sheep Dog n' Wolf / Sheep Raider (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "shinbokuranotaiyougyakushuunosabata": {
+    "src": "https://openportsgames.com/covers/generated/shin-bokura-no-taiyou-gyakushuu-no-sabata.svg",
+    "alt": "Shin Bokura no Taiyou: Gyakushuu no Sabata (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "shortlinerailroad": {
+    "src": "https://openportsgames.com/covers/generated/shortline-railroad.svg",
+    "alt": "Shortline railroad (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "pokemonshowdown": {
+    "src": "https://openportsgames.com/covers/generated/pokemon-showdown.svg",
+    "alt": "Pokémon Showdown (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "simpsonswrestlingrecompiled": {
+    "src": "https://openportsgames.com/covers/generated/simpsons-wrestling-recompiled.svg",
+    "alt": "Simpsons Wrestling Recompiled (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "spiderman2": {
+    "src": "https://openportsgames.com/covers/generated/spider-man-2.svg",
+    "alt": "Spider-Man 2 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "sidmeierscivilization": {
+    "src": "https://openportsgames.com/covers/generated/sid-meier-s-civilization.svg",
+    "alt": "Sid Meier's Civilization (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "skiesofarcadialegends": {
+    "src": "https://openportsgames.com/covers/generated/skies-of-arcadia-legends.svg",
+    "alt": "Skies of Arcadia Legends (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "slitherlink": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Slitherlink-example.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "alt": "Slitherlink (box art)",
+    "credit": "Wikipedia"
+  },
+  "callofduty4modernwarfarekisakcodportweb": {
+    "src": "https://openportsgames.com/covers/generated/call-of-duty-4-modern-warfare-kisakcod-port-web.svg",
+    "alt": "Call of Duty 4: Modern Warfare (kisakcod-port (web)) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "supermariobros35": {
+    "src": "https://openportsgames.com/covers/generated/super-mario-bros-35.svg",
+    "alt": "Super Mario Bros. 35 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "supermarioadvance3yoshisisland": {
+    "src": "https://openportsgames.com/covers/generated/super-mario-advance-3-yoshi-s-island.svg",
+    "alt": "Super Mario Advance 3: Yoshi's Island (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "severancebladeofdarkness": {
+    "src": "https://openportsgames.com/covers/generated/severance-blade-of-darkness.svg",
+    "alt": "Severance: Blade of Darkness (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "supermariogalaxy2": {
+    "src": "https://openportsgames.com/covers/generated/super-mario-galaxy-2.svg",
+    "alt": "Super Mario Galaxy 2 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "supermariomaker2": {
+    "src": "https://openportsgames.com/covers/generated/super-mario-maker-2.svg",
+    "alt": "Super Mario Maker 2 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "callofduty2bigredone": {
+    "src": "https://openportsgames.com/covers/generated/call-of-duty-2-big-red-one.svg",
+    "alt": "Call of Duty 2: Big Red One (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "snailmail": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Snail_Mail_Treefort_2022_%28cropped%29.jpg/960px-Snail_Mail_Treefort_2022_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Snail Mail (box art)",
+    "credit": "Wikipedia"
+  },
+  "snake": {
+    "src": "https://openportsgames.com/covers/generated/snake.svg",
+    "alt": "Snake (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "snatcher": {
+    "src": "https://openportsgames.com/covers/generated/snatcher.svg",
+    "alt": "Snatcher (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "snek": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2162730/header.jpg?t=1701180035",
+    "alt": "Snek (Steam header)",
+    "credit": "Steam"
+  },
+  "trialshd": {
+    "src": "https://openportsgames.com/covers/generated/trials-hd.svg",
+    "alt": "Trials HD (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "solarguard": {
+    "src": "https://openportsgames.com/covers/generated/solar-guard.svg",
+    "alt": "Solar Guard (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "sonic06demo": {
+    "src": "https://openportsgames.com/covers/generated/sonic-06-demo.svg",
+    "alt": "Sonic 06 Demo (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "sonic1forever": {
+    "src": "https://openportsgames.com/covers/generated/sonic-1-forever.svg",
+    "alt": "Sonic 1 Forever (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "sonicmaniaplus": {
+    "src": "https://openportsgames.com/covers/generated/sonic-mania-plus.svg",
+    "alt": "Sonic Mania Plus (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "sonictimetwisted": {
+    "src": "https://openportsgames.com/covers/generated/sonic-time-twisted.svg",
+    "alt": "Sonic Time Twisted (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "hyrulewarriorsdefinitiveedition": {
+    "src": "https://openportsgames.com/covers/generated/hyrule-warriors-definitive-edition.svg",
+    "alt": "Hyrule Warriors: Definitive Edition (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "sopwithsdlsopwith": {
+    "src": "https://openportsgames.com/covers/generated/sopwith-sdl-sopwith.svg",
+    "alt": "Sopwith (SDL Sopwith) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "sopwith": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/9/97/Sopwith-screenshot.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "alt": "Sopwith (box art)",
+    "credit": "Wikipedia"
+  },
+  "soulcaliburiihdonline": {
+    "src": "https://openportsgames.com/covers/generated/soulcalibur-ii-hd-online.svg",
+    "alt": "Soulcalibur II HD Online (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "soulcaliburii": {
+    "src": "https://openportsgames.com/covers/generated/soulcalibur-ii.svg",
+    "alt": "Soulcalibur II (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "strongholdcrusader": {
+    "src": "https://openportsgames.com/covers/generated/stronghold-crusader.svg",
+    "alt": "Stronghold Crusader (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "megamanx4": {
+    "src": "https://openportsgames.com/covers/generated/mega-man-x4.svg",
+    "alt": "Mega Man X4 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "blackwhite": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1998450/header.jpg?t=1786000497",
+    "alt": "Black & White (Steam header)",
+    "credit": "Steam"
+  },
+  "grandtheftautogtalondon": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Grand_Theft_Auto_logo_series.svg/960px-Grand_Theft_Auto_logo_series.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Grand Theft Auto / GTA: London (box art)",
+    "credit": "Wikipedia"
+  },
+  "starwarsepisodeiracer": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/808910/header.jpg?t=1741811672",
+    "alt": "Star Wars Episode I: Racer (Steam header)",
+    "credit": "Steam"
+  },
+  "saintsrow": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Saints_Row_2022_black_logo.svg/960px-Saints_Row_2022_black_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Saints Row (box art)",
+    "credit": "Wikipedia"
+  },
+  "vigilante8arcade": {
+    "src": "https://openportsgames.com/covers/generated/vigilante-8-arcade.svg",
+    "alt": "Vigilante 8 Arcade (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "spacerangers": {
+    "src": "https://openportsgames.com/covers/generated/space-rangers.svg",
+    "alt": "Space Rangers (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "spacerescuesquad": {
+    "src": "https://openportsgames.com/covers/generated/space-rescue-squad.svg",
+    "alt": "Space Rescue Squad (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "spearmint": {
+    "src": "https://openportsgames.com/covers/generated/spearmint.svg",
+    "alt": "spearmint (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "speedacademy": {
+    "src": "https://openportsgames.com/covers/generated/speed-academy.svg",
+    "alt": "Speed-Academy (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "speedbreaker": {
+    "src": "https://openportsgames.com/covers/generated/speedbreaker.svg",
+    "alt": "SpeedBreaker (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "speedruntower": {
+    "src": "https://openportsgames.com/covers/generated/speedrun-tower.svg",
+    "alt": "Speedrun Tower (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "spelunkyclassichd": {
+    "src": "https://openportsgames.com/covers/generated/spelunky-classic-hd.svg",
+    "alt": "Spelunky Classic HD (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "castlevaniachronicles": {
+    "src": "https://openportsgames.com/covers/generated/castlevania-chronicles.svg",
+    "alt": "Castlevania Chronicles (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "splatoon": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Splatoon_monochrome_logo.svg/960px-Splatoon_monochrome_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Splatoon (box art)",
+    "credit": "Wikipedia"
+  },
+  "spongebobmovesin": {
+    "src": "https://openportsgames.com/covers/generated/spongebob-moves-in.svg",
+    "alt": "SpongeBob Moves In! (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "importtunerchallenge": {
+    "src": "https://openportsgames.com/covers/generated/import-tuner-challenge.svg",
+    "alt": "Import Tuner Challenge (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "spotify": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Spotify_HK_Stockholm.jpg/960px-Spotify_HK_Stockholm.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Spotify (box art)",
+    "credit": "Wikipedia"
+  },
+  "spout": {
+    "src": "https://openportsgames.com/covers/generated/spout.svg",
+    "alt": "Spout (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "sonicroboblast2kart": {
+    "src": "https://openportsgames.com/covers/generated/sonic-robo-blast-2-kart.svg",
+    "alt": "Sonic Robo Blast 2 Kart (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ssx": {
+    "src": "https://openportsgames.com/covers/generated/ssx.svg",
+    "alt": "SSX (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "starwarsepisode1racer": {
+    "src": "https://openportsgames.com/covers/generated/star-wars-episode-1-racer.svg",
+    "alt": "Star Wars Episode 1: Racer (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "starwarstheclonewars": {
+    "src": "https://openportsgames.com/covers/generated/star-wars-the-clone-wars.svg",
+    "alt": "Star Wars: The Clone Wars (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "starcraft64": {
+    "src": "https://openportsgames.com/covers/generated/starcraft-64.svg",
+    "alt": "StarCraft 64 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "starfallsalvage": {
+    "src": "https://openportsgames.com/covers/generated/starfall-salvage.svg",
+    "alt": "Starfall Salvage (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "starfoxrecomp": {
+    "src": "https://openportsgames.com/covers/generated/starfox-recomp.svg",
+    "alt": "Starfox Recomp (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "starshipmadness": {
+    "src": "https://openportsgames.com/covers/generated/starship-madness.svg",
+    "alt": "Starship Madness (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "bakagain": {
+    "src": "https://openportsgames.com/covers/generated/bak-again.svg",
+    "alt": "Bak-Again (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "rockmanexephantomofnetwork": {
+    "src": "https://openportsgames.com/covers/generated/rockman-exe-phantom-of-network.svg",
+    "alt": "Rockman EXE Phantom of Network (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "strikegunnerstg": {
+    "src": "https://openportsgames.com/covers/generated/strike-gunner-stg.svg",
+    "alt": "Strike Gunner STG (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "stunts4dsportsdriving": {
+    "src": "https://openportsgames.com/covers/generated/stunts-4d-sports-driving.svg",
+    "alt": "Stunts / 4D Sports Driving (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "sudokul": {
+    "src": "https://openportsgames.com/covers/generated/sudokul.svg",
+    "alt": "SuDokuL (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "summoner": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Shin_Megami_Tensei_-_Devil_Summoner_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "alt": "Summoner (box art)",
+    "credit": "Wikipedia"
+  },
+  "superkawaibreakupsim": {
+    "src": "https://openportsgames.com/covers/generated/super-kawai-breakup-sim.svg",
+    "alt": "Super Kawai Breakup Sim (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "supermario3dland": {
+    "src": "https://openportsgames.com/covers/generated/super-mario-3d-land.svg",
+    "alt": "Super Mario 3D Land (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "supermarioland26goldencoins": {
+    "src": "https://openportsgames.com/covers/generated/super-mario-land-2-6-golden-coins.svg",
+    "alt": "Super Mario Land 2: 6 Golden Coins (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "supermariounimaker": {
+    "src": "https://openportsgames.com/covers/generated/super-mario-unimaker.svg",
+    "alt": "Super Mario UniMaker (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "supermariowar": {
+    "src": "https://openportsgames.com/covers/generated/super-mario-war.svg",
+    "alt": "Super Mario War (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "superbounce64": {
+    "src": "https://openportsgames.com/covers/generated/superbounce-64.svg",
+    "alt": "Superbounce 64 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "surrealengine": {
+    "src": "https://openportsgames.com/covers/generated/surrealengine.svg",
+    "alt": "SurrealEngine (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "yoshiswoollyworld": {
+    "src": "https://openportsgames.com/covers/generated/yoshi-s-woolly-world.svg",
+    "alt": "Yoshi's Woolly World (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "starwarsepisodeiiirevengeofthesith": {
+    "src": "https://openportsgames.com/covers/generated/star-wars-episode-iii-revenge-of-the-sith.svg",
+    "alt": "Star Wars: Episode III – Revenge of the Sith (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "beetleadventureracing": {
+    "src": "https://openportsgames.com/covers/generated/beetle-adventure-racing.svg",
+    "alt": "Beetle Adventure Racing! (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "sinistar": {
+    "src": "https://openportsgames.com/covers/generated/sinistar.svg",
+    "alt": "Sinistar (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "taikonotatsujinwiiketteiban": {
+    "src": "https://openportsgames.com/covers/generated/taiko-no-tatsujin-wii-ketteiban.svg",
+    "alt": "Taiko No Tatsujin Wii Ketteiban (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "tailsadventuretailsadventureremake": {
+    "src": "https://openportsgames.com/covers/generated/tails-adventure-tails-adventure-remake.svg",
+    "alt": "Tails Adventure (Tails Adventure Remake) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "banished": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242920/header.jpg?t=1667584747",
+    "alt": "Banished (Steam header)",
+    "credit": "Steam"
+  },
+  "wiiplaytanks": {
+    "src": "https://openportsgames.com/covers/generated/wii-play-tanks.svg",
+    "alt": "Wii Play: Tanks! (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "supermarioallstars": {
+    "src": "https://openportsgames.com/covers/generated/super-mario-all-stars.svg",
+    "alt": "Super Mario All-Stars (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "taradino": {
+    "src": "https://openportsgames.com/covers/generated/taradino.svg",
+    "alt": "Taradino (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "starwarsjediknightiijedioutcast": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6030/header.jpg?t=1741814017",
+    "alt": "Star Wars Jedi Knight II: Jedi Outcast (Steam header)",
+    "credit": "Steam"
+  },
+  "tekken": {
+    "src": "https://openportsgames.com/covers/generated/tekken.svg",
+    "alt": "Tekken (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "tenchuz": {
+    "src": "https://openportsgames.com/covers/generated/tenchu-z.svg",
+    "alt": "Tenchu Z (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "castlevaniaariaofsorrow": {
+    "src": "https://openportsgames.com/covers/generated/castlevania-aria-of-sorrow.svg",
+    "alt": "Castlevania: Aria of Sorrow (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "thegreatescapeinc": {
+    "src": "https://openportsgames.com/covers/generated/the-great-escape-in-c.svg",
+    "alt": "The Great Escape in C (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "theitalianjob": {
+    "src": "https://openportsgames.com/covers/generated/the-italian-job.svg",
+    "alt": "The Italian Job (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "thejourneymanprojectturbo": {
+    "src": "https://openportsgames.com/covers/generated/the-journeyman-project-turbo.svg",
+    "alt": "The Journeyman Project Turbo! (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "thelaststory": {
+    "src": "https://openportsgames.com/covers/generated/the-last-story.svg",
+    "alt": "The Last Story (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "theledge": {
+    "src": "https://openportsgames.com/covers/generated/the-ledge.svg",
+    "alt": "The Ledge (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "themaze": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4369170/eff8555c1f20064d4b758d06d6faa2a24ab226c0/header.jpg?t=1791840522",
+    "alt": "The Maze (Steam header)",
+    "credit": "Steam"
+  },
+  "acecombatinfinity": {
+    "src": "https://openportsgames.com/covers/generated/ace-combat-infinity.svg",
+    "alt": "Ace Combat Infinity (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "theoperativenoonelivesforevernolfsrc": {
+    "src": "https://openportsgames.com/covers/generated/the-operative-no-one-lives-forever-nolfsrc.svg",
+    "alt": "The Operative: No One Lives Forever (nolfsrc) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "theoregontrailwindows95": {
+    "src": "https://openportsgames.com/covers/generated/the-oregon-trail-windows-95.svg",
+    "alt": "The Oregon Trail (Windows 95) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "thesims2gba": {
+    "src": "https://openportsgames.com/covers/generated/the-sims-2-gba.svg",
+    "alt": "The Sims 2 (GBA) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "thesmiler": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/TheSmiler2015%282%29.JPG/960px-TheSmiler2015%282%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "The Smiler (box art)",
+    "credit": "Wikipedia"
+  },
+  "thespongebobsquarepantsmovie": {
+    "src": "https://openportsgames.com/covers/generated/the-spongebob-squarepants-movie.svg",
+    "alt": "The SpongeBob SquarePants Movie (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "killerinstinct": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/577940/header.jpg?t=1721325025",
+    "alt": "Killer Instinct (Steam header)",
+    "credit": "Steam"
+  },
+  "tombraiderlegend": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7000/header.jpg?t=1729009388",
+    "alt": "Tomb Raider: Legend (Steam header)",
+    "credit": "Steam"
+  },
+  "spyro2riptosrage": {
+    "src": "https://openportsgames.com/covers/generated/spyro-2-ripto-s-rage.svg",
+    "alt": "Spyro 2: Ripto's Rage! (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "darkcloud": {
+    "src": "https://openportsgames.com/covers/generated/dark-cloud.svg",
+    "alt": "Dark Cloud (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "darkchronicle": {
+    "src": "https://openportsgames.com/covers/generated/dark-chronicle.svg",
+    "alt": "Dark Chronicle (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "therapywithdralbertkrueger": {
+    "src": "https://openportsgames.com/covers/generated/therapy-with-dr-albert-krueger.svg",
+    "alt": "Therapy With Dr. Albert Krueger (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "halo2": {
+    "src": "https://openportsgames.com/covers/generated/halo-2.svg",
+    "alt": "Halo 2 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "supermariobrosx": {
+    "src": "https://openportsgames.com/covers/generated/super-mario-bros-x.svg",
+    "alt": "Super Mario Bros. X (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "thinker": {
+    "src": "https://openportsgames.com/covers/generated/thinker.svg",
+    "alt": "thinker (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "thirdeye": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/515060/header.jpg?t=1591045643",
+    "alt": "Thirdeye (Steam header)",
+    "credit": "Steam"
+  },
+  "tilepuzzleultimate": {
+    "src": "https://openportsgames.com/covers/generated/tile-puzzle-ultimate.svg",
+    "alt": "Tile Puzzle Ultimate (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "timetraveler": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1046740/header.jpg?t=1591543862",
+    "alt": "Time Traveler (Steam header)",
+    "credit": "Steam"
+  },
+  "tinytoonadventuresbusterbustsloosepcport": {
+    "src": "https://openportsgames.com/covers/generated/tiny-toon-adventures-buster-busts-loose-pc-port.svg",
+    "alt": "Tiny Toon Adventures: Buster Busts Loose! (PC port) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "tobutobugirl": {
+    "src": "https://openportsgames.com/covers/generated/tobu-tobu-girl.svg",
+    "alt": "Tobu Tobu Girl (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "tokimekimemorialforeverwithyou": {
+    "src": "https://openportsgames.com/covers/generated/tokimeki-memorial-forever-with-you.svg",
+    "alt": "Tokimeki Memorial: Forever with You (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "tomjerrywarofthewhiskers": {
+    "src": "https://openportsgames.com/covers/generated/tom-jerry-war-of-the-whiskers.svg",
+    "alt": "Tom & Jerry: War of the Whiskers (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "tomodachilife": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Tomodachi_Life_series_logo_2026.png/960px-Tomodachi_Life_series_logo_2026.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Tomodachi Life (box art)",
+    "credit": "Wikipedia"
+  },
+  "nflheadcoach09": {
+    "src": "https://openportsgames.com/covers/generated/nfl-head-coach-09.svg",
+    "alt": "NFL Head Coach 09 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "topgear": {
+    "src": "https://openportsgames.com/covers/generated/top-gear.svg",
+    "alt": "Top Gear (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "touhou08imperishablenight": {
+    "src": "https://openportsgames.com/covers/generated/touhou-08-imperishable-night.svg",
+    "alt": "Touhou 08: Imperishable Night (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "touhou10mountainoffaith": {
+    "src": "https://openportsgames.com/covers/generated/touhou-10-mountain-of-faith.svg",
+    "alt": "Touhou 10: Mountain of Faith (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "touhou7perfectcherryblossom": {
+    "src": "https://openportsgames.com/covers/generated/touhou-7-perfect-cherry-blossom.svg",
+    "alt": "Touhou 7: Perfect Cherry Blossom (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "touhoukoumakyoutheembodimentofscarletdevil": {
+    "src": "https://openportsgames.com/covers/generated/touhou-koumakyou-the-embodiment-of-scarlet-devil.svg",
+    "alt": "Touhou Koumakyou ~ The Embodiment of Scarlet Devil (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "touhouyouyoumuperfectcherryblossom": {
+    "src": "https://openportsgames.com/covers/generated/touhou-youyoumu-perfect-cherry-blossom.svg",
+    "alt": "Touhou Youyoumu ~ Perfect Cherry Blossom (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "tribaltrouble": {
+    "src": "https://openportsgames.com/covers/generated/tribal-trouble.svg",
+    "alt": "Tribal Trouble (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "triplea": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Ta-icon_menu.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "alt": "triplea (box art)",
+    "credit": "Wikipedia"
+  },
+  "trogdor": {
+    "src": "https://openportsgames.com/covers/generated/trogdor.svg",
+    "alt": "Trogdor (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "twinbeeparadiseindonburishima": {
+    "src": "https://openportsgames.com/covers/generated/twinbee-paradise-in-donburi-shima.svg",
+    "alt": "TwinBee PARADISE in Donburi Shima (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "twistedmetalharborcity": {
+    "src": "https://openportsgames.com/covers/generated/twisted-metal-harbor-city.svg",
+    "alt": "Twisted Metal: Harbor City (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "tyrian2000": {
+    "src": "https://openportsgames.com/covers/generated/tyrian-2000.svg",
+    "alt": "Tyrian 2000 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "tyrquake": {
+    "src": "https://openportsgames.com/covers/generated/tyrquake.svg",
+    "alt": "Tyrquake (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ultimavwarriorsofdestiny": {
+    "src": "https://openportsgames.com/covers/generated/ultima-v-warriors-of-destiny.svg",
+    "alt": "Ultima V: Warriors of Destiny (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ultima7decomp": {
+    "src": "https://openportsgames.com/covers/generated/ultima-7-decomp.svg",
+    "alt": "Ultima 7 Decomp (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "urbanchaos": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/243060/header.jpg?t=1596846329",
+    "alt": "Urban Chaos (Steam header)",
+    "credit": "Steam"
+  },
+  "ultimatemk3ios": {
+    "src": "https://openportsgames.com/covers/generated/ultimate-mk3-ios.svg",
+    "alt": "Ultimate MK3 iOS (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ungame": {
+    "src": "https://openportsgames.com/covers/generated/un-game.svg",
+    "alt": "UN Game (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "undertalexboxone": {
+    "src": "https://openportsgames.com/covers/generated/undertale-xbox-one.svg",
+    "alt": "UNDERTALE (Xbox One) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "undertaleyellow": {
+    "src": "https://openportsgames.com/covers/generated/undertale-yellow.svg",
+    "alt": "UnderTale Yellow (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "underworldexhumed": {
+    "src": "https://openportsgames.com/covers/generated/underworld-exhumed.svg",
+    "alt": "Underworld Exhumed (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "underworldgodot": {
+    "src": "https://openportsgames.com/covers/generated/underworldgodot.svg",
+    "alt": "UnderworldGodot (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "unityunderground": {
+    "src": "https://openportsgames.com/covers/generated/unity-underground.svg",
+    "alt": "Unity Underground (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "unnethack": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d6/NetHack.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "alt": "UnNetHack (box art)",
+    "credit": "Wikipedia"
+  },
+  "unreal": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Unreal_Engine_Logo_%28new_typeface%29.svg/960px-Unreal_Engine_Logo_%28new_typeface%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Unreal (box art)",
+    "credit": "Wikipedia"
+  },
+  "untitledsandgame": {
+    "src": "https://openportsgames.com/covers/generated/untitled-sand-game.svg",
+    "alt": "Untitled Sand Game (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "unvanquished": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Unvanquished-0.52-on-screen-tutorial.jpg/960px-Unvanquished-0.52-on-screen-tutorial.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Unvanquished (box art)",
+    "credit": "Wikipedia"
+  },
+  "vangers": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264080/header.jpg?t=1775593098",
+    "alt": "Vange-rs (Steam header)",
+    "credit": "Steam"
+  },
+  "vera20k": {
+    "src": "https://openportsgames.com/covers/generated/vera20k.svg",
+    "alt": "vera20k (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "vf1recomp": {
+    "src": "https://openportsgames.com/covers/generated/vf1-recomp.svg",
+    "alt": "vf1 recomp (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "farcryinstincts": {
+    "src": "https://openportsgames.com/covers/generated/far-cry-instincts.svg",
+    "alt": "Far Cry Instincts (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "virtuaskimmer": {
+    "src": "https://openportsgames.com/covers/generated/virtua-skimmer.svg",
+    "alt": "Virtua Skimmer (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "vitatetris": {
+    "src": "https://openportsgames.com/covers/generated/vita-tetris.svg",
+    "alt": "Vita Tetris (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "kingsfieldii": {
+    "src": "https://openportsgames.com/covers/generated/king-s-field-ii.svg",
+    "alt": "King's Field II (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "vorpalfix": {
+    "src": "https://openportsgames.com/covers/generated/vorpalfix.svg",
+    "alt": "VorpalFix (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "warofthemonsters": {
+    "src": "https://openportsgames.com/covers/generated/war-of-the-monsters.svg",
+    "alt": "War of the Monsters (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "war1": {
+    "src": "https://openportsgames.com/covers/generated/war1.svg",
+    "alt": "war1 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "warcraftiitidesofdarkness": {
+    "src": "https://openportsgames.com/covers/generated/warcraft-ii-tides-of-darkness.svg",
+    "alt": "Warcraft II: Tides of Darkness (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "warcraftorcshumans": {
+    "src": "https://openportsgames.com/covers/generated/warcraft-orcs-humans.svg",
+    "alt": "Warcraft: Orcs & Humans (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "frontiereliteii": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Frontier_Elite_2_%28Amiga%29.jpg/960px-Frontier_Elite_2_%28Amiga%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Frontier: Elite II (box art)",
+    "credit": "Wikipedia"
+  },
+  "wc1re": {
+    "src": "https://openportsgames.com/covers/generated/wc1-re.svg",
+    "alt": "wc1-re (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "wc2re": {
+    "src": "https://openportsgames.com/covers/generated/wc2-re.svg",
+    "alt": "wc2-re (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "bluedragon": {
+    "src": "https://openportsgames.com/covers/generated/blue-dragon.svg",
+    "alt": "Blue Dragon (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "wertactics": {
+    "src": "https://openportsgames.com/covers/generated/wertactics.svg",
+    "alt": "Wertactics (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "donkeykongcountryreturns": {
+    "src": "https://openportsgames.com/covers/generated/donkey-kong-country-returns.svg",
+    "alt": "Donkey Kong Country Returns (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "whitealbum2": {
+    "src": "https://openportsgames.com/covers/generated/white-album2.svg",
+    "alt": "WHITE ALBUM2 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "willowsdream": {
+    "src": "https://openportsgames.com/covers/generated/willow-s-dream.svg",
+    "alt": "Willow's Dream (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "whiteknightchroniclesii": {
+    "src": "https://openportsgames.com/covers/generated/white-knight-chronicles-ii.svg",
+    "alt": "White Knight Chronicles II (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "wolfensteinrpg": {
+    "src": "https://openportsgames.com/covers/generated/wolfenstein-rpg.svg",
+    "alt": "Wolfenstein RPG (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "wonderprojectj2josetteofthecorloforest": {
+    "src": "https://openportsgames.com/covers/generated/wonder-project-j2-josette-of-the-corlo-forest.svg",
+    "alt": "Wonder Project J2: Josette of the Corlo Forest (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "wonderfuleveryday": {
+    "src": "https://openportsgames.com/covers/generated/wonderful-everyday.svg",
+    "alt": "Wonderful Everyday (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "sinandpunishment": {
+    "src": "https://openportsgames.com/covers/generated/sin-and-punishment.svg",
+    "alt": "Sin and Punishment (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "wordle": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1532580/header.jpg?t=1654494842",
+    "alt": "Wordle (Steam header)",
+    "credit": "Steam"
+  },
+  "worldofwarcraft112benilla": {
+    "src": "https://openportsgames.com/covers/generated/world-of-warcraft-1-12-benilla.svg",
+    "alt": "World of Warcraft 1.12 (benilla) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "xbox360kernel": {
+    "src": "https://openportsgames.com/covers/generated/xbox-360-kernel.svg",
+    "alt": "Xbox 360 Kernel (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "xdgaleofdarkness": {
+    "src": "https://openportsgames.com/covers/generated/xd-gale-of-darkness.svg",
+    "alt": "XD: Gale of Darkness (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "xenoblade": {
+    "src": "https://openportsgames.com/covers/generated/xenoblade.svg",
+    "alt": "Xenoblade (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "xoreos": {
+    "src": "https://openportsgames.com/covers/generated/xoreos.svg",
+    "alt": "xoreos (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "yakuza": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Yakuza_franchise_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "alt": "Yakuza (box art)",
+    "credit": "Wikipedia"
+  },
+  "thelegendofzeldaspirittracks": {
+    "src": "https://openportsgames.com/covers/generated/the-legend-of-zelda-spirit-tracks.svg",
+    "alt": "The Legend of Zelda: Spirit Tracks (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "ysvi": {
+    "src": "https://openportsgames.com/covers/generated/ys-vi.svg",
+    "alt": "Ys VI (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "sonicandtheblackknight": {
+    "src": "https://openportsgames.com/covers/generated/sonic-and-the-black-knight.svg",
+    "alt": "Sonic and the Black Knight (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "killzone2": {
+    "src": "https://openportsgames.com/covers/generated/killzone-2.svg",
+    "alt": "Killzone 2 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "thelegendofzeldaphantomhourglass": {
+    "src": "https://openportsgames.com/covers/generated/the-legend-of-zelda-phantom-hourglass.svg",
+    "alt": "The Legend of Zelda: Phantom Hourglass (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "zerohourreforged": {
+    "src": "https://openportsgames.com/covers/generated/zero-hour-reforged.svg",
+    "alt": "Zero Hour Reforged (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "zombieoutbreaksimulator": {
+    "src": "https://openportsgames.com/covers/generated/zombie-outbreak-simulator.svg",
+    "alt": "Zombie Outbreak Simulator (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "zoneoftheenders1": {
+    "src": "https://openportsgames.com/covers/generated/zone-of-the-enders-1.svg",
+    "alt": "Zone of the Enders 1 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "zoneoftheenders3guysavagefrommetalgearsolid3": {
+    "src": "https://openportsgames.com/covers/generated/zone-of-the-enders-3-guy-savage-from-metal-gear-solid-3.svg",
+    "alt": "Zone of the Enders 3 (Guy Savage from Metal Gear Solid 3) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "elchavokart": {
+    "src": "https://openportsgames.com/covers/generated/el-chavo-kart.svg",
+    "alt": "El Chavo Kart (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "splatterhouse2010": {
+    "src": "https://openportsgames.com/covers/generated/splatterhouse-2010.svg",
+    "alt": "Splatterhouse (2010) (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "tomclancysghostreconadvancedwarfighter": {
+    "src": "https://openportsgames.com/covers/generated/tom-clancy-s-ghost-recon-advanced-warfighter.svg",
+    "alt": "Tom Clancy's Ghost Recon Advanced Warfighter (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "fear": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21090/header.jpg?t=1773443317",
+    "alt": "F.E.A.R. (Steam header)",
+    "credit": "Steam"
+  },
+  "skylanderstrapteam": {
+    "src": "https://openportsgames.com/covers/generated/skylanders-trap-team.svg",
+    "alt": "Skylanders: Trap Team (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "skylandersswapforce": {
+    "src": "https://openportsgames.com/covers/generated/skylanders-swap-force.svg",
+    "alt": "Skylanders: Swap Force (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "skylanderssuperchargers": {
+    "src": "https://openportsgames.com/covers/generated/skylanders-superchargers.svg",
+    "alt": "Skylanders: SuperChargers (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "skylandersimaginators": {
+    "src": "https://openportsgames.com/covers/generated/skylanders-imaginators.svg",
+    "alt": "Skylanders: Imaginators (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "tomclancysghostreconfuturesoldier": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/212630/header.jpg?t=1764776324",
+    "alt": "Tom Clancy's Ghost Recon Future Soldier (Steam header)",
+    "credit": "Steam"
+  },
+  "ben10cosmicdestruction": {
+    "src": "https://openportsgames.com/covers/generated/ben-10-cosmic-destruction.svg",
+    "alt": "Ben 10: Cosmic Destruction (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "fuse": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4033000/2d9a9e974d60b33204c2eceecf61ff7b6eff8855/header.jpg?t=1773919731",
+    "alt": "Fuse (Steam header)",
+    "credit": "Steam"
+  },
+  "tonyhawksprovingground": {
+    "src": "https://openportsgames.com/covers/generated/tony-hawk-s-proving-ground.svg",
+    "alt": "Tony Hawk's Proving Ground (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "worlddriverchampionship": {
+    "src": "https://openportsgames.com/covers/generated/world-driver-championship.svg",
+    "alt": "World Driver Championship (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "sanfranciscorush2049": {
+    "src": "https://openportsgames.com/covers/generated/san-francisco-rush-2049.svg",
+    "alt": "San Francisco Rush 2049 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "grandtheftauto2": {
+    "src": "https://openportsgames.com/covers/generated/grand-theft-auto-2.svg",
+    "alt": "Grand Theft Auto 2 (generated cover)",
+    "credit": "OpenPortsGames"
+  }
+}

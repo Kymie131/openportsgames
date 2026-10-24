@@ -24,6 +24,11 @@ export const cdlewisSnowboardkidsDecomp: Port = {
   originalSystems: ["Unknown"],
   summary: "Snowboard Kids , is a snowboarding video game for the Nintendo 64. It was developed by Racdym and published by Atlus. Many reviewers compared its style to that of the Mario Kart series. An enhanced port, Snowboard Kids Plus, was released in Japan in January 1999 for the PlayStation.",
   summaryEs: "Snowboard Kids es un videojuego de snowboard para Nintendo 64. Ha sido desarrollado por Racdym y distribuido por Atlus. El juego presenta a niños de 10 años de edad que practican snowboard a través de varias pistas, no necesariamente con nieve. Su estilo es comparado en muchas revisiones al de la serie Mario Kart.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/snowboard-kids.svg",
+    alt: "Snowboard Kids (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Snowboard Kids: decompilation by cdlewis for Windows. Bring your own copy of the game.",
   notesEs: "Snowboard Kids: decompilación de cdlewis para Windows. Aporta tu propia copia del juego.",
 };

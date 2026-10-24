@@ -23,6 +23,11 @@ export const brogueAndroid: Port = {
   originalSystems: ["Windows"],
   summary: "Brogue may refer to:",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/en/thumb/0/0f/Brogue_title.png/960px-Brogue_title.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "Brogue (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Android port of the Brogue roguelike, with touch controls and the original dungeon crawl.",
   notesEs: "Port para Android del roguelike Brogue, con controles táctiles y el descenso de mazmorras original.",
 };

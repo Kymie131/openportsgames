@@ -24,6 +24,11 @@ export const levyStreetPokemonClaudeRed: Port = {
   originalSystems: ["Game Boy / Game Boy Color"],
   summary: "Pokémon Red Version and Pokémon Blue Version are popular 1996 role-playing video games (RPGs) developed by Game Freak and published by Nintendo for the Game Boy. They are the first installments of the Pokémon video game series and were first released in Japan as Pocket Monsters Red and Pocket Monsters Green, followed by the special edition Pocket Monsters Blue later that year.",
   summaryEs: "Pokémon Edición Roja y Pokémon Edición Azul son dos videojuegos de rol desarrollados por Game Freak y publicados por Nintendo para su consola portátil Game Boy. Son las primeras entregas de la serie de videojuegos de la franquicia Pokémon. Los videojuegos fueron lanzados a la venta por primera vez en Japón durante 1996 y en Estados Unidos, Europa y Australia casi tres años después. Pokémon Amarillo, una versión especial, fue lanzada al mercado aproximadamente un año más tarde.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/pokemon-red-and-blue.svg",
+    alt: "Pokémon Red and Blue (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Pokémon Red and Blue: decompilation by levy-street for Windows. Bring your own copy of the game.",
   notesEs: "Pokémon Red and Blue: decompilación de levy-street para Windows. Aporta tu propia copia del juego.",
 };

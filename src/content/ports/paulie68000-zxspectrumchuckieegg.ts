@@ -24,6 +24,11 @@ export const paulie68000Zxspectrumchuckieegg: Port = {
   originalSystems: ["Unknown"],
   summary: "Chuckie Egg is a platform game released by A&F Software in 1983 initially for the ZX Spectrum, BBC Micro, and Dragon 32/64. It was ported to the Commodore 64, Acorn Electron, MSX, Tatung Einstein, Amstrad CPC and Atari 8-bit computers. It was later updated for the Amiga, Atari ST and IBM PC compatibles.",
   summaryEs: "Chuckie Egg es un videojuego de plataformas publicado por A&F Software en 1983.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/chuckie-egg.svg",
+    alt: "Chuckie Egg (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Chuckie Egg: decompilation by Paulie68000 for Windows. Bring your own copy of the game.",
   notesEs: "Chuckie Egg: decompilación de Paulie68000 para Windows. Aporta tu propia copia del juego.",
 };

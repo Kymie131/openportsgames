@@ -24,6 +24,11 @@ export const threeDstris: Port = {
   summary: "3DStris is a puzzle game published by 3DStris, released in 2020.",
   summaryEs: "3DStris es un videojuego de puzles publicado por 3DStris, lanzado en 2020.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/3dstris.svg",
+    alt: "3DStris (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "3DStris is a homebrew Tetris-style game for Nintendo 3DS with 3D graphics, a level editor and custom themes. It is free and needs no original game.",
   notesEs:

@@ -24,6 +24,11 @@ export const ctrcomposer3dsPluginFramework: Port = {
   originalSystems: ["Unknown"],
   summary: "The New Nintendo 3DS is a foldable dual-screen handheld game console developed and marketed by Nintendo. Part of the Nintendo 3DS family, it is a revision of the hardware rather than a full redesign. Improvements over previous models include upgraded processors and increased RAM, an analog pointing stick, two additional shoulder triggers, face detection for optimizing the autostereoscopic 3D display, an included 4 GB microSD card, and built-in NFC, as well as minor design changes. There were also software improvements, such as support for HTML5 in its web browser.",
   summaryEs: "Nintendo 3DS es una videoconsola portátil descontinuada de la multinacional de origen japonés, Nintendo, para videojuegos y multimedia, cuya atracción principal es poder mostrar imágenes 3D autoestereoscopicas. La consola es retrocompatible con la Nintendo DS y con el software de DSiWare. Tras haberse anunciado el 23 de marzo de 2010, Nintendo lo presentó oficialmente en el E3 2010, llevando consolas de prueba para los asistentes al evento. La consola es la sucesora de la serie portátil Nintendo DS y compitió principalmente con su único rival en el mercado, la PlayStation Vita de Sony.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/New_Nintendo_3DS.png/960px-New_Nintendo_3DS.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "Nintendo 3DS (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Nintendo 3DS (Nintendo, 2011) running on Nintendo 3DS through source port. Latest release: v1.1.4. You need your own copy of the game.",
   notesEs: "Nintendo 3DS (Nintendo, 2011) en Nintendo 3DS mediante port de código. Última release: v1.1.4. Necesitas tu propia copia del juego.",
 };

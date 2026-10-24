@@ -22,6 +22,11 @@ export const herculesRecompiled: Port = {
   originalSystems: ["PlayStation"],
   summary: "Hercules is a 1997 platform-action video game developed by Eurocom Entertainment Software. It is based on the 1997 film of the same name. It was released on the PlayStation and Microsoft Windows, along with a different version developed by Tiertex Design Studios for the Game Boy released by THQ the same year.",
   summaryEs: "Hércules, conocido como Hercules Action Game y Disney's Action Game Featuring Hercules en Norteamérica, o Disney: Juego de Acción - Disney Presenta Hércules en Europa, es un videojuego de acción que salió al mercado el 3 de julio de 1997 para PlayStation y Microsoft Windows, desarrollado por Disney Interactive, basado en la película animada del mismo nombre que se estrenó una semana después de este lanzamiento. Otro juego, también basado en la película, fue lanzado por THQ para Game Boy ese mismo año.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/disney-s-hercules.svg",
+    alt: "Disney's Hercules (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Native PC port of Disney's Hercules (PlayStation, 1997, SCES-00893) built from the game's decompilation, plus the decompilation itself. No game data included. Latest release: v0.5.5.",
   notesEs: "Port nativo a PC de Disney's Hercules (PlayStation, 1997, SCES-00893) construido a partir de la decompilación del juego, más la propia decompilación. No incluye datos del juego. Última release: v0.5.5.",
 };

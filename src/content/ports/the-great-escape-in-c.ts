@@ -23,6 +23,11 @@ export const TheGreatEscapeInC: Port = {
   summary: "The Great Escape in C is a action-adventure game for ZX Spectrum, released in 2000.",
   summaryEs: "The Great Escape in C es un videojuego de acci�n y aventura para ZX Spectrum, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-great-escape-in-c.svg",
+    alt: "The Great Escape in C (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: 'Classic ZX Spectrum game "The Great Escape" rewritten in portable C.',
   notesEs: "Clásico de ZX Spectrum «The Great Escape» reescrito en C portable.",
 };

@@ -24,6 +24,11 @@ export const yanis002St: Port = {
   originalSystems: ["Unknown"],
   summary: "The Legend of Zelda: Spirit Tracks is a 2009 action-adventure game developed and published by Nintendo for the Nintendo DS handheld game console and the direct sequel to the 2007 Nintendo DS game Phantom Hourglass. Set a century after the events of Phantom Hourglass, the storyline follows a new Link and the great-great-granddaughter of Tetra, Princess Zelda, as they explore the land of New Hyrule to prevent the awakening of the Demon King Malladus.",
   summaryEs: "The Legend of Zelda: Spirit Tracks, conocido en Japón como Zelda no Densetsu: Daichi no Kiteki , es un videojuego de acción-aventura de Nintendo para la videoconsola portátil Nintendo DS, siendo el decimoquinto título de la serie The Legend of Zelda, y el sucesor en línea de estrenos para The Legend of Zelda: Phantom Hourglass, de 2007. Su estreno en Norteamérica fue el 7 de diciembre de 2009 y en Europa el 11 de diciembre del mismo año; una demostración interactiva estuvo disponible en el evento E3 de este mismo año.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-spirit-tracks.svg",
+    alt: "The Legend of Zelda: Spirit Tracks (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "The Legend of Zelda: Spirit Tracks: decompilation by Yanis002 for Windows. Bring your own copy of the game.",
   notesEs: "The Legend of Zelda: Spirit Tracks: decompilación de Yanis002 para Windows. Aporta tu propia copia del juego.",
 };

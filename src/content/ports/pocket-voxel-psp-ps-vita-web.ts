@@ -24,6 +24,11 @@ export const pocketVoxelPspPsVitaWeb: Port = {
   summary: "Pocket Voxel is a role-playing game published by Pocket Nexus for Windows, released in 2025.",
   summaryEs: "Pocket Voxel es un videojuego de rol publicado por Pocket Nexus para Windows, lanzado en 2025.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/pocket-voxel.svg",
+    alt: "Pocket Voxel (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Pocket Voxel (Pocket Nexus, 2025) running on PlayStation Portable and PlayStation Vita and the web through source port. You need your own copy of the game.",
   notesEs: "Pocket Voxel (Pocket Nexus, 2025) en PlayStation Portable and PlayStation Vita and the web mediante port de código. Necesitas tu propia copia del juego.",
 };

@@ -24,6 +24,11 @@ export const erick194Doom64Re: Port = {
   originalSystems: ["Unknown"],
   summary: "Doom 64 is a 1997 first-person shooter game developed and published by Midway Games for the Nintendo 64. It is the second spin-off in id Software's Doom series after Final Doom (1996), and the fourth game in the series overall.",
   summaryEs: "Doom 64 es un videojuego de disparos en primera persona desarrollado y publicado por Midway Games para Nintendo 64 en 1997. Este videojuego pertenece a la serie de videojuegos de shooter en primera persona Doom. En un principio se lanzó exclusivamente para la Nintendo 64 pero se lanzó para PlayStation 4, Xbox One y PC y luego se relanzó para Nintendo Switch, como una mejora en varios aspectos a la versión original basada en las anteriores videoconsolas.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1148590/header.jpg?t=1750784988",
+    alt: "Doom 64 (Steam header)",
+    credit: "Steam",
+  },
   notes: "Doom 64: decompilation by Erick194 for Windows. Bring your own copy of the game.",
   notesEs: "Doom 64: decompilación de Erick194 para Windows. Aporta tu propia copia del juego.",
 };

@@ -22,6 +22,11 @@ export const osu3ds: Port = {
   originalSystems: ["Windows"],
   summary: "osu! is an open source rhythm game originally created and self-published by Australian developer Dean Herbert as a freeware. It was released for Microsoft Windows on 16 September 2007, with later ports to macOS, Linux, Android and iOS.",
   summaryEs: "Osu! es un videojuego de ritmo gratuito desarrollado, publicado y creado principalmente por el australiano Dean Lewis \"peppy\" Herbert, escrito en C# en el framework .NET. Lanzado originalmente para Microsoft Windows el 16 de septiembre de 2007, el juego también se ha adaptado a macOS, Linux, Android e iOS gracias a osu!(lazer). Su modo de juego está inspirado en otros videojuegos de ritmo, incluido Osu! Tatakae! Ouendan, Taiko no Tatsujin, Happy Feet, Beatmania IIDX, Elite Beat Agents, O2Jam, StepMania y DJMax.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Osu%21_logo_2024.png/960px-Osu%21_logo_2024.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "osu! (box art)",
+    credit: "Wikipedia",
+  },
   notes: "osu! (ppy, 2007) running on Nintendo 3DS through source port. You need your own copy of the game.",
   notesEs: "osu! (ppy, 2007) en Nintendo 3DS mediante port de código. Necesitas tu propia copia del juego.",
 };

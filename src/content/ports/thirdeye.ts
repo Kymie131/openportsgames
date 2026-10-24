@@ -22,6 +22,11 @@ export const Thirdeye: Port = {
   originalSystems: ["Unknown"],
   summary: "Third Eye is a hack 'n' slash adventure game with its roots set in Indian culture. A game that is made by a group of 8 people putting in all their efforts to bring you the experience of a hack and slash adventure game made in India",
   summaryEs: "Thirdeye es un videojuego de acción y aventura publicado por Vanishing Point Game Studios en 2019.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/515060/header.jpg?t=1591045643",
+    alt: "Thirdeye (Steam header)",
+    credit: "Steam",
+  },
   notes:
     "ThirdEye is an open source AESOP replacement to play Eye of the Beholder 3 and Dungeon Hack.",
   notesEs:

@@ -23,6 +23,11 @@ export const championsOfNorrathRecomp: Port = {
   originalSystems: ["PlayStation 2"],
   summary: "Champions of Norrath: Realms of EverQuest is a 2004 action role-playing video game for the PlayStation 2, set in the EverQuest universe. The game is playable with one single player or cooperative for up to four players, but with a Network Adapter, players can take the game online with others and kill others or join to form groups of adventurers. It uses a re-worked and expanded Baldur's Gate: Dark Alliance game engine. A sequel called Champions: Return to Arms was released in 2005.",
   summaryEs: "Champions of Norrath es un videojuego de rol publicado por Daybreak Game Company en 2004.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/champions-of-norrath.svg",
+    alt: "Champions of Norrath (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Work-in-progress native Windows port of Champions of Norrath built with PS2Recomp. Bring your own game disc.",
   notesEs: "Port nativo en curso para Windows de Champions of Norrath, construido con PS2Recomp. Aporta tu propio disco del juego.",
 };

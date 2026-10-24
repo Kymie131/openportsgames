@@ -23,6 +23,11 @@ export const exokCeleste64: Port = {
   originalSystems: ["Windows"],
   summary: "Celeste 64: Fragments of the Mountain is a 2024 3D platformer video game developed and published by Canadian indie studio Extremely OK Games for Linux, macOS and Microsoft Windows. The game was developed during a week-long game jam, in which it released in celebration of the sixth anniversary of the 2018 video game Celeste. The game released January 29, 2024, acting as semi-sequel to that game and a continuation to its narrative.",
   summaryEs: "Celeste 64: Fragments of the Mountain es un videojuego de plataformas en 2024.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/celeste-64-fragments-of-the-mountain.svg",
+    alt: "Celeste 64: Fragments of the Mountain (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Celeste 64: Fragments of the Mountain: engine remake by EXOK for Windows. Bring your own copy of the game.",
   notesEs: "Celeste 64: Fragments of the Mountain: recreación de motor de EXOK para Windows. Aporta tu propia copia del juego.",
 };

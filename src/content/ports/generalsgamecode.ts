@@ -23,6 +23,11 @@ export const Generalsgamecode: Port = {
   summary: "GeneralsGameCode is a strategy game, released in 2000.",
   summaryEs: "GeneralsGameCode es un videojuego de estrategia, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/generalsgamecode.svg",
+    alt: "GeneralsGameCode (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Command and Conquer: Generals - Zero Hour.",
   notesEs: "Command and Conquer: Generals - Zero Hour.",
 };

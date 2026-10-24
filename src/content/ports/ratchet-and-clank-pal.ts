@@ -23,6 +23,11 @@ export const RatchetAndClankPal: Port = {
   originalSystems: ["PlayStation 2"],
   summary: "Ratchet & Clank is a series of action-adventure platform and third-person shooter video games created and developed by Insomniac Games and published by Sony Interactive Entertainment as a flagship title for Sony's PlayStation 2. High Impact Games developed two installments for the PlayStation Portable while other studios were involved in remasters and ports.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/ratchet-clank-pal.svg",
+    alt: "Ratchet & Clank (PAL) (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "A work-in-progress matching decompilation of the original Ratchet & Clank (2002) for PlayStation 2 (SCES_509.16, PAL v2.00). Focuses on reconstructing clean, idiomatic C/C++ source code identical to the retail executable, paving the way for native PC re-implementation and game preservation.",
   notesEs:

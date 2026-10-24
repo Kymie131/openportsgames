@@ -23,6 +23,11 @@ export const vinceipFciRecomp: Port = {
   originalSystems: ["Unknown"],
   summary: "Far Cry Instincts is a 2005 first-person shooter game developed and published by Ubisoft for the Xbox. A remake of the original Microsoft Windows version of Far Cry, Instincts is less open-ended and more linear, due to the console's reduced processing power which prevents the full rendering of the Windows version's vast islands and landscape. However, Instincts adds new multiplayer modes, weapons, and 'feral abilities', the latter being reflected in the modified storyline. Ports of the game for the PlayStation 2 and GameCube were also planned, but were ultimately cancelled.",
   summaryEs: "Far Cry Instincts es un videojuego de disparos en primera persona desarrollado por Ubisoft Montreal y Crytek, y publicado por Ubisoft para Xbox y Xbox 360. Esta adaptación a consola del original Far Cry publicado anteriormente para Windows se diferencia de este por la eliminación de su diseño de mundo abierto y una inteligencia artificial inferior, en cambio ofreciendo modos multijugador adicionales mediante el servicio Xbox Live, así como un editor de mapas integrado.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/far-cry-instincts.svg",
+    alt: "Far Cry Instincts (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Far Cry Instincts: static recompilation by VinceIP for Windows. Bring your own copy of the game.",
   notesEs: "Far Cry Instincts: recompilación estática de VinceIP para Windows. Aporta tu propia copia del juego.",
 };

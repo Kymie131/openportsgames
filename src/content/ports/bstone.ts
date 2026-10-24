@@ -23,6 +23,11 @@ export const Bstone: Port = {
   summary: "BStone is a action-adventure game, released in 2000.",
   summaryEs: "BStone es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/bstone.svg",
+    alt: "BStone (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Unofficial source port for Blake Stone series.",
   notesEs: "Port no oficial del código fuente de la saga Blake Stone.",
 };

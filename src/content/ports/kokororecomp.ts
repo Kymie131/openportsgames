@@ -23,6 +23,11 @@ export const kokororecomp: Port = {
   summary: "KoroKoro Postnin is a action-adventure game published by Nintendo, released in 2000.",
   summaryEs: "KoroKoro Postnin es un videojuego de acci�n y aventura publicado por Nintendo, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/korokoro-postnin.svg",
+    alt: "KoroKoro Postnin (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "KoroKoro Postnin (Nintendo, 2000) for Android (static recompilation). Latest release: v0.1. Needs your own copy of the game.",
   notesEs: "KoroKoro Postnin (Nintendo, 2000) para Android (recompilación estática). Última release: v0.1. Necesita tu propia copia del juego.",
 };

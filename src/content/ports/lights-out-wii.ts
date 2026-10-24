@@ -23,6 +23,11 @@ export const lightsOutWii: Port = {
   originalSystems: ["Unknown"],
   summary: "Blessed by the light, Soona is the last hope of Jiruho. With might and agility, she has to face the dark forces and traps of the Netherworld to save her people from the apocalypse. She will venture inside the city’s temples to recover the fragments of the sacred mirror.",
   summaryEs: "Lights Out es un videojuego de puzles publicado por Campus ADN en 2019.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/948080/header.jpg?t=1751125061",
+    alt: "Lights Out (Steam header)",
+    credit: "Steam",
+  },
   notes: "Lights Out (Homebrew, 2023) running on Wii through source port. Latest release: v1.0-beta5. You need your own copy of the game.",
   notesEs: "Lights Out (Homebrew, 2023) en Wii mediante port de código. Última release: v1.0-beta5. Necesitas tu propia copia del juego.",
 };

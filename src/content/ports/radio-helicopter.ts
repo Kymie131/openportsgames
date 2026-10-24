@@ -24,6 +24,11 @@ export const RadioHelicopter: Port = {
   summary: "Radio Helicopter is a action-adventure game, released in 2000.",
   summaryEs: "Radio Helicopter es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/radio-helicopter.svg",
+    alt: "Radio Helicopter (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "A work-in-progress matching decompilation of Radio Helicopter.",
   notesEs: "Decompilación que coincide de Radio Helicopter, en desarrollo.",
 };

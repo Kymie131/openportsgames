@@ -23,6 +23,11 @@ export const richman4Android: Port = {
   originalSystems: ["Windows"],
   summary: "*** This game is only available in Chinese ***《大富翁4》为掷骰子回合制桌上游戏，玩家在游玩时，除可购买土地、股票外，还可投资公司、参加拍卖，过足富豪瘾。游戏支持单人、多人游玩，玩家既可以与计算机AI角色一同游玩自得其乐，也可和二三好友一起，来一局富豪间的财富PK。",
   summaryEs: "Richman 4 es un videojuego de estrategia publicado por SOFTSTAR ENTERTAINMENT en 2022.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2059810/header.jpg?t=1658992525",
+    alt: "Richman 4 (Steam header)",
+    credit: "Steam",
+  },
   notes: "Native C++ and SDL3 port of Richman 4 (大富翁4) for macOS and Android. Requires your own copy of the game.",
   notesEs: "Port nativo en C++ y SDL3 de Richman 4 (大富翁4) para macOS y Android. Requiere tu propia copia del juego.",
 };

@@ -22,6 +22,11 @@ export const superMarioWarWii: Port = {
   originalSystems: ["Other"],
   summary: "Unlicensed developers and fans have created unofficial media relating to the Mario franchise. Such media include video games, ROM hacks, level editors, live action adaptations, and animations.",
   summaryEs: "Super Mario War es un videojuego de plataformas de código abierto y un editor de niveles que se lanzó en 2004. Se basa en elementos de juego y medios audiovisuales clonados extraoficialmente de la serie Super Mario de Nintendo. El juego se centra en jugadores que luchan entre sí cuando un jugador salta sobre la cabeza del otro jugador o hace uso de elementos que se pueden recoger durante el juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/super-mario-war.svg",
+    alt: "Super Mario War (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Super Mario War (Super Mario War team, 2006) running on Wii through source port. Latest release: v0.1.0. The original game is free software, so no commercial copy is needed.",
   notesEs: "Super Mario War (Super Mario War team, 2006) en Wii mediante port de código. Última release: v0.1.0. El juego original es software libre, así que no hace falta una copia comercial.",
 };

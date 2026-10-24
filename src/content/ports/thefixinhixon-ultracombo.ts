@@ -24,6 +24,11 @@ export const thefixinhixonUltracombo: Port = {
   originalSystems: ["Arcade"],
   summary: "Killer Instinct is a 1994 fighting game developed by Rare and published by Nintendo for consoles. It was originally released for arcades by publisher Midway in October 1994, and ported to both the Super Nintendo Entertainment System and the Game Boy the following year. The game's plot involves an all-powerful corporation organizing a fighting tournament. The story was adapted in a limited comic book series published under the short-lived Acclaim Comics imprint.",
   summaryEs: "Killer Instinct es un videojuego de peleas de la franquicia del mismo nombre, siendo el primero y considerado el principal. El juego se tenía pensado en un principio para Ultra 64, y rompiendo una tradición de sacar solo juegos para consolas, la compañía sorprende al sacar en 1994 el juego para arcade.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/577940/header.jpg?t=1721325025",
+    alt: "Killer Instinct (Steam header)",
+    credit: "Steam",
+  },
   notes: "Killer Instinct: static recompilation by thefixinhixon for Windows. Bring your own copy of the game.",
   notesEs: "Killer Instinct: recompilación estática de thefixinhixon para Windows. Aporta tu propia copia del juego.",
 };

@@ -22,6 +22,11 @@ export const hashiPsVita: Port = {
   originalSystems: ["Other"],
   summary: "Takaya Katō , known professionally as Takaya Hashi , was a Japanese voice actor. He voiced Toki in Fist of the North Star, Kakuzu in Naruto, Vearn in Dragon Quest: The Adventure of Dai, and Donovan Desmond in Spy × Family. He was a representative director at the talent agency Apte Pro until his death.",
   summaryEs: "Takaya Hashi fue un seiyū japonés afiliado con la Compañía Teatral Seinenza. Su nombre real era Takaya Katō .",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/hashi.svg",
+    alt: "Hashi (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Hashi (Nikoli, 1989) running on PlayStation Vita through source port. Latest release: v1.0.0. You need your own copy of the game.",
   notesEs: "Hashi (Nikoli, 1989) en PlayStation Vita mediante port de código. Última release: v1.0.0. Necesitas tu propia copia del juego.",
 };

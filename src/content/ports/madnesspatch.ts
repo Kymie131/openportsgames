@@ -23,6 +23,11 @@ export const Madnesspatch: Port = {
   summary: "MadnessPatch is a action-adventure game, released in 2000.",
   summaryEs: "MadnessPatch es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/madnesspatch.svg",
+    alt: "MadnessPatch (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "A patch that fixes various issues in the PC port of Alice: Madness Returns.",
   notesEs: "Parche que corrige varios problemas del port para PC de Alice: Madness Returns.",
 };

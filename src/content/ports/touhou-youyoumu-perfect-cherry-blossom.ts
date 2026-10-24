@@ -22,6 +22,11 @@ export const TouhouYouyoumuPerfectCherryBlossom: Port = {
   originalSystems: ["Unknown"],
   summary: "Touhou Youyoumu ~ Perfect Cherry Blossom is a 2003 vertically scrolling shooter bullet hell video game developed by Team Shanghai Alice. It is the seventh game in the Touhou Project series. Playable characters include returning protagonists Reimu Hakurei and Marisa Kirisame, with Sakuya Izayoi featuring in her first playable appearance. The story centers around the chosen heroine traveling to Gensokyo's Netherworld to stop Gensokyo from being stuck in an eternal state of winter when spring fails to arrive.",
   summaryEs: "Touhou Youyoumu ~ Perfect Cherry Blossom es un videojuego danmaku de desplazamiento vertical y el séptimo videojuego oficial de la serie Touhou Project hecha por Team Shanghai Alice, y el segundo en ser lanzado para Microsoft Windows después de Embodiment of Scarlet Devil. El juego completo fue lanzado por primera vez el 17 de agosto de 2003, en la Comiket 64.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/touhou-youyoumu-perfect-cherry-blossom.svg",
+    alt: "Touhou Youyoumu ~ Perfect Cherry Blossom (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "A decompilation of 東方妖々夢 ～ Perfect Cherry Blossom 1.00b (Touhou 7).",
   notesEs: "Una decompilación de 東方妖々夢 ～ Perfect Cherry Blossom 1.00b (Touhou 7).",
 };

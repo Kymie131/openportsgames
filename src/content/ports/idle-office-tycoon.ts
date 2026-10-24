@@ -23,6 +23,11 @@ export const IdleOfficeTycoon: Port = {
   summary: "Idle Office Tycoon is a simulation game, released in 2000.",
   summaryEs: "Idle Office Tycoon es un videojuego de simulaci�n, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/idle-office-tycoon.svg",
+    alt: "Idle Office Tycoon (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "A repository detailing my decompilation and disassembly process of the reverse engineering of the iOS game Idle Office Tycoon.",
   notesEs:

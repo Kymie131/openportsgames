@@ -23,6 +23,11 @@ export const Glkeeper: Port = {
   summary: "GLKeeper is a action-adventure game, released in 2000.",
   summaryEs: "GLKeeper es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/glkeeper.svg",
+    alt: "GLKeeper (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Open Source Dungeon Keeper 2 Reimplementation.",
   notesEs: "Reimplementación de código abierto de Dungeon Keeper 2.",
 };

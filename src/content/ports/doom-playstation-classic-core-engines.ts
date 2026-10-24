@@ -23,6 +23,11 @@ export const doomPlaystationClassicCoreEngines: Port = {
   summary: "Doom (Playstation) is a shooter game published by id Software, released in 1995.",
   summaryEs: "Doom (Playstation) es un videojuego de disparos publicado por id Software, lanzado en 1995.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/doom-playstation.svg",
+    alt: "Doom (Playstation) (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Doom (Playstation) (id Software, 1995) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (.bin and .cue files).",
   notesEs: "Doom (Playstation) (id Software, 1995) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
 };

@@ -23,6 +23,11 @@ export const seriousSamSecondEncounterAndroid: Port = {
   originalSystems: ["Windows"],
   summary: "Serious Sam: The Second Encounter is a 2002 first-person shooter game developed by Croteam and published by Gathering of Developers. It is the successor to Serious Sam: The First Encounter and the second game in the Serious Sam series. Taking place immediately after The First Encounter, it follows the soldier Sam \"Serious\" Stone, whose spaceship crashes back to Earth on his way from ancient Egypt to Sirius, requiring him to seek the Holy Grail to continue his journey.",
   summaryEs: "Serious Sam: The Second Encounter es un videojuego de disparos publicado por Gathering of Developers en 2002.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/serious-sam-the-second-encounter.svg",
+    alt: "Serious Sam: The Second Encounter (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Android port of Serious Sam: The Second Encounter. Bring your own copy of the game.",
   notesEs: "Port para Android de Serious Sam: The Second Encounter. Aporta tu propia copia del juego.",
 };

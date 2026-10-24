@@ -22,6 +22,11 @@ export const Oddworld12: Port = {
   originalSystems: ["Unknown"],
   summary: "Oddworld is a video game series and fictional universe, created by developers Oddworld Inhabitants under the direction of Lorne Lanning. The series has been released on various platforms such as PlayStation, Xbox, PlayStation 3, Game Boy, Windows, and Wii U, among others.",
   summaryEs: "Oddworld es un universo ficticio procedente de la serie de videojuegos del mismo nombre, creado por la compañía Oddworld Inhabitants bajo la dirección de Lorne Lanning. Oddworld, de naturaleza pacífica, está en peligro de ser consumida por la ambición industrial de las empresas. Es un planeta con un tamaño diez veces mayor que el de la Tierra. El principal continente es Mudos. De ahí el nombre de la raza que se controla en la mayoría de los títulos, «mudokons».",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/oddworld-1-2.svg",
+    alt: "Oddworld 1-2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Re-implementation of Oddworld: Abe's Exoddus and Oddworld: Abe's Oddysee.",
   notesEs: "Reimplementación de Oddworld: Abe's Exoddus y Oddworld: Abe's Oddysee.",
 };

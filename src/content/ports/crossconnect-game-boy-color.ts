@@ -24,6 +24,11 @@ export const crossconnectGameBoyColor: Port = {
   summary: "CrossConnect is a puzzle game published by Homebrew, released in 2022.",
   summaryEs: "CrossConnect es un videojuego de puzles publicado por Homebrew, lanzado en 2022.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/crossconnect.svg",
+    alt: "CrossConnect (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "CrossConnect (Homebrew, 2022) running on gbc through source port. Latest release: 1.0. You need your own copy of the game.",
   notesEs: "CrossConnect (Homebrew, 2022) en gbc mediante port de código. Última release: 1.0. Necesitas tu propia copia del juego.",
 };

@@ -24,6 +24,11 @@ export const benbaker76Openswos: Port = {
   originalSystems: ["Unknown"],
   summary: "Sensible World of Soccer 96/97 is a sports game in 1996.",
   summaryEs: "Sensible World of Soccer 96/97 es un videojuego de deportes en 1996.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/sensible-world-of-soccer-96-97.svg",
+    alt: "Sensible World of Soccer 96/97 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Sensible World of Soccer 96/97: source port by benbaker76 for Windows, Linux, macOS. Bring your own copy of the game.",
   notesEs: "Sensible World of Soccer 96/97: source port de benbaker76 para Windows, Linux, macOS. Aporta tu propia copia del juego.",
 };

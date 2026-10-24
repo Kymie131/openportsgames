@@ -21,6 +21,11 @@ export const cps2Recomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Arcade"],
+  cover: {
+    src: "https://openportsgames.com/covers/generated/cps-2-arcade-collection.svg",
+    alt: "CPS-2 arcade collection (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "CPS-2 Recomp is a launcher of native PC ports for Capcom CPS-1 and CPS-2 arcade games, including Street Fighter Alpha 2. Bring your own ROM sets.",
   notesEs:

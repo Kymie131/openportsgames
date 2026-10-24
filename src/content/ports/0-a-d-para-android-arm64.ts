@@ -24,6 +24,11 @@ export const _0ADParaAndroidArm64: Port = {
   warningEs: "Este port de Android distribuye los archivos del propio juego, así que no se construye desde una copia tuya. Su situación legal es distinta a la del resto del catálogo y puede ser retirada.",
   summary: "0 A.D. is a real-time strategy video game under development by Wildfire Games. It is a historical war and economy game focusing on the years between 500 BC and 1 BC, with the years between 1 AD and 500 AD planned to be developed in the future. The game is cross-platform, playable on Windows, macOS, Linux, FreeBSD, and OpenBSD. It is free and open-source, composed entirely of free software and free media, using the GNU GPLv2 license for the game engine source code, and the CC BY-SA license for the game art and music.",
   summaryEs: "0 A.D. es un videojuego de estrategia en tiempo real, libre y de código abierto desarrollado por Wildfire Games. Es un juego sobre guerras históricas y economía antigua, la primera parte del juego \"Empires Ascendant\" abarca el periodo comprendido entre el año 500 a. C. y el año 1 d. C. y la segunda parte \"Empires Besieged\" se basará del 1 d. C. al 500 d. C.. El juego es multiplataforma, está disponible para Windows, MacOS, GNU/Linux y OpenBSD.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/0_A.D._alpha_25_-_playing_as_Spartans.jpg/960px-0_A.D._alpha_25_-_playing_as_Spartans.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "0 A.D. (box art)",
+    credit: "Wikipedia",
+  },
   notes: "0 A.D. (Wildfire Games, 2010) for Android (source port). Latest release: v0.28.0-android-1. It ships the game files with the port, so it does not build from your own copy.",
   notesEs: "0 A.D. (Wildfire Games, 2010) para Android (port de código). Última release: v0.28.0-android-1. Distribuye los archivos del propio juego con el port, así que no se construye desde tu propia copia.",
 };

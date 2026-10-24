@@ -24,6 +24,11 @@ export const untitledSandGameWiiU: Port = {
   summary: "Untitled Sand Game is a simulation game published by Homebrew, released in 2025.",
   summaryEs: "Untitled Sand Game es un videojuego de simulaci�n publicado por Homebrew, lanzado en 2025.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/untitled-sand-game.svg",
+    alt: "Untitled Sand Game (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Untitled Sand Game (Homebrew, 2025) running on Wii U through source port. Latest release: 1.0. You need your own copy of the game.",
   notesEs: "Untitled Sand Game (Homebrew, 2025) en Wii U mediante port de código. Última release: 1.0. Necesitas tu propia copia del juego.",
 };

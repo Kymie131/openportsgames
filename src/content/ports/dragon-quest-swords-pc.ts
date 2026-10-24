@@ -23,6 +23,11 @@ export const dragonQuestSwordsPc: Port = {
   summary: "Dragon Quest Swords: The Masked Queen and the Tower of Mirrors is a action-adventure game published by Square Enix for Wii, released in 2007.",
   summaryEs: "Dragon Quest Swords: The Masked Queen and the Tower of Mirrors es un videojuego de acci�n y aventura publicado por Square Enix para Wii, lanzado en 2007.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/dragon-quest-swords-the-masked-queen-and-the-tower-of-mirrors.svg",
+    alt: "Dragon Quest Swords: The Masked Queen and the Tower of Mirrors (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Dragon Quest Swords: The Masked Queen and the Tower of Mirrors (Square Enix, 2007) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Dragon Quest Swords: The Masked Queen and the Tower of Mirrors (Square Enix, 2007) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

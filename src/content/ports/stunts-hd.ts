@@ -24,6 +24,11 @@ export const stuntsHd: Port = {
   summary: "Stunts / 4D Sports Driving is a racing game published by Brøderbund for MS-DOS, released in 1990.",
   summaryEs: "Stunts / 4D Sports Driving es un videojuego de carreras publicado por Brøderbund para MS-DOS, lanzado en 1990.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/stunts-4d-sports-driving.svg",
+    alt: "Stunts / 4D Sports Driving (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Stunts / 4D Sports Driving (DOS, 1990) recompiled for the browser and desktop: HD 3D, widescreen and the original's own physics. Bring your own copy. Latest release: v1.5.14.",
   notesEs: "Stunts / 4D Sports Driving (DOS, 1990) recompilado para navegador y escritorio: 3D en HD, widescreen y la física original del juego. Aporta tu propia copia. Última release: v1.5.14.",
 };

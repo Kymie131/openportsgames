@@ -22,6 +22,11 @@ export const quakeDissolutionOfEternityClassicCoreEngines: Port = {
   originalSystems: ["Unknown"],
   summary: "QUAKE Mission Pack 2: Dissolution of Eternity is a shooter game in 1997.",
   summaryEs: "QUAKE Mission Pack 2: Dissolution of Eternity es un videojuego de disparos en 1997.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/quake-mission-pack-2-dissolution-of-eternity.svg",
+    alt: "QUAKE Mission Pack 2: Dissolution of Eternity (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "QUAKE Mission Pack 2: Dissolution of Eternity (Rogue Entertainment, 1997) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (rogue folder).",
   notesEs: "QUAKE Mission Pack 2: Dissolution of Eternity (Rogue Entertainment, 1997) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
 };

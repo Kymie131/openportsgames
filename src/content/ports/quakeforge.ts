@@ -23,6 +23,11 @@ export const Quakeforge: Port = {
   summary: "quakeforge is a action-adventure game, released in 2000.",
   summaryEs: "quakeforge es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/quakeforge.svg",
+    alt: "quakeforge (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Source port of quakeforge (Other).",
   notesEs: "Port del código fuente de quakeforge (Other).",
 };

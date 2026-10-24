@@ -22,6 +22,11 @@ export const MotherEarthboundZeroEarthboundBeginnings: Port = {
   originalSystems: ["Nintendo Entertainment System"],
   summary: "EarthBound Beginnings, originally released in Japan as Mother, is a 1989 role-playing video game developed by Ape Inc. and Nintendo and published by Nintendo for the Family Computer. It is the first entry in the Mother series and was first released in Japan on July 27, 1989. The game was re-released in Japan along with its sequel on the single-cartridge compilation Mother 1+2 for the Game Boy Advance in 2003.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/mother-earthbound-zero-earthbound-beginnings.svg",
+    alt: "Mother/Earthbound Zero/Earthbound Beginnings (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Disassembly of Mother/Earthbound Zero/Earthbound Beginnings for the NES.",
   notesEs: "Desensamblado de Mother/EarthBound Zero/EarthBound Beginnings para NES.",
 };

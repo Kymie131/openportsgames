@@ -24,6 +24,11 @@ export const jnmartin84WipeoutDc: Port = {
   originalSystems: ["Unknown"],
   summary: "Wipeout 3 is a 1999 racing video game developed by Psygnosis and published by Sony Computer Entertainment for the PlayStation. It is the fourth game and third main instalment in the Wipeout series, following Wipeout 64 (1998), and the third on PlayStation following Wipeout 2097 (1996). It is the first game in the series to be released on neither a Sega or Nintendo console nor personal computers. Players control anti-gravity ships and use weapons to force other contenders out of the race.",
   summaryEs: "El término Wipeout puede referirse a:",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/wipeout.svg",
+    alt: "Wipeout (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Wipeout: source port by jnmartin84 for Windows. Bring your own copy of the game.",
   notesEs: "Wipeout: source port de jnmartin84 para Windows. Aporta tu propia copia del juego.",
 };

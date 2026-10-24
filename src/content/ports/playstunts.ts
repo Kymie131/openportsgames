@@ -23,6 +23,11 @@ export const Playstunts: Port = {
   summary: "PlayStunts is a sports game, released in 2000.",
   summaryEs: "PlayStunts es un videojuego de deportes, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/playstunts.svg",
+    alt: "PlayStunts (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "Native browser reconstruction of Stunts / 4D Sports Driving, with tools to build from your own original game files.",
   notesEs:

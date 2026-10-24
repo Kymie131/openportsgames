@@ -23,6 +23,11 @@ export const spelunkyClassicHdAndroid: Port = {
   originalSystems: ["Windows"],
   summary: "Spelunky Classic HD is a platform game.",
   summaryEs: "Spelunky Classic HD es un videojuego de plataformas.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/spelunky-classic-hd.svg",
+    alt: "Spelunky Classic HD (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Modified Spelunky Classic built from the published GameMaker source, with a universal Android APK and the original roguelike platforming.",
   notesEs: "Spelunky Classic modificado, construido desde el código GameMaker publicado, con un APK universal para Android y el plataformas roguelike original.",
 };

@@ -22,6 +22,11 @@ export const SpaceRangers: Port = {
   originalSystems: ["Unknown"],
   summary: "Space Ranger, or Space Rangers, can refer to:",
   summaryEs: "Space Rangers es un juego de computadora de estrategia por turnos, búsqueda de texto, arcade de la compañía rusa Elemental Games, lanzado por 1C Company en 2002. Es aclamado por la crítica y popular en su país de origen. Finlandia y partes de Europa del Este, aunque no tan popular en otros lugares debido a la falta de marketing. En 2004, 1C Company publicó una secuela, Space Rangers 2: Dominators.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/space-rangers.svg",
+    alt: "Space Rangers (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "A matching Delphi decompilation of Space Rangers 1 - Космические рейнджеры.",
   notesEs: "Decompilación que coincide en Delphi de Space Rangers 1.",
 };

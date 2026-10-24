@@ -23,6 +23,11 @@ export const SimpsonsWrestlingRecompiled: Port = {
   summary: "Simpsons Wrestling Recompiled is a shooter game for PlayStation, released in 2000.",
   summaryEs: "Simpsons Wrestling Recompiled es un videojuego de disparos para PlayStation, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/simpsons-wrestling-recompiled.svg",
+    alt: "Simpsons Wrestling Recompiled (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "The Simpsons Wrestling (PS1, USA) recompiled for Windows and Linux with psxrecomp and the TRG Launcher: 16:9, HD, 60 FPS, skip intro, everything unlocked. Bring your own disc.",
   notesEs:

@@ -23,6 +23,11 @@ export const Taradino: Port = {
   summary: "Taradino is a action-adventure game, released in 2000.",
   summaryEs: "Taradino es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/taradino.svg",
+    alt: "Taradino (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "SDL2 port of Rise of the Triad.",
   notesEs: "Port a SDL2 de Rise of the Triad.",
 };

@@ -25,6 +25,11 @@ export const ammaarreshiSkyroadsPort: Port = {
   summary: "SkyRoads (skyroads-port (1:1 C11)) is a action-adventure game, released in 1993.",
   summaryEs: "SkyRoads (skyroads-port (1:1 C11)) es un videojuego de acci�n y aventura, lanzado en 1993.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/skyroads-skyroads-port-1-1-c11.svg",
+    alt: "SkyRoads (skyroads-port (1:1 C11)) (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "SkyRoads (skyroads-port (1:1 C11)): source port by ammaarreshi for Windows, Linux, macOS. Bring your own copy of the game.",
   notesEs: "SkyRoads (skyroads-port (1:1 C11)): source port de ammaarreshi para Windows, Linux, macOS. Aporta tu propia copia del juego.",
 };

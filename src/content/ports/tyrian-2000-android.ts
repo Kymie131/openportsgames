@@ -23,6 +23,11 @@ export const tyrian2000Android: Port = {
   originalSystems: ["MS-DOS"],
   summary: "Tyrian is a vertically scrolling shooter developed by Eclipse Software for MS-DOS and published in 1995 by Epic MegaGames. Tyrian was programmed by Jason Emery, illustrated by Daniel Cook, and its music composed by Alexander Brandon and Andras Molnar. A slightly enhanced version was published in 1999 as Tyrian 2000. The game was re-released as freeware in 2004.",
   summaryEs: "Tyrian 2000 es un videojuego de disparos publicado por Eclipse Productions en 1995.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/tyrian-2000.svg",
+    alt: "Tyrian 2000 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Open-source port of Tyrian 2000 with an Android package in releases, built on the original DOS shoot-em-up data.",
   notesEs: "Port de código abierto de Tyrian 2000 con paquete para Android en las releases, construido sobre los datos originales del shooter de DOS.",
 };

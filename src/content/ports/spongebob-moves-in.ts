@@ -22,6 +22,11 @@ export const SpongebobMovesIn: Port = {
   originalSystems: ["Unknown"],
   summary: "SpongeBob Moves In! was a city-building game originally created and developed by Los Angeles–based game developer Kung Fu Factory and published and distributed by Nickelodeon; the video game is based on the American animated television series SpongeBob SquarePants. It was first released for iOS on June 6, 2013, and became delisted and inactive on June 24, 2021.",
   summaryEs: "SpongeBob Moves In! es un videojuego de acción y aventura publicado por Nickelodeon en 2013.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/spongebob-moves-in.svg",
+    alt: "SpongeBob Moves In! (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "A decompilation of the Android client of SpongeBob Moves In!.",
   notesEs: "Una decompilación del cliente de Android de SpongeBob Moves In!",
 };

@@ -24,6 +24,11 @@ export const falcuryRayverse: Port = {
   originalSystems: ["Unknown"],
   summary: "Rayman is a platform game series created by Michel Ancel for Ubisoft. It follows its protagonist character Rayman, a magical limbless creature, being renowned for his courage and determination who, with the help of his friends, must save his world from various villains. The series is set in a fantastical, magical world which features a wide range of environments that are very often based on certain themes, such as \"the Eraser Plains\", a landscape made entirely of stationery, or \"Fiesta De Los Muertos/Mystic Mesa\", based on Mexican tradition.",
   summaryEs: "Rayman es una franquicia de videojuegos de plataformas, creada por el diseñador de videojuegos Michel Ancel para Ubisoft. Desde el lanzamiento del juego original de Rayman en 1995, la serie ha producido un total de 45 juegos en múltiples plataformas",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/rayman.svg",
+    alt: "Rayman (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Rayman: source port by Falcury for Windows. Bring your own copy of the game.",
   notesEs: "Rayman: source port de Falcury para Windows. Aporta tu propia copia del juego.",
 };

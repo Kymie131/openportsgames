@@ -21,6 +21,11 @@ export const Antares: Port = {
   originalSystems: ["Unknown"],
   summary: "Grab your gun and blast your way through the infested horde as you try to save humanity from the ultimate doom! Gather resources, upgrade your weapon and explore the story of why you are the only one left alive. Or are you?",
   summaryEs: "Antares es un videojuego de acción y aventura publicado por Sonaloux Entertainment en 2020.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1175900/header.jpg?t=1582793723",
+    alt: "Antares (Steam header)",
+    credit: "Steam",
+  },
   notes: "A tactical space combat game.",
   notesEs: "Un juego de combate espacial táctico.",
 };

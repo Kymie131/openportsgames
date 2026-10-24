@@ -24,6 +24,11 @@ export const misadev4Bo1ZombiesDecompiled: Port = {
   originalSystems: ["Xbox 360"],
   summary: "Call of Duty: Black Ops is a shooter game in 2010.",
   summaryEs: "Call of Duty: Black Ops es un videojuego de disparos en 2010.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/42700/header.jpg?t=1780962720",
+    alt: "Call of Duty: Black Ops (Steam header)",
+    credit: "Steam",
+  },
   notes: "Call of Duty: Black Ops: decompilation by MisaDev4 for Windows. Bring your own copy of the game.",
   notesEs: "Call of Duty: Black Ops: decompilación de MisaDev4 para Windows. Aporta tu propia copia del juego.",
 };

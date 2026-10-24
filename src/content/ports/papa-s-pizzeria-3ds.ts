@@ -22,6 +22,11 @@ export const papaSPizzeria3ds: Port = {
   originalSystems: ["Other"],
   summary: "Papa's Pizzeria is a simulation game in 2007.",
   summaryEs: "Papa's Pizzeria es un videojuego de simulación en 2007.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/papa-s-pizzeria.svg",
+    alt: "Papa's Pizzeria (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Papa's Pizzeria (Flipline Studios, 2007) running on Nintendo 3DS through source port. Latest release: v0.6-alpha. You need your own copy of the game.",
   notesEs: "Papa's Pizzeria (Flipline Studios, 2007) en Nintendo 3DS mediante port de código. Última release: v0.6-alpha. Necesitas tu propia copia del juego.",
 };

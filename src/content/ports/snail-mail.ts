@@ -22,6 +22,11 @@ export const SnailMail: Port = {
   originalSystems: ["Unknown"],
   summary: "Race to deliver THE letter first in this strategic, card-based, online board game for 2 or 4 players. Invite your friends for free with a Friend's Pass! 🐌 Use powerful ability cards to speed ahead or sabotage rivals. Build your own customized decks for a fresh, chaotic challenge every game! ⚔️",
   summaryEs: "Snail Mail es un videojuego de acción y aventura publicado por WASD Studios en 2025.",
+  cover: {
+    src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Snail_Mail_Treefort_2022_%28cropped%29.jpg/960px-Snail_Mail_Treefort_2022_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    alt: "Snail Mail (box art)",
+    credit: "Wikipedia",
+  },
   notes: "Decompilation of Snail Mail (Other).",
   notesEs: "Decompilación de Snail Mail (Other).",
 };

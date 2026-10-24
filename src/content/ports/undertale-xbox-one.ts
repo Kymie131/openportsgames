@@ -22,6 +22,11 @@ export const UndertaleXboxOne: Port = {
   originalSystems: ["Xbox"],
   summary: "Undertale is a 2015 role-playing video game created by American indie developer Toby Fox. The player controls a child who has fallen into the Underground: a large, secluded region under the surface of the Earth, separated by a magical barrier. The player meets various monsters during the journey back to the surface, some of which may engage in combat. The combat system involves the player navigating through mini–bullet hell attacks by the opponent. They can opt to appease monsters in order to spare them instead of killing them.",
   summaryEs: "Undertale es un videojuego de rol en 2D de 2015 creado por el desarrollador independiente estadounidense Toby Fox. El jugador controla a un niño que ha caído al subsuelo: una gran región aislada bajo la superficie de la Tierra, separada por una barrera mágica. El jugador se encuentra con varios monstruos durante su viaje de regreso a la superficie, aunque algunos monstruos pueden involucrar al jugador en una pelea. El sistema de combate involucra al jugador navegando a través de los ataques mini bullet hell por parte del oponente.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/undertale-xbox-one.svg",
+    alt: "UNDERTALE (Xbox One) (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "UNDERTALE Xbox v1.13X Decompilation.",
   notesEs: "Decompilación de UNDERTALE Xbox v1.13X.",
 };

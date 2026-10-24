@@ -24,6 +24,11 @@ export const fluctusWiiU: Port = {
   summary: "Fluctus is a platform game published by Homebrew, released in 2020.",
   summaryEs: "Fluctus es un videojuego de plataformas publicado por Homebrew, lanzado en 2020.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/fluctus.svg",
+    alt: "Fluctus (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Fluctus (Homebrew, 2020) running on Wii U through source port. Latest release: 1.0.0. You need your own copy of the game.",
   notesEs: "Fluctus (Homebrew, 2020) en Wii U mediante port de código. Última release: 1.0.0. Necesitas tu propia copia del juego.",
 };

@@ -23,6 +23,11 @@ export const RomanovsVengeance: Port = {
   summary: "Romanov's Vengeance is a action-adventure game, released in 2000.",
   summaryEs: "Romanov's Vengeance es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/romanov-s-vengeance.svg",
+    alt: "Romanov's Vengeance (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Romanov's Vengeance is an OpenRA mod based on Red Alert 2.",
   notesEs: "Romanov's Vengeance es un mod de OpenRA basado en Red Alert 2.",
 };

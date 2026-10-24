@@ -24,6 +24,11 @@ export const mirohNes: Port = {
   summary: "Miroh is a platform game published by Homebrew, released in 2023.",
   summaryEs: "Miroh es un videojuego de plataformas publicado por Homebrew, lanzado en 2023.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/miroh.svg",
+    alt: "Miroh (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Miroh (Homebrew, 2023) running on nes through source port. Latest release: 3.1.3-beta. You need your own copy of the game.",
   notesEs: "Miroh (Homebrew, 2023) en nes mediante port de código. Última release: 3.1.3-beta. Necesitas tu propia copia del juego.",
 };

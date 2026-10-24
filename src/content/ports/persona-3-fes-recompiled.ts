@@ -24,6 +24,11 @@ export const persona3FesRecompiled: Port = {
   aiDisclosure: {"source":"https://github.com/poopoocacacacaca/p3fes-recompiled","quote":"AI-Powered Static Recompilation of Persona 3 FES (USA)"},
   summary: "Persona 3, released outside Japan as Shin Megami Tensei: Persona 3, is a 2006 role-playing video game developed by Atlus. It is the fourth main installment in the Persona series. It was originally released for the PlayStation 2 in Japan in 2006 and in North America in 2007. It has received several enhanced re-releases and ports: Persona 3 FES, an extended version featuring a new playable epilogue and other changes, was released for the PlayStation 2 in Japan in 2007 and worldwide in 2008.",
   summaryEs: "Persona 3 FES es un videojuego de rol en 2007.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/persona-3-fes.svg",
+    alt: "Persona 3 FES (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "AI-powered attempt at a static recompilation of Shin Megami Tensei: Persona 3 FES (NTSC-U SLUS-21621). Experimental; no playable release yet.",
   notesEs: "Intento asistido por IA de recompilación estática de Shin Megami Tensei: Persona 3 FES (NTSC-U SLUS-21621). Experimental; sin release jugable todavía.",
 };

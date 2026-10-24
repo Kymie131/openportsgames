@@ -24,6 +24,11 @@ export const splatterhouse2010Recomp: Port = {
   summary: "Splatterhouse (2010) is a action-adventure game published by Bandai Namco for Xbox 360, released in 2010.",
   summaryEs: "Splatterhouse (2010) es un videojuego de acci�n y aventura publicado por Bandai Namco para Xbox 360, lanzado en 2010.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/splatterhouse-2010.svg",
+    alt: "Splatterhouse (2010) (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Static recompilation of the 2010 Xbox 360 Splatterhouse to native PC. Bring your own retail ISO; no game code or assets are included.",
   notesEs: "Recompilación estática del Splatterhouse de Xbox 360 (2010) a PC nativo. Aporta tu propio ISO original; no incluye código ni recursos del juego.",
 };

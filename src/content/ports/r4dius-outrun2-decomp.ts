@@ -24,6 +24,11 @@ export const r4diusOutrun2Decomp: Port = {
   originalSystems: ["Unknown"],
   summary: "OutRun 2006: Coast 2 Coast, released as OutRun 2 SP in Japan, is a 2006 racing video game developed by Sumo Digital and published by Sega for home consoles. The game is an updated combination of Outrun 2 and Outrun 2 SP that includes all stages from previous versions of Outrun 2, plus challenges and local and internet multiplayer.",
   summaryEs: "OutRun 2006: Coast 2 Coast es un juego desarrollado por Sumo Digital que fue lanzado al mercado en 2006 por Sega, el octavo título en la serie. OutRun 2006 es una re-imaginación del primer juego de la serie, y tiene un juego completamente nuevo con un motor gráfico más moderno. El juego está partido en dos partes: Una conversión fiel de OutRun 2 SP, y \"Coast 2 Coast\", el cual incluye carreras de un jugador y retos.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/outrun-2006-coast-2-coast.svg",
+    alt: "OutRun 2006: Coast 2 Coast (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "OutRun 2006: Coast 2 Coast: decompilation by r4dius for Windows. Bring your own copy of the game.",
   notesEs: "OutRun 2006: Coast 2 Coast: decompilación de r4dius para Windows. Aporta tu propia copia del juego.",
 };

@@ -23,6 +23,11 @@ export const echoesOfWisdomRecomp: Port = {
   originalSystems: ["Nintendo Switch"],
   summary: "The Legend of Zelda: Echoes of Wisdom is a 2024 action-adventure game developed by Nintendo and Grezzo and published by Nintendo for the Nintendo Switch. It is the first mainline The Legend of Zelda game with Princess Zelda as the main playable character.",
   summaryEs: "The Legend of Zelda: Echoes of Wisdom es un videojuego de acción-aventura desarrollado y distribuido por Nintendo para la plataforma Nintendo Switch. Es la primera entrega de la franquicia The Legend of Zelda protagonizada por la propia princesa Zelda en lugar de Link. Durante el Nintendo Direct del 18 de junio de 2024 se anunció su fecha de lanzamiento para el 26 de septiembre del mismo año.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-echoes-of-wisdom.svg",
+    alt: "The Legend of Zelda: Echoes of Wisdom (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Alpha static recompilation of The Legend of Zelda: Echoes of Wisdom (Switch) for Android and PC. No game files included; bring your own copy.",
   notesEs: "Recompilación estática en alpha de The Legend of Zelda: Echoes of Wisdom (Switch) para Android y PC. No incluye archivos del juego; aporta tu propia copia.",
 };

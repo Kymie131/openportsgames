@@ -23,6 +23,11 @@ export const Rebellion2: Port = {
   summary: "rebellion2 is a action-adventure game, released in 2000.",
   summaryEs: "rebellion2 es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/rebellion2.svg",
+    alt: "rebellion2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Remake of the classic Star Wars Rebellion game for PC using Unity.",
   notesEs: "Remake del clásico Star Wars Rebellion para PC con Unity.",
 };

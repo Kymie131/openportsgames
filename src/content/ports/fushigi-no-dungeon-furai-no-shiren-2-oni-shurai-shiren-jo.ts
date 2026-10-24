@@ -23,6 +23,11 @@ export const FushigiNoDungeonFuraiNoShiren2OniShuraiShirenJo: Port = {
   summary: "Fushigi no Dungeon: Fūrai no Shiren 2 — Oni Shūrai! Shiren-jō! is a action-adventure game for Nintendo 64, released in 2000.",
   summaryEs: "Fushigi no Dungeon: Fūrai no Shiren 2 — Oni Shūrai! Shiren-jō! es un videojuego de acci�n y aventura para Nintendo 64, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/fushigi-no-dungeon-furai-no-shiren-2-oni-shurai-shiren-jo.svg",
+    alt: "Fushigi no Dungeon: Fūrai no Shiren 2 — Oni Shūrai! Shiren-jō! (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Matching decompilation of Fushigi no Dungeon: Fuurai no Shiren 2 (N64, Japan).",
   notesEs: "Decompilación que coincide de Fushigi no Dungeon: Fuurai no Shiren 2 (N64, Japón).",
 };

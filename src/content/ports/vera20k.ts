@@ -23,6 +23,11 @@ export const Vera20k: Port = {
   summary: "vera20k is a action-adventure game, released in 2000.",
   summaryEs: "vera20k es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/vera20k.svg",
+    alt: "vera20k (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Red Alert 2: Yuri's Revenge rebuilt in Rust / 用 Rust 重写的《红警2：尤里的复仇》.",
   notesEs: "Red Alert 2: Yuri's Revenge reconstruido en Rust.",
 };

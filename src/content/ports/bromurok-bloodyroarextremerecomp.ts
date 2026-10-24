@@ -23,6 +23,11 @@ export const bromurokBloodyroarextremerecomp: Port = {
   originalSystems: ["Xbox"],
   summary: "Bloody Roar Extreme is a fighting game developed by Eighting as the fourth entry in their Bloody Roar series. It was released in 2002 for the GameCube, and later ported to Xbox in 2003. In North America, the GameCube version was released under the name Bloody Roar: Primal Fury.",
   summaryEs: "Bloody Roar Extreme, o Bloody Roar: Primal Fury como se conoce fuera de su lanzamiento de Japón para GameCube, es un videojuego de lucha desarrollado por Eighting lanzado en 2002 para GameCube. Más tarde fue portado al Xbox bajo el apodo original Bloody Roar Extreme en 2003.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/bloody-roar-extreme.svg",
+    alt: "Bloody Roar Extreme (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Bloody Roar Extreme: static recompilation by bromurok for Windows. Bring your own copy of the game.",
   notesEs: "Bloody Roar Extreme: recompilación estática de bromurok para Windows. Aporta tu propia copia del juego.",
 };

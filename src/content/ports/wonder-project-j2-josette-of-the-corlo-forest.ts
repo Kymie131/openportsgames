@@ -23,6 +23,11 @@ export const WonderProjectJ2JosetteOfTheCorloForest: Port = {
   originalSystems: ["Unknown"],
   summary: "Wonder Project J2 is a 1996 life simulation game developed by Givro Corporation and originally published by Enix for the Nintendo 64. It is the sequel to Wonder Project J, which was released in 1994 for the Super Famicom.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/wonder-project-j2-josette-of-the-corlo-forest.svg",
+    alt: "Wonder Project J2: Josette of the Corlo Forest (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "A work in progress decompilation of Wonder Project J2.",
   notesEs: "Decompilación de Wonder Project J2, en desarrollo.",
 };

@@ -24,6 +24,11 @@ export const pixiecatsupremeAnodynesharp: Port = {
   originalSystems: ["Unknown"],
   summary: "Anodyne is an action-adventure video game developed by Analgesic Productions. After a nearly year-long development through developers Melos Han-Tani and Marina Kittaka's last years in college, the game was released on February 4, 2013, for Windows PC, Mac OS X and Linux. An Android version was released as part of a Humble Bundle on October 15, 2013. The PlayStation 4 version of the game was released on September 9, 2018, the Xbox One version was released on September 21, 2018, and the Nintendo Switch version was released on February 28, 2019.",
   summaryEs: "Anodyne es un videojuego de acción y aventura publicado por Analgesic Productions en 2013.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/234900/header.jpg?t=1792017927",
+    alt: "Anodyne (Steam header)",
+    credit: "Steam",
+  },
   notes: "Anodyne: source port by PixieCatSupreme for Windows. Bring your own copy of the game.",
   notesEs: "Anodyne: source port de PixieCatSupreme para Windows. Aporta tu propia copia del juego.",
 };

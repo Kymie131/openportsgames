@@ -23,6 +23,11 @@ export const jorioBugdom: Port = {
   originalSystems: ["Windows"],
   summary: "Bugdom is a 1999 platform video game developed and published by Pangea Software for Mac OS 9. It was included with the iMac DV 2000 and later iBook models.",
   summaryEs: "Bugdom es un videojuego de plataformas de 1999 desarrollado y publicado por Pangea Software para Mac OS 9. Se incluyó con los modelos iMac DV 2000 y iBook posteriores.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/bugdom.svg",
+    alt: "Bugdom (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Bugdom: source port by jorio for Windows, macOS. Bring your own copy of the game.",
   notesEs: "Bugdom: source port de jorio para Windows, macOS. Aporta tu propia copia del juego.",
 };

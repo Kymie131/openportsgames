@@ -23,6 +23,11 @@ export const Ophd: Port = {
   summary: "OPHD is a action-adventure game, released in 2000.",
   summaryEs: "OPHD es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/ophd.svg",
+    alt: "OPHD (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "OutpostHD - Open source remake of Sierra On-Line's Outpost.",
   notesEs: "OutpostHD: remake de código abierto de Outpost de Sierra On-Line.",
 };

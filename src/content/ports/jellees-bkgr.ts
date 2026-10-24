@@ -24,6 +24,11 @@ export const jelleesBkgr: Port = {
   originalSystems: ["Game Boy Advance"],
   summary: "Banjo-Kazooie: Grunty's Revenge is a 2003 platform game developed by Rare and published by THQ for the Game Boy Advance (GBA). It is the third installment in the Banjo-Kazooie series and is set between the Nintendo 64 games Banjo-Kazooie (1998) and Banjo-Tooie (2000). In Grunty's Revenge, the evil witch Gruntilda travels back in time to prevent the events of Banjo-Kazooie from happening, and the bear Banjo and his bird friend Kazooie set out to stop her.",
   summaryEs: "Banjo-Kazooie: Grunty's Revenge es un videojuego de plataformas desarrollado por Rare y publicado por THQ para Game Boy Advance. Es la tercera entrega de la serie y constituye la secuela directa de los juegos de Nintendo 64 (N64) Banjo-Kazooie (1998) y Banjo-Tooie (2000). En la trama, la malvada bruja Gruntilda viaja atrás en el tiempo para impedir que ocurran los acontecimientos de Banjo-Kazooie, y el oso Banjo y su amiga el pájaro Kazooie se lanzan a detenerla.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/banjo-kazooie-grunty-s-revenge.svg",
+    alt: "Banjo-Kazooie: Grunty's Revenge (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Banjo-Kazooie: Grunty's Revenge: decompilation by jellees for Windows. Bring your own copy of the game.",
   notesEs: "Banjo-Kazooie: Grunty's Revenge: decompilación de jellees para Windows. Aporta tu propia copia del juego.",
 };

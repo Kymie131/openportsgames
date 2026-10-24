@@ -23,6 +23,11 @@ export const Doom64ExPlusEnhanced: Port = {
   summary: "DOOM64-EX-Plus-Enhanced is a action-adventure game, released in 2000.",
   summaryEs: "DOOM64-EX-Plus-Enhanced es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/doom64-ex-plus-enhanced.svg",
+    alt: "DOOM64-EX-Plus-Enhanced (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "This is a custom fork of the EX+ engine with news customs contents, news customs options, news customs features, and possibly more in the future.",
   notesEs:

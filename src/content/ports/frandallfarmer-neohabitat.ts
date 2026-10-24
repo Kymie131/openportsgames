@@ -24,6 +24,11 @@ export const frandallfarmerNeohabitat: Port = {
   originalSystems: ["Unknown"],
   summary: "Habitat is a physics-based space game where you build, fly, and fight with whatever you can find out in space. Upgrade and arm your creations with weapons and structures you find in orbit, fly and explore using rocket physics.Battle deadly enemies in Campaign Mode to save humanity or explore Sandbox Mode for true creative control.",
   summaryEs: "Habitat es un videojuego de estrategia publicado por Versus Evil en 2016.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/299340/header.jpg?t=1773309693",
+    alt: "Habitat (Steam header)",
+    credit: "Steam",
+  },
   notes: "Habitat: source port by frandallfarmer for Windows. Bring your own copy of the game.",
   notesEs: "Habitat: source port de frandallfarmer para Windows. Aporta tu propia copia del juego.",
 };

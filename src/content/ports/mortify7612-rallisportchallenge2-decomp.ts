@@ -23,6 +23,11 @@ export const mortify7612Rallisportchallenge2Decomp: Port = {
   originalSystems: ["Unknown"],
   summary: "RalliSport Challenge 2 is a rally racing video game developed by Digital Illusions CE and published by Microsoft Game Studios for the Xbox in 2004. Released as a sequel to the 2002 video game RalliSport Challenge, the game introduced several new features, including a career mode, additional cars, and track types with new environments, including night driving and ice racing.",
   summaryEs: "RalliSport Challenge 2 es un videojuego de carreras de rally de 2004 desarrollado por Digital Illusions CE y publicado por Microsoft Game Studios para Xbox. Es la secuela del RalliSport Challenge de 2002.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/rallisport-challenge-2.svg",
+    alt: "RalliSport Challenge 2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "RalliSport Challenge 2: static recompilation by Mortify7612 for Windows, Linux. Bring your own copy of the game.",
   notesEs: "RalliSport Challenge 2: recompilación estática de Mortify7612 para Windows, Linux. Aporta tu propia copia del juego.",
 };

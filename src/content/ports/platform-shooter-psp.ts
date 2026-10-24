@@ -24,6 +24,11 @@ export const platformShooterPsp: Port = {
   summary: "Platform Shooter is a platform game published by jmgamer1199, released in 2026.",
   summaryEs: "Platform Shooter es un videojuego de plataformas publicado por jmgamer1199, lanzado en 2026.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/platform-shooter.svg",
+    alt: "Platform Shooter (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "Platform Shooter is a native PSP homebrew platformer with mod packs for textures, sounds, levels and rules. It runs on PSP-1000 to 3000 and in PPSSPP.",
   notesEs:

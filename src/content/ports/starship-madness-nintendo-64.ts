@@ -23,6 +23,11 @@ export const starshipMadnessNintendo64: Port = {
   summary: "Starship Madness is a shooter game published by Homebrew for Dreamcast, released in 2015.",
   summaryEs: "Starship Madness es un videojuego de disparos publicado por Homebrew para Dreamcast, lanzado en 2015.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/starship-madness.svg",
+    alt: "Starship Madness (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Starship Madness (Homebrew, 2015) running on n64 through source port. Latest release: release_006. You need your own copy of the game.",
   notesEs: "Starship Madness (Homebrew, 2015) en n64 mediante port de código. Última release: release_006. Necesitas tu propia copia del juego.",
 };

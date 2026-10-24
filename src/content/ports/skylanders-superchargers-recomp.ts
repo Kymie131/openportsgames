@@ -24,6 +24,11 @@ export const skylandersSuperchargersRecomp: Port = {
   summary: "Skylanders: SuperChargers is a action-adventure game published by Activision for Xbox 360, released in 2015.",
   summaryEs: "Skylanders: SuperChargers es un videojuego de acci�n y aventura publicado por Activision para Xbox 360, lanzado en 2015.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/skylanders-superchargers.svg",
+    alt: "Skylanders: SuperChargers (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Unofficial native Windows port of Skylanders: SuperChargers (Xbox 360) via ReXGlue. Bring your own game.",
   notesEs: "Port nativo no oficial para Windows de Skylanders: SuperChargers (Xbox 360) con ReXGlue. Aporta tu propio juego.",
 };

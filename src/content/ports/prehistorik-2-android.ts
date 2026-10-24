@@ -23,6 +23,11 @@ export const prehistorik2Android: Port = {
   originalSystems: ["MS-DOS"],
   summary: "Prehistorik 2 is a platform game sequel to Prehistorik. It was developed by Titus Interactive for MS-DOS and Amstrad CPC and published in 1993. Like its predecessor, the main character of Prehistorik 2 is a caveman in a quest for food and who fights various animals and humorous end of level bosses.",
   summaryEs: "Prehistorik 2 es un videojuego de plataformas desarrollado y publicado por Titus Interactive en 1993. Originalmente diseñado para Amstrad CPC y MS-DOS, el juego es la secuela de Prehistorik (1991). Posteriormente, fue adaptado como Prehistorik Man en 1994 para las consolas Game Boy y Super Nintendo Entertainment System (SNES), siendo esta última versión adaptada a su vez para Game Boy Advance en 2001.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/749140/header.jpg?t=1762283986",
+    alt: "Prehistorik 2 (Steam header)",
+    credit: "Steam",
+  },
   notes: "Source-port workbench for Prehistorik 2 with an arm64 Android APK. Bring your own copy of the DOS game.",
   notesEs: "Banco de trabajo de código fuente de Prehistorik 2 con APK arm64 para Android. Aporta tu propia copia del juego de DOS.",
 };

@@ -21,6 +21,11 @@ export const openborAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://openportsgames.com/covers/generated/openbor.svg",
+    alt: "OpenBoR (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "OpenBoR (DCurrent, 2001) an Android tool. Latest release: v7533. Needs your own copy of the game (YES).",
   notesEs: "OpenBoR (DCurrent, 2001) una herramienta para Android. Última release: v7533. Necesita tu propia copia del juego.",
 };

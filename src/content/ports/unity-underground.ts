@@ -23,6 +23,11 @@ export const UnityUnderground: Port = {
   summary: "Unity Underground is a action-adventure game for MS-DOS, released in 2000.",
   summaryEs: "Unity Underground es un videojuego de acci�n y aventura para MS-DOS, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/unity-underground.svg",
+    alt: "Unity Underground (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Source port of Unity Underground (Other).",
   notesEs: "Port del código fuente de Unity Underground (Other).",
 };

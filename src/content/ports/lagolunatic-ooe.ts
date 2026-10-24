@@ -24,6 +24,11 @@ export const lagolunaticOoe: Port = {
   originalSystems: ["Unknown"],
   summary: "Castlevania: Order of Ecclesia is a 2008 action role-playing game and the third Nintendo DS installment of the Castlevania franchise. It was directed by Akihiro Minakata, with producer Koji Igarashi returning. The plot involves Shanoa, who is part of an organization set to defeat Dracula after the Belmont clan has vanished.",
   summaryEs: "Castlevania: Order of Ecclesia, conocido en Japón como Akumajō Dorakyura Ubawareta Kokuin es la tercera entrega de la saga Castlevania en Nintendo DS, y la última realizada por Konami Japón.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/castlevania-order-of-ecclesia.svg",
+    alt: "Castlevania: Order of Ecclesia (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Castlevania: Order of Ecclesia: decompilation by LagoLunatic for Windows. Bring your own copy of the game.",
   notesEs: "Castlevania: Order of Ecclesia: decompilación de LagoLunatic para Windows. Aporta tu propia copia del juego.",
 };

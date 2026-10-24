@@ -22,6 +22,11 @@ export const Heavymetal: Port = {
   originalSystems: ["Unknown"],
   summary: "Heavy metal may refer to:Heavy metals, a loose category of relatively dense metals and metalloids Toxic heavy metal, any heavy metal chemical element of environmental concern Heavy metal music, a genre of rock music Heavy metal genres Heavy Metal (magazine), an American fantasy comic book magazine",
   summaryEs: "Heavy Metal es una revista de historietas de Fantasía de origen estadounidense, conocida principalmente por su mezcla de fantasía oscura, ciencia ficción y erótica. Ésta fue originada a mediados de los 70', cuando el editor Leonard Mogel se encontraba en París para iniciar la edición francesa de la revista de humor National Lampoon. Allí descubrió la revista francesa de ciencia ficción y fantasía Métal Hurlant, la cual había debutado en diciembre de 1974; el título francés se traduce literalmente como \"Metal Aullante\". Mogel decidió entonces crear una versión norteamericana de la revista.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/heavymetal.svg",
+    alt: "heavymetal (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "A static recompilation of Heavy Metal: FAKK2 (2000) targeting modern Windows 11 x86-64.",
   notesEs: "Recompilación estática de Heavy Metal: FAKK2 (2000) para Windows 11 x86-64 moderno.",
 };

@@ -22,6 +22,11 @@ export const recompiledSteel: Port = {
   originalSystems: ["Unknown"],
   summary: "Real Steel is a 2011 American science fiction sports film starring Hugh Jackman. Produced and directed by Shawn Levy, the film is based on the short story \"Steel\", written by Richard Matheson, which was originally published in the May 1956 edition of The Magazine of Fantasy & Science Fiction, and later adapted into a 1963 Twilight Zone episode. The story features a down-on-his-luck former boxer (Jackman), whose sport is now played by robots, as he and his son find an abandoned robot and train it to be a promising fighter.",
   summaryEs: "Real Steel es una película de acción, drama, aventura y ciencia ficción de 2011 dirigida por Shawn Levy y protagonizada por Hugh Jackman junto a Dakota Goyo y Evangeline Lilly.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/real-steel.svg",
+    alt: "Real Steel (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Real Steel (Zoo Entertainment, 2011) for Android (static recompilation). Latest release: v0.2.0. Needs your own copy of the game.",
   notesEs: "Real Steel (Zoo Entertainment, 2011) para Android (recompilación estática). Última release: v0.2.0. Necesita tu propia copia del juego.",
 };

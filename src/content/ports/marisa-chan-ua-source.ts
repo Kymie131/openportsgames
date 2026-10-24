@@ -24,6 +24,11 @@ export const marisaChanUaSource: Port = {
   originalSystems: ["Unknown"],
   summary: "Urban Assault is a 3D combined first-person shooter and real-time strategy computer game developed by the German company TerraTools and published by Microsoft in the year 1998.",
   summaryEs: "Urban Assault es un videojuego de disparos en primera persona y estrategia en tiempo real en 3D, desarrollado por la compañía alemana TerraTools y publicado por Microsoft en 1998.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4797420/be2d61831984032284d79e68851961f65800ce48/header.jpg?t=1783580517",
+    alt: "Urban Assault (Steam header)",
+    credit: "Steam",
+  },
   notes: "Urban Assault: decompilation by Marisa-Chan for Windows. Bring your own copy of the game.",
   notesEs: "Urban Assault: decompilación de Marisa-Chan para Windows. Aporta tu propia copia del juego.",
 };

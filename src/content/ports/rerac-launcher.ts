@@ -21,6 +21,11 @@ export const ReracLauncher: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  cover: {
+    src: "https://openportsgames.com/covers/generated/rerac-launcher.svg",
+    alt: "rerac launcher (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "ReRAC: The Ratchet & Clank Rewrite Launcher.",
   notesEs: "ReRAC: el lanzador de la reescritura de Ratchet & Clank.",
 };

@@ -24,6 +24,11 @@ export const hectorbaileyByteTactics: Port = {
   originalSystems: ["Unknown"],
   summary: "Total Annihilation is a science fiction real-time strategy video game released in September 1997 for Microsoft Windows and Mac OS by Cavedog Entertainment and distributed internationally by GT Interactive. Two expansion packs were released in 1998, The Core Contingency on April 29 and Battle Tactics on July 20, while a medieval-themed spin-off called Total Annihilation: Kingdoms was released on June 25, 1999.",
   summaryEs: "Total Annihilation es un videojuego de estrategia en tiempo real para PC de ambientación futurista, creado en 1997 por Chris Taylor y Cavedog Entertainment. Fue el primer videojuego de este género en implementar gráficos 3D en las unidades y el terreno, un paso muy significativo en una época en que las tarjetas gráficas con aceleración 3D aún no eran comunes.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/298030/header.jpg?t=1726478823",
+    alt: "Total Annihilation (Steam header)",
+    credit: "Steam",
+  },
   notes: "Total Annihilation: decompilation by HectorBailey for Windows. Bring your own copy of the game.",
   notesEs: "Total Annihilation: decompilación de HectorBailey para Windows. Aporta tu propia copia del juego.",
 };

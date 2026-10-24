@@ -23,6 +23,11 @@ export const BanjorecompAndroid: Port = {
   summary: "BanjoRecomp Android is a action-adventure game for Nintendo 64, released in 2000.",
   summaryEs: "BanjoRecomp Android es un videojuego de acci�n y aventura para Nintendo 64, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/banjorecomp-android.svg",
+    alt: "BanjoRecomp Android (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Android Port of Banjo-Kazooie made using N64: Recompiled.",
   notesEs: "Port para Android de Banjo-Kazooie hecho con N64: Recompiled.",
 };

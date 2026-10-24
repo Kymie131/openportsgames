@@ -23,6 +23,11 @@ export const Nearchuckle: Port = {
   summary: "NearChuckle is a action-adventure game, released in 2000.",
   summaryEs: "NearChuckle es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  cover: {
+    src: "https://openportsgames.com/covers/generated/nearchuckle.svg",
+    alt: "NearChuckle (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "A Linux port of Far Cry 1.",
   notesEs: "Un port para Linux de Far Cry 1.",
 };

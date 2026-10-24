@@ -24,6 +24,11 @@ export const themobycollectiveSpyro2: Port = {
   originalSystems: ["PlayStation"],
   summary: "Spyro 2: Ripto's Rage!, known as Spyro 2: Gateway to Glimmer in PAL regions, is a 1999 platform game developed by Insomniac Games and published by Sony Computer Entertainment for the PlayStation. It is the second installment in the Spyro series and a sequel to Spyro the Dragon (1998).",
   summaryEs: "Spyro 2: En busca de los talismanes, conocido en inglés como Spyro 2: Ripto's Rage! en Norteamérica y como Spyro 2: Gateway To Glimmer en Europa, es un videojuego de plataformas para la consola PlayStation. Fue lanzado en Norteamérica el 2 de noviembre de 1999, en Europa el 5 de noviembre de 1999 y en Japón el 16 de marzo de 2000, bajo el título Spyro X Sparx Tondemo Tours. Spyro 2 es el segundo juego de la serie Spyro the Dragon, que comenzó con Spyro the Dragon en 1998.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/spyro-2-ripto-s-rage.svg",
+    alt: "Spyro 2: Ripto's Rage! (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes: "Spyro 2: Ripto's Rage!: decompilation by TheMobyCollective for Windows. Bring your own copy of the game.",
   notesEs: "Spyro 2: Ripto's Rage!: decompilación de TheMobyCollective para Windows. Aporta tu propia copia del juego.",
 };

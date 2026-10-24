@@ -23,6 +23,11 @@ export const morsgamesMoonchildfe: Port = {
   originalSystems: ["Unknown"],
   summary: "[Gameplay Mechanics]• Controls: Simple mouse-click navigation to advance the story.• Branching Narrative: Player choices directly influence the plot, leading to multiple unique endings.• Standard Features: Includes essential functions such as Skip, Auto-mode, Save/Load, and Message Backlog.",
   summaryEs: "Moon Child es un videojuego de acción y aventura publicado por D.U.F.F. en 2026.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656060/cf7ec3d8eed4e8058ed8b50eeaa1c4b637928d07/header.jpg?t=1782909854",
+    alt: "Moon Child (Steam header)",
+    credit: "Steam",
+  },
   notes: "Moon Child: engine remake by MorsGames for Windows. Bring your own copy of the game.",
   notesEs: "Moon Child: recreación de motor de MorsGames para Windows. Aporta tu propia copia del juego.",
 };
