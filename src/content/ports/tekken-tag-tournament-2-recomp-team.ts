@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tekkenTagTournament2RecompTeam: Port = {
+  schema: "port",
+  id: "tekken-tag-tournament-2-recomp-team",
+  title: "Tekken Tag Tournament 2 Recompiled",
+  game: "Tekken Tag Tournament 2",
+  developers: ["thatcalikid760"],
+  publisher: "Bandai Namco",
+  originalYear: 2012,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.2.2", date: "2026-10-24" },
+  sources: ["https://github.com/thatcalikid760/TTT2-Recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-24",
+  originalSystems: ["Xbox 360"],
+  summary: "Tekken Tag Tournament 2 is a 2011 fighting game, the eighth installment in the Tekken fighting game series and the sequel to Tekken Tag Tournament. It was released for the arcades in September 2011. It received an update, subtitled Unlimited, in March 2012. A console version based on the update was released for PlayStation 3 and Xbox 360 in September 2012. It was ported to the Wii U as one of the system's launch titles in November 2012, subtitled Wii U Edition.",
+  summaryEs: "Tekken Tag Tournament 2 (鉄拳タッグトーナメント2) es un videojuego de lucha de la saga Tekken, ya lanzada en arcades y para consolas. Es la esperada secuela del primer Tekken Tag Tournament, lanzado originalmente en 1999. Tekken Tag Tournament 2 fue anunciado en el Tokyo Game Show de 2010 y fue lanzada en verano de 2011 en su versión arcade en Japón. Más tarde, en marzo de 2012 salió en arcades una actualización del juego renombrado como Tekken Unlimited.",
+  notes: "Community static recompilation of Tekken Tag Tournament 2 (Xbox 360) with native PC rendering and quality-of-life changes. Requires the Xbox 360 ISO.",
+  notesEs: "Recompilación estática comunitaria de Tekken Tag Tournament 2 (Xbox 360) con render nativo en PC y mejoras de calidad. Requiere el ISO de Xbox 360.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5c/Tekken_TT2_console.png",
+    alt: "Tekken Tag Tournament 2 (box art)",
+    credit: "Wikipedia",
+  },
+};

@@ -1,9 +1,9 @@
 # Informe de metadatos de juegos
 
-- Fichas con metadatos de juego: **2213**
-- Sinopsis añadidas: **0**
+- Fichas con metadatos de juego: **2217**
+- Sinopsis añadidas: **4**
 - Publishers completados (solo si faltaban): **0**
-- Sinopsis generadas a partir de la ficha: **280**`n- Fichas sin sinopsis verificada (resumen generado): **280**
+- Sinopsis generadas a partir de la ficha: **295**`n- Fichas sin sinopsis verificada (resumen generado): **295**
 - Años que difieren más de 1 respecto a la fuente: **95**
 
 ## Años a revisar
@@ -124,6 +124,7 @@
 - `banjorecomp-android` — BanjoRecomp Android
 - `barrett` — Barrett
 - `battle-grounds-3-psp` — Battle Grounds 3
+- `ben-10-cosmic-destruction-recomp` — Ben 10: Cosmic Destruction
 - `betterspades` — BetterSpades
 - `bike-race-pro-ps-vita` — Bike Race
 - `blasterball-revolution-2` — Blasterball Revolution 2
@@ -137,6 +138,8 @@
 - `catacombgl` — CatacombGL
 - `cavex` — CaveX
 - `chasm-reverse` — Chasm-Reverse
+- `chavo-kart-android` — El Chavo Kart
+- `chavo-kart-recomp` — El Chavo Kart
 - `chernobyl-neighbor-clown-gang` — Chernobyl Neighbor. Clown Gang
 - `chocolate-quake` — Chocolate Quake
 - `classicube-classicube` — ClassiCube
@@ -171,6 +174,7 @@
 - `ezquake` — ezQuake
 - `f-15-ii-enhanced` — F-15 II Enhanced
 - `f-15-ii` — F-15 II
+- `fear-360-recomp` — F.E.A.R.
 - `filthy-kitchen-nes` — Filthy Kitchen
 - `fire-emblem-seima-no-kouseki` — Fire Emblem: Seima no Kouseki
 - `fluctus-wii-u` — Fluctus
@@ -178,16 +182,19 @@
 - `freedoom` — Freedoom
 - `freeft` — FreeFT
 - `freeserf-net` — freeserf.net
+- `fuse-recomp` — Fuse
 - `fushigi-no-dungeon-furai-no-shiren-2-oni-shurai-shiren-jo` — Fushigi no Dungeon: Fūrai no Shiren 2 — Oni Shūrai! Shiren-jō!
 - `gamearcade-switch` — GameArcade
 - `generalsgamecode` — GeneralsGameCode
 - `gex-64-enter-the-gecko` — Gex 64: Enter the Gecko
+- `ghost-recon-future-soldier-macos` — Tom Clancy's Ghost Recon Future Soldier
 - `ghosts-and-graves` — Ghosts And Graves
 - `glkeeper` — GLKeeper
 - `glsmac` — GLSMAC
 - `golden-sun-the-broken-seal` — Golden Sun: The Broken Seal
 - `google-dino-game-boy-advance` — Chrome Dino
 - `goths-n-vamps-psp` — Goths n Vamps
+- `graw-360-recomp` — Tom Clancy's Ghost Recon Advanced Warfighter
 - `green-farm-3` — Green Farm 3
 - `gsrecomp` — GSRecomp
 - `guarda-con-las-gbc-game-boy-color` — Guarda con las GBC
@@ -309,6 +316,7 @@
 - `romanovs-vengeance` — Romanov's Vengeance
 - `rotp-fusion` — Rotp-Fusion
 - `rsdkmodding-rsdkv2-decompilation` — Sonic Nexus
+- `rush-2049-recomp` — San Francisco Rush 2049
 - `samurai-vs-zombies` — Samurai Vs Zombies
 - `serioussamalpharemake` — SeriousSamAlphaRemake
 - `serioussamclassic-vk` — SeriousSamClassic-VK
@@ -319,6 +327,10 @@
 - `shortline-railroad` — Shortline railroad
 - `simpsons-arcade-ps3` — The Simpsons Arcade Game
 - `simpsons-wrestling-recompiled` — Simpsons Wrestling Recompiled
+- `skylanders-imaginators-recomp` — Skylanders: Imaginators
+- `skylanders-superchargers-recomp` — Skylanders: SuperChargers
+- `skylanders-swap-force-recomp` — Skylanders: Swap Force
+- `skylanders-trap-team-recomp` — Skylanders: Trap Team
 - `slqntdevss-kisakcod-port` — Call of Duty 4: Modern Warfare (kisakcod-port (web))
 - `solar-guard-game-boy-advance` — Solar Guard
 - `sonic-06-demo` — Sonic 06 Demo
@@ -328,6 +340,7 @@
 - `speed-academy` — Speed-Academy
 - `speedbreaker` — SpeedBreaker
 - `speedrun-tower-mega-drive` — Speedrun Tower
+- `splatterhouse-2010-recomp` — Splatterhouse (2010)
 - `spout-android` — Spout
 - `star-wars-episode-1-racer` — Star Wars Episode 1: Racer
 - `starfall-salvage-game-boy-color` — Starfall Salvage
@@ -356,6 +369,7 @@
 - `tobu-tobu-girl-game-boy` — Tobu Tobu Girl
 - `tokimeki-memorial-forever-with-you` — Tokimeki Memorial: Forever with You
 - `tom-jerry-war-of-the-whiskers-pc` — Tom & Jerry: War of the Whiskers
+- `tony-hawk-proving-ground-recomp` — Tony Hawk's Proving Ground
 - `touhou-08-imperishable-night` — Touhou 08: Imperishable Night
 - `trogdor-reburninated-wii` — Trogdor
 - `tsumu-light-recomp` — Tsumu Light
@@ -380,6 +394,7 @@
 - `willow-s-dream-mega-drive` — Willow's Dream
 - `wipeout-xl-recomp-njh` — Wipeout XL
 - `wipeout-xl-recomp` — Wipeout XL
+- `world-driver-championship-recomp` — World Driver Championship
 - `world-of-warcraft-1-12-benilla` — World of Warcraft 1.12 (benilla)
 - `xoreos` — xoreos
 - `zero-hour-reforged` — Zero Hour Reforged

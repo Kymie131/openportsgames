@@ -1,0 +1,28 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const wayneGretzky3dHockeyRecomp: Port = {
+  schema: "port",
+  id: "wayne-gretzky-3d-hockey-recomp",
+  title: "Wayne Gretzky's 3D Hockey Recompiled",
+  game: "Wayne Gretzky's 3D Hockey",
+  developers: ["geno55"],
+  publisher: "Midway",
+  originalYear: 1996,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.8.0", date: "2026-10-24" },
+  sources: ["https://github.com/geno55/wg3d-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-24",
+  originalSystems: ["Nintendo 64"],
+  summary: "Wayne Gretzky's 3D Hockey is a 1996 ice hockey video game developed and published by Atari Games for arcades. A port for the Nintendo 64 was released a month after the arcade version, making it the first-ever four-player game for the Nintendo 64. The game was followed by Wayne Gretzky's 3D Hockey '98 in 1997.",
+  summaryEs: "Wayne Gretzky's 3D Hockey es un videojuego de acción y aventura publicado por Atari Games en 1996.",
+  notes: "Native PC port of Wayne Gretzky's 3D Hockey (N64) via N64Recomp. Bring your own ROM.",
+  notesEs: "Port nativo para PC de Wayne Gretzky's 3D Hockey (N64) con N64Recomp. Aporta tu propia ROM.",
+};

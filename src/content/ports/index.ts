@@ -1922,6 +1922,25 @@ import { sm64coopdx } from "./sm64coopdx";
 import { sm64coopdxAndroid } from "./sm64coopdx-android";
 import { sm64coopdxSwitch } from "./sm64coopdx-switch";
 import { sm64ex } from "./sm64ex";
+import { chavoKartRecomp } from "./chavo-kart-recomp";
+import { chavoKartAndroid } from "./chavo-kart-android";
+import { splatterhouse2010Recomp } from "./splatterhouse-2010-recomp";
+import { graw360Recomp } from "./graw-360-recomp";
+import { fear360Recomp } from "./fear-360-recomp";
+import { skylandersTrapTeamRecomp } from "./skylanders-trap-team-recomp";
+import { skylandersSwapForceRecomp } from "./skylanders-swap-force-recomp";
+import { skylandersSuperchargersRecomp } from "./skylanders-superchargers-recomp";
+import { skylandersImaginatorsRecomp } from "./skylanders-imaginators-recomp";
+import { ghostReconFutureSoldierMacos } from "./ghost-recon-future-soldier-macos";
+import { ben10CosmicDestructionRecomp } from "./ben-10-cosmic-destruction-recomp";
+import { fuseRecomp } from "./fuse-recomp";
+import { tonyHawkProvingGroundRecomp } from "./tony-hawk-proving-ground-recomp";
+import { tekkenTagTournament2RecompTeam } from "./tekken-tag-tournament-2-recomp-team";
+import { sinAndPunishmentRecomp } from "./sin-and-punishment-recomp";
+import { worldDriverChampionshipRecomp } from "./world-driver-championship-recomp";
+import { rush2049Recomp } from "./rush-2049-recomp";
+import { wayneGretzky3dHockeyRecomp } from "./wayne-gretzky-3d-hockey-recomp";
+import { gta2N64Recomp } from "./gta-2-n64-recomp";
 import { sm64plus } from "./sm64plus";
 import { smaRemasteredAndroid } from "./sma-remastered-android";
 import { sma3RecompAndroid } from "./sma3-recomp-android";
@@ -5118,4 +5137,23 @@ export const portCases: Port[] = [
   ZoneOfTheEnders3GuySavageFromMetalGearSolid3,
   zumaDeluxeAndroid,
   zumaDeluxePortable,
+  chavoKartRecomp,
+  chavoKartAndroid,
+  splatterhouse2010Recomp,
+  graw360Recomp,
+  fear360Recomp,
+  skylandersTrapTeamRecomp,
+  skylandersSwapForceRecomp,
+  skylandersSuperchargersRecomp,
+  skylandersImaginatorsRecomp,
+  ghostReconFutureSoldierMacos,
+  ben10CosmicDestructionRecomp,
+  fuseRecomp,
+  tonyHawkProvingGroundRecomp,
+  tekkenTagTournament2RecompTeam,
+  sinAndPunishmentRecomp,
+  worldDriverChampionshipRecomp,
+  rush2049Recomp,
+  wayneGretzky3dHockeyRecomp,
+  gta2N64Recomp,
 ];
