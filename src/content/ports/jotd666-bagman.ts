@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jotd666Bagman: Port = {
+  schema: "port",
+  id: "jotd666-bagman",
+  title: "Bagman (bagman (arcade -> 68k transcode))",
+  game: "Bagman (bagman (arcade -> 68k transcode))",
+  developers: ["jotd666"],
+  publisher: "Unknown",
+  originalYear: 1982,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/jotd666/bagman"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Arcade"],
+  notes: "Bagman (bagman (arcade -> 68k transcode)): engine remake by jotd666 for Windows. Bring your own copy of the game.",
+  notesEs: "Bagman (bagman (arcade -> 68k transcode)): recreación de motor de jotd666 para Windows. Aporta tu propia copia del juego.",
+};

@@ -20,7 +20,7 @@ export const raccoonrecompResidenteviloutbreakrecompiled: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation 2"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Resident%20Evil%20-%20Outbreak%20(USA)%20(v2.00).png",
     alt: "Resident Evil Outbreak (box art)",

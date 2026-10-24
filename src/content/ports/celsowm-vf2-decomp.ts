@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const celsowmVf2Decomp: Port = {
+  schema: "port",
+  id: "celsowm-vf2-decomp",
+  title: "Virtua Fighter 2",
+  game: "Virtua Fighter 2",
+  developers: ["celsowm"],
+  publisher: "Sega",
+  originalYear: 1994,
+  portType: "decompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/celsowm/vf2-decomp"],
+  license: { spdx: "BSD-3-Clause" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Arcade"],
+  notes: "Virtua Fighter 2: decompilation by celsowm for Windows. Bring your own copy of the game.",
+  notesEs: "Virtua Fighter 2: decompilación de celsowm para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/01/Virtua-fighter-2-box.jpg",
+    alt: "Virtua Fighter 2 (box art)",
+    credit: "Wikipedia",
+  },
+};

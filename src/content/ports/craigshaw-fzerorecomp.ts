@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const craigshawFzerorecomp: Port = {
+  schema: "port",
+  id: "craigshaw-fzerorecomp",
+  title: "F-Zero",
+  game: "F-Zero",
+  developers: ["craigshaw"],
+  publisher: "Nintendo",
+  originalYear: 1990,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.6.0", date: "2026-10-17" },
+  sources: ["https://github.com/craigshaw/FZeroRecomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Super Nintendo"],
+  notes: "F-Zero: static recompilation by craigshaw for Windows. Bring your own copy of the game.",
+  notesEs: "F-Zero: recompilación estática de craigshaw para Windows. Aporta tu propia copia del juego.",
+};

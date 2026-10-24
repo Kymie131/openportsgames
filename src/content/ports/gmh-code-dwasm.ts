@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gmhCodeDwasm: Port = {
+  schema: "port",
+  id: "gmh-code-dwasm",
+  title: "Doom (Silent Space Marine)",
+  game: "Doom",
+  developers: ["GMH-Code"],
+  publisher: "id Software",
+  originalYear: 1993,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/GMH-Code/Dwasm"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Doom: source port by GMH-Code for Windows. Bring your own copy of the game.",
+  notesEs: "Doom: source port de GMH-Code para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg",
+    alt: "Doom (box art)",
+    credit: "Wikipedia",
+  },
+};

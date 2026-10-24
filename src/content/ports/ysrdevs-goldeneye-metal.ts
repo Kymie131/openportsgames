@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ysrdevsGoldeneyeMetal: Port = {
+  schema: "port",
+  id: "ysrdevs-goldeneye-metal",
+  title: "GoldenEye 007 (goldeneye-metal)",
+  game: "GoldenEye 007",
+  developers: ["ysrdevs"],
+  publisher: "Nintendo",
+  originalYear: 1997,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "macos"],
+  status: "beta",
+  release: { version: "0.5.1", date: "2026-10-09" },
+  sources: ["https://github.com/ysrdevs/goldeneye-metal"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "GoldenEye 007: static recompilation by ysrdevs for Windows, macOS. Bring your own copy of the game.",
+  notesEs: "GoldenEye 007: recompilación estática de ysrdevs para Windows, macOS. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/13/GoldenEye_007_N64_cover.jpg",
+    alt: "GoldenEye 007 (box art)",
+    credit: "Wikipedia",
+  },
+};

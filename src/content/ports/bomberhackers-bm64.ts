@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bomberhackersBm64: Port = {
+  schema: "port",
+  id: "bomberhackers-bm64",
+  title: "Bomberman 64",
+  game: "Bomberman 64",
+  developers: ["Bomberhackers"],
+  publisher: "Hudson Soft",
+  originalYear: 1996,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Bomberhackers/bm64"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Bomberman 64: decompilation by Bomberhackers for Windows. Bring your own copy of the game.",
+  notesEs: "Bomberman 64: decompilación de Bomberhackers para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Bomberman%2064%20(USA).png",
+    alt: "Bomberman 64 (box art)",
+    credit: "Box art",
+  },
+};

@@ -21,7 +21,7 @@ export const danielgomesvieira2000Burnout3Pc: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation 2"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Burnout%203%20-%20Takedown%20(USA).png",
     alt: "Burnout 3: Takedown (box art)",

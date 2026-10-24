@@ -20,7 +20,7 @@ export const phobos665Split2Recomp: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6b/Timesplitters2.JPG",
     alt: "TimeSplitters 2 (box art)",

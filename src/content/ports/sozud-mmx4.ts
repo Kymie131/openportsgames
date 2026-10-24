@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sozudMmx4: Port = {
+  schema: "port",
+  id: "sozud-mmx4",
+  title: "Mega Man X4",
+  game: "Mega Man X4",
+  developers: ["sozud"],
+  publisher: "Capcom",
+  originalYear: 1997,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sozud/mmx4"],
+  license: { spdx: "AGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  notes: "Mega Man X4: decompilation by sozud for Windows. Bring your own copy of the game.",
+  notesEs: "Mega Man X4: decompilación de sozud para Windows. Aporta tu propia copia del juego.",
+};

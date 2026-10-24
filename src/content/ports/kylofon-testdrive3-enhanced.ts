@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const kylofonTestdrive3Enhanced: Port = {
+  schema: "port",
+  id: "kylofon-testdrive3-enhanced",
+  title: "Test Drive III Enhanced",
+  game: "Test Drive III Enhanced",
+  developers: ["kylofon"],
+  publisher: "Unknown",
+  originalYear: 1990,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.2.0", date: "2026-09-30" },
+  sources: ["https://github.com/kylofon/testdrive3-enhanced"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Test Drive III Enhanced: engine remake by kylofon for Windows. Bring your own copy of the game.",
+  notesEs: "Test Drive III Enhanced: recreación de motor de kylofon para Windows. Aporta tu propia copia del juego.",
+};

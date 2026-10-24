@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mrFinsterVf3Recomp: Port = {
+  schema: "port",
+  id: "mr-finster-vf3-recomp",
+  title: "Virtua Fighter 3",
+  game: "Virtua Fighter 3",
+  developers: ["mr-finster"],
+  publisher: "Unknown",
+  originalYear: 1996,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "macos"],
+  status: "beta",
+  release: { version: "0.1.5-alpha", date: "2026-10-20" },
+  sources: ["https://github.com/mr-finster/vf3-recomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Arcade"],
+  notes: "Virtua Fighter 3: static recompilation by mr-finster for Windows, macOS. Bring your own copy of the game.",
+  notesEs: "Virtua Fighter 3: recompilación estática de mr-finster para Windows, macOS. Aporta tu propia copia del juego.",
+};

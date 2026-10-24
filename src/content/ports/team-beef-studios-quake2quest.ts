@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const teamBeefStudiosQuake2quest: Port = {
+  schema: "port",
+  id: "team-beef-studios-quake2quest",
+  title: "Quake II (Quake2Quest)",
+  game: "Quake II",
+  developers: ["Team-Beef-Studios"],
+  publisher: "id Software",
+  originalYear: 1997,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.1.1", date: "2026-09-29" },
+  sources: ["https://github.com/Team-Beef-Studios/Quake2Quest"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Quake II: source port by Team-Beef-Studios for Windows. Bring your own copy of the game.",
+  notesEs: "Quake II: source port de Team-Beef-Studios para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b5/Quake2box.jpg",
+    alt: "Quake II (box art)",
+    credit: "Wikipedia",
+  },
+};

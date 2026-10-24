@@ -21,7 +21,7 @@ export const patokeRePlantsVsZombies: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Plants vs Zombies GOTY: decompilation by Patoke for Windows. Bring your own copy of the game.",
   notesEs: "Plants vs Zombies GOTY: decompilación de Patoke para Windows. Aporta tu propia copia del juego.",
 };

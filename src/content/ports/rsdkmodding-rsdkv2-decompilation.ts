@@ -20,7 +20,7 @@ export const rsdkmoddingRsdkv2Decompilation: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Sonic Nexus: decompilation by RSDKModding for Windows. Bring your own copy of the game.",
   notesEs: "Sonic Nexus: decompilación de RSDKModding para Windows. Aporta tu propia copia del juego.",
 };

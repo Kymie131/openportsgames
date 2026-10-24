@@ -21,7 +21,7 @@ export const kroplabeskiduFlipendo: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Flipendo: engine remake by kroplabeskidu for Windows. Bring your own copy of the game.",
   notesEs: "Flipendo: recreación de motor de kroplabeskidu para Windows. Aporta tu propia copia del juego.",
 };

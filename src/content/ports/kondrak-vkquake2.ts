@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const kondrakVkquake2: Port = {
+  schema: "port",
+  id: "kondrak-vkquake2",
+  title: "Quake II",
+  game: "Quake II",
+  developers: ["kondrak"],
+  publisher: "id Software",
+  originalYear: 1997,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "beta",
+  release: { version: "1.5.10", date: "2026-08-26" },
+  sources: ["https://github.com/kondrak/vkQuake2"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Quake II: source port by kondrak for Windows, Linux, macOS. Bring your own copy of the game.",
+  notesEs: "Quake II: source port de kondrak para Windows, Linux, macOS. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b5/Quake2box.jpg",
+    alt: "Quake II (box art)",
+    credit: "Wikipedia",
+  },
+};

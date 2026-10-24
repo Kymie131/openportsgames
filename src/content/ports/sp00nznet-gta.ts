@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sp00nznetGta: Port = {
+  schema: "port",
+  id: "sp00nznet-gta",
+  title: "Grand Theft Auto / GTA: London",
+  game: "Grand Theft Auto / GTA: London",
+  developers: ["sp00nznet"],
+  publisher: "Unknown",
+  originalYear: 1997,
+  portType: "recompilation",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sp00nznet/gta"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Grand Theft Auto / GTA: London: static recompilation by sp00nznet for Windows. Bring your own copy of the game.",
+  notesEs: "Grand Theft Auto / GTA: London: recompilación estática de sp00nznet para Windows. Aporta tu propia copia del juego.",
+};

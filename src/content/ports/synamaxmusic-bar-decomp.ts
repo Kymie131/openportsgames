@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const synamaxmusicBarDecomp: Port = {
+  schema: "port",
+  id: "synamaxmusic-bar-decomp",
+  title: "Beetle Adventure Racing!",
+  game: "Beetle Adventure Racing!",
+  developers: ["synamaxmusic"],
+  publisher: "Electronic Arts",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/synamaxmusic/bar-decomp"],
+  license: { spdx: "AGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Beetle Adventure Racing!: decompilation by synamaxmusic for Windows. Bring your own copy of the game.",
+  notesEs: "Beetle Adventure Racing!: decompilación de synamaxmusic para Windows. Aporta tu propia copia del juego.",
+};

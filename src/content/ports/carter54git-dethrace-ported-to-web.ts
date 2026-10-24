@@ -21,7 +21,7 @@ export const carter54gitDethracePortedToWeb: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["MS-DOS"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/16/Carmageddon_box.jpg",
     alt: "Carmageddon (box art)",

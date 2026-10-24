@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const yowariSonicJ2meDecompilation: Port = {
+  schema: "port",
+  id: "yowari-sonic-j2me-decompilation",
+  title: "Sonic the Hedgehog (sonic-j2me-decompilation)",
+  game: "Sonic the Hedgehog",
+  developers: ["yowari"],
+  publisher: "Sega",
+  originalYear: 1991,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/yowari/sonic-j2me-decompilation"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Sega Mega Drive / Genesis"],
+  notes: "Sonic the Hedgehog: decompilation by yowari for Windows. Bring your own copy of the game.",
+  notesEs: "Sonic the Hedgehog: decompilación de yowari para Windows. Aporta tu propia copia del juego.",
+};

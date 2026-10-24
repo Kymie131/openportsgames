@@ -21,7 +21,7 @@ export const themobycollectiveSpyro1: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Spyro%20the%20Dragon%20(Europe)%20(En,Fr,De,Es,It).png",
     alt: "Spyro the Dragon (box art)",

@@ -20,7 +20,7 @@ export const mortify7612Rallisportchallenge2Decomp: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox"],
+  originalSystems: ["Unknown"],
   notes: "RalliSport Challenge 2: static recompilation by Mortify7612 for Windows, Linux. Bring your own copy of the game.",
   notesEs: "RalliSport Challenge 2: recompilación estática de Mortify7612 para Windows, Linux. Aporta tu propia copia del juego.",
 };

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bruderGrimmAnimalForestPsp: Port = {
+  schema: "port",
+  id: "bruder-grimm-animal-forest-psp",
+  title: "Animal Forest (animal_forest_psp)",
+  game: "Animal Forest",
+  developers: ["bruder-grimm"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/bruder-grimm/animal_forest_psp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Animal Forest: source port by bruder-grimm for Windows. Bring your own copy of the game.",
+  notesEs: "Animal Forest: source port de bruder-grimm para Windows. Aporta tu propia copia del juego.",
+};

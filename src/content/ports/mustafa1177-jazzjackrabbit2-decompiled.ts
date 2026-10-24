@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mustafa1177Jazzjackrabbit2Decompiled: Port = {
+  schema: "port",
+  id: "mustafa1177-jazzjackrabbit2-decompiled",
+  title: "Jazz Jackrabbit 2",
+  game: "Jazz Jackrabbit 2",
+  developers: ["Mustafa1177"],
+  publisher: "Epic MegaGames",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Mustafa1177/jazzjackrabbit2-decompiled"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Jazz Jackrabbit 2: decompilation by Mustafa1177 for Windows. Bring your own copy of the game.",
+  notesEs: "Jazz Jackrabbit 2: decompilación de Mustafa1177 para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f0/Jazz_Jackrabbit_2.PNG",
+    alt: "Jazz Jackrabbit 2 (box art)",
+    credit: "Wikipedia",
+  },
+};

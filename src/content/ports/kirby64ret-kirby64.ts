@@ -21,7 +21,7 @@ export const kirby64retKirby64: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Hoshi%20no%20Kirby%2064%20(Japan)%20(Rev%202).png",
     alt: "Kirby 64: The Crystal Shards (box art)",

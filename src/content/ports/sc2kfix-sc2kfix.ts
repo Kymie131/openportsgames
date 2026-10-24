@@ -21,7 +21,7 @@ export const sc2kfixSc2kfix: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["MS-DOS"],
+  originalSystems: ["Unknown"],
   notes: "SimCity 2000: decompilation by sc2kfix for Windows. Bring your own copy of the game.",
   notesEs: "SimCity 2000: decompilación de sc2kfix para Windows. Aporta tu propia copia del juego.",
 };

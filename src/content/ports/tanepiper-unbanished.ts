@@ -20,7 +20,7 @@ export const tanepiperUnbanished: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Banished: browser port by tanepiper for the browser. Playable in the browser.",
   notesEs: "Banished: port de navegador de tanepiper para el navegador. Jugable en el navegador.",
 };

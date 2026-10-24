@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jnmartin84WipeoutDc: Port = {
+  schema: "port",
+  id: "jnmartin84-wipeout-dc",
+  title: "Wipeout",
+  game: "Wipeout",
+  developers: ["jnmartin84"],
+  publisher: "Psygnosis",
+  originalYear: 1995,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/jnmartin84/wipeout-dc"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  notes: "Wipeout: source port by jnmartin84 for Windows. Bring your own copy of the game.",
+  notesEs: "Wipeout: source port de jnmartin84 para Windows. Aporta tu propia copia del juego.",
+};

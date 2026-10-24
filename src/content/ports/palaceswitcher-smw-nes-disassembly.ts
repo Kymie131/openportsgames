@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const palaceswitcherSmwNesDisassembly: Port = {
+  schema: "port",
+  id: "palaceswitcher-smw-nes-disassembly",
+  title: "Super Mario World (Hummer Team NES port)",
+  game: "Super Mario World",
+  developers: ["palaceswitcher"],
+  publisher: "Nintendo",
+  originalYear: 1990,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/palaceswitcher/SMW-NES-Disassembly"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo Entertainment System"],
+  notes: "Super Mario World: source port by palaceswitcher for Windows. Bring your own copy of the game.",
+  notesEs: "Super Mario World: source port de palaceswitcher para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png",
+    alt: "Super Mario World (box art)",
+    credit: "Wikipedia",
+  },
+};

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const carl0srmzLittleplanet: Port = {
+  schema: "port",
+  id: "carl0srmz-littleplanet",
+  title: "Sonic CD (Little Planet)",
+  game: "Sonic CD",
+  developers: ["carl0srmz"],
+  publisher: "Sega",
+  originalYear: 1993,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-10-11" },
+  sources: ["https://github.com/carl0srmz/littleplanet"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Sonic CD: static recompilation by carl0srmz for Windows. Bring your own copy of the game.",
+  notesEs: "Sonic CD: recompilación estática de carl0srmz para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e1/Sonic_CD_North_American_cover_art.jpg",
+    alt: "Sonic CD (box art)",
+    credit: "Wikipedia",
+  },
+};

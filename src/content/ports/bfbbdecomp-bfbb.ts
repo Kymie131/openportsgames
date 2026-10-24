@@ -21,7 +21,7 @@ export const bfbbdecompBfbb: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo GameCube"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c7/BattleForBikiniBottom.jpg",
     alt: "SpongeBob SquarePants: Battle for Bikini Bottom (box art)",

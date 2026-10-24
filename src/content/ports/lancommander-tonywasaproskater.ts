@@ -20,7 +20,7 @@ export const lancommanderTonywasaproskater: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Tony%20Hawk's%20Pro%20Skater%20(Japan).png",
     alt: "Tony Hawk's Pro Skater (box art)",

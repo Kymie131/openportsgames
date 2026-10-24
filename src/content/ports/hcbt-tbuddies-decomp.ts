@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const hcbtTbuddiesDecomp: Port = {
+  schema: "port",
+  id: "hcbt-tbuddies-decomp",
+  title: "Team Buddies",
+  game: "Team Buddies",
+  developers: ["hcbt"],
+  publisher: "Psygnosis",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/hcbt/tbuddies-decomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  notes: "Team Buddies: decompilation by hcbt for Windows. Bring your own copy of the game.",
+  notesEs: "Team Buddies: decompilación de hcbt para Windows. Aporta tu propia copia del juego.",
+};

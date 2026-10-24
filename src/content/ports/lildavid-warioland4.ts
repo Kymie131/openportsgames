@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const lildavidWarioland4: Port = {
+  schema: "port",
+  id: "lildavid-warioland4",
+  title: "Wario Land 4",
+  game: "Wario Land 4",
+  developers: ["lilDavid"],
+  publisher: "Nintendo",
+  originalYear: 2001,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/lilDavid/warioland4"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Game Boy Advance"],
+  notes: "Wario Land 4: decompilation by lilDavid for Windows. Bring your own copy of the game.",
+  notesEs: "Wario Land 4: decompilación de lilDavid para Windows. Aporta tu propia copia del juego.",
+};

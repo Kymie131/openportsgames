@@ -21,7 +21,7 @@ export const kurausukunMother3: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Game Boy Advance"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/ee/Deluxe_package.jpg",
     alt: "Mother 3 (box art)",

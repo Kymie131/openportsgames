@@ -20,7 +20,7 @@ export const eopLabsM2tweopLibrary: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Medieval II: Total War: decompilation by EOP-Labs for Windows. Bring your own copy of the game.",
   notesEs: "Medieval II: Total War: decompilación de EOP-Labs para Windows. Aporta tu propia copia del juego.",
 };

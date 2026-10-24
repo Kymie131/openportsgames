@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const japabuMickeySavesTheDay3dAdventure: Port = {
+  schema: "port",
+  id: "japabu-mickey-saves-the-day-3d-adventure",
+  title: "Mickey Saves the Day 3D Adventure",
+  game: "Mickey Saves the Day 3D Adventure",
+  developers: ["Japabu"],
+  publisher: "Unknown",
+  originalYear: 2001,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Japabu/mickey-saves-the-day-3d-adventure"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Mickey Saves the Day 3D Adventure: decompilation by Japabu for Windows. Bring your own copy of the game.",
+  notesEs: "Mickey Saves the Day 3D Adventure: decompilación de Japabu para Windows. Aporta tu propia copia del juego.",
+};

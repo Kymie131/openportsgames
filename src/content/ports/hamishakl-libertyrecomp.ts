@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const hamishaklLibertyrecomp: Port = {
+  schema: "port",
+  id: "hamishakl-libertyrecomp",
+  title: "Grand Theft Auto IV (LibertyRecomp)",
+  game: "Grand Theft Auto IV",
+  developers: ["hamishakl"],
+  publisher: "Rockstar Games",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/hamishakl/LibertyRecomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Grand Theft Auto IV: static recompilation by hamishakl for Windows. Bring your own copy of the game.",
+  notesEs: "Grand Theft Auto IV: recompilación estática de hamishakl para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b7/Grand_Theft_Auto_IV_cover.jpg",
+    alt: "Grand Theft Auto IV (box art)",
+    credit: "Wikipedia",
+  },
+};

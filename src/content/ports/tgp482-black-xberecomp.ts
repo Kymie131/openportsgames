@@ -21,7 +21,7 @@ export const tgp482BlackXberecomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox"],
+  originalSystems: ["Unknown"],
   notes: "Black: static recompilation by TGP482 for Windows. Bring your own copy of the game.",
   notesEs: "Black: recompilación estática de TGP482 para Windows. Aporta tu propia copia del juego.",
 };

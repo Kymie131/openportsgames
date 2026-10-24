@@ -21,7 +21,7 @@ export const thephrozenkeepD2moo: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/d5/Diablo_II_Coverart.png",
     alt: "Diablo II (box art)",

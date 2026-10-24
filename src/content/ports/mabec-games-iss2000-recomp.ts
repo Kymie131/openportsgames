@@ -20,7 +20,7 @@ export const mabecGamesIss2000Recomp: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "Mabecs International Superstar Soccer 2000: static recompilation by Mabec-games for Windows, Linux. Bring your own copy of the game.",
   notesEs: "Mabecs International Superstar Soccer 2000: recompilación estática de Mabec-games para Windows, Linux. Aporta tu propia copia del juego.",
 };

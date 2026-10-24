@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const teamBeefStudiosQuakequest: Port = {
+  schema: "port",
+  id: "team-beef-studios-quakequest",
+  title: "Quake (QuakeQuest)",
+  game: "Quake",
+  developers: ["Team-Beef-Studios"],
+  publisher: "id Software",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.6.0", date: "2026-09-29" },
+  sources: ["https://github.com/Team-Beef-Studios/QuakeQuest"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Quake: source port by Team-Beef-Studios for Windows. Bring your own copy of the game.",
+  notesEs: "Quake: source port de Team-Beef-Studios para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Quake%20(1996).png",
+    alt: "Quake (box art)",
+    credit: "Box art",
+  },
+};

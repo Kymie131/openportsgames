@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const charlesaverillSm3ds: Port = {
+  schema: "port",
+  id: "charlesaverill-sm-3ds",
+  title: "Super Metroid (sm-3ds)",
+  game: "Super Metroid",
+  developers: ["CharlesAverill"],
+  publisher: "Nintendo",
+  originalYear: 1994,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/CharlesAverill/sm-3ds"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Super Nintendo"],
+  notes: "Super Metroid: source port by CharlesAverill for Windows. Bring your own copy of the game.",
+  notesEs: "Super Metroid: source port de CharlesAverill para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg",
+    alt: "Super Metroid (box art)",
+    credit: "Wikipedia",
+  },
+};

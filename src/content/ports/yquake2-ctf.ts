@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const yquake2Ctf: Port = {
+  schema: "port",
+  id: "yquake2-ctf",
+  title: "Quake II (Three Wave Capture The Flag for Yamagi Quake II)",
+  game: "Quake II",
+  developers: ["yquake2"],
+  publisher: "id Software",
+  originalYear: 1997,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/yquake2/ctf"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Quake II: source port by yquake2 for Windows. Bring your own copy of the game.",
+  notesEs: "Quake II: source port de yquake2 para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b5/Quake2box.jpg",
+    alt: "Quake II (box art)",
+    credit: "Wikipedia",
+  },
+};

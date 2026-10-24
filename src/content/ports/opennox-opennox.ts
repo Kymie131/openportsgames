@@ -20,7 +20,7 @@ export const opennoxOpennox: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Nox: source port by opennox for Windows. Bring your own copy of the game.",
   notesEs: "Nox: source port de opennox para Windows. Aporta tu propia copia del juego.",
 };

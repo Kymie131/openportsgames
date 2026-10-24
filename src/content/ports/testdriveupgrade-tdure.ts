@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const testdriveupgradeTdure: Port = {
+  schema: "port",
+  id: "testdriveupgrade-tdure",
+  title: "Test Drive Unlimited",
+  game: "Test Drive Unlimited",
+  developers: ["testdriveupgrade"],
+  publisher: "Atari",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/testdriveupgrade/TDURE"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Test Drive Unlimited: static recompilation by testdriveupgrade for Windows. Bring your own copy of the game.",
+  notesEs: "Test Drive Unlimited: recompilación estática de testdriveupgrade para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/63/Test_Drive_Unlimited_boxart.jpg",
+    alt: "Test Drive Unlimited (box art)",
+    credit: "Wikipedia",
+  },
+};

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const henneBrighteyes: Port = {
+  schema: "port",
+  id: "henne-brighteyes",
+  title: "Realms of Arkania: Blade of Destiny ( Bright-Eyes)",
+  game: "Realms of Arkania: Blade of Destiny",
+  developers: ["Henne"],
+  publisher: "United Independent Entertainment",
+  originalYear: 2013,
+  portType: "reimplementation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Henne/BrightEyes"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Realms of Arkania: Blade of Destiny: engine remake by Henne for Windows. Bring your own copy of the game.",
+  notesEs: "Realms of Arkania: Blade of Destiny: recreación de motor de Henne para Windows. Aporta tu propia copia del juego.",
+};

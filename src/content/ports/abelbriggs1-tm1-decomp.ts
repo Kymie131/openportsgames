@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const abelbriggs1Tm1Decomp: Port = {
+  schema: "port",
+  id: "abelbriggs1-tm1-decomp",
+  title: "Twisted Metal",
+  game: "Twisted Metal",
+  developers: ["abelbriggs1"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 1995,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/abelbriggs1/tm1_decomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  notes: "Twisted Metal: decompilation by abelbriggs1 for Windows. Bring your own copy of the game.",
+  notesEs: "Twisted Metal: decompilación de abelbriggs1 para Windows. Aporta tu propia copia del juego.",
+};

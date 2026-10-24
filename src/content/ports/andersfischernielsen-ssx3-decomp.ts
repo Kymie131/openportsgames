@@ -21,7 +21,7 @@ export const andersfischernielsenSsx3Decomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation 2"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/43/SSX_3_Coverart.png",
     alt: "SSX 3 (box art)",

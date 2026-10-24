@@ -21,7 +21,7 @@ export const opensmashUltimateSsbuRecomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo Switch"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg",
     alt: "Super Smash Bros. Ultimate (box art)",

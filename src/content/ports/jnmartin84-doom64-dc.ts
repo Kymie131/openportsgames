@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jnmartin84Doom64Dc: Port = {
+  schema: "port",
+  id: "jnmartin84-doom64-dc",
+  title: "Doom 64 (doom64-dc)",
+  game: "Doom 64",
+  developers: ["jnmartin84"],
+  publisher: "Midway Games",
+  originalYear: 1997,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/jnmartin84/doom64-dc"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Doom 64: source port by jnmartin84 for Windows. Bring your own copy of the game.",
+  notesEs: "Doom 64: source port de jnmartin84 para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nikolaygorbGoldeneye007reloadedrecomp: Port = {
+  schema: "port",
+  id: "nikolaygorb-goldeneye007reloadedrecomp",
+  title: "GoldenEye 007 Reloaded",
+  game: "GoldenEye 007 Reloaded",
+  developers: ["nikolaygorb"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2010,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.3", date: "2026-10-23" },
+  sources: ["https://github.com/nikolaygorb/GoldenEye007ReloadedRecomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "GoldenEye 007 Reloaded: static recompilation by nikolaygorb for Windows. Bring your own copy of the game.",
+  notesEs: "GoldenEye 007 Reloaded: recompilación estática de nikolaygorb para Windows. Aporta tu propia copia del juego.",
+};

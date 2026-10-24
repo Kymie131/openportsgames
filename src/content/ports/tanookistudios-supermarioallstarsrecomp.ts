@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tanookistudiosSupermarioallstarsrecomp: Port = {
+  schema: "port",
+  id: "tanookistudios-supermarioallstarsrecomp",
+  title: "Super Mario All-Stars (SuperMarioAllStarsRecomp)",
+  game: "Super Mario All-Stars",
+  developers: ["TanookiStudios"],
+  publisher: "Nintendo",
+  originalYear: 1993,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "beta",
+  release: { version: "0.2.0", date: "2026-10-21" },
+  sources: ["https://github.com/TanookiStudios/SuperMarioAllStarsRecomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Super Nintendo"],
+  notes: "Super Mario All-Stars: static recompilation by TanookiStudios for Windows, Linux, macOS. Bring your own copy of the game.",
+  notesEs: "Super Mario All-Stars: recompilación estática de TanookiStudios para Windows, Linux, macOS. Aporta tu propia copia del juego.",
+};

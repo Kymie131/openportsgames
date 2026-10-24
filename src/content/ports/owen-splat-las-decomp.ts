@@ -20,7 +20,7 @@ export const owenSplatLasDecomp: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo Switch"],
+  originalSystems: ["Unknown"],
   notes: "Link's Awakening: engine remake by Owen-Splat for Windows. Bring your own copy of the game.",
   notesEs: "Link's Awakening: recreación de motor de Owen-Splat para Windows. Aporta tu propia copia del juego.",
 };

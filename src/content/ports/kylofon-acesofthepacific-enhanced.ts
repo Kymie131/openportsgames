@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const kylofonAcesofthepacificEnhanced: Port = {
+  schema: "port",
+  id: "kylofon-acesofthepacific-enhanced",
+  title: "Aces of the Pacific Enhanced",
+  game: "Aces of the Pacific Enhanced",
+  developers: ["kylofon"],
+  publisher: "Unknown",
+  originalYear: 1992,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.0", date: "2026-09-29" },
+  sources: ["https://github.com/kylofon/acesofthepacific-enhanced"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Aces of the Pacific Enhanced: engine remake by kylofon for Windows. Bring your own copy of the game.",
+  notesEs: "Aces of the Pacific Enhanced: recreación de motor de kylofon para Windows. Aporta tu propia copia del juego.",
+};

@@ -21,7 +21,7 @@ export const r4diusOutrun2Decomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "OutRun 2006: Coast 2 Coast: decompilation by r4dius for Windows. Bring your own copy of the game.",
   notesEs: "OutRun 2006: Coast 2 Coast: decompilación de r4dius para Windows. Aporta tu propia copia del juego.",
 };

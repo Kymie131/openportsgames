@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sunlitspace542Ultrastarfox: Port = {
+  schema: "port",
+  id: "sunlitspace542-ultrastarfox",
+  title: "Star Fox (UltraStarFox)",
+  game: "Star Fox",
+  developers: ["Sunlitspace542"],
+  publisher: "Nintendo",
+  originalYear: 1993,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "2.2", date: "2025-07-23" },
+  sources: ["https://github.com/Sunlitspace542/ultrastarfox"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Super Nintendo"],
+  notes: "Star Fox: decompilation by Sunlitspace542 for Windows. Bring your own copy of the game.",
+  notesEs: "Star Fox: decompilación de Sunlitspace542 para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Star%20Fox%20(Japan)%20(Rev%201).png",
+    alt: "Star Fox (box art)",
+    credit: "Box art",
+  },
+};

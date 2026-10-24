@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rjkivSonic06: Port = {
+  schema: "port",
+  id: "rjkiv-sonic06",
+  title: "Sonic the Hedgehog (2006)",
+  game: "Sonic the Hedgehog",
+  developers: ["rjkiv"],
+  publisher: "Sega",
+  originalYear: 1991,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/rjkiv/sonic06"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Sonic the Hedgehog: decompilation by rjkiv for Windows. Bring your own copy of the game.",
+  notesEs: "Sonic the Hedgehog: decompilación de rjkiv para Windows. Aporta tu propia copia del juego.",
+};

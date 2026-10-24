@@ -20,7 +20,7 @@ export const teamBeefStudiosRtcwquest: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b0/Return_to_Castle_Wolfenstein_Coverart.jpg",
     alt: "Return to Castle Wolfenstein (box art)",

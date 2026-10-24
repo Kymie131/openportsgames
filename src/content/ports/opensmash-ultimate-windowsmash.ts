@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const opensmashUltimateWindowsmash: Port = {
+  schema: "port",
+  id: "opensmash-ultimate-windowsmash",
+  title: "Super Smash Bros. Ultimate (WindowSmash)",
+  game: "Super Smash Bros. Ultimate",
+  developers: ["OpenSmash-Ultimate"],
+  publisher: "Nintendo",
+  originalYear: 2018,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/OpenSmash-Ultimate/WindowSmash"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo Switch"],
+  notes: "Super Smash Bros. Ultimate: static recompilation by OpenSmash-Ultimate for Windows. Bring your own copy of the game.",
+  notesEs: "Super Smash Bros. Ultimate: recompilación estática de OpenSmash-Ultimate para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg",
+    alt: "Super Smash Bros. Ultimate (box art)",
+    credit: "Wikipedia",
+  },
+};

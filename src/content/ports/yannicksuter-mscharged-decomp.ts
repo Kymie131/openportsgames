@@ -21,7 +21,7 @@ export const yannicksuterMschargedDecomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Wii"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/Mario%20Strikers%20Charged%20(USA)%20(En,Fr,Es)%20(Rev%201).png",
     alt: "Mario Strikers Charged (box art)",

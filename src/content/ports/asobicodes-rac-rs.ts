@@ -20,7 +20,7 @@ export const asobicodesRacRs: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation 2"],
+  originalSystems: ["Unknown"],
   notes: "Ratchet & Clank: static recompilation by AsobiCodes for Windows. Bring your own copy of the game.",
   notesEs: "Ratchet & Clank: recompilación estática de AsobiCodes para Windows. Aporta tu propia copia del juego.",
 };

@@ -21,7 +21,7 @@ export const sourceholdOpenshc: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Stronghold Crusader: engine remake by sourcehold for Windows. Bring your own copy of the game.",
   notesEs: "Stronghold Crusader: recreación de motor de sourcehold para Windows. Aporta tu propia copia del juego.",
 };

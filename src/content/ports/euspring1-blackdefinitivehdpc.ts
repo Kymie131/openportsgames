@@ -20,7 +20,7 @@ export const euspring1Blackdefinitivehdpc: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox"],
+  originalSystems: ["Unknown"],
   notes: "BLACK: source port by euspring1 for Windows. Bring your own copy of the game.",
   notesEs: "BLACK: source port de euspring1 para Windows. Aporta tu propia copia del juego.",
 };

@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gmhCodeQwasm: Port = {
+  schema: "port",
+  id: "gmh-code-qwasm",
+  title: "Quake (Qwasm)",
+  game: "Quake",
+  developers: ["GMH-Code"],
+  publisher: "id Software",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/GMH-Code/Qwasm"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Quake: source port by GMH-Code for Windows. Bring your own copy of the game.",
+  notesEs: "Quake: source port de GMH-Code para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Quake%20(1996).png",
+    alt: "Quake (box art)",
+    credit: "Box art",
+  },
+};

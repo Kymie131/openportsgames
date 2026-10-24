@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const erick194Doom64Re: Port = {
+  schema: "port",
+  id: "erick194-doom64-re",
+  title: "Doom 64",
+  game: "Doom 64",
+  developers: ["Erick194"],
+  publisher: "Midway Games",
+  originalYear: 1997,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Erick194/DOOM64-RE"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Doom 64: decompilation by Erick194 for Windows. Bring your own copy of the game.",
+  notesEs: "Doom 64: decompilación de Erick194 para Windows. Aporta tu propia copia del juego.",
+};

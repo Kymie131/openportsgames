@@ -21,7 +21,7 @@ export const marisaChanUaSource: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Urban Assault: decompilation by Marisa-Chan for Windows. Bring your own copy of the game.",
   notesEs: "Urban Assault: decompilación de Marisa-Chan para Windows. Aporta tu propia copia del juego.",
 };

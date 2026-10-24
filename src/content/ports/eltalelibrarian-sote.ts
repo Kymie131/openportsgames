@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const eltalelibrarianSote: Port = {
+  schema: "port",
+  id: "eltalelibrarian-sote",
+  title: "Star Wars: Shadows of the Empire",
+  game: "Star Wars: Shadows of the Empire",
+  developers: ["EltaleLibrarian"],
+  publisher: "Nintendo",
+  originalYear: 1996,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/EltaleLibrarian/SotE"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Star Wars: Shadows of the Empire: decompilation by EltaleLibrarian for Windows. Bring your own copy of the game.",
+  notesEs: "Star Wars: Shadows of the Empire: decompilación de EltaleLibrarian para Windows. Aporta tu propia copia del juego.",
+};

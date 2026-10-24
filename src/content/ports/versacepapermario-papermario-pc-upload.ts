@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const versacepapermarioPapermarioPcUpload: Port = {
+  schema: "port",
+  id: "versacepapermario-papermario-pc-upload",
+  title: "Paper Mario ( pmvita)",
+  game: "Paper Mario",
+  developers: ["versacepapermario"],
+  publisher: "Nintendo",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/versacepapermario/papermario-pc-upload"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Paper Mario: source port by versacepapermario for Windows. Bring your own copy of the game.",
+  notesEs: "Paper Mario: source port de versacepapermario para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Paper%20Mario%20(USA).png",
+    alt: "Paper Mario (box art)",
+    credit: "Box art",
+  },
+};

@@ -21,7 +21,7 @@ export const mercuryworkshopCelesteWasm: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Celeste_box_art_full.png",
     alt: "Celeste (box art)",

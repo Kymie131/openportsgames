@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const simhackerMicropolis: Port = {
+  schema: "port",
+  id: "simhacker-micropolis",
+  title: "SimCity (Micropolis)",
+  game: "SimCity",
+  developers: ["SimHacker"],
+  publisher: "Nintendo",
+  originalYear: 1991,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/SimHacker/micropolis"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "SimCity: source port by SimHacker for Windows. Bring your own copy of the game.",
+  notesEs: "SimCity: source port de SimHacker para Windows. Aporta tu propia copia del juego.",
+};

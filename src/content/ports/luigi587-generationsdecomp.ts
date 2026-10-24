@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const luigi587Generationsdecomp: Port = {
+  schema: "port",
+  id: "luigi587-generationsdecomp",
+  title: "Sonic Generations",
+  game: "Sonic Generations",
+  developers: ["Luigi587"],
+  publisher: "Sega",
+  originalYear: 2011,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Luigi587/GenerationsDecomp"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Sonic Generations: decompilation by Luigi587 for Windows. Bring your own copy of the game.",
+  notesEs: "Sonic Generations: decompilación de Luigi587 para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7d/SonicGenerations.jpg",
+    alt: "Sonic Generations (box art)",
+    credit: "Wikipedia",
+  },
+};

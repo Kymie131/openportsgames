@@ -20,7 +20,7 @@ export const erreibPureRecomp: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation Portable"],
+  originalSystems: ["Unknown"],
   notes: "Wipeout Pure: static recompilation by erreib for Windows, macOS. Bring your own copy of the game.",
   notesEs: "Wipeout Pure: recompilación estática de erreib para Windows, macOS. Aporta tu propia copia del juego.",
 };

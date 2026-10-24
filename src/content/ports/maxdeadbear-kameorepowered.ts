@@ -20,7 +20,7 @@ export const maxdeadbearKameorepowered: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox 360"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/0f/Kameocover.jpg",
     alt: "Kameo: Elements of Power (box art)",

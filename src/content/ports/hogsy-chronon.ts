@@ -21,7 +21,7 @@ export const hogsyChronon: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Anachronox: engine remake by hogsy for Windows. Bring your own copy of the game.",
   notesEs: "Anachronox: recreación de motor de hogsy para Windows. Aporta tu propia copia del juego.",
 };

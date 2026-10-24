@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const buffjesusFabledecomp: Port = {
+  schema: "port",
+  id: "buffjesus-fabledecomp",
+  title: "Fable: The Lost Chapters",
+  game: "Fable: The Lost Chapters",
+  developers: ["BuffJesus"],
+  publisher: "Xbox Game Studios",
+  originalYear: 2011,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/BuffJesus/FableDecomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Fable: The Lost Chapters: decompilation by BuffJesus for Windows. Bring your own copy of the game.",
+  notesEs: "Fable: The Lost Chapters: decompilación de BuffJesus para Windows. Aporta tu propia copia del juego.",
+};

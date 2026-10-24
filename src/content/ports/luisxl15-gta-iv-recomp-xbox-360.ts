@@ -21,7 +21,7 @@ export const luisxl15GtaIvRecompXbox360: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox 360"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b7/Grand_Theft_Auto_IV_cover.jpg",
     alt: "Grand Theft Auto IV (box art)",

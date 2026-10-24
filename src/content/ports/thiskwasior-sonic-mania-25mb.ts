@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const thiskwasiorSonicMania25mb: Port = {
+  schema: "port",
+  id: "thiskwasior-sonic-mania-25mb",
+  title: "Sonic Mania (Sonic-Mania-25MB)",
+  game: "Sonic Mania",
+  developers: ["ThisKwasior"],
+  publisher: "Sega",
+  originalYear: 2017,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ThisKwasior/Sonic-Mania-25MB"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Sonic Mania: decompilation by ThisKwasior for Windows. Bring your own copy of the game.",
+  notesEs: "Sonic Mania: decompilación de ThisKwasior para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d2/Sonic_Mania_%28artwork%29.jpg",
+    alt: "Sonic Mania (box art)",
+    credit: "Wikipedia",
+  },
+};

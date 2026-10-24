@@ -20,7 +20,7 @@ export const omegakatana92ArmoredCoreRecomp: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Armored%20Core%20(Europe)%20(En,Fr,De,Es,It).png",
     alt: "Armored Core (box art)",

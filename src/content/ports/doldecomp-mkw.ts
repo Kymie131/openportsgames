@@ -21,7 +21,7 @@ export const doldecompMkw: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Wii"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png",
     alt: "Mario Kart Wii (box art)",

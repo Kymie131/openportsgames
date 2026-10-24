@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rainchusQuest64Decomp: Port = {
+  schema: "port",
+  id: "rainchus-quest64-decomp",
+  title: "Quest 64",
+  game: "Quest 64",
+  developers: ["Rainchus"],
+  publisher: "Nintendo",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Rainchus/Quest64-Decomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Quest 64: decompilation by Rainchus for Windows. Bring your own copy of the game.",
+  notesEs: "Quest 64: decompilación de Rainchus para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Quest%2064%20(USA).png",
+    alt: "Quest 64 (box art)",
+    credit: "Box art",
+  },
+};

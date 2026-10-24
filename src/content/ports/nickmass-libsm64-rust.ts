@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nickmassLibsm64Rust: Port = {
+  schema: "port",
+  id: "nickmass-libsm64-rust",
+  title: "Super Mario 64 (libsm64-rust)",
+  game: "Super Mario 64",
+  developers: ["nickmass"],
+  publisher: "Nintendo",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/nickmass/libsm64-rust"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Super Mario 64: source port by nickmass for Windows. Bring your own copy of the game.",
+  notesEs: "Super Mario 64: source port de nickmass para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
+    alt: "Super Mario 64 (box art)",
+    credit: "Wikipedia",
+  },
+};

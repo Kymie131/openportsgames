@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const edw590F1dp: Port = {
+  schema: "port",
+  id: "edw590-f1dp",
+  title: "Fallout (F1DP)",
+  game: "Fallout",
+  developers: ["Edw590"],
+  publisher: "Interplay Entertainment",
+  originalYear: 1997,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.3", date: "2025-08-08" },
+  sources: ["https://github.com/Edw590/F1DP"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Fallout: decompilation by Edw590 for Windows. Bring your own copy of the game.",
+  notesEs: "Fallout: decompilación de Edw590 para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/af/Fallout.jpg",
+    alt: "Fallout (box art)",
+    credit: "Wikipedia",
+  },
+};

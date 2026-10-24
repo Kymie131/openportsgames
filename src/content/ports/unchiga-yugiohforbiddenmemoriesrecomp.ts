@@ -20,7 +20,7 @@ export const unchigaYugiohforbiddenmemoriesrecomp: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Yu-Gi-Oh!%20Forbidden%20Memories%20(Europe).png",
     alt: "Yu-Gi-Oh! Forbidden Memories (box art)",

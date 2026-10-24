@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const klorfmorfMnsg: Port = {
+  schema: "port",
+  id: "klorfmorf-mnsg",
+  title: "Mystical Ninja Starring Goemon",
+  game: "Mystical Ninja Starring Goemon",
+  developers: ["klorfmorf"],
+  publisher: "Konami",
+  originalYear: 1997,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/klorfmorf/mnsg"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Mystical Ninja Starring Goemon: decompilation by klorfmorf for Windows. Bring your own copy of the game.",
+  notesEs: "Mystical Ninja Starring Goemon: decompilación de klorfmorf para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/9e/MysticalNinjaStarringGoemon.jpg",
+    alt: "Mystical Ninja Starring Goemon (box art)",
+    credit: "Wikipedia",
+  },
+};

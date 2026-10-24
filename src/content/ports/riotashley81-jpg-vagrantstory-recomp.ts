@@ -20,7 +20,12 @@ export const riotashley81JpgVagrantstoryRecomp: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation"],
+  originalSystems: ["Unknown"],
   notes: "VagrantStory: static recompilation by riotashley81-jpg for Windows. Bring your own copy of the game.",
   notesEs: "VagrantStory: recompilación estática de riotashley81-jpg para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a3/Vagrantstorybox.jpg",
+    alt: "Vagrant Story (box art)",
+    credit: "Wikipedia",
+  },
 };

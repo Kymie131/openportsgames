@@ -21,7 +21,7 @@ export const gtaReversedGtaReversed: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c4/GTASABOX.jpg",
     alt: "Grand Theft Auto: San Andreas (box art)",

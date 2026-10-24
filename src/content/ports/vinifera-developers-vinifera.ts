@@ -20,7 +20,7 @@ export const viniferaDevelopersVinifera: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Command & Conquer: Tiberian Sun: decompilation by Vinifera-Developers for Windows. Bring your own copy of the game.",
   notesEs: "Command & Conquer: Tiberian Sun: decompilación de Vinifera-Developers para Windows. Aporta tu propia copia del juego.",
 };

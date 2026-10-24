@@ -21,7 +21,7 @@ export const ruslan831PlantsvszombiesDecompilation: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/9c/PlantsvsZombiesCoverArt.jpg",
     alt: "Plants vs. Zombies (box art)",

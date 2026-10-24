@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const cdlewisSnowboardkidsRecomp: Port = {
+  schema: "port",
+  id: "cdlewis-snowboardkids-recomp",
+  title: "Snowboard Kids (Snowboard Kids: Recompiled)",
+  game: "Snowboard Kids",
+  developers: ["cdlewis"],
+  publisher: "Atlus",
+  originalYear: 1997,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "beta",
+  release: { version: "1.0.6", date: "2026-10-13" },
+  sources: ["https://github.com/cdlewis/snowboardkids-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Snowboard Kids: static recompilation by cdlewis for Windows, Linux, macOS. Bring your own copy of the game.",
+  notesEs: "Snowboard Kids: recompilación estática de cdlewis para Windows, Linux, macOS. Aporta tu propia copia del juego.",
+};

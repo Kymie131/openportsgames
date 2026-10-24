@@ -20,7 +20,7 @@ export const ryu7w7OctrNitrofueledPc: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation 4"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/36/Crash_Team_Racing_Nitro-Fueled_cover_art.jpg",
     alt: "Crash Team Racing Nitro-Fueled (box art)",

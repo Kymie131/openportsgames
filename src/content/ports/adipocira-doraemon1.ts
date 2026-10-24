@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const adipociraDoraemon1: Port = {
+  schema: "port",
+  id: "adipocira-doraemon1",
+  title: "Doraemon: Nobita to Mittsu no Seireiseki",
+  game: "Doraemon: Nobita to Mittsu no Seireiseki",
+  developers: ["adipocira"],
+  publisher: "Epoch Co.",
+  originalYear: 1997,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/adipocira/doraemon1"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Doraemon: Nobita to Mittsu no Seireiseki: decompilation by adipocira for Windows. Bring your own copy of the game.",
+  notesEs: "Doraemon: Nobita to Mittsu no Seireiseki: decompilación de adipocira para Windows. Aporta tu propia copia del juego.",
+};

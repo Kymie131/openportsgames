@@ -21,7 +21,7 @@ export const zestydevyDinosaurPlanet: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Dinosaur%20Planet%20(USA)%20(Proto)%20(2000-12-01).png",
     alt: "Dinosaur Planet (box art)",

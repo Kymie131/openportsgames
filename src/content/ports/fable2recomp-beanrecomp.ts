@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const fable2recompBeanrecomp: Port = {
+  schema: "port",
+  id: "fable2recomp-beanrecomp",
+  title: "GoldenEye 007 (XBLA Remaster)",
+  game: "GoldenEye 007",
+  developers: ["Fable2Recomp"],
+  publisher: "Nintendo",
+  originalYear: 1997,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Fable2Recomp/beanRecomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "GoldenEye 007: static recompilation by Fable2Recomp for Windows. Bring your own copy of the game.",
+  notesEs: "GoldenEye 007: recompilación estática de Fable2Recomp para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/13/GoldenEye_007_N64_cover.jpg",
+    alt: "GoldenEye 007 (box art)",
+    credit: "Wikipedia",
+  },
+};

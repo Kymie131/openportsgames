@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const xive080DW3Recomp: Port = {
+  schema: "port",
+  id: "xive080-d-w-3-recomp",
+  title: "Digimon World 3 (D-W-3-Recomp)",
+  game: "Digimon World 3",
+  developers: ["Xive080"],
+  publisher: "Bandai",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Xive080/D-W-3-Recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  notes: "Digimon World 3: static recompilation by Xive080 for Windows. Bring your own copy of the game.",
+  notesEs: "Digimon World 3: recompilación estática de Xive080 para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/43/Digimonworld3boxart.jpg",
+    alt: "Digimon World 3 (box art)",
+    credit: "Wikipedia",
+  },
+};

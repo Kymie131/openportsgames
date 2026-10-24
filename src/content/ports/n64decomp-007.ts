@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const n64decomp007: Port = {
+  schema: "port",
+  id: "n64decomp-007",
+  title: "GoldenEye 007 (n64decomp)",
+  game: "GoldenEye 007",
+  developers: ["n64decomp"],
+  publisher: "Nintendo",
+  originalYear: 1997,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/n64decomp/007"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "GoldenEye 007: decompilation by n64decomp for Windows. Bring your own copy of the game.",
+  notesEs: "GoldenEye 007: decompilación de n64decomp para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/13/GoldenEye_007_N64_cover.jpg",
+    alt: "GoldenEye 007 (box art)",
+    credit: "Wikipedia",
+  },
+};

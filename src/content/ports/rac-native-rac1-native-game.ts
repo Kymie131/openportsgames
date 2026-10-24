@@ -20,7 +20,7 @@ export const racNativeRac1NativeGame: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation 2"],
+  originalSystems: ["Unknown"],
   notes: "Ratchet & Clank: source port by RAC-Native for Windows. Bring your own copy of the game.",
   notesEs: "Ratchet & Clank: source port de RAC-Native para Windows. Aporta tu propia copia del juego.",
 };

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mikewupingUefiSupermario: Port = {
+  schema: "port",
+  id: "mikewuping-uefi-supermario",
+  title: "Super Mario Bros. (UEFI_SuperMario)",
+  game: "Super Mario Bros.",
+  developers: ["MikeWuPing"],
+  publisher: "Nintendo",
+  originalYear: 1985,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.5", date: "2026-05-03" },
+  sources: ["https://github.com/MikeWuPing/UEFI_SuperMario"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo Entertainment System"],
+  notes: "Super Mario Bros.: source port by MikeWuPing for Windows. Bring your own copy of the game.",
+  notesEs: "Super Mario Bros.: source port de MikeWuPing para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png",
+    alt: "Super Mario Bros. (box art)",
+    credit: "Wikipedia",
+  },
+};

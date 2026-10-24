@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const monstercameronLibertyflux: Port = {
+  schema: "port",
+  id: "monstercameron-libertyflux",
+  title: "Grand Theft Auto IV (LibertyFlux)",
+  game: "Grand Theft Auto IV",
+  developers: ["monstercameron"],
+  publisher: "Rockstar Games",
+  originalYear: 2008,
+  portType: "decompilation",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/monstercameron/LibertyFlux"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Grand Theft Auto IV: decompilation by monstercameron for Windows, macOS. Bring your own copy of the game.",
+  notesEs: "Grand Theft Auto IV: decompilación de monstercameron para Windows, macOS. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b7/Grand_Theft_Auto_IV_cover.jpg",
+    alt: "Grand Theft Auto IV (box art)",
+    credit: "Wikipedia",
+  },
+};

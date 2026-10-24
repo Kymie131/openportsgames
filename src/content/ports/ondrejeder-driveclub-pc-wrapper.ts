@@ -20,7 +20,7 @@ export const ondrejederDriveclubPcWrapper: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation 4"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6f/Driveclub_box_art.jpg",
     alt: "Driveclub (box art)",

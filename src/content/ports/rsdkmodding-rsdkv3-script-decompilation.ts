@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rsdkmoddingRsdkv3ScriptDecompilation: Port = {
+  schema: "port",
+  id: "rsdkmodding-rsdkv3-script-decompilation",
+  title: "Sonic CD (RSDKv3-Script-Decompilation)",
+  game: "Sonic CD",
+  developers: ["RSDKModding"],
+  publisher: "Sega",
+  originalYear: 1993,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/RSDKModding/RSDKv3-Script-Decompilation"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Sonic CD: decompilation by RSDKModding for Windows. Bring your own copy of the game.",
+  notesEs: "Sonic CD: decompilación de RSDKModding para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e1/Sonic_CD_North_American_cover_art.jpg",
+    alt: "Sonic CD (box art)",
+    credit: "Wikipedia",
+  },
+};

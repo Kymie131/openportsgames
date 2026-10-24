@@ -21,7 +21,7 @@ export const lcerdMinecraftXbox360Decompilation: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox 360"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://images.launchbox-app.com//9229e73c-9841-4b6f-904e-70f3d0190f34.jpg",
     alt: "Minecraft: Xbox 360 Edition (box art)",

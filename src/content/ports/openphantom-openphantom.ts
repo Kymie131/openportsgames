@@ -20,7 +20,7 @@ export const openphantomOpenphantom: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Star%20Wars%20-%20Episode%20I%20-%20The%20Phantom%20Menace%20(Europe).png",
     alt: "Star Wars Episode I: The Phantom Menace (box art)",

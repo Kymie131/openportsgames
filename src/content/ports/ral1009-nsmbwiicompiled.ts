@@ -20,7 +20,7 @@ export const ral1009Nsmbwiicompiled: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Wii"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/8f/NewSuperMarioBrosWiiBoxart.png",
     alt: "New Super Mario Bros. Wii (box art)",

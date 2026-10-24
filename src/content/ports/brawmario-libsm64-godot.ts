@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const brawmarioLibsm64Godot: Port = {
+  schema: "port",
+  id: "brawmario-libsm64-godot",
+  title: "Super Mario 64 (libsm64-godot)",
+  game: "Super Mario 64",
+  developers: ["Brawmario"],
+  publisher: "Nintendo",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "2.7.2", date: "2026-04-04" },
+  sources: ["https://github.com/Brawmario/libsm64-godot"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Super Mario 64: source port by Brawmario for Windows. Bring your own copy of the game.",
+  notesEs: "Super Mario 64: source port de Brawmario para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
+    alt: "Super Mario 64 (box art)",
+    credit: "Wikipedia",
+  },
+};

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mwengeUridium: Port = {
+  schema: "port",
+  id: "mwenge-uridium",
+  title: "Uridium (uridium (+ UridiumFraktion))",
+  game: "Uridium (uridium (+ UridiumFraktion))",
+  developers: ["mwenge"],
+  publisher: "Unknown",
+  originalYear: 1986,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/mwenge/uridium"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Uridium (uridium (+ UridiumFraktion)): decompilation by mwenge for Windows. Bring your own copy of the game.",
+  notesEs: "Uridium (uridium (+ UridiumFraktion)): decompilación de mwenge para Windows. Aporta tu propia copia del juego.",
+};

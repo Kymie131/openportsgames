@@ -20,7 +20,7 @@ export const zakypewEpochEquinox: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Game Boy / Game Boy Color"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Oracle%20of%20Ages%20(Europe)%20(En%2CFr%2CDe%2CEs%2CIt).png",
     alt: "The Legend of Zelda: Oracle of Ages / Oracle of Seasons (box art)",

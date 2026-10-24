@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const coz0SmoRecomp: Port = {
+  schema: "port",
+  id: "coz-0-smo-recomp",
+  title: "Super Mario Odyssey (smo-recomp)",
+  game: "Super Mario Odyssey",
+  developers: ["Coz-0"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Coz-0/smo-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo Switch"],
+  notes: "Super Mario Odyssey: static recompilation by Coz-0 for Windows. Bring your own copy of the game.",
+  notesEs: "Super Mario Odyssey: recompilación estática de Coz-0 para Windows. Aporta tu propia copia del juego.",
+};

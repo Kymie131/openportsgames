@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const andrewspodeInfernalMachineDecompPublic: Port = {
+  schema: "port",
+  id: "andrewspode-infernal-machine-decomp-public",
+  title: "Indiana Jones and the Infernal Machine (infernal-machine-decomp)",
+  game: "Indiana Jones and the Infernal Machine",
+  developers: ["andrewspode"],
+  publisher: "Lucasfilm",
+  originalYear: 2018,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/andrewspode/infernal-machine-decomp-public"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Indiana Jones and the Infernal Machine: decompilation by andrewspode for Windows. Bring your own copy of the game.",
+  notesEs: "Indiana Jones and the Infernal Machine: decompilación de andrewspode para Windows. Aporta tu propia copia del juego.",
+};

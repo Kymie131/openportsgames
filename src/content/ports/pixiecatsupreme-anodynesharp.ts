@@ -21,7 +21,7 @@ export const pixiecatsupremeAnodynesharp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Anodyne: source port by PixieCatSupreme for Windows. Bring your own copy of the game.",
   notesEs: "Anodyne: source port de PixieCatSupreme para Windows. Aporta tu propia copia del juego.",
 };

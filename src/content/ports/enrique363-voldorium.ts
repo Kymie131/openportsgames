@@ -20,7 +20,7 @@ export const enrique363Voldorium: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Dreamcast"],
+  originalSystems: ["Unknown"],
   notes: "SoulCalibur: static recompilation by enrique363 for Windows. Bring your own copy of the game.",
   notesEs: "SoulCalibur: recompilación estática de enrique363 para Windows. Aporta tu propia copia del juego.",
 };

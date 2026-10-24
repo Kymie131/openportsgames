@@ -20,7 +20,7 @@ export const sergiou87OpenSupaplex: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["MS-DOS"],
+  originalSystems: ["Unknown"],
   notes: "Supaplex: decompilation by sergiou87 for Windows. Bring your own copy of the game.",
   notesEs: "Supaplex: decompilación de sergiou87 para Windows. Aporta tu propia copia del juego.",
 };

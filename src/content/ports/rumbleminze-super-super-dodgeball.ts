@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rumbleminzeSuperSuperDodgeball: Port = {
+  schema: "port",
+  id: "rumbleminze-super-super-dodgeball",
+  title: "Super Dodge Ball (super-super-dodgeball)",
+  game: "Super Dodge Ball",
+  developers: ["rumbleminze"],
+  publisher: "Technos Japan",
+  originalYear: 1988,
+  portType: "source-port",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/rumbleminze/super-super-dodgeball"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo Entertainment System"],
+  notes: "Super Dodge Ball: source port by rumbleminze for Windows. Bring your own copy of the game.",
+  notesEs: "Super Dodge Ball: source port de rumbleminze para Windows. Aporta tu propia copia del juego.",
+};

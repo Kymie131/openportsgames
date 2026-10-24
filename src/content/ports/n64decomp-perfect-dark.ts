@@ -21,7 +21,7 @@ export const n64decompPerfectDark: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg",
     alt: "Perfect Dark (box art)",

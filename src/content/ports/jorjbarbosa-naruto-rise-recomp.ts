@@ -20,7 +20,7 @@ export const jorjbarbosaNarutoRiseRecomp: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox 360"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/fa/Naruto_ROANfront.jpg",
     alt: "Naruto: Rise of a Ninja (box art)",

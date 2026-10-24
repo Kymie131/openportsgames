@@ -21,7 +21,7 @@ export const slqntdevssKisakcodPort: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Call of Duty 4: Modern Warfare (kisakcod-port (web)): source port by slqntdevss for Windows. Bring your own copy of the game.",
   notesEs: "Call of Duty 4: Modern Warfare (kisakcod-port (web)): source port de slqntdevss para Windows. Aporta tu propia copia del juego.",
 };

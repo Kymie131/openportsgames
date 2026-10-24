@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jevargReVirtuaCop2: Port = {
+  schema: "port",
+  id: "jevarg-re-virtua-cop-2",
+  title: "Virtua Cop 2 (re-virtua-cop-2)",
+  game: "Virtua Cop 2",
+  developers: ["jevarg"],
+  publisher: "Unknown",
+  originalYear: 1997,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/jevarg/re-virtua-cop-2"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Arcade"],
+  notes: "Virtua Cop 2: decompilation by jevarg for Windows. Bring your own copy of the game.",
+  notesEs: "Virtua Cop 2: decompilación de jevarg para Windows. Aporta tu propia copia del juego.",
+};

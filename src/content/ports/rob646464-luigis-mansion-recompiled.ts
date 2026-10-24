@@ -20,7 +20,7 @@ export const rob646464LuigisMansionRecompiled: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo GameCube"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/5e/Lmbox.jpg",
     alt: "Luigi's Mansion (box art)",

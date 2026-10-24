@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const kholdfuzionGoldenrecomp: Port = {
+  schema: "port",
+  id: "kholdfuzion-goldenrecomp",
+  title: "GoldenEye 007 (kholdfuzion)",
+  game: "GoldenEye 007",
+  developers: ["kholdfuzion"],
+  publisher: "Nintendo",
+  originalYear: 1997,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/kholdfuzion/GoldenRecomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "GoldenEye 007: static recompilation by kholdfuzion for Windows. Bring your own copy of the game.",
+  notesEs: "GoldenEye 007: recompilación estática de kholdfuzion para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/13/GoldenEye_007_N64_cover.jpg",
+    alt: "GoldenEye 007 (box art)",
+    credit: "Wikipedia",
+  },
+};

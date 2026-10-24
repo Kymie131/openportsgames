@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const metavertIoLofp: Port = {
+  schema: "port",
+  id: "metavert-io-lofp",
+  title: "Legends of Future Past (lofp)",
+  game: "Legends of Future Past",
+  developers: ["metavert-io"],
+  publisher: "Unknown",
+  originalYear: 1990,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/metavert-io/lofp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Legends of Future Past: decompilation by metavert-io for Windows. Bring your own copy of the game.",
+  notesEs: "Legends of Future Past: decompilación de metavert-io para Windows. Aporta tu propia copia del juego.",
+};

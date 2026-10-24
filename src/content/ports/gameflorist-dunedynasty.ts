@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gamefloristDunedynasty: Port = {
+  schema: "port",
+  id: "gameflorist-dunedynasty",
+  title: "Dune II",
+  game: "Dune II",
+  developers: ["gameflorist"],
+  publisher: "Virgin Interactive",
+  originalYear: 1992,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.6.4", date: "2025-05-31" },
+  sources: ["https://github.com/gameflorist/dunedynasty"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Dune II: source port by gameflorist for Windows. Bring your own copy of the game.",
+  notesEs: "Dune II: source port de gameflorist para Windows. Aporta tu propia copia del juego.",
+};

@@ -21,7 +21,7 @@ export const hectorbaileyByteTactics: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Total Annihilation: decompilation by HectorBailey for Windows. Bring your own copy of the game.",
   notesEs: "Total Annihilation: decompilación de HectorBailey para Windows. Aporta tu propia copia del juego.",
 };

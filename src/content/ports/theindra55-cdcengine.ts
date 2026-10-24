@@ -21,7 +21,7 @@ export const theindra55Cdcengine: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Tomb Raider: Legend: decompilation by TheIndra55 for Windows. Bring your own copy of the game.",
   notesEs: "Tomb Raider: Legend: decompilación de TheIndra55 para Windows. Aporta tu propia copia del juego.",
 };

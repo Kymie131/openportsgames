@@ -21,7 +21,7 @@ export const mariopartyrdMarioparty3: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Mario%20Party%203%20(USA)%20(LodgeNet).png",
     alt: "Mario Party 3 (box art)",

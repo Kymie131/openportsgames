@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ragnaroekIronWolf: Port = {
+  schema: "port",
+  id: "ragnaroek-iron-wolf",
+  title: "Wolfenstein 3D (Iron Wolf)",
+  game: "Wolfenstein 3D",
+  developers: ["Ragnaroek"],
+  publisher: "Apogee Software",
+  originalYear: 1992,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Ragnaroek/iron-wolf"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Wolfenstein 3D: source port by Ragnaroek for Windows. Bring your own copy of the game.",
+  notesEs: "Wolfenstein 3D: source port de Ragnaroek para Windows. Aporta tu propia copia del juego.",
+};

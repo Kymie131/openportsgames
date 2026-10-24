@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const artfulrascal8RageWarsRecompiled: Port = {
+  schema: "port",
+  id: "artfulrascal8-rage-wars-recompiled",
+  title: "Turok: Rage Wars (rage-wars-recompiled)",
+  game: "Turok: Rage Wars",
+  developers: ["ArtfulRascal8"],
+  publisher: "Acclaim Entertainment",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ArtfulRascal8/rage-wars-recompiled"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Turok: Rage Wars: static recompilation by ArtfulRascal8 for Windows. Bring your own copy of the game.",
+  notesEs: "Turok: Rage Wars: recompilación estática de ArtfulRascal8 para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f1/Ragewarsbox.jpg",
+    alt: "Turok: Rage Wars (box art)",
+    credit: "Wikipedia",
+  },
+};

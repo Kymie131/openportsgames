@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const omegakatana92BattleArenaToshindenGbRecomp: Port = {
+  schema: "port",
+  id: "omegakatana92-battle-arena-toshinden-gb-recomp",
+  title: "Battle Arena Toshinden",
+  game: "Battle Arena Toshinden",
+  developers: ["omegakatana92"],
+  publisher: "Takara",
+  originalYear: 1995,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/omegakatana92/Battle-Arena-Toshinden-GB-Recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Game Boy / Game Boy Color"],
+  notes: "Battle Arena Toshinden: static recompilation by omegakatana92 for Windows, Linux. Bring your own copy of the game.",
+  notesEs: "Battle Arena Toshinden: recompilación estática de omegakatana92 para Windows, Linux. Aporta tu propia copia del juego.",
+};

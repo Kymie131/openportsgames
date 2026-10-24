@@ -21,7 +21,7 @@ export const agusx1211Newshoes: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/20/Cncgzh-win-cover.jpg",
     alt: "Command & Conquer: Generals Zero Hour (box art)",

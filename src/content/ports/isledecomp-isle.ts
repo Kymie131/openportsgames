@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const isledecompIsle: Port = {
+  schema: "port",
+  id: "isledecomp-isle",
+  title: "Lego Island",
+  game: "Lego Island",
+  developers: ["isledecomp"],
+  publisher: "Mindscape",
+  originalYear: 1997,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/isledecomp/isle"],
+  license: { spdx: "LGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Lego Island: decompilation by isledecomp for Windows. Bring your own copy of the game.",
+  notesEs: "Lego Island: decompilación de isledecomp para Windows. Aporta tu propia copia del juego.",
+};

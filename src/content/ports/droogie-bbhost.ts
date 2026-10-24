@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const droogieBbhost: Port = {
+  schema: "port",
+  id: "droogie-bbhost",
+  title: "Bloodborne (bbhost)",
+  game: "Bloodborne",
+  developers: ["droogie"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2015,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.2.18", date: "2026-10-10" },
+  sources: ["https://github.com/droogie/bbhost"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 4"],
+  notes: "Bloodborne: source port by droogie for Windows. Bring your own copy of the game.",
+  notesEs: "Bloodborne: source port de droogie para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
+    alt: "Bloodborne (box art)",
+    credit: "Wikipedia",
+  },
+};

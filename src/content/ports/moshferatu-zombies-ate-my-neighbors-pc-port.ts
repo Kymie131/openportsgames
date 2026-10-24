@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const moshferatuZombiesAteMyNeighborsPcPort: Port = {
+  schema: "port",
+  id: "moshferatu-zombies-ate-my-neighbors-pc-port",
+  title: "Zombies Ate My Neighbors (Zombies Ate My Neighbors PC Port)",
+  game: "Zombies Ate My Neighbors",
+  developers: ["moshferatu"],
+  publisher: "Konami",
+  originalYear: 1993,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/moshferatu/zombies-ate-my-neighbors-pc-port"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Super Nintendo"],
+  notes: "Zombies Ate My Neighbors: source port by moshferatu for Windows. Bring your own copy of the game.",
+  notesEs: "Zombies Ate My Neighbors: source port de moshferatu para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/75/Zombies_Ate_My_Neighbors_box.jpg",
+    alt: "Zombies Ate My Neighbors (box art)",
+    credit: "Wikipedia",
+  },
+};

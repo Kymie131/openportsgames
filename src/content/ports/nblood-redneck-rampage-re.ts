@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nbloodRedneckRampageRe: Port = {
+  schema: "port",
+  id: "nblood-redneck-rampage-re",
+  title: "Redneck Rampage (Redneck-Rampage-RE)",
+  game: "Redneck Rampage",
+  developers: ["NBlood"],
+  publisher: "Interplay",
+  originalYear: 2017,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/NBlood/Redneck-Rampage-RE"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Redneck Rampage: decompilation by NBlood for Windows. Bring your own copy of the game.",
+  notesEs: "Redneck Rampage: decompilación de NBlood para Windows. Aporta tu propia copia del juego.",
+};

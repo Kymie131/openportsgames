@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const teamBeefStudiosQuestzdoom: Port = {
+  schema: "port",
+  id: "team-beef-studios-questzdoom",
+  title: "Doom (QuestZDoom)",
+  game: "Doom",
+  developers: ["Team-Beef-Studios"],
+  publisher: "id Software",
+  originalYear: 1993,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.6.2", date: "2026-09-30" },
+  sources: ["https://github.com/Team-Beef-Studios/QuestZDoom"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Doom: source port by Team-Beef-Studios for Windows. Bring your own copy of the game.",
+  notesEs: "Doom: source port de Team-Beef-Studios para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg",
+    alt: "Doom (box art)",
+    credit: "Wikipedia",
+  },
+};

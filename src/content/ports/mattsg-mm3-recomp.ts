@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mattsgMm3Recomp: Port = {
+  schema: "port",
+  id: "mattsg-mm3-recomp",
+  title: "Midtown Madness 3",
+  game: "Midtown Madness 3",
+  developers: ["MattSG"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2003,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/MattSG/mm3-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox"],
+  notes: "Midtown Madness 3: static recompilation by MattSG for Windows. Bring your own copy of the game.",
+  notesEs: "Midtown Madness 3: recompilación estática de MattSG para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/47/Midtown_Madness_3_Coverart.png",
+    alt: "Midtown Madness 3 (box art)",
+    credit: "Wikipedia",
+  },
+};

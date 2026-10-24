@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const stellargamesBakagain: Port = {
+  schema: "port",
+  id: "stellargames-bakagain",
+  title: "Bak-Again",
+  game: "Bak-Again",
+  developers: ["stellargames"],
+  publisher: "Unknown",
+  originalYear: 1993,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "windows", "linux"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/stellargames/bakagain"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Bak-Again: engine remake by stellargames for Android, Windows, Linux. Bring your own copy of the game.",
+  notesEs: "Bak-Again: recreación de motor de stellargames para Android, Windows, Linux. Aporta tu propia copia del juego.",
+};

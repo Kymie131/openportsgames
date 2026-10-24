@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rumbleminzeCastlevaniaSnes: Port = {
+  schema: "port",
+  id: "rumbleminze-castlevania-snes",
+  title: "Castlevania (rumbleminze)",
+  game: "Castlevania",
+  developers: ["rumbleminze"],
+  publisher: "Konami",
+  originalYear: 1999,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/rumbleminze/castlevania-snes"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo Entertainment System"],
+  notes: "Castlevania: source port by rumbleminze for Windows. Bring your own copy of the game.",
+  notesEs: "Castlevania: source port de rumbleminze para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Castlevania%20(Europe)%20(Virtual%20Console).png",
+    alt: "Castlevania (box art)",
+    credit: "Box art",
+  },
+};

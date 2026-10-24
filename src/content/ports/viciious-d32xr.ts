@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const viciiousD32xr: Port = {
+  schema: "port",
+  id: "viciious-d32xr",
+  title: "Doom",
+  game: "Doom",
+  developers: ["viciious"],
+  publisher: "id Software",
+  originalYear: 1993,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/viciious/d32xr"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Doom: source port by viciious for Windows. Bring your own copy of the game.",
+  notesEs: "Doom: source port de viciious para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg",
+    alt: "Doom (box art)",
+    credit: "Wikipedia",
+  },
+};

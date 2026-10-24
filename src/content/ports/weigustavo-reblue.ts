@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const weigustavoReblue: Port = {
+  schema: "port",
+  id: "weigustavo-reblue",
+  title: "Blue Dragon (reblue)",
+  game: "Blue Dragon",
+  developers: ["WeiGustavo"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/WeiGustavo/reblue"],
+  license: { spdx: "BSD-3-Clause" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Blue Dragon: static recompilation by WeiGustavo for Windows. Bring your own copy of the game.",
+  notesEs: "Blue Dragon: recompilación estática de WeiGustavo para Windows. Aporta tu propia copia del juego.",
+};

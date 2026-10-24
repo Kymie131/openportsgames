@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const therunaway5Halo2Decompiled: Port = {
+  schema: "port",
+  id: "therunaway5-halo-2-decompiled",
+  title: "Halo 2",
+  game: "Halo 2",
+  developers: ["TheRunaway5"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2004,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/TheRunaway5/Halo-2-Decompiled"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox"],
+  notes: "Halo 2: decompilation by TheRunaway5 for Windows. Bring your own copy of the game.",
+  notesEs: "Halo 2: decompilación de TheRunaway5 para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const endproduktCannonballDx: Port = {
+  schema: "port",
+  id: "endprodukt-cannonball-dx",
+  title: "OutRun (CannonBall DX)",
+  game: "OutRun",
+  developers: ["Endprodukt"],
+  publisher: "Sega",
+  originalYear: 1986,
+  portType: "reimplementation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.04", date: "2026-09-29" },
+  sources: ["https://github.com/Endprodukt/cannonball-dx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Arcade"],
+  notes: "OutRun: engine remake by Endprodukt for Windows. Bring your own copy of the game.",
+  notesEs: "OutRun: recreación de motor de Endprodukt para Windows. Aporta tu propia copia del juego.",
+};

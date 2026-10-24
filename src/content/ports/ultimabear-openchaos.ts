@@ -20,7 +20,7 @@ export const ultimabearOpenchaos: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Urban Chaos: engine remake by UltimaBeaR for Windows. Bring your own copy of the game.",
   notesEs: "Urban Chaos: recreación de motor de UltimaBeaR para Windows. Aporta tu propia copia del juego.",
 };

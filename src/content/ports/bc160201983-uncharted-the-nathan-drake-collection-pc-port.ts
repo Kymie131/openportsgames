@@ -20,7 +20,7 @@ export const bc160201983UnchartedTheNathanDrakeCollectionPcPort: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation 4"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c9/Nathan_Drake_Collection_cover_art.png",
     alt: "Uncharted: The Nathan Drake Collection (box art)",

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const epic0522Mariokart643dsportComplete: Port = {
+  schema: "port",
+  id: "epic0522-mariokart64-3dsport-complete",
+  title: "Mario Kart 64 (3DS Port Complete)",
+  game: "Mario Kart 64",
+  developers: ["Epic0522"],
+  publisher: "Nintendo",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-10-07" },
+  sources: ["https://github.com/Epic0522/MarioKart64-3DSPort-Complete"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Mario Kart 64: source port by Epic0522 for Windows. Bring your own copy of the game.",
+  notesEs: "Mario Kart 64: source port de Epic0522 para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a1/Mario_Kart_64.jpg",
+    alt: "Mario Kart 64 (box art)",
+    credit: "Wikipedia",
+  },
+};

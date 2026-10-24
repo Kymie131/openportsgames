@@ -17,8 +17,10 @@ import { threeDstris } from "./3dstris";
 import { _3on3NhlArcadeRecomp } from "./3on3-nhl-arcade-recomp";
 import { _8BitTableTennisNes } from "./8-bit-table-tennis-nes";
 import { _8bitvitaPsVitaPlugin } from "./8bitvita-ps-vita-plugin";
+import { p9933faZumaDeluxeTas } from "./9933fa-zuma-deluxe-tas";
 import { _9mmHdPsVita } from "./9mm-hd-ps-vita";
 import { a2Racer2Re } from "./a2-racer-2-re";
+import { abelbriggs1Tm1Decomp } from "./abelbriggs1-tm1-decomp";
 import { abuseAndroid } from "./abuse-android";
 import { ac3Decomp } from "./ac3-decomp";
 import { aceCombat3ElectrosphereRecomp } from "./ace-combat-3-electrosphere-recomp";
@@ -30,6 +32,8 @@ import { aceCombatXRecomp } from "./ace-combat-x-recomp";
 import { acreteamAcDecomp } from "./acreteam-ac-decomp";
 import { acreteamForest } from "./acreteam-forest";
 import { actraiserRecomp } from "./actraiser-recomp";
+import { adamrtFftDecomp } from "./adamrt-fft-decomp";
+import { adipociraDoraemon1 } from "./adipocira-doraemon1";
 import { AdvanceWars2BlackHoleRising } from "./advance-wars-2-black-hole-rising";
 import { AdventureIslandIi } from "./adventure-island-ii";
 import { aegisWingXblaRecomp } from "./aegis-wing-xbla-recomp";
@@ -61,12 +65,14 @@ import { am2rAndroid } from "./am2r-android";
 import { AmazingIsland } from "./amazing-island";
 import { Ambermoon } from "./ambermoon";
 import { amethystAndroid } from "./amethyst-android";
+import { ammaarreshiSkyroadsPort } from "./ammaarreshi-skyroads-port";
 import { amphitere } from "./amphitere";
 import { Amplitude } from "./amplitude";
 import { AncientEmpires } from "./ancient-empires";
 import { andersfischernielsenSsx3Decomp } from "./andersfischernielsen-ssx3-decomp";
 import { andrewaltimitLegendOfLegaiaRe } from "./andrewaltimit-legend-of-legaia-re";
 import { andrewnakasSkate3IosSetup } from "./andrewnakas-skate3-ios-setup";
+import { andrewspodeInfernalMachineDecompPublic } from "./andrewspode-infernal-machine-decomp-public";
 import { andreyvelskComMobilerpgpackPhone } from "./andreyvelsk-com-mobilerpgpack-phone";
 import { angheloalfDrmario64 } from "./angheloalf-drmario64";
 import { animalCrossingAnbernicHandhelds } from "./animal-crossing-anbernic-handhelds";
@@ -89,6 +95,7 @@ import { ArTonelicoIiMelodyOfMetafalica } from "./ar-tonelico-ii-melody-of-metaf
 import { arcRiseFantasiaPc } from "./arc-rise-fantasia-pc";
 import { AreYouSmarterThanA5thGraderMakeTheGrade } from "./are-you-smarter-than-a-5th-grader-make-the-grade";
 import { area51Source } from "./area-51-source";
+import { arefdsgMk64recomp } from "./arefdsg-mk64recomp";
 import { Ares } from "./ares";
 import { arkPluginConverter } from "./ark-plugin-converter";
 import { Arkanoid } from "./arkanoid";
@@ -101,6 +108,7 @@ import { ArmoredUnit } from "./armored-unit";
 import { armyMenSargeSHeroesPc } from "./army-men-sarge-s-heroes-pc";
 import { armyOfTwoPc } from "./army-of-two-pc";
 import { armyOfTwoRecomp } from "./army-of-two-recomp";
+import { artfulrascal8RageWarsRecompiled } from "./artfulrascal8-rage-wars-recompiled";
 import { arxLibertatis } from "./arx-libertatis";
 import { asobicodesRacRs } from "./asobicodes-rac-rs";
 import { asteroidsTerraSegaSaturn } from "./asteroids-terra-sega-saturn";
@@ -138,6 +146,7 @@ import { battlezoneRiseOfTheBlackDogsRecomp } from "./battlezone-rise-of-the-bla
 import { bayonetta2Recomp } from "./bayonetta-2-recomp";
 import { bc160201983UnchartedTheNathanDrakeCollectionPcPort } from "./bc160201983-uncharted-the-nathan-drake-collection-pc-port";
 import { beatBangerPsVita } from "./beat-banger-ps-vita";
+import { beemercodesMidnightclublaRecomp } from "./beemercodes-midnightclubla-recomp";
 import { beetleAdventureRacingRecomp } from "./beetle-adventure-racing-recomp";
 import { ben10OmniverseRecomp } from "./ben-10-omniverse-recomp";
 import { bep1s69NfsmwIos } from "./bep1s69-nfsmw-ios";
@@ -147,6 +156,7 @@ import { BeybladeVforceUltimateBladerJam } from "./beyblade-vforce-ultimate-blad
 import { bfbbDecomp } from "./bfbb-decomp";
 import { bfbbdecompBfbb } from "./bfbbdecomp-bfbb";
 import { BigBrainAcademyWiiDegree } from "./big-brain-academy-wii-degree";
+import { biggestsonicfanStfdecomp } from "./biggestsonicfan-stfdecomp";
 import { bikeRaceProPsVita } from "./bike-race-pro-ps-vita";
 import { BioMenace } from "./bio-menace";
 import { birdAndBeansWii } from "./bird-and-beans-wii";
@@ -178,6 +188,7 @@ import { bluisbluPvz } from "./bluisblu-pvz";
 import { bnunuHaloCeUniversal } from "./bnunu-halo-ce-universal";
 import { bodyHarvestPc } from "./body-harvest-pc";
 import { bodyHarvestRecomp } from "./body-harvest-recomp";
+import { bomberhackersBm64 } from "./bomberhackers-bm64";
 import { bomberhackersBmhero } from "./bomberhackers-bmhero";
 import { bomberman64Recomp } from "./bomberman-64-recomp";
 import { bomberman64Switch } from "./bomberman-64-switch";
@@ -194,11 +205,13 @@ import { Bounce } from "./bounce";
 import { bouncePsp } from "./bounce-psp";
 import { braveFencerMusashiRecomp } from "./brave-fencer-musashi-recomp";
 import { BraveFrontier } from "./brave-frontier";
+import { brawmarioLibsm64Godot } from "./brawmario-libsm64-godot";
 import { breathOfFireIiiRecomp } from "./breath-of-fire-iii-recomp";
 import { breathOfTheWildDecomp } from "./breath-of-the-wild-decomp";
 import { broforceAndroid } from "./broforce-android";
 import { brogueAndroid } from "./brogue-android";
 import { brotatoPsVita } from "./brotato-ps-vita";
+import { bruderGrimmAnimalForestPsp } from "./bruder-grimm-animal-forest-psp";
 import { Bstone } from "./bstone";
 import { bt3Recomp } from "./bt3-recomp";
 import { Btbuilder } from "./btbuilder";
@@ -209,6 +222,7 @@ import { buckBumbleRecomp } from "./buck-bumble-recomp";
 import { buckshotRouletteMobile } from "./buckshot-roulette-mobile";
 import { buckshotRouletteVita } from "./buckshot-roulette-vita";
 import { budokaiTenkaichi3Pc } from "./budokai-tenkaichi-3-pc";
+import { buffjesusFabledecomp } from "./buffjesus-fabledecomp";
 import { buffyChaosBleedsAndroid } from "./buffy-chaos-bleeds-android";
 import { BumpysArcadeFantasy } from "./bumpys-arcade-fantasy";
 import { burnout2Recompilation } from "./burnout-2-recompilation";
@@ -230,10 +244,13 @@ import { callOfDutyMw2Android } from "./call-of-duty-mw2-android";
 import { callOfDutyMw2Recomp } from "./call-of-duty-mw2-recomp";
 import { camila314Gdp } from "./camila314-gdp";
 import { cannonball } from "./cannonball";
+import { capridogSpaceranger } from "./capridog-spaceranger";
+import { carl0srmzLittleplanet } from "./carl0srmz-littleplanet";
 import { carmageddon2Android } from "./carmageddon-2-android";
 import { carmageddonRecomp } from "./carmageddon-recomp";
 import { Carnage3d } from "./carnage3d";
 import { carter54gitDethracePortedToWeb } from "./carter54git-dethrace-ported-to-web";
+import { castleseaInfamousSecondSonPcPort } from "./castlesea-infamous-second-son-pc-port";
 import { castlevania64Recomp } from "./castlevania-64-recomp";
 import { castlevaniaCircleOfTheMoonRecomp } from "./castlevania-circle-of-the-moon-recomp";
 import { castlevaniaLegacyOfDarknessRecomp } from "./castlevania-legacy-of-darkness-recomp";
@@ -246,12 +263,17 @@ import { Catacombgl } from "./catacombgl";
 import { caveStoryMegaDrive } from "./cave-story-mega-drive";
 import { cavex } from "./cavex";
 import { cbfdRecompiledAndroidEvolved } from "./cbfd-recompiled-android-evolved";
+import { cdlewisSnowboardkidsDecomp } from "./cdlewis-snowboardkids-decomp";
+import { cdlewisSnowboardkidsRecomp } from "./cdlewis-snowboardkids-recomp";
 import { celesteAndroid } from "./celeste-android";
 import { celesteClassicGba } from "./celeste-classic-gba";
+import { celsowmVf2Decomp } from "./celsowm-vf2-decomp";
 import { chameleonTwist2Recomp } from "./chameleon-twist-2-recomp";
 import { chameleonTwistRecomp } from "./chameleon-twist-recomp";
+import { chameleontwistretChameleontwist2v10Jp } from "./chameleontwistret-chameleontwist2v1-0-jp";
 import { championsOfNorrathRecomp } from "./champions-of-norrath-recomp";
 import { chaotixRecompiled } from "./chaotix-recompiled";
+import { charlesaverillSm3ds } from "./charlesaverill-sm-3ds";
 import { chasemDevSmsPcPort } from "./chasem-dev-sms-pc-port";
 import { ChasmReverse } from "./chasm-reverse";
 import { ChernobylNeighborClownGang } from "./chernobyl-neighbor-clown-gang";
@@ -261,6 +283,7 @@ import { ChikisChase } from "./chikis-chase";
 import { chocolateDoom } from "./chocolate-doom";
 import { ChocolateQuake } from "./chocolate-quake";
 import { chrissotraidisBellpad } from "./chrissotraidis-bellpad";
+import { chrissotraidisGoldenpad } from "./chrissotraidis-goldenpad";
 import { chrissotraidisSnappad } from "./chrissotraidis-snappad";
 import { ChronoCross } from "./chrono-cross";
 import { chronoTriggerPc } from "./chrono-trigger-pc";
@@ -301,11 +324,14 @@ import { corsixthAndroid } from "./corsixth-android";
 import { CosmosCosmicAdventure } from "./cosmos-cosmic-adventure";
 import { CostumeQuest } from "./costume-quest";
 import { coupSegaSaturn } from "./coup-sega-saturn";
+import { coz0SmoRecomp } from "./coz-0-smo-recomp";
 import { cps2Recomp } from "./cps2-recomp";
+import { crabinacrabicBadcompanyrecomp } from "./crabinacrabic-badcompanyrecomp";
 import { crackdown2Recomp } from "./crackdown-2-recomp";
 import { crackdownPc } from "./crackdown-pc";
 import { crackdownRecomp } from "./crackdown-recomp";
 import { craftusReloaded } from "./craftus-reloaded";
+import { craigshawFzerorecomp } from "./craigshaw-fzerorecomp";
 import { crashBandicoot } from "./crash-bandicoot";
 import { crashBandicoot2Pc } from "./crash-bandicoot-2-pc";
 import { crashBandicoot3WarpedRecomp } from "./crash-bandicoot-3-warped-recomp";
@@ -354,12 +380,14 @@ import { daytonaUsa3dsPcAndroid } from "./daytona-usa-3ds-pc-android";
 import { daytonaUsaRecomp } from "./daytona-usa-recomp";
 import { dbzBurstLimitAndroid } from "./dbz-burst-limit-android";
 import { dbzBurstLimitRecompAndroid } from "./dbz-burst-limit-recomp-android";
+import { dcrsdkSoniccdDc } from "./dcrsdk-soniccd-dc";
 import { DeBlob } from "./de-blob";
 import { deadOrAlive2UltimateRecomp } from "./dead-or-alive-2-ultimate-recomp";
 import { deadOrAliveXtremeBeachVolleyballAndroid } from "./dead-or-alive-xtreme-beach-volleyball-android";
 import { deadRising2CaseWestRecomp } from "./dead-rising-2-case-west-recomp";
 import { deadRising2CaseZeroRecomp } from "./dead-rising-2-case-zero-recomp";
 import { deadlyPremonitionRecomp } from "./deadly-premonition-recomp";
+import { decompalsYoshisStory } from "./decompals-yoshis-story";
 import { deepSeaWindWaker60Fps } from "./deep-sea-wind-waker-60-fps";
 import { defJamFightForNyRecomp } from "./def-jam-fight-for-ny-recomp";
 import { defJamVendettaRecomp } from "./def-jam-vendetta-recomp";
@@ -385,6 +413,7 @@ import { Dgengine } from "./dgengine";
 import { dhewm3 } from "./dhewm3";
 import { diabloRecomp } from "./diablo-recomp";
 import { DiamondRush } from "./diamond-rush";
+import { diasurgicalDevilution } from "./diasurgical-devilution";
 import { diddyKongRacingGoldenballoon } from "./diddy-kong-racing-goldenballoon";
 import { diddyKongRacingPcCyscott } from "./diddy-kong-racing-pc-cyscott";
 import { diddyKongRacingWii } from "./diddy-kong-racing-wii";
@@ -472,10 +501,12 @@ import { DrakanTheAncientsGates } from "./drakan-the-ancients-gates";
 import { drakengard3Pc } from "./drakengard-3-pc";
 import { dreadhollowManorGameBoyColor } from "./dreadhollow-manor-game-boy-color";
 import { dreamcastHomebrewCollectionDreamcast } from "./dreamcast-homebrew-collection-dreamcast";
+import { dreamingmothsMirrorOfAlessa } from "./dreamingmoths-mirror-of-alessa";
 import { driveclubNative } from "./driveclub-native";
 import { driverRecomp } from "./driver-recomp";
 import { drMario64RecompPlus } from "./drmario64-recomp-plus";
 import { drommedharMgsReintegral } from "./drommedhar-mgs-reintegral";
+import { droogieBbhost } from "./droogie-bbhost";
 import { dropsonic0SonicManiaDecompilation } from "./dropsonic0-sonic-mania-decompilation";
 import { druthuluBfmDecomp } from "./druthulu-bfm-decomp";
 import { DsProtect } from "./ds-protect";
@@ -505,6 +536,7 @@ import { ecstaticaRecompiled } from "./ecstatica-recompiled";
 import { ecWolf } from "./ecwolf";
 import { EdgeClassic } from "./edge-classic";
 import { eduke32 } from "./eduke32";
+import { edw590F1dp } from "./edw590-f1dp";
 import { einhanderRecomp } from "./einhander";
 import { ekspymTekken6NativeOnline } from "./ekspym-tekken6-native-online";
 import { elfenLiedFightingAndroid } from "./elfen-lied-fighting-android";
@@ -512,14 +544,19 @@ import { elforeignNfsMostWantedMac } from "./elforeign-nfs-most-wanted-mac";
 import { elliSHouse3dsPspGba } from "./elli-s-house-3ds-psp-gba";
 import { elliotttateWindWakerRecomp } from "./elliotttate-wind-waker-recomp";
 import { elripaldaGta4Ps5 } from "./elripalda-gta4-ps5";
+import { eltalelibrarianSote } from "./eltalelibrarian-sote";
 import { emazingMazes3ds } from "./emazing-mazes-3ds";
 import { emberclutch3ds } from "./emberclutch-3ds";
 import { Emperorreborn } from "./emperorreborn";
 import { endlessSkyAndroid } from "./endless-sky-android";
+import { endproduktCannonballDx } from "./endprodukt-cannonball-dx";
 import { enrique363Voldorium } from "./enrique363-voldorium";
 import { eopLabsM2tweopLibrary } from "./eop-labs-m2tweop-library";
 import { epicPinballRecomp } from "./epic-pinball-recomp";
+import { epic0522Mariokart643dsportComplete } from "./epic0522-mariokart64-3dsport-complete";
 import { eqvitaPsVitaAudioPlugin } from "./eqvita-ps-vita-audio-plugin";
+import { ergonomyJoeFf7Coaster } from "./ergonomy-joe-ff7-coaster";
+import { erick194Doom64Re } from "./erick194-doom64-re";
 import { erreibPureRecomp } from "./erreib-pure-recomp";
 import { etchySketchyGameBoyAdvance } from "./etchy-sketchy-game-boy-advance";
 import { eternalDarknessRecomp } from "./eternal-darkness-recomp";
@@ -543,7 +580,9 @@ import { F15IiEnhanced } from "./f-15-ii-enhanced";
 import { fZeroSnesRecompiled } from "./f-zero-snes-recompiled";
 import { fZeroX3ds } from "./f-zero-x-3ds";
 import { fZeroXRecomp } from "./f-zero-x-recomp";
+import { fabiangreffrathWolf4sdl } from "./fabiangreffrath-wolf4sdl";
 import { fable2Recomp } from "./fable-2-recomp";
+import { fable2recompBeanrecomp } from "./fable2recomp-beanrecomp";
 import { fable2recompFable2recomp } from "./fable2recomp-fable2recomp";
 import { fadeToBlackRecomp } from "./fade-to-black-recomp";
 import { falcuryRayverse } from "./falcury-rayverse";
@@ -598,6 +637,8 @@ import { fmil95SoulRe } from "./fmil95-soul-re";
 import { foldCraftLauncher } from "./fold-craft-launcher";
 import { FordRacing } from "./ford-racing";
 import { forecastChannel } from "./forecast-channel";
+import { forestbeltonAzure } from "./forestbelton-azure";
+import { foreverwipS1Port } from "./foreverwip-s1-port";
 import { FortuneStreet } from "./fortune-street";
 import { forzaHorizon2Android } from "./forza-horizon-2-android";
 import { forzaHorizon2Recomp } from "./forza-horizon-2-recomp";
@@ -620,17 +661,21 @@ import { fridayNightFunkinWii } from "./friday-night-funkin-wii";
 import { FroggerHesBack } from "./frogger-hes-back";
 import { FroggersAdventuresTempleOfTheFrog } from "./froggers-adventures-temple-of-the-frog";
 import { fromBelowNes } from "./from-below-nes";
+import { fteTeamFteqw } from "./fte-team-fteqw";
 import { ftlPocketWormhole } from "./ftl-pocket-wormhole";
 import { fttaRecomp } from "./ftta-recomp";
 import { Fuel } from "./fuel";
+import { fuerchterRaymanPs1Decomp } from "./fuerchter-rayman-ps1-decomp";
 import { FushigiNoDungeonFuraiNoShiren2OniShuraiShirenJo } from "./fushigi-no-dungeon-furai-no-shiren-2-oni-shurai-shiren-jo";
 import { futureCopLapdRecomp } from "./future-cop-lapd-recomp";
+import { fwgsCs16Client } from "./fwgs-cs16-client";
 import { gPoliceRecomp } from "./g-police-recomp";
 import { gPoliceWeaponsOfJusticeRecomp } from "./g-police-weapons-of-justice-recomp";
 import { galaxyOnFire2UnityRemake } from "./galaxy-on-fire-2-unity-remake";
 import { galeriansRecomp } from "./galerians-recomp";
 import { gamearcadeSwitch } from "./gamearcade-switch";
 import { gameblablaCse2 } from "./gameblabla-cse2";
+import { gamefloristDunedynasty } from "./gameflorist-dunedynasty";
 import { GauntletDarkLegacy } from "./gauntlet-dark-legacy";
 import { GauntletLegends } from "./gauntlet-legends";
 import { gdroid } from "./gdroid";
@@ -650,6 +695,7 @@ import { GeometryDash } from "./geometry-dash";
 import { GeometryWarsRetroEvolved2 } from "./geometry-wars-retro-evolved-2";
 import { GeorgeOfTheJungleAndTheSearchForTheSecret } from "./george-of-the-jungle-and-the-search-for-the-secret";
 import { Gex64EnterTheGecko } from "./gex-64-enter-the-gecko";
+import { ggdrnKhComVita } from "./ggdrn-kh-com-vita";
 import { ggdrnKhDaysVita } from "./ggdrn-kh-days-vita";
 import { ghostInTheShellRecomp } from "./ghost-in-the-shell-recomp";
 import { GhostsAndGraves } from "./ghosts-and-graves";
@@ -662,6 +708,8 @@ import { Glkeeper } from "./glkeeper";
 import { gloomAndroid } from "./gloom-android";
 import { Glover } from "./glover";
 import { Glsmac } from "./glsmac";
+import { gmhCodeDwasm } from "./gmh-code-dwasm";
+import { gmhCodeQwasm } from "./gmh-code-qwasm";
 import { goGoAckmanPc } from "./go-go-ackman-pc";
 import { godHandDecomp } from "./god-hand-decomp";
 import { godOfThunderAndroid } from "./god-of-thunder-android";
@@ -689,6 +737,7 @@ import { googleDinoGameBoyAdvance } from "./google-dino-game-boy-advance";
 import { gothsNVampsPsp } from "./goths-n-vamps-psp";
 import { gpsemuPspPlugin } from "./gpsemu-psp-plugin";
 import { gr544pPsVitaPlugin } from "./gr544p-ps-vita-plugin";
+import { graememccMicropolisjs } from "./graememcc-micropolisjs";
 import { GranTurismo4 } from "./gran-turismo-4";
 import { granTurismo4Pc } from "./gran-turismo-4-pc";
 import { granTurismoSportRygtPc } from "./gran-turismo-sport-rygt-pc";
@@ -736,7 +785,9 @@ import { haloCeUniversal } from "./halo-ce-universal";
 import { haloCeWeb } from "./halo-ce-web";
 import { HaloReach } from "./halo-reach";
 import { haloReachRecomp } from "./halo-reach-recomp";
+import { hamishaklLibertyrecomp } from "./hamishakl-libertyrecomp";
 import { hamsterMonogatari64Recomp } from "./hamster-monogatari-64-recomp";
+import { hansboniniPsxTomba } from "./hansbonini-psx-tomba";
 import { HappyWheels } from "./happy-wheels";
 import { HardCorpsUprising } from "./hard-corps-uprising";
 import { hardkiller2565123123Caferecomp } from "./hardkiller2565123123-caferecomp";
@@ -750,10 +801,13 @@ import { HarvestMoonFriendsOfMineralTown } from "./harvest-moon-friends-of-miner
 import { harvestwhispererHm64Decomp } from "./harvestwhisperer-hm64-decomp";
 import { hashiPsVita } from "./hashi-ps-vita";
 import { Hazard1998 } from "./hazard-1998";
+import { hcbtTbuddiesDecomp } from "./hcbt-tbuddies-decomp";
 import { heartOfDarknessPort } from "./heart-of-darkness-port";
 import { Heavymetal } from "./heavymetal";
 import { hectorbaileyByteTactics } from "./hectorbailey-byte-tactics";
 import { helltakerPsp } from "./helltaker-psp";
+import { helmxgamingSkate3RecompiledWorkInProgress } from "./helmxgaming-skate-3-recompiled-work-in-progress";
+import { henneBrighteyes } from "./henne-brighteyes";
 import { herculesRecompiled } from "./hercules-recompiled";
 import { hereticClassicCoreEngines } from "./heretic-classic-core-engines";
 import { Heretic2 } from "./heretic2";
@@ -790,6 +844,7 @@ import { imcynicAcgcDeluxePcPort } from "./imcynic-acgc-deluxe-pc-port";
 import { inColdBloodRecomp } from "./in-cold-blood-recomp";
 import { InazumaEleven3SekaiENoChousenTheOgre } from "./inazuma-eleven-3-sekai-e-no-chousen-the-ogre";
 import { incredibleCrisisRecomp } from "./incredible-crisis-recomp";
+import { indionicaraoDxx3ds } from "./indionicarao-dxx-3ds";
 import { infamous2Pc } from "./infamous-2-pc";
 import { infamousSecondSonPc } from "./infamous-second-son-pc";
 import { infiniteBlade2Android } from "./infinite-blade-2-android";
@@ -806,14 +861,17 @@ import { isaacFlashRecomp } from "./isaac-flash-recomp";
 import { isaacRebirthAndroid } from "./isaac-rebirth-android";
 import { ishaankalra2103Botwrecomp } from "./ishaankalra2103-botwrecomp";
 import { islePortable } from "./isle-portable";
+import { isledecompIsle } from "./isledecomp-isle";
 import { isledecompRacersPortable } from "./isledecomp-racers-portable";
 import { issdNative } from "./issd-native";
 import { itsbybansheeWwe2k14Pc } from "./itsbybanshee-wwe2k14-pc";
 import { ja2Stracciatella } from "./ja2-stracciatella";
 import { jackieChanStuntmasterRechan } from "./jackie-chan-stuntmaster-rechan";
 import { jackieChanStuntmasterRecomp } from "./jackie-chan-stuntmaster-recomp";
+import { jacobengetDoomWasm } from "./jacobenget-doom-wasm";
 import { jadeCocoonRecomp } from "./jade-cocoon-recomp";
 import { jakAndDaxterThePrecursorLegacyApple } from "./jak-and-daxter-the-precursor-legacy-apple";
+import { japabuMickeySavesTheDay3dAdventure } from "./japabu-mickey-saves-the-day-3d-adventure";
 import { jaythehamBodyHarvestDecompilation } from "./jaytheham-body-harvest-decompilation";
 import { jazz2Ressurection } from "./jazz-2-ressurection";
 import { jazz2Native } from "./jazz2-native";
@@ -827,6 +885,7 @@ import { jetSetRadioFutureRecomp } from "./jet-set-radio-future-recomp";
 import { jetSetRadioFutureUnleashed } from "./jet-set-radio-future-unleashed";
 import { jetSki3ds } from "./jet-ski-3ds";
 import { Jetpac } from "./jetpac";
+import { jevargReVirtuaCop2 } from "./jevarg-re-virtua-cop-2";
 import { jezzball3ds } from "./jezzball-3ds";
 import { jezzballWiiU } from "./jezzball-wii-u";
 import { Jfsw } from "./jfsw";
@@ -834,12 +893,18 @@ import { Jftekwar } from "./jftekwar";
 import { Jfwhaven } from "./jfwhaven";
 import { jgrPortable } from "./jgr-portable";
 import { jillOfTheJungleAndroid } from "./jill-of-the-jungle-android";
+import { jnmartin84Doom64Dc } from "./jnmartin84-doom64-dc";
+import { jnmartin84Mk64Dc } from "./jnmartin84-mk64-dc";
 import { jnmartin84OotDc } from "./jnmartin84-oot-dc";
+import { jnmartin84Sf64Dc } from "./jnmartin84-sf64-dc";
+import { jnmartin84WipeoutDc } from "./jnmartin84-wipeout-dc";
 import { JohnnyHerbertsGrandPrixChampionship1998 } from "./johnny-herberts-grand-prix-championship-1998";
 import { jokerPokerPsp } from "./joker-poker-psp";
 import { jonZuShroom95Decomp } from "./jon-zu-shroom95-decomp";
 import { jonathandc64Demonssoulsrecomp } from "./jonathandc64-demonssoulsrecomp";
+import { jonofJfduke3d } from "./jonof-jfduke3d";
 import { jorjbarbosaNarutoRiseRecomp } from "./jorjbarbosa-naruto-rise-recomp";
+import { jotd666Bagman } from "./jotd666-bagman";
 import { JpnPokemonBlue } from "./jpn-pokemon-blue";
 import { julius } from "./julius";
 import { JumpingFlash } from "./jumping-flash";
@@ -848,19 +913,24 @@ import { JurassicParkOperationGenesis } from "./jurassic-park-operation-genesis"
 import { justgetmiionlineWiiUAromaPlugin } from "./justgetmiionline-wii-u-aroma-plugin";
 import { jype0DwDecomp } from "./jype0-dw-decomp";
 import { kOnHoukagoLivePc } from "./k-on-houkago-live-pc";
+import { k64retCv64 } from "./k64ret-cv64";
 import { kameoRepowered } from "./kameo-repowered";
 import { kartiaRecomp } from "./kartia-recomp";
 import { kartpad } from "./kartpad";
 import { katawaShoujoGba } from "./katawa-shoujo-gba";
 import { KazeNoNotam } from "./kaze-no-notam";
+import { kazuyetteRrPcPort } from "./kazuyette-rr-pc-port";
 import { keeperFx } from "./keeperfx";
 import { Keeperrl } from "./keeperrl";
 import { kenGriffeyJrSSlugfestPc } from "./ken-griffey-jr-s-slugfest-pc";
 import { kensLabyrinthAndroid } from "./kens-labyrinth-android";
 import { kernaltrap8WorPlus } from "./kernaltrap8-wor-plus";
+import { keroklineBreathoffire3pcport } from "./kerokline-breathoffire3pcport";
 import { key2conSwitchSysmodule } from "./key2con-switch-sysmodule";
 import { kh1 } from "./kh1";
 import { khasinskiParasiteEveDecomp } from "./khasinski-parasite-eve-decomp";
+import { khasinskiRageRacerDecomp } from "./khasinski-rage-racer-decomp";
+import { kholdfuzionGoldenrecomp } from "./kholdfuzion-goldenrecomp";
 import { KidChameleon } from "./kid-chameleon";
 import { killzonePc } from "./killzone-pc";
 import { KinectSports } from "./kinect-sports";
@@ -884,21 +954,28 @@ import { KkndKrushKillNDestroy } from "./kknd-krush-kill-n-destroy";
 import { Klonoa2LunateasVeil } from "./klonoa-2-lunateas-veil";
 import { klonoaDoorToPhantomileRecomp } from "./klonoa-door-to-phantomile-recomp";
 import { KlonoaEmpireOfDreams } from "./klonoa-empire-of-dreams";
+import { klorfmorfMnsg } from "./klorfmorf-mnsg";
 import { knossosnet } from "./knossosnet";
 import { knyttStoriesAndroid } from "./knytt-stories-android";
 import { kokororecomp } from "./kokororecomp";
 import { KomputerowaGratka3dMagicznaKulaPapatki } from "./komputerowa-gratka-3d-magiczna-kula-papatki";
+import { kondrakVkquake2 } from "./kondrak-vkquake2";
 import { koudelkaRecomp } from "./koudelka-recomp";
 import { kroplabeskiduFlipendo } from "./kroplabeskidu-flipendo";
+import { krystalgamerMemoriesDecomp } from "./krystalgamer-memories-decomp";
 import { kubikaugustynDiamondrushsource } from "./kubikaugustyn-diamondrushsource";
 import { kulaWorldRecomp } from "./kula-world-recomp";
 import { kumiDaikoBeatoff64Nintendo64 } from "./kumi-daiko-beatoff-64-nintendo-64";
 import { kungFuMasterSnes } from "./kung-fu-master-snes";
 import { KuonMulberry } from "./kuon-mulberry";
 import { kurausukunMother3 } from "./kurausukun-mother3";
+import { kylofonAcesofthepacificEnhanced } from "./kylofon-acesofthepacific-enhanced";
+import { kylofonTestDrive3Sdl3 } from "./kylofon-test-drive-3-sdl3";
+import { kylofonTestdrive3Enhanced } from "./kylofon-testdrive3-enhanced";
 import { ladysilverbergXenogearsDecomp } from "./ladysilverberg-xenogears-decomp";
 import { lancesweatpantsStrikersQuestMr } from "./lancesweatpants-strikers-quest-mr";
 import { lancommanderTonywasaproskater } from "./lancommander-tonywasaproskater";
+import { lasvolaGodhandRecomp } from "./lasvola-godhand-recomp";
 import { laytonMansionMirrorPc } from "./layton-mansion-mirror-pc";
 import { Lba2ClassicCommunity } from "./lba2-classic-community";
 import { lba2Remake } from "./lba2-remake";
@@ -921,12 +998,14 @@ import { LegoStarWarsIiiTheCloneWars } from "./lego-star-wars-iii-the-clone-wars
 import { legoWorldBuilder3ds } from "./lego-world-builder-3ds";
 import { Legoland } from "./legoland";
 import { LemmingsPaintball } from "./lemmings-paintball";
+import { lethalGuitarDuke2reconstructed } from "./lethal-guitar-duke2reconstructed";
 import { libertyrecompandroid } from "./libertyrecompandroid";
 import { librelancer } from "./librelancer";
 import { lighthouse } from "./lighthouse";
 import { lighthouseAndroid } from "./lighthouse-android";
 import { lighthouseVita } from "./lighthouse-vita";
 import { lightsOutWii } from "./lights-out-wii";
+import { lildavidWarioland4 } from "./lildavid-warioland4";
 import { LiliumVoyager } from "./lilium-voyager";
 import { linkSAwakeningPc } from "./link-s-awakening-pc";
 import { linksAwakeningAndroidPlus } from "./links-awakening-android-plus";
@@ -946,6 +1025,7 @@ import { lotrTwoTowersRecomp } from "./lotr-two-towers-recomp";
 import { lsdDecomp } from "./lsd-decomp";
 import { lsdRevampedPsVita } from "./lsd-revamped-ps-vita";
 import { lugaruDreamcast } from "./lugaru-dreamcast";
+import { luigi587Generationsdecomp } from "./luigi587-generationsdecomp";
 import { LuigisMansion } from "./luigis-mansion";
 import { luisxl15GtaIvRecompXbox360 } from "./luisxl15-gta-iv-recomp-xbox-360";
 import { luisxl15MidnightClubLARecomp } from "./luisxl15-midnight-club-l-a-recomp";
@@ -1005,6 +1085,7 @@ import { maskpad } from "./maskpad";
 import { massEffectNx } from "./mass-effect-nx";
 import { mateussmenesesTheorder1886Port } from "./mateussmeneses-theorder1886-port";
 import { matheovignaudTmc } from "./matheovignaud-tmc";
+import { mattsgMm3Recomp } from "./mattsg-mm3-recomp";
 import { maxdeadbearKameorepowered } from "./maxdeadbear-kameorepowered";
 import { maximqaxdHalflifeDc } from "./maximqaxd-halflife-dc";
 import { Maxr } from "./maxr";
@@ -1042,6 +1123,7 @@ import { MegamiIbunrokuPersona } from "./megami-ibunroku-persona";
 import { meleeNative } from "./melee-native";
 import { Meleepc } from "./meleepc";
 import { melindilFtse } from "./melindil-ftse";
+import { meltyplayerLibsm64Sharp } from "./meltyplayer-libsm64-sharp";
 import { menInBlackTheGameRecomp } from "./men-in-black-the-game-recomp";
 import { mercenariesRecomp } from "./mercenaries-recomp";
 import { mercuryworkshopCelesteWasm } from "./mercuryworkshop-celeste-wasm";
@@ -1052,6 +1134,7 @@ import { metalGearSolidRecomp } from "./metal-gear-solid-recomp";
 import { metalSlugXRecomp } from "./metal-slug-x-recomp";
 import { metalSlugXRecompTechnically } from "./metal-slug-x-recomp-technically";
 import { metalSlugXxRecomp } from "./metal-slug-xx-recomp";
+import { metavertIoLofp } from "./metavert-io-lofp";
 import { metroidNesRecomp } from "./metroid-nes-recomp";
 import { metroidPrimeDecomp } from "./metroid-prime-decomp";
 import { metroidPrimeHuntersRecompiled } from "./metroid-prime-hunters-recompiled";
@@ -1063,6 +1146,7 @@ import { midnightClubLaIos } from "./midnight-club-la-ios";
 import { midnightClubLaRecomp } from "./midnight-club-la-recomp";
 import { midtownMadness3 } from "./midtown-madness-3";
 import { miichanicLuma3dsPlugin } from "./miichanic-luma3ds-plugin";
+import { mikewupingUefiSupermario } from "./mikewuping-uefi-supermario";
 import { minecraft3dsMegapackPlugin3ds } from "./minecraft-3ds-megapack-plugin-3ds";
 import { minecraftLceDecomp } from "./minecraft-lce-decomp";
 import { minecraftPocketEdition3ds } from "./minecraft-pocket-edition-3ds";
@@ -1097,6 +1181,7 @@ import { monsterHunterDynamicHuntingPsVita } from "./monster-hunter-dynamic-hunt
 import { MonsterHunterPortable2ndG } from "./monster-hunter-portable-2nd-g";
 import { monsterRancher2Recomp } from "./monster-rancher-2-recomp";
 import { monsterRancherRecomp } from "./monster-rancher-recomp";
+import { monstercameronLibertyflux } from "./monstercameron-libertyflux";
 import { moonPc } from "./moon-pc";
 import { moonPearl } from "./moon-pearl";
 import { moonwakeGameBoyColor } from "./moonwake-game-boy-color";
@@ -1107,12 +1192,14 @@ import { MortalKombatDeception } from "./mortal-kombat-deception";
 import { mortalKombatTrilogyRecomp } from "./mortal-kombat-trilogy-recomp";
 import { MortalKombatVsDcUniverse } from "./mortal-kombat-vs-dc-universe";
 import { mortify7612Rallisportchallenge2Decomp } from "./mortify7612-rallisportchallenge2-decomp";
+import { moshferatuZombiesAteMyNeighborsPcPort } from "./moshferatu-zombies-ate-my-neighbors-pc-port";
 import { Mother12Japan } from "./mother-1-2-japan";
 import { mother3Recomp } from "./mother-3-recomp";
 import { mother3RecompAndroid } from "./mother-3-recomp-android";
 import { MotherEarthboundZeroEarthboundBeginnings } from "./mother-earthbound-zero-earthbound-beginnings";
 import { moxnatiyOpenbattlefield2 } from "./moxnatiy-openbattlefield2";
 import { MrBoom } from "./mr-boom";
+import { mrFinsterVf3Recomp } from "./mr-finster-vf3-recomp";
 import { mrWiseguyBanjoTooie } from "./mr-wiseguy-banjo-tooie";
 import { mrsuss60BloodbornePcWindowsPort } from "./mrsuss60-bloodborne-pc-windows-port";
 import { mrxenginnerRevc } from "./mrxenginner-revc";
@@ -1122,15 +1209,20 @@ import { mstanSupermario64dsrecomp } from "./mstan-supermario64dsrecomp";
 import { mudkipAdventuresPsp } from "./mudkip-adventures-psp";
 import { multidrcSpaceDemoWiiU } from "./multidrc-space-demo-wii-u";
 import { muscleMarchRecomp } from "./muscle-march-recomp";
+import { mustafa1177Jazzjackrabbit2Decompiled } from "./mustafa1177-jazzjackrabbit2-decompiled";
 import { mustafasamer93ApocalypsePcNativePort } from "./mustafasamer93-apocalypse-pc-native-port";
 import { MvpBaseball2005 } from "./mvp-baseball-2005";
 import { mwcc } from "./mwcc";
+import { mwengeUridium } from "./mwenge-uridium";
 import { mystDs } from "./myst-ds";
 import { mzzvxmLarecomp } from "./mzzvxm-larecomp";
 import { n0zom1z0Th08 } from "./n0zom1z0-th08";
 import { n0zom1z0Th08Web } from "./n0zom1z0-th08-web";
+import { n64decomp007 } from "./n64decomp-007";
 import { n64decompBanjoKazooie } from "./n64decomp-banjo-kazooie";
+import { n64decompMk64 } from "./n64decomp-mk64";
 import { n64decompPerfectDark } from "./n64decomp-perfect-dark";
+import { n64decompPw64 } from "./n64decomp-pw64";
 import { namcoSystem22DirtDash } from "./namco-system-22-dirt-dash";
 import { namcoSystem22PropCycle } from "./namco-system-22-prop-cycle";
 import { namcoSystem22RaveRacer } from "./namco-system-22-rave-racer";
@@ -1143,12 +1235,15 @@ import { narutoStormGenerationsRecomp } from "./naruto-ultimate-ninja-storm-gene
 import { narutoStormRevolutionRecomp } from "./naruto-ultimate-ninja-storm-revolution-recomp";
 import { NascarHeat2002 } from "./nascar-heat-2002";
 import { nathanialfIco } from "./nathanialf-ico";
+import { nathsouSmb } from "./nathsou-smb";
 import { naughtyBearPanicInParadiseRecomp } from "./naughty-bear-panic-in-paradise-recomp";
 import { naughtyBearRestuff } from "./naughty-bear-restuff";
 import { naughtyBearRestuffAndroidPort } from "./naughty-bear-restuff-android-port";
+import { nautilusbitsSkynetGodot } from "./nautilusbits-skynet-godot";
 import { Navyfield2000Pc } from "./navyfield-2000-pc";
 import { nbaJamOnFireRecomp } from "./nba-jam-on-fire-recomp";
 import { nBlood } from "./nblood";
+import { nbloodRedneckRampageRe } from "./nblood-redneck-rampage-re";
 import { Nearchuckle } from "./nearchuckle";
 import { NeedForSpeed16 } from "./need-for-speed-1-6";
 import { NeedForSpeedCarbon } from "./need-for-speed-carbon";
@@ -1181,11 +1276,14 @@ import { nfsiise } from "./nfsiise";
 import { nfsug } from "./nfsug";
 import { nhlHockey94Pc } from "./nhl-hockey-94-pc";
 import { NhlLegacyEdition } from "./nhl-legacy-edition";
+import { nickmassLibsm64Rust } from "./nickmass-libsm64-rust";
 import { nightmareCreaturesIiRecomp } from "./nightmare-creatures-ii-recomp";
 import { nightmareCreaturesRecomp } from "./nightmare-creatures-recomp";
+import { nikolaygorbGoldeneye007reloadedrecomp } from "./nikolaygorb-goldeneye007reloadedrecomp";
 import { ninjaGaiden2Recomp } from "./ninja-gaiden-2-recomp";
 import { ninjaGaidenBlackRecomp } from "./ninja-gaiden-black-recomp";
 import { Nocturne } from "./nocturne";
+import { notan127Sm64PcPortWebgl } from "./notan127-sm64-pc-port-webgl";
 import { novaTheSquirrelNes } from "./nova-the-squirrel-nes";
 import { nsmbwCommunityNsmbwDecomp } from "./nsmbw-community-nsmbw-decomp";
 import { nuggetDoom } from "./nugget-doom";
@@ -1203,8 +1301,10 @@ import { oddworldAbeSOddyseeRecomp } from "./oddworld-abe-s-oddysee-recomp";
 import { ogreBattle64Recomp } from "./ogre-battle-64-recomp";
 import { OkamiHd } from "./okami-hd";
 import { Okamiden } from "./okamiden";
+import { oliveryasunaSmbRecomp } from "./oliveryasuna-smb-recomp";
 import { OmegaEngine } from "./omega-engine";
 import { omegakatana92ArmoredCoreRecomp } from "./omegakatana92-armored-core-recomp";
+import { omegakatana92BattleArenaToshindenGbRecomp } from "./omegakatana92-battle-arena-toshinden-gb-recomp";
 import { omegakatana92SamuaiShodownWarriorsRageRecomp } from "./omegakatana92-samuai-shodown-warriors-rage-recomp";
 import { omnispeak } from "./omnispeak";
 import { ondrejederDriveclubPcWrapper } from "./ondrejeder-driveclub-pc-wrapper";
@@ -1258,6 +1358,7 @@ import { Openreliant } from "./openreliant";
 import { opensage } from "./opensage";
 import { Opensc2k } from "./opensc2k";
 import { opensmashUltimateSsbuRecomp } from "./opensmash-ultimate-ssbu-recomp";
+import { opensmashUltimateWindowsmash } from "./opensmash-ultimate-windowsmash";
 import { Openspideyps1 } from "./openspideyps1";
 import { openstrikePsp } from "./openstrike-psp";
 import { Opentie } from "./opentie";
@@ -1287,6 +1388,7 @@ import { owenSplatLasDecomp } from "./owen-splat-las-decomp";
 import { pTForAndroidDualScreen } from "./p-t-for-android-dual-screen";
 import { pablocpasCmr2decomp } from "./pablocpas-cmr2decomp";
 import { pacManNesRecomp } from "./pac-man-nes-recomp";
+import { palaceswitcherSmwNesDisassembly } from "./palaceswitcher-smw-nes-disassembly";
 import { PanzerDragoonSaga } from "./panzer-dragoon-saga";
 import { papaSPizzeria3ds } from "./papa-s-pizzeria-3ds";
 import { papayaHudWiiUAromaPlugin } from "./papaya-hud-wii-u-aroma-plugin";
@@ -1338,6 +1440,7 @@ import { planetBlupiWiiU } from "./planet-blupi-wii-u";
 import { plantsVsZombies2Switch } from "./plants-vs-zombies-2-switch";
 import { platformShooterPsp } from "./platform-shooter-psp";
 import { player124413SonicGenerationsRecompAndroidAndPcEdition } from "./player124413-sonic-generations-recomp-android-and-pc-edition";
+import { playopenzOpenz } from "./playopenz-openz";
 import { playstationAllStarsRecomp } from "./playstation-all-stars-recomp";
 import { Playstunts } from "./playstunts";
 import { plumberSDonTWearTiesConsoles } from "./plumber-s-don-t-wear-ties-consoles";
@@ -1400,6 +1503,7 @@ import { portabletale } from "./portabletale";
 import { portalDs } from "./portal-ds";
 import { postVoidMobile } from "./post-void-mobile";
 import { powderWii } from "./powder-wii";
+import { pqmarineUnderworldrevisited } from "./pqmarine-underworldrevisited";
 import { prBoomPlusRt } from "./prboom-plus-rt";
 import { prehistorik2Android } from "./prehistorik-2-android";
 import { pretPokerevo } from "./pret-pokerevo";
@@ -1447,6 +1551,7 @@ import { puyoPuyoBoxRecomp } from "./puyo-puyo-box-recomp";
 import { pvzFusionAndroid } from "./pvz-fusion-android";
 import { pvzPortable } from "./pvz-portable";
 import { pwaa1 } from "./pwaa1";
+import { pwsqrdLynxSmb } from "./pwsqrd-lynx-smb";
 import { Q2rtxperimental } from "./q2rtxperimental";
 import { Q2tools220 } from "./q2tools-220";
 import { Qfusion } from "./qfusion";
@@ -1471,8 +1576,11 @@ import { RaceIntoSpace } from "./race-into-space";
 import { raceWave46 } from "./race-wave-46";
 import { RadioHelicopter } from "./radio-helicopter";
 import { rageRacerPc } from "./rage-racer-pc";
+import { ragnaroekIronWolf } from "./ragnaroek-iron-wolf";
+import { rainchusQuest64Decomp } from "./rainchus-quest64-decomp";
 import { ral1009Nsmbwiicompiled } from "./ral1009-nsmbwiicompiled";
 import { rampageThroughTimeRecomp } from "./rampage-through-time-recomp";
+import { rapidsamphireAc6recomp } from "./rapidsamphire-ac6recomp";
 import { raptorAndroid } from "./raptor-android";
 import { Ratatouille } from "./ratatouille";
 import { RatchetAndClankGoingCommandoUsaV101 } from "./ratchet-and-clank-going-commando-usa-v1-01";
@@ -1488,6 +1596,7 @@ import { raze } from "./raze";
 import { rbDoom3Bfg } from "./rbdoom-3-bfg";
 import { reCherry } from "./re-cherry";
 import { reLcs } from "./re-lcs";
+import { reRacRerac } from "./re-rac-rerac";
 import { re3AndroidEvolved } from "./re3-android-evolved";
 import { Rebellion2 } from "./rebellion2";
 import { reblue } from "./reblue";
@@ -1541,11 +1650,13 @@ import { rincheatPsVitaPlugin } from "./rincheat-ps-vita-plugin";
 import { ringRacersAndroid } from "./ring-racers-android";
 import { ringOut } from "./ringout";
 import { rinnegatamanteLdhewm3Rearmed } from "./rinnegatamante-ldhewm3-rearmed";
+import { rinnegatamanteVitaquake } from "./rinnegatamante-vitaquake";
 import { riotashley81JpgVagrantstoryRecomp } from "./riotashley81-jpg-vagrantstory-recomp";
 import { riseioProjectBumble } from "./riseio-project-bumble";
 import { rivalSchoolsEvolutionRecomp } from "./rival-schools-evolution-recomp";
 import { rivalSchoolsRecomp } from "./rival-schools-recomp";
 import { rivenDs } from "./riven-ds";
+import { rjkivSonic06 } from "./rjkiv-sonic06";
 import { roadRash64Recompiled } from "./road-rash-64-recompiled";
 import { roadTripAndroid } from "./road-trip-android";
 import { rob646464LuigisMansionRecompiled } from "./rob646464-luigis-mansion-recompiled";
@@ -1567,10 +1678,13 @@ import { RotpFusion } from "./rotp-fusion";
 import { rott94 } from "./rott94";
 import { rottexpr } from "./rottexpr";
 import { rsdkmoddingRsdkv2Decompilation } from "./rsdkmodding-rsdkv2-decompilation";
+import { rsdkmoddingRsdkv3ScriptDecompilation } from "./rsdkmodding-rsdkv3-script-decompilation";
 import { rsdkmoddingRsdkv4ScriptDecompilation } from "./rsdkmodding-rsdkv4-script-decompilation";
 import { rsdkv3Decompilation } from "./rsdkv3-decompilation";
 import { rubymatrixXiOnAnything } from "./rubymatrix-xi-on-anything";
 import { rumbleRosesXxRecomp } from "./rumble-roses-xx-recomp";
+import { rumbleminzeCastlevaniaSnes } from "./rumbleminze-castlevania-snes";
+import { rumbleminzeSuperSuperDodgeball } from "./rumbleminze-super-super-dodgeball";
 import { Runescape2003 } from "./runescape-2003";
 import { rush2Recomp } from "./rush-2-recomp";
 import { ruslan831PlantsvszombiesDecompilation } from "./ruslan831-plantsvszombies-decompilation";
@@ -1584,6 +1698,7 @@ import { SamuraiVsZombies } from "./samurai-vs-zombies";
 import { sandstoneEnginePspGameEngine } from "./sandstone-engine-psp-game-engine";
 import { saulobCrackdownXbox360Recompiled } from "./saulob-crackdown-xbox360-recompiled";
 import { SawIiFleshAndBlood } from "./saw-ii-flesh-and-blood";
+import { sbergeron42SsbuDecomp } from "./sbergeron42-ssbu-decomp";
 import { sc2kfixSc2kfix } from "./sc2kfix-sc2kfix";
 import { scdaXbeRecomp } from "./scda-xbe-recomp";
 import { scoobyDooNightOf100FrightsPc } from "./scooby-doo-night-of-100-frights-pc";
@@ -1649,10 +1764,14 @@ import { silentHillPc } from "./silent-hill-pc";
 import { silksongandroidDualScren } from "./silksongandroid-dual-scren";
 import { silksongandroidachievementsDualScreen } from "./silksongandroidachievements-dual-screen";
 import { simcitySnesPc } from "./simcity-snes-pc";
+import { simeony2007ViberecompForGowCoo } from "./simeony2007-viberecomp-for-gow-coo";
+import { simhackerMicropolis } from "./simhacker-micropolis";
 import { simpsonsArcadePs3 } from "./simpsons-arcade-ps3";
 import { SimpsonsWrestlingRecompiled } from "./simpsons-wrestling-recompiled";
 import { Simutrans } from "./simutrans";
 import { sinPunishmentPc } from "./sin-punishment-pc";
+import { sirdankzMkart360 } from "./sirdankz-mkart360";
+import { sjmeliaCivd } from "./sjmelia-civd";
 import { sk8EngineSkate3RustEngine } from "./sk8-engine-skate-3-rust-engine";
 import { skate2PcRecomp } from "./skate-2-pc-recomp";
 import { skate3Android } from "./skate-3-android";
@@ -1673,6 +1792,7 @@ import { slitherlinknxSwitch } from "./slitherlinknx-switch";
 import { slqntdevssKisakcodPort } from "./slqntdevss-kisakcod-port";
 import { slyCooperDecomp } from "./sly-cooper-decomp";
 import { slyCooperRecomp } from "./sly-cooper-recomp";
+import { sm64PortSm64Port } from "./sm64-port-sm64-port";
 import { sm64Psp } from "./sm64-psp";
 import { sm64coopdx } from "./sm64coopdx";
 import { sm64coopdxAndroid } from "./sm64coopdx-android";
@@ -1726,14 +1846,20 @@ import { sonicTheHedgehog2MegaDrive } from "./sonic-the-hedgehog-2-mega-drive";
 import { sonicTheHedgehog4EpisodeIiSwitch } from "./sonic-the-hedgehog-4-episode-ii-switch";
 import { sonicTimeTwistedPsVita } from "./sonic-time-twisted-ps-vita";
 import { sonicUnleashedWiiPc } from "./sonic-unleashed-wii-pc";
+import { sonicdcerSf64 } from "./sonicdcer-sf64";
 import { SopwithSdlSopwith } from "./sopwith-sdl-sopwith";
 import { sopwithWii } from "./sopwith-wii";
 import { sotc } from "./sotc";
 import { soulbladeRecomp } from "./soulblade-recomp";
 import { soulcaliburIiHdRecomp } from "./soulcalibur-ii-hd-recomp";
+import { soulcaliburIiResearchGroupSciiRe } from "./soulcalibur-ii-research-group-scii-re";
 import { soulcaliburIvRecomp } from "./soulcalibur-iv-recomp";
 import { soulcaliburPc } from "./soulcalibur-pc";
 import { sourceholdOpenshc } from "./sourcehold-openshc";
+import { sozudMmx4 } from "./sozud-mmx4";
+import { sp00nznetBw } from "./sp00nznet-bw";
+import { sp00nznetGta } from "./sp00nznet-gta";
+import { sp00nznetSaintsrow } from "./sp00nznet-saintsrow";
 import { spaceCadetPinball } from "./space-cadet-pinball";
 import { spaceCadetPinballAndroid } from "./space-cadet-pinball-android";
 import { spaceChannel5Recomp } from "./space-channel-5-recomp";
@@ -1800,6 +1926,7 @@ import { starship } from "./starship";
 import { starshipAndroid } from "./starship-android";
 import { starshipMadnessNintendo64 } from "./starship-madness-nintendo-64";
 import { steinsGateRecomp } from "./steins-gate-recomp";
+import { stellargamesBakagain } from "./stellargames-bakagain";
 import { storestationPspAppsAndPluginsStore } from "./storestation-psp-apps-and-plugins-store";
 import { streetFighterAlpha3Recomp } from "./street-fighter-alpha-3-recomp";
 import { streetFighterExPlusAlphaRecomp } from "./street-fighter-ex-plus-alpha-recomp";
@@ -1826,6 +1953,7 @@ import { suikodenRecomp } from "./suikoden-recomp";
 import { summonNightSwordcraft3Recomp } from "./summon-night-swordcraft-3-recomp";
 import { Summoner } from "./summoner";
 import { SummonerAGoddessReborn } from "./summoner-a-goddess-reborn";
+import { sunlitspace542Ultrastarfox } from "./sunlitspace542-ultrastarfox";
 import { sunpad } from "./sunpad";
 import { sunsetRidersPc } from "./sunset-riders-pc";
 import { superBombermanRecomp } from "./super-bomberman-recomp";
@@ -1885,6 +2013,8 @@ import { switchpresenceRewrittenSwitchSysmodule } from "./switchpresence-rewritt
 import { switchpresenceSwitchSysmodule } from "./switchpresence-switch-sysmodule";
 import { swrotsPcPc } from "./swrots-pc-pc";
 import { symphonyRecomp } from "./symphony-recomp";
+import { synamaxmusicBarDecomp } from "./synamaxmusic-bar-decomp";
+import { synamaxmusicSinistar } from "./synamaxmusic-sinistar";
 import { SyndicateWars } from "./syndicate-wars";
 import { syphonFilter2Recompiled } from "./syphon-filter-2-recompiled";
 import { syphonFilter3Recomp } from "./syphon-filter-3-recomp";
@@ -1897,10 +2027,14 @@ import { TailsAdventureTailsAdventureRemake } from "./tails-adventure-tails-adve
 import { tailscaleNxSwitchSysmodule } from "./tailscale-nx-switch-sysmodule";
 import { tanepiperUnbanished } from "./tanepiper-unbanished";
 import { tanksDs } from "./tanks-ds";
+import { tanookistudiosSupermarioallstarsrecomp } from "./tanookistudios-supermarioallstarsrecomp";
 import { Taradino } from "./taradino";
 import { tcpgeckoAromaWiiUPlugin } from "./tcpgecko-aroma-wii-u-plugin";
 import { teamBeefStudiosDoom3quest } from "./team-beef-studios-doom3quest";
 import { teamBeefStudiosJkxr } from "./team-beef-studios-jkxr";
+import { teamBeefStudiosQuake2quest } from "./team-beef-studios-quake2quest";
+import { teamBeefStudiosQuakequest } from "./team-beef-studios-quakequest";
+import { teamBeefStudiosQuestzdoom } from "./team-beef-studios-questzdoom";
 import { teamBeefStudiosRtcwquest } from "./team-beef-studios-rtcwquest";
 import { teamBuddiesRecomp } from "./team-buddies-recomp";
 import { techprogabeMeleeX } from "./techprogabe-melee-x";
@@ -1917,6 +2051,7 @@ import { tenchuZRecomp } from "./tenchu-z-recomp";
 import { tenkaichi3decompAndroid } from "./tenkaichi3decomp-android";
 import { Terraria } from "./terraria";
 import { testDriveUnlimitedRecomp } from "./test-drive-unlimited-recomp";
+import { testdriveupgradeTdure } from "./testdriveupgrade-tdure";
 import { tetrisGbRecomp } from "./tetris-gb-recomp";
 import { tetrisMdMegaDrive } from "./tetris-md-mega-drive";
 import { tetrisphereRecomp } from "./tetrisphere-recomp";
@@ -1961,9 +2096,11 @@ import { themobycollectiveSpyro1 } from "./themobycollective-spyro-1";
 import { then00pReflappy } from "./then00p-reflappy";
 import { thephrozenkeepD2moo } from "./thephrozenkeep-d2moo";
 import { therapyWithDrAlbertKruegerAndroid } from "./therapy-with-dr-albert-krueger-android";
+import { therunaway5Halo2Decompiled } from "./therunaway5-halo-2-decompiled";
 import { ThiefDeadlyShadows } from "./thief-deadly-shadows";
 import { Thinker } from "./thinker";
 import { Thirdeye } from "./thirdeye";
+import { thiskwasiorSonicMania25mb } from "./thiskwasior-sonic-mania-25mb";
 import { threadsOfFateRecomp } from "./threads-of-fate-recomp";
 import { thymePort } from "./thyme";
 import { TigerWoodsPgaTour2004 } from "./tiger-woods-pga-tour-2004";
@@ -2067,6 +2204,7 @@ import { untitledSandGameWiiU } from "./untitled-sand-game-wii-u";
 import { Unvanquished } from "./unvanquished";
 import { uqmMegamod } from "./uqm-megamod";
 import { urbanReignPc } from "./urban-reign-pc";
+import { vaboldMkw } from "./vabold-mkw";
 import { VagrantStory } from "./vagrant-story";
 import { valdroid } from "./valdroid";
 import { valkyrieProfileRecomp } from "./valkyrie-profile-recomp";
@@ -2080,11 +2218,13 @@ import { vasist15SourceNfsCarbonMac } from "./vasist15-source-nfs-carbon-mac";
 import { vcmi } from "./vcmi";
 import { Vera20k } from "./vera20k";
 import { verdite2 } from "./verdite2";
+import { versacepapermarioPapermarioPcUpload } from "./versacepapermario-papermario-pc-upload";
 import { vetritheretriSsbDecompRe } from "./vetritheretri-ssb-decomp-re";
 import { Vf1Recomp } from "./vf1-recomp";
 import { vheissuHitAndRunWeb } from "./vheissu-hit-and-run-web";
 import { vibRibbonDecomp } from "./vib-ribbon-decomp";
 import { vibRibbonRecomp } from "./vib-ribbon-recomp";
+import { viciiousD32xr } from "./viciious-d32xr";
 import { vidanoxBanjotooierecompiled } from "./vidanox-banjotooierecompiled";
 import { vigilante8Recomp } from "./vigilante-8-recomp";
 import { vinceipFciRecomp } from "./vinceip-fci-recomp";
@@ -2116,6 +2256,7 @@ import { War1 } from "./war1";
 import { warcraft2Android } from "./warcraft-2-android";
 import { warcraftOrcsAndHumansAndroid } from "./warcraft-orcs-and-humans-android";
 import { wargusPort } from "./wargus";
+import { wargusWar1gus } from "./wargus-war1gus";
 import { WarioLand3 } from "./wario-land-3";
 import { warioLand3Recomp } from "./wario-land-3-recomp";
 import { WarioLandShakeIt } from "./wario-land-shake-it";
@@ -2136,6 +2277,7 @@ import { WcwNitro } from "./wcw-nitro";
 import { wcwNwoRevengeRecomp } from "./wcw-nwo-revenge-recomp";
 import { WcwNwoThunder } from "./wcw-nwo-thunder";
 import { wcwNwoWorldTourRecomp } from "./wcw-nwo-world-tour-recomp";
+import { weigustavoReblue } from "./weigustavo-reblue";
 import { weliveinhellSourceEngine } from "./weliveinhell-source-engine";
 import { wertactics3ds } from "./wertactics-3ds";
 import { weshayoub92Shadps4Ayoub1080p } from "./weshayoub92-shadps4-ayoub1080p";
@@ -2195,6 +2337,7 @@ import { xenaWarriorPrincessRecomp } from "./xena-warrior-princess-recomp";
 import { Xenoblade } from "./xenoblade";
 import { xenogearsRecomp } from "./xenogears-recomp";
 import { XenosagaEpisodeIDerWilleZurMacht } from "./xenosaga-episode-i-der-wille-zur-macht";
+import { xive080DW3Recomp } from "./xive080-d-w-3-recomp";
 import { Xoreos } from "./xoreos";
 import { yakumo } from "./yakumo";
 import { Yakuza } from "./yakuza";
@@ -2202,11 +2345,15 @@ import { yakuzaDeadSoulsRecomp } from "./yakuza-dead-souls-recomp";
 import { yamagiQuake2 } from "./yamagi-quake2";
 import { yannicksuterMschargedDecomp } from "./yannicksuter-mscharged-decomp";
 import { yaz0rNoah } from "./yaz0r-noah";
+import { yeoldpressAlttpDx } from "./yeoldpress-alttp-dx";
 import { yokimitsuroKhdaysDecomp } from "./yokimitsuro-khdays-decomp";
 import { yoshiNesRecomp } from "./yoshi-nes-recomp";
 import { yoshisCookieRecomp } from "./yoshis-cookie-recomp";
 import { youdontknowjackRecomp } from "./youdontknowjack-recomp";
+import { yowariSonicJ2meDecompilation } from "./yowari-sonic-j2me-decompilation";
+import { yquake2Ctf } from "./yquake2-ctf";
 import { YsVi } from "./ys-vi";
+import { ysrdevsGoldeneyeMetal } from "./ysrdevs-goldeneye-metal";
 import { yuGiOhForbiddenMemoriesRecomp } from "./yu-gi-oh-forbidden-memories-recomp";
 import { YuGiOhTheEternalDuelistSoul } from "./yu-gi-oh-the-eternal-duelist-soul";
 import { z3xoxBt3Decompiled } from "./z3xox-bt3-decompiled";
@@ -2241,6 +2388,7 @@ import { ZeroK } from "./zero-k";
 import { zeroRacersRecomp } from "./zero-racers-recomp";
 import { zestydevyDinosaurPlanet } from "./zestydevy-dinosaur-planet";
 import { zestydevySmash64r } from "./zestydevy-smash64r";
+import { zgzinfinityOutrun } from "./zgzinfinity-outrun";
 import { ZoidsLegacy } from "./zoids-legacy";
 import { zombieOutbreakSimulator3ds } from "./zombie-outbreak-simulator-3ds";
 import { zomdroidEtonedemid } from "./zomdroid-etonedemid";
@@ -2269,8 +2417,10 @@ export const portCases: Port[] = [
   _3on3NhlArcadeRecomp,
   _8BitTableTennisNes,
   _8bitvitaPsVitaPlugin,
+  p9933faZumaDeluxeTas,
   _9mmHdPsVita,
   a2Racer2Re,
+  abelbriggs1Tm1Decomp,
   abuseAndroid,
   ac3Decomp,
   aceCombat3ElectrosphereRecomp,
@@ -2282,6 +2432,8 @@ export const portCases: Port[] = [
   acreteamAcDecomp,
   acreteamForest,
   actraiserRecomp,
+  adamrtFftDecomp,
+  adipociraDoraemon1,
   AdvanceWars2BlackHoleRising,
   AdventureIslandIi,
   aegisWingXblaRecomp,
@@ -2313,12 +2465,14 @@ export const portCases: Port[] = [
   AmazingIsland,
   Ambermoon,
   amethystAndroid,
+  ammaarreshiSkyroadsPort,
   amphitere,
   Amplitude,
   AncientEmpires,
   andersfischernielsenSsx3Decomp,
   andrewaltimitLegendOfLegaiaRe,
   andrewnakasSkate3IosSetup,
+  andrewspodeInfernalMachineDecompPublic,
   andreyvelskComMobilerpgpackPhone,
   angheloalfDrmario64,
   animalCrossingAnbernicHandhelds,
@@ -2341,6 +2495,7 @@ export const portCases: Port[] = [
   arcRiseFantasiaPc,
   AreYouSmarterThanA5thGraderMakeTheGrade,
   area51Source,
+  arefdsgMk64recomp,
   Ares,
   arkPluginConverter,
   Arkanoid,
@@ -2353,6 +2508,7 @@ export const portCases: Port[] = [
   armyMenSargeSHeroesPc,
   armyOfTwoPc,
   armyOfTwoRecomp,
+  artfulrascal8RageWarsRecompiled,
   arxLibertatis,
   asobicodesRacRs,
   asteroidsTerraSegaSaturn,
@@ -2390,6 +2546,7 @@ export const portCases: Port[] = [
   bayonetta2Recomp,
   bc160201983UnchartedTheNathanDrakeCollectionPcPort,
   beatBangerPsVita,
+  beemercodesMidnightclublaRecomp,
   beetleAdventureRacingRecomp,
   ben10OmniverseRecomp,
   bep1s69NfsmwIos,
@@ -2399,6 +2556,7 @@ export const portCases: Port[] = [
   bfbbDecomp,
   bfbbdecompBfbb,
   BigBrainAcademyWiiDegree,
+  biggestsonicfanStfdecomp,
   bikeRaceProPsVita,
   BioMenace,
   birdAndBeansWii,
@@ -2430,6 +2588,7 @@ export const portCases: Port[] = [
   bnunuHaloCeUniversal,
   bodyHarvestPc,
   bodyHarvestRecomp,
+  bomberhackersBm64,
   bomberhackersBmhero,
   bomberman64Recomp,
   bomberman64Switch,
@@ -2446,11 +2605,13 @@ export const portCases: Port[] = [
   bouncePsp,
   braveFencerMusashiRecomp,
   BraveFrontier,
+  brawmarioLibsm64Godot,
   breathOfFireIiiRecomp,
   breathOfTheWildDecomp,
   broforceAndroid,
   brogueAndroid,
   brotatoPsVita,
+  bruderGrimmAnimalForestPsp,
   Bstone,
   bt3Recomp,
   Btbuilder,
@@ -2461,6 +2622,7 @@ export const portCases: Port[] = [
   buckshotRouletteMobile,
   buckshotRouletteVita,
   budokaiTenkaichi3Pc,
+  buffjesusFabledecomp,
   buffyChaosBleedsAndroid,
   BumpysArcadeFantasy,
   burnout2Recompilation,
@@ -2482,10 +2644,13 @@ export const portCases: Port[] = [
   callOfDutyMw2Recomp,
   camila314Gdp,
   cannonball,
+  capridogSpaceranger,
+  carl0srmzLittleplanet,
   carmageddon2Android,
   carmageddonRecomp,
   Carnage3d,
   carter54gitDethracePortedToWeb,
+  castleseaInfamousSecondSonPcPort,
   castlevania64Recomp,
   castlevaniaCircleOfTheMoonRecomp,
   castlevaniaLegacyOfDarknessRecomp,
@@ -2498,12 +2663,17 @@ export const portCases: Port[] = [
   caveStoryMegaDrive,
   cavex,
   cbfdRecompiledAndroidEvolved,
+  cdlewisSnowboardkidsDecomp,
+  cdlewisSnowboardkidsRecomp,
   celesteAndroid,
   celesteClassicGba,
+  celsowmVf2Decomp,
   chameleonTwist2Recomp,
   chameleonTwistRecomp,
+  chameleontwistretChameleontwist2v10Jp,
   championsOfNorrathRecomp,
   chaotixRecompiled,
+  charlesaverillSm3ds,
   chasemDevSmsPcPort,
   ChasmReverse,
   ChernobylNeighborClownGang,
@@ -2513,6 +2683,7 @@ export const portCases: Port[] = [
   chocolateDoom,
   ChocolateQuake,
   chrissotraidisBellpad,
+  chrissotraidisGoldenpad,
   chrissotraidisSnappad,
   ChronoCross,
   chronoTriggerPc,
@@ -2553,11 +2724,14 @@ export const portCases: Port[] = [
   CosmosCosmicAdventure,
   CostumeQuest,
   coupSegaSaturn,
+  coz0SmoRecomp,
   cps2Recomp,
+  crabinacrabicBadcompanyrecomp,
   crackdown2Recomp,
   crackdownPc,
   crackdownRecomp,
   craftusReloaded,
+  craigshawFzerorecomp,
   crashBandicoot,
   crashBandicoot2Pc,
   crashBandicoot3WarpedRecomp,
@@ -2606,12 +2780,14 @@ export const portCases: Port[] = [
   daytonaUsaRecomp,
   dbzBurstLimitAndroid,
   dbzBurstLimitRecompAndroid,
+  dcrsdkSoniccdDc,
   DeBlob,
   deadOrAlive2UltimateRecomp,
   deadOrAliveXtremeBeachVolleyballAndroid,
   deadRising2CaseWestRecomp,
   deadRising2CaseZeroRecomp,
   deadlyPremonitionRecomp,
+  decompalsYoshisStory,
   deepSeaWindWaker60Fps,
   defJamFightForNyRecomp,
   defJamVendettaRecomp,
@@ -2637,6 +2813,7 @@ export const portCases: Port[] = [
   dhewm3,
   diabloRecomp,
   DiamondRush,
+  diasurgicalDevilution,
   diddyKongRacingGoldenballoon,
   diddyKongRacingPcCyscott,
   diddyKongRacingWii,
@@ -2724,10 +2901,12 @@ export const portCases: Port[] = [
   drakengard3Pc,
   dreadhollowManorGameBoyColor,
   dreamcastHomebrewCollectionDreamcast,
+  dreamingmothsMirrorOfAlessa,
   driveclubNative,
   driverRecomp,
   drMario64RecompPlus,
   drommedharMgsReintegral,
+  droogieBbhost,
   dropsonic0SonicManiaDecompilation,
   druthuluBfmDecomp,
   DsProtect,
@@ -2757,6 +2936,7 @@ export const portCases: Port[] = [
   ecWolf,
   EdgeClassic,
   eduke32,
+  edw590F1dp,
   einhanderRecomp,
   ekspymTekken6NativeOnline,
   elfenLiedFightingAndroid,
@@ -2764,14 +2944,19 @@ export const portCases: Port[] = [
   elliSHouse3dsPspGba,
   elliotttateWindWakerRecomp,
   elripaldaGta4Ps5,
+  eltalelibrarianSote,
   emazingMazes3ds,
   emberclutch3ds,
   Emperorreborn,
   endlessSkyAndroid,
+  endproduktCannonballDx,
   enrique363Voldorium,
   eopLabsM2tweopLibrary,
   epicPinballRecomp,
+  epic0522Mariokart643dsportComplete,
   eqvitaPsVitaAudioPlugin,
+  ergonomyJoeFf7Coaster,
+  erick194Doom64Re,
   erreibPureRecomp,
   etchySketchyGameBoyAdvance,
   eternalDarknessRecomp,
@@ -2795,7 +2980,9 @@ export const portCases: Port[] = [
   fZeroSnesRecompiled,
   fZeroX3ds,
   fZeroXRecomp,
+  fabiangreffrathWolf4sdl,
   fable2Recomp,
+  fable2recompBeanrecomp,
   fable2recompFable2recomp,
   fadeToBlackRecomp,
   falcuryRayverse,
@@ -2850,6 +3037,8 @@ export const portCases: Port[] = [
   foldCraftLauncher,
   FordRacing,
   forecastChannel,
+  forestbeltonAzure,
+  foreverwipS1Port,
   FortuneStreet,
   forzaHorizon2Android,
   forzaHorizon2Recomp,
@@ -2872,17 +3061,21 @@ export const portCases: Port[] = [
   FroggerHesBack,
   FroggersAdventuresTempleOfTheFrog,
   fromBelowNes,
+  fteTeamFteqw,
   ftlPocketWormhole,
   fttaRecomp,
   Fuel,
+  fuerchterRaymanPs1Decomp,
   FushigiNoDungeonFuraiNoShiren2OniShuraiShirenJo,
   futureCopLapdRecomp,
+  fwgsCs16Client,
   gPoliceRecomp,
   gPoliceWeaponsOfJusticeRecomp,
   galaxyOnFire2UnityRemake,
   galeriansRecomp,
   gamearcadeSwitch,
   gameblablaCse2,
+  gamefloristDunedynasty,
   GauntletDarkLegacy,
   GauntletLegends,
   gdroid,
@@ -2902,6 +3095,7 @@ export const portCases: Port[] = [
   GeometryWarsRetroEvolved2,
   GeorgeOfTheJungleAndTheSearchForTheSecret,
   Gex64EnterTheGecko,
+  ggdrnKhComVita,
   ggdrnKhDaysVita,
   ghostInTheShellRecomp,
   GhostsAndGraves,
@@ -2914,6 +3108,8 @@ export const portCases: Port[] = [
   gloomAndroid,
   Glover,
   Glsmac,
+  gmhCodeDwasm,
+  gmhCodeQwasm,
   goGoAckmanPc,
   godHandDecomp,
   godOfThunderAndroid,
@@ -2941,6 +3137,7 @@ export const portCases: Port[] = [
   gothsNVampsPsp,
   gpsemuPspPlugin,
   gr544pPsVitaPlugin,
+  graememccMicropolisjs,
   GranTurismo4,
   granTurismo4Pc,
   granTurismoSportRygtPc,
@@ -2988,7 +3185,9 @@ export const portCases: Port[] = [
   haloCeWeb,
   HaloReach,
   haloReachRecomp,
+  hamishaklLibertyrecomp,
   hamsterMonogatari64Recomp,
+  hansboniniPsxTomba,
   HappyWheels,
   HardCorpsUprising,
   hardkiller2565123123Caferecomp,
@@ -3002,10 +3201,13 @@ export const portCases: Port[] = [
   harvestwhispererHm64Decomp,
   hashiPsVita,
   Hazard1998,
+  hcbtTbuddiesDecomp,
   heartOfDarknessPort,
   Heavymetal,
   hectorbaileyByteTactics,
   helltakerPsp,
+  helmxgamingSkate3RecompiledWorkInProgress,
+  henneBrighteyes,
   herculesRecompiled,
   hereticClassicCoreEngines,
   Heretic2,
@@ -3042,6 +3244,7 @@ export const portCases: Port[] = [
   inColdBloodRecomp,
   InazumaEleven3SekaiENoChousenTheOgre,
   incredibleCrisisRecomp,
+  indionicaraoDxx3ds,
   infamous2Pc,
   infamousSecondSonPc,
   infiniteBlade2Android,
@@ -3058,14 +3261,17 @@ export const portCases: Port[] = [
   isaacRebirthAndroid,
   ishaankalra2103Botwrecomp,
   islePortable,
+  isledecompIsle,
   isledecompRacersPortable,
   issdNative,
   itsbybansheeWwe2k14Pc,
   ja2Stracciatella,
   jackieChanStuntmasterRechan,
   jackieChanStuntmasterRecomp,
+  jacobengetDoomWasm,
   jadeCocoonRecomp,
   jakAndDaxterThePrecursorLegacyApple,
+  japabuMickeySavesTheDay3dAdventure,
   jaythehamBodyHarvestDecompilation,
   jazz2Ressurection,
   jazz2Native,
@@ -3079,6 +3285,7 @@ export const portCases: Port[] = [
   jetSetRadioFutureUnleashed,
   jetSki3ds,
   Jetpac,
+  jevargReVirtuaCop2,
   jezzball3ds,
   jezzballWiiU,
   Jfsw,
@@ -3086,12 +3293,18 @@ export const portCases: Port[] = [
   Jfwhaven,
   jgrPortable,
   jillOfTheJungleAndroid,
+  jnmartin84Doom64Dc,
+  jnmartin84Mk64Dc,
   jnmartin84OotDc,
+  jnmartin84Sf64Dc,
+  jnmartin84WipeoutDc,
   JohnnyHerbertsGrandPrixChampionship1998,
   jokerPokerPsp,
   jonZuShroom95Decomp,
   jonathandc64Demonssoulsrecomp,
+  jonofJfduke3d,
   jorjbarbosaNarutoRiseRecomp,
+  jotd666Bagman,
   JpnPokemonBlue,
   julius,
   JumpingFlash,
@@ -3100,19 +3313,24 @@ export const portCases: Port[] = [
   justgetmiionlineWiiUAromaPlugin,
   jype0DwDecomp,
   kOnHoukagoLivePc,
+  k64retCv64,
   kameoRepowered,
   kartiaRecomp,
   kartpad,
   katawaShoujoGba,
   KazeNoNotam,
+  kazuyetteRrPcPort,
   keeperFx,
   Keeperrl,
   kenGriffeyJrSSlugfestPc,
   kensLabyrinthAndroid,
   kernaltrap8WorPlus,
+  keroklineBreathoffire3pcport,
   key2conSwitchSysmodule,
   kh1,
   khasinskiParasiteEveDecomp,
+  khasinskiRageRacerDecomp,
+  kholdfuzionGoldenrecomp,
   KidChameleon,
   killzonePc,
   KinectSports,
@@ -3136,21 +3354,28 @@ export const portCases: Port[] = [
   Klonoa2LunateasVeil,
   klonoaDoorToPhantomileRecomp,
   KlonoaEmpireOfDreams,
+  klorfmorfMnsg,
   knossosnet,
   knyttStoriesAndroid,
   kokororecomp,
   KomputerowaGratka3dMagicznaKulaPapatki,
+  kondrakVkquake2,
   koudelkaRecomp,
   kroplabeskiduFlipendo,
+  krystalgamerMemoriesDecomp,
   kubikaugustynDiamondrushsource,
   kulaWorldRecomp,
   kumiDaikoBeatoff64Nintendo64,
   kungFuMasterSnes,
   KuonMulberry,
   kurausukunMother3,
+  kylofonAcesofthepacificEnhanced,
+  kylofonTestDrive3Sdl3,
+  kylofonTestdrive3Enhanced,
   ladysilverbergXenogearsDecomp,
   lancesweatpantsStrikersQuestMr,
   lancommanderTonywasaproskater,
+  lasvolaGodhandRecomp,
   laytonMansionMirrorPc,
   Lba2ClassicCommunity,
   lba2Remake,
@@ -3173,12 +3398,14 @@ export const portCases: Port[] = [
   legoWorldBuilder3ds,
   Legoland,
   LemmingsPaintball,
+  lethalGuitarDuke2reconstructed,
   libertyrecompandroid,
   librelancer,
   lighthouse,
   lighthouseAndroid,
   lighthouseVita,
   lightsOutWii,
+  lildavidWarioland4,
   LiliumVoyager,
   linkSAwakeningPc,
   linksAwakeningAndroidPlus,
@@ -3198,6 +3425,7 @@ export const portCases: Port[] = [
   lsdDecomp,
   lsdRevampedPsVita,
   lugaruDreamcast,
+  luigi587Generationsdecomp,
   LuigisMansion,
   luisxl15GtaIvRecompXbox360,
   luisxl15MidnightClubLARecomp,
@@ -3257,6 +3485,7 @@ export const portCases: Port[] = [
   massEffectNx,
   mateussmenesesTheorder1886Port,
   matheovignaudTmc,
+  mattsgMm3Recomp,
   maxdeadbearKameorepowered,
   maximqaxdHalflifeDc,
   Maxr,
@@ -3294,6 +3523,7 @@ export const portCases: Port[] = [
   meleeNative,
   Meleepc,
   melindilFtse,
+  meltyplayerLibsm64Sharp,
   menInBlackTheGameRecomp,
   mercenariesRecomp,
   mercuryworkshopCelesteWasm,
@@ -3304,6 +3534,7 @@ export const portCases: Port[] = [
   metalSlugXRecomp,
   metalSlugXRecompTechnically,
   metalSlugXxRecomp,
+  metavertIoLofp,
   metroidNesRecomp,
   metroidPrimeDecomp,
   metroidPrimeHuntersRecompiled,
@@ -3315,6 +3546,7 @@ export const portCases: Port[] = [
   midnightClubLaRecomp,
   midtownMadness3,
   miichanicLuma3dsPlugin,
+  mikewupingUefiSupermario,
   minecraft3dsMegapackPlugin3ds,
   minecraftLceDecomp,
   minecraftPocketEdition3ds,
@@ -3349,6 +3581,7 @@ export const portCases: Port[] = [
   MonsterHunterPortable2ndG,
   monsterRancher2Recomp,
   monsterRancherRecomp,
+  monstercameronLibertyflux,
   moonPc,
   moonPearl,
   moonwakeGameBoyColor,
@@ -3359,12 +3592,14 @@ export const portCases: Port[] = [
   mortalKombatTrilogyRecomp,
   MortalKombatVsDcUniverse,
   mortify7612Rallisportchallenge2Decomp,
+  moshferatuZombiesAteMyNeighborsPcPort,
   Mother12Japan,
   mother3Recomp,
   mother3RecompAndroid,
   MotherEarthboundZeroEarthboundBeginnings,
   moxnatiyOpenbattlefield2,
   MrBoom,
+  mrFinsterVf3Recomp,
   mrWiseguyBanjoTooie,
   mrsuss60BloodbornePcWindowsPort,
   mrxenginnerRevc,
@@ -3374,15 +3609,20 @@ export const portCases: Port[] = [
   mudkipAdventuresPsp,
   multidrcSpaceDemoWiiU,
   muscleMarchRecomp,
+  mustafa1177Jazzjackrabbit2Decompiled,
   mustafasamer93ApocalypsePcNativePort,
   MvpBaseball2005,
   mwcc,
+  mwengeUridium,
   mystDs,
   mzzvxmLarecomp,
   n0zom1z0Th08,
   n0zom1z0Th08Web,
+  n64decomp007,
   n64decompBanjoKazooie,
+  n64decompMk64,
   n64decompPerfectDark,
+  n64decompPw64,
   namcoSystem22DirtDash,
   namcoSystem22PropCycle,
   namcoSystem22RaveRacer,
@@ -3395,12 +3635,15 @@ export const portCases: Port[] = [
   narutoStormRevolutionRecomp,
   NascarHeat2002,
   nathanialfIco,
+  nathsouSmb,
   naughtyBearPanicInParadiseRecomp,
   naughtyBearRestuff,
   naughtyBearRestuffAndroidPort,
+  nautilusbitsSkynetGodot,
   Navyfield2000Pc,
   nbaJamOnFireRecomp,
   nBlood,
+  nbloodRedneckRampageRe,
   Nearchuckle,
   NeedForSpeed16,
   NeedForSpeedCarbon,
@@ -3433,11 +3676,14 @@ export const portCases: Port[] = [
   nfsug,
   nhlHockey94Pc,
   NhlLegacyEdition,
+  nickmassLibsm64Rust,
   nightmareCreaturesIiRecomp,
   nightmareCreaturesRecomp,
+  nikolaygorbGoldeneye007reloadedrecomp,
   ninjaGaiden2Recomp,
   ninjaGaidenBlackRecomp,
   Nocturne,
+  notan127Sm64PcPortWebgl,
   novaTheSquirrelNes,
   nsmbwCommunityNsmbwDecomp,
   nuggetDoom,
@@ -3455,8 +3701,10 @@ export const portCases: Port[] = [
   ogreBattle64Recomp,
   OkamiHd,
   Okamiden,
+  oliveryasunaSmbRecomp,
   OmegaEngine,
   omegakatana92ArmoredCoreRecomp,
+  omegakatana92BattleArenaToshindenGbRecomp,
   omegakatana92SamuaiShodownWarriorsRageRecomp,
   omnispeak,
   ondrejederDriveclubPcWrapper,
@@ -3510,6 +3758,7 @@ export const portCases: Port[] = [
   opensage,
   Opensc2k,
   opensmashUltimateSsbuRecomp,
+  opensmashUltimateWindowsmash,
   Openspideyps1,
   openstrikePsp,
   Opentie,
@@ -3539,6 +3788,7 @@ export const portCases: Port[] = [
   pTForAndroidDualScreen,
   pablocpasCmr2decomp,
   pacManNesRecomp,
+  palaceswitcherSmwNesDisassembly,
   PanzerDragoonSaga,
   papaSPizzeria3ds,
   papayaHudWiiUAromaPlugin,
@@ -3590,6 +3840,7 @@ export const portCases: Port[] = [
   plantsVsZombies2Switch,
   platformShooterPsp,
   player124413SonicGenerationsRecompAndroidAndPcEdition,
+  playopenzOpenz,
   playstationAllStarsRecomp,
   Playstunts,
   plumberSDonTWearTiesConsoles,
@@ -3652,6 +3903,7 @@ export const portCases: Port[] = [
   portalDs,
   postVoidMobile,
   powderWii,
+  pqmarineUnderworldrevisited,
   prBoomPlusRt,
   prehistorik2Android,
   pretPokerevo,
@@ -3699,6 +3951,7 @@ export const portCases: Port[] = [
   pvzFusionAndroid,
   pvzPortable,
   pwaa1,
+  pwsqrdLynxSmb,
   Q2rtxperimental,
   Q2tools220,
   Qfusion,
@@ -3723,8 +3976,11 @@ export const portCases: Port[] = [
   raceWave46,
   RadioHelicopter,
   rageRacerPc,
+  ragnaroekIronWolf,
+  rainchusQuest64Decomp,
   ral1009Nsmbwiicompiled,
   rampageThroughTimeRecomp,
+  rapidsamphireAc6recomp,
   raptorAndroid,
   Ratatouille,
   RatchetAndClankGoingCommandoUsaV101,
@@ -3740,6 +3996,7 @@ export const portCases: Port[] = [
   rbDoom3Bfg,
   reCherry,
   reLcs,
+  reRacRerac,
   re3AndroidEvolved,
   Rebellion2,
   reblue,
@@ -3793,11 +4050,13 @@ export const portCases: Port[] = [
   ringRacersAndroid,
   ringOut,
   rinnegatamanteLdhewm3Rearmed,
+  rinnegatamanteVitaquake,
   riotashley81JpgVagrantstoryRecomp,
   riseioProjectBumble,
   rivalSchoolsEvolutionRecomp,
   rivalSchoolsRecomp,
   rivenDs,
+  rjkivSonic06,
   roadRash64Recompiled,
   roadTripAndroid,
   rob646464LuigisMansionRecompiled,
@@ -3819,10 +4078,13 @@ export const portCases: Port[] = [
   rott94,
   rottexpr,
   rsdkmoddingRsdkv2Decompilation,
+  rsdkmoddingRsdkv3ScriptDecompilation,
   rsdkmoddingRsdkv4ScriptDecompilation,
   rsdkv3Decompilation,
   rubymatrixXiOnAnything,
   rumbleRosesXxRecomp,
+  rumbleminzeCastlevaniaSnes,
+  rumbleminzeSuperSuperDodgeball,
   Runescape2003,
   rush2Recomp,
   ruslan831PlantsvszombiesDecompilation,
@@ -3836,6 +4098,7 @@ export const portCases: Port[] = [
   sandstoneEnginePspGameEngine,
   saulobCrackdownXbox360Recompiled,
   SawIiFleshAndBlood,
+  sbergeron42SsbuDecomp,
   sc2kfixSc2kfix,
   scdaXbeRecomp,
   scoobyDooNightOf100FrightsPc,
@@ -3901,10 +4164,14 @@ export const portCases: Port[] = [
   silksongandroidDualScren,
   silksongandroidachievementsDualScreen,
   simcitySnesPc,
+  simeony2007ViberecompForGowCoo,
+  simhackerMicropolis,
   simpsonsArcadePs3,
   SimpsonsWrestlingRecompiled,
   Simutrans,
   sinPunishmentPc,
+  sirdankzMkart360,
+  sjmeliaCivd,
   sk8EngineSkate3RustEngine,
   skate2PcRecomp,
   skate3Android,
@@ -3925,6 +4192,7 @@ export const portCases: Port[] = [
   slqntdevssKisakcodPort,
   slyCooperDecomp,
   slyCooperRecomp,
+  sm64PortSm64Port,
   sm64Psp,
   sm64coopdx,
   sm64coopdxAndroid,
@@ -3978,14 +4246,20 @@ export const portCases: Port[] = [
   sonicTheHedgehog4EpisodeIiSwitch,
   sonicTimeTwistedPsVita,
   sonicUnleashedWiiPc,
+  sonicdcerSf64,
   SopwithSdlSopwith,
   sopwithWii,
   sotc,
   soulbladeRecomp,
   soulcaliburIiHdRecomp,
+  soulcaliburIiResearchGroupSciiRe,
   soulcaliburIvRecomp,
   soulcaliburPc,
   sourceholdOpenshc,
+  sozudMmx4,
+  sp00nznetBw,
+  sp00nznetGta,
+  sp00nznetSaintsrow,
   spaceCadetPinball,
   spaceCadetPinballAndroid,
   spaceChannel5Recomp,
@@ -4052,6 +4326,7 @@ export const portCases: Port[] = [
   starshipAndroid,
   starshipMadnessNintendo64,
   steinsGateRecomp,
+  stellargamesBakagain,
   storestationPspAppsAndPluginsStore,
   streetFighterAlpha3Recomp,
   streetFighterExPlusAlphaRecomp,
@@ -4078,6 +4353,7 @@ export const portCases: Port[] = [
   summonNightSwordcraft3Recomp,
   Summoner,
   SummonerAGoddessReborn,
+  sunlitspace542Ultrastarfox,
   sunpad,
   sunsetRidersPc,
   superBombermanRecomp,
@@ -4137,6 +4413,8 @@ export const portCases: Port[] = [
   switchpresenceSwitchSysmodule,
   swrotsPcPc,
   symphonyRecomp,
+  synamaxmusicBarDecomp,
+  synamaxmusicSinistar,
   SyndicateWars,
   syphonFilter2Recompiled,
   syphonFilter3Recomp,
@@ -4149,10 +4427,14 @@ export const portCases: Port[] = [
   tailscaleNxSwitchSysmodule,
   tanepiperUnbanished,
   tanksDs,
+  tanookistudiosSupermarioallstarsrecomp,
   Taradino,
   tcpgeckoAromaWiiUPlugin,
   teamBeefStudiosDoom3quest,
   teamBeefStudiosJkxr,
+  teamBeefStudiosQuake2quest,
+  teamBeefStudiosQuakequest,
+  teamBeefStudiosQuestzdoom,
   teamBeefStudiosRtcwquest,
   teamBuddiesRecomp,
   techprogabeMeleeX,
@@ -4169,6 +4451,7 @@ export const portCases: Port[] = [
   tenkaichi3decompAndroid,
   Terraria,
   testDriveUnlimitedRecomp,
+  testdriveupgradeTdure,
   tetrisGbRecomp,
   tetrisMdMegaDrive,
   tetrisphereRecomp,
@@ -4213,9 +4496,11 @@ export const portCases: Port[] = [
   then00pReflappy,
   thephrozenkeepD2moo,
   therapyWithDrAlbertKruegerAndroid,
+  therunaway5Halo2Decompiled,
   ThiefDeadlyShadows,
   Thinker,
   Thirdeye,
+  thiskwasiorSonicMania25mb,
   threadsOfFateRecomp,
   thymePort,
   TigerWoodsPgaTour2004,
@@ -4319,6 +4604,7 @@ export const portCases: Port[] = [
   Unvanquished,
   uqmMegamod,
   urbanReignPc,
+  vaboldMkw,
   VagrantStory,
   valdroid,
   valkyrieProfileRecomp,
@@ -4332,11 +4618,13 @@ export const portCases: Port[] = [
   vcmi,
   Vera20k,
   verdite2,
+  versacepapermarioPapermarioPcUpload,
   vetritheretriSsbDecompRe,
   Vf1Recomp,
   vheissuHitAndRunWeb,
   vibRibbonDecomp,
   vibRibbonRecomp,
+  viciiousD32xr,
   vidanoxBanjotooierecompiled,
   vigilante8Recomp,
   vinceipFciRecomp,
@@ -4368,6 +4656,7 @@ export const portCases: Port[] = [
   warcraft2Android,
   warcraftOrcsAndHumansAndroid,
   wargusPort,
+  wargusWar1gus,
   WarioLand3,
   warioLand3Recomp,
   WarioLandShakeIt,
@@ -4388,6 +4677,7 @@ export const portCases: Port[] = [
   wcwNwoRevengeRecomp,
   WcwNwoThunder,
   wcwNwoWorldTourRecomp,
+  weigustavoReblue,
   weliveinhellSourceEngine,
   wertactics3ds,
   weshayoub92Shadps4Ayoub1080p,
@@ -4447,6 +4737,7 @@ export const portCases: Port[] = [
   Xenoblade,
   xenogearsRecomp,
   XenosagaEpisodeIDerWilleZurMacht,
+  xive080DW3Recomp,
   Xoreos,
   yakumo,
   Yakuza,
@@ -4454,11 +4745,15 @@ export const portCases: Port[] = [
   yamagiQuake2,
   yannicksuterMschargedDecomp,
   yaz0rNoah,
+  yeoldpressAlttpDx,
   yokimitsuroKhdaysDecomp,
   yoshiNesRecomp,
   yoshisCookieRecomp,
   youdontknowjackRecomp,
+  yowariSonicJ2meDecompilation,
+  yquake2Ctf,
   YsVi,
+  ysrdevsGoldeneyeMetal,
   yuGiOhForbiddenMemoriesRecomp,
   YuGiOhTheEternalDuelistSoul,
   z3xoxBt3Decompiled,
@@ -4493,6 +4788,7 @@ export const portCases: Port[] = [
   zeroRacersRecomp,
   zestydevyDinosaurPlanet,
   zestydevySmash64r,
+  zgzinfinityOutrun,
   ZoidsLegacy,
   zombieOutbreakSimulator3ds,
   zomdroidEtonedemid,

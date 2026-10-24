@@ -21,7 +21,7 @@ export const riseioProjectBumble: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Buck%20Bumble%20(Europe)%20(En,Fr,De,Es,It).png",
     alt: "Buck Bumble (box art)",

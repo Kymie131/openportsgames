@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const adamrtFftDecomp: Port = {
+  schema: "port",
+  id: "adamrt-fft-decomp",
+  title: "Final Fantasy Tactics",
+  game: "Final Fantasy Tactics",
+  developers: ["adamrt"],
+  publisher: "Square",
+  originalYear: 1997,
+  portType: "decompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/adamrt/fft_decomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  notes: "Final Fantasy Tactics: decompilation by adamrt for Windows. Bring your own copy of the game.",
+  notesEs: "Final Fantasy Tactics: decompilación de adamrt para Windows. Aporta tu propia copia del juego.",
+};

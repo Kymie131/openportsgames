@@ -21,7 +21,7 @@ export const uncreativecultistBuckshotDecompPublic: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/72/Buckshot_Roulette_Cover.jpg",
     alt: "Buckshot Roulette (box art)",

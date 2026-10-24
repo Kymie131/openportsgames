@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const oliveryasunaSmbRecomp: Port = {
+  schema: "port",
+  id: "oliveryasuna-smb-recomp",
+  title: "Super Mario Bros. (oliveryasuna)",
+  game: "Super Mario Bros.",
+  developers: ["oliveryasuna"],
+  publisher: "Nintendo",
+  originalYear: 1985,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/oliveryasuna/smb-recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo Entertainment System"],
+  notes: "Super Mario Bros.: static recompilation by oliveryasuna for Windows. Bring your own copy of the game.",
+  notesEs: "Super Mario Bros.: recompilación estática de oliveryasuna para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png",
+    alt: "Super Mario Bros. (box art)",
+    credit: "Wikipedia",
+  },
+};

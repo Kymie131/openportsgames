@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nautilusbitsSkynetGodot: Port = {
+  schema: "port",
+  id: "nautilusbits-skynet-godot",
+  title: "The Terminator: SkyNET (skynet-godot)",
+  game: "The Terminator: SkyNET",
+  developers: ["nautilusbits"],
+  publisher: "Unknown",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.5.0", date: "2026-10-13" },
+  sources: ["https://github.com/nautilusbits/skynet-godot"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "The Terminator: SkyNET: source port by nautilusbits for Windows. Bring your own copy of the game.",
+  notesEs: "The Terminator: SkyNET: source port de nautilusbits para Windows. Aporta tu propia copia del juego.",
+};

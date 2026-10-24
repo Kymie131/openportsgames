@@ -20,7 +20,7 @@ export const mateussmenesesTheorder1886Port: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation 4"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/00/The_Order_1886_Cover_Art.png",
     alt: "The Order: 1886 (box art)",

@@ -20,7 +20,7 @@ export const phobosDevelopersPhobos: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/11/Cncra2-win-cover.jpg",
     alt: "Command & Conquer: Red Alert 2 (box art)",

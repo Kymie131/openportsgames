@@ -20,7 +20,7 @@ export const omegakatana92SamuaiShodownWarriorsRageRecomp: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Samurai%20Shodown%20-%20Warriors%20Rage%20(USA).png",
     alt: "Samurai Shodown: Warriors Rage (box art)",

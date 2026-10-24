@@ -20,7 +20,7 @@ export const atsbDaikatanaRestorationProject: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Daikatana: source port by atsb for Windows. Bring your own copy of the game.",
   notesEs: "Daikatana: source port de atsb para Windows. Aporta tu propia copia del juego.",
 };

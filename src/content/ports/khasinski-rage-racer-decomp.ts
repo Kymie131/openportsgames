@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const khasinskiRageRacerDecomp: Port = {
+  schema: "port",
+  id: "khasinski-rage-racer-decomp",
+  title: "Rage Racer",
+  game: "Rage Racer",
+  developers: ["khasinski"],
+  publisher: "Namco",
+  originalYear: 1996,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/khasinski/rage-racer-decomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  notes: "Rage Racer: decompilation by khasinski for Windows. Bring your own copy of the game.",
+  notesEs: "Rage Racer: decompilación de khasinski para Windows. Aporta tu propia copia del juego.",
+};

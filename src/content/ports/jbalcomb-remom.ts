@@ -20,7 +20,7 @@ export const jbalcombRemom: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["MS-DOS"],
+  originalSystems: ["Unknown"],
   notes: "Master of Magic: decompilation by jbalcomb for Windows. Bring your own copy of the game.",
   notesEs: "Master of Magic: decompilación de jbalcomb para Windows. Aporta tu propia copia del juego.",
 };

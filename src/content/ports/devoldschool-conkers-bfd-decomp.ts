@@ -21,7 +21,7 @@ export const devoldschoolConkersBfdDecomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/99/Conkersbfdbox.jpg",
     alt: "Conker's Bad Fur Day (box art)",

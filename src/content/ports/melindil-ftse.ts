@@ -20,7 +20,7 @@ export const melindilFtse: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Fallout Tactics: Brotherhood of Steel: decompilation by melindil for Windows. Bring your own copy of the game.",
   notesEs: "Fallout Tactics: Brotherhood of Steel: decompilación de melindil para Windows. Aporta tu propia copia del juego.",
 };

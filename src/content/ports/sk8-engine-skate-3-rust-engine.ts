@@ -21,7 +21,7 @@ export const sk8EngineSkate3RustEngine: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox 360"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/84/Skate-3-Boxart.jpg",
     alt: "Skate 3 (box art)",

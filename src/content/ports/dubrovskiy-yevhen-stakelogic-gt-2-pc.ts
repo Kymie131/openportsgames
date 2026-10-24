@@ -20,7 +20,7 @@ export const dubrovskiyYevhenStakelogicGt2Pc: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6b/GranTurismo2.jpg",
     alt: "Gran Turismo 2 (box art)",

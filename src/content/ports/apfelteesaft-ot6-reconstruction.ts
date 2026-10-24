@@ -21,7 +21,7 @@ export const apfelteesaftOt6Reconstruction: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Fortnite: decompilation by ApfelTeeSaft for Windows. Bring your own copy of the game.",
   notesEs: "Fortnite: decompilación de ApfelTeeSaft para Windows. Aporta tu propia copia del juego.",
 };

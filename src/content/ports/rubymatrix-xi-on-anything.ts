@@ -20,7 +20,7 @@ export const rubymatrixXiOnAnything: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Final Fantasy XI: static recompilation by rubymatrix for Windows, macOS. Bring your own copy of the game.",
   notesEs: "Final Fantasy XI: recompilación estática de rubymatrix para Windows, macOS. Aporta tu propia copia del juego.",
 };

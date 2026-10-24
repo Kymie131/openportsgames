@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sp00nznetBw: Port = {
+  schema: "port",
+  id: "sp00nznet-bw",
+  title: "Black & White",
+  game: "Black & White",
+  developers: ["sp00nznet"],
+  publisher: "Electronic Arts",
+  originalYear: 2001,
+  portType: "recompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sp00nznet/bw"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Black & White: static recompilation by sp00nznet for Windows. Bring your own copy of the game.",
+  notesEs: "Black & White: recompilación estática de sp00nznet para Windows. Aporta tu propia copia del juego.",
+};

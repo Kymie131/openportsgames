@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const soulcaliburIiResearchGroupSciiRe: Port = {
+  schema: "port",
+  id: "soulcalibur-ii-research-group-scii-re",
+  title: "Soulcalibur II",
+  game: "Soulcalibur II",
+  developers: ["Soulcalibur-II-Research-Group"],
+  publisher: "Namco",
+  originalYear: 2002,
+  portType: "decompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Soulcalibur-II-Research-Group/scII_re"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Soulcalibur II: decompilation by Soulcalibur-II-Research-Group for Windows. Bring your own copy of the game.",
+  notesEs: "Soulcalibur II: decompilación de Soulcalibur-II-Research-Group para Windows. Aporta tu propia copia del juego.",
+};

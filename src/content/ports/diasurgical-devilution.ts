@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const diasurgicalDevilution: Port = {
+  schema: "port",
+  id: "diasurgical-devilution",
+  title: "Diablo",
+  game: "Diablo",
+  developers: ["diasurgical"],
+  publisher: "Blizzard Entertainment",
+  originalYear: 1996,
+  portType: "reimplementation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/diasurgical/devilution"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Diablo: engine remake by diasurgical for Windows. Bring your own copy of the game.",
+  notesEs: "Diablo: recreación de motor de diasurgical para Windows. Aporta tu propia copia del juego.",
+};

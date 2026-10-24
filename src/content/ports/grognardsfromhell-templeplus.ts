@@ -20,7 +20,7 @@ export const grognardsfromhellTempleplus: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "The Temple of Elemental Evil: decompilation by GrognardsFromHell for Windows. Bring your own copy of the game.",
   notesEs: "The Temple of Elemental Evil: decompilación de GrognardsFromHell para Windows. Aporta tu propia copia del juego.",
 };

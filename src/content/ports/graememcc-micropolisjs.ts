@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const graememccMicropolisjs: Port = {
+  schema: "port",
+  id: "graememcc-micropolisjs",
+  title: "SimCity (micropolisJS)",
+  game: "SimCity",
+  developers: ["graememcc"],
+  publisher: "Nintendo",
+  originalYear: 1991,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/graememcc/micropolisJS"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "SimCity: source port by graememcc for Windows, macOS. Bring your own copy of the game.",
+  notesEs: "SimCity: source port de graememcc para Windows, macOS. Aporta tu propia copia del juego.",
+};

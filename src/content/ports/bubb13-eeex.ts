@@ -20,7 +20,7 @@ export const bubb13Eeex: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Baldur's Gate: Enhanced Edition: decompilation by Bubb13 for Windows. Bring your own copy of the game.",
   notesEs: "Baldur's Gate: Enhanced Edition: decompilación de Bubb13 para Windows. Aporta tu propia copia del juego.",
 };

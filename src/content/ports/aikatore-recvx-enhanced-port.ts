@@ -21,7 +21,7 @@ export const aikatoreRecvxEnhancedPort: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation 2"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/44/RECV_boxart.jpg",
     alt: "Resident Evil - Code: Veronica X (box art)",

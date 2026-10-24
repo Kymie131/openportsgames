@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const cdlewisSnowboardkidsDecomp: Port = {
+  schema: "port",
+  id: "cdlewis-snowboardkids-decomp",
+  title: "Snowboard Kids",
+  game: "Snowboard Kids",
+  developers: ["cdlewis"],
+  publisher: "Atlus",
+  originalYear: 1997,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/cdlewis/snowboardkids-decomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Snowboard Kids: decompilation by cdlewis for Windows. Bring your own copy of the game.",
+  notesEs: "Snowboard Kids: decompilación de cdlewis para Windows. Aporta tu propia copia del juego.",
+};

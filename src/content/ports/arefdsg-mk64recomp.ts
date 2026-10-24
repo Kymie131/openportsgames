@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const arefdsgMk64recomp: Port = {
+  schema: "port",
+  id: "arefdsg-mk64recomp",
+  title: "Mario Kart 64 (MK64Recomp)",
+  game: "Mario Kart 64",
+  developers: ["arefdsg"],
+  publisher: "Nintendo",
+  originalYear: 1996,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2025-05-28" },
+  sources: ["https://github.com/arefdsg/MK64Recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Mario Kart 64: static recompilation by arefdsg for Windows. Bring your own copy of the game.",
+  notesEs: "Mario Kart 64: recompilación estática de arefdsg para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a1/Mario_Kart_64.jpg",
+    alt: "Mario Kart 64 (box art)",
+    credit: "Wikipedia",
+  },
+};

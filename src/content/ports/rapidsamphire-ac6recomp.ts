@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rapidsamphireAc6recomp: Port = {
+  schema: "port",
+  id: "rapidsamphire-ac6recomp",
+  title: "Ace Combat 6: Fires of Liberation",
+  game: "Ace Combat 6: Fires of Liberation",
+  developers: ["rapidsamphire"],
+  publisher: "Bandai Namco",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/rapidsamphire/AC6Recomp"],
+  license: { spdx: "BSD-3-Clause" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Ace Combat 6: Fires of Liberation: static recompilation by rapidsamphire for Windows. Bring your own copy of the game.",
+  notesEs: "Ace Combat 6: Fires of Liberation: recompilación estática de rapidsamphire para Windows. Aporta tu propia copia del juego.",
+};

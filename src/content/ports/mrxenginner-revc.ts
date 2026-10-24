@@ -21,7 +21,7 @@ export const mrxenginnerRevc: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/ce/Vice-city-cover.jpg",
     alt: "Grand Theft Auto: Vice City (box art)",

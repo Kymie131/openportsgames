@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const fwgsCs16Client: Port = {
+  schema: "port",
+  id: "fwgs-cs16-client",
+  title: "Counter-Strike",
+  game: "Counter-Strike",
+  developers: ["FWGS"],
+  publisher: "Valve",
+  originalYear: 2000,
+  portType: "reimplementation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/FWGS/cs16-client"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Counter-Strike: engine remake by FWGS for Windows. Bring your own copy of the game.",
+  notesEs: "Counter-Strike: recreación de motor de FWGS para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/67/Counter-Strike_Box.jpg",
+    alt: "Counter-Strike (box art)",
+    credit: "Wikipedia",
+  },
+};

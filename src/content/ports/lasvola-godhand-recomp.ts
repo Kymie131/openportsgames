@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const lasvolaGodhandRecomp: Port = {
+  schema: "port",
+  id: "lasvola-godhand-recomp",
+  title: "God Hand",
+  game: "God Hand",
+  developers: ["LasVola"],
+  publisher: "Capcom",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/LasVola/godhand-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  notes: "God Hand: static recompilation by LasVola for Windows. Bring your own copy of the game.",
+  notesEs: "God Hand: recompilación estática de LasVola para Windows. Aporta tu propia copia del juego.",
+};

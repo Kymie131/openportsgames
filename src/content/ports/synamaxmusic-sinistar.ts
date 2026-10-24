@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const synamaxmusicSinistar: Port = {
+  schema: "port",
+  id: "synamaxmusic-sinistar",
+  title: "Sinistar",
+  game: "Sinistar",
+  developers: ["synamaxmusic"],
+  publisher: "Unknown",
+  originalYear: 1983,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/synamaxmusic/sinistar"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Arcade"],
+  notes: "Sinistar: decompilation by synamaxmusic for Windows. Bring your own copy of the game.",
+  notesEs: "Sinistar: decompilación de synamaxmusic para Windows. Aporta tu propia copia del juego.",
+};

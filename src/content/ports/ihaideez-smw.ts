@@ -20,7 +20,7 @@ export const ihaideezSmw: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo Switch"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a3/Mariowonder.png",
     alt: "Super Mario Bros. Wonder (box art)",

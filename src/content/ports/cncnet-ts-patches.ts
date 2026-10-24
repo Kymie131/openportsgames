@@ -21,7 +21,7 @@ export const cncnetTsPatches: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Command & Conquer: Tiberian Sun: decompilation by CnCNet for Windows. Bring your own copy of the game.",
   notesEs: "Command & Conquer: Tiberian Sun: decompilación de CnCNet para Windows. Aporta tu propia copia del juego.",
 };

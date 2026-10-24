@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const reRacRerac: Port = {
+  schema: "port",
+  id: "re-rac-rerac",
+  title: "Ratchet & Clank (ReRAC)",
+  game: "Ratchet & Clank",
+  developers: ["re-rac"],
+  publisher: "Insomniac Games",
+  originalYear: 2002,
+  portType: "reimplementation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/re-rac/rerac"],
+  license: { spdx: "ISC" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  notes: "Ratchet & Clank: engine remake by re-rac for Windows. Bring your own copy of the game.",
+  notesEs: "Ratchet & Clank: recreación de motor de re-rac para Windows. Aporta tu propia copia del juego.",
+};

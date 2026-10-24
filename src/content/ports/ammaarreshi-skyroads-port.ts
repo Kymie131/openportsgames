@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ammaarreshiSkyroadsPort: Port = {
+  schema: "port",
+  id: "ammaarreshi-skyroads-port",
+  title: "SkyRoads (skyroads-port (1:1 C11))",
+  game: "SkyRoads (skyroads-port (1:1 C11))",
+  developers: ["ammaarreshi"],
+  publisher: "Unknown",
+  originalYear: 1993,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ammaarreshi/skyroads-port"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "SkyRoads (skyroads-port (1:1 C11)): source port by ammaarreshi for Windows, Linux, macOS. Bring your own copy of the game.",
+  notesEs: "SkyRoads (skyroads-port (1:1 C11)): source port de ammaarreshi para Windows, Linux, macOS. Aporta tu propia copia del juego.",
+};

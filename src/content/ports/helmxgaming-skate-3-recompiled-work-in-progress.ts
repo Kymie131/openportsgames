@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const helmxgamingSkate3RecompiledWorkInProgress: Port = {
+  schema: "port",
+  id: "helmxgaming-skate-3-recompiled-work-in-progress",
+  title: "Skate 3",
+  game: "Skate 3",
+  developers: ["HelmXGaming"],
+  publisher: "Electronic Arts",
+  originalYear: 2010,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/HelmXGaming/Skate-3-Recompiled--Work-in-Progress-"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Skate 3: static recompilation by HelmXGaming for Windows. Bring your own copy of the game.",
+  notesEs: "Skate 3: recompilación estática de HelmXGaming para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/84/Skate-3-Boxart.jpg",
+    alt: "Skate 3 (box art)",
+    credit: "Wikipedia",
+  },
+};

@@ -21,7 +21,7 @@ export const alexbatalovArcanumCe: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Arcanum: Of Steamworks and Magick Obscura: decompilation by alexbatalov for Windows. Bring your own copy of the game.",
   notesEs: "Arcanum: Of Steamworks and Magick Obscura: decompilación de alexbatalov para Windows. Aporta tu propia copia del juego.",
 };

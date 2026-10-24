@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const beemercodesMidnightclublaRecomp: Port = {
+  schema: "port",
+  id: "beemercodes-midnightclubla-recomp",
+  title: "Midnight Club: Los Angeles (BeemerCodes)",
+  game: "Midnight Club: Los Angeles",
+  developers: ["BeemerCodes"],
+  publisher: "Rockstar Games",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.1.1", date: "2026-09-09" },
+  sources: ["https://github.com/BeemerCodes/MidnightclubLA-Recomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Midnight Club: Los Angeles: static recompilation by BeemerCodes for Windows. Bring your own copy of the game.",
+  notesEs: "Midnight Club: Los Angeles: recompilación estática de BeemerCodes para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/ea/Midnight_Club-Los_Angeles.jpg",
+    alt: "Midnight Club: Los Angeles (box art)",
+    credit: "Wikipedia",
+  },
+};

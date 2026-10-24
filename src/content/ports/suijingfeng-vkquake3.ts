@@ -21,7 +21,7 @@ export const suijingfengVkquake3: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a1/Quake3Title.jpg",
     alt: "Quake III Arena (box art)",

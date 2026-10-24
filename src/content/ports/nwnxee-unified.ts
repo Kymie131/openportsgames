@@ -21,7 +21,7 @@ export const nwnxeeUnified: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Neverwinter Nights: Enhanced Edition: decompilation by nwnxee for Windows. Bring your own copy of the game.",
   notesEs: "Neverwinter Nights: Enhanced Edition: decompilación de nwnxee para Windows. Aporta tu propia copia del juego.",
 };

@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const simeony2007ViberecompForGowCoo: Port = {
+  schema: "port",
+  id: "simeony2007-viberecomp-for-gow-coo",
+  title: "God of War: Chains of Olympus",
+  game: "God of War: Chains of Olympus",
+  developers: ["Simeony2007"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Simeony2007/VibeRecomp-for-GoW-CoO"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation Portable"],
+  notes: "God of War: Chains of Olympus: static recompilation by Simeony2007 for Windows. Bring your own copy of the game.",
+  notesEs: "God of War: Chains of Olympus: recompilación estática de Simeony2007 para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/3a/God_of_War_Chains_of_Olympus_NA_version_front_cover.jpg",
+    alt: "God of War: Chains of Olympus (box art)",
+    credit: "Wikipedia",
+  },
+};

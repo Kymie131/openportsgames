@@ -21,7 +21,7 @@ export const roengstromFf8Decomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Final%20Fantasy%20VIII%20(Europe,%20Australia).png",
     alt: "Final Fantasy VIII (box art)",

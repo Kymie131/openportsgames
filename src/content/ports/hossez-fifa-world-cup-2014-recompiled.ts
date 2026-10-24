@@ -20,7 +20,7 @@ export const hossezFifaWorldCup2014Recompiled: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox 360"],
+  originalSystems: ["Unknown"],
   notes: "2014 FIFA World Cup Brazil: static recompilation by HossEz for Windows. Bring your own copy of the game.",
   notesEs: "2014 FIFA World Cup Brazil: recompilación estática de HossEz para Windows. Aporta tu propia copia del juego.",
 };

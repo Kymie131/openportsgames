@@ -20,7 +20,7 @@ export const andrewaltimitLegendOfLegaiaRe: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Legend%20of%20Legaia%20(Europe).png",
     alt: "Legend of Legaia (box art)",

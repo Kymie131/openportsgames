@@ -21,7 +21,7 @@ export const jaythehamBodyHarvestDecompilation: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a3/Body_Harvest.jpg",
     alt: "Body Harvest (box art)",

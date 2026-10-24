@@ -21,7 +21,7 @@ export const player124413SonicGenerationsRecompAndroidAndPcEdition: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox 360"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/7d/SonicGenerations.jpg",
     alt: "Sonic Generations (box art)",

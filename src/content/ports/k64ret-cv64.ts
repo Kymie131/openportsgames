@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const k64retCv64: Port = {
+  schema: "port",
+  id: "k64ret-cv64",
+  title: "Castlevania",
+  game: "Castlevania",
+  developers: ["k64ret"],
+  publisher: "Konami",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/k64ret/cv64"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Castlevania: decompilation by k64ret for Windows. Bring your own copy of the game.",
+  notesEs: "Castlevania: decompilación de k64ret para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Castlevania%20(Europe)%20(Virtual%20Console).png",
+    alt: "Castlevania (box art)",
+    credit: "Box art",
+  },
+};

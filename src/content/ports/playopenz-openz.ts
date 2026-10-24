@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const playopenzOpenz: Port = {
+  schema: "port",
+  id: "playopenz-openz",
+  title: "OpenZ",
+  game: "OpenZ",
+  developers: ["playopenz"],
+  publisher: "Unknown",
+  originalYear: 1996,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.1", date: "2026-10-21" },
+  sources: ["https://github.com/playopenz/OpenZ"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "OpenZ: engine remake by playopenz for Windows. Bring your own copy of the game.",
+  notesEs: "OpenZ: recreación de motor de playopenz para Windows. Aporta tu propia copia del juego.",
+};

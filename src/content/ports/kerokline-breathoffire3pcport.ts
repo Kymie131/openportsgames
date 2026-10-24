@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const keroklineBreathoffire3pcport: Port = {
+  schema: "port",
+  id: "kerokline-breathoffire3pcport",
+  title: "Breath of Fire III (Breath of Fire III - PC Port)",
+  game: "Breath of Fire III",
+  developers: ["kerokline"],
+  publisher: "Capcom",
+  originalYear: 1997,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/kerokline/BreathOfFire3PCPort"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  notes: "Breath of Fire III: source port by kerokline for Windows. Bring your own copy of the game.",
+  notesEs: "Breath of Fire III: source port de kerokline para Windows. Aporta tu propia copia del juego.",
+};

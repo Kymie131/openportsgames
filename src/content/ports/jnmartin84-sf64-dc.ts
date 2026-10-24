@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jnmartin84Sf64Dc: Port = {
+  schema: "port",
+  id: "jnmartin84-sf64-dc",
+  title: "Star Fox 64 (jnmartin84)",
+  game: "Star Fox 64",
+  developers: ["jnmartin84"],
+  publisher: "Nintendo",
+  originalYear: 1997,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/jnmartin84/sf64-dc"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Star Fox 64: decompilation by jnmartin84 for Windows. Bring your own copy of the game.",
+  notesEs: "Star Fox 64: decompilación de jnmartin84 para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/63/StarFox64_N64_Game_Box.jpg",
+    alt: "Star Fox 64 (box art)",
+    credit: "Wikipedia",
+  },
+};

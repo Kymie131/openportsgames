@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sp00nznetSaintsrow: Port = {
+  schema: "port",
+  id: "sp00nznet-saintsrow",
+  title: "Saints Row",
+  game: "Saints Row",
+  developers: ["sp00nznet"],
+  publisher: "THQ",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sp00nznet/saintsrow"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Saints Row: static recompilation by sp00nznet for Windows. Bring your own copy of the game.",
+  notesEs: "Saints Row: recompilación estática de sp00nznet para Windows. Aporta tu propia copia del juego.",
+};

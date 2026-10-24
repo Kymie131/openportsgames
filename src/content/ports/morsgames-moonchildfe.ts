@@ -20,7 +20,7 @@ export const morsgamesMoonchildfe: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Moon Child: engine remake by MorsGames for Windows. Bring your own copy of the game.",
   notesEs: "Moon Child: recreación de motor de MorsGames para Windows. Aporta tu propia copia del juego.",
 };

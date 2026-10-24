@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const crabinacrabicBadcompanyrecomp: Port = {
+  schema: "port",
+  id: "crabinacrabic-badcompanyrecomp",
+  title: "Battlefield: Bad Company",
+  game: "Battlefield: Bad Company",
+  developers: ["crabinacrabic"],
+  publisher: "Unknown",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/crabinacrabic/BadCompanyRecomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Battlefield: Bad Company: static recompilation by crabinacrabic for Windows. Bring your own copy of the game.",
+  notesEs: "Battlefield: Bad Company: recompilación estática de crabinacrabic para Windows. Aporta tu propia copia del juego.",
+};

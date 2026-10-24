@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pwsqrdLynxSmb: Port = {
+  schema: "port",
+  id: "pwsqrd-lynx-smb",
+  title: "Super Mario Bros.",
+  game: "Super Mario Bros.",
+  developers: ["pwsqrd"],
+  publisher: "Nintendo",
+  originalYear: 1985,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/pwsqrd/lynx_smb"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo Entertainment System"],
+  notes: "Super Mario Bros.: source port by pwsqrd for Windows. Bring your own copy of the game.",
+  notesEs: "Super Mario Bros.: source port de pwsqrd para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png",
+    alt: "Super Mario Bros. (box art)",
+    credit: "Wikipedia",
+  },
+};

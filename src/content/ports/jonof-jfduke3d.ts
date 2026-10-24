@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jonofJfduke3d: Port = {
+  schema: "port",
+  id: "jonof-jfduke3d",
+  title: "Duke Nukem 3D (JFDuke3D)",
+  game: "Duke Nukem 3D",
+  developers: ["jonof"],
+  publisher: "FormGen",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/jonof/jfduke3d"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Duke Nukem 3D: source port by jonof for Windows. Bring your own copy of the game.",
+  notesEs: "Duke Nukem 3D: source port de jonof para Windows. Aporta tu propia copia del juego.",
+};

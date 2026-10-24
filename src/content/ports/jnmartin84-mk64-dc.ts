@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jnmartin84Mk64Dc: Port = {
+  schema: "port",
+  id: "jnmartin84-mk64-dc",
+  title: "Mario Kart 64 (jnmartin84)",
+  game: "Mario Kart 64",
+  developers: ["jnmartin84"],
+  publisher: "Nintendo",
+  originalYear: 1996,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/jnmartin84/mk64-dc"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Mario Kart 64: decompilation by jnmartin84 for Windows. Bring your own copy of the game.",
+  notesEs: "Mario Kart 64: decompilación de jnmartin84 para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a1/Mario_Kart_64.jpg",
+    alt: "Mario Kart 64 (box art)",
+    credit: "Wikipedia",
+  },
+};

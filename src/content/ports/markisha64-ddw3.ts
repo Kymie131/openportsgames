@@ -21,7 +21,7 @@ export const markisha64Ddw3: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/43/Digimonworld3boxart.jpg",
     alt: "Digimon World 3 (box art)",

@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const biggestsonicfanStfdecomp: Port = {
+  schema: "port",
+  id: "biggestsonicfan-stfdecomp",
+  title: "Sonic The Fighters",
+  game: "Sonic The Fighters",
+  developers: ["biggestsonicfan"],
+  publisher: "Sega",
+  originalYear: 1996,
+  portType: "decompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/biggestsonicfan/stfdecomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Arcade"],
+  notes: "Sonic The Fighters: decompilation by biggestsonicfan for Windows. Bring your own copy of the game.",
+  notesEs: "Sonic The Fighters: decompilación de biggestsonicfan para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5b/Sonic_the_Fighters.png",
+    alt: "Sonic the Fighters (box art)",
+    credit: "Wikipedia",
+  },
+};

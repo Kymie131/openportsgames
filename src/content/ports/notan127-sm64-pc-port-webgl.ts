@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const notan127Sm64PcPortWebgl: Port = {
+  schema: "port",
+  id: "notan127-sm64-pc-port-webgl",
+  title: "Super Mario 64 (SM64-PC-Port-WebGL)",
+  game: "Super Mario 64",
+  developers: ["NotAn127"],
+  publisher: "Nintendo",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/NotAn127/SM64-PC-Port-WebGL"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Super Mario 64: source port by NotAn127 for Windows. Bring your own copy of the game.",
+  notesEs: "Super Mario 64: source port de NotAn127 para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
+    alt: "Super Mario 64 (box art)",
+    credit: "Wikipedia",
+  },
+};

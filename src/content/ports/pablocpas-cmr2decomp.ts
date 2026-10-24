@@ -21,7 +21,7 @@ export const pablocpasCmr2decomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Colin%20McRae%20Rally%202.0%20(Europe)%20(En,Fr,De,Es,It)%20(Rev%201).png",
     alt: "Colin McRae Rally 2.0 (box art)",

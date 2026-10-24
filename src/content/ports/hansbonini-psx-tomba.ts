@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const hansboniniPsxTomba: Port = {
+  schema: "port",
+  id: "hansbonini-psx-tomba",
+  title: "Tomba!",
+  game: "Tomba!",
+  developers: ["hansbonini"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 1997,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/hansbonini/psx_tomba"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  notes: "Tomba!: decompilation by hansbonini for Windows. Bring your own copy of the game.",
+  notesEs: "Tomba!: decompilación de hansbonini para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const capridogSpaceranger: Port = {
+  schema: "port",
+  id: "capridog-spaceranger",
+  title: "Toy Story 2: Buzz Lightyear to the Rescue",
+  game: "Toy Story 2: Buzz Lightyear to the Rescue",
+  developers: ["Capridog"],
+  publisher: "Activision",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Capridog/SpaceRanger"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Toy Story 2: Buzz Lightyear to the Rescue: static recompilation by Capridog for Windows. Bring your own copy of the game.",
+  notesEs: "Toy Story 2: Buzz Lightyear to the Rescue: recompilación estática de Capridog para Windows. Aporta tu propia copia del juego.",
+};

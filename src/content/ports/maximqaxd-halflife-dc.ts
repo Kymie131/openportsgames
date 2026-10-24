@@ -21,7 +21,7 @@ export const maximqaxdHalflifeDc: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/70/header.jpg",
     alt: "Half-Life (box art)",

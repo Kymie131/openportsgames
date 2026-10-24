@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const castleseaInfamousSecondSonPcPort: Port = {
+  schema: "port",
+  id: "castlesea-infamous-second-son-pc-port",
+  title: "inFAMOUS Second Son (Castlesea)",
+  game: "inFAMOUS Second Son",
+  developers: ["Castlesea"],
+  publisher: "Sucker Punch Productions",
+  originalYear: 2014,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Castlesea/infamous-second-son-pc-port"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 4"],
+  notes: "inFAMOUS Second Son: source port by Castlesea for Windows. Bring your own copy of the game.",
+  notesEs: "inFAMOUS Second Son: source port de Castlesea para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/34/Infamous_second_son_boxart.jpg",
+    alt: "inFAMOUS Second Son (box art)",
+    credit: "Wikipedia",
+  },
+};

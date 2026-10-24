@@ -21,7 +21,7 @@ export const gameblablaCse2: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/83/Cave_Story_title_screen.png",
     alt: "Cave Story (box art)",

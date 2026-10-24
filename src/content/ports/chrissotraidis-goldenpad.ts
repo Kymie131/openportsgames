@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const chrissotraidisGoldenpad: Port = {
+  schema: "port",
+  id: "chrissotraidis-goldenpad",
+  title: "GoldenEye 007",
+  game: "GoldenEye 007",
+  developers: ["chrissotraidis"],
+  publisher: "Nintendo",
+  originalYear: 1997,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "macos"],
+  status: "beta",
+  release: { version: "0.2.2", date: "2026-09-30" },
+  sources: ["https://github.com/chrissotraidis/goldenpad"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "GoldenEye 007: source port by chrissotraidis for Windows, macOS. Bring your own copy of the game.",
+  notesEs: "GoldenEye 007: source port de chrissotraidis para Windows, macOS. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/13/GoldenEye_007_N64_cover.jpg",
+    alt: "GoldenEye 007 (box art)",
+    credit: "Wikipedia",
+  },
+};

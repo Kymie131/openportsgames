@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const dreamingmothsMirrorOfAlessa: Port = {
+  schema: "port",
+  id: "dreamingmoths-mirror-of-alessa",
+  title: "Silent Hill 2",
+  game: "Silent Hill 2",
+  developers: ["dreamingmoths"],
+  publisher: "Konami",
+  originalYear: 2001,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/dreamingmoths/mirror-of-alessa"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  notes: "Silent Hill 2: decompilation by dreamingmoths for Windows. Bring your own copy of the game.",
+  notesEs: "Silent Hill 2: decompilación de dreamingmoths para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/95/Silent_Hill_2.jpg",
+    alt: "Silent Hill 2 (box art)",
+    credit: "Wikipedia",
+  },
+};

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const indionicaraoDxx3ds: Port = {
+  schema: "port",
+  id: "indionicarao-dxx-3ds",
+  title: "Descent (D1X 3DS)",
+  game: "Descent",
+  developers: ["iNdioNicarao"],
+  publisher: "Interplay Productions",
+  originalYear: 1995,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "2.1.1", date: "2026-09-20" },
+  sources: ["https://github.com/iNdioNicarao/dxx-3ds"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Descent: source port by iNdioNicarao for Windows. Bring your own copy of the game.",
+  notesEs: "Descent: source port de iNdioNicarao para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5f/Descent_cover.png",
+    alt: "Descent (box art)",
+    credit: "Wikipedia",
+  },
+};

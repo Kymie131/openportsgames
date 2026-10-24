@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const foreverwipS1Port: Port = {
+  schema: "port",
+  id: "foreverwip-s1-port",
+  title: "Sonic the Hedgehog",
+  game: "Sonic the Hedgehog",
+  developers: ["foreverWIP"],
+  publisher: "Sega",
+  originalYear: 1991,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/foreverWIP/s1-port"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Sega Mega Drive / Genesis"],
+  notes: "Sonic the Hedgehog: source port by foreverWIP for Windows. Bring your own copy of the game.",
+  notesEs: "Sonic the Hedgehog: source port de foreverWIP para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jacobengetDoomWasm: Port = {
+  schema: "port",
+  id: "jacobenget-doom-wasm",
+  title: "Doom (doom.wasm)",
+  game: "Doom",
+  developers: ["jacobenget"],
+  publisher: "id Software",
+  originalYear: 1993,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["web"],
+  status: "beta",
+  release: { version: "0.1.0", date: "2024-11-26" },
+  sources: ["https://github.com/jacobenget/doom.wasm"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Doom: browser port by jacobenget for the browser. Bring your own copy of the game.",
+  notesEs: "Doom: port de navegador de jacobenget para el navegador. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg",
+    alt: "Doom (box art)",
+    credit: "Wikipedia",
+  },
+};

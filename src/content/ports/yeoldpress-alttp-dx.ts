@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const yeoldpressAlttpDx: Port = {
+  schema: "port",
+  id: "yeoldpress-alttp-dx",
+  title: "The Legend of Zelda: A Link to the Past",
+  game: "The Legend of Zelda: A Link to the Past",
+  developers: ["YeOldPress"],
+  publisher: "Nintendo",
+  originalYear: 1991,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.6", date: "2026-10-10" },
+  sources: ["https://github.com/YeOldPress/alttp-dx"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Super Nintendo"],
+  notes: "The Legend of Zelda: A Link to the Past: source port by YeOldPress for Windows. Bring your own copy of the game.",
+  notesEs: "The Legend of Zelda: A Link to the Past: source port de YeOldPress para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg",
+    alt: "The Legend of Zelda: A Link to the Past (box art)",
+    credit: "Wikipedia",
+  },
+};

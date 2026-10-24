@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const krystalgamerMemoriesDecomp: Port = {
+  schema: "port",
+  id: "krystalgamer-memories-decomp",
+  title: "Yu-Gi-Oh! Forbidden Memories (memories-decomp)",
+  game: "Yu-Gi-Oh! Forbidden Memories",
+  developers: ["krystalgamer"],
+  publisher: "Konami",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/krystalgamer/memories-decomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  notes: "Yu-Gi-Oh! Forbidden Memories: decompilation by krystalgamer for Windows. Bring your own copy of the game.",
+  notesEs: "Yu-Gi-Oh! Forbidden Memories: decompilación de krystalgamer para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Yu-Gi-Oh!%20Forbidden%20Memories%20(Europe).png",
+    alt: "Yu-Gi-Oh! Forbidden Memories (box art)",
+    credit: "Box art",
+  },
+};

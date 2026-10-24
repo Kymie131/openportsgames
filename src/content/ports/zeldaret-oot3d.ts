@@ -21,7 +21,7 @@ export const zeldaretOot3d: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 3DS"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/30/The_Legend_of_Zelda_Ocarina_of_Time_3D_box_art.png",
     alt: "The Legend of Zelda: Ocarina of Time 3D (box art)",

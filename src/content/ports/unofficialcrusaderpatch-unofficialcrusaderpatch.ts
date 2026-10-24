@@ -20,7 +20,7 @@ export const unofficialcrusaderpatchUnofficialcrusaderpatch: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Stronghold Crusader: decompilation by UnofficialCrusaderPatch for Windows. Bring your own copy of the game.",
   notesEs: "Stronghold Crusader: decompilación de UnofficialCrusaderPatch para Windows. Aporta tu propia copia del juego.",
 };

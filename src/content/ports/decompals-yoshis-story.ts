@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const decompalsYoshisStory: Port = {
+  schema: "port",
+  id: "decompals-yoshis-story",
+  title: "Yoshi's Story",
+  game: "Yoshi's Story",
+  developers: ["decompals"],
+  publisher: "Nintendo",
+  originalYear: 1997,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/decompals/yoshis-story"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Yoshi's Story: decompilation by decompals for Windows. Bring your own copy of the game.",
+  notesEs: "Yoshi's Story: decompilación de decompals para Windows. Aporta tu propia copia del juego.",
+};

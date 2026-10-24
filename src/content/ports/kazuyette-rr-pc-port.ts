@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const kazuyetteRrPcPort: Port = {
+  schema: "port",
+  id: "kazuyette-rr-pc-port",
+  title: "Ridge Racer",
+  game: "Ridge Racer",
+  developers: ["kazuyette"],
+  publisher: "Namco",
+  originalYear: 1994,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/kazuyette/rr-pc-port"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  notes: "Ridge Racer: source port by kazuyette for Windows. Bring your own copy of the game.",
+  notesEs: "Ridge Racer: source port de kazuyette para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Ridge%20Racer%20(USA).png",
+    alt: "Ridge Racer (box art)",
+    credit: "Box art",
+  },
+};

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const fabiangreffrathWolf4sdl: Port = {
+  schema: "port",
+  id: "fabiangreffrath-wolf4sdl",
+  title: "Wolfenstein 3D (Wolf4SDL)",
+  game: "Wolfenstein 3D",
+  developers: ["fabiangreffrath"],
+  publisher: "Apogee Software",
+  originalYear: 1992,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/fabiangreffrath/wolf4sdl"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Wolfenstein 3D: source port by fabiangreffrath for Windows. Bring your own copy of the game.",
+  notesEs: "Wolfenstein 3D: source port de fabiangreffrath para Windows. Aporta tu propia copia del juego.",
+};

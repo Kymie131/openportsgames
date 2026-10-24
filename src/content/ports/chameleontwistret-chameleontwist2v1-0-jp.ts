@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const chameleontwistretChameleontwist2v10Jp: Port = {
+  schema: "port",
+  id: "chameleontwistret-chameleontwist2v1-0-jp",
+  title: "Chameleon Twist 2",
+  game: "Chameleon Twist 2",
+  developers: ["chameleonTwistRet"],
+  publisher: "Sunsoft",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/chameleonTwistRet/chameleonTwist2v1.0-JP"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Chameleon Twist 2: decompilation by chameleonTwistRet for Windows. Bring your own copy of the game.",
+  notesEs: "Chameleon Twist 2: decompilación de chameleonTwistRet para Windows. Aporta tu propia copia del juego.",
+};

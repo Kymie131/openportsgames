@@ -21,7 +21,7 @@ export const jonZuShroom95Decomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "MapleStory: decompilation by jon-zu for Windows. Bring your own copy of the game.",
   notesEs: "MapleStory: decompilación de jon-zu para Windows. Aporta tu propia copia del juego.",
 };

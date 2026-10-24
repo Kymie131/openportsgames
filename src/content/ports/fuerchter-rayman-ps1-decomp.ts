@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const fuerchterRaymanPs1Decomp: Port = {
+  schema: "port",
+  id: "fuerchter-rayman-ps1-decomp",
+  title: "Rayman (rayman-ps1-decomp)",
+  game: "Rayman",
+  developers: ["fuerchter"],
+  publisher: "Ubisoft",
+  originalYear: 2026,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/fuerchter/rayman-ps1-decomp"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Rayman: decompilation by fuerchter for Windows. Bring your own copy of the game.",
+  notesEs: "Rayman: decompilación de fuerchter para Windows. Aporta tu propia copia del juego.",
+};

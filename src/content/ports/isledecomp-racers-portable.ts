@@ -21,7 +21,7 @@ export const isledecompRacersPortable: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/91/Lego_Racers_cover.png",
     alt: "LEGO Racers (box art)",

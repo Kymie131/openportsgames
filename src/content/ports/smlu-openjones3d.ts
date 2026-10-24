@@ -20,7 +20,7 @@ export const smluOpenjones3d: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Indiana Jones and the Infernal Machine: decompilation by smlu for Windows. Bring your own copy of the game.",
   notesEs: "Indiana Jones and the Infernal Machine: decompilación de smlu para Windows. Aporta tu propia copia del juego.",
 };

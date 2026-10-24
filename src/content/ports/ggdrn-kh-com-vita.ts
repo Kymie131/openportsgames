@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ggdrnKhComVita: Port = {
+  schema: "port",
+  id: "ggdrn-kh-com-vita",
+  title: "Kingdom Hearts: Chain of Memories (KH_COM_VITA)",
+  game: "Kingdom Hearts: Chain of Memories",
+  developers: ["ggdrn"],
+  publisher: "Square Enix",
+  originalYear: 2004,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ggdrn/KH_COM_VITA"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Game Boy Advance"],
+  notes: "Kingdom Hearts: Chain of Memories: decompilation by ggdrn for Windows. Bring your own copy of the game.",
+  notesEs: "Kingdom Hearts: Chain of Memories: decompilación de ggdrn para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Kingdom%20Hearts%20-%20Chain%20of%20Memories%20(USA).png",
+    alt: "Kingdom Hearts: Chain of Memories (box art)",
+    credit: "Box art",
+  },
+};

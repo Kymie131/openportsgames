@@ -20,7 +20,7 @@ export const teamBeefStudiosDoom3quest: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/4e/Doom3box.jpg",
     alt: "Doom 3 (box art)",

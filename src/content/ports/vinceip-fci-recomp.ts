@@ -20,7 +20,7 @@ export const vinceipFciRecomp: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox"],
+  originalSystems: ["Unknown"],
   notes: "Far Cry Instincts: static recompilation by VinceIP for Windows. Bring your own copy of the game.",
   notesEs: "Far Cry Instincts: recompilación estática de VinceIP para Windows. Aporta tu propia copia del juego.",
 };

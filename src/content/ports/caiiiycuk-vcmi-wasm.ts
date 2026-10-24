@@ -21,7 +21,7 @@ export const caiiiycukVcmiWasm: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/9b/Homm3boxart.jpg",
     alt: "Heroes of Might and Magic III (box art)",

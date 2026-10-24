@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const lethalGuitarDuke2reconstructed: Port = {
+  schema: "port",
+  id: "lethal-guitar-duke2reconstructed",
+  title: "Duke Nukem II",
+  game: "Duke Nukem II",
+  developers: ["lethal-guitar"],
+  publisher: "Apogee Software",
+  originalYear: 1993,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/lethal-guitar/Duke2Reconstructed"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Duke Nukem II: decompilation by lethal-guitar for Windows. Bring your own copy of the game.",
+  notesEs: "Duke Nukem II: decompilación de lethal-guitar para Windows. Aporta tu propia copia del juego.",
+};

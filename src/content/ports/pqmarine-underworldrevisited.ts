@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pqmarineUnderworldrevisited: Port = {
+  schema: "port",
+  id: "pqmarine-underworldrevisited",
+  title: "Underworld Revisited",
+  game: "Underworld Revisited",
+  developers: ["PQMarine"],
+  publisher: "Unknown",
+  originalYear: 1992,
+  portType: "reimplementation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.8.4", date: "2026-10-21" },
+  sources: ["https://github.com/PQMarine/UnderworldRevisited"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Underworld Revisited: engine remake by PQMarine for Windows. Bring your own copy of the game.",
+  notesEs: "Underworld Revisited: recreación de motor de PQMarine para Windows. Aporta tu propia copia del juego.",
+};

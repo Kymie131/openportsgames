@@ -21,7 +21,7 @@ export const jescheteVsNativeport: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a3/Vagrantstorybox.jpg",
     alt: "Vagrant Story (box art)",

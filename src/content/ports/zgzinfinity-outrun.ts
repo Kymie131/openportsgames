@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const zgzinfinityOutrun: Port = {
+  schema: "port",
+  id: "zgzinfinity-outrun",
+  title: "OutRun",
+  game: "OutRun",
+  developers: ["ZgzInfinity"],
+  publisher: "Sega",
+  originalYear: 1986,
+  portType: "reimplementation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "5.0-Windows", date: "2023-06-07" },
+  sources: ["https://github.com/ZgzInfinity/OutRun"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "OutRun: engine remake by ZgzInfinity for Windows. Bring your own copy of the game.",
+  notesEs: "OutRun: recreación de motor de ZgzInfinity para Windows. Aporta tu propia copia del juego.",
+};

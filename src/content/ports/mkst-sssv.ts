@@ -21,7 +21,7 @@ export const mkstSssv: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "Space Station Silicon Valley: decompilation by mkst for Windows. Bring your own copy of the game.",
   notesEs: "Space Station Silicon Valley: decompilación de mkst para Windows. Aporta tu propia copia del juego.",
 };

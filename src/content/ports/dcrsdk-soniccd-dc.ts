@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const dcrsdkSoniccdDc: Port = {
+  schema: "port",
+  id: "dcrsdk-soniccd-dc",
+  title: "Sonic CD (SonicCD-DC)",
+  game: "Sonic CD",
+  developers: ["DCRSDK"],
+  publisher: "Sega",
+  originalYear: 1993,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/DCRSDK/SonicCD-DC"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Sonic CD: source port by DCRSDK for Windows. Bring your own copy of the game.",
+  notesEs: "Sonic CD: source port de DCRSDK para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e1/Sonic_CD_North_American_cover_art.jpg",
+    alt: "Sonic CD (box art)",
+    credit: "Wikipedia",
+  },
+};

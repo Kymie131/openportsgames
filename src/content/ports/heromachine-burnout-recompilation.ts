@@ -20,7 +20,7 @@ export const heromachineBurnoutRecompilation: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox"],
+  originalSystems: ["Unknown"],
   notes: "Burnout: static recompilation by Heromachine for Windows. Bring your own copy of the game.",
   notesEs: "Burnout: recompilación estática de Heromachine para Windows. Aporta tu propia copia del juego.",
 };

@@ -21,7 +21,7 @@ export const moxnatiyOpenbattlefield2: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/62/Battlefield2Cover.jpg",
     alt: "Battlefield 2 (box art)",

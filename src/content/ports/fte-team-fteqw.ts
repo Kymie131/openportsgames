@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const fteTeamFteqw: Port = {
+  schema: "port",
+  id: "fte-team-fteqw",
+  title: "Quake",
+  game: "Quake",
+  developers: ["fte-team"],
+  publisher: "id Software",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/fte-team/fteqw"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Quake: source port by fte-team for Windows. Bring your own copy of the game.",
+  notesEs: "Quake: source port de fte-team para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Quake%20(1996).png",
+    alt: "Quake (box art)",
+    credit: "Box art",
+  },
+};

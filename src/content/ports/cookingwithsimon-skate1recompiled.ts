@@ -20,7 +20,7 @@ export const cookingwithsimonSkate1recompiled: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox 360"],
+  originalSystems: ["Unknown"],
   notes: "Skate: static recompilation by cookingwithsimon for Windows. Bring your own copy of the game.",
   notesEs: "Skate: recompilación estática de cookingwithsimon para Windows. Aporta tu propia copia del juego.",
 };

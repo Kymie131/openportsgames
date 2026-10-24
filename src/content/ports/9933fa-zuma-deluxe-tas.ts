@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const p9933faZumaDeluxeTas: Port = {
+  schema: "port",
+  id: "9933fa-zuma-deluxe-tas",
+  title: "Zuma Deluxe (ZumaTAS)",
+  game: "Zuma Deluxe",
+  developers: ["9933fa"],
+  publisher: "PopCap Games",
+  originalYear: 2003,
+  portType: "decompilation",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/9933fa/Zuma-Deluxe-TAS"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Zuma Deluxe: decompilation by 9933fa for Windows. Bring your own copy of the game.",
+  notesEs: "Zuma Deluxe: decompilación de 9933fa para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/3330/header.jpg",
+    alt: "Zuma Deluxe (box art)",
+    credit: "Steam",
+  },
+};

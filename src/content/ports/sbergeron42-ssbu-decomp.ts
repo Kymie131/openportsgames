@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sbergeron42SsbuDecomp: Port = {
+  schema: "port",
+  id: "sbergeron42-ssbu-decomp",
+  title: "Super Smash Bros. Ultimate (ssbu-decomp)",
+  game: "Super Smash Bros. Ultimate",
+  developers: ["sbergeron42"],
+  publisher: "Nintendo",
+  originalYear: 2018,
+  portType: "decompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sbergeron42/ssbu-decomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo Switch"],
+  notes: "Super Smash Bros. Ultimate: decompilation by sbergeron42 for Windows. Bring your own copy of the game.",
+  notesEs: "Super Smash Bros. Ultimate: decompilación de sbergeron42 para Windows. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg",
+    alt: "Super Smash Bros. Ultimate (box art)",
+    credit: "Wikipedia",
+  },
+};

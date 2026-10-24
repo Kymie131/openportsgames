@@ -20,7 +20,7 @@ export const skuzaOssDownhillRevived: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation 2"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/25/Downhill_Domination_Coverart.png",
     alt: "Downhill Domination (box art)",

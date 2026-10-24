@@ -20,7 +20,7 @@ export const insanitybringerPiccuengine: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b2/D3_Box_Art.jpg",
     alt: "Descent 3 (box art)",

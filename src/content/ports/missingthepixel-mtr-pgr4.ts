@@ -20,7 +20,7 @@ export const missingthepixelMtrPgr4: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox 360"],
+  originalSystems: ["Unknown"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/88/PGR4boxart.jpg",
     alt: "Project Gotham Racing 4 (box art)",

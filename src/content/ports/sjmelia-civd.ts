@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sjmeliaCivd: Port = {
+  schema: "port",
+  id: "sjmelia-civd",
+  title: "Sid Meier's Civilization (civd)",
+  game: "Sid Meier's Civilization",
+  developers: ["sjmelia"],
+  publisher: "Unknown",
+  originalYear: 1991,
+  portType: "decompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sjmelia/civd"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Sid Meier's Civilization: decompilation by sjmelia for Windows. Bring your own copy of the game.",
+  notesEs: "Sid Meier's Civilization: decompilación de sjmelia para Windows. Aporta tu propia copia del juego.",
+};

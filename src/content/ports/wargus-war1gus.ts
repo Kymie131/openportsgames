@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const wargusWar1gus: Port = {
+  schema: "port",
+  id: "wargus-war1gus",
+  title: "Warcraft: Orcs & Humans (War1gus)",
+  game: "Warcraft: Orcs & Humans",
+  developers: ["Wargus"],
+  publisher: "Blizzard Entertainment",
+  originalYear: 1994,
+  portType: "reimplementation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "3.3.2", date: "2022-08-10" },
+  sources: ["https://github.com/Wargus/war1gus"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Warcraft: Orcs & Humans: engine remake by Wargus for Windows. Bring your own copy of the game.",
+  notesEs: "Warcraft: Orcs & Humans: recreación de motor de Wargus para Windows. Aporta tu propia copia del juego.",
+};
