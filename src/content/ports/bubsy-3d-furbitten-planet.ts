@@ -20,6 +20,8 @@ export const Bubsy3dFurbittenPlanet: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Bubsy 3D is a 1996 platform video game developed by Eidetic and published by Accolade for the PlayStation. It is the first video game in the Bubsy series to feature 3D gameplay, and the fourth game in the series overall. The game was released for the PlayStation on November 25, 1996, in North America, with a later European release in August 1997. Bubsy 3D follows the series' titular character, an orange bobcat named Bubsy, who travels to the planet Rayon to stop the alien Woolies, and return safely to Earth.",
+  summaryEs: "Bubsy 3D es un videojuego de plataformas desarrollado por Eidetic y distribuido por Accolade y Telstar para la videoconsola PlayStation. Diseñado por Michael Berlyn, el juego vio la luz el 25 de noviembre de 1996 en Norteamérica y en agosto de 1997 en Europa. Es el cuarto de la serie de Bubsy y, como indica el título, es el primer juego de Bubsy en 3D. También fue pionero en cuanto a juego de plataformas en 3D, con un movimiento muy limitado. El nombre del juego es un juego de palabras entre las palabra \"furry\" y \"Forbidden Planet\", una película de ciencia ficción de 1956.",
   notes: "A decompilation of Bubsy 3D Furbitten Planet (USA) rev0.",
   notesEs: "Decompilación de Bubsy 3D: Furbitten Planet (USA) rev0.",
 };

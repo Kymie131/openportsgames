@@ -25,6 +25,8 @@ export const Scummvm: Port = {
     alt: "ScummVM (cover)",
     credit: "Wikipedia",
   },
+  summary: "Script Creation Utility for Maniac Mansion Virtual Machine (ScummVM) is a set of game engine recreations. Originally designed to play LucasArts adventure games that use the SCUMM system, it also supports a variety of non-SCUMM games by companies like Revolution Software and Adventure Soft. It was originally written by Ludvig Strigeus. ScummVM is free software that is released under the terms of the GNU General Public License.",
+  summaryEs: "ScummVM es un programa informático que permite ejecutar las aventuras gráficas creadas originalmente para el motor SCUMM de LucasArts. ScummVM también soporta una variedad de juegos que no utilizan el motor SCUMM, realizados por compañías como Revolution Software o Adventure Soft.",
   notes: "ScummVM main repository.",
   notesEs: "Repositorio principal de ScummVM.",
 };

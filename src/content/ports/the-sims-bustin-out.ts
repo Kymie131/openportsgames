@@ -25,6 +25,8 @@ export const TheSimsBustinOut: Port = {
     alt: "The Sims: Bustin' Out (box art)",
     credit: "Wikipedia",
   },
+  summary: "The Sims Bustin' Out is a 2003 social simulation video game developed by Maxis and published by Electronic Arts for the Game Boy Advance, GameCube, PlayStation 2 and Xbox, with a port for the N-Gage following in 2004. It is the second title in The Sims console series, and the first title not to be concurrently released for Microsoft Windows.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes:
     "A WIP disassembly/decompilation project of The Sims: Bustin' Out on the Game Boy Advance.",
   notesEs:

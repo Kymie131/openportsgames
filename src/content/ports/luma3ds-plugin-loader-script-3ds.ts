@@ -22,6 +22,8 @@ export const luma3dsPluginLoaderScript3ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "The New Nintendo 3DS is a foldable dual-screen handheld game console developed and marketed by Nintendo. Part of the Nintendo 3DS family, it is a revision of the hardware rather than a full redesign. Improvements over previous models include upgraded processors and increased RAM, an analog pointing stick, two additional shoulder triggers, face detection for optimizing the autostereoscopic 3D display, an included 4 GB microSD card, and built-in NFC, as well as minor design changes. There were also software improvements, such as support for HTML5 in its web browser.",
+  summaryEs: "Nintendo 3DS es una videoconsola portátil descontinuada de la multinacional de origen japonés, Nintendo, para videojuegos y multimedia, cuya atracción principal es poder mostrar imágenes 3D autoestereoscopicas. La consola es retrocompatible con la Nintendo DS y con el software de DSiWare. Tras haberse anunciado el 23 de marzo de 2010, Nintendo lo presentó oficialmente en el E3 2010, llevando consolas de prueba para los asistentes al evento. La consola es la sucesora de la serie portátil Nintendo DS y compitió principalmente con su único rival en el mercado, la PlayStation Vita de Sony.",
   notes: "Nintendo 3DS (Nintendo, 2011) running on Nintendo 3DS through source port. Latest release: 1.0. You need your own copy of the game.",
   notesEs: "Nintendo 3DS (Nintendo, 2011) en Nintendo 3DS mediante port de código. Última release: 1.0. Necesitas tu propia copia del juego.",
 };

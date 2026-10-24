@@ -20,6 +20,8 @@ export const coupSegaSaturn: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Other"],
+  summary: "The Cat and the Coup is a puzzle video game by Peter Brinson and Kurosh ValaNejad. The game follows the life of Prime Minister of Iran, Mohammad Mosaddegh, and his subsequent downfall through a CIA and MI6 engineered coup in 1953. On June 15, 2011, the game was released on Steam.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "Coup (Indie Boards & Cards, 2012) running on saturn through source port. Latest release: v2.0-beta. You need your own copy of the game.",
   notesEs: "Coup (Indie Boards & Cards, 2012) en saturn mediante port de código. Última release: v2.0-beta. Necesitas tu propia copia del juego.",
 };

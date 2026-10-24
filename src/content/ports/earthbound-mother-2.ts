@@ -20,6 +20,8 @@ export const EarthboundMother2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "EarthBound, originally released in Japan as Mother 2: Gīgu no Gyakushū, is a 1994 role-playing video game developed by Ape Inc. and HAL Laboratory and published by Nintendo for the Super Nintendo Entertainment System. The second entry in the Mother series, it follows a young boy named Ness and his party of Paula, Jeff and Poo, as they travel the world to collect melodies from eight Sanctuaries to defeat the universal cosmic destroyer Giygas.",
+  summaryEs: "EarthBound, conocido en Japón como Mother 2: Giygas Strikes Back es un videojuego de rol desarrollado por Ape y HAL Laboratory, y publicado por Nintendo para la consola Super Nintendo, fue lanzado en Japón el 27 de agosto de 1994 y en América del Norte el 5 de junio de 1995. A diferencia de otros juegos de ese tipo, EarthBound sitúa su historia en un contexto más \"real\" y contemporáneo. Es la segunda entrega de la saga Mother y fue el primero de la serie en ser lanzado fuera de Japón.",
   notes: "Source code recreation for the game Earthbound.",
   notesEs: "Recreación del código fuente de EarthBound.",
 };

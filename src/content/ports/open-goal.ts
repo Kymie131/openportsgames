@@ -32,6 +32,8 @@ export const openGoal: Port = {
     "Jak and Daxter considerada completa, Jak II en beta, Jak 3 en progreso",
     "Herramientas de extracción y reempaquetado de recursos incluidas en el repositorio",
   ],
+  summary: "Jak and Daxter is a platform video game franchise created by Andy Gavin and Jason Rubin and owned by Sony Interactive Entertainment. The series was originally developed by Naughty Dog with a number of installments being outsourced to Ready at Dawn and High Impact Games. The first game, Jak and Daxter: The Precursor Legacy, released on December 4, 2001, was one of the earliest titles for the PlayStation 2, and the series collectively is regarded as a defining franchise for the console.",
+  summaryEs: "Jak and Daxter es una serie de videojuegos creada por Naughty Dog. Hay tres juegos de la serie principal y tres spin-off, aunque estos también se consideran parte del argumento de la serie principal.",
   notes:
     "Decompilation of the Jak trilogy from Naughty Dog's GOAL language, running on PC. Needs your own PS2 disc of each game; PS3, PS4 and PS5 releases are not supported.",
   notesEs:

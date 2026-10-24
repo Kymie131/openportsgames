@@ -20,6 +20,8 @@ export const XdGaleOfDarkness: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
+  summary: "Pokémon XD: Gale of Darkness is a role-playing video game in the Pokémon series developed by Genius Sonority and published by The Pokémon Company and Nintendo. It was released for the GameCube on August 4, 2005, in Japan; October 3, 2005, in North America; November 10, 2005, in Australia; and November 18, 2005, in Europe. Pokémon XD is the successor to the GameCube title Pokémon Colosseum and takes place in Orre, the setting of Pokémon Colosseum's adventure mode. All of the Game Boy Advance Pokémon games can connect to this game through trading and Battle Mode.",
+  summaryEs: "XD puede referirse a:XD, emoticono comúnmente usado en Internet para expresar una cara con los ojos cerrados riendo muy fuertemente. xD-Picture Card, formato de memoria desarrollada por Olympus y Fuji, y usada principalmente en sus productos de cámaras digitales. XD CAM, serie de productos para grabación de vídeo utilizando medios no lineales. XD bit, denominación de Intel para la tecnología NX bit. Pokémon XD: Gale of Darkness, videojuego desarrollado para Nintendo GameCube. Disney XD, canal de televisión estadounidense con difusión internacional.",
   notes: "A decompilation of Pokemon XD for the Nintendo GameCube.",
   notesEs: "Una decompilación de Pokémon XD para Nintendo GameCube.",
 };

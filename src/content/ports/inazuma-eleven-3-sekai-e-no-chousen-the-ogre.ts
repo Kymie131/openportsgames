@@ -20,6 +20,8 @@ export const InazumaEleven3SekaiENoChousenTheOgre: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo DS"],
+  summary: "Inazuma Eleven 3 is a 2010 role-playing video game and sports video game for the Nintendo DS by Level-5. It is a direct sequel to Inazuma Eleven 2, and the final installment in Inazuma Eleven's original trilogy. There are 3 versions of the game: Spark and Bomber, released on 1 July 2010 in Japan, followed on 16 December 2010 by The Ogre.",
+  summaryEs: "Inazuma Eleven 3 es un videojuego de rol y deportes desarrollado y publicado originalmente por Level-5 para la consola Nintendo DS. Es la secuela de Inazuma Eleven 2 y el tercero cronológicamente de la franquicia Inazuma Eleven. Consta de tres ediciones: Rayo Celeste y Fuego Explosivo salieron a la venta el 1 de julio de 2010 en Japón, mientras que la última versión, ¡La Amenaza del Ogro! , se lanzó el 16 de diciembre del mismo año.",
   notes: "Decompilation of Inazuma Eleven 3 - Sekai e no Chousen: The Ogre!! (nds).",
   notesEs: "Decompilación de Inazuma Eleven 3: Sekai e no Chousen!! The Ogre (NDS).",
 };

@@ -21,6 +21,8 @@ export const owenSplatLasDecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "The Legend of Zelda: Link's Awakening is a 1993 action-adventure game developed and published by Nintendo for the Game Boy. It is the first installment in The Legend of Zelda series to be released on a handheld game console. Link's Awakening is one of the few Zelda games not to take place in the land of Hyrule, and it does not feature Princess Zelda or the Triforce relic. Instead, the protagonist Link begins the game stranded on Koholint Island, a place guarded by a whale-like deity called the Wind Fish.",
+  summaryEs: "The Legend of Zelda: Link's Awakening, conocido en Japón como Zelda no Densetsu: Yume o Miru Shima , es un videojuego de acción-aventura desarrollado y publicado por Nintendo para la videoconsola portátil Game Boy. Fue lanzado el 6 de junio de 1993 en Japón, el 1 de agosto de 1993 en Norteamérica y el 1 de diciembre de 1993 en Europa. Es la cuarta entrega oficial de la serie The Legend of Zelda y la primera para una videoconsola portátil.",
   notes: "Link's Awakening: engine remake by Owen-Splat for Windows. Bring your own copy of the game.",
   notesEs: "Link's Awakening: recreación de motor de Owen-Splat para Windows. Aporta tu propia copia del juego.",
 };

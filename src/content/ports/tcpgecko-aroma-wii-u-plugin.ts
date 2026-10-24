@@ -22,6 +22,8 @@ export const tcpgeckoAromaWiiUPlugin: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "The Wii U is a home video game console developed by Nintendo as the successor to the Wii. Released in late 2012, it was the first eighth-generation video game console and competed with Microsoft's Xbox One and Sony's PlayStation 4.",
+  summaryEs: "Nintendo Wii U , con nombre clave Project Café es una consola descontinuada perteneciente a la octava generación de videoconsolas, siendo la séptima consola de sobremesa desarrollada por Nintendo, fabricada en China por Foxconn y en Japón por Mitsumi se lanzó como directa sucesora de Wii. La consola fue lanzada el 18 de noviembre de 2012 en terreno norteamericano siendo su fecha de apertura. Se presentó en la conferencia de Nintendo durante el Electronic Entertainment Expo 2011 el 7 de junio de 2011. Competía principalmente con la PlayStation 4 de Sony y la Xbox One de Microsoft.",
   notes: "Wii U (Nintendo, 2012) running on Wii U through source port. Latest release: 1.0.0. You need your own copy of the game.",
   notesEs: "Wii U (Nintendo, 2012) en Wii U mediante port de código. Última release: 1.0.0. Necesitas tu propia copia del juego.",
 };

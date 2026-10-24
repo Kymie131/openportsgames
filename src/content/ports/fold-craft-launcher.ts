@@ -26,6 +26,8 @@ export const foldCraftLauncher: Port = {
     alt: "Minecraft Java Edition (box art)",
     credit: "Wikimedia Commons",
   },
+  summary: "Minecraft is a sandbox video game developed and published by the Swedish company Mojang Studios. Following its initial public alpha release as an early access title on 17 May 2009, it was formally released on 18 November 2011 for personal computers. The game has since been ported to numerous platforms, including mobile devices and various video game consoles.",
+  summaryEs: "Minecraft es un videojuego de construcción de tipo «mundo abierto» o en inglés sandbox creado originalmente por el sueco Markus Persson, que creó posteriormente Mojang Studios. Está programado en el lenguaje de programación Java para la versión Java Edition y posteriormente desarrollado en C++ para la versión de Bedrock Edition. Fue lanzado el 17 de mayo de 2009, y después de numerosos cambios, su primera versión estable «1.0» fue publicada el 18 de noviembre de 2011.",
   notes: "Minecraft Java Edition (Mojang Studios, 2011) an Android tool. Latest release: 1.3.4.0. Needs your own copy of the game (?).",
   notesEs: "Minecraft Java Edition (Mojang Studios, 2011) una herramienta para Android. Última release: 1.3.4.0. Necesita tu propia copia del juego.",
 };

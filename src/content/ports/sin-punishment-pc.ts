@@ -25,6 +25,8 @@ export const sinPunishmentPc: Port = {
     alt: "Sin & Punishment (box art)",
     credit: "Wikipedia",
   },
+  summary: "Sin & Punishment: Star Successor, released in Europe as Sin and Punishment: Successor of the Skies, and in Japan as Sin and Punishment: Sora no Kōkeisha , is a 2009 rail shooter video game for Wii developed by Treasure and published by Nintendo. It is the sequel to the Nintendo 64 video game Sin and Punishment.",
+  summaryEs: "Sin and Punishment: Sora no Kōkeisha , llamado en Europa Sin and Punishment: Successor of the Skies conocido también como Sin and Punishment 2, es un videojuego de disparos para Wii, que es la secuela del videojuego Sin and Punishment: Hoshi no Keishōsha, que fue lanzado exclusivamente en el mercado japonés para Nintendo 64 pero que posteriormente fue lanzado a nivel mundial a través de la Consola Virtual.",
   notes: "Sin & Punishment (Nintendo, 2000) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Sin & Punishment (Nintendo, 2000) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

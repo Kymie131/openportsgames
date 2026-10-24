@@ -1,9 +1,9 @@
 # Informe de metadatos de juegos
 
-- Fichas con metadatos de juego: **1943**
-- Sinopsis añadidas: **0**
+- Fichas con metadatos de juego: **2272**
+- Sinopsis añadidas: **329**
 - Publishers completados (solo si faltaban): **0**
-- Fichas sin coincidencia en Wikidata/Wikipedia/Steam: **615**
+- Fichas sin coincidencia en Wikidata/Wikipedia/Steam: **286**
 - Años que difieren más de 1 respecto a la fuente: **96**
 
 ## Años a revisar
@@ -109,258 +109,127 @@
 
 - `1oom` — 1oom
 - `2planes-switch` — 2Planes
-- `2tie-mh1j` — Monster Hunter
 - `3d-pinball-space-cadet-psp` — 3D Pinball for Windows
 - `3dstris` — 3DStris
 - `8-bit-table-tennis-nes` — 8-bit Table Tennis
-- `8bitvita-ps-vita-plugin` — PlayStation Vita
-- `abuse-android` — Abuse
-- `ac3-decomp` — Ace Combat 3: Electrosphere
-- `ace-combat-3-electrosphere-recomp` — Ace Combat 3: Electrosphere
-- `ace-combat-3-electrosphere-usa-recomp` — Ace Combat 3: Electrosphere
-- `adamrt-fft-decomp` — Final Fantasy Tactics
 - `afraid-of-monsters-ps-vita` — Afraid of Monsters
-- `aikatore-recvx-enhanced-port` — Resident Evil - Code: Veronica X
 - `airaki-game-boy` — Airaki
-- `aleph-one` — Marathon 2
 - `alexbeavs-ps1-recomps-psxrecomp-ports` — Alexbeav's PS1 recomps (psxrecomp-ports)
-- `alice-in-wonderland` — Alice in Wonderland
-- `alien-resurrection-recomp-hero` — Alien Resurrection
-- `alien-resurrection-recomp` — Alien Resurrection
-- `alien-vs-predator-2` — Alien vs. Predator 2
-- `am2r-android` — Another Metroid 2 Remake
-- `amethyst-android` — Minecraft: Java Edition
 - `ammaarreshi-skyroads-port` — SkyRoads (skyroads-port (1:1 C11))
 - `animal-forest-e` — Animal Forest e+
 - `animal-forest` — Animal Forest
 - `apotris-android` — Apotris
 - `apotris-psp` — Apotris
-- `ar-tonelico-ii-melody-of-metafalica` — Ar tonelico II: Melody of Metafalica
-- `are-you-smarter-than-a-5th-grader-make-the-grade` — Are You Smarter Than a 5th Grader: Make the Grade
-- `ark-plugin-converter` — PlayStation Portable
 - `armored-unit` — Armored Unit
 - `asteroids-terra-sega-saturn` — Asteroids Terra
 - `awesome-open-source-games` — Awesome Open Source Games
 - `banjorecomp-android` — BanjoRecomp Android
 - `barrett` — Barrett
 - `battle-grounds-3-psp` — Battle Grounds 3
-- `ben-10-omniverse-recomp` — Ben 10 Omniverse
 - `betterspades` — BetterSpades
-- `biggestsonicfan-stfdecomp` — Sonic The Fighters
 - `bike-race-pro-ps-vita` — Bike Race
-- `bird-and-beans-wii` — Bird & Beans
-- `black-2006-recomp` — BLACK
-- `black-and-white` — Black and White
-- `black-android` — BLACK
-- `black-pc` — BLACK
-- `blake-stone-recomp` — Blake Stone: Aliens of Gold / Planet Strike
 - `blasterball-revolution-2` — Blasterball Revolution 2
-- `bloody-roar-ii-recomp` — Bloody Roar II
 - `bomberworld-snes` — Bomberworld
 - `bottomless-block-barrage-3ds` — Bottomless Block Barrage
-- `bounce-psp` — Bounce
-- `bounce` — Bounce
-- `brogue-android` — Brogue
 - `bruder-grimm-animal-forest-psp` — Animal Forest
 - `bstone` — BStone
 - `btbuilder` — BtBuilder
-- `bubsy-3d-furbitten-planet` — Bubsy 3D - Furbitten Planet
 - `burnout-paradise-b5-decomp` — Burnout Paradise (b5-decomp)
-- `c-dogs-sdl` — C-Dogs SDL
-- `carl0srmz-littleplanet` — Sonic CD
 - `carnage3d` — Carnage3D
 - `catacombgl` — CatacombGL
 - `cavex` — CaveX
-- `chameleon-twist-2-recomp` — Chameleon Twist 2
-- `chameleontwistret-chameleontwist2v1-0-jp` — Chameleon Twist 2
 - `chasm-reverse` — Chasm-Reverse
 - `chernobyl-neighbor-clown-gang` — Chernobyl Neighbor. Clown Gang
 - `chocolate-quake` — Chocolate Quake
 - `classicube-classicube` — ClassiCube
-- `club-penguin-waddle-forever` — Club Penguin (Waddle Forever)
 - `cnc-tiberian-dawn-android` — Command & Conquer: Tiberian Dawn
-- `conan-2007-recomp` — Conan
-- `contra` — Contra
-- `controlmole-3ds-plugin` — Nintendo 3DS
 - `coqui-snes` — Coqui
-- `coup-sega-saturn` — Coup
 - `cps2-recomp` — CPS-2 arcade collection
 - `craftus-reloaded` — Craftus Reloaded
-- `crash-bandicoot-3-warped-recomp` — Crash Bandicoot 3: Warped
 - `crossconnect-game-boy-color` — CrossConnect
-- `crt-native-ds-dual-screen` — CTR: Crash Team Racing
 - `crucible-exe-game-boy-color` — CRUCIBLE.EXE
 - `cryptoslasher-snes` — CryptoSlasher
-- `ctrcomposer-3ds-plugin-framework` — Nintendo 3DS
 - `ctw-native` — CTW-Native
 - `cut-the-rope-cut-the-rope-dx` — Cut the Rope (Cut the Rope: DX)
-- `d1x-rebirth` — Descent
-- `dance-dance-revolution-1st-mix` — Dance Dance Revolution 1st Mix
-- `dark-cloud-2-recomp` — Dark Cloud 2
 - `daytona-arcade-recomp` — Daytona Arcade Recomp
-- `dcrsdk-soniccd-dc` — Sonic CD
-- `dead-or-alive-2-ultimate-recomp` — Dead or Alive 2 Ultimate
-- `dead-or-alive-xtreme-beach-volleyball-android` — Dead or Alive: Xtreme Beach Volleyball
 - `defenders-and-dragons` — Defenders & Dragons
-- `descent-android` — Descent
-- `descent-mobile` — Descent
 - `dgengine` — DGEngine
-- `diegodedios-alienrerecomp` — Alien Resurrection
-- `digimon-digital-card-battle` — Digimon: Digital Card Battle
-- `digimon-world-2003-recomp` — Digimon World 2003
-- `disney-piglets-big-game` — Disney Piglet's Big Game
-- `doaxbv-re` — Dead or Alive Xtreme Beach Volleyball
 - `doma-days` — DOMA Days
 - `doom-64-remastered-classic-core-engines` — Doom 64 Remastered
 - `doom-playstation-classic-core-engines` — Doom (Playstation)
 - `doom64-ex-plus-enhanced` — DOOM64-EX-Plus-Enhanced
 - `dora64-3` — Doraemon 3: Nobita no Machi SOS!
-- `dr-brain-action-reaction` — Dr. Brain Action Reaction
-- `dragon-ball-z-budokai-3-hd` — Dragon Ball Z: Budokai 3 HD
-- `dragon-ball-z-budokai-hd` — Dragon Ball Z: Budokai HD Collection
 - `dragon-quest-swords-pc` — Dragon Quest Swords: The Masked Queen and the Tower of Mirrors
-- `dragon-s-crown-pro-pc` — Dragon's Crown Pro
 - `dreadhollow-manor-game-boy-color` — Dreadhollow Manor
-- `dreamcast-homebrew-collection-dreamcast` — Dreamcast Homebrew Collection
-- `driver-recomp` — Driver
 - `ds-protect` — DS Protect
-- `ds4vita-ps-vita-plugin` — PlayStation Vita
-- `dsda-doom-dsda-org` — DSDA-Doom
 - `dxx-redux` — dxx-redux
-- `earthbound-beginnings` — Earthbound Beginnings
-- `earthbound-mother-2` — EarthBound / Mother 2
-- `earthbound-phase-distorter` — EarthBound (Phase Distorter)
 - `edge-classic` — EDGE-classic
 - `elfen-lied-fighting-android` — Elfen Lied Fighting
 - `elli-s-house-3ds-psp-gba` — Elli's House
-- `emazing-mazes-3ds` — eMazing Mazes
 - `emberclutch-3ds` — Emberclutch
 - `emperorreborn` — EmperorReborn
-- `eqvita-ps-vita-audio-plugin` — PlayStation Vita
 - `etchy-sketchy-game-boy-advance` — Etchy Sketchy
 - `euc-thrills-snes` — EUC Thrills
-- `euspring1-blackdefinitivehdpc` — BLACK
 - `evos-space-adventures` — Evo's Space Adventures
-- `exult` — Ultima VII
 - `ezquake` — ezQuake
 - `f-15-ii-enhanced` — F-15 II Enhanced
 - `f-15-ii` — F-15 II
 - `filthy-kitchen-nes` — Filthy Kitchen
-- `final-doom-playstation-classic-core-engines` — Final Doom (Playstation)
-- `final-fantasy-tactics-recomp` — Final Fantasy Tactics
-- `final-fantasy-xiv-1-0` — Final Fantasy XIV (1.0)
 - `fire-emblem-seima-no-kouseki` — Fire Emblem: Seima no Kouseki
-- `fire-emblem-the-blazing-blade` — Fire Emblem: The Blazing Blade
-- `flame` — Flame
 - `fluctus-wii-u` — Fluctus
-- `fold-craft-launcher` — Minecraft Java Edition
 - `forecast-channel` — Forecast Channel
-- `fpkgi-package-manager` — PlayStation Portable
-- `freeciv` — freeciv
 - `freedoom` — Freedoom
 - `freeft` — FreeFT
 - `freeserf-net` — freeserf.net
-- `friday-night-funkin-wii` — Friday Night Funkin'
-- `frogger-hes-back` — Frogger: He's Back!
-- `fuel` — FUEL
 - `fushigi-no-dungeon-furai-no-shiren-2-oni-shurai-shiren-jo` — Fushigi no Dungeon: Fūrai no Shiren 2 — Oni Shūrai! Shiren-jō!
 - `gamearcade-switch` — GameArcade
 - `generalsgamecode` — GeneralsGameCode
 - `gex-64-enter-the-gecko` — Gex 64: Enter the Gecko
-- `ghost-in-the-shell-recomp` — Ghost in the Shell
 - `ghosts-and-graves` — Ghosts And Graves
 - `glkeeper` — GLKeeper
 - `glsmac` — GLSMAC
-- `gohanmem-ps-vita-cheat-plugin` — PlayStation Vita
 - `golden-sun-the-broken-seal` — Golden Sun: The Broken Seal
-- `goldeneye-pc-port` — GoldenEye PC Port
 - `google-dino-game-boy-advance` — Chrome Dino
 - `goths-n-vamps-psp` — Goths n Vamps
-- `gpsemu-psp-plugin` — PlayStation Portable
-- `gr544p-ps-vita-plugin` — PlayStation Vita
 - `green-farm-3` — Green Farm 3
 - `gsrecomp` — GSRecomp
 - `guarda-con-las-gbc-game-boy-color` — Guarda con las GBC
-- `guitar-hero-2` — Guitar Hero 2
-- `gundam-battle-master-2-recomp` — Gundam: The Battle Master 2
 - `gxcraft` — GXCraft
-- `gzh0821-pvzge-web` — Plants vs. Zombies 2
-- `hagi` — Hagi
-- `hashi-ps-vita` — Hashi
 - `hazard-1998` — Hazard 1998
-- `heavymetal` — heavymetal
 - `heretic2` — heretic2
 - `heretic2r` — Heretic2R
-- `heromachine-breakdown-recompilation` — Breakdown
-- `hexen-ii-portal-of-praevus-classic-core-engines` — Hexen II: Mission Pack – Portal of Praevus⁠
 - `hopmon` — Hopmon
 - `hydra-castle-labyrinth-psp` — Hydra Castle Labyrinth
 - `i-wanna-reach-the-unity-ps-vita` — I Wanna Reach The Unity
 - `idle-office-tycoon` — Idle Office Tycoon
 - `idtech4a-harmattan-edition` — idTech4A++ (Harmattan Edition)
-- `inazuma-eleven-3-sekai-e-no-chousen-the-ogre` — Inazuma Eleven 3 - Sekai e no Chousen: The Ogre!!
-- `indionicarao-dxx-3ds` — Descent
 - `infinite-blade-2-android` — Infinite Blade II
 - `inotia-3-vita` — Inotia 3: Children of Carnia
-- `japabu-mickey-saves-the-day-3d-adventure` — Mickey Saves the Day 3D Adventure
-- `jet-moto-2-recomp` — Jet Moto 2: Championship Edition
-- `jet-set-radio-future-recomp` — Jet Set Radio Future
-- `jet-set-radio-future-unleashed` — Jet Set Radio Future
-- `jet-ski-3ds` — Jet Ski
 - `jfsw` — jfsw
 - `jftekwar` — jftekwar
 - `jfwhaven` — jfwhaven
-- `jnmartin84-wipeout-dc` — Wipeout
 - `johnny-herberts-grand-prix-championship-1998` — Johnny Herbert's Grand Prix Championship 1998
-- `jon-zu-shroom95-decomp` — MapleStory
 - `jotd666-bagman` — Bagman (bagman (arcade -> 68k transcode))
 - `jpn-pokemon-blue` — JPN Pokémon Blue
-- `justgetmiionline-wii-u-aroma-plugin` — Wii U
 - `k-on-houkago-live-pc` — K-On! Houkago Live!!
-- `kameo-repowered` — Kameo: Elements of Power
-- `key2con-switch-sysmodule` — Nintendo Switch
-- `king-kong-recomp` — Peter Jackson's King Kong
-- `kirbys-dream-collection-special-edition` — Kirby's Dream Collection - Special Edition
 - `kirbys-return-to-dream-land-kirby-wii-recomp` — Kirby's Return to Dream Land (Kirby Wii Recomp)
 - `kknd-krush-kill-n-destroy` — KKND: Krush Kill 'n Destroy
 - `kokororecomp` — KoroKoro Postnin
 - `komputerowa-gratka-3d-magiczna-kula-papatki` — Komputerowa Gratka 3D - Magiczna Kula Papatki
-- `koudelka-recomp` — Koudelka
 - `kroplabeskidu-flipendo` — Flipendo
 - `kumi-daiko-beatoff-64-nintendo-64` — Kumi-Daiko Beatoff 64
-- `kuon-mulberry` — Kuon (Mulberry)
 - `kylofon-acesofthepacific-enhanced` — Aces of the Pacific Enhanced
-- `kylofon-test-drive-3-sdl3` — Test Drive III
 - `kylofon-testdrive3-enhanced` — Test Drive III Enhanced
 - `lba2-classic-community` — lba2-classic-community
 - `ledhead-wii` — LedHEAD
 - `legend-of-doom-3ds` — Legend of Doom
-- `lego-battles` — Lego Battles
-- `lego-creator-knights-kingdom` — Lego Creator Knights Kingdom
-- `lego-world-builder-3ds` — LEGO World Builder
 - `lilium-voyager` — lilium-voyager
 - `lionheart-remake` — Lionheart Remake
 - `looney-tunes-carrot-crazy` — Looney Tunes: Carrot Crazy
-- `lotr-return-of-the-king-recomp` — The Lord of the Rings: The Return of the King
-- `lotr-two-towers-recomp` — The Lord of the Rings: The Two Towers
-- `lsd-decomp` — LSD: Dream Emulator
-- `lsd-revamped-ps-vita` — LSD: Dream Emulator
-- `luma3ds-plugin-loader-3ds` — Nintendo 3DS
-- `luma3ds-plugin-loader-script-3ds` — Nintendo 3DS
 - `mabec-games-iss2000-recomp` — Mabecs International Superstar Soccer 2000
 - `madnesspatch` — MadnessPatch
 - `mafia-the-city-of-lost-heaven` — Mafia: The City of Lost Heaven
-- `marathon-recomp` — Sonic the Hedgehog (2006)
-- `marathon-recompiled` — Sonic The Hedgehog (2006)
-- `mario-and-luigi-partners-in-time` — Mario & Luigi - Partners in Time
-- `mario-golf-64-recomp` — Mario Golf
-- `mario-party-1` — Mario Party 1
 - `mario-sport-mix` — Mario Sport Mix
-- `mario-teaches-typing-3` — Mario Teaches Typing 3
-- `mario-tennis-virtual-boy-recomp` — Mario's Tennis
-- `markmoxon-elite-source-code-commodore-64` — Elite
-- `marvel-vs-capcom-2` — Marvel vs. Capcom 2
-- `maxdeadbear-kameorepowered` — Kameo: Elements of Power
 - `maxr` — maxr
 - `mc2` — mc2
 - `medievil-ii-recomp` — MediEvil II
@@ -368,43 +237,160 @@
 - `mega-drive-invaders-snes` — Mega Drive Invaders
 - `mega-man-64-recomp` — Mega Man 64
 - `megaman-64-recomp-mobile` — Mega Man 64
-- `megami-ibunroku-persona` — Megami Ibunroku Persona
 - `meleepc` — MeleePC
-- `miichanic-luma3ds-plugin` — Nintendo 3DS
-- `minecraft-3ds-megapack-plugin-3ds` — Nintendo 3DS
 - `mint-arena` — mint-arena
 - `miroh-nes` — Miroh
-- `missyhud-psp-plugin` — PlayStation Portable
-- `mojo-launcher` — Minecraft Java Edition
-- `monde-lointain-mariogolf64` — Mario Golf
-- `monster-hunter-portable-2nd-g` — Monster Hunter Portable 2nd G
-- `moon-pc` — Moon
 - `moonwake-game-boy-color` — Moonwake
 - `mother-1-2-japan` — Mother 1+2 (Japan)
-- `mother-earthbound-zero-earthbound-beginnings` — Mother/Earthbound Zero/Earthbound Beginnings
 - `mr-boom` — Mr.Boom
-- `mschange-psp-plugin` — PlayStation Portable
 - `mudkip-adventures-psp` — Mudkip Adventures
 - `multidrc-space-demo-wii-u` — MultiDRC Space Demo
 - `mwcc` — Metrowerks CodeWarrior for GameCube
 - `mwenge-uridium` — Uridium (uridium (+ UridiumFraktion))
-- `n0zom1z0-th08-web` — Touhou 8: Imperishable Night
-- `n0zom1z0-th08` — Touhou 8: Imperishable Night
-- `naruto-ultimate-ninja-storm-3-full-burst-recomp` — Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst
 - `nautilusbits-skynet-godot` — The Terminator: SkyNET
 - `navyfield-2000-pc` — NavyField 2000 PC
-- `nba-jam-on-fire-recomp` — NBA Jam: On Fire Edition
-- `nblood` — Blood
 - `nearchuckle` — NearChuckle
 - `need-for-speed-1-6` — Need For Speed 1-6
-- `need-for-speed-high-stakes-ps1` — Need for Speed: High Stakes (PS1)
 - `nelumbo` — Lotus Trilogy
-- `neo-drift-out-recomp` — Neo Drift Out
 - `neon-genesis-evangelion-64` — Neon Genesis Evangelion 64
 - `neon-valley-3ds` — Neon Valley
-- `new-play-control-pikmin-2` — New Play Control! Pikmin 2
-- `new-play-control-pikmin` — New Play Control! Pikmin
-- `nfs-most-wanted-recomp` — Need for Speed: Most Wanted (2005)
-- `nfsiise` — Need for Speed II SE
 - `nova-the-squirrel-nes` — Nova the Squirrel
+- `nxe-dashboard-9199` — NXE Dashboard 9199
+- `omega-engine` — OmegA-engine
+- `onegai-monsters` — Onegai Monsters
+- `open-annihilation` — Open Annihilation
+- `openbor-android` — OpenBoR
+- `openciv3` — OpenCiv3
+- `opene2140` — OpenE2140
+- `openkrush` — OpenKrush
+- `openmb` — OpenMB
+- `openomf` — openomf
+- `openreliant` — OpenReliant
+- `opensc2k` — OpenSC2K
+- `openspideyps1` — OpenSpideyPS1
+- `openstrike-psp` — OpenStrike
+- `opentie` — OpenTIE
+- `opentpw` — OpenTPW
+- `openxvt` — OpenXvT
+- `openxw` — OpenXW
+- `openxwa` — OpenXWA
+- `ophd` — OPHD
+- `oracle-of-ages-and-seasons` — Oracle of Ages and Seasons
+- `patoke-re-plants-vs-zombies` — Plants vs Zombies GOTY
+- `paulie68000-zxspectrumhyperactive` — Hyper Active
+- `permafrost-engine` — permafrost-engine
+- `pinball-nx-switch` — Pinball NX
+- `platform-shooter-psp` — Platform Shooter
+- `playopenz-openz` — OpenZ
+- `playstunts` — PlayStunts
+- `pocket-voxel-psp-ps-vita-web` — Pocket Voxel
+- `pokemon-emerald-3d-pokeemerald-3d` — Pokemon Emerald 3D (pokeemerald-3d)
+- `pokemon-md-red` — Pokemon MD Red
+- `pokemon-md-sky` — Pokemon MD Sky
+- `pokemon-reloaded-en-android` — Pokemon Reloaded
+- `pokemon-survivor-burst-android` — Pokémon Survivor Burst
+- `pokemon-tcg-1` — Pokemon TCG 1
+- `pokemon-tcg-2` — Pokemon TCG 2
+- `pokerogue-app` — PokeRogue
+- `pokewilds-android` — PokeWilds
+- `pqmarine-underworldrevisited` — Underworld Revisited
+- `prince-monogame` — Prince-Monogame
+- `project-eleven-recomp` — 11eyes CrossOver
+- `ps2-osdsys` — PS2 OSDSYS
+- `psy-q-decomp` — PS1 Psy-Q SDK Libraries
+- `pt-pc` — P.T. (Playable Teaser)
+- `q2rtxperimental` — Q2RTXPerimental
+- `q2tools-220` — q2tools-220
+- `quake3e` — Quake3e
+- `quakeforge` — quakeforge
+- `radio-helicopter` — Radio Helicopter
+- `ratchet-and-clank-going-commando-usa-v1-01` — Ratchet & Clank: Going Commando (USA v1.01)
+- `ratchet-and-clank-usa` — Ratchet & Clank (USA)
+- `rebellion2` — rebellion2
+- `remc2` — remc2
+- `rerac-launcher` — rerac launcher
+- `resident-evil-4-dreamcast-port-re4dc` — Resident Evil 4 (Dreamcast port, re4dc)
+- `rival-schools-evolution-recomp` — Rival Schools: Evolution Disc
+- `robin-hood-s-platform-game-3ds` — Robin Hood's Platform Game
+- `romanovs-vengeance` — Romanov's Vengeance
+- `rotp-fusion` — Rotp-Fusion
+- `rsdkmodding-rsdkv2-decompilation` — Sonic Nexus
+- `samurai-vs-zombies` — Samurai Vs Zombies
+- `serioussamalpharemake` — SeriousSamAlphaRemake
+- `serioussamclassic-vk` — SeriousSamClassic-VK
+- `sfall` — sfall
+- `sheep-dog-n-wolf-rewooled` — Sheep Dog n Wolf: Rewooled
+- `shin-bokura-no-taiyou-gyakushuu-no-sabata` — Shin Bokura no Taiyou: Gyakushuu no Sabata
+- `shin-megami-tensei-persona-4` — Shin Megami Tensei: Persona 4
+- `shortline-railroad` — Shortline railroad
+- `simpsons-arcade-ps3` — The Simpsons Arcade Game
+- `simpsons-wrestling-recompiled` — Simpsons Wrestling Recompiled
+- `slqntdevss-kisakcod-port` — Call of Duty 4: Modern Warfare (kisakcod-port (web))
+- `solar-guard-game-boy-advance` — Solar Guard
+- `sonic-06-demo` — Sonic 06 Demo
+- `sonic-1-forever` — Sonic 1 Forever
+- `sopwith-sdl-sopwith` — Sopwith (SDL Sopwith)
+- `space-rescue-squad-snes` — Space Rescue Squad
+- `speed-academy` — Speed-Academy
+- `speedbreaker` — SpeedBreaker
+- `speedrun-tower-mega-drive` — Speedrun Tower
+- `spout-android` — Spout
+- `star-wars-episode-1-racer` — Star Wars Episode 1: Racer
+- `starfall-salvage-game-boy-color` — Starfall Salvage
+- `starfox-recomp` — Starfox Recomp
+- `starship-madness-nintendo-64` — Starship Madness
+- `stellargames-bakagain` — Bak-Again
+- `stunts-hd` — Stunts / 4D Sports Driving
+- `sudokul-wii` — SuDokuL
+- `summon-night-swordcraft-3-recomp` — Summon Night: Craft Sword Monogatari - Hajimari no Ishi
+- `summoner-a-goddess-reborn` — Summoner: A Goddess Reborn
+- `super-kawai-breakup-sim-3ds` — Super Kawai Breakup Sim
+- `super-mario-unimaker-ps-vita` — Super Mario UniMaker
+- `superbounce-64-nintendo-64` — Superbounce 64
+- `surrealengine` — SurrealEngine
+- `taiko-no-tatsujin-wii-ketteiban` — Taiko No Tatsujin Wii Ketteiban
+- `tails-adventure-tails-adventure-remake` — Tails Adventure (Tails Adventure Remake)
+- `taradino` — Taradino
+- `the-great-escape-in-c` — The Great Escape in C
+- `the-lord-of-the-rings-return-of-the-king` — The Lord of the Rings: Return of the King
+- `the-operative-no-one-lives-forever-nolfsrc` — The Operative: No One Lives Forever (nolfsrc)
+- `the-oregon-trail-windows-95` — The Oregon Trail (Windows 95)
+- `thinker` — thinker
+- `tile-puzzle-ultimate-3ds` — Tile Puzzle Ultimate
+- `tiny-toon-adventures-buster-busts-loose-pc-port` — Tiny Toon Adventures: Buster Busts Loose! (PC port)
+- `tobu-tobu-girl-dx-game-boy-color` — Tobu Tobu Girl
+- `tobu-tobu-girl-game-boy` — Tobu Tobu Girl
+- `tokimeki-memorial-forever-with-you` — Tokimeki Memorial: Forever with You
+- `tom-jerry-war-of-the-whiskers-pc` — Tom & Jerry: War of the Whiskers
+- `touhou-08-imperishable-night` — Touhou 08: Imperishable Night
+- `trogdor-reburninated-wii` — Trogdor
+- `tsumu-light-recomp` — Tsumu Light
+- `twinbee-paradise-in-donburi-shima` — TwinBee PARADISE in Donburi Shima
+- `tyrquake` — Tyrquake
+- `ultima-7-decomp` — Ultima 7 Decomp
+- `ultimate-mk3-ios` — Ultimate MK3 iOS
+- `un-game-playstation` — UN Game
+- `underworld-exhumed` — Underworld Exhumed
+- `underworldgodot` — UnderworldGodot
+- `unity-underground` — Unity Underground
+- `untitled-sand-game-wii-u` — Untitled Sand Game
+- `vera20k` — vera20k
+- `vf1-recomp` — vf1 recomp
+- `virtua-skimmer-sega-saturn` — Virtua Skimmer
+- `vita-tetris` — Vita Tetris
+- `vorpalfix` — VorpalFix
+- `war1` — war1
+- `wc1-re` — wc1-re
+- `wc2-re` — wc2-re
+- `wertactics-3ds` — Wertactics
+- `willow-s-dream-mega-drive` — Willow's Dream
+- `wipeout-xl-recomp-njh` — Wipeout XL
+- `wipeout-xl-recomp` — Wipeout XL
+- `world-of-warcraft-1-12-benilla` — World of Warcraft 1.12 (benilla)
+- `xbox-360-kernel` — Xbox 360 Kernel
+- `xoreos` — xoreos
+- `zero-hour-reforged` — Zero Hour Reforged
+- `zoids-legacy` — Zoids Legacy
+- `zombie-outbreak-simulator-3ds` — Zombie Outbreak Simulator
+- `zone-of-the-enders-3-guy-savage-from-metal-gear-solid-3` — Zone of the Enders 3 (Guy Savage from Metal Gear Solid 3)
 

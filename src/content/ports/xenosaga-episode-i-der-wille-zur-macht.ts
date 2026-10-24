@@ -25,6 +25,8 @@ export const XenosagaEpisodeIDerWilleZurMacht: Port = {
     alt: "Xenosaga Episode I: Der Wille zur Macht (box art)",
     credit: "Box art",
   },
+  summary: "Xenosaga Episode I: Der Wille zur Macht is a role-playing video game developed by Monolith Soft and published by Namco for the PlayStation 2; the game was released in 2002 in Japan and 2003 in North America. It is the first entry in the Xenosaga trilogy and forms part of the wider Xeno metaseries.",
+  summaryEs: "Xenosaga es una serie de videojuegos del género JRPG, con temáticas de ciencia ficción, space opera y ciertos elementos provenientes de doctrinas como el gnosticismo. Fueron publicados por Namco, y desarrollados por Monolith Soft, quienes más tarde desarrollarían también la popular saga Xenoblade Chronicles, la cual reutiliza numerosos conceptos e ideas.",
   notes: "Matching decompilation of Xenosaga Episode I: Der Wille zur Macht for the PS2.",
   notesEs: "Decompilación que coincide de Xenosaga Episode I: Der Wille zur Macht para PS2.",
 };

@@ -20,6 +20,8 @@ export const bouncePsp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Other"],
+  summary: "Bounce or The Bounce may refer to:Deflection (physics), the event where an object collides with and bounces against a plane surface",
+  summaryEs: "Bounce puede referirse a:Bounce álbum de Bon Jovi. Bounce Tour, gira musical de Bon Jovi. Bounce (película), dirigida por Don Roos en el año 2000. «Bounce», canción de Raven-Symoné de 1999. «Bounce», canción de Calvin Harris de 2011. «Bounce», canción de Iggy Azalea de 2013. Bounce, videojuego del 2001.",
   notes: "Bounce (Nokia, 2002) running on PlayStation Portable through source port. Latest release: v1.1. You need your own copy of the game.",
   notesEs: "Bounce (Nokia, 2002) en PlayStation Portable mediante port de código. Última release: v1.1. Necesitas tu propia copia del juego.",
 };

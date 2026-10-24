@@ -19,6 +19,8 @@ export const slashemAndroid: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["MS-DOS"],
+  summary: "Slash'EM is a variantof the roguelike game NetHack that offers extra features, monsters, and items. Several of its novel features, such as the Monk class, \"conducts\", and the Sokoban levels, have been reincorporated into NetHack.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes:
     "Android port of SLASH'EM, the NetHack variant known for its expanded classes and items. It is a standalone build that does not need the original game.",
   notesEs:

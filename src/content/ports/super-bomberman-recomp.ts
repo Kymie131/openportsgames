@@ -20,6 +20,8 @@ export const superBombermanRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Super Nintendo"],
+  summary: "Super Bomberman is a 1993 action maze video game developed by Produce! and published by Hudson Soft for the Super Nintendo Entertainment System. Part of the Bomberman series, it is the first game in the series to retain the Bomberman title in Europe, instead of being renamed to Dynablaster or Eric and the Floaters.",
+  summaryEs: "Super Bomberman es el primer videojuego en la serie de Bomberman en aparecer en la consola Super Nintendo. También es el primer juego con opción de jugar 4 jugadores simultáneamente en modo batalla.",
   notes:
     "Native recompilation of Super Bomberman (SNES) for Windows. It needs your own copy of the game.",
   notesEs:

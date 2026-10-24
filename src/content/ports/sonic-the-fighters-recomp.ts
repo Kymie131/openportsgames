@@ -19,6 +19,8 @@ export const sonicTheFightersRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Xbox 360"],
+  summary: "Sonic the Fighters, released outside Japan as Sonic Championship, is a 1996 fighting game developed by Sega AM2 and published by Sega for their Model 2 arcade system. The game pits players in one-on-one battles with a roster of characters from the Sonic the Hedgehog series. Sonic the Fighters was made using the fighting engine for Fighting Vipers (1995), and was the first 3D game in the Sonic series.",
+  summaryEs: "Sonic the Fighters es un videojuego de lucha desarrollado por Sega-AM2 para máquinas arcade. Emplea gráficos en 3D y cuenta con personajes y escenarios de la saga Sonic como luchadores.",
   notes:
     "Native Windows port of the Xbox Live Arcade version of Sonic the Fighters through recompilation, with no Xbox 360 emulation. It requires the original game.",
   notesEs:

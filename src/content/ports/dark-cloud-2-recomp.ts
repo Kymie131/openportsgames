@@ -20,6 +20,8 @@ export const darkCloud2Recomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  summary: "Dark Cloud is an 2000 action role-playing game developed by Level-5 and published by Sony Computer Entertainment for the PlayStation 2. Originally intended as a launch title for the system, the game was eventually released in Japan in December 2000, in North America in May 2001, and in Europe in September 2001. A second installment, Dark Chronicle, was released in Japan in 2002 and worldwide the following year.",
+  summaryEs: "Dark Cloud es un videojuego de rol (RPG) para la consola PlayStation 2 (PS2). Fue desarrollado por Level-5 y distruibuido por Sony Computer Entertainment en el año 2000 para Japón y 2001 para América y Europa. Dark Cloud combina elementos de los videojuegos de rol de acción y de los videojuegos de construcción de ciudades. Una secuela, llamada Dark Chronicle, fue publicada dos años después.",
   notes: "Indexed by PortsDR. No official repository is available, and it needs your own copy.",
   notesEs: "Indexado en PortsDR. No hay repositorio oficial disponible y necesita tu propia copia.",
   cover: {

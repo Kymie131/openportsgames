@@ -19,6 +19,8 @@ export const ghostInTheShellRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Ghost in the Shell is a Japanese cyberpunk military science fiction media franchise that began with the eponymous manga series, written and illustrated by Masamune Shirow. The manga, first serialized from 1989 to 1991, is set in the mid-21st-century and follows the fictional counter-cyberterrorist organization Public Security Section 9, led by protagonist Major Motoko Kusanagi.",
+  summaryEs: "Ghost in the Shell es un manga de ciencia ficción creado por Masamune Shirow, que progresó en dos mangas más titulados Ghost in the Shell 2: Man/Machine Interface y Ghost in the Shell 1.5: Human-Error Processor, dos películas animadas dirigidas por Mamoru Oshii: Ghost in the Shell y Ghost in the Shell 2: Innocence, una serie de televisión con dos temporadas denominadas: Ghost in the Shell: Stand Alone Complex y Ghost in the Shell: S.A.C.",
   notes:
     "Recompilation of Ghost in the Shell (PS1, Europe SCES-01050) with PSXRecomp and the recomp-ui launcher. It requires your own disc and a European SCPH-5502/5552 BIOS; the game is compiled on your machine. Release candidate 0.1.0, still without gameplay acceptance.",
   notesEs:

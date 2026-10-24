@@ -20,6 +20,8 @@ export const RyzomCore: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Ryzom, also known as The Saga of Ryzom, is a free and open source massively multiplayer online role-playing game (MMORPG) for Microsoft Windows, OS X, and Linux. It was developed by Nevrax, released in 2004, and became free software in 2010. It takes place in a science fantasy world called Atys.",
+  summaryEs: "Ryzom, también conocido como The Saga of Ryzom, es un juego de rol en línea multijugador masivo (MMORPG) gratuito y de código abierto desarrollado por Nevrax para Microsoft Windows, OS X y Linux.",
   notes:
     "Ryzom Core is the open-source MMORPG framework built on the NeL engine, maintained by the Ryzom Core community. The commercial Ryzom game is developed by Ryzom Forge on a downstream fork at gitlab.com/ryzom.",
   notesEs:

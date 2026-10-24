@@ -19,6 +19,8 @@ export const nfsiise: Port = {
   license: { spdx: "MIT" },
   verified: false,
   originalSystems: ["Windows"],
+  summary: "Need for Speed II is a 1997 racing video game released for PlayStation and Microsoft Windows. It is the second installment in the Need for Speed series, a sequel Need for Speed III: Hot Pursuit was released in 1998.",
+  summaryEs: "Need for Speed II es un videojuego de carreras de autos, que fue lanzado en 1997; desarrollado por EA Canadá y publicado por Electronic Arts. Forma parte de la serie Need for Speed, siendo su segundo lanzamiento, es decir, la secuela de The Need for Speed, primer videojuego de la serie. A diferencia de su predecesor, Need for Speed II no tenía el mismo realismo, pero presentaba una importante mejora gráfica.",
   notes:
     "Cross-platform wrapper that runs Need for Speed II SE with 3D acceleration and TCP networking, using the original game files. It builds for Windows, Linux, macOS and Android.",
   notesEs:

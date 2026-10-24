@@ -25,6 +25,8 @@ export const AreYouSmarterThanA5thGraderMakeTheGrade: Port = {
     alt: "Are You Smarter Than a 5th Grader: Make the Grade (box art)",
     credit: "Box art",
   },
+  summary: "Are You Smarter than a 5th Grader? is a game show franchise that was co-created and produced by Mark Burnett, Barry Poznick and John Stevens. Adult contestants answer questions, as if they came from an elementary grade school quiz. The original American version debuted on the Fox Broadcasting network on February 27, 2007, with host Jeff Foxworthy, airing on Fox until 2009, as a syndicated TV series between 2009 and 2011, and then revived on Fox in 2015, and again on Nickelodeon in 2019, with new host, John Cena. The Are You Smarter than a 5th Grader?",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "A decompilation of Are You Smarter Than a 5th Grader: Make the Grade (PS2).",
   notesEs: "Decompilación de Are You Smarter Than a 5th Grader: Make the Grade (PS2).",
 };

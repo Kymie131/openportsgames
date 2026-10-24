@@ -19,6 +19,8 @@ export const yoshisCookieRecomp: Port = {
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
   originalSystems: ["Nintendo Entertainment System"],
+  summary: "Yoshi's Cookie is a 1992 tile-matching puzzle video game developed by Tose and published by Nintendo for the NES and Game Boy platforms in 1992. A SNES version was released the following year, developed and published by Bullet-Proof Software. The game received generally positive reviews from critics, with praise for its simple but addictive gameplay and its presentation.",
+  summaryEs: "Yoshi's Cookie es un videojuego de combinación de fichas disponible para la NES, Game Boy, SNES, y la Consola Virtual de la Wii.",
   notes:
     "Native recompilation of Yoshi's Cookie (Nintendo Entertainment System). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

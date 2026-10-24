@@ -21,6 +21,8 @@ export const deadOrAlive2UltimateRecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox"],
+  summary: "Dead or Alive 2 is a 1999 fighting game developed by Team Ninja and published by Tecmo for arcades. Initially only released in Japan, it was later released worldwide and was ported to the Dreamcast and PlayStation 2 home systems in 2000. It is the second main entry in the Dead or Alive fighting series following the original Dead or Alive (1996). Several enhanced editions of the game were released, including the updates Dead or Alive 2 Millennium for arcades and Dead or Alive 2 Hardcore or Dead or Alive 2 Hard*Core for the PS2.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "Static recompilation of Dead or Alive 2 Ultimate (Xbox) for Windows with a hand-written runtime. Requires your own copy of the game.",
   notesEs: "Recompilación estática de Dead or Alive 2 Ultimate (Xbox) para Windows con un runtime propio. Requiere tu propia copia del juego.",
 };

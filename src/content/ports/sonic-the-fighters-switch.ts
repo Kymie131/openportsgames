@@ -25,6 +25,8 @@ export const sonicTheFightersSwitch: Port = {
     alt: "Sonic the Fighters (box art)",
     credit: "Wikipedia",
   },
+  summary: "Sonic the Fighters, released outside Japan as Sonic Championship, is a 1996 fighting game developed by Sega AM2 and published by Sega for their Model 2 arcade system. The game pits players in one-on-one battles with a roster of characters from the Sonic the Hedgehog series. Sonic the Fighters was made using the fighting engine for Fighting Vipers (1995), and was the first 3D game in the Sonic series.",
+  summaryEs: "Sonic the Fighters es un videojuego de lucha desarrollado por Sega-AM2 para máquinas arcade. Emplea gráficos en 3D y cuenta con personajes y escenarios de la saga Sonic como luchadores.",
   notes: "Sonic the Fighters (Sega, 1996) running on Nintendo Switch through source port. Latest release: 0.8.3. You need your own copy of the game.",
   notesEs: "Sonic the Fighters (Sega, 1996) en Nintendo Switch mediante port de código. Última release: 0.8.3. Necesitas tu propia copia del juego.",
 };

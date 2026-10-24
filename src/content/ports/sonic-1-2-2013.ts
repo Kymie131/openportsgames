@@ -28,6 +28,8 @@ export const sonic12: Port = {
       credit: "RSDK Modding Wiki",
     },
   ],
+  summary: "Sonic the Hedgehog is a video game series and media franchise created by the Japanese developers Yuji Naka, Naoto Ohshima, and Hirokazu Yasuhara for Sega. The franchise follows Sonic, an anthropomorphic blue hedgehog with supersonic speed, who battles the mad scientist Doctor Eggman and his robot army. The main Sonic the Hedgehog games are platformers mostly developed by Sonic Team; other games, developed by various studios, include spin-offs in the racing, fighting, party, and sports genres. The franchise also incorporates printed media, animations, films, and merchandise.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes:
     "Complete decompilation of the 2013 mobile remakes of Sonic 1 and Sonic 2 (Retro Engine v4), playable on PC, Mac and Linux. Requires a legally acquired copy of the Sonic the Hedgehog (2013) or Sonic the Hedgehog 2 (2013) game data from the App Store, Google Play or Steam.",
   notesEs:

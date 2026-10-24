@@ -22,6 +22,8 @@ export const key2conSwitchSysmodule: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "The Nintendo Switch 2 is a video game console developed by Nintendo and released in most regions on June 5, 2025. Like the original Nintendo Switch, it can be used as a handheld, as a tablet, or connected via the dock to an external display. The Joy-Con 2 controllers can be used while magnetically attached or detached from the console, are larger than the previous Joy-Con controllers, and include computer mouse functionality. Compared to the original Switch, the Switch 2 has a larger liquid-crystal display (LCD), more internal storage, updated graphics, and social features.",
+  summaryEs: "Nintendo Switch es una consola de videojuegos lanzada a mediados de la octava generación de consolas que fue desarrollada por Nintendo y fabricada por Foxconn. Lanzada a nivel mundial en la mayoría de las regiones el 3 de marzo de 2017, la Switch sucedió a Wii U y compitió con PlayStation 4 de Sony y Xbox One de Microsoft; también compite con las consolas de novena generación, la PlayStation 5 y Xbox Series X/S.",
   notes: "Nintendo Switch (Nintendo, 2017) running on Nintendo Switch through source port. Latest release: v0.2.0. You need your own copy of the game.",
   notesEs: "Nintendo Switch (Nintendo, 2017) en Nintendo Switch mediante port de código. Última release: v0.2.0. Necesitas tu propia copia del juego.",
 };

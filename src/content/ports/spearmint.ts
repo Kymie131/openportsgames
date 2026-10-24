@@ -19,6 +19,8 @@ export const Spearmint: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Mint or The Mint may refer to:",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "Spearmint — an updated id Tech 3 engine for continuing the classics and creating new games.",
   notesEs: "Spearmint: un motor id Tech 3 actualizado para continuar los clásicos y crear juegos nuevos.",
 };

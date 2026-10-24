@@ -19,6 +19,8 @@ export const AliceInWonderland: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Wii"],
+  summary: "Lewis Carroll's books Alice's Adventures in Wonderland (1865) and Through the Looking-Glass (1871) have been highly popular in their original forms, and have served as the basis for many subsequent works since they were published. They have been adapted directly into other media, their characters and situations have been appropriated into other works, and these elements have been referenced innumerable times as familiar elements of shared culture.",
+  summaryEs: "Alice in Wonderland es un videojuego de plataformas desarrollado por Digital Eclipse Software y publicado por Nintendo para Game Boy Color entre 2000 y 2001. El juego sigue la trama de la película animada homónima de 1951.",
   notes: "A decompilation of Alice in Wonderland (Wii 2010) by Étranges Libellules.",
   notesEs: "Decompilación de Alice in Wonderland (Wii, 2010) de Étranges Libellules.",
 };

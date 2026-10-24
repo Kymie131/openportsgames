@@ -20,6 +20,8 @@ export const ualbion: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
+  summary: "Albion Online is a free-to-play medieval fantasy MMORPG by Sandbox Interactive, released in 2017.",
+  summaryEs: "Albion Online es un MMORPG no lineal estrenado en 2017 para computador y dispositivos móviles. El juego se desarrolla en Albion, un mundo medieval ficticio, donde los propios jugadores controlan el sistema económico del juego recolectando recursos, construyendo objetos y comerciando con ellos. También pueden luchar contra monstruos u otros jugadores, explorar el mundo, y conquistar territorios y bienes.",
   notes: "Remake of the 1995 RPG Albion. It requires data from an original copy of the game.",
   notesEs: "Remake del RPG Albion de 1995. Requiere datos de una copia original del juego.",
   cover: {

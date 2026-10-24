@@ -25,6 +25,8 @@ export const TransformersMysteryOfConvoy: Port = {
     alt: "Transformers: Mystery Of Convoy (box art)",
     credit: "Wikipedia",
   },
+  summary: "Transformers: Mystery of Convoy is a 1986 video game developed by ISCO and published by Takara in Japan for the Famicom. It is based on the Transformers toyline. The game was made available on the Wii's Virtual Console service on June 10, 2008.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "Decompilation of Transformers: Mystery Of Convoy (Other).",
   notesEs: "Decompilación de Transformers: Mystery Of Convoy (Other).",
 };

@@ -20,6 +20,8 @@ export const kingKongRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  summary: "King Kong, also referred to simply as Kong, is a fictional monster, a giant gorilla who has appeared in various media since 1933. The character has become an international pop culture icon, appearing in several movies, comics, videogames and television shows. His first appearance was in the novelization of the 1933 film King Kong from RKO Pictures, with the film premiering a little over two months later.",
+  summaryEs: "Peter Jackson's King Kong: The Official Game Of The Movie es un videojuego multiplataformas desarrollado y publicado por Ubisoft, basado en la película King Kong del mismo año. Es una colaboración entre el director de la película Peter Jackson y el famoso a diseñador y programador de juegos Michel Ancel, hecho notable tal asociación en dos mundos como el videojuego y el cine.",
   notes:
     "Static recompilation of Peter Jackson's King Kong (the official game of the movie) for Windows. It needs your own copy of the game.",
   notesEs:

@@ -19,6 +19,8 @@ export const wcwNwoWorldTourRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Nintendo 64"],
+  summary: "WCW vs. nWo: World Tour is a professional wrestling video game released in 1997 for the Nintendo 64 game console. Released at the peak of World Championship Wrestling's (WCW) dominance in the Monday Night War, World Tour was THQ's first foray into the N64 wrestling scene and is a semi-sequel to the lesser known WCW vs. the World for the PlayStation. It is the second best-selling wrestling game for the N64 console.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes:
     "Static recompilation of WCW vs. nWo World Tour (N64) with N64Recomp and the RT64 renderer. It requires the game itself.",
   notesEs:

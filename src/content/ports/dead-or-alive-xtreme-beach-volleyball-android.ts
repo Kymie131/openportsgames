@@ -25,6 +25,8 @@ export const deadOrAliveXtremeBeachVolleyballAndroid: Port = {
     alt: "Dead or Alive: Xtreme Beach Volleyball (box art)",
     credit: "Wikipedia",
   },
+  summary: "Dead or Alive Xtreme Beach Volleyball is a 2003 beach volleyball video game developed by Team Ninja and published by Tecmo for the Xbox. It is a spin-off of the Dead or Alive series which otherwise consisted of fighting games. It also marked the first game in the series to have a Mature rating from the Entertainment Software Rating Board due to partial nudity.",
+  summaryEs: "Dead or Alive Xtreme Beach Volleyball es un videojuego de la saga de lucha Dead or Alive. lanzado en 2003 exclusivamente para la plataforma Xbox, En esta ocasión es un juego de deportes dedicado al voleibol.",
   notes: "Dead or Alive: Xtreme Beach Volleyball (Tecmo, 2003) for Android (source port). Latest release: v0.4.2-ru-USA6-Beach. Needs your own copy of the game.",
   notesEs: "Dead or Alive: Xtreme Beach Volleyball (Tecmo, 2003) para Android (port de código). Última release: v0.4.2-ru-USA6-Beach. Necesita tu propia copia del juego.",
 };

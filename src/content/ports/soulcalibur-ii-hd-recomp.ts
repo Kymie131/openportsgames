@@ -20,6 +20,8 @@ export const soulcaliburIiHdRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 3"],
+  summary: "Soulcalibur II is a 2002 fighting game developed and published by Namco. It is the third installment in the Soulcalibur series of weapon-based fighting games as the sequel to Soulcalibur (1998). Originally intended to be released on Sega's NAOMI arcade board, the game was built on the Namco System 246 board before being ported to the PlayStation 2, GameCube, and Xbox home consoles.",
+  summaryEs: "Soulcalibur II es un videojuego de lucha lanzado originalmente en el 2002 para sistemas arcade Namco System 246, luego desarrollado para consolas en el año 2003. Es el segundo juego de la saga Soulcalibur realizada por Namco.",
   notes:
     "Soulcalibur II HD Online (Bandai Namco, 2013) running natively on Windows, Linux and Mac through static recompilation. It needs your own copy.",
   notesEs:

@@ -25,6 +25,8 @@ export const MegamiIbunrokuPersona: Port = {
     alt: "Megami Ibunroku Persona (cover)",
     credit: "Wikipedia",
   },
+  summary: "Megami Ibunroku Persona: Ikū no Tō-hen is a 2006 role-playing video game developed and published by Bbmf. It is a spin-off from Atlus's 1996 game Revelations: Persona, and part of the Persona series, itself a part of the larger Megami Tensei series. It was originally released for Japanese feature phones in December 2006 and was re-released by G-Mode as part of their G-Mode Archives+ line for Nintendo Switch and Windows in September 2023.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "Decompilation of Megami Ibunroku Persona (PlayStation).",
   notesEs: "Decompilación de Megami Ibunroku Persona (PlayStation).",
 };

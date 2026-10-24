@@ -25,6 +25,8 @@ export const Fuel: Port = {
     alt: "FUEL (box art)",
     credit: "Wikipedia",
   },
+  summary: "Fuel is an open world racing video game developed by Asobo Studio and published by Codemasters. The game was released in North America in June 2009 for PlayStation 3, Xbox 360, and Windows. It is set in a post-apocalyptic United States after the Sun scorched the Earth, with a completely free-to-roam open world approximately 5,560 square miles (14,400 km2) in size, which is roughly the size of the U.S. state of Connecticut.",
+  summaryEs: "«Fuel» puede ser:Abreviación de Fueloil, combustible derivado del petróleo.",
   notes: "A decompilation project for the video game FUEL (2009) by Asobo Studio.",
   notesEs: "Proyecto de decompilación del videojuego FUEL (2009) de Asobo Studio.",
 };

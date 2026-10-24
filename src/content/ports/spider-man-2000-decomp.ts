@@ -26,6 +26,8 @@ export const spiderMan2000Decomp: Port = {
     alt: "Spider-Man (box art)",
     credit: "Box art",
   },
+  summary: "Marvel's Spider-Man is a series of superhero action-adventure video games, media franchise, and shared universe developed by Insomniac Games and published by Sony Interactive Entertainment (SIE) for PlayStation consoles and Windows. Based on characters appearing in Marvel Comics publications, the games are inspired by the long-running comic book lore, while additionally deriving from various adaptations in other media.",
+  summaryEs: "Spider-Man puede referirse a:",
   notes: "Decompilation of the PC port of Neversoft's Spider-Man (2000). The repository is public but documents almost nothing yet.",
   notesEs: "Decompilación del port de PC de Spider-Man de Neversoft (2000). El repositorio es público pero todavía no documenta casi nada.",
 };

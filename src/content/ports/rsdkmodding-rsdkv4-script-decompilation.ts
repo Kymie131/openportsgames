@@ -22,6 +22,8 @@ export const rsdkmoddingRsdkv4ScriptDecompilation: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Sonic the Hedgehog is a video game series and media franchise created by the Japanese developers Yuji Naka, Naoto Ohshima, and Hirokazu Yasuhara for Sega. The franchise follows Sonic, an anthropomorphic blue hedgehog with supersonic speed, who battles the mad scientist Doctor Eggman and his robot army. The main Sonic the Hedgehog games are platformers mostly developed by Sonic Team; other games, developed by various studios, include spin-offs in the racing, fighting, party, and sports genres. The franchise also incorporates printed media, animations, films, and merchandise.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "Sonic the Hedgehog (2013): decompilation by RSDKModding for Windows. Bring your own copy of the game.",
   notesEs: "Sonic the Hedgehog (2013): decompilación de RSDKModding para Windows. Aporta tu propia copia del juego.",
 };

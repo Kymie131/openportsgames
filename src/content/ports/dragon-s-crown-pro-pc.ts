@@ -20,6 +20,8 @@ export const dragonSCrownProPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 4"],
+  summary: "Dragon's Crown is a 2013 action role-playing game developed by Vanillaware for the PlayStation 3 and PlayStation Vita. The game was published in Japan and North America by Atlus and in PAL regions by NIS America. A high-definition port for PlayStation 4, Dragon's Crown Pro, was released by Atlus in 2018. Players navigate environments from a side-scrolling perspective, choosing from six character classes to fight in the style of a beat 'em up and acquiring loot through repeated dungeon exploration.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "Dragon's Crown Pro (Vanillaware, 2018) running on Windows through runtime layer. Latest release: v0.6.0. You need your own copy of the game.",
   notesEs: "Dragon's Crown Pro (Vanillaware, 2018) en Windows mediante capa de ejecución. Última release: v0.6.0. Necesitas tu propia copia del juego.",
 };

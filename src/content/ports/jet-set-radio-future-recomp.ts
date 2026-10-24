@@ -20,6 +20,8 @@ export const jetSetRadioFutureRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox"],
+  summary: "Jet Set Radio Future is a 2002 action game developed by Smilebit and published by Sega for the Xbox. It is the sequel to the 2000 Dreamcast game Jet Set Radio, and as a re-imaging of the original game, Jet Set Radio Future maintains its predecessor's cel-shaded visuals while introducing refined gameplay mechanics, updated graphics, larger open world environments, new characters, an altered plot, a new soundtrack and multiplayer gameplay.",
+  summaryEs: "Jet Set Radio Future es un videojuego de acción de 2002 desarrollado por Smilebit y publicado por Sega para Xbox; es una secuela del juego de Dreamcast Jet Set Radio (2000). Como una nueva versión del juego original, presenta mecánicas de juego refinadas, gráficos actualizados, entornos de mundo abierto más grandes, nuevos personajes, una trama alterada, una nueva banda sonora y un modo de juego multijugador.",
   notes:
     "Static recompilation of Jet Set Radio Future (Xbox) for Windows. It needs your own copy of the game.",
   notesEs:

@@ -25,6 +25,8 @@ export const marathonRecompiled: Port = {
     alt: "Sonic The Hedgehog (2006) (box art)",
     credit: "Wikipedia",
   },
+  summary: "Sonic the Hedgehog is a video game series and media franchise created by the Japanese developers Yuji Naka, Naoto Ohshima, and Hirokazu Yasuhara for Sega. The franchise follows Sonic, an anthropomorphic blue hedgehog with supersonic speed, who battles the mad scientist Doctor Eggman and his robot army. The main Sonic the Hedgehog games are platformers mostly developed by Sonic Team; other games, developed by various studios, include spin-offs in the racing, fighting, party, and sports genres. The franchise also incorporates printed media, animations, films, and merchandise.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "Sonic The Hedgehog (2006) (Sega, 2006) for Android (static recompilation). Latest release: Third. Needs your own copy of the game (Sonic 2006 ISO).",
   notesEs: "Sonic The Hedgehog (2006) (Sega, 2006) para Android (recompilación estática). Última release: Third. Necesita tu propia copia del juego.",
 };

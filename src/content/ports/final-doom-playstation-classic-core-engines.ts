@@ -20,6 +20,8 @@ export const finalDoomPlaystationClassicCoreEngines: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Final Doom is a 1996 first-person shooter game developed by TeamTNT and published by id Software for MS-DOS and Macintosh computers, as well as for the PlayStation, although the latter featured a selection of levels from the game and from Master Levels for Doom II.",
+  summaryEs: "Final Doom es un videojuego de disparos en primera persona que utiliza el motor de juego, objetos y personajes de Doom II, lanzado en 1996 y distribuido como un producto oficial de id Software.",
   notes: "Final Doom (Playstation) (id Software, 1996) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (.bin and .cue files).",
   notesEs: "Final Doom (Playstation) (id Software, 1996) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
 };

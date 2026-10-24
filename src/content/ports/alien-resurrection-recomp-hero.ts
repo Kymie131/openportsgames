@@ -26,6 +26,8 @@ export const alienResurrectionRecompHero: Port = {
     alt: "Alien Resurrection (box art)",
     credit: "Box art",
   },
+  summary: "Alien Resurrection is a 1997 American science fiction horror film directed by Jean-Pierre Jeunet, written by Joss Whedon, and starring Sigourney Weaver and Winona Ryder. It is the fourth installment of the Alien franchise, and was filmed at the 20th Century Fox studios in Los Angeles, California.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "Static recompilation of Alien Resurrection (PlayStation, 2000) for Windows. Bring your own disc. Latest release: v0.3.0.",
   notesEs: "Recompilación estática de Alien Resurrection (PlayStation, 2000) para Windows. Aporta tu propio disco. Última release: v0.3.0.",
 };

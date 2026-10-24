@@ -19,6 +19,8 @@ export const rush2Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Nintendo 64"],
+  summary: "San Francisco Rush 2049 is a 1999 racing video game developed and published by Atari Games for arcades. It was later ported to home systems. It is the third game in the Rush series as the sequel to San Francisco Rush: Extreme Racing and Rush 2: Extreme Racing USA as well as the last to be set in the city of San Francisco. An updated version with fixes and more tracks was later released subtitled Tournament Edition.",
+  summaryEs: "San Francisco Rush 2049 es un videojuego de carreras de 1999 desarrollado por Atari Games y publicado por Midway Games para la Arcade, Nintendo 64, Game Boy Color, y Dreamcast. Fue lanzado el 7 de septiembre de 2000 en Norteamérica y el 17 de noviembre de 2000 en Europa. Es el tercer juego de la serie Rush y la secuela de Rush 2: Extreme Racing USA. La versión de Dreamcast fue posteriormente reeditada como parte de Midway Arcade Treasures 3 para la PlayStation 2, Xbox y Nintendo GameCube.",
   notes:
     "Native recompilation of San Francisco Rush 2 (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

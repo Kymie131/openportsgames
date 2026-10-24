@@ -20,6 +20,8 @@ export const narutoStorm3FullBurstRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  summary: "Naruto Shippuden: Ultimate Ninja Storm 3, known in Japan as Naruto Shippūden: Narutimate Storm 3 , the fourth installment of the Ultimate Ninja Storm series, is a fighting game developed by CyberConnect2 as part of the Naruto: Ultimate Ninja video-game series based on Masashi Kishimoto's Naruto manga. It was first released for PlayStation 3 and Xbox 360 by Namco Bandai Games in March 2013 in North America and in Europe, and in April 2013 in Japan.",
+  summaryEs: "Naruto Shippūden: Ultimate Ninja Storm 3, conocido en Japón como Naruto Narutimate Storm 3 , es un videojuego del anime Naruto Shippūden desarrollado por CyberConnect2 para las consolas PlayStation 3 y Xbox 360. Hasta ese momento, era el juego más largo de la saga Naruto Ultimate Ninja y tiene un número de 80 personajes. La fecha exacta de lanzamiento fue el 5 de marzo en América del Norte y el 8 de marzo en Europa. Japón ocupó su fecha de lanzamiento el 18 de abril de 2013.",
   notes: "Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst (Xbox 360, 2013) running natively on Android (ARM64) and PC (Windows x64) via static recompilation, no CPU emulator. Built by Masterllgod; no game files are included, you need your own copy. Documentation only so far (no build yet).",
   notesEs: "Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst (Xbox 360, 2013) corriendo de forma nativa en Android (ARM64) y PC (Windows x64) por recompilación estática, sin emulador de CPU. Hecho por Masterllgod; no incluye archivos del juego, necesitas tu propia copia. De momento solo documentación (sin build todavía).",
 };

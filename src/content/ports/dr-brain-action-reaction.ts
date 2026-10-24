@@ -25,6 +25,8 @@ export const DrBrainActionReaction: Port = {
     alt: "Dr. Brain Action Reaction (box art)",
     credit: "Wikipedia",
   },
+  summary: "Dr. Brain: Action Reaction is the third installment of the Dr. Brain series by Knowledge Adventure, based on the series by Sierra Entertainment.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "Decompiled Assets From Dr Brain Action Reaction (1999).",
   notesEs: "Recursos decompilados de Dr. Brain: Action Reaction (1999).",
 };

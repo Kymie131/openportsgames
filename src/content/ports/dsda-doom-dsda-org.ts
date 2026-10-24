@@ -20,6 +20,8 @@ export const DsdaDoomDsdaOrg: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "DSDA may refer to:Defence Storage and Distribution Agency, a previous executive agency of the Government of the United Kingdom under the Ministry of Defence (MoD). Dual SIM Dual Active, a dual SIM phone that can use two SIM cards at the same time. Doom Speed Demo Archive, an archive for Doom speedruns.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes:
     "This is a successor of prboom+ with extra tooling for demo recording and playback, with a focus on speedrunning and quality of life.",
   notesEs:

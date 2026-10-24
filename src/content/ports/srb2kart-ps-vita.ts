@@ -20,6 +20,8 @@ export const srb2kartPsVita: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  summary: "Sonic Robo Blast 2 is a platform game made within a modified version of id Software's Doom engine. It is a free Sonic the Hedgehog fan game inspired by the original Sega Genesis games that \"attempts to recreate their design in 3D\", and was the first fan-made 3D Sonic game created. The game has received consistent support throughout its development of over 25 years, which has been attributed to a large modding community.",
+  summaryEs: "Sonic Robo Blast 2, abreviado como SRB2, es un fangame de PC, basado en la franquicia de Sonic the Hedgehog. Es un juego de plataformas en 3D desarrollado por un grupo de fans llamado Sonic Team Junior, usando una versión modificada del motor Doom Legacy. Está estrechamente inspirado en los juegos originales de Sonic en 2D para el Sega Genesis e intenta recrear este estilo en 3D. También incluye diversos desbloqueables basados en otros juegos clásicos, como un nivel basado en Super Mario Bros. u otro basado en NiGHTS Into Dreams.",
   notes: "Sonic Robo Blast 2 Kart (Kart Krew, 2019) running on PlayStation Vita through source port. Latest release: v2.1. You need your own copy of the game.",
   notesEs: "Sonic Robo Blast 2 Kart (Kart Krew, 2019) en PlayStation Vita mediante port de código. Última release: v2.1. Necesitas tu propia copia del juego.",
 };

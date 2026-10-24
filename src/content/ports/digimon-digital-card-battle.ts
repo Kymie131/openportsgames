@@ -25,6 +25,8 @@ export const DigimonDigitalCardBattle: Port = {
     alt: "Digimon: Digital Card Battle (box art)",
     credit: "Wikipedia",
   },
+  summary: "Digimon Digital Card Battle, originally released in Japan as Digimon World: Digital Card Arena , is a video game based on the Digimon Collectible Card Game for the PlayStation. It was developed by BEC and published by Bandai, and was first made available in Japan in December 2000, with English releases in North America and Europe arriving in June 2001 and July 2002, respectively.",
+  summaryEs: "Digimon Digital Card Battle es un videojuego para PlayStation basado en la franquicia Digimon. Este juego es muy diferente a los otros juegos de Digimon ya que es un juego totalmente basado en tarjetas. Los jugadores tienen una baraja de 30 cartas, que consta de diferentes Digimon, el apoyo para los mismos y las cartas de digievolución. El concepto de digievolución es similar al de los otros juegos, en el que se inicia con un digimon nivel Rookie (novato) y se termina con uno en etapa Ultimate. Los jugadores sacrifican los digimon en sus manos para obtener «puntos de digievolución» o PD.",
   notes: "Decompilation of Digimon: Digital Card Battle (Other).",
   notesEs: "Decompilación de Digimon: Digital Card Battle (Other).",
 };

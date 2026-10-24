@@ -20,6 +20,8 @@ export const SheepDogNWolfSheepRaider: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Sheep, Dog 'n' Wolf is a puzzle-platformer stealth video game developed by Infogrames Lyon House and published by Infogrames for Microsoft Windows and PlayStation.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "Decompilation project of the game Sheep Wolf N Dog.",
   notesEs: "Proyecto de decompilación del juego Sheep Wolf N Dog.",
 };

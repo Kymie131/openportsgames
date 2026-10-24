@@ -20,6 +20,8 @@ export const superman64Recomp: Port = {
   verified: false,
   sourceDead: true,
   originalSystems: ["Nintendo 64"],
+  summary: "Superman is an action-adventure video game programmed by John Dunn for the Atari Video Computer System and released in 1979 by Atari, Inc. The player controls Superman, whose quest is to explore an open-ended environment to find three pieces of a bridge that was destroyed by Lex Luthor, capture Luthor and his criminal gang, and return to the Daily Planet building. The game world is populated by antagonists such as a helicopter that re-arranges the bridge pieces and roving kryptonite satellites that cause Superman to revert into Clark Kent.",
+  summaryEs: "Superman, también conocido como Superman 64, es un videojuego desarrollado en 1999 por Titus Software para la consola Nintendo 64. El juego está basado en la serie Superman: La serie animada, cuenta con la licencia de DC Comics, y está considerado por varias publicaciones de videojuegos como uno de los peores desarrollados en la historia.",
   notes:
     "Native recompilation of Superman (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content. The upstream repository is no longer available.",
   notesEs:

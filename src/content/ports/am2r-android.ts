@@ -19,6 +19,8 @@ export const am2rAndroid: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Game Boy"],
+  summary: "Metroid is an action-adventure game franchise created by Nintendo. The player controls the bounty hunter Samus Aran, who protects the galaxy from Space Pirates and their attempts to harness the power of the parasitic Metroid creatures. Metroid combines the platforming of Super Mario Bros. and the exploration of The Legend of Zelda with a science fiction setting and an emphasis on nonlinear gameplay. Metroid games are mostly presented as either side-scrolling or from a first-person perspective.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes:
     "Android tool that patches the fan remake AM2R 1.1 into a modern Android build. It works with your own copy of the AM2R files.",
   notesEs:

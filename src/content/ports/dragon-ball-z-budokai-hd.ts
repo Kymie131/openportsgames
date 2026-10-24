@@ -19,6 +19,8 @@ export const dragonBallZBudokaiHd: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Xbox 360"],
+  summary: "Dragon Ball Z: Budokai, known as in Japan as simply Dragon Ball Z, is a series of fighting video games based on the anime series Dragon Ball Z, itself part of the larger Dragon Ball franchise.",
+  summaryEs: "Dragon Ball Z Budokai HD Collection es una recopilación remasterizada que contiene los títulos Dragon Ball Z Budokai y Dragon Ball Z Budokai 3 que aparecieron originalmente en PlayStation 2 en los años 2002 y 2004, respectivamente. Este recopilatorio está disponible para las consolas PlayStation 3 y Xbox 360, con los dos juegos remasterizados en alta definición a 720p y soporte para logros y trofeos.",
   notes:
     "ReXGlue static recompilation of Dragon Ball Z: Budokai HD Collection (Xbox 360) for Windows. Needs the original game files.",
   notesEs:

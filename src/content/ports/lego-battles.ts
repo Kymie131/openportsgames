@@ -25,6 +25,8 @@ export const LegoBattles: Port = {
     alt: "Lego Battles (box art)",
     credit: "Wikipedia",
   },
+  summary: "Lego Battles is a Lego-themed real-time strategy video game developed by Hellbent Games and co-published by Warner Bros. Interactive Entertainment and TT Games Publishing in June 2009 for the Nintendo DS. There are a total of three different stories in the game with six different quests and 15 different levels in each quest, with the option of playing as the protagonists or the antagonists of each story. Quests are divided into three acts, each ranging in length of 4-6 levels. The game is based on the buildable toy lines of Lego themes such as Castle, Pirates, and Space themes.",
+  summaryEs: "Lego Battles es un videojuego desarrollado por Hellbent Games y co-publicado por TT Games y Warner Bros. Interactive Entertainment. Su lanzamiento fue el 9 de junio de 2009 para la consola portátil Nintendo DS.",
   notes: "A decompilation of the DS game Lego Battles.",
   notesEs: "Una decompilación del juego de DS Lego Battles.",
 };

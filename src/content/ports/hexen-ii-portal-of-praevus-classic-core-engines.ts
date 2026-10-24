@@ -20,6 +20,8 @@ export const hexenIiPortalOfPraevusClassicCoreEngines: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Hexen II is a 1997 first-person shooter game developed by Raven Software and published by id Software for Windows. It is the third game in the Hexen/Heretic series, and the last in the Serpent Riders trilogy. Using a modified Quake engine, it features single-player and multiplayer game modes, as well as four character classes to choose from, each with different abilities. These include the \"offensive\" Paladin, the \"defensive\" Crusader, the spell-casting Necromancer, and the stealthy Assassin.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "Hexen II: Mission Pack – Portal of Praevus⁠ (Raven Software, 1997) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (portals folder).",
   notesEs: "Hexen II: Mission Pack – Portal of Praevus⁠ (Raven Software, 1997) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
 };

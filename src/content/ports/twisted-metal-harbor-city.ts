@@ -20,6 +20,8 @@ export const TwistedMetalHarborCity: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  summary: "Twisted Metal is a series of vehicular combat video games originally developed by SingleTrac and published by Sony Interactive Entertainment. The series has appeared on the PlayStation, PlayStation 2, PlayStation Portable and PlayStation 3. As of October 31, 2000, the series had sold 5 million copies. Several of the games in the series were re-released as part of the Sony Greatest Hits program. The original game and its first sequel were also released for the PC.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "Matching decompilation of Twisted Metal: Harbor City (PS2).",
   notesEs: "Decompilación que coincide de Twisted Metal: Harbor City (PS2).",
 };

@@ -22,6 +22,8 @@ export const p2tieMh1j: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation 2"],
+  summary: "Monster Hunter is a Japanese media franchise centered on a series of fantasy-themed action role-playing video games, beginning with the first installment Monster Hunter for the PlayStation 2, released in 2004. The series has been released on multiple platforms, including personal computers, home consoles, portable consoles, and mobile devices. The series is developed and published by Capcom.",
+  summaryEs: "La franquicia Monster Hunter es una serie de videojuegos de rol de acción con temática fantástica que comenzó con el videojuego Monster Hunter para PlayStation 2, lanzado en 2004. Los títulos han sido publicados en una variedad de plataformas, que incluyen computadoras personales, consolas domésticas, consolas portátiles y dispositivos móviles. La serie es desarrollada y publicada por Capcom.",
   notes: "Monster Hunter: decompilation by 2Tie for Windows. Bring your own copy of the game.",
   notesEs: "Monster Hunter: decompilación de 2Tie para Windows. Aporta tu propia copia del juego.",
 };

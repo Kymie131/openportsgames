@@ -21,6 +21,8 @@ export const warcraft2Android: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["Windows"],
+  summary: "Warcraft II: Tides of Darkness is a fantasy real-time strategy (RTS) computer game developed by Blizzard Entertainment and released for MS-DOS and Microsoft Windows in 1995 and Mac OS in 1996 by Blizzard's parent, Davidson & Associates. A sequel to Warcraft: Orcs & Humans, the game was met with positive reviews and won most of the major PC gaming awards in 1996. In 1996, Blizzard released an expansion pack, Warcraft II: Beyond the Dark Portal, for DOS and Mac OS, and a compilation, Warcraft II: The Dark Saga, for the PlayStation and Sega Saturn.",
+  summaryEs: "Warcraft II: Tides of Darkness es un videojuego de estrategia en tiempo real creado por Blizzard Entertainment y secuela del aclamado Warcraft: Orcs & Humans. Con este juego continúa la serie Warcraft y al igual que su predecesor ocurre en un ambiente épico medieval fantástico donde la raza humana coexiste con diversas criaturas mitológicas.",
   notes: "Warcraft II port for Android, Windows and macOS. Bring your own game data.",
   notesEs: "Port de Warcraft II para Android, Windows y macOS. Aporta tus propios datos del juego.",
 };

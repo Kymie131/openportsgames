@@ -22,6 +22,8 @@ export const sjmeliaCivd: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Sidney K. Meier is an American businessman and computer programmer. A programmer, designer, and producer of many strategy and simulation video games, including the Civilization series, Meier co-founded MicroProse in 1982 with Bill Stealey and is the Director of Creative Development of Firaxis Games, which he co-founded with Jeff Briggs and Brian Reynolds in 1996. For his contributions to the video game industry, Meier was inducted into the Academy of Interactive Arts and Sciences Hall of Fame.",
+  summaryEs: "Sid Meier's Civilization o Civilization I es un videojuego de estrategia por turnos creado por Sid Meier y publicado por MicroProse en 1991 para las plataformas MS-DOS, Microsoft Windows, Apple Macintosh, Commodore Amiga, Atari ST y Super NES.",
   notes: "Sid Meier's Civilization: decompilation by sjmelia for Windows. Bring your own copy of the game.",
   notesEs: "Sid Meier's Civilization: decompilación de sjmelia para Windows. Aporta tu propia copia del juego.",
 };

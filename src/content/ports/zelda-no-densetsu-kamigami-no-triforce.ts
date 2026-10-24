@@ -25,6 +25,8 @@ export const ZeldaNoDensetsuKamigamiNoTriforce: Port = {
     alt: "Zelda no Densetsu: Kamigami no Triforce (box art)",
     credit: "Wikipedia",
   },
+  summary: "The Triforce is a fictional artifact and icon of Nintendo's The Legend of Zelda video game franchise. It first appeared in the original The Legend of Zelda video game (1986) and has appeared in almost every subsequent game in the series. It consists of three equilateral triangles that are joined to form a large equilateral triangle. In-universe, it represents the essences of the Golden Goddesses—Din, Nayru, and Farore—who created Hyrule. Imbued with divine power, it is capable of granting any wish to anyone who possesses it.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "Accurate and annotated disassembly of Zelda no Densetsu: Kamigami no Triforce.",
   notesEs: "Desensamblado preciso y anotado de Zelda no Densetsu: Kamigami no Triforce.",
 };

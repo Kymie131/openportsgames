@@ -20,6 +20,8 @@ export const EarthboundPhaseDistorter: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "EarthBound, originally released in Japan as Mother 2: Gīgu no Gyakushū, is a 1994 role-playing video game developed by Ape Inc. and HAL Laboratory and published by Nintendo for the Super Nintendo Entertainment System. The second entry in the Mother series, it follows a young boy named Ness and his party of Paula, Jeff and Poo, as they travel the world to collect melodies from eight Sanctuaries to defeat the universal cosmic destroyer Giygas.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "A Mother 2/EarthBound PC Port.",
   notesEs: "Un port para PC de Mother 2 / EarthBound.",
 };

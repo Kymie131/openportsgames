@@ -19,6 +19,8 @@ export const ridgeRacerType4Recomp: Port = {
   license: { spdx: "MIT" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "R4: Ridge Racer Type 4, released without the 'R4' prefix in PAL territories, is a 1998 racing video game developed and published by Namco for the PlayStation. It is the fourth home title in the Ridge Racer series after Rage Racer (1996) and was initially released on December 3, 1998 in Japan, with global releases following in 1999.",
+  summaryEs: "R4: Ridge Racer Type 4 , lanzado sin el prefijo «R4» en territorios PAL, es un videojuego de carreras de 1998 desarrollado y publicado por Namco para la PlayStation. Es la cuarta entrega para consolas domésticas de la serie Ridge Racer. Se lanzó inicialmente el 3 de diciembre de 1998 en Japón, seguido de lanzamientos globales en 1999.",
   notes:
     "Native recompilation of R4: Ridge Racer Type 4 (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:

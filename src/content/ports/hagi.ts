@@ -21,6 +21,8 @@ export const hagi: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
+  summary: "Ianis Hagi is a Romanian professional footballer who plays as an attacking midfielder or a winger for Süper Lig club Alanyaspor and the Romania national team.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes:
     "Decompilation of the Hagi GameCube and Wii emulator bundled with Super Mario 3D All-Stars. It is an emulator, not a game.",
   notesEs:

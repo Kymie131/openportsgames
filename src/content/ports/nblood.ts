@@ -30,6 +30,8 @@ export const nBlood: Port = {
     "Renderizador moderno con iluminación dinámica",
     "Reimplementación del motor de Blood en C++ portátil",
   ],
+  summary: "Blood is a 1997 first-person shooter game developed by Monolith Productions using the Build engine and published by GT Interactive. The shareware version was released for MS-DOS on March 7, 1997, while the full version was later released on May 21 in North America and June 20 in Europe.",
+  summaryEs: "Blood puede referirse a:",
   notes:
     "In-progress Blood engine reimplementation. Releases are tagged with revision numbers (r14388) rather than semantic versions, and no project-wide license file was found.",
   notesEs:

@@ -20,6 +20,8 @@ export const emazingMazes3ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  summary: "A maze is a path or collection of paths, typically from an entrance to a goal. The word is used to refer both to branching tour puzzles through which the solver must find a route, and to simpler non-branching (\"unicursal\") patterns that lead unambiguously through a convoluted layout to a goal. The term \"labyrinth\" is generally synonymous with \"maze\", but can also connote specifically a unicursal pattern. The pathways and walls in a maze are typically fixed, but puzzles in which the walls and paths can change during the game are also categorised as mazes or tour puzzles.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "eMazing Mazes (eGames, 2003) running on Nintendo 3DS through source port. Latest release: v1.0.0. You need your own copy of the game.",
   notesEs: "eMazing Mazes (eGames, 2003) en Nintendo 3DS mediante port de código. Última release: v1.0.0. Necesitas tu propia copia del juego.",
 };

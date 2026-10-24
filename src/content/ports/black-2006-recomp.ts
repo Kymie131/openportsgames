@@ -21,6 +21,8 @@ export const black2006Recomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["Xbox"],
+  summary: "Black is a 2006 first-person shooter game developed by Criterion Games and published by Electronic Arts (EA) for the PlayStation 2 and Xbox. The player assumes control of Jack Kellar, a US Army special forces soldier being interrogated about his previous missions involving a terrorist operation. Gameplay involves players fighting terrorists by using firearms and grenades. The game is notable and was heavily promoted for its large focus on destructive effects and explosions during gameplay, as well as its cinema-inspired action and sound quality.",
+  summaryEs: "Black puede referirse a:Black (Alabama), pueblo en el estado de Alabama (Estados Unidos). Black (banda), banda británica de música liderada por Colin Vearncombe (1962-2016), reconocido como Black. Black (canción de Pearl Jam), canción de Pearl Jam de 1991. Black (película de 2005), película india de 2005. Black (película de 2015) (2015), película belga dirigida por Adil El Arbi y Bilall Fallah. Black (videojuego), videojuego en primera persona de 2006. Black (serie de televisión), serie de televisión surcoreana de 2017. Black (mascota), mascota del mundial Canadá-Estados Unidos-México 2026.",
   notes: "Static recompilation of Criterion's BLACK (2006) for Windows, with the original destruction and 60 FPS. This is a different project from the Spark198rus port already in the catalog.",
   notesEs: "Recompilación estática de BLACK (2006) de Criterion para Windows, con la destrucción original y 60 FPS. Es un proyecto distinto del port de Spark198rus que ya está en el catálogo.",
 };

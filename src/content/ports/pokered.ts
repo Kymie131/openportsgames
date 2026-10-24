@@ -29,6 +29,8 @@ export const pokered: Port = {
     },
   ],
   originalSystems: ["Game Boy"],
+  summary: "Pokémon Red Version and Pokémon Blue Version are popular 1996 role-playing video games (RPGs) developed by Game Freak and published by Nintendo for the Game Boy. They are the first installments of the Pokémon video game series and were first released in Japan as Pocket Monsters Red and Pocket Monsters Green, followed by the special edition Pocket Monsters Blue later that year.",
+  summaryEs: "Pokémon es una franquicia de medios que originalmente comenzó como un videojuego RPG, pero debido a su popularidad ha logrado expandirse a otros medios de entretenimiento como series de anime de televisión, películas, juegos de cartas, ropa, juguetes, peluches, entre otros, convirtiéndose en una marca que es reconocida en el mercado mundial. Las ventas de videojuegos hasta el 1 de diciembre de 2006 habían alcanzado una cantidad de 340 millones de ejemplares, logrando ocupar el segundo lugar de las sagas de videojuegos más vendidos de Nintendo.",
   notes:
     "Fully commented disassembly of the first generation Pokémon games that builds byte-perfect copies via rgbds. Produces the original Game Boy ROM rather than a native modern executable; the pairing projects in the pret organization power many quality-of-life remakes and hacks built from this source. The pret organization does not publish numbered releases; builds track the repository.",
   notesEs:

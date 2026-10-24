@@ -28,6 +28,8 @@ export const exultPort: Port = {
     "Build disponible para Android",
     "Soporte de scripting para contenido nuevo",
   ],
+  summary: "Ultima VIII: Pagan is a role-playing video game, released as the eighth part of the Ultima series. Released in 1994, it is a DOS-only title and is also the first game in the series to be rated M in North America. It was not as well-received as its predecessors, Ultima VII and Ultima VII Part Two: Serpent Isle.",
+  summaryEs: "Ultima es una saga de videojuegos de rol para ordenador desarrollada por Origin Systems, Inc. Fue creada por Richard Garriot,. Muchos capítulos de la saga son considerados puntos de partida para otros juegos de su especie. En la actualidad, Electronic Arts mantiene los derechos sobre la franquicia del juego, habiendo sido una de las sagas más largas -si no la mayor-.",
   notes:
     "Open source engine for the Ultima VII and VIII games. Published GitHub releases are prereleases only, so no stable version is recorded.",
   notesEs:

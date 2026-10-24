@@ -20,6 +20,8 @@ export const pokemonLetsGoRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo Switch"],
+  summary: "Eevee, known in Japan as Eievui , is a Pokémon species in the Pokémon franchise. Created by Satoshi Tajiri and designed by Motofumi Fujiwara, it first appeared in the video games Pokémon Red and Blue. It later appeared in a variety of merchandise, spin-off titles, and both animated and printed adaptations of the franchise. It is also the game mascot and starter Pokémon for Pokémon: Let's Go, Eevee!",
+  summaryEs: "Eevee es un personaje de ficción de la franquicia de Nintendo y Game Freak Pokémon. Creado por Ken Sugimori, su primera aparición fue en los videojuegos Pokémon Rojo y Azul. Ha aparecido en diversos medios, títulos especiales, y adaptaciones animadas de la franquicia. Es la mascota principal y Pokémon inicial en el juego Pokémon: Let's Go, Eevee! para Nintendo Switch.",
   notes: "Pokémon: Let's Go, Eevee! (Nintendo Switch, 2018) as a native port for windows via static recompilation, not an emulator. It ships no game code or data: bring your own copy. Latest release: v0.2.2.",
   notesEs: "Pokémon: Let's Go, Eevee! (Nintendo Switch, 2018) como port nativo para windows mediante recompilación estática, no un emulador. No incluye código ni datos del juego: aporta tu propia copia. Última release: v0.2.2.",
 };

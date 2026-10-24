@@ -25,6 +25,8 @@ export const lsdRevampedPsVita: Port = {
     alt: "LSD: Dream Emulator (box art)",
     credit: "Wikipedia",
   },
+  summary: "LSD: Dream Emulator is a 1998 exploration-adventure game by Asmik Ace Entertainment, released for the PlayStation. In LSD, the player explores surreal environments without any objective. If they touch anything in the environment, such as walls, creatures or objects, they will be warped to another setting. The game was conceived by Japanese artist Osamu Sato, who rejected the idea of games, and wanted to use the PlayStation as a medium for creating contemporary art. The game's concept is based on a dream diary kept by an Asmik Ace employee for over a decade.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "LSD: Dream Emulator (Asmik Ace, 1998) running on PlayStation Vita through source port. Latest release: v1.0. You need your own copy of the game.",
   notesEs: "LSD: Dream Emulator (Asmik Ace, 1998) en PlayStation Vita mediante port de código. Última release: v1.0. Necesitas tu propia copia del juego.",
 };

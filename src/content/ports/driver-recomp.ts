@@ -19,6 +19,8 @@ export const driverRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Driver 2 is a 2000 action driving video game and the second installment of the Driver series. It was developed by Reflections Interactive and published by Infogrames for PlayStation. A port to the Game Boy Advance, titled Driver 2 Advance, was released in 2002, developed by Sennari Interactive and released under Infogrames' Atari range of products.",
+  summaryEs: "Driver puede designar a:",
   notes:
     "Recompilation of Driver (PS1, USA SLUS-00842) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

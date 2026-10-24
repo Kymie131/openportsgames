@@ -25,6 +25,8 @@ export const MarioParty1: Port = {
     alt: "Mario Party 1 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Mario Party is a series of party video games owned by Nintendo. It features characters from the Mario franchise in which up to four local players or computer-controlled characters compete in a board game interspersed with minigames. The series is known for its party game elements, including the often unpredictable multiplayer game modes that allow play with up to four, and sometimes eight, human players or CPUs.",
+  summaryEs: "Mario Party es una serie de videojuegos en los que cuatro personajes del universo de Mario, controlados por personas o por la consola, compiten en un juego de tablero, utilizando dados para moverse en casillas y participando en múltiples minijuegos. Desde los comienzos de la serie hasta Mario Party 8 y Mario Party DS, los videojuegos han sido desarrollados por Hudson Soft y publicados por Nintendo, mientras que a partir de Mario Party 9 y hasta la actualidad el desarrollo de la serie está al mando de NDcube. Además se trata de la serie más larga de todos los spin-off de Mario.",
   notes: "Mario Party 1 US Decomp.",
   notesEs: "Decompilación de Mario Party 1 (US).",
 };

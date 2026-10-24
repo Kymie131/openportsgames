@@ -21,6 +21,8 @@ export const dreamcastHomebrewCollectionDreamcast: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "The Dreamcast is the final home video game console manufactured by Sega. It was released in Japan on November 27, 1998, and worldwide in late 1999. It succeeded the Sega Saturn and was the first sixth-generation console, preceding Sony's PlayStation 2, Nintendo's GameCube, and Microsoft's Xbox.",
+  summaryEs: "Dreamcast es la quinta y última videoconsola de sobremesa producida por Sega. Perteneciente a la sexta generación de videoconsolas, es la sucesora directa de Sega Saturn. Salió al mercado el 27 de noviembre de 1998 en Japón, el 9 de septiembre de 1999 en Norteamérica, el 14 de octubre de 1999 en Europa y el 30 de noviembre de 1999 en Oceanía. Durante la transición entre generaciones, llegó a competir contra PlayStation, Nintendo 64 y PlayStation 2.",
   notes: "Dreamcast Homebrew Collection (Homebrew, 2026) running on dreamcast through source port. Latest release: continuous. You need your own copy of the game.",
   notesEs: "Dreamcast Homebrew Collection (Homebrew, 2026) en dreamcast mediante port de código. Última release: continuous. Necesitas tu propia copia del juego.",
 };

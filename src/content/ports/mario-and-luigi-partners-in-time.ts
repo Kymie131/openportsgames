@@ -25,6 +25,8 @@ export const MarioAndLuigiPartnersInTime: Port = {
     alt: "Mario & Luigi - Partners in Time (box art)",
     credit: "Wikipedia",
   },
+  summary: "Mario & Luigi: Partners in Time is a 2005 role-playing video game developed by AlphaDream and published by Nintendo for the Nintendo DS. It is the second game in the Mario & Luigi series, following Mario & Luigi: Superstar Saga (2003). The story follows Mario, Baby Mario, Luigi, and Baby Luigi as they search for Princess Peach, who has been abducted by an alien species known as the Shroobs. Gameplay centers on cooperation between the quartet, who must use their specific qualities and skills to solve puzzles to progress.",
+  summaryEs: "Mario & Luigi: Partners in Time es un videojuego de rol desarrollado por AlphaDream y publicado por Nintendo para la consola portátil Nintendo DS. Es el segunda entrega de la serie Mario & Luigi y es la secuela de Superstar Saga (2003). En 2015, la Nintendo eShop lo reeditó para Wii U bajo la marca de la Consola Virtual.",
   notes: "Decompilation of Mario & Luigi - Partners in Time (Other).",
   notesEs: "Decompilación de Mario & Luigi - Partners in Time (Other).",
 };

@@ -20,6 +20,8 @@ export const aceCombat3ElectrosphereUsaRecomp: Port = {
   verified: false,
   originalSystems: ["PlayStation"],
   region: "USA",
+  summary: "Ace Combat 3: Electrosphere is a 1999 combat flight simulation game by Namco for the PlayStation. The third game in the Ace Combat franchise, it was released in Japan on May 27, 1999, and internationally the following year. Players fly fighter aircraft and must complete a variety of mission objectives, such as destroying squadrons of enemy planes or protecting a base from an invading unit.",
+  summaryEs: "Ace Combat 3: Electrosphere es un videojuego de simulador de vuelo de combate desarrollado y publicado por Namco para PlayStation. Fue lanzado en Japón en 1999 y en Europa y Norteamérica en 2000. El tercero de la serie Ace Combat de la compañía, Electrosphere presenta una estética más futurista en comparación con el tema moderno de sus predecesores. Los jugadores controlan uno de varios tipos diferentes de aviones y deben completar varios objetivos de la misión, como destruir una flota de enemigos o proteger una base del fuego enemigo.",
   notes:
     "Recompilation of Ace Combat 3: Electrosphere (PS1, USA SLUS-00972) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

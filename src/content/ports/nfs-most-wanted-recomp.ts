@@ -23,6 +23,8 @@ export const nfsMostWantedRecomp: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   originalSystems: ["Xbox 360"],
+  summary: "Need for Speed: Most Wanted may refer to:Need for Speed: Most Wanted , developed by EA Black Box Need for Speed: Most Wanted , developed by Criterion Games",
+  summaryEs: "Need for Speed: Most Wanted puede referirse a:Need for Speed: Most Wanted , desarrollado por EA Black Box Need for Speed: Most Wanted , desarrollado por Criterion Games",
   notes:
     "Static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005) built on the ReXGlue SDK. The PowerPC code of your own default.xex is translated to C++ and rendered with a native Vulkan renderer; it is not an emulator and ships no game files. Community ports extend it to Nintendo Switch (nfsmw-nx) and Android (NFSMW-Recompiled-Mobile); the PC build needs the PAL Spain disc, while the console and mobile builds cover more editions.",
   notesEs:

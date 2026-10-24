@@ -19,6 +19,8 @@ export const chameleonTwist2Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Nintendo 64"],
+  summary: "Chameleon Twist 2 is a 1998 platform game developed by Japan System Supply, published by Japan System Supply in Japan, and published by Sunsoft in North America and Europe for the Nintendo 64. It is the sequel to Chameleon Twist.",
+  summaryEs: "Chameleon Twist 2 es un juego de plataformas de corte clásico realizado para Nintendo 64 lanzado en 1998, secuela de Chameleon Twist lanzado por la misma compañía, Sunsoft, y para la misma consola. De nuevo, nuestro amigo el conejo, mientras estamos jugando con el resto de nuestros amigos camaleones nos traslada de nuevo a un mundo increíble donde adoptaremos de nuevo una forma humana.",
   notes:
     "Static recompilation of Chameleon Twist 2 (N64, Japanese release) with N64Recomp and RT64. It adds widescreen, unlocked framerate, an optional dual-analog camera and Linux and Steam Deck support.",
   notesEs:

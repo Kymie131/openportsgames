@@ -20,6 +20,8 @@ export const rampageThroughTimeRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  summary: "Rampage Through Time is a 2000 action game developed by Avalanche Software and published by Midway Games for the PlayStation. It is the fourth game in the Rampage series, and a sequel to 1999's Rampage 2: Universal Tour. In the game, seven previous Scumlabs monsters and one new one use a time machine to rampage through time.",
+  summaryEs: "Rampage Through Time es un juego de acción de 2000 desarrollado por Avalanche Software y publicado por Midway Games. Es el cuarto juego de la serie Rampage y una secuela de Rampage 2: Universal Tour de 1999. En el juego, siete monstruos de Scumlabs anteriores y uno nuevo usan una máquina del tiempo para arrasar en el tiempo.",
   notes:
     "Listed on the PortsDR community index with no public repository. You need the original game.",
   notesEs:

@@ -20,6 +20,8 @@ export const sma3RecompAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Super Mario Advance is a 2001 platform game developed and published by Nintendo as a launch title for the Game Boy Advance (GBA). It is an enhanced remake of the NES video game Super Mario Bros. 2 (1988), using the graphical style of Super Mario All-Stars (1993). Players control Mario, Luigi, Peach, or Toad as they travel through the seven worlds of Subcon to save the kingdom from the evil toad Wart. It contains several additions, including voice clips for all playable characters, giant renditions of objects, and a multiplayer mode based on the original Mario Bros. arcade game.",
+  summaryEs: "Super Mario es una serie de videojuegos de plataformas creada por Nintendo protagonizada por su mascota, Mario. Es la serie central de la gran franquicia de Mario. Se ha lanzado al menos un juego de Super Mario para todas las principales consolas de videojuegos de Nintendo. Sin embargo, también se han lanzado varios videojuegos de Super Mario en plataformas de juegos que no son de Nintendo. Hay más de 20 juegos de la serie.",
   notes: "Super Mario Advance 3: Yoshi's Island (Nintendo, 2002) for Android (static recompilation). Latest release: Descarga. Needs your own copy of the game (Yoshi’s Island: Super Mario Advance 3 (USA)).",
   notesEs: "Super Mario Advance 3: Yoshi's Island (Nintendo, 2002) para Android (recompilación estática). Última release: Descarga. Necesita tu propia copia del juego.",
 };

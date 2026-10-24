@@ -19,6 +19,8 @@ export const perfectDarkRemasterRecomp: Port = {
   license: { spdx: "MIT" },
   verified: false,
   originalSystems: ["Xbox 360"],
+  summary: "Perfect Dark is a 2000 first-person shooter game developed and published by Rare for the Nintendo 64. The first game of the Perfect Dark series, it follows Joanna Dark, an agent of the Carrington Institute research centre, as she attempts to stop an extraterrestrial conspiracy by rival corporation dataDyne. The game features a campaign mode where the player must complete a series of levels to progress through the story, as well as a range of multiplayer options, including a co-operative mode and traditional deathmatch settings with computer-controlled bots.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes:
     "Native recompilation of Perfect Dark (XBLA Remaster) (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:

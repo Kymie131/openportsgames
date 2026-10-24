@@ -21,6 +21,8 @@ export const theLostWorldJurassicParkSpecialEditionRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "The Lost World: Jurassic Park is a 1997 American science fiction action film directed by Steven Spielberg from a screenplay by David Koepp. It is the second film in the Jurassic Park franchise and the original Jurassic Park trilogy, and is loosely based on Michael Crichton's 1995 novel The Lost World. Jeff Goldblum, Richard Attenborough, Joseph Mazzello and Ariana Richards reprise their roles from the original film with Julianne Moore, Pete Postlethwaite, Vince Vaughn and Arliss Howard joining the cast.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes:
     "Recompilation of The Lost World: Jurassic Park Special Edition (PS1, USA SLUS-00515) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

@@ -27,6 +27,8 @@ export const spaceCadetPinball: Port = {
     "Recreación fiel de la física y las reglas originales",
     "Builds de escritorio multiplataforma",
   ],
+  summary: "Pinball games are a family of games in which a ball is propelled into a specially designed table where it bounces off various obstacles, scoring points either en-route or when it comes to rest. Historically the board was studded with nails called 'pins' and had hollows or pockets which scored points if the ball came to rest in them. Today, pinball is most commonly an arcade game in which the ball is fired into a specially designed cabinet known as a pinball machine, hitting various lights, bumpers, ramps, and other targets depending on its design.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes:
     "Open source recreation of the Windows 95 Space Cadet pinball game, released under CC0 by Microsoft.",
   notesEs:

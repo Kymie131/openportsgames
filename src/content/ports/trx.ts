@@ -30,6 +30,8 @@ export const trxPort: Port = {
     "Renderizado y audio modernos",
     "Soporte de scripting y edición de niveles",
   ],
+  summary: "Tomb Raider III is an action-adventure video game developed by Core Design and published by Eidos Interactive. It was first released for PlayStation and Microsoft Windows in 1998, and for Mac OS in 1999. It is the third title in the Tomb Raider series, following Tomb Raider II (1997). The story follows archaeologist-adventurer Lara Croft as she embarks upon a quest to recover four pieces of a meteorite that are scattered across the world.",
+  summaryEs: "Tomb Raider III es un videojuego de acción y aventura de disparos en tercera persona desarrollado por Core Design y distribuido por Eidos Interactive. Fue lanzado para las plataformas PlayStation y Microsoft Windows en 1998. Tomb Raider III es el tercer título de la serie Tomb Raider y una secuela de Tomb Raider II. La historia del juego sigue la arqueóloga y aventurera Lara Croft mientras se embarca en una búsqueda para recuperar cuatro piezas de un meteorito que están esparcidas por todo el mundo.",
   notes:
     "Engine reimplementation covering the classic Tomb Raider games. Original game assets are not distributed.",
   notesEs:

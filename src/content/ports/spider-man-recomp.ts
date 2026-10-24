@@ -19,6 +19,8 @@ export const spiderManRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Marvel's Spider-Man is a series of superhero action-adventure video games, media franchise, and shared universe developed by Insomniac Games and published by Sony Interactive Entertainment (SIE) for PlayStation consoles and Windows. Based on characters appearing in Marvel Comics publications, the games are inspired by the long-running comic book lore, while additionally deriving from various adaptations in other media.",
+  summaryEs: "Spider-Man puede referirse a:",
   notes:
     "Recompilation of Spider-Man (PS1, USA SLUS-00875) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

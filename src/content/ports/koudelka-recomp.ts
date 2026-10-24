@@ -19,6 +19,8 @@ export const koudelkaRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Koudelka is a role-playing video game developed by Sacnoth for the PlayStation. The game was published by SNK in Japan in 1999, and by Infogrames internationally in 2000. Set in the haunted Nemeton Monastery in Wales, the plot follows protagonists Koudelka Iasant, Edward Plunkett and Bishop James O'Flaherty as they uncover Nemeton's secrets and confront monsters created from its dark past. Its gameplay blends exploration and puzzle elements with turn-based battles waged on a grid.",
+  summaryEs: "Koudelka es un videojuego de rol con temática survival horror desarrollado por Sacnoth para la videoconsola PlayStation. El juego fue lanzado el 16 de diciembre de 1999, en Japón, 29 de junio de 2000, en América del Norte y 29 de septiembre de 2000, en Europa.",
   notes:
     "Recompilation of Koudelka (PS1, Europe SLES-02897) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

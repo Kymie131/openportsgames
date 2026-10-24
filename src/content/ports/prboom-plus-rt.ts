@@ -41,6 +41,8 @@ export const prBoomPlusRt: Port = {
       credit: "PrBoom-Plus RT",
     },
   ],
+  summary: "Doom II, also known as Doom II: Hell on Earth, is a 1994 first-person shooter video game developed and published by id Software for MS-DOS. It was released on Mac OS the following year. Whereas the original Doom was initially only available through shareware and mail order, Doom II was the first Doom game released initially in stores.",
+  summaryEs: "Doom II: Hell on Earth es un videojuego de disparos en primera persona desarrollado por ID Software. Fue lanzado para MS-DOS en 1994 y Macintosh 1995. A diferencia del Doom original, que inicialmente solo estaba disponible a través de shareware y pedidos por correo, Doom II se vendió en las tiendas.",
   notes:
     "Linux fork of PrBoom-Plus that adds the real-time ray-traced Doom renderer, with packaging fixes for current Mesa drivers. Requires the original game's WAD files, which the player must own.",
   notesEs:

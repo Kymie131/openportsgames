@@ -25,6 +25,8 @@ export const marathonRecomp: Port = {
     },
   ],
   originalSystems: ["Xbox 360"],
+  summary: "Sonic the Hedgehog is a video game series and media franchise created by the Japanese developers Yuji Naka, Naoto Ohshima, and Hirokazu Yasuhara for Sega. The franchise follows Sonic, an anthropomorphic blue hedgehog with supersonic speed, who battles the mad scientist Doctor Eggman and his robot army. The main Sonic the Hedgehog games are platformers mostly developed by Sonic Team; other games, developed by various studios, include spin-offs in the racing, fighting, party, and sports genres. The franchise also incorporates printed media, animations, films, and merchandise.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes:
     "Unofficial PC port of Sonic the Hedgehog (2006) created by statically recompiling the Xbox 360 PowerPC binary, with Windows, Linux and macOS support. No tagged releases yet; builds track the repository. Requires the game dump from a copy you own. This is the native recompilation project, distinct from the fan remake excluded in the verification backlog.",
   notesEs:

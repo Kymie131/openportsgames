@@ -25,6 +25,8 @@ export const virtualHydlidePc: Port = {
     alt: "Virtual Hydlide (box art)",
     credit: "Wikipedia",
   },
+  summary: "Virtual Hydlide is a 1995 action role-playing game developed by T&E Soft and published by Sega in Europe and Japan, and Atlus in North America for the Sega Saturn. It is a remake of the original Hydlide (1984), incorporating full 3D graphics and a player character digitized from a live actor. On release, it received mixed reviews, with praise for its graphics, 3D environments and music, while receiving criticism for its gameplay.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "Virtual Hydlide (Sega, 1995) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Virtual Hydlide (Sega, 1995) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",
 };

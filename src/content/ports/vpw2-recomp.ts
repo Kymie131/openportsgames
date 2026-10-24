@@ -19,6 +19,8 @@ export const vpw2Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Nintendo 64"],
+  summary: "Virtual Pro Wrestling is a professional wrestling video game series developed by AKI Corporation and published by Asmik Ace exclusively in Japan. The series started in 1996 with the release of the first Virtual Pro Wrestling for the PlayStation, which was localized in the West as WCW vs. the World. Two other games in the series were released exclusively for the Nintendo 64, Virtual Pro Wrestling 64 and Virtual Pro Wrestling 2.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes:
     "Static recompilation of Virtual Pro Wrestling 2 (N64) with N64Recomp and the RT64 renderer. It requires a copy of the game.",
   notesEs:

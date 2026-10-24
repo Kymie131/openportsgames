@@ -25,6 +25,8 @@ export const sonic3Air: Port = {
     "Build para Android",
     "Modos mejorados y opciones de niveles",
   ],
+  summary: "Sonic the Hedgehog 3 is a 1994 platform game developed by Sega Technical Institute and published by Sega for the Sega Genesis. Like previous Sonic games, players traverse side-scrolling levels while collecting rings and defeating enemies. They control Sonic and Tails, who attempt to retrieve the Chaos Emeralds to stop Doctor Robotnik from relaunching his space station, the Death Egg, after it crash-lands on a mysterious floating island. Sonic 3 introduces Knuckles the Echidna, the island guardian, who lays traps for Sonic and Tails.",
+  summaryEs: "Sonic the Hedgehog 3 es un videojuego de plataformas de 1994 desarrollado y publicado por Sega para Sega Genesis. Al igual que los juegos anteriores de Sonic, los jugadores recorren niveles de desplazamiento lateral mientras recolectan anillos y derrotan enemigos. Controlan a Sonic y Tails, quienes intentan recuperar las Chaos Emeralds para evitar que el Doctor Robotnik relance su estación espacial, el Death Egg, después de que se estrelle en una misteriosa isla flotante. Sonic 3 presenta a Knuckles the Echidna, el guardián de la isla, que pone trampas para Sonic y Tails.",
   notes: "Enhanced fork of Sonic Retro's engine for Sonic 3 and Sonic & Knuckles.",
   notesEs: "Fork mejorado del motor de Sonic Retro para Sonic 3 y Sonic & Knuckles.",
   cover: {

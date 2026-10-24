@@ -22,6 +22,8 @@ export const adamrtFftDecomp: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Final Fantasy Tactics is a 1997 tactical role-playing game developed and published by Square for the PlayStation. It was released in Japan in June 1997 and in North America in January 1998 by Sony Computer Entertainment. It is the first game of the Tactics sub-series within the Final Fantasy franchise, and the first entry set in the fictional world later known as Ivalice. The story follows Ramza Beoulve, a highborn cadet placed in the middle of a military conflict known as The Lion War, where two opposing noble factions are coveting the throne of the kingdom.",
+  summaryEs: "Final Fantasy Tactics , usualmente abreviado FFT, es un videojuego de rol táctico desarrollado y publicado por Square Co., Ltd. para la consola de videojuegos Sony PlayStation. El juego es una variación de la saga de Square Enix Final Fantasy, y está dirigido a un tipo especial de jugadores, los inclinados a la estrategia. El juego se desarrolla en el ficticio reino llamado Ivalice, durante un período de guerras en que el protagonista, un joven de sangre noble llamado Ramza Beoulve, se ve envuelto en un mundo de intrigas políticas, mentiras religiosas y traiciones.",
   notes: "Final Fantasy Tactics: decompilation by adamrt for Windows. Bring your own copy of the game.",
   notesEs: "Final Fantasy Tactics: decompilación de adamrt para Windows. Aporta tu propia copia del juego.",
 };

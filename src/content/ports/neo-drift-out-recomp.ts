@@ -19,6 +19,8 @@ export const neoDriftOutRecomp: Port = {
   license: { spdx: "MIT" },
   verified: false,
   originalSystems: ["Neo Geo"],
+  summary: "Neo Drift Out: New Technology is a 1996 rallying video game developed by Visco Corporation for the Neo Geo and Neo Geo CD. It is the fourth title in the Drift Out series. Though it follows Super Drift Out: World Rally Championships, it is closer to the earlier Drift Out '94: The Hard Order.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes:
     "Native PC port of Neo Drift Out through static recompilation of the original Neo Geo 68000 code. It needs the original game.",
   notesEs:

@@ -25,6 +25,8 @@ export const SuperGhoulsNGhosts: Port = {
     alt: "Super Ghouls ‘n Ghosts (box art)",
     credit: "Wikipedia",
   },
+  summary: "Super Ghouls 'n Ghosts, known as Chō Makaimura in Japan, is a 1991 platform video game developed and published by Capcom for the Super Nintendo Entertainment System. The third installment in the Ghosts 'n Goblins series and the first not to be released for arcades, it again depicts knight Arthur saving Princess Guinevere and the kingdom from Emperor Sardius, who has cast a spell that has revived the Ghoul Realm.",
+  summaryEs: "Super Ghouls 'n Ghosts, lanzado originalmente en Japón como Chōmakaimura , es un juego de plataformas de side-scrolling producido por Capcom.",
   notes: "Decompilation of Super Ghouls ‘n Ghosts (Other).",
   notesEs: "Decompilación de Super Ghouls ‘n Ghosts (Other).",
 };

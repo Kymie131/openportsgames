@@ -22,6 +22,8 @@ export const japabuMickeySavesTheDay3dAdventure: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Disney's Mickey Saves The Day 3D Adventure is a 2000 video game developed by Human Code and published by Disney Interactive.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "Mickey Saves the Day 3D Adventure: decompilation by Japabu for Windows. Bring your own copy of the game.",
   notesEs: "Mickey Saves the Day 3D Adventure: decompilación de Japabu para Windows. Aporta tu propia copia del juego.",
 };

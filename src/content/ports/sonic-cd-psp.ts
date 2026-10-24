@@ -26,6 +26,8 @@ export const sonicCdPsp: Port = {
     alt: "Sonic CD (box art)",
     credit: "Wikipedia",
   },
+  summary: "Sonic CD, also known as Sonic the Hedgehog CD, is a 1993 platform game developed and published by Sega for the Sega CD. As Sonic the Hedgehog, the player attempts to protect an extraterrestrial body, Little Planet, from Doctor Robotnik. Like other Sonic games, Sonic runs through themed levels while collecting rings and defeating robots. Sonic CD introduces time travel as a game mechanic. By traveling through time, players can access different versions of stages, featuring alternative layouts, music, and graphics. Sonic CD introduced the characters Amy Rose and Metal Sonic.",
+  summaryEs: "Sonic the Hedgehog CD es un juego de plataformas de 1993 desarrollado por Sega para ser usado mediante el periférico Sega CD/Mega-CD acoplado en la videoconsola Mega Drive/Genesis. Como Sonic the Hedgehog, el jugador intenta proteger un cuerpo extraterrestre, Little Planet, del Doctor Ivo Robotnik. Como en otros juegos de Sonic, Sonic recorre niveles temáticos mientras recoge anillos y derrota robots. Sonic CD introduce el viaje en el tiempo como mecánica de juego.",
   notes: "Complete port of the Retro Engine v3 decompilation (the engine behind Sonic CD 2011) to the PlayStation Portable. It needs the assets of an official release, which you must own. Latest release: 2.0.",
   notesEs: "Port completo de la decompilación de Retro Engine v3 (el motor de Sonic CD 2011) a PlayStation Portable. Necesita los recursos de una versión oficial que debes poseer. Última release: 2.0.",
 };

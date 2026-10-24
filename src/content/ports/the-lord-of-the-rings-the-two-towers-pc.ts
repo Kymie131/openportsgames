@@ -20,6 +20,8 @@ export const theLordOfTheRingsTheTwoTowersPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox"],
+  summary: "The Lord of the Rings: The Two Towers is a 2002 epic fantasy film directed by Peter Jackson from a screenplay by Fran Walsh, Philippa Boyens, Stephen Sinclair, and Jackson, based on 1954's The Two Towers, the second volume of the novel The Lord of the Rings by J. R. R. Tolkien. The sequel to 2001's The Lord of the Rings: The Fellowship of the Ring, the film is the second instalment in the Lord of the Rings trilogy.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "The Lord of the Rings: The Two Towers (Electronic Arts, 2002) running on Windows through static recompilation. Latest release: 1.9.2. You need your own copy of the game.",
   notesEs: "The Lord of the Rings: The Two Towers (Electronic Arts, 2002) en Windows mediante recompilación estática. Última release: 1.9.2. Necesitas tu propia copia del juego.",
 };

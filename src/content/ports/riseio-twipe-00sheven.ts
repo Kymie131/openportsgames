@@ -21,6 +21,8 @@ export const riseioTwipe00sheven: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo 64"],
+  summary: "The World Is Not Enough is a 1999 spy film, the nineteenth in the James Bond series produced by Eon Productions and the third to star Pierce Brosnan as the fictional MI6 agent James Bond. It was directed by Michael Apted, from an original story and screenplay by Neal Purvis, Robert Wade, and Bruce Feirstein. It was produced by Michael G. Wilson and Barbara Broccoli. The title is the translation of the motto on the Bond family coat of arms, first seen in On Her Majesty's Secret Service.",
+  summaryEs: "The World Is Not Enough es un Videojuego de disparos en primera persona desarrollado por Eurocom y con base en la Película de James Bond del mismo nombre Sacada en cines en el año 1999. Fue publicado por Electronic Arts y lanzado para Nintendo 64 el 17 de octubre de 2000, poco antes del lanzamiento de su contraparte de PlayStation. El juego cuenta con una campaña para un solo jugador en la que los jugadores asumen el papel del agente MI6 James Bond mientras lucha para evitar que un terrorista desencadene una crisis nuclear en las aguas de Estambul.",
   notes: "The World Is Not Enough: static recompilation by riseio for Windows. Bring your own copy of the game.",
   notesEs: "The World Is Not Enough: recompilación estática de riseio para Windows. Aporta tu propia copia del juego.",
 };

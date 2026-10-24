@@ -21,6 +21,8 @@ export const carl0srmzLittleplanet: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Sonic CD, also known as Sonic the Hedgehog CD, is a 1993 platform game developed and published by Sega for the Sega CD. As Sonic the Hedgehog, the player attempts to protect an extraterrestrial body, Little Planet, from Doctor Robotnik. Like other Sonic games, Sonic runs through themed levels while collecting rings and defeating robots. Sonic CD introduces time travel as a game mechanic. By traveling through time, players can access different versions of stages, featuring alternative layouts, music, and graphics. Sonic CD introduced the characters Amy Rose and Metal Sonic.",
+  summaryEs: "Sonic the Hedgehog CD es un juego de plataformas de 1993 desarrollado por Sega para ser usado mediante el periférico Sega CD/Mega-CD acoplado en la videoconsola Mega Drive/Genesis. Como Sonic the Hedgehog, el jugador intenta proteger un cuerpo extraterrestre, Little Planet, del Doctor Ivo Robotnik. Como en otros juegos de Sonic, Sonic recorre niveles temáticos mientras recoge anillos y derrota robots. Sonic CD introduce el viaje en el tiempo como mecánica de juego.",
   notes: "Sonic CD: static recompilation by carl0srmz for Windows. Bring your own copy of the game.",
   notesEs: "Sonic CD: recompilación estática de carl0srmz para Windows. Aporta tu propia copia del juego.",
   cover: {

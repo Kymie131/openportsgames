@@ -20,6 +20,8 @@ export const wargusPort: Port = {
   verified: true,
   verifiedAt: "2026-10-01",
   originalSystems: ["MS-DOS"],
+  summary: "Warcraft is a fantasy video game series and media franchise created by Blizzard Entertainment. The series consists of six core games: Warcraft: Orcs & Humans (1994), Warcraft II: Tides of Darkness (1995), Warcraft III: Reign of Chaos (2002), World of Warcraft (2004), Hearthstone (2014), and Warcraft Rumble (2023). Initially a real-time strategy (RTS) series, Warcraft expanded into other game genres beginning with World of Warcraft, a highly influential massively multiplayer online role-playing game (MMORPG).",
+  summaryEs: "Warcraft es una marca comercial de Blizzard Entertainment que ha sido ampliamente difundida y diversificada a partir del videojuego Warcraft: Orcs & Humans (1994), uno de los primeros en su género. Por extensión también implica a la marca World of Warcraft, que nace del videojuego de rol multijugador masivo en línea -por sus siglas en inglés, MMORPG- del mismo nombre.",
   notes:
     "Engine reimplementation for Warcraft II, intended to be compatible with the retail data files.",
   notesEs:

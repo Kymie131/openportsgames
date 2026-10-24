@@ -22,6 +22,8 @@ export const biggestsonicfanStfdecomp: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Sonic the Fighters, released outside Japan as Sonic Championship, is a 1996 fighting game developed by Sega AM2 and published by Sega for their Model 2 arcade system. The game pits players in one-on-one battles with a roster of characters from the Sonic the Hedgehog series. Sonic the Fighters was made using the fighting engine for Fighting Vipers (1995), and was the first 3D game in the Sonic series.",
+  summaryEs: "Sonic the Fighters es un videojuego de lucha desarrollado por Sega-AM2 para máquinas arcade. Emplea gráficos en 3D y cuenta con personajes y escenarios de la saga Sonic como luchadores.",
   notes: "Sonic The Fighters: decompilation by biggestsonicfan for Windows. Bring your own copy of the game.",
   notesEs: "Sonic The Fighters: decompilación de biggestsonicfan para Windows. Aporta tu propia copia del juego.",
   cover: {

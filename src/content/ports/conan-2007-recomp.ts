@@ -20,6 +20,8 @@ export const conan2007Recomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  summary: "Conan Exiles is a survival video game developed and published by Funcom for PlayStation 4, Windows, and Xbox One. The game is set in the world of Conan the Barbarian, with the custom playable character being rescued by Conan, beginning their journey. Early access versions of the game were released in early 2017, leaving early access on 8 May 2018. An enhanced version of the game for Xbox Series X and Series S was released on 8 June 2021. Conan Exiles Enhanced was released on May 5, 2026, updating the game to Unreal Engine 5.",
+  summaryEs: "Conan el Bárbaro es una serie literaria de relatos y novelas creada en 1932 por el escritor Robert E. Howard publicados en la revista pulp Weird Tales. Conan, su protagonista, es un personaje arquetípico, el más famoso representante del género de la espada y brujería, y un clásico de la fantasía estadounidense del siglo XX.",
   notes:
     "Native DirectX 12 rendering. Controller only. Up to 120 FPS, because physics break above that.",
   notesEs:

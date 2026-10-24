@@ -20,6 +20,8 @@ export const spotify3ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Spotify is a Swedish freemium music streaming service provider founded in April 2006 by Daniel Ek and Martin Lorentzon. As of March 2026, it is one of the largest providers of music streaming services, with over 788 million monthly active users comprising 306 million paying subscribers. Spotify is listed on the New York Stock Exchange in the form of American depositary receipts.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "Homebrew application for the Nintendo 3DS that displays and controls the Spotify status of the account you connect, so playback can be managed from the console. It is not a replacement for the official Spotify client. Last push: 2026-10-18.",
   notesEs: "Aplicación homebrew para Nintendo 3DS que muestra y controla el estado de Spotify de la cuenta que conectes, para poder gestionar la reproducción desde la consola. No sustituye al cliente oficial de Spotify. Último push: 2026-10-18.",
 };

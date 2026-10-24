@@ -22,6 +22,8 @@ export const jonZuShroom95Decomp: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "MapleStory is a free-to-play, 2D, side-scrolling massively multiplayer online role-playing game, developed by South Korean company Wizet and published by Nexon. Several versions of the game are available for specific countries or regions, published by various companies.",
+  summaryEs: "MapleStory es un videojuego en línea de descarga gratis en 2D, del género MMORPG, creado por la compañía coreana Wizet. Aunque el juego es gratis, presenta otros objetos para su compra con dinero real. A nivel mundial el juego tiene millones de usuarios.",
   notes: "MapleStory: decompilation by jon-zu for Windows. Bring your own copy of the game.",
   notesEs: "MapleStory: decompilación de jon-zu para Windows. Aporta tu propia copia del juego.",
 };

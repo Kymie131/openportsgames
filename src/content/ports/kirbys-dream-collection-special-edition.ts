@@ -20,6 +20,8 @@ export const KirbysDreamCollectionSpecialEdition: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Kirby's Dream Collection Special Edition is a 2012 video game compilation developed by HAL Laboratory and published by Nintendo for the Wii. It is an anthology disc celebrating the 20th anniversary of the Kirby series, and includes six playable Kirby platform games originally released between 1992 and 2000, as well as additional special features. Along with the disc, the package also contains a soundtrack CD and a collectable booklet.",
+  summaryEs: "Kirby's Dream Collection: Special Edition, conocido en Japón como Hoshi no Kirby: Ni-ju-shūnen Special Collection , es un juego por el aniversario número 20 de Kirby. Salió en Japón el 19 de julio de 2012 y el 16 de septiembre de 2012 en Estados Unidos. Nintendo Japón ha confirmado que los siguientes juegos vendrán con un CD de la banda sonora especial y folleto.",
   notes: "Decompilation of Kirby's Dream Collection: Special Edition.",
   notesEs: "Decompilación de Kirby's Dream Collection: Special Edition.",
 };

@@ -25,6 +25,8 @@ export const superMarioWorldRemasteredPlusSwitch: Port = {
     alt: "Super Mario World (box art)",
     credit: "Wikipedia",
   },
+  summary: "Super Mario World is a 1990 platform game developed and published by Nintendo for the Super Nintendo Entertainment System (SNES). It was released in Japan in 1990, in North America in 1991 and PAL territories in 1992. The player controls Mario on his quest to save Princess Peach and Dinosaur Land from the series' antagonist Bowser and the Koopalings. The gameplay is similar to that of earlier Super Mario games; players control Mario through a series of levels in which the goal is to reach the goalpost at the end.",
+  summaryEs: "Super Mario World es un videojuego de plataformas desarrollado por Nintendo EAD y publicado por Nintendo para la consola Super Nintendo Entertainment System (SNES). Salió a la venta en Japón en 1990, en Norteamérica en 1991 y en los territorios PAL en 1992. El jugador controla a Mario en su misión para salvar a la princesa Peach y a Dinosaur Land del antagonista de la serie, Bowser y los Koopalings. La mecánica es similar a la de los anteriores títulos de Super Mario: se maneja a lo largo de una sucesión de niveles en los que el objetivo es llegar a la meta situada al final.",
   notes: "Super Mario World (Nintendo, 1990) running on Nintendo Switch through source port. Latest release: 1.0.2. You need your own copy of the game.",
   notesEs: "Super Mario World (Nintendo, 1990) en Nintendo Switch mediante port de código. Última release: 1.0.2. Necesitas tu propia copia del juego.",
 };

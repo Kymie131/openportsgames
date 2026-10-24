@@ -19,6 +19,8 @@ export const alienResurrectionRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Alien Resurrection is a 1997 American science fiction horror film directed by Jean-Pierre Jeunet, written by Joss Whedon, and starring Sigourney Weaver and Winona Ryder. It is the fourth installment of the Alien franchise, and was filmed at the 20th Century Fox studios in Los Angeles, California.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes:
     "Recompilation of Alien Resurrection (PS1, Europe SLES-02913) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

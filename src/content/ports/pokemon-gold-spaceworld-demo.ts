@@ -20,6 +20,8 @@ export const PokemonGoldSpaceworldDemo: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Pokémon Go is a 2016 augmented reality (AR) mobile game originally developed and published by Niantic and since 2025 by Scopely Explore, in partnership with Nintendo and the Pokémon Company, for iOS and Android devices. The game uses GPS to locate, capture, train, and battle Pokémon. It is free-to-play, featuring a freemium model that includes in-app purchases for additional in-game items. Pokémon Go launched with approximately 150 Pokémon species, with new species regularly introduced.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "Disassembly of the Pokémon Gold and Silver 1997 Space World demo.",
   notesEs: "Desensamblado de la demo SpaceWorld de 1997 de Pokémon Gold y Silver.",
 };

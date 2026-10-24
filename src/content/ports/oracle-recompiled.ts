@@ -20,6 +20,8 @@ export const oracleRecompiled: Port = {
   verified: false,
   wip: true,
   originalSystems: ["Game Boy","Game Boy Color"],
+  summary: "The Legend of Zelda is a video game series created by Japanese game designers Shigeru Miyamoto and Takashi Tezuka. It is primarily developed and published by Nintendo, but some installments and re-releases have been outsourced to Flagship, Grezzo, and Tantalus Media.",
+  summaryEs: "The Legend of Zelda es una serie de videojuegos de acción-aventura creada por los diseñadores japoneses Shigeru Miyamoto y Takashi Tezuka, y desarrollada por Nintendo, empresa que también se encarga de su distribución internacional. Su trama por lo general describe las heroicas aventuras del joven guerrero Link, que debe enfrentarse a peligros y resolver acertijos para ayudar a la Princesa Zelda a derrotar a Ganondorf y salvar su hogar, el reino de Hyrule.",
   notes:
     "Work-in-progress static recompilation of the two Oracle Zelda games for the Game Boy Color to native apps. The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

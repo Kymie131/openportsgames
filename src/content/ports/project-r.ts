@@ -20,6 +20,8 @@ export const projectR: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Arcade"],
+  summary: "San Francisco Rush may refer to:San Francisco Rush: Extreme Racing, a 1996 video game San Francisco Rush, a 2016 professional rugby union club San Francisco Rush, a prospective rugby league team expected to join the North American Rugby League",
+  summaryEs: "San Francisco Rush 2049 es un videojuego de carreras de 1999 desarrollado por Atari Games y publicado por Midway Games para la Arcade, Nintendo 64, Game Boy Color, y Dreamcast. Fue lanzado el 7 de septiembre de 2000 en Norteamérica y el 17 de noviembre de 2000 en Europa. Es el tercer juego de la serie Rush y la secuela de Rush 2: Extreme Racing USA. La versión de Dreamcast fue posteriormente reeditada como parte de Midway Arcade Treasures 3 para la PlayStation 2, Xbox y Nintendo GameCube.",
   notes: "Project R covers San Francisco Rush: The Rock - Alcatraz Edition and San Francisco Rush 2049, the arcade racing games, reverse engineered into native PC builds. Distributed from the project's own site (v0.7.1, July 2025). The project does not publish source code on GitHub.",
   notesEs: "Project R cubre San Francisco Rush: The Rock - Alcatraz Edition y San Francisco Rush 2049, los juegos de carreras de arcade, reescritos a builds nativos de PC. Se distribuye desde la propia web del proyecto (v0.7.1, julio de 2025). El proyecto no publica el código fuente en GitHub.",
 };

@@ -25,6 +25,8 @@ export const planetBlupiWiiU: Port = {
     alt: "Planet Blupi (box art)",
     credit: "Wikipedia",
   },
+  summary: "Planet Blupi is a 1997 real-time strategy video game developed and published by Epsitec and published in the United States by Telegames for Microsoft Windows. Upon release, the game received mixed reviews, with critics finding the game simplistic and childish, but that it was an appropriate introduction to the strategy genre for younger or first-time players.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "Planet Blupi (Epsitec, 1997) running on Wii U through source port. You need your own copy of the game.",
   notesEs: "Planet Blupi (Epsitec, 1997) en Wii U mediante port de código. Necesitas tu propia copia del juego.",
 };

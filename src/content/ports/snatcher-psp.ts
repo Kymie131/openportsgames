@@ -20,6 +20,8 @@ export const snatcherPsp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Sega CD / Mega-CD"],
+  summary: "Snatcher may refer to:Snatcher, a criminal who engages in snatch theft Snatcher , a 1988 graphic adventure game Snatcher Wes, a character in the 2003 video game Pokémon Colosseum Snatcher, a character in the 2017 video game A Hat in Time The Snatcher, a 2014 teen novel by Anthony McGowan Snatchers, an organization within the Death Eaters in the Harry Potter books Snatchers, a 2019 comedy horror film",
+  summaryEs: "Snatcher es un videojuego de aventura con una trama cyberpunk, escrito y dirigido por Hideo Kojima. Fue desarrollado y publicitado por la compañía Konami. Originalmente lanzado en Japón para NEC PC-8801 y MSX2 en 1988, fue relanzado para TurboGrafx-16 en 1992, en Japón y Europa fue lanzado para Mega CD y su homólogo Sega CD en América, en 1994 y posteriormente trasladado a las plataformas PlayStation y Sega Saturn en 1996. La versión para Mega CD y Sega CD fue la primera y única versión oficial traducida al inglés.",
   notes: "Snatcher (Konami, 1994) running on PlayStation Portable through source port. You need your own copy of the game.",
   notesEs: "Snatcher (Konami, 1994) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
 };

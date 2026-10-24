@@ -25,6 +25,8 @@ export const touhouCollectionPs4: Port = {
     alt: "Touhou 6: The Embodiment of Scarlet Devil (box art)",
     credit: "Wikipedia",
   },
+  summary: "Touhou Koumakyou ~ the Embodiment of Scarlet Devil is a 2002 bullet hell video game developed by Team Shanghai Alice. It is the sixth entry in the Touhou Project series, and the first to be released for Microsoft Windows. It follows either the miko Reimu Hakurei or the magician Marisa Kirisame as they battle enemies through the world of Gensokyo to find the cause of a red-colored mist which has covered the sky in the midst of summer.",
+  summaryEs: "Touhou Koumakyou ~ the Embodiment of Scarlet Devil. es un videojuego danmaku de desplazamiento vertical y el sexto juego oficial de la serie Touhou Project. Es el primero en ser lanzado específicamente para Microsoft Windows y el primer juego desarrollado por Team Shanghai Alice. Todos los juegos anteriores a Embodiment of Scarlet Devil fueron hechos para la serie de ordenadores PC-98 siendo lanzados por Amusement Makers.",
   notes: "Touhou 6: The Embodiment of Scarlet Devil (Team Shanghai Alice, 2002) running on PlayStation 4 through source port. Latest release: v1.1.0. You need your own copy of the game.",
   notesEs: "Touhou 6: The Embodiment of Scarlet Devil (Team Shanghai Alice, 2002) en PlayStation 4 mediante port de código. Última release: v1.1.0. Necesitas tu propia copia del juego.",
 };

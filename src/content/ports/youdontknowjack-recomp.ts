@@ -19,6 +19,8 @@ export const youdontknowjackRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation 3"],
+  summary: "You Don't Know Jack is an American game show based on the video game series of the same name which aired on ABC in 2001. Paul Reubens played host Troy Stevens. Tom Gottlieb reprised his role as Cookie Masterson, who was the announcer. The show lasted six episodes.",
+  summaryEs: "You Don't Know Jack es una aplicación de juego de Facebook basada en la serie longeva de juegos de trivia creada por Jackbox Games. Fue lanzado al público en Facebook en mayo de 2012 tras un periodo beta. El juego se apoya en el éxito del relanzamiento de la serie del videojuego de 2011 para consolas y computadoras personales, pero alterando algunas características para funcionar mejor en la plataforma de red social.",
   notes:
     "Native recompilation of You Don't Know Jack (PlayStation 3). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:

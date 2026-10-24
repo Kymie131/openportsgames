@@ -25,6 +25,8 @@ export const ArTonelicoIiMelodyOfMetafalica: Port = {
     alt: "Ar tonelico II: Melody of Metafalica (box art)",
     credit: "Wikipedia",
   },
+  summary: "Ar tonelico is a multimedia project series made in collaboration by Gust Corporation and Banpresto consisting of video games, manga, and an OVA. The name of the series is also the name of the amplification complex composed by three monumental towers that appear in the aforementioned works. Throughout the life of the series, it was directed by Akira Tsuchiya (Gust) and produced by Atsunori Kawachi (Banpresto). The main theme songs for all of the games were sung by Akiko Shikata. Recently, it was succeeded by the Surge Concerto series.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "Ar tonelico II: Melody of Metafalica — matching decompilation (SLPS_258.19).",
   notesEs:
     "Decompilación que coincide byte a byte de Ar tonelico II: Melody of Metafalica (SLPS_258.19).",

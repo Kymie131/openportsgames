@@ -25,6 +25,8 @@ export const GuitarHero2: Port = {
     alt: "Guitar Hero 2 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Guitar Hero is a series of rhythm games first released in 2005, in which players use a guitar-shaped game controller to simulate playing primarily lead, bass, and rhythm guitar across numerous songs. Players match notes that scroll on-screen to colored fret buttons on the controller, strumming the controller in time to the music in order to score points, and keep the virtual audience excited. The games attempt to mimic many features of playing a real guitar, including the use of fast-fingering hammer-ons and pull-offs and the use of the whammy bar to alter the pitch of notes.",
+  summaryEs: "Guitar Hero es una popular franquicia de videojuegos musicales publicada por RedOctane en la sociedad de Activision. La serie es conocida por el uso de un dispositivo con forma de guitarra que se utiliza como control de juego para simular y hacer música con ella, representando notas de colores en la pantalla que corresponde a cada uno de los botones del controlador. Los juegos de la serie permiten tanto partidas individuales como multijugador, pudiendo estas últimas ser cooperativas o competitivas.",
   notes: "XBOX 360 Guitar Hero II Recompilation using Rexglue.",
   notesEs: "Recompilación de Guitar Hero II de Xbox 360 con ReXGlue.",
 };

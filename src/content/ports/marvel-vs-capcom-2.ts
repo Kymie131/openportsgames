@@ -20,6 +20,8 @@ export const MarvelVsCapcom2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  summary: "Marvel vs. Capcom is a series of crossover fighting games developed and published by Capcom, featuring characters from their video game franchises and comic book series published by Marvel Comics. The series originated as coin-operated arcade games; later releases were specifically developed for home consoles, handhelds, and personal computers.",
+  summaryEs: "Marvel vs. Capcom 2: New Age of Heroes es la cuarta entrega de la serie Marvel vs. Capcom. Capcom simplificó el motor del juego para hacerlo más accesible a los vídeojugadores casuales como una estrategia para traer a jugadores nuevos al ámbito de los juegos de pelea.",
   notes: "Decompilation of Marvel vs. Capcom 2 (PlayStation 2).",
   notesEs: "Decompilación de Marvel vs. Capcom 2 (PlayStation 2).",
 };

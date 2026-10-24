@@ -25,6 +25,8 @@ export const PokemonPuzzleLeague: Port = {
     alt: "Pokemon Puzzle League (cover)",
     credit: "Wikipedia",
   },
+  summary: "Pokémon Puzzle League is a puzzle video game in the Puzzle League series developed by Nintendo Software Technology and published by Nintendo for the Nintendo 64. Released in North America on September 25, 2000, and in Europe on March 2, 2001, its Puzzle League-based gameplay has a focus on puzzle-based strategy in the game's grid-based format. To advance to new levels, players are required to combat the game's trainers and gym leaders, similar to the ones featured in Pokémon Red, Blue, and Yellow.",
+  summaryEs: "Pokémon Puzzle League es un videojuego de Pokémon para la consola Nintendo 64 que salió al mercado de Estados Unidos en septiembre del 2000. Se trata de una versión del videojuego Tetris Attack con personajes del anime de Pokémon. Además de contar con el clásico modo bidimensional, también le fue introducido un modo en 3D.",
   notes: "Matching decomp of Pokémon Puzzle League.",
   notesEs: "Decompilación que coincide de Pokémon Puzzle League.",
 };

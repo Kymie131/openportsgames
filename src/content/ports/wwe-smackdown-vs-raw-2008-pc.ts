@@ -25,6 +25,8 @@ export const wweSmackdownVsRaw2008Pc: Port = {
     alt: "WWE SmackDown vs. Raw 2008 (box art)",
     credit: "Wikipedia",
   },
+  summary: "WWE SmackDown vs. Raw 2008 is a professional wrestling video game published by THQ in November 2007, and developed by Yuke's for the PlayStation 2, PlayStation 3, Xbox 360, Wii, and PlayStation Portable video game consoles, with Amaze Entertainment overseeing development for the Nintendo DS version.",
+  summaryEs: "WWE SmackDown vs. Raw 2008 es un videojuego de lucha libre profesional que fue lanzado el 13 de noviembre de 2007, para las consolas PlayStation 2, PlayStation 3, Xbox 360 y Wii y las consolas portátiles PSP y Nintendo DS por THQ y YUKE.",
   notes: "WWE SmackDown vs. Raw 2008 (THQ, 2007) running on Windows and Linux through static recompilation. Latest release: v1.0.5. You need your own copy of the game.",
   notesEs: "WWE SmackDown vs. Raw 2008 (THQ, 2007) en Windows and Linux mediante recompilación estática. Última release: v1.0.5. Necesitas tu propia copia del juego.",
 };

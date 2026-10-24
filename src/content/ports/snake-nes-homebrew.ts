@@ -21,6 +21,8 @@ export const snakeNesHomebrew: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Snake is a genre of action video games where the player maneuvers the end of a growing line, often themed as a snake. The player must keep the snake from colliding with both other obstacles and itself, which gets harder as the snake lengthens.",
+  summaryEs: "El género «Serpiente» se corresponde a un tipo de videojuegos de acción en el que el jugador maniobra con una línea creciente, que se asemeja a una serpiente.",
   notes: "Snake (Homebrew, 2022) running on nes through source port. Latest release: v1.0.9. You need your own copy of the game.",
   notesEs: "Snake (Homebrew, 2022) en nes mediante port de código. Última release: v1.0.9. Necesitas tu propia copia del juego.",
 };

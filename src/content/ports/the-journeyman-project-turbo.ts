@@ -20,6 +20,8 @@ export const TheJourneymanProjectTurbo: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "The Journeyman Project is a series of first-person science fiction adventure games, created by Presto Studios and released by various publishers, including Bandai, Sanctuary Woods, and Red Orb Entertainment.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: 'Decompilation of "The Journeyman Project Turbo!" (1994).',
   notesEs: "Decompilación de «The Journeyman Project Turbo!» (1994).",
 };

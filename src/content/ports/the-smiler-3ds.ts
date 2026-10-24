@@ -20,6 +20,8 @@ export const theSmiler3ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Other"],
+  summary: "The Smiler is a steel roller coaster located at Alton Towers in Staffordshire, England. The Infinity Coaster model from Gerstlauer set a world record for most inversions on a roller coaster when it opened in 2013, featuring 14 inversions that include dive loops, sidewinders, corkscrews, and other inverting elements. The ride is located in the X-Sector area of the park. In 2015, a major collision between two trains left five riders seriously injured and resulted in the ride's temporary closure.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "The Smiler (Alton Towers, 2013) running on Nintendo 3DS through source port. Latest release: JoinUs. You need your own copy of the game.",
   notesEs: "The Smiler (Alton Towers, 2013) en Nintendo 3DS mediante port de código. Última release: JoinUs. Necesitas tu propia copia del juego.",
 };

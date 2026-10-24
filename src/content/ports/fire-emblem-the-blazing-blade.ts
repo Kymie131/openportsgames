@@ -25,6 +25,8 @@ export const FireEmblemTheBlazingBlade: Port = {
     alt: "Fire Emblem: The Blazing Blade (box art)",
     credit: "Wikipedia",
   },
+  summary: "Fire Emblem: The Blazing Blade, also known simply as Fire Emblem, is a 2003 tactical role-playing game developed by Intelligent Systems and published by Nintendo for the Game Boy Advance. It is the seventh installment in the Fire Emblem series, the second to be released for the platform after Fire Emblem: The Binding Blade, and the first to be localized for international audiences. It was released in Japan and North America in 2003, and in Europe and Australia in 2004.",
+  summaryEs: "Fire Emblem es una franquicia de videojuegos del género rol táctico desarrollada por Intelligent Systems, diseñada por Shouzou Kaga y distribuida por Nintendo. Fire Emblem se caracteriza por la mezcla de los géneros de estrategia y rol, por ser pioneros en este tipo de juegos y por tener una gran influencia del folclore medieval europeo.",
   notes: "Decompilation of: Fire Emblem - Rekka no Ken (Japan) (FE7J).",
   notesEs: "Decompilación de Fire Emblem: Rekka no Ken (Japón) (FE7J).",
 };

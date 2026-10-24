@@ -27,6 +27,8 @@ export const ogreBattle64Recomp: Port = {
     minimum:
       "Direct3D 12 with Shader Model 6.0 on Windows, or Vulkan 1.2 (Vulkan on other systems)",
   },
+  summary: "Ogre Battle 64: Person of Lordly Caliber is a real-time tactical role-playing game developed by Quest Corporation. The game was published for the Nintendo 64 by Nintendo in Japan and by Atlus in North America. Though conceptually similar to Ogre Battle: The March of the Black Queen, significant gameplay tweaks were implemented to change the game's overall flow. Ogre Battle 64 is the third game in the series, the first two being Ogre Battle: The March of the Black Queen, and Tactics Ogre. Gaiden have been released in Japan, on Game Boy Advance and Neo Geo Pocket Color.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "Recompilation of Ogre Battle 64; the player supplies their own legally obtained game.",
   notesEs:
     "Recompilación de Ogre Battle 64; el jugador aporta su propio juego obtenido legalmente.",

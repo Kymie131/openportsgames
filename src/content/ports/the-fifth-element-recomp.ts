@@ -19,6 +19,8 @@ export const theFifthElementRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "The Fifth Element is a 1997 English-language French science fiction-action film conceived and directed by Luc Besson, and co-written by Besson and Robert Mark Kamen. It stars Bruce Willis, Milla Jovovich, Gary Oldman, Ian Holm, and Chris Tucker. Primarily set in the 23rd century, the plot involves the survival of planet Earth, which becomes the responsibility of Korben Dallas (Willis), a taxi driver and former special forces major, after a young woman named Leeloo (Jovovich) falls into his cab.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes:
     "Recompilation of The Fifth Element (PS1, Europe SCES-01285) with PSXRecomp and the recomp-ui launcher. You bring your disc and a European SCPH-5502/5552 BIOS, and the wizard compiles the game on your machine. For now it is the 0.1.0 release candidate, with gameplay not closed.",
   notesEs:

@@ -27,6 +27,8 @@ export const mondeLointainMariogolf64: Port = {
     alt: "Mario Golf (box art)",
     credit: "Box art",
   },
+  summary: "Mario Golf is a 1999 sports video game developed by Camelot Software Planning and published by Nintendo for the Nintendo 64. It is the successor to NES Open Tournament Golf and, although the first to bear the name, is the second game in the Mario Golf series. Players control Mario series characters participating in the sport of golf on themed courses. Unlike previous golf titles, the gameplay is simplified to provide an easier experience while retaining common elements such as character statistics and variables affecting ball shots.",
+  summaryEs: "Mario Golf es una serie de videojuegos deportivos de golf desarrollados por Camelot Software Planning y distribuidos por Nintendo, protagonizados por los personajes de la saga de Mario.",
   notes: "Mario Golf: decompilation by monde-lointain for Windows. Bring your own copy of the game.",
   notesEs: "Mario Golf: decompilación de monde-lointain para Windows. Aporta tu propia copia del juego.",
 };

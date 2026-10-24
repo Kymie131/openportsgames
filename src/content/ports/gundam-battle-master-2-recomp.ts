@@ -19,6 +19,8 @@ export const gundamBattleMaster2Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Gundam is a Japanese military science fiction media franchise. Created by Yoshiyuki Tomino and Sunrise, the franchise features giant robots, or mecha, with the name \"Gundam\". The franchise began on April 7, 1979, with Mobile Suit Gundam, a TV series that defined the \"real robot\" mecha anime genre by featuring giant robots called mobile suits in a militaristic setting.",
+  summaryEs: "Gundam, también conocida como Serie Gundam , es una franquicia de series animadas de ciencia ficción creadas por Yoshiyuki Tomino para los estudios Sunrise. La temática de las series son los conflictos bélicos entre humanos. En la serie, los bandos en guerra utilizan armaduras de combate llamadas Mobile Suits (MS). Por lo general, el Mobile Suit del protagonista es el que lleva el nombre de Gundam.",
   notes:
     "Recompilation of Gundam: The Battle Master 2 (PS1) in progress with PSXRecomp. It requires your own disc and boots with OpenBIOS; the project is still under development.",
   notesEs:

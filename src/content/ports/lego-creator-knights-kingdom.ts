@@ -25,6 +25,8 @@ export const LegoCreatorKnightsKingdom: Port = {
     alt: "Lego Creator Knights Kingdom (cover)",
     credit: "Wikipedia",
   },
+  summary: "Lego Creator: Knights' Kingdom is a 2000 construction simulation video game for Microsoft Windows. It allows players to use virtual Lego pieces, first to build a medieval kingdom, and then to use the kingdom in a battle against the character Cedric the Bull. It is a stand-alone sequel to the 1998 game Lego Creator, and is based on the first incarnation of Lego's Knights' Kingdom theme.",
+  summaryEs: "Lego Creator es un videojuego sandbox para Microsoft Windows, que implica construir con elementos de virtual Lego. El juego no tiene misiones, objetivos, desafíos ni limitaciones de dinero. El juego fue lanzado el 11 de noviembre de 1998.",
   notes: "Decompiling and Modernizing Lego Creator Knights Kingdom.",
   notesEs: "Decompilación y modernización de Lego Creator Knights Kingdom.",
 };

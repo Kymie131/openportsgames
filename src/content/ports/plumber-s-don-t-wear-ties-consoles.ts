@@ -20,6 +20,8 @@ export const plumberSDonTWearTiesConsoles: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  summary: "Plumbers Don't Wear Ties is an adult-oriented adventure video game developed by United Pixtures and published by Kirin Entertainment in September 1994 for the 3DO. An earlier version for Windows with very limited distribution was published in 1993 by United Pixtures itself. The game stars Edward J. Foster and Jeanne Basone as John and Jane, two people who are being pressured by their respective parents to go out and find a spouse. The player's task is to get John and Jane together.",
+  summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   notes: "Plumber's Don't Wear Ties (Unknown, 1993) running on Nintendo Switch and Wii and Wii U and Nintendo 3DS through source port. Latest release: v0.2-wiiu. You need your own copy of the game.",
   notesEs: "Plumber's Don't Wear Ties (Unknown, 1993) en Nintendo Switch and Wii and Wii U and Nintendo 3DS mediante port de código. Última release: v0.2-wiiu. Necesitas tu propia copia del juego.",
 };

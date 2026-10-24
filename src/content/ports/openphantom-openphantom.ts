@@ -26,6 +26,8 @@ export const openphantomOpenphantom: Port = {
     alt: "Star Wars Episode I: The Phantom Menace (box art)",
     credit: "Box art",
   },
+  summary: "Star Wars: Episode I – The Phantom Menace is a 1999 American epic space opera film written and directed by George Lucas in his first directorial effort since the original Star Wars, released in 1977. Produced by Lucasfilm Ltd. and distributed by 20th Century Fox, it is the fourth film in the Star Wars film series, the first film of the prequel trilogy and the first chronological chapter of the \"Skywalker Saga.\" The film stars Liam Neeson, Ewan McGregor, Natalie Portman, Jake Lloyd, Ahmed Best, Ian McDiarmid, Anthony Daniels, Kenny Baker, Pernilla August, and Frank Oz.",
+  summaryEs: "Star Wars, conocida también en español como La guerra de las galaxias, es una franquicia de medios de épica espacial compuesta primordialmente de una serie de películas concebidas por el cineasta estadounidense George Lucas en la década de 1970, y producidas y distribuidas inicialmente por 20th Century Fox y posteriormente por The Walt Disney Company a partir de 2012.",
   notes: "Star Wars Episode I: The Phantom Menace: engine remake by OpenPhantom for Windows. Bring your own copy of the game.",
   notesEs: "Star Wars Episode I: The Phantom Menace: recreación de motor de OpenPhantom para Windows. Aporta tu propia copia del juego.",
 };

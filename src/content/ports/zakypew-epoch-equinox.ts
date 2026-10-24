@@ -26,6 +26,8 @@ export const zakypewEpochEquinox: Port = {
     alt: "The Legend of Zelda: Oracle of Ages / Oracle of Seasons (box art)",
     credit: "Box art",
   },
+  summary: "The Legend of Zelda is a video game series created by Japanese game designers Shigeru Miyamoto and Takashi Tezuka. It is primarily developed and published by Nintendo, but some installments and re-releases have been outsourced to Flagship, Grezzo, and Tantalus Media.",
+  summaryEs: "The Legend of Zelda es una serie de videojuegos de acción-aventura creada por los diseñadores japoneses Shigeru Miyamoto y Takashi Tezuka, y desarrollada por Nintendo, empresa que también se encarga de su distribución internacional. Su trama por lo general describe las heroicas aventuras del joven guerrero Link, que debe enfrentarse a peligros y resolver acertijos para ayudar a la Princesa Zelda a derrotar a Ganondorf y salvar su hogar, el reino de Hyrule.",
   notes: "The Legend of Zelda: Oracle of Ages / Oracle of Seasons: static recompilation by ZakyPew for Windows. Bring your own copy of the game.",
   notesEs: "The Legend of Zelda: Oracle of Ages / Oracle of Seasons: recompilación estática de ZakyPew para Windows. Aporta tu propia copia del juego.",
 };

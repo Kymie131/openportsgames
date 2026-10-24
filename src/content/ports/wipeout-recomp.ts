@@ -19,6 +19,8 @@ export const wipeoutRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Wipeout 3 is a 1999 racing video game developed by Psygnosis and published by Sony Computer Entertainment for the PlayStation. It is the fourth game and third main instalment in the Wipeout series, following Wipeout 64 (1998), and the third on PlayStation following Wipeout 2097 (1996). It is the first game in the series to be released on neither a Sega or Nintendo console nor personal computers. Players control anti-gravity ships and use weapons to force other contenders out of the race.",
+  summaryEs: "El término Wipeout puede referirse a:",
   notes:
     "Recompilation of WipEout (PS1, Europe SCES-00010) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

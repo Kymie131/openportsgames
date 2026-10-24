@@ -26,6 +26,8 @@ export const tetrisMdMegaDrive: Port = {
     alt: "Tetris (box art)",
     credit: "Box art",
   },
+  summary: "Tetris is a puzzle video game created by Alexey Pajitnov, a Soviet software engineer, in the mid-1980s. In Tetris, falling pieces consisting of four connected blocks, known as tetrominoes, must be sorted into a pile. Once a horizontal line of the playfield is filled with blocks, the line disappears, granting points and preventing the pile from reaching the top. The objective is to score as much points as possible before the game ends when the blocks do reach the top. This gameplay has been used in approximately 220 versions across at least 70 platforms.",
+  summaryEs: "Tetris es un videojuego de lógica soviético originalmente diseñado y programado por Alekséi Pázhitnov. Se publicó el 6 de junio de 1984, mientras trabajaba para la Academia de Ciencias de la Unión Soviética en Moscú, RSFS de Rusia. Su nombre deriva del prefijo numérico griego tetra- (cuatro), ya que todas las piezas del juego, conocidas como tetrominós, contienen cuatro segmentos y, del tenis, el deporte favorito de Pázhitnov.",
   notes: "Tetris (Alexey Pajitnov, 2021) running on genesis through source port. Latest release: v1.0. You need your own copy of the game.",
   notesEs: "Tetris (Alexey Pajitnov, 2021) en genesis mediante port de código. Última release: v1.0. Necesitas tu propia copia del juego.",
 };
