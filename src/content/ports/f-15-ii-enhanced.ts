@@ -20,6 +20,9 @@ export const F15IiEnhanced: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
+  summary: "F-15 II Enhanced is a action-adventure game for MS-DOS, released in 2000.",
+  summaryEs: "F-15 II Enhanced es un videojuego de acci�n y aventura para MS-DOS, lanzado en 2000.",
+  summaryGenerated: true,
   notes:
     "Port of the reconstructed MS-DOS game F-15 Strike Eagle 2 to modern architectures, with bugfixes and enhancements.",
   notesEs:

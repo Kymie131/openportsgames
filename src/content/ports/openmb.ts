@@ -20,6 +20,9 @@ export const Openmb: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "OpenMB is a role-playing game, released in 2000.",
+  summaryEs: "OpenMB es un videojuego de rol, lanzado en 2000.",
+  summaryGenerated: true,
   notes:
     "Open Source role-playing game engine for Taleworlds' Mount&Blade Series written in C# using Ogre3d Engine.",
   notesEs:

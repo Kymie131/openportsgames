@@ -20,6 +20,9 @@ export const tilePuzzleUltimate3ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Other"],
+  summary: "Tile Puzzle Ultimate is a puzzle game published by Homebrew for Other, released in 2013.",
+  summaryEs: "Tile Puzzle Ultimate es un videojuego de puzles publicado por Homebrew para Other, lanzado en 2013.",
+  summaryGenerated: true,
   notes: "Tile Puzzle Ultimate (Homebrew, 2013) running on Nintendo 3DS through source port. Latest release: 0.1.0. You need your own copy of the game.",
   notesEs: "Tile Puzzle Ultimate (Homebrew, 2013) en Nintendo 3DS mediante port de código. Última release: 0.1.0. Necesitas tu propia copia del juego.",
 };

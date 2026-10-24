@@ -20,6 +20,9 @@ export const NeedForSpeed16: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Need For Speed 1-6 is a racing game, released in 2000.",
+  summaryEs: "Need For Speed 1-6 es un videojuego de carreras, lanzado en 2000.",
+  summaryGenerated: true,
   notes:
     "An attempt to recreate the classic Need for Speed Games (1-6), unpacking their original data files into a modern, scratch built engine.",
   notesEs:

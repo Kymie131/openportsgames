@@ -20,6 +20,9 @@ export const TaikoNoTatsujinWiiKetteiban: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Wii"],
+  summary: "Taiko No Tatsujin Wii Ketteiban is a action-adventure game for Wii, released in 2000.",
+  summaryEs: "Taiko No Tatsujin Wii Ketteiban es un videojuego de acci�n y aventura para Wii, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "A folder decompilation of the JP Wii Game Taiko No Tatsujin Wii Ketteiban.",
   notesEs: "Decompilación por carpetas del juego japonés de Wii Taiko no Tatsujin Wii Ketteiban.",
 };

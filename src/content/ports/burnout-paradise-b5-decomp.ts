@@ -21,6 +21,9 @@ export const BurnoutParadiseB5Decomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Burnout Paradise (b5-decomp) is a action-adventure game, released in 2000.",
+  summaryEs: "Burnout Paradise (b5-decomp) es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Burnout Paradise decompilation effort.",
   notesEs: "Proyecto de decompilación de Burnout Paradise.",
 };

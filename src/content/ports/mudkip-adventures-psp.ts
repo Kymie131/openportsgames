@@ -21,6 +21,9 @@ export const mudkipAdventuresPsp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Mudkip Adventures is a platform game published by Homebrew, released in 2021.",
+  summaryEs: "Mudkip Adventures es un videojuego de plataformas publicado por Homebrew, lanzado en 2021.",
+  summaryGenerated: true,
   notes: "Mudkip Adventures (Homebrew, 2021) running on PlayStation Portable through source port. You need your own copy of the game.",
   notesEs: "Mudkip Adventures (Homebrew, 2021) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
 };

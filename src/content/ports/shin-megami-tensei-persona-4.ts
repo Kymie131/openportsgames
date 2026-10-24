@@ -25,6 +25,9 @@ export const ShinMegamiTenseiPersona4: Port = {
     alt: "Shin Megami Tensei: Persona 4 (box art)",
     credit: "Box art",
   },
+  summary: "Shin Megami Tensei: Persona 4 is a action-adventure game for PlayStation 2, released in 2000.",
+  summaryEs: "Shin Megami Tensei: Persona 4 es un videojuego de acci�n y aventura para PlayStation 2, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Matching decompilation of Shin Megami Tensei: Persona 4 for PlayStation 2.",
   notesEs: "Decompilación que coincide de Shin Megami Tensei: Persona 4 para PlayStation 2.",
 };

@@ -20,6 +20,9 @@ export const legendOfDoom3ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
+  summary: "Legend of Doom is a shooter game published by id Software for MS-DOS, released in 1993.",
+  summaryEs: "Legend of Doom es un videojuego de disparos publicado por id Software para MS-DOS, lanzado en 1993.",
+  summaryGenerated: true,
   notes:
     "Port of the Legend of Doom total conversion (a Doom mod) to New Nintendo 3DS, based on GZDoom 4.7.1.",
   notesEs:

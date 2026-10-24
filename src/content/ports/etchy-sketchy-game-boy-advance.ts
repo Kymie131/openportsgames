@@ -21,6 +21,9 @@ export const etchySketchyGameBoyAdvance: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Etchy Sketchy is a platform game published by Homebrew, released in 2023.",
+  summaryEs: "Etchy Sketchy es un videojuego de plataformas publicado por Homebrew, lanzado en 2023.",
+  summaryGenerated: true,
   notes: "Etchy Sketchy (Homebrew, 2023) running on gba through source port. Latest release: v0.1. You need your own copy of the game.",
   notesEs: "Etchy Sketchy (Homebrew, 2023) en gba mediante port de código. Última release: v0.1. Necesitas tu propia copia del juego.",
 };

@@ -19,6 +19,9 @@ export const tsumuLightRecomp: Port = {
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Tsumu Light is a simulation game published by Taito for PlayStation, released in 1999.",
+  summaryEs: "Tsumu Light es un videojuego de simulaci�n publicado por Taito para PlayStation, lanzado en 1999.",
+  summaryGenerated: true,
   notes:
     "Native recompilation of Tsumu Light (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:

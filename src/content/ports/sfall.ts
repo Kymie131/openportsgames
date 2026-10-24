@@ -20,6 +20,9 @@ export const Sfall: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "sfall is a action-adventure game, released in 2000.",
+  summaryEs: "sfall es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "sfall - Engine modifications for Fallout 2.",
   notesEs: "sfall: modificaciones del motor de Fallout 2.",
 };

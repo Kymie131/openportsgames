@@ -20,6 +20,9 @@ export const PokemonMdSky: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Pokemon MD Sky is a role-playing game, released in 2000.",
+  summaryEs: "Pokemon MD Sky es un videojuego de rol, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Decompilation of Pokémon Mystery Dungeon: Explorers of Sky.",
   notesEs: "Decompilación de Pokémon Mundo Misterioso: Exploradores del Cielo.",
 };

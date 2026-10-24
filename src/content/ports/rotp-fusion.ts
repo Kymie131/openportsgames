@@ -20,6 +20,9 @@ export const RotpFusion: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Rotp-Fusion is a action-adventure game, released in 1993.",
+  summaryEs: "Rotp-Fusion es un videojuego de acci�n y aventura, lanzado en 1993.",
+  summaryGenerated: true,
   notes:
     "Created by Ray Fowler, Remnants of the Precursors is an open-source modernization of the original 1993 Master of Orion.",
   notesEs:

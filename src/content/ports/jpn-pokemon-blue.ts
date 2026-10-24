@@ -21,6 +21,9 @@ export const JpnPokemonBlue: Port = {
   wip: true,
   sourceVerified: true,
   originalSystems: ["Game Boy"],
+  summary: "JPN Pokémon Blue is a action-adventure game for Game Boy, released in 2000.",
+  summaryEs: "JPN Pokémon Blue es un videojuego de acci�n y aventura para Game Boy, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Disassembly of JPN Pokémon Blue.",
   notesEs: "Desensamblado de Pokémon Blue (Japón).",
 };

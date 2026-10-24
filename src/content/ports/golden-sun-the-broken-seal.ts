@@ -26,6 +26,9 @@ export const GoldenSunTheBrokenSeal: Port = {
     alt: "Golden Sun: The Broken Seal (cover)",
     credit: "Wikipedia",
   },
+  summary: "Golden Sun: The Broken Seal is a action-adventure game for Game Boy Advance, released in 2001.",
+  summaryEs: "Golden Sun: The Broken Seal es un videojuego de acci�n y aventura para Game Boy Advance, lanzado en 2001.",
+  summaryGenerated: true,
   notes: "Work-in-progress decompilation of Golden Sun (GBA, 2001). Builds a byte-identical ROM.",
   notesEs:
     "Decompilación de Golden Sun (GBA, 2001), en desarrollo. Genera una ROM idéntica byte a byte.",

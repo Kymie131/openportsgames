@@ -20,6 +20,9 @@ export const _1oom: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
+  summary: "1oom is a action-adventure game for MS-DOS, released in 1993.",
+  summaryEs: "1oom es un videojuego de acci�n y aventura para MS-DOS, lanzado en 1993.",
+  summaryGenerated: true,
   notes:
     "1oom is a Master of Orion Classic (1993) game engine recreation that requires the original files to run.",
   notesEs:

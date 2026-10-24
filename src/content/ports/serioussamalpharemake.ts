@@ -20,6 +20,9 @@ export const Serioussamalpharemake: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "SeriousSamAlphaRemake is a action-adventure game, released in 2000.",
+  summaryEs: "SeriousSamAlphaRemake es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes:
     "Serious Sam Alpha Remake open source project based on https://github.com/Croteam-official/Serious-Engine and linux port https://github.com/icculus/Serious-Engine. Zdzichu official repo: https://github.com/GrlPwr-Zdzichu/SeriousSamAlphaRemake-Legacy.",
   notesEs:

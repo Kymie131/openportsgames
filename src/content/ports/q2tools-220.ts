@@ -20,6 +20,9 @@ export const Q2tools220: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "q2tools-220 is a shooter game, released in 2000.",
+  summaryEs: "q2tools-220 es un videojuego de disparos, lanzado en 2000.",
+  summaryGenerated: true,
   notes:
     "Quake 2 map compiler tools with v220 map support, automatic phong, enhancements, and fixes.",
   notesEs:

@@ -25,6 +25,9 @@ export const KkndKrushKillNDestroy: Port = {
     alt: "KKND: Krush Kill 'n Destroy (box art)",
     credit: "Box art",
   },
+  summary: "KKND: Krush Kill 'n Destroy is a action-adventure game for MS-DOS, released in 1997.",
+  summaryEs: "KKND: Krush Kill 'n Destroy es un videojuego de acci�n y aventura para MS-DOS, lanzado en 1997.",
+  summaryGenerated: true,
   notes:
     "Matching decompilation of KKND: Krush Kill 'n Destroy (DOS, 1997) - Watcom C, byte-identical rebuild.",
   notesEs:

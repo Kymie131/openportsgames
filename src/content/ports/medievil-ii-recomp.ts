@@ -19,6 +19,9 @@ export const medievilIiRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "MediEvil II is a action-adventure game published by Sony Computer Entertainment for PlayStation, released in 2000.",
+  summaryEs: "MediEvil II es un videojuego de acci�n y aventura publicado por Sony Computer Entertainment para PlayStation, lanzado en 2000.",
+  summaryGenerated: true,
   notes:
     "Recompilation of MediEvil II (PS1, USA SCUS-94564) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

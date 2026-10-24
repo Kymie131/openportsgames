@@ -21,6 +21,9 @@ export const openstrikePsp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  summary: "OpenStrike is a shooter game published by Pocket Nexus for Windows, released in 2025.",
+  summaryEs: "OpenStrike es un videojuego de disparos publicado por Pocket Nexus para Windows, lanzado en 2025.",
+  summaryGenerated: true,
   notes: "OpenStrike (Pocket Nexus, 2025) running on PlayStation Portable through source port. You need your own copy of the game.",
   notesEs: "OpenStrike (Pocket Nexus, 2025) en PlayStation Portable mediante port de código. Necesitas tu propia copia del juego.",
 };

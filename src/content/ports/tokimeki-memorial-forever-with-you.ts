@@ -20,6 +20,9 @@ export const TokimekiMemorialForeverWithYou: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  summary: "Tokimeki Memorial: Forever with You is a action-adventure game for PlayStation, released in 2000.",
+  summaryEs: "Tokimeki Memorial: Forever with You es un videojuego de acci�n y aventura para PlayStation, lanzado en 2000.",
+  summaryGenerated: true,
   notes:
     "Matching decompilation of Tokimeki Memorial: Forever with You (PS1, Japan). Bring your own disc.",
   notesEs:

@@ -20,6 +20,9 @@ export const CutTheRopeCutTheRopeDx: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Cut the Rope (Cut the Rope: DX) is a action-adventure game, released in 2000.",
+  summaryEs: "Cut the Rope (Cut the Rope: DX) es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes:
     "Cut the Rope DX, a fan-made enhancement of the PC version of Cut the Rope. Now available on web!.",
   notesEs:

@@ -20,6 +20,9 @@ export const WorldOfWarcraft112Benilla: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "World of Warcraft 1.12 (benilla) is a strategy game, released in 2000.",
+  summaryEs: "World of Warcraft 1.12 (benilla) es un videojuego de estrategia, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "A complete World of Warcraft 1.12.1 client, written from scratch in Rust and Bevy.",
   notesEs: "Un cliente completo de World of Warcraft 1.12.1, escrito desde cero en Rust y Bevy.",
 };

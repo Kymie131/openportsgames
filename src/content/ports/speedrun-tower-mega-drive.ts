@@ -21,6 +21,9 @@ export const speedrunTowerMegaDrive: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Speedrun Tower is a platform game published by Homebrew, released in 2022.",
+  summaryEs: "Speedrun Tower es un videojuego de plataformas publicado por Homebrew, lanzado en 2022.",
+  summaryGenerated: true,
   notes: "Speedrun Tower (Homebrew, 2022) running on genesis through source port. Latest release: SG-1.0. You need your own copy of the game.",
   notesEs: "Speedrun Tower (Homebrew, 2022) en genesis mediante port de código. Última release: SG-1.0. Necesitas tu propia copia del juego.",
 };

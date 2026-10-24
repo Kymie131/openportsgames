@@ -19,8 +19,31 @@ const cache = JSON.parse(fs.readFileSync(CACHE, "utf8"));
 let summaries = 0;
 let publishers = 0;
 let matched = 0;
+let generated = 0;
 const mismatches = [];
 const unresolved = [];
+
+const GENRE_EN = {
+  platformer: "platform", "action-adventure": "action-adventure", rpg: "role-playing",
+  racing: "racing", strategy: "strategy", shooter: "shooter", fighting: "fighting",
+  sports: "sports", simulation: "simulation", "open-world": "open-world",
+  puzzle: "puzzle", music: "music",
+};
+const GENRE_ES = {
+  platformer: "plataformas", "action-adventure": "acciÛn y aventura", rpg: "rol",
+  racing: "carreras", strategy: "estrategia", shooter: "disparos", fighting: "lucha",
+  sports: "deportes", simulation: "simulaciÛn", "open-world": "mundo abierto",
+  puzzle: "puzles", music: "m˙sica",
+};
+
+function insertSummary(text, en, es, isGenerated) {
+  if (/\n  summary:/.test(text)) return text;
+  const block = `\n  summary: ${JSON.stringify(en)},\n  summaryEs: ${JSON.stringify(es)},${isGenerated ? "\n  summaryGenerated: true," : ""}`;
+  const anchor = text.search(/\n  notes:/);
+  if (anchor >= 0) return `${text.slice(0, anchor)}${block}${text.slice(anchor)}`;
+  const end = text.lastIndexOf("\n};");
+  return end >= 0 ? `${text.slice(0, end)}${block}${text.slice(end)}` : text;
+}
 
 for (const file of fs.readdirSync(DIR)) {
   if (!file.endsWith(".ts") || file === "index.ts" || file === "meta.ts") continue;
@@ -29,8 +52,21 @@ for (const file of fs.readdirSync(DIR)) {
   const game = text.match(/game:\s*"([^"]+)"/)?.[1];
   const id = text.match(/id:\s*"([^"]+)"/)?.[1];
   if (!game || !id) continue;
+  const kind = text.match(/kind:\s*"([^"]+)"/)?.[1] ?? "game";
+  if (kind !== "game") continue;
   const meta = cache[norm(game)];
   if (!meta) {
+    const genre = text.match(/genre:\s*"([^"]+)"/)?.[1] ?? "action-adventure";
+    const year = Number(text.match(/originalYear:\s*(\d+)/)?.[1] ?? 0);
+    const systemMatch = (text.match(/originalSystems:\s*\[([\s\S]*?)\]/)?.[1] ?? "").match(/"([^"]+)"/);
+    const system = systemMatch && systemMatch[1] !== "Unknown" ? systemMatch[1] : null;
+    const publisher = text.match(/publisher:\s*"([^"]+)"/)?.[1];
+    const knownPublisher = publisher && publisher !== "Unknown" ? publisher : null;
+    const en = `${game} is a ${GENRE_EN[genre] ?? "video"} game${knownPublisher ? ` published by ${knownPublisher}` : ""}${system ? ` for ${system}` : ""}${year ? `, released in ${year}` : ""}.`;
+    const es = `${game} es un videojuego de ${GENRE_ES[genre] ?? "acciÛn"}${knownPublisher ? ` publicado por ${knownPublisher}` : ""}${system ? ` para ${system}` : ""}${year ? `, lanzado en ${year}` : ""}.`;
+    text = insertSummary(text, en, es, true);
+    fs.writeFileSync(full, text);
+    generated++;
     unresolved.push({ id, game });
     continue;
   }
@@ -68,7 +104,7 @@ const lines = [
   `- Fichas con metadatos de juego: **${matched}**`,
   `- Sinopsis a√±adidas: **${summaries}**`,
   `- Publishers completados (solo si faltaban): **${publishers}**`,
-  `- Fichas sin coincidencia en Wikidata/Wikipedia/Steam: **${unresolved.length}**`,
+  `- Sinopsis generadas a partir de la ficha: **${generated}**` + "`n" + `- Fichas sin sinopsis verificada (resumen generado): **${unresolved.length}**`,
   `- A√±os que difieren m√°s de 1 respecto a la fuente: **${mismatches.length}**`,
   "",
   "## A√±os a revisar",
@@ -84,5 +120,5 @@ const lines = [
 ];
 fs.writeFileSync(REPORT, `${lines.join("\n")}\n`);
 console.log(
-  JSON.stringify({ matched, summaries, publishers, mismatches: mismatches.length, unresolved: unresolved.length }, null, 2),
+  JSON.stringify({ matched, summaries, generated, publishers, mismatches: mismatches.length, unresolved: unresolved.length }, null, 2),
 );

@@ -21,6 +21,9 @@ export const novaTheSquirrelNes: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Nova the Squirrel is a platform game published by Homebrew, released in 2019.",
+  summaryEs: "Nova the Squirrel es un videojuego de plataformas publicado por Homebrew, lanzado en 2019.",
+  summaryGenerated: true,
   notes: "Nova the Squirrel (Homebrew, 2019) running on nes through source port. Latest release: v1.0.6a. You need your own copy of the game.",
   notesEs: "Nova the Squirrel (Homebrew, 2019) en nes mediante port de código. Última release: v1.0.6a. Necesitas tu propia copia del juego.",
 };

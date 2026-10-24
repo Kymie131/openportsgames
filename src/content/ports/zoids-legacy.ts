@@ -25,6 +25,9 @@ export const ZoidsLegacy: Port = {
     alt: "Zoids Legacy (box art)",
     credit: "Box art",
   },
+  summary: "Zoids Legacy is a action-adventure game for Game Boy Advance, released in 2000.",
+  summaryEs: "Zoids Legacy es un videojuego de acci�n y aventura para Game Boy Advance, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Matched Decompilation of Zoids Legacy (USA) GBA game.",
   notesEs: "Decompilación que coincide de Zoids Legacy (USA) para GBA.",
 };

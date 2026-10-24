@@ -20,6 +20,9 @@ export const apotrisPsp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy Advance"],
+  summary: "Apotris is a puzzle game published by Akouzoukos for Game Boy Advance, released in 2021.",
+  summaryEs: "Apotris es un videojuego de puzles publicado por Akouzoukos para Game Boy Advance, lanzado en 2021.",
+  summaryGenerated: true,
   notes: "Apotris (Akouzoukos, 2021) running on PlayStation Portable through source port. Latest release: v4.1.0-psp1. You need your own copy of the game.",
   notesEs: "Apotris (Akouzoukos, 2021) en PlayStation Portable mediante port de código. Última release: v4.1.0-psp1. Necesitas tu propia copia del juego.",
 };

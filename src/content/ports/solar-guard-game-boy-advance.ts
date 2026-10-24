@@ -21,6 +21,9 @@ export const solarGuardGameBoyAdvance: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Solar Guard is a shooter game published by Homebrew, released in 2021.",
+  summaryEs: "Solar Guard es un videojuego de disparos publicado por Homebrew, lanzado en 2021.",
+  summaryGenerated: true,
   notes: "Solar Guard (Homebrew, 2021) running on gba through source port. Latest release: GBA-JAM-2021. You need your own copy of the game.",
   notesEs: "Solar Guard (Homebrew, 2021) en gba mediante port de código. Última release: GBA-JAM-2021. Necesitas tu propia copia del juego.",
 };

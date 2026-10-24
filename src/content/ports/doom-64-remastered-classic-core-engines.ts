@@ -20,6 +20,9 @@ export const doom64RemasteredClassicCoreEngines: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Doom 64 Remastered is a shooter game published by id Software, released in 2020.",
+  summaryEs: "Doom 64 Remastered es un videojuego de disparos publicado por id Software, lanzado en 2020.",
+  summaryGenerated: true,
   notes: "Doom 64 Remastered (id Software, 2020) for Android (source port). Latest release: 3.5.0. Needs your own copy of the game (DOOM64.WAD, DOOMSND.DLS, Doom64.kpf).",
   notesEs: "Doom 64 Remastered (id Software, 2020) para Android (port de código). Última release: 3.5.0. Necesita tu propia copia del juego.",
 };

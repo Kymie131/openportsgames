@@ -20,6 +20,9 @@ export const Vorpalfix: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "VorpalFix is a action-adventure game, released in 2011.",
+  summaryEs: "VorpalFix es un videojuego de acci�n y aventura, lanzado en 2011.",
+  summaryGenerated: true,
   notes:
     "A patch that addresses various technical issues and adds quality-of-life improvements to the 2011 remaster of American McGee's Alice.",
   notesEs:

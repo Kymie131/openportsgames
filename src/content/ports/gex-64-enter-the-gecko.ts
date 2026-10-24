@@ -25,6 +25,9 @@ export const Gex64EnterTheGecko: Port = {
     alt: "Gex 64: Enter the Gecko (box art)",
     credit: "Wikipedia",
   },
+  summary: "Gex 64: Enter the Gecko is a action-adventure game, released in 2000.",
+  summaryEs: "Gex 64: Enter the Gecko es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Decompilation of Gex 64.",
   notesEs: "Decompilación de Gex 64.",
 };

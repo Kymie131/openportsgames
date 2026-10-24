@@ -21,6 +21,9 @@ export const spaceRescueSquadSnes: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Space Rescue Squad is a platform game published by Homebrew, released in 2023.",
+  summaryEs: "Space Rescue Squad es un videojuego de plataformas publicado por Homebrew, lanzado en 2023.",
+  summaryGenerated: true,
   notes: "Space Rescue Squad (Homebrew, 2023) running on snes through source port. Latest release: game-jam-v1.1. You need your own copy of the game.",
   notesEs: "Space Rescue Squad (Homebrew, 2023) en snes mediante port de código. Última release: game-jam-v1.1. Necesitas tu propia copia del juego.",
 };

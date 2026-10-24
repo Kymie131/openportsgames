@@ -25,6 +25,9 @@ export const MafiaTheCityOfLostHeaven: Port = {
     alt: "Mafia: The City of Lost Heaven (box art)",
     credit: "Wikipedia",
   },
+  summary: "Mafia: The City of Lost Heaven is a action-adventure game, released in 2000.",
+  summaryEs: "Mafia: The City of Lost Heaven es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Decompilation of Mafia: The City of Lost Heaven.",
   notesEs: "Decompilación de Mafia: The City of Lost Heaven.",
 };

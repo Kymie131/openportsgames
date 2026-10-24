@@ -25,6 +25,9 @@ export const TheLordOfTheRingsReturnOfTheKing: Port = {
     alt: "The Lord of the Rings: Return of the King (box art)",
     credit: "Wikipedia",
   },
+  summary: "The Lord of the Rings: Return of the King is a action-adventure game, released in 2000.",
+  summaryEs: "The Lord of the Rings: Return of the King es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Decompilation of The Lord of the Rings: Return of the King.",
   notesEs: "Decompilación de The Lord of the Rings: The Return of the King.",
 };

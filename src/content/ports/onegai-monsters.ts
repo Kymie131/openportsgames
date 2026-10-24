@@ -20,6 +20,9 @@ export const OnegaiMonsters: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Onegai Monsters is a action-adventure game, released in 2000.",
+  summaryEs: "Onegai Monsters es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Decompilation of Onegai Monsters (Other).",
   notesEs: "Decompilación de Onegai Monsters (Other).",
 };

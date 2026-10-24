@@ -1,10 +1,10 @@
 # Informe de metadatos de juegos
 
-- Fichas con metadatos de juego: **2272**
-- Sinopsis añadidas: **329**
+- Fichas con metadatos de juego: **2213**
+- Sinopsis añadidas: **0**
 - Publishers completados (solo si faltaban): **0**
-- Fichas sin coincidencia en Wikidata/Wikipedia/Steam: **286**
-- Años que difieren más de 1 respecto a la fuente: **96**
+- Sinopsis generadas a partir de la ficha: **280**`n- Fichas sin sinopsis verificada (resumen generado): **280**
+- Años que difieren más de 1 respecto a la fuente: **95**
 
 ## Años a revisar
 
@@ -22,7 +22,6 @@
 - `castlevania-revamped` — Castlevania: ficha 1986, wikidata 1998
 - `chrissotraidis-goldenpad` — GoldenEye 007: ficha 1997, wikidata 2010
 - `civilization-snes-pc` — Civilization: ficha 1994, wikidata 1991
-- `classic-core-engines` — Perfect Dark: ficha 1993, wikidata 2000
 - `cookie-clicker-3ds` — Cookie Clicker: ficha 2013, steam 2021
 - `daytona-usa-recomp` — Daytona USA: ficha 1993, wikidata 1995
 - `devilutionx` — Diablo: ficha 1996, wikidata 2006
@@ -122,7 +121,6 @@
 - `apotris-psp` — Apotris
 - `armored-unit` — Armored Unit
 - `asteroids-terra-sega-saturn` — Asteroids Terra
-- `awesome-open-source-games` — Awesome Open Source Games
 - `banjorecomp-android` — BanjoRecomp Android
 - `barrett` — Barrett
 - `battle-grounds-3-psp` — Battle Grounds 3
@@ -144,7 +142,6 @@
 - `classicube-classicube` — ClassiCube
 - `cnc-tiberian-dawn-android` — Command & Conquer: Tiberian Dawn
 - `coqui-snes` — Coqui
-- `cps2-recomp` — CPS-2 arcade collection
 - `craftus-reloaded` — Craftus Reloaded
 - `crossconnect-game-boy-color` — CrossConnect
 - `crucible-exe-game-boy-color` — CRUCIBLE.EXE
@@ -259,7 +256,6 @@
 - `omega-engine` — OmegA-engine
 - `onegai-monsters` — Onegai Monsters
 - `open-annihilation` — Open Annihilation
-- `openbor-android` — OpenBoR
 - `openciv3` — OpenCiv3
 - `opene2140` — OpenE2140
 - `openkrush` — OpenKrush
@@ -297,7 +293,6 @@
 - `prince-monogame` — Prince-Monogame
 - `project-eleven-recomp` — 11eyes CrossOver
 - `ps2-osdsys` — PS2 OSDSYS
-- `psy-q-decomp` — PS1 Psy-Q SDK Libraries
 - `pt-pc` — P.T. (Playable Teaser)
 - `q2rtxperimental` — Q2RTXPerimental
 - `q2tools-220` — q2tools-220
@@ -308,7 +303,6 @@
 - `ratchet-and-clank-usa` — Ratchet & Clank (USA)
 - `rebellion2` — rebellion2
 - `remc2` — remc2
-- `rerac-launcher` — rerac launcher
 - `resident-evil-4-dreamcast-port-re4dc` — Resident Evil 4 (Dreamcast port, re4dc)
 - `rival-schools-evolution-recomp` — Rival Schools: Evolution Disc
 - `robin-hood-s-platform-game-3ds` — Robin Hood's Platform Game
@@ -387,7 +381,6 @@
 - `wipeout-xl-recomp-njh` — Wipeout XL
 - `wipeout-xl-recomp` — Wipeout XL
 - `world-of-warcraft-1-12-benilla` — World of Warcraft 1.12 (benilla)
-- `xbox-360-kernel` — Xbox 360 Kernel
 - `xoreos` — xoreos
 - `zero-hour-reforged` — Zero Hour Reforged
 - `zoids-legacy` — Zoids Legacy

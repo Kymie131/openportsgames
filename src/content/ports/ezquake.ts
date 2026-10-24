@@ -20,6 +20,9 @@ export const Ezquake: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "ezQuake is a action-adventure game, released in 2000.",
+  summaryEs: "ezQuake es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "main ezQuake source code base.",
   notesEs: "Base del código fuente principal de ezQuake.",
 };

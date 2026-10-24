@@ -20,6 +20,9 @@ export const Wc2Re: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "wc2-re is a action-adventure game, released in 2000.",
+  summaryEs: "wc2-re es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Wing Commander 2 source reconstruction and SDL2 port.",
   notesEs: "Reconstrucción del código fuente y port a SDL2 de Wing Commander 2.",
 };

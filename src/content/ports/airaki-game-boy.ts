@@ -21,6 +21,9 @@ export const airakiGameBoy: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Airaki is a puzzle game published by Homebrew, released in 2014.",
+  summaryEs: "Airaki es un videojuego de puzles publicado por Homebrew, lanzado en 2014.",
+  summaryGenerated: true,
   notes: "Airaki (Homebrew, 2014) running on gb through source port. You need your own copy of the game.",
   notesEs: "Airaki (Homebrew, 2014) en gb mediante port de código. Necesitas tu propia copia del juego.",
 };

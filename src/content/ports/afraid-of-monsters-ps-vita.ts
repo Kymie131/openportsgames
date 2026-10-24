@@ -20,6 +20,9 @@ export const afraidOfMonstersPsVita: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  summary: "Afraid of Monsters is a shooter game published by Team Psykskallar for Windows, released in 2007.",
+  summaryEs: "Afraid of Monsters es un videojuego de disparos publicado por Team Psykskallar para Windows, lanzado en 2007.",
+  summaryGenerated: true,
   notes: "Afraid of Monsters (Team Psykskallar, 2007) running on PlayStation Vita through source port. You need your own copy of the game.",
   notesEs: "Afraid of Monsters (Team Psykskallar, 2007) en PlayStation Vita mediante port de código. Necesitas tu propia copia del juego.",
 };

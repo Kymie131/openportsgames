@@ -20,6 +20,9 @@ export const Openomf: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "openomf is a action-adventure game, released in 2000.",
+  summaryEs: "openomf es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "One Must Fall 2097 Remake.",
   notesEs: "Remake de One Must Fall 2097.",
 };

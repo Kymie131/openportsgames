@@ -21,6 +21,9 @@ export const multidrcSpaceDemoWiiU: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "MultiDRC Space Demo is a shooter game published by Homebrew, released in 2022.",
+  summaryEs: "MultiDRC Space Demo es un videojuego de disparos publicado por Homebrew, lanzado en 2022.",
+  summaryGenerated: true,
   notes: "MultiDRC Space Demo (Homebrew, 2022) running on Wii U through source port. Latest release: v0.1. You need your own copy of the game.",
   notesEs: "MultiDRC Space Demo (Homebrew, 2022) en Wii U mediante port de código. Última release: v0.1. Necesitas tu propia copia del juego.",
 };

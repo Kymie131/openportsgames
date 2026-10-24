@@ -20,6 +20,9 @@ export const Barrett: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Barrett is a action-adventure game, released in 2000.",
+  summaryEs: "Barrett es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Advanced and featureful Rise of the Triad source port for modern systems.",
   notesEs:
     "Port avanzado y completo del código fuente de Rise of the Triad para sistemas modernos.",

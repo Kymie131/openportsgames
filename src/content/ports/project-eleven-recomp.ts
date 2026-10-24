@@ -21,6 +21,9 @@ export const projectElevenRecomp: Port = {
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["steins-gate-recomp"],
+  summary: "11eyes CrossOver is a action-adventure game published by 5pb. for Xbox 360, released in 2009.",
+  summaryEs: "11eyes CrossOver es un videojuego de acci�n y aventura publicado por 5pb. para Xbox 360, lanzado en 2009.",
+  summaryGenerated: true,
   notes: "Native PC recompilation of the Xbox 360 version of 11eyes CrossOver using ReXGlue. You must build it yourself with your legally owned game files. Latest tag: windows-rex-v0.10.",
   notesEs: "Recompilación nativa para PC de la versión de Xbox 360 de 11eyes CrossOver usando ReXGlue. Hay que compilarla con tus propios archivos legales del juego. Último tag: windows-rex-v0.10.",
 };

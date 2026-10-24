@@ -20,6 +20,9 @@ export const Heretic2r: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Heretic2R is a action-adventure game, released in 1998.",
+  summaryEs: "Heretic2R es un videojuego de acci�n y aventura, lanzado en 1998.",
+  summaryGenerated: true,
   notes: "Heretic II (1998, Raven Software) reverse-engineered source port.",
   notesEs:
     "Port del código fuente reconstruido por ingeniería inversa de Heretic II (Raven Software, 1998).",

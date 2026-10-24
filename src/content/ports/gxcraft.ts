@@ -21,6 +21,9 @@ export const gxcraft: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "GXCraft is a simulation game published by BlueAmulet, released in 2020.",
+  summaryEs: "GXCraft es un videojuego de simulaci�n publicado por BlueAmulet, lanzado en 2020.",
+  summaryGenerated: true,
   notes:
     "GXCraft is a Minecraft Classic-style homebrew game for the Wii, with block building and networked multiplayer. It does not need a copy of Minecraft.",
   notesEs:

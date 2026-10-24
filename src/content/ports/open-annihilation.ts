@@ -20,6 +20,9 @@ export const OpenAnnihilation: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Open Annihilation is a action-adventure game, released in 2000.",
+  summaryEs: "Open Annihilation es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Open Source port of the Total Annihilation & TA: Kingdoms engines.",
   notesEs: "Port de código abierto de los motores de Total Annihilation y TA: Kingdoms.",
 };

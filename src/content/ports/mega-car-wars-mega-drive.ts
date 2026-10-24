@@ -21,6 +21,9 @@ export const megaCarWarsMegaDrive: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Mega Car Wars is a racing game published by Homebrew, released in 2023.",
+  summaryEs: "Mega Car Wars es un videojuego de carreras publicado por Homebrew, lanzado en 2023.",
+  summaryGenerated: true,
   notes: "Mega Car Wars (Homebrew, 2023) running on genesis through source port. You need your own copy of the game.",
   notesEs: "Mega Car Wars (Homebrew, 2023) en genesis mediante port de código. Necesitas tu propia copia del juego.",
 };

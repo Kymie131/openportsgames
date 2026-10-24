@@ -20,6 +20,9 @@ export const DefendersAndDragons: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Defenders & Dragons is a action-adventure game, released in 2000.",
+  summaryEs: "Defenders & Dragons es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Decompilation of Defenders & Dragons by Glu.",
   notesEs: "Decompilación de Defenders & Dragons de Glu.",
 };

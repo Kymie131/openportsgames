@@ -26,6 +26,9 @@ export const wipeoutXlRecompNjh: Port = {
     alt: "Wipeout XL (box art)",
     credit: "Box art",
   },
+  summary: "Wipeout XL is a racing game published by Psygnosis for PlayStation, released in 1996.",
+  summaryEs: "Wipeout XL es un videojuego de carreras publicado por Psygnosis para PlayStation, lanzado en 1996.",
+  summaryGenerated: true,
   notes: "Windows x64 setup kit for Wipeout XL (USA, SCUS-94351) with an OpenBIOS, configurable NeGcon dual sticks, optional widescreen and extra tracks. Bring your own disc. Latest release: v0.1.0.",
   notesEs: "Kit de instalación para Windows x64 de Wipeout XL (USA, SCUS-94351) con OpenBIOS, doble stick NeGcon configurable, panorámico opcional y pistas extra. Aporta tu propio disco. Última release: v0.1.0.",
 };

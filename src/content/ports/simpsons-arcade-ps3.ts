@@ -19,6 +19,9 @@ export const simpsonsArcadePs3: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation 3"],
+  summary: "The Simpsons Arcade Game is a fighting game published by Konami for PlayStation 3, released in 2012.",
+  summaryEs: "The Simpsons Arcade Game es un videojuego de lucha publicado por Konami para PlayStation 3, lanzado en 2012.",
+  summaryGenerated: true,
   notes:
     "Native recompilation of The Simpsons Arcade Game (PlayStation 3). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:

@@ -20,6 +20,9 @@ export const War1: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
+  summary: "war1 is a strategy game for MS-DOS, released in 2000.",
+  summaryEs: "war1 es un videojuego de estrategia para MS-DOS, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "A remake of Warcraft: Orcs & Humans written in C.",
   notesEs: "Un remake de Warcraft: Orcs & Humans escrito en C.",
 };

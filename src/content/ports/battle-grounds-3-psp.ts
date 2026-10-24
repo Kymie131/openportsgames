@@ -21,6 +21,9 @@ export const battleGrounds3Psp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Battle Grounds 3 is a shooter game published by Homebrew, released in 2020.",
+  summaryEs: "Battle Grounds 3 es un videojuego de disparos publicado por Homebrew, lanzado en 2020.",
+  summaryGenerated: true,
   notes: "Battle Grounds 3 (Homebrew, 2020) running on PlayStation Portable through source port. Latest release: v0.5.0. You need your own copy of the game.",
   notesEs: "Battle Grounds 3 (Homebrew, 2020) en PlayStation Portable mediante port de código. Última release: v0.5.0. Necesitas tu propia copia del juego.",
 };

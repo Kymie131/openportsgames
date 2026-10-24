@@ -21,6 +21,9 @@ export const virtuaSkimmerSegaSaturn: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Virtua Skimmer is a racing game published by Homebrew, released in 2018.",
+  summaryEs: "Virtua Skimmer es un videojuego de carreras publicado por Homebrew, lanzado en 2018.",
+  summaryGenerated: true,
   notes: "Virtua Skimmer (Homebrew, 2018) running on saturn through source port. Latest release: v.04. You need your own copy of the game.",
   notesEs: "Virtua Skimmer (Homebrew, 2018) en saturn mediante port de código. Última release: v.04. Necesitas tu propia copia del juego.",
 };

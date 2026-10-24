@@ -21,6 +21,9 @@ export const superbounce64Nintendo64: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Superbounce 64 is a puzzle game published by Homebrew, released in 2026.",
+  summaryEs: "Superbounce 64 es un videojuego de puzles publicado por Homebrew, lanzado en 2026.",
+  summaryGenerated: true,
   notes: "Superbounce 64 (Homebrew, 2026) running on n64 through source port. Latest release: v0.9a. You need your own copy of the game.",
   notesEs: "Superbounce 64 (Homebrew, 2026) en n64 mediante port de código. Última release: v0.9a. Necesitas tu propia copia del juego.",
 };

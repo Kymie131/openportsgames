@@ -20,6 +20,9 @@ export const SopwithSdlSopwith: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Sopwith (SDL Sopwith) is a action-adventure game, released in 2000.",
+  summaryEs: "Sopwith (SDL Sopwith) es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Classic bi-plane shoot-'em up.",
   notesEs: "Clásico juego de disparos de biplano.",
 };

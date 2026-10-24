@@ -20,6 +20,9 @@ export const pokemonReloadedEnAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Pokemon Reloaded is a role-playing game published by Klisee, released in 2020.",
+  summaryEs: "Pokemon Reloaded es un videojuego de rol publicado por Klisee, lanzado en 2020.",
+  summaryGenerated: true,
   notes: "Pokemon Reloaded (Klisee, 2020) for Android (source port). Latest release: v0.3.1. Needs your own copy of the game.",
   notesEs: "Pokemon Reloaded (Klisee, 2020) para Android (port de código). Última release: v0.3.1. Necesita tu propia copia del juego.",
 };

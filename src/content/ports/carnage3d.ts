@@ -20,6 +20,9 @@ export const Carnage3d: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Carnage3D is a open-world game, released in 2000.",
+  summaryEs: "Carnage3D es un videojuego de mundo abierto, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Reimplementation of Grand Theft Auto 1 [GTA1].",
   notesEs: "Reimplementación de Grand Theft Auto 1 [GTA1].",
 };

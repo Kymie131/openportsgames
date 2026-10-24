@@ -19,6 +19,9 @@ export const pokerogueApp: Port = {
   license: { spdx: "MIT" },
   verified: false,
   originalSystems: ["Windows"],
+  summary: "PokeRogue is a role-playing game published by PokeRogue contributors for Windows, released in 2023.",
+  summaryEs: "PokeRogue es un videojuego de rol publicado por PokeRogue contributors para Windows, lanzado en 2023.",
+  summaryGenerated: true,
   notes:
     "Android app that opens the PokeRogue web game in its own window. It is a wrapper around pokerogue.net and does not bundle the game.",
   notesEs:

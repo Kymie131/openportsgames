@@ -20,6 +20,9 @@ export const PokemonMdRed: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Pokemon MD Red is a role-playing game, released in 2000.",
+  summaryEs: "Pokemon MD Red es un videojuego de rol, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Decompilation of Pokémon Mystery Dungeon: Red Rescue Team.",
   notesEs: "Decompilación de Pokémon Mundo Misterioso: Equipo de Rescate Rojo.",
 };

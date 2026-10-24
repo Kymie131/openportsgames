@@ -22,6 +22,9 @@ export const kroplabeskiduFlipendo: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Flipendo is a action-adventure game, released in 2001.",
+  summaryEs: "Flipendo es un videojuego de acci�n y aventura, lanzado en 2001.",
+  summaryGenerated: true,
   notes: "Flipendo: engine remake by kroplabeskidu for Windows. Bring your own copy of the game.",
   notesEs: "Flipendo: recreación de motor de kroplabeskidu para Windows. Aporta tu propia copia del juego.",
 };

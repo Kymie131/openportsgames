@@ -20,6 +20,9 @@ export const LionheartRemake: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Amiga"],
+  summary: "Lionheart Remake is a action-adventure game for Amiga, released in 2000.",
+  summaryEs: "Lionheart Remake es un videojuego de acci�n y aventura para Amiga, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Java remake of Lionheart amiga game.",
   notesEs: "Remake en Java del juego Lionheart de Amiga.",
 };

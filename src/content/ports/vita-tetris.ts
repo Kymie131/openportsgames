@@ -21,6 +21,9 @@ export const vitaTetris: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Vita Tetris is a puzzle game published by m-bartlett, released in 2023.",
+  summaryEs: "Vita Tetris es un videojuego de puzles publicado por m-bartlett, lanzado en 2023.",
+  summaryGenerated: true,
   notes:
     "Vita Tetris is an open-source Tetris homebrew for PS Vita with 3D graphics rendered through vitaGL. It is free and does not need the original game.",
   notesEs:

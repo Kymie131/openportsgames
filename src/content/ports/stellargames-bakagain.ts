@@ -22,6 +22,9 @@ export const stellargamesBakagain: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Bak-Again is a action-adventure game, released in 1993.",
+  summaryEs: "Bak-Again es un videojuego de acci�n y aventura, lanzado en 1993.",
+  summaryGenerated: true,
   notes: "Bak-Again: engine remake by stellargames for Android, Windows, Linux. Bring your own copy of the game.",
   notesEs: "Bak-Again: recreación de motor de stellargames para Android, Windows, Linux. Aporta tu propia copia del juego.",
 };

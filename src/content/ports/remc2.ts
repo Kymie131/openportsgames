@@ -20,6 +20,9 @@ export const Remc2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "remc2 is a platform game, released in 2000.",
+  summaryEs: "remc2 es un videojuego de plataformas, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Recode Binary code of game Magic Carpet2 to C/C++ language(remake MC2 for any platform).",
   notesEs:
     "Recodificación a C/C++ del código binario de Magic Carpet 2 (remake para cualquier plataforma).",

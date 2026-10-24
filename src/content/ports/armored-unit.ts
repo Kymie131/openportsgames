@@ -20,6 +20,9 @@ export const ArmoredUnit: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Armored Unit is a action-adventure game, released in 2000.",
+  summaryEs: "Armored Unit es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Disassembly/Decompilation for the Armored Unit game for the Wonderswan.",
   notesEs: "Desensamblado/decompilación del juego Armored Unit para Wonderswan.",
 };

@@ -20,6 +20,9 @@ export const Idtech4aHarmattanEdition: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "idTech4A++ (Harmattan Edition) is a shooter game, released in 2006.",
+  summaryEs: "idTech4A++ (Harmattan Edition) es un videojuego de disparos, lanzado en 2006.",
+  summaryGenerated: true,
   notes:
     "DOOM III/Quake 4/Prey(2006) GLES on Android/Windows/Linux, DOOM 3 BFG/The Dark Mod/RTCW/Quake 1 2 3/GZDOOM/ETW/RealRTCW/OpenJK/SeriousSam/Skin Deep/Quadrilateral Cowboy/Icarus Starship Command Simulator on Android.",
   notesEs:

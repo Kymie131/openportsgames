@@ -20,6 +20,9 @@ export const Openkrush: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "OpenKrush is a action-adventure game, released in 2000.",
+  summaryEs: "OpenKrush es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "A KKnD and KKnD2 mod on OpenRA engine.",
   notesEs: "Un mod de KKnD y KKnD2 sobre el motor OpenRA.",
 };

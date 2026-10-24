@@ -20,6 +20,9 @@ export const Underworldgodot: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "UnderworldGodot is a action-adventure game, released in 2000.",
+  summaryEs: "UnderworldGodot es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Engine recreation for Ultima Underworld and Ultima Underworld 2 using the Godot Engine.",
   notesEs: "Recreación del motor de Ultima Underworld y Ultima Underworld 2 con el motor Godot.",
 };

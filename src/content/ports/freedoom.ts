@@ -20,6 +20,9 @@ export const Freedoom: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Freedoom is a shooter game, released in 2000.",
+  summaryEs: "Freedoom es un videojuego de disparos, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Freedoom is an entirely free software game based on the Doom engine.",
   notesEs: "Freedoom es un juego totalmente libre basado en el motor de Doom.",
 };

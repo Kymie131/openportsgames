@@ -21,6 +21,9 @@ export const pqmarineUnderworldrevisited: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Underworld Revisited is a role-playing game, released in 1992.",
+  summaryEs: "Underworld Revisited es un videojuego de rol, lanzado en 1992.",
+  summaryGenerated: true,
   notes: "Underworld Revisited: engine remake by PQMarine for Windows. Bring your own copy of the game.",
   notesEs: "Underworld Revisited: recreación de motor de PQMarine para Windows. Aporta tu propia copia del juego.",
 };

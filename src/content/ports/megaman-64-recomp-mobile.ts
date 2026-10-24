@@ -25,6 +25,9 @@ export const megaman64RecompMobile: Port = {
     alt: "Mega Man 64 (box art)",
     credit: "Box art",
   },
+  summary: "Mega Man 64 is a action-adventure game published by Capcom for Nintendo 64, released in 1997.",
+  summaryEs: "Mega Man 64 es un videojuego de acci�n y aventura publicado por Capcom para Nintendo 64, lanzado en 1997.",
+  summaryGenerated: true,
   notes: "Mega Man 64 (Capcom, 1997) for Android (static recompilation). Latest release: v0.9.1-mobile.1. Needs your own copy of the game.",
   notesEs: "Mega Man 64 (Capcom, 1997) para Android (recompilación estática). Última release: v0.9.1-mobile.1. Necesita tu propia copia del juego.",
 };

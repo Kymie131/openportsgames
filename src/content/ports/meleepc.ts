@@ -20,6 +20,9 @@ export const Meleepc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "MeleePC is a action-adventure game, released in 2000.",
+  summaryEs: "MeleePC es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes:
     "Native PC port of Super Smash Bros. Melee (NTSC-U 1.02), built from doldecomp/melee on aurora. No game data; bring your own disc.",
   notesEs:

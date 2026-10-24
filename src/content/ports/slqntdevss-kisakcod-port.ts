@@ -22,6 +22,9 @@ export const slqntdevssKisakcodPort: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Call of Duty 4: Modern Warfare (kisakcod-port (web)) is a shooter game, released in 2007.",
+  summaryEs: "Call of Duty 4: Modern Warfare (kisakcod-port (web)) es un videojuego de disparos, lanzado en 2007.",
+  summaryGenerated: true,
   notes: "Call of Duty 4: Modern Warfare (kisakcod-port (web)): source port by slqntdevss for Windows. Bring your own copy of the game.",
   notesEs: "Call of Duty 4: Modern Warfare (kisakcod-port (web)): source port de slqntdevss para Windows. Aporta tu propia copia del juego.",
 };

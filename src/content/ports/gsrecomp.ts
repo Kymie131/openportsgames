@@ -20,6 +20,9 @@ export const Gsrecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "GSRecomp is a action-adventure game, released in 2000.",
+  summaryEs: "GSRecomp es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Static recompilation of GSRecomp (Other).",
   notesEs: "Recompilación estática de GSRecomp (Other).",
 };

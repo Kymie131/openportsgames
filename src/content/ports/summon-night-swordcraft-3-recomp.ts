@@ -19,6 +19,9 @@ export const summonNightSwordcraft3Recomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Game Boy Advance"],
+  summary: "Summon Night: Craft Sword Monogatari - Hajimari no Ishi is a role-playing game published by Banpresto for Game Boy Advance, released in 2003.",
+  summaryEs: "Summon Night: Craft Sword Monogatari - Hajimari no Ishi es un videojuego de rol publicado por Banpresto para Game Boy Advance, lanzado en 2003.",
+  summaryGenerated: true,
   notes:
     "Static recompilation of Summon Night: Craft Sword Monogatari - Hajimari no Ishi (GBA) with the gbarecomp framework. It requires your own game data.",
   notesEs:

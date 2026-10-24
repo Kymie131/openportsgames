@@ -179,7 +179,7 @@ export function PortDetail({
             </div>
           </dl>
           {(port.summary || port.summaryEs) && (
-            <p className="mt-4 text-[11px] text-muted">{t.detail.gameSummaryNote}</p>
+            <p className="mt-4 text-[11px] text-muted">{port.summaryGenerated ? t.detail.generatedSummaryNote : t.detail.gameSummaryNote}</p>
           )}
         </section>
       )}

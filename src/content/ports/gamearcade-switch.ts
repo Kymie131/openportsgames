@@ -21,6 +21,9 @@ export const gamearcadeSwitch: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "GameArcade is a action-adventure game published by Homebrew, released in 2021.",
+  summaryEs: "GameArcade es un videojuego de acci�n y aventura publicado por Homebrew, lanzado en 2021.",
+  summaryGenerated: true,
   notes: "GameArcade (Homebrew, 2021) running on Nintendo Switch through source port. Latest release: 1.0.0. You need your own copy of the game.",
   notesEs: "GameArcade (Homebrew, 2021) en Nintendo Switch mediante port de código. Última release: 1.0.0. Necesitas tu propia copia del juego.",
 };

@@ -20,6 +20,9 @@ export const Q2rtxperimental: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Q2RTXPerimental is a shooter game, released in 2000.",
+  summaryEs: "Q2RTXPerimental es un videojuego de disparos, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "My 'Experimental' fork of NVIDIA’s implementation of RTX ray-tracing in Quake II.",
   notesEs:
     "Mi bifurcación experimental de la implementación de ray tracing RTX de NVIDIA en Quake II.",

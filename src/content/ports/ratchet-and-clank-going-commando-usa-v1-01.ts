@@ -20,6 +20,9 @@ export const RatchetAndClankGoingCommandoUsaV101: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Ratchet & Clank: Going Commando (USA v1.01) is a action-adventure game, released in 2000.",
+  summaryEs: "Ratchet & Clank: Going Commando (USA v1.01) es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes:
     "Going Commando USA v1.01: byte-exact reconstruction tools and native-port research. No game assets.",
   notesEs:

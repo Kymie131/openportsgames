@@ -118,6 +118,7 @@ const normalPort = z.object({
   /** Bilingual synopsis of the original game (not the port), from Wikidata/Wikipedia. */
   summary: z.string().max(600).optional(),
   summaryEs: z.string().max(600).optional(),
+  summaryGenerated: z.boolean().optional(),
   notes: z.string().max(1000).optional(),
   notesEs: z.string().max(1000).optional(),
   originalSystems: z.array(z.string().min(2).max(80)).optional(),
@@ -264,6 +265,7 @@ export type Port = {
   noOriginalGameRequired?: boolean;
   summary?: string;
   summaryEs?: string;
+  summaryGenerated?: boolean;
   notes?: string;
   notesEs?: string;
   originalSystems?: string[];

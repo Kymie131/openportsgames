@@ -20,6 +20,9 @@ export const Touhou08ImperishableNight: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Touhou 08: Imperishable Night is a action-adventure game, released in 2000.",
+  summaryEs: "Touhou 08: Imperishable Night es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Decompilation of Touhou 08: Imperishable Night (Other).",
   notesEs: "Decompilación de Touhou 08: Imperishable Night (Other).",
 };

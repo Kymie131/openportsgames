@@ -19,6 +19,9 @@ export const megaMan64Recomp: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   originalSystems: ["Nintendo 64"],
+  summary: "Mega Man 64 is a action-adventure game published by Capcom for Nintendo 64, released in 2000.",
+  summaryEs: "Mega Man 64 es un videojuego de acci�n y aventura publicado por Capcom para Nintendo 64, lanzado en 2000.",
+  summaryGenerated: true,
   notes:
     "Native recompilation of Mega Man 64 (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:

@@ -20,6 +20,9 @@ export const PermafrostEngine: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "permafrost-engine is a strategy game, released in 2000.",
+  summaryEs: "permafrost-engine es un videojuego de estrategia, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "An OpenGL RTS game engine written in C.",
   notesEs: "Motor de juego RTS con OpenGL escrito en C.",
 };

@@ -20,6 +20,9 @@ export const DaytonaArcadeRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Arcade"],
+  summary: "Daytona Arcade Recomp is a action-adventure game for Arcade, released in 2000.",
+  summaryEs: "Daytona Arcade Recomp es un videojuego de acci�n y aventura para Arcade, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Static recompilation of Daytona Arcade Recomp (Arcade).",
   notesEs: "Recompilación estática de Daytona Arcade Recomp (Arcade).",
 };

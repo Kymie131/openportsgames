@@ -21,6 +21,9 @@ export const megaDriveInvadersSnes: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Mega Drive Invaders is a shooter game published by Homebrew, released in 2026.",
+  summaryEs: "Mega Drive Invaders es un videojuego de disparos publicado por Homebrew, lanzado en 2026.",
+  summaryGenerated: true,
   notes: "Mega Drive Invaders (Homebrew, 2026) running on snes through source port. Latest release: v1.2.0. You need your own copy of the game.",
   notesEs: "Mega Drive Invaders (Homebrew, 2026) en snes mediante port de código. Última release: v1.2.0. Necesitas tu propia copia del juego.",
 };

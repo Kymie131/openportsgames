@@ -20,6 +20,9 @@ export const Jftekwar: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "jftekwar is a action-adventure game, released in 2000.",
+  summaryEs: "jftekwar es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: 'No-promises port of the Capstone Software game "TekWar".',
   notesEs: "Port sin garantías del juego de Capstone Software «TekWar».",
 };

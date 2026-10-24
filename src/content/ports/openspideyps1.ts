@@ -20,6 +20,9 @@ export const Openspideyps1: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  summary: "OpenSpideyPS1 is a action-adventure game for PlayStation, released in 2000.",
+  summaryEs: "OpenSpideyPS1 es un videojuego de acci�n y aventura para PlayStation, lanzado en 2000.",
+  summaryGenerated: true,
   notes:
     "Native recompilations of Neversoft's PlayStation Spider-Man games, built with RecompOne. Games are siloed; only the recompiler and runtime are shared.",
   notesEs:

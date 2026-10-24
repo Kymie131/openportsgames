@@ -21,6 +21,9 @@ export const rsdkmoddingRsdkv2Decompilation: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Sonic Nexus is a platform game, released in 2008.",
+  summaryEs: "Sonic Nexus es un videojuego de plataformas, lanzado en 2008.",
+  summaryGenerated: true,
   notes: "Sonic Nexus: decompilation by RSDKModding for Windows. Bring your own copy of the game.",
   notesEs: "Sonic Nexus: decompilación de RSDKModding para Windows. Aporta tu propia copia del juego.",
 };

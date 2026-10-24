@@ -20,6 +20,9 @@ export const PrinceMonogame: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Prince-Monogame is a action-adventure game, released in 2000.",
+  summaryEs: "Prince-Monogame es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Monogame implementation of Prince of Persia 2.",
   notesEs: "Implementación en MonoGame de Prince of Persia 2.",
 };

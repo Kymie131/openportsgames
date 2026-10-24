@@ -19,6 +19,9 @@ export const rivalSchoolsEvolutionRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Rival Schools: Evolution Disc is a fighting game published by Capcom for PlayStation, released in 1998.",
+  summaryEs: "Rival Schools: Evolution Disc es un videojuego de lucha publicado por Capcom para PlayStation, lanzado en 1998.",
+  summaryGenerated: true,
   notes:
     "Recompilation of Rival Schools: Evolution Disc (PS1, USA SLUS-00771) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

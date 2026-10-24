@@ -20,6 +20,9 @@ export const SamuraiVsZombies: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Samurai Vs Zombies is a action-adventure game, released in 2000.",
+  summaryEs: "Samurai Vs Zombies es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Decompilation of Samurai Vs Zombies by Glu.",
   notesEs: "Decompilación de Samurai Vs Zombies de Glu.",
 };

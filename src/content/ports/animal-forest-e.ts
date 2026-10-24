@@ -20,6 +20,9 @@ export const AnimalForestE: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Animal Forest e+ is a action-adventure game, released in 2000.",
+  summaryEs: "Animal Forest e+ es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Decompilation of Animal Forest e+ (JP).",
   notesEs: "Decompilación de Animal Forest e+ (JP).",
 };

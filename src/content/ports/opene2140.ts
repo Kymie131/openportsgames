@@ -20,6 +20,9 @@ export const Opene2140: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "OpenE2140 is a action-adventure game, released in 2000.",
+  summaryEs: "OpenE2140 es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Remake of Earth 2140 using OpenRA.",
   notesEs: "Remake de Earth 2140 con OpenRA.",
 };

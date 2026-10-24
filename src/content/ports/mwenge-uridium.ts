@@ -22,6 +22,9 @@ export const mwengeUridium: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Uridium (uridium (+ UridiumFraktion)) is a action-adventure game, released in 1986.",
+  summaryEs: "Uridium (uridium (+ UridiumFraktion)) es un videojuego de acci�n y aventura, lanzado en 1986.",
+  summaryGenerated: true,
   notes: "Uridium (uridium (+ UridiumFraktion)): decompilation by mwenge for Windows. Bring your own copy of the game.",
   notesEs: "Uridium (uridium (+ UridiumFraktion)): decompilación de mwenge para Windows. Aporta tu propia copia del juego.",
 };

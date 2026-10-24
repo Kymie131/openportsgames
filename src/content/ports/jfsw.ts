@@ -20,6 +20,9 @@ export const Jfsw: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "jfsw is a action-adventure game, released in 2000.",
+  summaryEs: "jfsw es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: 'Port of the 3D Realms game "Shadow Warrior".',
   notesEs: "Port del juego de 3D Realms «Shadow Warrior».",
 };

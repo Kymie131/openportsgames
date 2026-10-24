@@ -20,6 +20,9 @@ export const Heretic2: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "heretic2 is a action-adventure game, released in 2000.",
+  summaryEs: "heretic2 es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Heretic2 playground sandbox. Can contain non GPL code. Be careful!!!!.",
   notesEs: "Banco de pruebas de Heretic2. Puede contener código no GPL. ¡Cuidado!",
 };

@@ -21,6 +21,9 @@ export const kylofonAcesofthepacificEnhanced: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Aces of the Pacific Enhanced is a action-adventure game, released in 1992.",
+  summaryEs: "Aces of the Pacific Enhanced es un videojuego de acci�n y aventura, lanzado en 1992.",
+  summaryGenerated: true,
   notes: "Aces of the Pacific Enhanced: engine remake by kylofon for Windows. Bring your own copy of the game.",
   notesEs: "Aces of the Pacific Enhanced: recreación de motor de kylofon para Windows. Aporta tu propia copia del juego.",
 };

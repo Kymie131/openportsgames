@@ -20,6 +20,9 @@ export const MintArena: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "mint-arena is a shooter game, released in 2000.",
+  summaryEs: "mint-arena es un videojuego de disparos, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Spearmint Quake 3 and Team Arena game code.",
   notesEs: "Código de juego de Spearmint Quake 3 y Team Arena.",
 };

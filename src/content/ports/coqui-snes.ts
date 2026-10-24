@@ -21,6 +21,9 @@ export const coquiSnes: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Coqui is a platform game published by Homebrew, released in 2026.",
+  summaryEs: "Coqui es un videojuego de plataformas publicado por Homebrew, lanzado en 2026.",
+  summaryGenerated: true,
   notes: "Coqui (Homebrew, 2026) running on snes through source port. Latest release: v1.1. You need your own copy of the game.",
   notesEs: "Coqui (Homebrew, 2026) en snes mediante port de código. Última release: v1.1. Necesitas tu propia copia del juego.",
 };

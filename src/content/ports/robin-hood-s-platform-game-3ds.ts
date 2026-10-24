@@ -21,6 +21,9 @@ export const robinHoodSPlatformGame3ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Robin Hood's Platform Game is a platform game published by Homebrew, released in 2017.",
+  summaryEs: "Robin Hood's Platform Game es un videojuego de plataformas publicado por Homebrew, lanzado en 2017.",
+  summaryGenerated: true,
   notes: "Robin Hood's Platform Game (Homebrew, 2017) running on Nintendo 3DS through source port. Latest release: v0.1.1. You need your own copy of the game.",
   notesEs: "Robin Hood's Platform Game (Homebrew, 2017) en Nintendo 3DS mediante port de código. Última release: v0.1.1. Necesitas tu propia copia del juego.",
 };

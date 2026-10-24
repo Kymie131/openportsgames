@@ -20,6 +20,9 @@ export const kOnHoukagoLivePc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation Portable"],
+  summary: "K-On! Houkago Live!! is a music game published by Sega for PlayStation Portable, released in 2010.",
+  summaryEs: "K-On! Houkago Live!! es un videojuego de m�sica publicado por Sega para PlayStation Portable, lanzado en 2010.",
+  summaryGenerated: true,
   notes: "K-On! Houkago Live!! (Sega, 2010) running on Windows through static recompilation. Latest release: v0.1.0. You need your own copy of the game.",
   notesEs: "K-On! Houkago Live!! (Sega, 2010) en Windows mediante recompilación estática. Última release: v0.1.0. Necesitas tu propia copia del juego.",
 };

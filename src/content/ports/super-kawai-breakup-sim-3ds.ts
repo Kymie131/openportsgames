@@ -20,6 +20,9 @@ export const superKawaiBreakupSim3ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Other"],
+  summary: "Super Kawai Breakup Sim is a simulation game published by Fan game for Other, released in 2020.",
+  summaryEs: "Super Kawai Breakup Sim es un videojuego de simulaci�n publicado por Fan game para Other, lanzado en 2020.",
+  summaryGenerated: true,
   notes: "Super Kawai Breakup Sim (Fan game, 2020) running on Nintendo 3DS through source port. Latest release: Major. You need your own copy of the game.",
   notesEs: "Super Kawai Breakup Sim (Fan game, 2020) en Nintendo 3DS mediante port de código. Última release: Major. Necesitas tu propia copia del juego.",
 };

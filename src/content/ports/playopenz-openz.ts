@@ -21,6 +21,9 @@ export const playopenzOpenz: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "OpenZ is a action-adventure game, released in 1996.",
+  summaryEs: "OpenZ es un videojuego de acci�n y aventura, lanzado en 1996.",
+  summaryGenerated: true,
   notes: "OpenZ: engine remake by playopenz for Windows. Bring your own copy of the game.",
   notesEs: "OpenZ: recreación de motor de playopenz para Windows. Aporta tu propia copia del juego.",
 };

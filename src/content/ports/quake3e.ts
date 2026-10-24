@@ -20,6 +20,9 @@ export const Quake3e: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Quake3e is a shooter game, released in 2000.",
+  summaryEs: "Quake3e es un videojuego de disparos, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Improved Quake III Arena engine.",
   notesEs: "Motor mejorado de Quake III Arena.",
 };

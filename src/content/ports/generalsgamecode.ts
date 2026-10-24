@@ -20,6 +20,9 @@ export const Generalsgamecode: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "GeneralsGameCode is a strategy game, released in 2000.",
+  summaryEs: "GeneralsGameCode es un videojuego de estrategia, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Command and Conquer: Generals - Zero Hour.",
   notesEs: "Command and Conquer: Generals - Zero Hour.",
 };

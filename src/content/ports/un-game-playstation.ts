@@ -21,6 +21,9 @@ export const unGamePlaystation: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "UN Game is a platform game published by Homebrew, released in 2026.",
+  summaryEs: "UN Game es un videojuego de plataformas publicado por Homebrew, lanzado en 2026.",
+  summaryGenerated: true,
   notes: "UN Game (Homebrew, 2026) running on ps1 through source port. Latest release: v1.0.1. You need your own copy of the game.",
   notesEs: "UN Game (Homebrew, 2026) en ps1 mediante port de código. Última release: v1.0.1. Necesitas tu propia copia del juego.",
 };

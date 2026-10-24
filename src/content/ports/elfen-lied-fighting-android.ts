@@ -20,6 +20,9 @@ export const elfenLiedFightingAndroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  summary: "Elfen Lied Fighting is a fighting game published by Fan-made for Windows, released in 2025.",
+  summaryEs: "Elfen Lied Fighting es un videojuego de lucha publicado por Fan-made para Windows, lanzado en 2025.",
+  summaryGenerated: true,
   notes: "Unofficial native Android port of the fan-made Elfen Lied Fighting PC game: offline play, touch controls and Japanese, English and Russian languages. Android 10+. Latest tag: v1.0.0-rc1.",
   notesEs: "Port nativo no oficial para Android del juego fan-made Elfen Lied Fighting de PC: juego offline, controles táctiles e idiomas japonés, inglés y ruso. Android 10+. Último tag: v1.0.0-rc1.",
 };

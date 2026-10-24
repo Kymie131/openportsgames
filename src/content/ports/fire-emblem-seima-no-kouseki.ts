@@ -26,6 +26,9 @@ export const FireEmblemSeimaNoKouseki: Port = {
     alt: "Fire Emblem: Seima no Kouseki (box art)",
     credit: "Wikipedia",
   },
+  summary: "Fire Emblem: Seima no Kouseki is a action-adventure game, released in 2000.",
+  summaryEs: "Fire Emblem: Seima no Kouseki es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Decompilation of Fire Emblem: Seima no Kouseki (Other).",
   notesEs: "Decompilación de Fire Emblem: Seima no Kouseki (Other).",
 };

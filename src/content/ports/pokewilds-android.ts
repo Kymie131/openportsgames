@@ -19,6 +19,9 @@ export const pokewildsAndroid: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Windows"],
+  summary: "PokeWilds is a role-playing game published by PokeWilds contributors for Windows, released in 2022.",
+  summaryEs: "PokeWilds es un videojuego de rol publicado por PokeWilds contributors para Windows, lanzado en 2022.",
+  summaryGenerated: true,
   notes:
     "Native Android port of PokeWilds, the open-source creature-collecting fan game. It is a standalone build that does not need commercial assets.",
   notesEs:

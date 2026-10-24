@@ -21,6 +21,9 @@ export const asteroidsTerraSegaSaturn: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Asteroids Terra is a shooter game published by Homebrew, released in 2021.",
+  summaryEs: "Asteroids Terra es un videojuego de disparos publicado por Homebrew, lanzado en 2021.",
+  summaryGenerated: true,
   notes: "Asteroids Terra (Homebrew, 2021) running on saturn through source port. Latest release: 1. You need your own copy of the game.",
   notesEs: "Asteroids Terra (Homebrew, 2021) en saturn mediante port de código. Última release: 1. Necesitas tu propia copia del juego.",
 };

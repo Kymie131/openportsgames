@@ -25,6 +25,9 @@ export const LooneyTunesCarrotCrazy: Port = {
     alt: "Looney Tunes: Carrot Crazy (box art)",
     credit: "Box art",
   },
+  summary: "Looney Tunes: Carrot Crazy is a action-adventure game for Game Boy Color, released in 2000.",
+  summaryEs: "Looney Tunes: Carrot Crazy es un videojuego de acci�n y aventura para Game Boy Color, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "disassembly of Looney Tunes: Carrot Crazy (Game Boy Color).",
   notesEs: "Desensamblado de Looney Tunes: Carrot Crazy (Game Boy Color).",
 };

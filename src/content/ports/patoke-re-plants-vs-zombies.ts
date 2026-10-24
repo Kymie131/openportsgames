@@ -22,6 +22,9 @@ export const patokeRePlantsVsZombies: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Plants vs Zombies GOTY is a strategy game published by PopCap Games, Inc., released in 2009.",
+  summaryEs: "Plants vs Zombies GOTY es un videojuego de estrategia publicado por PopCap Games, Inc., lanzado en 2009.",
+  summaryGenerated: true,
   notes: "Plants vs Zombies GOTY: decompilation by Patoke for Windows. Bring your own copy of the game.",
   notesEs: "Plants vs Zombies GOTY: decompilación de Patoke para Windows. Aporta tu propia copia del juego.",
 };

@@ -20,6 +20,9 @@ export const Openciv3: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "OpenCiv3 is a platform game, released in 2000.",
+  summaryEs: "OpenCiv3 es un videojuego de plataformas, lanzado en 2000.",
+  summaryGenerated: true,
   notes:
     "OpenCiv3 is an open-source, cross-platform, mod-oriented, modernized remake of Civilization III by the fan community built with the Godot Engine and C#, with capabilities inspired by the best of the 4X genre and lessons learned from modding Civ3.",
   notesEs:

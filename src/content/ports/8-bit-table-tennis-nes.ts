@@ -21,6 +21,9 @@ export const _8BitTableTennisNes: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "8-bit Table Tennis is a sports game published by Homebrew, released in 2020.",
+  summaryEs: "8-bit Table Tennis es un videojuego de deportes publicado por Homebrew, lanzado en 2020.",
+  summaryGenerated: true,
   notes: "8-bit Table Tennis (Homebrew, 2020) running on nes through source port. Latest release: v1.0. You need your own copy of the game.",
   notesEs: "8-bit Table Tennis (Homebrew, 2020) en nes mediante port de código. Última release: v1.0. Necesitas tu propia copia del juego.",
 };

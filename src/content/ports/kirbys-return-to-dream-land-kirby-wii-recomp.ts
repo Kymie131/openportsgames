@@ -20,6 +20,9 @@ export const KirbysReturnToDreamLandKirbyWiiRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
+  summary: "Kirby's Return to Dream Land (Kirby Wii Recomp) is a action-adventure game for GameCube, released in 2000.",
+  summaryEs: "Kirby's Return to Dream Land (Kirby Wii Recomp) es un videojuego de acci�n y aventura para GameCube, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Runtime for recompilations of GameCube games.",
   notesEs: "Runtime para recompilaciones de juegos de GameCube.",
 };

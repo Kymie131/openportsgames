@@ -20,6 +20,9 @@ export const bikeRaceProPsVita: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Other"],
+  summary: "Bike Race is a racing game published by Top Free Games for Other, released in 2012.",
+  summaryEs: "Bike Race es un videojuego de carreras publicado por Top Free Games para Other, lanzado en 2012.",
+  summaryGenerated: true,
   notes: "Bike Race (Top Free Games, 2012) running on PlayStation Vita through source port. Latest release: v1.1. You need your own copy of the game.",
   notesEs: "Bike Race (Top Free Games, 2012) en PlayStation Vita mediante port de código. Última release: v1.1. Necesitas tu propia copia del juego.",
 };

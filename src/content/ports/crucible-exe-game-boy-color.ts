@@ -21,6 +21,9 @@ export const crucibleExeGameBoyColor: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "CRUCIBLE.EXE is a action-adventure game published by Homebrew, released in 2026.",
+  summaryEs: "CRUCIBLE.EXE es un videojuego de acci�n y aventura publicado por Homebrew, lanzado en 2026.",
+  summaryGenerated: true,
   notes: "CRUCIBLE.EXE (Homebrew, 2026) running on gbc through source port. Latest release: v1.3.0. You need your own copy of the game.",
   notesEs: "CRUCIBLE.EXE (Homebrew, 2026) en gbc mediante port de código. Última release: v1.3.0. Necesitas tu propia copia del juego.",
 };

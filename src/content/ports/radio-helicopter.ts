@@ -21,6 +21,9 @@ export const RadioHelicopter: Port = {
   wip: true,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Radio Helicopter is a action-adventure game, released in 2000.",
+  summaryEs: "Radio Helicopter es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "A work-in-progress matching decompilation of Radio Helicopter.",
   notesEs: "Decompilación que coincide de Radio Helicopter, en desarrollo.",
 };

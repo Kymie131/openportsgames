@@ -25,6 +25,9 @@ export const SummonerAGoddessReborn: Port = {
     alt: "Summoner: A Goddess Reborn (box art)",
     credit: "Wikipedia",
   },
+  summary: "Summoner: A Goddess Reborn is a action-adventure game, released in 2000.",
+  summaryEs: "Summoner: A Goddess Reborn es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Decompilation of Summoner: A Goddess Reborn (Other).",
   notesEs: "Decompilación de Summoner: A Goddess Reborn (Other).",
 };

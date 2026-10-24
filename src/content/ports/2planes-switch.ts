@@ -21,6 +21,9 @@ export const _2planesSwitch: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "2Planes is a shooter game published by Homebrew, released in 2018.",
+  summaryEs: "2Planes es un videojuego de disparos publicado por Homebrew, lanzado en 2018.",
+  summaryGenerated: true,
   notes: "2Planes (Homebrew, 2018) running on Nintendo Switch through source port. Latest release: 1.0.1. You need your own copy of the game.",
   notesEs: "2Planes (Homebrew, 2018) en Nintendo Switch mediante port de código. Última release: 1.0.1. Necesitas tu propia copia del juego.",
 };

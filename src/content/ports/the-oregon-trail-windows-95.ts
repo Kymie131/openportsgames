@@ -20,6 +20,9 @@ export const TheOregonTrailWindows95: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "The Oregon Trail (Windows 95) is a action-adventure game, released in 2000.",
+  summaryEs: "The Oregon Trail (Windows 95) es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "WIP Decompilation of The Oregon Trail for Windows 95.",
   notesEs: "Decompilación de The Oregon Trail para Windows 95, en desarrollo.",
 };

@@ -21,6 +21,9 @@ export const trogdorReburninatedWii: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Trogdor is a action-adventure game published by Homestar Runner, released in 2026.",
+  summaryEs: "Trogdor es un videojuego de acci�n y aventura publicado por Homestar Runner, lanzado en 2026.",
+  summaryGenerated: true,
   notes: "Trogdor (Homestar Runner, 2026) running on Wii through source port. Latest release: v2.4. You need your own copy of the game.",
   notesEs: "Trogdor (Homestar Runner, 2026) en Wii mediante port de código. Última release: v2.4. Necesitas tu propia copia del juego.",
 };

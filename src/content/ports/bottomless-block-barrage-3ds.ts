@@ -21,6 +21,9 @@ export const bottomlessBlockBarrage3ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Bottomless Block Barrage is a puzzle game published by Homebrew, released in 2017.",
+  summaryEs: "Bottomless Block Barrage es un videojuego de puzles publicado por Homebrew, lanzado en 2017.",
+  summaryGenerated: true,
   notes: "Bottomless Block Barrage (Homebrew, 2017) running on Nintendo 3DS through source port. Latest release: v0.2.0. You need your own copy of the game.",
   notesEs: "Bottomless Block Barrage (Homebrew, 2017) en Nintendo 3DS mediante port de código. Última release: v0.2.0. Necesitas tu propia copia del juego.",
 };

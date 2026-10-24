@@ -22,6 +22,9 @@ export const paulie68000Zxspectrumhyperactive: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  summary: "Hyper Active is a action-adventure game, released in 1988.",
+  summaryEs: "Hyper Active es un videojuego de acci�n y aventura, lanzado en 1988.",
+  summaryGenerated: true,
   notes: "Hyper Active: decompilation by Paulie68000 for Windows. Bring your own copy of the game.",
   notesEs: "Hyper Active: decompilación de Paulie68000 para Windows. Aporta tu propia copia del juego.",
 };

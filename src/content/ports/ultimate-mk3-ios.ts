@@ -20,6 +20,9 @@ export const UltimateMk3Ios: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Ultimate MK3 iOS is a fighting game, released in 2011.",
+  summaryEs: "Ultimate MK3 iOS es un videojuego de lucha, lanzado en 2011.",
+  summaryGenerated: true,
   notes:
     "Ultimate Mortal Kombat 3 (iOS, EA Mobile 2011), fully decompiled: all 2,572 game functions are readable C, checked against a static ARM-to-C recompiler. Native port in progress: menus, sound and saves run; fight data tables extracted from your copy and verified; not playable yet. No game assets - bring your own copy.",
   notesEs:

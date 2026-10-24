@@ -20,6 +20,9 @@ export const hydraCastleLabyrinthPsp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  summary: "Hydra Castle Labyrinth is a action-adventure game published by Buster for Windows, released in 2010.",
+  summaryEs: "Hydra Castle Labyrinth es un videojuego de acci�n y aventura publicado por Buster para Windows, lanzado en 2010.",
+  summaryGenerated: true,
   notes: "Hydra Castle Labyrinth (Buster, 2010) running on PlayStation Portable through source port. Latest release: untagged-289a342ec6863598160c. You need your own copy of the game.",
   notesEs: "Hydra Castle Labyrinth (Buster, 2010) en PlayStation Portable mediante port de código. Última release: untagged-289a342ec6863598160c. Necesitas tu propia copia del juego.",
 };

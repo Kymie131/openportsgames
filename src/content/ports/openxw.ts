@@ -20,6 +20,9 @@ export const Openxw: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "OpenXW is a action-adventure game, released in 2000.",
+  summaryEs: "OpenXW es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Source port of OpenXW (Other).",
   notesEs: "Port del código fuente de OpenXW (Other).",
 };

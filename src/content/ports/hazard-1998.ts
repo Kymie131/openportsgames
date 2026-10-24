@@ -20,6 +20,9 @@ export const Hazard1998: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Hazard 1998 is a action-adventure game, released in 1998.",
+  summaryEs: "Hazard 1998 es un videojuego de acci�n y aventura, lanzado en 1998.",
+  summaryGenerated: true,
   notes: "Decompilation of Hazard 1998 (Other).",
   notesEs: "Decompilación de Hazard 1998 (Other).",
 };

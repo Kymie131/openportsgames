@@ -20,6 +20,9 @@ export const EdgeClassic: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "EDGE-classic is a shooter game, released in 2000.",
+  summaryEs: "EDGE-classic es un videojuego de disparos, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Cross-Platform OpenGL Doom Source Port with powerful modding features.",
   notesEs:
     "Port de código fuente de Doom con OpenGL y multiplataforma, con potentes funciones de modding.",

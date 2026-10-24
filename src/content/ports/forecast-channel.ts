@@ -20,6 +20,9 @@ export const forecastChannel: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Wii"],
+  summary: "Forecast Channel is a simulation game published by Nintendo for Wii, released in 2006.",
+  summaryEs: "Forecast Channel es un videojuego de simulaci�n publicado por Nintendo para Wii, lanzado en 2006.",
+  summaryGenerated: true,
   notes:
     "Decompilation of the Wii's Forecast Channel (USA/NTSC v7). It is system software, not a game. A research codebase; it requires files from a console you own.",
   notesEs:

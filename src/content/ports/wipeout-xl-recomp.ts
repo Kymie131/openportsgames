@@ -19,6 +19,9 @@ export const wipeoutXlRecomp: Port = {
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["PlayStation"],
+  summary: "Wipeout XL is a racing game published by Psygnosis for PlayStation, released in 1996.",
+  summaryEs: "Wipeout XL es un videojuego de carreras publicado por Psygnosis para PlayStation, lanzado en 1996.",
+  summaryGenerated: true,
   notes:
     "Recompilation of Wipeout XL (PS1, USA SCUS-94351) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:

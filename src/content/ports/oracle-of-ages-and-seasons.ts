@@ -20,6 +20,9 @@ export const OracleOfAgesAndSeasons: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "Oracle of Ages and Seasons is a action-adventure game, released in 2000.",
+  summaryEs: "Oracle of Ages and Seasons es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Disassembly of Oracle of Ages and Seasons.",
   notesEs: "Desensamblado de Oracle of Ages y Seasons.",
 };

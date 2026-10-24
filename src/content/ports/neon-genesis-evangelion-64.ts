@@ -25,6 +25,9 @@ export const NeonGenesisEvangelion64: Port = {
     alt: "Neon Genesis Evangelion 64 (box art)",
     credit: "Wikipedia",
   },
+  summary: "Neon Genesis Evangelion 64 is a action-adventure game for Nintendo 64, released in 2000.",
+  summaryEs: "Neon Genesis Evangelion 64 es un videojuego de acci�n y aventura para Nintendo 64, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "WIP Decompilation of the only anime game on N64.",
   notesEs: "Decompilación de Neon Genesis Evangelion 64 (N64), en desarrollo.",
 };

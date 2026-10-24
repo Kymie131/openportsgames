@@ -20,6 +20,9 @@ export const Openxvt: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  summary: "OpenXvT is a action-adventure game, released in 2000.",
+  summaryEs: "OpenXvT es un videojuego de acci�n y aventura, lanzado en 2000.",
+  summaryGenerated: true,
   notes: "Source port of OpenXvT (Other).",
   notesEs: "Port del código fuente de OpenXvT (Other).",
 };

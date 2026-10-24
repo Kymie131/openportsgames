@@ -20,6 +20,9 @@ export const TinyToonAdventuresBusterBustsLoosePcPort: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Super Nintendo"],
+  summary: "Tiny Toon Adventures: Buster Busts Loose! (PC port) is a music game for Super Nintendo, released in 2000.",
+  summaryEs: "Tiny Toon Adventures: Buster Busts Loose! (PC port) es un videojuego de m�sica para Super Nintendo, lanzado en 2000.",
+  summaryGenerated: true,
   notes:
     "Windows PC port of Tiny Toon Adventures: Buster Busts Loose! (SNES) with true widescreen, HUD re-anchoring, display options, cheats, level select and music player. Requires your own USA ROM.",
   notesEs:

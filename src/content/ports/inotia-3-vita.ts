@@ -20,6 +20,9 @@ export const inotia3Vita: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Other"],
+  summary: "Inotia 3: Children of Carnia is a role-playing game published by Com2uS for Other, released in 2009.",
+  summaryEs: "Inotia 3: Children of Carnia es un videojuego de rol publicado por Com2uS para Other, lanzado en 2009.",
+  summaryGenerated: true,
   notes:
     "Inotia 3: Children of Carnia (Com2uS, 2009), originally an Android RPG, ported natively to PS Vita through a runtime loader. You need the game data.",
   notesEs:
