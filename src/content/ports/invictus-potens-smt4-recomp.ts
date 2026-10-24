@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const invictusPotensSmt4Recomp: Port = {
+  schema: "port",
+  id: "invictus-potens-smt4-recomp",
+  title: "Shin Megami Tensei IV (smt4-recomp)",
+  game: "Shin Megami Tensei IV",
+  developers: ["Invictus-potens"],
+  publisher: "Unknown",
+  originalYear: 2013,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Invictus-potens/smt4-recomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 3DS"],
+  notes: "Shin Megami Tensei IV: static recompilation by Invictus-potens for Windows. Bring your own copy of the game.",
+  notesEs: "Shin Megami Tensei IV: recompilación estática de Invictus-potens para Windows. Aporta tu propia copia del juego.",
+};

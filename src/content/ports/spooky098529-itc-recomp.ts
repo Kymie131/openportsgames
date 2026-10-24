@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const spooky098529ItcRecomp: Port = {
+  schema: "port",
+  id: "spooky098529-itc-recomp",
+  title: "Import Tuner Challenge",
+  game: "Import Tuner Challenge",
+  developers: ["Spooky098529"],
+  publisher: "Unknown",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.4.7.1", date: "2026-10-20" },
+  sources: ["https://github.com/Spooky098529/ITC-Recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Import Tuner Challenge: static recompilation by Spooky098529 for Windows. Bring your own copy of the game.",
+  notesEs: "Import Tuner Challenge: recompilación estática de Spooky098529 para Windows. Aporta tu propia copia del juego.",
+};

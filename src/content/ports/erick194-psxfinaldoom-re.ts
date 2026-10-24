@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const erick194PsxfinaldoomRe: Port = {
+  schema: "port",
+  id: "erick194-psxfinaldoom-re",
+  title: "Final Doom (PSXFINALDOOM-RE)",
+  game: "Final Doom",
+  developers: ["Erick194"],
+  publisher: "Atari, Inc.",
+  originalYear: 1996,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Erick194/PSXFINALDOOM-RE"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Final Doom: decompilation by Erick194 for Windows. Bring your own copy of the game.",
+  notesEs: "Final Doom: decompilación de Erick194 para Windows. Aporta tu propia copia del juego.",
+};

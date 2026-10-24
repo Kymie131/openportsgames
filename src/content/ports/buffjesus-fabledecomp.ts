@@ -21,7 +21,7 @@ export const buffjesusFabledecomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Fable: The Lost Chapters: decompilation by BuffJesus for Windows. Bring your own copy of the game.",
   notesEs: "Fable: The Lost Chapters: decompilación de BuffJesus para Windows. Aporta tu propia copia del juego.",
 };

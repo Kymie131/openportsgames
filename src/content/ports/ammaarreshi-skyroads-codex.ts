@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ammaarreshiSkyroadsCodex: Port = {
+  schema: "port",
+  id: "ammaarreshi-skyroads-codex",
+  title: "SkyRoads",
+  game: "SkyRoads",
+  developers: ["ammaarreshi"],
+  publisher: "Creative Dimensions",
+  originalYear: 1993,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ammaarreshi/SkyRoads-Codex"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "SkyRoads: decompilation by ammaarreshi for Windows. Bring your own copy of the game.",
+  notesEs: "SkyRoads: decompilación de ammaarreshi para Windows. Aporta tu propia copia del juego.",
+};

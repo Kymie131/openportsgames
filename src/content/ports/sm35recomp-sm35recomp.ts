@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sm35recompSm35recomp: Port = {
+  schema: "port",
+  id: "sm35recomp-sm35recomp",
+  title: "Super Mario Bros. 35 (SM35 Recomp)",
+  game: "Super Mario Bros. 35",
+  developers: ["sm35recomp"],
+  publisher: "Nintendo",
+  originalYear: 2020,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.4.0", date: "2026-10-21" },
+  sources: ["https://github.com/sm35recomp/sm35recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo Switch"],
+  notes: "Super Mario Bros. 35: static recompilation by sm35recomp for Windows. Bring your own copy of the game.",
+  notesEs: "Super Mario Bros. 35: recompilación estática de sm35recomp para Windows. Aporta tu propia copia del juego.",
+};

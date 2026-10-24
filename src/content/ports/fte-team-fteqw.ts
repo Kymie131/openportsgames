@@ -21,7 +21,7 @@ export const fteTeamFteqw: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["MS-DOS"],
+  originalSystems: ["Unknown"],
   notes: "Quake: source port by fte-team for Windows. Bring your own copy of the game.",
   notesEs: "Quake: source port de fte-team para Windows. Aporta tu propia copia del juego.",
   cover: {

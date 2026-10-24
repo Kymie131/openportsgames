@@ -20,7 +20,7 @@ export const zgzinfinityOutrun: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "OutRun: engine remake by ZgzInfinity for Windows. Bring your own copy of the game.",
   notesEs: "OutRun: recreación de motor de ZgzInfinity para Windows. Aporta tu propia copia del juego.",
 };

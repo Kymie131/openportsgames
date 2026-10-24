@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mstanMegamanx3snesrecomp: Port = {
+  schema: "port",
+  id: "mstan-megamanx3snesrecomp",
+  title: "Mega Man X3",
+  game: "Mega Man X3",
+  developers: ["mstan"],
+  publisher: "Unknown",
+  originalYear: 1995,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.0.6", date: "2026-10-18" },
+  sources: ["https://github.com/mstan/MegamanX3SNESRecomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Super Nintendo"],
+  notes: "Mega Man X3: static recompilation by mstan for Windows. Bring your own copy of the game.",
+  notesEs: "Mega Man X3: recompilación estática de mstan para Windows. Aporta tu propia copia del juego.",
+};

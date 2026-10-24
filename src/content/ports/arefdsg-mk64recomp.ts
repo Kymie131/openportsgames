@@ -20,7 +20,7 @@ export const arefdsgMk64recomp: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "Mario Kart 64: static recompilation by arefdsg for Windows. Bring your own copy of the game.",
   notesEs: "Mario Kart 64: recompilación estática de arefdsg para Windows. Aporta tu propia copia del juego.",
   cover: {

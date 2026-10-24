@@ -21,7 +21,7 @@ export const jonofJfduke3d: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["MS-DOS"],
+  originalSystems: ["Unknown"],
   notes: "Duke Nukem 3D: source port by jonof for Windows. Bring your own copy of the game.",
   notesEs: "Duke Nukem 3D: source port de jonof para Windows. Aporta tu propia copia del juego.",
 };

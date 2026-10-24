@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bluddyRails: Port = {
+  schema: "port",
+  id: "bluddy-rails",
+  title: "Railroad Tycoon",
+  game: "Railroad Tycoon",
+  developers: ["bluddy"],
+  publisher: "MicroProse",
+  originalYear: 1990,
+  portType: "reimplementation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.4", date: "2026-10-11" },
+  sources: ["https://github.com/bluddy/rails"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Railroad Tycoon: engine remake by bluddy for Windows. Bring your own copy of the game.",
+  notesEs: "Railroad Tycoon: recreación de motor de bluddy para Windows. Aporta tu propia copia del juego.",
+};

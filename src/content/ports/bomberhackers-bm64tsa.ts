@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bomberhackersBm64tsa: Port = {
+  schema: "port",
+  id: "bomberhackers-bm64tsa",
+  title: "Bomberman 64: The Second Attack!",
+  game: "Bomberman 64: The Second Attack!",
+  developers: ["Bomberhackers"],
+  publisher: "Nintendo",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Bomberhackers/bm64tsa"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Bomberman 64: The Second Attack!: decompilation by Bomberhackers for Windows. Bring your own copy of the game.",
+  notesEs: "Bomberman 64: The Second Attack!: decompilación de Bomberhackers para Windows. Aporta tu propia copia del juego.",
+};

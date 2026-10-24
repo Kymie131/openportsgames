@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const wootbeerSnprecomp: Port = {
+  schema: "port",
+  id: "wootbeer-snprecomp",
+  title: "Sin and Punishment (SnP Recompiled)",
+  game: "Sin and Punishment",
+  developers: ["wootbeer"],
+  publisher: "Nintendo",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.2.0", date: "2026-10-22" },
+  sources: ["https://github.com/wootbeer/snprecomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Sin and Punishment: static recompilation by wootbeer for Windows. Bring your own copy of the game.",
+  notesEs: "Sin and Punishment: recompilación estática de wootbeer para Windows. Aporta tu propia copia del juego.",
+};

@@ -21,7 +21,7 @@ export const oliveryasunaSmbRecomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo Entertainment System"],
+  originalSystems: ["Unknown"],
   notes: "Super Mario Bros.: static recompilation by oliveryasuna for Windows. Bring your own copy of the game.",
   notesEs: "Super Mario Bros.: recompilación estática de oliveryasuna para Windows. Aporta tu propia copia del juego.",
   cover: {

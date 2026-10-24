@@ -20,7 +20,7 @@ export const nikolaygorbGoldeneye007reloadedrecomp: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox 360"],
+  originalSystems: ["Unknown"],
   notes: "GoldenEye 007 Reloaded: static recompilation by nikolaygorb for Windows. Bring your own copy of the game.",
   notesEs: "GoldenEye 007 Reloaded: recompilación estática de nikolaygorb para Windows. Aporta tu propia copia del juego.",
 };

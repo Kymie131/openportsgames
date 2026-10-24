@@ -21,7 +21,7 @@ export const isledecompIsle: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Lego Island: decompilation by isledecomp for Windows. Bring your own copy of the game.",
   notesEs: "Lego Island: decompilación de isledecomp para Windows. Aporta tu propia copia del juego.",
 };

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gtteancumTimesplitters: Port = {
+  schema: "port",
+  id: "gtteancum-timesplitters",
+  title: "TimeSplitters",
+  game: "TimeSplitters",
+  developers: ["GTTeancum"],
+  publisher: "Eidos Interactive",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-10-23" },
+  sources: ["https://github.com/GTTeancum/Timesplitters"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  notes: "TimeSplitters: static recompilation by GTTeancum for Windows. Bring your own copy of the game.",
+  notesEs: "TimeSplitters: recompilación estática de GTTeancum para Windows. Aporta tu propia copia del juego.",
+};

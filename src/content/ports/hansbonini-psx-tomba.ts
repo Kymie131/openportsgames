@@ -21,7 +21,7 @@ export const hansboniniPsxTomba: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation"],
+  originalSystems: ["Unknown"],
   notes: "Tomba!: decompilation by hansbonini for Windows. Bring your own copy of the game.",
   notesEs: "Tomba!: decompilación de hansbonini para Windows. Aporta tu propia copia del juego.",
 };

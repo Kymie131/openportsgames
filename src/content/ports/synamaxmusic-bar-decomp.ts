@@ -21,7 +21,7 @@ export const synamaxmusicBarDecomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "Beetle Adventure Racing!: decompilation by synamaxmusic for Windows. Bring your own copy of the game.",
   notesEs: "Beetle Adventure Racing!: decompilación de synamaxmusic para Windows. Aporta tu propia copia del juego.",
 };

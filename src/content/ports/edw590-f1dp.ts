@@ -20,7 +20,7 @@ export const edw590F1dp: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["MS-DOS"],
+  originalSystems: ["Unknown"],
   notes: "Fallout: decompilation by Edw590 for Windows. Bring your own copy of the game.",
   notesEs: "Fallout: decompilación de Edw590 para Windows. Aporta tu propia copia del juego.",
   cover: {

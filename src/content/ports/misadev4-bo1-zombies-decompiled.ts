@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const misadev4Bo1ZombiesDecompiled: Port = {
+  schema: "port",
+  id: "misadev4-bo1-zombies-decompiled",
+  title: "Call of Duty: Black Ops (bo1-zombies-decompiled)",
+  game: "Call of Duty: Black Ops",
+  developers: ["MisaDev4"],
+  publisher: "Unknown",
+  originalYear: 2010,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/MisaDev4/bo1-zombies-decompiled"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Call of Duty: Black Ops: decompilation by MisaDev4 for Windows. Bring your own copy of the game.",
+  notesEs: "Call of Duty: Black Ops: decompilación de MisaDev4 para Windows. Aporta tu propia copia del juego.",
+};

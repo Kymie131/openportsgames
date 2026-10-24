@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const openBfmeOpenbfmeGodot: Port = {
+  schema: "port",
+  id: "open-bfme-openbfme-godot",
+  title: "The Lord of the Rings: The Battle for Middle-earth II (OpenBFME)",
+  game: "The Lord of the Rings: The Battle for Middle-earth II",
+  developers: ["Open-BFME"],
+  publisher: "Electronic Arts",
+  originalYear: 2006,
+  portType: "reimplementation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.4.11", date: "2026-10-19" },
+  sources: ["https://github.com/Open-BFME/openbfme-godot"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "The Lord of the Rings: The Battle for Middle-earth II: engine remake by Open-BFME for Windows. Bring your own copy of the game.",
+  notesEs: "The Lord of the Rings: The Battle for Middle-earth II: recreación de motor de Open-BFME para Windows. Aporta tu propia copia del juego.",
+};

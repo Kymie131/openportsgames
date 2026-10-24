@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const b4ttycre4seSpiderMan3Recomp: Port = {
+  schema: "port",
+  id: "b4ttycre4se-spider-man-3-recomp",
+  title: "Spider-Man 3 (Xbox 360 recomp)",
+  game: "Spider-Man 3",
+  developers: ["b4ttycre4se"],
+  publisher: "Unknown",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/b4ttycre4se/Spider-Man-3-Recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Spider-Man 3: static recompilation by b4ttycre4se for Windows. Bring your own copy of the game.",
+  notesEs: "Spider-Man 3: recompilación estática de b4ttycre4se para Windows. Aporta tu propia copia del juego.",
+};

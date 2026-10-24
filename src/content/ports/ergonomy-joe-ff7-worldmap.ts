@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ergonomyJoeFf7Worldmap: Port = {
+  schema: "port",
+  id: "ergonomy-joe-ff7-worldmap",
+  title: "Final Fantasy VII (ff7-worldmap)",
+  game: "Final Fantasy VII",
+  developers: ["ergonomy-joe"],
+  publisher: "Unknown",
+  originalYear: 2008,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ergonomy-joe/ff7-worldmap"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  notes: "Final Fantasy VII: decompilation by ergonomy-joe for Windows. Bring your own copy of the game.",
+  notesEs: "Final Fantasy VII: decompilación de ergonomy-joe para Windows. Aporta tu propia copia del juego.",
+};

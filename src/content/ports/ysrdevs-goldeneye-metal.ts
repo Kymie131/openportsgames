@@ -20,7 +20,7 @@ export const ysrdevsGoldeneyeMetal: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "GoldenEye 007: static recompilation by ysrdevs for Windows, macOS. Bring your own copy of the game.",
   notesEs: "GoldenEye 007: recompilación estática de ysrdevs para Windows, macOS. Aporta tu propia copia del juego.",
   cover: {

@@ -21,7 +21,7 @@ export const ragnaroekIronWolf: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["MS-DOS"],
+  originalSystems: ["Unknown"],
   notes: "Wolfenstein 3D: source port by Ragnaroek for Windows. Bring your own copy of the game.",
   notesEs: "Wolfenstein 3D: source port de Ragnaroek para Windows. Aporta tu propia copia del juego.",
 };

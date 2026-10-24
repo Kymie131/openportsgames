@@ -21,7 +21,7 @@ export const jnmartin84Doom64Dc: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "Doom 64: source port by jnmartin84 for Windows. Bring your own copy of the game.",
   notesEs: "Doom 64: source port de jnmartin84 para Windows. Aporta tu propia copia del juego.",
 };

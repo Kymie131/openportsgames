@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const link4electronicsFlyingdodgem: Port = {
+  schema: "port",
+  id: "link4electronics-flyingdodgem",
+  title: "HOVER!",
+  game: "HOVER!",
+  developers: ["Link4Electronics"],
+  publisher: "Microsoft",
+  originalYear: 1995,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Link4Electronics/FlyingDodgem"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "HOVER!: decompilation by Link4Electronics for Windows. Bring your own copy of the game.",
+  notesEs: "HOVER!: decompilación de Link4Electronics para Windows. Aporta tu propia copia del juego.",
+};

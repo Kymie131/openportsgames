@@ -20,7 +20,7 @@ export const brawmarioLibsm64Godot: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "Super Mario 64: source port by Brawmario for Windows. Bring your own copy of the game.",
   notesEs: "Super Mario 64: source port de Brawmario para Windows. Aporta tu propia copia del juego.",
   cover: {

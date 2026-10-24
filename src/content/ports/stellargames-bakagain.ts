@@ -21,7 +21,7 @@ export const stellargamesBakagain: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["MS-DOS"],
+  originalSystems: ["Unknown"],
   notes: "Bak-Again: engine remake by stellargames for Android, Windows, Linux. Bring your own copy of the game.",
   notesEs: "Bak-Again: recreación de motor de stellargames para Android, Windows, Linux. Aporta tu propia copia del juego.",
 };

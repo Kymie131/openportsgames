@@ -21,7 +21,7 @@ export const therunaway5Halo2Decompiled: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox"],
+  originalSystems: ["Unknown"],
   notes: "Halo 2: decompilation by TheRunaway5 for Windows. Bring your own copy of the game.",
   notesEs: "Halo 2: decompilación de TheRunaway5 para Windows. Aporta tu propia copia del juego.",
 };

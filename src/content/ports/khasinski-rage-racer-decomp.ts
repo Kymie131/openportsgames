@@ -21,7 +21,7 @@ export const khasinskiRageRacerDecomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation"],
+  originalSystems: ["Unknown"],
   notes: "Rage Racer: decompilation by khasinski for Windows. Bring your own copy of the game.",
   notesEs: "Rage Racer: decompilación de khasinski para Windows. Aporta tu propia copia del juego.",
 };

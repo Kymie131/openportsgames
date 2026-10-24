@@ -21,7 +21,7 @@ export const crabinacrabicBadcompanyrecomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox 360"],
+  originalSystems: ["Unknown"],
   notes: "Battlefield: Bad Company: static recompilation by crabinacrabic for Windows. Bring your own copy of the game.",
   notesEs: "Battlefield: Bad Company: recompilación estática de crabinacrabic para Windows. Aporta tu propia copia del juego.",
 };

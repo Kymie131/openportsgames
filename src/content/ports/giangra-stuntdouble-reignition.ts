@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const giangraStuntdoubleReignition: Port = {
+  schema: "port",
+  id: "giangra-stuntdouble-reignition",
+  title: "Stuntman: Ignition (Stunt Double: Reignition)",
+  game: "Stuntman: Ignition",
+  developers: ["giangra"],
+  publisher: "THQ",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.2.0", date: "2026-10-21" },
+  sources: ["https://github.com/giangra/stuntdouble-reignition"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Stuntman: Ignition: static recompilation by giangra for Windows. Bring your own copy of the game.",
+  notesEs: "Stuntman: Ignition: recompilación estática de giangra para Windows. Aporta tu propia copia del juego.",
+};

@@ -21,7 +21,7 @@ export const sonicdcerSf64: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "Star Fox 64: decompilation by sonicdcer for Windows. Bring your own copy of the game.",
   notesEs: "Star Fox 64: decompilación de sonicdcer para Windows. Aporta tu propia copia del juego.",
   cover: {

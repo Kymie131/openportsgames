@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const benbaker76Openswos: Port = {
+  schema: "port",
+  id: "benbaker76-openswos",
+  title: "Sensible World of Soccer 96/97 (OpenSWOS)",
+  game: "Sensible World of Soccer 96/97",
+  developers: ["benbaker76"],
+  publisher: "Unknown",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/benbaker76/OpenSWOS"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Sensible World of Soccer 96/97: source port by benbaker76 for Windows, Linux, macOS. Bring your own copy of the game.",
+  notesEs: "Sensible World of Soccer 96/97: source port de benbaker76 para Windows, Linux, macOS. Aporta tu propia copia del juego.",
+};

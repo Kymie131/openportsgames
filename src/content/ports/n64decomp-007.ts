@@ -21,7 +21,7 @@ export const n64decomp007: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "GoldenEye 007: decompilation by n64decomp for Windows. Bring your own copy of the game.",
   notesEs: "GoldenEye 007: decompilación de n64decomp para Windows. Aporta tu propia copia del juego.",
   cover: {

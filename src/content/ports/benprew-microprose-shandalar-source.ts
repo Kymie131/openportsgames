@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const benprewMicroproseShandalarSource: Port = {
+  schema: "port",
+  id: "benprew-microprose-shandalar-source",
+  title: "Magic: The Gathering (microprose-shandalar-source)",
+  game: "Magic: The Gathering",
+  developers: ["benprew"],
+  publisher: "MicroProse",
+  originalYear: 1997,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/benprew/microprose-shandalar-source"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Magic: The Gathering: decompilation by benprew for Windows. Bring your own copy of the game.",
+  notesEs: "Magic: The Gathering: decompilación de benprew para Windows. Aporta tu propia copia del juego.",
+};

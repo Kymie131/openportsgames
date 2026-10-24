@@ -21,7 +21,7 @@ export const helmxgamingSkate3RecompiledWorkInProgress: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox 360"],
+  originalSystems: ["Unknown"],
   notes: "Skate 3: static recompilation by HelmXGaming for Windows. Bring your own copy of the game.",
   notesEs: "Skate 3: recompilación estática de HelmXGaming para Windows. Aporta tu propia copia del juego.",
   cover: {

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ivanno4317Dw4Gc: Port = {
+  schema: "port",
+  id: "ivanno4317-dw4-gc",
+  title: "Digimon World 4",
+  game: "Digimon World 4",
+  developers: ["ivanno4317"],
+  publisher: "Bandai Namco Entertainment",
+  originalYear: 2005,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ivanno4317/dw4-gc"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  notes: "Digimon World 4: decompilation by ivanno4317 for Windows. Bring your own copy of the game.",
+  notesEs: "Digimon World 4: decompilación de ivanno4317 para Windows. Aporta tu propia copia del juego.",
+};

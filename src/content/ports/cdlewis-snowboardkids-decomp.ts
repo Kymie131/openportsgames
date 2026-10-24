@@ -21,7 +21,7 @@ export const cdlewisSnowboardkidsDecomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "Snowboard Kids: decompilation by cdlewis for Windows. Bring your own copy of the game.",
   notesEs: "Snowboard Kids: decompilación de cdlewis para Windows. Aporta tu propia copia del juego.",
 };

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const zer0ducksgivenForzaMotorsport2Regpu: Port = {
+  schema: "port",
+  id: "zer0ducksgiven-forza-motorsport-2-regpu",
+  title: "Forza Motorsport 2 (Forza Motorsport 2 ReGPU)",
+  game: "Forza Motorsport 2",
+  developers: ["zer0ducksgiven"],
+  publisher: "Xbox Game Studios",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.5.5", date: "2026-10-23" },
+  sources: ["https://github.com/zer0ducksgiven/Forza-Motorsport-2-ReGPU"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Forza Motorsport 2: static recompilation by zer0ducksgiven for Windows. Bring your own copy of the game.",
+  notesEs: "Forza Motorsport 2: recompilación estática de zer0ducksgiven para Windows. Aporta tu propia copia del juego.",
+};

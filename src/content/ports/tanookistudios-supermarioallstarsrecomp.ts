@@ -20,7 +20,7 @@ export const tanookistudiosSupermarioallstarsrecomp: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Super Nintendo"],
+  originalSystems: ["Unknown"],
   notes: "Super Mario All-Stars: static recompilation by TanookiStudios for Windows, Linux, macOS. Bring your own copy of the game.",
   notesEs: "Super Mario All-Stars: recompilación estática de TanookiStudios para Windows, Linux, macOS. Aporta tu propia copia del juego.",
 };

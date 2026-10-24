@@ -20,7 +20,7 @@ export const yeoldpressAlttpDx: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Super Nintendo"],
+  originalSystems: ["Unknown"],
   notes: "The Legend of Zelda: A Link to the Past: source port by YeOldPress for Windows. Bring your own copy of the game.",
   notesEs: "The Legend of Zelda: A Link to the Past: source port de YeOldPress para Windows. Aporta tu propia copia del juego.",
   cover: {

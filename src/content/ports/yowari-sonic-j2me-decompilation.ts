@@ -21,7 +21,7 @@ export const yowariSonicJ2meDecompilation: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Sega Mega Drive / Genesis"],
+  originalSystems: ["Unknown"],
   notes: "Sonic the Hedgehog: decompilation by yowari for Windows. Bring your own copy of the game.",
   notesEs: "Sonic the Hedgehog: decompilación de yowari para Windows. Aporta tu propia copia del juego.",
 };

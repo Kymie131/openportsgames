@@ -21,7 +21,7 @@ export const mattsgMm3Recomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox"],
+  originalSystems: ["Unknown"],
   notes: "Midtown Madness 3: static recompilation by MattSG for Windows. Bring your own copy of the game.",
   notesEs: "Midtown Madness 3: recompilación estática de MattSG para Windows. Aporta tu propia copia del juego.",
   cover: {

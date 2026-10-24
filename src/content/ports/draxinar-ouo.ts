@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const draxinarOuo: Port = {
+  schema: "port",
+  id: "draxinar-ouo",
+  title: "Ultima Online (OUO)",
+  game: "Ultima Online",
+  developers: ["draxinar"],
+  publisher: "Electronic Arts",
+  originalYear: 1997,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/draxinar/ouo"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Ultima Online: decompilation by draxinar for Windows. Bring your own copy of the game.",
+  notesEs: "Ultima Online: decompilación de draxinar para Windows. Aporta tu propia copia del juego.",
+};

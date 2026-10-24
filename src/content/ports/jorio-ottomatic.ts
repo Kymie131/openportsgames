@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jorioOttomatic: Port = {
+  schema: "port",
+  id: "jorio-ottomatic",
+  title: "Otto Matic",
+  game: "Otto Matic",
+  developers: ["jorio"],
+  publisher: "Aspyr",
+  originalYear: 2001,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "macos"],
+  status: "beta",
+  release: { version: "4.0.1", date: "2023-01-31" },
+  sources: ["https://github.com/jorio/OttoMatic"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Otto Matic: source port by jorio for Windows, macOS. Bring your own copy of the game.",
+  notesEs: "Otto Matic: source port de jorio para Windows, macOS. Aporta tu propia copia del juego.",
+};

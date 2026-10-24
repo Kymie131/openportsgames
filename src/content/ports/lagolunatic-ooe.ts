@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const lagolunaticOoe: Port = {
+  schema: "port",
+  id: "lagolunatic-ooe",
+  title: "Castlevania: Order of Ecclesia",
+  game: "Castlevania: Order of Ecclesia",
+  developers: ["LagoLunatic"],
+  publisher: "Konami",
+  originalYear: 2008,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/LagoLunatic/ooe"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Castlevania: Order of Ecclesia: decompilation by LagoLunatic for Windows. Bring your own copy of the game.",
+  notesEs: "Castlevania: Order of Ecclesia: decompilación de LagoLunatic para Windows. Aporta tu propia copia del juego.",
+};

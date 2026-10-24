@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const elprogramadorlocoArchJim2Recomp: Port = {
+  schema: "port",
+  id: "elprogramadorloco-arch-jim2-recomp",
+  title: "Earthworm Jim 2 (Earthworm Jim 2 Recompiled)",
+  game: "Earthworm Jim 2",
+  developers: ["elprogramadorloco-arch"],
+  publisher: "Virgin Interactive",
+  originalYear: 1995,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.2", date: "2026-10-03" },
+  sources: ["https://github.com/elprogramadorloco-arch/jim2-recomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  notes: "Earthworm Jim 2: static recompilation by elprogramadorloco-arch for Windows. Bring your own copy of the game.",
+  notesEs: "Earthworm Jim 2: recompilación estática de elprogramadorloco-arch para Windows. Aporta tu propia copia del juego.",
+};

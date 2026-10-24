@@ -20,7 +20,7 @@ export const indionicaraoDxx3ds: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["MS-DOS"],
+  originalSystems: ["Unknown"],
   notes: "Descent: source port by iNdioNicarao for Windows. Bring your own copy of the game.",
   notesEs: "Descent: source port de iNdioNicarao para Windows. Aporta tu propia copia del juego.",
   cover: {

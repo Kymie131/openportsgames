@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const recompCodeStreetRecompV3: Port = {
+  schema: "port",
+  id: "recomp-code-street-recomp-v3",
+  title: "NBA Street V3",
+  game: "NBA Street V3",
+  developers: ["recomp-code"],
+  publisher: "EA Sports Big",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.4.1", date: "2026-10-20" },
+  sources: ["https://github.com/recomp-code/street-recomp-v3"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  notes: "NBA Street V3: static recompilation by recomp-code for Windows. Bring your own copy of the game.",
+  notesEs: "NBA Street V3: recompilación estática de recomp-code para Windows. Aporta tu propia copia del juego.",
+};

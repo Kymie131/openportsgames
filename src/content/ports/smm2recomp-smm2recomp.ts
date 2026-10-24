@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const smm2recompSmm2recomp: Port = {
+  schema: "port",
+  id: "smm2recomp-smm2recomp",
+  title: "Super Mario Maker 2 (SMM2 Recomp)",
+  game: "Super Mario Maker 2",
+  developers: ["smm2recomp"],
+  publisher: "Nintendo",
+  originalYear: 2019,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.4.8", date: "2026-10-23" },
+  sources: ["https://github.com/smm2recomp/smm2recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo Switch"],
+  notes: "Super Mario Maker 2: static recompilation by smm2recomp for Windows. Bring your own copy of the game.",
+  notesEs: "Super Mario Maker 2: recompilación estática de smm2recomp para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const akiClubVpw2: Port = {
+  schema: "port",
+  id: "aki-club-vpw2",
+  title: "Virtual Pro Wrestling 2: Ōdō Keishō",
+  game: "Virtual Pro Wrestling 2: Ōdō Keishō",
+  developers: ["AKI-Club"],
+  publisher: "Asmik Ace Entertainment",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/AKI-Club/vpw2"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Virtual Pro Wrestling 2: Ōdō Keishō: decompilation by AKI-Club for Windows. Bring your own copy of the game.",
+  notesEs: "Virtual Pro Wrestling 2: Ōdō Keishō: decompilación de AKI-Club para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const levyStreetPokemonClaudeRed: Port = {
+  schema: "port",
+  id: "levy-street-pokemon-claude-red",
+  title: "Pokémon Red and Blue (pokemon-claude-red)",
+  game: "Pokémon Red and Blue",
+  developers: ["levy-street"],
+  publisher: "Nintendo",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/levy-street/pokemon-claude-red"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Game Boy / Game Boy Color"],
+  notes: "Pokémon Red and Blue: decompilation by levy-street for Windows. Bring your own copy of the game.",
+  notesEs: "Pokémon Red and Blue: decompilación de levy-street para Windows. Aporta tu propia copia del juego.",
+};

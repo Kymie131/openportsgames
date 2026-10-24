@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const alphanu1MsgTwinsnakesRecomp: Port = {
+  schema: "port",
+  id: "alphanu1-msg-twinsnakes-recomp",
+  title: "Metal Gear Solid: The Twin Snakes (alphanu1)",
+  game: "Metal Gear Solid: The Twin Snakes",
+  developers: ["alphanu1"],
+  publisher: "Konami",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/alphanu1/msg-twinsnakes-recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  notes: "Metal Gear Solid: The Twin Snakes: static recompilation by alphanu1 for Windows. Bring your own copy of the game.",
+  notesEs: "Metal Gear Solid: The Twin Snakes: recompilación estática de alphanu1 para Windows. Aporta tu propia copia del juego.",
+};

@@ -20,7 +20,7 @@ export const jacobengetDoomWasm: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["MS-DOS"],
+  originalSystems: ["Unknown"],
   notes: "Doom: browser port by jacobenget for the browser. Bring your own copy of the game.",
   notesEs: "Doom: port de navegador de jacobenget para el navegador. Aporta tu propia copia del juego.",
   cover: {

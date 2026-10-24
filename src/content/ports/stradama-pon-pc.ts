@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const stradamaPonPc: Port = {
+  schema: "port",
+  id: "stradama-pon-pc",
+  title: "Rockman EXE Phantom of Network (PoN PC)",
+  game: "Rockman EXE Phantom of Network",
+  developers: ["StraDaMa"],
+  publisher: "Capcom",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-02-21" },
+  sources: ["https://github.com/StraDaMa/PoN_PC"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Rockman EXE Phantom of Network: source port by StraDaMa for Windows. Bring your own copy of the game.",
+  notesEs: "Rockman EXE Phantom of Network: source port de StraDaMa para Windows. Aporta tu propia copia del juego.",
+};

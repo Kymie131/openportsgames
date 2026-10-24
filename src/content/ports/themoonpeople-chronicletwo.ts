@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const themoonpeopleChronicletwo: Port = {
+  schema: "port",
+  id: "themoonpeople-chronicletwo",
+  title: "Dark Chronicle",
+  game: "Dark Chronicle",
+  developers: ["TheMoonPeople"],
+  publisher: "Sony Interactive Entertainment",
+  originalYear: 2002,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/TheMoonPeople/ChronicleTwo"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  notes: "Dark Chronicle: decompilation by TheMoonPeople for Windows. Bring your own copy of the game.",
+  notesEs: "Dark Chronicle: decompilación de TheMoonPeople para Windows. Aporta tu propia copia del juego.",
+};

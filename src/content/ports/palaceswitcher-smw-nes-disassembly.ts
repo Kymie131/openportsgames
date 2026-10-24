@@ -21,7 +21,7 @@ export const palaceswitcherSmwNesDisassembly: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo Entertainment System"],
+  originalSystems: ["Unknown"],
   notes: "Super Mario World: source port by palaceswitcher for Windows. Bring your own copy of the game.",
   notesEs: "Super Mario World: source port de palaceswitcher para Windows. Aporta tu propia copia del juego.",
   cover: {

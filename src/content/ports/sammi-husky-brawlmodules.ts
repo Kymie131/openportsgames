@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sammiHuskyBrawlmodules: Port = {
+  schema: "port",
+  id: "sammi-husky-brawlmodules",
+  title: "Super Smash Bros. Brawl (BrawlModules)",
+  game: "Super Smash Bros. Brawl",
+  developers: ["Sammi-Husky"],
+  publisher: "Nintendo",
+  originalYear: 2008,
+  portType: "reimplementation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Sammi-Husky/BrawlModules"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Wii"],
+  notes: "Super Smash Bros. Brawl: engine remake by Sammi-Husky for Windows. Bring your own copy of the game.",
+  notesEs: "Super Smash Bros. Brawl: recreación de motor de Sammi-Husky para Windows. Aporta tu propia copia del juego.",
+};

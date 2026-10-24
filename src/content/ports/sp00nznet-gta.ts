@@ -21,7 +21,7 @@ export const sp00nznetGta: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Grand Theft Auto / GTA: London: static recompilation by sp00nznet for Windows. Bring your own copy of the game.",
   notesEs: "Grand Theft Auto / GTA: London: recompilación estática de sp00nznet para Windows. Aporta tu propia copia del juego.",
 };

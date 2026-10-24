@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mdomangue26Thebigs2: Port = {
+  schema: "port",
+  id: "mdomangue26-thebigs2",
+  title: "The Bigs 2",
+  game: "The Bigs 2",
+  developers: ["mdomangue26"],
+  publisher: "2K Sports",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.01", date: "2026-10-17" },
+  sources: ["https://github.com/mdomangue26/thebigs2"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "The Bigs 2: static recompilation by mdomangue26 for Windows. Bring your own copy of the game.",
+  notesEs: "The Bigs 2: recompilación estática de mdomangue26 para Windows. Aporta tu propia copia del juego.",
+};

@@ -21,7 +21,7 @@ export const kholdfuzionGoldenrecomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "GoldenEye 007: static recompilation by kholdfuzion for Windows. Bring your own copy of the game.",
   notesEs: "GoldenEye 007: recompilación estática de kholdfuzion para Windows. Aporta tu propia copia del juego.",
   cover: {

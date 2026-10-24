@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const riseioTwipe00sheven: Port = {
+  schema: "port",
+  id: "riseio-twipe-00sheven",
+  title: "The World Is Not Enough (I Could Have Given You the World)",
+  game: "The World Is Not Enough",
+  developers: ["riseio"],
+  publisher: "Unknown",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.96", date: "2026-10-17" },
+  sources: ["https://github.com/riseio/TWIPE_00Sheven"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "The World Is Not Enough: static recompilation by riseio for Windows. Bring your own copy of the game.",
+  notesEs: "The World Is Not Enough: recompilación estática de riseio para Windows. Aporta tu propia copia del juego.",
+};

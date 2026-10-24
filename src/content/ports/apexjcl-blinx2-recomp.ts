@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const apexjclBlinx2Recomp: Port = {
+  schema: "port",
+  id: "apexjcl-blinx2-recomp",
+  title: "Blinx 2: Masters of Time and Space",
+  game: "Blinx 2: Masters of Time and Space",
+  developers: ["apexJCL"],
+  publisher: "Xbox Game Studios",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "2026.10.3", date: "2026-10-22" },
+  sources: ["https://github.com/apexJCL/blinx2-recomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox"],
+  notes: "Blinx 2: Masters of Time and Space: static recompilation by apexJCL for Windows. Bring your own copy of the game.",
+  notesEs: "Blinx 2: Masters of Time and Space: recompilación estática de apexJCL para Windows. Aporta tu propia copia del juego.",
+};

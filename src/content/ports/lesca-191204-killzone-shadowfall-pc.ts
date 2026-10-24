@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const lesca191204KillzoneShadowfallPc: Port = {
+  schema: "port",
+  id: "lesca-191204-killzone-shadowfall-pc",
+  title: "Killzone Shadow Fall (PC)",
+  game: "Killzone Shadow Fall",
+  developers: ["lesca-191204"],
+  publisher: "Sony Interactive Entertainment",
+  originalYear: 2013,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.4.0", date: "2026-10-23" },
+  sources: ["https://github.com/lesca-191204/killzone-shadowfall-pc"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 4"],
+  notes: "Killzone Shadow Fall: source port by lesca-191204 for Windows. Bring your own copy of the game.",
+  notesEs: "Killzone Shadow Fall: source port de lesca-191204 para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const p2tieMh1j: Port = {
+  schema: "port",
+  id: "2tie-mh1j",
+  title: "Monster Hunter",
+  game: "Monster Hunter",
+  developers: ["2Tie"],
+  publisher: "Unknown",
+  originalYear: 2020,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/2Tie/mh1j"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  notes: "Monster Hunter: decompilation by 2Tie for Windows. Bring your own copy of the game.",
+  notesEs: "Monster Hunter: decompilación de 2Tie para Windows. Aporta tu propia copia del juego.",
+};

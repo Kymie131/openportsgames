@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mango77xMhforever: Port = {
+  schema: "port",
+  id: "mango77x-mhforever",
+  title: "Monster Hunter Freedom Unite (MHForever)",
+  game: "Monster Hunter Freedom Unite",
+  developers: ["Mango77x"],
+  publisher: "Capcom",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.4.1", date: "2026-10-23" },
+  sources: ["https://github.com/Mango77x/MHForever"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation Portable"],
+  notes: "Monster Hunter Freedom Unite: static recompilation by Mango77x for Windows. Bring your own copy of the game.",
+  notesEs: "Monster Hunter Freedom Unite: recompilación estática de Mango77x para Windows. Aporta tu propia copia del juego.",
+};

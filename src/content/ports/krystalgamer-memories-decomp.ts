@@ -21,7 +21,7 @@ export const krystalgamerMemoriesDecomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation"],
+  originalSystems: ["Unknown"],
   notes: "Yu-Gi-Oh! Forbidden Memories: decompilation by krystalgamer for Windows. Bring your own copy of the game.",
   notesEs: "Yu-Gi-Oh! Forbidden Memories: decompilación de krystalgamer para Windows. Aporta tu propia copia del juego.",
   cover: {

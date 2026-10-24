@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const edeeggLegendsRecomp: Port = {
+  schema: "port",
+  id: "edeegg-legends-recomp",
+  title: "Rayman Legends",
+  game: "Rayman Legends",
+  developers: ["edeegg"],
+  publisher: "Unknown",
+  originalYear: 2013,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.2.0", date: "2026-10-15" },
+  sources: ["https://github.com/edeegg/Legends-Recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Rayman Legends: static recompilation by edeegg for Windows. Bring your own copy of the game.",
+  notesEs: "Rayman Legends: recompilación estática de edeegg para Windows. Aporta tu propia copia del juego.",
+};

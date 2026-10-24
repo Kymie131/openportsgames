@@ -21,7 +21,7 @@ export const biggestsonicfanStfdecomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Arcade"],
+  originalSystems: ["Unknown"],
   notes: "Sonic The Fighters: decompilation by biggestsonicfan for Windows. Bring your own copy of the game.",
   notesEs: "Sonic The Fighters: decompilación de biggestsonicfan para Windows. Aporta tu propia copia del juego.",
   cover: {

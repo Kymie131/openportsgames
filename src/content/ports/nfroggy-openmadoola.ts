@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nfroggyOpenmadoola: Port = {
+  schema: "port",
+  id: "nfroggy-openmadoola",
+  title: "The Wing of Madoola",
+  game: "The Wing of Madoola",
+  developers: ["nfroggy"],
+  publisher: "Sunsoft",
+  originalYear: 1986,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.26", date: "2026-01-11" },
+  sources: ["https://github.com/nfroggy/openmadoola"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo Entertainment System"],
+  notes: "The Wing of Madoola: engine remake by nfroggy for Windows. Bring your own copy of the game.",
+  notesEs: "The Wing of Madoola: recreación de motor de nfroggy para Windows. Aporta tu propia copia del juego.",
+};

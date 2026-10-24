@@ -21,7 +21,7 @@ export const castleseaInfamousSecondSonPcPort: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation 4"],
+  originalSystems: ["Unknown"],
   notes: "inFAMOUS Second Son: source port by Castlesea for Windows. Bring your own copy of the game.",
   notesEs: "inFAMOUS Second Son: source port de Castlesea para Windows. Aporta tu propia copia del juego.",
   cover: {

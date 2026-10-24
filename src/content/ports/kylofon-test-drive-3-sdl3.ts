@@ -20,7 +20,7 @@ export const kylofonTestDrive3Sdl3: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["MS-DOS"],
+  originalSystems: ["Unknown"],
   notes: "Test Drive III: engine remake by kylofon for Windows. Bring your own copy of the game.",
   notesEs: "Test Drive III: recreación de motor de kylofon para Windows. Aporta tu propia copia del juego.",
 };

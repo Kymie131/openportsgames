@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const metroidretMf: Port = {
+  schema: "port",
+  id: "metroidret-mf",
+  title: "Metroid Fusion",
+  game: "Metroid Fusion",
+  developers: ["metroidret"],
+  publisher: "Nintendo",
+  originalYear: 2002,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/metroidret/mf"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Game Boy Advance"],
+  notes: "Metroid Fusion: decompilation by metroidret for Windows. Bring your own copy of the game.",
+  notesEs: "Metroid Fusion: decompilación de metroidret para Windows. Aporta tu propia copia del juego.",
+};

@@ -21,7 +21,7 @@ export const graememccMicropolisjs: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "SimCity: source port by graememcc for Windows, macOS. Bring your own copy of the game.",
   notesEs: "SimCity: source port de graememcc para Windows, macOS. Aporta tu propia copia del juego.",
 };

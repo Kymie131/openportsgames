@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nsmbDecompNsmb: Port = {
+  schema: "port",
+  id: "nsmb-decomp-nsmb",
+  title: "New Super Mario Bros.",
+  game: "New Super Mario Bros.",
+  developers: ["NSMB-Decomp"],
+  publisher: "Nintendo",
+  originalYear: 2006,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/NSMB-Decomp/nsmb"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "New Super Mario Bros.: decompilation by NSMB-Decomp for Windows. Bring your own copy of the game.",
+  notesEs: "New Super Mario Bros.: decompilación de NSMB-Decomp para Windows. Aporta tu propia copia del juego.",
+};

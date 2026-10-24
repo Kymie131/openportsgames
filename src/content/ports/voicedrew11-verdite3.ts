@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const voicedrew11Verdite3: Port = {
+  schema: "port",
+  id: "voicedrew11-verdite3",
+  title: "King's Field II",
+  game: "King's Field II",
+  developers: ["Voicedrew11"],
+  publisher: "Sony Interactive Entertainment",
+  originalYear: 1995,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.2.0", date: "2026-10-18" },
+  sources: ["https://github.com/Voicedrew11/verdite3"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  notes: "King's Field II: source port by Voicedrew11 for Windows. Bring your own copy of the game.",
+  notesEs: "King's Field II: source port de Voicedrew11 para Windows. Aporta tu propia copia del juego.",
+};

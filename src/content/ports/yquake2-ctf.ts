@@ -21,7 +21,7 @@ export const yquake2Ctf: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Quake II: source port by yquake2 for Windows. Bring your own copy of the game.",
   notesEs: "Quake II: source port de yquake2 para Windows. Aporta tu propia copia del juego.",
   cover: {

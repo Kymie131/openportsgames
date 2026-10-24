@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jorioBugdom: Port = {
+  schema: "port",
+  id: "jorio-bugdom",
+  title: "Bugdom",
+  game: "Bugdom",
+  developers: ["jorio"],
+  publisher: "Unknown",
+  originalYear: 1999,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "macos"],
+  status: "beta",
+  release: { version: "1.3.4", date: "2024-01-03" },
+  sources: ["https://github.com/jorio/Bugdom"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Bugdom: source port by jorio for Windows, macOS. Bring your own copy of the game.",
+  notesEs: "Bugdom: source port de jorio para Windows, macOS. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const swiftshineYww: Port = {
+  schema: "port",
+  id: "swiftshine-yww",
+  title: "Yoshi's Woolly World",
+  game: "Yoshi's Woolly World",
+  developers: ["Swiftshine"],
+  publisher: "Nintendo",
+  originalYear: 2015,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Swiftshine/yww"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Wii U"],
+  notes: "Yoshi's Woolly World: decompilation by Swiftshine for Windows. Bring your own copy of the game.",
+  notesEs: "Yoshi's Woolly World: decompilación de Swiftshine para Windows. Aporta tu propia copia del juego.",
+};

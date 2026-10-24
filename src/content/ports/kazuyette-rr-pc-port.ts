@@ -21,7 +21,7 @@ export const kazuyetteRrPcPort: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation"],
+  originalSystems: ["Unknown"],
   notes: "Ridge Racer: source port by kazuyette for Windows. Bring your own copy of the game.",
   notesEs: "Ridge Racer: source port de kazuyette para Windows. Aporta tu propia copia del juego.",
   cover: {

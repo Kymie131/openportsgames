@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const thextechThextech: Port = {
+  schema: "port",
+  id: "thextech-thextech",
+  title: "Super Mario Bros. X (TheXTech)",
+  game: "Super Mario Bros. X",
+  developers: ["TheXTech"],
+  publisher: "Unknown",
+  originalYear: 2009,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.7.4.1", date: "2026-10-18" },
+  sources: ["https://github.com/TheXTech/TheXTech"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Super Mario Bros. X: source port by TheXTech for Windows. Bring your own copy of the game.",
+  notesEs: "Super Mario Bros. X: source port de TheXTech para Windows. Aporta tu propia copia del juego.",
+};

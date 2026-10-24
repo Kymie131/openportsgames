@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const openlsrOpenlsr: Port = {
+  schema: "port",
+  id: "openlsr-openlsr",
+  title: "LEGO Stunt Rally (OpenLSR)",
+  game: "LEGO Stunt Rally",
+  developers: ["OpenLSR"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/OpenLSR/OpenLSR"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "LEGO Stunt Rally: decompilation by OpenLSR for Windows. Bring your own copy of the game.",
+  notesEs: "LEGO Stunt Rally: decompilación de OpenLSR para Windows. Aporta tu propia copia del juego.",
+};

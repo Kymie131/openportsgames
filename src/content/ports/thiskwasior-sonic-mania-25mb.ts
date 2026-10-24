@@ -21,7 +21,7 @@ export const thiskwasiorSonicMania25mb: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Sonic Mania: decompilation by ThisKwasior for Windows. Bring your own copy of the game.",
   notesEs: "Sonic Mania: decompilación de ThisKwasior para Windows. Aporta tu propia copia del juego.",
   cover: {

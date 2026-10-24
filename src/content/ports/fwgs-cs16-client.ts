@@ -21,7 +21,7 @@ export const fwgsCs16Client: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Counter-Strike: engine remake by FWGS for Windows. Bring your own copy of the game.",
   notesEs: "Counter-Strike: recreación de motor de FWGS para Windows. Aporta tu propia copia del juego.",
   cover: {

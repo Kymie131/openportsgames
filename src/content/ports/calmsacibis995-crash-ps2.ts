@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const calmsacibis995CrashPs2: Port = {
+  schema: "port",
+  id: "calmsacibis995-crash-ps2",
+  title: "Crash Bandicoot: The Wrath of Cortex (calmsacibis995)",
+  game: "Crash Bandicoot: The Wrath of Cortex",
+  developers: ["calmsacibis995"],
+  publisher: "Unknown",
+  originalYear: 2001,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/calmsacibis995/crash-ps2"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  notes: "Crash Bandicoot: The Wrath of Cortex: decompilation by calmsacibis995 for Windows. Bring your own copy of the game.",
+  notesEs: "Crash Bandicoot: The Wrath of Cortex: decompilación de calmsacibis995 para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const opensroDevOpensro: Port = {
+  schema: "port",
+  id: "opensro-dev-opensro",
+  title: "Silkroad Online (OpenSRO)",
+  game: "Silkroad Online",
+  developers: ["opensro-dev"],
+  publisher: "Yahoo! Korea",
+  originalYear: 2004,
+  portType: "reimplementation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["web", "windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/opensro-dev/opensro"],
+  license: { spdx: "AGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Silkroad Online: engine remake by opensro-dev for the browser, Windows. Playable in the browser.",
+  notesEs: "Silkroad Online: recreación de motor de opensro-dev para el navegador, Windows. Jugable en el navegador.",
+};

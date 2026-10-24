@@ -21,7 +21,7 @@ export const monstercameronLibertyflux: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox 360"],
+  originalSystems: ["Unknown"],
   notes: "Grand Theft Auto IV: decompilation by monstercameron for Windows, macOS. Bring your own copy of the game.",
   notesEs: "Grand Theft Auto IV: decompilación de monstercameron para Windows, macOS. Aporta tu propia copia del juego.",
   cover: {

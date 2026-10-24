@@ -21,7 +21,7 @@ export const adamrtFftDecomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation"],
+  originalSystems: ["Unknown"],
   notes: "Final Fantasy Tactics: decompilation by adamrt for Windows. Bring your own copy of the game.",
   notesEs: "Final Fantasy Tactics: decompilación de adamrt para Windows. Aporta tu propia copia del juego.",
 };

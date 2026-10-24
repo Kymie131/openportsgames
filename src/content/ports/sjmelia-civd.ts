@@ -21,7 +21,7 @@ export const sjmeliaCivd: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["MS-DOS"],
+  originalSystems: ["Unknown"],
   notes: "Sid Meier's Civilization: decompilation by sjmelia for Windows. Bring your own copy of the game.",
   notesEs: "Sid Meier's Civilization: decompilación de sjmelia para Windows. Aporta tu propia copia del juego.",
 };

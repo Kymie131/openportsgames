@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const xeeynamoFf7Decomp: Port = {
+  schema: "port",
+  id: "xeeynamo-ff7-decomp",
+  title: "Final Fantasy VII",
+  game: "Final Fantasy VII",
+  developers: ["Xeeynamo"],
+  publisher: "Unknown",
+  originalYear: 2008,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Xeeynamo/ff7-decomp"],
+  license: { spdx: "AGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  notes: "Final Fantasy VII: decompilation by Xeeynamo for Windows. Bring your own copy of the game.",
+  notesEs: "Final Fantasy VII: decompilación de Xeeynamo para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const arelkairWiipartyRecomp: Port = {
+  schema: "port",
+  id: "arelkair-wiiparty-recomp",
+  title: "Wii Party",
+  game: "Wii Party",
+  developers: ["arelkair"],
+  publisher: "Nintendo",
+  originalYear: 2010,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.18-alpha", date: "2026-10-22" },
+  sources: ["https://github.com/arelkair/wiiparty-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Wii"],
+  notes: "Wii Party: static recompilation by arelkair for Windows. Bring your own copy of the game.",
+  notesEs: "Wii Party: recompilación estática de arelkair para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const snufflyyyTrialsHdRecompiled: Port = {
+  schema: "port",
+  id: "snufflyyy-trials-hd-recompiled",
+  title: "Trials HD",
+  game: "Trials HD",
+  developers: ["snufflyyy"],
+  publisher: "Xbox Game Studios",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/snufflyyy/trials-hd-recompiled"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Trials HD: static recompilation by snufflyyy for Windows. Bring your own copy of the game.",
+  notesEs: "Trials HD: recompilación estática de snufflyyy para Windows. Aporta tu propia copia del juego.",
+};

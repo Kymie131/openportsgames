@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const exokCeleste64: Port = {
+  schema: "port",
+  id: "exok-celeste64",
+  title: "Celeste 64: Fragments of the Mountain",
+  game: "Celeste 64: Fragments of the Mountain",
+  developers: ["EXOK"],
+  publisher: "Unknown",
+  originalYear: 2024,
+  portType: "reimplementation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.1.1", date: "2024-02-06" },
+  sources: ["https://github.com/EXOK/Celeste64"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Celeste 64: Fragments of the Mountain: engine remake by EXOK for Windows. Bring your own copy of the game.",
+  notesEs: "Celeste 64: Fragments of the Mountain: recreación de motor de EXOK para Windows. Aporta tu propia copia del juego.",
+};

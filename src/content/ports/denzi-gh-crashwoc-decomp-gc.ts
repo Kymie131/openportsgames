@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const denziGhCrashwocDecompGc: Port = {
+  schema: "port",
+  id: "denzi-gh-crashwoc-decomp-gc",
+  title: "Crash Bandicoot: The Wrath of Cortex",
+  game: "Crash Bandicoot: The Wrath of Cortex",
+  developers: ["denzi-gh"],
+  publisher: "Unknown",
+  originalYear: 2001,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/denzi-gh/crashwoc-decomp-gc"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  notes: "Crash Bandicoot: The Wrath of Cortex: decompilation by denzi-gh for Windows. Bring your own copy of the game.",
+  notesEs: "Crash Bandicoot: The Wrath of Cortex: decompilación de denzi-gh para Windows. Aporta tu propia copia del juego.",
+};

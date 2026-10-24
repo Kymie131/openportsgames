@@ -21,7 +21,7 @@ export const celsowmVf2Decomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Arcade"],
+  originalSystems: ["Unknown"],
   notes: "Virtua Fighter 2: decompilation by celsowm for Windows. Bring your own copy of the game.",
   notesEs: "Virtua Fighter 2: decompilación de celsowm para Windows. Aporta tu propia copia del juego.",
   cover: {

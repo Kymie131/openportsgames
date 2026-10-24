@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const boron853SoulsOfTheReaper: Port = {
+  schema: "port",
+  id: "boron853-souls-of-the-reaper",
+  title: "Diablo III",
+  game: "Diablo III",
+  developers: ["Boron853"],
+  publisher: "Blizzard Entertainment",
+  originalYear: 2012,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.3", date: "2026-07-25" },
+  sources: ["https://github.com/Boron853/Souls-of-the-Reaper"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Diablo III: source port by Boron853 for Windows. Bring your own copy of the game.",
+  notesEs: "Diablo III: source port de Boron853 para Windows. Aporta tu propia copia del juego.",
+};

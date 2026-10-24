@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const devCamoProjectLucid: Port = {
+  schema: "port",
+  id: "dev-camo-project-lucid",
+  title: "Sonic Dream Team",
+  game: "Sonic Dream Team",
+  developers: ["dev-camo"],
+  publisher: "Unknown",
+  originalYear: 2023,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/dev-camo/project-lucid"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Sonic Dream Team: decompilation by dev-camo for Windows, Linux, macOS. Bring your own copy of the game.",
+  notesEs: "Sonic Dream Team: decompilación de dev-camo para Windows, Linux, macOS. Aporta tu propia copia del juego.",
+};

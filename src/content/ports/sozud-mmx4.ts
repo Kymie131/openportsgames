@@ -21,7 +21,7 @@ export const sozudMmx4: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation"],
+  originalSystems: ["Unknown"],
   notes: "Mega Man X4: decompilation by sozud for Windows. Bring your own copy of the game.",
   notesEs: "Mega Man X4: decompilación de sozud para Windows. Aporta tu propia copia del juego.",
 };

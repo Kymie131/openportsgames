@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const paulie68000Zxspectrumchuckieegg: Port = {
+  schema: "port",
+  id: "paulie68000-zxspectrumchuckieegg",
+  title: "Chuckie Egg (Paul Hughes ZXSpectrumChuckieEgg)",
+  game: "Chuckie Egg",
+  developers: ["Paulie68000"],
+  publisher: "A&F Software",
+  originalYear: 1983,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Paulie68000/ZXSpectrumChuckieEgg"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Chuckie Egg: decompilation by Paulie68000 for Windows. Bring your own copy of the game.",
+  notesEs: "Chuckie Egg: decompilación de Paulie68000 para Windows. Aporta tu propia copia del juego.",
+};

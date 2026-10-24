@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const smokedoggy044Cod2BroNativeLoader: Port = {
+  schema: "port",
+  id: "smokedoggy044-cod2-bro-native-loader",
+  title: "Call of Duty 2: Big Red One",
+  game: "Call of Duty 2: Big Red One",
+  developers: ["SmokeDoggy044"],
+  publisher: "Unknown",
+  originalYear: 2005,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/SmokeDoggy044/CoD2-BRO-Native-Loader"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox"],
+  notes: "Call of Duty 2: Big Red One: source port by SmokeDoggy044 for Windows, Linux. Bring your own copy of the game.",
+  notesEs: "Call of Duty 2: Big Red One: source port de SmokeDoggy044 para Windows, Linux. Aporta tu propia copia del juego.",
+};

@@ -21,7 +21,7 @@ export const weigustavoReblue: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox 360"],
+  originalSystems: ["Unknown"],
   notes: "Blue Dragon: static recompilation by WeiGustavo for Windows. Bring your own copy of the game.",
   notesEs: "Blue Dragon: recompilación estática de WeiGustavo para Windows. Aporta tu propia copia del juego.",
 };

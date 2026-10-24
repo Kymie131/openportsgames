@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const akari1982QGearsReverse: Port = {
+  schema: "port",
+  id: "akari1982-q-gears-reverse",
+  title: "Final Fantasy VII (q-gears_reverse)",
+  game: "Final Fantasy VII",
+  developers: ["Akari1982"],
+  publisher: "Unknown",
+  originalYear: 2008,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Akari1982/q-gears_reverse"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  notes: "Final Fantasy VII: decompilation by Akari1982 for Windows. Bring your own copy of the game.",
+  notesEs: "Final Fantasy VII: decompilación de Akari1982 para Windows. Aporta tu propia copia del juego.",
+};

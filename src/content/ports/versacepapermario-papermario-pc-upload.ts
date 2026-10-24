@@ -21,7 +21,7 @@ export const versacepapermarioPapermarioPcUpload: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "Paper Mario: source port by versacepapermario for Windows. Bring your own copy of the game.",
   notesEs: "Paper Mario: source port de versacepapermario para Windows. Aporta tu propia copia del juego.",
   cover: {

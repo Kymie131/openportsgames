@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mstanPokemonredandbluerecomp: Port = {
+  schema: "port",
+  id: "mstan-pokemonredandbluerecomp",
+  title: "Pokémon Red and Blue (PokemonRedAndBlueRecomp)",
+  game: "Pokémon Red and Blue",
+  developers: ["mstan"],
+  publisher: "Nintendo",
+  originalYear: 1998,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.1", date: "2026-05-07" },
+  sources: ["https://github.com/mstan/PokemonRedAndBlueRecomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Game Boy / Game Boy Color"],
+  notes: "Pokémon Red and Blue: static recompilation by mstan for Windows. Bring your own copy of the game.",
+  notesEs: "Pokémon Red and Blue: recompilación estática de mstan para Windows. Aporta tu propia copia del juego.",
+};

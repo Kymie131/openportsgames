@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const opensagadevSaga: Port = {
+  schema: "port",
+  id: "opensagadev-saga",
+  title: "Lego Star Wars: The Complete Saga",
+  game: "Lego Star Wars: The Complete Saga",
+  developers: ["opensagadev"],
+  publisher: "Lucasfilm Games",
+  originalYear: 2007,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/opensagadev/saga"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Lego Star Wars: The Complete Saga: decompilation by opensagadev for Windows. Bring your own copy of the game.",
+  notesEs: "Lego Star Wars: The Complete Saga: decompilación de opensagadev para Windows. Aporta tu propia copia del juego.",
+};

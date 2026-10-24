@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const zlatkokSwosPort: Port = {
+  schema: "port",
+  id: "zlatkok-swos-port",
+  title: "Sensible World of Soccer 96/97 (swos-port)",
+  game: "Sensible World of Soccer 96/97",
+  developers: ["zlatkok"],
+  publisher: "Unknown",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.99.2026", date: "2026-09-06" },
+  sources: ["https://github.com/zlatkok/swos-port"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Sensible World of Soccer 96/97: source port by zlatkok for Windows. Bring your own copy of the game.",
+  notesEs: "Sensible World of Soccer 96/97: source port de zlatkok para Windows. Aporta tu propia copia del juego.",
+};

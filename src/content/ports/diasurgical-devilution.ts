@@ -21,7 +21,7 @@ export const diasurgicalDevilution: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Diablo: engine remake by diasurgical for Windows. Bring your own copy of the game.",
   notesEs: "Diablo: recreación de motor de diasurgical para Windows. Aporta tu propia copia del juego.",
 };

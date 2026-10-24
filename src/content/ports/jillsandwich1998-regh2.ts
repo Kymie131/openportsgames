@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jillsandwich1998Regh2: Port = {
+  schema: "port",
+  id: "jillsandwich1998-regh2",
+  title: "Guitar Hero II (reGH2)",
+  game: "Guitar Hero II",
+  developers: ["jillsandwich1998"],
+  publisher: "Unknown",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "music",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/jillsandwich1998/reGH2"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  notes: "Guitar Hero II: static recompilation by jillsandwich1998 for Windows. Bring your own copy of the game.",
+  notesEs: "Guitar Hero II: recompilación estática de jillsandwich1998 para Windows. Aporta tu propia copia del juego.",
+};

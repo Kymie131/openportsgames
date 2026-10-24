@@ -20,7 +20,7 @@ export const gamefloristDunedynasty: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["MS-DOS"],
+  originalSystems: ["Unknown"],
   notes: "Dune II: source port by gameflorist for Windows. Bring your own copy of the game.",
   notesEs: "Dune II: source port de gameflorist para Windows. Aporta tu propia copia del juego.",
 };

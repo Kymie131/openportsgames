@@ -21,7 +21,7 @@ export const jevargReVirtuaCop2: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Arcade"],
+  originalSystems: ["Unknown"],
   notes: "Virtua Cop 2: decompilation by jevarg for Windows. Bring your own copy of the game.",
   notesEs: "Virtua Cop 2: decompilación de jevarg para Windows. Aporta tu propia copia del juego.",
 };

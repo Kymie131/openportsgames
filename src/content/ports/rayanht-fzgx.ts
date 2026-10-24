@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rayanhtFzgx: Port = {
+  schema: "port",
+  id: "rayanht-fzgx",
+  title: "F-Zero GX (rayanht)",
+  game: "F-Zero GX",
+  developers: ["rayanht"],
+  publisher: "Nintendo",
+  originalYear: 2003,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/rayanht/fzgx"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  notes: "F-Zero GX: decompilation by rayanht for Windows. Bring your own copy of the game.",
+  notesEs: "F-Zero GX: decompilación de rayanht para Windows. Aporta tu propia copia del juego.",
+};

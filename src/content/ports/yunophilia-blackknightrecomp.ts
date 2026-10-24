@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const yunophiliaBlackknightrecomp: Port = {
+  schema: "port",
+  id: "yunophilia-blackknightrecomp",
+  title: "Sonic and the Black Knight",
+  game: "Sonic and the Black Knight",
+  developers: ["yunophilia"],
+  publisher: "Unknown",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-10-23" },
+  sources: ["https://github.com/yunophilia/BlackKnightRecomp"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Wii"],
+  notes: "Sonic and the Black Knight: static recompilation by yunophilia for Windows. Bring your own copy of the game.",
+  notesEs: "Sonic and the Black Knight: recompilación estática de yunophilia para Windows. Aporta tu propia copia del juego.",
+};

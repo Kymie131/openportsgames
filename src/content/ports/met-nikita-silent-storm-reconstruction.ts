@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const metNikitaSilentStormReconstruction: Port = {
+  schema: "port",
+  id: "met-nikita-silent-storm-reconstruction",
+  title: "Silent Storm (Silent Storm source reconstruction)",
+  game: "Silent Storm",
+  developers: ["met-nikita"],
+  publisher: "1C Company",
+  originalYear: 2003,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/met-nikita/Silent-Storm-Reconstruction"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Silent Storm: decompilation by met-nikita for Windows. Bring your own copy of the game.",
+  notesEs: "Silent Storm: decompilación de met-nikita para Windows. Aporta tu propia copia del juego.",
+};

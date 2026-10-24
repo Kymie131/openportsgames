@@ -21,7 +21,7 @@ export const ggdrnKhComVita: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Game Boy Advance"],
+  originalSystems: ["Unknown"],
   notes: "Kingdom Hearts: Chain of Memories: decompilation by ggdrn for Windows. Bring your own copy of the game.",
   notesEs: "Kingdom Hearts: Chain of Memories: decompilación de ggdrn para Windows. Aporta tu propia copia del juego.",
   cover: {

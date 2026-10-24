@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const oric212Bt2Recomp: Port = {
+  schema: "port",
+  id: "oric212-bt2-recomp",
+  title: "Dragon Ball Z: Budokai Tenkaichi 2 (BT2 Recomp)",
+  game: "Dragon Ball Z: Budokai Tenkaichi 2",
+  developers: ["oric212"],
+  publisher: "Bandai Namco Entertainment",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/oric212/BT2-Recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  notes: "Dragon Ball Z: Budokai Tenkaichi 2: static recompilation by oric212 for Windows. Bring your own copy of the game.",
+  notesEs: "Dragon Ball Z: Budokai Tenkaichi 2: recompilación estática de oric212 para Windows. Aporta tu propia copia del juego.",
+};

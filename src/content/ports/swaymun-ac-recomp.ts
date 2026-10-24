@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const swaymunAcRecomp: Port = {
+  schema: "port",
+  id: "swaymun-ac-recomp",
+  title: "Astral Chain (recomp, Mac: AC-Recomp)",
+  game: "Astral Chain",
+  developers: ["swaymun"],
+  publisher: "Nintendo",
+  originalYear: 2019,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/swaymun/AC-Recomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo Switch"],
+  notes: "Astral Chain: static recompilation by swaymun for Windows, macOS. Bring your own copy of the game.",
+  notesEs: "Astral Chain: recompilación estática de swaymun para Windows, macOS. Aporta tu propia copia del juego.",
+};

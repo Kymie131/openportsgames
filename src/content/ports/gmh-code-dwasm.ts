@@ -21,7 +21,7 @@ export const gmhCodeDwasm: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["MS-DOS"],
+  originalSystems: ["Unknown"],
   notes: "Doom: source port by GMH-Code for Windows. Bring your own copy of the game.",
   notesEs: "Doom: source port de GMH-Code para Windows. Aporta tu propia copia del juego.",
   cover: {

@@ -21,7 +21,7 @@ export const fable2recompBeanrecomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox 360"],
+  originalSystems: ["Unknown"],
   notes: "GoldenEye 007: static recompilation by Fable2Recomp for Windows. Bring your own copy of the game.",
   notesEs: "GoldenEye 007: recompilación estática de Fable2Recomp para Windows. Aporta tu propia copia del juego.",
   cover: {

@@ -21,7 +21,7 @@ export const andrewspodeInfernalMachineDecompPublic: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Indiana Jones and the Infernal Machine: decompilation by andrewspode for Windows. Bring your own copy of the game.",
   notesEs: "Indiana Jones and the Infernal Machine: decompilación de andrewspode para Windows. Aporta tu propia copia del juego.",
 };

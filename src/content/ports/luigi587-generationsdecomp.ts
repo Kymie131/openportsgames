@@ -21,7 +21,7 @@ export const luigi587Generationsdecomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Sonic Generations: decompilation by Luigi587 for Windows. Bring your own copy of the game.",
   notesEs: "Sonic Generations: decompilación de Luigi587 para Windows. Aporta tu propia copia del juego.",
   cover: {

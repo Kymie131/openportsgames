@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const zeldaretPh: Port = {
+  schema: "port",
+  id: "zeldaret-ph",
+  title: "The Legend of Zelda: Phantom Hourglass",
+  game: "The Legend of Zelda: Phantom Hourglass",
+  developers: ["zeldaret"],
+  publisher: "Nintendo",
+  originalYear: 2007,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/zeldaret/ph"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "The Legend of Zelda: Phantom Hourglass: decompilation by zeldaret for Windows. Bring your own copy of the game.",
+  notesEs: "The Legend of Zelda: Phantom Hourglass: decompilación de zeldaret para Windows. Aporta tu propia copia del juego.",
+};

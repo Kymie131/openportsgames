@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const p4dStuntsRestunts: Port = {
+  schema: "port",
+  id: "4d-stunts-restunts",
+  title: "Stunts (Restunts)",
+  game: "Stunts",
+  developers: ["4d-stunts"],
+  publisher: "Broderbund",
+  originalYear: 1990,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/4d-stunts/restunts"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Stunts: decompilation by 4d-stunts for Windows. Bring your own copy of the game.",
+  notesEs: "Stunts: decompilación de 4d-stunts para Windows. Aporta tu propia copia del juego.",
+};

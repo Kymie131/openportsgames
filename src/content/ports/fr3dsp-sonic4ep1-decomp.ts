@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const fr3dspSonic4ep1Decomp: Port = {
+  schema: "port",
+  id: "fr3dsp-sonic4ep1-decomp",
+  title: "Sonic the Hedgehog 4 (Ep 1)",
+  game: "Sonic the Hedgehog 4",
+  developers: ["fr3dsp"],
+  publisher: "Unknown",
+  originalYear: 1996,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/fr3dsp/Sonic4Ep1-Decomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Sonic the Hedgehog 4: decompilation by fr3dsp for Windows. Bring your own copy of the game.",
+  notesEs: "Sonic the Hedgehog 4: decompilación de fr3dsp para Windows. Aporta tu propia copia del juego.",
+};

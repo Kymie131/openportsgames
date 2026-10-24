@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const dr89TimeCrisisVr: Port = {
+  schema: "port",
+  id: "dr-89-time-crisis-vr",
+  title: "Time Crisis (Time Crisis VR)",
+  game: "Time Crisis",
+  developers: ["DR-89"],
+  publisher: "Namco",
+  originalYear: 1997,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.9.4", date: "2026-10-20" },
+  sources: ["https://github.com/DR-89/time-crisis-vr"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Arcade"],
+  notes: "Time Crisis: decompilation by DR-89 for Windows. Bring your own copy of the game.",
+  notesEs: "Time Crisis: decompilación de DR-89 para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jfryyReshadowtower: Port = {
+  schema: "port",
+  id: "jfryy-reshadowtower",
+  title: "Shadow Tower (reshadowtower)",
+  game: "Shadow Tower",
+  developers: ["JFryy"],
+  publisher: "Agetec",
+  originalYear: 1998,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.2.0", date: "2026-10-05" },
+  sources: ["https://github.com/JFryy/reshadowtower"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  notes: "Shadow Tower: static recompilation by JFryy for Windows. Bring your own copy of the game.",
+  notesEs: "Shadow Tower: recompilación estática de JFryy para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rumbleminzeDoubleDragonSnes: Port = {
+  schema: "port",
+  id: "rumbleminze-double-dragon-snes",
+  title: "Double Dragon (double-dragon-snes)",
+  game: "Double Dragon",
+  developers: ["rumbleminze"],
+  publisher: "Taito",
+  originalYear: 1987,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/rumbleminze/double-dragon-snes"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Arcade"],
+  notes: "Double Dragon: source port by rumbleminze for Windows. Bring your own copy of the game.",
+  notesEs: "Double Dragon: source port de rumbleminze para Windows. Aporta tu propia copia del juego.",
+};

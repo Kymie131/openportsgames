@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const crabscrab650SketchArmyoftwo40thdayRecomp: Port = {
+  schema: "port",
+  id: "crabscrab650-sketch-armyoftwo40thday-recomp",
+  title: "Army of Two: The 40th Day",
+  game: "Army of Two: The 40th Day",
+  developers: ["crabscrab650-sketch"],
+  publisher: "Electronic Arts",
+  originalYear: 2010,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/crabscrab650-sketch/ArmyOfTwo40thDay-Recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Army of Two: The 40th Day: static recompilation by crabscrab650-sketch for Windows. Bring your own copy of the game.",
+  notesEs: "Army of Two: The 40th Day: recompilación estática de crabscrab650-sketch para Windows. Aporta tu propia copia del juego.",
+};

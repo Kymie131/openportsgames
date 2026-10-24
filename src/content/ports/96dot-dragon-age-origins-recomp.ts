@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const p96dotDragonAgeOriginsRecomp: Port = {
+  schema: "port",
+  id: "96dot-dragon-age-origins-recomp",
+  title: "Dragon Age: Origins",
+  game: "Dragon Age: Origins",
+  developers: ["96dot"],
+  publisher: "Electronic Arts",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/96dot/Dragon-Age-Origins-Recomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Dragon Age: Origins: static recompilation by 96dot for Windows. Bring your own copy of the game.",
+  notesEs: "Dragon Age: Origins: recompilación estática de 96dot para Windows. Aporta tu propia copia del juego.",
+};

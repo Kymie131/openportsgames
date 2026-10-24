@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const greenswampdwellerTorchlightRekindled: Port = {
+  schema: "port",
+  id: "greenswampdweller-torchlight-rekindled",
+  title: "Torchlight (Torchlight Rekindled)",
+  game: "Torchlight",
+  developers: ["GreenSwampDweller"],
+  publisher: "Unknown",
+  originalYear: 2009,
+  portType: "reimplementation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-10-23" },
+  sources: ["https://github.com/GreenSwampDweller/torchlight-rekindled"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows", "Xbox 360"],
+  notes: "Torchlight: engine remake by GreenSwampDweller for Windows. Bring your own copy of the game.",
+  notesEs: "Torchlight: recreación de motor de GreenSwampDweller para Windows. Aporta tu propia copia del juego.",
+};

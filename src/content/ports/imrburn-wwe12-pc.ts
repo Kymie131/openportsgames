@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const imrburnWwe12Pc: Port = {
+  schema: "port",
+  id: "imrburn-wwe12-pc",
+  title: "WWE '12 (wwe12-pc)",
+  game: "WWE '12",
+  developers: ["iMrBurn"],
+  publisher: "THQ",
+  originalYear: 2011,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.9.0-beta", date: "2026-10-22" },
+  sources: ["https://github.com/iMrBurn/wwe12-pc"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "WWE '12: static recompilation by iMrBurn for Windows. Bring your own copy of the game.",
+  notesEs: "WWE '12: recompilación estática de iMrBurn para Windows. Aporta tu propia copia del juego.",
+};

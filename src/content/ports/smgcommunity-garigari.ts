@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const smgcommunityGarigari: Port = {
+  schema: "port",
+  id: "smgcommunity-garigari",
+  title: "Super Mario Galaxy 2",
+  game: "Super Mario Galaxy 2",
+  developers: ["SMGCommunity"],
+  publisher: "Nintendo",
+  originalYear: 2010,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/SMGCommunity/Garigari"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Wii"],
+  notes: "Super Mario Galaxy 2: decompilation by SMGCommunity for Windows. Bring your own copy of the game.",
+  notesEs: "Super Mario Galaxy 2: decompilación de SMGCommunity para Windows. Aporta tu propia copia del juego.",
+};

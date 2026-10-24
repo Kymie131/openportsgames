@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bifftannen1DeadSpace2Recomp: Port = {
+  schema: "port",
+  id: "bifftannen1-dead-space-2-recomp",
+  title: "Dead Space 2",
+  game: "Dead Space 2",
+  developers: ["bifftannen1"],
+  publisher: "Electronic Arts",
+  originalYear: 2011,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/bifftannen1/Dead-Space-2-Recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Dead Space 2: static recompilation by bifftannen1 for Windows. Bring your own copy of the game.",
+  notesEs: "Dead Space 2: recompilación estática de bifftannen1 para Windows. Aporta tu propia copia del juego.",
+};

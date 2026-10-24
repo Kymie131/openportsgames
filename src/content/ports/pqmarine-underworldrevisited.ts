@@ -20,7 +20,7 @@ export const pqmarineUnderworldrevisited: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["MS-DOS"],
+  originalSystems: ["Unknown"],
   notes: "Underworld Revisited: engine remake by PQMarine for Windows. Bring your own copy of the game.",
   notesEs: "Underworld Revisited: recreación de motor de PQMarine para Windows. Aporta tu propia copia del juego.",
 };

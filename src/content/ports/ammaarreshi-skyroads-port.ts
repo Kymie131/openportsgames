@@ -21,7 +21,7 @@ export const ammaarreshiSkyroadsPort: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["MS-DOS"],
+  originalSystems: ["Unknown"],
   notes: "SkyRoads (skyroads-port (1:1 C11)): source port by ammaarreshi for Windows, Linux, macOS. Bring your own copy of the game.",
   notesEs: "SkyRoads (skyroads-port (1:1 C11)): source port de ammaarreshi para Windows, Linux, macOS. Aporta tu propia copia del juego.",
 };

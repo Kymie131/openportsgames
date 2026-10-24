@@ -21,7 +21,7 @@ export const pwsqrdLynxSmb: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo Entertainment System"],
+  originalSystems: ["Unknown"],
   notes: "Super Mario Bros.: source port by pwsqrd for Windows. Bring your own copy of the game.",
   notesEs: "Super Mario Bros.: source port de pwsqrd para Windows. Aporta tu propia copia del juego.",
   cover: {

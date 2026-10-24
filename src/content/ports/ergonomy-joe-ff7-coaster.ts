@@ -21,7 +21,7 @@ export const ergonomyJoeFf7Coaster: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation"],
+  originalSystems: ["Unknown"],
   notes: "Final Fantasy VII: decompilation by ergonomy-joe for Windows. Bring your own copy of the game.",
   notesEs: "Final Fantasy VII: decompilación de ergonomy-joe para Windows. Aporta tu propia copia del juego.",
 };

@@ -21,7 +21,7 @@ export const sp00nznetSaintsrow: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox 360"],
+  originalSystems: ["Unknown"],
   notes: "Saints Row: static recompilation by sp00nznet for Windows. Bring your own copy of the game.",
   notesEs: "Saints Row: recompilación estática de sp00nznet para Windows. Aporta tu propia copia del juego.",
 };

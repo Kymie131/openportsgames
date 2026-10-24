@@ -20,7 +20,7 @@ export const teamBeefStudiosQuestzdoom: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["MS-DOS"],
+  originalSystems: ["Unknown"],
   notes: "Doom: source port by Team-Beef-Studios for Windows. Bring your own copy of the game.",
   notesEs: "Doom: source port de Team-Beef-Studios para Windows. Aporta tu propia copia del juego.",
   cover: {

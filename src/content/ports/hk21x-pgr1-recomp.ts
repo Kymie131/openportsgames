@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const hk21xPgr1Recomp: Port = {
+  schema: "port",
+  id: "hk21x-pgr1-recomp",
+  title: "Project Gotham Racing",
+  game: "Project Gotham Racing",
+  developers: ["hk21x"],
+  publisher: "Xbox Game Studios",
+  originalYear: 2001,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-10-23" },
+  sources: ["https://github.com/hk21x/pgr1-recomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox"],
+  notes: "Project Gotham Racing: static recompilation by hk21x for Windows. Bring your own copy of the game.",
+  notesEs: "Project Gotham Racing: recompilación estática de hk21x para Windows. Aporta tu propia copia del juego.",
+};

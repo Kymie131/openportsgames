@@ -21,7 +21,7 @@ export const vaboldMkw: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Wii"],
+  originalSystems: ["Unknown"],
   notes: "Mario Kart Wii: decompilation by vabold for Windows. Bring your own copy of the game.",
   notesEs: "Mario Kart Wii: decompilación de vabold para Windows. Aporta tu propia copia del juego.",
   cover: {

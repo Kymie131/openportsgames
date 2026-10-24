@@ -20,7 +20,7 @@ export const craigshawFzerorecomp: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Super Nintendo"],
+  originalSystems: ["Unknown"],
   notes: "F-Zero: static recompilation by craigshaw for Windows. Bring your own copy of the game.",
   notesEs: "F-Zero: recompilación estática de craigshaw para Windows. Aporta tu propia copia del juego.",
 };

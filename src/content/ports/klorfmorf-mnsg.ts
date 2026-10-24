@@ -21,7 +21,7 @@ export const klorfmorfMnsg: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "Mystical Ninja Starring Goemon: decompilation by klorfmorf for Windows. Bring your own copy of the game.",
   notesEs: "Mystical Ninja Starring Goemon: decompilación de klorfmorf para Windows. Aporta tu propia copia del juego.",
   cover: {

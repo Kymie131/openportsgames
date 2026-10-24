@@ -21,7 +21,7 @@ export const rapidsamphireAc6recomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox 360"],
+  originalSystems: ["Unknown"],
   notes: "Ace Combat 6: Fires of Liberation: static recompilation by rapidsamphire for Windows. Bring your own copy of the game.",
   notesEs: "Ace Combat 6: Fires of Liberation: recompilación estática de rapidsamphire para Windows. Aporta tu propia copia del juego.",
 };

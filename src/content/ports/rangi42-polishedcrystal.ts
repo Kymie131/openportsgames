@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rangi42Polishedcrystal: Port = {
+  schema: "port",
+  id: "rangi42-polishedcrystal",
+  title: "Pokémon Gold and Silver (Pokémon Polished Crystal)",
+  game: "Pokémon Gold and Silver",
+  developers: ["Rangi42"],
+  publisher: "Nintendo",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "3.2.3", date: "2025-12-12" },
+  sources: ["https://github.com/Rangi42/polishedcrystal"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Game Boy / Game Boy Color"],
+  notes: "Pokémon Gold and Silver: decompilation by Rangi42 for Windows. Bring your own copy of the game.",
+  notesEs: "Pokémon Gold and Silver: decompilación de Rangi42 para Windows. Aporta tu propia copia del juego.",
+};

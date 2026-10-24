@@ -21,7 +21,7 @@ export const bruderGrimmAnimalForestPsp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "Animal Forest: source port by bruder-grimm for Windows. Bring your own copy of the game.",
   notesEs: "Animal Forest: source port de bruder-grimm para Windows. Aporta tu propia copia del juego.",
 };

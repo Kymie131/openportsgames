@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const thefixinhixonUltracombo: Port = {
+  schema: "port",
+  id: "thefixinhixon-ultracombo",
+  title: "Killer Instinct",
+  game: "Killer Instinct",
+  developers: ["thefixinhixon"],
+  publisher: "Midway Games",
+  originalYear: 1994,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/thefixinhixon/UltraCombo"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Arcade"],
+  notes: "Killer Instinct: static recompilation by thefixinhixon for Windows. Bring your own copy of the game.",
+  notesEs: "Killer Instinct: recompilación estática de thefixinhixon para Windows. Aporta tu propia copia del juego.",
+};

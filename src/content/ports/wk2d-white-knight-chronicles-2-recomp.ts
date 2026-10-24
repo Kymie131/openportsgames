@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const wk2dWhiteKnightChronicles2Recomp: Port = {
+  schema: "port",
+  id: "wk2d-white-knight-chronicles-2-recomp",
+  title: "White Knight Chronicles II (White Knight Chronicles II Recomp)",
+  game: "White Knight Chronicles II",
+  developers: ["WK2D"],
+  publisher: "Sony Interactive Entertainment",
+  originalYear: 2010,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/WK2D/White-Knight-Chronicles-2-Recomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 3"],
+  notes: "White Knight Chronicles II: static recompilation by WK2D for Windows. Bring your own copy of the game.",
+  notesEs: "White Knight Chronicles II: recompilación estática de WK2D para Windows. Aporta tu propia copia del juego.",
+};

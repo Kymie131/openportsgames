@@ -20,7 +20,7 @@ export const mrFinsterVf3Recomp: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Arcade"],
+  originalSystems: ["Unknown"],
   notes: "Virtua Fighter 3: static recompilation by mr-finster for Windows, macOS. Bring your own copy of the game.",
   notesEs: "Virtua Fighter 3: recompilación estática de mr-finster para Windows, macOS. Aporta tu propia copia del juego.",
 };

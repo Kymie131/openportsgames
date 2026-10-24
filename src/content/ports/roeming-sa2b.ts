@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const roemingSa2b: Port = {
+  schema: "port",
+  id: "roeming-sa2b",
+  title: "Sonic Adventure 2: Battle",
+  game: "Sonic Adventure 2: Battle",
+  developers: ["roeming"],
+  publisher: "Unknown",
+  originalYear: 2002,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/roeming/SA2B"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  notes: "Sonic Adventure 2: Battle: decompilation by roeming for Windows. Bring your own copy of the game.",
+  notesEs: "Sonic Adventure 2: Battle: decompilación de roeming para Windows. Aporta tu propia copia del juego.",
+};

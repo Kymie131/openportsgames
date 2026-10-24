@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sal063AceCombat3StaticRecompilation: Port = {
+  schema: "port",
+  id: "sal063-ace-combat-3-static-recompilation",
+  title: "Ace Combat 3",
+  game: "Ace Combat 3",
+  developers: ["sal063"],
+  publisher: "Namco",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.5-BETA", date: "2026-10-02" },
+  sources: ["https://github.com/sal063/Ace-Combat-3-static-recompilation"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  notes: "Ace Combat 3: static recompilation by sal063 for Windows. Bring your own copy of the game.",
+  notesEs: "Ace Combat 3: recompilación estática de sal063 para Windows. Aporta tu propia copia del juego.",
+};

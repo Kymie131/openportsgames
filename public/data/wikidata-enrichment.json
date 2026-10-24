@@ -1,0 +1,2072 @@
+{
+  "https://github.com/opensro-dev/opensro": {
+    "year": 2004,
+    "publisher": "Yahoo! Korea",
+    "genres": [
+      "massively multiplayer online role-playing game"
+    ],
+    "wikidata": "Q509269"
+  },
+  "https://q3js.com": {
+    "year": 1999,
+    "publisher": null,
+    "genres": [
+      "first-person shooter",
+      "arena shooter"
+    ],
+    "wikidata": "Q726545"
+  },
+  "https://ovz-game-production.up.railway.app": {
+    "year": 2009,
+    "publisher": null,
+    "genres": [
+      "first-person shooter"
+    ],
+    "wikidata": "Q486351"
+  },
+  "https://generals.wasm.ltd": {
+    "year": 2003,
+    "publisher": "Electronic Arts",
+    "genres": [
+      "real-time strategy"
+    ],
+    "wikidata": "Q1069497"
+  },
+  "https://chronodivide.com": {
+    "year": 2000,
+    "publisher": "Electronic Arts",
+    "genres": [
+      "real-time strategy"
+    ],
+    "wikidata": "Q684904"
+  },
+  "https://johnimril.github.io/diablo_web": {
+    "year": 2006,
+    "publisher": "Blizzard Entertainment",
+    "genres": [
+      "action role-playing game",
+      "dungeon crawl"
+    ],
+    "wikidata": "Q44165"
+  },
+  "https://fifastreet2.fun": {
+    "year": 2006,
+    "publisher": "EA Sports",
+    "genres": [
+      "association football video game"
+    ],
+    "wikidata": "Q592758"
+  },
+  "https://goldenweb64.com": {
+    "year": 2010,
+    "publisher": null,
+    "genres": [
+      "first-person shooter"
+    ],
+    "wikidata": "Q2708114"
+  },
+  "https://wasmarcade.com/gta3": {
+    "year": 2001,
+    "publisher": null,
+    "genres": [
+      "action-adventure game"
+    ],
+    "wikidata": "Q149106"
+  },
+  "https://joncodeofficial.github.io/gta-vice-city-wasm": {
+    "year": 2002,
+    "publisher": null,
+    "genres": [
+      "action-adventure game"
+    ],
+    "wikidata": "Q94671"
+  },
+  "https://pixelsuft.github.io/hl": {
+    "year": 1998,
+    "publisher": null,
+    "genres": [
+      "first-person shooter",
+      "science fiction video game"
+    ],
+    "wikidata": "Q279744"
+  },
+  "https://mitchellhynes.com/halo/halo.html": {
+    "year": 2001,
+    "publisher": "Xbox Game Studios",
+    "genres": [
+      "first-person shooter"
+    ],
+    "wikidata": "Q276217"
+  },
+  "https://hp2.mihaimateias.com": {
+    "year": 2002,
+    "publisher": "Electronic Arts",
+    "genres": [
+      "action-adventure game"
+    ],
+    "wikidata": "Q726167"
+  },
+  "https://replicom.dev": {
+    "year": 2004,
+    "publisher": "Square Enix",
+    "genres": [
+      "action role-playing game",
+      "crossover fiction",
+      "card battle video game"
+    ],
+    "wikidata": "Q843205"
+  },
+  "https://isle.pizza": {
+    "year": 1997,
+    "publisher": "Mindscape",
+    "genres": [
+      "action-adventure game"
+    ],
+    "wikidata": "Q4992301"
+  },
+  "https://nfsu2.xyz": {
+    "year": 2004,
+    "publisher": "Electronic Arts",
+    "genres": [
+      "racing video game"
+    ],
+    "wikidata": "Q726190"
+  },
+  "https://pes6.optijuegos.net": {
+    "year": 2006,
+    "publisher": "Konami",
+    "genres": [
+      "association football video game"
+    ],
+    "wikidata": "Q739125"
+  },
+  "https://q2.pieter.com": {
+    "year": 1997,
+    "publisher": null,
+    "genres": [
+      "first-person shooter",
+      "science fiction video game"
+    ],
+    "wikidata": "Q737103"
+  },
+  "https://q3.pieter.com": {
+    "year": 1999,
+    "publisher": null,
+    "genres": [
+      "first-person shooter",
+      "arena shooter"
+    ],
+    "wikidata": "Q726545"
+  },
+  "https://q1.pieter.com": {
+    "year": 1996,
+    "publisher": null,
+    "genres": [
+      "first-person shooter"
+    ],
+    "wikidata": "Q2666191"
+  },
+  "https://rtcw.pieter.com": {
+    "year": 2001,
+    "publisher": null,
+    "genres": [
+      "first-person shooter",
+      "action game"
+    ],
+    "wikidata": "Q748317"
+  },
+  "https://runescapeclassic.gold": {
+    "year": 2001,
+    "publisher": null,
+    "genres": [
+      "massively multiplayer online role-playing game"
+    ],
+    "wikidata": "Q12333960"
+  },
+  "https://skate.aaddpp.lol": {
+    "year": 2010,
+    "publisher": "Electronic Arts",
+    "genres": [
+      "skateboarding video game"
+    ],
+    "wikidata": "Q1653694"
+  },
+  "https://jk.q3js.com": {
+    "year": 2003,
+    "publisher": "Lucasfilm Games",
+    "genres": [
+      "first-person shooter"
+    ],
+    "wikidata": "Q55295"
+  },
+  "https://tf2.riddy.workers.dev": {
+    "year": 2007,
+    "publisher": "Valve Corporation",
+    "genres": [
+      "first-person shooter"
+    ],
+    "wikidata": "Q382108"
+  },
+  "https://tkdr-recomp.pages.dev": {
+    "year": 2006,
+    "publisher": "Bandai Namco Entertainment",
+    "genres": [
+      "3D fighting game"
+    ],
+    "wikidata": "Q2290448"
+  },
+  "https://playnolf.com": {
+    "year": 2000,
+    "publisher": null,
+    "genres": [
+      "first-person shooter"
+    ],
+    "wikidata": "Q936968"
+  },
+  "https://shar-wasm.cjoseph.workers.dev/?skipmovie": {
+    "year": 2003,
+    "publisher": null,
+    "genres": [
+      "action-adventure game"
+    ],
+    "wikidata": "Q836690"
+  },
+  "https://ut.pieter.com": {
+    "year": 2000,
+    "publisher": null,
+    "genres": [
+      "first-person shooter"
+    ],
+    "wikidata": "Q1165046"
+  },
+  "https://github.com/diasurgical/DevilutionX": {
+    "year": 2006,
+    "publisher": "Blizzard Entertainment",
+    "genres": [
+      "action role-playing game",
+      "dungeon crawl"
+    ],
+    "wikidata": "Q44165"
+  },
+  "https://github.com/ClassiCube/ClassiCube": {
+    "year": 2013,
+    "publisher": null,
+    "genres": [
+      "sandbox game"
+    ],
+    "wikidata": "Q138341511"
+  },
+  "https://github.com/EXOK/Celeste64": {
+    "year": 2024,
+    "publisher": null,
+    "genres": [
+      "3D platform game"
+    ],
+    "wikidata": "Q124380466"
+  },
+  "https://github.com/Rangi42/polishedcrystal": {
+    "year": 1999,
+    "publisher": "Nintendo",
+    "genres": [
+      "role-playing video game"
+    ],
+    "wikidata": "Q837346"
+  },
+  "https://github.com/jorio/Bugdom": {
+    "year": 1999,
+    "publisher": null,
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q4986149"
+  },
+  "https://github.com/TheXTech/TheXTech": {
+    "year": 2009,
+    "publisher": null,
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q30894067"
+  },
+  "https://github.com/markmoxon/elite-source-code-nes": {
+    "year": 2013,
+    "publisher": null,
+    "genres": [
+      "metalcore"
+    ],
+    "wikidata": "Q17112918"
+  },
+  "https://github.com/Apolinario-coder/SkyRecomp": {
+    "year": 2021,
+    "publisher": "Nintendo",
+    "genres": [
+      "action-adventure game"
+    ],
+    "wikidata": "Q105560569"
+  },
+  "https://github.com/whompay/inFAMOUSreborn": {
+    "year": 2009,
+    "publisher": "Sony Interactive Entertainment",
+    "genres": [
+      "action-adventure game",
+      "science fiction video game"
+    ],
+    "wikidata": "Q1346174"
+  },
+  "https://github.com/MisaDev4/bo1-zombies-decompiled": {
+    "year": 2010,
+    "publisher": null,
+    "genres": [
+      "first-person shooter"
+    ],
+    "wikidata": "Q127273282"
+  },
+  "https://github.com/lesca-191204/killzone-shadowfall-pc": {
+    "year": 2013,
+    "publisher": "Sony Interactive Entertainment",
+    "genres": [
+      "first-person shooter",
+      "cyberpunk video game",
+      "science fiction video game"
+    ],
+    "wikidata": "Q5087859"
+  },
+  "https://github.com/ammaarreshi/SkyRoads-Codex": {
+    "year": 1993,
+    "publisher": "Creative Dimensions",
+    "genres": [
+      "racing video game",
+      "Christmas video game"
+    ],
+    "wikidata": "Q1636289"
+  },
+  "https://github.com/jorio/OttoMatic": {
+    "year": 2001,
+    "publisher": "Aspyr",
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q3357828"
+  },
+  "https://github.com/dannye/pokered-gbc": {
+    "year": 1998,
+    "publisher": "Nintendo",
+    "genres": [
+      "role-playing video game"
+    ],
+    "wikidata": "Q637137"
+  },
+  "https://github.com/Xeeynamo/ff7-decomp": {
+    "year": 1997,
+    "publisher": "Square",
+    "genres": [
+      "role-playing video game",
+      "cyberpunk video game"
+    ],
+    "wikidata": "Q214232"
+  },
+  "https://github.com/jorio/CroMagRally": {
+    "year": 2008,
+    "publisher": null,
+    "genres": [
+      "racing video game"
+    ],
+    "wikidata": "Q5187007"
+  },
+  "https://github.com/halkuncode/Raiders2600": {
+    "year": 1982,
+    "publisher": "Atari, Inc.",
+    "genres": [
+      "action-adventure game"
+    ],
+    "wikidata": "Q2100878"
+  },
+  "https://github.com/draxinar/ouo": {
+    "year": 1997,
+    "publisher": "Electronic Arts",
+    "genres": [
+      "massively multiplayer online role-playing game"
+    ],
+    "wikidata": "Q1043550"
+  },
+  "https://github.com/smm2recomp/smm2recomp": {
+    "year": 2019,
+    "publisher": "Nintendo",
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q61831178"
+  },
+  "https://github.com/dashr9230/SA-MP": {
+    "year": 2006,
+    "publisher": null,
+    "genres": [
+      "third-person shooter"
+    ],
+    "wikidata": "Q2995713"
+  },
+  "https://github.com/doldecomp/ttyd": {
+    "year": 2004,
+    "publisher": "Nintendo",
+    "genres": [
+      "role-playing video game",
+      "video game with LGBT character"
+    ],
+    "wikidata": "Q1075255"
+  },
+  "https://github.com/zeldaret/ph": {
+    "year": 2007,
+    "publisher": "Nintendo",
+    "genres": [
+      "action-adventure game",
+      "post-apocalyptic video game"
+    ],
+    "wikidata": "Q657710"
+  },
+  "https://github.com/ethteck/pokemonsnap": {
+    "year": 1999,
+    "publisher": "Nintendo",
+    "genres": [
+      "photography game",
+      "rail shooter"
+    ],
+    "wikidata": "Q1705294"
+  },
+  "https://github.com/inspectredc/fzerox": {
+    "year": 1998,
+    "publisher": "Nintendo",
+    "genres": [
+      "racing video game"
+    ],
+    "wikidata": "Q2609497"
+  },
+  "https://github.com/PromethenDev/wwe13-recomp": {
+    "year": 2012,
+    "publisher": "THQ",
+    "genres": [
+      "professional wrestling video game"
+    ],
+    "wikidata": "Q1339155"
+  },
+  "https://github.com/doldecomp/brawl": {
+    "year": 2008,
+    "publisher": "Nintendo",
+    "genres": [
+      "platform fighter",
+      "crossover fiction"
+    ],
+    "wikidata": "Q843131"
+  },
+  "https://github.com/TheMoonPeople/Chronicle": {
+    "year": 2000,
+    "publisher": "Sony Interactive Entertainment",
+    "genres": [
+      "action role-playing game"
+    ],
+    "wikidata": "Q1166169"
+  },
+  "https://github.com/0herculabs/hl360-Forza2": {
+    "year": 2007,
+    "publisher": "Xbox Game Studios",
+    "genres": [
+      "sim racing"
+    ],
+    "wikidata": "Q693592"
+  },
+  "https://github.com/0herculabs/hl360-forza3": {
+    "year": 2009,
+    "publisher": "Xbox Game Studios",
+    "genres": [
+      "sim racing"
+    ],
+    "wikidata": "Q843456"
+  },
+  "https://github.com/linkssy2/DarkwatchDarkerEdition": {
+    "year": 2005,
+    "publisher": "Capcom",
+    "genres": [
+      "first-person shooter",
+      "third-person shooter",
+      "vampire video game"
+    ],
+    "wikidata": "Q2741916"
+  },
+  "https://github.com/femloy/OpenTower": {
+    "year": 2023,
+    "publisher": "Tour De Pizza",
+    "genres": [
+      "2D platform game",
+      "comedy video game",
+      "action game"
+    ],
+    "wikidata": "Q116590057"
+  },
+  "https://github.com/SMGCommunity/Garigari": {
+    "year": 2010,
+    "publisher": "Nintendo",
+    "genres": [
+      "3D platform game"
+    ],
+    "wikidata": "Q854487"
+  },
+  "https://github.com/StraDaMa/PoN_PC": {
+    "year": 2004,
+    "publisher": "Capcom",
+    "genres": [
+      "real-time tactics",
+      "tactical role-playing game"
+    ],
+    "wikidata": "Q7355503"
+  },
+  "https://github.com/DR-89/time-crisis-vr": {
+    "year": 1997,
+    "publisher": "Namco",
+    "genres": [
+      "shoot 'em up"
+    ],
+    "wikidata": "Q2006613"
+  },
+  "https://github.com/sean-gugler/u4remasteredA2": {
+    "year": 1985,
+    "publisher": "Pony Canyon",
+    "genres": [
+      "role-playing video game"
+    ],
+    "wikidata": "Q541988"
+  },
+  "https://github.com/metroidret/mf": {
+    "year": 2002,
+    "publisher": "Nintendo",
+    "genres": [
+      "Metroidvania"
+    ],
+    "wikidata": "Q2478949"
+  },
+  "https://github.com/opensagadev/saga": {
+    "year": 2007,
+    "publisher": "Lucasfilm Games",
+    "genres": [
+      "action-adventure game"
+    ],
+    "wikidata": "Q55214"
+  },
+  "https://github.com/Drahsid/mischief-makers": {
+    "year": 1997,
+    "publisher": "Enix",
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q3089600"
+  },
+  "https://github.com/jorio/Bugdom2": {
+    "year": 1999,
+    "publisher": "Pangea Software",
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q4986151"
+  },
+  "https://github.com/zeldaret/st": {
+    "year": 2009,
+    "publisher": "Nintendo",
+    "genres": [
+      "action-adventure game"
+    ],
+    "wikidata": "Q868545"
+  },
+  "https://github.com/levy-street/pokemon-claude-red": {
+    "year": 1998,
+    "publisher": "Nintendo",
+    "genres": [
+      "role-playing video game"
+    ],
+    "wikidata": "Q637137"
+  },
+  "https://github.com/ChunchunQ/fifa09-recomp": {
+    "year": 2008,
+    "publisher": "EA Sports",
+    "genres": [
+      "association football video game"
+    ],
+    "wikidata": "Q719740"
+  },
+  "https://github.com/NSMB-Decomp/nsmb": {
+    "year": 2006,
+    "publisher": "Nintendo",
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q301555"
+  },
+  "https://github.com/riseio/TWIPE_00Sheven": {
+    "year": 1999,
+    "publisher": null,
+    "genres": [
+      "spy film",
+      "action film"
+    ],
+    "wikidata": "Q212145"
+  },
+  "https://github.com/TK22-26/JetForceGemini-Recomp": {
+    "year": 1999,
+    "publisher": "Rare Ltd.",
+    "genres": [
+      "third-person shooter"
+    ],
+    "wikidata": "Q1688483"
+  },
+  "https://github.com/sonsegajp/HWDER": {
+    "year": 2018,
+    "publisher": "Nintendo",
+    "genres": [
+      "hack and slash",
+      "action game"
+    ],
+    "wikidata": "Q63972445"
+  },
+  "https://github.com/YYOzcan/tokisaki-port": {
+    "year": 2009,
+    "publisher": "Sony Interactive Entertainment",
+    "genres": [
+      "first-person shooter",
+      "science fiction video game",
+      "action game"
+    ],
+    "wikidata": "Q608954"
+  },
+  "https://github.com/smartblade/BldMystery": {
+    "year": 2001,
+    "publisher": "Codemasters",
+    "genres": [
+      "action-adventure game",
+      "role-playing video game"
+    ],
+    "wikidata": "Q733711"
+  },
+  "https://github.com/SirSymo/SM2-Recomp": {
+    "year": 2004,
+    "publisher": null,
+    "genres": [
+      "action film",
+      "thriller film",
+      "superhero film"
+    ],
+    "wikidata": "Q190145"
+  },
+  "https://github.com/watsonmw/fe2-intro": {
+    "year": 1993,
+    "publisher": "GameTek",
+    "genres": [
+      "space flight simulation game",
+      "action game",
+      "space trading and combat game"
+    ],
+    "wikidata": "Q1470234"
+  },
+  "https://github.com/iMrBurn/wwe12-pc": {
+    "year": 2011,
+    "publisher": "THQ",
+    "genres": [
+      "professional wrestling video game"
+    ],
+    "wikidata": "Q1191816"
+  },
+  "https://github.com/Nycolazs/ACNHRecomp": {
+    "year": 2020,
+    "publisher": "Nintendo",
+    "genres": [
+      "life simulation game"
+    ],
+    "wikidata": "Q64566657"
+  },
+  "https://github.com/Puddz/AstralChain-PC": {
+    "year": 2019,
+    "publisher": "Nintendo",
+    "genres": [
+      "action game",
+      "action-adventure game",
+      "hack and slash"
+    ],
+    "wikidata": "Q61727129"
+  },
+  "https://github.com/aboood40091/red-pro2": {
+    "year": 2012,
+    "publisher": "Nintendo",
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q1506526"
+  },
+  "https://github.com/RushRE/SonicRushAdventure-Decomp": {
+    "year": 2007,
+    "publisher": null,
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q2444897"
+  },
+  "https://github.com/dothacktranslate/dothack-recompilation": {
+    "year": 2002,
+    "publisher": "Bandai",
+    "genres": [
+      "action role-playing game",
+      "science fiction video game"
+    ],
+    "wikidata": "Q2715810"
+  },
+  "https://github.com/jellees/bkgr": {
+    "year": 2003,
+    "publisher": "THQ",
+    "genres": [
+      "platform game",
+      "isometric platformer"
+    ],
+    "wikidata": "Q806590"
+  },
+  "https://github.com/asiekierka/reconstruction-of-super-zzt": {
+    "year": 1992,
+    "publisher": null,
+    "genres": [
+      "maze video game"
+    ],
+    "wikidata": "Q16259353"
+  },
+  "https://github.com/2Tie/mh1j": {
+    "year": 2020,
+    "publisher": null,
+    "genres": [
+      "fantasy film",
+      "action film",
+      "adventure film"
+    ],
+    "wikidata": "Q56906869"
+  },
+  "https://github.com/ibrahimpuri/inFamous-PC-Enhanced": {
+    "year": 2009,
+    "publisher": "Sony Interactive Entertainment",
+    "genres": [
+      "action-adventure game",
+      "science fiction video game"
+    ],
+    "wikidata": "Q1346174"
+  },
+  "https://github.com/benbaker76/OpenSWOS": {
+    "year": 1996,
+    "publisher": null,
+    "genres": [
+      "sports video game",
+      "association football video game"
+    ],
+    "wikidata": "Q2555808"
+  },
+  "https://github.com/Erick194/PSXFINALDOOM-RE": {
+    "year": 1996,
+    "publisher": "Atari, Inc.",
+    "genres": [
+      "first-person shooter"
+    ],
+    "wikidata": "Q1088780"
+  },
+  "https://github.com/koenhendriks/SSX3-recomp": {
+    "year": 2003,
+    "publisher": "EA Sports Big",
+    "genres": [
+      "racing video game"
+    ],
+    "wikidata": "Q3460038"
+  },
+  "https://github.com/Boron853/Souls-of-the-Reaper": {
+    "year": 2012,
+    "publisher": "Blizzard Entertainment",
+    "genres": [
+      "action role-playing game",
+      "dungeon crawl",
+      "hack and slash"
+    ],
+    "wikidata": "Q244030"
+  },
+  "https://github.com/OZORDI/SanRecomp": {
+    "year": 2013,
+    "publisher": null,
+    "genres": [
+      "action-adventure game",
+      "first-person shooter",
+      "third-person shooter"
+    ],
+    "wikidata": "Q17452"
+  },
+  "https://github.com/hk21x/pgr2-recomp": {
+    "year": 2003,
+    "publisher": "Xbox Game Studios",
+    "genres": [
+      "racing video game"
+    ],
+    "wikidata": "Q3175136"
+  },
+  "https://github.com/zlatkok/swos-port": {
+    "year": 1996,
+    "publisher": null,
+    "genres": [
+      "sports video game",
+      "association football video game"
+    ],
+    "wikidata": "Q2555808"
+  },
+  "https://github.com/coalslav/hmbtn-decomp": {
+    "year": 1999,
+    "publisher": "Winning Entertainment Group",
+    "genres": [
+      "life simulation game"
+    ],
+    "wikidata": "Q2298157"
+  },
+  "https://github.com/zer0ducksgiven/Forza-Motorsport-2-ReGPU": {
+    "year": 2007,
+    "publisher": "Xbox Game Studios",
+    "genres": [
+      "sim racing"
+    ],
+    "wikidata": "Q693592"
+  },
+  "https://github.com/SmokeDoggy044/CoD2-BRO-Native-Loader": {
+    "year": 2005,
+    "publisher": null,
+    "genres": [
+      "first-person shooter"
+    ],
+    "wikidata": "Q784143"
+  },
+  "https://github.com/GreenSwampDweller/torchlight-rekindled": {
+    "year": 2009,
+    "publisher": null,
+    "genres": [
+      "action role-playing game",
+      "role-playing video game"
+    ],
+    "wikidata": "Q201792"
+  },
+  "https://github.com/TheMoonPeople/ChronicleTwo": {
+    "year": 2002,
+    "publisher": "Sony Interactive Entertainment",
+    "genres": [
+      "action role-playing game"
+    ],
+    "wikidata": "Q1166163"
+  },
+  "https://github.com/vetusmagnus/rac3-uya-decomp": {
+    "year": 2004,
+    "publisher": "Sony Interactive Entertainment",
+    "genres": [
+      "platform game",
+      "third-person shooter"
+    ],
+    "wikidata": "Q2292483"
+  },
+  "https://github.com/LagoLunatic/ooe": {
+    "year": 2008,
+    "publisher": "Konami",
+    "genres": [
+      "Metroidvania"
+    ],
+    "wikidata": "Q2452886"
+  },
+  "https://github.com/Spicywonda/castlevania-chronicles-recomp": {
+    "year": 1993,
+    "publisher": "Konami",
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q617303"
+  },
+  "https://github.com/RossyDoubleUnderscore/ICO-decomp": {
+    "year": 2001,
+    "publisher": "Sony Interactive Entertainment",
+    "genres": [
+      "action-adventure game"
+    ],
+    "wikidata": "Q1324448"
+  },
+  "https://github.com/LLONSIT/AeroGauge": {
+    "year": 1997,
+    "publisher": "ASCII Corporation",
+    "genres": [
+      "racing video game"
+    ],
+    "wikidata": "Q668397"
+  },
+  "https://github.com/kholdfuzion/beanRecomp": {
+    "year": 2010,
+    "publisher": null,
+    "genres": [
+      "first-person shooter"
+    ],
+    "wikidata": "Q2708114"
+  },
+  "https://github.com/Mango77x/MHForever": {
+    "year": 2008,
+    "publisher": "Capcom",
+    "genres": [
+      "action role-playing game",
+      "role-playing video game"
+    ],
+    "wikidata": "Q378928"
+  },
+  "https://github.com/laureladastra/mcdub3-nx": {
+    "year": 2005,
+    "publisher": null,
+    "genres": [
+      "racing video game"
+    ],
+    "wikidata": "Q783839"
+  },
+  "https://github.com/wootbeer/snprecomp": {
+    "year": 2000,
+    "publisher": "Nintendo",
+    "genres": [
+      "shoot 'em up",
+      "science fiction video game",
+      "rail shooter"
+    ],
+    "wikidata": "Q3099600"
+  },
+  "https://github.com/ClickingMaster/pokeheartgold-single-screen": {
+    "year": 2009,
+    "publisher": "Nintendo",
+    "genres": [
+      "role-playing video game"
+    ],
+    "wikidata": "Q50277132"
+  },
+  "https://github.com/ergonomy-joe/ff7-worldmap": {
+    "year": 1997,
+    "publisher": "Square",
+    "genres": [
+      "role-playing video game",
+      "cyberpunk video game"
+    ],
+    "wikidata": "Q214232"
+  },
+  "https://github.com/AKI-Club/vpw2": {
+    "year": 2000,
+    "publisher": "Asmik Ace Entertainment",
+    "genres": [
+      "professional wrestling video game"
+    ],
+    "wikidata": "Q3560851"
+  },
+  "https://github.com/Open-BFME/openbfme-godot": {
+    "year": 2006,
+    "publisher": "Electronic Arts",
+    "genres": [
+      "real-time strategy"
+    ],
+    "wikidata": "Q1996197"
+  },
+  "https://github.com/testyourmine/cvaos": {
+    "year": 2003,
+    "publisher": "Konami",
+    "genres": [
+      "Metroidvania"
+    ],
+    "wikidata": "Q2291309"
+  },
+  "https://github.com/Akari1982/q-gears_reverse": {
+    "year": 1997,
+    "publisher": "Square",
+    "genres": [
+      "role-playing video game",
+      "cyberpunk video game"
+    ],
+    "wikidata": "Q214232"
+  },
+  "https://github.com/OpenRAC/rac2-decomp": {
+    "year": 2003,
+    "publisher": "Sony Interactive Entertainment",
+    "genres": [
+      "platform game",
+      "third-person shooter"
+    ],
+    "wikidata": "Q5725706"
+  },
+  "https://github.com/JFryy/reshadowtower": {
+    "year": 1998,
+    "publisher": "Agetec",
+    "genres": [
+      "role-playing video game"
+    ],
+    "wikidata": "Q6150799"
+  },
+  "https://github.com/thefixinhixon/UltraCombo": {
+    "year": 1994,
+    "publisher": "Midway Games",
+    "genres": [
+      "2D fighting game"
+    ],
+    "wikidata": "Q973459"
+  },
+  "https://github.com/Voicedrew11/verdite3": {
+    "year": 1995,
+    "publisher": "Sony Interactive Entertainment",
+    "genres": [],
+    "wikidata": "Q2304471"
+  },
+  "https://github.com/nsmbu-recomp/nsmbu-recomp": {
+    "year": 2012,
+    "publisher": "Nintendo",
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q1506526"
+  },
+  "https://github.com/zarif98/midnightclub": {
+    "year": 2008,
+    "publisher": null,
+    "genres": [
+      "racing video game",
+      "arcade"
+    ],
+    "wikidata": "Q1514674"
+  },
+  "https://github.com/GirianSeed/mgstts": {
+    "year": 2004,
+    "publisher": "Konami",
+    "genres": [
+      "action-adventure game"
+    ],
+    "wikidata": "Q2480047"
+  },
+  "https://github.com/seilc/incredibles": {
+    "year": 2004,
+    "publisher": "THQ",
+    "genres": [
+      "action-adventure game",
+      "beat 'em up"
+    ],
+    "wikidata": "Q2296093"
+  },
+  "https://github.com/bluddy/rails": {
+    "year": 1990,
+    "publisher": "MicroProse",
+    "genres": [
+      "business simulation game"
+    ],
+    "wikidata": "Q5400123"
+  },
+  "https://github.com/sal063/Ace-Combat-3-static-recompilation": {
+    "year": 1999,
+    "publisher": "Namco",
+    "genres": [
+      "action game",
+      "simulation video game"
+    ],
+    "wikidata": "Q2300289"
+  },
+  "https://github.com/nfroggy/openmadoola": {
+    "year": 1986,
+    "publisher": "Sunsoft",
+    "genres": [
+      "Metroidvania"
+    ],
+    "wikidata": "Q7775129"
+  },
+  "https://github.com/Paulie68000/ZXSpectrumHyperActive": {
+    "year": 1988,
+    "publisher": null,
+    "genres": [],
+    "wikidata": "Q89282808"
+  },
+  "https://github.com/noprompt/rood-boi": {
+    "year": 2000,
+    "publisher": "Square",
+    "genres": [
+      "action role-playing game"
+    ],
+    "wikidata": "Q1536626"
+  },
+  "https://github.com/VibinToast/JetForceGemini-Recomp": {
+    "year": 1999,
+    "publisher": "Rare Ltd.",
+    "genres": [
+      "third-person shooter"
+    ],
+    "wikidata": "Q1688483"
+  },
+  "https://github.com/giangra/stuntdouble-reignition": {
+    "year": 2007,
+    "publisher": "THQ",
+    "genres": [
+      "racing video game"
+    ],
+    "wikidata": "Q2469760"
+  },
+  "https://github.com/3dge7161/Jiggle-or-Physics": {
+    "year": 1998,
+    "publisher": "Tecmo",
+    "genres": [
+      "3D fighting game"
+    ],
+    "wikidata": "Q123436301"
+  },
+  "https://github.com/alphanu1/msg-twinsnakes-recomp": {
+    "year": 2004,
+    "publisher": "Konami",
+    "genres": [
+      "action-adventure game"
+    ],
+    "wikidata": "Q2480047"
+  },
+  "https://github.com/Invictus-potens/smt4-recomp": {
+    "year": 2013,
+    "publisher": null,
+    "genres": [
+      "role-playing video game",
+      "turn-based Japanese role-playing game",
+      "cyberpunk video game"
+    ],
+    "wikidata": "Q3959542"
+  },
+  "https://github.com/96dot/Dragon-Age-Origins-Recomp": {
+    "year": 2009,
+    "publisher": "Electronic Arts",
+    "genres": [
+      "role-playing video game",
+      "LGBT-themed video game",
+      "video game with LGBT character"
+    ],
+    "wikidata": "Q735926"
+  },
+  "https://github.com/4d-stunts/restunts": {
+    "year": 1990,
+    "publisher": "Broderbund",
+    "genres": [
+      "racing video game"
+    ],
+    "wikidata": "Q1758350"
+  },
+  "https://github.com/jessicanataliagta/AndroidRecomp": {
+    "year": 2010,
+    "publisher": "Gameloft",
+    "genres": [
+      "first-person shooter"
+    ],
+    "wikidata": "Q204350"
+  },
+  "https://github.com/recomp-code/street-recomp-v3": {
+    "year": 2005,
+    "publisher": "EA Sports Big",
+    "genres": [
+      "basketball video game"
+    ],
+    "wikidata": "Q2271365"
+  },
+  "https://github.com/OpenRAC/rac4-decomp": {
+    "year": 2005,
+    "publisher": "Sony Interactive Entertainment",
+    "genres": [
+      "platform game",
+      "third-person shooter"
+    ],
+    "wikidata": "Q2400280"
+  },
+  "https://github.com/arelkair/wiiparty-recomp": {
+    "year": 2010,
+    "publisher": "Nintendo",
+    "genres": [
+      "party video game"
+    ],
+    "wikidata": "Q1200921"
+  },
+  "https://github.com/xrip/uo-client": {
+    "year": 1997,
+    "publisher": "Electronic Arts",
+    "genres": [
+      "massively multiplayer online role-playing game"
+    ],
+    "wikidata": "Q1043550"
+  },
+  "https://github.com/MrGoodGuy2144/OpenGT4": {
+    "year": 2004,
+    "publisher": "Sony Interactive Entertainment",
+    "genres": [
+      "racing video game"
+    ],
+    "wikidata": "Q845695"
+  },
+  "https://github.com/Paulie68000/ZXSpectrumChuckieEgg": {
+    "year": 1983,
+    "publisher": "A&F Software",
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q2538925"
+  },
+  "https://github.com/dev-camo/project-lucid": {
+    "year": 2023,
+    "publisher": null,
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q123277466"
+  },
+  "https://github.com/bloodborne-native/bloodborne-recomp": {
+    "year": 2015,
+    "publisher": "Sony Interactive Entertainment",
+    "genres": [
+      "action role-playing game",
+      "soulslike",
+      "survival horror"
+    ],
+    "wikidata": "Q17154554"
+  },
+  "https://github.com/elprogramadorloco-arch/jim2-recomp": {
+    "year": 1995,
+    "publisher": "Virgin Interactive",
+    "genres": [
+      "platform game",
+      "run and gun"
+    ],
+    "wikidata": "Q577926"
+  },
+  "https://github.com/GTTeancum/Timesplitters": {
+    "year": 2000,
+    "publisher": "Eidos Interactive",
+    "genres": [
+      "first-person shooter"
+    ],
+    "wikidata": "Q2116558"
+  },
+  "https://github.com/WK2D/White-Knight-Chronicles-2-Recomp": {
+    "year": 2010,
+    "publisher": "Sony Interactive Entertainment",
+    "genres": [
+      "role-playing video game"
+    ],
+    "wikidata": "Q4019530"
+  },
+  "https://github.com/denzi-gh/crashwoc-decomp-ps2": {
+    "year": 2001,
+    "publisher": null,
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q869511"
+  },
+  "https://github.com/ArnautDaniel/OpenHuey": {
+    "year": 2005,
+    "publisher": "Capcom",
+    "genres": [
+      "psychological horror fiction"
+    ],
+    "wikidata": "Q1512540"
+  },
+  "https://github.com/ReGame-Labs/dw3_decomp": {
+    "year": 2002,
+    "publisher": "Bandai Namco Entertainment",
+    "genres": [
+      "role-playing video game"
+    ],
+    "wikidata": "Q1224677"
+  },
+  "https://github.com/roeming/SA2B": {
+    "year": 2002,
+    "publisher": null,
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q12220750"
+  },
+  "https://github.com/Dream-Atelier/kl-eod-decomp": {
+    "year": 2001,
+    "publisher": "Bandai Namco Entertainment",
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q868057"
+  },
+  "https://github.com/benprew/microprose-shandalar-source": {
+    "year": 1997,
+    "publisher": "MicroProse",
+    "genres": [
+      "card battle video game"
+    ],
+    "wikidata": "Q4043590"
+  },
+  "https://github.com/MikeWuPing/UEFI_Jackal": {
+    "year": 1988,
+    "publisher": "Konami",
+    "genres": [
+      "shoot 'em up"
+    ],
+    "wikidata": "Q2659903"
+  },
+  "https://github.com/roeming/mssb-dtk": {
+    "year": 2005,
+    "publisher": "Nintendo",
+    "genres": [
+      "sports video game"
+    ],
+    "wikidata": "Q2409390"
+  },
+  "https://github.com/ProjectReversio/LegoRockRaiders": {
+    "year": 1999,
+    "publisher": "Lego Interactive",
+    "genres": [
+      "action-adventure game"
+    ],
+    "wikidata": "Q3915214"
+  },
+  "https://github.com/karamzov123/fzero-gx-decomp": {
+    "year": 2003,
+    "publisher": "Nintendo",
+    "genres": [
+      "racing video game"
+    ],
+    "wikidata": "Q1940315"
+  },
+  "https://github.com/denzi-gh/crashwoc-decomp-gc": {
+    "year": 2001,
+    "publisher": null,
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q869511"
+  },
+  "https://github.com/Wyrelade/Digimon-World-2-Decomp": {
+    "year": 2000,
+    "publisher": "Bandai",
+    "genres": [
+      "role-playing video game"
+    ],
+    "wikidata": "Q3027795"
+  },
+  "https://github.com/Yokimitsuro/khrecoded-decomp": {
+    "year": 2010,
+    "publisher": null,
+    "genres": [],
+    "wikidata": "Q10314401"
+  },
+  "https://github.com/NyperYuhgard/CTR-PC-Port": {
+    "year": 1999,
+    "publisher": "Sony Interactive Entertainment",
+    "genres": [
+      "kart racing game",
+      "vehicular combat game",
+      "mascot racer"
+    ],
+    "wikidata": "Q834872"
+  },
+  "https://github.com/maxevans60/cm0102-bosman-edition": {
+    "year": 2001,
+    "publisher": "Eidos Interactive",
+    "genres": [
+      "management",
+      "association football video game"
+    ],
+    "wikidata": "Q1037535"
+  },
+  "https://github.com/Spooky098529/ITC-Recomp": {
+    "year": 2006,
+    "publisher": null,
+    "genres": [
+      "racing video game"
+    ],
+    "wikidata": "Q6007407"
+  },
+  "https://github.com/OpenKingdoms/OpenKingdoms": {
+    "year": 1999,
+    "publisher": "Atari, Inc.",
+    "genres": [
+      "real-time strategy"
+    ],
+    "wikidata": "Q3279986"
+  },
+  "https://github.com/ChanseyIsTheBest/sa2-nx": {
+    "year": 2002,
+    "publisher": null,
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q12220750"
+  },
+  "https://github.com/abilliontokens/urbz-recomp": {
+    "year": 2004,
+    "publisher": "Electronic Arts",
+    "genres": [
+      "life simulation game"
+    ],
+    "wikidata": "Q2316781"
+  },
+  "https://github.com/6elphegor/acww-decomp": {
+    "year": 2005,
+    "publisher": "Nintendo",
+    "genres": [
+      "social simulation game"
+    ],
+    "wikidata": "Q877501"
+  },
+  "https://github.com/Campfirecrucifix/scooby-doo-mystery-mayhem-pc": {
+    "year": 2003,
+    "publisher": "THQ",
+    "genres": [
+      "action-adventure game"
+    ],
+    "wikidata": "Q1880723"
+  },
+  "https://github.com/Sammi-Husky/BrawlModules": {
+    "year": 2008,
+    "publisher": "Nintendo",
+    "genres": [
+      "platform fighter",
+      "crossover fiction"
+    ],
+    "wikidata": "Q843131"
+  },
+  "https://github.com/OpenLSR/OpenLSR": {
+    "year": 2000,
+    "publisher": null,
+    "genres": [],
+    "wikidata": "Q110244234"
+  },
+  "https://github.com/Bomberhackers/bm64tsa": {
+    "year": 1999,
+    "publisher": "Nintendo",
+    "genres": [
+      "action game",
+      "maze video game",
+      "strategy video game"
+    ],
+    "wikidata": "Q2705639"
+  },
+  "https://github.com/calmsacibis995/crash-ps2": {
+    "year": 2001,
+    "publisher": null,
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q869511"
+  },
+  "https://github.com/apexJCL/blinx2-recomp": {
+    "year": 2004,
+    "publisher": "Xbox Game Studios",
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q2403747"
+  },
+  "https://github.com/bromurok/BloodyRoarExtremeRecomp": {
+    "year": 2002,
+    "publisher": null,
+    "genres": [
+      "fighting game"
+    ],
+    "wikidata": "Q2907018"
+  },
+  "https://github.com/met-nikita/Silent-Storm-Reconstruction": {
+    "year": 2003,
+    "publisher": "1C Company",
+    "genres": [
+      "turn-based tactics",
+      "tactical role-playing game",
+      "science fiction video game"
+    ],
+    "wikidata": "Q2632743"
+  },
+  "https://github.com/sp00nznet/vig8": {
+    "year": 2008,
+    "publisher": null,
+    "genres": [
+      "vehicular combat game"
+    ],
+    "wikidata": "Q7928919"
+  },
+  "https://github.com/sebsebseb1982/crusader-no-remorse-decomp": {
+    "year": 1995,
+    "publisher": "Electronic Arts",
+    "genres": [
+      "action game",
+      "cyberpunk video game",
+      "science fiction video game"
+    ],
+    "wikidata": "Q950846"
+  },
+  "https://github.com/mstan/MegamanX3SNESRecomp": {
+    "year": 1995,
+    "publisher": null,
+    "genres": [
+      "action game"
+    ],
+    "wikidata": "Q2744116"
+  },
+  "https://github.com/bifftannen1/Dead-Space-2-Recomp": {
+    "year": 2011,
+    "publisher": "Electronic Arts",
+    "genres": [
+      "third-person shooter",
+      "psychological horror fiction",
+      "science fiction video game"
+    ],
+    "wikidata": "Q842431"
+  },
+  "https://github.com/Yanis002/st": {
+    "year": 2009,
+    "publisher": "Nintendo",
+    "genres": [
+      "action-adventure game"
+    ],
+    "wikidata": "Q868545"
+  },
+  "https://github.com/rumbleminze/double-dragon-snes": {
+    "year": 1987,
+    "publisher": "Taito",
+    "genres": [
+      "beat 'em up"
+    ],
+    "wikidata": "Q698705"
+  },
+  "https://github.com/ellierocks/lsw1-decomp": {
+    "year": 2005,
+    "publisher": "Eidos Interactive",
+    "genres": [
+      "action-adventure game"
+    ],
+    "wikidata": "Q55216"
+  },
+  "https://github.com/yunophilia/BlackKnightRecomp": {
+    "year": 2009,
+    "publisher": null,
+    "genres": [
+      "adventure video game",
+      "action game",
+      "hack and slash"
+    ],
+    "wikidata": "Q2454500"
+  },
+  "https://github.com/oric212/BT2-Recomp": {
+    "year": 2006,
+    "publisher": "Bandai Namco Entertainment",
+    "genres": [
+      "fighting game"
+    ],
+    "wikidata": "Q2712053"
+  },
+  "https://github.com/chameleonTwistRet/chameleonTwistv1.0-JP": {
+    "year": 1997,
+    "publisher": "Sunsoft",
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q2948513"
+  },
+  "https://github.com/Mario-and-Luigi-3Ds-R-D/MILLI4C": {
+    "year": 2013,
+    "publisher": "Nintendo",
+    "genres": [
+      "role-playing video game",
+      "turn-based Japanese role-playing game"
+    ],
+    "wikidata": "Q4779680"
+  },
+  "https://github.com/mariopossamato/LEGO-Batman": {
+    "year": 2008,
+    "publisher": "Warner Bros. Games",
+    "genres": [
+      "action-adventure game"
+    ],
+    "wikidata": "Q74545"
+  },
+  "https://github.com/sp00nznet/racer": {
+    "year": 1999,
+    "publisher": "Lucasfilm Games",
+    "genres": [
+      "racing video game"
+    ],
+    "wikidata": "Q55217"
+  },
+  "https://github.com/swaymun/AC-Recomp": {
+    "year": 2019,
+    "publisher": "Nintendo",
+    "genres": [
+      "action game",
+      "action-adventure game",
+      "hack and slash"
+    ],
+    "wikidata": "Q61727129"
+  },
+  "https://github.com/sm35recomp/sm35recomp": {
+    "year": 2020,
+    "publisher": "Nintendo",
+    "genres": [
+      "platform game",
+      "battle royale game"
+    ],
+    "wikidata": "Q98893727"
+  },
+  "https://github.com/jillsandwich1998/reGH2": {
+    "year": 2006,
+    "publisher": null,
+    "genres": [
+      "music video game",
+      "rhythm game"
+    ],
+    "wikidata": "Q1798154"
+  },
+  "https://github.com/7akeem0/albw-decomp-ai": {
+    "year": 2013,
+    "publisher": "Nintendo",
+    "genres": [
+      "action-adventure game"
+    ],
+    "wikidata": "Q11300470"
+  },
+  "https://github.com/hk21x/pgr1-recomp": {
+    "year": 2001,
+    "publisher": "Xbox Game Studios",
+    "genres": [
+      "racing video game"
+    ],
+    "wikidata": "Q589751"
+  },
+  "https://github.com/TheMobyCollective/spyro-2": {
+    "year": 1999,
+    "publisher": "Sony Interactive Entertainment",
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q942896"
+  },
+  "https://github.com/b4ttycre4se/Spider-Man-3-Recomp": {
+    "year": 2007,
+    "publisher": null,
+    "genres": [
+      "action-adventure game"
+    ],
+    "wikidata": "Q2337769"
+  },
+  "https://github.com/The-OPERATIONS-Team/Ace-combat-infinity-recomp": {
+    "year": 2014,
+    "publisher": "Bandai Namco Entertainment",
+    "genres": [
+      "combat flight simulator game",
+      "post-apocalyptic video game"
+    ],
+    "wikidata": "Q15096795"
+  },
+  "https://github.com/snufflyyy/trials-hd-recompiled": {
+    "year": 2009,
+    "publisher": "Xbox Game Studios",
+    "genres": [
+      "racing video game",
+      "platform game"
+    ],
+    "wikidata": "Q3538676"
+  },
+  "https://github.com/crabscrab650-sketch/ArmyOfTwo40thDay-Recomp": {
+    "year": 2010,
+    "publisher": "Electronic Arts",
+    "genres": [
+      "third-person shooter"
+    ],
+    "wikidata": "Q2436570"
+  },
+  "https://github.com/edeegg/Legends-Recomp": {
+    "year": 2013,
+    "publisher": null,
+    "genres": [
+      "2D platform game",
+      "adventure video game"
+    ],
+    "wikidata": "Q2255492"
+  },
+  "https://github.com/ivanno4317/dw4-gc": {
+    "year": 2005,
+    "publisher": "Bandai Namco Entertainment",
+    "genres": [
+      "action role-playing game"
+    ],
+    "wikidata": "Q2734367"
+  },
+  "https://github.com/rayanht/fzgx": {
+    "year": 2003,
+    "publisher": "Nintendo",
+    "genres": [
+      "racing video game"
+    ],
+    "wikidata": "Q1940315"
+  },
+  "https://github.com/mstan/PokemonRedAndBlueRecomp": {
+    "year": 1998,
+    "publisher": "Nintendo",
+    "genres": [
+      "role-playing video game"
+    ],
+    "wikidata": "Q637137"
+  },
+  "https://github.com/officialmelon/bo2-recompiled": {
+    "year": 2012,
+    "publisher": null,
+    "genres": [
+      "first-person shooter",
+      "science fiction video game"
+    ],
+    "wikidata": "Q380918"
+  },
+  "https://github.com/abilliontokens/sims2-recomp": {
+    "year": 2004,
+    "publisher": "Electronic Arts",
+    "genres": [
+      "life simulation game",
+      "video game with LGBT character",
+      "social simulation game"
+    ],
+    "wikidata": "Q182771"
+  },
+  "https://github.com/cScarletter/MK-3D-Era-Decompilation": {
+    "year": 2002,
+    "publisher": "Midway Games",
+    "genres": [
+      "fighting game"
+    ],
+    "wikidata": "Q775543"
+  },
+  "https://github.com/tools81/nfl-head-coach-09-static-recomp": {
+    "year": 2008,
+    "publisher": "EA Sports",
+    "genres": [
+      "American football video game"
+    ],
+    "wikidata": "Q16267184"
+  },
+  "https://github.com/PattyTrish/unending-occlusion": {
+    "year": 2002,
+    "publisher": "Nintendo",
+    "genres": [
+      "psychological horror fiction",
+      "action-adventure game"
+    ],
+    "wikidata": "Q1258080"
+  },
+  "https://github.com/marijnvdwerf/lego-racers": {
+    "year": 1999,
+    "publisher": "The Lego Group",
+    "genres": [
+      "racing video game"
+    ],
+    "wikidata": "Q1128672"
+  },
+  "https://github.com/Swiftshine/yww": {
+    "year": 2015,
+    "publisher": "Nintendo",
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q11955503"
+  },
+  "https://github.com/djultra64/ClayFighter64": {
+    "year": 1997,
+    "publisher": "Interplay Entertainment",
+    "genres": [
+      "fighting game",
+      "crossover fiction",
+      "Christmas video game"
+    ],
+    "wikidata": "Q2745706"
+  },
+  "https://github.com/Wexos/DKCR-Decompilation": {
+    "year": 2010,
+    "publisher": "Nintendo",
+    "genres": [
+      "2D platform game"
+    ],
+    "wikidata": "Q585939"
+  },
+  "https://github.com/bertibertig/SSX3-Recomp": {
+    "year": 2003,
+    "publisher": "EA Sports Big",
+    "genres": [
+      "racing video game"
+    ],
+    "wikidata": "Q3460038"
+  },
+  "https://github.com/mdomangue26/thebigs2": {
+    "year": 2009,
+    "publisher": "2K Sports",
+    "genres": [
+      "sports video game"
+    ],
+    "wikidata": "Q7717942"
+  },
+  "https://github.com/jvicu2001/rr64-decomp": {
+    "year": 2000,
+    "publisher": "Nintendo",
+    "genres": [
+      "racing video game"
+    ],
+    "wikidata": "Q3109941"
+  },
+  "https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PS1": {
+    "year": 1999,
+    "publisher": "The 3DO Company",
+    "genres": [
+      "action game",
+      "science fiction video game",
+      "post-apocalyptic video game"
+    ],
+    "wikidata": "Q2891772"
+  },
+  "https://github.com/fr3dsp/Sonic4Ep1-Decomp": {
+    "year": 1996,
+    "publisher": null,
+    "genres": [
+      "action game"
+    ],
+    "wikidata": "Q3490467"
+  },
+  "https://github.com/geno55/wg3d-recomp": {
+    "year": 1996,
+    "publisher": "Atari Games",
+    "genres": [
+      "ice hockey video game"
+    ],
+    "wikidata": "Q3566832"
+  },
+  "https://github.com/Link4Electronics/FlyingDodgem": {
+    "year": 1995,
+    "publisher": "Microsoft",
+    "genres": [
+      "capture the flag"
+    ],
+    "wikidata": "Q1364881"
+  },
+  "https://github.com/retroreplay82/Legendary-Wings-NES-to-PC": {
+    "year": 1986,
+    "publisher": "Capcom",
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q2088772"
+  },
+  "https://shmargus.github.io/GSRecomp": {
+    "year": 2001,
+    "publisher": "Nintendo",
+    "genres": [
+      "role-playing video game"
+    ],
+    "wikidata": "Q1545555"
+  },
+  "https://recompiledgames.com/halo-3-project-reclaimer-recompiled": {
+    "year": 2007,
+    "publisher": "Xbox Game Studios",
+    "genres": [
+      "first-person shooter",
+      "science fiction video game"
+    ],
+    "wikidata": "Q137802"
+  },
+  "https://vf1-recomp.pages.dev": {
+    "year": 1994,
+    "publisher": null,
+    "genres": [
+      "3D fighting game"
+    ],
+    "wikidata": "Q1060660"
+  },
+  "https://nfl-blitz.com": {
+    "year": 1999,
+    "publisher": "Midway Games",
+    "genres": [
+      "American football video game"
+    ],
+    "wikidata": "Q56757283"
+  },
+  "https://re-rac.github.io": {
+    "year": 2002,
+    "publisher": "Sony Interactive Entertainment",
+    "genres": [
+      "platform game",
+      "science fiction video game",
+      "space opera video game"
+    ],
+    "wikidata": "Q5170139"
+  },
+  "https://gitlab.com/tpw-decomp/tpw-port": {
+    "year": 1999,
+    "publisher": "Electronic Arts",
+    "genres": [
+      "construction and management simulation"
+    ],
+    "wikidata": "Q1399967"
+  },
+  "https://recompiledgames.com/doom-3-recompiled": {
+    "year": 2004,
+    "publisher": null,
+    "genres": [
+      "first-person shooter",
+      "science fiction video game",
+      "survival horror"
+    ],
+    "wikidata": "Q203310"
+  },
+  "https://recompiledgames.com/phantasy-star-online-recompiled": {
+    "year": 2000,
+    "publisher": null,
+    "genres": [
+      "action role-playing game"
+    ],
+    "wikidata": "Q2084882"
+  },
+  "https://recompiledgames.com/super-mario-64-recompiled": {
+    "year": 1996,
+    "publisher": "Nintendo",
+    "genres": [
+      "3D platform game",
+      "collect-a-thon platformer"
+    ],
+    "wikidata": "Q216995"
+  },
+  "https://gitlab.com/tpw-decomp/tpw-decomp": {
+    "year": 1999,
+    "publisher": "Electronic Arts",
+    "genres": [
+      "construction and management simulation"
+    ],
+    "wikidata": "Q1399967"
+  },
+  "https://gitlab.com/banjo.decomp/banjo-kazooie": {
+    "year": 1998,
+    "publisher": "Nintendo",
+    "genres": [
+      "3D platform game",
+      "collect-a-thon platformer",
+      "Christmas video game"
+    ],
+    "wikidata": "Q129000"
+  },
+  "https://gitlab.com/dk64_decomp/dk64": {
+    "year": 1999,
+    "publisher": "Nintendo",
+    "genres": [
+      "platform game",
+      "collect-a-thon platformer",
+      "adventure video game"
+    ],
+    "wikidata": "Q774773"
+  },
+  "https://www.ff6hacking.com/ff5wiki/images/0/00/Ff5j_asm_Squall.txt": {
+    "year": 1992,
+    "publisher": "Square",
+    "genres": [
+      "role-playing video game"
+    ],
+    "wikidata": "Q900305"
+  },
+  "https://gitlab.com/kholdfuzion/goldeneye_src": {
+    "year": 2010,
+    "publisher": null,
+    "genres": [
+      "first-person shooter"
+    ],
+    "wikidata": "Q2708114"
+  },
+  "https://codeberg.org/KeybadeBlox/JSRF-Decompilation": {
+    "year": 2002,
+    "publisher": null,
+    "genres": [
+      "action game",
+      "sports video game"
+    ],
+    "wikidata": "Q1063810"
+  },
+  "https://decomp.dev/ThePlayerRolo/LegoCloneWarsWii": {
+    "year": 2011,
+    "publisher": "Lucasfilm Games",
+    "genres": [
+      "action-adventure game",
+      "platform game"
+    ],
+    "wikidata": "Q55228"
+  },
+  "https://metroiddatabase.com/source-code": {
+    "year": 1986,
+    "publisher": "Nintendo",
+    "genres": [
+      "Metroidvania"
+    ],
+    "wikidata": "Q2530723"
+  },
+  "https://gitlab.com/ryandwyer/perfect-dark": {
+    "year": 2000,
+    "publisher": "Rare Ltd.",
+    "genres": [
+      "action game",
+      "first-person shooter",
+      "cyberpunk video game"
+    ],
+    "wikidata": "Q1408723"
+  },
+  "https://git.sr.ht/~benoitren/shadowheartsdecompilation": {
+    "year": 2001,
+    "publisher": "Universal Entertainment",
+    "genres": [
+      "role-playing video game"
+    ],
+    "wikidata": "Q2738597"
+  },
+  "https://codeberg.org/Chickenzes/smt-decomp": {
+    "year": 1992,
+    "publisher": null,
+    "genres": [
+      "role-playing video game",
+      "cyberpunk video game",
+      "post-apocalyptic video game"
+    ],
+    "wikidata": "Q1061937"
+  },
+  "https://git.sr.ht/~benoitren/skccport": {
+    "year": 1997,
+    "publisher": null,
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q3964784"
+  },
+  "https://git.sr.ht/~benoitren/soniccddecompilation": {
+    "year": 1993,
+    "publisher": "SoftKey",
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q579708"
+  },
+  "https://gist.github.com/1wErt3r/4048722": {
+    "year": 1985,
+    "publisher": "Nintendo",
+    "genres": [
+      "2D platform game"
+    ],
+    "wikidata": "Q11168"
+  },
+  "https://decomp.dev/bfbbdecomp/tssm": {
+    "year": 2004,
+    "publisher": "THQ",
+    "genres": [
+      "platform game"
+    ],
+    "wikidata": "Q7765991"
+  },
+  "https://gitlab.com/Zusk/dotr-decompilation": {
+    "year": 2003,
+    "publisher": null,
+    "genres": [
+      "card battle video game"
+    ],
+    "wikidata": "Q2338382"
+  },
+  "https://github.com/highcmd/ssx-on-tour-psp-recomp": {
+    "year": 2005,
+    "publisher": "EA Sports Big",
+    "genres": [
+      "racing video game"
+    ],
+    "wikidata": "Q3142187"
+  }
+}

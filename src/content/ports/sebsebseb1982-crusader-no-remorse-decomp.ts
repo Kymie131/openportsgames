@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sebsebseb1982CrusaderNoRemorseDecomp: Port = {
+  schema: "port",
+  id: "sebsebseb1982-crusader-no-remorse-decomp",
+  title: "Crusader: No Remorse (Crusader: No Remorse - SDL port)",
+  game: "Crusader: No Remorse",
+  developers: ["sebsebseb1982"],
+  publisher: "Electronic Arts",
+  originalYear: 1995,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.22.0", date: "2026-10-19" },
+  sources: ["https://github.com/sebsebseb1982/crusader-no-remorse-decomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Crusader: No Remorse: source port by sebsebseb1982 for Windows. Bring your own copy of the game.",
+  notesEs: "Crusader: No Remorse: source port de sebsebseb1982 para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ozordiSanrecomp: Port = {
+  schema: "port",
+  id: "ozordi-sanrecomp",
+  title: "Grand Theft Auto V",
+  game: "Grand Theft Auto V",
+  developers: ["OZORDI"],
+  publisher: "Unknown",
+  originalYear: 2013,
+  portType: "recompilation",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/OZORDI/SanRecomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Grand Theft Auto V: static recompilation by OZORDI for Windows. Bring your own copy of the game.",
+  notesEs: "Grand Theft Auto V: recompilación estática de OZORDI para Windows. Aporta tu propia copia del juego.",
+};

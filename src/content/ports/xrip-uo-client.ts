@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const xripUoClient: Port = {
+  schema: "port",
+  id: "xrip-uo-client",
+  title: "Ultima Online (uo-client)",
+  game: "Ultima Online",
+  developers: ["xrip"],
+  publisher: "Electronic Arts",
+  originalYear: 1997,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.1.0", date: "2026-05-31" },
+  sources: ["https://github.com/xrip/uo-client"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Ultima Online: decompilation by xrip for Windows. Bring your own copy of the game.",
+  notesEs: "Ultima Online: decompilación de xrip para Windows. Aporta tu propia copia del juego.",
+};

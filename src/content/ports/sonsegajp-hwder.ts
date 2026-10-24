@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sonsegajpHwder: Port = {
+  schema: "port",
+  id: "sonsegajp-hwder",
+  title: "Hyrule Warriors: Definitive Edition (Hyrule Warriors: Definitive Edition Recomp)",
+  game: "Hyrule Warriors: Definitive Edition",
+  developers: ["sonsegajp"],
+  publisher: "Nintendo",
+  originalYear: 2018,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.1", date: "2026-10-03" },
+  sources: ["https://github.com/sonsegajp/HWDER"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo Switch"],
+  notes: "Hyrule Warriors: Definitive Edition: static recompilation by sonsegajp for Windows. Bring your own copy of the game.",
+  notesEs: "Hyrule Warriors: Definitive Edition: recompilación estática de sonsegajp para Windows. Aporta tu propia copia del juego.",
+};

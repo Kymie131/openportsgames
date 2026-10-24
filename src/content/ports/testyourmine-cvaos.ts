@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const testyourmineCvaos: Port = {
+  schema: "port",
+  id: "testyourmine-cvaos",
+  title: "Castlevania: Aria of Sorrow",
+  game: "Castlevania: Aria of Sorrow",
+  developers: ["testyourmine"],
+  publisher: "Konami",
+  originalYear: 2003,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/testyourmine/cvaos"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Game Boy Advance"],
+  notes: "Castlevania: Aria of Sorrow: decompilation by testyourmine for Windows. Bring your own copy of the game.",
+  notesEs: "Castlevania: Aria of Sorrow: decompilación de testyourmine para Windows. Aporta tu propia copia del juego.",
+};

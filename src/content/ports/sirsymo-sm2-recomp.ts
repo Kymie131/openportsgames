@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sirsymoSm2Recomp: Port = {
+  schema: "port",
+  id: "sirsymo-sm2-recomp",
+  title: "Spider-Man 2",
+  game: "Spider-Man 2",
+  developers: ["SirSymo"],
+  publisher: "Unknown",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/SirSymo/SM2-Recomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox"],
+  notes: "Spider-Man 2: static recompilation by SirSymo for Windows. Bring your own copy of the game.",
+  notesEs: "Spider-Man 2: recompilación estática de SirSymo para Windows. Aporta tu propia copia del juego.",
+};

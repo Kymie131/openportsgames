@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const p0herculabsHl360Forza2: Port = {
+  schema: "port",
+  id: "0herculabs-hl360-forza2",
+  title: "Forza Motorsport 2 (hl360-Forza2)",
+  game: "Forza Motorsport 2",
+  developers: ["0herculabs"],
+  publisher: "Xbox Game Studios",
+  originalYear: 2007,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.3.1", date: "2026-10-20" },
+  sources: ["https://github.com/0herculabs/hl360-Forza2"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Forza Motorsport 2: source port by 0herculabs for Windows. Bring your own copy of the game.",
+  notesEs: "Forza Motorsport 2: source port de 0herculabs para Windows. Aporta tu propia copia del juego.",
+};

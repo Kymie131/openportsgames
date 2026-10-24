@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ibrahimpuriInfamousPcEnhanced: Port = {
+  schema: "port",
+  id: "ibrahimpuri-infamous-pc-enhanced",
+  title: "inFamous (inFamous PC Enhanced)",
+  game: "inFamous",
+  developers: ["ibrahimpuri"],
+  publisher: "Sony Interactive Entertainment",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.5", date: "2026-10-20" },
+  sources: ["https://github.com/ibrahimpuri/inFamous-PC-Enhanced"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 3"],
+  notes: "inFamous: static recompilation by ibrahimpuri for Windows. Bring your own copy of the game.",
+  notesEs: "inFamous: recompilación estática de ibrahimpuri para Windows. Aporta tu propia copia del juego.",
+};

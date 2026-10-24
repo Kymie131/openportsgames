@@ -21,7 +21,7 @@ export const decompalsYoshisStory: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "Yoshi's Story: decompilation by decompals for Windows. Bring your own copy of the game.",
   notesEs: "Yoshi's Story: decompilación de decompals para Windows. Aporta tu propia copia del juego.",
 };

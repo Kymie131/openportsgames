@@ -21,7 +21,7 @@ export const abelbriggs1Tm1Decomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation"],
+  originalSystems: ["Unknown"],
   notes: "Twisted Metal: decompilation by abelbriggs1 for Windows. Bring your own copy of the game.",
   notesEs: "Twisted Metal: decompilación de abelbriggs1 para Windows. Aporta tu propia copia del juego.",
 };

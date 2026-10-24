@@ -21,7 +21,7 @@ export const rainchusQuest64Decomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "Quest 64: decompilation by Rainchus for Windows. Bring your own copy of the game.",
   notesEs: "Quest 64: decompilación de Rainchus para Windows. Aporta tu propia copia del juego.",
   cover: {

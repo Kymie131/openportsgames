@@ -20,7 +20,7 @@ export const nautilusbitsSkynetGodot: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["MS-DOS"],
+  originalSystems: ["Unknown"],
   notes: "The Terminator: SkyNET: source port by nautilusbits for Windows. Bring your own copy of the game.",
   notesEs: "The Terminator: SkyNET: source port de nautilusbits para Windows. Aporta tu propia copia del juego.",
 };

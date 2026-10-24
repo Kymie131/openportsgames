@@ -21,7 +21,7 @@ export const lethalGuitarDuke2reconstructed: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["MS-DOS"],
+  originalSystems: ["Unknown"],
   notes: "Duke Nukem II: decompilation by lethal-guitar for Windows. Bring your own copy of the game.",
   notesEs: "Duke Nukem II: decompilación de lethal-guitar para Windows. Aporta tu propia copia del juego.",
 };

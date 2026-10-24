@@ -20,7 +20,7 @@ export const wargusWar1gus: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Warcraft: Orcs & Humans: engine remake by Wargus for Windows. Bring your own copy of the game.",
   notesEs: "Warcraft: Orcs & Humans: recreación de motor de Wargus para Windows. Aporta tu propia copia del juego.",
 };

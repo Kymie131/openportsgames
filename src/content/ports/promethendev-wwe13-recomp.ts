@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const promethendevWwe13Recomp: Port = {
+  schema: "port",
+  id: "promethendev-wwe13-recomp",
+  title: "WWE '13 (WWE '13 Recomp)",
+  game: "WWE '13",
+  developers: ["PromethenDev"],
+  publisher: "THQ",
+  originalYear: 2012,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "beta",
+  release: { version: "1.5", date: "2026-10-13" },
+  sources: ["https://github.com/PromethenDev/wwe13-recomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "WWE '13: static recompilation by PromethenDev for Windows, Linux. Bring your own copy of the game.",
+  notesEs: "WWE '13: recompilación estática de PromethenDev para Windows, Linux. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const djultra64Clayfighter64: Port = {
+  schema: "port",
+  id: "djultra64-clayfighter64",
+  title: "ClayFighter 63⅓",
+  game: "ClayFighter 63⅓",
+  developers: ["djultra64"],
+  publisher: "Interplay Entertainment",
+  originalYear: 1997,
+  portType: "source-port",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "beta",
+  release: { version: "2.0", date: "2026-10-14" },
+  sources: ["https://github.com/djultra64/ClayFighter64"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "ClayFighter 63⅓: source port by djultra64 for Windows, Linux. Bring your own copy of the game.",
+  notesEs: "ClayFighter 63⅓: source port de djultra64 para Windows, Linux. Aporta tu propia copia del juego.",
+};

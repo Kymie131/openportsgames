@@ -21,7 +21,7 @@ export const hcbtTbuddiesDecomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation"],
+  originalSystems: ["Unknown"],
   notes: "Team Buddies: decompilation by hcbt for Windows. Bring your own copy of the game.",
   notesEs: "Team Buddies: decompilación de hcbt para Windows. Aporta tu propia copia del juego.",
 };

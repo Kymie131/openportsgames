@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const theOperationsTeamAceCombatInfinityRecomp: Port = {
+  schema: "port",
+  id: "the-operations-team-ace-combat-infinity-recomp",
+  title: "Ace Combat Infinity (static recomp)",
+  game: "Ace Combat Infinity",
+  developers: ["The-OPERATIONS-Team"],
+  publisher: "Bandai Namco Entertainment",
+  originalYear: 2014,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.1", date: "2026-10-22" },
+  sources: ["https://github.com/The-OPERATIONS-Team/Ace-combat-infinity-recomp"],
+  license: { spdx: "Apache-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 3"],
+  notes: "Ace Combat Infinity: static recompilation by The-OPERATIONS-Team for Windows. Bring your own copy of the game.",
+  notesEs: "Ace Combat Infinity: recompilación estática de The-OPERATIONS-Team para Windows. Aporta tu propia copia del juego.",
+};

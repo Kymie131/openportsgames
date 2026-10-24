@@ -21,7 +21,7 @@ export const moshferatuZombiesAteMyNeighborsPcPort: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Super Nintendo"],
+  originalSystems: ["Unknown"],
   notes: "Zombies Ate My Neighbors: source port by moshferatu for Windows. Bring your own copy of the game.",
   notesEs: "Zombies Ate My Neighbors: source port de moshferatu para Windows. Aporta tu propia copia del juego.",
   cover: {

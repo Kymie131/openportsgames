@@ -21,7 +21,7 @@ export const nbloodRedneckRampageRe: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["MS-DOS"],
+  originalSystems: ["Unknown"],
   notes: "Redneck Rampage: decompilation by NBlood for Windows. Bring your own copy of the game.",
   notesEs: "Redneck Rampage: decompilación de NBlood para Windows. Aporta tu propia copia del juego.",
 };

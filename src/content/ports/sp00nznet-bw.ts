@@ -21,7 +21,7 @@ export const sp00nznetBw: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Black & White: static recompilation by sp00nznet for Windows. Bring your own copy of the game.",
   notesEs: "Black & White: recompilación estática de sp00nznet para Windows. Aporta tu propia copia del juego.",
 };

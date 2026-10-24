@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const arnautdanielOpenhuey: Port = {
+  schema: "port",
+  id: "arnautdaniel-openhuey",
+  title: "Haunting Ground (OpenHuey)",
+  game: "Haunting Ground",
+  developers: ["ArnautDaniel"],
+  publisher: "Capcom",
+  originalYear: 2005,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ArnautDaniel/OpenHuey"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  notes: "Haunting Ground: decompilation by ArnautDaniel for Windows. Bring your own copy of the game.",
+  notesEs: "Haunting Ground: decompilación de ArnautDaniel para Windows. Aporta tu propia copia del juego.",
+};

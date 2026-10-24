@@ -21,7 +21,7 @@ export const simeony2007ViberecompForGowCoo: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation Portable"],
+  originalSystems: ["Unknown"],
   notes: "God of War: Chains of Olympus: static recompilation by Simeony2007 for Windows. Bring your own copy of the game.",
   notesEs: "God of War: Chains of Olympus: recompilación estática de Simeony2007 para Windows. Aporta tu propia copia del juego.",
   cover: {

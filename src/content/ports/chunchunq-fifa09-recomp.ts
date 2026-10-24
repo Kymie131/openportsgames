@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const chunchunqFifa09Recomp: Port = {
+  schema: "port",
+  id: "chunchunq-fifa09-recomp",
+  title: "FIFA 09 (FIFA 09 PC)",
+  game: "FIFA 09",
+  developers: ["ChunchunQ"],
+  publisher: "EA Sports",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.4.0", date: "2026-10-23" },
+  sources: ["https://github.com/ChunchunQ/fifa09-recomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "FIFA 09: static recompilation by ChunchunQ for Windows. Bring your own copy of the game.",
+  notesEs: "FIFA 09: recompilación estática de ChunchunQ para Windows. Aporta tu propia copia del juego.",
+};

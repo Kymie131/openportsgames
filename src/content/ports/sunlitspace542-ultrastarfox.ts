@@ -20,7 +20,7 @@ export const sunlitspace542Ultrastarfox: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Super Nintendo"],
+  originalSystems: ["Unknown"],
   notes: "Star Fox: decompilation by Sunlitspace542 for Windows. Bring your own copy of the game.",
   notesEs: "Star Fox: decompilación de Sunlitspace542 para Windows. Aporta tu propia copia del juego.",
   cover: {

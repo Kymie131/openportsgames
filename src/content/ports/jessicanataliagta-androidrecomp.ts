@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jessicanataliagtaAndroidrecomp: Port = {
+  schema: "port",
+  id: "jessicanataliagta-androidrecomp",
+  title: "Modern Combat 2: Black Pegasus ( BackStabRecomp)",
+  game: "Modern Combat 2: Black Pegasus",
+  developers: ["jessicanataliagta"],
+  publisher: "Gameloft",
+  originalYear: 2010,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/jessicanataliagta/AndroidRecomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Modern Combat 2: Black Pegasus: static recompilation by jessicanataliagta for Android, Windows. Bring your own copy of the game.",
+  notesEs: "Modern Combat 2: Black Pegasus: recompilación estática de jessicanataliagta para Android, Windows. Aporta tu propia copia del juego.",
+};

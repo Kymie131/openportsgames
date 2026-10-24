@@ -20,7 +20,7 @@ export const beemercodesMidnightclublaRecomp: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox 360"],
+  originalSystems: ["Unknown"],
   notes: "Midnight Club: Los Angeles: static recompilation by BeemerCodes for Windows. Bring your own copy of the game.",
   notesEs: "Midnight Club: Los Angeles: recompilación estática de BeemerCodes para Windows. Aporta tu propia copia del juego.",
   cover: {

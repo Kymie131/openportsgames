@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const halkuncodeRaiders2600: Port = {
+  schema: "port",
+  id: "halkuncode-raiders2600",
+  title: "Raiders of the Lost Ark (Raiders2600 (fully co…)",
+  game: "Raiders of the Lost Ark",
+  developers: ["halkuncode"],
+  publisher: "Atari, Inc.",
+  originalYear: 1982,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/halkuncode/Raiders2600"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Raiders of the Lost Ark: engine remake by halkuncode for Windows. Bring your own copy of the game.",
+  notesEs: "Raiders of the Lost Ark: recreación de motor de halkuncode para Windows. Aporta tu propia copia del juego.",
+};

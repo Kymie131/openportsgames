@@ -21,7 +21,7 @@ export const testdriveupgradeTdure: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox 360"],
+  originalSystems: ["Unknown"],
   notes: "Test Drive Unlimited: static recompilation by testdriveupgrade for Windows. Bring your own copy of the game.",
   notesEs: "Test Drive Unlimited: recompilación estática de testdriveupgrade para Windows. Aporta tu propia copia del juego.",
   cover: {

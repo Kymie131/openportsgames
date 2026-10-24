@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tools81NflHeadCoach09StaticRecomp: Port = {
+  schema: "port",
+  id: "tools81-nfl-head-coach-09-static-recomp",
+  title: "NFL Head Coach 09",
+  game: "NFL Head Coach 09",
+  developers: ["tools81"],
+  publisher: "EA Sports",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.6.3", date: "2026-10-17" },
+  sources: ["https://github.com/tools81/nfl-head-coach-09-static-recomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "NFL Head Coach 09: static recompilation by tools81 for Windows. Bring your own copy of the game.",
+  notesEs: "NFL Head Coach 09: recompilación estática de tools81 para Windows. Aporta tu propia copia del juego.",
+};

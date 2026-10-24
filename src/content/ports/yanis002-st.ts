@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const yanis002St: Port = {
+  schema: "port",
+  id: "yanis002-st",
+  title: "The Legend of Zelda: Spirit Tracks (Yanis002)",
+  game: "The Legend of Zelda: Spirit Tracks",
+  developers: ["Yanis002"],
+  publisher: "Nintendo",
+  originalYear: 2009,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Yanis002/st"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "The Legend of Zelda: Spirit Tracks: decompilation by Yanis002 for Windows. Bring your own copy of the game.",
+  notesEs: "The Legend of Zelda: Spirit Tracks: decompilación de Yanis002 para Windows. Aporta tu propia copia del juego.",
+};

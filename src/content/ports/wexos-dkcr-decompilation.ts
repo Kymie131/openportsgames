@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const wexosDkcrDecompilation: Port = {
+  schema: "port",
+  id: "wexos-dkcr-decompilation",
+  title: "Donkey Kong Country Returns",
+  game: "Donkey Kong Country Returns",
+  developers: ["Wexos"],
+  publisher: "Nintendo",
+  originalYear: 2010,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Wexos/DKCR-Decompilation"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Wii"],
+  notes: "Donkey Kong Country Returns: decompilation by Wexos for Windows. Bring your own copy of the game.",
+  notesEs: "Donkey Kong Country Returns: decompilación de Wexos para Windows. Aporta tu propia copia del juego.",
+};

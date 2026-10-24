@@ -21,7 +21,7 @@ export const reRacRerac: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation 2"],
+  originalSystems: ["Unknown"],
   notes: "Ratchet & Clank: engine remake by re-rac for Windows. Bring your own copy of the game.",
   notesEs: "Ratchet & Clank: recreación de motor de re-rac para Windows. Aporta tu propia copia del juego.",
 };

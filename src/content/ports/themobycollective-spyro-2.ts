@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const themobycollectiveSpyro2: Port = {
+  schema: "port",
+  id: "themobycollective-spyro-2",
+  title: "Spyro 2: Ripto's Rage!",
+  game: "Spyro 2: Ripto's Rage!",
+  developers: ["TheMobyCollective"],
+  publisher: "Sony Interactive Entertainment",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/TheMobyCollective/spyro-2"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  notes: "Spyro 2: Ripto's Rage!: decompilation by TheMobyCollective for Windows. Bring your own copy of the game.",
+  notesEs: "Spyro 2: Ripto's Rage!: decompilación de TheMobyCollective para Windows. Aporta tu propia copia del juego.",
+};

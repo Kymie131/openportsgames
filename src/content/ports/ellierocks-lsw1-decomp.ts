@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ellierocksLsw1Decomp: Port = {
+  schema: "port",
+  id: "ellierocks-lsw1-decomp",
+  title: "LEGO Star Wars: The Video Game (lsw1-decomp)",
+  game: "LEGO Star Wars: The Video Game",
+  developers: ["ellierocks"],
+  publisher: "Eidos Interactive",
+  originalYear: 2005,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ellierocks/lsw1-decomp"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  notes: "LEGO Star Wars: The Video Game: decompilation by ellierocks for Windows. Bring your own copy of the game.",
+  notesEs: "LEGO Star Wars: The Video Game: decompilación de ellierocks para Windows. Aporta tu propia copia del juego.",
+};

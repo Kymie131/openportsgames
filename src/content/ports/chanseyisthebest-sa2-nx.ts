@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const chanseyisthebestSa2Nx: Port = {
+  schema: "port",
+  id: "chanseyisthebest-sa2-nx",
+  title: "Sonic Adventure 2: Battle (sa2-nx)",
+  game: "Sonic Adventure 2: Battle",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "Unknown",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.3.1", date: "2026-10-20" },
+  sources: ["https://github.com/ChanseyIsTheBest/sa2-nx"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  notes: "Sonic Adventure 2: Battle: static recompilation by ChanseyIsTheBest for Windows. Bring your own copy of the game.",
+  notesEs: "Sonic Adventure 2: Battle: recompilación estática de ChanseyIsTheBest para Windows. Aporta tu propia copia del juego.",
+};

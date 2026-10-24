@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const doldecompTtyd: Port = {
+  schema: "port",
+  id: "doldecomp-ttyd",
+  title: "Paper Mario: The Thousand-Year Door",
+  game: "Paper Mario: The Thousand-Year Door",
+  developers: ["doldecomp"],
+  publisher: "Nintendo",
+  originalYear: 2004,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/doldecomp/ttyd"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  notes: "Paper Mario: The Thousand-Year Door: decompilation by doldecomp for Windows. Bring your own copy of the game.",
+  notesEs: "Paper Mario: The Thousand-Year Door: decompilación de doldecomp para Windows. Aporta tu propia copia del juego.",
+};

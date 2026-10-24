@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const apolinarioCoderSkyrecomp: Port = {
+  schema: "port",
+  id: "apolinario-coder-skyrecomp",
+  title: "The Legend of Zelda: Skyward Sword HD (Sky Recomp)",
+  game: "The Legend of Zelda: Skyward Sword HD",
+  developers: ["Apolinario-coder"],
+  publisher: "Nintendo",
+  originalYear: 2021,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.6", date: "2026-10-22" },
+  sources: ["https://github.com/Apolinario-coder/SkyRecomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo Switch"],
+  notes: "The Legend of Zelda: Skyward Sword HD: static recompilation by Apolinario-coder for Windows. Bring your own copy of the game.",
+  notesEs: "The Legend of Zelda: Skyward Sword HD: recompilación estática de Apolinario-coder para Windows. Aporta tu propia copia del juego.",
+};

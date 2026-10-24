@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const paulie68000Zxspectrumhyperactive: Port = {
+  schema: "port",
+  id: "paulie68000-zxspectrumhyperactive",
+  title: "Hyper Active (Paul Hughes ZXSpectrumHyperActive)",
+  game: "Hyper Active",
+  developers: ["Paulie68000"],
+  publisher: "Unknown",
+  originalYear: 1988,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Paulie68000/ZXSpectrumHyperActive"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Hyper Active: decompilation by Paulie68000 for Windows. Bring your own copy of the game.",
+  notesEs: "Hyper Active: decompilación de Paulie68000 para Windows. Aporta tu propia copia del juego.",
+};

@@ -66,6 +66,10 @@ const isConsole = (systems) =>
 
 const projects = JSON.parse(fs.readFileSync(PROJECTS, "utf8"));
 const byUrl = new Map(projects.map((project) => [project.url, project]));
+const wikidataPath = path.join(ROOT, "public/data/wikidata-enrichment.json");
+const wikidata = fs.existsSync(wikidataPath)
+  ? JSON.parse(fs.readFileSync(wikidataPath, "utf8"))
+  : {};
 const catalog = JSON.parse(fs.readFileSync(API_CATALOG, "utf8")).ports;
 const catalogByGame = new Map();
 for (const port of catalog) {
@@ -90,7 +94,7 @@ for (const file of fs.readdirSync(DIR)) {
     const parsedYear = Number(
       `${project?.title ?? ""} ${project?.description ?? ""}`.match(/\b(19[7-9]\d|20[0-2]\d)\b/)?.[1] ?? 0,
     );
-    const trustedYear = catalogByGame.get(norm(game))?.originalYear || parsedYear;
+    const trustedYear = catalogByGame.get(norm(game))?.originalYear || parsedYear || wikidata[url]?.year;
     const systems = systemsFromOriginal(project?.original ?? "");
     if (!trustedYear && isConsole(systems)) {
       fs.unlinkSync(full);

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const openkingdomsOpenkingdoms: Port = {
+  schema: "port",
+  id: "openkingdoms-openkingdoms",
+  title: "Total Annihilation: Kingdoms",
+  game: "Total Annihilation: Kingdoms",
+  developers: ["OpenKingdoms"],
+  publisher: "Atari, Inc.",
+  originalYear: 1999,
+  portType: "reimplementation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.5.6", date: "2026-10-20" },
+  sources: ["https://github.com/OpenKingdoms/OpenKingdoms"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Total Annihilation: Kingdoms: engine remake by OpenKingdoms for Windows. Bring your own copy of the game.",
+  notesEs: "Total Annihilation: Kingdoms: recreación de motor de OpenKingdoms para Windows. Aporta tu propia copia del juego.",
+};

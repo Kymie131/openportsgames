@@ -21,7 +21,7 @@ export const opensmashUltimateWindowsmash: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo Switch"],
+  originalSystems: ["Unknown"],
   notes: "Super Smash Bros. Ultimate: static recompilation by OpenSmash-Ultimate for Windows. Bring your own copy of the game.",
   notesEs: "Super Smash Bros. Ultimate: recompilación estática de OpenSmash-Ultimate para Windows. Aporta tu propia copia del juego.",
   cover: {

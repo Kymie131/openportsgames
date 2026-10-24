@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const campfirecrucifixScoobyDooMysteryMayhemPc: Port = {
+  schema: "port",
+  id: "campfirecrucifix-scooby-doo-mystery-mayhem-pc",
+  title: "Scooby-Doo! Mystery Mayhem",
+  game: "Scooby-Doo! Mystery Mayhem",
+  developers: ["Campfirecrucifix"],
+  publisher: "THQ",
+  originalYear: 2003,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Campfirecrucifix/scooby-doo-mystery-mayhem-pc"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  notes: "Scooby-Doo! Mystery Mayhem: source port by Campfirecrucifix for Windows. Bring your own copy of the game.",
+  notesEs: "Scooby-Doo! Mystery Mayhem: source port de Campfirecrucifix para Windows. Aporta tu propia copia del juego.",
+};

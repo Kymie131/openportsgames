@@ -21,7 +21,7 @@ export const lasvolaGodhandRecomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation 2"],
+  originalSystems: ["Unknown"],
   notes: "God Hand: static recompilation by LasVola for Windows. Bring your own copy of the game.",
   notesEs: "God Hand: recompilación estática de LasVola para Windows. Aporta tu propia copia del juego.",
 };

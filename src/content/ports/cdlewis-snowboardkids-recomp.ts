@@ -20,7 +20,7 @@ export const cdlewisSnowboardkidsRecomp: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "Snowboard Kids: static recompilation by cdlewis for Windows, Linux, macOS. Bring your own copy of the game.",
   notesEs: "Snowboard Kids: recompilación estática de cdlewis para Windows, Linux, macOS. Aporta tu propia copia del juego.",
 };

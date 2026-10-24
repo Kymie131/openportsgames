@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const p7akeem0AlbwDecompAi: Port = {
+  schema: "port",
+  id: "7akeem0-albw-decomp-ai",
+  title: "The Legend of Zelda: A Link Between Worlds",
+  game: "The Legend of Zelda: A Link Between Worlds",
+  developers: ["7akeem0"],
+  publisher: "Nintendo",
+  originalYear: 2013,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/7akeem0/albw-decomp-ai"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 3DS"],
+  notes: "The Legend of Zelda: A Link Between Worlds: decompilation by 7akeem0 for Windows. Bring your own copy of the game.",
+  notesEs: "The Legend of Zelda: A Link Between Worlds: decompilación de 7akeem0 para Windows. Aporta tu propia copia del juego.",
+};

@@ -20,7 +20,7 @@ export const kylofonAcesofthepacificEnhanced: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["MS-DOS"],
+  originalSystems: ["Unknown"],
   notes: "Aces of the Pacific Enhanced: engine remake by kylofon for Windows. Bring your own copy of the game.",
   notesEs: "Aces of the Pacific Enhanced: recreación de motor de kylofon para Windows. Aporta tu propia copia del juego.",
 };

@@ -195,6 +195,23 @@ function genreFromSteam(genres) {
   return null;
 }
 
+function genreFromLabels(labels) {
+  const text = labels.join(" ");
+  if (/racing/i.test(text)) return "racing";
+  if (/sports/i.test(text)) return "sports";
+  if (/role-playing|\brpg\b/i.test(text)) return "rpg";
+  if (/strategy/i.test(text)) return "strategy";
+  if (/simulation/i.test(text)) return "simulation";
+  if (/puzzle/i.test(text)) return "puzzle";
+  if (/platform/i.test(text)) return "platformer";
+  if (/shooter/i.test(text)) return "shooter";
+  if (/fighting/i.test(text)) return "fighting";
+  if (/music|rhythm/i.test(text)) return "music";
+  if (/open world/i.test(text)) return "open-world";
+  if (/adventure/i.test(text)) return "action-adventure";
+  return null;
+}
+
 function systemsFromOriginal(original) {
   const parts = String(original || "")
     .split(/\s*[/,+&]\s*/)
@@ -277,6 +294,10 @@ async function main() {
   const projects = JSON.parse(fs.readFileSync(PROJECTS, "utf8"));
   const { indexText, ids, titles, sources } = readExisting();
   const catalog = loadCatalogMap();
+  const wikidataPath = path.join(ROOT, "public/data/wikidata-enrichment.json");
+  const wikidata = fs.existsSync(wikidataPath)
+    ? JSON.parse(fs.readFileSync(wikidataPath, "utf8"))
+    : {};
 
   const knownSource = (project) => {
     try {
@@ -313,8 +334,9 @@ async function main() {
     const parsedYear = Number(
       `${project.title} ${project.description}`.match(/\b(19[7-9]\d|20[0-2]\d)\b/)?.[1] ?? 0,
     );
+    const wikidataProject = wikidata[project.url] ?? null;
     let steam = null;
-    if (!existing?.year && !parsedYear) {
+    if (!existing?.year && !parsedYear && !wikidataProject?.year) {
       try {
         steam = await steamLookup(project.game);
         await new Promise((resolve) => setTimeout(resolve, 120));
@@ -322,8 +344,16 @@ async function main() {
         steam = null;
       }
     }
-    const yearSource = existing?.year ? "catalog" : parsedYear ? "parsed" : steam?.year ? "steam" : null;
-    const year = existing?.year || parsedYear || steam?.year || 0;
+    const yearSource = existing?.year
+      ? "catalog"
+      : parsedYear
+        ? "parsed"
+        : wikidataProject?.year
+          ? "wikidata"
+          : steam?.year
+            ? "steam"
+            : null;
+    const year = existing?.year || parsedYear || wikidataProject?.year || steam?.year || 0;
     if (year < 1970 || year > 2026) {
       skippedNoYear++;
       return;
@@ -342,9 +372,15 @@ async function main() {
     const genre =
       existing?.genre ||
       genreFromKeywords(`${project.game} ${project.title} ${project.description}`) ||
+      genreFromLabels(wikidataProject?.genres ?? []) ||
       genreFromSteam(steam?.genres ?? []) ||
       "action-adventure";
-    const publisher = (existing?.publisher || steam?.publisher || "Unknown").slice(0, 80);
+    const publisher = (
+      existing?.publisher ||
+      wikidataProject?.publisher ||
+      steam?.publisher ||
+      "Unknown"
+    ).slice(0, 80);
     const platforms = platformsFromProject(project);
     const version = semver(project.release);
     const date = version ? isoDate(project.releaseDate) ?? TODAY : null;

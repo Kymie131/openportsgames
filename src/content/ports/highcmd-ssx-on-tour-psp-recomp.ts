@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const highcmdSsxOnTourPspRecomp: Port = {
+  schema: "port",
+  id: "highcmd-ssx-on-tour-psp-recomp",
+  title: "SSX On Tour (PSP recomp)",
+  game: "SSX On Tour",
+  developers: ["highcmd"],
+  publisher: "EA Sports Big",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "beta",
+  release: { version: "0.2.2", date: "2026-10-22" },
+  sources: ["https://github.com/highcmd/ssx-on-tour-psp-recomp"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation Portable"],
+  notes: "SSX On Tour: static recompilation by highcmd for Windows, Linux. Bring your own copy of the game.",
+  notesEs: "SSX On Tour: recompilación estática de highcmd para Windows, Linux. Aporta tu propia copia del juego.",
+};

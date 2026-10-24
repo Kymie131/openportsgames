@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const karamzov123FzeroGxDecomp: Port = {
+  schema: "port",
+  id: "karamzov123-fzero-gx-decomp",
+  title: "F-Zero GX (karamzov123)",
+  game: "F-Zero GX",
+  developers: ["karamzov123"],
+  publisher: "Nintendo",
+  originalYear: 2003,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/karamzov123/fzero-gx-decomp"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  notes: "F-Zero GX: decompilation by karamzov123 for Windows. Bring your own copy of the game.",
+  notesEs: "F-Zero GX: decompilación de karamzov123 para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bromurokBloodyroarextremerecomp: Port = {
+  schema: "port",
+  id: "bromurok-bloodyroarextremerecomp",
+  title: "Bloody Roar Extreme (Bloody Roar Extreme - XBE Recomp)",
+  game: "Bloody Roar Extreme",
+  developers: ["bromurok"],
+  publisher: "Unknown",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.4", date: "2026-10-21" },
+  sources: ["https://github.com/bromurok/BloodyRoarExtremeRecomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox"],
+  notes: "Bloody Roar Extreme: static recompilation by bromurok for Windows. Bring your own copy of the game.",
+  notesEs: "Bloody Roar Extreme: recompilación estática de bromurok para Windows. Aporta tu propia copia del juego.",
+};

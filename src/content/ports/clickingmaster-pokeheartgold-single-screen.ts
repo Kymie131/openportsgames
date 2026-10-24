@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const clickingmasterPokeheartgoldSingleScreen: Port = {
+  schema: "port",
+  id: "clickingmaster-pokeheartgold-single-screen",
+  title: "Pokémon SoulSilver (pokeheartgold-single-screen)",
+  game: "Pokémon SoulSilver",
+  developers: ["ClickingMaster"],
+  publisher: "Nintendo",
+  originalYear: 2009,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.4", date: "2026-10-21" },
+  sources: ["https://github.com/ClickingMaster/pokeheartgold-single-screen"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Pokémon SoulSilver: decompilation by ClickingMaster for Windows. Bring your own copy of the game.",
+  notesEs: "Pokémon SoulSilver: decompilación de ClickingMaster para Windows. Aporta tu propia copia del juego.",
+};

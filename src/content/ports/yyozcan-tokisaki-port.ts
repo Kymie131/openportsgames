@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const yyozcanTokisakiPort: Port = {
+  schema: "port",
+  id: "yyozcan-tokisaki-port",
+  title: "Killzone 2 (Tokisaki Port)",
+  game: "Killzone 2",
+  developers: ["YYOzcan"],
+  publisher: "Sony Interactive Entertainment",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/YYOzcan/tokisaki-port"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 3"],
+  notes: "Killzone 2: static recompilation by YYOzcan for Windows, Linux. Bring your own copy of the game.",
+  notesEs: "Killzone 2: recompilación estática de YYOzcan para Windows, Linux. Aporta tu propia copia del juego.",
+};

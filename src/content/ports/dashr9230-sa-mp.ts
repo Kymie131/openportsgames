@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const dashr9230SaMp: Port = {
+  schema: "port",
+  id: "dashr9230-sa-mp",
+  title: "San Andreas Multiplayer (SA-MP)",
+  game: "San Andreas Multiplayer",
+  developers: ["dashr9230"],
+  publisher: "Unknown",
+  originalYear: 2006,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/dashr9230/SA-MP"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "San Andreas Multiplayer: decompilation by dashr9230 for Windows. Bring your own copy of the game.",
+  notesEs: "San Andreas Multiplayer: decompilación de dashr9230 para Windows. Aporta tu propia copia del juego.",
+};

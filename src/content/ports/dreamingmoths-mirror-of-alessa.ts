@@ -21,7 +21,7 @@ export const dreamingmothsMirrorOfAlessa: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation 2"],
+  originalSystems: ["Unknown"],
   notes: "Silent Hill 2: decompilation by dreamingmoths for Windows. Bring your own copy of the game.",
   notesEs: "Silent Hill 2: decompilación de dreamingmoths para Windows. Aporta tu propia copia del juego.",
   cover: {

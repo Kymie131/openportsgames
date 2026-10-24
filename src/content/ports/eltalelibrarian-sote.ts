@@ -21,7 +21,7 @@ export const eltalelibrarianSote: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "Star Wars: Shadows of the Empire: decompilation by EltaleLibrarian for Windows. Bring your own copy of the game.",
   notesEs: "Star Wars: Shadows of the Empire: decompilación de EltaleLibrarian para Windows. Aporta tu propia copia del juego.",
 };

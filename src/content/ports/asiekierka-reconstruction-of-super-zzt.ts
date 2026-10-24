@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const asiekierkaReconstructionOfSuperZzt: Port = {
+  schema: "port",
+  id: "asiekierka-reconstruction-of-super-zzt",
+  title: "Super ZZT (Reconstruction of Super ZZT)",
+  game: "Super ZZT",
+  developers: ["asiekierka"],
+  publisher: "Unknown",
+  originalYear: 1992,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0", date: "2020-08-16" },
+  sources: ["https://github.com/asiekierka/reconstruction-of-super-zzt"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Super ZZT: decompilation by asiekierka for Windows. Bring your own copy of the game.",
+  notesEs: "Super ZZT: decompilación de asiekierka para Windows. Aporta tu propia copia del juego.",
+};

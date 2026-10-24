@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mikewupingUefiJackal: Port = {
+  schema: "port",
+  id: "mikewuping-uefi-jackal",
+  title: "Jackal (UEFI_Jackal)",
+  game: "Jackal",
+  developers: ["MikeWuPing"],
+  publisher: "Konami",
+  originalYear: 1988,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.6", date: "2026-07-22" },
+  sources: ["https://github.com/MikeWuPing/UEFI_Jackal"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Arcade"],
+  notes: "Jackal: decompilation by MikeWuPing for Windows. Bring your own copy of the game.",
+  notesEs: "Jackal: decompilación de MikeWuPing para Windows. Aporta tu propia copia del juego.",
+};

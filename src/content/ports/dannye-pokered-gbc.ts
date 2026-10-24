@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const dannyePokeredGbc: Port = {
+  schema: "port",
+  id: "dannye-pokered-gbc",
+  title: "Pokémon Red and Blue (pokered-gbc)",
+  game: "Pokémon Red and Blue",
+  developers: ["dannye"],
+  publisher: "Nintendo",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/dannye/pokered-gbc"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Game Boy / Game Boy Color"],
+  notes: "Pokémon Red and Blue: decompilation by dannye for Windows. Bring your own copy of the game.",
+  notesEs: "Pokémon Red and Blue: decompilación de dannye para Windows. Aporta tu propia copia del juego.",
+};

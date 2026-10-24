@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const seilcIncredibles: Port = {
+  schema: "port",
+  id: "seilc-incredibles",
+  title: "The Incredibles",
+  game: "The Incredibles",
+  developers: ["seilc"],
+  publisher: "THQ",
+  originalYear: 2004,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/seilc/incredibles"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  notes: "The Incredibles: decompilation by seilc for Windows. Bring your own copy of the game.",
+  notesEs: "The Incredibles: decompilación de seilc para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const smartbladeBldmystery: Port = {
+  schema: "port",
+  id: "smartblade-bldmystery",
+  title: "Severance: Blade of Darkness (BldMystery)",
+  game: "Severance: Blade of Darkness",
+  developers: ["smartblade"],
+  publisher: "Codemasters",
+  originalYear: 2001,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/smartblade/BldMystery"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Severance: Blade of Darkness: decompilation by smartblade for Windows. Bring your own copy of the game.",
+  notesEs: "Severance: Blade of Darkness: decompilación de smartblade para Windows. Aporta tu propia copia del juego.",
+};

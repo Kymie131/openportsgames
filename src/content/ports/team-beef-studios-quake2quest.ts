@@ -20,7 +20,7 @@ export const teamBeefStudiosQuake2quest: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Quake II: source port by Team-Beef-Studios for Windows. Bring your own copy of the game.",
   notesEs: "Quake II: source port de Team-Beef-Studios para Windows. Aporta tu propia copia del juego.",
   cover: {

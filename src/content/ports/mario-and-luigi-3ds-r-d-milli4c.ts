@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const marioAndLuigi3dsRDMilli4c: Port = {
+  schema: "port",
+  id: "mario-and-luigi-3ds-r-d-milli4c",
+  title: "Mario & Luigi: Dream Team (MILLI4C)",
+  game: "Mario & Luigi: Dream Team",
+  developers: ["Mario-and-Luigi-3Ds-R-D"],
+  publisher: "Nintendo",
+  originalYear: 2013,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Mario-and-Luigi-3Ds-R-D/MILLI4C"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 3DS"],
+  notes: "Mario & Luigi: Dream Team: decompilation by Mario-and-Luigi-3Ds-R-D for Windows. Bring your own copy of the game.",
+  notesEs: "Mario & Luigi: Dream Team: decompilación de Mario-and-Luigi-3Ds-R-D para Windows. Aporta tu propia copia del juego.",
+};

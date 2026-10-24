@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nsmbuRecompNsmbuRecomp: Port = {
+  schema: "port",
+  id: "nsmbu-recomp-nsmbu-recomp",
+  title: "New Super Mario Bros. U",
+  game: "New Super Mario Bros. U",
+  developers: ["nsmbu-recomp"],
+  publisher: "Nintendo",
+  originalYear: 2012,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.5.0", date: "2026-10-19" },
+  sources: ["https://github.com/nsmbu-recomp/nsmbu-recomp"],
+  license: { spdx: "MPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Wii U"],
+  notes: "New Super Mario Bros. U: static recompilation by nsmbu-recomp for Windows. Bring your own copy of the game.",
+  notesEs: "New Super Mario Bros. U: recompilación estática de nsmbu-recomp para Windows. Aporta tu propia copia del juego.",
+};

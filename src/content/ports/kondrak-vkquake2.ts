@@ -20,7 +20,7 @@ export const kondrakVkquake2: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Quake II: source port by kondrak for Windows, Linux, macOS. Bring your own copy of the game.",
   notesEs: "Quake II: source port de kondrak para Windows, Linux, macOS. Aporta tu propia copia del juego.",
   cover: {

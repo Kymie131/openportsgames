@@ -21,7 +21,7 @@ export const dcrsdkSoniccdDc: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Sonic CD: source port by DCRSDK for Windows. Bring your own copy of the game.",
   notesEs: "Sonic CD: source port de DCRSDK para Windows. Aporta tu propia copia del juego.",
   cover: {

@@ -21,7 +21,7 @@ export const hamishaklLibertyrecomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox 360"],
+  originalSystems: ["Unknown"],
   notes: "Grand Theft Auto IV: static recompilation by hamishakl for Windows. Bring your own copy of the game.",
   notesEs: "Grand Theft Auto IV: recompilación estática de hamishakl para Windows. Aporta tu propia copia del juego.",
   cover: {

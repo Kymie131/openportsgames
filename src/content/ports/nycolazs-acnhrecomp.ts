@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nycolazsAcnhrecomp: Port = {
+  schema: "port",
+  id: "nycolazs-acnhrecomp",
+  title: "Animal Crossing: New Horizons (ACNHRecomp)",
+  game: "Animal Crossing: New Horizons",
+  developers: ["Nycolazs"],
+  publisher: "Nintendo",
+  originalYear: 2020,
+  portType: "recompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Nycolazs/ACNHRecomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo Switch"],
+  notes: "Animal Crossing: New Horizons: static recompilation by Nycolazs for Windows, Linux, macOS. Bring your own copy of the game.",
+  notesEs: "Animal Crossing: New Horizons: recompilación estática de Nycolazs para Windows, Linux, macOS. Aporta tu propia copia del juego.",
+};

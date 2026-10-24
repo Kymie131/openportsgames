@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sp00nznetRacer: Port = {
+  schema: "port",
+  id: "sp00nznet-racer",
+  title: "Star Wars Episode I: Racer",
+  game: "Star Wars Episode I: Racer",
+  developers: ["sp00nznet"],
+  publisher: "Lucasfilm Games",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sp00nznet/racer"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Star Wars Episode I: Racer: static recompilation by sp00nznet for Windows. Bring your own copy of the game.",
+  notesEs: "Star Wars Episode I: Racer: recompilación estática de sp00nznet para Windows. Aporta tu propia copia del juego.",
+};

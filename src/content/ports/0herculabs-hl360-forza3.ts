@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const p0herculabsHl360Forza3: Port = {
+  schema: "port",
+  id: "0herculabs-hl360-forza3",
+  title: "Forza Motorsport 3 (hl360-forza3)",
+  game: "Forza Motorsport 3",
+  developers: ["0herculabs"],
+  publisher: "Xbox Game Studios",
+  originalYear: 2009,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.3", date: "2026-10-17" },
+  sources: ["https://github.com/0herculabs/hl360-forza3"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Forza Motorsport 3: source port by 0herculabs for Windows. Bring your own copy of the game.",
+  notesEs: "Forza Motorsport 3: source port de 0herculabs para Windows. Aporta tu propia copia del juego.",
+};

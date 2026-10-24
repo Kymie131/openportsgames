@@ -21,7 +21,7 @@ export const omegakatana92BattleArenaToshindenGbRecomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Game Boy / Game Boy Color"],
+  originalSystems: ["Unknown"],
   notes: "Battle Arena Toshinden: static recompilation by omegakatana92 for Windows, Linux. Bring your own copy of the game.",
   notesEs: "Battle Arena Toshinden: recompilación estática de omegakatana92 para Windows, Linux. Aporta tu propia copia del juego.",
 };

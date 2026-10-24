@@ -21,7 +21,7 @@ export const simhackerMicropolis: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "SimCity: source port by SimHacker for Windows. Bring your own copy of the game.",
   notesEs: "SimCity: source port de SimHacker para Windows. Aporta tu propia copia del juego.",
 };

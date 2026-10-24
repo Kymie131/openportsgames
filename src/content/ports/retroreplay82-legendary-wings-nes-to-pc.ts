@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const retroreplay82LegendaryWingsNesToPc: Port = {
+  schema: "port",
+  id: "retroreplay82-legendary-wings-nes-to-pc",
+  title: "Legendary Wings",
+  game: "Legendary Wings",
+  developers: ["retroreplay82"],
+  publisher: "Capcom",
+  originalYear: 1986,
+  portType: "reimplementation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/retroreplay82/Legendary-Wings-NES-to-PC"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo Entertainment System"],
+  notes: "Legendary Wings: engine remake by retroreplay82 for Windows. Bring your own copy of the game.",
+  notesEs: "Legendary Wings: recreación de motor de retroreplay82 para Windows. Aporta tu propia copia del juego.",
+};

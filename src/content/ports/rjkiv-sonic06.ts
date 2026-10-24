@@ -21,7 +21,7 @@ export const rjkivSonic06: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Xbox 360"],
+  originalSystems: ["Unknown"],
   notes: "Sonic the Hedgehog: decompilation by rjkiv for Windows. Bring your own copy of the game.",
   notesEs: "Sonic the Hedgehog: decompilación de rjkiv para Windows. Aporta tu propia copia del juego.",
 };

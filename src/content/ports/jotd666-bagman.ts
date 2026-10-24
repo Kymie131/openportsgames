@@ -21,7 +21,7 @@ export const jotd666Bagman: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Arcade"],
+  originalSystems: ["Unknown"],
   notes: "Bagman (bagman (arcade -> 68k transcode)): engine remake by jotd666 for Windows. Bring your own copy of the game.",
   notesEs: "Bagman (bagman (arcade -> 68k transcode)): recreación de motor de jotd666 para Windows. Aporta tu propia copia del juego.",
 };

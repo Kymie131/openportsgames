@@ -21,7 +21,7 @@ export const synamaxmusicSinistar: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Arcade"],
+  originalSystems: ["Unknown"],
   notes: "Sinistar: decompilation by synamaxmusic for Windows. Bring your own copy of the game.",
   notesEs: "Sinistar: decompilación de synamaxmusic para Windows. Aporta tu propia copia del juego.",
 };

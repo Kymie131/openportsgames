@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const doldecompBrawl: Port = {
+  schema: "port",
+  id: "doldecomp-brawl",
+  title: "Super Smash Bros. Brawl",
+  game: "Super Smash Bros. Brawl",
+  developers: ["doldecomp"],
+  publisher: "Nintendo",
+  originalYear: 2008,
+  portType: "decompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/doldecomp/brawl"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Wii"],
+  notes: "Super Smash Bros. Brawl: decompilation by doldecomp for Windows. Bring your own copy of the game.",
+  notesEs: "Super Smash Bros. Brawl: decompilación de doldecomp para Windows. Aporta tu propia copia del juego.",
+};

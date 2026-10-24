@@ -21,7 +21,7 @@ export const jnmartin84WipeoutDc: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation"],
+  originalSystems: ["Unknown"],
   notes: "Wipeout: source port by jnmartin84 for Windows. Bring your own copy of the game.",
   notesEs: "Wipeout: source port de jnmartin84 para Windows. Aporta tu propia copia del juego.",
 };

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const dothacktranslateDothackRecompilation: Port = {
+  schema: "port",
+  id: "dothacktranslate-dothack-recompilation",
+  title: ".hack//Infection (Recompilation)",
+  game: ".hack//Infection",
+  developers: ["dothacktranslate"],
+  publisher: "Bandai",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/dothacktranslate/dothack-recompilation"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  notes: ".hack//Infection: static recompilation by dothacktranslate for Windows. Bring your own copy of the game.",
+  notesEs: ".hack//Infection: recompilación estática de dothacktranslate para Windows. Aporta tu propia copia del juego.",
+};

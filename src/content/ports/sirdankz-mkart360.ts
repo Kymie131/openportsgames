@@ -21,7 +21,7 @@ export const sirdankzMkart360: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "Mario Kart 64: decompilation by sirdankz for Windows. Bring your own copy of the game.",
   notesEs: "Mario Kart 64: decompilación de sirdankz para Windows. Aporta tu propia copia del juego.",
   cover: {

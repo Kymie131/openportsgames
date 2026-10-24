@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const puddzAstralchainPc: Port = {
+  schema: "port",
+  id: "puddz-astralchain-pc",
+  title: "Astral Chain (recomp, Windows: AstralChain-PC)",
+  game: "Astral Chain",
+  developers: ["Puddz"],
+  publisher: "Nintendo",
+  originalYear: 2019,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Puddz/AstralChain-PC"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo Switch"],
+  notes: "Astral Chain: static recompilation by Puddz for Windows. Bring your own copy of the game.",
+  notesEs: "Astral Chain: recompilación estática de Puddz para Windows. Aporta tu propia copia del juego.",
+};

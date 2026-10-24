@@ -21,7 +21,7 @@ export const rumbleminzeCastlevaniaSnes: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo Entertainment System"],
+  originalSystems: ["Unknown"],
   notes: "Castlevania: source port by rumbleminze for Windows. Bring your own copy of the game.",
   notesEs: "Castlevania: source port de rumbleminze para Windows. Aporta tu propia copia del juego.",
   cover: {

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const aboood40091RedPro2: Port = {
+  schema: "port",
+  id: "aboood40091-red-pro2",
+  title: "New Super Mario Bros. U (aboood40091)",
+  game: "New Super Mario Bros. U",
+  developers: ["aboood40091"],
+  publisher: "Nintendo",
+  originalYear: 2012,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/aboood40091/red-pro2"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Wii U"],
+  notes: "New Super Mario Bros. U: decompilation by aboood40091 for Windows. Bring your own copy of the game.",
+  notesEs: "New Super Mario Bros. U: decompilación de aboood40091 para Windows. Aporta tu propia copia del juego.",
+};

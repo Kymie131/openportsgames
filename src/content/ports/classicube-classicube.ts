@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const classicubeClassicube: Port = {
+  schema: "port",
+  id: "classicube-classicube",
+  title: "ClassiCube",
+  game: "ClassiCube",
+  developers: ["ClassiCube"],
+  publisher: "Unknown",
+  originalYear: 2013,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.3.9", date: "2026-10-22" },
+  sources: ["https://github.com/ClassiCube/ClassiCube"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "ClassiCube: engine remake by ClassiCube for Windows. Bring your own copy of the game.",
+  notesEs: "ClassiCube: recreación de motor de ClassiCube para Windows. Aporta tu propia copia del juego.",
+};

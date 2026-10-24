@@ -21,7 +21,7 @@ export const artfulrascal8RageWarsRecompiled: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "Turok: Rage Wars: static recompilation by ArtfulRascal8 for Windows. Bring your own copy of the game.",
   notesEs: "Turok: Rage Wars: recompilación estática de ArtfulRascal8 para Windows. Aporta tu propia copia del juego.",
   cover: {

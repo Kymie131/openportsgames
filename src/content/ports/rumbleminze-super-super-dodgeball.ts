@@ -21,7 +21,7 @@ export const rumbleminzeSuperSuperDodgeball: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo Entertainment System"],
+  originalSystems: ["Unknown"],
   notes: "Super Dodge Ball: source port by rumbleminze for Windows. Bring your own copy of the game.",
   notesEs: "Super Dodge Ball: source port de rumbleminze para Windows. Aporta tu propia copia del juego.",
 };

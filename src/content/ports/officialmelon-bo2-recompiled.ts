@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const officialmelonBo2Recompiled: Port = {
+  schema: "port",
+  id: "officialmelon-bo2-recompiled",
+  title: "Call of Duty: Black Ops II",
+  game: "Call of Duty: Black Ops II",
+  developers: ["officialmelon"],
+  publisher: "Unknown",
+  originalYear: 2012,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/officialmelon/bo2-recompiled"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Call of Duty: Black Ops II: static recompilation by officialmelon for Windows. Bring your own copy of the game.",
+  notesEs: "Call of Duty: Black Ops II: recompilación estática de officialmelon para Windows. Aporta tu propia copia del juego.",
+};

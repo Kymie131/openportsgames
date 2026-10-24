@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const geno55Wg3dRecomp: Port = {
+  schema: "port",
+  id: "geno55-wg3d-recomp",
+  title: "Wayne Gretzky's 3D Hockey",
+  game: "Wayne Gretzky's 3D Hockey",
+  developers: ["geno55"],
+  publisher: "Atari Games",
+  originalYear: 1996,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.7.0", date: "2026-10-23" },
+  sources: ["https://github.com/geno55/wg3d-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Wayne Gretzky's 3D Hockey: static recompilation by geno55 for Windows. Bring your own copy of the game.",
+  notesEs: "Wayne Gretzky's 3D Hockey: recompilación estática de geno55 para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const projectreversioLegorockraiders: Port = {
+  schema: "port",
+  id: "projectreversio-legorockraiders",
+  title: "LEGO Rock Raiders",
+  game: "LEGO Rock Raiders",
+  developers: ["ProjectReversio"],
+  publisher: "Lego Interactive",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ProjectReversio/LegoRockRaiders"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "LEGO Rock Raiders: decompilation by ProjectReversio for Windows. Bring your own copy of the game.",
+  notesEs: "LEGO Rock Raiders: decompilación de ProjectReversio para Windows. Aporta tu propia copia del juego.",
+};

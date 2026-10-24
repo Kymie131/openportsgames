@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const openracRac2Decomp: Port = {
+  schema: "port",
+  id: "openrac-rac2-decomp",
+  title: "Ratchet & Clank: Going Commando",
+  game: "Ratchet & Clank: Going Commando",
+  developers: ["OpenRAC"],
+  publisher: "Sony Interactive Entertainment",
+  originalYear: 2003,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/OpenRAC/rac2-decomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  notes: "Ratchet & Clank: Going Commando: decompilation by OpenRAC for Windows. Bring your own copy of the game.",
+  notesEs: "Ratchet & Clank: Going Commando: decompilación de OpenRAC para Windows. Aporta tu propia copia del juego.",
+};

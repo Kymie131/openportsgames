@@ -21,7 +21,7 @@ export const sm64PortSm64Port: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "Super Mario 64: source port by sm64-port for Windows. Bring your own copy of the game.",
   notesEs: "Super Mario 64: source port de sm64-port para Windows. Aporta tu propia copia del juego.",
   cover: {

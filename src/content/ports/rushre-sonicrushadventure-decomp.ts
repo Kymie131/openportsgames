@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rushreSonicrushadventureDecomp: Port = {
+  schema: "port",
+  id: "rushre-sonicrushadventure-decomp",
+  title: "Sonic Rush Adventure",
+  game: "Sonic Rush Adventure",
+  developers: ["RushRE"],
+  publisher: "Unknown",
+  originalYear: 2007,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/RushRE/SonicRushAdventure-Decomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Sonic Rush Adventure: decompilation by RushRE for Windows. Bring your own copy of the game.",
+  notesEs: "Sonic Rush Adventure: decompilación de RushRE para Windows. Aporta tu propia copia del juego.",
+};

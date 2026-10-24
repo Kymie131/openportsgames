@@ -21,7 +21,7 @@ export const coz0SmoRecomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo Switch"],
+  originalSystems: ["Unknown"],
   notes: "Super Mario Odyssey: static recompilation by Coz-0 for Windows. Bring your own copy of the game.",
   notesEs: "Super Mario Odyssey: recompilación estática de Coz-0 para Windows. Aporta tu propia copia del juego.",
 };

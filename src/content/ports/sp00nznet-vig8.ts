@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sp00nznetVig8: Port = {
+  schema: "port",
+  id: "sp00nznet-vig8",
+  title: "Vigilante 8 Arcade",
+  game: "Vigilante 8 Arcade",
+  developers: ["sp00nznet"],
+  publisher: "Unknown",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.0", date: "2026-10-21" },
+  sources: ["https://github.com/sp00nznet/vig8"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Vigilante 8 Arcade: static recompilation by sp00nznet for Windows. Bring your own copy of the game.",
+  notesEs: "Vigilante 8 Arcade: recompilación estática de sp00nznet para Windows. Aporta tu propia copia del juego.",
+};

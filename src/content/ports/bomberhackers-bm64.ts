@@ -21,7 +21,7 @@ export const bomberhackersBm64: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "Bomberman 64: decompilation by Bomberhackers for Windows. Bring your own copy of the game.",
   notesEs: "Bomberman 64: decompilación de Bomberhackers para Windows. Aporta tu propia copia del juego.",
   cover: {

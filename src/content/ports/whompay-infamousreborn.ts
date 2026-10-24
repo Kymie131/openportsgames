@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const whompayInfamousreborn: Port = {
+  schema: "port",
+  id: "whompay-infamousreborn",
+  title: "inFamous",
+  game: "inFamous",
+  developers: ["whompay"],
+  publisher: "Sony Interactive Entertainment",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.1", date: "2026-10-22" },
+  sources: ["https://github.com/whompay/inFAMOUSreborn"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 3"],
+  notes: "inFamous: static recompilation by whompay for Windows. Bring your own copy of the game.",
+  notesEs: "inFamous: recompilación estática de whompay para Windows. Aporta tu propia copia del juego.",
+};

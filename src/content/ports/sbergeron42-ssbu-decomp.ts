@@ -21,7 +21,7 @@ export const sbergeron42SsbuDecomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo Switch"],
+  originalSystems: ["Unknown"],
   notes: "Super Smash Bros. Ultimate: decompilation by sbergeron42 for Windows. Bring your own copy of the game.",
   notesEs: "Super Smash Bros. Ultimate: decompilación de sbergeron42 para Windows. Aporta tu propia copia del juego.",
   cover: {

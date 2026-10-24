@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const seanGuglerU4remastereda2: Port = {
+  schema: "port",
+  id: "sean-gugler-u4remastereda2",
+  title: "Ultima IV: Quest of the Avatar (u4remasteredA2)",
+  game: "Ultima IV: Quest of the Avatar",
+  developers: ["sean-gugler"],
+  publisher: "Pony Canyon",
+  originalYear: 1985,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.2.12", date: "2025-01-25" },
+  sources: ["https://github.com/sean-gugler/u4remasteredA2"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Ultima IV: Quest of the Avatar: decompilation by sean-gugler for Windows. Bring your own copy of the game.",
+  notesEs: "Ultima IV: Quest of the Avatar: decompilación de sean-gugler para Windows. Aporta tu propia copia del juego.",
+};

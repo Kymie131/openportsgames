@@ -20,7 +20,7 @@ export const droogieBbhost: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation 4"],
+  originalSystems: ["Unknown"],
   notes: "Bloodborne: source port by droogie for Windows. Bring your own copy of the game.",
   notesEs: "Bloodborne: source port de droogie para Windows. Aporta tu propia copia del juego.",
   cover: {

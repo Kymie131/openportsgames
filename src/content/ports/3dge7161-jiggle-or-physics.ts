@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const p3dge7161JiggleOrPhysics: Port = {
+  schema: "port",
+  id: "3dge7161-jiggle-or-physics",
+  title: "Dead or Alive ++ (Jiggle-or-Physics)",
+  game: "Dead or Alive ++",
+  developers: ["3dge7161"],
+  publisher: "Tecmo",
+  originalYear: 1998,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/3dge7161/Jiggle-or-Physics"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Arcade"],
+  notes: "Dead or Alive ++: static recompilation by 3dge7161 for Windows. Bring your own copy of the game.",
+  notesEs: "Dead or Alive ++: recompilación estática de 3dge7161 para Windows. Aporta tu propia copia del juego.",
+};

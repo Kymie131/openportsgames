@@ -21,7 +21,7 @@ export const erick194Doom64Re: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "Doom 64: decompilation by Erick194 for Windows. Bring your own copy of the game.",
   notesEs: "Doom 64: decompilación de Erick194 para Windows. Aporta tu propia copia del juego.",
 };

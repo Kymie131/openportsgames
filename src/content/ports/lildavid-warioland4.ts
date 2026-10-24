@@ -21,7 +21,7 @@ export const lildavidWarioland4: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Game Boy Advance"],
+  originalSystems: ["Unknown"],
   notes: "Wario Land 4: decompilation by lilDavid for Windows. Bring your own copy of the game.",
   notesEs: "Wario Land 4: decompilación de lilDavid para Windows. Aporta tu propia copia del juego.",
 };

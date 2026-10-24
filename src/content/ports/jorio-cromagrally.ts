@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jorioCromagrally: Port = {
+  schema: "port",
+  id: "jorio-cromagrally",
+  title: "Cro-Mag Rally",
+  game: "Cro-Mag Rally",
+  developers: ["jorio"],
+  publisher: "Unknown",
+  originalYear: 2008,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "macos"],
+  status: "beta",
+  release: { version: "3.0.1", date: "2024-02-07" },
+  sources: ["https://github.com/jorio/CroMagRally"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Cro-Mag Rally: source port by jorio for Windows, macOS. Bring your own copy of the game.",
+  notesEs: "Cro-Mag Rally: source port de jorio para Windows, macOS. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const laureladastraMcdub3Nx: Port = {
+  schema: "port",
+  id: "laureladastra-mcdub3-nx",
+  title: "Midnight Club 3: DUB Edition (mcdub3-nx)",
+  game: "Midnight Club 3: DUB Edition",
+  developers: ["laureladastra"],
+  publisher: "Unknown",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "beta",
+  release: { version: "0.1.0", date: "2026-10-21" },
+  sources: ["https://github.com/laureladastra/mcdub3-nx"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox"],
+  notes: "Midnight Club 3: DUB Edition: static recompilation by laureladastra for Windows, Linux, macOS. Bring your own copy of the game.",
+  notesEs: "Midnight Club 3: DUB Edition: recompilación estática de laureladastra para Windows, Linux, macOS. Aporta tu propia copia del juego.",
+};

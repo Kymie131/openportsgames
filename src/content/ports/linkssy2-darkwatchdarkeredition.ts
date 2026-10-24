@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const linkssy2Darkwatchdarkeredition: Port = {
+  schema: "port",
+  id: "linkssy2-darkwatchdarkeredition",
+  title: "Darkwatch (DarkwatchDarkerEdition)",
+  game: "Darkwatch",
+  developers: ["linkssy2"],
+  publisher: "Capcom",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.5", date: "2026-10-23" },
+  sources: ["https://github.com/linkssy2/DarkwatchDarkerEdition"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox"],
+  notes: "Darkwatch: static recompilation by linkssy2 for Windows. Bring your own copy of the game.",
+  notesEs: "Darkwatch: recompilación estática de linkssy2 para Windows. Aporta tu propia copia del juego.",
+};

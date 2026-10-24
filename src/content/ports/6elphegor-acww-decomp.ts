@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const p6elphegorAcwwDecomp: Port = {
+  schema: "port",
+  id: "6elphegor-acww-decomp",
+  title: "Animal Crossing: Wild World",
+  game: "Animal Crossing: Wild World",
+  developers: ["6elphegor"],
+  publisher: "Nintendo",
+  originalYear: 2005,
+  portType: "decompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/6elphegor/acww-decomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Animal Crossing: Wild World: decompilation by 6elphegor for Windows. Bring your own copy of the game.",
+  notesEs: "Animal Crossing: Wild World: decompilación de 6elphegor para Windows. Aporta tu propia copia del juego.",
+};

@@ -21,7 +21,7 @@ export const charlesaverillSm3ds: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Super Nintendo"],
+  originalSystems: ["Unknown"],
   notes: "Super Metroid: source port by CharlesAverill for Windows. Bring your own copy of the game.",
   notesEs: "Super Metroid: source port de CharlesAverill para Windows. Aporta tu propia copia del juego.",
   cover: {

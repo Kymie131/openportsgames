@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const watsonmwFe2Intro: Port = {
+  schema: "port",
+  id: "watsonmw-fe2-intro",
+  title: "Frontier: Elite II (fe2-intro)",
+  game: "Frontier: Elite II",
+  developers: ["watsonmw"],
+  publisher: "GameTek",
+  originalYear: 1993,
+  portType: "decompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.4", date: "2024-11-12" },
+  sources: ["https://github.com/watsonmw/fe2-intro"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Frontier: Elite II: decompilation by watsonmw for Windows. Bring your own copy of the game.",
+  notesEs: "Frontier: Elite II: decompilación de watsonmw para Windows. Aporta tu propia copia del juego.",
+};

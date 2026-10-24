@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const coalslavHmbtnDecomp: Port = {
+  schema: "port",
+  id: "coalslav-hmbtn-decomp",
+  title: "Harvest Moon: Back to Nature",
+  game: "Harvest Moon: Back to Nature",
+  developers: ["coalslav"],
+  publisher: "Winning Entertainment Group",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/coalslav/hmbtn-decomp"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  notes: "Harvest Moon: Back to Nature: decompilation by coalslav for Windows. Bring your own copy of the game.",
+  notesEs: "Harvest Moon: Back to Nature: decompilación de coalslav para Windows. Aporta tu propia copia del juego.",
+};

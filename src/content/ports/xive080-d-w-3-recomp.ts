@@ -21,7 +21,7 @@ export const xive080DW3Recomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["PlayStation"],
+  originalSystems: ["Unknown"],
   notes: "Digimon World 3: static recompilation by Xive080 for Windows. Bring your own copy of the game.",
   notesEs: "Digimon World 3: recompilación estática de Xive080 para Windows. Aporta tu propia copia del juego.",
   cover: {

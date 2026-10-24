@@ -21,7 +21,7 @@ export const k64retCv64: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "Castlevania: decompilation by k64ret for Windows. Bring your own copy of the game.",
   notesEs: "Castlevania: decompilación de k64ret para Windows. Aporta tu propia copia del juego.",
   cover: {

@@ -21,7 +21,7 @@ export const p9933faZumaDeluxeTas: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Windows"],
+  originalSystems: ["Unknown"],
   notes: "Zuma Deluxe: decompilation by 9933fa for Windows. Bring your own copy of the game.",
   notesEs: "Zuma Deluxe: decompilación de 9933fa para Windows. Aporta tu propia copia del juego.",
   cover: {

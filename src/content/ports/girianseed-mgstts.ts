@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const girianseedMgstts: Port = {
+  schema: "port",
+  id: "girianseed-mgstts",
+  title: "Metal Gear Solid: The Twin Snakes",
+  game: "Metal Gear Solid: The Twin Snakes",
+  developers: ["GirianSeed"],
+  publisher: "Konami",
+  originalYear: 2004,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/GirianSeed/mgstts"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  notes: "Metal Gear Solid: The Twin Snakes: decompilation by GirianSeed for Windows. Bring your own copy of the game.",
+  notesEs: "Metal Gear Solid: The Twin Snakes: decompilación de GirianSeed para Windows. Aporta tu propia copia del juego.",
+};

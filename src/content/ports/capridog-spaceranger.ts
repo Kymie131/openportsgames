@@ -21,7 +21,7 @@ export const capridogSpaceranger: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Nintendo 64"],
+  originalSystems: ["Unknown"],
   notes: "Toy Story 2: Buzz Lightyear to the Rescue: static recompilation by Capridog for Windows. Bring your own copy of the game.",
   notesEs: "Toy Story 2: Buzz Lightyear to the Rescue: recompilación estática de Capridog para Windows. Aporta tu propia copia del juego.",
 };

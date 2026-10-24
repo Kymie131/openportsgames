@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jvicu2001Rr64Decomp: Port = {
+  schema: "port",
+  id: "jvicu2001-rr64-decomp",
+  title: "Ridge Racer 64",
+  game: "Ridge Racer 64",
+  developers: ["jvicu2001"],
+  publisher: "Nintendo",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/jvicu2001/rr64-decomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Ridge Racer 64: decompilation by jvicu2001 for Windows. Bring your own copy of the game.",
+  notesEs: "Ridge Racer 64: decompilación de jvicu2001 para Windows. Aporta tu propia copia del juego.",
+};

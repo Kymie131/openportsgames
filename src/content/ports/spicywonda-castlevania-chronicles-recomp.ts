@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const spicywondaCastlevaniaChroniclesRecomp: Port = {
+  schema: "port",
+  id: "spicywonda-castlevania-chronicles-recomp",
+  title: "Castlevania Chronicles",
+  game: "Castlevania Chronicles",
+  developers: ["Spicywonda"],
+  publisher: "Konami",
+  originalYear: 1993,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "macos"],
+  status: "beta",
+  release: { version: "0.3.10", date: "2026-10-12" },
+  sources: ["https://github.com/Spicywonda/castlevania-chronicles-recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  notes: "Castlevania Chronicles: static recompilation by Spicywonda for Windows, macOS. Bring your own copy of the game.",
+  notesEs: "Castlevania Chronicles: recompilación estática de Spicywonda para Windows, macOS. Aporta tu propia copia del juego.",
+};

@@ -20,7 +20,7 @@ export const endproduktCannonballDx: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Arcade"],
+  originalSystems: ["Unknown"],
   notes: "OutRun: engine remake by Endprodukt for Windows. Bring your own copy of the game.",
   notesEs: "OutRun: recreación de motor de Endprodukt para Windows. Aporta tu propia copia del juego.",
 };

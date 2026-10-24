@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const maxevans60Cm0102BosmanEdition: Port = {
+  schema: "port",
+  id: "maxevans60-cm0102-bosman-edition",
+  title: "Championship Manager: Season 01/02 (02: Bosman Edition)",
+  game: "Championship Manager: Season 01/02",
+  developers: ["maxevans60"],
+  publisher: "Eidos Interactive",
+  originalYear: 2001,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/maxevans60/cm0102-bosman-edition"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Championship Manager: Season 01/02: static recompilation by maxevans60 for Windows, Linux, macOS. Bring your own copy of the game.",
+  notesEs: "Championship Manager: Season 01/02: recompilación estática de maxevans60 para Windows, Linux, macOS. Aporta tu propia copia del juego.",
+};

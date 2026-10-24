@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jelleesBkgr: Port = {
+  schema: "port",
+  id: "jellees-bkgr",
+  title: "Banjo-Kazooie: Grunty's Revenge",
+  game: "Banjo-Kazooie: Grunty's Revenge",
+  developers: ["jellees"],
+  publisher: "THQ",
+  originalYear: 2003,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/jellees/bkgr"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Game Boy Advance"],
+  notes: "Banjo-Kazooie: Grunty's Revenge: decompilation by jellees for Windows. Bring your own copy of the game.",
+  notesEs: "Banjo-Kazooie: Grunty's Revenge: decompilación de jellees para Windows. Aporta tu propia copia del juego.",
+};
