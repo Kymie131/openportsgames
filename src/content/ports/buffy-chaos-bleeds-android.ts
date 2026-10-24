@@ -24,9 +24,9 @@ export const buffyChaosBleedsAndroid: Port = {
   summary: "Buffy the Vampire Slayer: Chaos Bleeds is a 2003 beat 'em up video game developed by Eurocom and published by Vivendi Universal Games for GameCube, PlayStation 2 and Xbox. It is the fourth game in the Buffy the Vampire Slayer franchise and the only multiplatform game. It was the first to allow players to control characters other than Buffy Summers and feature a fully developed multiplayer mode.",
   summaryEs: "Buffy the Vampire Slayer: Chaos Bleeds es un videojuego de acción y aventura en 2003.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/buffy-the-vampire-slayer-chaos-bleeds.svg",
-    alt: "Buffy the Vampire Slayer: Chaos Bleeds (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Buffy%20the%20Vampire%20Slayer%20-%20Chaos%20Bleeds%20(USA).png",
+    alt: "Buffy the Vampire Slayer: Chaos Bleeds (box art)",
+    credit: "libretro",
   },
   notes: "Native port of Buffy the Vampire Slayer: Chaos Bleeds (Xbox) for Windows and Android. Bring your own disc.",
   notesEs: "Port nativo de Buffy the Vampire Slayer: Chaos Bleeds (Xbox) para Windows y Android. Aporta tu propio disco.",

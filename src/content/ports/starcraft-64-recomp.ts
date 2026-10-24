@@ -23,9 +23,9 @@ export const starcraft64Recomp: Port = {
   summary: "StarCraft is a real-time strategy video game developed and published by Blizzard Entertainment for Microsoft Windows. The first installment of the video game series of the same name, it was released in 1998. A Classic Mac OS version was released in 1999, and a Nintendo 64 port co-developed with Mass Media and published by Nintendo was released in 2000.",
   summaryEs: "StarCraft 64 es un videojuego de estrategia publicado por Nintendo en 2000.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/starcraft-64.svg",
-    alt: "StarCraft 64 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/StarCraft%2064%20(USA).png",
+    alt: "StarCraft 64 (box art)",
+    credit: "libretro",
   },
   notes:
     "StarCraft 64 (Blizzard, 2000) rebuilt as a native port for Windows, Linux, Mac and Android with N64Recomp. It requires your own ROM.",

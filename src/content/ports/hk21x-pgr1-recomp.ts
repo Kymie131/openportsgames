@@ -24,9 +24,9 @@ export const hk21xPgr1Recomp: Port = {
   summary: "Project Gotham Racing is a 2001 arcade-style racing video game developed by Bizarre Creations and published by Microsoft Game Studios, released exclusively for the Xbox console as a launch title. It serves as the spiritual successor to Bizarre's Metropolis Street Racer and retains the Kudos system, which awards points for driving skills and style, necessary for progression rather than solely finishing races in first place. Races occur across four real-world cities, featuring a total of 204 unique circuits.",
   summaryEs: "Project Gotham Racing (PGR) es un videojuego de carreras y el primero de la serie Project Gotham Racing, desarrollado por Bizarre Creations y publicado por Microsoft Game Studios para la consola de videojuegos Xbox. Fue lanzado el 9 de noviembre de 2001 en América del Norte y el 14 de marzo de 2002 en Europa.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/project-gotham-racing.svg",
-    alt: "Project Gotham Racing (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Project%20Gotham%20Racing%20(USA).png",
+    alt: "Project Gotham Racing (box art)",
+    credit: "libretro",
   },
   notes: "Project Gotham Racing: static recompilation by hk21x for Windows. Bring your own copy of the game.",
   notesEs: "Project Gotham Racing: recompilación estática de hk21x para Windows. Aporta tu propia copia del juego.",

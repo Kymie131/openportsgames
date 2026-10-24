@@ -25,9 +25,9 @@ export const jillsandwich1998Regh2: Port = {
   summary: "Guitar Hero II is a 2006 rhythm game developed by Harmonix and published by RedOctane for the PlayStation 2 and Activision for the Xbox 360. It is the sequel to Guitar Hero (2005) and the second installment in the Guitar Hero series. The game was first released for the PlayStation 2 in November 2006, and then for the Xbox 360 in April 2007, with additional content not originally in the PlayStation 2 version.",
   summaryEs: "Guitar Hero II es un videojuego de música y secuela de Guitar Hero. Fue lanzado para PlayStation 2 en noviembre de 2006 y después para Xbox 360 en abril de 2007 con contenido adicional no publicado originalmente en la versión de PlayStation 2.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/guitar-hero-ii.svg",
-    alt: "Guitar Hero II (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Guitar%20Hero%20II%20(USA).png",
+    alt: "Guitar Hero II (box art)",
+    credit: "libretro",
   },
   notes: "Guitar Hero II: static recompilation by jillsandwich1998 for Windows. Bring your own copy of the game.",
   notesEs: "Guitar Hero II: recompilación estática de jillsandwich1998 para Windows. Aporta tu propia copia del juego.",

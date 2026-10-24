@@ -23,9 +23,9 @@ export const aerobizSupersonicDisasm: Port = {
   summary: "Aerobiz Supersonic, known as Air Management II: Kōkū Ō wo Mezase in Japan, is a business simulation video game released for the Super Nintendo Entertainment System by Koei in North America in August 1994. It was later ported to the Genesis. It is a sequel to Koei's previous airline simulation game, Aerobiz.",
   summaryEs: "Aerobiz Supersonic, conocido como Air Management II: Kōkū Ō wo Mezase en Japón, es un videojuego de simulador de negocios lanzado por Koei en agosto de 1994, disponible para Super Nintendo y Mega Drive. Es la secuela del anterior juego de Koei, Aerobiz.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/aerobiz-supersonic.svg",
-    alt: "Aerobiz Supersonic (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumbnails.libretro.com/Sega%20-%20Mega%20Drive%20-%20Genesis/Named_Boxarts/Aerobiz%20Supersonic%20(USA).png",
+    alt: "Aerobiz Supersonic (box art)",
+    credit: "libretro",
   },
   notes: "Full disassembly and reassembly project for Aerobiz Supersonic (USA) on the Sega Genesis / Mega Drive, also described as a complete static recompilation of the game.",
   notesEs: "Proyecto completo de desensamblado y reensamblado de Aerobiz Supersonic (USA) para Sega Genesis / Mega Drive, descrito también como recompilación estática completa del juego.",

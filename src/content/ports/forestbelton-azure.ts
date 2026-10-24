@@ -25,9 +25,9 @@ export const forestbeltonAzure: Port = {
   summary: "Azure Dreams is a dungeon crawler role-playing video game developed by Konami Computer Entertainment Tokyo and published by Konami for the PlayStation. A Game Boy Color game with the same name was developed by Konami Computer Entertainment Nagoya and released two years later. A spiritual sequel, Tao's Adventure: Curse of the Demon Seal, was released on the Nintendo DS in 2005.",
   summaryEs: "Azure Dreams, lanzado en Japón como Other Life: Azure Dreams es un videojuego para PlayStation distribuido por Konami que fue lanzado en el año 1997. Más tarde, una versión para Game Boy fue presentada. En 2005 salió una semi-secuela, Tao´s adventure: Curse of the Demon Seal, para la Nintendo DS.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/azure-dreams.svg",
-    alt: "Azure Dreams (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Azure%20Dreams%20(USA).png",
+    alt: "Azure Dreams (box art)",
+    credit: "libretro",
   },
   notes: "Azure Dreams: decompilation by forestbelton for Windows. Bring your own copy of the game.",
   notesEs: "Azure Dreams: decompilación de forestbelton para Windows. Aporta tu propia copia del juego.",

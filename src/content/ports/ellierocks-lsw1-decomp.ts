@@ -25,9 +25,9 @@ export const ellierocksLsw1Decomp: Port = {
   summary: "Lego Star Wars: The Video Game is a 2005 action-adventure video game based on the Lego Star Wars theme of Lego construction toys, and the first installment in the Lego video game franchise developed by Traveller's Tales, which would develop many future Lego titles from that point on. It was first released on 29 March 2005. It is a Lego video game adaptation of the prequel trilogy of George Lucas' movie franchise of the same name: The Phantom Menace, Attack of the Clones and Revenge of the Sith, with a bonus level from A New Hope.",
   summaryEs: "Lego Star Wars: The Video Game o Lego Star Wars: El videojuego es un videojuego de plataformas, basado en el universo Star Wars, que recrea las películas La amenaza fantasma, El ataque de los clones y La venganza de los Sith desde la perspectiva del juguete de construcción Lego. Fue desarrollado por Traveller's Tales y salió a la venta el 29 de marzo de 2005.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/lego-star-wars-the-video-game.svg",
-    alt: "LEGO Star Wars: The Video Game (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/LEGO%20Star%20Wars%20-%20The%20Video%20Game%20(USA).png",
+    alt: "LEGO Star Wars: The Video Game (box art)",
+    credit: "libretro",
   },
   notes: "LEGO Star Wars: The Video Game: decompilation by ellierocks for Windows. Bring your own copy of the game.",
   notesEs: "LEGO Star Wars: The Video Game: decompilación de ellierocks para Windows. Aporta tu propia copia del juego.",

@@ -25,9 +25,9 @@ export const smokedoggy044Cod2BroNativeLoader: Port = {
   summary: "Call of Duty 2: Big Red One is a first-person shooter video game developed by Treyarch and published by Activision for GameCube, PlayStation 2 and Xbox. It is a side-story of the original game Call of Duty 2, which was released on PC and Xbox 360. Both were released in 2005.",
   summaryEs: "Call of Duty 2: Big Red One es un videojuego de la Segunda Guerra Mundial para Nintendo GameCube, PlayStation 2 y Xbox y actúa como un spin-off/expansion de Call of Duty 2. Fue lanzado el 1 de noviembre de 2005, en Canadá y Estados Unidos. Mientras desarrollado por Treyarch, el personal de Gray Matter Interactive, que creó el Call of Duty: United Offensive pack de expansión para PC, también trabajó con ellos en el juego. Pi Studios contribuyó también.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/call-of-duty-2-big-red-one.svg",
-    alt: "Call of Duty 2: Big Red One (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Call%20of%20Duty%202%20-%20Big%20Red%20One%20(USA).png",
+    alt: "Call of Duty 2: Big Red One (box art)",
+    credit: "libretro",
   },
   notes: "Call of Duty 2: Big Red One: source port by SmokeDoggy044 for Windows, Linux. Bring your own copy of the game.",
   notesEs: "Call of Duty 2: Big Red One: source port de SmokeDoggy044 para Windows, Linux. Aporta tu propia copia del juego.",

@@ -25,9 +25,9 @@ export const wexosDkcrDecompilation: Port = {
   summary: "Donkey Kong Country Returns is a 2010 platform game developed by Retro Studios and published by Nintendo for the Wii console. The game was released first in North America in November 2010, and in other regions the following month. The game's story focuses on an evil group of Tiki-like creatures known as the Tiki Tak Tribe that are unleashed on Donkey Kong Island and hypnotize the island's animals into stealing Donkey Kong and Diddy Kong's banana hoard, prompting the two to traverse the island to reclaim it.",
   summaryEs: "Donkey Kong Country Returns es un videojuego de plataformas desarrollado por Retro Studios y publicado por Nintendo para la consola Wii en 2010. El juego se lanzó por primera vez en Norteamérica en noviembre de 2010 y en las regiones PAL y Japón el mes siguiente. La historia del juego se centra en un grupo malvado de criaturas parecidas a Tiki conocidas como la tribu Tiki Tak que se desatan en la isla e hipnotizan a los animales de la isla Donkey Kong para robar el tesoro de plátanos de Donkey Kong y Diddy Kong, lo que llevó a los dos a atravesar la isla para reclamarla.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/donkey-kong-country-returns.svg",
-    alt: "Donkey Kong Country Returns (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/Donkey%20Kong%20Country%20Returns%20(USA).png",
+    alt: "Donkey Kong Country Returns (box art)",
+    credit: "libretro",
   },
   notes: "Donkey Kong Country Returns: decompilation by Wexos for Windows. Bring your own copy of the game.",
   notesEs: "Donkey Kong Country Returns: decompilación de Wexos para Windows. Aporta tu propia copia del juego.",

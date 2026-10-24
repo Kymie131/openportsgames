@@ -23,9 +23,9 @@ export const theLastStoryPc: Port = {
   summary: "The Last Story is an action role-playing game developed by Mistwalker and AQ Interactive and published by Nintendo for the Wii. It was released in Japan in January 2011, Europe in February 2012 and North America by Xseed Games in August 2012. The Last Story takes place upon the island fortress of Lazulis, in a world that is slowly being drained of life by an unknown force. The story focuses on a group of mercenaries looking for work on Lazulis; one of their number, Zael, dreams of becoming a knight.",
   summaryEs: "The Last Story es un videojuego de acción y rol desarrollado por Mistwalker y AQ Interactive y publicado por Nintendo para la videoconsola Wii. Se ha observado que tanto el nombre del juego como el logotipo son muy similares a la serie Final Fantasy.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-last-story.svg",
-    alt: "The Last Story (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/The%20Last%20Story%20(USA).png",
+    alt: "The Last Story (box art)",
+    credit: "libretro",
   },
   notes: "The Last Story (Nintendo, 2011) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "The Last Story (Nintendo, 2011) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",

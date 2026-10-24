@@ -23,9 +23,9 @@ export const starWarsTheCloneWarsPc: Port = {
   summary: "Star Wars: The Clone Wars is a 2002 action game set in the Star Wars universe, developed by Pandemic Studios and published by LucasArts for GameCube, PlayStation 2 and Xbox. Additionally, the game can be purchased from the Xbox digital store and played on Xbox One and Xbox Series consoles through the Xbox backwards compatibility program.",
   summaryEs: "Star Wars: The Clone Wars puede referirse a:",
   cover: {
-    src: "https://openportsgames.com/covers/generated/star-wars-the-clone-wars.svg",
-    alt: "Star Wars: The Clone Wars (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Star%20Wars%20-%20The%20Clone%20Wars%20(USA).png",
+    alt: "Star Wars: The Clone Wars (box art)",
+    credit: "libretro",
   },
   notes: "Star Wars: The Clone Wars (LucasArts, 2002) running on Windows through static recompilation. You need your own copy of the game.",
   notesEs: "Star Wars: The Clone Wars (LucasArts, 2002) en Windows mediante recompilación estática. Necesitas tu propia copia del juego.",

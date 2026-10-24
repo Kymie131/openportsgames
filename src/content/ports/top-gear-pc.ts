@@ -23,9 +23,9 @@ export const topGearPc: Port = {
   summary: "Top Gear is a 1992 racing video game developed by Gremlin Graphics and published by Kemco for the Super Nintendo Entertainment System. The objective of the game is to become the fastest driver in the world by racing other drivers across several nations.",
   summaryEs: "Top Gear Pocket, conocido en Europa como Top Gear Rally, es un videojuego de carreras desarrollado por Kemco y lanzado para la consola portátil Game Boy Color en 1999. Una secuela, \"Top Gear Pocket 2\", fue lanzada en 2000.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/top-gear.svg",
-    alt: "Top Gear (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Top%20Gear%20(USA).png",
+    alt: "Top Gear (box art)",
+    credit: "libretro",
   },
   notes: "Top Gear (Kemco, 1992) running on Windows through static recompilation. Latest release: v2.1.0. You need your own copy of the game.",
   notesEs: "Top Gear (Kemco, 1992) en Windows mediante recompilación estática. Última release: v2.1.0. Necesitas tu propia copia del juego.",

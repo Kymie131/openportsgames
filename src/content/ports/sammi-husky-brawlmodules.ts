@@ -25,9 +25,9 @@ export const sammiHuskyBrawlmodules: Port = {
   summary: "Super Smash Bros. Brawl is a 2008 fighting game developed by Sora Ltd. and published by Nintendo for the Wii. The third installment in the Super Smash Bros. series and the successor to Super Smash Bros. Melee, it was the first game in the series not to be developed primarily by HAL Laboratory. The crossover game was developed by a creative team under Sora that included members from several Nintendo and third-party development teams. It was announced at a pre-E3 2005 press conference by Nintendo president Satoru Iwata.",
   summaryEs: "Super Smash Bros. Brawl es un videojuego de lucha distribuido por Nintendo para la videoconsola Wii. Como la tercera entrega de la serie Super Smash Bros., la lista de personajes de Brawl se expande con respecto a la de su predecesor Super Smash Bros. Melee, y es el primer juego dentro de la serie en presentar personajes de franquicias externas a Nintendo, con la inclusión de Solid Snake de la serie Metal Gear de Konami, y Sonic de la serie Sonic the Hedgehog de Sega.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/super-smash-bros-brawl.svg",
-    alt: "Super Smash Bros. Brawl (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/Super%20Smash%20Bros.%20Brawl%20(USA).png",
+    alt: "Super Smash Bros. Brawl (box art)",
+    credit: "libretro",
   },
   notes: "Super Smash Bros. Brawl: engine remake by Sammi-Husky for Windows. Bring your own copy of the game.",
   notesEs: "Super Smash Bros. Brawl: recreación de motor de Sammi-Husky para Windows. Aporta tu propia copia del juego.",

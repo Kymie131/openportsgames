@@ -1,9 +1,10 @@
 # Informe de metadatos de juegos
 
-- Fichas con metadatos de juego: **2217**
-- Sinopsis añadidas: **4**
+- Fichas con metadatos de juego: **2215**
+- Sinopsis añadidas: **0**
 - Publishers completados (solo si faltaban): **0**
-- Sinopsis generadas a partir de la ficha: **295**`n- Fichas sin sinopsis verificada (resumen generado): **295**
+- Sinopsis generadas a partir de la ficha: **295**
+- Fichas sin sinopsis verificada (resumen generado): **295**
 - Años que difieren más de 1 respecto a la fuente: **95**
 
 ## Años a revisar

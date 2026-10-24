@@ -24,9 +24,9 @@ export const tanookistudiosSupermarioallstarsrecomp: Port = {
   summary: "Super Mario All-Stars is a 1993 platform game compilation developed and published by Nintendo for the Super Nintendo Entertainment System (SNES). It contains remakes of four Super Mario games released for the Nintendo Entertainment System (NES) and the Famicom Disk System: Super Mario Bros. (1985), Super Mario Bros.: The Lost Levels, Super Mario Bros. 2 (1988), and Super Mario Bros. 3 (1988). As in the original games, players control the Italian plumber Mario and his brother Luigi through themed worlds, collecting power-ups, avoiding obstacles, and finding secrets.",
   summaryEs: "Super Mario All-Stars es una compilación de videojuegos de plataformas para Super Nintendo Entertainment System (SNES). Contiene remakes de cuatro juegos de Super Mario lanzados por Nintendo para la Nintendo Entertainment System (NES) y Famicom Disk System: Super Mario Bros. (1985), Super Mario Bros.: The Lost Levels (1986), Super Mario Bros. 2 (1988) y Super Mario Bros. 3 (1988). Al igual que en los originales, los usuarios controlan al fontanero italiano Mario y a su hermano Luigi a través de mundos temáticos, recogen potenciadores, evitan obstáculos y descubren secretos.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/super-mario-all-stars.svg",
-    alt: "Super Mario All-Stars (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Mario%20All-Stars%20(USA).png",
+    alt: "Super Mario All-Stars (box art)",
+    credit: "libretro",
   },
   notes: "Super Mario All-Stars: static recompilation by TanookiStudios for Windows, Linux, macOS. Bring your own copy of the game.",
   notesEs: "Super Mario All-Stars: recompilación estática de TanookiStudios para Windows, Linux, macOS. Aporta tu propia copia del juego.",

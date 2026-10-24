@@ -23,9 +23,9 @@ export const monsterHunter3UltimatePc: Port = {
   summary: "Monster Hunter 3 Ultimate is a action-adventure game in 2011.",
   summaryEs: "Monster Hunter 3 Ultimate es un videojuego desarrollado y publicado por Capcom para Nintendo 3DS y Wii U. La versión para Nintendo 3DS salió a la venta el 10 de diciembre de 2011 en Japón como Monster Hunter Tri G . Se trata de una adaptación del título de Wii Monster Hunter Tri. El juego fue anunciado oficialmente en el Tokyo Game Show de 2011. Sus novedades son principalmente la inserción de nuevos monstruos como el Brachydios o el Guran Miraosu y la inclusión de los monstruos que salieron en el Monster Hunter Portable 3, que no llegó al mercado occidental.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/monster-hunter-3-ultimate.svg",
-    alt: "Monster Hunter 3 Ultimate (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Wii%20U/Named_Boxarts/Monster%20Hunter%203%20Ultimate%20(USA).png",
+    alt: "Monster Hunter 3 Ultimate (box art)",
+    credit: "libretro",
   },
   notes: "Monster Hunter 3 Ultimate (Capcom, 2013) running on Windows and Linux through static recompilation. You need your own copy of the game.",
   notesEs: "Monster Hunter 3 Ultimate (Capcom, 2013) en Windows and Linux mediante recompilación estática. Necesitas tu propia copia del juego.",

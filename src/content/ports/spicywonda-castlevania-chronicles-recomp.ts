@@ -24,9 +24,9 @@ export const spicywondaCastlevaniaChroniclesRecomp: Port = {
   summary: "Castlevania Chronicles is a 2001 platform game developed by Konami Computer Entertainment Tokyo and published by Konami for the PlayStation. It includes two distinct game modes: Original Mode and Arrange Mode. Original Mode is a direct port of the 1993 game Akumajō Dracula for the X68000 home computer. This version of Akumajō Dracula is itself a remake of the original Castlevania, which was released for the Nintendo Entertainment System in 1986. Players control Simon Belmont, a vampire hunter who has entered Dracula's castle to defeat him and save Transylvania.",
   summaryEs: "Castlevania Chronicles es un videojuego producido por Konami para la Sharp X68000. En su formato original de 2 discos floppy, el juego nunca fue lanzado a la venta fuera de Japón ya que la X68000 era una producto exclusivo del mercado japonés. Fue nombrado no oficialmente como Akumajō Dracula X68000\" y \"Castlevania X68000\".",
   cover: {
-    src: "https://openportsgames.com/covers/generated/castlevania-chronicles.svg",
-    alt: "Castlevania Chronicles (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Castlevania%20Chronicles%20(USA).png",
+    alt: "Castlevania Chronicles (box art)",
+    credit: "libretro",
   },
   notes: "Castlevania Chronicles: static recompilation by Spicywonda for Windows, macOS. Bring your own copy of the game.",
   notesEs: "Castlevania Chronicles: recompilación estática de Spicywonda para Windows, macOS. Aporta tu propia copia del juego.",

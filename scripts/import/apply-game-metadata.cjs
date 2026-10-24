@@ -30,10 +30,10 @@ const GENRE_EN = {
   puzzle: "puzzle", music: "music",
 };
 const GENRE_ES = {
-  platformer: "plataformas", "action-adventure": "acción y aventura", rpg: "rol",
+  platformer: "plataformas", "action-adventure": "acciï¿½n y aventura", rpg: "rol",
   racing: "carreras", strategy: "estrategia", shooter: "disparos", fighting: "lucha",
-  sports: "deportes", simulation: "simulación", "open-world": "mundo abierto",
-  puzzle: "puzles", music: "música",
+  sports: "deportes", simulation: "simulaciï¿½n", "open-world": "mundo abierto",
+  puzzle: "puzles", music: "mï¿½sica",
 };
 
 function insertSummary(text, en, es, isGenerated) {
@@ -63,7 +63,7 @@ for (const file of fs.readdirSync(DIR)) {
     const publisher = text.match(/publisher:\s*"([^"]+)"/)?.[1];
     const knownPublisher = publisher && publisher !== "Unknown" ? publisher : null;
     const en = `${game} is a ${GENRE_EN[genre] ?? "video"} game${knownPublisher ? ` published by ${knownPublisher}` : ""}${system ? ` for ${system}` : ""}${year ? `, released in ${year}` : ""}.`;
-    const es = `${game} es un videojuego de ${GENRE_ES[genre] ?? "acción"}${knownPublisher ? ` publicado por ${knownPublisher}` : ""}${system ? ` para ${system}` : ""}${year ? `, lanzado en ${year}` : ""}.`;
+    const es = `${game} es un videojuego de ${GENRE_ES[genre] ?? "acciï¿½n"}${knownPublisher ? ` publicado por ${knownPublisher}` : ""}${system ? ` para ${system}` : ""}${year ? `, lanzado en ${year}` : ""}.`;
     text = insertSummary(text, en, es, true);
     fs.writeFileSync(full, text);
     generated++;
@@ -104,7 +104,8 @@ const lines = [
   `- Fichas con metadatos de juego: **${matched}**`,
   `- Sinopsis aÃ±adidas: **${summaries}**`,
   `- Publishers completados (solo si faltaban): **${publishers}**`,
-  `- Sinopsis generadas a partir de la ficha: **${generated}**` + "`n" + `- Fichas sin sinopsis verificada (resumen generado): **${unresolved.length}**`,
+  `- Sinopsis generadas a partir de la ficha: **${generated}**`,
+  `- Fichas sin sinopsis verificada (resumen generado): **${unresolved.length}**`,
   `- AÃ±os que difieren mÃ¡s de 1 respecto a la fuente: **${mismatches.length}**`,
   "",
   "## AÃ±os a revisar",

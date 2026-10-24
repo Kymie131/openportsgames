@@ -25,9 +25,9 @@ export const invictusPotensSmt4Recomp: Port = {
   summary: "Shin Megami Tensei IV is a role-playing video game developed and published by Atlus for the Nintendo 3DS. The game is the fourth mainline entry in the Shin Megami Tensei series, the central series of the Megami Tensei franchise, though no direct story connection exists to previous entries. It was released in May and July 2013 for Japan and North America respectively. It was released digitally in PAL territories in October 2014.",
   summaryEs: "Shin Megami Tensei IV es un videojuego de rol japonés postapocalíptico desarrollado por Atlus para la Nintendo 3DS. Es parte de la serie Shin Megami Tensei, la serie central de la franquicia Megami Tensei, aunque no existe una conexión directa entre la historia y las entregas anteriores. Fue lanzado en mayo y julio de 2013 para Japón y Norteamérica respectivamente. Fue lanzado digitalmente en Europa en octubre de 2014.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/shin-megami-tensei-iv.svg",
-    alt: "Shin Megami Tensei IV (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%203DS/Named_Boxarts/Shin%20Megami%20Tensei%20IV%20(USA).png",
+    alt: "Shin Megami Tensei IV (box art)",
+    credit: "libretro",
   },
   notes: "Shin Megami Tensei IV: static recompilation by Invictus-potens for Windows. Bring your own copy of the game.",
   notesEs: "Shin Megami Tensei IV: recompilación estática de Invictus-potens para Windows. Aporta tu propia copia del juego.",

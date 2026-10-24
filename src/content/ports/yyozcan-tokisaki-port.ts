@@ -25,9 +25,9 @@ export const yyozcanTokisakiPort: Port = {
   summary: "Killzone 2 is a 2009 first-person shooter video game developed by Guerrilla Games and published by Sony Computer Entertainment for the PlayStation 3. It is the second main installment in the Killzone series, following 2004's Killzone.",
   summaryEs: "Killzone 2 es un videojuego shooter de ciencia ficción de la compañía Guerrilla Games para la consola PlayStation 3. Es la segunda entrega dentro de la saga Killzone, la cual empezó en la consola PlayStation 2 con el juego Killzone y fue continuada más tarde con Killzone: Liberation dentro de la portátil PlayStation Portable. Fue anunciado por primera vez en la Feria de Videojuegos E3 en el año 2005 en Los Ángeles, California.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/killzone-2.svg",
-    alt: "Killzone 2 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%203/Named_Boxarts/Killzone%202%20(USA).png",
+    alt: "Killzone 2 (box art)",
+    credit: "libretro",
   },
   notes: "Killzone 2: static recompilation by YYOzcan for Windows, Linux. Bring your own copy of the game.",
   notesEs: "Killzone 2: recompilación estática de YYOzcan para Windows, Linux. Aporta tu propia copia del juego.",

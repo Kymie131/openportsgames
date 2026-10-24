@@ -24,9 +24,9 @@ export const yunophiliaBlackknightrecomp: Port = {
   summary: "Sonic and the Black Knight is a 2009 platform game developed by Sonic Team and published by Sega for the Wii. A spin-off of the Sonic the Hedgehog series, it is the first and only Sonic video game in the franchise to not include the franchise's main antagonist, Dr.",
   summaryEs: "Sonic y el Caballero Negro es un videojuego de la serie Sonic the Hedgehog, sacado exclusivamente para la consola Wii como segunda entrada en las series de Sonic Storybook , a raíz de Sonic y los Anillos Secretos. El juego está dirigido por Tetsu Katano, quien fue el líder de programación de los títulos Sonic Adventure y Sonic Heroes.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/sonic-and-the-black-knight.svg",
-    alt: "Sonic and the Black Knight (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/Sonic%20and%20the%20Black%20Knight%20(USA).png",
+    alt: "Sonic and the Black Knight (box art)",
+    credit: "libretro",
   },
   notes: "Sonic and the Black Knight: static recompilation by yunophilia for Windows. Bring your own copy of the game.",
   notesEs: "Sonic and the Black Knight: recompilación estática de yunophilia para Windows. Aporta tu propia copia del juego.",

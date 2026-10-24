@@ -25,9 +25,9 @@ export const testyourmineCvaos: Port = {
   summary: "Castlevania: Aria of Sorrow is a 2003 action role-playing game developed by Konami Computer Entertainment Tokyo and published by Konami for the Game Boy Advance. It is the 20th main entry in the Castlevania series, as well as the third and final game produced for the system. Producer Koji Igarashi, who had led the production teams for previous Castlevania games, oversaw Aria of Sorrow's development in parallel with its predecessor Castlevania: Harmony of Dissonance (2002). Michiru Yamane returned to compose the music alongside Takashi Yoshida and Soshiro Hokkai.",
   summaryEs: "Castlevania: Aria of Sorrow es un videojuego que forma parte de la serie de Castlevania creada por Konami. Se lanzó para la consola Game Boy Advance en 2003, y es el cuarto juego que utiliza el célebre estilo aventura-rpg de Castlevania: Symphony of the Night, siendo considerado su mejor heredero, secuela y su réplica portátil. El título japonés es Castlevania: Akatsuki no Minuet.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/castlevania-aria-of-sorrow.svg",
-    alt: "Castlevania: Aria of Sorrow (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Castlevania%20-%20Aria%20of%20Sorrow%20(USA).png",
+    alt: "Castlevania: Aria of Sorrow (box art)",
+    credit: "libretro",
   },
   notes: "Castlevania: Aria of Sorrow: decompilation by testyourmine for Windows. Bring your own copy of the game.",
   notesEs: "Castlevania: Aria of Sorrow: decompilación de testyourmine para Windows. Aporta tu propia copia del juego.",

@@ -24,9 +24,9 @@ export const warOfTheMonstersRecomp: Port = {
   summary: "War of the Monsters is a fighting video game developed by Incog Inc. Entertainment and published by Sony Computer Entertainment for the PlayStation 2. Santa Monica Studio assisted on development, The game was released on the PlayStation 2 in January 2003 in North America and in April in Europe.",
   summaryEs: "War of the Monsters es un videojuego de lucha para PlayStation 2 desarrollado por Incog Inc. Entertainment y publicado por Sony Computer Entertainment. Santa Monica Studio ayudó en el desarrollo. El juego se lanzó en PlayStation 2 en enero de 2003 en Norteamérica y en abril en Europa. Para PlayStation 4 fue lanzado en diciembre de 2015.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/war-of-the-monsters.svg",
-    alt: "War of the Monsters (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/War%20of%20the%20Monsters%20(USA).png",
+    alt: "War of the Monsters (box art)",
+    credit: "libretro",
   },
   notes: "Work-in-progress static recompilation of War of the Monsters (PS2) with quality-of-life fixes and new features. Bring your own disc.",
   notesEs: "Recompilación estática en curso de War of the Monsters (PS2), con mejoras de calidad de vida y funciones nuevas. Aporta tu propio disco.",

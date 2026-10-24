@@ -23,9 +23,9 @@ export const goGoAckmanPc: Port = {
   summary: "Go Go Ackman is a platform game published by Banpresto in 1994.",
   summaryEs: "Go Go Ackman es un videojuego de plataformas publicado por Banpresto en 1994.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/go-go-ackman.svg",
-    alt: "Go Go Ackman (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Go%20Go%20Ackman%20(Japan).png",
+    alt: "Go Go Ackman (box art)",
+    credit: "libretro",
   },
   notes: "Go Go Ackman (Banpresto, 1994) running on Windows through static recompilation. Latest release: v1.0. You need your own copy of the game.",
   notesEs: "Go Go Ackman (Banpresto, 1994) en Windows mediante recompilación estática. Última release: v1.0. Necesitas tu propia copia del juego.",

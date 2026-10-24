@@ -22,9 +22,9 @@ export const Paperboy: Port = {
   summary: "Paperboy is a 1985 action video game developed and published by Atari Games for arcades. The player takes the role of a paperboy who delivers a fictional newspaper called The Daily Sun to houses on a street while riding his bicycle. The arcade version featured bike handlebars as the controller.",
   summaryEs: "Paperboy es un videojuego desarrollado y publicado por Atari Games en 1984. Inicialmente diseñado como arcade, cuenta también con adaptaciones para ordenadores personales y videoconsolas.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/paperboy.svg",
-    alt: "Paperboy (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Paperboy%20(USA).png",
+    alt: "Paperboy (box art)",
+    credit: "libretro",
   },
   notes: "Decompilation of Paperboy (N64).",
   notesEs: "Decompilación de Paperboy (N64).",

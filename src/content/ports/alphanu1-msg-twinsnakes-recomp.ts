@@ -25,9 +25,9 @@ export const alphanu1MsgTwinsnakesRecomp: Port = {
   summary: "Metal Gear Solid: The Twin Snakes is a 2004 action-adventure stealth game developed by Konami and Silicon Knights and published by Konami for the GameCube. It is a remake of 1998's Metal Gear Solid.",
   summaryEs: "Metal Gear Solid: The Twin Snakes es un videojuego de acción y sigilo desarrollado por Silicon Knights y producido por Konami. Fue distribuido en el año 2004 para la consola GameCube de Nintendo.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/metal-gear-solid-the-twin-snakes.svg",
-    alt: "Metal Gear Solid: The Twin Snakes (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Metal%20Gear%20Solid%20-%20The%20Twin%20Snakes%20(USA).png",
+    alt: "Metal Gear Solid: The Twin Snakes (box art)",
+    credit: "libretro",
   },
   notes: "Metal Gear Solid: The Twin Snakes: static recompilation by alphanu1 for Windows. Bring your own copy of the game.",
   notesEs: "Metal Gear Solid: The Twin Snakes: recompilación estática de alphanu1 para Windows. Aporta tu propia copia del juego.",
