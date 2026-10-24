@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gillou68310Dukenukemzerohour: Port = {
+  schema: "port",
+  id: "gillou68310-dukenukemzerohour",
+  title: "Duke Nukem: Zero Hour",
+  game: "Duke Nukem: Zero Hour",
+  developers: ["Gillou68310"],
+  publisher: "GT Interactive",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Gillou68310/DukeNukemZeroHour"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Duke%20Nukem%20-%20Zero%20Hour%20(USA).png",
+    alt: "Duke Nukem: Zero Hour (box art)",
+    credit: "Box art",
+  },
+  notes: "Duke Nukem: Zero Hour: decompilation by Gillou68310 for Windows. Bring your own copy of the game.",
+  notesEs: "Duke Nukem: Zero Hour: decompilación de Gillou68310 para Windows. Aporta tu propia copia del juego.",
+};

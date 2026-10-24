@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const davidsm64DiddyKongRacing: Port = {
+  schema: "port",
+  id: "davidsm64-diddy-kong-racing",
+  title: "Diddy Kong Racing",
+  game: "Diddy Kong Racing",
+  developers: ["DavidSM64"],
+  publisher: "Nintendo",
+  originalYear: 1997,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/DavidSM64/Diddy-Kong-Racing"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/72/Diddy_Kong_Racing_Cover_Art.png",
+    alt: "Diddy Kong Racing (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Diddy Kong Racing: decompilation by DavidSM64 for Windows. Bring your own copy of the game.",
+  notesEs: "Diddy Kong Racing: decompilación de DavidSM64 para Windows. Aporta tu propia copia del juego.",
+};

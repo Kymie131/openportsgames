@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const hectorbaileyByteTactics: Port = {
+  schema: "port",
+  id: "hectorbailey-byte-tactics",
+  title: "Total Annihilation (TA: Byte Tactics)",
+  game: "Total Annihilation",
+  developers: ["HectorBailey"],
+  publisher: "Wargaming.net",
+  originalYear: 2015,
+  portType: "decompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/HectorBailey/byte-tactics"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Total Annihilation: decompilation by HectorBailey for Windows. Bring your own copy of the game.",
+  notesEs: "Total Annihilation: decompilación de HectorBailey para Windows. Aporta tu propia copia del juego.",
+};

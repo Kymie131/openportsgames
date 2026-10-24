@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const genrythefox0ProjectIron6: Port = {
+  schema: "port",
+  id: "genrythefox0-project-iron-6",
+  title: "Tekken 6",
+  game: "Tekken 6",
+  developers: ["GenryTheFox0"],
+  publisher: "Bandai Namco",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.0-beta", date: "2026-09-24" },
+  sources: ["https://github.com/GenryTheFox0/Project-Iron-6"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/21/Tekken_6_Box_Art.jpg",
+    alt: "Tekken 6 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Tekken 6: static recompilation by GenryTheFox0 for Windows. Bring your own copy of the game.",
+  notesEs: "Tekken 6: recompilación estática de GenryTheFox0 para Windows. Aporta tu propia copia del juego.",
+};

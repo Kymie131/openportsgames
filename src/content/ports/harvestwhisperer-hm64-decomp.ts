@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const harvestwhispererHm64Decomp: Port = {
+  schema: "port",
+  id: "harvestwhisperer-hm64-decomp",
+  title: "Harvest Moon 64",
+  game: "Harvest Moon 64",
+  developers: ["harvestwhisperer"],
+  publisher: "Nintendo",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.0", date: "2026-05-26" },
+  sources: ["https://github.com/harvestwhisperer/hm64-decomp"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6a/Harvest_Moon_64_Coverart.png",
+    alt: "Harvest Moon 64 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Harvest Moon 64: decompilation by harvestwhisperer for Windows. Bring your own copy of the game.",
+  notesEs: "Harvest Moon 64: decompilación de harvestwhisperer para Windows. Aporta tu propia copia del juego.",
+};

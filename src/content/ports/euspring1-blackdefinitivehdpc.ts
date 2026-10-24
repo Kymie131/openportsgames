@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const euspring1Blackdefinitivehdpc: Port = {
+  schema: "port",
+  id: "euspring1-blackdefinitivehdpc",
+  title: "BLACK (BlackDefinitiveHDPC)",
+  game: "BLACK",
+  developers: ["euspring1"],
+  publisher: "Electronic Arts",
+  originalYear: 2006,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.3", date: "2026-10-21" },
+  sources: ["https://github.com/euspring1/BlackDefinitiveHDPC"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox"],
+  notes: "BLACK: source port by euspring1 for Windows. Bring your own copy of the game.",
+  notesEs: "BLACK: source port de euspring1 para Windows. Aporta tu propia copia del juego.",
+};

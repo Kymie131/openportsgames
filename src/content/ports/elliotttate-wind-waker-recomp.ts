@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const elliotttateWindWakerRecomp: Port = {
+  schema: "port",
+  id: "elliotttate-wind-waker-recomp",
+  title: "The Legend of Zelda: The Wind Waker (elliotttate)",
+  game: "The Legend of Zelda: The Wind Waker",
+  developers: ["elliotttate"],
+  publisher: "Nintendo",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/elliotttate/Wind-Waker-Recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
+    alt: "The Legend of Zelda: The Wind Waker (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Legend of Zelda: The Wind Waker: static recompilation by elliotttate for Windows. Bring your own copy of the game.",
+  notesEs: "The Legend of Zelda: The Wind Waker: recompilación estática de elliotttate para Windows. Aporta tu propia copia del juego.",
+};

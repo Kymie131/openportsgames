@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const fmil95SoulRe: Port = {
+  schema: "port",
+  id: "fmil95-soul-re",
+  title: "Legacy of Kain: Soul Reaver",
+  game: "Legacy of Kain: Soul Reaver",
+  developers: ["fmil95"],
+  publisher: "Eidos Interactive",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/fmil95/soul-re"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Legacy%20of%20Kain%20-%20Soul%20Reaver%20(Europe).png",
+    alt: "Legacy of Kain: Soul Reaver (box art)",
+    credit: "Box art",
+  },
+  notes: "Legacy of Kain: Soul Reaver: decompilation by fmil95 for Windows. Bring your own copy of the game.",
+  notesEs: "Legacy of Kain: Soul Reaver: decompilación de fmil95 para Windows. Aporta tu propia copia del juego.",
+};

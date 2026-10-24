@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const riseioProjectBumble: Port = {
+  schema: "port",
+  id: "riseio-project-bumble",
+  title: "Buck Bumble ( project-bumble)",
+  game: "Buck Bumble",
+  developers: ["riseio"],
+  publisher: "Ubisoft",
+  originalYear: 1998,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/riseio/project-bumble"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Buck%20Bumble%20(Europe)%20(En,Fr,De,Es,It).png",
+    alt: "Buck Bumble (box art)",
+    credit: "Box art",
+  },
+  notes: "Buck Bumble: static recompilation by riseio for Windows. Bring your own copy of the game.",
+  notesEs: "Buck Bumble: recompilación estática de riseio para Windows. Aporta tu propia copia del juego.",
+};

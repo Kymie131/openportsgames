@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mahmoudMessTekken6Recomp: Port = {
+  schema: "port",
+  id: "mahmoud-mess-tekken6-recomp",
+  title: "Tekken 6 (tekken6-recomp)",
+  game: "Tekken 6",
+  developers: ["mahmoud-mess"],
+  publisher: "Bandai Namco",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/mahmoud-mess/tekken6-recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Arcade"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/21/Tekken_6_Box_Art.jpg",
+    alt: "Tekken 6 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Tekken 6: static recompilation by mahmoud-mess for Windows. Bring your own copy of the game.",
+  notesEs: "Tekken 6: recompilación estática de mahmoud-mess para Windows. Aporta tu propia copia del juego.",
+};

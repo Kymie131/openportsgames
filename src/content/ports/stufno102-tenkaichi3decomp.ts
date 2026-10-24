@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const stufno102Tenkaichi3decomp: Port = {
+  schema: "port",
+  id: "stufno102-tenkaichi3decomp",
+  title: "Dragon Ball Z: Budokai Tenkaichi 3 (Tenkaichi3Decomp, BT3 Online)",
+  game: "Dragon Ball Z: Budokai Tenkaichi 3",
+  developers: ["stufno102"],
+  publisher: "Bandai Namco",
+  originalYear: 2007,
+  portType: "source-port",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["web", "windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/stufno102/Tenkaichi3Decomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Dragon%20Ball%20Z%20-%20Budokai%20Tenkaichi%203%20(Europe,%20Australia)%20(En,Fr,De,Es,It).png",
+    alt: "Dragon Ball Z: Budokai Tenkaichi 3 (box art)",
+    credit: "Box art",
+  },
+  notes: "Dragon Ball Z: Budokai Tenkaichi 3: source port by stufno102 for the browser, Windows. Playable in the browser.",
+  notesEs: "Dragon Ball Z: Budokai Tenkaichi 3: source port de stufno102 para el navegador, Windows. Jugable en el navegador.",
+};

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const overkilllabs3DriveclubRecomp: Port = {
+  schema: "port",
+  id: "overkilllabs3-driveclub-recomp",
+  title: "DriveClub (DriveClub Recomp)",
+  game: "DriveClub",
+  developers: ["OverkillLabs3"],
+  publisher: "Sony Interactive Entertainment",
+  originalYear: 2014,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.3.0", date: "2026-10-23" },
+  sources: ["https://github.com/OverkillLabs3/driveclub-recomp"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6f/Driveclub_box_art.jpg",
+    alt: "DriveClub (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "DriveClub: static recompilation by OverkillLabs3 for Windows. Bring your own copy of the game.",
+  notesEs: "DriveClub: recompilación estática de OverkillLabs3 para Windows. Aporta tu propia copia del juego.",
+};

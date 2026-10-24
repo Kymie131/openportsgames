@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tanepiperUnbanished: Port = {
+  schema: "port",
+  id: "tanepiper-unbanished",
+  title: "Banished (Un-Banished)",
+  game: "Banished",
+  developers: ["tanepiper"],
+  publisher: "Nacon",
+  originalYear: 2026,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["web"],
+  status: "beta",
+  release: { version: "0.5.0", date: "2026-10-23" },
+  sources: ["https://github.com/tanepiper/unbanished"],
+  license: { spdx: "Apache-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Banished: browser port by tanepiper for the browser. Playable in the browser.",
+  notesEs: "Banished: port de navegador de tanepiper para el navegador. Jugable en el navegador.",
+};

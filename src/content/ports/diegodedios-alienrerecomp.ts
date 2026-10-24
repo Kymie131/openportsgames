@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const diegodediosAlienrerecomp: Port = {
+  schema: "port",
+  id: "diegodedios-alienrerecomp",
+  title: "Alien Resurrection (AlienReRecomp)",
+  game: "Alien Resurrection",
+  developers: ["DiegoDeDios"],
+  publisher: "Fox Interactive",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.6", date: "2026-10-23" },
+  sources: ["https://github.com/DiegoDeDios/AlienReRecomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Alien%20Resurrection%20(Europe)%20(En,Fr,De,Es,It).png",
+    alt: "Alien Resurrection (box art)",
+    credit: "Box art",
+  },
+  notes: "Alien Resurrection: static recompilation by DiegoDeDios for Windows. Bring your own copy of the game.",
+  notesEs: "Alien Resurrection: recompilación estática de DiegoDeDios para Windows. Aporta tu propia copia del juego.",
+};

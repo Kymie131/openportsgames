@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mustafasamer93ApocalypsePcNativePort: Port = {
+  schema: "port",
+  id: "mustafasamer93-apocalypse-pc-native-port",
+  title: "Apocalypse (Project Repocalypse)",
+  game: "Apocalypse",
+  developers: ["MustafaSamer93"],
+  publisher: "Activision",
+  originalYear: 1998,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-10-13" },
+  sources: ["https://github.com/MustafaSamer93/Apocalypse-PC-Native-Port"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Apocalypse%20(Europe).png",
+    alt: "Apocalypse (box art)",
+    credit: "Box art",
+  },
+  notes: "Apocalypse: source port by MustafaSamer93 for Windows. Bring your own copy of the game.",
+  notesEs: "Apocalypse: source port de MustafaSamer93 para Windows. Aporta tu propia copia del juego.",
+};

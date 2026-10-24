@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const crowdedStreet3sDecomp: Port = {
+  schema: "port",
+  id: "crowded-street-3s-decomp",
+  title: "Street Fighter III: 3rd Strike",
+  game: "Street Fighter III: 3rd Strike",
+  developers: ["crowded-street"],
+  publisher: "Capcom",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/crowded-street/3s-decomp"],
+  license: { spdx: "AGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e6/Street_Fighter_III_3rd_Strike_%28flyer%29.png",
+    alt: "Street Fighter III: 3rd Strike (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Street Fighter III: 3rd Strike: decompilation by crowded-street for Windows. Bring your own copy of the game.",
+  notesEs: "Street Fighter III: 3rd Strike: decompilación de crowded-street para Windows. Aporta tu propia copia del juego.",
+};

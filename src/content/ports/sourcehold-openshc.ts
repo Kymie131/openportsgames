@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sourceholdOpenshc: Port = {
+  schema: "port",
+  id: "sourcehold-openshc",
+  title: "Stronghold Crusader (OpenSHC)",
+  game: "Stronghold Crusader",
+  developers: ["sourcehold"],
+  publisher: "Firefly Studios",
+  originalYear: 2014,
+  portType: "reimplementation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sourcehold/OpenSHC"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Stronghold Crusader: engine remake by sourcehold for Windows. Bring your own copy of the game.",
+  notesEs: "Stronghold Crusader: recreación de motor de sourcehold para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const apfelteesaftOt6Reconstruction: Port = {
+  schema: "port",
+  id: "apfelteesaft-ot6-reconstruction",
+  title: "Fortnite (OT6-Reconstruction)",
+  game: "Fortnite",
+  developers: ["ApfelTeeSaft"],
+  publisher: "Unknown",
+  originalYear: 2016,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ApfelTeeSaft/OT6-Reconstruction"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Fortnite: decompilation by ApfelTeeSaft for Windows. Bring your own copy of the game.",
+  notesEs: "Fortnite: decompilación de ApfelTeeSaft para Windows. Aporta tu propia copia del juego.",
+};

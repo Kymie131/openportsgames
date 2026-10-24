@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mrxenginnerRevc: Port = {
+  schema: "port",
+  id: "mrxenginner-revc",
+  title: "Grand Theft Auto: Vice City",
+  game: "Grand Theft Auto: Vice City",
+  developers: ["mrxenginner"],
+  publisher: "Rockstar Games",
+  originalYear: 2002,
+  portType: "decompilation",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/mrxenginner/reVC"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/ce/Vice-city-cover.jpg",
+    alt: "Grand Theft Auto: Vice City (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Grand Theft Auto: Vice City: decompilation by mrxenginner for Windows. Bring your own copy of the game.",
+  notesEs: "Grand Theft Auto: Vice City: decompilación de mrxenginner para Windows. Aporta tu propia copia del juego.",
+};

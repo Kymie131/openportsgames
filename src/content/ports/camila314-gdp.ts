@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const camila314Gdp: Port = {
+  schema: "port",
+  id: "camila314-gdp",
+  title: "Geometry Dash (gdp)",
+  game: "Geometry Dash",
+  developers: ["camila314"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/camila314/gdp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/322170/header.jpg",
+    alt: "Geometry Dash (box art)",
+    credit: "Steam",
+  },
+  notes: "Geometry Dash: decompilation by camila314 for Windows. Bring your own copy of the game.",
+  notesEs: "Geometry Dash: decompilación de camila314 para Windows. Aporta tu propia copia del juego.",
+};

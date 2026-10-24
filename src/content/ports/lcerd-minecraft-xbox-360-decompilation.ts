@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const lcerdMinecraftXbox360Decompilation: Port = {
+  schema: "port",
+  id: "lcerd-minecraft-xbox-360-decompilation",
+  title: "Minecraft: Xbox 360 Edition",
+  game: "Minecraft: Xbox 360 Edition",
+  developers: ["LCERD"],
+  publisher: "Microsoft Studios",
+  originalYear: 2012,
+  portType: "decompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/LCERD/Minecraft-Xbox-360-Decompilation"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://images.launchbox-app.com//9229e73c-9841-4b6f-904e-70f3d0190f34.jpg",
+    alt: "Minecraft: Xbox 360 Edition (box art)",
+    credit: "LaunchBox Games Database",
+  },
+  notes: "Minecraft: Xbox 360 Edition: decompilation by LCERD for Windows. Bring your own copy of the game.",
+  notesEs: "Minecraft: Xbox 360 Edition: decompilación de LCERD para Windows. Aporta tu propia copia del juego.",
+};

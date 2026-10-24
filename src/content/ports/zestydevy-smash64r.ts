@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const zestydevySmash64r: Port = {
+  schema: "port",
+  id: "zestydevy-smash64r",
+  title: "Super Smash Bros",
+  game: "Super Smash Bros",
+  developers: ["zestydevy"],
+  publisher: "Nintendo",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/zestydevy/smash64r"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Super%20Smash%20Bros.%20(USA).png",
+    alt: "Super Smash Bros (box art)",
+    credit: "Box art",
+  },
+  notes: "Super Smash Bros: static recompilation by zestydevy for Windows, Linux. Bring your own copy of the game.",
+  notesEs: "Super Smash Bros: recompilación estática de zestydevy para Windows, Linux. Aporta tu propia copia del juego.",
+};

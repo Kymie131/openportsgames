@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const lolendorRevcdos: Port = {
+  schema: "port",
+  id: "lolendor-revcdos",
+  title: "Grand Theft Auto: Vice City (reVCDOS)",
+  game: "Grand Theft Auto: Vice City",
+  developers: ["Lolendor"],
+  publisher: "Rockstar Games",
+  originalYear: 2002,
+  portType: "source-port",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["web"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Lolendor/reVCDOS"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/ce/Vice-city-cover.jpg",
+    alt: "Grand Theft Auto: Vice City (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Grand Theft Auto: Vice City: browser port by Lolendor for the browser. Playable in the browser.",
+  notesEs: "Grand Theft Auto: Vice City: port de navegador de Lolendor para el navegador. Jugable en el navegador.",
+};

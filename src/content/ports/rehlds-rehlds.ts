@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rehldsRehlds: Port = {
+  schema: "port",
+  id: "rehlds-rehlds",
+  title: "Half-Life (ReHLDS)",
+  game: "Half-Life",
+  developers: ["rehlds"],
+  publisher: "Sierra On-Line",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "3.15.0.896", date: "2026-05-18" },
+  sources: ["https://github.com/rehlds/ReHLDS"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/70/header.jpg",
+    alt: "Half-Life (box art)",
+    credit: "Steam",
+  },
+  notes: "Half-Life: decompilation by rehlds for Windows. Bring your own copy of the game.",
+  notesEs: "Half-Life: decompilación de rehlds para Windows. Aporta tu propia copia del juego.",
+};

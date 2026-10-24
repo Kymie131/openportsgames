@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const missingthepixelMtrPgr4: Port = {
+  schema: "port",
+  id: "missingthepixel-mtr-pgr4",
+  title: "Project Gotham Racing 4 (MTR-PGR4)",
+  game: "Project Gotham Racing 4",
+  developers: ["MissingThePixel"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.1", date: "2026-10-08" },
+  sources: ["https://github.com/MissingThePixel/MTR-PGR4"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/88/PGR4boxart.jpg",
+    alt: "Project Gotham Racing 4 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Project Gotham Racing 4: static recompilation by MissingThePixel for Windows. Bring your own copy of the game.",
+  notesEs: "Project Gotham Racing 4: recompilación estática de MissingThePixel para Windows. Aporta tu propia copia del juego.",
+};

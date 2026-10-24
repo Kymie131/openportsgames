@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const khasinskiParasiteEveDecomp: Port = {
+  schema: "port",
+  id: "khasinski-parasite-eve-decomp",
+  title: "Parasite Eve",
+  game: "Parasite Eve",
+  developers: ["khasinski"],
+  publisher: "Square",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/khasinski/parasite-eve-decomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Parasite%20Eve%20(Japan).png",
+    alt: "Parasite Eve (box art)",
+    credit: "Box art",
+  },
+  notes: "Parasite Eve: decompilation by khasinski for Windows. Bring your own copy of the game.",
+  notesEs: "Parasite Eve: decompilación de khasinski para Windows. Aporta tu propia copia del juego.",
+};

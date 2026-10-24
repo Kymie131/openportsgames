@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const secondaryliferStarhaven: Port = {
+  schema: "port",
+  id: "secondarylifer-starhaven",
+  title: "Paper Mario",
+  game: "Paper Mario",
+  developers: ["SecondaryLifer"],
+  publisher: "Nintendo",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.2.2", date: "2026-10-23" },
+  sources: ["https://github.com/SecondaryLifer/StarHaven"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Paper%20Mario%20(USA).png",
+    alt: "Paper Mario (box art)",
+    credit: "Box art",
+  },
+  notes: "Paper Mario: decompilation by SecondaryLifer for Windows. Bring your own copy of the game.",
+  notesEs: "Paper Mario: decompilación de SecondaryLifer para Windows. Aporta tu propia copia del juego.",
+};

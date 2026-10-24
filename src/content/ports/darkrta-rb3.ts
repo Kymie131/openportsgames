@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const darkrtaRb3: Port = {
+  schema: "port",
+  id: "darkrta-rb3",
+  title: "Rock Band 3",
+  game: "Rock Band 3",
+  developers: ["DarkRTA"],
+  publisher: "MTV Games",
+  originalYear: 2010,
+  portType: "decompilation",
+  genre: "music",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/DarkRTA/rb3"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Wii"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/3b/Rock_Band_3_Game_Cover.jpg",
+    alt: "Rock Band 3 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Rock Band 3: decompilation by DarkRTA for Windows. Bring your own copy of the game.",
+  notesEs: "Rock Band 3: decompilación de DarkRTA para Windows. Aporta tu propia copia del juego.",
+};

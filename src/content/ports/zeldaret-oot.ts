@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const zeldaretOot: Port = {
+  schema: "port",
+  id: "zeldaret-oot",
+  title: "The Legend of Zelda: Ocarina of Time",
+  game: "The Legend of Zelda: Ocarina of Time",
+  developers: ["zeldaret"],
+  publisher: "Nintendo",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/zeldaret/oot"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
+    alt: "The Legend of Zelda: Ocarina of Time (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Legend of Zelda: Ocarina of Time: decompilation by zeldaret for Windows. Bring your own copy of the game.",
+  notesEs: "The Legend of Zelda: Ocarina of Time: decompilación de zeldaret para Windows. Aporta tu propia copia del juego.",
+};

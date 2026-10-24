@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gameblablaCse2: Port = {
+  schema: "port",
+  id: "gameblabla-cse2",
+  title: "Cave Story",
+  game: "Cave Story",
+  developers: ["gameblabla"],
+  publisher: "Studio Pixel",
+  originalYear: 2004,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/gameblabla/CSE2"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/83/Cave_Story_title_screen.png",
+    alt: "Cave Story (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Cave Story: decompilation by gameblabla for Windows. Bring your own copy of the game.",
+  notesEs: "Cave Story: decompilación de gameblabla para Windows. Aporta tu propia copia del juego.",
+};

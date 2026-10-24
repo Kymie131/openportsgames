@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const angheloalfDrmario64: Port = {
+  schema: "port",
+  id: "angheloalf-drmario64",
+  title: "Dr. Mario 64",
+  game: "Dr. Mario 64",
+  developers: ["AngheloAlf"],
+  publisher: "Nintendo",
+  originalYear: 2001,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/AngheloAlf/drmario64"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Dr.%20Mario%2064%20(USA).png",
+    alt: "Dr. Mario 64 (box art)",
+    credit: "Box art",
+  },
+  notes: "Dr. Mario 64: decompilation by AngheloAlf for Windows. Bring your own copy of the game.",
+  notesEs: "Dr. Mario 64: decompilación de AngheloAlf para Windows. Aporta tu propia copia del juego.",
+};

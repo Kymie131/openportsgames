@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const p006Scape2006scape: Port = {
+  schema: "port",
+  id: "2006-scape-2006scape",
+  title: "RuneScape (2006scape)",
+  game: "RuneScape",
+  developers: ["2006-Scape"],
+  publisher: "Unknown",
+  originalYear: 2006,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.10", date: "2020-08-04" },
+  sources: ["https://github.com/2006-Scape/2006Scape"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "RuneScape: decompilation by 2006-Scape for Windows. Bring your own copy of the game.",
+  notesEs: "RuneScape: decompilación de 2006-Scape para Windows. Aporta tu propia copia del juego.",
+};

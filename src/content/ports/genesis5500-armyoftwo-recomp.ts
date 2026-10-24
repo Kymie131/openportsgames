@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const genesis5500ArmyoftwoRecomp: Port = {
+  schema: "port",
+  id: "genesis5500-armyoftwo-recomp",
+  title: "Army of Two",
+  game: "Army of Two",
+  developers: ["Genesis5500"],
+  publisher: "Electronic Arts",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.0", date: "2026-09-10" },
+  sources: ["https://github.com/Genesis5500/ArmyOfTwo-Recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/72/ArmyofTwo_front-1-.jpg",
+    alt: "Army of Two (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Army of Two: static recompilation by Genesis5500 for Windows. Bring your own copy of the game.",
+  notesEs: "Army of Two: recompilación estática de Genesis5500 para Windows. Aporta tu propia copia del juego.",
+};

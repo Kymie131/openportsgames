@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bnunuHaloCeUniversal: Port = {
+  schema: "port",
+  id: "bnunu-halo-ce-universal",
+  title: "Halo: Combat Evolved (halo-ce-universal, bnunu)",
+  game: "Halo: Combat Evolved",
+  developers: ["bnunu"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2001,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "windows", "linux"],
+  status: "beta",
+  release: { version: "1.8", date: "2026-10-03" },
+  sources: ["https://github.com/bnunu/halo-ce-universal"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg",
+    alt: "Halo: Combat Evolved (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Halo: Combat Evolved: decompilation by bnunu for Android, Windows, Linux. Bring your own copy of the game.",
+  notesEs: "Halo: Combat Evolved: decompilación de bnunu para Android, Windows, Linux. Aporta tu propia copia del juego.",
+};

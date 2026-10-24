@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const andersfischernielsenSsx3Decomp: Port = {
+  schema: "port",
+  id: "andersfischernielsen-ssx3-decomp",
+  title: "SSX 3 (ssx3-decomp)",
+  game: "SSX 3",
+  developers: ["andersfischernielsen"],
+  publisher: "Unknown",
+  originalYear: 2003,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/andersfischernielsen/ssx3-decomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/43/SSX_3_Coverart.png",
+    alt: "SSX 3 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "SSX 3: decompilation by andersfischernielsen for Windows. Bring your own copy of the game.",
+  notesEs: "SSX 3: decompilación de andersfischernielsen para Windows. Aporta tu propia copia del juego.",
+};

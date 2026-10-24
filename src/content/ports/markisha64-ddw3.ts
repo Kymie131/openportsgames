@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const markisha64Ddw3: Port = {
+  schema: "port",
+  id: "markisha64-ddw3",
+  title: "Digimon World 3",
+  game: "Digimon World 3",
+  developers: ["markisha64"],
+  publisher: "Bandai",
+  originalYear: 2002,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/markisha64/ddw3"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/43/Digimonworld3boxart.jpg",
+    alt: "Digimon World 3 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Digimon World 3: decompilation by markisha64 for Windows. Bring your own copy of the game.",
+  notesEs: "Digimon World 3: decompilación de markisha64 para Windows. Aporta tu propia copia del juego.",
+};

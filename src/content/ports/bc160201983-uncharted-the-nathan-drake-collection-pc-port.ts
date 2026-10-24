@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bc160201983UnchartedTheNathanDrakeCollectionPcPort: Port = {
+  schema: "port",
+  id: "bc160201983-uncharted-the-nathan-drake-collection-pc-port",
+  title: "Uncharted: The Nathan Drake Collection",
+  game: "Uncharted: The Nathan Drake Collection",
+  developers: ["bc160201983"],
+  publisher: "Sony Interactive Entertainment",
+  originalYear: 2015,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.5.0", date: "2026-10-21" },
+  sources: ["https://github.com/bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c9/Nathan_Drake_Collection_cover_art.png",
+    alt: "Uncharted: The Nathan Drake Collection (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Uncharted: The Nathan Drake Collection: source port by bc160201983 for Windows. Bring your own copy of the game.",
+  notesEs: "Uncharted: The Nathan Drake Collection: source port de bc160201983 para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jype0DwDecomp: Port = {
+  schema: "port",
+  id: "jype0-dw-decomp",
+  title: "Digimon World",
+  game: "Digimon World",
+  developers: ["jype0"],
+  publisher: "Bandai",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/jype0/dw_decomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Digimon%20World%20(Europe).png",
+    alt: "Digimon World (box art)",
+    credit: "Box art",
+  },
+  notes: "Digimon World: decompilation by jype0 for Windows. Bring your own copy of the game.",
+  notesEs: "Digimon World: decompilación de jype0 para Windows. Aporta tu propia copia del juego.",
+};

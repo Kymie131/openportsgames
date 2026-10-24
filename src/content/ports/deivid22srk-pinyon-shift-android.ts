@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const deivid22srkPinyonShiftAndroid: Port = {
+  schema: "port",
+  id: "deivid22srk-pinyon-shift-android",
+  title: "Forza Horizon",
+  game: "Forza Horizon",
+  developers: ["deivid22srk"],
+  publisher: "Microsoft Studios",
+  originalYear: 2012,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/deivid22srk/pinyon-shift-android"],
+  license: { spdx: "BSD-3-Clause" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/77/Forza_Horizon_boxart.jpg",
+    alt: "Forza Horizon (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Forza Horizon: static recompilation by deivid22srk for Android, Windows. Bring your own copy of the game.",
+  notesEs: "Forza Horizon: recompilación estática de deivid22srk para Android, Windows. Aporta tu propia copia del juego.",
+};

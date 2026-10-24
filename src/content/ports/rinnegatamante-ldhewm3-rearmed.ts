@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rinnegatamanteLdhewm3Rearmed: Port = {
+  schema: "port",
+  id: "rinnegatamante-ldhewm3-rearmed",
+  title: "Doom 3",
+  game: "Doom 3",
+  developers: ["Rinnegatamante"],
+  publisher: "Activision",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Rinnegatamante/ldhewm3-rearmed"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/4e/Doom3box.jpg",
+    alt: "Doom 3 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Doom 3: source port by Rinnegatamante for Windows. Bring your own copy of the game.",
+  notesEs: "Doom 3: source port de Rinnegatamante para Windows. Aporta tu propia copia del juego.",
+};

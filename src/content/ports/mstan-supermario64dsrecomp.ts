@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mstanSupermario64dsrecomp: Port = {
+  schema: "port",
+  id: "mstan-supermario64dsrecomp",
+  title: "Super Mario 64 DS",
+  game: "Super Mario 64 DS",
+  developers: ["mstan"],
+  publisher: "Nintendo",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.0.3", date: "2026-08-15" },
+  sources: ["https://github.com/mstan/supermario64dsrecomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/12/Super_Mario_64_DS_Coverart.png",
+    alt: "Super Mario 64 DS (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Super Mario 64 DS: static recompilation by mstan for Windows. Bring your own copy of the game.",
+  notesEs: "Super Mario 64 DS: recompilación estática de mstan para Windows. Aporta tu propia copia del juego.",
+};

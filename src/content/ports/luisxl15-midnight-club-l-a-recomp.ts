@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const luisxl15MidnightClubLARecomp: Port = {
+  schema: "port",
+  id: "luisxl15-midnight-club-l-a-recomp",
+  title: "Midnight Club: Los Angeles",
+  game: "Midnight Club: Los Angeles",
+  developers: ["luisxl15"],
+  publisher: "Rockstar Games",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-08-30" },
+  sources: ["https://github.com/luisxl15/Midnight-Club-L.A-RECOMP"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/ea/Midnight_Club-Los_Angeles.jpg",
+    alt: "Midnight Club: Los Angeles (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Midnight Club: Los Angeles: static recompilation by luisxl15 for Windows. Bring your own copy of the game.",
+  notesEs: "Midnight Club: Los Angeles: recompilación estática de luisxl15 para Windows. Aporta tu propia copia del juego.",
+};

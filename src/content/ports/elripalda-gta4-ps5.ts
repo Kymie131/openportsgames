@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const elripaldaGta4Ps5: Port = {
+  schema: "port",
+  id: "elripalda-gta4-ps5",
+  title: "Grand Theft Auto IV (GTA IV for PS5)",
+  game: "Grand Theft Auto IV",
+  developers: ["elripalda"],
+  publisher: "Rockstar Games",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-10-22" },
+  sources: ["https://github.com/elripalda/gta4-ps5"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b7/Grand_Theft_Auto_IV_cover.jpg",
+    alt: "Grand Theft Auto IV (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Grand Theft Auto IV: static recompilation by elripalda for Windows. Bring your own copy of the game.",
+  notesEs: "Grand Theft Auto IV: recompilación estática de elripalda para Windows. Aporta tu propia copia del juego.",
+};

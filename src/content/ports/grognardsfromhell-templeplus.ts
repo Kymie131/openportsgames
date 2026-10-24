@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const grognardsfromhellTempleplus: Port = {
+  schema: "port",
+  id: "grognardsfromhell-templeplus",
+  title: "The Temple of Elemental Evil (TemplePlus)",
+  game: "The Temple of Elemental Evil",
+  developers: ["GrognardsFromHell"],
+  publisher: "SNEG",
+  originalYear: 2025,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.98", date: "2025-08-07" },
+  sources: ["https://github.com/GrognardsFromHell/TemplePlus"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "The Temple of Elemental Evil: decompilation by GrognardsFromHell for Windows. Bring your own copy of the game.",
+  notesEs: "The Temple of Elemental Evil: decompilación de GrognardsFromHell para Windows. Aporta tu propia copia del juego.",
+};

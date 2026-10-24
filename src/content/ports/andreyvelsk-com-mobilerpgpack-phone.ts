@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const andreyvelskComMobilerpgpackPhone: Port = {
+  schema: "port",
+  id: "andreyvelsk-com-mobilerpgpack-phone",
+  title: "Doom RPG (Mobile RPG Pack)",
+  game: "Doom RPG",
+  developers: ["andreyvelsk"],
+  publisher: "id Software",
+  originalYear: 2005,
+  portType: "reimplementation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "windows"],
+  status: "beta",
+  release: { version: "2.9.1-ds", date: "2026-06-10" },
+  sources: ["https://github.com/andreyvelsk/com.mobilerpgpack.phone"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Doom RPG: engine remake by andreyvelsk for Android, Windows. Bring your own copy of the game.",
+  notesEs: "Doom RPG: recreación de motor de andreyvelsk para Android, Windows. Aporta tu propia copia del juego.",
+};

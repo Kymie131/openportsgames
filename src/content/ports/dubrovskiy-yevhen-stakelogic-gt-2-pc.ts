@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const dubrovskiyYevhenStakelogicGt2Pc: Port = {
+  schema: "port",
+  id: "dubrovskiy-yevhen-stakelogic-gt-2-pc",
+  title: "Gran Turismo 2 (gt-2-pc)",
+  game: "Gran Turismo 2",
+  developers: ["dubrovskiy-yevhen-stakelogic"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 1999,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["web", "windows", "macos"],
+  status: "beta",
+  release: { version: "0.8.1", date: "2026-09-30" },
+  sources: ["https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6b/GranTurismo2.jpg",
+    alt: "Gran Turismo 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Gran Turismo 2: source port by dubrovskiy-yevhen-stakelogic for the browser, Windows, macOS. Playable in the browser.",
+  notesEs: "Gran Turismo 2: source port de dubrovskiy-yevhen-stakelogic para el navegador, Windows, macOS. Jugable en el navegador.",
+};

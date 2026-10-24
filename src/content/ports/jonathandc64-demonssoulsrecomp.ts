@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jonathandc64Demonssoulsrecomp: Port = {
+  schema: "port",
+  id: "jonathandc64-demonssoulsrecomp",
+  title: "Demon's Souls",
+  game: "Demon's Souls",
+  developers: ["JonathanDC64"],
+  publisher: "Sony Interactive Entertainment",
+  originalYear: 2020,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "22.1.8-1", date: "2026-10-23" },
+  sources: ["https://github.com/JonathanDC64/DemonsSoulsRecomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 3"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/91/Demon%27s_Souls_Cover.jpg",
+    alt: "Demon's Souls (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Demon's Souls: static recompilation by JonathanDC64 for Windows. Bring your own copy of the game.",
+  notesEs: "Demon's Souls: recompilación estática de JonathanDC64 para Windows. Aporta tu propia copia del juego.",
+};

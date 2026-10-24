@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gzh0821PvzgeWeb: Port = {
+  schema: "port",
+  id: "gzh0821-pvzge-web",
+  title: "Plants vs. Zombies 2 (PvZ2 Gardendless)",
+  game: "Plants vs. Zombies 2",
+  developers: ["Gzh0821"],
+  publisher: "PopCap Games",
+  originalYear: 2013,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["web"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Gzh0821/pvzge_web"],
+  license: { spdx: "Apache-2.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Plants vs. Zombies 2: browser port by Gzh0821 for the browser. Playable in the browser.",
+  notesEs: "Plants vs. Zombies 2: port de navegador de Gzh0821 para el navegador. Jugable en el navegador.",
+};

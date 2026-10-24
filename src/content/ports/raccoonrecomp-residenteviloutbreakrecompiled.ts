@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const raccoonrecompResidenteviloutbreakrecompiled: Port = {
+  schema: "port",
+  id: "raccoonrecomp-residenteviloutbreakrecompiled",
+  title: "Resident Evil Outbreak",
+  game: "Resident Evil Outbreak",
+  developers: ["RaccoonRecomp"],
+  publisher: "Capcom",
+  originalYear: 2003,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.5.1", date: "2026-10-13" },
+  sources: ["https://github.com/RaccoonRecomp/ResidentEvilOutbreakRecompiled"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Resident%20Evil%20-%20Outbreak%20(USA)%20(v2.00).png",
+    alt: "Resident Evil Outbreak (box art)",
+    credit: "Box art",
+  },
+  notes: "Resident Evil Outbreak: static recompilation by RaccoonRecomp for Windows. Bring your own copy of the game.",
+  notesEs: "Resident Evil Outbreak: recompilación estática de RaccoonRecomp para Windows. Aporta tu propia copia del juego.",
+};

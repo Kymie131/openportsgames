@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const unofficialcrusaderpatchUnofficialcrusaderpatch: Port = {
+  schema: "port",
+  id: "unofficialcrusaderpatch-unofficialcrusaderpatch",
+  title: "Stronghold Crusader (Unofficial Crusader Patch)",
+  game: "Stronghold Crusader",
+  developers: ["UnofficialCrusaderPatch"],
+  publisher: "Firefly Studios",
+  originalYear: 2014,
+  portType: "decompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.14", date: "2026-01-01" },
+  sources: ["https://github.com/UnofficialCrusaderPatch/UnofficialCrusaderPatch"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Stronghold Crusader: decompilation by UnofficialCrusaderPatch for Windows. Bring your own copy of the game.",
+  notesEs: "Stronghold Crusader: decompilación de UnofficialCrusaderPatch para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const andrewaltimitLegendOfLegaiaRe: Port = {
+  schema: "port",
+  id: "andrewaltimit-legend-of-legaia-re",
+  title: "Legend of Legaia",
+  game: "Legend of Legaia",
+  developers: ["AndrewAltimit"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 1998,
+  portType: "reimplementation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.9.0", date: "2026-10-23" },
+  sources: ["https://github.com/AndrewAltimit/legend-of-legaia-re"],
+  license: { spdx: "Unlicense" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Legend%20of%20Legaia%20(Europe).png",
+    alt: "Legend of Legaia (box art)",
+    credit: "Box art",
+  },
+  notes: "Legend of Legaia: engine remake by AndrewAltimit for Windows. Bring your own copy of the game.",
+  notesEs: "Legend of Legaia: recreación de motor de AndrewAltimit para Windows. Aporta tu propia copia del juego.",
+};

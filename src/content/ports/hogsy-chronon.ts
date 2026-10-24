@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const hogsyChronon: Port = {
+  schema: "port",
+  id: "hogsy-chronon",
+  title: "Anachronox",
+  game: "Anachronox",
+  developers: ["hogsy"],
+  publisher: "Square Enix",
+  originalYear: 2013,
+  portType: "reimplementation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/hogsy/chronon"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Anachronox: engine remake by hogsy for Windows. Bring your own copy of the game.",
+  notesEs: "Anachronox: recreación de motor de hogsy para Windows. Aporta tu propia copia del juego.",
+};

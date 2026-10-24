@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rsdkmoddingRsdkv2Decompilation: Port = {
+  schema: "port",
+  id: "rsdkmodding-rsdkv2-decompilation",
+  title: "Sonic Nexus (RSDKv2-Decompilation)",
+  game: "Sonic Nexus",
+  developers: ["RSDKModding"],
+  publisher: "Unknown",
+  originalYear: 2008,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2021-05-12" },
+  sources: ["https://github.com/RSDKModding/RSDKv2-Decompilation"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Sonic Nexus: decompilation by RSDKModding for Windows. Bring your own copy of the game.",
+  notesEs: "Sonic Nexus: decompilación de RSDKModding para Windows. Aporta tu propia copia del juego.",
+};

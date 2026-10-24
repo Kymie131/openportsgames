@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const fable2recompFable2recomp: Port = {
+  schema: "port",
+  id: "fable2recomp-fable2recomp",
+  title: "Fable II",
+  game: "Fable II",
+  developers: ["Fable2Recomp"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Fable2Recomp/Fable2Recomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Fable_II_cover_%28cropped%29.png",
+    alt: "Fable II (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Fable II: static recompilation by Fable2Recomp for Windows. Bring your own copy of the game.",
+  notesEs: "Fable II: recompilación estática de Fable2Recomp para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gtaReversedGtaReversed: Port = {
+  schema: "port",
+  id: "gta-reversed-gta-reversed",
+  title: "Grand Theft Auto: San Andreas",
+  game: "Grand Theft Auto: San Andreas",
+  developers: ["gta-reversed"],
+  publisher: "Rockstar Games",
+  originalYear: 2004,
+  portType: "reimplementation",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/gta-reversed/gta-reversed"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c4/GTASABOX.jpg",
+    alt: "Grand Theft Auto: San Andreas (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Grand Theft Auto: San Andreas: engine remake by gta-reversed for Windows. Bring your own copy of the game.",
+  notesEs: "Grand Theft Auto: San Andreas: recreación de motor de gta-reversed para Windows. Aporta tu propia copia del juego.",
+};

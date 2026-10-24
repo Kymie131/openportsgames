@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jaythehamBodyHarvestDecompilation: Port = {
+  schema: "port",
+  id: "jaytheham-body-harvest-decompilation",
+  title: "Body Harvest",
+  game: "Body Harvest",
+  developers: ["jaytheham"],
+  publisher: "Midway",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/jaytheham/body-harvest-decompilation"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a3/Body_Harvest.jpg",
+    alt: "Body Harvest (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Body Harvest: decompilation by jaytheham for Windows. Bring your own copy of the game.",
+  notesEs: "Body Harvest: decompilación de jaytheham para Windows. Aporta tu propia copia del juego.",
+};

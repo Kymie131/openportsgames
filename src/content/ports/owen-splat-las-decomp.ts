@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const owenSplatLasDecomp: Port = {
+  schema: "port",
+  id: "owen-splat-las-decomp",
+  title: "Link's Awakening (Switch)",
+  game: "Link's Awakening",
+  developers: ["Owen-Splat"],
+  publisher: "Unknown",
+  originalYear: 2019,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.4", date: "2024-06-18" },
+  sources: ["https://github.com/Owen-Splat/las-decomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo Switch"],
+  notes: "Link's Awakening: engine remake by Owen-Splat for Windows. Bring your own copy of the game.",
+  notesEs: "Link's Awakening: recreación de motor de Owen-Splat para Windows. Aporta tu propia copia del juego.",
+};

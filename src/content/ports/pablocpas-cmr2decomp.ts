@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pablocpasCmr2decomp: Port = {
+  schema: "port",
+  id: "pablocpas-cmr2decomp",
+  title: "Colin McRae Rally 2.0",
+  game: "Colin McRae Rally 2.0",
+  developers: ["pablocpas"],
+  publisher: "Codemasters",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/pablocpas/CMR2Decomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Colin%20McRae%20Rally%202.0%20(Europe)%20(En,Fr,De,Es,It)%20(Rev%201).png",
+    alt: "Colin McRae Rally 2.0 (box art)",
+    credit: "Box art",
+  },
+  notes: "Colin McRae Rally 2.0: decompilation by pablocpas for Windows. Bring your own copy of the game.",
+  notesEs: "Colin McRae Rally 2.0: decompilación de pablocpas para Windows. Aporta tu propia copia del juego.",
+};

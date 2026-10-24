@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const overkilllabs3ViceCityStoriesRecomp: Port = {
+  schema: "port",
+  id: "overkilllabs3-vice-city-stories-recomp",
+  title: "Grand Theft Auto: Vice City Stories (Vice City Stories Recomp)",
+  game: "Grand Theft Auto: Vice City Stories",
+  developers: ["OverkillLabs3"],
+  publisher: "Rockstar Games",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "macos"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-10-05" },
+  sources: ["https://github.com/OverkillLabs3/vice-city-stories-recomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation Portable"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Grand%20Theft%20Auto%20-%20Vice%20City%20Stories%20(USA).png",
+    alt: "Grand Theft Auto: Vice City Stories (box art)",
+    credit: "Box art",
+  },
+  notes: "Grand Theft Auto: Vice City Stories: static recompilation by OverkillLabs3 for Windows, macOS. Bring your own copy of the game.",
+  notesEs: "Grand Theft Auto: Vice City Stories: recompilación estática de OverkillLabs3 para Windows, macOS. Aporta tu propia copia del juego.",
+};

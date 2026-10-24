@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const eopLabsM2tweopLibrary: Port = {
+  schema: "port",
+  id: "eop-labs-m2tweop-library",
+  title: "Medieval II: Total War (M2TWEOP)",
+  game: "Medieval II: Total War",
+  developers: ["EOP-Labs"],
+  publisher: "SEGA",
+  originalYear: 2007,
+  portType: "decompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "3.3.1", date: "2024-08-23" },
+  sources: ["https://github.com/EOP-Labs/M2TWEOP-library"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Medieval II: Total War: decompilation by EOP-Labs for Windows. Bring your own copy of the game.",
+  notesEs: "Medieval II: Total War: decompilación de EOP-Labs para Windows. Aporta tu propia copia del juego.",
+};

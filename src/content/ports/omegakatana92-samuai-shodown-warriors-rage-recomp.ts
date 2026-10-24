@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const omegakatana92SamuaiShodownWarriorsRageRecomp: Port = {
+  schema: "port",
+  id: "omegakatana92-samuai-shodown-warriors-rage-recomp",
+  title: "Samurai Shodown: Warriors Rage",
+  game: "Samurai Shodown: Warriors Rage",
+  developers: ["omegakatana92"],
+  publisher: "SNK",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-09-09" },
+  sources: ["https://github.com/omegakatana92/Samuai-Shodown-Warriors-Rage-Recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Samurai%20Shodown%20-%20Warriors%20Rage%20(USA).png",
+    alt: "Samurai Shodown: Warriors Rage (box art)",
+    credit: "Box art",
+  },
+  notes: "Samurai Shodown: Warriors Rage: static recompilation by omegakatana92 for Windows. Bring your own copy of the game.",
+  notesEs: "Samurai Shodown: Warriors Rage: recompilación estática de omegakatana92 para Windows. Aporta tu propia copia del juego.",
+};

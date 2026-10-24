@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const n64decompBanjoKazooie: Port = {
+  schema: "port",
+  id: "n64decomp-banjo-kazooie",
+  title: "Banjo-Kazooie",
+  game: "Banjo-Kazooie",
+  developers: ["n64decomp"],
+  publisher: "Nintendo",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/n64decomp/banjo-kazooie"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Banjo-Kazooie%20(USA).png",
+    alt: "Banjo-Kazooie (box art)",
+    credit: "Box art",
+  },
+  notes: "Banjo-Kazooie: decompilation by n64decomp for Windows. Bring your own copy of the game.",
+  notesEs: "Banjo-Kazooie: decompilación de n64decomp para Windows. Aporta tu propia copia del juego.",
+};

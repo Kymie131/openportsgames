@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const chrissotraidisSnappad: Port = {
+  schema: "port",
+  id: "chrissotraidis-snappad",
+  title: "Pokémon Snap",
+  game: "Pokémon Snap",
+  developers: ["chrissotraidis"],
+  publisher: "Nintendo",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "macos"],
+  status: "beta",
+  release: { version: "0.2.1", date: "2026-10-21" },
+  sources: ["https://github.com/chrissotraidis/snappad"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Pokemon%20Snap%20(Europe).png",
+    alt: "Pokémon Snap (box art)",
+    credit: "Box art",
+  },
+  notes: "Pokémon Snap: static recompilation by chrissotraidis for Windows, macOS. Bring your own copy of the game.",
+  notesEs: "Pokémon Snap: recompilación estática de chrissotraidis para Windows, macOS. Aporta tu propia copia del juego.",
+};

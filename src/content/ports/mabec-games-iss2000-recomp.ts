@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mabecGamesIss2000Recomp: Port = {
+  schema: "port",
+  id: "mabec-games-iss2000-recomp",
+  title: "Mabecs International Superstar Soccer 2000",
+  game: "Mabecs International Superstar Soccer 2000",
+  developers: ["Mabec-games"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "beta",
+  release: { version: "1.2", date: "2026-10-18" },
+  sources: ["https://github.com/Mabec-games/iss2000-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Mabecs International Superstar Soccer 2000: static recompilation by Mabec-games for Windows, Linux. Bring your own copy of the game.",
+  notesEs: "Mabecs International Superstar Soccer 2000: recompilación estática de Mabec-games para Windows, Linux. Aporta tu propia copia del juego.",
+};

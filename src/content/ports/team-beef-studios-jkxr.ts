@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const teamBeefStudiosJkxr: Port = {
+  schema: "port",
+  id: "team-beef-studios-jkxr",
+  title: "Star Wars Jedi Knight II: Jedi Outcast (JK XR)",
+  game: "Star Wars Jedi Knight II: Jedi Outcast",
+  developers: ["Team-Beef-Studios"],
+  publisher: "LucasArts",
+  originalYear: 2009,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.2.0", date: "2026-09-29" },
+  sources: ["https://github.com/Team-Beef-Studios/JKXR"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Star Wars Jedi Knight II: Jedi Outcast: source port by Team-Beef-Studios for Windows. Bring your own copy of the game.",
+  notesEs: "Star Wars Jedi Knight II: Jedi Outcast: source port de Team-Beef-Studios para Windows. Aporta tu propia copia del juego.",
+};

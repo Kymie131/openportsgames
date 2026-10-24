@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const z3xoxBt3Decompiled: Port = {
+  schema: "port",
+  id: "z3xox-bt3-decompiled",
+  title: "Dragon Ball Z: Budokai Tenkaichi 3",
+  game: "Dragon Ball Z: Budokai Tenkaichi 3",
+  developers: ["z3xox"],
+  publisher: "Bandai Namco",
+  originalYear: 2007,
+  portType: "decompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/z3xox/BT3-Decompiled"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Dragon%20Ball%20Z%20-%20Budokai%20Tenkaichi%203%20(Europe,%20Australia)%20(En,Fr,De,Es,It).png",
+    alt: "Dragon Ball Z: Budokai Tenkaichi 3 (box art)",
+    credit: "Box art",
+  },
+  notes: "Dragon Ball Z: Budokai Tenkaichi 3: decompilation by z3xox for Windows. Bring your own copy of the game.",
+  notesEs: "Dragon Ball Z: Budokai Tenkaichi 3: decompilación de z3xox para Windows. Aporta tu propia copia del juego.",
+};

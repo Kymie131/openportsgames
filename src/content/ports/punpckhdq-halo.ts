@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const punpckhdqHalo: Port = {
+  schema: "port",
+  id: "punpckhdq-halo",
+  title: "Halo: Combat Evolved",
+  game: "Halo: Combat Evolved",
+  developers: ["punpckhdq"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2001,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/punpckhdq/halo"],
+  license: { spdx: "AGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg",
+    alt: "Halo: Combat Evolved (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Halo: Combat Evolved: decompilation by punpckhdq for Windows. Bring your own copy of the game.",
+  notesEs: "Halo: Combat Evolved: decompilación de punpckhdq para Windows. Aporta tu propia copia del juego.",
+};

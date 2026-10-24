@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const viniferaDevelopersVinifera: Port = {
+  schema: "port",
+  id: "vinifera-developers-vinifera",
+  title: "Command & Conquer: Tiberian Sun (Vinifera)",
+  game: "Command & Conquer: Tiberian Sun",
+  developers: ["Vinifera-Developers"],
+  publisher: "Electronic Arts",
+  originalYear: 2024,
+  portType: "decompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.0.1", date: "2026-08-23" },
+  sources: ["https://github.com/Vinifera-Developers/Vinifera"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Command & Conquer: Tiberian Sun: decompilation by Vinifera-Developers for Windows. Bring your own copy of the game.",
+  notesEs: "Command & Conquer: Tiberian Sun: decompilación de Vinifera-Developers para Windows. Aporta tu propia copia del juego.",
+};

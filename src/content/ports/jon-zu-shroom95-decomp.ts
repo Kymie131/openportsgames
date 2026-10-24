@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jonZuShroom95Decomp: Port = {
+  schema: "port",
+  id: "jon-zu-shroom95-decomp",
+  title: "MapleStory (shroom95-decomp)",
+  game: "MapleStory",
+  developers: ["jon-zu"],
+  publisher: "NEXON",
+  originalYear: 2026,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/jon-zu/shroom95-decomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "MapleStory: decompilation by jon-zu for Windows. Bring your own copy of the game.",
+  notesEs: "MapleStory: decompilación de jon-zu para Windows. Aporta tu propia copia del juego.",
+};

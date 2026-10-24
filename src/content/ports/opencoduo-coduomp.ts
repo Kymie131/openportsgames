@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const opencoduoCoduomp: Port = {
+  schema: "port",
+  id: "opencoduo-coduomp",
+  title: "Call of Duty: United Offensive (Multiplayer)",
+  game: "Call of Duty: United Offensive",
+  developers: ["opencoduo"],
+  publisher: "Activision",
+  originalYear: 2006,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/opencoduo/coduomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Call of Duty: United Offensive: decompilation by opencoduo for Windows. Bring your own copy of the game.",
+  notesEs: "Call of Duty: United Offensive: decompilación de opencoduo para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nwnxeeUnified: Port = {
+  schema: "port",
+  id: "nwnxee-unified",
+  title: "Neverwinter Nights: Enhanced Edition (NWNX:EE unified)",
+  game: "Neverwinter Nights: Enhanced Edition",
+  developers: ["nwnxee"],
+  publisher: "Beamdog",
+  originalYear: 2018,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/nwnxee/unified"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Neverwinter Nights: Enhanced Edition: decompilation by nwnxee for Windows. Bring your own copy of the game.",
+  notesEs: "Neverwinter Nights: Enhanced Edition: decompilación de nwnxee para Windows. Aporta tu propia copia del juego.",
+};

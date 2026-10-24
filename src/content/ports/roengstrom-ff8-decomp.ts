@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const roengstromFf8Decomp: Port = {
+  schema: "port",
+  id: "roengstrom-ff8-decomp",
+  title: "Final Fantasy VIII",
+  game: "Final Fantasy VIII",
+  developers: ["roengstrom"],
+  publisher: "Square",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/roengstrom/ff8-decomp"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Final%20Fantasy%20VIII%20(Europe,%20Australia).png",
+    alt: "Final Fantasy VIII (box art)",
+    credit: "Box art",
+  },
+  notes: "Final Fantasy VIII: decompilation by roengstrom for Windows. Bring your own copy of the game.",
+  notesEs: "Final Fantasy VIII: decompilación de roengstrom para Windows. Aporta tu propia copia del juego.",
+};

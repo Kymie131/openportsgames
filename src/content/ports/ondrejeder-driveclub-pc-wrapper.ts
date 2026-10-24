@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ondrejederDriveclubPcWrapper: Port = {
+  schema: "port",
+  id: "ondrejeder-driveclub-pc-wrapper",
+  title: "Driveclub (Driveclub-PC)",
+  game: "Driveclub",
+  developers: ["ondrejeder"],
+  publisher: "Sony Interactive Entertainment",
+  originalYear: 2014,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.2.5", date: "2026-10-23" },
+  sources: ["https://github.com/ondrejeder/Driveclub-pc-wrapper"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6f/Driveclub_box_art.jpg",
+    alt: "Driveclub (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Driveclub: source port by ondrejeder for Windows. Bring your own copy of the game.",
+  notesEs: "Driveclub: source port de ondrejeder para Windows. Aporta tu propia copia del juego.",
+};

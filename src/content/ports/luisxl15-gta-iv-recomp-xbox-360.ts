@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const luisxl15GtaIvRecompXbox360: Port = {
+  schema: "port",
+  id: "luisxl15-gta-iv-recomp-xbox-360",
+  title: "Grand Theft Auto IV",
+  game: "Grand Theft Auto IV",
+  developers: ["luisxl15"],
+  publisher: "Rockstar Games",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/luisxl15/GTA-IV-RECOMP-XBOX-360"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b7/Grand_Theft_Auto_IV_cover.jpg",
+    alt: "Grand Theft Auto IV (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Grand Theft Auto IV: static recompilation by luisxl15 for Windows. Bring your own copy of the game.",
+  notesEs: "Grand Theft Auto IV: recompilación estática de luisxl15 para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mrsuss60BloodbornePcWindowsPort: Port = {
+  schema: "port",
+  id: "mrsuss60-bloodborne-pc-windows-port",
+  title: "Bloodborne (bloodborne_pc_windows_port)",
+  game: "Bloodborne",
+  developers: ["Mrsuss60"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2015,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.6.5", date: "2026-10-21" },
+  sources: ["https://github.com/Mrsuss60/bloodborne_pc_windows_port"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
+    alt: "Bloodborne (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Bloodborne: source port by Mrsuss60 for Windows. Bring your own copy of the game.",
+  notesEs: "Bloodborne: source port de Mrsuss60 para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const aikatoreRecvxEnhancedPort: Port = {
+  schema: "port",
+  id: "aikatore-recvx-enhanced-port",
+  title: "Resident Evil - Code: Veronica X (recvx-enhanced-recomp)",
+  game: "Resident Evil - Code: Veronica X",
+  developers: ["aikatore"],
+  publisher: "Capcom",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/aikatore/recvx-enhanced-port"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/44/RECV_boxart.jpg",
+    alt: "Resident Evil - Code: Veronica X (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Resident Evil - Code: Veronica X: static recompilation by aikatore for Windows. Bring your own copy of the game.",
+  notesEs: "Resident Evil - Code: Veronica X: recompilación estática de aikatore para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rubymatrixXiOnAnything: Port = {
+  schema: "port",
+  id: "rubymatrix-xi-on-anything",
+  title: "Final Fantasy XI",
+  game: "Final Fantasy XI",
+  developers: ["rubymatrix"],
+  publisher: "Square Enix",
+  originalYear: 2014,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "macos"],
+  status: "beta",
+  release: { version: "0.2.4", date: "2026-10-03" },
+  sources: ["https://github.com/rubymatrix/xi-on-anything"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Final Fantasy XI: static recompilation by rubymatrix for Windows, macOS. Bring your own copy of the game.",
+  notesEs: "Final Fantasy XI: recompilación estática de rubymatrix para Windows, macOS. Aporta tu propia copia del juego.",
+};

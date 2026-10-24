@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const danielgomesvieira2000Burnout3Pc: Port = {
+  schema: "port",
+  id: "danielgomesvieira2000-burnout3-pc",
+  title: "Burnout 3: Takedown (Burnout 3: Takedown - PC port)",
+  game: "Burnout 3: Takedown",
+  developers: ["danielgomesvieira2000"],
+  publisher: "Electronic Arts",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/danielgomesvieira2000/burnout3-pc"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Burnout%203%20-%20Takedown%20(USA).png",
+    alt: "Burnout 3: Takedown (box art)",
+    credit: "Box art",
+  },
+  notes: "Burnout 3: Takedown: source port by danielgomesvieira2000 for Windows. Bring your own copy of the game.",
+  notesEs: "Burnout 3: Takedown: source port de danielgomesvieira2000 para Windows. Aporta tu propia copia del juego.",
+};

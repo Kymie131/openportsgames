@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const andrewnakasSkate3IosSetup: Port = {
+  schema: "port",
+  id: "andrewnakas-skate3-ios-setup",
+  title: "Skate 3 (skate3-ios-setup)",
+  game: "Skate 3",
+  developers: ["andrewnakas"],
+  publisher: "Electronic Arts",
+  originalYear: 2010,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "2.7.1", date: "2026-09-24" },
+  sources: ["https://github.com/andrewnakas/skate3-ios-setup"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/84/Skate-3-Boxart.jpg",
+    alt: "Skate 3 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Skate 3: static recompilation by andrewnakas for Windows. Bring your own copy of the game.",
+  notesEs: "Skate 3: recompilación estática de andrewnakas para Windows. Aporta tu propia copia del juego.",
+};

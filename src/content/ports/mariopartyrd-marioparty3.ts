@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mariopartyrdMarioparty3: Port = {
+  schema: "port",
+  id: "mariopartyrd-marioparty3",
+  title: "Mario Party 3",
+  game: "Mario Party 3",
+  developers: ["mariopartyrd"],
+  publisher: "Nintendo",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/mariopartyrd/marioparty3"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Mario%20Party%203%20(USA)%20(LodgeNet).png",
+    alt: "Mario Party 3 (box art)",
+    credit: "Box art",
+  },
+  notes: "Mario Party 3: decompilation by mariopartyrd for Windows. Bring your own copy of the game.",
+  notesEs: "Mario Party 3: decompilación de mariopartyrd para Windows. Aporta tu propia copia del juego.",
+};

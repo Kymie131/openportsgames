@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const druthuluBfmDecomp: Port = {
+  schema: "port",
+  id: "druthulu-bfm-decomp",
+  title: "Brave Fencer Musashi (Druthulu)",
+  game: "Brave Fencer Musashi",
+  developers: ["Druthulu"],
+  publisher: "Square",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Druthulu/BFM-decomp"],
+  license: { spdx: "AGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Brave%20Fencer%20Musashi%20(USA).png",
+    alt: "Brave Fencer Musashi (box art)",
+    credit: "Box art",
+  },
+  notes: "Brave Fencer Musashi: decompilation by Druthulu for Windows. Bring your own copy of the game.",
+  notesEs: "Brave Fencer Musashi: decompilación de Druthulu para Windows. Aporta tu propia copia del juego.",
+};

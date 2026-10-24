@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const acreteamAcDecomp: Port = {
+  schema: "port",
+  id: "acreteam-ac-decomp",
+  title: "Animal Crossing",
+  game: "Animal Crossing",
+  developers: ["ACreTeam"],
+  publisher: "Nintendo",
+  originalYear: 2001,
+  portType: "decompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ACreTeam/ac-decomp"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Animal%20Crossing%20(USA).png",
+    alt: "Animal Crossing (box art)",
+    credit: "Box art",
+  },
+  notes: "Animal Crossing: decompilation by ACreTeam for Windows. Bring your own copy of the game.",
+  notesEs: "Animal Crossing: decompilación de ACreTeam para Windows. Aporta tu propia copia del juego.",
+};

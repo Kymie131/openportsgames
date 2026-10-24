@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const zestydevyDinosaurPlanet: Port = {
+  schema: "port",
+  id: "zestydevy-dinosaur-planet",
+  title: "Dinosaur Planet",
+  game: "Dinosaur Planet",
+  developers: ["zestydevy"],
+  publisher: "Rare",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/zestydevy/dinosaur-planet"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Dinosaur%20Planet%20(USA)%20(Proto)%20(2000-12-01).png",
+    alt: "Dinosaur Planet (box art)",
+    credit: "Box art",
+  },
+  notes: "Dinosaur Planet: decompilation by zestydevy for Windows. Bring your own copy of the game.",
+  notesEs: "Dinosaur Planet: decompilación de zestydevy para Windows. Aporta tu propia copia del juego.",
+};

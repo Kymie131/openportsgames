@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const doyaguBallanced: Port = {
+  schema: "port",
+  id: "doyagu-ballanced",
+  title: "Ballance (Ballanced)",
+  game: "Ballance",
+  developers: ["doyaGu"],
+  publisher: "Happy Happy Technology Chengdu Co., Ltd.",
+  originalYear: 2019,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.0", date: "2026-05-13" },
+  sources: ["https://github.com/doyaGu/Ballanced"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Ballance: decompilation by doyaGu for Windows. Bring your own copy of the game.",
+  notesEs: "Ballance: decompilación de doyaGu para Windows. Aporta tu propia copia del juego.",
+};

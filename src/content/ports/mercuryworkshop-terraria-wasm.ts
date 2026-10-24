@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mercuryworkshopTerrariaWasm: Port = {
+  schema: "port",
+  id: "mercuryworkshop-terraria-wasm",
+  title: "Terraria (terraria-wasm / Terrarium)",
+  game: "Terraria",
+  developers: ["MercuryWorkshop"],
+  publisher: "Unknown",
+  originalYear: 2013,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["web"],
+  status: "beta",
+  release: { version: "1.0", date: "2025-05-17" },
+  sources: ["https://github.com/MercuryWorkshop/terraria-wasm"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/1a/Terraria_Steam_artwork.jpg",
+    alt: "Terraria (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Terraria: browser port by MercuryWorkshop for the browser. Playable in the browser.",
+  notesEs: "Terraria: port de navegador de MercuryWorkshop para el navegador. Jugable en el navegador.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const enrique363Voldorium: Port = {
+  schema: "port",
+  id: "enrique363-voldorium",
+  title: "SoulCalibur",
+  game: "SoulCalibur",
+  developers: ["enrique363"],
+  publisher: "Namco",
+  originalYear: 1998,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.7", date: "2026-10-21" },
+  sources: ["https://github.com/enrique363/voldorium"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Dreamcast"],
+  notes: "SoulCalibur: static recompilation by enrique363 for Windows. Bring your own copy of the game.",
+  notesEs: "SoulCalibur: recompilación estática de enrique363 para Windows. Aporta tu propia copia del juego.",
+};

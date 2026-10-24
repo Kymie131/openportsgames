@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const slickamogusSilentHillPcNightly: Port = {
+  schema: "port",
+  id: "slickamogus-silent-hill-pc-nightly",
+  title: "Silent Hill (silent-hill-pc-nightly)",
+  game: "Silent Hill",
+  developers: ["SlickAmogus"],
+  publisher: "Konami",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "2026.10.16.1", date: "2026-10-16" },
+  sources: ["https://github.com/SlickAmogus/silent-hill-pc-nightly"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Silent%20Hill%20(USA).png",
+    alt: "Silent Hill (box art)",
+    credit: "Box art",
+  },
+  notes: "Silent Hill: decompilation by SlickAmogus for Windows. Bring your own copy of the game.",
+  notesEs: "Silent Hill: decompilación de SlickAmogus para Windows. Aporta tu propia copia del juego.",
+};

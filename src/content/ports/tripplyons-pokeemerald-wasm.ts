@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tripplyonsPokeemeraldWasm: Port = {
+  schema: "port",
+  id: "tripplyons-pokeemerald-wasm",
+  title: "Pokémon Emerald (pokeemerald-wasm)",
+  game: "Pokémon Emerald",
+  developers: ["tripplyons"],
+  publisher: "Nintendo",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["web"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/tripplyons/pokeemerald-wasm"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Game Boy Advance"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20-%20Emerald%20Version%20(USA,%20Europe).png",
+    alt: "Pokémon Emerald (box art)",
+    credit: "Box art",
+  },
+  notes: "Pokémon Emerald: browser port by tripplyons for the browser. Bring your own copy of the game.",
+  notesEs: "Pokémon Emerald: port de navegador de tripplyons para el navegador. Aporta tu propia copia del juego.",
+};

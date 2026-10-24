@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const awakenchanLanternengine: Port = {
+  schema: "port",
+  id: "awakenchan-lanternengine",
+  title: "Bloodborne",
+  game: "Bloodborne",
+  developers: ["Awakenchan"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2015,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.9.37", date: "2026-10-23" },
+  sources: ["https://github.com/Awakenchan/LanternEngine"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
+    alt: "Bloodborne (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Bloodborne: source port by Awakenchan for Windows. Bring your own copy of the game.",
+  notesEs: "Bloodborne: source port de Awakenchan para Windows. Aporta tu propia copia del juego.",
+};

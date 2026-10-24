@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const cncnetTsPatches: Port = {
+  schema: "port",
+  id: "cncnet-ts-patches",
+  title: "Command & Conquer: Tiberian Sun (ts-patches)",
+  game: "Command & Conquer: Tiberian Sun",
+  developers: ["CnCNet"],
+  publisher: "Electronic Arts",
+  originalYear: 2024,
+  portType: "decompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/CnCNet/ts-patches"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Command & Conquer: Tiberian Sun: decompilation by CnCNet for Windows. Bring your own copy of the game.",
+  notesEs: "Command & Conquer: Tiberian Sun: decompilación de CnCNet para Windows. Aporta tu propia copia del juego.",
+};

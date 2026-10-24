@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const insanitybringerPiccuengine: Port = {
+  schema: "port",
+  id: "insanitybringer-piccuengine",
+  title: "Descent 3",
+  game: "Descent 3",
+  developers: ["InsanityBringer"],
+  publisher: "Interplay Entertainment",
+  originalYear: 1999,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.2.2", date: "2024-09-12" },
+  sources: ["https://github.com/InsanityBringer/PiccuEngine"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b2/D3_Box_Art.jpg",
+    alt: "Descent 3 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Descent 3: source port by InsanityBringer for Windows. Bring your own copy of the game.",
+  notesEs: "Descent 3: source port de InsanityBringer para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mateussmenesesTheorder1886Port: Port = {
+  schema: "port",
+  id: "mateussmeneses-theorder1886-port",
+  title: "The Order: 1886 (PC port)",
+  game: "The Order: 1886",
+  developers: ["mateussmeneses"],
+  publisher: "Ready at Dawn",
+  originalYear: 2015,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.7.7", date: "2026-10-22" },
+  sources: ["https://github.com/mateussmeneses/theorder1886-port"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/00/The_Order_1886_Cover_Art.png",
+    alt: "The Order: 1886 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Order: 1886: source port by mateussmeneses for Windows. Bring your own copy of the game.",
+  notesEs: "The Order: 1886: source port de mateussmeneses para Windows. Aporta tu propia copia del juego.",
+};

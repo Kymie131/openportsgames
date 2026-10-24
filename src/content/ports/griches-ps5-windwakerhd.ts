@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const grichesPs5Windwakerhd: Port = {
+  schema: "port",
+  id: "griches-ps5-windwakerhd",
+  title: "The Legend of Zelda: The Wind Waker HD (Wind Waker HD for PlayStation 5)",
+  game: "The Legend of Zelda: The Wind Waker HD",
+  developers: ["griches"],
+  publisher: "Nintendo",
+  originalYear: 2013,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.1.0", date: "2026-10-13" },
+  sources: ["https://github.com/griches/PS5_WindWakerHD"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Wii U"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
+    alt: "The Legend of Zelda: The Wind Waker HD (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Legend of Zelda: The Wind Waker HD: static recompilation by griches for Windows. Bring your own copy of the game.",
+  notesEs: "The Legend of Zelda: The Wind Waker HD: recompilación estática de griches para Windows. Aporta tu propia copia del juego.",
+};

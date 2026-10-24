@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mercuryworkshopCelesteWasm: Port = {
+  schema: "port",
+  id: "mercuryworkshop-celeste-wasm",
+  title: "Celeste (celeste-wasm / Webleste)",
+  game: "Celeste",
+  developers: ["MercuryWorkshop"],
+  publisher: "Maddy Makes Games",
+  originalYear: 2018,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["web"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/MercuryWorkshop/celeste-wasm"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Celeste_box_art_full.png",
+    alt: "Celeste (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Celeste: browser port by MercuryWorkshop for the browser. Playable in the browser.",
+  notesEs: "Celeste: port de navegador de MercuryWorkshop para el navegador. Jugable en el navegador.",
+};

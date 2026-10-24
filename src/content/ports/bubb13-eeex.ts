@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bubb13Eeex: Port = {
+  schema: "port",
+  id: "bubb13-eeex",
+  title: "Baldur's Gate: Enhanced Edition (EEex)",
+  game: "Baldur's Gate: Enhanced Edition",
+  developers: ["Bubb13"],
+  publisher: "Beamdog",
+  originalYear: 2013,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.3.1", date: "2026-10-07" },
+  sources: ["https://github.com/Bubb13/EEex"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Baldur's Gate: Enhanced Edition: decompilation by Bubb13 for Windows. Bring your own copy of the game.",
+  notesEs: "Baldur's Gate: Enhanced Edition: decompilación de Bubb13 para Windows. Aporta tu propia copia del juego.",
+};

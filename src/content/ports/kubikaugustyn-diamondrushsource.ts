@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const kubikaugustynDiamondrushsource: Port = {
+  schema: "port",
+  id: "kubikaugustyn-diamondrushsource",
+  title: "Diamond Rush (DiamondRushSource)",
+  game: "Diamond Rush",
+  developers: ["kubikaugustyn"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/kubikaugustyn/DiamondRushSource"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/4d/Diamond_rush_screenshot_%28java_version%29.png",
+    alt: "Diamond Rush (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Diamond Rush: decompilation by kubikaugustyn for Windows. Bring your own copy of the game.",
+  notesEs: "Diamond Rush: decompilación de kubikaugustyn para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const then00pReflappy: Port = {
+  schema: "port",
+  id: "then00p-reflappy",
+  title: "Flappy Bird (reFlappy)",
+  game: "Flappy Bird",
+  developers: ["THEN00P"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.4.0", date: "2025-09-04" },
+  sources: ["https://github.com/THEN00P/reFlappy"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Flappy Bird: static recompilation by THEN00P for Windows. Bring your own copy of the game.",
+  notesEs: "Flappy Bird: recompilación estática de THEN00P para Windows. Aporta tu propia copia del juego.",
+};

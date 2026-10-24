@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const kurausukunMother3: Port = {
+  schema: "port",
+  id: "kurausukun-mother3",
+  title: "Mother 3",
+  game: "Mother 3",
+  developers: ["Kurausukun"],
+  publisher: "Nintendo",
+  originalYear: 2006,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Kurausukun/mother3"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Game Boy Advance"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/ee/Deluxe_package.jpg",
+    alt: "Mother 3 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Mother 3: decompilation by Kurausukun for Windows. Bring your own copy of the game.",
+  notesEs: "Mother 3: decompilación de Kurausukun para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const phi1owMkwiiPs5: Port = {
+  schema: "port",
+  id: "phi1ow-mkwii-ps5",
+  title: "Mario Kart Wii (mkwii-ps5)",
+  game: "Mario Kart Wii",
+  developers: ["Phi1ow"],
+  publisher: "Nintendo",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Phi1ow/mkwii-ps5"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Wii"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png",
+    alt: "Mario Kart Wii (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Mario Kart Wii: static recompilation by Phi1ow for Windows. Bring your own copy of the game.",
+  notesEs: "Mario Kart Wii: recompilación estática de Phi1ow para Windows. Aporta tu propia copia del juego.",
+};

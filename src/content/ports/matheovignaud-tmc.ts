@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const matheovignaudTmc: Port = {
+  schema: "port",
+  id: "matheovignaud-tmc",
+  title: "The Legend of Zelda: The Minish Cap",
+  game: "The Legend of Zelda: The Minish Cap",
+  developers: ["MatheoVignaud"],
+  publisher: "Nintendo",
+  originalYear: 2004,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.2.0-pre", date: "2026-05-17" },
+  sources: ["https://github.com/MatheoVignaud/tmc"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Game Boy Advance"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0a/TLOZ-_Minish_Cap_NA_Box_art.png",
+    alt: "The Legend of Zelda: The Minish Cap (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Legend of Zelda: The Minish Cap: decompilation by MatheoVignaud for Windows. Bring your own copy of the game.",
+  notesEs: "The Legend of Zelda: The Minish Cap: decompilación de MatheoVignaud para Windows. Aporta tu propia copia del juego.",
+};

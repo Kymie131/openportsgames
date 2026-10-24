@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const acreteamForest: Port = {
+  schema: "port",
+  id: "acreteam-forest",
+  title: "Animal Crossing (ACreTeam)",
+  game: "Animal Crossing",
+  developers: ["ACreTeam"],
+  publisher: "Nintendo",
+  originalYear: 2001,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ACreTeam/forest"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Animal%20Crossing%20(USA).png",
+    alt: "Animal Crossing (box art)",
+    credit: "Box art",
+  },
+  notes: "Animal Crossing: source port by ACreTeam for Windows. Bring your own copy of the game.",
+  notesEs: "Animal Crossing: source port de ACreTeam para Windows. Aporta tu propia copia del juego.",
+};

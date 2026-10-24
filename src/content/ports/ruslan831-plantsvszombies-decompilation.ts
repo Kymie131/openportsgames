@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ruslan831PlantsvszombiesDecompilation: Port = {
+  schema: "port",
+  id: "ruslan831-plantsvszombies-decompilation",
+  title: "Plants vs. Zombies",
+  game: "Plants vs. Zombies",
+  developers: ["ruslan831"],
+  publisher: "PopCap Games",
+  originalYear: 2009,
+  portType: "decompilation",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ruslan831/PlantsVsZombies-decompilation"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/9c/PlantsvsZombiesCoverArt.jpg",
+    alt: "Plants vs. Zombies (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Plants vs. Zombies: decompilation by ruslan831 for Windows. Bring your own copy of the game.",
+  notesEs: "Plants vs. Zombies: decompilación de ruslan831 para Windows. Aporta tu propia copia del juego.",
+};

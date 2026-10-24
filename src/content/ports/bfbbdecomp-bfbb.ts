@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bfbbdecompBfbb: Port = {
+  schema: "port",
+  id: "bfbbdecomp-bfbb",
+  title: "SpongeBob SquarePants: Battle for Bikini Bottom",
+  game: "SpongeBob SquarePants: Battle for Bikini Bottom",
+  developers: ["bfbbdecomp"],
+  publisher: "THQ",
+  originalYear: 2003,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/bfbbdecomp/bfbb"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c7/BattleForBikiniBottom.jpg",
+    alt: "SpongeBob SquarePants: Battle for Bikini Bottom (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "SpongeBob SquarePants: Battle for Bikini Bottom: decompilation by bfbbdecomp for Windows. Bring your own copy of the game.",
+  notesEs: "SpongeBob SquarePants: Battle for Bikini Bottom: decompilación de bfbbdecomp para Windows. Aporta tu propia copia del juego.",
+};

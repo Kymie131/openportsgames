@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pixiecatsupremeAnodynesharp: Port = {
+  schema: "port",
+  id: "pixiecatsupreme-anodynesharp",
+  title: "Anodyne ( AnodyneFNA)",
+  game: "Anodyne",
+  developers: ["PixieCatSupreme"],
+  publisher: "Analgesic Productions",
+  originalYear: 2019,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/PixieCatSupreme/AnodyneSharp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Anodyne: source port by PixieCatSupreme for Windows. Bring your own copy of the game.",
+  notesEs: "Anodyne: source port de PixieCatSupreme para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const omegakatana92ArmoredCoreRecomp: Port = {
+  schema: "port",
+  id: "omegakatana92-armored-core-recomp",
+  title: "Armored Core",
+  game: "Armored Core",
+  developers: ["omegakatana92"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 1997,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-09-13" },
+  sources: ["https://github.com/omegakatana92/Armored-Core-Recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Armored%20Core%20(Europe)%20(En,Fr,De,Es,It).png",
+    alt: "Armored Core (box art)",
+    credit: "Box art",
+  },
+  notes: "Armored Core: static recompilation by omegakatana92 for Windows. Bring your own copy of the game.",
+  notesEs: "Armored Core: recompilación estática de omegakatana92 para Windows. Aporta tu propia copia del juego.",
+};

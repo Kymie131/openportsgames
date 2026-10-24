@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sushiShiHomm3Decomp: Port = {
+  schema: "port",
+  id: "sushi-shi-homm3-decomp",
+  title: "Heroes of Might and Magic III",
+  game: "Heroes of Might and Magic III",
+  developers: ["sushi-shi"],
+  publisher: "The 3DO Company",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sushi-shi/homm3-decomp"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/9b/Homm3boxart.jpg",
+    alt: "Heroes of Might and Magic III (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Heroes of Might and Magic III: decompilation by sushi-shi for Windows. Bring your own copy of the game.",
+  notesEs: "Heroes of Might and Magic III: decompilación de sushi-shi para Windows. Aporta tu propia copia del juego.",
+};

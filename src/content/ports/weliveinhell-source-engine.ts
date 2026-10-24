@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const weliveinhellSourceEngine: Port = {
+  schema: "port",
+  id: "weliveinhell-source-engine",
+  title: "Portal (source-engine Emscripten port)",
+  game: "Portal",
+  developers: ["weliveinhell"],
+  publisher: "Valve",
+  originalYear: 2007,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["web"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/weliveinhell/source-engine"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/400/header.jpg",
+    alt: "Portal (box art)",
+    credit: "Steam",
+  },
+  notes: "Portal: browser port by weliveinhell for the browser. Playable in the browser.",
+  notesEs: "Portal: port de navegador de weliveinhell para el navegador. Jugable en el navegador.",
+};

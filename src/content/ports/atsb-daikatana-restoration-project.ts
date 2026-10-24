@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const atsbDaikatanaRestorationProject: Port = {
+  schema: "port",
+  id: "atsb-daikatana-restoration-project",
+  title: "Daikatana (Daikatana Restoration Project)",
+  game: "Daikatana",
+  developers: ["atsb"],
+  publisher: "Square Enix",
+  originalYear: 2013,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.4", date: "2026-09-28" },
+  sources: ["https://github.com/atsb/daikatana-restoration-project"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Daikatana: source port by atsb for Windows. Bring your own copy of the game.",
+  notesEs: "Daikatana: source port de atsb para Windows. Aporta tu propia copia del juego.",
+};

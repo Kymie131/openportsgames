@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const medievildecompilationMedievilDecomp: Port = {
+  schema: "port",
+  id: "medievildecompilation-medievil-decomp",
+  title: "MediEvil",
+  game: "MediEvil",
+  developers: ["MediEvilDecompilation"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/MediEvilDecompilation/medievil-decomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d3/Medievil_cover.jpg",
+    alt: "MediEvil (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "MediEvil: decompilation by MediEvilDecompilation for Windows. Bring your own copy of the game.",
+  notesEs: "MediEvil: decompilación de MediEvilDecompilation para Windows. Aporta tu propia copia del juego.",
+};

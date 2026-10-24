@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ultimabearOpenchaos: Port = {
+  schema: "port",
+  id: "ultimabear-openchaos",
+  title: "Urban Chaos (OpenChaos)",
+  game: "Urban Chaos",
+  developers: ["UltimaBeaR"],
+  publisher: "My Little Planet Ltd",
+  originalYear: 2013,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-06-27" },
+  sources: ["https://github.com/UltimaBeaR/OpenChaos"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Urban Chaos: engine remake by UltimaBeaR for Windows. Bring your own copy of the game.",
+  notesEs: "Urban Chaos: recreación de motor de UltimaBeaR para Windows. Aporta tu propia copia del juego.",
+};

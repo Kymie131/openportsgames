@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sc2kfixSc2kfix: Port = {
+  schema: "port",
+  id: "sc2kfix-sc2kfix",
+  title: "SimCity 2000 (sc2kfix)",
+  game: "SimCity 2000",
+  developers: ["sc2kfix"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/sc2kfix/sc2kfix"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "SimCity 2000: decompilation by sc2kfix for Windows. Bring your own copy of the game.",
+  notesEs: "SimCity 2000: decompilación de sc2kfix para Windows. Aporta tu propia copia del juego.",
+};

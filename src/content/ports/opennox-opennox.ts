@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const opennoxOpennox: Port = {
+  schema: "port",
+  id: "opennox-opennox",
+  title: "Nox (OpenNox)",
+  game: "Nox",
+  developers: ["opennox"],
+  publisher: "6502 Workshop",
+  originalYear: 2021,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.9.0-alpha13", date: "2024-01-27" },
+  sources: ["https://github.com/opennox/opennox"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Nox: source port by opennox for Windows. Bring your own copy of the game.",
+  notesEs: "Nox: source port de opennox para Windows. Aporta tu propia copia del juego.",
+};

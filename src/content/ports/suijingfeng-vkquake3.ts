@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const suijingfengVkquake3: Port = {
+  schema: "port",
+  id: "suijingfeng-vkquake3",
+  title: "Quake III Arena (Batocera port package 'vkquake3')",
+  game: "Quake III Arena",
+  developers: ["suijingfeng"],
+  publisher: "Activision",
+  originalYear: 1999,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/suijingfeng/vkQuake3"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a1/Quake3Title.jpg",
+    alt: "Quake III Arena (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Quake III Arena: source port by suijingfeng for Windows. Bring your own copy of the game.",
+  notesEs: "Quake III Arena: source port de suijingfeng para Windows. Aporta tu propia copia del juego.",
+};

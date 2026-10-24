@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const zallaxdevEmerald3ds: Port = {
+  schema: "port",
+  id: "zallaxdev-emerald-3ds",
+  title: "Pokémon Emerald",
+  game: "Pokémon Emerald",
+  developers: ["ZallaxDev"],
+  publisher: "Nintendo",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.4.0", date: "2026-10-16" },
+  sources: ["https://github.com/ZallaxDev/emerald-3ds"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Game Boy Advance"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20-%20Emerald%20Version%20(USA,%20Europe).png",
+    alt: "Pokémon Emerald (box art)",
+    credit: "Box art",
+  },
+  notes: "Pokémon Emerald: source port by ZallaxDev for Windows. Bring your own copy of the game.",
+  notesEs: "Pokémon Emerald: source port de ZallaxDev para Windows. Aporta tu propia copia del juego.",
+};

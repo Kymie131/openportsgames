@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const dropsonic0SonicManiaDecompilation: Port = {
+  schema: "port",
+  id: "dropsonic0-sonic-mania-decompilation",
+  title: "Sonic Mania (Sonic-Mania-Decompilation)",
+  game: "Sonic Mania",
+  developers: ["DropSonic0"],
+  publisher: "Sega",
+  originalYear: 2017,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "99.99", date: "2025-06-23" },
+  sources: ["https://github.com/DropSonic0/Sonic-Mania-Decompilation"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d2/Sonic_Mania_%28artwork%29.jpg",
+    alt: "Sonic Mania (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Sonic Mania: decompilation by DropSonic0 for Windows. Bring your own copy of the game.",
+  notesEs: "Sonic Mania: decompilación de DropSonic0 para Windows. Aporta tu propia copia del juego.",
+};

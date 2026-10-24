@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const optijuegosPvzPs2Wii: Port = {
+  schema: "port",
+  id: "optijuegos-pvz-ps2-wii",
+  title: "Plants vs. Zombies (pvz-ps2-wii)",
+  game: "Plants vs. Zombies",
+  developers: ["OptiJuegos"],
+  publisher: "PopCap Games",
+  originalYear: 2009,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/OptiJuegos/pvz-ps2-wii"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/9c/PlantsvsZombiesCoverArt.jpg",
+    alt: "Plants vs. Zombies (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Plants vs. Zombies: source port by OptiJuegos for Windows. Bring your own copy of the game.",
+  notesEs: "Plants vs. Zombies: source port de OptiJuegos para Windows. Aporta tu propia copia del juego.",
+};

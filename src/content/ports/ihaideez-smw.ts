@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ihaideezSmw: Port = {
+  schema: "port",
+  id: "ihaideez-smw",
+  title: "Super Mario Bros. Wonder (SMW)",
+  game: "Super Mario Bros. Wonder",
+  developers: ["iHaiDeeZ"],
+  publisher: "Nintendo",
+  originalYear: 2023,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "00.30", date: "2026-10-19" },
+  sources: ["https://github.com/iHaiDeeZ/SMW"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo Switch"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a3/Mariowonder.png",
+    alt: "Super Mario Bros. Wonder (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Super Mario Bros. Wonder: static recompilation by iHaiDeeZ for Windows. Bring your own copy of the game.",
+  notesEs: "Super Mario Bros. Wonder: recompilación estática de iHaiDeeZ para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ladysilverbergXenogearsDecomp: Port = {
+  schema: "port",
+  id: "ladysilverberg-xenogears-decomp",
+  title: "Xenogears",
+  game: "Xenogears",
+  developers: ["ladysilverberg"],
+  publisher: "Square",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ladysilverberg/xenogears-decomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Xenogears%20(USA).png",
+    alt: "Xenogears (box art)",
+    credit: "Box art",
+  },
+  notes: "Xenogears: decompilation by ladysilverberg for Windows. Bring your own copy of the game.",
+  notesEs: "Xenogears: decompilación de ladysilverberg para Windows. Aporta tu propia copia del juego.",
+};

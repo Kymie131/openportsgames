@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const riotashley81JpgVagrantstoryRecomp: Port = {
+  schema: "port",
+  id: "riotashley81-jpg-vagrantstory-recomp",
+  title: "VagrantStory",
+  game: "VagrantStory",
+  developers: ["riotashley81-jpg"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.9", date: "2026-10-22" },
+  sources: ["https://github.com/riotashley81-jpg/vagrantstory_recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  notes: "VagrantStory: static recompilation by riotashley81-jpg for Windows. Bring your own copy of the game.",
+  notesEs: "VagrantStory: recompilación estática de riotashley81-jpg para Windows. Aporta tu propia copia del juego.",
+};

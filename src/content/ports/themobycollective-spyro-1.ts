@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const themobycollectiveSpyro1: Port = {
+  schema: "port",
+  id: "themobycollective-spyro-1",
+  title: "Spyro the Dragon",
+  game: "Spyro the Dragon",
+  developers: ["TheMobyCollective"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/TheMobyCollective/spyro-1"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Spyro%20the%20Dragon%20(Europe)%20(En,Fr,De,Es,It).png",
+    alt: "Spyro the Dragon (box art)",
+    credit: "Box art",
+  },
+  notes: "Spyro the Dragon: decompilation by TheMobyCollective for Windows. Bring your own copy of the game.",
+  notesEs: "Spyro the Dragon: decompilación de TheMobyCollective para Windows. Aporta tu propia copia del juego.",
+};

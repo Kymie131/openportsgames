@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jnmartin84OotDc: Port = {
+  schema: "port",
+  id: "jnmartin84-oot-dc",
+  title: "The Legend of Zelda: Ocarina of Time (oot-dc)",
+  game: "The Legend of Zelda: Ocarina of Time",
+  developers: ["jnmartin84"],
+  publisher: "Nintendo",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/jnmartin84/oot-dc"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
+    alt: "The Legend of Zelda: Ocarina of Time (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Legend of Zelda: Ocarina of Time: decompilation by jnmartin84 for Windows. Bring your own copy of the game.",
+  notesEs: "The Legend of Zelda: Ocarina of Time: decompilación de jnmartin84 para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const slqntdevssKisakcodPort: Port = {
+  schema: "port",
+  id: "slqntdevss-kisakcod-port",
+  title: "Call of Duty 4: Modern Warfare (kisakcod-port (web))",
+  game: "Call of Duty 4: Modern Warfare (kisakcod-port (web))",
+  developers: ["slqntdevss"],
+  publisher: "Unknown",
+  originalYear: 2007,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/slqntdevss/kisakcod-port"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Call of Duty 4: Modern Warfare (kisakcod-port (web)): source port by slqntdevss for Windows. Bring your own copy of the game.",
+  notesEs: "Call of Duty 4: Modern Warfare (kisakcod-port (web)): source port de slqntdevss para Windows. Aporta tu propia copia del juego.",
+};

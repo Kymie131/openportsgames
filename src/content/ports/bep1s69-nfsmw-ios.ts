@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bep1s69NfsmwIos: Port = {
+  schema: "port",
+  id: "bep1s69-nfsmw-ios",
+  title: "Need for Speed: Most Wanted (nfsmw-ios)",
+  game: "Need for Speed: Most Wanted",
+  developers: ["bep1s69"],
+  publisher: "Electronic Arts",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.3.0", date: "2026-10-14" },
+  sources: ["https://github.com/bep1s69/nfsmw-ios"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1262560/header.jpg",
+    alt: "Need for Speed: Most Wanted (box art)",
+    credit: "Steam",
+  },
+  notes: "Need for Speed: Most Wanted: static recompilation by bep1s69 for Windows. Bring your own copy of the game.",
+  notesEs: "Need for Speed: Most Wanted: recompilación estática de bep1s69 para Windows. Aporta tu propia copia del juego.",
+};

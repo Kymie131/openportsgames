@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const phobos665Split2Recomp: Port = {
+  schema: "port",
+  id: "phobos665-split2-recomp",
+  title: "TimeSplitters 2",
+  game: "TimeSplitters 2",
+  developers: ["phobos665"],
+  publisher: "Eidos Interactive",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.3", date: "2026-10-20" },
+  sources: ["https://github.com/phobos665/split2-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6b/Timesplitters2.JPG",
+    alt: "TimeSplitters 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "TimeSplitters 2: static recompilation by phobos665 for Windows. Bring your own copy of the game.",
+  notesEs: "TimeSplitters 2: recompilación estática de phobos665 para Windows. Aporta tu propia copia del juego.",
+};

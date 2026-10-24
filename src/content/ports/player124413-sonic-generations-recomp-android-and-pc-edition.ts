@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const player124413SonicGenerationsRecompAndroidAndPcEdition: Port = {
+  schema: "port",
+  id: "player124413-sonic-generations-recomp-android-and-pc-edition",
+  title: "Sonic Generations (Sonic-Generations-recomp-android-and-pc-edition)",
+  game: "Sonic Generations",
+  developers: ["Player124413"],
+  publisher: "Sega",
+  originalYear: 2011,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Player124413/Sonic-Generations-recomp-android-and-pc-edition"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7d/SonicGenerations.jpg",
+    alt: "Sonic Generations (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Sonic Generations: static recompilation by Player124413 for Windows. Bring your own copy of the game.",
+  notesEs: "Sonic Generations: recompilación estática de Player124413 para Windows. Aporta tu propia copia del juego.",
+};

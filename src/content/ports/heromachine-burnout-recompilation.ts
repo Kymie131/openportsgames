@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const heromachineBurnoutRecompilation: Port = {
+  schema: "port",
+  id: "heromachine-burnout-recompilation",
+  title: "Burnout",
+  game: "Burnout",
+  developers: ["Heromachine"],
+  publisher: "Unknown",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.0", date: "2026-10-14" },
+  sources: ["https://github.com/Heromachine/Burnout-Recompilation"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox"],
+  notes: "Burnout: static recompilation by Heromachine for Windows. Bring your own copy of the game.",
+  notesEs: "Burnout: recompilación estática de Heromachine para Windows. Aporta tu propia copia del juego.",
+};

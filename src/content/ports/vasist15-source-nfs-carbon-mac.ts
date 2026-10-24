@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const vasist15SourceNfsCarbonMac: Port = {
+  schema: "port",
+  id: "vasist15-source-nfs-carbon-mac",
+  title: "Need for Speed: Carbon (nfs-carbon-mac)",
+  game: "Need for Speed: Carbon",
+  developers: ["vasist15-source"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "macos"],
+  status: "beta",
+  release: { version: "0.1.13", date: "2026-10-19" },
+  sources: ["https://github.com/vasist15-source/nfs-carbon-mac"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a4/Need_for_Speed_Carbon_Game_Cover.jpg",
+    alt: "Need for Speed: Carbon (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Need for Speed: Carbon: static recompilation by vasist15-source for Windows, macOS. Bring your own copy of the game.",
+  notesEs: "Need for Speed: Carbon: recompilación estática de vasist15-source para Windows, macOS. Aporta tu propia copia del juego.",
+};

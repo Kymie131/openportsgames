@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const melindilFtse: Port = {
+  schema: "port",
+  id: "melindil-ftse",
+  title: "Fallout Tactics: Brotherhood of Steel (FTSE)",
+  game: "Fallout Tactics: Brotherhood of Steel",
+  developers: ["melindil"],
+  publisher: "Bethesda Softworks",
+  originalYear: 2009,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.60", date: "2026-03-27" },
+  sources: ["https://github.com/melindil/FTSE"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Fallout Tactics: Brotherhood of Steel: decompilation by melindil for Windows. Bring your own copy of the game.",
+  notesEs: "Fallout Tactics: Brotherhood of Steel: decompilación de melindil para Windows. Aporta tu propia copia del juego.",
+};

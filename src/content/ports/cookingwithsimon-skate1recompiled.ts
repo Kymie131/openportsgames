@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const cookingwithsimonSkate1recompiled: Port = {
+  schema: "port",
+  id: "cookingwithsimon-skate1recompiled",
+  title: "Skate (2007)",
+  game: "Skate",
+  developers: ["cookingwithsimon"],
+  publisher: "Unknown",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.2.0", date: "2026-10-11" },
+  sources: ["https://github.com/cookingwithsimon/Skate1Recompiled"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "Skate: static recompilation by cookingwithsimon for Windows. Bring your own copy of the game.",
+  notesEs: "Skate: recompilación estática de cookingwithsimon para Windows. Aporta tu propia copia del juego.",
+};

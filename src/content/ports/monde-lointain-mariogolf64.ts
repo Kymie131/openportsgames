@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mondeLointainMariogolf64: Port = {
+  schema: "port",
+  id: "monde-lointain-mariogolf64",
+  title: "Mario Golf",
+  game: "Mario Golf",
+  developers: ["monde-lointain"],
+  publisher: "Nintendo",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/monde-lointain/mariogolf64"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Mario%20Golf%20(USA).png",
+    alt: "Mario Golf (box art)",
+    credit: "Box art",
+  },
+  notes: "Mario Golf: decompilation by monde-lointain for Windows. Bring your own copy of the game.",
+  notesEs: "Mario Golf: decompilación de monde-lointain para Windows. Aporta tu propia copia del juego.",
+};

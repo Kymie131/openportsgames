@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const zeldaretSs: Port = {
+  schema: "port",
+  id: "zeldaret-ss",
+  title: "The Legend of Zelda: Skyward Sword",
+  game: "The Legend of Zelda: Skyward Sword",
+  developers: ["zeldaret"],
+  publisher: "Nintendo",
+  originalYear: 2011,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/zeldaret/ss"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Wii"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/99/Legend_of_Zelda_Skyward_Sword_boxart.png",
+    alt: "The Legend of Zelda: Skyward Sword (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Legend of Zelda: Skyward Sword: decompilation by zeldaret for Windows. Bring your own copy of the game.",
+  notesEs: "The Legend of Zelda: Skyward Sword: decompilación de zeldaret para Windows. Aporta tu propia copia del juego.",
+};

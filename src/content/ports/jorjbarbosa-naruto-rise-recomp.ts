@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jorjbarbosaNarutoRiseRecomp: Port = {
+  schema: "port",
+  id: "jorjbarbosa-naruto-rise-recomp",
+  title: "Naruto: Rise of a Ninja",
+  game: "Naruto: Rise of a Ninja",
+  developers: ["jorjbarbosa"],
+  publisher: "Ubisoft",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.3.0-beta", date: "2026-10-23" },
+  sources: ["https://github.com/jorjbarbosa/naruto-rise-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/fa/Naruto_ROANfront.jpg",
+    alt: "Naruto: Rise of a Ninja (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Naruto: Rise of a Ninja: static recompilation by jorjbarbosa for Windows. Bring your own copy of the game.",
+  notesEs: "Naruto: Rise of a Ninja: recompilación estática de jorjbarbosa para Windows. Aporta tu propia copia del juego.",
+};

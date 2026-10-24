@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const teamBeefStudiosRtcwquest: Port = {
+  schema: "port",
+  id: "team-beef-studios-rtcwquest",
+  title: "Return to Castle Wolfenstein (RTCWQuest)",
+  game: "Return to Castle Wolfenstein",
+  developers: ["Team-Beef-Studios"],
+  publisher: "Gray Matter Interactive",
+  originalYear: 2001,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.4.1", date: "2026-09-29" },
+  sources: ["https://github.com/Team-Beef-Studios/RTCWQuest"],
+  license: { spdx: "LGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b0/Return_to_Castle_Wolfenstein_Coverart.jpg",
+    alt: "Return to Castle Wolfenstein (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Return to Castle Wolfenstein: source port by Team-Beef-Studios for Windows. Bring your own copy of the game.",
+  notesEs: "Return to Castle Wolfenstein: source port de Team-Beef-Studios para Windows. Aporta tu propia copia del juego.",
+};

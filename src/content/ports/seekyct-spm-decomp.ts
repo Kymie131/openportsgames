@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const seekyctSpmDecomp: Port = {
+  schema: "port",
+  id: "seekyct-spm-decomp",
+  title: "Super Paper Mario",
+  game: "Super Paper Mario",
+  developers: ["SeekyCt"],
+  publisher: "Intelligent Systems",
+  originalYear: 2007,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/SeekyCt/spm-decomp"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Wii"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c9/Super_Paper_Mario_cover.jpg",
+    alt: "Super Paper Mario (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Super Paper Mario: decompilation by SeekyCt for Windows. Bring your own copy of the game.",
+  notesEs: "Super Paper Mario: decompilación de SeekyCt para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const phobosDevelopersPhobos: Port = {
+  schema: "port",
+  id: "phobos-developers-phobos",
+  title: "Command & Conquer: Red Alert 2 (Phobos)",
+  game: "Command & Conquer: Red Alert 2",
+  developers: ["Phobos-developers"],
+  publisher: "Electronic Arts",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.4.0.2", date: "2026-01-28" },
+  sources: ["https://github.com/Phobos-developers/Phobos"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/11/Cncra2-win-cover.jpg",
+    alt: "Command & Conquer: Red Alert 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Command & Conquer: Red Alert 2: decompilation by Phobos-developers for Windows. Bring your own copy of the game.",
+  notesEs: "Command & Conquer: Red Alert 2: decompilación de Phobos-developers para Windows. Aporta tu propia copia del juego.",
+};

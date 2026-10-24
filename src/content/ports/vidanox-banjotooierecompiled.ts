@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const vidanoxBanjotooierecompiled: Port = {
+  schema: "port",
+  id: "vidanox-banjotooierecompiled",
+  title: "Banjo-Tooie (Banjo-Tooie: Recompiled)",
+  game: "Banjo-Tooie",
+  developers: ["Vidanox"],
+  publisher: "Rare",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "beta",
+  release: { version: "1.0.0-build", date: "2026-09-17" },
+  sources: ["https://github.com/Vidanox/BanjoTooieRecompiled"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Banjo-Tooie%20(USA).png",
+    alt: "Banjo-Tooie (box art)",
+    credit: "Box art",
+  },
+  notes: "Banjo-Tooie: static recompilation by Vidanox for Windows, Linux. Bring your own copy of the game.",
+  notesEs: "Banjo-Tooie: recompilación estática de Vidanox para Windows, Linux. Aporta tu propia copia del juego.",
+};

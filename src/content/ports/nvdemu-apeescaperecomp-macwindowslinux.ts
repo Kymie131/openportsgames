@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nvdemuApeescaperecompMacwindowslinux: Port = {
+  schema: "port",
+  id: "nvdemu-apeescaperecomp-macwindowslinux",
+  title: "Ape Escape",
+  game: "Ape Escape",
+  developers: ["NVDEMU"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/NVDEMU/ApeEscapeRecomp-MacWindowsLinux"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Ape%20Escape%20(USA).png",
+    alt: "Ape Escape (box art)",
+    credit: "Box art",
+  },
+  notes: "Ape Escape: static recompilation by NVDEMU for Windows, macOS. Bring your own copy of the game.",
+  notesEs: "Ape Escape: recompilación estática de NVDEMU para Windows, macOS. Aporta tu propia copia del juego.",
+};

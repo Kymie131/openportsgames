@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const zeldaretTp: Port = {
+  schema: "port",
+  id: "zeldaret-tp",
+  title: "The Legend of Zelda: Twilight Princess",
+  game: "The Legend of Zelda: Twilight Princess",
+  developers: ["zeldaret"],
+  publisher: "Nintendo",
+  originalYear: 2006,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/zeldaret/tp"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0e/The_Legend_of_Zelda_Twilight_Princess_Game_Cover.jpg",
+    alt: "The Legend of Zelda: Twilight Princess (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Legend of Zelda: Twilight Princess: decompilation by zeldaret for Windows. Bring your own copy of the game.",
+  notesEs: "The Legend of Zelda: Twilight Princess: decompilación de zeldaret para Windows. Aporta tu propia copia del juego.",
+};

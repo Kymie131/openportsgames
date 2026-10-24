@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const uncreativecultistBuckshotDecompPublic: Port = {
+  schema: "port",
+  id: "uncreativecultist-buckshot-decomp-public",
+  title: "Buckshot Roulette",
+  game: "Buckshot Roulette",
+  developers: ["uncreativeCultist"],
+  publisher: "Mike Klubnika",
+  originalYear: 2023,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/uncreativeCultist/buckshot-decomp-public"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/72/Buckshot_Roulette_Cover.jpg",
+    alt: "Buckshot Roulette (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Buckshot Roulette: decompilation by uncreativeCultist for Windows. Bring your own copy of the game.",
+  notesEs: "Buckshot Roulette: decompilación de uncreativeCultist para Windows. Aporta tu propia copia del juego.",
+};

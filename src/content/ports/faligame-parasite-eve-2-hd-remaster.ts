@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const faligameParasiteEve2HdRemaster: Port = {
+  schema: "port",
+  id: "faligame-parasite-eve-2-hd-remaster",
+  title: "Parasite Eve II",
+  game: "Parasite Eve II",
+  developers: ["faligame"],
+  publisher: "Square Enix",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/faligame/Parasite-Eve-2-HD-Remaster"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Parasite%20Eve%20II%20(USA).png",
+    alt: "Parasite Eve II (box art)",
+    credit: "Box art",
+  },
+  notes: "Parasite Eve II: static recompilation by faligame for Windows. Bring your own copy of the game.",
+  notesEs: "Parasite Eve II: recompilación estática de faligame para Windows. Aporta tu propia copia del juego.",
+};

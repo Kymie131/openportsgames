@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const boricuapabQuest64taleRecompiled: Port = {
+  schema: "port",
+  id: "boricuapab-quest64tale-recompiled",
+  title: "Quest 64 (Quest 64 Tale: Recompiled)",
+  game: "Quest 64",
+  developers: ["boricuapab"],
+  publisher: "Nintendo",
+  originalYear: 1998,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.1.2", date: "2026-10-19" },
+  sources: ["https://github.com/boricuapab/quest64tale-recompiled"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Quest%2064%20(USA).png",
+    alt: "Quest 64 (box art)",
+    credit: "Box art",
+  },
+  notes: "Quest 64: static recompilation by boricuapab for Windows. Bring your own copy of the game.",
+  notesEs: "Quest 64: recompilación estática de boricuapab para Windows. Aporta tu propia copia del juego.",
+};

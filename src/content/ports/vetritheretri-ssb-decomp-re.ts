@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const vetritheretriSsbDecompRe: Port = {
+  schema: "port",
+  id: "vetritheretri-ssb-decomp-re",
+  title: "Super Smash Bros.",
+  game: "Super Smash Bros.",
+  developers: ["VetriTheRetri"],
+  publisher: "Nintendo",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/VetriTheRetri/ssb-decomp-re"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Super%20Smash%20Bros.%20(USA).png",
+    alt: "Super Smash Bros. (box art)",
+    credit: "Box art",
+  },
+  notes: "Super Smash Bros.: decompilation by VetriTheRetri for Windows. Bring your own copy of the game.",
+  notesEs: "Super Smash Bros.: decompilación de VetriTheRetri para Windows. Aporta tu propia copia del juego.",
+};

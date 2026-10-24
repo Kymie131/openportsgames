@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rob646464LuigisMansionRecompiled: Port = {
+  schema: "port",
+  id: "rob646464-luigis-mansion-recompiled",
+  title: "Luigi's Mansion (Luigi's Mansion Recompiled)",
+  game: "Luigi's Mansion",
+  developers: ["rob646464"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.1.4", date: "2026-10-22" },
+  sources: ["https://github.com/rob646464/luigis-mansion-recompiled"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5e/Lmbox.jpg",
+    alt: "Luigi's Mansion (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Luigi's Mansion: static recompilation by rob646464 for Windows. Bring your own copy of the game.",
+  notesEs: "Luigi's Mansion: recompilación estática de rob646464 para Windows. Aporta tu propia copia del juego.",
+};

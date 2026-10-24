@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mortify7612Rallisportchallenge2Decomp: Port = {
+  schema: "port",
+  id: "mortify7612-rallisportchallenge2-decomp",
+  title: "RalliSport Challenge 2 (RalliSport Challenge 2 — static recompilation)",
+  game: "RalliSport Challenge 2",
+  developers: ["Mortify7612"],
+  publisher: "Unknown",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "beta",
+  release: { version: "0.7.0", date: "2026-10-22" },
+  sources: ["https://github.com/Mortify7612/RallisportChallenge2-decomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox"],
+  notes: "RalliSport Challenge 2: static recompilation by Mortify7612 for Windows, Linux. Bring your own copy of the game.",
+  notesEs: "RalliSport Challenge 2: recompilación estática de Mortify7612 para Windows, Linux. Aporta tu propia copia del juego.",
+};

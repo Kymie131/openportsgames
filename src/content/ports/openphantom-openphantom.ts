@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const openphantomOpenphantom: Port = {
+  schema: "port",
+  id: "openphantom-openphantom",
+  title: "Star Wars Episode I: The Phantom Menace (OpenPhantom)",
+  game: "Star Wars Episode I: The Phantom Menace",
+  developers: ["OpenPhantom"],
+  publisher: "LucasArts",
+  originalYear: 1999,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "2.0.1", date: "2026-10-05" },
+  sources: ["https://github.com/OpenPhantom/OpenPhantom"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Star%20Wars%20-%20Episode%20I%20-%20The%20Phantom%20Menace%20(Europe).png",
+    alt: "Star Wars Episode I: The Phantom Menace (box art)",
+    credit: "Box art",
+  },
+  notes: "Star Wars Episode I: The Phantom Menace: engine remake by OpenPhantom for Windows. Bring your own copy of the game.",
+  notesEs: "Star Wars Episode I: The Phantom Menace: recreación de motor de OpenPhantom para Windows. Aporta tu propia copia del juego.",
+};

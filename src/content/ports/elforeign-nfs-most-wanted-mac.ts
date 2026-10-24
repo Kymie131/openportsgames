@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const elforeignNfsMostWantedMac: Port = {
+  schema: "port",
+  id: "elforeign-nfs-most-wanted-mac",
+  title: "Need for Speed: Most Wanted (nfs-most-wanted-mac)",
+  game: "Need for Speed: Most Wanted",
+  developers: ["elforeign"],
+  publisher: "Electronic Arts",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "macos"],
+  status: "beta",
+  release: { version: "3.0.4", date: "2026-10-16" },
+  sources: ["https://github.com/elforeign/nfs-most-wanted-mac"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1262560/header.jpg",
+    alt: "Need for Speed: Most Wanted (box art)",
+    credit: "Steam",
+  },
+  notes: "Need for Speed: Most Wanted: static recompilation by elforeign for Windows, macOS. Bring your own copy of the game.",
+  notesEs: "Need for Speed: Most Wanted: recompilación estática de elforeign para Windows, macOS. Aporta tu propia copia del juego.",
+};

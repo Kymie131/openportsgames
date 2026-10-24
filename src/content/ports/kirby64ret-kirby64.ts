@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const kirby64retKirby64: Port = {
+  schema: "port",
+  id: "kirby64ret-kirby64",
+  title: "Kirby 64: The Crystal Shards",
+  game: "Kirby 64: The Crystal Shards",
+  developers: ["Kirby64Ret"],
+  publisher: "Nintendo",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Kirby64Ret/kirby64"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Hoshi%20no%20Kirby%2064%20(Japan)%20(Rev%202).png",
+    alt: "Kirby 64: The Crystal Shards (box art)",
+    credit: "Box art",
+  },
+  notes: "Kirby 64: The Crystal Shards: decompilation by Kirby64Ret for Windows. Bring your own copy of the game.",
+  notesEs: "Kirby 64: The Crystal Shards: decompilación de Kirby64Ret para Windows. Aporta tu propia copia del juego.",
+};

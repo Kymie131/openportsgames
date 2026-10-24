@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const yannicksuterMschargedDecomp: Port = {
+  schema: "port",
+  id: "yannicksuter-mscharged-decomp",
+  title: "Mario Strikers Charged",
+  game: "Mario Strikers Charged",
+  developers: ["yannicksuter"],
+  publisher: "Nintendo",
+  originalYear: 2007,
+  portType: "decompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/yannicksuter/mscharged-decomp"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Wii"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/Mario%20Strikers%20Charged%20(USA)%20(En,Fr,Es)%20(Rev%201).png",
+    alt: "Mario Strikers Charged (box art)",
+    credit: "Box art",
+  },
+  notes: "Mario Strikers Charged: decompilation by yannicksuter for Windows. Bring your own copy of the game.",
+  notesEs: "Mario Strikers Charged: decompilación de yannicksuter para Windows. Aporta tu propia copia del juego.",
+};

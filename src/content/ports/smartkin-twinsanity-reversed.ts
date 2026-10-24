@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const smartkinTwinsanityReversed: Port = {
+  schema: "port",
+  id: "smartkin-twinsanity-reversed",
+  title: "Crash Twinsanity (twinsanity-reversed)",
+  game: "Crash Twinsanity",
+  developers: ["Smartkin"],
+  publisher: "Vivendi Universal Games",
+  originalYear: 2004,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Smartkin/twinsanity-reversed"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e3/Crash_Twinsanity_North_American_PS2_cover.jpg",
+    alt: "Crash Twinsanity (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Crash Twinsanity: decompilation by Smartkin for Windows. Bring your own copy of the game.",
+  notesEs: "Crash Twinsanity: decompilación de Smartkin para Windows. Aporta tu propia copia del juego.",
+};

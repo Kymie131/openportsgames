@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nathanialfIco: Port = {
+  schema: "port",
+  id: "nathanialf-ico",
+  title: "Ico",
+  game: "Ico",
+  developers: ["nathanialf"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2001,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-10-19" },
+  sources: ["https://github.com/nathanialf/ico"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Ico%20(Europe)%20(En,Fr,De,Es,It).png",
+    alt: "Ico (box art)",
+    credit: "Box art",
+  },
+  notes: "Ico: decompilation by nathanialf for Windows. Bring your own copy of the game.",
+  notesEs: "Ico: decompilación de nathanialf para Windows. Aporta tu propia copia del juego.",
+};

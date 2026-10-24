@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const hossezFifaWorldCup2014Recompiled: Port = {
+  schema: "port",
+  id: "hossez-fifa-world-cup-2014-recompiled",
+  title: "2014 FIFA World Cup Brazil",
+  game: "2014 FIFA World Cup Brazil",
+  developers: ["HossEz"],
+  publisher: "Unknown",
+  originalYear: 2014,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.8", date: "2026-10-22" },
+  sources: ["https://github.com/HossEz/fifa-world-cup-2014-recompiled"],
+  license: { spdx: "BSD-3-Clause" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  notes: "2014 FIFA World Cup Brazil: static recompilation by HossEz for Windows. Bring your own copy of the game.",
+  notesEs: "2014 FIFA World Cup Brazil: recompilación estática de HossEz para Windows. Aporta tu propia copia del juego.",
+};

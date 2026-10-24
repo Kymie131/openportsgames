@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sergiou87OpenSupaplex: Port = {
+  schema: "port",
+  id: "sergiou87-open-supaplex",
+  title: "Supaplex",
+  game: "Supaplex",
+  developers: ["sergiou87"],
+  publisher: "InArcade",
+  originalYear: 2018,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "7.2.2", date: "2026-03-30" },
+  sources: ["https://github.com/sergiou87/open-supaplex"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Supaplex: decompilation by sergiou87 for Windows. Bring your own copy of the game.",
+  notesEs: "Supaplex: decompilación de sergiou87 para Windows. Aporta tu propia copia del juego.",
+};

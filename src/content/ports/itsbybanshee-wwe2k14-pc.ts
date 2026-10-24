@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const itsbybansheeWwe2k14Pc: Port = {
+  schema: "port",
+  id: "itsbybanshee-wwe2k14-pc",
+  title: "WWE 2K14 (WWE2K14-PC)",
+  game: "WWE 2K14",
+  developers: ["itsbybanshee"],
+  publisher: "2K Sports",
+  originalYear: 2013,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.1.0", date: "2026-10-18" },
+  sources: ["https://github.com/itsbybanshee/wwe2k14-pc"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/ec/WWE_2K14_cover.jpg",
+    alt: "WWE 2K14 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "WWE 2K14: static recompilation by itsbybanshee for Windows. Bring your own copy of the game.",
+  notesEs: "WWE 2K14: recompilación estática de itsbybanshee para Windows. Aporta tu propia copia del juego.",
+};

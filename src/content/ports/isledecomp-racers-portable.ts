@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const isledecompRacersPortable: Port = {
+  schema: "port",
+  id: "isledecomp-racers-portable",
+  title: "LEGO Racers (racers-portable)",
+  game: "LEGO Racers",
+  developers: ["isledecomp"],
+  publisher: "Unknown",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/isledecomp/racers-portable"],
+  license: { spdx: "LGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/91/Lego_Racers_cover.png",
+    alt: "LEGO Racers (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "LEGO Racers: decompilation by isledecomp for Windows. Bring your own copy of the game.",
+  notesEs: "LEGO Racers: decompilación de isledecomp para Windows. Aporta tu propia copia del juego.",
+};

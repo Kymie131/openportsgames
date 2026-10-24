@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const n64decompPerfectDark: Port = {
+  schema: "port",
+  id: "n64decomp-perfect-dark",
+  title: "Perfect Dark",
+  game: "Perfect Dark",
+  developers: ["n64decomp"],
+  publisher: "Nintendo",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/n64decomp/perfect_dark"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg",
+    alt: "Perfect Dark (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Perfect Dark: decompilation by n64decomp for Windows. Bring your own copy of the game.",
+  notesEs: "Perfect Dark: decompilación de n64decomp para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const doldecompMkw: Port = {
+  schema: "port",
+  id: "doldecomp-mkw",
+  title: "Mario Kart Wii (doldecomp)",
+  game: "Mario Kart Wii",
+  developers: ["doldecomp"],
+  publisher: "Nintendo",
+  originalYear: 2008,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/doldecomp/mkw"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Wii"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png",
+    alt: "Mario Kart Wii (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Mario Kart Wii: decompilation by doldecomp for Windows. Bring your own copy of the game.",
+  notesEs: "Mario Kart Wii: decompilación de doldecomp para Windows. Aporta tu propia copia del juego.",
+};

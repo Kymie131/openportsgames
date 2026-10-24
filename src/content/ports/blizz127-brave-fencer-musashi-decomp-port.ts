@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const blizz127BraveFencerMusashiDecompPort: Port = {
+  schema: "port",
+  id: "blizz127-brave-fencer-musashi-decomp-port",
+  title: "Brave Fencer Musashi",
+  game: "Brave Fencer Musashi",
+  developers: ["Blizz127"],
+  publisher: "Square",
+  originalYear: 1998,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Blizz127/Brave-Fencer-Musashi-decomp-port"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Brave%20Fencer%20Musashi%20(USA).png",
+    alt: "Brave Fencer Musashi (box art)",
+    credit: "Box art",
+  },
+  notes: "Brave Fencer Musashi: source port by Blizz127 for Windows, Linux. Bring your own copy of the game.",
+  notesEs: "Brave Fencer Musashi: source port de Blizz127 para Windows, Linux. Aporta tu propia copia del juego.",
+};

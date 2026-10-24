@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const zeldaretOot3d: Port = {
+  schema: "port",
+  id: "zeldaret-oot3d",
+  title: "The Legend of Zelda: Ocarina of Time 3D",
+  game: "The Legend of Zelda: Ocarina of Time 3D",
+  developers: ["zeldaret"],
+  publisher: "Nintendo",
+  originalYear: 2011,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/zeldaret/oot3d"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 3DS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/30/The_Legend_of_Zelda_Ocarina_of_Time_3D_box_art.png",
+    alt: "The Legend of Zelda: Ocarina of Time 3D (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Legend of Zelda: Ocarina of Time 3D: decompilation by zeldaret for Windows. Bring your own copy of the game.",
+  notesEs: "The Legend of Zelda: Ocarina of Time 3D: decompilación de zeldaret para Windows. Aporta tu propia copia del juego.",
+};

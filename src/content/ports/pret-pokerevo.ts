@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pretPokerevo: Port = {
+  schema: "port",
+  id: "pret-pokerevo",
+  title: "Pokémon Battle Revolution (pokerevo)",
+  game: "Pokémon Battle Revolution",
+  developers: ["pret"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/pret/pokerevo"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Wii"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/94/Pok%C3%A9mon_Battle_Revolution_Coverart.png",
+    alt: "Pokémon Battle Revolution (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Pokémon Battle Revolution: decompilation by pret for Windows. Bring your own copy of the game.",
+  notesEs: "Pokémon Battle Revolution: decompilación de pret para Windows. Aporta tu propia copia del juego.",
+};

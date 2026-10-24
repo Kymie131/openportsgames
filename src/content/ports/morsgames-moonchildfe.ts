@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const morsgamesMoonchildfe: Port = {
+  schema: "port",
+  id: "morsgames-moonchildfe",
+  title: "Moon Child (Moon Child FE)",
+  game: "Moon Child",
+  developers: ["MorsGames"],
+  publisher: "D.U.F.F.",
+  originalYear: 2026,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.1.1", date: "2026-06-05" },
+  sources: ["https://github.com/MorsGames/MoonChildFE"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Moon Child: engine remake by MorsGames for Windows. Bring your own copy of the game.",
+  notesEs: "Moon Child: recreación de motor de MorsGames para Windows. Aporta tu propia copia del juego.",
+};

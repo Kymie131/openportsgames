@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const thephrozenkeepD2moo: Port = {
+  schema: "port",
+  id: "thephrozenkeep-d2moo",
+  title: "Diablo II (D2MOO)",
+  game: "Diablo II",
+  developers: ["ThePhrozenKeep"],
+  publisher: "Blizzard Entertainment",
+  originalYear: 2000,
+  portType: "reimplementation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ThePhrozenKeep/D2MOO"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d5/Diablo_II_Coverart.png",
+    alt: "Diablo II (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Diablo II: engine remake by ThePhrozenKeep for Windows. Bring your own copy of the game.",
+  notesEs: "Diablo II: recreación de motor de ThePhrozenKeep para Windows. Aporta tu propia copia del juego.",
+};

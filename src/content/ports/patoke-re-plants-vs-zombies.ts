@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const patokeRePlantsVsZombies: Port = {
+  schema: "port",
+  id: "patoke-re-plants-vs-zombies",
+  title: "Plants vs Zombies GOTY",
+  game: "Plants vs Zombies GOTY",
+  developers: ["Patoke"],
+  publisher: "PopCap Games, Inc.",
+  originalYear: 2009,
+  portType: "decompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Patoke/re-plants-vs-zombies"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Plants vs Zombies GOTY: decompilation by Patoke for Windows. Bring your own copy of the game.",
+  notesEs: "Plants vs Zombies GOTY: decompilación de Patoke para Windows. Aporta tu propia copia del juego.",
+};

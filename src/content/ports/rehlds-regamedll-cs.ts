@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rehldsRegamedllCs: Port = {
+  schema: "port",
+  id: "rehlds-regamedll-cs",
+  title: "Counter-Strike (ReGameDLL_CS)",
+  game: "Counter-Strike",
+  developers: ["rehlds"],
+  publisher: "Valve",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "5.30.0.814", date: "2026-05-18" },
+  sources: ["https://github.com/rehlds/ReGameDLL_CS"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/67/Counter-Strike_Box.jpg",
+    alt: "Counter-Strike (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Counter-Strike: decompilation by rehlds for Windows. Bring your own copy of the game.",
+  notesEs: "Counter-Strike: decompilación de rehlds para Windows. Aporta tu propia copia del juego.",
+};

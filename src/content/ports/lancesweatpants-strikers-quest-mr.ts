@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const lancesweatpantsStrikersQuestMr: Port = {
+  schema: "port",
+  id: "lancesweatpants-strikers-quest-mr",
+  title: "Super Mario Strikers (Quest 3 Strikers)",
+  game: "Super Mario Strikers",
+  developers: ["LanceSweatpants"],
+  publisher: "Nintendo",
+  originalYear: 2005,
+  portType: "decompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.13-alpha1", date: "2026-10-21" },
+  sources: ["https://github.com/LanceSweatpants/Strikers-Quest-MR"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b3/Supermariostrikersbox.jpg",
+    alt: "Super Mario Strikers (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Super Mario Strikers: decompilation by LanceSweatpants for Windows. Bring your own copy of the game.",
+  notesEs: "Super Mario Strikers: decompilación de LanceSweatpants para Windows. Aporta tu propia copia del juego.",
+};

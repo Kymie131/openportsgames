@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const saulobCrackdownXbox360Recompiled: Port = {
+  schema: "port",
+  id: "saulob-crackdown-xbox360-recompiled",
+  title: "Crackdown",
+  game: "Crackdown",
+  developers: ["saulob"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "beta",
+  release: { version: "0.5.0", date: "2026-10-21" },
+  sources: ["https://github.com/saulob/crackdown-xbox360-recompiled"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/35/Crackdownfinalbox.jpg",
+    alt: "Crackdown (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Crackdown: static recompilation by saulob for Windows, Linux. Bring your own copy of the game.",
+  notesEs: "Crackdown: recompilación estática de saulob para Windows, Linux. Aporta tu propia copia del juego.",
+};

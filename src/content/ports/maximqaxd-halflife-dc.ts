@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const maximqaxdHalflifeDc: Port = {
+  schema: "port",
+  id: "maximqaxd-halflife-dc",
+  title: "Half-Life (halflife_dc)",
+  game: "Half-Life",
+  developers: ["maximqaxd"],
+  publisher: "Sierra On-Line",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/maximqaxd/halflife_dc"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/70/header.jpg",
+    alt: "Half-Life (box art)",
+    credit: "Steam",
+  },
+  notes: "Half-Life: decompilation by maximqaxd for Windows. Bring your own copy of the game.",
+  notesEs: "Half-Life: decompilación de maximqaxd para Windows. Aporta tu propia copia del juego.",
+};

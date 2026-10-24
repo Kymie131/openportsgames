@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const oussama268ShadowofthecolossusPc: Port = {
+  schema: "port",
+  id: "oussama268-shadowofthecolossus-pc",
+  title: "Shadow of the Colossus (ShadowOfTheColossus-PC)",
+  game: "Shadow of the Colossus",
+  developers: ["Oussama268"],
+  publisher: "Sony Interactive Entertainment",
+  originalYear: 2018,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.57-opt8", date: "2026-10-20" },
+  sources: ["https://github.com/Oussama268/ShadowOfTheColossus-PC"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f8/Shadow_of_the_Colossus_%282005%29_cover.jpg",
+    alt: "Shadow of the Colossus (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Shadow of the Colossus: source port by Oussama268 for Windows. Bring your own copy of the game.",
+  notesEs: "Shadow of the Colossus: source port de Oussama268 para Windows. Aporta tu propia copia del juego.",
+};

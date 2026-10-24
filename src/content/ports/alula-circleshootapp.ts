@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const alulaCircleshootapp: Port = {
+  schema: "port",
+  id: "alula-circleshootapp",
+  title: "Zuma Deluxe",
+  game: "Zuma Deluxe",
+  developers: ["alula"],
+  publisher: "PopCap Games",
+  originalYear: 2003,
+  portType: "decompilation",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/alula/CircleShootApp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/3330/header.jpg",
+    alt: "Zuma Deluxe (box art)",
+    credit: "Steam",
+  },
+  notes: "Zuma Deluxe: decompilation by alula for Windows. Bring your own copy of the game.",
+  notesEs: "Zuma Deluxe: decompilación de alula para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mzzvxmLarecomp: Port = {
+  schema: "port",
+  id: "mzzvxm-larecomp",
+  title: "Midnight Club: Los Angeles (mzzvxm)",
+  game: "Midnight Club: Los Angeles",
+  developers: ["mzzvxm"],
+  publisher: "Rockstar Games",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/mzzvxm/LARecomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/ea/Midnight_Club-Los_Angeles.jpg",
+    alt: "Midnight Club: Los Angeles (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Midnight Club: Los Angeles: static recompilation by mzzvxm for Windows. Bring your own copy of the game.",
+  notesEs: "Midnight Club: Los Angeles: recompilación estática de mzzvxm para Windows. Aporta tu propia copia del juego.",
+};

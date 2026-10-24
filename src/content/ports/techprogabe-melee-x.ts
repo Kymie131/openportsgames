@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const techprogabeMeleeX: Port = {
+  schema: "port",
+  id: "techprogabe-melee-x",
+  title: "Super Smash Bros. Melee",
+  game: "Super Smash Bros. Melee",
+  developers: ["TechProGabe"],
+  publisher: "Nintendo",
+  originalYear: 2001,
+  portType: "source-port",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "4.1", date: "2026-10-06" },
+  sources: ["https://github.com/TechProGabe/Melee-X"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Super%20Smash%20Bros.%20Melee%20(Europe)%20(En,Fr,De,Es,It).png",
+    alt: "Super Smash Bros. Melee (box art)",
+    credit: "Box art",
+  },
+  notes: "Super Smash Bros. Melee: source port by TechProGabe for Windows. Bring your own copy of the game.",
+  notesEs: "Super Smash Bros. Melee: source port de TechProGabe para Windows. Aporta tu propia copia del juego.",
+};

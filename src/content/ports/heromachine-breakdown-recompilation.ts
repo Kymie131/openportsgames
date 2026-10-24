@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const heromachineBreakdownRecompilation: Port = {
+  schema: "port",
+  id: "heromachine-breakdown-recompilation",
+  title: "Breakdown",
+  game: "Breakdown",
+  developers: ["Heromachine"],
+  publisher: "Unknown",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.2.2", date: "2026-10-08" },
+  sources: ["https://github.com/Heromachine/Breakdown-Recompilation"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox"],
+  notes: "Breakdown: static recompilation by Heromachine for Windows. Bring your own copy of the game.",
+  notesEs: "Breakdown: recompilación estática de Heromachine para Windows. Aporta tu propia copia del juego.",
+};

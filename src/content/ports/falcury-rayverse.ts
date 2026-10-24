@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const falcuryRayverse: Port = {
+  schema: "port",
+  id: "falcury-rayverse",
+  title: "Rayman (Rayverse)",
+  game: "Rayman",
+  developers: ["Falcury"],
+  publisher: "Ubisoft",
+  originalYear: 2026,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Falcury/rayverse"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Rayman: source port by Falcury for Windows. Bring your own copy of the game.",
+  notesEs: "Rayman: source port de Falcury para Windows. Aporta tu propia copia del juego.",
+};

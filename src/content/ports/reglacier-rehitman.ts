@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const reglacierRehitman: Port = {
+  schema: "port",
+  id: "reglacier-rehitman",
+  title: "Hitman: Codename 47 (ReHitman)",
+  game: "Hitman: Codename 47",
+  developers: ["ReGlacier"],
+  publisher: "IO Interactive A/S",
+  originalYear: 2007,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.35", date: "2021-02-21" },
+  sources: ["https://github.com/ReGlacier/ReHitman"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Hitman: Codename 47: decompilation by ReGlacier for Windows. Bring your own copy of the game.",
+  notesEs: "Hitman: Codename 47: decompilación de ReGlacier para Windows. Aporta tu propia copia del juego.",
+};

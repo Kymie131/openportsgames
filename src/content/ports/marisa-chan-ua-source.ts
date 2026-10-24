@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const marisaChanUaSource: Port = {
+  schema: "port",
+  id: "marisa-chan-ua-source",
+  title: "Urban Assault (UA_source)",
+  game: "Urban Assault",
+  developers: ["Marisa-Chan"],
+  publisher: "CedarGate Interactive",
+  originalYear: 2026,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Marisa-Chan/UA_source"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Urban Assault: decompilation by Marisa-Chan for Windows. Bring your own copy of the game.",
+  notesEs: "Urban Assault: decompilación de Marisa-Chan para Windows. Aporta tu propia copia del juego.",
+};

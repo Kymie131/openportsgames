@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const frandallfarmerNeohabitat: Port = {
+  schema: "port",
+  id: "frandallfarmer-neohabitat",
+  title: "Habitat (NeoHabitat)",
+  game: "Habitat",
+  developers: ["frandallfarmer"],
+  publisher: "Versus Evil",
+  originalYear: 2016,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/frandallfarmer/neohabitat"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Habitat: source port by frandallfarmer for Windows. Bring your own copy of the game.",
+  notesEs: "Habitat: source port de frandallfarmer para Windows. Aporta tu propia copia del juego.",
+};

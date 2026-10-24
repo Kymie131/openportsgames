@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mrWiseguyBanjoTooie: Port = {
+  schema: "port",
+  id: "mr-wiseguy-banjo-tooie",
+  title: "Banjo-Tooie (Mr-Wiseguy)",
+  game: "Banjo-Tooie",
+  developers: ["Mr-Wiseguy"],
+  publisher: "Rare",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Mr-Wiseguy/banjo-tooie"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Banjo-Tooie%20(USA).png",
+    alt: "Banjo-Tooie (box art)",
+    credit: "Box art",
+  },
+  notes: "Banjo-Tooie: decompilation by Mr-Wiseguy for Windows. Bring your own copy of the game.",
+  notesEs: "Banjo-Tooie: decompilación de Mr-Wiseguy para Windows. Aporta tu propia copia del juego.",
+};

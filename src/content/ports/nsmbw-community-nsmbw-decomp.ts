@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nsmbwCommunityNsmbwDecomp: Port = {
+  schema: "port",
+  id: "nsmbw-community-nsmbw-decomp",
+  title: "New Super Mario Bros. Wii (NSMBW-Community)",
+  game: "New Super Mario Bros. Wii",
+  developers: ["NSMBW-Community"],
+  publisher: "Nintendo",
+  originalYear: 2009,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/NSMBW-Community/NSMBW-Decomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Wii"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8f/NewSuperMarioBrosWiiBoxart.png",
+    alt: "New Super Mario Bros. Wii (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "New Super Mario Bros. Wii: decompilation by NSMBW-Community for Windows. Bring your own copy of the game.",
+  notesEs: "New Super Mario Bros. Wii: decompilación de NSMBW-Community para Windows. Aporta tu propia copia del juego.",
+};

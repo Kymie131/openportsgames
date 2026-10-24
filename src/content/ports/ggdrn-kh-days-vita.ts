@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ggdrnKhDaysVita: Port = {
+  schema: "port",
+  id: "ggdrn-kh-days-vita",
+  title: "Kingdom Hearts 358/2 Days (khdays-vita)",
+  game: "Kingdom Hearts 358/2 Days",
+  developers: ["ggdrn"],
+  publisher: "Square Enix",
+  originalYear: 2009,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-10-21" },
+  sources: ["https://github.com/ggdrn/KH-DAYS-VITA"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Kingdom%20Hearts%20-%20358-2%20Days%20(Europe)%20(En,Fr,De,Es,It).png",
+    alt: "Kingdom Hearts 358/2 Days (box art)",
+    credit: "Box art",
+  },
+  notes: "Kingdom Hearts 358/2 Days: decompilation by ggdrn for Windows. Bring your own copy of the game.",
+  notesEs: "Kingdom Hearts 358/2 Days: decompilación de ggdrn para Windows. Aporta tu propia copia del juego.",
+};

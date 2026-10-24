@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gtteancumXml1Recomp: Port = {
+  schema: "port",
+  id: "gtteancum-xml1-recomp",
+  title: "X-Men Legends",
+  game: "X-Men Legends",
+  developers: ["GTTeancum"],
+  publisher: "Activision",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.9.2", date: "2026-10-22" },
+  sources: ["https://github.com/GTTeancum/XML1-recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/X-Men%20Legends%20(USA).png",
+    alt: "X-Men Legends (box art)",
+    credit: "Box art",
+  },
+  notes: "X-Men Legends: static recompilation by GTTeancum for Windows. Bring your own copy of the game.",
+  notesEs: "X-Men Legends: recompilación estática de GTTeancum para Windows. Aporta tu propia copia del juego.",
+};

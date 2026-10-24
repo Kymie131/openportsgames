@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ral1009Nsmbwiicompiled: Port = {
+  schema: "port",
+  id: "ral1009-nsmbwiicompiled",
+  title: "New Super Mario Bros. Wii",
+  game: "New Super Mario Bros. Wii",
+  developers: ["ral1009"],
+  publisher: "Nintendo",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.0", date: "2026-10-12" },
+  sources: ["https://github.com/ral1009/NSMBWiicompiled"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Wii"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8f/NewSuperMarioBrosWiiBoxart.png",
+    alt: "New Super Mario Bros. Wii (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "New Super Mario Bros. Wii: static recompilation by ral1009 for Windows. Bring your own copy of the game.",
+  notesEs: "New Super Mario Bros. Wii: recompilación estática de ral1009 para Windows. Aporta tu propia copia del juego.",
+};

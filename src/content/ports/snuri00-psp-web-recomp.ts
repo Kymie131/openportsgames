@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const snuri00PspWebRecomp: Port = {
+  schema: "port",
+  id: "snuri00-psp-web-recomp",
+  title: "God of War: Chains of Olympus (PSP Web Recomp)",
+  game: "God of War: Chains of Olympus",
+  developers: ["snuri00"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/snuri00/psp-web-recomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation Portable"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/3a/God_of_War_Chains_of_Olympus_NA_version_front_cover.jpg",
+    alt: "God of War: Chains of Olympus (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "God of War: Chains of Olympus: static recompilation by snuri00 for Windows. Bring your own copy of the game.",
+  notesEs: "God of War: Chains of Olympus: recompilación estática de snuri00 para Windows. Aporta tu propia copia del juego.",
+};

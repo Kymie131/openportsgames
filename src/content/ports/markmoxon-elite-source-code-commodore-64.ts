@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const markmoxonEliteSourceCodeCommodore64: Port = {
+  schema: "port",
+  id: "markmoxon-elite-source-code-commodore-64",
+  title: "Elite",
+  game: "Elite",
+  developers: ["markmoxon"],
+  publisher: "Frontier Developments",
+  originalYear: 2015,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/markmoxon/elite-source-code-commodore-64"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Elite: decompilation by markmoxon for Windows. Bring your own copy of the game.",
+  notesEs: "Elite: decompilación de markmoxon para Windows. Aporta tu propia copia del juego.",
+};

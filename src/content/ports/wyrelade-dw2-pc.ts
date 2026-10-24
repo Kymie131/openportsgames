@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const wyreladeDw2Pc: Port = {
+  schema: "port",
+  id: "wyrelade-dw2-pc",
+  title: "Digimon World 2",
+  game: "Digimon World 2",
+  developers: ["Wyrelade"],
+  publisher: "Bandai",
+  originalYear: 2000,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.0-beta", date: "2026-10-15" },
+  sources: ["https://github.com/Wyrelade/DW2-PC"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Digimon%20World%202%20(USA).png",
+    alt: "Digimon World 2 (box art)",
+    credit: "Box art",
+  },
+  notes: "Digimon World 2: decompilation by Wyrelade for Windows. Bring your own copy of the game.",
+  notesEs: "Digimon World 2: decompilación de Wyrelade para Windows. Aporta tu propia copia del juego.",
+};

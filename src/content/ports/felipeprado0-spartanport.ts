@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const felipeprado0Spartanport: Port = {
+  schema: "port",
+  id: "felipeprado0-spartanport",
+  title: "God of War III Remastered",
+  game: "God of War III Remastered",
+  developers: ["FelipePrado0"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2010,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "beta",
+  release: { version: "2.7.0", date: "2026-10-22" },
+  sources: ["https://github.com/FelipePrado0/SpartanPort"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://images.launchbox-app.com//1eb8d6bc-e4f2-4296-8e44-42c6e698528d.jpg",
+    alt: "God of War III Remastered (box art)",
+    credit: "LaunchBox Games Database",
+  },
+  notes: "God of War III Remastered: source port by FelipePrado0 for Windows, Linux. Bring your own copy of the game.",
+  notesEs: "God of War III Remastered: source port de FelipePrado0 para Windows, Linux. Aporta tu propia copia del juego.",
+};

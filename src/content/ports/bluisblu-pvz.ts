@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bluisbluPvz: Port = {
+  schema: "port",
+  id: "bluisblu-pvz",
+  title: "Plants vs. Zombies (0.9.9)",
+  game: "Plants vs. Zombies",
+  developers: ["bluisblu"],
+  publisher: "PopCap Games",
+  originalYear: 2009,
+  portType: "decompilation",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/bluisblu/pvz"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/9c/PlantsvsZombiesCoverArt.jpg",
+    alt: "Plants vs. Zombies (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Plants vs. Zombies: decompilation by bluisblu for Windows. Bring your own copy of the game.",
+  notesEs: "Plants vs. Zombies: decompilación de bluisblu para Windows. Aporta tu propia copia del juego.",
+};

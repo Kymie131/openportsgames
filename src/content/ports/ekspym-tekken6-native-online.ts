@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ekspymTekken6NativeOnline: Port = {
+  schema: "port",
+  id: "ekspym-tekken6-native-online",
+  title: "Tekken 6 (Tekken6-native-online)",
+  game: "Tekken 6",
+  developers: ["Ekspym"],
+  publisher: "Bandai Namco",
+  originalYear: 2007,
+  portType: "source-port",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "2.4.0", date: "2026-10-22" },
+  sources: ["https://github.com/Ekspym/Tekken6-native-online"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/21/Tekken_6_Box_Art.jpg",
+    alt: "Tekken 6 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Tekken 6: source port by Ekspym for Windows. Bring your own copy of the game.",
+  notesEs: "Tekken 6: source port de Ekspym para Windows. Aporta tu propia copia del juego.",
+};

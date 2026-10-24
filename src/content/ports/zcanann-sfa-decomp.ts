@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const zcanannSfaDecomp: Port = {
+  schema: "port",
+  id: "zcanann-sfa-decomp",
+  title: "Star Fox Adventures (Retail)",
+  game: "Star Fox Adventures",
+  developers: ["zcanann"],
+  publisher: "Nintendo",
+  originalYear: 2002,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/zcanann/SFA-Decomp"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Star%20Fox%20Adventures%20(Europe)%20(En,Fr,De,Es,It)%20(Rev%201).png",
+    alt: "Star Fox Adventures (box art)",
+    credit: "Box art",
+  },
+  notes: "Star Fox Adventures: decompilation by zcanann for Windows. Bring your own copy of the game.",
+  notesEs: "Star Fox Adventures: decompilación de zcanann para Windows. Aporta tu propia copia del juego.",
+};

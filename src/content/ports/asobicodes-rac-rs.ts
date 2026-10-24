@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const asobicodesRacRs: Port = {
+  schema: "port",
+  id: "asobicodes-rac-rs",
+  title: "Ratchet & Clank (rac-rs)",
+  game: "Ratchet & Clank",
+  developers: ["AsobiCodes"],
+  publisher: "Insomniac Games",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.3.1", date: "2026-10-22" },
+  sources: ["https://github.com/AsobiCodes/rac-rs"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  notes: "Ratchet & Clank: static recompilation by AsobiCodes for Windows. Bring your own copy of the game.",
+  notesEs: "Ratchet & Clank: recompilación estática de AsobiCodes para Windows. Aporta tu propia copia del juego.",
+};

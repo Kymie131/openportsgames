@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tgp482BlackXberecomp: Port = {
+  schema: "port",
+  id: "tgp482-black-xberecomp",
+  title: "Black (Black - XBE Recomp)",
+  game: "Black",
+  developers: ["TGP482"],
+  publisher: "Electronic Arts",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/TGP482/BLACK-XBERecomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox"],
+  notes: "Black: static recompilation by TGP482 for Windows. Bring your own copy of the game.",
+  notesEs: "Black: recompilación estática de TGP482 para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const erreibPureRecomp: Port = {
+  schema: "port",
+  id: "erreib-pure-recomp",
+  title: "Wipeout Pure",
+  game: "Wipeout Pure",
+  developers: ["erreib"],
+  publisher: "Unknown",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "macos"],
+  status: "beta",
+  release: { version: "0.2.0", date: "2026-10-20" },
+  sources: ["https://github.com/erreib/pure-recomp"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation Portable"],
+  notes: "Wipeout Pure: static recompilation by erreib for Windows, macOS. Bring your own copy of the game.",
+  notesEs: "Wipeout Pure: recompilación estática de erreib para Windows, macOS. Aporta tu propia copia del juego.",
+};

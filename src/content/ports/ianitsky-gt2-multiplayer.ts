@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ianitskyGt2Multiplayer: Port = {
+  schema: "port",
+  id: "ianitsky-gt2-multiplayer",
+  title: "Gran Turismo 2 (gt2-multiplayer)",
+  game: "Gran Turismo 2",
+  developers: ["ianitsky"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-09-12" },
+  sources: ["https://github.com/ianitsky/gt2-multiplayer"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6b/GranTurismo2.jpg",
+    alt: "Gran Turismo 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Gran Turismo 2: static recompilation by ianitsky for Windows. Bring your own copy of the game.",
+  notesEs: "Gran Turismo 2: recompilación estática de ianitsky para Windows. Aporta tu propia copia del juego.",
+};

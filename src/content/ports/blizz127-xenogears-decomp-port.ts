@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const blizz127XenogearsDecompPort: Port = {
+  schema: "port",
+  id: "blizz127-xenogears-decomp-port",
+  title: "Xenogears (xenogears-decomp-port)",
+  game: "Xenogears",
+  developers: ["Blizz127"],
+  publisher: "Square",
+  originalYear: 1998,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.5.0-r5", date: "2026-09-30" },
+  sources: ["https://github.com/Blizz127/xenogears-decomp-port"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Xenogears%20(USA).png",
+    alt: "Xenogears (box art)",
+    credit: "Box art",
+  },
+  notes: "Xenogears: source port by Blizz127 for Windows. Bring your own copy of the game.",
+  notesEs: "Xenogears: source port de Blizz127 para Windows. Aporta tu propia copia del juego.",
+};

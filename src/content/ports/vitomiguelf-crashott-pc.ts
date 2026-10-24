@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const vitomiguelfCrashottPc: Port = {
+  schema: "port",
+  id: "vitomiguelf-crashott-pc",
+  title: "Crash of the Titans (CrashRecomp Definitive Edition)",
+  game: "Crash of the Titans",
+  developers: ["VitoMiguelF"],
+  publisher: "Sierra Entertainment",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.02", date: "2026-10-22" },
+  sources: ["https://github.com/VitoMiguelF/crashott-pc"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/98/Crash_of_the_Titans_cover.jpg",
+    alt: "Crash of the Titans (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Crash of the Titans: static recompilation by VitoMiguelF for Windows. Bring your own copy of the game.",
+  notesEs: "Crash of the Titans: recompilación estática de VitoMiguelF para Windows. Aporta tu propia copia del juego.",
+};

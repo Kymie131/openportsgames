@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const comoria08DefjamRecomp: Port = {
+  schema: "port",
+  id: "comoria08-defjam-recomp",
+  title: "Def Jam: Fight for NY",
+  game: "Def Jam: Fight for NY",
+  developers: ["comoria08"],
+  publisher: "EA",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.0-msvc", date: "2026-10-09" },
+  sources: ["https://github.com/comoria08/defjam_recomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/3a/Def_Jam_Fight_for_NY.jpg",
+    alt: "Def Jam: Fight for NY (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Def Jam: Fight for NY: static recompilation by comoria08 for Windows. Bring your own copy of the game.",
+  notesEs: "Def Jam: Fight for NY: recompilación estática de comoria08 para Windows. Aporta tu propia copia del juego.",
+};

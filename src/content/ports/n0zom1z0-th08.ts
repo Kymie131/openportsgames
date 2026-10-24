@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const n0zom1z0Th08: Port = {
+  schema: "port",
+  id: "n0zom1z0-th08",
+  title: "Touhou 8: Imperishable Night (th08)",
+  game: "Touhou 8: Imperishable Night",
+  developers: ["N0zoM1z0"],
+  publisher: "Team Shanghai Alice",
+  originalYear: 2004,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.2.1-linux", date: "2026-09-19" },
+  sources: ["https://github.com/N0zoM1z0/th08"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Touhou 8: Imperishable Night: decompilation by N0zoM1z0 for Windows. Bring your own copy of the game.",
+  notesEs: "Touhou 8: Imperishable Night: decompilación de N0zoM1z0 para Windows. Aporta tu propia copia del juego.",
+};

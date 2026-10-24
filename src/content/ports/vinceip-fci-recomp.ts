@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const vinceipFciRecomp: Port = {
+  schema: "port",
+  id: "vinceip-fci-recomp",
+  title: "Far Cry Instincts (fci-recomp)",
+  game: "Far Cry Instincts",
+  developers: ["VinceIP"],
+  publisher: "Unknown",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.2.0", date: "2026-10-22" },
+  sources: ["https://github.com/VinceIP/fci-recomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox"],
+  notes: "Far Cry Instincts: static recompilation by VinceIP for Windows. Bring your own copy of the game.",
+  notesEs: "Far Cry Instincts: recompilación estática de VinceIP para Windows. Aporta tu propia copia del juego.",
+};

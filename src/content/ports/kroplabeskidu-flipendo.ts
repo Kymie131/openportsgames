@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const kroplabeskiduFlipendo: Port = {
+  schema: "port",
+  id: "kroplabeskidu-flipendo",
+  title: "Flipendo",
+  game: "Flipendo",
+  developers: ["kroplabeskidu"],
+  publisher: "Unknown",
+  originalYear: 2001,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/kroplabeskidu/flipendo"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Flipendo: engine remake by kroplabeskidu for Windows. Bring your own copy of the game.",
+  notesEs: "Flipendo: recreación de motor de kroplabeskidu para Windows. Aporta tu propia copia del juego.",
+};

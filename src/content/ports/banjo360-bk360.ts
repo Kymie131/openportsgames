@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const banjo360Bk360: Port = {
+  schema: "port",
+  id: "banjo360-bk360",
+  title: "Banjo-Kazooie (X360)",
+  game: "Banjo-Kazooie",
+  developers: ["banjo360"],
+  publisher: "Nintendo",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/banjo360/bk360"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Banjo-Kazooie%20(USA).png",
+    alt: "Banjo-Kazooie (box art)",
+    credit: "Box art",
+  },
+  notes: "Banjo-Kazooie: decompilation by banjo360 for Windows. Bring your own copy of the game.",
+  notesEs: "Banjo-Kazooie: decompilación de banjo360 para Windows. Aporta tu propia copia del juego.",
+};

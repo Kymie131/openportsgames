@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const maskezenyWindowwaker: Port = {
+  schema: "port",
+  id: "maskezeny-windowwaker",
+  title: "The Legend of Zelda: The Wind Waker (WindowWaker)",
+  game: "The Legend of Zelda: The Wind Waker",
+  developers: ["MaskeZenY"],
+  publisher: "Nintendo",
+  originalYear: 2002,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.0-win", date: "2026-10-10" },
+  sources: ["https://github.com/MaskeZenY/WindowWaker"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
+    alt: "The Legend of Zelda: The Wind Waker (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Legend of Zelda: The Wind Waker: source port by MaskeZenY for Windows. Bring your own copy of the game.",
+  notesEs: "The Legend of Zelda: The Wind Waker: source port de MaskeZenY para Windows. Aporta tu propia copia del juego.",
+};

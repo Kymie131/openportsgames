@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const doldecompSms: Port = {
+  schema: "port",
+  id: "doldecomp-sms",
+  title: "Super Mario Sunshine (doldecomp)",
+  game: "Super Mario Sunshine",
+  developers: ["doldecomp"],
+  publisher: "Nintendo",
+  originalYear: 2002,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/doldecomp/sms"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/05/Super_Mario_Sunshine_Box_Art.png",
+    alt: "Super Mario Sunshine (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Super Mario Sunshine: decompilation by doldecomp for Windows. Bring your own copy of the game.",
+  notesEs: "Super Mario Sunshine: decompilación de doldecomp para Windows. Aporta tu propia copia del juego.",
+};

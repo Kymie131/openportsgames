@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const unchigaYugiohforbiddenmemoriesrecomp: Port = {
+  schema: "port",
+  id: "unchiga-yugiohforbiddenmemoriesrecomp",
+  title: "Yu-Gi-Oh! Forbidden Memories",
+  game: "Yu-Gi-Oh! Forbidden Memories",
+  developers: ["Unchiga"],
+  publisher: "Konami",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.6.2", date: "2026-09-20" },
+  sources: ["https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Yu-Gi-Oh!%20Forbidden%20Memories%20(Europe).png",
+    alt: "Yu-Gi-Oh! Forbidden Memories (box art)",
+    credit: "Box art",
+  },
+  notes: "Yu-Gi-Oh! Forbidden Memories: static recompilation by Unchiga for Windows. Bring your own copy of the game.",
+  notesEs: "Yu-Gi-Oh! Forbidden Memories: recompilación estática de Unchiga para Windows. Aporta tu propia copia del juego.",
+};

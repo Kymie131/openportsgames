@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mewnojsPlantsvszombiesNet: Port = {
+  schema: "port",
+  id: "mewnojs-plantsvszombies-net",
+  title: "Plants vs. Zombies (PlantsVsZombies.NET)",
+  game: "Plants vs. Zombies",
+  developers: ["Mewnojs"],
+  publisher: "PopCap Games",
+  originalYear: 2009,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Mewnojs/PlantsVsZombies.NET"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/9c/PlantsvsZombiesCoverArt.jpg",
+    alt: "Plants vs. Zombies (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Plants vs. Zombies: source port by Mewnojs for Windows. Bring your own copy of the game.",
+  notesEs: "Plants vs. Zombies: source port de Mewnojs para Windows. Aporta tu propia copia del juego.",
+};

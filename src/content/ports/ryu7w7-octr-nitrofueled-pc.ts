@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ryu7w7OctrNitrofueledPc: Port = {
+  schema: "port",
+  id: "ryu7w7-octr-nitrofueled-pc",
+  title: "Crash Team Racing Nitro-Fueled (OCTR: Online CTR Nitro-Fueled PC)",
+  game: "Crash Team Racing Nitro-Fueled",
+  developers: ["Ryu7w7"],
+  publisher: "Activision",
+  originalYear: 2019,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.6.4", date: "2026-10-23" },
+  sources: ["https://github.com/Ryu7w7/OCTR-NitroFueled-PC"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 4"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/3/36/Crash_Team_Racing_Nitro-Fueled_cover_art.jpg",
+    alt: "Crash Team Racing Nitro-Fueled (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Crash Team Racing Nitro-Fueled: source port by Ryu7w7 for Windows. Bring your own copy of the game.",
+  notesEs: "Crash Team Racing Nitro-Fueled: source port de Ryu7w7 para Windows. Aporta tu propia copia del juego.",
+};

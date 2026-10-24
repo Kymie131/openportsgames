@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const chrissotraidisBellpad: Port = {
+  schema: "port",
+  id: "chrissotraidis-bellpad",
+  title: "Animal Crossing ( animalcrossing-visionos)",
+  game: "Animal Crossing",
+  developers: ["chrissotraidis"],
+  publisher: "Nintendo",
+  originalYear: 2001,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "macos"],
+  status: "beta",
+  release: { version: "0.2.2", date: "2026-10-19" },
+  sources: ["https://github.com/chrissotraidis/bellpad"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Animal%20Crossing%20(USA).png",
+    alt: "Animal Crossing (box art)",
+    credit: "Box art",
+  },
+  notes: "Animal Crossing: source port by chrissotraidis for Windows, macOS. Bring your own copy of the game.",
+  notesEs: "Animal Crossing: source port de chrissotraidis para Windows, macOS. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sk8EngineSkate3RustEngine: Port = {
+  schema: "port",
+  id: "sk8-engine-skate-3-rust-engine",
+  title: "Skate 3 (Skate 3 Rust Engine)",
+  game: "Skate 3",
+  developers: ["SK8-ENGINE"],
+  publisher: "Electronic Arts",
+  originalYear: 2010,
+  portType: "reimplementation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/SK8-ENGINE/skate-3-rust-engine"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/84/Skate-3-Boxart.jpg",
+    alt: "Skate 3 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Skate 3: engine remake by SK8-ENGINE for Windows. Bring your own copy of the game.",
+  notesEs: "Skate 3: recreación de motor de SK8-ENGINE para Windows. Aporta tu propia copia del juego.",
+};

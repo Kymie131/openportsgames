@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const promethendevWwe2k14Recomp: Port = {
+  schema: "port",
+  id: "promethendev-wwe2k14-recomp",
+  title: "WWE 2K14 (wwe2k14-recomp)",
+  game: "WWE 2K14",
+  developers: ["PromethenDev"],
+  publisher: "2K Sports",
+  originalYear: 2013,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-10-19" },
+  sources: ["https://github.com/PromethenDev/wwe2k14-recomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/e/ec/WWE_2K14_cover.jpg",
+    alt: "WWE 2K14 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "WWE 2K14: static recompilation by PromethenDev for Windows, Linux. Bring your own copy of the game.",
+  notesEs: "WWE 2K14: recompilación estática de PromethenDev para Windows, Linux. Aporta tu propia copia del juego.",
+};

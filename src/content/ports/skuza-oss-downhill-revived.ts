@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const skuzaOssDownhillRevived: Port = {
+  schema: "port",
+  id: "skuza-oss-downhill-revived",
+  title: "Downhill Domination",
+  game: "Downhill Domination",
+  developers: ["skuza-oss"],
+  publisher: "Incog Inc.",
+  originalYear: 2003,
+  portType: "decompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.2.8", date: "2026-10-22" },
+  sources: ["https://github.com/skuza-oss/downhill-revived"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/25/Downhill_Domination_Coverart.png",
+    alt: "Downhill Domination (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Downhill Domination: decompilation by skuza-oss for Windows. Bring your own copy of the game.",
+  notesEs: "Downhill Domination: decompilación de skuza-oss para Windows. Aporta tu propia copia del juego.",
+};

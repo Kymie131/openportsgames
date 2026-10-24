@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const alexbatalovArcanumCe: Port = {
+  schema: "port",
+  id: "alexbatalov-arcanum-ce",
+  title: "Arcanum: Of Steamworks and Magick Obscura",
+  game: "Arcanum: Of Steamworks and Magick Obscura",
+  developers: ["alexbatalov"],
+  publisher: "Activision",
+  originalYear: 2016,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/alexbatalov/arcanum-ce"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Arcanum: Of Steamworks and Magick Obscura: decompilation by alexbatalov for Windows. Bring your own copy of the game.",
+  notesEs: "Arcanum: Of Steamworks and Magick Obscura: decompilación de alexbatalov para Windows. Aporta tu propia copia del juego.",
+};

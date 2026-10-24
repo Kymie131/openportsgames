@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const cookgreenChronostorm: Port = {
+  schema: "port",
+  id: "cookgreen-chronostorm",
+  title: "Command & Conquer: Red Alert 2",
+  game: "Command & Conquer: Red Alert 2",
+  developers: ["cookgreen"],
+  publisher: "Electronic Arts",
+  originalYear: 2000,
+  portType: "reimplementation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/cookgreen/ChronoStorm"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/11/Cncra2-win-cover.jpg",
+    alt: "Command & Conquer: Red Alert 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Command & Conquer: Red Alert 2: engine remake by cookgreen for Windows. Bring your own copy of the game.",
+  notesEs: "Command & Conquer: Red Alert 2: recreación de motor de cookgreen para Windows. Aporta tu propia copia del juego.",
+};

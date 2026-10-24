@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rDrgTheSimpsonsGameNx: Port = {
+  schema: "port",
+  id: "r-drg-the-simpsons-game-nx",
+  title: "The Simpsons Game (the-simpsons-game-nx)",
+  game: "The Simpsons Game",
+  developers: ["R-drg"],
+  publisher: "Electronic Arts",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-10-06" },
+  sources: ["https://github.com/R-drg/the-simpsons-game-nx"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a2/The_Simpsons_Game_XBOX_360_Cover.jpg",
+    alt: "The Simpsons Game (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Simpsons Game: static recompilation by R-drg for Windows. Bring your own copy of the game.",
+  notesEs: "The Simpsons Game: recompilación estática de R-drg para Windows. Aporta tu propia copia del juego.",
+};

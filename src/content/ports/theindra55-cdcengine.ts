@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const theindra55Cdcengine: Port = {
+  schema: "port",
+  id: "theindra55-cdcengine",
+  title: "Tomb Raider: Legend",
+  game: "Tomb Raider: Legend",
+  developers: ["TheIndra55"],
+  publisher: "Crystal Dynamics",
+  originalYear: 2007,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/TheIndra55/cdcEngine"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Tomb Raider: Legend: decompilation by TheIndra55 for Windows. Bring your own copy of the game.",
+  notesEs: "Tomb Raider: Legend: decompilación de TheIndra55 para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const carter54gitDethracePortedToWeb: Port = {
+  schema: "port",
+  id: "carter54git-dethrace-ported-to-web",
+  title: "Carmageddon (dethrace-ported-to-web)",
+  game: "Carmageddon",
+  developers: ["Carter54git"],
+  publisher: "Interplay Entertainment",
+  originalYear: 1997,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Carter54git/dethrace-ported-to-web"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/1/16/Carmageddon_box.jpg",
+    alt: "Carmageddon (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Carmageddon: decompilation by Carter54git for Windows. Bring your own copy of the game.",
+  notesEs: "Carmageddon: decompilación de Carter54git para Windows. Aporta tu propia copia del juego.",
+};

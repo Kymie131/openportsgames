@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jescheteVsNativeport: Port = {
+  schema: "port",
+  id: "jeschete-vs-nativeport",
+  title: "Vagrant Story (VS-NativePort)",
+  game: "Vagrant Story",
+  developers: ["JEschete"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/JEschete/VS-NativePort"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a3/Vagrantstorybox.jpg",
+    alt: "Vagrant Story (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Vagrant Story: source port by JEschete for Windows. Bring your own copy of the game.",
+  notesEs: "Vagrant Story: source port de JEschete para Windows. Aporta tu propia copia del juego.",
+};

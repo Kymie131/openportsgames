@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ctrToolsCtrModsdk: Port = {
+  schema: "port",
+  id: "ctr-tools-ctr-modsdk",
+  title: "Crash Team Racing",
+  game: "Crash Team Racing",
+  developers: ["CTR-tools"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/CTR-tools/CTR-ModSDK"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://cdn2.steamgriddb.com/thumb/afa10814865d47b74741b44d8fcbb37b.jpg",
+    alt: "Crash Team Racing (box art)",
+    credit: "SteamGridDB",
+  },
+  notes: "Crash Team Racing: decompilation by CTR-tools for Windows. Bring your own copy of the game.",
+  notesEs: "Crash Team Racing: decompilación de CTR-tools para Windows. Aporta tu propia copia del juego.",
+};

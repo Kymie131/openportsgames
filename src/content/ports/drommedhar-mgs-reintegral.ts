@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const drommedharMgsReintegral: Port = {
+  schema: "port",
+  id: "drommedhar-mgs-reintegral",
+  title: "Metal Gear Solid (mgs-reintegral)",
+  game: "Metal Gear Solid",
+  developers: ["Drommedhar"],
+  publisher: "Konami",
+  originalYear: 1998,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.3.0", date: "2026-10-15" },
+  sources: ["https://github.com/Drommedhar/mgs-reintegral"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Metal%20Gear%20Solid%20(Europe).png",
+    alt: "Metal Gear Solid (box art)",
+    credit: "Box art",
+  },
+  notes: "Metal Gear Solid: source port by Drommedhar for Windows. Bring your own copy of the game.",
+  notesEs: "Metal Gear Solid: source port de Drommedhar para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bomberhackersBmhero: Port = {
+  schema: "port",
+  id: "bomberhackers-bmhero",
+  title: "Bomberman Hero",
+  game: "Bomberman Hero",
+  developers: ["Bomberhackers"],
+  publisher: "Hudson Soft",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Bomberhackers/bmhero"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Bomberman%20Hero%20(USA).png",
+    alt: "Bomberman Hero (box art)",
+    credit: "Box art",
+  },
+  notes: "Bomberman Hero: decompilation by Bomberhackers for Windows. Bring your own copy of the game.",
+  notesEs: "Bomberman Hero: decompilación de Bomberhackers para Windows. Aporta tu propia copia del juego.",
+};

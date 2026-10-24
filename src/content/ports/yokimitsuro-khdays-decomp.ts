@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const yokimitsuroKhdaysDecomp: Port = {
+  schema: "port",
+  id: "yokimitsuro-khdays-decomp",
+  title: "Kingdom Hearts 358/2 Days",
+  game: "Kingdom Hearts 358/2 Days",
+  developers: ["Yokimitsuro"],
+  publisher: "Square Enix",
+  originalYear: 2009,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Yokimitsuro/khdays-decomp"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Kingdom%20Hearts%20-%20358-2%20Days%20(Europe)%20(En,Fr,De,Es,It).png",
+    alt: "Kingdom Hearts 358/2 Days (box art)",
+    credit: "Box art",
+  },
+  notes: "Kingdom Hearts 358/2 Days: decompilation by Yokimitsuro for Windows. Bring your own copy of the game.",
+  notesEs: "Kingdom Hearts 358/2 Days: decompilación de Yokimitsuro para Windows. Aporta tu propia copia del juego.",
+};

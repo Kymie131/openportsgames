@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mabecGamesTekken3ForLinux: Port = {
+  schema: "port",
+  id: "mabec-games-tekken-3-for-linux",
+  title: "Tekken 3",
+  game: "Tekken 3",
+  developers: ["Mabec-games"],
+  publisher: "Namco",
+  originalYear: 1998,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-10-21" },
+  sources: ["https://github.com/Mabec-games/Tekken-3-for-Linux"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7d/Tekken_3_flyer.jpg",
+    alt: "Tekken 3 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Tekken 3: static recompilation by Mabec-games for Windows, Linux. Bring your own copy of the game.",
+  notesEs: "Tekken 3: recompilación estática de Mabec-games para Windows, Linux. Aporta tu propia copia del juego.",
+};

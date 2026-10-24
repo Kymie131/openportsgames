@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const devoldschoolConkersBfdDecomp: Port = {
+  schema: "port",
+  id: "devoldschool-conkers-bfd-decomp",
+  title: "Conker's Bad Fur Day (DevOldSchool)",
+  game: "Conker's Bad Fur Day",
+  developers: ["DevOldSchool"],
+  publisher: "Rare",
+  originalYear: 2001,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/DevOldSchool/conkers-bfd-decomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/99/Conkersbfdbox.jpg",
+    alt: "Conker's Bad Fur Day (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Conker's Bad Fur Day: decompilation by DevOldSchool for Windows. Bring your own copy of the game.",
+  notesEs: "Conker's Bad Fur Day: decompilación de DevOldSchool para Windows. Aporta tu propia copia del juego.",
+};

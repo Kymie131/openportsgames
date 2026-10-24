@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ieee802dot11acFnv: Port = {
+  schema: "port",
+  id: "ieee802dot11ac-fnv",
+  title: "Fallout: New Vegas",
+  game: "Fallout: New Vegas",
+  developers: ["ieee802dot11ac"],
+  publisher: "Bethesda Softworks",
+  originalYear: 2010,
+  portType: "decompilation",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/ieee802dot11ac/fnv"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/commons/4/43/Free_depiction_of_the_Fallout_New_Vegas_Xbox_360_box_art_%28cropped%29.png",
+    alt: "Fallout: New Vegas (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Fallout: New Vegas: decompilation by ieee802dot11ac for Windows. Bring your own copy of the game.",
+  notesEs: "Fallout: New Vegas: decompilación de ieee802dot11ac para Windows. Aporta tu propia copia del juego.",
+};

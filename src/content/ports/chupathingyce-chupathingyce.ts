@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const chupathingyceChupathingyce: Port = {
+  schema: "port",
+  id: "chupathingyce-chupathingyce",
+  title: "Halo: Combat Evolved (Chupathingy)",
+  game: "Halo: Combat Evolved",
+  developers: ["ChupathingyCE"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2001,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "windows", "linux", "macos"],
+  status: "beta",
+  release: { version: "0.8.0", date: "2026-10-22" },
+  sources: ["https://github.com/ChupathingyCE/chupathingyce"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg",
+    alt: "Halo: Combat Evolved (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Halo: Combat Evolved: decompilation by ChupathingyCE for Android, Windows, Linux, macOS. Bring your own copy of the game.",
+  notesEs: "Halo: Combat Evolved: decompilación de ChupathingyCE para Android, Windows, Linux, macOS. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const kernaltrap8WorPlus: Port = {
+  schema: "port",
+  id: "kernaltrap8-wor-plus",
+  title: "Guitar Hero: Warriors of Rock",
+  game: "Guitar Hero: Warriors of Rock",
+  developers: ["kernaltrap8"],
+  publisher: "Activision",
+  originalYear: 2010,
+  portType: "decompilation",
+  genre: "music",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.8", date: "2024-12-25" },
+  sources: ["https://github.com/kernaltrap8/WoR-Plus"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/bb/Guitar_Hero_Warriors_of_Rock_Game_Cover.jpg",
+    alt: "Guitar Hero: Warriors of Rock (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Guitar Hero: Warriors of Rock: decompilation by kernaltrap8 for Windows. Bring your own copy of the game.",
+  notesEs: "Guitar Hero: Warriors of Rock: decompilación de kernaltrap8 para Windows. Aporta tu propia copia del juego.",
+};

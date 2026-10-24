@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const moxnatiyOpenbattlefield2: Port = {
+  schema: "port",
+  id: "moxnatiy-openbattlefield2",
+  title: "Battlefield 2 (2005)",
+  game: "Battlefield 2",
+  developers: ["Moxnatiy"],
+  publisher: "Unknown",
+  originalYear: 2000,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Moxnatiy/OpenBattlefield2"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/62/Battlefield2Cover.jpg",
+    alt: "Battlefield 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Battlefield 2: engine remake by Moxnatiy for Windows. Bring your own copy of the game.",
+  notesEs: "Battlefield 2: recreación de motor de Moxnatiy para Windows. Aporta tu propia copia del juego.",
+};

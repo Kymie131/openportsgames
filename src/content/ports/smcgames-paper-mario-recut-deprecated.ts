@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const smcgamesPaperMarioRecutDeprecated: Port = {
+  schema: "port",
+  id: "smcgames-paper-mario-recut-deprecated",
+  title: "Paper Mario (SMCGames)",
+  game: "Paper Mario",
+  developers: ["SMCGames"],
+  publisher: "Nintendo",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/SMCGames/Paper-Mario-ReCut-Deprecated"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Paper%20Mario%20(USA).png",
+    alt: "Paper Mario (box art)",
+    credit: "Box art",
+  },
+  notes: "Paper Mario: source port by SMCGames for Windows. Bring your own copy of the game.",
+  notesEs: "Paper Mario: source port de SMCGames para Windows. Aporta tu propia copia del juego.",
+};

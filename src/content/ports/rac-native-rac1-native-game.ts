@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const racNativeRac1NativeGame: Port = {
+  schema: "port",
+  id: "rac-native-rac1-native-game",
+  title: "Ratchet & Clank (rac1-native)",
+  game: "Ratchet & Clank",
+  developers: ["RAC-Native"],
+  publisher: "Insomniac Games",
+  originalYear: 2002,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.4.0", date: "2026-10-18" },
+  sources: ["https://github.com/RAC-Native/rac1-native-game"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation 2"],
+  notes: "Ratchet & Clank: source port by RAC-Native for Windows. Bring your own copy of the game.",
+  notesEs: "Ratchet & Clank: source port de RAC-Native para Windows. Aporta tu propia copia del juego.",
+};

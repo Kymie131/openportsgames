@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const yaz0rNoah: Port = {
+  schema: "port",
+  id: "yaz0r-noah",
+  title: "Xenogears (non-matching)",
+  game: "Xenogears",
+  developers: ["yaz0r"],
+  publisher: "Square",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/yaz0r/Noah"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Xenogears%20(USA).png",
+    alt: "Xenogears (box art)",
+    credit: "Box art",
+  },
+  notes: "Xenogears: decompilation by yaz0r for Windows. Bring your own copy of the game.",
+  notesEs: "Xenogears: decompilación de yaz0r para Windows. Aporta tu propia copia del juego.",
+};

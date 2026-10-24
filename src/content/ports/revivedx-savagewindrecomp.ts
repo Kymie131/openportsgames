@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const revivedxSavagewindrecomp: Port = {
+  schema: "port",
+  id: "revivedx-savagewindrecomp",
+  title: "The Legend of Zelda: Breath of the Wild (Savage Wind Recomp)",
+  game: "The Legend of Zelda: Breath of the Wild",
+  developers: ["Revivedx"],
+  publisher: "Nintendo",
+  originalYear: 2017,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Revivedx/SavageWindRecomp"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo Switch"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg",
+    alt: "The Legend of Zelda: Breath of the Wild (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Legend of Zelda: Breath of the Wild: static recompilation by Revivedx for Windows, Linux. Bring your own copy of the game.",
+  notesEs: "The Legend of Zelda: Breath of the Wild: recompilación estática de Revivedx para Windows, Linux. Aporta tu propia copia del juego.",
+};

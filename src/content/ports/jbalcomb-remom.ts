@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jbalcombRemom: Port = {
+  schema: "port",
+  id: "jbalcomb-remom",
+  title: "Master of Magic (ReMoM)",
+  game: "Master of Magic",
+  developers: ["jbalcomb"],
+  publisher: "Slitherine Ltd.",
+  originalYear: 2022,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.0.8", date: "2026-07-31" },
+  sources: ["https://github.com/jbalcomb/ReMoM"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["MS-DOS"],
+  notes: "Master of Magic: decompilation by jbalcomb for Windows. Bring your own copy of the game.",
+  notesEs: "Master of Magic: decompilación de jbalcomb para Windows. Aporta tu propia copia del juego.",
+};

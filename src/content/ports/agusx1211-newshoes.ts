@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const agusx1211Newshoes: Port = {
+  schema: "port",
+  id: "agusx1211-newshoes",
+  title: "Command & Conquer: Generals Zero Hour (NewShoes)",
+  game: "Command & Conquer: Generals Zero Hour",
+  developers: ["Agusx1211"],
+  publisher: "EA Pacific",
+  originalYear: 2003,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Agusx1211/NewShoes"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/2/20/Cncgzh-win-cover.jpg",
+    alt: "Command & Conquer: Generals Zero Hour (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Command & Conquer: Generals Zero Hour: source port by Agusx1211 for Windows. Bring your own copy of the game.",
+  notesEs: "Command & Conquer: Generals Zero Hour: source port de Agusx1211 para Windows. Aporta tu propia copia del juego.",
+};

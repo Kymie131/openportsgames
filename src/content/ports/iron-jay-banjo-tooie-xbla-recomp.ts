@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ironJayBanjoTooieXblaRecomp: Port = {
+  schema: "port",
+  id: "iron-jay-banjo-tooie-xbla-recomp",
+  title: "Banjo-Tooie",
+  game: "Banjo-Tooie",
+  developers: ["iron-jay"],
+  publisher: "Rare",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.1", date: "2026-08-12" },
+  sources: ["https://github.com/iron-jay/banjo_tooie_xbla_recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Banjo-Tooie%20(USA).png",
+    alt: "Banjo-Tooie (box art)",
+    credit: "Box art",
+  },
+  notes: "Banjo-Tooie: static recompilation by iron-jay for Windows. Bring your own copy of the game.",
+  notesEs: "Banjo-Tooie: recompilación estática de iron-jay para Windows. Aporta tu propia copia del juego.",
+};

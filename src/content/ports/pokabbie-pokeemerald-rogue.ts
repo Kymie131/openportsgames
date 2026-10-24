@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pokabbiePokeemeraldRogue: Port = {
+  schema: "port",
+  id: "pokabbie-pokeemerald-rogue",
+  title: "Pokémon Emerald (Pokabbie)",
+  game: "Pokémon Emerald",
+  developers: ["Pokabbie"],
+  publisher: "Nintendo",
+  originalYear: 2004,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "2.1", date: "2026-05-17" },
+  sources: ["https://github.com/Pokabbie/pokeemerald-rogue"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Game Boy Advance"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20-%20Emerald%20Version%20(USA,%20Europe).png",
+    alt: "Pokémon Emerald (box art)",
+    credit: "Box art",
+  },
+  notes: "Pokémon Emerald: decompilation by Pokabbie for Windows. Bring your own copy of the game.",
+  notesEs: "Pokémon Emerald: decompilación de Pokabbie para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const chasemDevSmsPcPort: Port = {
+  schema: "port",
+  id: "chasem-dev-sms-pc-port",
+  title: "Super Mario Sunshine",
+  game: "Super Mario Sunshine",
+  developers: ["chasem-dev"],
+  publisher: "Nintendo",
+  originalYear: 2002,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/chasem-dev/sms-pc-port"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/05/Super_Mario_Sunshine_Box_Art.png",
+    alt: "Super Mario Sunshine (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Super Mario Sunshine: source port by chasem-dev for Windows. Bring your own copy of the game.",
+  notesEs: "Super Mario Sunshine: source port de chasem-dev para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const caiiiycukVcmiWasm: Port = {
+  schema: "port",
+  id: "caiiiycuk-vcmi-wasm",
+  title: "Heroes of Might and Magic III (vcmi-wasm)",
+  game: "Heroes of Might and Magic III",
+  developers: ["caiiiycuk"],
+  publisher: "The 3DO Company",
+  originalYear: 1999,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["web"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/caiiiycuk/vcmi-wasm"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/9/9b/Homm3boxart.jpg",
+    alt: "Heroes of Might and Magic III (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Heroes of Might and Magic III: browser port by caiiiycuk for the browser. Playable in the browser.",
+  notesEs: "Heroes of Might and Magic III: port de navegador de caiiiycuk para el navegador. Jugable en el navegador.",
+};

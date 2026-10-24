@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const paulie68000Zxspectrumcobra: Port = {
+  schema: "port",
+  id: "paulie68000-zxspectrumcobra",
+  title: "Cobra (Paul Hughes ZXSpectrumCobra)",
+  game: "Cobra",
+  developers: ["Paulie68000"],
+  publisher: "Clear River Games",
+  originalYear: 2023,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Paulie68000/ZXSpectrumCobra"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Cobra: decompilation by Paulie68000 for Windows. Bring your own copy of the game.",
+  notesEs: "Cobra: decompilación de Paulie68000 para Windows. Aporta tu propia copia del juego.",
+};

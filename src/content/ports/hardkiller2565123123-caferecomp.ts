@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const hardkiller2565123123Caferecomp: Port = {
+  schema: "port",
+  id: "hardkiller2565123123-caferecomp",
+  title: "The Legend of Zelda: Breath of the Wild",
+  game: "The Legend of Zelda: Breath of the Wild",
+  developers: ["hardkiller2565123123"],
+  publisher: "Nintendo",
+  originalYear: 2017,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/hardkiller2565123123/CafeRecomp"],
+  license: { spdx: "MPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Wii U"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg",
+    alt: "The Legend of Zelda: Breath of the Wild (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Legend of Zelda: Breath of the Wild: static recompilation by hardkiller2565123123 for Windows. Bring your own copy of the game.",
+  notesEs: "The Legend of Zelda: Breath of the Wild: recompilación estática de hardkiller2565123123 para Windows. Aporta tu propia copia del juego.",
+};

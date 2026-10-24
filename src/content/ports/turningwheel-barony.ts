@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const turningwheelBarony: Port = {
+  schema: "port",
+  id: "turningwheel-barony",
+  title: "Barony",
+  game: "Barony",
+  developers: ["TurningWheel"],
+  publisher: "Turning Wheel LLC",
+  originalYear: 2015,
+  portType: "reimplementation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "5.0.2", date: "2026-02-18" },
+  sources: ["https://github.com/TurningWheel/Barony"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/371970/header.jpg",
+    alt: "Barony (box art)",
+    credit: "Steam",
+  },
+  notes: "Barony: engine remake by TurningWheel for Windows. Bring your own copy of the game.",
+  notesEs: "Barony: recreación de motor de TurningWheel para Windows. Aporta tu propia copia del juego.",
+};

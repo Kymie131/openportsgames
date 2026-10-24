@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rsdkmoddingRsdkv4ScriptDecompilation: Port = {
+  schema: "port",
+  id: "rsdkmodding-rsdkv4-script-decompilation",
+  title: "Sonic the Hedgehog (2013) (RSDKv4-Script-Decompilation)",
+  game: "Sonic the Hedgehog (2013)",
+  developers: ["RSDKModding"],
+  publisher: "Unknown",
+  originalYear: 2013,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/RSDKModding/RSDKv4-Script-Decompilation"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Sonic the Hedgehog (2013): decompilation by RSDKModding for Windows. Bring your own copy of the game.",
+  notesEs: "Sonic the Hedgehog (2013): decompilación de RSDKModding para Windows. Aporta tu propia copia del juego.",
+};

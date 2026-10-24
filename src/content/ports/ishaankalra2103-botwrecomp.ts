@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ishaankalra2103Botwrecomp: Port = {
+  schema: "port",
+  id: "ishaankalra2103-botwrecomp",
+  title: "The Legend of Zelda: Breath of the Wild (BotW Recompiled)",
+  game: "The Legend of Zelda: Breath of the Wild",
+  developers: ["IshaanKalra2103"],
+  publisher: "Nintendo",
+  originalYear: 2017,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/IshaanKalra2103/BotWRecomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo Switch"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg",
+    alt: "The Legend of Zelda: Breath of the Wild (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Legend of Zelda: Breath of the Wild: static recompilation by IshaanKalra2103 for Windows, macOS. Bring your own copy of the game.",
+  notesEs: "The Legend of Zelda: Breath of the Wild: recompilación estática de IshaanKalra2103 para Windows, macOS. Aporta tu propia copia del juego.",
+};

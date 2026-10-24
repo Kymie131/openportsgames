@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const vheissuHitAndRunWeb: Port = {
+  schema: "port",
+  id: "vheissu-hit-and-run-web",
+  title: "The Simpsons: Hit & Run (Web Port)",
+  game: "The Simpsons: Hit & Run",
+  developers: ["Vheissu"],
+  publisher: "Electronic Arts",
+  originalYear: 2003,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["web"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Vheissu/hit-and-run-web"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5f/The_Simpsons_Hit_and_Run_cover.png",
+    alt: "The Simpsons: Hit & Run (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Simpsons: Hit & Run: browser port by Vheissu for the browser. Bring your own copy of the game.",
+  notesEs: "The Simpsons: Hit & Run: port de navegador de Vheissu para el navegador. Aporta tu propia copia del juego.",
+};

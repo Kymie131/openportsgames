@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const dogpartyIpodclickwheelrecomps: Port = {
+  schema: "port",
+  id: "dogparty-ipodclickwheelrecomps",
+  title: "Lost (iPodClickWheelRecomps)",
+  game: "Lost",
+  developers: ["DogParty"],
+  publisher: "Hunter Studio",
+  originalYear: 2026,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-09-06" },
+  sources: ["https://github.com/DogParty/iPodClickWheelRecomps"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Unknown"],
+  notes: "Lost: static recompilation by DogParty for Windows. Bring your own copy of the game.",
+  notesEs: "Lost: recompilación estática de DogParty para Windows. Aporta tu propia copia del juego.",
+};

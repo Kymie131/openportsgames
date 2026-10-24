@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const teamBeefStudiosDoom3quest: Port = {
+  schema: "port",
+  id: "team-beef-studios-doom3quest",
+  title: "Doom 3 (Doom3Quest)",
+  game: "Doom 3",
+  developers: ["Team-Beef-Studios"],
+  publisher: "Activision",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.4.8", date: "2026-09-30" },
+  sources: ["https://github.com/Team-Beef-Studios/Doom3Quest"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/4/4e/Doom3box.jpg",
+    alt: "Doom 3 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Doom 3: source port by Team-Beef-Studios for Windows. Bring your own copy of the game.",
+  notesEs: "Doom 3: source port de Team-Beef-Studios para Windows. Aporta tu propia copia del juego.",
+};

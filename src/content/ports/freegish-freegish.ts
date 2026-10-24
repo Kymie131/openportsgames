@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const freegishFreegish: Port = {
+  schema: "port",
+  id: "freegish-freegish",
+  title: "Gish (freegish)",
+  game: "Gish",
+  developers: ["freegish"],
+  publisher: "Chronic Logic",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "2.0.0", date: "2026-08-13" },
+  sources: ["https://github.com/freegish/freegish"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/55/Gish_%28video_game%29.jpg",
+    alt: "Gish (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Gish: source port by freegish for Windows. Bring your own copy of the game.",
+  notesEs: "Gish: source port de freegish para Windows. Aporta tu propia copia del juego.",
+};

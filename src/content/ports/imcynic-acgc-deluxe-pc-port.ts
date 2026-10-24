@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const imcynicAcgcDeluxePcPort: Port = {
+  schema: "port",
+  id: "imcynic-acgc-deluxe-pc-port",
+  title: "Animal Crossing (Animal Crossing PC Port - Deluxe Edition)",
+  game: "Animal Crossing",
+  developers: ["imcynic"],
+  publisher: "Nintendo",
+  originalYear: 2001,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/imcynic/ACGC-Deluxe-PC-Port"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Animal%20Crossing%20(USA).png",
+    alt: "Animal Crossing (box art)",
+    credit: "Box art",
+  },
+  notes: "Animal Crossing: source port by imcynic for Windows. Bring your own copy of the game.",
+  notesEs: "Animal Crossing: source port de imcynic para Windows. Aporta tu propia copia del juego.",
+};

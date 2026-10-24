@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const recomprandoMmrecomprando: Port = {
+  schema: "port",
+  id: "recomprando-mmrecomprando",
+  title: "The Legend of Zelda: Majora's Mask (MMRecompRando)",
+  game: "The Legend of Zelda: Majora's Mask",
+  developers: ["RecompRando"],
+  publisher: "Nintendo",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.9.5", date: "2026-01-07" },
+  sources: ["https://github.com/RecompRando/MMRecompRando"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg",
+    alt: "The Legend of Zelda: Majora's Mask (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "The Legend of Zelda: Majora's Mask: static recompilation by RecompRando for Windows. Bring your own copy of the game.",
+  notesEs: "The Legend of Zelda: Majora's Mask: recompilación estática de RecompRando para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const lancommanderTonywasaproskater: Port = {
+  schema: "port",
+  id: "lancommander-tonywasaproskater",
+  title: "Tony Hawk's Pro Skater (Tony Was A Pro Skater)",
+  game: "Tony Hawk's Pro Skater",
+  developers: ["LANCommander"],
+  publisher: "Activision",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "beta",
+  release: { version: "1.3.0", date: "2026-10-22" },
+  sources: ["https://github.com/LANCommander/TonyWasAProSkater"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["PlayStation"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Tony%20Hawk's%20Pro%20Skater%20(Japan).png",
+    alt: "Tony Hawk's Pro Skater (box art)",
+    credit: "Box art",
+  },
+  notes: "Tony Hawk's Pro Skater: decompilation by LANCommander for Windows, Linux. Bring your own copy of the game.",
+  notesEs: "Tony Hawk's Pro Skater: decompilación de LANCommander para Windows, Linux. Aporta tu propia copia del juego.",
+};

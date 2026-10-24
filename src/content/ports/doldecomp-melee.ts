@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const doldecompMelee: Port = {
+  schema: "port",
+  id: "doldecomp-melee",
+  title: "Super Smash Bros. Melee (doldecomp)",
+  game: "Super Smash Bros. Melee",
+  developers: ["doldecomp"],
+  publisher: "Nintendo",
+  originalYear: 2001,
+  portType: "decompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/doldecomp/melee"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo GameCube"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Super%20Smash%20Bros.%20Melee%20(Europe)%20(En,Fr,De,Es,It).png",
+    alt: "Super Smash Bros. Melee (box art)",
+    credit: "Box art",
+  },
+  notes: "Super Smash Bros. Melee: decompilation by doldecomp for Windows. Bring your own copy of the game.",
+  notesEs: "Super Smash Bros. Melee: decompilación de doldecomp para Windows. Aporta tu propia copia del juego.",
+};

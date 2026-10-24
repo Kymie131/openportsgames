@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mkstSssv: Port = {
+  schema: "port",
+  id: "mkst-sssv",
+  title: "Space Station Silicon Valley",
+  game: "Space Station Silicon Valley",
+  developers: ["mkst"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 1998,
+  portType: "decompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/mkst/sssv"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Nintendo 64"],
+  notes: "Space Station Silicon Valley: decompilation by mkst for Windows. Bring your own copy of the game.",
+  notesEs: "Space Station Silicon Valley: decompilación de mkst para Windows. Aporta tu propia copia del juego.",
+};

@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const maxdeadbearKameorepowered: Port = {
+  schema: "port",
+  id: "maxdeadbear-kameorepowered",
+  title: "Kameo: Elements of Power",
+  game: "Kameo: Elements of Power",
+  developers: ["MaxDeadBear"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "beta",
+  release: { version: "0.2.1", date: "2026-06-23" },
+  sources: ["https://github.com/MaxDeadBear/KameoRePowered"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Xbox 360"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0f/Kameocover.jpg",
+    alt: "Kameo: Elements of Power (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Kameo: Elements of Power: static recompilation by MaxDeadBear for Windows, Linux. Bring your own copy of the game.",
+  notesEs: "Kameo: Elements of Power: recompilación estática de MaxDeadBear para Windows, Linux. Aporta tu propia copia del juego.",
+};

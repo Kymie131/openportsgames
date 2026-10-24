@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const vladtrcIw4l: Port = {
+  schema: "port",
+  id: "vladtrc-iw4l",
+  title: "Call of Duty: Modern Warfare 2 (IW4L)",
+  game: "Call of Duty: Modern Warfare 2",
+  developers: ["vladtrc"],
+  publisher: "Activision",
+  originalYear: 2009,
+  portType: "reimplementation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/vladtrc/iw4L"],
+  license: { spdx: "Apache-2.0" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/5/52/Call_of_Duty_Modern_Warfare_2_%282009%29_cover.png",
+    alt: "Call of Duty: Modern Warfare 2 (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Call of Duty: Modern Warfare 2: engine remake by vladtrc for Windows. Bring your own copy of the game.",
+  notesEs: "Call of Duty: Modern Warfare 2: recreación de motor de vladtrc para Windows. Aporta tu propia copia del juego.",
+};

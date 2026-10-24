@@ -1,0 +1,26 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const smluOpenjones3d: Port = {
+  schema: "port",
+  id: "smlu-openjones3d",
+  title: "Indiana Jones and the Infernal Machine (OpenJones3D)",
+  game: "Indiana Jones and the Infernal Machine",
+  developers: ["smlu"],
+  publisher: "Lucasfilm",
+  originalYear: 2018,
+  portType: "decompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.3.0", date: "2025-04-30" },
+  sources: ["https://github.com/smlu/OpenJones3D"],
+  license: { spdx: "NOASSERTION" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "Indiana Jones and the Infernal Machine: decompilation by smlu for Windows. Bring your own copy of the game.",
+  notesEs: "Indiana Jones and the Infernal Machine: decompilación de smlu para Windows. Aporta tu propia copia del juego.",
+};

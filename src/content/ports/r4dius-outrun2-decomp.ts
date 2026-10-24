@@ -1,0 +1,27 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const r4diusOutrun2Decomp: Port = {
+  schema: "port",
+  id: "r4dius-outrun2-decomp",
+  title: "OutRun 2006: Coast 2 Coast (outrun2-decomp)",
+  game: "OutRun 2006: Coast 2 Coast",
+  developers: ["r4dius"],
+  publisher: "Unknown",
+  originalYear: 2006,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/r4dius/outrun2-decomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Windows"],
+  notes: "OutRun 2006: Coast 2 Coast: decompilation by r4dius for Windows. Bring your own copy of the game.",
+  notesEs: "OutRun 2006: Coast 2 Coast: decompilación de r4dius para Windows. Aporta tu propia copia del juego.",
+};

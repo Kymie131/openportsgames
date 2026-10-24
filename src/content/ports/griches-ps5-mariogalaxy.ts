@@ -1,0 +1,31 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const grichesPs5Mariogalaxy: Port = {
+  schema: "port",
+  id: "griches-ps5-mariogalaxy",
+  title: "Super Mario Galaxy (PS5_MarioGalaxy)",
+  game: "Super Mario Galaxy",
+  developers: ["griches"],
+  publisher: "Nintendo",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.1.0", date: "2026-10-21" },
+  sources: ["https://github.com/griches/PS5_MarioGalaxy"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Wii"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/Super%20Mario%20Galaxy%20(Europe).png",
+    alt: "Super Mario Galaxy (box art)",
+    credit: "Box art",
+  },
+  notes: "Super Mario Galaxy: static recompilation by griches for Windows. Bring your own copy of the game.",
+  notesEs: "Super Mario Galaxy: recompilación estática de griches para Windows. Aporta tu propia copia del juego.",
+};

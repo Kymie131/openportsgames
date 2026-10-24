@@ -1,0 +1,32 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jelleesMksc: Port = {
+  schema: "port",
+  id: "jellees-mksc",
+  title: "Mario Kart: Super Circuit",
+  game: "Mario Kart: Super Circuit",
+  developers: ["jellees"],
+  publisher: "Nintendo",
+  originalYear: 2001,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/jellees/mksc"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  wip: true,
+  addedAt: "2026-10-23",
+  originalSystems: ["Game Boy Advance"],
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Mario%20Kart%20-%20Super%20Circuit%20(USA).png",
+    alt: "Mario Kart: Super Circuit (box art)",
+    credit: "Box art",
+  },
+  notes: "Mario Kart: Super Circuit: decompilation by jellees for Windows. Bring your own copy of the game.",
+  notesEs: "Mario Kart: Super Circuit: decompilación de jellees para Windows. Aporta tu propia copia del juego.",
+};
