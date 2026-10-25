@@ -129,7 +129,7 @@ cd api
 npm run promote-admin -- tu@email.com
 ```
 
-Después, `GET /admin/reports`, `PATCH /admin/comments/:id` (`{"status":"hidden"}` o `{"status":"visible"}`) y `DELETE /admin/users/:id` requieren la cookie de una cuenta con rol `admin`. Para moderar el tablón usa `GET /admin/missing-comments` y `PATCH /admin/missing-comments/:id`; para cerrar una denuncia, `DELETE /admin/reports/:id`. Las propuestas ocultas dejan de mostrar y aceptar comentarios. Si los llamas con `curl`, añade `-H "Origin: https://openportsgames.com"`: el Worker rechaza toda escritura sin un origen permitido.
+Después, abre `https://openportsgames.com/es/admin` (o `/en/admin`) con esa cuenta para moderar denuncias y comentarios del tablón desde la web. La página también está disponible por API: `GET /admin/reports`, `PATCH /admin/comments/:id` (`{"status":"hidden"}` o `{"status":"visible"}`) y `DELETE /admin/users/:id` requieren la cookie de una cuenta con rol `admin`. Para moderar el tablón usa `GET /admin/missing-comments` y `PATCH /admin/missing-comments/:id`; para cerrar una denuncia, `DELETE /admin/reports/:id`. Las propuestas ocultas dejan de mostrar y aceptar comentarios. Si los llamas con `curl`, añade `-H "Origin: https://openportsgames.com"`: el Worker rechaza toda escritura sin un origen permitido.
 
 ## Notas
 
