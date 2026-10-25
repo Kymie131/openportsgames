@@ -14,6 +14,7 @@ admin.use("*", requireAdmin());
 
 const commentAuthor = alias(schema.user, "comment_author");
 const reporter = alias(schema.user, "reporter");
+const missingCommentAuthor = alias(schema.user, "missing_comment_author");
 
 async function readJson(c: { req: { json: () => Promise<unknown> } }): Promise<unknown> {
   try {
@@ -96,6 +97,127 @@ admin.get("/reports", async (c) => {
 
   return c.json({ items, nextCursor });
 });
+
+admin.delete(
+  "/reports/:id",
+  rateLimit({ limit: 60, windowMs: 10 * 60 * 1000, scope: "admin-reports" }),
+  async (c) => {
+    const db = drizzle(c.env.DB, { schema });
+    const rows = await db
+      .delete(schema.report)
+      .where(eq(schema.report.id, c.req.param("id")))
+      .returning({ id: schema.report.id });
+
+    if (!rows[0]) return c.json({ error: "not_found" }, 404);
+    return c.json({ ok: true });
+  },
+);
+
+admin.get("/missing-comments", async (c) => {
+  const rawStatus = c.req.query("status") ?? "all";
+  const status =
+    rawStatus === "visible" || rawStatus === "hidden" ? rawStatus : null;
+
+  const rawCursor = c.req.query("cursor");
+  const cursor = rawCursor === undefined ? null : decodeCursor(rawCursor);
+  if (rawCursor !== undefined && !cursor) {
+    return c.json({ error: "invalid_cursor" }, 400);
+  }
+
+  const limit = parseLimit(c.req.query("limit"));
+  const db = drizzle(c.env.DB, { schema });
+
+  const conditions: SQL[] = [];
+  if (status) conditions.push(eq(schema.missingPortComment.status, status));
+  if (cursor) {
+    const at = new Date(cursor.createdAt);
+    conditions.push(
+      or(
+        lt(schema.missingPortComment.createdAt, at),
+        and(
+          eq(schema.missingPortComment.createdAt, at),
+          lt(schema.missingPortComment.id, cursor.id),
+        ),
+      ) as SQL,
+    );
+  }
+
+  const rows = await db
+    .select({
+      id: schema.missingPortComment.id,
+      body: schema.missingPortComment.body,
+      status: schema.missingPortComment.status,
+      createdAt: schema.missingPortComment.createdAt,
+      parentId: schema.missingPortComment.parentId,
+      authorId: missingCommentAuthor.id,
+      authorName: missingCommentAuthor.name,
+      authorImage: missingCommentAuthor.image,
+      postId: schema.missingPort.id,
+      postTitle: schema.missingPort.title,
+      postStatus: schema.missingPort.status,
+    })
+    .from(schema.missingPortComment)
+    .innerJoin(
+      missingCommentAuthor,
+      eq(schema.missingPortComment.userId, missingCommentAuthor.id),
+    )
+    .innerJoin(
+      schema.missingPort,
+      eq(schema.missingPortComment.missingPortId, schema.missingPort.id),
+    )
+    .where(conditions.length ? and(...conditions) : undefined)
+    .orderBy(desc(schema.missingPortComment.createdAt), desc(schema.missingPortComment.id))
+    .limit(limit + 1);
+
+  const hasMore = rows.length > limit;
+  const page = hasMore ? rows.slice(0, limit) : rows;
+  const last = page.at(-1);
+  const nextCursor = hasMore && last ? encodeCursor(last.createdAt.getTime(), last.id) : null;
+
+  return c.json({
+    items: page.map((row) => ({
+      id: row.id,
+      body: row.body,
+      status: row.status,
+      createdAt: row.createdAt.toISOString(),
+      parentId: row.parentId ?? null,
+      author: toPublicUser({
+        id: row.authorId,
+        name: row.authorName,
+        image: row.authorImage,
+      }),
+      post: {
+        id: row.postId,
+        title: row.postTitle,
+        status: row.postStatus,
+      },
+    })),
+    nextCursor,
+  });
+});
+
+admin.patch(
+  "/missing-comments/:id",
+  rateLimit({ limit: 60, windowMs: 10 * 60 * 1000, scope: "admin-moderation" }),
+  async (c) => {
+    const parsed = updateCommentStatusSchema.safeParse(await readJson(c));
+    if (!parsed.success) return c.json({ error: "invalid_body" }, 400);
+
+    const db = drizzle(c.env.DB, { schema });
+    const rows = await db
+      .update(schema.missingPortComment)
+      .set({ status: parsed.data.status })
+      .where(eq(schema.missingPortComment.id, c.req.param("id")))
+      .returning({
+        id: schema.missingPortComment.id,
+        status: schema.missingPortComment.status,
+      });
+
+    const updated = rows[0];
+    if (!updated) return c.json({ error: "not_found" }, 404);
+    return c.json(updated);
+  },
+);
 
 admin.patch(
   "/comments/:id",

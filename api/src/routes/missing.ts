@@ -233,11 +233,14 @@ missing.get("/:id/comments", optionalUser(), async (c) => {
   const db = drizzle(c.env.DB, { schema });
 
   const exists = await db
-    .select({ id: schema.missingPort.id })
+    .select({ id: schema.missingPort.id, status: schema.missingPort.status })
     .from(schema.missingPort)
     .where(eq(schema.missingPort.id, id))
     .limit(1);
-  if (!exists[0]) return c.json({ error: "not_found" }, 404);
+  const post = exists[0];
+  if (!post || (post.status === "hidden" && user?.role !== "admin")) {
+    return c.json({ error: "not_found" }, 404);
+  }
 
   const conditions: SQL[] = [
     eq(schema.missingPortComment.missingPortId, id),
@@ -313,11 +316,14 @@ missing.post(
     const db = drizzle(c.env.DB, { schema });
 
     const exists = await db
-      .select({ id: schema.missingPort.id })
+      .select({ id: schema.missingPort.id, status: schema.missingPort.status })
       .from(schema.missingPort)
       .where(eq(schema.missingPort.id, id))
       .limit(1);
-    if (!exists[0]) return c.json({ error: "not_found" }, 404);
+    const post = exists[0];
+    if (!post || post.status === "hidden") {
+      return c.json({ error: "not_found" }, 404);
+    }
 
     let parentId = parsed.data.parentId ?? null;
     if (parentId) {
@@ -402,7 +408,11 @@ missing.delete(
   },
 );
 
-missing.patch("/:id/status", requireUser(), async (c) => {
+missing.patch(
+  "/:id/status",
+  requireUser(),
+  rateLimit({ limit: 60, windowMs: 10 * 60 * 1000, scope: "missing-status" }),
+  async (c) => {
   const user = c.get("user");
   if (user.role !== "admin") return c.json({ error: "forbidden" }, 403);
 
