@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const blueStingerRecomp: Port = {
+  schema: "port",
+  id: "blue-stinger-recomp",
+  title: "Blue Stinger Recompiled",
+  game: "Blue Stinger",
+  developers: ["rodrigo-mendonca"],
+  publisher: "Sega",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/rodrigo-mendonca/BlueStingerRecomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-25",
+  originalSystems: ["Dreamcast"],
+  summary: "Blue Stinger is a 1999 action-adventure game developed by Climax Graphics and published by Sega for the Dreamcast. It follows Eliot Ballade on a monster-infested island after a meteor strike.",
+  summaryEs: "Blue Stinger es un videojuego de acción y aventura de 1999 desarrollado por Climax Graphics y publicado por Sega para Dreamcast. Sigue a Eliot Ballade en una isla plagada de monstruos tras el impacto de un meteorito.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sega%20-%20Dreamcast/Named_Boxarts/Blue%20Stinger%20(USA).png",
+    alt: "Blue Stinger (box art)",
+    credit: "libretro",
+  },
+  notes: "Blue Stinger Recompiled: static recompilation of the Dreamcast version for Windows. Bring your own copy of the game.",
+  notesEs: "Blue Stinger Recompiled: recompilación estática de la versión de Dreamcast para Windows. Aporta tu propia copia del juego.",
+};

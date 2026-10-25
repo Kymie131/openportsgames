@@ -1922,6 +1922,8 @@ import { sm64coopdx } from "./sm64coopdx";
 import { sm64coopdxAndroid } from "./sm64coopdx-android";
 import { sm64coopdxSwitch } from "./sm64coopdx-switch";
 import { sm64ex } from "./sm64ex";
+import { blueStingerRecomp } from "./blue-stinger-recomp";
+import { eccoDotfRecomp } from "./ecco-dotf-recomp";
 import { talesOfLegendiaRecomp } from "./tales-of-legendia-recomp";
 import { yuGiOhDuelistsRosesRecomp } from "./yu-gi-oh-duelists-roses-recomp";
 import { drakengardRecomp } from "./drakengard-recomp";
@@ -5202,4 +5204,6 @@ export const portCases: Port[] = [
   harryPotterAzkabanMacos,
   nightfirePc,
   wweCrushHourPc,
+  blueStingerRecomp,
+  eccoDotfRecomp,
 ];

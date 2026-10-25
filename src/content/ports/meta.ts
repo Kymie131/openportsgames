@@ -2601,4 +2601,6 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "harry-potter-azkaban-macos": ["PlayStation 2"],
   "nightfire-pc": ["PlayStation 2"],
   "wwe-crush-hour-pc": ["PlayStation 2"],
+  "blue-stinger-recomp": ["Dreamcast"],
+  "ecco-dotf-recomp": ["Dreamcast"],
 };

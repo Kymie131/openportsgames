@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const eccoDotfRecomp: Port = {
+  schema: "port",
+  id: "ecco-dotf-recomp",
+  title: "Ecco the Dolphin: Defender of the Future Recompiled",
+  game: "Ecco the Dolphin: Defender of the Future",
+  developers: ["cherryduck"],
+  publisher: "Sega",
+  originalYear: 2000,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/cherryduck/ecco-the-dolphin-defender-of-the-future-recomp"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-25",
+  originalSystems: ["Dreamcast"],
+  summary: "Ecco the Dolphin: Defender of the Future is a 2000 action-adventure game developed by Appaloosa Interactive and published by Sega for the Dreamcast. It follows Ecco through a future ocean threatened by alien forces.",
+  summaryEs: "Ecco the Dolphin: Defender of the Future es un videojuego de acción y aventura de 2000 desarrollado por Appaloosa Interactive y publicado por Sega para Dreamcast. Sigue a Ecco por un océano futurista amenazado por fuerzas alienígenas.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Sega%20-%20Dreamcast/Named_Boxarts/Ecco%20the%20Dolphin%20-%20Defender%20of%20the%20Future%20(Japan).png",
+    alt: "Ecco the Dolphin: Defender of the Future (box art)",
+    credit: "libretro",
+  },
+  notes: "Ecco the Dolphin: Defender of the Future Recompiled: static recompilation of the Dreamcast version for Windows and Linux. Bring your own disc.",
+  notesEs: "Ecco the Dolphin: Defender of the Future Recompiled: recompilación estática de la versión de Dreamcast para Windows y Linux. Aporta tu propio disco.",
+};
