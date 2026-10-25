@@ -1,11 +1,11 @@
 # Informe de metadatos de juegos
 
-- Fichas con metadatos de juego: **2215**
-- Sinopsis añadidas: **0**
+- Fichas con metadatos de juego: **2222**
+- Sinopsis añadidas: **7**
 - Publishers completados (solo si faltaban): **0**
-- Sinopsis generadas a partir de la ficha: **295**
-- Fichas sin sinopsis verificada (resumen generado): **295**
-- Años que difieren más de 1 respecto a la fuente: **95**
+- Sinopsis generadas a partir de la ficha: **315**
+- Fichas sin sinopsis verificada (resumen generado): **315**
+- Años que difieren más de 1 respecto a la fuente: **96**
 
 ## Años a revisar
 
@@ -84,6 +84,7 @@
 - `sonic-advance-web` — Sonic Advance: ficha 2003, wikidata 2001
 - `sopwith-wii` — Sopwith: ficha 1984, steam 2026
 - `sp00nznet-racer` — Star Wars Episode I: Racer: ficha 1999, steam 2018
+- `star-wars-racer-android` — Star Wars Episode I: Racer: ficha 1999, steam 2018
 - `steins-gate-recomp` — Steins;Gate: ficha 2009, steam 2016
 - `sunset-riders-pc` — Sunset Riders: ficha 1993, wikidata 1991
 - `super-dodge-ball-pc` — Super Dodge Ball: ficha 1988, wikidata 1990
@@ -122,9 +123,12 @@
 - `apotris-psp` — Apotris
 - `armored-unit` — Armored Unit
 - `asteroids-terra-sega-saturn` — Asteroids Terra
+- `baja-1000-recomp` — Baja 1000
 - `banjorecomp-android` — BanjoRecomp Android
 - `barrett` — Barrett
 - `battle-grounds-3-psp` — Battle Grounds 3
+- `battleblock-theater-switch` — BattleBlock Theater
+- `beatles-rock-band-pc` — The Beatles: Rock Band
 - `ben-10-cosmic-destruction-recomp` — Ben 10: Cosmic Destruction
 - `betterspades` — BetterSpades
 - `bike-race-pro-ps-vita` — Bike Race
@@ -135,6 +139,7 @@
 - `bstone` — BStone
 - `btbuilder` — BtBuilder
 - `burnout-paradise-b5-decomp` — Burnout Paradise (b5-decomp)
+- `call-of-juarez-recomp` — Call of Juarez
 - `carnage3d` — Carnage3D
 - `catacombgl` — CatacombGL
 - `cavex` — CaveX
@@ -154,13 +159,16 @@
 - `cut-the-rope-cut-the-rope-dx` — Cut the Rope (Cut the Rope: DX)
 - `daytona-arcade-recomp` — Daytona Arcade Recomp
 - `defenders-and-dragons` — Defenders & Dragons
+- `devil-may-cry-ps2-recomp` — Devil May Cry
 - `dgengine` — DGEngine
+- `doax2-recomp` — Dead or Alive Xtreme 2
 - `doma-days` — DOMA Days
 - `doom-64-remastered-classic-core-engines` — Doom 64 Remastered
 - `doom-playstation-classic-core-engines` — Doom (Playstation)
 - `doom64-ex-plus-enhanced` — DOOM64-EX-Plus-Enhanced
 - `dora64-3` — Doraemon 3: Nobita no Machi SOS!
 - `dragon-quest-swords-pc` — Dragon Quest Swords: The Masked Queen and the Tower of Mirrors
+- `drakengard-recomp` — Drakengard
 - `dreadhollow-manor-game-boy-color` — Dreadhollow Manor
 - `ds-protect` — DS Protect
 - `dxx-redux` — dxx-redux
@@ -169,6 +177,7 @@
 - `elli-s-house-3ds-psp-gba` — Elli's House
 - `emberclutch-3ds` — Emberclutch
 - `emperorreborn` — EmperorReborn
+- `enchanted-arms-recomp` — Enchanted Arms
 - `etchy-sketchy-game-boy-advance` — Etchy Sketchy
 - `euc-thrills-snes` — EUC Thrills
 - `evos-space-adventures` — Evo's Space Adventures
@@ -219,6 +228,7 @@
 - `k-on-houkago-live-pc` — K-On! Houkago Live!!
 - `kirbys-return-to-dream-land-kirby-wii-recomp` — Kirby's Return to Dream Land (Kirby Wii Recomp)
 - `kknd-krush-kill-n-destroy` — KKND: Krush Kill 'n Destroy
+- `knife-edge-recomp` — Knife Edge: Nose Gunner
 - `kokororecomp` — KoroKoro Postnin
 - `komputerowa-gratka-3d-magiczna-kula-papatki` — Komputerowa Gratka 3D - Magiczna Kula Papatki
 - `kroplabeskidu-flipendo` — Flipendo
@@ -254,11 +264,15 @@
 - `mwenge-uridium` — Uridium (uridium (+ UridiumFraktion))
 - `nautilusbits-skynet-godot` — The Terminator: SkyNET
 - `navyfield-2000-pc` — NavyField 2000 PC
+- `nba-hangtime-recomp` — NBA Hangtime
 - `nearchuckle` — NearChuckle
 - `need-for-speed-1-6` — Need For Speed 1-6
 - `nelumbo` — Lotus Trilogy
 - `neon-genesis-evangelion-64` — Neon Genesis Evangelion 64
 - `neon-valley-3ds` — Neon Valley
+- `nhl-14-recomp` — NHL 14
+- `nhl-2k8-recomp` — NHL 2K8
+- `nightfire-pc` — 007: Nightfire
 - `nova-the-squirrel-nes` — Nova the Squirrel
 - `nxe-dashboard-9199` — NXE Dashboard 9199
 - `omega-engine` — OmegA-engine
@@ -280,6 +294,7 @@
 - `openxwa` — OpenXWA
 - `ophd` — OPHD
 - `oracle-of-ages-and-seasons` — Oracle of Ages and Seasons
+- `pacific-rim-recomp` — Pacific Rim: The Video Game
 - `patoke-re-plants-vs-zombies` — Plants vs Zombies GOTY
 - `paulie68000-zxspectrumhyperactive` — Hyper Active
 - `permafrost-engine` — permafrost-engine
@@ -300,6 +315,7 @@
 - `pqmarine-underworldrevisited` — Underworld Revisited
 - `prince-monogame` — Prince-Monogame
 - `project-eleven-recomp` — 11eyes CrossOver
+- `project-sylpheed-recomp` — Project Sylpheed
 - `ps2-osdsys` — PS2 OSDSYS
 - `pt-pc` — P.T. (Playable Teaser)
 - `q2rtxperimental` — Q2RTXPerimental
@@ -322,6 +338,7 @@
 - `serioussamalpharemake` — SeriousSamAlphaRemake
 - `serioussamclassic-vk` — SeriousSamClassic-VK
 - `sfall` — sfall
+- `shadow-hearts-recomp` — Shadow Hearts
 - `sheep-dog-n-wolf-rewooled` — Sheep Dog n Wolf: Rewooled
 - `shin-bokura-no-taiyou-gyakushuu-no-sabata` — Shin Bokura no Taiyou: Gyakushuu no Sabata
 - `shin-megami-tensei-persona-4` — Shin Megami Tensei: Persona 4
@@ -358,9 +375,11 @@
 - `surrealengine` — SurrealEngine
 - `taiko-no-tatsujin-wii-ketteiban` — Taiko No Tatsujin Wii Ketteiban
 - `tails-adventure-tails-adventure-remake` — Tails Adventure (Tails Adventure Remake)
+- `tales-of-legendia-recomp` — Tales of Legendia
 - `taradino` — Taradino
 - `the-great-escape-in-c` — The Great Escape in C
 - `the-lord-of-the-rings-return-of-the-king` — The Lord of the Rings: Return of the King
+- `the-maw-recomp` — The Maw
 - `the-operative-no-one-lives-forever-nolfsrc` — The Operative: No One Lives Forever (nolfsrc)
 - `the-oregon-trail-windows-95` — The Oregon Trail (Windows 95)
 - `thinker` — thinker
@@ -389,17 +408,4 @@
 - `vita-tetris` — Vita Tetris
 - `vorpalfix` — VorpalFix
 - `war1` — war1
-- `wc1-re` — wc1-re
-- `wc2-re` — wc2-re
-- `wertactics-3ds` — Wertactics
-- `willow-s-dream-mega-drive` — Willow's Dream
-- `wipeout-xl-recomp-njh` — Wipeout XL
-- `wipeout-xl-recomp` — Wipeout XL
-- `world-driver-championship-recomp` — World Driver Championship
-- `world-of-warcraft-1-12-benilla` — World of Warcraft 1.12 (benilla)
-- `xoreos` — xoreos
-- `zero-hour-reforged` — Zero Hour Reforged
-- `zoids-legacy` — Zoids Legacy
-- `zombie-outbreak-simulator-3ds` — Zombie Outbreak Simulator
-- `zone-of-the-enders-3-guy-savage-from-metal-gear-solid-3` — Zone of the Enders 3 (Guy Savage from Metal Gear Solid 3)
 

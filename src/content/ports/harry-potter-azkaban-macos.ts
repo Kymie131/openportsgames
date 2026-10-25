@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const harryPotterAzkabanMacos: Port = {
+  schema: "port",
+  id: "harry-potter-azkaban-macos",
+  title: "Harry Potter and the Prisoner of Azkaban (macOS)",
+  game: "Harry Potter and the Prisoner of Azkaban",
+  developers: ["chaikosh"],
+  publisher: "Electronic Arts",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["macos"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/chaikosh/azkaban-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-25",
+  originalSystems: ["PlayStation 2"],
+  summary: "Harry Potter and the Prisoner of Azkaban is a 2004 action-adventure game. The game is based on the 2004 film of the same name from the Harry Potter franchise. The game was developed by KnowWonder, Griptonite Games, and EA UK each for different consoles and was published by Electronic Arts under the EA Games label. The game was released as a trio, with separate versions for Game Boy Advance, Microsoft Windows, and home consoles. The game received mixed reviews by critics.",
+  summaryEs: "Harry Potter y el prisionero de Azkaban es un videojuego de acción-aventura, distribuido por Electronic Arts y Warner Bros. Interactive Entertainment, Inc., lanzado en 2004 para las plataformas de PC, Game Boy Advance, Xbox, PlayStation 2 y Nintendo GameCube.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/harry-potter-and-the-prisoner-of-azkaban.svg",
+    alt: "Harry Potter and the Prisoner of Azkaban (generated cover)",
+    credit: "OpenPortsGames",
+  },
+  notes: "Harry Potter and the Prisoner of Azkaban (macOS): native recompilation of Harry Potter and the Prisoner of Azkaban for macos. Bring your own copy of the game.",
+  notesEs: "Harry Potter and the Prisoner of Azkaban (macOS): recompilaciÃ³n nativo de Harry Potter and the Prisoner of Azkaban para macos. Aporta tu propia copia del juego.",
+};

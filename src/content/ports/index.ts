@@ -1922,6 +1922,31 @@ import { sm64coopdx } from "./sm64coopdx";
 import { sm64coopdxAndroid } from "./sm64coopdx-android";
 import { sm64coopdxSwitch } from "./sm64coopdx-switch";
 import { sm64ex } from "./sm64ex";
+import { talesOfLegendiaRecomp } from "./tales-of-legendia-recomp";
+import { yuGiOhDuelistsRosesRecomp } from "./yu-gi-oh-duelists-roses-recomp";
+import { drakengardRecomp } from "./drakengard-recomp";
+import { shadowHeartsRecomp } from "./shadow-hearts-recomp";
+import { devilMayCryPs2Recomp } from "./devil-may-cry-ps2-recomp";
+import { blueDragonAndroid } from "./blue-dragon-android";
+import { beatlesRockBandPc } from "./beatles-rock-band-pc";
+import { nhl2k8Recomp } from "./nhl-2k8-recomp";
+import { enchantedArmsRecomp } from "./enchanted-arms-recomp";
+import { nbaHangtimeRecomp } from "./nba-hangtime-recomp";
+import { knifeEdgeRecomp } from "./knife-edge-recomp";
+import { starWarsRacerAndroid } from "./star-wars-racer-android";
+import { battleblockTheaterSwitch } from "./battleblock-theater-switch";
+import { callOfJuarezRecomp } from "./call-of-juarez-recomp";
+import { theMawRecomp } from "./the-maw-recomp";
+import { pacificRimRecomp } from "./pacific-rim-recomp";
+import { realSteelRecomp } from "./real-steel-recomp";
+import { skate2Recomp } from "./skate-2-recomp";
+import { doax2Recomp } from "./doax2-recomp";
+import { projectSylpheedRecomp } from "./project-sylpheed-recomp";
+import { nhl14Recomp } from "./nhl-14-recomp";
+import { baja1000Recomp } from "./baja-1000-recomp";
+import { harryPotterAzkabanMacos } from "./harry-potter-azkaban-macos";
+import { nightfirePc } from "./nightfire-pc";
+import { wweCrushHourPc } from "./wwe-crush-hour-pc";
 import { chavoKartRecomp } from "./chavo-kart-recomp";
 import { chavoKartAndroid } from "./chavo-kart-android";
 import { splatterhouse2010Recomp } from "./splatterhouse-2010-recomp";
@@ -5152,4 +5177,29 @@ export const portCases: Port[] = [
   worldDriverChampionshipRecomp,
   rush2049Recomp,
   gta2N64Recomp,
+  talesOfLegendiaRecomp,
+  yuGiOhDuelistsRosesRecomp,
+  drakengardRecomp,
+  shadowHeartsRecomp,
+  devilMayCryPs2Recomp,
+  blueDragonAndroid,
+  beatlesRockBandPc,
+  nhl2k8Recomp,
+  enchantedArmsRecomp,
+  nbaHangtimeRecomp,
+  knifeEdgeRecomp,
+  starWarsRacerAndroid,
+  battleblockTheaterSwitch,
+  callOfJuarezRecomp,
+  theMawRecomp,
+  pacificRimRecomp,
+  realSteelRecomp,
+  skate2Recomp,
+  doax2Recomp,
+  projectSylpheedRecomp,
+  nhl14Recomp,
+  baja1000Recomp,
+  harryPotterAzkabanMacos,
+  nightfirePc,
+  wweCrushHourPc,
 ];

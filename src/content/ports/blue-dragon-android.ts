@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const blueDragonAndroid: Port = {
+  schema: "port",
+  id: "blue-dragon-android",
+  title: "Blue Dragon (Android)",
+  game: "Blue Dragon",
+  developers: ["JayElDragon"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "3.0", date: "2026-10-23" },
+  sources: ["https://github.com/JayElDragon/blue-dragon-android"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-25",
+  originalSystems: ["Xbox 360"],
+  summary: "Blue Dragon is a role-playing video game developed by Mistwalker and Artoon in collaboration with Microsoft Game Studios Japan and published by Microsoft Game Studios for the Xbox 360. It is based on a design by Final Fantasy series creator Hironobu Sakaguchi, who also supervised development and wrote the plot. It is both Mistwalker's debut title and the first title to be helmed by Sakaguchi outside of Square Enix.",
+  summaryEs: "Blue Dragon es un juego de rol para la consola de videojuegos Xbox 360. Fue desarrollado por Mistwalker y Artoon, publicado y financiado por Microsoft Game Studios, basado en un diseño parecido a la serie de Final Fantasy por el creador de esta, Hironobu Sakaguchi, quién también supervisó el desarrollo de Blue Dragon. También cuenta con la ayuda de Akira Toriyama, creador de Dragon Ball y Dr. Slump entre otras series, que ha creado los personajes de este juego de rol.",
+  notes: "Blue Dragon (Android): native recompilation of Blue Dragon for android. Bring your own copy of the game.",
+  notesEs: "Blue Dragon (Android): recompilaciÃ³n nativo de Blue Dragon para android. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/blue-dragon.svg",
+    alt: "Blue Dragon (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

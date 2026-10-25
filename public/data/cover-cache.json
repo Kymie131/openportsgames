@@ -3828,5 +3828,110 @@
     "src": "https://openportsgames.com/covers/generated/grand-theft-auto-2.svg",
     "alt": "Grand Theft Auto 2 (generated cover)",
     "credit": "OpenPortsGames"
+  },
+  "talesoflegendia": {
+    "src": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Tales%20of%20Legendia%20(USA).png",
+    "alt": "Tales of Legendia (box art)",
+    "credit": "libretro"
+  },
+  "yugiohtheduelistsoftheroses": {
+    "src": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Yu-Gi-Oh!%20The%20Duelists%20of%20the%20Roses%20(USA).png",
+    "alt": "Yu-Gi-Oh! The Duelists of the Roses (box art)",
+    "credit": "libretro"
+  },
+  "drakengard": {
+    "src": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Drakengard%20(USA).png",
+    "alt": "Drakengard (box art)",
+    "credit": "libretro"
+  },
+  "shadowhearts": {
+    "src": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Shadow%20Hearts%20(USA).png",
+    "alt": "Shadow Hearts (box art)",
+    "credit": "libretro"
+  },
+  "devilmaycry": {
+    "src": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Devil%20May%20Cry%20(USA).png",
+    "alt": "Devil May Cry (box art)",
+    "credit": "libretro"
+  },
+  "thebeatlesrockband": {
+    "src": "https://openportsgames.com/covers/generated/the-beatles-rock-band.svg",
+    "alt": "The Beatles: Rock Band (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "nhl2k8": {
+    "src": "https://openportsgames.com/covers/generated/nhl-2k8.svg",
+    "alt": "NHL 2K8 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "enchantedarms": {
+    "src": "https://openportsgames.com/covers/generated/enchanted-arms.svg",
+    "alt": "Enchanted Arms (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "nbahangtime": {
+    "src": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/NBA%20Hangtime%20(USA).png",
+    "alt": "NBA Hangtime (box art)",
+    "credit": "libretro"
+  },
+  "knifeedgenosegunner": {
+    "src": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Knife%20Edge%20-%20Nose%20Gunner%20(USA).png",
+    "alt": "Knife Edge: Nose Gunner (box art)",
+    "credit": "libretro"
+  },
+  "battleblocktheater": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238460/header.jpg?t=1779296698",
+    "alt": "BattleBlock Theater (Steam header)",
+    "credit": "Steam"
+  },
+  "callofjuarez": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3020/header.jpg?t=1729249870",
+    "alt": "Call of Juarez (Steam header)",
+    "credit": "Steam"
+  },
+  "themaw": {
+    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/26000/header.jpg?t=1776350668",
+    "alt": "The Maw (Steam header)",
+    "credit": "Steam"
+  },
+  "pacificrimthevideogame": {
+    "src": "https://openportsgames.com/covers/generated/pacific-rim-the-video-game.svg",
+    "alt": "Pacific Rim: The Video Game (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "deadoralivextreme2": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Dead_or_Alive_Xtreme_2_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "alt": "Dead or Alive Xtreme 2 (box art)",
+    "credit": "Wikipedia"
+  },
+  "projectsylpheed": {
+    "src": "https://openportsgames.com/covers/generated/project-sylpheed.svg",
+    "alt": "Project Sylpheed (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "nhl14": {
+    "src": "https://openportsgames.com/covers/generated/nhl-14.svg",
+    "alt": "NHL 14 (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "baja1000": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Team_12L-_1st_TT_Legend_at_the_2017_Baja_1000_finish_line.jpg/960px-Team_12L-_1st_TT_Legend_at_the_2017_Baja_1000_finish_line.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "alt": "Baja 1000 (box art)",
+    "credit": "Wikipedia"
+  },
+  "harrypotterandtheprisonerofazkaban": {
+    "src": "https://openportsgames.com/covers/generated/harry-potter-and-the-prisoner-of-azkaban.svg",
+    "alt": "Harry Potter and the Prisoner of Azkaban (generated cover)",
+    "credit": "OpenPortsGames"
+  },
+  "007nightfire": {
+    "src": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/007%20-%20Nightfire%20(USA).png",
+    "alt": "007: Nightfire (box art)",
+    "credit": "libretro"
+  },
+  "wwecrushhour": {
+    "src": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/WWE%20Crush%20Hour%20(USA).png",
+    "alt": "WWE Crush Hour (box art)",
+    "credit": "libretro"
   }
 }

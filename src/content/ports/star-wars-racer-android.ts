@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const starWarsRacerAndroid: Port = {
+  schema: "port",
+  id: "star-wars-racer-android",
+  title: "Star Wars Episode I: Racer (Android)",
+  game: "Star Wars Episode I: Racer",
+  developers: ["dguillot-gh"],
+  publisher: "LucasArts",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/dguillot-gh/star-wars-racer-recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-25",
+  originalSystems: ["Nintendo 64"],
+  summary: "Two Engines. One Champion. No Limits.",
+  summaryEs: "Star Wars Episode I: Racer es un videojuego de acción y aventura publicado por Lucasfilm en 2018.",
+  notes: "Star Wars Episode I: Racer (Android): native recompilation of Star Wars Episode I: Racer for android. Bring your own copy of the game.",
+  notesEs: "Star Wars Episode I: Racer (Android): recompilaciÃ³n nativo de Star Wars Episode I: Racer para android. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/808910/header.jpg?t=1741811672",
+    alt: "Star Wars Episode I: Racer (Steam header)",
+    credit: "Steam",
+  },
+};
