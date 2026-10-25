@@ -107,7 +107,7 @@ export function SiteHeader() {
             />
           </Link>
 
-          <nav aria-label={t.common.mainNav} className="hidden items-center gap-1 xl:flex">
+          <nav aria-label={t.common.mainNav} className="hidden items-center gap-0.5 xl:flex">
             {NAV_ITEMS.map((item) => {
               const active = isActive(rest, item.href);
               return (
@@ -116,7 +116,7 @@ export function SiteHeader() {
                   href={item.href}
                   aria-current={active ? "page" : undefined}
                   className={cn(
-                    "whitespace-nowrap rounded-md px-3 py-2 text-sm transition-colors duration-150",
+                    "whitespace-nowrap rounded-md px-2.5 py-2 text-sm transition-colors duration-150",
                     active
                       ? "bg-accent text-accent-contrast hover:bg-accent-hover hover:text-accent-contrast"
                       : "text-muted hover:bg-surface-2 hover:text-foreground",
@@ -129,7 +129,7 @@ export function SiteHeader() {
             <DropdownMenu.Root>
               <DropdownMenu.Trigger
                 asChild
-                className="whitespace-nowrap rounded-md px-3 py-2 text-sm text-muted transition-colors duration-150 hover:bg-surface-2 hover:text-foreground outline-none data-[state=open]:bg-surface-2 data-[state=open]:text-foreground"
+                className="whitespace-nowrap rounded-md px-2.5 py-2 text-sm text-muted transition-colors duration-150 hover:bg-surface-2 hover:text-foreground outline-none data-[state=open]:bg-surface-2 data-[state=open]:text-foreground"
               >
                 <button type="button" className="inline-flex items-center gap-1">
                   {t.nav.project}
@@ -169,7 +169,7 @@ export function SiteHeader() {
           <form
             role="search"
             onSubmit={submitSearch}
-            className="hidden items-center gap-1.5 rounded-md border border-border bg-surface px-2.5 py-1 text-xs transition-colors focus-within:border-accent-hover sm:flex md:px-3 md:py-1.5"
+            className="hidden items-center gap-1.5 rounded-md border border-border bg-surface px-2.5 py-1.5 text-xs transition-colors focus-within:border-accent-hover sm:flex md:px-3"
           >
             <Search className="size-3.5 shrink-0 text-muted" aria-hidden="true" />
             <input
@@ -177,11 +177,11 @@ export function SiteHeader() {
               type="search"
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              placeholder={t.catalog.searchPlaceholder}
+              placeholder={t.catalog.searchPlaceholderShort}
               aria-label={t.catalog.searchPlaceholder}
-              className="w-28 bg-transparent text-xs text-foreground placeholder:text-muted focus:outline-none lg:w-36"
+              className="w-32 bg-transparent text-xs text-foreground placeholder:text-muted focus:outline-none md:w-40 xl:w-48"
             />
-            <kbd className="hidden rounded bg-surface-2 px-1.5 py-0.5 font-mono text-[10px] text-muted lg:inline-block">
+            <kbd className="hidden rounded bg-surface-2 px-1.5 py-0.5 font-mono text-[10px] text-muted 2xl:inline-block">
               /
             </kbd>
           </form>
