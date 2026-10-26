@@ -286,10 +286,10 @@ const en = {
   },
   home: {
     consolesTitle: "Browse by console",
-    newsTitle: "God of War III is now native on PC",
+    newsTitle: "God of War III with achievements inside Steam",
     newsBody:
-      "The unofficial port of God of War III Remastered runs natively, without an emulator. You need your own PS4 copy.",
-    newsCta: "See the port",
+      "Taiga Launcher adds game pages and achievements to the Steam client for ports and emulators. They are local: they are not official Steam achievements and do not change your profile.",
+    newsCta: "How it works",
     newsDismiss: "Dismiss news",
     consolesSubtitle:
       "Every original system with native ports, recompilations and homebrew builds in the catalog.",
@@ -464,6 +464,18 @@ const en = {
       "Follow the emulator's setup guide and expect crashes, missing graphics or unplayable speeds.",
     ],
     kytySource: "KytyPS5 on GitHub",
+    taigaTitle: "Achievements inside Steam with Taiga Launcher",
+    taigaIntro:
+      "Taiga Launcher is a free, open-source Windows app that adds non-Steam games — native ports such as God of War III, emulated games and other stores — to Steam with a game page, artwork, playtime and achievements.",
+    taigaPoints: [
+      "Achievements come from the source that actually tracks them: RetroAchievements for emulators, RPCS3, Vita3K or shadPS4 trophies, the port's own trophy list and unlock log, or the official Steam list when the same game exists on Steam.",
+      "Unlocks use Steam's native notification, but everything stays local: they are not real Steam achievements, do not grant ownership and never change your public profile.",
+      "It is portable and unsigned, so Windows may warn on first run. It restarts Steam once to use its local debugging port; after that it works automatically.",
+      "It is an early build with bugs, and a game only works when it exposes an achievement list and an unlock log. God of War III is one of the ports that already does.",
+    ],
+    taigaWarning:
+      "Download it only from its official GitHub releases. It reads local progress and does not modify your games, saves or accounts.",
+    taigaSource: "Taiga Launcher on GitHub",
     faqTitle: "Frequently asked questions",
     faq: [
       {
@@ -1168,10 +1180,10 @@ const es: Messages = {
   },
   home: {
     consolesTitle: "Explora por consola",
-    newsTitle: "God of War III ya es nativo en PC",
+    newsTitle: "God of War III con logros dentro de Steam",
     newsBody:
-      "El port no oficial de God of War III Remastered corre de forma nativa, sin emulador. Necesitas tu propia copia de PS4.",
-    newsCta: "Ver el port",
+      "Taiga Launcher añade páginas de juego y logros al cliente de Steam para ports y emuladores. Son locales: no son logros oficiales de Steam ni cambian tu perfil.",
+    newsCta: "Cómo funciona",
     newsDismiss: "Cerrar noticia",
     consolesSubtitle:
       "Todas las consolas originales con ports nativos, recompilaciones y homebrew del catálogo.",
@@ -1346,6 +1358,18 @@ const es: Messages = {
       "Sigue la guía de configuración del emulador y espera cuelgues, gráficos ausentes o velocidades injugables.",
     ],
     kytySource: "KytyPS5 en GitHub",
+    taigaTitle: "Logros dentro de Steam con Taiga Launcher",
+    taigaIntro:
+      "Taiga Launcher es una app gratuita y de código abierto para Windows que añade juegos que no son de Steam —ports nativos como God of War III, juegos emulados y otras tiendas— a Steam con página de juego, carátulas, tiempo jugado y logros.",
+    taigaPoints: [
+      "Los logros vienen de la fuente que realmente los registra: RetroAchievements en emuladores, trofeos de RPCS3, Vita3K o shadPS4, la lista de trofeos y el registro de desbloqueos del propio port, o la lista oficial de Steam cuando el mismo juego existe en Steam.",
+      "Los desbloqueos usan la notificación nativa de Steam, pero todo es local: no son logros reales de Steam, no dan propiedad y nunca cambian tu perfil público.",
+      "Es portable y no está firmada, así que Windows puede avisar la primera vez. Reinicia Steam una vez para usar su puerto local de depuración; después funciona solo.",
+      "Es una versión temprana con fallos, y un juego solo funciona si expone su lista de logros y un registro de desbloqueos. God of War III es uno de los ports que ya lo hace.",
+    ],
+    taigaWarning:
+      "Descárgala solo desde sus releases oficiales de GitHub. Lee el progreso local y no modifica tus juegos, partidas ni cuentas.",
+    taigaSource: "Taiga Launcher en GitHub",
     faqTitle: "Preguntas frecuentes",
     faq: [
       {

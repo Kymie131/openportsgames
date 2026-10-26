@@ -7,7 +7,7 @@ import { LocalizedLink as Link } from "@/components/i18n/localized-link";
 import { useT } from "@/lib/i18n/use-i18n";
 import { assetPath } from "@/lib/utils";
 
-const STORAGE_KEY = "opg-news-gow3-native-v1";
+const STORAGE_KEY = "opg-news-taiga-achievements-v1";
 const CHANGE_EVENT = "opg-news-change";
 
 function subscribe(onChange: () => void) {
@@ -58,7 +58,7 @@ export function HomeNewsBanner() {
           </h2>
           <p className="text-sm leading-relaxed text-muted">{t.home.newsBody}</p>
           <Link
-            href="/ports/god-of-war-3-recomp"
+            href="/guides"
             className="mt-1 inline-flex w-fit items-center gap-1.5 rounded-md bg-accent px-3 py-2 text-sm font-medium text-accent-contrast transition-colors hover:bg-accent-hover"
           >
             {t.home.newsCta}
@@ -67,8 +67,8 @@ export function HomeNewsBanner() {
         <div className="relative hidden min-h-44 sm:block">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={assetPath("/news/gow3-native.jpg")}
-            alt=""
+            src={assetPath("/news/taiga-achievements.jpg")}
+            alt={t.home.newsTitle}
             width={960}
             height={540}
             loading="eager"

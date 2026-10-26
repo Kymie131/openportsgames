@@ -132,6 +132,22 @@ export function GuideContent() {
         </div>
       </DocSection>
 
+      <DocSection title={t.guides.taigaTitle}>
+        <DocParagraph>{t.guides.taigaIntro}</DocParagraph>
+        <DocList items={t.guides.taigaPoints} />
+        <p className="rounded-lg border border-amber-500/30 bg-amber-500/10 p-4 text-sm leading-6 text-foreground">
+          {t.guides.taigaWarning}
+        </p>
+        <a
+          href="https://github.com/GabrielTaiga/Taiga-Launcher-for-Steam"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm font-medium text-accent hover:underline"
+        >
+          {t.guides.taigaSource} →
+        </a>
+      </DocSection>
+
       <DocSection title={t.guides.faqTitle}>
         <dl className="flex flex-col gap-4">
           {t.guides.faq.map((item, index) => (
