@@ -135,6 +135,14 @@ export function GuideContent() {
       <DocSection title={t.guides.taigaTitle}>
         <DocParagraph>{t.guides.taigaIntro}</DocParagraph>
         <DocList items={t.guides.taigaPoints} />
+        <h3 className="pt-1 text-sm font-semibold text-foreground">{t.guides.taigaStepsTitle}</h3>
+        <ol className="flex list-decimal flex-col gap-2 pl-5 text-sm leading-6 text-muted marker:font-mono marker:text-accent">
+          {t.guides.taigaSteps.map((step) => (
+            <li key={step} className="pl-1">
+              {step}
+            </li>
+          ))}
+        </ol>
         <p className="rounded-lg border border-amber-500/30 bg-amber-500/10 p-4 text-sm leading-6 text-foreground">
           {t.guides.taigaWarning}
         </p>

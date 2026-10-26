@@ -475,6 +475,13 @@ const en = {
     ],
     taigaWarning:
       "Download it only from its official GitHub releases. It reads local progress and does not modify your games, saves or accounts.",
+    taigaStepsTitle: "How to set it up",
+    taigaSteps: [
+      "Download the ZIP from the official release and extract it outside Program Files.",
+      "Open Taiga Launcher.exe, pick your language and Steam account, and let it scan your drives.",
+      "Connect RetroAchievements or the stores you use if you want their achievements tracked.",
+      "Launch the ports from Steam; the new pages live in the Taiga Launcher collection.",
+    ],
     taigaSource: "Taiga Launcher on GitHub",
     faqTitle: "Frequently asked questions",
     faq: [
@@ -1369,6 +1376,13 @@ const es: Messages = {
     ],
     taigaWarning:
       "Descárgala solo desde sus releases oficiales de GitHub. Lee el progreso local y no modifica tus juegos, partidas ni cuentas.",
+    taigaStepsTitle: "Cómo configurarla",
+    taigaSteps: [
+      "Descarga el ZIP desde el release oficial y extráelo fuera de Program Files.",
+      "Abre Taiga Launcher.exe, elige idioma y cuenta de Steam, y deja que escanee tus discos.",
+      "Conecta RetroAchievements o las tiendas que uses si quieres seguir sus logros.",
+      "Lanza los ports desde Steam; las páginas nuevas aparecen en la colección Taiga Launcher.",
+    ],
     taigaSource: "Taiga Launcher en GitHub",
     faqTitle: "Preguntas frecuentes",
     faq: [
