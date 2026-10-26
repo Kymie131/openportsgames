@@ -134,7 +134,30 @@ export function GuideContent() {
 
       <DocSection title={t.guides.taigaTitle}>
         <DocParagraph>{t.guides.taigaIntro}</DocParagraph>
+        <a
+          href="https://github.com/GabrielTaiga/Taiga-Launcher-for-Steam/releases/latest"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex w-fit items-center gap-1.5 rounded-md bg-accent px-3 py-2 text-sm font-medium text-accent-contrast transition-colors hover:bg-accent-hover"
+        >
+          {t.guides.taigaDownload} →
+        </a>
         <DocList items={t.guides.taigaPoints} />
+        <h3 className="pt-1 text-sm font-semibold text-foreground">
+          {t.guides.taigaCompatTitle}
+        </h3>
+        <div className="rounded-lg border border-border bg-surface p-4">
+          <h4 className="text-sm font-semibold text-foreground">
+            {t.guides.taigaCompatYesTitle}
+          </h4>
+          <DocList items={t.guides.taigaCompatYes} />
+        </div>
+        <div className="rounded-lg border border-border bg-surface p-4">
+          <h4 className="text-sm font-semibold text-foreground">
+            {t.guides.taigaCompatNoTitle}
+          </h4>
+          <DocList items={t.guides.taigaCompatNo} />
+        </div>
         <h3 className="pt-1 text-sm font-semibold text-foreground">{t.guides.taigaStepsTitle}</h3>
         <ol className="flex list-decimal flex-col gap-2 pl-5 text-sm leading-6 text-muted marker:font-mono marker:text-accent">
           {t.guides.taigaSteps.map((step) => (

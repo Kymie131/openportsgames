@@ -467,6 +467,22 @@ const en = {
     taigaTitle: "Achievements inside Steam with Taiga Launcher",
     taigaIntro:
       "Taiga Launcher is a free, open-source Windows app that adds non-Steam games — native ports such as God of War III, emulated games and other stores — to Steam with a game page, artwork, playtime and achievements.",
+    taigaDownload: "Download Taiga Launcher",
+    taigaCompatTitle: "Which games can show achievements?",
+    taigaCompatYesTitle: "Works",
+    taigaCompatYes: [
+      "Emulated games with RetroAchievements, or with emulator trophies: RPCS3 (PS3), Vita3K (PS Vita) and shadPS4 (PS4).",
+      "Native PS4 ports that keep the console trophy list and write an unlock log: SpartanPort (God of War III) and bbport / Supermedo (Bloodborne) are the known cases.",
+      "Games from Epic, GOG and Xbox, using each store's achievements.",
+      "PC games that also exist on Steam, using the official Steam list and the progress saved on your PC.",
+    ],
+    taigaCompatNoTitle: "Does not work, or only partially",
+    taigaCompatNo: [
+      "Native recompilations and decompilations with their own achievement system, such as Unleashed Recompiled: those achievements cannot connect to Steam or RetroAchievements.",
+      "Most Nintendo ports (Mario, Zelda, Metroid): they do not expose a PlayStation trophy list or a compatible unlock log.",
+      "A PS4 dump without the trophy key or the XML files extracted by shadPS4: at most the icons appear, without names or descriptions.",
+      "Games that are not on Steam and have no store or console trophies: there is no list to show.",
+    ],
     taigaPoints: [
       "Achievements come from the source that actually tracks them: RetroAchievements for emulators, RPCS3, Vita3K or shadPS4 trophies, the port's own trophy list and unlock log, or the official Steam list when the same game exists on Steam.",
       "Unlocks use Steam's native notification, but everything stays local: they are not real Steam achievements, do not grant ownership and never change your public profile.",
@@ -1368,6 +1384,22 @@ const es: Messages = {
     taigaTitle: "Logros dentro de Steam con Taiga Launcher",
     taigaIntro:
       "Taiga Launcher es una app gratuita y de código abierto para Windows que añade juegos que no son de Steam —ports nativos como God of War III, juegos emulados y otras tiendas— a Steam con página de juego, carátulas, tiempo jugado y logros.",
+    taigaDownload: "Descargar Taiga Launcher",
+    taigaCompatTitle: "¿Qué juegos pueden mostrar logros?",
+    taigaCompatYesTitle: "Funcionan",
+    taigaCompatYes: [
+      "Juegos emulados con RetroAchievements, o con trofeos del emulador: RPCS3 (PS3), Vita3K (PS Vita) y shadPS4 (PS4).",
+      "Ports nativos de PS4 que conservan la lista de trofeos de la consola y escriben un registro de desbloqueos: SpartanPort (God of War III) y bbport / Supermedo (Bloodborne) son los casos conocidos.",
+      "Juegos de Epic, GOG y Xbox, usando los logros de cada tienda.",
+      "Juegos de PC que también existen en Steam, usando la lista oficial y el progreso guardado en tu PC.",
+    ],
+    taigaCompatNoTitle: "No funcionan, o solo en parte",
+    taigaCompatNo: [
+      "Recompilaciones y decompilaciones nativas con logros propios, como Unleashed Recompiled: esos logros no pueden conectarse a Steam ni RetroAchievements.",
+      "La mayoría de ports de Nintendo (Mario, Zelda, Metroid): no exponen una lista de trofeos de PlayStation ni un registro de desbloqueos compatible.",
+      "Un dump de PS4 sin la clave de trofeos o sin los XML que extrae shadPS4: como mucho aparecen los iconos, sin nombres ni descripciones.",
+      "Juegos que no están en Steam y no tienen trofeos de consola o tienda: no hay lista que mostrar.",
+    ],
     taigaPoints: [
       "Los logros vienen de la fuente que realmente los registra: RetroAchievements en emuladores, trofeos de RPCS3, Vita3K o shadPS4, la lista de trofeos y el registro de desbloqueos del propio port, o la lista oficial de Steam cuando el mismo juego existe en Steam.",
       "Los desbloqueos usan la notificación nativa de Steam, pero todo es local: no son logros reales de Steam, no dan propiedad y nunca cambian tu perfil público.",
