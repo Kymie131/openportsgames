@@ -103,7 +103,7 @@ export function SiteHeader() {
             <img
               src={assetPath("/logos/brand/openportsgames-transparent.png")}
               alt=""
-              className="h-7 w-auto max-w-[9rem] object-contain sm:h-8 md:h-9"
+              className="h-7 w-auto max-w-[8rem] object-contain sm:h-8 sm:max-w-[9rem] md:h-9"
             />
           </Link>
 
@@ -165,7 +165,7 @@ export function SiteHeader() {
           </nav>
         </div>
 
-        <div className="flex shrink-0 items-center gap-2">
+        <div className="flex shrink-0 items-center gap-1.5 sm:gap-2">
           <form
             role="search"
             onSubmit={submitSearch}

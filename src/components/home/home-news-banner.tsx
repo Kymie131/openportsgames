@@ -21,7 +21,7 @@ function subscribe(onChange: () => void) {
 
 function getSnapshot() {
   try {
-    return window.localStorage.getItem(STORAGE_KEY) === "1";
+    return window.sessionStorage.getItem(STORAGE_KEY) === "1";
   } catch {
     return false;
   }
@@ -33,9 +33,9 @@ export function HomeNewsBanner() {
 
   function dismiss() {
     try {
-      window.localStorage.setItem(STORAGE_KEY, "1");
+      window.sessionStorage.setItem(STORAGE_KEY, "1");
     } catch {
-      /* storage unavailable: dismissal only lasts this visit */
+      /* storage unavailable: dismissal only lasts this render */
     }
     window.dispatchEvent(new Event(CHANGE_EVENT));
   }

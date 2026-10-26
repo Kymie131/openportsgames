@@ -182,7 +182,7 @@ export function LoginButton({ className }: { className?: string }) {
             <span className="hidden max-w-28 truncate sm:inline">
               {user ? user.name : t.community.login.signIn}
             </span>
-            <ChevronDown className="size-3.5 text-muted" aria-hidden="true" />
+            <ChevronDown className="hidden size-3.5 text-muted sm:block" aria-hidden="true" />
           </button>
         </DropdownMenu.Trigger>
         <DropdownMenu.Portal>
