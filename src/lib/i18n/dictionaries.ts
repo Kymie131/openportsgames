@@ -471,7 +471,9 @@ const en = {
     taigaCompatTitle: "Which games can show achievements?",
     taigaCompatYesTitle: "Works",
     taigaCompatYes: [
-      "Emulated games with RetroAchievements, or with emulator trophies: RPCS3 (PS3), Vita3K (PS Vita) and shadPS4 (PS4).",
+      "Emulated PS3 games with trophies in RPCS3, such as Demon's Souls, The Last of Us or the God of War collection.",
+      "Emulated PS4 games with trophies in shadPS4, and emulated PS Vita games in Vita3K, such as Uncharted: Golden Abyss or Gravity Rush.",
+      "Retro consoles through RetroAchievements: there are thousands of supported NES, SNES, N64, Game Boy, GBA, PS1 and PS2 games.",
       "Native PS4 ports that keep the console trophy list and write an unlock log: SpartanPort (God of War III) and bbport / Supermedo (Bloodborne) are the known cases.",
       "Games from Epic, GOG and Xbox, using each store's achievements.",
       "PC games that also exist on Steam, using the official Steam list and the progress saved on your PC.",
@@ -479,6 +481,7 @@ const en = {
     taigaCompatNoTitle: "Does not work, or only partially",
     taigaCompatNo: [
       "Native recompilations and decompilations with their own achievement system, such as Unleashed Recompiled: those achievements cannot connect to Steam or RetroAchievements.",
+      "The Uncharted: The Nathan Drake Collection port has trophies, but its own log format is not the one Taiga reads today.",
       "Most Nintendo ports (Mario, Zelda, Metroid): they do not expose a PlayStation trophy list or a compatible unlock log.",
       "A PS4 dump without the trophy key or the XML files extracted by shadPS4: at most the icons appear, without names or descriptions.",
       "Games that are not on Steam and have no store or console trophies: there is no list to show.",
@@ -1388,7 +1391,9 @@ const es: Messages = {
     taigaCompatTitle: "¿Qué juegos pueden mostrar logros?",
     taigaCompatYesTitle: "Funcionan",
     taigaCompatYes: [
-      "Juegos emulados con RetroAchievements, o con trofeos del emulador: RPCS3 (PS3), Vita3K (PS Vita) y shadPS4 (PS4).",
+      "Juegos de PS3 emulados con trofeos en RPCS3, como Demon's Souls, The Last of Us o la colección God of War.",
+      "Juegos de PS4 emulados con trofeos en shadPS4, y juegos de PS Vita en Vita3K, como Uncharted: Golden Abyss o Gravity Rush.",
+      "Consolas retro mediante RetroAchievements: hay miles de juegos compatibles de NES, SNES, N64, Game Boy, GBA, PS1 y PS2.",
       "Ports nativos de PS4 que conservan la lista de trofeos de la consola y escriben un registro de desbloqueos: SpartanPort (God of War III) y bbport / Supermedo (Bloodborne) son los casos conocidos.",
       "Juegos de Epic, GOG y Xbox, usando los logros de cada tienda.",
       "Juegos de PC que también existen en Steam, usando la lista oficial y el progreso guardado en tu PC.",
@@ -1396,6 +1401,7 @@ const es: Messages = {
     taigaCompatNoTitle: "No funcionan, o solo en parte",
     taigaCompatNo: [
       "Recompilaciones y decompilaciones nativas con logros propios, como Unleashed Recompiled: esos logros no pueden conectarse a Steam ni RetroAchievements.",
+      "El port de Uncharted: The Nathan Drake Collection tiene trofeos, pero su formato de registro no es el que Taiga lee hoy.",
       "La mayoría de ports de Nintendo (Mario, Zelda, Metroid): no exponen una lista de trofeos de PlayStation ni un registro de desbloqueos compatible.",
       "Un dump de PS4 sin la clave de trofeos o sin los XML que extrae shadPS4: como mucho aparecen los iconos, sin nombres ni descripciones.",
       "Juegos que no están en Steam y no tienen trofeos de consola o tienda: no hay lista que mostrar.",
