@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const botwAndroid: Port = {
+  schema: "port",
+  id: "botw-android",
+  title: "The Legend of Zelda: Breath of the Wild (Android)",
+  game: "The Legend of Zelda: Breath of the Wild",
+  developers: ["mamcjr"],
+  publisher: "Nintendo",
+  originalYear: 2017,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/mamcjr/BOTWRecompAndroid"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-26",
+  originalSystems: ["Nintendo Switch"],
+  summary: "The Legend of Zelda: Breath of the Wild is a 2017 action-adventure game developed by Nintendo EPD and published by Nintendo for the Wii U and Nintendo Switch. It follows Link as he explores the open world of Hyrule and tries to stop Calamity Ganon.",
+  summaryEs: "The Legend of Zelda: Breath of the Wild es un videojuego de acción y aventura de 2017 desarrollado por Nintendo EPD y publicado por Nintendo para Wii U y Nintendo Switch. Sigue a Link mientras explora el mundo abierto de Hyrule e intenta detener a Calamity Ganon.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg",
+    alt: "The Legend of Zelda: Breath of the Wild (box art)",
+    credit: "Wikipedia",
+  },
+  notes: "Breath of the Wild recompiled for Android (arm64) from the Switch version 1.0.0, 1.6.0 or 1.8.2. It is an early beta tested on one phone; you need your own game files.",
+  notesEs: "Breath of the Wild recompilado para Android (arm64) desde la versión de Switch 1.0.0, 1.6.0 o 1.8.2. Es una beta temprana probada en un solo móvil; necesitas tus propios archivos del juego.",
+};

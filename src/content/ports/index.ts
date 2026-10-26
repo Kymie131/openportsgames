@@ -1922,6 +1922,9 @@ import { sm64coopdx } from "./sm64coopdx";
 import { sm64coopdxAndroid } from "./sm64coopdx-android";
 import { sm64coopdxSwitch } from "./sm64coopdx-switch";
 import { sm64ex } from "./sm64ex";
+import { basara4Pc } from "./basara4-pc";
+import { botwAndroid } from "./botw-android";
+import { mk9Switch } from "./mk9-switch";
 import { phantomHourglassRecomp } from "./phantom-hourglass-recomp";
 import { linksAwakeningDxHdSwitch } from "./links-awakening-dx-hd-switch";
 import { oraclesProjectSwitch } from "./oracles-project-switch";
@@ -5212,4 +5215,7 @@ export const portCases: Port[] = [
   phantomHourglassRecomp,
   linksAwakeningDxHdSwitch,
   oraclesProjectSwitch,
+  basara4Pc,
+  botwAndroid,
+  mk9Switch,
 ];

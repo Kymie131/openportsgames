@@ -27,6 +27,6 @@ export const gravityRush2Pc: Port = {
   },
   summary: "Gravity Rush 2, known in Japan as Gravity Daze 2, is a 2017 action-adventure game developed and published by Sony Interactive Entertainment for the PlayStation 4. It is the sequel to Gravity Rush. Directed by Keiichiro Toyama, the core mechanic of the game is the player's ability to manipulate gravity, allowing unique movements and navigation. The game follows Kat, a gravity-shifting teenage girl and super-heroine, after she is drawn from her home of Hekseville into another universe and must liberate the citizens of Jirga Para Lhao from its rulers.",
   summaryEs: "Gravity Rush 2 es un videojuego de acción-aventura desarrollado por SIE Japan Studio y Project Siren, y publicado por Sony Interactive Entertainment en exclusiva para la consola PlayStation 4. Dirigido por Keiichiro Toyama, la mecánica principal del juego es la habilidad del jugador para manipular la gravedad, permitiendo movimientos únicos y la navegación. Su lanzamiento internacional se produjo en enero de 2017.",
-  notes: "Gravity Rush 2 (SIE Japan Studio, 2017) running on Windows through runtime layer. Latest release: v2026.10.17-fd637d0. You need your own copy of the game.",
+  notes: "Gravity Rush 2 (SIE Japan Studio, 2017) running on Windows through runtime layer. Latest release: v2026.10.24-a2e69a1. You need your own copy of the game.",
   notesEs: "Gravity Rush 2 (SIE Japan Studio, 2017) en Windows mediante capa de ejecución. Última release: v2026.10.17-fd637d0. Necesitas tu propia copia del juego.",
 };

@@ -1746,7 +1746,7 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "retroreplay82-legendary-wings-nes-to-pc": ["Nintendo Entertainment System"],
   "return-to-castle-wolfenstein": ["Windows"],
   "revc-android-evolved": ["Unknown"],
-  "revivedx-savagewindrecomp": ["Unknown"],
+  "revivedx-savagewindrecomp": ["Nintendo Switch"],
   "rhythm-heaven": ["Nintendo DS"],
   "rhythm-heaven-fever": ["Unknown"],
   "richman-4-android": ["Windows"],
@@ -2606,4 +2606,7 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "phantom-hourglass-recomp": ["Nintendo DS"],
   "links-awakening-dx-hd-switch": ["Game Boy Color"],
   "oracles-project-switch": ["Game Boy Color"],
+  "basara4-pc": ["PlayStation 4"],
+  "botw-android": ["Nintendo Switch"],
+  "mk9-switch": ["Xbox 360"],
 };

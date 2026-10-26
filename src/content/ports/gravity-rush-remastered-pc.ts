@@ -1,11 +1,11 @@
-import type { Port } from "@/lib/ports/schema";
+﻿import type { Port } from "@/lib/ports/schema";
 
 export const gravityRushRemasteredPc: Port = {
   schema: "port",
   id: "gravity-rush-remastered-pc",
   title: "Gravity Rush Remastered (PC)",
   game: "Gravity Rush Remastered",
-  developers: ["Prathewsh"],
+  developers: ["LucaPazienza"],
   publisher: "SIE Japan Studio",
   originalYear: 2015,
   portType: "runtime-port",
@@ -13,20 +13,20 @@ export const gravityRushRemasteredPc: Port = {
   openSource: true,
   originalGameLicense: "proprietary",
   platforms: ["windows"],
-  status: "alpha",
-  release: { version: null, date: null },
-  sources: ["https://github.com/Prathewsh/gravityrush_pc"],
+  status: "beta",
+  release: { version: "0.1.8", date: "2026-10-23" },
+  sources: ["https://github.com/LucaPazienza/gravityrush_pc"],
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 4"],
-  summary: "Gravity Rush Remastered is a action-adventure game in 2015.",
-  summaryEs: "Gravity Rush Remastered es un videojuego de acción y aventura en 2015.",
+  summary: "Gravity Rush Remastered is a 2015 action-adventure game developed by SIE Japan Studio and Bluepoint Games and published by Sony Computer Entertainment for PlayStation 4. It follows Kat, a young woman who can manipulate gravity, as she protects the floating city of Hekseville.",
+  summaryEs: "Gravity Rush Remastered es un videojuego de acción y aventura de 2015 desarrollado por SIE Japan Studio y Bluepoint Games y publicado por Sony Computer Entertainment para PlayStation 4. Sigue a Kat, una joven capaz de manipular la gravedad, mientras protege la ciudad flotante de Hekseville.",
   cover: {
     src: "https://openportsgames.com/covers/generated/gravity-rush-remastered.svg",
     alt: "Gravity Rush Remastered (generated cover)",
     credit: "OpenPortsGames",
   },
-  notes: "Gravity Rush Remastered (SIE Japan Studio, 2015) running on Windows through runtime layer. You need your own copy of the game.",
-  notesEs: "Gravity Rush Remastered (SIE Japan Studio, 2015) en Windows mediante capa de ejecución. Necesitas tu propia copia del juego.",
+  notes: "Gravity Rush Remastered (SIE Japan Studio, 2015) running natively on Windows. You need your own PS4 copy of Gravity Rush Remastered.",
+  notesEs: "Gravity Rush Remastered (SIE Japan Studio, 2015) en Windows de forma nativa. Necesitas tu propia copia de PS4 de Gravity Rush Remastered.",
 };

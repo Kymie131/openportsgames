@@ -21,7 +21,7 @@ export const revivedxSavagewindrecomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Unknown"],
+  originalSystems: ["Nintendo Switch"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg",
     alt: "The Legend of Zelda: Breath of the Wild (box art)",
@@ -29,6 +29,6 @@ export const revivedxSavagewindrecomp: Port = {
   },
   summary: "The Legend of Zelda: Breath of the Wild is a 2017 action-adventure game developed by Nintendo EPD for the Wii U and Nintendo Switch. Set near the end of the Zelda timeline, it follows Link as he sets out to save Princess Zelda and prevent Calamity Ganon from destroying the world. The player explores the open world of Hyrule, collects items, and completes objectives such as puzzles and side quests. Breath of the Wild's world is unstructured and encourages exploration and experimentation; the story can be completed in a nonlinear fashion.",
   summaryEs: "The Legend of Zelda: Breath of the Wild es un videojuego de acción-aventura de 2017 de la serie The Legend of Zelda, desarrollado por la filial Nintendo EPD en colaboración con Monolith Soft y publicado por Nintendo para las consolas Wii U, Nintendo Switch, y Nintendo Switch 2. Es la decimoctava entrega de la serie y la tercera en utilizar gráficos en alta definición. Se lanzó el 3 de marzo de 2017 para Wii U y Nintendo Switch.",
-  notes: "The Legend of Zelda: Breath of the Wild: static recompilation by Revivedx for Windows, Linux. Bring your own copy of the game.",
-  notesEs: "The Legend of Zelda: Breath of the Wild: recompilación estática de Revivedx para Windows, Linux. Aporta tu propia copia del juego.",
+  notes: "The Legend of Zelda: Breath of the Wild: static recompilation by Revivedx for Windows, Linux (Switch 1.9.0). Bring your own copy of the game.",
+  notesEs: "The Legend of Zelda: Breath of the Wild: recompilación estática de Revivedx para Windows y Linux (Switch 1.9.0). Aporta tu propia copia del juego.",
 };

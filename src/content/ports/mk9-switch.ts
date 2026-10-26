@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mk9Switch: Port = {
+  schema: "port",
+  id: "mk9-switch",
+  title: "Mortal Kombat Komplete Edition (Switch)",
+  game: "Mortal Kombat Komplete Edition",
+  developers: ["Thorhax"],
+  publisher: "Warner Bros. Games",
+  originalYear: 2011,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Thorhax/mk9-nx"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-26",
+  originalSystems: ["Xbox 360"],
+  summary: "Mortal Kombat Komplete Edition is the 2012 release of the 2011 fighting game developed by NetherRealm Studios and published by Warner Bros. It includes all downloadable fighters and the classic costumes.",
+  summaryEs: "Mortal Kombat Komplete Edition es la edición de 2012 del juego de lucha de 2011 desarrollado por NetherRealm Studios y publicado por Warner Bros. Incluye todos los personajes descargables y los trajes clásicos.",
+  cover: {
+    src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/237110/header.jpg",
+    alt: "Mortal Kombat Komplete Edition (box art)",
+    credit: "Steam",
+  },
+  notes: "Mortal Kombat Komplete Edition (Xbox 360) running on Nintendo Switch through ReXGlue recompilation. Bring your own game files; the PC version is available on Steam.",
+  notesEs: "Mortal Kombat Komplete Edition (Xbox 360) en Nintendo Switch mediante recompilación con ReXGlue. Aporta tus propios archivos; la versión de PC está disponible en Steam.",
+};
