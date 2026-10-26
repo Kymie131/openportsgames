@@ -286,6 +286,11 @@ const en = {
   },
   home: {
     consolesTitle: "Browse by console",
+    newsTitle: "God of War III is now native on PC",
+    newsBody:
+      "The unofficial port of God of War III Remastered runs natively, without an emulator. You need your own PS4 copy.",
+    newsCta: "See the port",
+    newsDismiss: "Dismiss news",
     consolesSubtitle:
       "Every original system with native ports, recompilations and homebrew builds in the catalog.",
     consolesCount: (count: number) => `${count} entries`,
@@ -1163,6 +1168,11 @@ const es: Messages = {
   },
   home: {
     consolesTitle: "Explora por consola",
+    newsTitle: "God of War III ya es nativo en PC",
+    newsBody:
+      "El port no oficial de God of War III Remastered corre de forma nativa, sin emulador. Necesitas tu propia copia de PS4.",
+    newsCta: "Ver el port",
+    newsDismiss: "Cerrar noticia",
     consolesSubtitle:
       "Todas las consolas originales con ports nativos, recompilaciones y homebrew del catálogo.",
     consolesCount: (count: number) => `${count} fichas`,

@@ -1922,6 +1922,9 @@ import { sm64coopdx } from "./sm64coopdx";
 import { sm64coopdxAndroid } from "./sm64coopdx-android";
 import { sm64coopdxSwitch } from "./sm64coopdx-switch";
 import { sm64ex } from "./sm64ex";
+import { phantomHourglassRecomp } from "./phantom-hourglass-recomp";
+import { linksAwakeningDxHdSwitch } from "./links-awakening-dx-hd-switch";
+import { oraclesProjectSwitch } from "./oracles-project-switch";
 import { blueStingerRecomp } from "./blue-stinger-recomp";
 import { eccoDotfRecomp } from "./ecco-dotf-recomp";
 import { talesOfLegendiaRecomp } from "./tales-of-legendia-recomp";
@@ -5206,4 +5209,7 @@ export const portCases: Port[] = [
   wweCrushHourPc,
   blueStingerRecomp,
   eccoDotfRecomp,
+  phantomHourglassRecomp,
+  linksAwakeningDxHdSwitch,
+  oraclesProjectSwitch,
 ];

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const oraclesProjectSwitch: Port = {
+  schema: "port",
+  id: "oracles-project-switch",
+  title: "The Oracles Project (Switch)",
+  game: "The Legend of Zelda: Oracle of Ages",
+  developers: ["toniisound"],
+  publisher: "Nintendo",
+  originalYear: 2001,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.2.0", date: "2026-10-22" },
+  sources: ["https://github.com/toniisound/The-Oracles-Project-NX"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-26",
+  originalSystems: ["Game Boy Color"],
+  summary: "The Legend of Zelda: Oracle of Ages and Oracle of Seasons are 2001 action-adventure games developed by Flagship and published by Nintendo for the Game Boy Color. They are linked titles that can be completed in either order and share items and secrets.",
+  summaryEs: "The Legend of Zelda: Oracle of Ages y Oracle of Seasons son videojuegos de acción y aventura de 2001 desarrollados por Flagship y publicados por Nintendo para Game Boy Color. Son títulos enlazados que pueden completarse en cualquier orden y comparten objetos y secretos.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Boxarts/Legend%20of%20Zelda,%20The%20-%20Oracle%20of%20Ages%20(USA,%20Australia).png",
+    alt: "The Legend of Zelda: Oracle of Ages (box art)",
+    credit: "libretro",
+  },
+  notes: "The Oracles Project for Nintendo Switch: native port of Oracle of Ages and Oracle of Seasons with widescreen, languages and mods. ROMs are not included.",
+  notesEs: "The Oracles Project para Nintendo Switch: port nativo de Oracle of Ages y Oracle of Seasons con pantalla ancha, idiomas y mods. No incluye ROMs.",
+};

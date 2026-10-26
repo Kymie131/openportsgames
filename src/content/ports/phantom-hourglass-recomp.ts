@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const phantomHourglassRecomp: Port = {
+  schema: "port",
+  id: "phantom-hourglass-recomp",
+  title: "Phantom Hourglass Recompiled",
+  game: "The Legend of Zelda: Phantom Hourglass",
+  developers: ["dguillot-gh"],
+  publisher: "Nintendo",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "android"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/dguillot-gh/phantom-hourglass-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-26",
+  originalSystems: ["Nintendo DS"],
+  summary: "The Legend of Zelda: Phantom Hourglass is a 2007 action-adventure game developed by Nintendo EAD and published by Nintendo for the Nintendo DS. A direct sequel to The Wind Waker, it follows Link as he searches for Tetra across the World of the Ocean King.",
+  summaryEs: "The Legend of Zelda: Phantom Hourglass es un videojuego de acción y aventura de 2007 desarrollado por Nintendo EAD y publicado por Nintendo para Nintendo DS. Secuela directa de The Wind Waker, sigue a Link en su búsqueda de Tetra por el Mundo del Rey del Mar.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Legend%20of%20Zelda,%20The%20-%20Phantom%20Hourglass%20(USA)%20(En,Fr,Es).png",
+    alt: "The Legend of Zelda: Phantom Hourglass (box art)",
+    credit: "libretro",
+  },
+  notes: "Phantom Hourglass Recompiled: static recompilation of the Nintendo DS game for Windows and Android. You build it from your own dumped ROM; no game data is included.",
+  notesEs: "Phantom Hourglass Recompiled: recompilación estática del juego de Nintendo DS para Windows y Android. Se compila desde tu propia ROM volcada; no incluye datos del juego.",
+};

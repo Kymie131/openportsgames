@@ -23,10 +23,10 @@ const NAV_ITEMS = [
   { href: "/console", key: "console" as const },
   { href: "/explore", key: "explore" as const },
   { href: "/emulators", key: "emulators" as const },
-  { href: "/tools", key: "tools" as const },
 ];
 
 const PROJECT_ITEMS = [
+  { href: "/tools", key: "tools" as const },
   { href: "/guides", key: "guides" as const },
   { href: "/testing", key: "testing" as const },
   { href: "/missing", key: "missingPorts" as const },
@@ -107,7 +107,7 @@ export function SiteHeader() {
             />
           </Link>
 
-          <nav aria-label={t.common.mainNav} className="hidden items-center gap-0.5 xl:flex">
+          <nav aria-label={t.common.mainNav} className="hidden shrink-0 items-center gap-0.5 xl:flex">
             {NAV_ITEMS.map((item) => {
               const active = isActive(rest, item.href);
               return (

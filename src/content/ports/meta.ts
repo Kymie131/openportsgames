@@ -2603,4 +2603,7 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "wwe-crush-hour-pc": ["PlayStation 2"],
   "blue-stinger-recomp": ["Dreamcast"],
   "ecco-dotf-recomp": ["Dreamcast"],
+  "phantom-hourglass-recomp": ["Nintendo DS"],
+  "links-awakening-dx-hd-switch": ["Game Boy Color"],
+  "oracles-project-switch": ["Game Boy Color"],
 };

@@ -20,6 +20,7 @@ import { Container } from "@/components/layout/container";
 import { PortTile } from "@/components/catalog/port-tile";
 import { HalloweenDecor } from "./halloween-decor";
 import { ConsoleGrid, type ConsoleSummary } from "./console-grid";
+import { HomeNewsBanner } from "./home-news-banner";
 import { SUPPORT_PAYPAL_URL } from "@/lib/support";
 import type { TestStatus } from "@/components/catalog/test-badge";
 import type { Port } from "@/lib/ports/schema";
@@ -49,6 +50,7 @@ export function HomeContent({
 
   return (
     <Container className="py-14 sm:py-20">
+      <HomeNewsBanner />
       {/* Hero */}
       <section aria-labelledby="home-hero" className="relative space-y-12">
         <HalloweenDecor />

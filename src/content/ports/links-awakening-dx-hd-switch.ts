@@ -1,0 +1,35 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const linksAwakeningDxHdSwitch: Port = {
+  schema: "port",
+  id: "links-awakening-dx-hd-switch",
+  title: "Link's Awakening DX HD (Switch)",
+  game: "The Legend of Zelda: Link's Awakening DX",
+  developers: ["Alexgg1014"],
+  publisher: "Nintendo",
+  originalYear: 1998,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.2.0", date: "2026-10-16" },
+  sources: [
+    "https://github.com/Alexgg1014/The-Legend-of-Zelda-Link-s-Awakening-DX-HD-Alek-s-Ultimate-NX-Edition",
+  ],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-10-26",
+  originalSystems: ["Game Boy Color"],
+  summary: "The Legend of Zelda: Link's Awakening DX is a 1998 enhanced re-release of the 1993 Game Boy action-adventure game developed and published by Nintendo. It adds a color dungeon, new photographs and compatibility with the Game Boy Color.",
+  summaryEs: "The Legend of Zelda: Link's Awakening DX es una reedición mejorada de 1998 del juego de acción y aventura de Game Boy de 1993, desarrollado y publicado por Nintendo. Añade una mazmorra de color, nuevas fotografías y compatibilidad con Game Boy Color.",
+  cover: {
+    src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Boxarts/Legend%20of%20Zelda,%20The%20-%20Link%27s%20Awakening%20DX%20(USA,%20Europe)%20(Rev%202)%20(SGB%20Enhanced)%20(GB%20Compatible).png",
+    alt: "The Legend of Zelda: Link's Awakening DX (box art)",
+    credit: "libretro",
+  },
+  notes: "Link's Awakening DX HD for Nintendo Switch, based on the ladxhd source port: 60 fps handheld, Flip Grip portrait mode and a touch map. No game assets included.",
+  notesEs: "Link's Awakening DX HD para Nintendo Switch, basado en el port ladxhd: 60 fps en portátil, modo retrato Flip Grip y mapa táctil. No incluye archivos del juego.",
+};
