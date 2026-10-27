@@ -37,10 +37,13 @@ export const commentBodySchema = z
   .transform(sanitizeText)
   .pipe(z.string().min(1).max(COMMENT_BODY_MAX_LENGTH));
 
+export const sentimentSchema = z.enum(["positive", "negative"]);
+
 export const createCommentSchema = z.object({
   body: commentBodySchema,
   turnstileToken: z.string(),
   parentId: z.string().uuid().nullish(),
+  sentiment: sentimentSchema.nullish(),
 });
 
 export const reportReasonSchema = z

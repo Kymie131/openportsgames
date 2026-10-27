@@ -131,6 +131,7 @@ export const comment = sqliteTable(
     }),
     body: text("body").notNull(),
     status: text("status", { enum: ["visible", "hidden"] }).default("visible").notNull(),
+    sentiment: text("sentiment", { enum: ["positive", "negative"] }),
     createdAt: integer("created_at", { mode: "timestamp_ms" })
       .default(sql`(cast(unixepoch('subsecond') * 1000 as integer))`)
       .notNull(),
@@ -143,6 +144,10 @@ export const comment = sqliteTable(
     ),
     index("comment_parentId_idx").on(table.parentId),
     check("comment_status_check", sql`${table.status} in ('visible', 'hidden')`),
+    check(
+      "comment_sentiment_check",
+      sql`${table.sentiment} is null or ${table.sentiment} in ('positive', 'negative')`,
+    ),
   ],
 );
 

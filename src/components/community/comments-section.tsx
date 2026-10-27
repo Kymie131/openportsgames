@@ -1,13 +1,14 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Flag, LoaderCircle, Reply, Send, Trash2 } from "lucide-react";
+import { Flag, LoaderCircle, Reply, Send, ThumbsDown, ThumbsUp, Trash2 } from "lucide-react";
 import {
   ApiError,
   TURNSTILE_SITE_KEY,
   apiFetch,
   type CommentItem,
   type CommentsPage,
+  type ReviewSentiment,
 } from "@/lib/api";
 import { useSessionUser } from "@/lib/auth-client";
 import { useLocale, useT } from "@/lib/i18n/use-i18n";
@@ -16,6 +17,7 @@ import { Dialog } from "@/components/ui/dialog";
 import { cn } from "@/lib/utils";
 import { Turnstile } from "./turnstile";
 import { UserAvatar } from "./user-avatar";
+import { REVIEW_CHANGE_EVENT } from "./review-summary";
 
 /** Mirrors the API limit for a comment body. */
 const COMMENT_MAX_LENGTH = 1000;
@@ -42,6 +44,7 @@ export function CommentsSection({ portId }: { portId: string }) {
   const [morePending, setMorePending] = useState(false);
 
   const [body, setBody] = useState("");
+  const [sentiment, setSentiment] = useState<ReviewSentiment | null>(null);
   const [token, setToken] = useState<string | null>(null);
   const [resetKey, setResetKey] = useState(0);
   const [submitting, setSubmitting] = useState(false);
@@ -124,7 +127,11 @@ export function CommentsSection({ portId }: { portId: string }) {
     try {
       const created = await apiFetch<CommentItem>(`/comments/${encodeURIComponent(portId)}`, {
         method: "POST",
-        body: JSON.stringify({ body: value, turnstileToken: token ?? "" }),
+        body: JSON.stringify({
+          body: value,
+          turnstileToken: token ?? "",
+          sentiment,
+        }),
       });
       setFeed((current) => ({
         key: requestKey,
@@ -133,6 +140,8 @@ export function CommentsSection({ portId }: { portId: string }) {
         cursor: current.cursor,
       }));
       setBody("");
+      setSentiment(null);
+      window.dispatchEvent(new Event(REVIEW_CHANGE_EVENT));
       setNotice(t.community.comments.posted);
     } catch (error) {
       if (error instanceof ApiError && error.code === "turnstile_failed") {
@@ -249,6 +258,43 @@ export function CommentsSection({ portId }: { portId: string }) {
           <label htmlFor="opg-comment" className="sr-only">
             {t.community.comments.placeholder}
           </label>
+          <div
+            role="group"
+            aria-label={t.community.comments.reviewLabel}
+            className="flex flex-wrap items-center gap-2"
+          >
+            <span className="text-xs font-medium text-muted">
+              {t.community.comments.reviewLabel}
+            </span>
+            <button
+              type="button"
+              aria-pressed={sentiment === "positive"}
+              onClick={() => setSentiment(sentiment === "positive" ? null : "positive")}
+              className={cn(
+                "inline-flex items-center gap-1.5 rounded-md border px-2.5 py-1.5 text-xs transition-colors",
+                sentiment === "positive"
+                  ? "border-emerald-500/50 bg-emerald-500/10 text-emerald-500"
+                  : "border-border text-muted hover:bg-surface-2",
+              )}
+            >
+              <ThumbsUp className="size-3.5" aria-hidden="true" />
+              {t.community.comments.reviewPositive}
+            </button>
+            <button
+              type="button"
+              aria-pressed={sentiment === "negative"}
+              onClick={() => setSentiment(sentiment === "negative" ? null : "negative")}
+              className={cn(
+                "inline-flex items-center gap-1.5 rounded-md border px-2.5 py-1.5 text-xs transition-colors",
+                sentiment === "negative"
+                  ? "border-rose-500/50 bg-rose-500/10 text-rose-500"
+                  : "border-border text-muted hover:bg-surface-2",
+              )}
+            >
+              <ThumbsDown className="size-3.5" aria-hidden="true" />
+              {t.community.comments.reviewNegative}
+            </button>
+          </div>
           <textarea
             id="opg-comment"
             value={body}
@@ -337,6 +383,24 @@ export function CommentsSection({ portId }: { portId: string }) {
                       <time dateTime={item.createdAt} className="text-xs text-muted">
                         {formatWhen(item.createdAt, locale)}
                       </time>
+                      {item.sentiment && (
+                        <span
+                          className={
+                            item.sentiment === "positive"
+                              ? "inline-flex items-center gap-1 rounded-full bg-emerald-500/10 px-2 py-0.5 text-[10px] font-medium text-emerald-500"
+                              : "inline-flex items-center gap-1 rounded-full bg-rose-500/10 px-2 py-0.5 text-[10px] font-medium text-rose-500"
+                          }
+                        >
+                          {item.sentiment === "positive" ? (
+                            <ThumbsUp className="size-3" aria-hidden="true" />
+                          ) : (
+                            <ThumbsDown className="size-3" aria-hidden="true" />
+                          )}
+                          {item.sentiment === "positive"
+                            ? t.community.comments.reviewBadgePositive
+                            : t.community.comments.reviewBadgeNegative}
+                        </span>
+                      )}
                     </div>
                     <p className="mt-1 whitespace-pre-wrap break-words text-sm leading-relaxed text-foreground">
                       {item.body}

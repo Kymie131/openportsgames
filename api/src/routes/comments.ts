@@ -71,6 +71,8 @@ comments.get("/:portId", optionalUser(), async (c) => {
     .select({
       id: schema.comment.id,
       body: schema.comment.body,
+      status: schema.comment.status,
+      sentiment: schema.comment.sentiment,
       createdAt: schema.comment.createdAt,
       userId: schema.comment.userId,
       parentId: schema.comment.parentId,
@@ -92,6 +94,7 @@ comments.get("/:portId", optionalUser(), async (c) => {
     body: row.body,
     createdAt: row.createdAt.toISOString(),
     parentId: row.parentId ?? null,
+    sentiment: row.sentiment ?? null,
     author: toPublicUser({
       id: row.authorId,
       name: row.authorName,
@@ -153,6 +156,7 @@ comments.post(
       parentId,
       body: parsed.data.body,
       status: "visible",
+      sentiment: parentId ? null : (parsed.data.sentiment ?? null),
       createdAt: now,
     });
 
@@ -162,6 +166,7 @@ comments.post(
         body: parsed.data.body,
         createdAt: now.toISOString(),
         parentId,
+        sentiment: parentId ? null : (parsed.data.sentiment ?? null),
         author: toPublicUser(user),
         mine: true,
       },

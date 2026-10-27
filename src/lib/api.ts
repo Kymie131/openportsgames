@@ -25,11 +25,22 @@ export type RatingStats = {
   mine: number | null;
 };
 
+export type ReviewSentiment = "positive" | "negative";
+
+export type ReviewSummary = {
+  positive: number;
+  negative: number;
+  total: number;
+  percent: number | null;
+  mine: ReviewSentiment | null;
+};
+
 export type CommentItem = {
   id: string;
   body: string;
   createdAt: string;
   parentId: string | null;
+  sentiment: ReviewSentiment | null;
   author: PublicUser;
   mine: boolean;
 };

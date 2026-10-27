@@ -68,6 +68,21 @@ describe("createCommentSchema", () => {
       createCommentSchema.safeParse({ body: "hi", turnstileToken: "tok" }).success,
     ).toBe(true);
   });
+
+  it("accepts an optional review sentiment", () => {
+    expect(
+      createCommentSchema.safeParse({ body: "hi", turnstileToken: "tok", sentiment: "positive" })
+        .success,
+    ).toBe(true);
+    expect(
+      createCommentSchema.safeParse({ body: "hi", turnstileToken: "tok", sentiment: "negative" })
+        .success,
+    ).toBe(true);
+    expect(
+      createCommentSchema.safeParse({ body: "hi", turnstileToken: "tok", sentiment: "mixed" })
+        .success,
+    ).toBe(false);
+  });
 });
 
 describe("reportReasonSchema", () => {
