@@ -10,8 +10,10 @@ import {
   LogOut,
   MessageCircle,
   Pencil,
+  ShieldCheck,
   Trash2,
 } from "lucide-react";
+import { LocalizedLink as Link } from "@/components/i18n/localized-link";
 import { authClient, useSessionUser } from "@/lib/auth-client";
 import { apiFetch, getAuthConfig } from "@/lib/api";
 import { useT } from "@/lib/i18n/use-i18n";
@@ -54,6 +56,7 @@ export function LoginButton({ className }: { className?: string }) {
   const [nicknameSaving, setNicknameSaving] = useState(false);
   const [nicknameError, setNicknameError] = useState<string | null>(null);
   const [enabled, setEnabled] = useState<Record<Provider, boolean> | null>(null);
+  const [roleState, setRoleState] = useState<{ id: string; role: string } | null>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -69,6 +72,22 @@ export function LoginButton({ className }: { className?: string }) {
     };
   }, []);
 
+  useEffect(() => {
+    if (!user) return;
+    let cancelled = false;
+    apiFetch<{ role: string }>("/me")
+      .then((me) => {
+        if (!cancelled) setRoleState({ id: user.id, role: me.role });
+      })
+      .catch(() => {
+        /* keep the menu without the admin link */
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [user]);
+
+  const role = user && roleState?.id === user.id ? roleState.role : null;
   const providers = PROVIDERS.filter((provider) => !enabled || enabled[provider.id]);
 
   const triggerClass = cn(
@@ -196,6 +215,17 @@ export function LoginButton({ className }: { className?: string }) {
                 <p className="truncate px-2.5 py-1.5 text-xs text-muted">
                   {t.community.login.signedInAs(user.name)}
                 </p>
+                {role === "admin" && (
+                  <DropdownMenu.Item asChild className="outline-none">
+                    <Link
+                      href="/admin"
+                      className="flex cursor-pointer items-center gap-2 rounded-sm px-2.5 py-1.5 text-sm text-foreground outline-none transition-colors hover:bg-surface-2 focus:bg-surface-2"
+                    >
+                      <ShieldCheck className="size-4" aria-hidden="true" />
+                      {t.community.login.moderation}
+                    </Link>
+                  </DropdownMenu.Item>
+                )}
                 <DropdownMenu.Item
                   onSelect={(event) => {
                     event.preventDefault();
@@ -334,3 +364,5 @@ export function LoginButton({ className }: { className?: string }) {
     </>
   );
 }
+
+

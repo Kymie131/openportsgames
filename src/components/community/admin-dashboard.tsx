@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import { useParams } from "next/navigation";
-import { Eye, EyeOff, LoaderCircle, ShieldCheck, Trash2 } from "lucide-react";
+import { Eye, EyeOff, LoaderCircle, ShieldCheck, Trash2, Users } from "lucide-react";
 
 import { LoginButton } from "@/components/community/login-button";
 import { Container } from "@/components/layout/container";
@@ -33,6 +33,16 @@ type MissingCommentItem = {
   post: { id: string; title: string; status: "open" | "done" | "hidden" };
 };
 
+type UserItem = {
+  id: string;
+  name: string;
+  image: string | null;
+  role: "user" | "admin";
+  createdAt: string;
+  ratings: number;
+  comments: number;
+};
+
 type Page<T> = { items: T[]; nextCursor: string | null };
 
 const STRINGS = {
@@ -57,13 +67,23 @@ const STRINGS = {
     error: "The moderation data could not be loaded.",
     retry: "Retry",
     post: "Proposal",
+    users: "Users",
+    emptyUsers: "No registered users.",
+    adminRole: "Admin",
+    userRole: "User",
+    makeAdmin: "Make admin",
+    removeAdmin: "Remove admin",
+    joined: "Joined",
+    ratingsCount: (count: number) => `${count} ratings`,
+    commentsCount: (count: number) => `${count} comments`,
+    you: "You",
   },
   es: {
-    title: "Moderación",
-    subtitle: "Revisa denuncias y comentarios del tablón de ports faltantes.",
+    title: "ModeraciÃ³n",
+    subtitle: "Revisa denuncias y comentarios del tablÃ³n de ports faltantes.",
     reports: "Denuncias",
-    board: "Comentarios del tablón",
-    loadMore: "Cargar más",
+    board: "Comentarios del tablÃ³n",
+    loadMore: "Cargar mÃ¡s",
     emptyReports: "No hay denuncias pendientes.",
     emptyComments: "No hay comentarios que moderar.",
     hide: "Ocultar",
@@ -74,11 +94,21 @@ const STRINGS = {
     visible: "Visible",
     by: "por",
     reportReason: "Motivo",
-    anonymous: "Inicia sesión con una cuenta admin para moderar.",
+    anonymous: "Inicia sesiÃ³n con una cuenta admin para moderar.",
     forbidden: "Esta cuenta no tiene el rol de administrador.",
-    error: "No se pudieron cargar los datos de moderación.",
+    error: "No se pudieron cargar los datos de moderaciÃ³n.",
     retry: "Reintentar",
     post: "Propuesta",
+    users: "Usuarios",
+    emptyUsers: "No hay usuarios registrados.",
+    adminRole: "Admin",
+    userRole: "Usuario",
+    makeAdmin: "Hacer admin",
+    removeAdmin: "Quitar admin",
+    joined: "Registro",
+    ratingsCount: (count: number) => `${count} valoraciones`,
+    commentsCount: (count: number) => `${count} comentarios`,
+    you: "Tú",
   },
 } as const;
 
@@ -119,11 +149,14 @@ export function AdminDashboard() {
   const [state, setState] = useState<"loading" | "anon" | "forbidden" | "ready" | "error">(
     "loading",
   );
-  const [tab, setTab] = useState<"reports" | "comments">("reports");
+  const [tab, setTab] = useState<"reports" | "comments" | "users">("reports");
+  const [meId, setMeId] = useState<string | null>(null);
   const [reports, setReports] = useState<ReportItem[]>([]);
   const [reportsCursor, setReportsCursor] = useState<string | null>(null);
   const [comments, setComments] = useState<MissingCommentItem[]>([]);
   const [commentsCursor, setCommentsCursor] = useState<string | null>(null);
+  const [users, setUsers] = useState<UserItem[]>([]);
+  const [usersCursor, setUsersCursor] = useState<string | null>(null);
   const [loadingMore, setLoadingMore] = useState(false);
   const [busy, setBusy] = useState<string | null>(null);
   const [actionError, setActionError] = useState(false);
@@ -133,6 +166,7 @@ export function AdminDashboard() {
     apiFetch<Me>("/me")
       .then((me) => {
         if (cancelled) return;
+        setMeId(me.id);
         setState(me.role === "admin" ? "ready" : "forbidden");
       })
       .catch((error: unknown) => {
@@ -157,6 +191,11 @@ export function AdminDashboard() {
     return apiFetch<Page<MissingCommentItem>>(`/admin/missing-comments${query}`);
   }, []);
 
+  const loadUsers = useCallback(async (cursor?: string) => {
+    const query = cursor ? `?cursor=${encodeURIComponent(cursor)}` : "";
+    return apiFetch<Page<UserItem>>(`/admin/users${query}`);
+  }, []);
+
   useEffect(() => {
     if (state !== "ready") return;
     let cancelled = false;
@@ -167,18 +206,24 @@ export function AdminDashboard() {
             setReports(page.items);
             setReportsCursor(page.nextCursor);
           })
-        : loadComments().then((page) => {
-            if (cancelled) return;
-            setComments(page.items);
-            setCommentsCursor(page.nextCursor);
-          });
+        : tab === "comments"
+          ? loadComments().then((page) => {
+              if (cancelled) return;
+              setComments(page.items);
+              setCommentsCursor(page.nextCursor);
+            })
+          : loadUsers().then((page) => {
+              if (cancelled) return;
+              setUsers(page.items);
+              setUsersCursor(page.nextCursor);
+            });
     load.catch(() => {
       if (!cancelled) setState("error");
     });
     return () => {
       cancelled = true;
     };
-  }, [state, tab, loadReports, loadComments]);
+  }, [state, tab, loadReports, loadComments, loadUsers]);
 
   async function loadMore() {
     setLoadingMore(true);
@@ -192,6 +237,11 @@ export function AdminDashboard() {
         const page = await loadComments(commentsCursor);
         setComments((current) => [...current, ...page.items]);
         setCommentsCursor(page.nextCursor);
+      }
+      if (tab === "users" && usersCursor) {
+        const page = await loadUsers(usersCursor);
+        setUsers((current) => [...current, ...page.items]);
+        setUsersCursor(page.nextCursor);
       }
     } catch {
       setActionError(true);
@@ -278,6 +328,25 @@ export function AdminDashboard() {
     }
   }
 
+  async function toggleRole(item: UserItem) {
+    const role = item.role === "admin" ? "user" : "admin";
+    setBusy(item.id);
+    setActionError(false);
+    try {
+      await apiFetch(`/admin/users/${item.id}/role`, {
+        method: "PATCH",
+        body: JSON.stringify({ role }),
+      });
+      setUsers((current) =>
+        current.map((row) => (row.id === item.id ? { ...row, role } : row)),
+      );
+    } catch {
+      setActionError(true);
+    } finally {
+      setBusy(null);
+    }
+  }
+
   return (
     <section className="py-8">
       <Container className="max-w-3xl">
@@ -292,7 +361,7 @@ export function AdminDashboard() {
         {state === "loading" && (
           <p className="mt-8 inline-flex items-center gap-2 text-sm text-muted">
             <LoaderCircle className="size-4 animate-spin" aria-hidden="true" />
-            {t.title}⬦
+            {t.title}â¬¦
           </p>
         )}
 
@@ -321,7 +390,7 @@ export function AdminDashboard() {
         {state === "ready" && (
           <div className="mt-6 flex flex-col gap-5">
             <div className="flex gap-2" role="tablist" aria-label={t.title}>
-              {(["reports", "comments"] as const).map((value) => (
+              {(["reports", "comments", "users"] as const).map((value) => (
                 <button
                   key={value}
                   type="button"
@@ -334,7 +403,7 @@ export function AdminDashboard() {
                       : "rounded-md border border-border px-3 py-2 text-sm text-muted hover:bg-surface-2"
                   }
                 >
-                  {value === "reports" ? t.reports : t.board}
+                  {value === "reports" ? t.reports : value === "comments" ? t.board : t.users}
                 </button>
               ))}
             </div>
@@ -354,14 +423,14 @@ export function AdminDashboard() {
                       <span>
                         {t.reportReason}: {item.reason}
                       </span>
-                      <span>·</span>
+                      <span>Â·</span>
                       <span>{shortDate(item.createdAt, lang)}</span>
                     </div>
                     <p className="whitespace-pre-wrap text-sm text-foreground">
                       {item.comment.body}
                     </p>
                     <p className="text-xs text-muted">
-                      {item.comment.author.name} · {t.by} {item.reporter.name}
+                      {item.comment.author.name} Â· {t.by} {item.reporter.name}
                     </p>
                     <div className="flex flex-wrap gap-2">
                       <button
@@ -418,7 +487,7 @@ export function AdminDashboard() {
                       <span>
                         {t.post}: {item.post.title}
                       </span>
-                      <span>·</span>
+                      <span>Â·</span>
                       <span>{shortDate(item.createdAt, lang)}</span>
                     </div>
                     <p className="whitespace-pre-wrap text-sm text-foreground">{item.body}</p>
@@ -452,8 +521,55 @@ export function AdminDashboard() {
               </div>
             )}
 
+            {tab === "users" && (
+              <div className="flex flex-col gap-3">
+                {users.length === 0 && <p className="text-sm text-muted">{t.emptyUsers}</p>}
+                {users.map((item) => (
+                  <article
+                    key={item.id}
+                    className="flex flex-col gap-3 rounded-xl border border-border bg-surface p-4"
+                  >
+                    <div className="flex flex-wrap items-center gap-2 text-xs text-muted">
+                      <span
+                        className={
+                          item.role === "admin"
+                            ? "rounded-full bg-accent px-2 py-0.5 text-xs font-medium text-accent-contrast"
+                            : "rounded-full border border-border px-2 py-0.5 text-xs font-medium text-muted"
+                        }
+                      >
+                        {item.role === "admin" ? t.adminRole : t.userRole}
+                      </span>
+                      {item.id === meId && <span>{t.you}</span>}
+                      <span>{shortDate(item.createdAt, lang)}</span>
+                    </div>
+                    <div className="flex flex-wrap items-center justify-between gap-2">
+                      <div className="flex items-center gap-2">
+                        <Users className="size-4 text-muted" aria-hidden="true" />
+                        <span className="text-sm font-medium">{item.name}</span>
+                      </div>
+                      <div className="flex flex-wrap items-center gap-3 text-xs text-muted">
+                        <span>{t.ratingsCount(item.ratings)}</span>
+                        <span>{t.commentsCount(item.comments)}</span>
+                        {item.id !== meId && (
+                          <button
+                            type="button"
+                            disabled={busy === item.id}
+                            onClick={() => toggleRole(item)}
+                            className="rounded-md border border-border px-2.5 py-1.5 text-xs hover:bg-surface-2 disabled:opacity-50"
+                          >
+                            {item.role === "admin" ? t.removeAdmin : t.makeAdmin}
+                          </button>
+                        )}
+                      </div>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            )}
+
             {((tab === "reports" && reportsCursor) ||
-              (tab === "comments" && commentsCursor)) && (
+              (tab === "comments" && commentsCursor) ||
+              (tab === "users" && usersCursor)) && (
               <button
                 type="button"
                 onClick={loadMore}
@@ -469,4 +585,6 @@ export function AdminDashboard() {
     </section>
   );
 }
+
+
 

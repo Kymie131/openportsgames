@@ -30,7 +30,8 @@ execFileSync(
     "--command",
     sql,
   ],
-  { cwd: API_DIR, stdio: "inherit" },
+  { cwd: API_DIR, stdio: "inherit", shell: process.platform === "win32" },
 );
 
 console.log(`Admin role requested for ${email}.`);
+
