@@ -24,8 +24,9 @@ Worker de Cloudflare + D1 para cuentas, comentarios, respuestas, corazones y el 
 | `GET` | `/ratings/:portId` | Media y número de corazones |
 | `PUT` | `/ratings/:portId` | Puntúa con `{ "hearts": 1..5 }` |
 | `DELETE` | `/ratings/:portId` | Quita tu puntuación |
-| `GET` | `/comments/:portId` | Comentarios paginados |
-| `POST` | `/comments/:portId` | Comenta o responde (`parentId`) |
+| `GET` | `/comments/:portId` | Comentarios paginados (incluye `sentiment` si es reseña) |
+| `POST` | `/comments/:portId` | Comenta o responde (`parentId`); acepta `sentiment: positive\|negative` |
+| `GET` | `/reviews/:portId` | Resumen de reseñas: positivas, negativas, total y porcentaje |
 | `DELETE` | `/comments/:id` | Borra tu comentario o sus respuestas |
 | `POST` | `/comments/:id/report` | Denuncia un comentario |
 | `GET` | `/missing` | Ports faltantes (`status=open|done|all`) |
