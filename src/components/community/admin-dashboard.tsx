@@ -104,14 +104,14 @@ const STRINGS = {
     profileMissing: "Missing-port proposals",
     profileEmpty: "Nothing yet.",
     close: "Close",
-    loadingProfile: "Loading profileâ€¦",
+    loadingProfile: "Loading profile…",
   },
   es: {
-    title: "ModeraciÃ³n",
-    subtitle: "Revisa denuncias y comentarios del tablÃ³n de ports faltantes.",
+    title: "Moderación",
+    subtitle: "Revisa denuncias y comentarios del tablón de ports faltantes.",
     reports: "Denuncias",
-    board: "Comentarios del tablÃ³n",
-    loadMore: "Cargar mÃ¡s",
+    board: "Comentarios del tablón",
+    loadMore: "Cargar más",
     emptyReports: "No hay denuncias pendientes.",
     emptyComments: "No hay comentarios que moderar.",
     hide: "Ocultar",
@@ -122,9 +122,9 @@ const STRINGS = {
     visible: "Visible",
     by: "por",
     reportReason: "Motivo",
-    anonymous: "Inicia sesiÃ³n con una cuenta admin para moderar.",
+    anonymous: "Inicia sesión con una cuenta admin para moderar.",
     forbidden: "Esta cuenta no tiene el rol de administrador.",
-    error: "No se pudieron cargar los datos de moderaciÃ³n.",
+    error: "No se pudieron cargar los datos de moderación.",
     retry: "Reintentar",
     post: "Propuesta",
     users: "Usuarios",
@@ -136,21 +136,21 @@ const STRINGS = {
     joined: "Registro",
     ratingsCount: (count: number) => `${count} valoraciones`,
     commentsCount: (count: number) => `${count} comentarios`,
-    you: "TÃº",
+    you: "Tú",
     allRoles: "Todos los roles",
     filterRole: "Rol",
     sortBy: "Ordenar por",
-    sortNewest: "MÃ¡s recientes",
-    sortRatings: "MÃ¡s valoraciones",
-    sortComments: "MÃ¡s comentarios",
+    sortNewest: "Más recientes",
+    sortRatings: "Más valoraciones",
+    sortComments: "Más comentarios",
     sortName: "Nombre",
     profile: "Perfil",
     profileRatings: "Valoraciones",
     profileComments: "Comentarios",
     profileMissing: "Propuestas de ports",
-    profileEmpty: "TodavÃ­a nada.",
+    profileEmpty: "Todavía nada.",
     close: "Cerrar",
-    loadingProfile: "Cargando perfilâ€¦",
+    loadingProfile: "Cargando perfil…",
   },
 } as const;
 
@@ -429,7 +429,7 @@ export function AdminDashboard() {
         {state === "loading" && (
           <p className="mt-8 inline-flex items-center gap-2 text-sm text-muted">
             <LoaderCircle className="size-4 animate-spin" aria-hidden="true" />
-            {t.title}â¬¦
+            {t.title}⬦
           </p>
         )}
 
@@ -491,14 +491,14 @@ export function AdminDashboard() {
                       <span>
                         {t.reportReason}: {item.reason}
                       </span>
-                      <span>Â·</span>
+                      <span>·</span>
                       <span>{shortDate(item.createdAt, lang)}</span>
                     </div>
                     <p className="whitespace-pre-wrap text-sm text-foreground">
                       {item.comment.body}
                     </p>
                     <p className="text-xs text-muted">
-                      {item.comment.author.name} Â· {t.by} {item.reporter.name}
+                      {item.comment.author.name} · {t.by} {item.reporter.name}
                     </p>
                     <div className="flex flex-wrap gap-2">
                       <button
@@ -555,7 +555,7 @@ export function AdminDashboard() {
                       <span>
                         {t.post}: {item.post.title}
                       </span>
-                      <span>Â·</span>
+                      <span>·</span>
                       <span>{shortDate(item.createdAt, lang)}</span>
                     </div>
                     <p className="whitespace-pre-wrap text-sm text-foreground">{item.body}</p>
@@ -732,12 +732,12 @@ export function AdminDashboard() {
                   <div className="flex flex-col">
                     <span className="font-medium">{profile.user.name}</span>
                     <span className="text-xs text-muted">
-                      {profile.user.role === "admin" ? t.adminRole : t.userRole} Â·{" "}
+                      {profile.user.role === "admin" ? t.adminRole : t.userRole} ·{" "}
                       {shortDate(profile.user.createdAt, lang)}
                     </span>
                   </div>
                   <div className="ml-auto text-xs text-muted">
-                    <span>{t.ratingsCount(profile.user.ratings)}</span> Â·{" "}
+                    <span>{t.ratingsCount(profile.user.ratings)}</span> ·{" "}
                     <span>{t.commentsCount(profile.user.comments)}</span>
                   </div>
                 </div>
@@ -756,7 +756,7 @@ export function AdminDashboard() {
                           >
                             {rating.portId}
                           </a>{" "}
-                          <span className="text-muted">Â· {rating.stars}/5</span>
+                          <span className="text-muted">· {rating.stars}/5</span>
                         </li>
                       ))}
                     </ul>
@@ -794,8 +794,8 @@ export function AdminDashboard() {
                                   : t.profileComments}
                               </span>
                             )}
-                            {comment.status === "hidden" && <span>Â· {t.hidden}</span>}
-                            <span>Â· {shortDate(comment.createdAt, lang)}</span>
+                            {comment.status === "hidden" && <span>· {t.hidden}</span>}
+                            <span>· {shortDate(comment.createdAt, lang)}</span>
                           </div>
                           <p className="whitespace-pre-wrap break-words">{comment.body}</p>
                         </li>
@@ -813,7 +813,7 @@ export function AdminDashboard() {
                       {profile.missing.map((item) => (
                         <li key={item.id}>
                           {item.title}{" "}
-                          <span className="text-muted">Â· {item.status}</span>
+                          <span className="text-muted">· {item.status}</span>
                         </li>
                       ))}
                     </ul>
