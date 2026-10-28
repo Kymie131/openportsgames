@@ -1,11 +1,19 @@
 import { Hono } from "hono";
 import { drizzle } from "drizzle-orm/d1";
 import { alias } from "drizzle-orm/sqlite-core";
-import { and, desc, eq, lt, or, sql, type SQL } from "drizzle-orm";
+import { and, desc, eq, gte, like, lte, lt, or, sql, type SQL } from "drizzle-orm";
 import { z } from "zod";
 
 import * as schema from "../db/schema";
-import { decodeCursor, encodeCursor, parseLimit, updateCommentStatusSchema } from "../lib/comments";
+import { decodeCursor, encodeCursor, parseLimit } from "../lib/comments";
+import {
+  auditFilterSchema,
+  endOfDay,
+  recordModeration,
+  reportFilterSchema,
+  updateCommentModerationSchema,
+  updateReportSchema,
+} from "../lib/moderation";
 import { requireAdmin, toPublicUser, type SessionEnv } from "../middleware/session";
 import { rateLimit } from "../middleware/ratelimit";
 
@@ -15,7 +23,9 @@ admin.use("*", requireAdmin());
 
 const commentAuthor = alias(schema.user, "comment_author");
 const reporter = alias(schema.user, "reporter");
+const resolver = alias(schema.user, "report_resolver");
 const missingCommentAuthor = alias(schema.user, "missing_comment_author");
+const auditActor = alias(schema.user, "moderation_actor");
 
 const updateRoleSchema = z.object({ role: z.enum(["user", "admin"]) });
 
@@ -28,6 +38,14 @@ async function readJson(c: { req: { json: () => Promise<unknown> } }): Promise<u
 }
 
 admin.get("/reports", async (c) => {
+  const parsedFilter = reportFilterSchema.safeParse({
+    status: c.req.query("status") ?? undefined,
+    reason: c.req.query("reason") ?? undefined,
+    from: c.req.query("from") ?? undefined,
+    to: c.req.query("to") ?? undefined,
+  });
+  if (!parsedFilter.success) return c.json({ error: "invalid_filters" }, 400);
+
   const rawCursor = c.req.query("cursor");
   const cursor = rawCursor === undefined ? null : decodeCursor(rawCursor);
   if (rawCursor !== undefined && !cursor) {
@@ -36,8 +54,21 @@ admin.get("/reports", async (c) => {
 
   const limit = parseLimit(c.req.query("limit"));
   const db = drizzle(c.env.DB, { schema });
+  const filter = parsedFilter.data;
 
   const conditions: SQL[] = [];
+  if (filter.status !== "all") {
+    conditions.push(eq(schema.report.status, filter.status));
+  }
+  if (filter.reason) {
+    conditions.push(like(schema.report.reason, `%${filter.reason}%`));
+  }
+  if (filter.from) {
+    conditions.push(gte(schema.report.createdAt, filter.from));
+  }
+  if (filter.to) {
+    conditions.push(lte(schema.report.createdAt, endOfDay(filter.to)));
+  }
   if (cursor) {
     const at = new Date(cursor.createdAt);
     conditions.push(
@@ -52,6 +83,9 @@ admin.get("/reports", async (c) => {
     .select({
       id: schema.report.id,
       reason: schema.report.reason,
+      status: schema.report.status,
+      note: schema.report.note,
+      resolvedAt: schema.report.resolvedAt,
       createdAt: schema.report.createdAt,
       commentId: schema.comment.id,
       commentBody: schema.comment.body,
@@ -62,11 +96,15 @@ admin.get("/reports", async (c) => {
       reporterId: reporter.id,
       reporterName: reporter.name,
       reporterImage: reporter.image,
+      resolverId: resolver.id,
+      resolverName: resolver.name,
+      resolverImage: resolver.image,
     })
     .from(schema.report)
     .innerJoin(schema.comment, eq(schema.report.commentId, schema.comment.id))
     .innerJoin(commentAuthor, eq(schema.comment.userId, commentAuthor.id))
     .innerJoin(reporter, eq(schema.report.userId, reporter.id))
+    .leftJoin(resolver, eq(schema.report.resolvedBy, resolver.id))
     .where(conditions.length ? and(...conditions) : undefined)
     .orderBy(desc(schema.report.createdAt), desc(schema.report.id))
     .limit(limit + 1);
@@ -77,6 +115,9 @@ admin.get("/reports", async (c) => {
   const items = page.map((row) => ({
     id: row.id,
     reason: row.reason,
+    status: row.status,
+    note: row.note ?? null,
+    resolvedAt: row.resolvedAt ? row.resolvedAt.toISOString() : null,
     createdAt: row.createdAt.toISOString(),
     comment: {
       id: row.commentId,
@@ -93,6 +134,13 @@ admin.get("/reports", async (c) => {
       name: row.reporterName,
       image: row.reporterImage,
     }),
+    resolvedBy: row.resolverId
+      ? toPublicUser({
+          id: row.resolverId,
+          name: row.resolverName ?? "",
+          image: row.resolverImage,
+        })
+      : null,
   }));
 
   const last = page.at(-1);
@@ -101,18 +149,94 @@ admin.get("/reports", async (c) => {
   return c.json({ items, nextCursor });
 });
 
+admin.patch(
+  "/reports/:id",
+  rateLimit({ limit: 60, windowMs: 10 * 60 * 1000, scope: "admin-reports" }),
+  async (c) => {
+    const parsed = updateReportSchema.safeParse(await readJson(c));
+    if (!parsed.success) return c.json({ error: "invalid_body" }, 400);
+
+    const db = drizzle(c.env.DB, { schema });
+    const existingRows = await db
+      .select({
+        id: schema.report.id,
+        note: schema.report.note,
+      })
+      .from(schema.report)
+      .where(eq(schema.report.id, c.req.param("id")))
+      .limit(1);
+    const existing = existingRows[0];
+    if (!existing) return c.json({ error: "not_found" }, 404);
+
+    const user = c.get("user");
+    const now = new Date();
+    const note = parsed.data.note !== undefined ? parsed.data.note : existing.note;
+    const resolved = parsed.data.status !== "open";
+
+    const rows = await db
+      .update(schema.report)
+      .set({
+        status: parsed.data.status,
+        note,
+        resolvedBy: resolved ? user.id : null,
+        resolvedAt: resolved ? now : null,
+      })
+      .where(eq(schema.report.id, existing.id))
+      .returning({ id: schema.report.id, status: schema.report.status });
+
+    const updated = rows[0];
+    if (!updated) return c.json({ error: "not_found" }, 404);
+
+    const action =
+      parsed.data.status === "dismissed"
+        ? "report.dismiss"
+        : parsed.data.status === "resolved"
+          ? "report.resolve"
+          : "report.reopen";
+
+    await recordModeration(db, {
+      actorId: user.id,
+      action,
+      targetType: "report",
+      targetId: updated.id,
+      note,
+      createdAt: now,
+    });
+
+    return c.json({
+      id: updated.id,
+      status: updated.status,
+      note,
+      resolvedAt: resolved ? now.toISOString() : null,
+      resolvedBy: resolved ? toPublicUser(user) : null,
+    });
+  },
+);
+
 admin.delete(
   "/reports/:id",
   rateLimit({ limit: 60, windowMs: 10 * 60 * 1000, scope: "admin-reports" }),
   async (c) => {
     const db = drizzle(c.env.DB, { schema });
+    const user = c.get("user");
+    const now = new Date();
     const rows = await db
-      .delete(schema.report)
+      .update(schema.report)
+      .set({ status: "dismissed", resolvedBy: user.id, resolvedAt: now })
       .where(eq(schema.report.id, c.req.param("id")))
       .returning({ id: schema.report.id });
 
     if (!rows[0]) return c.json({ error: "not_found" }, 404);
-    return c.json({ ok: true });
+
+    await recordModeration(db, {
+      actorId: user.id,
+      action: "report.dismiss",
+      targetType: "report",
+      targetId: rows[0].id,
+      createdAt: now,
+    });
+
+    return c.json({ ok: true, status: "dismissed" });
   },
 );
 
@@ -293,7 +417,7 @@ admin.patch(
   "/missing-comments/:id",
   rateLimit({ limit: 60, windowMs: 10 * 60 * 1000, scope: "admin-moderation" }),
   async (c) => {
-    const parsed = updateCommentStatusSchema.safeParse(await readJson(c));
+    const parsed = updateCommentModerationSchema.safeParse(await readJson(c));
     if (!parsed.success) return c.json({ error: "invalid_body" }, 400);
 
     const db = drizzle(c.env.DB, { schema });
@@ -308,6 +432,15 @@ admin.patch(
 
     const updated = rows[0];
     if (!updated) return c.json({ error: "not_found" }, 404);
+
+    await recordModeration(db, {
+      actorId: c.get("user").id,
+      action: parsed.data.status === "hidden" ? "missing_comment.hide" : "missing_comment.show",
+      targetType: "missing_comment",
+      targetId: updated.id,
+      note: parsed.data.note,
+    });
+
     return c.json(updated);
   },
 );
@@ -316,7 +449,7 @@ admin.patch(
   "/comments/:id",
   rateLimit({ limit: 60, windowMs: 10 * 60 * 1000, scope: "admin-moderation" }),
   async (c) => {
-    const parsed = updateCommentStatusSchema.safeParse(await readJson(c));
+    const parsed = updateCommentModerationSchema.safeParse(await readJson(c));
     if (!parsed.success) return c.json({ error: "invalid_body" }, 400);
 
     const db = drizzle(c.env.DB, { schema });
@@ -328,9 +461,96 @@ admin.patch(
 
     const updated = rows[0];
     if (!updated) return c.json({ error: "not_found" }, 404);
+
+    await recordModeration(db, {
+      actorId: c.get("user").id,
+      action: parsed.data.status === "hidden" ? "comment.hide" : "comment.show",
+      targetType: "comment",
+      targetId: updated.id,
+      note: parsed.data.note,
+    });
+
     return c.json(updated);
   },
 );
+
+admin.get("/audit", async (c) => {
+  const parsedFilter = auditFilterSchema.safeParse({
+    action: c.req.query("action") ?? undefined,
+    targetType: c.req.query("targetType") ?? undefined,
+  });
+  if (!parsedFilter.success) return c.json({ error: "invalid_filters" }, 400);
+
+  const rawCursor = c.req.query("cursor");
+  const cursor = rawCursor === undefined ? null : decodeCursor(rawCursor);
+  if (rawCursor !== undefined && !cursor) {
+    return c.json({ error: "invalid_cursor" }, 400);
+  }
+
+  const limit = parseLimit(c.req.query("limit"));
+  const db = drizzle(c.env.DB, { schema });
+  const filter = parsedFilter.data;
+
+  const conditions: SQL[] = [];
+  if (filter.action) conditions.push(eq(schema.moderationLog.action, filter.action));
+  if (filter.targetType) {
+    conditions.push(eq(schema.moderationLog.targetType, filter.targetType));
+  }
+  if (cursor) {
+    const at = new Date(cursor.createdAt);
+    conditions.push(
+      or(
+        lt(schema.moderationLog.createdAt, at),
+        and(
+          eq(schema.moderationLog.createdAt, at),
+          lt(schema.moderationLog.id, cursor.id),
+        ),
+      ) as SQL,
+    );
+  }
+
+  const rows = await db
+    .select({
+      id: schema.moderationLog.id,
+      action: schema.moderationLog.action,
+      targetType: schema.moderationLog.targetType,
+      targetId: schema.moderationLog.targetId,
+      note: schema.moderationLog.note,
+      createdAt: schema.moderationLog.createdAt,
+      actorId: auditActor.id,
+      actorName: auditActor.name,
+      actorImage: auditActor.image,
+    })
+    .from(schema.moderationLog)
+    .leftJoin(auditActor, eq(schema.moderationLog.actorId, auditActor.id))
+    .where(conditions.length ? and(...conditions) : undefined)
+    .orderBy(desc(schema.moderationLog.createdAt), desc(schema.moderationLog.id))
+    .limit(limit + 1);
+
+  const hasMore = rows.length > limit;
+  const page = hasMore ? rows.slice(0, limit) : rows;
+  const last = page.at(-1);
+
+  return c.json({
+    items: page.map((row) => ({
+      id: row.id,
+      action: row.action,
+      targetType: row.targetType,
+      targetId: row.targetId,
+      note: row.note ?? null,
+      createdAt: row.createdAt.toISOString(),
+      actor: row.actorId
+        ? toPublicUser({
+            id: row.actorId,
+            name: row.actorName ?? "",
+            image: row.actorImage,
+          })
+        : null,
+    })),
+    nextCursor:
+      hasMore && last ? encodeCursor(last.createdAt.getTime(), last.id) : null,
+  });
+});
 
 admin.get("/users", async (c) => {
   const rawCursor = c.req.query("cursor");
@@ -442,6 +662,14 @@ admin.patch(
       .set({ role: parsed.data.role })
       .where(eq(schema.user.id, targetId));
 
+    await recordModeration(db, {
+      actorId: c.get("user").id,
+      action: "user.role",
+      targetType: "user",
+      targetId,
+      note: `role:${parsed.data.role}`,
+    });
+
     return c.json({ id: targetId, role: parsed.data.role });
   },
 );
@@ -450,13 +678,43 @@ admin.delete(
   "/users/:id",
   rateLimit({ limit: 30, windowMs: 10 * 60 * 1000, scope: "admin-delete" }),
   async (c) => {
+    const targetId = c.req.param("id");
+    const actor = c.get("user");
+    if (targetId === actor.id) return c.json({ error: "cannot_delete_self" }, 400);
+
     const db = drizzle(c.env.DB, { schema });
+    const targetRows = await db
+      .select({ id: schema.user.id, role: schema.user.role })
+      .from(schema.user)
+      .where(eq(schema.user.id, targetId))
+      .limit(1);
+    const target = targetRows[0];
+    if (!target) return c.json({ error: "not_found" }, 404);
+
+    if (target.role === "admin") {
+      const admins = await db
+        .select({ count: sql<number>`count(*)` })
+        .from(schema.user)
+        .where(eq(schema.user.role, "admin"));
+      if (Number(admins[0]?.count ?? 0) <= 1) {
+        return c.json({ error: "last_admin" }, 409);
+      }
+    }
+
     const rows = await db
       .delete(schema.user)
-      .where(eq(schema.user.id, c.req.param("id")))
+      .where(eq(schema.user.id, targetId))
       .returning({ id: schema.user.id });
 
     if (!rows[0]) return c.json({ error: "not_found" }, 404);
+
+    await recordModeration(db, {
+      actorId: actor.id,
+      action: "user.delete",
+      targetType: "user",
+      targetId,
+    });
+
     return c.json({ ok: true });
   },
 );

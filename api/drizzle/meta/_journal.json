@@ -36,6 +36,13 @@
       "when": 1793123219004,
       "tag": "0004_swift_mandarin",
       "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1793163261558,
+      "tag": "0005_chief_payback",
+      "breakpoints": true
     }
   ]
 }

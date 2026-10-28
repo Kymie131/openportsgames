@@ -12,6 +12,7 @@ import {
 } from "../lib/comments";
 import { isValidPortId } from "../lib/ports";
 import { portIdSchema } from "../lib/ratings";
+import { recordModeration } from "../lib/moderation";
 import { verifyTurnstile } from "../lib/turnstile";
 import { rateLimit } from "../middleware/ratelimit";
 import { optionalUser, requireUser, toPublicUser, type SessionEnv } from "../middleware/session";
@@ -198,6 +199,16 @@ comments.delete(
 
     await db.delete(schema.comment).where(eq(schema.comment.parentId, id));
     await db.delete(schema.comment).where(eq(schema.comment.id, id));
+
+    if (user.role === "admin") {
+      await recordModeration(db, {
+        actorId: user.id,
+        action: "comment.delete",
+        targetType: "comment",
+        targetId: id,
+      });
+    }
+
     return c.json({ ok: true });
   },
 );

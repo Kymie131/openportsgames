@@ -27,6 +27,24 @@ describe("admin moderation routes", () => {
     expect(res.status).toBe(401);
   });
 
+  it("rejects an anonymous report resolution", async () => {
+    const res = await app.request(
+      "/admin/reports/123e4567-e89b-12d3-a456-426614174000",
+      {
+        method: "PATCH",
+        headers: { ...origin, "content-type": "application/json" },
+        body: JSON.stringify({ status: "resolved" }),
+      },
+      env,
+    );
+    expect(res.status).toBe(401);
+  });
+
+  it("rejects an anonymous audit log list", async () => {
+    const res = await app.request("/admin/audit", { headers: origin }, env);
+    expect(res.status).toBe(401);
+  });
+
   it("rejects an anonymous missing-comment list", async () => {
     const res = await app.request("/admin/missing-comments", { headers: origin }, env);
     expect(res.status).toBe(401);

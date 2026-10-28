@@ -35,9 +35,11 @@ Worker de Cloudflare + D1 para cuentas, comentarios, respuestas, corazones y el 
 | `POST` | `/missing/:id/comments` | Comenta una propuesta |
 | `DELETE` | `/missing/:id/comments/:commentId` | Borra tu comentario |
 | `PATCH` | `/missing/:id/status` | Admin: marca `open`, `done` o `hidden` |
-| `GET` | `/admin/reports` | Admin: denuncias de comentarios, paginadas |
-| `DELETE` | `/admin/reports/:id` | Admin: descarta una denuncia |
-| `GET` | `/admin/missing-comments` | Admin: comentarios del tablón (`status=visible|hidden|all`) |
+| `GET` | `/admin/reports` | Admin: denuncias paginadas (`status=open\|dismissed\|resolved\|all`, `reason`, `from`, `to`) |
+| `PATCH` | `/admin/reports/:id` | Admin: resuelve, descarta o reabre una denuncia (`status`, `note` opcional) |
+| `DELETE` | `/admin/reports/:id` | Admin: atajo para descartar una denuncia |
+| `GET` | `/admin/audit` | Admin: registro de acciones de moderación, paginado |
+| `GET` | `/admin/missing-comments` | Admin: comentarios del tablón (`status=visible\|hidden\|all`) |
 | `PATCH` | `/admin/missing-comments/:id` | Admin: oculta o vuelve a mostrar un comentario del tablón |
 | `PATCH` | `/admin/comments/:id` | Admin: oculta o vuelve a mostrar un comentario |
 | `DELETE` | `/admin/users/:id` | Admin: borra una cuenta y sus datos |
@@ -130,7 +132,7 @@ cd api
 npm run promote-admin -- tu@email.com
 ```
 
-Después, abre `https://openportsgames.com/es/admin` (o `/en/admin`) con esa cuenta para moderar denuncias y comentarios del tablón desde la web. La página también está disponible por API: `GET /admin/reports`, `PATCH /admin/comments/:id` (`{"status":"hidden"}` o `{"status":"visible"}`) y `DELETE /admin/users/:id` requieren la cookie de una cuenta con rol `admin`. Para moderar el tablón usa `GET /admin/missing-comments` y `PATCH /admin/missing-comments/:id`; para cerrar una denuncia, `DELETE /admin/reports/:id`. Las propuestas ocultas dejan de mostrar y aceptar comentarios. Si los llamas con `curl`, añade `-H "Origin: https://openportsgames.com"`: el Worker rechaza toda escritura sin un origen permitido.
+Después, abre `https://openportsgames.com/es/admin` (o `/en/admin`) con esa cuenta para moderar denuncias y comentarios del tablón desde la web. La página también está disponible por API: `GET /admin/reports` (filtra por estado, motivo y fechas), `PATCH /admin/reports/:id` (`{"status":"dismissed|resolved|open","note":"..."}`), `PATCH /admin/comments/:id` (`{"status":"hidden"}` o `{"status":"visible"}`) y `DELETE /admin/users/:id` requieren la cookie de una cuenta con rol `admin`. Para moderar el tablón usa `GET /admin/missing-comments` y `PATCH /admin/missing-comments/:id`; el historial de acciones está en `GET /admin/audit`. Las propuestas ocultas dejan de mostrar y aceptar comentarios. Si los llamas con `curl`, añade `-H "Origin: https://openportsgames.com"`: el Worker rechaza toda escritura sin un origen permitido.
 
 ## Notas
 

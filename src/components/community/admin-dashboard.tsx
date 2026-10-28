@@ -10,9 +10,15 @@ import { ApiError, apiFetch, type PublicUser } from "@/lib/api";
 
 type Me = PublicUser & { role: string };
 
+type ReportStatus = "open" | "dismissed" | "resolved";
+
 type ReportItem = {
   id: string;
   reason: string;
+  status: ReportStatus;
+  note: string | null;
+  resolvedAt: string | null;
+  resolvedBy: PublicUser | null;
   createdAt: string;
   comment: {
     id: string;
@@ -21,6 +27,30 @@ type ReportItem = {
     author: PublicUser;
   };
   reporter: PublicUser;
+};
+
+type AuditAction =
+  | "report.dismiss"
+  | "report.resolve"
+  | "report.reopen"
+  | "comment.hide"
+  | "comment.show"
+  | "comment.delete"
+  | "missing_comment.hide"
+  | "missing_comment.show"
+  | "missing_comment.delete"
+  | "missing_port.status"
+  | "user.role"
+  | "user.delete";
+
+type AuditItem = {
+  id: string;
+  action: AuditAction;
+  targetType: "report" | "comment" | "missing_comment" | "missing_port" | "user";
+  targetId: string;
+  note: string | null;
+  createdAt: string;
+  actor: PublicUser | null;
 };
 
 type MissingCommentItem = {
@@ -59,12 +89,58 @@ type UserDetail = {
 
 type Page<T> = { items: T[]; nextCursor: string | null };
 
+type ReportFilters = {
+  status: ReportStatus | "all";
+  reason: string;
+  from: string;
+  to: string;
+};
+
 const STRINGS = {
   en: {
     title: "Moderation",
     subtitle: "Review reports and comments from the missing-ports board.",
     reports: "Reports",
     board: "Board comments",
+    audit: "Audit log",
+    auditEmpty: "No moderation actions recorded yet.",
+    auditActions: {
+      "report.dismiss": "Report dismissed",
+      "report.resolve": "Report resolved",
+      "report.reopen": "Report reopened",
+      "comment.hide": "Comment hidden",
+      "comment.show": "Comment shown",
+      "comment.delete": "Comment deleted",
+      "missing_comment.hide": "Board comment hidden",
+      "missing_comment.show": "Board comment shown",
+      "missing_comment.delete": "Board comment deleted",
+      "missing_port.status": "Proposal status changed",
+      "user.role": "User role changed",
+      "user.delete": "User deleted",
+    },
+    targetTypes: {
+      report: "Report",
+      comment: "Comment",
+      missing_comment: "Board comment",
+      missing_port: "Proposal",
+      user: "User",
+    },
+    deletedUser: "Deleted account",
+    filterStatus: "Status",
+    allStatuses: "All statuses",
+    statusOpen: "Open",
+    statusDismissed: "Dismissed",
+    statusResolved: "Resolved",
+    searchReason: "Search reason",
+    fromDate: "From",
+    toDate: "To",
+    applyFilters: "Apply",
+    clearFilters: "Clear",
+    note: "Moderator note",
+    notePlaceholder: "Optional note",
+    noteEmpty: "No note",
+    resolve: "Resolve",
+    reopen: "Reopen",
     loadMore: "Load more",
     emptyReports: "No pending reports.",
     emptyComments: "No comments to moderate.",
@@ -111,6 +187,45 @@ const STRINGS = {
     subtitle: "Revisa denuncias y comentarios del tablón de ports faltantes.",
     reports: "Denuncias",
     board: "Comentarios del tablón",
+    audit: "Registro de moderación",
+    auditEmpty: "Todavía no hay acciones de moderación.",
+    auditActions: {
+      "report.dismiss": "Denuncia descartada",
+      "report.resolve": "Denuncia resuelta",
+      "report.reopen": "Denuncia reabierta",
+      "comment.hide": "Comentario oculto",
+      "comment.show": "Comentario mostrado",
+      "comment.delete": "Comentario borrado",
+      "missing_comment.hide": "Comentario del tablón oculto",
+      "missing_comment.show": "Comentario del tablón mostrado",
+      "missing_comment.delete": "Comentario del tablón borrado",
+      "missing_port.status": "Estado de propuesta cambiado",
+      "user.role": "Rol de usuario cambiado",
+      "user.delete": "Usuario borrado",
+    },
+    targetTypes: {
+      report: "Denuncia",
+      comment: "Comentario",
+      missing_comment: "Comentario del tablón",
+      missing_port: "Propuesta",
+      user: "Usuario",
+    },
+    deletedUser: "Cuenta borrada",
+    filterStatus: "Estado",
+    allStatuses: "Todos los estados",
+    statusOpen: "Abierta",
+    statusDismissed: "Descartada",
+    statusResolved: "Resuelta",
+    searchReason: "Buscar motivo",
+    fromDate: "Desde",
+    toDate: "Hasta",
+    applyFilters: "Aplicar",
+    clearFilters: "Limpiar",
+    note: "Nota de moderación",
+    notePlaceholder: "Nota opcional",
+    noteEmpty: "Sin nota",
+    resolve: "Resolver",
+    reopen: "Reabrir",
     loadMore: "Cargar más",
     emptyReports: "No hay denuncias pendientes.",
     emptyComments: "No hay comentarios que moderar.",
@@ -183,6 +298,28 @@ function Badge({
   );
 }
 
+function ReportStatusBadge({
+  status,
+  labels,
+}: {
+  status: ReportStatus;
+  labels: { statusOpen: string; statusDismissed: string; statusResolved: string };
+}) {
+  const className =
+    status === "resolved"
+      ? "rounded-full bg-emerald-500/10 px-2 py-0.5 text-xs font-medium text-emerald-600 dark:text-emerald-400"
+      : status === "dismissed"
+        ? "rounded-full border border-border bg-surface-2 px-2 py-0.5 text-xs font-medium text-muted"
+        : "rounded-full bg-accent/10 px-2 py-0.5 text-xs font-medium text-accent";
+  const label =
+    status === "resolved"
+      ? labels.statusResolved
+      : status === "dismissed"
+        ? labels.statusDismissed
+        : labels.statusOpen;
+  return <span className={className}>{label}</span>;
+}
+
 export function AdminDashboard() {
   const params = useParams<{ lang?: string }>();
   const lang = params?.lang === "es" ? "es" : "en";
@@ -191,12 +328,22 @@ export function AdminDashboard() {
   const [state, setState] = useState<"loading" | "anon" | "forbidden" | "ready" | "error">(
     "loading",
   );
-  const [tab, setTab] = useState<"reports" | "comments" | "users">("reports");
+  const [tab, setTab] = useState<"reports" | "comments" | "users" | "audit">("reports");
   const [meId, setMeId] = useState<string | null>(null);
   const [reports, setReports] = useState<ReportItem[]>([]);
   const [reportsCursor, setReportsCursor] = useState<string | null>(null);
+  const [reportFilters, setReportFilters] = useState<ReportFilters>({
+    status: "open",
+    reason: "",
+    from: "",
+    to: "",
+  });
+  const [draftFilters, setDraftFilters] = useState<ReportFilters>(reportFilters);
+  const [reportNotes, setReportNotes] = useState<Record<string, string>>({});
   const [comments, setComments] = useState<MissingCommentItem[]>([]);
   const [commentsCursor, setCommentsCursor] = useState<string | null>(null);
+  const [audit, setAudit] = useState<AuditItem[]>([]);
+  const [auditCursor, setAuditCursor] = useState<string | null>(null);
   const [users, setUsers] = useState<UserItem[]>([]);
   const [usersCursor, setUsersCursor] = useState<string | null>(null);
   const [roleFilter, setRoleFilter] = useState<"all" | "user" | "admin">("all");
@@ -227,9 +374,22 @@ export function AdminDashboard() {
     };
   }, []);
 
-  const loadReports = useCallback(async (cursor?: string) => {
+  const loadReports = useCallback(
+    async (cursor?: string) => {
+      const params = new URLSearchParams();
+      params.set("status", reportFilters.status);
+      if (reportFilters.reason.trim()) params.set("reason", reportFilters.reason.trim());
+      if (reportFilters.from) params.set("from", reportFilters.from);
+      if (reportFilters.to) params.set("to", reportFilters.to);
+      if (cursor) params.set("cursor", cursor);
+      return apiFetch<Page<ReportItem>>(`/admin/reports?${params.toString()}`);
+    },
+    [reportFilters],
+  );
+
+  const loadAudit = useCallback(async (cursor?: string) => {
     const query = cursor ? `?cursor=${encodeURIComponent(cursor)}` : "";
-    return apiFetch<Page<ReportItem>>(`/admin/reports${query}`);
+    return apiFetch<Page<AuditItem>>(`/admin/audit${query}`);
   }, []);
 
   const loadComments = useCallback(async (cursor?: string) => {
@@ -267,18 +427,24 @@ export function AdminDashboard() {
               setComments(page.items);
               setCommentsCursor(page.nextCursor);
             })
-          : loadUsers().then((page) => {
-              if (cancelled) return;
-              setUsers(page.items);
-              setUsersCursor(page.nextCursor);
-            });
+          : tab === "audit"
+            ? loadAudit().then((page) => {
+                if (cancelled) return;
+                setAudit(page.items);
+                setAuditCursor(page.nextCursor);
+              })
+            : loadUsers().then((page) => {
+                if (cancelled) return;
+                setUsers(page.items);
+                setUsersCursor(page.nextCursor);
+              });
     load.catch(() => {
       if (!cancelled) setState("error");
     });
     return () => {
       cancelled = true;
     };
-  }, [state, tab, loadReports, loadComments, loadUsers]);
+  }, [state, tab, loadReports, loadComments, loadAudit, loadUsers]);
 
   async function loadMore() {
     setLoadingMore(true);
@@ -293,6 +459,11 @@ export function AdminDashboard() {
         setComments((current) => [...current, ...page.items]);
         setCommentsCursor(page.nextCursor);
       }
+      if (tab === "audit" && auditCursor) {
+        const page = await loadAudit(auditCursor);
+        setAudit((current) => [...current, ...page.items]);
+        setAuditCursor(page.nextCursor);
+      }
       if (tab === "users" && usersCursor) {
         const page = await loadUsers(usersCursor);
         setUsers((current) => [...current, ...page.items]);
@@ -305,12 +476,48 @@ export function AdminDashboard() {
     }
   }
 
-  async function dismissReport(id: string) {
+  async function updateReportStatus(
+    id: string,
+    status: ReportStatus,
+    note?: string,
+  ) {
     setBusy(id);
     setActionError(false);
     try {
-      await apiFetch(`/admin/reports/${id}`, { method: "DELETE" });
-      setReports((current) => current.filter((item) => item.id !== id));
+      const updated = await apiFetch<{
+        id: string;
+        status: ReportStatus;
+        note: string | null;
+        resolvedAt: string | null;
+        resolvedBy: PublicUser | null;
+      }>(`/admin/reports/${id}`, {
+        method: "PATCH",
+        body: JSON.stringify({
+          status,
+          ...(note?.trim() ? { note } : {}),
+        }),
+      });
+      setReports((current) => {
+        if (reportFilters.status !== "all" && reportFilters.status !== updated.status) {
+          return current.filter((item) => item.id !== id);
+        }
+        return current.map((item) =>
+          item.id === id
+            ? {
+                ...item,
+                status: updated.status,
+                note: updated.note,
+                resolvedAt: updated.resolvedAt,
+                resolvedBy: updated.resolvedBy,
+              }
+            : item,
+        );
+      });
+      setReportNotes((current) => {
+        const next = { ...current };
+        delete next[id];
+        return next;
+      });
     } catch {
       setActionError(true);
     } finally {
@@ -458,7 +665,7 @@ export function AdminDashboard() {
         {state === "ready" && (
           <div className="mt-6 flex flex-col gap-5">
             <div className="flex gap-2" role="tablist" aria-label={t.title}>
-              {(["reports", "comments", "users"] as const).map((value) => (
+              {(["reports", "comments", "users", "audit"] as const).map((value) => (
                 <button
                   key={value}
                   type="button"
@@ -471,7 +678,13 @@ export function AdminDashboard() {
                       : "rounded-md border border-border px-3 py-2 text-sm text-muted hover:bg-surface-2"
                   }
                 >
-                  {value === "reports" ? t.reports : value === "comments" ? t.board : t.users}
+                  {value === "reports"
+                    ? t.reports
+                    : value === "comments"
+                      ? t.board
+                      : value === "users"
+                        ? t.users
+                        : t.audit}
                 </button>
               ))}
             </div>
@@ -480,6 +693,102 @@ export function AdminDashboard() {
 
             {tab === "reports" && (
               <div className="flex flex-col gap-3">
+                <form
+                  onSubmit={(event) => {
+                    event.preventDefault();
+                    setReportFilters({
+                      ...draftFilters,
+                      reason: draftFilters.reason.trim(),
+                    });
+                  }}
+                  className="flex flex-wrap items-end gap-2 rounded-xl border border-border bg-surface p-3"
+                >
+                  <label className="flex flex-col gap-1 text-xs text-muted">
+                    {t.filterStatus}
+                    <select
+                      value={draftFilters.status}
+                      onChange={(event) =>
+                        setDraftFilters((current) => ({
+                          ...current,
+                          status: event.target.value as ReportStatus | "all",
+                        }))
+                      }
+                      className="rounded-md border border-border bg-surface px-2 py-1.5 text-xs text-foreground"
+                    >
+                      <option value="open">{t.statusOpen}</option>
+                      <option value="resolved">{t.statusResolved}</option>
+                      <option value="dismissed">{t.statusDismissed}</option>
+                      <option value="all">{t.allStatuses}</option>
+                    </select>
+                  </label>
+                  <label className="flex min-w-40 flex-1 flex-col gap-1 text-xs text-muted">
+                    {t.reportReason}
+                    <input
+                      type="search"
+                      value={draftFilters.reason}
+                      maxLength={200}
+                      onChange={(event) =>
+                        setDraftFilters((current) => ({
+                          ...current,
+                          reason: event.target.value,
+                        }))
+                      }
+                      placeholder={t.searchReason}
+                      className="rounded-md border border-border bg-surface px-2 py-1.5 text-xs text-foreground"
+                    />
+                  </label>
+                  <label className="flex flex-col gap-1 text-xs text-muted">
+                    {t.fromDate}
+                    <input
+                      type="date"
+                      value={draftFilters.from}
+                      onChange={(event) =>
+                        setDraftFilters((current) => ({
+                          ...current,
+                          from: event.target.value,
+                        }))
+                      }
+                      className="rounded-md border border-border bg-surface px-2 py-1.5 text-xs text-foreground"
+                    />
+                  </label>
+                  <label className="flex flex-col gap-1 text-xs text-muted">
+                    {t.toDate}
+                    <input
+                      type="date"
+                      value={draftFilters.to}
+                      onChange={(event) =>
+                        setDraftFilters((current) => ({
+                          ...current,
+                          to: event.target.value,
+                        }))
+                      }
+                      className="rounded-md border border-border bg-surface px-2 py-1.5 text-xs text-foreground"
+                    />
+                  </label>
+                  <button
+                    type="submit"
+                    className="rounded-md bg-accent px-3 py-1.5 text-xs font-medium text-accent-contrast"
+                  >
+                    {t.applyFilters}
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      const cleared: ReportFilters = {
+                        status: "open",
+                        reason: "",
+                        from: "",
+                        to: "",
+                      };
+                      setDraftFilters(cleared);
+                      setReportFilters(cleared);
+                    }}
+                    className="rounded-md border border-border px-3 py-1.5 text-xs text-muted hover:bg-surface-2"
+                  >
+                    {t.clearFilters}
+                  </button>
+                </form>
+
                 {reports.length === 0 && <p className="text-sm text-muted">{t.emptyReports}</p>}
                 {reports.map((item) => (
                   <article
@@ -487,6 +796,7 @@ export function AdminDashboard() {
                     className="flex flex-col gap-3 rounded-xl border border-border bg-surface p-4"
                   >
                     <div className="flex flex-wrap items-center gap-2 text-xs text-muted">
+                      <ReportStatusBadge status={item.status} labels={t} />
                       <Badge status={item.comment.status} labels={t} />
                       <span>
                         {t.reportReason}: {item.reason}
@@ -500,6 +810,36 @@ export function AdminDashboard() {
                     <p className="text-xs text-muted">
                       {item.comment.author.name} · {t.by} {item.reporter.name}
                     </p>
+                    {item.status !== "open" && item.resolvedAt && (
+                      <p className="text-xs text-muted">
+                        {item.resolvedBy?.name ?? t.deletedUser} ·{" "}
+                        {shortDate(item.resolvedAt, lang)}
+                      </p>
+                    )}
+                    {item.note && (
+                      <p className="rounded-md bg-surface-2 px-3 py-2 text-xs leading-5 text-muted">
+                        <span className="font-medium text-foreground">{t.note}:</span>{" "}
+                        {item.note}
+                      </p>
+                    )}
+                    {item.status === "open" && (
+                      <label className="flex flex-col gap-1 text-xs text-muted">
+                        <span className="sr-only">{t.note}</span>
+                        <input
+                          type="text"
+                          value={reportNotes[item.id] ?? ""}
+                          maxLength={500}
+                          onChange={(event) =>
+                            setReportNotes((current) => ({
+                              ...current,
+                              [item.id]: event.target.value,
+                            }))
+                          }
+                          placeholder={t.notePlaceholder}
+                          className="rounded-md border border-border bg-surface px-2 py-1.5 text-xs text-foreground"
+                        />
+                      </label>
+                    )}
                     <div className="flex flex-wrap gap-2">
                       <button
                         type="button"
@@ -528,14 +868,47 @@ export function AdminDashboard() {
                         <Trash2 className="size-3.5" aria-hidden="true" />
                         {t.delete}
                       </button>
-                      <button
-                        type="button"
-                        disabled={busy === item.id}
-                        onClick={() => dismissReport(item.id)}
-                        className="rounded-md border border-border px-2.5 py-1.5 text-xs text-muted hover:bg-surface-2 disabled:opacity-50"
-                      >
-                        {t.dismiss}
-                      </button>
+                      {item.status === "open" ? (
+                        <>
+                          <button
+                            type="button"
+                            disabled={busy === item.id}
+                            onClick={() =>
+                              updateReportStatus(
+                                item.id,
+                                "resolved",
+                                reportNotes[item.id],
+                              )
+                            }
+                            className="rounded-md bg-accent px-2.5 py-1.5 text-xs font-medium text-accent-contrast disabled:opacity-50"
+                          >
+                            {t.resolve}
+                          </button>
+                          <button
+                            type="button"
+                            disabled={busy === item.id}
+                            onClick={() =>
+                              updateReportStatus(
+                                item.id,
+                                "dismissed",
+                                reportNotes[item.id],
+                              )
+                            }
+                            className="rounded-md border border-border px-2.5 py-1.5 text-xs text-muted hover:bg-surface-2 disabled:opacity-50"
+                          >
+                            {t.dismiss}
+                          </button>
+                        </>
+                      ) : (
+                        <button
+                          type="button"
+                          disabled={busy === item.id}
+                          onClick={() => updateReportStatus(item.id, "open")}
+                          className="rounded-md border border-border px-2.5 py-1.5 text-xs text-muted hover:bg-surface-2 disabled:opacity-50"
+                        >
+                          {t.reopen}
+                        </button>
+                      )}
                     </div>
                   </article>
                 ))}
@@ -674,9 +1047,41 @@ export function AdminDashboard() {
               </div>
             )}
 
+            {tab === "audit" && (
+              <div className="flex flex-col gap-3">
+                {audit.length === 0 && <p className="text-sm text-muted">{t.auditEmpty}</p>}
+                {audit.map((item) => (
+                  <article
+                    key={item.id}
+                    className="flex flex-col gap-2 rounded-xl border border-border bg-surface p-4"
+                  >
+                    <div className="flex flex-wrap items-center gap-2 text-xs text-muted">
+                      <span className="text-sm font-medium text-foreground">
+                        {t.auditActions[item.action]}
+                      </span>
+                      <span>·</span>
+                      <span>{t.targetTypes[item.targetType]}</span>
+                      <span>·</span>
+                      <span>{shortDate(item.createdAt, lang)}</span>
+                    </div>
+                    <p className="text-xs text-muted">
+                      {item.actor?.name ?? t.deletedUser} ·{" "}
+                      <span className="font-mono">{item.targetId}</span>
+                    </p>
+                    {item.note && (
+                      <p className="rounded-md bg-surface-2 px-3 py-2 text-xs leading-5 text-muted">
+                        {item.note}
+                      </p>
+                    )}
+                  </article>
+                ))}
+              </div>
+            )}
+
             {((tab === "reports" && reportsCursor) ||
               (tab === "comments" && commentsCursor) ||
-              (tab === "users" && usersCursor)) && (
+              (tab === "users" && usersCursor) ||
+              (tab === "audit" && auditCursor)) && (
               <button
                 type="button"
                 onClick={loadMore}

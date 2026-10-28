@@ -9,6 +9,7 @@ import {
   createMissingPortSchema,
   updateMissingPortStatusSchema,
 } from "../lib/missing";
+import { recordModeration } from "../lib/moderation";
 import { verifyTurnstile } from "../lib/turnstile";
 import { rateLimit } from "../middleware/ratelimit";
 import {
@@ -404,6 +405,16 @@ missing.delete(
     await db
       .delete(schema.missingPortComment)
       .where(eq(schema.missingPortComment.id, commentId));
+
+    if (user.role === "admin") {
+      await recordModeration(db, {
+        actorId: user.id,
+        action: "missing_comment.delete",
+        targetType: "missing_comment",
+        targetId: commentId,
+      });
+    }
+
     return c.json({ ok: true });
   },
 );
@@ -434,6 +445,14 @@ missing.patch(
     .update(schema.missingPort)
     .set({ status: parsed.data.status })
     .where(eq(schema.missingPort.id, id));
+
+  await recordModeration(db, {
+    actorId: user.id,
+    action: "missing_port.status",
+    targetType: "missing_port",
+    targetId: id,
+    note: `status:${parsed.data.status}`,
+  });
 
   return c.json({ ok: true, status: parsed.data.status });
 });

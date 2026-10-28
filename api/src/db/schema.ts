@@ -162,6 +162,14 @@ export const report = sqliteTable(
       .notNull()
       .references(() => user.id, { onDelete: "cascade" }),
     reason: text("reason").notNull(),
+    status: text("status", { enum: ["open", "dismissed", "resolved"] })
+      .default("open")
+      .notNull(),
+    note: text("note"),
+    resolvedBy: text("resolved_by").references(() => user.id, {
+      onDelete: "set null",
+    }),
+    resolvedAt: integer("resolved_at", { mode: "timestamp_ms" }),
     createdAt: integer("created_at", { mode: "timestamp_ms" })
       .default(sql`(cast(unixepoch('subsecond') * 1000 as integer))`)
       .notNull(),
@@ -169,6 +177,65 @@ export const report = sqliteTable(
   (table) => [
     unique("report_commentId_userId_unique").on(table.commentId, table.userId),
     index("report_createdAt_idx").on(table.createdAt),
+    index("report_status_createdAt_idx").on(table.status, table.createdAt),
+    check(
+      "report_status_check",
+      sql`${table.status} in ('open', 'dismissed', 'resolved')`,
+    ),
+  ],
+);
+
+export const MODERATION_ACTIONS = [
+  "report.dismiss",
+  "report.resolve",
+  "report.reopen",
+  "comment.hide",
+  "comment.show",
+  "comment.delete",
+  "missing_comment.hide",
+  "missing_comment.show",
+  "missing_comment.delete",
+  "missing_port.status",
+  "user.role",
+  "user.delete",
+] as const;
+
+export const MODERATION_TARGET_TYPES = [
+  "report",
+  "comment",
+  "missing_comment",
+  "missing_port",
+  "user",
+] as const;
+
+export type ModerationAction = (typeof MODERATION_ACTIONS)[number];
+export type ModerationTargetType = (typeof MODERATION_TARGET_TYPES)[number];
+
+export const moderationLog = sqliteTable(
+  "moderation_log",
+  {
+    id: text("id").primaryKey(),
+    actorId: text("actor_id").references(() => user.id, { onDelete: "set null" }),
+    action: text("action", { enum: [...MODERATION_ACTIONS] }).notNull(),
+    targetType: text("target_type", { enum: [...MODERATION_TARGET_TYPES] }).notNull(),
+    targetId: text("target_id").notNull(),
+    note: text("note"),
+    createdAt: integer("created_at", { mode: "timestamp_ms" })
+      .default(sql`(cast(unixepoch('subsecond') * 1000 as integer))`)
+      .notNull(),
+  },
+  (table) => [
+    index("moderation_log_createdAt_idx").on(table.createdAt),
+    index("moderation_log_action_createdAt_idx").on(table.action, table.createdAt),
+    index("moderation_log_actorId_idx").on(table.actorId),
+    check(
+      "moderation_log_action_check",
+      sql`${table.action} in ('report.dismiss', 'report.resolve', 'report.reopen', 'comment.hide', 'comment.show', 'comment.delete', 'missing_comment.hide', 'missing_comment.show', 'missing_comment.delete', 'missing_port.status', 'user.role', 'user.delete')`,
+    ),
+    check(
+      "moderation_log_target_type_check",
+      sql`${table.targetType} in ('report', 'comment', 'missing_comment', 'missing_port', 'user')`,
+    ),
   ],
 );
 
