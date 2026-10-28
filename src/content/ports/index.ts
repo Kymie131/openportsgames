@@ -641,6 +641,7 @@ import { faligameParasiteEve2HdRemaster } from "./faligame-parasite-eve-2-hd-rem
 import { falloutPs3 } from "./fallout-ps3";
 import { fallout1Ce } from "./fallout1-ce";
 import { fallout2Ce } from "./fallout2-ce";
+import { fheroes2 } from "./fheroes2";
 import { farCryNearChuckle } from "./far-cry-nearchuckle";
 import { fatalFrameRecomp } from "./fatal-frame-recomp";
 import { FateExtella } from "./fate-extella";
@@ -1435,11 +1436,11 @@ import { openGtps1 } from "./opengtps1";
 import { openhp1 } from "./openhp1";
 import { openjazz } from "./openjazz";
 import { openJk } from "./openjk";
+import { openLoco } from "./openloco";
 import { openjkdf2 } from "./openjkdf2";
 import { openkeeper } from "./openkeeper";
 import { openkingdomsOpenkingdoms } from "./openkingdoms-openkingdoms";
 import { Openkrush } from "./openkrush";
-import { openLoco } from "./openloco";
 import { openlsrOpenlsr } from "./openlsr-openlsr";
 import { Openmb } from "./openmb";
 import { openMohaa } from "./openmohaa";
@@ -3256,6 +3257,7 @@ export const portCases: Port[] = [
   falloutPs3,
   fallout1Ce,
   fallout2Ce,
+  fheroes2,
   farCryNearChuckle,
   fatalFrameRecomp,
   FateExtella,
@@ -4051,6 +4053,7 @@ export const portCases: Port[] = [
   openjazz,
   openJk,
   openjkdf2,
+  openLoco,
   openkeeper,
   openkingdomsOpenkingdoms,
   Openkrush,
