@@ -6,7 +6,7 @@ acceptance criteria.
 
 ## Core rules
 
-1. **Official sources only.** Every `sources`/`website`/`docs` link must be the
+1. **Official sources only.** Every `sources`/`website`/`docs`/`playUrl` link must be the
    project's own repository, releases page, documentation or website; an
    optional `discord` link must point to the project's official community
    server. The site hosts no files and links to no downloads, ROMs or bundles.

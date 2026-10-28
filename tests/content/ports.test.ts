@@ -54,6 +54,14 @@ describe("catalog ports", () => {
     }
   });
 
+  it("only exposes https browser builds on the web platform", () => {
+    for (const port of ports) {
+      if (!port.playUrl) continue;
+      expect(port.playUrl, port.id).toMatch(/^https:\/\//);
+      expect(port.platforms, port.id).toContain("web");
+    }
+  });
+
   it("shares a source across ports only where one repository covers both", () => {
     // Deliberate shared sources (one repository covering several ports).
     const intentional: Record<string, string[]> = {

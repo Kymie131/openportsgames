@@ -104,6 +104,8 @@ const normalPort = z.object({
   website: httpsUrl.optional(),
   docs: httpsUrl.optional(),
   discord: httpsUrl.optional(),
+  /** Browser-playable build; opens in a new tab from the detail page. */
+  playUrl: httpsUrl.optional(),
   license: z.object({
     spdx: z.string().regex(LICENSE_SPDX),
     note: z.string().max(120).optional(),
@@ -255,6 +257,8 @@ export type Port = {
   website?: string;
   docs?: string;
   discord?: string;
+  /** Browser-playable build, opened in a new tab. */
+  playUrl?: string;
   license: { spdx: string; note?: string };
   verified: boolean;
   verifiedAt?: string;

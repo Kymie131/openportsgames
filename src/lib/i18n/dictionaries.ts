@@ -194,6 +194,9 @@ const en = {
     about: "About this port",
     dependencies: "Requires original game files",
     whereToGet: "Where to get it",
+    playInBrowser: "Play in browser",
+    playInBrowserHint:
+      "Opens in a new tab. Use the game's fullscreen control if it offers one.",
     officialSource: "Official source",
     website: "Project website",
     discord: "Community Discord",
@@ -1140,6 +1143,9 @@ const es: Messages = {
     about: "Sobre este port",
     dependencies: "Requiere los archivos del juego original",
     whereToGet: "Dónde conseguirlo",
+    playInBrowser: "Jugar en el navegador",
+    playInBrowserHint:
+      "Se abre en una pestaña nueva. Usa el control de pantalla completa del juego si lo tiene.",
     officialSource: "Fuente oficial",
     website: "Sitio del proyecto",
     discord: "Discord de la comunidad",

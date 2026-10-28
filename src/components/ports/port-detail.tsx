@@ -10,6 +10,7 @@ import {
   FileText,
   Globe,
   MessageCircle,
+  Play,
 } from "lucide-react";
 import type { HardwareProfile, Port, TestRecord } from "@/lib/ports/schema";
 import { portKind } from "@/lib/ports/schema";
@@ -129,6 +130,21 @@ export function PortDetail({
           </div>
         </header>
       </div>
+
+      {port.playUrl && (
+        <div className="flex flex-col gap-2 rounded-xl border border-accent/40 bg-[color-mix(in_oklab,var(--accent)_8%,transparent)] p-4">
+          <a
+            href={port.playUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex w-fit items-center gap-1.5 rounded-md bg-accent px-3 py-2 text-sm font-medium text-accent-contrast transition-colors hover:bg-accent-hover"
+          >
+            <Play className="size-4" aria-hidden="true" />
+            {t.detail.playInBrowser}
+          </a>
+          <p className="text-xs leading-5 text-muted">{t.detail.playInBrowserHint}</p>
+        </div>
+      )}
 
       {port.warning && (
         <p className="rounded-xl border border-warning/40 bg-[color-mix(in_oklab,var(--warning)_12%,transparent)] px-4 py-3 text-sm leading-relaxed text-warning">

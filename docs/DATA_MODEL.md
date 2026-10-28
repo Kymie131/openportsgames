@@ -10,7 +10,7 @@ Required: `schema`, `id`, `title`, `game`, `developers`, `publisher`, `originalY
 `portType`, `genre`, `openSource`, `platforms`, `status`, `release`, `sources`, `license`,
 `verified`.
 
-Optional: `website`, `docs`, `discord`, `verifiedAt`, `originalGameLicense`,
+Optional: `website`, `docs`, `discord`, `playUrl`, `verifiedAt`, `originalGameLicense`,
 `noOriginalGameRequired`, `notes`, `notesEs`, `features`, `featuresEs`, `aiDisclosure`,
 `sourceVerified`, `sourceIsIndex`, `sourceDead`, `noindex`, `warning`, `warningEs`,
 `installGuide`, `requirements`, `screenshots`, `cover`, `originalSystems`, `region`,
