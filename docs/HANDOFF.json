@@ -1,0 +1,321 @@
+{
+  "generated_at": "2026-10-27",
+  "project": {
+    "name": "OpenPortsGames",
+    "root": "C:/Users/israe/OneDrive/Documentos/REPOS/pagina_web_ports_videogames/openportsgames",
+    "site": "https://openportsgames.com",
+    "api": "https://api.openportsgames.com",
+    "repo": "https://github.com/Kymie131/openportsgames",
+    "cloudflare_account_id": "0cf3aae7e7b4a76bc54785a7d951e703",
+    "pages_project": "openportsgames",
+    "worker": "openportsgames-api",
+    "d1_database": "openportsgames-db",
+    "d1_id": "8f93d4d1-d729-4bf8-97d8-69610e64d8b8",
+    "admin_account": "Kymie131 (GitHub) / alansoto8629@gmail.com",
+    "registered_users_at_handoff": 3
+  },
+  "stack": {
+    "frontend": "Next.js 16.3.8 static export (output: export), TypeScript, Tailwind CSS v4",
+    "backend": "Cloudflare Workers, Hono, D1, Drizzle ORM, Better Auth, zod, vitest",
+    "auth": "OAuth only: Google, GitHub, Discord (all configured and live)",
+    "hosting": "Cloudflare Pages (auto-deploy from main) + Worker custom domain",
+    "email": "not configured",
+    "turnstile": "optional, not configured (no TURNSTILE_SECRET)"
+  },
+  "auth": {
+    "providers": {
+      "google": true,
+      "github": true,
+      "discord": true
+    },
+    "callbacks": {
+      "google": "https://api.openportsgames.com/api/auth/callback/google",
+      "github": "https://api.openportsgames.com/api/auth/callback/github",
+      "discord": "https://api.openportsgames.com/api/auth/callback/discord"
+    },
+    "secrets_present_in_worker": [
+      "BETTER_AUTH_SECRET",
+      "BETTER_AUTH_URL",
+      "GITHUB_CLIENT_ID",
+      "GITHUB_CLIENT_SECRET",
+      "GOOGLE_CLIENT_ID",
+      "GOOGLE_CLIENT_SECRET",
+      "DISCORD_CLIENT_ID",
+      "DISCORD_CLIENT_SECRET"
+    ],
+    "secret_values_must_never_be_committed_or_pasted_in_chat": true,
+    "session_cookie": "HttpOnly, Secure in production, SameSite=Lax, domain .openportsgames.com",
+    "config_endpoint": "GET https://api.openportsgames.com/config"
+  },
+  "catalog": {
+    "ports": 2608,
+    "export_files": 7066,
+    "ports_without_cover": 0,
+    "content_dir": "src/content/ports",
+    "index": "src/content/ports/index.ts",
+    "meta": "src/content/ports/meta.ts",
+    "schema": "src/lib/ports/schema.ts",
+    "guardrail": "never mass-read src/content/ports (1000+ files); use grep on specific paths"
+  },
+  "features_done": {
+    "catalog": [
+      "2608 ports with platform/status/technique/system filters",
+      "PC, Android, consoles, explore, emulators, tools, guides, missing ports",
+      "16:9 covers, generated SVG fallbacks, real box art where available",
+      "home news banner dismissible for the session",
+      "temporary animated Halloween decoration on home, auto active Oct 1-Nov 2 local time"
+    ],
+    "community": [
+      "1-5 pixel-art heart ratings with average",
+      "positive/negative reviews stored as comment.sentiment",
+      "review summary: positive/negative/total/percent",
+      "threaded comments (two levels), delete, report",
+      "missing-ports board with comments and statuses",
+      "profile photo via https URL (no upload yet)",
+      "nickname 2-40 chars validated server-side"
+    ],
+    "moderation": [
+      "admin-only page /[lang]/admin (menu item Moderation)",
+      "tabs: reports, board comments, users",
+      "dismiss reports, hide/show/delete comments",
+      "users list with role filter and sort by newest/ratings/comments/name",
+      "click user to see profile, ratings, comments, missing proposals",
+      "promote/demote admins (cannot change self, cannot remove last admin)"
+    ]
+  },
+  "backend_endpoints": {
+    "public": [
+      "GET /health",
+      "GET /config",
+      "GET /me",
+      "DELETE /me",
+      "GET /ratings/:portId",
+      "PUT /ratings/:portId",
+      "DELETE /ratings/:portId",
+      "GET /comments/:portId",
+      "POST /comments/:portId (body, turnstileToken, parentId?, sentiment?)",
+      "DELETE /comments/:id",
+      "POST /comments/:id/report",
+      "GET /reviews/:portId",
+      "GET /missing",
+      "POST /missing",
+      "GET /missing/:id",
+      "GET /missing/:id/comments",
+      "POST /missing/:id/comments",
+      "DELETE /missing/:id/comments/:commentId",
+      "PATCH /missing/:id/status (admin)"
+    ],
+    "admin": [
+      "GET /admin/reports",
+      "DELETE /admin/reports/:id",
+      "GET /admin/missing-comments",
+      "PATCH /admin/missing-comments/:id",
+      "PATCH /admin/comments/:id",
+      "GET /admin/users?role=&sort=&cursor=",
+      "GET /admin/users/:id",
+      "PATCH /admin/users/:id/role",
+      "DELETE /admin/users/:id"
+    ]
+  },
+  "database": {
+    "tables": [
+      "user",
+      "session",
+      "account",
+      "verification",
+      "rating",
+      "comment",
+      "report",
+      "missing_port",
+      "missing_port_comment",
+      "rate_limit"
+    ],
+    "comment_columns_recent": [
+      "id",
+      "user_id",
+      "port_id",
+      "parent_id",
+      "body",
+      "status (visible|hidden)",
+      "sentiment (nullable positive|negative)",
+      "created_at"
+    ],
+    "migrations_dir": "api/drizzle",
+    "last_migration": "0004_swift_mandarin.sql (adds comment.sentiment)",
+    "view_via": [
+      "Cloudflare dashboard > Storage & Databases > D1 > openportsgames-db > Console",
+      "cd api; npx wrangler d1 execute openportsgames-db --remote --command \"select name, role, created_at from user;\""
+    ]
+  },
+  "commands": {
+    "root_install": "npm install",
+    "root_dev": "npm run dev",
+    "root_typecheck": "npm run typecheck",
+    "root_lint": "npm run lint",
+    "root_test": "npm test",
+    "root_build": "$env:NEXT_PUBLIC_SITE_URL=\"https://openportsgames.com\"; $env:NEXT_PUBLIC_API_URL=\"https://api.openportsgames.com\"; npm run build",
+    "api_install": "cd api; npm install",
+    "api_dev": "cd api; npm run dev",
+    "api_typecheck": "cd api; npm run typecheck",
+    "api_test": "cd api; npm test",
+    "api_deploy": "cd api; npx wrangler deploy",
+    "api_migrate_remote": "cd api; npx wrangler d1 migrations apply DB --remote",
+    "api_gen_port_ids": "node api/scripts/gen-port-ids.mjs",
+    "redirects": "node scripts/gen-redirects.mjs",
+    "promote_admin": "cd api; npm run promote-admin -- email@example.com",
+    "deploy_front": "git add -A; git commit -m \"...\"; git push origin main (Cloudflare Pages auto-deploys; takes 4-8 min)"
+  },
+  "deployment_notes": [
+    "Do not run manual `wrangler pages deploy`; it hangs on asset upload. Push to main instead.",
+    "API deploy with wrangler works normally.",
+    "After adding ports: build, run node api/scripts/gen-port-ids.mjs, deploy API, then commit/push site.",
+    "Verify Pages deployment status through Cloudflare API or wait for the .pages.dev URL.",
+    "Cloudflare CDN can serve an older HTML briefly; verify with cache-busting and a fresh browser."
+  ],
+  "constraints": [
+    "AGENTS.md stack is fixed: TypeScript, Hono, D1, Drizzle, Better Auth, zod, vitest.",
+    "AGENTS.md currently says social OAuth only, NO passwords. Email signup conflicts with this; decide magic-link/OTP vs changing the rule.",
+    "Never return email or provider ids in any public API response; public user shape is {id, name, image}.",
+    "Validate every input with zod; Drizzle parameterized queries only; generic errors.",
+    "Comment body is plain text; never HTML.",
+    "CSRF: unsafe requests require allowed Origin; CORS allowlist with credentials.",
+    "Rate limit writes; Turnstile optional.",
+    "No secrets in chat, code, or commits.",
+    "Never edit TS/CSS with PowerShell Set-Content/Get-Content defaults: it corrupted UTF-8 and produced mojibake. Use the Edit/Write tools or Node with explicit UTF-8.",
+    "Do not mass-read src/content/ports, public/logos, .agents, node_modules, out, .next."
+  ],
+  "known_issues": [
+    "Some strings were mojibake; fixed in dictionaries/admin/login and port files. Recheck if new Spanish strings look wrong.",
+    "Profile photos are URL-only; no upload/R2 yet.",
+    "No catalog-public filters by rating/comment count yet (only admin users sorting).",
+    "Reviews are comments with sentiment; multiple reviews per user are possible and can skew percentages.",
+    "No email notifications, chat, or real-time updates.",
+    "Guides are one page with sections, not separate pages.",
+    "Moderation lacks audit log, search in reports, bulk actions, and author notifications."
+  ],
+  "pending_requirements": [
+    {
+      "id": "email-signup",
+      "status": "needs_decision",
+      "request": "Users can register with email",
+      "conflict": "AGENTS.md forbids passwords",
+      "options": [
+        "Magic link / email OTP with Better Auth emailOTP (recommended; still no passwords; needs transactional email provider such as Resend, Postmark, SES, or Cloudflare Email)",
+        "Email + password by changing AGENTS.md (requires hashing, verification, reset, stricter rate limits)"
+      ],
+      "work": [
+        "choose provider and add secrets",
+        "add plugin/schema if needed",
+        "email verification and reset flow",
+        "rate limits and abuse controls",
+        "privacy policy update",
+        "tests"
+      ]
+    },
+    {
+      "id": "comments-separation",
+      "status": "mostly_done",
+      "request": "Separate comments per port/board",
+      "notes": "Port comments and missing-board comments already use separate tables and endpoints; threads are two levels. Confirm if a different split is wanted."
+    },
+    {
+      "id": "moderation-improvements",
+      "status": "pending",
+      "work": [
+        "search/filter reports by status/reason/date",
+        "report resolution states and audit log",
+        "bulk hide/delete",
+        "notify authors when hidden/deleted",
+        "better user profile actions (delete content, suspend?)",
+        "optional moderator notes"
+      ]
+    },
+    {
+      "id": "guides-pages",
+      "status": "pending",
+      "request": "Split guides into separate pages",
+      "work": [
+        "create /[lang]/guides/[slug] with generateStaticParams",
+        "move guide copy out of dictionaries into structured content",
+        "guides index listing",
+        "per-guide metadata, sitemap entries, redirects",
+        "keep old /guides anchors working"
+      ]
+    },
+    {
+      "id": "suggestions-section",
+      "status": "needs_definition",
+      "request": "Add a suggestions section",
+      "questions": [
+        "Is it site/feature suggestions or game-port suggestions (missing ports already exists)?",
+        "Public voting? categories? statuses? admin replies?"
+      ],
+      "likely_work": [
+        "new table + zod schemas + rate limits",
+        "list/create/detail routes",
+        "moderation statuses and replies",
+        "UI page and nav entry"
+      ]
+    },
+    {
+      "id": "chat-notifications",
+      "status": "needs_decision",
+      "request": "Receive chat messages/notifications",
+      "options": [
+        "simple polling notifications table + inbox (fastest)",
+        "Durable Object WebSocket chat (real-time, more complex)",
+        "email notifications for replies/reports (requires email provider)"
+      ],
+      "work": [
+        "notification/chat tables",
+        "unread counts",
+        "admin inbox",
+        "author notifications for replies/moderation",
+        "rate limits and abuse controls"
+      ]
+    },
+    {
+      "id": "catalog-rating-filters",
+      "status": "pending",
+      "request": "Filters by ratings/comments in the public catalog",
+      "work": [
+        "aggregate endpoint for all port stats",
+        "client-side sort/min-rating filters or server pagination",
+        "performance/caching plan for 2608 ports"
+      ]
+    },
+    {
+      "id": "avatar-upload",
+      "status": "pending",
+      "request": "Upload profile photo instead of URL",
+      "work": [
+        "R2 bucket + Worker upload endpoint",
+        "file type/size validation, moderation",
+        "public URL and cleanup",
+        "privacy/CSP updates"
+      ]
+    }
+  ],
+  "halloween": {
+    "component": "src/components/home/halloween-decor.tsx",
+    "styles": "src/app/globals.css (opg-halloween-*, opg-bat-*, opg-ghost-*, opg-pumpkin-*, fog/ember)",
+    "auto_window": "October 1 through November 2, local time; disappears November 3",
+    "disable_manually": "remove <HalloweenDecor /> from src/components/home/home-content.tsx or force isHalloweenSeason to false",
+    "reduced_motion": "global prefers-reduced-motion rule disables animations"
+  },
+  "last_commits": [
+    "1744ca8 feat(home): decoración animada de Halloween temporal",
+    "0a29d1d fix(i18n): codificación del panel de moderación",
+    "804e530 feat(admin): filtros de usuarios, perfil y foto de perfil",
+    "69f047b fix(i18n): corregir codificación de textos en español"
+  ],
+  "recommended_next_order": [
+    "Decide email auth method (magic link vs password) and email provider",
+    "Define suggestions vs missing ports and chat scope",
+    "Split guides into pages (low risk, high value)",
+    "Improve moderation (audit, search, notifications)",
+    "Add public rating/comment filters",
+    "Implement email auth and chat/notifications",
+    "Re-run typecheck, lint, root/API tests, build, deploy, verify"
+  ]
+}

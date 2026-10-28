@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const juiced2HotImportNightsRecomp: Port = {
+  schema: "port",
+  id: "juiced-2-hot-import-nights-recomp",
+  title: "Juiced 2: Hot Import Nights Recompiled",
+  game: "Juiced 2: Hot Import Nights",
+  developers: ["anishchandra24"],
+  publisher: "THQ",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/anishchandra24/Juiced2-Recompiled"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Xbox 360"],
+  summary: "Juiced 2: Hot Import Nights is a street racing video game published by THQ. It is the sequel to Juiced.",
+  notes: "Xbox 360 recompilation using Rexglue. No game data included.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/0/05/Juiced_2_Hot_Import_Nights_Coverart.png",
+    alt: "Juiced 2: Hot Import Nights (box art)",
+    credit: "Wikipedia",
+  },
+};

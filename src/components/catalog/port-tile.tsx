@@ -49,15 +49,15 @@ export function PortTile({
   return (
     <article
       className={cn(
-        "group flex h-full flex-col gap-3 rounded-xl border border-border bg-surface p-4",
+        "group flex h-full flex-col gap-3 rounded-2xl border border-border/80 bg-gradient-to-b from-surface to-surface-2 p-4",
         "transition-all duration-300",
-        "hover:-translate-y-1 hover:border-accent/40 hover:bg-surface-2 hover:shadow-xl hover:shadow-accent/10",
+        "hover:-translate-y-1 hover:border-accent/50 hover:bg-surface-2 hover:shadow-2xl hover:shadow-accent/10",
         className,
       )}
     >
       <Link
         href={`/ports/${port.id}`}
-        className="block overflow-hidden rounded-md border border-border transition-colors duration-150 hover:border-accent-hover"
+        className="group/image block overflow-hidden rounded-lg border border-border shadow-sm shadow-black/10 transition-all duration-300 hover:-translate-y-0.5 hover:border-accent/50 hover:shadow-lg hover:shadow-accent/15"
         aria-label={port.title}
       >
         {primary ? (
@@ -65,7 +65,11 @@ export function PortTile({
             src={primary.src}
             alt={imageAlt(primary.kind, port.game, locale)}
             pixelated={isPixelArtSystem(system)}
-            className="aspect-video w-full"
+            className={cn(
+              "w-full transition-transform duration-500 group-hover/image:scale-[1.02]",
+              primary.kind === "cover" ? "aspect-[3/4]" : "aspect-video",
+            )}
+            imageClassName={primary.kind === "cover" ? "object-cover" : undefined}
             eager={eager}
             fallback={fallback}
           />

@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const projectHelghast: Port = {
+  schema: "port",
+  id: "project-helghast",
+  title: "Project Helghast (Killzone 3 PC)",
+  game: "Killzone 3",
+  developers: ["undecuple"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2011,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/undecuple/project-helghast"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 3"],
+  summary: "Killzone 3 is a first-person shooter developed by Guerrilla Games and published by Sony Computer Entertainment for the PlayStation 3.",
+  notes: "PS3 recompilation in progress. No game data included.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b1/Killzone_3_Box_Art.jpg",
+    alt: "Killzone 3 (box art)",
+    credit: "Wikipedia",
+  },
+};

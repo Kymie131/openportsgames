@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mortalKombatTrilogyN64Recomp: Port = {
+  schema: "port",
+  id: "mortal-kombat-trilogy-n64-recomp",
+  title: "Mortal Kombat Trilogy Recompiled (N64)",
+  game: "Mortal Kombat Trilogy",
+  developers: ["cultofblue"],
+  publisher: "Midway",
+  originalYear: 1996,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "macos"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/cultofblue/MKTrilogyN64Recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["Nintendo 64"],
+  summary: "Mortal Kombat Trilogy brings together characters and stages from the first three Mortal Kombat games.",
+  notes: "N64 recompilation using N64Recomp. No game data included.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d6/Mortal_Kombat_Trilogy_cover.jpg",
+    alt: "Mortal Kombat Trilogy (box art)",
+    credit: "Wikipedia",
+  },
+};

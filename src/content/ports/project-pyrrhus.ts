@@ -1,0 +1,30 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const projectPyrrhus: Port = {
+  schema: "port",
+  id: "project-pyrrhus",
+  title: "Project Pyrrhus (Killzone 2 PC)",
+  game: "Killzone 2",
+  developers: ["undecuple"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: null, date: null },
+  sources: ["https://github.com/undecuple/project-pyrrhus"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: ["PlayStation 3"],
+  summary: "Killzone 2 is a first-person shooter developed by Guerrilla Games and published by Sony Computer Entertainment for the PlayStation 3.",
+  notes: "PS3 recompilation in progress. No game data included.",
+  cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7e/Killzone_2_box_art.jpg",
+    alt: "Killzone 2 (box art)",
+    credit: "Wikipedia",
+  },
+};

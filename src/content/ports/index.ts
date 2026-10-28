@@ -1930,6 +1930,10 @@ import { phantomHourglassRecomp } from "./phantom-hourglass-recomp";
 import { linksAwakeningDxHdSwitch } from "./links-awakening-dx-hd-switch";
 import { oraclesProjectSwitch } from "./oracles-project-switch";
 import { blueStingerRecomp } from "./blue-stinger-recomp";
+import { juiced2HotImportNightsRecomp } from "./juiced-2-hot-import-nights-recomp";
+import { projectHelghast } from "./project-helghast";
+import { projectPyrrhus } from "./project-pyrrhus";
+import { mortalKombatTrilogyN64Recomp } from "./mortal-kombat-trilogy-n64-recomp";
 import { eccoDotfRecomp } from "./ecco-dotf-recomp";
 import { talesOfLegendiaRecomp } from "./tales-of-legendia-recomp";
 import { yuGiOhDuelistsRosesRecomp } from "./yu-gi-oh-duelists-roses-recomp";
@@ -5213,6 +5217,10 @@ export const portCases: Port[] = [
   nightfirePc,
   wweCrushHourPc,
   blueStingerRecomp,
+  juiced2HotImportNightsRecomp,
+  projectHelghast,
+  projectPyrrhus,
+  mortalKombatTrilogyN64Recomp,
   eccoDotfRecomp,
   phantomHourglassRecomp,
   linksAwakeningDxHdSwitch,
