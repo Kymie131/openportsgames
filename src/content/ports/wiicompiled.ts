@@ -13,11 +13,11 @@ export const wiiCompiled: Port = {
   openSource: true,
   platforms: ["windows"],
   status: "beta",
-  release: { version: "0.2.34", date: "2026-10-08" },
+  release: { version: "0.9.3", date: "2026-10-25" },
   sources: ["https://github.com/patchzyy/Wiicompiled"],
   license: { spdx: "GPL-3.0" },
   verified: true,
-  verifiedAt: "2026-09-19",
+  verifiedAt: "2026-10-27",
   originalSystems: ["Wii"],
   features: [
     "Native 1080p with unlocked frame rate",

@@ -43,6 +43,29 @@ async function readStats(
   };
 }
 
+ratings.get("/summary", async (c) => {
+  const db = drizzle(c.env.DB, { schema });
+  const rows = await db
+    .select({
+      portId: schema.rating.portId,
+      average: sql<number | null>`avg(${schema.rating.stars})`,
+      count: sql<number>`count(*)`,
+    })
+    .from(schema.rating)
+    .groupBy(schema.rating.portId)
+    .orderBy(schema.rating.portId);
+
+  c.header("cache-control", "public, max-age=60, stale-while-revalidate=300");
+
+  return c.json({
+    items: rows.map((row) => ({
+      portId: row.portId,
+      average: roundToOneDecimal(row.average) ?? 0,
+      count: Number(row.count ?? 0),
+    })),
+  });
+});
+
 ratings.get("/:portId", optionalUser(), async (c) => {
   const portId = resolvePortId(c.req.param("portId"));
   if (!portId) return c.json({ error: "not_found" }, 404);

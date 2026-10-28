@@ -13,11 +13,11 @@ export const doom3Dude: Port = {
   portType: "source-port",
   platforms: ["windows", "linux"],
   status: "beta",
-  release: { version: "0.9.5", date: "2026-10-05" },
+  release: { version: "0.9.6", date: "2026-10-22" },
   sources: ["https://github.com/Inkub0/dude"],
   license: { spdx: "GPL-3.0-only" },
   verified: true,
-  verifiedAt: "2026-09-22",
+  verifiedAt: "2026-10-27",
   originalSystems: ["Windows"],
   features: [
     "GL 3.3 and Vulkan backends with a legacy ARB path",

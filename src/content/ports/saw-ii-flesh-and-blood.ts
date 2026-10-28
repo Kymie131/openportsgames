@@ -27,6 +27,6 @@ export const SawIiFleshAndBlood: Port = {
   },
   summary: "Saw II: Flesh & Blood is a survival horror game developed by Zombie Studios and published by Konami for the PlayStation 3 and Xbox 360. It is the second video game in the Saw franchise, following 2009's Saw: The Video Game. It was released in October 2010 to coincide with the release of the seventh film, Saw 3D.",
   summaryEs: "Saw II: Flesh & Blood es un videojuego en tercera persona de tipo videojuego de terror del 2010 desarrollado por Zombie Studios y publicado por Konami para las consolas Xbox 360 y PlayStation 3. Es la secuela del videojuego del 2009 Saw: The Videogame, donde ambos se basan en el mismo universo ficticio de las películas de Saw. Su estreno fue el 19 de octubre de 2010 coincidiendo con el estreno de la séptima película de Saw 3D, una semana después.",
-  notes: "Saw II: Flesh & Blood — Xbox 360 ReXGlue Recompilation.",
-  notesEs: "Saw II: Flesh & Blood — recompilación con ReXGlue para Xbox 360.",
+  notes: "Saw II: Flesh & Blood — Xbox 360 ReXGlue Recompilation. The GitHub repository was archived in August 2026 with no published release; the alpha source remains available.",
+  notesEs: "Saw II: Flesh & Blood — recompilación con ReXGlue para Xbox 360. El repositorio de GitHub se archivó en agosto de 2026 sin publicar ninguna release; el código alpha sigue disponible.",
 };

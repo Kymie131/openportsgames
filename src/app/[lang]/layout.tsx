@@ -6,6 +6,7 @@ import "../globals.css";
 import { absoluteUrl, getSiteUrl, SITE_DESCRIPTION, SITE_NAME } from "@/lib/site";
 import { ThemeScript } from "@/components/theme/theme-script";
 import { LocaleProvider } from "@/components/i18n/locale-provider";
+import { RatingSummaryProvider } from "@/components/community/rating-summary-provider";
 import { SkipLink } from "@/components/layout/skip-link";
 import { SiteHeader } from "@/components/layout/site-header";
 import { SiteFooter } from "@/components/layout/site-footer";
@@ -75,12 +76,14 @@ export default async function RootLayout({
       <body className="flex min-h-full flex-col">
         <ThemeScript />
         <LocaleProvider locale={lang}>
-          <SkipLink />
-          <SiteHeader />
-          <main id="main" className="flex-1">
-            {children}
-          </main>
-          <SiteFooter />
+          <RatingSummaryProvider>
+            <SkipLink />
+            <SiteHeader />
+            <main id="main" className="flex-1">
+              {children}
+            </main>
+            <SiteFooter />
+          </RatingSummaryProvider>
         </LocaleProvider>
       </body>
     </html>

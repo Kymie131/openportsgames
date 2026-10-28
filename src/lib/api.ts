@@ -25,6 +25,17 @@ export type RatingStats = {
   mine: number | null;
 };
 
+/** Public rating aggregate for one port, used by listing cards. */
+export type RatingSummaryItem = {
+  portId: string;
+  average: number;
+  count: number;
+};
+
+export type RatingSummaryResponse = {
+  items: RatingSummaryItem[];
+};
+
 export type ReviewSentiment = "positive" | "negative";
 
 export type ReviewSummary = {

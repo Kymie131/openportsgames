@@ -22,6 +22,7 @@ Worker de Cloudflare + D1 para cuentas, comentarios, respuestas, corazones y el 
 | `GET` | `/me` | Usuario de la sesión |
 | `DELETE` | `/me` | Borra la cuenta y todo lo asociado |
 | `GET` | `/ratings/:portId` | Media y número de corazones |
+| `GET` | `/ratings/summary` | Media y número de corazones de todos los ports puntuados |
 | `PUT` | `/ratings/:portId` | Puntúa con `{ "hearts": 1..5 }` |
 | `DELETE` | `/ratings/:portId` | Quita tu puntuación |
 | `GET` | `/comments/:portId` | Comentarios paginados (incluye `sentiment` si es reseña) |

@@ -13,7 +13,7 @@ export const shipOfHarkinian: Port = {
   openSource: true,
   platforms: ["windows", "linux", "macos", "android"],
   status: "stable",
-  release: { version: "9.3.0", date: "2026-10-06" },
+  release: { version: "9.3.1", date: "2026-10-18" },
   sources: ["https://github.com/HarbourMasters/Shipwright"],
   website: "https://www.harbourmasters.org/game/ship-of-harkinian",
   docs: "https://www.shipofharkinian.com/",
@@ -22,7 +22,7 @@ export const shipOfHarkinian: Port = {
     note: "no SPDX license file in the repository",
   },
   verified: true,
-  verifiedAt: "2026-09-19",
+  verifiedAt: "2026-10-27",
   screenshots: [
     {
       src: "https://www.shipofharkinian.com/screenshot_saria.jpg",

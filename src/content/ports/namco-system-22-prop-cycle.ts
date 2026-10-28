@@ -13,11 +13,11 @@ export const namcoSystem22PropCycle: Port = {
   openSource: true,
   platforms: ["windows", "linux"],
   status: "beta",
-  release: { version: "0.8.1", date: "2026-10-14" },
+  release: { version: "0.9.3", date: "2026-10-25" },
   sources: ["https://github.com/spacestate1/namco22-decompile"],
   license: { spdx: "MIT" },
   verified: true,
-  verifiedAt: "2026-10-14",
+  verifiedAt: "2026-10-27",
   originalSystems: ["Namco System 22"],
   features: [
     "Playable from the first screen to the last, with sound",

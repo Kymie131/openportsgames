@@ -13,11 +13,11 @@ export const nuggetDoom: Port = {
   portType: "source-port",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
-  release: { version: "6.0.1", date: "2026-09-09" },
+  release: { version: "6.1.0", date: "2026-10-18" },
   sources: ["https://github.com/MrAlaux/Nugget-Doom"],
   license: { spdx: "GPL-2.0" },
   verified: true,
-  verifiedAt: "2026-10-01",
+  verifiedAt: "2026-10-27",
   originalSystems: ["MS-DOS"],
   features: [
     "Modern renderer with shadows and reflections",

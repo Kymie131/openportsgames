@@ -12,6 +12,8 @@ import { PortImageFallback } from "@/components/ports/port-image-fallback";
 import { SystemBadge } from "@/components/platforms/system-badge";
 import { useLocale, useT } from "@/lib/i18n/use-i18n";
 import { cn } from "@/lib/utils";
+import { Hearts, ratingLabel } from "@/components/community/rating-hearts";
+import { usePortRating } from "@/components/community/rating-summary-provider";
 
 const STATUS_TONE: Record<Port["status"], string> = {
   stable: "bg-[color-mix(in_oklab,var(--ok)_15%,transparent)] text-ok",
@@ -36,6 +38,7 @@ export function PortTile({
 }) {
   const t = useT();
   const locale = useLocale();
+  const rating = usePortRating(port.id);
   const [source] = port.sources;
   const starLabel =
     stars !== undefined && stars > 0 ? new Intl.NumberFormat("en").format(stars) : undefined;
@@ -80,6 +83,15 @@ export function PortTile({
         <p className="truncate text-sm text-muted" title={port.title}>
           {port.title}
         </p>
+        {rating && rating.count > 0 && (
+          <div className="flex items-center gap-1.5 pt-0.5">
+            <Hearts value={rating.average} />
+            <span className="text-xs font-medium text-foreground">
+              {ratingLabel(rating.average)}
+            </span>
+            <span className="text-xs text-muted">({rating.count})</span>
+          </div>
+        )}
         {system && (
           <div className="pt-0.5">
             <SystemBadge system={system} size="sm" />

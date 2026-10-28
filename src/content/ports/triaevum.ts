@@ -13,11 +13,11 @@ export const triAevum: Port = {
   portType: "recompilation",
   platforms: ["windows", "linux"],
   status: "alpha",
-  release: { version: "0.6.0-alpha.3", date: "2026-09-18" },
+  release: { version: "0.8.0-beta.1.2", date: "2026-10-22" },
   sources: ["https://github.com/coccofresco/TriAevum"],
   license: { spdx: "GPL-3.0-or-later" },
   verified: true,
-  verifiedAt: "2026-09-22",
+  verifiedAt: "2026-10-27",
   originalSystems: ["Nintendo 3DS"],
   features: [
     "NRI/Vulkan renderer with cel shading and outlines",

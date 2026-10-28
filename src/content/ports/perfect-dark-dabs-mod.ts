@@ -13,11 +13,11 @@ export const perfectDarkDabsMod: Port = {
   portType: "decompilation",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
-  release: { version: "3.14.0", date: "2026-10-03" },
+  release: { version: "3.15.1", date: "2026-10-21" },
   sources: ["https://github.com/DabDavis/perfect-dark-dabs-mod"],
   license: { spdx: "MIT" },
   verified: true,
-  verifiedAt: "2026-09-22",
+  verifiedAt: "2026-10-27",
   originalSystems: ["Nintendo 64"],
   features: [
     "Jump, combat roll, melee combos and third-person camera",
