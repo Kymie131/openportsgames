@@ -4,6 +4,7 @@ import { catalogPageCount, type CatalogScope } from "@/lib/ports/catalog";
 import { absoluteUrl, SITE_CONTENT_UPDATED } from "@/lib/site";
 import { locales, localizePath } from "@/lib/i18n/locales";
 import { consoleDefs } from "@/content/consoles";
+import { guideSlugs } from "@/content/guides";
 
 export const dynamic = "force-static";
 
@@ -65,6 +66,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const port of allPorts) addPath(`/ports/${port.id}`, portLastModified(port));
 
   for (const def of consoleDefs) addPath(`/console/${def.slug}`, SITE_CONTENT_UPDATED);
+
+  for (const slug of guideSlugs) addPath(`/guides/${slug}`, SITE_CONTENT_UPDATED);
 
   return entries;
 }

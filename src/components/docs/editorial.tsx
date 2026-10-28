@@ -13,9 +13,17 @@ export function DocHeader({ title, subtitle }: { title: string; subtitle: string
   );
 }
 
-export function DocSection({ title, children }: { title: string; children: ReactNode }) {
+export function DocSection({
+  id,
+  title,
+  children,
+}: {
+  id?: string;
+  title: string;
+  children: ReactNode;
+}) {
   return (
-    <section className="flex max-w-2xl flex-col gap-3">
+    <section id={id} className="flex max-w-2xl scroll-mt-24 flex-col gap-3">
       <h2 className="text-lg font-semibold tracking-tight">{title}</h2>
       {children}
     </section>

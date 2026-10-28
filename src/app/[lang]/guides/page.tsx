@@ -1,4 +1,3 @@
-import { Suspense } from "react";
 import type { Metadata } from "next";
 import { GuideContent } from "@/components/docs/guide-content";
 import { Container } from "@/components/layout/container";
@@ -21,13 +20,14 @@ export async function generateMetadata({
   });
 }
 
-export default function GuidesRoute() {
+export default async function GuidesRoute({ params }: { params: Promise<{ lang: string }> }) {
+  const { lang } = await params;
+  const locale = asLocale(lang);
+
   return (
     <section className="py-8">
       <Container className="max-w-3xl">
-        <Suspense>
-          <GuideContent />
-        </Suspense>
+        <GuideContent locale={locale} />
       </Container>
     </section>
   );

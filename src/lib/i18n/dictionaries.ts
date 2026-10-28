@@ -355,6 +355,7 @@ const en = {
   },
   guides: {
     title: "Guides",
+    backToGuides: "All guides",
     subtitle:
       "What a native port is, how the different techniques work and how to play these games legally.",
     whatTitle: "What is a native port?",
@@ -503,6 +504,8 @@ const en = {
     ],
     taigaSource: "Taiga Launcher on GitHub",
     faqTitle: "Frequently asked questions",
+    faqIntro:
+      "Quick answers about native ports, emulators, downloads and Android builds.",
     faq: [
       {
         q: "Is a native port the same as an emulator?",
@@ -1298,6 +1301,7 @@ const es: Messages = {
   },
   guides: {
     title: "Guías",
+    backToGuides: "Todas las guías",
     subtitle:
       "Qué es un port nativo, cómo funcionan las distintas técnicas y cómo jugar a estos juegos de forma legal.",
     whatTitle: "¿Qué es un port nativo?",
@@ -1446,6 +1450,8 @@ const es: Messages = {
     ],
     taigaSource: "Taiga Launcher en GitHub",
     faqTitle: "Preguntas frecuentes",
+    faqIntro:
+      "Respuestas rápidas sobre ports nativos, emuladores, descargas y builds de Android.",
     faq: [
       {
         q: "¿Un port nativo es lo mismo que un emulador?",

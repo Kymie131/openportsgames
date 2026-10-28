@@ -1,5 +1,7 @@
 import { describe, expect, it } from "vitest";
 import sitemap from "@/app/sitemap";
+import { guideSlugs } from "@/content/guides";
+import { locales } from "@/lib/i18n/locales";
 import { absoluteUrl } from "@/lib/site";
 
 const entries = sitemap();
@@ -65,5 +67,13 @@ describe("sitemap", () => {
     expect(locs.has(absoluteUrl("/es/ports/pokemon-sword/"))).toBe(true);
     expect(locs.has(absoluteUrl("/en/ports/okamiden/"))).toBe(true);
     expect(locs.has(absoluteUrl("/en/ports/pok-mon-sword/"))).toBe(false);
+  });
+
+  it("lists every guide page in both locales", () => {
+    for (const locale of locales) {
+      for (const slug of guideSlugs) {
+        expect(locs.has(absoluteUrl(`/${locale}/guides/${slug}/`)), slug).toBe(true);
+      }
+    }
   });
 });
