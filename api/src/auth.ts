@@ -84,10 +84,30 @@ export function createAuth(env: Env) {
         },
         update: {
           before: async (user) => {
-            if (user.name === undefined) return;
-            const name = typeof user.name === "string" ? user.name.trim() : "";
-            if (name.length < 2 || name.length > 40) return false;
-            return { data: { ...user, name } };
+            const data = { ...user };
+
+            if (user.name !== undefined) {
+              const name = typeof user.name === "string" ? user.name.trim() : "";
+              if (name.length < 2 || name.length > 40) return false;
+              data.name = name;
+            }
+
+            if (user.image !== undefined) {
+              if (user.image === null || user.image === "") {
+                data.image = null;
+              } else {
+                let url: URL;
+                try {
+                  url = new URL(String(user.image));
+                } catch {
+                  return false;
+                }
+                if (url.protocol !== "https:" || url.href.length > 500) return false;
+                data.image = url.href;
+              }
+            }
+
+            return { data };
           },
         },
       },

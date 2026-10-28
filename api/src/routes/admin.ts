@@ -199,6 +199,96 @@ admin.get("/missing-comments", async (c) => {
   });
 });
 
+admin.get("/users/:id", async (c) => {
+  const id = c.req.param("id");
+  const db = drizzle(c.env.DB, { schema });
+
+  const userRows = await db
+    .select({
+      id: schema.user.id,
+      name: schema.user.name,
+      image: schema.user.image,
+      role: schema.user.role,
+      createdAt: schema.user.createdAt,
+      ratings: sql<number>`(select count(*) from ${schema.rating} where ${schema.rating.userId} = ${schema.user.id})`,
+      comments: sql<number>`(select count(*) from ${schema.comment} where ${schema.comment.userId} = ${schema.user.id})`,
+    })
+    .from(schema.user)
+    .where(eq(schema.user.id, id))
+    .limit(1);
+
+  const user = userRows[0];
+  if (!user) return c.json({ error: "not_found" }, 404);
+
+  const [ratings, comments, missing] = await Promise.all([
+    db
+      .select({
+        portId: schema.rating.portId,
+        stars: schema.rating.stars,
+        updatedAt: schema.rating.updatedAt,
+      })
+      .from(schema.rating)
+      .where(eq(schema.rating.userId, id))
+      .orderBy(desc(schema.rating.updatedAt))
+      .limit(100),
+    db
+      .select({
+        id: schema.comment.id,
+        portId: schema.comment.portId,
+        body: schema.comment.body,
+        sentiment: schema.comment.sentiment,
+        status: schema.comment.status,
+        createdAt: schema.comment.createdAt,
+      })
+      .from(schema.comment)
+      .where(eq(schema.comment.userId, id))
+      .orderBy(desc(schema.comment.createdAt))
+      .limit(100),
+    db
+      .select({
+        id: schema.missingPort.id,
+        title: schema.missingPort.title,
+        status: schema.missingPort.status,
+        createdAt: schema.missingPort.createdAt,
+      })
+      .from(schema.missingPort)
+      .where(eq(schema.missingPort.userId, id))
+      .orderBy(desc(schema.missingPort.createdAt))
+      .limit(100),
+  ]);
+
+  return c.json({
+    user: {
+      id: user.id,
+      name: user.name,
+      image: user.image ?? null,
+      role: user.role,
+      createdAt: user.createdAt.toISOString(),
+      ratings: Number(user.ratings ?? 0),
+      comments: Number(user.comments ?? 0),
+    },
+    ratings: ratings.map((row) => ({
+      portId: row.portId,
+      stars: row.stars,
+      updatedAt: row.updatedAt.toISOString(),
+    })),
+    comments: comments.map((row) => ({
+      id: row.id,
+      portId: row.portId,
+      body: row.body,
+      sentiment: row.sentiment ?? null,
+      status: row.status,
+      createdAt: row.createdAt.toISOString(),
+    })),
+    missing: missing.map((row) => ({
+      id: row.id,
+      title: row.title,
+      status: row.status,
+      createdAt: row.createdAt.toISOString(),
+    })),
+  });
+});
+
 admin.patch(
   "/missing-comments/:id",
   rateLimit({ limit: 60, windowMs: 10 * 60 * 1000, scope: "admin-moderation" }),
@@ -249,11 +339,20 @@ admin.get("/users", async (c) => {
     return c.json({ error: "invalid_cursor" }, 400);
   }
 
+  const rawRole = c.req.query("role");
+  const role = rawRole === "admin" || rawRole === "user" ? rawRole : null;
+  const rawSort = c.req.query("sort") ?? "newest";
+  const sort =
+    rawSort === "ratings" || rawSort === "comments" || rawSort === "name"
+      ? rawSort
+      : "newest";
+
   const limit = parseLimit(c.req.query("limit"));
   const db = drizzle(c.env.DB, { schema });
 
   const conditions: SQL[] = [];
-  if (cursor) {
+  if (role) conditions.push(eq(schema.user.role, role));
+  if (cursor && sort === "newest") {
     const at = new Date(cursor.createdAt);
     conditions.push(
       or(
@@ -263,6 +362,18 @@ admin.get("/users", async (c) => {
     );
   }
 
+  const ratingsCount = sql<number>`(select count(*) from ${schema.rating} where ${schema.rating.userId} = ${schema.user.id})`;
+  const commentsCount = sql<number>`(select count(*) from ${schema.comment} where ${schema.comment.userId} = ${schema.user.id})`;
+
+  const order =
+    sort === "ratings"
+      ? [desc(ratingsCount), desc(schema.user.createdAt)]
+      : sort === "comments"
+        ? [desc(commentsCount), desc(schema.user.createdAt)]
+        : sort === "name"
+          ? [schema.user.name, desc(schema.user.createdAt)]
+          : [desc(schema.user.createdAt), desc(schema.user.id)];
+
   const rows = await db
     .select({
       id: schema.user.id,
@@ -270,15 +381,15 @@ admin.get("/users", async (c) => {
       image: schema.user.image,
       role: schema.user.role,
       createdAt: schema.user.createdAt,
-      ratings: sql<number>`(select count(*) from ${schema.rating} where ${schema.rating.userId} = ${schema.user.id})`,
-      comments: sql<number>`(select count(*) from ${schema.comment} where ${schema.comment.userId} = ${schema.user.id})`,
+      ratings: ratingsCount,
+      comments: commentsCount,
     })
     .from(schema.user)
     .where(conditions.length ? and(...conditions) : undefined)
-    .orderBy(desc(schema.user.createdAt), desc(schema.user.id))
-    .limit(limit + 1);
+    .orderBy(...order)
+    .limit(sort === "newest" ? limit + 1 : 200);
 
-  const hasMore = rows.length > limit;
+  const hasMore = sort === "newest" && rows.length > limit;
   const page = hasMore ? rows.slice(0, limit) : rows;
   const last = page.at(-1);
 
@@ -292,7 +403,8 @@ admin.get("/users", async (c) => {
       ratings: Number(row.ratings ?? 0),
       comments: Number(row.comments ?? 0),
     })),
-    nextCursor: hasMore && last ? encodeCursor(last.createdAt.getTime(), last.id) : null,
+    nextCursor:
+      hasMore && last ? encodeCursor(last.createdAt.getTime(), last.id) : null,
   });
 });
 

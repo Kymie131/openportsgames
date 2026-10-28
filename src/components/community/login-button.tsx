@@ -9,6 +9,7 @@ import {
   LogIn,
   LogOut,
   MessageCircle,
+  Image as ImageIcon,
   Pencil,
   ShieldCheck,
   Trash2,
@@ -55,6 +56,10 @@ export function LoginButton({ className }: { className?: string }) {
   const [nickname, setNickname] = useState("");
   const [nicknameSaving, setNicknameSaving] = useState(false);
   const [nicknameError, setNicknameError] = useState<string | null>(null);
+  const [photoOpen, setPhotoOpen] = useState(false);
+  const [photo, setPhoto] = useState("");
+  const [photoSaving, setPhotoSaving] = useState(false);
+  const [photoError, setPhotoError] = useState<string | null>(null);
   const [enabled, setEnabled] = useState<Record<Provider, boolean> | null>(null);
   const [roleState, setRoleState] = useState<{ id: string; role: string } | null>(null);
 
@@ -169,6 +174,31 @@ export function LoginButton({ className }: { className?: string }) {
     }
   }
 
+  async function savePhoto() {
+    const value = photo.trim();
+    setPhotoError(null);
+    if (value && !/^https:\/\//i.test(value)) {
+      setPhotoError(t.community.login.photoError);
+      return;
+    }
+    setPhotoSaving(true);
+    try {
+      const { error: updateError } = await authClient.updateUser({
+        image: value || null,
+      } as never);
+      if (updateError) {
+        setPhotoError(t.community.login.photoError);
+        setPhotoSaving(false);
+        return;
+      }
+      setPhotoOpen(false);
+      window.location.reload();
+    } catch {
+      setPhotoError(t.community.login.photoError);
+      setPhotoSaving(false);
+    }
+  }
+
   if (isPending) {
     return (
       <span
@@ -248,6 +278,18 @@ export function LoginButton({ className }: { className?: string }) {
                 >
                   <Pencil className="size-4" aria-hidden="true" />
                   {t.community.login.nickname}
+                </DropdownMenu.Item>
+                <DropdownMenu.Item
+                  onSelect={() => {
+                    setPhoto(user.image ?? "");
+                    setPhotoError(null);
+                    setPhotoOpen(true);
+                  }}
+                  disabled={busy}
+                  className="flex cursor-pointer items-center gap-2 rounded-sm px-2.5 py-1.5 text-sm text-foreground outline-none transition-colors hover:bg-surface-2 focus:bg-surface-2 data-[disabled]:pointer-events-none data-[disabled]:opacity-60"
+                >
+                  <ImageIcon className="size-4" aria-hidden="true" />
+                  {t.community.login.changePhoto}
                 </DropdownMenu.Item>
                 <DropdownMenu.Item
                   onSelect={() => {
@@ -361,8 +403,51 @@ export function LoginButton({ className }: { className?: string }) {
           </div>
         </div>
       </Dialog>
+      <Dialog
+        open={photoOpen}
+        onOpenChange={(open) => {
+          if (!photoSaving) setPhotoOpen(open);
+        }}
+        title={t.community.login.photoTitle}
+        description={t.community.login.photoDescription}
+      >
+        <div className="flex flex-col gap-3">
+          <label htmlFor="opg-photo" className="sr-only">
+            {t.community.login.photoPlaceholder}
+          </label>
+          <input
+            id="opg-photo"
+            value={photo}
+            onChange={(event) => setPhoto(event.target.value)}
+            maxLength={500}
+            placeholder={t.community.login.photoPlaceholder}
+            className="w-full rounded-md border border-border bg-background px-3 py-2 text-sm text-foreground placeholder:text-muted focus:border-accent focus:outline-none focus-visible:ring-2 focus-visible:ring-ring/50"
+          />
+          {photoError && (
+            <p role="alert" className="text-sm text-danger">
+              {photoError}
+            </p>
+          )}
+          <div className="flex justify-end gap-2">
+            <Button
+              variant="secondary"
+              size="sm"
+              onClick={() => setPhotoOpen(false)}
+              disabled={photoSaving}
+            >
+              {t.community.login.deleteCancel}
+            </Button>
+            <Button size="sm" onClick={() => void savePhoto()} disabled={photoSaving}>
+              {photoSaving ? t.community.login.photoSaving : t.community.login.photoSave}
+            </Button>
+          </div>
+        </div>
+      </Dialog>
     </>
   );
 }
+
+
+
 
 

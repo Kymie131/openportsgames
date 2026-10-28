@@ -43,6 +43,20 @@ type UserItem = {
   comments: number;
 };
 
+type UserDetail = {
+  user: UserItem;
+  ratings: { portId: string; stars: number; updatedAt: string }[];
+  comments: {
+    id: string;
+    portId: string;
+    body: string;
+    sentiment: "positive" | "negative" | null;
+    status: "visible" | "hidden";
+    createdAt: string;
+  }[];
+  missing: { id: string; title: string; status: "open" | "done" | "hidden"; createdAt: string }[];
+};
+
 type Page<T> = { items: T[]; nextCursor: string | null };
 
 const STRINGS = {
@@ -77,13 +91,27 @@ const STRINGS = {
     ratingsCount: (count: number) => `${count} ratings`,
     commentsCount: (count: number) => `${count} comments`,
     you: "You",
+    allRoles: "All roles",
+    filterRole: "Role",
+    sortBy: "Sort by",
+    sortNewest: "Newest",
+    sortRatings: "Most ratings",
+    sortComments: "Most comments",
+    sortName: "Name",
+    profile: "Profile",
+    profileRatings: "Ratings",
+    profileComments: "Comments",
+    profileMissing: "Missing-port proposals",
+    profileEmpty: "Nothing yet.",
+    close: "Close",
+    loadingProfile: "Loading profileâ€¦",
   },
   es: {
-    title: "Moderación",
-    subtitle: "Revisa denuncias y comentarios del tablón de ports faltantes.",
+    title: "ModeraciÃ³n",
+    subtitle: "Revisa denuncias y comentarios del tablÃ³n de ports faltantes.",
     reports: "Denuncias",
-    board: "Comentarios del tablón",
-    loadMore: "Cargar más",
+    board: "Comentarios del tablÃ³n",
+    loadMore: "Cargar mÃ¡s",
     emptyReports: "No hay denuncias pendientes.",
     emptyComments: "No hay comentarios que moderar.",
     hide: "Ocultar",
@@ -94,9 +122,9 @@ const STRINGS = {
     visible: "Visible",
     by: "por",
     reportReason: "Motivo",
-    anonymous: "Inicia sesión con una cuenta admin para moderar.",
+    anonymous: "Inicia sesiÃ³n con una cuenta admin para moderar.",
     forbidden: "Esta cuenta no tiene el rol de administrador.",
-    error: "No se pudieron cargar los datos de moderación.",
+    error: "No se pudieron cargar los datos de moderaciÃ³n.",
     retry: "Reintentar",
     post: "Propuesta",
     users: "Usuarios",
@@ -108,7 +136,21 @@ const STRINGS = {
     joined: "Registro",
     ratingsCount: (count: number) => `${count} valoraciones`,
     commentsCount: (count: number) => `${count} comentarios`,
-    you: "Tú",
+    you: "TÃº",
+    allRoles: "Todos los roles",
+    filterRole: "Rol",
+    sortBy: "Ordenar por",
+    sortNewest: "MÃ¡s recientes",
+    sortRatings: "MÃ¡s valoraciones",
+    sortComments: "MÃ¡s comentarios",
+    sortName: "Nombre",
+    profile: "Perfil",
+    profileRatings: "Valoraciones",
+    profileComments: "Comentarios",
+    profileMissing: "Propuestas de ports",
+    profileEmpty: "TodavÃ­a nada.",
+    close: "Cerrar",
+    loadingProfile: "Cargando perfilâ€¦",
   },
 } as const;
 
@@ -157,6 +199,12 @@ export function AdminDashboard() {
   const [commentsCursor, setCommentsCursor] = useState<string | null>(null);
   const [users, setUsers] = useState<UserItem[]>([]);
   const [usersCursor, setUsersCursor] = useState<string | null>(null);
+  const [roleFilter, setRoleFilter] = useState<"all" | "user" | "admin">("all");
+  const [userSort, setUserSort] = useState<"newest" | "ratings" | "comments" | "name">(
+    "newest",
+  );
+  const [profile, setProfile] = useState<UserDetail | null>(null);
+  const [profileLoading, setProfileLoading] = useState(false);
   const [loadingMore, setLoadingMore] = useState(false);
   const [busy, setBusy] = useState<string | null>(null);
   const [actionError, setActionError] = useState(false);
@@ -191,10 +239,17 @@ export function AdminDashboard() {
     return apiFetch<Page<MissingCommentItem>>(`/admin/missing-comments${query}`);
   }, []);
 
-  const loadUsers = useCallback(async (cursor?: string) => {
-    const query = cursor ? `?cursor=${encodeURIComponent(cursor)}` : "";
-    return apiFetch<Page<UserItem>>(`/admin/users${query}`);
-  }, []);
+  const loadUsers = useCallback(
+    async (cursor?: string) => {
+      const params = new URLSearchParams();
+      if (roleFilter !== "all") params.set("role", roleFilter);
+      if (userSort !== "newest") params.set("sort", userSort);
+      if (cursor && userSort === "newest") params.set("cursor", cursor);
+      const query = params.size ? `?${params.toString()}` : "";
+      return apiFetch<Page<UserItem>>(`/admin/users${query}`);
+    },
+    [roleFilter, userSort],
+  );
 
   useEffect(() => {
     if (state !== "ready") return;
@@ -347,6 +402,19 @@ export function AdminDashboard() {
     }
   }
 
+  async function openProfile(id: string) {
+    setProfileLoading(true);
+    setActionError(false);
+    try {
+      const detail = await apiFetch<UserDetail>(`/admin/users/${id}`);
+      setProfile(detail);
+    } catch {
+      setActionError(true);
+    } finally {
+      setProfileLoading(false);
+    }
+  }
+
   return (
     <section className="py-8">
       <Container className="max-w-3xl">
@@ -361,7 +429,7 @@ export function AdminDashboard() {
         {state === "loading" && (
           <p className="mt-8 inline-flex items-center gap-2 text-sm text-muted">
             <LoaderCircle className="size-4 animate-spin" aria-hidden="true" />
-            {t.title}⬦
+            {t.title}â¬¦
           </p>
         )}
 
@@ -423,14 +491,14 @@ export function AdminDashboard() {
                       <span>
                         {t.reportReason}: {item.reason}
                       </span>
-                      <span>·</span>
+                      <span>Â·</span>
                       <span>{shortDate(item.createdAt, lang)}</span>
                     </div>
                     <p className="whitespace-pre-wrap text-sm text-foreground">
                       {item.comment.body}
                     </p>
                     <p className="text-xs text-muted">
-                      {item.comment.author.name} · {t.by} {item.reporter.name}
+                      {item.comment.author.name} Â· {t.by} {item.reporter.name}
                     </p>
                     <div className="flex flex-wrap gap-2">
                       <button
@@ -487,7 +555,7 @@ export function AdminDashboard() {
                       <span>
                         {t.post}: {item.post.title}
                       </span>
-                      <span>·</span>
+                      <span>Â·</span>
                       <span>{shortDate(item.createdAt, lang)}</span>
                     </div>
                     <p className="whitespace-pre-wrap text-sm text-foreground">{item.body}</p>
@@ -523,6 +591,39 @@ export function AdminDashboard() {
 
             {tab === "users" && (
               <div className="flex flex-col gap-3">
+                <div className="flex flex-wrap items-center gap-2">
+                  <label className="inline-flex items-center gap-2 text-xs text-muted">
+                    {t.filterRole}
+                    <select
+                      value={roleFilter}
+                      onChange={(event) =>
+                        setRoleFilter(event.target.value as "all" | "user" | "admin")
+                      }
+                      className="rounded-md border border-border bg-surface px-2 py-1.5 text-xs text-foreground"
+                    >
+                      <option value="all">{t.allRoles}</option>
+                      <option value="admin">{t.adminRole}</option>
+                      <option value="user">{t.userRole}</option>
+                    </select>
+                  </label>
+                  <label className="inline-flex items-center gap-2 text-xs text-muted">
+                    {t.sortBy}
+                    <select
+                      value={userSort}
+                      onChange={(event) =>
+                        setUserSort(
+                          event.target.value as "newest" | "ratings" | "comments" | "name",
+                        )
+                      }
+                      className="rounded-md border border-border bg-surface px-2 py-1.5 text-xs text-foreground"
+                    >
+                      <option value="newest">{t.sortNewest}</option>
+                      <option value="ratings">{t.sortRatings}</option>
+                      <option value="comments">{t.sortComments}</option>
+                      <option value="name">{t.sortName}</option>
+                    </select>
+                  </label>
+                </div>
                 {users.length === 0 && <p className="text-sm text-muted">{t.emptyUsers}</p>}
                 {users.map((item) => (
                   <article
@@ -545,7 +646,13 @@ export function AdminDashboard() {
                     <div className="flex flex-wrap items-center justify-between gap-2">
                       <div className="flex items-center gap-2">
                         <Users className="size-4 text-muted" aria-hidden="true" />
-                        <span className="text-sm font-medium">{item.name}</span>
+                        <button
+                          type="button"
+                          onClick={() => void openProfile(item.id)}
+                          className="text-sm font-medium underline-offset-4 hover:underline"
+                        >
+                          {item.name}
+                        </button>
                       </div>
                       <div className="flex flex-wrap items-center gap-3 text-xs text-muted">
                         <span>{t.ratingsCount(item.ratings)}</span>
@@ -582,9 +689,145 @@ export function AdminDashboard() {
           </div>
         )}
       </Container>
+
+      {(profileLoading || profile) && (
+        <div
+          className="fixed inset-0 z-50 overflow-y-auto bg-black/60 p-4"
+          role="dialog"
+          aria-modal="true"
+          aria-label={t.profile}
+        >
+          <div className="mx-auto flex max-w-2xl flex-col gap-4 rounded-xl border border-border bg-background p-5 shadow-xl">
+            <div className="flex items-start justify-between gap-3">
+              <h2 className="text-lg font-semibold">{t.profile}</h2>
+              <button
+                type="button"
+                onClick={() => setProfile(null)}
+                className="rounded-md border border-border px-2.5 py-1.5 text-xs hover:bg-surface-2"
+              >
+                {t.close}
+              </button>
+            </div>
+
+            {profileLoading ? (
+              <p className="inline-flex items-center gap-2 text-sm text-muted">
+                <LoaderCircle className="size-4 animate-spin" aria-hidden="true" />
+                {t.loadingProfile}
+              </p>
+            ) : profile ? (
+              <>
+                <div className="flex items-center gap-3">
+                  {profile.user.image ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={profile.user.image}
+                      alt=""
+                      className="size-12 rounded-full border border-border object-cover"
+                    />
+                  ) : (
+                    <span className="flex size-12 items-center justify-center rounded-full border border-border bg-surface-2 font-semibold uppercase">
+                      {profile.user.name.charAt(0)}
+                    </span>
+                  )}
+                  <div className="flex flex-col">
+                    <span className="font-medium">{profile.user.name}</span>
+                    <span className="text-xs text-muted">
+                      {profile.user.role === "admin" ? t.adminRole : t.userRole} Â·{" "}
+                      {shortDate(profile.user.createdAt, lang)}
+                    </span>
+                  </div>
+                  <div className="ml-auto text-xs text-muted">
+                    <span>{t.ratingsCount(profile.user.ratings)}</span> Â·{" "}
+                    <span>{t.commentsCount(profile.user.comments)}</span>
+                  </div>
+                </div>
+
+                <section className="flex flex-col gap-2">
+                  <h3 className="text-sm font-semibold">{t.profileRatings}</h3>
+                  {profile.ratings.length === 0 ? (
+                    <p className="text-sm text-muted">{t.profileEmpty}</p>
+                  ) : (
+                    <ul className="flex flex-col gap-1.5 text-sm">
+                      {profile.ratings.map((rating) => (
+                        <li key={`${rating.portId}-${rating.updatedAt}`}>
+                          <a
+                            href={`/${lang}/ports/${rating.portId}/`}
+                            className="text-link hover:underline"
+                          >
+                            {rating.portId}
+                          </a>{" "}
+                          <span className="text-muted">Â· {rating.stars}/5</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </section>
+
+                <section className="flex flex-col gap-2">
+                  <h3 className="text-sm font-semibold">{t.profileComments}</h3>
+                  {profile.comments.length === 0 ? (
+                    <p className="text-sm text-muted">{t.profileEmpty}</p>
+                  ) : (
+                    <ul className="flex flex-col gap-2">
+                      {profile.comments.map((comment) => (
+                        <li
+                          key={comment.id}
+                          className="rounded-lg border border-border bg-surface p-3 text-sm"
+                        >
+                          <div className="mb-1 flex flex-wrap items-center gap-2 text-xs text-muted">
+                            <a
+                              href={`/${lang}/ports/${comment.portId}/`}
+                              className="text-link hover:underline"
+                            >
+                              {comment.portId}
+                            </a>
+                            {comment.sentiment && (
+                              <span
+                                className={
+                                  comment.sentiment === "positive"
+                                    ? "rounded-full bg-emerald-500/10 px-2 py-0.5 text-emerald-500"
+                                    : "rounded-full bg-rose-500/10 px-2 py-0.5 text-rose-500"
+                                }
+                              >
+                                {comment.sentiment === "positive"
+                                  ? t.profileComments
+                                  : t.profileComments}
+                              </span>
+                            )}
+                            {comment.status === "hidden" && <span>Â· {t.hidden}</span>}
+                            <span>Â· {shortDate(comment.createdAt, lang)}</span>
+                          </div>
+                          <p className="whitespace-pre-wrap break-words">{comment.body}</p>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </section>
+
+                <section className="flex flex-col gap-2">
+                  <h3 className="text-sm font-semibold">{t.profileMissing}</h3>
+                  {profile.missing.length === 0 ? (
+                    <p className="text-sm text-muted">{t.profileEmpty}</p>
+                  ) : (
+                    <ul className="flex flex-col gap-1.5 text-sm">
+                      {profile.missing.map((item) => (
+                        <li key={item.id}>
+                          {item.title}{" "}
+                          <span className="text-muted">Â· {item.status}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </section>
+              </>
+            ) : null}
+          </div>
+        </div>
+      )}
     </section>
   );
 }
+
 
 
 
