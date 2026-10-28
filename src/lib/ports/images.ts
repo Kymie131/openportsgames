@@ -59,6 +59,7 @@ export const IMAGE_HOST_WHITELIST = [
   "www.openttd.org",
   "openxcom.org",
   "www.shipofharkinian.com",
+  "road-rash.archit.xyz",
 ] as const;
 
 const WHITELIST = new Set<string>(IMAGE_HOST_WHITELIST);

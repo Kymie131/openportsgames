@@ -3,7 +3,7 @@ import type { Port } from "@/lib/ports/schema";
 export const carmageddon2Android: Port = {
   schema: "port",
   id: "carmageddon-2-android",
-  title: "Carmageddon 2 (Android)",
+  title: "Carmageddon 2 (Carpocalypse 2)",
   game: "Carmageddon 2: Carpocalypse Now",
   developers: ["Link4Electronics"],
   publisher: "Interplay Entertainment",
@@ -12,7 +12,7 @@ export const carmageddon2Android: Port = {
   genre: "racing",
   openSource: true,
   originalGameLicense: "proprietary",
-  platforms: ["android"],
+  platforms: ["linux", "android"],
   status: "beta",
   release: { version: "0.60", date: "2026-10-12" },
   sources: ["https://github.com/Link4Electronics/Carpocalypse2"],
@@ -22,12 +22,12 @@ export const carmageddon2Android: Port = {
   addedAt: "2026-10-22",
   originalSystems: ["Windows"],
   summary: "The world's first high-speed internal organ liberation simulator is back in full 3D! The slaughter is bloodier, the body parts fly further, and the destruction is heavier. Crash and burn through the 3D rendered crowds with the pedal to the metal.",
-  summaryEs: "Carmageddon 2: Carpocalypse Now es un videojuego de carreras publicado por THQ Nordic en 2014.",
+  summaryEs: "Carmageddon 2: Carpocalypse Now es un videojuego de carreras de 1998 desarrollado por Stainless Games y publicado por Interplay Entertainment. Combina carreras y destrucción con atropellos y combate vehicular.",
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282030/header.jpg?t=1727252729",
     alt: "Carmageddon 2: Carpocalypse Now (Steam header)",
     credit: "Steam",
   },
-  notes: "Decompilation and native Android port of Carmageddon 2, with armv7 APKs. Bring your own original game data.",
-  notesEs: "Descompilación y port nativo para Android de Carmageddon 2, con APK para armv7. Aporta los datos originales del juego.",
+  notes: "Decompilation and native port of Carmageddon 2, with a Linux AppImage and armv7 Android APKs. Bring your own original game data.",
+  notesEs: "Descompilación y port nativo de Carmageddon 2, con AppImage para Linux y APK armv7 para Android. Aporta los datos originales del juego.",
 };

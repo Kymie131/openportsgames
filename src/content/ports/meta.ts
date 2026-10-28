@@ -1773,6 +1773,7 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "riven-ds": ["Windows"],
   "rjkiv-sonic06": ["Unknown"],
   "road-rash-64-recompiled": ["Nintendo 64"],
+  "road-rash-native": ["Windows", "Sega Mega Drive / Genesis"],
   "road-trip-android": ["PlayStation 2"],
   "rob646464-luigis-mansion-recompiled": ["Unknown"],
   "robin-hood-s-platform-game-3ds": ["Unknown"],

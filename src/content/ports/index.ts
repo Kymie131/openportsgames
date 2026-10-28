@@ -1772,6 +1772,7 @@ import { rivalSchoolsRecomp } from "./rival-schools-recomp";
 import { rivenDs } from "./riven-ds";
 import { rjkivSonic06 } from "./rjkiv-sonic06";
 import { roadRash64Recompiled } from "./road-rash-64-recompiled";
+import { roadRashNative } from "./road-rash-native";
 import { roadTripAndroid } from "./road-trip-android";
 import { rob646464LuigisMansionRecompiled } from "./rob646464-luigis-mansion-recompiled";
 import { robinHoodSPlatformGame3ds } from "./robin-hood-s-platform-game-3ds";
@@ -4382,6 +4383,7 @@ export const portCases: Port[] = [
   rivenDs,
   rjkivSonic06,
   roadRash64Recompiled,
+  roadRashNative,
   roadTripAndroid,
   rob646464LuigisMansionRecompiled,
   robinHoodSPlatformGame3ds,
