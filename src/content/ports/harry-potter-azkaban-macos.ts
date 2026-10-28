@@ -29,5 +29,5 @@ export const harryPotterAzkabanMacos: Port = {
     credit: "OpenPortsGames",
   },
   notes: "Harry Potter and the Prisoner of Azkaban (macOS): native recompilation of Harry Potter and the Prisoner of Azkaban for macos. Bring your own copy of the game.",
-  notesEs: "Harry Potter and the Prisoner of Azkaban (macOS): recompilaciÃ³n nativo de Harry Potter and the Prisoner of Azkaban para macos. Aporta tu propia copia del juego.",
+  notesEs: "Harry Potter and the Prisoner of Azkaban (macOS): recompilación nativo de Harry Potter and the Prisoner of Azkaban para macos. Aporta tu propia copia del juego.",
 };

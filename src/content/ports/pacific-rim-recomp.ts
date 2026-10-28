@@ -30,5 +30,5 @@ export const pacificRimRecomp: Port = {
     credit: "OpenPortsGames",
   },
   notes: "Pacific Rim: The Video Game Recompiled: native recompilation of Pacific Rim: The Video Game for linux. Bring your own copy of the game.",
-  notesEs: "Pacific Rim: The Video Game Recompiled: recompilaciÃ³n nativo de Pacific Rim: The Video Game para linux. Aporta tu propia copia del juego.",
+  notesEs: "Pacific Rim: The Video Game Recompiled: recompilación nativo de Pacific Rim: The Video Game para linux. Aporta tu propia copia del juego.",
 };

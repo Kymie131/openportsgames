@@ -30,5 +30,5 @@ export const battleblockTheaterSwitch: Port = {
     credit: "Steam",
   },
   notes: "BattleBlock Theater (Switch): native recompilation of BattleBlock Theater for switch. Bring your own copy of the game.",
-  notesEs: "BattleBlock Theater (Switch): recompilaciÃ³n nativo de BattleBlock Theater para switch. Aporta tu propia copia del juego.",
+  notesEs: "BattleBlock Theater (Switch): recompilación nativo de BattleBlock Theater para switch. Aporta tu propia copia del juego.",
 };

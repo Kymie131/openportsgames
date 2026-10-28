@@ -30,5 +30,5 @@ export const drakengardRecomp: Port = {
     credit: "libretro",
   },
   notes: "Drakengard Recompiled: native recompilation of Drakengard for windows. Bring your own copy of the game.",
-  notesEs: "Drakengard Recompiled: recompilaciÃ³n nativo de Drakengard para windows. Aporta tu propia copia del juego.",
+  notesEs: "Drakengard Recompiled: recompilación nativo de Drakengard para windows. Aporta tu propia copia del juego.",
 };

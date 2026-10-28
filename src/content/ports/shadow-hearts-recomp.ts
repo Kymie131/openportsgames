@@ -30,5 +30,5 @@ export const shadowHeartsRecomp: Port = {
     credit: "libretro",
   },
   notes: "Shadow Hearts Recompiled: native recompilation of Shadow Hearts for windows. Bring your own copy of the game.",
-  notesEs: "Shadow Hearts Recompiled: recompilaciÃ³n nativo de Shadow Hearts para windows. Aporta tu propia copia del juego.",
+  notesEs: "Shadow Hearts Recompiled: recompilación nativo de Shadow Hearts para windows. Aporta tu propia copia del juego.",
 };

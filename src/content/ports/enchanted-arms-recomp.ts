@@ -30,5 +30,5 @@ export const enchantedArmsRecomp: Port = {
     credit: "OpenPortsGames",
   },
   notes: "Enchanted Arms Recompiled: native recompilation of Enchanted Arms for windows. Bring your own copy of the game.",
-  notesEs: "Enchanted Arms Recompiled: recompilaciÃ³n nativo de Enchanted Arms para windows. Aporta tu propia copia del juego.",
+  notesEs: "Enchanted Arms Recompiled: recompilación nativo de Enchanted Arms para windows. Aporta tu propia copia del juego.",
 };

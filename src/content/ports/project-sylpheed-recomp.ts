@@ -30,5 +30,5 @@ export const projectSylpheedRecomp: Port = {
     credit: "OpenPortsGames",
   },
   notes: "Project Sylpheed Recompiled: native recompilation of Project Sylpheed for windows. Bring your own copy of the game.",
-  notesEs: "Project Sylpheed Recompiled: recompilaciÃ³n nativo de Project Sylpheed para windows. Aporta tu propia copia del juego.",
+  notesEs: "Project Sylpheed Recompiled: recompilación nativo de Project Sylpheed para windows. Aporta tu propia copia del juego.",
 };

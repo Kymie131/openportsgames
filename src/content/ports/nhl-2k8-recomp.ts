@@ -30,5 +30,5 @@ export const nhl2k8Recomp: Port = {
     credit: "OpenPortsGames",
   },
   notes: "NHL 2K8 Recompiled: native recompilation of NHL 2K8 for windows. Bring your own copy of the game.",
-  notesEs: "NHL 2K8 Recompiled: recompilaciÃ³n nativo de NHL 2K8 para windows. Aporta tu propia copia del juego.",
+  notesEs: "NHL 2K8 Recompiled: recompilación nativo de NHL 2K8 para windows. Aporta tu propia copia del juego.",
 };

@@ -30,5 +30,5 @@ export const beatlesRockBandPc: Port = {
     credit: "OpenPortsGames",
   },
   notes: "The Beatles: Rock Band: native recompilation of The Beatles: Rock Band for windows. Bring your own copy of the game.",
-  notesEs: "The Beatles: Rock Band: recompilaciÃ³n nativo de The Beatles: Rock Band para windows. Aporta tu propia copia del juego.",
+  notesEs: "The Beatles: Rock Band: recompilación nativo de The Beatles: Rock Band para windows. Aporta tu propia copia del juego.",
 };

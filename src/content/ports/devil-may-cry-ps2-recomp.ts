@@ -30,5 +30,5 @@ export const devilMayCryPs2Recomp: Port = {
     credit: "libretro",
   },
   notes: "Devil May Cry (PS2): native recompilation of Devil May Cry for windows. Bring your own copy of the game.",
-  notesEs: "Devil May Cry (PS2): recompilaciÃ³n nativo de Devil May Cry para windows. Aporta tu propia copia del juego.",
+  notesEs: "Devil May Cry (PS2): recompilación nativo de Devil May Cry para windows. Aporta tu propia copia del juego.",
 };

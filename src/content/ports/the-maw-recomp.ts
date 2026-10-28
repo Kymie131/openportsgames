@@ -30,5 +30,5 @@ export const theMawRecomp: Port = {
     credit: "Steam",
   },
   notes: "The Maw Recompiled: native recompilation of The Maw for linux. Bring your own copy of the game.",
-  notesEs: "The Maw Recompiled: recompilaciÃ³n nativo de The Maw para linux. Aporta tu propia copia del juego.",
+  notesEs: "The Maw Recompiled: recompilación nativo de The Maw para linux. Aporta tu propia copia del juego.",
 };

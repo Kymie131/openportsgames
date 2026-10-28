@@ -30,5 +30,5 @@ export const yuGiOhDuelistsRosesRecomp: Port = {
     credit: "libretro",
   },
   notes: "Yu-Gi-Oh! The Duelists of the Roses Recompiled: native recompilation of Yu-Gi-Oh! The Duelists of the Roses for windows. Bring your own copy of the game.",
-  notesEs: "Yu-Gi-Oh! The Duelists of the Roses Recompiled: recompilaciÃ³n nativo de Yu-Gi-Oh! The Duelists of the Roses para windows. Aporta tu propia copia del juego.",
+  notesEs: "Yu-Gi-Oh! The Duelists of the Roses Recompiled: recompilación nativo de Yu-Gi-Oh! The Duelists of the Roses para windows. Aporta tu propia copia del juego.",
 };

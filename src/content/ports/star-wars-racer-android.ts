@@ -24,7 +24,7 @@ export const starWarsRacerAndroid: Port = {
   summary: "Two Engines. One Champion. No Limits.",
   summaryEs: "Star Wars Episode I: Racer es un videojuego de acción y aventura publicado por Lucasfilm en 2018.",
   notes: "Star Wars Episode I: Racer (Android): native recompilation of Star Wars Episode I: Racer for android. Bring your own copy of the game.",
-  notesEs: "Star Wars Episode I: Racer (Android): recompilaciÃ³n nativo de Star Wars Episode I: Racer para android. Aporta tu propia copia del juego.",
+  notesEs: "Star Wars Episode I: Racer (Android): recompilación nativo de Star Wars Episode I: Racer para android. Aporta tu propia copia del juego.",
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/808910/header.jpg?t=1741811672",
     alt: "Star Wars Episode I: Racer (Steam header)",

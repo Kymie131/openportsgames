@@ -30,5 +30,5 @@ export const callOfJuarezRecomp: Port = {
     credit: "Steam",
   },
   notes: "Call of Juarez Recompiled: native recompilation of Call of Juarez for windows. Bring your own copy of the game.",
-  notesEs: "Call of Juarez Recompiled: recompilaciÃ³n nativo de Call of Juarez para windows. Aporta tu propia copia del juego.",
+  notesEs: "Call of Juarez Recompiled: recompilación nativo de Call of Juarez para windows. Aporta tu propia copia del juego.",
 };

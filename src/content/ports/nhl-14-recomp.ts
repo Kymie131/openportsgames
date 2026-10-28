@@ -30,5 +30,5 @@ export const nhl14Recomp: Port = {
     credit: "OpenPortsGames",
   },
   notes: "NHL 14 Recompiled: native recompilation of NHL 14 for windows. Bring your own copy of the game.",
-  notesEs: "NHL 14 Recompiled: recompilaciÃ³n nativo de NHL 14 para windows. Aporta tu propia copia del juego.",
+  notesEs: "NHL 14 Recompiled: recompilación nativo de NHL 14 para windows. Aporta tu propia copia del juego.",
 };

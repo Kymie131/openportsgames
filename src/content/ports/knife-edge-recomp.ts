@@ -30,5 +30,5 @@ export const knifeEdgeRecomp: Port = {
     credit: "libretro",
   },
   notes: "Knife Edge: Nose Gunner Recompiled: native recompilation of Knife Edge: Nose Gunner for macos. Bring your own copy of the game.",
-  notesEs: "Knife Edge: Nose Gunner Recompiled: recompilaciÃ³n nativo de Knife Edge: Nose Gunner para macos. Aporta tu propia copia del juego.",
+  notesEs: "Knife Edge: Nose Gunner Recompiled: recompilación nativo de Knife Edge: Nose Gunner para macos. Aporta tu propia copia del juego.",
 };

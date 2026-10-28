@@ -174,7 +174,7 @@ export function HeartRating({ portId }: { portId: string }) {
                   {t.community.rating.averageValue(stats.average)}
                 </span>
                 <span className="text-sm text-muted">
-                  Â· {t.community.rating.countLabel(stats.count)}
+                  · {t.community.rating.countLabel(stats.count)}
                 </span>
               </>
             ) : (

@@ -30,5 +30,5 @@ export const doax2Recomp: Port = {
     credit: "Wikipedia",
   },
   notes: "Dead or Alive Xtreme 2 Recompiled: native recompilation of Dead or Alive Xtreme 2 for windows. Bring your own copy of the game.",
-  notesEs: "Dead or Alive Xtreme 2 Recompiled: recompilaciÃ³n nativo de Dead or Alive Xtreme 2 para windows. Aporta tu propia copia del juego.",
+  notesEs: "Dead or Alive Xtreme 2 Recompiled: recompilación nativo de Dead or Alive Xtreme 2 para windows. Aporta tu propia copia del juego.",
 };

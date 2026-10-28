@@ -30,5 +30,5 @@ export const baja1000Recomp: Port = {
     credit: "Wikipedia",
   },
   notes: "Baja 1000 Recompiled: native recompilation of Baja 1000 for windows. Bring your own copy of the game.",
-  notesEs: "Baja 1000 Recompiled: recompilaciÃ³n nativo de Baja 1000 para windows. Aporta tu propia copia del juego.",
+  notesEs: "Baja 1000 Recompiled: recompilación nativo de Baja 1000 para windows. Aporta tu propia copia del juego.",
 };

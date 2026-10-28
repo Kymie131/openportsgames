@@ -30,5 +30,5 @@ export const wweCrushHourPc: Port = {
     credit: "libretro",
   },
   notes: "WWE Crush Hour Recompiled: native recompilation of WWE Crush Hour for windows. Bring your own copy of the game.",
-  notesEs: "WWE Crush Hour Recompiled: recompilaciÃ³n nativo de WWE Crush Hour para windows. Aporta tu propia copia del juego.",
+  notesEs: "WWE Crush Hour Recompiled: recompilación nativo de WWE Crush Hour para windows. Aporta tu propia copia del juego.",
 };

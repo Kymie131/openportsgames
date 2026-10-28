@@ -30,5 +30,5 @@ export const talesOfLegendiaRecomp: Port = {
     credit: "libretro",
   },
   notes: "Tales of Legendia Recompiled: native recompilation of Tales of Legendia for windows, linux. Bring your own copy of the game.",
-  notesEs: "Tales of Legendia Recompiled: recompilaciÃ³n nativo de Tales of Legendia para windows, linux. Aporta tu propia copia del juego.",
+  notesEs: "Tales of Legendia Recompiled: recompilación nativo de Tales of Legendia para windows, linux. Aporta tu propia copia del juego.",
 };

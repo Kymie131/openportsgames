@@ -30,5 +30,5 @@ export const nbaHangtimeRecomp: Port = {
     credit: "libretro",
   },
   notes: "NBA Hangtime Recompiled: native recompilation of NBA Hangtime for windows. Bring your own copy of the game.",
-  notesEs: "NBA Hangtime Recompiled: recompilaciÃ³n nativo de NBA Hangtime para windows. Aporta tu propia copia del juego.",
+  notesEs: "NBA Hangtime Recompiled: recompilación nativo de NBA Hangtime para windows. Aporta tu propia copia del juego.",
 };

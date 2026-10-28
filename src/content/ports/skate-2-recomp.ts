@@ -24,7 +24,7 @@ export const skate2Recomp: Port = {
   summary: "Skate 2 is a 2009 skateboarding video game developed by EA Black Box and published by Electronic Arts. The game was released worldwide in January 2009 for PlayStation 3 and Xbox 360 after the spin-off title Skate It. It is the sequel to 2007's Skate and the third installment in the Skate series overall. A sequel, Skate 3, was released in May 2010.",
   summaryEs: "Skate 2 es un videojuego de patinaje sobre ruedas desarrollado por la compañía Black Box Games y distribuido por Electronic Arts. Es la secuela del juego de 2007 Skate. Skate 2 fue publicado en enero de 2009 para PlayStation 3 y Xbox 360. El videojuego ha sido calificado con un 16+ en el PEGI por violencia, y con un T en el ESRB por razones bastante más notables que en el juego original, como las actividades delictivas, por los retos de la Sala del Dolor, Campeonatos, Dominar los Spot, Carreras, etc.",
   notes: "Skate 2 Recompiled: native recompilation of Skate 2 for windows. Bring your own copy of the game.",
-  notesEs: "Skate 2 Recompiled: recompilaciÃ³n nativo de Skate 2 para windows. Aporta tu propia copia del juego.",
+  notesEs: "Skate 2 Recompiled: recompilación nativo de Skate 2 para windows. Aporta tu propia copia del juego.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/bb/Skate_2_Cover.jpg",
     alt: "Skate 2 (box art)",
