@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const condemned2RecompGw: Port = {
+  schema: "port",
+  id: "condemned2-recomp-gw",
+  title: "Condemned 2: Bloodshot Recomp",
+  game: "Condemned 2: Bloodshot",
+  developers: ["psxrestore"],
+  publisher: "Monolith Productions",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/psxrestore/Condemned2Recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: [],
+  notes: "Native/reimplementation port. Requires original game assets.",
+  notesEs: "Port nativo/reimplementación. Requiere los archivos originales del juego.",
+};
