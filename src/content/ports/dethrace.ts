@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const dethrace: Port = {
+  schema: "port",
+  id: "dethrace",
+  title: "Dethrace",
+  game: "Carmageddon",
+  developers: ["dethrace-labs"],
+  publisher: "SCi Games",
+  originalYear: 1997,
+  portType: "reimplementation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/dethrace-labs/dethrace"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: [],
+  notes: "Port/reimplementation. Requires original game assets where applicable.",
+  notesEs: "Port/reimplementación. Requiere los archivos originales del juego cuando aplica.",
+};

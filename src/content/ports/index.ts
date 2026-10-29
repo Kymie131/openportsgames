@@ -4,7 +4,7 @@ import { _0ADParaAndroidArm64 } from "./0-a-d-para-android-arm64";
 import { p0herculabsHl360Forza2 } from "./0herculabs-hl360-forza2";
 import { p0herculabsHl360Forza3 } from "./0herculabs-hl360-forza3";
 import { _1080Snowboarding } from "./1080-snowboarding";
-import { _1oom } from "./1oom";
+import { oom1 } from "./1oom";
 import { _2Ship2Harkinian2s2h } from "./2-ship-2-harkinian-2s2h";
 import { _2Ship2HarkinianAndroid } from "./2-ship-2-harkinian-android";
 import { _2Ship2HarkinianOutdated } from "./2-ship-2-harkinian-outdated";
@@ -98,7 +98,7 @@ import { AnimalForest } from "./animal-forest";
 import { AnimalForestE } from "./animal-forest-e";
 import { annepad } from "./annepad";
 import { AnotherMind } from "./another-mind";
-import { Antares } from "./antares";
+import { antares } from "./antares";
 import { apeEscapeRecomp } from "./ape-escape-recomp";
 import { apexjclBlinx2Recomp } from "./apexjcl-blinx2-recomp";
 import { apfelteesaftOt6Reconstruction } from "./apfelteesaft-ot6-reconstruction";
@@ -172,7 +172,7 @@ import { benbaker76Openswos } from "./benbaker76-openswos";
 import { benprewMicroproseShandalarSource } from "./benprew-microprose-shandalar-source";
 import { bep1s69NfsmwIos } from "./bep1s69-nfsmw-ios";
 import { BetrayalAtKrondor } from "./betrayal-at-krondor";
-import { Betterspades } from "./betterspades";
+import { betterspades } from "./betterspades";
 import { BeybladeVforceUltimateBladerJam } from "./beyblade-vforce-ultimate-blader-jam";
 import { bfbbDecomp } from "./bfbb-decomp";
 import { bfbbdecompBfbb } from "./bfbbdecomp-bfbb";
@@ -276,7 +276,7 @@ import { capridogSpaceranger } from "./capridog-spaceranger";
 import { carl0srmzLittleplanet } from "./carl0srmz-littleplanet";
 import { carmageddon2Android } from "./carmageddon-2-android";
 import { carmageddonRecomp } from "./carmageddon-recomp";
-import { Carnage3d } from "./carnage3d";
+import { carnage3d } from "./carnage3d";
 import { carter54gitDethracePortedToWeb } from "./carter54git-dethrace-ported-to-web";
 import { castleseaInfamousSecondSonPcPort } from "./castlesea-infamous-second-son-pc-port";
 import { castlevania64Recomp } from "./castlevania-64-recomp";
@@ -625,7 +625,7 @@ import { exokCeleste64 } from "./exok-celeste64";
 import { extremeGRecomp } from "./extreme-g-recomp";
 import { extremeTuxRacerPsp } from "./extreme-tux-racer-psp";
 import { exultPort } from "./exult";
-import { Ezquake } from "./ezquake";
+import { ezquake } from "./ezquake";
 import { F15Ii } from "./f-15-ii";
 import { F15IiEnhanced } from "./f-15-ii-enhanced";
 import { fZeroSnesRecompiled } from "./f-zero-snes-recompiled";
@@ -707,7 +707,7 @@ import { freedroidClassic } from "./freedroid-classic";
 import { Freeft } from "./freeft";
 import { freegishFreegish } from "./freegish-freegish";
 import { freekingKingpin } from "./freeking-kingpin";
-import { FreeserfNet } from "./freeserf-net";
+import { freeserfNet } from "./freeserf-net";
 import { freespace } from "./freespace";
 import { freeSpace2 } from "./freespace-2";
 import { fridayNightFunkinWii } from "./friday-night-funkin-wii";
@@ -2620,7 +2620,7 @@ export const portCases: Port[] = [
   p0herculabsHl360Forza2,
   p0herculabsHl360Forza3,
   _1080Snowboarding,
-  _1oom,
+  oom1,
   _2Ship2Harkinian2s2h,
   _2Ship2HarkinianAndroid,
   _2Ship2HarkinianOutdated,
@@ -2714,7 +2714,7 @@ export const portCases: Port[] = [
   AnimalForestE,
   annepad,
   AnotherMind,
-  Antares,
+  antares,
   apeEscapeRecomp,
   apexjclBlinx2Recomp,
   apfelteesaftOt6Reconstruction,
@@ -2788,7 +2788,7 @@ export const portCases: Port[] = [
   benprewMicroproseShandalarSource,
   bep1s69NfsmwIos,
   BetrayalAtKrondor,
-  Betterspades,
+  betterspades,
   BeybladeVforceUltimateBladerJam,
   bfbbDecomp,
   bfbbdecompBfbb,
@@ -2892,7 +2892,7 @@ export const portCases: Port[] = [
   carl0srmzLittleplanet,
   carmageddon2Android,
   carmageddonRecomp,
-  Carnage3d,
+  carnage3d,
   carter54gitDethracePortedToWeb,
   castleseaInfamousSecondSonPcPort,
   castlevania64Recomp,
@@ -3241,7 +3241,7 @@ export const portCases: Port[] = [
   extremeGRecomp,
   extremeTuxRacerPsp,
   exultPort,
-  Ezquake,
+  ezquake,
   F15Ii,
   F15IiEnhanced,
   fZeroSnesRecompiled,
@@ -3323,7 +3323,7 @@ export const portCases: Port[] = [
   Freeft,
   freegishFreegish,
   freekingKingpin,
-  FreeserfNet,
+  freeserfNet,
   freespace,
   freeSpace2,
   fridayNightFunkinWii,

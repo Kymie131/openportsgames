@@ -1,35 +1,25 @@
 import type { Port } from "@/lib/ports/schema";
 
-export const Betterspades: Port = {
+export const betterspades: Port = {
   schema: "port",
   id: "betterspades",
   title: "BetterSpades",
-  game: "BetterSpades",
+  game: "Ace of Spades",
   developers: ["xtreme8000"],
-  publisher: "Unknown",
-  originalYear: 2000,
-  portType: "source-port",
-  genre: "action-adventure",
+  publisher: "Jagex",
+  originalYear: 2012,
+  portType: "reimplementation",
+  genre: "shooter",
   openSource: true,
   originalGameLicense: "proprietary",
-  platforms: ["windows", "linux", "macos"],
-  status: "alpha",
+  platforms: ["windows","linux"],
+  status: "beta",
   release: { version: null, date: null },
   sources: ["https://github.com/xtreme8000/BetterSpades"],
-  license: { spdx: "GPL-3.0" },
+  license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "BetterSpades is a action-adventure game, released in 2000.",
-  summaryEs: "BetterSpades es un videojuego de acci�n y aventura, lanzado en 2000.",
-  summaryGenerated: true,
-  cover: {
-    src: "https://openportsgames.com/covers/generated/betterspades.svg",
-    alt: "BetterSpades (generated cover)",
-    credit: "OpenPortsGames",
-  },
-  notes:
-    "BetterSpades, an Ace of Spades client targeted at low end systems (GL/ES 1.1). Runs on your grandmother's rig!.",
-  notesEs:
-    "BetterSpades, un cliente de Ace of Spades pensado para equipos modestos (GL/ES 1.1). ¡Corre hasta en el PC de tu abuela!",
+  originalSystems: [],
+  notes: "Port/reimplementation. Requires original game assets where applicable.",
+  notesEs: "Port/reimplementación. Requiere los archivos originales del juego cuando aplica.",
 };

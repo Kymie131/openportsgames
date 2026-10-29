@@ -1,35 +1,25 @@
 import type { Port } from "@/lib/ports/schema";
 
-export const _1oom: Port = {
+export const oom1: Port = {
   schema: "port",
   id: "1oom",
   title: "1oom",
-  game: "1oom",
+  game: "Master of Orion",
   developers: ["1oom-fork"],
-  publisher: "Unknown",
+  publisher: "MicroProse",
   originalYear: 1993,
-  portType: "source-port",
-  genre: "action-adventure",
+  portType: "reimplementation",
+  genre: "strategy",
   openSource: true,
   originalGameLicense: "proprietary",
-  platforms: ["windows", "linux", "macos"],
-  status: "alpha",
+  platforms: ["windows","linux"],
+  status: "beta",
   release: { version: null, date: null },
   sources: ["https://github.com/1oom-fork/1oom"],
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["MS-DOS"],
-  summary: "1oom is a action-adventure game for MS-DOS, released in 1993.",
-  summaryEs: "1oom es un videojuego de acci�n y aventura para MS-DOS, lanzado en 1993.",
-  summaryGenerated: true,
-  cover: {
-    src: "https://openportsgames.com/covers/generated/1oom.svg",
-    alt: "1oom (generated cover)",
-    credit: "OpenPortsGames",
-  },
-  notes:
-    "1oom is a Master of Orion Classic (1993) game engine recreation that requires the original files to run.",
-  notesEs:
-    "1oom es una recreación del motor de Master of Orion Classic (1993) que necesita los archivos originales para funcionar.",
+  originalSystems: [],
+  notes: "Port/reimplementation. Requires original game assets where applicable.",
+  notesEs: "Port/reimplementación. Requiere los archivos originales del juego cuando aplica.",
 };
