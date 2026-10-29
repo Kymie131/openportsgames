@@ -1,0 +1,25 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const systemshock: Port = {
+  schema: "port",
+  id: "systemshock",
+  title: "Shockolate",
+  game: "System Shock",
+  developers: ["interrupt"],
+  publisher: "Origin Systems",
+  originalYear: 1994,
+  portType: "reimplementation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos"],
+  status: "beta",
+  release: { version: null, date: null },
+  sources: ["https://github.com/Interrupt/systemshock"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  originalSystems: [],
+  notes: "Port/reimplementation. Requires original game assets where applicable.",
+  notesEs: "Port/reimplementación. Requiere los archivos originales del juego cuando aplica.",
+};

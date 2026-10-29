@@ -870,7 +870,7 @@ import { henneBrighteyes } from "./henne-brighteyes";
 import { herculesRecompiled } from "./hercules-recompiled";
 import { hereticClassicCoreEngines } from "./heretic-classic-core-engines";
 import { Heretic2 } from "./heretic2";
-import { Heretic2r } from "./heretic2r";
+import { heretic2r } from "./heretic2r";
 import { hero88goMeleeUnlocked } from "./hero88go-melee-unlocked";
 import { heromachineBreakdownRecompilation } from "./heromachine-breakdown-recompilation";
 import { heromachineBurnoutRecompilation } from "./heromachine-burnout-recompilation";
@@ -957,7 +957,7 @@ import { jevargReVirtuaCop2 } from "./jevarg-re-virtua-cop-2";
 import { jezzball3ds } from "./jezzball-3ds";
 import { jezzballWiiU } from "./jezzball-wii-u";
 import { jfryyReshadowtower } from "./jfryy-reshadowtower";
-import { Jfsw } from "./jfsw";
+import { jfsw } from "./jfsw";
 import { Jftekwar } from "./jftekwar";
 import { Jfwhaven } from "./jfwhaven";
 import { jgrPortable } from "./jgr-portable";
@@ -1430,7 +1430,7 @@ import { Opence } from "./opence";
 import { Openciv3 } from "./openciv3";
 import { opencoduoCoduomp } from "./opencoduo-coduomp";
 import { openDune } from "./opendune";
-import { Opene2140 } from "./opene2140";
+import { opene2140 } from "./opene2140";
 import { openFodder } from "./openfodder";
 import { openGtps1 } from "./opengtps1";
 import { openhp1 } from "./openhp1";
@@ -2221,7 +2221,7 @@ import { tailscaleNxSwitchSysmodule } from "./tailscale-nx-switch-sysmodule";
 import { tanepiperUnbanished } from "./tanepiper-unbanished";
 import { tanksDs } from "./tanks-ds";
 import { tanookistudiosSupermarioallstarsrecomp } from "./tanookistudios-supermarioallstarsrecomp";
-import { Taradino } from "./taradino";
+import { taradino } from "./taradino";
 import { tcpgeckoAromaWiiUPlugin } from "./tcpgecko-aroma-wii-u-plugin";
 import { teamBeefStudiosDoom3quest } from "./team-beef-studios-doom3quest";
 import { teamBeefStudiosJkxr } from "./team-beef-studios-jkxr";
@@ -3486,7 +3486,7 @@ export const portCases: Port[] = [
   herculesRecompiled,
   hereticClassicCoreEngines,
   Heretic2,
-  Heretic2r,
+  heretic2r,
   hero88goMeleeUnlocked,
   heromachineBreakdownRecompilation,
   heromachineBurnoutRecompilation,
@@ -3573,7 +3573,7 @@ export const portCases: Port[] = [
   jezzball3ds,
   jezzballWiiU,
   jfryyReshadowtower,
-  Jfsw,
+  jfsw,
   Jftekwar,
   Jfwhaven,
   jgrPortable,
@@ -4046,7 +4046,7 @@ export const portCases: Port[] = [
   Openciv3,
   opencoduoCoduomp,
   openDune,
-  Opene2140,
+  opene2140,
   openFodder,
   openGtps1,
   openhp1,
@@ -4786,7 +4786,7 @@ export const portCases: Port[] = [
   tanepiperUnbanished,
   tanksDs,
   tanookistudiosSupermarioallstarsrecomp,
-  Taradino,
+  taradino,
   tcpgeckoAromaWiiUPlugin,
   teamBeefStudiosDoom3quest,
   teamBeefStudiosJkxr,
