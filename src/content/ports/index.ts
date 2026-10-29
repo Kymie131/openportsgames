@@ -238,7 +238,7 @@ import { brogueAndroid } from "./brogue-android";
 import { bromurokBloodyroarextremerecomp } from "./bromurok-bloodyroarextremerecomp";
 import { brotatoPsVita } from "./brotato-ps-vita";
 import { bruderGrimmAnimalForestPsp } from "./bruder-grimm-animal-forest-psp";
-import { Bstone } from "./bstone";
+import { bstone } from "./bstone";
 import { bt3Recomp } from "./bt3-recomp";
 import { Btbuilder } from "./btbuilder";
 import { bubb13Eeex } from "./bubb13-eeex";
@@ -287,7 +287,7 @@ import { castlevaniaRevamped } from "./castlevania-revamped";
 import { castlevaniaSotnDecomp } from "./castlevania-sotn-decomp";
 import { castlevaniaSotnRecompNocturne } from "./castlevania-sotn-recomp-nocturne";
 import { castlevaniaSotnRecompSergiomanzur } from "./castlevania-sotn-recomp-sergiomanzur";
-import { Catacombgl } from "./catacombgl";
+import { catacombgl } from "./catacombgl";
 import { caveStoryMegaDrive } from "./cave-story-mega-drive";
 import { cavex } from "./cavex";
 import { cbfdRecompiledAndroidEvolved } from "./cbfd-recompiled-android-evolved";
@@ -1439,6 +1439,8 @@ import { openJk } from "./openjk";
 import { openLoco } from "./openloco";
 import { openjkdf2 } from "./openjkdf2";
 import { openkeeper } from "./openkeeper";
+import { openomf } from "./openomf";
+import { openreliant } from "./openreliant";
 import { openkingdomsOpenkingdoms } from "./openkingdoms-openkingdoms";
 import { Openkrush } from "./openkrush";
 import { openlsrOpenlsr } from "./openlsr-openlsr";
@@ -1449,13 +1451,11 @@ import { openmwAndroid } from "./openmw-android";
 import { openmwAndroidAndiweli } from "./openmw-android-andiweli";
 import { opennevada } from "./opennevada";
 import { opennoxOpennox } from "./opennox-opennox";
-import { Openomf } from "./openomf";
 import { openphantomOpenphantom } from "./openphantom-openphantom";
 import { openq4 } from "./openq4";
 import { openra } from "./openra";
 import { openracRac2Decomp } from "./openrac-rac2-decomp";
 import { openRct2 } from "./openrct2";
-import { Openreliant } from "./openreliant";
 import { opensagadevSaga } from "./opensagadev-saga";
 import { opensage } from "./opensage";
 import { Opensc2k } from "./opensc2k";
@@ -2854,7 +2854,7 @@ export const portCases: Port[] = [
   bromurokBloodyroarextremerecomp,
   brotatoPsVita,
   bruderGrimmAnimalForestPsp,
-  Bstone,
+  bstone,
   bt3Recomp,
   Btbuilder,
   bubb13Eeex,
@@ -2903,7 +2903,7 @@ export const portCases: Port[] = [
   castlevaniaSotnDecomp,
   castlevaniaSotnRecompNocturne,
   castlevaniaSotnRecompSergiomanzur,
-  Catacombgl,
+  catacombgl,
   caveStoryMegaDrive,
   cavex,
   cbfdRecompiledAndroidEvolved,
@@ -4055,6 +4055,8 @@ export const portCases: Port[] = [
   openjkdf2,
   openLoco,
   openkeeper,
+  openomf,
+  openreliant,
   openkingdomsOpenkingdoms,
   Openkrush,
   openLoco,
@@ -4066,13 +4068,13 @@ export const portCases: Port[] = [
   openmwAndroidAndiweli,
   opennevada,
   opennoxOpennox,
-  Openomf,
+  openomf,
   openphantomOpenphantom,
   openq4,
   openra,
   openracRac2Decomp,
   openRct2,
-  Openreliant,
+  openreliant,
   opensagadevSaga,
   opensage,
   Opensc2k,

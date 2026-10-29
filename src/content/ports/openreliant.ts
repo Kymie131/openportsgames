@@ -1,35 +1,25 @@
 import type { Port } from "@/lib/ports/schema";
 
-export const Openreliant: Port = {
+export const openreliant: Port = {
   schema: "port",
   id: "openreliant",
   title: "OpenReliant",
-  game: "OpenReliant",
-  developers: ["OpenReliant"],
-  publisher: "Unknown",
+  game: "StarLancer",
+  developers: ["openreliant"],
+  publisher: "Digital Anvil",
   originalYear: 2000,
   portType: "reimplementation",
-  genre: "action-adventure",
+  genre: "shooter",
   openSource: true,
   originalGameLicense: "proprietary",
-  platforms: ["windows", "linux", "macos"],
-  status: "alpha",
+  platforms: ["windows","linux","macos"],
+  status: "beta",
   release: { version: null, date: null },
-  sources: ["https://github.com/OpenReliant/openreliant"],
-  license: { spdx: "MPL-2.0" },
+  sources: ["https://github.com/openreliant/openreliant"],
+  license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "OpenReliant is a action-adventure game, released in 2000.",
-  summaryEs: "OpenReliant es un videojuego de acci�n y aventura, lanzado en 2000.",
-  summaryGenerated: true,
-  cover: {
-    src: "https://openportsgames.com/covers/generated/openreliant.svg",
-    alt: "OpenReliant (generated cover)",
-    credit: "OpenPortsGames",
-  },
-  notes:
-    "An open-source reimplementation of StarLancer's engine, in Zig on SDL3. Needs your own copy of the game.",
-  notesEs:
-    "Reimplementación de código abierto del motor de StarLancer, en Zig sobre SDL3. Necesitas tu propia copia del juego.",
+  originalSystems: [],
+  notes: "Source port/reimplementation. Requires original game assets.",
+  notesEs: "Port/source/reimplementación. Requiere los archivos originales del juego.",
 };

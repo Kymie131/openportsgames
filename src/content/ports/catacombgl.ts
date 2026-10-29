@@ -1,35 +1,25 @@
 import type { Port } from "@/lib/ports/schema";
 
-export const Catacombgl: Port = {
+export const catacombgl: Port = {
   schema: "port",
   id: "catacombgl",
   title: "CatacombGL",
-  game: "CatacombGL",
+  game: "Catacomb 3D",
   developers: ["ArnoAnsems"],
-  publisher: "Unknown",
+  publisher: "Softdisk",
   originalYear: 1991,
   portType: "source-port",
-  genre: "action-adventure",
+  genre: "shooter",
   openSource: true,
   originalGameLicense: "proprietary",
-  platforms: ["windows", "linux", "macos"],
-  status: "alpha",
+  platforms: ["windows","linux"],
+  status: "beta",
   release: { version: null, date: null },
   sources: ["https://github.com/ArnoAnsems/CatacombGL"],
-  license: { spdx: "GPL-3.0" },
+  license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["MS-DOS"],
-  summary: "CatacombGL is a action-adventure game for MS-DOS, released in 1991.",
-  summaryEs: "CatacombGL es un videojuego de acci�n y aventura para MS-DOS, lanzado en 1991.",
-  summaryGenerated: true,
-  cover: {
-    src: "https://openportsgames.com/covers/generated/catacombgl.svg",
-    alt: "CatacombGL (generated cover)",
-    credit: "OpenPortsGames",
-  },
-  notes:
-    "CatacombGL is a source port with OpenGL graphics for Catacomb 3D (1991), The Catacomb Abyss (1992), The Catacomb Armageddon (1992) and The Catacomb Apocalypse (1993).",
-  notesEs:
-    "CatacombGL es un port con gráficos OpenGL de Catacomb 3D (1991), The Catacomb Abyss (1992), The Catacomb Armageddon (1992) y The Catacomb Apocalypse (1993).",
+  originalSystems: [],
+  notes: "Source port/reimplementation. Requires original game assets.",
+  notesEs: "Port/source/reimplementación. Requiere los archivos originales del juego.",
 };
