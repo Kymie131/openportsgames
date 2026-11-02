@@ -150,6 +150,64 @@ export function CatalogClient({
 
   const filterCount = activeFilterCount(state);
   const canClear = hasActiveFilters(state);
+  const filterChips: { key: SectionFilterKeys; value: string; label: string }[] = [
+    ...state.platform.map((value) => ({
+      key: "platform" as const,
+      value,
+      label: t.platforms[value],
+    })),
+    ...state.system.map((value) => ({ key: "system" as const, value, label: value })),
+    ...state.technique.map((value) => ({
+      key: "technique" as const,
+      value,
+      label: t.portTypes[value],
+    })),
+    ...state.status.map((value) => ({
+      key: "status" as const,
+      value,
+      label:
+        value === "stable"
+          ? t.catalog.statusStable
+          : value === "beta"
+            ? t.catalog.statusBeta
+            : t.catalog.statusAlpha,
+    })),
+    ...state.state.map((value) => ({
+      key: "state" as const,
+      value,
+      label: value === "verified" ? t.catalog.stateVerified : t.catalog.stateUnverified,
+    })),
+    ...state.genre.map((value) => ({
+      key: "genre" as const,
+      value,
+      label: t.catalog.genres[value],
+    })),
+    ...state.source.map((value) => ({
+      key: "source" as const,
+      value,
+      label: value === "open" ? t.catalog.sourceOpen : t.catalog.sourceClosed,
+    })),
+    ...state.features.map((value) => ({
+      key: "features" as const,
+      value,
+      label: value === "yes" ? t.catalog.featuresYes : t.catalog.featuresNo,
+    })),
+    ...state.tested.map((value) => ({
+      key: "tested" as const,
+      value,
+      label:
+        value === "pass"
+          ? t.catalog.testedPass
+          : value === "fail"
+            ? t.catalog.testedFail
+            : t.catalog.testedUntested,
+    })),
+  ];
+
+  const removeFilter = (key: SectionFilterKeys, value: string) => {
+    const values = (state[key] as string[]).filter((item) => item !== value);
+    commit({ ...state, [key]: values } as CatalogState);
+  };
 
   const panel = (
     <FilterPanel
@@ -187,7 +245,7 @@ export function CatalogClient({
               type="button"
               onClick={() => setDraft("")}
               className="rounded p-0.5 text-muted transition-colors hover:text-foreground"
-              aria-label={t.catalog.clearFilters}
+              aria-label={t.catalog.clearSearch}
             >
               <X className="size-4" aria-hidden="true" />
             </button>
@@ -233,13 +291,42 @@ export function CatalogClient({
           </div>
         </div>
 
+        {filterChips.length > 0 && (
+          <div
+            role="group"
+            aria-label={t.catalog.activeFilters}
+            className="flex flex-wrap items-center gap-1.5"
+          >
+            <span className="text-xs font-medium text-muted">{t.catalog.activeFilters}:</span>
+            {filterChips.map((chip) => (
+              <button
+                key={`${chip.key}:${chip.value}`}
+                type="button"
+                onClick={() => removeFilter(chip.key, chip.value)}
+                className="inline-flex items-center gap-1 rounded-full border border-accent/40 bg-[color-mix(in_oklab,var(--accent)_10%,transparent)] px-2.5 py-1 text-xs text-foreground transition-colors duration-150 hover:border-accent hover:bg-[color-mix(in_oklab,var(--accent)_16%,transparent)]"
+              >
+                {chip.label}
+                <X className="size-3 text-muted" aria-hidden="true" />
+                <span className="sr-only">{t.catalog.clearFilters}</span>
+              </button>
+            ))}
+            <button
+              type="button"
+              onClick={clear}
+              className="ml-1 text-xs text-link transition-colors duration-150 hover:text-link-hover"
+            >
+              {t.catalog.clearAll}
+            </button>
+          </div>
+        )}
+
         <div ref={gridRef} className="flex scroll-mt-24 flex-col gap-6">
           <h2 ref={resultsHeadingRef} tabIndex={-1} className="sr-only">
             {t.catalog.resultsHeading}
           </h2>
           {results.length > 0 ? (
             <>
-              <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3">
+              <ul className="grid grid-cols-2 gap-3 sm:gap-4 xl:grid-cols-3">
                 {pageResult.items.map((port, index) => (
                   <li key={port.id} className="flex">
                     <PortTile
@@ -286,7 +373,9 @@ export function CatalogClient({
       </div>
 
       <aside aria-label={t.catalog.filterPanel} className="hidden lg:block">
-        <div className="rounded-lg lg:sticky lg:top-24">{panel}</div>
+        <div className="rounded-lg lg:sticky lg:top-24 lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto lg:overscroll-contain lg:pr-1">
+          {panel}
+        </div>
       </aside>
 
       <Dialog.Root open={drawerOpen} onOpenChange={setDrawerOpen}>
@@ -472,15 +561,17 @@ function ChipGroup({
   values,
   selected,
   onToggle,
+  hideLabel = false,
 }: {
   label: string;
   values: [string, string][];
   selected: string[];
   onToggle: (value: string) => void;
+  hideLabel?: boolean;
 }) {
   return (
     <div className="flex flex-col gap-1.5" role="group" aria-label={label}>
-      <p className="text-xs text-muted">{label}</p>
+      {!hideLabel && <p className="text-xs text-muted">{label}</p>}
       <div className="flex flex-wrap gap-1.5">
         {values.map(([value, chipLabel]) => (
           <Chip
@@ -545,6 +636,7 @@ function FilterPanel({
             values={scopePlatforms.map((platform) => [platform, t.platforms[platform]])}
             selected={state.platform}
             onToggle={(value) => toggle("platform", value)}
+            hideLabel
           />
         )}
       </FilterSection>
@@ -555,6 +647,7 @@ function FilterPanel({
           values={systems.map((system) => [system, system])}
           selected={state.system}
           onToggle={(value) => toggle("system", value)}
+          hideLabel
         />
       </FilterSection>
 
@@ -570,6 +663,7 @@ function FilterPanel({
           ]}
           selected={state.technique}
           onToggle={(value) => toggle("technique", value)}
+          hideLabel
         />
       </FilterSection>
 
@@ -583,6 +677,7 @@ function FilterPanel({
           ]}
           selected={state.status}
           onToggle={(value) => toggle("status", value)}
+          hideLabel
         />
         <ChipGroup
           label={t.catalog.filterState}
@@ -601,6 +696,7 @@ function FilterPanel({
           values={GENRE_OPTIONS.map((value) => [value, t.catalog.genres[value]])}
           selected={state.genre}
           onToggle={(value) => toggle("genre", value)}
+          hideLabel
         />
       </FilterSection>
 
@@ -613,6 +709,7 @@ function FilterPanel({
           ]}
           selected={state.source}
           onToggle={(value) => toggle("source", value)}
+          hideLabel
         />
       </FilterSection>
 
@@ -625,6 +722,7 @@ function FilterPanel({
           ]}
           selected={state.features}
           onToggle={(value) => toggle("features", value)}
+          hideLabel
         />
       </FilterSection>
 
@@ -638,6 +736,7 @@ function FilterPanel({
           ]}
           selected={state.tested}
           onToggle={(value) => toggle("tested", value)}
+          hideLabel
         />
       </FilterSection>
     </section>

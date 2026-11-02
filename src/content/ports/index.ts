@@ -641,7 +641,6 @@ import { faligameParasiteEve2HdRemaster } from "./faligame-parasite-eve-2-hd-rem
 import { falloutPs3 } from "./fallout-ps3";
 import { fallout1Ce } from "./fallout1-ce";
 import { fallout2Ce } from "./fallout2-ce";
-import { fheroes2 } from "./fheroes2";
 import { farCryNearChuckle } from "./far-cry-nearchuckle";
 import { fatalFrameRecomp } from "./fatal-frame-recomp";
 import { FateExtella } from "./fate-extella";
@@ -989,7 +988,6 @@ import { jvicu2001Rr64Decomp } from "./jvicu2001-rr64-decomp";
 import { jype0DwDecomp } from "./jype0-dw-decomp";
 import { kOnHoukagoLivePc } from "./k-on-houkago-live-pc";
 import { k64retCv64 } from "./k64ret-cv64";
-import { kameoRepowered } from "./kameo-repowered";
 import { karamzov123FzeroGxDecomp } from "./karamzov123-fzero-gx-decomp";
 import { kartiaRecomp } from "./kartia-recomp";
 import { kartpad } from "./kartpad";
@@ -3257,7 +3255,6 @@ export const portCases: Port[] = [
   falloutPs3,
   fallout1Ce,
   fallout2Ce,
-  fheroes2,
   farCryNearChuckle,
   fatalFrameRecomp,
   FateExtella,
@@ -3605,7 +3602,6 @@ export const portCases: Port[] = [
   jype0DwDecomp,
   kOnHoukagoLivePc,
   k64retCv64,
-  kameoRepowered,
   karamzov123FzeroGxDecomp,
   kartiaRecomp,
   kartpad,
@@ -4059,7 +4055,6 @@ export const portCases: Port[] = [
   openreliant,
   openkingdomsOpenkingdoms,
   Openkrush,
-  openLoco,
   openlsrOpenlsr,
   Openmb,
   openMohaa,
@@ -4068,13 +4063,11 @@ export const portCases: Port[] = [
   openmwAndroidAndiweli,
   opennevada,
   opennoxOpennox,
-  openomf,
   openphantomOpenphantom,
   openq4,
   openra,
   openracRac2Decomp,
   openRct2,
-  openreliant,
   opensagadevSaga,
   opensage,
   Opensc2k,

@@ -10,7 +10,7 @@ export const openEnroth: Port = {
   originalYear: 1998,
   genre: "rpg",
   openSource: true,
-  portType: "source-port",
+  portType: "reimplementation",
   platforms: ["windows", "linux", "macos", "android"],
   status: "beta",
   release: { version: null, date: null },
@@ -18,6 +18,7 @@ export const openEnroth: Port = {
   discord: "https://discord.gg/jRCyPtq",
   license: { spdx: "LGPL-3.0" },
   verified: false,
+  sourceVerified: true,
   originalSystems: ["Windows"],
   features: [
     "Unified engine across several Might and Magic titles",

@@ -4,12 +4,14 @@ import { LocalizedLink as Link } from "@/components/i18n/localized-link";
 import type { LucideIcon } from "lucide-react";
 import {
   ArrowRight,
+  BadgeCheck,
   BookOpen,
   Code,
   FlaskConical,
   Gamepad2,
   HardDrive,
   Monitor,
+  Package,
   Smartphone,
   Zap,
 } from "lucide-react";
@@ -93,23 +95,25 @@ export function HomeContent({
           <p className="max-w-2xl text-xs leading-5 text-muted">{t.support.noPressure}</p>
         </div>
 
-        <dl className="relative z-10 grid max-w-2xl grid-cols-1 gap-4 sm:grid-cols-2">
-          <div className="rounded-xl border border-border bg-surface px-6 py-5 shadow-sm">
-            <dt className="font-mono text-3xl font-bold tracking-tight text-foreground">
-              {toNumber(counts.ports)}
-            </dt>
-            <dd className="mt-1 text-sm font-medium text-muted">
-              {t.home.statsPorts(counts.ports)}
-            </dd>
-          </div>
-          <div className="rounded-xl border border-border bg-surface px-6 py-5 shadow-sm">
-            <dt className="font-mono text-3xl font-bold tracking-tight text-foreground">
-              {toNumber(counts.verifiedSource)}
-            </dt>
-            <dd className="mt-1 text-sm font-medium text-muted">
-              {t.home.statsVerifiedSource(counts.verifiedSource)}
-            </dd>
-          </div>
+        <dl className="relative z-10 grid max-w-3xl grid-cols-1 gap-3 sm:grid-cols-3 sm:gap-4">
+          <StatCard
+            href="/ports"
+            icon={Package}
+            value={toNumber(counts.ports)}
+            label={t.home.statsPorts(counts.ports)}
+          />
+          <StatCard
+            href="/ports?state=verified"
+            icon={BadgeCheck}
+            value={toNumber(counts.verifiedSource)}
+            label={t.home.statsVerifiedSource(counts.verifiedSource)}
+          />
+          <StatCard
+            href="/testing"
+            icon={FlaskConical}
+            value={toNumber(counts.tested)}
+            label={t.home.statsTested(counts.tested)}
+          />
         </dl>
       </section>
 
@@ -280,7 +284,7 @@ function PortGrid({ ports }: { ports: FeaturedPort[] }) {
   return (
     <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {ports.map(({ port, testStatus, system }, index) => (
-        <li key={port.id}>
+        <li key={port.id} className={index >= 3 ? "max-sm:hidden" : undefined}>
           <PortTile
             port={port}
             testStatus={testStatus}
@@ -291,6 +295,34 @@ function PortGrid({ ports }: { ports: FeaturedPort[] }) {
         </li>
       ))}
     </ul>
+  );
+}
+
+function StatCard({
+  href,
+  icon: Icon,
+  value,
+  label,
+}: {
+  href: string;
+  icon: LucideIcon;
+  value: string;
+  label: string;
+}) {
+  return (
+    <div className="group relative overflow-hidden rounded-xl border border-border bg-surface px-5 py-4 shadow-sm transition-colors duration-200 hover:border-accent/50 hover:bg-surface-2">
+      <dt className="font-mono text-3xl font-bold tracking-tight text-foreground">{value}</dt>
+      <dd className="mt-1 pr-8 text-sm font-medium text-muted">{label}</dd>
+      <Icon
+        className="absolute right-4 top-4 size-5 text-accent/60 transition-colors group-hover:text-accent"
+        aria-hidden="true"
+      />
+      <Link
+        href={href}
+        aria-label={label}
+        className="absolute inset-0 rounded-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+      />
+    </div>
   );
 }
 

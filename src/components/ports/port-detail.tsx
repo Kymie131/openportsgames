@@ -21,6 +21,7 @@ import { GithubMark } from "@/components/platforms/github-mark";
 import { PlatformMark } from "@/components/platforms/platform-mark";
 import { SystemMark } from "@/components/platforms/system-mark";
 import { SystemBadge } from "@/components/platforms/system-badge";
+import { Button } from "@/components/ui/button";
 import { ScreenshotFrame } from "@/components/ports/screenshot-frame";
 import { consoleLogoForSystem } from "@/content/ports/console-logos";
 import { isPixelArtSystem } from "@/lib/ports/images";
@@ -69,6 +70,7 @@ export function PortDetail({
   const locale = useLocale();
   const needsOriginalAssets = !port.noOriginalGameRequired;
   const isGame = portKind(port) === "game";
+  const primarySource = port.sources[0];
 
   return (
     <div className="flex flex-col gap-8">
@@ -86,46 +88,64 @@ export function PortDetail({
             <p className="text-sm text-muted">{port.game}</p>
             <h1 className="text-2xl font-semibold tracking-tight">{port.title}</h1>
           </div>
-          <div className="flex flex-wrap items-center gap-3">
-            <div className="flex items-center gap-2.5 text-muted" aria-hidden="true">
-              {port.platforms.map((platform) => (
-                <PlatformMark key={platform} platform={platform} />
-              ))}
-            </div>
-            <SystemBadge system={originalSystem} />
-            <TestBadge status={testStatus} />
-            <span
-              className={STATUS_TONE[port.status] + " rounded-full px-2 py-0.5 text-xs font-medium"}
-            >
-              {t.catalog[statusKey(port.status)]}
-            </span>
-            {port.wip && (
-              <span className="rounded-full border border-accent/40 bg-[color-mix(in_oklab,var(--accent)_12%,transparent)] px-2 py-0.5 text-xs font-medium text-accent">
-                {t.detail.inDevelopment}
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <div className="flex flex-wrap items-center gap-3">
+              <div className="flex flex-wrap items-center gap-1.5">
+                {port.platforms.map((platform) => (
+                  <span
+                    key={platform}
+                    className="inline-flex items-center gap-1.5 rounded-full border border-border bg-surface-2/60 px-2 py-0.5 text-xs font-medium text-muted"
+                  >
+                    <PlatformMark platform={platform} className="size-3.5" />
+                    {t.platforms[platform]}
+                  </span>
+                ))}
+              </div>
+              <SystemBadge system={originalSystem} />
+              <TestBadge status={testStatus} />
+              <span
+                className={
+                  STATUS_TONE[port.status] + " rounded-full px-2 py-0.5 text-xs font-medium"
+                }
+              >
+                {t.catalog[statusKey(port.status)]}
               </span>
-            )}
-            {!port.openSource && (
-              <span className="rounded-full bg-[color-mix(in_oklab,var(--danger)_15%,transparent)] px-2 py-0.5 text-xs font-medium text-danger">
-                {t.catalog.closedSource}
-              </span>
-            )}
-            {port.openSource && port.originalGameLicense === "proprietary" && (
-              <span className="rounded-full bg-[color-mix(in_oklab,var(--warning)_15%,transparent)] px-2 py-0.5 text-xs font-medium text-warning">
-                {t.catalog.proprietaryGame}
-              </span>
-            )}
-            {port.status === "alpha" && (
+              {port.wip && (
+                <span className="rounded-full border border-accent/40 bg-[color-mix(in_oklab,var(--accent)_12%,transparent)] px-2 py-0.5 text-xs font-medium text-accent">
+                  {t.detail.inDevelopment}
+                </span>
+              )}
+              {!port.openSource && (
+                <span className="rounded-full bg-[color-mix(in_oklab,var(--danger)_15%,transparent)] px-2 py-0.5 text-xs font-medium text-danger">
+                  {t.catalog.closedSource}
+                </span>
+              )}
+              {port.openSource && port.originalGameLicense === "proprietary" && (
+                <span className="rounded-full bg-[color-mix(in_oklab,var(--warning)_15%,transparent)] px-2 py-0.5 text-xs font-medium text-warning">
+                  {t.catalog.proprietaryGame}
+                </span>
+              )}
+              {port.status === "alpha" && (
+                <span className="rounded-full border border-border px-2 py-0.5 text-xs font-medium text-muted">
+                  {t.catalog.experimental}
+                </span>
+              )}
               <span className="rounded-full border border-border px-2 py-0.5 text-xs font-medium text-muted">
-                {t.catalog.experimental}
+                {port.sourceVerified ? t.detail.verifiedSource : t.detail.unverifiedSource}
               </span>
-            )}
-            <span className="rounded-full border border-border px-2 py-0.5 text-xs font-medium text-muted">
-              {port.sourceVerified ? t.detail.verifiedSource : t.detail.unverifiedSource}
-            </span>
-            {port.sourceDead && (
-              <span className="rounded-full bg-[color-mix(in_oklab,var(--danger)_15%,transparent)] px-2 py-0.5 text-xs font-medium text-danger">
-                {t.detail.deadSource}
-              </span>
+              {port.sourceDead && (
+                <span className="rounded-full bg-[color-mix(in_oklab,var(--danger)_15%,transparent)] px-2 py-0.5 text-xs font-medium text-danger">
+                  {t.detail.deadSource}
+                </span>
+              )}
+            </div>
+            {primarySource && (
+              <Button asChild size="sm" className="shrink-0">
+                <a href={primarySource} target="_blank" rel="noopener noreferrer">
+                  {t.detail.officialSource}
+                  <ExternalLink className="size-3.5" aria-hidden="true" />
+                </a>
+              </Button>
             )}
           </div>
         </header>
@@ -170,17 +190,22 @@ export function PortDetail({
               <p className="text-sm leading-relaxed text-muted">{t.detail.noGameSummary}</p>
             )}
           </div>
-          <dl className="mt-5 grid grid-cols-2 gap-4 sm:grid-cols-4">
+          <dl
+            className={cn(
+              "mt-5 grid grid-cols-2 gap-4",
+              port.publisher === "Unknown" ? "sm:grid-cols-3" : "sm:grid-cols-4",
+            )}
+          >
             <div className="flex flex-col gap-0.5">
               <dt className="text-xs text-muted">{t.detail.gameYear}</dt>
               <dd className="text-sm font-medium text-foreground">{port.originalYear}</dd>
             </div>
-            <div className="flex flex-col gap-0.5">
-              <dt className="text-xs text-muted">{t.detail.gamePublisher}</dt>
-              <dd className="text-sm font-medium text-foreground">
-                {port.publisher === "Unknown" ? "—" : port.publisher}
-              </dd>
-            </div>
+            {port.publisher !== "Unknown" && (
+              <div className="flex flex-col gap-0.5">
+                <dt className="text-xs text-muted">{t.detail.gamePublisher}</dt>
+                <dd className="text-sm font-medium text-foreground">{port.publisher}</dd>
+              </div>
+            )}
             <div className="flex flex-col gap-0.5">
               <dt className="text-xs text-muted">{t.detail.gameGenre}</dt>
               <dd className="text-sm font-medium text-foreground">
@@ -247,11 +272,12 @@ export function PortDetail({
                 : port.license.spdx
           }
         />
-        <Row label={t.detail.version} value={port.release.version ?? "—"} tone="teal" />
-        <Row
-          label={t.detail.date}
-          value={port.release.date ? formatDate(port.release.date, locale) : "—"}
-        />
+        {port.release.version && (
+          <Row label={t.detail.version} value={port.release.version} tone="teal" />
+        )}
+        {port.release.date && (
+          <Row label={t.detail.date} value={formatDate(port.release.date, locale)} />
+        )}
       </dl>
 
       {port.notes && (

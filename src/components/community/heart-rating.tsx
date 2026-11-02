@@ -125,7 +125,7 @@ export function HeartRating({ portId }: { portId: string }) {
           {t.community.rating.loading}
         </p>
       ) : loadError ? (
-        <p role="alert" className="text-sm text-danger">
+        <p role="status" className="text-sm text-muted">
           {t.community.rating.error}
         </p>
       ) : stats ? (

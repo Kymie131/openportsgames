@@ -43,8 +43,8 @@ export function ConsoleGrid({ systems }: { systems: ConsoleSummary[] }) {
       </div>
 
       <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
-        {systems.map((system) => (
-          <li key={system.slug}>
+        {systems.map((system, index) => (
+          <li key={system.slug} className={index >= 8 ? "max-sm:hidden" : undefined}>
             <Link
               href={`/console/${system.slug}`}
               className="group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-4 text-center transition-colors hover:border-accent/60 hover:bg-surface-2"

@@ -5,8 +5,8 @@ export const fh2: Port = {
   id: "fh2",
   title: "fh2",
   game: "Heroes of Might and Magic II",
-  developers: ["New World Computing"],
-  publisher: "The 3DO Company",
+  developers: ["fheroes2 Team"],
+  publisher: "New World Computing",
   originalYear: 1996,
   portType: "reimplementation",
   genre: "strategy",
@@ -21,8 +21,10 @@ export const fh2: Port = {
     spdx: "GPL-2.0",
   },
   verified: false,
-  summary: "Heroes of Might and Magic II is a strategy game published by The 3DO Company in 2000.",
-  summaryEs: "Heroes of Might and Magic II es un videojuego de estrategia publicado por The 3DO Company en 2000.",
+  summary:
+    "Heroes of Might and Magic II is a turn-based strategy game developed and published by New World Computing in 1996. Players build armies, develop towns and defeat rival heroes across fantasy maps.",
+  summaryEs:
+    "Heroes of Might and Magic II es un juego de estrategia por turnos desarrollado y publicado por New World Computing en 1996. El jugador forma ejércitos, desarrolla ciudades y derrota a héroes rivales en mapas de fantasía.",
   notes:
     "Engine reimplementation for Heroes of Might and Magic II, written from scratch in C++. Ships official Android builds on Google Play plus Windows, macOS and Linux releases.",
   notesEs:

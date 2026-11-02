@@ -49,7 +49,7 @@ export function PortTile({
   return (
     <article
       className={cn(
-        "group flex h-full flex-col gap-3 rounded-2xl border border-border/80 bg-gradient-to-b from-surface to-surface-2 p-4",
+        "group flex h-full flex-col gap-2.5 rounded-2xl border border-border/80 bg-gradient-to-b from-surface to-surface-2 p-3 sm:gap-3 sm:p-4",
         "transition-all duration-300",
         "hover:-translate-y-1 hover:border-accent/50 hover:bg-surface-2 hover:shadow-2xl hover:shadow-accent/10",
         className,
@@ -67,7 +67,9 @@ export function PortTile({
             pixelated={isPixelArtSystem(system)}
             className={cn(
               "w-full transition-transform duration-500 group-hover/image:scale-[1.02]",
-              primary.kind === "cover" ? "aspect-[3/4]" : "aspect-video",
+              primary.kind === "cover"
+                ? "aspect-[4/3] sm:aspect-[3/4]"
+                : "aspect-video",
             )}
             imageClassName={primary.kind === "cover" ? "object-cover" : undefined}
             eager={eager}
@@ -79,12 +81,12 @@ export function PortTile({
       </Link>
 
       <div className="flex flex-1 flex-col gap-1">
-        <h3 className="line-clamp-2 text-base font-semibold leading-snug">
+        <h3 className="line-clamp-2 text-sm font-semibold leading-snug sm:text-base">
           <Link href={`/ports/${port.id}`} className="hover:text-link">
             {port.game}
           </Link>
         </h3>
-        <p className="truncate text-sm text-muted" title={port.title}>
+        <p className="truncate text-xs text-muted sm:text-sm" title={port.title}>
           {port.title}
         </p>
         {rating && rating.count > 0 && (
@@ -104,12 +106,12 @@ export function PortTile({
       </div>
 
       <div className="flex items-center justify-between gap-2">
-        <div className="flex items-center gap-2.5 text-muted" aria-hidden="true">
+        <div className="hidden items-center gap-2.5 text-muted sm:flex" aria-hidden="true">
           {port.platforms.map((platform) => (
             <PlatformMark key={platform} platform={platform} />
           ))}
         </div>
-        <div className="flex flex-wrap items-center justify-end gap-1.5">
+        <div className="flex w-full flex-wrap items-center justify-start gap-1.5 sm:w-auto sm:justify-end">
           {port.wip && (
             <span className="rounded-full border border-accent/40 bg-[color-mix(in_oklab,var(--accent)_12%,transparent)] px-2 py-0.5 text-xs font-medium text-accent">
               {t.catalog.inDevelopment}
@@ -125,7 +127,7 @@ export function PortTile({
       </div>
 
       {port.release.version && (
-        <p className="text-xs text-muted">
+        <p className="hidden text-xs text-muted sm:block">
           {t.catalog.version}{" "}
           <span className="font-mono text-gradient font-bold">{port.release.version}</span>
           {starLabel && <span className="ml-2 text-accent-2">★ {starLabel}</span>}
@@ -133,7 +135,7 @@ export function PortTile({
       )}
 
       {source && (
-        <div className="border-t border-border pt-3 text-sm">
+        <div className="border-t border-border pt-2 text-xs sm:pt-3 sm:text-sm">
           <a
             href={source}
             target="_blank"

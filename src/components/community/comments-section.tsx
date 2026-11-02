@@ -350,7 +350,7 @@ export function CommentsSection({ portId }: { portId: string }) {
           {t.community.comments.loading}
         </p>
       ) : status === "error" ? (
-        <p role="alert" className="text-sm text-danger">
+        <p role="status" className="text-sm text-muted">
           {t.community.comments.error}
         </p>
       ) : items.length === 0 ? (

@@ -14,7 +14,7 @@ export const jetMotoAnthologyRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0", date: "2026-09-29" },
   sources: ["https://github.com/GTTeancum/Jet-Moto-Anthology"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,

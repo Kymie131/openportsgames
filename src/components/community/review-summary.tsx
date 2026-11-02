@@ -49,7 +49,7 @@ export function ReviewSummaryBlock({ portId }: { portId: string }) {
           {t.community.reviews.loading}
         </p>
       ) : state.status === "error" ? (
-        <p role="alert" className="text-sm text-danger">
+        <p role="status" className="text-sm text-muted">
           {t.community.reviews.error}
         </p>
       ) : !state.data || state.data.total === 0 ? (
