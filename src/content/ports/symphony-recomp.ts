@@ -13,7 +13,7 @@ export const symphonyRecomp: Port = {
   openSource: true,
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: "0.5.1-b", date: "2026-08-19" },
+  release: { version: "1.1.2p", date: "2026-11-03" },
   sources: ["https://github.com/BlackLabelHQ/SymphonyRecomp"],
   discord: "https://discord.gg/65g8ZEPnbR",
   license: {
@@ -34,12 +34,14 @@ export const symphonyRecomp: Port = {
     "Interfaz en varios idiomas y una interfaz temática",
     "Soporte de randomizer con metadatos de guardado",
   ],
-  summary: "Castlevania: Symphony of the Night is a 1997 action role-playing game developed and published by Konami for the PlayStation and Sega Saturn. It is a direct sequel to Castlevania: Rondo of Blood, set five years after its events. It was directed and produced by Toru Hagihara, with Koji Igarashi acting as assistant director.",
-  summaryEs: "Castlevania: Symphony of the Night, conocido en Japón como Akumajō Dracula X: Gekka no Yasōkyoku , es un videojuego de acción-aventura de gráficos 2D desarrollado y publicado por Konami en el año 1997. Es el XIII episodio de las series de Castlevania, siendo este el primero lanzado para las consolas PlayStation y Saturn. Por otro lado, hablamos de una secuela directa de su antecesor solo lanzado en Japón: Akumajou Dracula X: Chi no Rondo para la plataforma de NEC PC-Engine CD.",
+  summary:
+    "Castlevania: Symphony of the Night is a 1997 action role-playing game developed and published by Konami for the PlayStation and Sega Saturn. It is a direct sequel to Castlevania: Rondo of Blood, set five years after its events. It was directed and produced by Toru Hagihara, with Koji Igarashi acting as assistant director.",
+  summaryEs:
+    "Castlevania: Symphony of the Night, conocido en Japón como Akumajō Dracula X: Gekka no Yasōkyoku , es un videojuego de acción-aventura de gráficos 2D desarrollado y publicado por Konami en el año 1997. Es el XIII episodio de las series de Castlevania, siendo este el primero lanzado para las consolas PlayStation y Saturn. Por otro lado, hablamos de una secuela directa de su antecesor solo lanzado en Japón: Akumajou Dracula X: Chi no Rondo para la plataforma de NEC PC-Engine CD.",
   notes:
-    "Recompilation of Castlevania: Symphony of the Night (PS1) that runs natively on Windows, Linux and macOS. Open beta releases (v0.5.1b) and active development; the maintainers explicitly state the port does not use AI. Requires the game dump from a disc copy you own, .NET 10 runtime and OpenAL.",
+    "Recompilation of Castlevania: Symphony of the Night (PS1) that runs natively on Windows (x64 and ARM64), Linux and macOS (Intel and Apple silicon). The v1.1.2p open-beta release adds language packs, a separate game-text language option, widescreen room-extension fills for most of the castle and libretro shader presets. The maintainers state the port is hand-written and does not use AI. Requires the game files from a disc copy you own and the .NET 10 runtime.",
   notesEs:
-    "Recompilación de Castlevania: Symphony of the Night (PS1) que corre nativa en Windows, Linux y macOS. Releases beta abiertas (v0.5.1b) y desarrollo activo; los mantenedores afirman explícitamente que el port no usa IA. Requiere el volcado del juego de una copia en disco que poseas, el runtime .NET 10 y OpenAL.",
+    "Recompilación de Castlevania: Symphony of the Night (PS1) que corre nativa en Windows (x64 y ARM64), Linux y macOS (Intel y Apple silicon). La versión beta abierta v1.1.2p añade paquetes de idioma, una opción separada para el idioma del texto del juego, relleno panorámico de salas para la mayor parte del castillo y presets de shaders de libretro. Los mantenedores afirman que el port está escrito a mano y no usa IA. Requiere los archivos de una copia en disco que poseas y el runtime .NET 10.",
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Castlevania%20-%20Symphony%20of%20the%20Night%20(USA).png",
     alt: "Castlevania: Symphony of the Night (box art)",

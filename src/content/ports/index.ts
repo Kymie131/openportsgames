@@ -2612,6 +2612,18 @@ import { ZoneOfTheEnders2 } from "./zone-of-the-enders-2";
 import { ZoneOfTheEnders3GuySavageFromMetalGearSolid3 } from "./zone-of-the-enders-3-guy-savage-from-metal-gear-solid-3";
 import { zumaDeluxeAndroid } from "./zuma-deluxe-android";
 import { zumaDeluxePortable } from "./zuma-deluxe-portable";
+import { theLastOfUsRemasteredPc } from "./the-last-of-us-remastered-pc";
+import { residentEvilCodeVeronicaXHdPc } from "./resident-evil-code-veronica-x-hd-pc";
+import { residentEvilUmbrellaChroniclesPc } from "./resident-evil-umbrella-chronicles-pc";
+import { monsterHunterGenerationsUltimateRecomp } from "./monster-hunter-generations-ultimate-recomp";
+import { granTurismo3Revisited } from "./gran-turismo-3-revisited";
+import { ratchetToolsOfDestructionPc } from "./ratchet-tools-of-destruction-pc";
+import { topSpin4Recomp } from "./top-spin-4-recomp";
+import { donkeyKongBananzaPc } from "./donkey-kong-bananza-pc";
+import { agentUnderFireRecomp } from "./007-agent-under-fire-recomp";
+import { houseOfTheDeadRewrithe } from "./house-of-the-dead-rewrithe";
+import { conkerLiveReloadedRecomp } from "./conker-live-reloaded-recomp";
+import { pilotwingsResortPc } from "./pilotwings-resort-pc";
 
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
@@ -5226,4 +5238,16 @@ export const portCases: Port[] = [
   basara4Pc,
   botwAndroid,
   mk9Switch,
+  theLastOfUsRemasteredPc,
+  residentEvilCodeVeronicaXHdPc,
+  residentEvilUmbrellaChroniclesPc,
+  monsterHunterGenerationsUltimateRecomp,
+  granTurismo3Revisited,
+  ratchetToolsOfDestructionPc,
+  topSpin4Recomp,
+  donkeyKongBananzaPc,
+  agentUnderFireRecomp,
+  houseOfTheDeadRewrithe,
+  conkerLiveReloadedRecomp,
+  pilotwingsResortPc,
 ];
