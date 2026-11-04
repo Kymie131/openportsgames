@@ -21,7 +21,7 @@ export const donkeyKongBananzaPc: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-11-02",
-  originalSystems: ["Nintendo Switch"],
+  originalSystems: ["Nintendo Switch 2"],
   summary:
     "Donkey Kong Bananza is a 2025 3D platformer developed by Nintendo EPD and published by Nintendo for the Nintendo Switch 2. Donkey Kong digs and punches through destructible underground layers, assisted by the child Pauline, to reach the planet's core.",
   summaryEs:

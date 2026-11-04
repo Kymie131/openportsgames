@@ -15,6 +15,7 @@ export const systemSlugs = [
   "wii",
   "wii-u",
   "switch",
+  "switch-2",
   "game-boy",
   "virtual-boy",
   "gba",
@@ -103,6 +104,12 @@ export const systems: Record<SystemSlug, SystemDefinition> = {
   "switch": {
     slug: "switch",
     name: { en: "Nintendo Switch", es: "Nintendo Switch" },
+    color: "#E60012",
+    colorOnDark: "#FF5A5F",
+  },
+  "switch-2": {
+    slug: "switch-2",
+    name: { en: "Nintendo Switch 2", es: "Nintendo Switch 2" },
     color: "#E60012",
     colorOnDark: "#FF5A5F",
   },
@@ -297,6 +304,7 @@ export const systemSlugByLabel: Record<string, SystemSlug> = {
   Wii: "wii",
   "Wii U": "wii-u",
   "Nintendo Switch": "switch",
+  "Nintendo Switch 2": "switch-2",
   Switch: "switch",
   "Game Boy": "game-boy",
   "Virtual Boy": "virtual-boy",

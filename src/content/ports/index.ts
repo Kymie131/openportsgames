@@ -1137,6 +1137,7 @@ import { MarioKartDs } from "./mario-kart-ds";
 import { marioKartSuperCircuitRecomp } from "./mario-kart-super-circuit-recomp";
 import { marioKartWii3ds } from "./mario-kart-wii-3ds";
 import { marioKartWiiAndroid } from "./mario-kart-wii-android";
+import { marioKartWorldSwitch2mac } from "./mario-kart-world-switch2mac";
 import { MarioParty1 } from "./mario-party-1";
 import { MarioParty2 } from "./mario-party-2";
 import { marioParty3Recomp } from "./mario-party-3-recomp";
@@ -1582,6 +1583,8 @@ import { PokemonPinballRubyAndSapphire } from "./pokemon-pinball-ruby-and-sapphi
 import { PokemonPlatinum } from "./pokemon-platinum";
 import { pokemonPlatinumRecomp } from "./pokemon-platinum-recomp";
 import { pokemonPlatinumSoulsilverPsp } from "./pokemon-platinum-soulsilver-psp";
+import { pokemonPokopiaNative } from "./pokemon-pokopia-native";
+import { pokemonPokopiaRecomp } from "./pokemon-pokopia-recomp";
 import { PokemonPuzzleChallenge } from "./pokemon-puzzle-challenge";
 import { PokemonPuzzleLeague } from "./pokemon-puzzle-league";
 import { pokemonRedBlue3dsGen1recomp } from "./pokemon-red-blue-3ds-gen1recomp";
@@ -3763,6 +3766,7 @@ export const portCases: Port[] = [
   marioKartSuperCircuitRecomp,
   marioKartWii3ds,
   marioKartWiiAndroid,
+  marioKartWorldSwitch2mac,
   MarioParty1,
   MarioParty2,
   marioParty3Recomp,
@@ -4208,6 +4212,8 @@ export const portCases: Port[] = [
   PokemonPlatinum,
   pokemonPlatinumRecomp,
   pokemonPlatinumSoulsilverPsp,
+  pokemonPokopiaNative,
+  pokemonPokopiaRecomp,
   PokemonPuzzleChallenge,
   PokemonPuzzleLeague,
   pokemonRedBlue3dsGen1recomp,
