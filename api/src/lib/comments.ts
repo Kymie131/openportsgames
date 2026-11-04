@@ -63,8 +63,12 @@ export const updateCommentStatusSchema = z.object({
 /** Keyset pagination cursor: the tuple `(created_at, id)` of the last row. */
 export type Cursor = { createdAt: number; id: string };
 
-const UUID_RE =
-  /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+/**
+ * Safe id shape accepted inside a cursor. Better Auth generates 32-character
+ * base62 user ids, while comments, reports and moderation rows use UUIDs, so
+ * both must round-trip. Anything outside this set is rejected.
+ */
+const CURSOR_ROW_ID_RE = /^[A-Za-z0-9_-]{1,128}$/;
 
 const CURSOR_ID_RE = /^[A-Za-z0-9_-]+$/;
 const CURSOR_TIME_RE = /^[0-9]{1,15}$/;
@@ -80,7 +84,7 @@ export function encodeCursor(createdAt: number, id: string): string {
  *
  * Returns `null` for anything that is not a well formed cursor, including
  * base64 that does not decode, a missing separator, a non-numeric timestamp or
- * an id that is not a UUID. Callers should treat `null` as a bad request.
+ * an id with unsafe characters. Callers should treat `null` as a bad request.
  */
 export function decodeCursor(value: string | undefined | null): Cursor | null {
   if (typeof value !== "string") return null;
@@ -105,7 +109,7 @@ export function decodeCursor(value: string | undefined | null): Cursor | null {
   const timePart = raw.slice(0, sep);
   const id = raw.slice(sep + 1);
   if (!CURSOR_TIME_RE.test(timePart)) return null;
-  if (!UUID_RE.test(id)) return null;
+  if (!CURSOR_ROW_ID_RE.test(id)) return null;
 
   const createdAt = Number(timePart);
   if (!Number.isSafeInteger(createdAt) || createdAt < 0) return null;

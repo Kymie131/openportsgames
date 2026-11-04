@@ -11,6 +11,7 @@ import { rateLimit } from "./middleware/ratelimit";
 import { requireUser, type SessionEnv } from "./middleware/session";
 import { admin } from "./routes/admin";
 import { comments } from "./routes/comments";
+import { favorites } from "./routes/favorites";
 import { missing } from "./routes/missing";
 import { ratings } from "./routes/ratings";
 import { reviews } from "./routes/reviews";
@@ -93,6 +94,7 @@ app.delete(
 );
 
 app.route("/ratings", ratings);
+app.route("/favorites", favorites);
 app.route("/reviews", reviews);
 app.route("/comments", comments);
 app.route("/missing", missing);

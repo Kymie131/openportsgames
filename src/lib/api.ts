@@ -25,6 +25,22 @@ export type RatingStats = {
   mine: number | null;
 };
 
+/** One saved port for the current user. */
+export type FavoriteItem = {
+  portId: string;
+  createdAt: string;
+};
+
+/** Response of the current user's favorites list. */
+export type FavoritesResponse = {
+  items: FavoriteItem[];
+};
+
+/** Whether the current user saved one port. */
+export type FavoriteStatus = {
+  favorited: boolean;
+};
+
 /** Public rating aggregate for one port, used by listing cards. */
 export type RatingSummaryItem = {
   portId: string;

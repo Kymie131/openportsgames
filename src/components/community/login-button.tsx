@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 import {
+  Bookmark,
   ChevronDown,
   Globe,
   LoaderCircle,
@@ -256,6 +257,15 @@ export function LoginButton({ className }: { className?: string }) {
                     </Link>
                   </DropdownMenu.Item>
                 )}
+                <DropdownMenu.Item asChild className="outline-none">
+                  <Link
+                    href="/favorites"
+                    className="flex cursor-pointer items-center gap-2 rounded-sm px-2.5 py-1.5 text-sm text-foreground outline-none transition-colors hover:bg-surface-2 focus:bg-surface-2"
+                  >
+                    <Bookmark className="size-4" aria-hidden="true" />
+                    {t.community.login.favorites}
+                  </Link>
+                </DropdownMenu.Item>
                 <DropdownMenu.Item
                   onSelect={(event) => {
                     event.preventDefault();

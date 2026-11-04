@@ -448,6 +448,7 @@ export function AdminDashboard() {
 
   async function loadMore() {
     setLoadingMore(true);
+    setActionError(false);
     try {
       if (tab === "reports" && reportsCursor) {
         const page = await loadReports(reportsCursor);

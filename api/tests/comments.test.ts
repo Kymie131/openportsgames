@@ -16,6 +16,7 @@ import {
 } from "../src/lib/comments";
 
 const UUID = "123e4567-e89b-12d3-a456-426614174000";
+const BETTER_AUTH_ID = "k3hlfQkRGrRkI7Eabu7xApHD2VCF7xod";
 
 describe("commentBodySchema", () => {
   it("accepts and trims a valid body", () => {
@@ -106,6 +107,14 @@ describe("cursor encode/decode", () => {
     expect(decodeCursor(cursor)).toEqual({ createdAt: 1_700_000_000_000, id: UUID });
   });
 
+  it("round-trips a Better Auth user id", () => {
+    const cursor = encodeCursor(1_700_000_000_000, BETTER_AUTH_ID);
+    expect(decodeCursor(cursor)).toEqual({
+      createdAt: 1_700_000_000_000,
+      id: BETTER_AUTH_ID,
+    });
+  });
+
   it("produces a URL-safe token without padding", () => {
     const cursor = encodeCursor(1_700_000_000_000, UUID);
     expect(cursor).toMatch(/^[A-Za-z0-9_-]+$/);
@@ -125,7 +134,8 @@ describe("cursor encode/decode", () => {
       b64(`1700000000000`), // missing separator
       b64(`|${UUID}`), // missing timestamp
       b64(`abc|${UUID}`), // non-numeric timestamp
-      b64(`1700000000000|not-a-uuid`), // bad id
+      b64(`1700000000000|not a valid id`), // bad id
+      b64(`1700000000000|${"a".repeat(129)}`), // oversized id
       b64(`1700000000000|${UUID}|extra`), // extra field
       b64(`-1|${UUID}`), // negative timestamp
       "a".repeat(201),

@@ -118,6 +118,24 @@ export const rating = sqliteTable(
   ],
 );
 
+export const favorite = sqliteTable(
+  "favorite",
+  {
+    userId: text("user_id")
+      .notNull()
+      .references(() => user.id, { onDelete: "cascade" }),
+    portId: text("port_id").notNull(),
+    createdAt: integer("created_at", { mode: "timestamp_ms" })
+      .default(sql`(cast(unixepoch('subsecond') * 1000 as integer))`)
+      .notNull(),
+  },
+  (table) => [
+    primaryKey({ columns: [table.userId, table.portId] }),
+    index("favorite_portId_idx").on(table.portId),
+    index("favorite_userId_createdAt_idx").on(table.userId, table.createdAt),
+  ],
+);
+
 export const comment = sqliteTable(
   "comment",
   {
@@ -307,6 +325,7 @@ export const userRelations = relations(user, ({ many }) => ({
   sessions: many(session),
   accounts: many(account),
   comments: many(comment),
+  favorites: many(favorite),
   reports: many(report),
   missingPorts: many(missingPort),
   missingPortComments: many(missingPortComment),
