@@ -25,6 +25,10 @@ Worker de Cloudflare + D1 para cuentas, comentarios, respuestas, corazones y el 
 | `GET` | `/ratings/summary` | Media y número de corazones de todos los ports puntuados |
 | `PUT` | `/ratings/:portId` | Puntúa con `{ "hearts": 1..5 }` |
 | `DELETE` | `/ratings/:portId` | Quita tu puntuación |
+| `GET` | `/favorites` | Lista privada de ports guardados |
+| `GET` | `/favorites/:portId` | Indica si el port está guardado |
+| `PUT` | `/favorites/:portId` | Guarda el port en favoritos |
+| `DELETE` | `/favorites/:portId` | Quita el port de favoritos |
 | `GET` | `/comments/:portId` | Comentarios paginados (incluye `sentiment` si es reseña) |
 | `POST` | `/comments/:portId` | Comenta o responde (`parentId`); acepta `sentiment: positive\|negative` |
 | `GET` | `/reviews/:portId` | Resumen de reseñas: positivas, negativas, total y porcentaje |
@@ -109,7 +113,7 @@ cd api
 npx wrangler d1 migrations apply DB --remote
 ```
 
-Las migraciones viven en `api/drizzle/`. La última añade `missing_port`, `missing_port_comment` y `comment.parent_id`.
+Las migraciones viven en `api/drizzle/`. La última añade `favorite`; las anteriores añadieron el flujo de denuncias (`report.status`, `moderation_log`), `missing_port`, `missing_port_comment` y `comment.parent_id`.
 
 ## Desarrollo local
 
