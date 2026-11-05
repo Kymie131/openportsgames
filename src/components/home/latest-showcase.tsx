@@ -139,7 +139,7 @@ function LeadCard({ entry }: { entry: ShowcaseEntry }) {
   return (
     <article className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-surface">
       <Link href={`/ports/${port.id}`} className="block" aria-label={port.game}>
-        <div className="relative aspect-[16/10]">
+        <div className="relative aspect-[4/5]">
           {image ? (
             <ScreenshotFrame
               src={image.src}
@@ -210,7 +210,7 @@ function PortRow({ entry, index }: { entry: ShowcaseEntry; index: number }) {
         className="group flex items-center gap-4 rounded-lg px-2 py-3 transition-colors hover:bg-surface-2"
       >
         <div className="relative w-24 shrink-0 overflow-hidden rounded-md border border-border bg-surface-2 sm:w-28">
-          <div className="aspect-[4/3]">
+          <div className="aspect-[3/4]">
             {image ? (
               <ScreenshotFrame
                 src={image.src}
