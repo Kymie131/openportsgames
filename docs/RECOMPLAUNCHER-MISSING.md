@@ -1,0 +1,176 @@
+# RecompLauncher projects not in the catalog
+
+Discovery pass: **2026-11-05**.
+
+Source: [RecompLauncher](https://recomplauncher.com/pc/all). The list below was
+compared by normalized game and project title against the catalog; it is a
+backlog, not an automatic import. Each candidate still needs its official
+source, release assets and legal notes verified before it becomes a port entry.
+
+Candidates: **163**.
+
+## Candidates
+
+- **007: Everything or Nothing** — 007: Everything or Nothing - XBE Recomp
+- **007: From Russia with Love** — 007: From Russia with Love - XBE Recomp
+- **2010 FIFA World Cup South Africa** — FIFA World Cup 2010
+- **40 Winks** — 40 Winks: Dreamcompiled
+- **Ace Combat 04: Shattered Skies** — Project Stonehenge
+- **Ace Combat 04: Shattered Skies** — Ace Combat 04: Shattered Skies - PC Port
+- **After Burner Climax** — After Burner Climax Recompiled
+- **Amped 2** — RE-Amped2
+- **Atlantis: The Lost Tales** — Atlantis Native
+- **Baroque** — Baroque (SaturnRecomp)
+- **Battletoads in Battlemaniacs** — Battletoads in Battlemaniacs Recomp
+- **Beyond Oasis** — Beyond Oasis Recomp
+- **Blood Wake** — Blood Wake Recomp
+- **Bloody Roar Extreme (Bloody Roar: Primal Fury)** — Bloody Roar Extreme Recomp
+- **Castle of Illusion / QuackShot / World of Illusion** — Mickey & Donald Collection
+- **Castlevania: Curse of Darkness** — Curse of Darkness Recomp
+- **Chrono Trigger (SNES)** — Belthasar
+- **ClayFighter 63⅓ and ClayFighter: Sculptor's Cut** — ClayFighter 64
+- **Command & Conquer: Red Alert 2 - Yuri's Revenge** — Red Alert 2 Recomp
+- **Cruis'n Blast** — Cruis'n Blast Recomp
+- **Crystal Defenders** — Cristalis
+- **D** — D PC Port
+- **Dead Cells: Return to Castlevania Edition** — Dead Cells PS5 Native
+- **Dead or Alive 2 Ultimate (from Dead or Alive Ultimate, Disc 2)** — DOA2U Native PC Port
+- **Dead or Alive Xtreme 3 Fortune** — DOAX3 Fortune PC
+- **Dead or Alive Xtreme 3 Scarlet** — DOAX3 Scarlet PC
+- **Demon's Crest** — Demon's Crest Recompiled
+- **Desert Strike: Return to the Gulf** — Desert Strike Recomp
+- **Desert Strike: Return to the Gulf; Jungle Strike; Urban Strike** — Strike Remastered Collection HD
+- **deSPIRIA** — deSPIRIA reBIRTH
+- **Dig Dug** — Dig Dug Native Port
+- **Discord Times** — Razdor
+- **Disgaea D2: A Brighter Darkness** — Disgaea D2: A Brighter Darkness
+- **Donkey Kong** — DK94 Recomp
+- **Dragon Quest VIII: Journey of the Cursed King** — DQ8 Recompiled
+- **Dynasty Warriors 5: Xtreme Legends** — DW5XL Recomp
+- **EarthBound** — Phase Distorter
+- **EarthBound** — EarthBound Companion
+- **Fight Night Round 3** — Fight Night Round 3 Recomp
+- **Final Fantasy** — Final Fantasy NES Recomp
+- **Fist of the North Star: Lost Paradise** — PortGaGotoku
+- **Fracture** — Fracture
+- **Futurama** — Futurama: The Game
+- **Gears of War 2, Gears of War 3, Gears of War: Judgment** — COGBox
+- **God of War: Chains of Olympus; God of War: Ghost of Sparta** — God of War PSP
+- **God of War: Sons of Sparta (PS5)** — SonsOfSparta-PS5 Native
+- **GODZILLA** — Minus Two
+- **GoldenEye 007 (XBLA)** — GoldenEye 007 XBLA Recomp
+- **Gran Turismo 5 Prologue** — Project Tourline Prologue
+- **Grandia III** — Grandia3-PC
+- **Guitar Hero, Guitar Hero II, Encore: Rocks the 80s and III** — Guitar Dream Engine: Guitar Hero Recompiled
+- **Gunstar Heroes** — gunstars
+- **Harry Potter and the Chamber of Secrets** — Harry Potter and the Chamber of Secrets (Xbox Recomp)
+- **Haze** — Haze Recomp
+- **Hellnight** — Hell Night: Dark Messiah Recompiled
+- **Hexic HD** — Hexic HD Recompiled
+- **Hot Shots Tennis** — OpenTennis
+- **Hotel Mario** — Hotel Mario Static Recomp
+- **Hydro Thunder; Offroad Thunder** — VCThunder
+- **Inazuma Eleven 3: Sekai heno Chousen!! The Ogre** — Inazuma Eleven 3: The Ogre Recomp
+- **inFAMOUS First Light** — inFAMOUS First Light PC
+- **Initial D Street Stage** — Initial D Street Stage PSP PC
+- **International Superstar Soccer 2000** — ISS 2000 Widescreen
+- **J-Stars Victory VS+** — J-Stars Victory VS+ (JStars Reborn)
+- **James Pond 2: Codename RoboCod** — James Pond 2: Codename RoboCod - Recompiled
+- **Killer Instinct (arcade, 1994); Killer Instinct 2 (arcade, 1996)** — UltraCombo
+- **Kirby's Return to Dream Land** — Kirby Wii Recomp
+- **Knack** — Knack PC
+- **Lagoon** — Lagoon Recomp
+- **Laserlords** — Laserlords
+- **Link: The Faces of Evil** — Link: The Faces of Evil Static Recomp
+- **Little Fighter 2** — LF2 Decomp
+- **Looney Tunes B-Ball** — Looney Tunes B-Ball Recompiled
+- **Madden NFL 08** — Madden NFL 08 Recompiled
+- **Magical Tetris Challenge** — Magical Blocks
+- **Mario Party** — Mario Party: Recompiled
+- **Marvel: Ultimate Alliance** — Marvel Ultimate Alliance Recompiled
+- **Metroid Dread** — Metroid Dread Recomp
+- **Metroid Prime 2: Echoes** — Echoes Unbound
+- **Midnight Club 3: DUB Edition Remix** — mc3port
+- **MLB Power Pros 2008** — MLB Power Pros 2008 Recomp
+- **Monopoly** — Monopoly Recompiled
+- **Mutant Rampage: Bodyslam** — Mutant Rampage: Bodyslam Static Recomp
+- **Mystical Ninja Starring Goemon (Nintendo 64)** — Goemon64 Recomp
+- **Naruto: Clash of Ninja** — Naruto: Clash of Ninja Collection
+- **Naughty Bear Gold Edition** — ReStuff
+- **NBA Street Vol. 2** — Streetball Revival
+- **Neo Drift Out: New Technology** — Neo Drift Out Enhanced
+- **NFL Blitz 2003** — NFL Blitz 2003 PC
+- **NHL Hitz 20-03** — NHL Hitz 20-03 Recomp
+- **NHL Hitz Pro** — NHL Hitz Pro Recomp
+- **Odin Sphere Leifthrasir** — Odin Sphere Leifthrasir PC Port
+- **One Piece: Grand Battle! 2** — One Piece: Grand Battle! 2 Recomp
+- **OutRun Online Arcade** — OutRun Online Arcade Recompiled
+- **OutRunners** — OutRunners Port
+- **Pac-Man Championship Edition** — Pac-Man Championship Edition: Native PC Port
+- **PaRappa the Rapper** — PaRappa The Rapper Recompiled
+- **Perfect Dark (Xbox 360, Xbox Live Arcade)** — Perfect Dark XBLA PC Recomp
+- **Pirates of the Caribbean: At World's End** — Pirates: At World's End Recomp
+- **Pokémon Rumble** — RumbleRecomp
+- **Pro Evolution Soccer 2017** — PRO17PORT
+- **Rampage: Total Destruction** — RampageRE
+- **Ratchet & Clank Future: A Crack in Time** — RACiT
+- **Roll Away** — Roll Away PC Port
+- **Sakura Wars** — Sakura Wars PS4RT
+- **Saru Get You: Saru Saru Daisakusen** — Ape Escape Mind Over Monkey
+- **Shin Kidō Senki Gundam Wing: Endless Duel** — Gundam Wing Endless Duel Recomp
+- **Shin Megami Tensei: Devil Survivor 2 Record Breaker** — Canopus Protocol
+- **Shiritsu Justice Gakuen: Nekketsu Seishun Nikki 2** — Shiritsu Justice Gakuen: Nekketsu Seishun Nikki 2 Recomp
+- **Skylanders: Spyro's Adventure; Skylanders: Giants; Skylanders: Swap Force; Skylanders: Trap Team; Skylanders: SuperCharg** — Skylanders: Core of Light
+- **Sneak King** — Sneaky Whopper Recomp
+- **Sneak King, Big Bumpin' and PocketBike Racer** — Whopping Collection
+- **Snoopy Flying Ace** — Snoopy Flying Ace
+- **South Park: Let's Go Tower Defense Play!** — South Park Tower Defense PC Port
+- **South Park: Tenorman's Revenge** — South Park: Tenorman's Revenge Recompiled
+- **Split/Second** — Split/Second
+- **Street Fighter II Turbo: Hyper Fighting** — Street Fighter II Turbo: Hyper Fighting
+- **Street Rod; Street Rod 2** — RodLegacy
+- **Stuntman** — Stuntman
+- **Super Bomberman 5** — Super Bomberman 5 Recomp
+- **Super Castlevania IV** — Super Castlevania IV
+- **Super Kirby Clash** — KirbyRecomp
+- **Super Mario Kart** — Super Mario Kart Recomp
+- **Super Mario RPG: Legend of the Seven Stars** — SuperMarioRPGSNESRecomp
+- **Super Mario World 2: Yoshi's Island** — Super Mario World 2: Yoshi's Island
+- **Super Mario World: Super Mario Advance 2** — SuperMarioAdvance2Recomp
+- **Super Monkey Ball Deluxe** — Super Monkey Ball Deluxe Recompiled
+- **Super Smash Bros. for Wii U** — Smash 4 PC
+- **Tecmo's Deception: Invitation to Darkness** — Deception-recomp
+- **Teenage Mutant Ninja Turtles IV: Turtles in Time** — TMNT IV: Turtles in Time PC
+- **Tekken 5: Dark Resurrection Online** — T5DR Online
+- **The Flintstones/The Jetsons: TimeWarp** — Flintstones/Jetsons: Timewarp
+- **The King of Fighters '98** — KOF'98 Recomp
+- **The Legend of Zelda: Majora's Mask 3D** — Majora ReMasked
+- **The Legend of Zelda: Majora's Mask 3D** — DekUI
+- **The Legend of Zelda: Ocarina of Time / Majora's Mask** — ComboShip
+- **The Legend of Zelda: Oracle of Ages; The Legend of Zelda: Oracle of Seasons** — Oracles Decomp
+- **The Legend of Zelda: Tears of the Kingdom** — TotK Recomp
+- **The Legend of Zelda: Tears of the Kingdom** — UltraTears
+- **The Lord of the Rings: The Fellowship of the Ring / The Two Towers / The Return of the King** — Athelas
+- **The Nightmare Before Christmas: Oogie's Revenge** — Oogie's Revenge Recompiled
+- **The Sims** — The Sims - Static Recompilation
+- **The Smurfs (3DS)** — Dragon Quest 8 3ds
+- **The Warriors** — The Warriors
+- **Tiny Toon Adventures: ACME All-Stars** — Tiny Toon Adventures: ACME All-Stars
+- **TNA iMPACT!** — TNA iMPACT! Recompiled
+- **Tom Clancy's Ghost Recon 2: Summit Strike** — Summit Strike Recomp
+- **Tony Hawk's Pro Skater 2x** — THPS2X Recompiled
+- **Top Spin** — Max Spin
+- **Until Dawn** — Until Dawn PC
+- **Urban Chaos: Riot Response** — Urban Chaos: Burner Edition
+- **VKRT NES Remaster** — VKRT NES Remaster
+- **Wario Blast Featuring Bomberman!** — WarioBlast Recomp
+- **Wario Land: Super Mario Land 3** — Bigodao
+- **WinBack: Covert Operations** — WinBack Recompiled
+- **WipEout Omega Collection** — WipEout Omega PC
+- **WWE 2K16** — WWE 2K16 PC
+- **WWE SmackDown! Here Comes the Pain** — HCTP Recompiled
+- **X-Men 2: Clone Wars** — X-Men 2: Clone Wars PC
+- **Xenoblade Chronicles X: Definitive Edition** — XCX Recomp
+- **Yo-kai Watch** — Clockwork
+- **Zelda: The Wand of Gamelon** — Zelda: Wand of Gamelon Static Recomp
+- **Zone of the Enders** — ZOE-Recompiled
