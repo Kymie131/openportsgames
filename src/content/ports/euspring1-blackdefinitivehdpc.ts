@@ -19,6 +19,7 @@ export const euspring1Blackdefinitivehdpc: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
+  sourceDead: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
   summary: "Black is a 2006 first-person shooter game developed by Criterion Games and published by Electronic Arts (EA) for the PlayStation 2 and Xbox. The player assumes control of Jack Kellar, a US Army special forces soldier being interrogated about his previous missions involving a terrorist operation. Gameplay involves players fighting terrorists by using firearms and grenades. The game is notable and was heavily promoted for its large focus on destructive effects and explosions during gameplay, as well as its cinema-inspired action and sound quality.",

@@ -14,7 +14,7 @@ export const defJamFightForNyRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "macos", "linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.0-beta.2", date: "2026-11-05" },
   sources: ["https://github.com/vyanhursky/DefJamFFNY-recomp"],
   license: { spdx: "MIT" },
   verified: false,

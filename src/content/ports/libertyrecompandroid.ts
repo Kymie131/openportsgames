@@ -14,7 +14,7 @@ export const libertyrecompandroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.5.9.3", date: "2026-10-14" },
   sources: ["https://github.com/vaduur/LibertyRecompAndroid"],
   license: { spdx: "GPL-3.0" },
   verified: false,

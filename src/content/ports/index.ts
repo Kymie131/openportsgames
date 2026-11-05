@@ -797,6 +797,7 @@ import { GranTurismo4 } from "./gran-turismo-4";
 import { granTurismo4Pc } from "./gran-turismo-4-pc";
 import { granTurismoSportRygtPc } from "./gran-turismo-sport-rygt-pc";
 import { gravityRush2Pc } from "./gravity-rush-2-pc";
+import { gravityRushRemasteredGrr } from "./gravity-rush-remastered-grr";
 import { gravityRushRemasteredPc } from "./gravity-rush-remastered-pc";
 import { GreenFarm3 } from "./green-farm-3";
 import { greenswampdwellerTorchlightRekindled } from "./greenswampdweller-torchlight-rekindled";
@@ -1534,6 +1535,7 @@ import { phobos665Split2Recomp } from "./phobos665-split2-recomp";
 import { PhoenixWrightAceAttorneyJusticeForAll } from "./phoenix-wright-ace-attorney-justice-for-all";
 import { pikmin } from "./pikmin";
 import { pikmin2Decomp } from "./pikmin-2-decomp";
+import { pikmin3Recomp } from "./pikmin-3-recomp";
 import { pilotwings64Birdman64 } from "./pilotwings-64-birdman64";
 import { pilotwings64Recomp } from "./pilotwings-64-recomp";
 import { pinballFantasiesAndroid } from "./pinball-fantasies-android";
@@ -3426,6 +3428,7 @@ export const portCases: Port[] = [
   granTurismo4Pc,
   granTurismoSportRygtPc,
   gravityRush2Pc,
+  gravityRushRemasteredGrr,
   gravityRushRemasteredPc,
   GreenFarm3,
   greenswampdwellerTorchlightRekindled,
@@ -4163,6 +4166,7 @@ export const portCases: Port[] = [
   PhoenixWrightAceAttorneyJusticeForAll,
   pikmin,
   pikmin2Decomp,
+  pikmin3Recomp,
   pilotwings64Birdman64,
   pilotwings64Recomp,
   pinballFantasiesAndroid,

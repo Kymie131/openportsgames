@@ -14,7 +14,7 @@ export const sonicFreeRidersRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.10.48", date: "2026-11-05" },
   sources: ["https://github.com/YuutaTsubasa/Free-Riders-Recompiled"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,

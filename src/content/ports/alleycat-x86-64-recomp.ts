@@ -14,7 +14,7 @@ export const alleycatX8664Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["web","windows","macos","linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.3", date: "2026-10-16" },
   sources: ["https://github.com/petarov/alleycat.exe"],
   license: { spdx: "Unlicense" },
   verified: false,

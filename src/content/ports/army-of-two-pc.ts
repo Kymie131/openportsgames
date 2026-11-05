@@ -14,7 +14,7 @@ export const armyOfTwoPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.4.3", date: "2026-11-02" },
   sources: ["https://github.com/OpenPortroid/ArmyOfTwoRecompilation"],
   license: { spdx: "MIT" },
   verified: false,

@@ -14,7 +14,7 @@ export const projectZomboidAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.5.2", date: "2026-10-19" },
   sources: ["https://github.com/udarmolota/zomdroid"],
   license: { spdx: "MIT" },
   verified: false,

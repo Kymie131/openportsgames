@@ -14,7 +14,7 @@ export const pinyonShift: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos", "android"],
   status: "alpha",
-  release: { version: "0.7.1", date: "2026-10-27" },
+  release: { version: "0.8.1", date: "2026-11-05" },
   sources: ["https://github.com/arcanite24/pinyon-shift"],
   license: { spdx: "BSD-3-Clause" },
   verified: true,

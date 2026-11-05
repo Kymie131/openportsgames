@@ -14,7 +14,7 @@ export const mkvdcuAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.20", date: "2026-10-31" },
   sources: ["https://github.com/lemooz/MKVDCU-Android"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,

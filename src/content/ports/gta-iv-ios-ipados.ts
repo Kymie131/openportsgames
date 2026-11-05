@@ -14,7 +14,7 @@ export const gtaIvIosIpados: Port = {
   originalGameLicense: "proprietary",
   platforms: ["ios"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.3.2", date: "2026-10-14" },
   sources: ["https://github.com/KoreanSeats1/Theft4"],
   license: { spdx: "GPL-3.0" },
   verified: false,

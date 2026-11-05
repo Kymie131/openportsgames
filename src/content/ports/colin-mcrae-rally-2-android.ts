@@ -14,7 +14,7 @@ export const colinMcraeRally2Android: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android", "windows"],
   status: "beta",
-  release: { version: "1.5.5", date: "2026-10-21" },
+  release: { version: "1.8.4", date: "2026-11-02" },
   sources: ["https://github.com/pablocpas/OpenCMR2"],
   license: { spdx: "GPL-3.0" },
   verified: false,
