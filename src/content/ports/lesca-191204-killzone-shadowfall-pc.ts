@@ -14,7 +14,7 @@ export const lesca191204KillzoneShadowfallPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: "0.4.0", date: "2026-10-23" },
+  release: { version: "0.8.1", date: "2026-10-31" },
   sources: ["https://github.com/lesca-191204/killzone-shadowfall-pc"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -28,6 +28,23 @@ export const lesca191204KillzoneShadowfallPc: Port = {
     alt: "Killzone Shadow Fall (generated cover)",
     credit: "OpenPortsGames",
   },
-  notes: "Killzone Shadow Fall: source port by lesca-191204 for Windows. Bring your own copy of the game.",
-  notesEs: "Killzone Shadow Fall: source port de lesca-191204 para Windows. Aporta tu propia copia del juego.",
+  notes: "Killzone Shadow Fall: source port by lesca-191204 for Windows. Latest release: v0.8.1. Bring your own copy of the game; no game files are included.",
+  notesEs: "Killzone Shadow Fall: port de código de lesca-191204 para Windows. Última release: v0.8.1. Aporta tu propia copia del juego; no incluye archivos del juego.",
+  features: [
+    "Native Windows runtime port.",
+    "Latest release v0.8.1.",
+    "Requires your own PS4 game files.",
+  ],
+  featuresEs: [
+    "Port nativo para Windows.",
+    "Última release v0.8.1.",
+    "Necesita tus propios archivos de PS4.",
+  ],
+  downloads: [
+    {
+      label: "Windows x86_64",
+      url: "https://github.com/lesca-191204/killzone-shadowfall-pc/releases/download/v0.8.1/KillzoneShadowFall-v0.8.1-windows.zip",
+      note: "Windows · x64",
+    },
+  ],
 };

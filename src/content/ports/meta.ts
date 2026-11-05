@@ -2639,4 +2639,7 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "grandia-3-pc": ["PlayStation 2"],
   "ace-combat-04-pc": ["PlayStation 2"],
   "gunstar-heroes-recomp": ["Sega Mega Drive / Genesis"],
+  "metroid-prime-2-echoes": ["Nintendo GameCube"],
+  "chrono-trigger-belthasar": ["Super Nintendo"],
+  "majoras-mask-3d-remasked": ["Nintendo 3DS"],
 };

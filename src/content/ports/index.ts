@@ -2640,6 +2640,9 @@ import { grandia3Pc } from "./grandia-3-pc";
 import { aceCombat04Pc } from "./ace-combat-04-pc";
 import { gunstarHeroesRecomp } from "./gunstar-heroes-recomp";
 
+import { metroidPrime2Echoes } from "./metroid-prime-2-echoes";
+import { chronoTriggerBelthasar } from "./chrono-trigger-belthasar";
+import { majorasMask3dRemasked } from "./majoras-mask-3d-remasked";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5279,4 +5282,7 @@ export const portCases: Port[] = [
   grandia3Pc,
   aceCombat04Pc,
   gunstarHeroesRecomp,
+  metroidPrime2Echoes,
+  chronoTriggerBelthasar,
+  majorasMask3dRemasked,
 ];
