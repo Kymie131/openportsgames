@@ -21,7 +21,7 @@ for (const mod of modules) {
   if (!fs.existsSync(file)) continue;
   const src = fs.readFileSync(file, "utf8");
   if (/status:\s*"takedown"/.test(src)) continue;
-  const match = src.match(/id:\s*"([a-z0-9-]+)"/);
+  const match = src.match(/["']?id["']?\s*:\s*"([a-z0-9-]+)"/);
   if (match) ids.push(match[1]);
 }
 

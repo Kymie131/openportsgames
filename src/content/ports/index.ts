@@ -2630,6 +2630,16 @@ import { houseOfTheDeadRewrithe } from "./house-of-the-dead-rewrithe";
 import { conkerLiveReloadedRecomp } from "./conker-live-reloaded-recomp";
 import { pilotwingsResortPc } from "./pilotwings-resort-pc";
 
+import { untilDawnPc } from "./until-dawn-pc";
+import { wipeoutOmegaPc } from "./wipeout-omega-pc";
+import { metroidDreadRecomp } from "./metroid-dread-recomp";
+import { totkRecomp } from "./totk-recomp";
+import { wwe2k16Pc } from "./wwe-2k16-pc";
+import { knackPc } from "./knack-pc";
+import { grandia3Pc } from "./grandia-3-pc";
+import { aceCombat04Pc } from "./ace-combat-04-pc";
+import { gunstarHeroesRecomp } from "./gunstar-heroes-recomp";
+
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5260,4 +5270,13 @@ export const portCases: Port[] = [
   houseOfTheDeadRewrithe,
   conkerLiveReloadedRecomp,
   pilotwingsResortPc,
+  untilDawnPc,
+  wipeoutOmegaPc,
+  metroidDreadRecomp,
+  totkRecomp,
+  wwe2k16Pc,
+  knackPc,
+  grandia3Pc,
+  aceCombat04Pc,
+  gunstarHeroesRecomp,
 ];

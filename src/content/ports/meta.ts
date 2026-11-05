@@ -2630,4 +2630,13 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "house-of-the-dead-rewrithe": ["Arcade"],
   "conker-live-reloaded-recomp": ["Xbox"],
   "pilotwings-resort-pc": ["Nintendo 3DS"],
+  "until-dawn-pc": ["PlayStation 4"],
+  "wipeout-omega-pc": ["PlayStation 4"],
+  "metroid-dread-recomp": ["Nintendo Switch"],
+  "totk-recomp": ["Nintendo Switch"],
+  "wwe-2k16-pc": ["PlayStation 4"],
+  "knack-pc": ["PlayStation 4"],
+  "grandia-3-pc": ["PlayStation 2"],
+  "ace-combat-04-pc": ["PlayStation 2"],
+  "gunstar-heroes-recomp": ["Sega Mega Drive / Genesis"],
 };
