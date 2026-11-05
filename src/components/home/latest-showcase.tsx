@@ -87,8 +87,8 @@ export function LatestShowcase({
               onClick={() => setActive(tab.id)}
               className={
                 active === tab.id
-                  ? "rounded-full bg-accent px-3 py-1.5 text-xs font-semibold text-accent-contrast"
-                  : "rounded-full px-3 py-1.5 text-xs font-medium text-muted transition-colors hover:text-foreground"
+                  ? "rounded-full bg-accent px-3.5 py-2 text-xs font-semibold text-accent-contrast"
+                  : "rounded-full px-3.5 py-2 text-xs font-medium text-muted transition-colors hover:text-foreground"
               }
             >
               {tab.label}
