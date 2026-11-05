@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { BookmarkX, LoaderCircle } from "lucide-react";
 
 import { LocalizedLink as Link } from "@/components/i18n/localized-link";
+import { ScreenshotFrame } from "@/components/ports/screenshot-frame";
 import { ApiError, apiFetch, type FavoritesResponse } from "@/lib/api";
 import { useSessionUser } from "@/lib/auth-client";
 import { useT } from "@/lib/i18n/use-i18n";
@@ -157,15 +158,18 @@ export function FavoritesList({ ports }: { ports: FavoritePortSummary[] }) {
                       aria-label={port.title}
                     >
                       {port.cover ? (
-                        // eslint-disable-next-line @next/next/no-img-element
-                        <img
+                        <ScreenshotFrame
                           src={port.cover.src}
                           alt={port.cover.alt}
-                          loading="lazy"
-                          className="aspect-video w-full object-cover"
+                          className="aspect-[4/5] w-full"
+                          fallback={
+                            <span className="flex h-full w-full items-center justify-center px-3 text-center text-sm font-semibold text-muted">
+                              {port.game}
+                            </span>
+                          }
                         />
                       ) : (
-                        <span className="flex aspect-video w-full items-center justify-center px-3 text-center text-sm font-semibold text-muted">
+                        <span className="flex aspect-[4/5] w-full items-center justify-center px-3 text-center text-sm font-semibold text-muted">
                           {port.game}
                         </span>
                       )}

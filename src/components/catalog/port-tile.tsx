@@ -67,11 +67,8 @@ export function PortTile({
             pixelated={isPixelArtSystem(system)}
             className={cn(
               "w-full transition-transform duration-500 group-hover/image:scale-[1.02]",
-              primary.kind === "cover"
-                ? "aspect-[4/3] sm:aspect-[3/4]"
-                : "aspect-video",
+              primary.kind === "cover" ? "aspect-[4/5]" : "aspect-video",
             )}
-            imageClassName={primary.kind === "cover" ? "object-cover" : undefined}
             eager={eager}
             fallback={fallback}
           />
@@ -172,7 +169,7 @@ export function PortTileSkeleton({
         className,
       )}
     >
-      <div className="aspect-video animate-pulse rounded-md bg-surface-2" aria-hidden="true" />
+      <div className="aspect-[4/5] animate-pulse rounded-md bg-surface-2" aria-hidden="true" />
       <div className="flex flex-1 flex-col gap-2" aria-hidden="true">
         <div className="h-4 w-3/4 animate-pulse rounded bg-surface-2" />
         <div className="h-4 w-1/2 animate-pulse rounded bg-surface-2" />
