@@ -201,6 +201,13 @@ const en = {
     playInBrowserHint:
       "Opens in a new tab. Use the game's fullscreen control if it offers one.",
     officialSource: "Official source",
+    downloadTitle: "Download",
+    downloadSubtitle: "Get the package for your system from the latest release.",
+    downloadNote:
+      "Unpack it into its own folder, start the launcher and add your own game image.",
+    yourGameCopy: "Your game copy",
+    yourGameCopyDesc:
+      "This project does not include game files. You need your own legally obtained copy of the game.",
     website: "Project website",
     discord: "Community Discord",
     documentation: "Documentation",
@@ -1181,6 +1188,13 @@ const es: Messages = {
     playInBrowserHint:
       "Se abre en una pestaña nueva. Usa el control de pantalla completa del juego si lo tiene.",
     officialSource: "Fuente oficial",
+    downloadTitle: "Descargar",
+    downloadSubtitle: "Descarga el paquete para tu sistema desde la última release.",
+    downloadNote:
+      "Descomprímelo en su propia carpeta, abre el lanzador y añade tu propia imagen del juego.",
+    yourGameCopy: "Tu copia del juego",
+    yourGameCopyDesc:
+      "Este proyecto no incluye archivos del juego. Necesitas tu propia copia obtenida legalmente.",
     website: "Sitio del proyecto",
     discord: "Discord de la comunidad",
     documentation: "Documentación",

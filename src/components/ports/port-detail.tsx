@@ -4,10 +4,13 @@ import { useState } from "react";
 import { LocalizedLink as Link } from "@/components/i18n/localized-link";
 import {
   ArrowLeft,
+  ArrowUpRight,
   CircleAlert,
   CircleCheck,
+  Download,
   ExternalLink,
   FileText,
+  Gamepad2,
   Globe,
   MessageCircle,
   Play,
@@ -178,6 +181,61 @@ export function PortDetail({
         </p>
       )}
 
+      {!port.noOriginalGameRequired && (
+        <section className="rounded-xl border border-accent/30 bg-[color-mix(in_oklab,var(--accent)_7%,transparent)] p-4">
+          <div className="flex items-start gap-3">
+            <Gamepad2 className="mt-0.5 size-5 shrink-0 text-accent" aria-hidden="true" />
+            <div>
+              <h2 className="text-sm font-semibold text-foreground">{t.detail.yourGameCopy}</h2>
+              <p className="mt-1 text-sm leading-6 text-muted">{t.detail.yourGameCopyDesc}</p>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {port.downloads && port.downloads.length > 0 && (
+        <section className="flex flex-col gap-3" aria-labelledby="download-heading">
+          <div>
+            <h2 id="download-heading" className="text-lg font-semibold tracking-tight">
+              {t.detail.downloadTitle}
+            </h2>
+            <p className="mt-1 text-sm text-muted">{t.detail.downloadSubtitle}</p>
+          </div>
+          <ul className="grid gap-2 sm:grid-cols-2">
+            {port.downloads.map((download) => (
+              <li key={download.url}>
+                <a
+                  href={download.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex items-center justify-between gap-3 rounded-xl border border-border bg-surface px-4 py-3 transition-colors hover:border-accent/50 hover:bg-surface-2"
+                >
+                  <span className="flex min-w-0 items-center gap-3">
+                    <Download className="size-4 shrink-0 text-accent" aria-hidden="true" />
+                    <span className="min-w-0">
+                      <span className="block truncate text-sm font-medium text-foreground">
+                        {download.label}
+                      </span>
+                      {download.note && (
+                        <span className="mt-0.5 block text-xs text-muted">{download.note}</span>
+                      )}
+                    </span>
+                  </span>
+                  <span className="flex shrink-0 items-center gap-2 text-xs text-muted">
+                    {download.size && <span className="font-mono">{download.size}</span>}
+                    <ArrowUpRight
+                      className="size-3.5 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                      aria-hidden="true"
+                    />
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <p className="text-xs text-muted">{t.detail.downloadNote}</p>
+        </section>
+      )}
+
       {isGame && (
         <section className="rounded-2xl border border-border bg-surface p-5 sm:p-6">
           <div className="flex flex-col gap-2">
@@ -252,6 +310,8 @@ export function PortDetail({
           <ConsoleBadge system={originalSystem} />
         </figure>
       )}
+
+
 
       <dl className="grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2 lg:grid-cols-3">
         <div className="flex flex-col gap-0.5">

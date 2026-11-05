@@ -150,6 +150,17 @@ const normalPort = z.object({
       stepsEs: z.array(z.string().min(3).max(300)).min(1).max(20).optional(),
     })
     .optional(),
+  downloads: z
+    .array(
+      z.object({
+        label: z.string().min(2).max(80),
+        url: httpsUrl,
+        size: z.string().min(2).max(40).optional(),
+        note: z.string().min(2).max(120).optional(),
+      }),
+    )
+    .max(12)
+    .optional(),
   requirements: z
     .object({
       minimum: z.string().min(2).max(200).optional(),
@@ -291,6 +302,12 @@ export type Port = {
     steps: string[];
     stepsEs?: string[];
   };
+  downloads?: {
+    label: string;
+    url: string;
+    size?: string;
+    note?: string;
+  }[];
   requirements?: { minimum?: string; recommended?: string };
   screenshots?: {
     src: string;
