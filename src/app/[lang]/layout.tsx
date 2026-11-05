@@ -75,13 +75,13 @@ export default async function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable} h-full antialiased`}
     >
       <head>
+        <ThemeScript />
         {/* Preconnect to the hosts that serve port art. */}
         {getImageHosts().map((host) => (
           <link key={host} rel="preconnect" href={`https://${host}`} />
         ))}
       </head>
       <body className="flex min-h-full flex-col">
-        <ThemeScript />
         <LocaleProvider locale={lang}>
           <RatingSummaryProvider>
             <SkipLink />
