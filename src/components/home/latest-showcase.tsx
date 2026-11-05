@@ -123,7 +123,9 @@ function LeadCard({ entry }: { entry: ShowcaseEntry }) {
   const t = useT();
   const locale = useLocale();
   const { port, system, testStatus } = entry;
-  const primary = primaryImage(port);
+  const image = port.cover
+    ? { src: port.cover.src, kind: "cover" as const }
+    : primaryImage(port);
   const statusLabel =
     port.status === "stable"
       ? t.catalog.statusStable
@@ -138,12 +140,12 @@ function LeadCard({ entry }: { entry: ShowcaseEntry }) {
     <article className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-surface">
       <Link href={`/ports/${port.id}`} className="block" aria-label={port.game}>
         <div className="relative aspect-[16/10]">
-          {primary ? (
+          {image ? (
             <ScreenshotFrame
-              src={primary.src}
-              alt={imageAlt(primary.kind, port.game, locale)}
+              src={image.src}
+              alt={imageAlt(image.kind, port.game, locale)}
               className="h-full w-full"
-              imageClassName="object-cover transition-transform duration-500 group-hover:scale-[1.02]"
+              imageClassName="transition-transform duration-500 group-hover:scale-[1.02]"
               fallback={fallback}
             />
           ) : (
@@ -192,7 +194,9 @@ function PortRow({ entry, index }: { entry: ShowcaseEntry; index: number }) {
   const t = useT();
   const locale = useLocale();
   const { port, system, testStatus } = entry;
-  const primary = primaryImage(port);
+  const image = port.cover
+    ? { src: port.cover.src, kind: "cover" as const }
+    : primaryImage(port);
   const fallback = (
     <div className="flex h-full w-full items-center justify-center bg-surface-2 px-2 text-center font-mono text-[10px] font-bold uppercase tracking-wider text-muted">
       {port.game.slice(0, 3)}
@@ -207,12 +211,11 @@ function PortRow({ entry, index }: { entry: ShowcaseEntry; index: number }) {
       >
         <div className="relative w-24 shrink-0 overflow-hidden rounded-md border border-border bg-surface-2 sm:w-28">
           <div className="aspect-[4/3]">
-            {primary ? (
+            {image ? (
               <ScreenshotFrame
-                src={primary.src}
-                alt={imageAlt(primary.kind, port.game, locale)}
+                src={image.src}
+                alt={imageAlt(image.kind, port.game, locale)}
                 className="h-full w-full"
-                imageClassName="object-cover"
                 fallback={fallback}
               />
             ) : (

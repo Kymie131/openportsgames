@@ -27,7 +27,9 @@ export function SpotlightCard({
 }) {
   const t = useT();
   const locale = useLocale();
-  const primary = primaryImage(port);
+  const image = port.cover
+    ? { src: port.cover.src, kind: "cover" as const }
+    : primaryImage(port);
   const statusLabel =
     port.status === "stable"
       ? t.catalog.statusStable
@@ -45,13 +47,13 @@ export function SpotlightCard({
       aria-label={`${label}: ${port.game}`}
     >
       <div className="relative aspect-[4/3] sm:aspect-[16/10] lg:aspect-[4/5]">
-        {primary ? (
+        {image ? (
           <ScreenshotFrame
-            src={primary.src}
-            alt={imageAlt(primary.kind, port.game, locale)}
+            src={image.src}
+            alt={imageAlt(image.kind, port.game, locale)}
             eager
             className="h-full w-full"
-            imageClassName="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+            imageClassName="transition-transform duration-700 group-hover:scale-[1.03]"
             fallback={fallback}
           />
         ) : (
