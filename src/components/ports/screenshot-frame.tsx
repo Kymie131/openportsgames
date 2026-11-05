@@ -2,7 +2,7 @@
 
 import { useState, type ReactNode } from "react";
 import type { Port } from "@/lib/ports/schema";
-import { cn } from "@/lib/utils";
+import { cn, imageSrc } from "@/lib/utils";
 
 /**
  * Fixed 16:9 frame for remote images (export is static, so `next/image` runs
@@ -31,6 +31,7 @@ export function ScreenshotFrame({
 }) {
   const [errored, setErrored] = useState(false);
   const loading = eager ? "eager" : "lazy";
+  const resolvedSrc = imageSrc(src);
 
   if (errored) {
     return (
@@ -51,7 +52,7 @@ export function ScreenshotFrame({
       {/* Blurred backdrop: same URL, so one network response. */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src={src}
+        src={resolvedSrc}
         alt=""
         aria-hidden="true"
         loading={loading}
@@ -64,7 +65,7 @@ export function ScreenshotFrame({
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         data-testid="screenshot-image"
-        src={src}
+        src={resolvedSrc}
         alt={alt}
         loading={loading}
         decoding="async"

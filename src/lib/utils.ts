@@ -12,3 +12,14 @@ export function assetPath(path: string): string {
   if (!path.startsWith("/")) return path;
   return `${assetBasePath}${path}`;
 }
+
+/**
+ * Site-hosted images are stored as absolute production URLs. Rewrite them to
+ * the local asset path so previews and `next dev` serve the local copy instead
+ * of the live one.
+ */
+export function imageSrc(src: string): string {
+  const origin = "https://openportsgames.com";
+  if (src.startsWith(`${origin}/`)) return assetPath(src.slice(origin.length));
+  return src;
+}
