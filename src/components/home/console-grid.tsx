@@ -1,7 +1,8 @@
 "use client";
 
-import { LocalizedLink as Link } from "@/components/i18n/localized-link";
 import { ArrowRight } from "lucide-react";
+
+import { LocalizedLink as Link } from "@/components/i18n/localized-link";
 import { useLocale, useT } from "@/lib/i18n/use-i18n";
 
 export type ConsoleSummary = {
@@ -12,6 +13,43 @@ export type ConsoleSummary = {
   count: number;
 };
 
+/**
+ * System slugs and console-hub slugs differ for several platforms. Mapping
+ * them here keeps the shelf links on real pages; unknown systems fall back to
+ * the catalog filtered by their original label.
+ */
+const CONSOLE_SLUG_BY_SYSTEM: Record<string, string> = {
+  nes: "nes",
+  snes: "snes",
+  n64: "nintendo-64",
+  gamecube: "gamecube",
+  wii: "wii",
+  "wii-u": "wii-u",
+  switch: "switch",
+  "game-boy": "game-boy",
+  gba: "game-boy-advance",
+  nds: "nintendo-ds",
+  "3ds": "nintendo-3ds",
+  playstation: "playstation",
+  "playstation-2": "playstation-2",
+  "playstation-3": "playstation-3",
+  "playstation-4": "playstation-4",
+  "playstation-5": "playstation-5",
+  psp: "playstation-portable",
+  xbox: "xbox",
+  "xbox-360": "xbox-360",
+  "sega-md": "mega-drive",
+  "sega-saturn": "sega-saturn",
+  dreamcast: "dreamcast",
+  arcade: "arcade",
+};
+
+function consoleHref(system: ConsoleSummary): string {
+  const hub = CONSOLE_SLUG_BY_SYSTEM[system.slug];
+  if (hub) return `/console/${hub}`;
+  return `/ports?system=${encodeURIComponent(system.name.en)}`;
+}
+
 export function ConsoleGrid({ systems }: { systems: ConsoleSummary[] }) {
   const t = useT();
   const locale = useLocale();
@@ -19,16 +57,17 @@ export function ConsoleGrid({ systems }: { systems: ConsoleSummary[] }) {
   if (systems.length === 0) return null;
 
   return (
-    <section className="mt-14 sm:mt-24" aria-labelledby="consoles-heading">
-      <div className="mb-6 flex flex-wrap items-end justify-between gap-x-6 gap-y-3">
-        <div className="space-y-1">
+    <section className="mt-14 sm:mt-20" aria-labelledby="consoles-heading">
+      <div className="flex flex-wrap items-end justify-between gap-x-6 gap-y-3 border-b border-border pb-4">
+        <div className="max-w-xl">
+          <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-accent">02</p>
           <h2
             id="consoles-heading"
-            className="text-2xl font-semibold tracking-tight text-foreground"
+            className="mt-1 text-2xl font-semibold tracking-tight text-foreground"
           >
             {t.home.consolesTitle}
           </h2>
-          <p className="max-w-xl text-sm leading-6 text-muted">{t.home.consolesSubtitle}</p>
+          <p className="mt-1 text-sm leading-6 text-muted">{t.home.consolesSubtitle}</p>
         </div>
         <Link
           href="/console"
@@ -42,37 +81,34 @@ export function ConsoleGrid({ systems }: { systems: ConsoleSummary[] }) {
         </Link>
       </div>
 
-      <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
-        {systems.map((system, index) => (
-          <li key={system.slug} className={index >= 8 ? "max-sm:hidden" : undefined}>
+      <ul className="mt-5 grid grid-cols-2 gap-3 lg:grid-cols-3">
+        {systems.slice(0, 6).map((system) => (
+          <li key={system.slug}>
             <Link
-              href={`/console/${system.slug}`}
-              className="group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-4 text-center transition-colors hover:border-accent/60 hover:bg-surface-2"
-              style={{
-                backgroundImage: `radial-gradient(circle at 50% 0%, color-mix(in oklab, ${system.color} 18%, transparent), transparent 70%)`,
-              }}
+              href={consoleHref(system)}
+              className="group flex h-full items-center gap-3 rounded-xl border border-border bg-surface px-3.5 py-3 transition-colors duration-200 hover:border-accent/50 hover:bg-surface-2"
             >
-              <span className="flex size-12 items-center justify-center rounded-lg bg-background/80 p-1.5 shadow-sm">
+              <span className="flex size-11 shrink-0 items-center justify-center rounded-lg border border-border bg-surface-2 p-1.5">
                 {system.logo ? (
                   // eslint-disable-next-line @next/next/no-img-element
                   <img
                     src={system.logo}
                     alt=""
                     aria-hidden="true"
-                    className="max-h-full max-w-full object-contain"
                     loading="lazy"
+                    className="max-h-full max-w-full object-contain"
                   />
                 ) : (
-                  <span className="font-mono text-xs font-bold uppercase text-foreground">
+                  <span className="font-mono text-[10px] font-bold uppercase text-foreground">
                     {system.name.en.slice(0, 4)}
                   </span>
                 )}
               </span>
-              <span className="flex flex-col gap-1">
-                <span className="block text-xs font-semibold leading-4 text-foreground">
+              <span className="min-w-0">
+                <span className="block truncate text-sm font-semibold text-foreground">
                   {locale === "es" ? system.name.es : system.name.en}
                 </span>
-                <span className="block text-[11px] text-muted">
+                <span className="block font-mono text-[11px] text-muted">
                   {t.home.consolesCount(system.count)}
                 </span>
               </span>
