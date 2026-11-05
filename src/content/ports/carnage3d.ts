@@ -26,7 +26,7 @@ export const carnage3d: Port = {
     "Grand Theft Auto es un juego de acción y aventura desarrollado por DMA Design y publicado por BMG Interactive en 1997. Sigue a un criminal que asciende en el hampa a través de tres ciudades ficticias.",
   cover: {
     src: "https://openportsgames.com/covers/generated/carnage3d.svg",
-    alt: "Carnage3D (generated cover)",
+    alt: "Grand Theft Auto (generated cover)",
     credit: "OpenPortsGames",
   },
   notes:

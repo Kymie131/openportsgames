@@ -26,7 +26,7 @@ export const opene2140: Port = {
     "Earth 2140 es un juego de estrategia en tiempo real desarrollado por Reality Pump y publicado por TopWare Interactive en 1997. Narra una guerra futura entre dos facciones humanas por los últimos recursos disponibles.",
   cover: {
     src: "https://openportsgames.com/covers/generated/opene2140.svg",
-    alt: "OpenE2140 (generated cover)",
+    alt: "Earth 2140 (generated cover)",
     credit: "OpenPortsGames",
   },
   notes:

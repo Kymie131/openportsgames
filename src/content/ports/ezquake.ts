@@ -26,7 +26,7 @@ export const ezquake: Port = {
     "QuakeWorld es la versión de Quake centrada en el multijugador publicada por id Software en 1996. Mejora el juego en red con predicción en el cliente y servidores dedicados.",
   cover: {
     src: "https://openportsgames.com/covers/generated/ezquake.svg",
-    alt: "ezQuake (generated cover)",
+    alt: "QuakeWorld (generated cover)",
     credit: "OpenPortsGames",
   },
   notes:

@@ -26,7 +26,7 @@ export const oom1: Port = {
     "Master of Orion es un juego de estrategia espacial por turnos desarrollado por Simtex y publicado por MicroProse en 1993. El jugador dirige una de diez razas hacia la dominación galáctica mediante exploración, colonización, diplomacia y combate táctico.",
   cover: {
     src: "https://openportsgames.com/covers/generated/1oom.svg",
-    alt: "1oom (generated cover)",
+    alt: "Master of Orion (generated cover)",
     credit: "OpenPortsGames",
   },
   notes:

@@ -9,7 +9,7 @@
   <circle cx="1030" cy="90" r="260" fill="#ffffff" opacity="0.08"/>
   <circle cx="130" cy="620" r="300" fill="#000000" opacity="0.18"/>
   <text x="60" y="80" font-family="monospace" font-size="22" letter-spacing="5" fill="#ffffff" opacity="0.8">OPENPORTSGAMES</text>
-  <text x="600" y="330" text-anchor="middle" font-family="system-ui, sans-serif" font-size="68" font-weight="700" fill="#ffffff">Heretic2R</text>
-  <text x="600" y="520" text-anchor="middle" font-family="system-ui, sans-serif" font-size="30" fill="#ffffff" opacity="0.9">windows · 1998</text>
+  <text x="600" y="330" text-anchor="middle" font-family="system-ui, sans-serif" font-size="68" font-weight="700" fill="#ffffff">Heretic II</text>
+  <text x="600" y="520" text-anchor="middle" font-family="system-ui, sans-serif" font-size="30" fill="#ffffff" opacity="0.9">Windows · 1998</text>
   <text x="600" y="625" text-anchor="middle" font-family="monospace" font-size="18" letter-spacing="3" fill="#ffffff" opacity="0.55">NATIVE PORT CATALOG</text>
 </svg>

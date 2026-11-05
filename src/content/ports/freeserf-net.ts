@@ -26,7 +26,7 @@ export const freeserfNet: Port = {
     "The Settlers es un juego de estrategia en tiempo real y construcción de ciudades desarrollado y publicado por Blue Byte en 1993. El jugador expande un asentamiento medieval gestionando recursos, caminos y puestos militares.",
   cover: {
     src: "https://openportsgames.com/covers/generated/freeserf-net.svg",
-    alt: "Freeserf.net (generated cover)",
+    alt: "The Settlers (generated cover)",
     credit: "OpenPortsGames",
   },
   notes:

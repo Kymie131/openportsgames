@@ -26,7 +26,7 @@ export const taradino: Port = {
     "Rise of the Triad es un shooter en primera persona desarrollado por Apogee Software y publicado en 1995. Es conocido por su movimiento rápido, sus armas exageradas y sus modos multijugador.",
   cover: {
     src: "https://openportsgames.com/covers/generated/taradino.svg",
-    alt: "Taradino (generated cover)",
+    alt: "Rise of the Triad (generated cover)",
     credit: "OpenPortsGames",
   },
   notes:

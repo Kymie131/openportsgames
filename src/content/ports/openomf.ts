@@ -26,7 +26,7 @@ export const openomf: Port = {
     "One Must Fall 2097 es un juego de lucha desarrollado por Diversions Entertainment y publicado por Epic MegaGames en 1994. Los pilotos controlan robots gigantes en un torneo futurista.",
   cover: {
     src: "https://openportsgames.com/covers/generated/openomf.svg",
-    alt: "OpenOMF (generated cover)",
+    alt: "One Must Fall 2097 (generated cover)",
     credit: "OpenPortsGames",
   },
   notes:

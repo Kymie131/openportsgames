@@ -26,7 +26,7 @@ export const openreliant: Port = {
     "StarLancer es una simulación de combate espacial desarrollada por Digital Anvil y publicada por Microsoft en 2000. Sigue a un escuadrón de voluntarios que lucha contra la Coalición.",
   cover: {
     src: "https://openportsgames.com/covers/generated/openreliant.svg",
-    alt: "OpenReliant (generated cover)",
+    alt: "StarLancer (generated cover)",
     credit: "OpenPortsGames",
   },
   notes:

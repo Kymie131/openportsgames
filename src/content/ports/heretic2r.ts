@@ -26,7 +26,7 @@ export const heretic2r: Port = {
     "Heretic II es un juego de acción y aventura desarrollado por Raven Software y publicado por Activision en 1998. Continúa la historia de Corvus con combate en tercera persona y un sistema de magia renovado.",
   cover: {
     src: "https://openportsgames.com/covers/generated/heretic2r.svg",
-    alt: "Heretic2R (generated cover)",
+    alt: "Heretic II (generated cover)",
     credit: "OpenPortsGames",
   },
   notes:
