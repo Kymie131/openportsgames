@@ -7,8 +7,8 @@ compared by normalized game and project title against the catalog; it is a
 backlog, not an automatic import. Each candidate still needs its official
 source, release assets and legal notes verified before it becomes a port entry.
 
-Candidates: **163** originally; **53** imported since this pass (listed below);
-**110** remain in the backlog.
+Candidates: **163** originally; **63** imported since this pass (listed below);
+**100** remain in the backlog.
 
 ## Imported since this pass
 
@@ -68,6 +68,16 @@ before being added to the catalog.
 - Final Fantasy (NES) - Recomp (`final-fantasy-nes-recomp`)
 - Super Kirby Clash - KirbyRecomp (`kirby-recomp`)
 - OutRun Online Arcade - Recompiled (`outrun-online-arcade-recompiled`)
+- After Burner Climax - Recompiled (`after-burner-climax-recomp`)
+- Blood Wake - Recomp (`blood-wake-recomp`)
+- Cruis'n Blast - Recomp (`cruisn-blast-recomp`)
+- NFL Blitz 2003 - PC (`nfl-blitz-2003-pc`)
+- NHL Hitz 20-03 - Recomp (`nhl-hitz-20-03-recomp`)
+- Pac-Man Championship Edition - Native PC Port (`pac-man-championship-edition-pc`)
+- X-Men 2: Clone Wars - PC (`x-men-2-clone-wars-pc`)
+- Gundam Wing: Endless Duel - Recomp (`gundam-wing-endless-duel-recomp`)
+- Hotel Mario - Static Recomp (`hotel-mario-static-recomp`)
+- Initial D: Street Stage - PC (`initial-d-street-stage-pc`)
 
 ## Candidates
 

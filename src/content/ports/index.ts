@@ -2684,6 +2684,16 @@ import { demonsCrestRecompiled } from "./demons-crest-recompiled";
 import { finalFantasyNesRecomp } from "./final-fantasy-nes-recomp";
 import { kirbyRecomp } from "./kirby-recomp";
 import { outrunOnlineArcadeRecompiled } from "./outrun-online-arcade-recompiled";
+import { afterBurnerClimaxRecomp } from "./after-burner-climax-recomp";
+import { bloodWakeRecomp } from "./blood-wake-recomp";
+import { cruisnBlastRecomp } from "./cruisn-blast-recomp";
+import { nflBlitz2003Pc } from "./nfl-blitz-2003-pc";
+import { nhlHitz2003Recomp } from "./nhl-hitz-20-03-recomp";
+import { pacManChampionshipEditionPc } from "./pac-man-championship-edition-pc";
+import { xMen2CloneWarsPc } from "./x-men-2-clone-wars-pc";
+import { gundamWingEndlessDuelRecomp } from "./gundam-wing-endless-duel-recomp";
+import { hotelMarioStaticRecomp } from "./hotel-mario-static-recomp";
+import { initialDStreetStagePc } from "./initial-d-street-stage-pc";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5367,4 +5377,14 @@ export const portCases: Port[] = [
   finalFantasyNesRecomp,
   kirbyRecomp,
   outrunOnlineArcadeRecompiled,
+  afterBurnerClimaxRecomp,
+  bloodWakeRecomp,
+  cruisnBlastRecomp,
+  nflBlitz2003Pc,
+  nhlHitz2003Recomp,
+  pacManChampionshipEditionPc,
+  xMen2CloneWarsPc,
+  gundamWingEndlessDuelRecomp,
+  hotelMarioStaticRecomp,
+  initialDStreetStagePc,
 ];
