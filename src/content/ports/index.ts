@@ -2663,6 +2663,19 @@ import { infamousFirstLightPc } from "./infamous-first-light-pc";
 import { lagoonRecomp } from "./lagoon-recomp";
 import { parappaTheRapperRecompiled } from "./parappa-the-rapper-recompiled";
 import { tmntIvTurtlesInTimePc } from "./tmnt-iv-turtles-in-time-pc";
+import { bondEverythingOrNothingRecomp } from "./007-everything-or-nothing-recomp";
+import { bondFromRussiaWithLoveRecomp } from "./007-from-russia-with-love-recomp";
+import { dk94Recomp } from "./dk94-recomp";
+import { marvelUltimateAllianceRecompiled } from "./marvel-ultimate-alliance-recompiled";
+import { monopolyRecompiled } from "./monopoly-recompiled";
+import { mutantRampageBodyslamRecomp } from "./mutant-rampage-bodyslam-recomp";
+import { odinSphereLeifthrasirPc } from "./odin-sphere-leifthrasir-pc";
+import { outrunnersPort } from "./outrunners-port";
+import { piratesAtWorldsEndRecomp } from "./pirates-at-worlds-end-recomp";
+import { rollAwayPc } from "./roll-away-pc";
+import { southParkTowerDefensePc } from "./south-park-tower-defense-pc";
+import { tnaImpactRecompiled } from "./tna-impact-recompiled";
+import { winbackRecompiled } from "./winback-recompiled";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5325,4 +5338,17 @@ export const portCases: Port[] = [
   lagoonRecomp,
   parappaTheRapperRecompiled,
   tmntIvTurtlesInTimePc,
+  bondEverythingOrNothingRecomp,
+  bondFromRussiaWithLoveRecomp,
+  dk94Recomp,
+  marvelUltimateAllianceRecompiled,
+  monopolyRecompiled,
+  mutantRampageBodyslamRecomp,
+  odinSphereLeifthrasirPc,
+  outrunnersPort,
+  piratesAtWorldsEndRecomp,
+  rollAwayPc,
+  southParkTowerDefensePc,
+  tnaImpactRecompiled,
+  winbackRecompiled,
 ];

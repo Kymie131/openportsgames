@@ -7,8 +7,8 @@ compared by normalized game and project title against the catalog; it is a
 backlog, not an automatic import. Each candidate still needs its official
 source, release assets and legal notes verified before it becomes a port entry.
 
-Candidates: **163** originally; **32** imported since this pass (listed below);
-**131** remain in the backlog.
+Candidates: **163** originally; **45** imported since this pass (listed below);
+**118** remain in the backlog.
 
 ## Imported since this pass
 
@@ -47,6 +47,19 @@ before being added to the catalog.
 - Lagoon - Lagoon Recomp (`lagoon-recomp`)
 - PaRappa the Rapper - PaRappa The Rapper Recompiled (`parappa-the-rapper-recompiled`)
 - Teenage Mutant Ninja Turtles IV: Turtles in Time - TMNT IV PC (`tmnt-iv-turtles-in-time-pc`)
+- 007: Everything or Nothing - XBE Recomp (`007-everything-or-nothing-recomp`)
+- 007: From Russia with Love - XBE Recomp (`007-from-russia-with-love-recomp`)
+- Donkey Kong (Game Boy, 1994) - DK94 Recomp (`dk94-recomp`)
+- Marvel: Ultimate Alliance - Marvel Ultimate Alliance Recompiled (`marvel-ultimate-alliance-recompiled`)
+- Monopoly - Monopoly Recompiled (`monopoly-recompiled`)
+- Mutant Rampage: Bodyslam - Static Recomp (`mutant-rampage-bodyslam-recomp`)
+- Odin Sphere Leifthrasir - PC Port (`odin-sphere-leifthrasir-pc`)
+- OutRunners - OutRunners Port (`outrunners-port`)
+- Pirates of the Caribbean: At World's End - Recomp (`pirates-at-worlds-end-recomp`)
+- Roll Away - PC Port (`roll-away-pc`)
+- South Park: Let's Go Tower Defense Play! - PC Port (`south-park-tower-defense-pc`)
+- TNA iMPACT! - Recompiled (`tna-impact-recompiled`)
+- WinBack: Covert Operations - Recompiled (`winback-recompiled`)
 
 ## Candidates
 
