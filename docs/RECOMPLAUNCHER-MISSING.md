@@ -7,8 +7,8 @@ compared by normalized game and project title against the catalog; it is a
 backlog, not an automatic import. Each candidate still needs its official
 source, release assets and legal notes verified before it becomes a port entry.
 
-Candidates: **163** originally; **21** imported since this pass (listed below);
-**142** remain in the backlog.
+Candidates: **163** originally; **32** imported since this pass (listed below);
+**131** remain in the backlog.
 
 ## Imported since this pass
 
@@ -36,6 +36,17 @@ before being added to the catalog.
 - Urban Chaos: Riot Response - Urban Chaos: Burner Edition (`urban-chaos-burner`)
 - WipEout Omega Collection - WipEout Omega PC (`wipeout-omega-pc`)
 - WWE 2K16 - WWE 2K16 PC (`wwe-2k16-pc`)
+- Amped 2 - RE-Amped2 (`amped-2-recomp`)
+- Beyond Oasis - Beyond Oasis Recomp (`beyond-oasis-recomp`)
+- Castlevania: Curse of Darkness - Curse of Darkness Recomp (`castlevania-curse-of-darkness-recomp`)
+- Fracture - Fracture Recomp (`fracture-recomp`)
+- Futurama - Futurama: The Game Recomp (`futurama-the-game-recomp`)
+- Haze - Haze Recomp (`haze-recomp`)
+- Hellnight - Hell Night: Dark Messiah Recompiled (`hellnight-recompiled`)
+- inFAMOUS First Light - inFAMOUS First Light PC (`infamous-first-light-pc`)
+- Lagoon - Lagoon Recomp (`lagoon-recomp`)
+- PaRappa the Rapper - PaRappa The Rapper Recompiled (`parappa-the-rapper-recompiled`)
+- Teenage Mutant Ninja Turtles IV: Turtles in Time - TMNT IV PC (`tmnt-iv-turtles-in-time-pc`)
 
 ## Candidates
 

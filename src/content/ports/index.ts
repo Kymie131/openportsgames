@@ -2652,6 +2652,17 @@ import { looneyTunesBBallRecomp } from "./looney-tunes-b-ball-recomp";
 import { streetballRevival } from "./streetball-revival";
 import { rampageTotalDestructionRe } from "./rampage-total-destruction-re";
 import { urbanChaosBurner } from "./urban-chaos-burner";
+import { amped2Recomp } from "./amped-2-recomp";
+import { beyondOasisRecomp } from "./beyond-oasis-recomp";
+import { castlevaniaCurseOfDarknessRecomp } from "./castlevania-curse-of-darkness-recomp";
+import { fractureRecomp } from "./fracture-recomp";
+import { futuramaTheGameRecomp } from "./futurama-the-game-recomp";
+import { hazeRecomp } from "./haze-recomp";
+import { hellnightRecompiled } from "./hellnight-recompiled";
+import { infamousFirstLightPc } from "./infamous-first-light-pc";
+import { lagoonRecomp } from "./lagoon-recomp";
+import { parappaTheRapperRecompiled } from "./parappa-the-rapper-recompiled";
+import { tmntIvTurtlesInTimePc } from "./tmnt-iv-turtles-in-time-pc";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5303,4 +5314,15 @@ export const portCases: Port[] = [
   streetballRevival,
   rampageTotalDestructionRe,
   urbanChaosBurner,
+  amped2Recomp,
+  beyondOasisRecomp,
+  castlevaniaCurseOfDarknessRecomp,
+  fractureRecomp,
+  futuramaTheGameRecomp,
+  hazeRecomp,
+  hellnightRecompiled,
+  infamousFirstLightPc,
+  lagoonRecomp,
+  parappaTheRapperRecompiled,
+  tmntIvTurtlesInTimePc,
 ];
