@@ -7,8 +7,8 @@ compared by normalized game and project title against the catalog; it is a
 backlog, not an automatic import. Each candidate still needs its official
 source, release assets and legal notes verified before it becomes a port entry.
 
-Candidates: **163** originally; **45** imported since this pass (listed below);
-**118** remain in the backlog.
+Candidates: **163** originally; **53** imported since this pass (listed below);
+**110** remain in the backlog.
 
 ## Imported since this pass
 
@@ -60,6 +60,14 @@ before being added to the catalog.
 - South Park: Let's Go Tower Defense Play! - PC Port (`south-park-tower-defense-pc`)
 - TNA iMPACT! - Recompiled (`tna-impact-recompiled`)
 - WinBack: Covert Operations - Recompiled (`winback-recompiled`)
+- Stuntman (PS2, 2002) - Stuntman PC (`stuntman-pc`)
+- The Warriors (Xbox) - The Warriors Recomp (`the-warriors-recomp`)
+- Tiny Toon Adventures: ACME All-Stars - Native (`tiny-toon-acme-all-stars-native`)
+- Castlevania: Grimoire of Souls - Recomp (`castlevania-grimoire-of-souls-recomp`)
+- Demon's Crest - Recompiled (`demons-crest-recompiled`)
+- Final Fantasy (NES) - Recomp (`final-fantasy-nes-recomp`)
+- Super Kirby Clash - KirbyRecomp (`kirby-recomp`)
+- OutRun Online Arcade - Recompiled (`outrun-online-arcade-recompiled`)
 
 ## Candidates
 

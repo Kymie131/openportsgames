@@ -2676,6 +2676,14 @@ import { rollAwayPc } from "./roll-away-pc";
 import { southParkTowerDefensePc } from "./south-park-tower-defense-pc";
 import { tnaImpactRecompiled } from "./tna-impact-recompiled";
 import { winbackRecompiled } from "./winback-recompiled";
+import { stuntmanPc } from "./stuntman-pc";
+import { theWarriorsRecomp } from "./the-warriors-recomp";
+import { tinyToonAcmeAllStarsNative } from "./tiny-toon-acme-all-stars-native";
+import { castlevaniaGrimoireOfSoulsRecomp } from "./castlevania-grimoire-of-souls-recomp";
+import { demonsCrestRecompiled } from "./demons-crest-recompiled";
+import { finalFantasyNesRecomp } from "./final-fantasy-nes-recomp";
+import { kirbyRecomp } from "./kirby-recomp";
+import { outrunOnlineArcadeRecompiled } from "./outrun-online-arcade-recompiled";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5351,4 +5359,12 @@ export const portCases: Port[] = [
   southParkTowerDefensePc,
   tnaImpactRecompiled,
   winbackRecompiled,
+  stuntmanPc,
+  theWarriorsRecomp,
+  tinyToonAcmeAllStarsNative,
+  castlevaniaGrimoireOfSoulsRecomp,
+  demonsCrestRecompiled,
+  finalFantasyNesRecomp,
+  kirbyRecomp,
+  outrunOnlineArcadeRecompiled,
 ];

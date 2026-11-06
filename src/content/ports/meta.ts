@@ -2675,4 +2675,12 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "south-park-tower-defense-pc": ["Xbox 360"],
   "tna-impact-recompiled": ["Xbox 360"],
   "winback-recompiled": ["Nintendo 64"],
+  "stuntman-pc": ["PlayStation 2"],
+  "the-warriors-recomp": ["Xbox"],
+  "tiny-toon-acme-all-stars-native": ["Sega Mega Drive / Genesis"],
+  "castlevania-grimoire-of-souls-recomp": ["Macintosh"],
+  "demons-crest-recompiled": ["Super Nintendo"],
+  "final-fantasy-nes-recomp": ["Nintendo Entertainment System"],
+  "kirby-recomp": ["Nintendo Switch"],
+  "outrun-online-arcade-recompiled": ["Xbox 360"],
 };
