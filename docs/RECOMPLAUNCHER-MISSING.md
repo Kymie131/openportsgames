@@ -7,7 +7,35 @@ compared by normalized game and project title against the catalog; it is a
 backlog, not an automatic import. Each candidate still needs its official
 source, release assets and legal notes verified before it becomes a port entry.
 
-Candidates: **163**.
+Candidates: **163** originally; **21** imported since this pass (listed below);
+**142** remain in the backlog.
+
+## Imported since this pass
+
+Each entry below was verified against its official repository and release assets
+before being added to the catalog.
+
+- Ace Combat 04: Shattered Skies - Project Stonehenge (`ace-combat-04-pc`)
+- Chrono Trigger - Belthasar (`chrono-trigger-belthasar`)
+- Dead Cells: Return to Castlevania Edition - Dead Cells PS5 Native (`dead-cells-ps5`)
+- Dig Dug - Dig Dug Native Port (`dig-dug-native`)
+- Grandia III - Grandia3-PC (`grandia-3-pc`)
+- Gunstar Heroes - gunstars (`gunstar-heroes-recomp`)
+- Knack - Knack PC (`knack-pc`)
+- Looney Tunes B-Ball - Looney Tunes B-Ball Recompiled (`looney-tunes-b-ball-recomp`)
+- Metroid Dread - Metroid Dread Recomp (`metroid-dread-recomp`)
+- Metroid Prime 2: Echoes - Echoes Unbound (`metroid-prime-2-echoes`)
+- NBA Street Vol. 2 - Streetball Revival (`streetball-revival`)
+- Rampage: Total Destruction - RampageRE (`rampage-total-destruction-re`)
+- Sakura Wars - Sakura Wars PS4RT (`sakura-wars-ps4rt`)
+- Tekken 5: Dark Resurrection Online - T5DR Online (`tekken-5-dark-resurrection-online`)
+- The King of Fighters '98 - KOF'98 Recomp (`kof-98-recomp`)
+- The Legend of Zelda: Majora's Mask 3D - Majora ReMasked (`majoras-mask-3d-remasked`)
+- The Legend of Zelda: Tears of the Kingdom - TotK Recomp (`totk-recomp`)
+- Until Dawn - Until Dawn PC (`until-dawn-pc`)
+- Urban Chaos: Riot Response - Urban Chaos: Burner Edition (`urban-chaos-burner`)
+- WipEout Omega Collection - WipEout Omega PC (`wipeout-omega-pc`)
+- WWE 2K16 - WWE 2K16 PC (`wwe-2k16-pc`)
 
 ## Candidates
 

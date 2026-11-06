@@ -2642,4 +2642,13 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "metroid-prime-2-echoes": ["Nintendo GameCube"],
   "chrono-trigger-belthasar": ["Super Nintendo"],
   "majoras-mask-3d-remasked": ["Nintendo 3DS"],
+  "sakura-wars-ps4rt": ["PlayStation 4"],
+  "tekken-5-dark-resurrection-online": ["Arcade"],
+  "dig-dug-native": ["Arcade"],
+  "kof-98-recomp": ["Arcade"],
+  "dead-cells-ps5": ["PlayStation 4"],
+  "looney-tunes-b-ball-recomp": ["Super Nintendo"],
+  "streetball-revival": ["PlayStation 2"],
+  "rampage-total-destruction-re": ["PlayStation 2"],
+  "urban-chaos-burner": ["PlayStation 2"],
 };

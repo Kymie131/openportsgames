@@ -2643,6 +2643,15 @@ import { gunstarHeroesRecomp } from "./gunstar-heroes-recomp";
 import { metroidPrime2Echoes } from "./metroid-prime-2-echoes";
 import { chronoTriggerBelthasar } from "./chrono-trigger-belthasar";
 import { majorasMask3dRemasked } from "./majoras-mask-3d-remasked";
+import { sakuraWarsPs4rt } from "./sakura-wars-ps4rt";
+import { tekken5DarkResurrectionOnline } from "./tekken-5-dark-resurrection-online";
+import { digDugNative } from "./dig-dug-native";
+import { kof98Recomp } from "./kof-98-recomp";
+import { deadCellsPs5 } from "./dead-cells-ps5";
+import { looneyTunesBBallRecomp } from "./looney-tunes-b-ball-recomp";
+import { streetballRevival } from "./streetball-revival";
+import { rampageTotalDestructionRe } from "./rampage-total-destruction-re";
+import { urbanChaosBurner } from "./urban-chaos-burner";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5285,4 +5294,13 @@ export const portCases: Port[] = [
   metroidPrime2Echoes,
   chronoTriggerBelthasar,
   majorasMask3dRemasked,
+  sakuraWarsPs4rt,
+  tekken5DarkResurrectionOnline,
+  digDugNative,
+  kof98Recomp,
+  deadCellsPs5,
+  looneyTunesBBallRecomp,
+  streetballRevival,
+  rampageTotalDestructionRe,
+  urbanChaosBurner,
 ];
