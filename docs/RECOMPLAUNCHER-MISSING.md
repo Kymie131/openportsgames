@@ -7,8 +7,8 @@ compared by normalized game and project title against the catalog; it is a
 backlog, not an automatic import. Each candidate still needs its official
 source, release assets and legal notes verified before it becomes a port entry.
 
-Candidates: **163** originally; **63** imported since this pass (listed below);
-**100** remain in the backlog.
+Candidates: **163** originally; **70** imported since this pass (listed below);
+**93** remain in the backlog.
 
 ## Imported since this pass
 
@@ -78,6 +78,13 @@ before being added to the catalog.
 - Gundam Wing: Endless Duel - Recomp (`gundam-wing-endless-duel-recomp`)
 - Hotel Mario - Static Recomp (`hotel-mario-static-recomp`)
 - Initial D: Street Stage - PC (`initial-d-street-stage-pc`)
+- Super Smash Bros. for Wii U - Smash 4 PC (`smash-4-pc`)
+- Disgaea D2: A Brighter Darkness - Recomp (`disgaea-d2-recomp`)
+- Laser Lords - Native runner (`laserlords`)
+- Madden NFL 08 - Recompiled (`madden-nfl-08-recompiled`)
+- Magical Tetris Challenge - Magical Blocks (`magical-blocks`)
+- MLB Power Pros 2008 - Recomp (`mlb-power-pros-2008-recomp`)
+- Fight Night Round 3 - Recomp (`fight-night-round-3-recomp`)
 
 ## Candidates
 

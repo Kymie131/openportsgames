@@ -2693,4 +2693,11 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "gundam-wing-endless-duel-recomp": ["Super Nintendo"],
   "hotel-mario-static-recomp": ["Other"],
   "initial-d-street-stage-pc": ["PlayStation Portable"],
+  "smash-4-pc": ["Wii U"],
+  "disgaea-d2-recomp": ["PlayStation 3"],
+  "laserlords": ["Other"],
+  "madden-nfl-08-recompiled": ["Xbox 360"],
+  "magical-blocks": ["Nintendo 64"],
+  "mlb-power-pros-2008-recomp": ["Wii"],
+  "fight-night-round-3-recomp": ["Xbox 360"],
 };

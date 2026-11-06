@@ -2694,6 +2694,13 @@ import { xMen2CloneWarsPc } from "./x-men-2-clone-wars-pc";
 import { gundamWingEndlessDuelRecomp } from "./gundam-wing-endless-duel-recomp";
 import { hotelMarioStaticRecomp } from "./hotel-mario-static-recomp";
 import { initialDStreetStagePc } from "./initial-d-street-stage-pc";
+import { smash4Pc } from "./smash-4-pc";
+import { disgaeaD2Recomp } from "./disgaea-d2-recomp";
+import { laserlords } from "./laserlords";
+import { maddenNfl08Recompiled } from "./madden-nfl-08-recompiled";
+import { magicalBlocks } from "./magical-blocks";
+import { mlbPowerPros2008Recomp } from "./mlb-power-pros-2008-recomp";
+import { fightNightRound3Recomp } from "./fight-night-round-3-recomp";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5387,4 +5394,11 @@ export const portCases: Port[] = [
   gundamWingEndlessDuelRecomp,
   hotelMarioStaticRecomp,
   initialDStreetStagePc,
+  smash4Pc,
+  disgaeaD2Recomp,
+  laserlords,
+  maddenNfl08Recompiled,
+  magicalBlocks,
+  mlbPowerPros2008Recomp,
+  fightNightRound3Recomp,
 ];
