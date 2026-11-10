@@ -15,6 +15,7 @@ import { useSessionUser } from "@/lib/auth-client";
 import { useLocale, useT } from "@/lib/i18n/use-i18n";
 import { Button } from "@/components/ui/button";
 import { Turnstile } from "./turnstile";
+import { LoginButton } from "./login-button";
 import { UserAvatar } from "./user-avatar";
 
 const COMMENT_MAX_LENGTH = 1000;
@@ -224,9 +225,10 @@ export function MissingPorts() {
           </div>
         </form>
       ) : isPending ? null : (
-        <p className="rounded-xl border border-border bg-surface px-4 py-3 text-sm text-muted">
-          {t.community.missingPorts.signIn}
-        </p>
+        <div className="flex flex-col items-start gap-3 rounded-xl border border-border bg-surface p-4">
+          <p className="text-sm text-muted">{t.community.missingPorts.signIn}</p>
+          <LoginButton showLabel />
+        </div>
       )}
 
       {notice && (

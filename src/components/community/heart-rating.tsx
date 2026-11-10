@@ -7,6 +7,7 @@ import { useSessionUser } from "@/lib/auth-client";
 import { useT } from "@/lib/i18n/use-i18n";
 import { cn } from "@/lib/utils";
 import { Hearts, MAX_HEARTS, PixelHeart } from "./rating-hearts";
+import { LoginButton } from "./login-button";
 
 function round1(value: number): number {
   return Math.round(value * 10) / 10;
@@ -200,7 +201,10 @@ export function HeartRating({ portId }: { portId: string }) {
               )}
             </div>
           ) : sessionPending ? null : (
-            <p className="text-sm text-muted">{t.community.rating.signInToRate}</p>
+            <div className="flex flex-col items-start gap-3">
+              <p className="text-sm text-muted">{t.community.rating.signInToRate}</p>
+              <LoginButton showLabel />
+            </div>
           )}
 
           {actionError && (
