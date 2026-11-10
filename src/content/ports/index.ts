@@ -2726,6 +2726,21 @@ import { starOceanIntegrityPs4rt } from "./star-ocean-integrity-ps4rt";
 import { superMonkeyBallDeluxeRecomp } from "./super-monkey-ball-deluxe-recomp";
 import { castlevaniaHarmonyOfDespairRecomp } from "./castlevania-harmony-of-despair-recomp";
 import { otogiMythOfDemonsRecomp } from "./otogi-myth-of-demons-recomp";
+import { afroSamuraiRecomp } from "./afro-samurai-recomp";
+import { clockTower3Recompiled } from "./clock-tower-3-recompiled";
+import { conkerLiveRecompiled } from "./conker-live-recompiled";
+import { crimsonSkiesRecomp } from "./crimson-skies-recomp";
+import { donaldDuckGoinQuackersRecomp } from "./donald-duck-goin-quackers-recomp";
+import { dragonQuestIxRecomp } from "./dragon-quest-ix-recomp";
+import { dynastyWarriors5XlRecomp } from "./dynasty-warriors-5-xl-recomp";
+import { eliteBeatAgentsRecomp } from "./elite-beat-agents-recomp";
+import { goemonsGreatAdventureRecomp } from "./goemons-great-adventure-recomp";
+import { grabbedByTheGhouliesRecomp } from "./grabbed-by-the-ghoulies-recomp";
+import { kirbyRedream } from "./kirby-redream";
+import { marioLuigiBrothershipRecomp } from "./mario-luigi-brothership-recomp";
+import { marvelVsCapcom2Recomp } from "./marvel-vs-capcom-2-recomp";
+import { maximoGhostsToGloryRecomp } from "./maximo-ghosts-to-glory-recomp";
+import { mgsPortableOpsNative } from "./mgs-portable-ops-native";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5451,4 +5466,19 @@ export const portCases: Port[] = [
   superMonkeyBallDeluxeRecomp,
   castlevaniaHarmonyOfDespairRecomp,
   otogiMythOfDemonsRecomp,
+  afroSamuraiRecomp,
+  clockTower3Recompiled,
+  conkerLiveRecompiled,
+  crimsonSkiesRecomp,
+  donaldDuckGoinQuackersRecomp,
+  dragonQuestIxRecomp,
+  dynastyWarriors5XlRecomp,
+  eliteBeatAgentsRecomp,
+  goemonsGreatAdventureRecomp,
+  grabbedByTheGhouliesRecomp,
+  kirbyRedream,
+  marioLuigiBrothershipRecomp,
+  marvelVsCapcom2Recomp,
+  maximoGhostsToGloryRecomp,
+  mgsPortableOpsNative,
 ];

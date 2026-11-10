@@ -116,6 +116,21 @@ were verified before import:
 - Super Monkey Ball Deluxe - Recomp (`super-monkey-ball-deluxe-recomp`)
 - Castlevania: Harmony of Despair - Recomp (`castlevania-harmony-of-despair-recomp`)
 - Otogi: Myth of Demons - Recomp (`otogi-myth-of-demons-recomp`)
+- Afro Samurai - Recomp (`afro-samurai-recomp`)
+- Clock Tower 3 - Recompiled (`clock-tower-3-recompiled`)
+- Conker: Live & Reloaded - Recompiled (`conker-live-recompiled`)
+- Crimson Skies: High Road to Revenge - Recomp (`crimson-skies-recomp`)
+- Donald Duck: Goin' Quackers - Recomp (`donald-duck-goin-quackers-recomp`)
+- Dragon Quest IX - Recomp (`dragon-quest-ix-recomp`)
+- Dynasty Warriors 5: Xtreme Legends - Recomp (`dynasty-warriors-5-xl-recomp`)
+- Elite Beat Agents - Recomp (`elite-beat-agents-recomp`)
+- Goemon's Great Adventure - Recomp (`goemons-great-adventure-recomp`)
+- Grabbed by the Ghoulies - Recomp (`grabbed-by-the-ghoulies-recomp`)
+- Kirby's Return to Dream Land Deluxe - Recomp (`kirby-redream`)
+- Mario & Luigi: Brothership - Recomp (`mario-luigi-brothership-recomp`)
+- Marvel vs. Capcom 2 - Recomp (`marvel-vs-capcom-2-recomp`)
+- Maximo: Ghosts to Glory - Recomp (`maximo-ghosts-to-glory-recomp`)
+- Metal Gear Solid: Portable Ops - Native (`mgs-portable-ops-native`)
 
 ## Candidates
 
