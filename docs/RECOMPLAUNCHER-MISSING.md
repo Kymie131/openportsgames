@@ -105,6 +105,17 @@ were verified before import:
 - Red Dead Revolver - XBE Recomp (`rdr-xberecomp`)
 - Dissidia 012 Final Fantasy - PC (`dissidia012-pc`)
 - Mario Kart Arcade GP - OpenGP (`opengp`)
+- 40 Winks - Recomp (`40-winks-recomp`)
+- Dragon Quest VIII (3DS) - Recomp (`dragon-quest-viii-3ds-recomp`)
+- Fist of the North Star: Lost Paradise - PC (`fist-of-the-north-star-port`)
+- Midnight Club 3: DUB Edition Remix - PC (`midnight-club-3-dub-remix`)
+- Panzer Dragoon Orta - Recompiled (`panzer-dragoon-orta-recompiled`)
+- Phantasy Star IV - Recomp (`phantasy-star-iv-recomp`)
+- Xenoblade Chronicles X: Definitive Edition - XCX Recomp (`xcx-recomp`)
+- Star Ocean: Integrity and Faithlessness - PS4RT (`star-ocean-integrity-ps4rt`)
+- Super Monkey Ball Deluxe - Recomp (`super-monkey-ball-deluxe-recomp`)
+- Castlevania: Harmony of Despair - Recomp (`castlevania-harmony-of-despair-recomp`)
+- Otogi: Myth of Demons - Recomp (`otogi-myth-of-demons-recomp`)
 
 ## Candidates
 

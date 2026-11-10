@@ -1,0 +1,190 @@
+# RecompLauncher new releases - 2026-11-09
+
+Projects listed as updated since 2026-11-06 whose game does not yet appear in
+the catalog. Raw scan; verify source, release assets and legal notes before import.
+
+Candidates: **183**.
+
+- **40 Winks** - 40winksrecomp - https://github.com/DreaXer/40WinksRecomp
+- **Afro Samurai** - afrosamurairecomp - https://github.com/LomoXSoft/AfroSamuraiRecomp
+- **Akuji the Heartless** - akujitheheartlessrecomp - https://github.com/fuzzybark/AkujiTheHeartlessRecomp
+- **Aliens: A Comic Book Adventure** - aliens-comic-book-adventure-pc - https://github.com/kingzmanh/aliens-comic-book-adventure-pc
+- **Atlantis: The Lost Tales** - atlantis-native - https://github.com/ripleyXLR8/atlantis-native
+- **Baroque** - baroque-decomp - https://github.com/Arch61s/Baroque-Decomp
+- **Big Red Racing** - bigredreport - https://github.com/BigRedReport/bigredreport
+- **Bleach: Soul Resurrección** - bleach-soul-resurreccion-recomp - https://github.com/xPXavierx/bleach-soul-resurreccion-recomp
+- **Bloody Roar Extreme (Bloody Roar: Primal Fury)** - bloodyroarextremerecomp - https://github.com/bromurok/BloodyRoarExtremeRecomp
+- **Burnout Dominator** - burnoutdominatorreversed - https://github.com/literalynn/BurnoutDominatorReversed
+- **Carmageddon II: Carpocalypse Now** - carpocalypse2 - https://github.com/Link4Electronics/Carpocalypse2
+- **Castlevania: Harmony of Despair** - cvhd-recomp - https://github.com/rashevskyv/cvhd-recomp
+- **Castlevania: Harmony of Despair** - harmonyrecomp - https://github.com/Wrexxial/HarmonyRecomp
+- **Cataclysm: Bright Nights** - cataclysm-bn - https://github.com/cataclysmbn/Cataclysm-BN
+- **Cataclysm: Dark Days Ahead** - cataclysm-dda - https://github.com/CleverRaven/Cataclysm-DDA
+- **Cataclysm: The Last Generation** - cataclysm-tlg - https://github.com/Cataclysm-TLG/Cataclysm-TLG
+- **Chrono Trigger (SNES)** - belthasarproject - https://github.com/TemplarServant/BelthasarProject
+- **Clock Tower 3** - clocktower3recompiled - https://github.com/LegendarySavageGamer/ClockTower3Recompiled
+- **Conker: Live &amp; Reloaded** - conker-live-recompiled - https://github.com/cdetv/conker-live-recompiled
+- **Conker: Live &amp; Reloaded** - conker-recomped-and-reloaded - https://github.com/Mabec-games/Conker-Recomped-and-Reloaded
+- **Conker: Live &amp; Reloaded** - live-and-recompiled - https://github.com/giacomozama/live-and-recompiled
+- **Crimson Skies: High Road to Revenge** - crimsonskiesrecomp - https://github.com/saironbusatto/CrimsonSkiesRecomp
+- **Dante's Inferno** - hells-gate-recomp - https://github.com/florinp93/hells-gate-recomp
+- **Darkmere** - lightmere - https://github.com/sanviler/Lightmere
+- **Dead or Alive 2 Ultimate (from Dead or Alive Ultimate, Disc 2)** - doa2u-re - https://github.com/NoRain211/doa2u-re
+- **Dead or Alive 4** - doa4-online - https://github.com/dwreckgg/doa4-online
+- **Deception IV: The Nightmare Princess** - deception-iv-nightmareprincess-recomp - https://github.com/rcostanza/Deception-IV-NightmarePrincess-recomp
+- **Def Jam: Fight for NY Online** - ffny-online - https://github.com/sweeax-exe/ffny-online
+- **Demon's Souls** - soulbrandt - https://github.com/JonathanDC64/Soulbrandt
+- **Demon's Souls** - demons-souls-recomp - https://github.com/timboat/demons-souls-recomp
+- **Deus Ex** - port-ex-machina - https://github.com/JuggyMcNutty/port-ex-machina
+- **Deus Ex** - dx-rust - https://github.com/Grissyelda/dx-rust
+- **Discord Times** - razdor - https://github.com/indicozy/razdor
+- **Disruptor** - disruptorrecomp - https://github.com/RecompTeam/DisruptorRecomp
+- **Donald Duck: Goin' Quackers** - donald-duck-goin-quackers-recomp - https://github.com/n64hub/donald-duck-goin-quackers-recomp
+- **Dragon Ball Z: Battle of Z** - battle-of-z-pc - https://github.com/SayaModding/battle-of-z-pc
+- **Dragon Ball Z: Budokai** - nimbus-recompilation-project - https://github.com/thebabyhippo303/nimbus-recompilation-project
+- **Dragon Ball Z: Budokai 3** - dbz-budokai-3-hd-collection - https://github.com/novapowers0/DBZ-Budokai-3-HD-Collection
+- **Dragon Quest IX: Sentinels of the Starry Skies** - dq9recomp-releases - https://github.com/Ajustor/dq9Recomp-releases
+- **Dragon Quest VIII: Journey of the Cursed King** - dragonquest8recomp-3ds - https://github.com/kirakazeshin/DragonQuest8Recomp-3DS
+- **Dragon's Crown Pro** - dragons-crown-pro-pc - https://github.com/saulob/dragons-crown-pro-pc
+- **Dragon's Crown Pro** - opencrown-pc - https://github.com/Nezara/OpenCrown-PC
+- **Drakan: The Ancients' Gates** - drakan2pc - https://github.com/ChristopherVR/Drakan2PC
+- **Dynasty Warriors 5: Xtreme Legends** - dw5xl-recomp - https://github.com/TheSlackbringer/dw5xl-recomp
+- **EarthBound** - earthbound-companion-2 - https://github.com/rages4calm/earthbound-companion
+- **Earthsiege 2** - herculan - https://github.com/kevinfoley/Herculan
+- **Elite Beat Agents** - ebaouendan-musiclives - https://github.com/BehonArt/ebaouendan_musiclives
+- **Fighting Layer** - relayer - https://github.com/QuietClubGames/ReLayer
+- **Fire Emblem: Fortune’s Weave** - fefw-recomp - https://github.com/Goldoire/fefw-recomp
+- **Fire Emblem: Fortune’s Weave** - fefw-recomp-2 - https://github.com/GregorioRuiz98/fefw-recomp
+- **Fire Emblem: Three Houses** - fe3h-recomp
+- **Fist of the North Star: Lost Paradise** - port-ga-gotoku - https://github.com/ItalianKuze/port-ga-gotoku
+- **Fist of the North Star: Lost Paradise** - lost-paradise - https://github.com/Fwha/Lost-Paradise
+- **Flashback: The Quest for Identity** - fbsnesrecomp - https://github.com/mpolizel/FBSNESRecomp
+- **Folklore** - folklore-decomp - https://github.com/Mava-b/folklore-decomp
+- **Formula One Championship Edition** - f1-ce-ps3 - https://github.com/mauricristiano95-hub/F1_CE_PS3
+- **Forza Motorsport** - redline-recompiled - https://github.com/DivxPlays/redline-recompiled
+- **Futurama** - futurama-the-game-the-recomp - https://github.com/hiburn8/Futurama-The-Game-The-Recomp
+- **Galaxy Angel II** - galaxy-angel-2-pc - https://github.com/ObeseCatLord/galaxy-angel-2-pc
+- **God of War: Chains of Olympus; God of War: Ghost of Sparta** - gow-psp-recomp - https://github.com/DrummingBird1/gow-psp-recomp
+- **Goemon's Great Adventure** - ggarecomp - https://github.com/DreaXer/GGARecomp
+- **GoldenEye 007 (XBLA)** - goldeneye-007-xbla-pc-recomp - https://github.com/CaiusCodes/GoldenEye-007-XBLA-PC-Recomp
+- **Grabbed by the Ghoulies** - ghoulies-pc-recomp - https://github.com/SeveerJ/Ghoulies_PC_Recomp
+- **Gravity Rush Remastered / Gravity Rush 2** - grport - https://github.com/qnfn/GRport
+- **Green Lantern: Rise of the Manhunters** - lantern-recomp - https://github.com/Akimitsu76/Lantern-Recomp
+- **Guitar Hero, Guitar Hero II, Encore: Rocks the 80s and III** - prj-gd-engine - https://github.com/mbracali/prj-gd-engine
+- **Guitar Hero: Metallica** - ghmetalrecomp - https://github.com/ElGuslml/GHMetalRecomp
+- **Guitar Hero: Van Halen** - ghvanhrecomp - https://github.com/ElGuslml/GHVanHRecomp
+- **Hollywood Monsters** - hollywood-monsters-enhanced - https://github.com/Korvonordico/hollywood-monsters-enhanced
+- **Hot Shots Tennis** - opentennis - https://github.com/FIZL0/opentennis
+- **James Pond 3** - james-pond-3-recomp - https://github.com/salmon85/James-Pond-3-Recomp
+- **Killer Instinct (arcade, 1994); Killer Instinct 2 (arcade, 1996)** - ultracombo - https://github.com/thefixinhixon/UltraCombo
+- **Killzone HD** - project-vekta - https://github.com/gustavomorinaga/project-vekta
+- **King's Field II** - verdite3 - https://github.com/Voicedrew11/verdite3
+- **Kirby’s Return to Dream Land Deluxe** - kirby-redream - https://github.com/josiahg2502-glitch/Kirby-Redream
+- **KNID** - knid - https://github.com/sweatyeggs69/KNID
+- **Little Fighter 2** - lf2-decomp - https://github.com/0xd34db8/LF2-decomp
+- **Llamatron: 2112** - llamatron-pc-recomp - https://github.com/jedeyesniv-art/Llamatron-PC-Recomp
+- **Magic Carpet 2** - magic-carpet-2-hd - https://github.com/thobbsinteractive/magic-carpet-2-hd
+- **Majin and the Forsaken Kingdom** - majistic-recomp - https://github.com/kelvynzucco/majistic-recomp
+- **Major League Baseball 2K7** - mlb2k7-recomp - https://github.com/elripalda/mlb2k7-recomp
+- **Mario &amp; Luigi: Brothership** - brothership-recomp - https://github.com/Coaltergeist/Brothership-Recomp
+- **Mario Bros.** - arcadebros1983-recomp - https://github.com/JojitaGamerHD/ArcadeBros1983-Recomp
+- **Mario Party** - mario-party-recomp - https://github.com/n64hub/mario-party-recomp
+- **Mario Tennis** - mariotennisrecomp - https://github.com/Ieatzcrayonz/MarioTennisRecomp
+- **Marvel Ultimate Alliance 3: The Black Order** - ultimate-alliance-3-native-pc-port
+- **Marvel vs. Capcom 2: New Age of Heroes** - mvsc2-recomp - https://github.com/dalves408/mvsc2-recomp
+- **Maximo: Ghosts to Glory** - maximo-gtg - https://github.com/BioRhythmicStudios/Maximo-GTG
+- **MechWarrior 3** - mw3-re - https://github.com/telltaleatheist/mw3-re
+- **Medal of Honor: Underground** - medal-of-honor-underground-psx-recomp - https://github.com/FractalEngineer/Medal-Of-Honor-Underground-PSX-Recomp
+- **Metal Gear Solid: Portable Ops** - portable-ops-native - https://github.com/zexk/portable-ops-native
+- **Micro Maniacs** - micromanrecomp - https://github.com/Taktloss/MicroManRecomp
+- **Midnight Club 3: DUB Edition Remix** - mc3port - https://github.com/SickSartori/mc3port
+- **Midnight Club: Los Angeles Complete Edition** - mcla-recomp-2 - https://github.com/RenanQueiroz/mcla-recomp
+- **Midnight Club: Los Angeles Complete Edition** - rusty-mcla - https://github.com/holdmysocks/rusty-mcla
+- **Moto Racer** - motoracerrecomp - https://github.com/segovia-no/MotoRacerRecomp
+- **MX Unleashed** - openmx - https://github.com/FIZL0/openmx
+- **Namco 2x Systems** - namco22-decompile - https://github.com/spacestate1/namco22-decompile
+- **NBA Jam Tournament Edition** - nba-jam-recompiled - https://github.com/PocketLucho/NBA-JAM---Recompiled
+- **NHL Hitz Pro** - nhlhitzpro-recomp - https://github.com/dalves408/nhlhitzpro-recomp
+- **One Piece: Grand Battle! 2** - one-piece-grand-battle-2-recomp - https://github.com/zofiansalonga-bit/one-piece-grand-battle-2-recomp
+- **Otogi: Myth of Demons** - otogi-xunchain - https://github.com/Guuzzeji/otogi-xunchain
+- **Outlaw Golf 2** - outlawgolf2-xbe-recomp - https://github.com/projectedan/OutlawGolf2-XBE-Recomp
+- **Pac'N-Jump** - pacnjumpnative - https://github.com/heyjonanderson/PacNJumpNative
+- **Panzer Dragoon Orta** - orta-recompiled - https://github.com/almost-drowned-rat/Orta-Recompiled
+- **Panzer Dragoon Orta** - orta-pc-recomp - https://github.com/SeveerJ/Orta_PC_Recomp
+- **Perfect Dark (Xbox 360, Xbox Live Arcade)** - perfect-dark-xbla-pc-recomp - https://github.com/CaiusCodes/Perfect-Dark-XBLA-PC-Recomp
+- **Peter Jackson's King Kong** - king-kong-recompiled - https://github.com/TekRantGaming/king-kong-recompiled
+- **Phantasy Star IV: The End of the Millennium** - psivrecomp - https://github.com/MotaviaWorks/PSIVRecomp
+- **Pokemon Black / Pokemon White** - eidos - https://github.com/Project-Holon/eidos
+- **Pokémon Brilliant Diamond** - udpre - https://github.com/u2-bot/uDPRE
+- **Pokémon Colosseum** - colosseum-launcher - https://github.com/chasem-dev/colosseum-launcher
+- **Pokémon Crystal** - gen2recomped - https://github.com/UNDERdecoded/Gen2Recomped
+- **Pokémon Mystery Dungeon: Explorers of Sky** - pmd-sky-recomp - https://github.com/DarthMDev/pmd-sky-recomp
+- **Pokemon Pokopia** - pokopia-recomp-2 - https://github.com/featureJosh/pokopia-recomp
+- **Pokemon Pokopia** - pokopia-native - https://github.com/xFractals/pokopia-native
+- **Pokemon Pokopia** - recompia - https://github.com/Dittobyte/Recompia
+- **Pokemon Scarlet and Violet** - karpur - https://github.com/Grunttanamo/KarPur
+- **Pokémon Violet** - pokevioletrecomp - https://github.com/Unborne-Fetus/PokeVioletRecomp
+- **PokéPark Wii: Pikachu's Adventure** - pokepark-wiicompiled - https://github.com/MildRain479/PokePark-Wiicompiled
+- **PokeRogueOffline** - pokerogue-offline - https://github.com/PokeRogue-Offline/pokerogue-offline
+- **Power Drift** - likethewind - https://github.com/hojoworks/likethewind
+- **Punch-Out!!** - pow-recompiled
+- **Ratchet &amp; Clank** - recasted
+- **Ratchet &amp; Clank Future: Tools of Destruction** - ratchet-tod-recomp - https://github.com/Re-TeRo17/ratchet-tod-recomp
+- **Resident Evil Survivor** - respect - https://github.com/MachinaAeon/RESPeCt
+- **Resistance 2** - resistance2port - https://github.com/miroslavdanutalexandru-alt/Resistance2Port
+- **Resogun** - resogun-recomp - https://github.com/rcostanza/resogun-recomp
+- **Rock n' Roll Racing** - rock-and-roll-racing-pc - https://github.com/Cris9870/rock-and-roll-racing-pc
+- **Rush 2: Extreme Racing USA** - rush2recompiled - https://github.com/bryantmh/rush2recompiled
+- **Serious Sam Classic The First Encounter** - seriousrecomp - https://github.com/MarkPremier/SeriousRecomp
+- **Shadow of Rome** - shadow-of-rome-recompiled - https://github.com/Korvonordico/shadow-of-rome-recompiled
+- **Shadowgate: MacVenture Series** - shadowgreat - https://github.com/CorrieDivitt/ShadowGreat
+- **Shin Megami Tensei NINE** - smt-nine-recomp - https://github.com/gymzatan/smt-nine-recomp
+- **Shining Force III** - sfiii-native - https://github.com/mattkuhnQAAI/sfiii-native
+- **Sid Meier's SimGolf** - opensgolf - https://github.com/crspytopgn/opensgolf
+- **Skylanders: Giants** - giantsrecomp-2 - https://github.com/tsapZ/GiantsRecomp
+- **Skylanders: Spyro's Adventure** - ssarecomp - https://github.com/tsapZ/SSARecomp
+- **Skylanders: Spyro's Adventure; Skylanders: Giants; Skylanders: Swap Force; Skylanders: Trap Team; Skylanders: SuperCharg** - skylanderscoreoflight - https://github.com/tsapZ/SkylandersCoreOfLight
+- **Sly 2: Band of Thieves** - safehouse - https://github.com/FridiNaTor1/SafeHouse
+- **Smash Remix** - battleship-remix - https://github.com/lucasliet/BattleShip-remix
+- **Snoopy Flying Ace** - redbaron-recomp - https://github.com/BTr-RJ/RedBaron_Recomp
+- **Sonic 3 &amp; Knuckles** - sonic3andknucklesrecomp - https://github.com/mstan/Sonic3AndKnucklesRecomp
+- **Sonic Riders** - sonic-riders-recomp - https://github.com/teclilla18/sonic-riders-recomp
+- **Sonic X (LeapFrog Leapster)** - sonic-x-leapster-recomp - https://github.com/IamMrUnemployed/sonic-x-leapster-recomp
+- **Spider-Man (2000)** - spidey-decomp - https://github.com/krystalgamer/spidey-decomp
+- **SpikeOut: Final Edition** - spikeout-recomp - https://github.com/tastyrepublic/spikeout-recomp
+- **SpongeBob SquarePants: Revenge of the Flying Dutchman** - spongebobrecomp - https://github.com/Spaced1127/SpongeBobRecomp
+- **Star Ocean: Integrity and Faithlessness** - star-ocean-integrity-and-faithlessness-ps4rt - https://github.com/Hoverbike51/Star-Ocean-Integrity-and-Faithlessness-PS4RT
+- **Street Fighter Alpha 3 MAX** - sfa3max-decomp - https://github.com/theweathervane/sfa3max-decomp
+- **Street Fighter III: 3rd Strike Online Edition** - sf3tsoereborn - https://github.com/updeshxp/SF3TSOEReborn
+- **Street Rod; Street Rod 2** - rodlegacy - https://github.com/grovdata/RodLegacy
+- **Super Bomberman 5** - superbomberman5snesrecomp - https://github.com/MauricioSuporte/SuperBomberman5SNESRecomp
+- **Super Hang-On** - super-hang-on-ultimate - https://github.com/chaotix359/Super-Hang-On-Ultimate
+- **Super Mario World 2: Yoshi's Island** - smw2recomp - https://github.com/mpolizel/SMW2Recomp
+- **Super Monkey Ball Deluxe** - smbd-recompilation - https://github.com/timftw21/smbd-recompilation
+- **Super Street Fighter II Turbo; Street Fighter Alpha; Street Fighter Alpha 2; Street Fighter Zero 2 Alpha; Street Fighter** - cps2recomp - https://github.com/tmcleroy/cps2recomp
+- **Teenage Mutant Ninja Turtles** - tmnt-port - https://github.com/cheviman/tmnt-port
+- **Teenage Mutant Ninja Turtles** - tmnt-recomp - https://github.com/naparuba-retro/tmnt-recomp
+- **Teenage Mutant Ninja Turtles: Turtles in Time Re-Shelled** - tmnt-turtles-in-time-reshelled-recompiled - https://github.com/saulob/tmnt-turtles-in-time-reshelled-recompiled
+- **Tekken 5: Dark Resurrection Online** - t5dronline - https://github.com/TheWishin/T5DROnline
+- **Test Drive: Eve of Destruction** - eod-recomp - https://github.com/catsandsoup/eod-recomp
+- **The Fancy Pants Adventures** - adventure-pants-recomp - https://github.com/elripalda/adventure-pants-recomp
+- **The Legend of Spyro: A New Beginning** - spyro-anb-pc - https://github.com/Starkka15/spyro-anb-pc
+- **The Nightmare Before Christmas: Oogie's Revenge** - projectoogie - https://github.com/Pallypots/ProjectOogie
+- **Theatrhythm Final Bar Line** - theatrhythm-fbl-pc - https://github.com/YAPhoa/theatrhythm-fbl-pc
+- **Theme Park World** - tpw-recomp - https://github.com/cpressland/tpw-recomp
+- **Tom Clancy's Splinter Cell: Conviction** - tcscc-recomp
+- **Tony Hawk's Pro Skater** - thps1-64recomp - https://github.com/THPS64Recomp/THPS1-64Recomp
+- **Tony Hawk's Pro Skater 2** - thps2-64recomp - https://github.com/THPS64Recomp/THPS2-64Recomp
+- **Tony Hawk's Pro Skater 2x** - thps2x-recompiled - https://github.com/almost-drowned-rat/THPS2X-Recompiled
+- **Tony Hawk's Pro Skater 3** - thps3-64recomp - https://github.com/THPS64Recomp/THPS3-64Recomp
+- **Tony Hawk's Proving Ground** - provinggroundrecomp - https://github.com/Newbie1337x/ProvingGroundRecomp
+- **Transformers** - transformers-armada-recomp - https://github.com/kayliox/transformers-armada-recomp
+- **Tsukihime -A piece of blue glass moon-** - tsukihime-native-pc-port - https://github.com/Take00C/Tsukihime-Native-PC-Port
+- **Ultima Underworld: The Stygian Abyss** - underworldrevisited - https://github.com/PQMarine/UnderworldRevisited
+- **Ultimate Mortal Kombat 3** - ultimate-mortal-kombat-3-ios-decompiled - https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled
+- **Virtua NBA** - virtua-nba-recompilation - https://github.com/PocketLucho/Virtua-NBA---Recompilation
+- **Virtua Tennis** - virtua-tennis-recompilation - https://github.com/PocketLucho/Virtua-Tennis---Recompilation
+- **WWE '12** - wwe12-pc - https://github.com/iMrBurn/wwe12-pc
+- **Xenoblade Chronicles X: Definitive Edition** - xcx-recomp - https://github.com/jmars125/xcx-recomp
+- **Xenoblade Chronicles: Definitive Edition** - monado-fix-portable - https://github.com/Ivanprestef2/Monado-FIX-Portable
+- **Yo-kai Watch** - clockwork - https://github.com/watchmakerers/clockwork

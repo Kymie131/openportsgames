@@ -2715,6 +2715,17 @@ import { hwaoiRecomp } from "./hwaoi-recomp";
 import { rdrXberecomp } from "./rdr-xberecomp";
 import { dissidia012Pc } from "./dissidia012-pc";
 import { opengp } from "./opengp";
+import { fortyWinksRecomp } from "./40-winks-recomp";
+import { dragonQuestViii3dsRecomp } from "./dragon-quest-viii-3ds-recomp";
+import { fistOfTheNorthStarPort } from "./fist-of-the-north-star-port";
+import { midnightClub3DubRemix } from "./midnight-club-3-dub-remix";
+import { panzerDragoonOrtaRecompiled } from "./panzer-dragoon-orta-recompiled";
+import { phantasyStarIvRecomp } from "./phantasy-star-iv-recomp";
+import { xcxRecomp } from "./xcx-recomp";
+import { starOceanIntegrityPs4rt } from "./star-ocean-integrity-ps4rt";
+import { superMonkeyBallDeluxeRecomp } from "./super-monkey-ball-deluxe-recomp";
+import { castlevaniaHarmonyOfDespairRecomp } from "./castlevania-harmony-of-despair-recomp";
+import { otogiMythOfDemonsRecomp } from "./otogi-myth-of-demons-recomp";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5429,4 +5440,15 @@ export const portCases: Port[] = [
   rdrXberecomp,
   dissidia012Pc,
   opengp,
+  fortyWinksRecomp,
+  dragonQuestViii3dsRecomp,
+  fistOfTheNorthStarPort,
+  midnightClub3DubRemix,
+  panzerDragoonOrtaRecompiled,
+  phantasyStarIvRecomp,
+  xcxRecomp,
+  starOceanIntegrityPs4rt,
+  superMonkeyBallDeluxeRecomp,
+  castlevaniaHarmonyOfDespairRecomp,
+  otogiMythOfDemonsRecomp,
 ];
