@@ -86,6 +86,26 @@ before being added to the catalog.
 - MLB Power Pros 2008 - Recomp (`mlb-power-pros-2008-recomp`)
 - Fight Night Round 3 - Recomp (`fight-night-round-3-recomp`)
 
+## New releases imported (2026-11-09)
+
+These projects appeared on RecompLauncher after the original discovery pass and
+were verified before import:
+
+- The Legend of Zelda: Ocarina of Time (Switch 2 remake) - Hookshot (`hookshot`)
+- The Legend of Zelda: Ocarina of Time (Switch 2 remake) - TOoT:R (`toot-r`)
+- Bayonetta 3 - Witch Time (`witch-time`)
+- Bayonetta 3 - B3-Express (`b3-express`)
+- Portal 2 - Portal 2 Recomp (`portal2-recomp`)
+- Xenoblade Chronicles 2 - XC2 Recomp (`xc2-recomp`)
+- Fire Emblem: Awakening - Recomp (`fe-awakening-recomp`)
+- Pokemon Legends: Arceus - PLA Recomp (`plarecomp`)
+- Pokemon Legends: Z-A - Recomp (`pokez-arecomp`)
+- Metroid Prime Remastered - PrimeRecomp (`primerecomp`)
+- Hyrule Warriors: Age of Imprisonment - Recomp (`hwaoi-recomp`)
+- Red Dead Revolver - XBE Recomp (`rdr-xberecomp`)
+- Dissidia 012 Final Fantasy - PC (`dissidia012-pc`)
+- Mario Kart Arcade GP - OpenGP (`opengp`)
+
 ## Candidates
 
 - **007: Everything or Nothing** — 007: Everything or Nothing - XBE Recomp

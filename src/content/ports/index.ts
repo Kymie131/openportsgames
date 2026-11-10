@@ -2701,6 +2701,20 @@ import { maddenNfl08Recompiled } from "./madden-nfl-08-recompiled";
 import { magicalBlocks } from "./magical-blocks";
 import { mlbPowerPros2008Recomp } from "./mlb-power-pros-2008-recomp";
 import { fightNightRound3Recomp } from "./fight-night-round-3-recomp";
+import { hookshot } from "./hookshot";
+import { tootR } from "./toot-r";
+import { witchTime } from "./witch-time";
+import { b3Express } from "./b3-express";
+import { portal2Recomp } from "./portal2-recomp";
+import { xc2Recomp } from "./xc2-recomp";
+import { feAwakeningRecomp } from "./fe-awakening-recomp";
+import { plarecomp } from "./plarecomp";
+import { pokezArecomp } from "./pokez-arecomp";
+import { primerecomp } from "./primerecomp";
+import { hwaoiRecomp } from "./hwaoi-recomp";
+import { rdrXberecomp } from "./rdr-xberecomp";
+import { dissidia012Pc } from "./dissidia012-pc";
+import { opengp } from "./opengp";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5401,4 +5415,18 @@ export const portCases: Port[] = [
   magicalBlocks,
   mlbPowerPros2008Recomp,
   fightNightRound3Recomp,
+  hookshot,
+  tootR,
+  witchTime,
+  b3Express,
+  portal2Recomp,
+  xc2Recomp,
+  feAwakeningRecomp,
+  plarecomp,
+  pokezArecomp,
+  primerecomp,
+  hwaoiRecomp,
+  rdrXberecomp,
+  dissidia012Pc,
+  opengp,
 ];
