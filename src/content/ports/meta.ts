@@ -2791,4 +2791,5 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "web-midnight-club-3": ["PlayStation 2"],
   "spyro-openpete": ["PlayStation"],
   "pokemon-x-recomp": ["Nintendo 3DS"],
+  "13-sentinels-aegis-rim-pc": ["PlayStation 4"],
 };

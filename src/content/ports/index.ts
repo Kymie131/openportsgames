@@ -2792,6 +2792,7 @@ import { webWweHereComesThePain } from "./web-wwe-here-comes-the-pain";
 import { webMidnightClub3 } from "./web-midnight-club-3";
 import { spyroOpenPete } from "./spyro-openpete";
 import { pokemonXRecomp } from "./pokemon-x-recomp";
+import { sentinelsAegisRimPc } from "./13-sentinels-aegis-rim-pc";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5583,4 +5584,5 @@ export const portCases: Port[] = [
   webMidnightClub3,
   spyroOpenPete,
   pokemonXRecomp,
+  sentinelsAegisRimPc,
 ];
