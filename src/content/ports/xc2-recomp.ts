@@ -61,9 +61,9 @@ export const xc2Recomp: Port = {
       "note": "Linux · AppImage"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/xc2-recomp.svg",
-    "alt": "Xenoblade Chronicles 2 (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/xc2-recomp.jpg",
+    alt: "Xenoblade Chronicles 2 (Nintendo Switch box art)",
+    credit: "Box art",
+  },
 };

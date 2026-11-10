@@ -55,9 +55,9 @@ export const hwaoiRecomp: Port = {
       "note": "Windows · compiler"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/hwaoi-recomp.svg",
-    "alt": "Hyrule Warriors: Age of Imprisonment (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/hwaoi-recomp.png",
+    alt: "Hyrule Warriors: Age of Imprisonment (Nintendo Switch 2 box art)",
+    credit: "Wikipedia",
+  },
 };

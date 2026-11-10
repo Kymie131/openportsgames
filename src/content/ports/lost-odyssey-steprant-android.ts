@@ -57,9 +57,9 @@ export const lostOdysseySteprantAndroid: Port = {
       "note": "Android · APK"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/lost-odyssey-steprant-android.svg",
-    "alt": "Lost Odyssey (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/lost-odyssey-steprant-android.jpg",
+    alt: "Lost Odyssey (Xbox 360 box art)",
+    credit: "Box art",
+  },
 };

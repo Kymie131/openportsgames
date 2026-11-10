@@ -56,9 +56,9 @@ export const initialDStreetStagePc: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/initial-d-street-stage-pc.svg",
-    "alt": "Initial D: Street Stage (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/initial-d-street-stage-pc.png",
+    alt: "Initial D: Street Stage (PlayStation Portable box art)",
+    credit: "Box art",
+  },
 };

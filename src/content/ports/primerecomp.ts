@@ -74,9 +74,9 @@ export const primerecomp: Port = {
       "note": "Android · APK"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/primerecomp.svg",
-    "alt": "Metroid Prime Remastered (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/primerecomp.jpg",
+    alt: "Metroid Prime Remastered (Nintendo Switch box art)",
+    credit: "Wikipedia",
+  },
 };

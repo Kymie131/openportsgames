@@ -67,9 +67,9 @@ export const nhlHitz2003Recomp: Port = {
       "note": "Linux · AppImage"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/nhl-hitz-20-03-recomp.svg",
-    "alt": "NHL Hitz 20-03 (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/nhl-hitz-20-03-recomp.jpg",
+    alt: "NHL Hitz 20-03 (Xbox box art)",
+    credit: "Wikipedia",
+  },
 };

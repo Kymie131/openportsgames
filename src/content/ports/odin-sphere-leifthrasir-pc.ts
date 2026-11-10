@@ -63,9 +63,9 @@ export const odinSphereLeifthrasirPc: Port = {
       "note": "Linux · AppImage"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/odin-sphere-leifthrasir-pc.svg",
-    "alt": "Odin Sphere Leifthrasir (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/odin-sphere-leifthrasir-pc.png",
+    alt: "Odin Sphere Leifthrasir (PlayStation 4 box art)",
+    credit: "Box art",
+  },
 };

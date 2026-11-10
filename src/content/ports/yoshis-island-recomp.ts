@@ -55,9 +55,9 @@ export const yoshisIslandRecomp: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/yoshis-island-recomp.svg",
-    "alt": "Super Mario World 2: Yoshi's Island (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/yoshis-island-recomp.jpg",
+    alt: "Super Mario World 2: Yoshi's Island (Super Nintendo box art)",
+    credit: "Wikipedia",
+  },
 };

@@ -62,9 +62,9 @@ export const testDriveEveOfDestructionRecomp: Port = {
       "note": "macOS · Apple Silicon"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/test-drive-eve-of-destruction-recomp.svg",
-    "alt": "Test Drive: Eve of Destruction (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/test-drive-eve-of-destruction-recomp.png",
+    alt: "Test Drive: Eve of Destruction (PlayStation 2 box art)",
+    credit: "Box art",
+  },
 };

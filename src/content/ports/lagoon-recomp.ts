@@ -75,9 +75,9 @@ export const lagoonRecomp: Port = {
       "note": "macOS · Intel"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/lagoon-recomp.svg",
-    "alt": "Lagoon (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/lagoon-recomp.png",
+    alt: "Lagoon (Super Nintendo box art)",
+    credit: "Box art",
+  },
 };

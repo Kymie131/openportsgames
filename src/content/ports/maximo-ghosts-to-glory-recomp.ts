@@ -55,9 +55,9 @@ export const maximoGhostsToGloryRecomp: Port = {
       "note": "Windows · launcher"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/maximo-ghosts-to-glory-recomp.svg",
-    "alt": "Maximo: Ghosts to Glory (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/maximo-ghosts-to-glory-recomp.png",
+    alt: "Maximo: Ghosts to Glory (PlayStation 2 box art)",
+    credit: "Box art",
+  },
 };

@@ -56,9 +56,9 @@ export const castlevaniaCurseOfDarknessRecomp: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/castlevania-curse-of-darkness-recomp.svg",
-    "alt": "Castlevania: Curse of Darkness (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/castlevania-curse-of-darkness-recomp.png",
+    alt: "Castlevania: Curse of Darkness (Xbox box art)",
+    credit: "Box art",
+  },
 };

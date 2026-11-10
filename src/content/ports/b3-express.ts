@@ -57,9 +57,9 @@ export const b3Express: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/b3-express.svg",
-    "alt": "Bayonetta 3 (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/b3-express.webp",
+    alt: "Bayonetta 3 (Nintendo Switch box art)",
+    credit: "Box art",
+  },
 };

@@ -61,9 +61,9 @@ export const resogunRecomp: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/resogun-recomp.svg",
-    "alt": "Resogun (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/resogun-recomp.jpg",
+    alt: "Resogun (PlayStation 4 art)",
+    credit: "Steam",
+  },
 };

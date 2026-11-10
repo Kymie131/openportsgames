@@ -61,9 +61,9 @@ export const witchTime: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/witch-time.svg",
-    "alt": "Bayonetta 3 (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/witch-time.webp",
+    alt: "Bayonetta 3 (Nintendo Switch box art)",
+    credit: "Box art",
+  },
 };

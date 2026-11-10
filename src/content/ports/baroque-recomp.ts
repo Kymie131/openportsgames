@@ -56,9 +56,9 @@ export const baroqueRecomp: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/baroque-recomp.svg",
-    "alt": "Baroque (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/baroque-recomp.png",
+    alt: "Baroque (Sega Saturn box art)",
+    credit: "Box art",
+  },
 };

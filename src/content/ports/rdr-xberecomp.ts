@@ -56,9 +56,9 @@ export const rdrXberecomp: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/rdr-xberecomp.svg",
-    "alt": "Red Dead Revolver (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/rdr-xberecomp.png",
+    alt: "Red Dead Revolver (Xbox box art)",
+    credit: "Box art",
+  },
 };

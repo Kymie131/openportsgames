@@ -64,9 +64,9 @@ export const xMen2CloneWarsPc: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/x-men-2-clone-wars-pc.svg",
-    "alt": "X-Men 2: Clone Wars (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/x-men-2-clone-wars-pc.png",
+    alt: "X-Men 2: Clone Wars (Sega Mega Drive / Genesis box art)",
+    credit: "Box art",
+  },
 };

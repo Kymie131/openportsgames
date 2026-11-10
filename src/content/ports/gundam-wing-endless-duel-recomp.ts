@@ -73,9 +73,9 @@ export const gundamWingEndlessDuelRecomp: Port = {
       "note": "macOS · Intel"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/gundam-wing-endless-duel-recomp.svg",
-    "alt": "Shin Kidō Senki Gundam Wing: Endless Duel (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/gundam-wing-endless-duel-recomp.jpg",
+    alt: "Shin Kidō Senki Gundam Wing: Endless Duel (Super Nintendo box art)",
+    credit: "Wikipedia",
+  },
 };

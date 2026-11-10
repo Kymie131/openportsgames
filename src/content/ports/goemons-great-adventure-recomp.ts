@@ -61,9 +61,9 @@ export const goemonsGreatAdventureRecomp: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/goemons-great-adventure-recomp.svg",
-    "alt": "Goemon's Great Adventure (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/goemons-great-adventure-recomp.png",
+    alt: "Goemon's Great Adventure (Nintendo 64 box art)",
+    credit: "Box art",
+  },
 };

@@ -56,9 +56,9 @@ export const dragonQuestViii3dsRecomp: Port = {
       "note": "Windows · installer"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/dragon-quest-viii-3ds-recomp.svg",
-    "alt": "Dragon Quest VIII: Journey of the Cursed King (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/dragon-quest-viii-3ds-recomp.png",
+    alt: "Dragon Quest VIII: Journey of the Cursed King (Nintendo 3DS box art)",
+    credit: "Box art",
+  },
 };

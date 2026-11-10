@@ -170,7 +170,11 @@ export function HomeContent({
             port={spotlight.port}
             system={spotlight.system}
             testStatus={spotlight.testStatus}
-            label={t.home.spotlightLabel}
+            label={
+              spotlight.port.id === "hookshot"
+                ? t.home.spotlightNewLabel
+                : t.home.spotlightLabel
+            }
             cta={t.home.spotlightCta}
           />
         )}

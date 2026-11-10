@@ -56,9 +56,9 @@ export const stuntmanPc: Port = {
       "note": "Windows · alpha"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/stuntman-pc.svg",
-    "alt": "Stuntman (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/stuntman-pc.png",
+    alt: "Stuntman (PlayStation 2 box art)",
+    credit: "Box art",
+  },
 };

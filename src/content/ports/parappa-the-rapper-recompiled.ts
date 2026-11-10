@@ -62,9 +62,9 @@ export const parappaTheRapperRecompiled: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/parappa-the-rapper-recompiled.svg",
-    "alt": "PaRappa the Rapper (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/parappa-the-rapper-recompiled.jpg",
+    alt: "PaRappa the Rapper (PlayStation box art)",
+    credit: "Box art",
+  },
 };

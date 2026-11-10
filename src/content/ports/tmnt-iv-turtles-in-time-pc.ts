@@ -62,9 +62,9 @@ export const tmntIvTurtlesInTimePc: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/tmnt-iv-turtles-in-time-pc.svg",
-    "alt": "Teenage Mutant Ninja Turtles IV: Turtles in Time (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/tmnt-iv-turtles-in-time-pc.jpg",
+    alt: "Teenage Mutant Ninja Turtles IV: Turtles in Time (Super Nintendo box art)",
+    credit: "Wikipedia",
+  },
 };

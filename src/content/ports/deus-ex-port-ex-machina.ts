@@ -62,9 +62,9 @@ export const deusExPortExMachina: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/deus-ex-port-ex-machina.svg",
-    "alt": "Deus Ex (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/deus-ex-port-ex-machina.png",
+    alt: "Deus Ex (Windows box art)",
+    credit: "Wikipedia",
+  },
 };

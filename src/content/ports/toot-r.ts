@@ -61,9 +61,9 @@ export const tootR: Port = {
       "note": "Linux · AppImage"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/toot-r.svg",
-    "alt": "The Legend of Zelda: Ocarina of Time (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/toot-r.jpg",
+    alt: "The Legend of Zelda: Ocarina of Time (Nintendo Switch 2 box art)",
+    credit: "Box art",
+  },
 };

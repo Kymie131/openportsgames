@@ -62,9 +62,9 @@ export const theatrhythmFinalBarLinePc: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/theatrhythm-final-bar-line-pc.svg",
-    "alt": "Theatrhythm Final Bar Line (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/theatrhythm-final-bar-line-pc.png",
+    alt: "Theatrhythm Final Bar Line (Nintendo Switch box art)",
+    credit: "Wikipedia",
+  },
 };

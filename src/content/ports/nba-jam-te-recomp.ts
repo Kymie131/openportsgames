@@ -62,9 +62,9 @@ export const nbaJamTeRecomp: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/nba-jam-te-recomp.svg",
-    "alt": "NBA Jam Tournament Edition (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/nba-jam-te-recomp.jpg",
+    alt: "NBA Jam Tournament Edition (Arcade box art)",
+    credit: "Wikipedia",
+  },
 };

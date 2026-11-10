@@ -61,9 +61,9 @@ export const kirbyRecomp: Port = {
       "note": "Source kit · build it yourself"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/kirby-recomp.svg",
-    "alt": "Super Kirby Clash (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/kirby-recomp.jpg",
+    alt: "Super Kirby Clash (Nintendo Switch box art)",
+    credit: "Wikipedia",
+  },
 };

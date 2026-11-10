@@ -62,9 +62,9 @@ export const cruisnBlastRecomp: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/cruisn-blast-recomp.svg",
-    "alt": "Cruis'n Blast (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/cruisn-blast-recomp.jpg",
+    alt: "Cruis'n Blast (Nintendo Switch box art)",
+    credit: "Wikipedia",
+  },
 };

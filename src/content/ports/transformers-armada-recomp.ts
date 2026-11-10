@@ -61,9 +61,9 @@ export const transformersArmadaRecomp: Port = {
       "note": "Windows Â· installer"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/transformers-armada-recomp.svg",
-    "alt": "Transformers (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/transformers-armada-recomp.png",
+    alt: "Transformers (PlayStation 2 box art)",
+    credit: "Box art",
+  },
 };

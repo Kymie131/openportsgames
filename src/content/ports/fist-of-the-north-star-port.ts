@@ -61,9 +61,9 @@ export const fistOfTheNorthStarPort: Port = {
       "note": "Linux · AppImage"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/fist-of-the-north-star-port.svg",
-    "alt": "Fist of the North Star: Lost Paradise (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/fist-of-the-north-star-port.png",
+    alt: "Fist of the North Star: Lost Paradise (PlayStation 4 box art)",
+    credit: "Wikipedia",
+  },
 };

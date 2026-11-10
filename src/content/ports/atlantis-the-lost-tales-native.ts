@@ -68,9 +68,9 @@ export const atlantisTheLostTalesNative: Port = {
       "note": "macOS · Apple Silicon"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/atlantis-the-lost-tales-native.svg",
-    "alt": "Atlantis: The Lost Tales (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/atlantis-the-lost-tales-native.png",
+    alt: "Atlantis: The Lost Tales (MS-DOS box art)",
+    credit: "Box art",
+  },
 };

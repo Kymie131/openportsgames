@@ -33,7 +33,7 @@ export const hotelMarioStaticRecomp: Port = {
   "sourceVerified": true,
   "addedAt": "2026-11-06",
   "originalSystems": [
-    "Other"
+    "CD-i"
   ],
   "summary": "Hotel Mario is a 1994 puzzle game released for the Philips CD-i. Mario closes doors in a hotel to trap enemies across seven hotels.",
   "summaryEs": "Hotel Mario es un videojuego de puzles de 1994 lanzado para Philips CD-i. Mario cierra puertas en un hotel para atrapar enemigos a lo largo de siete hoteles.",
@@ -61,9 +61,9 @@ export const hotelMarioStaticRecomp: Port = {
       "note": "Windows · installer"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/hotel-mario-static-recomp.svg",
-    "alt": "Hotel Mario (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/hotel-mario-static-recomp.jpg",
+    alt: "Hotel Mario (Other box art)",
+    credit: "Wikipedia",
+  },
 };

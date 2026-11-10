@@ -62,9 +62,9 @@ export const futuramaTheGameRecomp: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/futurama-the-game-recomp.svg",
-    "alt": "Futurama: The Game (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/futurama-the-game-recomp.jpg",
+    alt: "Futurama: The Game (Xbox box art)",
+    credit: "Box art",
+  },
 };

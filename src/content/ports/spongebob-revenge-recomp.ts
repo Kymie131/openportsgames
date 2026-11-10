@@ -56,9 +56,9 @@ export const spongebobRevengeRecomp: Port = {
       "note": "Windows Â· x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/spongebob-revenge-recomp.svg",
-    "alt": "SpongeBob SquarePants: Revenge of the Flying Dutchman (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/spongebob-revenge-recomp.png",
+    alt: "SpongeBob SquarePants: Revenge of the Flying Dutchman (Nintendo GameCube box art)",
+    credit: "Box art",
+  },
 };

@@ -36,7 +36,7 @@ export const laserlords: Port = {
   "sourceVerified": true,
   "addedAt": "2026-11-06",
   "originalSystems": [
-    "Other"
+    "CD-i"
   ],
   "summary": "Laser Lords is a 1992 adventure game released for the Philips CD-i. It combines exploration, puzzles and action across a sci-fi setting.",
   "summaryEs": "Laser Lords es un videojuego de aventura de 1992 lanzado para Philips CD-i. Combina exploración, puzles y acción en un entorno de ciencia ficción.",
@@ -76,9 +76,9 @@ export const laserlords: Port = {
       "note": "Switch · homebrew"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/laserlords.svg",
-    "alt": "Laser Lords (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/laserlords.jpg",
+    alt: "Laser Lords (Other box art)",
+    credit: "Wikipedia",
+  },
 };

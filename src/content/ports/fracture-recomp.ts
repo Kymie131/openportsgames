@@ -56,9 +56,9 @@ export const fractureRecomp: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/fracture-recomp.svg",
-    "alt": "Fracture (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/fracture-recomp.jpg",
+    alt: "Fracture (Xbox 360 box art)",
+    credit: "Box art",
+  },
 };

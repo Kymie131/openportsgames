@@ -61,9 +61,9 @@ export const marioLuigiBrothershipRecomp: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/mario-luigi-brothership-recomp.svg",
-    "alt": "Mario & Luigi: Brothership (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/mario-luigi-brothership-recomp.jpg",
+    alt: "Mario & Luigi: Brothership (Nintendo Switch box art)",
+    credit: "Wikipedia",
+  },
 };

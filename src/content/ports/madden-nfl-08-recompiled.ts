@@ -55,9 +55,9 @@ export const maddenNfl08Recompiled: Port = {
       "note": "Windows · installer"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/madden-nfl-08-recompiled.svg",
-    "alt": "Madden NFL 08 (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/madden-nfl-08-recompiled.png",
+    alt: "Madden NFL 08 (Xbox 360 box art)",
+    credit: "Wikipedia",
+  },
 };

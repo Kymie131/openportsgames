@@ -57,9 +57,9 @@ export const demonsCrestRecompiled: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/demons-crest-recompiled.svg",
-    "alt": "Demon's Crest (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/demons-crest-recompiled.png",
+    alt: "Demon's Crest (Super Nintendo box art)",
+    credit: "Box art",
+  },
 };

@@ -55,9 +55,9 @@ export const clockTower3Recompiled: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/clock-tower-3-recompiled.svg",
-    "alt": "Clock Tower 3 (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/clock-tower-3-recompiled.png",
+    alt: "Clock Tower 3 (PlayStation 2 box art)",
+    credit: "Box art",
+  },
 };

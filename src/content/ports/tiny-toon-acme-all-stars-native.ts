@@ -55,9 +55,9 @@ export const tinyToonAcmeAllStarsNative: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/tiny-toon-acme-all-stars-native.svg",
-    "alt": "Tiny Toon Adventures: ACME All-Stars (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/tiny-toon-acme-all-stars-native.png",
+    alt: "Tiny Toon Adventures: ACME All-Stars (Sega Mega Drive / Genesis box art)",
+    credit: "Box art",
+  },
 };

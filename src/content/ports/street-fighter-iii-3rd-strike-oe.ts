@@ -67,9 +67,9 @@ export const streetFighterIii3rdStrikeOe: Port = {
       "note": "macOS · Apple Silicon"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/street-fighter-iii-3rd-strike-oe.svg",
-    "alt": "Street Fighter III: 3rd Strike Online Edition (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/street-fighter-iii-3rd-strike-oe.png",
+    alt: "Street Fighter III: 3rd Strike Online Edition (Xbox 360 box art)",
+    credit: "Wikipedia",
+  },
 };

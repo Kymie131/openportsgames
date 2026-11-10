@@ -67,9 +67,9 @@ export const phantasyStarIvRecomp: Port = {
       "note": "Android · APK"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/phantasy-star-iv-recomp.svg",
-    "alt": "Phantasy Star IV: The End of the Millennium (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/phantasy-star-iv-recomp.jpg",
+    alt: "Phantasy Star IV: The End of the Millennium (Sega Mega Drive / Genesis box art)",
+    credit: "Wikipedia",
+  },
 };

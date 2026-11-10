@@ -55,9 +55,9 @@ export const afterBurnerClimaxRecomp: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/after-burner-climax-recomp.svg",
-    "alt": "After Burner Climax (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/after-burner-climax-recomp.png",
+    alt: "After Burner Climax (Xbox 360 box art)",
+    credit: "Wikipedia",
+  },
 };

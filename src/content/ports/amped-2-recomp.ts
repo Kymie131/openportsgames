@@ -61,9 +61,9 @@ export const amped2Recomp: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/amped-2-recomp.svg",
-    "alt": "Amped 2 (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/amped-2-recomp.png",
+    alt: "Amped 2 (Xbox box art)",
+    credit: "Box art",
+  },
 };

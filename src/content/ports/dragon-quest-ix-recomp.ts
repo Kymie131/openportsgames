@@ -68,9 +68,9 @@ export const dragonQuestIxRecomp: Port = {
       "note": "Android · APK"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/dragon-quest-ix-recomp.svg",
-    "alt": "Dragon Quest IX: Sentinels of the Starry Skies (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/dragon-quest-ix-recomp.png",
+    alt: "Dragon Quest IX: Sentinels of the Starry Skies (Nintendo DS box art)",
+    credit: "Box art",
+  },
 };

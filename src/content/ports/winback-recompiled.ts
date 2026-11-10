@@ -55,9 +55,9 @@ export const winbackRecompiled: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/winback-recompiled.svg",
-    "alt": "WinBack: Covert Operations (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/winback-recompiled.png",
+    alt: "WinBack: Covert Operations (Nintendo 64 box art)",
+    credit: "Box art",
+  },
 };

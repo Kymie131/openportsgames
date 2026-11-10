@@ -67,9 +67,9 @@ export const pokezArecomp: Port = {
       "note": "Linux · Debian package"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/pokez-arecomp.svg",
-    "alt": "Pokemon Legends: Z-A (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/pokez-arecomp.png",
+    alt: "Pokemon Legends: Z-A (Nintendo Switch box art)",
+    credit: "Wikipedia",
+  },
 };

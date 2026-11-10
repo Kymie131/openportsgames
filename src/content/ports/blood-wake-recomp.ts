@@ -58,9 +58,9 @@ export const bloodWakeRecomp: Port = {
       "note": "Windows · installer"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/blood-wake-recomp.svg",
-    "alt": "Blood Wake (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/blood-wake-recomp.png",
+    alt: "Blood Wake (Xbox box art)",
+    credit: "Box art",
+  },
 };

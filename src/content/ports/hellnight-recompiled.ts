@@ -73,9 +73,9 @@ export const hellnightRecompiled: Port = {
       "note": "macOS · Intel"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/hellnight-recompiled.svg",
-    "alt": "Hellnight (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/hellnight-recompiled.jpg",
+    alt: "Hellnight (PlayStation box art)",
+    credit: "Box art",
+  },
 };

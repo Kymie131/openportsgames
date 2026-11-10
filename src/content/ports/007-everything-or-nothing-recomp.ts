@@ -65,9 +65,9 @@ export const bondEverythingOrNothingRecomp: Port = {
       "note": "Windows · PAL"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/007-everything-or-nothing-recomp.svg",
-    "alt": "007: Everything or Nothing (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/007-everything-or-nothing-recomp.png",
+    alt: "007: Everything or Nothing (Xbox box art)",
+    credit: "Box art",
+  },
 };

@@ -74,9 +74,9 @@ export const bigRedRacingPort: Port = {
       "note": "Android · APK"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/big-red-racing-port.svg",
-    "alt": "Big Red Racing (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/big-red-racing-port.png",
+    alt: "Big Red Racing (MS-DOS box art)",
+    credit: "Box art",
+  },
 };

@@ -68,9 +68,9 @@ export const spikeoutFinalEditionRecomp: Port = {
       "note": "macOS · Apple Silicon"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/spikeout-final-edition-recomp.svg",
-    "alt": "SpikeOut: Final Edition (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/spikeout-final-edition-recomp.jpg",
+    alt: "SpikeOut: Final Edition (Arcade box art)",
+    credit: "Wikipedia",
+  },
 };

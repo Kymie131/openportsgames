@@ -55,9 +55,9 @@ export const rollAwayPc: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/roll-away-pc.svg",
-    "alt": "Roll Away (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/roll-away-pc.png",
+    alt: "Roll Away (PlayStation box art)",
+    credit: "Wikipedia",
+  },
 };

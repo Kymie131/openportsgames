@@ -66,9 +66,9 @@ export const midnightClub3DubRemix: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/midnight-club-3-dub-remix.svg",
-    "alt": "Midnight Club 3: DUB Edition Remix (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/midnight-club-3-dub-remix.png",
+    alt: "Midnight Club 3: DUB Edition Remix (Xbox box art)",
+    credit: "Box art",
+  },
 };

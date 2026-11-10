@@ -22,6 +22,8 @@ import { dictionaries } from "@/lib/i18n/dictionaries";
 import { asLocale } from "@/lib/i18n/locales";
 
 const FEATURED_SLUGS = [
+  "hookshot",
+  "ocarina-retuned",
   "ship-of-harkinian",
   "open-lara",
   "minish-cap",

@@ -60,9 +60,9 @@ export const plarecomp: Port = {
       "note": "Source · exporter"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/plarecomp.svg",
-    "alt": "Pokemon Legends: Arceus (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/plarecomp.jpg",
+    alt: "Pokemon Legends: Arceus (Nintendo Switch box art)",
+    credit: "Wikipedia",
+  },
 };

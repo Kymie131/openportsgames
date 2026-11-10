@@ -55,9 +55,9 @@ export const smash4Pc: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/smash-4-pc.svg",
-    "alt": "Super Smash Bros. for Wii U (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/smash-4-pc.png",
+    alt: "Super Smash Bros. for Wii U (Wii U box art)",
+    credit: "Box art",
+  },
 };

@@ -63,9 +63,9 @@ export const dk94Recomp: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/dk94-recomp.svg",
-    "alt": "Donkey Kong (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/dk94-recomp.png",
+    alt: "Donkey Kong (Game Boy box art)",
+    credit: "Box art",
+  },
 };

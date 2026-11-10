@@ -57,9 +57,9 @@ export const pacManChampionshipEditionPc: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/pac-man-championship-edition-pc.svg",
-    "alt": "Pac-Man Championship Edition (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/pac-man-championship-edition-pc.png",
+    alt: "Pac-Man Championship Edition (Xbox 360 box art)",
+    credit: "Wikipedia",
+  },
 };

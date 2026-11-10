@@ -60,9 +60,9 @@ export const marvelVsCapcom2Recomp: Port = {
       "note": "Windows · installer"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/marvel-vs-capcom-2-recomp.svg",
-    "alt": "Marvel vs. Capcom 2: New Age of Heroes (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/marvel-vs-capcom-2-recomp.jpg",
+    alt: "Marvel vs. Capcom 2: New Age of Heroes (Arcade box art)",
+    credit: "Box art",
+  },
 };

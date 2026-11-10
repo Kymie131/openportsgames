@@ -61,9 +61,9 @@ export const infamousFirstLightPc: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/infamous-first-light-pc.svg",
-    "alt": "inFAMOUS First Light (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/infamous-first-light-pc.jpg",
+    alt: "inFAMOUS First Light (PlayStation 4 box art)",
+    credit: "Wikipedia",
+  },
 };

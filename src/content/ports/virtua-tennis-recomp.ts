@@ -62,9 +62,9 @@ export const virtuaTennisRecomp: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/virtua-tennis-recomp.svg",
-    "alt": "Virtua Tennis (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/virtua-tennis-recomp.jpg",
+    alt: "Virtua Tennis (Arcade flyer)",
+    credit: "Wikipedia",
+  },
 };

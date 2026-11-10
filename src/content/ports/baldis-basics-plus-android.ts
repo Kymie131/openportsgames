@@ -56,9 +56,9 @@ export const baldisBasicsPlusAndroid: Port = {
       "note": "Android · APK"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/baldis-basics-plus-android.svg",
-    "alt": "Baldi's Basics Plus (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/baldis-basics-plus-android.webp",
+    alt: "Baldi's Basics Plus (Windows box art)",
+    credit: "Wikipedia",
+  },
 };

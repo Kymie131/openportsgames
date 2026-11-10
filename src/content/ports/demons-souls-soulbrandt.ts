@@ -62,9 +62,9 @@ export const demonsSoulsSoulbrandt: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/demons-souls-soulbrandt.svg",
-    "alt": "Demon's Souls (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/demons-souls-soulbrandt.png",
+    alt: "Demon's Souls (PlayStation 3 box art)",
+    credit: "Box art",
+  },
 };

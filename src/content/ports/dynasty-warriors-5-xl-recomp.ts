@@ -61,9 +61,9 @@ export const dynastyWarriors5XlRecomp: Port = {
       "note": "Linux · AppImage"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/dynasty-warriors-5-xl-recomp.svg",
-    "alt": "Dynasty Warriors 5: Xtreme Legends (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/dynasty-warriors-5-xl-recomp.png",
+    alt: "Dynasty Warriors 5: Xtreme Legends (PlayStation 2 box art)",
+    credit: "Box art",
+  },
 };

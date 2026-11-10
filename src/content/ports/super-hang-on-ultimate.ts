@@ -62,9 +62,9 @@ export const superHangOnUltimate: Port = {
       "note": "macOS · installer"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/super-hang-on-ultimate.svg",
-    "alt": "Super Hang-On (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/super-hang-on-ultimate.png",
+    alt: "Super Hang-On (Arcade box art)",
+    credit: "Wikipedia",
+  },
 };

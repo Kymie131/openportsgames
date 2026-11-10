@@ -55,9 +55,9 @@ export const feAwakeningRecomp: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/fe-awakening-recomp.svg",
-    "alt": "Fire Emblem: Awakening (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/fe-awakening-recomp.png",
+    alt: "Fire Emblem: Awakening (Nintendo 3DS box art)",
+    credit: "Box art",
+  },
 };

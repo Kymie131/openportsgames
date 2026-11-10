@@ -62,9 +62,9 @@ export const deceptionIvNightmarePrincessRecomp: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/deception-iv-nightmare-princess-recomp.svg",
-    "alt": "Deception IV: The Nightmare Princess (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/deception-iv-nightmare-princess-recomp.jpg",
+    alt: "Deception IV: The Nightmare Princess (PlayStation 3 box art)",
+    credit: "Wikipedia",
+  },
 };

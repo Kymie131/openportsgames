@@ -61,9 +61,9 @@ export const xcxRecomp: Port = {
       "note": "Linux · AppImage"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/xcx-recomp.svg",
-    "alt": "Xenoblade Chronicles X: Definitive Edition (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/xcx-recomp.jpg",
+    alt: "Xenoblade Chronicles X: Definitive Edition (Nintendo Switch box art)",
+    credit: "Wikipedia",
+  },
 };

@@ -55,9 +55,9 @@ export const starOceanIntegrityPs4rt: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/star-ocean-integrity-ps4rt.svg",
-    "alt": "Star Ocean: Integrity and Faithlessness (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/star-ocean-integrity-ps4rt.png",
+    alt: "Star Ocean: Integrity and Faithlessness (PlayStation 4 box art)",
+    credit: "Wikipedia",
+  },
 };

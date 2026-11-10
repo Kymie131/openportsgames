@@ -68,9 +68,9 @@ export const tsukihimeNativePc: Port = {
       "note": "macOS · Apple Silicon"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/tsukihime-native-pc.svg",
-    "alt": "Tsukihime -A piece of blue glass moon- (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/tsukihime-native-pc.jpg",
+    alt: "Tsukihime -A piece of blue glass moon- (Nintendo Switch art)",
+    credit: "Wikipedia",
+  },
 };

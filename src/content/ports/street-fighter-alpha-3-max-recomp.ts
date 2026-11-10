@@ -67,9 +67,9 @@ export const streetFighterAlpha3MaxRecomp: Port = {
       "note": "macOS · Apple Silicon"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/street-fighter-alpha-3-max-recomp.svg",
-    "alt": "Street Fighter Alpha 3 MAX (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/street-fighter-alpha-3-max-recomp.png",
+    alt: "Street Fighter Alpha 3 MAX (PlayStation Portable box art)",
+    credit: "Box art",
+  },
 };

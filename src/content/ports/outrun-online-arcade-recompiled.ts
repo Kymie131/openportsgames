@@ -55,9 +55,9 @@ export const outrunOnlineArcadeRecompiled: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/outrun-online-arcade-recompiled.svg",
-    "alt": "OutRun Online Arcade (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/outrun-online-arcade-recompiled.jpg",
+    alt: "OutRun Online Arcade (Xbox 360 box art)",
+    credit: "Wikipedia",
+  },
 };

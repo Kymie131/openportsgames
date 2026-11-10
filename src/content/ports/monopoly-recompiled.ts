@@ -57,9 +57,9 @@ export const monopolyRecompiled: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/monopoly-recompiled.svg",
-    "alt": "Monopoly (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/monopoly-recompiled.jpg",
+    alt: "Monopoly (Xbox 360 box art)",
+    credit: "Wikipedia",
+  },
 };

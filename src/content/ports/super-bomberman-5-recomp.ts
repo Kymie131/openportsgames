@@ -68,9 +68,9 @@ export const superBomberman5Recomp: Port = {
       "note": "Android · APK"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/super-bomberman-5-recomp.svg",
-    "alt": "Super Bomberman 5 (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/super-bomberman-5-recomp.png",
+    alt: "Super Bomberman 5 (Super Nintendo box art)",
+    credit: "Box art",
+  },
 };

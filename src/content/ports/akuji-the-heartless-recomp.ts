@@ -56,9 +56,9 @@ export const akujiTheHeartlessRecomp: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/akuji-the-heartless-recomp.svg",
-    "alt": "Akuji the Heartless (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/akuji-the-heartless-recomp.png",
+    alt: "Akuji the Heartless (PlayStation box art)",
+    credit: "Wikipedia",
+  },
 };

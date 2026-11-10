@@ -61,9 +61,9 @@ export const hookshot: Port = {
       "note": "Linux · AppImage"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/hookshot.svg",
-    "alt": "The Legend of Zelda: Ocarina of Time (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/hookshot.jpg",
+    alt: "The Legend of Zelda: Ocarina of Time (Nintendo Switch 2 box art)",
+    credit: "Box art",
+  },
 };

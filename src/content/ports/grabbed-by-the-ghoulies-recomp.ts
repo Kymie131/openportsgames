@@ -56,9 +56,9 @@ export const grabbedByTheGhouliesRecomp: Port = {
       "note": "Windows · installer"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/grabbed-by-the-ghoulies-recomp.svg",
-    "alt": "Grabbed by the Ghoulies (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/grabbed-by-the-ghoulies-recomp.png",
+    alt: "Grabbed by the Ghoulies (Xbox box art)",
+    credit: "Box art",
+  },
 };

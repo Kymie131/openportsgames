@@ -33,7 +33,7 @@ export const mutantRampageBodyslamRecomp: Port = {
   "sourceVerified": true,
   "addedAt": "2026-11-06",
   "originalSystems": [
-    "Other"
+    "CD-i"
   ],
   "summary": "Mutant Rampage: Bodyslam is a 1994 fighting game released for the Philips CD-i. It combines one-on-one combat with full-motion video sequences.",
   "summaryEs": "Mutant Rampage: Bodyslam es un juego de lucha de 1994 lanzado para Philips CD-i. Combina combate uno contra uno con secuencias de vídeo en movimiento real.",

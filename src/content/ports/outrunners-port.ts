@@ -67,9 +67,9 @@ export const outrunnersPort: Port = {
       "note": "macOS · universal"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/outrunners-port.svg",
-    "alt": "OutRunners (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/outrunners-port.jpg",
+    alt: "OutRunners (Arcade box art)",
+    credit: "Wikipedia",
+  },
 };

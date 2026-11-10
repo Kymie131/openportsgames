@@ -63,9 +63,9 @@ export const disgaeaD2Recomp: Port = {
       "note": "Windows · installer"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/disgaea-d2-recomp.svg",
-    "alt": "Disgaea D2: A Brighter Darkness (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/disgaea-d2-recomp.png",
+    alt: "Disgaea D2: A Brighter Darkness (PlayStation 3 box art)",
+    credit: "Box art",
+  },
 };

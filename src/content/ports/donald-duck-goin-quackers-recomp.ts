@@ -61,9 +61,9 @@ export const donaldDuckGoinQuackersRecomp: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/donald-duck-goin-quackers-recomp.svg",
-    "alt": "Donald Duck: Goin' Quackers (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/donald-duck-goin-quackers-recomp.png",
+    alt: "Donald Duck: Goin' Quackers (Nintendo 64 box art)",
+    credit: "Box art",
+  },
 };

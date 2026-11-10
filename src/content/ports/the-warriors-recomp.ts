@@ -56,9 +56,9 @@ export const theWarriorsRecomp: Port = {
       "note": "Windows · alpha"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/the-warriors-recomp.svg",
-    "alt": "The Warriors (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/the-warriors-recomp.png",
+    alt: "The Warriors (Xbox box art)",
+    credit: "Box art",
+  },
 };

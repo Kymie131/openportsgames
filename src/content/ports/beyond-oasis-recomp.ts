@@ -60,9 +60,9 @@ export const beyondOasisRecomp: Port = {
       "note": "Windows · installer"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/beyond-oasis-recomp.svg",
-    "alt": "Beyond Oasis (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/beyond-oasis-recomp.png",
+    alt: "Beyond Oasis (Sega Mega Drive / Genesis box art)",
+    credit: "Box art",
+  },
 };

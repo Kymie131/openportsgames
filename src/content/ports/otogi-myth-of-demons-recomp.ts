@@ -56,9 +56,9 @@ export const otogiMythOfDemonsRecomp: Port = {
       "note": "Windows · installer"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/otogi-myth-of-demons-recomp.svg",
-    "alt": "Otogi: Myth of Demons (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/otogi-myth-of-demons-recomp.png",
+    alt: "Otogi: Myth of Demons (Xbox box art)",
+    credit: "Box art",
+  },
 };

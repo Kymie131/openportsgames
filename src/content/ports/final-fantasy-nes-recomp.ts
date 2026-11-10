@@ -56,9 +56,9 @@ export const finalFantasyNesRecomp: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/final-fantasy-nes-recomp.svg",
-    "alt": "Final Fantasy (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/final-fantasy-nes-recomp.jpg",
+    alt: "Final Fantasy (Nintendo Entertainment System box art)",
+    credit: "Wikipedia",
+  },
 };

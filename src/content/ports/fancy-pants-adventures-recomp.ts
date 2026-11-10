@@ -33,7 +33,7 @@ export const fancyPantsAdventuresRecomp: Port = {
   "sourceVerified": true,
   "addedAt": "2026-11-09",
   "originalSystems": [
-    "Other"
+    "Web"
   ],
   "summary": "The Fancy Pants Adventures is a 2006 browser platform game by Brad Borne. It is known for fluid hand-drawn animation and momentum-based movement.",
   "summaryEs": "The Fancy Pants Adventures es un juego de plataformas de navegador de 2006 creado por Brad Borne. Destaca por su animación dibujada a mano y su movimiento basado en la inercia.",

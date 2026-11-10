@@ -61,9 +61,9 @@ export const xenobladeChroniclesDe: Port = {
       "note": "Windows · compile kit"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/xenoblade-chronicles-de.svg",
-    "alt": "Xenoblade Chronicles: Definitive Edition (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/xenoblade-chronicles-de.png",
+    alt: "Xenoblade Chronicles: Definitive Edition (Nintendo Switch box art)",
+    credit: "Wikipedia",
+  },
 };

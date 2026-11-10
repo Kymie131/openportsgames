@@ -56,9 +56,9 @@ export const thps2xRecompiled: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/thps2x-recompiled.svg",
-    "alt": "Tony Hawk's Pro Skater 2x (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/thps2x-recompiled.png",
+    alt: "Tony Hawk's Pro Skater 2x (Xbox box art)",
+    credit: "Box art",
+  },
 };

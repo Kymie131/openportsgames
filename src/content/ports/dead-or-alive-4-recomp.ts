@@ -61,9 +61,9 @@ export const deadOrAlive4Recomp: Port = {
       "note": "Windows · launcher"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/dead-or-alive-4-recomp.svg",
-    "alt": "Dead or Alive 4 (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/dead-or-alive-4-recomp.jpg",
+    alt: "Dead or Alive 4 (Xbox 360 box art)",
+    credit: "Wikipedia",
+  },
 };

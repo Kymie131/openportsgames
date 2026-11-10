@@ -61,9 +61,9 @@ export const themeParkWorldRecomp: Port = {
       "note": "macOS Â· ZIP"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/theme-park-world-recomp.svg",
-    "alt": "Theme Park World (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/theme-park-world-recomp.jpg",
+    alt: "Theme Park World (Windows box art)",
+    credit: "Wikipedia",
+  },
 };

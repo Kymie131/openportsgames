@@ -66,9 +66,9 @@ export const mlbPowerPros2008Recomp: Port = {
       "note": "Linux · Steam Deck"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/mlb-power-pros-2008-recomp.svg",
-    "alt": "MLB Power Pros 2008 (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/mlb-power-pros-2008-recomp.png",
+    alt: "MLB Power Pros 2008 (Wii box art)",
+    credit: "Box art",
+  },
 };

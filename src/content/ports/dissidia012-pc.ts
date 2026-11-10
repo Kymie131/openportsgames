@@ -61,9 +61,9 @@ export const dissidia012Pc: Port = {
       "note": "Linux · AppImage"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/dissidia012-pc.svg",
-    "alt": "Dissidia 012 Final Fantasy (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/dissidia012-pc.png",
+    alt: "Dissidia 012 Final Fantasy (PlayStation Portable box art)",
+    credit: "Box art",
+  },
 };

@@ -56,9 +56,9 @@ export const conkerLiveRecompiled: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/conker-live-recompiled.svg",
-    "alt": "Conker: Live & Reloaded (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/conker-live-recompiled.png",
+    alt: "Conker: Live & Reloaded (Xbox box art)",
+    credit: "Box art",
+  },
 };

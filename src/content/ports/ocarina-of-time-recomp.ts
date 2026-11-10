@@ -55,9 +55,9 @@ export const ocarinaOfTimeRecomp: Port = {
       "note": "Windows · setup"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/ocarina-of-time-recomp.svg",
-    "alt": "The Legend of Zelda: Ocarina of Time (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/ocarina-of-time-recomp.jpg",
+    alt: "The Legend of Zelda: Ocarina of Time (Nintendo 64 box art)",
+    credit: "Box art",
+  },
 };

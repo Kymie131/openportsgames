@@ -56,9 +56,9 @@ export const bleachSoulResurreccionRecomp: Port = {
       "note": "Windows · installer"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/bleach-soul-resurreccion-recomp.svg",
-    "alt": "Bleach: Soul Resurreccion (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/bleach-soul-resurreccion-recomp.jpg",
+    alt: "Bleach: Soul Resurreccion (PlayStation 3 box art)",
+    credit: "Wikipedia",
+  },
 };

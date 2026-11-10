@@ -62,9 +62,9 @@ export const southParkTowerDefensePc: Port = {
       "note": "Linux · AppImage"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/south-park-tower-defense-pc.svg",
-    "alt": "South Park: Let's Go Tower Defense Play! (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/south-park-tower-defense-pc.jpg",
+    alt: "South Park: Let's Go Tower Defense Play! (Xbox 360 box art)",
+    credit: "Wikipedia",
+  },
 };

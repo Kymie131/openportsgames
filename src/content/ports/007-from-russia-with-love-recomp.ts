@@ -56,9 +56,9 @@ export const bondFromRussiaWithLoveRecomp: Port = {
       "note": "Windows Â· x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/007-from-russia-with-love-recomp.svg",
-    "alt": "007: From Russia with Love (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/007-from-russia-with-love-recomp.png",
+    alt: "007: From Russia with Love (Xbox box art)",
+    credit: "Box art",
+  },
 };

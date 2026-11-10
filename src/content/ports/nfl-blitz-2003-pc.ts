@@ -62,9 +62,9 @@ export const nflBlitz2003Pc: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/nfl-blitz-2003-pc.svg",
-    "alt": "NFL Blitz 2003 (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/nfl-blitz-2003-pc.png",
+    alt: "NFL Blitz 2003 (Nintendo GameCube box art)",
+    credit: "Box art",
+  },
 };

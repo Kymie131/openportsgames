@@ -62,9 +62,9 @@ export const fightNightRound3Recomp: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/fight-night-round-3-recomp.svg",
-    "alt": "Fight Night Round 3 (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/fight-night-round-3-recomp.jpg",
+    alt: "Fight Night Round 3 (Xbox 360 box art)",
+    credit: "Box art",
+  },
 };

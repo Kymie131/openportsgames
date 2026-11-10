@@ -55,9 +55,9 @@ export const crimsonSkiesRecomp: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/crimson-skies-recomp.svg",
-    "alt": "Crimson Skies: High Road to Revenge (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/crimson-skies-recomp.png",
+    alt: "Crimson Skies: High Road to Revenge (Xbox box art)",
+    credit: "Box art",
+  },
 };

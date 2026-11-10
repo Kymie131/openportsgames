@@ -56,9 +56,9 @@ export const legendOfSpyroNewBeginningPc: Port = {
       "note": "Windows · installer"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/legend-of-spyro-new-beginning-pc.svg",
-    "alt": "The Legend of Spyro: A New Beginning (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/legend-of-spyro-new-beginning-pc.png",
+    alt: "The Legend of Spyro: A New Beginning (PlayStation 2 box art)",
+    credit: "Box art",
+  },
 };

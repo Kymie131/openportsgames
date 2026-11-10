@@ -61,9 +61,9 @@ export const mgsPortableOpsNative: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/mgs-portable-ops-native.svg",
-    "alt": "Metal Gear Solid: Portable Ops (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/mgs-portable-ops-native.png",
+    alt: "Metal Gear Solid: Portable Ops (PlayStation Portable box art)",
+    credit: "Box art",
+  },
 };

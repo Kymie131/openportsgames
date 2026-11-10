@@ -56,9 +56,9 @@ export const tnaImpactRecompiled: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/tna-impact-recompiled.svg",
-    "alt": "TNA iMPACT! (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/tna-impact-recompiled.png",
+    alt: "TNA iMPACT! (Xbox 360 box art)",
+    credit: "Wikipedia",
+  },
 };

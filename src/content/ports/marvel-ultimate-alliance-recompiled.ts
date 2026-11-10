@@ -64,9 +64,9 @@ export const marvelUltimateAllianceRecompiled: Port = {
       "note": "Linux · experimental"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/marvel-ultimate-alliance-recompiled.svg",
-    "alt": "Marvel: Ultimate Alliance (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/marvel-ultimate-alliance-recompiled.png",
+    alt: "Marvel: Ultimate Alliance (Xbox 360 box art)",
+    credit: "Wikipedia",
+  },
 };

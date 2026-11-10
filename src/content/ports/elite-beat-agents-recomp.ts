@@ -56,9 +56,9 @@ export const eliteBeatAgentsRecomp: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/elite-beat-agents-recomp.svg",
-    "alt": "Elite Beat Agents (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/elite-beat-agents-recomp.png",
+    alt: "Elite Beat Agents (Nintendo DS box art)",
+    credit: "Box art",
+  },
 };

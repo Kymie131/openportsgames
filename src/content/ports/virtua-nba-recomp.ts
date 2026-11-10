@@ -62,9 +62,9 @@ export const virtuaNbaRecomp: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/virtua-nba-recomp.svg",
-    "alt": "Virtua NBA (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/virtua-nba-recomp.png",
+    alt: "Virtua NBA (Arcade box art)",
+    credit: "Wikipedia",
+  },
 };

@@ -55,9 +55,9 @@ export const panzerDragoonOrtaRecompiled: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/panzer-dragoon-orta-recompiled.svg",
-    "alt": "Panzer Dragoon Orta (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/panzer-dragoon-orta-recompiled.png",
+    alt: "Panzer Dragoon Orta (Xbox box art)",
+    credit: "Box art",
+  },
 };

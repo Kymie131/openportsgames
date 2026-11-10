@@ -57,9 +57,9 @@ export const portal2Recomp: Port = {
       "note": "macOS · installer"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/portal2-recomp.svg",
-    "alt": "Portal 2 (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/portal2-recomp.jpg",
+    alt: "Portal 2 (Macintosh box art)",
+    credit: "Box art",
+  },
 };

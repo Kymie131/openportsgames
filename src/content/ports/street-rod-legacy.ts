@@ -68,9 +68,9 @@ export const streetRodLegacy: Port = {
       "note": "macOS · DMG"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/street-rod-legacy.svg",
-    "alt": "Street Rod (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/street-rod-legacy.png",
+    alt: "Street Rod (Commodore 64 box art)",
+    credit: "Box art",
+  },
 };

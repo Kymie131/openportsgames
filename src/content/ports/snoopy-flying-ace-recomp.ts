@@ -61,9 +61,9 @@ export const snoopyFlyingAceRecomp: Port = {
       "note": "Windows · online"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/snoopy-flying-ace-recomp.svg",
-    "alt": "Snoopy Flying Ace (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/snoopy-flying-ace-recomp.png",
+    alt: "Snoopy Flying Ace (Xbox 360 box art)",
+    credit: "Wikipedia",
+  },
 };

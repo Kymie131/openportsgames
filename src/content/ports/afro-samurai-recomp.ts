@@ -55,9 +55,9 @@ export const afroSamuraiRecomp: Port = {
       "note": "Windows · installer"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/afro-samurai-recomp.svg",
-    "alt": "Afro Samurai (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/afro-samurai-recomp.jpg",
+    alt: "Afro Samurai (Xbox 360 box art)",
+    credit: "Wikipedia",
+  },
 };

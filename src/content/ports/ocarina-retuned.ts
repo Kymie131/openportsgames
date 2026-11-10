@@ -88,9 +88,9 @@ export const ocarinaRetuned: Port = {
       "note": "Switch · experimental"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/ocarina-retuned.svg",
-    "alt": "The Legend of Zelda: Ocarina of Time 3D (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/ocarina-retuned.png",
+    alt: "The Legend of Zelda: Ocarina of Time 3D (Nintendo 3DS box art)",
+    credit: "Box art",
+  },
 };

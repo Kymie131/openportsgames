@@ -56,9 +56,9 @@ export const nightmareBeforeChristmasOogieRecomp: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/nightmare-before-christmas-oogie-recomp.svg",
-    "alt": "The Nightmare Before Christmas: Oogie's Revenge (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/nightmare-before-christmas-oogie-recomp.png",
+    alt: "The Nightmare Before Christmas: Oogie's Revenge (PlayStation 2 box art)",
+    credit: "Box art",
+  },
 };

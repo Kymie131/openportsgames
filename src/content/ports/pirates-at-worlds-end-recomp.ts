@@ -63,9 +63,9 @@ export const piratesAtWorldsEndRecomp: Port = {
       "note": "Windows · installer"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/pirates-at-worlds-end-recomp.svg",
-    "alt": "Pirates of the Caribbean: At World's End (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/pirates-at-worlds-end-recomp.jpg",
+    alt: "Pirates of the Caribbean: At World's End (Xbox 360 box art)",
+    credit: "Box art",
+  },
 };

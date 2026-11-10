@@ -67,9 +67,9 @@ export const yokaiWatchRecomp: Port = {
       "note": "macOS · Apple Silicon"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/yokai-watch-recomp.svg",
-    "alt": "Yo-kai Watch (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/yokai-watch-recomp.png",
+    alt: "Yo-kai Watch (Nintendo 3DS box art)",
+    credit: "Box art",
+  },
 };

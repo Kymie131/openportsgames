@@ -56,9 +56,9 @@ export const superMonkeyBallDeluxeRecomp: Port = {
       "note": "Windows · installer"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/super-monkey-ball-deluxe-recomp.svg",
-    "alt": "Super Monkey Ball Deluxe (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/super-monkey-ball-deluxe-recomp.png",
+    alt: "Super Monkey Ball Deluxe (Xbox box art)",
+    credit: "Box art",
+  },
 };

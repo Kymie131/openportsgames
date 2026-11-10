@@ -80,9 +80,9 @@ export const sonicRidersRecomp: Port = {
       "note": "Switch · homebrew"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/sonic-riders-recomp.svg",
-    "alt": "Sonic Riders (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/sonic-riders-recomp.png",
+    alt: "Sonic Riders (Nintendo GameCube box art)",
+    credit: "Box art",
+  },
 };

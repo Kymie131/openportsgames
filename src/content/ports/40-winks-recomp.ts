@@ -61,9 +61,9 @@ export const fortyWinksRecomp: Port = {
       "note": "Linux · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/40-winks-recomp.svg",
-    "alt": "40 Winks (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/40-winks-recomp.jpg",
+    alt: "40 Winks (PlayStation box art)",
+    credit: "Wikipedia",
+  },
 };

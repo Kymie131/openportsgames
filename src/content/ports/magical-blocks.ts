@@ -62,9 +62,9 @@ export const magicalBlocks: Port = {
       "note": "Windows · installer"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/magical-blocks.svg",
-    "alt": "Magical Tetris Challenge (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/magical-blocks.png",
+    alt: "Magical Tetris Challenge (Nintendo 64 box art)",
+    credit: "Box art",
+  },
 };

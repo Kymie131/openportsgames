@@ -60,9 +60,9 @@ export const hazeRecomp: Port = {
       "note": "Windows · installer"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/haze-recomp.svg",
-    "alt": "Haze (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/haze-recomp.jpg",
+    alt: "Haze (PlayStation 3 box art)",
+    credit: "Box art",
+  },
 };

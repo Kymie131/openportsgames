@@ -67,9 +67,9 @@ export const opengp: Port = {
       "note": "macOS · Apple Silicon"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/opengp.svg",
-    "alt": "Mario Kart Arcade GP (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/opengp.jpg",
+    alt: "Mario Kart Arcade GP (Arcade art)",
+    credit: "Wikipedia",
+  },
 };

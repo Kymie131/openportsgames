@@ -70,9 +70,9 @@ export const castlevaniaHarmonyOfDespairRecomp: Port = {
       "note": "Switch · homebrew"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/castlevania-harmony-of-despair-recomp.svg",
-    "alt": "Castlevania: Harmony of Despair (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/castlevania-harmony-of-despair-recomp.png",
+    alt: "Castlevania: Harmony of Despair (Xbox 360 box art)",
+    credit: "Wikipedia",
+  },
 };

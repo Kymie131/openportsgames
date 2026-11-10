@@ -60,9 +60,9 @@ export const kirbyRedream: Port = {
       "note": "Windows · installer"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/kirby-redream.svg",
-    "alt": "Kirby's Return to Dream Land Deluxe (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/kirby-redream.jpg",
+    alt: "Kirby's Return to Dream Land Deluxe (Nintendo Switch box art)",
+    credit: "Wikipedia",
+  },
 };

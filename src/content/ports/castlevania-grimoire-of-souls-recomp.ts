@@ -32,7 +32,7 @@ export const castlevaniaGrimoireOfSoulsRecomp: Port = {
   "sourceVerified": true,
   "addedAt": "2026-11-06",
   "originalSystems": [
-    "Macintosh"
+    "Apple Arcade"
   ],
   "summary": "Castlevania: Grimoire of Souls is a 2019 action role-playing game developed and published by Konami, originally released for Apple Arcade. It brings together heroes from across the series in a book-themed adventure.",
   "summaryEs": "Castlevania: Grimoire of Souls es un videojuego de rol y acción de 2019 desarrollado y publicado por Konami, lanzado originalmente en Apple Arcade. Reúne héroes de toda la serie en una aventura ambientada en libros mágicos.",
@@ -55,9 +55,9 @@ export const castlevaniaGrimoireOfSoulsRecomp: Port = {
       "note": "Windows · x64"
     }
   ],
-  "cover": {
-    "src": "https://openportsgames.com/covers/generated/castlevania-grimoire-of-souls-recomp.svg",
-    "alt": "Castlevania: Grimoire of Souls (generated cover)",
-    "credit": "OpenPortsGames"
-  }
+  cover: {
+    src: "https://openportsgames.com/covers/boxart/castlevania-grimoire-of-souls-recomp.png",
+    alt: "Castlevania: Grimoire of Souls (Macintosh box art)",
+    credit: "Wikipedia",
+  },
 };
