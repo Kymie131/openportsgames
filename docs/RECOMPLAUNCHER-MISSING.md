@@ -131,6 +131,11 @@ were verified before import:
 - Marvel vs. Capcom 2 - Recomp (`marvel-vs-capcom-2-recomp`)
 - Maximo: Ghosts to Glory - Recomp (`maximo-ghosts-to-glory-recomp`)
 - Metal Gear Solid: Portable Ops - Native (`mgs-portable-ops-native`)
+- NBA Jam Tournament Edition - Recomp (`nba-jam-te-recomp`)
+- Yoshi's Island - Recomp (`yoshis-island-recomp`)
+- Xenoblade Chronicles: Definitive Edition - PC (`xenoblade-chronicles-de`)
+- Yo-kai Watch - Recomp (`yokai-watch-recomp`)
+- Resogun - Recomp (`resogun-recomp`)
 
 ## Candidates
 

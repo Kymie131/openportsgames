@@ -2741,6 +2741,11 @@ import { marioLuigiBrothershipRecomp } from "./mario-luigi-brothership-recomp";
 import { marvelVsCapcom2Recomp } from "./marvel-vs-capcom-2-recomp";
 import { maximoGhostsToGloryRecomp } from "./maximo-ghosts-to-glory-recomp";
 import { mgsPortableOpsNative } from "./mgs-portable-ops-native";
+import { nbaJamTeRecomp } from "./nba-jam-te-recomp";
+import { yoshisIslandRecomp } from "./yoshis-island-recomp";
+import { xenobladeChroniclesDe } from "./xenoblade-chronicles-de";
+import { yokaiWatchRecomp } from "./yokai-watch-recomp";
+import { resogunRecomp } from "./resogun-recomp";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5481,4 +5486,9 @@ export const portCases: Port[] = [
   marvelVsCapcom2Recomp,
   maximoGhostsToGloryRecomp,
   mgsPortableOpsNative,
+  nbaJamTeRecomp,
+  yoshisIslandRecomp,
+  xenobladeChroniclesDe,
+  yokaiWatchRecomp,
+  resogunRecomp,
 ];

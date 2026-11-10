@@ -2740,4 +2740,9 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "marvel-vs-capcom-2-recomp": ["Arcade"],
   "maximo-ghosts-to-glory-recomp": ["PlayStation 2"],
   "mgs-portable-ops-native": ["PlayStation Portable"],
+  "nba-jam-te-recomp": ["Arcade"],
+  "yoshis-island-recomp": ["Super Nintendo"],
+  "xenoblade-chronicles-de": ["Nintendo Switch"],
+  "yokai-watch-recomp": ["Nintendo 3DS"],
+  "resogun-recomp": ["PlayStation 4"],
 };
