@@ -44,8 +44,17 @@ function Avatar({ name, image }: { name: string; image?: string | null }) {
   return <UserAvatar name={name} image={image} className="size-6" />;
 }
 
-/** Sign-in dropdown when logged out; account menu with logout when logged in. */
-export function LoginButton({ className }: { className?: string }) {
+/**
+ * Sign-in dropdown when logged out; account menu with logout when logged in.
+ * `showLabel` keeps the text visible on mobile for contextual CTAs.
+ */
+export function LoginButton({
+  className,
+  showLabel = false,
+}: {
+  className?: string;
+  showLabel?: boolean;
+}) {
   const t = useT();
   const { user, isPending } = useSessionUser();
   const [busy, setBusy] = useState(false);
@@ -99,6 +108,7 @@ export function LoginButton({ className }: { className?: string }) {
   const triggerClass = cn(
     "inline-flex h-9 items-center gap-1.5 rounded-md border border-border bg-surface px-2 text-sm text-foreground transition-colors duration-150 hover:bg-surface-2",
     "outline-none data-[state=open]:bg-surface-2",
+    showLabel && "px-3",
     className,
   );
 
@@ -229,10 +239,13 @@ export function LoginButton({ className }: { className?: string }) {
             ) : (
               <LogIn className="size-4" aria-hidden="true" />
             )}
-            <span className="hidden max-w-28 truncate sm:inline">
+            <span className={cn("max-w-28 truncate", showLabel ? "inline" : "hidden sm:inline")}>
               {user ? user.name : t.community.login.signIn}
             </span>
-            <ChevronDown className="hidden size-3.5 text-muted sm:block" aria-hidden="true" />
+            <ChevronDown
+              className={cn("size-3.5 text-muted", showLabel ? "block" : "hidden sm:block")}
+              aria-hidden="true"
+            />
           </button>
         </DropdownMenu.Trigger>
         <DropdownMenu.Portal>

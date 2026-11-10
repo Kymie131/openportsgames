@@ -637,14 +637,14 @@ export function AdminDashboard() {
         {state === "loading" && (
           <p className="mt-8 inline-flex items-center gap-2 text-sm text-muted">
             <LoaderCircle className="size-4 animate-spin" aria-hidden="true" />
-            {t.title}⬦
+            {t.title}…
           </p>
         )}
 
         {state === "anon" && (
           <div className="mt-8 flex flex-col items-start gap-3">
             <p className="text-sm text-muted">{t.anonymous}</p>
-            <LoginButton />
+            <LoginButton showLabel />
           </div>
         )}
 
@@ -665,7 +665,7 @@ export function AdminDashboard() {
 
         {state === "ready" && (
           <div className="mt-6 flex flex-col gap-5">
-            <div className="flex gap-2" role="tablist" aria-label={t.title}>
+            <div className="flex flex-wrap gap-2" role="tablist" aria-label={t.title}>
               {(["reports", "comments", "users", "audit"] as const).map((value) => (
                 <button
                   key={value}

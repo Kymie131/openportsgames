@@ -153,7 +153,7 @@ export function ExploreClient() {
               {t.explore[key]}
             </button>
           ))}
-          <span className="mx-1 h-4 w-px bg-border" aria-hidden="true" />
+          <span className="mx-1 hidden h-4 w-px bg-border sm:block" aria-hidden="true" />
           <select
             value={type}
             onChange={(event) => {

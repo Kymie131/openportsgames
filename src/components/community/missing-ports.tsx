@@ -51,6 +51,7 @@ export function MissingPorts() {
   const [submitting, setSubmitting] = useState(false);
   const [actionError, setActionError] = useState<string | null>(null);
   const [notice, setNotice] = useState<string | null>(null);
+  const [reloadKey, setReloadKey] = useState(0);
 
   const requestKey = `missing|${userId ?? ""}`;
 
@@ -68,7 +69,7 @@ export function MissingPorts() {
     return () => {
       active = false;
     };
-  }, [requestKey]);
+  }, [requestKey, reloadKey]);
 
   const loading = feed.key !== requestKey;
   const status = loading ? "loading" : feed.status;
@@ -245,9 +246,22 @@ export function MissingPorts() {
           {t.community.missingPorts.loading}
         </p>
       ) : status === "error" ? (
-        <p role="alert" className="text-sm text-danger">
-          {t.community.missingPorts.loadError}
-        </p>
+        <div className="flex flex-col items-start gap-3 rounded-xl border border-border bg-surface p-4">
+          <p role="status" className="text-sm text-muted">
+            {t.community.missingPorts.loadError}
+          </p>
+          <button
+            type="button"
+            onClick={() => {
+              setActionError(null);
+              setFeed({ key: "", status: "loading", items: [], cursor: null });
+              setReloadKey((current) => current + 1);
+            }}
+            className="rounded-md border border-border px-3 py-2 text-sm transition-colors hover:bg-surface-2"
+          >
+            {t.community.missingPorts.retry}
+          </button>
+        </div>
       ) : items.length === 0 ? (
         <p className="text-sm text-muted">{t.community.missingPorts.empty}</p>
       ) : (

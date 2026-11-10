@@ -18,6 +18,8 @@ export function ConsoleMark({
   className?: string;
 }) {
   const box = size === "lg" ? "size-16" : size === "md" ? "size-12" : "size-8";
+  // Wordmark logos need a wider frame than square monograms.
+  const logoBox = size === "lg" ? "h-16 w-20" : size === "md" ? "h-12 w-16" : "h-8 w-10";
   if (logo) {
     return (
       // eslint-disable-next-line @next/next/no-img-element
@@ -26,7 +28,11 @@ export function ConsoleMark({
         alt=""
         aria-hidden="true"
         decoding="async"
-        className={cn(box, "rounded-md bg-white/90 object-contain p-1", className)}
+        className={cn(
+          logoBox,
+          "shrink-0 rounded-md bg-white object-contain p-1 ring-1 ring-border",
+          className,
+        )}
       />
     );
   }

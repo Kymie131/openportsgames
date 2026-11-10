@@ -99,7 +99,7 @@ export function FavoritesList({ ports }: { ports: FavoritePortSummary[] }) {
       {!isPending && !userId && (
         <div className="flex flex-col items-start gap-3 rounded-xl border border-border bg-surface p-5">
           <p className="text-sm text-muted">{t.community.favorites.signInToSave}</p>
-          <LoginButton />
+          <LoginButton showLabel />
         </div>
       )}
 
