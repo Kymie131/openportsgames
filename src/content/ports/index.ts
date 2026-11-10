@@ -2779,6 +2779,18 @@ import { lostOdysseySteprantAndroid } from "./lost-odyssey-steprant-android";
 import { baldisBasicsPlusAndroid } from "./baldis-basics-plus-android";
 import { ocarinaRetuned } from "./ocarina-retuned";
 import { ocarinaOfTimeRecomp } from "./ocarina-of-time-recomp";
+import { webGtaIii } from "./web-gta-iii";
+import { webCounterStrike16 } from "./web-counter-strike-16";
+import { webHalfLife } from "./web-half-life";
+import { webTeamFortress2 } from "./web-team-fortress-2";
+import { webMorrowind } from "./web-morrowind";
+import { webSuperMonkeyBall } from "./web-super-monkey-ball";
+import { webGtaChinatownWars } from "./web-gta-chinatown-wars";
+import { webBurnout3 } from "./web-burnout-3";
+import { webTekken5DarkResurrection } from "./web-tekken-5-dark-resurrection";
+import { webWweHereComesThePain } from "./web-wwe-here-comes-the-pain";
+import { webMidnightClub3 } from "./web-midnight-club-3";
+import { spyroOpenPete } from "./spyro-openpete";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5557,4 +5569,16 @@ export const portCases: Port[] = [
   baldisBasicsPlusAndroid,
   ocarinaRetuned,
   ocarinaOfTimeRecomp,
+  webGtaIii,
+  webCounterStrike16,
+  webHalfLife,
+  webTeamFortress2,
+  webMorrowind,
+  webSuperMonkeyBall,
+  webGtaChinatownWars,
+  webBurnout3,
+  webTekken5DarkResurrection,
+  webWweHereComesThePain,
+  webMidnightClub3,
+  spyroOpenPete,
 ];

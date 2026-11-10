@@ -1,0 +1,200 @@
+# INXANITY Labs browser games
+
+Source: [INXANITY Labs /games](https://www.inxanitylabs.com/games), verified 2026-11-10.
+
+INXANITY is a browser-games directory: it links to ports hosted by their creators and does not provide downloads. The catalog added selected browser ports as web entries with the INXANITY page as the official redirect; the rest remain discovery backlog.
+
+Games listed: **176**; browser entries added: **11**.
+
+## Added browser ports
+
+- **Counter-Strike 1.6** - https://www.inxanitylabs.com/games/counter-strike
+- **GTA III** - https://www.inxanitylabs.com/games/gta-3
+- **WWE SmackDown! Here Comes the Pain** - https://www.inxanitylabs.com/games/wwe-here-comes-the-pain
+- **Burnout 3: Takedown** - https://www.inxanitylabs.com/games/burnout-3
+- **Midnight Club 3: DUB Edition** - https://www.inxanitylabs.com/games/midnight-club-3
+- **Tekken 5: Dark Resurrection** - https://www.inxanitylabs.com/games/tekken-5-dark-resurrection
+- **The Elder Scrolls III: Morrowind** - https://www.inxanitylabs.com/games/morrowind
+- **Super Monkey Ball** - https://www.inxanitylabs.com/games/super-monkey-ball
+- **GTA: Chinatown Wars** - https://www.inxanitylabs.com/games/gta-chinatown-wars
+- **Team Fortress 2** - https://www.inxanitylabs.com/games/team-fortress-2
+- **Half-Life** - https://www.inxanitylabs.com/games/half-life
+
+## Full list
+
+- GTA V - `gta-v`
+- Counter-Strike 1.6 - `counter-strike`
+- LEGO Island - `lego-island`
+- Pokémon Redstone - `pokemon-redstone`
+- Taipei Rush - `taipei-rush`
+- Redcoats - `redcoats`
+- Salty Seas - `salty-seas`
+- Park Baron - `park-baron`
+- SandStorm - `sandstorm`
+- Seedbed - `seedbed`
+- GTA Vice City - `gta-vice-city`
+- GTA III - `gta-3`
+- Halo: Combat Evolved - `halo-ce`
+- Cyberpunk 2077 - `cyberpunk-2077`
+- Five Nights at Freddy's - `fnaf`
+- Cricket 07 - `cricket-07`
+- WWE SmackDown! Here Comes the Pain - `wwe-here-comes-the-pain`
+- Mortal Kombat: Shaolin Monks - `mk-shaolin-monks`
+- Burnout 3: Takedown - `burnout-3`
+- Hollow Knight - `hollow-knight`
+- Worms: Open Warfare 2 - `worms-open-warfare-2`
+- Guitar Hero III - `guitar-hero-3`
+- Cuphead Boss Fight: Wally Warbles (fan game) - `cuphead-wally-warbles`
+- Need for Speed: Most Wanted - `nfs-most-wanted`
+- Midnight Club 3: DUB Edition - `midnight-club-3`
+- WWE SmackDown vs. Raw 2011 - `wwe-svr-2011`
+- PES 2014 - `pes-2014`
+- FIFA 14 - `fifa-14`
+- Need for Speed: Underground 2 - `need-for-speed-underground-2`
+- Tekken 5: Dark Resurrection - `tekken-5-dark-resurrection`
+- PES 2011 - `pes-2011`
+- World at War Zombies - `cod-waw-zombies`
+- Pokémon (18 games) - `pokemon-red-to-black`
+- Majesty Gold HD - `majesty-gold-hd`
+- Portal - `portal`
+- No One Lives Forever - `no-one-lives-forever`
+- The Elder Scrolls III: Morrowind - `morrowind`
+- Super Monkey Ball - `super-monkey-ball`
+- Quake (Episode 1) - `quake`
+- Crimsonland - `crimsonland`
+- Snail Mail - `snail-mail`
+- Harvest: Massive Encounter - `harvest-massive-encounter`
+- Dragon Ball Z: Budokai Tenkaichi 3 - `dragon-ball-bt3`
+- GTA: Chinatown Wars - `gta-chinatown-wars`
+- City Chase: Escape Police - `city-chase`
+- Mario Kart 8 Deluxe - `mario-kart-8`
+- Mario Kart 64 - `mario-kart-64`
+- Super Mario Galaxy - `super-mario-galaxy`
+- Team Fortress 2 - `team-fortress-2`
+- The Binding of Isaac: Repentance+ - `binding-of-isaac`
+- Fortnite OG - `fortnite-og`
+- Tweetcraft - `tweetcraft`
+- Halo CE Mobile - `halo-ce-mobile`
+- Super Mario Zombies - `super-mario-zombies`
+- DOOM II Multiplayer - `doom`
+- Quake III Arena - `quake-3`
+- Quake II - `quake-2`
+- QuakeWorld - `quakeworld`
+- Return to Castle Wolfenstein - `rtcw`
+- Urban Terror - `urban-terror`
+- Moon (Zombies) - `moon-zombies`
+- Kino der Toten - `kino-der-toten`
+- Cheese Cube (Zombies) - `cheese-cube`
+- Black Ops II (Vibe Slops II) - `black-ops-2`
+- Modern Warfare 2 - `modern-warfare-2`
+- Diablo - `diablo`
+- Half-Life - `half-life`
+- Black Ops Zombies - `bo1-zombies`
+- skate. 3 - `skate-3`
+- The Simpsons: Hit & Run - `simpsons-hit-and-run`
+- Minecraft 1.8.8 - `minecraft`
+- Crash Bash Online - `crash-bash`
+- PES 6 - `pes-6`
+- RuneScape Classic - `runescape-classic`
+- Surfd - `surfd`
+- Cuphead - `cuphead`
+- Hotline Miami - `hotline-miami`
+- Stardew Valley - `stardew-valley`
+- Among Us - `among-us`
+- Lethal Company - `lethal-company`
+- PEAK - `peak`
+- RimWorld - `rimworld`
+- Inscryption - `inscryption`
+- Bendy and the Ink Machine - `bendy`
+- MiSide - `miside`
+- OneShot: World Machine Edition - `oneshot`
+- Helltaker - `helltaker`
+- FEZ - `fez`
+- Brotato Paws n' Claws - `brotato`
+- Ravenfield - `ravenfield`
+- Clustertruck - `clustertruck`
+- Plague Inc - `plague-inc`
+- Lobotomy Corporation - `lobotomy-corporation`
+- Trombone Champ - `trombone-champ`
+- Granny 3 - `granny-3`
+- How to Fish - `how-to-fish`
+- SCP: Containment Breach - `scp-containment-breach`
+- Baldi's Basics Birthday Bash - `baldis-birthday-bash`
+- Boil Noodles at Night - `boil-noodles-at-night`
+- Cheese Rolling - `cheese-rolling`
+- Dice A Million - `dice-a-million`
+- The Man From The Window 2 - `man-from-the-window-2`
+- Beatblock - `beatblock`
+- Happy Room - `happy-room`
+- Ages of Conflict - `ages-of-conflict`
+- while True: learn() - `while-true-learn`
+- Crashout Crew - `crashout-crew`
+- The Message From Deep Space - `message-from-deep-space`
+- Dude, Stop - `dude-stop`
+- Hill Climb Racing - `hill-climb-racing`
+- Toasterball - `toasterball`
+- Flash Games (878) - `flash-games`
+- Arcade Classics (227) - `arcade-classics`
+- Tony Hawk's Pro Skater 3 - `tony-hawks-pro-skater-3`
+- Spider-Man 2 - `spider-man-2`
+- PES 2012 - `pes-2012`
+- Crash Nitro Kart - `crash-nitro-kart`
+- UFC Throwdown - `ufc-throwdown`
+- Naruto Shippuden: Ultimate Ninja 5 - `naruto-shippuden-ultimate-ninja-5`
+- WWE SmackDown vs. Raw 2010 - `wwe-smackdown-vs-raw-2010`
+- WWE SmackDown! vs. RAW - `wwe-smackdown-vs-raw`
+- NBA Street V3 - `nba-street-v3`
+- Virtua Tennis 2 - `virtua-tennis-2`
+- Resident Evil 4 - `resident-evil-4`
+- Tekken 4 - `tekken-4`
+- Street Fighter III: 3rd Strike - `street-fighter-iii-3rd-strike`
+- NFL Street - `nfl-street`
+- SSX 3 - `ssx-3`
+- F1 06 - `f1-06`
+- Tony Hawk's Underground 2 - `tony-hawks-underground-2`
+- Downhill Domination - `downhill-domination`
+- Dragon Ball Z Budokai Tenkaichi 2 - `dragon-ball-z-budokai-tenkaichi-2`
+- Dragon Ball Z Budokai 3 - `dragon-ball-z-budokai-3`
+- Marvel vs. Capcom 2 - `marvel-vs-capcom-2`
+- Street Fighter Anniversary Collection - `street-fighter-anniversary-collection`
+- FIFA Street - `fifa-street`
+- FIFA 11 - `fifa-11`
+- FIFA 12 - `fifa-12`
+- FIFA 13 - `fifa-13`
+- Battle Stadium D.O.N - `battle-stadium-don`
+- Gran Turismo 4 - `gran-turismo-4`
+- FIFA Street 2 - `fifa-street-2`
+- Crisis Core: Final Fantasy VII - `crisis-core-final-fantasy-vii`
+- God of War: Ghost of Sparta - `god-of-war-ghost-of-sparta`
+- Terraria - `terraria`
+- Resident Evil Outbreak: File #1 + #2 - `resident-evil-outbreak`
+- Mortal Kombat: Armageddon (Mortal Kombardo) - `mortal-kombat-armageddon`
+- POSTAL 2 - `postal-2`
+- Airtime - `airtime`
+- GTA Paris Online (beta) - `gta-paris-online`
+- Angry Birds 2 - `angry-birds-2`
+- GTA 2 - `gta-2`
+- Meat Boy - `meat-boy`
+- Tomb Raider (OpenLara) - `tomb-raider`
+- Super Mario Kart (fan remake) - `super-mario-kart`
+- LEGO Racers (Step On It) - `lego-racers`
+- Mortal Kombat 9 (Mortal Kombardo 9) - `mortal-kombat-9`
+- Dragon Ball Z Budokai - `dragon-ball-z-budokai`
+- Dragon Ball Z Budokai 2 - `dragon-ball-z-budokai-2`
+- NFL Street 2 (NIL Street) - `nfl-street-2`
+- Sonic Mania Plus - `sonic-mania-plus`
+- Spore Origins (fan remake) - `spore-origins`
+- Super Mario Bros. - `super-mario-bros`
+- Unreal - `unreal`
+- Unreal Tournament - `unreal-tournament`
+- Unreal Tournament 2004 - `unreal-tournament-2004`
+- Unreal Championship 2 - `unreal-championship-2`
+- Baldur's Gate II: Shadows of Amn - `baldurs-gate-2`
+- CloverPit - `clover-pit`
+- FlatOut 2 - `flatout-2`
+- Star Wars Jedi Knight II: Jedi Outcast (demo) - `star-wars-jedi-outcast`
+- Need for Speed: Underground 2 Online - `need-for-speed-underground-2-online`
+- Warcraft II: Tides of Darkness - `warcraft-2`
+- Pokémon Red & Blue Online - `pokemon-red-blue-online`
+- World of Warcraft Classic (Keldurn) - `wow-classic-keldurn`
+- Naruto Shippuden: Ultimate Ninja Impact - `naruto-shippuden-ultimate-ninja-impact`
