@@ -2777,6 +2777,8 @@ import { demonsSoulsSoulbrandt } from "./demons-souls-soulbrandt";
 import { deusExPortExMachina } from "./deus-ex-port-ex-machina";
 import { lostOdysseySteprantAndroid } from "./lost-odyssey-steprant-android";
 import { baldisBasicsPlusAndroid } from "./baldis-basics-plus-android";
+import { ocarinaRetuned } from "./ocarina-retuned";
+import { ocarinaOfTimeRecomp } from "./ocarina-of-time-recomp";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5553,4 +5555,6 @@ export const portCases: Port[] = [
   deusExPortExMachina,
   lostOdysseySteprantAndroid,
   baldisBasicsPlusAndroid,
+  ocarinaRetuned,
+  ocarinaOfTimeRecomp,
 ];

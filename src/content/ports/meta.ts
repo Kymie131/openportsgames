@@ -2776,4 +2776,6 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "deus-ex-port-ex-machina": ["Windows"],
   "lost-odyssey-steprant-android": ["Xbox 360"],
   "baldis-basics-plus-android": ["Windows"],
+  "ocarina-retuned": ["Nintendo 3DS"],
+  "ocarina-of-time-recomp": ["Nintendo 64"],
 };

@@ -165,6 +165,8 @@ were verified before import:
 - Deception IV: The Nightmare Princess - Recomp (`deception-iv-nightmare-princess-recomp`)
 - Demon's Souls - Soulbrandt (`demons-souls-soulbrandt`)
 - Deus Ex - Port Ex Machina (`deus-ex-port-ex-machina`)
+- Ocarina of Time 3D - Ocarina ReTuned (`ocarina-retuned`)
+- Ocarina of Time - Ocarina of Time Recomp (`ocarina-of-time-recomp`)
 
 ## Candidates
 
