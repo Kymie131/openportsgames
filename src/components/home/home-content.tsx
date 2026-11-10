@@ -107,11 +107,11 @@ export function HomeContent({
           <div className="space-y-3">
             <h1
               id="home-hero"
-              className="text-5xl font-semibold leading-[0.95] tracking-[-0.055em] text-foreground sm:text-6xl lg:text-7xl"
+              className="text-4xl font-semibold leading-[0.95] tracking-[-0.055em] text-foreground sm:text-6xl lg:text-7xl"
             >
               OpenPortsGames
             </h1>
-            <p className="font-serif text-3xl italic leading-[1.05] text-accent sm:text-4xl">
+            <p className="font-serif text-2xl italic leading-[1.05] text-accent sm:text-4xl">
               {t.home.heroTaglineA}{" "}
               <span className="text-foreground">{t.home.heroTaglineB}</span>
             </p>

@@ -105,7 +105,7 @@ export function LatestShowcase({
         {entries.length === 0 ? (
           <p className="mt-6 text-sm text-muted">{t.home.showcaseEmpty}</p>
         ) : (
-          <div className="mt-6 grid gap-6 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)]">
+          <div className="mt-6 grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)]">
             <LeadCard entry={entries[0]} />
             <ul className="flex flex-col justify-center divide-y divide-border">
               {entries.slice(1).map((entry, index) => (
