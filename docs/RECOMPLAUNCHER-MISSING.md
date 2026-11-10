@@ -156,6 +156,15 @@ were verified before import:
 - The Legend of Spyro: A New Beginning - PC (`legend-of-spyro-new-beginning-pc`)
 - The Nightmare Before Christmas: Oogie's Revenge - Recomp (`nightmare-before-christmas-oogie-recomp`)
 - Virtua NBA - Recomp (`virtua-nba-recomp`)
+- Akuji the Heartless - Recomp (`akuji-the-heartless-recomp`)
+- Atlantis: The Lost Tales - Native (`atlantis-the-lost-tales-native`)
+- Baroque - Recomp (`baroque-recomp`)
+- Big Red Racing - Port (`big-red-racing-port`)
+- Bleach: Soul Resurreccion - Recomp (`bleach-soul-resurreccion-recomp`)
+- Dead or Alive 4 - Recomp (`dead-or-alive-4-recomp`)
+- Deception IV: The Nightmare Princess - Recomp (`deception-iv-nightmare-princess-recomp`)
+- Demon's Souls - Soulbrandt (`demons-souls-soulbrandt`)
+- Deus Ex - Port Ex Machina (`deus-ex-port-ex-machina`)
 
 ## Candidates
 

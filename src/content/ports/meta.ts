@@ -2765,4 +2765,13 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "legend-of-spyro-new-beginning-pc": ["PlayStation 2"],
   "nightmare-before-christmas-oogie-recomp": ["PlayStation 2"],
   "virtua-nba-recomp": ["Arcade"],
+  "akuji-the-heartless-recomp": ["PlayStation"],
+  "atlantis-the-lost-tales-native": ["MS-DOS"],
+  "baroque-recomp": ["Sega Saturn"],
+  "big-red-racing-port": ["MS-DOS"],
+  "bleach-soul-resurreccion-recomp": ["PlayStation 3"],
+  "dead-or-alive-4-recomp": ["Xbox 360"],
+  "deception-iv-nightmare-princess-recomp": ["PlayStation 3"],
+  "demons-souls-soulbrandt": ["PlayStation 3"],
+  "deus-ex-port-ex-machina": ["Windows"],
 };

@@ -2766,6 +2766,15 @@ import { fancyPantsAdventuresRecomp } from "./fancy-pants-adventures-recomp";
 import { legendOfSpyroNewBeginningPc } from "./legend-of-spyro-new-beginning-pc";
 import { nightmareBeforeChristmasOogieRecomp } from "./nightmare-before-christmas-oogie-recomp";
 import { virtuaNbaRecomp } from "./virtua-nba-recomp";
+import { akujiTheHeartlessRecomp } from "./akuji-the-heartless-recomp";
+import { atlantisTheLostTalesNative } from "./atlantis-the-lost-tales-native";
+import { baroqueRecomp } from "./baroque-recomp";
+import { bigRedRacingPort } from "./big-red-racing-port";
+import { bleachSoulResurreccionRecomp } from "./bleach-soul-resurreccion-recomp";
+import { deadOrAlive4Recomp } from "./dead-or-alive-4-recomp";
+import { deceptionIvNightmarePrincessRecomp } from "./deception-iv-nightmare-princess-recomp";
+import { demonsSoulsSoulbrandt } from "./demons-souls-soulbrandt";
+import { deusExPortExMachina } from "./deus-ex-port-ex-machina";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5531,4 +5540,13 @@ export const portCases: Port[] = [
   legendOfSpyroNewBeginningPc,
   nightmareBeforeChristmasOogieRecomp,
   virtuaNbaRecomp,
+  akujiTheHeartlessRecomp,
+  atlantisTheLostTalesNative,
+  baroqueRecomp,
+  bigRedRacingPort,
+  bleachSoulResurreccionRecomp,
+  deadOrAlive4Recomp,
+  deceptionIvNightmarePrincessRecomp,
+  demonsSoulsSoulbrandt,
+  deusExPortExMachina,
 ];
