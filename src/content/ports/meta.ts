@@ -2759,4 +2759,10 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "street-fighter-iii-3rd-strike-oe": ["Xbox 360"],
   "test-drive-eve-of-destruction-recomp": ["PlayStation 2"],
   "thps2x-recompiled": ["Xbox"],
+  "spikeout-final-edition-recomp": ["Arcade"],
+  "street-rod-legacy": ["Commodore 64"],
+  "fancy-pants-adventures-recomp": ["Other"],
+  "legend-of-spyro-new-beginning-pc": ["PlayStation 2"],
+  "nightmare-before-christmas-oogie-recomp": ["PlayStation 2"],
+  "virtua-nba-recomp": ["Arcade"],
 };

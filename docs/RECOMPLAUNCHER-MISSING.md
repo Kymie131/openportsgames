@@ -150,6 +150,12 @@ were verified before import:
 - Street Fighter III: 3rd Strike OE - PC (`street-fighter-iii-3rd-strike-oe`)
 - Test Drive: Eve of Destruction - Recomp (`test-drive-eve-of-destruction-recomp`)
 - Tony Hawk's Pro Skater 2x - Recompiled (`thps2x-recompiled`)
+- SpikeOut: Final Edition - Recomp (`spikeout-final-edition-recomp`)
+- Street Rod / Street Rod 2 - Legacy (`street-rod-legacy`)
+- The Fancy Pants Adventures - Recomp (`fancy-pants-adventures-recomp`)
+- The Legend of Spyro: A New Beginning - PC (`legend-of-spyro-new-beginning-pc`)
+- The Nightmare Before Christmas: Oogie's Revenge - Recomp (`nightmare-before-christmas-oogie-recomp`)
+- Virtua NBA - Recomp (`virtua-nba-recomp`)
 
 ## Candidates
 

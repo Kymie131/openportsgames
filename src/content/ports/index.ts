@@ -2760,6 +2760,12 @@ import { streetFighterAlpha3MaxRecomp } from "./street-fighter-alpha-3-max-recom
 import { streetFighterIii3rdStrikeOe } from "./street-fighter-iii-3rd-strike-oe";
 import { testDriveEveOfDestructionRecomp } from "./test-drive-eve-of-destruction-recomp";
 import { thps2xRecompiled } from "./thps2x-recompiled";
+import { spikeoutFinalEditionRecomp } from "./spikeout-final-edition-recomp";
+import { streetRodLegacy } from "./street-rod-legacy";
+import { fancyPantsAdventuresRecomp } from "./fancy-pants-adventures-recomp";
+import { legendOfSpyroNewBeginningPc } from "./legend-of-spyro-new-beginning-pc";
+import { nightmareBeforeChristmasOogieRecomp } from "./nightmare-before-christmas-oogie-recomp";
+import { virtuaNbaRecomp } from "./virtua-nba-recomp";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5519,4 +5525,10 @@ export const portCases: Port[] = [
   streetFighterIii3rdStrikeOe,
   testDriveEveOfDestructionRecomp,
   thps2xRecompiled,
+  spikeoutFinalEditionRecomp,
+  streetRodLegacy,
+  fancyPantsAdventuresRecomp,
+  legendOfSpyroNewBeginningPc,
+  nightmareBeforeChristmasOogieRecomp,
+  virtuaNbaRecomp,
 ];
