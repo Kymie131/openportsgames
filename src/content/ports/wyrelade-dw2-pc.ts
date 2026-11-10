@@ -20,7 +20,7 @@ export const wyreladeDw2Pc: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Unknown"],
+  originalSystems: ["PlayStation"],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Digimon%20World%202%20(USA).png",
     alt: "Digimon World 2 (box art)",

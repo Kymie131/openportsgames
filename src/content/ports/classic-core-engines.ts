@@ -20,7 +20,7 @@ export const classicCoreEngines: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
+  originalSystems: ["Xbox 360"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg",
     alt: "Perfect Dark (box art)",

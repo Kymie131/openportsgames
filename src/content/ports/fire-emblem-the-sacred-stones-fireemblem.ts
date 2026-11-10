@@ -19,7 +19,7 @@ export const FireEmblemTheSacredStonesFireemblem: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
+  originalSystems: ["Game Boy Advance"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG",
     alt: "FIre Emblem: The Sacred Stones (box art)",

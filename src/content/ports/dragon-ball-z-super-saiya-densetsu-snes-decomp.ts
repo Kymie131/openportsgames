@@ -19,7 +19,7 @@ export const dragonBallZSuperSaiyaDensetsuSnesDecomp: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
+  originalSystems: ["Super Nintendo"],
   summary: "Dragon Ball Z: Super Saiya Densetsu is a role-playing game published by Bandai in 1992.",
   summaryEs: "Dragon Ball Z: Super Saiya Densetsu es un videojuego de rol publicado por Bandai en 1992.",
   cover: {

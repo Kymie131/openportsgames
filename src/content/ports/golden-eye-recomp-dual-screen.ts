@@ -19,7 +19,7 @@ export const goldenEyeRecompDualScreen: Port = {
   license: { spdx: "Unlicense" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
+  originalSystems: ["Xbox 360"],
   summary: "GoldenEye 007: Reloaded is a shooter game.",
   summaryEs: "GoldenEye 007: Reloaded es un videojuego de disparos.",
   cover: {

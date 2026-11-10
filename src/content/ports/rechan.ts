@@ -19,7 +19,7 @@ export const rechan: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
+  originalSystems: ["PlayStation"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e6/JackieChanStuntmaster.jpg",
     alt: "Jackie Chan: Stuntmaster (box art)",

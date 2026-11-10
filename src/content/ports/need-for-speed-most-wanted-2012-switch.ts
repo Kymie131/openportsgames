@@ -19,7 +19,7 @@ export const needForSpeedMostWanted2012Switch: Port = {
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Other"],
+  originalSystems: ["Xbox 360"],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1262560/header.jpg",
     alt: "Need for Speed: Most Wanted (cover art)",

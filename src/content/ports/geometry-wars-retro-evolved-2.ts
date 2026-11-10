@@ -19,7 +19,7 @@ export const GeometryWarsRetroEvolved2: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
+  originalSystems: ["Xbox 360"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/4b/Geometrywars2cover.jpg",
     alt: "Geometry Wars: Retro Evolved 2 (cover)",

@@ -20,7 +20,7 @@ export const nikolaygorbGoldeneye007reloadedrecomp: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Unknown"],
+  originalSystems: ["Xbox 360"],
   summary: "GoldenEye 007: Reloaded is a shooter game.",
   summaryEs: "GoldenEye 007: Reloaded es un videojuego de disparos.",
   cover: {

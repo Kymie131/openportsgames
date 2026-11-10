@@ -19,7 +19,7 @@ export const dora643: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
+  originalSystems: ["Nintendo 64"],
   summary: "Doraemon 3: Nobita no Machi SOS! is a action-adventure game published by Epoch, released in 2000.",
   summaryEs: "Doraemon 3: Nobita no Machi SOS! es un videojuego de acci�n y aventura publicado por Epoch, lanzado en 2000.",
   summaryGenerated: true,

@@ -21,7 +21,7 @@ export const rumbleminzeSuperSuperDodgeball: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Unknown"],
+  originalSystems: ["Nintendo Entertainment System"],
   summary: "Super Dodge Ball is a 1987 dodgeball video game developed and published by Technōs Japan for arcades. It is the second installment of the Kunio-kun series, with this connection not being present in international versions. It was released in North America by Leland Corporation. It was followed by a Nintendo Entertainment System version with various modifications; a remake for SNK's Neo Geo arcade system was released in 1996 as Technōs Japan's final game.",
   summaryEs: "Super Dodge Ball es un videojuego de deportes publicado por Technōs Japan en 1990.",
   cover: {

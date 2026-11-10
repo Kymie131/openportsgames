@@ -20,7 +20,7 @@ export const hossezFifaWorldCup2014Recompiled: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Unknown"],
+  originalSystems: ["Xbox 360"],
   summary: "2014 FIFA World Cup Brazil is the official video game for the 2014 FIFA World Cup, published by EA Sports for PlayStation 3 and Xbox 360. It was released on 15 April 2014 in North America, and 17 April 2014 in Europe, as was the case with the 2010 edition.",
   summaryEs: "2014 FIFA World Cup es el videojuego oficial de la Copa Mundial de Fútbol de 2014, disputada en Brasil. Es el octavo juego con licencia oficial de la FIFA y el quinto que apareció bajo la marca EA Sports. Está dentro de la serie FIFA World Cup. Fue desarrollado por EA Canada para PlayStation 3 y Xbox 360. Se había anunciado en febrero de 2014 y salió a la venta el 15 de abril en América del Norte, el 17 de abril en Europa y Australia, y el 24 de abril en Japón.",
   cover: {

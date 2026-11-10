@@ -20,7 +20,7 @@ export const lancesweatpantsStrikersQuestMr: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Unknown"],
+  originalSystems: ["Nintendo GameCube"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b3/Supermariostrikersbox.jpg",
     alt: "Super Mario Strikers (box art)",

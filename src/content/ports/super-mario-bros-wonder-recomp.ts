@@ -19,7 +19,7 @@ export const superMarioBrosWonderRecomp: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
+  originalSystems: ["Nintendo Switch"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a3/Mariowonder.png",
     alt: "Super Mario Bros. Wonder (box art)",

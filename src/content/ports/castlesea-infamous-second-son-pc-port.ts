@@ -21,7 +21,7 @@ export const castleseaInfamousSecondSonPcPort: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Unknown"],
+  originalSystems: ["PlayStation 4"],
   summary: "Infamous Second Son is a 2014 action-adventure video game developed by Sucker Punch Productions and published by Sony Computer Entertainment for the PlayStation 4. The third installment in the Infamous series, it serves as a standalone sequel to 2011's Infamous 2. The player-controlled protagonist possesses superpower abilities that players use in combat and when traveling across the city. The story follows protagonist Delsin Rowe fighting the Department of Unified Protection (D.U.P.) in a fictionalized Seattle.",
   summaryEs: "Infamous Second Son es un videojuego de acción-aventura hack & slash de mundo abierto desarrollado por Sucker Punch Productions y publicado por Sony Computer Entertainment. La secuela independiente de inFAMOUS 2 de 2011 y la tercera entrega de la serie inFAMOUS, el juego fue lanzado para PlayStation 4 el 21 de marzo de 2014. El protagonista controlado por el jugador posee habilidades de superpoderes que los jugadores usan en combate y cuando viajan por la ciudad.",
   notes: "inFAMOUS Second Son: source port by Castlesea for Windows. Bring your own copy of the game.",

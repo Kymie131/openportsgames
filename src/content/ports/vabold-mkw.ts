@@ -21,7 +21,7 @@ export const vaboldMkw: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Unknown"],
+  originalSystems: ["Wii"],
   summary: "Mario Kart Wii is a 2008 kart racing game developed and published by Nintendo for the Wii. It is the sixth installment in the Mario Kart series, and was released worldwide in April 2008. In Mario Kart Wii, the player takes control of one of 24 Mario series characters, who participate in races on 32 race tracks based on locations from the series while using specialized items to hinder their opponents or to gain advantages.",
   summaryEs: "Mario Kart Wii es un videojuego de carreras de karts desarrollado y distribuido por Nintendo para la Nintendo Wii. Es la sexta entrega de la serie Mario Kart y se lanzó en abril de 2008. Al igual que sus entregas anteriores, Mario Kart Wii incorpora personajes jugables de la serie Mario, que participan en carreras en 32 pistas diferentes utilizando elementos especializados para obstaculizar a los oponentes u obtener ventajas. El juego presenta múltiples modos de juego para un jugador y multijugador, incluida la pantalla dividida de dos a cuatro personas.",
   notes: "Mario Kart Wii: decompilation by vabold for Windows. Bring your own copy of the game.",

@@ -20,7 +20,7 @@ export const PokemonColosseum: Port = {
   verified: false,
   wip: true,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
+  originalSystems: ["Nintendo GameCube"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/d5/Pok%C3%A9mon_Colosseum_Coverart.png",
     alt: "Pokemon Colosseum (box art)",

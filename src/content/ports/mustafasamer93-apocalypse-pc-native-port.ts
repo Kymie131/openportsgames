@@ -20,7 +20,7 @@ export const mustafasamer93ApocalypsePcNativePort: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Unknown"],
+  originalSystems: ["PlayStation"],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Apocalypse%20(Europe).png",
     alt: "Apocalypse (box art)",

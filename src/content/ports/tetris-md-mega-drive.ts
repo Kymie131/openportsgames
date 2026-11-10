@@ -20,7 +20,7 @@ export const tetrisMdMegaDrive: Port = {
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
+  originalSystems: ["Game Boy"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Tetris%20(Japan)%20(En).png",
     alt: "Tetris (box art)",

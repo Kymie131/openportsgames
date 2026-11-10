@@ -19,7 +19,7 @@ export const doomIiRpgRe: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Other"],
+  originalSystems: ["Mobile"],
   related: ["doom-rpg-re"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/f6/Doom_II_RPG_cover.jpg",

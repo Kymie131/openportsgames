@@ -19,7 +19,7 @@ export const mkvdcuAndroid: Port = {
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
+  originalSystems: ["Xbox 360"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6b/Mortal_Kombat_vs._DC_Universe_Coverart.png",
     alt: "Mortal Kombat vs. DC Universe (box art)",

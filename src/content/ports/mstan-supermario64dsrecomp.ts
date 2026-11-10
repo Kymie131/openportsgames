@@ -20,7 +20,7 @@ export const mstanSupermario64dsrecomp: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Unknown"],
+  originalSystems: ["Nintendo DS"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/12/Super_Mario_64_DS_Coverart.png",
     alt: "Super Mario 64 DS (box art)",

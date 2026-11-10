@@ -19,7 +19,7 @@ export const HaloReach: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
+  originalSystems: ["Xbox 360"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/5c/Halo-_Reach_box_art.png",
     alt: "Halo Reach (box art)",

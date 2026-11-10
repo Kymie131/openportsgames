@@ -20,7 +20,7 @@ export const nathanialfIco: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Unknown"],
+  originalSystems: ["PlayStation 2"],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Ico%20(Europe)%20(En,Fr,De,Es,It).png",
     alt: "Ico (box art)",

@@ -20,7 +20,7 @@ export const ianitskyGt2Multiplayer: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Unknown"],
+  originalSystems: ["PlayStation"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6b/GranTurismo2.jpg",
     alt: "Gran Turismo 2 (box art)",

@@ -19,7 +19,7 @@ export const deadOrAliveXtremeBeachVolleyballAndroid: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
+  originalSystems: ["Xbox"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/8d/Doaxbvbox.jpg",
     alt: "Dead or Alive: Xtreme Beach Volleyball (box art)",

@@ -19,7 +19,7 @@ export const wolfensteinRpgRe: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
+  originalSystems: ["Mobile"],
   summary: "Wolfenstein RPG is a 2008 role-playing video game developed by id Software and Fountainhead Entertainment and published by EA Mobile. It was initially released for Java ME and BREW, before being ported to iOS the following year.",
   summaryEs: "Wolfenstein RPG es un videojuego para teléfonos móviles y iOS creado en 2010 por la empresa id Software.",
   notes:

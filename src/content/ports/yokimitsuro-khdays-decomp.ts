@@ -21,7 +21,7 @@ export const yokimitsuroKhdaysDecomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Unknown"],
+  originalSystems: ["Nintendo DS"],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Kingdom%20Hearts%20-%20358-2%20Days%20(Europe)%20(En,Fr,De,Es,It).png",
     alt: "Kingdom Hearts 358/2 Days (box art)",

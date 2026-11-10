@@ -19,7 +19,7 @@ export const undeadNeighborEatersAndroidNativePort: Port = {
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
+  originalSystems: ["Super Nintendo"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/75/Zombies_Ate_My_Neighbors_box.jpg",
     alt: "Zombies Ate My Neighbors (box art)",

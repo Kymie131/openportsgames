@@ -21,7 +21,7 @@ export const rapidsamphireAc6recomp: Port = {
   sourceVerified: true,
   wip: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Unknown"],
+  originalSystems: ["Xbox 360"],
   summary: "Ace Combat 6: Fires of Liberation is a 2007 arcade-style combat flight simulation video game developed by Project Aces and published by Namco Bandai Games exclusively for the Xbox 360. It is the seventh entry in the Ace Combat franchise and the first mainline installment to not see a release on a PlayStation platform. Set in 2015 in the series' fictional setting of Strangereal, the game's story follows \"Talisman\", a fighter pilot who helps liberate his country Emmeria from a surprise invasion by its neighbor, Estovakia.",
   summaryEs: "Ace Combat 6: Fires of Liberation es la sexta entrega de la serie Ace Combat, desarrollada por Project Aces y publicada por Namco Bandai Games, exclusivamente para Xbox 360.",
   cover: {

@@ -19,7 +19,7 @@ export const spiderManEdgeOfTimeProject2099: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
+  originalSystems: ["Xbox 360"],
   related: ["spider-man-edge-of-time-recomp"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/df/Spider-Man_Edge_of_Time.jpg",

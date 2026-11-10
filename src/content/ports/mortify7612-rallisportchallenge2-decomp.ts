@@ -20,7 +20,7 @@ export const mortify7612Rallisportchallenge2Decomp: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Unknown"],
+  originalSystems: ["Xbox"],
   summary: "RalliSport Challenge 2 is a rally racing video game developed by Digital Illusions CE and published by Microsoft Game Studios for the Xbox in 2004. Released as a sequel to the 2002 video game RalliSport Challenge, the game introduced several new features, including a career mode, additional cars, and track types with new environments, including night driving and ice racing.",
   summaryEs: "RalliSport Challenge 2 es un videojuego de carreras de rally de 2004 desarrollado por Digital Illusions CE y publicado por Microsoft Game Studios para Xbox. Es la secuela del RalliSport Challenge de 2002.",
   cover: {

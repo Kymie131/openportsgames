@@ -19,7 +19,7 @@ export const pes2013Switch: Port = {
   license: { spdx: "LGPL-2.1" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
+  originalSystems: ["Xbox 360"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/46/Pro_Evolution_Soccer_2013_cover.jpg",
     alt: "Pro Evolution Soccer 2013 (box art)",

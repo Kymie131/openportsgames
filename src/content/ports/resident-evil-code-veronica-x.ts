@@ -19,7 +19,7 @@ export const ResidentEvilCodeVeronicaX: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
+  originalSystems: ["PlayStation 2"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/44/RECV_boxart.jpg",
     alt: "Resident Evil – Code: Veronica X (box art)",

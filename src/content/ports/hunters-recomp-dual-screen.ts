@@ -19,7 +19,7 @@ export const huntersRecompDualScreen: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
+  originalSystems: ["Nintendo DS"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b2/Mph_cover_updated.jpg",
     alt: "Metroid Prime: Hunters (box art)",

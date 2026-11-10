@@ -20,7 +20,7 @@ export const awakenchanLanternengine: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Unknown"],
+  originalSystems: ["PlayStation 4"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
     alt: "Bloodborne (box art)",

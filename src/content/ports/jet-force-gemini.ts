@@ -19,7 +19,7 @@ export const JetForceGemini: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
+  originalSystems: ["Nintendo 64"],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/1a/Jet_Force_Gemini_box.jpg",
     alt: "Jet Force Gemini (box art)",
