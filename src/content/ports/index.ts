@@ -2793,6 +2793,14 @@ import { webMidnightClub3 } from "./web-midnight-club-3";
 import { spyroOpenPete } from "./spyro-openpete";
 import { pokemonXRecomp } from "./pokemon-x-recomp";
 import { sentinelsAegisRimPc } from "./13-sentinels-aegis-rim-pc";
+import { angryBirdsReHatched } from "./angry-birds-re-hatched";
+import { bandHeroRecomp } from "./band-hero-recomp";
+import { castlevaniaLamentOfInnocencePc } from "./castlevania-lament-of-innocence-pc";
+import { eaSportsUfc4Pc } from "./ea-sports-ufc-4-pc";
+import { knackIiPc } from "./knack-ii-pc";
+import { metroidSamusReturnsPc } from "./metroid-samus-returns-pc";
+import { metroidPrime4BeyondRecomp } from "./metroid-prime-4-beyond-recomp";
+import { miniNinjasSwitch } from "./mini-ninjas-switch";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5585,4 +5593,12 @@ export const portCases: Port[] = [
   spyroOpenPete,
   pokemonXRecomp,
   sentinelsAegisRimPc,
+  angryBirdsReHatched,
+  bandHeroRecomp,
+  castlevaniaLamentOfInnocencePc,
+  eaSportsUfc4Pc,
+  knackIiPc,
+  metroidSamusReturnsPc,
+  metroidPrime4BeyondRecomp,
+  miniNinjasSwitch,
 ];

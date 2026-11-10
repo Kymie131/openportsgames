@@ -2792,4 +2792,12 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "spyro-openpete": ["PlayStation"],
   "pokemon-x-recomp": ["Nintendo 3DS"],
   "13-sentinels-aegis-rim-pc": ["PlayStation 4"],
+  "angry-birds-re-hatched": ["Xbox 360"],
+  "band-hero-recomp": ["Xbox 360"],
+  "castlevania-lament-of-innocence-pc": ["PlayStation 2"],
+  "ea-sports-ufc-4-pc": ["PlayStation 4"],
+  "knack-ii-pc": ["PlayStation 4"],
+  "metroid-samus-returns-pc": ["Nintendo 3DS"],
+  "metroid-prime-4-beyond-recomp": ["Nintendo Switch"],
+  "mini-ninjas-switch": ["Xbox 360"],
 };
