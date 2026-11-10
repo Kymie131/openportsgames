@@ -2746,6 +2746,20 @@ import { yoshisIslandRecomp } from "./yoshis-island-recomp";
 import { xenobladeChroniclesDe } from "./xenoblade-chronicles-de";
 import { yokaiWatchRecomp } from "./yokai-watch-recomp";
 import { resogunRecomp } from "./resogun-recomp";
+import { sonicRidersRecomp } from "./sonic-riders-recomp";
+import { snoopyFlyingAceRecomp } from "./snoopy-flying-ace-recomp";
+import { spongebobRevengeRecomp } from "./spongebob-revenge-recomp";
+import { superBomberman5Recomp } from "./super-bomberman-5-recomp";
+import { superHangOnUltimate } from "./super-hang-on-ultimate";
+import { theatrhythmFinalBarLinePc } from "./theatrhythm-final-bar-line-pc";
+import { themeParkWorldRecomp } from "./theme-park-world-recomp";
+import { transformersArmadaRecomp } from "./transformers-armada-recomp";
+import { tsukihimeNativePc } from "./tsukihime-native-pc";
+import { virtuaTennisRecomp } from "./virtua-tennis-recomp";
+import { streetFighterAlpha3MaxRecomp } from "./street-fighter-alpha-3-max-recomp";
+import { streetFighterIii3rdStrikeOe } from "./street-fighter-iii-3rd-strike-oe";
+import { testDriveEveOfDestructionRecomp } from "./test-drive-eve-of-destruction-recomp";
+import { thps2xRecompiled } from "./thps2x-recompiled";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5491,4 +5505,18 @@ export const portCases: Port[] = [
   xenobladeChroniclesDe,
   yokaiWatchRecomp,
   resogunRecomp,
+  sonicRidersRecomp,
+  snoopyFlyingAceRecomp,
+  spongebobRevengeRecomp,
+  superBomberman5Recomp,
+  superHangOnUltimate,
+  theatrhythmFinalBarLinePc,
+  themeParkWorldRecomp,
+  transformersArmadaRecomp,
+  tsukihimeNativePc,
+  virtuaTennisRecomp,
+  streetFighterAlpha3MaxRecomp,
+  streetFighterIii3rdStrikeOe,
+  testDriveEveOfDestructionRecomp,
+  thps2xRecompiled,
 ];

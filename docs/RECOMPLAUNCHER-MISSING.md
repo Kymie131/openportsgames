@@ -136,6 +136,20 @@ were verified before import:
 - Xenoblade Chronicles: Definitive Edition - PC (`xenoblade-chronicles-de`)
 - Yo-kai Watch - Recomp (`yokai-watch-recomp`)
 - Resogun - Recomp (`resogun-recomp`)
+- Sonic Riders - Recomp (`sonic-riders-recomp`)
+- Snoopy Flying Ace - Recomp (`snoopy-flying-ace-recomp`)
+- SpongeBob: Revenge of the Flying Dutchman - Recomp (`spongebob-revenge-recomp`)
+- Super Bomberman 5 - Recomp (`super-bomberman-5-recomp`)
+- Super Hang-On - Ultimate (`super-hang-on-ultimate`)
+- Theatrhythm Final Bar Line - PC (`theatrhythm-final-bar-line-pc`)
+- Theme Park World - Recomp (`theme-park-world-recomp`)
+- Transformers (Armada) - Recomp (`transformers-armada-recomp`)
+- Tsukihime - Native PC (`tsukihime-native-pc`)
+- Virtua Tennis - Recomp (`virtua-tennis-recomp`)
+- Street Fighter Alpha 3 MAX - Recomp (`street-fighter-alpha-3-max-recomp`)
+- Street Fighter III: 3rd Strike OE - PC (`street-fighter-iii-3rd-strike-oe`)
+- Test Drive: Eve of Destruction - Recomp (`test-drive-eve-of-destruction-recomp`)
+- Tony Hawk's Pro Skater 2x - Recompiled (`thps2x-recompiled`)
 
 ## Candidates
 
