@@ -3,7 +3,7 @@ import type { Port } from "@/lib/ports/schema";
 export const skate3Android: Port = {
   schema: "port",
   id: "skate-3-android",
-  title: "Skate 3 android",
+  title: "Skate 3 Android",
   game: "Skate 3",
   developers: ["andrewnakas"],
   publisher: "Electronic Arts",
@@ -14,7 +14,7 @@ export const skate3Android: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.2.0", date: "2026-09-24" },
   sources: ["https://github.com/andrewnakas/skate3-android"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -27,6 +27,23 @@ export const skate3Android: Port = {
   },
   summary: "Skate 3 is a 2010 skateboarding video game, the third installment in the Skate series and the sequel to 2009's Skate 2, developed by EA Black Box and published by Electronic Arts. It was released worldwide in May 2010 for PlayStation 3 and Xbox 360. The game takes place in the fictional city of Port Carverton, which embraces skateboarding, unlike considering it a crime in the second game. The player character goes by the alias \"The Legend\". After failing to \"Jump The Shark\", their goal becomes creating a successful skateboarding team.",
   summaryEs: "Skate 3 es la tercera entrega de la serie de videojuegos Skate, desarrollado por EA Black Box y distribuido por Electronic Arts. Publicado el 11 de mayo de 2010, es la secuela del juego del 2009, Skate 2.",
-  notes: "Skate 3 (Electronic Arts, 2010) for Android (source port). Latest release: v0.2.0. Needs your own copy of the game (Skate 3 ISO).",
-  notesEs: "Skate 3 (Electronic Arts, 2010) para Android (port de código). Última release: v0.2.0. Necesita tu propia copia del juego.",
+  notes: "Skate 3 (Electronic Arts, 2010) for Android (source port). Latest release: v0.2.0. Needs your own copy of the game (Skate 3 disc image).",
+  notesEs: "Skate 3 (Electronic Arts, 2010) para Android (port de código). Última release: v0.2.0. Necesita tu propia copia del juego (imagen de disco de Skate 3).",
+  features: [
+    "Android source port of Skate 3.",
+    "Bring your own disc image.",
+    "Latest release: v0.2.0.",
+  ],
+  featuresEs: [
+    "Port de código de Skate 3 para Android.",
+    "Aporta tu propia imagen de disco.",
+    "Última release: v0.2.0.",
+  ],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/andrewnakas/skate3-android/releases/download/v0.2.0/Skate3-Android-v0.2.0.apk",
+      note: "Android · APK",
+    },
+  ],
 };

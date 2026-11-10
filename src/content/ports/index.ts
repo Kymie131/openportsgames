@@ -2775,6 +2775,8 @@ import { deadOrAlive4Recomp } from "./dead-or-alive-4-recomp";
 import { deceptionIvNightmarePrincessRecomp } from "./deception-iv-nightmare-princess-recomp";
 import { demonsSoulsSoulbrandt } from "./demons-souls-soulbrandt";
 import { deusExPortExMachina } from "./deus-ex-port-ex-machina";
+import { lostOdysseySteprantAndroid } from "./lost-odyssey-steprant-android";
+import { baldisBasicsPlusAndroid } from "./baldis-basics-plus-android";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5549,4 +5551,6 @@ export const portCases: Port[] = [
   deceptionIvNightmarePrincessRecomp,
   demonsSoulsSoulbrandt,
   deusExPortExMachina,
+  lostOdysseySteprantAndroid,
+  baldisBasicsPlusAndroid,
 ];

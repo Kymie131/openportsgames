@@ -2774,4 +2774,6 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "deception-iv-nightmare-princess-recomp": ["PlayStation 3"],
   "demons-souls-soulbrandt": ["PlayStation 3"],
   "deus-ex-port-ex-machina": ["Windows"],
+  "lost-odyssey-steprant-android": ["Xbox 360"],
+  "baldis-basics-plus-android": ["Windows"],
 };
