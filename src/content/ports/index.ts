@@ -2791,6 +2791,7 @@ import { webTekken5DarkResurrection } from "./web-tekken-5-dark-resurrection";
 import { webWweHereComesThePain } from "./web-wwe-here-comes-the-pain";
 import { webMidnightClub3 } from "./web-midnight-club-3";
 import { spyroOpenPete } from "./spyro-openpete";
+import { pokemonXRecomp } from "./pokemon-x-recomp";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5581,4 +5582,5 @@ export const portCases: Port[] = [
   webWweHereComesThePain,
   webMidnightClub3,
   spyroOpenPete,
+  pokemonXRecomp,
 ];
