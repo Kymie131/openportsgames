@@ -28,12 +28,12 @@ export const warzone2100: Port = {
     "Continuación de código abierto del juego de estrategia en tiempo real Warzone 2100, liberado por Eidos en 2004. Gratis y autónomo.",
   downloads: [
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Warzone2100/warzone2100/releases/download/4.7.0/warzone2100_macOS_universal.zip",
       size: "1066.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Warzone2100/warzone2100/releases/download/4.7.0/warzone2100_macOS_universal_novideos.zip",
       size: "521.0 MB",
     },

@@ -63,7 +63,7 @@ export const bomberman64Recomp: Port = {
       size: "15.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/RevoSucks/BM64Recomp/releases/download/v1.0.0/BM64Recompiled-macOS-Release.zip",
       size: "25.8 MB",
     },

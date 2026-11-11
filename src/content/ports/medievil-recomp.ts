@@ -32,12 +32,12 @@ export const medievilRecomp: Port = {
       size: "42.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/medievil-recomp/releases/download/v0.1.4/medievil-recomp-0.1.4-macos-arm64.zip",
       size: "39.6 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/medievil-recomp/releases/download/v0.1.4/medievil-recomp-0.1.4-macos-x64.zip",
       size: "40.1 MB",
     },

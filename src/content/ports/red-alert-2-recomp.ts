@@ -27,7 +27,7 @@ export const redAlert2Recomp: Port = {
       size: "9.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/sp00nznet/redalert2-recomp/releases/download/v0.1.3/RA2-Recomp-Installer-macos-arm64.zip",
       size: "9.1 MB",
     },

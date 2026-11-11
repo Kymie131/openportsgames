@@ -33,12 +33,12 @@ export const descent3: Port = {
       size: "7.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/DescentDevelopers/Descent3/releases/download/v1.5.0/Descent3_Release_macOS-ARM.zip",
       size: "9.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/DescentDevelopers/Descent3/releases/download/v1.5.0/Descent3_Release_macOS-Intel.zip",
       size: "9.8 MB",
     },

@@ -32,7 +32,7 @@ export const paperMarioPaperboat: Port = {
       size: "20.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/HarbourMasters/PaperBoat/releases/download/1.0.3/Paperboat-Mulberry-Delta-Mac.zip",
       size: "15.6 MB",
     },

@@ -31,7 +31,7 @@ export const opencoduoCoduomp: Port = {
       size: "1.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/opencoduo/coduomp/releases/download/7/opencoduo-macos-arm64-e23642dc5.zip",
       size: "4.3 MB",
     },

@@ -27,12 +27,12 @@ export const ridgeRacerType4Recomp: Port = {
     "Recompilación nativa de R4: Ridge Racer Type 4 (PlayStation). El jugador aporta su propio material obtenido legalmente (disc image); el repositorio no incluye contenido del juego.",
   downloads: [
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/tetrisgm/RidgeRacerType4Recomp/releases/download/v0.2.0/r4-0.2.0-macos-arm64.zip",
       size: "41.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/tetrisgm/RidgeRacerType4Recomp/releases/download/v0.2.0/r4-0.2.0-macos-x64.zip",
       size: "41.5 MB",
     },

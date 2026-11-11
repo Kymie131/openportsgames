@@ -27,12 +27,12 @@ export const SexyParodius: Port = {
       size: "26.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/NJH-1001/SexyParoRecomp/releases/download/v0.2.0/sexyparo-0.2.0-macos-arm64.zip",
       size: "24.6 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/NJH-1001/SexyParoRecomp/releases/download/v0.2.0/sexyparo-0.2.0-macos-x64.zip",
       size: "24.9 MB",
     },

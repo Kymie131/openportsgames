@@ -29,7 +29,7 @@ export const soulcaliburIiHdRecomp: Port = {
       size: "8.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/n0madic/Soulcalibur2HD-recomp/releases/download/v0.3.0/sc2hd-0.3.0-macos-arm64.zip",
       size: "6.3 MB",
     },

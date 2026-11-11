@@ -26,7 +26,7 @@ export const fpkgiPackageManager: Port = {
   summaryEs: "PlayStation Portable (PSP) es una videoconsola portátil de la multinacional japonesa Sony, y la cuarta consola de la compañía en ser diseñada por Ken Kutaragi. Aparte de jugar videojuegos, podía conectarse a internet y reproducir multimedia. Se trata de la primera consola portátil a nivel mundial de Sony y la segunda lanzada en Japón.",
   downloads: [
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/ItsJokerZz/FPKGi/releases/download/v1.10.0/FPKGi_v1.10.0-release.pkg",
       size: "81.5 MB",
     },

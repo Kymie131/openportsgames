@@ -27,7 +27,7 @@ export const openTestDriveUnlimited: Port = {
       size: "19.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited/releases/download/v0.1/opentdu_v0.1_macos_vulkan.zip",
       size: "21.9 MB",
     },

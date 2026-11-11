@@ -36,7 +36,7 @@ export const ghostship: Port = {
       size: "13.5 MB",
     },
     {
-      label: "Ios",
+      label: "iOS",
       url: "https://github.com/HarbourMasters/Ghostship/releases/download/3.0.0/Nautilus-Alfa-iOS.zip",
       size: "4.9 MB",
     },
@@ -46,7 +46,7 @@ export const ghostship: Port = {
       size: "17.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/HarbourMasters/Ghostship/releases/download/3.0.0/Nautilus-Alfa-Mac.zip",
       size: "22.2 MB",
     },

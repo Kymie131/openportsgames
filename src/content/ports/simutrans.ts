@@ -47,7 +47,7 @@ export const Simutrans: Port = {
       size: "17.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/simutrans/simutrans/releases/download/Nightly/simumac-arm-nightly.zip",
       size: "7.7 MB",
     },

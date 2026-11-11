@@ -40,7 +40,7 @@ export const knyttStoriesAndroid: Port = {
       size: "121.6 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/youkaicountry/yknytt/releases/download/0.7.3/YKnytt_v0.7.3_macos.zip",
       size: "96.8 MB",
     },

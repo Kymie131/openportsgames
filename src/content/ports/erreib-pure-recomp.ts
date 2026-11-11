@@ -30,7 +30,7 @@ export const erreibPureRecomp: Port = {
       size: "10.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/erreib/pure-recomp/releases/download/v0.2.0/pure-recomp-0.2.0-macos-arm64.zip",
       size: "28.1 MB",
     },

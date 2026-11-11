@@ -30,7 +30,7 @@ export const Wc1Re: Port = {
       size: "41.0 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/neuromancer/wc1-re/releases/download/v0.9.9/wc1-re-v0.9.9-macos-arm64-sdl2.zip",
       size: "35.9 MB",
     },
@@ -40,7 +40,7 @@ export const Wc1Re: Port = {
       size: "36.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/neuromancer/wc1-re/releases/download/v0.9.9/wc1-re-v0.9.9-macos-x86_64-sdl2.zip",
       size: "35.8 MB",
     },

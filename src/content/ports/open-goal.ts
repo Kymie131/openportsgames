@@ -46,12 +46,12 @@ export const openGoal: Port = {
       size: "16.3 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/open-goal/jak-project/releases/download/v0.3.9/opengoal-macos-arm-v0.3.9.tar.gz",
       size: "39.3 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/open-goal/jak-project/releases/download/v0.3.9/opengoal-macos-intel-v0.3.9.tar.gz",
       size: "40.5 MB",
     },

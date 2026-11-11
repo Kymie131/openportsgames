@@ -32,12 +32,12 @@ export const parasiteEveRecomp: Port = {
       size: "24.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/parasite-eve-recomp/releases/download/v0.4.0/Parasite-Eve-Recompiled-0.4.0-macos-arm64.zip",
       size: "22.6 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/parasite-eve-recomp/releases/download/v0.4.0/Parasite-Eve-Recompiled-0.4.0-macos-x64.zip",
       size: "22.9 MB",
     },

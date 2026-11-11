@@ -38,7 +38,7 @@ export const houseOfTheDeadRewrithe: Port = {
       size: "24.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TawhidI-602/The-House-of-the-Dead-ReWrithe/releases/download/v1.3.1/hotd-rewrithe-v1.3.1-macos-universal.zip",
       size: "28.5 MB",
     },

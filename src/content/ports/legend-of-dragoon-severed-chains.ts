@@ -40,12 +40,12 @@ export const legendOfDragoonSeveredChains: Port = {
       size: "121.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Legend-of-Dragoon-Modding/Severed-Chains/releases/download/release-3.0.0/Severed_Chains_MacOS_Intel.tar.gz",
       size: "116.7 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Legend-of-Dragoon-Modding/Severed-Chains/releases/download/release-3.0.0/Severed_Chains_MacOS_M1.tar.gz",
       size: "112.5 MB",
     },

@@ -47,7 +47,7 @@ export const yakumo: Port = {
       size: "106.6 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TeamGDB/Yakumo/releases/download/v0.7.5/yakumo-0.7.5-macos-arm64.zip",
       size: "193.4 MB",
     },

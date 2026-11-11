@@ -32,12 +32,12 @@ export const oddworldAbeSOddyseeRecomp: Port = {
       size: "26.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/oddworld-abe-s-oddysee-recomp/releases/download/v0.1.3/oddworld-abe-s-oddysee-recomp-0.1.3-macos-arm64.zip",
       size: "24.3 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/oddworld-abe-s-oddysee-recomp/releases/download/v0.1.3/oddworld-abe-s-oddysee-recomp-0.1.3-macos-x64.zip",
       size: "24.7 MB",
     },

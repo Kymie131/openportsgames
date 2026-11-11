@@ -32,12 +32,12 @@ export const strider2Recomp: Port = {
       size: "27.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/strider973/STRIDER-2-Recompiled/releases/download/v0.1.2/strider-0.1.2-macos-arm64.zip",
       size: "24.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/strider973/STRIDER-2-Recompiled/releases/download/v0.1.2/strider-0.1.2-macos-x64.zip",
       size: "25.1 MB",
     },

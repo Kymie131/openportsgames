@@ -36,12 +36,12 @@ export const openreliant: Port = {
       size: "10.0 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/OpenReliant/openreliant/releases/download/v1.0.0/openreliant-v1.0.0-macos-aarch64.tar.gz",
       size: "9.0 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/OpenReliant/openreliant/releases/download/v1.0.0/openreliant-v1.0.0-macos-x86_64.tar.gz",
       size: "9.4 MB",
     },

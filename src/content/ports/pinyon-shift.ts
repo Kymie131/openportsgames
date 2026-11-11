@@ -53,7 +53,7 @@ export const pinyonShift: Port = {
       size: "993 KB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/arcanite24/pinyon-shift/releases/download/v0.8.2/host-objects-0.8.2-macos-arm64-base.tar.xz",
       size: "974 KB",
     },

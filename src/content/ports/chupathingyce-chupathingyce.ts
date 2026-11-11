@@ -48,7 +48,7 @@ export const chupathingyceChupathingyce: Port = {
       size: "51.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/ChupathingyCE/chupathingyce/releases/download/v0.9.0d/chupathingyce-macos-release.zip",
       size: "31.7 MB",
     },

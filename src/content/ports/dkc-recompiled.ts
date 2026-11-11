@@ -43,7 +43,7 @@ export const dkcRecompiled: Port = {
     "Trilogía de recompilaciones que cubre Donkey Kong Country, Donkey Kong Country 2: Diddy's Kong Quest y Donkey Kong Country 3: Dixie Kong's Double Trouble, cada una desde su propio repositorio. Requiere la ROM de cada juego volcada legalmente por el propio jugador.",
   downloads: [
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/elliotttate/DKC1Recomp/releases/download/v0.0.17/DKC1Recomp-v0.0.15-macOS-arm64-HD-Preview.zip",
       size: "840.8 MB",
     },

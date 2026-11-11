@@ -37,7 +37,7 @@ export const psydoom: Port = {
       size: "5.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/BodbDearg/PsyDoom/releases/download/releases/1.1.1/PsyDoom_1.1.1_MacOS_x86_64_Arm64.zip",
       size: "8.5 MB",
     },

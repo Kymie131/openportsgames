@@ -39,12 +39,12 @@ export const openJk: Port = {
       size: "7.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/JACoders/OpenJK/releases/download/latest/OpenJK-macos-arm64.tar.gz",
       size: "7.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/JACoders/OpenJK/releases/download/latest/OpenJK-macos-x86_64.tar.gz",
       size: "8.0 MB",
     },

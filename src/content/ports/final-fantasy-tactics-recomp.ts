@@ -32,12 +32,12 @@ export const finalFantasyTacticsRecomp: Port = {
       size: "47.3 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/NJH-1001/FinFanTacRecomp/releases/download/v0.1.0/FinFanTacRecomp-setup-0.1.0-macos-arm64.zip",
       size: "25.6 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/NJH-1001/FinFanTacRecomp/releases/download/v0.1.0/FinFanTacRecomp-setup-0.1.0-macos-x64.zip",
       size: "26.0 MB",
     },

@@ -30,7 +30,7 @@ export const openkingdomsOpenkingdoms: Port = {
       size: "3.0 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/OpenKingdoms/OpenKingdoms/releases/download/v0.5.8/openkingdoms-0.5.8-macos-arm64.tar.gz",
       size: "2.4 MB",
     },

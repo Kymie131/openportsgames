@@ -54,7 +54,7 @@ export const starfoxEnhanced: Port = {
       size: "68.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/kandowontu2/starfox-enhanced/releases/download/v0.0.8.8.3/StarFoxEnhanced-0.0.8.8.3-macos-universal.zip",
       size: "136.9 MB",
     },

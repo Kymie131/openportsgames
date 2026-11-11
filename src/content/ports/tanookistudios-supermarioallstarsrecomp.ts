@@ -35,7 +35,7 @@ export const tanookistudiosSupermarioallstarsrecomp: Port = {
       size: "6.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TanookiStudios/SuperMarioAllStarsRecomp/releases/download/v0.2.0/SuperMarioAllStars-Mac.zip",
       size: "8.7 MB",
     },

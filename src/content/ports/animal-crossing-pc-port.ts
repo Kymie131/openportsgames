@@ -47,12 +47,12 @@ export const animalCrossingPcPort: Port = {
       size: "23.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/flyngmt/Nookery/releases/download/v1.0.0/Nookery-v1.0.0-macos-arm64.zip",
       size: "16.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/flyngmt/Nookery/releases/download/v1.0.0/Nookery-v1.0.0-macos-x86_64.zip",
       size: "18.0 MB",
     },

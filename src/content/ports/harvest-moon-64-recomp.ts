@@ -47,7 +47,7 @@ export const harvestMoon64Recomp: Port = {
       size: "6.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/HarvestMoon64Recomp/HarvestMoon64Recomp/releases/download/v1.2.2/HarvestMoon64Recompiled-v1.2.2-macOS.zip",
       size: "14.4 MB",
     },

@@ -33,7 +33,7 @@ export const phobos665Split2Recomp: Port = {
       size: "117.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/phobos665/split2-recomp/releases/download/v0.5.2/split2-v0.5.2-macos-arm64.tar.xz",
       size: "118.2 MB",
     },

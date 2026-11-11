@@ -42,7 +42,7 @@ export const marioKart64Recomp: Port = {
       size: "12.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/sonicdcer/MarioKart64Recomp/releases/download/v0.9.2/MarioKart64Recompiled-v0.9.2-macOS-Release.zip",
       size: "20.4 MB",
     },

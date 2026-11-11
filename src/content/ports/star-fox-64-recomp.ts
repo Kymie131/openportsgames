@@ -47,7 +47,7 @@ export const starFox64Recomp: Port = {
       size: "13.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/sonicdcer/Starfox64Recomp/releases/download/1.0.3/Starfox64Recompiled-v1.0.3-macOS-Release.zip",
       size: "21.8 MB",
     },

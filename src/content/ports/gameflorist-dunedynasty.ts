@@ -45,12 +45,12 @@ export const gamefloristDunedynasty: Port = {
       size: "806 KB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/gameflorist/dunedynasty/releases/download/v1.6.4/dunedynasty-v1.6.4-macos-arm64.zip",
       size: "4.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/gameflorist/dunedynasty/releases/download/v1.6.4/dunedynasty-v1.6.4-macos-x86-64.zip",
       size: "4.3 MB",
     },

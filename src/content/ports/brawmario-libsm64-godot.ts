@@ -32,7 +32,7 @@ export const brawmarioLibsm64Godot: Port = {
       size: "23.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Brawmario/libsm64-godot/releases/download/v2.8.1/libsm64-godot-demo.v2.8.1.mac.zip",
       size: "50.6 MB",
     },

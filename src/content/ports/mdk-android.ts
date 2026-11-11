@@ -38,7 +38,7 @@ export const mdkAndroid: Port = {
       size: "4.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/nautilusbits/mdk-sdl/releases/download/v1.2.6/mdk-osx-arm64.zip",
       size: "4.1 MB",
     },

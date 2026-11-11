@@ -28,7 +28,7 @@ export const deadRising2CaseZeroRecomp: Port = {
       size: "29.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp/releases/download/v1.1.3/CaseZeroRecomp-macos-arm64.zip",
       size: "26.9 MB",
     },

@@ -27,7 +27,7 @@ export const dkc2Recomp: Port = {
     "Recompilación estática de Donkey Kong Country 2 (SNES) con snesrecomp. El repositorio original está archivado; el desarrollo activo pasó a elliotttate/DKC2Recomp.",
   downloads: [
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/elliotttate/DKC2Recomp/releases/download/v0.0.8/DKC2Recomp-v0.0.6-macOS-arm64.zip",
       size: "9.9 MB",
     },

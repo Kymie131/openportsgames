@@ -30,7 +30,7 @@ export const deadOrAlive2UltimateRecomp: Port = {
       size: "5.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/NoRain211/doa2u-re/releases/download/v0.3.1/DOA2U-0.3.1-Alpha-macOS.zip",
       size: "5.1 MB",
     },

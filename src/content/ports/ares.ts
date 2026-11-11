@@ -24,12 +24,12 @@ export const Ares: Port = {
   summaryEs: "ares es un videojuego de plataformas publicado por Prelancer Studios.",
   downloads: [
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/ares-emulator/ares/releases/download/v148/ares-macos-universal-dSYMs.zip",
       size: "73.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/ares-emulator/ares/releases/download/v148/ares-macos-universal.zip",
       size: "76.2 MB",
     },

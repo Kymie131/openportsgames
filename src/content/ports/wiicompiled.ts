@@ -61,7 +61,7 @@ export const wiiCompiled: Port = {
       size: "374.3 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/patchzyy/Wiicompiled/releases/download/v0.9.4/WiiCompiled-Setup.pkg",
       size: "225.9 MB",
     },

@@ -28,7 +28,7 @@ export const dubrovskiyYevhenStakelogicGt2Pc: Port = {
       size: "5.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/releases/download/v0.9.2/GT2-0.9.2-macos-arm64.zip",
       size: "5.2 MB",
     },
@@ -38,7 +38,7 @@ export const dubrovskiyYevhenStakelogicGt2Pc: Port = {
       size: "6.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/releases/download/v0.9.2/GT2-0.9.2-macos-x86_64.zip",
       size: "5.7 MB",
     },

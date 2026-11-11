@@ -33,7 +33,7 @@ export const nvdemuApeescaperecompMacwindowslinux: Port = {
       size: "69.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/nvd123-YT/ApeEscapeRecompiled/releases/download/macos-nightly/ApeEscapeRecomp-v2.0.0-macos-arm64.zip",
       size: "47.2 MB",
     },
@@ -43,7 +43,7 @@ export const nvdemuApeescaperecompMacwindowslinux: Port = {
       size: "78.0 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/nvd123-YT/ApeEscapeRecompiled/releases/download/macos-nightly/ApeEscapeRecomp-v2.0.0-macos-x86_64.zip",
       size: "56.5 MB",
     },

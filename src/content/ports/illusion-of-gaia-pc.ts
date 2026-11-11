@@ -37,7 +37,7 @@ export const illusionOfGaiaPc: Port = {
       size: "4.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/mrOt4/babel-recomp/releases/download/v1.0/babel-recomp-1.0-macos-arm64.zip",
       size: "3.9 MB",
     },

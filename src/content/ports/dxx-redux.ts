@@ -35,12 +35,12 @@ export const DxxRedux: Port = {
       size: "16.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/dxx-redux/dxx-redux/releases/download/v1.1/d1x-redux-1.1-mac-arm.zip",
       size: "3.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/dxx-redux/dxx-redux/releases/download/v1.1/d1x-redux-1.1-mac.zip",
       size: "3.7 MB",
     },

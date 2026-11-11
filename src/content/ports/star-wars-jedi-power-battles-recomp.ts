@@ -33,12 +33,12 @@ export const starWarsJediPowerBattlesRecomp: Port = {
       size: "50.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp/releases/download/v0.1.3/seijpb-0.1.3-macos-arm64.zip",
       size: "27.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp/releases/download/v0.1.3/seijpb-0.1.3-macos-x64.zip",
       size: "27.9 MB",
     },

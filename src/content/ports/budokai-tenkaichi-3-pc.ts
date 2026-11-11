@@ -27,7 +27,7 @@ export const budokaiTenkaichi3Pc: Port = {
       size: "12.0 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/z3xox/Tenkaichi3Decomp/releases/download/v0.1.39.6/Tenkaichi3Decomp-macos-arm64.zip",
       size: "11.2 MB",
     },

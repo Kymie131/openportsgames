@@ -30,7 +30,7 @@ export const SheepDogNWolfRewooled: Port = {
       size: "4.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/SDW-Community/Sheep-Dog-n-Wolf-Rewooled/releases/download/v1.1.3/Rewooled-macOS-arm64-1.1.3.zip",
       size: "4.4 MB",
     },

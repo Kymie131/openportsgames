@@ -32,12 +32,12 @@ export const koudelkaRecomp: Port = {
       size: "26.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/koudelka-recomp/releases/download/v0.3.6/Koudelka-Recomp-0.3.6-macos-arm64.zip",
       size: "24.6 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/koudelka-recomp/releases/download/v0.3.6/Koudelka-Recomp-0.3.6-macos-x64.zip",
       size: "24.9 MB",
     },

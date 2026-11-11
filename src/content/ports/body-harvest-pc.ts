@@ -32,7 +32,7 @@ export const bodyHarvestPc: Port = {
       size: "7.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/mcsoderh/BodyHarvestRecomp/releases/download/v1.0.0/BodyHarvestRecompiled-v1.0.0-macOS.zip",
       size: "16.3 MB",
     },

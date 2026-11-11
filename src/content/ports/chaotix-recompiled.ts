@@ -47,7 +47,7 @@ export const chaotixRecompiled: Port = {
       size: "5.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/download/v0.15.21/ChaotixRecompiled-0.15.21-macos-arm64.zip",
       size: "5.0 MB",
     },

@@ -30,7 +30,7 @@ export const Barrett: Port = {
       size: "901 KB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/lunarmeadow/barrett/releases/download/v1.3-beta/barrett-macOS.zip",
       size: "906 KB",
     },

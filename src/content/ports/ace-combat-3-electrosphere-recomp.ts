@@ -33,12 +33,12 @@ export const aceCombat3ElectrosphereRecomp: Port = {
       size: "26.7 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/ace-combat-3-electrosphere-recomp/releases/download/v0.3.6/Ace-Combat-3-Electrosphere-Japan-Recomp-0.3.6-macos-arm64.zip",
       size: "24.6 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/ace-combat-3-electrosphere-recomp/releases/download/v0.3.6/Ace-Combat-3-Electrosphere-Japan-Recomp-0.3.6-macos-x64.zip",
       size: "24.9 MB",
     },

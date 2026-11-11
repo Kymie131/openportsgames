@@ -30,7 +30,7 @@ export const Q2tools220: Port = {
       size: "138 KB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/qbism/q2tools-220/releases/download/v05-30-26/macOS.7z",
       size: "108 KB",
     },

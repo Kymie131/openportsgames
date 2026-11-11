@@ -28,7 +28,7 @@ export const rob646464LuigisMansionRecompiled: Port = {
       size: "144.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/rob646464/luigis-mansion-recompiled/releases/download/v1.1.6/LuigisMansionRecompiled-1.1.6-macos-arm64.tar.gz",
       size: "111.0 MB",
     },

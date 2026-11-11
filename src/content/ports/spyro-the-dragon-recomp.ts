@@ -32,12 +32,12 @@ export const spyroTheDragonRecomp: Port = {
       size: "26.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/spyro-the-dragon-recomp/releases/download/v0.1.4/spyro-the-dragon-recomp-0.1.4-macos-arm64.zip",
       size: "24.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/spyro-the-dragon-recomp/releases/download/v0.1.4/spyro-the-dragon-recomp-0.1.4-macos-x64.zip",
       size: "24.7 MB",
     },

@@ -30,7 +30,7 @@ export const dogpartyIpodclickwheelrecomps: Port = {
       size: "1.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/DogParty/iPodClickWheelRecomps/releases/download/v1.0.1/bowling-1.0.1-macos.zip",
       size: "4.5 MB",
     },
@@ -45,7 +45,7 @@ export const dogpartyIpodclickwheelrecomps: Port = {
       size: "822 KB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/DogParty/iPodClickWheelRecomps/releases/download/v1.0.1/cubis-1.0.1-macos.zip",
       size: "4.1 MB",
     },

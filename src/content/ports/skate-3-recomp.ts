@@ -32,7 +32,7 @@ export const skate3Recomp: Port = {
       size: "31.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/mchughalex/skate3recomp/releases/download/v2.0.2/Skate3Recomp-macOS.zip",
       size: "34.9 MB",
     },

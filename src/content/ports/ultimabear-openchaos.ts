@@ -30,7 +30,7 @@ export const ultimabearOpenchaos: Port = {
       size: "41.0 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/UltimaBeaR/OpenChaos/releases/download/v1.0.2/OpenChaos-v1.0.2-macos-arm64.zip",
       size: "10.9 MB",
     },

@@ -33,7 +33,7 @@ export const marioKart643ds: Port = {
       size: "147.0 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/EstebanPdN/mario-kart-64-3ds/releases/download/v2.0/MK64-Extractor-macOS-AppleSilicon.zip",
       size: "45.7 MB",
     },

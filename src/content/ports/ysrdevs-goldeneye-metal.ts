@@ -32,7 +32,7 @@ export const ysrdevsGoldeneyeMetal: Port = {
       size: "16.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/ysrdevs/goldeneye-metal/releases/download/v0.5.1/GoldenEye-Metal-0.5.1-macos-arm64.zip",
       size: "14.0 MB",
     },

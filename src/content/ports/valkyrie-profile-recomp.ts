@@ -32,12 +32,12 @@ export const valkyrieProfileRecomp: Port = {
       size: "26.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/valkyrie-profile-recomp/releases/download/v0.1.3/valkyrie-profile-recomp-0.1.3-macos-arm64.zip",
       size: "25.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/valkyrie-profile-recomp/releases/download/v0.1.3/valkyrie-profile-recomp-0.1.3-macos-x64.zip",
       size: "25.9 MB",
     },

@@ -31,12 +31,12 @@ export const bombermanFantasyRaceRecomp: Port = {
       size: "52.6 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TechnicallyComputers/Bomberman-Fantasy-Race-Recomp/releases/download/v0.1.3/bfr-0.1.3-macos-arm64.zip",
       size: "28.3 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TechnicallyComputers/Bomberman-Fantasy-Race-Recomp/releases/download/v0.1.3/bfr-0.1.3-macos-x64.zip",
       size: "28.9 MB",
     },

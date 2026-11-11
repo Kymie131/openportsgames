@@ -32,12 +32,12 @@ export const jackieChanStuntmasterRecomp: Port = {
       size: "26.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/jackie-chan-stuntmaster-recomp/releases/download/v0.1.2/jackie-chan-stuntmaster-recomp-0.1.2-macos-arm64.zip",
       size: "24.3 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/jackie-chan-stuntmaster-recomp/releases/download/v0.1.2/jackie-chan-stuntmaster-recomp-0.1.2-macos-x64.zip",
       size: "24.7 MB",
     },

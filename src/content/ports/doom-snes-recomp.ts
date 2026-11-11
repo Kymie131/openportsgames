@@ -27,12 +27,12 @@ export const doomSnesRecomp: Port = {
       size: "4.6 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Cacodemontube/DoomSNESRecomp/releases/download/v0.04/DoomSNESRecomp-v0.04-macOS-arm64.zip",
       size: "3.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Cacodemontube/DoomSNESRecomp/releases/download/v0.04/DoomSNESRecomp-v0.04-macOS-x64.zip",
       size: "4.2 MB",
     },

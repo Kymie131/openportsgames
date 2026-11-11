@@ -37,7 +37,7 @@ export const nycolazsAcnhrecomp: Port = {
       size: "15.6 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Nycolazs/ACNHRecomp/releases/download/v0.8.1/ACNHRecomp-v0.8.1-macOS-arm64.zip",
       size: "16.2 MB",
     },

@@ -27,12 +27,12 @@ export const Ambermoon: Port = {
       size: "86.3 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Pyrdacor/Ambermoon.net/releases/download/v1.15.2/Ambermoon.net-Mac-ARM.zip",
       size: "81.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Pyrdacor/Ambermoon.net/releases/download/v1.15.2/Ambermoon.net-Mac.zip",
       size: "83.3 MB",
     },

@@ -32,7 +32,7 @@ export const pvzPortable: Port = {
       size: "4.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/wszqkzqk/PvZ-Portable/releases/download/0.2.7/pvz-portable-macos-aarch64.zip",
       size: "3.5 MB",
     },

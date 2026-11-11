@@ -33,12 +33,12 @@ export const rampageThroughTimeRecomp: Port = {
       size: "79.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TechnicallyComputers/Rampage---Through-Time-Recomp/releases/download/v0.1.23/rtt-0.1.23-macos-arm64.zip",
       size: "42.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TechnicallyComputers/Rampage---Through-Time-Recomp/releases/download/v0.1.23/rtt-0.1.23-macos-x64.zip",
       size: "43.9 MB",
     },

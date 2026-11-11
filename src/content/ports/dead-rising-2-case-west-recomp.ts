@@ -28,7 +28,7 @@ export const deadRising2CaseWestRecomp: Port = {
       size: "29.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/wivi514/Dead_Rising_2_Case_West_Xenon_Recomp/releases/download/v1.1.2/CaseWestRecomp-macos-arm64.zip",
       size: "27.5 MB",
     },

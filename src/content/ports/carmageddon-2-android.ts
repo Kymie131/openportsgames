@@ -45,7 +45,7 @@ export const carmageddon2Android: Port = {
       size: "23.6 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Link4Electronics/Carpocalypse2/releases/download/0.81/carpocalypse2-macos-arm64.zip",
       size: "2.4 MB",
     },

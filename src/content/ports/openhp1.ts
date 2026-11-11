@@ -37,7 +37,7 @@ export const openhp1: Port = {
       size: "16.7 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/SplittyDev/openhp1/releases/download/v0.2.0/openhp1_macos_universal.zip",
       size: "23.5 MB",
     },

@@ -35,7 +35,7 @@ export const mrFinsterVf3Recomp: Port = {
       size: "6.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/mr-finster/vf3-recomp/releases/download/v0.1.21-alpha/VirtuaFighter3Recomp-mac.zip",
       size: "9.9 MB",
     },

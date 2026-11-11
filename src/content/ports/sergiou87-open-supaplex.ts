@@ -35,7 +35,7 @@ export const sergiou87OpenSupaplex: Port = {
       size: "3.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/sergiou87/open-supaplex/releases/download/v7.2.2/OpenSupaplex-macOS.zip",
       size: "8.6 MB",
     },

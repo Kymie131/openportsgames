@@ -41,7 +41,7 @@ export const openomf: Port = {
       size: "18.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/omf2097/openomf/releases/download/0.8.6/openomf_0.8.6_macos14_arm.zip",
       size: "18.8 MB",
     },

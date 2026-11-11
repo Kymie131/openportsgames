@@ -37,7 +37,7 @@ export const snowboardKids2Recomp: Port = {
       size: "10.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/cdlewis/snowboardkids2-recomp/releases/download/v2.0.2/SnowboardKids2Recompiled-macOS.zip",
       size: "20.6 MB",
     },

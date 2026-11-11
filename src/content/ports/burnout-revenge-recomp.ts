@@ -33,7 +33,7 @@ export const burnoutRevengeRecomp: Port = {
       size: "26.0 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/shipa-2/Xerenge/releases/download/v0.4.10/Burnout_Revenge_Installer-macos-arm64.zip",
       size: "63.5 MB",
     },

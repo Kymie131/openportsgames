@@ -70,7 +70,7 @@ export const daggerfallUnity: Port = {
       size: "56.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Interkarma/daggerfall-unity/releases/download/v1.1.1-cve-2025/dfu_mac_universal-v1.1.1.zip",
       size: "49.9 MB",
     },

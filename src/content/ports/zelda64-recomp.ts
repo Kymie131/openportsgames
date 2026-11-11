@@ -74,7 +74,7 @@ export const zelda64Recomp: Port = {
       size: "17.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Zelda64Recomp/Zelda64Recomp/releases/download/v1.2.2/Zelda64Recompiled-v1.2.2-macOS.zip",
       size: "30.8 MB",
     },

@@ -54,7 +54,7 @@ export const dk64Recompiled: Port = {
       size: "8.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Rainchus/Donkey-Kong-64-Recompiled/releases/download/v1.0.3/DK64Recompiled-macOS-ARM64-Release-1-0-3.zip",
       size: "10.8 MB",
     },

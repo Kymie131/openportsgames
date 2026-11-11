@@ -41,7 +41,7 @@ export const shockolate: Port = {
       size: "29.0 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Interrupt/systemshock/releases/download/v0.7.7/shockolate-osx.tgz",
       size: "28.7 MB",
     },

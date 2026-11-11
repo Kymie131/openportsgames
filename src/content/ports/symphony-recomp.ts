@@ -49,12 +49,12 @@ export const symphonyRecomp: Port = {
       size: "55.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/BlackLabelHQ/SymphonyRecomp/releases/download/v1.1.2p/SymphonyRecomp-v1.1.2p-macos-arm64.zip",
       size: "54.0 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/BlackLabelHQ/SymphonyRecomp/releases/download/v1.1.2p/SymphonyRecomp-v1.1.2p-macos-x64.zip",
       size: "55.5 MB",
     },

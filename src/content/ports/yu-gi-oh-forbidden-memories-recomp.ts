@@ -52,7 +52,7 @@ export const yuGiOhForbiddenMemoriesRecomp: Port = {
       size: "8.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled/releases/download/v0.3.0/yfm-redecomp-v0.3.0-macos-arm64.zip",
       size: "4.7 MB",
     },

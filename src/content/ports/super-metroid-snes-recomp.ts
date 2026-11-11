@@ -32,12 +32,12 @@ export const superMetroidSnesRecomp: Port = {
       size: "14.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/mstan/SuperMetroidRecomp/releases/download/v0.4.5/supermetroid-0.4.5-macos-arm64.zip",
       size: "15.6 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/mstan/SuperMetroidRecomp/releases/download/v0.4.5/supermetroid-0.4.5-macos-x64.zip",
       size: "16.1 MB",
     },

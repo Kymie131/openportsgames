@@ -32,12 +32,12 @@ export const destructionDerby2Recomp: Port = {
       size: "26.7 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/destruction-derby-2-recomp/releases/download/v0.3.6/Destruction-Derby-2-Recomp-0.3.6-macos-arm64.zip",
       size: "24.6 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/destruction-derby-2-recomp/releases/download/v0.3.6/Destruction-Derby-2-Recomp-0.3.6-macos-x64.zip",
       size: "24.9 MB",
     },

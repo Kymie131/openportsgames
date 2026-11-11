@@ -32,12 +32,12 @@ export const SpaceStation14: Port = {
       size: "41.0 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/space-wizards/space-station-14/releases/download/v2026.07.27.1/SS14.Server_osx-arm64.zip",
       size: "41.0 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/space-wizards/space-station-14/releases/download/v2026.07.27.1/SS14.Server_osx-x64.zip",
       size: "41.1 MB",
     },

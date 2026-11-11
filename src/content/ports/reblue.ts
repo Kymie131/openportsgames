@@ -33,7 +33,7 @@ export const reblue: Port = {
       size: "37.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/zolaware/reblue/releases/download/v1.3.1/reblue-1.3.1-mac-arm64.zip",
       size: "20.4 MB",
     },

@@ -32,7 +32,7 @@ export const jazz2Ressurection: Port = {
       size: "292.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/deathkiller/jazz2/releases/download/3.9.0/Jazz2_3.9.0_MacOS.zip",
       size: "24.2 MB",
     },

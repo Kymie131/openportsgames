@@ -35,7 +35,7 @@ export const UnderworldExhumed: Port = {
       size: "2.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/abedegno/underworld-exhumed/releases/download/uw1-v1.0.2/UW1-v1.0.2-macos.zip",
       size: "4.9 MB",
     },

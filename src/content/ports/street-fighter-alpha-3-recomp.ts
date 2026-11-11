@@ -32,12 +32,12 @@ export const streetFighterAlpha3Recomp: Port = {
       size: "50.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TechnicallyComputers/Street-Fighter-Alpha-3-Recomp/releases/download/v0.2.16/sfa-0.2.16-macos-arm64.zip",
       size: "26.7 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TechnicallyComputers/Street-Fighter-Alpha-3-Recomp/releases/download/v0.2.16/sfa-0.2.16-macos-x64.zip",
       size: "27.3 MB",
     },

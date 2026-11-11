@@ -40,12 +40,12 @@ export const exokCeleste64: Port = {
       size: "30.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/EXOK/Celeste64/releases/download/v1.1.1/Celeste64-v1.1.1-macOS-arm64.zip",
       size: "29.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/EXOK/Celeste64/releases/download/v1.1.1/Celeste64-v1.1.1-macOS-x64.zip",
       size: "29.9 MB",
     },

@@ -35,7 +35,7 @@ export const spaceCadetPinball: Port = {
     "Recreación de código abierto del pinball Space Cadet de Windows 95, publicado bajo CC0 por Microsoft.",
   downloads: [
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/k4zmu2a/SpaceCadetPinball/releases/download/Release_2.1.0/SpaceCadetPinballMac.zip",
       size: "5.1 MB",
     },

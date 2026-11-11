@@ -30,7 +30,7 @@ export const warcraft2Android: Port = {
       size: "77.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/blairisme/warcraft/releases/download/v0.2.2/Warcraft-MacOS.zip",
       size: "79.4 MB",
     },

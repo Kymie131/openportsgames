@@ -30,7 +30,7 @@ export const Openciv3: Port = {
       size: "154.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/C7-Game/OpenCiv3/releases/download/v0.3-dutch-2/OpenCiv3_v0.3-Dutch-2-Mac.zip",
       size: "217.4 MB",
     },

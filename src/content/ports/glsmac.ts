@@ -25,7 +25,7 @@ export const Glsmac: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/afwbkbc/glsmac/releases/download/v0.3-db4dbc9/glsmac-ubuntu64-v0.3-db4dbc9.tar.gz",
       size: "3.7 MB",
     },

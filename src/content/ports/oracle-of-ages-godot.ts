@@ -35,7 +35,7 @@ export const oracleOfAgesGodot: Port = {
       size: "64.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/SHOEGAZEssb/ooa-godot/releases/download/v0.0.7/oracle-of-ages-v0.0.7-macos-universal.zip",
       size: "128.5 MB",
     },

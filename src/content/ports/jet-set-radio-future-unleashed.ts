@@ -37,7 +37,7 @@ export const jetSetRadioFutureUnleashed: Port = {
       size: "18.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/download/v0.6.9/JSRF-Unleashed-macOS-arm64.zip",
       size: "12.8 MB",
     },

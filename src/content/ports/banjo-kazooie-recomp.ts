@@ -55,7 +55,7 @@ export const banjoKazooieRecomp: Port = {
       size: "8.0 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/BanjoRecomp/BanjoRecomp/releases/download/v1.0.2/BanjoRecompiled-v1.0.2-macOS.zip",
       size: "16.9 MB",
     },

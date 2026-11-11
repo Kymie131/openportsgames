@@ -35,7 +35,7 @@ export const bluddyRails: Port = {
       size: "8.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/bluddy/rails/releases/download/v0.1.6/rails-0.1.6-macos-arm64.zip",
       size: "7.5 MB",
     },

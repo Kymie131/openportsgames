@@ -28,7 +28,7 @@ export const harvestwhispererHm64Decomp: Port = {
       size: "9.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/harvestwhisperer/hm64-decomp/releases/download/sprite-editor-v0.1.0/sprite-editor-macos-universal.zip",
       size: "12.6 MB",
     },

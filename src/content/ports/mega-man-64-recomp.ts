@@ -43,7 +43,7 @@ export const megaMan64Recomp: Port = {
       size: "13.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/MegaMan64Recomp/MegaMan64Recompiled/releases/download/v0.9.1/MegaMan64Recompiled-v0.9.1-macOS.zip",
       size: "22.6 MB",
     },

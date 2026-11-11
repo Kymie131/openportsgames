@@ -30,7 +30,7 @@ export const kroplabeskiduFlipendo: Port = {
       size: "8.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/kroplabeskidu/flipendo/releases/download/v1.3/flipendo-v1.3-macos.zip",
       size: "10.0 MB",
     },

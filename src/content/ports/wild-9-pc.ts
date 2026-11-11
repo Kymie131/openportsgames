@@ -27,12 +27,12 @@ export const wild9Pc: Port = {
       size: "12.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/plinkr/Wild9Recomp/releases/download/v0.1.9/wild9-0.1.9-macos-arm64.zip",
       size: "8.7 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/plinkr/Wild9Recomp/releases/download/v0.1.9/wild9-0.1.9-macos-x64.zip",
       size: "8.8 MB",
     },

@@ -53,12 +53,12 @@ export const spaghettiKart: Port = {
       size: "11.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/HarbourMasters/SpaghettiKart/releases/download/1.0.0/spaghetti-mac-arm64.zip",
       size: "7.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/HarbourMasters/SpaghettiKart/releases/download/1.0.0/spaghetti-mac-intel-x64.zip",
       size: "7.5 MB",
     },

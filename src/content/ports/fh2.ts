@@ -69,7 +69,7 @@ export const fh2: Port = {
       size: "26.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/ihhub/fheroes2/releases/download/1.1.18/fheroes2_macos_x86-64_SDL2.zip",
       size: "5.1 MB",
     },

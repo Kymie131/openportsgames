@@ -28,7 +28,7 @@ export const zakypewEpochEquinox: Port = {
       size: "9.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/ZakyPew/epoch-equinox/releases/download/v0.7.3/epoch-equinox-macos-arm64.tar.gz",
       size: "129.3 MB",
     },

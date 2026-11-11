@@ -39,7 +39,7 @@ export const openTyrian: Port = {
       size: "5.7 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/opentyrian/opentyrian/releases/download/v2.1.20260913/opentyrian-v2.1.20260913-macos-universal.zip",
       size: "6.9 MB",
     },

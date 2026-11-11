@@ -35,7 +35,7 @@ export const Xoreos: Port = {
       size: "16.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/xoreos/xoreos/releases/download/v0.0.6/xoreos-0.0.6-mac64.tar.gz",
       size: "31.0 MB",
     },

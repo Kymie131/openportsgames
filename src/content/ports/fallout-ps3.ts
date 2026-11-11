@@ -22,12 +22,12 @@ export const falloutPs3: Port = {
   originalSystems: ["MS-DOS"],
   downloads: [
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/akinozgen/fallout1-ce-ps3/releases/download/v0.1.0/fallout1-ce-ps3-hen.pkg",
       size: "1.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/akinozgen/fallout1-ce-ps3/releases/download/v0.1.0/fallout1-ce-ps3-rpcs3.pkg",
       size: "1.2 MB",
     },

@@ -43,7 +43,7 @@ export const skuzaOssDownhillRevived: Port = {
       size: "17.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/skuza-oss/downhill-revived/releases/download/v0.7.16/DownhillRevived-0.7.16-mac-experimental.zip",
       size: "16.8 MB",
     },

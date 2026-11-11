@@ -37,7 +37,7 @@ export const raze: Port = {
       size: "17.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/ZDoom/Raze/releases/download/1.11.0/raze-macos-1.11.0.zip",
       size: "30.5 MB",
     },

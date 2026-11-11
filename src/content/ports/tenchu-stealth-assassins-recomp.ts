@@ -32,12 +32,12 @@ export const tenchuStealthAssassinsRecomp: Port = {
       size: "26.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/tenchu-stealth-assassins-recomp/releases/download/v0.1.3/tenchu-stealth-assassins-recomp-0.1.3-macos-arm64.zip",
       size: "24.3 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/tenchu-stealth-assassins-recomp/releases/download/v0.1.3/tenchu-stealth-assassins-recomp-0.1.3-macos-x64.zip",
       size: "24.7 MB",
     },

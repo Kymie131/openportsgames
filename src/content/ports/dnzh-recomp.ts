@@ -42,7 +42,7 @@ export const dnzhRecomp: Port = {
       size: "12.7 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/sonicdcer/DNZHRecomp/releases/download/0.0.3/DNZHRecompiled-0.0.3-macOS-Release.zip",
       size: "20.2 MB",
     },

@@ -28,7 +28,7 @@ export const ridgeRacerVFukami: Port = {
       size: "30.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/danisandoval/fukami/releases/download/v1.1.0/Fukami-1.1.0-macos-arm64.zip",
       size: "19.3 MB",
     },

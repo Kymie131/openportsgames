@@ -22,7 +22,7 @@ export const marioKartWii3ds: Port = {
   originalSystems: ["Wii"],
   downloads: [
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/MiniBandit/MKW-3DS/releases/download/v0.7.0/MKW-3DS-Builder-v0.7.0-macOS.zip",
       size: "6.2 MB",
     },

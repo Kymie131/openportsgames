@@ -27,7 +27,7 @@ export const BossRally: Port = {
       size: "18.3 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/jeff-strutb/brally/releases/download/v0.991/RallyBuilder-0.991-macOS.zip",
       size: "10.7 MB",
     },

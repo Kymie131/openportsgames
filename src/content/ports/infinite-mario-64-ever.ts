@@ -33,7 +33,7 @@ export const infiniteMario64Ever: Port = {
       size: "40.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Brawmario/infinite-mario-64-ever/releases/download/v0.1.5/infinite-mario-64-ever.v0.1.5.mac.zip",
       size: "67.3 MB",
     },

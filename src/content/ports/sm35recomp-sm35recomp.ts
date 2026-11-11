@@ -35,7 +35,7 @@ export const sm35recompSm35recomp: Port = {
       size: "108.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/sm35recomp/sm35recomp/releases/download/v0.4.0/SM35Recomp-macos-arm64.zip",
       size: "90.4 MB",
     },

@@ -52,12 +52,12 @@ export const doukutsuRs: Port = {
       size: "24.3 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/doukutsu-rs/doukutsu-rs/releases/download/1.0.0/doukutsu-rs_macos_1.0.0.arm64.zip",
       size: "3.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/doukutsu-rs/doukutsu-rs/releases/download/1.0.0/doukutsu-rs_macos_1.0.0.x86_64.zip",
       size: "4.1 MB",
     },

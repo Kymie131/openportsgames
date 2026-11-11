@@ -32,12 +32,12 @@ export const syphonFilter2Recompiled: Port = {
       size: "25.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/syphon-filter-2-recomp/releases/download/v0.2.0/syphon-filter-2-recomp-0.2.0-macos-arm64.zip",
       size: "24.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/syphon-filter-2-recomp/releases/download/v0.2.0/syphon-filter-2-recomp-0.2.0-macos-x64.zip",
       size: "24.8 MB",
     },

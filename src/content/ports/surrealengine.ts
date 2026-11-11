@@ -30,7 +30,7 @@ export const Surrealengine: Port = {
       size: "15.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/dpjudas/SurrealEngine/releases/download/nightly/SurrealEngine-macos-prerelease.zip",
       size: "9.0 MB",
     },

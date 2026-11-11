@@ -32,12 +32,12 @@ export const toyStory2Recomp: Port = {
       size: "48.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/PeriBluGaming/ToyStory2Recomp/releases/download/v0.6.1/toystory2-0.6.1-macos-arm64.zip",
       size: "25.7 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/PeriBluGaming/ToyStory2Recomp/releases/download/v0.6.1/toystory2-0.6.1-macos-x64.zip",
       size: "26.4 MB",
     },

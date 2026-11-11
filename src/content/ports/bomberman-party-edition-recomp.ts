@@ -32,12 +32,12 @@ export const bombermanPartyEditionRecomp: Port = {
       size: "51.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TechnicallyComputers/BombermanPartyEditionRecomp/releases/download/v0.3.18/bpe-0.3.18-macos-arm64.zip",
       size: "27.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TechnicallyComputers/BombermanPartyEditionRecomp/releases/download/v0.3.18/bpe-0.3.18-macos-x64.zip",
       size: "27.9 MB",
     },

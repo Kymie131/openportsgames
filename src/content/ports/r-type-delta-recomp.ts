@@ -32,12 +32,12 @@ export const rTypeDeltaRecomp: Port = {
       size: "23.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/r-type-delta-recomp/releases/download/v0.1.1/r-type-delta-0.1.1-macos-arm64.zip",
       size: "21.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/r-type-delta-recomp/releases/download/v0.1.1/r-type-delta-0.1.1-macos-x64.zip",
       size: "22.5 MB",
     },

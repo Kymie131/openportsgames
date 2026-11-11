@@ -32,7 +32,7 @@ export const rageRacerPc: Port = {
       size: "3.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/khasinski/rage-racer-pc/releases/download/0.6.15-alpha/Rage-Racer-0.6.15-alpha-macos-arm64.zip",
       size: "3.4 MB",
     },
@@ -52,7 +52,7 @@ export const rageRacerPc: Port = {
       size: "128.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/khasinski/rage-racer-pc/releases/download/0.6.15-alpha/Rage-Racer-Editor-0.6.15-alpha-macos-arm64.zip",
       size: "129.5 MB",
     },

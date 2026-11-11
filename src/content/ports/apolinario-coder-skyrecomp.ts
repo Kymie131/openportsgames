@@ -45,7 +45,7 @@ export const apolinarioCoderSkyrecomp: Port = {
       size: "93.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Apolinario-coder/SkyRecomp/releases/download/v2.2.0/SkyRecomp-v2.2.0-macOS.zip",
       size: "99.7 MB",
     },

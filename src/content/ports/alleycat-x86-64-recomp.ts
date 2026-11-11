@@ -30,7 +30,7 @@ export const alleycatX8664Recomp: Port = {
       size: "113 KB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/petarov/alleycat.exe/releases/download/1.3/alleycat-1.3-macos-x86_64.zip",
       size: "1.7 MB",
     },

@@ -37,7 +37,7 @@ export const gzdoom: Port = {
     "Port de código fuente centrado en características para todos los juegos del motor Doom, con build oficial para Android. Requiere un IWAD (el proyecto freedoom ofrece recursos).",
   downloads: [
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/ZDoom/gzdoom/releases/download/g4.14.2/gzdoom-4-14-2-macos.zip",
       size: "34.8 MB",
     },

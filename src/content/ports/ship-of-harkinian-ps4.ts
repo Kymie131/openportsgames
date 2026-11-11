@@ -22,7 +22,7 @@ export const shipOfHarkinianPs4: Port = {
   originalSystems: ["Nintendo 64"],
   downloads: [
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alechurri/shipofharkinian-ps4/releases/download/v0.2.0/IV0000-SOHP00001_00-SHIPOFHARKINIAN0.pkg",
       size: "44.4 MB",
     },

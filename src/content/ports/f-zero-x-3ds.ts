@@ -47,7 +47,7 @@ export const fZeroX3ds: Port = {
       size: "2.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/cruxxxxxx/gdx-3ds/releases/download/v1.2.0/gdx-extract-macos-universal.zip",
       size: "3.8 MB",
     },

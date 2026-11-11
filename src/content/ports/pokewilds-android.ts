@@ -38,7 +38,7 @@ export const pokewildsAndroid: Port = {
       size: "236.6 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TryTheSauceBoss/Pokewilds-Godot/releases/download/vFinal/Pokewilds-Mac-Final.zip",
       size: "323.9 MB",
     },

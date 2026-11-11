@@ -41,7 +41,7 @@ export const perfectDarkPort: Port = {
       size: "10.3 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/perfect-dark-pc-port/perfect_dark/releases/download/ci-dev-build/pd-arm64-osx.tar.xz",
       size: "3.3 MB",
     },
@@ -61,7 +61,7 @@ export const perfectDarkPort: Port = {
       size: "21.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/perfect-dark-pc-port/perfect_dark/releases/download/ci-dev-build/pd-x86_64-osx.tar.xz",
       size: "2.8 MB",
     },

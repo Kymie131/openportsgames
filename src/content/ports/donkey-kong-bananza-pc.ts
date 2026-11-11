@@ -37,7 +37,7 @@ export const donkeyKongBananzaPc: Port = {
       size: "2.6 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Lucas-blip-png/dkb-pc-recomp/releases/download/v0.2.0/DKB-Setup-0.2.0%2B33f8bbc-macos-arm64.zip",
       size: "2.9 MB",
     },

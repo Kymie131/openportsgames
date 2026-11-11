@@ -30,12 +30,12 @@ export const SopwithSdlSopwith: Port = {
       size: "1.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-2.9.0/sdl-sopwith-2.9.0-macos-arm64.zip",
       size: "1.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-2.9.0/sdl-sopwith-2.9.0-macos-x86_64.zip",
       size: "1.4 MB",
     },

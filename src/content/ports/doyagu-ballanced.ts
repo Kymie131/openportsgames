@@ -45,12 +45,12 @@ export const doyaguBallanced: Port = {
       size: "13.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/doyaGu/Ballanced/releases/download/v0.2.0/ballance-sdl-macos-arm64-runtime.tar.gz",
       size: "12.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/doyaGu/Ballanced/releases/download/v0.2.0/ballance-sdl-macos-arm64-static.tar.gz",
       size: "11.3 MB",
     },

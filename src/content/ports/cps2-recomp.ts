@@ -38,7 +38,7 @@ export const cps2Recomp: Port = {
       size: "159.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/tmcleroy/cps2recomp/releases/download/v1.4.0/CPS2Recomp-macOS.zip",
       size: "246.9 MB",
     },

@@ -41,7 +41,7 @@ export const granTurismo3Revisited: Port = {
       size: "10.3 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/matt-pulsipher/GT3-revisited/releases/download/v0.6.4/gt3r-macos-arm64.zip",
       size: "7.7 MB",
     },

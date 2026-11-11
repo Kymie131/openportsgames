@@ -32,12 +32,12 @@ export const vampireHunterDRecomp: Port = {
       size: "26.7 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/vampire-hunter-d-recomp/releases/download/v0.3.6/Vampire-Hunter-D-Recomp-0.3.6-macos-arm64.zip",
       size: "24.6 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/vampire-hunter-d-recomp/releases/download/v0.3.6/Vampire-Hunter-D-Recomp-0.3.6-macos-x64.zip",
       size: "24.9 MB",
     },

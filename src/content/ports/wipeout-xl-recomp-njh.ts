@@ -28,12 +28,12 @@ export const wipeoutXlRecompNjh: Port = {
       size: "43.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/NJH-1001/Wipeout2K97XL/releases/download/v0.2.0/wipeoutxl-0.2.0-macos-arm64.zip",
       size: "21.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/NJH-1001/Wipeout2K97XL/releases/download/v0.2.0/wipeoutxl-0.2.0-macos-x64.zip",
       size: "21.6 MB",
     },

@@ -28,12 +28,12 @@ export const metalSlugXRecompTechnically: Port = {
       size: "51.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TechnicallyComputers/Metal-Slug-X-Recomp/releases/download/v0.1.21/msx-0.1.21-macos-arm64.zip",
       size: "27.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TechnicallyComputers/Metal-Slug-X-Recomp/releases/download/v0.1.21/msx-0.1.21-macos-x64.zip",
       size: "28.6 MB",
     },

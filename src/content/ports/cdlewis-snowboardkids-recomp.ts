@@ -45,7 +45,7 @@ export const cdlewisSnowboardkidsRecomp: Port = {
       size: "13.0 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/cdlewis/snowboardkids-recomp/releases/download/v1.0.9/SnowboardKidsRecompiled-macOS.zip",
       size: "23.7 MB",
     },

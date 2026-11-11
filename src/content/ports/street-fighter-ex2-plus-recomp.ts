@@ -32,12 +32,12 @@ export const streetFighterEx2PlusRecomp: Port = {
       size: "29.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/strider973/Street-Fighter-EX2-Plus-Recompiled/releases/download/v0.1.0/sfex2p-0.1.0-macos-arm64.zip",
       size: "27.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/strider973/Street-Fighter-EX2-Plus-Recompiled/releases/download/v0.1.0/sfex2p-0.1.0-macos-x64.zip",
       size: "27.4 MB",
     },

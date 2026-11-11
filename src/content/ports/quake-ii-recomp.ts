@@ -32,12 +32,12 @@ export const quakeIiRecomp: Port = {
       size: "26.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/quake-ii-recomp/releases/download/v0.1.2/quake-ii-recomp-0.1.2-macos-arm64.zip",
       size: "24.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/quake-ii-recomp/releases/download/v0.1.2/quake-ii-recomp-0.1.2-macos-x64.zip",
       size: "24.7 MB",
     },

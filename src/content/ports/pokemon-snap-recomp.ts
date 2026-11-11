@@ -75,7 +75,7 @@ export const pokemonSnapRecomp: Port = {
       size: "7.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/JackandBeans/Snap64Recomp/releases/download/v1.1.6/Snap64Recomp-1.1.6-macos-universal.zip",
       size: "12.1 MB",
     },

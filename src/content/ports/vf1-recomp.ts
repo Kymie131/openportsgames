@@ -35,7 +35,7 @@ export const Vf1Recomp: Port = {
       size: "6.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/mr-finster/vf1-recomp/releases/download/v1.7.0/VirtuaFighterRecomp-mac.zip",
       size: "10.1 MB",
     },

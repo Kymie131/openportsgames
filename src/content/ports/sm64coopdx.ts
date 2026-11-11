@@ -28,12 +28,12 @@ export const sm64coopdx: Port = {
       size: "52.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/coop-deluxe/sm64coopdx/releases/download/v1.5.1/sm64coopdx_macOS_ARM.zip",
       size: "43.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/coop-deluxe/sm64coopdx/releases/download/v1.5.1/sm64coopdx_macOS_Intel.zip",
       size: "42.4 MB",
     },

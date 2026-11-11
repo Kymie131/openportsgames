@@ -38,12 +38,12 @@ export const spaceChannel5Recomp: Port = {
       size: "229.3 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/ZoomiesZaggy/Space-Channel-5/releases/download/v0.1.0-preview.2/SpaceChannel5-v0.1.0-preview.2-macOS-ARM64.zip",
       size: "168.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/ZoomiesZaggy/Space-Channel-5/releases/download/v0.1.0-preview.2/SpaceChannel5-v0.1.0-preview.2-macOS-X64.zip",
       size: "219.7 MB",
     },

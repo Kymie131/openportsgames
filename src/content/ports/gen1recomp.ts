@@ -47,12 +47,12 @@ export const gen1recomp: Port = {
       size: "37.6 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.2/gen1recomp-0.4.2-macos.zip",
       size: "47.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.2/gen1recomp-0.4.2-ps4.pkg",
       size: "84.8 MB",
     },

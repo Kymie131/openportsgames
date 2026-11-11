@@ -32,7 +32,7 @@ export const tekken3Expanded: Port = {
       size: "74.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/omarma/tekken3-expanded/releases/download/v1.5.0/Tekken3Expanded-1.5.0-macOS.zip",
       size: "74.5 MB",
     },

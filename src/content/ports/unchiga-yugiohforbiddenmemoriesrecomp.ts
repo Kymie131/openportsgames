@@ -28,12 +28,12 @@ export const unchigaYugiohforbiddenmemoriesrecomp: Port = {
       size: "31.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp/releases/download/v0.6.2/ygofm-0.6.2-macos-arm64.zip",
       size: "28.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp/releases/download/v0.6.2/ygofm-0.6.2-macos-x64.zip",
       size: "29.3 MB",
     },

@@ -25,7 +25,7 @@ export const recompCodeStreetRecompV3: Port = {
   summaryEs: "NBA Street V3 es un videojuego creado por EA Sports BIG de la serie de videojuegos de NBA Street. El juego fue lanzado en el año de 2005 para las videoconsolas GameCube, Xbox y PlayStation 2. En este juego no salen tantas leyendas como en la versión anterior pero tiene mejores gráficos y mejor jugabilidad.",
   downloads: [
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/recomp-code/street-recomp-v3/releases/download/v1.4.1/NBAStreetV3-Mac-1.4.1.zip",
       size: "80.8 MB",
     },

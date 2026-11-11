@@ -38,12 +38,12 @@ export const projectPicori: Port = {
       size: "22.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/999sian/tmc/releases/download/v0.9.6/tmc-multi-macos-arm64-v0.9.6.tar.gz",
       size: "4.0 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/999sian/tmc/releases/download/v0.9.6/tmc-multi-macos-x86_64-v0.9.6.tar.gz",
       size: "4.3 MB",
     },

@@ -32,12 +32,12 @@ export const wipeoutRecomp: Port = {
       size: "26.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/wipeout-recomp/releases/download/v0.1.4/wipeout-recomp-0.1.4-macos-arm64.zip",
       size: "24.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/wipeout-recomp/releases/download/v0.1.4/wipeout-recomp-0.1.4-macos-x64.zip",
       size: "24.7 MB",
     },

@@ -40,12 +40,12 @@ export const Quake3e: Port = {
       size: "2.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/ec-/Quake3e/releases/download/latest/quake3e-macos-aarch64.zip",
       size: "3.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/ec-/Quake3e/releases/download/latest/quake3e-macos-x86_64.zip",
       size: "3.3 MB",
     },

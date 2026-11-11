@@ -23,7 +23,7 @@ export const overkilllabs3ViceCityStoriesRecomp: Port = {
   originalSystems: ["PlayStation Portable"],
   downloads: [
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/OverkillLabs3/vice-city-stories-recomp/releases/download/v1.0.0/VCSNative-macOS.zip",
       size: "19.5 MB",
     },

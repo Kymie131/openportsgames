@@ -28,7 +28,7 @@ export const diegodediosAlienrerecomp: Port = {
       size: "7.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/DiegoDeDios/AlienReRecomp/releases/download/v0.2.0/AlienResurrection-0.2.0-macos.zip",
       size: "8.9 MB",
     },

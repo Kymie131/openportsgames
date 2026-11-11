@@ -27,7 +27,7 @@ export const eternalDarknessRecomp: Port = {
       size: "105.7 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/griches/EternalDarknessRecomp/releases/download/v0.9.6/EternalDarkness-mac-202610200024-1cb3fe6.zip",
       size: "76.7 MB",
     },

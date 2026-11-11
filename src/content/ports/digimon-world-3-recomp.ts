@@ -33,7 +33,7 @@ export const digimonWorld3Recomp: Port = {
       size: "96.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/ArmDucks/DigimonWorld3-Recomp/releases/download/v0.0.1/DW3Recomp-v0.0.1-macos-arm64.tar.gz",
       size: "87.2 MB",
     },

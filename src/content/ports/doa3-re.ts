@@ -28,7 +28,7 @@ export const doa3Re: Port = {
       size: "9.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/NoRain211/doa3-re/releases/download/v0.6.2/DOA3-0.6.2-macOS.tar.gz",
       size: "9.9 MB",
     },

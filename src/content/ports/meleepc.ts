@@ -50,7 +50,7 @@ export const Meleepc: Port = {
       size: "20.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/999sian/melee-pc/releases/download/v0.4.2/Melee-macOS-arm64.zip",
       size: "12.1 MB",
     },

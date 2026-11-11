@@ -39,7 +39,7 @@ export const perfectDarkDabsMod: Port = {
     "Decompilación comunitaria de Perfect Dark con funciones de mod ampliadas, publicada como 'Dab's Mod'. El repositorio documenta su proceso de desarrollo asistido por IA. Requiere la ROM de Perfect Dark obtenida legalmente por el jugador.",
   downloads: [
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/DabDavis/perfect-dark-dabs-mod/releases/download/v3.15.1/pd-dabs-mod-arm64-osx.tar.xz",
       size: "4.5 MB",
     },
@@ -49,7 +49,7 @@ export const perfectDarkDabsMod: Port = {
       size: "8.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/DabDavis/perfect-dark-dabs-mod/releases/download/v3.15.1/pd-dabs-mod-x86_64-osx.tar.xz",
       size: "4.8 MB",
     },

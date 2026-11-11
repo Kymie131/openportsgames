@@ -51,7 +51,7 @@ export const conkerBadFurDayRecomp: Port = {
       size: "9.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/sciaschi/CBFD-Recompiled/releases/download/V0.1.6/ConkerRecompiled-V0.1.6-macOS.zip",
       size: "10.4 MB",
     },

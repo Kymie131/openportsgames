@@ -32,12 +32,12 @@ export const starWarsMastersOfTerasKasiRecomp: Port = {
       size: "49.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TechnicallyComputers/MastersOfTerasKasiRecomp/releases/download/v0.3.17/motk-0.3.17-macos-arm64.zip",
       size: "26.7 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TechnicallyComputers/MastersOfTerasKasiRecomp/releases/download/v0.3.17/motk-0.3.17-macos-x64.zip",
       size: "27.7 MB",
     },

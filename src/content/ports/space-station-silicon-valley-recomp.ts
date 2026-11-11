@@ -36,7 +36,7 @@ export const spaceStationSiliconValleyRecomp: Port = {
       size: "30.7 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Cellenseres/SSSV_Recomp/releases/download/v0.2.0/SSSVRecompiled_v0.2.0_macOS.zip",
       size: "63.6 MB",
     },

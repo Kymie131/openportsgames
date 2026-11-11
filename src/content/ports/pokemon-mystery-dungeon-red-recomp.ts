@@ -32,7 +32,7 @@ export const pokemonMysteryDungeonRedRecomp: Port = {
       size: "55.0 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Asphaltian/pmd-green/releases/download/v0.1.0/GreenRescueTeam-v0.1.0-macOS.zip",
       size: "53.5 MB",
     },

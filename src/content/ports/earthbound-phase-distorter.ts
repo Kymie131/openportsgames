@@ -34,7 +34,7 @@ export const EarthboundPhaseDistorter: Port = {
       size: "9.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TheRunaway5/Phase-Distorter/releases/download/0.5/Phase-Distorter-0.5-macos-universal.zip",
       size: "12.7 MB",
     },

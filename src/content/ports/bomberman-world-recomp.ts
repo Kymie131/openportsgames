@@ -31,12 +31,12 @@ export const bombermanWorldRecomp: Port = {
       size: "49.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TechnicallyComputers/Bomberman-World-Recomp/releases/download/v0.1.21/bombermanworld-0.1.21-macos-arm64.zip",
       size: "26.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TechnicallyComputers/Bomberman-World-Recomp/releases/download/v0.1.21/bombermanworld-0.1.21-macos-x64.zip",
       size: "26.9 MB",
     },

@@ -27,7 +27,7 @@ export const defJamFightForNyRecomp: Port = {
       size: "195.0 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/vyanhursky/DefJamFFNY-recomp/releases/download/v1.1.1/DefJamRecompiled-1.1.1-macos-arm64.zip",
       size: "68.3 MB",
     },

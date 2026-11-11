@@ -32,7 +32,7 @@ export const virtuaFighter2Recomp: Port = {
       size: "7.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/mr-finster/vf2-recomp/releases/download/v0.1.22/VirtuaFighter2Recomp-mac.zip",
       size: "11.0 MB",
     },

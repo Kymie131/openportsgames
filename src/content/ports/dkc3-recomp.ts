@@ -27,7 +27,7 @@ export const dkc3Recomp: Port = {
     "Recompilación estática de Donkey Kong Country 3 (SNES, USA En/Fr) con snesrecomp. Está en fase de puesta en marcha: cubre el arranque, el lanzador, los estados de guardado y Lakeside Limbo, con widescreen de 16:10, 16:9 y 21:9 verificado.",
   downloads: [
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/elliotttate/DKC3Recomp/releases/download/v0.0.6/DKC3Recomp-v0.0.4-macOS-arm64.zip",
       size: "7.7 MB",
     },

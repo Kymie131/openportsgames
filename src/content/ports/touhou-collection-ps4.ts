@@ -22,17 +22,17 @@ export const touhouCollectionPs4: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/EmiiBytee/Touhou-PS4/releases/download/v1.1.0/TH06.ps4-thin.pkg",
       size: "8.7 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/EmiiBytee/Touhou-PS4/releases/download/v1.1.0/TH07.ps4-thin.pkg",
       size: "9.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/EmiiBytee/Touhou-PS4/releases/download/v1.1.0/TH08.ps4-thin.pkg",
       size: "9.0 MB",
     },

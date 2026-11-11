@@ -32,12 +32,12 @@ export const gPoliceWeaponsOfJusticeRecomp: Port = {
       size: "23.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/g-police-weapons-of-justice-recomp/releases/download/v0.1.0/gpoliceweaponsofjustice-0.1.0-macos-arm64.zip",
       size: "22.7 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/g-police-weapons-of-justice-recomp/releases/download/v0.1.0/gpoliceweaponsofjustice-0.1.0-macos-x64.zip",
       size: "23.2 MB",
     },

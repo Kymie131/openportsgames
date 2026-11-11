@@ -32,7 +32,7 @@ export const dragonBallZBudokai3Hd: Port = {
       size: "23.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/novapowers0/DBZ-Budokai-3-HD-Collection/releases/download/v1.5.6.2/DBZ-Budokai-3-HD-Collection-v1.5.6.2-macos-arm64-EXPERIMENTAL.tar.gz",
       size: "23.9 MB",
     },

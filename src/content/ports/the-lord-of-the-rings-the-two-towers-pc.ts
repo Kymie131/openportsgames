@@ -34,7 +34,7 @@ export const theLordOfTheRingsTheTwoTowersPc: Port = {
       size: "170.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Gumpolas/TooTawersRecomp/releases/download/2.0.0/TwoTowers-Recompiled-v2.0.0-macos-x86_64.tar.gz",
       size: "165.2 MB",
     },

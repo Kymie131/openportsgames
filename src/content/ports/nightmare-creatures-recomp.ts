@@ -32,12 +32,12 @@ export const nightmareCreaturesRecomp: Port = {
       size: "26.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/nightmare-creatures-recomp/releases/download/v0.1.3/nightmare-creatures-recomp-0.1.3-macos-arm64.zip",
       size: "24.3 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alexbeavs-ps1-ports/nightmare-creatures-recomp/releases/download/v0.1.3/nightmare-creatures-recomp-0.1.3-macos-x64.zip",
       size: "24.7 MB",
     },

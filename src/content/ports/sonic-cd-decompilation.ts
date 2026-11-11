@@ -33,7 +33,7 @@ export const sonicCdDecompilation: Port = {
       size: "325 KB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/RSDKModding/RSDKv3-Decompilation/releases/download/1.3.3/v3-mac.zip",
       size: "6.2 MB",
     },

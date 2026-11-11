@@ -49,7 +49,7 @@ export const theOraclesProject: Port = {
       size: "3.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/thibautbus/top/releases/download/v1.4.0/the-oracles-project-1.4.0-macos.zip",
       size: "6.0 MB",
     },

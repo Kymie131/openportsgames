@@ -33,7 +33,7 @@ export const openblack: Port = {
       size: "28.6 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/openblack/openblack/releases/download/v0.1.0/openblack-v0.1.0-osx-x64-release.zip",
       size: "21.7 MB",
     },
@@ -43,7 +43,7 @@ export const openblack: Port = {
       size: "10.6 MB",
     },
     {
-      label: "Ios",
+      label: "iOS",
       url: "https://github.com/openblack/openblack/releases/download/v0.1.0/openblack-v0.1.0-ios-arm64-release.zip",
       size: "3.7 MB",
     },

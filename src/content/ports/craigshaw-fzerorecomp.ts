@@ -30,7 +30,7 @@ export const craigshawFzerorecomp: Port = {
       size: "5.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/craigshaw/FZeroRecomp/releases/download/v0.6.0/FZeroRecomp-v0.6.0-macOS-arm64.zip",
       size: "5.9 MB",
     },

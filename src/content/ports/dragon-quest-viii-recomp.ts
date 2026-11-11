@@ -38,12 +38,12 @@ export const dragonQuestViiiRecomp: Port = {
       size: "93.0 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Sinan-Karakaya/DQ8-Recompiled/releases/download/f6dfd96/DQ8Recomp-f6dfd96-macOS-arm64.zip",
       size: "100.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Sinan-Karakaya/DQ8-Recompiled/releases/download/f6dfd96/DQ8Recomp-f6dfd96-macOS-x86_64.zip",
       size: "99.8 MB",
     },

@@ -43,7 +43,7 @@ export const colinMcraeRally2Android: Port = {
       size: "9.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/pablocpas/OpenCMR2/releases/download/v1.8.7/OpenCMR2-macOS-arm64.zip",
       size: "2.5 MB",
     },

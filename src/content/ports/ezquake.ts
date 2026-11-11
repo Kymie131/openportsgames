@@ -31,7 +31,7 @@ export const ezquake: Port = {
       size: "21.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/QW-Group/ezquake-source/releases/download/3.6.9/ezQuake-macOS-universal.zip",
       size: "8.2 MB",
     },

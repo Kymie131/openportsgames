@@ -46,7 +46,7 @@ export const stuntsHd: Port = {
       size: "103.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/mr-finster/stunts-hd/releases/download/v1.5.22/Stunts-HD-mac-universal.zip",
       size: "168.1 MB",
     },

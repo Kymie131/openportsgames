@@ -30,7 +30,7 @@ export const spicywondaCastlevaniaChroniclesRecomp: Port = {
       size: "93.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Spicywonda/castlevania-chronicles-recomp/releases/download/v0.3.10/CastlevaniaChronicles-0.3.10-osx-arm64.zip",
       size: "91.3 MB",
     },

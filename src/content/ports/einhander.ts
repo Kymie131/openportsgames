@@ -32,12 +32,12 @@ export const einhanderRecomp: Port = {
       size: "26.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/strider973/Einhander-Recompiled/releases/download/v0.1.3/einhander-0.1.3-macos-arm64.zip",
       size: "24.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/strider973/Einhander-Recompiled/releases/download/v0.1.3/einhander-0.1.3-macos-x64.zip",
       size: "24.7 MB",
     },

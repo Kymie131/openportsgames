@@ -43,7 +43,7 @@ export const kingdomHeartsComAndroid: Port = {
       size: "35.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/MatyMeatBoy/ReKHCoM/releases/download/v2.9/ReKHCoM-v2.9-ps4-beta.pkg",
       size: "37.6 MB",
     },

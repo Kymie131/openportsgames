@@ -46,7 +46,7 @@ export const nuggetDoom: Port = {
       size: "13.7 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/MrAlaux/Nugget-Doom/releases/download/nugget-doom-6.1.0/Nugget-Doom-6.1.0-Mac-uni.zip",
       size: "16.2 MB",
     },

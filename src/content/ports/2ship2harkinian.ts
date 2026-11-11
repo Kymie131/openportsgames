@@ -49,7 +49,7 @@ export const twoShip: Port = {
       size: "15.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/2ship2harkinian/2ship2harkinian/releases/download/5.0.1/2Ship-Battler-Bravo-Mac.zip",
       size: "25.5 MB",
     },

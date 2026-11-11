@@ -37,7 +37,7 @@ export const kingsFieldRecomp: Port = {
       size: "4.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Voicedrew11/verdite1/releases/download/v0.2.0/Verdite1-0.2.0-macos-arm64.zip",
       size: "5.3 MB",
     },

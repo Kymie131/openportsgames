@@ -38,12 +38,12 @@ export const openq4: Port = {
       size: "642.7 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/themuffinator/openQ4/releases/download/v0.13.2/openq4-0.13.2-macos-arm64-metal-unsigned.tar.gz",
       size: "640.7 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/themuffinator/openQ4/releases/download/v0.13.2/openq4-0.13.2-macos-arm64-opengl-unsigned.tar.gz",
       size: "640.7 MB",
     },

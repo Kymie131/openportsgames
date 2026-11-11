@@ -43,7 +43,7 @@ export const pokerogueApp: Port = {
       size: "101.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Admiral-Billy/Pokerogue-App/releases/download/v2.4.6f/PokeRogue-macOS.zip",
       size: "271.8 MB",
     },

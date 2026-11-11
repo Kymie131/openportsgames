@@ -52,7 +52,7 @@ export const sonicFreeRidersRecomp: Port = {
       size: "41.3 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/download/v0.10.55/FreeRidersRecompiled-0.10.55-macos-arm64.zip",
       size: "45.5 MB",
     },

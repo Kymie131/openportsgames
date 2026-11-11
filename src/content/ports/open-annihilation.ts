@@ -40,12 +40,12 @@ export const OpenAnnihilation: Port = {
       size: "26.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/open-annihilation/open-annihilation/releases/download/v0.9.0/open-annihilation-v0.9.0-macos-universal.pkg",
       size: "37.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/open-annihilation/open-annihilation/releases/download/v0.9.0/open-annihilation-v0.9.0-macos-universal.zip",
       size: "37.2 MB",
     },

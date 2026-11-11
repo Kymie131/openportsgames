@@ -36,12 +36,12 @@ export const playopenzOpenz: Port = {
       size: "287.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/playopenz/OpenZ/releases/download/v1.4/OpenZ_1.4_mac_EXPERIMENTAL_part1_of_2.tar.xz",
       size: "1642.0 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/playopenz/OpenZ/releases/download/v1.4/OpenZ_1.4_mac_EXPERIMENTAL_part2_of_2.tar.xz",
       size: "507.5 MB",
     },

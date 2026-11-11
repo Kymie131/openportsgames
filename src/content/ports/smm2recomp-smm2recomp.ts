@@ -35,7 +35,7 @@ export const smm2recompSmm2recomp: Port = {
       size: "115.7 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/smm2recomp/smm2recomp/releases/download/v0.7.12/SMM2Recomp-macos-arm64.zip",
       size: "120.5 MB",
     },

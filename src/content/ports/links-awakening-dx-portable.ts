@@ -28,7 +28,7 @@ export const linksAwakeningDxPortable: Port = {
       size: "9.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/sp00nznet/linksawakening-portable/releases/download/v0.2.0/LinksAwakening-Consoles-Installer-macos-arm64.zip",
       size: "9.1 MB",
     },

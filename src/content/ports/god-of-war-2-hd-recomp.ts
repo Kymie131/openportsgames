@@ -24,7 +24,7 @@ export const godOfWar2HdRecomp: Port = {
   summaryEs: "God of War II HD es un videojuego de acción y aventura en 2009.",
   downloads: [
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/andrebrumdev/gow2-recomp/releases/download/kit-macos-20260930/gow2-recomp-kit-macos-20260930-b323750.zip",
       size: "14.5 MB",
     },

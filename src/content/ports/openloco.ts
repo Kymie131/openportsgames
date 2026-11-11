@@ -42,7 +42,7 @@ export const openLoco: Port = {
       size: "16.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/OpenLoco/OpenLoco/releases/download/v26.09/OpenLoco-v26.09-macos-arm64.zip",
       size: "16.7 MB",
     },

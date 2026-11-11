@@ -26,7 +26,7 @@ export const ghostReconFutureSoldierMacos: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/alex-stampede/GRFS-Recomp/releases/download/v0.10.0.13/GRFS-Recompiled-macOS-arm64.zip",
       size: "47.4 MB",
     },

@@ -42,7 +42,7 @@ export const gen2recomp: Port = {
       size: "94.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.57/Gen2Recomped-0.8.57-macos.zip",
       size: "53.3 MB",
     },

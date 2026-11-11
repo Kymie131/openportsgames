@@ -48,7 +48,7 @@ export const strikers: Port = {
       size: "11.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/new-coke/strikers/releases/download/v2.0.0/strikers-macos-arm64.tar.gz",
       size: "26.7 MB",
     },

@@ -32,7 +32,7 @@ export const neoDriftOutRecomp: Port = {
       size: "9.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/sp00nznet/neodriftout/releases/download/v0.2.0/Neo-Drift-Out-Installer-macos-arm64.zip",
       size: "9.1 MB",
     },

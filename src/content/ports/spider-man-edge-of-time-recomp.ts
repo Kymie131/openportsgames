@@ -37,7 +37,7 @@ export const spiderManEdgeOfTimeRecomp: Port = {
       size: "139.0 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/goliathret/EdgeOfTimeRecomp/releases/download/v1.1/EdgeOfTimeRecomp-v1.0.0-20261030_1828-mac-arm64.zip",
       size: "137.8 MB",
     },

@@ -30,7 +30,7 @@ export const apexjclBlinx2Recomp: Port = {
       size: "11.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/apexJCL/blinx2-recomp/releases/download/v2026.11.2/blinx2-wizard-v2026.11.2-macos.zip",
       size: "22.9 MB",
     },

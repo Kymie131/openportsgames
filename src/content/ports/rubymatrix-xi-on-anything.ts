@@ -35,12 +35,12 @@ export const rubymatrixXiOnAnything: Port = {
       size: "47.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/rubymatrix/xi-on-anything/releases/download/v0.2.9/XI-on-Mac-macos-arm64.app.tar.gz",
       size: "47.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/rubymatrix/xi-on-anything/releases/download/v0.2.9/XI-on-Mac-macos-arm64.zip",
       size: "48.8 MB",
     },

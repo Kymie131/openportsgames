@@ -56,12 +56,12 @@ export const freeSpace2: Port = {
       size: "105.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/scp-fs2open/fs2open.github.com/releases/download/release_26_2_0/fs2_open_26_2_0-builds-Mac-arm64.tar.gz",
       size: "172.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/scp-fs2open/fs2open.github.com/releases/download/release_26_2_0/fs2_open_26_2_0-builds-Mac-x86_64.tar.gz",
       size: "176.0 MB",
     },

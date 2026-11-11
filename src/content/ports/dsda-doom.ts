@@ -46,7 +46,7 @@ export const dsdaDoom: Port = {
       size: "13.9 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/dsda-org/dsda-doom/releases/download/v0.30.1/dsda-doom-0.30.1-mac-uni.zip",
       size: "11.0 MB",
     },

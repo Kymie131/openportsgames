@@ -23,12 +23,12 @@ export const dropsonic0SonicManiaDecompilation: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/DropSonic0/Sonic-Mania-Decompilation/releases/download/99.99/devMenu-SonicMania.pkg",
       size: "2 KB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/DropSonic0/Sonic-Mania-Decompilation/releases/download/99.99/SonicMania.pkg",
       size: "5.5 MB",
     },

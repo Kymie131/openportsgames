@@ -41,12 +41,12 @@ export const Nocturne: Port = {
       size: "10.6 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/NearlyTRex/NocturneDecomp/releases/download/v0.1.10/nocturne-0.1.10-exe-macos-arm64.tar.gz",
       size: "10.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/NearlyTRex/NocturneDecomp/releases/download/v0.1.10/nocturne-0.1.10-exe-macos-vanilla-arm64.tar.gz",
       size: "10.1 MB",
     },

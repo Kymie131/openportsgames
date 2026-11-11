@@ -33,7 +33,7 @@ export const doaxbvRe: Port = {
       size: "1.6 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/NoRain211/doaxvb-re/releases/download/v0.6.2/DOAXBV-0.6.2-macOS.zip",
       size: "1.6 MB",
     },

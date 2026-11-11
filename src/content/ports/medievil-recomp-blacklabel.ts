@@ -28,12 +28,12 @@ export const medievilRecompBlacklabel: Port = {
       size: "41.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/BlackLabelHQ/MediEvilRecomp/releases/download/v1.0.3/MediEvilRecomp-v1.0.3-macos-arm64.zip",
       size: "39.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/BlackLabelHQ/MediEvilRecomp/releases/download/v1.0.3/MediEvilRecomp-v1.0.3-macos-x64.zip",
       size: "40.9 MB",
     },

@@ -40,7 +40,7 @@ export const openBfmeOpenbfmeGodot: Port = {
       size: "65.1 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Open-BFME/openbfme-godot/releases/download/v0.4.11/openbfme-v0.4.11-macos-arm64.zip",
       size: "63.4 MB",
     },

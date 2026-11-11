@@ -28,12 +28,12 @@ export const pokemonHeartgoldSoulsilverRecomp: Port = {
       size: "29.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/ClickingMaster/ssrecomp/releases/download/v0.4.2/ssrecomp-setup-macos-arm64.zip",
       size: "15.3 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/ClickingMaster/ssrecomp/releases/download/v0.4.2/ssrecomp-setup-macos-x86_64.zip",
       size: "15.9 MB",
     },

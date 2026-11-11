@@ -65,12 +65,12 @@ export const dusklight: Port = {
       size: "41.8 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TwilitRealm/dusklight/releases/download/v2.0.3/Dusklight-v2.0.3-macos-arm64.zip",
       size: "36.7 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TwilitRealm/dusklight/releases/download/v2.0.3/Dusklight-v2.0.3-macos-x86_64.zip",
       size: "38.3 MB",
     },

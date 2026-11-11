@@ -42,7 +42,7 @@ export const metroidPrimePort: Port = {
       size: "18.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Odrannnn/MetroidPrimePort/releases/download/v0.45.0/metroid-prime-port-0.45.0-macos-arm64.zip",
       size: "18.3 MB",
     },

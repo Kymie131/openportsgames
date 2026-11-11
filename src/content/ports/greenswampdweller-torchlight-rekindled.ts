@@ -35,7 +35,7 @@ export const greenswampdwellerTorchlightRekindled: Port = {
       size: "8.6 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/GreenSwampDweller/torchlight-rekindled/releases/download/1.1.0/TorchlightRekindled-1.1.0-macos-arm64.zip",
       size: "8.2 MB",
     },

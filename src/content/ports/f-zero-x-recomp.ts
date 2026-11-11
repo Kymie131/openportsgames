@@ -44,7 +44,7 @@ export const fZeroXRecomp: Port = {
       size: "10.7 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/Zorkats/G-Diffuser/releases/download/v1.2.3/G-Diffuser-v1.2.3-macos-arm64.tar.gz",
       size: "8.0 MB",
     },

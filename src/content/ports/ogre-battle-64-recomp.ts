@@ -39,7 +39,7 @@ export const ogreBattle64Recomp: Port = {
       size: "9.4 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/lfarroco/ogre-battle-64-recomp/releases/download/v0.9.1/ogre-battle-64-recomp-macos-arm64.tar.gz",
       size: "8.0 MB",
     },

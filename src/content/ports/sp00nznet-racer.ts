@@ -29,7 +29,7 @@ export const sp00nznetRacer: Port = {
       size: "9.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/sp00nznet/racer/releases/download/v0.4.0/Racer-Builds-Installer-macos-arm64.zip",
       size: "9.1 MB",
     },
@@ -44,7 +44,7 @@ export const sp00nznetRacer: Port = {
       size: "9.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/sp00nznet/racer/releases/download/v0.4.0/Racer-Installer-macos-arm64.zip",
       size: "9.1 MB",
     },

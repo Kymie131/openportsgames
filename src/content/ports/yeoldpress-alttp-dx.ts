@@ -27,7 +27,7 @@ export const yeoldpressAlttpDx: Port = {
   notesEs: "The Legend of Zelda: A Link to the Past: source port de YeOldPress para Windows. Aporta tu propia copia del juego.",
   downloads: [
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/YeOldPress/alttp-dx/releases/download/v1.8/alttp-dx-v1.8-macos-arm64.zip",
       size: "2.8 MB",
     },
@@ -42,7 +42,7 @@ export const yeoldpressAlttpDx: Port = {
       size: "7.3 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/YeOldPress/alttp-dx/releases/download/v1.8/zelda3-tools-v1.8-macos-arm64.zip",
       size: "1.6 MB",
     },

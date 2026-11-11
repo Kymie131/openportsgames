@@ -43,12 +43,12 @@ export const rtcWolfenstein: Port = {
       size: "10.3 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/iortcw/iortcw/releases/download/1.51c/iortcw-1.51c-mac-term.zip",
       size: "24.3 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/iortcw/iortcw/releases/download/1.51c/iortcw-1.51c-mac-ub.zip",
       size: "26.4 MB",
     },

@@ -33,12 +33,12 @@ export const klonoaDoorToPhantomileRecomp: Port = {
       size: "46.5 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TechnicallyComputers/Klonoa-Door-to-Phantomile/releases/download/v0.1.4/kdp-0.1.4-macos-arm64.zip",
       size: "24.2 MB",
     },
     {
-      label: "Macos",
+      label: "macOS",
       url: "https://github.com/TechnicallyComputers/Klonoa-Door-to-Phantomile/releases/download/v0.1.4/kdp-0.1.4-macos-x64.zip",
       size: "24.8 MB",
     },
