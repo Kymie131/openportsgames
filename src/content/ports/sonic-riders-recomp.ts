@@ -23,8 +23,8 @@ export const sonicRidersRecomp: Port = {
   ],
   "status": "beta",
   "release": {
-    "version": "0.7.3",
-    "date": "2026-11-09"
+    "version": "0.8.0",
+    "date": "2026-11-11"
   },
   "sources": [
     "https://github.com/teclilla18/sonic-riders-recomp"
@@ -41,8 +41,8 @@ export const sonicRidersRecomp: Port = {
   ],
   "summary": "Sonic Riders is a 2006 racing game developed by Sonic Team and published by Sega. Characters race on hoverboards through tracks with trick and boost mechanics.",
   "summaryEs": "Sonic Riders es un juego de carreras de 2006 desarrollado por Sonic Team y publicado por Sega. Los personajes compiten en aerotablas por circuitos con trucos y turbos.",
-  "notes": "Native recompilation of Sonic Riders for Windows, Linux, Android, iOS and Switch. Bring your own game files; no game data is included. Latest release: v0.7.3.",
-  "notesEs": "Recompilación nativa de Sonic Riders para Windows, Linux, Android, iOS y Switch. Aporta tus propios archivos; no incluye datos del juego. Última release: v0.7.3.",
+  "notes": "Native recompilation of Sonic Riders for Windows, Linux, Android, iOS and Switch. Bring your own game files; no game data is included. Latest release: v0.8.0.",
+  "notesEs": "Recompilación nativa de Sonic Riders para Windows, Linux, Android, iOS y Switch. Aporta tus propios archivos; no incluye datos del juego. Última release: v0.8.0.",
   "features": [
     "Native builds for PC, mobile and Switch.",
     "Static recompilation of the GameCube game.",
@@ -56,27 +56,27 @@ export const sonicRidersRecomp: Port = {
   "downloads": [
     {
       "label": "Windows",
-      "url": "https://github.com/teclilla18/sonic-riders-recomp/releases/download/v0.7.3/SonicRiders-PC-Setup-v0.7.3.zip",
+      "url": "https://github.com/teclilla18/sonic-riders-recomp/releases/download/v0.8.0/SonicRiders-PC-Setup-v0.8.0.zip",
       "note": "Windows · setup"
     },
     {
       "label": "Linux",
-      "url": "https://github.com/teclilla18/sonic-riders-recomp/releases/download/v0.7.3/SonicRiders-Linux-Setup-v0.7.3.zip",
+      "url": "https://github.com/teclilla18/sonic-riders-recomp/releases/download/v0.8.0/SonicRiders-Linux-Setup-v0.8.0.zip",
       "note": "Linux · setup"
     },
     {
       "label": "Android",
-      "url": "https://github.com/teclilla18/sonic-riders-recomp/releases/download/v0.7.3/SonicRiders-Android-Setup-v0.7.3.zip",
+      "url": "https://github.com/teclilla18/sonic-riders-recomp/releases/download/v0.8.0/SonicRiders-Android-Setup-v0.8.0.zip",
       "note": "Android · setup"
     },
     {
       "label": "iOS",
-      "url": "https://github.com/teclilla18/sonic-riders-recomp/releases/download/v0.7.3/SonicRiders-iOS-Setup-v0.7.3.zip",
+      "url": "https://github.com/teclilla18/sonic-riders-recomp/releases/download/v0.8.0/SonicRiders-iOS-Setup-v0.8.0.zip",
       "note": "iOS · setup"
     },
     {
       "label": "Nintendo Switch",
-      "url": "https://github.com/teclilla18/sonic-riders-recomp/releases/download/v0.7.3/SonicRiders-Switch-Setup-v0.7.3.zip",
+      "url": "https://github.com/teclilla18/sonic-riders-recomp/releases/download/v0.8.0/SonicRiders-Switch-Setup-v0.8.0.zip",
       "note": "Switch · homebrew"
     }
   ],

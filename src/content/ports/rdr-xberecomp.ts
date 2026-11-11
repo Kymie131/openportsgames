@@ -19,8 +19,8 @@ export const rdrXberecomp: Port = {
   ],
   "status": "beta",
   "release": {
-    "version": "1.0.0",
-    "date": "2026-11-07"
+    "version": "2.0.0",
+    "date": "2026-11-11"
   },
   "sources": [
     "https://github.com/TGP482/RDR-XBERecomp"
@@ -37,8 +37,8 @@ export const rdrXberecomp: Port = {
   ],
   "summary": "Red Dead Revolver is a 2004 third-person shooter developed by Rockstar San Diego and published by Rockstar Games. It follows bounty hunter Red Harlow in the Old West.",
   "summaryEs": "Red Dead Revolver es un shooter en tercera persona de 2004 desarrollado por Rockstar San Diego y publicado por Rockstar Games. Sigue al cazarrecompensas Red Harlow en el Viejo Oeste.",
-  "notes": "Unofficial native PC port of the original Xbox version of Red Dead Revolver via static recompilation. Bring your own game files; no game data is included. Latest release: V1.",
-  "notesEs": "Port nativo no oficial para PC de la versión original de Xbox de Red Dead Revolver mediante recompilación estática. Aporta tus propios archivos del juego; no incluye datos del juego. Última release: V1.",
+  "notes": "Unofficial native PC port of the original Xbox version of Red Dead Revolver via static recompilation. Bring your own game files; no game data is included. Latest release: V2.",
+  "notesEs": "Port nativo no oficial para PC de la versión original de Xbox de Red Dead Revolver mediante recompilación estática. Aporta tus propios archivos del juego; no incluye datos del juego. Última release: V2.",
   "features": [
     "Native Windows build.",
     "Static recompilation of the Xbox game.",
@@ -52,7 +52,7 @@ export const rdrXberecomp: Port = {
   "downloads": [
     {
       "label": "Windows x64",
-      "url": "https://github.com/TGP482/RDR-XBERecomp/releases/download/V1/RDR-XBERecomp.zip",
+      "url": "https://github.com/TGP482/RDR-XBERecomp/releases/download/V2/RDR-XBERecomp.zip",
       "note": "Windows · x64"
     }
   ],
