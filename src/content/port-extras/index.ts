@@ -12,13 +12,16 @@ import videos from "./videos.json";
 export type PortExtras = Partial<
   Pick<Port, "releases" | "videos" | "updatedAt" | "screenshots">
 > & {
-  installGuide?: Port["installGuide"];
+  installGuide?: Partial<NonNullable<Port["installGuide"]>>;
 };
 
 type ExtrasMap = Record<string, PortExtras>;
 type InstallGuide = NonNullable<Port["installGuide"]>;
 
-function mergeGuide(base: InstallGuide, extra: InstallGuide): InstallGuide {
+function mergeGuide(
+  base: Partial<InstallGuide>,
+  extra: Partial<InstallGuide>,
+): Partial<InstallGuide> {
   return {
     ...base,
     ...extra,
@@ -79,11 +82,10 @@ export function applyPortExtras(raw: unknown): unknown {
 
   const base = raw as Record<string, unknown>;
   const baseGuide = base.installGuide as InstallGuide | undefined;
-  const guide = extra.installGuide
-    ? baseGuide
-      ? { ...extra.installGuide, ...baseGuide }
-      : extra.installGuide
-    : undefined;
+  const mergedGuide =
+    extra.installGuide || baseGuide ? { ...extra.installGuide, ...baseGuide } : undefined;
+  // The schema requires at least one step, so extras alone cannot create a guide.
+  const guide = mergedGuide?.steps?.length ? (mergedGuide as InstallGuide) : undefined;
   const screenshots = [
     ...(Array.isArray(base.screenshots) ? base.screenshots : []),
     ...(extra.screenshots ?? []),

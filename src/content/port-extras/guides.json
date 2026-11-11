@@ -1,30 +1,52 @@
 {
   "ship-of-harkinian": {
     "installGuide": {
-      "steps": [
-        "Dump your own copy of Ocarina of Time and check it with the compatibility checker at ship.equipment.",
-        "Download the build for your platform from the project's Releases page (desktop zip or Android APK).",
-        "Windows: extract the zip and run soh.exe. Linux: run the AppImage. macOS: open soh.app. Android: install the APK.",
-        "When prompted, select your game ROM. The game converts it into oot.o2r and starts.",
-        "Adjust graphics, audio and controls in the in-game menu, then play."
-      ],
-      "stepsEs": [
-        "Haz tu propio volcado de Ocarina of Time y verifícalo con el comprobador de ship.equipment.",
-        "Descarga la versión para tu plataforma desde la página de Releases (zip de escritorio o APK de Android).",
-        "Windows: descomprime el zip y ejecuta soh.exe. Linux: ejecuta el AppImage. macOS: abre soh.app. Android: instala el APK.",
-        "Cuando lo pida, selecciona tu ROM. El juego la convierte en oot.o2r y arranca.",
-        "Ajusta gráficos, audio y controles en el menú del juego y empieza a jugar."
-      ],
       "controls": [
-        { "input": "WASD", "action": "Analog stick", "actionEs": "Stick analógico" },
-        { "input": "Arrow keys", "action": "C buttons", "actionEs": "Botones C" },
-        { "input": "X", "action": "A button", "actionEs": "Botón A" },
-        { "input": "C", "action": "B button", "actionEs": "Botón B" },
-        { "input": "Z", "action": "Z trigger", "actionEs": "Gatillo Z" },
-        { "input": "Space", "action": "Start", "actionEs": "Start" },
-        { "input": "TFGH", "action": "D-Pad", "actionEs": "Cruceta" },
-        { "input": "F11", "action": "Toggle fullscreen", "actionEs": "Pantalla completa" },
-        { "input": "F1", "action": "Toggle menubar", "actionEs": "Mostrar u ocultar el menú" }
+        {
+          "input": "WASD",
+          "action": "Analog stick",
+          "actionEs": "Stick analógico"
+        },
+        {
+          "input": "Arrow keys",
+          "action": "C buttons",
+          "actionEs": "Botones C"
+        },
+        {
+          "input": "X",
+          "action": "A button",
+          "actionEs": "Botón A"
+        },
+        {
+          "input": "C",
+          "action": "B button",
+          "actionEs": "Botón B"
+        },
+        {
+          "input": "Z",
+          "action": "Z trigger",
+          "actionEs": "Gatillo Z"
+        },
+        {
+          "input": "Space",
+          "action": "Start",
+          "actionEs": "Start"
+        },
+        {
+          "input": "TFGH",
+          "action": "D-Pad",
+          "actionEs": "Cruceta"
+        },
+        {
+          "input": "F11",
+          "action": "Toggle fullscreen",
+          "actionEs": "Pantalla completa"
+        },
+        {
+          "input": "F1",
+          "action": "Toggle menubar",
+          "actionEs": "Mostrar u ocultar el menú"
+        }
       ],
       "knownIssues": [
         "If the game crashes on launch, switch the graphics backend between DirectX 11, OpenGL and Metal in the Settings menu."
