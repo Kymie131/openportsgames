@@ -27,6 +27,7 @@ import { SystemMark } from "@/components/platforms/system-mark";
 import { SystemBadge } from "@/components/platforms/system-badge";
 import { Button } from "@/components/ui/button";
 import { ScreenshotFrame } from "@/components/ports/screenshot-frame";
+import { VideoEmbed } from "@/components/ports/video-embed";
 import { consoleLogoForSystem } from "@/content/ports/console-logos";
 import { isPixelArtSystem } from "@/lib/ports/images";
 import { formatDate } from "@/lib/dates";
@@ -65,18 +66,6 @@ function lastUpdated(port: Port): string | undefined {
   ].filter((date): date is string => Boolean(date));
 
   return dates.length > 0 ? dates.sort().at(-1) : undefined;
-}
-
-/** Uses the stored thumbnail or derives it from a YouTube URL. */
-function videoThumbnail(video: NonNullable<Port["videos"]>[number]): string | undefined {
-  if (video.thumbnail) return video.thumbnail;
-
-  const match =
-    /(?:youtube\.com\/(?:watch\?(?:.*&)?v=|embed\/|shorts\/|live\/)|youtu\.be\/)([\w-]{6,})/.exec(
-      video.url,
-    );
-
-  return match ? `https://i.ytimg.com/vi/${match[1]}/hqdefault.jpg` : undefined;
 }
 
 export function PortDetail({
@@ -557,45 +546,17 @@ export function PortDetail({
           <h2 id="videos-heading" className="text-lg font-semibold tracking-tight">
             {t.detail.videos}
           </h2>
-          <ul className="grid gap-3 sm:grid-cols-2">
-            {port.videos.map((video) => {
-              const thumbnail = videoThumbnail(video);
-              return (
-                <li key={video.url}>
-                  <a
-                    href={video.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-surface-2/40 transition-colors hover:border-accent/50"
-                  >
-                    <div className="relative aspect-video overflow-hidden bg-surface">
-                      {thumbnail && (
-                        // eslint-disable-next-line @next/next/no-img-element
-                        <img
-                          src={thumbnail}
-                          alt=""
-                          loading="lazy"
-                          decoding="async"
-                          referrerPolicy="no-referrer"
-                          className="size-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
-                        />
-                      )}
-                      <span className="absolute inset-0 flex items-center justify-center">
-                        <span className="flex size-11 items-center justify-center rounded-full bg-black/60 text-white shadow-lg backdrop-blur-sm">
-                          <Play className="size-5 translate-x-[1px]" aria-hidden="true" />
-                        </span>
-                      </span>
-                    </div>
-                    <span className="flex flex-col gap-0.5 p-3">
-                      <span className="line-clamp-2 text-sm font-medium text-foreground">
-                        {video.title}
-                      </span>
-                      {video.author && <span className="text-xs text-muted">{video.author}</span>}
-                    </span>
-                  </a>
-                </li>
-              );
-            })}
+          <ul className="grid gap-4 sm:grid-cols-2">
+            {port.videos.map((video) => (
+              <li key={video.url} className="flex flex-col gap-2">
+                <VideoEmbed
+                  url={video.url}
+                  title={video.title}
+                  thumbnail={video.thumbnail}
+                />
+                <p className="line-clamp-2 text-sm font-medium text-foreground">{video.title}</p>
+              </li>
+            ))}
           </ul>
         </section>
       )}

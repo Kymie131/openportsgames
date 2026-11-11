@@ -1,32 +1,9 @@
 {
-  "2-ship-2-harkinian-2s2h": {
-    "videos": [
-      {
-        "url": "https://www.youtube.com/watch?v=0FjXjM6JWe8",
-        "title": "2Ship2Harkinian Setup Guide (V1.1) - How to Play the Majora's Mask PC Port",
-        "author": "Klink",
-        "thumbnail": "https://i.ytimg.com/vi/0FjXjM6JWe8/hqdefault.jpg"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=IWk6DEO3qEE",
-        "title": "How to Install 2 Ship 2 Harkinian 2026 Guide Majoras Mask PC Port",
-        "author": "Extra Large Fruit Beverage",
-        "thumbnail": "https://i.ytimg.com/vi/IWk6DEO3qEE/hqdefault.jpg"
-      }
-    ]
-  },
   "arefdsg-mk64recomp": {
     "videos": [
       {
-        "url": "https://www.youtube.com/watch?v=jr5vnityH7Y",
-        "title": "Mario Kart 64: Recompiled + HD Texture Pack - Installation & Gameplay",
-        "author": "PC Master Race Latinoamérica (Pey)",
-        "thumbnail": "https://i.ytimg.com/vi/jr5vnityH7Y/hqdefault.jpg"
-      },
-      {
         "url": "https://www.youtube.com/watch?v=6sf0Z5ErdO4",
         "title": "Mario Kart 64 in 4K! Recompiled PC Version with HD Textures",
-        "author": "jdlmon64",
         "thumbnail": "https://i.ytimg.com/vi/6sf0Z5ErdO4/hqdefault.jpg"
       }
     ]
@@ -36,14 +13,7 @@
       {
         "url": "https://www.youtube.com/watch?v=kCwCSRkVe7g",
         "title": "Banjo: Recompiled (Banjo Kazooie Native PC Port) Full Game Longplay 100% Completed - no commentary",
-        "author": "Pixel Claws Gaming Archive",
         "thumbnail": "https://i.ytimg.com/vi/kCwCSRkVe7g/hqdefault.jpg"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=0906Cz-59eU",
-        "title": "Banjo: Recompiled Release Trailer (Banjo-Kazooie PC Port!)",
-        "author": "Wiseguy",
-        "thumbnail": "https://i.ytimg.com/vi/0906Cz-59eU/hqdefault.jpg"
       }
     ]
   },
@@ -52,14 +22,7 @@
       {
         "url": "https://www.youtube.com/watch?v=s7XxNtWEmOE",
         "title": "Burnout 3: Takedown Recomp/Native PC Port in 4K60FPS with higher framerate support with Takedawn",
-        "author": "Z",
         "thumbnail": "https://i.ytimg.com/vi/s7XxNtWEmOE/hqdefault.jpg"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=x358zpfk_Bw",
-        "title": "Burnout 3 Takedown PS2 Recomp: Native PC Port | Update 1",
-        "author": "Cammie",
-        "thumbnail": "https://i.ytimg.com/vi/x358zpfk_Bw/hqdefault.jpg"
       }
     ]
   },
@@ -68,13 +31,11 @@
       {
         "url": "https://www.youtube.com/watch?v=ffVh-s0tHRo",
         "title": "Conker's Bad Fur Day Recompiled. Testing Out Quick PlayThrough.    Intel Xeon X3480 & Radeon 6700 XT",
-        "author": "larry braun",
         "thumbnail": "https://i.ytimg.com/vi/ffVh-s0tHRo/hqdefault.jpg"
       },
       {
         "url": "https://www.youtube.com/watch?v=qzHfAebMhV4",
         "title": "CONKER'S BAD FUR DAY (Uncensored) - Perfect Recompiled Version: PC (4K UHD 60fps, ULTRA PERFORMANCE)",
-        "author": "DVDfeverGames",
         "thumbnail": "https://i.ytimg.com/vi/qzHfAebMhV4/hqdefault.jpg"
       }
     ]
@@ -84,7 +45,6 @@
       {
         "url": "https://www.youtube.com/watch?v=GWPvFvfHB_Y",
         "title": "Dead or Alive 4 Online PC Recomp Netplay Match",
-        "author": "dwreck",
         "thumbnail": "https://i.ytimg.com/vi/GWPvFvfHB_Y/hqdefault.jpg"
       }
     ]
@@ -94,7 +54,6 @@
       {
         "url": "https://www.youtube.com/watch?v=Lq1XBVfE-nQ",
         "title": "Demon's Souls (Soulbrandt - Native PC Port) - THE FIRST HOUR!",
-        "author": "POWER'D UP!",
         "thumbnail": "https://i.ytimg.com/vi/Lq1XBVfE-nQ/hqdefault.jpg"
       }
     ]
@@ -104,14 +63,7 @@
       {
         "url": "https://www.youtube.com/watch?v=HTIQW67gjmM",
         "title": "Gears of War 2 Native PC Port (Recompiled)",
-        "author": "Fisher The Gamer Highlights",
         "thumbnail": "https://i.ytimg.com/vi/HTIQW67gjmM/hqdefault.jpg"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=5oVCXbwNgoU",
-        "title": "Gears of War 2 PC Port Out Now! And Its AMAZING",
-        "author": "Video Game Esoterica",
-        "thumbnail": "https://i.ytimg.com/vi/5oVCXbwNgoU/hqdefault.jpg"
       }
     ]
   },
@@ -120,7 +72,6 @@
       {
         "url": "https://www.youtube.com/watch?v=T2BNvXMOUQc",
         "title": "Metroid Prime PC Port Out NOW! And It's Pretty Solid",
-        "author": "Video Game Esoterica",
         "thumbnail": "https://i.ytimg.com/vi/T2BNvXMOUQc/hqdefault.jpg"
       }
     ]
@@ -130,13 +81,11 @@
       {
         "url": "https://www.youtube.com/watch?v=5wP1UeYbkNM",
         "title": "Metroid: Samus Returns (Native PC Port) - THE FIRST HOUR",
-        "author": "POWER'D UP!",
         "thumbnail": "https://i.ytimg.com/vi/5wP1UeYbkNM/hqdefault.jpg"
       },
       {
         "url": "https://www.youtube.com/watch?v=pVmtV6K0Sq8",
         "title": "Fantastic Metroid Samus Returns (3DS) PC Port - Single screen, 4K 120 FPS, HD Textures",
-        "author": "Gaming Mode",
         "thumbnail": "https://i.ytimg.com/vi/pVmtV6K0Sq8/hqdefault.jpg"
       }
     ]
@@ -144,15 +93,8 @@
   "midnight-club-3-dub-remix": {
     "videos": [
       {
-        "url": "https://www.youtube.com/watch?v=1RA7DpBaCY8",
-        "title": "Midnight Club 3 OFFICIALLY Now Has a PC PORT 😍 (Recomp)",
-        "author": "$𝖊𝖑𝖋'𝖒𝖎𝖓𝖉𝖊𝖉 ♔",
-        "thumbnail": "https://i.ytimg.com/vi/1RA7DpBaCY8/hqdefault.jpg"
-      },
-      {
         "url": "https://www.youtube.com/watch?v=LugrJF0wUmc",
         "title": "Midnight Club 3: DUB Edition PC Port (Xbox Classic)",
-        "author": "Gaming Mode",
         "thumbnail": "https://i.ytimg.com/vi/LugrJF0wUmc/hqdefault.jpg"
       }
     ]
@@ -162,7 +104,6 @@
       {
         "url": "https://www.youtube.com/watch?v=sAMY8c1ihvo",
         "title": "Perfect Dark PC Port - Unlocked Framerate Support",
-        "author": "Graslu00",
         "thumbnail": "https://i.ytimg.com/vi/sAMY8c1ihvo/hqdefault.jpg"
       }
     ]
@@ -170,16 +111,9 @@
   "panzer-dragoon-orta-recompiled": {
     "videos": [
       {
-        "url": "https://www.youtube.com/watch?v=anEuBbFNsSU",
-        "title": "PANZER DRAGOON ORTA IS FINALLY ON PC! 🐉🔥 Xbox Native Recompilation | DOWNLOAD",
-        "author": "KordeliaYT",
-        "thumbnail": "https://i.ytimg.com/vi/anEuBbFNsSU/hqdefault.jpg"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=MNAQCNYGVeE",
-        "title": "Panzer Dragoon Orta Got Two Native PC Ports in Nine Days",
-        "author": "NeuralDisc",
-        "thumbnail": "https://i.ytimg.com/vi/MNAQCNYGVeE/hqdefault.jpg"
+        "url": "https://www.youtube.com/watch?v=2-Gc22zMPY8",
+        "title": "Panzer Dragoon Orta Playthrough Part 1 - Recompiled Xbox PC Port (4K Upscaled 60FPS)",
+        "thumbnail": "https://i.ytimg.com/vi/2-Gc22zMPY8/hqdefault.jpg"
       }
     ]
   },
@@ -188,7 +122,6 @@
       {
         "url": "https://www.youtube.com/watch?v=zmW0fysGG4s",
         "title": "Resident Evil 4 GC fully Recompiled & ported to native PC & Mobile",
-        "author": "AyanoWorld",
         "thumbnail": "https://i.ytimg.com/vi/zmW0fysGG4s/hqdefault.jpg"
       }
     ]
@@ -196,16 +129,9 @@
   "ship-of-harkinian": {
     "videos": [
       {
-        "url": "https://www.youtube.com/watch?v=uOzA_p8s8hc",
-        "title": "Ship of Harkinian + 3DS Experience Setup Guide and My Settings",
-        "author": "Klink",
-        "thumbnail": "https://i.ytimg.com/vi/uOzA_p8s8hc/hqdefault.jpg"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=cPpwzSkCItQ",
-        "title": "Ship of Harkinian ⚔️ Ocarina of Time PC Port - Ultimate Mod Pack 🔥",
-        "author": "Dr. Dave 64",
-        "thumbnail": "https://i.ytimg.com/vi/cPpwzSkCItQ/hqdefault.jpg"
+        "url": "https://www.youtube.com/watch?v=ZYfT7Yfj8U4",
+        "title": "Ship Of Harkinian Ocarina Of Time HD 60 FPS [100% Walkthrough] Gameplay Episode 1 (No Commentary)",
+        "thumbnail": "https://i.ytimg.com/vi/ZYfT7Yfj8U4/hqdefault.jpg"
       }
     ]
   },
@@ -214,7 +140,6 @@
       {
         "url": "https://www.youtube.com/watch?v=Lr1vUy9GKzM",
         "title": "(Pc Port) Sonic Adventure 2 - v1.1.0 (By sonsegajp)",
-        "author": "Dominater01",
         "thumbnail": "https://i.ytimg.com/vi/Lr1vUy9GKzM/hqdefault.jpg"
       }
     ]
@@ -224,45 +149,15 @@
       {
         "url": "https://www.youtube.com/watch?v=gG4PG23LLxY",
         "title": "⚠️SOULCALIBUR II HD ONLINE RECOMPILED |XBOX RARE ARCADE to PC| -TEST WINDOWS 11⚠️GAMEPLAY 60FPS",
-        "author": "SNAkE KIMBO 👍 -TEST JEU-TUTORIELs PC / CONSOLE ⚠️",
         "thumbnail": "https://i.ytimg.com/vi/gG4PG23LLxY/hqdefault.jpg"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=YnUnWWWiif0",
-        "title": "SoulCalibur II Just Got a Native PC Recomp! RingOut Is INSANE!",
-        "author": "ZEROstig",
-        "thumbnail": "https://i.ytimg.com/vi/YnUnWWWiif0/hqdefault.jpg"
-      }
-    ]
-  },
-  "spyro-the-dragon-recomp": {
-    "videos": [
-      {
-        "url": "https://www.youtube.com/watch?v=yFeAYPMFWDI",
-        "title": "Spyro The Dragon PS1 Gets NATIVE PC Port - A True HD Remaster",
-        "author": "TheGamersJoint",
-        "thumbnail": "https://i.ytimg.com/vi/yFeAYPMFWDI/hqdefault.jpg"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=LPORP69BOMA",
-        "title": "How to Install Spyro the Dragon 1 Fan PC Port",
-        "author": "History and Reviews",
-        "thumbnail": "https://i.ytimg.com/vi/LPORP69BOMA/hqdefault.jpg"
       }
     ]
   },
   "street-fighter-iii-3rd-strike-oe": {
     "videos": [
       {
-        "url": "https://www.youtube.com/watch?v=an7ePrziy80",
-        "title": "Street Fighter 3 Third Strike Online Edition (Xbox360) Recompiled For Pc",
-        "author": "Özgür Güvenç",
-        "thumbnail": "https://i.ytimg.com/vi/an7ePrziy80/hqdefault.jpg"
-      },
-      {
         "url": "https://www.youtube.com/watch?v=Kg8WvFUVAOs",
         "title": "Street Fighter 3 - 3rd Strike (PS2) Recompilado: Rodando nativamente no PC",
-        "author": "Arquivista . exe",
         "thumbnail": "https://i.ytimg.com/vi/Kg8WvFUVAOs/hqdefault.jpg"
       }
     ]
@@ -272,7 +167,6 @@
       {
         "url": "https://www.youtube.com/watch?v=JbCg952KZls",
         "title": "(Pc Port) Super Monkey Ball Deluxe - v2.0 (By timftw21)",
-        "author": "Dominater01",
         "thumbnail": "https://i.ytimg.com/vi/JbCg952KZls/hqdefault.jpg"
       }
     ]
@@ -280,16 +174,9 @@
   "twilight-princess-dusklight-dual-screen": {
     "videos": [
       {
-        "url": "https://www.youtube.com/watch?v=9ivusJVCtFk",
-        "title": "Dusklight 2.0 Setup: The Best Way to Play Zelda Twilight Princess on PC",
-        "author": "N-tertainment X-tended",
-        "thumbnail": "https://i.ytimg.com/vi/9ivusJVCtFk/hqdefault.jpg"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=0BwalqTBSDM",
-        "title": "How to play the new Twilight Princess pc port (Dusklight)",
-        "author": "N-tertainment X-tended",
-        "thumbnail": "https://i.ytimg.com/vi/0BwalqTBSDM/hqdefault.jpg"
+        "url": "https://www.youtube.com/watch?v=CB6Xldk09Ws",
+        "title": "The Legend of Zelda: Twilight Princess (Dusklight PC Port) 100% Completed - 4K 60FPS - no commentary",
+        "thumbnail": "https://i.ytimg.com/vi/CB6Xldk09Ws/hqdefault.jpg"
       }
     ]
   },
@@ -298,13 +185,11 @@
       {
         "url": "https://www.youtube.com/watch?v=ejKWqI7MP0M",
         "title": "Xenoblade Chronicles 2 Native PC port (XC2 Recomp 0.1.0)",
-        "author": "r1r2",
         "thumbnail": "https://i.ytimg.com/vi/ejKWqI7MP0M/hqdefault.jpg"
       },
       {
         "url": "https://www.youtube.com/watch?v=X25eNvYrS98",
         "title": "Xenoblade Chronicles 2 Native PC Port (Recomp 0.1.11)",
-        "author": "r1r2",
         "thumbnail": "https://i.ytimg.com/vi/X25eNvYrS98/hqdefault.jpg"
       }
     ]
@@ -314,13 +199,11 @@
       {
         "url": "https://www.youtube.com/watch?v=twuPlSeIBrQ",
         "title": "Xenoblade Chronicles X Definitive Edition | NATIVE PC PORT | RYZEN 5 5600 | AMD RX 6800",
-        "author": "DanGamingandTweaks",
         "thumbnail": "https://i.ytimg.com/vi/twuPlSeIBrQ/hqdefault.jpg"
       },
       {
         "url": "https://www.youtube.com/watch?v=W3U67cen50k",
         "title": "Xenoblade Chronicles X: Definitive Edition PC Port on GTX 1650 Super",
-        "author": "Irpan Hilmi",
         "thumbnail": "https://i.ytimg.com/vi/W3U67cen50k/hqdefault.jpg"
       }
     ]
@@ -330,7 +213,6 @@
       {
         "url": "https://www.youtube.com/watch?v=WeJnOffuzFY",
         "title": "Recomp Xenoblade DE native on PC",
-        "author": "Mo Fu",
         "thumbnail": "https://i.ytimg.com/vi/WeJnOffuzFY/hqdefault.jpg"
       }
     ]

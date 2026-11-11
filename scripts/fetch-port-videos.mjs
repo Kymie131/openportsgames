@@ -29,8 +29,24 @@ const HEADERS = {
   "accept-language": "en-US,en;q=0.9",
 };
 
-const REJECT = ["emulator", "emulador", "dolphin", "leak", "#shorts", "gameplay walkthrough part"];
-const BONUS = ["recomp", "recompiled", "native", "install", "setup", "pc port", "port nativo"];
+const REJECT = [
+  "emulator",
+  "emulador",
+  "dolphin",
+  "leak",
+  "#shorts",
+  "install",
+  "setup",
+  "how to",
+  "trailer",
+  "review",
+  "news",
+  "update",
+  "download",
+  "tutorial",
+];
+// Only in-game footage is published: no tutorials, trailers or commentary.
+const GAMEPLAY = ["gameplay", "longplay", "walkthrough", "first hour", "netplay", "4k", "60fps"];
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -82,11 +98,11 @@ function score(title, candidate) {
   const lower = title.toLowerCase();
   if (candidate.must.some((token) => !lower.includes(token.toLowerCase()))) return -1;
   if (REJECT.some((token) => lower.includes(token))) return -1;
+  if (!GAMEPLAY.some((token) => lower.includes(token))) return -1;
   if ((candidate.exclude ?? []).some((token) => lower.includes(token.toLowerCase()))) return -1;
 
   const base = candidate.must.filter((token) => lower.includes(token.toLowerCase())).length * 2;
-  const bonus = BONUS.filter((token) => lower.includes(token)).length;
-  return base + bonus;
+  return base + GAMEPLAY.filter((token) => lower.includes(token)).length;
 }
 
 for (const candidate of candidates) {
@@ -117,7 +133,6 @@ for (const candidate of candidates) {
       video: {
         url,
         title: data.title,
-        author: data.author_name,
         thumbnail: `https://i.ytimg.com/vi/${id}/hqdefault.jpg`,
       },
     });

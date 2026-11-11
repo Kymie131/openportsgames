@@ -77,7 +77,7 @@
     "port_extras": [
       "per-port install guide with controls and known issues in src/content/port-extras/guides.json",
       "release history from GitHub releases plus visible last-updated date (releases.json)",
-      "YouTube videos validated with oEmbed (videos.json)",
+      "gameplay clips embedded with youtube-nocookie, no channel names or outbound links (videos.json)",
       "extras are merged in src/lib/ports/index.ts, content files always win",
       "batches: npm run check:extras -- --limit 35 [--offset N]; videos: npm run check:videos"
     ],
@@ -198,7 +198,7 @@
     "Reviews are comments with sentiment; multiple reviews per user are possible and can skew percentages.",
     "No email notifications, chat, or real-time updates.",
     "Guides are one page with sections, not separate pages.",
-    "Port extras are a pilot batch (58 release histories, 7 guides, 14 video sets). Run the batch scripts to widen coverage.",
+    "Port extras are a pilot batch (116 release histories, 7 guides, 22 ports with gameplay clips). Run the batch scripts to widen coverage.",
     "Moderation lacks audit log, search in reports, bulk actions, and author notifications."
   ],
   "pending_requirements": [
