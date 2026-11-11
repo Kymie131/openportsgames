@@ -3,6 +3,18 @@ import type { TestRecord } from "@/lib/ports/schema";
 export const testRecords: TestRecord[] = [
   {
     schema: "test",
+    id: "aerofoil-android-primary-2026-11-11",
+    portId: "aerofoil-android",
+    testerId: "Kymie131",
+    hardwareId: "android-primary",
+    date: "2026-11-11",
+    version: "1.1.7",
+    result: "pass",
+    notes:
+      "Installed and played on Android: it launches and runs correctly, and no copy of the original game is required.",
+  },
+  {
+    schema: "test",
     id: "downpour-recomp-pc-primary-2026-09-23",
     portId: "downpour-recomp",
     testerId: "Kymie131",
