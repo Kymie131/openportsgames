@@ -22,7 +22,7 @@ export const spaghettikartAndroid: Port = {
   originalSystems: ["Nintendo 64"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/izzy2lost/SpaghettiKart/releases/download/2.0.0/app-release.apk",
       size: "32.6 MB",
     },

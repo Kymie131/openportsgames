@@ -26,7 +26,7 @@ export const bottomlessBlockBarrage3ds: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "bottomless-block-barrage",
+      label: "3ds",
       url: "https://github.com/TricksterGuy/bottomless-block-barrage/releases/download/v0.2.0/bottomless-block-barrage.zip",
       size: "694 KB",
     },

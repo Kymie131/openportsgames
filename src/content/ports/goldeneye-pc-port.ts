@@ -24,14 +24,14 @@ export const GoldeneyePcPort: Port = {
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   downloads: [
     {
-      label: "goldeneye-pc-port-0.5.0-linux-x86_64",
-      url: "https://github.com/jkdansereau/goldeneye-pc-port/releases/download/v0.5.0/goldeneye-pc-port-0.5.0-linux-x86_64.tar.gz",
-      size: "11.0 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/jkdansereau/goldeneye-pc-port/releases/download/v0.5.0/goldeneye-pc-port-0.5.0-win64.zip",
       size: "16.4 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/jkdansereau/goldeneye-pc-port/releases/download/v0.5.0/goldeneye-pc-port-0.5.0-linux-x86_64.tar.gz",
+      size: "11.0 MB",
     },
   ],
   cover: {

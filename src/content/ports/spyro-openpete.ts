@@ -52,15 +52,9 @@ export const spyroOpenPete: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
-      "url": "https://dl.openpete.com/openpete-v0.4.3.zip",
-      "note": "Windows Â· x64"
-    },
-    {
-      "label": "Linux AppImage",
+      "label": "Linux",
       "url": "https://dl.openpete.com/OpenPete-v0.4.3-x86_64.AppImage",
-      "note": "Linux Â· AppImage"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/boxart/spyro-openpete.png",

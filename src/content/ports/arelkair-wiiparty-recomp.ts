@@ -25,19 +25,14 @@ export const arelkairWiipartyRecomp: Port = {
   summaryEs: "Wii Party es un videojuego party desarrollado y distribuido por Nintendo para la consola de videojuegos Wii. Contiene bastantes elementos del sistema de juego de la serie Mario Party, otra franquicia de Nintendo. Asimismo, es el único videojuego de la serie Wii que Shigeru Miyamoto no produjo.",
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/arelkair/wiiparty-recomp/releases/download/v0.1.19-alpha/wiipartyrecomp-launcher-x86_64.AppImage",
-      size: "3.3 MB",
-    },
-    {
-      label: "Windows EXE",
-      url: "https://github.com/arelkair/wiiparty-recomp/releases/download/v0.1.19-alpha/wiipartyrecomp-launcher.exe",
-      size: "4.9 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/arelkair/wiiparty-recomp/releases/download/v0.1.19-alpha/wiipartyrecomp-offline-windows.zip",
       size: "176.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/arelkair/wiiparty-recomp/releases/download/v0.1.19-alpha/wiipartyrecomp-launcher.exe",
+      size: "4.9 MB",
     },
   ],
   cover: {

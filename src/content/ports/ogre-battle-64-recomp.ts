@@ -34,6 +34,11 @@ export const ogreBattle64Recomp: Port = {
     "Recompilación de Ogre Battle 64; el jugador aporta su propio juego obtenido legalmente.",
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/lfarroco/ogre-battle-64-recomp/releases/download/v0.9.1/ogre-battle-64-recomp-windows-x86_64.zip",
+      size: "16.4 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/lfarroco/ogre-battle-64-recomp/releases/download/v0.9.1/ogre-battle-64-recomp-linux-x86_64.tar.gz",
       size: "9.4 MB",
@@ -42,11 +47,6 @@ export const ogreBattle64Recomp: Port = {
       label: "macOS",
       url: "https://github.com/lfarroco/ogre-battle-64-recomp/releases/download/v0.9.1/ogre-battle-64-recomp-macos-arm64.tar.gz",
       size: "8.0 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/lfarroco/ogre-battle-64-recomp/releases/download/v0.9.1/ogre-battle-64-recomp-windows-x86_64.zip",
-      size: "16.4 MB",
     },
   ],
   cover: {

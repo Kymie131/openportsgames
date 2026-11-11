@@ -27,12 +27,12 @@ export const valdroid: Port = {
     "Lanzador no oficial para Android de Valheim. Requiere los archivos del juego de escritorio de tu propia copia.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/udarmolota/ValDroid/releases/download/0.1.4/valdroid-release-0.1.4.apk",
       size: "95.7 MB",
     },
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/udarmolota/ValDroid/releases/download/0.1.4/valdroid-release-0.1.4v2.apk",
       size: "95.7 MB",
     },

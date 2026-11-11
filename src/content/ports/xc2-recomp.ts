@@ -51,15 +51,13 @@ export const xc2Recomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/AksharDP/xc2-recomp/releases/download/v0.1.12/XC2-Setup-0.1.12-windows.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux AppImage",
+      "label": "Linux",
       "url": "https://github.com/AksharDP/xc2-recomp/releases/download/v0.1.12/XC2-Setup-0.1.12-linux.AppImage",
-      "note": "Linux · AppImage"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/xc2-recomp.jpg",

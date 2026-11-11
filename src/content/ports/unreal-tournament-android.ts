@@ -27,7 +27,7 @@ export const unrealTournamentAndroid: Port = {
     "Port a Android de Unreal Tournament 99 (v400) para dispositivos de 32 y 64 bits, jugable con mando, pantalla táctil o teclado y ratón. Necesita los archivos del juego original.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Andiweli/UT99-Android/releases/download/v2.3.1/UT99.2.3.1.apk",
       size: "6.6 MB",
     },

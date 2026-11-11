@@ -27,7 +27,7 @@ export const am2rAndroid: Port = {
     "Herramienta para Android que aplica un parche al remake AM2R 1.1 para convertirlo en una build moderna. Funciona con tu propia copia de los archivos de AM2R.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/PatchDev-AM2ARM/AM2R-Autopatcher-Android/releases/download/v1.5.5.14/AM2R-Autopatcher-1.5.5.14.apk",
       size: "615.1 MB",
     },

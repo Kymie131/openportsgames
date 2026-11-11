@@ -52,15 +52,13 @@ export const tmntIvTurtlesInTimePc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows installer",
+      "label": "Windows",
       "url": "https://github.com/emanuelcnjunior/TMNT-IV-Turtles-in-Time-PC-Recomp/releases/download/v1.0.2-linux-preview/TMNT-IV-Turtles-in-Time-PC-Setup-v1.0.2.exe",
-      "note": "Windows · installer"
     },
     {
-      "label": "Linux x86_64",
+      "label": "Linux",
       "url": "https://github.com/emanuelcnjunior/TMNT-IV-Turtles-in-Time-PC-Recomp/releases/download/v1.0.2-linux-preview/TMNT-IV-Turtles-in-Time-PC-v1.0.2-linux-x86_64.tar.gz",
-      "note": "Linux · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/tmnt-iv-turtles-in-time-pc.jpg",

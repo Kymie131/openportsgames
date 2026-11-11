@@ -50,10 +50,9 @@ export const sakuraWarsPs4rt: Port = {
   ],
   "downloads": [
     {
-      "label": "Linux x86_64",
+      "label": "Linux",
       "url": "https://github.com/HekamiAeon/Sakura-Wars-PS4RT/releases/download/v1.1/Sakura-Wars-PS4RT-29f8822-linux-x86_64.tar.gz",
-      "note": "Linux · x64"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/generated/sakura-wars-ps4rt.svg",

@@ -23,7 +23,7 @@ export const nfsMostWantedAndroid: Port = {
   related: ["nfs-most-wanted-recomp","nfs-most-wanted-decomp"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/codepdbh/nfsmw-android/releases/download/v0.8.2/NFSMW-Android-Evolved-v0.8.2-arm64.apk",
       size: "30.4 MB",
     },

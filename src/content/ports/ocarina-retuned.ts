@@ -58,35 +58,29 @@ export const ocarinaRetuned: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.4/Ocarina-ReTuned-0.6.3-Windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x86_64",
+      "label": "Linux",
       "url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.4/Ocarina-ReTuned-0.6.3-Linux-x86_64.tar.gz",
-      "note": "Linux · x64"
     },
     {
       "label": "macOS",
       "url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.4/Ocarina-ReTuned-0.6.3-Mac.zip",
-      "note": "macOS · universal"
     },
     {
-      "label": "Android arm64",
+      "label": "Android",
       "url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.4/Ocarina-ReTuned-0.6.4-Android-arm64.apk",
-      "note": "Android · APK"
     },
     {
-      "label": "iOS unsigned",
+      "label": "iOS",
       "url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.4/Ocarina-ReTuned-0.6.3-iOS-Unsigned.ipa",
-      "note": "iOS · IPA"
     },
     {
-      "label": "Nintendo Switch",
+      "label": "Switch",
       "url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/download/v0.6.4/Ocarina-ReTuned-0.6.3-Switch-Experimental.zip",
-      "note": "Switch · experimental"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/ocarina-retuned.png",

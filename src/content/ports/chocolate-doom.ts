@@ -50,26 +50,6 @@ export const chocolateDoom: Port = {
     "Port de código fuente minimalista de Doom que busca mantenerse fiel al Doom original sobre sistemas modernos. Los binarios publicados cubren Windows y macOS; el resto de sistemas se compilan desde el código.",
   downloads: [
     {
-      label: "macOS DMG",
-      url: "https://github.com/chocolate-doom/chocolate-doom/releases/download/chocolate-doom-3.1.1/chocolate-doom-3.1.1-arm64.dmg",
-      size: "6.3 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/chocolate-doom/chocolate-doom/releases/download/chocolate-doom-3.1.1/chocolate-doom-3.1.1-win64.zip",
-      size: "9.3 MB",
-    },
-    {
-      label: "macOS DMG",
-      url: "https://github.com/chocolate-doom/chocolate-doom/releases/download/chocolate-doom-3.1.1/chocolate-doom-3.1.1-x86.dmg",
-      size: "6.6 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/chocolate-doom/chocolate-doom/releases/download/chocolate-doom-3.1.1/chocolate-heretic-3.1.1-win64.zip",
-      size: "9.3 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/chocolate-doom/chocolate-doom/releases/download/chocolate-doom-3.1.1/chocolate-hexen-3.1.1-win64.zip",
       size: "9.4 MB",
@@ -78,6 +58,26 @@ export const chocolateDoom: Port = {
       label: "Windows",
       url: "https://github.com/chocolate-doom/chocolate-doom/releases/download/chocolate-doom-3.1.1/chocolate-strife-3.1.1-win64.zip",
       size: "9.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/chocolate-doom/chocolate-doom/releases/download/chocolate-doom-3.1.1/chocolate-doom-3.1.1-win64.zip",
+      size: "9.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/chocolate-doom/chocolate-doom/releases/download/chocolate-doom-3.1.1/chocolate-heretic-3.1.1-win64.zip",
+      size: "9.3 MB",
+    },
+    {
+      label: "macOS x86",
+      url: "https://github.com/chocolate-doom/chocolate-doom/releases/download/chocolate-doom-3.1.1/chocolate-doom-3.1.1-x86.dmg",
+      size: "6.6 MB",
+    },
+    {
+      label: "macOS arm64",
+      url: "https://github.com/chocolate-doom/chocolate-doom/releases/download/chocolate-doom-3.1.1/chocolate-doom-3.1.1-arm64.dmg",
+      size: "6.3 MB",
     },
   ],
   cover: {

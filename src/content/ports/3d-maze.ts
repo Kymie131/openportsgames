@@ -24,7 +24,7 @@ export const _3dMaze: Port = {
   summaryEs: "3D Maze es un videojuego de acción y aventura en 1982.",
   downloads: [
     {
-      label: "Playable3DMaze",
+      label: "Windows",
       url: "https://github.com/x86matthew/Playable3DMaze/releases/download/release_v1.0/Playable3DMaze.zip",
       size: "306 KB",
     },

@@ -53,7 +53,7 @@ export const zelda3: Port = {
   },
   downloads: [
     {
-      label: "zelda3_v0.3",
+      label: "Windows",
       url: "https://github.com/snesrev/zelda3/releases/download/v0.3/zelda3_v0.3.zip",
       size: "1.8 MB",
     },

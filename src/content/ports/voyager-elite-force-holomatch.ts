@@ -27,12 +27,12 @@ export const voyagerEliteForceHolomatch: Port = {
     "Port a Android del multijugador Holomatch de Star Trek: Voyager - Elite Force, con Vulkan, controles táctiles y mando. Necesita los archivos del juego original.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/imjustadudegamer/VoyagerHM-Android/releases/download/v0.9.8/VoyagerHM-0.9.8-malifix.apk",
       size: "5.2 MB",
     },
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/imjustadudegamer/VoyagerHM-Android/releases/download/v0.9.8/VoyagerHM-0.9.8.apk",
       size: "5.2 MB",
     },

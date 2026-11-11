@@ -27,14 +27,14 @@ export const snowboardKidsRecompiled: Port = {
     "Recompilación estática de Snowboard Kids (N64) con N64Recomp y el renderizador RT64. Requiere tus propios archivos del juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/boricuapab/snowboardkids-recompiled/releases/download/v1.1.0/SnowboardKidsRecompiled-Linux-1.1.0.zip",
-      size: "5.9 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/boricuapab/snowboardkids-recompiled/releases/download/v1.1.0/SnowboardKidsRecompiled-Windows-1.1.0.zip",
       size: "15.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/boricuapab/snowboardkids-recompiled/releases/download/v1.1.0/SnowboardKidsRecompiled-Linux-1.1.0.zip",
+      size: "5.9 MB",
     },
   ],
   cover: {

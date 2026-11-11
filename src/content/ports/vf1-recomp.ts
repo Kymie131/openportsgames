@@ -25,16 +25,6 @@ export const Vf1Recomp: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "VirtuaFighterRecomp-deck",
-      url: "https://github.com/mr-finster/vf1-recomp/releases/download/v1.7.0/VirtuaFighterRecomp-deck.tar.gz",
-      size: "7.3 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/mr-finster/vf1-recomp/releases/download/v1.7.0/VirtuaFighterRecomp-linux-arm64.tar.gz",
-      size: "6.4 MB",
-    },
-    {
       label: "macOS",
       url: "https://github.com/mr-finster/vf1-recomp/releases/download/v1.7.0/VirtuaFighterRecomp-mac.zip",
       size: "10.1 MB",
@@ -43,6 +33,11 @@ export const Vf1Recomp: Port = {
       label: "Windows",
       url: "https://github.com/mr-finster/vf1-recomp/releases/download/v1.7.0/VirtuaFighterRecomp-windows.zip",
       size: "7.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/mr-finster/vf1-recomp/releases/download/v1.7.0/VirtuaFighterRecomp-linux-arm64.tar.gz",
+      size: "6.4 MB",
     },
   ],
   cover: {

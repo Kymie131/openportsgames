@@ -23,14 +23,14 @@ export const spelunkyPspHomebrewRemake: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/dbeef/spelunky-psp/releases/download/v0.5/Spelunky_PSP_Android.apk",
-      size: "2.2 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/dbeef/spelunky-psp/releases/download/v0.5/Spelunky_PSP_Windows.zip",
       size: "12.0 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/dbeef/spelunky-psp/releases/download/v0.5/Spelunky_PSP_Android.apk",
+      size: "2.2 MB",
     },
   ],
   cover: {

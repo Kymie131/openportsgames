@@ -54,30 +54,21 @@ export const rampageTotalDestructionRe: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/jjmhalew/RampageRE/releases/download/v1.2.3/RampageRE-windows-v1.2.3.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x86_64",
+      "label": "Linux",
       "url": "https://github.com/jjmhalew/RampageRE/releases/download/v1.2.3/RampageRE-linux-x86_64-v1.2.3.tar.gz",
-      "note": "Linux · x64"
     },
     {
       "label": "Android",
       "url": "https://github.com/jjmhalew/RampageRE/releases/download/v1.2.3/RampageRE-android-v1.2.3.zip",
-      "note": "Android"
     },
     {
-      "label": "Nintendo Switch",
+      "label": "Switch",
       "url": "https://github.com/jjmhalew/RampageRE/releases/download/v1.2.3/RampageRE-switch-v1.2.3.zip",
-      "note": "Switch homebrew"
     },
-    {
-      "label": "PS Vita",
-      "url": "https://github.com/jjmhalew/RampageRE/releases/download/v1.2.3/RampageRE-vita-v1.2.3.zip",
-      "note": "PS Vita homebrew"
-    }
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/generated/rampage-total-destruction-re.svg",

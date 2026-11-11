@@ -22,7 +22,7 @@ export const beatBangerPsVita: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "BeatBangerPatcher",
+      label: "Psvita",
       url: "https://github.com/masteroga101/Beat-Banger-PsVita-/releases/download/v0.99/BeatBangerPatcher.7z",
       size: "87.5 MB",
     },

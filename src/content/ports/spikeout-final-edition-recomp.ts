@@ -53,20 +53,17 @@ export const spikeoutFinalEditionRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/tastyrepublic/spikeout-recomp/releases/download/v0.1.0-preview2/spikeout-0.1.0-preview2-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/tastyrepublic/spikeout-recomp/releases/download/v0.1.0-preview2/spikeout-0.1.0-preview2-linux-x64.tar.gz",
-      "note": "Linux · x64"
     },
     {
-      "label": "macOS arm64",
+      "label": "macOS",
       "url": "https://github.com/tastyrepublic/spikeout-recomp/releases/download/v0.1.0-preview2/spikeout-0.1.0-preview2-macos-arm64.zip",
-      "note": "macOS · Apple Silicon"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/spikeout-final-edition-recomp.jpg",

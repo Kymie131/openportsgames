@@ -26,11 +26,6 @@ export const needForSpeedCarbonSwitch: Port = {
       url: "https://github.com/antoxa2584x/nfsc-sw/releases/download/v0.2.4/NFS.Carbon.Xbox.recomp.0114926393270000.nsp",
       size: "371 KB",
     },
-    {
-      label: "Switch",
-      url: "https://github.com/antoxa2584x/nfsc-sw/releases/download/v0.2.4/nfscx.zip",
-      size: "18.8 MB",
-    },
   ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a4/Need_for_Speed_Carbon_Game_Cover.jpg",

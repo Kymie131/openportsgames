@@ -26,21 +26,6 @@ export const bombermanFantasyRaceRecomp: Port = {
   notesEs: "Seguido por PortsDR. Todavía no hay repo público, y tú aportas los archivos del juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/TechnicallyComputers/Bomberman-Fantasy-Race-Recomp/releases/download/v0.1.3/bfr-0.1.3-linux-x64.zip",
-      size: "52.6 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/TechnicallyComputers/Bomberman-Fantasy-Race-Recomp/releases/download/v0.1.3/bfr-0.1.3-macos-arm64.zip",
-      size: "28.3 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/TechnicallyComputers/Bomberman-Fantasy-Race-Recomp/releases/download/v0.1.3/bfr-0.1.3-macos-x64.zip",
-      size: "28.9 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/TechnicallyComputers/Bomberman-Fantasy-Race-Recomp/releases/download/v0.1.3/bfr-0.1.3-windows-x64.zip",
       size: "31.1 MB",

@@ -27,14 +27,9 @@ export const renut: Port = {
     "Recompilación nativa de Banjo-Kazooie: Nuts & Bolts (Xbox 360). El jugador aporta su propio material obtenido legalmente (volcado del disco); el repositorio no incluye contenido del juego.",
   downloads: [
     {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/masterspike52/reNut/releases/download/renut/renut-x86_64.AppImage",
       size: "74.0 MB",
-    },
-    {
-      label: "renut",
-      url: "https://github.com/masterspike52/reNut/releases/download/renut/renut.zip",
-      size: "48.1 MB",
     },
   ],
   cover: {

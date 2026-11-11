@@ -23,17 +23,7 @@ export const shipOfHarkinianAndroid: Port = {
   related: ["ship-of-harkinian"],
   downloads: [
     {
-      label: "iOS IPA",
-      url: "https://github.com/linkzenic/Shipwright-Ports/releases/download/v9.3.1-ports.2/Ship-of-Harkinian-9.3.1-iOS-unsigned.ipa",
-      size: "37.1 MB",
-    },
-    {
-      label: "iOS IPA",
-      url: "https://github.com/linkzenic/Shipwright-Ports/releases/download/v9.3.1-ports.2/Ship-of-Harkinian-9.3.1-tvOS-unsigned.ipa",
-      size: "37.1 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/linkzenic/Shipwright-Ports/releases/download/v9.3.1-ports.2/soh_release_v9.3.1-android.4.apk",
       size: "56.1 MB",
     },

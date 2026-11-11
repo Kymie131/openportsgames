@@ -51,10 +51,9 @@ export const nightmareBeforeChristmasOogieRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/Pallypots/ProjectOogie/releases/download/v0.3.0-hfr-test4/ProjectOogie-v0.3.0-hfr-test4.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/nightmare-before-christmas-oogie-recomp.png",

@@ -22,19 +22,19 @@ export const urbanReignPc: Port = {
   originalSystems: ["PlayStation 2"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/thiagordsfx/urban-reign-recomp/releases/download/v1.4.1/urban-reign_1.4.1_amd64.deb",
-      size: "21.8 MB",
+      label: "Windows",
+      url: "https://github.com/thiagordsfx/urban-reign-recomp/releases/download/v1.4.1/UrbanReignPC-1.4.1.zip",
+      size: "46.5 MB",
     },
     {
-      label: "UrbanReignPC-1.4.1-linux-x86_64",
+      label: "Linux x64",
       url: "https://github.com/thiagordsfx/urban-reign-recomp/releases/download/v1.4.1/UrbanReignPC-1.4.1-linux-x86_64.tar.gz",
       size: "31.5 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/thiagordsfx/urban-reign-recomp/releases/download/v1.4.1/UrbanReignPC-1.4.1.zip",
-      size: "46.5 MB",
+      label: "Linux x64",
+      url: "https://github.com/thiagordsfx/urban-reign-recomp/releases/download/v1.4.1/urban-reign_1.4.1_amd64.deb",
+      size: "21.8 MB",
     },
   ],
   cover: {

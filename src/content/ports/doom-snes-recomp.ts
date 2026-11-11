@@ -22,29 +22,29 @@ export const doomSnesRecomp: Port = {
   originalSystems: ["Super Nintendo"],
   downloads: [
     {
+      label: "Windows x64",
+      url: "https://github.com/Cacodemontube/DoomSNESRecomp/releases/download/v0.04/DoomSNESRecomp-v0.04-Windows-x64.zip",
+      size: "5.8 MB",
+    },
+    {
+      label: "Windows x86",
+      url: "https://github.com/Cacodemontube/DoomSNESRecomp/releases/download/v0.04/DoomSNESRecomp-v0.04-Windows-x86.zip",
+      size: "5.8 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/Cacodemontube/DoomSNESRecomp/releases/download/v0.04/DoomSNESRecomp-v0.04-Linux-x64.zip",
       size: "4.6 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/Cacodemontube/DoomSNESRecomp/releases/download/v0.04/DoomSNESRecomp-v0.04-macOS-arm64.zip",
-      size: "3.9 MB",
-    },
-    {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/Cacodemontube/DoomSNESRecomp/releases/download/v0.04/DoomSNESRecomp-v0.04-macOS-x64.zip",
       size: "4.2 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/Cacodemontube/DoomSNESRecomp/releases/download/v0.04/DoomSNESRecomp-v0.04-Windows-x64.zip",
-      size: "5.8 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/Cacodemontube/DoomSNESRecomp/releases/download/v0.04/DoomSNESRecomp-v0.04-Windows-x86.zip",
-      size: "5.8 MB",
+      label: "macOS arm64",
+      url: "https://github.com/Cacodemontube/DoomSNESRecomp/releases/download/v0.04/DoomSNESRecomp-v0.04-macOS-arm64.zip",
+      size: "3.9 MB",
     },
   ],
   cover: {

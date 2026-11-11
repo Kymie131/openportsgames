@@ -25,19 +25,14 @@ export const voicedrew11Verdite3: Port = {
   summaryEs: "King's Field II es un videojuego de acción y aventura publicado por Sony Interactive Entertainment en 1995.",
   downloads: [
     {
-      label: "Windows EXE",
-      url: "https://github.com/Voicedrew11/verdite3/releases/download/v0.3.0/Verdite3-0.3.0-win-x64-setup.exe",
-      size: "33.6 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/Voicedrew11/verdite3/releases/download/v0.3.0/Verdite3-0.3.0-win-x64.zip",
       size: "45.9 MB",
     },
     {
-      label: "Linux AppImage",
-      url: "https://github.com/Voicedrew11/verdite3/releases/download/v0.3.0/Verdite3-0.3.0-x86_64.AppImage",
-      size: "41.2 MB",
+      label: "Windows x64",
+      url: "https://github.com/Voicedrew11/verdite3/releases/download/v0.3.0/Verdite3-0.3.0-win-x64-setup.exe",
+      size: "33.6 MB",
     },
   ],
   cover: {

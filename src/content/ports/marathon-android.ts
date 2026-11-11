@@ -27,19 +27,19 @@ export const marathonAndroid: Port = {
     "Port a Android del motor Aleph One, usado para ejecutar los juegos Marathon con sus datos originales. Se basa en el código abierto de Aleph One.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/daniele-rapagnani/alephone-android/releases/download/v0.2.0/marathon-inf-signed.apk",
       size: "199.8 MB",
     },
     {
-      label: "Android APK",
-      url: "https://github.com/daniele-rapagnani/alephone-android/releases/download/v0.2.0/marathon-signed.apk",
-      size: "61.6 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/daniele-rapagnani/alephone-android/releases/download/v0.2.0/marathon2-signed.apk",
       size: "78.4 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/daniele-rapagnani/alephone-android/releases/download/v0.2.0/marathon-signed.apk",
+      size: "61.6 MB",
     },
   ],
   cover: {

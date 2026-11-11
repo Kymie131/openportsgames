@@ -22,24 +22,14 @@ export const tekkenTagTournament2Pc: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/shihabal3amri/tekken-tag-tournament-2-pc/releases/download/v0.2.0/ttt2-server-0.2.0-linux-amd64.tar.gz",
-      size: "5.9 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/shihabal3amri/tekken-tag-tournament-2-pc/releases/download/v0.2.0/ttt2-server-0.2.0-linux-arm64.tar.gz",
-      size: "5.5 MB",
-    },
-    {
       label: "Windows",
-      url: "https://github.com/shihabal3amri/tekken-tag-tournament-2-pc/releases/download/v0.2.0/ttt2-server-0.2.0-windows-amd64.zip",
-      size: "6.0 MB",
-    },
-    {
-      label: "Windows EXE",
       url: "https://github.com/shihabal3amri/tekken-tag-tournament-2-pc/releases/download/v0.2.0/ttt2_setup.exe",
       size: "64.6 MB",
+    },
+    {
+      label: "Windows x64",
+      url: "https://github.com/shihabal3amri/tekken-tag-tournament-2-pc/releases/download/v0.2.0/ttt2-server-0.2.0-windows-amd64.zip",
+      size: "6.0 MB",
     },
   ],
   cover: {

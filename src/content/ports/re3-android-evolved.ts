@@ -22,7 +22,7 @@ export const re3AndroidEvolved: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/codepdbh/re3-android-port-evolved/releases/download/v1.0.7/RE3-Android-Evolved-v1.0.7.apk",
       size: "9.3 MB",
     },

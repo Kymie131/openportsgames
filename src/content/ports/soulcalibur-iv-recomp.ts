@@ -28,16 +28,6 @@ export const soulcaliburIvRecomp: Port = {
     "Recompilación estática de Soulcalibur IV (Xbox 360) con el SDK ReXGlue, para Windows. Necesita tu propia copia del juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/FluffyQuack/rexglue-SoulCaliburIV/releases/download/v0.9.1/rexglue-sdk-0.9.1-linux-amd64.zip",
-      size: "142.3 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/FluffyQuack/rexglue-SoulCaliburIV/releases/download/v0.9.1/rexglue-sdk-0.9.1-win-amd64.zip",
-      size: "41.3 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/FluffyQuack/rexglue-SoulCaliburIV/releases/download/v0.9.1/SCIV-Recomp.zip",
       size: "13.0 MB",

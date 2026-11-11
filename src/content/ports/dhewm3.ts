@@ -34,34 +34,34 @@ export const dhewm3: Port = {
     "Port de código fuente de Doom 3 que conserva la jugabilidad original con correcciones, soporte panorámico, builds de 64 bits, sonido EFX, ajustes independientes de los mods y soporte de mando. Requiere los datos del juego original.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/dhewm/dhewm3/releases/download/1.5.5/dhewm3-1.5.5_Linux_amd64.tar.gz",
-      size: "7.2 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/dhewm/dhewm3/releases/download/1.5.5/dhewm3-1.5.5_Linux_arm64.tar.gz",
-      size: "7.3 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/dhewm/dhewm3/releases/download/1.5.5/dhewm3-1.5.5_win32.zip",
-      size: "10.9 MB",
-    },
-    {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/dhewm/dhewm3/releases/download/1.5.5/dhewm3-mods-1.5.5_Linux_amd64.tar.gz",
       size: "30.0 MB",
     },
     {
-      label: "Linux",
+      label: "Linux arm64",
       url: "https://github.com/dhewm/dhewm3/releases/download/1.5.5/dhewm3-mods-1.5.5_Linux_arm64.tar.gz",
       size: "28.7 MB",
     },
     {
-      label: "Windows",
+      label: "Windows x86",
       url: "https://github.com/dhewm/dhewm3/releases/download/1.5.5/dhewm3-mods-1.5.5_win32.zip",
       size: "25.1 MB",
+    },
+    {
+      label: "Windows x86",
+      url: "https://github.com/dhewm/dhewm3/releases/download/1.5.5/dhewm3-1.5.5_win32.zip",
+      size: "10.9 MB",
+    },
+    {
+      label: "Linux arm64",
+      url: "https://github.com/dhewm/dhewm3/releases/download/1.5.5/dhewm3-1.5.5_Linux_arm64.tar.gz",
+      size: "7.3 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/dhewm/dhewm3/releases/download/1.5.5/dhewm3-1.5.5_Linux_amd64.tar.gz",
+      size: "7.2 MB",
     },
   ],
   cover: {

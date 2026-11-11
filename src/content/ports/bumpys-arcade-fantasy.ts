@@ -22,7 +22,7 @@ export const BumpysArcadeFantasy: Port = {
   originalSystems: ["Arcade"],
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/GeReV/bumpy-reverse/releases/download/latest/BUMPYP.EXE",
       size: "297 KB",
     },

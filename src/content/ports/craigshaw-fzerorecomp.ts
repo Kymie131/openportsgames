@@ -25,16 +25,6 @@ export const craigshawFzerorecomp: Port = {
   summaryEs: "F-Zero es un videojuego de carreras futurístico desarrollado por Nintendo EAD y publicado por Nintendo para la consola Super Nintendo Entertainment System (SNES). El juego fue lanzado en Japón el 21 de noviembre de 1990, en Estados Unidos el 23 de agosto de 1991 y en Europa el 4 de junio de 1992. F-Zero es el primer título de la serie del mismo nombre y fue uno de los dos principales títulos de lanzamiento de la SNES en Japón, pero también estuvo acompañado de otros juegos durante el lanzamiento de la consola en Estados Unidos y Europa.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/craigshaw/FZeroRecomp/releases/download/v0.6.0/FZeroRecomp-v0.6.0-Linux-x64.tar.gz",
-      size: "5.2 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/craigshaw/FZeroRecomp/releases/download/v0.6.0/FZeroRecomp-v0.6.0-macOS-arm64.zip",
-      size: "5.9 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/craigshaw/FZeroRecomp/releases/download/v0.6.0/FZeroRecomp-v0.6.0-Windows-x64.zip",
       size: "4.2 MB",

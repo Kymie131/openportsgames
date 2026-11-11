@@ -23,24 +23,19 @@ export const cps2Recomp: Port = {
   originalSystems: ["Arcade"],
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/tmcleroy/cps2recomp/releases/download/v1.4.0/CPS2Recomp-android.apk",
-      size: "116.0 MB",
+      label: "macOS",
+      url: "https://github.com/tmcleroy/cps2recomp/releases/download/v1.4.0/CPS2Recomp-macOS.zip",
+      size: "246.9 MB",
     },
     {
-      label: "Linux",
+      label: "Linux arm64",
       url: "https://github.com/tmcleroy/cps2recomp/releases/download/v1.4.0/CPS2Recomp-linux-arm64.tar.gz",
       size: "159.6 MB",
     },
     {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/tmcleroy/cps2recomp/releases/download/v1.4.0/CPS2Recomp-linux-x86_64.tar.gz",
       size: "159.5 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/tmcleroy/cps2recomp/releases/download/v1.4.0/CPS2Recomp-macOS.zip",
-      size: "246.9 MB",
     },
     {
       label: "Windows",

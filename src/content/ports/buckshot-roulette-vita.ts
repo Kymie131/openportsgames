@@ -24,13 +24,13 @@ export const buckshotRouletteVita: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/voidchecksam/BuckshotRoulettePortable-BSHT/releases/download/v1.0.3/bsht-desktop-v1.0.3-windows.zip",
-      size: "2.6 MB",
+      url: "https://github.com/voidchecksam/BuckshotRoulettePortable-BSHT/releases/download/v1.0.3/bsht-extract-v1.0.3-windows.zip",
+      size: "54.5 MB",
     },
     {
       label: "Windows",
-      url: "https://github.com/voidchecksam/BuckshotRoulettePortable-BSHT/releases/download/v1.0.3/bsht-extract-v1.0.3-windows.zip",
-      size: "54.5 MB",
+      url: "https://github.com/voidchecksam/BuckshotRoulettePortable-BSHT/releases/download/v1.0.3/bsht-desktop-v1.0.3-windows.zip",
+      size: "2.6 MB",
     },
   ],
   cover: {

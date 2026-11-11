@@ -53,18 +53,15 @@ export const midnightClub3DubRemix: Port = {
     {
       "label": "Windows x86",
       "url": "https://github.com/SickSartori/mc3port/releases/download/v0.3.5/mc3port-0.3.5-windows-x86.zip",
-      "note": "Windows · x86"
     },
     {
-      "label": "Windows installer",
+      "label": "Windows x86",
       "url": "https://github.com/SickSartori/mc3port/releases/download/v0.3.5/mc3port-0.3.5-windows-x86-setup.exe",
-      "note": "Windows · installer"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/SickSartori/mc3port/releases/download/v0.3.5/mc3port-0.3.5-linux.tar.gz",
-      "note": "Linux · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/midnight-club-3-dub-remix.png",

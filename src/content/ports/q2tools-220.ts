@@ -25,6 +25,11 @@ export const Q2tools220: Port = {
   summaryGenerated: true,
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/qbism/q2tools-220/releases/download/v05-30-26/Windows-MinGW.7z",
+      size: "140 KB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/qbism/q2tools-220/releases/download/v05-30-26/Linux.7z",
       size: "138 KB",
@@ -33,11 +38,6 @@ export const Q2tools220: Port = {
       label: "macOS",
       url: "https://github.com/qbism/q2tools-220/releases/download/v05-30-26/macOS.7z",
       size: "108 KB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/qbism/q2tools-220/releases/download/v05-30-26/Windows-MinGW.7z",
-      size: "140 KB",
     },
   ],
   cover: {

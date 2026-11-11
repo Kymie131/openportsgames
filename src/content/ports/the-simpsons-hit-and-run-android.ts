@@ -22,14 +22,14 @@ export const theSimpsonsHitAndRunAndroid: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/Carlox33/The-Simpsons-Hit-and-Run-Android/releases/download/v0.93/SimpsonsNTSC.apk",
-      size: "76.1 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Carlox33/The-Simpsons-Hit-and-Run-Android/releases/download/v0.93/SimpsonsPAL.apk",
       size: "77.1 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/Carlox33/The-Simpsons-Hit-and-Run-Android/releases/download/v0.93/SimpsonsNTSC.apk",
+      size: "76.1 MB",
     },
   ],
   cover: {

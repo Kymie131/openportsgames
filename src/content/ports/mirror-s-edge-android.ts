@@ -25,29 +25,24 @@ export const mirrorSEdgeAndroid: Port = {
   summaryEs: "Mirror's Edge es un juego de plataformas de desplazamiento lateral desarrollado por IronMonkey Studios y publicado por Electronic Arts. Fue lanzado para iPad y iPhone en 2010, y para Windows Phone en 2012. El juego es una precuela del Mirror's Edge original, preparando la escena sobre los Runners y las corporaciones turbias de la ciudad. Recibió críticas muy positivas de los críticos.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/MoonCellar-Team/Glassline/releases/download/v1.4.2/glassline-android-1.4.2.apk",
       size: "48.4 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/MoonCellar-Team/Glassline/releases/download/v1.4.2/glassline-linux-x64-1.4.2.AppImage",
-      size: "14.2 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/MoonCellar-Team/Glassline/releases/download/v1.4.2/glassline-linux-x64-1.4.2.tar.gz",
-      size: "14.5 MB",
-    },
-    {
-      label: "glassline-web-1.4.2",
-      url: "https://github.com/MoonCellar-Team/Glassline/releases/download/v1.4.2/glassline-web-1.4.2.zip",
-      size: "4.3 MB",
     },
     {
       label: "Windows",
       url: "https://github.com/MoonCellar-Team/Glassline/releases/download/v1.4.2/glassline-windows-x64-1.4.2.zip",
       size: "23.0 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/MoonCellar-Team/Glassline/releases/download/v1.4.2/glassline-linux-x64-1.4.2.tar.gz",
+      size: "14.5 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/MoonCellar-Team/Glassline/releases/download/v1.4.2/glassline-linux-x64-1.4.2.AppImage",
+      size: "14.2 MB",
     },
   ],
   cover: {

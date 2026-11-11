@@ -31,7 +31,7 @@ export const cogbox: Port = {
     "Recompilación estática todo en uno de la saga Gears of War de Xbox 360 con renderizador nativo. No incluye datos de los juegos: debes aportar tus propias copias.",
   downloads: [
     {
-      label: "Windows (7z)",
+      label: "Windows",
       url: "https://github.com/Shagg88/COGBox/releases/download/0.5.0/COGBox-0.5.0.7z",
     },
   ],

@@ -25,22 +25,22 @@ export const Dgengine: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Linux AppImage",
+      label: "Linux x64",
       url: "https://github.com/dgcor/DGEngine/releases/download/v1.2/DGEngine-linux-ffmpeg-x86_64.AppImage.zip",
       size: "51.3 MB",
     },
     {
-      label: "Linux AppImage",
+      label: "Linux x64",
       url: "https://github.com/dgcor/DGEngine/releases/download/v1.2/DGEngine-linux-x86_64.AppImage.zip",
       size: "4.9 MB",
     },
     {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/dgcor/DGEngine/releases/download/v1.2/DGEngine-windows-x64.zip",
       size: "3.7 MB",
     },
     {
-      label: "Windows",
+      label: "Windows x86",
       url: "https://github.com/dgcor/DGEngine/releases/download/v1.2/DGEngine-windows-x86.zip",
       size: "3.4 MB",
     },

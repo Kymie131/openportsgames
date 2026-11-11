@@ -50,10 +50,9 @@ export const clockTower3Recompiled: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/LegendarySavageGamer/ClockTower3Recompiled/releases/download/1.4.0/ClockTower3Recompiled-1.4.0-win-x64.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/clock-tower-3-recompiled.png",

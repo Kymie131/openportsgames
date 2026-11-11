@@ -24,7 +24,7 @@ export const extremeTuxRacerPsp: Port = {
   summaryEs: "Extreme Tux Racer es un videojuego de carreras.",
   downloads: [
     {
-      label: "extremetuxracer-psp",
+      label: "Psp",
       url: "https://github.com/chriopter/psp-tuxracer/releases/download/v1.0.0/extremetuxracer-psp.zip",
       size: "40.8 MB",
     },

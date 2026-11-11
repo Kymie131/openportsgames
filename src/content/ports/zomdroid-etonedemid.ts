@@ -22,7 +22,7 @@ export const zomdroidEtonedemid: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/etonedemid/zomdroid-/releases/download/v1.9.0/zomdroid-release-1.9.0.apk",
       size: "86.4 MB",
     },

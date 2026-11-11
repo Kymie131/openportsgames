@@ -52,10 +52,9 @@ export const pacManChampionshipEditionPc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/jedeyesniv-art/Pacman-CE-PC-Recomp/releases/download/v1.0.0/PacManCE-1.0.0-windows.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/pac-man-championship-edition-pc.png",

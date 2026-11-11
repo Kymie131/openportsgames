@@ -52,20 +52,17 @@ export const gunstarHeroesRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x86_64",
+      "label": "Windows",
       "url": "https://github.com/1nputs/gunstars/releases/download/v0.2.2/gunstars-0.2.2-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x86_64",
+      "label": "Linux",
       "url": "https://github.com/1nputs/gunstars/releases/download/v0.2.2/gunstars-0.2.2-linux-x64.tar.gz",
-      "note": "Linux · x64"
     },
     {
-      "label": "macOS universal",
+      "label": "macOS",
       "url": "https://github.com/1nputs/gunstars/releases/download/v0.2.2/gunstars-0.2.2-macos-universal.zip",
-      "note": "macOS · universal"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/generated/gunstar-heroes-recomp.svg",

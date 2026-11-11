@@ -25,7 +25,7 @@ export const clickingmasterPokeheartgoldSingleScreen: Port = {
   summaryEs: "Pokémon SoulSilver es un videojuego de rol publicado por Nintendo en 2009.",
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/ClickingMaster/pokeheartgold-single-screen/releases/download/v0.1.4/pokeheartgold-single-screen-setup-windows-x86_64.exe",
       size: "65.2 MB",
     },

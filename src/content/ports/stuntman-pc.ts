@@ -51,10 +51,9 @@ export const stuntmanPc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/LAB0ULANGE/stuntman-pc/releases/download/v0.1.1-alpha/Stuntman-PC-0.1.1-alpha-windows-x64.zip",
-      "note": "Windows · alpha"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/stuntman-pc.png",

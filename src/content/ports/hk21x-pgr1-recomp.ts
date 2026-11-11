@@ -26,26 +26,6 @@ export const hk21xPgr1Recomp: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/hk21x/pgr1-recomp/releases/download/v1.7/PGR1-E10-package.zip",
-      size: "60.7 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/hk21x/pgr1-recomp/releases/download/v1.7/PGR1-E11-package.zip",
-      size: "60.7 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/hk21x/pgr1-recomp/releases/download/v1.7/PGR1-JPN-package.zip",
-      size: "60.7 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/hk21x/pgr1-recomp/releases/download/v1.7/PGR1-USA-package.zip",
-      size: "60.7 MB",
-    },
-    {
-      label: "Windows EXE",
       url: "https://github.com/hk21x/pgr1-recomp/releases/download/v1.7/PGR1Launcher.exe",
       size: "2.4 MB",
     },

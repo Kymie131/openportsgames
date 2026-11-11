@@ -31,11 +31,6 @@ export const spaceStationSiliconValleyRecomp: Port = {
     "Recompilación de Space Station Silicon Valley; el jugador aporta su propio juego obtenido legalmente.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/Cellenseres/SSSV_Recomp/releases/download/v0.2.0/SSSVRecompiled_v0.2.0_Linux.tar.gz",
-      size: "30.7 MB",
-    },
-    {
       label: "macOS",
       url: "https://github.com/Cellenseres/SSSV_Recomp/releases/download/v0.2.0/SSSVRecompiled_v0.2.0_macOS.zip",
       size: "63.6 MB",
@@ -44,6 +39,11 @@ export const spaceStationSiliconValleyRecomp: Port = {
       label: "Windows",
       url: "https://github.com/Cellenseres/SSSV_Recomp/releases/download/v0.2.0/SSSVRecompiled_v0.2.0_Windows.zip",
       size: "44.4 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Cellenseres/SSSV_Recomp/releases/download/v0.2.0/SSSVRecompiled_v0.2.0_Linux.tar.gz",
+      size: "30.7 MB",
     },
   ],
   cover: {

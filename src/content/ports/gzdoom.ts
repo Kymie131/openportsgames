@@ -43,21 +43,16 @@ export const gzdoom: Port = {
     },
     {
       label: "Windows",
-      url: "https://github.com/ZDoom/gzdoom/releases/download/g4.14.2/gzdoom-4-14-2-windows-pdb.7z",
-      size: "12.2 MB",
-    },
-    {
-      label: "Windows",
       url: "https://github.com/ZDoom/gzdoom/releases/download/g4.14.2/gzdoom-4-14-2-windows.zip",
       size: "20.9 MB",
     },
     {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/ZDoom/gzdoom/releases/download/g4.14.2/gzdoom_4.14.2_amd64.deb",
       size: "18.9 MB",
     },
     {
-      label: "Linux",
+      label: "Linux arm64",
       url: "https://github.com/ZDoom/gzdoom/releases/download/g4.14.2/gzdoom_4.14.2_arm64.deb",
       size: "17.5 MB",
     },

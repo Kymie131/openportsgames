@@ -53,25 +53,21 @@ export const majorasMask3dRemasked: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/OTPR26/DekUI-Fork/releases/download/v0.4.3/Majora-ReMasked-0.4.3-Windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x86_64",
+      "label": "Linux",
       "url": "https://github.com/OTPR26/DekUI-Fork/releases/download/v0.4.3/Majora-ReMasked-0.4.3-Linux-x86_64.tar.gz",
-      "note": "Linux · x64"
     },
     {
-      "label": "macOS arm64",
+      "label": "macOS",
       "url": "https://github.com/OTPR26/DekUI-Fork/releases/download/v0.4.3/Majora-ReMasked-0.4.3-macOS-arm64.zip",
-      "note": "macOS · Apple Silicon"
     },
     {
-      "label": "Android arm64",
+      "label": "Android",
       "url": "https://github.com/OTPR26/DekUI-Fork/releases/download/v0.4.3/Majora-ReMasked-0.4.3-Android-arm64.apk",
-      "note": "Android · APK"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/generated/majoras-mask-3d-remasked.svg",

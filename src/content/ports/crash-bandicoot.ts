@@ -44,19 +44,19 @@ export const crashBandicoot: Port = {
     "Port nativo para PC de Crash Bandicoot (PS1) realizado con la pila de recompilación estática RecompOne y distribuido como releases versionadas. Requiere tu propio volcado del disco de PS1. El proyecto no está afiliado al desarrollador original.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Matteo842/CrashBandicoot-Launcher/releases/download/2.5/CrashBandicoot-2.5.apk",
       size: "70.6 MB",
     },
     {
-      label: "Windows EXE",
-      url: "https://github.com/Matteo842/CrashBandicoot-Launcher/releases/download/2.5/CrashBandicoot-arm64.exe",
-      size: "62.7 MB",
-    },
-    {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/Matteo842/CrashBandicoot-Launcher/releases/download/2.5/CrashBandicoot.exe",
       size: "64.1 MB",
+    },
+    {
+      label: "Windows arm64",
+      url: "https://github.com/Matteo842/CrashBandicoot-Launcher/releases/download/2.5/CrashBandicoot-arm64.exe",
+      size: "62.7 MB",
     },
   ],
   cover: {

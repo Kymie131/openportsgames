@@ -23,7 +23,7 @@ export const dk64RecompAndroid: Port = {
   related: ["dk64-recompiled"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/deivid22srk/dk64-recomp-android/releases/download/v1.0.3-android-r7/dk64recomp-android-v1.0.3-android-r7.apk",
       size: "10.0 MB",
     },

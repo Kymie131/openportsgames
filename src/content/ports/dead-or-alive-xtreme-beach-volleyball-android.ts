@@ -22,7 +22,7 @@ export const deadOrAliveXtremeBeachVolleyballAndroid: Port = {
   originalSystems: ["Xbox"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Wannamingo/DoAXBV/releases/download/v0.4.2-ru-USA6-Beach/DOAXBV.apk",
       size: "49.0 MB",
     },

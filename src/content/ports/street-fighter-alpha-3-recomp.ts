@@ -27,21 +27,6 @@ export const streetFighterAlpha3Recomp: Port = {
     "Recompilación estática de Street Fighter Alpha 3 (PlayStation) construida con el kit PSXRecomp. Requiere una copia del juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/TechnicallyComputers/Street-Fighter-Alpha-3-Recomp/releases/download/v0.2.16/sfa-0.2.16-linux-x64.zip",
-      size: "50.1 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/TechnicallyComputers/Street-Fighter-Alpha-3-Recomp/releases/download/v0.2.16/sfa-0.2.16-macos-arm64.zip",
-      size: "26.7 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/TechnicallyComputers/Street-Fighter-Alpha-3-Recomp/releases/download/v0.2.16/sfa-0.2.16-macos-x64.zip",
-      size: "27.3 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/TechnicallyComputers/Street-Fighter-Alpha-3-Recomp/releases/download/v0.2.16/sfa-0.2.16-windows-x64.zip",
       size: "28.5 MB",

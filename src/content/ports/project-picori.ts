@@ -23,34 +23,34 @@ export const projectPicori: Port = {
   related: ["minish-cap","zelda-tmc-3ds"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/999sian/tmc/releases/download/v0.9.6/tmc-multi-android-v0.9.6.apk",
       size: "102.5 MB",
     },
     {
-      label: "Linux",
-      url: "https://github.com/999sian/tmc/releases/download/v0.9.6/tmc-multi-linux-arm64-v0.9.6.tar.gz",
-      size: "22.2 MB",
-    },
-    {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/999sian/tmc/releases/download/v0.9.6/tmc-multi-linux-x86_64-v0.9.6.tar.gz",
       size: "22.9 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/999sian/tmc/releases/download/v0.9.6/tmc-multi-macos-arm64-v0.9.6.tar.gz",
-      size: "4.0 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/999sian/tmc/releases/download/v0.9.6/tmc-multi-macos-x86_64-v0.9.6.tar.gz",
-      size: "4.3 MB",
+      label: "Linux arm64",
+      url: "https://github.com/999sian/tmc/releases/download/v0.9.6/tmc-multi-linux-arm64-v0.9.6.tar.gz",
+      size: "22.2 MB",
     },
     {
       label: "Windows",
       url: "https://github.com/999sian/tmc/releases/download/v0.9.6/tmc-multi-windows-arm64-v0.9.6.tar.gz",
       size: "16.1 MB",
+    },
+    {
+      label: "macOS x64",
+      url: "https://github.com/999sian/tmc/releases/download/v0.9.6/tmc-multi-macos-x86_64-v0.9.6.tar.gz",
+      size: "4.3 MB",
+    },
+    {
+      label: "macOS arm64",
+      url: "https://github.com/999sian/tmc/releases/download/v0.9.6/tmc-multi-macos-arm64-v0.9.6.tar.gz",
+      size: "4.0 MB",
     },
   ],
   cover: {

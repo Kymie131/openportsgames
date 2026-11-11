@@ -23,7 +23,7 @@ export const tetrisMdMegaDrive: Port = {
   originalSystems: ["Game Boy"],
   downloads: [
     {
-      label: "TetrisMD_V1.0",
+      label: "Genesis",
       url: "https://github.com/NeroJin/TetrisMD/releases/download/v1.0/TetrisMD_V1.0.zip",
       size: "139 KB",
     },

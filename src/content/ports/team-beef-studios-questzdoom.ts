@@ -27,14 +27,14 @@ export const teamBeefStudiosQuestzdoom: Port = {
   notesEs: "Doom: source port de Team-Beef-Studios para Windows. Aporta tu propia copia del juego.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/Team-Beef-Studios/QuestZDoom/releases/download/1.6.2/questzdoom-1.6.2.apk",
-      size: "32.1 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Team-Beef-Studios/QuestZDoom/releases/download/1.6.2/questzdoom_launcher_106.apk",
       size: "55.4 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/Team-Beef-Studios/QuestZDoom/releases/download/1.6.2/questzdoom-1.6.2.apk",
+      size: "32.1 MB",
     },
   ],
   cover: {

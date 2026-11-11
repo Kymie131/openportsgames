@@ -27,7 +27,7 @@ export const warcraftOrcsAndHumansAndroid: Port = {
     "Port a Android del motor de estrategia en tiempo real Stratagus, orientado a ejecutar Warcraft: Orcs & Humans. Necesita los archivos de datos del juego original.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/drodin/Stratagus/releases/download/v3.3.2-dev1/Stratagus-v3.3.2-dev1.apk",
       size: "12.8 MB",
     },

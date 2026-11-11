@@ -31,32 +31,12 @@ export const sonic3Air: Port = {
   notesEs: "Fork mejorado del motor de Sonic Retro para Sonic 3 y Sonic & Knuckles.",
   downloads: [
     {
-      label: "artifacts",
-      url: "https://github.com/Eukaryot/sonic3air/releases/download/v26.03.28.0-stable/artifacts.7z",
-      size: "14.8 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Eukaryot/sonic3air/releases/download/v26.03.28.0-stable/sonic3air_game.apk",
       size: "41.7 MB",
     },
     {
-      label: "sonic3air_game",
-      url: "https://github.com/Eukaryot/sonic3air/releases/download/v26.03.28.0-stable/sonic3air_game.tar.gz",
-      size: "19.0 MB",
-    },
-    {
-      label: "sonic3air_game",
-      url: "https://github.com/Eukaryot/sonic3air/releases/download/v26.03.28.0-stable/sonic3air_game.zip",
-      size: "15.6 MB",
-    },
-    {
-      label: "sonic3air_game_64bit",
-      url: "https://github.com/Eukaryot/sonic3air/releases/download/v26.03.28.0-stable/sonic3air_game_64bit.zip",
-      size: "16.3 MB",
-    },
-    {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/Eukaryot/sonic3air/releases/download/v26.03.28.0-stable/sonic3air_mac_260328.dmg",
       size: "23.2 MB",
     },

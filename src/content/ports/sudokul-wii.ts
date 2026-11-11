@@ -26,34 +26,34 @@ export const sudokulWii: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "SuDokuL-v1.5-3ds-cia",
-      url: "https://github.com/Mode8fx/SuDokuL/releases/download/v1.5/SuDokuL-v1.5-3ds-cia.zip",
-      size: "2.6 MB",
-    },
-    {
-      label: "SuDokuL-v1.5-3ds",
-      url: "https://github.com/Mode8fx/SuDokuL/releases/download/v1.5/SuDokuL-v1.5-3ds.zip",
-      size: "2.1 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Mode8fx/SuDokuL/releases/download/v1.5/SuDokuL-v1.5-android.apk",
       size: "11.1 MB",
     },
     {
-      label: "SuDokuL-v1.5-gamecube",
+      label: "Wii",
+      url: "https://github.com/Mode8fx/SuDokuL/releases/download/v1.5/SuDokuL-v1.5-psp.zip",
+      size: "3.0 MB",
+    },
+    {
+      label: "Wii",
+      url: "https://github.com/Mode8fx/SuDokuL/releases/download/v1.5/SuDokuL-v1.5-3ds-cia.zip",
+      size: "2.6 MB",
+    },
+    {
+      label: "Wii",
       url: "https://github.com/Mode8fx/SuDokuL/releases/download/v1.5/SuDokuL-v1.5-gamecube.zip",
       size: "2.4 MB",
+    },
+    {
+      label: "Wii",
+      url: "https://github.com/Mode8fx/SuDokuL/releases/download/v1.5/SuDokuL-v1.5-3ds.zip",
+      size: "2.1 MB",
     },
     {
       label: "Linux",
       url: "https://github.com/Mode8fx/SuDokuL/releases/download/v1.5/SuDokuL-v1.5-linux.zip",
       size: "1.3 MB",
-    },
-    {
-      label: "SuDokuL-v1.5-psp",
-      url: "https://github.com/Mode8fx/SuDokuL/releases/download/v1.5/SuDokuL-v1.5-psp.zip",
-      size: "3.0 MB",
     },
   ],
   cover: {

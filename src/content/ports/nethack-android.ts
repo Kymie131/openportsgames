@@ -27,7 +27,7 @@ export const nethackAndroid: Port = {
     "Port a Android de NetHack, el roguelike clásico de código abierto. Es una build independiente que no necesita el juego original.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/gurrhack/NetHack-Android/releases/download/v3.6.6-1/NetHack-3.6.6-1.apk",
       size: "7.6 MB",
     },

@@ -26,19 +26,19 @@ export const freeserfNet: Port = {
     "The Settlers es un juego de estrategia en tiempo real y construcción de ciudades desarrollado y publicado por Blue Byte en 1993. El jugador expande un asentamiento medieval gestionando recursos, caminos y puestos militares.",
   downloads: [
     {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/Pyrdacor/freeserf.net/releases/download/v2.2.11/Freeserf.dmg",
       size: "144.5 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/Pyrdacor/freeserf.net/releases/download/v2.2.11/Freeserf.net-Linux.tar.gz",
-      size: "81.0 MB",
     },
     {
       label: "Windows",
       url: "https://github.com/Pyrdacor/freeserf.net/releases/download/v2.2.11/Freeserf.net-Windows.zip",
       size: "82.0 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Pyrdacor/freeserf.net/releases/download/v2.2.11/Freeserf.net-Linux.tar.gz",
+      size: "81.0 MB",
     },
   ],
   cover: {

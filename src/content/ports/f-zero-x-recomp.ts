@@ -29,19 +29,19 @@ export const fZeroXRecomp: Port = {
     "G-Diffuser es un port nativo de F-Zero X basado en la decompilación matching de inspectredc y el runtime libultraship. La versión 1.2.2 incluye builds para Windows, Linux, macOS y Android y añade compatibilidad con el Expansion Kit de 64DD exclusivo de Japón, además de pantalla panorámica, menú de mejoras, shaders de postprocesado, packs de mods, pistas y máquinas compartibles y soporte de ROM hacks. Requiere tu propia ROM de F-Zero X y, para el contenido de la expansión, tu propio volcado del disco de 64DD. No incluye archivos del juego.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Zorkats/G-Diffuser/releases/download/v1.2.3/G-Diffuser-v1.2.3-android-arm64.apk",
       size: "25.0 MB",
     },
     {
-      label: "Linux",
-      url: "https://github.com/Zorkats/G-Diffuser/releases/download/v1.2.3/G-Diffuser-v1.2.3-linux-arm64.tar.gz",
-      size: "10.2 MB",
-    },
-    {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/Zorkats/G-Diffuser/releases/download/v1.2.3/G-Diffuser-v1.2.3-linux-x64.tar.gz",
       size: "10.7 MB",
+    },
+    {
+      label: "Linux arm64",
+      url: "https://github.com/Zorkats/G-Diffuser/releases/download/v1.2.3/G-Diffuser-v1.2.3-linux-arm64.tar.gz",
+      size: "10.2 MB",
     },
     {
       label: "macOS",

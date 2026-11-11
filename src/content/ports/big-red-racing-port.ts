@@ -56,23 +56,19 @@ export const bigRedRacingPort: Port = {
     {
       "label": "Windows",
       "url": "https://github.com/BigRedReport/bigredreport/releases/download/v0.118.7/BigRedReport-Windows.zip",
-      "note": "Windows · ZIP"
     },
     {
       "label": "Linux",
       "url": "https://github.com/BigRedReport/bigredreport/releases/download/v0.118.7/BigRedReport-Linux.tar.gz",
-      "note": "Linux · x64"
     },
     {
       "label": "macOS",
       "url": "https://github.com/BigRedReport/bigredreport/releases/download/v0.118.7/BigRedReport-Mac.zip",
-      "note": "macOS · ZIP"
     },
     {
       "label": "Android",
       "url": "https://github.com/BigRedReport/bigredreport/releases/download/v0.118.7/BigRedReport-Android.apk",
-      "note": "Android · APK"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/big-red-racing-port.png",

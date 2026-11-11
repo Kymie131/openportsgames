@@ -50,10 +50,9 @@ export const deadCellsPs5: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x86_64",
+      "label": "Windows",
       "url": "https://github.com/OverkillLabs3/DC-PS5/releases/download/v0.1.0/DeadCells-PS5-Native-0.1.0-win64.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/generated/dead-cells-ps5.svg",

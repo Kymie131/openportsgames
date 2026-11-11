@@ -25,34 +25,9 @@ export const tyrian2000Android: Port = {
   summaryEs: "Tyrian 2000 es un videojuego de disparos publicado por Eclipse Productions en 1995.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/andyvand/opentyrian2000/releases/download/3.0.0-SDL3/opentyrian2000-3.0.0-amd64.deb",
-      size: "3.9 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/andyvand/opentyrian2000/releases/download/3.0.0-SDL3/opentyrian2000-3.0.0-arm64.deb",
-      size: "4.0 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/andyvand/opentyrian2000/releases/download/3.0.0-SDL3/opentyrian2000-3.0.0-i386.deb",
-      size: "3.4 MB",
-    },
-    {
-      label: "Android",
-      url: "https://github.com/andyvand/opentyrian2000/releases/download/3.0.0-SDL3/opentyrian2000-3DS.zip",
-      size: "5.6 MB",
-    },
-    {
       label: "Android",
       url: "https://github.com/andyvand/opentyrian2000/releases/download/3.0.0-SDL3/opentyrian2000-android.zip",
       size: "10.8 MB",
-    },
-    {
-      label: "Android",
-      url: "https://github.com/andyvand/opentyrian2000/releases/download/3.0.0-SDL3/opentyrian2000-AppleTV.zip",
-      size: "18.9 MB",
     },
   ],
   cover: {

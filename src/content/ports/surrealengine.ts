@@ -25,6 +25,11 @@ export const Surrealengine: Port = {
   summaryGenerated: true,
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/dpjudas/SurrealEngine/releases/download/nightly/SurrealEngine-windows-prerelease.zip",
+      size: "23.0 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/dpjudas/SurrealEngine/releases/download/nightly/SurrealEngine-linux-prerelease.zip",
       size: "15.2 MB",
@@ -33,11 +38,6 @@ export const Surrealengine: Port = {
       label: "macOS",
       url: "https://github.com/dpjudas/SurrealEngine/releases/download/nightly/SurrealEngine-macos-prerelease.zip",
       size: "9.0 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/dpjudas/SurrealEngine/releases/download/nightly/SurrealEngine-windows-prerelease.zip",
-      size: "23.0 MB",
     },
   ],
   cover: {

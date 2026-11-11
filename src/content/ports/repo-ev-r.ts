@@ -27,12 +27,12 @@ export const repoEvR: Port = {
     "Port no oficial de R.E.P.O. para Android e iOS, con modos táctil y de RV para móvil, y crossplay con Steam mediante EVRMod. Necesita los archivos del juego original de PC.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Zhes-20/R.E.P.O.E.V.R/releases/download/R.E.P.O.E.V.R.-1.0.0/REPOEVR_Mobile_Android.apk",
       size: "602.1 MB",
     },
     {
-      label: "iOS IPA",
+      label: "iOS",
       url: "https://github.com/Zhes-20/R.E.P.O.E.V.R/releases/download/R.E.P.O.E.V.R.-1.0.0/REPOEVR_Mobile_iOS.ipa",
       size: "593.1 MB",
     },

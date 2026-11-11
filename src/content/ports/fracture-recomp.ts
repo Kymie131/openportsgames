@@ -51,10 +51,9 @@ export const fractureRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/ASarafanov/fracturerecomp/releases/download/v0.4.0/FractureRecomp-v0.4.0-windows-x64.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/fracture-recomp.jpg",

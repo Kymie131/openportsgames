@@ -22,34 +22,34 @@ export const SpaceStation14: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/space-wizards/space-station-14/releases/download/v2026.07.27.1/SS14.Server_linux-arm64.zip",
-      size: "40.7 MB",
+      label: "Windows x64",
+      url: "https://github.com/space-wizards/space-station-14/releases/download/v2026.07.27.1/SS14.Server_win-x64.zip",
+      size: "41.4 MB",
     },
     {
-      label: "Linux",
-      url: "https://github.com/space-wizards/space-station-14/releases/download/v2026.07.27.1/SS14.Server_linux-x64.zip",
-      size: "41.0 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/space-wizards/space-station-14/releases/download/v2026.07.27.1/SS14.Server_osx-arm64.zip",
-      size: "41.0 MB",
-    },
-    {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/space-wizards/space-station-14/releases/download/v2026.07.27.1/SS14.Server_osx-x64.zip",
       size: "41.1 MB",
     },
     {
-      label: "Windows",
+      label: "Linux x64",
+      url: "https://github.com/space-wizards/space-station-14/releases/download/v2026.07.27.1/SS14.Server_linux-x64.zip",
+      size: "41.0 MB",
+    },
+    {
+      label: "macOS arm64",
+      url: "https://github.com/space-wizards/space-station-14/releases/download/v2026.07.27.1/SS14.Server_osx-arm64.zip",
+      size: "41.0 MB",
+    },
+    {
+      label: "Windows arm64",
       url: "https://github.com/space-wizards/space-station-14/releases/download/v2026.07.27.1/SS14.Server_win-arm64.zip",
       size: "41.0 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/space-wizards/space-station-14/releases/download/v2026.07.27.1/SS14.Server_win-x64.zip",
-      size: "41.4 MB",
+      label: "Linux arm64",
+      url: "https://github.com/space-wizards/space-station-14/releases/download/v2026.07.27.1/SS14.Server_linux-arm64.zip",
+      size: "40.7 MB",
     },
   ],
   cover: {

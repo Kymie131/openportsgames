@@ -26,11 +26,6 @@ export const fear360Recomp: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/Juansolo457/fear360-recomp/releases/download/v1.7.0/FEAR360-Recompiled-1.7.0-Linux.zip",
-      size: "157.0 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/Juansolo457/fear360-recomp/releases/download/v1.7.0/FEAR360-Recompiled-1.7.0-Windows.zip",
       size: "24.2 MB",

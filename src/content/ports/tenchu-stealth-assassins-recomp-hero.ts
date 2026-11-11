@@ -23,12 +23,12 @@ export const tenchuStealthAssassinsRecompHero: Port = {
   related: ["tenchu-stealth-assassins-recomp"],
   downloads: [
     {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/Heromachine/Tenchu-SA-Recomp/releases/download/v0.1.0/TenchuSARecomp-v0.1.0-linux-x64.zip",
       size: "46.1 MB",
     },
     {
-      label: "Linux AppImage",
+      label: "Linux x64",
       url: "https://github.com/Heromachine/Tenchu-SA-Recomp/releases/download/v0.1.0/TenchuSARecomp-v0.1.0-x86_64.AppImage",
       size: "41.2 MB",
     },

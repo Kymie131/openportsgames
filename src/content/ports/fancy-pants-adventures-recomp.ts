@@ -51,15 +51,9 @@ export const fancyPantsAdventuresRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/elripalda/adventure-pants-recomp/releases/download/v1.0.0/AdventurePantsRecomp-v1.0.0-Windows-x64.zip",
-      "note": "Windows · x64"
     },
-    {
-      "label": "Source",
-      "url": "https://github.com/elripalda/adventure-pants-recomp/releases/download/v1.0.0/AdventurePantsRecomp-v1.0.0-source.zip",
-      "note": "Source · ZIP"
-    }
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/generated/fancy-pants-adventures-recomp.svg",

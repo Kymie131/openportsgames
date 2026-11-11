@@ -57,28 +57,23 @@ export const sonicRidersRecomp: Port = {
     {
       "label": "Windows",
       "url": "https://github.com/teclilla18/sonic-riders-recomp/releases/download/v0.8.0/SonicRiders-PC-Setup-v0.8.0.zip",
-      "note": "Windows · setup"
     },
     {
       "label": "Linux",
       "url": "https://github.com/teclilla18/sonic-riders-recomp/releases/download/v0.8.0/SonicRiders-Linux-Setup-v0.8.0.zip",
-      "note": "Linux · setup"
     },
     {
       "label": "Android",
       "url": "https://github.com/teclilla18/sonic-riders-recomp/releases/download/v0.8.0/SonicRiders-Android-Setup-v0.8.0.zip",
-      "note": "Android · setup"
     },
     {
       "label": "iOS",
       "url": "https://github.com/teclilla18/sonic-riders-recomp/releases/download/v0.8.0/SonicRiders-iOS-Setup-v0.8.0.zip",
-      "note": "iOS · setup"
     },
     {
-      "label": "Nintendo Switch",
+      "label": "Switch",
       "url": "https://github.com/teclilla18/sonic-riders-recomp/releases/download/v0.8.0/SonicRiders-Switch-Setup-v0.8.0.zip",
-      "note": "Switch · homebrew"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/sonic-riders-recomp.png",

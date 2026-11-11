@@ -32,24 +32,24 @@ export const openNectar: Port = {
   },
   downloads: [
     {
+      label: "Android",
+      url: "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/releases/download/1.2/open_nectar_1.2.apk",
+      size: "60.6 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/releases/download/1.2/nectar-linux.tar.gz",
       size: "30.1 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/releases/download/1.2/nectar-windows.zip",
-      size: "24.1 MB",
-    },
-    {
-      label: "Linux AppImage",
+      label: "Linux x64",
       url: "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/releases/download/1.2/Open_Nectar-x86_64.AppImage",
       size: "28.4 MB",
     },
     {
-      label: "Android APK",
-      url: "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/releases/download/1.2/open_nectar_1.2.apk",
-      size: "60.6 MB",
+      label: "Windows",
+      url: "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/releases/download/1.2/nectar-windows.zip",
+      size: "24.1 MB",
     },
   ],
   cover: {

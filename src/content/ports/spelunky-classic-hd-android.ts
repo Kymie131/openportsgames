@@ -25,29 +25,9 @@ export const spelunkyClassicHdAndroid: Port = {
   summaryEs: "Spelunky Classic HD es un videojuego de plataformas.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/yancharkin/SpelunkyClassicHD/releases/download/1.2.2/spelunky_classic_hd-android-universal.apk",
       size: "50.6 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/yancharkin/SpelunkyClassicHD/releases/download/1.2.2/spelunky_classic_hd-linux-arm64.zip",
-      size: "11.7 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/yancharkin/SpelunkyClassicHD/releases/download/1.2.2/spelunky_classic_hd-linux-x86_64.AppImage",
-      size: "16.5 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/yancharkin/SpelunkyClassicHD/releases/download/1.2.2/spelunky_classic_hd-windows-arm64.zip",
-      size: "12.5 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/yancharkin/SpelunkyClassicHD/releases/download/1.2.2/spelunky_classic_hd-windows-x86_64.zip",
-      size: "11.1 MB",
     },
   ],
   cover: {

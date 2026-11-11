@@ -27,7 +27,7 @@ export const theForceEngineVr: Port = {
     "Build orientada a RV de The Force Engine (un reemplazo del Jedi Engine) que soporta Dark Forces y sus mods en Android. Necesita el juego original.",
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/SoVRHere/TheForceEngineVR/releases/download/v0.9.57-vr/TheForceEngineVR.Installer.exe",
       size: "39.3 MB",
     },

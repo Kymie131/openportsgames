@@ -28,7 +28,7 @@ export const fightNightChampionRecomp: Port = {
     "Recompilación estática de Fight Night Champion (Xbox 360) para Windows. Necesita tu propia copia del juego.",
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/whompay/FNCReborn/releases/download/v1.0/FNCReborn-Setup.exe",
       size: "12.0 MB",
     },

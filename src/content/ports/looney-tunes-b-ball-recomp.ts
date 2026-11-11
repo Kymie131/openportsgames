@@ -51,10 +51,9 @@ export const looneyTunesBBallRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/SlippyGetBackHere/looney_tunes_b-ball_recomp/releases/download/v0.2.0/looneytunesbball-0.2.0-windows-x64.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/generated/looney-tunes-b-ball-recomp.svg",

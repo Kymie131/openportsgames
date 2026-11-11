@@ -27,14 +27,14 @@ export const tomba2Recomp: Port = {
     "Recompilación nativa de Tomba! 2 (PlayStation). El jugador aporta su propia imagen de disco obtenida legalmente; el repositorio no incluye contenido del juego.",
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/mstan/Tomba2Recomp/releases/download/v0.2.1/Tomba2Recomp-v0.2.1-linux-x86_64.AppImage",
-      size: "66.5 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/mstan/Tomba2Recomp/releases/download/v0.2.1/Tomba2Recomp-v0.2.1-windows-x64.zip",
       size: "70.8 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/mstan/Tomba2Recomp/releases/download/v0.2.1/Tomba2Recomp-v0.2.1-linux-x86_64.AppImage",
+      size: "66.5 MB",
     },
   ],
   cover: {

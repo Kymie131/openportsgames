@@ -23,7 +23,7 @@ export const linksAwakeningAndroidPlus: Port = {
   originalSystems: ["Nintendo Switch"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Nycolazs/LASRecomp-Android-Plus/releases/download/android-v1.2.0/LASRecomp-Android-1.2.0.apk",
       size: "76.6 MB",
     },

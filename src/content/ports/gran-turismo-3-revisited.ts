@@ -31,9 +31,14 @@ export const granTurismo3Revisited: Port = {
     "Reimplementación de código abierto del motor de Gran Turismo 3 A-Spec. La versión 0.6.0 es jugable de principio a fin: modo GT con concesionarios, ajustes, licencias y resistencias, Arcade con pantalla dividida para dos jugadores, repeticiones y las películas y música originales. Lee los recursos directamente de tu propia imagen .iso o .chd y añade batallas i.LINK online para hasta seis jugadores. Hay builds para Windows, macOS, Linux, Android y Meta Quest; iOS se compila desde el código. No incluye datos del juego.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/matt-pulsipher/GT3-revisited/releases/download/v0.6.4/gt3r-android.apk",
       size: "23.7 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/matt-pulsipher/GT3-revisited/releases/download/v0.6.4/gt3r-quest.apk",
+      size: "13.1 MB",
     },
     {
       label: "Linux",
@@ -41,24 +46,19 @@ export const granTurismo3Revisited: Port = {
       size: "10.3 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/matt-pulsipher/GT3-revisited/releases/download/v0.6.4/gt3r-macos-arm64.zip",
-      size: "7.7 MB",
-    },
-    {
-      label: "Android APK",
-      url: "https://github.com/matt-pulsipher/GT3-revisited/releases/download/v0.6.4/gt3r-quest.apk",
-      size: "13.1 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/matt-pulsipher/GT3-revisited/releases/download/v0.6.4/gt3r-windows-x64-vr.zip",
       size: "9.3 MB",
     },
     {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/matt-pulsipher/GT3-revisited/releases/download/v0.6.4/gt3r-windows-x64.zip",
       size: "8.5 MB",
+    },
+    {
+      label: "macOS",
+      url: "https://github.com/matt-pulsipher/GT3-revisited/releases/download/v0.6.4/gt3r-macos-arm64.zip",
+      size: "7.7 MB",
     },
   ],
   cover: {

@@ -54,15 +54,13 @@ export const marvelUltimateAllianceRecompiled: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/saulob/marvel-ultimate-alliance-bundle-recompiled/releases/download/v0.2.0/MarvelUltimateAlliance-v0.2.0-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux AppImage",
+      "label": "Linux",
       "url": "https://github.com/saulob/marvel-ultimate-alliance-bundle-recompiled/releases/download/v0.2.0/MarvelUltimateAlliance-v0.2.0-x86_64.AppImage",
-      "note": "Linux · experimental"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/marvel-ultimate-alliance-recompiled.png",

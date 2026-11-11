@@ -52,15 +52,13 @@ export const nflBlitz2003Pc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/8bitninja64/NFLBlitz2003-PC/releases/download/v1.1/NFLBlitz2003-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/8bitninja64/NFLBlitz2003-PC/releases/download/v1.1/NFLBlitz2003-linux-x64.tar.xz",
-      "note": "Linux · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/nfl-blitz-2003-pc.png",

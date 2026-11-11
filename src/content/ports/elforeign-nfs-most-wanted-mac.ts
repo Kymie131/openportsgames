@@ -23,7 +23,7 @@ export const elforeignNfsMostWantedMac: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/elforeign/nfs-most-wanted-mac/releases/download/v4.5.0/NFS-Most-Wanted-Native-Setup-v4.5.0.dmg",
       size: "110.1 MB",
     },

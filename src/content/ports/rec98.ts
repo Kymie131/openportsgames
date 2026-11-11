@@ -28,7 +28,7 @@ export const rec98: Port = {
     "Proyecto de ingeniería inversa de los primeros cinco juegos de Touhou en PC-98. Código de investigación; requiere archivos del juego de una copia que poseas.",
   downloads: [
     {
-      label: "2026-03-16-ReC98",
+      label: "Windows",
       url: "https://github.com/nmlgc/ReC98/releases/download/P0335/2026-03-16-ReC98.zip",
       size: "744 KB",
     },

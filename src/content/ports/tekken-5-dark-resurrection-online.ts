@@ -51,10 +51,9 @@ export const tekken5DarkResurrectionOnline: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x86_64",
+      "label": "Windows",
       "url": "https://github.com/TheWishin/T5DROnline/releases/download/v1.2.1/T5DR-Online-1.2.1.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/generated/tekken-5-dark-resurrection-online.svg",

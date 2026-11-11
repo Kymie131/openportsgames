@@ -32,16 +32,6 @@ export const agentUnderFireRecomp: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/hk21x/007-agentunderfire-recomp/releases/download/v1.0.2/AgentUnderFire-PAL-package.zip",
-      size: "79.7 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/hk21x/007-agentunderfire-recomp/releases/download/v1.0.2/AgentUnderFire-USA-package.zip",
-      size: "74.9 MB",
-    },
-    {
-      label: "Windows EXE",
       url: "https://github.com/hk21x/007-agentunderfire-recomp/releases/download/v1.0.2/AgentUnderFireLauncher.exe",
       size: "2.4 MB",
     },

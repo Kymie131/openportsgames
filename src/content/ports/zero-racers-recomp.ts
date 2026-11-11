@@ -28,13 +28,13 @@ export const zeroRacersRecomp: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/mstan/ZeroRacersVirtualBoyRecomp/releases/download/v0.1.2/ZeroRacersVirtualBoyRecomp-windows-x64.zip",
-      size: "8.3 MB",
-    },
-    {
-      label: "Windows EXE",
       url: "https://github.com/mstan/ZeroRacersVirtualBoyRecomp/releases/download/v0.1.2/ZeroRacersVirtualBoyRecomp.exe",
       size: "18.2 MB",
+    },
+    {
+      label: "Windows x64",
+      url: "https://github.com/mstan/ZeroRacersVirtualBoyRecomp/releases/download/v0.1.2/ZeroRacersVirtualBoyRecomp-windows-x64.zip",
+      size: "8.3 MB",
     },
   ],
   cover: {

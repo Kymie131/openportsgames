@@ -22,7 +22,7 @@ export const pokemonRedBlue3dsGen1recomp: Port = {
   originalSystems: ["Game Boy"],
   downloads: [
     {
-      label: "gen1recomp-0.0.1-3ds",
+      label: "3ds",
       url: "https://github.com/cohako/gen1recomp-lua-native-3ds-port/releases/download/v0.0.1/gen1recomp-0.0.1-3ds.zip",
       size: "15.0 MB",
     },

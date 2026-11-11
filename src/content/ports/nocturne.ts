@@ -21,32 +21,32 @@ export const Nocturne: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Linux",
+      label: "Linux arm64",
       url: "https://github.com/NearlyTRex/NocturneDecomp/releases/download/v0.1.10/nocturne-0.1.10-exe-linux-aarch64.tar.gz",
       size: "11.0 MB",
     },
     {
-      label: "Linux",
+      label: "Linux arm64",
       url: "https://github.com/NearlyTRex/NocturneDecomp/releases/download/v0.1.10/nocturne-0.1.10-exe-linux-vanilla-aarch64.tar.gz",
       size: "10.9 MB",
     },
     {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/NearlyTRex/NocturneDecomp/releases/download/v0.1.10/nocturne-0.1.10-exe-linux-vanilla-x86_64.tar.gz",
       size: "10.6 MB",
     },
     {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/NearlyTRex/NocturneDecomp/releases/download/v0.1.10/nocturne-0.1.10-exe-linux-x86_64.tar.gz",
       size: "10.6 MB",
     },
     {
-      label: "macOS",
+      label: "macOS arm64",
       url: "https://github.com/NearlyTRex/NocturneDecomp/releases/download/v0.1.10/nocturne-0.1.10-exe-macos-arm64.tar.gz",
       size: "10.2 MB",
     },
     {
-      label: "macOS",
+      label: "macOS arm64",
       url: "https://github.com/NearlyTRex/NocturneDecomp/releases/download/v0.1.10/nocturne-0.1.10-exe-macos-vanilla-arm64.tar.gz",
       size: "10.1 MB",
     },

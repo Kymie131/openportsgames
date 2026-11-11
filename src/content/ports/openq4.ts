@@ -28,34 +28,34 @@ export const openq4: Port = {
     "Port de código fuente moderno de Quake 4 basado en el código de id Tech 4 publicado. Necesita tu propia copia del juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/themuffinator/openQ4/releases/download/v0.13.2/openq4-0.13.2-linux-arm64-preview.tar.xz",
-      size: "641.3 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/themuffinator/openQ4/releases/download/v0.13.2/openq4-0.13.2-linux-x64.tar.xz",
-      size: "642.7 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/themuffinator/openQ4/releases/download/v0.13.2/openq4-0.13.2-macos-arm64-metal-unsigned.tar.gz",
-      size: "640.7 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/themuffinator/openQ4/releases/download/v0.13.2/openq4-0.13.2-macos-arm64-opengl-unsigned.tar.gz",
-      size: "640.7 MB",
-    },
-    {
-      label: "Linux AppImage",
+      label: "Linux arm64",
       url: "https://github.com/themuffinator/openQ4/releases/download/v0.13.2/openq4-0.13.2-preview-aarch64.AppImage",
       size: "659.7 MB",
     },
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/themuffinator/openQ4/releases/download/v0.13.2/openq4-0.13.2-windows-arm64-setup.exe",
       size: "658.8 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/themuffinator/openQ4/releases/download/v0.13.2/openq4-0.13.2-linux-x64.tar.xz",
+      size: "642.7 MB",
+    },
+    {
+      label: "Linux arm64",
+      url: "https://github.com/themuffinator/openQ4/releases/download/v0.13.2/openq4-0.13.2-linux-arm64-preview.tar.xz",
+      size: "641.3 MB",
+    },
+    {
+      label: "macOS arm64",
+      url: "https://github.com/themuffinator/openQ4/releases/download/v0.13.2/openq4-0.13.2-macos-arm64-metal-unsigned.tar.gz",
+      size: "640.7 MB",
+    },
+    {
+      label: "macOS arm64",
+      url: "https://github.com/themuffinator/openQ4/releases/download/v0.13.2/openq4-0.13.2-macos-arm64-opengl-unsigned.tar.gz",
+      size: "640.7 MB",
     },
   ],
   cover: {

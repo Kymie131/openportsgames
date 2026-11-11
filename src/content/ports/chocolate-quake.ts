@@ -25,14 +25,14 @@ export const ChocolateQuake: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Windows",
-      url: "https://github.com/Henrique194/chocolate-quake/releases/download/chocolate-quake-2.1.0/chocolate-quake-2.1.0-windows-x86.zip",
-      size: "9.8 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/Henrique194/chocolate-quake/releases/download/chocolate-quake-2.1.0/chocolate-quake-2.1.0-windows-x86_64.zip",
       size: "9.9 MB",
+    },
+    {
+      label: "Windows x86",
+      url: "https://github.com/Henrique194/chocolate-quake/releases/download/chocolate-quake-2.1.0/chocolate-quake-2.1.0-windows-x86.zip",
+      size: "9.8 MB",
     },
   ],
   cover: {

@@ -23,11 +23,6 @@ export const mustafasamer93ApocalypsePcNativePort: Port = {
   originalSystems: ["PlayStation"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/MustafaSamer93/Apocalypse-PC-Native-Port/releases/download/v1.0/Repocalypse-v1.0-linux-x64.tar.gz",
-      size: "11.4 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/MustafaSamer93/Apocalypse-PC-Native-Port/releases/download/v1.0/Repocalypse-v1.0-win64.zip",
       size: "6.4 MB",

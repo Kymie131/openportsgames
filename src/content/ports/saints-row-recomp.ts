@@ -26,7 +26,7 @@ export const saintsRowRecomp: Port = {
     "Recompilación estática de Saints Row (Xbox 360) basada en ReXGlue. Requiere tu propia copia.",
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/whompay/SaintsReborn/releases/download/V1.2.2/SaintsReborn-Setup.exe",
       size: "12.1 MB",
     },

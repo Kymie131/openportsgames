@@ -27,7 +27,7 @@ export const megaManX5Recomp: Port = {
     "Recompilación nativa de Mega Man X5 (PlayStation). El jugador aporta su propio material obtenido legalmente (imagen de disco); el repositorio no incluye contenido del juego.",
   downloads: [
     {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/mstan/MegaManX5Recomp/releases/download/v0.1.0-alpha/MegaManX5Recomp-v0.1.0-alpha-linux-x86_64.AppImage",
       size: "40.6 MB",
     },

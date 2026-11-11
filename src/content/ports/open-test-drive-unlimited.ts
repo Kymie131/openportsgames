@@ -22,34 +22,34 @@ export const openTestDriveUnlimited: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited/releases/download/v0.1/opentdu_v0.1_linux_vulkan.zip",
-      size: "19.5 MB",
-    },
-    {
       label: "macOS",
       url: "https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited/releases/download/v0.1/opentdu_v0.1_macos_vulkan.zip",
       size: "21.9 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited/releases/download/v0.1/opentdu_v0.1_windows_Win32_latest_vulkan.zip",
-      size: "16.4 MB",
+      label: "Linux",
+      url: "https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited/releases/download/v0.1/opentdu_v0.1_linux_vulkan.zip",
+      size: "19.5 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited/releases/download/v0.1/opentdu_v0.1_windows_Win32_Win7_vulkan.zip",
-      size: "16.4 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited/releases/download/v0.1/opentdu_v0.1_windows_x64_latest_vulkan.zip",
       size: "17.1 MB",
     },
     {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited/releases/download/v0.1/opentdu_v0.1_windows_x64_Win7_vulkan.zip",
       size: "17.1 MB",
+    },
+    {
+      label: "Windows x86",
+      url: "https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited/releases/download/v0.1/opentdu_v0.1_windows_Win32_latest_vulkan.zip",
+      size: "16.4 MB",
+    },
+    {
+      label: "Windows x86",
+      url: "https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited/releases/download/v0.1/opentdu_v0.1_windows_Win32_Win7_vulkan.zip",
+      size: "16.4 MB",
     },
   ],
   cover: {

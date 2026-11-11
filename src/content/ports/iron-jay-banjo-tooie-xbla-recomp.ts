@@ -23,7 +23,7 @@ export const ironJayBanjoTooieXblaRecomp: Port = {
   originalSystems: ["Nintendo 64"],
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/iron-jay/banjo_tooie_xbla_recomp/releases/download/v0.1.1/Banjo-Tooie.exe",
       size: "26.5 MB",
     },

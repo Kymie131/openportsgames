@@ -26,13 +26,13 @@ export const Heretic2: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/0lvin/heretic2/releases/download/8.71H16/yquake2remaster-win32-8.71H16.tar.gz",
-      size: "8.2 MB",
-    },
-    {
-      label: "Windows",
       url: "https://github.com/0lvin/heretic2/releases/download/8.71H16/yquake2remaster-win64-8.71H16.tar.gz",
       size: "8.4 MB",
+    },
+    {
+      label: "Windows x86",
+      url: "https://github.com/0lvin/heretic2/releases/download/8.71H16/yquake2remaster-win32-8.71H16.tar.gz",
+      size: "8.2 MB",
     },
   ],
   cover: {

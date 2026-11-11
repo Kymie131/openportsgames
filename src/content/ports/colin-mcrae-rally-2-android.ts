@@ -23,29 +23,9 @@ export const colinMcraeRally2Android: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/pablocpas/OpenCMR2/releases/download/v1.8.7/OpenCMR2-Android.apk",
       size: "14.5 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/pablocpas/OpenCMR2/releases/download/v1.8.7/OpenCMR2-Linux-arm64.tar.gz",
-      size: "8.9 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/pablocpas/OpenCMR2/releases/download/v1.8.7/OpenCMR2-Linux-i686.tar.gz",
-      size: "9.3 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/pablocpas/OpenCMR2/releases/download/v1.8.7/OpenCMR2-Linux-x86_64.tar.gz",
-      size: "9.2 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/pablocpas/OpenCMR2/releases/download/v1.8.7/OpenCMR2-macOS-arm64.zip",
-      size: "2.5 MB",
     },
     {
       label: "Windows",

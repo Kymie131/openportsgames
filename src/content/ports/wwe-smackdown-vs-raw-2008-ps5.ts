@@ -22,7 +22,7 @@ export const wweSmackdownVsRaw2008Ps5: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "PPSA92008",
+      label: "Ps5",
       url: "https://github.com/elripalda/SvR2008-Recomp-PS5/releases/download/v1.0/PPSA92008.zip",
       size: "38.9 MB",
     },

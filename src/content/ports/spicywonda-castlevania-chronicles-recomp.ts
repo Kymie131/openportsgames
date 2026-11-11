@@ -25,19 +25,14 @@ export const spicywondaCastlevaniaChroniclesRecomp: Port = {
   summaryEs: "Castlevania Chronicles es un videojuego producido por Konami para la Sharp X68000. En su formato original de 2 discos floppy, el juego nunca fue lanzado a la venta fuera de Japón ya que la X68000 era una producto exclusivo del mercado japonés. Fue nombrado no oficialmente como Akumajō Dracula X68000\" y \"Castlevania X68000\".",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/Spicywonda/castlevania-chronicles-recomp/releases/download/v0.3.10/CastlevaniaChronicles-0.3.10-linux-x64.tar.gz",
-      size: "93.8 MB",
+      label: "Windows",
+      url: "https://github.com/Spicywonda/castlevania-chronicles-recomp/releases/download/v0.3.10/CastlevaniaChronicles-0.3.10-win-x64.zip",
+      size: "93.9 MB",
     },
     {
       label: "macOS",
       url: "https://github.com/Spicywonda/castlevania-chronicles-recomp/releases/download/v0.3.10/CastlevaniaChronicles-0.3.10-osx-arm64.zip",
       size: "91.3 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/Spicywonda/castlevania-chronicles-recomp/releases/download/v0.3.10/CastlevaniaChronicles-0.3.10-win-x64.zip",
-      size: "93.9 MB",
     },
   ],
   cover: {

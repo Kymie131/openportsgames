@@ -27,7 +27,7 @@ export const prisonArchitectAndroid: Port = {
     "Lanzador para Android de Prison Architect, basado en el juego de escritorio. Necesita tu propia copia de los archivos del juego.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/udarmolota/pridroid/releases/download/0.1.4/pridroid-release-0.1.4.apk",
       size: "77.7 MB",
     },

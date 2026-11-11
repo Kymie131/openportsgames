@@ -31,7 +31,7 @@ export const monsterHunterGenerationsUltimateRecomp: Port = {
     "Recompilación estática de la versión 1.4.0 de Switch para Windows, Linux y Android. La versión 0.14.0 incluye renderizado Vulkan, opciones de resolución, antialiasing y supersampling, soporte ultrapanorámico, límite de 30 a 240 fps, compatibilidad con mandos, ratón y teclado experimentales, extras multijugador y soporte de mods. Requiere tu propia copia de Monster Hunter Generations Ultimate con la actualización 1.4.0, volcada desde tu consola. No incluye archivos del juego, claves ni firmware.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/morerokk/MHGURecomp/releases/download/0.16.1/Android-MHGURecomp.0.16.1.apk",
       size: "131.5 MB",
     },

@@ -23,7 +23,7 @@ export const goemon64RecompiledAndroid: Port = {
   related: ["goemon-64-recompiled"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/ogdanimal/Goemon64Recomp-Android/releases/download/v1.0.8/Goemon64Recomp-1.0.8-arm64-v8a.apk",
       size: "24.3 MB",
     },

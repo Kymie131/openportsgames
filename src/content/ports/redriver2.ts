@@ -55,6 +55,16 @@ export const redriver2: Port = {
   ],
   downloads: [
     {
+      label: "Windows x86",
+      url: "https://github.com/OpenDriver2/REDRIVER2/releases/download/7.4-rc2/REDRIVER2_Win32_Release.zip",
+      size: "9.3 MB",
+    },
+    {
+      label: "Windows x86",
+      url: "https://github.com/OpenDriver2/REDRIVER2/releases/download/7.4-rc2/REDRIVER2_Win32_Release_dev.zip",
+      size: "9.3 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/OpenDriver2/REDRIVER2/releases/download/7.4-rc2/REDRIVER2_Linux_Release.tar.gz",
       size: "5.9 MB",
@@ -63,16 +73,6 @@ export const redriver2: Port = {
       label: "Linux",
       url: "https://github.com/OpenDriver2/REDRIVER2/releases/download/7.4-rc2/REDRIVER2_Linux_Release_dev.tar.gz",
       size: "5.9 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/OpenDriver2/REDRIVER2/releases/download/7.4-rc2/REDRIVER2_Win32_Release.zip",
-      size: "9.3 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/OpenDriver2/REDRIVER2/releases/download/7.4-rc2/REDRIVER2_Win32_Release_dev.zip",
-      size: "9.3 MB",
     },
   ],
   cover: {

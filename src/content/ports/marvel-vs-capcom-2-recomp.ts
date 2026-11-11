@@ -52,13 +52,11 @@ export const marvelVsCapcom2Recomp: Port = {
     {
       "label": "Windows x64",
       "url": "https://github.com/dalves408/mvsc2-recomp/releases/download/v1.0.1/MvC2-v1.0.1-Windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Windows installer",
+      "label": "Windows",
       "url": "https://github.com/dalves408/mvsc2-recomp/releases/download/v1.0.1/MvC2-Setup-1.0.1.exe",
-      "note": "Windows · installer"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/marvel-vs-capcom-2-recomp.jpg",

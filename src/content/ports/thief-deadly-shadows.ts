@@ -22,19 +22,9 @@ export const ThiefDeadlyShadows: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "T3SDK-Launcher_0.3.3_portable",
-      url: "https://github.com/Veradictus/Thief3-Decomp/releases/download/v0.3.3/T3SDK-Launcher_0.3.3_portable.zip",
-      size: "45.7 MB",
-    },
-    {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/Veradictus/Thief3-Decomp/releases/download/v0.3.3/T3SDK-Launcher_0.3.3_x64-setup.exe",
       size: "29.9 MB",
-    },
-    {
-      label: "T3SDK_0.3.3_x86",
-      url: "https://github.com/Veradictus/Thief3-Decomp/releases/download/v0.3.3/T3SDK_0.3.3_x86.zip",
-      size: "31.0 MB",
     },
   ],
   cover: {

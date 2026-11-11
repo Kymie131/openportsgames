@@ -23,14 +23,14 @@ export const felipeprado0Spartanport: Port = {
   originalSystems: ["PlayStation 4"],
   downloads: [
     {
+      label: "Linux",
+      url: "https://github.com/FelipePrado0/SpartanPort/releases/download/windows-v3.1.0/spartanport-x86_64.AppImage",
+      size: "144.5 MB",
+    },
+    {
       label: "Windows",
       url: "https://github.com/FelipePrado0/SpartanPort/releases/download/windows-v3.1.0/spartanport-windows.zip",
       size: "82.4 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/FelipePrado0/SpartanPort/releases/download/windows-v3.1.0/spartanport-x86_64.AppImage",
-      size: "144.5 MB",
     },
   ],
   cover: {

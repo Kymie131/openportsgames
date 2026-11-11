@@ -23,7 +23,7 @@ export const systemShockAndroid: Port = {
   related: ["shockolate"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/raposomiguel50/system-shock-android/releases/download/v1.0.0/SystemShock-Android-v1.0.0-arm64-v8a.apk",
       size: "3.6 MB",
     },

@@ -27,24 +27,9 @@ export const starFox64Recomp: Port = {
     "Recompilación estática de Star Fox 64 (N64, USA v1.1 Rev A) con N64Recomp y RT64. Añade widescreen, framerate libre, mods (con página en Thunderstore) y cargas instantáneas.",
   downloads: [
     {
-      label: "SF64Recomp-Dev-Cheats",
-      url: "https://github.com/sonicdcer/Starfox64Recomp/releases/download/1.0.3/SF64Recomp-Dev-Cheats.zip",
-      size: "72 KB",
-    },
-    {
-      label: "Starfox64Recompiled-v1.0.3-Flatpak-X64-Release",
-      url: "https://github.com/sonicdcer/Starfox64Recomp/releases/download/1.0.3/Starfox64Recompiled-v1.0.3-Flatpak-X64-Release.zip",
-      size: "9.5 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/sonicdcer/Starfox64Recomp/releases/download/1.0.3/Starfox64Recompiled-v1.0.3-Linux-ARM64-Release.zip",
-      size: "13.4 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/sonicdcer/Starfox64Recomp/releases/download/1.0.3/Starfox64Recompiled-v1.0.3-Linux-X64-Release.zip",
-      size: "13.2 MB",
+      label: "Windows",
+      url: "https://github.com/sonicdcer/Starfox64Recomp/releases/download/1.0.3/Starfox64Recompiled-v1.0.3-Windows-RelWithDebInfo.zip",
+      size: "23.3 MB",
     },
     {
       label: "macOS",
@@ -52,9 +37,14 @@ export const starFox64Recomp: Port = {
       size: "21.8 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/sonicdcer/Starfox64Recomp/releases/download/1.0.3/Starfox64Recompiled-v1.0.3-Windows-RelWithDebInfo.zip",
-      size: "23.3 MB",
+      label: "Linux arm64",
+      url: "https://github.com/sonicdcer/Starfox64Recomp/releases/download/1.0.3/Starfox64Recompiled-v1.0.3-Linux-ARM64-Release.zip",
+      size: "13.4 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/sonicdcer/Starfox64Recomp/releases/download/1.0.3/Starfox64Recompiled-v1.0.3-Linux-X64-Release.zip",
+      size: "13.2 MB",
     },
   ],
   cover: {

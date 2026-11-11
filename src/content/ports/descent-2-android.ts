@@ -28,24 +28,24 @@ export const descent2Android: Port = {
     "Port del código fuente de Descent II (MS-DOS) para Android, con controles táctiles, paquetes de misiones adicionales y soporte opcional de la música redbook. Necesita los archivos del juego original del jugador.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/wootbeer/Descent2-Android/releases/download/v0.12/Descent2-Android-0.12-arm64-v8a-release.apk",
-      size: "823 KB",
+      label: "Android x64",
+      url: "https://github.com/wootbeer/Descent2-Android/releases/download/v0.12/Descent2-Android-0.12-x86_64-release.apk",
+      size: "852 KB",
     },
     {
-      label: "Android APK",
-      url: "https://github.com/wootbeer/Descent2-Android/releases/download/v0.12/Descent2-Android-0.12-armeabi-v7a-release.apk",
-      size: "780 KB",
-    },
-    {
-      label: "Android APK",
+      label: "Android x86",
       url: "https://github.com/wootbeer/Descent2-Android/releases/download/v0.12/Descent2-Android-0.12-x86-release.apk",
       size: "830 KB",
     },
     {
-      label: "Android APK",
-      url: "https://github.com/wootbeer/Descent2-Android/releases/download/v0.12/Descent2-Android-0.12-x86_64-release.apk",
-      size: "852 KB",
+      label: "Android arm64",
+      url: "https://github.com/wootbeer/Descent2-Android/releases/download/v0.12/Descent2-Android-0.12-arm64-v8a-release.apk",
+      size: "823 KB",
+    },
+    {
+      label: "Android armv7",
+      url: "https://github.com/wootbeer/Descent2-Android/releases/download/v0.12/Descent2-Android-0.12-armeabi-v7a-release.apk",
+      size: "780 KB",
     },
   ],
   cover: {

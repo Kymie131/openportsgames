@@ -51,10 +51,9 @@ export const grabbedByTheGhouliesRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows installer",
+      "label": "Windows",
       "url": "https://github.com/SeveerJ/Ghoulies_PC_Recomp/releases/download/v0.1_Beta/GhouliesPC_Setup_v0.1_beta.exe",
-      "note": "Windows · installer"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/grabbed-by-the-ghoulies-recomp.png",

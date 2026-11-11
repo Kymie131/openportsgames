@@ -52,20 +52,17 @@ export const phantasyStarIvRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/MotaviaWorks/PSIVRecomp/releases/download/v0.2.0-alpha/PSIV-Recomp-0.2.0-alpha-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x86_64",
+      "label": "Linux",
       "url": "https://github.com/MotaviaWorks/PSIVRecomp/releases/download/v0.2.0-alpha/PSIV-Recomp-0.2.0-alpha-linux-x86_64.tar.gz",
-      "note": "Linux · x64"
     },
     {
-      "label": "Android arm64",
+      "label": "Android",
       "url": "https://github.com/MotaviaWorks/PSIVRecomp/releases/download/v0.2.0-alpha/PSIV-Recomp-0.2.0-alpha-android-arm64.apk",
-      "note": "Android · APK"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/phantasy-star-iv-recomp.jpg",

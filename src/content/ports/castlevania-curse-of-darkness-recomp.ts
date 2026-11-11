@@ -51,10 +51,9 @@ export const castlevaniaCurseOfDarknessRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/Neguchads/Castlevania-COD-Recomp/releases/download/v0.1.0/Castlevania-COD-Recomp-v0.1.0-win64.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/castlevania-curse-of-darkness-recomp.png",

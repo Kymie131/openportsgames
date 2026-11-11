@@ -27,24 +27,24 @@ export const mortalKombatTrilogyRecomp: Port = {
     "Recompilación de Mortal Kombat Trilogy (PS1, USA SLUS-00330) con PSXRecomp. Las releases son kits de compilación propia: aportas tu disco y una BIOS compatible, y el juego se genera y compila en tu equipo. Es la recompilación base del framework, sin mejoras por juego.",
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/alexbeavs-ps1-ports/mortal-kombat-trilogy-recomp/releases/download/v0.1.1/mortal-kombat-trilogy-0.1.1-windows-x64.zip",
+      size: "25.0 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/alexbeavs-ps1-ports/mortal-kombat-trilogy-recomp/releases/download/v0.1.1/mortal-kombat-trilogy-0.1.1-linux-x64.zip",
       size: "23.1 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/alexbeavs-ps1-ports/mortal-kombat-trilogy-recomp/releases/download/v0.1.1/mortal-kombat-trilogy-0.1.1-macos-arm64.zip",
-      size: "21.9 MB",
-    },
-    {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/alexbeavs-ps1-ports/mortal-kombat-trilogy-recomp/releases/download/v0.1.1/mortal-kombat-trilogy-0.1.1-macos-x64.zip",
       size: "22.5 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/alexbeavs-ps1-ports/mortal-kombat-trilogy-recomp/releases/download/v0.1.1/mortal-kombat-trilogy-0.1.1-windows-x64.zip",
-      size: "25.0 MB",
+      label: "macOS arm64",
+      url: "https://github.com/alexbeavs-ps1-ports/mortal-kombat-trilogy-recomp/releases/download/v0.1.1/mortal-kombat-trilogy-0.1.1-macos-arm64.zip",
+      size: "21.9 MB",
     },
   ],
   cover: {

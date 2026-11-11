@@ -36,19 +36,19 @@ export const nxEngine: Port = {
     "Continuación refactorizada de NxEngine, una recreación nativa del motor gratuito original de Cave Story. La release oficial del repositorio es anterior a commits recientes; las builds también siguen master.",
   downloads: [
     {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/nxengine/nxengine-evo/releases/download/v2.6.5-1/NXEngine-Evo-v2.6.5-1-Linux-x86_64.AppImage",
       size: "46.1 MB",
-    },
-    {
-      label: "macOS DMG",
-      url: "https://github.com/nxengine/nxengine-evo/releases/download/v2.6.5-1/NXEngine-Evo-v2.6.5-1-OSX.dmg",
-      size: "9.7 MB",
     },
     {
       label: "Windows",
       url: "https://github.com/nxengine/nxengine-evo/releases/download/v2.6.5-1/NXEngine-Evo-v2.6.5-1-Win64.zip",
       size: "10.4 MB",
+    },
+    {
+      label: "macOS",
+      url: "https://github.com/nxengine/nxengine-evo/releases/download/v2.6.5-1/NXEngine-Evo-v2.6.5-1-OSX.dmg",
+      size: "9.7 MB",
     },
   ],
   cover: {

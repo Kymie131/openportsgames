@@ -41,9 +41,8 @@ export const skate3Android: Port = {
   ],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/andrewnakas/skate3-android/releases/download/v0.2.0/Skate3-Android-v0.2.0.apk",
-      note: "Android · APK",
     },
   ],
 };

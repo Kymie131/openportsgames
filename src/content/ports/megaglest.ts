@@ -22,34 +22,34 @@ export const Megaglest: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Linux AppImage",
+      label: "macOS",
+      url: "https://github.com/MegaGlest/megaglest-source/releases/download/3.13.0/MegaGlest-game-macos-3.13.0.dmg",
+      size: "347.3 MB",
+    },
+    {
+      label: "Linux x64",
       url: "https://github.com/MegaGlest/megaglest-source/releases/download/3.13.0/MegaGlest-3.13.0-x86_64.AppImage",
       size: "323.5 MB",
     },
     {
-      label: "Linux",
-      url: "https://github.com/MegaGlest/megaglest-source/releases/download/3.13.0/megaglest-binary-linux-i686-3.13.0.tar.xz",
-      size: "34.6 MB",
-    },
-    {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/MegaGlest/megaglest-source/releases/download/3.13.0/megaglest-binary-linux-x86_64-3.13.0.tar.xz",
       size: "35.4 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/MegaGlest/megaglest-source/releases/download/3.13.0/megaglest-binary-win32-i386-3.13.0.7z",
-      size: "5.0 MB",
+      label: "Linux x86",
+      url: "https://github.com/MegaGlest/megaglest-source/releases/download/3.13.0/megaglest-binary-linux-i686-3.13.0.tar.xz",
+      size: "34.6 MB",
     },
     {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/MegaGlest/megaglest-source/releases/download/3.13.0/megaglest-binary-win64-x86_64-3.13.0.7z",
       size: "6.6 MB",
     },
     {
-      label: "macOS DMG",
-      url: "https://github.com/MegaGlest/megaglest-source/releases/download/3.13.0/MegaGlest-game-macos-3.13.0.dmg",
-      size: "347.3 MB",
+      label: "Windows x86",
+      url: "https://github.com/MegaGlest/megaglest-source/releases/download/3.13.0/megaglest-binary-win32-i386-3.13.0.7z",
+      size: "5.0 MB",
     },
   ],
   cover: {

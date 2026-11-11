@@ -22,7 +22,7 @@ export const naughtyBearRestuffAndroidPort: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/deivid22srk/naughtybear-restuff-android/releases/download/v1.1.0/NaughtyBear-ReStuff-v1.1.0-arm64-release.apk",
       size: "68.5 MB",
     },

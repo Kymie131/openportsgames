@@ -26,13 +26,13 @@ export const stradamaPonPc: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/StraDaMa/PoN_PC/releases/download/v1.0.1/PoN.PC.ENG.zip",
-      size: "9.1 MB",
+      url: "https://github.com/StraDaMa/PoN_PC/releases/download/v1.0.1/PoN.PC.JPN.zip",
+      size: "55.4 MB",
     },
     {
       label: "Windows",
-      url: "https://github.com/StraDaMa/PoN_PC/releases/download/v1.0.1/PoN.PC.JPN.zip",
-      size: "55.4 MB",
+      url: "https://github.com/StraDaMa/PoN_PC/releases/download/v1.0.1/PoN.PC.ENG.zip",
+      size: "9.1 MB",
     },
   ],
   cover: {

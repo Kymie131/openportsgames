@@ -42,14 +42,12 @@ export const theLastGuardianPc: Port = {
   ],
   downloads: [
     {
-      label: "Windows x86_64",
+      label: "Windows",
       url: "https://github.com/HayatoG/tlg_pc/releases/download/v2026.10.27-4825a99/tlg-windows-x86_64.zip",
-      note: "Windows · x64",
     },
     {
-      label: "Linux x86_64",
+      label: "Linux",
       url: "https://github.com/HayatoG/tlg_pc/releases/download/v2026.10.27-4825a99/tlg-linux-x86_64.tar.gz",
-      note: "Linux · x64",
     },
   ],
 };

@@ -31,7 +31,7 @@ export const gears3RecompAndroid: Port = {
     "Port no oficial para Android y PC del juego de Xbox 360 mediante recompilación estática. Requiere tu propia copia del juego y no incluye archivos del juego.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Jauidev/Gears3Recomp/releases/download/v1.1.0/Gears3Recomp-1.1.0.apk",
     },
   ],

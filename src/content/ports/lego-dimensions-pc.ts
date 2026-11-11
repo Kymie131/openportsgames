@@ -23,13 +23,13 @@ export const legoDimensionsPc: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/vascon-es/lego-dimensions-pc/releases/download/v3.0/LEGO_Dimensions_PC_portatil.zip",
-      size: "137.6 MB",
-    },
-    {
-      label: "Windows EXE",
       url: "https://github.com/vascon-es/lego-dimensions-pc/releases/download/v3.0/LEGO_Dimensions_PC_Setup.exe",
       size: "138.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/vascon-es/lego-dimensions-pc/releases/download/v3.0/LEGO_Dimensions_PC_portatil.zip",
+      size: "137.6 MB",
     },
   ],
   cover: {

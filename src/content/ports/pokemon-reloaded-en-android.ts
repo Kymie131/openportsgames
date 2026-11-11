@@ -25,24 +25,24 @@ export const pokemonReloadedEnAndroid: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/Klisee/pokemon-reloaded-android/releases/download/v0.4.2/pokemon-reloaded-0.4.2-arm64-v8a.apk",
-      size: "27.5 MB",
-    },
-    {
-      label: "Android APK",
-      url: "https://github.com/Klisee/pokemon-reloaded-android/releases/download/v0.4.2/pokemon-reloaded-0.4.2-armeabi-v7a.apk",
-      size: "26.3 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Klisee/pokemon-reloaded-android/releases/download/v0.4.2/pokemon-reloaded-0.4.2-universal.apk",
       size: "37.8 MB",
     },
     {
-      label: "Android APK",
+      label: "Android x64",
       url: "https://github.com/Klisee/pokemon-reloaded-android/releases/download/v0.4.2/pokemon-reloaded-0.4.2-x86_64.apk",
       size: "28.3 MB",
+    },
+    {
+      label: "Android arm64",
+      url: "https://github.com/Klisee/pokemon-reloaded-android/releases/download/v0.4.2/pokemon-reloaded-0.4.2-arm64-v8a.apk",
+      size: "27.5 MB",
+    },
+    {
+      label: "Android armv7",
+      url: "https://github.com/Klisee/pokemon-reloaded-android/releases/download/v0.4.2/pokemon-reloaded-0.4.2-armeabi-v7a.apk",
+      size: "26.3 MB",
     },
   ],
   cover: {

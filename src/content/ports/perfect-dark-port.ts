@@ -36,32 +36,27 @@ export const perfectDarkPort: Port = {
     "Port en desarrollo de la decompilación de Perfect Dark, mantenido aparte del proyecto original en GitLab. Las builds vienen de una etiqueta CI continua en lugar de releases versionadas. Necesita una ROM de N64 obtenida legalmente.",
   downloads: [
     {
-      label: "Switch",
-      url: "https://github.com/perfect-dark-pc-port/perfect_dark/releases/download/ci-dev-build/pd-arm64-nswitch.zip",
-      size: "10.3 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/perfect-dark-pc-port/perfect_dark/releases/download/ci-dev-build/pd-arm64-osx.tar.xz",
-      size: "3.3 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/perfect-dark-pc-port/perfect_dark/releases/download/ci-dev-build/pd-i686-linux.tar.gz",
-      size: "20.4 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/perfect-dark-pc-port/perfect_dark/releases/download/ci-dev-build/pd-i686-windows.zip",
       size: "24.0 MB",
     },
     {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/perfect-dark-pc-port/perfect_dark/releases/download/ci-dev-build/pd-x86_64-linux.tar.gz",
       size: "21.2 MB",
     },
     {
-      label: "macOS",
+      label: "Linux x86",
+      url: "https://github.com/perfect-dark-pc-port/perfect_dark/releases/download/ci-dev-build/pd-i686-linux.tar.gz",
+      size: "20.4 MB",
+    },
+    {
+      label: "macOS arm64",
+      url: "https://github.com/perfect-dark-pc-port/perfect_dark/releases/download/ci-dev-build/pd-arm64-osx.tar.xz",
+      size: "3.3 MB",
+    },
+    {
+      label: "macOS x64",
       url: "https://github.com/perfect-dark-pc-port/perfect_dark/releases/download/ci-dev-build/pd-x86_64-osx.tar.xz",
       size: "2.8 MB",
     },

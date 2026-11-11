@@ -51,15 +51,13 @@ export const totkRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x86_64",
+      "label": "Windows",
       "url": "https://github.com/valentderah/totk-pc-recomp/releases/download/v0.3.11/TotK-Setup-0.3.11-windows.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x86_64",
+      "label": "Linux",
       "url": "https://github.com/valentderah/totk-pc-recomp/releases/download/v0.3.11/TotK-Setup-x86_64-0.3.11-linux.AppImage",
-      "note": "Linux · AppImage"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/generated/totk-recomp.svg",

@@ -22,29 +22,9 @@ export const augustus: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Keriew/augustus/releases/download/v4.0.0/augustus-4.0.0-android.apk",
       size: "22.5 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/Keriew/augustus/releases/download/v4.0.0/augustus-4.0.0-linux.AppImage",
-      size: "20.0 MB",
-    },
-    {
-      label: "macOS DMG",
-      url: "https://github.com/Keriew/augustus/releases/download/v4.0.0/augustus-4.0.0-mac.dmg",
-      size: "16.5 MB",
-    },
-    {
-      label: "Switch NRO",
-      url: "https://github.com/Keriew/augustus/releases/download/v4.0.0/augustus-4.0.0-switch.nro",
-      size: "22.1 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/Keriew/augustus/releases/download/v4.0.0/augustus-4.0.0-windows.zip",
-      size: "24.6 MB",
     },
   ],
   cover: {

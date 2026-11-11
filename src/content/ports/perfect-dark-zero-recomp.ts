@@ -29,11 +29,6 @@ export const perfectDarkZeroRecomp: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/nikolaygorb/PerfectDarkZeroRecomp/releases/download/2.0/PDZrecomp-lin64.zip",
-      size: "56.7 MB",
-    },
-    {
-      label: "Windows",
       url: "https://github.com/nikolaygorb/PerfectDarkZeroRecomp/releases/download/2.0/PDZrecomp-win64.zip",
       size: "26.6 MB",
     },

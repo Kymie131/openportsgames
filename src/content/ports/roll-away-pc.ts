@@ -50,10 +50,9 @@ export const rollAwayPc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/Bitsandbreakpoints/roll-away-psx-pc-recomp/releases/download/v2.7.0/roll-away-pc.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/roll-away-pc.png",

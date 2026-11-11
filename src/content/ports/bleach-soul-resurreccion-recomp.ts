@@ -51,10 +51,9 @@ export const bleachSoulResurreccionRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows installer",
+      "label": "Windows",
       "url": "https://github.com/xPXavierx/bleach-soul-resurreccion-recomp/releases/download/v1.1.1/Bleach.Soul.Resurreccion.-.Setup.exe",
-      "note": "Windows · installer"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/bleach-soul-resurreccion-recomp.jpg",

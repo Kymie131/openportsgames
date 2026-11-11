@@ -22,29 +22,9 @@ export const wild9Pc: Port = {
   originalSystems: ["PlayStation"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/plinkr/Wild9Recomp/releases/download/v0.1.9/wild9-0.1.9-linux-x64.zip",
-      size: "12.1 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/plinkr/Wild9Recomp/releases/download/v0.1.9/wild9-0.1.9-macos-arm64.zip",
-      size: "8.7 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/plinkr/Wild9Recomp/releases/download/v0.1.9/wild9-0.1.9-macos-x64.zip",
-      size: "8.8 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/plinkr/Wild9Recomp/releases/download/v0.1.9/wild9-0.1.9-windows-x64.zip",
       size: "13.2 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/plinkr/Wild9Recomp/releases/download/v0.1.9/wild9-0.1.9-x86_64.AppImage",
-      size: "13.4 MB",
     },
   ],
   cover: {

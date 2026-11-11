@@ -23,12 +23,7 @@ export const bluewake: Port = {
   related: ["wind-waker-recomp","wind-waker-hd-recomp"],
   downloads: [
     {
-      label: "iOS IPA",
-      url: "https://github.com/chrissotraidis/bluewake/releases/download/v0.11.0/BlueWake-v0.11.0-ios-unsigned.ipa",
-      size: "5.8 MB",
-    },
-    {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/chrissotraidis/bluewake/releases/download/v0.11.0/BlueWake-v0.11.0-linux-x86_64.AppImage",
       size: "231.2 MB",
     },
@@ -36,6 +31,11 @@ export const bluewake: Port = {
       label: "Windows",
       url: "https://github.com/chrissotraidis/bluewake/releases/download/v0.11.0/BlueWake-v0.11.0-windows-x64.zip",
       size: "202.5 MB",
+    },
+    {
+      label: "iOS",
+      url: "https://github.com/chrissotraidis/bluewake/releases/download/v0.11.0/BlueWake-v0.11.0-ios-unsigned.ipa",
+      size: "5.8 MB",
     },
   ],
   cover: {

@@ -52,20 +52,17 @@ export const yokaiWatchRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/watchmakerers/clockwork/releases/download/0.5.1/clockwork-windows-x86_64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x86_64",
+      "label": "Linux",
       "url": "https://github.com/watchmakerers/clockwork/releases/download/0.5.1/clockwork-linux-x86_64.tar.gz",
-      "note": "Linux · x64"
     },
     {
-      "label": "macOS arm64",
+      "label": "macOS",
       "url": "https://github.com/watchmakerers/clockwork/releases/download/0.5.1/clockwork-macos-arm64.tar.gz",
-      "note": "macOS · Apple Silicon"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/yokai-watch-recomp.png",

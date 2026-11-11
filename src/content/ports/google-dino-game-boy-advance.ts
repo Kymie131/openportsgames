@@ -26,7 +26,7 @@ export const googleDinoGameBoyAdvance: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Google-Dino-Advance.1.1",
+      label: "Gba",
       url: "https://github.com/fritzem/Google-Dino-GBA/releases/download/1.1/Google-Dino-Advance.1.1.zip",
       size: "49 KB",
     },

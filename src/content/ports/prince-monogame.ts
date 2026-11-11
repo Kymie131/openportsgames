@@ -25,7 +25,7 @@ export const PrinceMonogame: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "PrinceGame",
+      label: "Windows",
       url: "https://github.com/salvadorc17/Prince-Monogame/releases/download/1.2/PrinceGame.zip",
       size: "53.7 MB",
     },

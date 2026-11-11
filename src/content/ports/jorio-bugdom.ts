@@ -25,17 +25,7 @@ export const jorioBugdom: Port = {
   summaryEs: "Bugdom es un videojuego de plataformas de 1999 desarrollado y publicado por Pangea Software para Mac OS 9. Se incluyó con los modelos iMac DV 2000 y iBook posteriores.",
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/jorio/Bugdom/releases/download/1.3.4/Bugdom-1.3.4-linux-aarch64.AppImage",
-      size: "50.4 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/jorio/Bugdom/releases/download/1.3.4/Bugdom-1.3.4-linux-x86_64.AppImage",
-      size: "50.6 MB",
-    },
-    {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/jorio/Bugdom/releases/download/1.3.4/Bugdom-1.3.4-mac.dmg",
       size: "53.8 MB",
     },

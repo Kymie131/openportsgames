@@ -28,34 +28,19 @@ export const infiniteMario64Ever: Port = {
     "Bifurcación de Infinite Mario 64 (original de TwilightPB), un proyecto basado en Super Mario 64. Requiere tu propia copia del juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/Brawmario/infinite-mario-64-ever/releases/download/v0.1.5/infinite-mario-64-ever.v0.1.5.linux.zip",
-      size: "40.4 MB",
-    },
-    {
       label: "macOS",
       url: "https://github.com/Brawmario/infinite-mario-64-ever/releases/download/v0.1.5/infinite-mario-64-ever.v0.1.5.mac.zip",
       size: "67.3 MB",
     },
     {
-      label: "infinite-mario-64-ever.v0.1.5.web.nothreads",
-      url: "https://github.com/Brawmario/infinite-mario-64-ever/releases/download/v0.1.5/infinite-mario-64-ever.v0.1.5.web.nothreads.zip",
-      size: "25.8 MB",
-    },
-    {
-      label: "infinite-mario-64-ever.v0.1.5.web.pwa",
-      url: "https://github.com/Brawmario/infinite-mario-64-ever/releases/download/v0.1.5/infinite-mario-64-ever.v0.1.5.web.pwa.zip",
-      size: "25.8 MB",
-    },
-    {
-      label: "infinite-mario-64-ever.v0.1.5.web",
-      url: "https://github.com/Brawmario/infinite-mario-64-ever/releases/download/v0.1.5/infinite-mario-64-ever.v0.1.5.web.zip",
-      size: "25.7 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/Brawmario/infinite-mario-64-ever/releases/download/v0.1.5/infinite-mario-64-ever.v0.1.5.windows.zip",
       size: "45.7 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Brawmario/infinite-mario-64-ever/releases/download/v0.1.5/infinite-mario-64-ever.v0.1.5.linux.zip",
+      size: "40.4 MB",
     },
   ],
   cover: {

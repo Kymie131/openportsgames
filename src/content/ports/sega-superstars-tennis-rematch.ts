@@ -27,11 +27,6 @@ export const segaSuperstarsTennisRematch: Port = {
     "Recompilación de Sega Superstars Tennis (Xbox 360) a Windows nativo mediante ReXGlue. Tú aportas los archivos.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/m1ndcrap/Sega-Superstars-Tennis-ReMatch/releases/download/v0.6.1/sst_rematch_linux.tar.gz",
-      size: "82.4 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/m1ndcrap/Sega-Superstars-Tennis-ReMatch/releases/download/v0.6.1/sst_rematch_windows.zip",
       size: "177.9 MB",

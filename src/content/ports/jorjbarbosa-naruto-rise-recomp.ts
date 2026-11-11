@@ -23,17 +23,12 @@ export const jorjbarbosaNarutoRiseRecomp: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/jorjbarbosa/naruto-rise-recomp/releases/download/v0.4.2-beta/naruto-rise-recomp-win-amd64.zip",
       size: "51.0 MB",
     },
     {
-      label: "Linux AppImage",
-      url: "https://github.com/jorjbarbosa/naruto-rise-recomp/releases/download/v0.4.2-beta/NarutoRise-0.4.2-beta-Linux-x86_64.AppImage",
-      size: "65.1 MB",
-    },
-    {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/jorjbarbosa/naruto-rise-recomp/releases/download/v0.4.2-beta/NarutoRiseInstaller.exe",
       size: "34.5 MB",
     },

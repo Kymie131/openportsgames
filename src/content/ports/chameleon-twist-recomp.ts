@@ -27,7 +27,7 @@ export const chameleonTwistRecomp: Port = {
     "Recompilación estática de Chameleon Twist (N64) con N64Recomp y el renderizador RT64. Requiere una copia del juego.",
   downloads: [
     {
-      label: "ChameleonTwistJPRecompiled",
+      label: "Windows",
       url: "https://github.com/Rainchus/ChameleonTwist1-JP-Recomp/releases/download/v0.1/ChameleonTwistJPRecompiled.zip",
       size: "22.8 MB",
     },

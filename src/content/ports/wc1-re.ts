@@ -25,34 +25,34 @@ export const Wc1Re: Port = {
   summaryGenerated: true,
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/neuromancer/wc1-re/releases/download/v0.9.9/wc1-re-v0.9.9-win32-msvc420.zip",
+      size: "262 KB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/neuromancer/wc1-re/releases/download/v0.9.9/wc1-re-v0.9.9-linux-x86_64-sdl2.zip",
       size: "41.0 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/neuromancer/wc1-re/releases/download/v0.9.9/wc1-re-v0.9.9-macos-arm64-sdl2.zip",
-      size: "35.9 MB",
-    },
-    {
-      label: "macOS DMG",
+      label: "macOS arm64",
       url: "https://github.com/neuromancer/wc1-re/releases/download/v0.9.9/wc1-re-v0.9.9-macos-arm64.dmg",
       size: "36.8 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/neuromancer/wc1-re/releases/download/v0.9.9/wc1-re-v0.9.9-macos-x86_64-sdl2.zip",
-      size: "35.8 MB",
-    },
-    {
-      label: "macOS DMG",
+      label: "macOS x64",
       url: "https://github.com/neuromancer/wc1-re/releases/download/v0.9.9/wc1-re-v0.9.9-macos-x86_64.dmg",
       size: "36.8 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/neuromancer/wc1-re/releases/download/v0.9.9/wc1-re-v0.9.9-win32-msvc420.zip",
-      size: "262 KB",
+      label: "macOS arm64",
+      url: "https://github.com/neuromancer/wc1-re/releases/download/v0.9.9/wc1-re-v0.9.9-macos-arm64-sdl2.zip",
+      size: "35.9 MB",
+    },
+    {
+      label: "macOS x64",
+      url: "https://github.com/neuromancer/wc1-re/releases/download/v0.9.9/wc1-re-v0.9.9-macos-x86_64-sdl2.zip",
+      size: "35.8 MB",
     },
   ],
   cover: {

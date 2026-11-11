@@ -28,7 +28,7 @@ export const goldenSunAndroid: Port = {
     "Port recompilado de Golden Sun (Game Boy Advance) para Android, basado en GSRecomp y llevado con el framework Descore. El jugador aporta su propia ROM obtenida legalmente; la app no contiene código, ROM ni recursos del juego.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/wootbeer/gsrandroid/releases/download/0.5/gsrandroid-release.apk",
       size: "5.5 MB",
     },

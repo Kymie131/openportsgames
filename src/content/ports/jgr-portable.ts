@@ -23,7 +23,7 @@ export const jgrPortable: Port = {
   related: ["jet-set-radio-future-unleashed"],
   downloads: [
     {
-      label: "JGR_PORTABLE-1.0.2",
+      label: "Psp",
       url: "https://github.com/beckerd/psp_jgr_portable/releases/download/1.0.2/JGR_PORTABLE-1.0.2.zip",
       size: "3.2 MB",
     },

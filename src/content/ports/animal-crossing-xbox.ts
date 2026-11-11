@@ -22,7 +22,7 @@ export const animalCrossingXbox: Port = {
   originalSystems: ["GameCube"],
   downloads: [
     {
-      label: "OpenCrossing-Xbox-v1.2",
+      label: "Xbox",
       url: "https://github.com/TechProGabe/OpenCrossing-Xbox/releases/download/v1.2/OpenCrossing-Xbox-v1.2.zip",
       size: "3.0 MB",
     },

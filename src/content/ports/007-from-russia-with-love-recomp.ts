@@ -51,10 +51,9 @@ export const bondFromRussiaWithLoveRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/TGP482/007FRWL-XBERecomp/releases/download/V2/007FRWL-XBERecomp.zip",
-      "note": "Windows Â· x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/007-from-russia-with-love-recomp.png",

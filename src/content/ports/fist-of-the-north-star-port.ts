@@ -51,15 +51,9 @@ export const fistOfTheNorthStarPort: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
-      "url": "https://github.com/ItalianKuze/port-ga-gotoku/releases/download/v0.1.4-alpha/PortGaGotoku-0.1.4-alpha.zip",
-      "note": "Windows · x64"
-    },
-    {
-      "label": "Linux AppImage",
+      "label": "Linux",
       "url": "https://github.com/ItalianKuze/port-ga-gotoku/releases/download/v0.1.4-alpha/PortGaGotoku-0.1.4-alpha-x86_64.AppImage",
-      "note": "Linux · AppImage"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/fist-of-the-north-star-port.png",

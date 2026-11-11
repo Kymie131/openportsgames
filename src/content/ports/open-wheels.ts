@@ -24,14 +24,9 @@ export const openWheels: Port = {
   summaryEs: "Happy Wheels es un juego de navegador basado en la física ragdoll desarrollado y publicado por Fancy Force. Creado por el diseñador de videojuegos Jim Bonacci en 2010, el juego cuenta con varios personajes, que utilizan vehículos diferentes, a veces anormales, para atravesar muchos niveles del juego. El juego es conocido por su violencia gráfica y la cantidad de contenido generado por el usuario, que sus jugadores producen sobre una base regular, con los mapas de juego compartidos en un servidor público.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/officialmelon/OpenWheels/releases/download/v0.3.0/OpenWheels-release.apk",
       size: "97.0 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/officialmelon/OpenWheels/releases/download/v0.3.0/OpenWheels-windows.zip",
-      size: "62.6 MB",
     },
   ],
   cover: {

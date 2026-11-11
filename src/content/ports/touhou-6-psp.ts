@@ -23,7 +23,7 @@ export const touhou6Psp: Port = {
   related: ["touhou-6-android"],
   downloads: [
     {
-      label: "th06-psp-native-1.0.1",
+      label: "Psp",
       url: "https://github.com/kan8223-dotcom/th06-psp-native/releases/download/v1.0.1/th06-psp-native-1.0.1.zip",
       size: "5.1 MB",
     },

@@ -22,6 +22,11 @@ export const splosionManPc: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
+      label: "Linux x64",
+      url: "https://github.com/thefixinhixon/SplosionManRecomp/releases/download/v2.2/SplosionMan-x86_64-v2.2.AppImage",
+      size: "60.8 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/thefixinhixon/SplosionManRecomp/releases/download/v2.2/SplosionMan-Linux-v2.2.zip",
       size: "60.2 MB",
@@ -30,11 +35,6 @@ export const splosionManPc: Port = {
       label: "Windows",
       url: "https://github.com/thefixinhixon/SplosionManRecomp/releases/download/v2.2/SplosionMan-Windows-v2.2.zip",
       size: "49.5 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/thefixinhixon/SplosionManRecomp/releases/download/v2.2/SplosionMan-x86_64-v2.2.AppImage",
-      size: "60.8 MB",
     },
   ],
   cover: {

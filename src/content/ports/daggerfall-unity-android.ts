@@ -22,19 +22,19 @@ export const daggerfallUnityAndroid: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/Vwing/daggerfall-unity-android/releases/download/v1.1.1.9/dfu-mono-32bit-v1.1.1.9_mods-supported.apk",
-      size: "52.9 MB",
+      label: "Android",
+      url: "https://github.com/Vwing/daggerfall-unity-android/releases/download/v1.1.1.9/dfu_il2cpp-64bit-v1.1.1.9_mods-not-supported.apk",
+      size: "60.8 MB",
     },
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Vwing/daggerfall-unity-android/releases/download/v1.1.1.9/dfu_il2cpp-32bit-v1.1.1.9_mods-not-supported.apk",
       size: "60.3 MB",
     },
     {
-      label: "Android APK",
-      url: "https://github.com/Vwing/daggerfall-unity-android/releases/download/v1.1.1.9/dfu_il2cpp-64bit-v1.1.1.9_mods-not-supported.apk",
-      size: "60.8 MB",
+      label: "Android",
+      url: "https://github.com/Vwing/daggerfall-unity-android/releases/download/v1.1.1.9/dfu-mono-32bit-v1.1.1.9_mods-supported.apk",
+      size: "52.9 MB",
     },
   ],
   cover: {

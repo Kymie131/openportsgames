@@ -51,10 +51,9 @@ export const akujiTheHeartlessRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/fuzzybark/AkujiTheHeartlessRecomp/releases/download/v0.1.0/akuji-recomp-v0.1.0-windows-x64.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/akuji-the-heartless-recomp.png",

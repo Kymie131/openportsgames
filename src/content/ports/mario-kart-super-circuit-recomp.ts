@@ -27,14 +27,14 @@ export const marioKartSuperCircuitRecomp: Port = {
     "Recompilación estática de Mario Kart: Super Circuit (GBA, USA) con el framework gbarecomp. Necesita la ROM y la BIOS de GBA; añade mods opcionales de 60 FPS y widescreen adaptativo, y netplay de dos jugadores por cable link emulado.",
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/mstan/MarioKartSuperCircuitRecomp/releases/download/v0.1.13/MarioKartSuperCircuitRecomp-linux-x86_64-v0.1.13.AppImage",
-      size: "19.2 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/mstan/MarioKartSuperCircuitRecomp/releases/download/v0.1.13/MarioKartSuperCircuitRecomp-windows-x64-v0.1.13.zip",
       size: "20.0 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/mstan/MarioKartSuperCircuitRecomp/releases/download/v0.1.13/MarioKartSuperCircuitRecomp-linux-x86_64-v0.1.13.AppImage",
+      size: "19.2 MB",
     },
   ],
   cover: {

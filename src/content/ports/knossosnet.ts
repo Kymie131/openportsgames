@@ -23,34 +23,9 @@ export const knossosnet: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/KnossosNET/Knossos.NET/releases/download/v1.3.14/com.knossosnet.knossosnet-Signed.apk",
       size: "83.5 MB",
-    },
-    {
-      label: "Windows EXE",
-      url: "https://github.com/KnossosNET/Knossos.NET/releases/download/v1.3.14/Knossos.NET-1.3.14-arm64.exe",
-      size: "42.9 MB",
-    },
-    {
-      label: "Windows EXE",
-      url: "https://github.com/KnossosNET/Knossos.NET/releases/download/v1.3.14/Knossos.NET-1.3.14-x64.exe",
-      size: "44.1 MB",
-    },
-    {
-      label: "Windows EXE",
-      url: "https://github.com/KnossosNET/Knossos.NET/releases/download/v1.3.14/Knossos.NET-1.3.14-x86.exe",
-      size: "41.6 MB",
-    },
-    {
-      label: "macOS DMG",
-      url: "https://github.com/KnossosNET/Knossos.NET/releases/download/v1.3.14/Knossos.NET-1.3.14.dmg",
-      size: "85.7 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/KnossosNET/Knossos.NET/releases/download/v1.3.14/Knossos.NET-aarch64.AppImage",
-      size: "38.9 MB",
     },
   ],
   cover: {

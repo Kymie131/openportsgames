@@ -25,7 +25,7 @@ export const Openmb: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "GoogleTranslateAPI-2.2.1",
+      label: "Windows",
       url: "https://github.com/cookgreen/OpenMB/releases/download/googletransapi-2.2.1/GoogleTranslateAPI-2.2.1.7z",
       size: "205 KB",
     },

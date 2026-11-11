@@ -26,14 +26,14 @@ export const CtwNative: Port = {
   summaryGenerated: true,
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/official-kryo-to/ctw-native/releases/download/v0.5.0/CTW-Native-Porter.exe",
+      size: "18.8 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/official-kryo-to/ctw-native/releases/download/v0.5.0/CTW-Native-Linux-x86_64.tar.gz",
       size: "4.4 MB",
-    },
-    {
-      label: "Windows EXE",
-      url: "https://github.com/official-kryo-to/ctw-native/releases/download/v0.5.0/CTW-Native-Porter.exe",
-      size: "18.8 MB",
     },
   ],
   cover: {

@@ -23,7 +23,7 @@ export const finesthourremasteredPc: Port = {
   originalSystems: ["Xbox"],
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/crazyriddler/FinestHourRemastered/releases/download/update/FinestHourRemasteredUpdate.exe",
       size: "258.4 MB",
     },

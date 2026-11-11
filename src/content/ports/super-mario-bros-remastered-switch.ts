@@ -22,7 +22,7 @@ export const superMarioBrosRemasteredSwitch: Port = {
   originalSystems: ["Nintendo Entertainment System"],
   downloads: [
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/delsonazevedo/Super-Mario-Bros.-Remastered-Switch/releases/download/1.0.0/smbr.nro",
       size: "5.9 MB",
     },

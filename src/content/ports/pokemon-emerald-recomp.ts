@@ -27,19 +27,14 @@ export const pokemonEmeraldRecomp: Port = {
     "Recompilación estática de Pokémon Emerald (GBA) con el framework gbarecomp. Requiere tus propios archivos del juego.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/mstan/EmeraldRecomp/releases/download/v0.1.5/EmeraldRecomp-android-arm64-v0.1.5.apk",
-      size: "57.7 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/mstan/EmeraldRecomp/releases/download/v0.1.5/EmeraldRecomp-linux-x86_64-v0.1.5.AppImage",
-      size: "73.9 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/mstan/EmeraldRecomp/releases/download/v0.1.5/EmeraldRecomp-windows-x64-v0.1.5.zip",
       size: "78.7 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/mstan/EmeraldRecomp/releases/download/v0.1.5/EmeraldRecomp-linux-x86_64-v0.1.5.AppImage",
+      size: "73.9 MB",
     },
   ],
   cover: {

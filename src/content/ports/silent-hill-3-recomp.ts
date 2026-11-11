@@ -28,7 +28,7 @@ export const silentHill3Recomp: Port = {
     "Silent Hill 3 (PlayStation 2) recompilado de forma estática para Nintendo Switch. Necesita tu propia copia del juego.",
   downloads: [
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/cutarev/sh3-nx/releases/download/v0.06/sh3-nx.nro",
       size: "33.1 MB",
     },

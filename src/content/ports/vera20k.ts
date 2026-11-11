@@ -25,22 +25,22 @@ export const Vera20k: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/YuriPlanet/vera20k/releases/download/v0.2.9/vera20k-0.2.9-linux-x64.AppImage",
-      size: "37.7 MB",
-    },
-    {
-      label: "macOS DMG",
-      url: "https://github.com/YuriPlanet/vera20k/releases/download/v0.2.9/vera20k-0.2.9-macos-arm64.dmg",
-      size: "39.2 MB",
-    },
-    {
-      label: "macOS DMG",
+      label: "macOS x64",
       url: "https://github.com/YuriPlanet/vera20k/releases/download/v0.2.9/vera20k-0.2.9-macos-x64.dmg",
       size: "41.2 MB",
     },
     {
-      label: "Windows EXE",
+      label: "macOS arm64",
+      url: "https://github.com/YuriPlanet/vera20k/releases/download/v0.2.9/vera20k-0.2.9-macos-arm64.dmg",
+      size: "39.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/YuriPlanet/vera20k/releases/download/v0.2.9/vera20k-0.2.9-linux-x64.AppImage",
+      size: "37.7 MB",
+    },
+    {
+      label: "Windows",
       url: "https://github.com/YuriPlanet/vera20k/releases/download/v0.2.9/vera20k-0.2.9-windows-x64-setup.exe",
       size: "29.8 MB",
     },

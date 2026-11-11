@@ -27,12 +27,12 @@ export const pokemonFireredRecomp: Port = {
     "Recompilación estática de Pokémon FireRed (GBA) con el framework gbarecomp. Requiere el propio juego.",
   downloads: [
     {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/mstan/FireRedLeafGreenRecomp/releases/download/v0.0.8/FireRedRecomp-windows-x64-v0.0.8.zip",
       size: "61.0 MB",
     },
     {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/mstan/FireRedLeafGreenRecomp/releases/download/v0.0.8/LeafGreenRecomp-windows-x64-v0.0.8.zip",
       size: "61.0 MB",
     },

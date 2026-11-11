@@ -27,7 +27,7 @@ export const amphitere: Port = {
     "Port a Android de NetHack centrado en dispositivos de doble pantalla. Es una build independiente que no necesita el juego original.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/fancypantalons/Amphitere/releases/download/Amphitere-3.6.7-2/Amphitere-3.6.7-2.apk",
       size: "18.0 MB",
     },

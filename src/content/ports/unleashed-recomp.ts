@@ -22,7 +22,7 @@ export const unleashedRecomp: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/SansNope/UnleashedRecomp-Android/releases/download/v0.6.1/UnleashedRecomp_0.6.1.apk",
       size: "66.9 MB",
     },

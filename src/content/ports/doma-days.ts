@@ -25,7 +25,7 @@ export const DomaDays: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "DOMADays.v1.02",
+      label: "Windows",
       url: "https://github.com/iestyn129/DOMADays/releases/download/1.02/DOMADays.v1.02.zip",
       size: "194.7 MB",
     },

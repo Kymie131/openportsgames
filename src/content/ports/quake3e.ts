@@ -25,34 +25,34 @@ export const Quake3e: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/ec-/Quake3e/releases/download/latest/quake3e-linux-arm64.zip",
-      size: "2.0 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/ec-/Quake3e/releases/download/latest/quake3e-linux-x86.zip",
-      size: "2.1 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/ec-/Quake3e/releases/download/latest/quake3e-linux-x86_64.zip",
-      size: "2.1 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/ec-/Quake3e/releases/download/latest/quake3e-macos-aarch64.zip",
-      size: "3.1 MB",
-    },
-    {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/ec-/Quake3e/releases/download/latest/quake3e-macos-x86_64.zip",
       size: "3.3 MB",
+    },
+    {
+      label: "macOS arm64",
+      url: "https://github.com/ec-/Quake3e/releases/download/latest/quake3e-macos-aarch64.zip",
+      size: "3.1 MB",
     },
     {
       label: "Windows",
       url: "https://github.com/ec-/Quake3e/releases/download/latest/quake3e-windows-mingw-x86.zip",
       size: "2.2 MB",
+    },
+    {
+      label: "Linux x86",
+      url: "https://github.com/ec-/Quake3e/releases/download/latest/quake3e-linux-x86.zip",
+      size: "2.1 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/ec-/Quake3e/releases/download/latest/quake3e-linux-x86_64.zip",
+      size: "2.1 MB",
+    },
+    {
+      label: "Linux arm64",
+      url: "https://github.com/ec-/Quake3e/releases/download/latest/quake3e-linux-arm64.zip",
+      size: "2.0 MB",
     },
   ],
   cover: {

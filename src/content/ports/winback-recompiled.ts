@@ -50,10 +50,9 @@ export const winbackRecompiled: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/RetroPulse03/WinBackRecomp/releases/download/v0.2.2/WinBackRecompiled-v0.2.2-Windows-x64.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/winback-recompiled.png",

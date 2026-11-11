@@ -59,21 +59,6 @@ export const zelda64Recomp: Port = {
   ],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/Zelda64Recomp/Zelda64Recomp/releases/download/v1.2.2/Zelda64Recompiled-v1.2.2-Linux-ARM64.zip",
-      size: "18.3 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/Zelda64Recomp/Zelda64Recomp/releases/download/v1.2.2/Zelda64Recompiled-v1.2.2-Linux-Flatpak-X64.zip",
-      size: "12.4 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/Zelda64Recomp/Zelda64Recomp/releases/download/v1.2.2/Zelda64Recompiled-v1.2.2-Linux-X64.zip",
-      size: "17.8 MB",
-    },
-    {
       label: "macOS",
       url: "https://github.com/Zelda64Recomp/Zelda64Recomp/releases/download/v1.2.2/Zelda64Recompiled-v1.2.2-macOS.zip",
       size: "30.8 MB",
@@ -82,6 +67,21 @@ export const zelda64Recomp: Port = {
       label: "Windows",
       url: "https://github.com/Zelda64Recomp/Zelda64Recomp/releases/download/v1.2.2/Zelda64Recompiled-v1.2.2-Windows.zip",
       size: "27.6 MB",
+    },
+    {
+      label: "Linux arm64",
+      url: "https://github.com/Zelda64Recomp/Zelda64Recomp/releases/download/v1.2.2/Zelda64Recompiled-v1.2.2-Linux-ARM64.zip",
+      size: "18.3 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/Zelda64Recomp/Zelda64Recomp/releases/download/v1.2.2/Zelda64Recompiled-v1.2.2-Linux-X64.zip",
+      size: "17.8 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/Zelda64Recomp/Zelda64Recomp/releases/download/v1.2.2/Zelda64Recompiled-v1.2.2-Linux-Flatpak-X64.zip",
+      size: "12.4 MB",
     },
   ],
   cover: {

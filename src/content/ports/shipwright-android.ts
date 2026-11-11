@@ -22,7 +22,7 @@ export const shipwrightAndroid: Port = {
   originalSystems: ["GameCube","Nintendo 64"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/please-be-nice/Shipwright-android/releases/download/v9.2.3-android.4.3/soh-v9.2.3-android.4.3.apk",
       size: "50.8 MB",
     },

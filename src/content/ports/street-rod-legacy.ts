@@ -53,20 +53,17 @@ export const streetRodLegacy: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/grovdata/RodLegacy/releases/download/v0.7.0/rodlegacy-0.7.0-windows.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux AppImage",
+      "label": "Linux",
       "url": "https://github.com/grovdata/RodLegacy/releases/download/v0.7.0/rodlegacy-0.7.0.AppImage",
-      "note": "Linux · AppImage"
     },
     {
       "label": "macOS",
       "url": "https://github.com/grovdata/RodLegacy/releases/download/v0.7.0/RodLegacy-0.7.0.dmg",
-      "note": "macOS · DMG"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/street-rod-legacy.png",

@@ -24,7 +24,7 @@ export const _2048Psp: Port = {
   summaryEs: "2048 es un videojuego de puzles publicado por LA\\VA en 2018.",
   downloads: [
     {
-      label: "PSP",
+      label: "Psp",
       url: "https://github.com/violinmelody/2048PSP/releases/download/1.0.0/PSP.zip",
       size: "93 KB",
     },

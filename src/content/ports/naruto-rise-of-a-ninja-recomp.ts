@@ -22,7 +22,7 @@ export const narutoRiseOfANinjaRecomp: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Masterllgod/naruto-rise-of-a-ninja-port-nativo/releases/download/v0.2/NarutoRiseOfANinja-PortNativo-v0.2-arm64.apk",
       size: "38.6 MB",
     },

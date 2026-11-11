@@ -27,11 +27,6 @@ export const sonicSecretRingsReignition: Port = {
     "Project Reignition es un remake hecho por fans de Sonic and the Secret Rings (Wii) para Windows. Es un proyecto comunitario y no usa directamente los recursos del juego original.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/kumapauz/project-reignition/releases/download/v0.4.2/Project.Reignition.Linux.v0.4.2.zip",
-      size: "1258.8 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/kumapauz/project-reignition/releases/download/v0.4.2/Project.Reignition.Windows.v0.4.2.zip",
       size: "1264.0 MB",

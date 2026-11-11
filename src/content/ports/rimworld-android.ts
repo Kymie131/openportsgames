@@ -27,7 +27,7 @@ export const rimworldAndroid: Port = {
     "Lanzador para Android que ejecuta RimWorld en teléfonos y tablets. Requiere los archivos del juego de escritorio de tu propia copia.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/udarmolota/RimDroid/releases/download/0.3.2/rimdroid-release-0.3.2.apk",
       size: "133.9 MB",
     },

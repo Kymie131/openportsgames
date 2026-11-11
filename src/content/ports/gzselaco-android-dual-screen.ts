@@ -22,7 +22,7 @@ export const gzselacoAndroidDualScreen: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/danillogical/GZSelaco-android/releases/download/v0.2.0/Selaco-android-0.2.0.apk",
       size: "12.2 MB",
     },

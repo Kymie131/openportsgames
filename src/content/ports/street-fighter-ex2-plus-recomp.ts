@@ -27,21 +27,6 @@ export const streetFighterEx2PlusRecomp: Port = {
     "Recompilación estática de Street Fighter EX2 Plus (PlayStation) construida sobre PSXRecomp. Requiere el juego original.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/strider973/Street-Fighter-EX2-Plus-Recompiled/releases/download/v0.1.0/sfex2p-0.1.0-linux-x64.zip",
-      size: "29.5 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/strider973/Street-Fighter-EX2-Plus-Recompiled/releases/download/v0.1.0/sfex2p-0.1.0-macos-arm64.zip",
-      size: "27.1 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/strider973/Street-Fighter-EX2-Plus-Recompiled/releases/download/v0.1.0/sfex2p-0.1.0-macos-x64.zip",
-      size: "27.4 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/strider973/Street-Fighter-EX2-Plus-Recompiled/releases/download/v0.1.0/sfex2p-0.1.0-windows-x64.zip",
       size: "31.4 MB",

@@ -26,26 +26,6 @@ export const stuntsHd: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/mr-finster/stunts-hd/releases/download/v1.5.22/Stunts-HD-linux-arm64.AppImage",
-      size: "103.9 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/mr-finster/stunts-hd/releases/download/v1.5.22/Stunts-HD-linux-arm64.tar.gz",
-      size: "102.3 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/mr-finster/stunts-hd/releases/download/v1.5.22/Stunts-HD-linux-x64.tar.gz",
-      size: "98.0 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/mr-finster/stunts-hd/releases/download/v1.5.22/Stunts-HD-linux-x86_64.AppImage",
-      size: "103.5 MB",
-    },
-    {
       label: "macOS",
       url: "https://github.com/mr-finster/stunts-hd/releases/download/v1.5.22/Stunts-HD-mac-universal.zip",
       size: "168.1 MB",
@@ -54,6 +34,26 @@ export const stuntsHd: Port = {
       label: "Windows",
       url: "https://github.com/mr-finster/stunts-hd/releases/download/v1.5.22/Stunts-HD-win-arm64.zip",
       size: "111.1 MB",
+    },
+    {
+      label: "Linux arm64",
+      url: "https://github.com/mr-finster/stunts-hd/releases/download/v1.5.22/Stunts-HD-linux-arm64.AppImage",
+      size: "103.9 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/mr-finster/stunts-hd/releases/download/v1.5.22/Stunts-HD-linux-x86_64.AppImage",
+      size: "103.5 MB",
+    },
+    {
+      label: "Linux arm64",
+      url: "https://github.com/mr-finster/stunts-hd/releases/download/v1.5.22/Stunts-HD-linux-arm64.tar.gz",
+      size: "102.3 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/mr-finster/stunts-hd/releases/download/v1.5.22/Stunts-HD-linux-x64.tar.gz",
+      size: "98.0 MB",
     },
   ],
   cover: {

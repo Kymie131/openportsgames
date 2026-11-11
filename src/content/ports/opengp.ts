@@ -52,20 +52,17 @@ export const opengp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/OpenGP-dev/OpenGP/releases/download/v1.0.3/OpenGP-1.0.3-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/OpenGP-dev/OpenGP/releases/download/v1.0.3/OpenGP-1.0.3-linux-x64.tar.gz",
-      "note": "Linux · x64"
     },
     {
-      "label": "macOS arm64",
+      "label": "macOS",
       "url": "https://github.com/OpenGP-dev/OpenGP/releases/download/v1.0.3/OpenGP-1.0.3-macos-arm64.tar.gz",
-      "note": "macOS · Apple Silicon"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/opengp.jpg",

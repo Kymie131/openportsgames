@@ -24,7 +24,7 @@ export const unrealAndroid: Port = {
   summaryEs: "Unreal es un videojuego de disparos en primera persona creado por Epic MegaGames, Digital Extremes y publicado por GT Interactive en el año 1998. Dispone de versiones para las plataformas GNU/Linux, Microsoft Windows y Apple Macintosh. Es el origen de la serie de videojuegos Unreal y de su motor Unreal Engine. El motor de juego del Unreal original sería la base de muchos otros juegos de la época. Su expansión, Return to Na Pali, fue lanzada el 1999.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Andiweli/Unreal-Android/releases/download/v2.3.1/Unreal-Android-OUYA.2.3.1.apk",
       size: "5.1 MB",
     },

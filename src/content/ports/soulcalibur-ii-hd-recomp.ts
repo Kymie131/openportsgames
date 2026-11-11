@@ -24,6 +24,11 @@ export const soulcaliburIiHdRecomp: Port = {
   summaryEs: "Soulcalibur II es un videojuego de lucha lanzado originalmente en el 2002 para sistemas arcade Namco System 246, luego desarrollado para consolas en el año 2003. Es el segundo juego de la saga Soulcalibur realizada por Namco.",
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/n0madic/Soulcalibur2HD-recomp/releases/download/v0.3.0/sc2hd-0.3.0-windows-x86_64.zip",
+      size: "12.9 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/n0madic/Soulcalibur2HD-recomp/releases/download/v0.3.0/sc2hd-0.3.0-linux-x86_64.zip",
       size: "8.4 MB",
@@ -32,11 +37,6 @@ export const soulcaliburIiHdRecomp: Port = {
       label: "macOS",
       url: "https://github.com/n0madic/Soulcalibur2HD-recomp/releases/download/v0.3.0/sc2hd-0.3.0-macos-arm64.zip",
       size: "6.3 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/n0madic/Soulcalibur2HD-recomp/releases/download/v0.3.0/sc2hd-0.3.0-windows-x86_64.zip",
-      size: "12.9 MB",
     },
   ],
   cover: {

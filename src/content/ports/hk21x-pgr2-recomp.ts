@@ -26,11 +26,6 @@ export const hk21xPgr2Recomp: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/hk21x/pgr2-recomp/releases/download/v1.6.3/PGR2-package.zip",
-      size: "60.6 MB",
-    },
-    {
-      label: "Windows EXE",
       url: "https://github.com/hk21x/pgr2-recomp/releases/download/v1.6.3/PGR2Launcher.exe",
       size: "2.3 MB",
     },

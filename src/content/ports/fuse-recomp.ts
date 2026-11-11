@@ -27,11 +27,6 @@ export const fuseRecomp: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/nikolaygorb/FuseRecomp/releases/download/1.3/Fuse-lin64.zip",
-      size: "79.7 MB",
-    },
-    {
-      label: "Windows",
       url: "https://github.com/nikolaygorb/FuseRecomp/releases/download/1.3/Fuse-win64.zip",
       size: "35.7 MB",
     },

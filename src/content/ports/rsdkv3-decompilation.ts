@@ -47,11 +47,6 @@ export const rsdkv3Decompilation: Port = {
   ],
   downloads: [
     {
-      label: "Android",
-      url: "https://github.com/RSDKModding/RSDKv3-Decompilation/releases/download/1.3.3/v3-android.zip",
-      size: "2.4 MB",
-    },
-    {
       label: "Linux",
       url: "https://github.com/RSDKModding/RSDKv3-Decompilation/releases/download/1.3.3/v3-linux.zip",
       size: "325 KB",
@@ -62,7 +57,12 @@ export const rsdkv3Decompilation: Port = {
       size: "6.2 MB",
     },
     {
-      label: "Windows",
+      label: "Android",
+      url: "https://github.com/RSDKModding/RSDKv3-Decompilation/releases/download/1.3.3/v3-android.zip",
+      size: "2.4 MB",
+    },
+    {
+      label: "Windows x64",
       url: "https://github.com/RSDKModding/RSDKv3-Decompilation/releases/download/1.3.3/v3-windows-x64.zip",
       size: "1.2 MB",
     },

@@ -22,7 +22,7 @@ export const superMarioWorldRemasteredPlusSwitch: Port = {
   originalSystems: ["Super Nintendo"],
   downloads: [
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/delsonazevedo/Super-Mario-World-Remastered-Plus-Switch/releases/download/1.0.2/smwr.nro",
       size: "6.0 MB",
     },

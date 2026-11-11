@@ -22,7 +22,7 @@ export const NeedForSpeedCarbonCodepdbh: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/codepdbh/NFS-CARBON-360-ANDROID-RECOMP/releases/download/v0.3.3/NFSCarbon-Android-v0.3.3-arm64.apk",
       size: "36.5 MB",
     },

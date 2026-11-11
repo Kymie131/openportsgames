@@ -25,24 +25,9 @@ export const Speedbreaker: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "iOS IPA",
-      url: "https://github.com/SpeedBreakerProject/speedbreaker/releases/download/v0.2.4/SpeedBreaker-0.2.4-ios.ipa",
-      size: "26.2 MB",
-    },
-    {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/SpeedBreakerProject/speedbreaker/releases/download/v0.2.4/SpeedBreaker-macos.dmg",
       size: "30.7 MB",
-    },
-    {
-      label: "SpeedBreaker-steamos-arm64",
-      url: "https://github.com/SpeedBreakerProject/speedbreaker/releases/download/v0.2.4/SpeedBreaker-steamos-arm64.tar.xz",
-      size: "15.9 MB",
-    },
-    {
-      label: "SpeedBreaker-steamos-x86_64",
-      url: "https://github.com/SpeedBreakerProject/speedbreaker/releases/download/v0.2.4/SpeedBreaker-steamos-x86_64.tar.xz",
-      size: "18.8 MB",
     },
   ],
   cover: {

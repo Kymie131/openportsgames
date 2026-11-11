@@ -27,11 +27,6 @@ export const pacManNesRecomp: Port = {
     "Recompilación nativa de Pac-Man (Nintendo Entertainment System). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
   downloads: [
     {
-      label: "PacManRecomp-1.1.1-for-1.0.x-updater-EasyBuild",
-      url: "https://github.com/Mr-Shizzy/PacManRecomp/releases/download/v1.1.1/PacManRecomp-1.1.1-for-1.0.x-updater-EasyBuild.zip",
-      size: "5.0 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/Mr-Shizzy/PacManRecomp/releases/download/v1.1.1/PacManRecomp-1.1.1-Windows.zip",
       size: "4.9 MB",

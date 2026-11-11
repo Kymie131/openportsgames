@@ -24,7 +24,7 @@ export const ratchetClankPc: Port = {
   summaryEs: "Ratchet & Clank es una serie de videojuegos de acción y aventura, plataformas y disparos en tercera persona creados y desarrollados por Insomniac Games y publicados por Sony Interactive Entertainment para consolas PlayStation, como PlayStation 2, PlayStation 3, PlayStation 4 y PlayStation 5, con excepción de Size Matters y Secret Agent Clank, ambos desarrollados por High Impact Games para PlayStation Portable. La serie era exclusiva de las plataformas Sony hasta que Rift Apart recibió un puerto de Windows en 2023. En 2016 se lanzó una adaptación cinematográfica animada.",
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/RAC-Native/rac1-native-game/releases/download/v0.7.0/rac1-launcher.exe",
       size: "113 KB",
     },

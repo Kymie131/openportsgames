@@ -76,13 +76,13 @@ export const daggerfallUnity: Port = {
     },
     {
       label: "Windows",
-      url: "https://github.com/Interkarma/daggerfall-unity/releases/download/v1.1.1-cve-2025/dfu_windows_32bit-v1.1.1.zip",
-      size: "45.2 MB",
+      url: "https://github.com/Interkarma/daggerfall-unity/releases/download/v1.1.1-cve-2025/dfu_windows_64bit-v1.1.1.zip",
+      size: "47.9 MB",
     },
     {
       label: "Windows",
-      url: "https://github.com/Interkarma/daggerfall-unity/releases/download/v1.1.1-cve-2025/dfu_windows_64bit-v1.1.1.zip",
-      size: "47.9 MB",
+      url: "https://github.com/Interkarma/daggerfall-unity/releases/download/v1.1.1-cve-2025/dfu_windows_32bit-v1.1.1.zip",
+      size: "45.2 MB",
     },
   ],
   cover: {

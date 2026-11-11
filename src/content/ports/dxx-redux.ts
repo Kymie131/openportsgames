@@ -26,18 +26,18 @@ export const DxxRedux: Port = {
   downloads: [
     {
       label: "Linux",
-      url: "https://github.com/dxx-redux/dxx-redux/releases/download/v1.1/d1x-redux-1.1-linux-sdl12compat.tar.gz",
-      size: "15.2 MB",
-    },
-    {
-      label: "Linux",
       url: "https://github.com/dxx-redux/dxx-redux/releases/download/v1.1/d1x-redux-1.1-linux.tar.gz",
       size: "16.2 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/dxx-redux/dxx-redux/releases/download/v1.1/d1x-redux-1.1-mac-arm.zip",
-      size: "3.4 MB",
+      label: "Linux",
+      url: "https://github.com/dxx-redux/dxx-redux/releases/download/v1.1/d1x-redux-1.1-linux-sdl12compat.tar.gz",
+      size: "15.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/dxx-redux/dxx-redux/releases/download/v1.1/d1x-redux-1.1-win-32bit.zip",
+      size: "3.9 MB",
     },
     {
       label: "macOS",
@@ -45,14 +45,9 @@ export const DxxRedux: Port = {
       size: "3.7 MB",
     },
     {
-      label: "d1x-redux-1.1-sdl12compat",
-      url: "https://github.com/dxx-redux/dxx-redux/releases/download/v1.1/d1x-redux-1.1-sdl12compat.zip",
-      size: "4.2 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/dxx-redux/dxx-redux/releases/download/v1.1/d1x-redux-1.1-win-32bit.zip",
-      size: "3.9 MB",
+      label: "macOS",
+      url: "https://github.com/dxx-redux/dxx-redux/releases/download/v1.1/d1x-redux-1.1-mac-arm.zip",
+      size: "3.4 MB",
     },
   ],
   cover: {

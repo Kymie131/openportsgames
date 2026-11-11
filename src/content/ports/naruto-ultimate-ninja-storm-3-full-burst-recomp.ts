@@ -24,7 +24,7 @@ export const narutoStorm3FullBurstRecomp: Port = {
   summaryEs: "Naruto Shippūden: Ultimate Ninja Storm 3, conocido en Japón como Naruto Narutimate Storm 3 , es un videojuego del anime Naruto Shippūden desarrollado por CyberConnect2 para las consolas PlayStation 3 y Xbox 360. Hasta ese momento, era el juego más largo de la saga Naruto Ultimate Ninja y tiene un número de 80 personajes. La fecha exacta de lanzamiento fue el 5 de marzo en América del Norte y el 8 de marzo en Europa. Japón ocupó su fecha de lanzamiento el 18 de abril de 2013.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Masterllgod/naruto-storm-3-full-burst-port-nativo/releases/download/v0.6.16/NarutoStorm3FullBurst-PortNativo-v0.6.16-arm64.apk",
       size: "22.1 MB",
     },

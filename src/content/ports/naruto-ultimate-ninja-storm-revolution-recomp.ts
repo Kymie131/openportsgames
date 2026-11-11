@@ -22,7 +22,7 @@ export const narutoStormRevolutionRecomp: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Masterllgod/naruto-storm-revolution-port-nativo/releases/download/v1.1.11/NarutoStormRevolution-PortNativo-v1.1.11-arm64.apk",
       size: "26.0 MB",
     },

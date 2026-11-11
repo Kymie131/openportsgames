@@ -25,7 +25,7 @@ export const ChasmReverse: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "PanzerChasm",
+      label: "Windows",
       url: "https://github.com/Panzerschrek/Chasm-Reverse/releases/download/0.3/PanzerChasm.zip",
       size: "1.1 MB",
     },

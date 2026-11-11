@@ -27,7 +27,7 @@ export const skate3Mobile: Port = {
     "Port a Android de la recompilación de Skate 3 (ARM64 con el renderizador Vulkan nativo), pensado para teléfonos y consolas portátiles. Build de desarrollo, verificada por primera vez en una Anbernic RG406V.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Buku313/Skate3-Mobile/releases/download/v2.1.0/Skate3-Mobile-Android.apk",
       size: "36.2 MB",
     },

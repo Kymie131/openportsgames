@@ -46,9 +46,9 @@ export const conkerBadFurDayRecomp: Port = {
   ],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/sciaschi/CBFD-Recompiled/releases/download/V0.1.6/ConkerRecompiled-V0.1.6-Linux.tar.gz",
-      size: "9.2 MB",
+      label: "Windows",
+      url: "https://github.com/sciaschi/CBFD-Recompiled/releases/download/V0.1.6/ConkerRecompiled-V0.1.6-Windows.zip",
+      size: "21.7 MB",
     },
     {
       label: "macOS",
@@ -56,14 +56,9 @@ export const conkerBadFurDayRecomp: Port = {
       size: "10.4 MB",
     },
     {
-      label: "ConkerRecompiled-V0.1.6-Mods",
-      url: "https://github.com/sciaschi/CBFD-Recompiled/releases/download/V0.1.6/ConkerRecompiled-V0.1.6-Mods.zip",
-      size: "152 KB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/sciaschi/CBFD-Recompiled/releases/download/V0.1.6/ConkerRecompiled-V0.1.6-Windows.zip",
-      size: "21.7 MB",
+      label: "Linux",
+      url: "https://github.com/sciaschi/CBFD-Recompiled/releases/download/V0.1.6/ConkerRecompiled-V0.1.6-Linux.tar.gz",
+      size: "9.2 MB",
     },
   ],
   cover: {

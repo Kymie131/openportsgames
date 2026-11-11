@@ -25,34 +25,14 @@ export const jbalcombRemom: Port = {
   summaryEs: "Master of Magic es un videojuego de estrategia por turnos, de construcción de imperios en un universo de fantasía.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/jbalcomb/ReMoM/releases/download/v0.0.10/ReMoM-0.0.10-linux-diagnostics.zip",
-      size: "1.7 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/jbalcomb/ReMoM/releases/download/v0.0.10/ReMoM-0.0.10-Linux-x86_64.tar.gz",
-      size: "1.6 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/jbalcomb/ReMoM/releases/download/v0.0.10/ReMoM-0.0.10-Linux-x86_64.zip",
-      size: "1.6 MB",
-    },
-    {
-      label: "Windows EXE",
-      url: "https://github.com/jbalcomb/ReMoM/releases/download/v0.0.10/ReMoM-0.0.10-Windows-AMD64.exe",
-      size: "3.9 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/jbalcomb/ReMoM/releases/download/v0.0.10/ReMoM-0.0.10-Windows-AMD64.zip",
       size: "5.4 MB",
     },
     {
-      label: "Linux AppImage",
-      url: "https://github.com/jbalcomb/ReMoM/releases/download/v0.0.10/ReMoM-0.0.10-x86_64.AppImage",
-      size: "9.4 MB",
+      label: "Windows x64",
+      url: "https://github.com/jbalcomb/ReMoM/releases/download/v0.0.10/ReMoM-0.0.10-Windows-AMD64.exe",
+      size: "3.9 MB",
     },
   ],
   cover: {

@@ -23,14 +23,9 @@ export const marioParty6Native: Port = {
   originalSystems: ["GameCube"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/iirg4x/mp6-native-port/releases/download/v0.5.0/starlit-party-v0.5.0-61a99d3-android-arm64.apk",
       size: "54.7 MB",
-    },
-    {
-      label: "starlit-party-v0.5.0-61a99d3-web",
-      url: "https://github.com/iirg4x/mp6-native-port/releases/download/v0.5.0/starlit-party-v0.5.0-61a99d3-web.zip",
-      size: "26.6 MB",
     },
     {
       label: "Windows",

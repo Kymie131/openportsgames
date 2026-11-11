@@ -25,9 +25,9 @@ export const warcraft2Android: Port = {
   summaryEs: "Warcraft II: Tides of Darkness es un videojuego de estrategia en tiempo real creado por Blizzard Entertainment y secuela del aclamado Warcraft: Orcs & Humans. Con este juego continúa la serie Warcraft y al igual que su predecesor ocurre en un ambiente épico medieval fantástico donde la raza humana coexiste con diversas criaturas mitológicas.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/blairisme/warcraft/releases/download/v0.2.2/Warcraft-Android.apk",
-      size: "77.2 MB",
+      label: "Windows",
+      url: "https://github.com/blairisme/warcraft/releases/download/v0.2.2/Warcraft-Windows.zip",
+      size: "79.5 MB",
     },
     {
       label: "macOS",
@@ -35,9 +35,9 @@ export const warcraft2Android: Port = {
       size: "79.4 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/blairisme/warcraft/releases/download/v0.2.2/Warcraft-Windows.zip",
-      size: "79.5 MB",
+      label: "Android",
+      url: "https://github.com/blairisme/warcraft/releases/download/v0.2.2/Warcraft-Android.apk",
+      size: "77.2 MB",
     },
   ],
   cover: {

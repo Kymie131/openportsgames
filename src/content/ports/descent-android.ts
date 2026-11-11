@@ -28,24 +28,24 @@ export const descentAndroid: Port = {
     "Port del código fuente de Descent (MS-DOS) para Android, fork de Descent Mobile, con controles táctiles en pantalla, soporte de giroscopio y paquetes de misiones adicionales. Necesita los archivos del juego original del jugador.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/wootbeer/Descent-Android/releases/download/v0.10/Descent-Android-0.10-arm64-v8a-release.apk",
-      size: "666 KB",
+      label: "Android x64",
+      url: "https://github.com/wootbeer/Descent-Android/releases/download/v0.10/Descent-Android-0.10-x86_64-release.apk",
+      size: "691 KB",
     },
     {
-      label: "Android APK",
-      url: "https://github.com/wootbeer/Descent-Android/releases/download/v0.10/Descent-Android-0.10-armeabi-v7a-release.apk",
-      size: "628 KB",
-    },
-    {
-      label: "Android APK",
+      label: "Android x86",
       url: "https://github.com/wootbeer/Descent-Android/releases/download/v0.10/Descent-Android-0.10-x86-release.apk",
       size: "677 KB",
     },
     {
-      label: "Android APK",
-      url: "https://github.com/wootbeer/Descent-Android/releases/download/v0.10/Descent-Android-0.10-x86_64-release.apk",
-      size: "691 KB",
+      label: "Android arm64",
+      url: "https://github.com/wootbeer/Descent-Android/releases/download/v0.10/Descent-Android-0.10-arm64-v8a-release.apk",
+      size: "666 KB",
+    },
+    {
+      label: "Android armv7",
+      url: "https://github.com/wootbeer/Descent-Android/releases/download/v0.10/Descent-Android-0.10-armeabi-v7a-release.apk",
+      size: "628 KB",
     },
   ],
   cover: {

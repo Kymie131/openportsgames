@@ -31,21 +31,6 @@ export const ghostship: Port = {
     "Port nativo de Super Mario 64 a partir de la decompilación, del equipo HarbourMasters. Usa los datos del juego de tu propia ROM obtenida legalmente. Multiplataforma, incluidos Android, iOS y Switch.",
   downloads: [
     {
-      label: "Android",
-      url: "https://github.com/HarbourMasters/Ghostship/releases/download/3.0.0/Nautilus-Alfa-Android.zip",
-      size: "13.5 MB",
-    },
-    {
-      label: "iOS",
-      url: "https://github.com/HarbourMasters/Ghostship/releases/download/3.0.0/Nautilus-Alfa-iOS.zip",
-      size: "4.9 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/HarbourMasters/Ghostship/releases/download/3.0.0/Nautilus-Alfa-Linux.zip",
-      size: "17.2 MB",
-    },
-    {
       label: "macOS",
       url: "https://github.com/HarbourMasters/Ghostship/releases/download/3.0.0/Nautilus-Alfa-Mac.zip",
       size: "22.2 MB",
@@ -54,6 +39,21 @@ export const ghostship: Port = {
       label: "Windows",
       url: "https://github.com/HarbourMasters/Ghostship/releases/download/3.0.0/Nautilus-Alfa-Win64.zip",
       size: "19.4 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/HarbourMasters/Ghostship/releases/download/3.0.0/Nautilus-Alfa-Linux.zip",
+      size: "17.2 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/HarbourMasters/Ghostship/releases/download/3.0.0/Nautilus-Alfa-Android.zip",
+      size: "13.5 MB",
+    },
+    {
+      label: "iOS",
+      url: "https://github.com/HarbourMasters/Ghostship/releases/download/3.0.0/Nautilus-Alfa-iOS.zip",
+      size: "4.9 MB",
     },
   ],
   cover: {

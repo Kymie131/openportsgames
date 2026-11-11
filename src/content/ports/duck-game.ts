@@ -22,7 +22,7 @@ export const DuckGame: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "DuckGameRebuilt",
+      label: "Windows",
       url: "https://github.com/TheFlyingFoool/DuckGameRebuilt/releases/download/v1.4.8.4/DuckGameRebuilt.zip",
       size: "190.8 MB",
     },

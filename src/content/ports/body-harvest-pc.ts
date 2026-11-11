@@ -22,21 +22,6 @@ export const bodyHarvestPc: Port = {
   originalSystems: ["Nintendo 64"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/mcsoderh/BodyHarvestRecomp/releases/download/v1.0.0/BodyHarvestRecompiled-v1.0.0-Linux-ARM64.tar.gz",
-      size: "7.6 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/mcsoderh/BodyHarvestRecomp/releases/download/v1.0.0/BodyHarvestRecompiled-v1.0.0-Linux-X64.tar.gz",
-      size: "7.5 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/mcsoderh/BodyHarvestRecomp/releases/download/v1.0.0/BodyHarvestRecompiled-v1.0.0-macOS.zip",
-      size: "16.3 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/mcsoderh/BodyHarvestRecomp/releases/download/v1.0.0/BodyHarvestRecompiled-v1.0.0-Windows.zip",
       size: "17.1 MB",

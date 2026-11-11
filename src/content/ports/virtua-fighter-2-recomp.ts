@@ -22,16 +22,6 @@ export const virtuaFighter2Recomp: Port = {
   originalSystems: ["Arcade"],
   downloads: [
     {
-      label: "VirtuaFighter2Recomp-deck",
-      url: "https://github.com/mr-finster/vf2-recomp/releases/download/v0.1.22/VirtuaFighter2Recomp-deck.tar.gz",
-      size: "8.4 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/mr-finster/vf2-recomp/releases/download/v0.1.22/VirtuaFighter2Recomp-linux-arm64.tar.gz",
-      size: "7.4 MB",
-    },
-    {
       label: "macOS",
       url: "https://github.com/mr-finster/vf2-recomp/releases/download/v0.1.22/VirtuaFighter2Recomp-mac.zip",
       size: "11.0 MB",
@@ -40,6 +30,11 @@ export const virtuaFighter2Recomp: Port = {
       label: "Windows",
       url: "https://github.com/mr-finster/vf2-recomp/releases/download/v0.1.22/VirtuaFighter2Recomp-windows.zip",
       size: "8.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/mr-finster/vf2-recomp/releases/download/v0.1.22/VirtuaFighter2Recomp-linux-arm64.tar.gz",
+      size: "7.4 MB",
     },
   ],
   cover: {

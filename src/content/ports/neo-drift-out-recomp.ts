@@ -27,17 +27,7 @@ export const neoDriftOutRecomp: Port = {
     "Port nativo para PC de Neo Drift Out mediante recompilación estática del código 68000 original de Neo Geo. Necesita el juego original.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/sp00nznet/neodriftout/releases/download/v0.2.0/Neo-Drift-Out-Installer-linux-x64.tar.gz",
-      size: "9.2 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/sp00nznet/neodriftout/releases/download/v0.2.0/Neo-Drift-Out-Installer-macos-arm64.zip",
-      size: "9.1 MB",
-    },
-    {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/sp00nznet/neodriftout/releases/download/v0.2.0/Neo-Drift-Out-Installer-windows-x64.exe",
       size: "18.3 MB",
     },

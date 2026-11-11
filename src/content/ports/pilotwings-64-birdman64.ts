@@ -23,24 +23,19 @@ export const pilotwings64Birdman64: Port = {
   related: ["pilotwings-64-recomp"],
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/NoahVl/Birdman64/releases/download/v1.5.1/Birdman64-android-arm64.apk",
-      size: "58.4 MB",
-    },
-    {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/NoahVl/Birdman64/releases/download/v1.5.1/birdman64-linux-x64.tar.gz",
       size: "87.2 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/NoahVl/Birdman64/releases/download/v1.5.1/Birdman64-x86_64.AppImage",
+      size: "78.7 MB",
     },
     {
       label: "Windows",
       url: "https://github.com/NoahVl/Birdman64/releases/download/v1.5.1/Birdman64-windows-x64.zip",
       size: "63.8 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/NoahVl/Birdman64/releases/download/v1.5.1/Birdman64-x86_64.AppImage",
-      size: "78.7 MB",
     },
   ],
   cover: {

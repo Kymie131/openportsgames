@@ -25,19 +25,9 @@ export const superMarioLand2Recomp: Port = {
   summaryEs: "Super Mario Land 2: 6 Golden Coins es un videojuego desarrollado por Nintendo para la videoconsola portátil Game Boy en 1992. Creado por Gunpei Yokoi, supone la continuación de la saga de plataformas Super Mario Land para esa consola y es uno de los juegos más largos de Game Boy, con 2MB.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/mstan/SuperMarioLand2Recomp/releases/download/v0.2.0/SuperMarioLand2Recomp-android-arm64-v0.2.0.apk",
       size: "57.8 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/mstan/SuperMarioLand2Recomp/releases/download/v0.2.0/SuperMarioLand2Recomp-linux-0.2.0-x86_64.AppImage",
-      size: "22.1 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/mstan/SuperMarioLand2Recomp/releases/download/v0.2.0/SuperMarioLand2Recomp-windows-x64-v0.2.0.zip",
-      size: "28.8 MB",
     },
   ],
   cover: {

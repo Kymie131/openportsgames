@@ -26,14 +26,14 @@ export const shadowsOfTheEmpireRecomp: Port = {
   notesEs: "Indexado en PortsDR. No hay repositorio oficial disponible y necesita tu propia copia.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/GTTeancum/SotE-Recomp/releases/download/0.9.7/SotE-Recomp-0.9.7-linux-x86_64.tar.gz",
-      size: "544.6 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/GTTeancum/SotE-Recomp/releases/download/0.9.7/SotE-Recomp-0.9.7.zip",
       size: "556.3 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/GTTeancum/SotE-Recomp/releases/download/0.9.7/SotE-Recomp-0.9.7-linux-x86_64.tar.gz",
+      size: "544.6 MB",
     },
   ],
   cover: {

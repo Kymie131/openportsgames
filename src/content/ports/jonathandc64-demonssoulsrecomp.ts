@@ -23,11 +23,6 @@ export const jonathandc64Demonssoulsrecomp: Port = {
   originalSystems: ["PlayStation 3"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/JonathanDC64/Soulbrandt/releases/download/v0.1.2/DemonsSoulsRecomp-0.1.2-linux.tar.xz",
-      size: "11.4 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/JonathanDC64/Soulbrandt/releases/download/v0.1.2/DemonsSoulsRecomp-0.1.2-windows.zip",
       size: "9.7 MB",

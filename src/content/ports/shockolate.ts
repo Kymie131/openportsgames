@@ -36,19 +36,14 @@ export const shockolate: Port = {
   ],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/Interrupt/systemshock/releases/download/v0.7.7/shockolate-linux.tgz",
-      size: "29.0 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/Interrupt/systemshock/releases/download/v0.7.7/shockolate-osx.tgz",
-      size: "28.7 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/Interrupt/systemshock/releases/download/v0.7.7/systemshock-windows.zip",
       size: "29.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Interrupt/systemshock/releases/download/v0.7.7/shockolate-linux.tgz",
+      size: "29.0 MB",
     },
   ],
   cover: {

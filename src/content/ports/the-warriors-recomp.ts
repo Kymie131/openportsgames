@@ -51,10 +51,9 @@ export const theWarriorsRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/Matt-code-d/TheWarriorsRecomp/releases/download/v0.1.3-alpha/TheWarriorsRecomp-v0.1.3-alpha-win64.zip",
-      "note": "Windows · alpha"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/the-warriors-recomp.png",

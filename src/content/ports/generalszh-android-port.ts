@@ -22,7 +22,7 @@ export const generalszhAndroidPort: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/MYSOREZ/GeneralsZH-Android-Port/releases/download/v1.4.2/GeneralsXZH-android-v1.4.2.apk",
       size: "88.5 MB",
     },

@@ -22,14 +22,14 @@ export const SuperMarioLand3WarioLand: Port = {
   originalSystems: ["Game Boy"],
   downloads: [
     {
-      label: "Super.Mario.Land.3.-.Wario.Land.USA",
-      url: "https://github.com/omegakatana92/Super-Mario-Land-3-Wario-Land-Recomp-/releases/download/recomp/Super.Mario.Land.3.-.Wario.Land.USA.zip",
-      size: "22.9 MB",
-    },
-    {
-      label: "Super.Mario.Land.3.Wario.Land.1.2",
+      label: "Windows",
       url: "https://github.com/omegakatana92/Super-Mario-Land-3-Wario-Land-Recomp-/releases/download/recomp/Super.Mario.Land.3.Wario.Land.1.2.zip",
       size: "23.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/omegakatana92/Super-Mario-Land-3-Wario-Land-Recomp-/releases/download/recomp/Super.Mario.Land.3.-.Wario.Land.USA.zip",
+      size: "22.9 MB",
     },
   ],
   cover: {

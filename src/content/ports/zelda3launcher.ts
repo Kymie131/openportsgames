@@ -22,7 +22,7 @@ export const zelda3launcher: Port = {
   originalSystems: ["Super Nintendo"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Waterdish/zelda3-android/releases/download/v1.0.1/app-release.apk",
       size: "9.4 MB",
     },

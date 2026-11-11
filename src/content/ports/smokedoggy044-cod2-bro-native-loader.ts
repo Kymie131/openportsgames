@@ -24,14 +24,14 @@ export const smokedoggy044Cod2BroNativeLoader: Port = {
   summaryEs: "Call of Duty 2: Big Red One es un videojuego de la Segunda Guerra Mundial para Nintendo GameCube, PlayStation 2 y Xbox y actúa como un spin-off/expansion de Call of Duty 2. Fue lanzado el 1 de noviembre de 2005, en Canadá y Estados Unidos. Mientras desarrollado por Treyarch, el personal de Gray Matter Interactive, que creó el Call of Duty: United Offensive pack de expansión para PC, también trabajó con ellos en el juego. Pi Studios contribuyó también.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/SmokeDoggy044/CoD2-BRO-Native-Loader/releases/download/v0.2.2/cod_bro-0.2.2-linux.tar.gz",
-      size: "10.1 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/SmokeDoggy044/CoD2-BRO-Native-Loader/releases/download/v0.2.2/cod_bro-0.2.2-windows.zip",
       size: "10.7 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/SmokeDoggy044/CoD2-BRO-Native-Loader/releases/download/v0.2.2/cod_bro-0.2.2-linux.tar.gz",
+      size: "10.1 MB",
     },
   ],
   cover: {

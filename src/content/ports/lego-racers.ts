@@ -22,7 +22,7 @@ export const LegoRacers: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/isledecomp/racers/releases/download/continuous/LEGORacers.exe",
       size: "784 KB",
     },

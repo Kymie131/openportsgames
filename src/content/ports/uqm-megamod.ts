@@ -27,24 +27,9 @@ export const uqmMegamod: Port = {
     "UQM MegaMod empaqueta The Ur-Quan Masters con contenido extra y lo ejecuta en Android. El repositorio está archivado, por lo que ya no se actualiza. El repositorio original está archivado (solo lectura).",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/JHGuitarFreak/UQM-MegaMod-Archived/releases/download/0.8.0.84/Android-MegaMod.apk",
       size: "63.8 MB",
-    },
-    {
-      label: "macOS DMG",
-      url: "https://github.com/JHGuitarFreak/UQM-MegaMod-Archived/releases/download/0.8.0.84/macOS-MegaMod.dmg",
-      size: "63.2 MB",
-    },
-    {
-      label: "Windows MSI",
-      url: "https://github.com/JHGuitarFreak/UQM-MegaMod-Archived/releases/download/0.8.0.84/Windows-MegaMod.Installer.msi",
-      size: "3.4 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/JHGuitarFreak/UQM-MegaMod-Archived/releases/download/0.8.0.84/Windows-MegaMod.Portable.zip",
-      size: "62.0 MB",
     },
   ],
   cover: {

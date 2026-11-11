@@ -53,25 +53,21 @@ export const hellnightRecompiled: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/goodshepherd23/Hellnight-Recompiled/releases/download/v0.1.7/hellnight-0.1.7-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/goodshepherd23/Hellnight-Recompiled/releases/download/v0.1.7/hellnight-0.1.7-linux-x64.zip",
-      "note": "Linux · x64"
     },
     {
       "label": "macOS arm64",
       "url": "https://github.com/goodshepherd23/Hellnight-Recompiled/releases/download/v0.1.7/hellnight-0.1.7-macos-arm64.zip",
-      "note": "macOS · Apple Silicon"
     },
     {
       "label": "macOS x64",
       "url": "https://github.com/goodshepherd23/Hellnight-Recompiled/releases/download/v0.1.7/hellnight-0.1.7-macos-x64.zip",
-      "note": "macOS · Intel"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/hellnight-recompiled.jpg",

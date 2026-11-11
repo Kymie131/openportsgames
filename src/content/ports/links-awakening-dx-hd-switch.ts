@@ -27,7 +27,7 @@ export const linksAwakeningDxHdSwitch: Port = {
   summaryEs: "The Legend of Zelda: Link's Awakening DX es una reedición mejorada de 1998 del juego de acción y aventura de Game Boy de 1993, desarrollado y publicado por Nintendo. Añade una mazmorra de color, nuevas fotografías y compatibilidad con Game Boy Color.",
   downloads: [
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/Alexgg1014/The-Legend-of-Zelda-Link-s-Awakening-DX-HD-Alek-s-Ultimate-NX-Edition/releases/download/v1.2.0/ProjectZ.Switch.nro",
       size: "51.0 MB",
     },

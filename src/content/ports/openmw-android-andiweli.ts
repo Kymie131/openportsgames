@@ -23,7 +23,7 @@ export const openmwAndroidAndiweli: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Andiweli/OpenMW-Android/releases/download/0.51.0-14/OpenMW.0.51-14.apk",
       size: "42.2 MB",
     },

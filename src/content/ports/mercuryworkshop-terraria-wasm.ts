@@ -23,7 +23,7 @@ export const mercuryworkshopTerrariaWasm: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "terraria-wasm-build",
+      label: "Web",
       url: "https://github.com/MercuryWorkshop/terraria-wasm/releases/download/1.0/terraria-wasm-build.zip",
       size: "34.6 MB",
     },

@@ -27,19 +27,14 @@ export const crashOfTheTitansRecomp: Port = {
     "Recompilación de Crash of the Titans (Xbox 360) para Windows, todavía en un estado temprano. Requiere tus propios archivos del juego.",
   downloads: [
     {
-      label: "Windows",
-      url: "https://github.com/OAleex/MojoRecomp/releases/download/v1.1.0/MojoRecomp-COT-Localization-Pack-1.0.0.zip",
-      size: "2.1 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/OAleex/MojoRecomp/releases/download/v1.1.0/MojoRecomp-COT-Runtime-0.2.0-alpha-windows-x64.zip",
-      size: "14.6 MB",
-    },
-    {
-      label: "Windows EXE",
+      label: "Windows x64",
       url: "https://github.com/OAleex/MojoRecomp/releases/download/v1.1.0/MojoRecomp-Launcher-1.1.0-windows-x64.exe",
       size: "67.1 MB",
+    },
+    {
+      label: "Windows x64",
+      url: "https://github.com/OAleex/MojoRecomp/releases/download/v1.1.0/MojoRecomp-COT-Runtime-0.2.0-alpha-windows-x64.zip",
+      size: "14.6 MB",
     },
   ],
   cover: {

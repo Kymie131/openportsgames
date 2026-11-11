@@ -44,11 +44,6 @@ export const crispyDoom: Port = {
     },
     {
       label: "Windows",
-      url: "https://github.com/fabiangreffrath/crispy-doom/releases/download/crispy-doom-7.2/crispy-heretic-7.2.0-win64.zip",
-      size: "9.3 MB",
-    },
-    {
-      label: "Windows",
       url: "https://github.com/fabiangreffrath/crispy-doom/releases/download/crispy-doom-7.2/crispy-hexen-7.2.0-win64.zip",
       size: "9.5 MB",
     },
@@ -56,6 +51,11 @@ export const crispyDoom: Port = {
       label: "Windows",
       url: "https://github.com/fabiangreffrath/crispy-doom/releases/download/crispy-doom-7.2/crispy-strife-7.2.0-win64.zip",
       size: "9.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/fabiangreffrath/crispy-doom/releases/download/crispy-doom-7.2/crispy-heretic-7.2.0-win64.zip",
+      size: "9.3 MB",
     },
   ],
   cover: {

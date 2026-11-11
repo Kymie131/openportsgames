@@ -35,14 +35,9 @@ export const openapoc: Port = {
   ],
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/OpenApoc/OpenApoc/releases/download/20260408/install-openapoc-20260408.exe",
       size: "30.1 MB",
-    },
-    {
-      label: "OpenApoc-x64-20260408",
-      url: "https://github.com/OpenApoc/OpenApoc/releases/download/20260408/OpenApoc-x64-20260408.zip",
-      size: "43.1 MB",
     },
   ],
   cover: {

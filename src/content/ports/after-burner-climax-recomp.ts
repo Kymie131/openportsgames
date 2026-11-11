@@ -50,10 +50,9 @@ export const afterBurnerClimaxRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/darkuni/afterburner-climax-recomp/releases/download/v1.1.0/AfterBurnerClimax-v1.1.0-win64.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/after-burner-climax-recomp.png",

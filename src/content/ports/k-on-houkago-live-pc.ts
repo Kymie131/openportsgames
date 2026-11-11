@@ -26,18 +26,8 @@ export const kOnHoukagoLivePc: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/EDGX73/KOn-Houkago-Live-Recompiled/releases/download/v0.2.0/K-On.Houkago.Live.Recompiled-v0.2.0-actualizacion.zip",
-      size: "4.4 MB",
-    },
-    {
-      label: "Windows",
       url: "https://github.com/EDGX73/KOn-Houkago-Live-Recompiled/releases/download/v0.2.0/K-On.Houkago.Live.Recompiled-v0.2.0-windows.zip",
       size: "86.8 MB",
-    },
-    {
-      label: "Android APK",
-      url: "https://github.com/EDGX73/KOn-Houkago-Live-Recompiled/releases/download/v0.2.0/KOn-Houkago-Live-Recompiled-0.2.0-android.apk",
-      size: "98.4 MB",
     },
   ],
   cover: {

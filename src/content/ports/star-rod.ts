@@ -29,7 +29,7 @@ export const starRod: Port = {
     "Port nativo y kit de modding para Paper Mario a partir del proyecto de decompilación. Requiere la ROM original de Paper Mario para N64 (obtenida legalmente).",
   downloads: [
     {
-      label: "StarRod-0.10.2",
+      label: "Windows",
       url: "https://github.com/z64a/star-rod/releases/download/v0.10.2/StarRod-0.10.2.zip",
       size: "47.6 MB",
     },

@@ -53,10 +53,9 @@ export const bloodWakeRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows installer",
+      "label": "Windows",
       "url": "https://github.com/minimalice92/bloodwake-recomp/releases/download/v0.3.1/BloodWakeRecomp-Setup-0.3.1.exe",
-      "note": "Windows · installer"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/blood-wake-recomp.png",

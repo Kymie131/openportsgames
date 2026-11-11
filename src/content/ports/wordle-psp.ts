@@ -24,7 +24,7 @@ export const wordlePsp: Port = {
   summaryEs: "Wordle es un videojuego de puzles publicado por gigantumgames en 2021.",
   downloads: [
     {
-      label: "WordlePSP_v0.0.2",
+      label: "Psp",
       url: "https://github.com/imRohan/wordle-psp/releases/download/v0.0.2/WordlePSP_v0.0.2.zip",
       size: "2.5 MB",
     },

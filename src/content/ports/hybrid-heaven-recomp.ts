@@ -23,14 +23,14 @@ export const hybridHeavenRecomp: Port = {
   aiDisclosure: {"source":"https://github.com/hunkstalker/hybrid-heaven-recomp","quote":"Unofficial AI native PC port of Hybrid Heaven"},
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/hunkstalker/hybrid-heaven-recomp/releases/download/v0.7.3/HybridHeavenRecomp-Linux.tar.gz",
-      size: "11.3 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/hunkstalker/hybrid-heaven-recomp/releases/download/v0.7.3/HybridHeavenRecomp-Windows.zip",
       size: "18.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/hunkstalker/hybrid-heaven-recomp/releases/download/v0.7.3/HybridHeavenRecomp-Linux.tar.gz",
+      size: "11.3 MB",
     },
   ],
   cover: {

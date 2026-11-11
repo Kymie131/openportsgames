@@ -25,34 +25,34 @@ export const nsmbuRecompNsmbuRecomp: Port = {
   summaryEs: "New Super Mario Bros. U es un videojuego de plataformas de 2012 desarrollado y publicado por Nintendo como título de lanzamiento para Wii U. Es la secuela de New Super Mario Bros. Wii y la cuarta y última entrega de la serie New Super Mario Bros., tras New Super Mario Bros. 2. En el juego, el jugador asume el papel de Mario en su camino para rescatar a la Princesa Peach y su castillo de Bowser. También es la primera entrega de la serie Super Mario en presentar gráficos de alta definición; el juego conserva el modo multijugador cooperativo de la entrega anterior.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/nsmbu-recomp/nsmbu-recomp/releases/download/v0.9.1/NSMBU-v0.9.1-android-arm64.apk",
-      size: "132.0 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android x64",
       url: "https://github.com/nsmbu-recomp/nsmbu-recomp/releases/download/v0.9.1/NSMBU-v0.9.1-android-x86_64.apk",
       size: "134.9 MB",
     },
     {
-      label: "Linux AppImage",
-      url: "https://github.com/nsmbu-recomp/nsmbu-recomp/releases/download/v0.9.1/NSMBU-v0.9.1-linux-aarch64.AppImage",
-      size: "33.8 MB",
+      label: "Android arm64",
+      url: "https://github.com/nsmbu-recomp/nsmbu-recomp/releases/download/v0.9.1/NSMBU-v0.9.1-android-arm64.apk",
+      size: "132.0 MB",
     },
     {
-      label: "Linux",
+      label: "Linux arm64",
       url: "https://github.com/nsmbu-recomp/nsmbu-recomp/releases/download/v0.9.1/NSMBU-v0.9.1-linux-aarch64.zip",
       size: "39.6 MB",
     },
     {
-      label: "Linux AppImage",
-      url: "https://github.com/nsmbu-recomp/nsmbu-recomp/releases/download/v0.9.1/NSMBU-v0.9.1-linux-x86_64.AppImage",
+      label: "Linux x64",
+      url: "https://github.com/nsmbu-recomp/nsmbu-recomp/releases/download/v0.9.1/NSMBU-v0.9.1-linux-x86_64.zip",
+      size: "39.2 MB",
+    },
+    {
+      label: "Linux arm64",
+      url: "https://github.com/nsmbu-recomp/nsmbu-recomp/releases/download/v0.9.1/NSMBU-v0.9.1-linux-aarch64.AppImage",
       size: "33.8 MB",
     },
     {
-      label: "Linux",
-      url: "https://github.com/nsmbu-recomp/nsmbu-recomp/releases/download/v0.9.1/NSMBU-v0.9.1-linux-x86_64.zip",
-      size: "39.2 MB",
+      label: "Linux x64",
+      url: "https://github.com/nsmbu-recomp/nsmbu-recomp/releases/download/v0.9.1/NSMBU-v0.9.1-linux-x86_64.AppImage",
+      size: "33.8 MB",
     },
   ],
   cover: {

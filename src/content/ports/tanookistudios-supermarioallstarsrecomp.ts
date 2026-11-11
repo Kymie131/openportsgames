@@ -25,14 +25,9 @@ export const tanookistudiosSupermarioallstarsrecomp: Port = {
   summaryEs: "Super Mario All-Stars es una compilación de videojuegos de plataformas para Super Nintendo Entertainment System (SNES). Contiene remakes de cuatro juegos de Super Mario lanzados por Nintendo para la Nintendo Entertainment System (NES) y Famicom Disk System: Super Mario Bros. (1985), Super Mario Bros.: The Lost Levels (1986), Super Mario Bros. 2 (1988) y Super Mario Bros. 3 (1988). Al igual que en los originales, los usuarios controlan al fontanero italiano Mario y a su hermano Luigi a través de mundos temáticos, recogen potenciadores, evitan obstáculos y descubren secretos.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/TanookiStudios/SuperMarioAllStarsRecomp/releases/download/v0.2.0/SuperMarioAllStars-Android.apk",
-      size: "8.9 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/TanookiStudios/SuperMarioAllStarsRecomp/releases/download/v0.2.0/SuperMarioAllStars-Linux.tar.gz",
-      size: "6.2 MB",
+      label: "Windows",
+      url: "https://github.com/TanookiStudios/SuperMarioAllStarsRecomp/releases/download/v0.2.0/SuperMarioAllStars-Windows.zip",
+      size: "11.1 MB",
     },
     {
       label: "macOS",
@@ -40,9 +35,9 @@ export const tanookistudiosSupermarioallstarsrecomp: Port = {
       size: "8.7 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/TanookiStudios/SuperMarioAllStarsRecomp/releases/download/v0.2.0/SuperMarioAllStars-Windows.zip",
-      size: "11.1 MB",
+      label: "Linux",
+      url: "https://github.com/TanookiStudios/SuperMarioAllStarsRecomp/releases/download/v0.2.0/SuperMarioAllStars-Linux.tar.gz",
+      size: "6.2 MB",
     },
   ],
   cover: {

@@ -56,25 +56,21 @@ export const laserlords: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/RandyVie/Laserlords/releases/download/v0.8.1/LaserLords-0.8.1-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x86_64",
+      "label": "Linux",
       "url": "https://github.com/RandyVie/Laserlords/releases/download/v0.8.1/LaserLords-0.8.1-linux-x86_64.tar.gz",
-      "note": "Linux · x64"
     },
     {
       "label": "macOS",
       "url": "https://github.com/RandyVie/Laserlords/releases/download/v0.8.1/LaserLords-0.8.1-macOS.dmg",
-      "note": "macOS · Intel and Apple Silicon"
     },
     {
-      "label": "Nintendo Switch",
+      "label": "Switch",
       "url": "https://github.com/RandyVie/Laserlords/releases/download/v0.8.1/LaserLords-0.8.1-switch.zip",
-      "note": "Switch · homebrew"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/laserlords.jpg",

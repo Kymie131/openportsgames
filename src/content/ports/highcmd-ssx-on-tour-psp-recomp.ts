@@ -25,7 +25,7 @@ export const highcmdSsxOnTourPspRecomp: Port = {
   summaryEs: "SSX on Tour es un videojuego de snowboarding, el 4º título de la serie de juegos SSX para Nintendo GameCube, PlayStation 2, PSP y Xbox. Fue lanzado en Norteamérica el 11 de octubre de 2005 y en el Reino Unido el 21 de octubre de 2005. La versión para la PSP fue lanzada en Reino Unido el 28 de octubre de 2005. A diferencia de su predecesor SSX 3, On Tour no es compatible con versiones anteriores de la Xbox 360.",
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/highcmd/ssx-on-tour-psp-recomp/releases/download/v0.2.2/SSXLauncher.exe",
       size: "13.7 MB",
     },

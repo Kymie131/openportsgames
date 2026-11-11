@@ -52,20 +52,17 @@ export const streetFighterIii3rdStrikeOe: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/updeshxp/SF3TSOEReborn/releases/download/v0.2.0-beta/sf3tsoereborn-tu-v0.2.0-beta-win-amd64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/updeshxp/SF3TSOEReborn/releases/download/v0.2.0-beta/sf3tsoereborn-tu-v0.2.0-beta-linux-amd64.tar.gz",
-      "note": "Linux · x64"
     },
     {
-      "label": "macOS arm64",
+      "label": "macOS",
       "url": "https://github.com/updeshxp/SF3TSOEReborn/releases/download/v0.2.0-beta/sf3tsoereborn-tu-v0.2.0-beta-mac-arm64.dmg",
-      "note": "macOS · Apple Silicon"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/street-fighter-iii-3rd-strike-oe.png",

@@ -52,15 +52,13 @@ export const deusExPortExMachina: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/JuggyMcNutty/port-ex-machina/releases/download/2026.11.08-a7cdb8fb/DX-windows-x86_64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/JuggyMcNutty/port-ex-machina/releases/download/2026.11.08-a7cdb8fb/DX-linux-x86_64.tar.gz",
-      "note": "Linux · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/deus-ex-port-ex-machina.png",

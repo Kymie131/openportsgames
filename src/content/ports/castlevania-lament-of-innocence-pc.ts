@@ -51,10 +51,9 @@ export const castlevaniaLamentOfInnocencePc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/ggMartinez/CastlevaniaLOI-PC/releases/download/0.5.0/CastlevaniaLoI-dev-win64.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/boxart/castlevania-lament-of-innocence-pc.jpg",

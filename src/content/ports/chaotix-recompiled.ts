@@ -27,19 +27,19 @@ export const chaotixRecompiled: Port = {
     "Recompilación estática de Knuckles' Chaotix (Sega 32X) a C++ nativo, con widescreen real. Compila para Windows, Linux, macOS y Android y requiere tu propia ROM.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/download/v0.15.21/ChaotixRecompiled-0.15.21-android-armeabi-v7a.apk",
-      size: "11.6 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/download/v0.15.21/ChaotixRecompiled-0.15.21-android.apk",
       size: "31.6 MB",
     },
     {
-      label: "iOS IPA",
-      url: "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/download/v0.15.21/ChaotixRecompiled-0.15.21-ios-arm64.ipa",
-      size: "5.8 MB",
+      label: "Android armv7",
+      url: "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/download/v0.15.21/ChaotixRecompiled-0.15.21-android-armeabi-v7a.apk",
+      size: "11.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/download/v0.15.21/ChaotixRecompiled-0.15.21-windows-x64.zip",
+      size: "9.4 MB",
     },
     {
       label: "Linux",
@@ -50,11 +50,6 @@ export const chaotixRecompiled: Port = {
       label: "macOS",
       url: "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/download/v0.15.21/ChaotixRecompiled-0.15.21-macos-arm64.zip",
       size: "5.0 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/download/v0.15.21/ChaotixRecompiled-0.15.21-windows-x64.zip",
-      size: "9.4 MB",
     },
   ],
   cover: {

@@ -35,7 +35,7 @@ export const openFodder: Port = {
   ],
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/OpenFodder/openfodder/releases/download/2.0.0/OpenFodder-Installer.exe",
       size: "15.6 MB",
     },

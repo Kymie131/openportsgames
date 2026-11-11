@@ -22,7 +22,7 @@ export const birdAndBeansWii: Port = {
   originalSystems: ["Nintendo DS"],
   downloads: [
     {
-      label: "Bird-and-Beans-GX",
+      label: "Wii",
       url: "https://github.com/cmyksoda/Bird-and-Beans-GX/releases/download/v1.1.0/Bird-and-Beans-GX.zip",
       size: "2.9 MB",
     },

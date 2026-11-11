@@ -51,15 +51,9 @@ export const amped2Recomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
-      "url": "https://github.com/Nico-D-eu/RE-Amped2/releases/download/v0.3.0/RE-Amped2-Setup.zip",
-      "note": "Windows · installer"
-    },
-    {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/Nico-D-eu/RE-Amped2/releases/download/v0.3.0/RE-Amped2-0.3.0-linux.tar.gz",
-      "note": "Linux · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/amped-2-recomp.png",

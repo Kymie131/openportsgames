@@ -25,7 +25,7 @@ export const ledheadWii: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "ledHeadWii_1.2",
+      label: "Wii",
       url: "https://github.com/nebiun/ledHeadWii/releases/download/1.2/ledHeadWii_1.2.zip",
       size: "1.8 MB",
     },

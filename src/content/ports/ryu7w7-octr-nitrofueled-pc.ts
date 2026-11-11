@@ -27,11 +27,6 @@ export const ryu7w7OctrNitrofueledPc: Port = {
       url: "https://github.com/Ryu7w7/OCTR-NitroFueled-PC/releases/download/v0.8.4/CTR-NitroFueled-PC-portable-v0.8.4-windows.zip",
       size: "140.9 MB",
     },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/Ryu7w7/OCTR-NitroFueled-PC/releases/download/v0.8.4/SacredFire-v0.8.4-x86_64.AppImage",
-      size: "448.8 MB",
-    },
   ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/36/Crash_Team_Racing_Nitro-Fueled_cover_art.jpg",

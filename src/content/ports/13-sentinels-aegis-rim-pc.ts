@@ -53,15 +53,13 @@ export const sentinelsAegisRimPc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/saulob/13-sentinels-aegis-rim-pc/releases/download/v0.1.0/13SentinelsAegisRimPC-v0.1.0-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux AppImage",
+      "label": "Linux",
       "url": "https://github.com/saulob/13-sentinels-aegis-rim-pc/releases/download/v0.1.0/13SentinelsAegisRimPC-v0.1.0-x86_64.AppImage",
-      "note": "Linux · AppImage"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/boxart/13-sentinels-aegis-rim-pc.jpg",

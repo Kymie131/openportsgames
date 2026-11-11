@@ -25,7 +25,7 @@ export const Q2rtxperimental: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "q2rtxp-v0.0.5",
+      label: "Windows",
       url: "https://github.com/PolyhedronStudio/Q2RTXPerimental/releases/download/v0.0.5/q2rtxp-v0.0.5.zip",
       size: "1392.2 MB",
     },

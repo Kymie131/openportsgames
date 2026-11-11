@@ -27,7 +27,7 @@ export const ssf2tHdRemixRecomp: Port = {
       size: "34.1 MB",
     },
     {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/saulob/ssf2t-hd-remix-recompiled/releases/download/v0.4.0/SSF2THDRemix-v0.4.0-x86_64.AppImage",
       size: "29.8 MB",
     },

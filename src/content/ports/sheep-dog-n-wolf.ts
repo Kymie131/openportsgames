@@ -22,7 +22,7 @@ export const SheepDogNWolf: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "sdw-mod-loader-v0.1",
+      label: "Windows",
       url: "https://github.com/SDW-Community/sdw-decomp/releases/download/v0.1/sdw-mod-loader-v0.1.zip",
       size: "115 KB",
     },

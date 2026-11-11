@@ -27,19 +27,9 @@ export const unciv: Port = {
     "Remake libre de Civilization V para Android y escritorio, también disponible en iOS. Es un juego de estrategia por turnos que no usa los recursos del juego original.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/yairm210/Unciv/releases/download/4.22.19/linuxFilesForJar.zip",
-      size: "1 KB",
-    },
-    {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/yairm210/Unciv/releases/download/4.22.19/Unciv-Linux64.zip",
       size: "103.9 MB",
-    },
-    {
-      label: "Android APK",
-      url: "https://github.com/yairm210/Unciv/releases/download/4.22.19/Unciv-signed.apk",
-      size: "26.3 MB",
     },
     {
       label: "Windows",
@@ -47,14 +37,19 @@ export const unciv: Port = {
       size: "100.2 MB",
     },
     {
-      label: "Unciv",
-      url: "https://github.com/yairm210/Unciv/releases/download/4.22.19/Unciv.jar",
-      size: "55.3 MB",
-    },
-    {
-      label: "Windows MSI",
+      label: "Windows",
       url: "https://github.com/yairm210/Unciv/releases/download/4.22.19/Unciv.msi",
       size: "86.1 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/yairm210/Unciv/releases/download/4.22.19/Unciv-signed.apk",
+      size: "26.3 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/yairm210/Unciv/releases/download/4.22.19/linuxFilesForJar.zip",
+      size: "1 KB",
     },
   ],
   cover: {

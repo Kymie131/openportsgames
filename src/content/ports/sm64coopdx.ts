@@ -38,11 +38,6 @@ export const sm64coopdx: Port = {
       size: "42.4 MB",
     },
     {
-      label: "sm64coopdx_SteamOS",
-      url: "https://github.com/coop-deluxe/sm64coopdx/releases/download/v1.5.1/sm64coopdx_SteamOS.zip",
-      size: "52.8 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/coop-deluxe/sm64coopdx/releases/download/v1.5.1/sm64coopdx_Windows.zip",
       size: "39.9 MB",

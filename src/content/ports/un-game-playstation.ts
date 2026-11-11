@@ -26,7 +26,7 @@ export const unGamePlaystation: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "UnGame_v1_1_1",
+      label: "Ps1",
       url: "https://github.com/Jarwesbub/un-game-psx-demo/releases/download/v1.1.1/UnGame_v1_1_1.zip",
       size: "57.2 MB",
     },

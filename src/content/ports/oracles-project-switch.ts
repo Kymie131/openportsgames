@@ -25,7 +25,7 @@ export const oraclesProjectSwitch: Port = {
   summaryEs: "The Legend of Zelda: Oracle of Ages y Oracle of Seasons son videojuegos de acción y aventura de 2001 desarrollados por Flagship y publicados por Nintendo para Game Boy Color. Son títulos enlazados que pueden completarse en cualquier orden y comparten objetos y secretos.",
   downloads: [
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/toniisound/The-Oracles-Project-NX/releases/download/1.3.0/the-oracles-project-nx.nro",
       size: "9.3 MB",
     },

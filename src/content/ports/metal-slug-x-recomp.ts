@@ -27,24 +27,24 @@ export const metalSlugXRecomp: Port = {
     "Recompilación de Metal Slug X (PS1, USA SLUS-01212) con PSXRecomp. Las releases son kits de compilación propia: aportas tu disco y una BIOS compatible, y el juego se genera y compila en tu equipo. Es la recompilación base del framework, sin mejoras por juego.",
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/alexbeavs-ps1-ports/metal-slug-x-recomp/releases/download/v0.1.2/metal-slug-x-recomp-0.1.2-windows-x64.zip",
+      size: "28.5 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/alexbeavs-ps1-ports/metal-slug-x-recomp/releases/download/v0.1.2/metal-slug-x-recomp-0.1.2-linux-x64.zip",
       size: "26.5 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/alexbeavs-ps1-ports/metal-slug-x-recomp/releases/download/v0.1.2/metal-slug-x-recomp-0.1.2-macos-arm64.zip",
-      size: "24.4 MB",
-    },
-    {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/alexbeavs-ps1-ports/metal-slug-x-recomp/releases/download/v0.1.2/metal-slug-x-recomp-0.1.2-macos-x64.zip",
       size: "24.7 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/alexbeavs-ps1-ports/metal-slug-x-recomp/releases/download/v0.1.2/metal-slug-x-recomp-0.1.2-windows-x64.zip",
-      size: "28.5 MB",
+      label: "macOS arm64",
+      url: "https://github.com/alexbeavs-ps1-ports/metal-slug-x-recomp/releases/download/v0.1.2/metal-slug-x-recomp-0.1.2-macos-arm64.zip",
+      size: "24.4 MB",
     },
   ],
   cover: {

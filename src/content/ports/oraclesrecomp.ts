@@ -24,24 +24,9 @@ export const oraclesrecomp: Port = {
   summaryEs: "The Legend of Zelda: Oracle of Seasons y The Legend of Zelda: Oracle of Ages, conocidos en Japón como Zelda no Densetsu: Fushigi no Ki no Mi Daichi no Shō y Zelda no Densetsu: Fushigi no Ki no Mi Jikū no Shō , son dos juegos de acción-aventura desarrollados por Flagship y publicados por Nintendo, así como los títulos séptimo y octavo de la serie de videojuegos The Legend of Zelda. Fueron lanzados el 27 de febrero de 2001 en Japón; el 13 de mayo de 2001 en Norteamérica; y el 5 de octubre de 2001 en Europa y Australia para la videoconsola portátil Nintendo Game Boy Color.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/kirby-letsgo/oracles-decomp/releases/download/v1.0.6/Oracles-android.apk",
       size: "26.4 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/kirby-letsgo/oracles-decomp/releases/download/v1.0.6/Oracles-linux-x86_64.AppImage",
-      size: "9.8 MB",
-    },
-    {
-      label: "macOS DMG",
-      url: "https://github.com/kirby-letsgo/oracles-decomp/releases/download/v1.0.6/Oracles-macOS.dmg",
-      size: "19.3 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/kirby-letsgo/oracles-decomp/releases/download/v1.0.6/Oracles-windows-x64.zip",
-      size: "10.5 MB",
     },
   ],
   cover: {

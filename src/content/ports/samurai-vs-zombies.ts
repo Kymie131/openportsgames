@@ -25,11 +25,6 @@ export const SamuraiVsZombies: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/Decomp-And-Recomp/Samurai-Vs-Zombies/releases/download/1.2/Samurai.Vs.Zombies.Android.apk",
-      size: "209.4 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/Decomp-And-Recomp/Samurai-Vs-Zombies/releases/download/1.2/Samurai.Vs.Zombies.PC.7z",
       size: "124.3 MB",

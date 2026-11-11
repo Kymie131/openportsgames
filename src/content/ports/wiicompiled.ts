@@ -46,24 +46,9 @@ export const wiiCompiled: Port = {
   ],
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/patchzyy/Wiicompiled/releases/download/v0.9.4/WiiCompiled-Setup-aarch64.AppImage",
-      size: "244.5 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/patchzyy/Wiicompiled/releases/download/v0.9.4/WiiCompiled-Setup-x86_64.AppImage",
-      size: "236.0 MB",
-    },
-    {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/patchzyy/Wiicompiled/releases/download/v0.9.4/WiiCompiled-Setup.exe",
       size: "374.3 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/patchzyy/Wiicompiled/releases/download/v0.9.4/WiiCompiled-Setup.pkg",
-      size: "225.9 MB",
     },
   ],
   cover: {

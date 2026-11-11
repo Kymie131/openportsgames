@@ -49,24 +49,24 @@ export const symphonyRecomp: Port = {
       size: "55.9 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/BlackLabelHQ/SymphonyRecomp/releases/download/v1.1.2p/SymphonyRecomp-v1.1.2p-macos-arm64.zip",
-      size: "54.0 MB",
-    },
-    {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/BlackLabelHQ/SymphonyRecomp/releases/download/v1.1.2p/SymphonyRecomp-v1.1.2p-macos-x64.zip",
       size: "55.5 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/BlackLabelHQ/SymphonyRecomp/releases/download/v1.1.2p/SymphonyRecomp-v1.1.2p-windows-arm64.zip",
-      size: "53.4 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/BlackLabelHQ/SymphonyRecomp/releases/download/v1.1.2p/SymphonyRecomp-v1.1.2p-windows-x64.zip",
       size: "55.0 MB",
+    },
+    {
+      label: "macOS arm64",
+      url: "https://github.com/BlackLabelHQ/SymphonyRecomp/releases/download/v1.1.2p/SymphonyRecomp-v1.1.2p-macos-arm64.zip",
+      size: "54.0 MB",
+    },
+    {
+      label: "Windows arm64",
+      url: "https://github.com/BlackLabelHQ/SymphonyRecomp/releases/download/v1.1.2p/SymphonyRecomp-v1.1.2p-windows-arm64.zip",
+      size: "53.4 MB",
     },
   ],
   cover: {

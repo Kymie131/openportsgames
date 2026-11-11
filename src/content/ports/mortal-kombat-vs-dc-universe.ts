@@ -22,19 +22,9 @@ export const MortalKombatVsDcUniverse: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "mkvdcu-port-0.2.1",
-      url: "https://github.com/KawaiiBunga/MKVDCU-Recomp/releases/download/v0.2.1/mkvdcu-port-0.2.1.zip",
-      size: "21.5 MB",
-    },
-    {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/KawaiiBunga/MKVDCU-Recomp/releases/download/v0.2.1/MKVDCU-Recomp.exe",
       size: "138.4 MB",
-    },
-    {
-      label: "mkvdcu-toolchain-llvm22.1.8-cmake4.4.3-ninja1.13.2",
-      url: "https://github.com/KawaiiBunga/MKVDCU-Recomp/releases/download/v0.2.1/mkvdcu-toolchain-llvm22.1.8-cmake4.4.3-ninja1.13.2.zip",
-      size: "126.4 MB",
     },
   ],
   cover: {

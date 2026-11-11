@@ -36,7 +36,7 @@ export const conkerLiveReloadedRecomp: Port = {
       size: "132.6 MB",
     },
     {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/Mabec-games/Conker-Recomped-and-Reloaded/releases/download/v1.4.2/ConkerRecompedReloaded-x86_64.AppImage",
       size: "127.1 MB",
     },

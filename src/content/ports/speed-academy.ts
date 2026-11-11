@@ -25,7 +25,7 @@ export const SpeedAcademy: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/kugelrund/Speed-Academy/releases/download/v1.10/jasp.exe",
       size: "1.5 MB",
     },

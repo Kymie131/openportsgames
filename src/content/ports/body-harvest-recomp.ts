@@ -27,14 +27,14 @@ export const bodyHarvestRecomp: Port = {
     "Recompilación estática de Body Harvest (N64) con N64Recomp y el renderizador RT64. Requiere el propio juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/danielgomesvieira2000/body-harvest-recomp/releases/download/v0.1.0/body-harvest-recomp-0.1.0-linux-x86_64.tar.gz",
-      size: "6.7 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/danielgomesvieira2000/body-harvest-recomp/releases/download/v0.1.0/body-harvest-recomp-0.1.0-windows-x64.zip",
       size: "17.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/danielgomesvieira2000/body-harvest-recomp/releases/download/v0.1.0/body-harvest-recomp-0.1.0-linux-x86_64.tar.gz",
+      size: "6.7 MB",
     },
   ],
   cover: {

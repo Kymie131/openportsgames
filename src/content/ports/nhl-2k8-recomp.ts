@@ -26,7 +26,7 @@ export const nhl2k8Recomp: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/anishchandra24/NHL2K8-Recompiled/releases/download/v1.4.0/NHL2K8-Recompiled-Setup.exe",
       size: "138 KB",
     },

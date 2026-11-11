@@ -25,16 +25,6 @@ export const mrFinsterVf3Recomp: Port = {
   summaryEs: "Virtua Fighter 3 es un juego de lucha desarrollado por Sega-AM2, y lanzado en 1996 para la placa arcade Model 3. Es el tercer juego de la serie Virtua Fighter, que incluye a dos nuevos personajes: Aoi Umenoji, una luchadora japonesa del estilo Aiki-Jujutsu, y Taka-Arashi, un luchador de sumo, ambos provenientes de Japón. Taka Arashi no volvería a aparecer en los juegos de la serie hasta la versión R de Virtua Fighter 5.",
   downloads: [
     {
-      label: "VirtuaFighter3Recomp-deck",
-      url: "https://github.com/mr-finster/vf3-recomp/releases/download/v0.1.21-alpha/VirtuaFighter3Recomp-deck.tar.gz",
-      size: "7.5 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/mr-finster/vf3-recomp/releases/download/v0.1.21-alpha/VirtuaFighter3Recomp-linux-arm64.tar.gz",
-      size: "6.5 MB",
-    },
-    {
       label: "macOS",
       url: "https://github.com/mr-finster/vf3-recomp/releases/download/v0.1.21-alpha/VirtuaFighter3Recomp-mac.zip",
       size: "9.9 MB",

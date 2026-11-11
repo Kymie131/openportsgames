@@ -27,12 +27,12 @@ export const sonicAdventureRecomp: Port = {
     "Port nativo de Sonic Adventure construido sobre KatanaRecomp, jugable en Windows, Linux y Steam Deck. Es un trabajo en progreso y necesita tus propios datos del juego.",
   downloads: [
     {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/sonicfreak1337/SARecomp/releases/download/v0.52.1/SonicAdventureRecompiled-0.52.1-Linux.AppImage",
       size: "366.9 MB",
     },
     {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/sonicfreak1337/SARecomp/releases/download/v0.52.1/SonicAdventureRecompiled-0.52.1-SteamDeck.AppImage",
       size: "366.9 MB",
     },

@@ -25,19 +25,19 @@ export const Openxw: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/elyosh/OpenXW/releases/download/v0.0.3/openxw-0.0.3-linux-x86_64-release.tar.xz",
-      size: "4.6 MB",
+      label: "Windows",
+      url: "https://github.com/elyosh/OpenXW/releases/download/v0.0.3/openxw-0.0.3-windows-x86_64-release.zip",
+      size: "14.8 MB",
     },
     {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/elyosh/OpenXW/releases/download/v0.0.3/openxw-0.0.3-macos-arm64-release.dmg",
       size: "7.2 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/elyosh/OpenXW/releases/download/v0.0.3/openxw-0.0.3-windows-x86_64-release.zip",
-      size: "14.8 MB",
+      label: "Linux",
+      url: "https://github.com/elyosh/OpenXW/releases/download/v0.0.3/openxw-0.0.3-linux-x86_64-release.tar.xz",
+      size: "4.6 MB",
     },
   ],
   cover: {

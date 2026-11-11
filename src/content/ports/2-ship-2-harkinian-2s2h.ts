@@ -22,7 +22,7 @@ export const _2Ship2Harkinian2s2h: Port = {
   originalSystems: ["Nintendo 64"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Jameriquiah/2ship2harkinian/releases/download/android-5.0.1/2s2h.apk",
       size: "34.6 MB",
     },

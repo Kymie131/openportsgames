@@ -22,7 +22,7 @@ export const fiveNightsAtFreddyS2WiiU: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "Five.Nights.at.Freddy.s.2.Wii.U.Edition.FNF2TM",
+      label: "Wiiu",
       url: "https://github.com/wikiblog0/FNaF-2-WiiU/releases/download/v1.0h1/Five.Nights.at.Freddy.s.2.Wii.U.Edition.FNF2TM.zip",
       size: "109.8 MB",
     },

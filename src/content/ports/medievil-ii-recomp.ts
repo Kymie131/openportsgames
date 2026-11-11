@@ -28,7 +28,7 @@ export const medievilIiRecomp: Port = {
     "Recompilación de MediEvil II (PS1, USA SCUS-94564) con PSXRecomp. Las releases son kits de compilación propia: aportas tu disco y una BIOS compatible, y el juego se genera y compila en tu equipo. Es la recompilación base del framework, sin mejoras por juego.",
   downloads: [
     {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/alexbeavs-ps1-ports/medievil-ii-recomp/releases/download/v0.2.4-alpha/MediEvilIIRecomp-v0.2.4-alpha-linux-x86_64.AppImage",
       size: "37.2 MB",
     },

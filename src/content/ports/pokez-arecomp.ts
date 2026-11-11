@@ -52,20 +52,17 @@ export const pokezArecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/Hexveil404/PokeZ-ARecomp/releases/download/v0.1.20/ZA-Recomp-windows.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux AppImage",
+      "label": "Linux x64",
       "url": "https://github.com/Hexveil404/PokeZ-ARecomp/releases/download/v0.1.20/ZA-Recomp-v0.1.20-linux-x86_64.AppImage",
-      "note": "Linux · AppImage"
     },
     {
-      "label": "Linux .deb",
+      "label": "Linux x64",
       "url": "https://github.com/Hexveil404/PokeZ-ARecomp/releases/download/v0.1.20/zarecomp_0.1.20_amd64.deb",
-      "note": "Linux · Debian package"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/pokez-arecomp.png",

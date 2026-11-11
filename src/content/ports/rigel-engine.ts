@@ -28,17 +28,7 @@ export const rigelEngine: Port = {
     "Reimplementación moderna de Duke Nukem II que ejecuta los datos del juego original, con widescreen y mejoras. Necesita tu propia copia del juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/lethal-guitar/RigelEngine/releases/download/v0.9.1/rigelengine_linux_gles_x64.deb",
-      size: "1.5 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/lethal-guitar/RigelEngine/releases/download/v0.9.1/rigelengine_linux_x64.deb",
-      size: "1.5 MB",
-    },
-    {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/lethal-guitar/RigelEngine/releases/download/v0.9.1/rigelengine_mac_x64.dmg",
       size: "2.5 MB",
     },
@@ -46,6 +36,16 @@ export const rigelEngine: Port = {
       label: "Windows",
       url: "https://github.com/lethal-guitar/RigelEngine/releases/download/v0.9.1/rigelengine_win_x64.zip",
       size: "2.3 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/lethal-guitar/RigelEngine/releases/download/v0.9.1/rigelengine_linux_gles_x64.deb",
+      size: "1.5 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/lethal-guitar/RigelEngine/releases/download/v0.9.1/rigelengine_linux_x64.deb",
+      size: "1.5 MB",
     },
   ],
   cover: {

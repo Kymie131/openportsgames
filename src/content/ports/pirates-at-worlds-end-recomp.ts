@@ -55,13 +55,11 @@ export const piratesAtWorldsEndRecomp: Port = {
     {
       "label": "Windows x64",
       "url": "https://github.com/ElGuslml/PiratesAtWorldsEndRecomp/releases/download/v0.3.0/PiratesAtWorldsEndRecomp-v0.3.0-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Windows installer",
+      "label": "Windows",
       "url": "https://github.com/ElGuslml/PiratesAtWorldsEndRecomp/releases/download/v0.3.0/PiratesAtWorldsEndRecomp-v0.3.0-setup.exe",
-      "note": "Windows · installer"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/pirates-at-worlds-end-recomp.jpg",

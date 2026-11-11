@@ -22,7 +22,7 @@ export const supertuxMilestone2VitaSwitchPs3: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/theheroGAC/SuperTux-Milestone-2-Multi-Console/releases/download/1.00/supertux2.nro",
       size: "120.4 MB",
     },

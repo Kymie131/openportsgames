@@ -25,34 +25,14 @@ export const SerioussamclassicVk: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "SeriousSamClassicVk-1.10.7-alpine-musl-x86-bin",
-      url: "https://github.com/tx00100xt/SeriousSamClassic-VK/releases/download/1.10.7/SeriousSamClassicVk-1.10.7-alpine-musl-x86-bin.tar.xz",
-      size: "9.0 MB",
-    },
-    {
-      label: "SeriousSamClassicVk-1.10.7-alpine-musl-x86_64-bin",
-      url: "https://github.com/tx00100xt/SeriousSamClassic-VK/releases/download/1.10.7/SeriousSamClassicVk-1.10.7-alpine-musl-x86_64-bin.tar.xz",
-      size: "9.0 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/tx00100xt/SeriousSamClassic-VK/releases/download/1.10.7/SeriousSamClassicVk-1.10.7-directx9-win32-bin.7z",
-      size: "6.4 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/tx00100xt/SeriousSamClassic-VK/releases/download/1.10.7/SeriousSamClassicVk-1.10.7-directx9-win64-bin.7z",
       size: "6.9 MB",
     },
     {
-      label: "SeriousSamClassicVk-1.10.7-freebsd-amd64-bin",
-      url: "https://github.com/tx00100xt/SeriousSamClassic-VK/releases/download/1.10.7/SeriousSamClassicVk-1.10.7-freebsd-amd64-bin.tar.xz",
-      size: "8.7 MB",
-    },
-    {
-      label: "SeriousSamClassicVk-1.10.7-lnx-aarch64-bin",
-      url: "https://github.com/tx00100xt/SeriousSamClassic-VK/releases/download/1.10.7/SeriousSamClassicVk-1.10.7-lnx-aarch64-bin.tar.xz",
-      size: "8.6 MB",
+      label: "Windows x86",
+      url: "https://github.com/tx00100xt/SeriousSamClassic-VK/releases/download/1.10.7/SeriousSamClassicVk-1.10.7-directx9-win32-bin.7z",
+      size: "6.4 MB",
     },
   ],
   cover: {

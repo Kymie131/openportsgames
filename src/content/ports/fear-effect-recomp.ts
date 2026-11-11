@@ -27,24 +27,24 @@ export const fearEffectRecomp: Port = {
     "Recompilación de Fear Effect (PS1, USA SLUS-00920) con PSXRecomp y el lanzador recomp-ui. Aportas tu propio disco y una BIOS europea SCPH-5502/5552; el juego se genera y compila en tu equipo. Candidata 0.1.0 con el gameplay aún sin validar.",
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/alexbeavs-ps1-ports/fear-effect-recomp/releases/download/v0.1.1/fear-effect-0.1.1-windows-x64.zip",
+      size: "25.0 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/alexbeavs-ps1-ports/fear-effect-recomp/releases/download/v0.1.1/fear-effect-0.1.1-linux-x64.zip",
       size: "23.1 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/alexbeavs-ps1-ports/fear-effect-recomp/releases/download/v0.1.1/fear-effect-0.1.1-macos-arm64.zip",
-      size: "21.9 MB",
-    },
-    {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/alexbeavs-ps1-ports/fear-effect-recomp/releases/download/v0.1.1/fear-effect-0.1.1-macos-x64.zip",
       size: "22.5 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/alexbeavs-ps1-ports/fear-effect-recomp/releases/download/v0.1.1/fear-effect-0.1.1-windows-x64.zip",
-      size: "25.0 MB",
+      label: "macOS arm64",
+      url: "https://github.com/alexbeavs-ps1-ports/fear-effect-recomp/releases/download/v0.1.1/fear-effect-0.1.1-macos-arm64.zip",
+      size: "21.9 MB",
     },
   ],
   cover: {

@@ -22,14 +22,14 @@ export const nfsUnderground2Recompiled: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/codepdbh/nfsu2-recompiled/releases/download/v0.14.14/NFSU2-AndroidEvolved-v0.14.14-arm64.apk",
-      size: "67.1 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android armv7",
       url: "https://github.com/codepdbh/nfsu2-recompiled/releases/download/v0.14.14/NFSU2-AndroidEvolved-v0.14.14-armeabi-v7a.apk",
       size: "77.1 MB",
+    },
+    {
+      label: "Android arm64",
+      url: "https://github.com/codepdbh/nfsu2-recompiled/releases/download/v0.14.14/NFSU2-AndroidEvolved-v0.14.14-arm64.apk",
+      size: "67.1 MB",
     },
   ],
   cover: {

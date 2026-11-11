@@ -27,24 +27,24 @@ export const superMetroidSnesRecomp: Port = {
     "Recompilación estática de Super Metroid (SNES) con el framework snesrecomp: el código 65816 se traduce a C y se compila a nativo.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/mstan/SuperMetroidRecomp/releases/download/v0.4.5/supermetroid-0.4.5-linux-x64.zip",
-      size: "14.5 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/mstan/SuperMetroidRecomp/releases/download/v0.4.5/supermetroid-0.4.5-macos-arm64.zip",
-      size: "15.6 MB",
-    },
-    {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/mstan/SuperMetroidRecomp/releases/download/v0.4.5/supermetroid-0.4.5-macos-x64.zip",
       size: "16.1 MB",
+    },
+    {
+      label: "macOS arm64",
+      url: "https://github.com/mstan/SuperMetroidRecomp/releases/download/v0.4.5/supermetroid-0.4.5-macos-arm64.zip",
+      size: "15.6 MB",
     },
     {
       label: "Windows",
       url: "https://github.com/mstan/SuperMetroidRecomp/releases/download/v0.4.5/supermetroid-0.4.5-windows-x64.zip",
       size: "14.8 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/mstan/SuperMetroidRecomp/releases/download/v0.4.5/supermetroid-0.4.5-linux-x64.zip",
+      size: "14.5 MB",
     },
   ],
   cover: {

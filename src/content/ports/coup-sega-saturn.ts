@@ -24,7 +24,7 @@ export const coupSegaSaturn: Port = {
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   downloads: [
     {
-      label: "Coup-Saturn-Beta-2.0",
+      label: "Saturn",
       url: "https://github.com/likeagfeld/coup-saturn/releases/download/v2.0-beta/Coup-Saturn-Beta-2.0.zip",
       size: "63.5 MB",
     },

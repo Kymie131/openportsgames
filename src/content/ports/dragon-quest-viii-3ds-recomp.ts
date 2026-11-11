@@ -51,10 +51,9 @@ export const dragonQuestViii3dsRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows installer",
+      "label": "Windows",
       "url": "https://github.com/kirakazeshin/DragonQuest8Recomp-3DS/releases/download/v0.1.3/Dragon.Quest.VIII.PC.Port.Setup.exe",
-      "note": "Windows · installer"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/dragon-quest-viii-3ds-recomp.png",

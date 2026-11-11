@@ -24,16 +24,6 @@ export const vitomiguelfCrashottPc: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/VitoMiguelF/crashott-pc/releases/download/v1.07/CrashRecomp-v1.07-legendas.zip",
-      size: "348 KB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/VitoMiguelF/crashott-pc/releases/download/v1.07/CrashSetup-v1.07-x86_64.AppImage",
-      size: "208.9 MB",
-    },
-    {
-      label: "Windows EXE",
       url: "https://github.com/VitoMiguelF/crashott-pc/releases/download/v1.07/CrashSetup-v1.07.exe",
       size: "207.3 MB",
     },

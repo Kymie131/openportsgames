@@ -26,7 +26,7 @@ export const pspLatro: Port = {
     "El proyecto original fue retirado de GitHub tras una reclamación DMCA del autor de Balatro. Este fork solo lo archiva y el port es limitado: no es el juego completo.",
   downloads: [
     {
-      label: "PSPalatro-build",
+      label: "Psp",
       url: "https://github.com/GreenNinja2525/PSP-latro/releases/download/latest/PSPalatro-build.zip",
       size: "786 KB",
     },

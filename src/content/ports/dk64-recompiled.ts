@@ -39,19 +39,9 @@ export const dk64Recompiled: Port = {
     "Recompilación nativa de Donkey Kong 64 realizada con N64Recomp. El jugador carga su propia ROM de N64 obtenida legalmente; el port recompila el código del juego en lugar de emularlo.",
   downloads: [
     {
-      label: "DK64Recompiled-Flatpak-X64-Release-1-0-3",
-      url: "https://github.com/Rainchus/Donkey-Kong-64-Recompiled/releases/download/v1.0.3/DK64Recompiled-Flatpak-X64-Release-1-0-3.zip",
-      size: "6.1 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/Rainchus/Donkey-Kong-64-Recompiled/releases/download/v1.0.3/DK64Recompiled-Linux-ARM64-Release-1-0-3.zip",
-      size: "9.0 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/Rainchus/Donkey-Kong-64-Recompiled/releases/download/v1.0.3/DK64Recompiled-Linux-X64-Release-1-0-3.zip",
-      size: "8.9 MB",
+      label: "Windows",
+      url: "https://github.com/Rainchus/Donkey-Kong-64-Recompiled/releases/download/v1.0.3/DK64Recompiled-Windows-Release-1-0-3.zip",
+      size: "19.1 MB",
     },
     {
       label: "macOS",
@@ -59,9 +49,14 @@ export const dk64Recompiled: Port = {
       size: "10.8 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/Rainchus/Donkey-Kong-64-Recompiled/releases/download/v1.0.3/DK64Recompiled-Windows-Release-1-0-3.zip",
-      size: "19.1 MB",
+      label: "Linux arm64",
+      url: "https://github.com/Rainchus/Donkey-Kong-64-Recompiled/releases/download/v1.0.3/DK64Recompiled-Linux-ARM64-Release-1-0-3.zip",
+      size: "9.0 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/Rainchus/Donkey-Kong-64-Recompiled/releases/download/v1.0.3/DK64Recompiled-Linux-X64-Release-1-0-3.zip",
+      size: "8.9 MB",
     },
   ],
   cover: {

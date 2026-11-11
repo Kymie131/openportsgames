@@ -51,10 +51,9 @@ export const spongebobRevengeRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/Spaced1127/SpongeBobRecomp/releases/download/v0.1.4/SpongeBobRecomp-v0.1.4-Windows-x64.zip",
-      "note": "Windows Â· x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/spongebob-revenge-recomp.png",

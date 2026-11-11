@@ -29,11 +29,6 @@ export const kokororecomp: Port = {
       url: "https://github.com/elprogramadorloco-arch/korokoro-recomp/releases/download/v0.1/KoroKoroRecomp-Android-v0.1.zip",
       size: "564 KB",
     },
-    {
-      label: "Android",
-      url: "https://github.com/elprogramadorloco-arch/korokoro-recomp/releases/download/v0.1/KoroKoroRecomp-v0.1.zip",
-      size: "54 KB",
-    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/generated/korokoro-postnin.svg",

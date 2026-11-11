@@ -23,16 +23,6 @@ export const matheovignaudTmc: Port = {
   originalSystems: ["Game Boy Advance"],
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/MatheoVignaud/tmc/releases/download/0.2.0-pre/app-arm64-v8a-release.apk",
-      size: "10.1 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/MatheoVignaud/tmc/releases/download/0.2.0-pre/tmc-usa-linux-20260517-0932-52701ac.zip",
-      size: "15.2 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/MatheoVignaud/tmc/releases/download/0.2.0-pre/tmc-usa-windows-20260517-0932-52701ac.zip",
       size: "17.9 MB",

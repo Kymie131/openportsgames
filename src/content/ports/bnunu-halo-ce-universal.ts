@@ -23,12 +23,7 @@ export const bnunuHaloCeUniversal: Port = {
   originalSystems: ["Xbox"],
   downloads: [
     {
-      label: "HaloFallbackTest",
-      url: "https://github.com/bnunu/halo-ce-universal/releases/download/launcher-v1.8/HaloFallbackTest.zip",
-      size: "7.8 MB",
-    },
-    {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/bnunu/halo-ce-universal/releases/download/launcher-v1.8/HaloLauncher.exe",
       size: "172 KB",
     },

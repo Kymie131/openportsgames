@@ -22,34 +22,24 @@ export const SyndicateWars: Port = {
   originalSystems: ["MS-DOS"],
   downloads: [
     {
-      label: "swars-0_3_8_3283-ubuntu-patch",
-      url: "https://github.com/swfans/syndwarsfx/releases/download/0.3.8.3283/swars-0_3_8_3283-ubuntu-patch.zip",
-      size: "2.8 MB",
+      label: "Windows x86",
+      url: "https://github.com/swfans/syndwarsfx/releases/download/0.3.8.3283/swars-0_3_8_3283-win32-setup.zip",
+      size: "6.9 MB",
     },
     {
-      label: "swars-0_3_8_3283-ubuntu-sdl1-patch",
-      url: "https://github.com/swfans/syndwarsfx/releases/download/0.3.8.3283/swars-0_3_8_3283-ubuntu-sdl1-patch.zip",
-      size: "2.8 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x86",
       url: "https://github.com/swfans/syndwarsfx/releases/download/0.3.8.3283/swars-0_3_8_3283-win32-patch.zip",
       size: "6.3 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/swfans/syndwarsfx/releases/download/0.3.8.3283/swars-0_3_8_3283-win32-sdl1-patch.zip",
-      size: "5.6 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x86",
       url: "https://github.com/swfans/syndwarsfx/releases/download/0.3.8.3283/swars-0_3_8_3283-win32-sdl1-setup.zip",
       size: "6.2 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/swfans/syndwarsfx/releases/download/0.3.8.3283/swars-0_3_8_3283-win32-setup.zip",
-      size: "6.9 MB",
+      label: "Windows x86",
+      url: "https://github.com/swfans/syndwarsfx/releases/download/0.3.8.3283/swars-0_3_8_3283-win32-sdl1-patch.zip",
+      size: "5.6 MB",
     },
   ],
   cover: {

@@ -37,11 +37,6 @@ export const doaxbvRe: Port = {
       url: "https://github.com/NoRain211/doaxvb-re/releases/download/v0.6.2/DOAXBV-0.6.2-macOS.zip",
       size: "1.6 MB",
     },
-    {
-      label: "DOAXBV-0.6.2",
-      url: "https://github.com/NoRain211/doaxvb-re/releases/download/v0.6.2/DOAXBV-0.6.2.zip",
-      size: "102.5 MB",
-    },
   ],
   cover: {
     src: "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Dead%20or%20Alive%20Xtreme%20Beach%20Volleyball%20(Japan)%20(En,Ja).png",

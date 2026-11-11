@@ -26,14 +26,14 @@ export const theMawRecomp: Port = {
   summaryGenerated: true,
   downloads: [
     {
+      label: "Linux x64",
+      url: "https://github.com/thefixinhixon/TheMawRecomp/releases/download/v1.0/TheMaw-x86_64-v1.0.AppImage",
+      size: "67.3 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/thefixinhixon/TheMawRecomp/releases/download/v1.0/TheMaw-Linux-v1.0.zip",
       size: "66.7 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/thefixinhixon/TheMawRecomp/releases/download/v1.0/TheMaw-x86_64-v1.0.AppImage",
-      size: "67.3 MB",
     },
   ],
   cover: {

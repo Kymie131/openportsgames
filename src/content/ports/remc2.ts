@@ -25,7 +25,7 @@ export const Remc2: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Release_0.99",
+      label: "Windows",
       url: "https://github.com/turican0/remc2/releases/download/0.99/Release_0.99.zip",
       size: "251.4 MB",
     },

@@ -22,7 +22,7 @@ export const NhlLegacyEdition: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "nhl-legacy-recomp-0.6.0",
+      label: "Windows",
       url: "https://github.com/puckhead73/nhl-legacy-recomp/releases/download/v0.6.0/nhl-legacy-recomp-0.6.0.zip",
       size: "100.7 MB",
     },

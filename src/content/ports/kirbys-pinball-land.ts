@@ -22,7 +22,7 @@ export const KirbysPinballLand: Port = {
   originalSystems: ["Game Boy"],
   downloads: [
     {
-      label: "Kirby.s.Pinball.Land",
+      label: "Windows",
       url: "https://github.com/omegakatana92/Kirby-Pinball-Land-Recomp/releases/download/recomp/Kirby.s.Pinball.Land.zip",
       size: "12.3 MB",
     },

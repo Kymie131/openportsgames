@@ -24,12 +24,12 @@ export const touhou8Psp: Port = {
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   downloads: [
     {
-      label: "LICENSES-v0.4.1",
+      label: "Psp",
       url: "https://github.com/kan8223-dotcom/th08-psp-native/releases/download/v0.4.1/LICENSES-v0.4.1.zip",
       size: "56 KB",
     },
     {
-      label: "TH08PSP-Go-v0.4.1-scarletfix",
+      label: "Psp",
       url: "https://github.com/kan8223-dotcom/th08-psp-native/releases/download/v0.4.1/TH08PSP-Go-v0.4.1-scarletfix.zip",
       size: "5.9 MB",
     },

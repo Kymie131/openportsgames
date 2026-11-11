@@ -23,7 +23,7 @@ export const teamBeefStudiosRtcwquest: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Team-Beef-Studios/RTCWQuest/releases/download/v1.4.1/rtcwquest-1.4.1.apk",
       size: "119.6 MB",
     },

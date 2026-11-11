@@ -27,27 +27,27 @@ export const eternalSonataReprise: Port = {
     "Recompilación estática de Eternal Sonata (Xbox 360) con ReXGlue. Convierte el ejecutable PPC en código x86_64 nativo y lo envuelve en un runtime propio con overlays y hooks para mods; builds para Windows, Linux, macOS y Android.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/birabittoh/EternalSonataReprise/releases/download/v1.3.9/eternalsonata-v1.3.9-android-arm64.apk",
       size: "34.1 MB",
     },
     {
-      label: "Linux",
-      url: "https://github.com/birabittoh/EternalSonataReprise/releases/download/v1.3.9/eternalsonata-v1.3.9-linux-amd64.tar.gz",
-      size: "28.8 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/birabittoh/EternalSonataReprise/releases/download/v1.3.9/eternalsonata-v1.3.9-linux-arm64.tar.gz",
-      size: "29.4 MB",
-    },
-    {
-      label: "macOS DMG",
+      label: "macOS x64",
       url: "https://github.com/birabittoh/EternalSonataReprise/releases/download/v1.3.9/eternalsonata-v1.3.9-mac-amd64.dmg",
       size: "29.8 MB",
     },
     {
-      label: "macOS DMG",
+      label: "Linux arm64",
+      url: "https://github.com/birabittoh/EternalSonataReprise/releases/download/v1.3.9/eternalsonata-v1.3.9-linux-arm64.tar.gz",
+      size: "29.4 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/birabittoh/EternalSonataReprise/releases/download/v1.3.9/eternalsonata-v1.3.9-linux-amd64.tar.gz",
+      size: "28.8 MB",
+    },
+    {
+      label: "macOS arm64",
       url: "https://github.com/birabittoh/EternalSonataReprise/releases/download/v1.3.9/eternalsonata-v1.3.9-mac-arm64.dmg",
       size: "28.5 MB",
     },

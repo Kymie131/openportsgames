@@ -27,7 +27,7 @@ export const pinballFantasiesAndroid: Port = {
     "Decompilación y source port para Android del pinball de DOS Pinball Fantasies, con controles táctiles. Requiere los archivos del juego original.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/wootbeer/pbfandroid/releases/download/0.1/pbfandroid-release.apk",
       size: "8.5 MB",
     },

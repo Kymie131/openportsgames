@@ -40,34 +40,19 @@ export const ecWolf: Port = {
     "Port de código fuente basado en Wolf4SDL con herramientas de edición tipo ZDoom portadas, mantenido por Blzut3. Se distribuye desde el sitio del proyecto y no desde las releases de GitHub. Necesita los datos de Wolfenstein 3D o los archivos shareware.",
   downloads: [
     {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/ECWolfEngine/ECWolf/releases/download/1.4.2/ecwolf-1.4.2.dmg",
       size: "7.1 MB",
     },
     {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/ECWolfEngine/ECWolf/releases/download/1.4.2/ecwolf-1.4.2_amd64.deb",
       size: "1.1 MB",
     },
     {
-      label: "Android APK",
-      url: "https://github.com/ECWolfEngine/ECWolf/releases/download/1.4.2/ecwolf-1.4.2_arm64-v8a.apk",
-      size: "6.5 MB",
-    },
-    {
-      label: "Linux",
+      label: "Linux arm64",
       url: "https://github.com/ECWolfEngine/ECWolf/releases/download/1.4.2/ecwolf-1.4.2_arm64.deb",
       size: "1.0 MB",
-    },
-    {
-      label: "ecwolf-1.4.2_arm64",
-      url: "https://github.com/ECWolfEngine/ECWolf/releases/download/1.4.2/ecwolf-1.4.2_arm64.zip",
-      size: "2.0 MB",
-    },
-    {
-      label: "Android APK",
-      url: "https://github.com/ECWolfEngine/ECWolf/releases/download/1.4.2/ecwolf-1.4.2_armeabi-v7a.apk",
-      size: "5.9 MB",
     },
   ],
   cover: {

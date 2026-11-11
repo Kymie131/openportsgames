@@ -22,7 +22,7 @@ export const spaceStation14Mobile: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/SolomonNumb1/space-station-14-mobile/releases/download/v1.3.0/io.spacestation14.android-Signed.apk",
       size: "111.8 MB",
     },

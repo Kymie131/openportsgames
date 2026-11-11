@@ -23,16 +23,6 @@ export const isaacFlashRecomp: Port = {
   related: ["the-binding-of-isaac-repentance","isaac-rebirth-android"],
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/whylurking/IsaacRecomp/releases/download/v1.6.0/IsaacRecomp_Android.apk",
-      size: "14.0 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/whylurking/IsaacRecomp/releases/download/v1.6.0/IsaacRecomp_Linux64.tar.gz",
-      size: "4.3 MB",
-    },
-    {
       label: "Switch",
       url: "https://github.com/whylurking/IsaacRecomp/releases/download/v1.6.0/IsaacRecomp_Switch.zip",
       size: "6.5 MB",
@@ -41,6 +31,11 @@ export const isaacFlashRecomp: Port = {
       label: "Windows",
       url: "https://github.com/whylurking/IsaacRecomp/releases/download/v1.6.0/IsaacRecomp_Win64.zip",
       size: "6.3 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/whylurking/IsaacRecomp/releases/download/v1.6.0/IsaacRecomp_Linux64.tar.gz",
+      size: "4.3 MB",
     },
   ],
   cover: {

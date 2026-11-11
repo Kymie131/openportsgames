@@ -31,19 +31,19 @@ export const battleStadiumDon: Port = {
     "Port para PC del juego de PlayStation 2 mediante recompilación estática, con versiones para Linux y Windows. Requiere tu propio disco; no incluye material del juego.",
   downloads: [
     {
-      label: "Windows",
-      url: "https://github.com/dvilelaf/battlestadium-don/releases/download/v1.0/don-windows-f537322.zip",
-      size: "86.1 MB",
-    },
-    {
       label: "Linux",
       url: "https://github.com/dvilelaf/battlestadium-don/releases/download/v1.0/don-linux-5d2b93e.tar.gz",
       size: "118.9 MB",
     },
     {
-      label: "Linux AppImage",
+      label: "Linux x64",
       url: "https://github.com/dvilelaf/battlestadium-don/releases/download/v1.0/BattleStadiumDON-1.0-x86_64.AppImage",
       size: "107.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/dvilelaf/battlestadium-don/releases/download/v1.0/don-windows-f537322.zip",
+      size: "86.1 MB",
     },
   ],
   cover: {

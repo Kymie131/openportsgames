@@ -24,7 +24,7 @@ export const animalCrossingGcAndroid: Port = {
   aiDisclosure: {"source":"https://github.com/zwaetschge/ACGC-Android-Port","quote":"built with Z.ai, OpenAI Codex and Claude"},
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/zwaetschge/ACGC-Android-Port/releases/download/v0.5.0/ACGC-Android-v0.5.0.apk",
       size: "59.1 MB",
     },

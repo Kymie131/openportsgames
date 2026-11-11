@@ -27,14 +27,14 @@ export const skate3Recomp: Port = {
     "Recompilación nativa de Skate 3 (Xbox 360) con un fork propio del SDK ReXGlue. Renderizador nativo sobre Direct3D 12 y Vulkan (más del doble de FPS con una fracción del uso de GPU) y builds para Windows, Linux y macOS.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/mchughalex/skate3recomp/releases/download/v2.0.2/Skate3Recomp-Linux.zip",
-      size: "31.1 MB",
-    },
-    {
       label: "macOS",
       url: "https://github.com/mchughalex/skate3recomp/releases/download/v2.0.2/Skate3Recomp-macOS.zip",
       size: "34.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/mchughalex/skate3recomp/releases/download/v2.0.2/Skate3Recomp-Linux.zip",
+      size: "31.1 MB",
     },
     {
       label: "Windows",

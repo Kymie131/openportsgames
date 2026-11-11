@@ -54,25 +54,21 @@ export const primerecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/gminustwo/primerecomp/releases/download/v0.0.9/PrimeRecomp-v0.0.9-windows.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x86_64 AppImage",
+      "label": "Linux",
       "url": "https://github.com/gminustwo/primerecomp/releases/download/v0.0.9/PrimeRecomp-v0.0.9-linux-x86_64.AppImage",
-      "note": "Linux · AppImage"
     },
     {
       "label": "macOS",
       "url": "https://github.com/gminustwo/primerecomp/releases/download/v0.0.9/PrimeRecomp-v0.0.9-macOS.dmg",
-      "note": "macOS · DMG"
     },
     {
       "label": "Android",
       "url": "https://github.com/gminustwo/primerecomp/releases/download/v0.0.9/PrimeRecomp-v0.0.9-android.apk",
-      "note": "Android · APK"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/primerecomp.jpg",

@@ -32,11 +32,6 @@ export const tonyHawksProject8Recomp: Port = {
       size: "24.6 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/theokyr/Project8Recomp/releases/download/v0.3.0/Project8Recomp-v0.3.0-macos-arm64.zip",
-      size: "25.0 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/theokyr/Project8Recomp/releases/download/v0.3.0/Project8Recomp-v0.3.0-windows-x86_64.zip",
       size: "20.7 MB",

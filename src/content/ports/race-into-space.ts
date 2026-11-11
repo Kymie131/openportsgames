@@ -24,9 +24,9 @@ export const RaceIntoSpace: Port = {
   summaryEs: "Race into Space es un videojuego de acción y aventura.",
   downloads: [
     {
-      label: "macOS DMG",
-      url: "https://github.com/raceintospace/raceintospace/releases/download/v2.0.0/raceintospace-2.0.0-Darwin.dmg",
-      size: "77.5 MB",
+      label: "Linux",
+      url: "https://github.com/raceintospace/raceintospace/releases/download/v2.0.0/raceintospace-2.0.0-Linux.rpm",
+      size: "103.6 MB",
     },
     {
       label: "Linux",
@@ -35,23 +35,23 @@ export const RaceIntoSpace: Port = {
     },
     {
       label: "Linux",
-      url: "https://github.com/raceintospace/raceintospace/releases/download/v2.0.0/raceintospace-2.0.0-Linux.deb",
-      size: "103.4 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/raceintospace/raceintospace/releases/download/v2.0.0/raceintospace-2.0.0-Linux.rpm",
-      size: "103.6 MB",
-    },
-    {
-      label: "Linux",
       url: "https://github.com/raceintospace/raceintospace/releases/download/v2.0.0/raceintospace-2.0.0-Linux.tar.gz",
       size: "103.5 MB",
     },
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/raceintospace/raceintospace/releases/download/v2.0.0/raceintospace-2.0.0-win32.exe",
       size: "103.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/raceintospace/raceintospace/releases/download/v2.0.0/raceintospace-2.0.0-Linux.deb",
+      size: "103.4 MB",
+    },
+    {
+      label: "macOS",
+      url: "https://github.com/raceintospace/raceintospace/releases/download/v2.0.0/raceintospace-2.0.0-Darwin.dmg",
+      size: "77.5 MB",
     },
   ],
   cover: {

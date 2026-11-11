@@ -23,21 +23,6 @@ export const valkyrieProfileRecompEd1z19: Port = {
   related: ["valkyrie-profile-recomp"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/Ed1z19/ValkyrieRecomp/releases/download/v1.0.1/ValkyrieRecomp-1.0.1-linux-x64.zip",
-      size: "30.9 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/Ed1z19/ValkyrieRecomp/releases/download/v1.0.1/ValkyrieRecomp-1.0.1-macos-arm64.zip",
-      size: "28.5 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/Ed1z19/ValkyrieRecomp/releases/download/v1.0.1/ValkyrieRecomp-1.0.1-macos-x64.zip",
-      size: "28.8 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/Ed1z19/ValkyrieRecomp/releases/download/v1.0.1/ValkyrieRecomp-1.0.1-windows-x64.zip",
       size: "32.6 MB",

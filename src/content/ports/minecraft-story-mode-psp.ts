@@ -22,34 +22,34 @@ export const minecraftStoryModePsp: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "cleanversion",
-      url: "https://github.com/entitybtw/mcsm_portable/releases/download/1.7/cleanversion.zip",
-      size: "233.1 MB",
-    },
-    {
-      label: "ep4_ellegaard",
-      url: "https://github.com/entitybtw/mcsm_portable/releases/download/1.7/ep4_ellegaard.zip",
-      size: "1740.4 MB",
-    },
-    {
-      label: "ep4_magnus",
+      label: "Psp",
       url: "https://github.com/entitybtw/mcsm_portable/releases/download/1.7/ep4_magnus.zip",
       size: "1748.4 MB",
     },
     {
-      label: "episode1",
-      url: "https://github.com/entitybtw/mcsm_portable/releases/download/1.7/episode1.zip",
-      size: "1111.2 MB",
+      label: "Psp",
+      url: "https://github.com/entitybtw/mcsm_portable/releases/download/1.7/ep4_ellegaard.zip",
+      size: "1740.4 MB",
     },
     {
-      label: "episode2",
+      label: "Psp",
+      url: "https://github.com/entitybtw/mcsm_portable/releases/download/1.7/episode3.zip",
+      size: "1204.0 MB",
+    },
+    {
+      label: "Psp",
       url: "https://github.com/entitybtw/mcsm_portable/releases/download/1.7/episode2.zip",
       size: "1178.6 MB",
     },
     {
-      label: "episode3",
-      url: "https://github.com/entitybtw/mcsm_portable/releases/download/1.7/episode3.zip",
-      size: "1204.0 MB",
+      label: "Psp",
+      url: "https://github.com/entitybtw/mcsm_portable/releases/download/1.7/episode1.zip",
+      size: "1111.2 MB",
+    },
+    {
+      label: "Psp",
+      url: "https://github.com/entitybtw/mcsm_portable/releases/download/1.7/cleanversion.zip",
+      size: "233.1 MB",
     },
   ],
   cover: {

@@ -24,24 +24,9 @@ export const recompiledSteel: Port = {
   summaryEs: "Real Steel es una película de acción, drama, aventura y ciencia ficción de 2011 dirigida por Shawn Levy y protagonizada por Hugh Jackman junto a Dakota Goyo y Evangeline Lilly.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/tokeneffortports/ReCompiledSteel/releases/download/v0.2.0/ReCompiledSteel-android-arm64-0.2.0.apk",
       size: "14.6 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/tokeneffortports/ReCompiledSteel/releases/download/v0.2.0/ReCompiledSteel-linux-x64-0.2.0.tar.gz",
-      size: "17.1 MB",
-    },
-    {
-      label: "Android",
-      url: "https://github.com/tokeneffortports/ReCompiledSteel/releases/download/v0.2.0/ReCompiledSteel-mods-0.2.0.zip",
-      size: "17.4 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/tokeneffortports/ReCompiledSteel/releases/download/v0.2.0/ReCompiledSteel-windows-x64-0.2.0.zip",
-      size: "12.2 MB",
     },
   ],
   cover: {

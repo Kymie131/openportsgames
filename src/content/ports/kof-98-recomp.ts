@@ -52,20 +52,17 @@ export const kof98Recomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/danilopaulinodasilva/kof98recomp/releases/download/v0.2.1/KOF98-Installer-windows-x64.exe",
-      "note": "Windows · installer"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/danilopaulinodasilva/kof98recomp/releases/download/v0.2.1/KOF98-Installer-linux-x64.tar.gz",
-      "note": "Linux · x64"
     },
     {
-      "label": "macOS arm64",
+      "label": "macOS",
       "url": "https://github.com/danilopaulinodasilva/kof98recomp/releases/download/v0.2.1/KOF98-Installer-macos-arm64.zip",
-      "note": "macOS · Apple Silicon"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/generated/kof-98-recomp.svg",

@@ -23,7 +23,7 @@ export const vasist15SourceNfsCarbonMac: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/vasist15-source/nfs-carbon-mac/releases/download/v0.9.0/NFS-Carbon-Setup-0.9.0.dmg",
       size: "32.4 MB",
     },

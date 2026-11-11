@@ -24,7 +24,7 @@ export const touhou7Psp: Port = {
   summaryEs: "Touhou Youyoumu ~ Perfect Cherry Blossom es un videojuego danmaku de desplazamiento vertical y el séptimo videojuego oficial de la serie Touhou Project hecha por Team Shanghai Alice, y el segundo en ser lanzado para Microsoft Windows después de Embodiment of Scarlet Devil. El juego completo fue lanzado por primera vez el 17 de agosto de 2003, en la Comiket 64.",
   downloads: [
     {
-      label: "TH07PSP-v0.2.1-beta",
+      label: "Psp",
       url: "https://github.com/kan8223-dotcom/th07-psp-native/releases/download/v0.2.1-beta/TH07PSP-v0.2.1-beta.zip",
       size: "6.2 MB",
     },

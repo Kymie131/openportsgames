@@ -22,7 +22,7 @@ export const narutoStorm2Recomp: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Masterllgod/naruto-storm-2-port-nativo/releases/download/v0.5.43/NarutoStorm2-PortNativo-v0.5.43-arm64.apk",
       size: "26.5 MB",
     },

@@ -23,7 +23,7 @@ export const mk64Portable: Port = {
   related: ["mario-kart-64-recomp"],
   downloads: [
     {
-      label: "MK64Portable-1.7",
+      label: "Psp",
       url: "https://github.com/beckerd/psp_mk64_portable/releases/download/v1.7/MK64Portable-1.7.zip",
       size: "1.5 MB",
     },

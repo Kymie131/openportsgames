@@ -40,19 +40,9 @@ export const banjoKazooieRecomp: Port = {
     "Recompilación nativa de Banjo-Kazooie realizada con N64Recomp. El jugador carga su propia ROM de N64 obtenida legalmente; el port recompila el código del juego en lugar de emularlo.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/BanjoRecomp/BanjoRecomp/releases/download/v1.0.2/BanjoRecompiled-v1.0.2-Linux-ARM64.tar.gz",
-      size: "8.0 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/BanjoRecomp/BanjoRecomp/releases/download/v1.0.2/BanjoRecompiled-v1.0.2-Linux-Flatpak-X64.zip",
-      size: "5.2 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/BanjoRecomp/BanjoRecomp/releases/download/v1.0.2/BanjoRecompiled-v1.0.2-Linux-X64.tar.gz",
-      size: "8.0 MB",
+      label: "Windows",
+      url: "https://github.com/BanjoRecomp/BanjoRecomp/releases/download/v1.0.2/BanjoRecompiled-v1.0.2-Windows.zip",
+      size: "17.8 MB",
     },
     {
       label: "macOS",
@@ -60,9 +50,19 @@ export const banjoKazooieRecomp: Port = {
       size: "16.9 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/BanjoRecomp/BanjoRecomp/releases/download/v1.0.2/BanjoRecompiled-v1.0.2-Windows.zip",
-      size: "17.8 MB",
+      label: "Linux arm64",
+      url: "https://github.com/BanjoRecomp/BanjoRecomp/releases/download/v1.0.2/BanjoRecompiled-v1.0.2-Linux-ARM64.tar.gz",
+      size: "8.0 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/BanjoRecomp/BanjoRecomp/releases/download/v1.0.2/BanjoRecompiled-v1.0.2-Linux-X64.tar.gz",
+      size: "8.0 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/BanjoRecomp/BanjoRecomp/releases/download/v1.0.2/BanjoRecompiled-v1.0.2-Linux-Flatpak-X64.zip",
+      size: "5.2 MB",
     },
   ],
   cover: {

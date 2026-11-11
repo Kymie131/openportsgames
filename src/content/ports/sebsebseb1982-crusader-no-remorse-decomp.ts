@@ -25,16 +25,6 @@ export const sebsebseb1982CrusaderNoRemorseDecomp: Port = {
   summaryEs: "Crusader: No Remorse es un videojuego de acción y aventura publicado por Electronic Arts en 1995.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/sebsebseb1982/crusader-no-remorse-decomp/releases/download/v1.36.0/crusader-1.36.0-linux-x64.tar.gz",
-      size: "2.4 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/sebsebseb1982/crusader-no-remorse-decomp/releases/download/v1.36.0/crusader-1.36.0-portmaster-aarch64.zip",
-      size: "5.9 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/sebsebseb1982/crusader-no-remorse-decomp/releases/download/v1.36.0/crusader-1.36.0-windows-x64.zip",
       size: "2.2 MB",

@@ -31,14 +31,14 @@ export const residentEvilUmbrellaChroniclesPc: Port = {
     "Recompilación estática del shooter sobre raíles de Wii para Windows, Linux y Steam Deck. La versión 0.1.1 es una build temprana con FPS desbloqueados, ultrapanorámico, puntería con ratón, mando, pistola de luz y Wii Remote, DLSS y FSR 3.1 con generación de fotogramas, sombras trazadas, HDR, mods y cooperativo online. Requiere tu propia imagen de disco NTSC-U (ID RBUE08) en formato ISO, WBFS, CISO, WDF o WIA; los archivos RVZ deben convertirse antes en Dolphin. Las versiones PAL y japonesa no son compatibles. No incluye archivos del juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/solleo95/reuc-recomp/releases/download/0.3.0/UC-Linux-0.3.0.zip",
-      size: "34.6 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/solleo95/reuc-recomp/releases/download/0.3.0/UC-Windows-0.3.0.zip",
       size: "134.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/solleo95/reuc-recomp/releases/download/0.3.0/UC-Linux-0.3.0.zip",
+      size: "34.6 MB",
     },
   ],
   cover: {

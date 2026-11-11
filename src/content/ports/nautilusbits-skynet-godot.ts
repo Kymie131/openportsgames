@@ -26,19 +26,9 @@ export const nautilusbitsSkynetGodot: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/nautilusbits/skynet-godot/releases/download/v0.5.0/SkyNET.apk",
-      size: "83.6 MB",
-    },
-    {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/nautilusbits/skynet-godot/releases/download/v0.5.0/SkyNET.exe",
       size: "105.4 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/nautilusbits/skynet-godot/releases/download/v0.5.0/SkyNET.zip",
-      size: "59.0 MB",
     },
   ],
   cover: {

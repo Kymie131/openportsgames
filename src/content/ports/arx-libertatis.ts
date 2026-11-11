@@ -39,24 +39,19 @@ export const arxLibertatis: Port = {
     "Port de código fuente multiplataforma del RPG en primera persona Arx Fatalis. Puede jugarse gratis usando la demo del juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/arx/ArxLibertatis/releases/download/1.2.1/arx-libertatis-1.2.1-linux.tar.xz",
-      size: "5.6 MB",
-    },
-    {
-      label: "Windows EXE",
-      url: "https://github.com/arx/ArxLibertatis/releases/download/1.2.1/arx-libertatis-1.2.1-windows.exe",
-      size: "9.2 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/arx/ArxLibertatis/releases/download/1.2.1/arx-libertatis-1.2.1-windows.zip",
       size: "11.2 MB",
     },
     {
-      label: "arx-libertatis-1.2.1",
-      url: "https://github.com/arx/ArxLibertatis/releases/download/1.2.1/arx-libertatis-1.2.1.tar.xz",
-      size: "2.4 MB",
+      label: "Windows",
+      url: "https://github.com/arx/ArxLibertatis/releases/download/1.2.1/arx-libertatis-1.2.1-windows.exe",
+      size: "9.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/arx/ArxLibertatis/releases/download/1.2.1/arx-libertatis-1.2.1-linux.tar.xz",
+      size: "5.6 MB",
     },
   ],
   cover: {

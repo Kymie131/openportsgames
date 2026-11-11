@@ -27,24 +27,24 @@ export const aerogaugeRecomp: Port = {
     "Recompilación estática de AeroGauge (N64) con N64Recomp y el renderizador RT64. Requiere tus propios archivos del juego.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/alondero/aerogauge-recomp/releases/download/v0.7.0/aerogauge-recomp-android-arm64.apk",
-      size: "7.3 MB",
+      label: "Windows",
+      url: "https://github.com/alondero/aerogauge-recomp/releases/download/v0.7.0/aerogauge-recomp-windows-x64.zip",
+      size: "26.5 MB",
     },
     {
-      label: "Linux",
-      url: "https://github.com/alondero/aerogauge-recomp/releases/download/v0.7.0/aerogauge-recomp-linux-arm64.zip",
-      size: "13.8 MB",
-    },
-    {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/alondero/aerogauge-recomp/releases/download/v0.7.0/aerogauge-recomp-linux-x64.zip",
       size: "14.7 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/alondero/aerogauge-recomp/releases/download/v0.7.0/aerogauge-recomp-windows-x64.zip",
-      size: "26.5 MB",
+      label: "Linux arm64",
+      url: "https://github.com/alondero/aerogauge-recomp/releases/download/v0.7.0/aerogauge-recomp-linux-arm64.zip",
+      size: "13.8 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/alondero/aerogauge-recomp/releases/download/v0.7.0/aerogauge-recomp-android-arm64.apk",
+      size: "7.3 MB",
     },
   ],
   cover: {

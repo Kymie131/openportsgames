@@ -52,10 +52,9 @@ export const lostOdysseySteprantAndroid: Port = {
   ],
   "downloads": [
     {
-      "label": "Android APK",
+      "label": "Android",
       "url": "https://github.com/Steprant/LostOdysseyRecomp-Android/releases/download/v1.8-steprant.20261108/LostOdyssey-Steprant-v1.8-20261108.apk",
-      "note": "Android · APK"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/lost-odyssey-steprant-android.jpg",

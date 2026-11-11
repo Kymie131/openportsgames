@@ -51,15 +51,13 @@ export const xenobladeChroniclesDe: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows portable",
+      "label": "Windows",
       "url": "https://github.com/Ivanprestef2/Monado-FIX-Portable/releases/download/v11.0.0/XCDE-Portable-V11.recomendado.zip",
-      "note": "Windows · portable"
     },
     {
-      "label": "Windows compile kit",
+      "label": "Windows",
       "url": "https://github.com/Ivanprestef2/Monado-FIX-Portable/releases/download/v11.0.0/XCDE-Compilar-V11.zip",
-      "note": "Windows · compile kit"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/xenoblade-chronicles-de.png",

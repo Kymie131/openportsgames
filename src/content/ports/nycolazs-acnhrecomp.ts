@@ -27,19 +27,19 @@ export const nycolazsAcnhrecomp: Port = {
     "Animal Crossing: New Horizons es un videojuego de simulación social desarrollado y publicado por Nintendo para Nintendo Switch, cuya fecha de lanzamiento mundial fue el 20 de marzo de 2020. Es la novena entrega de la saga Animal Crossing y la quinta dentro de los videojuegos principales.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Nycolazs/ACNHRecomp/releases/download/v0.8.1/ACNHRecomp-v0.8.1-android.apk",
       size: "22.0 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/Nycolazs/ACNHRecomp/releases/download/v0.8.1/ACNHRecomp-v0.8.1-linux-x64.tar.gz",
-      size: "15.6 MB",
     },
     {
       label: "macOS",
       url: "https://github.com/Nycolazs/ACNHRecomp/releases/download/v0.8.1/ACNHRecomp-v0.8.1-macOS-arm64.zip",
       size: "16.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Nycolazs/ACNHRecomp/releases/download/v0.8.1/ACNHRecomp-v0.8.1-linux-x64.tar.gz",
+      size: "15.6 MB",
     },
     {
       label: "Windows",

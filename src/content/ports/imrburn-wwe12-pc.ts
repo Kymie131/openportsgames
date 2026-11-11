@@ -25,11 +25,6 @@ export const imrburnWwe12Pc: Port = {
   summaryEs: "WWE '12 es un videojuego de lucha libre profesional desarrollado por Yuke's y publicado por THQ para los sistemas PlayStation 3, Wii y Xbox 360. Es el primer juego de la serie WWE, el décimo cuarto en la serie combinada y es la secuela de WWE SmackDown vs. Raw 2011. Fue lanzado el 22 de noviembre de 2011 en América del Norte y el 25 de noviembre en el Reino Unido.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/iMrBurn/wwe12-pc/releases/download/v1.2.0/WWE12-PC-Android-v1.2.0.apk",
-      size: "38.9 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/iMrBurn/wwe12-pc/releases/download/v1.2.0/WWE12-PC-v1.2.0.zip",
       size: "104.6 MB",

@@ -51,15 +51,13 @@ export const hookshot: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows builder",
+      "label": "Windows",
       "url": "https://github.com/NotRexed/Hookshot/releases/download/v2.0.11/HookshotBuilder.exe",
-      "note": "Windows · builder"
     },
     {
-      "label": "Linux AppImage",
+      "label": "Linux",
       "url": "https://github.com/NotRexed/Hookshot/releases/download/v2.0.11/Hookshot-v2.0.11-x86_64.AppImage",
-      "note": "Linux · AppImage"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/hookshot.jpg",

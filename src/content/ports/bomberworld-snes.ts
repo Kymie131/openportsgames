@@ -26,7 +26,7 @@ export const bomberworldSnes: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "bomberworld-94",
+      label: "Snes",
       url: "https://github.com/1r3n33/bomberworld/releases/download/release-94-2020-05-21/bomberworld-94.zip",
       size: "64 KB",
     },

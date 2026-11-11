@@ -22,17 +22,12 @@ export const finalFantasyTacticsAdvanceRecomp: Port = {
   originalSystems: ["Game Boy Advance"],
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/Jorge262007/FFTARecomp/releases/download/3.1/FFTARecomp-android-arm64.apk",
-      size: "15.9 MB",
-    },
-    {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/Jorge262007/FFTARecomp/releases/download/3.1/FFTARecomp-linux-x86_64.tar.gz",
       size: "14.2 MB",
     },
     {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/Jorge262007/FFTARecomp/releases/download/3.1/FFTARecomp-SteamDeck-linux-x86_64.tar.gz",
       size: "14.1 MB",
     },

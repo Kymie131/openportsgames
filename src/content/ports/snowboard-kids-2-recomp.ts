@@ -27,16 +27,6 @@ export const snowboardKids2Recomp: Port = {
     "Recompilación nativa de Snowboard Kids 2 (Nintendo 64). El jugador aporta su propia ROM obtenida legalmente; el repositorio no incluye contenido del juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/cdlewis/snowboardkids2-recomp/releases/download/v2.0.2/SnowboardKids2Recompiled-Linux-ARM64.tar.gz",
-      size: "9.9 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/cdlewis/snowboardkids2-recomp/releases/download/v2.0.2/SnowboardKids2Recompiled-Linux-X64.tar.gz",
-      size: "10.1 MB",
-    },
-    {
       label: "macOS",
       url: "https://github.com/cdlewis/snowboardkids2-recomp/releases/download/v2.0.2/SnowboardKids2Recompiled-macOS.zip",
       size: "20.6 MB",
@@ -45,6 +35,16 @@ export const snowboardKids2Recomp: Port = {
       label: "Windows",
       url: "https://github.com/cdlewis/snowboardkids2-recomp/releases/download/v2.0.2/SnowboardKids2Recompiled-Windows.zip",
       size: "19.1 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/cdlewis/snowboardkids2-recomp/releases/download/v2.0.2/SnowboardKids2Recompiled-Linux-X64.tar.gz",
+      size: "10.1 MB",
+    },
+    {
+      label: "Linux arm64",
+      url: "https://github.com/cdlewis/snowboardkids2-recomp/releases/download/v2.0.2/SnowboardKids2Recompiled-Linux-ARM64.tar.gz",
+      size: "9.9 MB",
     },
   ],
   cover: {

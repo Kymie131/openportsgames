@@ -50,10 +50,9 @@ export const maddenNfl08Recompiled: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows installer",
+      "label": "Windows",
       "url": "https://github.com/anishchandra24/MaddenNFL08-Recompiled/releases/download/v0.1.0/MaddenNFL08-Recompiled-Setup.exe",
-      "note": "Windows · installer"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/madden-nfl-08-recompiled.png",

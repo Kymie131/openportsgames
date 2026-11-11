@@ -25,33 +25,23 @@ export const Ares: Port = {
   downloads: [
     {
       label: "macOS",
-      url: "https://github.com/ares-emulator/ares/releases/download/v148/ares-macos-universal-dSYMs.zip",
-      size: "73.9 MB",
-    },
-    {
-      label: "macOS",
       url: "https://github.com/ares-emulator/ares/releases/download/v148/ares-macos-universal.zip",
       size: "76.2 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/ares-emulator/ares/releases/download/v148/ares-windows-clang-cl-arm64-PDBs.zip",
-      size: "27.3 MB",
+      label: "macOS",
+      url: "https://github.com/ares-emulator/ares/releases/download/v148/ares-macos-universal-dSYMs.zip",
+      size: "73.9 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/ares-emulator/ares/releases/download/v148/ares-windows-clang-cl-arm64.zip",
-      size: "60.1 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/ares-emulator/ares/releases/download/v148/ares-windows-x64-PDBs.zip",
-      size: "8.8 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/ares-emulator/ares/releases/download/v148/ares-windows-x64.zip",
       size: "61.8 MB",
+    },
+    {
+      label: "Windows arm64",
+      url: "https://github.com/ares-emulator/ares/releases/download/v148/ares-windows-clang-cl-arm64.zip",
+      size: "60.1 MB",
     },
   ],
   cover: {

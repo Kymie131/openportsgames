@@ -23,7 +23,7 @@ export const shaolinMonksAndroid: Port = {
   originalSystems: ["Xbox"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/RanggaCasper/ShaolinMonks-Android/releases/download/v1.1.2/ShaolinMonks-1.1.2.apk",
       size: "30.5 MB",
     },

@@ -22,7 +22,7 @@ export const wweSmackdownVsRaw2009Pc: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "SVR2009-NATIVE",
+      label: "Windows",
       url: "https://github.com/nefariousjosiah/WWE-SVR2009-RECOMP/releases/download/v2.2/SVR2009-NATIVE.zip",
       size: "44.9 MB",
     },

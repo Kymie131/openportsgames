@@ -36,17 +36,17 @@ export const openTesaArena: Port = {
   ],
   downloads: [
     {
+      label: "Linux x64",
+      url: "https://github.com/afritz1/OpenTESArena/releases/download/opentesarena-0.18.0/opentesarena-0.18.0-linux_x86-64.tar.gz",
+      size: "71.0 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/afritz1/OpenTESArena/releases/download/opentesarena-0.18.0/opentesarena-0.18.0-linux_rpi5.tar.gz",
       size: "68.5 MB",
     },
     {
-      label: "Linux",
-      url: "https://github.com/afritz1/OpenTESArena/releases/download/opentesarena-0.18.0/opentesarena-0.18.0-linux_x86-64.tar.gz",
-      size: "71.0 MB",
-    },
-    {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/afritz1/OpenTESArena/releases/download/opentesarena-0.18.0/opentesarena-0.18.0-macos_arm64.dmg",
       size: "8.9 MB",
     },

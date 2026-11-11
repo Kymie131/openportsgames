@@ -30,17 +30,12 @@ export const Xoreos: Port = {
       size: "16.6 MB",
     },
     {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/xoreos/xoreos/releases/download/v0.0.6/xoreos-0.0.6-linux64.tar.gz",
       size: "16.5 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/xoreos/xoreos/releases/download/v0.0.6/xoreos-0.0.6-mac64.tar.gz",
-      size: "31.0 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x86",
       url: "https://github.com/xoreos/xoreos/releases/download/v0.0.6/xoreos-0.0.6-win32.zip",
       size: "9.1 MB",
     },
@@ -48,11 +43,6 @@ export const Xoreos: Port = {
       label: "Windows",
       url: "https://github.com/xoreos/xoreos/releases/download/v0.0.6/xoreos-0.0.6-win64.zip",
       size: "8.5 MB",
-    },
-    {
-      label: "xoreos-0.0.6",
-      url: "https://github.com/xoreos/xoreos/releases/download/v0.0.6/xoreos-0.0.6.tar.gz",
-      size: "4.2 MB",
     },
   ],
   cover: {

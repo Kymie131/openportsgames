@@ -26,29 +26,14 @@ export const tetrisGbRecomp: Port = {
   notesEs: "Entrada comunitaria de PortsDR. No hay repositorio público; el juego no se incluye.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/etroimcasso/Kirpich/releases/download/v0.10.2/Kirpich-linux-arm64.zip",
-      size: "2.2 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/etroimcasso/Kirpich/releases/download/v0.10.2/Kirpich-linux-x64.zip",
-      size: "2.4 MB",
-    },
-    {
-      label: "macOS DMG",
-      url: "https://github.com/etroimcasso/Kirpich/releases/download/v0.10.2/Kirpich-macOS-arm64.dmg",
-      size: "2.0 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/etroimcasso/Kirpich/releases/download/v0.10.2/Kirpich-windows-arm64.zip",
-      size: "1.7 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/etroimcasso/Kirpich/releases/download/v0.10.2/Kirpich-windows-x64.zip",
       size: "1.8 MB",
+    },
+    {
+      label: "Windows arm64",
+      url: "https://github.com/etroimcasso/Kirpich/releases/download/v0.10.2/Kirpich-windows-arm64.zip",
+      size: "1.7 MB",
     },
   ],
   cover: {

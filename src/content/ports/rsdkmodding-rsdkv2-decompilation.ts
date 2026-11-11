@@ -26,12 +26,12 @@ export const rsdkmoddingRsdkv2Decompilation: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/RSDKModding/RSDKv2-Decompilation/releases/download/v1.0.2/win_x64.zip",
       size: "779 KB",
     },
     {
-      label: "Windows",
+      label: "Windows x86",
       url: "https://github.com/RSDKModding/RSDKv2-Decompilation/releases/download/v1.0.2/win_x86.zip",
       size: "670 KB",
     },

@@ -27,19 +27,19 @@ export const verdite2: Port = {
     "Recompilación nativa de King's Field (PlayStation). El jugador aporta su propio material obtenido legalmente (imagen de disco); el repositorio no incluye contenido del juego.",
   downloads: [
     {
-      label: "Windows EXE",
-      url: "https://github.com/Voicedrew11/verdite2/releases/download/v0.5.2/Verdite2-0.5.2-win-x64-setup.exe",
-      size: "34.0 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/Voicedrew11/verdite2/releases/download/v0.5.2/Verdite2-0.5.2-win-x64.zip",
       size: "46.4 MB",
     },
     {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/Voicedrew11/verdite2/releases/download/v0.5.2/Verdite2-0.5.2-x86_64.AppImage",
       size: "41.7 MB",
+    },
+    {
+      label: "Windows x64",
+      url: "https://github.com/Voicedrew11/verdite2/releases/download/v0.5.2/Verdite2-0.5.2-win-x64-setup.exe",
+      size: "34.0 MB",
     },
   ],
   cover: {

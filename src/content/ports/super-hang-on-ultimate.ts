@@ -52,15 +52,13 @@ export const superHangOnUltimate: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows installer",
+      "label": "Windows",
       "url": "https://github.com/chaotix359/Super-Hang-On-Ultimate/releases/download/v0.9.32/SuperHangOnUltimate-Windows-Installer-0.9.32.exe",
-      "note": "Windows · installer"
     },
     {
-      "label": "macOS installer",
+      "label": "macOS",
       "url": "https://github.com/chaotix359/Super-Hang-On-Ultimate/releases/download/v0.9.32/SuperHangOnUltimate-Mac-Installer-0.9.32.zip",
-      "note": "macOS · installer"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/super-hang-on-ultimate.png",

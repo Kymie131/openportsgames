@@ -27,7 +27,7 @@ export const hollowKnightAndroid: Port = {
     "Port no oficial para Android de Hollow Knight con soporte de doble pantalla, pensado para consolas portátiles. Necesita el propio juego.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/igawa6/dualsouls/releases/download/1.0.3/dualsouls-v1.0.3-thor-arm64.apk",
       size: "34.3 MB",
     },

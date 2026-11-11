@@ -50,10 +50,9 @@ export const ocarinaOfTimeRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows setup",
+      "label": "Windows",
       "url": "https://github.com/sostenesfreitas/ocarina-recomp/releases/download/v0.3.3/Ocarina-Setup-0.3.3-windows.zip",
-      "note": "Windows · setup"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/ocarina-of-time-recomp.jpg",

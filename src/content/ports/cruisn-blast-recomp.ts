@@ -52,15 +52,13 @@ export const cruisnBlastRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/darkuni/cruisn-blast-recomp/releases/download/v1.2/CruisnBlast-windows.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/darkuni/cruisn-blast-recomp/releases/download/v1.2/CruisnBlast-linux.tar.xz",
-      "note": "Linux · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/cruisn-blast-recomp.jpg",

@@ -27,11 +27,6 @@ export const overkilllabs3DriveclubRecomp: Port = {
       url: "https://github.com/OverkillLabs3/driveclub-recomp/releases/download/v0.4.2/driveclub-recomp-0.4.2-win64.zip",
       size: "159.4 MB",
     },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/OverkillLabs3/driveclub-recomp/releases/download/v0.4.2/driveclub-recomp-0.4.2-x86_64.AppImage",
-      size: "13.9 MB",
-    },
   ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6f/Driveclub_box_art.jpg",

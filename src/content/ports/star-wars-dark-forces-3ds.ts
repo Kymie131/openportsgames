@@ -22,7 +22,7 @@ export const starWarsDarkForces3ds: Port = {
   originalSystems: ["MS-DOS"],
   downloads: [
     {
-      label: "DF3DS-v1.0.0-3DS",
+      label: "3ds",
       url: "https://github.com/benny04131985-lab/DarkForces3DS/releases/download/v1.0.0/DF3DS-v1.0.0-3DS.zip",
       size: "1.6 MB",
     },

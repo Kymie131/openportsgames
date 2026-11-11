@@ -51,10 +51,9 @@ export const eaSportsUfc4Pc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/schans-arg/UFC4-PC-Port/releases/download/ufc4-v0.0.11-preview.1/UFC4Native-ufc4-v0.0.11-preview.1-windows-x86_64.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/boxart/ea-sports-ufc-4-pc.jpg",

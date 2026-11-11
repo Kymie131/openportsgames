@@ -22,19 +22,19 @@ export const BossRally: Port = {
   originalSystems: ["Nintendo 64"],
   downloads: [
     {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/jeff-strutb/brally/releases/download/v0.991/RallyBuilder-0.991-Linux-x86_64.AppImage",
       size: "18.3 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/jeff-strutb/brally/releases/download/v0.991/RallyBuilder-0.991-macOS.zip",
-      size: "10.7 MB",
     },
     {
       label: "Windows",
       url: "https://github.com/jeff-strutb/brally/releases/download/v0.991/RallyBuilder-0.991-Windows.zip",
       size: "14.6 MB",
+    },
+    {
+      label: "macOS",
+      url: "https://github.com/jeff-strutb/brally/releases/download/v0.991/RallyBuilder-0.991-macOS.zip",
+      size: "10.7 MB",
     },
   ],
   cover: {

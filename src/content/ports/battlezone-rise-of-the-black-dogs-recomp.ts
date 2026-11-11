@@ -28,14 +28,14 @@ export const battlezoneRiseOfTheBlackDogsRecomp: Port = {
     "Recompilación nativa de Battlezone: Rise of the Black Dogs (Nintendo 64) con N64Recomp y RT64, publicada como beta para Windows y Linux. Necesita el volcado del juego obtenido legalmente por el jugador y no incluye datos del juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/wootbeer/bzrecomp/releases/download/v0.1.2-beta/BattlezoneRecompiled-0.1.2-beta-linux.tar.gz",
-      size: "12.0 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/wootbeer/bzrecomp/releases/download/v0.1.2-beta/BattlezoneRecompiled-0.1.2-beta-windows.zip",
       size: "16.0 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/wootbeer/bzrecomp/releases/download/v0.1.2-beta/BattlezoneRecompiled-0.1.2-beta-linux.tar.gz",
+      size: "12.0 MB",
     },
   ],
   cover: {

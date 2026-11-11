@@ -27,7 +27,7 @@ export const cod4Ios: Port = {
     "Port comunitario de Call of Duty 4: Modern Warfare para iOS, con una build adicional para Nintendo Switch. Necesita el juego original.",
   downloads: [
     {
-      label: "iOS IPA",
+      label: "iOS",
       url: "https://github.com/DevZer0D4Y/ReCoD4/releases/download/R5_FINAL/COD4iOS-1.0.4-build13-performance_stats_enabled-unsigned.ipa",
       size: "9.2 MB",
     },

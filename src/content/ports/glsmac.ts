@@ -30,14 +30,9 @@ export const Glsmac: Port = {
       size: "3.7 MB",
     },
     {
-      label: "glsmac-win64-v0.3-db4dbc9",
+      label: "macOS",
       url: "https://github.com/afwbkbc/glsmac/releases/download/v0.3-db4dbc9/glsmac-win64-v0.3-db4dbc9.zip",
       size: "3.5 MB",
-    },
-    {
-      label: "scanbuild-report-No-bugs",
-      url: "https://github.com/afwbkbc/glsmac/releases/download/v0.3-db4dbc9/scanbuild-report-No-bugs.zip",
-      size: "3 KB",
     },
   ],
   cover: {

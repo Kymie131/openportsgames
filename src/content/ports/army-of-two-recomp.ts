@@ -27,11 +27,6 @@ export const armyOfTwoRecomp: Port = {
     "Recompilación estática de Army of Two (Xbox 360) con el SDK ReXGlue a Windows y Linux nativos. Ofrece salida Vulkan o Direct3D 12 y una opción de 60 FPS, y requiere tus propios datos del juego.",
   downloads: [
     {
-      label: "Ao2-lin64",
-      url: "https://github.com/nikolaygorb/ArmyOfTwoRecomp/releases/download/1.5/Ao2-lin64.zip",
-      size: "87.0 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/nikolaygorb/ArmyOfTwoRecomp/releases/download/1.5/Ao2-win64.zip",
       size: "37.8 MB",

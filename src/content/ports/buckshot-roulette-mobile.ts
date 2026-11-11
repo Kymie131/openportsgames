@@ -27,14 +27,14 @@ export const buckshotRouletteMobile: Port = {
     "Port móvil de Buckshot Roulette para Android e iOS. Necesita tus propios datos del juego y es un proyecto comunitario.",
   downloads: [
     {
-      label: "iOS IPA",
-      url: "https://github.com/officialmelon/Buckshot-Roulette-Mobile/releases/download/v1.0.0/Buckshot-iOS-cb875a113b6b9a6c685a813f5cba865165f4dfca.ipa",
-      size: "250.1 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/officialmelon/Buckshot-Roulette-Mobile/releases/download/v1.0.0/Buckshot-Android-cb875a113b6b9a6c685a813f5cba865165f4dfca.apk",
       size: "350.3 MB",
+    },
+    {
+      label: "iOS",
+      url: "https://github.com/officialmelon/Buckshot-Roulette-Mobile/releases/download/v1.0.0/Buckshot-iOS-cb875a113b6b9a6c685a813f5cba865165f4dfca.ipa",
+      size: "250.1 MB",
     },
   ],
   cover: {

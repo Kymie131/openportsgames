@@ -25,7 +25,7 @@ export const Thinker: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Thinker_v5.5",
+      label: "Windows",
       url: "https://github.com/induktio/thinker/releases/download/v5.5/Thinker_v5.5.zip",
       size: "738 KB",
     },

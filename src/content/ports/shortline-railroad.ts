@@ -24,11 +24,6 @@ export const ShortlineRailroad: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/konovalov-aleks/reSL/releases/download/release-1.1.3/resl-1.1.3-android.apk",
-      size: "6.9 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/konovalov-aleks/reSL/releases/download/release-1.1.3/resl-1.1.3-windows.zip",
       size: "863 KB",

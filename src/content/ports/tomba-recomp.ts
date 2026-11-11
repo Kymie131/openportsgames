@@ -27,24 +27,24 @@ export const tombaRecomp: Port = {
     "Recompilación estática de Tomba! (USA, SCUS-94236) con PSXRecomp. Incluye el mod Seamless Loading, que cambia rutinas de carga de recursos por equivalentes nativos.",
   downloads: [
     {
-      label: "Windows",
-      url: "https://github.com/mstan/TombaRecomp/releases/download/v0.23.0-alpha/TombaRecomp-v0.23.0-alpha-Japan-SLPS01144-windows-x64.zip",
-      size: "64.2 MB",
+      label: "Windows x64",
+      url: "https://github.com/mstan/TombaRecomp/releases/download/v0.23.0-alpha/TombiRecomp-v0.23.0-alpha-Europe-SCES01331-Rev1-windows-x64.zip",
+      size: "78.6 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/mstan/TombaRecomp/releases/download/v0.23.0-alpha/TombaRecomp-v0.23.0-alpha-USA-windows-x64.zip",
-      size: "62.3 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/mstan/TombaRecomp/releases/download/v0.23.0-alpha/TombiRecomp-v0.23.0-alpha-Europe-SCES01330-Rev1-windows-x64.zip",
       size: "77.8 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/mstan/TombaRecomp/releases/download/v0.23.0-alpha/TombiRecomp-v0.23.0-alpha-Europe-SCES01331-Rev1-windows-x64.zip",
-      size: "78.6 MB",
+      label: "Windows x64",
+      url: "https://github.com/mstan/TombaRecomp/releases/download/v0.23.0-alpha/TombaRecomp-v0.23.0-alpha-Japan-SLPS01144-windows-x64.zip",
+      size: "64.2 MB",
+    },
+    {
+      label: "Windows x64",
+      url: "https://github.com/mstan/TombaRecomp/releases/download/v0.23.0-alpha/TombaRecomp-v0.23.0-alpha-USA-windows-x64.zip",
+      size: "62.3 MB",
     },
   ],
   cover: {

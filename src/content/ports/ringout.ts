@@ -27,24 +27,19 @@ export const ringOut: Port = {
     "Recompilación estática de SoulCalibur II a una app nativa. El jugador aporta su propia imagen de disco obtenida legalmente; el repositorio no incluye contenido del juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/jackpoison-prog/RingOut/releases/download/v1.7/RingOut-1.7-linux-x86_64.zip",
-      size: "66.5 MB",
+      label: "Windows x64",
+      url: "https://github.com/jackpoison-prog/RingOut/releases/download/v1.7/RingOut-1.7-windows-x64.zip",
+      size: "231.0 MB",
     },
     {
-      label: "RingOut-1.7-steamdeck-x86_64",
-      url: "https://github.com/jackpoison-prog/RingOut/releases/download/v1.7/RingOut-1.7-steamdeck-x86_64.zip",
-      size: "20.0 MB",
-    },
-    {
-      label: "Windows EXE",
+      label: "Windows x64",
       url: "https://github.com/jackpoison-prog/RingOut/releases/download/v1.7/RingOut-1.7-windows-x64-setup.exe",
       size: "144.8 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/jackpoison-prog/RingOut/releases/download/v1.7/RingOut-1.7-windows-x64.zip",
-      size: "231.0 MB",
+      label: "Linux",
+      url: "https://github.com/jackpoison-prog/RingOut/releases/download/v1.7/RingOut-1.7-linux-x86_64.zip",
+      size: "66.5 MB",
     },
   ],
   cover: {

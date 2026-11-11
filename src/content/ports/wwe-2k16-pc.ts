@@ -51,10 +51,9 @@ export const wwe2k16Pc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x86_64",
+      "label": "Windows",
       "url": "https://github.com/itsbybanshee/wwe2k16-pc/releases/download/v1.1.0/WWE2K16-PC-v1.1.0.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/generated/wwe-2k16-pc.svg",

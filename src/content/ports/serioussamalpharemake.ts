@@ -25,34 +25,34 @@ export const Serioussamalpharemake: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "SeriousSamAlphaRemake-1.5.3-alpine-x86-bin",
-      url: "https://github.com/tx00100xt/SeriousSamAlphaRemake/releases/download/v1.5.3/SeriousSamAlphaRemake-1.5.3-alpine-x86-bin.tar.xz",
-      size: "862 KB",
+      label: "Windows x86",
+      url: "https://github.com/tx00100xt/SeriousSamAlphaRemake/releases/download/v1.5.3/SeriousSamAlphaRemake-1.5.3-lnx-glibc-2.24-i386-bin.tar.xz",
+      size: "975 KB",
     },
     {
-      label: "SeriousSamAlphaRemake-1.5.3-alpne-x86_64-bin",
-      url: "https://github.com/tx00100xt/SeriousSamAlphaRemake/releases/download/v1.5.3/SeriousSamAlphaRemake-1.5.3-alpne-x86_64-bin.tar.xz",
-      size: "838 KB",
-    },
-    {
-      label: "SeriousSamAlphaRemake-1.5.3-bsd-amd64-bin",
-      url: "https://github.com/tx00100xt/SeriousSamAlphaRemake/releases/download/v1.5.3/SeriousSamAlphaRemake-1.5.3-bsd-amd64-bin.tar.xz",
-      size: "781 KB",
-    },
-    {
-      label: "SeriousSamAlphaRemake-1.5.3-lnx-amd64-bin",
-      url: "https://github.com/tx00100xt/SeriousSamAlphaRemake/releases/download/v1.5.3/SeriousSamAlphaRemake-1.5.3-lnx-amd64-bin.tar.xz",
-      size: "845 KB",
-    },
-    {
-      label: "SeriousSamAlphaRemake-1.5.3-lnx-glibc-2.24-amd64-bin",
+      label: "Windows x64",
       url: "https://github.com/tx00100xt/SeriousSamAlphaRemake/releases/download/v1.5.3/SeriousSamAlphaRemake-1.5.3-lnx-glibc-2.24-amd64-bin.tar.xz",
       size: "946 KB",
     },
     {
-      label: "SeriousSamAlphaRemake-1.5.3-lnx-glibc-2.24-i386-bin",
-      url: "https://github.com/tx00100xt/SeriousSamAlphaRemake/releases/download/v1.5.3/SeriousSamAlphaRemake-1.5.3-lnx-glibc-2.24-i386-bin.tar.xz",
-      size: "975 KB",
+      label: "Windows x86",
+      url: "https://github.com/tx00100xt/SeriousSamAlphaRemake/releases/download/v1.5.3/SeriousSamAlphaRemake-1.5.3-alpine-x86-bin.tar.xz",
+      size: "862 KB",
+    },
+    {
+      label: "Windows x64",
+      url: "https://github.com/tx00100xt/SeriousSamAlphaRemake/releases/download/v1.5.3/SeriousSamAlphaRemake-1.5.3-lnx-amd64-bin.tar.xz",
+      size: "845 KB",
+    },
+    {
+      label: "Windows x64",
+      url: "https://github.com/tx00100xt/SeriousSamAlphaRemake/releases/download/v1.5.3/SeriousSamAlphaRemake-1.5.3-alpne-x86_64-bin.tar.xz",
+      size: "838 KB",
+    },
+    {
+      label: "Windows x64",
+      url: "https://github.com/tx00100xt/SeriousSamAlphaRemake/releases/download/v1.5.3/SeriousSamAlphaRemake-1.5.3-bsd-amd64-bin.tar.xz",
+      size: "781 KB",
     },
   ],
   cover: {

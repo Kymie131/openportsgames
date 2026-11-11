@@ -23,6 +23,11 @@ export const linksAwakeningDxPortable: Port = {
   related: ["links-awakening-recomp"],
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/sp00nznet/linksawakening-portable/releases/download/v0.2.0/LinksAwakening-Consoles-Installer-windows-x64.exe",
+      size: "18.3 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/sp00nznet/linksawakening-portable/releases/download/v0.2.0/LinksAwakening-Consoles-Installer-linux-x64.tar.gz",
       size: "9.2 MB",
@@ -31,11 +36,6 @@ export const linksAwakeningDxPortable: Port = {
       label: "macOS",
       url: "https://github.com/sp00nznet/linksawakening-portable/releases/download/v0.2.0/LinksAwakening-Consoles-Installer-macos-arm64.zip",
       size: "9.1 MB",
-    },
-    {
-      label: "Windows EXE",
-      url: "https://github.com/sp00nznet/linksawakening-portable/releases/download/v0.2.0/LinksAwakening-Consoles-Installer-windows-x64.exe",
-      size: "18.3 MB",
     },
   ],
   cover: {

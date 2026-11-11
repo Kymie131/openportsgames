@@ -22,12 +22,12 @@ export const slaytheamethyst: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/ModinMobileSTS/SlayTheAmethystModded/releases/download/v1.6.5/SlayTheAmethyst-release-1.6.5-full.apk",
       size: "98.1 MB",
     },
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/ModinMobileSTS/SlayTheAmethystModded/releases/download/v1.6.5/SlayTheAmethyst-release-1.6.5.apk",
       size: "25.9 MB",
     },

@@ -27,11 +27,6 @@ export const gamearcadeSwitch: Port = {
   downloads: [
     {
       label: "Switch",
-      url: "https://github.com/Sblerky/GameArcade/releases/download/1.0.0/ExtractToSd.zip",
-      size: "12.4 MB",
-    },
-    {
-      label: "Switch NRO",
       url: "https://github.com/Sblerky/GameArcade/releases/download/1.0.0/SblerkyArcade.nro",
       size: "17.9 MB",
     },

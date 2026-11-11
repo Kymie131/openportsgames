@@ -28,11 +28,6 @@ export const dragonSCrownProPc: Port = {
       url: "https://github.com/saulob/dragons-crown-pro-pc/releases/download/v1.1.1/DragonsCrownProPC-v1.1.1-windows-x64.zip",
       size: "31.9 MB",
     },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/saulob/dragons-crown-pro-pc/releases/download/v1.1.1/DragonsCrownProPC-v1.1.1-x86_64.AppImage",
-      size: "27.3 MB",
-    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/generated/dragon-s-crown-pro.svg",

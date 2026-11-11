@@ -50,10 +50,9 @@ export const castlevaniaGrimoireOfSoulsRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/BLSNCVS/Castlevania-Grimoire-of-Souls-Recomp/releases/download/1.0.7/GoSRecomp-1.0.7.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/castlevania-grimoire-of-souls-recomp.png",

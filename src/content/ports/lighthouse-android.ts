@@ -22,7 +22,7 @@ export const lighthouseAndroid: Port = {
   originalSystems: ["Nintendo 64"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/izzy2lost/Lighthouse/releases/download/1.0.2/app-release.apk",
       size: "30.9 MB",
     },

@@ -23,16 +23,6 @@ export const harvestwhispererHm64Decomp: Port = {
   originalSystems: ["Nintendo 64"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/harvestwhisperer/hm64-decomp/releases/download/sprite-editor-v0.1.0/sprite-editor-linux-x64.tar.gz",
-      size: "9.4 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/harvestwhisperer/hm64-decomp/releases/download/sprite-editor-v0.1.0/sprite-editor-macos-universal.zip",
-      size: "12.6 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/harvestwhisperer/hm64-decomp/releases/download/sprite-editor-v0.1.0/sprite-editor-windows-x64.zip",
       size: "6.9 MB",

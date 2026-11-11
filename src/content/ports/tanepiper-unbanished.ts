@@ -30,12 +30,7 @@ export const tanepiperUnbanished: Port = {
       size: "10.3 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/tanepiper/unbanished/releases/download/v0.5.0/unbanished-0.5.0-macos-arm64.zip",
-      size: "8.1 MB",
-    },
-    {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/tanepiper/unbanished/releases/download/v0.5.0/unbanished-0.5.0-macos-x64.zip",
       size: "8.6 MB",
     },
@@ -43,6 +38,11 @@ export const tanepiperUnbanished: Port = {
       label: "Windows",
       url: "https://github.com/tanepiper/unbanished/releases/download/v0.5.0/unbanished-0.5.0-windows-x64.zip",
       size: "8.4 MB",
+    },
+    {
+      label: "macOS arm64",
+      url: "https://github.com/tanepiper/unbanished/releases/download/v0.5.0/unbanished-0.5.0-macos-arm64.zip",
+      size: "8.1 MB",
     },
   ],
   cover: {

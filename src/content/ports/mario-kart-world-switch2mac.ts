@@ -42,14 +42,14 @@ export const marioKartWorldSwitch2mac: Port = {
   },
   downloads: [
     {
-      label: "switch2mac-0.4.5",
-      url: "https://github.com/azmasm/switch2mac/releases/download/v0.4.5/switch2mac-0.4.5.pkg",
-      size: "37.8 MB",
-    },
-    {
-      label: "switch2mac-macOS-arm64",
+      label: "Switch arm64",
       url: "https://github.com/azmasm/switch2mac/releases/download/v0.4.5/switch2mac-macOS-arm64.zip",
       size: "39.3 MB",
+    },
+    {
+      label: "Switch",
+      url: "https://github.com/azmasm/switch2mac/releases/download/v0.4.5/switch2mac-0.4.5.pkg",
+      size: "37.8 MB",
     },
   ],
   cover: {

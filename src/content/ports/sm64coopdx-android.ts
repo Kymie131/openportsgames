@@ -22,7 +22,7 @@ export const sm64coopdxAndroid: Port = {
   originalSystems: ["Nintendo 64"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/ManIsCat2/sm64coopdx/releases/download/Av1.5.1/sm64coopdx.apk",
       size: "148.0 MB",
     },

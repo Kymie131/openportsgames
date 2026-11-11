@@ -22,27 +22,17 @@ export const Simutrans: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "makeobj-arm-nightly",
-      url: "https://github.com/simutrans/simutrans/releases/download/Nightly/makeobj-arm-nightly.zip",
-      size: "95 KB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/simutrans/simutrans/releases/download/Nightly/makeobj-win-nightly.zip",
       size: "377 KB",
     },
     {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/simutrans/simutrans/releases/download/Nightly/makeobj_linux-x64-nightly.zip",
       size: "129 KB",
     },
     {
-      label: "Android APK",
-      url: "https://github.com/simutrans/simutrans/releases/download/Nightly/simuandroid-nightly.apk",
-      size: "77.7 MB",
-    },
-    {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/simutrans/simutrans/releases/download/Nightly/simulinux-x64-nightly.zip",
       size: "17.9 MB",
     },

@@ -27,24 +27,24 @@ export const mdkRecomp: Port = {
     "Recompilación de MDK (PS1, Europe SLES-00599) con PSXRecomp. Las releases son kits de compilación propia: aportas tu disco y una BIOS compatible, y el juego se genera y compila en tu equipo. Es la recompilación base del framework, sin mejoras por juego.",
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/alexbeavs-ps1-ports/mdk-recomp/releases/download/v0.1.4/mdk-recomp-0.1.4-windows-x64.zip",
+      size: "28.5 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/alexbeavs-ps1-ports/mdk-recomp/releases/download/v0.1.4/mdk-recomp-0.1.4-linux-x64.zip",
       size: "26.5 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/alexbeavs-ps1-ports/mdk-recomp/releases/download/v0.1.4/mdk-recomp-0.1.4-macos-arm64.zip",
-      size: "24.4 MB",
-    },
-    {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/alexbeavs-ps1-ports/mdk-recomp/releases/download/v0.1.4/mdk-recomp-0.1.4-macos-x64.zip",
       size: "24.7 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/alexbeavs-ps1-ports/mdk-recomp/releases/download/v0.1.4/mdk-recomp-0.1.4-windows-x64.zip",
-      size: "28.5 MB",
+      label: "macOS arm64",
+      url: "https://github.com/alexbeavs-ps1-ports/mdk-recomp/releases/download/v0.1.4/mdk-recomp-0.1.4-macos-arm64.zip",
+      size: "24.4 MB",
     },
   ],
   cover: {

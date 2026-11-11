@@ -23,7 +23,7 @@ export const raccoonrecompResidenteviloutbreakrecompiled: Port = {
   originalSystems: ["PlayStation 2"],
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/RaccoonRecomp/ResidentEvilOutbreakRecompiled/releases/download/v1.5.1/ResidentEvilOutbreakRecompiled-1.5.1-Setup.exe",
       size: "232.7 MB",
     },

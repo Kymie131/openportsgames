@@ -26,21 +26,6 @@ export const tekken3Expanded: Port = {
       url: "https://github.com/omarma/tekken3-expanded/releases/download/v1.5.0/Tekken3Expanded-1.5.0-Android.zip",
       size: "74.6 MB",
     },
-    {
-      label: "Linux",
-      url: "https://github.com/omarma/tekken3-expanded/releases/download/v1.5.0/Tekken3Expanded-1.5.0-Linux.zip",
-      size: "74.5 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/omarma/tekken3-expanded/releases/download/v1.5.0/Tekken3Expanded-1.5.0-macOS.zip",
-      size: "74.5 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/omarma/tekken3-expanded/releases/download/v1.5.0/Tekken3Expanded-1.5.0-Windows.zip",
-      size: "74.7 MB",
-    },
   ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/7d/Tekken_3_flyer.jpg",

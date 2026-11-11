@@ -52,10 +52,9 @@ export const portal2Recomp: Port = {
   ],
   "downloads": [
     {
-      "label": "macOS installer",
+      "label": "Macos",
       "url": "https://github.com/kanapitsas/portal2-recomp/releases/download/v0.3.1/Natif-Installer-v0.3.1.zip",
-      "note": "macOS · installer"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/portal2-recomp.jpg",

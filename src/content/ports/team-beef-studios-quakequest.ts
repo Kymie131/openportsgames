@@ -27,7 +27,7 @@ export const teamBeefStudiosQuakequest: Port = {
   notesEs: "Quake: source port de Team-Beef-Studios para Windows. Aporta tu propia copia del juego.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Team-Beef-Studios/QuakeQuest/releases/download/v1.6.0/quakequest-v1.6.0.apk",
       size: "11.0 MB",
     },

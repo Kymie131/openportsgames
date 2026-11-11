@@ -52,15 +52,13 @@ export const digDugNative: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/TekRantGaming/digdug-native/releases/download/v1.1.0/DigDug-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x86_64",
+      "label": "Linux",
       "url": "https://github.com/TekRantGaming/digdug-native/releases/download/v1.1.0/DigDug-x86_64.AppImage",
-      "note": "Linux · AppImage"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/generated/dig-dug-native.svg",

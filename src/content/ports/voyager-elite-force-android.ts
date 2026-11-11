@@ -27,7 +27,7 @@ export const voyagerEliteForceAndroid: Port = {
     "Port a Android para un jugador de Star Trek: Voyager - Elite Force, construido sobre idTech3/Quake3e con renderizador Vulkan. Necesita los archivos del juego original.",
   downloads: [
     {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/imjustadudegamer/VoyagerSP-Android/releases/download/v1.2.0-linux/VoyagerSP-1.2.0-x86_64.AppImage",
       size: "3.8 MB",
     },

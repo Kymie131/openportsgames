@@ -51,10 +51,9 @@ export const legendOfSpyroNewBeginningPc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows installer",
+      "label": "Windows",
       "url": "https://github.com/Starkka15/spyro-anb-pc/releases/download/v1.0.1/SpyroANB-PC-1.0.1-Setup.exe",
-      "note": "Windows · installer"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/legend-of-spyro-new-beginning-pc.png",

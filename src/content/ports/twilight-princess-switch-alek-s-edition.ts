@@ -23,11 +23,6 @@ export const twilightPrincessSwitchAlekSEdition: Port = {
   downloads: [
     {
       label: "Switch",
-      url: "https://github.com/Alexgg1014/The-Legend-of-Zelda-Twilight-Princess-Alek-s-Ultimate-NX-Edition/releases/download/v1.1.3/Alek-Ultimate-NX-v1.1.3.zip",
-      size: "104.9 MB",
-    },
-    {
-      label: "Switch NRO",
       url: "https://github.com/Alexgg1014/The-Legend-of-Zelda-Twilight-Princess-Alek-s-Ultimate-NX-Edition/releases/download/v1.1.3/dusklight.nro",
       size: "170.7 MB",
     },

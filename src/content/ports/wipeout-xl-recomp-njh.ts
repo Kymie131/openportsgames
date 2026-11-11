@@ -23,21 +23,6 @@ export const wipeoutXlRecompNjh: Port = {
   related: ["wipeout-xl-recomp"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/NJH-1001/Wipeout2K97XL/releases/download/v0.2.0/wipeoutxl-0.2.0-linux-x64.zip",
-      size: "43.9 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/NJH-1001/Wipeout2K97XL/releases/download/v0.2.0/wipeoutxl-0.2.0-macos-arm64.zip",
-      size: "21.2 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/NJH-1001/Wipeout2K97XL/releases/download/v0.2.0/wipeoutxl-0.2.0-macos-x64.zip",
-      size: "21.6 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/NJH-1001/Wipeout2K97XL/releases/download/v0.2.0/wipeoutxl-0.2.0-windows-x64.zip",
       size: "43.3 MB",

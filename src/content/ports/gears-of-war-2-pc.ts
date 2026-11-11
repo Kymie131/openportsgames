@@ -31,7 +31,7 @@ export const gearsOfWar2Pc: Port = {
   notesEs: "Gears of War 2 (Microsoft Game Studios, 2008) en Windows mediante recompilación estática, con 1440p/4K, FSR, paquetes de texturas 4K y teclado/ratón. Última release: v0.4.0. Necesitas tu propia copia del juego.",
   downloads: [
     {
-      label: "Windows x64",
+      label: "Windows",
       url: "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/download/v0.4.0/gow2-recomp-0.4.0-win64.zip",
     },
   ],

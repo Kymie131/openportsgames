@@ -51,10 +51,9 @@ export const superMonkeyBallDeluxeRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows installer",
+      "label": "Windows",
       "url": "https://github.com/timftw21/smbd-recompilation/releases/download/v0.4.0/smbd-0.4.0-windows-x64-setup.exe",
-      "note": "Windows · installer"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/super-monkey-ball-deluxe-recomp.png",

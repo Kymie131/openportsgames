@@ -28,11 +28,6 @@ export const nbaJamOnFireRecomp: Port = {
     "Port nativo para PC de NBA Jam: On Fire Edition (Xbox 360 XBLA). Necesita tu propia copia del juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/GTTeancum/OpenJam/releases/download/v1.1/OpenJam-v1.1-linux-x86_64.tar.gz",
-      size: "24.3 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/GTTeancum/OpenJam/releases/download/v1.1/OpenJam-v1.1-win64.zip",
       size: "55.3 MB",

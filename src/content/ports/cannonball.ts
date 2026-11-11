@@ -27,7 +27,7 @@ export const cannonball: Port = {
     "CannonBall es un motor mejorado de OutRun que ejecuta el juego arcade con 60 FPS, widescreen y pistas nuevas. Necesita la ROM original de OutRun y compila para Windows, Linux y macOS.",
   downloads: [
     {
-      label: "cannonball-v034-w64",
+      label: "Windows",
       url: "https://github.com/djyt/cannonball/releases/download/v0.34/cannonball-v034-w64.zip",
       size: "772 KB",
     },

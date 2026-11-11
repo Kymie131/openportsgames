@@ -29,24 +29,24 @@ export const theLostWorldJurassicParkSpecialEditionRecomp: Port = {
     "Recompilación de The Lost World: Jurassic Park Special Edition (PS1, USA SLUS-00515) con PSXRecomp. Las releases son kits de compilación propia: aportas tu disco y una BIOS compatible, y el juego se genera y compila en tu equipo. Es la recompilación base del framework, sin mejoras por juego.",
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/alexbeavs-ps1-ports/the-lost-world-jurassic-park-special-edition-recomp/releases/download/v0.3.6/The-Lost-World-Jurassic-Park-Special-Edition-Recomp-0.3.6-windows-x64.zip",
+      size: "28.8 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/alexbeavs-ps1-ports/the-lost-world-jurassic-park-special-edition-recomp/releases/download/v0.3.6/The-Lost-World-Jurassic-Park-Special-Edition-Recomp-0.3.6-linux-x64.zip",
       size: "26.7 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/alexbeavs-ps1-ports/the-lost-world-jurassic-park-special-edition-recomp/releases/download/v0.3.6/The-Lost-World-Jurassic-Park-Special-Edition-Recomp-0.3.6-macos-arm64.zip",
-      size: "24.6 MB",
-    },
-    {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/alexbeavs-ps1-ports/the-lost-world-jurassic-park-special-edition-recomp/releases/download/v0.3.6/The-Lost-World-Jurassic-Park-Special-Edition-Recomp-0.3.6-macos-x64.zip",
       size: "24.9 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/alexbeavs-ps1-ports/the-lost-world-jurassic-park-special-edition-recomp/releases/download/v0.3.6/The-Lost-World-Jurassic-Park-Special-Edition-Recomp-0.3.6-windows-x64.zip",
-      size: "28.8 MB",
+      label: "macOS arm64",
+      url: "https://github.com/alexbeavs-ps1-ports/the-lost-world-jurassic-park-special-edition-recomp/releases/download/v0.3.6/The-Lost-World-Jurassic-Park-Special-Edition-Recomp-0.3.6-macos-arm64.zip",
+      size: "24.6 MB",
     },
   ],
   cover: {

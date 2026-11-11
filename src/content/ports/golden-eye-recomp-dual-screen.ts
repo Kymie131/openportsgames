@@ -24,14 +24,9 @@ export const goldenEyeRecompDualScreen: Port = {
   summaryEs: "GoldenEye 007: Reloaded es un videojuego de disparos.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/jeffory/GoldenEye-Recomp/releases/download/v1.7.1/GoldenEye-Recomp-v1.7.1-android-arm64.apk",
       size: "32.8 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/jeffory/GoldenEye-Recomp/releases/download/v1.7.1/GoldenEye-Recomp-v1.7.1-linux-amd64.tar.gz",
-      size: "49.5 MB",
     },
   ],
   cover: {

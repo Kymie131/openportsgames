@@ -28,21 +28,6 @@ export const starWarsJediPowerBattlesRecomp: Port = {
   notesEs: "Indexado en PortsDR. No hay repositorio oficial disponible y necesita tu propia copia.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp/releases/download/v0.1.3/seijpb-0.1.3-linux-x64.zip",
-      size: "50.9 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp/releases/download/v0.1.3/seijpb-0.1.3-macos-arm64.zip",
-      size: "27.2 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp/releases/download/v0.1.3/seijpb-0.1.3-macos-x64.zip",
-      size: "27.9 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp/releases/download/v0.1.3/seijpb-0.1.3-windows-x64.zip",
       size: "29.4 MB",

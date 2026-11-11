@@ -29,21 +29,6 @@ export const dora643: Port = {
       url: "https://github.com/citrongames/Dora64-3/releases/download/v1.0.0/Dora64-3-1.0.0-Android-arm64.zip",
       size: "8.8 MB",
     },
-    {
-      label: "Linux",
-      url: "https://github.com/citrongames/Dora64-3/releases/download/v1.0.0/Dora64-3-1.0.0-Linux-x86_64.tar.gz",
-      size: "5.8 MB",
-    },
-    {
-      label: "Android",
-      url: "https://github.com/citrongames/Dora64-3/releases/download/v1.0.0/Dora64-3-1.0.0-SteamDeck-x86_64.tar.gz",
-      size: "7.1 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/citrongames/Dora64-3/releases/download/v1.0.0/Dora64-3-1.0.0-Windows-x64.zip",
-      size: "16.2 MB",
-    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/generated/doraemon-3-nobita-no-machi-sos.svg",

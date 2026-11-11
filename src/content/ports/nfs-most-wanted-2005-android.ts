@@ -23,14 +23,14 @@ export const nfsMostWanted2005Android: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/codepdbh/nfsmwpc-recompiled/releases/download/v0.1.14/NFSMWPC-AndroidEvolved-v0.1.14-arm64.apk",
-      size: "59.2 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android armv7",
       url: "https://github.com/codepdbh/nfsmwpc-recompiled/releases/download/v0.1.14/NFSMWPC-AndroidEvolved-v0.1.14-armeabi-v7a.apk",
       size: "65.0 MB",
+    },
+    {
+      label: "Android arm64",
+      url: "https://github.com/codepdbh/nfsmwpc-recompiled/releases/download/v0.1.14/NFSMWPC-AndroidEvolved-v0.1.14-arm64.apk",
+      size: "59.2 MB",
     },
   ],
   cover: {

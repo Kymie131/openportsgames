@@ -51,10 +51,9 @@ export const angryBirdsReHatched: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/TekRantGaming/angry-birds-re-hatched-collection/releases/download/v0.1.0/AngryBirdsCollection-v0.1.0-windows-x64.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/boxart/angry-birds-re-hatched.jpg",

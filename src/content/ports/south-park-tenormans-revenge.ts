@@ -31,14 +31,14 @@ export const southParkTenormansRevenge: Port = {
     "Recompilación estática del juego de Xbox Live Arcade para Windows y Linux, con ReXGlue y el lanzador de TRG. Requiere tu propia copia del juego.",
   downloads: [
     {
+      label: "Linux",
+      url: "https://github.com/TekRantGaming/south-park-tenormans-revenge-recompiled/releases/download/v0.1.0/SouthParkTR-v0.1.0-linux-x86_64.AppImage",
+      size: "31.4 MB",
+    },
+    {
       label: "Windows",
       url: "https://github.com/TekRantGaming/south-park-tenormans-revenge-recompiled/releases/download/v0.1.0/SouthParkTR-v0.1.0-windows-x64.zip",
       size: "18.8 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/TekRantGaming/south-park-tenormans-revenge-recompiled/releases/download/v0.1.0/SouthParkTR-v0.1.0-linux-x86_64.AppImage",
-      size: "31.4 MB",
     },
   ],
   cover: {

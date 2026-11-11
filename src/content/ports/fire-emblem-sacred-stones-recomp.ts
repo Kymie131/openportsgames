@@ -23,14 +23,14 @@ export const fireEmblemSacredStonesRecomp: Port = {
   related: ["fire-emblem-the-sacred-stones"],
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/Lordingard/SacredStonesRecomp/releases/download/v0.1.20/SacredStonesRecomp-0.1.20-android-arm64.apk",
-      size: "24.4 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/Lordingard/SacredStonesRecomp/releases/download/v0.1.20/SacredStonesRecomp-0.1.20-win64.zip",
       size: "32.9 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/Lordingard/SacredStonesRecomp/releases/download/v0.1.20/SacredStonesRecomp-0.1.20-android-arm64.apk",
+      size: "24.4 MB",
     },
   ],
   cover: {

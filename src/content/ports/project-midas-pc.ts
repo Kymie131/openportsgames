@@ -23,19 +23,14 @@ export const projectMidasPc: Port = {
   originalSystems: ["Nintendo 64"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/murkantor/Project-Midas/releases/download/1.0.2b/ProjectMidas-v1.0.2b-linux.zip",
-      size: "6.5 MB",
-    },
-    {
-      label: "ProjectMidas-v1.0.2b-steamdeck",
-      url: "https://github.com/murkantor/Project-Midas/releases/download/1.0.2b/ProjectMidas-v1.0.2b-steamdeck.zip",
-      size: "6.5 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/murkantor/Project-Midas/releases/download/1.0.2b/ProjectMidas-v1.0.2b-windows.zip",
       size: "6.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/murkantor/Project-Midas/releases/download/1.0.2b/ProjectMidas-v1.0.2b-linux.zip",
+      size: "6.5 MB",
     },
   ],
   cover: {

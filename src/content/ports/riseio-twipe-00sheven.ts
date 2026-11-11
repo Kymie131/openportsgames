@@ -25,14 +25,9 @@ export const riseioTwipe00sheven: Port = {
   summaryEs: "The World Is Not Enough es un Videojuego de disparos en primera persona desarrollado por Eurocom y con base en la Película de James Bond del mismo nombre Sacada en cines en el año 1999. Fue publicado por Electronic Arts y lanzado para Nintendo 64 el 17 de octubre de 2000, poco antes del lanzamiento de su contraparte de PlayStation. El juego cuenta con una campaña para un solo jugador en la que los jugadores asumen el papel del agente MI6 James Bond mientras lucha para evitar que un terrorista desencadene una crisis nuclear en las aguas de Estambul.",
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/riseio/TWIPE_00Sheven/releases/download/ICHGYTW_0.1.96/ICHGYTW-Portable.exe",
       size: "95.2 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/riseio/TWIPE_00Sheven/releases/download/ICHGYTW_0.1.96/ICHGYTW-SteamDeck-x86_64.AppImage",
-      size: "95.4 MB",
     },
   ],
   cover: {

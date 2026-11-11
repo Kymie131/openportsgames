@@ -22,12 +22,7 @@ export const midtownMadness3: Port = {
   originalSystems: ["Xbox"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/lakshya16157/midtown-madness-3-PC-Native/releases/download/v2.6.3/MM3-Linux-x86_64.tar.gz",
-      size: "40.7 MB",
-    },
-    {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/lakshya16157/midtown-madness-3-PC-Native/releases/download/v2.6.3/MM3-Setup.exe",
       size: "64.3 MB",
     },

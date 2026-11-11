@@ -22,7 +22,7 @@ export const woodyWoodpeckerPsp: Port = {
   originalSystems: ["PlayStation 2"],
   downloads: [
     {
-      label: "WoodyPSP-Studio-1.1.0-r8.CPP",
+      label: "Psp",
       url: "https://github.com/wendersondiazx/reWoodpecker/releases/download/1.1.0-Beta.r8cpp/WoodyPSP-Studio-1.1.0-r8.CPP.zip",
       size: "22.3 MB",
     },

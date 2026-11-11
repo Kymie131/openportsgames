@@ -25,7 +25,7 @@ export const Vorpalfix: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "VorpalFix",
+      label: "Windows",
       url: "https://github.com/Wemino/VorpalFix/releases/download/4.2.1/VorpalFix.zip",
       size: "2.8 MB",
     },

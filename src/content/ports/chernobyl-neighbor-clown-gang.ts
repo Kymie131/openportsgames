@@ -25,7 +25,7 @@ export const ChernobylNeighborClownGang: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Chernobyl.Neighbor.Clown.Gang.AssetRipper",
+      label: "Windows",
       url: "https://github.com/smolkrieger/nuclear-neighbor/releases/download/AlternativeVersion/Chernobyl.Neighbor.Clown.Gang.AssetRipper.rar",
       size: "53.8 MB",
     },

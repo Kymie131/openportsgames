@@ -40,17 +40,17 @@ export const spaceCadetPinball: Port = {
       size: "5.1 MB",
     },
     {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/k4zmu2a/SpaceCadetPinball/releases/download/Release_2.1.0/SpaceCadetPinballx64Win.zip",
       size: "1.4 MB",
     },
     {
-      label: "Windows",
+      label: "Windows x86",
       url: "https://github.com/k4zmu2a/SpaceCadetPinball/releases/download/Release_2.1.0/SpaceCadetPinballx86Win.zip",
       size: "1.3 MB",
     },
     {
-      label: "Windows",
+      label: "Windows x86",
       url: "https://github.com/k4zmu2a/SpaceCadetPinball/releases/download/Release_2.1.0/SpaceCadetPinballx86WinXP.zip",
       size: "1.3 MB",
     },

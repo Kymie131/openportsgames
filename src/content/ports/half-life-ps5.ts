@@ -22,7 +22,7 @@ export const halfLifePs5: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "PPSA19111",
+      label: "Ps5",
       url: "https://github.com/GordonProsperoMan/xash3d-ps5/releases/download/v1.3/PPSA19111.zip",
       size: "30.3 MB",
     },

@@ -22,12 +22,12 @@ export const gdroid: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android armv7",
       url: "https://github.com/tinsarfal/GDroid/releases/download/0.1.30/GDroid-0.1.30-armv7.apk",
       size: "55.6 MB",
     },
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/tinsarfal/GDroid/releases/download/0.1.30/GDroid-0.1.30.apk",
       size: "55.2 MB",
     },

@@ -28,24 +28,24 @@ export const medievilRecompBlacklabel: Port = {
       size: "41.4 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/BlackLabelHQ/MediEvilRecomp/releases/download/v1.0.3/MediEvilRecomp-v1.0.3-macos-arm64.zip",
-      size: "39.8 MB",
-    },
-    {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/BlackLabelHQ/MediEvilRecomp/releases/download/v1.0.3/MediEvilRecomp-v1.0.3-macos-x64.zip",
       size: "40.9 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/BlackLabelHQ/MediEvilRecomp/releases/download/v1.0.3/MediEvilRecomp-v1.0.3-windows-arm64.zip",
-      size: "39.3 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/BlackLabelHQ/MediEvilRecomp/releases/download/v1.0.3/MediEvilRecomp-v1.0.3-windows-x64.zip",
       size: "40.7 MB",
+    },
+    {
+      label: "macOS arm64",
+      url: "https://github.com/BlackLabelHQ/MediEvilRecomp/releases/download/v1.0.3/MediEvilRecomp-v1.0.3-macos-arm64.zip",
+      size: "39.8 MB",
+    },
+    {
+      label: "Windows arm64",
+      url: "https://github.com/BlackLabelHQ/MediEvilRecomp/releases/download/v1.0.3/MediEvilRecomp-v1.0.3-windows-arm64.zip",
+      size: "39.3 MB",
     },
   ],
   cover: {

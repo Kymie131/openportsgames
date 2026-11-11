@@ -52,15 +52,13 @@ export const fightNightRound3Recomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/djultra64/Fight-Night-Round-3-Recomp/releases/download/v1.0.5/fight-night-round-3-recomp-v1.0.5-win-amd64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/djultra64/Fight-Night-Round-3-Recomp/releases/download/v1.0.5/fight-night-round-3-recomp-v1.0.5-linux-amd64.tar.gz",
-      "note": "Linux · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/fight-night-round-3-recomp.jpg",

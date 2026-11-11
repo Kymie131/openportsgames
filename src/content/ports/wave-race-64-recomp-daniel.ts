@@ -24,11 +24,6 @@ export const waveRace64RecompDaniel: Port = {
   aiDisclosure: {"source":"https://github.com/danielgomesvieira2000/wave-race-64-recomp","quote":"An AI-coded PC port of the Nintendo 64 game 'Wave Race 64'."},
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/danielgomesvieira2000/wave-race-64-recomp/releases/download/v1.0.2/WaveRace64Recomp-1.0.2-linux-x86_64.tar.gz",
-      size: "6.0 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/danielgomesvieira2000/wave-race-64-recomp/releases/download/v1.0.2/WaveRace64Recomp-1.0.2-windows-x64.zip",
       size: "16.6 MB",

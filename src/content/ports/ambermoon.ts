@@ -27,9 +27,9 @@ export const Ambermoon: Port = {
       size: "86.3 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/Pyrdacor/Ambermoon.net/releases/download/v1.15.2/Ambermoon.net-Mac-ARM.zip",
-      size: "81.8 MB",
+      label: "Windows",
+      url: "https://github.com/Pyrdacor/Ambermoon.net/releases/download/v1.15.2/Ambermoon.net-Windows.zip",
+      size: "85.8 MB",
     },
     {
       label: "macOS",
@@ -38,16 +38,16 @@ export const Ambermoon: Port = {
     },
     {
       label: "Windows",
-      url: "https://github.com/Pyrdacor/Ambermoon.net/releases/download/v1.15.2/Ambermoon.net-Windows.zip",
-      size: "85.8 MB",
-    },
-    {
-      label: "Windows",
       url: "https://github.com/Pyrdacor/Ambermoon.net/releases/download/v1.15.2/Ambermoon.net-Windows32Bit.zip",
       size: "82.8 MB",
     },
     {
-      label: "Windows EXE",
+      label: "macOS",
+      url: "https://github.com/Pyrdacor/Ambermoon.net/releases/download/v1.15.2/Ambermoon.net-Mac-ARM.zip",
+      size: "81.8 MB",
+    },
+    {
+      label: "Windows",
       url: "https://github.com/Pyrdacor/Ambermoon.net/releases/download/v1.15.2/AmbermoonInstall.exe",
       size: "76.4 MB",
     },

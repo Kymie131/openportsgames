@@ -25,7 +25,7 @@ export const mk9Switch: Port = {
   summaryEs: "Mortal Kombat Komplete Edition es la edición de 2012 del juego de lucha de 2011 desarrollado por NetherRealm Studios y publicado por Warner Bros. Incluye todos los personajes descargables y los trajes clásicos.",
   downloads: [
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/Thorhax/mk9-nx/releases/download/v1.0.6/mk9.nro",
       size: "86.5 MB",
     },

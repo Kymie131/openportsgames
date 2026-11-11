@@ -24,16 +24,6 @@ export const comoria08DefjamRecomp: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/comoria08/defjam_recomp/releases/download/v1.2.0/DJFFNY-Recomp-Clang-complet.zip",
-      size: "100.9 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/comoria08/defjam_recomp/releases/download/v1.2.0/DJFFNY-Recomp-MSVC-DLSS.zip",
-      size: "1.5 MB",
-    },
-    {
-      label: "Windows EXE",
       url: "https://github.com/comoria08/defjam_recomp/releases/download/v1.2.0/DJFFNY.exe",
       size: "2.9 MB",
     },

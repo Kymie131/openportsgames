@@ -26,7 +26,7 @@ export const emberclutch3ds: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "emberclutch-1.0.2",
+      label: "3ds",
       url: "https://github.com/RedLynx101/emberclutch/releases/download/v1.0.2/emberclutch-1.0.2.zip",
       size: "98.0 MB",
     },

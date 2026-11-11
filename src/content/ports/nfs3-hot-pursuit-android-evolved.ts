@@ -23,7 +23,7 @@ export const nfs3HotPursuitAndroidEvolved: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/codepdbh/NFS3-HP-AndroidEvolved/releases/download/v0.3.2/NFS3-HP-AndroidEvolved-v0.3.2-arm64.apk",
       size: "18.4 MB",
     },

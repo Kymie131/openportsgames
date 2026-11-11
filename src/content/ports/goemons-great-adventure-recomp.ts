@@ -51,15 +51,13 @@ export const goemonsGreatAdventureRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/DreaXer/GGARecomp/releases/download/v0.2.0/GGARecompiled-v0.2.0-windows.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/DreaXer/GGARecomp/releases/download/v0.2.0/GGARecompiled-v0.2.0-linux.tar.gz",
-      "note": "Linux · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/goemons-great-adventure-recomp.png",

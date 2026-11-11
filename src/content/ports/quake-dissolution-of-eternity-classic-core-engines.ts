@@ -24,12 +24,12 @@ export const quakeDissolutionOfEternityClassicCoreEngines: Port = {
   summaryEs: "QUAKE Mission Pack 2: Dissolution of Eternity es un videojuego de disparos en 1997.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android arm64",
       url: "https://github.com/sandstranger/com.mobilerpgpack.phone/releases/download/3.6.0/Classic_Core_fdroid_release_arm64-v8a_v3.6.0_b142_2026_11_11_15_18.apk",
       size: "152.0 MB",
     },
     {
-      label: "Android APK",
+      label: "Android armv7",
       url: "https://github.com/sandstranger/com.mobilerpgpack.phone/releases/download/3.6.0/Classic_Core_fdroid_release_armeabi-v7a_v3.6.0_b142_2026_11_11_15_18.apk",
       size: "151.4 MB",
     },

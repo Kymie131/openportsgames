@@ -26,11 +26,6 @@ export const nbaHangtimeRecomp: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/8bitninja64/HangtimeRecomp/releases/download/v0.1.1/HangtimeRecomp-linux-x86_64-0.1.1.tar.gz",
-      size: "49.7 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/8bitninja64/HangtimeRecomp/releases/download/v0.1.1/HangtimeRecomp-win64-0.1.1.zip",
       size: "89.4 MB",

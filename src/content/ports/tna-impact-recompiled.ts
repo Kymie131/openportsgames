@@ -51,10 +51,9 @@ export const tnaImpactRecompiled: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/dotGrx/TNA-IMPACT-Recomp/releases/download/recomp/TNA-Impact-Recomp-v0.1.0-win-x64.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/tna-impact-recompiled.png",

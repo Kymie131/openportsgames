@@ -22,7 +22,7 @@ export const _2Ship2HarkinianOutdated: Port = {
   originalSystems: ["Nintendo 64"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Waterdish/2ship2harkinian-Android/releases/download/v1.1.2P1/2s2h.apk",
       size: "69.7 MB",
     },

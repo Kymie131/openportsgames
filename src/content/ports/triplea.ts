@@ -24,22 +24,12 @@ export const Triplea: Port = {
   summaryEs: "triplea es un videojuego de estrategia en 2001.",
   downloads: [
     {
-      label: "game-headed",
-      url: "https://github.com/triplea-game/triplea/releases/download/2026-11.16.15914/game-headed.zip",
-      size: "41.6 MB",
-    },
-    {
-      label: "game-headless",
-      url: "https://github.com/triplea-game/triplea/releases/download/2026-11.16.15914/game-headless.zip",
-      size: "30.9 MB",
-    },
-    {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/triplea-game/triplea/releases/download/2026-11.16.15914/TripleA_2026-11.16.15914_macos.dmg",
       size: "95.1 MB",
     },
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/triplea-game/triplea/releases/download/2026-11.16.15914/TripleA_2026-11.16.15914_windows-64bit.exe",
       size: "86.2 MB",
     },

@@ -23,6 +23,11 @@ export const windWakerNintendoSwitch: Port = {
   downloads: [
     {
       label: "Switch",
+      url: "https://github.com/centollOS/SwitchWaker/releases/download/v1.0.2/SwitchWaker-v1.0.2.zip",
+      size: "10.1 MB",
+    },
+    {
+      label: "Switch",
       url: "https://github.com/centollOS/SwitchWaker/releases/download/v1.0.2/SwitchWaker-v1.0.2-switch-eur.zip",
       size: "9.3 MB",
     },
@@ -30,11 +35,6 @@ export const windWakerNintendoSwitch: Port = {
       label: "Switch",
       url: "https://github.com/centollOS/SwitchWaker/releases/download/v1.0.2/SwitchWaker-v1.0.2-switch.zip",
       size: "9.3 MB",
-    },
-    {
-      label: "Switch",
-      url: "https://github.com/centollOS/SwitchWaker/releases/download/v1.0.2/SwitchWaker-v1.0.2.zip",
-      size: "10.1 MB",
     },
   ],
   cover: {

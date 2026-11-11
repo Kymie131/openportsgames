@@ -31,7 +31,7 @@ export const incredibleHulkRecompiled: Port = {
     "Base de recompilación comunitaria para PC con ReXGlue del juego de Xbox 360. Es un punto de partida sin probar y todavía no permite terminar el juego.",
   downloads: [
     {
-      label: "Windows (alpha)",
+      label: "Windows",
       url: "https://github.com/TekRantGaming/incredible-hulk-recompiled/releases/download/v0.0.1/IncredibleHulk-v0.0.1-windows-x64.zip",
       size: "22.4 MB",
     },

@@ -23,22 +23,7 @@ export const burnout3Takedawn: Port = {
   originalSystems: ["Xbox"],
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/xenophobentx/takedawn/releases/download/v0.3.1/Takedawn-0.3.1-android-arm64.apk",
-      size: "40.0 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/xenophobentx/takedawn/releases/download/v0.3.1/Takedawn-0.3.1-linux-x86_64.AppImage",
-      size: "78.0 MB",
-    },
-    {
-      label: "macOS DMG",
-      url: "https://github.com/xenophobentx/takedawn/releases/download/v0.3.1/Takedawn-0.3.1-macos-arm64.dmg",
-      size: "72.0 MB",
-    },
-    {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/xenophobentx/takedawn/releases/download/v0.3.1/Takedawn-0.3.1-windows-x64-setup.exe",
       size: "64.4 MB",
     },

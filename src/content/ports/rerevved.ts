@@ -31,19 +31,19 @@ export const rerevved: Port = {
     "Recompilación estática de la versión de Xbox 360 con versiones para Windows, Linux y macOS. Requiere tu propia copia del juego.",
   downloads: [
     {
-      label: "Windows",
-      url: "https://github.com/ReRevvedRecomp/rerevved/releases/download/v0.7.1/rerevved-v0.7.1-windows-x64.zip",
-      size: "169 MB",
-    },
-    {
       label: "Linux",
       url: "https://github.com/ReRevvedRecomp/rerevved/releases/download/v0.7.1/rerevved-v0.7.1-linux-x64.tar.gz",
       size: "195.6 MB",
     },
     {
-      label: "macOS (Apple Silicon)",
+      label: "macOS",
       url: "https://github.com/ReRevvedRecomp/rerevved/releases/download/v0.7.1/rerevved-v0.7.1-macos-arm64.tar.gz",
       size: "170.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/ReRevvedRecomp/rerevved/releases/download/v0.7.1/rerevved-v0.7.1-windows-x64.zip",
+      size: "169 MB",
     },
   ],
   cover: {

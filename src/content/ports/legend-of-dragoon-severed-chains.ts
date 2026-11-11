@@ -30,12 +30,17 @@ export const legendOfDragoonSeveredChains: Port = {
     "The Legend of Dragoon reescrito a código de alto nivel con una API de modding: no es un emulador, el ensamblador original se desensambló y se reescribió en Java. Es totalmente jugable sin cierres conocidos y corrige muchos errores del original. El README afirma que no se usó IA. La release release-3.0.0 publica builds para Windows, Linux, macOS y Steam Deck.",
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/Legend-of-Dragoon-Modding/Severed-Chains/releases/download/release-3.0.0/Severed_Chains_Windows.zip",
+      size: "125.4 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/Legend-of-Dragoon-Modding/Severed-Chains/releases/download/release-3.0.0/Severed_Chains_Linux.tar.gz",
       size: "122.8 MB",
     },
     {
-      label: "Linux",
+      label: "Linux arm64",
       url: "https://github.com/Legend-of-Dragoon-Modding/Severed-Chains/releases/download/release-3.0.0/Severed_Chains_Linux_ARM64.tar.gz",
       size: "121.2 MB",
     },
@@ -48,16 +53,6 @@ export const legendOfDragoonSeveredChains: Port = {
       label: "macOS",
       url: "https://github.com/Legend-of-Dragoon-Modding/Severed-Chains/releases/download/release-3.0.0/Severed_Chains_MacOS_M1.tar.gz",
       size: "112.5 MB",
-    },
-    {
-      label: "Severed_Chains_Steam_Deck",
-      url: "https://github.com/Legend-of-Dragoon-Modding/Severed-Chains/releases/download/release-3.0.0/Severed_Chains_Steam_Deck.tar.gz",
-      size: "122.8 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/Legend-of-Dragoon-Modding/Severed-Chains/releases/download/release-3.0.0/Severed_Chains_Windows.zip",
-      size: "125.4 MB",
     },
   ],
   cover: {

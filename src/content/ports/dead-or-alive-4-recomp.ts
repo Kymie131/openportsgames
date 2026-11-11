@@ -51,15 +51,13 @@ export const deadOrAlive4Recomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows alpha",
+      "label": "Windows",
       "url": "https://github.com/dwreckgg/doa4-online/releases/download/netplay-v1.0.10/DOA4-alpha-v0.3.0-win64.zip",
-      "note": "Windows · alpha"
     },
     {
-      "label": "Windows launcher",
+      "label": "Windows",
       "url": "https://github.com/dwreckgg/doa4-online/releases/download/netplay-v1.0.10/dead_or_alive_4.exe",
-      "note": "Windows · launcher"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/dead-or-alive-4-recomp.jpg",

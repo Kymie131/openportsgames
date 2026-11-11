@@ -33,24 +33,14 @@ export const eternityEngine: Port = {
   notesEs: "Motor de Doom extendido y en desarrollo activo para mapas comunitarios avanzados.",
   downloads: [
     {
-      label: "macOS DMG",
-      url: "https://github.com/team-eternity/eternity/releases/download/4.06.00/ee-4.06.00-applesilicon.dmg",
-      size: "6.9 MB",
-    },
-    {
-      label: "macOS DMG",
-      url: "https://github.com/team-eternity/eternity/releases/download/4.06.00/ee-4.06.00-intel.dmg",
-      size: "7.1 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/team-eternity/eternity/releases/download/4.06.00/ee-4.06.00-win32.zip",
-      size: "7.3 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/team-eternity/eternity/releases/download/4.06.00/ee-4.06.00-win64.zip",
       size: "8.4 MB",
+    },
+    {
+      label: "Windows x86",
+      url: "https://github.com/team-eternity/eternity/releases/download/4.06.00/ee-4.06.00-win32.zip",
+      size: "7.3 MB",
     },
   ],
   cover: {

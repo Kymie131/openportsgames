@@ -26,18 +26,8 @@ export const grognardsfromhellTempleplus: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/GrognardsFromHell/TemplePlus/releases/download/v1.0.98/TemplePlus-1.0.98.zip",
-      size: "22.2 MB",
-    },
-    {
-      label: "Windows EXE",
       url: "https://github.com/GrognardsFromHell/TemplePlus/releases/download/v1.0.98/TemplePlusSetup.exe",
       size: "23.7 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/GrognardsFromHell/TemplePlus/releases/download/v1.0.98/TemplePlusTools-1.0.98.zip",
-      size: "18.0 MB",
     },
   ],
   cover: {

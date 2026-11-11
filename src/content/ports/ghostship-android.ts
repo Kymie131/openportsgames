@@ -22,7 +22,7 @@ export const ghostshipAndroid: Port = {
   originalSystems: ["Nintendo 64"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/izzy2lost/Ghostship/releases/download/1.0.1/app-release.apk",
       size: "22.4 MB",
     },

@@ -23,7 +23,7 @@ export const segaRallyPort0r: Port = {
   originalSystems: ["Arcade"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/jacquesdupontd/port0r/releases/download/scud-v0.2.3/Port0r-ScudRaceVR-v0.2.3-quest3.apk",
       size: "226.0 MB",
     },

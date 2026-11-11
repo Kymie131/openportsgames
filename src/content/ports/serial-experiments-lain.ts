@@ -29,14 +29,14 @@ export const SerialExperimentsLain: Port = {
       size: "3.5 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/Y0oshi/lain-psx-decompiled/releases/download/v0.2.0/Lain-macos.zip",
-      size: "1.7 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/Y0oshi/lain-psx-decompiled/releases/download/v0.2.0/Lain-windows.zip",
       size: "3.5 MB",
+    },
+    {
+      label: "macOS",
+      url: "https://github.com/Y0oshi/lain-psx-decompiled/releases/download/v0.2.0/Lain-macos.zip",
+      size: "1.7 MB",
     },
   ],
   cover: {

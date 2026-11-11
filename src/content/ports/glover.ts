@@ -24,19 +24,19 @@ export const Glover: Port = {
   summaryEs: "Glover es un videojuego de acción y aventura publicado por Piko Interactive LLC en 2022.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/ThatGuyMcd/Glover-R/releases/download/v1.0.1/Glover-R-1.0.1-Linux-x86_64-Portable.tar.gz",
-      size: "17.6 MB",
-    },
-    {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/ThatGuyMcd/Glover-R/releases/download/v1.0.1/Glover-R-1.0.1-Linux-x86_64-SteamDeck.tar.gz",
       size: "18.7 MB",
     },
     {
-      label: "Linux AppImage",
+      label: "Linux x64",
       url: "https://github.com/ThatGuyMcd/Glover-R/releases/download/v1.0.1/Glover-R-1.0.1-Linux-x86_64.AppImage",
       size: "18.1 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/ThatGuyMcd/Glover-R/releases/download/v1.0.1/Glover-R-1.0.1-Linux-x86_64-Portable.tar.gz",
+      size: "17.6 MB",
     },
     {
       label: "Windows",

@@ -23,29 +23,14 @@ export const castlevaniaSotnRecompNocturne: Port = {
   related: ["castlevania-sotn-decomp"],
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/birabittoh/NocturneRecomp/releases/download/v1.5.2/nocturnerecomp-v1.5.2-android-arm64.apk",
-      size: "35.3 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/birabittoh/NocturneRecomp/releases/download/v1.5.2/nocturnerecomp-v1.5.2-linux-amd64.tar.gz",
-      size: "29.5 MB",
-    },
-    {
-      label: "Linux",
+      label: "Linux arm64",
       url: "https://github.com/birabittoh/NocturneRecomp/releases/download/v1.5.2/nocturnerecomp-v1.5.2-linux-arm64.tar.gz",
       size: "30.8 MB",
     },
     {
-      label: "macOS DMG",
-      url: "https://github.com/birabittoh/NocturneRecomp/releases/download/v1.5.2/nocturnerecomp-v1.5.2-mac-amd64.dmg",
-      size: "25.9 MB",
-    },
-    {
-      label: "macOS DMG",
-      url: "https://github.com/birabittoh/NocturneRecomp/releases/download/v1.5.2/nocturnerecomp-v1.5.2-mac-arm64.dmg",
-      size: "26.0 MB",
+      label: "Linux x64",
+      url: "https://github.com/birabittoh/NocturneRecomp/releases/download/v1.5.2/nocturnerecomp-v1.5.2-linux-amd64.tar.gz",
+      size: "29.5 MB",
     },
     {
       label: "Windows",

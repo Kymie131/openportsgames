@@ -50,10 +50,9 @@ export const smash4Pc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/josiahg2502-glitch/Smash4PC/releases/download/v0.1.2/Smash4PC-v0.1.2-Windows.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/smash-4-pc.png",

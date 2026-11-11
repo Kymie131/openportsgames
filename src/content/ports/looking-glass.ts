@@ -24,7 +24,7 @@ export const lookingGlass: Port = {
   warningEs: "Este port de Android distribuye los archivos del propio juego, así que no se construye desde una copia tuya. Su situación legal es distinta a la del resto del catálogo y puede ser retirada.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Player124413/Looking-Glass-android-edition/releases/download/Four/LookingGlass-v0.32.0.87-android.apk",
       size: "40.9 MB",
     },

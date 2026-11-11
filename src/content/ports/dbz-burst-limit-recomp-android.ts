@@ -23,7 +23,7 @@ export const dbzBurstLimitRecompAndroid: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/dfdx047/Dragon-Burst/releases/download/v0.2.2/DragonBurst-v0.2.2.apk",
       size: "114.2 MB",
     },

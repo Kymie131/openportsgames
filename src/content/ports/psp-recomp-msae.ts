@@ -22,14 +22,9 @@ export const pspRecompMsae: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/coole42-pixel/PSPRecomp-MSAE/releases/download/v0.2.0/MotorStorm-0.2.0-android-arm64-release.apk",
       size: "22.0 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/coole42-pixel/PSPRecomp-MSAE/releases/download/v0.2.0/MotorStorm-0.2.0-windows-x64.zip",
-      size: "66.2 MB",
     },
   ],
   cover: {

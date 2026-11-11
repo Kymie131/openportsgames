@@ -27,14 +27,14 @@ export const pokemonRubyRecomp: Port = {
     "Recompilación estática de Pokémon Ruby (GBA) con el framework gbarecomp. Requiere el juego original.",
   downloads: [
     {
-      label: "Windows",
-      url: "https://github.com/mstan/RubySapphireRecomp/releases/download/v0.0.11/RubyRecomp-windows-x64-v0.0.11.zip",
-      size: "56.9 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/mstan/RubySapphireRecomp/releases/download/v0.0.11/SapphireRecomp-windows-x64-v0.0.11.zip",
       size: "57.0 MB",
+    },
+    {
+      label: "Windows x64",
+      url: "https://github.com/mstan/RubySapphireRecomp/releases/download/v0.0.11/RubyRecomp-windows-x64-v0.0.11.zip",
+      size: "56.9 MB",
     },
   ],
   cover: {

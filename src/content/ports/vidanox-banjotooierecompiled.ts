@@ -23,14 +23,14 @@ export const vidanoxBanjotooierecompiled: Port = {
   originalSystems: ["Nintendo 64"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/Vidanox/BanjoTooieRecompiled/releases/download/v1.0.1/BanjoTooieRecompiled-linux-x64.tar.gz",
-      size: "10.9 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/Vidanox/BanjoTooieRecompiled/releases/download/v1.0.1/BanjoTooieRecompiled-windows-x64.zip",
       size: "19.7 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Vidanox/BanjoTooieRecompiled/releases/download/v1.0.1/BanjoTooieRecompiled-linux-x64.tar.gz",
+      size: "10.9 MB",
     },
   ],
   cover: {

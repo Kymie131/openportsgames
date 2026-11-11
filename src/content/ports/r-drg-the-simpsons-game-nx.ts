@@ -23,7 +23,7 @@ export const rDrgTheSimpsonsGameNx: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/R-drg/the-simpsons-game-nx/releases/download/v1.0.1/the_simpsons_game.nro",
       size: "74.1 MB",
     },

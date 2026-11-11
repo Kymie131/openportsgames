@@ -31,7 +31,7 @@ export const gearsOfWar3Recomp: Port = {
     "Recompilación estática del juego de Xbox 360 a Windows x64 nativo con el SDK ReXGlue. Requiere tu propia copia del juego.",
   downloads: [
     {
-      label: "Windows x64",
+      label: "Windows",
       url: "https://github.com/Flippage/gears-of-war-3-recomp/releases/download/v0.3.1/gow3-recomp-0.3.1-win64.zip",
     },
   ],

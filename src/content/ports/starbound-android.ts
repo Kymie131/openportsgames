@@ -27,34 +27,24 @@ export const starboundAndroid: Port = {
     "Port de OpenStarbound a dispositivos móviles, que lleva el sandbox Starbound a Android. Necesita el propio juego.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/RohanBhattacharyya/oSBM/releases/download/v1.1/oSBM-1.1-android-arm64-v8a.apk",
-      size: "28.9 MB",
-    },
-    {
-      label: "Android APK",
-      url: "https://github.com/RohanBhattacharyya/oSBM/releases/download/v1.1/oSBM-1.1-android-armeabi-v7a.apk",
-      size: "26.8 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/RohanBhattacharyya/oSBM/releases/download/v1.1/oSBM-1.1-android-universal.apk",
       size: "61.3 MB",
     },
     {
-      label: "Android APK",
+      label: "Android x64",
       url: "https://github.com/RohanBhattacharyya/oSBM/releases/download/v1.1/oSBM-1.1-android-x86_64.apk",
       size: "29.5 MB",
     },
     {
-      label: "iOS IPA",
-      url: "https://github.com/RohanBhattacharyya/oSBM/releases/download/v1.1/oSBM-1.1-ios.ipa",
-      size: "21.7 MB",
+      label: "Android arm64",
+      url: "https://github.com/RohanBhattacharyya/oSBM/releases/download/v1.1/oSBM-1.1-android-arm64-v8a.apk",
+      size: "28.9 MB",
     },
     {
-      label: "oSBM-1.1-pc-launcher-linux",
-      url: "https://github.com/RohanBhattacharyya/oSBM/releases/download/v1.1/oSBM-1.1-pc-launcher-linux.zip",
-      size: "29.4 MB",
+      label: "Android armv7",
+      url: "https://github.com/RohanBhattacharyya/oSBM/releases/download/v1.1/oSBM-1.1-android-armeabi-v7a.apk",
+      size: "26.8 MB",
     },
   ],
   cover: {

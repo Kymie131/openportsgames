@@ -25,7 +25,7 @@ export const edeeggLegendsRecomp: Port = {
   summaryEs: "Rayman Legends es un videojuego de plataformas desarrollado por Ubisoft Montpellier y publicado por Ubisoft. Es el quinto título principal de la serie Rayman y la secuela directa del juego de 2011 Rayman Origins. El juego se lanzó para las plataformas Microsoft Windows, Xbox 360, PlayStation 3, Wii U y PlayStation Vita en agosto y septiembre de 2013. Las versiones de PlayStation 4 y Xbox One se lanzaron en febrero de 2014.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/edeegg/Legends-Recomp/releases/download/0.2.0/app-release.apk",
       size: "66.6 MB",
     },

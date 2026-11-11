@@ -25,29 +25,9 @@ export const ultima5Android: Port = {
   summaryEs: "Ultima V: Warriors of Destiny (1988) es La Quinta Parte de la serie Ultima de juegos de rol.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/synthwave-pixel/ultima5/releases/download/v1.1.198/Ultima-V-1.1.198-android.apk",
       size: "66.8 MB",
-    },
-    {
-      label: "macOS DMG",
-      url: "https://github.com/synthwave-pixel/ultima5/releases/download/v1.1.198/Ultima-V-1.1.198-mac-arm64.dmg",
-      size: "193.4 MB",
-    },
-    {
-      label: "Windows EXE",
-      url: "https://github.com/synthwave-pixel/ultima5/releases/download/v1.1.198/Ultima-V-1.1.198-win-x64-portable.exe",
-      size: "183.3 MB",
-    },
-    {
-      label: "Windows EXE",
-      url: "https://github.com/synthwave-pixel/ultima5/releases/download/v1.1.198/Ultima-V-1.1.198-win-x64-setup.exe",
-      size: "183.5 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/synthwave-pixel/ultima5/releases/download/v1.1.198/ultima5-sp-x86_64.AppImage",
-      size: "189.7 MB",
     },
   ],
   cover: {

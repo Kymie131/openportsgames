@@ -23,7 +23,7 @@ export const silentHill2Sh2Nx: Port = {
   originalSystems: ["PlayStation 2"],
   downloads: [
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/cutarev/sh2-nx/releases/download/v1.03/sh2-nx.nro",
       size: "37.4 MB",
     },

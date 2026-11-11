@@ -50,10 +50,9 @@ export const aceCombat04Pc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x86_64",
+      "label": "Windows",
       "url": "https://github.com/PresidentRaptor/Ace-Combat-04-PC-Port/releases/download/v2.2.3-beta/Ace-Combat-04-PC-Port-2.2.3-beta-Setup.exe",
-      "note": "Windows · installer"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/generated/ace-combat-04-pc.svg",

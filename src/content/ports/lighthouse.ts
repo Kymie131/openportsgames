@@ -39,17 +39,17 @@ export const lighthouse: Port = {
     "Port nativo para PC de Banjo-Kazooie para el motor libultraship, del equipo HarbourMasters. Requiere la ROM de Banjo-Kazooie obtenida legalmente por el jugador; el lanzador extrae los datos del juego a partir de ella.",
   downloads: [
     {
-      label: "macOS",
-      url: "https://github.com/HarbourMasters/Lighthouse/releases/download/1.2.2/Lighthouse-Montauk-Charlie-Mac.zip",
-      size: "14.4 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/HarbourMasters/Lighthouse/releases/download/1.2.2/Lighthouse-Montauk-Charlie-Win64.zip",
       size: "34.9 MB",
     },
     {
-      label: "Linux AppImage",
+      label: "macOS",
+      url: "https://github.com/HarbourMasters/Lighthouse/releases/download/1.2.2/Lighthouse-Montauk-Charlie-Mac.zip",
+      size: "14.4 MB",
+    },
+    {
+      label: "Linux",
       url: "https://github.com/HarbourMasters/Lighthouse/releases/download/1.2.2/lighthouse.appimage",
       size: "13.0 MB",
     },

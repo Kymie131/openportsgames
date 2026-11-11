@@ -28,7 +28,7 @@ export const unleashedrecompNx: Port = {
     "Port homebrew no oficial para Nintendo Switch de la versión de Xbox 360 de Sonic Unleashed, hecho mediante recompilación estática. Requiere tu propia copia del juego. El repositorio original está archivado (solo lectura).",
   downloads: [
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/NaGaa95/UnleashedRecomp-NX/releases/download/0.0.3/UnleashedRecomp.nro",
       size: "78.5 MB",
     },

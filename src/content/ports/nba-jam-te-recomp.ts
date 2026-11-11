@@ -52,15 +52,9 @@ export const nbaJamTeRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
-      "url": "https://github.com/PocketLucho/NBA-JAM---Recompiled/releases/download/v2026.11.06/NBAJamRecomp-release.zip",
-      "note": "Windows · x64"
-    },
-    {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/PocketLucho/NBA-JAM---Recompiled/releases/download/v2026.11.06/NBAJamRecomp-linux-x64.tar.gz",
-      "note": "Linux · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/nba-jam-te-recomp.jpg",

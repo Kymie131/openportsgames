@@ -24,14 +24,14 @@ export const SnailMail: Port = {
   summaryEs: "Snail Mail es un videojuego de acción y aventura publicado por WASD Studios en 2025.",
   downloads: [
     {
-      label: "snail-port-assets-v4",
-      url: "https://github.com/banteg/snail/releases/download/v0.4.0/snail-port-assets-v4.tar.gz",
-      size: "12.9 MB",
-    },
-    {
-      label: "snail-port-assets-v5",
+      label: "Windows",
       url: "https://github.com/banteg/snail/releases/download/v0.4.0/snail-port-assets-v5.tar.gz",
       size: "13.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/banteg/snail/releases/download/v0.4.0/snail-port-assets-v4.tar.gz",
+      size: "12.9 MB",
     },
   ],
   cover: {

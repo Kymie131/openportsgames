@@ -24,7 +24,7 @@ export const starcraft64Recomp: Port = {
   summaryEs: "StarCraft 64 es un videojuego de estrategia publicado por Nintendo en 2000.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/n0madic/StarCraft64-recomp/releases/download/v0.1.0/StarCraft64-0.1.0-launcher-android-arm64.apk",
       size: "7.8 MB",
     },
@@ -34,14 +34,14 @@ export const starcraft64Recomp: Port = {
       size: "7.0 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/n0madic/StarCraft64-recomp/releases/download/v0.1.0/StarCraft64-0.1.0-launcher-macos-arm64.zip",
-      size: "3.9 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/n0madic/StarCraft64-recomp/releases/download/v0.1.0/StarCraft64-0.1.0-launcher-windows-x86_64.zip",
       size: "6.6 MB",
+    },
+    {
+      label: "macOS",
+      url: "https://github.com/n0madic/StarCraft64-recomp/releases/download/v0.1.0/StarCraft64-0.1.0-launcher-macos-arm64.zip",
+      size: "3.9 MB",
     },
   ],
   cover: {

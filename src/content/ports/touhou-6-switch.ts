@@ -22,7 +22,7 @@ export const touhou6Switch: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/saekaze/th06-switch/releases/download/v1.02h-r2/touhou6.nro",
       size: "9.6 MB",
     },

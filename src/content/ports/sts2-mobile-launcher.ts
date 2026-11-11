@@ -23,7 +23,7 @@ export const sts2MobileLauncher: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/ModinMobileSTS/Sts2MobileLauncher/releases/download/v0.1.11/sts2-re-v0.1.11-importer.apk",
       size: "68.6 MB",
     },

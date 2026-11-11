@@ -24,7 +24,7 @@ export const abuseAndroid: Port = {
   summaryEs: "Abuse es un videojuego de plataformas desarrollado por Crack dot Com y publicado por Electronic Arts en América del Norte y Origin Systems en Europa. Fue lanzado en 29 de febrero de 1996 para DOS. Una versión para Mac OS fue publicada por Bungie en 5 de marzo de 1997. El código de fuente del juego, junto con algo del contenido shareware, ha sido de dominio público desde 1990s y ha sido portado a Linux y otras plataformas.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/ShadowPilotX/Abuse-Android/releases/download/v1.1/Abuse-Android-v1.1-release.apk",
       size: "37.0 MB",
     },

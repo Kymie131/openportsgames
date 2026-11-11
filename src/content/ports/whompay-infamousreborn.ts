@@ -25,7 +25,7 @@ export const whompayInfamousreborn: Port = {
   summaryEs: "Infamous es un videojuego de acción-aventura no lineal de mundo abierto de 2009 desarrollado por Sucker Punch Productions y publicado por Sony Computer Entertainment para la PlayStation 3. El jugador controla al protagonista Cole MacGrath, un mensajero en bicicleta atrapado en el centro de una explosión que devasta varias cuadras de la ciudad ficticia Empire City. La explosión envía a la ciudad al caos mientras Cole se encuentra con nuevos superpoderes basados en la electricidad.",
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/whompay/inFAMOUSreborn/releases/download/1.1/inFamous.Setup.FIXED.exe",
       size: "88.1 MB",
     },

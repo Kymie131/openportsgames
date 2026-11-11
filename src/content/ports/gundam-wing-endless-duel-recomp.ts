@@ -53,25 +53,21 @@ export const gundamWingEndlessDuelRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/TechnicallyComputers/GundamWingEndlessDuelSNESRecomp/releases/download/v0.1.12/gundamwingendlessduel-0.1.12-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/TechnicallyComputers/GundamWingEndlessDuelSNESRecomp/releases/download/v0.1.12/gundamwingendlessduel-0.1.12-linux-x64.zip",
-      "note": "Linux · x64"
     },
     {
       "label": "macOS arm64",
       "url": "https://github.com/TechnicallyComputers/GundamWingEndlessDuelSNESRecomp/releases/download/v0.1.12/gundamwingendlessduel-0.1.12-macos-arm64.zip",
-      "note": "macOS · Apple Silicon"
     },
     {
       "label": "macOS x64",
       "url": "https://github.com/TechnicallyComputers/GundamWingEndlessDuelSNESRecomp/releases/download/v0.1.12/gundamwingendlessduel-0.1.12-macos-x64.zip",
-      "note": "macOS · Intel"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/gundam-wing-endless-duel-recomp.jpg",

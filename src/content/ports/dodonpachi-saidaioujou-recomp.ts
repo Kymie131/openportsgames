@@ -28,17 +28,12 @@ export const dodonpachiSaidaioujouRecomp: Port = {
     "Recompilación de DoDonPachi SaiDaiOuJou (Xbox 360) con ReXGlue. Requiere la actualización 1.01. El teclado y el ratón se activan desde el menú del juego (F4).",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/eandis/SDOJ-Recomp/releases/download/v1.51.4/sdoj.recomp.1.51.4.linux-amd64.tar.gz",
-      size: "17.5 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/eandis/SDOJ-Recomp/releases/download/v1.51.4/sdoj.recomp.1.51.4.win-amd64.vulkan.zip",
       size: "15.9 MB",
     },
     {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/eandis/SDOJ-Recomp/releases/download/v1.51.4/sdoj.recomp.1.51.4.win-amd64.zip",
       size: "15.1 MB",
     },

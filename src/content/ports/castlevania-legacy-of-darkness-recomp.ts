@@ -23,7 +23,7 @@ export const castlevaniaLegacyOfDarknessRecomp: Port = {
   related: ["castlevania-64-recomp"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/sergiomanzur/cvlod_recomp/releases/download/v0.2.31/LodRecomp-v0.2.31-android.apk",
       size: "83.8 MB",
     },

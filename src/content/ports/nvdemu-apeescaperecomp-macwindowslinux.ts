@@ -23,29 +23,29 @@ export const nvdemuApeescaperecompMacwindowslinux: Port = {
   originalSystems: ["PlayStation"],
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/nvd123-YT/ApeEscapeRecompiled/releases/download/macos-nightly/ApeEscapeRecomp-v2.0.0-linux-x86_64.AppImage",
-      size: "47.0 MB",
-    },
-    {
-      label: "macOS DMG",
-      url: "https://github.com/nvd123-YT/ApeEscapeRecompiled/releases/download/macos-nightly/ApeEscapeRecomp-v2.0.0-macos-arm64.dmg",
-      size: "69.1 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/nvd123-YT/ApeEscapeRecompiled/releases/download/macos-nightly/ApeEscapeRecomp-v2.0.0-macos-arm64.zip",
-      size: "47.2 MB",
-    },
-    {
-      label: "macOS DMG",
+      label: "macOS x64",
       url: "https://github.com/nvd123-YT/ApeEscapeRecompiled/releases/download/macos-nightly/ApeEscapeRecomp-v2.0.0-macos-x86_64.dmg",
       size: "78.0 MB",
     },
     {
-      label: "macOS",
+      label: "macOS arm64",
+      url: "https://github.com/nvd123-YT/ApeEscapeRecompiled/releases/download/macos-nightly/ApeEscapeRecomp-v2.0.0-macos-arm64.dmg",
+      size: "69.1 MB",
+    },
+    {
+      label: "macOS x64",
       url: "https://github.com/nvd123-YT/ApeEscapeRecompiled/releases/download/macos-nightly/ApeEscapeRecomp-v2.0.0-macos-x86_64.zip",
       size: "56.5 MB",
+    },
+    {
+      label: "macOS arm64",
+      url: "https://github.com/nvd123-YT/ApeEscapeRecompiled/releases/download/macos-nightly/ApeEscapeRecomp-v2.0.0-macos-arm64.zip",
+      size: "47.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/nvd123-YT/ApeEscapeRecompiled/releases/download/macos-nightly/ApeEscapeRecomp-v2.0.0-linux-x86_64.AppImage",
+      size: "47.0 MB",
     },
     {
       label: "Windows",

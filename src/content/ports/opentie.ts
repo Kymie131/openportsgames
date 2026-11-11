@@ -25,19 +25,19 @@ export const Opentie: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/elyosh/OpenTIE/releases/download/v0.0.7/opentie-0.0.7-linux-x86_64-release.tar.xz",
-      size: "4.4 MB",
+      label: "Windows",
+      url: "https://github.com/elyosh/OpenTIE/releases/download/v0.0.7/opentie-0.0.7-windows-x86_64-release.zip",
+      size: "14.3 MB",
     },
     {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/elyosh/OpenTIE/releases/download/v0.0.7/opentie-0.0.7-macos-arm64-release.dmg",
       size: "6.1 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/elyosh/OpenTIE/releases/download/v0.0.7/opentie-0.0.7-windows-x86_64-release.zip",
-      size: "14.3 MB",
+      label: "Linux",
+      url: "https://github.com/elyosh/OpenTIE/releases/download/v0.0.7/opentie-0.0.7-linux-x86_64-release.tar.xz",
+      size: "4.4 MB",
     },
   ],
   cover: {

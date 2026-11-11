@@ -24,19 +24,19 @@ export const Thirdeye: Port = {
   summaryEs: "Thirdeye es un videojuego de acción y aventura publicado por Vanishing Point Game Studios en 2019.",
   downloads: [
     {
-      label: "Windows EXE",
-      url: "https://github.com/psi29a/thirdeye/releases/download/thirdeye-0.89.0/Thirdeye-0.89.0-win64.exe",
-      size: "23.6 MB",
-    },
-    {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/psi29a/thirdeye/releases/download/thirdeye-0.89.0/Thirdeye-0.89.0-x86_64.AppImage",
       size: "44.0 MB",
     },
     {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/psi29a/thirdeye/releases/download/thirdeye-0.89.0/Thirdeye-0.89.0.dmg",
       size: "43.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/psi29a/thirdeye/releases/download/thirdeye-0.89.0/Thirdeye-0.89.0-win64.exe",
+      size: "23.6 MB",
     },
   ],
   cover: {

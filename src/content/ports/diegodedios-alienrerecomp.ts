@@ -23,16 +23,6 @@ export const diegodediosAlienrerecomp: Port = {
   originalSystems: ["PlayStation"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/DiegoDeDios/AlienReRecomp/releases/download/v0.2.0/AlienResurrection-0.2.0-linux-x86_64.tar.gz",
-      size: "7.4 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/DiegoDeDios/AlienReRecomp/releases/download/v0.2.0/AlienResurrection-0.2.0-macos.zip",
-      size: "8.9 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/DiegoDeDios/AlienReRecomp/releases/download/v0.2.0/AlienResurrection-0.2.0-windows-x64.zip",
       size: "7.6 MB",

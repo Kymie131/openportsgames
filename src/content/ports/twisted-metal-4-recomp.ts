@@ -26,21 +26,6 @@ export const twistedMetal4Recomp: Port = {
   notesEs: "Entrada comunitaria de PortsDR. No hay repositorio público; el juego no se incluye.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/TechnicallyComputers/TwistedMetal4Recomp/releases/download/v0.3.37/twistedmetal4-0.3.37-linux-x64.zip",
-      size: "47.1 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/TechnicallyComputers/TwistedMetal4Recomp/releases/download/v0.3.37/twistedmetal4-0.3.37-macos-arm64.zip",
-      size: "24.9 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/TechnicallyComputers/TwistedMetal4Recomp/releases/download/v0.3.37/twistedmetal4-0.3.37-macos-x64.zip",
-      size: "25.6 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/TechnicallyComputers/TwistedMetal4Recomp/releases/download/v0.3.37/twistedmetal4-0.3.37-windows-x64.zip",
       size: "26.1 MB",

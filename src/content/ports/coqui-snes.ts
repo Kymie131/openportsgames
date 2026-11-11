@@ -26,7 +26,7 @@ export const coquiSnes: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "coqui-al-anochecer-v1.1",
+      label: "Snes",
       url: "https://github.com/VibezZzCoder/coqui-snes/releases/download/v1.1/coqui-al-anochecer-v1.1.zip",
       size: "3.5 MB",
     },

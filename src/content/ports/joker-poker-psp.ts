@@ -25,7 +25,7 @@ export const jokerPokerPsp: Port = {
   summaryEs: "Joker Poker es un videojuego de puzles.",
   downloads: [
     {
-      label: "joker-poker",
+      label: "Psp",
       url: "https://github.com/kwerenta/joker-poker/releases/download/v0.40/joker-poker.zip",
       size: "5.4 MB",
     },

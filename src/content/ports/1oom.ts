@@ -26,19 +26,19 @@ export const oom1: Port = {
     "Master of Orion es un juego de estrategia espacial por turnos desarrollado por Simtex y publicado por MicroProse en 1993. El jugador dirige una de diez razas hacia la dominación galáctica mediante exploración, colonización, diplomacia y combate táctico.",
   downloads: [
     {
-      label: "1oom-v1.11.9-msdos",
-      url: "https://github.com/1oom-fork/1oom/releases/download/v1.11.9/1oom-v1.11.9-msdos.zip",
-      size: "5.2 MB",
-    },
-    {
-      label: "1oom-v1.11.9-x64",
+      label: "Windows x64",
       url: "https://github.com/1oom-fork/1oom/releases/download/v1.11.9/1oom-v1.11.9-x64.zip",
       size: "12.2 MB",
     },
     {
-      label: "1oom-v1.11.9-x86",
+      label: "Windows x86",
       url: "https://github.com/1oom-fork/1oom/releases/download/v1.11.9/1oom-v1.11.9-x86.zip",
       size: "12.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/1oom-fork/1oom/releases/download/v1.11.9/1oom-v1.11.9-msdos.zip",
+      size: "5.2 MB",
     },
   ],
   cover: {

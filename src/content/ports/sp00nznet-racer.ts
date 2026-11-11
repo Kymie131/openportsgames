@@ -24,32 +24,12 @@ export const sp00nznetRacer: Port = {
   summaryEs: "Star Wars Episode I: Racer es un videojuego de acción y aventura publicado por Lucasfilm en 2018.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/sp00nznet/racer/releases/download/v0.4.0/Racer-Builds-Installer-linux-x64.tar.gz",
-      size: "9.2 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/sp00nznet/racer/releases/download/v0.4.0/Racer-Builds-Installer-macos-arm64.zip",
-      size: "9.1 MB",
-    },
-    {
-      label: "Windows EXE",
+      label: "Windows x64",
       url: "https://github.com/sp00nznet/racer/releases/download/v0.4.0/Racer-Builds-Installer-windows-x64.exe",
       size: "18.3 MB",
     },
     {
-      label: "Linux",
-      url: "https://github.com/sp00nznet/racer/releases/download/v0.4.0/Racer-Installer-linux-x64.tar.gz",
-      size: "9.2 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/sp00nznet/racer/releases/download/v0.4.0/Racer-Installer-macos-arm64.zip",
-      size: "9.1 MB",
-    },
-    {
-      label: "Windows EXE",
+      label: "Windows x64",
       url: "https://github.com/sp00nznet/racer/releases/download/v0.4.0/Racer-Installer-windows-x64.exe",
       size: "18.3 MB",
     },

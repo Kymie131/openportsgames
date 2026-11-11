@@ -22,7 +22,7 @@ export const shipwrightAndroidOutdated: Port = {
   originalSystems: ["GameCube","Nintendo 64"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Waterdish/Shipwright-Android/releases/download/v9.0.2P2/soh.apk",
       size: "38.4 MB",
     },

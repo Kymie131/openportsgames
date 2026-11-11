@@ -52,13 +52,11 @@ export const hazeRecomp: Port = {
     {
       "label": "Windows x64",
       "url": "https://github.com/zdiemer/haze-recomp/releases/download/v0.1.13/HazeRecomp-0.1.13-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Windows installer",
+      "label": "Windows",
       "url": "https://github.com/zdiemer/haze-recomp/releases/download/v0.1.13/HazeRecomp-0.1.13-Setup.exe",
-      "note": "Windows · installer"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/haze-recomp.jpg",

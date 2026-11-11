@@ -65,19 +65,14 @@ export const trxPort: Port = {
   ],
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/LostArtefacts/TRX/releases/download/trx-1.12/TRX-1.12-Windows_Installer.exe",
+      size: "346.1 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/LostArtefacts/TRX/releases/download/trx-1.12/TRX-1.12-Linux.zip",
       size: "344.7 MB",
-    },
-    {
-      label: "macOS DMG",
-      url: "https://github.com/LostArtefacts/TRX/releases/download/trx-1.12/TRX-1.12-Mac.dmg",
-      size: "339.6 MB",
-    },
-    {
-      label: "TRX-1.12-TombEditor",
-      url: "https://github.com/LostArtefacts/TRX/releases/download/trx-1.12/TRX-1.12-TombEditor.zip",
-      size: "35.8 MB",
     },
     {
       label: "Windows",
@@ -85,9 +80,9 @@ export const trxPort: Port = {
       size: "344.4 MB",
     },
     {
-      label: "Windows EXE",
-      url: "https://github.com/LostArtefacts/TRX/releases/download/trx-1.12/TRX-1.12-Windows_Installer.exe",
-      size: "346.1 MB",
+      label: "macOS",
+      url: "https://github.com/LostArtefacts/TRX/releases/download/trx-1.12/TRX-1.12-Mac.dmg",
+      size: "339.6 MB",
     },
   ],
   cover: {

@@ -27,34 +27,29 @@ export const yakumo: Port = {
     "Recompilación estática de Monster Hunter Portable 3rd HD (PSP) a un ejecutable nativo, con Vulkan y SDL3. Compila para escritorio y Android y requiere una copia del juego.",
   downloads: [
     {
-      label: "ffmpeg-7.1.5",
-      url: "https://github.com/TeamGDB/Yakumo/releases/download/v0.7.5/ffmpeg-7.1.5.tar.xz",
-      size: "10.5 MB",
-    },
-    {
-      label: "Android APK",
-      url: "https://github.com/TeamGDB/Yakumo/releases/download/v0.7.5/yakumo-0.7.5-android-arm64.apk",
-      size: "193.9 MB",
-    },
-    {
       label: "Linux",
       url: "https://github.com/TeamGDB/Yakumo/releases/download/v0.7.5/yakumo-0.7.5-linux-x86_64.tar.gz",
       size: "214.7 MB",
     },
     {
-      label: "macOS DMG",
-      url: "https://github.com/TeamGDB/Yakumo/releases/download/v0.7.5/yakumo-0.7.5-macos-arm64.dmg",
-      size: "106.6 MB",
+      label: "Windows",
+      url: "https://github.com/TeamGDB/Yakumo/releases/download/v0.7.5/yakumo-0.7.5-windows-x86_64-portable.zip",
+      size: "210.2 MB",
     },
     {
-      label: "macOS",
+      label: "Android",
+      url: "https://github.com/TeamGDB/Yakumo/releases/download/v0.7.5/yakumo-0.7.5-android-arm64.apk",
+      size: "193.9 MB",
+    },
+    {
+      label: "macOS arm64",
       url: "https://github.com/TeamGDB/Yakumo/releases/download/v0.7.5/yakumo-0.7.5-macos-arm64.zip",
       size: "193.4 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/TeamGDB/Yakumo/releases/download/v0.7.5/yakumo-0.7.5-windows-x86_64-portable.zip",
-      size: "210.2 MB",
+      label: "macOS arm64",
+      url: "https://github.com/TeamGDB/Yakumo/releases/download/v0.7.5/yakumo-0.7.5-macos-arm64.dmg",
+      size: "106.6 MB",
     },
   ],
   cover: {

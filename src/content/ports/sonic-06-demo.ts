@@ -25,7 +25,7 @@ export const Sonic06Demo: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/PranchaD/re-Sonic06Demo/releases/download/v0.1/sonic06demo.exe",
       size: "103.8 MB",
     },

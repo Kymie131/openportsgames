@@ -27,12 +27,12 @@ export const ysrdevsGoldeneyeMetal: Port = {
   notesEs: "GoldenEye 007: recompilación estática de ysrdevs para Windows, macOS. Aporta tu propia copia del juego.",
   downloads: [
     {
-      label: "macOS DMG",
+      label: "macOS arm64",
       url: "https://github.com/ysrdevs/goldeneye-metal/releases/download/v0.5.1/GoldenEye-Metal-0.5.1-macos-arm64.dmg",
       size: "16.4 MB",
     },
     {
-      label: "macOS",
+      label: "macOS arm64",
       url: "https://github.com/ysrdevs/goldeneye-metal/releases/download/v0.5.1/GoldenEye-Metal-0.5.1-macos-arm64.zip",
       size: "14.0 MB",
     },

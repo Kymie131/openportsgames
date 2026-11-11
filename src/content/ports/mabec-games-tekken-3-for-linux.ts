@@ -23,7 +23,7 @@ export const mabecGamesTekken3ForLinux: Port = {
   originalSystems: ["PlayStation"],
   downloads: [
     {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/Mabec-games/Tekken-3-for-Linux/releases/download/v1.0/Tekken_3_for_Linux-x86_64.AppImage",
       size: "77.6 MB",
     },

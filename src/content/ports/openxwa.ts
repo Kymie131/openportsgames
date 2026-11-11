@@ -25,19 +25,19 @@ export const Openxwa: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/elyosh/OpenXWA/releases/download/v0.0.17/openxwa-0.0.17-linux-x86_64-release.tar.xz",
-      size: "4.4 MB",
+      label: "Windows",
+      url: "https://github.com/elyosh/OpenXWA/releases/download/v0.0.17/openxwa-0.0.17-windows-x86_64-release.zip",
+      size: "14.2 MB",
     },
     {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/elyosh/OpenXWA/releases/download/v0.0.17/openxwa-0.0.17-macos-arm64-release.dmg",
       size: "6.1 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/elyosh/OpenXWA/releases/download/v0.0.17/openxwa-0.0.17-windows-x86_64-release.zip",
-      size: "14.2 MB",
+      label: "Linux",
+      url: "https://github.com/elyosh/OpenXWA/releases/download/v0.0.17/openxwa-0.0.17-linux-x86_64-release.tar.xz",
+      size: "4.4 MB",
     },
   ],
   cover: {

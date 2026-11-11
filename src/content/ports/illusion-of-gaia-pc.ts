@@ -22,24 +22,9 @@ export const illusionOfGaiaPc: Port = {
   originalSystems: ["Super Nintendo"],
   downloads: [
     {
-      label: "babel-recomp-1.0-3ds",
-      url: "https://github.com/mrOt4/babel-recomp/releases/download/v1.0/babel-recomp-1.0-3ds.zip",
-      size: "2.4 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/mrOt4/babel-recomp/releases/download/v1.0/babel-recomp-1.0-android-arm64.apk",
       size: "7.7 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/mrOt4/babel-recomp/releases/download/v1.0/babel-recomp-1.0-linux-x86_64.zip",
-      size: "4.9 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/mrOt4/babel-recomp/releases/download/v1.0/babel-recomp-1.0-macos-arm64.zip",
-      size: "3.9 MB",
     },
     {
       label: "Switch",
@@ -47,9 +32,19 @@ export const illusionOfGaiaPc: Port = {
       size: "7.6 MB",
     },
     {
+      label: "Linux",
+      url: "https://github.com/mrOt4/babel-recomp/releases/download/v1.0/babel-recomp-1.0-linux-x86_64.zip",
+      size: "4.9 MB",
+    },
+    {
       label: "Windows",
       url: "https://github.com/mrOt4/babel-recomp/releases/download/v1.0/babel-recomp-1.0-windows-x86_64.zip",
       size: "4.9 MB",
+    },
+    {
+      label: "macOS",
+      url: "https://github.com/mrOt4/babel-recomp/releases/download/v1.0/babel-recomp-1.0-macos-arm64.zip",
+      size: "3.9 MB",
     },
   ],
   cover: {

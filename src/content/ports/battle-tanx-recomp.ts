@@ -23,11 +23,6 @@ export const battleTanxRecomp: Port = {
   related: ["battletanx","battletanx-global-assault-recomp"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/wootbeer/btrecomp/releases/download/0.1.3/BattleTanxRecompiled-0.1.3-linux-x86_64.tar.gz",
-      size: "5.5 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/wootbeer/btrecomp/releases/download/0.1.3/BattleTanxRecompiled-0.1.3-windows.zip",
       size: "15.3 MB",

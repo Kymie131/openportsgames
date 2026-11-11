@@ -24,29 +24,19 @@ export const ClubPenguinWaddleForever: Port = {
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   downloads: [
     {
-      label: "clothing",
-      url: "https://github.com/nhaar/Waddle-Forever/releases/download/v1.5.1/clothing.zip",
-      size: "625.7 MB",
-    },
-    {
-      label: "default",
-      url: "https://github.com/nhaar/Waddle-Forever/releases/download/v1.5.1/default.zip",
-      size: "1031.1 MB",
-    },
-    {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/nhaar/Waddle-Forever/releases/download/v1.5.1/WaddleForever-1.5.1.dmg",
       size: "112.3 MB",
     },
     {
-      label: "Windows EXE",
-      url: "https://github.com/nhaar/Waddle-Forever/releases/download/v1.5.1/WaddleForever-Setup-1.5.1.exe",
-      size: "84.2 MB",
-    },
-    {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/nhaar/Waddle-Forever/releases/download/v1.5.1/WaddleForeverClient-1.5.1.AppImage",
       size: "107.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/nhaar/Waddle-Forever/releases/download/v1.5.1/WaddleForever-Setup-1.5.1.exe",
+      size: "84.2 MB",
     },
   ],
   cover: {

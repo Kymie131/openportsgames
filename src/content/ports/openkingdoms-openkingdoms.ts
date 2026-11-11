@@ -25,16 +25,6 @@ export const openkingdomsOpenkingdoms: Port = {
   summaryEs: "Total Annihilation: Kingdoms es un videojuego de estrategia publicado por Atari, Inc. en 1999.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/OpenKingdoms/OpenKingdoms/releases/download/v0.5.8/openkingdoms-0.5.8-linux-x86_64.tar.gz",
-      size: "3.0 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/OpenKingdoms/OpenKingdoms/releases/download/v0.5.8/openkingdoms-0.5.8-macos-arm64.tar.gz",
-      size: "2.4 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/OpenKingdoms/OpenKingdoms/releases/download/v0.5.8/openkingdoms-0.5.8-windows-x64.zip",
       size: "9.1 MB",

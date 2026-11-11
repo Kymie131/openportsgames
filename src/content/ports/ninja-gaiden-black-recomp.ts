@@ -24,19 +24,14 @@ export const ninjaGaidenBlackRecomp: Port = {
   summaryEs: "Ninja Gaiden Black es un videojuego hackanslash y aventura desarrollado por Team Ninja y distribuido por Tecmo en 2005.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/gamboozino/ngbrecomp/releases/download/v0.9.58/NinjaGaidenBlack-android-arm64.apk",
-      size: "15.7 MB",
+      label: "Linux",
+      url: "https://github.com/gamboozino/ngbrecomp/releases/download/v0.9.58/NinjaGaidenBlack-x86_64.AppImage",
+      size: "40.0 MB",
     },
     {
       label: "Windows",
       url: "https://github.com/gamboozino/ngbrecomp/releases/download/v0.9.58/NinjaGaidenBlack-windows-x64.zip",
       size: "19.8 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/gamboozino/ngbrecomp/releases/download/v0.9.58/NinjaGaidenBlack-x86_64.AppImage",
-      size: "40.0 MB",
     },
   ],
   cover: {

@@ -25,6 +25,11 @@ export const alleycatX8664Recomp: Port = {
   summaryEs: "Alley Cat es un videojuego para PC y Atari 800 creado por Bill Williams de SynSoft en 1984, en el cual el jugador controla al gato Freddy, un gato con el cual tiene que hacer ciertas tareas en casa de extraños para así poder llegar a su amante, Felicia.",
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/petarov/alleycat.exe/releases/download/1.3/alleycat-1.3-windows-x86_64.zip",
+      size: "807 KB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/petarov/alleycat.exe/releases/download/1.3/alleycat-1.3-linux-x86_64.tar.gz",
       size: "113 KB",
@@ -33,11 +38,6 @@ export const alleycatX8664Recomp: Port = {
       label: "macOS",
       url: "https://github.com/petarov/alleycat.exe/releases/download/1.3/alleycat-1.3-macos-x86_64.zip",
       size: "1.7 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/petarov/alleycat.exe/releases/download/1.3/alleycat-1.3-windows-x86_64.zip",
-      size: "807 KB",
     },
   ],
   cover: {

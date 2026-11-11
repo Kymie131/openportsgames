@@ -25,17 +25,7 @@ export const jorioCromagrally: Port = {
   summaryEs: "Cro-Mag Rally es un videojuego de carreras en 2008.",
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/jorio/CroMagRally/releases/download/3.0.1/CroMagRally-3.0.1-linux-aarch64.AppImage",
-      size: "126.3 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/jorio/CroMagRally/releases/download/3.0.1/CroMagRally-3.0.1-linux-x86_64.AppImage",
-      size: "126.4 MB",
-    },
-    {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/jorio/CroMagRally/releases/download/3.0.1/CroMagRally-3.0.1-mac.dmg",
       size: "128.1 MB",
     },

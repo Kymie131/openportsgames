@@ -26,7 +26,7 @@ export const spoutAndroid: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/EXL/Spout/releases/download/v1.2/Spout_v1.2_05-MAY-2017.apk",
       size: "211 KB",
     },

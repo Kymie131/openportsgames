@@ -25,28 +25,8 @@ export const theLordOfTheRingsTheTwoTowersPc: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/Gumpolas/TooTawersRecomp/releases/download/2.0.0/readmeslanguages.zip",
-      size: "449 KB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/Gumpolas/TooTawersRecomp/releases/download/2.0.0/TwoTowers-Recompiled-v2.0.0-linux-x86_64.tar.gz",
-      size: "170.2 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/Gumpolas/TooTawersRecomp/releases/download/2.0.0/TwoTowers-Recompiled-v2.0.0-macos-x86_64.tar.gz",
-      size: "165.2 MB",
-    },
-    {
-      label: "Windows",
       url: "https://github.com/Gumpolas/TooTawersRecomp/releases/download/2.0.0/TwoTowers-Recompiled-v2.0.0-win64.zip",
       size: "169.8 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/Gumpolas/TooTawersRecomp/releases/download/2.0.0/TwoTowers-Recompiled-v2.0.0-x86_64.AppImage",
-      size: "172.4 MB",
     },
   ],
   cover: {

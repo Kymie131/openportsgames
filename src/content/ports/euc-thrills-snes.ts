@@ -26,7 +26,7 @@ export const eucThrillsSnes: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "euc-thrills-snes-v1.1",
+      label: "Snes",
       url: "https://github.com/VibezZzCoder/EUC-Thrills-SNES-Edition/releases/download/v1.1/euc-thrills-snes-v1.1.zip",
       size: "4.0 MB",
     },

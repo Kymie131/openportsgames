@@ -51,15 +51,13 @@ export const xcxRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/jmars125/xcx-recomp/releases/download/v0.1.16-fixes-test6/XCX-Setup-0.1.16-fixes-test6-windows.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux AppImage",
+      "label": "Linux",
       "url": "https://github.com/jmars125/xcx-recomp/releases/download/v0.1.16-fixes-test6/XCX-Setup-0.1.16-fixes-test6-linux.AppImage",
-      "note": "Linux · AppImage"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/xcx-recomp.jpg",

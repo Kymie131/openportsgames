@@ -27,7 +27,7 @@ export const blueDragonAndroid: Port = {
   notesEs: "Blue Dragon (Android): recompilación nativo de Blue Dragon para android. Aporta tu propia copia del juego.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/JayElDragon/blue-dragon-android/releases/download/BlueDragonV5.0/Blue.Dragon.Recomp5.0.apk",
       size: "25.2 MB",
     },

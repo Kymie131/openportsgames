@@ -27,7 +27,7 @@ export const godOfThunderAndroid: Port = {
     "Source port para Android del juego de DOS God of Thunder (1993), con funciones de comodidad adicionales. Necesita los archivos del juego original, cuya licencia es gratuita.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/wootbeer/gotandroid/releases/download/v0.2/gotandroid-release.apk",
       size: "26.3 MB",
     },

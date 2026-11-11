@@ -22,7 +22,7 @@ export const Crimsonland: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "crimsonland-0.24.0",
+      label: "Windows",
       url: "https://github.com/banteg/crimson/releases/download/v0.24.0/crimsonland-0.24.0.tar.gz",
       size: "725 KB",
     },

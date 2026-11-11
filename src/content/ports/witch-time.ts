@@ -51,15 +51,13 @@ export const witchTime: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/Zexyen/Witch-Time/releases/download/v0.8.1/WitchTime-v0.8.1-windows-x86_64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x86_64",
+      "label": "Linux",
       "url": "https://github.com/Zexyen/Witch-Time/releases/download/v0.8.1/WitchTime-v0.8.1-linux-x86_64.tar.gz",
-      "note": "Linux · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/witch-time.webp",

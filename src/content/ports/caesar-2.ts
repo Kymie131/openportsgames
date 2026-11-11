@@ -22,24 +22,19 @@ export const caesar2: Port = {
   originalSystems: ["MS-DOS"],
   downloads: [
     {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/second-impressions/caesar2-port/releases/download/v1.0.3/caesar2-1.0.3-macos.dmg",
       size: "5.5 MB",
     },
     {
-      label: "caesar2-1.0.3-web",
-      url: "https://github.com/second-impressions/caesar2-port/releases/download/v1.0.3/caesar2-1.0.3-web.zip",
-      size: "2.1 MB",
+      label: "Linux",
+      url: "https://github.com/second-impressions/caesar2-port/releases/download/v1.0.3/caesar2-1.0.3-x86_64.AppImage",
+      size: "4.7 MB",
     },
     {
       label: "Windows",
       url: "https://github.com/second-impressions/caesar2-port/releases/download/v1.0.3/caesar2-1.0.3-windows-x64.zip",
       size: "3.0 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/second-impressions/caesar2-port/releases/download/v1.0.3/caesar2-1.0.3-x86_64.AppImage",
-      size: "4.7 MB",
     },
   ],
   cover: {

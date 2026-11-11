@@ -23,34 +23,34 @@ export const castlevaniaSotnDecomp: Port = {
   related: ["symphony-recomp"],
   downloads: [
     {
-      label: "allegrex-as",
+      label: "Windows",
       url: "https://github.com/Xeeynamo/sotn-decomp/releases/download/cc1-psx-26/allegrex-as.tar.gz",
       size: "4.2 MB",
     },
     {
-      label: "allegrex",
+      label: "Windows",
       url: "https://github.com/Xeeynamo/sotn-decomp/releases/download/cc1-psx-26/allegrex.tar.gz",
       size: "4.2 MB",
     },
     {
-      label: "cc1-psx-26",
-      url: "https://github.com/Xeeynamo/sotn-decomp/releases/download/cc1-psx-26/cc1-psx-26.tar.gz",
-      size: "1.0 MB",
-    },
-    {
-      label: "clang-format",
-      url: "https://github.com/Xeeynamo/sotn-decomp/releases/download/cc1-psx-26/clang-format.tar.gz",
-      size: "1.9 MB",
-    },
-    {
-      label: "cygnus-2.7-96Q3-bin",
+      label: "Windows",
       url: "https://github.com/Xeeynamo/sotn-decomp/releases/download/cc1-psx-26/cygnus-2.7-96Q3-bin.tar.gz",
       size: "3.2 MB",
     },
     {
-      label: "mwccpsp_219",
+      label: "Windows",
+      url: "https://github.com/Xeeynamo/sotn-decomp/releases/download/cc1-psx-26/clang-format.tar.gz",
+      size: "1.9 MB",
+    },
+    {
+      label: "Windows",
       url: "https://github.com/Xeeynamo/sotn-decomp/releases/download/cc1-psx-26/mwccpsp_219.tar.gz",
       size: "1.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Xeeynamo/sotn-decomp/releases/download/cc1-psx-26/cc1-psx-26.tar.gz",
+      size: "1.0 MB",
     },
   ],
   cover: {

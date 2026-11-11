@@ -27,13 +27,13 @@ export const nwnxeeUnified: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/nwnxee/unified/releases/download/latest/NWNX-EE.zip",
-      size: "69.2 MB",
+      url: "https://github.com/nwnxee/unified/releases/download/latest/NWScript.zip",
+      size: "156 KB",
     },
     {
       label: "Windows",
-      url: "https://github.com/nwnxee/unified/releases/download/latest/NWScript.zip",
-      size: "156 KB",
+      url: "https://github.com/nwnxee/unified/releases/download/latest/NWNX-EE.zip",
+      size: "69.2 MB",
     },
   ],
   cover: {

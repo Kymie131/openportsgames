@@ -27,12 +27,12 @@ export const drMarioNesRecomp: Port = {
     "Recompilación estática de Dr. Mario (NES) con el framework NESRecomp. Jugable: pantalla de título, menú de opciones y el modo de un jugador, con builds separadas para la ROM USA (Rev 1) y la europea.",
   downloads: [
     {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/mstan/DrMarioNesRecomp/releases/download/v1.3.1/DrMarioRecomp-eu-windows-x64.zip",
       size: "4.5 MB",
     },
     {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/mstan/DrMarioNesRecomp/releases/download/v1.3.1/DrMarioRecomp-usa-windows-x64.zip",
       size: "4.5 MB",
     },

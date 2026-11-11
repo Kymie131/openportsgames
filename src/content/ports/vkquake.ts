@@ -42,22 +42,22 @@ export const vkQuake: Port = {
   },
   downloads: [
     {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/Novum/vkQuake/releases/download/1.37.0/vkQuake-1.37.0-x86_64.AppImage",
       size: "9.1 MB",
     },
     {
-      label: "Windows",
+      label: "Windows arm64",
       url: "https://github.com/Novum/vkQuake/releases/download/1.37.0/vkQuake-1.37.0_windows_arm64.zip",
       size: "5.9 MB",
     },
     {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/Novum/vkQuake/releases/download/1.37.0/vkQuake-1.37.0_windows_x64.zip",
       size: "5.5 MB",
     },
     {
-      label: "Windows EXE",
+      label: "Windows x64",
       url: "https://github.com/Novum/vkQuake/releases/download/1.37.0/vkQuake-Installer-windows_x64-1.37.0.exe",
       size: "4.1 MB",
     },

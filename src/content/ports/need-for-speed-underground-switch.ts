@@ -26,11 +26,6 @@ export const needForSpeedUndergroundSwitch: Port = {
       url: "https://github.com/antoxa2584x/nfsu1-sw/releases/download/v0.4.0/NFS.Underground.Xbox.recomp.0108c1f564c00000.nsp",
       size: "403 KB",
     },
-    {
-      label: "Switch",
-      url: "https://github.com/antoxa2584x/nfsu1-sw/releases/download/v0.4.0/nfsu1x.zip",
-      size: "10.0 MB",
-    },
   ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/52/Need_for_Speed_Underground_cover.jpg",

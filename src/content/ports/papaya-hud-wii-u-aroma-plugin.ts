@@ -26,7 +26,7 @@ export const papayaHudWiiUAromaPlugin: Port = {
   summaryEs: "Nintendo Wii U , con nombre clave Project Café es una consola descontinuada perteneciente a la octava generación de videoconsolas, siendo la séptima consola de sobremesa desarrollada por Nintendo, fabricada en China por Foxconn y en Japón por Mitsumi se lanzó como directa sucesora de Wii. La consola fue lanzada el 18 de noviembre de 2012 en terreno norteamericano siendo su fecha de apertura. Se presentó en la conferencia de Nintendo durante el Electronic Entertainment Expo 2011 el 7 de junio de 2011. Competía principalmente con la PlayStation 4 de Sony y la Xbox One de Microsoft.",
   downloads: [
     {
-      label: "papaya-hud-0.4.2",
+      label: "Wiiu",
       url: "https://github.com/dkosmari/Papaya-HUD/releases/download/v0.4.2/papaya-hud-0.4.2.tar.gz",
       size: "2.6 MB",
     },

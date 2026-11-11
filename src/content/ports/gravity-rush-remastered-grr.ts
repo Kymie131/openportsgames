@@ -36,19 +36,19 @@ export const gravityRushRemasteredGrr: Port = {
   },
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/rodrigojacarei/grr_pc/releases/download/v2026.10.30-1856116/GravityRushRemastered-x86_64.AppImage",
-      size: "76.5 MB",
+      label: "Windows",
+      url: "https://github.com/rodrigojacarei/grr_pc/releases/download/v2026.10.30-1856116/grr-windows-x86_64.zip",
+      size: "110.4 MB",
     },
     {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/rodrigojacarei/grr_pc/releases/download/v2026.10.30-1856116/grr-linux-x86_64.tar.gz",
       size: "84.4 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/rodrigojacarei/grr_pc/releases/download/v2026.10.30-1856116/grr-windows-x86_64.zip",
-      size: "110.4 MB",
+      label: "Linux x64",
+      url: "https://github.com/rodrigojacarei/grr_pc/releases/download/v2026.10.30-1856116/GravityRushRemastered-x86_64.AppImage",
+      size: "76.5 MB",
     },
   ],
   cover: {

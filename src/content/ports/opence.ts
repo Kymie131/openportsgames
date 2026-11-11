@@ -31,19 +31,14 @@ export const Opence: Port = {
     "Port de la edición comunitaria de la decompilación de Halo: Combat Evolved (Xbox) para Windows, Linux, Android y web. La build 337 (1 de noviembre) es la versión actual. Las builds de escritorio son x86 de 32 bits con OpenGL 4.5; Android es arm64 con OpenGL ES 3 (Android 9+); la build de navegador es WebAssembly con WebGL 2 y se juega en halocombatevolved.com. El cross-play admite hasta 128 jugadores, campaña cooperativa online, pantalla dividida para cuatro jugadores, navegador de servidores, chat de voz y mapas de Custom Edition; hay una build de macOS en progreso. El jugador aporta su propia imagen de disco de Xbox; no se distribuye contenido del juego.",
   downloads: [
     {
-      label: "Android",
-      url: "https://github.com/OpenCommunityEdition/OpenCE/releases/download/build-343/halo-android-release.zip",
-      size: "18.6 MB",
-    },
-    {
       label: "Linux",
       url: "https://github.com/OpenCommunityEdition/OpenCE/releases/download/build-343/halo-linux-release.zip",
       size: "23.3 MB",
     },
     {
-      label: "halo-web-release",
-      url: "https://github.com/OpenCommunityEdition/OpenCE/releases/download/build-343/halo-web-release.zip",
-      size: "12.3 MB",
+      label: "Android",
+      url: "https://github.com/OpenCommunityEdition/OpenCE/releases/download/build-343/halo-android-release.zip",
+      size: "18.6 MB",
     },
     {
       label: "Windows",

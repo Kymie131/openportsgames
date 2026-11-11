@@ -25,17 +25,7 @@ export const jorioOttomatic: Port = {
   summaryEs: "Otto Matic es un videojuego de acción y aventura de 2001 desarrollado por Pangea Software y publicado por Aspyr Media para Mac OS 8, Mac OS 9 y Mac OS X. Venía empaquetado con los ordenadores iMac G3 y G4. El juego fue portado por Ideas From the Deep a Microsoft Windows en 2004. Una versión para iPhone OS, titulada Otto Matic: Alien Invasion, fue lanzada por Pangea en 2009.",
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/jorio/OttoMatic/releases/download/4.0.1/OttoMatic-4.0.1-linux-aarch64.AppImage",
-      size: "140.8 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/jorio/OttoMatic/releases/download/4.0.1/OttoMatic-4.0.1-linux-x86_64.AppImage",
-      size: "141.0 MB",
-    },
-    {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/jorio/OttoMatic/releases/download/4.0.1/OttoMatic-4.0.1-mac.dmg",
       size: "147.5 MB",
     },

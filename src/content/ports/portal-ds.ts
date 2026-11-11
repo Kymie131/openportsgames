@@ -22,7 +22,7 @@ export const portalDs: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "ASDS_r1",
+      label: "Ds",
       url: "https://github.com/smealum/portalDS/releases/download/r1/ASDS_r1.zip",
       size: "1.3 MB",
     },

@@ -22,7 +22,7 @@ export const paperboatAndroid: Port = {
   originalSystems: ["Nintendo 64"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/chris43123/PaperBoat/releases/download/v1.1.0-airx.1/Paperboat-1.1.0-airx.1-arm64.apk",
       size: "39.4 MB",
     },

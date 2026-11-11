@@ -23,19 +23,14 @@ export const overkilllabs3ViceCityStoriesRecomp: Port = {
   originalSystems: ["PlayStation Portable"],
   downloads: [
     {
-      label: "macOS",
-      url: "https://github.com/OverkillLabs3/vice-city-stories-recomp/releases/download/v1.0.0/VCSNative-macOS.zip",
-      size: "19.5 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/OverkillLabs3/vice-city-stories-recomp/releases/download/v1.0.0/VCSNative-Windows.zip",
       size: "19.9 MB",
     },
     {
-      label: "VCSTexturePack",
-      url: "https://github.com/OverkillLabs3/vice-city-stories-recomp/releases/download/v1.0.0/VCSTexturePack.zip",
-      size: "625.4 MB",
+      label: "macOS",
+      url: "https://github.com/OverkillLabs3/vice-city-stories-recomp/releases/download/v1.0.0/VCSNative-macOS.zip",
+      size: "19.5 MB",
     },
   ],
   cover: {

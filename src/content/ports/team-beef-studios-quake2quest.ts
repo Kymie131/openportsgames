@@ -27,7 +27,7 @@ export const teamBeefStudiosQuake2quest: Port = {
   notesEs: "Quake II: source port de Team-Beef-Studios para Windows. Aporta tu propia copia del juego.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Team-Beef-Studios/Quake2Quest/releases/download/v1.1.1/quake2quest-v1.1.1.apk",
       size: "174.2 MB",
     },

@@ -23,7 +23,7 @@ export const zelda3Android: Port = {
   related: ["zelda3"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/samyost1/zelda3-android/releases/download/v2.0/zelda3-dualscreen.apk",
       size: "9.5 MB",
     },

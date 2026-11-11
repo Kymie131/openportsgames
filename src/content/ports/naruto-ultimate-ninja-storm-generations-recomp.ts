@@ -22,7 +22,7 @@ export const narutoStormGenerationsRecomp: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Masterllgod/naruto-storm-generations-port-nativo/releases/download/v0.4.16/NarutoStormGenerations-PortNativo-v0.4.16-arm64.apk",
       size: "15.2 MB",
     },

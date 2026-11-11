@@ -22,11 +22,6 @@ export const hybridHeavenPcDanielgomesvieira2000: Port = {
   originalSystems: ["Nintendo 64"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/danielgomesvieira2000/hybrid-heaven-recomp/releases/download/v0.2.0/hybrid-heaven-recomp-0.2.0-linux-x86_64.tar.gz",
-      size: "8.2 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/danielgomesvieira2000/hybrid-heaven-recomp/releases/download/v0.2.0/hybrid-heaven-recomp-0.2.0-windows-x64.zip",
       size: "18.3 MB",

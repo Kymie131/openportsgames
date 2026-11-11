@@ -54,15 +54,13 @@ export const xMen2CloneWarsPc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/crabsmack/xmen2-pc/releases/download/v1.2.0/xmen2-native-windows.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/crabsmack/xmen2-pc/releases/download/v1.2.0/xmen2-native-linux.zip",
-      "note": "Linux · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/x-men-2-clone-wars-pc.png",

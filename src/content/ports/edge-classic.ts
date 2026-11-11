@@ -31,13 +31,13 @@ export const EdgeClassic: Port = {
     },
     {
       label: "Windows",
-      url: "https://github.com/edge-classic/EDGE-classic/releases/download/1.53/edge-classic-win32.zip",
-      size: "13.0 MB",
-    },
-    {
-      label: "Windows",
       url: "https://github.com/edge-classic/EDGE-classic/releases/download/1.53/edge-classic-win64.zip",
       size: "13.7 MB",
+    },
+    {
+      label: "Windows x86",
+      url: "https://github.com/edge-classic/EDGE-classic/releases/download/1.53/edge-classic-win32.zip",
+      size: "13.0 MB",
     },
   ],
   cover: {

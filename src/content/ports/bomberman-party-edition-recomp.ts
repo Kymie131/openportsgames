@@ -27,21 +27,6 @@ export const bombermanPartyEditionRecomp: Port = {
     "PortsDR lista esta recompilación sin repositorio público. Necesitas el juego para jugarla.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/TechnicallyComputers/BombermanPartyEditionRecomp/releases/download/v0.3.18/bpe-0.3.18-linux-x64.zip",
-      size: "51.1 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/TechnicallyComputers/BombermanPartyEditionRecomp/releases/download/v0.3.18/bpe-0.3.18-macos-arm64.zip",
-      size: "27.2 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/TechnicallyComputers/BombermanPartyEditionRecomp/releases/download/v0.3.18/bpe-0.3.18-macos-x64.zip",
-      size: "27.9 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/TechnicallyComputers/BombermanPartyEditionRecomp/releases/download/v0.3.18/bpe-0.3.18-windows-x64.zip",
       size: "29.6 MB",

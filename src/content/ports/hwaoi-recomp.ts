@@ -50,10 +50,9 @@ export const hwaoiRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows compiler",
+      "label": "Windows",
       "url": "https://github.com/Alano6678/hwaoi-recomp/releases/download/v0.1.0-alpha.5/HWAoI-Compiler-Windows-x64.zip",
-      "note": "Windows · compiler"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/hwaoi-recomp.png",

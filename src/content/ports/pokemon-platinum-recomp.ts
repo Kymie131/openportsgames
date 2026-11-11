@@ -27,21 +27,6 @@ export const pokemonPlatinumRecomp: Port = {
     "Port para PC de 64 bits de Pokémon Platinum basado en la decompilación de pret y la suite libntr. Necesita una copia del juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/cybervisi0n/pokeplatinum/releases/download/v0.2.1/release_linux.zip",
-      size: "69.1 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/cybervisi0n/pokeplatinum/releases/download/v0.2.1/release_nx.zip",
-      size: "6.3 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/cybervisi0n/pokeplatinum/releases/download/v0.2.1/release_ps5.zip",
-      size: "15.8 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/cybervisi0n/pokeplatinum/releases/download/v0.2.1/release_win64.zip",
       size: "41.1 MB",

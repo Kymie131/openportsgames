@@ -25,11 +25,6 @@ export const laytonMansionMirrorPc: Port = {
   summaryEs: "El profesor Layton y la mansión del espejo de la muerte es un juego de misterio y puzles desarrollado por la compañía japonesa Level-5. Se trata de un spin-off de la saga de videojuegos del Profesor Layton. Fue desarrollado para teléfonos i-mode y publicado en Japón el 29 de octubre de 2008, aunque fue relanzado el 1 de noviembre de 2012. Actualmente esta entrega está parcialmente considerada un Lost Media, ya que solo se conserva la versión original del juego, pero su edición REMIX sigue desaparecida.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/LaytonLostMedia/LaytonMotdmPcPort/releases/download/2.0/LaytonMotdmPlayer_linux-x64.zip",
-      size: "34.4 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/LaytonLostMedia/LaytonMotdmPcPort/releases/download/2.0/LaytonMotdmPlayer_win-x64.zip",
       size: "35.2 MB",

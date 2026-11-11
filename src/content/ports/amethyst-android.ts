@@ -28,7 +28,7 @@ export const amethystAndroid: Port = {
     "Lanzador de Minecraft: Java Edition para Android e iOS, basado en PojavLauncher. Ejecuta la versión Java de Minecraft y requiere tu propia cuenta y archivos del juego.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/AngelAuraMC/Amethyst-Android/releases/download/1.1.7/Amethyst.apk",
       size: "149.3 MB",
     },

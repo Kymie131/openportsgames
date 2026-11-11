@@ -22,7 +22,7 @@ export const libertyrecompandroid: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/vaduur/LibertyRecompAndroid/releases/download/v0.5.9.3/LibertyRecompAndroid-v0.5.9.3.apk",
       size: "45.1 MB",
     },

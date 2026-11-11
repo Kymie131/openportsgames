@@ -22,7 +22,7 @@ export const helltakerPsp: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "HelltakerPSP",
+      label: "Psp",
       url: "https://github.com/surelynotvain/helltaker-psp/releases/download/full-game-2.1/HelltakerPSP.zip",
       size: "65.1 MB",
     },

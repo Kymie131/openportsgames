@@ -27,7 +27,7 @@ export const xMenDestinyRecomp: Port = {
     "Recompilación estática de X-Men Destiny (Xbox 360) con el SDK ReXGlue, que usa Direct3D 12 en Windows y Vulkan en Linux. No incluye contenido del juego y trae un lanzador para gráficos y controles.",
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/florinp93/xmd-recompiled/releases/download/v0.1.0-alpha.3/xmd_installer.exe",
       size: "21.8 MB",
     },

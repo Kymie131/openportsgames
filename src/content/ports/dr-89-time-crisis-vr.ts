@@ -25,11 +25,6 @@ export const dr89TimeCrisisVr: Port = {
   summaryEs: "Time Crisis es un Videojuego de disparos disponible al principio en salas con máquinas recreativas y posteriormente para la consola PlayStation y teléfonos móviles. Debutó en 1997 y en los años siguientes han ido apareciendo en máquinas recreativas tres secuelas y tres spin-off.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/DR-89/time-crisis-vr/releases/download/v0.9.4/TimeCrisisVR-v0.9.4-quest3.apk",
-      size: "23.5 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/DR-89/time-crisis-vr/releases/download/v0.9.4/TimeCrisisVR-v0.9.4-windows-x64.zip",
       size: "23.9 MB",

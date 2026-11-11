@@ -32,7 +32,7 @@ export const gundamBattleMasterRecomp: Port = {
       size: "8.4 MB",
     },
     {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/omegakatana92/GundamBattleMasterRecomp/releases/download/v1.0.0/Gundam_Battle_Master_Recompiled-v1.0.0-linux-x86_64.AppImage",
       size: "6.8 MB",
     },

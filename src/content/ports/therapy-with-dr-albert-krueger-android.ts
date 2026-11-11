@@ -24,7 +24,7 @@ export const therapyWithDrAlbertKruegerAndroid: Port = {
   summaryEs: "Therapy With Dr. Albert Krueger es un videojuego de rol.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Unkzittys/TherapyWithDrAlbertKrueger_AndroidPort/releases/download/1.0.2/TherapyWithDrAlbertKrueger.apk",
       size: "90.9 MB",
     },

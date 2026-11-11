@@ -30,14 +30,14 @@ export const sergiou87OpenSupaplex: Port = {
       size: "9.1 MB",
     },
     {
-      label: "Linux",
-      url: "https://github.com/sergiou87/open-supaplex/releases/download/v7.2.2/OpenSupaplex-linux.zip",
-      size: "3.8 MB",
-    },
-    {
       label: "macOS",
       url: "https://github.com/sergiou87/open-supaplex/releases/download/v7.2.2/OpenSupaplex-macOS.zip",
       size: "8.6 MB",
+    },
+    {
+      label: "Switch",
+      url: "https://github.com/sergiou87/open-supaplex/releases/download/v7.2.2/OpenSupaplex-switch.zip",
+      size: "6.9 MB",
     },
     {
       label: "Windows",
@@ -50,9 +50,9 @@ export const sergiou87OpenSupaplex: Port = {
       size: "4.4 MB",
     },
     {
-      label: "Switch",
-      url: "https://github.com/sergiou87/open-supaplex/releases/download/v7.2.2/OpenSupaplex-switch.zip",
-      size: "6.9 MB",
+      label: "Linux",
+      url: "https://github.com/sergiou87/open-supaplex/releases/download/v7.2.2/OpenSupaplex-linux.zip",
+      size: "3.8 MB",
     },
   ],
   cover: {

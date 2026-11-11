@@ -27,6 +27,11 @@ export const paperMarioPaperboat: Port = {
     "Port nativo basado en decompilación de Paper Mario (Nintendo 64). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/HarbourMasters/PaperBoat/releases/download/1.0.3/Paperboat-Mulberry-Delta-Win64.zip",
+      size: "26.2 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/HarbourMasters/PaperBoat/releases/download/1.0.3/Paperboat-Mulberry-Delta-Linux.zip",
       size: "20.4 MB",
@@ -35,11 +40,6 @@ export const paperMarioPaperboat: Port = {
       label: "macOS",
       url: "https://github.com/HarbourMasters/PaperBoat/releases/download/1.0.3/Paperboat-Mulberry-Delta-Mac.zip",
       size: "15.6 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/HarbourMasters/PaperBoat/releases/download/1.0.3/Paperboat-Mulberry-Delta-Win64.zip",
-      size: "26.2 MB",
     },
   ],
   cover: {

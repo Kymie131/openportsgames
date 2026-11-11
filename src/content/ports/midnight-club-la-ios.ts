@@ -23,7 +23,7 @@ export const midnightClubLaIos: Port = {
   related: ["midnight-club-la-recomp"],
   downloads: [
     {
-      label: "iOS IPA",
+      label: "iOS",
       url: "https://github.com/KoreanSeats1/MCLA-4iOS/releases/download/v1.0.4/MCLA-4iOS-1.0.4.ipa",
       size: "23.6 MB",
     },

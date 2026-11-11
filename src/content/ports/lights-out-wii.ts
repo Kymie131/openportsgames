@@ -25,29 +25,29 @@ export const lightsOutWii: Port = {
   summaryEs: "Lights Out es un videojuego de puzles publicado por Campus ADN en 2019.",
   downloads: [
     {
-      label: "liightsout-beta1-20090118",
-      url: "https://github.com/BHSPitMonkey/LiightsOut/releases/download/v1.0-beta5/liightsout-beta1-20090118.zip",
-      size: "407 KB",
-    },
-    {
-      label: "liightsout-beta2-20090119",
-      url: "https://github.com/BHSPitMonkey/LiightsOut/releases/download/v1.0-beta5/liightsout-beta2-20090119.zip",
-      size: "416 KB",
-    },
-    {
-      label: "liightsout-beta3-20090131",
-      url: "https://github.com/BHSPitMonkey/LiightsOut/releases/download/v1.0-beta5/liightsout-beta3-20090131.zip",
-      size: "1.9 MB",
-    },
-    {
-      label: "liightsout-beta4-20090207",
+      label: "Wii",
       url: "https://github.com/BHSPitMonkey/LiightsOut/releases/download/v1.0-beta5/liightsout-beta4-20090207.zip",
       size: "876 KB",
     },
     {
-      label: "liightsout-beta5-20090213",
+      label: "Wii",
       url: "https://github.com/BHSPitMonkey/LiightsOut/releases/download/v1.0-beta5/liightsout-beta5-20090213.zip",
       size: "876 KB",
+    },
+    {
+      label: "Wii",
+      url: "https://github.com/BHSPitMonkey/LiightsOut/releases/download/v1.0-beta5/liightsout-beta2-20090119.zip",
+      size: "416 KB",
+    },
+    {
+      label: "Wii",
+      url: "https://github.com/BHSPitMonkey/LiightsOut/releases/download/v1.0-beta5/liightsout-beta1-20090118.zip",
+      size: "407 KB",
+    },
+    {
+      label: "Wii",
+      url: "https://github.com/BHSPitMonkey/LiightsOut/releases/download/v1.0-beta5/liightsout-beta3-20090131.zip",
+      size: "1.9 MB",
     },
   ],
   cover: {

@@ -22,14 +22,14 @@ export const starWarsBattlefrontRenegadeSquadronPc: Port = {
   originalSystems: ["PlayStation Portable"],
   downloads: [
     {
-      label: "RenegadeSquadronPC-0.9.1-linux-ubuntu26.04-x86_64",
-      url: "https://github.com/GTTeancum/StarWars-RenegadeSquadron-PC/releases/download/v0.9.1/RenegadeSquadronPC-0.9.1-linux-ubuntu26.04-x86_64.tar.gz",
-      size: "27.0 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/GTTeancum/StarWars-RenegadeSquadron-PC/releases/download/v0.9.1/RenegadeSquadronPC-0.9.1.zip",
       size: "53.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/GTTeancum/StarWars-RenegadeSquadron-PC/releases/download/v0.9.1/RenegadeSquadronPC-0.9.1-linux-ubuntu26.04-x86_64.tar.gz",
+      size: "27.0 MB",
     },
   ],
   cover: {

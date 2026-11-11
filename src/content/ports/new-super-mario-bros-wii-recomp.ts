@@ -28,24 +28,19 @@ export const newSuperMarioBrosWiiRecomp: Port = {
     "Recompilación estática de New Super Mario Bros. Wii construida sobre WiiCompiled, que corre de forma nativa en Windows y Android, con multijugador. Necesita tus propios datos del juego.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Windows",
+      url: "https://github.com/WitherBlitz/NSMB-Wii-Recompilation/releases/download/v0.5.0/NSMBW-0.5.0-windows-x64.zip",
+      size: "132.8 MB",
+    },
+    {
+      label: "Android arm64",
       url: "https://github.com/WitherBlitz/NSMB-Wii-Recompilation/releases/download/v0.5.0/NSMBW-0.5.0-android-arm64.apk",
       size: "126.2 MB",
     },
     {
-      label: "Linux",
-      url: "https://github.com/WitherBlitz/NSMB-Wii-Recompilation/releases/download/v0.5.0/NSMBW-0.5.0-linux-x86_64.tar.gz",
-      size: "147.0 MB",
-    },
-    {
-      label: "Android",
+      label: "Android arm64",
       url: "https://github.com/WitherBlitz/NSMB-Wii-Recompilation/releases/download/v0.5.0/NSMBW-0.5.0-newer-android-arm64.zip",
       size: "49.8 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/WitherBlitz/NSMB-Wii-Recompilation/releases/download/v0.5.0/NSMBW-0.5.0-windows-x64.zip",
-      size: "132.8 MB",
     },
   ],
   cover: {

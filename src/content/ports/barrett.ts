@@ -25,14 +25,14 @@ export const Barrett: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/lunarmeadow/barrett/releases/download/v1.3-beta/barrett-linux.zip",
-      size: "901 KB",
-    },
-    {
       label: "macOS",
       url: "https://github.com/lunarmeadow/barrett/releases/download/v1.3-beta/barrett-macOS.zip",
       size: "906 KB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/lunarmeadow/barrett/releases/download/v1.3-beta/barrett-linux.zip",
+      size: "901 KB",
     },
     {
       label: "Windows",

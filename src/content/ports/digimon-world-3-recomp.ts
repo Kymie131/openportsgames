@@ -23,24 +23,24 @@ export const digimonWorld3Recomp: Port = {
   related: ["digimon-world-recomp","digimon-world-2-recomp"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/ArmDucks/DigimonWorld3-Recomp/releases/download/v0.0.1/DW3Recomp-v0.0.1-linux-arm64.tar.gz",
-      size: "93.7 MB",
+      label: "Windows",
+      url: "https://github.com/ArmDucks/DigimonWorld3-Recomp/releases/download/v0.0.1/DW3Recomp-v0.0.1-windows-x64.zip",
+      size: "101.6 MB",
     },
     {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/ArmDucks/DigimonWorld3-Recomp/releases/download/v0.0.1/DW3Recomp-v0.0.1-linux-x64.tar.gz",
       size: "96.8 MB",
+    },
+    {
+      label: "Linux arm64",
+      url: "https://github.com/ArmDucks/DigimonWorld3-Recomp/releases/download/v0.0.1/DW3Recomp-v0.0.1-linux-arm64.tar.gz",
+      size: "93.7 MB",
     },
     {
       label: "macOS",
       url: "https://github.com/ArmDucks/DigimonWorld3-Recomp/releases/download/v0.0.1/DW3Recomp-v0.0.1-macos-arm64.tar.gz",
       size: "87.2 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/ArmDucks/DigimonWorld3-Recomp/releases/download/v0.0.1/DW3Recomp-v0.0.1-windows-x64.zip",
-      size: "101.6 MB",
     },
   ],
   cover: {

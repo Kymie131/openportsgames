@@ -53,20 +53,17 @@ export const superBomberman5Recomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/MauricioSuporte/SuperBomberman5SNESRecomp/releases/download/v3.2.2/superbomberman5-3.2.2-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux AppImage",
+      "label": "Linux",
       "url": "https://github.com/MauricioSuporte/SuperBomberman5SNESRecomp/releases/download/v3.2.2/superbomberman5-3.2.2-linux-x86_64.AppImage",
-      "note": "Linux · AppImage"
     },
     {
       "label": "Android",
       "url": "https://github.com/MauricioSuporte/SuperBomberman5SNESRecomp/releases/download/v3.2.2/superbomberman5-3.2.2-android.apk",
-      "note": "Android · APK"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/super-bomberman-5-recomp.png",

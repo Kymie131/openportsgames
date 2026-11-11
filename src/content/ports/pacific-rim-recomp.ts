@@ -26,14 +26,14 @@ export const pacificRimRecomp: Port = {
   summaryGenerated: true,
   downloads: [
     {
+      label: "Linux x64",
+      url: "https://github.com/thefixinhixon/PacificRimRecomp/releases/download/v1.0/PacificRim-x86_64-v1.0.AppImage",
+      size: "72.7 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/thefixinhixon/PacificRimRecomp/releases/download/v1.0/PacificRim-Linux-v1.0.zip",
       size: "72.0 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/thefixinhixon/PacificRimRecomp/releases/download/v1.0/PacificRim-x86_64-v1.0.AppImage",
-      size: "72.7 MB",
     },
   ],
   cover: {

@@ -38,34 +38,29 @@ export const bomberman64Recomp: Port = {
     "Bomberman 64 reconstruido con N64: Recompiled. El repositorio y sus releases no contienen recursos del juego, así que el jugador debe aportar su propio juego obtenido legalmente.",
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/RevoSucks/BM64Recomp/releases/download/v1.0.0/BM64Recompiled-AppImage-ARM64-Release.zip",
-      size: "41.0 MB",
-    },
-    {
-      label: "Linux AppImage",
+      label: "Linux x64",
       url: "https://github.com/RevoSucks/BM64Recomp/releases/download/v1.0.0/BM64Recompiled-AppImage-X64-Release.zip",
       size: "41.7 MB",
     },
     {
-      label: "BM64Recompiled-Flatpak-X64-Release",
-      url: "https://github.com/RevoSucks/BM64Recomp/releases/download/v1.0.0/BM64Recompiled-Flatpak-X64-Release.zip",
-      size: "9.8 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/RevoSucks/BM64Recomp/releases/download/v1.0.0/BM64Recompiled-Linux-ARM64-Release.zip",
-      size: "15.3 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/RevoSucks/BM64Recomp/releases/download/v1.0.0/BM64Recompiled-Linux-X64-Release.zip",
-      size: "15.2 MB",
+      label: "Linux arm64",
+      url: "https://github.com/RevoSucks/BM64Recomp/releases/download/v1.0.0/BM64Recompiled-AppImage-ARM64-Release.zip",
+      size: "41.0 MB",
     },
     {
       label: "macOS",
       url: "https://github.com/RevoSucks/BM64Recomp/releases/download/v1.0.0/BM64Recompiled-macOS-Release.zip",
       size: "25.8 MB",
+    },
+    {
+      label: "Linux arm64",
+      url: "https://github.com/RevoSucks/BM64Recomp/releases/download/v1.0.0/BM64Recompiled-Linux-ARM64-Release.zip",
+      size: "15.3 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/RevoSucks/BM64Recomp/releases/download/v1.0.0/BM64Recompiled-Linux-X64-Release.zip",
+      size: "15.2 MB",
     },
   ],
   cover: {

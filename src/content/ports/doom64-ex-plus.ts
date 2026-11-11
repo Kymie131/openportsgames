@@ -44,11 +44,6 @@ export const doom64ExPlus: Port = {
       url: "https://github.com/atsb/Doom64EX-Plus/releases/download/5.2.0.0/doom64ex-plus-5.2.0.0-win64.zip",
       size: "3.9 MB",
     },
-    {
-      label: "macOS DMG",
-      url: "https://github.com/atsb/Doom64EX-Plus/releases/download/5.2.0.0/DOOM64EXPlus-5.2.0.0.dmg",
-      size: "9.1 MB",
-    },
   ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Doom%2064%20(USA).png",

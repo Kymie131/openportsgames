@@ -25,32 +25,32 @@ export const doyaguBallanced: Port = {
   summaryEs: "Ballance es un videojuego de rompecabezas por niveles, desarrollado por Cyparade en abril de 2004 para PC.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/doyaGu/Ballanced/releases/download/v0.2.0/ballance-sdl-linux-arm64-runtime.tar.gz",
-      size: "13.6 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/doyaGu/Ballanced/releases/download/v0.2.0/ballance-sdl-linux-arm64-static.tar.gz",
-      size: "12.7 MB",
-    },
-    {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/doyaGu/Ballanced/releases/download/v0.2.0/ballance-sdl-linux-x64-runtime.tar.gz",
       size: "14.0 MB",
     },
     {
-      label: "Linux",
+      label: "Linux arm64",
+      url: "https://github.com/doyaGu/Ballanced/releases/download/v0.2.0/ballance-sdl-linux-arm64-runtime.tar.gz",
+      size: "13.6 MB",
+    },
+    {
+      label: "Linux x64",
       url: "https://github.com/doyaGu/Ballanced/releases/download/v0.2.0/ballance-sdl-linux-x64-static.tar.gz",
       size: "13.1 MB",
     },
     {
-      label: "macOS",
+      label: "Linux arm64",
+      url: "https://github.com/doyaGu/Ballanced/releases/download/v0.2.0/ballance-sdl-linux-arm64-static.tar.gz",
+      size: "12.7 MB",
+    },
+    {
+      label: "macOS arm64",
       url: "https://github.com/doyaGu/Ballanced/releases/download/v0.2.0/ballance-sdl-macos-arm64-runtime.tar.gz",
       size: "12.1 MB",
     },
     {
-      label: "macOS",
+      label: "macOS arm64",
       url: "https://github.com/doyaGu/Ballanced/releases/download/v0.2.0/ballance-sdl-macos-arm64-static.tar.gz",
       size: "11.3 MB",
     },

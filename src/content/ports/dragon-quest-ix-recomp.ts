@@ -53,20 +53,17 @@ export const dragonQuestIxRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/Ajustor/dq9Recomp-releases/releases/download/v2.0.542/dq9recomp-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/Ajustor/dq9Recomp-releases/releases/download/v2.0.542/dq9recomp-linux-x64.tar.gz",
-      "note": "Linux · x64"
     },
     {
-      "label": "Android arm64",
+      "label": "Android",
       "url": "https://github.com/Ajustor/dq9Recomp-releases/releases/download/v2.0.542/dq9recomp-android-arm64.apk",
-      "note": "Android · APK"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/dragon-quest-ix-recomp.png",

@@ -28,14 +28,9 @@ export const descent3: Port = {
     "Publicación de código abierto oficial de Descent 3 por los Descent Developers, con builds para Windows, Linux y macOS. Necesita los datos del juego comercial para jugar.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/DescentDevelopers/Descent3/releases/download/v1.5.0/Descent3_Release_Linux-x64.zip",
-      size: "7.5 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/DescentDevelopers/Descent3/releases/download/v1.5.0/Descent3_Release_macOS-ARM.zip",
-      size: "9.2 MB",
+      label: "Windows",
+      url: "https://github.com/DescentDevelopers/Descent3/releases/download/v1.5.0/Descent3_Release_Windows-x64.zip",
+      size: "12.6 MB",
     },
     {
       label: "macOS",
@@ -43,9 +38,14 @@ export const descent3: Port = {
       size: "9.8 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/DescentDevelopers/Descent3/releases/download/v1.5.0/Descent3_Release_Windows-x64.zip",
-      size: "12.6 MB",
+      label: "macOS",
+      url: "https://github.com/DescentDevelopers/Descent3/releases/download/v1.5.0/Descent3_Release_macOS-ARM.zip",
+      size: "9.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/DescentDevelopers/Descent3/releases/download/v1.5.0/Descent3_Release_Linux-x64.zip",
+      size: "7.5 MB",
     },
   ],
   cover: {

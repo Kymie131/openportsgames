@@ -25,29 +25,19 @@ export const Meleepc: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/999sian/melee-pc/releases/download/v0.4.2/Melee-aarch64.AppImage",
-      size: "19.0 MB",
+      label: "Linux x64",
+      url: "https://github.com/999sian/melee-pc/releases/download/v0.4.2/melee-linux-x86_64.tar.gz",
+      size: "20.9 MB",
     },
     {
-      label: "Android APK",
-      url: "https://github.com/999sian/melee-pc/releases/download/v0.4.2/Melee-Android-arm64.apk",
-      size: "36.7 MB",
-    },
-    {
-      label: "iOS IPA",
-      url: "https://github.com/999sian/melee-pc/releases/download/v0.4.2/Melee-iOS-arm64.ipa",
-      size: "9.7 MB",
-    },
-    {
-      label: "Linux",
+      label: "Linux arm64",
       url: "https://github.com/999sian/melee-pc/releases/download/v0.4.2/melee-linux-aarch64.tar.gz",
       size: "20.3 MB",
     },
     {
-      label: "Linux",
-      url: "https://github.com/999sian/melee-pc/releases/download/v0.4.2/melee-linux-x86_64.tar.gz",
-      size: "20.9 MB",
+      label: "Linux arm64",
+      url: "https://github.com/999sian/melee-pc/releases/download/v0.4.2/Melee-aarch64.AppImage",
+      size: "19.0 MB",
     },
     {
       label: "macOS",

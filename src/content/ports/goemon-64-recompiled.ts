@@ -39,19 +39,16 @@ export const goemon64Recompiled: Port = {
   ],
   downloads: [
     {
-      label: "Windows x64",
+      label: "Windows",
       url: "https://github.com/klorfmorf/Goemon64Recomp/releases/download/v0.2.0-dev/Goemon64Recompiled-Windows-RelWithDebInfo.zip",
-      note: "Windows · x64",
     },
     {
-      label: "Linux x64",
+      label: "Linux",
       url: "https://github.com/klorfmorf/Goemon64Recomp/releases/download/v0.2.0-dev/Goemon64Recompiled-Linux-X64-Release.zip",
-      note: "Linux · x64",
     },
     {
       label: "macOS",
       url: "https://github.com/klorfmorf/Goemon64Recomp/releases/download/v0.2.0-dev/Goemon64Recompiled-macOS-Release.zip",
-      note: "macOS",
     },
   ],
   screenshots: [

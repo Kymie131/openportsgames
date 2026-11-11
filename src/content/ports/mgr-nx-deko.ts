@@ -31,10 +31,9 @@ export const mgrNxDeko: Port = {
     "Port nativo no oficial para Nintendo Switch de la versión de Xbox 360, creado con ReXGlue y el renderizador de Renut sobre deko3d. Requiere tu propia copia del juego; no incluye archivos del juego.",
   downloads: [
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/tuancapoo/mgr-nx-deko/releases/download/v0.2.2/mgr.nro",
       size: "57.5 MB",
-      note: "Homebrew NRO",
     },
   ],
   cover: {

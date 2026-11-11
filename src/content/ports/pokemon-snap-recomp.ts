@@ -60,19 +60,9 @@ export const pokemonSnapRecomp: Port = {
   ],
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/JackandBeans/Snap64Recomp/releases/download/v1.1.6/Snap64Recomp-1.1.6-android.apk",
-      size: "10.2 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/JackandBeans/Snap64Recomp/releases/download/v1.1.6/Snap64Recomp-1.1.6-linux-arm64.tar.gz",
-      size: "7.3 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/JackandBeans/Snap64Recomp/releases/download/v1.1.6/Snap64Recomp-1.1.6-linux-x86_64.tar.gz",
-      size: "7.2 MB",
+      label: "Windows",
+      url: "https://github.com/JackandBeans/Snap64Recomp/releases/download/v1.1.6/Snap64Recomp-1.1.6-win64.zip",
+      size: "15.8 MB",
     },
     {
       label: "macOS",
@@ -80,9 +70,14 @@ export const pokemonSnapRecomp: Port = {
       size: "12.1 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/JackandBeans/Snap64Recomp/releases/download/v1.1.6/Snap64Recomp-1.1.6-win64.zip",
-      size: "15.8 MB",
+      label: "Linux arm64",
+      url: "https://github.com/JackandBeans/Snap64Recomp/releases/download/v1.1.6/Snap64Recomp-1.1.6-linux-arm64.tar.gz",
+      size: "7.3 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/JackandBeans/Snap64Recomp/releases/download/v1.1.6/Snap64Recomp-1.1.6-linux-x86_64.tar.gz",
+      size: "7.2 MB",
     },
   ],
   cover: {

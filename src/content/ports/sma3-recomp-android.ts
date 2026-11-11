@@ -24,7 +24,7 @@ export const sma3RecompAndroid: Port = {
   summaryEs: "Super Mario es una serie de videojuegos de plataformas creada por Nintendo protagonizada por su mascota, Mario. Es la serie central de la gran franquicia de Mario. Se ha lanzado al menos un juego de Super Mario para todas las principales consolas de videojuegos de Nintendo. Sin embargo, también se han lanzado varios videojuegos de Super Mario en plataformas de juegos que no son de Nintendo. Hay más de 20 juegos de la serie.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Edwin2929/sma3-recomp-android./releases/download/Descarga/sma3-recomp-0.10.13-beta-arm64.apk",
       size: "26.7 MB",
     },

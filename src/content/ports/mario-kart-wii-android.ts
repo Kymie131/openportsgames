@@ -23,17 +23,7 @@ export const marioKartWiiAndroid: Port = {
   related: ["wiicompiled"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/dorPXP/driftdroid/releases/download/v1.4.0/DriftDroid-Builder-1.4.0-linux.zip",
-      size: "132.8 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/dorPXP/driftdroid/releases/download/v1.4.0/DriftDroid-Builder-1.4.0-windows.zip",
-      size: "135.7 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/dorPXP/driftdroid/releases/download/v1.4.0/DriftDroid-v1.4.0.apk",
       size: "190.8 MB",
     },

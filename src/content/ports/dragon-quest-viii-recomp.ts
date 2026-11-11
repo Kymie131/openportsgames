@@ -28,34 +28,9 @@ export const dragonQuestViiiRecomp: Port = {
     "Recompilación estática de Dragon Quest VIII: El periplo del rey maldito (PlayStation 2) para Windows. Necesita tu propia copia del juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/Sinan-Karakaya/DQ8-Recompiled/releases/download/f6dfd96/DQ8Recomp-f6dfd96-Linux-arm64.tar.gz",
-      size: "88.5 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/Sinan-Karakaya/DQ8-Recompiled/releases/download/f6dfd96/DQ8Recomp-f6dfd96-Linux-x86_64.tar.gz",
-      size: "93.0 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/Sinan-Karakaya/DQ8-Recompiled/releases/download/f6dfd96/DQ8Recomp-f6dfd96-macOS-arm64.zip",
-      size: "100.1 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/Sinan-Karakaya/DQ8-Recompiled/releases/download/f6dfd96/DQ8Recomp-f6dfd96-macOS-x86_64.zip",
-      size: "99.8 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/Sinan-Karakaya/DQ8-Recompiled/releases/download/f6dfd96/DQ8Recomp-f6dfd96-Windows-x86_64.zip",
       size: "80.3 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/Sinan-Karakaya/DQ8-Recompiled/releases/download/f6dfd96/ffmpeg-7.1.5.tar.xz",
-      size: "10.5 MB",
     },
   ],
   cover: {

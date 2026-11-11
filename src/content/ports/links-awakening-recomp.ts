@@ -27,7 +27,7 @@ export const linksAwakeningRecomp: Port = {
     "Recompilación estática de The Legend of Zelda: Link's Awakening DX a una app nativa, con builds portátiles para PS4, PS3 y 3DS junto a Windows. El jugador aporta su propia ROM obtenida legalmente; el repositorio no incluye contenido del juego.",
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/sp00nznet/LinksAwakening/releases/download/v0.1.0/LinksAwakening-Recomp-Installer-windows-x64.exe",
       size: "18.3 MB",
     },

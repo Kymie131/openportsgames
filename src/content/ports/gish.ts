@@ -27,7 +27,7 @@ export const gish: Port = {
     "Port a Android del plataformas físico Gish, construido sobre SDL2, OpenAL y GL4ES. Usa el código liberado del juego y necesita los archivos de datos originales.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/EXL/Gish/releases/download/v1.2/Gish_v1.2_01-MAR-2018.apk",
       size: "2.5 MB",
     },

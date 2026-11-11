@@ -25,24 +25,24 @@ export const elliSHouse3dsPspGba: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "EllisHouse-3DSX",
-      url: "https://github.com/glacialmoongames/EllisHouseCpp/releases/download/v0.1.0-port-preview/EllisHouse-3DSX.zip",
-      size: "24.9 MB",
-    },
-    {
-      label: "EllisHouse-Covers",
-      url: "https://github.com/glacialmoongames/EllisHouseCpp/releases/download/v0.1.0-port-preview/EllisHouse-Covers.zip",
-      size: "2.0 MB",
-    },
-    {
-      label: "EllisHouse-PSP",
+      label: "3ds",
       url: "https://github.com/glacialmoongames/EllisHouseCpp/releases/download/v0.1.0-port-preview/EllisHouse-PSP.zip",
       size: "93.7 MB",
+    },
+    {
+      label: "3ds",
+      url: "https://github.com/glacialmoongames/EllisHouseCpp/releases/download/v0.1.0-port-preview/EllisHouse-3DSX.zip",
+      size: "24.9 MB",
     },
     {
       label: "Windows",
       url: "https://github.com/glacialmoongames/EllisHouseCpp/releases/download/v0.1.0-port-preview/EllisHouse-Windows.zip",
       size: "15.6 MB",
+    },
+    {
+      label: "3ds",
+      url: "https://github.com/glacialmoongames/EllisHouseCpp/releases/download/v0.1.0-port-preview/EllisHouse-Covers.zip",
+      size: "2.0 MB",
     },
   ],
   cover: {

@@ -26,16 +26,6 @@ export const zer0ducksgivenForzaMotorsport2Regpu: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/zer0ducksgiven/Forza-Motorsport-2-ReGPU/releases/download/v0.11.0/FM2-0.11.0-patch.zip",
-      size: "41.5 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/zer0ducksgiven/Forza-Motorsport-2-ReGPU/releases/download/v0.11.0/FM2-Linux-0.11.0.tar.gz",
-      size: "126.0 MB",
-    },
-    {
-      label: "Windows EXE",
       url: "https://github.com/zer0ducksgiven/Forza-Motorsport-2-ReGPU/releases/download/v0.11.0/FM2-Setup-0.11.0.exe",
       size: "126.9 MB",
     },

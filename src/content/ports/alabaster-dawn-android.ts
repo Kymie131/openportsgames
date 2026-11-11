@@ -22,7 +22,7 @@ export const alabasterDawnAndroid: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/moronigranja/alabaster-android/releases/download/v0.9.0/RadicalFishPorts-Android-0.9.0.apk",
       size: "1.2 MB",
     },

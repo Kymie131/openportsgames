@@ -50,15 +50,13 @@ export const kirbyRedream: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/josiahg2502-glitch/Kirby-Redream/releases/download/v1.0.0/Kirby-Redream-PC.zip",
-      "note": "Windows · portable"
     },
     {
-      "label": "Windows installer",
+      "label": "Windows",
       "url": "https://github.com/josiahg2502-glitch/Kirby-Redream/releases/download/v1.0.0/Kirby-Redream-PC-Setup.exe",
-      "note": "Windows · installer"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/kirby-redream.jpg",

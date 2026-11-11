@@ -25,34 +25,34 @@ export const laureladastraMcdub3Nx: Port = {
   summaryEs: "Midnight Club 3: DUB Edition es un videojuego de mundo abierto de carreras callejeras, desarrollado por Rockstar San Diego y publicado por Rockstar Games.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/laureladastra/mcdub3-nx/releases/download/v1.1.0/mcdub3-0.1.0.apk",
-      size: "14.1 MB",
-    },
-    {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/laureladastra/mcdub3-nx/releases/download/v1.1.0/mcdub3-nx-eur.nro",
       size: "51.9 MB",
     },
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/laureladastra/mcdub3-nx/releases/download/v1.1.0/mcdub3-nx-usa.nro",
       size: "51.9 MB",
     },
     {
-      label: "Android APK",
-      url: "https://github.com/laureladastra/mcdub3-nx/releases/download/v1.1.0/mcdub3remix-0.1.0.apk",
-      size: "13.6 MB",
-    },
-    {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/laureladastra/mcdub3-nx/releases/download/v1.1.0/mcdub3remix-nx-eur.nro",
       size: "49.6 MB",
     },
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/laureladastra/mcdub3-nx/releases/download/v1.1.0/mcdub3remix-nx-usa.nro",
       size: "49.6 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/laureladastra/mcdub3-nx/releases/download/v1.1.0/mcdub3-0.1.0.apk",
+      size: "14.1 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/laureladastra/mcdub3-nx/releases/download/v1.1.0/mcdub3remix-0.1.0.apk",
+      size: "13.6 MB",
     },
   ],
   cover: {

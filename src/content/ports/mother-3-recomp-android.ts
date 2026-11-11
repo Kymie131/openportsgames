@@ -23,19 +23,19 @@ export const mother3RecompAndroid: Port = {
   related: ["mother-3-recomp"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/josiahg2502-glitch/Mother3Recomp/releases/download/v1.0.8/Mother3Recomp-v1.0.8-android.apk",
       size: "49.5 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/josiahg2502-glitch/Mother3Recomp/releases/download/v1.0.8/Mother3Recomp-v1.0.8-linux-x86_64.tar.gz",
-      size: "32.4 MB",
     },
     {
       label: "Windows",
       url: "https://github.com/josiahg2502-glitch/Mother3Recomp/releases/download/v1.0.8/Mother3Recomp-v1.0.8-windows-x64.zip",
       size: "35.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/josiahg2502-glitch/Mother3Recomp/releases/download/v1.0.8/Mother3Recomp-v1.0.8-linux-x86_64.tar.gz",
+      size: "32.4 MB",
     },
   ],
   cover: {

@@ -42,14 +42,12 @@ export const unicornOverlordPc: Port = {
   ],
   downloads: [
     {
-      label: "Windows x86_64",
+      label: "Windows",
       url: "https://github.com/hachi23/unicorn_overlord_pc/releases/download/v1.4.0/Unicorn-Overlord-PC-windows.zip",
-      note: "Windows · x64",
     },
     {
-      label: "Linux x86_64",
+      label: "Linux",
       url: "https://github.com/hachi23/unicorn_overlord_pc/releases/download/v1.4.0/Unicorn-Overlord-x86_64.AppImage",
-      note: "Linux · AppImage",
     },
   ],
 };

@@ -22,7 +22,7 @@ export const diddyKongRacingWii: Port = {
   originalSystems: ["Nintendo 64"],
   downloads: [
     {
-      label: "DKR-R-Wii-0.1.0-alpha",
+      label: "Wii",
       url: "https://github.com/Ch1nguya/DKR-R-WII/releases/download/v0.1.0-alpha/DKR-R-Wii-0.1.0-alpha.zip",
       size: "3.7 MB",
     },

@@ -36,34 +36,14 @@ export const ptPc: Port = {
   ],
   downloads: [
     {
-      label: "macOS DMG",
-      url: "https://github.com/LoreanXavier/pt-pc/releases/download/v1.0.8/P.T.PC.Port-macOS-arm64.dmg",
-      size: "304.5 MB",
-    },
-    {
-      label: "P.T.PC.Port-macOS-arm64",
-      url: "https://github.com/LoreanXavier/pt-pc/releases/download/v1.0.8/P.T.PC.Port-macOS-arm64.zip",
-      size: "296.1 MB",
-    },
-    {
-      label: "macOS DMG",
-      url: "https://github.com/LoreanXavier/pt-pc/releases/download/v1.0.8/P.T.PC.Port-macOS-x64.dmg",
-      size: "312.3 MB",
-    },
-    {
-      label: "P.T.PC.Port-macOS-x64",
-      url: "https://github.com/LoreanXavier/pt-pc/releases/download/v1.0.8/P.T.PC.Port-macOS-x64.zip",
-      size: "303.5 MB",
-    },
-    {
-      label: "P.T.PC.Port-portable-linux",
-      url: "https://github.com/LoreanXavier/pt-pc/releases/download/v1.0.8/P.T.PC.Port-portable-linux.zip",
-      size: "431.6 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/LoreanXavier/pt-pc/releases/download/v1.0.8/P.T.PC.Port-portable-windows.zip",
       size: "469.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/LoreanXavier/pt-pc/releases/download/v1.0.8/P.T.PC.Port-portable-linux.zip",
+      size: "431.6 MB",
     },
   ],
   cover: {

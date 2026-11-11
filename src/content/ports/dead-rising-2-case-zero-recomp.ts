@@ -23,7 +23,7 @@ export const deadRising2CaseZeroRecomp: Port = {
   summaryEs: "Dead Rising 2: Case Zero es un videojuego de acción y aventura en 2010.",
   downloads: [
     {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp/releases/download/v1.1.3/CaseZeroRecomp-linux-x86_64.AppImage",
       size: "29.1 MB",
     },
@@ -31,11 +31,6 @@ export const deadRising2CaseZeroRecomp: Port = {
       label: "macOS",
       url: "https://github.com/wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp/releases/download/v1.1.3/CaseZeroRecomp-macos-arm64.zip",
       size: "26.9 MB",
-    },
-    {
-      label: "CaseZeroRecomp-steamdeck-x86_64",
-      url: "https://github.com/wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp/releases/download/v1.1.3/CaseZeroRecomp-steamdeck-x86_64.tar.gz",
-      size: "30.5 MB",
     },
     {
       label: "Windows",

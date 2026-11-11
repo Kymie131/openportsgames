@@ -27,7 +27,7 @@ export const fearAndHungerTerminaAndroid: Port = {
     "Proyecto comunitario en curso para llevar Fear & Hunger 2: Termina a Android. Ejecuta el juego sin emulador y necesita tu propia copia.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Chokage/Fear-and-Hunger-2-Termina-Mobile/releases/download/v1.0.0/Fear.and.Hunger.2-.Termina.apk",
       size: "1370.6 MB",
     },

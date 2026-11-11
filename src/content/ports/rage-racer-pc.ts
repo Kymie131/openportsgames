@@ -27,12 +27,27 @@ export const rageRacerPc: Port = {
     "Recompilación nativa de Rage Racer (PlayStation). El jugador aporta su propio material obtenido legalmente (imagen de disco); el repositorio no incluye contenido del juego.",
   downloads: [
     {
-      label: "Linux",
+      label: "macOS arm64",
+      url: "https://github.com/khasinski/rage-racer-pc/releases/download/0.6.15-alpha/Rage-Racer-Editor-0.6.15-alpha-macos-arm64.zip",
+      size: "129.5 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/khasinski/rage-racer-pc/releases/download/0.6.15-alpha/Rage-Racer-Editor-0.6.15-alpha-linux-x86_64.zip",
+      size: "128.4 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/khasinski/rage-racer-pc/releases/download/0.6.15-alpha/Rage-Racer-Editor-0.6.15-alpha-linux-amd64.deb",
+      size: "95.9 MB",
+    },
+    {
+      label: "Linux x64",
       url: "https://github.com/khasinski/rage-racer-pc/releases/download/0.6.15-alpha/Rage-Racer-0.6.15-alpha-linux-x86_64.zip",
       size: "3.9 MB",
     },
     {
-      label: "macOS",
+      label: "macOS arm64",
       url: "https://github.com/khasinski/rage-racer-pc/releases/download/0.6.15-alpha/Rage-Racer-0.6.15-alpha-macos-arm64.zip",
       size: "3.4 MB",
     },
@@ -40,21 +55,6 @@ export const rageRacerPc: Port = {
       label: "Windows",
       url: "https://github.com/khasinski/rage-racer-pc/releases/download/0.6.15-alpha/Rage-Racer-0.6.15-alpha-windows-x86_64.zip",
       size: "2.6 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/khasinski/rage-racer-pc/releases/download/0.6.15-alpha/Rage-Racer-Editor-0.6.15-alpha-linux-amd64.deb",
-      size: "95.9 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/khasinski/rage-racer-pc/releases/download/0.6.15-alpha/Rage-Racer-Editor-0.6.15-alpha-linux-x86_64.zip",
-      size: "128.4 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/khasinski/rage-racer-pc/releases/download/0.6.15-alpha/Rage-Racer-Editor-0.6.15-alpha-macos-arm64.zip",
-      size: "129.5 MB",
     },
   ],
   cover: {

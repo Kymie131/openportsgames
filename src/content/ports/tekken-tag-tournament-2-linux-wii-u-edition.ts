@@ -22,19 +22,9 @@ export const tekkenTagTournament2LinuxWiiUEdition: Port = {
   originalSystems: ["Wii U"],
   downloads: [
     {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition/releases/download/v0.5.1/Ultimate_Launcher-x86_64.AppImage",
       size: "3.2 MB",
-    },
-    {
-      label: "Windows EXE",
-      url: "https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition/releases/download/v0.5.1/Ultimate_Launcher-x86_64.exe",
-      size: "7.1 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition/releases/download/v0.5.1/Ultimate_Launcher-x86_64.tar.gz",
-      size: "2.6 MB",
     },
   ],
   cover: {

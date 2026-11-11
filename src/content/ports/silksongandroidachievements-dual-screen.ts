@@ -22,7 +22,7 @@ export const silksongandroidachievementsDualScreen: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/OmegaUwUr/SilksongAndroid-Achievements/releases/download/v1.0.0/HollowKnight-Silksong-Steamsync.28.apk",
       size: "65.8 MB",
     },

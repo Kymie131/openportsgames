@@ -22,7 +22,7 @@ export const silksongandroidDualScren: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/jakobkhansen/SilksongAndroid/releases/download/v2.0.1/SilksongAndroid-2.0.1.apk",
       size: "66.5 MB",
     },

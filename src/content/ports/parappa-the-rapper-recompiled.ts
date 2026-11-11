@@ -52,15 +52,13 @@ export const parappaTheRapperRecompiled: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/kirby1237/PaRappaTheRapperRecomp/releases/download/v0.1.1/prtr-v0.1.1-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/kirby1237/PaRappaTheRapperRecomp/releases/download/v0.1.1/prtr-v0.1.1-linux-x64.zip",
-      "note": "Linux · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/parappa-the-rapper-recompiled.jpg",

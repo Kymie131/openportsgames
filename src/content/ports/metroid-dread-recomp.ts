@@ -51,15 +51,13 @@ export const metroidDreadRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x86_64",
+      "label": "Windows",
       "url": "https://github.com/yozander2009-stack/Metroid-Dread-Recomp/releases/download/v0.5.0/MetroidDread-PC-v0.5.0.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x86_64",
+      "label": "Linux",
       "url": "https://github.com/yozander2009-stack/Metroid-Dread-Recomp/releases/download/v0.5.0/Metroid_Dread-x86_64.AppImage",
-      "note": "Linux · AppImage"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/generated/metroid-dread-recomp.svg",

@@ -23,19 +23,14 @@ export const kartpad: Port = {
   related: ["mario-kart-wii-android"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.10/KartPad-v0.8.10-android.apk",
       size: "67.3 MB",
     },
     {
-      label: "iOS IPA",
+      label: "iOS",
       url: "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.10/KartPad-v0.8.10-ios-for-padmint.ipa",
       size: "9.0 MB",
-    },
-    {
-      label: "KartPad-v0.8.10-notices",
-      url: "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.10/KartPad-v0.8.10-notices.zip",
-      size: "31 KB",
     },
   ],
   cover: {

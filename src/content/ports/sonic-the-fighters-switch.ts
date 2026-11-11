@@ -22,7 +22,7 @@ export const sonicTheFightersSwitch: Port = {
   originalSystems: ["Arcade"],
   downloads: [
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/boraeskicioglu/sonic_the_fighters_nx/releases/download/0.8.3/sonic_fighters_nx.nro",
       size: "6.2 MB",
     },

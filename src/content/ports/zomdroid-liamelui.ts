@@ -22,7 +22,7 @@ export const zomdroidLiamelui: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/liamelui/zomdroid/releases/download/v1.2.0/zomdroid-release-1.2.0.apk",
       size: "85.6 MB",
     },

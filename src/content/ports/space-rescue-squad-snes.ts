@@ -26,7 +26,7 @@ export const spaceRescueSquadSnes: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Space.Rescue.Squad.Demo.v1.1",
+      label: "Snes",
       url: "https://github.com/undisbeliever/space-rescue-squad/releases/download/game-jam-v1.1/Space.Rescue.Squad.Demo.v1.1.zip",
       size: "59 KB",
     },

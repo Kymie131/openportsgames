@@ -25,7 +25,7 @@ export const BanjorecompAndroid: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/AurelioB/BanjoRecomp-Android/releases/download/android-v0.1.1/BanjoRecompiled-v0.1.1-Android-ARM64.apk",
       size: "8.3 MB",
     },

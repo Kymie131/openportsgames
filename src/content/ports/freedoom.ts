@@ -25,14 +25,14 @@ export const Freedoom: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "freedm-0.13.0",
-      url: "https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedm-0.13.0.zip",
-      size: "10.8 MB",
-    },
-    {
-      label: "freedoom-0.13.0",
+      label: "Windows",
       url: "https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedoom-0.13.0.zip",
       size: "23.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedm-0.13.0.zip",
+      size: "10.8 MB",
     },
   ],
   cover: {

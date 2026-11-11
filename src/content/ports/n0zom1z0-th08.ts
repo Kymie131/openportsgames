@@ -25,19 +25,19 @@ export const n0zom1z0Th08: Port = {
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   downloads: [
     {
-      label: "Linux",
+      label: "Linux x86",
       url: "https://github.com/N0zoM1z0/th08/releases/download/v0.2.1-linux-64bit/th08-modern-linux-i386.tar.gz",
       size: "2.0 MB",
     },
     {
-      label: "Linux",
-      url: "https://github.com/N0zoM1z0/th08/releases/download/v0.2.1-linux-64bit/th08-portable-linux-aarch64.tar.gz",
-      size: "1.9 MB",
-    },
-    {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/N0zoM1z0/th08/releases/download/v0.2.1-linux-64bit/th08-portable-linux-x86_64.tar.gz",
       size: "2.0 MB",
+    },
+    {
+      label: "Linux arm64",
+      url: "https://github.com/N0zoM1z0/th08/releases/download/v0.2.1-linux-64bit/th08-portable-linux-aarch64.tar.gz",
+      size: "1.9 MB",
     },
   ],
   cover: {

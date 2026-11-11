@@ -25,17 +25,7 @@ export const jorioBugdom2: Port = {
   summaryEs: "Bugdom 2 es un videojuego de plataformas publicado por Pangea Software en 1999.",
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/jorio/Bugdom2/releases/download/v4.0.0/Bugdom2-4.0.0-linux-aarch64.AppImage",
-      size: "128.7 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/jorio/Bugdom2/releases/download/v4.0.0/Bugdom2-4.0.0-linux-x86_64.AppImage",
-      size: "128.9 MB",
-    },
-    {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/jorio/Bugdom2/releases/download/v4.0.0/Bugdom2-4.0.0-mac.dmg",
       size: "138.2 MB",
     },

@@ -22,7 +22,7 @@ export const OutpostKalokiX: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/TekRantGaming/outpost-kaloki-x-recompiled/releases/download/v1.1.1/OutpostKalokiX-v1.1.1-linux-x86_64.AppImage",
       size: "15.2 MB",
     },

@@ -29,11 +29,6 @@ export const kingdomHearts3582DaysRecomp: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/Yokimitsuro/khdays-port/releases/download/v0.1.5/KH-Studio-0.1.5.zip",
-      size: "4.1 MB",
-    },
-    {
-      label: "Windows EXE",
       url: "https://github.com/Yokimitsuro/khdays-port/releases/download/v0.1.5/KH358-2-Days-Port-Setup-0.1.5.exe",
       size: "30.4 MB",
     },

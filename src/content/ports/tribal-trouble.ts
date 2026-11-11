@@ -24,34 +24,24 @@ export const TribalTrouble: Port = {
   summaryEs: "Tribal Trouble es un videojuego de acción y aventura publicado por GarageGames en 2005.",
   downloads: [
     {
-      label: "tribal-trouble-bugserver_v2.2.207-103.1010",
-      url: "https://github.com/Tribal-Trouble/tribaltrouble/releases/download/v2.2.207-103.1010/tribal-trouble-bugserver_v2.2.207-103.1010.zip",
-      size: "4.6 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/Tribal-Trouble/tribaltrouble/releases/download/v2.2.207-103.1010/tribal-trouble-linux-appimage_v2.2.207-103.1010.AppImage",
-      size: "156.7 MB",
-    },
-    {
-      label: "macOS DMG",
-      url: "https://github.com/Tribal-Trouble/tribaltrouble/releases/download/v2.2.207-103.1010/tribal-trouble-mac-arm64_v2.2.207-103.1010.dmg",
-      size: "180.8 MB",
-    },
-    {
-      label: "macOS DMG",
+      label: "macOS x86",
       url: "https://github.com/Tribal-Trouble/tribaltrouble/releases/download/v2.2.207-103.1010/tribal-trouble-mac-x86_v2.2.207-103.1010.dmg",
       size: "182.5 MB",
     },
     {
-      label: "tribal-trouble-server_v2.2.207-103.1010",
-      url: "https://github.com/Tribal-Trouble/tribaltrouble/releases/download/v2.2.207-103.1010/tribal-trouble-server_v2.2.207-103.1010.zip",
-      size: "41.3 MB",
+      label: "macOS arm64",
+      url: "https://github.com/Tribal-Trouble/tribaltrouble/releases/download/v2.2.207-103.1010/tribal-trouble-mac-arm64_v2.2.207-103.1010.dmg",
+      size: "180.8 MB",
     },
     {
       label: "Windows",
       url: "https://github.com/Tribal-Trouble/tribaltrouble/releases/download/v2.2.207-103.1010/tribal-trouble-windows_v2.2.207-103.1010.zip",
       size: "171.7 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Tribal-Trouble/tribaltrouble/releases/download/v2.2.207-103.1010/tribal-trouble-linux-appimage_v2.2.207-103.1010.AppImage",
+      size: "156.7 MB",
     },
   ],
   cover: {

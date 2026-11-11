@@ -27,21 +27,6 @@ export const syphonFilter2Recompiled: Port = {
     "Recompilación experimental de Syphon Filter 2 (PS1, USA, dos discos, SCUS-94451) con PSXRecomp. Kit de compilación propia en Windows: un SETUP.bat detecta el disco, descarga las herramientas y compila, sin necesidad de Visual Studio ni Git. Todavía es una alpha (v0.1.2).",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/alexbeavs-ps1-ports/syphon-filter-2-recomp/releases/download/v0.2.0/syphon-filter-2-recomp-0.2.0-linux-x64.zip",
-      size: "25.4 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/alexbeavs-ps1-ports/syphon-filter-2-recomp/releases/download/v0.2.0/syphon-filter-2-recomp-0.2.0-macos-arm64.zip",
-      size: "24.2 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/alexbeavs-ps1-ports/syphon-filter-2-recomp/releases/download/v0.2.0/syphon-filter-2-recomp-0.2.0-macos-x64.zip",
-      size: "24.8 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/alexbeavs-ps1-ports/syphon-filter-2-recomp/releases/download/v0.2.0/syphon-filter-2-recomp-0.2.0-windows-x64.zip",
       size: "27.3 MB",

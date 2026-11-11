@@ -27,7 +27,7 @@ export const burnout3Recomp: Port = {
     "Recompilación estática de Burnout 3: Takedown (Xbox) con ReXGlue. Requiere una copia del juego.",
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/sp00nznet/burnout3/releases/download/v0.1.0/Burnout3-Installer-windows-x64.exe",
       size: "18.3 MB",
     },

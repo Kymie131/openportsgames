@@ -23,7 +23,7 @@ export const sonicCdPsp: Port = {
   related: ["rsdkv3-decompilation"],
   downloads: [
     {
-      label: "RSDKv3-PSP-v2",
+      label: "Psp",
       url: "https://github.com/Koichive/RSDKv3-PSP/releases/download/2.0/RSDKv3-PSP-v2.zip",
       size: "1.5 MB",
     },

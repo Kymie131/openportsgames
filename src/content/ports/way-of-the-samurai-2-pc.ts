@@ -26,11 +26,6 @@ export const wayOfTheSamurai2Pc: Port = {
       url: "https://github.com/acklavidian/decomp_wots2/releases/download/v0.3.10/wots2-linux-x86_64.tar.gz",
       size: "1.5 MB",
     },
-    {
-      label: "Windows",
-      url: "https://github.com/acklavidian/decomp_wots2/releases/download/v0.3.10/wots2-windows-x86_64.zip",
-      size: "5.8 MB",
-    },
   ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/f9/Way_of_the_Samurai_2_cover.jpg",

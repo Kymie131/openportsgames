@@ -25,29 +25,14 @@ export const openBfmeOpenbfmeGodot: Port = {
   summaryEs: "El Señor de los Anillos: la batalla por la Tierra Media II es la segunda entrega de la serie de videojuegos La batalla por la Tierra Media, basada en la obra El Señor de los Anillos de J. R. R. Tolkien. Desarrollado por Electronic Arts en colaboración con Sage, este videojuego de estrategia en tiempo real permite a los jugadores controlar a diversas facciones en su lucha por la Tierra Media. Disponible para PC y Xbox 360, el juego ofrece tanto modos de un jugador como multijugador, donde los jugadores pueden participar en batallas épicas y experimentar la rica narrativa del universo de Tolkien",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/Open-BFME/openbfme-godot/releases/download/v0.4.11/openbfme-launcher-v0.4.11-linux-x64.tar.gz",
-      size: "28.3 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/Open-BFME/openbfme-godot/releases/download/v0.4.11/openbfme-launcher-v0.4.11-windows-x64.zip",
-      size: "37.5 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/Open-BFME/openbfme-godot/releases/download/v0.4.11/openbfme-v0.4.11-linux-x64.tar.gz",
-      size: "65.1 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/Open-BFME/openbfme-godot/releases/download/v0.4.11/openbfme-v0.4.11-macos-arm64.zip",
-      size: "63.4 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/Open-BFME/openbfme-godot/releases/download/v0.4.11/openbfme-v0.4.11-windows-x64.zip",
       size: "78.7 MB",
+    },
+    {
+      label: "Windows x64",
+      url: "https://github.com/Open-BFME/openbfme-godot/releases/download/v0.4.11/openbfme-launcher-v0.4.11-windows-x64.zip",
+      size: "37.5 MB",
     },
   ],
   cover: {

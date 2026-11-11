@@ -28,7 +28,7 @@ export const vvvvvv: Port = {
     "Publicación oficial de código abierto de VVVVVV, el plataformas de gravedad invertida de Terry Cavanagh. El código compila el juego completo, que posees.",
   downloads: [
     {
-      label: "VVVVVV-2.4.4",
+      label: "Windows",
       url: "https://github.com/TerryCavanagh/VVVVVV/releases/download/2.4.4/VVVVVV-2.4.4.zip",
       size: "10.5 MB",
     },

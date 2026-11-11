@@ -43,24 +43,24 @@ export const theSimpsonsGameRecomp: Port = {
     "Trabajo en curso: la recompilación está incompleta. Las releases no incluyen contenido del juego, así que se requiere una copia de Xbox 360 del juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/YesterMester/TheSimpsonsGameRecomp/releases/download/v0.0.6.5/TheSimpsonsGame-Recompiled-Linux-x64-NoAVX2.tar.gz",
-      size: "156.4 MB",
+      label: "Windows x64",
+      url: "https://github.com/YesterMester/TheSimpsonsGameRecomp/releases/download/v0.0.6.5/TheSimpsonsGame-Recompiled-Windows-x64.zip",
+      size: "372.7 MB",
     },
     {
-      label: "Linux",
-      url: "https://github.com/YesterMester/TheSimpsonsGameRecomp/releases/download/v0.0.6.5/TheSimpsonsGame-Recompiled-Linux-x64.tar.gz",
-      size: "156.3 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/YesterMester/TheSimpsonsGameRecomp/releases/download/v0.0.6.5/TheSimpsonsGame-Recompiled-Windows-x64-NoAVX2.zip",
       size: "372.5 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/YesterMester/TheSimpsonsGameRecomp/releases/download/v0.0.6.5/TheSimpsonsGame-Recompiled-Windows-x64.zip",
-      size: "372.7 MB",
+      label: "Linux x64",
+      url: "https://github.com/YesterMester/TheSimpsonsGameRecomp/releases/download/v0.0.6.5/TheSimpsonsGame-Recompiled-Linux-x64-NoAVX2.tar.gz",
+      size: "156.4 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/YesterMester/TheSimpsonsGameRecomp/releases/download/v0.0.6.5/TheSimpsonsGame-Recompiled-Linux-x64.tar.gz",
+      size: "156.3 MB",
     },
   ],
   cover: {

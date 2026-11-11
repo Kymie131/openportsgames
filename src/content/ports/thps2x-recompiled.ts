@@ -51,10 +51,9 @@ export const thps2xRecompiled: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/almost-drowned-rat/THPS2X-Recompiled/releases/download/v1.2.1/THPS2X-Recompiled-v1.2.1-win64.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/thps2x-recompiled.png",

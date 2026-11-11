@@ -24,24 +24,14 @@ export const Runescape2003: Port = {
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/2003scape/rsc-c/releases/download/mudclient177-rev1/mudclient177-linux-x86_64.tar.gz",
-      size: "1.5 MB",
-    },
-    {
-      label: "mudclient177-web",
-      url: "https://github.com/2003scape/rsc-c/releases/download/mudclient177-rev1/mudclient177-web.zip",
-      size: "3.9 MB",
-    },
-    {
-      label: "mudclient177-wii",
-      url: "https://github.com/2003scape/rsc-c/releases/download/mudclient177-rev1/mudclient177-wii.zip",
-      size: "2.1 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/2003scape/rsc-c/releases/download/mudclient177-rev1/mudclient177-windows-x86_64.zip",
       size: "2.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/2003scape/rsc-c/releases/download/mudclient177-rev1/mudclient177-linux-x86_64.tar.gz",
+      size: "1.5 MB",
     },
   ],
   cover: {

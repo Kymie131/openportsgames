@@ -51,15 +51,13 @@ export const snoopyFlyingAceRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows offline",
+      "label": "Windows x64",
       "url": "https://github.com/BTr-RJ/RedBaron_Recomp/releases/download/v0.23/RedBaron_Recomp-v0.23-windows-x64-offline.zip",
-      "note": "Windows · offline"
     },
     {
-      "label": "Windows online",
+      "label": "Windows x64",
       "url": "https://github.com/BTr-RJ/RedBaron_Recomp/releases/download/v0.23/RedBaron_Recomp-v0.23-windows-x64.zip",
-      "note": "Windows · online"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/snoopy-flying-ace-recomp.png",

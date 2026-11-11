@@ -33,14 +33,14 @@ export const haloCeWeb: Port = {
   },
   downloads: [
     {
-      label: "Android",
-      url: "https://github.com/fqlx/halo-ce-universal/releases/download/build-27/halo-android-release.zip",
-      size: "3.2 MB",
-    },
-    {
       label: "Linux",
       url: "https://github.com/fqlx/halo-ce-universal/releases/download/build-27/halo-linux-release.zip",
       size: "7.1 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/fqlx/halo-ce-universal/releases/download/build-27/halo-android-release.zip",
+      size: "3.2 MB",
     },
     {
       label: "Windows",

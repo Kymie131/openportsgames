@@ -27,7 +27,7 @@ export const dragonBallZBudokaiHd: Port = {
     "Recompilación estática con ReXGlue de Dragon Ball Z: Budokai HD Collection (Xbox 360) para Windows. Necesita los archivos originales.",
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/WistfulHopes/DBZ1/releases/download/v0.0.2/dbz1.exe",
       size: "20.2 MB",
     },

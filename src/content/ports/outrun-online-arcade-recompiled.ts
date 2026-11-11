@@ -50,10 +50,9 @@ export const outrunOnlineArcadeRecompiled: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/darkuni/outrun-arcade-recomp/releases/download/v1.0.0-rc3/outrun_arcade-v1.0.0-rc3-win-amd64.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/outrun-online-arcade-recompiled.jpg",

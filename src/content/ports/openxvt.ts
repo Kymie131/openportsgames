@@ -25,19 +25,19 @@ export const Openxvt: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/elyosh/OpenXvT/releases/download/v0.0.5/openxvt-0.0.5-linux-x86_64-release.tar.xz",
-      size: "4.3 MB",
+      label: "Windows",
+      url: "https://github.com/elyosh/OpenXvT/releases/download/v0.0.5/openxvt-0.0.5-windows-x86_64-release.zip",
+      size: "8.0 MB",
     },
     {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/elyosh/OpenXvT/releases/download/v0.0.5/openxvt-0.0.5-macos-arm64-release.dmg",
       size: "6.7 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/elyosh/OpenXvT/releases/download/v0.0.5/openxvt-0.0.5-windows-x86_64-release.zip",
-      size: "8.0 MB",
+      label: "Linux",
+      url: "https://github.com/elyosh/OpenXvT/releases/download/v0.0.5/openxvt-0.0.5-linux-x86_64-release.tar.xz",
+      size: "4.3 MB",
     },
   ],
   cover: {

@@ -24,11 +24,6 @@ export const gtteancumXml1Recomp: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/GTTeancum/XML1-recomp/releases/download/1.0.1/XML1-recomp-1.0.1-texture-template.zip",
-      size: "138.7 MB",
-    },
-    {
-      label: "Windows",
       url: "https://github.com/GTTeancum/XML1-recomp/releases/download/1.0.1/XML1-recomp-1.0.1-win64.zip",
       size: "42.7 MB",
     },

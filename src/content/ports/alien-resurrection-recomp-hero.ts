@@ -23,12 +23,12 @@ export const alienResurrectionRecompHero: Port = {
   related: ["alien-resurrection-recomp"],
   downloads: [
     {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/Heromachine/AlienResurrection-Recompilation/releases/download/v0.3.0/AlienResurrectionRecompilation-v0.3.0-linux-x64.zip",
       size: "44.7 MB",
     },
     {
-      label: "Linux AppImage",
+      label: "Linux x64",
       url: "https://github.com/Heromachine/AlienResurrection-Recompilation/releases/download/v0.3.0/AlienResurrectionRecompilation-v0.3.0-x86_64.AppImage",
       size: "41.2 MB",
     },

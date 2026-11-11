@@ -50,10 +50,9 @@ export const feAwakeningRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/Zelkin1/fe-awakening-recomp/releases/download/v1.0.10/fe-awakening-launcher-v1.0.10-windows-x64.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/fe-awakening-recomp.png",

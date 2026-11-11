@@ -51,20 +51,9 @@ export const mlbPowerPros2008Recomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows setup",
-      "url": "https://github.com/HopeAero/MLBPowerPros2008Recomp/releases/download/v0.1.6/MLB-Power-Pros-2008-Setup-v0.1.6.zip",
-      "note": "Windows · setup"
-    },
-    {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/HopeAero/MLBPowerPros2008Recomp/releases/download/v0.1.6/MLB-Power-Pros-2008-Linux-0.1.6.tar.gz",
-      "note": "Linux · x64"
     },
-    {
-      "label": "Steam Deck",
-      "url": "https://github.com/HopeAero/MLBPowerPros2008Recomp/releases/download/v0.1.6/MLB-Power-Pros-2008-SteamDeck-0.1.6.tar.gz",
-      "note": "Linux · Steam Deck"
-    }
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/mlb-power-pros-2008-recomp.png",

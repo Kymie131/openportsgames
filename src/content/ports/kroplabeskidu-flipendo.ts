@@ -25,16 +25,6 @@ export const kroplabeskiduFlipendo: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/kroplabeskidu/flipendo/releases/download/v1.3/flipendo-v1.3-linux.zip",
-      size: "8.4 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/kroplabeskidu/flipendo/releases/download/v1.3/flipendo-v1.3-macos.zip",
-      size: "10.0 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/kroplabeskidu/flipendo/releases/download/v1.3/flipendo-v1.3-windows.zip",
       size: "5.8 MB",

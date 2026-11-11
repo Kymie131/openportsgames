@@ -27,14 +27,14 @@ export const guiltyGearRecomp: Port = {
     "Recompilación en desarrollo de Guilty Gear (PS1) con PSXRecomp. Trae un lanzador para Windows donde eliges tu propio .cue y usas el OpenBIOS incluido o tu propia BIOS; el proyecto sigue en progreso y no se considera terminado.",
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/omegakatana92/GuiltyGearRecomp/releases/download/v1.0.0/Guilty_Gear_Recompiled-v1.0.0-linux-x86_64.AppImage",
-      size: "7.8 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/omegakatana92/GuiltyGearRecomp/releases/download/v1.0.0/Guilty_Gear_Recomp_Windows.zip",
       size: "8.0 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/omegakatana92/GuiltyGearRecomp/releases/download/v1.0.0/Guilty_Gear_Recompiled-v1.0.0-linux-x86_64.AppImage",
+      size: "7.8 MB",
     },
   ],
   cover: {

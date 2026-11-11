@@ -24,7 +24,7 @@ export const touhou7Switch: Port = {
   summaryEs: "Touhou Youyoumu ~ Perfect Cherry Blossom es un videojuego danmaku de desplazamiento vertical y el séptimo videojuego oficial de la serie Touhou Project hecha por Team Shanghai Alice, y el segundo en ser lanzado para Microsoft Windows después de Embodiment of Scarlet Devil. El juego completo fue lanzado por primera vez el 17 de agosto de 2003, en la Comiket 64.",
   downloads: [
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/saekaze/th07-switch/releases/download/v1.00b-r5/touhou7.nro",
       size: "8.6 MB",
     },

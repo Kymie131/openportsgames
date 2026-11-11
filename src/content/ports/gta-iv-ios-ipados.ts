@@ -22,7 +22,7 @@ export const gtaIvIosIpados: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "iOS IPA",
+      label: "iOS",
       url: "https://github.com/KoreanSeats1/Theft4/releases/download/v0.3.2/Theft4-0.3.2-144-ios-arm64.ipa",
       size: "49.2 MB",
     },

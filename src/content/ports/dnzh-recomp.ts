@@ -27,19 +27,9 @@ export const dnzhRecomp: Port = {
     "Recompilación nativa de Duke Nukem: Zero Hour (Nintendo 64). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
   downloads: [
     {
-      label: "DNZHRecompiled-0.0.3-Flatpak-X64-Release",
-      url: "https://github.com/sonicdcer/DNZHRecomp/releases/download/0.0.3/DNZHRecompiled-0.0.3-Flatpak-X64-Release.zip",
-      size: "9.3 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/sonicdcer/DNZHRecomp/releases/download/0.0.3/DNZHRecompiled-0.0.3-Linux-ARM64-Release.zip",
-      size: "12.6 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/sonicdcer/DNZHRecomp/releases/download/0.0.3/DNZHRecompiled-0.0.3-Linux-X64-Release.zip",
-      size: "12.7 MB",
+      label: "Windows",
+      url: "https://github.com/sonicdcer/DNZHRecomp/releases/download/0.0.3/DNZHRecompiled-0.0.3-Windows-RelWithDebInfo.zip",
+      size: "22.9 MB",
     },
     {
       label: "macOS",
@@ -47,9 +37,14 @@ export const dnzhRecomp: Port = {
       size: "20.2 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/sonicdcer/DNZHRecomp/releases/download/0.0.3/DNZHRecompiled-0.0.3-Windows-RelWithDebInfo.zip",
-      size: "22.9 MB",
+      label: "Linux x64",
+      url: "https://github.com/sonicdcer/DNZHRecomp/releases/download/0.0.3/DNZHRecompiled-0.0.3-Linux-X64-Release.zip",
+      size: "12.7 MB",
+    },
+    {
+      label: "Linux arm64",
+      url: "https://github.com/sonicdcer/DNZHRecomp/releases/download/0.0.3/DNZHRecompiled-0.0.3-Linux-ARM64-Release.zip",
+      size: "12.6 MB",
     },
   ],
   cover: {

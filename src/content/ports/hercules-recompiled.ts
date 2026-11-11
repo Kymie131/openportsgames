@@ -24,11 +24,6 @@ export const herculesRecompiled: Port = {
   summaryEs: "Hércules, conocido como Hercules Action Game y Disney's Action Game Featuring Hercules en Norteamérica, o Disney: Juego de Acción - Disney Presenta Hércules en Europa, es un videojuego de acción que salió al mercado el 3 de julio de 1997 para PlayStation y Microsoft Windows, desarrollado por Disney Interactive, basado en la película animada del mismo nombre que se estrenó una semana después de este lanzamiento. Otro juego, también basado en la película, fue lanzado por THQ para Game Boy ese mismo año.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/obaidr1/hercules-recompiled/releases/download/v0.5.6/hercules-recompiled-linux-x64.zip",
-      size: "95.3 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/obaidr1/hercules-recompiled/releases/download/v0.5.6/hercules-recompiled-windows-x64.zip",
       size: "115.9 MB",

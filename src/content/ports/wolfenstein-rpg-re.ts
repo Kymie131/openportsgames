@@ -28,7 +28,7 @@ export const wolfensteinRpgRe: Port = {
     "Ingeniería inversa de Wolfenstein RPG (móvil, 2009) por [GEC], que reconstruye el motor original. Necesita los datos del juego original.",
   downloads: [
     {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/Erick194/WolfensteinRPG-RE/releases/download/WolfensteinRPG-v.0.1/WolfensteinRPG-x86_64.AppImage",
       size: "5.1 MB",
     },

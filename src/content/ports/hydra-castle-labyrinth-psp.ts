@@ -25,19 +25,19 @@ export const hydraCastleLabyrinthPsp: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "OpenHCL_3DS_3DSX",
-      url: "https://github.com/JeffRuLz/OpenHCL/releases/download/untagged-289a342ec6863598160c/OpenHCL_3DS_3DSX.zip",
-      size: "8.9 MB",
-    },
-    {
-      label: "OpenHCL_PSP",
+      label: "Psp",
       url: "https://github.com/JeffRuLz/OpenHCL/releases/download/untagged-289a342ec6863598160c/OpenHCL_PSP.zip",
       size: "9.3 MB",
     },
     {
-      label: "OpenHCL_Wii",
+      label: "Psp",
       url: "https://github.com/JeffRuLz/OpenHCL/releases/download/untagged-289a342ec6863598160c/OpenHCL_Wii.zip",
       size: "9.0 MB",
+    },
+    {
+      label: "Psp",
+      url: "https://github.com/JeffRuLz/OpenHCL/releases/download/untagged-289a342ec6863598160c/OpenHCL_3DS_3DSX.zip",
+      size: "8.9 MB",
     },
   ],
   cover: {

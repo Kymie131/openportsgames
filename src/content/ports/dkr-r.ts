@@ -44,17 +44,12 @@ export const dkrR: Port = {
     "Port nativo de Diddy Kong Racing creado mediante recompilación estática del binario de Nintendo 64, con releases para Windows, Linux y macOS (la build de macOS es un fork comunitario enlazado desde cada release). Requiere el volcado del juego de un cartucho o ROM que poseas. La versión 1.0.4 es la última release etiquetada.",
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/ThatGuyMcd/DKR-R/releases/download/Version1.0.15/DKR-R-1.0.15-Linux-aarch64.AppImage",
-      size: "58.6 MB",
-    },
-    {
-      label: "Linux AppImage",
+      label: "Linux x64",
       url: "https://github.com/ThatGuyMcd/DKR-R/releases/download/Version1.0.15/DKR-R-1.0.15-Linux-x86_64.AppImage",
       size: "67.6 MB",
     },
     {
-      label: "Linux AppImage",
+      label: "Linux x64",
       url: "https://github.com/ThatGuyMcd/DKR-R/releases/download/Version1.0.15/DKR-R-1.0.15-SteamDeck-x86_64.AppImage",
       size: "67.6 MB",
     },
@@ -64,9 +59,9 @@ export const dkrR: Port = {
       size: "59.0 MB",
     },
     {
-      label: "DKR-R-Modding-SDK-2.0",
-      url: "https://github.com/ThatGuyMcd/DKR-R/releases/download/Version1.0.15/DKR-R-Modding-SDK-2.0.zip",
-      size: "490 KB",
+      label: "Linux arm64",
+      url: "https://github.com/ThatGuyMcd/DKR-R/releases/download/Version1.0.15/DKR-R-1.0.15-Linux-aarch64.AppImage",
+      size: "58.6 MB",
     },
   ],
   cover: {

@@ -28,21 +28,6 @@ export const klonoaDoorToPhantomileRecomp: Port = {
     "Ficha comunitaria de PortsDR; no hay repositorio ni release públicos. Hace falta el juego original.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/TechnicallyComputers/Klonoa-Door-to-Phantomile/releases/download/v0.1.4/kdp-0.1.4-linux-x64.zip",
-      size: "46.5 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/TechnicallyComputers/Klonoa-Door-to-Phantomile/releases/download/v0.1.4/kdp-0.1.4-macos-arm64.zip",
-      size: "24.2 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/TechnicallyComputers/Klonoa-Door-to-Phantomile/releases/download/v0.1.4/kdp-0.1.4-macos-x64.zip",
-      size: "24.8 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/TechnicallyComputers/Klonoa-Door-to-Phantomile/releases/download/v0.1.4/kdp-0.1.4-windows-x64.zip",
       size: "25.0 MB",

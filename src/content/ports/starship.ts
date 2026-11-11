@@ -49,11 +49,6 @@ export const starship: Port = {
       size: "76.3 MB",
     },
     {
-      label: "Switch",
-      url: "https://github.com/HarbourMasters/Starship/releases/download/v2.0.0/Starship-Barnard-Alfa-Switch.zip",
-      size: "6.2 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/HarbourMasters/Starship/releases/download/v2.0.0/Starship-Barnard-Alfa-Windows.zip",
       size: "4.0 MB",

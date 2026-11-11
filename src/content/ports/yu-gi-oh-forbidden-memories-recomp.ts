@@ -37,24 +37,9 @@ export const yuGiOhForbiddenMemoriesRecomp: Port = {
       size: "14.2 MB",
     },
     {
-      label: "yfm-redecomp-hd-mod-v0.3.0",
-      url: "https://github.com/Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled/releases/download/v0.3.0/yfm-redecomp-hd-mod-v0.3.0.zip",
-      size: "108.0 MB",
-    },
-    {
-      label: "Android APK",
-      url: "https://github.com/Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled/releases/download/v0.3.0/yfm-redecomp-v0.3.0-android-arm64.apk",
-      size: "9.7 MB",
-    },
-    {
       label: "Linux",
       url: "https://github.com/Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled/releases/download/v0.3.0/yfm-redecomp-v0.3.0-linux.tar.gz",
       size: "8.5 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled/releases/download/v0.3.0/yfm-redecomp-v0.3.0-macos-arm64.zip",
-      size: "4.7 MB",
     },
   ],
   cover: {

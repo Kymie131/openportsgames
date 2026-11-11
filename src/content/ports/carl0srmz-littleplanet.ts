@@ -27,29 +27,14 @@ export const carl0srmzLittleplanet: Port = {
   notesEs: "Sonic CD: recompilación estática de carl0srmz para Windows. Aporta tu propia copia del juego.",
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/carl0srmz/littleplanet/releases/download/1.0/littleplanet-linux-aarch64.AppImage",
-      size: "153.5 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/carl0srmz/littleplanet/releases/download/1.0/littleplanet-linux.AppImage",
-      size: "153.9 MB",
-    },
-    {
-      label: "macOS DMG",
-      url: "https://github.com/carl0srmz/littleplanet/releases/download/1.0/littleplanet-macos.dmg",
-      size: "170.5 MB",
+      label: "Windows",
+      url: "https://github.com/carl0srmz/littleplanet/releases/download/1.0/littleplanet.exe",
+      size: "174.3 MB",
     },
     {
       label: "Windows",
       url: "https://github.com/carl0srmz/littleplanet/releases/download/1.0/littleplanet-windows-portable.zip",
       size: "152.1 MB",
-    },
-    {
-      label: "Windows EXE",
-      url: "https://github.com/carl0srmz/littleplanet/releases/download/1.0/littleplanet.exe",
-      size: "174.3 MB",
     },
   ],
   cover: {

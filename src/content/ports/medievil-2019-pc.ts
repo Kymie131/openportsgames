@@ -42,9 +42,8 @@ export const medievil2019Pc: Port = {
   ],
   downloads: [
     {
-      label: "Windows x86_64",
+      label: "Windows",
       url: "https://github.com/bc160201983/medievil_2019_pc_port/releases/download/v1.3.8/medievil-windows.zip",
-      note: "Windows · x64",
     },
   ],
 };

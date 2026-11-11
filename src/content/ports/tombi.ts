@@ -21,29 +21,14 @@ export const Tombi: Port = {
   originalSystems: ["PlayStation"],
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/afsenovilla/Tombi-Decomp/releases/download/v0.5.0/tombi-port-0.5.0-android.apk",
-      size: "21.9 MB",
-    },
-    {
       label: "Linux",
       url: "https://github.com/afsenovilla/Tombi-Decomp/releases/download/v0.5.0/tombi-port-0.5.0-linux-x64.tar.gz",
       size: "106.2 MB",
     },
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/afsenovilla/Tombi-Decomp/releases/download/v0.5.0/tombi-port-0.5.0-windows-x64.exe",
       size: "66.6 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/afsenovilla/Tombi-Decomp/releases/download/v0.5.0/Tombi-Tools-0.5.0-linux-x64.tar.gz",
-      size: "191.5 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/afsenovilla/Tombi-Decomp/releases/download/v0.5.0/Tombi-Tools-0.5.0-windows-x64.zip",
-      size: "118.4 MB",
     },
   ],
   cover: {

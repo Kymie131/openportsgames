@@ -51,15 +51,13 @@ export const wipeoutOmegaPc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x86_64",
+      "label": "Windows",
       "url": "https://github.com/AbdelmoumenDeghbouche/wipeout_pc/releases/download/windows-v0.2.59/wipeout-windows.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x86_64",
+      "label": "Linux",
       "url": "https://github.com/AbdelmoumenDeghbouche/wipeout_pc/releases/download/windows-v0.2.59/wipeout-x86_64.AppImage",
-      "note": "Linux · AppImage"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/generated/wipeout-omega-pc.svg",

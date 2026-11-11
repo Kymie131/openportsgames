@@ -51,15 +51,13 @@ export const mgsPortableOpsNative: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/zexk/portable-ops-native/releases/download/v0.1.0-rc1/PortableOpsNative-0.1.0-rc1-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x86_64",
+      "label": "Linux",
       "url": "https://github.com/zexk/portable-ops-native/releases/download/v0.1.0-rc1/portable-ops-native-0.1.0-rc1-linux-x86_64.tar.gz",
-      "note": "Linux · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/mgs-portable-ops-native.png",

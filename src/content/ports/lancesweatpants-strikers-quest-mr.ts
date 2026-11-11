@@ -23,7 +23,7 @@ export const lancesweatpantsStrikersQuestMr: Port = {
   originalSystems: ["Nintendo GameCube"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/LanceSweatpants/Strikers-Quest-MR/releases/download/v0.1.18-alpha1/QuestStrikers-alpha1.18.apk",
       size: "219.6 MB",
     },

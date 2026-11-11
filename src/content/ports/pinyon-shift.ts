@@ -28,27 +28,12 @@ export const pinyonShift: Port = {
     "Vista previa jugable de una recompilación estática de Forza Horizon (Xbox 360) para PC, distribuida como releases versionadas. El código del port es público (BSD-3-Clause), pero el juego es propietario: debes aportar tu propia copia de Xbox 360, y el repositorio no incluye contenido del juego. Existen varios forks con un nombre parecido; este es el repositorio original.",
   downloads: [
     {
-      label: "Android",
-      url: "https://github.com/arcanite24/pinyon-shift/releases/download/v0.8.2/android-shell-101ad468f139-android-arm64.tar.xz",
-      size: "42.7 MB",
-    },
-    {
-      label: "Android",
-      url: "https://github.com/arcanite24/pinyon-shift/releases/download/v0.8.2/host-objects-0.8.2-android-arm64-base.tar.xz",
-      size: "8.3 MB",
-    },
-    {
-      label: "Android",
-      url: "https://github.com/arcanite24/pinyon-shift/releases/download/v0.8.2/host-objects-0.8.2-android-arm64-v4.tar.xz",
-      size: "7.9 MB",
-    },
-    {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/arcanite24/pinyon-shift/releases/download/v0.8.2/host-objects-0.8.2-linux-x86_64-base.tar.xz",
       size: "1018 KB",
     },
     {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/arcanite24/pinyon-shift/releases/download/v0.8.2/host-objects-0.8.2-linux-x86_64-v4.tar.xz",
       size: "993 KB",
     },
@@ -56,6 +41,21 @@ export const pinyonShift: Port = {
       label: "macOS",
       url: "https://github.com/arcanite24/pinyon-shift/releases/download/v0.8.2/host-objects-0.8.2-macos-arm64-base.tar.xz",
       size: "974 KB",
+    },
+    {
+      label: "Android arm64",
+      url: "https://github.com/arcanite24/pinyon-shift/releases/download/v0.8.2/android-shell-101ad468f139-android-arm64.tar.xz",
+      size: "42.7 MB",
+    },
+    {
+      label: "Android arm64",
+      url: "https://github.com/arcanite24/pinyon-shift/releases/download/v0.8.2/host-objects-0.8.2-android-arm64-base.tar.xz",
+      size: "8.3 MB",
+    },
+    {
+      label: "Android arm64",
+      url: "https://github.com/arcanite24/pinyon-shift/releases/download/v0.8.2/host-objects-0.8.2-android-arm64-v4.tar.xz",
+      size: "7.9 MB",
     },
   ],
   cover: {

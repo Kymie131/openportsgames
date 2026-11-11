@@ -26,7 +26,7 @@ export const ben10CosmicDestructionRecomp: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/ExtremestoneGG/Cosmic-Recompi/releases/download/v0.4.0-alpha.4/CosmicRecomp-v0.4.0-alpha.4-win64.exe",
       size: "18.1 MB",
     },

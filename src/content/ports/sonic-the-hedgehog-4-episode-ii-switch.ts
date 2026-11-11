@@ -22,7 +22,7 @@ export const sonicTheHedgehog4EpisodeIiSwitch: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/boraeskicioglu/s4ep2-nx/releases/download/s4ep2_nx-0.2/s4ep2_nx.nro",
       size: "19.3 MB",
     },

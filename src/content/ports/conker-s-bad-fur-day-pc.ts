@@ -22,11 +22,6 @@ export const conkerSBadFurDayPc: Port = {
   originalSystems: ["Nintendo 64"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/DahSidiAbdallah/ConkerBFDReloaded/releases/download/v1.4.7/ConkerBFDReloaded-v1.4.7-Linux.tar.gz",
-      size: "41.6 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/DahSidiAbdallah/ConkerBFDReloaded/releases/download/v1.4.7/ConkerBFDReloaded-v1.4.7-Windows.zip",
       size: "39.3 MB",

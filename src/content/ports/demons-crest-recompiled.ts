@@ -52,10 +52,9 @@ export const demonsCrestRecompiled: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/rac08241988/DemonsCrestSNESRecomp/releases/download/v1.1.0/DemonsCrest-SNESRecomp-windows-x64-v1.1.0.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/demons-crest-recompiled.png",

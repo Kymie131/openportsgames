@@ -47,34 +47,34 @@ export const namcoSystem22PropCycle: Port = {
     "Decompilación del juego arcade de barcos de Namco de 1996 para PC. Se publica como paquetes listos para Windows y Linux; tú aportas el set de ROM arcade, que no se incluye.",
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/AceDriver-x86_64.AppImage",
-      size: "3.4 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/AnglerKing-x86_64.AppImage",
-      size: "4.8 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/ArmadilloRacing-x86_64.AppImage",
-      size: "3.4 MB",
-    },
-    {
-      label: "Linux AppImage",
+      label: "Linux x64",
       url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/CrisisZone-x86_64.AppImage",
       size: "12.9 MB",
     },
     {
-      label: "Linux AppImage",
+      label: "Linux x64",
+      url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/AnglerKing-x86_64.AppImage",
+      size: "4.8 MB",
+    },
+    {
+      label: "Linux x64",
       url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/CyberCommando-x86_64.AppImage",
       size: "3.9 MB",
     },
     {
-      label: "Linux AppImage",
+      label: "Linux x64",
       url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/CyberSled-x86_64.AppImage",
       size: "3.6 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/AceDriver-x86_64.AppImage",
+      size: "3.4 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/ArmadilloRacing-x86_64.AppImage",
+      size: "3.4 MB",
     },
   ],
   cover: {

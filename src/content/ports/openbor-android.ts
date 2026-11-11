@@ -23,24 +23,9 @@ export const openborAndroid: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/DCurrent/openbor/releases/download/v7533/OpenBOR-Android.v4.0.Build.7533.apk",
       size: "5.3 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/DCurrent/openbor/releases/download/v7533/OpenBOR-Linux-x64-v4.0.Build.7533.AppImage",
-      size: "4.8 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/DCurrent/openbor/releases/download/v7533/OpenBOR-Linux-x86-v4.0.Build.7533.AppImage",
-      size: "2.4 MB",
-    },
-    {
-      label: "Android",
-      url: "https://github.com/DCurrent/openbor/releases/download/v7533/OpenBOR.v4.0.Build.7533.rar",
-      size: "1.3 MB",
     },
   ],
   cover: {

@@ -51,10 +51,9 @@ export const initialDStreetStagePc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/cassnadra/initialdpsponpc/releases/download/v0.98.3/InitialD_port_v0.98.3.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/initial-d-street-stage-pc.png",

@@ -27,14 +27,14 @@ export const seriousSamAndroid: Port = {
     "Port a Android de Serious Sam: The First Encounter y The Second Encounter, construido sobre el código liberado del motor Serious Engine. Necesita los archivos del juego original.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/Skyrimus/Serious-Sam-Android/releases/download/v1.05.3/SeriousSamAndroid-v1.05.3-TFE-release.apk",
-      size: "7.0 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Skyrimus/Serious-Sam-Android/releases/download/v1.05.3/SeriousSamAndroid-v1.05.3-TSE-release.apk",
       size: "12.1 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/Skyrimus/Serious-Sam-Android/releases/download/v1.05.3/SeriousSamAndroid-v1.05.3-TFE-release.apk",
+      size: "7.0 MB",
     },
   ],
   cover: {

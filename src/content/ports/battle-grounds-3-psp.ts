@@ -26,7 +26,7 @@ export const battleGrounds3Psp: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "bg3-v0.5.0",
+      label: "Psp",
       url: "https://github.com/xfacter/battlegrounds3/releases/download/v0.5.0/bg3-v0.5.0.zip",
       size: "2.6 MB",
     },

@@ -26,11 +26,6 @@ export const needForSpeedUnderground2Switch: Port = {
       url: "https://github.com/antoxa2584x/nfsu2-sw/releases/download/v0.5.13/NFS.Underground.2.01a8302034850000.nsp",
       size: "403 KB",
     },
-    {
-      label: "Switch",
-      url: "https://github.com/antoxa2584x/nfsu2-sw/releases/download/v0.5.13/nfsu2x.zip",
-      size: "15.8 MB",
-    },
   ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/10/Nfsu2-win-cover.jpg",

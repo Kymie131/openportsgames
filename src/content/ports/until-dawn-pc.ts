@@ -50,10 +50,9 @@ export const untilDawnPc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x86_64",
+      "label": "Windows",
       "url": "https://github.com/SuperCatElvis/UntilDawn_PC/releases/download/v0.3.1/UntilDawn_0.3.1.zip",
-      "note": "Windows 10/11 · x64"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/generated/until-dawn-pc.svg",

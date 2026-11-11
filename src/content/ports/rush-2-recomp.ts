@@ -27,14 +27,9 @@ export const rush2Recomp: Port = {
     "Recompilación nativa de San Francisco Rush 2 (Nintendo 64). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
   downloads: [
     {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/bryantmh/rush2recompiled/releases/download/v1.0.51/Rush2Recompiled-1.0.51-x86_64.AppImage",
       size: "24.7 MB",
-    },
-    {
-      label: "Rush2Recompiled-1.0.51",
-      url: "https://github.com/bryantmh/rush2recompiled/releases/download/v1.0.51/Rush2Recompiled-1.0.51.zip",
-      size: "23.5 MB",
     },
   ],
   cover: {

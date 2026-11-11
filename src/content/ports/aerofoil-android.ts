@@ -12,9 +12,9 @@ export const aerofoilAndroid: Port = {
   genre: "simulation",
   openSource: true,
   originalGameLicense: "proprietary",
-  platforms: ["android"],
+  platforms: ["windows", "android"],
   status: "stable",
-  release: { version: "1.1.2", date: "2021-11-10" },
+  release: { version: "1.1.7", date: "2026-10-26" },
   sources: ["https://github.com/elasota/Aerofoil"],
   license: { spdx: "GPL-2.0" },
   noOriginalGameRequired: true,
@@ -25,16 +25,6 @@ export const aerofoilAndroid: Port = {
   summary: "Glider is an action game written by John Calhoun for the Mac and published as shareware in 1988 under the company name Soft Dorothy Software. The object of the game is to fly a paper plane through the rooms of a house. Air currents from heat ducts and fans affect the plane's movement, while assorted household objects are usually deadly. Some rooms have special mechanics, such as the ability to slide along grease-covered surfaces. Each room is presented as a two-dimensional side view.",
   summaryEs: "Glider es un videojuego de Macintosh escrito por John Calhoun y publicado como shareware en 1988 bajo la compañía Soft Dorothy Software. En 1991, una versión coloreada de Glider que incluía un nivel de edición fue publicado por Casady & Greene como Glider 4.0. En 1994, Casady & Greene publicó una versión mejorada del juego, GliderPRO, para la plataforma Mac. Cuando Casady & Greene declaró bancarrota en 2003, los derechos del juego volvieron a pertenecer al autor, quién optó dar el juego gratis en su web por un periodo de tiempo.",
   downloads: [
-    {
-      label: "Windows",
-      url: "https://github.com/elasota/Aerofoil/releases/download/1.1.7/Aerofoil-1.1.7-win64-PDBs.7z",
-      size: "2.7 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/elasota/Aerofoil/releases/download/1.1.7/Aerofoil-1.1.7-win64-tools.zip",
-      size: "1012 KB",
-    },
     {
       label: "Windows",
       url: "https://github.com/elasota/Aerofoil/releases/download/1.1.7/Aerofoil-1.1.7-win64.zip",

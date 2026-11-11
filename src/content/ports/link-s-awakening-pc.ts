@@ -22,21 +22,6 @@ export const linkSAwakeningPc: Port = {
   originalSystems: ["Nintendo Switch"],
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/peiikai/LASRecomp/releases/download/beta_5.4/LAS.Recomp-beta_5.4-linux-aarch64.AppImage",
-      size: "100.7 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/peiikai/LASRecomp/releases/download/beta_5.4/LAS.Recomp-beta_5.4-linux-x86_64.AppImage",
-      size: "107.0 MB",
-    },
-    {
-      label: "macOS DMG",
-      url: "https://github.com/peiikai/LASRecomp/releases/download/beta_5.4/LAS.Recomp-beta_5.4-macOS.dmg",
-      size: "101.1 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/peiikai/LASRecomp/releases/download/beta_5.4/LAS.Recomp-beta_5.4-windows.zip",
       size: "94.3 MB",

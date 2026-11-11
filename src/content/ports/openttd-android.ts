@@ -23,7 +23,7 @@ export const openttdAndroid: Port = {
   originalSystems: ["MS-DOS"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/pelya/openttd-android/releases/download/1.9.1.77/OpenTTD-1.9.1.77.apk",
       size: "52.5 MB",
     },

@@ -27,11 +27,6 @@ export const promethendevWwe2k14Recomp: Port = {
       url: "https://github.com/PromethenDev/wwe2k14-recomp/releases/download/v1.5.4/Linux-WWE2K14-Recomp-v1.5.4-x64.zip",
       size: "136.4 MB",
     },
-    {
-      label: "WWE2K14-Recomp-v1.5.4-x64",
-      url: "https://github.com/PromethenDev/wwe2k14-recomp/releases/download/v1.5.4/WWE2K14-Recomp-v1.5.4-x64.zip",
-      size: "186.5 MB",
-    },
   ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/ec/WWE_2K14_cover.jpg",

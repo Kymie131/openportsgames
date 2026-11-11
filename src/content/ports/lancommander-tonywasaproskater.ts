@@ -23,24 +23,24 @@ export const lancommanderTonywasaproskater: Port = {
   originalSystems: ["PlayStation"],
   downloads: [
     {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/LANCommander/TonyWasAProSkater/releases/download/v1.4.0/thps-linux-x64-1.4.0.tar.gz",
       size: "610 KB",
     },
     {
-      label: "Linux",
+      label: "Linux x86",
       url: "https://github.com/LANCommander/TonyWasAProSkater/releases/download/v1.4.0/thps-linux-x86-1.4.0.tar.gz",
       size: "599 KB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/LANCommander/TonyWasAProSkater/releases/download/v1.4.0/thps-windows-x64-1.4.0.zip",
-      size: "1.5 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x86",
       url: "https://github.com/LANCommander/TonyWasAProSkater/releases/download/v1.4.0/thps-windows-x86-1.4.0.zip",
       size: "1.6 MB",
+    },
+    {
+      label: "Windows x64",
+      url: "https://github.com/LANCommander/TonyWasAProSkater/releases/download/v1.4.0/thps-windows-x64-1.4.0.zip",
+      size: "1.5 MB",
     },
   ],
   cover: {

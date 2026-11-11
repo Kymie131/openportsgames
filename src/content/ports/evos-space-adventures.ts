@@ -25,34 +25,34 @@ export const EvosSpaceAdventures: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "psyq-compilers",
-      url: "https://github.com/mkst/esa/releases/download/psyq-binaries/psyq-compilers.tar.gz",
-      size: "9.8 MB",
-    },
-    {
-      label: "psyq-obj-parser",
-      url: "https://github.com/mkst/esa/releases/download/psyq-binaries/psyq-obj-parser.tar.gz",
-      size: "101 KB",
-    },
-    {
-      label: "psyq3.3",
+      label: "Windows",
       url: "https://github.com/mkst/esa/releases/download/psyq-binaries/psyq3.3.tar.gz",
       size: "993 KB",
     },
     {
-      label: "psyq3.5",
-      url: "https://github.com/mkst/esa/releases/download/psyq-binaries/psyq3.5.tar.gz",
-      size: "1.0 MB",
+      label: "Windows",
+      url: "https://github.com/mkst/esa/releases/download/psyq-binaries/psyq-obj-parser.tar.gz",
+      size: "101 KB",
     },
     {
-      label: "psyq3.6",
+      label: "Windows",
+      url: "https://github.com/mkst/esa/releases/download/psyq-binaries/psyq-compilers.tar.gz",
+      size: "9.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/mkst/esa/releases/download/psyq-binaries/psyq4.0.tar.gz",
+      size: "2.3 MB",
+    },
+    {
+      label: "Windows",
       url: "https://github.com/mkst/esa/releases/download/psyq-binaries/psyq3.6.tar.gz",
       size: "2.2 MB",
     },
     {
-      label: "psyq4.0",
-      url: "https://github.com/mkst/esa/releases/download/psyq-binaries/psyq4.0.tar.gz",
-      size: "2.3 MB",
+      label: "Windows",
+      url: "https://github.com/mkst/esa/releases/download/psyq-binaries/psyq3.5.tar.gz",
+      size: "1.0 MB",
     },
   ],
   cover: {

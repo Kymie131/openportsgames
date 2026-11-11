@@ -25,7 +25,7 @@ export const apotrisPsp: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "apotrisPSP-v4.1.0-psp1",
+      label: "Psp",
       url: "https://github.com/dadcapgamer/apotrisPSP/releases/download/v4.1.0-psp1/apotrisPSP-v4.1.0-psp1.zip",
       size: "4.1 MB",
     },

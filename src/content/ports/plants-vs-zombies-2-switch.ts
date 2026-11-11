@@ -24,7 +24,7 @@ export const plantsVsZombies2Switch: Port = {
   summaryEs: "Plants vs. Zombies 2 es un videojuego gratuito de defensa de torres de 2013 desarrollado por PopCap Games y publicado por Electronic Arts. Es la secuela de Plantas contra zombis y se lanzó mundialmente en la App Store de Apple el 15 de agosto de 2013 y en Google Play el 2 de octubre de 2013. El jugador defiende el jardín de los zombis colocando diversas plantas.",
   downloads: [
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/xflipperkast/PVZ2_NX/releases/download/v1.2.0/pvz2_nx.nro",
       size: "6.4 MB",
     },

@@ -55,13 +55,11 @@ export const disgaeaD2Recomp: Port = {
     {
       "label": "Windows x64",
       "url": "https://github.com/LUUKASR1/disgaea-d2-recomp-windows/releases/download/v0.2.4/DisgaeaD2Launcher-0.2.4-Windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Windows installer",
+      "label": "Windows x64",
       "url": "https://github.com/LUUKASR1/disgaea-d2-recomp-windows/releases/download/v0.2.4/DisgaeaD2Launcher-Setup-Windows-x64.exe",
-      "note": "Windows · installer"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/disgaea-d2-recomp.png",

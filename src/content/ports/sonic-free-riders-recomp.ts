@@ -27,34 +27,14 @@ export const sonicFreeRidersRecomp: Port = {
     "Recompilación nativa de Sonic Free Riders (Xbox 360). El jugador aporta su propio material obtenido legalmente (disc dump); el repositorio no incluye contenido del juego.",
   downloads: [
     {
-      label: "Android",
-      url: "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/download/v0.10.55/FreeRidersRecompiled-0.10.55-android-arm64-licenses.zip",
-      size: "75 KB",
-    },
-    {
-      label: "Android APK",
-      url: "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/download/v0.10.55/FreeRidersRecompiled-0.10.55-android-arm64.apk",
-      size: "101.2 MB",
-    },
-    {
-      label: "Android APK",
-      url: "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/download/v0.10.55/FreeRidersRecompiled-0.10.55-android10-arm64.apk",
-      size: "101.3 MB",
-    },
-    {
-      label: "iOS IPA",
-      url: "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/download/v0.10.55/FreeRidersRecompiled-0.10.55-ios-arm64.ipa",
-      size: "42.5 MB",
+      label: "macOS",
+      url: "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/download/v0.10.55/FreeRidersRecompiled-0.10.55-macos-arm64.zip",
+      size: "45.5 MB",
     },
     {
       label: "Linux",
       url: "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/download/v0.10.55/FreeRidersRecompiled-0.10.55-linux-x64.tar.gz",
       size: "41.3 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/download/v0.10.55/FreeRidersRecompiled-0.10.55-macos-arm64.zip",
-      size: "45.5 MB",
     },
   ],
   cover: {

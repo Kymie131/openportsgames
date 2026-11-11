@@ -22,14 +22,14 @@ export const GeometryWarsRetroEvolved2: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
+      label: "Linux",
+      url: "https://github.com/saulob/geometry-wars-retro-evolved-2-recompiled/releases/download/v0.6.1/GeometryWarsRetroEvolved2Recompiled-v0.6.1-x86_64.AppImage",
+      size: "10.5 MB",
+    },
+    {
       label: "Windows",
       url: "https://github.com/saulob/geometry-wars-retro-evolved-2-recompiled/releases/download/v0.6.1/GeometryWarsRetroEvolved2-v0.6.1-windows-x64.zip",
       size: "9.2 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/saulob/geometry-wars-retro-evolved-2-recompiled/releases/download/v0.6.1/GeometryWarsRetroEvolved2Recompiled-v0.6.1-x86_64.AppImage",
-      size: "10.5 MB",
     },
   ],
   cover: {

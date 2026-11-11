@@ -27,29 +27,29 @@ export const streetsOfRageRecomp: Port = {
     "Recompilación nativa de Streets of Rage (Sega Mega Drive / Genesis). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
   downloads: [
     {
-      label: "Linux AppImage",
+      label: "Linux x64",
+      url: "https://github.com/RuiNelson/StreetsOfRageProject/releases/download/0.7.1/StreetsOfRageBuilder-0.7.1-x86_64.AppImage",
+      size: "79.7 MB",
+    },
+    {
+      label: "Linux arm64",
       url: "https://github.com/RuiNelson/StreetsOfRageProject/releases/download/0.7.1/StreetsOfRageBuilder-0.7.1-aarch64.AppImage",
       size: "77.9 MB",
     },
     {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/RuiNelson/StreetsOfRageProject/releases/download/0.7.1/StreetsOfRageBuilder-0.7.1-macos-universal.dmg",
       size: "16.6 MB",
     },
     {
-      label: "Windows EXE",
-      url: "https://github.com/RuiNelson/StreetsOfRageProject/releases/download/0.7.1/StreetsOfRageBuilder-0.7.1-windows-arm64.exe",
-      size: "8.9 MB",
-    },
-    {
-      label: "Windows EXE",
+      label: "Windows x64",
       url: "https://github.com/RuiNelson/StreetsOfRageProject/releases/download/0.7.1/StreetsOfRageBuilder-0.7.1-windows-x64.exe",
       size: "10.5 MB",
     },
     {
-      label: "Linux AppImage",
-      url: "https://github.com/RuiNelson/StreetsOfRageProject/releases/download/0.7.1/StreetsOfRageBuilder-0.7.1-x86_64.AppImage",
-      size: "79.7 MB",
+      label: "Windows arm64",
+      url: "https://github.com/RuiNelson/StreetsOfRageProject/releases/download/0.7.1/StreetsOfRageBuilder-0.7.1-windows-arm64.exe",
+      size: "8.9 MB",
     },
   ],
   cover: {

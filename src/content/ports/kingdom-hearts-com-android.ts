@@ -23,34 +23,9 @@ export const kingdomHeartsComAndroid: Port = {
   originalSystems: ["Game Boy Advance"],
   downloads: [
     {
-      label: "PPSA98511",
-      url: "https://github.com/MatyMeatBoy/ReKHCoM/releases/download/v2.9/PPSA98511.zip",
-      size: "26.7 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/MatyMeatBoy/ReKHCoM/releases/download/v2.9/ReKHCoM-v2.9-android-beta.apk",
       size: "26.5 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/MatyMeatBoy/ReKHCoM/releases/download/v2.9/ReKHCoM-v2.9-linux-armhf-anbernic-beta.zip",
-      size: "24.4 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/MatyMeatBoy/ReKHCoM/releases/download/v2.9/ReKHCoM-v2.9-linux-x86-x64-desktop-steamdeck.tar.gz",
-      size: "35.8 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/MatyMeatBoy/ReKHCoM/releases/download/v2.9/ReKHCoM-v2.9-ps4-beta.pkg",
-      size: "37.6 MB",
-    },
-    {
-      label: "Switch NRO",
-      url: "https://github.com/MatyMeatBoy/ReKHCoM/releases/download/v2.9/ReKHCoM-v2.9-switch-beta.nro",
-      size: "38.9 MB",
     },
   ],
   cover: {

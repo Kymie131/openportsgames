@@ -27,7 +27,7 @@ export const slayTheSpire2Android: Port = {
     "Lanzador no oficial para Android de Slay the Spire 2, todavía en alfa. Necesita el juego original.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Ekyso/StS2-Launcher/releases/download/0.2.0/StS2Launcher-v0.2.0.apk",
       size: "44.5 MB",
     },

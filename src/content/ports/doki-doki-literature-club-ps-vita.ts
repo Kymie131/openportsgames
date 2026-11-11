@@ -22,7 +22,7 @@ export const dokiDokiLiteratureClubPsVita: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "DDLC-LOVE-PSP",
+      label: "Psvita",
       url: "https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.2.3/DDLC-LOVE-PSP.zip",
       size: "83.4 MB",
     },

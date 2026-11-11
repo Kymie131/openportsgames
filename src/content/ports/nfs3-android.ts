@@ -27,7 +27,7 @@ export const nfs3Android: Port = {
     "Recompilación de Need for Speed III: Hot Pursuit que funciona en Android. Necesita tus propios archivos del juego.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/ZloiKILLER/nfs3recompiled-android/releases/download/v0.78/nfs3hp-release-0.78.apk",
       size: "32.8 MB",
     },

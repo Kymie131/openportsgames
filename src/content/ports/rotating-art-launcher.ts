@@ -23,7 +23,7 @@ export const rotatingArtLauncher: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/FireworkSky/RotatingartLauncher/releases/download/v2.1.1/RotatingArtLauncher.2.1.1.apk",
       size: "105.1 MB",
     },

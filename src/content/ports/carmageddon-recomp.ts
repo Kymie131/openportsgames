@@ -28,29 +28,29 @@ export const carmageddonRecomp: Port = {
     "Reimplementación por ingeniería inversa de Carmageddon (1997) que ejecuta los datos del juego original en sistemas modernos. Necesita tu propia copia del juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/dethrace-labs/dethrace/releases/download/v0.10.1/dethrace-v0.10.1-linux-arm64.tar.gz",
-      size: "5.3 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/dethrace-labs/dethrace/releases/download/v0.10.1/dethrace-v0.10.1-linux-x64.tar.gz",
-      size: "5.2 MB",
-    },
-    {
-      label: "macOS DMG",
-      url: "https://github.com/dethrace-labs/dethrace/releases/download/v0.10.1/dethrace-v0.10.1-macos-arm64-x64.dmg",
-      size: "3.0 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/dethrace-labs/dethrace/releases/download/v0.10.1/dethrace-v0.10.1-windows-x64.zip",
       size: "8.2 MB",
     },
     {
-      label: "Windows",
+      label: "Windows x86",
       url: "https://github.com/dethrace-labs/dethrace/releases/download/v0.10.1/dethrace-v0.10.1-windows-x86.zip",
       size: "7.8 MB",
+    },
+    {
+      label: "Linux arm64",
+      url: "https://github.com/dethrace-labs/dethrace/releases/download/v0.10.1/dethrace-v0.10.1-linux-arm64.tar.gz",
+      size: "5.3 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/dethrace-labs/dethrace/releases/download/v0.10.1/dethrace-v0.10.1-linux-x64.tar.gz",
+      size: "5.2 MB",
+    },
+    {
+      label: "macOS",
+      url: "https://github.com/dethrace-labs/dethrace/releases/download/v0.10.1/dethrace-v0.10.1-macos-arm64-x64.dmg",
+      size: "3.0 MB",
     },
   ],
   cover: {

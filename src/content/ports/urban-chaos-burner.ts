@@ -52,15 +52,13 @@ export const urbanChaosBurner: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/linkssy2/UrbanChaosRiotResponseBurnerEdition/releases/download/v0.12/UrbanChaos-BurnerEdition-0.12-Windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux Proton",
+      "label": "Linux",
       "url": "https://github.com/linkssy2/UrbanChaosRiotResponseBurnerEdition/releases/download/v0.12/UrbanChaos-BurnerEdition-0.12-Linux-Proton.tar.gz",
-      "note": "Linux · Proton"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/generated/urban-chaos-burner.svg",

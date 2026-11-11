@@ -25,7 +25,7 @@ export const boron853SoulsOfTheReaper: Port = {
   summaryEs: "Diablo III es un videojuego de rol de acción (ARPG), desarrollado por Blizzard Entertainment. Ésta es la continuación de Diablo II y la tercera parte de la serie que fue creada por la compañía estadounidense Blizzard. Su temática es de fantasía oscura y terrorífica. Su aparición fue anunciada el 28 de junio de 2008 en el Blizzard Entertainment Worldwide Invitational en París, Francia. Blizzard anunció que el lanzamiento se realizaría el 15 de mayo de 2012.",
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/Boron853/Souls-of-the-Reaper/releases/download/beta-1.3/SoulsOfTheReaper_Setup.exe",
       size: "22.3 MB",
     },

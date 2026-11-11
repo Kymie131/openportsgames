@@ -25,32 +25,12 @@ export const dogpartyIpodclickwheelrecomps: Port = {
   summaryEs: "Lost es un videojuego de rol publicado por Gameloft en 2007.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/DogParty/iPodClickWheelRecomps/releases/download/v1.0.1/bowling-1.0.1-linux-x86_64.zip",
-      size: "1.1 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/DogParty/iPodClickWheelRecomps/releases/download/v1.0.1/bowling-1.0.1-macos.zip",
-      size: "4.5 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/DogParty/iPodClickWheelRecomps/releases/download/v1.0.1/bowling-1.0.1-windows-x64.zip",
       size: "11.8 MB",
     },
     {
-      label: "Linux",
-      url: "https://github.com/DogParty/iPodClickWheelRecomps/releases/download/v1.0.1/cubis-1.0.1-linux-x86_64.zip",
-      size: "822 KB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/DogParty/iPodClickWheelRecomps/releases/download/v1.0.1/cubis-1.0.1-macos.zip",
-      size: "4.1 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/DogParty/iPodClickWheelRecomps/releases/download/v1.0.1/cubis-1.0.1-windows-x64.zip",
       size: "9.5 MB",
     },

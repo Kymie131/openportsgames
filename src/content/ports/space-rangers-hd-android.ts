@@ -23,9 +23,9 @@ export const spaceRangersHdAndroid: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/pakompom/SpaceRangersHD_FPC/releases/download/build-20261015-163828-1d1835a1e6b3/SpaceRangersHD-Android-arm64.apk",
-      size: "5.1 MB",
+      label: "Windows",
+      url: "https://github.com/pakompom/SpaceRangersHD_FPC/releases/download/build-20261015-163828-1d1835a1e6b3/SpaceRangersHD-Windows-x86_64.zip",
+      size: "11.1 MB",
     },
     {
       label: "Linux",
@@ -33,9 +33,9 @@ export const spaceRangersHdAndroid: Port = {
       size: "9.4 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/pakompom/SpaceRangersHD_FPC/releases/download/build-20261015-163828-1d1835a1e6b3/SpaceRangersHD-Windows-x86_64.zip",
-      size: "11.1 MB",
+      label: "Android",
+      url: "https://github.com/pakompom/SpaceRangersHD_FPC/releases/download/build-20261015-163828-1d1835a1e6b3/SpaceRangersHD-Android-arm64.apk",
+      size: "5.1 MB",
     },
   ],
   cover: {

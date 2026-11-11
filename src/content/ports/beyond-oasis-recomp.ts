@@ -50,15 +50,9 @@ export const beyondOasisRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64 (ZIP)",
-      "url": "https://github.com/OriginalSwayze/beyond-oasis-recomp/releases/download/v1.5/Beyond-Oasis-Recomp-v1.5.zip",
-      "note": "Windows · portable"
-    },
-    {
-      "label": "Windows installer",
+      "label": "Windows",
       "url": "https://github.com/OriginalSwayze/beyond-oasis-recomp/releases/download/v1.5/Beyond-Oasis-Setup-v1.5.exe",
-      "note": "Windows · installer"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/beyond-oasis-recomp.png",

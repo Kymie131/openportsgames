@@ -22,7 +22,7 @@ export const BetrayalAtKrondor: Port = {
   originalSystems: ["MS-DOS"],
   downloads: [
     {
-      label: "toolchain",
+      label: "Windows",
       url: "https://github.com/canassa/betrayal-at-krondor/releases/download/toolchain-v1/toolchain.tar.gz",
       size: "17.1 MB",
     },

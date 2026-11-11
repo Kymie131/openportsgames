@@ -27,7 +27,7 @@ export const superMarioGalaxyNebula: Port = {
   },
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/keepvaibin/nebula/releases/download/v1.0.2/Nebula-Setup.exe",
       size: "13.8 MB",
     },

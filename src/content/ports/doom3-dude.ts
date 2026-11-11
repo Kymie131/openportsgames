@@ -39,24 +39,19 @@ export const doom3Dude: Port = {
     "DUDE (Doom3 Unified Development Engine) actualiza el motor Doom 3 de id Tech 4 con renderizado moderno, trazado de rayos y backend Vulkan. El repositorio publica su herramienta y declara que el desarrollo se apoya en IA. Requiere los archivos de Doom 3 que posea el jugador.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/Inkub0/dude/releases/download/v0.9.8/dude-0.9.8-linux-x86_64.tar.gz",
-      size: "71.1 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/Inkub0/dude/releases/download/v0.9.8/dude-0.9.8-win64.zip",
       size: "81.1 MB",
     },
     {
-      label: "Linux",
-      url: "https://github.com/Inkub0/dude/releases/download/v0.9.8/dude-linux-x86_64.tar.gz",
+      label: "Linux x64",
+      url: "https://github.com/Inkub0/dude/releases/download/v0.9.8/dude-0.9.8-linux-x86_64.tar.gz",
       size: "71.1 MB",
     },
     {
-      label: "Linux",
-      url: "https://github.com/Inkub0/dude/releases/download/v0.9.8/dude-q4-0.9.8-linux-x86_64.tar.gz",
-      size: "23.0 MB",
+      label: "Linux x64",
+      url: "https://github.com/Inkub0/dude/releases/download/v0.9.8/dude-linux-x86_64.tar.gz",
+      size: "71.1 MB",
     },
     {
       label: "Windows",
@@ -64,7 +59,12 @@ export const doom3Dude: Port = {
       size: "27.1 MB",
     },
     {
-      label: "Linux",
+      label: "Linux x64",
+      url: "https://github.com/Inkub0/dude/releases/download/v0.9.8/dude-q4-0.9.8-linux-x86_64.tar.gz",
+      size: "23.0 MB",
+    },
+    {
+      label: "Linux x64",
       url: "https://github.com/Inkub0/dude/releases/download/v0.9.8/dude-q4-linux-x86_64.tar.gz",
       size: "23.0 MB",
     },

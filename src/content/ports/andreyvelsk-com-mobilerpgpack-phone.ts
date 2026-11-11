@@ -25,7 +25,7 @@ export const andreyvelskComMobilerpgpackPhone: Port = {
   summaryEs: "Doom RPG es un videojuego para teléfonos móviles desarrollado por Fountainhead Entertainment y publicado por JAMDAT Mobile. Combina la franquicia Doom con elementos de un videojuego de rol. La historia incorpora muchos eventos similares a Doom 3, pero involucra personajes diferentes a los del tercer juego.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/andreyvelsk/com.mobilerpgpack.phone/releases/download/2.9.1-ds.1.0.2/Classic.Core.Dualscreen_fdroid_release_v2.9.1-ds.1.0.2_b67_2026_06_10_10_20.apk",
       size: "91.6 MB",
     },

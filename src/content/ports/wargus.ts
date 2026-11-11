@@ -28,12 +28,12 @@ export const wargusPort: Port = {
     "Reimplementación del motor de Warcraft II, pensada para ser compatible con los archivos de datos comerciales.",
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/Wargus/wargus/releases/download/v3.3.2/Wargus-3.3.2.exe",
       size: "44.8 MB",
     },
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/Wargus/wargus/releases/download/v3.3.2/Wargus-portable-3.3.2.exe",
       size: "44.7 MB",
     },

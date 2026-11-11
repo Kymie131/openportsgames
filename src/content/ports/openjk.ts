@@ -29,34 +29,34 @@ export const openJk: Port = {
     "Motor comunitario de Jedi Academy (y el modo un jugador de Jedi Outcast) publicado por Raven Software. Se distribuye como release continua 'latest'. Requiere los archivos del juego original.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/JACoders/OpenJK/releases/download/latest/OpenJK-linux-x86.tar.gz",
-      size: "7.9 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/JACoders/OpenJK/releases/download/latest/OpenJK-linux-x86_64.tar.gz",
-      size: "7.5 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/JACoders/OpenJK/releases/download/latest/OpenJK-macos-arm64.tar.gz",
-      size: "7.5 MB",
-    },
-    {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/JACoders/OpenJK/releases/download/latest/OpenJK-macos-x86_64.tar.gz",
       size: "8.0 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/JACoders/OpenJK/releases/download/latest/OpenJK-windows-x86.zip",
-      size: "5.8 MB",
+      label: "Linux x86",
+      url: "https://github.com/JACoders/OpenJK/releases/download/latest/OpenJK-linux-x86.tar.gz",
+      size: "7.9 MB",
     },
     {
-      label: "Windows",
+      label: "Linux x64",
+      url: "https://github.com/JACoders/OpenJK/releases/download/latest/OpenJK-linux-x86_64.tar.gz",
+      size: "7.5 MB",
+    },
+    {
+      label: "macOS arm64",
+      url: "https://github.com/JACoders/OpenJK/releases/download/latest/OpenJK-macos-arm64.tar.gz",
+      size: "7.5 MB",
+    },
+    {
+      label: "Windows x64",
       url: "https://github.com/JACoders/OpenJK/releases/download/latest/OpenJK-windows-x86_64.zip",
       size: "6.7 MB",
+    },
+    {
+      label: "Windows x86",
+      url: "https://github.com/JACoders/OpenJK/releases/download/latest/OpenJK-windows-x86.zip",
+      size: "5.8 MB",
     },
   ],
   cover: {

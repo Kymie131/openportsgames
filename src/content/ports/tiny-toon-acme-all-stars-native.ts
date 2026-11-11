@@ -50,10 +50,9 @@ export const tinyToonAcmeAllStarsNative: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/rafarvns/Tiny-Toon-Acme-All-Stars---Native/releases/download/v1.0.0/TinyToon-v1.0.0-Windows-x64.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/tiny-toon-acme-all-stars-native.png",

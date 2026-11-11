@@ -27,7 +27,7 @@ export const chrissotraidisGoldenpad: Port = {
   notesEs: "GoldenEye 007: source port de chrissotraidis para Windows, macOS. Aporta tu propia copia del juego.",
   downloads: [
     {
-      label: "iOS IPA",
+      label: "iOS",
       url: "https://github.com/chrissotraidis/goldenpad/releases/download/v0.3.0/GoldenPad-v0.3.0-ios-shell.ipa",
       size: "5.7 MB",
     },

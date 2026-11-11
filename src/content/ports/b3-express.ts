@@ -52,10 +52,9 @@ export const b3Express: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/LuvAbyss/B3-Express/releases/download/0.2.5/B3-Express-0.2.5-windows-x64.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/b3-express.webp",

@@ -22,24 +22,24 @@ export const SexyParodius: Port = {
   originalSystems: ["PlayStation"],
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/NJH-1001/SexyParoRecomp/releases/download/v0.2.0/sexyparo-0.2.0-windows-x64.zip",
+      size: "28.4 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/NJH-1001/SexyParoRecomp/releases/download/v0.2.0/sexyparo-0.2.0-linux-x64.zip",
       size: "26.9 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/NJH-1001/SexyParoRecomp/releases/download/v0.2.0/sexyparo-0.2.0-macos-arm64.zip",
-      size: "24.6 MB",
-    },
-    {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/NJH-1001/SexyParoRecomp/releases/download/v0.2.0/sexyparo-0.2.0-macos-x64.zip",
       size: "24.9 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/NJH-1001/SexyParoRecomp/releases/download/v0.2.0/sexyparo-0.2.0-windows-x64.zip",
-      size: "28.4 MB",
+      label: "macOS arm64",
+      url: "https://github.com/NJH-1001/SexyParoRecomp/releases/download/v0.2.0/sexyparo-0.2.0-macos-arm64.zip",
+      size: "24.6 MB",
     },
   ],
   cover: {

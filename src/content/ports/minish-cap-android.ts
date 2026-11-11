@@ -23,7 +23,7 @@ export const minishCapAndroid: Port = {
   related: ["project-picori","minish-cap"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/samyost1/tmc-android/releases/download/v1.2/tmc-dual-screen-v1.2.apk",
       size: "27.2 MB",
     },

@@ -25,17 +25,7 @@ export const OmegaEngine: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/Bishop-333/OmegA-engine/releases/download/v3.4.1/omega-engine-linux-arm64.tar.gz",
-      size: "2.1 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/Bishop-333/OmegA-engine/releases/download/v3.4.1/omega-engine-linux-x86_64.tar.gz",
-      size: "2.1 MB",
-    },
-    {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/Bishop-333/OmegA-engine/releases/download/v3.4.1/omega-engine-macos-universal2.dmg",
       size: "11.5 MB",
     },
@@ -45,7 +35,17 @@ export const OmegaEngine: Port = {
       size: "4.6 MB",
     },
     {
-      label: "Linux",
+      label: "Linux arm64",
+      url: "https://github.com/Bishop-333/OmegA-engine/releases/download/v3.4.1/omega-engine-linux-arm64.tar.gz",
+      size: "2.1 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/Bishop-333/OmegA-engine/releases/download/v3.4.1/omega-engine-linux-x86_64.tar.gz",
+      size: "2.1 MB",
+    },
+    {
+      label: "Linux x64",
       url: "https://github.com/Bishop-333/OmegA-engine/releases/download/v3.4.1/omega-engine_3.4.1_amd64.deb",
       size: "1.0 MB",
     },

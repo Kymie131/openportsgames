@@ -25,7 +25,7 @@ export const promethendevWwe13Recomp: Port = {
   summaryEs: "WWE '13 es un videojuego de lucha libre profesional que fue desarrollado por Yuke's y que es distribuido por THQ para la PlayStation 3, Xbox 360 y Wii. Es el segundo juego en la serie WWE y décimo quinto en las series combinadas. Es la secuela de WWE '12 y fue lanzado el 30 de octubre de 2012 en América del Norte, el 1 de noviembre de 2012 en Australia y el 2 de noviembre de 2012 en Europa. Fue el último juego de la franquicia en lanzarse para la consola Wii.",
   downloads: [
     {
-      label: "WWE13-Recomp-v1.5",
+      label: "Windows",
       url: "https://github.com/PromethenDev/wwe13-recomp/releases/download/v1.5/WWE13-Recomp-v1.5.zip",
       size: "89.0 MB",
     },

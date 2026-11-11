@@ -31,7 +31,7 @@ export const openh3m: Port = {
     "Spartan (antes OpenH3M) es una recompilación estática nativa para Windows x64 del disco multijugador Halo 3 Mythic, creada con ReXGlue. Requiere tus propios archivos del disco obtenidos legalmente.",
   downloads: [
     {
-      label: "Windows (beta 0.8)",
+      label: "Windows",
       url: "https://github.com/GTTeancum/OpenH3M/releases/download/beta-0.8/OpenH3M-beta-0.8-win-x64.zip",
       size: "25.4 MB",
     },

@@ -23,7 +23,7 @@ export const bomberman64Switch: Port = {
   related: ["bomberman-64-recomp"],
   downloads: [
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/paulodiasred/BM64Switch/releases/download/v1.0.0/BM64Recompiled-v1.0.0.nro",
       size: "20.4 MB",
     },

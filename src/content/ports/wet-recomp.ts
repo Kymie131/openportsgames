@@ -27,11 +27,6 @@ export const wetRecomp: Port = {
     "Recompilación estática de WET (2009, Xbox 360) con el SDK ReXGlue. Completamente jugable: vídeo, audio, gameplay, logros y progresión.",
   downloads: [
     {
-      label: "wet-recomp-lin64",
-      url: "https://github.com/nikolaygorb/WetRecomp/releases/download/1.6/wet-recomp-lin64.zip",
-      size: "56.5 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/nikolaygorb/WetRecomp/releases/download/1.6/wet-recomp-win64.zip",
       size: "27.3 MB",

@@ -27,7 +27,7 @@ export const gloomAndroid: Port = {
     "Source port moderno del FPS de Amiga Gloom con un renderizador mejorado, centrado en Android. Necesita los datos del juego original.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Andiweli/ZGloom-Android/releases/download/v09.2026/ZGloom.Collection.09.2026.apk",
       size: "24.2 MB",
     },

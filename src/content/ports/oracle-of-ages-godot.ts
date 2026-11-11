@@ -25,24 +25,9 @@ export const oracleOfAgesGodot: Port = {
   summaryEs: "The Legend of Zelda: Oracle of Seasons y The Legend of Zelda: Oracle of Ages, conocidos en Japón como Zelda no Densetsu: Fushigi no Ki no Mi Daichi no Shō y Zelda no Densetsu: Fushigi no Ki no Mi Jikū no Shō , son dos juegos de acción-aventura desarrollados por Flagship y publicados por Nintendo, así como los títulos séptimo y octavo de la serie de videojuegos The Legend of Zelda. Fueron lanzados el 27 de febrero de 2001 en Japón; el 13 de mayo de 2001 en Norteamérica; y el 5 de octubre de 2001 en Europa y Australia para la videoconsola portátil Nintendo Game Boy Color.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/SHOEGAZEssb/ooa-godot/releases/download/v0.0.7/oracle-of-ages-v0.0.7-android-arm64.apk",
       size: "50.8 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/SHOEGAZEssb/ooa-godot/releases/download/v0.0.7/oracle-of-ages-v0.0.7-linux-x64.tar.gz",
-      size: "64.2 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/SHOEGAZEssb/ooa-godot/releases/download/v0.0.7/oracle-of-ages-v0.0.7-macos-universal.zip",
-      size: "128.5 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/SHOEGAZEssb/ooa-godot/releases/download/v0.0.7/oracle-of-ages-v0.0.7-windows-x64.zip",
-      size: "74.8 MB",
     },
   ],
   cover: {

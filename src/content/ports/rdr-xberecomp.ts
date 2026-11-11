@@ -51,10 +51,9 @@ export const rdrXberecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/TGP482/RDR-XBERecomp/releases/download/V2/RDR-XBERecomp.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/rdr-xberecomp.png",

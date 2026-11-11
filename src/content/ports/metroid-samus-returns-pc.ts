@@ -54,25 +54,21 @@ export const metroidSamusReturnsPc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/gminustwo/msr2ds/releases/download/v2.0.6/msr2ds-2.0.6-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux AppImage",
+      "label": "Linux",
       "url": "https://github.com/gminustwo/msr2ds/releases/download/v2.0.6/msr2ds-2.0.6-x86_64.AppImage",
-      "note": "Linux · AppImage"
     },
     {
-      "label": "macOS arm64",
+      "label": "macOS",
       "url": "https://github.com/gminustwo/msr2ds/releases/download/v2.0.6/msr2ds-2.0.6-macos-arm64.zip",
-      "note": "macOS · Apple Silicon"
     },
     {
-      "label": "Android arm64",
+      "label": "Android",
       "url": "https://github.com/gminustwo/msr2ds/releases/download/v2.0.6/msr2ds-2.0.6-android-arm64.apk",
-      "note": "Android · APK"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/generated/metroid-samus-returns-pc.svg",

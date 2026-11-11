@@ -24,7 +24,7 @@ export const theLedgePsVita: Port = {
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   downloads: [
     {
-      label: "The-Ledge-Vita-0.34-Sources",
+      label: "Psvita",
       url: "https://github.com/beaufortribbons/The-Ledge-Vita/releases/download/v0.34/The-Ledge-Vita-0.34-Sources.zip",
       size: "35.3 MB",
     },

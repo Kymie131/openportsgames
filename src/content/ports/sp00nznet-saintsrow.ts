@@ -24,7 +24,7 @@ export const sp00nznetSaintsrow: Port = {
   summaryEs: "Saints Row es un videojuego de acción y aventura desarrollado por la empresa Volition y publicado por THQ para la plataforma Xbox 360. Se lanzó el 29 de agosto de 2006 en América del Norte, dos días más tarde en Australia y el 1 de septiembre de ese mismo año en Europa y su versión móvil.",
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/sp00nznet/saintsrow/releases/download/v0.1.0/SaintsRow-Installer-windows-x64.exe",
       size: "18.3 MB",
     },

@@ -23,11 +23,6 @@ export const shaolinmonksrecompPc: Port = {
   originalSystems: ["Xbox"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/OAleex/OpenShao/releases/download/v0.5.1/OpenShao-0.5.1-Linux-x64.tar.gz",
-      size: "11.7 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/OAleex/OpenShao/releases/download/v0.5.1/OpenShao-0.5.1-Windows-x64.zip",
       size: "10.7 MB",

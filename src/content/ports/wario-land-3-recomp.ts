@@ -23,19 +23,9 @@ export const warioLand3Recomp: Port = {
   originalSystems: ["Game Boy Color"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/GABRIELNNK/Bigodao/releases/download/1.8.0/Bigodao-1.8-release.apk",
       size: "11.9 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/GABRIELNNK/Bigodao/releases/download/1.8.0/bigodao_1.8_linux_x86.zip",
-      size: "12.8 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/GABRIELNNK/Bigodao/releases/download/1.8.0/bigodao_1.8_win.zip",
-      size: "17.6 MB",
     },
   ],
   cover: {

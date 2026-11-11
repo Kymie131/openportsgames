@@ -22,7 +22,7 @@ export const wwfSmackdown2KnowYourRolePc: Port = {
   originalSystems: ["PlayStation"],
   downloads: [
     {
-      label: "WWF_SmackDown2_Recomp_Release_Windows_x64_v1.1",
+      label: "Windows",
       url: "https://github.com/fabioap-cpu/WWF-SmackDown-2-Recomp/releases/download/v1.1/WWF_SmackDown2_Recomp_Release_Windows_x64_v1.1.zip",
       size: "9.2 MB",
     },

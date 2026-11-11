@@ -51,15 +51,13 @@ export const marioLuigiBrothershipRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/Coaltergeist/Brothership-Recomp/releases/download/Beta1.4.5/BrothershipRecomp-Windows.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/Coaltergeist/Brothership-Recomp/releases/download/Beta1.4.5/BrothershipRecomp-Linux.zip",
-      "note": "Linux · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/mario-luigi-brothership-recomp.jpg",

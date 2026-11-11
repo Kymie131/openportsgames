@@ -22,19 +22,14 @@ export const cbfdRecompiledAndroidEvolved: Port = {
   originalSystems: ["Nintendo 64"],
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/codepdbh/CBFD-Recompiled-Android-Evolved/releases/download/android-v0.2.16/ConkerRecompiled-Android-v0.2.16-arm64-v8a.apk",
-      size: "12.4 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android armv7",
       url: "https://github.com/codepdbh/CBFD-Recompiled-Android-Evolved/releases/download/android-v0.2.16/ConkerRecompiled-Android-v0.2.16-armeabi-v7a.apk",
       size: "13.6 MB",
     },
     {
-      label: "Android",
-      url: "https://github.com/codepdbh/CBFD-Recompiled-Android-Evolved/releases/download/android-v0.2.16/ConkerRecompiled-Mods-v0.2.16.zip",
-      size: "151 KB",
+      label: "Android arm64",
+      url: "https://github.com/codepdbh/CBFD-Recompiled-Android-Evolved/releases/download/android-v0.2.16/ConkerRecompiled-Android-v0.2.16-arm64-v8a.apk",
+      size: "12.4 MB",
     },
   ],
   cover: {

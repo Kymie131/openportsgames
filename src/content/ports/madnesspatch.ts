@@ -25,7 +25,7 @@ export const Madnesspatch: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "MadnessPatch",
+      label: "Windows",
       url: "https://github.com/Wemino/MadnessPatch/releases/download/4.0.3/MadnessPatch.zip",
       size: "1.1 MB",
     },

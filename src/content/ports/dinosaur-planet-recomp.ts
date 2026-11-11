@@ -29,19 +29,19 @@ export const dinosaurPlanetRecomp: Port = {
     "Recompilación estática del prototipo inédito Dinosaur Planet (Rare, 2000). El juego original nunca se lanzó comercialmente, así que esta ficha documenta un prototipo y no un título publicado; se necesita la build original del prototipo para jugar.",
   downloads: [
     {
-      label: "Linux AppImage",
+      label: "Windows",
+      url: "https://github.com/DinosaurPlanetRecomp/dino-recomp/releases/download/v0.3.0/DinosaurPlanetRecompiled-v0.3.0-Windows-x64.zip",
+      size: "20.0 MB",
+    },
+    {
+      label: "Linux x64",
       url: "https://github.com/DinosaurPlanetRecomp/dino-recomp/releases/download/v0.3.0/DinosaurPlanetRecompiled-v0.3.0-Linux-x64.AppImage",
       size: "14.6 MB",
     },
     {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/DinosaurPlanetRecomp/dino-recomp/releases/download/v0.3.0/DinosaurPlanetRecompiled-v0.3.0-Linux-x64.tar.gz",
       size: "9.2 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/DinosaurPlanetRecomp/dino-recomp/releases/download/v0.3.0/DinosaurPlanetRecompiled-v0.3.0-Windows-x64.zip",
-      size: "20.0 MB",
     },
   ],
   cover: {

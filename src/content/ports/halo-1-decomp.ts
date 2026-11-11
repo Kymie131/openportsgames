@@ -26,21 +26,6 @@ export const halo1Decomp: Port = {
       url: "https://github.com/OpenCommunityEdition/OpenCE/releases/download/build-343/halo-android-release.zip",
       size: "18.6 MB",
     },
-    {
-      label: "Linux",
-      url: "https://github.com/OpenCommunityEdition/OpenCE/releases/download/build-343/halo-linux-release.zip",
-      size: "23.3 MB",
-    },
-    {
-      label: "Android",
-      url: "https://github.com/OpenCommunityEdition/OpenCE/releases/download/build-343/halo-web-release.zip",
-      size: "12.3 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/OpenCommunityEdition/OpenCE/releases/download/build-343/halo-windows-release.zip",
-      size: "14.5 MB",
-    },
   ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg",

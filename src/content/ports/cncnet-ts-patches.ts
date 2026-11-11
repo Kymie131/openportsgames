@@ -27,8 +27,8 @@ export const cncnetTsPatches: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/CnCNet/ts-patches/releases/download/latest/ts-patches-MOD_DTA-master-f59bb50.zip",
-      size: "4.9 MB",
+      url: "https://github.com/CnCNet/ts-patches/releases/download/latest/ts-patches-MOD_RUBICON-master-f59bb50.zip",
+      size: "8.8 MB",
     },
     {
       label: "Windows",
@@ -37,8 +37,8 @@ export const cncnetTsPatches: Port = {
     },
     {
       label: "Windows",
-      url: "https://github.com/CnCNet/ts-patches/releases/download/latest/ts-patches-MOD_RUBICON-master-f59bb50.zip",
-      size: "8.8 MB",
+      url: "https://github.com/CnCNet/ts-patches/releases/download/latest/ts-patches-MOD_TO-master-f59bb50.zip",
+      size: "5.6 MB",
     },
     {
       label: "Windows",
@@ -47,13 +47,13 @@ export const cncnetTsPatches: Port = {
     },
     {
       label: "Windows",
-      url: "https://github.com/CnCNet/ts-patches/releases/download/latest/ts-patches-MOD_TI-master-f59bb50.zip",
+      url: "https://github.com/CnCNet/ts-patches/releases/download/latest/ts-patches-MOD_DTA-master-f59bb50.zip",
       size: "4.9 MB",
     },
     {
       label: "Windows",
-      url: "https://github.com/CnCNet/ts-patches/releases/download/latest/ts-patches-MOD_TO-master-f59bb50.zip",
-      size: "5.6 MB",
+      url: "https://github.com/CnCNet/ts-patches/releases/download/latest/ts-patches-MOD_TI-master-f59bb50.zip",
+      size: "4.9 MB",
     },
   ],
   cover: {

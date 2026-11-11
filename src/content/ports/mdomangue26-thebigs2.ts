@@ -25,19 +25,9 @@ export const mdomangue26Thebigs2: Port = {
   summaryEs: "The Bigs 2 es un videojuego de deportes publicado por 2K Sports en 2009.",
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/mdomangue26/The-Bigs-2-Recompiled/releases/download/v1.1/TheBigs2-SteamDeck-x86_64.AppImage",
-      size: "13.1 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/mdomangue26/The-Bigs-2-Recompiled/releases/download/v1.1/TheBigs2-windows-x64.zip",
       size: "14.2 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/mdomangue26/The-Bigs-2-Recompiled/releases/download/v1.1/TheBigs2-x86_64.AppImage",
-      size: "13.1 MB",
     },
   ],
   cover: {

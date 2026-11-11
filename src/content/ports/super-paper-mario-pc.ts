@@ -22,14 +22,14 @@ export const superPaperMarioPc: Port = {
   originalSystems: ["Wii"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/josiahg2502-glitch/NewSuperPaperBros/releases/download/v1.0.8/NewSuperPaperBros-linux.tar.gz",
-      size: "334.4 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/josiahg2502-glitch/NewSuperPaperBros/releases/download/v1.0.8/NewSuperPaperBros.zip",
       size: "356.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/josiahg2502-glitch/NewSuperPaperBros/releases/download/v1.0.8/NewSuperPaperBros-linux.tar.gz",
+      size: "334.4 MB",
     },
   ],
   cover: {

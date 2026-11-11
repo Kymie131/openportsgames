@@ -28,34 +28,14 @@ export const pokerogueApp: Port = {
     "App para Android que abre el juego web PokeRogue en su propia ventana. Es un envoltorio sobre pokerogue.net y no incluye el juego.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/Admiral-Billy/Pokerogue-App/releases/download/v2.4.6f/PokeRogue-Android-Legacy.apk",
-      size: "5.6 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Admiral-Billy/Pokerogue-App/releases/download/v2.4.6f/PokeRogue-Android-Modern-PodarSmarty.apk",
       size: "22.2 MB",
     },
     {
-      label: "Linux",
-      url: "https://github.com/Admiral-Billy/Pokerogue-App/releases/download/v2.4.6f/PokeRogue-Linux.zip",
-      size: "101.2 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/Admiral-Billy/Pokerogue-App/releases/download/v2.4.6f/PokeRogue-macOS.zip",
-      size: "271.8 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/Admiral-Billy/Pokerogue-App/releases/download/v2.4.6f/PokeRogue-Windows.zip",
-      size: "106.3 MB",
-    },
-    {
-      label: "Windows EXE",
-      url: "https://github.com/Admiral-Billy/Pokerogue-App/releases/download/v2.4.6f/PokeRogue.Setup.2.4.6-f.exe",
-      size: "75.1 MB",
+      label: "Android",
+      url: "https://github.com/Admiral-Billy/Pokerogue-App/releases/download/v2.4.6f/PokeRogue-Android-Legacy.apk",
+      size: "5.6 MB",
     },
   ],
   cover: {

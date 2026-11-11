@@ -44,9 +44,9 @@ export const twoShip: Port = {
   },
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/2ship2harkinian/2ship2harkinian/releases/download/5.0.1/2Ship-Battler-Bravo-Linux.zip",
-      size: "15.5 MB",
+      label: "Windows",
+      url: "https://github.com/2ship2harkinian/2ship2harkinian/releases/download/5.0.1/2Ship-Battler-Bravo-Win64.zip",
+      size: "42.9 MB",
     },
     {
       label: "macOS",
@@ -54,9 +54,9 @@ export const twoShip: Port = {
       size: "25.5 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/2ship2harkinian/2ship2harkinian/releases/download/5.0.1/2Ship-Battler-Bravo-Win64.zip",
-      size: "42.9 MB",
+      label: "Linux",
+      url: "https://github.com/2ship2harkinian/2ship2harkinian/releases/download/5.0.1/2Ship-Battler-Bravo-Linux.zip",
+      size: "15.5 MB",
     },
   ],
   cover: {

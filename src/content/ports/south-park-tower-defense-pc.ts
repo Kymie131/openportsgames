@@ -52,15 +52,13 @@ export const southParkTowerDefensePc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/TekRantGaming/south-park-tower-defense-recompiled/releases/download/v0.1.0/SouthParkTD-v0.1.0-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux AppImage",
+      "label": "Linux",
       "url": "https://github.com/TekRantGaming/south-park-tower-defense-recompiled/releases/download/v0.1.0/SouthParkTD-v0.1.0-linux-x86_64.AppImage",
-      "note": "Linux · AppImage"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/south-park-tower-defense-pc.jpg",

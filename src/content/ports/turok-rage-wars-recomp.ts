@@ -22,11 +22,6 @@ export const turokRageWarsRecomp: Port = {
   originalSystems: ["Nintendo 64"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/wootbeer/PaxDino/releases/download/v0.1.8-beta/PaxDino-0.1.8-beta-linux.tar.gz",
-      size: "13.3 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/wootbeer/PaxDino/releases/download/v0.1.8-beta/PaxDino-0.1.8-beta-windows.zip",
       size: "17.6 MB",

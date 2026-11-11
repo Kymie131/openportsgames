@@ -56,17 +56,17 @@ export const shipOfHarkinian: Port = {
   },
   downloads: [
     {
-      label: "macOS",
-      url: "https://github.com/HarbourMasters/Shipwright/releases/download/9.3.1/SoH-Dewey-Bravo-Mac.zip",
-      size: "47.2 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/HarbourMasters/Shipwright/releases/download/9.3.1/SoH-Dewey-Bravo-Win64.zip",
       size: "69.6 MB",
     },
     {
-      label: "Linux AppImage",
+      label: "macOS",
+      url: "https://github.com/HarbourMasters/Shipwright/releases/download/9.3.1/SoH-Dewey-Bravo-Mac.zip",
+      size: "47.2 MB",
+    },
+    {
+      label: "Linux",
       url: "https://github.com/HarbourMasters/Shipwright/releases/download/9.3.1/SoH-Dewey-Bravo.appimage",
       size: "30.6 MB",
     },

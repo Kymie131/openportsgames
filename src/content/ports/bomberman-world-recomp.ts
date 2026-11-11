@@ -26,21 +26,6 @@ export const bombermanWorldRecomp: Port = {
   notesEs: "Indexado en PortsDR. No hay repositorio oficial disponible y necesita tu propia copia.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/TechnicallyComputers/Bomberman-World-Recomp/releases/download/v0.1.21/bombermanworld-0.1.21-linux-x64.zip",
-      size: "49.4 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/TechnicallyComputers/Bomberman-World-Recomp/releases/download/v0.1.21/bombermanworld-0.1.21-macos-arm64.zip",
-      size: "26.2 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/TechnicallyComputers/Bomberman-World-Recomp/releases/download/v0.1.21/bombermanworld-0.1.21-macos-x64.zip",
-      size: "26.9 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/TechnicallyComputers/Bomberman-World-Recomp/releases/download/v0.1.21/bombermanworld-0.1.21-windows-x64.zip",
       size: "27.9 MB",

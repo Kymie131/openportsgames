@@ -22,7 +22,7 @@ export const skate3Port: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/darchap/Skate3-Port/releases/download/v1.3.3/Skate3-Port-1.3.3.apk",
       size: "49.2 MB",
     },

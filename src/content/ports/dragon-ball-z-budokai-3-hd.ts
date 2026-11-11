@@ -27,16 +27,6 @@ export const dragonBallZBudokai3Hd: Port = {
     "Recompilación estática de Dragon Ball Z: Budokai 3 HD (Xbox 360) con ReXGlue. Aporta el propio juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/novapowers0/DBZ-Budokai-3-HD-Collection/releases/download/v1.5.6.2/DBZ-Budokai-3-HD-Collection-v1.5.6.2-linux-amd64.tar.gz",
-      size: "23.9 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/novapowers0/DBZ-Budokai-3-HD-Collection/releases/download/v1.5.6.2/DBZ-Budokai-3-HD-Collection-v1.5.6.2-macos-arm64-EXPERIMENTAL.tar.gz",
-      size: "23.9 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/novapowers0/DBZ-Budokai-3-HD-Collection/releases/download/v1.5.6.2/DBZ-Budokai-3-HD-Collection-v1.5.6.2.zip",
       size: "127.7 MB",
@@ -45,6 +35,16 @@ export const dragonBallZBudokai3Hd: Port = {
       label: "Windows",
       url: "https://github.com/novapowers0/DBZ-Budokai-3-HD-Collection/releases/download/v1.5.6.2/DBZ3HD-1.5.6.2-Kit-Modding.zip",
       size: "62.6 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/novapowers0/DBZ-Budokai-3-HD-Collection/releases/download/v1.5.6.2/DBZ-Budokai-3-HD-Collection-v1.5.6.2-linux-amd64.tar.gz",
+      size: "23.9 MB",
+    },
+    {
+      label: "macOS",
+      url: "https://github.com/novapowers0/DBZ-Budokai-3-HD-Collection/releases/download/v1.5.6.2/DBZ-Budokai-3-HD-Collection-v1.5.6.2-macos-arm64-EXPERIMENTAL.tar.gz",
+      size: "23.9 MB",
     },
   ],
   cover: {

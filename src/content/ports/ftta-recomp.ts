@@ -22,24 +22,9 @@ export const fttaRecomp: Port = {
   originalSystems: ["Game Boy Advance"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/james2doyle/ffta-recomp/releases/download/v2.1/FFTARecomp-v2.1-android-arm64-v8a.apk",
       size: "32.7 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/james2doyle/ffta-recomp/releases/download/v2.1/FFTARecomp-v2.1-linux-x64.zip",
-      size: "39.6 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/james2doyle/ffta-recomp/releases/download/v2.1/FFTARecomp-v2.1-linux-x86_64.AppImage",
-      size: "33.1 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/james2doyle/ffta-recomp/releases/download/v2.1/FFTARecomp-v2.1-windows-x64.zip",
-      size: "39.1 MB",
     },
   ],
   cover: {

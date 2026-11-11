@@ -27,22 +27,12 @@ export const droogieBbhost: Port = {
   notesEs: "Bloodborne: source port de droogie para Windows. Aporta tu propia copia del juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/droogie/bbhost/releases/download/v0.2.32/bbhost-linux-v0.2.32.tar.gz",
-      size: "62.5 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/droogie/bbhost/releases/download/v0.2.32/bbhost-steamdeck-v0.2.32.tar.gz",
-      size: "32.4 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/droogie/bbhost/releases/download/v0.2.32/bbhost-win-v0.2.32.zip",
       size: "106.2 MB",
     },
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/droogie/bbhost/releases/download/v0.2.32/bbhost.exe",
       size: "45.1 MB",
     },

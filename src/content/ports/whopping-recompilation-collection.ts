@@ -36,7 +36,7 @@ export const whoppingRecompilationCollection: Port = {
       size: "46.9 MB",
     },
     {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/TekRantGaming/whopping-recompilation-collection/releases/download/v1.0.8/WhoppingCollection-v1.0.8-linux-x86_64.AppImage",
       size: "35.4 MB",
     },

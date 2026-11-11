@@ -28,7 +28,7 @@ export const minecraftPsp: Port = {
     "Port homebrew de Minecraft Pocket Edition para PlayStation Portable, con el mundo y la jugabilidad portados desde las fuentes de MCPE 0.6.1. Funciona en todos los modelos de PSP, incluida la PSP-1000 de 32 MB, y necesita custom firmware para instalarse.",
   downloads: [
     {
-      label: "MCPSP-v1.9.9",
+      label: "Psp",
       url: "https://github.com/Pencea-Flavius/Minecraft-PE-PSP/releases/download/v1.9.9/MCPSP-v1.9.9.zip",
       size: "75.8 MB",
     },

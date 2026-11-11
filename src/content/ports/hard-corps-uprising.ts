@@ -22,14 +22,14 @@ export const HardCorpsUprising: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
+      label: "Linux",
+      url: "https://github.com/saulob/hard-corps-uprising-recompiled/releases/download/v0.7.1/HardCorpsUprisingRecompiled-v0.7.1-x86_64.AppImage",
+      size: "21.0 MB",
+    },
+    {
       label: "Windows",
       url: "https://github.com/saulob/hard-corps-uprising-recompiled/releases/download/v0.7.1/HardCorpsUprising-v0.7.1-windows-x64.zip",
       size: "19.6 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/saulob/hard-corps-uprising-recompiled/releases/download/v0.7.1/HardCorpsUprisingRecompiled-v0.7.1-x86_64.AppImage",
-      size: "21.0 MB",
     },
   ],
   cover: {

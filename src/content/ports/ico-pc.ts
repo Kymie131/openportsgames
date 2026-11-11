@@ -28,34 +28,29 @@ export const icoPc: Port = {
     "Port nativo de Ico construido a partir de la decompilación de PlayStation 2, para Windows, Linux, macOS y Android. Necesita tu propia copia del juego.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/nathanialf/ico-pc/releases/download/v0.11.4/ico-pc-v0.11.4-android.apk",
-      size: "9.8 MB",
+      label: "Linux",
+      url: "https://github.com/nathanialf/ico-pc/releases/download/v0.11.4/ico-pc-v0.11.4-linux-portable.tar.gz",
+      size: "24.8 MB",
     },
     {
-      label: "iOS IPA",
-      url: "https://github.com/nathanialf/ico-pc/releases/download/v0.11.4/ico-pc-v0.11.4-ios-unsigned.ipa",
-      size: "8.7 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/nathanialf/ico-pc/releases/download/v0.11.4/ico-pc-v0.11.4-linux-aarch64.AppImage",
-      size: "19.8 MB",
-    },
-    {
-      label: "ico-pc-v0.11.4-linux-arm64-portable",
+      label: "Linux arm64",
       url: "https://github.com/nathanialf/ico-pc/releases/download/v0.11.4/ico-pc-v0.11.4-linux-arm64-portable.tar.gz",
       size: "21.4 MB",
     },
     {
-      label: "ico-pc-v0.11.4-linux-arm64",
+      label: "Linux arm64",
       url: "https://github.com/nathanialf/ico-pc/releases/download/v0.11.4/ico-pc-v0.11.4-linux-arm64.tar.gz",
       size: "21.4 MB",
     },
     {
-      label: "ico-pc-v0.11.4-linux-portable",
-      url: "https://github.com/nathanialf/ico-pc/releases/download/v0.11.4/ico-pc-v0.11.4-linux-portable.tar.gz",
-      size: "24.8 MB",
+      label: "Linux arm64",
+      url: "https://github.com/nathanialf/ico-pc/releases/download/v0.11.4/ico-pc-v0.11.4-linux-aarch64.AppImage",
+      size: "19.8 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/nathanialf/ico-pc/releases/download/v0.11.4/ico-pc-v0.11.4-android.apk",
+      size: "9.8 MB",
     },
   ],
   cover: {

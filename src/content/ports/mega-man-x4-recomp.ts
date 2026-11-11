@@ -27,7 +27,7 @@ export const megaManX4Recomp: Port = {
     "Recompilación estática de Mega Man X4 (USA, SLUS-00561) con el framework PSXRecomp. El código MIPS se traduce a C y corre sobre una simulación del hardware de PS1 más una BIOS recompilada.",
   downloads: [
     {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/mstan/MegaManX4Recomp/releases/download/v1.0.29/MegaManX4Recomp-v1.0.29-linux-x86_64.AppImage",
       size: "43.3 MB",
     },

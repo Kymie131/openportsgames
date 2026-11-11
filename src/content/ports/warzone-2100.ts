@@ -38,19 +38,14 @@ export const warzone2100: Port = {
       size: "521.0 MB",
     },
     {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/Warzone2100/warzone2100/releases/download/4.7.0/warzone2100_ubuntu22.04_amd64.deb",
       size: "374.9 MB",
     },
     {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/Warzone2100/warzone2100/releases/download/4.7.0/warzone2100_ubuntu24.04_amd64.deb",
       size: "374.9 MB",
-    },
-    {
-      label: "warzone2100_web_wasm32_archive",
-      url: "https://github.com/Warzone2100/warzone2100/releases/download/4.7.0/warzone2100_web_wasm32_archive.zip",
-      size: "95.8 MB",
     },
     {
       label: "Windows",

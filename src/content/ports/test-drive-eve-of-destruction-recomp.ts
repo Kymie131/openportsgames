@@ -52,15 +52,13 @@ export const testDriveEveOfDestructionRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/catsandsoup/eod-recomp/releases/download/v1.0/Eve-of-Destruction-Windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "macOS arm64",
+      "label": "macOS",
       "url": "https://github.com/catsandsoup/eod-recomp/releases/download/v1.0/Eve-of-Destruction-macOS-arm64.zip",
-      "note": "macOS · Apple Silicon"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/test-drive-eve-of-destruction-recomp.png",

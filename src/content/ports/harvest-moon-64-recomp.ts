@@ -32,19 +32,9 @@ export const harvestMoon64Recomp: Port = {
     "Recompilación de Harvest Moon 64; el jugador aporta su propio juego obtenido legalmente.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/HarvestMoon64Recomp/HarvestMoon64Recomp/releases/download/v1.2.2/HarvestMoon64Recompiled-v1.2.2-Linux-ARM64.zip",
-      size: "6.8 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/HarvestMoon64Recomp/HarvestMoon64Recomp/releases/download/v1.2.2/HarvestMoon64Recompiled-v1.2.2-Linux-Flatpak-X64.zip",
-      size: "4.5 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/HarvestMoon64Recomp/HarvestMoon64Recomp/releases/download/v1.2.2/HarvestMoon64Recompiled-v1.2.2-Linux-X64.zip",
-      size: "6.9 MB",
+      label: "Windows",
+      url: "https://github.com/HarvestMoon64Recomp/HarvestMoon64Recomp/releases/download/v1.2.2/HarvestMoon64Recompiled-v1.2.2-Windows.zip",
+      size: "16.9 MB",
     },
     {
       label: "macOS",
@@ -52,9 +42,19 @@ export const harvestMoon64Recomp: Port = {
       size: "14.4 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/HarvestMoon64Recomp/HarvestMoon64Recomp/releases/download/v1.2.2/HarvestMoon64Recompiled-v1.2.2-Windows.zip",
-      size: "16.9 MB",
+      label: "Linux x64",
+      url: "https://github.com/HarvestMoon64Recomp/HarvestMoon64Recomp/releases/download/v1.2.2/HarvestMoon64Recompiled-v1.2.2-Linux-X64.zip",
+      size: "6.9 MB",
+    },
+    {
+      label: "Linux arm64",
+      url: "https://github.com/HarvestMoon64Recomp/HarvestMoon64Recomp/releases/download/v1.2.2/HarvestMoon64Recompiled-v1.2.2-Linux-ARM64.zip",
+      size: "6.8 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/HarvestMoon64Recomp/HarvestMoon64Recomp/releases/download/v1.2.2/HarvestMoon64Recompiled-v1.2.2-Linux-Flatpak-X64.zip",
+      size: "4.5 MB",
     },
   ],
   cover: {

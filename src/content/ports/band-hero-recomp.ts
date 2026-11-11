@@ -51,10 +51,9 @@ export const bandHeroRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/ElGuslml/BandHRecomp/releases/download/v0.1.0/BandHRecomp-v0.1.0-win64.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/boxart/band-hero-recomp.jpg",

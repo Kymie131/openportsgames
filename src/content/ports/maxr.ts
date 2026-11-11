@@ -25,14 +25,9 @@ export const Maxr: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/maxr-dot-org/maxr/releases/download/release-0.2.17/maxr-0.2.17.exe",
       size: "17.8 MB",
-    },
-    {
-      label: "maxr_pdbs",
-      url: "https://github.com/maxr-dot-org/maxr/releases/download/release-0.2.17/maxr_pdbs.zip",
-      size: "23.0 MB",
     },
   ],
   cover: {

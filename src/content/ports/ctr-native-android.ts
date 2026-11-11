@@ -23,7 +23,7 @@ export const ctrNativeAndroid: Port = {
   related: ["ctr-native"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Simon358/ctr-native-android/releases/download/Android-Build4/CTR-native-android.26.07.2026.apk",
       size: "6.6 MB",
     },

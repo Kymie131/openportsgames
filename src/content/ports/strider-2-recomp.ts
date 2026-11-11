@@ -27,21 +27,6 @@ export const strider2Recomp: Port = {
     "PortsDR lista esta recompilación sin repositorio público. Necesitas el juego para jugarla.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/strider973/STRIDER-2-Recompiled/releases/download/v0.1.2/strider-0.1.2-linux-x64.zip",
-      size: "27.2 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/strider973/STRIDER-2-Recompiled/releases/download/v0.1.2/strider-0.1.2-macos-arm64.zip",
-      size: "24.8 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/strider973/STRIDER-2-Recompiled/releases/download/v0.1.2/strider-0.1.2-macos-x64.zip",
-      size: "25.1 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/strider973/STRIDER-2-Recompiled/releases/download/v0.1.2/strider-0.1.2-windows-x64.zip",
       size: "29.2 MB",

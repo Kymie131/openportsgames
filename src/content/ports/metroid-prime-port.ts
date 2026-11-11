@@ -27,17 +27,17 @@ export const metroidPrimePort: Port = {
     "Port nativo basado en decompilación de Metroid Prime (GameCube). El jugador aporta su propio material obtenido legalmente (disc image); el repositorio no incluye contenido del juego.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/Odrannnn/MetroidPrimePort/releases/download/v0.45.0/metroid-prime-port-0.45.0-android-arm64.apk",
-      size: "19.4 MB",
+      label: "Windows x64",
+      url: "https://github.com/Odrannnn/MetroidPrimePort/releases/download/v0.45.0/metroid-prime-port-0.45.0-windows-x86_64.zip",
+      size: "72.9 MB",
     },
     {
-      label: "Linux",
-      url: "https://github.com/Odrannnn/MetroidPrimePort/releases/download/v0.45.0/metroid-prime-port-0.45.0-linux-aarch64.tar.gz",
-      size: "17.6 MB",
+      label: "Windows arm64",
+      url: "https://github.com/Odrannnn/MetroidPrimePort/releases/download/v0.45.0/metroid-prime-port-0.45.0-windows-arm64.zip",
+      size: "70.8 MB",
     },
     {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/Odrannnn/MetroidPrimePort/releases/download/v0.45.0/metroid-prime-port-0.45.0-linux-x86_64.tar.gz",
       size: "18.5 MB",
     },
@@ -47,14 +47,9 @@ export const metroidPrimePort: Port = {
       size: "18.3 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/Odrannnn/MetroidPrimePort/releases/download/v0.45.0/metroid-prime-port-0.45.0-windows-arm64.zip",
-      size: "70.8 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/Odrannnn/MetroidPrimePort/releases/download/v0.45.0/metroid-prime-port-0.45.0-windows-x86_64.zip",
-      size: "72.9 MB",
+      label: "Linux arm64",
+      url: "https://github.com/Odrannnn/MetroidPrimePort/releases/download/v0.45.0/metroid-prime-port-0.45.0-linux-aarch64.tar.gz",
+      size: "17.6 MB",
     },
   ],
   cover: {

@@ -25,7 +25,7 @@ export const tomJerryWarOfTheWhiskersPc: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/shihabal3amri/tom-jerry-war-of-the-whiskers-pc/releases/download/v2.2.0/tj_setup.exe",
       size: "26.6 MB",
     },

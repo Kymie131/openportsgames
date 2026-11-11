@@ -37,7 +37,7 @@ export const lcsRecomp: Port = {
     "Recompilación para PC de Liberty City Stories construida sobre PSPRecomp, etiquetada por primera vez a finales de septiembre de 2026. Necesita un EBOOT.ELF descifrado y la carpeta PSP_GAME de la versión USA v1.05, con ID de disco ULUS-10041.",
   downloads: [
     {
-      label: "LCSNative-v0.1.6",
+      label: "Windows",
       url: "https://github.com/elmasas/lcs-recomp/releases/download/v0.1.6/LCSNative-v0.1.6.zip",
       size: "17.9 MB",
     },

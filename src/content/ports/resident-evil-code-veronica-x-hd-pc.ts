@@ -35,11 +35,6 @@ export const residentEvilCodeVeronicaXHdPc: Port = {
       url: "https://github.com/kastieloficial/RE-Code-Veronica-PS3-HD-Recomp-PC/releases/download/v1.5.3/CodeVeronica-PC-v1.5.3.zip",
       size: "303.5 MB",
     },
-    {
-      label: "Windows",
-      url: "https://github.com/kastieloficial/RE-Code-Veronica-PS3-HD-Recomp-PC/releases/download/v1.5.3/Veronica-PKG-Extractor-v1.0.1.zip",
-      size: "691 KB",
-    },
   ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/44/RECV_boxart.jpg",

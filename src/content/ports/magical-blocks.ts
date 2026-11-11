@@ -52,15 +52,13 @@ export const magicalBlocks: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows portable",
+      "label": "Windows",
       "url": "https://github.com/rac08241988/MagicalBlocks/releases/download/v0.1.4/MagicalBlocks-0.1.4-win64-portable.zip",
-      "note": "Windows · portable"
     },
     {
-      "label": "Windows installer",
+      "label": "Windows",
       "url": "https://github.com/rac08241988/MagicalBlocks/releases/download/v0.1.4/MagicalBlocks-0.1.4-win64-setup.exe",
-      "note": "Windows · installer"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/magical-blocks.png",

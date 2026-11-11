@@ -23,7 +23,7 @@ export const supertuxWii: Port = {
   related: ["supertux-switch", "supertux-ds", "supertux-milestone-2-vita-switch-ps3"],
   downloads: [
     {
-      label: "SuperTux-Wii-v0.1.4-wii-d.07",
+      label: "Wii",
       url: "https://github.com/DeltaResero/SuperTux-Wii/releases/download/v0.1.4-wii-d.07/SuperTux-Wii-v0.1.4-wii-d.07.zip",
       size: "9.7 MB",
     },

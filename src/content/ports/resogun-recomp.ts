@@ -51,15 +51,13 @@ export const resogunRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/rcostanza/resogun-recomp/releases/download/v0.6/resogun-pc-v0.6-2026-11-09.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/rcostanza/resogun-recomp/releases/download/v0.6/resogun-pc-v0.6-2026-11-09-linux.tar.gz",
-      "note": "Linux · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/resogun-recomp.jpg",

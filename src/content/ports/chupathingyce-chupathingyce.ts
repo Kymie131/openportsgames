@@ -28,9 +28,9 @@ export const chupathingyceChupathingyce: Port = {
       size: "61.7 MB",
     },
     {
-      label: "chupathingyce-freebsd64-release",
-      url: "https://github.com/ChupathingyCE/chupathingyce/releases/download/v0.9.0d/chupathingyce-freebsd64-release.zip",
-      size: "43.6 MB",
+      label: "Linux x64",
+      url: "https://github.com/ChupathingyCE/chupathingyce/releases/download/v0.9.0d/chupathingyce-linux64-release.zip",
+      size: "51.8 MB",
     },
     {
       label: "Linux",
@@ -38,19 +38,14 @@ export const chupathingyceChupathingyce: Port = {
       size: "44.0 MB",
     },
     {
-      label: "Linux AppImage",
-      url: "https://github.com/ChupathingyCE/chupathingyce/releases/download/v0.9.0d/chupathingyce-linux64-release.AppImage",
-      size: "24.1 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/ChupathingyCE/chupathingyce/releases/download/v0.9.0d/chupathingyce-linux64-release.zip",
-      size: "51.8 MB",
-    },
-    {
       label: "macOS",
       url: "https://github.com/ChupathingyCE/chupathingyce/releases/download/v0.9.0d/chupathingyce-macos-release.zip",
       size: "31.7 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/ChupathingyCE/chupathingyce/releases/download/v0.9.0d/chupathingyce-linux64-release.AppImage",
+      size: "24.1 MB",
     },
   ],
   cover: {

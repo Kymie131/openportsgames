@@ -27,19 +27,9 @@ export const marioKart64Recomp: Port = {
     "Recompilación estática de Mario Kart 64 (N64, USA) con N64Recomp y el renderizador RT64. Carga los recursos de tu copia directamente, sin extracción aparte, y añade widescreen, framerate libre y soporte de mods.",
   downloads: [
     {
-      label: "MarioKart64Recompiled-v0.9.2-Flatpak-X64-Release",
-      url: "https://github.com/sonicdcer/MarioKart64Recomp/releases/download/v0.9.2/MarioKart64Recompiled-v0.9.2-Flatpak-X64-Release.zip",
-      size: "9.1 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/sonicdcer/MarioKart64Recomp/releases/download/v0.9.2/MarioKart64Recompiled-v0.9.2-Linux-ARM64-Release.zip",
-      size: "12.6 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/sonicdcer/MarioKart64Recomp/releases/download/v0.9.2/MarioKart64Recompiled-v0.9.2-Linux-X64-Release.zip",
-      size: "12.5 MB",
+      label: "Windows",
+      url: "https://github.com/sonicdcer/MarioKart64Recomp/releases/download/v0.9.2/MarioKart64Recompiled-v0.9.2-Windows-RelWithDebInfo.zip",
+      size: "22.7 MB",
     },
     {
       label: "macOS",
@@ -47,9 +37,14 @@ export const marioKart64Recomp: Port = {
       size: "20.4 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/sonicdcer/MarioKart64Recomp/releases/download/v0.9.2/MarioKart64Recompiled-v0.9.2-Windows-RelWithDebInfo.zip",
-      size: "22.7 MB",
+      label: "Linux arm64",
+      url: "https://github.com/sonicdcer/MarioKart64Recomp/releases/download/v0.9.2/MarioKart64Recompiled-v0.9.2-Linux-ARM64-Release.zip",
+      size: "12.6 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/sonicdcer/MarioKart64Recomp/releases/download/v0.9.2/MarioKart64Recompiled-v0.9.2-Linux-X64-Release.zip",
+      size: "12.5 MB",
     },
   ],
   cover: {

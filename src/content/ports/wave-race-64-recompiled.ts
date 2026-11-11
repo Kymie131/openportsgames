@@ -42,14 +42,14 @@ export const waveRace64Recompiled: Port = {
     "Recompilación nativa de Wave Race 64. El repositorio se describe abiertamente como un port programado por IA, lo que el catálogo registra como desarrollo asistido por IA. Requiere la ROM de Wave Race 64 obtenida legalmente por el jugador.",
   downloads: [
     {
-      label: "macOS",
-      url: "https://github.com/elliotttate/wave-race-64-recomp/releases/download/v0.4.0-macos.3/WaveRace64Recomp-0.4.0-macos.3-apple-silicon.zip",
-      size: "365.0 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/elliotttate/wave-race-64-recomp/releases/download/v0.4.0-macos.3/WaveRace64Recomp-0.4.0-windows-x64.zip",
       size: "374.7 MB",
+    },
+    {
+      label: "macOS",
+      url: "https://github.com/elliotttate/wave-race-64-recomp/releases/download/v0.4.0-macos.3/WaveRace64Recomp-0.4.0-macos.3-apple-silicon.zip",
+      size: "365.0 MB",
     },
   ],
   cover: {

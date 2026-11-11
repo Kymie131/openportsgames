@@ -51,15 +51,13 @@ export const streetballRevival: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/luckvj/streetball-revival/releases/download/v0.1.5-beta/streetball-revival-v0.1.5-beta-windows.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/luckvj/streetball-revival/releases/download/v0.1.5-beta/streetball-revival-v0.1.5-beta-linux.zip",
-      "note": "Linux · x64"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/generated/streetball-revival.svg",

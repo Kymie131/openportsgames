@@ -51,15 +51,13 @@ export const dynastyWarriors5XlRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/TheSlackbringer/dw5xl-recomp/releases/download/v0.1.0-beta.11/DW5XL-v0.1.0-beta.11-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux AppImage",
+      "label": "Linux",
       "url": "https://github.com/TheSlackbringer/dw5xl-recomp/releases/download/v0.1.0-beta.11/DW5XL-RECOMP-v0.1.0-beta.11-x86_64.AppImage",
-      "note": "Linux · AppImage"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/dynasty-warriors-5-xl-recomp.png",

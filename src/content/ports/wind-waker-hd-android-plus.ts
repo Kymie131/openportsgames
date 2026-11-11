@@ -23,7 +23,7 @@ export const windWakerHdAndroidPlus: Port = {
   related: ["zeldawwhdrecompandroid","switch-waker-hd","wind-waker-hd-recomp"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Nycolazs/WindWakerHD-Android-Plus/releases/download/v1.14/WindWakerHD-Android-Plus-v1.14.apk",
       size: "62.6 MB",
     },

@@ -27,24 +27,24 @@ export const parasiteEveRecomp: Port = {
     "Recompilación de Parasite Eve (PS1, USA SLUS-00662 / SLUS-00668) con PSXRecomp. Las releases son kits de compilación propia: aportas tu disco y una BIOS compatible, y el juego se genera y compila en tu equipo. Es la recompilación base del framework, sin mejoras por juego.",
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/alexbeavs-ps1-ports/parasite-eve-recomp/releases/download/v0.4.0/Parasite-Eve-Recompiled-0.4.0-windows-x64.zip",
+      size: "26.8 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/alexbeavs-ps1-ports/parasite-eve-recomp/releases/download/v0.4.0/Parasite-Eve-Recompiled-0.4.0-linux-x64.zip",
       size: "24.8 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/alexbeavs-ps1-ports/parasite-eve-recomp/releases/download/v0.4.0/Parasite-Eve-Recompiled-0.4.0-macos-arm64.zip",
-      size: "22.6 MB",
-    },
-    {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/alexbeavs-ps1-ports/parasite-eve-recomp/releases/download/v0.4.0/Parasite-Eve-Recompiled-0.4.0-macos-x64.zip",
       size: "22.9 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/alexbeavs-ps1-ports/parasite-eve-recomp/releases/download/v0.4.0/Parasite-Eve-Recompiled-0.4.0-windows-x64.zip",
-      size: "26.8 MB",
+      label: "macOS arm64",
+      url: "https://github.com/alexbeavs-ps1-ports/parasite-eve-recomp/releases/download/v0.4.0/Parasite-Eve-Recompiled-0.4.0-macos-arm64.zip",
+      size: "22.6 MB",
     },
   ],
   cover: {

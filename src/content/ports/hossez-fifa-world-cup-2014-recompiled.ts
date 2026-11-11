@@ -26,11 +26,6 @@ export const hossezFifaWorldCup2014Recompiled: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/HossEz/fifa-world-cup-2014-recompiled/releases/download/v0.2.1/fifa-world-cup-2014-recompiled-0.2.1-portable.zip",
-      size: "46.1 MB",
-    },
-    {
-      label: "Windows EXE",
       url: "https://github.com/HossEz/fifa-world-cup-2014-recompiled/releases/download/v0.2.1/fifa-world-cup-2014-recompiled-0.2.1-setup.exe",
       size: "29.3 MB",
     },

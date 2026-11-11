@@ -50,10 +50,9 @@ export const yoshisIslandRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/mpolizel/SMW2Recomp/releases/download/v0.1.2/yoshisisland-0.1.2-windows-x64.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/yoshis-island-recomp.jpg",

@@ -23,7 +23,7 @@ export const sm64plus: Port = {
   related: ["sm64ex","sm64coopdx"],
   downloads: [
     {
-      label: "SM64Plus",
+      label: "Windows",
       url: "https://github.com/MorsGames/sm64plus/releases/download/LauncherMirror/SM64Plus.zip",
       size: "6.3 MB",
     },

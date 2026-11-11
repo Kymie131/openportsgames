@@ -28,11 +28,6 @@ export const moshferatuZombiesAteMyNeighborsPcPort: Port = {
   notesEs: "Zombies Ate My Neighbors: source port de moshferatu para Windows. Aporta tu propia copia del juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/moshferatu/zombies-ate-my-neighbors-pc-port/releases/download/20261028/zamn-linux-x86_64.tar.gz",
-      size: "2.3 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/moshferatu/zombies-ate-my-neighbors-pc-port/releases/download/20261028/zamn-windows-x86_64.zip",
       size: "1.5 MB",

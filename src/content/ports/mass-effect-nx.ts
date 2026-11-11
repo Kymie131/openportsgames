@@ -30,19 +30,19 @@ export const massEffectNx: Port = {
       size: "303 KB",
     },
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/nebadasSwifty/masseffect-nx/releases/download/v0.2.1/masseffect-nx-rus.nro",
+      size: "59.3 MB",
+    },
+    {
+      label: "Switch",
+      url: "https://github.com/nebadasSwifty/masseffect-nx/releases/download/v0.2.1/masseffect-nx.nro",
       size: "59.3 MB",
     },
     {
       label: "Windows",
       url: "https://github.com/nebadasSwifty/masseffect-nx/releases/download/v0.2.1/masseffect-nx-starter.zip",
       size: "24.2 MB",
-    },
-    {
-      label: "Switch NRO",
-      url: "https://github.com/nebadasSwifty/masseffect-nx/releases/download/v0.2.1/masseffect-nx.nro",
-      size: "59.3 MB",
     },
   ],
   cover: {

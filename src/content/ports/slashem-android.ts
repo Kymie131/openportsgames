@@ -34,7 +34,7 @@ export const slashemAndroid: Port = {
   ],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/gurrhack/SlashEM-Android/releases/download/v2.6.6/slex-2.6.6.apk",
       size: "15.7 MB",
     },

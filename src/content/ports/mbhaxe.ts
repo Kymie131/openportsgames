@@ -27,7 +27,17 @@ export const mbhaxe: Port = {
     "Port en Haxe de Marble Blast Gold que conserva la física original, con multijugador en línea. Funciona en el navegador y en Windows, macOS, Linux, iOS y Android, y necesita tus propios archivos del juego.",
   downloads: [
     {
-      label: "iOS IPA",
+      label: "macOS",
+      url: "https://github.com/RandomityGuy/MBHaxe/releases/download/1.3.2-mbu/MBHaxe-Ultra-Mac.dmg",
+      size: "63.8 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/RandomityGuy/MBHaxe/releases/download/1.3.2-mbu/MBHaxe-Ultra.apk",
+      size: "63.3 MB",
+    },
+    {
+      label: "iOS",
       url: "https://github.com/RandomityGuy/MBHaxe/releases/download/1.3.2-mbu/MBHaxe-Ultra-iOS.ipa",
       size: "56.9 MB",
     },
@@ -37,19 +47,9 @@ export const mbhaxe: Port = {
       size: "55.2 MB",
     },
     {
-      label: "macOS DMG",
-      url: "https://github.com/RandomityGuy/MBHaxe/releases/download/1.3.2-mbu/MBHaxe-Ultra-Mac.dmg",
-      size: "63.8 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/RandomityGuy/MBHaxe/releases/download/1.3.2-mbu/MBHaxe-Ultra-Win.zip",
       size: "54.1 MB",
-    },
-    {
-      label: "Android APK",
-      url: "https://github.com/RandomityGuy/MBHaxe/releases/download/1.3.2-mbu/MBHaxe-Ultra.apk",
-      size: "63.3 MB",
     },
   ],
   cover: {

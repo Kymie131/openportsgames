@@ -24,24 +24,24 @@ export const CDogsSdl: Port = {
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/cxong/cdogs-sdl/releases/download/2.5.0/C-Dogs.SDL-2.5.0-Linux.tar.gz",
-      size: "28.1 MB",
+      label: "Windows x86",
+      url: "https://github.com/cxong/cdogs-sdl/releases/download/2.5.0/C-Dogs.SDL-2.5.0-win32.zip",
+      size: "32.5 MB",
     },
     {
-      label: "macOS DMG",
-      url: "https://github.com/cxong/cdogs-sdl/releases/download/2.5.0/C-Dogs.SDL-2.5.0-OSX.dmg",
-      size: "29.7 MB",
-    },
-    {
-      label: "Windows EXE",
+      label: "Windows x86",
       url: "https://github.com/cxong/cdogs-sdl/releases/download/2.5.0/C-Dogs.SDL-2.5.0-win32.exe",
       size: "30.5 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/cxong/cdogs-sdl/releases/download/2.5.0/C-Dogs.SDL-2.5.0-win32.zip",
-      size: "32.5 MB",
+      label: "macOS",
+      url: "https://github.com/cxong/cdogs-sdl/releases/download/2.5.0/C-Dogs.SDL-2.5.0-OSX.dmg",
+      size: "29.7 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/cxong/cdogs-sdl/releases/download/2.5.0/C-Dogs.SDL-2.5.0-Linux.tar.gz",
+      size: "28.1 MB",
     },
   ],
   cover: {

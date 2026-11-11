@@ -25,12 +25,7 @@ export const LiliumVoyager: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/clover-moe/lilium-voyager/releases/download/v1.40/liliumvoyager-1.40-linux.tar.xz",
-      size: "5.3 MB",
-    },
-    {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/clover-moe/lilium-voyager/releases/download/v1.40/liliumvoyager-1.40-macosx.dmg",
       size: "7.6 MB",
     },
@@ -38,6 +33,11 @@ export const LiliumVoyager: Port = {
       label: "Windows",
       url: "https://github.com/clover-moe/lilium-voyager/releases/download/v1.40/liliumvoyager-1.40-windows.zip",
       size: "7.0 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/clover-moe/lilium-voyager/releases/download/v1.40/liliumvoyager-1.40-linux.tar.xz",
+      size: "5.3 MB",
     },
   ],
   cover: {

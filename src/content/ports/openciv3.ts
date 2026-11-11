@@ -25,11 +25,6 @@ export const Openciv3: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/C7-Game/OpenCiv3/releases/download/v0.3-dutch-2/OpenCiv3_v0.3-Dutch-2-Linux-x86_64.zip",
-      size: "154.1 MB",
-    },
-    {
       label: "macOS",
       url: "https://github.com/C7-Game/OpenCiv3/releases/download/v0.3-dutch-2/OpenCiv3_v0.3-Dutch-2-Mac.zip",
       size: "217.4 MB",
@@ -38,6 +33,11 @@ export const Openciv3: Port = {
       label: "Windows",
       url: "https://github.com/C7-Game/OpenCiv3/releases/download/v0.3-dutch-2/OpenCiv3_v0.3-Dutch-2-Windows.zip",
       size: "164.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/C7-Game/OpenCiv3/releases/download/v0.3-dutch-2/OpenCiv3_v0.3-Dutch-2-Linux-x86_64.zip",
+      size: "154.1 MB",
     },
   ],
   cover: {

@@ -29,19 +29,19 @@ export const timeTraveler3ds: Port = {
       size: "51.0 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/mholzinger/save-hologram-time-traveler/releases/download/v0.1.1/timetrv-patcher-macos-arm64.zip",
-      size: "21.6 MB",
+      label: "Windows",
+      url: "https://github.com/mholzinger/save-hologram-time-traveler/releases/download/v0.1.1/timetrv-patcher-windows-x64.zip",
+      size: "31.2 MB",
     },
     {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/mholzinger/save-hologram-time-traveler/releases/download/v0.1.1/timetrv-patcher-macos-x64.zip",
       size: "23.3 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/mholzinger/save-hologram-time-traveler/releases/download/v0.1.1/timetrv-patcher-windows-x64.zip",
-      size: "31.2 MB",
+      label: "macOS arm64",
+      url: "https://github.com/mholzinger/save-hologram-time-traveler/releases/download/v0.1.1/timetrv-patcher-macos-arm64.zip",
+      size: "21.6 MB",
     },
   ],
   cover: {

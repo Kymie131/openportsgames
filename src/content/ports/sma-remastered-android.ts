@@ -23,7 +23,7 @@ export const smaRemasteredAndroid: Port = {
   related: ["super-mario-bros-remastered"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/mircowuffwuff/super-mario-bros.-remastered-android/releases/download/9/smb1r-android-arm64-9.apk",
       size: "116.2 MB",
     },

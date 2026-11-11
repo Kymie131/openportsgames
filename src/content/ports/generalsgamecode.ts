@@ -25,14 +25,14 @@ export const Generalsgamecode: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "generals-weekly-2026-11-06",
-      url: "https://github.com/TheSuperHackers/GeneralsGameCode/releases/download/weekly-2026-11-06/generals-weekly-2026-11-06.zip",
-      size: "30.1 MB",
-    },
-    {
-      label: "generalszh-weekly-2026-11-06",
+      label: "Windows",
       url: "https://github.com/TheSuperHackers/GeneralsGameCode/releases/download/weekly-2026-11-06/generalszh-weekly-2026-11-06.zip",
       size: "31.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/TheSuperHackers/GeneralsGameCode/releases/download/weekly-2026-11-06/generals-weekly-2026-11-06.zip",
+      size: "30.1 MB",
     },
   ],
   cover: {

@@ -36,17 +36,12 @@ export const sonic12: Port = {
     "Decompilación completa de los remakes móviles de 2013 de Sonic 1 y Sonic 2 (Retro Engine v4), jugables en PC, Mac y Linux. Requiere una copia adquirida legalmente de los datos de Sonic the Hedgehog (2013) o Sonic the Hedgehog 2 (2013) desde la App Store, Google Play o Steam.",
   downloads: [
     {
-      label: "Android",
-      url: "https://github.com/RSDKModding/RSDKv4-Decompilation/releases/download/1.3.3/v4-android.zip",
-      size: "2.8 MB",
-    },
-    {
       label: "Linux",
       url: "https://github.com/RSDKModding/RSDKv4-Decompilation/releases/download/1.3.3/v4-linux.zip",
       size: "555 KB",
     },
     {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/RSDKModding/RSDKv4-Decompilation/releases/download/1.3.3/v4-windows-x64.zip",
       size: "1.3 MB",
     },

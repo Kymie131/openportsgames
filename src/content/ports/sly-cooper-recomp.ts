@@ -27,11 +27,6 @@ export const slyCooperRecomp: Port = {
     "PortsDR lista esta recompilación sin repositorio público. Necesitas el juego para jugarla.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/theclub654/ProjectCane/releases/download/decompilation/ProjectCane-Linux-x64.rar",
-      size: "45.7 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/theclub654/ProjectCane/releases/download/decompilation/ProjectCane-Windows-x64.rar",
       size: "58.4 MB",

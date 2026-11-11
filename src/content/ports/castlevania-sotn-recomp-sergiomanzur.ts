@@ -23,7 +23,7 @@ export const castlevaniaSotnRecompSergiomanzur: Port = {
   related: ["castlevania-sotn-decomp","castlevania-sotn-recomp-nocturne"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/sergiomanzur/SymphonyRecomp/releases/download/android-v0.11b/SymphonyRecomp-Android-Beta-0.11.apk",
       size: "56.7 MB",
     },

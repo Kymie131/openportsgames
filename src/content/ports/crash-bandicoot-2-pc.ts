@@ -22,11 +22,6 @@ export const crashBandicoot2Pc: Port = {
   originalSystems: ["PlayStation"],
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/omegakatana92/CrashBandicoot2Recomp/releases/download/v1.0.0/Crash_Bandicoot_2_Recompiled-v1.0.0-linux-x86_64.AppImage",
-      size: "6.1 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/omegakatana92/CrashBandicoot2Recomp/releases/download/v1.0.0/Crash_Bandicoot_2_Recomp_Windows.zip",
       size: "6.8 MB",

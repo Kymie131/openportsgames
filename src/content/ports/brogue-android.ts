@@ -25,7 +25,7 @@ export const brogueAndroid: Port = {
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/bilgincoskun/brogue-android-port/releases/download/v0.12.5.2/brogue-community-edition-v0.12.5.2.apk",
       size: "6.7 MB",
     },

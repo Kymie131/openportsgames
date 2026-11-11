@@ -52,10 +52,9 @@ export const monopolyRecompiled: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/josiahg2502-glitch/MonopolyRecompiled/releases/download/v1.0.0/MonopolyRecompiled.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/monopoly-recompiled.jpg",

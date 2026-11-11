@@ -43,13 +43,13 @@ export const ironwail: Port = {
     },
     {
       label: "Windows",
-      url: "https://github.com/andrei-drexler/ironwail/releases/download/v0.8.2/ironwail-0.8.2-win32.zip",
-      size: "2.3 MB",
-    },
-    {
-      label: "Windows",
       url: "https://github.com/andrei-drexler/ironwail/releases/download/v0.8.2/ironwail-0.8.2-win64.zip",
       size: "2.4 MB",
+    },
+    {
+      label: "Windows x86",
+      url: "https://github.com/andrei-drexler/ironwail/releases/download/v0.8.2/ironwail-0.8.2-win32.zip",
+      size: "2.3 MB",
     },
   ],
   cover: {

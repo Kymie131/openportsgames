@@ -26,7 +26,7 @@ export const InitialDArcadeStageVer3: Port = {
   summaryEs: "Initial D: Arcade Stage Ver. 3 es un videojuego de carreras arcade de 2004 basado en la serie Initial D desarrollado por Sega Rosso y publicado por Sega. Es el tercer juego de la serie Initial D: Arcade Stage.",
   downloads: [
     {
-      label: "Initial.D.Arcade.Stage.3.Recompiled.v2489",
+      label: "Windows",
       url: "https://github.com/distilledorion-sketch/Initial-D-Arcade-Stage-3-Native-SH-4-Recompilation-WIP-/releases/download/v2489-verified-vulkan-checkpoint/Initial.D.Arcade.Stage.3.Recompiled.v2489.zip",
       size: "17.6 MB",
     },

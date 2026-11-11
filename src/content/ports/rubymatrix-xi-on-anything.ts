@@ -25,24 +25,19 @@ export const rubymatrixXiOnAnything: Port = {
   summaryEs: "Final Fantasy XI , inicialmente conocido como Final Fantasy XI Online, es un videojuego de rol multijugador masivo en línea desarrollado y publicado por Square como parte de la saga Final Fantasy. Fue lanzado en Japón para Sony PlayStation 2 el 16 de mayo de 2002, y para los computadores basados en tecnología de Microsoft Windows en noviembre de 2002. La versión PC fue lanzada en Estados Unidos en 28 de octubre de 2003 y la de PlayStation 2 en marzo de 23 de 2004. En Europa la versión Windows fue lanzada el 17 de septiembre de 2004.",
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/rubymatrix/xi-on-anything/releases/download/v0.2.9/XI-on-Anything-linux-x86_64.AppImage",
-      size: "125.5 MB",
+      label: "macOS arm64",
+      url: "https://github.com/rubymatrix/xi-on-anything/releases/download/v0.2.9/XI-on-Mac-macos-arm64.zip",
+      size: "48.8 MB",
     },
     {
-      label: "Windows EXE",
-      url: "https://github.com/rubymatrix/xi-on-anything/releases/download/v0.2.9/XI-on-Anything-windows-x64-setup.exe",
-      size: "47.1 MB",
-    },
-    {
-      label: "macOS",
+      label: "macOS arm64",
       url: "https://github.com/rubymatrix/xi-on-anything/releases/download/v0.2.9/XI-on-Mac-macos-arm64.app.tar.gz",
       size: "47.9 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/rubymatrix/xi-on-anything/releases/download/v0.2.9/XI-on-Mac-macos-arm64.zip",
-      size: "48.8 MB",
+      label: "Windows",
+      url: "https://github.com/rubymatrix/xi-on-anything/releases/download/v0.2.9/XI-on-Anything-windows-x64-setup.exe",
+      size: "47.1 MB",
     },
   ],
   cover: {

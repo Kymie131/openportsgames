@@ -33,11 +33,6 @@ export const houseOfTheDeadRewrithe: Port = {
   warningEs: "Contiene luces intermitentes y violencia de terror.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/TawhidI-602/The-House-of-the-Dead-ReWrithe/releases/download/v1.3.1/hotd-rewrithe-v1.3.1-linux-x86_64.tar.gz",
-      size: "24.9 MB",
-    },
-    {
       label: "macOS",
       url: "https://github.com/TawhidI-602/The-House-of-the-Dead-ReWrithe/releases/download/v1.3.1/hotd-rewrithe-v1.3.1-macos-universal.zip",
       size: "28.5 MB",
@@ -46,6 +41,11 @@ export const houseOfTheDeadRewrithe: Port = {
       label: "Windows",
       url: "https://github.com/TawhidI-602/The-House-of-the-Dead-ReWrithe/releases/download/v1.3.1/hotd-rewrithe-v1.3.1-win64.zip",
       size: "25.3 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/TawhidI-602/The-House-of-the-Dead-ReWrithe/releases/download/v1.3.1/hotd-rewrithe-v1.3.1-linux-x86_64.tar.gz",
+      size: "24.9 MB",
     },
   ],
   cover: {

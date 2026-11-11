@@ -52,15 +52,13 @@ export const theatrhythmFinalBarLinePc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/YAPhoa/theatrhythm-fbl-pc/releases/download/v1.0.5d/theatrhythm-fbl-pc-v1.0.5d-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/YAPhoa/theatrhythm-fbl-pc/releases/download/v1.0.5d/theatrhythm-fbl-pc-v1.0.5d-linux-x64.tar.gz",
-      "note": "Linux · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/theatrhythm-final-bar-line-pc.png",

@@ -23,24 +23,24 @@ export const slickamogusSilentHillPcNightly: Port = {
   originalSystems: ["PlayStation"],
   downloads: [
     {
-      label: "SHPC-linux-x64",
+      label: "Windows",
+      url: "https://github.com/SlickAmogus/silent-hill-pc-nightly/releases/download/beta-2026.10.26.1/SHPC_beta-2026.10.26.1.zip",
+      size: "79.6 MB",
+    },
+    {
+      label: "Linux",
       url: "https://github.com/SlickAmogus/silent-hill-pc-nightly/releases/download/beta-2026.10.26.1/SHPC-linux-x64.tar.gz",
       size: "18.3 MB",
     },
     {
-      label: "macOS DMG",
+      label: "macOS arm64",
       url: "https://github.com/SlickAmogus/silent-hill-pc-nightly/releases/download/beta-2026.10.26.1/SHPC-macos-arm64.dmg",
       size: "8.9 MB",
     },
     {
-      label: "SHPC-macos-arm64",
+      label: "macOS arm64",
       url: "https://github.com/SlickAmogus/silent-hill-pc-nightly/releases/download/beta-2026.10.26.1/SHPC-macos-arm64.zip",
       size: "5.2 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/SlickAmogus/silent-hill-pc-nightly/releases/download/beta-2026.10.26.1/SHPC_beta-2026.10.26.1.zip",
-      size: "79.6 MB",
     },
   ],
   cover: {

@@ -33,14 +33,9 @@ export const rtcWolfenstein: Port = {
   ],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/iortcw/iortcw/releases/download/1.51c/iortcw-1.51c-linux-x86.zip",
-      size: "9.1 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/iortcw/iortcw/releases/download/1.51c/iortcw-1.51c-linux-x86_64.zip",
-      size: "10.3 MB",
+      label: "macOS",
+      url: "https://github.com/iortcw/iortcw/releases/download/1.51c/iortcw-1.51c-mac-ub.zip",
+      size: "26.4 MB",
     },
     {
       label: "macOS",
@@ -48,19 +43,24 @@ export const rtcWolfenstein: Port = {
       size: "24.3 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/iortcw/iortcw/releases/download/1.51c/iortcw-1.51c-mac-ub.zip",
-      size: "26.4 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/iortcw/iortcw/releases/download/1.51c/iortcw-1.51c-win-x64.zip",
       size: "14.7 MB",
     },
     {
-      label: "Windows",
+      label: "Windows x86",
       url: "https://github.com/iortcw/iortcw/releases/download/1.51c/iortcw-1.51c-win-x86.zip",
       size: "12.1 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/iortcw/iortcw/releases/download/1.51c/iortcw-1.51c-linux-x86_64.zip",
+      size: "10.3 MB",
+    },
+    {
+      label: "Linux x86",
+      url: "https://github.com/iortcw/iortcw/releases/download/1.51c/iortcw-1.51c-linux-x86.zip",
+      size: "9.1 MB",
     },
   ],
   cover: {

@@ -23,24 +23,19 @@ export const awakenchanLanternengine: Port = {
   originalSystems: ["PlayStation 4"],
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
+      url: "https://github.com/Awakenchan/LanternEngine/releases/download/v0.9.42/LanternEngine-v0.9.42-win64.zip",
+      size: "180.5 MB",
+    },
+    {
+      label: "Windows",
       url: "https://github.com/Awakenchan/LanternEngine/releases/download/v0.9.42/Bloodborne.Launcher.exe",
       size: "50.7 MB",
     },
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/Awakenchan/LanternEngine/releases/download/v0.9.42/Lantern.Engine.exe",
       size: "50.7 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/Awakenchan/LanternEngine/releases/download/v0.9.42/LanternEngine-v0.9.42-linux-x64.tar.gz",
-      size: "80.4 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/Awakenchan/LanternEngine/releases/download/v0.9.42/LanternEngine-v0.9.42-win64.zip",
-      size: "180.5 MB",
     },
   ],
   cover: {

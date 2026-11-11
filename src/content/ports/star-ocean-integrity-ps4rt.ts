@@ -50,10 +50,9 @@ export const starOceanIntegrityPs4rt: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/Hoverbike51/Star-Ocean-Integrity-and-Faithlessness-PS4RT/releases/download/v1.0.1/ps4rt-star-ocean-5-windows-x64-v1.0.1-latest.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/star-ocean-integrity-ps4rt.png",

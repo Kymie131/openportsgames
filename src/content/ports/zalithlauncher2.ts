@@ -23,29 +23,29 @@ export const zalithlauncher2: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.2/ZalithLauncher-2.8.2-arm64-v8a.apk",
-      size: "176.2 MB",
+      label: "Android",
+      url: "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.2/ZalithLauncher-2.8.2.apk",
+      size: "355.5 MB",
     },
     {
-      label: "Android APK",
-      url: "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.2/ZalithLauncher-2.8.2-armeabi-v7a.apk",
-      size: "168.2 MB",
-    },
-    {
-      label: "Android APK",
-      url: "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.2/ZalithLauncher-2.8.2-x86.apk",
-      size: "158.0 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android x64",
       url: "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.2/ZalithLauncher-2.8.2-x86_64.apk",
       size: "182.1 MB",
     },
     {
-      label: "Android APK",
-      url: "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.2/ZalithLauncher-2.8.2.apk",
-      size: "355.5 MB",
+      label: "Android arm64",
+      url: "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.2/ZalithLauncher-2.8.2-arm64-v8a.apk",
+      size: "176.2 MB",
+    },
+    {
+      label: "Android armv7",
+      url: "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.2/ZalithLauncher-2.8.2-armeabi-v7a.apk",
+      size: "168.2 MB",
+    },
+    {
+      label: "Android x86",
+      url: "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.2/ZalithLauncher-2.8.2-x86.apk",
+      size: "158.0 MB",
     },
   ],
   cover: {

@@ -51,15 +51,13 @@ export const tootR: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows installer",
+      "label": "Windows",
       "url": "https://github.com/Unkn0wnAli4n/TOoT-R/releases/download/v0.1.0/TOoT-R-Installer.exe",
-      "note": "Windows · installer"
     },
     {
-      "label": "Linux AppImage",
+      "label": "Linux",
       "url": "https://github.com/Unkn0wnAli4n/TOoT-R/releases/download/v0.1.0/TOoT-R-Installer-x86_64.AppImage",
-      "note": "Linux · AppImage"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/toot-r.jpg",

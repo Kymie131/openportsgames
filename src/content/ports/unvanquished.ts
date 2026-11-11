@@ -24,7 +24,7 @@ export const Unvanquished: Port = {
   summaryEs: "Unvanquished es un videojuego de disparos.",
   downloads: [
     {
-      label: "unvanquished_0.56.2",
+      label: "Windows",
       url: "https://github.com/Unvanquished/Unvanquished/releases/download/v0.56.2/unvanquished_0.56.2.zip",
       size: "597.8 MB",
     },

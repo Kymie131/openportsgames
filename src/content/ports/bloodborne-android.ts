@@ -32,7 +32,7 @@ export const bloodborneAndroid: Port = {
   },
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/ducvd89/Bloodborne-Android/releases/download/android-2.2.1/Bloodborne-2.2.1.apk",
       size: "60.0 MB",
     },

@@ -28,27 +28,7 @@ export const pokewildsAndroid: Port = {
     "Port nativo para Android de PokeWilds, el fangame de captura de criaturas de código abierto. Es una build independiente que no necesita recursos comerciales.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/TryTheSauceBoss/Pokewilds-Godot/releases/download/vFinal/Pokewilds-Linux-Arm64-Final.tar.gz",
-      size: "235.8 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/TryTheSauceBoss/Pokewilds-Godot/releases/download/vFinal/Pokewilds-Linux-x86_64-Final.tar.gz",
-      size: "236.6 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/TryTheSauceBoss/Pokewilds-Godot/releases/download/vFinal/Pokewilds-Mac-Final.zip",
-      size: "323.9 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/TryTheSauceBoss/Pokewilds-Godot/releases/download/vFinal/Pokewilds-PC-Final.zip",
-      size: "274.2 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/TryTheSauceBoss/Pokewilds-Godot/releases/download/vFinal/Pokewilds.-.Final.apk",
       size: "272.1 MB",
     },

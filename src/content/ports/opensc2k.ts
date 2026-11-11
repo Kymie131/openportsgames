@@ -25,34 +25,34 @@ export const Opensc2k: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/OpenSC2K/OpenSC2K/releases/download/v0.3.0/OpenSC2K-0.3.0-linux-arm64.tar.gz",
-      size: "53.9 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/OpenSC2K/OpenSC2K/releases/download/v0.3.0/OpenSC2K-0.3.0-linux-x64.tar.gz",
-      size: "54.6 MB",
-    },
-    {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/OpenSC2K/OpenSC2K/releases/download/v0.3.0/OpenSC2K-0.3.0-macos-universal.dmg",
       size: "94.6 MB",
     },
     {
-      label: "Windows",
+      label: "Linux x64",
+      url: "https://github.com/OpenSC2K/OpenSC2K/releases/download/v0.3.0/OpenSC2K-0.3.0-linux-x64.tar.gz",
+      size: "54.6 MB",
+    },
+    {
+      label: "Linux arm64",
+      url: "https://github.com/OpenSC2K/OpenSC2K/releases/download/v0.3.0/OpenSC2K-0.3.0-linux-arm64.tar.gz",
+      size: "53.9 MB",
+    },
+    {
+      label: "Windows x64",
+      url: "https://github.com/OpenSC2K/OpenSC2K/releases/download/v0.3.0/OpenSC2K-0.3.0-windows-x64-portable.zip",
+      size: "52.7 MB",
+    },
+    {
+      label: "Windows arm64",
       url: "https://github.com/OpenSC2K/OpenSC2K/releases/download/v0.3.0/OpenSC2K-0.3.0-windows-arm64-portable.zip",
       size: "43.3 MB",
     },
     {
-      label: "Windows",
+      label: "Windows arm64",
       url: "https://github.com/OpenSC2K/OpenSC2K/releases/download/v0.3.0/OpenSC2K-0.3.0-windows-arm64.zip",
       size: "43.3 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/OpenSC2K/OpenSC2K/releases/download/v0.3.0/OpenSC2K-0.3.0-windows-x64-portable.zip",
-      size: "52.7 MB",
     },
   ],
   cover: {

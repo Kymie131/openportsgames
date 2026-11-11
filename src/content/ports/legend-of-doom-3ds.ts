@@ -29,7 +29,7 @@ export const legendOfDoom3ds: Port = {
     "Port de la conversión total Legend of Doom (un mod de Doom) a New Nintendo 3DS, basado en GZDoom 4.7.1.",
   downloads: [
     {
-      label: "legend-of-doom-3ds-v1.0",
+      label: "3ds",
       url: "https://github.com/EstebanPdN/legend-of-doom-3ds/releases/download/v1.0/legend-of-doom-3ds-v1.0.zip",
       size: "26.8 MB",
     },

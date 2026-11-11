@@ -28,14 +28,14 @@ export const battletanxGlobalAssaultRecomp: Port = {
     "Recompilación nativa de BattleTanx: Global Assault (Nintendo 64) con N64Recomp y RT64, en estado super-beta para Windows y Linux. Se planea una build para Android. Necesita el volcado del juego obtenido legalmente por el jugador.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/wootbeer/btgarecomp/releases/download/v0.1.10/BattleTanxGARecompiled-0.1.10-linux-x86_64.tar.gz",
-      size: "5.9 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/wootbeer/btgarecomp/releases/download/v0.1.10/BattleTanxGARecompiled-0.1.10-windows.zip",
       size: "15.7 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/wootbeer/btgarecomp/releases/download/v0.1.10/BattleTanxGARecompiled-0.1.10-linux-x86_64.tar.gz",
+      size: "5.9 MB",
     },
   ],
   cover: {

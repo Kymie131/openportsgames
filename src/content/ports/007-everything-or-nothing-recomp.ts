@@ -50,20 +50,9 @@ export const bondEverythingOrNothingRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows launcher",
+      "label": "Windows",
       "url": "https://github.com/hk21x/007eon-recomp/releases/download/v1.1.0/EoNLauncher.exe",
-      "note": "Windows · launcher"
     },
-    {
-      "label": "USA package",
-      "url": "https://github.com/hk21x/007eon-recomp/releases/download/v1.1.0/EoN-USA-package.zip",
-      "note": "Windows · USA"
-    },
-    {
-      "label": "PAL package",
-      "url": "https://github.com/hk21x/007eon-recomp/releases/download/v1.1.0/EoN-PAL-package.zip",
-      "note": "Windows · PAL"
-    }
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/007-everything-or-nothing-recomp.png",

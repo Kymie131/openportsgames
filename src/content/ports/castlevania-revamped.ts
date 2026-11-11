@@ -27,7 +27,7 @@ export const castlevaniaRevamped: Port = {
     "Reimplementación para Android del Castlevania original, distribuida como build de código abierto. Usa los recursos del juego original de tu propia copia.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/eboody/Castlevania-ReVamped-Open-Source-Edition/releases/download/v0.1.16-verified-touch-gamepad/castlevania_revamped.v0.1.16-verified-touch-gamepad.apk",
       size: "547.3 MB",
     },

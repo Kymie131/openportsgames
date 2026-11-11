@@ -27,29 +27,14 @@ export const openhp1: Port = {
     "Reimplementación libre de la versión de PC de Harry Potter y la piedra filosofal. Requiere los archivos del juego original para funcionar.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/SplittyDev/openhp1/releases/download/v0.2.0/openhp1_linux_arm.zip",
-      size: "15.6 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/SplittyDev/openhp1/releases/download/v0.2.0/openhp1_linux_x64.zip",
-      size: "16.7 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/SplittyDev/openhp1/releases/download/v0.2.0/openhp1_macos_universal.zip",
-      size: "23.5 MB",
+      label: "Windows x64",
+      url: "https://github.com/SplittyDev/openhp1/releases/download/v0.2.0/openhp1_windows_x64.zip",
+      size: "12.7 MB",
     },
     {
       label: "Windows",
       url: "https://github.com/SplittyDev/openhp1/releases/download/v0.2.0/openhp1_windows_arm.zip",
       size: "11.7 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/SplittyDev/openhp1/releases/download/v0.2.0/openhp1_windows_x64.zip",
-      size: "12.7 MB",
     },
   ],
   cover: {

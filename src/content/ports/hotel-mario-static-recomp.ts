@@ -51,15 +51,13 @@ export const hotelMarioStaticRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/tools81/hotel-mario-static-recomp/releases/download/v1.0.2/HotelMarioRecomp-1.0.2-win64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Windows installer",
+      "label": "Windows",
       "url": "https://github.com/tools81/hotel-mario-static-recomp/releases/download/v1.0.2/HotelMarioRecomp-1.0.2-setup.exe",
-      "note": "Windows · installer"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/hotel-mario-static-recomp.jpg",

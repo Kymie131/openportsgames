@@ -28,7 +28,7 @@ export const openblack: Port = {
     "Reimplementación de código abierto de Black & White que ejecuta los recursos del juego original. Necesita tu propia copia del juego.",
   downloads: [
     {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/openblack/openblack/releases/download/v0.1.0/openblack-v0.1.0-linux-x64-release.tar.gz",
       size: "28.6 MB",
     },
@@ -43,17 +43,7 @@ export const openblack: Port = {
       size: "10.6 MB",
     },
     {
-      label: "iOS",
-      url: "https://github.com/openblack/openblack/releases/download/v0.1.0/openblack-v0.1.0-ios-arm64-release.zip",
-      size: "3.7 MB",
-    },
-    {
-      label: "openblack-clang-build-analysis-v0.1.0",
-      url: "https://github.com/openblack/openblack/releases/download/v0.1.0/openblack-clang-build-analysis-v0.1.0.zip",
-      size: "9.6 MB",
-    },
-    {
-      label: "Linux",
+      label: "Linux arm64",
       url: "https://github.com/openblack/openblack/releases/download/v0.1.0/openblack-v0.1.0-linux-arm64-release.tar.gz",
       size: "5.2 MB",
     },

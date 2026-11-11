@@ -22,7 +22,7 @@ export const project8recomp: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/moddedrounds/THP8-Android/releases/download/v1.2.4/THP8-Android.apk",
       size: "83.2 MB",
     },

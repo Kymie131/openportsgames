@@ -26,14 +26,9 @@ export const battleblockTheaterSwitch: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/andresarevalo1/BattleBlockRecomp-NX/releases/download/v0.2.0/battleblock_theater.nro",
       size: "39.1 MB",
-    },
-    {
-      label: "Switch",
-      url: "https://github.com/andresarevalo1/BattleBlockRecomp-NX/releases/download/v0.2.0/battleblock_theater.zip",
-      size: "12.6 MB",
     },
   ],
   cover: {

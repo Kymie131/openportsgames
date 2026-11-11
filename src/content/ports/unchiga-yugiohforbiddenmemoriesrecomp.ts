@@ -23,21 +23,6 @@ export const unchigaYugiohforbiddenmemoriesrecomp: Port = {
   originalSystems: ["PlayStation"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp/releases/download/v0.6.2/ygofm-0.6.2-linux-x64.zip",
-      size: "31.5 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp/releases/download/v0.6.2/ygofm-0.6.2-macos-arm64.zip",
-      size: "28.9 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp/releases/download/v0.6.2/ygofm-0.6.2-macos-x64.zip",
-      size: "29.3 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp/releases/download/v0.6.2/ygofm-0.6.2-win-x64.zip",
       size: "33.2 MB",

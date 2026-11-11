@@ -46,11 +46,6 @@ export const unleashedRecompiled: Port = {
     "Port nativo para Windows y Linux de Sonic Unleashed producido recompilando estáticamente el binario PowerPC de Xbox 360. Requiere el volcado del juego de un disco o copia digital que poseas; el proyecto no publica ninguno y declara no tener afiliación con su autor. Publicado por el equipo hedge-dev detrás de HedgeDev.",
   downloads: [
     {
-      label: "UnleashedRecomp-Flatpak",
-      url: "https://github.com/hedge-dev/UnleashedRecomp/releases/download/v1.0.3/UnleashedRecomp-Flatpak.zip",
-      size: "35.1 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/hedge-dev/UnleashedRecomp/releases/download/v1.0.3/UnleashedRecomp-Windows.zip",
       size: "50.9 MB",

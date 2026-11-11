@@ -26,7 +26,7 @@ export const pspsysmonPspPlugin: Port = {
   summaryEs: "PlayStation Portable (PSP) es una videoconsola portátil de la multinacional japonesa Sony, y la cuarta consola de la compañía en ser diseñada por Ken Kutaragi. Aparte de jugar videojuegos, podía conectarse a internet y reproducir multimedia. Se trata de la primera consola portátil a nivel mundial de Sony y la segunda lanzada en Japón.",
   downloads: [
     {
-      label: "pspsysmon-0.10",
+      label: "Psp",
       url: "https://github.com/abduznik/pspsysmon/releases/download/v0.10/pspsysmon-0.10.zip",
       size: "5 KB",
     },

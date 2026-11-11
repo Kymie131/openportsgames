@@ -51,10 +51,9 @@ export const metroidPrime4BeyondRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Linux AppImage",
+      "label": "Linux",
       "url": "https://github.com/linuxopt/mp4-recomp/releases/download/v2026.11.02/Metroid_Prime_4_Recomp-x86_64.AppImage",
-      "note": "Linux · AppImage"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/generated/metroid-prime-4-beyond-recomp.svg",

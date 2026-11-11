@@ -26,12 +26,12 @@ export const isledecompIsle: Port = {
   summaryEs: "Lego Island es un videojuego de acción y aventura de mundo abierto basado en Lego, desarrollado y publicado por Mindscape. Salió a la venta para Windows el 26 de septiembre de 1997, siendo el segundo juego de la franquicia y el primero fuera de Japón. En este «mundo abierto proto», los jugadores exploran la isla homónima en el papel de uno de los cinco personajes minifigura únicos, y pueden construir vehículos y completar misiones secundarias.",
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/isledecomp/isle/releases/download/continuous/CONFIG.EXE",
       size: "94 KB",
     },
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/isledecomp/isle/releases/download/continuous/ISLE.EXE",
       size: "85 KB",
     },

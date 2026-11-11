@@ -41,29 +41,24 @@ export const freeSpace2: Port = {
     "Motor de código abierto para FreeSpace 2. La etiqueta más reciente es una release candidate, así que se registra la última release estable. La licencia se rige por un Copying.md propio con términos adicionales en lugar de una licencia OSI estándar.",
   downloads: [
     {
-      label: "fs2_open_26_2_0-builds-ARM64",
-      url: "https://github.com/scp-fs2open/fs2open.github.com/releases/download/release_26_2_0/fs2_open_26_2_0-builds-ARM64.zip",
-      size: "70.8 MB",
+      label: "macOS x64",
+      url: "https://github.com/scp-fs2open/fs2open.github.com/releases/download/release_26_2_0/fs2_open_26_2_0-builds-Mac-x86_64.tar.gz",
+      size: "176.0 MB",
     },
     {
-      label: "Linux",
-      url: "https://github.com/scp-fs2open/fs2open.github.com/releases/download/release_26_2_0/fs2_open_26_2_0-builds-Linux-arm64.tar.gz",
-      size: "101.1 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/scp-fs2open/fs2open.github.com/releases/download/release_26_2_0/fs2_open_26_2_0-builds-Linux-x86_64.tar.gz",
-      size: "105.9 MB",
-    },
-    {
-      label: "macOS",
+      label: "macOS arm64",
       url: "https://github.com/scp-fs2open/fs2open.github.com/releases/download/release_26_2_0/fs2_open_26_2_0-builds-Mac-arm64.tar.gz",
       size: "172.4 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/scp-fs2open/fs2open.github.com/releases/download/release_26_2_0/fs2_open_26_2_0-builds-Mac-x86_64.tar.gz",
-      size: "176.0 MB",
+      label: "Linux x64",
+      url: "https://github.com/scp-fs2open/fs2open.github.com/releases/download/release_26_2_0/fs2_open_26_2_0-builds-Linux-x86_64.tar.gz",
+      size: "105.9 MB",
+    },
+    {
+      label: "Linux arm64",
+      url: "https://github.com/scp-fs2open/fs2open.github.com/releases/download/release_26_2_0/fs2_open_26_2_0-builds-Linux-arm64.tar.gz",
+      size: "101.1 MB",
     },
     {
       label: "Windows",

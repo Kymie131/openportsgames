@@ -27,27 +27,12 @@ export const battleship: Port = {
     "Port a PC de Super Smash Bros. (N64) para las versiones USA y japonesa, sobre la decompilación ssb-decomp-re con libultraship. Corre en Windows, Linux, macOS y Android, y añade widescreen, packs de texturas, mods en C y opciones competitivas.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/JRickey/BattleShip/releases/download/v1.6/BattleShip-android-armeabi-v7a.apk",
-      size: "107.1 MB",
-    },
-    {
-      label: "Android APK",
-      url: "https://github.com/JRickey/BattleShip/releases/download/v1.6/BattleShip-android.apk",
-      size: "123.9 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/JRickey/BattleShip/releases/download/v1.6/BattleShip-JP-windows.zip",
-      size: "6.2 MB",
-    },
-    {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/JRickey/BattleShip/releases/download/v1.6/BattleShip-JP-x86_64.AppImage",
       size: "15.7 MB",
     },
     {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/JRickey/BattleShip/releases/download/v1.6/BattleShip-JP.dmg",
       size: "13.2 MB",
     },
@@ -55,6 +40,11 @@ export const battleship: Port = {
       label: "Windows",
       url: "https://github.com/JRickey/BattleShip/releases/download/v1.6/BattleShip-windows.zip",
       size: "8.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/JRickey/BattleShip/releases/download/v1.6/BattleShip-JP-windows.zip",
+      size: "6.2 MB",
     },
   ],
   cover: {

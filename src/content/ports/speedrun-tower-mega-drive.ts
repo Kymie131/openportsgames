@@ -26,7 +26,7 @@ export const speedrunTowerMegaDrive: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "SpeedrunTower",
+      label: "Genesis",
       url: "https://github.com/huguesjohnson/speedrun-tower/releases/download/SG-1.0/SpeedrunTower.zip",
       size: "88 KB",
     },

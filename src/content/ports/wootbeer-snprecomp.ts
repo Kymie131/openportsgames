@@ -25,16 +25,6 @@ export const wootbeerSnprecomp: Port = {
   summaryEs: "Sin and Punishment , es un videojuego de disparos de Nintendo 64 desarrollado por Treasure y lanzado al mercado por Nintendo el 21 de noviembre del año 2000 en Japón. El juego de Nintendo 64 sólo vio la luz en el mercado japonés, sin embargo, la versión para Consola Virtual lanzada en el año 2007 para Wii también fue lanzada en los mercados europeo y norteamericano.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/wootbeer/snprecomp/releases/download/0.2.11/SnPRecompiled-0.2.11-android.apk",
-      size: "20.5 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/wootbeer/snprecomp/releases/download/0.2.11/SnPRecompiled-0.2.11-linux-x86_64.tar.gz",
-      size: "6.6 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/wootbeer/snprecomp/releases/download/0.2.11/SnPRecompiled-0.2.11-windows.zip",
       size: "16.5 MB",

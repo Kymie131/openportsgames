@@ -26,31 +26,6 @@ export const jazz2Ressurection: Port = {
       url: "https://github.com/deathkiller/jazz2/releases/download/3.9.0/Jazz2_3.9.0_Android.zip",
       size: "28.2 MB",
     },
-    {
-      label: "Linux",
-      url: "https://github.com/deathkiller/jazz2/releases/download/3.9.0/Jazz2_3.9.0_Linux.zip",
-      size: "292.4 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/deathkiller/jazz2/releases/download/3.9.0/Jazz2_3.9.0_MacOS.zip",
-      size: "24.2 MB",
-    },
-    {
-      label: "Android",
-      url: "https://github.com/deathkiller/jazz2/releases/download/3.9.0/Jazz2_3.9.0_PSP.zip",
-      size: "3.2 MB",
-    },
-    {
-      label: "Switch",
-      url: "https://github.com/deathkiller/jazz2/releases/download/3.9.0/Jazz2_3.9.0_Switch.zip",
-      size: "5.5 MB",
-    },
-    {
-      label: "Android",
-      url: "https://github.com/deathkiller/jazz2/releases/download/3.9.0/Jazz2_3.9.0_UWP.zip",
-      size: "4.2 MB",
-    },
   ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/f0/Jazz_Jackrabbit_2.PNG",

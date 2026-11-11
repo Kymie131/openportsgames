@@ -51,15 +51,13 @@ export const infamousFirstLightPc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/VantageEX/infamous-first-light-pc/releases/download/v0.3.8/inFAMOUS-First-Light-PC-v0.3.8.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x86_64",
+      "label": "Linux",
       "url": "https://github.com/VantageEX/infamous-first-light-pc/releases/download/v0.3.8/inFAMOUS-First-Light-PC-linux-x86_64.tar.gz",
-      "note": "Linux · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/infamous-first-light-pc.jpg",

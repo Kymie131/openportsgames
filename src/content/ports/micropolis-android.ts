@@ -25,7 +25,7 @@ export const micropolisAndroid: Port = {
   summaryEs: "Micropolis es un videojuego de simulación en 2008.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/ds17f/andropolis/releases/download/v0.1.7/app-release.apk",
       size: "5.7 MB",
     },

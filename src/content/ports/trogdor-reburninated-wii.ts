@@ -26,24 +26,14 @@ export const trogdorReburninatedWii: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Trogdor-Reburninated-v2.4-3ds-cia",
-      url: "https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.4/Trogdor-Reburninated-v2.4-3ds-cia.zip",
-      size: "6.2 MB",
-    },
-    {
-      label: "Trogdor-Reburninated-v2.4-3ds",
-      url: "https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.4/Trogdor-Reburninated-v2.4-3ds.zip",
-      size: "5.8 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.4/Trogdor-Reburninated-v2.4-android.apk",
       size: "16.1 MB",
     },
     {
-      label: "Trogdor-Reburninated-v2.4-gamecube",
-      url: "https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.4/Trogdor-Reburninated-v2.4-gamecube.zip",
-      size: "6.7 MB",
+      label: "Wii",
+      url: "https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.4/Trogdor-Reburninated-v2.4-psp.zip",
+      size: "10.1 MB",
     },
     {
       label: "Linux",
@@ -51,9 +41,19 @@ export const trogdorReburninatedWii: Port = {
       size: "7.7 MB",
     },
     {
-      label: "Trogdor-Reburninated-v2.4-psp",
-      url: "https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.4/Trogdor-Reburninated-v2.4-psp.zip",
-      size: "10.1 MB",
+      label: "Wii",
+      url: "https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.4/Trogdor-Reburninated-v2.4-gamecube.zip",
+      size: "6.7 MB",
+    },
+    {
+      label: "Wii",
+      url: "https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.4/Trogdor-Reburninated-v2.4-3ds-cia.zip",
+      size: "6.2 MB",
+    },
+    {
+      label: "Wii",
+      url: "https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.4/Trogdor-Reburninated-v2.4-3ds.zip",
+      size: "5.8 MB",
     },
   ],
   cover: {

@@ -25,14 +25,9 @@ export const whiteAlbum2Android: Port = {
   summaryEs: "White Album 2 es una de las dos novelas visuales japonesas para adultos desarrollados por la empresa de novelas visuales Leaf para las computadoras con el sistema operativo de Microsoft Windows, y es la secuela de la anterior novela visual de Leaf, White Album. Aunque es técnicamente una secuela por compartir universo con su precedesora, lo cierto es que se trata de historias totalmente independientes y con personajes diferentes. La primera parte de la novela, llamada White Album 2: Introductory Chapter fue lanzada el 26 de marzo de 2010.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/dorakyuraduang/whitealbum2-Android/releases/download/r0.2.80/WA2-arm64-0.2.80-shared-aot.apk",
       size: "7.7 MB",
-    },
-    {
-      label: "WA2-shared-relink",
-      url: "https://github.com/dorakyuraduang/whitealbum2-Android/releases/download/r0.2.80/WA2-shared-relink.zip",
-      size: "73.6 MB",
     },
   ],
   cover: {

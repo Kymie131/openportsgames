@@ -27,24 +27,24 @@ export const finalFantasyViiiRecomp: Port = {
     "Recompilación de Final Fantasy VIII (PS1, USA SLUS-00892) con PSXRecomp y el lanzador recomp-ui. Necesita tu propio disco y una BIOS europea SCPH-5502/5552; el asistente genera y compila el juego en tu equipo. Publicada como candidata 0.1.0, con la aceptación de gameplay todavía pendiente.",
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/alexbeavs-ps1-ports/final-fantasy-viii-recomp/releases/download/v0.1.1/final-fantasy-viii-0.1.1-windows-x64.zip",
+      size: "25.0 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/alexbeavs-ps1-ports/final-fantasy-viii-recomp/releases/download/v0.1.1/final-fantasy-viii-0.1.1-linux-x64.zip",
       size: "23.1 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/alexbeavs-ps1-ports/final-fantasy-viii-recomp/releases/download/v0.1.1/final-fantasy-viii-0.1.1-macos-arm64.zip",
-      size: "21.9 MB",
-    },
-    {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/alexbeavs-ps1-ports/final-fantasy-viii-recomp/releases/download/v0.1.1/final-fantasy-viii-0.1.1-macos-x64.zip",
       size: "22.5 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/alexbeavs-ps1-ports/final-fantasy-viii-recomp/releases/download/v0.1.1/final-fantasy-viii-0.1.1-windows-x64.zip",
-      size: "25.0 MB",
+      label: "macOS arm64",
+      url: "https://github.com/alexbeavs-ps1-ports/final-fantasy-viii-recomp/releases/download/v0.1.1/final-fantasy-viii-0.1.1-macos-arm64.zip",
+      size: "21.9 MB",
     },
   ],
   cover: {

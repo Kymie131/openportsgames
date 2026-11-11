@@ -28,7 +28,7 @@ export const superMarioSunshineAndroid: Port = {
     "Port nativo de Super Mario Sunshine (GameCube) para Android (ARM64, OpenGLES 3.0) con controles táctiles en pantalla. Requiere tus propios archivos del juego.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/jbcgames/sms-android/releases/download/v1.0.0/SuperMarioSunshine-v1.0.0-Android.apk",
       size: "10.7 MB",
     },

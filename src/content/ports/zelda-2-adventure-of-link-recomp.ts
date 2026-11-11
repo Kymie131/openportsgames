@@ -29,28 +29,8 @@ export const zelda2AdventureOfLinkRecomp: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/troyedwardsjr/z2rs/releases/download/v0.6.0/z2rs-0.6.0-aarch64-apple-darwin.zip",
-      size: "23.3 MB",
-    },
-    {
-      label: "Android APK",
-      url: "https://github.com/troyedwardsjr/z2rs/releases/download/v0.6.0/z2rs-0.6.0-android.apk",
-      size: "46.1 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/troyedwardsjr/z2rs/releases/download/v0.6.0/z2rs-0.6.0-x86_64-apple-darwin.zip",
-      size: "25.0 MB",
-    },
-    {
-      label: "Windows",
       url: "https://github.com/troyedwardsjr/z2rs/releases/download/v0.6.0/z2rs-0.6.0-x86_64-pc-windows-msvc.zip",
       size: "14.2 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/troyedwardsjr/z2rs/releases/download/v0.6.0/z2rs-0.6.0-x86_64-unknown-linux-gnu.tar.gz",
-      size: "20.0 MB",
     },
   ],
   cover: {

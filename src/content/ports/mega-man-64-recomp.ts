@@ -28,19 +28,9 @@ export const megaMan64Recomp: Port = {
     "Recompilación nativa de Mega Man 64 (Nintendo 64). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
   downloads: [
     {
-      label: "MegaMan64Recompiled-v0.9.1-Flatpak-X64",
-      url: "https://github.com/MegaMan64Recomp/MegaMan64Recompiled/releases/download/v0.9.1/MegaMan64Recompiled-v0.9.1-Flatpak-X64.zip",
-      size: "9.0 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/MegaMan64Recomp/MegaMan64Recompiled/releases/download/v0.9.1/MegaMan64Recompiled-v0.9.1-Linux-ARM64.zip",
-      size: "13.6 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/MegaMan64Recomp/MegaMan64Recompiled/releases/download/v0.9.1/MegaMan64Recompiled-v0.9.1-Linux-X64.zip",
-      size: "13.4 MB",
+      label: "Windows",
+      url: "https://github.com/MegaMan64Recomp/MegaMan64Recompiled/releases/download/v0.9.1/MegaMan64Recompiled-v0.9.1-Windows.zip",
+      size: "23.6 MB",
     },
     {
       label: "macOS",
@@ -48,9 +38,14 @@ export const megaMan64Recomp: Port = {
       size: "22.6 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/MegaMan64Recomp/MegaMan64Recompiled/releases/download/v0.9.1/MegaMan64Recompiled-v0.9.1-Windows.zip",
-      size: "23.6 MB",
+      label: "Linux arm64",
+      url: "https://github.com/MegaMan64Recomp/MegaMan64Recompiled/releases/download/v0.9.1/MegaMan64Recompiled-v0.9.1-Linux-ARM64.zip",
+      size: "13.6 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/MegaMan64Recomp/MegaMan64Recompiled/releases/download/v0.9.1/MegaMan64Recompiled-v0.9.1-Linux-X64.zip",
+      size: "13.4 MB",
     },
   ],
   cover: {

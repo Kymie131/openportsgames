@@ -52,15 +52,13 @@ export const knackIiPc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/Hyant4/Knack-II-pc-port/releases/download/knack2-Version-0.18.3/Knack-II-Windows-x64-V0.18.3.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux AppImage",
+      "label": "Linux",
       "url": "https://github.com/Hyant4/Knack-II-pc-port/releases/download/knack2-Version-0.18.3/Knack-II-x86_64-0.18.3.AppImage",
-      "note": "Linux · AppImage"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/boxart/knack-ii-pc.jpg",

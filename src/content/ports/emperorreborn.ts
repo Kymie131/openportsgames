@@ -25,7 +25,7 @@ export const Emperorreborn: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "EmperorReborn-v2.5",
+      label: "Windows",
       url: "https://github.com/azmawee/EmperorReborn/releases/download/v2.5/EmperorReborn-v2.5.zip",
       size: "372 KB",
     },

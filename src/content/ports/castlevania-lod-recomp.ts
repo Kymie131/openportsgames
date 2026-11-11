@@ -41,14 +41,14 @@ export const castlevaniaLodRecomp: Port = {
       size: "52.6 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/fliperama86/cvlod_recomp/releases/download/v0.2.29/LodRecomp-v0.2.29-macos-arm64.zip",
-      size: "20.2 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/fliperama86/cvlod_recomp/releases/download/v0.2.29/LodRecomp-v0.2.29-windows-x64.zip",
       size: "28.4 MB",
+    },
+    {
+      label: "macOS",
+      url: "https://github.com/fliperama86/cvlod_recomp/releases/download/v0.2.29/LodRecomp-v0.2.29-macos-arm64.zip",
+      size: "20.2 MB",
     },
   ],
   cover: {

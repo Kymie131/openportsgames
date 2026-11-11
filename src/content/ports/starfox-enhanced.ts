@@ -29,24 +29,9 @@ export const starfoxEnhanced: Port = {
     "Port nativo en C++/SDL3 del código abierto de UltraStarFox, con altas tasas de refresco, widescreen y mejoras visuales opcionales. Valida tu propia ROM de Star Fox y funciona en escritorio y móvil.",
   downloads: [
     {
-      label: "Windows",
-      url: "https://github.com/kandowontu2/starfox-enhanced/releases/download/v0.0.8.8.3/StarFoxAssetBuilder-0.0.8.8.3-windows-x64.zip",
-      size: "1.9 MB",
-    },
-    {
-      label: "Android APK",
-      url: "https://github.com/kandowontu2/starfox-enhanced/releases/download/v0.0.8.8.3/StarFoxEnhanced-0.0.8.8.3-android-arm64.apk",
-      size: "66.1 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/kandowontu2/starfox-enhanced/releases/download/v0.0.8.8.3/StarFoxEnhanced-0.0.8.8.3-dlss-windows-x64.zip",
-      size: "30.7 MB",
-    },
-    {
-      label: "iOS IPA",
-      url: "https://github.com/kandowontu2/starfox-enhanced/releases/download/v0.0.8.8.3/StarFoxEnhanced-0.0.8.8.3-ios-arm64-unsigned.ipa",
-      size: "65.4 MB",
+      label: "macOS",
+      url: "https://github.com/kandowontu2/starfox-enhanced/releases/download/v0.0.8.8.3/StarFoxEnhanced-0.0.8.8.3-macos-universal.zip",
+      size: "136.9 MB",
     },
     {
       label: "Linux",
@@ -54,9 +39,19 @@ export const starfoxEnhanced: Port = {
       size: "68.5 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/kandowontu2/starfox-enhanced/releases/download/v0.0.8.8.3/StarFoxEnhanced-0.0.8.8.3-macos-universal.zip",
-      size: "136.9 MB",
+      label: "Android",
+      url: "https://github.com/kandowontu2/starfox-enhanced/releases/download/v0.0.8.8.3/StarFoxEnhanced-0.0.8.8.3-android-arm64.apk",
+      size: "66.1 MB",
+    },
+    {
+      label: "Windows x64",
+      url: "https://github.com/kandowontu2/starfox-enhanced/releases/download/v0.0.8.8.3/StarFoxEnhanced-0.0.8.8.3-dlss-windows-x64.zip",
+      size: "30.7 MB",
+    },
+    {
+      label: "Windows x64",
+      url: "https://github.com/kandowontu2/starfox-enhanced/releases/download/v0.0.8.8.3/StarFoxAssetBuilder-0.0.8.8.3-windows-x64.zip",
+      size: "1.9 MB",
     },
   ],
   cover: {

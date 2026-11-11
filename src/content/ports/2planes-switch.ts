@@ -26,7 +26,7 @@ export const _2planesSwitch: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/mactec0/2Planes_SWITCH/releases/download/1.0.1/2PlanesSwitch.nro",
       size: "7.0 MB",
     },

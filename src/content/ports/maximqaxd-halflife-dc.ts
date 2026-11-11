@@ -24,7 +24,7 @@ export const maximqaxdHalflifeDc: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/maximqaxd/halflife_dc/releases/download/HLDC_MP/HALFLIFE_DC.EXE",
       size: "1.8 MB",
     },

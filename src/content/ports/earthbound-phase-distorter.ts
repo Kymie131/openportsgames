@@ -24,14 +24,9 @@ export const EarthboundPhaseDistorter: Port = {
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   downloads: [
     {
-      label: "Phase-Distorter-0.5-launchers-multiarch",
-      url: "https://github.com/TheRunaway5/Phase-Distorter/releases/download/0.5/Phase-Distorter-0.5-launchers-multiarch.zip",
-      size: "35.9 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/TheRunaway5/Phase-Distorter/releases/download/0.5/Phase-Distorter-0.5-linux-x86_64.zip",
-      size: "9.5 MB",
+      label: "Windows",
+      url: "https://github.com/TheRunaway5/Phase-Distorter/releases/download/0.5/Phase-Distorter-0.5-windows-x86_64.zip",
+      size: "13.7 MB",
     },
     {
       label: "macOS",
@@ -39,9 +34,9 @@ export const EarthboundPhaseDistorter: Port = {
       size: "12.7 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/TheRunaway5/Phase-Distorter/releases/download/0.5/Phase-Distorter-0.5-windows-x86_64.zip",
-      size: "13.7 MB",
+      label: "Linux",
+      url: "https://github.com/TheRunaway5/Phase-Distorter/releases/download/0.5/Phase-Distorter-0.5-linux-x86_64.zip",
+      size: "9.5 MB",
     },
   ],
   cover: {

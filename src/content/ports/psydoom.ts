@@ -22,24 +22,24 @@ export const psydoom: Port = {
   originalSystems: ["PlayStation"],
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/BodbDearg/PsyDoom/releases/download/releases/1.1.1/PsyDoom_1.1.1_Linux_AArch64.AppImage",
-      size: "5.0 MB",
+      label: "macOS",
+      url: "https://github.com/BodbDearg/PsyDoom/releases/download/releases/1.1.1/PsyDoom_1.1.1_MacOS_x86_64_Arm64.zip",
+      size: "8.5 MB",
     },
     {
-      label: "Linux AppImage",
-      url: "https://github.com/BodbDearg/PsyDoom/releases/download/releases/1.1.1/PsyDoom_1.1.1_Linux_ArmHF.AppImage",
-      size: "4.4 MB",
-    },
-    {
-      label: "Linux AppImage",
+      label: "Linux x64",
       url: "https://github.com/BodbDearg/PsyDoom/releases/download/releases/1.1.1/PsyDoom_1.1.1_Linux_x86_64.AppImage",
       size: "5.2 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/BodbDearg/PsyDoom/releases/download/releases/1.1.1/PsyDoom_1.1.1_MacOS_x86_64_Arm64.zip",
-      size: "8.5 MB",
+      label: "Linux arm64",
+      url: "https://github.com/BodbDearg/PsyDoom/releases/download/releases/1.1.1/PsyDoom_1.1.1_Linux_AArch64.AppImage",
+      size: "5.0 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/BodbDearg/PsyDoom/releases/download/releases/1.1.1/PsyDoom_1.1.1_Linux_ArmHF.AppImage",
+      size: "4.4 MB",
     },
     {
       label: "Windows",

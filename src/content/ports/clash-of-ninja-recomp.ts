@@ -31,24 +31,19 @@ export const clashOfNinjaRecomp: Port = {
     "Recompilación del juego de GameCube con lanzadores para Windows, Linux y macOS. Requiere tu propia copia del juego.",
   downloads: [
     {
+      label: "macOS",
+      url: "https://github.com/mapleleafjack/ClashOfNinja-recomp/releases/download/v1.7.2/NarutoLauncher-macOS-arm64-v1.7.2.zip",
+      size: "17.6 MB",
+    },
+    {
       label: "Windows",
       url: "https://github.com/mapleleafjack/ClashOfNinja-recomp/releases/download/v1.7.2/NarutoLauncher-Windows-x64-v1.7.2.zip",
       size: "3.1 MB",
     },
     {
-      label: "Windows (with tools)",
-      url: "https://github.com/mapleleafjack/ClashOfNinja-recomp/releases/download/v1.7.2/NarutoLauncher-tools-windows-x64-v1.7.2.zip",
-      size: "165 MB",
-    },
-    {
       label: "Linux",
       url: "https://github.com/mapleleafjack/ClashOfNinja-recomp/releases/download/v1.7.2/NarutoLauncher-Linux-x64-v1.7.2.tar.xz",
       size: "2.2 MB",
-    },
-    {
-      label: "macOS (Apple Silicon)",
-      url: "https://github.com/mapleleafjack/ClashOfNinja-recomp/releases/download/v1.7.2/NarutoLauncher-macOS-arm64-v1.7.2.zip",
-      size: "17.6 MB",
     },
   ],
   cover: {

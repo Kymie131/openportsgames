@@ -41,14 +41,9 @@ export const openGoal: Port = {
       size: "41.5 MB",
     },
     {
-      label: "Windows EXE",
-      url: "https://github.com/open-goal/jak-project/releases/download/v0.3.9/opengoal-lsp-windows-v0.3.9.exe",
-      size: "16.3 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/open-goal/jak-project/releases/download/v0.3.9/opengoal-macos-arm-v0.3.9.tar.gz",
-      size: "39.3 MB",
+      label: "Windows",
+      url: "https://github.com/open-goal/jak-project/releases/download/v0.3.9/opengoal-windows-v0.3.9.zip",
+      size: "40.6 MB",
     },
     {
       label: "macOS",
@@ -56,9 +51,14 @@ export const openGoal: Port = {
       size: "40.5 MB",
     },
     {
+      label: "macOS",
+      url: "https://github.com/open-goal/jak-project/releases/download/v0.3.9/opengoal-macos-arm-v0.3.9.tar.gz",
+      size: "39.3 MB",
+    },
+    {
       label: "Windows",
-      url: "https://github.com/open-goal/jak-project/releases/download/v0.3.9/opengoal-windows-v0.3.9.zip",
-      size: "40.6 MB",
+      url: "https://github.com/open-goal/jak-project/releases/download/v0.3.9/opengoal-lsp-windows-v0.3.9.exe",
+      size: "16.3 MB",
     },
   ],
   cover: {

@@ -50,10 +50,9 @@ export const crimsonSkiesRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Linux x86_64",
+      "label": "Linux",
       "url": "https://github.com/saironbusatto/CrimsonSkiesRecomp/releases/download/v1.1.0/crimsonskies-v1.1.0-linux-x86_64.tar.gz",
-      "note": "Linux · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/crimson-skies-recomp.png",

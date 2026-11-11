@@ -24,13 +24,13 @@ export const zelda64RecompAndroid: Port = {
   downloads: [
     {
       label: "Android",
-      url: "https://github.com/linkzenic/Zelda64Recomp-Android/releases/download/0.6.10/MMRecompRando-Android-Mod-arm64-v0.9.5-android.2.zip",
-      size: "1.2 MB",
-    },
-    {
-      label: "Android APK",
       url: "https://github.com/linkzenic/Zelda64Recomp-Android/releases/download/0.6.10/Zelda64-Recompiled-Android-App-0.6.10.apk",
       size: "35.0 MB",
+    },
+    {
+      label: "Android arm64",
+      url: "https://github.com/linkzenic/Zelda64Recomp-Android/releases/download/0.6.10/MMRecompRando-Android-Mod-arm64-v0.9.5-android.2.zip",
+      size: "1.2 MB",
     },
   ],
   cover: {

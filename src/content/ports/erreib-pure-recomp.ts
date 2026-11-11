@@ -25,19 +25,14 @@ export const erreibPureRecomp: Port = {
   summaryEs: "Wipeout Pure es un videojuego de carreras futurista desarrollado por Sony Studio Liverpool y publicado por Sony Computer Entertainment para PlayStation Portable. Se lanzó por primera vez el 24 de marzo de 2005 en América del Norte, el 7 de abril de 2005 en Japón y el 1 de septiembre de 2005 en Europa. En Norteamérica y Europa, fue un título de lanzamiento para la plataforma.",
   downloads: [
     {
-      label: "ffmpeg-7.1.5",
-      url: "https://github.com/erreib/pure-recomp/releases/download/v0.2.0/ffmpeg-7.1.5.tar.xz",
-      size: "10.5 MB",
+      label: "Windows",
+      url: "https://github.com/erreib/pure-recomp/releases/download/v0.2.0/pure-recomp-0.2.0-windows-x64.zip",
+      size: "41.3 MB",
     },
     {
       label: "macOS",
       url: "https://github.com/erreib/pure-recomp/releases/download/v0.2.0/pure-recomp-0.2.0-macos-arm64.zip",
       size: "28.1 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/erreib/pure-recomp/releases/download/v0.2.0/pure-recomp-0.2.0-windows-x64.zip",
-      size: "41.3 MB",
     },
   ],
   cover: {

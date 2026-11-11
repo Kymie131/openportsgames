@@ -25,14 +25,14 @@ export const Freeft: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "libzip_1.11.4",
-      url: "https://github.com/nadult/FreeFT/releases/download/linux-deps-1/libzip_1.11.4.zip",
-      size: "97 KB",
-    },
-    {
-      label: "mpg123_1.31.2",
+      label: "Windows",
       url: "https://github.com/nadult/FreeFT/releases/download/linux-deps-1/mpg123_1.31.2.zip",
       size: "483 KB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/nadult/FreeFT/releases/download/linux-deps-1/libzip_1.11.4.zip",
+      size: "97 KB",
     },
   ],
   cover: {

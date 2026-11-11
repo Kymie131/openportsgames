@@ -23,16 +23,6 @@ export const zakypewEpochEquinox: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/ZakyPew/epoch-equinox/releases/download/v0.7.3/epoch-equinox-linux-x64.tar.gz",
-      size: "9.9 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/ZakyPew/epoch-equinox/releases/download/v0.7.3/epoch-equinox-macos-arm64.tar.gz",
-      size: "129.3 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/ZakyPew/epoch-equinox/releases/download/v0.7.3/epoch-equinox-windows-x64.zip",
       size: "52.5 MB",

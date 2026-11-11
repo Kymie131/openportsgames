@@ -22,7 +22,7 @@ export const katawaShoujoGba: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "katawa.0.4.11-85dd94a-html5",
+      label: "Gba",
       url: "https://github.com/neparij/katawa-shoujo-agb/releases/download/v0.4.11-workflow/katawa.0.4.11-85dd94a-html5.zip",
       size: "21.2 MB",
     },

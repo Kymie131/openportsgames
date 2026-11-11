@@ -26,7 +26,7 @@ export const moonwakeGameBoyColor: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Moonwake-Play",
+      label: "Gbc",
       url: "https://github.com/sdiaoune/moonwake/releases/download/v2.0.0/Moonwake-Play.zip",
       size: "17.0 MB",
     },

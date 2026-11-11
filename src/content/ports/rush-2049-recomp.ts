@@ -28,14 +28,14 @@ export const rush2049Recomp: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/n64hub/rush-2049-recomp/releases/download/v0.1.63/Rush2049Recompiled-v0.1.63-linux-x64.tar.gz",
-      size: "10.4 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/n64hub/rush-2049-recomp/releases/download/v0.1.63/Rush2049Recompiled-v0.1.63-windows-x64.zip",
       size: "35.7 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/n64hub/rush-2049-recomp/releases/download/v0.1.63/Rush2049Recompiled-v0.1.63-linux-x64.tar.gz",
+      size: "10.4 MB",
     },
   ],
   cover: {

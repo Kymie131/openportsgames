@@ -27,7 +27,7 @@ export const minecraftX360Ios: Port = {
     "Proyecto de recompilación de Minecraft: Xbox 360 Edition orientado a iOS. Está indexado en recomp.fyi y requiere tus propios datos del juego.",
   downloads: [
     {
-      label: "iOS IPA",
+      label: "iOS",
       url: "https://github.com/DevZer0D4Y/MCX360-EDITION/releases/download/R2/MCX360Edition.ipa",
       size: "26.3 MB",
     },

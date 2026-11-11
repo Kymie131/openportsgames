@@ -23,16 +23,6 @@ export const ridgeRacerVFukami: Port = {
   originalSystems: ["PlayStation 2"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/danisandoval/fukami/releases/download/v1.1.0/Fukami-1.1.0-linux-x86_64.tar.gz",
-      size: "30.8 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/danisandoval/fukami/releases/download/v1.1.0/Fukami-1.1.0-macos-arm64.zip",
-      size: "19.3 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/danisandoval/fukami/releases/download/v1.1.0/Fukami-1.1.0-windows-x86_64.zip",
       size: "22.6 MB",

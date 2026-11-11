@@ -53,20 +53,17 @@ export const tsukihimeNativePc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/Take00C/Tsukihime-Native-PC-Port/releases/download/v0.1.7/Tsukihime-v0.1.7-win-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/Take00C/Tsukihime-Native-PC-Port/releases/download/v0.1.7/Tsukihime-v0.1.7-linux-x64.tar.gz",
-      "note": "Linux · x64"
     },
     {
-      "label": "macOS arm64",
+      "label": "macOS",
       "url": "https://github.com/Take00C/Tsukihime-Native-PC-Port/releases/download/v0.1.7/Tsukihime-v0.1.7-macos-arm64.zip",
-      "note": "macOS · Apple Silicon"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/tsukihime-native-pc.jpg",

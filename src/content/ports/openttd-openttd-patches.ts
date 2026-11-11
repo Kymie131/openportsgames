@@ -24,32 +24,32 @@ export const OpenttdOpenttdPatches: Port = {
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.73.5/openttd-jgrpp-0.73.5-linux--bookworm-amd64.deb",
-      size: "31.0 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.73.5/openttd-jgrpp-0.73.5-linux--jammy-amd64.deb",
-      size: "31.3 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.73.5/openttd-jgrpp-0.73.5-linux--noble-amd64.deb",
-      size: "30.7 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.73.5/openttd-jgrpp-0.73.5-linux-dedicated-amd64.tar.xz",
-      size: "27.9 MB",
-    },
-    {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.73.5/openttd-jgrpp-0.73.5-linux-generic-amd64.tar.xz",
       size: "41.7 MB",
     },
     {
-      label: "macOS DMG",
+      label: "Linux x64",
+      url: "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.73.5/openttd-jgrpp-0.73.5-linux--jammy-amd64.deb",
+      size: "31.3 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.73.5/openttd-jgrpp-0.73.5-linux--bookworm-amd64.deb",
+      size: "31.0 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.73.5/openttd-jgrpp-0.73.5-linux--noble-amd64.deb",
+      size: "30.7 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.73.5/openttd-jgrpp-0.73.5-linux-dedicated-amd64.tar.xz",
+      size: "27.9 MB",
+    },
+    {
+      label: "macOS",
       url: "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.73.5/openttd-jgrpp-0.73.5-macos-universal.dmg",
       size: "18.9 MB",
     },

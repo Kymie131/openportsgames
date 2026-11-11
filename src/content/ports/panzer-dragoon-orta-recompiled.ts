@@ -50,10 +50,9 @@ export const panzerDragoonOrtaRecompiled: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/almost-drowned-rat/Orta-Recompiled/releases/download/v0.9.0/Orta-Recompiled-v0.9.0-win64.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/panzer-dragoon-orta-recompiled.png",

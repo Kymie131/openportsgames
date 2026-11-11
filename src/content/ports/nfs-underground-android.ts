@@ -23,14 +23,14 @@ export const nfsUndergroundAndroid: Port = {
   originalSystems: ["PlayStation 2"],
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/codepdbh/nfsu1-recompiled/releases/download/v0.2.12/NFSU1-AndroidEvolved-v0.2.12-arm64.apk",
-      size: "41.5 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android armv7",
       url: "https://github.com/codepdbh/nfsu1-recompiled/releases/download/v0.2.12/NFSU1-AndroidEvolved-v0.2.12-armeabi-v7a.apk",
       size: "49.0 MB",
+    },
+    {
+      label: "Android arm64",
+      url: "https://github.com/codepdbh/nfsu1-recompiled/releases/download/v0.2.12/NFSU1-AndroidEvolved-v0.2.12-arm64.apk",
+      size: "41.5 MB",
     },
   ],
   cover: {

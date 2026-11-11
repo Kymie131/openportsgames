@@ -27,24 +27,24 @@ export const einhanderRecomp: Port = {
     "Recompilación estática de Einhander (PS1, USA) sobre PSXRecomp. Requiere tu propia imagen de disco; usa OpenBIOS para la generación salvo que aportes tu propia BIOS SCPH. Última release: v0.1.3.",
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/strider973/Einhander-Recompiled/releases/download/v0.1.3/einhander-0.1.3-windows-x64.zip",
+      size: "28.8 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/strider973/Einhander-Recompiled/releases/download/v0.1.3/einhander-0.1.3-linux-x64.zip",
       size: "26.8 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/strider973/Einhander-Recompiled/releases/download/v0.1.3/einhander-0.1.3-macos-arm64.zip",
-      size: "24.4 MB",
-    },
-    {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/strider973/Einhander-Recompiled/releases/download/v0.1.3/einhander-0.1.3-macos-x64.zip",
       size: "24.7 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/strider973/Einhander-Recompiled/releases/download/v0.1.3/einhander-0.1.3-windows-x64.zip",
-      size: "28.8 MB",
+      label: "macOS arm64",
+      url: "https://github.com/strider973/Einhander-Recompiled/releases/download/v0.1.3/einhander-0.1.3-macos-arm64.zip",
+      size: "24.4 MB",
     },
   ],
   cover: {

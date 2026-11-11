@@ -25,14 +25,14 @@ export const SimpsonsWrestlingRecompiled: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/TekRantGaming/simpsons-wrestling-recompiled/releases/download/v1.0.0/SimpsonsWrestling-v1.0.0-linux-x86_64.AppImage",
-      size: "14.6 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/TekRantGaming/simpsons-wrestling-recompiled/releases/download/v1.0.0/SimpsonsWrestling-v1.0.0-windows-x64.zip",
       size: "14.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/TekRantGaming/simpsons-wrestling-recompiled/releases/download/v1.0.0/SimpsonsWrestling-v1.0.0-linux-x86_64.AppImage",
+      size: "14.6 MB",
     },
   ],
   cover: {

@@ -53,20 +53,17 @@ export const metroidPrime2Echoes: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x86_64",
+      "label": "Windows",
       "url": "https://github.com/Odrannnn/MetroidPrime2Port/releases/download/v0.11.0/metroid-prime2-port-0.11.0-windows-x86_64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x86_64",
+      "label": "Linux",
       "url": "https://github.com/Odrannnn/MetroidPrime2Port/releases/download/v0.11.0/metroid-prime2-port-0.11.0-linux-x86_64.tar.gz",
-      "note": "Linux · x64"
     },
     {
-      "label": "macOS arm64",
+      "label": "macOS",
       "url": "https://github.com/Odrannnn/MetroidPrime2Port/releases/download/v0.11.0/metroid-prime2-port-0.11.0-macos-arm64.zip",
-      "note": "macOS · Apple Silicon"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/generated/metroid-prime-2-echoes.svg",

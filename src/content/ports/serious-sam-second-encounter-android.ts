@@ -25,7 +25,7 @@ export const seriousSamSecondEncounterAndroid: Port = {
   summaryEs: "Serious Sam: The Second Encounter es un videojuego de disparos publicado por Gathering of Developers en 2002.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/aarcangeli/Serious-Sam-Android/releases/download/v1.04.0/SeriousSamRelease-V1.04.0.apk",
       size: "6.8 MB",
     },

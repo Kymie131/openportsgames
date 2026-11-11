@@ -23,7 +23,7 @@ export const perfectDarkAndroid: Port = {
   related: ["perfect-dark-port"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/izzy2lost/perfect_dark/releases/download/2.0.0/app-release.apk",
       size: "14.5 MB",
     },

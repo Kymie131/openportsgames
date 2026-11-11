@@ -26,12 +26,12 @@ export const omegakatana92BattleArenaToshindenGbRecomp: Port = {
   summaryEs: "Battle Arena Toshinden es un videojuego de lucha con armas creado y publicado en 1995 por Takara. Fue uno de los primeros juegos de lucha poligonales en 3D y apareció en PlayStation. Fue fuertemente promocionado por Sony como uno de los primeros juegos punteros de la consola. También aparecieron versiones para Sega Saturn, PC e incluso Game Boy.",
   downloads: [
     {
-      label: "Battle.Arena.Toshinden.1.2",
+      label: "Windows",
       url: "https://github.com/omegakatana92/Battle-Arena-Toshinden-GB-Recomp/releases/download/Battle_Arena_Toshiden_G_B/Battle.Arena.Toshinden.1.2.zip",
       size: "24.3 MB",
     },
     {
-      label: "Battle.Arena.Toshinden.GB",
+      label: "Windows",
       url: "https://github.com/omegakatana92/Battle-Arena-Toshinden-GB-Recomp/releases/download/Battle_Arena_Toshiden_G_B/Battle.Arena.Toshinden.GB.zip",
       size: "23.5 MB",
     },

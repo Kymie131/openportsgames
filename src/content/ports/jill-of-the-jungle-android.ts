@@ -28,7 +28,7 @@ export const jillOfTheJungleAndroid: Port = {
     "Port del código fuente de Jill of the Jungle (MS-DOS) para Android con funciones de comodidad y controles táctiles en pantalla, basado en el framework Descore. Necesita los archivos del juego original del jugador.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/wootbeer/jillandroid/releases/download/0.1/jillandroid-release.apk",
       size: "1.4 MB",
     },

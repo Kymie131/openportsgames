@@ -33,14 +33,14 @@ export const superMarioBrosRemastered: Port = {
     "Remake comunitario de Super Mario Bros. construido desde cero en Godot. El proyecto es una reimplementación nueva y no una build del código original, y reutiliza recursos de audio y sprites del lanzamiento original. Se distribuye como releases versionadas, siendo 1.1.0 la última estable. Por esos recursos propiedad de Nintendo, esta ficha permanece sin verificar.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/JHDev2006/Super-Mario-Bros.-Remastered-Public/releases/download/1.1-stable/Linux.zip",
-      size: "66.0 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/JHDev2006/Super-Mario-Bros.-Remastered-Public/releases/download/1.1-stable/Windows.zip",
       size: "72.7 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/JHDev2006/Super-Mario-Bros.-Remastered-Public/releases/download/1.1-stable/Linux.zip",
+      size: "66.0 MB",
     },
   ],
   cover: {

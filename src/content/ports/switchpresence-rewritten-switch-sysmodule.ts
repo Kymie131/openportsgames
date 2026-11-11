@@ -26,14 +26,9 @@ export const switchpresenceRewrittenSwitchSysmodule: Port = {
   summaryEs: "Nintendo Switch es una consola de videojuegos lanzada a mediados de la octava generación de consolas que fue desarrollada por Nintendo y fabricada por Foxconn. Lanzada a nivel mundial en la mayoría de las regiones el 3 de marzo de 2017, la Switch sucedió a Wii U y compitió con PlayStation 4 de Sony y Xbox One de Microsoft; también compite con las consolas de novena generación, la PlayStation 5 y Xbox Series X/S.",
   downloads: [
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/SunResearchInstitute/SwitchPresence-Rewritten/releases/download/v1.8.2/SwitchPresence-Rewritten-Manager.nro",
       size: "1.1 MB",
-    },
-    {
-      label: "Switch",
-      url: "https://github.com/SunResearchInstitute/SwitchPresence-Rewritten/releases/download/v1.8.2/Sysmodule.zip",
-      size: "24 KB",
     },
   ],
   cover: {

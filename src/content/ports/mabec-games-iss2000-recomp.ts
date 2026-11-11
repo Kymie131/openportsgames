@@ -31,7 +31,7 @@ export const mabecGamesIss2000Recomp: Port = {
       size: "19.9 MB",
     },
     {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/Mabec-games/iss2000-recomp/releases/download/v1.4/Mabecs_ISS2000_Widescreen-x86_64.AppImage",
       size: "12.7 MB",
     },

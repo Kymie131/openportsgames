@@ -25,7 +25,7 @@ export const buffyChaosBleedsAndroid: Port = {
   summaryEs: "Buffy the Vampire Slayer: Chaos Bleeds es un videojuego de acción y aventura en 2003.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/KaikoClanworth1/buffy-chaos-bleeds-pc/releases/download/v1.0.2/Buffy-Chaos-Bleeds-Android-v1.0.2.apk",
       size: "77.1 MB",
     },

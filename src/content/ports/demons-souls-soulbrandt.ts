@@ -52,15 +52,13 @@ export const demonsSoulsSoulbrandt: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/JonathanDC64/Soulbrandt/releases/download/v0.1.1/DemonsSoulsRecomp-0.1.1-windows.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/JonathanDC64/Soulbrandt/releases/download/v0.1.1/DemonsSoulsRecomp-0.1.1-linux.tar.xz",
-      "note": "Linux · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/demons-souls-soulbrandt.png",

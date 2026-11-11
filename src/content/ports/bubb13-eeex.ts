@@ -25,14 +25,9 @@ export const bubb13Eeex: Port = {
   summaryEs: "Baldur's Gate: Edición Mejorada es una reedición del videojuego de rol Baldur's Gate y su expansión Baldur's Gate: Tales of the Sword Coast. Originalmente el juego fue publicado por Interplay Entertainment y desarrollado por BioWare. La serie cuenta con dos títulos, al igual que varios spin-offs. Luego de que el tercer juego de la serie fuera cancelado, Interplay perdió la licencia para producir los juegos, por lo que esta reedición está siendo llevada a cabo por Overhaul Games, una división de Beamdog.",
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/Bubb13/EEex/releases/download/v1.3.1/EEex-v1.3.1.exe",
       size: "7.8 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/Bubb13/EEex/releases/download/v1.3.1/eeex-v1.3.1.zip",
-      size: "9.9 MB",
     },
   ],
   cover: {

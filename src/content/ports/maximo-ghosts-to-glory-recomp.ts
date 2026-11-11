@@ -50,10 +50,9 @@ export const maximoGhostsToGloryRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/BioRhythmicStudios/Maximo-GTG/releases/download/1.0.1/MaximoLauncher-1.0.1-rc.zip",
-      "note": "Windows · launcher"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/maximo-ghosts-to-glory-recomp.png",

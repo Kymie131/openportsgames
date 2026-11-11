@@ -25,12 +25,12 @@ export const wargusWar1gus: Port = {
   summaryEs: "Warcraft: Orcs & Humans™ es un videojuego de estrategia creado por Blizzard Entertainment para PC. Es de los primeros juegos del género de estrategia en tiempo real o RTS. Warcraft: Orcs & Humans inicia la serie Warcraft y ocurre en un ambiente épico medieval donde los humanos del reino mítico de Azeroth enfrentan a los orcos invasores entre otras criaturas fantásticas.",
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/Wargus/war1gus/releases/download/v3.3.2/War1gus-3.3.2.exe",
       size: "41.0 MB",
     },
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/Wargus/war1gus/releases/download/v3.3.2/War1gus-portable-3.3.2.exe",
       size: "41.0 MB",
     },

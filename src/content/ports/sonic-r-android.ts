@@ -27,7 +27,7 @@ export const sonicRAndroid: Port = {
     "Port nativo para Android de la decompilación de Sonic R de PC, con renderizador GLES2, 60 FPS y controles táctiles. Requiere tus propios archivos del juego de PC y no incluye recursos comerciales.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/ZinexDa/sonic-r-android/releases/download/v1.3.1/SonicR-release.apk",
       size: "13.1 MB",
     },

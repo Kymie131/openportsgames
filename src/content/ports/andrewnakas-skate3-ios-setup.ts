@@ -23,7 +23,7 @@ export const andrewnakasSkate3IosSetup: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "iOS IPA",
+      label: "iOS",
       url: "https://github.com/andrewnakas/skate3-ios-setup/releases/download/v2.7.1/skate3.ipa",
       size: "32.0 MB",
     },

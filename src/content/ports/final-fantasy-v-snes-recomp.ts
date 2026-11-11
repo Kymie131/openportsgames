@@ -27,7 +27,7 @@ export const finalFantasyVSnesRecomp: Port = {
     "Recompilación estática de Final Fantasy V (Super Nintendo) a un ejecutable nativo. Requiere tu propia ROM y no incluye datos del juego.",
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/brainWave4/FinalFantasyVSNESRecomp/releases/download/v0.2.1/FFV-win-x86_64.exe",
       size: "6.2 MB",
     },

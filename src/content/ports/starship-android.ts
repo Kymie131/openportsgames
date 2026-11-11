@@ -22,7 +22,7 @@ export const starshipAndroid: Port = {
   originalSystems: ["Nintendo 64"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/izzy2lost/Starship/releases/download/v2.0.0/starship-v2.0.0.apk",
       size: "23.1 MB",
     },

@@ -23,29 +23,24 @@ export const zumaDeluxePortable: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Windows",
+      url: "https://github.com/abduznik/ZumaPortable/releases/download/v0.1.1/zuma-portable-windows-ucrt64-static.exe",
+      size: "10.2 MB",
+    },
+    {
+      label: "Android",
       url: "https://github.com/abduznik/ZumaPortable/releases/download/v0.1.1/zuma-portable-android-arm64-v8a.apk",
       size: "7.7 MB",
     },
     {
-      label: "zuma-portable-wasm",
-      url: "https://github.com/abduznik/ZumaPortable/releases/download/v0.1.1/zuma-portable-wasm.zip",
-      size: "1.7 MB",
-    },
-    {
-      label: "Windows EXE",
+      label: "Windows x64",
       url: "https://github.com/abduznik/ZumaPortable/releases/download/v0.1.1/zuma-portable-windows-msvc-x64-static.exe",
       size: "6.1 MB",
     },
     {
-      label: "Windows EXE",
+      label: "Windows x86",
       url: "https://github.com/abduznik/ZumaPortable/releases/download/v0.1.1/zuma-portable-windows-msvc-x86-static.exe",
       size: "5.3 MB",
-    },
-    {
-      label: "Windows EXE",
-      url: "https://github.com/abduznik/ZumaPortable/releases/download/v0.1.1/zuma-portable-windows-ucrt64-static.exe",
-      size: "10.2 MB",
     },
   ],
   cover: {

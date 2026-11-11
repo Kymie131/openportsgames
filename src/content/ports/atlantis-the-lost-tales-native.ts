@@ -53,20 +53,17 @@ export const atlantisTheLostTalesNative: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/ripleyXLR8/atlantis-native/releases/download/v0.6.0/atlantis-native-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/ripleyXLR8/atlantis-native/releases/download/v0.6.0/atlantis-native-linux-x64.tar.gz",
-      "note": "Linux · x64"
     },
     {
-      "label": "macOS arm64",
+      "label": "macOS",
       "url": "https://github.com/ripleyXLR8/atlantis-native/releases/download/v0.6.0/atlantis-native-macos-arm64.dmg",
-      "note": "macOS · Apple Silicon"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/atlantis-the-lost-tales-native.png",

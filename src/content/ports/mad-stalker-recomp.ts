@@ -32,7 +32,7 @@ export const madStalkerRecomp: Port = {
       size: "7.2 MB",
     },
     {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/omegakatana92/MadStalkerRecomp/releases/download/v1.0.0/Mad_Stalker_Recompiled-v1.0.0-linux-x86_64.AppImage",
       size: "6.0 MB",
     },

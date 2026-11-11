@@ -25,21 +25,6 @@ export const smm2recompSmm2recomp: Port = {
   summaryEs: "Super Mario Maker 2 es un videojuego de plataformas y de creación de niveles desarrollado y publicado por Nintendo para Nintendo Switch. Es la secuela de Super Mario Maker y salió a la venta el 28 de junio de 2019 en todo el mundo. El videojuego conserva en gran medida la jugabilidad de su predecesor, en la que los jugadores crean sus propios niveles personalizados utilizando elementos de varios videojuegos de la franquicia Super Mario y compartirlos en línea.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/smm2recomp/smm2recomp/releases/download/v0.7.12/SMM2Recomp-linux-aarch64.tar.gz",
-      size: "106.9 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/smm2recomp/smm2recomp/releases/download/v0.7.12/SMM2Recomp-linux-x86_64.tar.gz",
-      size: "115.7 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/smm2recomp/smm2recomp/releases/download/v0.7.12/SMM2Recomp-macos-arm64.zip",
-      size: "120.5 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/smm2recomp/smm2recomp/releases/download/v0.7.12/SMM2Recomp-windows-x86_64.zip",
       size: "112.9 MB",

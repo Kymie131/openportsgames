@@ -27,14 +27,14 @@ export const realSteelRecomp: Port = {
   notesEs: "Real Steel Recompiled: recompilación nativo de Real Steel para linux. Aporta tu propia copia del juego.",
   downloads: [
     {
+      label: "Linux x64",
+      url: "https://github.com/thefixinhixon/RealSteelRecomp/releases/download/v1.2.1/RealSteel-x86_64-v1.2.1.AppImage",
+      size: "79.3 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/thefixinhixon/RealSteelRecomp/releases/download/v1.2.1/RealSteel-Linux-v1.2.1.zip",
       size: "78.6 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/thefixinhixon/RealSteelRecomp/releases/download/v1.2.1/RealSteel-x86_64-v1.2.1.AppImage",
-      size: "79.3 MB",
     },
   ],
   cover: {

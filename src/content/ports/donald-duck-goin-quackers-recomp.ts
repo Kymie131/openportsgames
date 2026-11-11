@@ -51,15 +51,13 @@ export const donaldDuckGoinQuackersRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/n64hub/donald-duck-goin-quackers-recomp/releases/download/v0.1.9/GoinQuackersRecompiled-v0.1.9-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/n64hub/donald-duck-goin-quackers-recomp/releases/download/v0.1.9/GoinQuackersRecompiled-v0.1.9-linux-x64.tar.gz",
-      "note": "Linux · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/donald-duck-goin-quackers-recomp.png",

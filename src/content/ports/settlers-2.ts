@@ -28,13 +28,6 @@ export const settlers2: Port = {
   summaryEs: "The Settlers II: Veni, Vidi, Vici es un videojuego de estrategia en tiempo real para PC publicado en 1996 y desarrollado por Blue Byte. Fue considerado uno de los mejores y más populares de Europa, vendiendo más de un millón de copias.",
   notes: "Open source reimplementation of The Settlers II engine.",
   notesEs: "Reimplementación de código abierto del motor de The Settlers II.",
-  downloads: [
-    {
-      label: "s25client_dev-tools_v0.9.5",
-      url: "https://github.com/Return-To-The-Roots/s25client/releases/download/v0.9.5/s25client_dev-tools_v0.9.5.tar.gz",
-      size: "10.6 MB",
-    },
-  ],
   cover: {
     src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Settlers%20II%2C%20The%20(Gold%20Edition)%20(1997).png",
     alt: "The Settlers II (box art)",

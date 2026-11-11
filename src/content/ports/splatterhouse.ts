@@ -22,7 +22,7 @@ export const Splatterhouse: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "splatterhouse-decomp-release",
+      label: "Windows",
       url: "https://github.com/0c0de/splatterhouse-decomp/releases/download/v0.3/splatterhouse-decomp-release.zip",
       size: "34.0 MB",
     },

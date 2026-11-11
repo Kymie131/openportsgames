@@ -28,16 +28,6 @@ export const doraemon64Recomp: Port = {
     "Recompilación nativa de Doraemon: Nobita to Mittsu no Seireiseki (Nintendo 64) para Windows. Necesita tu propia copia del juego.",
   downloads: [
     {
-      label: "Android",
-      url: "https://github.com/citrongames/Dora64/releases/download/v1.0.4/Dora64-1.0.3-Android-arm64.zip",
-      size: "7.3 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/citrongames/Dora64/releases/download/v1.0.4/Dora64-1.0.5-Linux-x86_64.tar.gz",
-      size: "5.0 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/citrongames/Dora64/releases/download/v1.0.4/Dora64-1.0.5-Windows-x64.zip",
       size: "14.5 MB",

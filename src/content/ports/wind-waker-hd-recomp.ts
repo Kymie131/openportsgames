@@ -27,34 +27,34 @@ export const windWakerHdRecomp: Port = {
     "Recompilación de The Legend of Zelda: The Wind Waker HD (Wii U) que por ahora apunta a macOS. Necesita tus propios datos del juego.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/releases/download/v0.5.1/WindWakerHD-v0.5.1-android-arm64.apk",
-      size: "148.3 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android x64",
       url: "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/releases/download/v0.5.1/WindWakerHD-v0.5.1-android-x86_64.apk",
       size: "151.3 MB",
     },
     {
-      label: "Linux AppImage",
-      url: "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/releases/download/v0.5.1/WindWakerHD-v0.5.1-linux-aarch64.AppImage",
-      size: "120.5 MB",
+      label: "Android arm64",
+      url: "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/releases/download/v0.5.1/WindWakerHD-v0.5.1-android-arm64.apk",
+      size: "148.3 MB",
     },
     {
-      label: "WindWakerHD-v0.5.1-linux-aarch64",
+      label: "Linux arm64",
       url: "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/releases/download/v0.5.1/WindWakerHD-v0.5.1-linux-aarch64.zip",
       size: "141.9 MB",
     },
     {
-      label: "Linux AppImage",
-      url: "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/releases/download/v0.5.1/WindWakerHD-v0.5.1-linux-x86_64.AppImage",
-      size: "119.2 MB",
-    },
-    {
-      label: "WindWakerHD-v0.5.1-linux-x86_64",
+      label: "Linux x64",
       url: "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/releases/download/v0.5.1/WindWakerHD-v0.5.1-linux-x86_64.zip",
       size: "139.1 MB",
+    },
+    {
+      label: "Linux arm64",
+      url: "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/releases/download/v0.5.1/WindWakerHD-v0.5.1-linux-aarch64.AppImage",
+      size: "120.5 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/releases/download/v0.5.1/WindWakerHD-v0.5.1-linux-x86_64.AppImage",
+      size: "119.2 MB",
     },
   ],
   cover: {

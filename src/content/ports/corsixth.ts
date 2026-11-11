@@ -39,24 +39,24 @@ export const corsixth: Port = {
     "Reimplementación del motor de Theme Hospital que carga los datos del juego original. Se admiten tanto la demo gratuita como la versión de GOG del juego.",
   downloads: [
     {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/CorsixTH/CorsixTH/releases/download/v0.70.2/CorsixTH-0.70.2.dmg",
       size: "95.0 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/CorsixTH/CorsixTH/releases/download/v0.70.2/CorsixTH-v0.70.2-Windows-x64.zip",
-      size: "31.3 MB",
-    },
-    {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/CorsixTH/CorsixTH/releases/download/v0.70.2/CorsixTH-v0.70.2-x86_64.AppImage",
       size: "79.0 MB",
     },
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/CorsixTH/CorsixTH/releases/download/v0.70.2/CorsixTHInstaller.exe",
       size: "34.2 MB",
+    },
+    {
+      label: "Windows x64",
+      url: "https://github.com/CorsixTH/CorsixTH/releases/download/v0.70.2/CorsixTH-v0.70.2-Windows-x64.zip",
+      size: "31.3 MB",
     },
   ],
   cover: {

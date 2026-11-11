@@ -24,7 +24,7 @@ export const crazyTaxiClassicSwitch: Port = {
   summaryEs: "Crazy Taxi (クレイジータクシー) es el primer videojuego de la saga del mismo nombre creado por Hitmaker y distribuido por Sega. Fue lanzado en su versión arcade en 1999 y para Dreamcast en 2000, posteriormente fue versionado para las consolas PlayStation 2 y GameCube y para PC en el año 2001.",
   downloads: [
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/delsonazevedo/crazytaxy_nx/releases/download/1.0.0/crazytaxi_nx.nro",
       size: "6.0 MB",
     },

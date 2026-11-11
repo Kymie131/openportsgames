@@ -42,19 +42,16 @@ export const eaSportsUfc3Pc: Port = {
   ],
   downloads: [
     {
-      label: "Windows x86_64",
+      label: "Windows",
       url: "https://github.com/GNSB/UFC-3-PS4-PORT-LINUX-WINDOWS/releases/download/ufc3-v0.1.14/UFC3Native-ufc3-v0.1.14-windows-x86_64.zip",
-      note: "Windows · x64",
     },
     {
-      label: "Linux x86_64",
+      label: "Linux x64",
       url: "https://github.com/GNSB/UFC-3-PS4-PORT-LINUX-WINDOWS/releases/download/ufc3-v0.1.14/UFC3Native-ufc3-v0.1.14-linux-x86_64.tar.gz",
-      note: "Linux · x64",
     },
     {
-      label: "Linux AppImage",
+      label: "Linux x64",
       url: "https://github.com/GNSB/UFC-3-PS4-PORT-LINUX-WINDOWS/releases/download/ufc3-v0.1.14/UFC3Native-ufc3-v0.1.14-x86_64.AppImage",
-      note: "Linux · AppImage",
     },
   ],
 };

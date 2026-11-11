@@ -35,11 +35,6 @@ export const theForceEngine: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.22.420/TheForceEngine-PDB-v1.22.420.zip",
-      size: "7.1 MB",
-    },
-    {
-      label: "Windows",
       url: "https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.22.420/TheForceEngine-v1.22.420.zip",
       size: "10.1 MB",
     },

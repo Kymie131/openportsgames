@@ -25,7 +25,7 @@ export const kensLabyrinthAndroid: Port = {
   summaryEs: "Ken's Labyrinth es un videojuego de disparos en primera persona para MS-DOS publicado en 1993 por Epic MegaGames. Fue programado por Ken Silverman, quien más adelante diseñaría el Build engine usado para el renderizado en Duke Nukem 3D (1996) de 3D Realms. Ken's Labyrinth consta de tres episodios, el primero de los cuales se lanzó como shareware. Una versión anterior fue autopublicada por Silverman. En el juego, el jugador asume el papel de una persona sin rostro que intenta rescatar a su perro, Sparky, de un laberinto.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/EXL/KenLab3d/releases/download/v1.2/KenLab3D_v1.2_05-MAY-2017.apk",
       size: "2.9 MB",
     },

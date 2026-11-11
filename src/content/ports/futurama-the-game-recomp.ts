@@ -52,15 +52,13 @@ export const futuramaTheGameRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/hiburn8/Futurama-The-Game-The-Recomp/releases/download/v1.7.0/FuturamaRecomp-v1.7.0-win64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/hiburn8/Futurama-The-Game-The-Recomp/releases/download/v1.7.0/FuturamaRecomp-v1.7.0-linux-x64.tar.gz",
-      "note": "Linux · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/futurama-the-game-recomp.jpg",

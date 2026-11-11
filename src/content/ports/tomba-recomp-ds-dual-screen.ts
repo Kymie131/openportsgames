@@ -22,7 +22,7 @@ export const tombaRecompDsDualScreen: Port = {
   originalSystems: ["PlayStation"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/igawa6/Tomba2RecompDS/releases/download/v0.1.0/Tomba2RecompDS-v0.1.0-arm64-v8a.apk",
       size: "117.3 MB",
     },

@@ -24,34 +24,34 @@ export const ShatteredParadise: Port = {
   summaryEs: "Shattered Paradise es un videojuego de acción y aventura publicado por TBD.",
   downloads: [
     {
-      label: "Windows",
+      label: "macOS",
+      url: "https://github.com/ABrandau/Shattered-Paradise-SDK/releases/download/playtest-20241231/ShatteredParadise-playtest-20241231.dmg",
+      size: "286.2 MB",
+    },
+    {
+      label: "Windows x64",
       url: "https://github.com/ABrandau/Shattered-Paradise-SDK/releases/download/playtest-20241231/ShatteredParadise-playtest-20241231-x64-winportable.zip",
       size: "243.7 MB",
     },
     {
-      label: "Windows EXE",
-      url: "https://github.com/ABrandau/Shattered-Paradise-SDK/releases/download/playtest-20241231/ShatteredParadise-playtest-20241231-x64.exe",
-      size: "206.2 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x86",
       url: "https://github.com/ABrandau/Shattered-Paradise-SDK/releases/download/playtest-20241231/ShatteredParadise-playtest-20241231-x86-winportable.zip",
       size: "240.6 MB",
     },
     {
-      label: "Windows EXE",
-      url: "https://github.com/ABrandau/Shattered-Paradise-SDK/releases/download/playtest-20241231/ShatteredParadise-playtest-20241231-x86.exe",
-      size: "203.6 MB",
-    },
-    {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/ABrandau/Shattered-Paradise-SDK/releases/download/playtest-20241231/ShatteredParadise-playtest-20241231-x86_64.AppImage",
       size: "239.3 MB",
     },
     {
-      label: "macOS DMG",
-      url: "https://github.com/ABrandau/Shattered-Paradise-SDK/releases/download/playtest-20241231/ShatteredParadise-playtest-20241231.dmg",
-      size: "286.2 MB",
+      label: "Windows x64",
+      url: "https://github.com/ABrandau/Shattered-Paradise-SDK/releases/download/playtest-20241231/ShatteredParadise-playtest-20241231-x64.exe",
+      size: "206.2 MB",
+    },
+    {
+      label: "Windows x86",
+      url: "https://github.com/ABrandau/Shattered-Paradise-SDK/releases/download/playtest-20241231/ShatteredParadise-playtest-20241231-x86.exe",
+      size: "203.6 MB",
     },
   ],
   cover: {

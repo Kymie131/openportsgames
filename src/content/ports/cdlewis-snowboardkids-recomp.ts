@@ -25,24 +25,14 @@ export const cdlewisSnowboardkidsRecomp: Port = {
   summaryEs: "Snowboard Kids es un videojuego de snowboard para Nintendo 64. Ha sido desarrollado por Racdym y distribuido por Atlus. El juego presenta a niños de 10 años de edad que practican snowboard a través de varias pistas, no necesariamente con nieve. Su estilo es comparado en muchas revisiones al de la serie Mario Kart.",
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/cdlewis/snowboardkids-recomp/releases/download/v1.0.9/SnowboardKidsRecompiled-AppImage-ARM64.AppImage",
-      size: "40.5 MB",
-    },
-    {
-      label: "Linux AppImage",
+      label: "Linux x64",
       url: "https://github.com/cdlewis/snowboardkids-recomp/releases/download/v1.0.9/SnowboardKidsRecompiled-AppImage-X64.AppImage",
       size: "41.4 MB",
     },
     {
-      label: "Linux",
-      url: "https://github.com/cdlewis/snowboardkids-recomp/releases/download/v1.0.9/SnowboardKidsRecompiled-Linux-ARM64.tar.gz",
-      size: "12.9 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/cdlewis/snowboardkids-recomp/releases/download/v1.0.9/SnowboardKidsRecompiled-Linux-X64.tar.gz",
-      size: "13.0 MB",
+      label: "Linux arm64",
+      url: "https://github.com/cdlewis/snowboardkids-recomp/releases/download/v1.0.9/SnowboardKidsRecompiled-AppImage-ARM64.AppImage",
+      size: "40.5 MB",
     },
     {
       label: "macOS",
@@ -53,6 +43,16 @@ export const cdlewisSnowboardkidsRecomp: Port = {
       label: "Windows",
       url: "https://github.com/cdlewis/snowboardkids-recomp/releases/download/v1.0.9/SnowboardKidsRecompiled-Windows.zip",
       size: "22.6 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/cdlewis/snowboardkids-recomp/releases/download/v1.0.9/SnowboardKidsRecompiled-Linux-X64.tar.gz",
+      size: "13.0 MB",
+    },
+    {
+      label: "Linux arm64",
+      url: "https://github.com/cdlewis/snowboardkids-recomp/releases/download/v1.0.9/SnowboardKidsRecompiled-Linux-ARM64.tar.gz",
+      size: "12.9 MB",
     },
   ],
   cover: {

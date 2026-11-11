@@ -33,14 +33,9 @@ export const unchartedWatersNewHorizonsRecomp: Port = {
     "Recompilación estática del juego de SNES para Windows 10 y 11. No incluye la ROM; debes aportar tu propia copia.",
   downloads: [
     {
-      label: "Windows x64",
+      label: "Windows",
       url: "https://github.com/Junior-Jones/Uncharted-Waters-New-Horizons-SNES-Static-Recomp/releases/download/v1.0.0/Uncharted-Waters-New-Horizons-1.0.0-Windows-x64.zip",
       size: "9.8 MB",
-    },
-    {
-      label: "Source code",
-      url: "https://github.com/Junior-Jones/Uncharted-Waters-New-Horizons-SNES-Static-Recomp/releases/download/v1.0.0/Uncharted-Waters-New-Horizons-1.0.0-Source.zip",
-      size: "44 MB",
     },
   ],
   cover: {

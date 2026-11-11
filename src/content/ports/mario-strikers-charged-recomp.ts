@@ -66,28 +66,19 @@ export const marioStrikersChargedRecomp: Port = {
   },
   downloads: [
     {
-      label: "Windows x86_64",
-      url: "https://github.com/previouslevelgames/recharged/releases/download/v1.1.1/recharged-1.1.1%2Bgf3664f778955-windows-x86_64.zip",
-      size: "44 MB",
-      note: "Windows 10/11 · x64",
-    },
-    {
-      label: "Linux x86_64",
-      url: "https://github.com/previouslevelgames/recharged/releases/download/v1.1.1/recharged-1.1.1%2Bgf3664f778955-linux-x86_64.tar.gz",
-      size: "32 MB",
-      note: "Vulkan · x86_64",
-    },
-    {
-      label: "Steam Deck",
-      url: "https://github.com/previouslevelgames/recharged/releases/download/v1.1.1/recharged-1.1.1%2Bgf3664f778955-steamdeck-x86_64.tar.gz",
-      size: "32 MB",
-      note: "SteamOS 3.7+",
-    },
-    {
-      label: "macOS universal",
+      label: "macOS",
       url: "https://github.com/previouslevelgames/recharged/releases/download/v1.1.1/recharged-1.1.1%2Bgf3664f778955-macos-universal.dmg",
       size: "49 MB",
-      note: "Apple Silicon & Intel · 15+",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/previouslevelgames/recharged/releases/download/v1.1.1/recharged-1.1.1%2Bgf3664f778955-windows-x86_64.zip",
+      size: "44 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/previouslevelgames/recharged/releases/download/v1.1.1/recharged-1.1.1%2Bgf3664f778955-linux-x86_64.tar.gz",
+      size: "32 MB",
     },
   ],
   requirements: {

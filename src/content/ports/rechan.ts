@@ -22,7 +22,7 @@ export const rechan: Port = {
   originalSystems: ["PlayStation"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/deivid22srk/ReChan-Android/releases/download/build-44/ReChan-44-release-arm64.apk",
       size: "10.4 MB",
     },

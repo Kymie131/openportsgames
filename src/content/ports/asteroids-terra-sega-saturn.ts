@@ -26,32 +26,32 @@ export const asteroidsTerraSegaSaturn: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "asteroid.part01",
+      label: "Saturn",
       url: "https://github.com/mxfolken/AsteroidsTerra/releases/download/1/asteroid.part01.rar",
       size: "20.0 MB",
     },
     {
-      label: "asteroid.part02",
+      label: "Saturn",
       url: "https://github.com/mxfolken/AsteroidsTerra/releases/download/1/asteroid.part02.rar",
       size: "20.0 MB",
     },
     {
-      label: "asteroid.part03",
+      label: "Saturn",
       url: "https://github.com/mxfolken/AsteroidsTerra/releases/download/1/asteroid.part03.rar",
       size: "20.0 MB",
     },
     {
-      label: "asteroid.part04",
+      label: "Saturn",
       url: "https://github.com/mxfolken/AsteroidsTerra/releases/download/1/asteroid.part04.rar",
       size: "20.0 MB",
     },
     {
-      label: "asteroid.part05",
+      label: "Saturn",
       url: "https://github.com/mxfolken/AsteroidsTerra/releases/download/1/asteroid.part05.rar",
       size: "20.0 MB",
     },
     {
-      label: "asteroid.part06",
+      label: "Saturn",
       url: "https://github.com/mxfolken/AsteroidsTerra/releases/download/1/asteroid.part06.rar",
       size: "10.7 MB",
     },

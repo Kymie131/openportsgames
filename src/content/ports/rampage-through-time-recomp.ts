@@ -28,21 +28,6 @@ export const rampageThroughTimeRecomp: Port = {
     "Listado en el índice comunitario PortsDR, sin repositorio público. Necesitas el juego original.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/TechnicallyComputers/Rampage---Through-Time-Recomp/releases/download/v0.1.23/rtt-0.1.23-linux-x64.zip",
-      size: "79.4 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/TechnicallyComputers/Rampage---Through-Time-Recomp/releases/download/v0.1.23/rtt-0.1.23-macos-arm64.zip",
-      size: "42.5 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/TechnicallyComputers/Rampage---Through-Time-Recomp/releases/download/v0.1.23/rtt-0.1.23-macos-x64.zip",
-      size: "43.9 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/TechnicallyComputers/Rampage---Through-Time-Recomp/releases/download/v0.1.23/rtt-0.1.23-windows-x64.zip",
       size: "58.0 MB",

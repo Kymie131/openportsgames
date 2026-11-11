@@ -22,7 +22,7 @@ export const moonPearl: Port = {
   originalSystems: ["Super Nintendo"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/DoutorRaposo/moonpearl/releases/download/v1.0.0/moonpearl-1.0.0.apk",
       size: "10.6 MB",
     },

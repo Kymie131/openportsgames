@@ -28,7 +28,7 @@ export const forzaHorizonReimagined: Port = {
       size: "92.3 MB",
     },
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases/download/v0.3.2/ForzaHorizon1-ReImagined-Setup-0.3.2.exe",
       size: "80.9 MB",
     },

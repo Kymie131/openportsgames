@@ -22,17 +22,7 @@ export const redAlert2Recomp: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/sp00nznet/redalert2-recomp/releases/download/v0.1.3/RA2-Recomp-Installer-linux-x64.tar.gz",
-      size: "9.2 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/sp00nznet/redalert2-recomp/releases/download/v0.1.3/RA2-Recomp-Installer-macos-arm64.zip",
-      size: "9.1 MB",
-    },
-    {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/sp00nznet/redalert2-recomp/releases/download/v0.1.3/RA2-Recomp-Installer-windows-x64.exe",
       size: "18.3 MB",
     },

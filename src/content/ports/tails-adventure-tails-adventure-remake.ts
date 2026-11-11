@@ -25,19 +25,14 @@ export const TailsAdventureTailsAdventureRemake: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/mechakotik/tails-adventure/releases/download/v0.3.2-1/tails-adventure-v0.3.2-1-android.apk",
-      size: "11.1 MB",
+      label: "Windows",
+      url: "https://github.com/mechakotik/tails-adventure/releases/download/v0.3.2-1/tails-adventure-v0.3.2-1-windows.zip",
+      size: "6.3 MB",
     },
     {
       label: "Linux",
       url: "https://github.com/mechakotik/tails-adventure/releases/download/v0.3.2-1/tails-adventure-v0.3.2-1-linux-amd64.tar.xz",
       size: "4.7 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/mechakotik/tails-adventure/releases/download/v0.3.2-1/tails-adventure-v0.3.2-1-windows.zip",
-      size: "6.3 MB",
     },
   ],
   cover: {

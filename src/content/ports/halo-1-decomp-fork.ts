@@ -28,16 +28,6 @@ export const halo1DecompFork: Port = {
     },
     {
       label: "Android",
-      url: "https://github.com/thelinkin3000/SlipstreamCE/releases/download/build-141/halo-ps5-release.zip",
-      size: "54.7 MB",
-    },
-    {
-      label: "Switch",
-      url: "https://github.com/thelinkin3000/SlipstreamCE/releases/download/build-141/halo-switch-release.zip",
-      size: "32.1 MB",
-    },
-    {
-      label: "Android",
       url: "https://github.com/thelinkin3000/SlipstreamCE/releases/download/build-141/slipstreamce-android-release.zip",
       size: "35.7 MB",
     },

@@ -24,29 +24,29 @@ export const openXcomAndroid: Port = {
   summaryEs: "XCom: UFO Defense es un videojuego de estrategia publicado por 2K en 2008.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/sfalexrog/openxcom-android/releases/download/v0.2/OpenXcom-v1.0-g04ec4c6-arm64-v8a.apk",
-      size: "5.5 MB",
-    },
-    {
-      label: "Android APK",
-      url: "https://github.com/sfalexrog/openxcom-android/releases/download/v0.2/OpenXcom-v1.0-g04ec4c6-armeabi-v7a.apk",
-      size: "5.3 MB",
-    },
-    {
-      label: "Android APK",
-      url: "https://github.com/sfalexrog/openxcom-android/releases/download/v0.2/OpenXcom-v1.0-g04ec4c6-armeabi.apk",
-      size: "5.3 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android x86",
       url: "https://github.com/sfalexrog/openxcom-android/releases/download/v0.2/OpenXcom-v1.0-g04ec4c6-x86.apk",
       size: "5.8 MB",
     },
     {
-      label: "Android APK",
+      label: "Android x64",
       url: "https://github.com/sfalexrog/openxcom-android/releases/download/v0.2/OpenXcom-v1.0-g04ec4c6-x86_64.apk",
       size: "5.7 MB",
+    },
+    {
+      label: "Android arm64",
+      url: "https://github.com/sfalexrog/openxcom-android/releases/download/v0.2/OpenXcom-v1.0-g04ec4c6-arm64-v8a.apk",
+      size: "5.5 MB",
+    },
+    {
+      label: "Android armv7",
+      url: "https://github.com/sfalexrog/openxcom-android/releases/download/v0.2/OpenXcom-v1.0-g04ec4c6-armeabi-v7a.apk",
+      size: "5.3 MB",
+    },
+    {
+      label: "Android armv7",
+      url: "https://github.com/sfalexrog/openxcom-android/releases/download/v0.2/OpenXcom-v1.0-g04ec4c6-armeabi.apk",
+      size: "5.3 MB",
     },
   ],
   cover: {

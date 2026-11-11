@@ -23,14 +23,14 @@ export const Flame: Port = {
   summaryEs: "Flame Con es una convención anual multigénero de cómics y entretenimiento de dos días, enfocada en fanáticos y creadores de la cultura pop que son lesbianas, gays, bisexuales, transgénero y queer (LGBTQ). Lanzada en 2015, es la primera convención de cómics LGBTQ en la ciudad de Nueva York, y la convención de cómics LGBTIQ más grande del mundo.",
   downloads: [
     {
-      label: "Flame-1.7.0-260228",
-      url: "https://github.com/DiaLight/Flame/releases/download/v260206/Flame-1.7.0-260228.zip",
-      size: "2.8 MB",
-    },
-    {
-      label: "Quuz-LevelFixes-LordsOnly-20261029",
+      label: "Windows",
       url: "https://github.com/DiaLight/Flame/releases/download/v260206/Quuz-LevelFixes-LordsOnly-20261029.zip",
       size: "20 KB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/DiaLight/Flame/releases/download/v260206/Flame-1.7.0-260228.zip",
+      size: "2.8 MB",
     },
   ],
   cover: {

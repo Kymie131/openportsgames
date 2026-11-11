@@ -22,7 +22,7 @@ export const untitledGooseGamePsVita: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "GooseGameVITA",
+      label: "Psvita",
       url: "https://github.com/PatnosDD/Untitled-Goose-Game-PS-VITA/releases/download/v0.1/GooseGameVITA.zip",
       size: "149.9 MB",
     },

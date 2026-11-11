@@ -25,22 +25,17 @@ export const SopwithSdlSopwith: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "sdl-sopwith-2.9.0-js",
-      url: "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-2.9.0/sdl-sopwith-2.9.0-js.zip",
-      size: "1.2 MB",
-    },
-    {
-      label: "macOS",
+      label: "macOS arm64",
       url: "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-2.9.0/sdl-sopwith-2.9.0-macos-arm64.zip",
       size: "1.4 MB",
     },
     {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-2.9.0/sdl-sopwith-2.9.0-macos-x86_64.zip",
       size: "1.4 MB",
     },
     {
-      label: "Windows",
+      label: "Windows x86",
       url: "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-2.9.0/sdl-sopwith-2.9.0-win32.zip",
       size: "1.1 MB",
     },
@@ -48,11 +43,6 @@ export const SopwithSdlSopwith: Port = {
       label: "Windows",
       url: "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-2.9.0/sdl-sopwith-2.9.0-win64.zip",
       size: "1.1 MB",
-    },
-    {
-      label: "sdl-sopwith-2.9.0",
-      url: "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-2.9.0/sdl-sopwith-2.9.0.tar.gz",
-      size: "1.0 MB",
     },
   ],
   cover: {

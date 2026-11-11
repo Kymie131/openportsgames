@@ -23,11 +23,6 @@ export const wyreladeDw2Pc: Port = {
   originalSystems: ["PlayStation"],
   downloads: [
     {
-      label: "DW2-PC-linux-x64",
-      url: "https://github.com/Wyrelade/DW2-PC/releases/download/v1.0.0-beta/DW2-PC-linux-x64.zip",
-      size: "1.4 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/Wyrelade/DW2-PC/releases/download/v1.0.0-beta/DW2-PC-windows-x64.zip",
       size: "3.5 MB",

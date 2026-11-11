@@ -23,7 +23,7 @@ export const bep1s69NfsmwIos: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "iOS IPA",
+      label: "iOS",
       url: "https://github.com/bep1s69/nfsmw-ios/releases/download/v0.6.0/NFSMW.ipa",
       size: "29.2 MB",
     },

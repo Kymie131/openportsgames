@@ -27,17 +27,7 @@ export const vandalHeartsRecomp: Port = {
     "Port nativo para PC de Vandal Hearts construido sobre una decompilación byte-exact. Compila para Windows y Linux y necesita tu propio disco.",
   downloads: [
     {
-      label: "VandalHearts-v2.1.0-hdpack-SLPM-86007",
-      url: "https://github.com/HalmyLyseas/VandalHearts-PcPort/releases/download/v2.1.0/VandalHearts-v2.1.0-hdpack-SLPM-86007.zip",
-      size: "333.2 MB",
-    },
-    {
-      label: "VandalHearts-v2.1.0-hdpack-SLUS-00447",
-      url: "https://github.com/HalmyLyseas/VandalHearts-PcPort/releases/download/v2.1.0/VandalHearts-v2.1.0-hdpack-SLUS-00447.zip",
-      size: "330.6 MB",
-    },
-    {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/HalmyLyseas/VandalHearts-PcPort/releases/download/v2.1.0/VandalHearts-v2.1.0-linux-x86_64.AppImage",
       size: "9.0 MB",
     },

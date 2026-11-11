@@ -23,7 +23,7 @@ export const teamBeefStudiosDoom3quest: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Team-Beef-Studios/Doom3Quest/releases/download/v1.4.8/doom3quest148.apk",
       size: "443.6 MB",
     },

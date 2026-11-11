@@ -25,14 +25,14 @@ export const F15Ii: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "f15_se2-v0.9.3",
-      url: "https://github.com/neuviemeporte/f15se2-re/releases/download/v0.9.3/f15_se2-v0.9.3.zip",
-      size: "96 KB",
-    },
-    {
-      label: "f15_se2-v0.9.3_noasm",
+      label: "Windows",
       url: "https://github.com/neuviemeporte/f15se2-re/releases/download/v0.9.3/f15_se2-v0.9.3_noasm.zip",
       size: "106 KB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/neuviemeporte/f15se2-re/releases/download/v0.9.3/f15_se2-v0.9.3.zip",
+      size: "96 KB",
     },
   ],
   cover: {

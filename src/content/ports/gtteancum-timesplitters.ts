@@ -25,19 +25,9 @@ export const gtteancumTimesplitters: Port = {
   summaryEs: "TimeSplitters es un videojuego de disparos en primera persona y la primera entrega de la serie de videojuegos homónima, que salió a la venta coincidiendo con las navidades de 2000. Su modo de juego es la acción frenética y directa. Fue este videojuego el que estrenó en PlayStation 2 los disparos en primera persona.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/GTTeancum/Timesplitters/releases/download/v1.0/TimeSplitters-Recomp-v1.0-linux-x86_64.tar.gz",
-      size: "14.5 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/GTTeancum/Timesplitters/releases/download/v1.0/TimeSplitters-Recomp-v1.0-windows.zip",
       size: "23.4 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/GTTeancum/Timesplitters/releases/download/v1.0/TimeSplitters-Recomp-v1.0-xbox.zip",
-      size: "4.2 MB",
     },
   ],
   cover: {

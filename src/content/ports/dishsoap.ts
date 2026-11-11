@@ -28,7 +28,7 @@ export const dishsoap: Port = {
     "Port comunitario para Android de The Dishwasher: Dead Samurai (Xbox 360). Necesita el juego original.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Hdmaniak/DishSoap/releases/download/v1.0.1/dishwasher-public-arm64-1.0.1.apk",
       size: "8.9 MB",
     },

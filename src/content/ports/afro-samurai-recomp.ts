@@ -50,10 +50,9 @@ export const afroSamuraiRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows installer",
+      "label": "Windows",
       "url": "https://github.com/LomoXSoft/AfroSamuraiRecomp/releases/download/v0.2.0/afrosetup-v0.2.0.exe",
-      "note": "Windows · installer"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/afro-samurai-recomp.jpg",

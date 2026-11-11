@@ -28,24 +28,14 @@ export const fteTeamFteqw: Port = {
   notesEs: "Quake: source port de fte-team para Windows. Aporta tu propia copia del juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/fte-team/fteqw/releases/download/2025-09-27/fteqw-linux64-c781d13.zip",
-      size: "5.4 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/fte-team/fteqw/releases/download/2025-09-27/fteqw-web-c781d13.zip",
-      size: "2.0 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/fte-team/fteqw/releases/download/2025-09-27/fteqw-win32-c781d13.zip",
-      size: "5.3 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/fte-team/fteqw/releases/download/2025-09-27/fteqw-win64-c781d13.zip",
       size: "5.4 MB",
+    },
+    {
+      label: "Windows x86",
+      url: "https://github.com/fte-team/fteqw/releases/download/2025-09-27/fteqw-win32-c781d13.zip",
+      size: "5.3 MB",
     },
   ],
   cover: {

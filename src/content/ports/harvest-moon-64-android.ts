@@ -23,7 +23,7 @@ export const harvestMoon64Android: Port = {
   related: ["harvest-moon-64-recomp"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/igawa6/HarvestMoon64Recomp/releases/download/v0.2.0/hm64recomp-android-0.2.0.apk",
       size: "6.8 MB",
     },

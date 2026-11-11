@@ -53,15 +53,13 @@ export const odinSphereLeifthrasirPc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/saulob/odin-sphere-leifthrasir-pc/releases/download/v0.2.3/OdinSphereLeifthrasirPC-v0.2.3-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux AppImage",
+      "label": "Linux",
       "url": "https://github.com/saulob/odin-sphere-leifthrasir-pc/releases/download/v0.2.3/OdinSphereLeifthrasirPC-v0.2.3-x86_64.AppImage",
-      "note": "Linux · AppImage"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/odin-sphere-leifthrasir-pc.png",

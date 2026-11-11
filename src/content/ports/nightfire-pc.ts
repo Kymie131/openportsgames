@@ -26,7 +26,7 @@ export const nightfirePc: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/YodaMMM/NightfirePort/releases/download/v0.1.37/NightfirePort.exe",
       size: "15.7 MB",
     },

@@ -25,29 +25,9 @@ export const knyttStoriesAndroid: Port = {
   summaryEs: "Knytt Stories es un videojuego de plataformas publicado por Nicklas Nygren en 2007.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/youkaicountry/yknytt/releases/download/0.7.3/YKnytt_v0.7.3.apk",
       size: "98.5 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/youkaicountry/yknytt/releases/download/0.7.3/YKnytt_v0.7.3_linux.zip",
-      size: "87.4 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/youkaicountry/yknytt/releases/download/0.7.3/YKnytt_v0.7.3_linux_arm64_handhelds.zip",
-      size: "121.6 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/youkaicountry/yknytt/releases/download/0.7.3/YKnytt_v0.7.3_macos.zip",
-      size: "96.8 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/youkaicountry/yknytt/releases/download/0.7.3/YKnytt_v0.7.3_win.zip",
-      size: "83.4 MB",
     },
   ],
   cover: {

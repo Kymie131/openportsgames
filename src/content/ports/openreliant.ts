@@ -26,34 +26,34 @@ export const openreliant: Port = {
     "StarLancer es una simulación de combate espacial desarrollada por Digital Anvil y publicada por Microsoft en 2000. Sigue a un escuadrón de voluntarios que lucha contra la Coalición.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/OpenReliant/openreliant/releases/download/v1.0.0/openreliant-v1.0.0-linux-aarch64.tar.gz",
-      size: "9.4 MB",
-    },
-    {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/OpenReliant/openreliant/releases/download/v1.0.0/openreliant-v1.0.0-linux-x86_64.tar.gz",
       size: "10.0 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/OpenReliant/openreliant/releases/download/v1.0.0/openreliant-v1.0.0-macos-aarch64.tar.gz",
-      size: "9.0 MB",
+      label: "Windows x64",
+      url: "https://github.com/OpenReliant/openreliant/releases/download/v1.0.0/openreliant-v1.0.0-windows-x86_64.zip",
+      size: "9.7 MB",
     },
     {
-      label: "macOS",
+      label: "Linux arm64",
+      url: "https://github.com/OpenReliant/openreliant/releases/download/v1.0.0/openreliant-v1.0.0-linux-aarch64.tar.gz",
+      size: "9.4 MB",
+    },
+    {
+      label: "macOS x64",
       url: "https://github.com/OpenReliant/openreliant/releases/download/v1.0.0/openreliant-v1.0.0-macos-x86_64.tar.gz",
       size: "9.4 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/OpenReliant/openreliant/releases/download/v1.0.0/openreliant-v1.0.0-windows-aarch64.zip",
-      size: "8.9 MB",
+      label: "macOS arm64",
+      url: "https://github.com/OpenReliant/openreliant/releases/download/v1.0.0/openreliant-v1.0.0-macos-aarch64.tar.gz",
+      size: "9.0 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/OpenReliant/openreliant/releases/download/v1.0.0/openreliant-v1.0.0-windows-x86_64.zip",
-      size: "9.7 MB",
+      label: "Windows arm64",
+      url: "https://github.com/OpenReliant/openreliant/releases/download/v1.0.0/openreliant-v1.0.0-windows-aarch64.zip",
+      size: "8.9 MB",
     },
   ],
   cover: {

@@ -27,24 +27,24 @@ export const megaManLegends2Recomp: Port = {
     "Recompilación de Mega Man Legends 2 (PS1, Europe SLES-03556) con PSXRecomp. Las releases son kits de compilación propia: aportas tu disco y una BIOS compatible, y el juego se genera y compila en tu equipo. Es la recompilación base del framework, sin mejoras por juego.",
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/alexbeavs-ps1-ports/mega-man-legends-2-recomp/releases/download/v0.1.0/megamanlegends2-0.1.0-windows-x64.zip",
+      size: "25.8 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/alexbeavs-ps1-ports/mega-man-legends-2-recomp/releases/download/v0.1.0/megamanlegends2-0.1.0-linux-x64.zip",
       size: "23.8 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/alexbeavs-ps1-ports/mega-man-legends-2-recomp/releases/download/v0.1.0/megamanlegends2-0.1.0-macos-arm64.zip",
-      size: "22.7 MB",
-    },
-    {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/alexbeavs-ps1-ports/mega-man-legends-2-recomp/releases/download/v0.1.0/megamanlegends2-0.1.0-macos-x64.zip",
       size: "23.2 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/alexbeavs-ps1-ports/mega-man-legends-2-recomp/releases/download/v0.1.0/megamanlegends2-0.1.0-windows-x64.zip",
-      size: "25.8 MB",
+      label: "macOS arm64",
+      url: "https://github.com/alexbeavs-ps1-ports/mega-man-legends-2-recomp/releases/download/v0.1.0/megamanlegends2-0.1.0-macos-arm64.zip",
+      size: "22.7 MB",
     },
   ],
   cover: {

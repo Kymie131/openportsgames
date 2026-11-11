@@ -27,32 +27,32 @@ export const shantaeRecomp: Port = {
     "Recompilación estática de Shantae (Game Boy Color) para Windows y Linux, con vista ampliada, sin ralentización, rebobinado y preajustes de shaders. Necesita tu propia ROM.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/vibecodekun/shantaerecomp/releases/download/v0.2.0/shantae-recomp-0.2.0-linux-aarch64.tar.gz",
-      size: "67.9 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/vibecodekun/shantaerecomp/releases/download/v0.2.0/shantae-recomp-0.2.0-linux-x86_64.tar.gz",
-      size: "68.7 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/vibecodekun/shantaerecomp/releases/download/v0.2.0/shantae-recomp-0.2.0-windows-arm64.zip",
-      size: "75.3 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/vibecodekun/shantaerecomp/releases/download/v0.2.0/shantae-recomp-0.2.0-windows-x64.zip",
       size: "81.5 MB",
     },
     {
-      label: "Windows",
+      label: "Windows x86",
       url: "https://github.com/vibecodekun/shantaerecomp/releases/download/v0.2.0/shantae-recomp-0.2.0-windows-x86.zip",
       size: "80.0 MB",
     },
     {
-      label: "Linux AppImage",
+      label: "Windows arm64",
+      url: "https://github.com/vibecodekun/shantaerecomp/releases/download/v0.2.0/shantae-recomp-0.2.0-windows-arm64.zip",
+      size: "75.3 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/vibecodekun/shantaerecomp/releases/download/v0.2.0/shantae-recomp-0.2.0-linux-x86_64.tar.gz",
+      size: "68.7 MB",
+    },
+    {
+      label: "Linux arm64",
+      url: "https://github.com/vibecodekun/shantaerecomp/releases/download/v0.2.0/shantae-recomp-0.2.0-linux-aarch64.tar.gz",
+      size: "67.9 MB",
+    },
+    {
+      label: "Linux arm64",
       url: "https://github.com/vibecodekun/shantaerecomp/releases/download/v0.2.0/Shantae_Recomp-0.2.0-aarch64.AppImage",
       size: "65.2 MB",
     },

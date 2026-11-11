@@ -25,7 +25,7 @@ export const TheGreatEscapeInC: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "TheGreatEscape-a9d2315",
+      label: "Windows",
       url: "https://github.com/dpt/The-Great-Escape-in-C/releases/download/risc-os-0.95/TheGreatEscape-a9d2315.zip",
       size: "242 KB",
     },

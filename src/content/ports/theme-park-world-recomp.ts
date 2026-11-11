@@ -51,15 +51,9 @@ export const themeParkWorldRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "macOS DMG",
+      "label": "macOS",
       "url": "https://github.com/cpressland/tpw-recomp/releases/download/v1.2.2/Theme-Park-World-1.2.2.dmg",
-      "note": "macOS Â· DMG"
     },
-    {
-      "label": "macOS ZIP",
-      "url": "https://github.com/cpressland/tpw-recomp/releases/download/v1.2.2/Theme-Park-World-1.2.2.zip",
-      "note": "macOS Â· ZIP"
-    }
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/theme-park-world-recomp.jpg",

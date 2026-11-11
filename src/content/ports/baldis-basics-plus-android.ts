@@ -51,10 +51,9 @@ export const baldisBasicsPlusAndroid: Port = {
   ],
   "downloads": [
     {
-      "label": "Android APK",
+      "label": "Android",
       "url": "https://github.com/MisterMan87/BB-0.14.0-Android/releases/download/Tag/Baldi.s.Basics.Plus.Prerelease.V0.14.Android.Port.apk",
-      "note": "Android · APK"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/baldis-basics-plus-android.webp",

@@ -22,7 +22,7 @@ export const huntersRecompDualScreen: Port = {
   originalSystems: ["Nintendo DS"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/aabrole/HuntersRecomp/releases/download/v0.2.5/HuntersRecomp-v0.2.5-thor-arm64.apk",
       size: "102.3 MB",
     },

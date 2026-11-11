@@ -55,7 +55,7 @@ export const nBlood: Port = {
   ],
   downloads: [
     {
-      label: "Windows",
+      label: "Windows x86",
       url: "https://github.com/NBlood/NBlood/releases/download/r14388/nblood_win32_20260914-r14388.7z",
       size: "2.8 MB",
     },
@@ -65,17 +65,12 @@ export const nBlood: Port = {
       size: "2.7 MB",
     },
     {
-      label: "Windows",
+      label: "Windows x86",
       url: "https://github.com/NBlood/NBlood/releases/download/r14388/pcexhumed_win32_20260914-r14388.7z",
       size: "2.7 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/NBlood/NBlood/releases/download/r14388/pcexhumed_win64_20260914-r14388.7z",
-      size: "2.6 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x86",
       url: "https://github.com/NBlood/NBlood/releases/download/r14388/rednukem_win32_20260914-r14388.7z",
       size: "2.7 MB",
     },
@@ -83,6 +78,11 @@ export const nBlood: Port = {
       label: "Windows",
       url: "https://github.com/NBlood/NBlood/releases/download/r14388/rednukem_win64_20260914-r14388.7z",
       size: "2.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/NBlood/NBlood/releases/download/r14388/pcexhumed_win64_20260914-r14388.7z",
+      size: "2.6 MB",
     },
   ],
   cover: {

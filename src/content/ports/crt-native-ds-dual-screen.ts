@@ -24,7 +24,7 @@ export const crtNativeDsDualScreen: Port = {
   summaryEs: "Crash Team Racing es un videojuego de carreras de karts desarrollado por Naughty Dog y publicado por Sony Computer Entertainment para PlayStation. Es la cuarta entrega de la serie Crash Bandicoot y el último hecho por Naughty Dog. La historia se centra en los esfuerzos de Crash Bandicoot, el Doctor Neo Cortex y otros personajes variopintos, que deben competir contra el ególatra Nitros Oxide para salvar la Tierra de la destrucción. En el título, los jugadores pueden controlar a uno de los quince personajes de la saga, aunque al principio solo están disponibles ocho.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/igawa6/ctr-native-android/releases/download/v0.1.0/ctrds-0.1.0-release.apk",
       size: "7.6 MB",
     },

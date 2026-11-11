@@ -24,34 +24,34 @@ export const Ultima7Decomp: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/Kitrinx/Ultima7_Decomp/releases/download/v0.5.1/ultima7-modern-v0.5.1-linux-x64.zip",
-      size: "1.5 MB",
-    },
-    {
-      label: "macOS DMG",
-      url: "https://github.com/Kitrinx/Ultima7_Decomp/releases/download/v0.5.1/ultima7-modern-v0.5.1-macos-arm64.dmg",
-      size: "2.2 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/Kitrinx/Ultima7_Decomp/releases/download/v0.5.1/ultima7-modern-v0.5.1-windows-x64.zip",
-      size: "1.1 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/Kitrinx/Ultima7_Decomp/releases/download/v0.5.1/ultima7-portable-v0.5.1-linux-x64.zip",
-      size: "2.2 MB",
-    },
-    {
-      label: "macOS DMG",
+      label: "macOS arm64",
       url: "https://github.com/Kitrinx/Ultima7_Decomp/releases/download/v0.5.1/ultima7-portable-v0.5.1-macos-arm64.dmg",
       size: "3.2 MB",
     },
     {
-      label: "Windows",
+      label: "macOS arm64",
+      url: "https://github.com/Kitrinx/Ultima7_Decomp/releases/download/v0.5.1/ultima7-modern-v0.5.1-macos-arm64.dmg",
+      size: "2.2 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/Kitrinx/Ultima7_Decomp/releases/download/v0.5.1/ultima7-portable-v0.5.1-linux-x64.zip",
+      size: "2.2 MB",
+    },
+    {
+      label: "Windows x64",
       url: "https://github.com/Kitrinx/Ultima7_Decomp/releases/download/v0.5.1/ultima7-portable-v0.5.1-windows-x64.zip",
       size: "1.7 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/Kitrinx/Ultima7_Decomp/releases/download/v0.5.1/ultima7-modern-v0.5.1-linux-x64.zip",
+      size: "1.5 MB",
+    },
+    {
+      label: "Windows x64",
+      url: "https://github.com/Kitrinx/Ultima7_Decomp/releases/download/v0.5.1/ultima7-modern-v0.5.1-windows-x64.zip",
+      size: "1.1 MB",
     },
   ],
   cover: {

@@ -52,20 +52,17 @@ export const outrunnersPort: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/cheviman/outrunners-port/releases/download/v1.1.3/outrunners-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/cheviman/outrunners-port/releases/download/v1.1.3/outrunners-linux-x64.tar.gz",
-      "note": "Linux · x64"
     },
     {
-      "label": "macOS universal",
+      "label": "macOS",
       "url": "https://github.com/cheviman/outrunners-port/releases/download/v1.1.3/outrunners-macos-universal.zip",
-      "note": "macOS · universal"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/outrunners-port.jpg",

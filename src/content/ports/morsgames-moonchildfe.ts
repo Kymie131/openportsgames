@@ -25,22 +25,12 @@ export const morsgamesMoonchildfe: Port = {
   summaryEs: "Moon Child es un videojuego de acción y aventura publicado por D.U.F.F. en 2026.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/MorsGames/MoonChildFE/releases/download/v1.1.1/MoonChildFE-LinuxX64.tar.gz",
-      size: "164.2 MB",
-    },
-    {
-      label: "macOS DMG",
-      url: "https://github.com/MorsGames/MoonChildFE/releases/download/v1.1.1/MoonChildFE-macOSUniversal.dmg",
-      size: "166.5 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/MorsGames/MoonChildFE/releases/download/v1.1.1/MoonChildFE-WindowsX64.zip",
       size: "163.9 MB",
     },
     {
-      label: "Windows",
+      label: "Windows x86",
       url: "https://github.com/MorsGames/MoonChildFE/releases/download/v1.1.1/MoonChildFE-WindowsX86.zip",
       size: "163.9 MB",
     },

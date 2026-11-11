@@ -25,17 +25,17 @@ export const Idtech4aHarmattanEdition: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/glKarin/com.n0n3m4.diii4a/releases/download/v1.1.0harmattan73/idTech4A%2B%2B_1.1.0harmattan73.apk",
       size: "524.4 MB",
     },
     {
-      label: "Android APK",
+      label: "Android arm64",
       url: "https://github.com/glKarin/com.n0n3m4.diii4a/releases/download/v1.1.0harmattan73/idTech4A%2B%2B_1.1.0harmattan73_arm64.apk",
       size: "327.1 MB",
     },
     {
-      label: "Android APK",
+      label: "Android armv7",
       url: "https://github.com/glKarin/com.n0n3m4.diii4a/releases/download/v1.1.0harmattan73/idTech4A%2B%2B_1.1.0harmattan73_armv7.apk",
       size: "300.6 MB",
     },

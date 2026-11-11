@@ -55,25 +55,21 @@ export const lagoonRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/rages4calm/LagoonSNESRecomp/releases/download/v0.4.0/Lagoon-Companion-0.4.0-win-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/rages4calm/LagoonSNESRecomp/releases/download/v0.4.0/Lagoon-Companion-0.4.0-linux-x64.tar.gz",
-      "note": "Linux · x64"
     },
     {
       "label": "macOS arm64",
       "url": "https://github.com/rages4calm/LagoonSNESRecomp/releases/download/v0.4.0/Lagoon-Companion-0.4.0-macos-arm64.tar.gz",
-      "note": "macOS · Apple Silicon"
     },
     {
       "label": "macOS x64",
       "url": "https://github.com/rages4calm/LagoonSNESRecomp/releases/download/v0.4.0/Lagoon-Companion-0.4.0-macos-x64.tar.gz",
-      "note": "macOS · Intel"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/lagoon-recomp.png",

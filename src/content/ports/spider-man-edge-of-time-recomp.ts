@@ -27,24 +27,24 @@ export const spiderManEdgeOfTimeRecomp: Port = {
     "Recompilación nativa de Spider-Man: Edge of Time (Xbox 360). El jugador aporta su propio material obtenido legalmente (disc dump); el repositorio no incluye contenido del juego.",
   downloads: [
     {
-      label: "Linux AppImage",
+      label: "Windows",
+      url: "https://github.com/goliathret/EdgeOfTimeRecomp/releases/download/v1.1/EdgeOfTimeRecomp-v1.0.0-20261030_1906-win-amd64.zip",
+      size: "183.3 MB",
+    },
+    {
+      label: "Linux",
       url: "https://github.com/goliathret/EdgeOfTimeRecomp/releases/download/v1.1/EdgeOfTimeRecomp-v1.0.0-20261030_1818-x86_64.AppImage",
       size: "140.1 MB",
     },
     {
-      label: "macOS DMG",
+      label: "macOS arm64",
       url: "https://github.com/goliathret/EdgeOfTimeRecomp/releases/download/v1.1/EdgeOfTimeRecomp-v1.0.0-20261030_1828-mac-arm64.dmg",
       size: "139.0 MB",
     },
     {
-      label: "macOS",
+      label: "macOS arm64",
       url: "https://github.com/goliathret/EdgeOfTimeRecomp/releases/download/v1.1/EdgeOfTimeRecomp-v1.0.0-20261030_1828-mac-arm64.zip",
       size: "137.8 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/goliathret/EdgeOfTimeRecomp/releases/download/v1.1/EdgeOfTimeRecomp-v1.0.0-20261030_1906-win-amd64.zip",
-      size: "183.3 MB",
     },
   ],
   cover: {

@@ -29,34 +29,19 @@ export const vcmi: Port = {
     "Recreación de código abierto del motor de Heroes of Might and Magic III, cargable con los datos del juego original. Desarrollo activo con un largo historial de releases.",
   downloads: [
     {
-      label: "pdb-arm64",
-      url: "https://github.com/vcmi/vcmi/releases/download/1.7.5/pdb-arm64.zip",
-      size: "324.5 MB",
+      label: "Android x64",
+      url: "https://github.com/vcmi/vcmi/releases/download/1.7.5/VCMI-Android-x86_64.apk",
+      size: "37.4 MB",
     },
     {
-      label: "pdb-x64",
-      url: "https://github.com/vcmi/vcmi/releases/download/1.7.5/pdb-x64.zip",
-      size: "285.4 MB",
-    },
-    {
-      label: "pdb-x86",
-      url: "https://github.com/vcmi/vcmi/releases/download/1.7.5/pdb-x86.zip",
-      size: "282.3 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android arm64",
       url: "https://github.com/vcmi/vcmi/releases/download/1.7.5/VCMI-Android-arm64-v8a.apk",
       size: "35.6 MB",
     },
     {
-      label: "Android APK",
+      label: "Android armv7",
       url: "https://github.com/vcmi/vcmi/releases/download/1.7.5/VCMI-Android-armeabi-v7a.apk",
       size: "32.1 MB",
-    },
-    {
-      label: "Android APK",
-      url: "https://github.com/vcmi/vcmi/releases/download/1.7.5/VCMI-Android-x86_64.apk",
-      size: "37.4 MB",
     },
   ],
   cover: {

@@ -22,11 +22,6 @@ export const infamousSecondSonPc: Port = {
   originalSystems: ["PlayStation 4"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/HayatoG/iss_pc/releases/download/v1.0/infamous-linux-x86_64.tar.gz",
-      size: "93.8 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/HayatoG/iss_pc/releases/download/v1.0/infamous-windows-x86_64.zip",
       size: "117.0 MB",

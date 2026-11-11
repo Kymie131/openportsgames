@@ -22,34 +22,34 @@ export const Sonic3AndKnuckles: Port = {
   originalSystems: ["Sega Mega Drive / Genesis"],
   downloads: [
     {
-      label: "Linux AppImage",
+      label: "Linux x64",
       url: "https://github.com/mstan/Sonic3AndKnucklesRecomp/releases/download/v0.8.1/Sonic3KRecomp-linux-x86_64-v0.8.1.AppImage",
       size: "40.1 MB",
     },
     {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/mstan/Sonic3AndKnucklesRecomp/releases/download/v0.8.1/Sonic3KRecomp-windows-x64-v0.8.1.zip",
       size: "36.4 MB",
     },
     {
-      label: "Linux AppImage",
-      url: "https://github.com/mstan/Sonic3AndKnucklesRecomp/releases/download/v0.8.1/Sonic3Recomp-linux-x86_64-v0.8.1.AppImage",
-      size: "15.3 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/mstan/Sonic3AndKnucklesRecomp/releases/download/v0.8.1/Sonic3Recomp-windows-x64-v0.8.1.zip",
-      size: "9.2 MB",
-    },
-    {
-      label: "Linux AppImage",
+      label: "Linux x64",
       url: "https://github.com/mstan/Sonic3AndKnucklesRecomp/releases/download/v0.8.1/SonicAndKnucklesRecomp-linux-x86_64-v0.8.1.AppImage",
       size: "19.2 MB",
     },
     {
-      label: "Windows",
+      label: "Linux x64",
+      url: "https://github.com/mstan/Sonic3AndKnucklesRecomp/releases/download/v0.8.1/Sonic3Recomp-linux-x86_64-v0.8.1.AppImage",
+      size: "15.3 MB",
+    },
+    {
+      label: "Windows x64",
       url: "https://github.com/mstan/Sonic3AndKnucklesRecomp/releases/download/v0.8.1/SonicAndKnucklesRecomp-windows-x64-v0.8.1.zip",
       size: "13.3 MB",
+    },
+    {
+      label: "Windows x64",
+      url: "https://github.com/mstan/Sonic3AndKnucklesRecomp/releases/download/v0.8.1/Sonic3Recomp-windows-x64-v0.8.1.zip",
+      size: "9.2 MB",
     },
   ],
   cover: {

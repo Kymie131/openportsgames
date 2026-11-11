@@ -25,14 +25,14 @@ export const teamBeefStudiosJkxr: Port = {
   summaryEs: "Star Wars Jedi Knight II: Jedi Outcast es la secuela del videojuego Jedi Knight: Dark Forces II. Fue desarrollado por la compañía Raven Software y distribuido en 2002 por LucasArts en Norteamérica y Activision en el resto del mundo. Basado en el motor de Quake III, existen versiones para las plataformas Microsoft Windows, Apple Macintosh, GameCube, Switch y Xbox.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/Team-Beef-Studios/JKXR/releases/download/v1.2.0/jkxr-1.2.0.apk",
-      size: "52.1 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Team-Beef-Studios/JKXR/releases/download/v1.2.0/jkxrcompanion_115meta.apk",
       size: "101.2 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/Team-Beef-Studios/JKXR/releases/download/v1.2.0/jkxr-1.2.0.apk",
+      size: "52.1 MB",
     },
   ],
   cover: {

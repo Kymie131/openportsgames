@@ -22,11 +22,6 @@ export const gravityRush2Pc: Port = {
   originalSystems: ["PlayStation 4"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/HayatoG/gr2_pc/releases/download/v2026.10.24-a2e69a1/gr2-linux-x86_64.tar.gz",
-      size: "76.4 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/HayatoG/gr2_pc/releases/download/v2026.10.24-a2e69a1/gr2-windows-x86_64.zip",
       size: "108.3 MB",

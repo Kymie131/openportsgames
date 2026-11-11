@@ -25,11 +25,6 @@ export const linkssy2Darkwatchdarkeredition: Port = {
   summaryEs: "Darkwatch es un videojuego de terror y disparos en primera persona estilo western y steampunk, publicado el 16 de agosto de 2005 para las consolas PlayStation 2 y Xbox. El videojuego fue desarrollado por High Moon Studios y publicado por Ubisoft en Reino Unido, mientras que fue distribuido por Capcom en Estados Unidos y América.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/linkssy2/DarkwatchDarkerEdition/releases/download/v0.7.8/Darkwatch-Darker-Edition-0.7.8-Linux-Proton-Experimental.tar.gz",
-      size: "154.4 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/linkssy2/DarkwatchDarkerEdition/releases/download/v0.7.8/Darkwatch-Darker-Edition-0.7.8-Windows-x64.zip",
       size: "154.4 MB",

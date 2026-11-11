@@ -34,7 +34,7 @@ export const sonicMania: Port = {
       size: "3.5 MB",
     },
     {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/RSDKModding/Sonic-Mania-Decompilation/releases/download/v1.1.1/mania-windows-x64.zip",
       size: "2.8 MB",
     },

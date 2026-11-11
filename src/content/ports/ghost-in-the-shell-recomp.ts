@@ -27,24 +27,24 @@ export const ghostInTheShellRecomp: Port = {
     "Recompilación de Ghost in the Shell (PS1, Europa SCES-01050) con PSXRecomp y el lanzador recomp-ui. Requiere tu propio disco y una BIOS europea SCPH-5502/5552; el juego se compila en tu máquina. Candidata 0.1.0, todavía sin aceptación de gameplay.",
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/alexbeavs-ps1-ports/ghost-in-the-shell-recomp/releases/download/v0.1.1/ghost-in-the-shell-0.1.1-windows-x64.zip",
+      size: "25.0 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/alexbeavs-ps1-ports/ghost-in-the-shell-recomp/releases/download/v0.1.1/ghost-in-the-shell-0.1.1-linux-x64.zip",
       size: "23.1 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/alexbeavs-ps1-ports/ghost-in-the-shell-recomp/releases/download/v0.1.1/ghost-in-the-shell-0.1.1-macos-arm64.zip",
-      size: "21.9 MB",
-    },
-    {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/alexbeavs-ps1-ports/ghost-in-the-shell-recomp/releases/download/v0.1.1/ghost-in-the-shell-0.1.1-macos-x64.zip",
       size: "22.5 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/alexbeavs-ps1-ports/ghost-in-the-shell-recomp/releases/download/v0.1.1/ghost-in-the-shell-0.1.1-windows-x64.zip",
-      size: "25.0 MB",
+      label: "macOS arm64",
+      url: "https://github.com/alexbeavs-ps1-ports/ghost-in-the-shell-recomp/releases/download/v0.1.1/ghost-in-the-shell-0.1.1-macos-arm64.zip",
+      size: "21.9 MB",
     },
   ],
   cover: {

@@ -26,24 +26,24 @@ export const opene2140: Port = {
     "Earth 2140 es un juego de estrategia en tiempo real desarrollado por Reality Pump y publicado por TopWare Interactive en 1997. Narra una guerra futura entre dos facciones humanas por los últimos recursos disponibles.",
   downloads: [
     {
-      label: "Windows",
+      label: "macOS",
+      url: "https://github.com/OpenE2140/OpenE2140/releases/download/release-20260920/OpenE2140-release-20260920.dmg",
+      size: "107.5 MB",
+    },
+    {
+      label: "Windows x64",
       url: "https://github.com/OpenE2140/OpenE2140/releases/download/release-20260920/OpenE2140-release-20260920-x64-winportable.zip",
       size: "69.9 MB",
     },
     {
-      label: "Windows EXE",
-      url: "https://github.com/OpenE2140/OpenE2140/releases/download/release-20260920/OpenE2140-release-20260920-x64.exe",
-      size: "57.8 MB",
-    },
-    {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/OpenE2140/OpenE2140/releases/download/release-20260920/OpenE2140-release-20260920-x86_64.AppImage",
       size: "67.7 MB",
     },
     {
-      label: "macOS DMG",
-      url: "https://github.com/OpenE2140/OpenE2140/releases/download/release-20260920/OpenE2140-release-20260920.dmg",
-      size: "107.5 MB",
+      label: "Windows x64",
+      url: "https://github.com/OpenE2140/OpenE2140/releases/download/release-20260920/OpenE2140-release-20260920-x64.exe",
+      size: "57.8 MB",
     },
   ],
   cover: {

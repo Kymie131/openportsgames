@@ -23,21 +23,6 @@ export const metalSlugXRecompTechnically: Port = {
   related: ["metal-slug-x-recomp"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/TechnicallyComputers/Metal-Slug-X-Recomp/releases/download/v0.1.21/msx-0.1.21-linux-x64.zip",
-      size: "51.5 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/TechnicallyComputers/Metal-Slug-X-Recomp/releases/download/v0.1.21/msx-0.1.21-macos-arm64.zip",
-      size: "27.9 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/TechnicallyComputers/Metal-Slug-X-Recomp/releases/download/v0.1.21/msx-0.1.21-macos-x64.zip",
-      size: "28.6 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/TechnicallyComputers/Metal-Slug-X-Recomp/releases/download/v0.1.21/msx-0.1.21-windows-x64.zip",
       size: "29.9 MB",

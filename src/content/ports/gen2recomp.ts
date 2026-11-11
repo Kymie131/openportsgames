@@ -27,14 +27,9 @@ export const gen2recomp: Port = {
     "Proyecto de recompilación de los Pokémon de segunda generación, derivado de Gen1Recomp. Funciona en escritorio y Android con tus propios datos del juego.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.57/Gen2Recomped-0.8.57-android.apk",
       size: "127.8 MB",
-    },
-    {
-      label: "iOS IPA",
-      url: "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.57/Gen2Recomped-0.8.57-ios.ipa",
-      size: "33.1 MB",
     },
     {
       label: "Linux",
@@ -47,14 +42,9 @@ export const gen2recomp: Port = {
       size: "53.3 MB",
     },
     {
-      label: "Gen2Recomped-0.8.57-rg34xxsp-stockos64-mod",
-      url: "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.57/Gen2Recomped-0.8.57-rg34xxsp-stockos64-mod.zip",
-      size: "68.1 MB",
-    },
-    {
-      label: "Switch",
-      url: "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.57/Gen2Recomped-0.8.57-switch.zip",
-      size: "32.2 MB",
+      label: "iOS",
+      url: "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.57/Gen2Recomped-0.8.57-ios.ipa",
+      size: "33.1 MB",
     },
   ],
   cover: {

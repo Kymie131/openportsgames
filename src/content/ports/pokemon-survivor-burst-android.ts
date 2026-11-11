@@ -25,17 +25,17 @@ export const pokemonSurvivorBurstAndroid: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/TryTheSauceBoss/Pokemon-Survivorburst-Android/releases/download/v9.0/Pokemon.Survivor.Burst.-.v9.0.-.Right.Stick.Shoot.apk",
       size: "597.9 MB",
     },
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/TryTheSauceBoss/Pokemon-Survivorburst-Android/releases/download/v9.0/Pokemon.Survivor.Burst.-.v9.0.-.RT.Shoot.apk",
       size: "597.9 MB",
     },
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/TryTheSauceBoss/Pokemon-Survivorburst-Android/releases/download/v9.0/Pokemon.Survivor.Burst.-.v9.0.apk",
       size: "597.9 MB",
     },

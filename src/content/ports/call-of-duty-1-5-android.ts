@@ -25,14 +25,14 @@ export const callOfDuty15Android: Port = {
   summaryEs: "Call of Duty es una serie de videojuegos de disparos en primera persona, de estilo bélico, desarrollada principal e inicialmente por Infinity Ward, Treyarch, Sledgehammer Games y en menor proporción Raven Software y distribuida por Activision.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/Dr3amyBerry/callofrecomp/releases/download/v0.2.4/callofrecomp-arm64.apk",
-      size: "47.9 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android x64",
       url: "https://github.com/Dr3amyBerry/callofrecomp/releases/download/v0.2.4/callofrecomp-x86_64.apk",
       size: "60.4 MB",
+    },
+    {
+      label: "Android arm64",
+      url: "https://github.com/Dr3amyBerry/callofrecomp/releases/download/v0.2.4/callofrecomp-arm64.apk",
+      size: "47.9 MB",
     },
   ],
   cover: {

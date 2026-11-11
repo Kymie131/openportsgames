@@ -28,7 +28,7 @@ export const ootPsp: Port = {
     "Port de Ocarina of Time a la PlayStation Portable, basado en la decompilación. Requiere tu propia ROM.",
   downloads: [
     {
-      label: "OOTPSP",
+      label: "Psp",
       url: "https://github.com/z2442/oot-PSP/releases/download/1.0/OOTPSP.zip",
       size: "2.6 MB",
     },

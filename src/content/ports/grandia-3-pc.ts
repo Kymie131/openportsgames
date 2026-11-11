@@ -50,10 +50,9 @@ export const grandia3Pc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x86_64",
+      "label": "Windows",
       "url": "https://github.com/GranasSabre/Grandia3-PC/releases/download/v1.0.6/Grandia3-PC-v1.0.6.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/generated/grandia-3-pc.svg",

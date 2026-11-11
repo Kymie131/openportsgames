@@ -22,7 +22,7 @@ export const revcAndroidEvolved: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/codepdbh/revc-android-port-evolved/releases/download/v1.0.11/app-standard-release.apk",
       size: "10.1 MB",
     },

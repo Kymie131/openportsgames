@@ -26,7 +26,7 @@ export const fluctusWiiU: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "fluctus-wiiu-1.0.0",
+      label: "Wiiu",
       url: "https://github.com/kianbennett/fluctus-wiiu/releases/download/1.0.0/fluctus-wiiu-1.0.0.zip",
       size: "52 KB",
     },

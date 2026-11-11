@@ -25,16 +25,6 @@ export const UnderworldExhumed: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/abedegno/underworld-exhumed/releases/download/uw1-v1.0.2/UW1-v1.0.2-linux-x86_64.AppImage",
-      size: "3.2 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/abedegno/underworld-exhumed/releases/download/uw1-v1.0.2/UW1-v1.0.2-linux-x86_64.tar.gz",
-      size: "2.5 MB",
-    },
-    {
       label: "macOS",
       url: "https://github.com/abedegno/underworld-exhumed/releases/download/uw1-v1.0.2/UW1-v1.0.2-macos.zip",
       size: "4.9 MB",
@@ -43,6 +33,16 @@ export const UnderworldExhumed: Port = {
       label: "Windows",
       url: "https://github.com/abedegno/underworld-exhumed/releases/download/uw1-v1.0.2/UW1-v1.0.2-windows-x86_64.zip",
       size: "3.6 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/abedegno/underworld-exhumed/releases/download/uw1-v1.0.2/UW1-v1.0.2-linux-x86_64.AppImage",
+      size: "3.2 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/abedegno/underworld-exhumed/releases/download/uw1-v1.0.2/UW1-v1.0.2-linux-x86_64.tar.gz",
+      size: "2.5 MB",
     },
   ],
   cover: {

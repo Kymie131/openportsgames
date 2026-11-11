@@ -51,15 +51,13 @@ export const fortyWinksRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/DreaXer/40WinksRecomp/releases/download/v0.4.0/40WinksRecompiled-v0.4.0-windows.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/DreaXer/40WinksRecomp/releases/download/v0.4.0/40WinksRecompiled-v0.4.0-linux.tar.gz",
-      "note": "Linux · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/40-winks-recomp.jpg",

@@ -26,7 +26,7 @@ export const rincheatPsVitaPlugin: Port = {
   summaryEs: "PlayStation Vita, también conocida como PS Vita, es la tercera y última videoconsola portátil creada por Sony Computer Entertainment, es la sucesora de PlayStation Portable y esta es la primera consola de Sony en ser diseñada por Mark Cerny en reemplazo de Ken Kutaragi, además es parte de la familia PlayStation de videoconsolas. Fue presentada el 27 de enero de 2011 y puesta a la venta el día 17 de diciembre del mismo año en Japón. La llegada a los países de Europa y América fue el 22 de febrero de 2012. Inicialmente, estaba destinada a competir directamente con la consola de Nintendo 3DS.",
   downloads: [
     {
-      label: "rinCheat",
+      label: "Psvita",
       url: "https://github.com/Rinnegatamante/rinCheat/releases/download/beta4_debug/rinCheat.rar",
       size: "68 KB",
     },

@@ -35,23 +35,8 @@ export const librelancer: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/Librelancer/Librelancer/releases/download/2025.11/librelancer-2025.11-ubuntu-amd64.tar.gz",
-      size: "40.8 MB",
-    },
-    {
-      label: "Windows",
       url: "https://github.com/Librelancer/Librelancer/releases/download/2025.11/librelancer-2025.11-win64.zip",
       size: "47.6 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/Librelancer/Librelancer/releases/download/2025.11/librelancer-sdk-2025.11-ubuntu-amd64.tar.gz",
-      size: "46.3 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/Librelancer/Librelancer/releases/download/2025.11/librelancer-sdk-2025.11-win64.zip",
-      size: "53.5 MB",
     },
   ],
   cover: {

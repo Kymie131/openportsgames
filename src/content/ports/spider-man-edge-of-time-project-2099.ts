@@ -24,26 +24,6 @@ export const spiderManEdgeOfTimeProject2099: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/GenryTheFox0/Project-2099/releases/download/v2.0.0-beta.5/Project2099-Beta5-4K-Remaster-part1.zip",
-      size: "1053.6 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/GenryTheFox0/Project-2099/releases/download/v2.0.0-beta.5/Project2099-Beta5-4K-Remaster-part2.zip",
-      size: "1052.6 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/GenryTheFox0/Project-2099/releases/download/v2.0.0-beta.5/Project2099-Beta5-4K-Remaster-part3.zip",
-      size: "723.4 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/GenryTheFox0/Project-2099/releases/download/v2.0.0-beta.5/Project2099-Beta5-Payload.zip",
-      size: "1298.2 MB",
-    },
-    {
-      label: "Windows EXE",
       url: "https://github.com/GenryTheFox0/Project-2099/releases/download/v2.0.0-beta.5/Project2099-Beta5-Setup.exe",
       size: "4.4 MB",
     },

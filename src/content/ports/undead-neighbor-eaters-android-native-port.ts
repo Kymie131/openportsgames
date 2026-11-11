@@ -22,7 +22,7 @@ export const undeadNeighborEatersAndroidNativePort: Port = {
   originalSystems: ["Super Nintendo"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/sirdankz/Undead-Neighbor-Eaters-Droid/releases/download/DROID/UndeadNeighborEatersV2.apk",
       size: "1.3 MB",
     },

@@ -27,7 +27,7 @@ export const persona3Portable3ds: Port = {
       size: "2.9 MB",
     },
     {
-      label: "P3P3DS-Builder-0.3.3",
+      label: "3ds",
       url: "https://github.com/endercodezz/P3P3DS/releases/download/v0.3.3/P3P3DS-Builder-0.3.3.zip",
       size: "2.3 MB",
     },

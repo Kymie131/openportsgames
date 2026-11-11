@@ -28,14 +28,14 @@ export const dinoTale: Port = {
     "Recompilación nativa de Yoshi's Story (Nintendo 64) creada con N64Recomp y renderizada con RT64, para Windows y Linux, incluida Steam Deck. El jugador aporta su ROM obtenida legalmente; el repositorio no incluye contenido del juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/wootbeer/dinotale/releases/download/0.1.8/DinoTale-0.1.8-linux.tar.gz",
-      size: "7.6 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/wootbeer/dinotale/releases/download/0.1.8/DinoTale-0.1.8-windows.zip",
       size: "17.3 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/wootbeer/dinotale/releases/download/0.1.8/DinoTale-0.1.8-linux.tar.gz",
+      size: "7.6 MB",
     },
   ],
   cover: {

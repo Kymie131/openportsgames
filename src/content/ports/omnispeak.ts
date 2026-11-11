@@ -30,24 +30,19 @@ export const omnispeak: Port = {
     "Reimplementación de código abierto de Commander Keen: Goodbye, Galaxy (episodios 4-6) que ejecuta los datos originales. Necesita tu propia copia de los juegos.",
   downloads: [
     {
-      label: "omnispeak-dos-1.1",
-      url: "https://github.com/sulix/omnispeak/releases/download/v1.1/omnispeak-dos-1.1.zip",
-      size: "912 KB",
-    },
-    {
       label: "Linux",
       url: "https://github.com/sulix/omnispeak/releases/download/v1.1/omnispeak-linux-1.1.tar.gz",
       size: "2.3 MB",
     },
     {
       label: "Windows",
-      url: "https://github.com/sulix/omnispeak/releases/download/v1.1/omnispeak-win32-1.1.zip",
-      size: "1.3 MB",
-    },
-    {
-      label: "Windows",
       url: "https://github.com/sulix/omnispeak/releases/download/v1.1/omnispeak-win64-1.1.zip",
       size: "1.4 MB",
+    },
+    {
+      label: "Windows x86",
+      url: "https://github.com/sulix/omnispeak/releases/download/v1.1/omnispeak-win32-1.1.zip",
+      size: "1.3 MB",
     },
   ],
   cover: {

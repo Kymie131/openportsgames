@@ -27,11 +27,6 @@ export const perfectDarkRemasterRecomp: Port = {
     "Recompilación nativa de Perfect Dark (XBLA Remaster) (Xbox 360). El jugador aporta su propio material obtenido legalmente (disc dump); el repositorio no incluye contenido del juego.",
   downloads: [
     {
-      label: "PerfectDarkRemaster-lin64",
-      url: "https://github.com/nikolaygorb/PerfectDarkRemasterRecomp/releases/download/1.6/PerfectDarkRemaster-lin64.zip",
-      size: "27.0 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/nikolaygorb/PerfectDarkRemasterRecomp/releases/download/1.6/PerfectDarkRemaster-win64.zip",
       size: "15.7 MB",

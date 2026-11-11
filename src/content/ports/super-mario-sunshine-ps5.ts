@@ -22,7 +22,7 @@ export const superMarioSunshinePs5: Port = {
   originalSystems: ["GameCube"],
   downloads: [
     {
-      label: "Sunshine-PS5-v0.10.0",
+      label: "Ps5",
       url: "https://github.com/griches/PS5_Sunshine/releases/download/v0.10.0/Sunshine-PS5-v0.10.0.zip",
       size: "20.2 MB",
     },

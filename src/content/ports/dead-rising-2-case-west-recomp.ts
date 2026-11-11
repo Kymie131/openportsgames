@@ -23,19 +23,9 @@ export const deadRising2CaseWestRecomp: Port = {
   summaryEs: "Dead Rising 2: Case West es un videojuego de acción y aventura en 2010.",
   downloads: [
     {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/wivi514/Dead_Rising_2_Case_West_Xenon_Recomp/releases/download/v1.1.2/CaseWestRecomp-linux-x86_64.AppImage",
       size: "29.1 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/wivi514/Dead_Rising_2_Case_West_Xenon_Recomp/releases/download/v1.1.2/CaseWestRecomp-macos-arm64.zip",
-      size: "27.5 MB",
-    },
-    {
-      label: "CaseWestRecomp-steamdeck-x86_64",
-      url: "https://github.com/wivi514/Dead_Rising_2_Case_West_Xenon_Recomp/releases/download/v1.1.2/CaseWestRecomp-steamdeck-x86_64.tar.gz",
-      size: "30.5 MB",
     },
     {
       label: "Windows",

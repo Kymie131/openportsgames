@@ -28,12 +28,7 @@ export const ianitskyGt2Multiplayer: Port = {
       size: "62.5 MB",
     },
     {
-      label: "Linux",
-      url: "https://github.com/ianitsky/gt2-multiplayer/releases/download/1.0.1/1.0.1-relay-linux-x64.zip",
-      size: "30.6 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/ianitsky/gt2-multiplayer/releases/download/1.0.1/1.0.1-relay-win-x64.zip",
       size: "30.6 MB",
     },

@@ -22,7 +22,7 @@ export const zelda3dsAndroidTriaevum: Port = {
   originalSystems: ["Nintendo 3DS"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/WINDROID-EMU/RECOMP-ZELDA-3DS-ANDROID/releases/download/v1.0.0-android/TriAevum-Oot3D-Android-arm64-v8a.apk",
       size: "109.0 MB",
     },

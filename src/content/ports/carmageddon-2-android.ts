@@ -25,34 +25,24 @@ export const carmageddon2Android: Port = {
   summaryEs: "Carmageddon 2: Carpocalypse Now es un videojuego de carreras de 1998 desarrollado por Stainless Games y publicado por Interplay Entertainment. Combina carreras y destrucción con atropellos y combate vehicular.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/Link4Electronics/Carpocalypse2/releases/download/0.81/carpocalypse2-0.81-android-arm64-v8a.apk",
-      size: "8.8 MB",
-    },
-    {
-      label: "Android APK",
-      url: "https://github.com/Link4Electronics/Carpocalypse2/releases/download/0.81/carpocalypse2-0.81-android-armeabi-v7a.apk",
-      size: "6.8 MB",
-    },
-    {
-      label: "Linux AppImage",
+      label: "Linux arm64",
       url: "https://github.com/Link4Electronics/Carpocalypse2/releases/download/0.81/carpocalypse2-dbe5060-anylinux-aarch64.AppImage",
       size: "23.6 MB",
     },
     {
-      label: "Linux AppImage",
+      label: "Linux x64",
       url: "https://github.com/Link4Electronics/Carpocalypse2/releases/download/0.81/carpocalypse2-dbe5060-anylinux-x86_64.AppImage",
       size: "23.6 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/Link4Electronics/Carpocalypse2/releases/download/0.81/carpocalypse2-macos-arm64.zip",
-      size: "2.4 MB",
+      label: "Android arm64",
+      url: "https://github.com/Link4Electronics/Carpocalypse2/releases/download/0.81/carpocalypse2-0.81-android-arm64-v8a.apk",
+      size: "8.8 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/Link4Electronics/Carpocalypse2/releases/download/0.81/carpocalypse2-windows-x86_64.zip",
-      size: "2.9 MB",
+      label: "Android armv7",
+      url: "https://github.com/Link4Electronics/Carpocalypse2/releases/download/0.81/carpocalypse2-0.81-android-armeabi-v7a.apk",
+      size: "6.8 MB",
     },
   ],
   cover: {

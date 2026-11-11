@@ -29,29 +29,29 @@ export const openTyrian: Port = {
     "Port de código abierto del shooter de desplazamiento vertical Tyrian. Los datos del juego no se incluyen y debe aportarlos el jugador.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/opentyrian/opentyrian/releases/download/v2.1.20260913/opentyrian-v2.1.20260913-linux-arm64.tar.gz",
-      size: "5.7 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/opentyrian/opentyrian/releases/download/v2.1.20260913/opentyrian-v2.1.20260913-linux-x86_64.tar.gz",
-      size: "5.7 MB",
-    },
-    {
       label: "macOS",
       url: "https://github.com/opentyrian/opentyrian/releases/download/v2.1.20260913/opentyrian-v2.1.20260913-macos-universal.zip",
       size: "6.9 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/opentyrian/opentyrian/releases/download/v2.1.20260913/opentyrian-v2.1.20260913-windows-arm64.zip",
-      size: "5.5 MB",
-    },
-    {
-      label: "Windows",
+      label: "Windows x64",
       url: "https://github.com/opentyrian/opentyrian/releases/download/v2.1.20260913/opentyrian-v2.1.20260913-windows-x86_64.zip",
       size: "5.8 MB",
+    },
+    {
+      label: "Linux arm64",
+      url: "https://github.com/opentyrian/opentyrian/releases/download/v2.1.20260913/opentyrian-v2.1.20260913-linux-arm64.tar.gz",
+      size: "5.7 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/opentyrian/opentyrian/releases/download/v2.1.20260913/opentyrian-v2.1.20260913-linux-x86_64.tar.gz",
+      size: "5.7 MB",
+    },
+    {
+      label: "Windows arm64",
+      url: "https://github.com/opentyrian/opentyrian/releases/download/v2.1.20260913/opentyrian-v2.1.20260913-windows-arm64.zip",
+      size: "5.5 MB",
     },
   ],
   cover: {

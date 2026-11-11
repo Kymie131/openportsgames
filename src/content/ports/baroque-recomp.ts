@@ -51,10 +51,9 @@ export const baroqueRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/Arch61s/Baroque-Decomp/releases/download/v0.3.3/Baroque-0.3.3-win64.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/baroque-recomp.png",

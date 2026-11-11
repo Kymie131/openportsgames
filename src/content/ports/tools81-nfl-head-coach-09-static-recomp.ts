@@ -25,7 +25,7 @@ export const tools81NflHeadCoach09StaticRecomp: Port = {
   summaryEs: "NFL Head Coach 09 es un videojuego de acción y aventura publicado por EA Sports en 2008.",
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/tools81/nfl-head-coach-09-static-recomp/releases/download/v1.1.0/HC09Setup.exe",
       size: "570 KB",
     },

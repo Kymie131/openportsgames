@@ -25,7 +25,7 @@ export const StarWarsEpisode1Racer: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "community_improvement_mod_v0_17",
+      label: "Windows",
       url: "https://github.com/tim-tim707/SW_RACER_RE/releases/download/v0.17/community_improvement_mod_v0_17.zip",
       size: "83.4 MB",
     },

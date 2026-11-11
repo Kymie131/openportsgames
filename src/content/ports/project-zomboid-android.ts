@@ -27,7 +27,7 @@ export const projectZomboidAndroid: Port = {
     "Lanzador no oficial para Android de Project Zomboid. Necesita una copia comprada del juego de escritorio y sus archivos.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/udarmolota/zomdroid/releases/download/v1.5.3/zomdroid-release-1.5.3.apk",
       size: "154.6 MB",
     },

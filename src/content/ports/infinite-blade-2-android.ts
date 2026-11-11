@@ -25,17 +25,17 @@ export const infiniteBlade2Android: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/jelqedagain/ib-2-3-android/releases/download/ib3/ib3-android-1.9.5.apk",
       size: "1.8 MB",
     },
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/jelqedagain/ib-2-3-android/releases/download/ib3/ib3-android-1.9.7.1.apk",
       size: "1.8 MB",
     },
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/jelqedagain/ib-2-3-android/releases/download/ib3/ib3-android-1.9.7.apk",
       size: "1.8 MB",
     },

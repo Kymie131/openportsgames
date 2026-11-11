@@ -23,7 +23,7 @@ export const dragonBallRagingBlast2Android: Port = {
   related: ["dragon-ball-raging-blast-2-recomp"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/moddedrounds/RB2-Android/releases/download/v1.2.3/RB2-Android.apk",
       size: "74.1 MB",
     },

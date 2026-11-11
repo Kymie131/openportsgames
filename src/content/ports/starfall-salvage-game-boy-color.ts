@@ -26,7 +26,7 @@ export const starfallSalvageGameBoyColor: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "starfall-salvage-1.2-player",
+      label: "Gbc",
       url: "https://github.com/steph4n-gh/starfall-salvage/releases/download/v1.2/starfall-salvage-1.2-player.zip",
       size: "4.1 MB",
     },

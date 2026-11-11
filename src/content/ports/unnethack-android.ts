@@ -23,7 +23,7 @@ export const unnethackAndroid: Port = {
   summaryEs: "NetHack es un videojuego libre perteneciente al género roguelike. La última versión oficial es la 5.0.0, lanzada el 2 de mayo de 2026.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/gurrhack/UnNetHack-Android/releases/download/v5.1.0-6/UnNetHack-5.1.0-6.apk",
       size: "3.9 MB",
     },

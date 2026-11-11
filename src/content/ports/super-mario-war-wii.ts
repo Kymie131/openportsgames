@@ -24,7 +24,7 @@ export const superMarioWarWii: Port = {
   summaryEs: "Super Mario War es un videojuego de plataformas de código abierto y un editor de niveles que se lanzó en 2004. Se basa en elementos de juego y medios audiovisuales clonados extraoficialmente de la serie Super Mario de Nintendo. El juego se centra en jugadores que luchan entre sí cuando un jugador salta sobre la cabeza del otro jugador o hace uso de elementos que se pueden recoger durante el juego.",
   downloads: [
     {
-      label: "smwwii-0.1.0",
+      label: "Wii",
       url: "https://github.com/jpzm/smwwii/releases/download/v0.1.0/smwwii-0.1.0.zip",
       size: "12.6 MB",
     },

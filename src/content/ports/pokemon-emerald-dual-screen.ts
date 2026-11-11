@@ -27,7 +27,7 @@ export const pokemonEmeraldDualScreen: Port = {
     "Recompilación estática de Pokémon Emerald (GBA) con el framework gbarecomp. Requiere el juego original.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Goldoire/pokeemerald-dualscreen/releases/download/v0.6.0/pokemon-emerald-dualscreen-v0.6.0.apk",
       size: "9.2 MB",
     },

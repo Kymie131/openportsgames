@@ -51,10 +51,9 @@ export const otogiMythOfDemonsRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows installer",
+      "label": "Windows",
       "url": "https://github.com/Guuzzeji/otogi-xunchain/releases/download/v0.7.0/otogi-xunchain-setup.exe",
-      "note": "Windows · installer"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/otogi-myth-of-demons-recomp.png",

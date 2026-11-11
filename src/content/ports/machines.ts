@@ -23,24 +23,14 @@ export const Machines: Port = {
   summaryEs: "machines es un videojuego de acción y aventura en 1999.",
   downloads: [
     {
-      label: "machines-win64-editor-wfw-20260911",
-      url: "https://github.com/WiredForWar/machines/releases/download/v1.7.5/machines-win64-editor-wfw-20260911.7z",
-      size: "2.6 MB",
-    },
-    {
-      label: "machines-win64-wfw-20260902",
+      label: "Windows",
       url: "https://github.com/WiredForWar/machines/releases/download/v1.7.5/machines-win64-wfw-20260902.7z",
       size: "10.3 MB",
     },
     {
-      label: "the-bird-001",
-      url: "https://github.com/WiredForWar/machines/releases/download/v1.7.5/the-bird-001.7z",
-      size: "1 KB",
-    },
-    {
-      label: "the-dragon-001",
-      url: "https://github.com/WiredForWar/machines/releases/download/v1.7.5/the-dragon-001.7z",
-      size: "1 KB",
+      label: "Windows",
+      url: "https://github.com/WiredForWar/machines/releases/download/v1.7.5/machines-win64-editor-wfw-20260911.7z",
+      size: "2.6 MB",
     },
   ],
   cover: {

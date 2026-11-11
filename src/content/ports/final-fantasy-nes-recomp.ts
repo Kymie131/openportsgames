@@ -51,10 +51,9 @@ export const finalFantasyNesRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/bigevilmods/FInal-Fantasy-NSE-Recomp/releases/download/release/FF-NES-Windows-x64.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/final-fantasy-nes-recomp.jpg",

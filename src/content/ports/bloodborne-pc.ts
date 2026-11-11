@@ -28,14 +28,14 @@ export const bloodbornePc: Port = {
     "Port de runtime nativo de Bloodborne (PS4, CUSA03173 v1.09). El código x86-64 del propio juego corre directo en la CPU sin emulación, un runtime pequeño escrito para este único título reemplaza las librerías del sistema de PS4 y los gráficos se traducen a Vulkan con un renderizador derivado de shadPS4 (el proyecto no está afiliado al equipo de shadPS4). No es una decompilación ni un emulador general, y no incluye archivos del juego: debes aportar tu propio volcado descifrado. La build de Linux es la de referencia; existen ports comunitarios para Windows. Sigue en desarrollo y sin verificar de principio a fin.",
   downloads: [
     {
+      label: "Linux",
+      url: "https://github.com/deadinside28/bloodborne_pc/releases/download/0.7/Bloodborne-bbport-0.7-x86_64.AppImage",
+      size: "404.2 MB",
+    },
+    {
       label: "Windows",
       url: "https://github.com/deadinside28/bloodborne_pc/releases/download/0.7/Bloodborne-bbport-0.7-windows-x64.zip",
       size: "171.3 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/deadinside28/bloodborne_pc/releases/download/0.7/Bloodborne-bbport-0.7-x86_64.AppImage",
-      size: "404.2 MB",
     },
   ],
   cover: {

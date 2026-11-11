@@ -44,14 +44,14 @@ export const pilotwings64Recomp: Port = {
     "Recompilación estática de Pilotwings 64 con N64Recomp; el jugador aporta su propio cartucho obtenido legalmente. El repositorio describe el port como programado por IA, de ahí la declaración de IA.",
   downloads: [
     {
-      label: "Pilotwings64Recomp-0.1.1-linux-x86_64",
-      url: "https://github.com/danielgomesvieira2000/pilotwings-64-recomp/releases/download/v0.1.1/Pilotwings64Recomp-0.1.1-linux-x86_64.tar.gz",
-      size: "5.8 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/danielgomesvieira2000/pilotwings-64-recomp/releases/download/v0.1.1/Pilotwings64Recomp-0.1.1-windows-x64.zip",
       size: "16.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/danielgomesvieira2000/pilotwings-64-recomp/releases/download/v0.1.1/Pilotwings64Recomp-0.1.1-linux-x86_64.tar.gz",
+      size: "5.8 MB",
     },
   ],
   cover: {

@@ -22,7 +22,7 @@ export const halo1TouchControlFork: Port = {
   originalSystems: ["Xbox"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/FulGerNet/halo-ce-android/releases/download/4.0/Halo-CE-build-4195.apk",
       size: "36.2 MB",
     },

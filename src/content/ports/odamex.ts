@@ -45,24 +45,24 @@ export const odamexPort: Port = {
   ],
   downloads: [
     {
-      label: "macOS DMG",
-      url: "https://github.com/odamex/odamex/releases/download/12.3.0/odamex-macos-12.3.0.dmg",
-      size: "41.3 MB",
-    },
-    {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/odamex/odamex/releases/download/12.3.0/odamex-win-12.3.0.exe",
       size: "41.9 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/odamex/odamex/releases/download/12.3.0/odamex-win32-12.3.0.zip",
-      size: "19.1 MB",
+      label: "macOS",
+      url: "https://github.com/odamex/odamex/releases/download/12.3.0/odamex-macos-12.3.0.dmg",
+      size: "41.3 MB",
     },
     {
       label: "Windows",
       url: "https://github.com/odamex/odamex/releases/download/12.3.0/odamex-win64-12.3.0.zip",
       size: "32.2 MB",
+    },
+    {
+      label: "Windows x86",
+      url: "https://github.com/odamex/odamex/releases/download/12.3.0/odamex-win32-12.3.0.zip",
+      size: "19.1 MB",
     },
   ],
   cover: {

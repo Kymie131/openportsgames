@@ -23,7 +23,7 @@ export const mojoLauncher: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/MojoLauncher/MojoLauncher/releases/download/justicia-h1/MojoLauncher-release.apk",
       size: "87.0 MB",
     },

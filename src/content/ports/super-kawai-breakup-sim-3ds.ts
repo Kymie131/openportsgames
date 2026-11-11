@@ -25,7 +25,7 @@ export const superKawaiBreakupSim3ds: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "BreakupSimulator3DS",
+      label: "3ds",
       url: "https://github.com/Dangerbites/BreakupSimulator3DS/releases/download/Major/BreakupSimulator3DS.zip",
       size: "29.6 MB",
     },

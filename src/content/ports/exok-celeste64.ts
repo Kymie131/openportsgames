@@ -25,31 +25,6 @@ export const exokCeleste64: Port = {
   summaryEs: "Celeste 64: Fragments of the Mountain es un videojuego de plataformas en 2024.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/EXOK/Celeste64/releases/download/v1.1.1/Celeste64-v1.1.1-Linux-arm.zip",
-      size: "29.2 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/EXOK/Celeste64/releases/download/v1.1.1/Celeste64-v1.1.1-Linux-arm64.zip",
-      size: "29.9 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/EXOK/Celeste64/releases/download/v1.1.1/Celeste64-v1.1.1-Linux-x64.zip",
-      size: "30.9 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/EXOK/Celeste64/releases/download/v1.1.1/Celeste64-v1.1.1-macOS-arm64.zip",
-      size: "29.4 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/EXOK/Celeste64/releases/download/v1.1.1/Celeste64-v1.1.1-macOS-x64.zip",
-      size: "29.9 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/EXOK/Celeste64/releases/download/v1.1.1/Celeste64-v1.1.1-Windows-x64.zip",
       size: "28.3 MB",

@@ -27,24 +27,24 @@ export const finalFantasyIxRecomp: Port = {
     "Recompilación de Final Fantasy IX (PS1, USA SLUS-01251) con PSXRecomp y el lanzador recomp-ui. Requiere tu propio disco y una BIOS europea SCPH-5502/5552, y el asistente compila el juego localmente. Por ahora es la candidata 0.1.0, sin aceptación de gameplay cerrada.",
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/alexbeavs-ps1-ports/final-fantasy-ix-recomp/releases/download/v0.1.1/final-fantasy-ix-0.1.1-windows-x64.zip",
+      size: "25.0 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/alexbeavs-ps1-ports/final-fantasy-ix-recomp/releases/download/v0.1.1/final-fantasy-ix-0.1.1-linux-x64.zip",
       size: "23.1 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/alexbeavs-ps1-ports/final-fantasy-ix-recomp/releases/download/v0.1.1/final-fantasy-ix-0.1.1-macos-arm64.zip",
-      size: "21.9 MB",
-    },
-    {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/alexbeavs-ps1-ports/final-fantasy-ix-recomp/releases/download/v0.1.1/final-fantasy-ix-0.1.1-macos-x64.zip",
       size: "22.5 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/alexbeavs-ps1-ports/final-fantasy-ix-recomp/releases/download/v0.1.1/final-fantasy-ix-0.1.1-windows-x64.zip",
-      size: "25.0 MB",
+      label: "macOS arm64",
+      url: "https://github.com/alexbeavs-ps1-ports/final-fantasy-ix-recomp/releases/download/v0.1.1/final-fantasy-ix-0.1.1-macos-arm64.zip",
+      size: "21.9 MB",
     },
   ],
   cover: {

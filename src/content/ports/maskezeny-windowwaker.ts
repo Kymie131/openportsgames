@@ -23,7 +23,7 @@ export const maskezenyWindowwaker: Port = {
   originalSystems: ["Nintendo GameCube"],
   downloads: [
     {
-      label: "SwitchWaker-Windows-x64",
+      label: "Switch",
       url: "https://github.com/MaskeZenY/WindowWaker/releases/download/v1.0.0-win/SwitchWaker-Windows-x64.zip",
       size: "21.9 MB",
     },

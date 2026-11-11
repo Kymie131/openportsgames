@@ -23,7 +23,7 @@ export const sunpad: Port = {
   related: ["super-mario-sunshine-pc","super-mario-sunshine-android"],
   downloads: [
     {
-      label: "iOS IPA",
+      label: "iOS",
       url: "https://github.com/chrissotraidis/sunpad/releases/download/v0.3.1/SunPad-v0.3.1-ios-unsigned.ipa",
       size: "12.3 MB",
     },

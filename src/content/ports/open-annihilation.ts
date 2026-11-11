@@ -25,19 +25,9 @@ export const OpenAnnihilation: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/open-annihilation/open-annihilation/releases/download/v0.9.0/open-annihilation-v0.9.0-linux-arm64.zip",
-      size: "25.3 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/open-annihilation/open-annihilation/releases/download/v0.9.0/open-annihilation-v0.9.0-linux-armhf.zip",
-      size: "22.2 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/open-annihilation/open-annihilation/releases/download/v0.9.0/open-annihilation-v0.9.0-linux-x86_64.zip",
-      size: "26.2 MB",
+      label: "macOS",
+      url: "https://github.com/open-annihilation/open-annihilation/releases/download/v0.9.0/open-annihilation-v0.9.0-macos-universal.zip",
+      size: "37.2 MB",
     },
     {
       label: "macOS",
@@ -45,14 +35,19 @@ export const OpenAnnihilation: Port = {
       size: "37.1 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/open-annihilation/open-annihilation/releases/download/v0.9.0/open-annihilation-v0.9.0-macos-universal.zip",
-      size: "37.2 MB",
+      label: "Linux x64",
+      url: "https://github.com/open-annihilation/open-annihilation/releases/download/v0.9.0/open-annihilation-v0.9.0-linux-x86_64.zip",
+      size: "26.2 MB",
     },
     {
-      label: "open-annihilation-v0.9.0-steam-deck",
-      url: "https://github.com/open-annihilation/open-annihilation/releases/download/v0.9.0/open-annihilation-v0.9.0-steam-deck.zip",
-      size: "27.3 MB",
+      label: "Linux arm64",
+      url: "https://github.com/open-annihilation/open-annihilation/releases/download/v0.9.0/open-annihilation-v0.9.0-linux-arm64.zip",
+      size: "25.3 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/open-annihilation/open-annihilation/releases/download/v0.9.0/open-annihilation-v0.9.0-linux-armhf.zip",
+      size: "22.2 MB",
     },
   ],
   cover: {

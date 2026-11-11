@@ -27,19 +27,19 @@ export const regaidenRecomp: Port = {
     "Recompilación estática de Resident Evil Gaiden (Game Boy Color) a C/C++ nativo, con widescreen, iluminación 2D dinámica y soporte de texturas HD. Necesita tus propios datos del juego.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/sergiomanzur/regaiden-recomp/releases/download/v0.4.2/Resident_Evil_Gaiden_Recomp_v0.4.2_Android.apk",
       size: "70.4 MB",
-    },
-    {
-      label: "Android",
-      url: "https://github.com/sergiomanzur/regaiden-recomp/releases/download/v0.4.2/Resident_Evil_Gaiden_Recomp_v0.4.2_Android.zip",
-      size: "27.3 MB",
     },
     {
       label: "Windows",
       url: "https://github.com/sergiomanzur/regaiden-recomp/releases/download/v0.4.2/Resident_Evil_Gaiden_Recomp_v0.4.2_Windows.zip",
       size: "32.9 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/sergiomanzur/regaiden-recomp/releases/download/v0.4.2/Resident_Evil_Gaiden_Recomp_v0.4.2_Android.zip",
+      size: "27.3 MB",
     },
   ],
   cover: {

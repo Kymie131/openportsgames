@@ -22,11 +22,6 @@ export const crashTwinsanityPc: Port = {
   originalSystems: ["PlayStation 2"],
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/GioPixelGH/Crash-Twinsanity-Windows/releases/download/v1.2.0/Crash-Twinsanity-Linux-x86_64.AppImage",
-      size: "13.2 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/GioPixelGH/Crash-Twinsanity-Windows/releases/download/v1.2.0/Crash-Twinsanity-Windows.zip",
       size: "14.3 MB",

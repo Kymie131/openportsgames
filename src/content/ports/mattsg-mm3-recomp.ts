@@ -26,7 +26,7 @@ export const mattsgMm3Recomp: Port = {
   notesEs: "Midtown Madness 3: recompilación estática de MattSG para Windows. Aporta tu propia copia del juego.",
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/MattSG/mm3-recomp/releases/download/v2026.11.01.5.1/mm3-builder-windows.exe",
       size: "11.3 MB",
     },

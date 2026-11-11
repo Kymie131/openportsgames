@@ -25,34 +25,34 @@ export const RomanovsVengeance: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Windows",
+      label: "macOS",
+      url: "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20241215/Romanovs.Vengeance-playtest-20241215.dmg",
+      size: "177.5 MB",
+    },
+    {
+      label: "Windows x64",
       url: "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20241215/Romanovs.Vengeance-playtest-20241215-x64-winportable.zip",
       size: "135.9 MB",
     },
     {
-      label: "Windows EXE",
-      url: "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20241215/Romanovs.Vengeance-playtest-20241215-x64.exe",
-      size: "106.9 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20241215/Romanovs.Vengeance-playtest-20241215-x86-winportable.zip",
-      size: "132.9 MB",
-    },
-    {
-      label: "Windows EXE",
-      url: "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20241215/Romanovs.Vengeance-playtest-20241215-x86.exe",
-      size: "104.3 MB",
-    },
-    {
-      label: "Linux AppImage",
+      label: "Linux",
       url: "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20241215/Romanovs.Vengeance-playtest-20241215-x86_64.AppImage",
       size: "134.7 MB",
     },
     {
-      label: "macOS DMG",
-      url: "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20241215/Romanovs.Vengeance-playtest-20241215.dmg",
-      size: "177.5 MB",
+      label: "Windows x86",
+      url: "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20241215/Romanovs.Vengeance-playtest-20241215-x86-winportable.zip",
+      size: "132.9 MB",
+    },
+    {
+      label: "Windows x64",
+      url: "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20241215/Romanovs.Vengeance-playtest-20241215-x64.exe",
+      size: "106.9 MB",
+    },
+    {
+      label: "Windows x86",
+      url: "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20241215/Romanovs.Vengeance-playtest-20241215-x86.exe",
+      size: "104.3 MB",
     },
   ],
   cover: {

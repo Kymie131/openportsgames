@@ -29,16 +29,6 @@ export const sonic1Forever: Port = {
       url: "https://github.com/ElspethThePict/S1Forever/releases/download/1.5.1/SonicForever_1.5.1_Android.zip",
       size: "18.6 MB",
     },
-    {
-      label: "Switch",
-      url: "https://github.com/ElspethThePict/S1Forever/releases/download/1.5.1/SonicForever_1.5.1_Switch.zip",
-      size: "18.8 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/ElspethThePict/S1Forever/releases/download/1.5.1/SonicForever_1.5.1_Windows.zip",
-      size: "17.1 MB",
-    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/generated/sonic-1-forever.svg",

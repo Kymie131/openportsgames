@@ -27,24 +27,14 @@ export const gen1recomp: Port = {
     "Recreación nativa en Lua/LÖVE2D de los Pokémon de primera generación, que también cubre generaciones posteriores. Compila para escritorio y móvil y usa tus propios datos del juego.",
   downloads: [
     {
-      label: "iOS IPA",
-      url: "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.2/gen1recomp%2B%2B-0.4.2-ios.ipa",
-      size: "42.7 MB",
+      label: "macOS",
+      url: "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.2/gen1recomp-0.4.2-ps4.pkg",
+      size: "84.8 MB",
     },
     {
-      label: "Android APK",
-      url: "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.2/gen1recomp-0.4.2-android.apk",
-      size: "44.4 MB",
-    },
-    {
-      label: "Linux AppImage",
+      label: "Linux arm64",
       url: "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.2/gen1recomp-0.4.2-linux-arm64.AppImage",
       size: "59.9 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.2/gen1recomp-0.4.2-linux-x86_64.AppImage",
-      size: "37.6 MB",
     },
     {
       label: "macOS",
@@ -52,9 +42,19 @@ export const gen1recomp: Port = {
       size: "47.4 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.2/gen1recomp-0.4.2-ps4.pkg",
-      size: "84.8 MB",
+      label: "Android",
+      url: "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.2/gen1recomp-0.4.2-android.apk",
+      size: "44.4 MB",
+    },
+    {
+      label: "iOS",
+      url: "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.2/gen1recomp%2B%2B-0.4.2-ios.ipa",
+      size: "42.7 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.2/gen1recomp-0.4.2-linux-x86_64.AppImage",
+      size: "37.6 MB",
     },
   ],
   cover: {

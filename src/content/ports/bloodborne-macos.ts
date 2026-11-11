@@ -23,13 +23,13 @@ export const bloodborneMacos: Port = {
   downloads: [
     {
       label: "macOS",
-      url: "https://github.com/Wooloomooloo2/bloodborne_mac_port/releases/download/mac-v0.5.15/Bloodborne-macOS-0.5.15.zip",
-      size: "46.5 MB",
+      url: "https://github.com/Wooloomooloo2/bloodborne_mac_port/releases/download/mac-v0.5.15/pkg_extract-macOS.zip",
+      size: "553 KB",
     },
     {
       label: "macOS",
-      url: "https://github.com/Wooloomooloo2/bloodborne_mac_port/releases/download/mac-v0.5.15/pkg_extract-macOS.zip",
-      size: "553 KB",
+      url: "https://github.com/Wooloomooloo2/bloodborne_mac_port/releases/download/mac-v0.5.15/Bloodborne-macOS-0.5.15.zip",
+      size: "46.5 MB",
     },
   ],
   cover: {

@@ -27,34 +27,29 @@ export const rocketR: Port = {
     "Recompilación nativa de Rocket: Robot on Wheels (Nintendo 64). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
   downloads: [
     {
-      label: "Android APK",
-      url: "https://github.com/ThatGuyMcd/Rocket-R/releases/download/v.1.0.1/Rocket-R-1.0.1-Android-arm64-v8a.apk",
-      size: "9.9 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/ThatGuyMcd/Rocket-R/releases/download/v.1.0.1/Rocket-R-1.0.1-Linux-aarch64-Portable.tar.gz",
-      size: "19.4 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/ThatGuyMcd/Rocket-R/releases/download/v.1.0.1/Rocket-R-1.0.1-Linux-aarch64.AppImage",
-      size: "19.9 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/ThatGuyMcd/Rocket-R/releases/download/v.1.0.1/Rocket-R-1.0.1-Linux-x86_64-Portable.tar.gz",
-      size: "20.2 MB",
-    },
-    {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/ThatGuyMcd/Rocket-R/releases/download/v.1.0.1/Rocket-R-1.0.1-Linux-x86_64-SteamDeck.tar.gz",
       size: "22.0 MB",
     },
     {
-      label: "Linux AppImage",
+      label: "Linux x64",
       url: "https://github.com/ThatGuyMcd/Rocket-R/releases/download/v.1.0.1/Rocket-R-1.0.1-Linux-x86_64.AppImage",
       size: "20.6 MB",
+    },
+    {
+      label: "Linux x64",
+      url: "https://github.com/ThatGuyMcd/Rocket-R/releases/download/v.1.0.1/Rocket-R-1.0.1-Linux-x86_64-Portable.tar.gz",
+      size: "20.2 MB",
+    },
+    {
+      label: "Linux arm64",
+      url: "https://github.com/ThatGuyMcd/Rocket-R/releases/download/v.1.0.1/Rocket-R-1.0.1-Linux-aarch64.AppImage",
+      size: "19.9 MB",
+    },
+    {
+      label: "Linux arm64",
+      url: "https://github.com/ThatGuyMcd/Rocket-R/releases/download/v.1.0.1/Rocket-R-1.0.1-Linux-aarch64-Portable.tar.gz",
+      size: "19.4 MB",
     },
   ],
   cover: {

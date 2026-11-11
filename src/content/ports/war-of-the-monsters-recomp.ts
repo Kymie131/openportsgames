@@ -26,13 +26,13 @@ export const warOfTheMonstersRecomp: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/yanm1103/War_of_the_Monsters_recomp/releases/download/v0.2.2/WotM-v0.2.2-win64-compat.zip",
-      size: "89.7 MB",
+      url: "https://github.com/yanm1103/War_of_the_Monsters_recomp/releases/download/v0.2.2/WotM-v0.2.2-win64.zip",
+      size: "89.8 MB",
     },
     {
       label: "Windows",
-      url: "https://github.com/yanm1103/War_of_the_Monsters_recomp/releases/download/v0.2.2/WotM-v0.2.2-win64.zip",
-      size: "89.8 MB",
+      url: "https://github.com/yanm1103/War_of_the_Monsters_recomp/releases/download/v0.2.2/WotM-v0.2.2-win64-compat.zip",
+      size: "89.7 MB",
     },
   ],
   cover: {

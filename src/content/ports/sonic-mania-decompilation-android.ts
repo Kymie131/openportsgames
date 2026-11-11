@@ -28,21 +28,6 @@ export const sonicManiaDecompilationAndroid: Port = {
       url: "https://github.com/RSDKModding/RSDKv5-Decompilation/releases/download/v1.1.1/v5-android.zip",
       size: "15.3 MB",
     },
-    {
-      label: "Linux",
-      url: "https://github.com/RSDKModding/RSDKv5-Decompilation/releases/download/v1.1.1/v5-linux.zip",
-      size: "1.6 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/RSDKModding/RSDKv5-Decompilation/releases/download/v1.1.1/v5-windows-x64.zip",
-      size: "1.5 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/RSDKModding/RSDKv5-Decompilation/releases/download/v1.1.1/v5-windows.zip",
-      size: "1.3 MB",
-    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/generated/sonic-mania-plus.svg",

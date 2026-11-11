@@ -23,7 +23,7 @@ export const zeldaWwhdRecompAndroid: Port = {
   related: ["zeldawwhdrecompandroid","wind-waker-hd-android-plus","switch-waker-hd"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/GreenNaugahyde/ZeldaWWHDRecompAndroid/releases/download/v0.9.9c/tloz_tww_hd_recomp-0.9.9c.apk",
       size: "73.3 MB",
     },

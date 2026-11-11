@@ -23,11 +23,6 @@ export const jackieChanStuntmasterRechan: Port = {
   related: ["jackie-chan-stuntmaster-recomp"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/SilverwireGames/ReChan/releases/download/v1.0.1/rechan-linux64.tar.gz",
-      size: "7.1 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/SilverwireGames/ReChan/releases/download/v1.0.1/rechan-win64.zip",
       size: "7.5 MB",

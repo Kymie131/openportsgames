@@ -23,24 +23,9 @@ export const mdkAndroid: Port = {
   originalSystems: ["Windows"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/nautilusbits/mdk-sdl/releases/download/v1.2.6/mdk-android.apk",
       size: "18.3 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/nautilusbits/mdk-sdl/releases/download/v1.2.6/mdk-linux-arm64.tar.gz",
-      size: "4.7 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/nautilusbits/mdk-sdl/releases/download/v1.2.6/mdk-linux-x64.tar.gz",
-      size: "4.9 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/nautilusbits/mdk-sdl/releases/download/v1.2.6/mdk-osx-arm64.zip",
-      size: "4.1 MB",
     },
     {
       label: "Windows",

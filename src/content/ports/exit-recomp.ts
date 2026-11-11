@@ -25,24 +25,14 @@ export const exitRecomp: Port = {
   notesEs: "Recompilación estática de EXIT (Xbox 360) basada en ReXGlue. Requiere tu propia copia.",
   downloads: [
     {
-      label: "EXIT1-Recomp",
-      url: "https://github.com/FluffyQuack/ReXGlue-EXIT/releases/download/v0.9.1/EXIT1-Recomp.zip",
-      size: "6.8 MB",
-    },
-    {
-      label: "EXIT2-Recomp",
+      label: "Windows",
       url: "https://github.com/FluffyQuack/ReXGlue-EXIT/releases/download/v0.9.1/EXIT2-Recomp.zip",
       size: "7.2 MB",
     },
     {
-      label: "Linux",
-      url: "https://github.com/FluffyQuack/ReXGlue-EXIT/releases/download/v0.9.1/rexglue-sdk-0.9.1-linux-amd64.zip",
-      size: "142.1 MB",
-    },
-    {
       label: "Windows",
-      url: "https://github.com/FluffyQuack/ReXGlue-EXIT/releases/download/v0.9.1/rexglue-sdk-0.9.1-win-amd64.zip",
-      size: "41.3 MB",
+      url: "https://github.com/FluffyQuack/ReXGlue-EXIT/releases/download/v0.9.1/EXIT1-Recomp.zip",
+      size: "6.8 MB",
     },
   ],
   cover: {

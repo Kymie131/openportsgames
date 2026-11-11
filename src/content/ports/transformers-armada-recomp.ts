@@ -53,13 +53,11 @@ export const transformersArmadaRecomp: Port = {
     {
       "label": "Windows x64",
       "url": "https://github.com/kayliox/transformers-armada-recomp/releases/download/setup-v0.4.6/TransformersArmada-v0.4.6-Windows-x64.zip",
-      "note": "Windows Â· x64"
     },
     {
-      "label": "Windows installer",
+      "label": "Windows",
       "url": "https://github.com/kayliox/transformers-armada-recomp/releases/download/setup-v0.4.6/tfa-setup.exe",
-      "note": "Windows Â· installer"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/transformers-armada-recomp.png",

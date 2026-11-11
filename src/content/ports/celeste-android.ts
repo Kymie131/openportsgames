@@ -27,7 +27,7 @@ export const celesteAndroid: Port = {
     "Port nativo para Android de Celeste que ejecuta tu propia copia de PC, construido con .NET, FNA y SDL3 y renderizado con Vulkan. Incluye un lanzador para importar el juego.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/BelmanteGu/CelesteAndroid/releases/download/v1.0.1/CelesteAndroid-1.0.1.apk",
       size: "23.8 MB",
     },

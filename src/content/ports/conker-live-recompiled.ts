@@ -51,10 +51,9 @@ export const conkerLiveRecompiled: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/cdetv/conker-live-recompiled/releases/download/v0.2.4/conker-live-recompiled-0.2.4.zip",
-      "note": "Windows · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/conker-live-recompiled.png",

@@ -23,11 +23,6 @@ export const grichesPs5Mariogalaxy: Port = {
   originalSystems: ["Wii"],
   downloads: [
     {
-      label: "macOS",
-      url: "https://github.com/griches/PS5_MarioGalaxy/releases/download/v1.1.0/SuperMarioGalaxy-PS5-Builder-1.1.0-mac.zip",
-      size: "210.7 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/griches/PS5_MarioGalaxy/releases/download/v1.1.0/SuperMarioGalaxy-PS5-Builder-1.1.0-windows.zip",
       size: "174.0 MB",

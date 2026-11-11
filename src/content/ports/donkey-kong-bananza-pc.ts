@@ -32,16 +32,6 @@ export const donkeyKongBananzaPc: Port = {
   warningEs: "Alfa temprana: el juego se cierra tras unos minutos y faltan muchos efectos.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/Lucas-blip-png/dkb-pc-recomp/releases/download/v0.2.0/DKB-Setup-0.2.0%2B33f8bbc-linux-x86_64.tar.gz",
-      size: "2.6 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/Lucas-blip-png/dkb-pc-recomp/releases/download/v0.2.0/DKB-Setup-0.2.0%2B33f8bbc-macos-arm64.zip",
-      size: "2.9 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/Lucas-blip-png/dkb-pc-recomp/releases/download/v0.2.0/DKB-Setup-0.2.0%2B33f8bbc-windows.zip",
       size: "123.1 MB",

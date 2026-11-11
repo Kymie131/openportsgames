@@ -22,34 +22,9 @@ export const pvzPortable: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/wszqkzqk/PvZ-Portable/releases/download/0.2.7/pvz-portable-android-arm64-v8a.apk",
       size: "12.4 MB",
-    },
-    {
-      label: "iOS IPA",
-      url: "https://github.com/wszqkzqk/PvZ-Portable/releases/download/0.2.7/pvz-portable-ios-arm64.ipa",
-      size: "4.1 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/wszqkzqk/PvZ-Portable/releases/download/0.2.7/pvz-portable-macos-aarch64.zip",
-      size: "3.5 MB",
-    },
-    {
-      label: "Android",
-      url: "https://github.com/wszqkzqk/PvZ-Portable/releases/download/0.2.7/pvz-portable-wasm.zip",
-      size: "2.2 MB",
-    },
-    {
-      label: "Windows EXE",
-      url: "https://github.com/wszqkzqk/PvZ-Portable/releases/download/0.2.7/pvz-portable-windows-msvc-x64-static.exe",
-      size: "7.6 MB",
-    },
-    {
-      label: "Windows EXE",
-      url: "https://github.com/wszqkzqk/PvZ-Portable/releases/download/0.2.7/pvz-portable-windows-msvc-x86-static.exe",
-      size: "6.7 MB",
     },
   ],
   cover: {

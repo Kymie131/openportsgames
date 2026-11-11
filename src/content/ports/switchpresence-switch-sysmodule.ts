@@ -27,13 +27,13 @@ export const switchpresenceSwitchSysmodule: Port = {
   downloads: [
     {
       label: "Switch",
-      url: "https://github.com/Random06457/SwitchPresence/releases/download/1.0.3/client.zip",
-      size: "1.7 MB",
+      url: "https://github.com/Random06457/SwitchPresence/releases/download/1.0.3/server.zip",
+      size: "39 KB",
     },
     {
       label: "Switch",
-      url: "https://github.com/Random06457/SwitchPresence/releases/download/1.0.3/server.zip",
-      size: "39 KB",
+      url: "https://github.com/Random06457/SwitchPresence/releases/download/1.0.3/client.zip",
+      size: "1.7 MB",
     },
   ],
   cover: {

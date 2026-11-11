@@ -28,26 +28,6 @@ export const spaceChannel5Recomp: Port = {
     "Ficha comunitaria de PortsDR; no hay repositorio ni release públicos. Hace falta el juego original.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/ZoomiesZaggy/Space-Channel-5/releases/download/v0.1.0-preview.2/SpaceChannel5-v0.1.0-preview.2-Linux-ARM64.tar.gz",
-      size: "184.2 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/ZoomiesZaggy/Space-Channel-5/releases/download/v0.1.0-preview.2/SpaceChannel5-v0.1.0-preview.2-Linux-X64.tar.gz",
-      size: "229.3 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/ZoomiesZaggy/Space-Channel-5/releases/download/v0.1.0-preview.2/SpaceChannel5-v0.1.0-preview.2-macOS-ARM64.zip",
-      size: "168.9 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/ZoomiesZaggy/Space-Channel-5/releases/download/v0.1.0-preview.2/SpaceChannel5-v0.1.0-preview.2-macOS-X64.zip",
-      size: "219.7 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/ZoomiesZaggy/Space-Channel-5/releases/download/v0.1.0-preview.2/SpaceChannel5-v0.1.0-preview.2-Windows-X64.zip",
       size: "232.8 MB",

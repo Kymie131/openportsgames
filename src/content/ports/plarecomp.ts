@@ -50,15 +50,9 @@ export const plarecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows installer",
+      "label": "Windows",
       "url": "https://github.com/artesanalintelligence/PLARecomp/releases/download/v0.1.6/PLARecompSetup.exe",
-      "note": "Windows · installer"
     },
-    {
-      "label": "Exporter source",
-      "url": "https://github.com/artesanalintelligence/PLARecomp/releases/download/v0.1.6/plarecomp-exporter-source-0.1.6.tar.xz",
-      "note": "Source · exporter"
-    }
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/plarecomp.jpg",

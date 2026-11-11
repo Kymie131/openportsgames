@@ -22,7 +22,7 @@ export const tenkaichi3decompAndroid: Port = {
   originalSystems: ["PlayStation 2"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/dfdx047/Tenkaichi3DecompAndroid/releases/download/android-v1.0.1/DragonRage-1.0.1.apk",
       size: "28.0 MB",
     },

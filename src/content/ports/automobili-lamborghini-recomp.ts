@@ -27,14 +27,9 @@ export const automobiliLamborghiniRecomp: Port = {
     "Recompilación estática de Automobili Lamborghini (N64) con N64Recomp y el renderizador RT64. Requiere una copia del juego.",
   downloads: [
     {
-      label: "automobili-lamborghini-rt64-hd-metadata",
-      url: "https://github.com/alondero/automobililamborghini-recomp/releases/download/v0.11.0/automobili-lamborghini-rt64-hd-metadata.zip",
-      size: "28 KB",
-    },
-    {
-      label: "Android APK",
-      url: "https://github.com/alondero/automobililamborghini-recomp/releases/download/v0.11.0/lamborghini-recomp-android-arm64.apk",
-      size: "7.7 MB",
+      label: "Windows",
+      url: "https://github.com/alondero/automobililamborghini-recomp/releases/download/v0.11.0/lamborghini-recomp-windows-x64.zip",
+      size: "35.7 MB",
     },
     {
       label: "Linux",
@@ -42,9 +37,9 @@ export const automobiliLamborghiniRecomp: Port = {
       size: "23.0 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/alondero/automobililamborghini-recomp/releases/download/v0.11.0/lamborghini-recomp-windows-x64.zip",
-      size: "35.7 MB",
+      label: "Android",
+      url: "https://github.com/alondero/automobililamborghini-recomp/releases/download/v0.11.0/lamborghini-recomp-android-arm64.apk",
+      size: "7.7 MB",
     },
   ],
   cover: {

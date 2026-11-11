@@ -25,21 +25,6 @@ export const sm35recompSm35recomp: Port = {
   summaryEs: "Super Mario Bros. 35 es un videojuego de plataformas competitivo online con elementos de battle royale. Fue desarrollado por Arika y publicado por Nintendo y estuvo disponible exclusivamente en el servicio on-line de Nintendo Switch desde el 1 de octubre de 2020 hasta su retiro de la plataforma el 1 de abril de 2021. Se creó para celebrar el 35.º aniversario de Super Mario Bros.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/sm35recomp/sm35recomp/releases/download/v0.4.0/SM35Recomp-linux-aarch64.tar.gz",
-      size: "100.0 MB",
-    },
-    {
-      label: "Linux",
-      url: "https://github.com/sm35recomp/sm35recomp/releases/download/v0.4.0/SM35Recomp-linux-x86_64.tar.gz",
-      size: "108.5 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/sm35recomp/sm35recomp/releases/download/v0.4.0/SM35Recomp-macos-arm64.zip",
-      size: "90.4 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/sm35recomp/sm35recomp/releases/download/v0.4.0/SM35Recomp-windows-x86_64.zip",
       size: "108.0 MB",

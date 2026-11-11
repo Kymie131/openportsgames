@@ -23,7 +23,7 @@ export const Zeldawwhdrecompandroid: Port = {
   related: ["wind-waker-hd-recomp", "wind-waker-recomp", "switch-waker-hd"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/SSunnKing/ZeldaWWHDRecompAndroid---ENHANCED/releases/download/1.7/ZeldaWWHD-Enhanced-v1.7.apk",
       size: "64.3 MB",
     },

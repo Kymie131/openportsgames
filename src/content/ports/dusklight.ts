@@ -45,34 +45,29 @@ export const dusklight: Port = {
     "Reimplementación desde cero de The Legend of Zelda: Twilight Princess que lee los recursos del juego de una copia volcada legalmente del disco. Ofrece builds oficiales para todas las plataformas del catálogo, con la de Android compilada para ARM64; algunas plataformas se soportan sin garantía.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/TwilitRealm/dusklight/releases/download/v2.0.3/Dusklight-v2.0.3-android-arm64.apk",
       size: "56.0 MB",
     },
     {
-      label: "iOS IPA",
-      url: "https://github.com/TwilitRealm/dusklight/releases/download/v2.0.3/Dusklight-v2.0.3-ios-arm64.ipa",
-      size: "35.3 MB",
-    },
-    {
-      label: "Linux AppImage",
-      url: "https://github.com/TwilitRealm/dusklight/releases/download/v2.0.3/Dusklight-v2.0.3-linux-arm64.AppImage",
-      size: "40.1 MB",
-    },
-    {
-      label: "Linux AppImage",
+      label: "Linux x64",
       url: "https://github.com/TwilitRealm/dusklight/releases/download/v2.0.3/Dusklight-v2.0.3-linux-x86_64.AppImage",
       size: "41.8 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/TwilitRealm/dusklight/releases/download/v2.0.3/Dusklight-v2.0.3-macos-arm64.zip",
-      size: "36.7 MB",
+      label: "Linux arm64",
+      url: "https://github.com/TwilitRealm/dusklight/releases/download/v2.0.3/Dusklight-v2.0.3-linux-arm64.AppImage",
+      size: "40.1 MB",
     },
     {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/TwilitRealm/dusklight/releases/download/v2.0.3/Dusklight-v2.0.3-macos-x86_64.zip",
       size: "38.3 MB",
+    },
+    {
+      label: "macOS arm64",
+      url: "https://github.com/TwilitRealm/dusklight/releases/download/v2.0.3/Dusklight-v2.0.3-macos-arm64.zip",
+      size: "36.7 MB",
     },
   ],
   cover: {

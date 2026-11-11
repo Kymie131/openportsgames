@@ -23,12 +23,12 @@ export const aceCombat5LinuxRecomp: Port = {
   related: ["ace-combat-5-recomp"],
   downloads: [
     {
-      label: "Linux",
+      label: "Linux x64",
       url: "https://github.com/Harold0777/eagle_five_recomp/releases/download/v0.3.0/ac5-recomp-v0.3.0-linux-x86_64.tar.gz",
       size: "15.6 MB",
     },
     {
-      label: "Linux AppImage",
+      label: "Linux x64",
       url: "https://github.com/Harold0777/eagle_five_recomp/releases/download/v0.3.0/EagleFive-x86_64.AppImage",
       size: "14.9 MB",
     },

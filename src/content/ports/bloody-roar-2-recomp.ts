@@ -28,14 +28,14 @@ export const bloodyRoar2Recomp: Port = {
     "Ficha comunitaria de PortsDR; no hay repositorio ni release públicos. Hace falta el juego original.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/novapowers0/BloodyRoar2Recomp/releases/download/v0.7.1/BloodyRoar2-linux-x64-0.7.1.zip",
-      size: "18.7 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/novapowers0/BloodyRoar2Recomp/releases/download/v0.7.1/BloodyRoar2-v0.7.1.zip",
       size: "19.7 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/novapowers0/BloodyRoar2Recomp/releases/download/v0.7.1/BloodyRoar2-linux-x64-0.7.1.zip",
+      size: "18.7 MB",
     },
   ],
   cover: {

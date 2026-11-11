@@ -27,21 +27,6 @@ export const starWarsMastersOfTerasKasiRecomp: Port = {
     "PortsDR lista esta recompilación sin repositorio público. Necesitas el juego para jugarla.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/TechnicallyComputers/MastersOfTerasKasiRecomp/releases/download/v0.3.17/motk-0.3.17-linux-x64.zip",
-      size: "49.8 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/TechnicallyComputers/MastersOfTerasKasiRecomp/releases/download/v0.3.17/motk-0.3.17-macos-arm64.zip",
-      size: "26.7 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/TechnicallyComputers/MastersOfTerasKasiRecomp/releases/download/v0.3.17/motk-0.3.17-macos-x64.zip",
-      size: "27.7 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/TechnicallyComputers/MastersOfTerasKasiRecomp/releases/download/v0.3.17/motk-0.3.17-windows-x64.zip",
       size: "28.5 MB",

@@ -25,16 +25,6 @@ export const ultimabearOpenchaos: Port = {
   summaryEs: "Urban Chaos es un videojuego de acción y aventura publicado por Eidos Interactive en 1999.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/UltimaBeaR/OpenChaos/releases/download/v1.0.2/OpenChaos-v1.0.2-linux-x64.zip",
-      size: "41.0 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/UltimaBeaR/OpenChaos/releases/download/v1.0.2/OpenChaos-v1.0.2-macos-arm64.zip",
-      size: "10.9 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/UltimaBeaR/OpenChaos/releases/download/v1.0.2/OpenChaos-v1.0.2-windows-x64.zip",
       size: "10.1 MB",

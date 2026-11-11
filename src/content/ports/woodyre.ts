@@ -22,24 +22,9 @@ export const woodyre: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/jjmhalew/WoodyRE/releases/download/v1.0.12/WoodyRE-v1.0.12-linux-x86_64.tar.gz",
-      size: "513 KB",
-    },
-    {
-      label: "Switch",
-      url: "https://github.com/jjmhalew/WoodyRE/releases/download/v1.0.12/WoodyRE-v1.0.12-switch.zip",
-      size: "2.8 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/jjmhalew/WoodyRE/releases/download/v1.0.12/WoodyRE-v1.0.12.apk",
       size: "4.9 MB",
-    },
-    {
-      label: "Android",
-      url: "https://github.com/jjmhalew/WoodyRE/releases/download/v1.0.12/WoodyRE-v1.0.12.zip",
-      size: "693 KB",
     },
   ],
   cover: {

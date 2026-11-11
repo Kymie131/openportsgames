@@ -51,10 +51,9 @@ export const miniNinjasSwitch: Port = {
   ],
   "downloads": [
     {
-      "label": "Nintendo Switch",
+      "label": "Switch",
       "url": "https://github.com/infriker/mini-ninjas-nx/releases/download/v1.0.8/mini-ninjas.nro",
-      "note": "Switch · homebrew"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/boxart/mini-ninjas-switch.jpg",

@@ -51,15 +51,13 @@ export const dissidia012Pc: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows installer",
+      "label": "Windows",
       "url": "https://github.com/VCKing101/Dissidia012-pc/releases/download/v0.6.0/Dissidia012-PC-Setup-0.6.0.exe",
-      "note": "Windows · installer"
     },
     {
-      "label": "Linux AppImage",
+      "label": "Linux",
       "url": "https://github.com/VCKing101/Dissidia012-pc/releases/download/v0.6.0/Dissidia012-Setup-0.6.0-x86_64.AppImage",
-      "note": "Linux · AppImage"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/dissidia012-pc.png",

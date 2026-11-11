@@ -25,7 +25,7 @@ export const blackAndroid: Port = {
   summaryEs: "Black puede referirse a:Black (Alabama), pueblo en el estado de Alabama (Estados Unidos). Black (banda), banda británica de música liderada por Colin Vearncombe (1962-2016), reconocido como Black. Black (canción de Pearl Jam), canción de Pearl Jam de 1991. Black (película de 2005), película india de 2005. Black (película de 2015) (2015), película belga dirigida por Adil El Arbi y Bilall Fallah. Black (videojuego), videojuego en primera persona de 2006. Black (serie de televisión), serie de televisión surcoreana de 2017. Black (mascota), mascota del mundial Canadá-Estados Unidos-México 2026.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/RanggaCasper/Black-Android/releases/download/v1.8.1/Black-1.8.1.apk",
       size: "21.3 MB",
     },

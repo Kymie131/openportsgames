@@ -22,7 +22,7 @@ export const cookieClicker3ds: Port = {
   originalSystems: ["Other"],
   downloads: [
     {
-      label: "ExtractToRoot",
+      label: "3ds",
       url: "https://github.com/GabrielRRussell/CookieCollector-3DS-/releases/download/v1.6.0/ExtractToRoot.zip",
       size: "99 KB",
     },

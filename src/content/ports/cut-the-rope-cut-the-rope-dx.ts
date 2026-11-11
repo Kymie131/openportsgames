@@ -25,12 +25,12 @@ export const CutTheRopeCutTheRopeDx: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "macOS DMG",
-      url: "https://github.com/yell0wsuit/cuttherope-dx/releases/download/v2.50.1/CutTheRopeDX-v2.50.1-macOS-arm64-avfoundation.dmg",
-      size: "297.2 MB",
+      label: "Linux",
+      url: "https://github.com/yell0wsuit/cuttherope-dx/releases/download/v2.50.1/CutTheRopeDX-v2.50.1-x86_64.AppImage",
+      size: "360.8 MB",
     },
     {
-      label: "macOS DMG",
+      label: "macOS arm64",
       url: "https://github.com/yell0wsuit/cuttherope-dx/releases/download/v2.50.1/CutTheRopeDX-v2.50.1-macOS-arm64-ffmpeg.dmg",
       size: "311.3 MB",
     },
@@ -40,9 +40,9 @@ export const CutTheRopeCutTheRopeDx: Port = {
       size: "307.5 MB",
     },
     {
-      label: "Linux AppImage",
-      url: "https://github.com/yell0wsuit/cuttherope-dx/releases/download/v2.50.1/CutTheRopeDX-v2.50.1-x86_64.AppImage",
-      size: "360.8 MB",
+      label: "macOS arm64",
+      url: "https://github.com/yell0wsuit/cuttherope-dx/releases/download/v2.50.1/CutTheRopeDX-v2.50.1-macOS-arm64-avfoundation.dmg",
+      size: "297.2 MB",
     },
   ],
   cover: {

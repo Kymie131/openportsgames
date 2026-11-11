@@ -27,14 +27,14 @@ export const tetrisphereRecomp: Port = {
     "Recompilación estática de Tetrisphere (N64) con N64Recomp y el renderizador RT64. Requiere una copia del juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/djultra64/Blocksphere/releases/download/v1.1.0/blocksphere-1.1.0-linux-x86_64.tar.gz",
-      size: "4.2 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/djultra64/Blocksphere/releases/download/v1.1.0/blocksphere-1.1.0-windows-x86_64.zip",
       size: "12.6 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/djultra64/Blocksphere/releases/download/v1.1.0/blocksphere-1.1.0-linux-x86_64.tar.gz",
+      size: "4.2 MB",
     },
   ],
   cover: {

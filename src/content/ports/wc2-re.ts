@@ -25,34 +25,34 @@ export const Wc2Re: Port = {
   summaryGenerated: true,
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/neuromancer/wc2-re/releases/download/v0.9.5/wc2-re-v0.9.5-win32-msvc410.zip",
+      size: "288 KB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/neuromancer/wc2-re/releases/download/v0.9.5/wc2-re-v0.9.5-linux-x86_64-sdl2.zip",
       size: "12.9 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/neuromancer/wc2-re/releases/download/v0.9.5/wc2-re-v0.9.5-macos-arm64-sdl2.zip",
-      size: "7.8 MB",
-    },
-    {
-      label: "macOS DMG",
+      label: "macOS arm64",
       url: "https://github.com/neuromancer/wc2-re/releases/download/v0.9.5/wc2-re-v0.9.5-macos-arm64.dmg",
       size: "8.6 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/neuromancer/wc2-re/releases/download/v0.9.5/wc2-re-v0.9.5-macos-x86_64-sdl2.zip",
-      size: "7.7 MB",
-    },
-    {
-      label: "macOS DMG",
+      label: "macOS x64",
       url: "https://github.com/neuromancer/wc2-re/releases/download/v0.9.5/wc2-re-v0.9.5-macos-x86_64.dmg",
       size: "8.6 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/neuromancer/wc2-re/releases/download/v0.9.5/wc2-re-v0.9.5-win32-msvc410.zip",
-      size: "288 KB",
+      label: "macOS arm64",
+      url: "https://github.com/neuromancer/wc2-re/releases/download/v0.9.5/wc2-re-v0.9.5-macos-arm64-sdl2.zip",
+      size: "7.8 MB",
+    },
+    {
+      label: "macOS x64",
+      url: "https://github.com/neuromancer/wc2-re/releases/download/v0.9.5/wc2-re-v0.9.5-macos-x86_64-sdl2.zip",
+      size: "7.7 MB",
     },
   ],
   cover: {

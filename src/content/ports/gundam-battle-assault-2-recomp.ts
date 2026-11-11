@@ -27,14 +27,14 @@ export const gundamBattleAssault2Recomp: Port = {
     "Recompilación en progreso de Gundam: Battle Assault 2 (PS1) con PSXRecomp. Aportas tu propio disco y usa OpenBIOS; todavía está en desarrollo.",
   downloads: [
     {
-      label: "Linux AppImage",
-      url: "https://github.com/omegakatana92/GundamBattleAssault2Recomp/releases/download/v1.0.0/Gundam_Battle_Assault_2_Recompiled-v1.0.0-linux-x86_64.AppImage",
-      size: "7.2 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/omegakatana92/GundamBattleAssault2Recomp/releases/download/v1.0.0/Gundam_Battle_Assault_2_Recomp_Windows.zip",
       size: "8.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/omegakatana92/GundamBattleAssault2Recomp/releases/download/v1.0.0/Gundam_Battle_Assault_2_Recompiled-v1.0.0-linux-x86_64.AppImage",
+      size: "7.2 MB",
     },
   ],
   cover: {

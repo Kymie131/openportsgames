@@ -24,7 +24,7 @@ export const bouncePsp: Port = {
   summaryEs: "Bounce puede referirse a:Bounce álbum de Bon Jovi. Bounce Tour, gira musical de Bon Jovi. Bounce (película), dirigida por Don Roos en el año 2000. «Bounce», canción de Raven-Symoné de 1999. «Bounce», canción de Calvin Harris de 2011. «Bounce», canción de Iggy Azalea de 2013. Bounce, videojuego del 2001.",
   downloads: [
     {
-      label: "BounceZero-v1.1",
+      label: "Psp",
       url: "https://github.com/amdray/bounce_zero/releases/download/v1.1/BounceZero-v1.1.zip",
       size: "161 KB",
     },

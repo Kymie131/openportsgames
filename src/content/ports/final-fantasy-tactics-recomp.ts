@@ -27,24 +27,24 @@ export const finalFantasyTacticsRecomp: Port = {
     "Recompilación de Final Fantasy Tactics (PS1, USA SCUS-94221) con PSXRecomp. Las releases son kits que generan y compilan el juego en tu equipo a partir de tu propio disco, con OpenBIOS por defecto. Primera versión 0.1.0, probada sobre todo en Windows.",
   downloads: [
     {
+      label: "Windows",
+      url: "https://github.com/NJH-1001/FinFanTacRecomp/releases/download/v0.1.0/FinFanTacRecomp-setup-0.1.0-windows-x64.zip",
+      size: "73.7 MB",
+    },
+    {
       label: "Linux",
       url: "https://github.com/NJH-1001/FinFanTacRecomp/releases/download/v0.1.0/FinFanTacRecomp-setup-0.1.0-linux-x64.zip",
       size: "47.3 MB",
     },
     {
-      label: "macOS",
-      url: "https://github.com/NJH-1001/FinFanTacRecomp/releases/download/v0.1.0/FinFanTacRecomp-setup-0.1.0-macos-arm64.zip",
-      size: "25.6 MB",
-    },
-    {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/NJH-1001/FinFanTacRecomp/releases/download/v0.1.0/FinFanTacRecomp-setup-0.1.0-macos-x64.zip",
       size: "26.0 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/NJH-1001/FinFanTacRecomp/releases/download/v0.1.0/FinFanTacRecomp-setup-0.1.0-windows-x64.zip",
-      size: "73.7 MB",
+      label: "macOS arm64",
+      url: "https://github.com/NJH-1001/FinFanTacRecomp/releases/download/v0.1.0/FinFanTacRecomp-setup-0.1.0-macos-arm64.zip",
+      size: "25.6 MB",
     },
   ],
   cover: {

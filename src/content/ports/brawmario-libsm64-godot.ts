@@ -27,31 +27,6 @@ export const brawmarioLibsm64Godot: Port = {
   notesEs: "Super Mario 64: source port de Brawmario para Windows. Aporta tu propia copia del juego.",
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/Brawmario/libsm64-godot/releases/download/v2.8.1/libsm64-godot-demo.v2.8.1.linux.zip",
-      size: "23.4 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/Brawmario/libsm64-godot/releases/download/v2.8.1/libsm64-godot-demo.v2.8.1.mac.zip",
-      size: "50.6 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/Brawmario/libsm64-godot/releases/download/v2.8.1/libsm64-godot-demo.v2.8.1.web.nothreads.zip",
-      size: "9.4 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/Brawmario/libsm64-godot/releases/download/v2.8.1/libsm64-godot-demo.v2.8.1.web.pwa.zip",
-      size: "9.4 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/Brawmario/libsm64-godot/releases/download/v2.8.1/libsm64-godot-demo.v2.8.1.web.zip",
-      size: "9.3 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/Brawmario/libsm64-godot/releases/download/v2.8.1/libsm64-godot-demo.v2.8.1.windows.zip",
       size: "29.3 MB",

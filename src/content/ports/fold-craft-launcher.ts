@@ -23,29 +23,29 @@ export const foldCraftLauncher: Port = {
   originalSystems: ["Unknown"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/FCL-Team/FoldCraftLauncher/releases/download/1.3.4.5/FCL-release-1.3.4.5-all.apk",
       size: "307.2 MB",
     },
     {
-      label: "Android APK",
+      label: "Android x64",
+      url: "https://github.com/FCL-Team/FoldCraftLauncher/releases/download/1.3.4.5/FCL-release-1.3.4.5-x86_64.apk",
+      size: "165.8 MB",
+    },
+    {
+      label: "Android arm64",
       url: "https://github.com/FCL-Team/FoldCraftLauncher/releases/download/1.3.4.5/FCL-release-1.3.4.5-arm64-v8a.apk",
       size: "160.9 MB",
     },
     {
-      label: "Android APK",
-      url: "https://github.com/FCL-Team/FoldCraftLauncher/releases/download/1.3.4.5/FCL-release-1.3.4.5-armeabi-v7a.apk",
-      size: "153.8 MB",
-    },
-    {
-      label: "Android APK",
+      label: "Android x86",
       url: "https://github.com/FCL-Team/FoldCraftLauncher/releases/download/1.3.4.5/FCL-release-1.3.4.5-x86.apk",
       size: "156.1 MB",
     },
     {
-      label: "Android APK",
-      url: "https://github.com/FCL-Team/FoldCraftLauncher/releases/download/1.3.4.5/FCL-release-1.3.4.5-x86_64.apk",
-      size: "165.8 MB",
+      label: "Android armv7",
+      url: "https://github.com/FCL-Team/FoldCraftLauncher/releases/download/1.3.4.5/FCL-release-1.3.4.5-armeabi-v7a.apk",
+      size: "153.8 MB",
     },
   ],
   cover: {

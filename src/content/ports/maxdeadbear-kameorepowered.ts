@@ -23,14 +23,14 @@ export const maxdeadbearKameorepowered: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/MaxDeadBear/KameoRePowered/releases/download/v0.3.4/kameorepowered-v0.3.4-linux-x64.tar.gz",
-      size: "49.5 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/MaxDeadBear/KameoRePowered/releases/download/v0.3.4/kameorepowered-v0.3.4-windows-x64.zip",
       size: "85.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/MaxDeadBear/KameoRePowered/releases/download/v0.3.4/kameorepowered-v0.3.4-linux-x64.tar.gz",
+      size: "49.5 MB",
     },
   ],
   cover: {

@@ -26,11 +26,6 @@ export const worldDriverChampionshipRecomp: Port = {
   summaryGenerated: true,
   downloads: [
     {
-      label: "Linux",
-      url: "https://github.com/alondero/worlddriverchampionship-recomp/releases/download/v0.2.0/worlddriverchampionship-recomp-linux-x64.zip",
-      size: "11.8 MB",
-    },
-    {
       label: "Windows",
       url: "https://github.com/alondero/worlddriverchampionship-recomp/releases/download/v0.2.0/worlddriverchampionship-recomp-windows-x64.zip",
       size: "23.7 MB",

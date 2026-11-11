@@ -27,7 +27,7 @@ export const strikersAndroid: Port = {
     "Port comunitario para Android de Super Mario Strikers (GameCube). Necesita el propio juego y sus archivos.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/luisxl15/Strikers-Android-Port/releases/download/v1.2.0/strikers-android-1.2.0-arm64.apk",
       size: "10.4 MB",
     },

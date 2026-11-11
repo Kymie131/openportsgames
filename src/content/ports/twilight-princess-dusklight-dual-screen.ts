@@ -23,7 +23,7 @@ export const twilightPrincessDusklightDualScreen: Port = {
   originalSystems: ["GameCube"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/igawa6/dusklight/releases/download/v2.0.3-ds-3.0.3/dusklight-v2.0.3-ds-3.0.3.apk",
       size: "61.5 MB",
     },

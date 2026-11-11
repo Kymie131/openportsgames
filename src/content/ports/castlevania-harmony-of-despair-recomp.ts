@@ -55,20 +55,17 @@ export const castlevaniaHarmonyOfDespairRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/rashevskyv/cvhd-recomp/releases/download/v0.311.c41cf75/cvhd-0.311.c41cf75-windows-x86_64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x86_64",
+      "label": "Linux",
       "url": "https://github.com/rashevskyv/cvhd-recomp/releases/download/v0.311.c41cf75/cvhd-0.311.c41cf75-linux-x86_64.tar.gz",
-      "note": "Linux · x64"
     },
     {
-      "label": "Nintendo Switch",
+      "label": "Switch",
       "url": "https://github.com/rashevskyv/cvhd-recomp/releases/download/v0.311.c41cf75/cvhd-0.311.c41cf75-switch.zip",
-      "note": "Switch · homebrew"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/castlevania-harmony-of-despair-recomp.png",

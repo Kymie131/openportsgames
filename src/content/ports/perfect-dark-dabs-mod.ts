@@ -39,9 +39,14 @@ export const perfectDarkDabsMod: Port = {
     "Decompilación comunitaria de Perfect Dark con funciones de mod ampliadas, publicada como 'Dab's Mod'. El repositorio documenta su proceso de desarrollo asistido por IA. Requiere la ROM de Perfect Dark obtenida legalmente por el jugador.",
   downloads: [
     {
-      label: "macOS",
-      url: "https://github.com/DabDavis/perfect-dark-dabs-mod/releases/download/v3.15.1/pd-dabs-mod-arm64-osx.tar.xz",
-      size: "4.5 MB",
+      label: "Windows x64",
+      url: "https://github.com/DabDavis/perfect-dark-dabs-mod/releases/download/v3.15.1/pd.x86_64-windows.exe",
+      size: "26.2 MB",
+    },
+    {
+      label: "Windows x64",
+      url: "https://github.com/DabDavis/perfect-dark-dabs-mod/releases/download/v3.15.1/pd-dabs-mod-x86_64-windows.zip",
+      size: "10.0 MB",
     },
     {
       label: "Linux",
@@ -49,19 +54,14 @@ export const perfectDarkDabsMod: Port = {
       size: "8.1 MB",
     },
     {
-      label: "macOS",
+      label: "macOS x64",
       url: "https://github.com/DabDavis/perfect-dark-dabs-mod/releases/download/v3.15.1/pd-dabs-mod-x86_64-osx.tar.xz",
       size: "4.8 MB",
     },
     {
-      label: "Windows",
-      url: "https://github.com/DabDavis/perfect-dark-dabs-mod/releases/download/v3.15.1/pd-dabs-mod-x86_64-windows.zip",
-      size: "10.0 MB",
-    },
-    {
-      label: "Windows EXE",
-      url: "https://github.com/DabDavis/perfect-dark-dabs-mod/releases/download/v3.15.1/pd.x86_64-windows.exe",
-      size: "26.2 MB",
+      label: "macOS arm64",
+      url: "https://github.com/DabDavis/perfect-dark-dabs-mod/releases/download/v3.15.1/pd-dabs-mod-arm64-osx.tar.xz",
+      size: "4.5 MB",
     },
   ],
   cover: {

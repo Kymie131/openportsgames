@@ -53,15 +53,13 @@ export const mutantRampageBodyslamRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows portable",
+      "label": "Windows",
       "url": "https://github.com/tools81/mutant-rampage-bodyslam-static-recomp/releases/download/v1.0.0/MutantRampageBodyslam-1.0.0-win64-portable.zip",
-      "note": "Windows · portable"
     },
     {
-      "label": "Windows installer",
+      "label": "Windows",
       "url": "https://github.com/tools81/mutant-rampage-bodyslam-static-recomp/releases/download/v1.0.0/MutantRampageBodyslam-1.0.0-win64-setup.exe",
-      "note": "Windows · installer"
-    }
+    },
   ],
   "cover": {
     "src": "https://openportsgames.com/covers/generated/mutant-rampage-bodyslam-recomp.svg",

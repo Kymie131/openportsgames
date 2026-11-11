@@ -23,7 +23,7 @@ export const isaacRebirthAndroid: Port = {
   related: ["the-binding-of-isaac-repentance","the-browsing-of-isaac","isaac-flash-recomp"],
   downloads: [
     {
-      label: "tboi-recomp-v0.1.3",
+      label: "Android",
       url: "https://github.com/caos-obliquo/tboi-recomp/releases/download/v0.1.3/tboi-recomp-v0.1.3.tar.gz",
       size: "39 KB",
     },

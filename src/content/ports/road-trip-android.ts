@@ -25,29 +25,14 @@ export const roadTripAndroid: Port = {
   summaryEs: "Road Trip es un videojuego de carreras en 2022.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/silentsudin/RoadTripAdventure-recomp/releases/download/v0.2.3/RoadTripRecomp-0.2.3-Android-arm64.apk",
       size: "49.8 MB",
     },
     {
-      label: "macOS DMG",
+      label: "macOS",
       url: "https://github.com/silentsudin/RoadTripAdventure-recomp/releases/download/v0.2.3/RoadTripRecomp-0.2.3-macOS.dmg",
       size: "9.7 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/silentsudin/RoadTripAdventure-recomp/releases/download/v0.2.3/RoadTripRecomp-0.2.3-Windows-x64-DLSS-XeSS-addon.zip",
-      size: "85.9 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/silentsudin/RoadTripAdventure-recomp/releases/download/v0.2.3/RoadTripRecomp-0.2.3-Windows-x64-portable.zip",
-      size: "87.7 MB",
-    },
-    {
-      label: "Windows",
-      url: "https://github.com/silentsudin/RoadTripAdventure-recomp/releases/download/v0.2.3/RoadTripRecomp-0.2.3-Windows-x64.zip",
-      size: "87.6 MB",
     },
   ],
   cover: {

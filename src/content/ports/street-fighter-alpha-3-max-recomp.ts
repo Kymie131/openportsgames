@@ -52,20 +52,17 @@ export const streetFighterAlpha3MaxRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/theweathervane/sfa3max-decomp/releases/download/v0.52.0/sfa3max-decomp-0.52.0-windows-x64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/theweathervane/sfa3max-decomp/releases/download/v0.52.0/sfa3max-decomp-0.52.0-linux-x64.zip",
-      "note": "Linux · x64"
     },
     {
-      "label": "macOS arm64",
+      "label": "macOS",
       "url": "https://github.com/theweathervane/sfa3max-decomp/releases/download/v0.52.0/sfa3max-decomp-0.52.0-macos-arm64.zip",
-      "note": "macOS · Apple Silicon"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/street-fighter-alpha-3-max-recomp.png",

@@ -22,7 +22,7 @@ export const minishCapSwitchAlekSEdition: Port = {
   originalSystems: ["Game Boy Advance"],
   downloads: [
     {
-      label: "Switch NRO",
+      label: "Switch",
       url: "https://github.com/Alexgg1014/The-Legend-of-Zelda-The-Minish-Cap-Alek-s-Ultimate-NX-Edition/releases/download/v2.0.1/tmc_aleks_ultimate_nx.nro",
       size: "14.2 MB",
     },

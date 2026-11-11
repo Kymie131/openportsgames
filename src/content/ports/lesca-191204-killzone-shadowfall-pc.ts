@@ -42,9 +42,8 @@ export const lesca191204KillzoneShadowfallPc: Port = {
   ],
   downloads: [
     {
-      label: "Windows x86_64",
+      label: "Windows",
       url: "https://github.com/lesca-191204/killzone-shadowfall-pc/releases/download/v0.8.1/KillzoneShadowFall-v0.8.1-windows.zip",
-      note: "Windows · x64",
     },
   ],
 };

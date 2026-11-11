@@ -52,15 +52,13 @@ export const virtuaNbaRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows x64",
+      "label": "Windows",
       "url": "https://github.com/PocketLucho/Virtua-NBA---Recompilation/releases/download/2026.11.07/VirtuaNBA-Recomp-win64.zip",
-      "note": "Windows · x64"
     },
     {
-      "label": "Linux x64",
+      "label": "Linux",
       "url": "https://github.com/PocketLucho/Virtua-NBA---Recompilation/releases/download/2026.11.07/VirtuaNBA-Recomp-linux-x64.tar.gz",
-      "note": "Linux · x64"
-    }
+    },
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/virtua-nba-recomp.png",

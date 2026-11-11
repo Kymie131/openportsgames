@@ -51,15 +51,9 @@ export const kirbyRecomp: Port = {
   ],
   "downloads": [
     {
-      "label": "Windows installer",
+      "label": "Windows",
       "url": "https://github.com/xtamqispeak/KirbyRecomp/releases/download/v0.3.0-alpha/KirbyRecompSetup-v0.3.0-alpha.exe",
-      "note": "Windows · installer"
     },
-    {
-      "label": "Source kit",
-      "url": "https://github.com/xtamqispeak/KirbyRecomp/releases/download/v0.3.0-alpha/KirbyRecomp-v0.3.0-alpha-source-kit.zip",
-      "note": "Source kit · build it yourself"
-    }
   ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/kirby-recomp.jpg",

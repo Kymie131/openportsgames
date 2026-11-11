@@ -22,7 +22,7 @@ export const renutAndroid: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Innersargento/Renut-Android/releases/download/0.5.0/renut-0.5.0.apk",
       size: "89.9 MB",
     },

@@ -26,11 +26,6 @@ export const nikolaygorbGoldeneye007reloadedrecomp: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/nikolaygorb/GoldenEye007ReloadedRecomp/releases/download/1.5/GER-lin64.zip",
-      size: "42.6 MB",
-    },
-    {
-      label: "Windows",
       url: "https://github.com/nikolaygorb/GoldenEye007ReloadedRecomp/releases/download/1.5/GER-win64.zip",
       size: "21.4 MB",
     },

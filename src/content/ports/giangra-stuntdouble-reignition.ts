@@ -25,7 +25,7 @@ export const giangraStuntdoubleReignition: Port = {
   summaryEs: "Stuntman: Ignition es la secuela del videojuego Stuntman para Xbox 360, PlayStation 3, PlayStation 2 y Teléfono móvil. El 3 de abril de 2005, se anunció que THQ había adquirido los derechos de la franquicia \"Stuntman\" de los editores originales Atari y los desarrolladores originales Reflections Interactive. También se anunció que Paradigm Entertainment ha desarrollado el juego para plataformas de próxima generación. El 19 de marzo de 2006, THQ habló sobre el juego por primera vez a \"Xbox 360 Gamer\", que también publicó una vista previa exclusiva del juego en el número 16 de la revista.",
   downloads: [
     {
-      label: "Windows EXE",
+      label: "Windows",
       url: "https://github.com/giangra/stuntdouble-reignition/releases/download/v0.3.0/StuntmanSetup-0.3.0.exe",
       size: "61.8 MB",
     },

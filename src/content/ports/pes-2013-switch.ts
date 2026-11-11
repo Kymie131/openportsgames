@@ -23,18 +23,13 @@ export const pes2013Switch: Port = {
   downloads: [
     {
       label: "Switch",
-      url: "https://github.com/Ibnuard/pes13_nx/releases/download/v0.4.2/FEXTendo-v0.4.2-sd.zip",
-      size: "89.8 MB",
-    },
-    {
-      label: "Switch NRO",
-      url: "https://github.com/Ibnuard/pes13_nx/releases/download/v0.4.2/pes13-fex.nro",
-      size: "30.6 MB",
+      url: "https://github.com/Ibnuard/pes13_nx/releases/download/v0.4.2/PES13-FEXTendo.nsp",
+      size: "327 KB",
     },
     {
       label: "Switch",
-      url: "https://github.com/Ibnuard/pes13_nx/releases/download/v0.4.2/PES13-FEXTendo.nsp",
-      size: "327 KB",
+      url: "https://github.com/Ibnuard/pes13_nx/releases/download/v0.4.2/pes13-fex.nro",
+      size: "30.6 MB",
     },
   ],
   cover: {

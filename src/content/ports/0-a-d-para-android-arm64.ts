@@ -26,7 +26,7 @@ export const _0ADParaAndroidArm64: Port = {
   summaryEs: "0 A.D. es un videojuego de estrategia en tiempo real, libre y de código abierto desarrollado por Wildfire Games. Es un juego sobre guerras históricas y economía antigua, la primera parte del juego \"Empires Ascendant\" abarca el periodo comprendido entre el año 500 a. C. y el año 1 d. C. y la segunda parte \"Empires Besieged\" se basará del 1 d. C. al 500 d. C.. El juego es multiplataforma, está disponible para Windows, MacOS, GNU/Linux y OpenBSD.",
   downloads: [
     {
-      label: "Android APK",
+      label: "Android",
       url: "https://github.com/Revers-BR/0ad-android-releases/releases/download/0.28.0-android-2/app-release.apk",
       size: "32.1 MB",
     },

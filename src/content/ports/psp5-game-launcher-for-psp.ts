@@ -26,22 +26,22 @@ export const psp5GameLauncherForPsp: Port = {
   summaryEs: "PlayStation Portable (PSP) es una videoconsola portátil de la multinacional japonesa Sony, y la cuarta consola de la compañía en ser diseñada por Ken Kutaragi. Aparte de jugar videojuegos, podía conectarse a internet y reproducir multimedia. Se trata de la primera consola portátil a nivel mundial de Sony y la segunda lanzada en Japón.",
   downloads: [
     {
-      label: "psp5-v2.1.3-ARK4",
+      label: "Psp",
       url: "https://github.com/08Weber/psp5/releases/download/v2.1.3/psp5-v2.1.3-ARK4.zip",
       size: "1.2 MB",
     },
     {
-      label: "psp5-v2.1.3-ARK5",
+      label: "Psp",
       url: "https://github.com/08Weber/psp5/releases/download/v2.1.3/psp5-v2.1.3-ARK5.zip",
       size: "1.2 MB",
     },
     {
-      label: "psp5-v2.1.3-PSPGo-ARK4",
+      label: "Psp",
       url: "https://github.com/08Weber/psp5/releases/download/v2.1.3/psp5-v2.1.3-PSPGo-ARK4.zip",
       size: "1.2 MB",
     },
     {
-      label: "psp5-v2.1.3-PSPGo-ARK5",
+      label: "Psp",
       url: "https://github.com/08Weber/psp5/releases/download/v2.1.3/psp5-v2.1.3-PSPGo-ARK5.zip",
       size: "1.2 MB",
     },
