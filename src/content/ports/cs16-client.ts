@@ -15,7 +15,7 @@ export const cs16Client: Port = {
   platforms: ["windows", "linux", "android"],
   status: "beta",
   release: { version: null, date: null },
-  sources: ["https://github.com/Velaron/cs16-client"],
+  sources: ["https://github.com/FWGS/cs16-client"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   originalSystems: ["Windows"],

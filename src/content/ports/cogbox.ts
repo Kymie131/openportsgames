@@ -14,7 +14,7 @@ export const cogbox: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: "0.4.8", date: "2026-11-07" },
+  release: { version: "0.5.0", date: "2026-11-11" },
   sources: ["https://github.com/Shagg88/COGBox"],
   license: { spdx: "MIT" },
   verified: false,
@@ -31,8 +31,8 @@ export const cogbox: Port = {
     "Recompilación estática todo en uno de la saga Gears of War de Xbox 360 con renderizador nativo. No incluye datos de los juegos: debes aportar tus propias copias.",
   downloads: [
     {
-      label: "Windows",
-      url: "https://github.com/Shagg88/COGBox/releases/download/0.4.8/COGBox-0.4.8.zip",
+      label: "Windows (7z)",
+      url: "https://github.com/Shagg88/COGBox/releases/download/0.5.0/COGBox-0.5.0.7z",
     },
   ],
   cover: {

@@ -721,7 +721,6 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "fuerchter-rayman-ps1-decomp": ["PlayStation"],
   "fushigi-no-dungeon-furai-no-shiren-2-oni-shurai-shiren-jo": ["Nintendo 64"],
   "future-cop-lapd-recomp": ["PlayStation"],
-  "fwgs-cs16-client": ["Unknown"],
   "g-police-recomp": ["PlayStation"],
   "g-police-weapons-of-justice-recomp": ["PlayStation"],
   "galaxy-on-fire-2-unity-remake": ["Unknown"],

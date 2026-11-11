@@ -720,7 +720,6 @@ import { Fuel } from "./fuel";
 import { fuerchterRaymanPs1Decomp } from "./fuerchter-rayman-ps1-decomp";
 import { FushigiNoDungeonFuraiNoShiren2OniShuraiShirenJo } from "./fushigi-no-dungeon-furai-no-shiren-2-oni-shurai-shiren-jo";
 import { futureCopLapdRecomp } from "./future-cop-lapd-recomp";
-import { fwgsCs16Client } from "./fwgs-cs16-client";
 import { gPoliceRecomp } from "./g-police-recomp";
 import { gPoliceWeaponsOfJusticeRecomp } from "./g-police-weapons-of-justice-recomp";
 import { galaxyOnFire2UnityRemake } from "./galaxy-on-fire-2-unity-remake";
@@ -3542,7 +3541,6 @@ export const portCases: Port[] = [
   fuerchterRaymanPs1Decomp,
   FushigiNoDungeonFuraiNoShiren2OniShuraiShirenJo,
   futureCopLapdRecomp,
-  fwgsCs16Client,
   gPoliceRecomp,
   gPoliceWeaponsOfJusticeRecomp,
   galaxyOnFire2UnityRemake,
