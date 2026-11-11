@@ -2816,4 +2816,8 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "openh3m": ["Xbox 360"],
   "perfect-dark-xbla-pc-recomp": ["Xbox 360"],
   "uncharted-waters-new-horizons-recomp": ["Super Nintendo"],
+  "cogbox": ["Xbox 360"],
+  "gears2-nx": ["Xbox 360"],
+  "gears-of-war-3-recomp": ["Xbox 360"],
+  "gears3-recomp-android": ["Xbox 360"],
 };

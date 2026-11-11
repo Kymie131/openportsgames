@@ -2817,6 +2817,10 @@ import { clashOfNinjaRecomp } from "./clash-of-ninja-recomp";
 import { openh3m } from "./openh3m";
 import { perfectDarkXblaPcRecomp } from "./perfect-dark-xbla-pc-recomp";
 import { unchartedWatersNewHorizonsRecomp } from "./uncharted-waters-new-horizons-recomp";
+import { cogbox } from "./cogbox";
+import { gears2Nx } from "./gears2-nx";
+import { gearsOfWar3Recomp } from "./gears-of-war-3-recomp";
+import { gears3RecompAndroid } from "./gears3-recomp-android";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5633,4 +5637,8 @@ export const portCases: Port[] = [
   openh3m,
   perfectDarkXblaPcRecomp,
   unchartedWatersNewHorizonsRecomp,
+  cogbox,
+  gears2Nx,
+  gearsOfWar3Recomp,
+  gears3RecompAndroid,
 ];
