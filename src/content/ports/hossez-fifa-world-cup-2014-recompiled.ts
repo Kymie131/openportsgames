@@ -31,9 +31,9 @@ export const hossezFifaWorldCup2014Recompiled: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/2014-fifa-world-cup-brazil.svg",
-    alt: "2014 FIFA World Cup Brazil (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f2/2014_FIFA_World_Cup_Brazil_game.jpg",
+    alt: "2014 FIFA World Cup Brazil (box art)",
+    credit: "Wikipedia",
   },
   notes: "2014 FIFA World Cup Brazil: static recompilation by HossEz for Windows. Bring your own copy of the game.",
   notesEs: "2014 FIFA World Cup Brazil: recompilación estática de HossEz para Windows. Aporta tu propia copia del juego.",
