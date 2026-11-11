@@ -1,4 +1,5 @@
 import { portCases } from "@/content/ports";
+import { applyPortExtras } from "@/content/port-extras";
 import { originalSystemsById } from "@/content/ports/meta";
 import { hardwareProfiles } from "@/content/hardware";
 import { testRecords } from "@/content/tests";
@@ -14,7 +15,7 @@ import {
 } from "./schema";
 
 export const ports: Port[] = portCases.flatMap((raw) => {
-  const parsed = portSchema.parse(raw);
+  const parsed = portSchema.parse(applyPortExtras(raw));
   return parsed.status === "takedown" ? [] : [parsed];
 });
 export const takedownPorts: TakedownPort[] = portCases.flatMap((raw) => {
@@ -63,7 +64,12 @@ export function relatedPorts(portId: string): Port[] {
 /** A port has its own content when it carries notes, features, a guide or art. */
 export function hasOwnContent(port: Port): boolean {
   return Boolean(
-    port.notes || port.features?.length || port.installGuide || port.screenshots?.length,
+    port.notes ||
+      port.features?.length ||
+      port.installGuide ||
+      port.releases?.length ||
+      port.videos?.length ||
+      port.screenshots?.length,
   );
 }
 
@@ -223,9 +229,12 @@ export function getRecentlyAddedPorts(limit?: number): Port[] {
 }
 
 export function portLastModified(port: Port): string | undefined {
-  const dates = [port.release.date, port.verifiedAt].filter(
-    (date): date is string => date !== null && date !== undefined,
-  );
+  const dates = [
+    port.release.date,
+    port.verifiedAt,
+    port.updatedAt,
+    ...(port.releases ?? []).map((release) => release.date),
+  ].filter((date): date is string => date !== null && date !== undefined);
   return dates.length > 0 ? dates.sort().at(-1) : undefined;
 }
 

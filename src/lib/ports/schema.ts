@@ -148,8 +148,48 @@ const normalPort = z.object({
       title: z.string().min(2).max(80).optional(),
       steps: z.array(z.string().min(3).max(300)).min(1).max(20),
       stepsEs: z.array(z.string().min(3).max(300)).min(1).max(20).optional(),
+      controls: z
+        .array(
+          z.object({
+            input: z.string().min(1).max(60),
+            action: z.string().min(1).max(120),
+            actionEs: z.string().min(1).max(120).optional(),
+          }),
+        )
+        .max(40)
+        .optional(),
+      knownIssues: z.array(z.string().min(3).max(300)).max(12).optional(),
+      knownIssuesEs: z.array(z.string().min(3).max(300)).max(12).optional(),
     })
     .optional(),
+  /** Release history, newest first. `release` keeps the current build. */
+  releases: z
+    .array(
+      z.object({
+        version: versionString,
+        date: isoDate,
+        notes: z.string().min(2).max(300).optional(),
+        notesEs: z.string().min(2).max(300).optional(),
+        url: httpsUrl.optional(),
+      }),
+    )
+    .max(40)
+    .optional(),
+  /** Gameplay or installation videos, usually hosted on YouTube. */
+  videos: z
+    .array(
+      z.object({
+        url: httpsUrl,
+        title: z.string().min(2).max(140),
+        author: z.string().min(1).max(80).optional(),
+        thumbnail: httpsUrl.optional(),
+        publishedAt: isoDate.optional(),
+      }),
+    )
+    .max(8)
+    .optional(),
+  /** Date the catalog entry itself was last edited (overrides derived dates). */
+  updatedAt: isoDate.optional(),
   downloads: z
     .array(
       z.object({
@@ -301,7 +341,28 @@ export type Port = {
     title?: string;
     steps: string[];
     stepsEs?: string[];
+    controls?: { input: string; action: string; actionEs?: string }[];
+    knownIssues?: string[];
+    knownIssuesEs?: string[];
   };
+  /** Release history, newest first. `release` keeps the current build. */
+  releases?: {
+    version: string;
+    date: string;
+    notes?: string;
+    notesEs?: string;
+    url?: string;
+  }[];
+  /** Gameplay or installation videos. */
+  videos?: {
+    url: string;
+    title: string;
+    author?: string;
+    thumbnail?: string;
+    publishedAt?: string;
+  }[];
+  /** Date the catalog entry itself was last edited. */
+  updatedAt?: string;
   downloads?: {
     label: string;
     url: string;

@@ -1,0 +1,2575 @@
+{
+  "2-ship-2-harkinian-2s2h": {
+    "releases": [
+      {
+        "version": "5.0.1",
+        "date": "2026-09-03",
+        "notes": "Updated build of Waterdish's Android Build that is up to date with latest 2S2H release, Battler Bravo 5.0.1.",
+        "url": "https://github.com/Jameriquiah/2ship2harkinian/releases/tag/android-5.0.1"
+      },
+      {
+        "version": "5.0.0",
+        "date": "2026-08-13",
+        "notes": "Updated build of Waterdish's Android Build that is up to date with latest 2S2H release, Battler Alfa 5.0.0.",
+        "url": "https://github.com/Jameriquiah/2ship2harkinian/releases/tag/android-5.0.0"
+      },
+      {
+        "version": "4.0.2",
+        "date": "2026-06-18",
+        "notes": "Updated build of Waterdish's Android Build that is up to date with latest 2S2H release, Keiichi Charlie 4.0.2.",
+        "url": "https://github.com/Jameriquiah/2ship2harkinian/releases/tag/android-4.0.2"
+      }
+    ]
+  },
+  "40-winks-recomp": {
+    "releases": [
+      {
+        "version": "0.4.0",
+        "date": "2026-11-08",
+        "notes": "Now on Linux too. A native Windows and Linux port of the Nintendo 64 game, made by statically recompiling its",
+        "url": "https://github.com/DreaXer/40WinksRecomp/releases/tag/v0.4.0"
+      },
+      {
+        "version": "0.3.0",
+        "date": "2026-10-30",
+        "url": "https://github.com/DreaXer/40WinksRecomp/releases/tag/v0.3.0"
+      },
+      {
+        "version": "0.2.0",
+        "date": "2026-10-29",
+        "url": "https://github.com/DreaXer/40WinksRecomp/releases/tag/v0.2.0"
+      },
+      {
+        "version": "0.1.0",
+        "date": "2026-10-27",
+        "url": "https://github.com/DreaXer/40WinksRecomp/releases/tag/v0.1.0"
+      }
+    ]
+  },
+  "afro-samurai-recomp": {
+    "releases": [
+      {
+        "version": "0.2.2",
+        "date": "2026-11-11",
+        "notes": "Source-only release. The downloadable program is the setup installer. It builds",
+        "url": "https://github.com/LomoXSoft/AfroSamuraiRecomp/releases/tag/v0.2.2"
+      },
+      {
+        "version": "0.2.1",
+        "date": "2026-11-10",
+        "notes": "Source-only release. The downloadable program is the setup installer. It builds",
+        "url": "https://github.com/LomoXSoft/AfroSamuraiRecomp/releases/tag/v0.2.1"
+      },
+      {
+        "version": "0.2.0",
+        "date": "2026-11-09",
+        "notes": "Source-only release. The downloadable program is the setup installer. It builds",
+        "url": "https://github.com/LomoXSoft/AfroSamuraiRecomp/releases/tag/v0.2.0"
+      },
+      {
+        "version": "0.1.2",
+        "date": "2026-11-09",
+        "notes": "Source-only release. The downloadable program is the setup installer. It builds",
+        "url": "https://github.com/LomoXSoft/AfroSamuraiRecomp/releases/tag/v0.1.2"
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-11-08",
+        "notes": "Source-only release. The downloadable program is the setup installer. It builds",
+        "url": "https://github.com/LomoXSoft/AfroSamuraiRecomp/releases/tag/v0.1.1"
+      },
+      {
+        "version": "0.1.0",
+        "date": "2026-11-06",
+        "notes": "Source-only release. The downloadable program is the setup installer. It builds",
+        "url": "https://github.com/LomoXSoft/AfroSamuraiRecomp/releases/tag/v0.1.0"
+      },
+      {
+        "version": "0.0.16",
+        "date": "2026-11-05",
+        "notes": "Source-only prerelease. No binaries or game files. Build from your own Europe ISO.",
+        "url": "https://github.com/LomoXSoft/AfroSamuraiRecomp/releases/tag/v0.0.16"
+      },
+      {
+        "version": "0.0.15",
+        "date": "2026-11-05",
+        "notes": "Plug-and-play installer. Download the repository ZIP (or just install.bat), double-click install.bat, and it builds and installs the game from your own ISO:",
+        "url": "https://github.com/LomoXSoft/AfroSamuraiRecomp/releases/tag/v0.0.15"
+      },
+      {
+        "version": "0.0.14",
+        "date": "2026-11-04",
+        "notes": "All cutscene voices fixed. Lines that went silent after a camera cut, along with everything after them (e.g. the second boss cutscene), now play in full.",
+        "url": "https://github.com/LomoXSoft/AfroSamuraiRecomp/releases/tag/v0.0.14"
+      },
+      {
+        "version": "0.0.13",
+        "date": "2026-11-04",
+        "url": "https://github.com/LomoXSoft/AfroSamuraiRecomp/releases/tag/v0.0.13"
+      },
+      {
+        "version": "0.0.12",
+        "date": "2026-11-04",
+        "url": "https://github.com/LomoXSoft/AfroSamuraiRecomp/releases/tag/v0.0.12"
+      },
+      {
+        "version": "0.0.11",
+        "date": "2026-11-04",
+        "notes": "First public preview – source only.",
+        "url": "https://github.com/LomoXSoft/AfroSamuraiRecomp/releases/tag/v0.0.11"
+      }
+    ]
+  },
+  "arefdsg-mk64recomp": {
+    "releases": [
+      {
+        "version": "1.0.0",
+        "date": "2025-05-28",
+        "notes": "Initial Release",
+        "url": "https://github.com/arefdsg/MK64Recomp/releases/tag/1.0.0"
+      }
+    ]
+  },
+  "b3-express": {
+    "releases": [
+      {
+        "version": "0.2.6",
+        "date": "2026-11-11",
+        "notes": "Fixes for chapter 14 and a full-speed gallery.",
+        "url": "https://github.com/LuvAbyss/B3-Express/releases/tag/0.2.6"
+      },
+      {
+        "version": "0.2.5",
+        "date": "2026-11-09",
+        "notes": "Mods, more detail and widescreen. This release is a big one, so it skips ahead from 0.2.0 to 0.2.5.",
+        "url": "https://github.com/LuvAbyss/B3-Express/releases/tag/0.2.5"
+      },
+      {
+        "version": "0.2.0",
+        "date": "2026-11-06",
+        "notes": "A brand new launcher. Start the game with B3-Express.exe.",
+        "url": "https://github.com/LuvAbyss/B3-Express/releases/tag/0.2.0"
+      },
+      {
+        "version": "0.1.7",
+        "date": "2026-11-06",
+        "notes": "A deep optimization of how frames reach your screen, for a much smoother 60 FPS. Plus a fix for Intel graphics losing the device.",
+        "url": "https://github.com/LuvAbyss/B3-Express/releases/tag/0.1.7"
+      },
+      {
+        "version": "0.1.6",
+        "date": "2026-11-05",
+        "notes": "Fixes for AMD and Intel graphics cards.",
+        "url": "https://github.com/LuvAbyss/B3-Express/releases/tag/0.1.6"
+      },
+      {
+        "version": "0.1.5",
+        "date": "2026-11-04",
+        "notes": "Fewer hitches on a first play and when entering new areas, and a Save settings button in the launcher.",
+        "url": "https://github.com/LuvAbyss/B3-Express/releases/tag/0.1.5"
+      },
+      {
+        "version": "0.1.4",
+        "date": "2026-11-04",
+        "notes": "Replaces the game's checkerboard fade with a smooth see-through fade, and makes the game use the fast renderer however it is started.",
+        "url": "https://github.com/LuvAbyss/B3-Express/releases/tag/0.1.4"
+      },
+      {
+        "version": "0.1.2",
+        "date": "2026-11-04",
+        "notes": "Fixes Install doing nothing on a non-English Windows, adds PlayStation and Xbox button prompts, and shortens the hitch when entering a new area.",
+        "url": "https://github.com/LuvAbyss/B3-Express/releases/tag/0.1.2"
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-11-03",
+        "notes": "Fixes the FPS drop when loading into or out of a verse.",
+        "url": "https://github.com/LuvAbyss/B3-Express/releases/tag/0.1.1"
+      }
+    ]
+  },
+  "banjo-kazooie-recomp": {
+    "releases": [
+      {
+        "version": "1.0.2",
+        "date": "2026-07-31",
+        "notes": "> [!NOTE]",
+        "url": "https://github.com/BanjoRecomp/BanjoRecomp/releases/tag/v1.0.2"
+      },
+      {
+        "version": "1.0.1",
+        "date": "2026-01-29",
+        "notes": "The Thunderstore page for Banjo: Recompiled is now available! Find, download and update your mods from this website!",
+        "url": "https://github.com/BanjoRecomp/BanjoRecomp/releases/tag/v1.0.1"
+      },
+      {
+        "version": "1.0.0",
+        "date": "2026-01-24",
+        "notes": "The game has been updated. Please check out the latest release instead!",
+        "url": "https://github.com/BanjoRecomp/BanjoRecomp/releases/tag/v1.0.0"
+      }
+    ]
+  },
+  "baroque-recomp": {
+    "releases": [
+      {
+        "version": "0.3.3",
+        "date": "2026-11-08",
+        "notes": "!v0.3.2 vs v0.3.3",
+        "url": "https://github.com/Arch61s/Baroque-Decomp/releases/tag/v0.3.3"
+      },
+      {
+        "version": "0.3.2",
+        "date": "2026-11-07",
+        "notes": "Camera Setting (up/down, left/right reverse) didn't do anything with a controller",
+        "url": "https://github.com/Arch61s/Baroque-Decomp/releases/tag/v0.3.2"
+      },
+      {
+        "version": "0.3.1",
+        "date": "2026-10-18",
+        "notes": "Random crash while playing",
+        "url": "https://github.com/Arch61s/Baroque-Decomp/releases/tag/v0.3.1"
+      },
+      {
+        "version": "0.3.0",
+        "date": "2026-10-16",
+        "notes": "Native Windows port of Baroque (PS2, 2008). Not an emulator, it's the game's code translated to run on PC. No game files included, you need your own copy.",
+        "url": "https://github.com/Arch61s/Baroque-Decomp/releases/tag/v0.3.0"
+      }
+    ]
+  },
+  "big-red-racing-port": {
+    "releases": [
+      {
+        "version": "0.118.8",
+        "date": "2026-11-11",
+        "notes": "Port jugable de Big Red Racing (1995). Necesitas tu copia original del juego (la carpeta BIGRED).",
+        "url": "https://github.com/BigRedReport/bigredreport/releases/tag/v0.118.8"
+      },
+      {
+        "version": "0.118.7",
+        "date": "2026-11-09",
+        "notes": "Port jugable de Big Red Racing (1995). Necesitas tu copia original del juego (la carpeta BIGRED).",
+        "url": "https://github.com/BigRedReport/bigredreport/releases/tag/v0.118.7"
+      },
+      {
+        "version": "0.118.6",
+        "date": "2026-11-09",
+        "notes": "Port jugable de Big Red Racing (1995). Necesitas tu copia original del juego (la carpeta BIGRED).",
+        "url": "https://github.com/BigRedReport/bigredreport/releases/tag/v0.118.6"
+      },
+      {
+        "version": "0.118.5",
+        "date": "2026-11-09",
+        "notes": "Port jugable de Big Red Racing (1995). Necesitas tu copia original del juego (la carpeta BIGRED).",
+        "url": "https://github.com/BigRedReport/bigredreport/releases/tag/v0.118.5"
+      },
+      {
+        "version": "0.118.4",
+        "date": "2026-11-08",
+        "notes": "Port jugable de Big Red Racing (1995). Necesitas tu copia original del juego (la carpeta BIGRED).",
+        "url": "https://github.com/BigRedReport/bigredreport/releases/tag/v0.118.4"
+      },
+      {
+        "version": "0.118.3",
+        "date": "2026-11-08",
+        "notes": "Port jugable de Big Red Racing (1995). Necesitas tu copia original del juego (la carpeta BIGRED).",
+        "url": "https://github.com/BigRedReport/bigredreport/releases/tag/v0.118.3"
+      },
+      {
+        "version": "0.118.2",
+        "date": "2026-11-08",
+        "notes": "Port jugable de Big Red Racing (1995). Necesitas tu copia original del juego (la carpeta BIGRED).",
+        "url": "https://github.com/BigRedReport/bigredreport/releases/tag/v0.118.2"
+      },
+      {
+        "version": "0.118.1",
+        "date": "2026-11-08",
+        "notes": "Port jugable de Big Red Racing (1995). Necesitas tu copia original del juego (la carpeta BIGRED).",
+        "url": "https://github.com/BigRedReport/bigredreport/releases/tag/v0.118.1"
+      },
+      {
+        "version": "0.118.0",
+        "date": "2026-11-07",
+        "notes": "Port jugable de Big Red Racing (1995). Necesitas tu copia original del juego (la carpeta BIGRED).",
+        "url": "https://github.com/BigRedReport/bigredreport/releases/tag/v0.118.0"
+      },
+      {
+        "version": "0.117.0",
+        "date": "2026-11-07",
+        "notes": "Port jugable de Big Red Racing (1995). Necesitas tu copia original del juego (la carpeta BIGRED).",
+        "url": "https://github.com/BigRedReport/bigredreport/releases/tag/v0.117.0"
+      },
+      {
+        "version": "0.116.0",
+        "date": "2026-11-05",
+        "notes": "Port jugable de Big Red Racing (1995). Necesitas tu copia original del juego (la carpeta BIGRED).",
+        "url": "https://github.com/BigRedReport/bigredreport/releases/tag/v0.116.0"
+      },
+      {
+        "version": "0.115.4",
+        "date": "2026-11-05",
+        "notes": "Port jugable de Big Red Racing (1995). Necesitas tu copia original del juego (la carpeta BIGRED).",
+        "url": "https://github.com/BigRedReport/bigredreport/releases/tag/v0.115.4"
+      }
+    ]
+  },
+  "bleach-soul-resurreccion-recomp": {
+    "releases": [
+      {
+        "version": "1.1.1",
+        "date": "2026-11-09",
+        "url": "https://github.com/xPXavierx/bleach-soul-resurreccion-recomp/releases/tag/v1.1.1"
+      },
+      {
+        "version": "1.1",
+        "date": "2026-11-08",
+        "notes": "Bleach: Soul Resurrección PC Recomp: the PS3 game (BLUS30769) recompiled to run natively on Windows with DirectX 12. It is not an emulator.",
+        "url": "https://github.com/xPXavierx/bleach-soul-resurreccion-recomp/releases/tag/v1.1"
+      },
+      {
+        "version": "1.0",
+        "date": "2026-11-07",
+        "url": "https://github.com/xPXavierx/bleach-soul-resurreccion-recomp/releases/tag/v1.0"
+      }
+    ]
+  },
+  "burnout-3-recomp": {
+    "releases": [
+      {
+        "version": "0.1.0",
+        "date": "2026-10-20",
+        "notes": "The first release: a Windows installer that builds the recomp from your own disc.",
+        "url": "https://github.com/sp00nznet/burnout3/releases/tag/v0.1.0"
+      }
+    ]
+  },
+  "conker-bad-fur-day-recomp": {
+    "releases": [
+      {
+        "version": "0.1.6",
+        "date": "2026-10-13",
+        "notes": "Almost everything in it started as a report, a request or a test from someone playing. Thank you all, credits are at the bottom. 🐿️",
+        "url": "https://github.com/sciaschi/CBFD-Recompiled/releases/tag/V0.1.6"
+      },
+      {
+        "version": "0.1.5",
+        "date": "2026-10-01",
+        "url": "https://github.com/sciaschi/CBFD-Recompiled/releases/tag/V0.1.5"
+      },
+      {
+        "version": "0.1.4",
+        "date": "2026-09-28",
+        "url": "https://github.com/sciaschi/CBFD-Recompiled/releases/tag/V0.1.4"
+      },
+      {
+        "version": "0.1.3",
+        "date": "2026-09-27",
+        "notes": "Ready-to-play builds for Windows, Linux and macOS. You need your own US ROM of Conker's Bad Fur Day: these packages contain no game data.",
+        "url": "https://github.com/sciaschi/CBFD-Recompiled/releases/tag/V0.1.3"
+      },
+      {
+        "version": "0.1.2",
+        "date": "2026-09-27",
+        "notes": "Ready-to-play builds for Windows, Linux and macOS. You need your own US ROM of Conker's Bad Fur Day: these packages contain no game data.",
+        "url": "https://github.com/sciaschi/CBFD-Recompiled/releases/tag/V0.1.2"
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-09-27",
+        "notes": "Widescreen fixes, launcher ROM options, merge of the macOS port by @sciaschi in https://github.com/sciaschi/CBFD-Recompiled/pull/16",
+        "url": "https://github.com/sciaschi/CBFD-Recompiled/releases/tag/V0.1.1"
+      },
+      {
+        "version": "0.1.0",
+        "date": "2026-09-27",
+        "notes": "Added mac release of V0.1.0",
+        "url": "https://github.com/sciaschi/CBFD-Recompiled/releases/tag/V0.1.0"
+      }
+    ]
+  },
+  "conker-live-recompiled": {
+    "releases": [
+      {
+        "version": "0.3.0",
+        "date": "2026-11-11",
+        "notes": "Cheats, a full debug mode, and a handful of extras: a speedrun timer, an input display, Hide HUD, Skip Intro and movies in their original 4:3 shape.",
+        "url": "https://github.com/cdetv/conker-live-recompiled/releases/tag/v0.3.0"
+      },
+      {
+        "version": "0.2.4",
+        "date": "2026-11-08",
+        "notes": "A photo mode where the world can keep moving, a launcher that works fully with a controller and has its own file browser, and Report Bug on F10.",
+        "url": "https://github.com/cdetv/conker-live-recompiled/releases/tag/v0.2.4"
+      },
+      {
+        "version": "0.2.3",
+        "date": "2026-11-07",
+        "url": "https://github.com/cdetv/conker-live-recompiled/releases/tag/v0.2.3"
+      },
+      {
+        "version": "0.2.2",
+        "date": "2026-11-07",
+        "notes": "Sharper and softer shadows, no more crackling sound, sound effects no longer louder than the music, and the black cutscene and crash after Windy fixed.",
+        "url": "https://github.com/cdetv/conker-live-recompiled/releases/tag/v0.2.2"
+      },
+      {
+        "version": "0.2.1",
+        "date": "2026-11-06",
+        "url": "https://github.com/cdetv/conker-live-recompiled/releases/tag/v0.2.1"
+      },
+      {
+        "version": "0.2.0",
+        "date": "2026-11-06",
+        "url": "https://github.com/cdetv/conker-live-recompiled/releases/tag/v0.2.0"
+      },
+      {
+        "version": "0.1.5",
+        "date": "2026-11-03",
+        "notes": "Conker's shadow is back, plus fixes for the Bull fight, the poo pool and distant grass.",
+        "url": "https://github.com/cdetv/conker-live-recompiled/releases/tag/v0.1.5"
+      },
+      {
+        "version": "0.1.4",
+        "date": "2026-11-02",
+        "notes": "Much lower CPU load: the game now uses about a third of the CPU that 0.1.3 did.",
+        "url": "https://github.com/cdetv/conker-live-recompiled/releases/tag/v0.1.4"
+      },
+      {
+        "version": "0.1.3",
+        "date": "2026-10-31",
+        "notes": "Now truly portable, plus language selection and switches for the vignette and screen drops.",
+        "url": "https://github.com/cdetv/conker-live-recompiled/releases/tag/v0.1.3"
+      },
+      {
+        "version": "0.1.2",
+        "date": "2026-10-31",
+        "notes": "Pop-in Fix options, experimental ambient particles, and a photo mode fix.",
+        "url": "https://github.com/cdetv/conker-live-recompiled/releases/tag/v0.1.2"
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-10-31",
+        "notes": "Fixes for the Modern controller layout, and rumble.",
+        "url": "https://github.com/cdetv/conker-live-recompiled/releases/tag/v0.1.1"
+      },
+      {
+        "version": "0.1.0",
+        "date": "2026-10-30",
+        "notes": "The first release of Conker: Live & Recompiled: a native Windows PC version of *Conker: Live & Reloaded* (Xbox, 2005).",
+        "url": "https://github.com/cdetv/conker-live-recompiled/releases/tag/v0.1.0"
+      }
+    ]
+  },
+  "dead-or-alive-4-recomp": {
+    "releases": [
+      {
+        "version": "0.3.2",
+        "date": "2026-11-11",
+        "notes": "What's new in 0.3.2:",
+        "url": "https://github.com/dwreckgg/doa4-online/releases/tag/alpha-v0.3.2"
+      },
+      {
+        "version": "0.3.1",
+        "date": "2026-11-11",
+        "notes": "What's new in 0.3.1:",
+        "url": "https://github.com/dwreckgg/doa4-online/releases/tag/alpha-v0.3.1"
+      },
+      {
+        "version": "1.0.10",
+        "date": "2026-11-09",
+        "url": "https://github.com/dwreckgg/doa4-online/releases/tag/netplay-v1.0.10"
+      },
+      {
+        "version": "0.3.0",
+        "date": "2026-11-09",
+        "url": "https://github.com/dwreckgg/doa4-online/releases/tag/alpha-v0.3.0"
+      },
+      {
+        "version": "1.0.7",
+        "date": "2026-11-04",
+        "url": "https://github.com/dwreckgg/doa4-online/releases/tag/netplay-v1.0.7"
+      },
+      {
+        "version": "1.0.6",
+        "date": "2026-11-03",
+        "url": "https://github.com/dwreckgg/doa4-online/releases/tag/netplay-v1.0.6"
+      }
+    ]
+  },
+  "deus-ex-port-ex-machina": {
+    "releases": [
+      {
+        "version": "2026.11.08-a7cdb8fb",
+        "date": "2026-11-08",
+        "notes": "Every port of Port Ex Machina, launcher and engine together, built at the commits its pins name, from a7cdb8fb. The engine alone",
+        "url": "https://github.com/JuggyMcNutty/port-ex-machina/releases/tag/2026.11.08-a7cdb8fb"
+      },
+      {
+        "version": "2026.11.05-62f3e798",
+        "date": "2026-11-05",
+        "notes": "Every port of Port Ex Machina, launcher and engine together, built at the commits its pins name, from 62f3e798. The engine alone",
+        "url": "https://github.com/JuggyMcNutty/port-ex-machina/releases/tag/2026.11.05-62f3e798"
+      },
+      {
+        "version": "2026.11.04-b94a1086",
+        "date": "2026-11-04",
+        "notes": "Every port of Port Ex Machina, launcher and engine together, built at the commits its pins name, from b94a1086. The engine alone",
+        "url": "https://github.com/JuggyMcNutty/port-ex-machina/releases/tag/2026.11.04-b94a1086"
+      },
+      {
+        "version": "2026.11.03-ca7400b2",
+        "date": "2026-11-03",
+        "notes": "Every port of Port Ex Machina, launcher and engine together, built at the commits its pins name, from ca7400b2. The engine alone",
+        "url": "https://github.com/JuggyMcNutty/port-ex-machina/releases/tag/2026.11.03-ca7400b2"
+      },
+      {
+        "version": "2026.11.01-87b7e9f9",
+        "date": "2026-11-01",
+        "notes": "The first public build: Deus Ex (2000) running natively on modern systems, on",
+        "url": "https://github.com/JuggyMcNutty/port-ex-machina/releases/tag/2026.11.01-87b7e9f9"
+      },
+      {
+        "version": "2026.11.01-80f667ec",
+        "date": "2026-11-01",
+        "notes": "Every port of Port Ex Machina, launcher and engine together, built at the commits its pins name, from 80f667ec. The engine alone",
+        "url": "https://github.com/JuggyMcNutty/port-ex-machina/releases/tag/2026.11.01-80f667ec"
+      },
+      {
+        "version": "2026.10.31-77028118",
+        "date": "2026-10-31",
+        "notes": "Every port of Port Ex Machina, launcher and engine together, built at the commits its pins name, from 77028118. The engine alone",
+        "url": "https://github.com/JuggyMcNutty/port-ex-machina/releases/tag/2026.10.31-77028118"
+      },
+      {
+        "version": "2026.10.29-f787e72a",
+        "date": "2026-10-29",
+        "notes": "Every port of Port Ex Machina, launcher and engine together, built at the commits its pins name, from f787e72a. The engine alone",
+        "url": "https://github.com/JuggyMcNutty/port-ex-machina/releases/tag/2026.10.29-f787e72a"
+      },
+      {
+        "version": "2026.10.29-e9999059",
+        "date": "2026-10-29",
+        "notes": "Every port of Port Ex Machina, launcher and engine together, built at the commits its pins name, from e9999059. The engine alone",
+        "url": "https://github.com/JuggyMcNutty/port-ex-machina/releases/tag/2026.10.29-e9999059"
+      },
+      {
+        "version": "2026.10.29-ae498ef9",
+        "date": "2026-10-29",
+        "notes": "Every port of Port Ex Machina, launcher and engine together, built at the commits its pins name, from ae498ef9. The engine alone",
+        "url": "https://github.com/JuggyMcNutty/port-ex-machina/releases/tag/2026.10.29-ae498ef9"
+      },
+      {
+        "version": "2026.10.29-a881641e",
+        "date": "2026-10-29",
+        "notes": "Every port of Port Ex Machina, launcher and engine together, built at the commits its pins name, from a881641e. The engine alone",
+        "url": "https://github.com/JuggyMcNutty/port-ex-machina/releases/tag/2026.10.29-a881641e"
+      },
+      {
+        "version": "2026.10.29-8bc8c5d9",
+        "date": "2026-10-29",
+        "notes": "Every port of Port Ex Machina, launcher and engine together, built at the commits its pins name, from 8bc8c5d9. The engine alone",
+        "url": "https://github.com/JuggyMcNutty/port-ex-machina/releases/tag/2026.10.29-8bc8c5d9"
+      }
+    ]
+  },
+  "dragon-quest-ix-recomp": {
+    "releases": [
+      {
+        "version": "2.0.542",
+        "date": "2026-11-09",
+        "notes": "Paquets Windows et Linux de dq9Recomp, et l'APK Android (téléphones 64 bits, Android 8 ou plus).",
+        "url": "https://github.com/Ajustor/dq9Recomp-releases/releases/tag/v2.0.542"
+      },
+      {
+        "version": "2.0.540",
+        "date": "2026-11-08",
+        "notes": "Paquets Windows et Linux de dq9Recomp, et l'APK Android (téléphones 64 bits, Android 8 ou plus).",
+        "url": "https://github.com/Ajustor/dq9Recomp-releases/releases/tag/v2.0.540"
+      },
+      {
+        "version": "2.0.524",
+        "date": "2026-11-07",
+        "notes": "Paquets Windows et Linux de dq9Recomp, et l'APK Android (téléphones 64 bits, Android 8 ou plus).",
+        "url": "https://github.com/Ajustor/dq9Recomp-releases/releases/tag/v2.0.524"
+      },
+      {
+        "version": "2.0.513",
+        "date": "2026-11-06",
+        "notes": "Paquets Windows et Linux de dq9Recomp, et l'APK Android (téléphones 64 bits, Android 8 ou plus).",
+        "url": "https://github.com/Ajustor/dq9Recomp-releases/releases/tag/v2.0.513"
+      },
+      {
+        "version": "2.0.512",
+        "date": "2026-11-06",
+        "notes": "Paquets Windows et Linux de dq9Recomp, et l'APK Android (téléphones 64 bits, Android 8 ou plus).",
+        "url": "https://github.com/Ajustor/dq9Recomp-releases/releases/tag/v2.0.512"
+      },
+      {
+        "version": "2.0.510",
+        "date": "2026-11-06",
+        "notes": "Paquets Windows et Linux de dq9Recomp, et l'APK Android (téléphones 64 bits, Android 8 ou plus).",
+        "url": "https://github.com/Ajustor/dq9Recomp-releases/releases/tag/v2.0.510"
+      },
+      {
+        "version": "2.0.508",
+        "date": "2026-11-06",
+        "notes": "Paquets Windows et Linux de dq9Recomp, et l'APK Android (téléphones 64 bits, Android 8 ou plus).",
+        "url": "https://github.com/Ajustor/dq9Recomp-releases/releases/tag/v2.0.508"
+      },
+      {
+        "version": "2.0.0",
+        "date": "2026-11-06",
+        "notes": "Paquets Windows et Linux de dq9Recomp, et l'APK Android (téléphones 64 bits, Android 8 ou plus).",
+        "url": "https://github.com/Ajustor/dq9Recomp-releases/releases/tag/v2.0.0"
+      },
+      {
+        "version": "0.4.503",
+        "date": "2026-11-06",
+        "notes": "Paquets Windows et Linux de dq9Recomp, et l'APK Android (téléphones 64 bits, Android 8 ou plus).",
+        "url": "https://github.com/Ajustor/dq9Recomp-releases/releases/tag/v0.4.503"
+      },
+      {
+        "version": "0.4.498",
+        "date": "2026-11-06",
+        "notes": "Paquets Windows et Linux de dq9Recomp, et l'APK Android (téléphones 64 bits, Android 8 ou plus).",
+        "url": "https://github.com/Ajustor/dq9Recomp-releases/releases/tag/v0.4.498"
+      },
+      {
+        "version": "0.4.462",
+        "date": "2026-11-05",
+        "notes": "Paquets Windows et Linux de dq9Recomp, et l'APK Android (téléphones 64 bits, Android 8 ou plus).",
+        "url": "https://github.com/Ajustor/dq9Recomp-releases/releases/tag/v0.4.462"
+      },
+      {
+        "version": "0.4.460",
+        "date": "2026-11-05",
+        "notes": "Paquets Windows et Linux de dq9Recomp, et l'APK Android (téléphones 64 bits, Android 8 ou plus).",
+        "url": "https://github.com/Ajustor/dq9Recomp-releases/releases/tag/v0.4.460"
+      }
+    ]
+  },
+  "elite-beat-agents-recomp": {
+    "releases": [
+      {
+        "version": "1.0.1",
+        "date": "2026-11-09",
+        "notes": "A bug-fix release for v1.0.0. If you have v1.0.0 or rc1, update: your saves, settings and customs are kept.",
+        "url": "https://github.com/BehonArt/ebaouendan_musiclives/releases/tag/v1.0.1"
+      },
+      {
+        "version": "1.0.0",
+        "date": "2026-11-08",
+        "url": "https://github.com/BehonArt/ebaouendan_musiclives/releases/tag/v1.0.0"
+      },
+      {
+        "version": "1.0.0-rc1",
+        "date": "2026-11-04",
+        "url": "https://github.com/BehonArt/ebaouendan_musiclives/releases/tag/v1.0.0-rc1"
+      }
+    ]
+  },
+  "fe-awakening-recomp": {
+    "releases": [
+      {
+        "version": "1.0.14",
+        "date": "2026-11-11",
+        "notes": "On Windows, download fe-awakening-launcher-v1.0.14-windows-x64.zip, unzip it and run zakuro.exe. From v1.0.0, Update Launcher installs it for you.",
+        "url": "https://github.com/Zelkin1/fe-awakening-recomp/releases/tag/v1.0.14"
+      },
+      {
+        "version": "1.0.13",
+        "date": "2026-11-11",
+        "notes": "On Windows, download fe-awakening-launcher-v1.0.13-windows-x64.zip, unzip it and run zakuro.exe. From v1.0.0, Update Launcher installs it for you.",
+        "url": "https://github.com/Zelkin1/fe-awakening-recomp/releases/tag/v1.0.13"
+      },
+      {
+        "version": "1.0.12",
+        "date": "2026-11-11",
+        "notes": "Download fe-awakening-launcher-v1.0.12-windows-x64.zip, unzip it and run zakuro.exe. From v1.0.0, Update Launcher installs it for you.",
+        "url": "https://github.com/Zelkin1/fe-awakening-recomp/releases/tag/v1.0.12"
+      },
+      {
+        "version": "1.0.11",
+        "date": "2026-11-10",
+        "notes": "Download fe-awakening-launcher-v1.0.11-windows-x64.zip, unzip it and run zakuro.exe. From v1.0.0, Update Launcher installs it for you.",
+        "url": "https://github.com/Zelkin1/fe-awakening-recomp/releases/tag/v1.0.11"
+      },
+      {
+        "version": "1.0.10",
+        "date": "2026-11-09",
+        "notes": "Download fe-awakening-launcher-v1.0.10-windows-x64.zip, unzip it and run zakuro.exe. From v1.0.0, Update Launcher installs it for you.",
+        "url": "https://github.com/Zelkin1/fe-awakening-recomp/releases/tag/v1.0.10"
+      },
+      {
+        "version": "1.0.9",
+        "date": "2026-11-09",
+        "notes": "Download fe-awakening-launcher-v1.0.9-windows-x64.zip, unzip it and run zakuro.exe. From v1.0.0, Update Launcher installs it for you.",
+        "url": "https://github.com/Zelkin1/fe-awakening-recomp/releases/tag/v1.0.9"
+      },
+      {
+        "version": "1.0.8",
+        "date": "2026-11-09",
+        "notes": "Download fe-awakening-launcher-v1.0.8-windows-x64.zip, unzip it and run zakuro.exe. From v1.0.0, Update Launcher installs it for you.",
+        "url": "https://github.com/Zelkin1/fe-awakening-recomp/releases/tag/v1.0.8"
+      },
+      {
+        "version": "1.0.7",
+        "date": "2026-11-08",
+        "notes": "Download fe-awakening-launcher-v1.0.7-windows-x64.zip, unzip it and run zakuro.exe. From v1.0.0, Update Launcher installs it for you.",
+        "url": "https://github.com/Zelkin1/fe-awakening-recomp/releases/tag/v1.0.7"
+      },
+      {
+        "version": "1.0.6",
+        "date": "2026-11-08",
+        "notes": "Download fe-awakening-launcher-v1.0.6-windows-x64.zip, unzip it and run zakuro.exe. From v1.0.0, Update Launcher installs it for you.",
+        "url": "https://github.com/Zelkin1/fe-awakening-recomp/releases/tag/v1.0.6"
+      },
+      {
+        "version": "1.0.5",
+        "date": "2026-11-08",
+        "notes": "Download fe-awakening-launcher-v1.0.5-windows-x64.zip, unzip it and run zakuro.exe. From v1.0.0, Update Launcher installs it for you.",
+        "url": "https://github.com/Zelkin1/fe-awakening-recomp/releases/tag/v1.0.5"
+      },
+      {
+        "version": "1.0.4",
+        "date": "2026-11-08",
+        "notes": "Download fe-awakening-launcher-v1.0.4-windows-x64.zip, unzip it and run zakuro.exe. From v1.0.0, Update Launcher installs it for you.",
+        "url": "https://github.com/Zelkin1/fe-awakening-recomp/releases/tag/v1.0.4"
+      },
+      {
+        "version": "1.0.3",
+        "date": "2026-11-08",
+        "notes": "Download fe-awakening-launcher-v1.0.3-windows-x64.zip, unzip it and run zakuro.exe. From v1.0.0, Update Launcher installs it for you.",
+        "url": "https://github.com/Zelkin1/fe-awakening-recomp/releases/tag/v1.0.3"
+      }
+    ]
+  },
+  "fist-of-the-north-star-port": {
+    "releases": [
+      {
+        "version": "0.1.4-alpha",
+        "date": "2026-11-09",
+        "notes": "Fifth and last alpha of PortGaGotoku: *Fist of the North Star: Lost Paradise* (PS4, CUSA12781) running",
+        "url": "https://github.com/ItalianKuze/port-ga-gotoku/releases/tag/v0.1.4-alpha"
+      },
+      {
+        "version": "0.1.3-alpha",
+        "date": "2026-11-03",
+        "notes": "Fourth alpha of PortGaGotoku: *Fist of the North Star: Lost Paradise* (PS4, CUSA12781) running on",
+        "url": "https://github.com/ItalianKuze/port-ga-gotoku/releases/tag/v0.1.3-alpha"
+      },
+      {
+        "version": "0.1.3-dev-amd-test",
+        "date": "2026-11-02",
+        "notes": "Testers only: for AMD Radeon RX 9000 cards (RX 9070 / 9070 XT / 9060 XT) that show grainy pixels on the 3D image. Everyone else: stay on v0.1.2-alpha.",
+        "url": "https://github.com/ItalianKuze/port-ga-gotoku/releases/tag/v0.1.3-dev-amd-test"
+      },
+      {
+        "version": "0.1.3-dev-linux-test",
+        "date": "2026-10-27",
+        "notes": "Test build for Linux / Steam Deck. It has never been tried on a Steam Deck.",
+        "url": "https://github.com/ItalianKuze/port-ga-gotoku/releases/tag/v0.1.3-dev-linux-test"
+      },
+      {
+        "version": "0.1.2-alpha",
+        "date": "2026-10-22",
+        "notes": "Third alpha of PortGaGotoku: *Fist of the North Star: Lost Paradise* (PS4, CUSA12781) running on",
+        "url": "https://github.com/ItalianKuze/port-ga-gotoku/releases/tag/v0.1.2-alpha"
+      },
+      {
+        "version": "0.1.1-alpha",
+        "date": "2026-10-21",
+        "notes": "⚠️ Windows: before extracting, right-click the zip → Properties → check Unblock → OK. Otherwise the launcher won't start (fix coming in the next version).",
+        "url": "https://github.com/ItalianKuze/port-ga-gotoku/releases/tag/v0.1.1-alpha"
+      },
+      {
+        "version": "0.1.0-alpha",
+        "date": "2026-10-19",
+        "notes": "⚠️ Windows: before extracting, right-click the zip → Properties → check Unblock → OK. Otherwise the launcher won't start (fix coming in the next version).",
+        "url": "https://github.com/ItalianKuze/port-ga-gotoku/releases/tag/v0.1.0-alpha"
+      }
+    ]
+  },
+  "gears-of-war-2-pc": {
+    "releases": [
+      {
+        "version": "0.4.0",
+        "date": "2026-11-10",
+        "url": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.4.0"
+      },
+      {
+        "version": "0.3.18",
+        "date": "2026-11-10",
+        "url": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.3.18"
+      },
+      {
+        "version": "0.3.17",
+        "date": "2026-11-10",
+        "url": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.3.17"
+      },
+      {
+        "version": "0.3.16",
+        "date": "2026-11-10",
+        "url": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.3.16"
+      },
+      {
+        "version": "0.3.15",
+        "date": "2026-11-09",
+        "url": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.3.15"
+      },
+      {
+        "version": "0.3.14",
+        "date": "2026-11-06",
+        "url": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.3.14"
+      },
+      {
+        "version": "0.3.13",
+        "date": "2026-11-04",
+        "url": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.3.13"
+      },
+      {
+        "version": "0.3.12",
+        "date": "2026-10-30",
+        "url": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.3.12"
+      },
+      {
+        "version": "0.3.11",
+        "date": "2026-10-30",
+        "url": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.3.11"
+      },
+      {
+        "version": "0.3.10",
+        "date": "2026-10-29",
+        "url": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.3.10"
+      },
+      {
+        "version": "0.3.9",
+        "date": "2026-10-29",
+        "url": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.3.9"
+      },
+      {
+        "version": "0.3.8",
+        "date": "2026-10-29",
+        "url": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.3.8"
+      }
+    ]
+  },
+  "gears3-recomp-android": {
+    "releases": [
+      {
+        "version": "1.1.0",
+        "date": "2026-11-10",
+        "notes": "Gears3Recomp 1.1.0: arreglos de crash.",
+        "url": "https://github.com/Jauidev/Gears3Recomp/releases/tag/v1.1.0"
+      },
+      {
+        "version": "1.0.0",
+        "date": "2026-11-03",
+        "notes": "Primera versión de Gears3Recomp: Gears of War 3 (Xbox 360) recompilado para Android.",
+        "url": "https://github.com/Jauidev/Gears3Recomp/releases/tag/v1.0.0"
+      }
+    ]
+  },
+  "goemons-great-adventure-recomp": {
+    "releases": [
+      {
+        "version": "0.2.1",
+        "date": "2026-11-11",
+        "notes": "A bug-fix release for wide windows and texture filtering. Thanks to everyone who reported issues and tested!",
+        "url": "https://github.com/DreaXer/GGARecomp/releases/tag/v0.2.1"
+      },
+      {
+        "version": "0.2.0",
+        "date": "2026-11-08",
+        "notes": "The game now also runs on Linux, and the startup logos are fixed in widescreen. Thanks to everyone who reported issues and tested!",
+        "url": "https://github.com/DreaXer/GGARecomp/releases/tag/v0.2.0"
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-11-08",
+        "url": "https://github.com/DreaXer/GGARecomp/releases/tag/v0.1.1"
+      },
+      {
+        "version": "0.1.0",
+        "date": "2026-11-03",
+        "url": "https://github.com/DreaXer/GGARecomp/releases/tag/v0.1.0"
+      }
+    ]
+  },
+  "hookshot": {
+    "releases": [
+      {
+        "version": "2.1.0",
+        "date": "2026-11-11",
+        "url": "https://github.com/NotRexed/Hookshot/releases/tag/v2.1.0"
+      },
+      {
+        "version": "2.1.0-rc.3",
+        "date": "2026-11-11",
+        "url": "https://github.com/NotRexed/Hookshot/releases/tag/v2.1.0-rc.3"
+      },
+      {
+        "version": "2.1.0-rc.2",
+        "date": "2026-11-11",
+        "url": "https://github.com/NotRexed/Hookshot/releases/tag/v2.1.0-rc.2"
+      },
+      {
+        "version": "2.1.0-rc.1",
+        "date": "2026-11-11",
+        "notes": "Add a control to disable camera centering (2dcf210)",
+        "url": "https://github.com/NotRexed/Hookshot/releases/tag/v2.1.0-rc.1"
+      },
+      {
+        "version": "2.0.14",
+        "date": "2026-11-10",
+        "notes": "A hotfix on top of v2.0.13 with three fixes. Everything else is the same as v2.0.13. If you're on v2.0.13 or earlier, the Builder's update picks this up.",
+        "url": "https://github.com/NotRexed/Hookshot/releases/tag/v2.0.14"
+      },
+      {
+        "version": "2.0.13",
+        "date": "2026-11-10",
+        "notes": "A hotfix on top of v2.0.12 with two fixes. Everything else is the same as v2.0.12. If you're on v2.0.12, the Builder's update picks this up.",
+        "url": "https://github.com/NotRexed/Hookshot/releases/tag/v2.0.13"
+      },
+      {
+        "version": "2.0.12",
+        "date": "2026-11-10",
+        "notes": "The biggest update yet: about 110 pull requests from 40+ contributors, tested together.",
+        "url": "https://github.com/NotRexed/Hookshot/releases/tag/v2.0.12"
+      },
+      {
+        "version": "2.0.11",
+        "date": "2026-11-09",
+        "url": "https://github.com/NotRexed/Hookshot/releases/tag/v2.0.11"
+      },
+      {
+        "version": "2.0.10",
+        "date": "2026-11-09",
+        "url": "https://github.com/NotRexed/Hookshot/releases/tag/v2.0.10"
+      },
+      {
+        "version": "2.0.9",
+        "date": "2026-11-09",
+        "url": "https://github.com/NotRexed/Hookshot/releases/tag/v2.0.9"
+      },
+      {
+        "version": "2.0.8",
+        "date": "2026-11-09",
+        "notes": "> Update to v2.0.9: v2.0.8 could lose the GPU right after start on NVIDIA's newer driver (#1161). v2.0.9 fixes that and keeps everything else below.",
+        "url": "https://github.com/NotRexed/Hookshot/releases/tag/v2.0.8"
+      }
+    ]
+  },
+  "hwaoi-recomp": {
+    "releases": [
+      {
+        "version": "0.1.0-alpha.5",
+        "date": "2026-11-09",
+        "notes": "A portable Windows x64 compiler for building HWAoI Recomp from your own matching NUP.",
+        "url": "https://github.com/Alano6678/hwaoi-recomp/releases/tag/v0.1.0-alpha.5"
+      },
+      {
+        "version": "0.1.0-alpha.1",
+        "date": "2026-11-08",
+        "notes": "A portable compiler window for building HWAoI Recomp locally from your own matching game NUP.",
+        "url": "https://github.com/Alano6678/hwaoi-recomp/releases/tag/v0.1.0-alpha.1"
+      }
+    ]
+  },
+  "marvel-vs-capcom-2-recomp": {
+    "releases": [
+      {
+        "version": "1.0.1",
+        "date": "2026-11-08",
+        "url": "https://github.com/dalves408/mvsc2-recomp/releases/tag/v1.0.1"
+      },
+      {
+        "version": "1.0.0",
+        "date": "2026-11-07",
+        "url": "https://github.com/dalves408/mvsc2-recomp/releases/tag/v1.0.0"
+      }
+    ]
+  },
+  "maximo-ghosts-to-glory-recomp": {
+    "releases": [
+      {
+        "version": "1.0.2",
+        "date": "2026-11-11",
+        "notes": "Maximo: Ghosts to Glory PC port: 1.0.2",
+        "url": "https://github.com/BioRhythmicStudios/Maximo-GTG/releases/tag/1.0.2"
+      },
+      {
+        "version": "1.0.1",
+        "date": "2026-11-09",
+        "url": "https://github.com/BioRhythmicStudios/Maximo-GTG/releases/tag/1.0.1"
+      },
+      {
+        "version": "1.0.0",
+        "date": "2026-11-06",
+        "notes": "First release of Maximo Ghosts To Glory PS2 Recomp is finally here.",
+        "url": "https://github.com/BioRhythmicStudios/Maximo-GTG/releases/tag/1.0.0"
+      }
+    ]
+  },
+  "metroid-samus-returns-pc": {
+    "releases": [
+      {
+        "version": "2.0.6",
+        "date": "2026-11-10",
+        "notes": "Windows, Linux (x86_64), macOS (Apple Silicon) and Android (arm64).",
+        "url": "https://github.com/gminustwo/msr2ds/releases/tag/v2.0.6"
+      },
+      {
+        "version": "2.0.5",
+        "date": "2026-11-09",
+        "notes": "Windows, Linux (x86_64), macOS (Apple Silicon) and Android (arm64).",
+        "url": "https://github.com/gminustwo/msr2ds/releases/tag/v2.0.5"
+      },
+      {
+        "version": "2.0.4",
+        "date": "2026-11-07",
+        "notes": "Windows, Linux (x86_64), macOS (Apple Silicon) and Android (arm64).",
+        "url": "https://github.com/gminustwo/msr2ds/releases/tag/v2.0.4"
+      },
+      {
+        "version": "2.0.3",
+        "date": "2026-11-06",
+        "notes": "Windows, Linux (x86_64), macOS (Apple Silicon) and Android (arm64).",
+        "url": "https://github.com/gminustwo/msr2ds/releases/tag/v2.0.3"
+      },
+      {
+        "version": "2.0.2",
+        "date": "2026-11-06",
+        "notes": "Windows, Linux (x86_64), macOS (Apple Silicon) and, for the first time, Android (arm64).",
+        "url": "https://github.com/gminustwo/msr2ds/releases/tag/v2.0.2"
+      },
+      {
+        "version": "2.0.1",
+        "date": "2026-11-05",
+        "url": "https://github.com/gminustwo/msr2ds/releases/tag/v2.0.1"
+      },
+      {
+        "version": "2.0",
+        "date": "2026-11-05",
+        "url": "https://github.com/gminustwo/msr2ds/releases/tag/v2.0"
+      },
+      {
+        "version": "1.1.1-pre",
+        "date": "2026-11-03",
+        "notes": "A hotfix pre-release of msr2ds 1.1. Everything in 1.1 is here, plus the fix below.",
+        "url": "https://github.com/gminustwo/msr2ds/releases/tag/v1.1.1-pre"
+      },
+      {
+        "version": "1.1.0-pre",
+        "date": "2026-11-01",
+        "notes": "*Metroid: Samus Returns* as a single-screen PC game, built on the Azahar 3DS emulator. This is msr2ds 1.1, with the new features below.",
+        "url": "https://github.com/gminustwo/msr2ds/releases/tag/v1.1.0-pre"
+      },
+      {
+        "version": "1.0",
+        "date": "2026-10-29",
+        "notes": "*Metroid: Samus Returns* as a single-screen PC game, built on the Azahar 3DS emulator.",
+        "url": "https://github.com/gminustwo/msr2ds/releases/tag/v1.0"
+      }
+    ]
+  },
+  "midnight-club-3-dub-remix": {
+    "releases": [
+      {
+        "version": "0.3.7",
+        "date": "2026-11-11",
+        "url": "https://github.com/SickSartori/mc3port/releases/tag/v0.3.7"
+      },
+      {
+        "version": "0.3.6",
+        "date": "2026-11-10",
+        "url": "https://github.com/SickSartori/mc3port/releases/tag/v0.3.6"
+      },
+      {
+        "version": "0.3.5",
+        "date": "2026-11-09",
+        "url": "https://github.com/SickSartori/mc3port/releases/tag/v0.3.5"
+      },
+      {
+        "version": "0.3.4",
+        "date": "2026-11-08",
+        "url": "https://github.com/SickSartori/mc3port/releases/tag/v0.3.4"
+      },
+      {
+        "version": "0.3.3",
+        "date": "2026-11-08",
+        "url": "https://github.com/SickSartori/mc3port/releases/tag/v0.3.3"
+      },
+      {
+        "version": "0.3.2",
+        "date": "2026-11-08",
+        "url": "https://github.com/SickSartori/mc3port/releases/tag/v0.3.2"
+      },
+      {
+        "version": "0.3.1",
+        "date": "2026-11-06",
+        "url": "https://github.com/SickSartori/mc3port/releases/tag/v0.3.1"
+      },
+      {
+        "version": "0.3.0",
+        "date": "2026-11-04",
+        "notes": "Crash dump: the first crash of a run writes mc3port-crash.dmp next to mc3port.log, to attach to a report with the log. It holds no file paths.",
+        "url": "https://github.com/SickSartori/mc3port/releases/tag/v0.3.0"
+      },
+      {
+        "version": "0.2.6",
+        "date": "2026-11-04",
+        "url": "https://github.com/SickSartori/mc3port/releases/tag/v0.2.6"
+      },
+      {
+        "version": "0.2.4",
+        "date": "2026-11-01",
+        "url": "https://github.com/SickSartori/mc3port/releases/tag/v0.2.4"
+      }
+    ]
+  },
+  "nightmare-before-christmas-oogie-recomp": {
+    "releases": [
+      {
+        "version": "0.3.0-hfr-test4",
+        "date": "2026-11-09",
+        "notes": "This is a test build, not the main release. Keep your normal copy and unzip",
+        "url": "https://github.com/Pallypots/ProjectOogie/releases/tag/v0.3.0-hfr-test4"
+      },
+      {
+        "version": "0.3.0-hfr-test3",
+        "date": "2026-11-08",
+        "notes": "This is a test build, not the main release. Keep your normal copy and unzip",
+        "url": "https://github.com/Pallypots/ProjectOogie/releases/tag/v0.3.0-hfr-test3"
+      },
+      {
+        "version": "0.3.0-hfr-test2",
+        "date": "2026-11-08",
+        "notes": "This is a test build, not the main release. Keep your normal copy and unzip",
+        "url": "https://github.com/Pallypots/ProjectOogie/releases/tag/v0.3.0-hfr-test2"
+      },
+      {
+        "version": "0.3.0",
+        "date": "2026-11-07",
+        "notes": "Two new ways to play, requested in GitHub #13. Thanks to Bzshizzle for the idea",
+        "url": "https://github.com/Pallypots/ProjectOogie/releases/tag/v0.3.0"
+      },
+      {
+        "version": "0.3.0-hfr-test1",
+        "date": "2026-11-07",
+        "notes": "This is a test build, not the main release. It is 0.3.0 plus one experimental",
+        "url": "https://github.com/Pallypots/ProjectOogie/releases/tag/v0.3.0-hfr-test1"
+      },
+      {
+        "version": "0.2.9",
+        "date": "2026-11-06",
+        "notes": "Fixes for GitHub #12, \"A Buggy Finale\".",
+        "url": "https://github.com/Pallypots/ProjectOogie/releases/tag/v0.2.9"
+      },
+      {
+        "version": "0.2.8",
+        "date": "2026-11-05",
+        "notes": "The Fire King is whole again, cutscene cameras no longer look \"stuck in the",
+        "url": "https://github.com/Pallypots/ProjectOogie/releases/tag/v0.2.8"
+      },
+      {
+        "version": "0.2.8-test3",
+        "date": "2026-11-05",
+        "notes": "Packs switched off by mistake work again. Test 1 listed the texture",
+        "url": "https://github.com/Pallypots/ProjectOogie/releases/tag/v0.2.8-test3"
+      },
+      {
+        "version": "0.2.8-test2",
+        "date": "2026-11-05",
+        "notes": "The packs now load wherever the game is. The packs' own folder names",
+        "url": "https://github.com/Pallypots/ProjectOogie/releases/tag/v0.2.8-test2"
+      },
+      {
+        "version": "0.2.8-test1",
+        "date": "2026-11-04",
+        "notes": "A test build for the sound balance (GitHub #9). Everything else is as in 0.2.7.",
+        "url": "https://github.com/Pallypots/ProjectOogie/releases/tag/v0.2.8-test1"
+      },
+      {
+        "version": "0.2.7",
+        "date": "2026-11-04",
+        "notes": "One-Shot Kill now works on bosses, PS2 HD textures, three button-prompt",
+        "url": "https://github.com/Pallypots/ProjectOogie/releases/tag/v0.2.7"
+      },
+      {
+        "version": "0.2.7-test1",
+        "date": "2026-11-03",
+        "url": "https://github.com/Pallypots/ProjectOogie/releases/tag/v0.2.7-test1"
+      }
+    ]
+  },
+  "ocarina-of-time-recomp": {
+    "releases": [
+      {
+        "version": "0.3.3",
+        "date": "2026-11-09",
+        "notes": "Versão de teste.",
+        "url": "https://github.com/sostenesfreitas/ocarina-recomp/releases/tag/v0.3.3"
+      },
+      {
+        "version": "0.3.2",
+        "date": "2026-11-09",
+        "notes": "Versão de teste.",
+        "url": "https://github.com/sostenesfreitas/ocarina-recomp/releases/tag/v0.3.2"
+      },
+      {
+        "version": "0.3.1",
+        "date": "2026-11-09",
+        "notes": "Versão de teste. Principalmente para quem tem placa AMD com a imagem branca ou estourada.",
+        "url": "https://github.com/sostenesfreitas/ocarina-recomp/releases/tag/v0.3.1"
+      },
+      {
+        "version": "0.3.0",
+        "date": "2026-11-09",
+        "notes": "Português",
+        "url": "https://github.com/sostenesfreitas/ocarina-recomp/releases/tag/v0.3.0"
+      },
+      {
+        "version": "0.2.9",
+        "date": "2026-11-08",
+        "notes": "Português",
+        "url": "https://github.com/sostenesfreitas/ocarina-recomp/releases/tag/v0.2.9"
+      },
+      {
+        "version": "0.2.8",
+        "date": "2026-11-08",
+        "notes": "Português",
+        "url": "https://github.com/sostenesfreitas/ocarina-recomp/releases/tag/v0.2.8"
+      },
+      {
+        "version": "0.2.7",
+        "date": "2026-11-08",
+        "notes": "Português",
+        "url": "https://github.com/sostenesfreitas/ocarina-recomp/releases/tag/v0.2.7"
+      },
+      {
+        "version": "0.2.6",
+        "date": "2026-11-07",
+        "notes": "Português",
+        "url": "https://github.com/sostenesfreitas/ocarina-recomp/releases/tag/v0.2.6"
+      },
+      {
+        "version": "0.2.5",
+        "date": "2026-11-07",
+        "notes": "Português",
+        "url": "https://github.com/sostenesfreitas/ocarina-recomp/releases/tag/v0.2.5"
+      },
+      {
+        "version": "0.2.4",
+        "date": "2026-11-07",
+        "notes": "Português",
+        "url": "https://github.com/sostenesfreitas/ocarina-recomp/releases/tag/v0.2.4"
+      },
+      {
+        "version": "0.2.3",
+        "date": "2026-11-07",
+        "notes": "Português",
+        "url": "https://github.com/sostenesfreitas/ocarina-recomp/releases/tag/v0.2.3"
+      },
+      {
+        "version": "0.2.2",
+        "date": "2026-11-07",
+        "notes": "Português",
+        "url": "https://github.com/sostenesfreitas/ocarina-recomp/releases/tag/v0.2.2"
+      }
+    ]
+  },
+  "ocarina-retuned": {
+    "releases": [
+      {
+        "version": "0.6.4",
+        "date": "2026-11-10",
+        "notes": "Hotfix for android vulkan fix",
+        "url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/tag/v0.6.4"
+      },
+      {
+        "version": "0.6.3",
+        "date": "2026-11-10",
+        "notes": "Custom Vulkan drivers on compatible Android devices.",
+        "url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/tag/v0.6.3"
+      },
+      {
+        "version": "0.6.2",
+        "date": "2026-11-06",
+        "notes": "Instant minimap toggling with ZL.",
+        "url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/tag/v0.6.2"
+      },
+      {
+        "version": "0.6.1",
+        "date": "2026-10-31",
+        "notes": "Added Save game access in Dual mode, from the lower screen and General settings.",
+        "url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/tag/v0.6.1"
+      },
+      {
+        "version": "0.6.0",
+        "date": "2026-10-31",
+        "notes": "Restored Screen mode and Bottom equipment panel under General.",
+        "url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/tag/0.6.0"
+      },
+      {
+        "version": "0.5.9",
+        "date": "2026-10-30",
+        "notes": "Fixed an Android startup crash caused by a mismatched C++ runtime.",
+        "url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/tag/v0.5.9"
+      },
+      {
+        "version": "0.5.8",
+        "date": "2026-10-30",
+        "notes": "Fixed motion aiming on Android and iOS.",
+        "url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/tag/v0.5.8"
+      },
+      {
+        "version": "0.5.7",
+        "date": "2026-10-27",
+        "notes": "Hotfix - Fixed a crash when Game Over appears.",
+        "url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/tag/v0.5.7"
+      },
+      {
+        "version": "0.5.6",
+        "date": "2026-10-27",
+        "notes": "Customizable touch-control placement on Android and iOS.",
+        "url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/tag/v0.5.6"
+      },
+      {
+        "version": "0.5.5",
+        "date": "2026-10-27",
+        "notes": "Ocarina ReTuned Preview 0.5.5",
+        "url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/tag/v0.5.5"
+      },
+      {
+        "version": "0.5.0",
+        "date": "2026-10-26",
+        "notes": "Ocarina ReTuned 0.5.0",
+        "url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/tag/v0.5.0"
+      },
+      {
+        "version": "0.2.0-preview",
+        "date": "2026-10-24",
+        "notes": "Experimental Switch support",
+        "url": "https://github.com/OTPR26/Ocarina-ReTuned/releases/tag/v0.2.0-preview"
+      }
+    ]
+  },
+  "panzer-dragoon-orta-recompiled": {
+    "releases": [
+      {
+        "version": "1.0.0",
+        "date": "2026-11-10",
+        "notes": "Orta Recompiled v1.0.0 - the static recompilation of *Panzer Dragoon Orta* (Xbox, Europe / PAL), now playable",
+        "url": "https://github.com/almost-drowned-rat/Orta-Recompiled/releases/tag/v1.0.0"
+      },
+      {
+        "version": "0.9.0",
+        "date": "2026-11-08",
+        "notes": "Orta Recompiled v0.9.0 - the static recompilation of *Panzer Dragoon Orta* (Xbox, Europe / PAL)",
+        "url": "https://github.com/almost-drowned-rat/Orta-Recompiled/releases/tag/v0.9.0"
+      },
+      {
+        "version": "0.6.1-beta",
+        "date": "2026-11-05",
+        "notes": "Orta Recompiled v0.6.1-beta - an update of the open beta of the static recompilation of *Panzer Dragoon Orta*",
+        "url": "https://github.com/almost-drowned-rat/Orta-Recompiled/releases/tag/v0.6.1-beta"
+      },
+      {
+        "version": "0.6.0-beta",
+        "date": "2026-11-04",
+        "notes": "The first public release of Orta Recompiled - a static recompilation of *Panzer Dragoon Orta* (Xbox, Europe /",
+        "url": "https://github.com/almost-drowned-rat/Orta-Recompiled/releases/tag/v0.6.0-beta"
+      }
+    ]
+  },
+  "phantasy-star-iv-recomp": {
+    "releases": [
+      {
+        "version": "0.2.0-alpha",
+        "date": "2026-11-09",
+        "url": "https://github.com/MotaviaWorks/PSIVRecomp/releases/tag/v0.2.0-alpha"
+      },
+      {
+        "version": "0.1.1-alpha",
+        "date": "2026-11-07",
+        "url": "https://github.com/MotaviaWorks/PSIVRecomp/releases/tag/v0.1.1-alpha"
+      },
+      {
+        "version": "0.1.0-alpha",
+        "date": "2026-11-07",
+        "url": "https://github.com/MotaviaWorks/PSIVRecomp/releases/tag/v0.1.0-alpha"
+      }
+    ]
+  },
+  "plarecomp": {
+    "releases": [
+      {
+        "version": "0.1.6",
+        "date": "2026-11-09",
+        "notes": "Bug-fix release.",
+        "url": "https://github.com/artesanalintelligence/PLARecomp/releases/tag/v0.1.6"
+      },
+      {
+        "version": "0.1.5",
+        "date": "2026-11-08",
+        "notes": "Bug-fix release.",
+        "url": "https://github.com/artesanalintelligence/PLARecomp/releases/tag/v0.1.5"
+      },
+      {
+        "version": "0.1.4",
+        "date": "2026-11-08",
+        "notes": "Bug-fix release.",
+        "url": "https://github.com/artesanalintelligence/PLARecomp/releases/tag/v0.1.4"
+      },
+      {
+        "version": "0.1.3",
+        "date": "2026-11-08",
+        "notes": "Bug-fix release.",
+        "url": "https://github.com/artesanalintelligence/PLARecomp/releases/tag/v0.1.3"
+      },
+      {
+        "version": "0.1.2",
+        "date": "2026-11-08",
+        "notes": "Bug-fix release.",
+        "url": "https://github.com/artesanalintelligence/PLARecomp/releases/tag/v0.1.2"
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-10-18",
+        "notes": "Bug-fix release.",
+        "url": "https://github.com/artesanalintelligence/PLARecomp/releases/tag/v0.1.1"
+      },
+      {
+        "version": "0.1.0",
+        "date": "2026-10-15",
+        "notes": "First private test release.",
+        "url": "https://github.com/artesanalintelligence/PLARecomp/releases/tag/v0.1.0"
+      }
+    ]
+  },
+  "pokez-arecomp": {
+    "releases": [
+      {
+        "version": "0.1.22",
+        "date": "2026-11-10",
+        "url": "https://github.com/Hexveil404/PokeZ-ARecomp/releases/tag/v0.1.22"
+      },
+      {
+        "version": "0.1.21",
+        "date": "2026-11-10",
+        "url": "https://github.com/Hexveil404/PokeZ-ARecomp/releases/tag/v0.1.21"
+      },
+      {
+        "version": "0.1.20",
+        "date": "2026-11-08",
+        "notes": "No game-code rebuild needed: updating keeps your compiled game. Shaders are translated again on the first start.",
+        "url": "https://github.com/Hexveil404/PokeZ-ARecomp/releases/tag/v0.1.20"
+      },
+      {
+        "version": "0.1.19",
+        "date": "2026-11-07",
+        "notes": "No game-code rebuild needed: updating keeps your compiled game.",
+        "url": "https://github.com/Hexveil404/PokeZ-ARecomp/releases/tag/v0.1.19"
+      },
+      {
+        "version": "0.1.18",
+        "date": "2026-11-05",
+        "url": "https://github.com/Hexveil404/PokeZ-ARecomp/releases/tag/v0.1.18"
+      },
+      {
+        "version": "0.1.17",
+        "date": "2026-11-05",
+        "url": "https://github.com/Hexveil404/PokeZ-ARecomp/releases/tag/v0.1.17"
+      },
+      {
+        "version": "0.1.16",
+        "date": "2026-11-03",
+        "url": "https://github.com/Hexveil404/PokeZ-ARecomp/releases/tag/v0.1.16"
+      },
+      {
+        "version": "0.1.15",
+        "date": "2026-11-02",
+        "notes": "Updating: on v0.1.12 or newer, use Update now on the start screen. No game code rebuild: your game, saves and mods stay as they are.",
+        "url": "https://github.com/Hexveil404/PokeZ-ARecomp/releases/tag/v0.1.15"
+      }
+    ]
+  },
+  "portal2-recomp": {
+    "releases": [
+      {
+        "version": "0.3.1",
+        "date": "2026-11-08",
+        "url": "https://github.com/kanapitsas/source-recomp/releases/tag/v0.3.1"
+      },
+      {
+        "version": "0.3.0",
+        "date": "2026-11-08",
+        "url": "https://github.com/kanapitsas/source-recomp/releases/tag/v0.3.0"
+      },
+      {
+        "version": "0.1.0",
+        "date": "2026-11-06",
+        "notes": "First tagged release of Portal 2 statically recompiled for Apple silicon.",
+        "url": "https://github.com/kanapitsas/source-recomp/releases/tag/v0.1.0"
+      }
+    ]
+  },
+  "primerecomp": {
+    "releases": [
+      {
+        "version": "0.0.9",
+        "date": "2026-11-09",
+        "url": "https://github.com/gminustwo/primerecomp/releases/tag/v0.0.9"
+      },
+      {
+        "version": "0.0.8",
+        "date": "2026-11-07",
+        "url": "https://github.com/gminustwo/primerecomp/releases/tag/v0.0.8"
+      },
+      {
+        "version": "0.0.7",
+        "date": "2026-11-06",
+        "url": "https://github.com/gminustwo/primerecomp/releases/tag/v0.0.7"
+      },
+      {
+        "version": "0.0.6",
+        "date": "2026-11-02",
+        "url": "https://github.com/gminustwo/primerecomp/releases/tag/v0.0.6"
+      },
+      {
+        "version": "0.0.5",
+        "date": "2026-10-30",
+        "notes": "> [!IMPORTANT]",
+        "url": "https://github.com/gminustwo/primerecomp/releases/tag/v0.0.5"
+      },
+      {
+        "version": "0.0.4",
+        "date": "2026-10-29",
+        "url": "https://github.com/gminustwo/primerecomp/releases/tag/v0.0.4"
+      },
+      {
+        "version": "0.0.3",
+        "date": "2026-10-27",
+        "url": "https://github.com/gminustwo/primerecomp/releases/tag/v0.0.3"
+      },
+      {
+        "version": "0.0.2",
+        "date": "2026-10-26",
+        "url": "https://github.com/gminustwo/primerecomp/releases/tag/v0.0.2"
+      },
+      {
+        "version": "0.0.1",
+        "date": "2026-10-25",
+        "url": "https://github.com/gminustwo/primerecomp/releases/tag/v0.0.1"
+      }
+    ]
+  },
+  "rerevved": {
+    "releases": [
+      {
+        "version": "0.7.2",
+        "date": "2026-11-11",
+        "notes": "Bundle controller mappings and missing audio output for Linux by @Aeshur in https://github.com/ReRevvedRecomp/rerevved/pull/33",
+        "url": "https://github.com/ReRevvedRecomp/rerevved/releases/tag/v0.7.2"
+      },
+      {
+        "version": "0.7.1",
+        "date": "2026-11-10",
+        "notes": "Multiplayer stability, resync records and an Always At War peace fix by @Aeshur in https://github.com/ReRevvedRecomp/rerevved/pull/27",
+        "url": "https://github.com/ReRevvedRecomp/rerevved/releases/tag/v0.7.1"
+      },
+      {
+        "version": "0.7.0",
+        "date": "2026-11-03",
+        "notes": "Add an in-game Options screen that works with a gamepad by @Aeshur in https://github.com/ReRevvedRecomp/rerevved/pull/14",
+        "url": "https://github.com/ReRevvedRecomp/rerevved/releases/tag/v0.7.0"
+      },
+      {
+        "version": "0.6.1",
+        "date": "2026-10-29",
+        "notes": "Button icons, AI Spy and nuke fixes, ultrawide presets by @Aeshur in https://github.com/ReRevvedRecomp/rerevved/pull/11",
+        "url": "https://github.com/ReRevvedRecomp/rerevved/releases/tag/v0.6.1"
+      },
+      {
+        "version": "0.6.0",
+        "date": "2026-10-28",
+        "notes": "test: remove temporary test directories by @Aeshur in https://github.com/ReRevvedRecomp/rerevved/pull/7",
+        "url": "https://github.com/ReRevvedRecomp/rerevved/releases/tag/v0.6.0"
+      },
+      {
+        "version": "0.5.2",
+        "date": "2026-10-25",
+        "notes": "Experimental macOS build and Linux Vulkan rendering fixes by @Aeshur in https://github.com/ReRevvedRecomp/rerevved/pull/6",
+        "url": "https://github.com/ReRevvedRecomp/rerevved/releases/tag/v0.5.2"
+      },
+      {
+        "version": "0.5.1",
+        "date": "2026-10-24",
+        "url": "https://github.com/ReRevvedRecomp/rerevved/releases/tag/v0.5.1"
+      },
+      {
+        "version": "0.5.0",
+        "date": "2026-10-23",
+        "url": "https://github.com/ReRevvedRecomp/rerevved/releases/tag/v0.5.0"
+      }
+    ]
+  },
+  "resogun-recomp": {
+    "releases": [
+      {
+        "version": "0.10",
+        "date": "2026-11-11",
+        "notes": "Fix compiled shaders not being reused on Linux (issue #8)",
+        "url": "https://github.com/rcostanza/resogun-recomp/releases/tag/v0.10"
+      },
+      {
+        "version": "0.9",
+        "date": "2026-11-11",
+        "url": "https://github.com/rcostanza/resogun-recomp/releases/tag/v0.9"
+      },
+      {
+        "version": "0.8",
+        "date": "2026-11-10",
+        "notes": "Support for 16:10 resolutions. Steam Deck 🖤",
+        "url": "https://github.com/rcostanza/resogun-recomp/releases/tag/v0.8"
+      },
+      {
+        "version": "0.7",
+        "date": "2026-11-10",
+        "url": "https://github.com/rcostanza/resogun-recomp/releases/tag/v0.7"
+      },
+      {
+        "version": "0.6",
+        "date": "2026-11-09",
+        "url": "https://github.com/rcostanza/resogun-recomp/releases/tag/v0.6"
+      },
+      {
+        "version": "0.5",
+        "date": "2026-11-09",
+        "url": "https://github.com/rcostanza/resogun-recomp/releases/tag/v0.5"
+      },
+      {
+        "version": "0.4",
+        "date": "2026-11-08",
+        "url": "https://github.com/rcostanza/resogun-recomp/releases/tag/v0.4"
+      },
+      {
+        "version": "0.3",
+        "date": "2026-11-08",
+        "url": "https://github.com/rcostanza/resogun-recomp/releases/tag/v0.3"
+      },
+      {
+        "version": "0.2",
+        "date": "2026-11-08",
+        "url": "https://github.com/rcostanza/resogun-recomp/releases/tag/v0.2"
+      },
+      {
+        "version": "0.1",
+        "date": "2026-11-08",
+        "url": "https://github.com/rcostanza/resogun-recomp/releases/tag/v0.1"
+      }
+    ]
+  },
+  "ship-of-harkinian": {
+    "releases": [
+      {
+        "version": "9.3.1",
+        "date": "2026-10-18",
+        "url": "https://github.com/HarbourMasters/Shipwright/releases/tag/9.3.1"
+      },
+      {
+        "version": "9.3.0",
+        "date": "2026-10-06",
+        "url": "https://github.com/HarbourMasters/Shipwright/releases/tag/9.3.0"
+      },
+      {
+        "version": "9.2.3",
+        "date": "2026-04-14",
+        "url": "https://github.com/HarbourMasters/Shipwright/releases/tag/9.2.3"
+      },
+      {
+        "version": "9.2.2",
+        "date": "2026-04-14",
+        "url": "https://github.com/HarbourMasters/Shipwright/releases/tag/9.2.2"
+      },
+      {
+        "version": "9.2.1",
+        "date": "2026-03-28",
+        "url": "https://github.com/HarbourMasters/Shipwright/releases/tag/9.2.1"
+      },
+      {
+        "version": "9.2.0",
+        "date": "2026-03-22",
+        "url": "https://github.com/HarbourMasters/Shipwright/releases/tag/9.2.0"
+      },
+      {
+        "version": "9.1.2",
+        "date": "2026-01-19",
+        "url": "https://github.com/HarbourMasters/Shipwright/releases/tag/9.1.2"
+      },
+      {
+        "version": "9.1.1",
+        "date": "2025-11-05",
+        "url": "https://github.com/HarbourMasters/Shipwright/releases/tag/9.1.1"
+      },
+      {
+        "version": "9.1.0",
+        "date": "2025-10-22",
+        "url": "https://github.com/HarbourMasters/Shipwright/releases/tag/9.1.0"
+      },
+      {
+        "version": "9.0.5",
+        "date": "2025-07-24",
+        "url": "https://github.com/HarbourMasters/Shipwright/releases/tag/9.0.5"
+      },
+      {
+        "version": "9.0.4",
+        "date": "2025-07-22",
+        "url": "https://github.com/HarbourMasters/Shipwright/releases/tag/9.0.4"
+      },
+      {
+        "version": "9.0.3",
+        "date": "2025-07-22",
+        "url": "https://github.com/HarbourMasters/Shipwright/releases/tag/9.0.3"
+      }
+    ]
+  },
+  "snoopy-flying-ace-recomp": {
+    "releases": [
+      {
+        "version": "0.23",
+        "date": "2026-11-08",
+        "url": "https://github.com/BTr-RJ/RedBaron_Recomp/releases/tag/v0.23"
+      },
+      {
+        "version": "0.22",
+        "date": "2026-11-06",
+        "url": "https://github.com/BTr-RJ/RedBaron_Recomp/releases/tag/v0.22"
+      },
+      {
+        "version": "0.21",
+        "date": "2026-11-05",
+        "url": "https://github.com/BTr-RJ/RedBaron_Recomp/releases/tag/v0.21"
+      },
+      {
+        "version": "0.20",
+        "date": "2026-11-05",
+        "notes": "This update fixes Windows installer toolchain selection behind compilation failures reported in issue #1.",
+        "url": "https://github.com/BTr-RJ/RedBaron_Recomp/releases/tag/v0.20"
+      },
+      {
+        "version": "0.10",
+        "date": "2026-10-30",
+        "notes": "Native Windows x64 recompilation of Snoopy Flying Ace. This is an experimental community test release, not a finished 1.0.",
+        "url": "https://github.com/BTr-RJ/RedBaron_Recomp/releases/tag/v0.10"
+      }
+    ]
+  },
+  "sonic-adventure-2-recomp": {
+    "releases": [
+      {
+        "version": "0.1.0-alpha.6.1",
+        "date": "2026-11-02",
+        "notes": "> [!NOTE]",
+        "url": "https://github.com/kittycache9/OpenSA2/releases/tag/v0.1.0-alpha.6.1"
+      },
+      {
+        "version": "0.1.0-alpha.6",
+        "date": "2026-10-22",
+        "notes": "> [!IMPORTANT]",
+        "url": "https://github.com/kittycache9/OpenSA2/releases/tag/v0.1.0-alpha.6"
+      },
+      {
+        "version": "0.1.0-alpha.5",
+        "date": "2026-10-20",
+        "notes": "> [!IMPORTANT]",
+        "url": "https://github.com/kittycache9/OpenSA2/releases/tag/v0.1.0-alpha.5"
+      },
+      {
+        "version": "0.1.0-alpha.4",
+        "date": "2026-10-18",
+        "notes": "> [!IMPORTANT]",
+        "url": "https://github.com/kittycache9/OpenSA2/releases/tag/v0.1.0-alpha.4"
+      },
+      {
+        "version": "0.1.0-alpha.3.1",
+        "date": "2026-10-17",
+        "notes": "> [!IMPORTANT]",
+        "url": "https://github.com/kittycache9/OpenSA2/releases/tag/v0.1.0-alpha.3.1"
+      },
+      {
+        "version": "0.1.0-alpha.3",
+        "date": "2026-10-17",
+        "notes": "> [!IMPORTANT]",
+        "url": "https://github.com/kittycache9/OpenSA2/releases/tag/v0.1.0-alpha.3"
+      },
+      {
+        "version": "0.1.0-alpha.2",
+        "date": "2026-10-17",
+        "notes": "> [!IMPORTANT]",
+        "url": "https://github.com/kittycache9/OpenSA2/releases/tag/v0.1.0-alpha.2"
+      },
+      {
+        "version": "0.1.0-alpha.1",
+        "date": "2026-10-13",
+        "notes": "> [!IMPORTANT]",
+        "url": "https://github.com/kittycache9/OpenSA2/releases/tag/v0.1.0-alpha.1"
+      }
+    ]
+  },
+  "sonic-riders-recomp": {
+    "releases": [
+      {
+        "version": "0.8.0",
+        "date": "2026-11-11",
+        "url": "https://github.com/teclilla18/sonic-riders-recomp/releases/tag/v0.8.0"
+      },
+      {
+        "version": "0.7.4",
+        "date": "2026-11-10",
+        "url": "https://github.com/teclilla18/sonic-riders-recomp/releases/tag/v0.7.4"
+      },
+      {
+        "version": "0.7.3",
+        "date": "2026-11-10",
+        "notes": "Update from the launcher works now. After DOWNLOAD AND INSTALL and a restart, the launcher still showed the old",
+        "url": "https://github.com/teclilla18/sonic-riders-recomp/releases/tag/v0.7.3"
+      },
+      {
+        "version": "0.7.2",
+        "date": "2026-11-10",
+        "notes": "iPhone and iPad: Mac launcher. The iOS zip now has *Sonic Riders Launcher*, an app like the PC launcher:",
+        "url": "https://github.com/teclilla18/sonic-riders-recomp/releases/tag/v0.7.2"
+      },
+      {
+        "version": "0.7.1",
+        "date": "2026-11-10",
+        "notes": "Update from the launcher. When a new version is out, the launcher and the Switch / Android installers show",
+        "url": "https://github.com/teclilla18/sonic-riders-recomp/releases/tag/v0.7.1"
+      }
+    ]
+  },
+  "soulcalibur-ii-hd-recomp": {
+    "releases": [
+      {
+        "version": "0.3.0",
+        "date": "2026-10-26",
+        "notes": "Native build of Soulcalibur II HD Online (PS3, NPUB31366) by static recompilation, snapshot of the current state of the port.",
+        "url": "https://github.com/n0madic/Soulcalibur2HD-recomp/releases/tag/v0.3.0"
+      },
+      {
+        "version": "0.2.0",
+        "date": "2026-10-21",
+        "notes": "Native build of Soulcalibur II HD Online (PS3, NPUB31366) by static recompilation, snapshot of the current state of the port.",
+        "url": "https://github.com/n0madic/Soulcalibur2HD-recomp/releases/tag/v0.2.0"
+      },
+      {
+        "version": "0.1.0",
+        "date": "2026-10-16",
+        "notes": "First release of the native build of Soulcalibur II HD Online (PS3, NPUB31366) by static recompilation.",
+        "url": "https://github.com/n0madic/Soulcalibur2HD-recomp/releases/tag/v0.1.0"
+      }
+    ]
+  },
+  "spikeout-final-edition-recomp": {
+    "releases": [
+      {
+        "version": "0.1.0-preview3",
+        "date": "2026-11-10",
+        "notes": "A test build. No game files are included: you need your own spikeofe.zip (MAME's and Supermodel's set).",
+        "url": "https://github.com/tastyrepublic/spikeout-recomp/releases/tag/v0.1.0-preview3"
+      },
+      {
+        "version": "0.1.0-preview2",
+        "date": "2026-11-09",
+        "notes": "A test build. No game files are included: you need your own spikeofe.zip (MAME's and Supermodel's set).",
+        "url": "https://github.com/tastyrepublic/spikeout-recomp/releases/tag/v0.1.0-preview2"
+      },
+      {
+        "version": "0.1.0-preview1",
+        "date": "2026-11-05",
+        "notes": "Preview build for testing: a draft, visible only to the repository's owners.",
+        "url": "https://github.com/tastyrepublic/spikeout-recomp/releases/tag/v0.1.0-preview1"
+      }
+    ]
+  },
+  "spongebob-revenge-recomp": {
+    "releases": [
+      {
+        "version": "0.1.4",
+        "date": "2026-11-10",
+        "notes": "Fixes the fullscreen ALT+F4 close error. No game data is included.",
+        "url": "https://github.com/Spaced1127/SpongeBobRecomp/releases/tag/v0.1.4"
+      },
+      {
+        "version": "0.1.3",
+        "date": "2026-11-09",
+        "notes": "This release replaces the earlier v0.1.3 build. The playable path now uses",
+        "url": "https://github.com/Spaced1127/SpongeBobRecomp/releases/tag/v0.1.3"
+      },
+      {
+        "version": "0.1.2",
+        "date": "2026-11-09",
+        "notes": "Adds RecompLauncher support and ships the SDK manifest in the release.",
+        "url": "https://github.com/Spaced1127/SpongeBobRecomp/releases/tag/v0.1.2"
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-11-09",
+        "notes": "Patch release for the fullscreen and shutdown fixes.",
+        "url": "https://github.com/Spaced1127/SpongeBobRecomp/releases/tag/v0.1.1"
+      },
+      {
+        "version": "0.1.0",
+        "date": "2026-11-08",
+        "notes": "First public build of the standalone PC port of SpongeBob SquarePants:",
+        "url": "https://github.com/Spaced1127/SpongeBobRecomp/releases/tag/v0.1.0"
+      }
+    ]
+  },
+  "spyro-the-dragon-recomp": {
+    "releases": [
+      {
+        "version": "0.1.4",
+        "date": "2026-10-02",
+        "notes": "Fixes the game not starting after setup on this kit.",
+        "url": "https://github.com/alexbeavs-ps1-ports/spyro-the-dragon-recomp/releases/tag/v0.1.4"
+      },
+      {
+        "version": "0.1.3",
+        "date": "2026-09-30",
+        "url": "https://github.com/alexbeavs-ps1-ports/spyro-the-dragon-recomp/releases/tag/v0.1.3"
+      },
+      {
+        "version": "0.1.2",
+        "date": "2026-09-04",
+        "notes": "Owned-input setup-host packages for Windows x64, Linux x64, macOS Apple Silicon, and macOS Intel.",
+        "url": "https://github.com/alexbeavs-ps1-ports/spyro-the-dragon-recomp/releases/tag/v0.1.2"
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-09-03",
+        "notes": "Owned-input setup-host packages for Windows x64, Linux x64, macOS Apple Silicon, and macOS Intel.",
+        "url": "https://github.com/alexbeavs-ps1-ports/spyro-the-dragon-recomp/releases/tag/v0.1.1"
+      }
+    ]
+  },
+  "star-ocean-integrity-ps4rt": {
+    "releases": [
+      {
+        "version": "1.0.1",
+        "date": "2026-11-09",
+        "url": "https://github.com/Hoverbike51/Star-Ocean-Integrity-and-Faithlessness-PS4RT/releases/tag/v1.0.1"
+      },
+      {
+        "version": "1.0.0",
+        "date": "2026-11-08",
+        "url": "https://github.com/Hoverbike51/Star-Ocean-Integrity-and-Faithlessness-PS4RT/releases/tag/v1.0.0"
+      },
+      {
+        "version": "0.4.0",
+        "date": "2026-11-01",
+        "url": "https://github.com/Hoverbike51/Star-Ocean-Integrity-and-Faithlessness-PS4RT/releases/tag/v0.4.0"
+      }
+    ]
+  },
+  "street-fighter-iii-3rd-strike-oe": {
+    "releases": [
+      {
+        "version": "0.2.0-beta",
+        "date": "2026-11-09",
+        "notes": "TU build as it has updated scanlines shader and other fixes.",
+        "url": "https://github.com/updeshxp/SF3TSOEReborn/releases/tag/v0.2.0-beta"
+      },
+      {
+        "version": "0.1.5",
+        "date": "2026-10-27",
+        "notes": "Prefer tu build as it has updated scanlines shader and other fixes.",
+        "url": "https://github.com/updeshxp/SF3TSOEReborn/releases/tag/v0.1.5"
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-08-23",
+        "notes": "Prefer tu build as it has updated scanlines shader and other fixes.",
+        "url": "https://github.com/updeshxp/SF3TSOEReborn/releases/tag/v0.1.1"
+      }
+    ]
+  },
+  "super-hang-on-ultimate": {
+    "releases": [
+      {
+        "version": "0.9.32",
+        "date": "2026-11-09",
+        "notes": "Launcher",
+        "url": "https://github.com/chaotix359/Super-Hang-On-Ultimate/releases/tag/v0.9.32"
+      },
+      {
+        "version": "0.9.26",
+        "date": "2026-11-05",
+        "notes": "Native Windows and macOS port of arcade Super Hang-On, with an optional Mega Drive Original Mode mod.",
+        "url": "https://github.com/chaotix359/Super-Hang-On-Ultimate/releases/tag/v0.9.26"
+      }
+    ]
+  },
+  "test-drive-eve-of-destruction-recomp": {
+    "releases": [
+      {
+        "version": "0.3.2-preview",
+        "date": "2026-11-10",
+        "notes": "Explore the world of Test Drive: Eve of Destruction, customise supported game assets, and test your changes in a separate game session.",
+        "url": "https://github.com/catsandsoup/eod-recomp/releases/tag/creation-kit-v0.3.2-preview"
+      },
+      {
+        "version": "0.3.1-preview",
+        "date": "2026-11-10",
+        "notes": "Explore the world of Test Drive: Eve of Destruction, customise supported game assets, and test your changes in a separate game session.",
+        "url": "https://github.com/catsandsoup/eod-recomp/releases/tag/creation-kit-v0.3.1-preview"
+      },
+      {
+        "version": "1.0",
+        "date": "2026-11-08",
+        "notes": "The 2004 demolition racer on PC and Mac.",
+        "url": "https://github.com/catsandsoup/eod-recomp/releases/tag/v1.0"
+      }
+    ]
+  },
+  "theatrhythm-final-bar-line-pc": {
+    "releases": [
+      {
+        "version": "1.0.5d",
+        "date": "2026-11-09",
+        "notes": "Windows: unzip theatrhythm-fbl-pc-v1.0.5d-windows-x64.zip, run theatrhythm-setup.exe and pick your game dump.",
+        "url": "https://github.com/YAPhoa/theatrhythm-fbl-pc/releases/tag/v1.0.5d"
+      },
+      {
+        "version": "1.0.5c",
+        "date": "2026-11-08",
+        "notes": "Windows: unzip theatrhythm-fbl-pc-v1.0.5c-windows-x64.zip, run theatrhythm-setup.exe and pick your game dump.",
+        "url": "https://github.com/YAPhoa/theatrhythm-fbl-pc/releases/tag/v1.0.5c"
+      },
+      {
+        "version": "1.0.5b",
+        "date": "2026-11-08",
+        "notes": "Windows: unzip theatrhythm-fbl-pc-v1.0.5b-2026-11-08.zip, run theatrhythm-setup.exe and pick your game dump.",
+        "url": "https://github.com/YAPhoa/theatrhythm-fbl-pc/releases/tag/v1.0.5b"
+      },
+      {
+        "version": "1.0.5a",
+        "date": "2026-11-07",
+        "notes": "Windows: unzip theatrhythm-fbl-pc-v1.0.5a-2026-11-08.zip, run theatrhythm-setup.exe and pick your game dump.",
+        "url": "https://github.com/YAPhoa/theatrhythm-fbl-pc/releases/tag/v1.0.5a"
+      },
+      {
+        "version": "1.0.5",
+        "date": "2026-11-07",
+        "notes": "Windows: unzip theatrhythm-fbl-pc-v1.0.5-2026-11-07.zip, run theatrhythm-setup.exe and pick your game dump.",
+        "url": "https://github.com/YAPhoa/theatrhythm-fbl-pc/releases/tag/v1.0.5"
+      },
+      {
+        "version": "1.0.4c",
+        "date": "2026-11-04",
+        "notes": "Windows: unzip theatrhythm-fbl-pc-v1.0.4c-2026-11-04.zip, run theatrhythm-setup.exe and pick your game dump.",
+        "url": "https://github.com/YAPhoa/theatrhythm-fbl-pc/releases/tag/v1.0.4c"
+      },
+      {
+        "version": "1.0.4b",
+        "date": "2026-11-04",
+        "notes": "Windows: unzip theatrhythm-fbl-pc-v1.0.4b-2026-11-04.zip, run theatrhythm-setup.exe and pick your game dump.",
+        "url": "https://github.com/YAPhoa/theatrhythm-fbl-pc/releases/tag/v1.0.4b"
+      },
+      {
+        "version": "1.0.4",
+        "date": "2026-11-04",
+        "notes": "Windows: unzip theatrhythm-fbl-pc-v1.0.4-2026-11-04.zip, run theatrhythm-setup.exe and pick your game dump.",
+        "url": "https://github.com/YAPhoa/theatrhythm-fbl-pc/releases/tag/v1.0.4"
+      },
+      {
+        "version": "1.0.3",
+        "date": "2026-11-01",
+        "notes": "Windows: unzip theatrhythm-fbl-pc-v1.0.3-2026-11-02.zip, run theatrhythm-setup.exe and pick your game dump.",
+        "url": "https://github.com/YAPhoa/theatrhythm-fbl-pc/releases/tag/v1.0.3"
+      },
+      {
+        "version": "1.0.2",
+        "date": "2026-11-01",
+        "notes": "Windows: unzip theatrhythm-fbl-pc-v1.0.2-2026-11-01.zip, run theatrhythm-setup.exe and pick your game dump.",
+        "url": "https://github.com/YAPhoa/theatrhythm-fbl-pc/releases/tag/v1.0.2"
+      },
+      {
+        "version": "1.0.1",
+        "date": "2026-11-01",
+        "notes": "Unzip theatrhythm-fbl-pc-v1.0.1-2026-11-01.zip, run theatrhythm-setup.exe and pick your game dump. See the README.",
+        "url": "https://github.com/YAPhoa/theatrhythm-fbl-pc/releases/tag/v1.0.1"
+      },
+      {
+        "version": "1.0.0",
+        "date": "2026-10-31",
+        "notes": "Unzip theatrhythm-fbl-pc-v1.0.0-2026-11-01.zip, run theatrhythm-setup.exe and pick your game dump. See the README.",
+        "url": "https://github.com/YAPhoa/theatrhythm-fbl-pc/releases/tag/v1.0.0"
+      }
+    ]
+  },
+  "theme-park-world-recomp": {
+    "releases": [
+      {
+        "version": "1.5.3",
+        "date": "2026-11-11",
+        "notes": "AppImage CI: public DNS for the container, apt tried again, architectures independent by @cpressland in https://github.com/cpressland/tpw-recomp/pull/16",
+        "url": "https://github.com/cpressland/tpw-recomp/releases/tag/v1.5.3"
+      },
+      {
+        "version": "1.5.2",
+        "date": "2026-11-11",
+        "notes": "Halloween's lightning: no negative flash (and full width when enabled) by @cpressland in https://github.com/cpressland/tpw-recomp/pull/15",
+        "url": "https://github.com/cpressland/tpw-recomp/releases/tag/v1.5.2"
+      },
+      {
+        "version": "1.5.1",
+        "date": "2026-11-11",
+        "notes": "Controller: a steady turn, the clear-land tool, the gates, and straightening the view by @cpressland in https://github.com/cpressland/tpw-recomp/pull/14",
+        "url": "https://github.com/cpressland/tpw-recomp/releases/tag/v1.5.1"
+      },
+      {
+        "version": "1.5.0",
+        "date": "2026-11-11",
+        "notes": "A game controller plays the game, and the wheel zooms by @cpressland in https://github.com/cpressland/tpw-recomp/pull/13",
+        "url": "https://github.com/cpressland/tpw-recomp/releases/tag/v1.5.0"
+      },
+      {
+        "version": "1.4.0",
+        "date": "2026-11-10",
+        "notes": "Linux: Direct3D through Vulkan by @cpressland in https://github.com/cpressland/tpw-recomp/pull/12",
+        "url": "https://github.com/cpressland/tpw-recomp/releases/tag/v1.4.0"
+      },
+      {
+        "version": "1.3.0",
+        "date": "2026-11-10",
+        "notes": "Linux: an AppImage that builds the game with its own compiler by @cpressland in https://github.com/cpressland/tpw-recomp/pull/11",
+        "url": "https://github.com/cpressland/tpw-recomp/releases/tag/v1.3.0"
+      },
+      {
+        "version": "1.2.2",
+        "date": "2026-11-10",
+        "notes": "Dialogs keep their layout, previews stay in their box, announcer lines end properly by @cpressland in https://github.com/cpressland/tpw-recomp/pull/10",
+        "url": "https://github.com/cpressland/tpw-recomp/releases/tag/v1.2.2"
+      },
+      {
+        "version": "1.2.1",
+        "date": "2026-11-09",
+        "notes": "Linux: Ctrl+Super for the mouse, a fuller listing, a smaller Flatpak by @cpressland in https://github.com/cpressland/tpw-recomp/pull/7",
+        "url": "https://github.com/cpressland/tpw-recomp/releases/tag/v1.2.1"
+      },
+      {
+        "version": "1.2.0",
+        "date": "2026-11-08",
+        "notes": "Linux: the installer and the game run there by @cpressland in https://github.com/cpressland/tpw-recomp/pull/4",
+        "url": "https://github.com/cpressland/tpw-recomp/releases/tag/v1.2.0"
+      },
+      {
+        "version": "1.1.0",
+        "date": "2026-11-06",
+        "notes": "The app downloads the game's files, and opens on Play by @cpressland in https://github.com/cpressland/tpw-recomp/pull/3",
+        "url": "https://github.com/cpressland/tpw-recomp/releases/tag/v1.1.0"
+      },
+      {
+        "version": "1.0.1",
+        "date": "2026-11-06",
+        "notes": "CMake: SDL frameworks link from a path with spaces by @cpressland in https://github.com/cpressland/tpw-recomp/pull/2",
+        "url": "https://github.com/cpressland/tpw-recomp/releases/tag/v1.0.1"
+      }
+    ]
+  },
+  "transformers-armada-recomp": {
+    "releases": [
+      {
+        "version": "0.6.1",
+        "date": "2026-11-11",
+        "url": "https://github.com/kayliox/transformers-armada-recomp/releases/tag/setup-v0.6.1"
+      },
+      {
+        "version": "0.6.0",
+        "date": "2026-11-11",
+        "notes": "F1 is redesigned: each setting has one kind of control (a switch, a slider or a list), the default list is",
+        "url": "https://github.com/kayliox/transformers-armada-recomp/releases/tag/setup-v0.6.0"
+      },
+      {
+        "version": "0.5.4",
+        "date": "2026-11-11",
+        "url": "https://github.com/kayliox/transformers-armada-recomp/releases/tag/setup-v0.5.4"
+      },
+      {
+        "version": "0.5.3",
+        "date": "2026-11-11",
+        "url": "https://github.com/kayliox/transformers-armada-recomp/releases/tag/setup-v0.5.3"
+      },
+      {
+        "version": "0.5.2",
+        "date": "2026-11-11",
+        "url": "https://github.com/kayliox/transformers-armada-recomp/releases/tag/setup-v0.5.2"
+      },
+      {
+        "version": "0.5.1",
+        "date": "2026-11-11",
+        "notes": "The European disc (SLES-52388) is supported, as an experimental option: the setup accepts it and marks it as",
+        "url": "https://github.com/kayliox/transformers-armada-recomp/releases/tag/setup-v0.5.1"
+      },
+      {
+        "version": "0.5.0",
+        "date": "2026-11-11",
+        "notes": "F1 > Graphics > Advanced has Smooth textures (on by default): characters and water no longer look blocky when",
+        "url": "https://github.com/kayliox/transformers-armada-recomp/releases/tag/setup-v0.5.0"
+      },
+      {
+        "version": "0.4.9",
+        "date": "2026-11-11",
+        "notes": "\"Match screen\" now also fills screens narrower than 16:9, such as 16:10 (1920x1200), 3:2 and 4:3, instead of",
+        "url": "https://github.com/kayliox/transformers-armada-recomp/releases/tag/setup-v0.4.9"
+      },
+      {
+        "version": "0.4.8",
+        "date": "2026-11-10",
+        "url": "https://github.com/kayliox/transformers-armada-recomp/releases/tag/setup-v0.4.8"
+      },
+      {
+        "version": "0.4.7",
+        "date": "2026-11-10",
+        "notes": "F1 > Controls has dead zone settings for the left and the right stick. Raise them if a stick that rests a",
+        "url": "https://github.com/kayliox/transformers-armada-recomp/releases/tag/setup-v0.4.7"
+      },
+      {
+        "version": "0.4.6",
+        "date": "2026-11-10",
+        "notes": "While the HD textures are being made, a small line in the bottom-right corner shows how far along they are. When",
+        "url": "https://github.com/kayliox/transformers-armada-recomp/releases/tag/setup-v0.4.6"
+      },
+      {
+        "version": "0.4.5",
+        "date": "2026-11-09",
+        "url": "https://github.com/kayliox/transformers-armada-recomp/releases/tag/setup-v0.4.5"
+      }
+    ]
+  },
+  "twilight-princess-dusklight-dual-screen": {
+    "releases": [
+      {
+        "version": "2.0.3-ds-3.0.3",
+        "date": "2026-10-06",
+        "notes": "Updated to Dusklight v2.0.3.",
+        "url": "https://github.com/igawa6/dusklight/releases/tag/v2.0.3-ds-3.0.3"
+      },
+      {
+        "version": "2.0.0-ds-3.0.2",
+        "date": "2026-09-23",
+        "notes": "Restores compatibility with third-party native mods. If mods failed to load, or loaded and then force-closed the game, this is the fix.",
+        "url": "https://github.com/igawa6/dusklight/releases/tag/v2.0.0-ds-3.0.2"
+      },
+      {
+        "version": "2.0.0-ds-3.0.1",
+        "date": "2026-09-23",
+        "notes": "Patch release for Dual-Screen 3.0. No gameplay or dual-screen changes — the native code is identical to 3.0.",
+        "url": "https://github.com/igawa6/dusklight/releases/tag/v2.0.0-ds-3.0.1"
+      },
+      {
+        "version": "2.0.0-ds-3.0",
+        "date": "2026-09-22",
+        "notes": "Initial Release of v2.0 Dusklight",
+        "url": "https://github.com/igawa6/dusklight/releases/tag/v2.0.0-ds-3.0"
+      },
+      {
+        "version": "1.4.1-ds-2.7",
+        "date": "2026-08-08",
+        "url": "https://github.com/igawa6/dusklight/releases/tag/v1.4.1-ds-2.7"
+      },
+      {
+        "version": "1.4.1-ds-2.6",
+        "date": "2026-08-04",
+        "url": "https://github.com/igawa6/dusklight/releases/tag/v1.4.1-ds-2.6"
+      },
+      {
+        "version": "1.4.1-ds-2.5",
+        "date": "2026-08-01",
+        "notes": "Adds an offline walkthrough guide to the bottom screen, readable while you play, plus fixes for rumble on Android handhelds and two wrong item icons.",
+        "url": "https://github.com/igawa6/dusklight/releases/tag/v1.4.1-ds-2.5"
+      },
+      {
+        "version": "1.4.1-ds-2.1",
+        "date": "2026-07-27",
+        "url": "https://github.com/igawa6/dusklight/releases/tag/v1.4.1-ds-2.1"
+      },
+      {
+        "version": "1.4.1-ds-2.0",
+        "date": "2026-07-24",
+        "url": "https://github.com/igawa6/dusklight/releases/tag/v1.4.1-ds-2.0"
+      },
+      {
+        "version": "1.4.1-ds-1.5",
+        "date": "2026-07-19",
+        "url": "https://github.com/igawa6/dusklight/releases/tag/v1.4.1-ds-1.5"
+      },
+      {
+        "version": "1.4.1-ds-1.0",
+        "date": "2026-07-18",
+        "notes": "Initial Release",
+        "url": "https://github.com/igawa6/dusklight/releases/tag/v1.4.1-ds-1.0"
+      }
+    ]
+  },
+  "xc2-recomp": {
+    "releases": [
+      {
+        "version": "0.1.12",
+        "date": "2026-11-09",
+        "notes": "Create the flight folder inside the install folder, next to xc2.exe by @AksharDP in https://github.com/AksharDP/xc2-recomp/pull/57",
+        "url": "https://github.com/AksharDP/xc2-recomp/releases/tag/v0.1.12"
+      },
+      {
+        "version": "0.1.11",
+        "date": "2026-11-05",
+        "notes": "Keep jiggle bones, hair and cloth from going flat and losing their bounce above 30 fps by @AksharDP in https://github.com/AksharDP/xc2-recomp/pull/45",
+        "url": "https://github.com/AksharDP/xc2-recomp/releases/tag/v0.1.11"
+      },
+      {
+        "version": "0.1.10",
+        "date": "2026-11-05",
+        "notes": "Show the redrawn button prompts without add-on content by @AksharDP in https://github.com/AksharDP/xc2-recomp/pull/43",
+        "url": "https://github.com/AksharDP/xc2-recomp/releases/tag/v0.1.10"
+      },
+      {
+        "version": "0.1.9",
+        "date": "2026-11-04",
+        "notes": "Ask bug reports for a save file standing where the problem shows. by @AksharDP in https://github.com/AksharDP/xc2-recomp/pull/36",
+        "url": "https://github.com/AksharDP/xc2-recomp/releases/tag/v0.1.9"
+      },
+      {
+        "version": "0.1.8",
+        "date": "2026-11-04",
+        "notes": "Bound the uniform-snapshot arenas and the frames in flight, which held 888 MiB in issue 27 by @AksharDP in https://github.com/AksharDP/xc2-recomp/pull/29",
+        "url": "https://github.com/AksharDP/xc2-recomp/releases/tag/v0.1.8"
+      },
+      {
+        "version": "0.1.7",
+        "date": "2026-11-04",
+        "notes": "add jp version file by @Lhw-Arthas in https://github.com/AksharDP/xc2-recomp/pull/26",
+        "url": "https://github.com/AksharDP/xc2-recomp/releases/tag/v0.1.7"
+      },
+      {
+        "version": "0.1.6",
+        "date": "2026-11-04",
+        "notes": "Tell the American/European and Japanese releases apart so either can be installed by @AksharDP in https://github.com/AksharDP/xc2-recomp/pull/18",
+        "url": "https://github.com/AksharDP/xc2-recomp/releases/tag/v0.1.6"
+      },
+      {
+        "version": "0.1.5",
+        "date": "2026-11-04",
+        "notes": "Poll the job wait every 200 us instead of every millisecond by @AksharDP in https://github.com/AksharDP/xc2-recomp/pull/14",
+        "url": "https://github.com/AksharDP/xc2-recomp/releases/tag/v0.1.5"
+      },
+      {
+        "version": "0.1.4",
+        "date": "2026-11-04",
+        "notes": "Spread core 1 job threads by default and fix the virtual core gate row by @AksharDP in https://github.com/AksharDP/xc2-recomp/pull/12",
+        "url": "https://github.com/AksharDP/xc2-recomp/releases/tag/v0.1.4"
+      },
+      {
+        "version": "0.1.3",
+        "date": "2026-11-04",
+        "notes": "Scroll the cloud sea by the frame time; version 0.1.1 by @AksharDP in https://github.com/AksharDP/xc2-recomp/pull/1",
+        "url": "https://github.com/AksharDP/xc2-recomp/releases/tag/v0.1.3"
+      },
+      {
+        "version": "0.1.2",
+        "date": "2026-11-03",
+        "url": "https://github.com/AksharDP/xc2-recomp/releases/tag/v0.1.2"
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-11-03",
+        "notes": "Scroll the cloud sea by the frame time; version 0.1.1 by @AksharDP in https://github.com/AksharDP/xc2-recomp/pull/1",
+        "url": "https://github.com/AksharDP/xc2-recomp/releases/tag/v0.1.1"
+      }
+    ]
+  },
+  "xcx-recomp": {
+    "releases": [
+      {
+        "version": "0.1.19",
+        "date": "2026-11-11",
+        "notes": "A hotfix for the frame rate drop in 0.1.18 (#136).",
+        "url": "https://github.com/jmars125/xcx-recomp/releases/tag/v0.1.19"
+      },
+      {
+        "version": "0.1.18",
+        "date": "2026-11-11",
+        "url": "https://github.com/jmars125/xcx-recomp/releases/tag/v0.1.18"
+      },
+      {
+        "version": "0.1.16-fixes-test6",
+        "date": "2026-11-09",
+        "url": "https://github.com/jmars125/xcx-recomp/releases/tag/v0.1.16-fixes-test6"
+      },
+      {
+        "version": "0.1.16-fixes-test5",
+        "date": "2026-11-09",
+        "url": "https://github.com/jmars125/xcx-recomp/releases/tag/v0.1.16-fixes-test5"
+      },
+      {
+        "version": "0.1.16",
+        "date": "2026-11-08",
+        "url": "https://github.com/jmars125/xcx-recomp/releases/tag/v0.1.16"
+      },
+      {
+        "version": "0.1.16-fixes-test4",
+        "date": "2026-11-08",
+        "url": "https://github.com/jmars125/xcx-recomp/releases/tag/v0.1.16-fixes-test4"
+      },
+      {
+        "version": "0.1.16-fixes-test3",
+        "date": "2026-11-08",
+        "url": "https://github.com/jmars125/xcx-recomp/releases/tag/v0.1.16-fixes-test3"
+      },
+      {
+        "version": "0.1.16-fixes-test2",
+        "date": "2026-11-08",
+        "url": "https://github.com/jmars125/xcx-recomp/releases/tag/v0.1.16-fixes-test2"
+      },
+      {
+        "version": "0.1.16-fixes-test",
+        "date": "2026-11-08",
+        "url": "https://github.com/jmars125/xcx-recomp/releases/tag/v0.1.16-fixes-test"
+      },
+      {
+        "version": "0.1.15-save-test2",
+        "date": "2026-11-08",
+        "url": "https://github.com/jmars125/xcx-recomp/releases/tag/v0.1.15-save-test2"
+      },
+      {
+        "version": "0.1.15-save-test",
+        "date": "2026-11-08",
+        "url": "https://github.com/jmars125/xcx-recomp/releases/tag/v0.1.15-save-test"
+      },
+      {
+        "version": "0.1.15-uw-menus-test",
+        "date": "2026-11-08",
+        "url": "https://github.com/jmars125/xcx-recomp/releases/tag/v0.1.15-uw-menus-test"
+      }
+    ]
+  },
+  "xenoblade-chronicles-de": {
+    "releases": [
+      {
+        "version": "12.0.0",
+        "date": "2026-11-11",
+        "notes": "Para iniciar el juego hay dos versiones",
+        "url": "https://github.com/Ivanprestef2/Monado-FIX-Portable/releases/tag/v12.0.0"
+      },
+      {
+        "version": "11.0.0",
+        "date": "2026-11-09",
+        "notes": "Para iniciar el juego hay dos versiones:",
+        "url": "https://github.com/Ivanprestef2/Monado-FIX-Portable/releases/tag/v11.0.0"
+      },
+      {
+        "version": "10.0.0",
+        "date": "2026-11-08",
+        "notes": "Para iniciar el juego hay dos versiones",
+        "url": "https://github.com/Ivanprestef2/Monado-FIX-Portable/releases/tag/v10.0.0"
+      },
+      {
+        "version": "9.0.0",
+        "date": "2026-11-07",
+        "notes": "Para iniciar el juego hay dos versiones",
+        "url": "https://github.com/Ivanprestef2/Monado-FIX-Portable/releases/tag/v9.0.0"
+      },
+      {
+        "version": "8.0.0",
+        "date": "2026-11-07",
+        "notes": "Para iniciar el juego hay dos versiones",
+        "url": "https://github.com/Ivanprestef2/Monado-FIX-Portable/releases/tag/v8.0.0"
+      },
+      {
+        "version": "7.0.0",
+        "date": "2026-11-06",
+        "notes": "Para iniciar el juego hay dos versiones",
+        "url": "https://github.com/Ivanprestef2/Monado-FIX-Portable/releases/tag/v7.0.0"
+      },
+      {
+        "version": "6.0.0",
+        "date": "2026-11-05",
+        "notes": "Para iniciar el juego hay dos versiones",
+        "url": "https://github.com/Ivanprestef2/Monado-FIX-Portable/releases/tag/v6.0.0"
+      },
+      {
+        "version": "5.0.0",
+        "date": "2026-11-04",
+        "notes": "En la version 5 se implemento:",
+        "url": "https://github.com/Ivanprestef2/Monado-FIX-Portable/releases/tag/v5.0.0"
+      },
+      {
+        "version": "4.0.0",
+        "date": "2026-11-03",
+        "notes": "En esta version resumiendo:",
+        "url": "https://github.com/Ivanprestef2/Monado-FIX-Portable/releases/tag/v4.0.0"
+      },
+      {
+        "version": "3.0.0",
+        "date": "2026-11-02",
+        "notes": "Si quieres saber mas lee el redme del proyecto o cuando lo descargues leelo pls.",
+        "url": "https://github.com/Ivanprestef2/Monado-FIX-Portable/releases/tag/v3.0.0"
+      },
+      {
+        "version": "2.0.0",
+        "date": "2026-11-01",
+        "notes": "Para saber mas lee el redme del proyecto o cuando lo descargues leelo pls.",
+        "url": "https://github.com/Ivanprestef2/Monado-FIX-Portable/releases/tag/v2.0.0"
+      },
+      {
+        "version": "1.0.0",
+        "date": "2026-11-01",
+        "notes": "Para saber mas lee el redme del proyecto o cuando lo descargues leelo pls.",
+        "url": "https://github.com/Ivanprestef2/Monado-FIX-Portable/releases/tag/v1.0.0"
+      }
+    ]
+  },
+  "yokai-watch-recomp": {
+    "releases": [
+      {
+        "version": "0.5.1",
+        "date": "2026-11-09",
+        "url": "https://github.com/watchmakerers/clockwork/releases/tag/0.5.1"
+      },
+      {
+        "version": "0.5.0",
+        "date": "2026-10-30",
+        "url": "https://github.com/watchmakerers/clockwork/releases/tag/v0.5.0"
+      },
+      {
+        "version": "0.4.1",
+        "date": "2026-10-20",
+        "url": "https://github.com/watchmakerers/clockwork/releases/tag/v0.4.1"
+      },
+      {
+        "version": "0.4.0",
+        "date": "2026-10-19",
+        "url": "https://github.com/watchmakerers/clockwork/releases/tag/v0.4.0"
+      },
+      {
+        "version": "0.3.0",
+        "date": "2026-10-19",
+        "url": "https://github.com/watchmakerers/clockwork/releases/tag/v0.3.0"
+      },
+      {
+        "version": "0.2.0",
+        "date": "2026-10-15",
+        "url": "https://github.com/watchmakerers/clockwork/releases/tag/v0.2.0"
+      },
+      {
+        "version": "0.1.0",
+        "date": "2026-10-14",
+        "notes": "Clockwork's tools for Windows, Linux and macOS (Apple Silicon): ctrx, recomp and clockwork-relay. No game code or assets are included.",
+        "url": "https://github.com/watchmakerers/clockwork/releases/tag/v0.1.0"
+      }
+    ]
+  }
+}

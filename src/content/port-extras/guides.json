@@ -1,0 +1,173 @@
+{
+  "ship-of-harkinian": {
+    "installGuide": {
+      "steps": [
+        "Dump your own copy of Ocarina of Time and check it with the compatibility checker at ship.equipment.",
+        "Download the build for your platform from the project's Releases page (desktop zip or Android APK).",
+        "Windows: extract the zip and run soh.exe. Linux: run the AppImage. macOS: open soh.app. Android: install the APK.",
+        "When prompted, select your game ROM. The game converts it into oot.o2r and starts.",
+        "Adjust graphics, audio and controls in the in-game menu, then play."
+      ],
+      "stepsEs": [
+        "Haz tu propio volcado de Ocarina of Time y verifícalo con el comprobador de ship.equipment.",
+        "Descarga la versión para tu plataforma desde la página de Releases (zip de escritorio o APK de Android).",
+        "Windows: descomprime el zip y ejecuta soh.exe. Linux: ejecuta el AppImage. macOS: abre soh.app. Android: instala el APK.",
+        "Cuando lo pida, selecciona tu ROM. El juego la convierte en oot.o2r y arranca.",
+        "Ajusta gráficos, audio y controles en el menú del juego y empieza a jugar."
+      ],
+      "controls": [
+        { "input": "WASD", "action": "Analog stick", "actionEs": "Stick analógico" },
+        { "input": "Arrow keys", "action": "C buttons", "actionEs": "Botones C" },
+        { "input": "X", "action": "A button", "actionEs": "Botón A" },
+        { "input": "C", "action": "B button", "actionEs": "Botón B" },
+        { "input": "Z", "action": "Z trigger", "actionEs": "Gatillo Z" },
+        { "input": "Space", "action": "Start", "actionEs": "Start" },
+        { "input": "TFGH", "action": "D-Pad", "actionEs": "Cruceta" },
+        { "input": "F11", "action": "Toggle fullscreen", "actionEs": "Pantalla completa" },
+        { "input": "F1", "action": "Toggle menubar", "actionEs": "Mostrar u ocultar el menú" }
+      ],
+      "knownIssues": [
+        "If the game crashes on launch, switch the graphics backend between DirectX 11, OpenGL and Metal in the Settings menu."
+      ],
+      "knownIssuesEs": [
+        "Si el juego se cierra al iniciar, cambia el backend gráfico entre DirectX 11, OpenGL y Metal en el menú Ajustes."
+      ]
+    }
+  },
+  "2-ship-2-harkinian-2s2h": {
+    "installGuide": {
+      "steps": [
+        "Dump your own copy of Majora's Mask and check it with the compatibility checker at 2ship.equipment.",
+        "Download the Android APK from the project's Releases page.",
+        "Allow installs from unknown sources on your device and open the APK to install it.",
+        "Launch 2 Ship 2 Harkinian and select your game ROM when asked.",
+        "Connect a Bluetooth gamepad or set up the touch controls in the settings."
+      ],
+      "stepsEs": [
+        "Haz tu propio volcado de Majora's Mask y verifícalo con el comprobador de 2ship.equipment.",
+        "Descarga el APK de Android desde la página de Releases del proyecto.",
+        "Permite instalar apps de orígenes desconocidos en tu dispositivo y abre el APK para instalarlo.",
+        "Abre 2 Ship 2 Harkinian y selecciona tu ROM cuando lo pida.",
+        "Conecta un mando Bluetooth o configura los controles táctiles en los ajustes."
+      ],
+      "knownIssues": [
+        "If the app crashes on launch, try another graphics backend in the Settings menu."
+      ],
+      "knownIssuesEs": [
+        "Si la app se cierra al iniciar, prueba otro backend gráfico en el menú Ajustes."
+      ]
+    }
+  },
+  "banjo-kazooie-recomp": {
+    "installGuide": {
+      "steps": [
+        "Download the latest release for your system from the project's Releases page.",
+        "Extract the package into its own folder and keep all the files together.",
+        "Run the executable (BanjoRecomp on Windows).",
+        "When prompted, select your own legally dumped Banjo-Kazooie ROM.",
+        "Set resolution, controller and mods in the in-game menu, then play."
+      ],
+      "stepsEs": [
+        "Descarga la última versión para tu sistema desde la página de Releases del proyecto.",
+        "Descomprime el paquete en su propia carpeta y mantén todos los archivos juntos.",
+        "Ejecuta el programa (BanjoRecomp en Windows).",
+        "Cuando lo pida, selecciona tu propia ROM de Banjo-Kazooie obtenida legalmente.",
+        "Configura resolución, mando y mods en el menú del juego y empieza a jugar."
+      ]
+    }
+  },
+  "arefdsg-mk64recomp": {
+    "installGuide": {
+      "steps": [
+        "Download the latest Windows release from the project's Releases page.",
+        "Extract the zip into its own folder.",
+        "Run the executable and select your own legally dumped Mario Kart 64 ROM when asked.",
+        "Configure resolution, controller and mods in the in-game menu.",
+        "On Linux or Steam Deck, use the native build described in the project README."
+      ],
+      "stepsEs": [
+        "Descarga la última versión para Windows desde la página de Releases del proyecto.",
+        "Descomprime el zip en su propia carpeta.",
+        "Ejecuta el programa y selecciona tu propia ROM de Mario Kart 64 obtenida legalmente.",
+        "Configura resolución, mando y mods en el menú del juego.",
+        "En Linux o Steam Deck, usa la compilación nativa que describe el README del proyecto."
+      ]
+    }
+  },
+  "conker-bad-fur-day-recomp": {
+    "installGuide": {
+      "steps": [
+        "Download the release for your system from the project's Releases page.",
+        "Extract it into its own folder.",
+        "Run the executable and select your own copy of the US Conker's Bad Fur Day ROM.",
+        "Set resolution, controller and mods in the in-game menu, then play."
+      ],
+      "stepsEs": [
+        "Descarga la versión para tu sistema desde la página de Releases del proyecto.",
+        "Descomprímela en su propia carpeta.",
+        "Ejecuta el programa y selecciona tu propia copia de la ROM americana de Conker's Bad Fur Day.",
+        "Configura resolución, mando y mods en el menú del juego y empieza a jugar."
+      ],
+      "knownIssues": [
+        "Only the US version of the ROM is supported.",
+        "The repository ships no game data: everything is extracted from your own ROM."
+      ],
+      "knownIssuesEs": [
+        "Solo es compatible la versión americana de la ROM.",
+        "El proyecto no incluye datos del juego: todo se extrae de tu propia ROM."
+      ]
+    }
+  },
+  "burnout-3-recomp": {
+    "installGuide": {
+      "steps": [
+        "Download Burnout3-Installer-windows-x64.exe from the latest release and run it.",
+        "If SmartScreen warns, choose More info and then Run anyway; the installer is not signed.",
+        "Pick the folder that contains your Burnout 3: Takedown .iso and click Build my recomp.",
+        "Wait while the toolkit and the Visual Studio Build Tools are installed; progress is logged under recomp\\logs.",
+        "Click Play Burnout 3. On later runs the installer opens directly on that button."
+      ],
+      "stepsEs": [
+        "Descarga Burnout3-Installer-windows-x64.exe desde la última release y ejecútalo.",
+        "Si SmartScreen avisa, elige Más información y luego Ejecutar de todas formas; el instalador no está firmado.",
+        "Elige la carpeta que contiene tu .iso de Burnout 3: Takedown y pulsa Build my recomp.",
+        "Espera mientras se instalan el toolkit y las Visual Studio Build Tools; el progreso se guarda en recomp\\logs.",
+        "Pulsa Play Burnout 3. En las siguientes ejecuciones el instalador abre directamente en ese botón."
+      ],
+      "knownIssues": [
+        "There is no keyboard mapping: an Xbox or XInput controller is required, and two for split-screen.",
+        "The build needs Windows 10/11 x64, a Burnout 3 disc image and about 12 GB of free space."
+      ],
+      "knownIssuesEs": [
+        "No hay asignación de teclado: hace falta un mando Xbox o XInput, y dos para pantalla dividida.",
+        "La compilación necesita Windows 10/11 x64, una imagen del disco de Burnout 3 y unos 12 GB libres."
+      ]
+    }
+  },
+  "twilight-princess-dusklight-dual-screen": {
+    "installGuide": {
+      "steps": [
+        "Dump your own GameCube or Wii copy of Twilight Princess; Dolphin's ripping guide works.",
+        "Optionally convert the .iso to .rvz with Dolphin or nodtool to save space.",
+        "Install the APK from the release and allow installs from your browser or file manager.",
+        "Open Dusklight and point it at your game image.",
+        "Adjust resolution, touch controls and textures in the settings."
+      ],
+      "stepsEs": [
+        "Haz tu propio volcado de Twilight Princess de GameCube o Wii; sirve la guía de volcado de Dolphin.",
+        "Opcionalmente convierte el .iso a .rvz con Dolphin o nodtool para ahorrar espacio.",
+        "Instala el APK de la release y permite instalar desde el navegador o el gestor de archivos.",
+        "Abre Dusklight y selecciona tu imagen del juego.",
+        "Ajusta resolución, controles táctiles y texturas en los ajustes."
+      ],
+      "knownIssues": [
+        "Requires a GPU with D3D12, Vulkan 1.1+ or Metal; D3D11 and OpenGL ES are best-effort only.",
+        "It is based on the GameCube decompilation, so Wii discs show the GameCube HUD."
+      ],
+      "knownIssuesEs": [
+        "Requiere una GPU con D3D12, Vulkan 1.1+ o Metal; D3D11 y OpenGL ES solo funcionan de forma parcial.",
+        "Está basado en la descompilación de GameCube, así que los discos de Wii muestran el HUD de GameCube."
+      ]
+    }
+  }
+}

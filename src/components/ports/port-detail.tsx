@@ -7,6 +7,7 @@ import {
   ArrowUpRight,
   CircleAlert,
   CircleCheck,
+  Clock,
   Download,
   ExternalLink,
   FileText,
@@ -54,6 +55,30 @@ function reportUrl(port: Port): string {
   return `https://github.com/Kymie131/openportsgames/issues/new?title=${title}&body=${body}`;
 }
 
+/** Most recent date the entry can be considered updated. */
+function lastUpdated(port: Port): string | undefined {
+  const dates = [
+    port.release.date,
+    port.verifiedAt,
+    port.updatedAt,
+    ...(port.releases ?? []).map((release) => release.date),
+  ].filter((date): date is string => Boolean(date));
+
+  return dates.length > 0 ? dates.sort().at(-1) : undefined;
+}
+
+/** Uses the stored thumbnail or derives it from a YouTube URL. */
+function videoThumbnail(video: NonNullable<Port["videos"]>[number]): string | undefined {
+  if (video.thumbnail) return video.thumbnail;
+
+  const match =
+    /(?:youtube\.com\/(?:watch\?(?:.*&)?v=|embed\/|shorts\/|live\/)|youtu\.be\/)([\w-]{6,})/.exec(
+      video.url,
+    );
+
+  return match ? `https://i.ytimg.com/vi/${match[1]}/hqdefault.jpg` : undefined;
+}
+
 export function PortDetail({
   port,
   tests,
@@ -74,6 +99,11 @@ export function PortDetail({
   const needsOriginalAssets = !port.noOriginalGameRequired;
   const isGame = portKind(port) === "game";
   const primarySource = port.sources[0];
+  const lastModified = lastUpdated(port);
+  const guide = port.installGuide;
+  const controls = guide?.controls ?? [];
+  const knownIssues =
+    locale === "es" && guide?.knownIssuesEs ? guide.knownIssuesEs : (guide?.knownIssues ?? []);
 
   return (
     <div className="flex flex-col gap-8">
@@ -106,6 +136,12 @@ export function PortDetail({
               </div>
               <SystemBadge system={originalSystem} />
               <TestBadge status={testStatus} />
+              {lastModified && (
+                <span className="inline-flex items-center gap-1 rounded-full border border-border px-2 py-0.5 text-xs font-medium text-muted">
+                  <Clock className="size-3" aria-hidden="true" />
+                  {t.detail.lastUpdated} {formatDate(lastModified, locale)}
+                </span>
+              )}
               <span
                 className={
                   STATUS_TONE[port.status] + " rounded-full px-2 py-0.5 text-xs font-medium"
@@ -384,17 +420,101 @@ export function PortDetail({
         </section>
       )}
 
-      {port.installGuide && (
-        <section className="flex flex-col gap-2">
-          <h2 className="text-lg font-semibold tracking-tight">
-            {port.installGuide.title ?? t.detail.installTitle}
+      {guide && (
+        <section className="flex flex-col gap-3" aria-labelledby="install-heading">
+          <h2 id="install-heading" className="text-lg font-semibold tracking-tight">
+            {guide.title ?? t.detail.installTitle}
           </h2>
           <ol className="flex list-decimal flex-col gap-1.5 pl-5 text-sm leading-relaxed text-muted">
-            {port.installGuide.steps.map((step, index) => (
-              <li key={index}>
-                {locale === "es" ? (port.installGuide?.stepsEs?.[index] ?? step) : step}
-              </li>
+            {guide.steps.map((step, index) => (
+              <li key={index}>{locale === "es" ? (guide.stepsEs?.[index] ?? step) : step}</li>
             ))}
+          </ol>
+
+          {controls.length > 0 && (
+            <div className="flex flex-col gap-2">
+              <h3 className="text-sm font-semibold text-foreground">{t.detail.controls}</h3>
+              <dl className="grid gap-1.5 sm:grid-cols-2">
+                {controls.map((control) => (
+                  <div
+                    key={`${control.input}-${control.action}`}
+                    className="flex items-baseline justify-between gap-3 rounded-md border border-border bg-surface-2/40 px-3 py-1.5 text-sm"
+                  >
+                    <dt className="shrink-0 rounded border border-border bg-surface px-1.5 py-0.5 font-mono text-[11px] leading-4 text-foreground">
+                      {control.input}
+                    </dt>
+                    <dd className="text-right text-muted">
+                      {locale === "es" ? (control.actionEs ?? control.action) : control.action}
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          )}
+
+          {knownIssues.length > 0 && (
+            <div className="rounded-xl border border-warning/30 bg-[color-mix(in_oklab,var(--warning)_8%,transparent)] p-3">
+              <h3 className="flex items-center gap-1.5 text-sm font-semibold text-warning">
+                <CircleAlert className="size-4 shrink-0" aria-hidden="true" />
+                {t.detail.knownIssues}
+              </h3>
+              <ul className="mt-1.5 flex list-disc flex-col gap-1 pl-5 text-sm leading-relaxed text-muted">
+                {knownIssues.map((issue) => (
+                  <li key={issue}>{issue}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </section>
+      )}
+
+      {port.releases && port.releases.length > 1 && (
+        <section className="flex flex-col gap-3" aria-labelledby="releases-heading">
+          <h2 id="releases-heading" className="text-lg font-semibold tracking-tight">
+            {t.detail.releaseHistory}
+          </h2>
+          <ol className="flex flex-col gap-3 border-l border-border pl-4">
+            {port.releases.map((release, index) => {
+              const notes =
+                locale === "es" ? (release.notesEs ?? release.notes) : release.notes;
+              return (
+                <li key={`${release.version}-${release.date}-${index}`} className="relative">
+                  <span
+                    className={cn(
+                      "absolute -left-[21.5px] top-1.5 size-2.5 rounded-full ring-2 ring-background",
+                      index === 0 ? "bg-accent" : "bg-border",
+                    )}
+                    aria-hidden="true"
+                  />
+                  <div className="flex flex-wrap items-center gap-2">
+                    {release.url ? (
+                      <a
+                        href={release.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 font-mono text-sm font-medium text-foreground underline-offset-4 hover:text-link hover:underline"
+                      >
+                        {release.version}
+                        <ExternalLink className="size-3" aria-hidden="true" />
+                      </a>
+                    ) : (
+                      <span className="font-mono text-sm font-medium text-foreground">
+                        {release.version}
+                      </span>
+                    )}
+                    <time dateTime={release.date} className="text-xs text-muted">
+                      {formatDate(release.date, locale)}
+                    </time>
+                    {index === 0 && (
+                      <span className="rounded-full bg-[color-mix(in_oklab,var(--accent)_14%,transparent)] px-2 py-0.5 text-[11px] font-medium text-accent">
+                        {t.detail.latestRelease}
+                      </span>
+                    )}
+                  </div>
+                  {notes && <p className="mt-1 text-sm leading-relaxed text-muted">{notes}</p>}
+                </li>
+              );
+            })}
           </ol>
         </section>
       )}
@@ -428,6 +548,54 @@ export function PortDetail({
                 <p className="mt-1 text-xs text-muted">{shot.credit}</p>
               </li>
             ))}
+          </ul>
+        </section>
+      )}
+
+      {port.videos && port.videos.length > 0 && (
+        <section className="flex flex-col gap-3" aria-labelledby="videos-heading">
+          <h2 id="videos-heading" className="text-lg font-semibold tracking-tight">
+            {t.detail.videos}
+          </h2>
+          <ul className="grid gap-3 sm:grid-cols-2">
+            {port.videos.map((video) => {
+              const thumbnail = videoThumbnail(video);
+              return (
+                <li key={video.url}>
+                  <a
+                    href={video.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-surface-2/40 transition-colors hover:border-accent/50"
+                  >
+                    <div className="relative aspect-video overflow-hidden bg-surface">
+                      {thumbnail && (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img
+                          src={thumbnail}
+                          alt=""
+                          loading="lazy"
+                          decoding="async"
+                          referrerPolicy="no-referrer"
+                          className="size-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
+                        />
+                      )}
+                      <span className="absolute inset-0 flex items-center justify-center">
+                        <span className="flex size-11 items-center justify-center rounded-full bg-black/60 text-white shadow-lg backdrop-blur-sm">
+                          <Play className="size-5 translate-x-[1px]" aria-hidden="true" />
+                        </span>
+                      </span>
+                    </div>
+                    <span className="flex flex-col gap-0.5 p-3">
+                      <span className="line-clamp-2 text-sm font-medium text-foreground">
+                        {video.title}
+                      </span>
+                      {video.author && <span className="text-xs text-muted">{video.author}</span>}
+                    </span>
+                  </a>
+                </li>
+              );
+            })}
           </ul>
         </section>
       )}
