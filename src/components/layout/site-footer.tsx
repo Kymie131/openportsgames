@@ -1,6 +1,7 @@
 "use client";
 
 import { LocalizedLink as Link } from "@/components/i18n/localized-link";
+import { GithubMark } from "@/components/platforms/github-mark";
 import { useT } from "@/lib/i18n/use-i18n";
 import { Container } from "./container";
 
@@ -79,8 +80,9 @@ export function SiteFooter() {
             href="https://github.com/Kymie131/openportsgames"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-fit text-link underline-offset-4 hover:text-link-hover hover:underline"
+            className="inline-flex w-fit items-center gap-1.5 text-link underline-offset-4 hover:text-link-hover hover:underline"
           >
+            <GithubMark className="size-3.5" aria-hidden="true" />
             {t.footer.editOnGitHub}
           </a>
         </div>

@@ -19,6 +19,7 @@ import { Container } from "@/components/layout/container";
 import { ConsoleGrid, type ConsoleSummary } from "./console-grid";
 import { LatestShowcase } from "./latest-showcase";
 import { SpotlightCard } from "./spotlight-card";
+import { PaypalMark } from "@/components/platforms/paypal-mark";
 import { SUPPORT_PAYPAL_URL } from "@/lib/support";
 import { useLocale, useT } from "@/lib/i18n/use-i18n";
 import type { TestStatus } from "@/components/catalog/test-badge";
@@ -132,12 +133,16 @@ export function HomeContent({
             {SUPPORT_PAYPAL_URL ? (
               <Button asChild variant="secondary" size="lg">
                 <a href={SUPPORT_PAYPAL_URL} target="_blank" rel="noopener noreferrer">
+                  <PaypalMark className="size-4" aria-hidden="true" />
                   {t.support.donate}
                 </a>
               </Button>
             ) : (
               <Button asChild variant="secondary" size="lg">
-                <Link href="/support">{t.support.donate}</Link>
+                <Link href="/support">
+                  <PaypalMark className="size-4" aria-hidden="true" />
+                  {t.support.donate}
+                </Link>
               </Button>
             )}
           </div>

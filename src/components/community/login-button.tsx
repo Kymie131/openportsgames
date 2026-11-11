@@ -5,11 +5,9 @@ import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 import {
   Bookmark,
   ChevronDown,
-  Globe,
   LoaderCircle,
   LogIn,
   LogOut,
-  MessageCircle,
   Image as ImageIcon,
   Pencil,
   ShieldCheck,
@@ -20,6 +18,8 @@ import { authClient, useSessionUser } from "@/lib/auth-client";
 import { apiFetch, getAuthConfig } from "@/lib/api";
 import { useT } from "@/lib/i18n/use-i18n";
 import { GithubMark } from "@/components/platforms/github-mark";
+import { GoogleMark } from "@/components/platforms/google-mark";
+import { DiscordMark } from "@/components/platforms/discord-mark";
 import { Button } from "@/components/ui/button";
 import { Dialog } from "@/components/ui/dialog";
 import { cn } from "@/lib/utils";
@@ -35,8 +35,8 @@ const PROVIDERS: Array<{ id: Provider; labelKey: "withGoogle" | "withDiscord" | 
 
 function ProviderMark({ provider }: { provider: Provider }) {
   if (provider === "github") return <GithubMark className="size-4" aria-hidden="true" />;
-  if (provider === "discord") return <MessageCircle className="size-4" aria-hidden="true" />;
-  return <Globe className="size-4" aria-hidden="true" />;
+  if (provider === "discord") return <DiscordMark className="size-4" aria-hidden="true" />;
+  return <GoogleMark className="size-4" aria-hidden="true" />;
 }
 
 /** Avatar with an initial fallback when the provider has no picture. */
