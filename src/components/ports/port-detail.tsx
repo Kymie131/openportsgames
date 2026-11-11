@@ -5,6 +5,7 @@ import { LocalizedLink as Link } from "@/components/i18n/localized-link";
 import {
   ArrowLeft,
   ArrowUpRight,
+  ChevronDown,
   CircleAlert,
   CircleCheck,
   Clock,
@@ -93,6 +94,7 @@ export function PortDetail({
   const controls = guide?.controls ?? [];
   const knownIssues =
     locale === "es" && guide?.knownIssuesEs ? guide.knownIssuesEs : (guide?.knownIssues ?? []);
+  const [showReleaseHistory, setShowReleaseHistory] = useState(false);
 
   return (
     <div className="flex flex-col gap-8">
@@ -462,7 +464,25 @@ export function PortDetail({
           <h2 id="releases-heading" className="text-lg font-semibold tracking-tight">
             {t.detail.releaseHistory}
           </h2>
-          <ol className="flex flex-col gap-3 border-l border-border pl-4">
+          <button
+            type="button"
+            onClick={() => setShowReleaseHistory((value) => !value)}
+            aria-expanded={showReleaseHistory}
+            aria-controls="releases-list"
+            className="flex w-fit items-center gap-1.5 rounded-md border border-border bg-surface-2/60 px-3 py-1.5 text-sm text-foreground transition-colors hover:border-accent/50 hover:text-accent"
+          >
+            {showReleaseHistory ? t.detail.hideReleaseHistory : t.detail.showReleaseHistory}
+            <span className="font-mono text-xs text-muted">({port.releases.length})</span>
+            <ChevronDown
+              className={cn("size-4 transition-transform", showReleaseHistory && "rotate-180")}
+              aria-hidden="true"
+            />
+          </button>
+          <ol
+            id="releases-list"
+            hidden={!showReleaseHistory}
+            className="flex flex-col gap-3 border-l border-border pl-4"
+          >
             {port.releases.map((release, index) => {
               const notes =
                 locale === "es" ? (release.notesEs ?? release.notes) : release.notes;
@@ -775,6 +795,7 @@ function PortGallery({
   const t = useT();
   const [index, setIndex] = useState(0);
   const active = screenshots[Math.min(index, screenshots.length - 1)];
+
 
   return (
     <section className="flex flex-col gap-2">
