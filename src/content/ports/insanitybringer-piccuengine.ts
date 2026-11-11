@@ -21,6 +21,13 @@ export const insanitybringerPiccuengine: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/InsanityBringer/PiccuEngine/releases/download/v1.2.2/PiccuEngine-v1.2.2-12092024-win32.zip",
+      size: "14.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b2/D3_Box_Art.jpg",
     alt: "Descent 3 (box art)",

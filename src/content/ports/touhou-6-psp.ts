@@ -14,13 +14,20 @@ export const touhou6Psp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["psp"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.1", date: "2026-08-17" },
   sources: ["https://github.com/kan8223-dotcom/th06-psp-native"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
   related: ["touhou-6-android"],
+  downloads: [
+    {
+      label: "th06-psp-native-1.0.1",
+      url: "https://github.com/kan8223-dotcom/th06-psp-native/releases/download/v1.0.1/th06-psp-native-1.0.1.zip",
+      size: "5.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/8b/Th06cover.jpg",
     alt: "Touhou 6: The Embodiment of Scarlet Devil (box art)",

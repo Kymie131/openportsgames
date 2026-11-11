@@ -21,6 +21,18 @@ export const zallaxdevEmerald3ds: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Game Boy Advance"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/ZallaxDev/emerald-3ds/releases/download/v0.5.0/Emerald3DS-v0.5.0-Windows.zip",
+      size: "49.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/ZallaxDev/emerald-3ds/releases/download/v0.5.0/Emerald3DS-WebPayload.zip",
+      size: "27.9 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20-%20Emerald%20Version%20(USA,%20Europe).png",
     alt: "Pokémon Emerald (box art)",

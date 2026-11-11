@@ -14,7 +14,7 @@ export const faxanaduRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.5.0", date: "2026-10-27" },
   sources: ["https://github.com/mstan/FaxanaduRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
@@ -25,6 +25,13 @@ export const faxanaduRecomp: Port = {
     "Static recompilation of Faxanadu (NES) with the NESRecomp framework. Playable from start to finish, with mantra (password) auto-load so you don't have to type them by hand.",
   notesEs:
     "Recompilación estática de Faxanadu (NES) con el framework NESRecomp. Jugable de principio a fin, con autoguardado de los mantras (contraseñas) para no tener que escribirlos a mano.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/FaxanaduRecomp/releases/download/v2.5.0/FaxanaduRecomp-windows-x64.zip",
+      size: "4.9 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Faxanadu%20(USA).png",
     alt: "Faxanadu (box art)",

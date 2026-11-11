@@ -14,12 +14,19 @@ export const godOfWarChainsOfOlympusPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.5.0", date: "2026-11-07" },
   sources: ["https://github.com/DrummingBird1/gow-psp-recomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation Portable"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/DrummingBird1/gow-psp-recomp/releases/download/v1.5.0/GoW_PSP_Launcher-v1.5.0.zip",
+      size: "48.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/3a/God_of_War_Chains_of_Olympus_NA_version_front_cover.jpg",
     alt: "God of War: Chains of Olympus (box art)",

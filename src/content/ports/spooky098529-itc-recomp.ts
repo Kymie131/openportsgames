@@ -23,6 +23,18 @@ export const spooky098529ItcRecomp: Port = {
   originalSystems: ["Xbox 360"],
   summary: "Import Tuner Challenge is a 2006 racing game published by Ubisoft and developed by Genki for the Xbox 360. It is an installment in the long-running Shutokō Battle series of games known as Tokyo Xtreme Racer in North America and Tokyo Highway Challenge in Europe. This is the only Shutokou Battle game to be released on the Xbox 360.",
   summaryEs: "Import Tuner Challenge también conocido como Shutokō Battle X, es un videojuego de carreras publicado por Ubisoft y desarrollado por Genki para Xbox 360. Es la última entrega principal de la década que ejecuta la serie Shutokō Battle de juegos conocidos como Tokyo Xtreme Racer en Norteamérica y Tokyo Highway Challenge en Europa, y fue el último videojuego desarrollado por Genki. A pesar de ser el último juego de Shutokou Battle, este es el único juego de Shutokou Battle que está en la consola de Microsoft.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Spooky098529/ITC-Recomp/releases/download/v0.5.0/itc-v0.5.0-linux-amd64.zip",
+      size: "15.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Spooky098529/ITC-Recomp/releases/download/v0.5.0/itc-v0.5.0-win-amd64.zip",
+      size: "15.0 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/import-tuner-challenge.svg",
     alt: "Import Tuner Challenge (generated cover)",

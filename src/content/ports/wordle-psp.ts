@@ -14,7 +14,7 @@ export const wordlePsp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["psp"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.0.2", date: "2026-07-29" },
   sources: ["https://github.com/imRohan/wordle-psp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -22,6 +22,13 @@ export const wordlePsp: Port = {
   originalSystems: ["Other"],
   summary: "Wordle is a puzzle game published by gigantumgames in 2021.",
   summaryEs: "Wordle es un videojuego de puzles publicado por gigantumgames en 2021.",
+  downloads: [
+    {
+      label: "WordlePSP_v0.0.2",
+      url: "https://github.com/imRohan/wordle-psp/releases/download/v0.0.2/WordlePSP_v0.0.2.zip",
+      size: "2.5 MB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1532580/header.jpg?t=1654494842",
     alt: "Wordle (Steam header)",

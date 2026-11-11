@@ -15,7 +15,7 @@ export const sudokulWii: Port = {
   category: "homebrew",
   platforms: ["wii"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.5", date: "2026-05-10" },
   sources: ["https://github.com/Mode8fx/SuDokuL"],
   license: { spdx: "MIT" },
   verified: false,
@@ -24,6 +24,38 @@ export const sudokulWii: Port = {
   summary: "SuDokuL is a puzzle game published by Homebrew, released in 2026.",
   summaryEs: "SuDokuL es un videojuego de puzles publicado por Homebrew, lanzado en 2026.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "SuDokuL-v1.5-3ds-cia",
+      url: "https://github.com/Mode8fx/SuDokuL/releases/download/v1.5/SuDokuL-v1.5-3ds-cia.zip",
+      size: "2.6 MB",
+    },
+    {
+      label: "SuDokuL-v1.5-3ds",
+      url: "https://github.com/Mode8fx/SuDokuL/releases/download/v1.5/SuDokuL-v1.5-3ds.zip",
+      size: "2.1 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/Mode8fx/SuDokuL/releases/download/v1.5/SuDokuL-v1.5-android.apk",
+      size: "11.1 MB",
+    },
+    {
+      label: "SuDokuL-v1.5-gamecube",
+      url: "https://github.com/Mode8fx/SuDokuL/releases/download/v1.5/SuDokuL-v1.5-gamecube.zip",
+      size: "2.4 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Mode8fx/SuDokuL/releases/download/v1.5/SuDokuL-v1.5-linux.zip",
+      size: "1.3 MB",
+    },
+    {
+      label: "SuDokuL-v1.5-psp",
+      url: "https://github.com/Mode8fx/SuDokuL/releases/download/v1.5/SuDokuL-v1.5-psp.zip",
+      size: "3.0 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/sudokul.svg",
     alt: "SuDokuL (generated cover)",

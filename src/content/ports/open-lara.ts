@@ -40,6 +40,38 @@ export const openLara: Port = {
       "Coloca los datos preparados en la carpeta de datos de OpenLara y ejecuta el binario.",
     ],
   },
+  downloads: [
+    {
+      label: "OpenLara_32x",
+      url: "https://github.com/XProger/OpenLara/releases/download/latest/OpenLara_32x.zip",
+      size: "551 KB",
+    },
+    {
+      label: "OpenLara_3do",
+      url: "https://github.com/XProger/OpenLara/releases/download/latest/OpenLara_3do.zip",
+      size: "11.3 MB",
+    },
+    {
+      label: "OpenLara_3ds",
+      url: "https://github.com/XProger/OpenLara/releases/download/latest/OpenLara_3ds.zip",
+      size: "586 KB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/XProger/OpenLara/releases/download/latest/OpenLara_android.zip",
+      size: "3.3 MB",
+    },
+    {
+      label: "OpenLara_e2k",
+      url: "https://github.com/XProger/OpenLara/releases/download/latest/OpenLara_e2k.zip",
+      size: "1.4 MB",
+    },
+    {
+      label: "OpenLara_gba",
+      url: "https://github.com/XProger/OpenLara/releases/download/latest/OpenLara_gba.zip",
+      size: "5.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/69/Tomb_Raider_%281996%29.png",
     alt: "Tomb Raider (box art)",

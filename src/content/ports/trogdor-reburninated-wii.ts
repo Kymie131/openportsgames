@@ -15,7 +15,7 @@ export const trogdorReburninatedWii: Port = {
   category: "homebrew",
   platforms: ["wii"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.4", date: "2026-05-17" },
   sources: ["https://github.com/Mode8fx/Trogdor-Reburninated"],
   license: { spdx: "MIT" },
   verified: false,
@@ -24,6 +24,38 @@ export const trogdorReburninatedWii: Port = {
   summary: "Trogdor is a action-adventure game published by Homestar Runner, released in 2026.",
   summaryEs: "Trogdor es un videojuego de acci�n y aventura publicado por Homestar Runner, lanzado en 2026.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Trogdor-Reburninated-v2.4-3ds-cia",
+      url: "https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.4/Trogdor-Reburninated-v2.4-3ds-cia.zip",
+      size: "6.2 MB",
+    },
+    {
+      label: "Trogdor-Reburninated-v2.4-3ds",
+      url: "https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.4/Trogdor-Reburninated-v2.4-3ds.zip",
+      size: "5.8 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.4/Trogdor-Reburninated-v2.4-android.apk",
+      size: "16.1 MB",
+    },
+    {
+      label: "Trogdor-Reburninated-v2.4-gamecube",
+      url: "https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.4/Trogdor-Reburninated-v2.4-gamecube.zip",
+      size: "6.7 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.4/Trogdor-Reburninated-v2.4-linux.zip",
+      size: "7.7 MB",
+    },
+    {
+      label: "Trogdor-Reburninated-v2.4-psp",
+      url: "https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.4/Trogdor-Reburninated-v2.4-psp.zip",
+      size: "10.1 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/trogdor.svg",
     alt: "Trogdor (generated cover)",

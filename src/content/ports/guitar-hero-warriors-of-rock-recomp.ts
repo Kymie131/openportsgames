@@ -14,7 +14,7 @@ export const guitarHeroWarriorsOfRockRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1.0", date: "2026-03-03" },
   sources: ["https://github.com/ronniecloud/re-wor"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const guitarHeroWarriorsOfRockRecomp: Port = {
     "Recompiled Guitar Hero: Warriors of Rock (Xbox 360) to run natively on Windows through ReXGlue. Own the game to play.",
   notesEs:
     "Recompilado Guitar Hero: Warriors of Rock (Xbox 360) para ejecutarse de forma nativa en Windows con ReXGlue. Necesitas el juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/ronniecloud/re-wor/releases/download/v1.1.0/re-wor-v1.1.0.zip",
+      size: "16.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/bb/Guitar_Hero_Warriors_of_Rock_Game_Cover.jpg",
     alt: "Guitar Hero: Warriors of Rock (box art)",

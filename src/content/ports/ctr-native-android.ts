@@ -21,6 +21,13 @@ export const ctrNativeAndroid: Port = {
   sourceVerified: true,
   originalSystems: ["PlayStation"],
   related: ["ctr-native"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Simon358/ctr-native-android/releases/download/Android-Build4/CTR-native-android.26.07.2026.apk",
+      size: "6.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/4f/CrashTeamRacingNACover.png",
     alt: "Crash Team Racing (box art)",

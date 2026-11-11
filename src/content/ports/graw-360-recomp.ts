@@ -14,7 +14,7 @@ export const graw360Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.6", date: "2026-11-03" },
   sources: ["https://github.com/Juansolo457/graw360-recomp"],
   license: { spdx: "MIT" },
   verified: false,
@@ -24,6 +24,13 @@ export const graw360Recomp: Port = {
   summary: "Tom Clancy's Ghost Recon Advanced Warfighter is a shooter game published by Ubisoft for Xbox 360, released in 2006.",
   summaryEs: "Tom Clancy's Ghost Recon Advanced Warfighter es un videojuego de disparos publicado por Ubisoft para Xbox 360, lanzado en 2006.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Juansolo457/graw360-recomp/releases/download/v0.6/GRAW360-Recompiled-0.6-Linux.zip",
+      size: "106.1 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/tom-clancy-s-ghost-recon-advanced-warfighter.svg",
     alt: "Tom Clancy's Ghost Recon Advanced Warfighter (generated cover)",

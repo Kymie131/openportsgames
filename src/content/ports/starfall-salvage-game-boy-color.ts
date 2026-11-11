@@ -15,7 +15,7 @@ export const starfallSalvageGameBoyColor: Port = {
   category: "homebrew",
   platforms: ["gbc"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.2", date: "2026-10-15" },
   sources: ["https://github.com/steph4n-gh/starfall-salvage"],
   license: { spdx: "MIT" },
   verified: false,
@@ -24,6 +24,13 @@ export const starfallSalvageGameBoyColor: Port = {
   summary: "Starfall Salvage is a action-adventure game published by Homebrew, released in 2026.",
   summaryEs: "Starfall Salvage es un videojuego de acci�n y aventura publicado por Homebrew, lanzado en 2026.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "starfall-salvage-1.2-player",
+      url: "https://github.com/steph4n-gh/starfall-salvage/releases/download/v1.2/starfall-salvage-1.2-player.zip",
+      size: "4.1 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/starfall-salvage.svg",
     alt: "Starfall Salvage (generated cover)",

@@ -25,6 +25,38 @@ export const openjazz: Port = {
     "Free, open-source version of the classic Jazz Jackrabbit games, started in 2005. Project activity has slowed and there is no clear roadmap.",
   notesEs:
     "Versión libre y de código abierto de los clásicos Jazz Jackrabbit, iniciada en 2005. La actividad del proyecto se ha ralentizado y no hay una hoja de ruta clara.",
+  downloads: [
+    {
+      label: "openjazz-20260301",
+      url: "https://github.com/AlisterT/openjazz/releases/download/20260301/openjazz-20260301.tar.gz",
+      size: "556 KB",
+    },
+    {
+      label: "openjazz-20260301",
+      url: "https://github.com/AlisterT/openjazz/releases/download/20260301/openjazz-20260301.zip",
+      size: "667 KB",
+    },
+    {
+      label: "openjazz-3ds",
+      url: "https://github.com/AlisterT/openjazz/releases/download/20260301/openjazz-3ds.zip",
+      size: "339 KB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/AlisterT/openjazz/releases/download/20260301/openjazz-linux-glibc2.35-x86_64.zip",
+      size: "807 KB",
+    },
+    {
+      label: "openjazz-psp",
+      url: "https://github.com/AlisterT/openjazz/releases/download/20260301/openjazz-psp.zip",
+      size: "894 KB",
+    },
+    {
+      label: "Switch",
+      url: "https://github.com/AlisterT/openjazz/releases/download/20260301/openjazz-switch.zip",
+      size: "2.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b4/Jazz_Jackrabbit.jpg",
     alt: "Jazz Jackrabbit (box art)",

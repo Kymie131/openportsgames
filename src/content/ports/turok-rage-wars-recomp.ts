@@ -14,12 +14,24 @@ export const turokRageWarsRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.8-beta", date: "2026-11-07" },
   sources: ["https://github.com/wootbeer/PaxDino"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/wootbeer/PaxDino/releases/download/v0.1.8-beta/PaxDino-0.1.8-beta-linux.tar.gz",
+      size: "13.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/wootbeer/PaxDino/releases/download/v0.1.8-beta/PaxDino-0.1.8-beta-windows.zip",
+      size: "17.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/f1/Ragewarsbox.jpg",
     alt: "Turok: Rage Wars (box art)",

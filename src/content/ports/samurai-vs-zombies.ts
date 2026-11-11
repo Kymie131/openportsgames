@@ -14,7 +14,7 @@ export const SamuraiVsZombies: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.2", date: "2025-11-25" },
   sources: ["https://github.com/Decomp-And-Recomp/Samurai-Vs-Zombies"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -23,6 +23,18 @@ export const SamuraiVsZombies: Port = {
   summary: "Samurai Vs Zombies is a action-adventure game, released in 2000.",
   summaryEs: "Samurai Vs Zombies es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Decomp-And-Recomp/Samurai-Vs-Zombies/releases/download/1.2/Samurai.Vs.Zombies.Android.apk",
+      size: "209.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Decomp-And-Recomp/Samurai-Vs-Zombies/releases/download/1.2/Samurai.Vs.Zombies.PC.7z",
+      size: "124.3 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/samurai-vs-zombies.svg",
     alt: "Samurai Vs Zombies (generated cover)",

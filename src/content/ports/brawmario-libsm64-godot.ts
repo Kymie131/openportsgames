@@ -25,6 +25,38 @@ export const brawmarioLibsm64Godot: Port = {
   summaryEs: "Super Mario 64 es un videojuego de plataformas desarrollado y publicado por Nintendo para la Nintendo 64. Es la primera entrega de Super Mario en mostrar gráficos 3D, que combina la mecánica tradicional de la franquicia, su estilo visual y sus personajes en un amplio mundo abierto. En la historia, Bowser invade el castillo de la Princesa Peach, la secuestra y esconde las Estrellas de Poder en diferentes mundos situados dentro de cuadros mágicos. En el papel de Mario, el jugador recorre los niveles y recoge las estrellas para desbloquear zonas, llegar hasta Bowser y rescatar a Peach.",
   notes: "Super Mario 64: source port by Brawmario for Windows. Bring your own copy of the game.",
   notesEs: "Super Mario 64: source port de Brawmario para Windows. Aporta tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Brawmario/libsm64-godot/releases/download/v2.8.1/libsm64-godot-demo.v2.8.1.linux.zip",
+      size: "23.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Brawmario/libsm64-godot/releases/download/v2.8.1/libsm64-godot-demo.v2.8.1.mac.zip",
+      size: "50.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Brawmario/libsm64-godot/releases/download/v2.8.1/libsm64-godot-demo.v2.8.1.web.nothreads.zip",
+      size: "9.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Brawmario/libsm64-godot/releases/download/v2.8.1/libsm64-godot-demo.v2.8.1.web.pwa.zip",
+      size: "9.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Brawmario/libsm64-godot/releases/download/v2.8.1/libsm64-godot-demo.v2.8.1.web.zip",
+      size: "9.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Brawmario/libsm64-godot/releases/download/v2.8.1/libsm64-godot-demo.v2.8.1.windows.zip",
+      size: "29.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
     alt: "Super Mario 64 (box art)",

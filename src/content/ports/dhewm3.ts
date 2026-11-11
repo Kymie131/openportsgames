@@ -32,6 +32,38 @@ export const dhewm3: Port = {
     "Source port of Doom 3 that keeps the original gameplay with bugfixes, widescreen support, 64-bit builds, EFX sound, mod-independent settings and gamepad support. Requires the original game data.",
   notesEs:
     "Port de código fuente de Doom 3 que conserva la jugabilidad original con correcciones, soporte panorámico, builds de 64 bits, sonido EFX, ajustes independientes de los mods y soporte de mando. Requiere los datos del juego original.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/dhewm/dhewm3/releases/download/1.5.5/dhewm3-1.5.5_Linux_amd64.tar.gz",
+      size: "7.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/dhewm/dhewm3/releases/download/1.5.5/dhewm3-1.5.5_Linux_arm64.tar.gz",
+      size: "7.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/dhewm/dhewm3/releases/download/1.5.5/dhewm3-1.5.5_win32.zip",
+      size: "10.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/dhewm/dhewm3/releases/download/1.5.5/dhewm3-mods-1.5.5_Linux_amd64.tar.gz",
+      size: "30.0 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/dhewm/dhewm3/releases/download/1.5.5/dhewm3-mods-1.5.5_Linux_arm64.tar.gz",
+      size: "28.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/dhewm/dhewm3/releases/download/1.5.5/dhewm3-mods-1.5.5_win32.zip",
+      size: "25.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/4e/Doom3box.jpg",
     alt: "Doom 3 (box art)",

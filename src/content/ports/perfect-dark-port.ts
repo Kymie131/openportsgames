@@ -34,6 +34,38 @@ export const perfectDarkPort: Port = {
     "Work in progress port of the Perfect Dark decompilation, kept separate from the upstream GitLab project. Builds come from a rolling CI tag rather than versioned releases. Needs a legally obtained N64 ROM.",
   notesEs:
     "Port en desarrollo de la decompilación de Perfect Dark, mantenido aparte del proyecto original en GitLab. Las builds vienen de una etiqueta CI continua en lugar de releases versionadas. Necesita una ROM de N64 obtenida legalmente.",
+  downloads: [
+    {
+      label: "Switch",
+      url: "https://github.com/perfect-dark-pc-port/perfect_dark/releases/download/ci-dev-build/pd-arm64-nswitch.zip",
+      size: "10.3 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/perfect-dark-pc-port/perfect_dark/releases/download/ci-dev-build/pd-arm64-osx.tar.xz",
+      size: "3.3 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/perfect-dark-pc-port/perfect_dark/releases/download/ci-dev-build/pd-i686-linux.tar.gz",
+      size: "20.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/perfect-dark-pc-port/perfect_dark/releases/download/ci-dev-build/pd-i686-windows.zip",
+      size: "24.0 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/perfect-dark-pc-port/perfect_dark/releases/download/ci-dev-build/pd-x86_64-linux.tar.gz",
+      size: "21.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/perfect-dark-pc-port/perfect_dark/releases/download/ci-dev-build/pd-x86_64-osx.tar.xz",
+      size: "2.8 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Perfect%20Dark%20(USA).png",
     alt: "Perfect Dark (box art)",

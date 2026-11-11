@@ -21,6 +21,18 @@ export const mustafasamer93ApocalypsePcNativePort: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/MustafaSamer93/Apocalypse-PC-Native-Port/releases/download/v1.0/Repocalypse-v1.0-linux-x64.tar.gz",
+      size: "11.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/MustafaSamer93/Apocalypse-PC-Native-Port/releases/download/v1.0/Repocalypse-v1.0-win64.zip",
+      size: "6.4 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Apocalypse%20(Europe).png",
     alt: "Apocalypse (box art)",

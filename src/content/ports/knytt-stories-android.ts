@@ -23,6 +23,33 @@ export const knyttStoriesAndroid: Port = {
   originalSystems: ["Windows"],
   summary: "Knytt Stories is a 2007 indie adventure video game and platformer developed and published by Swedish developer Nifflas. The sequel to Knytt and part of the Knytt trilogy, it was released for Windows in August 2007, and was ported to Nintendo DS by Rodrigo Roman in 2010 as the open source homebrew software Knytt Stories DS with the support of the original developer. The game's initial scenario, \"The Machine\", follows the protagonist Juni as she attempts to stop a machine from sucking the life out of the world. An official expansion the same year added more sets of levels.",
   summaryEs: "Knytt Stories es un videojuego de plataformas publicado por Nicklas Nygren en 2007.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/youkaicountry/yknytt/releases/download/0.7.3/YKnytt_v0.7.3.apk",
+      size: "98.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/youkaicountry/yknytt/releases/download/0.7.3/YKnytt_v0.7.3_linux.zip",
+      size: "87.4 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/youkaicountry/yknytt/releases/download/0.7.3/YKnytt_v0.7.3_linux_arm64_handhelds.zip",
+      size: "121.6 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/youkaicountry/yknytt/releases/download/0.7.3/YKnytt_v0.7.3_macos.zip",
+      size: "96.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/youkaicountry/yknytt/releases/download/0.7.3/YKnytt_v0.7.3_win.zip",
+      size: "83.4 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/knytt-stories.svg",
     alt: "Knytt Stories (generated cover)",

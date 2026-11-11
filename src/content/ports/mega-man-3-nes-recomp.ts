@@ -14,7 +14,7 @@ export const megaMan3NesRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.3", date: "2026-10-19" },
   sources: ["https://github.com/mstan/Megaman3NESRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
@@ -25,6 +25,13 @@ export const megaMan3NesRecomp: Port = {
     "Native recompilation of Mega Man 3 (Nintendo Entertainment System). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Mega Man 3 (Nintendo Entertainment System). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/Megaman3NESRecomp/releases/download/v0.1.3/MegaMan3Recomp-USA-v0.1.3-windows-x64.zip",
+      size: "5.4 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Mega%20Man%203%20(USA).png",
     alt: "Mega Man 3 (box art)",

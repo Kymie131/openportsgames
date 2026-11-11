@@ -14,7 +14,7 @@ export const Vera20k: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.2.9", date: "2026-11-09" },
   sources: ["https://github.com/YuriPlanet/vera20k"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -23,6 +23,28 @@ export const Vera20k: Port = {
   summary: "vera20k is a action-adventure game, released in 2000.",
   summaryEs: "vera20k es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/YuriPlanet/vera20k/releases/download/v0.2.9/vera20k-0.2.9-linux-x64.AppImage",
+      size: "37.7 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/YuriPlanet/vera20k/releases/download/v0.2.9/vera20k-0.2.9-macos-arm64.dmg",
+      size: "39.2 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/YuriPlanet/vera20k/releases/download/v0.2.9/vera20k-0.2.9-macos-x64.dmg",
+      size: "41.2 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/YuriPlanet/vera20k/releases/download/v0.2.9/vera20k-0.2.9-windows-x64-setup.exe",
+      size: "29.8 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/vera20k.svg",
     alt: "vera20k (generated cover)",

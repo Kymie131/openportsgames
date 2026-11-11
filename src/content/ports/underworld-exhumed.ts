@@ -23,6 +23,28 @@ export const UnderworldExhumed: Port = {
   summary: "Underworld Exhumed is a action-adventure game, released in 2000.",
   summaryEs: "Underworld Exhumed es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/abedegno/underworld-exhumed/releases/download/uw1-v1.0.2/UW1-v1.0.2-linux-x86_64.AppImage",
+      size: "3.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/abedegno/underworld-exhumed/releases/download/uw1-v1.0.2/UW1-v1.0.2-linux-x86_64.tar.gz",
+      size: "2.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/abedegno/underworld-exhumed/releases/download/uw1-v1.0.2/UW1-v1.0.2-macos.zip",
+      size: "4.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/abedegno/underworld-exhumed/releases/download/uw1-v1.0.2/UW1-v1.0.2-windows-x86_64.zip",
+      size: "3.6 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/underworld-exhumed.svg",
     alt: "Underworld Exhumed (generated cover)",

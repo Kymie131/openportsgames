@@ -14,13 +14,25 @@ export const tenchuStealthAssassinsRecompHero: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.0", date: "2026-08-24" },
   sources: ["https://github.com/Heromachine/Tenchu-SA-Recomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
   related: ["tenchu-stealth-assassins-recomp"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Heromachine/Tenchu-SA-Recomp/releases/download/v0.1.0/TenchuSARecomp-v0.1.0-linux-x64.zip",
+      size: "46.1 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/Heromachine/Tenchu-SA-Recomp/releases/download/v0.1.0/TenchuSARecomp-v0.1.0-x86_64.AppImage",
+      size: "41.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6f/Tenchu_Stealth_Assassins.jpg",
     alt: "Tenchu: Stealth Assassins (box art)",

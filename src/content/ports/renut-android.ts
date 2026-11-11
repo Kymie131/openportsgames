@@ -14,12 +14,19 @@ export const renutAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.5.0", date: "2026-10-24" },
   sources: ["https://github.com/Innersargento/Renut-Android"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Innersargento/Renut-Android/releases/download/0.5.0/renut-0.5.0.apk",
+      size: "89.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/63/Banjo-Kazooie_Nuts_%26_Bolts_Game_Cover.jpg",
     alt: "Banjo-Kazooie: Nuts & Bolts (box art)",

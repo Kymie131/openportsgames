@@ -23,6 +23,33 @@ export const openBfmeOpenbfmeGodot: Port = {
   originalSystems: ["Windows"],
   summary: "The Lord of the Rings: The Battle for Middle-earth II is a 2006 real-time strategy video game developed and published by Electronic Arts. The second part of the Middle-earth strategy game series, it is based on the fantasy novels The Lord of the Rings and The Hobbit by J. R. R. Tolkien and its live-action film series adaptation. It is the sequel to Electronic Arts' 2004 title The Lord of the Rings: The Battle for Middle-earth. Along with the standard edition, a Collector's Edition of the game was released, containing bonus material and a documentary about the game's development.",
   summaryEs: "El Señor de los Anillos: la batalla por la Tierra Media II es la segunda entrega de la serie de videojuegos La batalla por la Tierra Media, basada en la obra El Señor de los Anillos de J. R. R. Tolkien. Desarrollado por Electronic Arts en colaboración con Sage, este videojuego de estrategia en tiempo real permite a los jugadores controlar a diversas facciones en su lucha por la Tierra Media. Disponible para PC y Xbox 360, el juego ofrece tanto modos de un jugador como multijugador, donde los jugadores pueden participar en batallas épicas y experimentar la rica narrativa del universo de Tolkien",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Open-BFME/openbfme-godot/releases/download/v0.4.11/openbfme-launcher-v0.4.11-linux-x64.tar.gz",
+      size: "28.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Open-BFME/openbfme-godot/releases/download/v0.4.11/openbfme-launcher-v0.4.11-windows-x64.zip",
+      size: "37.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Open-BFME/openbfme-godot/releases/download/v0.4.11/openbfme-v0.4.11-linux-x64.tar.gz",
+      size: "65.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Open-BFME/openbfme-godot/releases/download/v0.4.11/openbfme-v0.4.11-macos-arm64.zip",
+      size: "63.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Open-BFME/openbfme-godot/releases/download/v0.4.11/openbfme-v0.4.11-windows-x64.zip",
+      size: "78.7 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/the-lord-of-the-rings-the-battle-for-middle-earth-ii.svg",
     alt: "The Lord of the Rings: The Battle for Middle-earth II (generated cover)",

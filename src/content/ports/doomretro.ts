@@ -35,6 +35,13 @@ export const doomRetro: Port = {
   notes: "Windows-focused Doom source port with a wide range of display and input options.",
   notesEs:
     "Port de código fuente de Doom centrado en Windows, con una amplia gama de opciones de visualización y control.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/bradharding/doomretro/releases/download/v6.3/doomretro-6.3-win64.zip",
+      size: "4.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Doom.png",
     alt: "Doom (box art)",

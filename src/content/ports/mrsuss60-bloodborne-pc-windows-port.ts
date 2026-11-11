@@ -21,6 +21,13 @@ export const mrsuss60BloodbornePcWindowsPort: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation 4"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Mrsuss60/bloodborne_pc_windows_port/releases/download/v0.9.0/bloodborne_pc_windows_port_v0.9.0_release.zip",
+      size: "174.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
     alt: "Bloodborne (box art)",

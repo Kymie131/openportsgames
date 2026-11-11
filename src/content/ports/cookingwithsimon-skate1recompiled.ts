@@ -23,6 +23,13 @@ export const cookingwithsimonSkate1recompiled: Port = {
   originalSystems: ["Xbox 360"],
   summary: "Skate is a 2007 skateboarding video game developed by EA Black Box and published by Electronic Arts for Xbox 360, PlayStation 3 and mobile phones. Two sequels, Skate 2 and Skate 3, were released for PlayStation 3 and Xbox 360, with a reboot, Skate (2025) releasing on Windows, PlayStation 4, PlayStation 5, Xbox One, and Xbox Series X/S, as well as Skate It, a spin-off for Wii, Nintendo DS and iOS platforms. It received positive reviews from critics.",
   summaryEs: "Skate es un videojuego de skateboarding de EA para Xbox 360 y PlayStation 3. Fue lanzado en Norteamérica para Xbox 360 el 14 de septiembre de 2007, y para Playstation 3 el 24 de septiembre. En Europa fue puesto a la venta el 28 de septiembre para Xbox 360 y el 5 de octubre para PlayStation 3. Lleva vendidas más de 700.000 copias. El juego se creó básicamente para competir con la saga de Tony Hawk. Skate fue calificado con un 12+ en el PEGI por lenguaje soez y con un T en el ESRB por referencias de tabaco, supuesta sangre y gore, humor crudo, algunas palabrotas y violencia moderada.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/cookingwithsimon/Skate1Recompiled/releases/download/v0.2.0/Skate1-PC-v0.2.0.zip",
+      size: "24.2 MB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3354750/79c5a87b61a396cc6e6b69e3a083727f175dea83/header.jpg?t=1788891347",
     alt: "Skate (Steam header)",

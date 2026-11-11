@@ -14,7 +14,7 @@ export const zelda2AdventureOfLinkRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.6.0", date: "2026-10-22" },
   sources: ["https://github.com/troyedwardsjr/z2rs"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
@@ -26,6 +26,33 @@ export const zelda2AdventureOfLinkRecomp: Port = {
     "Listed on the PortsDR community index with no public repository. You need your own game files.",
   notesEs:
     "Listado en el índice comunitario PortsDR, sin repositorio público. Necesitas tus propios archivos del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/troyedwardsjr/z2rs/releases/download/v0.6.0/z2rs-0.6.0-aarch64-apple-darwin.zip",
+      size: "23.3 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/troyedwardsjr/z2rs/releases/download/v0.6.0/z2rs-0.6.0-android.apk",
+      size: "46.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/troyedwardsjr/z2rs/releases/download/v0.6.0/z2rs-0.6.0-x86_64-apple-darwin.zip",
+      size: "25.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/troyedwardsjr/z2rs/releases/download/v0.6.0/z2rs-0.6.0-x86_64-pc-windows-msvc.zip",
+      size: "14.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/troyedwardsjr/z2rs/releases/download/v0.6.0/z2rs-0.6.0-x86_64-unknown-linux-gnu.tar.gz",
+      size: "20.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Zelda%20II%20-%20The%20Adventure%20of%20Link%20(Europe)%20(Rev%201).png",
     alt: "Zelda II: The Adventure of Link (box art)",

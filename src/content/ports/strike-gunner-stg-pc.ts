@@ -14,7 +14,7 @@ export const strikeGunnerStgPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.3.0", date: "2026-10-20" },
   sources: ["https://github.com/SlippyGetBackHere/Strike-Gunner-STG-Recomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -22,6 +22,13 @@ export const strikeGunnerStgPc: Port = {
   originalSystems: ["Super Nintendo"],
   summary: "Strike Gunner S.T.G is a 1991 vertically scrolling shooter video game developed by Athena and published by Tecmo. It was released in Japan and North America in April 1991.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/SlippyGetBackHere/Strike-Gunner-STG-Recomp/releases/download/v0.3.0/strikegunnerstg-0.3.0-windows-x64.zip",
+      size: "49.8 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/strike-gunner-stg.svg",
     alt: "Strike Gunner STG (generated cover)",

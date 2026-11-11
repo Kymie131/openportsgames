@@ -23,6 +23,23 @@ export const hydraCastleLabyrinthPsp: Port = {
   summary: "Hydra Castle Labyrinth is a action-adventure game published by Buster for Windows, released in 2010.",
   summaryEs: "Hydra Castle Labyrinth es un videojuego de acci�n y aventura publicado por Buster para Windows, lanzado en 2010.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "OpenHCL_3DS_3DSX",
+      url: "https://github.com/JeffRuLz/OpenHCL/releases/download/untagged-289a342ec6863598160c/OpenHCL_3DS_3DSX.zip",
+      size: "8.9 MB",
+    },
+    {
+      label: "OpenHCL_PSP",
+      url: "https://github.com/JeffRuLz/OpenHCL/releases/download/untagged-289a342ec6863598160c/OpenHCL_PSP.zip",
+      size: "9.3 MB",
+    },
+    {
+      label: "OpenHCL_Wii",
+      url: "https://github.com/JeffRuLz/OpenHCL/releases/download/untagged-289a342ec6863598160c/OpenHCL_Wii.zip",
+      size: "9.0 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/hydra-castle-labyrinth.svg",
     alt: "Hydra Castle Labyrinth (generated cover)",

@@ -14,7 +14,7 @@ export const pokemonLetsGoRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.7.6", date: "2026-11-01" },
   sources: ["https://github.com/raulzrrs/letsgo-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -22,6 +22,13 @@ export const pokemonLetsGoRecomp: Port = {
   originalSystems: ["Nintendo Switch"],
   summary: "Eevee, known in Japan as Eievui , is a Pokémon species in the Pokémon franchise. Created by Satoshi Tajiri and designed by Motofumi Fujiwara, it first appeared in the video games Pokémon Red and Blue. It later appeared in a variety of merchandise, spin-off titles, and both animated and printed adaptations of the franchise. It is also the game mascot and starter Pokémon for Pokémon: Let's Go, Eevee!",
   summaryEs: "Eevee es un personaje de ficción de la franquicia de Nintendo y Game Freak Pokémon. Creado por Ken Sugimori, su primera aparición fue en los videojuegos Pokémon Rojo y Azul. Ha aparecido en diversos medios, títulos especiales, y adaptaciones animadas de la franquicia. Es la mascota principal y Pokémon inicial en el juego Pokémon: Let's Go, Eevee! para Nintendo Switch.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/raulzrrs/letsgo-recomp/releases/download/v0.7.6/LetsGoRecomp-0.7.6-windows.zip",
+      size: "87.9 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/pokemon-let-s-go-eevee.svg",
     alt: "Pokémon: Let's Go, Eevee! (generated cover)",

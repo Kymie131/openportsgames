@@ -14,12 +14,19 @@ export const _2Ship2Harkinian2s2h: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "5.0.1", date: "2026-09-03" },
   sources: ["https://github.com/Jameriquiah/2ship2harkinian"],
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Jameriquiah/2ship2harkinian/releases/download/android-5.0.1/2s2h.apk",
+      size: "34.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg",
     alt: "The Legend of Zelda: Majora's Mask (box art)",

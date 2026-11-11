@@ -14,7 +14,7 @@ export const superMetroidSnesRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.4.5", date: "2026-11-09" },
   sources: ["https://github.com/mstan/SuperMetroidRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
@@ -25,6 +25,28 @@ export const superMetroidSnesRecomp: Port = {
     "Static recompilation of Super Metroid (SNES) with the snesrecomp framework: the 65816 code is translated to C and compiled natively.",
   notesEs:
     "Recompilación estática de Super Metroid (SNES) con el framework snesrecomp: el código 65816 se traduce a C y se compila a nativo.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/mstan/SuperMetroidRecomp/releases/download/v0.4.5/supermetroid-0.4.5-linux-x64.zip",
+      size: "14.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/mstan/SuperMetroidRecomp/releases/download/v0.4.5/supermetroid-0.4.5-macos-arm64.zip",
+      size: "15.6 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/mstan/SuperMetroidRecomp/releases/download/v0.4.5/supermetroid-0.4.5-macos-x64.zip",
+      size: "16.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/SuperMetroidRecomp/releases/download/v0.4.5/supermetroid-0.4.5-windows-x64.zip",
+      size: "14.8 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Metroid%20-%20Redux%20(USA).png",
     alt: "Super Metroid (box art)",

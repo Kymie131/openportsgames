@@ -14,12 +14,19 @@ export const narutoStorm2Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android", "windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.5.43", date: "2026-11-03" },
   sources: ["https://github.com/Masterllgod/naruto-storm-2-port-nativo"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Masterllgod/naruto-storm-2-port-nativo/releases/download/v0.5.43/NarutoStorm2-PortNativo-v0.5.43-arm64.apk",
+      size: "26.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/1a/Naruto_Shippuden_UNS_2_Box_Art.jpg",
     alt: "Naruto Shippuden: Ultimate Ninja Storm 2 (box art)",

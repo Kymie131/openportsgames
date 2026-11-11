@@ -16,7 +16,7 @@ export const papayaHudWiiUAromaPlugin: Port = {
   kind: "tool",
   platforms: ["wiiu"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.4.2", date: "2026-04-20" },
   sources: ["https://github.com/dkosmari/Papaya-HUD"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -24,6 +24,13 @@ export const papayaHudWiiUAromaPlugin: Port = {
   originalSystems: ["Unknown"],
   summary: "The Wii U is a home video game console developed by Nintendo as the successor to the Wii. Released in late 2012, it was the first eighth-generation video game console and competed with Microsoft's Xbox One and Sony's PlayStation 4.",
   summaryEs: "Nintendo Wii U , con nombre clave Project Café es una consola descontinuada perteneciente a la octava generación de videoconsolas, siendo la séptima consola de sobremesa desarrollada por Nintendo, fabricada en China por Foxconn y en Japón por Mitsumi se lanzó como directa sucesora de Wii. La consola fue lanzada el 18 de noviembre de 2012 en terreno norteamericano siendo su fecha de apertura. Se presentó en la conferencia de Nintendo durante el Electronic Entertainment Expo 2011 el 7 de junio de 2011. Competía principalmente con la PlayStation 4 de Sony y la Xbox One de Microsoft.",
+  downloads: [
+    {
+      label: "papaya-hud-0.4.2",
+      url: "https://github.com/dkosmari/Papaya-HUD/releases/download/v0.4.2/papaya-hud-0.4.2.tar.gz",
+      size: "2.6 MB",
+    },
+  ],
   cover: {
     src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Wii_U_Console_and_Gamepad.png/960px-Wii_U_Console_and_Gamepad.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     alt: "Wii U (box art)",

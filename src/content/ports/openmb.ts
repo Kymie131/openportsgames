@@ -14,7 +14,7 @@ export const Openmb: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "2.2.1", date: "2022-10-07" },
   sources: ["https://github.com/cookgreen/OpenMB"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -23,6 +23,13 @@ export const Openmb: Port = {
   summary: "OpenMB is a role-playing game, released in 2000.",
   summaryEs: "OpenMB es un videojuego de rol, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "GoogleTranslateAPI-2.2.1",
+      url: "https://github.com/cookgreen/OpenMB/releases/download/googletransapi-2.2.1/GoogleTranslateAPI-2.2.1.7z",
+      size: "205 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/openmb.svg",
     alt: "OpenMB (generated cover)",

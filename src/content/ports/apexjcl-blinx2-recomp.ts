@@ -23,6 +23,23 @@ export const apexjclBlinx2Recomp: Port = {
   originalSystems: ["Xbox"],
   summary: "Blinx 2: Masters of Time and Space is a platform video game developed by Artoon and published by Microsoft Game Studios for the Xbox. Released in 2004, it is the sequel to Blinx: The Time Sweeper and was the second and final installment of the series. It received mixed reviews from critics. Like the previous installment, it is playable on an Xbox 360 using backwards compatibility.",
   summaryEs: "Blinx 2: Masters of Time and Space es un juego de plataformas desarrollado por Artoon y publicado por Microsoft Game Studios. Fue lanzado para la Xbox el 18 de noviembre de 2004. Es secuela de Blinx: The Time Sweeper, que fue lanzada para Xbox en 2002.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/apexJCL/blinx2-recomp/releases/download/v2026.11.2/blinx2-wizard-v2026.11.2-linux-x64.tar.gz",
+      size: "11.8 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/apexJCL/blinx2-recomp/releases/download/v2026.11.2/blinx2-wizard-v2026.11.2-macos.zip",
+      size: "22.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/apexJCL/blinx2-recomp/releases/download/v2026.11.2/blinx2-wizard-v2026.11.2-windows-x64.zip",
+      size: "11.9 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Blinx%202%20-%20Masters%20of%20Time%20and%20Space%20(USA).png",
     alt: "Blinx 2: Masters of Time and Space (box art)",

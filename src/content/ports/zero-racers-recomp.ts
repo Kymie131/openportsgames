@@ -14,7 +14,7 @@ export const zeroRacersRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.2", date: "2026-11-01" },
   sources: ["https://github.com/mstan/ZeroRacersVirtualBoyRecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,18 @@ export const zeroRacersRecomp: Port = {
     "Native recompilation of the unreleased Virtual Boy game Zero Racers, built with recomp-ui and a cosimulation harness. It needs your own ROM and ships no game data.",
   notesEs:
     "Recompilación nativa del juego no publicado de Virtual Boy Zero Racers, construida con recomp-ui y un sistema de cosimulación. Necesita tu propia ROM y no incluye datos del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/ZeroRacersVirtualBoyRecomp/releases/download/v0.1.2/ZeroRacersVirtualBoyRecomp-windows-x64.zip",
+      size: "8.3 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/mstan/ZeroRacersVirtualBoyRecomp/releases/download/v0.1.2/ZeroRacersVirtualBoyRecomp.exe",
+      size: "18.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/cc/Zero_Racers_title_screen.png",
     alt: "Zero Racers (box art)",

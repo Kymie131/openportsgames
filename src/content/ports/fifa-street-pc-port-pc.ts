@@ -23,6 +23,18 @@ export const fifaStreetPcPortPc: Port = {
   originalSystems: ["Xbox 360"],
   summary: "FIFA Street is a sports video game developed by EA Canada and published by Electronic Arts under the EA Sports BIG label. It is commentated on by MC Harvey of the So Solid Crew. It was released in February 2005 for PlayStation 2, Xbox, and GameCube. The cover features Brazilian international footballer Ronaldinho.",
   summaryEs: "FIFA Street es un videojuego de deportes desarrollado por EA Canadá y publicado bajo la etiqueta EA Sports BIG. Es comentado por MC Harvey de So Solid Crew. Fue lanzado en febrero de 2005 para PlayStation 2, Xbox y Nintendo GameCube. La portada presenta al futbolista internacional brasileño Ronaldinho.",
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/samuelit0davila/fifa-street-pc-port/releases/download/v2.1.4-online-beta/ReStreet-2.1.4-Setup.exe",
+      size: "432.8 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/samuelit0davila/fifa-street-pc-port/releases/download/v2.1.4-online-beta/ReStreet-Linux-launcher.tar.gz",
+      size: "32.2 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/fifa-street.svg",
     alt: "FIFA Street (generated cover)",

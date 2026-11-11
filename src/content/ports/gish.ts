@@ -14,7 +14,7 @@ export const gish: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.2", date: "2018-03-01" },
   sources: ["https://github.com/EXL/Gish"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -25,6 +25,13 @@ export const gish: Port = {
     "Android port of the physics platformer Gish, built on SDL2, OpenAL and GL4ES. It uses the game's released source and needs the original data files.",
   notesEs:
     "Port a Android del plataformas físico Gish, construido sobre SDL2, OpenAL y GL4ES. Usa el código liberado del juego y necesita los archivos de datos originales.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/EXL/Gish/releases/download/v1.2/Gish_v1.2_01-MAR-2018.apk",
+      size: "2.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/55/Gish_%28video_game%29.jpg",
     alt: "Gish (box art)",

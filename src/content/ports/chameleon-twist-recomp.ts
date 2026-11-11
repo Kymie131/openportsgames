@@ -14,7 +14,7 @@ export const chameleonTwistRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1", date: "2024-12-14" },
   sources: ["https://github.com/Rainchus/ChameleonTwist1-JP-Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const chameleonTwistRecomp: Port = {
     "Static recompilation of Chameleon Twist (N64) with N64Recomp and the RT64 renderer. It requires a copy of the game.",
   notesEs:
     "Recompilación estática de Chameleon Twist (N64) con N64Recomp y el renderizador RT64. Requiere una copia del juego.",
+  downloads: [
+    {
+      label: "ChameleonTwistJPRecompiled",
+      url: "https://github.com/Rainchus/ChameleonTwist1-JP-Recomp/releases/download/v0.1/ChameleonTwistJPRecompiled.zip",
+      size: "22.8 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Chameleon%20Twist%20(Europe).png",
     alt: "Chameleon Twist (box art)",

@@ -14,7 +14,7 @@ export const perfectDarkRemasterRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.6", date: "2026-11-05" },
   sources: ["https://github.com/nikolaygorb/PerfectDarkRemasterRecomp"],
   license: { spdx: "MIT" },
   verified: false,
@@ -25,6 +25,18 @@ export const perfectDarkRemasterRecomp: Port = {
     "Native recompilation of Perfect Dark (XBLA Remaster) (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Perfect Dark (XBLA Remaster) (Xbox 360). El jugador aporta su propio material obtenido legalmente (disc dump); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "PerfectDarkRemaster-lin64",
+      url: "https://github.com/nikolaygorb/PerfectDarkRemasterRecomp/releases/download/1.6/PerfectDarkRemaster-lin64.zip",
+      size: "27.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/nikolaygorb/PerfectDarkRemasterRecomp/releases/download/1.6/PerfectDarkRemaster-win64.zip",
+      size: "15.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg",
     alt: "Perfect Dark (XBLA Remaster) (box art)",

@@ -14,7 +14,7 @@ export const battleArenaToshindenRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.4", date: "2026-10-31" },
   sources: ["https://github.com/mstan/BattleArenaToshindenRecomp"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
@@ -26,6 +26,13 @@ export const battleArenaToshindenRecomp: Port = {
     "Listed on the PortsDR community index with no public repository. You need the original game.",
   notesEs:
     "Listado en el índice comunitario PortsDR, sin repositorio público. Necesitas el juego original.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/BattleArenaToshindenRecomp/releases/download/v0.1.4/BattleArenaToshindenRecomp-v0.1.4-windows-x64.zip",
+      size: "11.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Battle%20Arena%20Toshinden%20(Europe).png",
     alt: "Battle Arena Toshinden (box art)",

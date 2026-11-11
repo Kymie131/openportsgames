@@ -23,6 +23,23 @@ export const deadOrAlive2UltimateRecomp: Port = {
   originalSystems: ["Xbox"],
   summary: "Dead or Alive 2 is a 1999 fighting game developed by Team Ninja and published by Tecmo for arcades. Initially only released in Japan, it was later released worldwide and was ported to the Dreamcast and PlayStation 2 home systems in 2000. It is the second main entry in the Dead or Alive fighting series following the original Dead or Alive (1996). Several enhanced editions of the game were released, including the updates Dead or Alive 2 Millennium for arcades and Dead or Alive 2 Hardcore or Dead or Alive 2 Hard*Core for the PS2.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/NoRain211/doa2u-re/releases/download/v0.3.1/DOA2U-0.3.1-Alpha-Linux.zip",
+      size: "5.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/NoRain211/doa2u-re/releases/download/v0.3.1/DOA2U-0.3.1-Alpha-macOS.zip",
+      size: "5.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/NoRain211/doa2u-re/releases/download/v0.3.1/DOA2U-0.3.1-Alpha.zip",
+      size: "54.2 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/dead-or-alive-2-ultimate.svg",
     alt: "Dead or Alive 2 Ultimate (generated cover)",

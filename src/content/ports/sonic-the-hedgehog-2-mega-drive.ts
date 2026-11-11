@@ -14,12 +14,19 @@ export const sonicTheHedgehog2MegaDrive: Port = {
   originalGameLicense: "proprietary",
   platforms: ["genesis"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.9.23", date: "2026-11-10" },
   sources: ["https://github.com/mstan/SonicTheHedgehog2Recomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Sega Mega Drive / Genesis"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/SonicTheHedgehog2Recomp/releases/download/v0.9.23/SonicTheHedgehog2Recomp-windows-x64-v0.9.23.zip",
+      size: "7.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg",
     alt: "Sonic the Hedgehog 2 (box art)",

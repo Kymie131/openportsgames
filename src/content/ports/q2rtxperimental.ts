@@ -14,7 +14,7 @@ export const Q2rtxperimental: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.0.5", date: "2025-03-15" },
   sources: ["https://github.com/PolyhedronStudio/Q2RTXPerimental"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -23,6 +23,13 @@ export const Q2rtxperimental: Port = {
   summary: "Q2RTXPerimental is a shooter game, released in 2000.",
   summaryEs: "Q2RTXPerimental es un videojuego de disparos, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "q2rtxp-v0.0.5",
+      url: "https://github.com/PolyhedronStudio/Q2RTXPerimental/releases/download/v0.0.5/q2rtxp-v0.0.5.zip",
+      size: "1392.2 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/q2rtxperimental.svg",
     alt: "Q2RTXPerimental (generated cover)",

@@ -14,13 +14,20 @@ export const jgrPortable: Port = {
   originalGameLicense: "proprietary",
   platforms: ["psp"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.2", date: "2026-10-16" },
   sources: ["https://github.com/beckerd/psp_jgr_portable"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Dreamcast"],
   related: ["jet-set-radio-future-unleashed"],
+  downloads: [
+    {
+      label: "JGR_PORTABLE-1.0.2",
+      url: "https://github.com/beckerd/psp_jgr_portable/releases/download/1.0.2/JGR_PORTABLE-1.0.2.zip",
+      size: "3.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/7b/Jetsetradiopalboxart.jpg",
     alt: "Jet Set Radio (box art)",

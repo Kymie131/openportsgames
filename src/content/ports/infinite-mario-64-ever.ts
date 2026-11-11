@@ -14,7 +14,7 @@ export const infiniteMario64Ever: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.5", date: "2026-01-18" },
   sources: ["https://github.com/Brawmario/infinite-mario-64-ever"],
   license: { spdx: "MIT" },
   verified: false,
@@ -26,6 +26,38 @@ export const infiniteMario64Ever: Port = {
     "Fork of Infinite Mario 64 (originally by TwilightPB), a Super Mario 64-based project. Requires your own copy of the game.",
   notesEs:
     "Bifurcación de Infinite Mario 64 (original de TwilightPB), un proyecto basado en Super Mario 64. Requiere tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Brawmario/infinite-mario-64-ever/releases/download/v0.1.5/infinite-mario-64-ever.v0.1.5.linux.zip",
+      size: "40.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Brawmario/infinite-mario-64-ever/releases/download/v0.1.5/infinite-mario-64-ever.v0.1.5.mac.zip",
+      size: "67.3 MB",
+    },
+    {
+      label: "infinite-mario-64-ever.v0.1.5.web.nothreads",
+      url: "https://github.com/Brawmario/infinite-mario-64-ever/releases/download/v0.1.5/infinite-mario-64-ever.v0.1.5.web.nothreads.zip",
+      size: "25.8 MB",
+    },
+    {
+      label: "infinite-mario-64-ever.v0.1.5.web.pwa",
+      url: "https://github.com/Brawmario/infinite-mario-64-ever/releases/download/v0.1.5/infinite-mario-64-ever.v0.1.5.web.pwa.zip",
+      size: "25.8 MB",
+    },
+    {
+      label: "infinite-mario-64-ever.v0.1.5.web",
+      url: "https://github.com/Brawmario/infinite-mario-64-ever/releases/download/v0.1.5/infinite-mario-64-ever.v0.1.5.web.zip",
+      size: "25.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Brawmario/infinite-mario-64-ever/releases/download/v0.1.5/infinite-mario-64-ever.v0.1.5.windows.zip",
+      size: "45.7 MB",
+    },
+  ],
   cover: {
     src: "https://img.itch.zone/aW1nLzE1MjEwNzc3LnBuZw==/original/EubFkM.png",
     alt: "Super Mario 64 (cover)",

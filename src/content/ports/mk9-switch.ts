@@ -14,7 +14,7 @@ export const mk9Switch: Port = {
   originalGameLicense: "proprietary",
   platforms: ["switch"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.0.6", date: "2026-11-08" },
   sources: ["https://github.com/Thorhax/mk9-nx"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -23,6 +23,13 @@ export const mk9Switch: Port = {
   originalSystems: ["Xbox 360"],
   summary: "Mortal Kombat Komplete Edition is the 2012 release of the 2011 fighting game developed by NetherRealm Studios and published by Warner Bros. It includes all downloadable fighters and the classic costumes.",
   summaryEs: "Mortal Kombat Komplete Edition es la edición de 2012 del juego de lucha de 2011 desarrollado por NetherRealm Studios y publicado por Warner Bros. Incluye todos los personajes descargables y los trajes clásicos.",
+  downloads: [
+    {
+      label: "Switch NRO",
+      url: "https://github.com/Thorhax/mk9-nx/releases/download/v1.0.6/mk9.nro",
+      size: "86.5 MB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/237110/header.jpg",
     alt: "Mortal Kombat Komplete Edition (box art)",

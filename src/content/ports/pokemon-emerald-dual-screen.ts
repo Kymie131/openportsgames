@@ -14,7 +14,7 @@ export const pokemonEmeraldDualScreen: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.6.0", date: "2026-10-13" },
   sources: ["https://github.com/Goldoire/pokeemerald-dualscreen"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const pokemonEmeraldDualScreen: Port = {
     "Static recompilation of Pokémon Emerald (GBA) with the gbarecomp framework. It requires the original game.",
   notesEs:
     "Recompilación estática de Pokémon Emerald (GBA) con el framework gbarecomp. Requiere el juego original.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Goldoire/pokeemerald-dualscreen/releases/download/v0.6.0/pokemon-emerald-dualscreen-v0.6.0.apk",
+      size: "9.2 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20-%20Emerald%20Version%20(USA,%20Europe).png",
     alt: "Pokémon Emerald (box art)",

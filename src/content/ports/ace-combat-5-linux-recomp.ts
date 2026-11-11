@@ -14,13 +14,25 @@ export const aceCombat5LinuxRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["linux"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.3.0", date: "2026-10-06" },
   sources: ["https://github.com/Harold0777/eagle_five_recomp"],
   license: { spdx: "Apache-2.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
   related: ["ace-combat-5-recomp"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Harold0777/eagle_five_recomp/releases/download/v0.3.0/ac5-recomp-v0.3.0-linux-x86_64.tar.gz",
+      size: "15.6 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/Harold0777/eagle_five_recomp/releases/download/v0.3.0/EagleFive-x86_64.AppImage",
+      size: "14.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Ace_Combat_5_The_Unsung_War_Game_Cover.png",
     alt: "Ace Combat 5: The Unsung War (box art)",

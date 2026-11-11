@@ -29,6 +29,23 @@ export const agentUnderFireRecomp: Port = {
     "Static recompilation of the original Xbox version for Windows. Version 1.0.1 covers on-foot missions, driving levels and mounted guns in English, French and German, with USA and European discs supported. The launcher builds the game from your own disc image or folder, and needs a Direct3D 12 or 11 GPU. Not every later mission has been played through and multiplayer is untested. No game assets are included.",
   notesEs:
     "Recompilación estática de la versión original de Xbox para Windows. La versión 1.0.1 cubre misiones a pie, niveles de conducción y ametralladoras montadas en inglés, francés y alemán, con discos estadounidenses y europeos compatibles. El lanzador compila el juego a partir de tu propia imagen de disco o carpeta y necesita una GPU con Direct3D 12 u 11. No se han completado todas las misiones finales y el multijugador no está probado. No incluye recursos del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/hk21x/007-agentunderfire-recomp/releases/download/v1.0.2/AgentUnderFire-PAL-package.zip",
+      size: "79.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/hk21x/007-agentunderfire-recomp/releases/download/v1.0.2/AgentUnderFire-USA-package.zip",
+      size: "74.9 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/hk21x/007-agentunderfire-recomp/releases/download/v1.0.2/AgentUnderFireLauncher.exe",
+      size: "2.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/89/James_Bond_007_-_Agent_Under_Fire_Coverart.png",
     alt: "007: Agent Under Fire (box art)",

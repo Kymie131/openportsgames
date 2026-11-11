@@ -14,12 +14,19 @@ export const animalCrossingAnbernicHandhelds: Port = {
   originalGameLicense: "proprietary",
   platforms: ["linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.6.0", date: "2026-10-24" },
   sources: ["https://github.com/TechProGabe/OpenCrossing-Anbernic"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/TechProGabe/OpenCrossing-Anbernic/releases/download/v0.6.0/opencrossing-anbernic-v0.6.0-armhf.zip",
+      size: "3.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Animal%20Crossing%20(USA).png",
     alt: "Animal Crossing (box art)",

@@ -14,7 +14,7 @@ export const warcraftOrcsAndHumansAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "3.3.2-dev1", date: "2022-08-11" },
   sources: ["https://github.com/drodin/Stratagus"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -25,6 +25,13 @@ export const warcraftOrcsAndHumansAndroid: Port = {
     "Android port of the Stratagus real-time strategy engine, aimed at running Warcraft: Orcs & Humans. It needs the original game data files.",
   notesEs:
     "Port a Android del motor de estrategia en tiempo real Stratagus, orientado a ejecutar Warcraft: Orcs & Humans. Necesita los archivos de datos del juego original.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/drodin/Stratagus/releases/download/v3.3.2-dev1/Stratagus-v3.3.2-dev1.apk",
+      size: "12.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/9c/Warcraft_-_Orcs_%26_Humans_Coverart.png",
     alt: "Warcraft: Orcs & Humans (box art)",

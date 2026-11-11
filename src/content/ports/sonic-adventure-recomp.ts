@@ -14,7 +14,7 @@ export const sonicAdventureRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.52.1", date: "2026-10-18" },
   sources: ["https://github.com/sonicfreak1337/SARecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,18 @@ export const sonicAdventureRecomp: Port = {
     "Native port of Sonic Adventure built on KatanaRecomp, playable on Windows, Linux and Steam Deck. It is a work in progress and needs your own game data.",
   notesEs:
     "Port nativo de Sonic Adventure construido sobre KatanaRecomp, jugable en Windows, Linux y Steam Deck. Es un trabajo en progreso y necesita tus propios datos del juego.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/sonicfreak1337/SARecomp/releases/download/v0.52.1/SonicAdventureRecompiled-0.52.1-Linux.AppImage",
+      size: "366.9 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/sonicfreak1337/SARecomp/releases/download/v0.52.1/SonicAdventureRecompiled-0.52.1-SteamDeck.AppImage",
+      size: "366.9 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sega%20-%20Dreamcast/Named_Boxarts/Sonic%20Adventure%20(Europe)%20(En,Ja,Fr,De,Es).png",
     alt: "Sonic Adventure (box art)",

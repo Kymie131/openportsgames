@@ -25,6 +25,18 @@ export const ysrdevsGoldeneyeMetal: Port = {
   summaryEs: "GoldenEye 007 es un videojuego de disparos en primera persona desarrollado por Eurocom y distribuido por Activision y MGM Interactive. Es el remake del videojuego del mismo nombre desarrollado por Rare y publicado por Nintendo en 1997 para la consola Nintendo 64 y una reinterpretación de la película de James Bond de 1995, GoldenEye.",
   notes: "GoldenEye 007: static recompilation by ysrdevs for Windows, macOS. Bring your own copy of the game.",
   notesEs: "GoldenEye 007: recompilación estática de ysrdevs para Windows, macOS. Aporta tu propia copia del juego.",
+  downloads: [
+    {
+      label: "macOS DMG",
+      url: "https://github.com/ysrdevs/goldeneye-metal/releases/download/v0.5.1/GoldenEye-Metal-0.5.1-macos-arm64.dmg",
+      size: "16.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/ysrdevs/goldeneye-metal/releases/download/v0.5.1/GoldenEye-Metal-0.5.1-macos-arm64.zip",
+      size: "14.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/13/GoldenEye_007_N64_cover.jpg",
     alt: "GoldenEye 007 (box art)",

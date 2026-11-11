@@ -14,7 +14,7 @@ export const plantsVsZombies2Switch: Port = {
   originalGameLicense: "proprietary",
   platforms: ["switch"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.2.0", date: "2026-08-26" },
   sources: ["https://github.com/xflipperkast/PVZ2_NX"],
   license: { spdx: "MIT" },
   verified: false,
@@ -22,6 +22,13 @@ export const plantsVsZombies2Switch: Port = {
   originalSystems: ["Mobile"],
   summary: "Plants vs. Zombies 2 is a tower defense video game developed by PopCap Games and published by Electronic Arts. It is the sequel to Plants vs. Zombies, and was released worldwide as a free-to-play game on the Apple App Store on August 15, 2013, and Google Play on October 2, 2013. The player defends the lawn from zombies by placing a variety of plants.",
   summaryEs: "Plants vs. Zombies 2 es un videojuego gratuito de defensa de torres de 2013 desarrollado por PopCap Games y publicado por Electronic Arts. Es la secuela de Plantas contra zombis y se lanzó mundialmente en la App Store de Apple el 15 de agosto de 2013 y en Google Play el 2 de octubre de 2013. El jugador defiende el jardín de los zombis colocando diversas plantas.",
+  downloads: [
+    {
+      label: "Switch NRO",
+      url: "https://github.com/xflipperkast/PVZ2_NX/releases/download/v1.2.0/pvz2_nx.nro",
+      size: "6.4 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/plants-vs-zombies-2.svg",
     alt: "Plants vs. Zombies 2 (generated cover)",

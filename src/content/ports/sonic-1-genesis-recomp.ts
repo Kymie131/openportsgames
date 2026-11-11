@@ -14,7 +14,7 @@ export const sonic1GenesisRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.1.1", date: "2026-11-11" },
   sources: ["https://github.com/mstan/SonicTheHedgehogRecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const sonic1GenesisRecomp: Port = {
     "Native recompilation of Sonic the Hedgehog (Sega Mega Drive / Genesis). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Sonic the Hedgehog (Sega Mega Drive / Genesis). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/SonicTheHedgehogRecomp/releases/download/v1.1.1/SonicTheHedgehogRecomp-windows-x64-v1.1.1.zip",
+      size: "5.3 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sega%20-%20Mega%20Drive%20-%20Genesis/Named_Boxarts/Sonic%20The%20Hedgehog%20(USA).png",
     alt: "Sonic the Hedgehog (box art)",

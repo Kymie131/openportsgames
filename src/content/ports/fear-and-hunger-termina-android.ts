@@ -14,7 +14,7 @@ export const fearAndHungerTerminaAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.0.0", date: "2023-11-04" },
   sources: ["https://github.com/Chokage/Fear-and-Hunger-2-Termina-Mobile"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const fearAndHungerTerminaAndroid: Port = {
     "Ongoing community project to bring Fear & Hunger 2: Termina to Android. It runs the game without an emulator and needs your own copy.",
   notesEs:
     "Proyecto comunitario en curso para llevar Fear & Hunger 2: Termina a Android. Ejecuta el juego sin emulador y necesita tu propia copia.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Chokage/Fear-and-Hunger-2-Termina-Mobile/releases/download/v1.0.0/Fear.and.Hunger.2-.Termina.apk",
+      size: "1370.6 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/2171440/header.jpg",
     alt: "Fear & Hunger 2: Termina (cover)",

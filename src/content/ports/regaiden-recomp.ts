@@ -14,7 +14,7 @@ export const regaidenRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.4.2", date: "2026-11-07" },
   sources: ["https://github.com/sergiomanzur/regaiden-recomp"],
   license: { spdx: "MIT" },
   verified: false,
@@ -25,6 +25,23 @@ export const regaidenRecomp: Port = {
     "Static recompilation of Resident Evil Gaiden (Game Boy Color) to native C/C++, with widescreen, dynamic 2D lighting and HD texture support. It needs your own game data.",
   notesEs:
     "Recompilación estática de Resident Evil Gaiden (Game Boy Color) a C/C++ nativo, con widescreen, iluminación 2D dinámica y soporte de texturas HD. Necesita tus propios datos del juego.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/sergiomanzur/regaiden-recomp/releases/download/v0.4.2/Resident_Evil_Gaiden_Recomp_v0.4.2_Android.apk",
+      size: "70.4 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/sergiomanzur/regaiden-recomp/releases/download/v0.4.2/Resident_Evil_Gaiden_Recomp_v0.4.2_Android.zip",
+      size: "27.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/sergiomanzur/regaiden-recomp/releases/download/v0.4.2/Resident_Evil_Gaiden_Recomp_v0.4.2_Windows.zip",
+      size: "32.9 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Boxarts/Resident%20Evil%20Gaiden%20(Europe)%20(En,Fr,De,Es,It).png",
     alt: "Resident Evil Gaiden (box art)",

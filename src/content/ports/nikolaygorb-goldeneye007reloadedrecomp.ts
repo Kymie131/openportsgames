@@ -23,6 +23,18 @@ export const nikolaygorbGoldeneye007reloadedrecomp: Port = {
   originalSystems: ["Xbox 360"],
   summary: "GoldenEye 007: Reloaded is a shooter game.",
   summaryEs: "GoldenEye 007: Reloaded es un videojuego de disparos.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/nikolaygorb/GoldenEye007ReloadedRecomp/releases/download/1.5/GER-lin64.zip",
+      size: "42.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/nikolaygorb/GoldenEye007ReloadedRecomp/releases/download/1.5/GER-win64.zip",
+      size: "21.4 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/goldeneye-007-reloaded.svg",
     alt: "GoldenEye 007: Reloaded (generated cover)",

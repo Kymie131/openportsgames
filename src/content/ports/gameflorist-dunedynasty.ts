@@ -23,6 +23,38 @@ export const gamefloristDunedynasty: Port = {
   originalSystems: ["Unknown"],
   summary: "Dune II: The Building of a Dynasty is a 1992 real-time strategy game developed by Westwood Studios and published by Virgin Games. It serves as the sequel to Dune, which came out earlier that same year.",
   summaryEs: "Dune II: The Building of a Dynasty es un juego de estrategia en tiempo real desarrollado por Westwood Studios y publicado por Virgin Games en diciembre de 1992. Está basado en la película de David Lynch de 1984 Dune, una adaptación de la novela de ciencia ficción del mismo nombre escrita por Frank Herbert.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/gameflorist/dunedynasty/releases/download/v1.6.4/dunedynasty-v1.6.4-linux-amd64-flatpak.zip",
+      size: "1.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/gameflorist/dunedynasty/releases/download/v1.6.4/dunedynasty-v1.6.4-linux-arm64-flatpak.zip",
+      size: "1.0 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/gameflorist/dunedynasty/releases/download/v1.6.4/dunedynasty-v1.6.4-linux-arm64.zip",
+      size: "800 KB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/gameflorist/dunedynasty/releases/download/v1.6.4/dunedynasty-v1.6.4-linux-x86-64.zip",
+      size: "806 KB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/gameflorist/dunedynasty/releases/download/v1.6.4/dunedynasty-v1.6.4-macos-arm64.zip",
+      size: "4.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/gameflorist/dunedynasty/releases/download/v1.6.4/dunedynasty-v1.6.4-macos-x86-64.zip",
+      size: "4.3 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/dune-ii.svg",
     alt: "Dune II (generated cover)",

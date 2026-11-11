@@ -25,6 +25,13 @@ export const beemercodesMidnightclublaRecomp: Port = {
   summaryEs: "Midnight Club: Los Angeles es un videojuego de carreras desarrollado por Rockstar San Diego y publicado por Rockstar Games. Es la cuarta entrega de la serie Midnight Club. El juego cuenta con 43 autos y 4 motocicletas. El mapa de mundo abierto de Los Ángeles es del tamaño de las tres ciudades de las entregas anteriores combinadas. Después de varios retrasos, Midnight Club: Los Angeles fue lanzado en octubre de 2008.",
   notes: "Midnight Club: Los Angeles: static recompilation by BeemerCodes for Windows. Bring your own copy of the game.",
   notesEs: "Midnight Club: Los Angeles: recompilación estática de BeemerCodes para Windows. Aporta tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/BeemerCodes/MidnightclubLA-Recomp/releases/download/v1.2.0/MidnightClubLA-Recomp-v1.2.0.zip",
+      size: "84.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/ea/Midnight_Club-Los_Angeles.jpg",
     alt: "Midnight Club: Los Angeles (box art)",

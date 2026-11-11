@@ -14,12 +14,24 @@ export const crashTwinsanityPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.2.0", date: "2026-11-08" },
   sources: ["https://github.com/GioPixelGH/Crash-Twinsanity-Windows"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/GioPixelGH/Crash-Twinsanity-Windows/releases/download/v1.2.0/Crash-Twinsanity-Linux-x86_64.AppImage",
+      size: "13.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/GioPixelGH/Crash-Twinsanity-Windows/releases/download/v1.2.0/Crash-Twinsanity-Windows.zip",
+      size: "14.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e3/Crash_Twinsanity_North_American_PS2_cover.jpg",
     alt: "Crash Twinsanity (box art)",

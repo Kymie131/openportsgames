@@ -14,12 +14,34 @@ export const SexyParodius: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.2.0", date: "2026-09-03" },
   sources: ["https://github.com/NJH-1001/SexyParoRecomp"],
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/NJH-1001/SexyParoRecomp/releases/download/v0.2.0/sexyparo-0.2.0-linux-x64.zip",
+      size: "26.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/NJH-1001/SexyParoRecomp/releases/download/v0.2.0/sexyparo-0.2.0-macos-arm64.zip",
+      size: "24.6 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/NJH-1001/SexyParoRecomp/releases/download/v0.2.0/sexyparo-0.2.0-macos-x64.zip",
+      size: "24.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/NJH-1001/SexyParoRecomp/releases/download/v0.2.0/sexyparo-0.2.0-windows-x64.zip",
+      size: "28.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/09/Sexy_Parodius.jpg",
     alt: "Sexy Parodius (box art)",

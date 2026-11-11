@@ -15,7 +15,7 @@ export const bottomlessBlockBarrage3ds: Port = {
   category: "homebrew",
   platforms: ["3ds"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.2.0", date: "2017-09-11" },
   sources: ["https://github.com/TricksterGuy/bottomless-block-barrage"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -24,6 +24,13 @@ export const bottomlessBlockBarrage3ds: Port = {
   summary: "Bottomless Block Barrage is a puzzle game published by Homebrew, released in 2017.",
   summaryEs: "Bottomless Block Barrage es un videojuego de puzles publicado por Homebrew, lanzado en 2017.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "bottomless-block-barrage",
+      url: "https://github.com/TricksterGuy/bottomless-block-barrage/releases/download/v0.2.0/bottomless-block-barrage.zip",
+      size: "694 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/bottomless-block-barrage.svg",
     alt: "Bottomless Block Barrage (generated cover)",

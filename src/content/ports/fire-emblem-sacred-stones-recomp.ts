@@ -14,13 +14,25 @@ export const fireEmblemSacredStonesRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows","android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.20", date: "2026-10-17" },
   sources: ["https://github.com/Lordingard/SacredStonesRecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy Advance"],
   related: ["fire-emblem-the-sacred-stones"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Lordingard/SacredStonesRecomp/releases/download/v0.1.20/SacredStonesRecomp-0.1.20-android-arm64.apk",
+      size: "24.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Lordingard/SacredStonesRecomp/releases/download/v0.1.20/SacredStonesRecomp-0.1.20-win64.zip",
+      size: "32.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG",
     alt: "Fire Emblem: The Sacred Stones (box art)",

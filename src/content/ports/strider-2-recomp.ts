@@ -14,7 +14,7 @@ export const strider2Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.2", date: "2026-08-29" },
   sources: ["https://github.com/strider973/STRIDER-2-Recompiled"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
@@ -25,6 +25,28 @@ export const strider2Recomp: Port = {
   notes: "PortsDR lists this recompilation without a public repository. Own the game to play it.",
   notesEs:
     "PortsDR lista esta recompilación sin repositorio público. Necesitas el juego para jugarla.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/strider973/STRIDER-2-Recompiled/releases/download/v0.1.2/strider-0.1.2-linux-x64.zip",
+      size: "27.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/strider973/STRIDER-2-Recompiled/releases/download/v0.1.2/strider-0.1.2-macos-arm64.zip",
+      size: "24.8 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/strider973/STRIDER-2-Recompiled/releases/download/v0.1.2/strider-0.1.2-macos-x64.zip",
+      size: "25.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/strider973/STRIDER-2-Recompiled/releases/download/v0.1.2/strider-0.1.2-windows-x64.zip",
+      size: "29.2 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Strider%202%20(Europe).png",
     alt: "Strider 2 (box art)",

@@ -14,12 +14,19 @@ export const prototypePc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.5", date: "2026-10-27" },
   sources: ["https://github.com/petrishevgeorgii-debug/prototype-pc-slop"],
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 4"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/petrishevgeorgii-debug/prototype-pc-slop/releases/download/v1.0.5/PROTOTYPE-PC-Port-v1.0.5.zip",
+      size: "81.9 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/10150/header.jpg",
     alt: "PROTOTYPE (cover art)",

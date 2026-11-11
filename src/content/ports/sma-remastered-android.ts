@@ -21,6 +21,13 @@ export const smaRemasteredAndroid: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo Entertainment System"],
   related: ["super-mario-bros-remastered"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/mircowuffwuff/super-mario-bros.-remastered-android/releases/download/9/smb1r-android-arm64-9.apk",
+      size: "116.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png",
     alt: "Super Mario Bros. (box art)",

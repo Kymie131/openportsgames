@@ -42,6 +42,33 @@ export const symphonyRecomp: Port = {
     "Recompilation of Castlevania: Symphony of the Night (PS1) that runs natively on Windows (x64 and ARM64), Linux and macOS (Intel and Apple silicon). The v1.1.2p open-beta release adds language packs, a separate game-text language option, widescreen room-extension fills for most of the castle and libretro shader presets. The maintainers state the port is hand-written and does not use AI. Requires the game files from a disc copy you own and the .NET 10 runtime.",
   notesEs:
     "Recompilación de Castlevania: Symphony of the Night (PS1) que corre nativa en Windows (x64 y ARM64), Linux y macOS (Intel y Apple silicon). La versión beta abierta v1.1.2p añade paquetes de idioma, una opción separada para el idioma del texto del juego, relleno panorámico de salas para la mayor parte del castillo y presets de shaders de libretro. Los mantenedores afirman que el port está escrito a mano y no usa IA. Requiere los archivos de una copia en disco que poseas y el runtime .NET 10.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/BlackLabelHQ/SymphonyRecomp/releases/download/v1.1.2p/SymphonyRecomp-v1.1.2p-linux-x64.tar.gz",
+      size: "55.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/BlackLabelHQ/SymphonyRecomp/releases/download/v1.1.2p/SymphonyRecomp-v1.1.2p-macos-arm64.zip",
+      size: "54.0 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/BlackLabelHQ/SymphonyRecomp/releases/download/v1.1.2p/SymphonyRecomp-v1.1.2p-macos-x64.zip",
+      size: "55.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/BlackLabelHQ/SymphonyRecomp/releases/download/v1.1.2p/SymphonyRecomp-v1.1.2p-windows-arm64.zip",
+      size: "53.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/BlackLabelHQ/SymphonyRecomp/releases/download/v1.1.2p/SymphonyRecomp-v1.1.2p-windows-x64.zip",
+      size: "55.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Castlevania%20-%20Symphony%20of%20the%20Night%20(USA).png",
     alt: "Castlevania: Symphony of the Night (box art)",

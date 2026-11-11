@@ -14,7 +14,7 @@ export const skate3Mobile: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "2.1.0", date: "2026-09-15" },
   sources: ["https://github.com/Buku313/Skate3-Mobile"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const skate3Mobile: Port = {
     "Android port of the Skate 3 recompilation (ARM64 with the native Vulkan renderer), aimed at phones and handhelds. A developer build, first verified on an Anbernic RG406V.",
   notesEs:
     "Port a Android de la recompilación de Skate 3 (ARM64 con el renderizador Vulkan nativo), pensado para teléfonos y consolas portátiles. Build de desarrollo, verificada por primera vez en una Anbernic RG406V.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Buku313/Skate3-Mobile/releases/download/v2.1.0/Skate3-Mobile-Android.apk",
+      size: "36.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/84/Skate-3-Boxart.jpg",
     alt: "Skate 3 (box art)",

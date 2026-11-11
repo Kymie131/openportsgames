@@ -24,6 +24,18 @@ export const battleblockTheaterSwitch: Port = {
   summary: "BattleBlock Theater is a platform game published by Microsoft Studios for Xbox 360, released in 2013.",
   summaryEs: "BattleBlock Theater es un videojuego de plataformas publicado por Microsoft Studios para Xbox 360, lanzado en 2013.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Switch NRO",
+      url: "https://github.com/andresarevalo1/BattleBlockRecomp-NX/releases/download/v0.2.0/battleblock_theater.nro",
+      size: "39.1 MB",
+    },
+    {
+      label: "Switch",
+      url: "https://github.com/andresarevalo1/BattleBlockRecomp-NX/releases/download/v0.2.0/battleblock_theater.zip",
+      size: "12.6 MB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238460/header.jpg?t=1779296698",
     alt: "BattleBlock Theater (Steam header)",

@@ -47,6 +47,13 @@ export const rbDoom3Bfg: Port = {
       credit: "RobertBeckebans",
     },
   ],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/RobertBeckebans/RBDOOM-3-BFG/releases/download/v1.6.0/RBDOOM-3-BFG-1.6.0.22-full-win64-20250510-git-ba39ba6.7z",
+      size: "1570.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/4e/Doom3box.jpg",
     alt: "Doom 3 BFG Edition (box art)",

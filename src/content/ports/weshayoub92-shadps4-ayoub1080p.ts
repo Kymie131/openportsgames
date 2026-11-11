@@ -21,6 +21,13 @@ export const weshayoub92Shadps4Ayoub1080p: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation 4"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/weshayoub92/shadPS4-AYOUB1080p/releases/download/v1.0/shadPS4-AYOUB1080p-1.0-windows-x64.zip",
+      size: "29.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/34/Infamous_second_son_boxart.jpg",
     alt: "inFAMOUS Second Son (box art)",

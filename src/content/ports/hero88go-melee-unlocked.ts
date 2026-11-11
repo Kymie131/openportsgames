@@ -21,6 +21,38 @@ export const hero88goMeleeUnlocked: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo GameCube"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Hero88go/melee-unlocked/releases/download/v0.9.113/MeleeUnlocked-0.9.113-compat-win64.zip",
+      size: "75.3 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Hero88go/melee-unlocked/releases/download/v0.9.113/MeleeUnlocked-0.9.113-linux-x86_64.tar.gz",
+      size: "439.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Hero88go/melee-unlocked/releases/download/v0.9.113/MeleeUnlocked-0.9.113-RTX-Pack.zip",
+      size: "445.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Hero88go/melee-unlocked/releases/download/v0.9.113/MeleeUnlocked-0.9.113-win64.zip",
+      size: "431.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Hero88go/melee-unlocked/releases/download/v0.9.113/MeleeUnlocked-DLSS5-Model.zip",
+      size: "179.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Hero88go/melee-unlocked/releases/download/v0.9.113/MeleeUnlocked-XeSS.zip",
+      size: "56.9 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Super%20Smash%20Bros.%20Melee%20(Europe)%20(En,Fr,De,Es,It).png",
     alt: "Super Smash Bros. Melee (box art)",

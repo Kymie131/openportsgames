@@ -14,7 +14,7 @@ export const Openxw: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.0.3", date: "2026-09-29" },
   sources: ["https://github.com/elyosh/OpenXW"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -23,6 +23,23 @@ export const Openxw: Port = {
   summary: "OpenXW is a action-adventure game, released in 2000.",
   summaryEs: "OpenXW es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/elyosh/OpenXW/releases/download/v0.0.3/openxw-0.0.3-linux-x86_64-release.tar.xz",
+      size: "4.6 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/elyosh/OpenXW/releases/download/v0.0.3/openxw-0.0.3-macos-arm64-release.dmg",
+      size: "7.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/elyosh/OpenXW/releases/download/v0.0.3/openxw-0.0.3-windows-x86_64-release.zip",
+      size: "14.8 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/openxw.svg",
     alt: "OpenXW (generated cover)",

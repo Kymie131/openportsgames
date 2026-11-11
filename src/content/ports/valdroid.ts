@@ -14,7 +14,7 @@ export const valdroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.4", date: "2026-10-30" },
   sources: ["https://github.com/udarmolota/ValDroid"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -25,6 +25,18 @@ export const valdroid: Port = {
     "Unofficial Android launcher for Valheim. It requires the desktop game files from your own copy.",
   notesEs:
     "Lanzador no oficial para Android de Valheim. Requiere los archivos del juego de escritorio de tu propia copia.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/udarmolota/ValDroid/releases/download/0.1.4/valdroid-release-0.1.4.apk",
+      size: "95.7 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/udarmolota/ValDroid/releases/download/0.1.4/valdroid-release-0.1.4v2.apk",
+      size: "95.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/77/Valheim_2021_logo.jpg",
     alt: "Valheim (box art)",

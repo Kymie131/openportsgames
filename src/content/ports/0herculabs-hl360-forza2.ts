@@ -23,6 +23,13 @@ export const p0herculabsHl360Forza2: Port = {
   originalSystems: ["Xbox 360"],
   summary: "Forza Motorsport 2 is a 2007 simulation racing video game developed by Turn 10 Studios for the Xbox 360 console. It is the second title in the Forza series, and is the sequel to the original Forza Motorsport (2005) and was followed by Forza Motorsport 3 (2009).",
   summaryEs: "Forza Motorsport 2 es la secuela del videojuego de simulación de carreras Forza Motorsport para Xbox, desarrollado por Microsoft Game Studios para la consola Xbox 360.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/0herculabs/hl360-Forza2/releases/download/v0.3.1/Forza2-Native-0.3.1-windows-x64.zip",
+      size: "20.1 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/forza-motorsport-2.svg",
     alt: "Forza Motorsport 2 (generated cover)",

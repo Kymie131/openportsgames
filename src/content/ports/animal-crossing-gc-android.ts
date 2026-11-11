@@ -14,7 +14,7 @@ export const animalCrossingGcAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.5.0", date: "2026-10-06" },
   sources: ["https://github.com/zwaetschge/ACGC-Android-Port"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -22,6 +22,13 @@ export const animalCrossingGcAndroid: Port = {
   originalSystems: ["GameCube"],
   related: ["animal-crossing-pc-port"],
   aiDisclosure: {"source":"https://github.com/zwaetschge/ACGC-Android-Port","quote":"built with Z.ai, OpenAI Codex and Claude"},
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/zwaetschge/ACGC-Android-Port/releases/download/v0.5.0/ACGC-Android-v0.5.0.apk",
+      size: "59.1 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Animal%20Crossing%20(USA).png",
     alt: "Animal Crossing (box art)",

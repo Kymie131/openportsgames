@@ -14,12 +14,19 @@ export const zelda3launcher: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.1", date: "2023-08-22" },
   sources: ["https://github.com/Waterdish/zelda3-android"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Super Nintendo"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Waterdish/zelda3-android/releases/download/v1.0.1/app-release.apk",
+      size: "9.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg",
     alt: "The Legend of Zelda: A Link to the Past (box art)",

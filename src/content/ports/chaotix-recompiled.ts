@@ -14,7 +14,7 @@ export const chaotixRecompiled: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos", "android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.15.21", date: "2026-11-10" },
   sources: ["https://github.com/YuutaTsubasa/ChaotixRecompiled"],
   license: { spdx: "MIT" },
   verified: false,
@@ -25,6 +25,38 @@ export const chaotixRecompiled: Port = {
     "Static recompilation of Knuckles' Chaotix (Sega 32X) to native C++, with true widescreen. It builds for Windows, Linux, macOS and Android and requires your own ROM.",
   notesEs:
     "Recompilación estática de Knuckles' Chaotix (Sega 32X) a C++ nativo, con widescreen real. Compila para Windows, Linux, macOS y Android y requiere tu propia ROM.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/download/v0.15.21/ChaotixRecompiled-0.15.21-android-armeabi-v7a.apk",
+      size: "11.6 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/download/v0.15.21/ChaotixRecompiled-0.15.21-android.apk",
+      size: "31.6 MB",
+    },
+    {
+      label: "iOS IPA",
+      url: "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/download/v0.15.21/ChaotixRecompiled-0.15.21-ios-arm64.ipa",
+      size: "5.8 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/download/v0.15.21/ChaotixRecompiled-0.15.21-linux-x64.tar.gz",
+      size: "5.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/download/v0.15.21/ChaotixRecompiled-0.15.21-macos-arm64.zip",
+      size: "5.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/download/v0.15.21/ChaotixRecompiled-0.15.21-windows-x64.zip",
+      size: "9.4 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sega%20-%2032X/Named_Boxarts/Knuckles'%20Chaotix%20(Europe).png",
     alt: "Knuckles' Chaotix (box art)",

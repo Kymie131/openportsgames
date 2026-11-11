@@ -21,6 +21,28 @@ export const lancommanderTonywasaproskater: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/LANCommander/TonyWasAProSkater/releases/download/v1.4.0/thps-linux-x64-1.4.0.tar.gz",
+      size: "610 KB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/LANCommander/TonyWasAProSkater/releases/download/v1.4.0/thps-linux-x86-1.4.0.tar.gz",
+      size: "599 KB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/LANCommander/TonyWasAProSkater/releases/download/v1.4.0/thps-windows-x64-1.4.0.zip",
+      size: "1.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/LANCommander/TonyWasAProSkater/releases/download/v1.4.0/thps-windows-x86-1.4.0.zip",
+      size: "1.6 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Tony%20Hawk's%20Pro%20Skater%20(Japan).png",
     alt: "Tony Hawk's Pro Skater (box art)",

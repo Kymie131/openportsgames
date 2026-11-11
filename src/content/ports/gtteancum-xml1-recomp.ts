@@ -21,6 +21,18 @@ export const gtteancumXml1Recomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/GTTeancum/XML1-recomp/releases/download/1.0.1/XML1-recomp-1.0.1-texture-template.zip",
+      size: "138.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/GTTeancum/XML1-recomp/releases/download/1.0.1/XML1-recomp-1.0.1-win64.zip",
+      size: "42.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/X-Men%20Legends%20(USA).png",
     alt: "X-Men Legends (box art)",

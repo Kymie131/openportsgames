@@ -25,6 +25,13 @@ export const teamBeefStudiosQuakequest: Port = {
   summaryEs: "Quake es un videojuego de disparos en primera persona publicado por id Software el 22 de junio de 1996. Introdujo algunos de los mayores avances en el género de los videojuegos en 3D: utiliza modelos tridimensionales para los jugadores y los monstruos en vez de sprites bidimensionales; y el mundo donde el juego tiene lugar está creado como un verdadero espacio tridimensional, en vez de ser un mapa bidimensional con información sobre la altura representada en tres dimensiones.",
   notes: "Quake: source port by Team-Beef-Studios for Windows. Bring your own copy of the game.",
   notesEs: "Quake: source port de Team-Beef-Studios para Windows. Aporta tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Team-Beef-Studios/QuakeQuest/releases/download/v1.6.0/quakequest-v1.6.0.apk",
+      size: "11.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Quake%20(1996).png",
     alt: "Quake (box art)",

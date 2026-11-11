@@ -14,13 +14,35 @@ export const metalSlugXRecompTechnically: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.21", date: "2026-10-01" },
   sources: ["https://github.com/TechnicallyComputers/Metal-Slug-X-Recomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
   related: ["metal-slug-x-recomp"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/TechnicallyComputers/Metal-Slug-X-Recomp/releases/download/v0.1.21/msx-0.1.21-linux-x64.zip",
+      size: "51.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/TechnicallyComputers/Metal-Slug-X-Recomp/releases/download/v0.1.21/msx-0.1.21-macos-arm64.zip",
+      size: "27.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/TechnicallyComputers/Metal-Slug-X-Recomp/releases/download/v0.1.21/msx-0.1.21-macos-x64.zip",
+      size: "28.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/TechnicallyComputers/Metal-Slug-X-Recomp/releases/download/v0.1.21/msx-0.1.21-windows-x64.zip",
+      size: "29.9 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/312610/header.jpg",
     alt: "Metal Slug X (cover art)",

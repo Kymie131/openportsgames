@@ -57,6 +57,33 @@ export const zelda64Recomp: Port = {
       credit: "Zelda64Recomp",
     },
   ],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Zelda64Recomp/Zelda64Recomp/releases/download/v1.2.2/Zelda64Recompiled-v1.2.2-Linux-ARM64.zip",
+      size: "18.3 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Zelda64Recomp/Zelda64Recomp/releases/download/v1.2.2/Zelda64Recompiled-v1.2.2-Linux-Flatpak-X64.zip",
+      size: "12.4 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Zelda64Recomp/Zelda64Recomp/releases/download/v1.2.2/Zelda64Recompiled-v1.2.2-Linux-X64.zip",
+      size: "17.8 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Zelda64Recomp/Zelda64Recomp/releases/download/v1.2.2/Zelda64Recompiled-v1.2.2-macOS.zip",
+      size: "30.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Zelda64Recomp/Zelda64Recomp/releases/download/v1.2.2/Zelda64Recompiled-v1.2.2-Windows.zip",
+      size: "27.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg",
     alt: "The Legend of Zelda: Majora's Mask (box art)",

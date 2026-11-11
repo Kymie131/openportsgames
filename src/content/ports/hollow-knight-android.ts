@@ -14,7 +14,7 @@ export const hollowKnightAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.3", date: "2026-08-23" },
   sources: ["https://github.com/igawa6/dualsouls"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const hollowKnightAndroid: Port = {
     "Unofficial Android port of Hollow Knight with dual-screen support, aimed at handhelds. It needs the game itself.",
   notesEs:
     "Port no oficial para Android de Hollow Knight con soporte de doble pantalla, pensado para consolas portátiles. Necesita el propio juego.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/igawa6/dualsouls/releases/download/1.0.3/dualsouls-v1.0.3-thor-arm64.apk",
+      size: "34.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/de/Hollow_Knight_2026_cover_art.jpg",
     alt: "Hollow Knight (box art)",

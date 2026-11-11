@@ -40,6 +40,18 @@ export const waveRace64Recompiled: Port = {
     "Native recompilation of Wave Race 64. The repository openly describes itself as an AI-coded port, which the catalog records as AI-assisted development. Requires the player's own legally obtained Wave Race 64 ROM.",
   notesEs:
     "Recompilación nativa de Wave Race 64. El repositorio se describe abiertamente como un port programado por IA, lo que el catálogo registra como desarrollo asistido por IA. Requiere la ROM de Wave Race 64 obtenida legalmente por el jugador.",
+  downloads: [
+    {
+      label: "Macos",
+      url: "https://github.com/elliotttate/wave-race-64-recomp/releases/download/v0.4.0-macos.3/WaveRace64Recomp-0.4.0-macos.3-apple-silicon.zip",
+      size: "365.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/elliotttate/wave-race-64-recomp/releases/download/v0.4.0-macos.3/WaveRace64Recomp-0.4.0-windows-x64.zip",
+      size: "374.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Wave%20Race%2064%20-%20Kawasaki%20Jet%20Ski%20(USA).png",
     alt: "Wave Race 64 (box art)",

@@ -14,12 +14,19 @@ export const project8recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.2.4", date: "2026-10-12" },
   sources: ["https://github.com/moddedrounds/THP8-Android"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/moddedrounds/THP8-Android/releases/download/v1.2.4/THP8-Android.apk",
+      size: "83.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/8c/Tony_Hawk%27s_Project_8_cover.jpg",
     alt: "Tony Hawk's Project 8 (box art)",

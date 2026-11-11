@@ -24,6 +24,13 @@ export const bomberworldSnes: Port = {
   summary: "Bomberworld is a action-adventure game published by Homebrew, released in 2021.",
   summaryEs: "Bomberworld es un videojuego de acci�n y aventura publicado por Homebrew, lanzado en 2021.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "bomberworld-94",
+      url: "https://github.com/1r3n33/bomberworld/releases/download/release-94-2020-05-21/bomberworld-94.zip",
+      size: "64 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/bomberworld.svg",
     alt: "Bomberworld (generated cover)",

@@ -21,6 +21,13 @@ export const luisxl15MidnightClubLARecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/luisxl15/Midnight-Club-L.A-RECOMP/releases/download/v1.0/Midnight-Club-LA-RECOMP-v1.0.zip",
+      size: "129.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/ea/Midnight_Club-Los_Angeles.jpg",
     alt: "Midnight Club: Los Angeles (box art)",

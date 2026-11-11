@@ -23,6 +23,13 @@ export const endproduktCannonballDx: Port = {
   originalSystems: ["Unknown"],
   summary: "OutRun is a racing game in 2024.",
   summaryEs: "OutRun es un videojuego de carreras en 2024.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Endprodukt/cannonball-dx/releases/download/1.04/CannonballDX_1.04.zip",
+      size: "6.2 MB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187540/header.jpg?t=1734090727",
     alt: "OutRun (Steam header)",

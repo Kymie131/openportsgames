@@ -14,12 +14,39 @@ export const psydoom: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows","linux","macos"],
   status: "stable",
-  release: { version: null, date: null },
+  release: { version: "1.1.1", date: "2023-06-13" },
   sources: ["https://github.com/BodbDearg/PsyDoom"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/BodbDearg/PsyDoom/releases/download/releases/1.1.1/PsyDoom_1.1.1_Linux_AArch64.AppImage",
+      size: "5.0 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/BodbDearg/PsyDoom/releases/download/releases/1.1.1/PsyDoom_1.1.1_Linux_ArmHF.AppImage",
+      size: "4.4 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/BodbDearg/PsyDoom/releases/download/releases/1.1.1/PsyDoom_1.1.1_Linux_x86_64.AppImage",
+      size: "5.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/BodbDearg/PsyDoom/releases/download/releases/1.1.1/PsyDoom_1.1.1_MacOS_x86_64_Arm64.zip",
+      size: "8.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/BodbDearg/PsyDoom/releases/download/releases/1.1.1/PsyDoom_1.1.1_Windows_x86_64.zip",
+      size: "1.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg",
     alt: "Doom (box art)",

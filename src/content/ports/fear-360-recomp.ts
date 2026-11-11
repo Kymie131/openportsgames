@@ -24,6 +24,18 @@ export const fear360Recomp: Port = {
   summary: "F.E.A.R. is a shooter game published by Vivendi Universal Games for Xbox 360, released in 2006.",
   summaryEs: "F.E.A.R. es un videojuego de disparos publicado por Vivendi Universal Games para Xbox 360, lanzado en 2006.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Juansolo457/fear360-recomp/releases/download/v1.7.0/FEAR360-Recompiled-1.7.0-Linux.zip",
+      size: "157.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Juansolo457/fear360-recomp/releases/download/v1.7.0/FEAR360-Recompiled-1.7.0-Windows.zip",
+      size: "24.2 MB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21090/header.jpg?t=1773443317",
     alt: "F.E.A.R. (Steam header)",

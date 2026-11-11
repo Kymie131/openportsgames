@@ -14,7 +14,7 @@ export const OmegaEngine: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "3.4.1", date: "2026-09-05" },
   sources: ["https://github.com/Bishop-333/OmegA-engine"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -23,6 +23,33 @@ export const OmegaEngine: Port = {
   summary: "OmegA-engine is a action-adventure game, released in 2000.",
   summaryEs: "OmegA-engine es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Bishop-333/OmegA-engine/releases/download/v3.4.1/omega-engine-linux-arm64.tar.gz",
+      size: "2.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Bishop-333/OmegA-engine/releases/download/v3.4.1/omega-engine-linux-x86_64.tar.gz",
+      size: "2.1 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/Bishop-333/OmegA-engine/releases/download/v3.4.1/omega-engine-macos-universal2.dmg",
+      size: "11.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Bishop-333/OmegA-engine/releases/download/v3.4.1/omega-engine-windows-x86_64.zip",
+      size: "4.6 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Bishop-333/OmegA-engine/releases/download/v3.4.1/omega-engine_3.4.1_amd64.deb",
+      size: "1.0 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/omega-engine.svg",
     alt: "OmegA-engine (generated cover)",

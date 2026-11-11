@@ -14,12 +14,19 @@ export const narutoStormRevolutionRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android", "windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.1.11", date: "2026-11-03" },
   sources: ["https://github.com/Masterllgod/naruto-storm-revolution-port-nativo"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Masterllgod/naruto-storm-revolution-port-nativo/releases/download/v1.1.11/NarutoStormRevolution-PortNativo-v1.1.11-arm64.apk",
+      size: "26.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/f2/NarutoStormRevolutionCover.jpg",
     alt: "Naruto Shippuden: Ultimate Ninja Storm Revolution (box art)",

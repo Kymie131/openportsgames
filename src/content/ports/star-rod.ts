@@ -27,6 +27,13 @@ export const starRod: Port = {
     "Native port and modding toolkit for Paper Mario from the decompilation project. Requires the original Paper Mario N64 ROM (legally obtained).",
   notesEs:
     "Port nativo y kit de modding para Paper Mario a partir del proyecto de decompilación. Requiere la ROM original de Paper Mario para N64 (obtenida legalmente).",
+  downloads: [
+    {
+      label: "StarRod-0.10.2",
+      url: "https://github.com/z64a/star-rod/releases/download/v0.10.2/StarRod-0.10.2.zip",
+      size: "47.6 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Paper%20Mario%20(USA).png",
     alt: "Paper Mario (cover)",

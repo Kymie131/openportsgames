@@ -23,6 +23,38 @@ export const carmageddon2Android: Port = {
   originalSystems: ["Windows"],
   summary: "The world's first high-speed internal organ liberation simulator is back in full 3D! The slaughter is bloodier, the body parts fly further, and the destruction is heavier. Crash and burn through the 3D rendered crowds with the pedal to the metal.",
   summaryEs: "Carmageddon 2: Carpocalypse Now es un videojuego de carreras de 1998 desarrollado por Stainless Games y publicado por Interplay Entertainment. Combina carreras y destrucción con atropellos y combate vehicular.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Link4Electronics/Carpocalypse2/releases/download/0.81/carpocalypse2-0.81-android-arm64-v8a.apk",
+      size: "8.8 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/Link4Electronics/Carpocalypse2/releases/download/0.81/carpocalypse2-0.81-android-armeabi-v7a.apk",
+      size: "6.8 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/Link4Electronics/Carpocalypse2/releases/download/0.81/carpocalypse2-dbe5060-anylinux-aarch64.AppImage",
+      size: "23.6 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/Link4Electronics/Carpocalypse2/releases/download/0.81/carpocalypse2-dbe5060-anylinux-x86_64.AppImage",
+      size: "23.6 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Link4Electronics/Carpocalypse2/releases/download/0.81/carpocalypse2-macos-arm64.zip",
+      size: "2.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Link4Electronics/Carpocalypse2/releases/download/0.81/carpocalypse2-windows-x86_64.zip",
+      size: "2.9 MB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282030/header.jpg?t=1727252729",
     alt: "Carmageddon 2: Carpocalypse Now (Steam header)",

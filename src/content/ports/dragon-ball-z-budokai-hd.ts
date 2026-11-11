@@ -14,7 +14,7 @@ export const dragonBallZBudokaiHd: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.0.2", date: "2026-02-22" },
   sources: ["https://github.com/WistfulHopes/DBZ1"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const dragonBallZBudokaiHd: Port = {
     "ReXGlue static recompilation of Dragon Ball Z: Budokai HD Collection (Xbox 360) for Windows. Needs the original game files.",
   notesEs:
     "Recompilación estática con ReXGlue de Dragon Ball Z: Budokai HD Collection (Xbox 360) para Windows. Necesita los archivos originales.",
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/WistfulHopes/DBZ1/releases/download/v0.0.2/dbz1.exe",
+      size: "20.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/07/DBZ1%262.PNG",
     alt: "Dragon Ball Z: Budokai HD Collection (cover)",

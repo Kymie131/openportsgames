@@ -14,7 +14,7 @@ export const Wc1Re: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.9.9", date: "2026-11-11" },
   sources: ["https://github.com/neuromancer/wc1-re"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -23,6 +23,38 @@ export const Wc1Re: Port = {
   summary: "wc1-re is a action-adventure game, released in 2000.",
   summaryEs: "wc1-re es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/neuromancer/wc1-re/releases/download/v0.9.9/wc1-re-v0.9.9-linux-x86_64-sdl2.zip",
+      size: "41.0 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/neuromancer/wc1-re/releases/download/v0.9.9/wc1-re-v0.9.9-macos-arm64-sdl2.zip",
+      size: "35.9 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/neuromancer/wc1-re/releases/download/v0.9.9/wc1-re-v0.9.9-macos-arm64.dmg",
+      size: "36.8 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/neuromancer/wc1-re/releases/download/v0.9.9/wc1-re-v0.9.9-macos-x86_64-sdl2.zip",
+      size: "35.8 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/neuromancer/wc1-re/releases/download/v0.9.9/wc1-re-v0.9.9-macos-x86_64.dmg",
+      size: "36.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/neuromancer/wc1-re/releases/download/v0.9.9/wc1-re-v0.9.9-win32-msvc420.zip",
+      size: "262 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/wc1-re.svg",
     alt: "wc1-re (generated cover)",

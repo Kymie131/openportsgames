@@ -14,12 +14,19 @@ export const needForSpeedMostWanted2012Switch: Port = {
   originalGameLicense: "proprietary",
   platforms: ["switch"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.3.2", date: "2026-11-09" },
   sources: ["https://github.com/SantiBros/NFSMostWanted2012-Android-Switch"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Switch",
+      url: "https://github.com/SantiBros/NFSMostWanted2012-Android-Switch/releases/download/v0.3.2/NFSMostWanted2012-0.3.2.zip",
+      size: "7.7 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1262560/header.jpg",
     alt: "Need for Speed: Most Wanted (cover art)",

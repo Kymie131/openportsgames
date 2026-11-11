@@ -14,7 +14,7 @@ export const deadlyPremonitionRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.0.14", date: "2026-10-03" },
   sources: ["https://github.com/LittleBitUA/DPRecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const deadlyPremonitionRecomp: Port = {
     "Recompiled Deadly Premonition (Xbox 360) to run natively on Windows through ReXGlue. Own the game to play.",
   notesEs:
     "Recompilado Deadly Premonition (Xbox 360) para ejecutarse de forma nativa en Windows con ReXGlue. Necesitas el juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/LittleBitUA/DPRecomp/releases/download/v2.0.14/DPRecomp-2.0.14-win64.zip",
+      size: "44.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c5/Deadly_Premonition_cover_art.jpg",
     alt: "Deadly Premonition (box art)",

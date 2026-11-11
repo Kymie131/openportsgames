@@ -52,6 +52,38 @@ export const openMohaa: Port = {
       credit: "OpenMoHAA",
     },
   ],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/openmoh/openmohaa/releases/download/v0.82.1/openmohaa-v0.82.1-linux-amd64.zip",
+      size: "16.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/openmoh/openmohaa/releases/download/v0.82.1/openmohaa-v0.82.1-linux-arm64.zip",
+      size: "15.8 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/openmoh/openmohaa/releases/download/v0.82.1/openmohaa-v0.82.1-linux-armhf.zip",
+      size: "15.6 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/openmoh/openmohaa/releases/download/v0.82.1/openmohaa-v0.82.1-linux-i686.zip",
+      size: "15.8 MB",
+    },
+    {
+      label: "openmohaa-v0.82.1-linux-powerpc",
+      url: "https://github.com/openmoh/openmohaa/releases/download/v0.82.1/openmohaa-v0.82.1-linux-powerpc.zip",
+      size: "16.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/openmoh/openmohaa/releases/download/v0.82.1/openmohaa-v0.82.1-linux-ppc64.zip",
+      size: "17.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/d9/Medal_of_Honor_-_Allied_Assault_Coverart.png",
     alt: "Medal of Honor: Allied Assault (box art)",

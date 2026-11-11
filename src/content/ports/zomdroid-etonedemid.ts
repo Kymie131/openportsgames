@@ -14,12 +14,19 @@ export const zomdroidEtonedemid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.9.0", date: "2026-06-24" },
   sources: ["https://github.com/etonedemid/zomdroid-"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/etonedemid/zomdroid-/releases/download/v1.9.0/zomdroid-release-1.9.0.apk",
+      size: "86.4 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/108600/header.jpg",
     alt: "Project Zomboid (cover art)",

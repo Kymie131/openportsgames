@@ -14,7 +14,7 @@ export const pacManNesRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1.1", date: "2026-10-06" },
   sources: ["https://github.com/Mr-Shizzy/PacManRecomp"],
   license: { spdx: "MIT" },
   verified: false,
@@ -25,6 +25,18 @@ export const pacManNesRecomp: Port = {
     "Native recompilation of Pac-Man (Nintendo Entertainment System). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Pac-Man (Nintendo Entertainment System). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "PacManRecomp-1.1.1-for-1.0.x-updater-EasyBuild",
+      url: "https://github.com/Mr-Shizzy/PacManRecomp/releases/download/v1.1.1/PacManRecomp-1.1.1-for-1.0.x-updater-EasyBuild.zip",
+      size: "5.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Mr-Shizzy/PacManRecomp/releases/download/v1.1.1/PacManRecomp-1.1.1-Windows.zip",
+      size: "4.9 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Pac-Man%20(USA)%20(Namco).png",
     alt: "Pac-Man (box art)",

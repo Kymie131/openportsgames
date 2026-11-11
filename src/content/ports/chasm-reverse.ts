@@ -14,7 +14,7 @@ export const ChasmReverse: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.3", date: "2017-12-03" },
   sources: ["https://github.com/Panzerschrek/Chasm-Reverse"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -23,6 +23,13 @@ export const ChasmReverse: Port = {
   summary: "Chasm-Reverse is a action-adventure game, released in 2000.",
   summaryEs: "Chasm-Reverse es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "PanzerChasm",
+      url: "https://github.com/Panzerschrek/Chasm-Reverse/releases/download/0.3/PanzerChasm.zip",
+      size: "1.1 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/chasm-reverse.svg",
     alt: "Chasm-Reverse (generated cover)",

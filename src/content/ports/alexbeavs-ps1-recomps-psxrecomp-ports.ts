@@ -14,7 +14,7 @@ export const AlexbeavsPs1RecompsPsxrecompPorts: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.3.4", date: "2026-09-02" },
   sources: ["https://github.com/alexbeavs-ps1-ports/psxrecomp-ports"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -23,6 +23,13 @@ export const AlexbeavsPs1RecompsPsxrecompPorts: Port = {
   summary: "Alexbeav's PS1 recomps (psxrecomp-ports) is a action-adventure game for PlayStation, released in 2000.",
   summaryEs: "Alexbeav's PS1 recomps (psxrecomp-ports) es un videojuego de acci�n y aventura para PlayStation, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/alexbeavs-ps1-ports/psxrecomp-ports/releases/download/v0.3.4/psxrecomp-diablo-usa-v0.3.4-owned-input-win64.zip",
+      size: "16 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/alexbeav-s-ps1-recomps-psxrecomp-ports.svg",
     alt: "Alexbeav's PS1 recomps (psxrecomp-ports) (generated cover)",

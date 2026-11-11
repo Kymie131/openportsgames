@@ -14,7 +14,7 @@ export const SerioussamclassicVk: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.10.7", date: "2025-02-02" },
   sources: ["https://github.com/tx00100xt/SeriousSamClassic-VK"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -23,6 +23,38 @@ export const SerioussamclassicVk: Port = {
   summary: "SeriousSamClassic-VK is a action-adventure game, released in 2000.",
   summaryEs: "SeriousSamClassic-VK es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "SeriousSamClassicVk-1.10.7-alpine-musl-x86-bin",
+      url: "https://github.com/tx00100xt/SeriousSamClassic-VK/releases/download/1.10.7/SeriousSamClassicVk-1.10.7-alpine-musl-x86-bin.tar.xz",
+      size: "9.0 MB",
+    },
+    {
+      label: "SeriousSamClassicVk-1.10.7-alpine-musl-x86_64-bin",
+      url: "https://github.com/tx00100xt/SeriousSamClassic-VK/releases/download/1.10.7/SeriousSamClassicVk-1.10.7-alpine-musl-x86_64-bin.tar.xz",
+      size: "9.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/tx00100xt/SeriousSamClassic-VK/releases/download/1.10.7/SeriousSamClassicVk-1.10.7-directx9-win32-bin.7z",
+      size: "6.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/tx00100xt/SeriousSamClassic-VK/releases/download/1.10.7/SeriousSamClassicVk-1.10.7-directx9-win64-bin.7z",
+      size: "6.9 MB",
+    },
+    {
+      label: "SeriousSamClassicVk-1.10.7-freebsd-amd64-bin",
+      url: "https://github.com/tx00100xt/SeriousSamClassic-VK/releases/download/1.10.7/SeriousSamClassicVk-1.10.7-freebsd-amd64-bin.tar.xz",
+      size: "8.7 MB",
+    },
+    {
+      label: "SeriousSamClassicVk-1.10.7-lnx-aarch64-bin",
+      url: "https://github.com/tx00100xt/SeriousSamClassic-VK/releases/download/1.10.7/SeriousSamClassicVk-1.10.7-lnx-aarch64-bin.tar.xz",
+      size: "8.6 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/serioussamclassic-vk.svg",
     alt: "SeriousSamClassic-VK (generated cover)",

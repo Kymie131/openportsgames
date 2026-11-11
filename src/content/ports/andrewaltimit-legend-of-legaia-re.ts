@@ -21,6 +21,28 @@ export const andrewaltimitLegendOfLegaiaRe: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/AndrewAltimit/legend-of-legaia-re/releases/download/v1.21.0/legaia-tools-1.21.0-aarch64-unknown-linux-gnu.tar.gz",
+      size: "46.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/AndrewAltimit/legend-of-legaia-re/releases/download/v1.21.0/legaia-tools-1.21.0-universal-apple-darwin.tar.gz",
+      size: "108.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/AndrewAltimit/legend-of-legaia-re/releases/download/v1.21.0/legaia-tools-1.21.0-x86_64-pc-windows-gnu.zip",
+      size: "44.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/AndrewAltimit/legend-of-legaia-re/releases/download/v1.21.0/legaia-tools-1.21.0-x86_64-unknown-linux-gnu.tar.gz",
+      size: "44.1 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Legend%20of%20Legaia%20(Europe).png",
     alt: "Legend of Legaia (box art)",

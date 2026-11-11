@@ -23,6 +23,28 @@ export const bluddyRails: Port = {
   originalSystems: ["MS-DOS"],
   summary: "Sid Meier's Railroad Tycoon is a business simulation designed by Sid Meier. The game is the first in the Railroad Tycoon series. The original idea came from the boardgame 1830: The Game of Railroads and Robber Barons.",
   summaryEs: "Sid Meier's Railroad Tycoon es un videojuego de simulación de negocios diseñado por Sid Meier.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/bluddy/rails/releases/download/v0.1.6/rails-0.1.6-linux-x86_64.AppImage",
+      size: "13.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/bluddy/rails/releases/download/v0.1.6/rails-0.1.6-linux-x86_64.tar.gz",
+      size: "8.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/bluddy/rails/releases/download/v0.1.6/rails-0.1.6-macos-arm64.zip",
+      size: "7.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/bluddy/rails/releases/download/v0.1.6/rails-0.1.6-windows-x86_64.zip",
+      size: "10.1 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/railroad-tycoon.svg",
     alt: "Railroad Tycoon (generated cover)",

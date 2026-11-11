@@ -25,6 +25,23 @@ export const pokemonMysteryDungeonRedRecomp: Port = {
     "Static recompilation of Pokémon Mystery Dungeon: Red Rescue Team (GBA) with the gbarecomp framework. It requires your own game data.",
   notesEs:
     "Recompilación estática de Pokémon Mystery Dungeon: Red Rescue Team (GBA) con el framework gbarecomp. Requiere tus propios datos del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Asphaltian/pmd-green/releases/download/v0.1.0/GreenRescueTeam-v0.1.0-Linux.zip",
+      size: "55.0 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Asphaltian/pmd-green/releases/download/v0.1.0/GreenRescueTeam-v0.1.0-macOS.zip",
+      size: "53.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Asphaltian/pmd-green/releases/download/v0.1.0/GreenRescueTeam-v0.1.0-Windows.zip",
+      size: "52.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20Mystery%20Dungeon%20-%20Red%20Rescue%20Team%20(Europe)%20(En,Fr,De,Es,It).png",
     alt: "Pokémon Mystery Dungeon: Red Rescue Team (box art)",

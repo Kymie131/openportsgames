@@ -14,12 +14,24 @@ export const persona3Portable3ds: Port = {
   originalGameLicense: "proprietary",
   platforms: ["3ds"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.3.3", date: "2026-11-05" },
   sources: ["https://github.com/endercodezz/P3P3DS"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation Portable"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/endercodezz/P3P3DS/releases/download/v0.3.3/P3P3DS-Builder-0.3.3-linux.tar.gz",
+      size: "2.9 MB",
+    },
+    {
+      label: "P3P3DS-Builder-0.3.3",
+      url: "https://github.com/endercodezz/P3P3DS/releases/download/v0.3.3/P3P3DS-Builder-0.3.3.zip",
+      size: "2.3 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1809700/header.jpg",
     alt: "Persona 3 Portable (cover art)",

@@ -14,7 +14,7 @@ export const megaMan64Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.9.1", date: "2026-04-30" },
   sources: ["https://github.com/MegaMan64Recomp/MegaMan64Recompiled"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -26,6 +26,33 @@ export const megaMan64Recomp: Port = {
     "Native recompilation of Mega Man 64 (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Mega Man 64 (Nintendo 64). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "MegaMan64Recompiled-v0.9.1-Flatpak-X64",
+      url: "https://github.com/MegaMan64Recomp/MegaMan64Recompiled/releases/download/v0.9.1/MegaMan64Recompiled-v0.9.1-Flatpak-X64.zip",
+      size: "9.0 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/MegaMan64Recomp/MegaMan64Recompiled/releases/download/v0.9.1/MegaMan64Recompiled-v0.9.1-Linux-ARM64.zip",
+      size: "13.6 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/MegaMan64Recomp/MegaMan64Recompiled/releases/download/v0.9.1/MegaMan64Recompiled-v0.9.1-Linux-X64.zip",
+      size: "13.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/MegaMan64Recomp/MegaMan64Recompiled/releases/download/v0.9.1/MegaMan64Recompiled-v0.9.1-macOS.zip",
+      size: "22.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/MegaMan64Recomp/MegaMan64Recompiled/releases/download/v0.9.1/MegaMan64Recompiled-v0.9.1-Windows.zip",
+      size: "23.6 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Mega%20Man%2064%20(USA).png",
     alt: "Mega Man 64 (box art)",

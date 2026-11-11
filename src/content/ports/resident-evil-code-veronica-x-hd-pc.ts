@@ -29,6 +29,18 @@ export const residentEvilCodeVeronicaXHdPc: Port = {
     "Static recompilation of the PS3 HD release, running natively on Windows. Version 1.1.12 adds optional modern controls modelled on the Resident Evil HD remasters, plus a speedrun timer, room selection and save-anywhere. The launcher supports the EU, Japanese and US PSN releases. Requires your own PS3 copy; the included Veronica PKG Extractor prepares it, and extraction with RPCS3 also works. No game data is included.",
   notesEs:
     "Recompilación estática de la versión HD de PS3, ejecutada de forma nativa en Windows. La versión 1.1.12 añade controles modernos opcionales inspirados en los remaster HD de Resident Evil, además de temporizador de speedrun, selección de sala y guardado en cualquier momento. El lanzador admite las versiones PSN europea, japonesa y estadounidense. Requiere tu propia copia de PS3; el extractor de PKG incluido la prepara y también funciona la extracción con RPCS3. No incluye datos del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/kastieloficial/RE-Code-Veronica-PS3-HD-Recomp-PC/releases/download/v1.5.3/CodeVeronica-PC-v1.5.3.zip",
+      size: "303.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/kastieloficial/RE-Code-Veronica-PS3-HD-Recomp-PC/releases/download/v1.5.3/Veronica-PKG-Extractor-v1.0.1.zip",
+      size: "691 KB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/44/RECV_boxart.jpg",
     alt: "Resident Evil: Code Veronica X (box art)",

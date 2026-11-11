@@ -21,6 +21,13 @@ export const shaolinMonksAndroid: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["Xbox"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/RanggaCasper/ShaolinMonks-Android/releases/download/v1.1.2/ShaolinMonks-1.1.2.apk",
+      size: "30.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/29/PS2MKSM.JPG",
     alt: "Mortal Kombat: Shaolin Monks (box art)",

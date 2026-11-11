@@ -20,6 +20,13 @@ export const rechan: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/deivid22srk/ReChan-Android/releases/download/build-44/ReChan-44-release-arm64.apk",
+      size: "10.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e6/JackieChanStuntmaster.jpg",
     alt: "Jackie Chan: Stuntmaster (box art)",

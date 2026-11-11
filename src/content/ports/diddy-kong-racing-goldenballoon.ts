@@ -20,6 +20,28 @@ export const diddyKongRacingGoldenballoon: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/akratch/goldenballoon/releases/download/v1.8.0/Golden-Balloon-1.8.0-linux-x86_64.AppImage",
+      size: "40.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/akratch/goldenballoon/releases/download/v1.8.0/Golden-Balloon-1.8.0-linux-x86_64.tar.gz",
+      size: "40.9 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/akratch/goldenballoon/releases/download/v1.8.0/Golden-Balloon-1.8.0-macos-arm64-unsigned.dmg",
+      size: "23.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/akratch/goldenballoon/releases/download/v1.8.0/Golden-Balloon-1.8.0-windows-x64.zip",
+      size: "30.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/72/Diddy_Kong_Racing_Cover_Art.png",
     alt: "Diddy Kong Racing (box art)",

@@ -14,12 +14,24 @@ export const HardCorpsUprising: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.7.1", date: "2026-10-25" },
   sources: ["https://github.com/saulob/hard-corps-uprising-recompiled"],
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/saulob/hard-corps-uprising-recompiled/releases/download/v0.7.1/HardCorpsUprising-v0.7.1-windows-x64.zip",
+      size: "19.6 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/saulob/hard-corps-uprising-recompiled/releases/download/v0.7.1/HardCorpsUprisingRecompiled-v0.7.1-x86_64.AppImage",
+      size: "21.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c6/Hard_Corps_Uprising_%28cover_art%29.png",
     alt: "Hard Corps: Uprising (cover)",

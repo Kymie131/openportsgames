@@ -24,6 +24,13 @@ export const callOfJuarezRecomp: Port = {
   summary: "Call of Juarez is a shooter game published by Ubisoft for Xbox 360, released in 2007.",
   summaryEs: "Call of Juarez es un videojuego de disparos publicado por Ubisoft para Xbox 360, lanzado en 2007.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/rexelflip2-sudo/Call-of-Juarez-Xbox-360-Recomp/releases/download/Converter/ISO_Converter.rar",
+      size: "95 KB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3020/header.jpg?t=1729249870",
     alt: "Call of Juarez (Steam header)",

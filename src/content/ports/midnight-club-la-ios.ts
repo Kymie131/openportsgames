@@ -14,13 +14,20 @@ export const midnightClubLaIos: Port = {
   originalGameLicense: "proprietary",
   platforms: ["ios"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.4", date: "2026-10-09" },
   sources: ["https://github.com/KoreanSeats1/MCLA-4iOS"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["midnight-club-la-recomp"],
+  downloads: [
+    {
+      label: "iOS IPA",
+      url: "https://github.com/KoreanSeats1/MCLA-4iOS/releases/download/v1.0.4/MCLA-4iOS-1.0.4.ipa",
+      size: "23.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/ea/Midnight_Club-Los_Angeles.jpg",
     alt: "Midnight Club: Los Angeles (box art)",

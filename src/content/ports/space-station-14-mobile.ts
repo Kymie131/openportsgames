@@ -14,12 +14,19 @@ export const spaceStation14Mobile: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.3.0", date: "2026-10-14" },
   sources: ["https://github.com/SolomonNumb1/space-station-14-mobile"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/SolomonNumb1/space-station-14-mobile/releases/download/v1.3.0/io.spacestation14.android-Signed.apk",
+      size: "111.8 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1255460/header.jpg",
     alt: "Space Station 14 (cover art)",

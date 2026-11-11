@@ -14,7 +14,7 @@ export const bubbleBobbleNesRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1.0", date: "2026-08-27" },
   sources: ["https://github.com/Junior-Jones/Bubble-Bobble-NES-Static-Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const bubbleBobbleNesRecomp: Port = {
     "Static recompilation of Bubble Bobble (NES) for Windows 10 and 11. The ROM is not included, so you need your own copy.",
   notesEs:
     "Recompilación estática de Bubble Bobble (NES) para Windows 10 y 11. No incluye la ROM, así que necesitas tu propia copia.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Junior-Jones/Bubble-Bobble-NES-Static-Recomp/releases/download/v1.1.0/Bubble-Bobble-NES-Static-Recomp-Windows-v1.1.0.zip",
+      size: "1.4 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Bubble%20Bobble%20(Europe)%20(Virtual%20Console).png",
     alt: "Bubble Bobble (box art)",

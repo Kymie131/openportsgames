@@ -26,6 +26,13 @@ export const rec98: Port = {
     "Reverse-engineering project for the first five Touhou games on PC-98. A research codebase; it requires game files from a copy you own.",
   notesEs:
     "Proyecto de ingeniería inversa de los primeros cinco juegos de Touhou en PC-98. Código de investigación; requiere archivos del juego de una copia que poseas.",
+  downloads: [
+    {
+      label: "2026-03-16-ReC98",
+      url: "https://github.com/nmlgc/ReC98/releases/download/P0335/2026-03-16-ReC98.zip",
+      size: "744 KB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/0f/TH1to5_covers.jpg",
     alt: "Touhou PC-98 (covers)",

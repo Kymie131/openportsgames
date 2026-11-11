@@ -14,7 +14,7 @@ export const aloneInTheDarkRehaunted: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.5.0.0110", date: "2026-11-01" },
   sources: ["https://github.com/spacefarergames/AloneInTheDarkReHaunted"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -26,6 +26,13 @@ export const aloneInTheDarkRehaunted: Port = {
     "Enhanced port and dynamic recompilation of the original Alone in the Dark (1992), with textured models, HD backgrounds, quality-of-life options and controller support. It needs the game itself.",
   notesEs:
     "Port mejorado y recompilación dinámica del Alone in the Dark original (1992), con modelos texturizados, fondos en HD, opciones de comodidad y soporte de mando. Necesita el propio juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/spacefarergames/AloneInTheDarkReHaunted/releases/download/2.5.0.0110/AITD_REHAUNTED_2.5.0.01010_Win64.zip",
+      size: "762.9 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Alone%20in%20the%20Dark%20(1992).png",
     alt: "Alone in the Dark (box art)",

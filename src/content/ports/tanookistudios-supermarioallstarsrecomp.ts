@@ -23,6 +23,28 @@ export const tanookistudiosSupermarioallstarsrecomp: Port = {
   originalSystems: ["Super Nintendo"],
   summary: "Super Mario All-Stars is a 1993 platform game compilation developed and published by Nintendo for the Super Nintendo Entertainment System (SNES). It contains remakes of four Super Mario games released for the Nintendo Entertainment System (NES) and the Famicom Disk System: Super Mario Bros. (1985), Super Mario Bros.: The Lost Levels, Super Mario Bros. 2 (1988), and Super Mario Bros. 3 (1988). As in the original games, players control the Italian plumber Mario and his brother Luigi through themed worlds, collecting power-ups, avoiding obstacles, and finding secrets.",
   summaryEs: "Super Mario All-Stars es una compilación de videojuegos de plataformas para Super Nintendo Entertainment System (SNES). Contiene remakes de cuatro juegos de Super Mario lanzados por Nintendo para la Nintendo Entertainment System (NES) y Famicom Disk System: Super Mario Bros. (1985), Super Mario Bros.: The Lost Levels (1986), Super Mario Bros. 2 (1988) y Super Mario Bros. 3 (1988). Al igual que en los originales, los usuarios controlan al fontanero italiano Mario y a su hermano Luigi a través de mundos temáticos, recogen potenciadores, evitan obstáculos y descubren secretos.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/TanookiStudios/SuperMarioAllStarsRecomp/releases/download/v0.2.0/SuperMarioAllStars-Android.apk",
+      size: "8.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/TanookiStudios/SuperMarioAllStarsRecomp/releases/download/v0.2.0/SuperMarioAllStars-Linux.tar.gz",
+      size: "6.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/TanookiStudios/SuperMarioAllStarsRecomp/releases/download/v0.2.0/SuperMarioAllStars-Mac.zip",
+      size: "8.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/TanookiStudios/SuperMarioAllStarsRecomp/releases/download/v0.2.0/SuperMarioAllStars-Windows.zip",
+      size: "11.1 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Mario%20All-Stars%20(USA).png",
     alt: "Super Mario All-Stars (box art)",

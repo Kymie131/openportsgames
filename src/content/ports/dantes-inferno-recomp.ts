@@ -14,7 +14,7 @@ export const dantesInfernoRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.8.6-beta-hotfix", date: "2026-11-08" },
   sources: ["https://github.com/florinp93/hells-gate-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -26,6 +26,18 @@ export const dantesInfernoRecomp: Port = {
     "Native Dante's Inferno (Xbox 360) port built with ReXGlue. Renders through D3D12 and Vulkan, no emulation.",
   notesEs:
     "Port nativo de Dante's Inferno (Xbox 360) con ReXGlue. Renderiza con D3D12 y Vulkan, sin emulación.",
+  downloads: [
+    {
+      label: "DantesInferno-0.8.6-beta-hotfix-portable",
+      url: "https://github.com/florinp93/hells-gate-recomp/releases/download/v0.8.6-beta-hotfix/DantesInferno-0.8.6-beta-hotfix-portable.zip",
+      size: "30.0 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/florinp93/hells-gate-recomp/releases/download/v0.8.6-beta-hotfix/DantesInfernoInstaller.exe",
+      size: "18.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c6/Dante%27s_Inferno.jpg",
     alt: "Dante's Inferno (box art)",

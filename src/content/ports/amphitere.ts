@@ -14,7 +14,7 @@ export const amphitere: Port = {
   originalGameLicense: "open",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "3.6.7-2", date: "2026-06-21" },
   sources: ["https://github.com/fancypantalons/Amphitere"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const amphitere: Port = {
     "Android port of NetHack focused on dual-screen devices. It is a standalone build that does not need the original game.",
   notesEs:
     "Port a Android de NetHack centrado en dispositivos de doble pantalla. Es una build independiente que no necesita el juego original.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/fancypantalons/Amphitere/releases/download/Amphitere-3.6.7-2/Amphitere-3.6.7-2.apk",
+      size: "18.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/d/d6/NetHack.png",
     alt: "NetHack (box art)",

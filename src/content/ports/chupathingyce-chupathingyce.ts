@@ -21,6 +21,38 @@ export const chupathingyceChupathingyce: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox"],
+  downloads: [
+    {
+      label: "Android",
+      url: "https://github.com/ChupathingyCE/chupathingyce/releases/download/v0.9.0d/chupathingyce-android64-release.zip",
+      size: "61.7 MB",
+    },
+    {
+      label: "chupathingyce-freebsd64-release",
+      url: "https://github.com/ChupathingyCE/chupathingyce/releases/download/v0.9.0d/chupathingyce-freebsd64-release.zip",
+      size: "43.6 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/ChupathingyCE/chupathingyce/releases/download/v0.9.0d/chupathingyce-linux-release.zip",
+      size: "44.0 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/ChupathingyCE/chupathingyce/releases/download/v0.9.0d/chupathingyce-linux64-release.AppImage",
+      size: "24.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/ChupathingyCE/chupathingyce/releases/download/v0.9.0d/chupathingyce-linux64-release.zip",
+      size: "51.8 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/ChupathingyCE/chupathingyce/releases/download/v0.9.0d/chupathingyce-macos-release.zip",
+      size: "31.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg",
     alt: "Halo: Combat Evolved (box art)",

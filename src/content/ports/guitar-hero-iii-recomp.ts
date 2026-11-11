@@ -14,7 +14,7 @@ export const guitarHeroIiiRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0", date: "2026-08-31" },
   sources: ["https://github.com/luisxl15/Guitar-Hero-3-Recomp-"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -26,6 +26,13 @@ export const guitarHeroIiiRecomp: Port = {
     "Static recompilation of Guitar Hero III: Legends of Rock (Xbox 360) for Windows. It needs your own copy of the game.",
   notesEs:
     "Recompilación estática de Guitar Hero III: Legends of Rock (Xbox 360) para Windows. Necesita tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/luisxl15/Guitar-Hero-3-Recomp-/releases/download/1.0/Guitar.Hero.3.Recomp.zip",
+      size: "138.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/93/Guitar-hero-iii-cover-image.jpg",
     alt: "Guitar Hero III: Legends of Rock (cover)",

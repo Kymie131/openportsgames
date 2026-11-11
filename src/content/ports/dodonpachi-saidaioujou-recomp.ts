@@ -14,7 +14,7 @@ export const dodonpachiSaidaioujouRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.51.4", date: "2026-10-31" },
   sources: ["https://github.com/eandis/SDOJ-Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -26,6 +26,23 @@ export const dodonpachiSaidaioujouRecomp: Port = {
     "DoDonPachi SaiDaiOuJou (Xbox 360) recompiled with ReXGlue. It requires the 1.01 title update. Keyboard and mouse are enabled from the in-game menu (F4).",
   notesEs:
     "Recompilación de DoDonPachi SaiDaiOuJou (Xbox 360) con ReXGlue. Requiere la actualización 1.01. El teclado y el ratón se activan desde el menú del juego (F4).",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/eandis/SDOJ-Recomp/releases/download/v1.51.4/sdoj.recomp.1.51.4.linux-amd64.tar.gz",
+      size: "17.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/eandis/SDOJ-Recomp/releases/download/v1.51.4/sdoj.recomp.1.51.4.win-amd64.vulkan.zip",
+      size: "15.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/eandis/SDOJ-Recomp/releases/download/v1.51.4/sdoj.recomp.1.51.4.win-amd64.zip",
+      size: "15.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e1/DoDonPachi_SaiDaiOuJou_arcade_flyer.jpg",
     alt: "DoDonPachi SaiDaiOuJou (box art)",

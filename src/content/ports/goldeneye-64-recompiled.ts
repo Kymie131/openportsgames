@@ -37,6 +37,13 @@ export const goldenEye64Recompiled: Port = {
     "Native port of GoldenEye 007 produced by statically recompiling the Nintendo 64 code with N64Recomp and rendering with RT64. The clean build ships no game code: the launcher recompiles roughly three thousand functions from the player's own legally dumped ROM at startup.",
   notesEs:
     "Port nativo de GoldenEye 007 producido recompilando estáticamente el código de Nintendo 64 con N64Recomp y renderizando con RT64. La build limpia no incluye código del juego: el lanzador recompila unas tres mil funciones de la ROM volcada legalmente por el jugador al iniciar.",
+  downloads: [
+    {
+      label: "Macos",
+      url: "https://github.com/cblock85/GoldenEye64Recomp/releases/download/v1.0.0/GoldenEye64Recomp-V1.0.0-macOS-arm64.zip",
+      size: "12.6 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/GoldenEye%20007%20(USA).png",
     alt: "GoldenEye 007 (box art)",

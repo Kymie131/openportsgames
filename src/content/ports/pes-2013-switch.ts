@@ -14,12 +14,29 @@ export const pes2013Switch: Port = {
   originalGameLicense: "proprietary",
   platforms: ["switch"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.4.2", date: "2026-10-12" },
   sources: ["https://github.com/Ibnuard/pes13_nx"],
   license: { spdx: "LGPL-2.1" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Switch",
+      url: "https://github.com/Ibnuard/pes13_nx/releases/download/v0.4.2/FEXTendo-v0.4.2-sd.zip",
+      size: "89.8 MB",
+    },
+    {
+      label: "Switch NRO",
+      url: "https://github.com/Ibnuard/pes13_nx/releases/download/v0.4.2/pes13-fex.nro",
+      size: "30.6 MB",
+    },
+    {
+      label: "Switch",
+      url: "https://github.com/Ibnuard/pes13_nx/releases/download/v0.4.2/PES13-FEXTendo.nsp",
+      size: "327 KB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/46/Pro_Evolution_Soccer_2013_cover.jpg",
     alt: "Pro Evolution Soccer 2013 (box art)",

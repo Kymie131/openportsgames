@@ -14,13 +14,25 @@ export const forzaHorizonReimagined: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows","linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.3.2", date: "2026-11-09" },
   sources: ["https://github.com/Dyotson/ForzaHorizon1-ReImagined"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["pinyon-shift"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases/download/v0.3.2/ForzaHorizon1-ReImagined-linux-x86_64.tar.gz",
+      size: "92.3 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases/download/v0.3.2/ForzaHorizon1-ReImagined-Setup-0.3.2.exe",
+      size: "80.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/77/Forza_Horizon_boxart.jpg",
     alt: "Forza Horizon (box art)",

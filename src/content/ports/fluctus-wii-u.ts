@@ -15,7 +15,7 @@ export const fluctusWiiU: Port = {
   category: "homebrew",
   platforms: ["wiiu"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.0", date: "2020-04-08" },
   sources: ["https://github.com/kianbennett/fluctus-wiiu"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -24,6 +24,13 @@ export const fluctusWiiU: Port = {
   summary: "Fluctus is a platform game published by Homebrew, released in 2020.",
   summaryEs: "Fluctus es un videojuego de plataformas publicado por Homebrew, lanzado en 2020.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "fluctus-wiiu-1.0.0",
+      url: "https://github.com/kianbennett/fluctus-wiiu/releases/download/1.0.0/fluctus-wiiu-1.0.0.zip",
+      size: "52 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/fluctus.svg",
     alt: "Fluctus (generated cover)",

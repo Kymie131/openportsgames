@@ -14,7 +14,7 @@ export const nethackAndroid: Port = {
   originalGameLicense: "open",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "3.6.6-1", date: "2020-05-21" },
   sources: ["https://github.com/gurrhack/NetHack-Android"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const nethackAndroid: Port = {
     "Android port of NetHack, the classic open-source roguelike. It is a standalone build that does not need the original game.",
   notesEs:
     "Port a Android de NetHack, el roguelike clásico de código abierto. Es una build independiente que no necesita el juego original.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/gurrhack/NetHack-Android/releases/download/v3.6.6-1/NetHack-3.6.6-1.apk",
+      size: "7.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/d/d6/NetHack.png",
     alt: "NetHack (box art)",

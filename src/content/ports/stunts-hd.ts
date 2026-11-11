@@ -14,7 +14,7 @@ export const stuntsHd: Port = {
   originalGameLicense: "proprietary",
   platforms: ["web","windows","linux","macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.5.22", date: "2026-10-26" },
   sources: ["https://github.com/mr-finster/stunts-hd"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -24,6 +24,38 @@ export const stuntsHd: Port = {
   summary: "Stunts / 4D Sports Driving is a racing game published by Brøderbund for MS-DOS, released in 1990.",
   summaryEs: "Stunts / 4D Sports Driving es un videojuego de carreras publicado por Brøderbund para MS-DOS, lanzado en 1990.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/mr-finster/stunts-hd/releases/download/v1.5.22/Stunts-HD-linux-arm64.AppImage",
+      size: "103.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/mr-finster/stunts-hd/releases/download/v1.5.22/Stunts-HD-linux-arm64.tar.gz",
+      size: "102.3 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/mr-finster/stunts-hd/releases/download/v1.5.22/Stunts-HD-linux-x64.tar.gz",
+      size: "98.0 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/mr-finster/stunts-hd/releases/download/v1.5.22/Stunts-HD-linux-x86_64.AppImage",
+      size: "103.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/mr-finster/stunts-hd/releases/download/v1.5.22/Stunts-HD-mac-universal.zip",
+      size: "168.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/mr-finster/stunts-hd/releases/download/v1.5.22/Stunts-HD-win-arm64.zip",
+      size: "111.1 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/stunts-4d-sports-driving.svg",
     alt: "Stunts / 4D Sports Driving (generated cover)",

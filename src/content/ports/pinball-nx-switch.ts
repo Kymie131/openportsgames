@@ -15,7 +15,7 @@ export const pinballNxSwitch: Port = {
   category: "homebrew",
   platforms: ["switch"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0", date: "2021-04-23" },
   sources: ["https://github.com/minkcv/pinballnx"],
   license: { spdx: "MIT" },
   verified: false,
@@ -24,6 +24,13 @@ export const pinballNxSwitch: Port = {
   summary: "Pinball NX is a simulation game published by Homebrew, released in 2021.",
   summaryEs: "Pinball NX es un videojuego de simulaci�n publicado por Homebrew, lanzado en 2021.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Switch",
+      url: "https://github.com/minkcv/pinballnx/releases/download/1.0/pinballnx.zip",
+      size: "4.3 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/pinball-nx.svg",
     alt: "Pinball NX (generated cover)",

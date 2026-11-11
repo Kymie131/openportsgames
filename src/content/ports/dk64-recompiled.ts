@@ -37,6 +37,33 @@ export const dk64Recompiled: Port = {
     "Native recompilation of Donkey Kong 64 produced with N64Recomp. The player loads their own legally obtained N64 ROM; the port recompiles the game code instead of emulating it.",
   notesEs:
     "Recompilación nativa de Donkey Kong 64 realizada con N64Recomp. El jugador carga su propia ROM de N64 obtenida legalmente; el port recompila el código del juego en lugar de emularlo.",
+  downloads: [
+    {
+      label: "DK64Recompiled-Flatpak-X64-Release-1-0-3",
+      url: "https://github.com/Rainchus/Donkey-Kong-64-Recompiled/releases/download/v1.0.3/DK64Recompiled-Flatpak-X64-Release-1-0-3.zip",
+      size: "6.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Rainchus/Donkey-Kong-64-Recompiled/releases/download/v1.0.3/DK64Recompiled-Linux-ARM64-Release-1-0-3.zip",
+      size: "9.0 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Rainchus/Donkey-Kong-64-Recompiled/releases/download/v1.0.3/DK64Recompiled-Linux-X64-Release-1-0-3.zip",
+      size: "8.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Rainchus/Donkey-Kong-64-Recompiled/releases/download/v1.0.3/DK64Recompiled-macOS-ARM64-Release-1-0-3.zip",
+      size: "10.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Rainchus/Donkey-Kong-64-Recompiled/releases/download/v1.0.3/DK64Recompiled-Windows-Release-1-0-3.zip",
+      size: "19.1 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Donkey%20Kong%2064%20(USA).png",
     alt: "Donkey Kong 64 (box art)",

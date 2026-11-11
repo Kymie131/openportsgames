@@ -24,6 +24,13 @@ export const nightfirePc: Port = {
   summary: "007: Nightfire is a shooter game published by Electronic Arts for PlayStation 2, released in 2002.",
   summaryEs: "007: Nightfire es un videojuego de disparos publicado por Electronic Arts para PlayStation 2, lanzado en 2002.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/YodaMMM/NightfirePort/releases/download/v0.1.37/NightfirePort.exe",
+      size: "15.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/007%20-%20Nightfire%20(USA).png",
     alt: "007: Nightfire (box art)",

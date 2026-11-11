@@ -25,6 +25,13 @@ export const blueDragonAndroid: Port = {
   summaryEs: "Blue Dragon es un juego de rol para la consola de videojuegos Xbox 360. Fue desarrollado por Mistwalker y Artoon, publicado y financiado por Microsoft Game Studios, basado en un diseño parecido a la serie de Final Fantasy por el creador de esta, Hironobu Sakaguchi, quién también supervisó el desarrollo de Blue Dragon. También cuenta con la ayuda de Akira Toriyama, creador de Dragon Ball y Dr. Slump entre otras series, que ha creado los personajes de este juego de rol.",
   notes: "Blue Dragon (Android): native recompilation of Blue Dragon for android. Bring your own copy of the game.",
   notesEs: "Blue Dragon (Android): recompilación nativo de Blue Dragon para android. Aporta tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/JayElDragon/blue-dragon-android/releases/download/BlueDragonV5.0/Blue.Dragon.Recomp5.0.apk",
+      size: "25.2 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/blue-dragon.svg",
     alt: "Blue Dragon (generated cover)",

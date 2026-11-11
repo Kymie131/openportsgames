@@ -14,7 +14,7 @@ export const jadeCocoonRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.0", date: "2026-09-14" },
   sources: ["https://github.com/alexbeavs-ps1-ports/jade-cocoon-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,28 @@ export const jadeCocoonRecomp: Port = {
     "Recompilation of Jade Cocoon: Story of the Tamamayu (PS1, USA SLUS-00854) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:
     "Recompilación de Jade Cocoon: Story of the Tamamayu (PS1, USA SLUS-00854) con PSXRecomp. Las releases son kits de compilación propia: aportas tu disco y una BIOS compatible, y el juego se genera y compila en tu equipo. Es la recompilación base del framework, sin mejoras por juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/alexbeavs-ps1-ports/jade-cocoon-recomp/releases/download/v0.1.0/jadecocoon-0.1.0-linux-x64.zip",
+      size: "23.8 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/alexbeavs-ps1-ports/jade-cocoon-recomp/releases/download/v0.1.0/jadecocoon-0.1.0-macos-arm64.zip",
+      size: "22.7 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/alexbeavs-ps1-ports/jade-cocoon-recomp/releases/download/v0.1.0/jadecocoon-0.1.0-macos-x64.zip",
+      size: "23.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/alexbeavs-ps1-ports/jade-cocoon-recomp/releases/download/v0.1.0/jadecocoon-0.1.0-windows-x64.zip",
+      size: "25.8 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Jade%20Cocoon%20-%20Story%20of%20the%20Tamamayu%20(Europe).png",
     alt: "Jade Cocoon: Story of the Tamamayu (box art)",

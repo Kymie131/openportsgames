@@ -31,6 +31,38 @@ export const rtcWolfenstein: Port = {
       credit: "iortcw",
     },
   ],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/iortcw/iortcw/releases/download/1.51c/iortcw-1.51c-linux-x86.zip",
+      size: "9.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/iortcw/iortcw/releases/download/1.51c/iortcw-1.51c-linux-x86_64.zip",
+      size: "10.3 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/iortcw/iortcw/releases/download/1.51c/iortcw-1.51c-mac-term.zip",
+      size: "24.3 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/iortcw/iortcw/releases/download/1.51c/iortcw-1.51c-mac-ub.zip",
+      size: "26.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/iortcw/iortcw/releases/download/1.51c/iortcw-1.51c-win-x64.zip",
+      size: "14.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/iortcw/iortcw/releases/download/1.51c/iortcw-1.51c-win-x86.zip",
+      size: "12.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b0/Return_to_Castle_Wolfenstein_Coverart.jpg",
     alt: "Return to Castle Wolfenstein (box art)",

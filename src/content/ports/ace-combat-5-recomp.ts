@@ -14,7 +14,7 @@ export const aceCombat5Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "3.0", date: "2026-10-24" },
   sources: ["https://github.com/sal063/Ace-Combat-5-Static-recompilation"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
@@ -24,6 +24,13 @@ export const aceCombat5Recomp: Port = {
   summaryEs: "Ace Combat 5: The Unsung War, lanzado como Ace Combat: Squadron Leader en Europa, es un videojuego basado en la aviación militar para la plataforma PlayStation 2. Es la quinta entrega de la saga Ace Combat y narra los hechos posteriores al Ace Combat Zero, de la guerra ficticia Circum-Pacífica. El videojuego fue lanzado al mercado entre 2004 y 2005, dependiendo en cada país.",
   notes: "Tracked by PortsDR. No public repo is linked yet, and you supply the game files.",
   notesEs: "Seguido por PortsDR. Todavía no hay repo público, y tú aportas los archivos del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/sal063/Ace-Combat-5-Static-recompilation/releases/download/V3.0/Release.rar",
+      size: "12.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Ace_Combat_5_The_Unsung_War_Game_Cover.png",
     alt: "Ace Combat 5: The Unsung War (box art)",

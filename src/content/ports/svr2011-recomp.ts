@@ -14,13 +14,20 @@ export const svr2011Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.5.0", date: "2026-10-02" },
   sources: ["https://github.com/shaneomac1337/SVR2011-Recomp"],
   license: { spdx: "BSD-3-Clause" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["wwe-smackdown-vs-raw-2011-recomp"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/shaneomac1337/SVR2011-Recomp/releases/download/v0.5.0/SVR2011-2026.10.02-6a12d52.zip",
+      size: "27.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/79/Wwe_svr_11_cover_art.jpg",
     alt: "WWE SmackDown vs. Raw 2011 (box art)",

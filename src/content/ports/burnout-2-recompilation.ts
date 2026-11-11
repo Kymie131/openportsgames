@@ -21,6 +21,13 @@ export const burnout2Recompilation: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["Xbox"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/timftw21/burnout2-recompilation/releases/download/v1.14/Installation.zip",
+      size: "1.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/2a/Burnout_2_-_Point_of_Impact.jpg",
     alt: "Burnout 2: Point of Impact (box art)",

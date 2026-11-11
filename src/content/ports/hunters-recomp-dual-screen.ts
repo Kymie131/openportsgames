@@ -14,12 +14,19 @@ export const huntersRecompDualScreen: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.2.5", date: "2026-09-06" },
   sources: ["https://github.com/aabrole/HuntersRecomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo DS"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/aabrole/HuntersRecomp/releases/download/v0.2.5/HuntersRecomp-v0.2.5-thor-arm64.apk",
+      size: "102.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b2/Mph_cover_updated.jpg",
     alt: "Metroid Prime: Hunters (box art)",

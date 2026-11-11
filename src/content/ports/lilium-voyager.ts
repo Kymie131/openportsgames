@@ -14,7 +14,7 @@ export const LiliumVoyager: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.40", date: "2019-11-02" },
   sources: ["https://github.com/clover-moe/lilium-voyager"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -23,6 +23,23 @@ export const LiliumVoyager: Port = {
   summary: "lilium-voyager is a action-adventure game, released in 2000.",
   summaryEs: "lilium-voyager es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/clover-moe/lilium-voyager/releases/download/v1.40/liliumvoyager-1.40-linux.tar.xz",
+      size: "5.3 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/clover-moe/lilium-voyager/releases/download/v1.40/liliumvoyager-1.40-macosx.dmg",
+      size: "7.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/clover-moe/lilium-voyager/releases/download/v1.40/liliumvoyager-1.40-windows.zip",
+      size: "7.0 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/lilium-voyager.svg",
     alt: "lilium-voyager (generated cover)",

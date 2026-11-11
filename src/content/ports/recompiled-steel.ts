@@ -14,7 +14,7 @@ export const recompiledSteel: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.2.0", date: "2026-10-15" },
   sources: ["https://github.com/tokeneffortports/ReCompiledSteel"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -22,6 +22,28 @@ export const recompiledSteel: Port = {
   originalSystems: ["Xbox 360"],
   summary: "Real Steel is a 2011 American science fiction sports film starring Hugh Jackman. Produced and directed by Shawn Levy, the film is based on the short story \"Steel\", written by Richard Matheson, which was originally published in the May 1956 edition of The Magazine of Fantasy & Science Fiction, and later adapted into a 1963 Twilight Zone episode. The story features a down-on-his-luck former boxer (Jackman), whose sport is now played by robots, as he and his son find an abandoned robot and train it to be a promising fighter.",
   summaryEs: "Real Steel es una película de acción, drama, aventura y ciencia ficción de 2011 dirigida por Shawn Levy y protagonizada por Hugh Jackman junto a Dakota Goyo y Evangeline Lilly.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/tokeneffortports/ReCompiledSteel/releases/download/v0.2.0/ReCompiledSteel-android-arm64-0.2.0.apk",
+      size: "14.6 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/tokeneffortports/ReCompiledSteel/releases/download/v0.2.0/ReCompiledSteel-linux-x64-0.2.0.tar.gz",
+      size: "17.1 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/tokeneffortports/ReCompiledSteel/releases/download/v0.2.0/ReCompiledSteel-mods-0.2.0.zip",
+      size: "17.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/tokeneffortports/ReCompiledSteel/releases/download/v0.2.0/ReCompiledSteel-windows-x64-0.2.0.zip",
+      size: "12.2 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/real-steel.svg",
     alt: "Real Steel (generated cover)",

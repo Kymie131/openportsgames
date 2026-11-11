@@ -21,6 +21,38 @@ export const kingdomHeartsComAndroid: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["Game Boy Advance"],
+  downloads: [
+    {
+      label: "PPSA98511",
+      url: "https://github.com/MatyMeatBoy/ReKHCoM/releases/download/v2.9/PPSA98511.zip",
+      size: "26.7 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/MatyMeatBoy/ReKHCoM/releases/download/v2.9/ReKHCoM-v2.9-android-beta.apk",
+      size: "26.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/MatyMeatBoy/ReKHCoM/releases/download/v2.9/ReKHCoM-v2.9-linux-armhf-anbernic-beta.zip",
+      size: "24.4 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/MatyMeatBoy/ReKHCoM/releases/download/v2.9/ReKHCoM-v2.9-linux-x86-x64-desktop-steamdeck.tar.gz",
+      size: "35.8 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/MatyMeatBoy/ReKHCoM/releases/download/v2.9/ReKHCoM-v2.9-ps4-beta.pkg",
+      size: "37.6 MB",
+    },
+    {
+      label: "Switch NRO",
+      url: "https://github.com/MatyMeatBoy/ReKHCoM/releases/download/v2.9/ReKHCoM-v2.9-switch-beta.nro",
+      size: "38.9 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Kingdom%20Hearts%20-%20Chain%20of%20Memories%20(USA).png",
     alt: "Kingdom Hearts: Chain of Memories (box art)",

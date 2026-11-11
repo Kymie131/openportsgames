@@ -21,6 +21,13 @@ export const maskezenyWindowwaker: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo GameCube"],
+  downloads: [
+    {
+      label: "SwitchWaker-Windows-x64",
+      url: "https://github.com/MaskeZenY/WindowWaker/releases/download/v1.0.0-win/SwitchWaker-Windows-x64.zip",
+      size: "21.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
     alt: "The Legend of Zelda: The Wind Waker (box art)",

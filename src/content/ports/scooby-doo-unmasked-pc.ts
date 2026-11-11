@@ -14,12 +14,19 @@ export const scoobyDooUnmaskedPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.1", date: "2026-10-18" },
   sources: ["https://github.com/josiahg2502-glitch/Scooby-Doo-ReMasked"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/josiahg2502-glitch/Scooby-Doo-ReMasked/releases/download/v1.0.1/ScoobyDooReMasked.zip",
+      size: "138.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a0/SD_Unmasked.jpg",
     alt: "Scooby-Doo! Unmasked (box art)",

@@ -14,7 +14,7 @@ export const rampageThroughTimeRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.23", date: "2026-10-01" },
   sources: ["https://github.com/TechnicallyComputers/Rampage---Through-Time-Recomp"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
@@ -26,6 +26,28 @@ export const rampageThroughTimeRecomp: Port = {
     "Listed on the PortsDR community index with no public repository. You need the original game.",
   notesEs:
     "Listado en el índice comunitario PortsDR, sin repositorio público. Necesitas el juego original.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/TechnicallyComputers/Rampage---Through-Time-Recomp/releases/download/v0.1.23/rtt-0.1.23-linux-x64.zip",
+      size: "79.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/TechnicallyComputers/Rampage---Through-Time-Recomp/releases/download/v0.1.23/rtt-0.1.23-macos-arm64.zip",
+      size: "42.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/TechnicallyComputers/Rampage---Through-Time-Recomp/releases/download/v0.1.23/rtt-0.1.23-macos-x64.zip",
+      size: "43.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/TechnicallyComputers/Rampage---Through-Time-Recomp/releases/download/v0.1.23/rtt-0.1.23-windows-x64.zip",
+      size: "58.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Rampage%20-%20Through%20Time%20(Europe)%20(En,Fr,De).png",
     alt: "Rampage: Through Time (box art)",

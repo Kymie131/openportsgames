@@ -14,12 +14,19 @@ export const wweSmackdownVsRaw2008Pc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows","linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.2.1", date: "2026-10-24" },
   sources: ["https://github.com/nefariousjosiah/WWE-SVR2008-RECOMP"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "SVR2008-NATIVE",
+      url: "https://github.com/nefariousjosiah/WWE-SVR2008-RECOMP/releases/download/v2.2.1/SVR2008-NATIVE.zip",
+      size: "46.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b4/SmackDown%21vsRAW2008.jpg",
     alt: "WWE SmackDown vs. Raw 2008 (box art)",

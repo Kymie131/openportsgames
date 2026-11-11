@@ -14,7 +14,7 @@ export const kingsFieldRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.2.0", date: "2026-11-08" },
   sources: ["https://github.com/Voicedrew11/verdite1"],
   license: { spdx: "MIT" },
   verified: false,
@@ -25,6 +25,38 @@ export const kingsFieldRecomp: Port = {
     "Native recompilation of King's Field (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de King's Field (PlayStation). El jugador aporta su propio material obtenido legalmente (disc image); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Voicedrew11/verdite1/releases/download/v0.2.0/Verdite1-0.2.0-android-arm64.apk",
+      size: "28.7 MB",
+    },
+    {
+      label: "iOS IPA",
+      url: "https://github.com/Voicedrew11/verdite1/releases/download/v0.2.0/Verdite1-0.2.0-ios-arm64.ipa",
+      size: "4.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Voicedrew11/verdite1/releases/download/v0.2.0/Verdite1-0.2.0-macos-arm64.zip",
+      size: "5.3 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/Voicedrew11/verdite1/releases/download/v0.2.0/Verdite1-0.2.0-win-x64-setup.exe",
+      size: "11.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Voicedrew11/verdite1/releases/download/v0.2.0/Verdite1-0.2.0-win-x64.zip",
+      size: "13.5 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/Voicedrew11/verdite1/releases/download/v0.2.0/Verdite1-0.2.0-x86_64.AppImage",
+      size: "13.1 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/King's%20Field%20(USA).png",
     alt: "King's Field (box art)",

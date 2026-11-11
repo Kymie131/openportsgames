@@ -14,12 +14,19 @@ export const wweSmackdownVsRaw2008Ps5: Port = {
   originalGameLicense: "proprietary",
   platforms: ["ps5"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0", date: "2026-10-18" },
   sources: ["https://github.com/elripalda/SvR2008-Recomp-PS5"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "PPSA92008",
+      url: "https://github.com/elripalda/SvR2008-Recomp-PS5/releases/download/v1.0/PPSA92008.zip",
+      size: "38.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b4/SmackDown%21vsRAW2008.jpg",
     alt: "WWE SmackDown vs. Raw 2008 (box art)",

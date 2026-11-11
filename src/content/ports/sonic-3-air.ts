@@ -29,6 +29,38 @@ export const sonic3Air: Port = {
   summaryEs: "Sonic the Hedgehog 3 es un videojuego de plataformas de 1994 desarrollado y publicado por Sega para Sega Genesis. Al igual que los juegos anteriores de Sonic, los jugadores recorren niveles de desplazamiento lateral mientras recolectan anillos y derrotan enemigos. Controlan a Sonic y Tails, quienes intentan recuperar las Chaos Emeralds para evitar que el Doctor Robotnik relance su estación espacial, el Death Egg, después de que se estrelle en una misteriosa isla flotante. Sonic 3 presenta a Knuckles the Echidna, el guardián de la isla, que pone trampas para Sonic y Tails.",
   notes: "Enhanced fork of Sonic Retro's engine for Sonic 3 and Sonic & Knuckles.",
   notesEs: "Fork mejorado del motor de Sonic Retro para Sonic 3 y Sonic & Knuckles.",
+  downloads: [
+    {
+      label: "artifacts",
+      url: "https://github.com/Eukaryot/sonic3air/releases/download/v26.03.28.0-stable/artifacts.7z",
+      size: "14.8 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/Eukaryot/sonic3air/releases/download/v26.03.28.0-stable/sonic3air_game.apk",
+      size: "41.7 MB",
+    },
+    {
+      label: "sonic3air_game",
+      url: "https://github.com/Eukaryot/sonic3air/releases/download/v26.03.28.0-stable/sonic3air_game.tar.gz",
+      size: "19.0 MB",
+    },
+    {
+      label: "sonic3air_game",
+      url: "https://github.com/Eukaryot/sonic3air/releases/download/v26.03.28.0-stable/sonic3air_game.zip",
+      size: "15.6 MB",
+    },
+    {
+      label: "sonic3air_game_64bit",
+      url: "https://github.com/Eukaryot/sonic3air/releases/download/v26.03.28.0-stable/sonic3air_game_64bit.zip",
+      size: "16.3 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/Eukaryot/sonic3air/releases/download/v26.03.28.0-stable/sonic3air_mac_260328.dmg",
+      size: "23.2 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sega%20-%20Mega%20Drive%20-%20Genesis/Named_Boxarts/Sonic%20_%20Knuckles%20%2B%20Sonic%20The%20Hedgehog%20(USA).png",
     alt: "Sonic the Hedgehog 3 & Knuckles (box art)",

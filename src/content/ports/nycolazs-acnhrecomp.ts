@@ -25,6 +25,28 @@ export const nycolazsAcnhrecomp: Port = {
     "Animal Crossing: New Horizons is a 2020 social simulation game developed and published by Nintendo for the Nintendo Switch. It is the fifth main installment in the Animal Crossing series, following Animal Crossing: New Leaf. In New Horizons, the player controls a character who moves to a deserted island after purchasing a getaway package from Tom Nook, accomplishes assigned tasks, and develops the island as they choose. They can gather and craft items, customize the island, and develop it into a community of anthropomorphic animals.",
   summaryEs:
     "Animal Crossing: New Horizons es un videojuego de simulación social desarrollado y publicado por Nintendo para Nintendo Switch, cuya fecha de lanzamiento mundial fue el 20 de marzo de 2020. Es la novena entrega de la saga Animal Crossing y la quinta dentro de los videojuegos principales.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Nycolazs/ACNHRecomp/releases/download/v0.8.1/ACNHRecomp-v0.8.1-android.apk",
+      size: "22.0 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Nycolazs/ACNHRecomp/releases/download/v0.8.1/ACNHRecomp-v0.8.1-linux-x64.tar.gz",
+      size: "15.6 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Nycolazs/ACNHRecomp/releases/download/v0.8.1/ACNHRecomp-v0.8.1-macOS-arm64.zip",
+      size: "16.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Nycolazs/ACNHRecomp/releases/download/v0.8.1/ACNHRecomp-v0.8.1-windows-x64.zip",
+      size: "14.5 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/animal-crossing-new-horizons.svg",
     alt: "Animal Crossing: New Horizons (generated cover)",

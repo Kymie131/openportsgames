@@ -14,7 +14,7 @@ export const automobiliLamborghiniRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.11.0", date: "2026-11-10" },
   sources: ["https://github.com/alondero/automobililamborghini-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,28 @@ export const automobiliLamborghiniRecomp: Port = {
     "Static recompilation of Automobili Lamborghini (N64) with N64Recomp and the RT64 renderer. It requires a copy of the game.",
   notesEs:
     "Recompilación estática de Automobili Lamborghini (N64) con N64Recomp y el renderizador RT64. Requiere una copia del juego.",
+  downloads: [
+    {
+      label: "automobili-lamborghini-rt64-hd-metadata",
+      url: "https://github.com/alondero/automobililamborghini-recomp/releases/download/v0.11.0/automobili-lamborghini-rt64-hd-metadata.zip",
+      size: "28 KB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/alondero/automobililamborghini-recomp/releases/download/v0.11.0/lamborghini-recomp-android-arm64.apk",
+      size: "7.7 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/alondero/automobililamborghini-recomp/releases/download/v0.11.0/lamborghini-recomp-linux-x64.zip",
+      size: "23.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/alondero/automobililamborghini-recomp/releases/download/v0.11.0/lamborghini-recomp-windows-x64.zip",
+      size: "35.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Automobili%20Lamborghini%20(Europe).png",
     alt: "Automobili Lamborghini (box art)",

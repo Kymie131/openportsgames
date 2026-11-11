@@ -14,12 +14,19 @@ export const armoredCore4Pc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.6.0", date: "2026-10-29" },
   sources: ["https://github.com/SulphurS16/AC4-Port"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 3"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/SulphurS16/AC4-Port/releases/download/v0.6.0/AC4-Port-0.6.0.zip",
+      size: "1.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/69/Armored_Core_4.jpg",
     alt: "Armored Core 4 (box art)",

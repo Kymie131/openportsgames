@@ -14,7 +14,7 @@ export const Unvanquished: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.56.2", date: "2026-05-12" },
   sources: ["https://github.com/Unvanquished/Unvanquished"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -22,6 +22,13 @@ export const Unvanquished: Port = {
   originalSystems: ["Unknown"],
   summary: "Unvanquished is a free and open-source video game. It is a multiplayer first-person shooter and real-time strategy game where Humans and Aliens fight for domination.",
   summaryEs: "Unvanquished es un videojuego de disparos.",
+  downloads: [
+    {
+      label: "unvanquished_0.56.2",
+      url: "https://github.com/Unvanquished/Unvanquished/releases/download/v0.56.2/unvanquished_0.56.2.zip",
+      size: "597.8 MB",
+    },
+  ],
   cover: {
     src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Unvanquished-0.52-on-screen-tutorial.jpg/960px-Unvanquished-0.52-on-screen-tutorial.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     alt: "Unvanquished (box art)",

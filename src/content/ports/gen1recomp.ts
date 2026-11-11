@@ -14,7 +14,7 @@ export const gen1recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos", "android", "ios"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.4.2", date: "2026-11-08" },
   sources: ["https://github.com/bryanthaboi/gen1recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,38 @@ export const gen1recomp: Port = {
     "Native Lua/LÖVE2D recreation of the first-generation Pokémon games, also covering later generations. It builds for desktop and mobile and uses your own game data.",
   notesEs:
     "Recreación nativa en Lua/LÖVE2D de los Pokémon de primera generación, que también cubre generaciones posteriores. Compila para escritorio y móvil y usa tus propios datos del juego.",
+  downloads: [
+    {
+      label: "iOS IPA",
+      url: "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.2/gen1recomp%2B%2B-0.4.2-ios.ipa",
+      size: "42.7 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.2/gen1recomp-0.4.2-android.apk",
+      size: "44.4 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.2/gen1recomp-0.4.2-linux-arm64.AppImage",
+      size: "59.9 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.2/gen1recomp-0.4.2-linux-x86_64.AppImage",
+      size: "37.6 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.2/gen1recomp-0.4.2-macos.zip",
+      size: "47.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.2/gen1recomp-0.4.2-ps4.pkg",
+      size: "84.8 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Pokemon%20-%20Red%20Version%20(USA,%20Europe)%20(SGB%20Enhanced).png",
     alt: "Pokémon Red (box art)",

@@ -14,7 +14,7 @@ export const wweSmackdownVsRaw2007Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0", date: "2026-04-24" },
   sources: ["https://github.com/HollywoodAkeem/SVR07-Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const wweSmackdownVsRaw2007Recomp: Port = {
     "Native PC recompilation of WWE SmackDown vs. Raw 2007 (Xbox 360) with ReXGlue. The game is not included.",
   notesEs:
     "Recompilación nativa para PC de WWE SmackDown vs. Raw 2007 (Xbox 360) con ReXGlue. El juego no se incluye.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/HollywoodAkeem/SVR07-Recomp/releases/download/v1.0/svr07.zip",
+      size: "15.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/62/WWE_SmackDown_vs._Raw_2007.jpg",
     alt: "WWE SmackDown vs. Raw 2007 (box art)",

@@ -14,7 +14,7 @@ export const Idtech4aHarmattanEdition: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.1.0harmattan73", date: "2026-09-30" },
   sources: ["https://github.com/glKarin/com.n0n3m4.diii4a"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -23,6 +23,23 @@ export const Idtech4aHarmattanEdition: Port = {
   summary: "idTech4A++ (Harmattan Edition) is a shooter game, released in 2006.",
   summaryEs: "idTech4A++ (Harmattan Edition) es un videojuego de disparos, lanzado en 2006.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/glKarin/com.n0n3m4.diii4a/releases/download/v1.1.0harmattan73/idTech4A%2B%2B_1.1.0harmattan73.apk",
+      size: "524.4 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/glKarin/com.n0n3m4.diii4a/releases/download/v1.1.0harmattan73/idTech4A%2B%2B_1.1.0harmattan73_arm64.apk",
+      size: "327.1 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/glKarin/com.n0n3m4.diii4a/releases/download/v1.1.0harmattan73/idTech4A%2B%2B_1.1.0harmattan73_armv7.apk",
+      size: "300.6 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/idtech4a-harmattan-edition.svg",
     alt: "idTech4A++ (Harmattan Edition) (generated cover)",

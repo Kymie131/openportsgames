@@ -14,12 +14,19 @@ export const wweSmackdownVsRaw2009Pc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows","linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.2", date: "2026-11-07" },
   sources: ["https://github.com/nefariousjosiah/WWE-SVR2009-RECOMP"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "SVR2009-NATIVE",
+      url: "https://github.com/nefariousjosiah/WWE-SVR2009-RECOMP/releases/download/v2.2/SVR2009-NATIVE.zip",
+      size: "44.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/be/SmackDownvsRaw09.jpg",
     alt: "WWE SmackDown vs. Raw 2009 (box art)",

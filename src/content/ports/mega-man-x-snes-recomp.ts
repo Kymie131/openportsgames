@@ -55,6 +55,13 @@ export const megaManXSnesRecomp: Port = {
       credit: "MegaManXSNESRecomp",
     },
   ],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/MegaManXSNESRecomp/releases/download/v2.3.13/MegaManXSNESRecomp-windows-2.3.13.zip",
+      size: "15.6 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mega%20Man%20X%20(Europe).png",
     alt: "Mega Man X (box art)",

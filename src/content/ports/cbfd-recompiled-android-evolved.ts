@@ -14,12 +14,29 @@ export const cbfdRecompiledAndroidEvolved: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.2.16", date: "2026-11-04" },
   sources: ["https://github.com/codepdbh/CBFD-Recompiled-Android-Evolved"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/codepdbh/CBFD-Recompiled-Android-Evolved/releases/download/android-v0.2.16/ConkerRecompiled-Android-v0.2.16-arm64-v8a.apk",
+      size: "12.4 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/codepdbh/CBFD-Recompiled-Android-Evolved/releases/download/android-v0.2.16/ConkerRecompiled-Android-v0.2.16-armeabi-v7a.apk",
+      size: "13.6 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/codepdbh/CBFD-Recompiled-Android-Evolved/releases/download/android-v0.2.16/ConkerRecompiled-Mods-v0.2.16.zip",
+      size: "151 KB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/99/Conkersbfdbox.jpg",
     alt: "Conker's Bad Fur Day (box art)",

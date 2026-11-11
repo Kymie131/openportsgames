@@ -26,6 +26,18 @@ export const moshferatuZombiesAteMyNeighborsPcPort: Port = {
   summaryEs: "Zombies Ate My Neighbors es un videojuego de 1993, de acción, plataformas y disparos para las consolas Mega Drive de Sega y Super NES de Nintendo. El juego fue desarrollado, distribuido y producido originalmente por LucasArts como un homenaje cómico a clásicas películas de terror de la década de 1950 hasta la década de 1980. Fue publicado por Konami. El juego fue relanzado el 29 de junio de 2021 junto con al juego Ghoul Patrol en plataformas de octava generación y PC por parte de Disney Interactive / LucasFilm Games en colaboración con DotEmu.",
   notes: "Zombies Ate My Neighbors: source port by moshferatu for Windows. Bring your own copy of the game.",
   notesEs: "Zombies Ate My Neighbors: source port de moshferatu para Windows. Aporta tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/moshferatu/zombies-ate-my-neighbors-pc-port/releases/download/20261028/zamn-linux-x86_64.tar.gz",
+      size: "2.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/moshferatu/zombies-ate-my-neighbors-pc-port/releases/download/20261028/zamn-windows-x86_64.zip",
+      size: "1.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/75/Zombies_Ate_My_Neighbors_box.jpg",
     alt: "Zombies Ate My Neighbors (box art)",

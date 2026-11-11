@@ -29,6 +29,13 @@ export const ratchetToolsOfDestructionPc: Port = {
     "Static recompilation of the PlayStation 3 game for Windows. Version 1.0 runs on Direct3D 12 at up to 4K and 60 fps, targets the European release (BCES00052), and is playable from the first planet onwards, though the port is not finished and has a known-issues list. The installer builds the game from your own disc. No game files are included.",
   notesEs:
     "Recompilación estática del juego de PlayStation 3 para Windows. La versión 1.0 usa Direct3D 12 hasta 4K y 60 fps, está pensada para la versión europea (BCES00052) y es jugable desde el primer planeta, aunque el port no está terminado y tiene una lista de problemas conocidos. El instalador compila el juego a partir de tu propio disco. No incluye archivos del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Re-TeRo17/ratchet-tod-recomp/releases/download/v1.2.1/tod-recomp-1.2.1-win64.zip",
+      size: "71.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/92/Ratchet_%26_Clank_Future_Tools_of_Destruction_North_American_cover.png",
     alt: "Ratchet & Clank Future: Tools of Destruction (box art)",

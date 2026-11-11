@@ -32,6 +32,23 @@ export const ogreBattle64Recomp: Port = {
   notes: "Recompilation of Ogre Battle 64; the player supplies their own legally obtained game.",
   notesEs:
     "Recompilación de Ogre Battle 64; el jugador aporta su propio juego obtenido legalmente.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/lfarroco/ogre-battle-64-recomp/releases/download/v0.9.1/ogre-battle-64-recomp-linux-x86_64.tar.gz",
+      size: "9.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/lfarroco/ogre-battle-64-recomp/releases/download/v0.9.1/ogre-battle-64-recomp-macos-arm64.tar.gz",
+      size: "8.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/lfarroco/ogre-battle-64-recomp/releases/download/v0.9.1/ogre-battle-64-recomp-windows-x86_64.zip",
+      size: "16.4 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Ogre%20Battle%2064%20-%20Person%20of%20Lordly%20Caliber%20(USA)%20(Rev%201).png",
     alt: "Ogre Battle 64: Person of Lordly Might (box art)",

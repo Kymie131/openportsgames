@@ -14,7 +14,7 @@ export const snowboardKids2Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.0.2", date: "2026-10-17" },
   sources: ["https://github.com/cdlewis/snowboardkids2-recomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -25,6 +25,28 @@ export const snowboardKids2Recomp: Port = {
     "Native recompilation of Snowboard Kids 2 (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Snowboard Kids 2 (Nintendo 64). El jugador aporta su propia ROM obtenida legalmente; el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/cdlewis/snowboardkids2-recomp/releases/download/v2.0.2/SnowboardKids2Recompiled-Linux-ARM64.tar.gz",
+      size: "9.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/cdlewis/snowboardkids2-recomp/releases/download/v2.0.2/SnowboardKids2Recompiled-Linux-X64.tar.gz",
+      size: "10.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/cdlewis/snowboardkids2-recomp/releases/download/v2.0.2/SnowboardKids2Recompiled-macOS.zip",
+      size: "20.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/cdlewis/snowboardkids2-recomp/releases/download/v2.0.2/SnowboardKids2Recompiled-Windows.zip",
+      size: "19.1 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Snowboard%20Kids%202%20(USA).png",
     alt: "Snowboard Kids 2 (box art)",

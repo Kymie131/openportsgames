@@ -14,7 +14,7 @@ export const srb2Android: Port = {
   originalGameLicense: "freeware",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.2.15p1", date: "2026-06-04" },
   sources: ["https://github.com/bitten2up/SRB2-Android"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -25,6 +25,13 @@ export const srb2Android: Port = {
     "Android build of Sonic Robo Blast 2, the free 3D Sonic fangame based on a modified Doom Legacy engine. It is a standalone game and needs no original assets.",
   notesEs:
     "Build para Android de Sonic Robo Blast 2, el fangame 3D gratuito de Sonic basado en una versión modificada del motor Doom Legacy. Es un juego independiente y no necesita recursos originales.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/bitten2up/SRB2-Android/releases/download/bitten_master_2.2.15p1/srb2-2215-patch1.apk",
+      size: "184.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6d/Srb2_22_title.png",
     alt: "Sonic Robo Blast 2 (box art)",

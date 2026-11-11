@@ -14,13 +14,45 @@ export const switchWakerHd: Port = {
   originalGameLicense: "proprietary",
   platforms: ["switch"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.2.2", date: "2026-11-07" },
   sources: ["https://github.com/centollOS/SwitchWakerHD"],
   license: { spdx: "MPL-2.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Wii U"],
   related: ["wind-waker-hd-recomp","wind-waker-recomp"],
+  downloads: [
+    {
+      label: "Switch",
+      url: "https://github.com/centollOS/SwitchWakerHD/releases/download/v1.2.2/pgo-profile-EU.zip",
+      size: "1.0 MB",
+    },
+    {
+      label: "Switch",
+      url: "https://github.com/centollOS/SwitchWakerHD/releases/download/v1.2.2/pgo-profile-USA.zip",
+      size: "1.0 MB",
+    },
+    {
+      label: "SwitchWakerHD-Installer-linux-arm64",
+      url: "https://github.com/centollOS/SwitchWakerHD/releases/download/v1.2.2/SwitchWakerHD-Installer-linux-arm64.tar.gz",
+      size: "34.9 MB",
+    },
+    {
+      label: "SwitchWakerHD-Installer-linux-x64",
+      url: "https://github.com/centollOS/SwitchWakerHD/releases/download/v1.2.2/SwitchWakerHD-Installer-linux-x64.tar.gz",
+      size: "36.6 MB",
+    },
+    {
+      label: "SwitchWakerHD-Installer-macOS-AppleSilicon",
+      url: "https://github.com/centollOS/SwitchWakerHD/releases/download/v1.2.2/SwitchWakerHD-Installer-macOS-AppleSilicon.zip",
+      size: "42.2 MB",
+    },
+    {
+      label: "SwitchWakerHD-Installer-macOS-Intel",
+      url: "https://github.com/centollOS/SwitchWakerHD/releases/download/v1.2.2/SwitchWakerHD-Installer-macOS-Intel.zip",
+      size: "43.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
     alt: "The Legend of Zelda: The Wind Waker HD (box art)",

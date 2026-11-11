@@ -15,7 +15,7 @@ export const unGamePlaystation: Port = {
   category: "homebrew",
   platforms: ["ps1"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1.1", date: "2026-11-07" },
   sources: ["https://github.com/Jarwesbub/un-game-psx-demo"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -24,6 +24,13 @@ export const unGamePlaystation: Port = {
   summary: "UN Game is a platform game published by Homebrew, released in 2026.",
   summaryEs: "UN Game es un videojuego de plataformas publicado por Homebrew, lanzado en 2026.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "UnGame_v1_1_1",
+      url: "https://github.com/Jarwesbub/un-game-psx-demo/releases/download/v1.1.1/UnGame_v1_1_1.zip",
+      size: "57.2 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/un-game.svg",
     alt: "UN Game (generated cover)",

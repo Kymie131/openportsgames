@@ -14,7 +14,7 @@ export const TheGreatEscapeInC: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.95", date: "2022-04-20" },
   sources: ["https://github.com/dpt/The-Great-Escape-in-C"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -23,6 +23,13 @@ export const TheGreatEscapeInC: Port = {
   summary: "The Great Escape in C is a action-adventure game for ZX Spectrum, released in 2000.",
   summaryEs: "The Great Escape in C es un videojuego de acci�n y aventura para ZX Spectrum, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "TheGreatEscape-a9d2315",
+      url: "https://github.com/dpt/The-Great-Escape-in-C/releases/download/risc-os-0.95/TheGreatEscape-a9d2315.zip",
+      size: "242 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/the-great-escape-in-c.svg",
     alt: "The Great Escape in C (generated cover)",

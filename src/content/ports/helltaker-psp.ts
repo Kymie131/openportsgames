@@ -14,12 +14,19 @@ export const helltakerPsp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["psp"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.1", date: "2026-10-15" },
   sources: ["https://github.com/surelynotvain/helltaker-psp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "HelltakerPSP",
+      url: "https://github.com/surelynotvain/helltaker-psp/releases/download/full-game-2.1/HelltakerPSP.zip",
+      size: "65.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/de/Helltaker_Cover.jpg",
     alt: "Helltaker (box art)",

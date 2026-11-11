@@ -13,12 +13,44 @@ export const Nocturne: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.10", date: "2026-11-02" },
   sources: ["https://github.com/NearlyTRex/NocturneDecomp"],
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/NearlyTRex/NocturneDecomp/releases/download/v0.1.10/nocturne-0.1.10-exe-linux-aarch64.tar.gz",
+      size: "11.0 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/NearlyTRex/NocturneDecomp/releases/download/v0.1.10/nocturne-0.1.10-exe-linux-vanilla-aarch64.tar.gz",
+      size: "10.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/NearlyTRex/NocturneDecomp/releases/download/v0.1.10/nocturne-0.1.10-exe-linux-vanilla-x86_64.tar.gz",
+      size: "10.6 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/NearlyTRex/NocturneDecomp/releases/download/v0.1.10/nocturne-0.1.10-exe-linux-x86_64.tar.gz",
+      size: "10.6 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/NearlyTRex/NocturneDecomp/releases/download/v0.1.10/nocturne-0.1.10-exe-macos-arm64.tar.gz",
+      size: "10.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/NearlyTRex/NocturneDecomp/releases/download/v0.1.10/nocturne-0.1.10-exe-macos-vanilla-arm64.tar.gz",
+      size: "10.1 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1374860/header.jpg",
     alt: "Nocturne (cover art)",

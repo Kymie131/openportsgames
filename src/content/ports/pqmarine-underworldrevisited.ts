@@ -24,6 +24,28 @@ export const pqmarineUnderworldrevisited: Port = {
   summary: "Underworld Revisited is a role-playing game, released in 1992.",
   summaryEs: "Underworld Revisited es un videojuego de rol, lanzado en 1992.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/PQMarine/UnderworldRevisited/releases/download/v0.19.2/UnderworldRevisited-0.19.2-linux64.tar.gz",
+      size: "65.8 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/PQMarine/UnderworldRevisited/releases/download/v0.19.2/UnderworldRevisited-0.19.2-TranslationKit-linux64.tar.gz",
+      size: "28.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/PQMarine/UnderworldRevisited/releases/download/v0.19.2/UnderworldRevisited-0.19.2-TranslationKit-win64.zip",
+      size: "29.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/PQMarine/UnderworldRevisited/releases/download/v0.19.2/UnderworldRevisited-0.19.2-win64.zip",
+      size: "67.4 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/underworld-revisited.svg",
     alt: "Underworld Revisited (generated cover)",

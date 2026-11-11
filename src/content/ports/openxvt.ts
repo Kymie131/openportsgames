@@ -14,7 +14,7 @@ export const Openxvt: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.0.5", date: "2026-10-10" },
   sources: ["https://github.com/elyosh/OpenXvT"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -23,6 +23,23 @@ export const Openxvt: Port = {
   summary: "OpenXvT is a action-adventure game, released in 2000.",
   summaryEs: "OpenXvT es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/elyosh/OpenXvT/releases/download/v0.0.5/openxvt-0.0.5-linux-x86_64-release.tar.xz",
+      size: "4.3 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/elyosh/OpenXvT/releases/download/v0.0.5/openxvt-0.0.5-macos-arm64-release.dmg",
+      size: "6.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/elyosh/OpenXvT/releases/download/v0.0.5/openxvt-0.0.5-windows-x86_64-release.zip",
+      size: "8.0 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/openxvt.svg",
     alt: "OpenXvT (generated cover)",

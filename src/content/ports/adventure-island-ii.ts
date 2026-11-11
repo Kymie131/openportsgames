@@ -14,12 +14,19 @@ export const AdventureIslandIi: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.0.0", date: "2026-08-26" },
   sources: ["https://github.com/Junior-Jones/Adventure-Island-II-NES-Static-Recomp"],
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo Entertainment System"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Junior-Jones/Adventure-Island-II-NES-Static-Recomp/releases/download/v1.0.0/Adventure-Island-II-NES-Static-Recomp-1.0.0-Windows.zip",
+      size: "1.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/2c/Adventure_Island_2_box_art.jpg",
     alt: "Adventure Island II (cover)",

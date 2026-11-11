@@ -14,13 +14,35 @@ export const pilotwings64Birdman64: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows","linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.5.1", date: "2026-10-21" },
   sources: ["https://github.com/NoahVl/Birdman64"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["pilotwings-64-recomp"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/NoahVl/Birdman64/releases/download/v1.5.1/Birdman64-android-arm64.apk",
+      size: "58.4 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/NoahVl/Birdman64/releases/download/v1.5.1/birdman64-linux-x64.tar.gz",
+      size: "87.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/NoahVl/Birdman64/releases/download/v1.5.1/Birdman64-windows-x64.zip",
+      size: "63.8 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/NoahVl/Birdman64/releases/download/v1.5.1/Birdman64-x86_64.AppImage",
+      size: "78.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/94/Pilotwings_64_box.jpg",
     alt: "Pilotwings 64 (box art)",

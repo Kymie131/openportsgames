@@ -14,12 +14,19 @@ export const revcAndroidEvolved: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.11", date: "2026-09-16" },
   sources: ["https://github.com/codepdbh/revc-android-port-evolved"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/codepdbh/revc-android-port-evolved/releases/download/v1.0.11/app-standard-release.apk",
+      size: "10.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/ce/Vice-city-cover.jpg",
     alt: "Grand Theft Auto: Vice City (box art)",

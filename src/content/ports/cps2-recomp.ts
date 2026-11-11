@@ -21,6 +21,33 @@ export const cps2Recomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Arcade"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/tmcleroy/cps2recomp/releases/download/v1.4.0/CPS2Recomp-android.apk",
+      size: "116.0 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/tmcleroy/cps2recomp/releases/download/v1.4.0/CPS2Recomp-linux-arm64.tar.gz",
+      size: "159.6 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/tmcleroy/cps2recomp/releases/download/v1.4.0/CPS2Recomp-linux-x86_64.tar.gz",
+      size: "159.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/tmcleroy/cps2recomp/releases/download/v1.4.0/CPS2Recomp-macOS.zip",
+      size: "246.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/tmcleroy/cps2recomp/releases/download/v1.4.0/CPS2Recomp-windows-x64.zip",
+      size: "117.5 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/cps-2-arcade-collection.svg",
     alt: "CPS-2 arcade collection (generated cover)",

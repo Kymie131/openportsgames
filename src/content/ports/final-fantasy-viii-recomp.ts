@@ -14,7 +14,7 @@ export const finalFantasyViiiRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.1", date: "2026-09-30" },
   sources: ["https://github.com/alexbeavs-ps1-ports/final-fantasy-viii-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,28 @@ export const finalFantasyViiiRecomp: Port = {
     "Recompilation of Final Fantasy VIII (PS1, USA SLUS-00892) with PSXRecomp and the recomp-ui launcher. It needs your own disc and a European SCPH-5502/5552 BIOS; the wizard generates and compiles the game on your machine. Published as release candidate 0.1.0, with gameplay acceptance still pending.",
   notesEs:
     "Recompilación de Final Fantasy VIII (PS1, USA SLUS-00892) con PSXRecomp y el lanzador recomp-ui. Necesita tu propio disco y una BIOS europea SCPH-5502/5552; el asistente genera y compila el juego en tu equipo. Publicada como candidata 0.1.0, con la aceptación de gameplay todavía pendiente.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/alexbeavs-ps1-ports/final-fantasy-viii-recomp/releases/download/v0.1.1/final-fantasy-viii-0.1.1-linux-x64.zip",
+      size: "23.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/alexbeavs-ps1-ports/final-fantasy-viii-recomp/releases/download/v0.1.1/final-fantasy-viii-0.1.1-macos-arm64.zip",
+      size: "21.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/alexbeavs-ps1-ports/final-fantasy-viii-recomp/releases/download/v0.1.1/final-fantasy-viii-0.1.1-macos-x64.zip",
+      size: "22.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/alexbeavs-ps1-ports/final-fantasy-viii-recomp/releases/download/v0.1.1/final-fantasy-viii-0.1.1-windows-x64.zip",
+      size: "25.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Final%20Fantasy%20VIII%20(Europe,%20Australia).png",
     alt: "Final Fantasy VIII (box art)",

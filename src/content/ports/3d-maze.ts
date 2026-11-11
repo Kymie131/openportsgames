@@ -14,7 +14,7 @@ export const _3dMaze: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.0", date: "2025-02-16" },
   sources: ["https://github.com/x86matthew/Playable3DMaze"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -22,6 +22,13 @@ export const _3dMaze: Port = {
   originalSystems: ["Unknown"],
   summary: "3D Maze is a action-adventure game in 1982.",
   summaryEs: "3D Maze es un videojuego de acción y aventura en 1982.",
+  downloads: [
+    {
+      label: "Playable3DMaze",
+      url: "https://github.com/x86matthew/Playable3DMaze/releases/download/release_v1.0/Playable3DMaze.zip",
+      size: "306 KB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3208860/header.jpg?t=1726840684",
     alt: "3D Maze (Steam header)",

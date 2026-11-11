@@ -22,6 +22,13 @@ export const sushiShiHomm3Decomp: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/sushi-shi/homm3-decomp/releases/download/toolchain-vc6-sp3/homm3-toolchain-vc6-sp3.tar.xz",
+      size: "23.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/9b/Homm3boxart.jpg",
     alt: "Heroes of Might and Magic III (box art)",

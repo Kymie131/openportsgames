@@ -14,7 +14,7 @@ export const Doom64ExPlusEnhanced: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.0.0.1", date: "2025-10-28" },
   sources: ["https://github.com/Styd051/DOOM64-EX-Plus-Enhanced"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -23,6 +23,13 @@ export const Doom64ExPlusEnhanced: Port = {
   summary: "DOOM64-EX-Plus-Enhanced is a action-adventure game, released in 2000.",
   summaryEs: "DOOM64-EX-Plus-Enhanced es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Styd051/DOOM64-EX-Plus-Enhanced/releases/download/V1.0.0.1/doom64ex-plus-enhanced-1.0.0.1-win64.zip",
+      size: "16.9 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/doom64-ex-plus-enhanced.svg",
     alt: "DOOM64-EX-Plus-Enhanced (generated cover)",

@@ -14,7 +14,7 @@ export const openhp1: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.2.0", date: "2026-08-18" },
   sources: ["https://github.com/SplittyDev/openhp1"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,33 @@ export const openhp1: Port = {
     "Open reimplementation of the PC version of Harry Potter and the Philosopher's Stone. It requires the original game files to run.",
   notesEs:
     "Reimplementación libre de la versión de PC de Harry Potter y la piedra filosofal. Requiere los archivos del juego original para funcionar.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/SplittyDev/openhp1/releases/download/v0.2.0/openhp1_linux_arm.zip",
+      size: "15.6 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/SplittyDev/openhp1/releases/download/v0.2.0/openhp1_linux_x64.zip",
+      size: "16.7 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/SplittyDev/openhp1/releases/download/v0.2.0/openhp1_macos_universal.zip",
+      size: "23.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/SplittyDev/openhp1/releases/download/v0.2.0/openhp1_windows_arm.zip",
+      size: "11.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/SplittyDev/openhp1/releases/download/v0.2.0/openhp1_windows_x64.zip",
+      size: "12.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/55/HarryPotterPhilosophersStoneGameEuroArtwork.jpg",
     alt: "Harry Potter and the Philosopher's Stone (box art)",

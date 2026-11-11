@@ -14,12 +14,19 @@ export const minishCapSwitchAlekSEdition: Port = {
   originalGameLicense: "proprietary",
   platforms: ["switch"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.0.1", date: "2026-10-17" },
   sources: ["https://github.com/Alexgg1014/The-Legend-of-Zelda-The-Minish-Cap-Alek-s-Ultimate-NX-Edition"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy Advance"],
+  downloads: [
+    {
+      label: "Switch NRO",
+      url: "https://github.com/Alexgg1014/The-Legend-of-Zelda-The-Minish-Cap-Alek-s-Ultimate-NX-Edition/releases/download/v2.0.1/tmc_aleks_ultimate_nx.nro",
+      size: "14.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/0a/TLOZ-_Minish_Cap_NA_Box_art.png",
     alt: "The Legend of Zelda: The Minish Cap (box art)",

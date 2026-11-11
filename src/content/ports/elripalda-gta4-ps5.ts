@@ -21,6 +21,13 @@ export const elripaldaGta4Ps5: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/elripalda/gta4-ps5/releases/download/v1.5/PPSA94004.zip",
+      size: "99.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b7/Grand_Theft_Auto_IV_cover.jpg",
     alt: "Grand Theft Auto IV (box art)",

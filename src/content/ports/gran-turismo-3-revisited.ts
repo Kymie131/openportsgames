@@ -29,6 +29,38 @@ export const granTurismo3Revisited: Port = {
     "Open-source reimplementation of the Gran Turismo 3 A-Spec engine. Version 0.6.0 is playable from start to finish: GT Mode with dealers, tuning, licences and endurance races, Arcade with two-player split screen, replays, and the original movies and music. It reads assets directly from your own .iso or .chd disc image and adds online i.LINK battles for up to six players. Builds are provided for Windows, macOS, Linux, Android and Meta Quest; iOS builds from source. No game data is included.",
   notesEs:
     "Reimplementación de código abierto del motor de Gran Turismo 3 A-Spec. La versión 0.6.0 es jugable de principio a fin: modo GT con concesionarios, ajustes, licencias y resistencias, Arcade con pantalla dividida para dos jugadores, repeticiones y las películas y música originales. Lee los recursos directamente de tu propia imagen .iso o .chd y añade batallas i.LINK online para hasta seis jugadores. Hay builds para Windows, macOS, Linux, Android y Meta Quest; iOS se compila desde el código. No incluye datos del juego.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/matt-pulsipher/GT3-revisited/releases/download/v0.6.4/gt3r-android.apk",
+      size: "23.7 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/matt-pulsipher/GT3-revisited/releases/download/v0.6.4/gt3r-linux-x86_64.tar.gz",
+      size: "10.3 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/matt-pulsipher/GT3-revisited/releases/download/v0.6.4/gt3r-macos-arm64.zip",
+      size: "7.7 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/matt-pulsipher/GT3-revisited/releases/download/v0.6.4/gt3r-quest.apk",
+      size: "13.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/matt-pulsipher/GT3-revisited/releases/download/v0.6.4/gt3r-windows-x64-vr.zip",
+      size: "9.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/matt-pulsipher/GT3-revisited/releases/download/v0.6.4/gt3r-windows-x64.zip",
+      size: "8.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/83/Gran_Turismo_3_%28Original%29.jpg",
     alt: "Gran Turismo 3: A-Spec (box art)",

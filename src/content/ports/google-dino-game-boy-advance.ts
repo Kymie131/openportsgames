@@ -15,7 +15,7 @@ export const googleDinoGameBoyAdvance: Port = {
   category: "homebrew",
   platforms: ["gba"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1", date: "2025-02-28" },
   sources: ["https://github.com/fritzem/Google-Dino-GBA"],
   license: { spdx: "MIT" },
   verified: false,
@@ -24,6 +24,13 @@ export const googleDinoGameBoyAdvance: Port = {
   summary: "Chrome Dino is a platform game published by Google for Other, released in 2014.",
   summaryEs: "Chrome Dino es un videojuego de plataformas publicado por Google para Other, lanzado en 2014.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Google-Dino-Advance.1.1",
+      url: "https://github.com/fritzem/Google-Dino-GBA/releases/download/1.1/Google-Dino-Advance.1.1.zip",
+      size: "49 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/chrome-dino.svg",
     alt: "Chrome Dino (generated cover)",

@@ -14,12 +14,24 @@ export const theSimpsonsHitAndRunAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.93", date: "2026-07-24" },
   sources: ["https://github.com/Carlox33/The-Simpsons-Hit-and-Run-Android"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Carlox33/The-Simpsons-Hit-and-Run-Android/releases/download/v0.93/SimpsonsNTSC.apk",
+      size: "76.1 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/Carlox33/The-Simpsons-Hit-and-Run-Android/releases/download/v0.93/SimpsonsPAL.apk",
+      size: "77.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/5f/The_Simpsons_Hit_and_Run_cover.png",
     alt: "The Simpsons: Hit & Run (box art)",

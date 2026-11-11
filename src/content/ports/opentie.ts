@@ -14,7 +14,7 @@ export const Opentie: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.0.7", date: "2026-10-04" },
   sources: ["https://github.com/elyosh/OpenTIE"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -23,6 +23,23 @@ export const Opentie: Port = {
   summary: "OpenTIE is a action-adventure game, released in 2000.",
   summaryEs: "OpenTIE es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/elyosh/OpenTIE/releases/download/v0.0.7/opentie-0.0.7-linux-x86_64-release.tar.xz",
+      size: "4.4 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/elyosh/OpenTIE/releases/download/v0.0.7/opentie-0.0.7-macos-arm64-release.dmg",
+      size: "6.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/elyosh/OpenTIE/releases/download/v0.0.7/opentie-0.0.7-windows-x86_64-release.zip",
+      size: "14.3 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/opentie.svg",
     alt: "OpenTIE (generated cover)",

@@ -14,7 +14,7 @@ export const burnoutRevengeRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.4.10", date: "2026-11-01" },
   sources: ["https://github.com/shipa-2/Xerenge"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -26,6 +26,33 @@ export const burnoutRevengeRecomp: Port = {
     "Burnout Revenge's (Xbox 360) PowerPC code is translated to C++ ahead of time, with no interpreter or JIT. It needs the retail European dump and a Vulkan GPU.",
   notesEs:
     "El código PowerPC de Burnout Revenge (Xbox 360) se traduce a C++ por adelantado, sin intérprete ni JIT. Necesita el volcado europeo retail y una GPU Vulkan.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/shipa-2/Xerenge/releases/download/v0.4.10/Burnout_Revenge-android-arm64.apk",
+      size: "26.0 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/shipa-2/Xerenge/releases/download/v0.4.10/Burnout_Revenge_Installer-macos-arm64.zip",
+      size: "63.5 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/shipa-2/Xerenge/releases/download/v0.4.10/Burnout_Revenge_Installer-win-amd64.exe",
+      size: "32.5 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/shipa-2/Xerenge/releases/download/v0.4.10/Burnout_Revenge_Installer-x86_64.AppImage",
+      size: "67.5 MB",
+    },
+    {
+      label: "Xerenge-mod-locale_rus",
+      url: "https://github.com/shipa-2/Xerenge/releases/download/v0.4.10/Xerenge-mod-locale_rus.zip",
+      size: "2 KB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/cb/Revenge_boxart.jpg",
     alt: "Burnout Revenge (box art)",

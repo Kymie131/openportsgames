@@ -14,12 +14,19 @@ export const diddyKongRacingWii: Port = {
   originalGameLicense: "proprietary",
   platforms: ["wii"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.0-alpha", date: "2026-10-18" },
   sources: ["https://github.com/Ch1nguya/DKR-R-WII"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "DKR-R-Wii-0.1.0-alpha",
+      url: "https://github.com/Ch1nguya/DKR-R-WII/releases/download/v0.1.0-alpha/DKR-R-Wii-0.1.0-alpha.zip",
+      size: "3.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/72/Diddy_Kong_Racing_Cover_Art.png",
     alt: "Diddy Kong Racing (box art)",

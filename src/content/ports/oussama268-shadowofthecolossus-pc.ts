@@ -21,6 +21,13 @@ export const oussama268ShadowofthecolossusPc: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation 4"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Oussama268/ShadowOfTheColossus-PC/releases/download/v0.72.1-opt13/SotC-PC.zip",
+      size: "135.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/f8/Shadow_of_the_Colossus_%282005%29_cover.jpg",
     alt: "Shadow of the Colossus (box art)",

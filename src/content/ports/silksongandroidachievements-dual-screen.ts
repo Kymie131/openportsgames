@@ -14,12 +14,19 @@ export const silksongandroidachievementsDualScreen: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.0", date: "2026-09-16" },
   sources: ["https://github.com/OmegaUwUr/SilksongAndroid-Achievements"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/OmegaUwUr/SilksongAndroid-Achievements/releases/download/v1.0.0/HollowKnight-Silksong-Steamsync.28.apk",
+      size: "65.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/05/Silksong.jpg",
     alt: "Hollow Knight: Silksong (box art)",

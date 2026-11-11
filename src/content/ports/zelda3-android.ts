@@ -14,13 +14,20 @@ export const zelda3Android: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.0", date: "2026-07-24" },
   sources: ["https://github.com/samyost1/zelda3-android"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Super Nintendo"],
   related: ["zelda3"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/samyost1/zelda3-android/releases/download/v2.0/zelda3-dualscreen.apk",
+      size: "9.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg",
     alt: "The Legend of Zelda: A Link to the Past (box art)",

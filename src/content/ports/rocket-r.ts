@@ -14,7 +14,7 @@ export const rocketR: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.1", date: "2026-09-27" },
   sources: ["https://github.com/ThatGuyMcd/Rocket-R"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -25,6 +25,38 @@ export const rocketR: Port = {
     "Native recompilation of Rocket: Robot on Wheels (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Rocket: Robot on Wheels (Nintendo 64). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/ThatGuyMcd/Rocket-R/releases/download/v.1.0.1/Rocket-R-1.0.1-Android-arm64-v8a.apk",
+      size: "9.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/ThatGuyMcd/Rocket-R/releases/download/v.1.0.1/Rocket-R-1.0.1-Linux-aarch64-Portable.tar.gz",
+      size: "19.4 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/ThatGuyMcd/Rocket-R/releases/download/v.1.0.1/Rocket-R-1.0.1-Linux-aarch64.AppImage",
+      size: "19.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/ThatGuyMcd/Rocket-R/releases/download/v.1.0.1/Rocket-R-1.0.1-Linux-x86_64-Portable.tar.gz",
+      size: "20.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/ThatGuyMcd/Rocket-R/releases/download/v.1.0.1/Rocket-R-1.0.1-Linux-x86_64-SteamDeck.tar.gz",
+      size: "22.0 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/ThatGuyMcd/Rocket-R/releases/download/v.1.0.1/Rocket-R-1.0.1-Linux-x86_64.AppImage",
+      size: "20.6 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Rocket%20-%20Robot%20on%20Wheels%20(USA).png",
     alt: "Rocket: Robot on Wheels (box art)",

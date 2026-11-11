@@ -53,6 +53,28 @@ export const redriver2: Port = {
       credit: "OpenDriver2",
     },
   ],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/OpenDriver2/REDRIVER2/releases/download/7.4-rc2/REDRIVER2_Linux_Release.tar.gz",
+      size: "5.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/OpenDriver2/REDRIVER2/releases/download/7.4-rc2/REDRIVER2_Linux_Release_dev.tar.gz",
+      size: "5.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/OpenDriver2/REDRIVER2/releases/download/7.4-rc2/REDRIVER2_Win32_Release.zip",
+      size: "9.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/OpenDriver2/REDRIVER2/releases/download/7.4-rc2/REDRIVER2_Win32_Release_dev.zip",
+      size: "9.3 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Driver%202%20(USA)%20(Rev%201).png",
     alt: "Driver 2 (box art)",

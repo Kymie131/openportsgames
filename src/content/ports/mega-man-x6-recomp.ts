@@ -14,7 +14,7 @@ export const megaManX6Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.2.0", date: "2026-10-03" },
   sources: ["https://github.com/mstan/MegaManX6Recomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
@@ -25,6 +25,13 @@ export const megaManX6Recomp: Port = {
     "Native recompilation of Mega Man X6 (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Mega Man X6 (PlayStation). El jugador aporta su propio material obtenido legalmente (imagen de disco); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/MegaManX6Recomp/releases/download/v1.2.0/MegaManX6Recomp-v1.2.0-windows-x64.zip",
+      size: "54.8 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Mega%20Man%20X6%20(USA).png",
     alt: "Mega Man X6 (box art)",

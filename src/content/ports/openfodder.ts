@@ -33,6 +33,13 @@ export const openFodder: Port = {
       credit: "OpenFodder",
     },
   ],
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/OpenFodder/openfodder/releases/download/2.0.0/OpenFodder-Installer.exe",
+      size: "15.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/5e/Cannon_fodder_box_art.jpg",
     alt: "Cannon Fodder (box art)",

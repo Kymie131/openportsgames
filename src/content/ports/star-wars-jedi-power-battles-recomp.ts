@@ -14,7 +14,7 @@ export const starWarsJediPowerBattlesRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.3", date: "2026-10-01" },
   sources: [
     "https://github.com/TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp",
   ],
@@ -26,6 +26,28 @@ export const starWarsJediPowerBattlesRecomp: Port = {
   summaryEs: "Star Wars Episodio I: Jedi Power Battles es un juego de aventura y acción basado en la película Star Wars Episodio I: La amenaza fantasma. El videojuego salió a la venta para las consolas PlayStation, Dreamcast y Game Boy Advance",
   notes: "Indexed by PortsDR. No official repository is available, and it needs your own copy.",
   notesEs: "Indexado en PortsDR. No hay repositorio oficial disponible y necesita tu propia copia.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp/releases/download/v0.1.3/seijpb-0.1.3-linux-x64.zip",
+      size: "50.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp/releases/download/v0.1.3/seijpb-0.1.3-macos-arm64.zip",
+      size: "27.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp/releases/download/v0.1.3/seijpb-0.1.3-macos-x64.zip",
+      size: "27.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp/releases/download/v0.1.3/seijpb-0.1.3-windows-x64.zip",
+      size: "29.4 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Star%20Wars%20-%20Episode%20I%20-%20Jedi%20Power%20Battles%20(Europe).png",
     alt: "Star Wars Episode I: Jedi Power Battles (box art)",

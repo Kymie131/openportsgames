@@ -14,13 +14,20 @@ export const doomIiRpgRe: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1", date: "2023-12-11" },
   sources: ["https://github.com/Erick194/DoomIIRPG-RE"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Mobile"],
   related: ["doom-rpg-re"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Erick194/DoomIIRPG-RE/releases/download/v.0.1/DoomIIRPG.v0.1.zip",
+      size: "1.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/f6/Doom_II_RPG_cover.jpg",
     alt: "Doom II RPG (box art)",

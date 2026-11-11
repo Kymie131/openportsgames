@@ -14,7 +14,7 @@ export const devilDiceRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.0", date: "2026-09-14" },
   sources: ["https://github.com/alexbeavs-ps1-ports/devil-dice-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,28 @@ export const devilDiceRecomp: Port = {
     "Recompilation of Devil Dice (PS1, Europe SCES-01312) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:
     "Recompilación de Devil Dice (PS1, Europe SCES-01312) con PSXRecomp. Las releases son kits de compilación propia: aportas tu disco y una BIOS compatible, y el juego se genera y compila en tu equipo. Es la recompilación base del framework, sin mejoras por juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/alexbeavs-ps1-ports/devil-dice-recomp/releases/download/v0.1.0/devildice-0.1.0-linux-x64.zip",
+      size: "23.8 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/alexbeavs-ps1-ports/devil-dice-recomp/releases/download/v0.1.0/devildice-0.1.0-macos-arm64.zip",
+      size: "22.7 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/alexbeavs-ps1-ports/devil-dice-recomp/releases/download/v0.1.0/devildice-0.1.0-macos-x64.zip",
+      size: "23.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/alexbeavs-ps1-ports/devil-dice-recomp/releases/download/v0.1.0/devildice-0.1.0-windows-x64.zip",
+      size: "25.8 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Devil%20Dice%20(Europe)%20(En,Fr,De,Es,It).png",
     alt: "Devil Dice (box art)",

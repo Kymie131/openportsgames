@@ -23,6 +23,38 @@ export const Openkrush: Port = {
   summary: "OpenKrush is a action-adventure game, released in 2000.",
   summaryEs: "OpenKrush es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "macOS DMG",
+      url: "https://github.com/IceReaper/OpenKrush/releases/download/playtest-20220222-3/OpenKrush-playtest-20220222-3-compat.dmg",
+      size: "22.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/IceReaper/OpenKrush/releases/download/playtest-20220222-3/OpenKrush-playtest-20220222-3-x64-winportable.zip",
+      size: "56.3 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/IceReaper/OpenKrush/releases/download/playtest-20220222-3/OpenKrush-playtest-20220222-3-x64.exe",
+      size: "46.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/IceReaper/OpenKrush/releases/download/playtest-20220222-3/OpenKrush-playtest-20220222-3-x86-winportable.zip",
+      size: "53.1 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/IceReaper/OpenKrush/releases/download/playtest-20220222-3/OpenKrush-playtest-20220222-3-x86.exe",
+      size: "44.2 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/IceReaper/OpenKrush/releases/download/playtest-20220222-3/OpenKrush-playtest-20220222-3-x86_64.AppImage",
+      size: "54.0 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/openkrush.svg",
     alt: "OpenKrush (generated cover)",

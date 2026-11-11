@@ -20,6 +20,13 @@ export const GeorgeOfTheJungleAndTheSearchForTheSecret: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/2gifts/george-decomp/releases/download/gcc29-windows-v1/gcc29-windows.zip",
+      size: "4.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/d2/George_of_the_Jungle_and_the_Search_for_the_Secret_cover_art.png",
     alt: "George of the Jungle and the Search for the Secret (cover)",

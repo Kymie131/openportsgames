@@ -14,12 +14,39 @@ export const wild9Pc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.9", date: "2026-11-01" },
   sources: ["https://github.com/plinkr/Wild9Recomp"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/plinkr/Wild9Recomp/releases/download/v0.1.9/wild9-0.1.9-linux-x64.zip",
+      size: "12.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/plinkr/Wild9Recomp/releases/download/v0.1.9/wild9-0.1.9-macos-arm64.zip",
+      size: "8.7 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/plinkr/Wild9Recomp/releases/download/v0.1.9/wild9-0.1.9-macos-x64.zip",
+      size: "8.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/plinkr/Wild9Recomp/releases/download/v0.1.9/wild9-0.1.9-windows-x64.zip",
+      size: "13.2 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/plinkr/Wild9Recomp/releases/download/v0.1.9/wild9-0.1.9-x86_64.AppImage",
+      size: "13.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a4/Wild_9_Coverart.png",
     alt: "Wild 9 (box art)",

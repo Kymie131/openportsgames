@@ -14,7 +14,7 @@ export const crashMindOverMutantRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.2.2-alpha.4", date: "2026-11-09" },
   sources: ["https://github.com/Maxilure/MindOver-Recomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -26,6 +26,13 @@ export const crashMindOverMutantRecomp: Port = {
     "Static recompilation of Crash: Mind over Mutant (Xbox 360) for Windows. It needs your own copy of the game.",
   notesEs:
     "Recompilación estática de Crash: Mind over Mutant (Xbox 360) para Windows. Necesita tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Maxilure/MindOver-Recomp/releases/download/v0.2.2-alpha.4/MindOverRecomp-0.2.2-alpha.4-windows-x86_64.zip",
+      size: "14.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b2/Crash_-_Mind_over_Mutant_Coverart.png",
     alt: "Crash: Mind over Mutant (cover)",

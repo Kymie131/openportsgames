@@ -25,6 +25,13 @@ export const teamBeefStudiosQuake2quest: Port = {
   summaryEs: "Quake II es un videojuego de disparos en primera persona desarrollado por id Software y distribuido por Activision en 1997. Aunque usa el nombre de Quake, también de id Software y es considerado, de hecho como su secuela, su historia se aparta totalmente del ambiente mítico-medieval visto en Quake para adentrarse en la ciencia ficción",
   notes: "Quake II: source port by Team-Beef-Studios for Windows. Bring your own copy of the game.",
   notesEs: "Quake II: source port de Team-Beef-Studios para Windows. Aporta tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Team-Beef-Studios/Quake2Quest/releases/download/v1.1.1/quake2quest-v1.1.1.apk",
+      size: "174.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b5/Quake2box.jpg",
     alt: "Quake II (box art)",

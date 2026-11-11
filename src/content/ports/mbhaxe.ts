@@ -14,7 +14,7 @@ export const mbhaxe: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos", "android", "web", "ios"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.3.2-mbu", date: "2026-10-18" },
   sources: ["https://github.com/RandomityGuy/MBHaxe"],
   license: { spdx: "MIT" },
   verified: false,
@@ -25,6 +25,33 @@ export const mbhaxe: Port = {
     "Haxe port of Marble Blast Gold that keeps the original physics, with online multiplayer. It runs in the browser and on Windows, macOS, Linux, iOS and Android, and needs your own game files.",
   notesEs:
     "Port en Haxe de Marble Blast Gold que conserva la física original, con multijugador en línea. Funciona en el navegador y en Windows, macOS, Linux, iOS y Android, y necesita tus propios archivos del juego.",
+  downloads: [
+    {
+      label: "iOS IPA",
+      url: "https://github.com/RandomityGuy/MBHaxe/releases/download/1.3.2-mbu/MBHaxe-Ultra-iOS.ipa",
+      size: "56.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/RandomityGuy/MBHaxe/releases/download/1.3.2-mbu/MBHaxe-Ultra-Linux.tar.gz",
+      size: "55.2 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/RandomityGuy/MBHaxe/releases/download/1.3.2-mbu/MBHaxe-Ultra-Mac.dmg",
+      size: "63.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/RandomityGuy/MBHaxe/releases/download/1.3.2-mbu/MBHaxe-Ultra-Win.zip",
+      size: "54.1 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/RandomityGuy/MBHaxe/releases/download/1.3.2-mbu/MBHaxe-Ultra.apk",
+      size: "63.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a3/Marble_blast_gold.jpg",
     alt: "Marble Blast Gold (box art)",

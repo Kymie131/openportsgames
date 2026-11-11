@@ -14,7 +14,7 @@ export const goldenEyeRecompDualScreen: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.7.1", date: "2026-08-28" },
   sources: ["https://github.com/jeffory/GoldenEye-Recomp"],
   license: { spdx: "Unlicense" },
   verified: false,
@@ -22,6 +22,18 @@ export const goldenEyeRecompDualScreen: Port = {
   originalSystems: ["Xbox 360"],
   summary: "GoldenEye 007: Reloaded is a shooter game.",
   summaryEs: "GoldenEye 007: Reloaded es un videojuego de disparos.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/jeffory/GoldenEye-Recomp/releases/download/v1.7.1/GoldenEye-Recomp-v1.7.1-android-arm64.apk",
+      size: "32.8 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/jeffory/GoldenEye-Recomp/releases/download/v1.7.1/GoldenEye-Recomp-v1.7.1-linux-amd64.tar.gz",
+      size: "49.5 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/goldeneye-007-reloaded.svg",
     alt: "GoldenEye 007: Reloaded (generated cover)",

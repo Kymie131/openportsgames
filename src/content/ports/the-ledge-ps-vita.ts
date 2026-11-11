@@ -14,7 +14,7 @@ export const theLedgePsVita: Port = {
   originalGameLicense: "proprietary",
   platforms: ["psvita"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.34", date: "2026-10-14" },
   sources: ["https://github.com/beaufortribbons/The-Ledge-Vita"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -22,6 +22,13 @@ export const theLedgePsVita: Port = {
   originalSystems: ["Windows"],
   summary: "\"Know the Ledge\" – originally on the soundtrack of the film Juice as \"Juice (Know the Ledge)\" – is a 1992 single by hip-hop duo Eric B. & Rakim. The film's theme song, also released on the duo's 1992 album Don't Sweat the Technique, it features a distinctive sample from Nat Adderley's 1968 hit \"Rise, Sally, Rise\".",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  downloads: [
+    {
+      label: "The-Ledge-Vita-0.34-Sources",
+      url: "https://github.com/beaufortribbons/The-Ledge-Vita/releases/download/v0.34/The-Ledge-Vita-0.34-Sources.zip",
+      size: "35.3 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/the-ledge.svg",
     alt: "The Ledge (generated cover)",

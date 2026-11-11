@@ -24,6 +24,13 @@ export const kylofonAcesofthepacificEnhanced: Port = {
   summary: "Aces of the Pacific Enhanced is a action-adventure game, released in 1992.",
   summaryEs: "Aces of the Pacific Enhanced es un videojuego de acci�n y aventura, lanzado en 1992.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/kylofon/acesofthepacific-enhanced/releases/download/v0.3.0/acesofthepacific-enhanced-0.3.0-win64.zip",
+      size: "11.2 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/aces-of-the-pacific-enhanced.svg",
     alt: "Aces of the Pacific Enhanced (generated cover)",

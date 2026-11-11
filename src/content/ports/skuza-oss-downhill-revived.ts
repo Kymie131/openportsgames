@@ -21,6 +21,38 @@ export const skuzaOssDownhillRevived: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation 2"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/skuza-oss/downhill-revived/releases/download/v0.7.16/DownhillRevived-0.7.16-android-experimental.apk",
+      size: "34.5 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/skuza-oss/downhill-revived/releases/download/v0.7.16/DownhillRevived-0.7.16-linux-experimental.AppImage",
+      size: "92.8 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/skuza-oss/downhill-revived/releases/download/v0.7.16/DownhillRevived-0.7.16-linux-experimental.zip",
+      size: "19.3 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/skuza-oss/downhill-revived/releases/download/v0.7.16/DownhillRevived-0.7.16-mac-experimental.dmg",
+      size: "17.8 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/skuza-oss/downhill-revived/releases/download/v0.7.16/DownhillRevived-0.7.16-mac-experimental.zip",
+      size: "16.8 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/skuza-oss/downhill-revived/releases/download/v0.7.16/DownhillRevived-0.7.16-win-setup.exe",
+      size: "17.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/25/Downhill_Domination_Coverart.png",
     alt: "Downhill Domination (box art)",

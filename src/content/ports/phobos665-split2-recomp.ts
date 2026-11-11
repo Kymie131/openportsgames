@@ -21,6 +21,28 @@ export const phobos665Split2Recomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/phobos665/split2-recomp/releases/download/v0.5.2/split2-v0.5.2-android-arm64.apk",
+      size: "85.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/phobos665/split2-recomp/releases/download/v0.5.2/split2-v0.5.2-linux-x86_64.tar.xz",
+      size: "117.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/phobos665/split2-recomp/releases/download/v0.5.2/split2-v0.5.2-macos-arm64.tar.xz",
+      size: "118.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/phobos665/split2-recomp/releases/download/v0.5.2/split2-v0.5.2-windows-x86_64.zip",
+      size: "150.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6b/Timesplitters2.JPG",
     alt: "TimeSplitters 2 (box art)",

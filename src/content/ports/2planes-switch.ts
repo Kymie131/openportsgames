@@ -15,7 +15,7 @@ export const _2planesSwitch: Port = {
   category: "homebrew",
   platforms: ["switch"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.1", date: "2018-08-23" },
   sources: ["https://github.com/mactec0/2Planes_SWITCH"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -24,6 +24,13 @@ export const _2planesSwitch: Port = {
   summary: "2Planes is a shooter game published by Homebrew, released in 2018.",
   summaryEs: "2Planes es un videojuego de disparos publicado por Homebrew, lanzado en 2018.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Switch NRO",
+      url: "https://github.com/mactec0/2Planes_SWITCH/releases/download/1.0.1/2PlanesSwitch.nro",
+      size: "7.0 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/2planes.svg",
     alt: "2Planes (generated cover)",

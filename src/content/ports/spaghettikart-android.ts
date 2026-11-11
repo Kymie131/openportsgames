@@ -14,12 +14,19 @@ export const spaghettikartAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.0.0", date: "2026-08-03" },
   sources: ["https://github.com/izzy2lost/SpaghettiKart"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/izzy2lost/SpaghettiKart/releases/download/2.0.0/app-release.apk",
+      size: "32.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a1/Mario_Kart_64.jpg",
     alt: "Mario Kart 64 (box art)",

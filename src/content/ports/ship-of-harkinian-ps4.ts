@@ -14,12 +14,19 @@ export const shipOfHarkinianPs4: Port = {
   originalGameLicense: "proprietary",
   platforms: ["ps4"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.2.0", date: "2026-10-03" },
   sources: ["https://github.com/alechurri/shipofharkinian-ps4"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "Macos",
+      url: "https://github.com/alechurri/shipofharkinian-ps4/releases/download/v0.2.0/IV0000-SOHP00001_00-SHIPOFHARKINIAN0.pkg",
+      size: "44.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
     alt: "The Legend of Zelda: Ocarina of Time (box art)",

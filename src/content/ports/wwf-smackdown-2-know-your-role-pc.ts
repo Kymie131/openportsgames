@@ -14,12 +14,19 @@ export const wwfSmackdown2KnowYourRolePc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1", date: "2026-08-28" },
   sources: ["https://github.com/fabioap-cpu/WWF-SmackDown-2-Recomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "WWF_SmackDown2_Recomp_Release_Windows_x64_v1.1",
+      url: "https://github.com/fabioap-cpu/WWF-SmackDown-2-Recomp/releases/download/v1.1/WWF_SmackDown2_Recomp_Release_Windows_x64_v1.1.zip",
+      size: "9.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/0a/WWFSmackDown2KnowYourRole.jpg",
     alt: "WWF SmackDown! 2: Know Your Role (box art)",

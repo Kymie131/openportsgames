@@ -25,6 +25,13 @@ export const kondrakVkquake2: Port = {
   summaryEs: "Quake II es un videojuego de disparos en primera persona desarrollado por id Software y distribuido por Activision en 1997. Aunque usa el nombre de Quake, también de id Software y es considerado, de hecho como su secuela, su historia se aparta totalmente del ambiente mítico-medieval visto en Quake para adentrarse en la ciencia ficción",
   notes: "Quake II: source port by kondrak for Windows, Linux, macOS. Bring your own copy of the game.",
   notesEs: "Quake II: source port de kondrak para Windows, Linux, macOS. Aporta tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/kondrak/vkQuake2/releases/download/1.5.10/vkquake2-1.5.10_win64.zip",
+      size: "35.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b5/Quake2box.jpg",
     alt: "Quake II (box art)",

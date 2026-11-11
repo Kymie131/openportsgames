@@ -14,7 +14,7 @@ export const buckshotRouletteMobile: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android", "ios"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.0", date: "2025-08-26" },
   sources: ["https://github.com/officialmelon/Buckshot-Roulette-Mobile"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,18 @@ export const buckshotRouletteMobile: Port = {
     "Mobile port of Buckshot Roulette for Android and iOS. It needs your own game data and is a community project.",
   notesEs:
     "Port móvil de Buckshot Roulette para Android e iOS. Necesita tus propios datos del juego y es un proyecto comunitario.",
+  downloads: [
+    {
+      label: "iOS IPA",
+      url: "https://github.com/officialmelon/Buckshot-Roulette-Mobile/releases/download/v1.0.0/Buckshot-iOS-cb875a113b6b9a6c685a813f5cba865165f4dfca.ipa",
+      size: "250.1 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/officialmelon/Buckshot-Roulette-Mobile/releases/download/v1.0.0/Buckshot-Android-cb875a113b6b9a6c685a813f5cba865165f4dfca.apk",
+      size: "350.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/72/Buckshot_Roulette_Cover.jpg",
     alt: "Buckshot Roulette (box art)",

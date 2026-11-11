@@ -23,6 +23,23 @@ export const openkingdomsOpenkingdoms: Port = {
   originalSystems: ["Windows"],
   summary: "Total Annihilation: Kingdoms, or shortened to Kingdoms, is a fantasy real-time strategy video game released on June 25, 1999, as a spin-off of Total Annihilation, and was the last title developed by Cavedog Entertainment. A tie-in book titled The Chronicles of Darien contained the storyline, rules, units, and other details. An expansion pack, The Iron Plague, was released in 2000.",
   summaryEs: "Total Annihilation: Kingdoms es un videojuego de estrategia publicado por Atari, Inc. en 1999.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/OpenKingdoms/OpenKingdoms/releases/download/v0.5.8/openkingdoms-0.5.8-linux-x86_64.tar.gz",
+      size: "3.0 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/OpenKingdoms/OpenKingdoms/releases/download/v0.5.8/openkingdoms-0.5.8-macos-arm64.tar.gz",
+      size: "2.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/OpenKingdoms/OpenKingdoms/releases/download/v0.5.8/openkingdoms-0.5.8-windows-x64.zip",
+      size: "9.1 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/total-annihilation-kingdoms.svg",
     alt: "Total Annihilation: Kingdoms (generated cover)",

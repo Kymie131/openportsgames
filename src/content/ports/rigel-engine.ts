@@ -14,7 +14,7 @@ export const rigelEngine: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
-  release: { version: null, date: null },
+  release: { version: "0.9.1", date: "2022-12-10" },
   sources: ["https://github.com/lethal-guitar/RigelEngine"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -26,6 +26,28 @@ export const rigelEngine: Port = {
     "Modern reimplementation of Duke Nukem II that runs the original game data, with widescreen and enhancements. It needs your own copy of the game.",
   notesEs:
     "Reimplementación moderna de Duke Nukem II que ejecuta los datos del juego original, con widescreen y mejoras. Necesita tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/lethal-guitar/RigelEngine/releases/download/v0.9.1/rigelengine_linux_gles_x64.deb",
+      size: "1.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/lethal-guitar/RigelEngine/releases/download/v0.9.1/rigelengine_linux_x64.deb",
+      size: "1.5 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/lethal-guitar/RigelEngine/releases/download/v0.9.1/rigelengine_mac_x64.dmg",
+      size: "2.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/lethal-guitar/RigelEngine/releases/download/v0.9.1/rigelengine_win_x64.zip",
+      size: "2.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/9e/Duke_Nukem_II_Cover.jpg",
     alt: "Duke Nukem II (cover)",

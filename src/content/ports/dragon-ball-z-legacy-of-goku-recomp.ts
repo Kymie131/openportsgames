@@ -35,6 +35,13 @@ export const dragonBallZLegacyOfGokuRecomp: Port = {
     "Experimental recompilation. The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:
     "Recompilación experimental. El jugador aporta su propia ROM obtenida legalmente; el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/DragonBallZLegacyOfGokuRecomp/releases/download/v0.0.3/DragonBallZLegacyOfGokuRecomp-windows-x64-v0.0.3.zip",
+      size: "9.1 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Dragon%20Ball%20Z%20-%20The%20Legacy%20of%20Goku%20(USA).png",
     alt: "Dragon Ball Z: The Legacy of Goku (box art)",

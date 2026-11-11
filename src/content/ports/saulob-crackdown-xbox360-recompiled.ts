@@ -21,6 +21,18 @@ export const saulobCrackdownXbox360Recompiled: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/saulob/crackdown-xbox360-recompiled/releases/download/v0.6.2/Crackdown-v0.6.2-windows-x64.zip",
+      size: "41.1 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/saulob/crackdown-xbox360-recompiled/releases/download/v0.6.2/CrackdownRecompiled-v0.6.2-x86_64.AppImage",
+      size: "42.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/35/Crackdownfinalbox.jpg",
     alt: "Crackdown (box art)",

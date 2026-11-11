@@ -14,7 +14,7 @@ export const nbaJamOnFireRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1", date: "2026-10-31" },
   sources: ["https://github.com/GTTeancum/OpenJam"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -26,6 +26,18 @@ export const nbaJamOnFireRecomp: Port = {
     "Native PC port of NBA Jam: On Fire Edition (Xbox 360 XBLA). It needs your own copy of the game.",
   notesEs:
     "Port nativo para PC de NBA Jam: On Fire Edition (Xbox 360 XBLA). Necesita tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/GTTeancum/OpenJam/releases/download/v1.1/OpenJam-v1.1-linux-x86_64.tar.gz",
+      size: "24.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/GTTeancum/OpenJam/releases/download/v1.1/OpenJam-v1.1-win64.zip",
+      size: "55.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/89/Nba_jam_2010_cover.png",
     alt: "NBA Jam (cover)",

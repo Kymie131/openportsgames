@@ -14,7 +14,7 @@ export const proPinballTimeshockRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.1", date: "2026-09-30" },
   sources: ["https://github.com/alexbeavs-ps1-ports/pro-pinball-timeshock-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,28 @@ export const proPinballTimeshockRecomp: Port = {
     "Recompilation of Pro Pinball: Timeshock! (PS1, USA SLUS-00639) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:
     "Recompilación de Pro Pinball: Timeshock! (PS1, USA SLUS-00639) con PSXRecomp. Las releases son kits de compilación propia: aportas tu disco y una BIOS compatible, y el juego se genera y compila en tu equipo. Es la recompilación base del framework, sin mejoras por juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/alexbeavs-ps1-ports/pro-pinball-timeshock-recomp/releases/download/v0.1.1/pro-pinball-timeshock-0.1.1-linux-x64.zip",
+      size: "23.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/alexbeavs-ps1-ports/pro-pinball-timeshock-recomp/releases/download/v0.1.1/pro-pinball-timeshock-0.1.1-macos-arm64.zip",
+      size: "21.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/alexbeavs-ps1-ports/pro-pinball-timeshock-recomp/releases/download/v0.1.1/pro-pinball-timeshock-0.1.1-macos-x64.zip",
+      size: "22.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/alexbeavs-ps1-ports/pro-pinball-timeshock-recomp/releases/download/v0.1.1/pro-pinball-timeshock-0.1.1-windows-x64.zip",
+      size: "25.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Pro%20Pinball%20-%20Timeshock!%20(Europe)%20(En,Fr,De,Es,It).png",
     alt: "Pro Pinball: Timeshock! (box art)",

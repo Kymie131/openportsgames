@@ -14,12 +14,19 @@ export const skate3Port: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.3.3", date: "2026-09-22" },
   sources: ["https://github.com/darchap/Skate3-Port"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/darchap/Skate3-Port/releases/download/v1.3.3/Skate3-Port-1.3.3.apk",
+      size: "49.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/84/Skate-3-Boxart.jpg",
     alt: "Skate 3 (box art)",

@@ -14,7 +14,7 @@ export const aceCombatXRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.5-release", date: "2026-08-28" },
   sources: ["https://github.com/sal063/Ace-Combat-X-Recompilation"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
@@ -26,6 +26,13 @@ export const aceCombatXRecomp: Port = {
     "Listed on the PortsDR community index with no public repository. You need the original game.",
   notesEs:
     "Listado en el índice comunitario PortsDR, sin repositorio público. Necesitas el juego original.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/sal063/Ace-Combat-X-Recompilation/releases/download/V1.5-release/release.rar",
+      size: "7.6 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Ace%20Combat%20X%20-%20Skies%20of%20Deception%20(Europe)%20(En,Ja,Fr,De,Es,It,Ko).png",
     alt: "Ace Combat X: Skies of Deception (box art)",

@@ -21,6 +21,13 @@ export const raccoonrecompResidenteviloutbreakrecompiled: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation 2"],
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/RaccoonRecomp/ResidentEvilOutbreakRecompiled/releases/download/v1.5.1/ResidentEvilOutbreakRecompiled-1.5.1-Setup.exe",
+      size: "232.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Resident%20Evil%20-%20Outbreak%20(USA)%20(v2.00).png",
     alt: "Resident Evil Outbreak (box art)",

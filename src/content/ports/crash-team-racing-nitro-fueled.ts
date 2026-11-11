@@ -14,7 +14,7 @@ export const crashTeamRacingNitroFueled: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.4", date: "2026-10-19" },
   sources: ["https://github.com/GetLostIn/CTR-NitroFueled-PC"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -30,6 +30,13 @@ export const crashTeamRacingNitroFueled: Port = {
     minimum:
       "Windows 10/11 or Linux with a Vulkan-capable GPU, plus your own decrypted CUSA13795 copy with update 1.21.",
   },
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/GetLostIn/CTR-NitroFueled-PC/releases/download/v0.4/CTR-NitroFueled-PC-portable-windows.zip",
+      size: "133.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/36/Crash_Team_Racing_Nitro-Fueled_cover_art.jpg",
     alt: "Crash Team Racing: Nitro-Fueled (box art)",

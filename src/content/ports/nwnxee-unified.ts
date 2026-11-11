@@ -24,6 +24,18 @@ export const nwnxeeUnified: Port = {
   originalSystems: ["Unknown"],
   summary: "Neverwinter Nights is a role-playing video game developed by BioWare. Interplay Entertainment was originally set to publish the game, but financial difficulties led to it being taken over by Infogrames, who released the game under their Atari range of titles. It is the first installment in the Neverwinter Nights series, and was released for Microsoft Windows on June 18, 2002. BioWare later released a Linux client in June 2003, requiring a purchased copy of the game to play. MacSoft released a Mac OS X port in August 2003.",
   summaryEs: "Neverwinter Nights: Enhanced Edition es un videojuego de rol publicado por Beamdog en 2018.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/nwnxee/unified/releases/download/latest/NWNX-EE.zip",
+      size: "69.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/nwnxee/unified/releases/download/latest/NWScript.zip",
+      size: "156 KB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/704450/header.jpg?t=1746124805",
     alt: "Neverwinter Nights: Enhanced Edition (Steam header)",

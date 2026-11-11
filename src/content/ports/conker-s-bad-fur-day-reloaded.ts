@@ -14,12 +14,24 @@ export const conkerSBadFurDayReloaded: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows","linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.4.7", date: "2026-10-28" },
   sources: ["https://github.com/DahSidiAbdallah/ConkerBFDReloaded"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/DahSidiAbdallah/ConkerBFDReloaded/releases/download/v1.4.7/ConkerBFDReloaded-v1.4.7-Linux.tar.gz",
+      size: "41.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/DahSidiAbdallah/ConkerBFDReloaded/releases/download/v1.4.7/ConkerBFDReloaded-v1.4.7-Windows.zip",
+      size: "39.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/99/Conkersbfdbox.jpg",
     alt: "Conker's Bad Fur Day (box art)",

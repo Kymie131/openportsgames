@@ -14,12 +14,29 @@ export const MortalKombatVsDcUniverse: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.2.1", date: "2026-09-23" },
   sources: ["https://github.com/KawaiiBunga/MKVDCU-Recomp"],
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "mkvdcu-port-0.2.1",
+      url: "https://github.com/KawaiiBunga/MKVDCU-Recomp/releases/download/v0.2.1/mkvdcu-port-0.2.1.zip",
+      size: "21.5 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/KawaiiBunga/MKVDCU-Recomp/releases/download/v0.2.1/MKVDCU-Recomp.exe",
+      size: "138.4 MB",
+    },
+    {
+      label: "mkvdcu-toolchain-llvm22.1.8-cmake4.4.3-ninja1.13.2",
+      url: "https://github.com/KawaiiBunga/MKVDCU-Recomp/releases/download/v0.2.1/mkvdcu-toolchain-llvm22.1.8-cmake4.4.3-ninja1.13.2.zip",
+      size: "126.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6b/Mortal_Kombat_vs._DC_Universe_Coverart.png",
     alt: "Mortal Kombat vs. DC Universe (box art)",

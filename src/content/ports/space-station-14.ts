@@ -14,12 +14,44 @@ export const SpaceStation14: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "2026.07.27.1", date: "2026-07-28" },
   sources: ["https://github.com/space-wizards/space-station-14"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/space-wizards/space-station-14/releases/download/v2026.07.27.1/SS14.Server_linux-arm64.zip",
+      size: "40.7 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/space-wizards/space-station-14/releases/download/v2026.07.27.1/SS14.Server_linux-x64.zip",
+      size: "41.0 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/space-wizards/space-station-14/releases/download/v2026.07.27.1/SS14.Server_osx-arm64.zip",
+      size: "41.0 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/space-wizards/space-station-14/releases/download/v2026.07.27.1/SS14.Server_osx-x64.zip",
+      size: "41.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/space-wizards/space-station-14/releases/download/v2026.07.27.1/SS14.Server_win-arm64.zip",
+      size: "41.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/space-wizards/space-station-14/releases/download/v2026.07.27.1/SS14.Server_win-x64.zip",
+      size: "41.4 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1255460/header.jpg",
     alt: "Space Station 14 (cover art)",

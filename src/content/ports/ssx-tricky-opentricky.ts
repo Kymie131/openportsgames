@@ -14,13 +14,20 @@ export const ssxTrickyOpentricky: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.5", date: "2026-11-02" },
   sources: ["https://github.com/GiZcesi/OpenTricky"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
   related: ["ssx-tricky-decomp","ssx-tricky-xbox-recomp"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/GiZcesi/OpenTricky/releases/download/v0.1.5/OpenTricky-0.1.5-win64.zip",
+      size: "70.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6a/SSX_Tricky.jpg",
     alt: "SSX Tricky (box art)",

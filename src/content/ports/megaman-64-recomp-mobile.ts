@@ -14,12 +14,24 @@ export const megaman64RecompMobile: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.9.1-mobile.1", date: "2026-10-13" },
   sources: ["https://github.com/DevZer0D4Y/MegaMan64Recompiled-Mobile"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/DevZer0D4Y/MegaMan64Recompiled-Mobile/releases/download/v0.9.1-mobile.1/MegaMan64-Android-v0.9.1-mobile.1.apk",
+      size: "26.5 MB",
+    },
+    {
+      label: "iOS IPA",
+      url: "https://github.com/DevZer0D4Y/MegaMan64Recompiled-Mobile/releases/download/v0.9.1-mobile.1/MegaMan64-iOS-v0.9.1-mobile.1.ipa",
+      size: "14.6 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Mega%20Man%2064%20(USA).png",
     alt: "Mega Man 64 (box art)",

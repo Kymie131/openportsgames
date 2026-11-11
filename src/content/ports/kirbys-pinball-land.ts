@@ -20,6 +20,13 @@ export const KirbysPinballLand: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy"],
+  downloads: [
+    {
+      label: "Kirby.s.Pinball.Land",
+      url: "https://github.com/omegakatana92/Kirby-Pinball-Land-Recomp/releases/download/recomp/Kirby.s.Pinball.Land.zip",
+      size: "12.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/ee/Kirbys-Pinball-Land-Gameboy-Boxart.png",
     alt: "Kirby's Pinball Land (cover)",

@@ -14,7 +14,7 @@ export const Thirdeye: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.89.0", date: "2026-07-13" },
   sources: ["https://github.com/psi29a/thirdeye"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -22,6 +22,23 @@ export const Thirdeye: Port = {
   originalSystems: ["Unknown"],
   summary: "Third Eye is a hack 'n' slash adventure game with its roots set in Indian culture. A game that is made by a group of 8 people putting in all their efforts to bring you the experience of a hack and slash adventure game made in India",
   summaryEs: "Thirdeye es un videojuego de acción y aventura publicado por Vanishing Point Game Studios en 2019.",
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/psi29a/thirdeye/releases/download/thirdeye-0.89.0/Thirdeye-0.89.0-win64.exe",
+      size: "23.6 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/psi29a/thirdeye/releases/download/thirdeye-0.89.0/Thirdeye-0.89.0-x86_64.AppImage",
+      size: "44.0 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/psi29a/thirdeye/releases/download/thirdeye-0.89.0/Thirdeye-0.89.0.dmg",
+      size: "43.3 MB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/515060/header.jpg?t=1591045643",
     alt: "Thirdeye (Steam header)",

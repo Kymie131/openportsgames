@@ -14,7 +14,7 @@ export const coupSegaSaturn: Port = {
   originalGameLicense: "proprietary",
   platforms: ["saturn"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.0-beta", date: "2026-08-06" },
   sources: ["https://github.com/likeagfeld/coup-saturn"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -22,6 +22,13 @@ export const coupSegaSaturn: Port = {
   originalSystems: ["Other"],
   summary: "The Cat and the Coup is a puzzle video game by Peter Brinson and Kurosh ValaNejad. The game follows the life of Prime Minister of Iran, Mohammad Mosaddegh, and his subsequent downfall through a CIA and MI6 engineered coup in 1953. On June 15, 2011, the game was released on Steam.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  downloads: [
+    {
+      label: "Coup-Saturn-Beta-2.0",
+      url: "https://github.com/likeagfeld/coup-saturn/releases/download/v2.0-beta/Coup-Saturn-Beta-2.0.zip",
+      size: "63.5 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/coup.svg",
     alt: "Coup (generated cover)",

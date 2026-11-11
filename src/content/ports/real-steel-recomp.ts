@@ -25,6 +25,18 @@ export const realSteelRecomp: Port = {
   summaryEs: "Real Steel es una película de acción, drama, aventura y ciencia ficción de 2011 dirigida por Shawn Levy y protagonizada por Hugh Jackman junto a Dakota Goyo y Evangeline Lilly.",
   notes: "Real Steel Recompiled: native recompilation of Real Steel for linux. Bring your own copy of the game.",
   notesEs: "Real Steel Recompiled: recompilación nativo de Real Steel para linux. Aporta tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/thefixinhixon/RealSteelRecomp/releases/download/v1.2.1/RealSteel-Linux-v1.2.1.zip",
+      size: "78.6 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/thefixinhixon/RealSteelRecomp/releases/download/v1.2.1/RealSteel-x86_64-v1.2.1.AppImage",
+      size: "79.3 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/real-steel.svg",
     alt: "Real Steel (generated cover)",

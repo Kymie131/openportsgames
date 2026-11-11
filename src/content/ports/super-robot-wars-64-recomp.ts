@@ -14,7 +14,7 @@ export const superRobotWars64Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.5.3", date: "2026-11-04" },
   sources: ["https://github.com/dyzz/srw64-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,33 @@ export const superRobotWars64Recomp: Port = {
     "Static recompilation of Super Robot Wars 64 (N64) with N64Recomp and the RT64 renderer. It requires your own game data.",
   notesEs:
     "Recompilación estática de Super Robot Wars 64 (N64) con N64Recomp y el renderizador RT64. Requiere tus propios datos del juego.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/dyzz/srw64-recomp/releases/download/v0.5.3/Marchwind64-0.5.3-android-arm64.apk",
+      size: "56.2 MB",
+    },
+    {
+      label: "Marchwind64-0.5.3-linux-x64",
+      url: "https://github.com/dyzz/srw64-recomp/releases/download/v0.5.3/Marchwind64-0.5.3-linux-x64.tar.gz",
+      size: "64.6 MB",
+    },
+    {
+      label: "Marchwind64-0.5.3-macos14-arm64",
+      url: "https://github.com/dyzz/srw64-recomp/releases/download/v0.5.3/Marchwind64-0.5.3-macos14-arm64.zip",
+      size: "60.1 MB",
+    },
+    {
+      label: "Marchwind64-0.5.3-switch",
+      url: "https://github.com/dyzz/srw64-recomp/releases/download/v0.5.3/Marchwind64-0.5.3-switch.zip",
+      size: "52.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/dyzz/srw64-recomp/releases/download/v0.5.3/Marchwind64-0.5.3-windows-x64.zip",
+      size: "69.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/99/Super_Robot_Wars_64_Coverart.png",
     alt: "Super Robot Wars 64 (box art)",

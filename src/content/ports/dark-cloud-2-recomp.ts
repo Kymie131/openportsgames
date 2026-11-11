@@ -14,7 +14,7 @@ export const darkCloud2Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.9.5", date: "2026-10-10" },
   sources: ["https://github.com/Red-tv141/DC2-PS2RECOMP"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
@@ -24,6 +24,13 @@ export const darkCloud2Recomp: Port = {
   summaryEs: "Dark Cloud es un videojuego de rol (RPG) para la consola PlayStation 2 (PS2). Fue desarrollado por Level-5 y distruibuido por Sony Computer Entertainment en el año 2000 para Japón y 2001 para América y Europa. Dark Cloud combina elementos de los videojuegos de rol de acción y de los videojuegos de construcción de ciudades. Una secuela, llamada Dark Chronicle, fue publicada dos años después.",
   notes: "Indexed by PortsDR. No official repository is available, and it needs your own copy.",
   notesEs: "Indexado en PortsDR. No hay repositorio oficial disponible y necesita tu propia copia.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Red-tv141/DC2-PS2RECOMP/releases/download/0.9.5/DC2Recomp0.9.5.rar",
+      size: "122.1 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Dark%20Cloud%202%20(USA)%20(v2.00).png",
     alt: "Dark Cloud 2 (cover)",

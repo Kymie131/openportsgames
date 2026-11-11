@@ -14,7 +14,7 @@ export const pinballFantasiesAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1", date: "2026-09-26" },
   sources: ["https://github.com/wootbeer/pbfandroid"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const pinballFantasiesAndroid: Port = {
     "Decompilation and source port of the DOS pinball game Pinball Fantasies for Android, with touch controls. It requires the original game files.",
   notesEs:
     "Decompilación y source port para Android del pinball de DOS Pinball Fantasies, con controles táctiles. Requiere los archivos del juego original.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/wootbeer/pbfandroid/releases/download/0.1/pbfandroid-release.apk",
+      size: "8.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/d9/Amiga_Pinball_Fantasies_cover_art.jpg",
     alt: "Pinball Fantasies (box art)",

@@ -14,7 +14,7 @@ export const sonicSecretRingsReignition: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.4.2", date: "2025-09-20" },
   sources: ["https://github.com/kumapauz/project-reignition"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,18 @@ export const sonicSecretRingsReignition: Port = {
     "Project Reignition is a fan remake of Sonic and the Secret Rings (Wii) for Windows. It is a community project and does not use the original game's assets directly.",
   notesEs:
     "Project Reignition es un remake hecho por fans de Sonic and the Secret Rings (Wii) para Windows. Es un proyecto comunitario y no usa directamente los recursos del juego original.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/kumapauz/project-reignition/releases/download/v0.4.2/Project.Reignition.Linux.v0.4.2.zip",
+      size: "1258.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/kumapauz/project-reignition/releases/download/v0.4.2/Project.Reignition.Windows.v0.4.2.zip",
+      size: "1264.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/Sonic%20and%20the%20Secret%20Rings%20(Europe)%20(En,Ja,Fr,De,Es,It).png",
     alt: "Sonic and the Secret Rings (box art)",

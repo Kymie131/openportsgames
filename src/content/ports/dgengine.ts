@@ -14,7 +14,7 @@ export const Dgengine: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.2", date: "2023-12-22" },
   sources: ["https://github.com/dgcor/DGEngine"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -23,6 +23,28 @@ export const Dgengine: Port = {
   summary: "DGEngine is a action-adventure game, released in 2000.",
   summaryEs: "DGEngine es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/dgcor/DGEngine/releases/download/v1.2/DGEngine-linux-ffmpeg-x86_64.AppImage.zip",
+      size: "51.3 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/dgcor/DGEngine/releases/download/v1.2/DGEngine-linux-x86_64.AppImage.zip",
+      size: "4.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/dgcor/DGEngine/releases/download/v1.2/DGEngine-windows-x64.zip",
+      size: "3.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/dgcor/DGEngine/releases/download/v1.2/DGEngine-windows-x86.zip",
+      size: "3.4 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/dgengine.svg",
     alt: "DGEngine (generated cover)",

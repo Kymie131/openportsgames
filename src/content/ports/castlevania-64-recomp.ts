@@ -21,6 +21,13 @@ export const castlevania64Recomp: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["castlevania-legacy-of-darkness-recomp"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/spacefarergames/CV64-Recomp/releases/download/Releases/Castlevania.64_Recomp_Claude1.1_Release.zip",
+      size: "525.1 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Castlevania%20(Europe)%20(Virtual%20Console).png",
     alt: "Castlevania (box art)",

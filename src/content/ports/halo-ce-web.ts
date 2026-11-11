@@ -31,6 +31,23 @@ export const haloCeWeb: Port = {
     minimum:
       "Desktop Chrome or Edge with WebAssembly threads, WebGL 2 and cross-origin isolation (SharedArrayBuffer).",
   },
+  downloads: [
+    {
+      label: "Android",
+      url: "https://github.com/fqlx/halo-ce-universal/releases/download/build-27/halo-android-release.zip",
+      size: "3.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/fqlx/halo-ce-universal/releases/download/build-27/halo-linux-release.zip",
+      size: "7.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/fqlx/halo-ce-universal/releases/download/build-27/halo-windows-release.zip",
+      size: "2.6 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Halo%20-%20Combat%20Evolved%20(USA).png",
     alt: "Halo: Combat Evolved (box art)",

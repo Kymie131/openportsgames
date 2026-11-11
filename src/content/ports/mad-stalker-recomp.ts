@@ -14,7 +14,7 @@ export const madStalkerRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.0", date: "2026-09-03" },
   sources: ["https://github.com/omegakatana92/MadStalkerRecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,18 @@ export const madStalkerRecomp: Port = {
     "Fan-made recompilation of Mad Stalker: Full Metal Force (PlayStation), still in progress. It requires your own disc and ships no assets.",
   notesEs:
     "Recompilación hecha por fans de Mad Stalker: Full Metal Force (PlayStation), todavía en progreso. Requiere tu propio disco y no incluye recursos.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/omegakatana92/MadStalkerRecomp/releases/download/v1.0.0/MadStalker_Recomp_Windows.zip",
+      size: "7.2 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/omegakatana92/MadStalkerRecomp/releases/download/v1.0.0/Mad_Stalker_Recompiled-v1.0.0-linux-x86_64.AppImage",
+      size: "6.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Mad%20Stalker%20-%20Full%20Metal%20Force%20(Japan).png",
     alt: "Mad Stalker: Full Metal Force (box art)",

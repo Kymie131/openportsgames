@@ -14,12 +14,19 @@ export const woodyWoodpeckerPsp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["psp"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.1.0-Beta.r8cpp", date: "2026-10-23" },
   sources: ["https://github.com/wendersondiazx/Woody-Portable"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  downloads: [
+    {
+      label: "WoodyPSP-Studio-1.1.0-r8.CPP",
+      url: "https://github.com/wendersondiazx/reWoodpecker/releases/download/1.1.0-Beta.r8cpp/WoodyPSP-Studio-1.1.0-r8.CPP.zip",
+      size: "22.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a6/Woody_Woodpecker_-_Escape_from_Buzz_Buzzard_Park.jpg",
     alt: "Woody Woodpecker: Escape from Buzz Buzzard Park (box art)",

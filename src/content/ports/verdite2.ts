@@ -14,7 +14,7 @@ export const verdite2: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.5.2", date: "2026-10-26" },
   sources: ["https://github.com/Voicedrew11/verdite2"],
   license: { spdx: "MIT" },
   verified: false,
@@ -25,6 +25,23 @@ export const verdite2: Port = {
     "Native recompilation of King's Field (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de King's Field (PlayStation). El jugador aporta su propio material obtenido legalmente (imagen de disco); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/Voicedrew11/verdite2/releases/download/v0.5.2/Verdite2-0.5.2-win-x64-setup.exe",
+      size: "34.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Voicedrew11/verdite2/releases/download/v0.5.2/Verdite2-0.5.2-win-x64.zip",
+      size: "46.4 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/Voicedrew11/verdite2/releases/download/v0.5.2/Verdite2-0.5.2-x86_64.AppImage",
+      size: "41.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/King's%20Field%20(USA).png",
     alt: "King's Field (box art)",

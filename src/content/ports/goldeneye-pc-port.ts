@@ -14,7 +14,7 @@ export const GoldeneyePcPort: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.5.0", date: "2026-10-07" },
   sources: ["https://github.com/jkdansereau/goldeneye-pc-port"],
   license: { spdx: "MIT" },
   verified: false,
@@ -22,6 +22,18 @@ export const GoldeneyePcPort: Port = {
   originalSystems: ["Nintendo 64"],
   summary: "GoldenEye is a 1995 spy film, the seventeenth in the James Bond series produced by Eon Productions, and the first to star Pierce Brosnan as the fictional MI6 agent James Bond. Directed by Martin Campbell, it was the first in the series not to use any story elements from the works of novelist Ian Fleming. It was also the first James Bond film not produced by Albert R. Broccoli, following his stepping down from Eon Productions and replacement by his daughter, Barbara Broccoli. The story was conceived and written by Michael France, with later collaboration by other writers.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  downloads: [
+    {
+      label: "goldeneye-pc-port-0.5.0-linux-x86_64",
+      url: "https://github.com/jkdansereau/goldeneye-pc-port/releases/download/v0.5.0/goldeneye-pc-port-0.5.0-linux-x86_64.tar.gz",
+      size: "11.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/jkdansereau/goldeneye-pc-port/releases/download/v0.5.0/goldeneye-pc-port-0.5.0-win64.zip",
+      size: "16.4 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/goldeneye-pc-port.svg",
     alt: "GoldenEye PC Port (generated cover)",

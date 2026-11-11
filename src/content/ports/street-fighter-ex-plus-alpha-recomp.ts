@@ -14,7 +14,7 @@ export const streetFighterExPlusAlphaRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.2.4-alpha", date: "2026-10-21" },
   sources: ["https://github.com/guimaraf/plusalpha-recomp"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
@@ -26,6 +26,13 @@ export const streetFighterExPlusAlphaRecomp: Port = {
     "A PortsDR community listing; no repository or release is public. The original game is required.",
   notesEs:
     "Ficha comunitaria de PortsDR; no hay repositorio ni release públicos. Hace falta el juego original.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/guimaraf/plusalpha-recomp/releases/download/v0.2.4-alpha/exPlusAlpha-20261021-193923.zip",
+      size: "27.9 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Street%20Fighter%20EX%20Plus%20Alpha%20(Europe).png",
     alt: "Street Fighter EX Plus Alpha (box art)",

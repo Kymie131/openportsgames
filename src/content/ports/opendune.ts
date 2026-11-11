@@ -24,6 +24,38 @@ export const openDune: Port = {
     "Open-source re-implementation of Dune II: The Building of a Dynasty. The original game data files are required to play.",
   notesEs:
     "Reimplementación de código abierto de Dune II: The Building of a Dynasty. Se requieren los archivos de datos del juego original para jugar.",
+  downloads: [
+    {
+      label: "opendune-0.9-AtariTOS",
+      url: "https://github.com/OpenDUNE/OpenDUNE/releases/download/0.9/opendune-0.9-AtariTOS.zip",
+      size: "355 KB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/OpenDUNE/OpenDUNE/releases/download/0.9/opendune-0.9-macosx-ppc-sdl-dynamic.dmg",
+      size: "334 KB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/OpenDUNE/OpenDUNE/releases/download/0.9/opendune-0.9-macosx-ppc-sdl.dmg",
+      size: "1.5 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/OpenDUNE/OpenDUNE/releases/download/0.9/opendune-0.9-macosx-ppc-sdl2.dmg",
+      size: "705 KB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/OpenDUNE/OpenDUNE/releases/download/0.9/opendune-0.9-macosx-ppc.dmg",
+      size: "329 KB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/OpenDUNE/OpenDUNE/releases/download/0.9/opendune-0.9-macosx-x86_64-sdl2.dmg",
+      size: "620 KB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/78/Dune2_BOD.jpg",
     alt: "Dune II (box art)",

@@ -14,7 +14,7 @@ export const pokemonReloadedEnAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.4.2", date: "2026-10-31" },
   sources: ["https://github.com/Klisee/pokemon-reloaded-android"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -23,6 +23,28 @@ export const pokemonReloadedEnAndroid: Port = {
   summary: "Pokemon Reloaded is a role-playing game published by Klisee, released in 2020.",
   summaryEs: "Pokemon Reloaded es un videojuego de rol publicado por Klisee, lanzado en 2020.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Klisee/pokemon-reloaded-android/releases/download/v0.4.2/pokemon-reloaded-0.4.2-arm64-v8a.apk",
+      size: "27.5 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/Klisee/pokemon-reloaded-android/releases/download/v0.4.2/pokemon-reloaded-0.4.2-armeabi-v7a.apk",
+      size: "26.3 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/Klisee/pokemon-reloaded-android/releases/download/v0.4.2/pokemon-reloaded-0.4.2-universal.apk",
+      size: "37.8 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/Klisee/pokemon-reloaded-android/releases/download/v0.4.2/pokemon-reloaded-0.4.2-x86_64.apk",
+      size: "28.3 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/pokemon-reloaded.svg",
     alt: "Pokemon Reloaded (generated cover)",

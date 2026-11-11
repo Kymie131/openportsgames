@@ -14,7 +14,7 @@ export const marioKart643ds: Port = {
   originalGameLicense: "proprietary",
   platforms: ["3ds"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.0", date: "2026-10-23" },
   sources: ["https://github.com/EstebanPdN/mario-kart-64-3ds"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -26,6 +26,23 @@ export const marioKart643ds: Port = {
     "Native Nintendo 3DS port built from the Mario Kart 64 decompilation. Requires your own ROM.",
   notesEs:
     "Port nativo para Nintendo 3DS construido desde la decompilación de Mario Kart 64. Requiere tu propia ROM.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/EstebanPdN/mario-kart-64-3ds/releases/download/v2.0/MK64-Extractor-Linux-x64.tar.gz",
+      size: "147.0 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/EstebanPdN/mario-kart-64-3ds/releases/download/v2.0/MK64-Extractor-macOS-AppleSilicon.zip",
+      size: "45.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/EstebanPdN/mario-kart-64-3ds/releases/download/v2.0/MK64-Extractor-Windows-x64.zip",
+      size: "109.3 MB",
+    },
+  ],
   cover: {
     src: "https://cdn2.steamgriddb.com/thumb/e5494d23b18b5c822bcaa9fe8fd077bf.jpg",
     alt: "Mario Kart 64 (cover)",

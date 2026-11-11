@@ -15,12 +15,19 @@ export const tetrisMdMegaDrive: Port = {
   category: "homebrew",
   platforms: ["genesis"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0", date: "2019-11-04" },
   sources: ["https://github.com/NeroJin/TetrisMD"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy"],
+  downloads: [
+    {
+      label: "TetrisMD_V1.0",
+      url: "https://github.com/NeroJin/TetrisMD/releases/download/v1.0/TetrisMD_V1.0.zip",
+      size: "139 KB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Tetris%20(Japan)%20(En).png",
     alt: "Tetris (box art)",

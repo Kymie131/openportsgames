@@ -22,6 +22,13 @@ export const maximqaxdHalflifeDc: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/maximqaxd/halflife_dc/releases/download/HLDC_MP/HALFLIFE_DC.EXE",
+      size: "1.8 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/70/header.jpg",
     alt: "Half-Life (box art)",

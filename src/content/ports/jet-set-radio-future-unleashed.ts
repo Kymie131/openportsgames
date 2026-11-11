@@ -14,12 +14,39 @@ export const jetSetRadioFutureUnleashed: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows","android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.6.9", date: "2026-11-07" },
   sources: ["https://github.com/JuMatt/JetSetRadioFuture-Unleashed"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/download/v0.6.9/JSRF-Unleashed-android-arm64.apk",
+      size: "15.2 MB",
+    },
+    {
+      label: "iOS IPA",
+      url: "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/download/v0.6.9/JSRF-Unleashed-iOS.ipa",
+      size: "12.8 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/download/v0.6.9/JSRF-Unleashed-linux-x86_64.tar.gz",
+      size: "18.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/download/v0.6.9/JSRF-Unleashed-macOS-arm64.zip",
+      size: "12.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/download/v0.6.9/JSRF-Unleashed-windows-x86_64.zip",
+      size: "15.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/7a/JetSetRadioFuturebox.jpg",
     alt: "Jet Set Radio Future (box art)",

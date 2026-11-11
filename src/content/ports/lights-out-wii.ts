@@ -15,7 +15,7 @@ export const lightsOutWii: Port = {
   category: "homebrew",
   platforms: ["wii"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0-beta5", date: "2023-11-27" },
   sources: ["https://github.com/BHSPitMonkey/LiightsOut"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -23,6 +23,33 @@ export const lightsOutWii: Port = {
   originalSystems: ["Unknown"],
   summary: "Blessed by the light, Soona is the last hope of Jiruho. With might and agility, she has to face the dark forces and traps of the Netherworld to save her people from the apocalypse. She will venture inside the city’s temples to recover the fragments of the sacred mirror.",
   summaryEs: "Lights Out es un videojuego de puzles publicado por Campus ADN en 2019.",
+  downloads: [
+    {
+      label: "liightsout-beta1-20090118",
+      url: "https://github.com/BHSPitMonkey/LiightsOut/releases/download/v1.0-beta5/liightsout-beta1-20090118.zip",
+      size: "407 KB",
+    },
+    {
+      label: "liightsout-beta2-20090119",
+      url: "https://github.com/BHSPitMonkey/LiightsOut/releases/download/v1.0-beta5/liightsout-beta2-20090119.zip",
+      size: "416 KB",
+    },
+    {
+      label: "liightsout-beta3-20090131",
+      url: "https://github.com/BHSPitMonkey/LiightsOut/releases/download/v1.0-beta5/liightsout-beta3-20090131.zip",
+      size: "1.9 MB",
+    },
+    {
+      label: "liightsout-beta4-20090207",
+      url: "https://github.com/BHSPitMonkey/LiightsOut/releases/download/v1.0-beta5/liightsout-beta4-20090207.zip",
+      size: "876 KB",
+    },
+    {
+      label: "liightsout-beta5-20090213",
+      url: "https://github.com/BHSPitMonkey/LiightsOut/releases/download/v1.0-beta5/liightsout-beta5-20090213.zip",
+      size: "876 KB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/948080/header.jpg?t=1751125061",
     alt: "Lights Out (Steam header)",

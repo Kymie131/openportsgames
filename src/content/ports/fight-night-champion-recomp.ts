@@ -14,7 +14,7 @@ export const fightNightChampionRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0", date: "2026-10-07" },
   sources: ["https://github.com/whompay/FNCReborn"],
   license: { spdx: "Apache-2.0" },
   verified: false,
@@ -26,6 +26,13 @@ export const fightNightChampionRecomp: Port = {
     "Static recompilation of Fight Night Champion (Xbox 360) for Windows. It needs your own copy of the game.",
   notesEs:
     "Recompilación estática de Fight Night Champion (Xbox 360) para Windows. Necesita tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/whompay/FNCReborn/releases/download/v1.0/FNCReborn-Setup.exe",
+      size: "12.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/34/Fight_Night_Champion.jpg",
     alt: "Fight Night Champion (cover)",

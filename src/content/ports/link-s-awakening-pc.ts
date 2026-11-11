@@ -14,12 +14,34 @@ export const linkSAwakeningPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "5.4", date: "2026-10-29" },
   sources: ["https://github.com/peiikai/LASRecomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo Switch"],
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/peiikai/LASRecomp/releases/download/beta_5.4/LAS.Recomp-beta_5.4-linux-aarch64.AppImage",
+      size: "100.7 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/peiikai/LASRecomp/releases/download/beta_5.4/LAS.Recomp-beta_5.4-linux-x86_64.AppImage",
+      size: "107.0 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/peiikai/LASRecomp/releases/download/beta_5.4/LAS.Recomp-beta_5.4-macOS.dmg",
+      size: "101.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/peiikai/LASRecomp/releases/download/beta_5.4/LAS.Recomp-beta_5.4-windows.zip",
+      size: "94.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c1/Link%27s_Awakening.png",
     alt: "The Legend of Zelda: Link's Awakening (box art)",

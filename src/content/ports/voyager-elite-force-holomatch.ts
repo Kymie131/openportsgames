@@ -14,7 +14,7 @@ export const voyagerEliteForceHolomatch: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.9.8", date: "2026-06-15" },
   sources: ["https://github.com/imjustadudegamer/VoyagerHM-Android"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -25,6 +25,18 @@ export const voyagerEliteForceHolomatch: Port = {
     "Android port of the Holomatch multiplayer of Star Trek: Voyager - Elite Force, with Vulkan, touch controls and gamepad support. It needs the original game files.",
   notesEs:
     "Port a Android del multijugador Holomatch de Star Trek: Voyager - Elite Force, con Vulkan, controles táctiles y mando. Necesita los archivos del juego original.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/imjustadudegamer/VoyagerHM-Android/releases/download/v0.9.8/VoyagerHM-0.9.8-malifix.apk",
+      size: "5.2 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/imjustadudegamer/VoyagerHM-Android/releases/download/v0.9.8/VoyagerHM-0.9.8.apk",
+      size: "5.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/48/Star_Trek_Voyager_Elite_Force.jpg",
     alt: "Star Trek: Voyager - Elite Force (box art)",

@@ -14,12 +14,44 @@ export const galaxyOnFire2UnityRemake: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2026.11.02", date: "2026-11-02" },
   sources: ["https://github.com/JoppieToppie/Galaxy-on-Fire-2-Unity-Remake"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/JoppieToppie/Galaxy-on-Fire-2-Unity-Remake/releases/download/2026.11.02/GoF2Remake-Android-2026.11.02.apk",
+      size: "1170.8 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/JoppieToppie/Galaxy-on-Fire-2-Unity-Remake/releases/download/2026.11.02/GoF2Remake-Linux-2026.11.02.zip",
+      size: "1470.3 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/JoppieToppie/Galaxy-on-Fire-2-Unity-Remake/releases/download/2026.11.02/GoF2Remake-LinuxServer-2026.11.02.zip",
+      size: "130.0 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/JoppieToppie/Galaxy-on-Fire-2-Unity-Remake/releases/download/2026.11.02/GoF2Remake-UWP-2026.11.02.zip",
+      size: "1594.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/JoppieToppie/Galaxy-on-Fire-2-Unity-Remake/releases/download/2026.11.02/GoF2Remake-Windows-2026.11.02.zip",
+      size: "1492.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/JoppieToppie/Galaxy-on-Fire-2-Unity-Remake/releases/download/2026.11.02/GoF2Remake-WindowsServer-2026.11.02.zip",
+      size: "171.7 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/212010/header.jpg",
     alt: "Galaxy on Fire 2™ Full HD (cover art)",

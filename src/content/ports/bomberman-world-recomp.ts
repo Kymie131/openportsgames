@@ -14,7 +14,7 @@ export const bombermanWorldRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.21", date: "2026-10-01" },
   sources: ["https://github.com/TechnicallyComputers/Bomberman-World-Recomp"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
@@ -24,6 +24,28 @@ export const bombermanWorldRecomp: Port = {
   summaryEs: "Bomberman World es un videojuego de acción y laberintos lanzado en 1998 por Hudson Soft para la PlayStation. Es parte de la serie Bomberman. El juego también ha sido relanzado para PC en 2002 junto con la versión de Bomberman de TurboGrafx-16 y Bomberman '93 como parte de un disco recopilatorio titulado Bomberman Collection.",
   notes: "Indexed by PortsDR. No official repository is available, and it needs your own copy.",
   notesEs: "Indexado en PortsDR. No hay repositorio oficial disponible y necesita tu propia copia.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/TechnicallyComputers/Bomberman-World-Recomp/releases/download/v0.1.21/bombermanworld-0.1.21-linux-x64.zip",
+      size: "49.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/TechnicallyComputers/Bomberman-World-Recomp/releases/download/v0.1.21/bombermanworld-0.1.21-macos-arm64.zip",
+      size: "26.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/TechnicallyComputers/Bomberman-World-Recomp/releases/download/v0.1.21/bombermanworld-0.1.21-macos-x64.zip",
+      size: "26.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/TechnicallyComputers/Bomberman-World-Recomp/releases/download/v0.1.21/bombermanworld-0.1.21-windows-x64.zip",
+      size: "27.9 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Bomberman%20World%20(Europe,%20Australia)%20(En,Fr,De,Es,It).png",
     alt: "Bomberman World (box art)",

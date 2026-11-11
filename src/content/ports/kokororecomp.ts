@@ -14,7 +14,7 @@ export const kokororecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1", date: "2026-10-01" },
   sources: ["https://github.com/elprogramadorloco-arch/korokoro-recomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -23,6 +23,18 @@ export const kokororecomp: Port = {
   summary: "KoroKoro Postnin is a action-adventure game published by Nintendo, released in 2000.",
   summaryEs: "KoroKoro Postnin es un videojuego de acci�n y aventura publicado por Nintendo, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Android",
+      url: "https://github.com/elprogramadorloco-arch/korokoro-recomp/releases/download/v0.1/KoroKoroRecomp-Android-v0.1.zip",
+      size: "564 KB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/elprogramadorloco-arch/korokoro-recomp/releases/download/v0.1/KoroKoroRecomp-v0.1.zip",
+      size: "54 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/korokoro-postnin.svg",
     alt: "KoroKoro Postnin (generated cover)",

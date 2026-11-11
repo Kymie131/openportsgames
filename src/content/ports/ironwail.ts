@@ -35,6 +35,23 @@ export const ironwail: Port = {
     "Quake source port built on the Quakespasm codebase. The project requires OpenGL 4.3, so macOS builds are not provided.",
   notesEs:
     "Port de código fuente de Quake construido sobre el código de Quakespasm. El proyecto requiere OpenGL 4.3, por lo que no se ofrecen builds para macOS.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/andrei-drexler/ironwail/releases/download/v0.8.2/ironwail-0.8.2-linux-x64.tar.gz",
+      size: "579 KB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/andrei-drexler/ironwail/releases/download/v0.8.2/ironwail-0.8.2-win32.zip",
+      size: "2.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/andrei-drexler/ironwail/releases/download/v0.8.2/ironwail-0.8.2-win64.zip",
+      size: "2.4 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Quake%20(1996).png",
     alt: "Quake (box art)",

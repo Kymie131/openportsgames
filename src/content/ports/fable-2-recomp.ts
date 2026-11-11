@@ -30,6 +30,13 @@ export const fable2Recomp: Port = {
     source: "https://github.com/himdo/Fable-2-Recomp#readme",
     quote: "This project was made using Qwen3.8 27b.",
   },
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/himdo/Fable-2-Recomp/releases/download/1.5.1_tag/Fable_2_recomp_v1.5.1_windows.zip",
+      size: "96.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Fable_II_cover_%28cropped%29.png",
     alt: "Fable II (box art)",

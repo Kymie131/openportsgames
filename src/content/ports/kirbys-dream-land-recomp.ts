@@ -25,6 +25,18 @@ export const kirbysDreamLandRecomp: Port = {
   notes: "PortsDR lists this recompilation without a public repository. Own the game to play it.",
   notesEs:
     "PortsDR lista esta recompilación sin repositorio público. Necesitas el juego para jugarla.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/omegakatana92/Kirby-Dream-Land-Recomp/releases/download/recomp/Kirby.Dream.Land.1.2.zip",
+      size: "11.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/omegakatana92/Kirby-Dream-Land-Recomp/releases/download/recomp/Kirby.Dream.Land.zip",
+      size: "10.3 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Kirby's%20Dream%20Land%20(USA,%20Europe).png",
     alt: "Kirby's Dream Land (box art)",

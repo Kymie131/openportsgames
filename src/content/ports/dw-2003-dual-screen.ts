@@ -14,12 +14,24 @@ export const dw2003DualScreen: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.4.0", date: "2026-09-11" },
   sources: ["https://github.com/rsigristc/DW3-DS-Android"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/rsigristc/DW3-DS-Android/releases/download/v1.4.0/DW2003-Dual-Screen-v1.4.0.apk",
+      size: "4.2 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/rsigristc/DW3-DS-Android/releases/download/v1.4.0/DW2003-Pocket-Companion-v1.4.0.apk",
+      size: "2.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/43/Digimonworld3boxart.jpg",
     alt: "Digimon World 3 (box art)",

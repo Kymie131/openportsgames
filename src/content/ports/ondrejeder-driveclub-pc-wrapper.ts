@@ -21,6 +21,13 @@ export const ondrejederDriveclubPcWrapper: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation 4"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/ondrejeder/Driveclub-pc-wrapper/releases/download/0.2.5/Driveclub-PC-v0.2.5.zip",
+      size: "30.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6f/Driveclub_box_art.jpg",
     alt: "Driveclub (box art)",

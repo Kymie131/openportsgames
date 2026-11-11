@@ -30,6 +30,33 @@ export const harvestMoon64Recomp: Port = {
   notes: "Recompilation of Harvest Moon 64; the player supplies their own legally obtained game.",
   notesEs:
     "Recompilación de Harvest Moon 64; el jugador aporta su propio juego obtenido legalmente.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/HarvestMoon64Recomp/HarvestMoon64Recomp/releases/download/v1.2.2/HarvestMoon64Recompiled-v1.2.2-Linux-ARM64.zip",
+      size: "6.8 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/HarvestMoon64Recomp/HarvestMoon64Recomp/releases/download/v1.2.2/HarvestMoon64Recompiled-v1.2.2-Linux-Flatpak-X64.zip",
+      size: "4.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/HarvestMoon64Recomp/HarvestMoon64Recomp/releases/download/v1.2.2/HarvestMoon64Recompiled-v1.2.2-Linux-X64.zip",
+      size: "6.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/HarvestMoon64Recomp/HarvestMoon64Recomp/releases/download/v1.2.2/HarvestMoon64Recompiled-v1.2.2-macOS.zip",
+      size: "14.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/HarvestMoon64Recomp/HarvestMoon64Recomp/releases/download/v1.2.2/HarvestMoon64Recompiled-v1.2.2-Windows.zip",
+      size: "16.9 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Harvest%20Moon%2064%20(USA).png",
     alt: "Harvest Moon 64 (box art)",

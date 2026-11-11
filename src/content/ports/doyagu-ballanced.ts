@@ -23,6 +23,38 @@ export const doyaguBallanced: Port = {
   originalSystems: ["Unknown"],
   summary: "Ballance is a 3D puzzle video game for Microsoft Windows. It was developed by German studio Cyparade, published by Atari Europe, and first released in Europe on 2 April 2004. The gameplay is similar to Marble Madness, in that the player controls a ball via keyboard, moving it along a course while trying not to fall off the screen.",
   summaryEs: "Ballance es un videojuego de rompecabezas por niveles, desarrollado por Cyparade en abril de 2004 para PC.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/doyaGu/Ballanced/releases/download/v0.2.0/ballance-sdl-linux-arm64-runtime.tar.gz",
+      size: "13.6 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/doyaGu/Ballanced/releases/download/v0.2.0/ballance-sdl-linux-arm64-static.tar.gz",
+      size: "12.7 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/doyaGu/Ballanced/releases/download/v0.2.0/ballance-sdl-linux-x64-runtime.tar.gz",
+      size: "14.0 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/doyaGu/Ballanced/releases/download/v0.2.0/ballance-sdl-linux-x64-static.tar.gz",
+      size: "13.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/doyaGu/Ballanced/releases/download/v0.2.0/ballance-sdl-macos-arm64-runtime.tar.gz",
+      size: "12.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/doyaGu/Ballanced/releases/download/v0.2.0/ballance-sdl-macos-arm64-static.tar.gz",
+      size: "11.3 MB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000770/header.jpg?t=1704463128",
     alt: "Ballance (Steam header)",

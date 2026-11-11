@@ -15,7 +15,7 @@ export const gamearcadeSwitch: Port = {
   category: "homebrew",
   platforms: ["switch"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.0", date: "2021-03-05" },
   sources: ["https://github.com/Sblerky/GameArcade"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -24,6 +24,18 @@ export const gamearcadeSwitch: Port = {
   summary: "GameArcade is a action-adventure game published by Homebrew, released in 2021.",
   summaryEs: "GameArcade es un videojuego de acci�n y aventura publicado por Homebrew, lanzado en 2021.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Switch",
+      url: "https://github.com/Sblerky/GameArcade/releases/download/1.0.0/ExtractToSd.zip",
+      size: "12.4 MB",
+    },
+    {
+      label: "Switch NRO",
+      url: "https://github.com/Sblerky/GameArcade/releases/download/1.0.0/SblerkyArcade.nro",
+      size: "17.9 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/gamearcade.svg",
     alt: "GameArcade (generated cover)",

@@ -25,6 +25,13 @@ export const jetMotoAnthologyRecomp: Port = {
     "Cumulative recompilation project for the Jet Moto games (PlayStation) with rendering improvements. It needs your own game datas.",
   notesEs:
     "Proyecto de recompilación acumulativo de los juegos Jet Moto (PlayStation) con mejoras de renderizado. Necesita tu propia copia de los juegos.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/GTTeancum/Jet-Moto-Anthology/releases/download/v1.0/JetMoto-Anthology-1.0-Windows-x64.zip",
+      size: "439.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Jet%20Moto%20(USA).png",
     alt: "Jet Moto (box art)",

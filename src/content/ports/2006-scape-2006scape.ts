@@ -23,6 +23,13 @@ export const p006Scape2006scape: Port = {
   originalSystems: ["Unknown"],
   summary: "RuneScape is a high fantasy open world MMORPG. Explore an ever changing and evolving living world where new challenges, skills, and quests await. Featuring unprecedented player freedom, you choose how to play, adventure, and grow.",
   summaryEs: "RuneScape es un videojuego de acción y aventura publicado por Jagex Ltd en 2020.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/2006-Scape/2006Scape/releases/download/v1.10/2006rebotted.jar",
+      size: "364 KB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1343400/164e54273831e76f820378b4c6e0c21e0a4834e2/header.jpg?t=1789550446",
     alt: "RuneScape (Steam header)",

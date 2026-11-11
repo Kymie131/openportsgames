@@ -14,12 +14,19 @@ export const supertuxMilestone2VitaSwitchPs3: Port = {
   originalGameLicense: "open",
   platforms: ["psvita","switch","ps3"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.00", date: "2026-10-11" },
   sources: ["https://github.com/theheroGAC/SuperTux-Milestone-2-Multi-Console"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "Switch NRO",
+      url: "https://github.com/theheroGAC/SuperTux-Milestone-2-Multi-Console/releases/download/1.00/supertux2.nro",
+      size: "120.4 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1572920/header.jpg",
     alt: "SuperTux (cover art)",

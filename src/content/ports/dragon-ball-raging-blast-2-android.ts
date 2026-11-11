@@ -14,13 +14,20 @@ export const dragonBallRagingBlast2Android: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.2.3", date: "2026-10-12" },
   sources: ["https://github.com/moddedrounds/RB2-Android"],
   license: { spdx: "BSD-3-Clause" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["dragon-ball-raging-blast-2-recomp"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/moddedrounds/RB2-Android/releases/download/v1.2.3/RB2-Android.apk",
+      size: "74.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6f/Raging_Blast_2.jpg",
     alt: "Dragon Ball: Raging Blast 2 (box art)",

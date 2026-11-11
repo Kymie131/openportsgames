@@ -14,13 +14,35 @@ export const wipeoutXlRecompNjh: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.2.0", date: "2026-10-23" },
   sources: ["https://github.com/NJH-1001/Wipeout2K97XL"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
   related: ["wipeout-xl-recomp"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/NJH-1001/Wipeout2K97XL/releases/download/v0.2.0/wipeoutxl-0.2.0-linux-x64.zip",
+      size: "43.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/NJH-1001/Wipeout2K97XL/releases/download/v0.2.0/wipeoutxl-0.2.0-macos-arm64.zip",
+      size: "21.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/NJH-1001/Wipeout2K97XL/releases/download/v0.2.0/wipeoutxl-0.2.0-macos-x64.zip",
+      size: "21.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/NJH-1001/Wipeout2K97XL/releases/download/v0.2.0/wipeoutxl-0.2.0-windows-x64.zip",
+      size: "43.3 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Wipeout%20XL%20(Japan,%20Asia).png",
     alt: "Wipeout XL (box art)",

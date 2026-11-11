@@ -14,12 +14,19 @@ export const shadowOfTheColossusPcFrameGeneration: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.57-fg2", date: "2026-10-17" },
   sources: ["https://github.com/nakaionyt/ShadowOfTheColossus-PC-FrameGen"],
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 4"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/nakaionyt/ShadowOfTheColossus-PC-FrameGen/releases/download/v0.57-fg2/SotC-PC_v0.57-fg2_bring-your-own-game-files.zip",
+      size: "70.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/f8/Shadow_of_the_Colossus_%282005%29_cover.jpg",
     alt: "Shadow of the Colossus (box art)",

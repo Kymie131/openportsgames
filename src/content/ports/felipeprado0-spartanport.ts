@@ -21,6 +21,18 @@ export const felipeprado0Spartanport: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation 4"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/FelipePrado0/SpartanPort/releases/download/windows-v3.1.0/spartanport-windows.zip",
+      size: "82.4 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/FelipePrado0/SpartanPort/releases/download/windows-v3.1.0/spartanport-x86_64.AppImage",
+      size: "144.5 MB",
+    },
+  ],
   cover: {
     src: "https://images.launchbox-app.com//1eb8d6bc-e4f2-4296-8e44-42c6e698528d.jpg",
     alt: "God of War III Remastered (box art)",

@@ -14,7 +14,7 @@ export const minecraftPsp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["psp"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.9.9", date: "2026-09-25" },
   sources: ["https://github.com/Pencea-Flavius/Minecraft-PE-PSP"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -26,6 +26,13 @@ export const minecraftPsp: Port = {
     "Homebrew port of Minecraft Pocket Edition to the PlayStation Portable, with the world and gameplay ported from the MCPE 0.6.1 sources. It runs on every PSP model, including the 32 MB PSP-1000, and needs custom firmware to install.",
   notesEs:
     "Port homebrew de Minecraft Pocket Edition para PlayStation Portable, con el mundo y la jugabilidad portados desde las fuentes de MCPE 0.6.1. Funciona en todos los modelos de PSP, incluida la PSP-1000 de 32 MB, y necesita custom firmware para instalarse.",
+  downloads: [
+    {
+      label: "MCPSP-v1.9.9",
+      url: "https://github.com/Pencea-Flavius/Minecraft-PE-PSP/releases/download/v1.9.9/MCPSP-v1.9.9.zip",
+      size: "75.8 MB",
+    },
+  ],
   cover: {
     src: "https://github.com/user-attachments/assets/c58041a0-fcc8-4499-b131-c75cea22dc7b",
     alt: "Minecraft Pocket Edition on the PSP splash",

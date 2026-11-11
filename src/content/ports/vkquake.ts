@@ -40,6 +40,28 @@ export const vkQuake: Port = {
       "Lanza vkQuake; el renderizador Vulkan ejecuta los datos originales.",
     ],
   },
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/Novum/vkQuake/releases/download/1.37.0/vkQuake-1.37.0-x86_64.AppImage",
+      size: "9.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Novum/vkQuake/releases/download/1.37.0/vkQuake-1.37.0_windows_arm64.zip",
+      size: "5.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Novum/vkQuake/releases/download/1.37.0/vkQuake-1.37.0_windows_x64.zip",
+      size: "5.5 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/Novum/vkQuake/releases/download/1.37.0/vkQuake-Installer-windows_x64-1.37.0.exe",
+      size: "4.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/4c/Quake1cover.jpg",
     alt: "Quake (box art)",

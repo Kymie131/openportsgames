@@ -23,6 +23,13 @@ export const ChernobylNeighborClownGang: Port = {
   summary: "Chernobyl Neighbor. Clown Gang is a action-adventure game, released in 2000.",
   summaryEs: "Chernobyl Neighbor. Clown Gang es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Chernobyl.Neighbor.Clown.Gang.AssetRipper",
+      url: "https://github.com/smolkrieger/nuclear-neighbor/releases/download/AlternativeVersion/Chernobyl.Neighbor.Clown.Gang.AssetRipper.rar",
+      size: "53.8 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/chernobyl-neighbor-clown-gang.svg",
     alt: "Chernobyl Neighbor. Clown Gang (generated cover)",

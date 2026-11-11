@@ -14,7 +14,7 @@ export const ringOut: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.7", date: "2026-10-27" },
   sources: ["https://github.com/jackpoison-prog/RingOut"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -25,6 +25,28 @@ export const ringOut: Port = {
     "Static recompilation of SoulCalibur II to a native app. The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:
     "Recompilación estática de SoulCalibur II a una app nativa. El jugador aporta su propia imagen de disco obtenida legalmente; el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/jackpoison-prog/RingOut/releases/download/v1.7/RingOut-1.7-linux-x86_64.zip",
+      size: "66.5 MB",
+    },
+    {
+      label: "RingOut-1.7-steamdeck-x86_64",
+      url: "https://github.com/jackpoison-prog/RingOut/releases/download/v1.7/RingOut-1.7-steamdeck-x86_64.zip",
+      size: "20.0 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/jackpoison-prog/RingOut/releases/download/v1.7/RingOut-1.7-windows-x64-setup.exe",
+      size: "144.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/jackpoison-prog/RingOut/releases/download/v1.7/RingOut-1.7-windows-x64.zip",
+      size: "231.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/SoulCalibur%20II%20(USA).png",
     alt: "SoulCalibur II (box art)",

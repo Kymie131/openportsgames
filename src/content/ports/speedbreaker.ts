@@ -14,7 +14,7 @@ export const Speedbreaker: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.2.4", date: "2026-11-07" },
   sources: ["https://github.com/SpeedBreakerProject/speedbreaker"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -23,6 +23,28 @@ export const Speedbreaker: Port = {
   summary: "SpeedBreaker is a racing game for Xbox 360, released in 2005.",
   summaryEs: "SpeedBreaker es un videojuego de carreras para Xbox 360, lanzado en 2005.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "iOS IPA",
+      url: "https://github.com/SpeedBreakerProject/speedbreaker/releases/download/v0.2.4/SpeedBreaker-0.2.4-ios.ipa",
+      size: "26.2 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/SpeedBreakerProject/speedbreaker/releases/download/v0.2.4/SpeedBreaker-macos.dmg",
+      size: "30.7 MB",
+    },
+    {
+      label: "SpeedBreaker-steamos-arm64",
+      url: "https://github.com/SpeedBreakerProject/speedbreaker/releases/download/v0.2.4/SpeedBreaker-steamos-arm64.tar.xz",
+      size: "15.9 MB",
+    },
+    {
+      label: "SpeedBreaker-steamos-x86_64",
+      url: "https://github.com/SpeedBreakerProject/speedbreaker/releases/download/v0.2.4/SpeedBreaker-steamos-x86_64.tar.xz",
+      size: "18.8 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/speedbreaker.svg",
     alt: "SpeedBreaker (generated cover)",

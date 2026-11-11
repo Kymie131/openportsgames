@@ -26,6 +26,28 @@ export const reblue: Port = {
     "Static recompilation of Blue Dragon (Xbox 360) built on the ReXGlue SDK, with a native renderer tailored to the game engine instead of a borrowed emulator backend. It merges the original three discs into one executable and adds 4K, unlocked frame rates, widescreen, keyboard and mouse, achievements and a full mod toolset. The player supplies their own disc dump; the repository ships no game content.",
   notesEs:
     "Recompilación estática de Blue Dragon (Xbox 360) construida sobre el SDK ReXGlue, con un renderizador nativo hecho a medida para el motor del juego en lugar de un backend de emulador prestado. Une los tres discos originales en un único ejecutable y añade 4K, framerate desbloqueado, panorámico, teclado y ratón, logros y un conjunto completo de herramientas de mods. El jugador aporta su propio volcado del disco; el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/zolaware/reblue/releases/download/v1.3.1/reblue-1.3.1-aarch64.AppImage",
+      size: "37.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/zolaware/reblue/releases/download/v1.3.1/reblue-1.3.1-mac-arm64.zip",
+      size: "20.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/zolaware/reblue/releases/download/v1.3.1/reblue-1.3.1-win-amd64.zip",
+      size: "43.4 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/zolaware/reblue/releases/download/v1.3.1/reblue-1.3.1-x86_64.AppImage",
+      size: "39.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/f7/Blue_Dragon_Box_Art.jpeg",
     alt: "Blue Dragon (box art)",

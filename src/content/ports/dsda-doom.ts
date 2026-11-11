@@ -39,6 +39,23 @@ export const dsdaDoom: Port = {
     "Doom source port oriented around deterministic demo playback. No project-wide license file declares the terms for the full tree.",
   notesEs:
     "Port de código fuente de Doom orientado a la reproducción determinista de demos. No hay un archivo de licencia global que declare los términos de todo el árbol.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/dsda-org/dsda-doom/releases/download/v0.30.1/dsda-doom-0.30.1-linux-x86_64.appimage",
+      size: "13.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/dsda-org/dsda-doom/releases/download/v0.30.1/dsda-doom-0.30.1-mac-uni.zip",
+      size: "11.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/dsda-org/dsda-doom/releases/download/v0.30.1/dsda-doom-0.30.1-win-x64.zip",
+      size: "6.9 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Doom.png",
     alt: "Doom (box art)",

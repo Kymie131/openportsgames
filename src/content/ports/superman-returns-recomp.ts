@@ -14,7 +14,7 @@ export const supermanReturnsRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "2026.11.09-5f94108", date: "2026-11-09" },
   sources: ["https://github.com/MrPowerUp82/superman_returns_recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const supermanReturnsRecomp: Port = {
     "Native recompilation of Superman Returns (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Superman Returns (Xbox 360). El jugador aporta su propio material obtenido legalmente (disc dump); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/MrPowerUp82/superman_returns_recomp/releases/download/v2026.11.09-5f94108/superman_returns_win64.zip",
+      size: "140.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c2/Superman_Returns_coverart.jpg",
     alt: "Superman Returns (box art)",

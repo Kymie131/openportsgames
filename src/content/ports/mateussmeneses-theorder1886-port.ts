@@ -21,6 +21,13 @@ export const mateussmenesesTheorder1886Port: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation 4"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mateussmeneses/theorder1886-port/releases/download/windows-v0.8.3/theorder1886-windows.zip",
+      size: "68.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/00/The_Order_1886_Cover_Art.png",
     alt: "The Order: 1886 (box art)",

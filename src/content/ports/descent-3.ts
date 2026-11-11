@@ -14,7 +14,7 @@ export const descent3: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.5.0", date: "2024-08-16" },
   sources: ["https://github.com/DescentDevelopers/Descent3"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -26,6 +26,28 @@ export const descent3: Port = {
     "Official open-source release of Descent 3 published by the Descent Developers, with builds for Windows, Linux and macOS. It needs the retail game data to play.",
   notesEs:
     "Publicación de código abierto oficial de Descent 3 por los Descent Developers, con builds para Windows, Linux y macOS. Necesita los datos del juego comercial para jugar.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/DescentDevelopers/Descent3/releases/download/v1.5.0/Descent3_Release_Linux-x64.zip",
+      size: "7.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/DescentDevelopers/Descent3/releases/download/v1.5.0/Descent3_Release_macOS-ARM.zip",
+      size: "9.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/DescentDevelopers/Descent3/releases/download/v1.5.0/Descent3_Release_macOS-Intel.zip",
+      size: "9.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/DescentDevelopers/Descent3/releases/download/v1.5.0/Descent3_Release_Windows-x64.zip",
+      size: "12.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b2/D3_Box_Art.jpg",
     alt: "Descent 3 (box art)",

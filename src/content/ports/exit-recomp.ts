@@ -14,7 +14,7 @@ export const exitRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.9.1", date: "2026-07-07" },
   sources: ["https://github.com/FluffyQuack/ReXGlue-EXIT"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -23,6 +23,28 @@ export const exitRecomp: Port = {
   summaryEs: "Exit es un videojuego de plataformas desarrollado y publicado por Taito Corporation para el sistema PlayStation Portable. Se puso en venta en Japón el 15 de diciembre de 2005, y en Estados Unidos el 14 de febrero de 2006 y Europa el 31 de marzo de 2006, hubo una secuela desarrollada para Xbox Live llamada Exit 2.",
   notes: "A ReXGlue-based static recompilation of EXIT (Xbox 360). Requires your own copy.",
   notesEs: "Recompilación estática de EXIT (Xbox 360) basada en ReXGlue. Requiere tu propia copia.",
+  downloads: [
+    {
+      label: "EXIT1-Recomp",
+      url: "https://github.com/FluffyQuack/ReXGlue-EXIT/releases/download/v0.9.1/EXIT1-Recomp.zip",
+      size: "6.8 MB",
+    },
+    {
+      label: "EXIT2-Recomp",
+      url: "https://github.com/FluffyQuack/ReXGlue-EXIT/releases/download/v0.9.1/EXIT2-Recomp.zip",
+      size: "7.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/FluffyQuack/ReXGlue-EXIT/releases/download/v0.9.1/rexglue-sdk-0.9.1-linux-amd64.zip",
+      size: "142.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/FluffyQuack/ReXGlue-EXIT/releases/download/v0.9.1/rexglue-sdk-0.9.1-win-amd64.zip",
+      size: "41.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/11/Exit-cover.jpg",
     alt: "EXIT (box art)",

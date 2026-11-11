@@ -25,6 +25,13 @@ export const arefdsgMk64recomp: Port = {
   summaryEs: "Mario Kart 64 es un videojuego de carreras para la Nintendo 64 (N64). Desarrollado y publicado por Nintendo, es la segunda entrega de la serie Mario Kart tras Super Mario Kart de 1992. Conserva la mecánica de su predecesor: el jugador, que controla a un personaje de la franquicia Mario, compite contra sus rivales en circuitos basados en escenarios de los plataformas de Super Mario. Contienen obstáculos para frenarlo y cajas de objetos que le proporcionan potenciadores para ayudarle a avanzar.",
   notes: "Mario Kart 64: static recompilation by arefdsg for Windows. Bring your own copy of the game.",
   notesEs: "Mario Kart 64: recompilación estática de arefdsg para Windows. Aporta tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/arefdsg/MK64Recomp/releases/download/1.0.0/MK64Recompiled-v1.0.0-Windows.zip",
+      size: "24.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a1/Mario_Kart_64.jpg",
     alt: "Mario Kart 64 (box art)",

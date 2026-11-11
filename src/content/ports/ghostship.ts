@@ -14,7 +14,7 @@ export const ghostship: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos", "android", "ios", "switch"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "3.0.0", date: "2026-09-07" },
   sources: [
     "https://github.com/HarbourMasters/Ghostship",
     "https://www.harbourmasters.org/game/ghostship",
@@ -29,6 +29,33 @@ export const ghostship: Port = {
     "Native port of Super Mario 64 from the decompilation, by the HarbourMasters team. Uses the game's data from your own legally obtained ROM. Multiplatform, including Android, iOS and Switch.",
   notesEs:
     "Port nativo de Super Mario 64 a partir de la decompilación, del equipo HarbourMasters. Usa los datos del juego de tu propia ROM obtenida legalmente. Multiplataforma, incluidos Android, iOS y Switch.",
+  downloads: [
+    {
+      label: "Android",
+      url: "https://github.com/HarbourMasters/Ghostship/releases/download/3.0.0/Nautilus-Alfa-Android.zip",
+      size: "13.5 MB",
+    },
+    {
+      label: "Ios",
+      url: "https://github.com/HarbourMasters/Ghostship/releases/download/3.0.0/Nautilus-Alfa-iOS.zip",
+      size: "4.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/HarbourMasters/Ghostship/releases/download/3.0.0/Nautilus-Alfa-Linux.zip",
+      size: "17.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/HarbourMasters/Ghostship/releases/download/3.0.0/Nautilus-Alfa-Mac.zip",
+      size: "22.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/HarbourMasters/Ghostship/releases/download/3.0.0/Nautilus-Alfa-Win64.zip",
+      size: "19.4 MB",
+    },
+  ],
   cover: {
     src: "https://raw.githubusercontent.com/HarbourMasters/Ghostship/refs/heads/develop/nx-logo.jpg",
     alt: "Super Mario 64 (cover)",

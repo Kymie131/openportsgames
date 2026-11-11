@@ -14,12 +14,19 @@ export const starshipAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.0.0", date: "2026-08-04" },
   sources: ["https://github.com/izzy2lost/Starship"],
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/izzy2lost/Starship/releases/download/v2.0.0/starship-v2.0.0.apk",
+      size: "23.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/63/StarFox64_N64_Game_Box.jpg",
     alt: "Star Fox 64 (box art)",

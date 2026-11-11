@@ -14,7 +14,7 @@ export const jungleStrikeRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1.0", date: "2026-10-17" },
   sources: ["https://github.com/Junior-Jones/Jungle-Strike-SNES-Static-Recomp"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
@@ -24,6 +24,13 @@ export const jungleStrikeRecomp: Port = {
   summaryEs: "Jungle Strike es un videojuego de acción y aventura publicado por Electronic Arts en 1993.",
   notes: "Tracked by PortsDR. No public repo is linked yet, and you supply the game files.",
   notesEs: "Seguido por PortsDR. Todavía no hay repo público, y tú aportas los archivos del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Junior-Jones/Jungle-Strike-SNES-Static-Recomp/releases/download/v1.1.0/Jungle-Strike-SNES-Static-Recomp-1.1.0-Windows-x64.zip",
+      size: "1.8 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Jungle%20Strike%20(Europe).png",
     alt: "Jungle Strike (box art)",

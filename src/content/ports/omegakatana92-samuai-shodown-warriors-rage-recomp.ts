@@ -21,6 +21,13 @@ export const omegakatana92SamuaiShodownWarriorsRageRecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/omegakatana92/Samuai-Shodown-Warriors-Rage-Recomp/releases/download/v1.0.0/Samurai.Shodown.Warriors.Rage.recomp.zip",
+      size: "9.3 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Samurai%20Shodown%20-%20Warriors%20Rage%20(USA).png",
     alt: "Samurai Shodown: Warriors Rage (box art)",

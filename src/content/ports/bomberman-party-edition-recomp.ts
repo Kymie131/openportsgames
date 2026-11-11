@@ -14,7 +14,7 @@ export const bombermanPartyEditionRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.3.18", date: "2026-10-01" },
   sources: ["https://github.com/TechnicallyComputers/BombermanPartyEditionRecomp"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
@@ -25,6 +25,28 @@ export const bombermanPartyEditionRecomp: Port = {
   notes: "PortsDR lists this recompilation without a public repository. Own the game to play it.",
   notesEs:
     "PortsDR lista esta recompilación sin repositorio público. Necesitas el juego para jugarla.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/TechnicallyComputers/BombermanPartyEditionRecomp/releases/download/v0.3.18/bpe-0.3.18-linux-x64.zip",
+      size: "51.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/TechnicallyComputers/BombermanPartyEditionRecomp/releases/download/v0.3.18/bpe-0.3.18-macos-arm64.zip",
+      size: "27.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/TechnicallyComputers/BombermanPartyEditionRecomp/releases/download/v0.3.18/bpe-0.3.18-macos-x64.zip",
+      size: "27.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/TechnicallyComputers/BombermanPartyEditionRecomp/releases/download/v0.3.18/bpe-0.3.18-windows-x64.zip",
+      size: "29.6 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Bomberman%20-%20Party%20Edition%20(USA).png",
     alt: "Bomberman Party Edition (box art)",

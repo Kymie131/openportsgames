@@ -21,6 +21,13 @@ export const prototype2Switch: Port = {
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["prototype-switch"],
+  downloads: [
+    {
+      label: "Switch",
+      url: "https://github.com/fungalspores/prototype-switch/releases/download/v1.4.0/Prototype-1-2-Switch-1.4.0.zip",
+      size: "59.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/fb/Prototype_2_game.jpg",
     alt: "Prototype 2 (box art)",

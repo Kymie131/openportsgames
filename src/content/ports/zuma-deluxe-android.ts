@@ -25,6 +25,13 @@ export const zumaDeluxeAndroid: Port = {
     "Unofficial Android build of Zuma Deluxe. It is distributed as an APK and needs the original game assets.",
   notesEs:
     "Build no oficial para Android de Zuma Deluxe. Se distribuye como APK y necesita los recursos del juego original.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/astola-studio/ZumaDeluxeAndroid/releases/download/english-v3/Zuma.Deluxe.Unofficial.English.Port.apk",
+      size: "15.1 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/3330/header.jpg",
     alt: "Zuma Deluxe (cover)",

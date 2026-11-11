@@ -14,7 +14,7 @@ export const slayTheSpire2Android: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.2.0", date: "2026-03-15" },
   sources: ["https://github.com/Ekyso/StS2-Launcher"],
   license: { spdx: "MIT" },
   verified: false,
@@ -25,6 +25,13 @@ export const slayTheSpire2Android: Port = {
     "Unofficial Android launcher for Slay the Spire 2, still in alpha. It needs the original game.",
   notesEs:
     "Lanzador no oficial para Android de Slay the Spire 2, todavía en alfa. Necesita el juego original.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Ekyso/StS2-Launcher/releases/download/0.2.0/StS2Launcher-v0.2.0.apk",
+      size: "44.5 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/2868840/header.jpg",
     alt: "Slay the Spire 2 (cover)",

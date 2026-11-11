@@ -20,6 +20,13 @@ export const BetrayalAtKrondor: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
+  downloads: [
+    {
+      label: "toolchain",
+      url: "https://github.com/canassa/betrayal-at-krondor/releases/download/toolchain-v1/toolchain.tar.gz",
+      size: "17.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/20/Betrayal_at_Krondor6.jpg",
     alt: "Betrayal at Krondor (box art)",

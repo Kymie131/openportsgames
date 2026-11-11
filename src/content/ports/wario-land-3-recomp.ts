@@ -21,6 +21,23 @@ export const warioLand3Recomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["Game Boy Color"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/GABRIELNNK/Bigodao/releases/download/1.8.0/Bigodao-1.8-release.apk",
+      size: "11.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/GABRIELNNK/Bigodao/releases/download/1.8.0/bigodao_1.8_linux_x86.zip",
+      size: "12.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/GABRIELNNK/Bigodao/releases/download/1.8.0/bigodao_1.8_win.zip",
+      size: "17.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/cb/Warioland3.jpg",
     alt: "Wario Land 3 (box art)",

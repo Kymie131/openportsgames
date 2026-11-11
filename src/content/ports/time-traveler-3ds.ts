@@ -14,7 +14,7 @@ export const timeTraveler3ds: Port = {
   originalGameLicense: "proprietary",
   platforms: ["3ds"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.1", date: "2026-10-25" },
   sources: ["https://github.com/mholzinger/save-hologram-time-traveler"],
   license: { spdx: "BSD-3-Clause" },
   verified: false,
@@ -22,6 +22,28 @@ export const timeTraveler3ds: Port = {
   originalSystems: ["Arcade"],
   summary: "Time Traveler or Hologram Time Traveler is a LaserDisc interactive movie arcade game designed by Dragon's Lair creator Rick Dyer, and released in 1991 by Sega. Its plot is that an American old west cowboy named Marshal Gram travels to various timelines to rescue Princess Kyi-La and defeat the evil time lord Vulcor. The game is best known for its arcade cabinet which displays a \"holographic\" like projection, produced using optical technology from Dentsu.",
   summaryEs: "Time Traveler es un videojuego de acción y aventura en 1991.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/mholzinger/save-hologram-time-traveler/releases/download/v0.1.1/timetrv-patcher-linux-x64.tar.gz",
+      size: "51.0 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/mholzinger/save-hologram-time-traveler/releases/download/v0.1.1/timetrv-patcher-macos-arm64.zip",
+      size: "21.6 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/mholzinger/save-hologram-time-traveler/releases/download/v0.1.1/timetrv-patcher-macos-x64.zip",
+      size: "23.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/mholzinger/save-hologram-time-traveler/releases/download/v0.1.1/timetrv-patcher-windows-x64.zip",
+      size: "31.2 MB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1046740/header.jpg?t=1591543862",
     alt: "Time Traveler (Steam header)",

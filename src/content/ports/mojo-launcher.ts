@@ -21,6 +21,13 @@ export const mojoLauncher: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/MojoLauncher/MojoLauncher/releases/download/justicia-h1/MojoLauncher-release.apk",
+      size: "87.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/f/f4/Caves_%26_Cliffs_II_-_Alex_%26_Steve_I.png",
     alt: "Minecraft Java Edition (box art)",

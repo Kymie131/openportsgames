@@ -14,12 +14,29 @@ export const touhouCollectionPs4: Port = {
   originalGameLicense: "proprietary",
   platforms: ["ps4"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1.0", date: "2026-09-23" },
   sources: ["https://github.com/EmiiBytee/Touhou-PS4"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "Macos",
+      url: "https://github.com/EmiiBytee/Touhou-PS4/releases/download/v1.1.0/TH06.ps4-thin.pkg",
+      size: "8.7 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/EmiiBytee/Touhou-PS4/releases/download/v1.1.0/TH07.ps4-thin.pkg",
+      size: "9.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/EmiiBytee/Touhou-PS4/releases/download/v1.1.0/TH08.ps4-thin.pkg",
+      size: "9.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/8b/Th06cover.jpg",
     alt: "Touhou 6: The Embodiment of Scarlet Devil (box art)",

@@ -13,7 +13,7 @@ export const Machines: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.7.5", date: "2026-09-02" },
   sources: ["https://github.com/WiredForWar/machines"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -21,6 +21,28 @@ export const Machines: Port = {
   originalSystems: ["Unknown"],
   summary: "Machines is a 3D real-time strategy game released for Microsoft Windows. Published by Acclaim and developed by Charybdis. As a 3D game of this genre. Machines also allowed players to directly control units with both a first and third-person view.",
   summaryEs: "machines es un videojuego de acción y aventura en 1999.",
+  downloads: [
+    {
+      label: "machines-win64-editor-wfw-20260911",
+      url: "https://github.com/WiredForWar/machines/releases/download/v1.7.5/machines-win64-editor-wfw-20260911.7z",
+      size: "2.6 MB",
+    },
+    {
+      label: "machines-win64-wfw-20260902",
+      url: "https://github.com/WiredForWar/machines/releases/download/v1.7.5/machines-win64-wfw-20260902.7z",
+      size: "10.3 MB",
+    },
+    {
+      label: "the-bird-001",
+      url: "https://github.com/WiredForWar/machines/releases/download/v1.7.5/the-bird-001.7z",
+      size: "1 KB",
+    },
+    {
+      label: "the-dragon-001",
+      url: "https://github.com/WiredForWar/machines/releases/download/v1.7.5/the-dragon-001.7z",
+      size: "1 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/machines.svg",
     alt: "machines (generated cover)",

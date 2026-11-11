@@ -14,7 +14,7 @@ export const theForceEngineVr: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.9.57-vr", date: "2026-10-11" },
   sources: ["https://github.com/SoVRHere/TheForceEngineVR"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -25,6 +25,18 @@ export const theForceEngineVr: Port = {
     "VR-oriented build of The Force Engine (a Jedi Engine replacement) that supports Dark Forces and its mods on Android. It needs the original game.",
   notesEs:
     "Build orientada a RV de The Force Engine (un reemplazo del Jedi Engine) que soporta Dark Forces y sus mods en Android. Necesita el juego original.",
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/SoVRHere/TheForceEngineVR/releases/download/v0.9.57-vr/TheForceEngineVR.Installer.exe",
+      size: "39.3 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/SoVRHere/TheForceEngineVR/releases/download/v0.9.57-vr/TheForceEngineVR.zip",
+      size: "17.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/4f/Dark_Forces_box_cover.jpg",
     alt: "Star Wars: Dark Forces (box art)",

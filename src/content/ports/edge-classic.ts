@@ -14,7 +14,7 @@ export const EdgeClassic: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.53", date: "2026-07-11" },
   sources: ["https://github.com/edge-classic/EDGE-classic"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -23,6 +23,23 @@ export const EdgeClassic: Port = {
   summary: "EDGE-classic is a shooter game, released in 2000.",
   summaryEs: "EDGE-classic es un videojuego de disparos, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/edge-classic/EDGE-classic/releases/download/1.53/edge-classic-linux.zip",
+      size: "16.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/edge-classic/EDGE-classic/releases/download/1.53/edge-classic-win32.zip",
+      size: "13.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/edge-classic/EDGE-classic/releases/download/1.53/edge-classic-win64.zip",
+      size: "13.7 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/edge-classic.svg",
     alt: "EDGE-classic (generated cover)",

@@ -21,6 +21,13 @@ export const castlevaniaSotnRecompSergiomanzur: Port = {
   sourceVerified: true,
   originalSystems: ["PlayStation"],
   related: ["castlevania-sotn-decomp","castlevania-sotn-recomp-nocturne"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/sergiomanzur/SymphonyRecomp/releases/download/android-v0.11b/SymphonyRecomp-Android-Beta-0.11.apk",
+      size: "56.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg",
     alt: "Castlevania: Symphony of the Night (box art)",

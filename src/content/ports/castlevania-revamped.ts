@@ -14,7 +14,7 @@ export const castlevaniaRevamped: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.16-verified-touch-gamepad", date: "2026-07-09" },
   sources: ["https://github.com/eboody/Castlevania-ReVamped-Open-Source-Edition"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const castlevaniaRevamped: Port = {
     "Android reimplementation of the original Castlevania, distributed as an open-source build. It uses the game's original assets from your own copy.",
   notesEs:
     "Reimplementación para Android del Castlevania original, distribuida como build de código abierto. Usa los recursos del juego original de tu propia copia.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/eboody/Castlevania-ReVamped-Open-Source-Edition/releases/download/v0.1.16-verified-touch-gamepad/castlevania_revamped.v0.1.16-verified-touch-gamepad.apk",
+      size: "547.3 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Castlevania%20(Europe)%20(Virtual%20Console).png",
     alt: "Castlevania (box art)",

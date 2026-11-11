@@ -23,6 +23,28 @@ export const opennoxOpennox: Port = {
   originalSystems: ["Unknown"],
   summary: "Nox is an action role-playing game developed and published by Westwood Studios and Electronic Arts in 2000 for Microsoft Windows. It details the story of Jack, a young man from Earth who is pulled into a high fantasy parallel universe and has to defeat the evil sorceress Hecubah and her army of necromancers to return home. Depending on the player's choice of character class at the beginning of the game, the game follows three largely different linear storylines, each leading to its unique ending.",
   summaryEs: "Nox es un videojuego de rol de acción desarrollado por Westwood Studios y distribuido por Electronic Arts. Fue lanzado al mercado durante el año 2000. El videojuego fue bien recibido en general por parte de los medios especializados, obteniendo una nota media de 86 sobre 100 en un agregado de análisis realizado por MobyGames. El videojuego posee una expansión gratuita, denominada NoxQuest, cuyo principal añadido es un modo multijugador cooperativo.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/opennox/opennox/releases/download/v1.9.0-alpha13/opennox-bundle-i386.AppImage",
+      size: "64.4 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/opennox/opennox/releases/download/v1.9.0-alpha13/OpenNox-linux-v1.9.0-alpha13.tar.gz",
+      size: "56.7 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/opennox/opennox/releases/download/v1.9.0-alpha13/OpenNox-v1.9.0-alpha13.exe",
+      size: "60.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/opennox/opennox/releases/download/v1.9.0-alpha13/OpenNox-v1.9.0-alpha13.zip",
+      size: "81.1 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/nox.svg",
     alt: "Nox (generated cover)",

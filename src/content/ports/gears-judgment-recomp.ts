@@ -21,6 +21,13 @@ export const gearsJudgmentRecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/OverkillLabs3/gears-judgement-recomp/releases/download/v0.2.1/GearsOfWarJudgment-PC-v0.2.1.zip",
+      size: "31.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/00/Gears_of_War-_Judgment_cover.jpg",
     alt: "Gears of War: Judgment (box art)",

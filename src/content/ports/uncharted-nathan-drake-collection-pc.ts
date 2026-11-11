@@ -43,6 +43,13 @@ export const unchartedNathanDrakeCollectionPc: Port = {
     source: "https://github.com/Supermedo/uncharted_pc/commits/main",
     quote: "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
   },
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Supermedo/uncharted_pc/releases/download/v0.3.14/uncharted-windows.zip",
+      size: "117.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c9/Nathan_Drake_Collection_cover_art.png",
     alt: "Uncharted: The Nathan Drake Collection (box art)",

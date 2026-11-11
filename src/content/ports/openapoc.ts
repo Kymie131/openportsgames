@@ -33,6 +33,18 @@ export const openapoc: Port = {
       credit: "openApoc",
     },
   ],
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/OpenApoc/OpenApoc/releases/download/20260408/install-openapoc-20260408.exe",
+      size: "30.1 MB",
+    },
+    {
+      label: "OpenApoc-x64-20260408",
+      url: "https://github.com/OpenApoc/OpenApoc/releases/download/20260408/OpenApoc-x64-20260408.zip",
+      size: "43.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/05/XCom_Apoc.jpg",
     alt: "X-COM: Apocalypse (box art)",

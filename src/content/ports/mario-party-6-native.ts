@@ -21,6 +21,23 @@ export const marioParty6Native: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["GameCube"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/iirg4x/mp6-native-port/releases/download/v0.5.0/starlit-party-v0.5.0-61a99d3-android-arm64.apk",
+      size: "54.7 MB",
+    },
+    {
+      label: "starlit-party-v0.5.0-61a99d3-web",
+      url: "https://github.com/iirg4x/mp6-native-port/releases/download/v0.5.0/starlit-party-v0.5.0-61a99d3-web.zip",
+      size: "26.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/iirg4x/mp6-native-port/releases/download/v0.5.0/starlit-party-v0.5.0-61a99d3-win-x64.zip",
+      size: "42.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c6/Mario_Party_6_Coverart.png",
     alt: "Mario Party 6 (box art)",

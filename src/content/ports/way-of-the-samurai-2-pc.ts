@@ -14,12 +14,24 @@ export const wayOfTheSamurai2Pc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.3.10", date: "2026-10-16" },
   sources: ["https://github.com/acklavidian/decomp_wots2"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/acklavidian/decomp_wots2/releases/download/v0.3.10/wots2-linux-x86_64.tar.gz",
+      size: "1.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/acklavidian/decomp_wots2/releases/download/v0.3.10/wots2-windows-x86_64.zip",
+      size: "5.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/f9/Way_of_the_Samurai_2_cover.jpg",
     alt: "Way of the Samurai 2 (box art)",

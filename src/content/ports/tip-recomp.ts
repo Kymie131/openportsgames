@@ -26,6 +26,13 @@ export const tipRecomp: Port = {
     "Native recompilation of Viva Pinata: Trouble in Paradise (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Viva Pinata: Trouble in Paradise (Xbox 360). El jugador aporta su propio material obtenido legalmente (volcado del disco); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/SolarCookies/TiP-Recomp/releases/download/1.15.0/retip-1.15-win-amd64.zip",
+      size: "66.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a0/Viva_Pinata_Trouble_in_Paradise.jpg",
     alt: "Viva Pinata: Trouble in Paradise (cover art)",

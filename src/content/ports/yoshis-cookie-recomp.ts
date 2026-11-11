@@ -14,7 +14,7 @@ export const yoshisCookieRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1.1", date: "2026-10-19" },
   sources: ["https://github.com/mstan/YoshisCookieRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
@@ -25,6 +25,13 @@ export const yoshisCookieRecomp: Port = {
     "Native recompilation of Yoshi's Cookie (Nintendo Entertainment System). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Yoshi's Cookie (Nintendo Entertainment System). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/YoshisCookieRecomp/releases/download/v1.1.1/YoshisCookieRecomp-windows-x64.zip",
+      size: "4.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Yoshi's%20Cookie%20(USA).png",
     alt: "Yoshi's Cookie (box art)",

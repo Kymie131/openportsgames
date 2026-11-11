@@ -14,7 +14,7 @@ export const rush2Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.51", date: "2026-11-11" },
   sources: ["https://github.com/bryantmh/rush2recompiled"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,18 @@ export const rush2Recomp: Port = {
     "Native recompilation of San Francisco Rush 2 (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de San Francisco Rush 2 (Nintendo 64). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/bryantmh/rush2recompiled/releases/download/v1.0.51/Rush2Recompiled-1.0.51-x86_64.AppImage",
+      size: "24.7 MB",
+    },
+    {
+      label: "Rush2Recompiled-1.0.51",
+      url: "https://github.com/bryantmh/rush2recompiled/releases/download/v1.0.51/Rush2Recompiled-1.0.51.zip",
+      size: "23.5 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Rush%202%20-%20Extreme%20Racing%20USA%20(USA).png",
     alt: "San Francisco Rush 2 (box art)",

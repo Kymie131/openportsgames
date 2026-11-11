@@ -14,7 +14,7 @@ export const pointBlankRecompiled: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1.0", date: "2026-10-04" },
   sources: ["https://github.com/TekRantGaming/point-blank-recompiled"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -22,6 +22,13 @@ export const pointBlankRecompiled: Port = {
   originalSystems: ["PlayStation"],
   summary: "Point Blank is a first-person shooter video game developed by the South Korean company Zepetto for Microsoft Windows.",
   summaryEs: "Point Blank es un videojuego de disparos publicado por NC en 2010.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/TekRantGaming/point-blank-recompiled/releases/download/v1.1.0/PointBlank-PC-Port-v1.1.0-windows-x64.zip",
+      size: "37.8 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Point%20Blank%20(USA).png",
     alt: "Point Blank (box art)",

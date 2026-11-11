@@ -14,7 +14,7 @@ export const marioKartWorldSwitch2mac: Port = {
   originalGameLicense: "proprietary",
   platforms: ["macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.4.5", date: "2026-11-11" },
   sources: ["https://github.com/azmasm/switch2mac"],
   license: {
     spdx: "MIT",
@@ -40,6 +40,18 @@ export const marioKartWorldSwitch2mac: Port = {
     minimum:
       "Apple silicon Mac with macOS 26 or later, Xcode with the Metal toolchain, .NET 10 and Python 3.12",
   },
+  downloads: [
+    {
+      label: "switch2mac-0.4.5",
+      url: "https://github.com/azmasm/switch2mac/releases/download/v0.4.5/switch2mac-0.4.5.pkg",
+      size: "37.8 MB",
+    },
+    {
+      label: "switch2mac-macOS-arm64",
+      url: "https://github.com/azmasm/switch2mac/releases/download/v0.4.5/switch2mac-macOS-arm64.zip",
+      size: "39.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/65/Mario_Kart_World_Cover_Artwork.png",
     alt: "Mario Kart World (box art)",

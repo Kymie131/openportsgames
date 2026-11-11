@@ -21,6 +21,13 @@ export const ironJayBanjoTooieXblaRecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/iron-jay/banjo_tooie_xbla_recomp/releases/download/v0.1.1/Banjo-Tooie.exe",
+      size: "26.5 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Banjo-Tooie%20(USA).png",
     alt: "Banjo-Tooie (box art)",

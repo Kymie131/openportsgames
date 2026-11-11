@@ -14,7 +14,7 @@ export const PrinceMonogame: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.2", date: "2020-03-08" },
   sources: ["https://github.com/salvadorc17/Prince-Monogame"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -23,6 +23,13 @@ export const PrinceMonogame: Port = {
   summary: "Prince-Monogame is a action-adventure game, released in 2000.",
   summaryEs: "Prince-Monogame es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "PrinceGame",
+      url: "https://github.com/salvadorc17/Prince-Monogame/releases/download/1.2/PrinceGame.zip",
+      size: "53.7 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/prince-monogame.svg",
     alt: "Prince-Monogame (generated cover)",

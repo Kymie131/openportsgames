@@ -21,6 +21,13 @@ export const mstanMinishcaprecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Game Boy Advance"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/MinishCapRecomp/releases/download/v0.0.8/MinishCapRecomp-windows-x64-v0.0.8.zip",
+      size: "30.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/0a/TLOZ-_Minish_Cap_NA_Box_art.png",
     alt: "The Legend of Zelda: The Minish Cap (box art)",

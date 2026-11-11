@@ -14,7 +14,7 @@ export const crtNativeDsDualScreen: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.0", date: "2026-08-30" },
   sources: ["https://github.com/igawa6/ctr-native-android"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -22,6 +22,13 @@ export const crtNativeDsDualScreen: Port = {
   originalSystems: ["Unknown"],
   summary: "Crash Team Racing is a 1999 kart racing game developed by Naughty Dog and published by Sony Computer Entertainment for the PlayStation. It is the fourth installment in the Crash Bandicoot series and the final Crash Bandicoot game to be developed by Naughty Dog. The game's story focuses on the efforts of Crash Bandicoot, Doctor Neo Cortex, and other ragtag team of characters in the Crash Bandicoot series, who must race against the egomaniacal Nitros Oxide to save the Earth from destruction.",
   summaryEs: "Crash Team Racing es un videojuego de carreras de karts desarrollado por Naughty Dog y publicado por Sony Computer Entertainment para PlayStation. Es la cuarta entrega de la serie Crash Bandicoot y el último hecho por Naughty Dog. La historia se centra en los esfuerzos de Crash Bandicoot, el Doctor Neo Cortex y otros personajes variopintos, que deben competir contra el ególatra Nitros Oxide para salvar la Tierra de la destrucción. En el título, los jugadores pueden controlar a uno de los quince personajes de la saga, aunque al principio solo están disponibles ocho.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/igawa6/ctr-native-android/releases/download/v0.1.0/ctrds-0.1.0-release.apk",
+      size: "7.6 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/ctr-crash-team-racing.svg",
     alt: "CTR: Crash Team Racing (generated cover)",

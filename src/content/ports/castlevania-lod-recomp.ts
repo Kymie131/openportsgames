@@ -34,6 +34,23 @@ export const castlevaniaLodRecomp: Port = {
     "An in-progress recompilation of Castlevania: Legacy of Darkness (N64). The current goal is to reach stable gameplay while keeping enough telemetry to diagnose the remaining crashes; it uses the Zelda 64: Recompiled menu.",
   notesEs:
     "Recompilación en curso de Castlevania: Legacy of Darkness (N64). El objetivo ahora es llegar a un gameplay estable y conservar la telemetría suficiente para diagnosticar los cierres que quedan; usa el menú de Zelda 64: Recompiled.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/fliperama86/cvlod_recomp/releases/download/v0.2.29/LodRecomp-v0.2.29-linux-x64.tar.gz",
+      size: "52.6 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/fliperama86/cvlod_recomp/releases/download/v0.2.29/LodRecomp-v0.2.29-macos-arm64.zip",
+      size: "20.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/fliperama86/cvlod_recomp/releases/download/v0.2.29/LodRecomp-v0.2.29-windows-x64.zip",
+      size: "28.4 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Castlevania%20-%20Legacy%20of%20Darkness%20(USA).png",
     alt: "Castlevania: Legacy of Darkness (box art)",

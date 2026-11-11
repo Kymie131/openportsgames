@@ -21,6 +21,23 @@ export const rob646464LuigisMansionRecompiled: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo GameCube"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/rob646464/luigis-mansion-recompiled/releases/download/v1.1.6/LuigisMansionRecompiled-1.1.6-linux-x86_64.tar.gz",
+      size: "144.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/rob646464/luigis-mansion-recompiled/releases/download/v1.1.6/LuigisMansionRecompiled-1.1.6-macos-arm64.tar.gz",
+      size: "111.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/rob646464/luigis-mansion-recompiled/releases/download/v1.1.6/LuigisMansionRecompiled-1.1.6-windows-x64.zip",
+      size: "84.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/5e/Lmbox.jpg",
     alt: "Luigi's Mansion (box art)",

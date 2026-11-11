@@ -14,7 +14,7 @@ export const uqmMegamod: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.8.0.84", date: "2019-09-16" },
   sources: ["https://github.com/JHGuitarFreak/UQM-MegaMod-Archived"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,28 @@ export const uqmMegamod: Port = {
     "UQM MegaMod packages The Ur-Quan Masters with extra content and runs it on Android. The repository is archived, so it is no longer updated. The upstream repository is archived (read-only).",
   notesEs:
     "UQM MegaMod empaqueta The Ur-Quan Masters con contenido extra y lo ejecuta en Android. El repositorio está archivado, por lo que ya no se actualiza. El repositorio original está archivado (solo lectura).",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/JHGuitarFreak/UQM-MegaMod-Archived/releases/download/0.8.0.84/Android-MegaMod.apk",
+      size: "63.8 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/JHGuitarFreak/UQM-MegaMod-Archived/releases/download/0.8.0.84/macOS-MegaMod.dmg",
+      size: "63.2 MB",
+    },
+    {
+      label: "Windows MSI",
+      url: "https://github.com/JHGuitarFreak/UQM-MegaMod-Archived/releases/download/0.8.0.84/Windows-MegaMod.Installer.msi",
+      size: "3.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/JHGuitarFreak/UQM-MegaMod-Archived/releases/download/0.8.0.84/Windows-MegaMod.Portable.zip",
+      size: "62.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c3/Star_Control_II_cover.jpg",
     alt: "Star Control II (box art)",

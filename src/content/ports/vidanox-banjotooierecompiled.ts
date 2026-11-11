@@ -21,6 +21,18 @@ export const vidanoxBanjotooierecompiled: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Vidanox/BanjoTooieRecompiled/releases/download/v1.0.1/BanjoTooieRecompiled-linux-x64.tar.gz",
+      size: "10.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Vidanox/BanjoTooieRecompiled/releases/download/v1.0.1/BanjoTooieRecompiled-windows-x64.zip",
+      size: "19.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Banjo-Tooie%20(USA).png",
     alt: "Banjo-Tooie (box art)",

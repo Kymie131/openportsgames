@@ -14,12 +14,29 @@ export const urbanReignPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.4.1", date: "2026-10-29" },
   sources: ["https://github.com/thiagordsfx/urban-reign-recomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/thiagordsfx/urban-reign-recomp/releases/download/v1.4.1/urban-reign_1.4.1_amd64.deb",
+      size: "21.8 MB",
+    },
+    {
+      label: "UrbanReignPC-1.4.1-linux-x86_64",
+      url: "https://github.com/thiagordsfx/urban-reign-recomp/releases/download/v1.4.1/UrbanReignPC-1.4.1-linux-x86_64.tar.gz",
+      size: "31.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/thiagordsfx/urban-reign-recomp/releases/download/v1.4.1/UrbanReignPC-1.4.1.zip",
+      size: "46.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6d/Urb-cover.jpg",
     alt: "Urban Reign (box art)",

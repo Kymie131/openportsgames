@@ -26,6 +26,18 @@ export const wargusPort: Port = {
     "Engine reimplementation for Warcraft II, intended to be compatible with the retail data files.",
   notesEs:
     "Reimplementación del motor de Warcraft II, pensada para ser compatible con los archivos de datos comerciales.",
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/Wargus/wargus/releases/download/v3.3.2/Wargus-3.3.2.exe",
+      size: "44.8 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/Wargus/wargus/releases/download/v3.3.2/Wargus-portable-3.3.2.exe",
+      size: "44.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Warcraft%20II%20-%20Tides%20of%20Darkness.png",
     alt: "Warcraft II (box art)",

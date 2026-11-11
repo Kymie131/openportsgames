@@ -35,6 +35,28 @@ export const openLoco: Port = {
     "Chris Sawyer's Locomotion is a business simulation game developed and published by Chris Sawyer in 2004. Players build and manage a transport empire across maps inspired by Great Britain and the United States.",
   summaryEs:
     "Chris Sawyer's Locomotion es un juego de simulación empresarial desarrollado y publicado por Chris Sawyer en 2004. El jugador construye y gestiona un imperio de transporte en mapas inspirados en Gran Bretaña y Estados Unidos.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/OpenLoco/OpenLoco/releases/download/v26.09/OpenLoco-v26.09-linux-x64.AppImage",
+      size: "16.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/OpenLoco/OpenLoco/releases/download/v26.09/OpenLoco-v26.09-macos-arm64.zip",
+      size: "16.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/OpenLoco/OpenLoco/releases/download/v26.09/OpenLoco-v26.09-windows-portable-win32.zip",
+      size: "14.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/OpenLoco/OpenLoco/releases/download/v26.09/OpenLoco-v26.09-windows-portable-x64.zip",
+      size: "15.3 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/openloco.svg",
     alt: "Chris Sawyer's Locomotion (generated cover)",

@@ -39,6 +39,28 @@ export const nuggetDoom: Port = {
       credit: "MrAlaux",
     },
   ],
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/MrAlaux/Nugget-Doom/releases/download/nugget-doom-6.1.0/Nugget-Doom-6.1.0-Linux.AppImage",
+      size: "13.7 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/MrAlaux/Nugget-Doom/releases/download/nugget-doom-6.1.0/Nugget-Doom-6.1.0-Mac-uni.zip",
+      size: "16.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/MrAlaux/Nugget-Doom/releases/download/nugget-doom-6.1.0/Nugget-Doom-6.1.0-win32.zip",
+      size: "5.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/MrAlaux/Nugget-Doom/releases/download/nugget-doom-6.1.0/Nugget-Doom-6.1.0-win64.zip",
+      size: "5.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg",
     alt: "Doom (box art)",

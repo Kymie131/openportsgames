@@ -40,6 +40,38 @@ export const ja2Stracciatella: Port = {
     "Open source reimplementation of Jagged Alliance 2. The repository carries an SFI Source Code license agreement rather than a standard SPDX license.",
   notesEs:
     "Reimplementación de código abierto de Jagged Alliance 2. El repositorio incluye un acuerdo de licencia de código fuente SFI en lugar de una licencia SPDX estándar.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/ja2-stracciatella/ja2-stracciatella/releases/download/v0.22.1/ja2-stracciatella_0.22.1-git%2B11e9430_aarch64.AppImage",
+      size: "21.2 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/ja2-stracciatella/ja2-stracciatella/releases/download/v0.22.1/ja2-stracciatella_0.22.1-git%2B11e9430_android.apk",
+      size: "41.8 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/ja2-stracciatella/ja2-stracciatella/releases/download/v0.22.1/ja2-stracciatella_0.22.1-git%2B11e9430_armhf.AppImage",
+      size: "23.3 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/ja2-stracciatella/ja2-stracciatella/releases/download/v0.22.1/ja2-stracciatella_0.22.1-git%2B11e9430_macos.dmg",
+      size: "23.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/ja2-stracciatella/ja2-stracciatella/releases/download/v0.22.1/ja2-stracciatella_0.22.1-git%2B11e9430_win-mingw64-cross.zip",
+      size: "39.5 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/ja2-stracciatella/ja2-stracciatella/releases/download/v0.22.1/ja2-stracciatella_0.22.1-git%2B11e9430_win-msvc32-142.exe",
+      size: "13.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/42/Jagged_Alliance_2_Coverart.png",
     alt: "Jagged Alliance 2 (box art)",

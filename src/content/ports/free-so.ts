@@ -26,6 +26,18 @@ export const freeSO: Port = {
     "Open-source reimplementation of The Sims Online that runs the original game data. It needs your own copy of the game.",
   notesEs:
     "Reimplementación de código abierto de The Sims Online que ejecuta los datos del juego original. Necesita tu propia copia del juego.",
+  downloads: [
+    {
+      label: "client-beta-update-91a",
+      url: "https://github.com/riperiperi/FreeSO/releases/download/beta-update-91a/client-beta-update-91a.zip",
+      size: "262.3 MB",
+    },
+    {
+      label: "incremental-beta-update-91a",
+      url: "https://github.com/riperiperi/FreeSO/releases/download/beta-update-91a/incremental-beta-update-91a.zip",
+      size: "7.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/db/The_Sims_Online_Cover.jpg",
     alt: "The Sims Online (cover)",

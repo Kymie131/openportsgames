@@ -23,6 +23,13 @@ export const lotrTwoTowersRecomp: Port = {
   related: ["lotr-return-of-the-king-recomp"],
   summary: "The Lord of the Rings: The Two Towers is a 2002 epic fantasy film directed by Peter Jackson from a screenplay by Fran Walsh, Philippa Boyens, Stephen Sinclair, and Jackson, based on 1954's The Two Towers, the second volume of the novel The Lord of the Rings by J. R. R. Tolkien. The sequel to 2001's The Lord of the Rings: The Fellowship of the Ring, the film is the second instalment in the Lord of the Rings trilogy.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Shagg88/Athelas/releases/download/1.8.2/Athelas-1.8.2.zip",
+      size: "153.2 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/the-lord-of-the-rings-the-two-towers.svg",
     alt: "The Lord of the Rings: The Two Towers (generated cover)",

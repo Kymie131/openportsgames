@@ -51,6 +51,13 @@ export const zelda3: Port = {
       "Lanza el port; los datos del original zelda3.sfc se reproducen localmente.",
     ],
   },
+  downloads: [
+    {
+      label: "zelda3_v0.3",
+      url: "https://github.com/snesrev/zelda3/releases/download/v0.3/zelda3_v0.3.zip",
+      size: "1.8 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20(USA).png",
     alt: "The Legend of Zelda: A Link to the Past (box art)",

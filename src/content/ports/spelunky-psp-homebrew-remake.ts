@@ -15,12 +15,24 @@ export const spelunkyPspHomebrewRemake: Port = {
   category: "homebrew",
   platforms: ["psp"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.5", date: "2021-05-15" },
   sources: ["https://github.com/dbeef/spelunky-psp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/dbeef/spelunky-psp/releases/download/v0.5/Spelunky_PSP_Android.apk",
+      size: "2.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/dbeef/spelunky-psp/releases/download/v0.5/Spelunky_PSP_Windows.zip",
+      size: "12.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/5b/Spelunky.jpg",
     alt: "Spelunky (box art)",

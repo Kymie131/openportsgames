@@ -14,7 +14,7 @@ export const Barrett: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.3-beta", date: "2026-06-14" },
   sources: ["https://github.com/lunarmeadow/barrett"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -23,6 +23,23 @@ export const Barrett: Port = {
   summary: "Barrett is a action-adventure game, released in 2000.",
   summaryEs: "Barrett es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/lunarmeadow/barrett/releases/download/v1.3-beta/barrett-linux.zip",
+      size: "901 KB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/lunarmeadow/barrett/releases/download/v1.3-beta/barrett-macOS.zip",
+      size: "906 KB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/lunarmeadow/barrett/releases/download/v1.3-beta/barrett-win64.zip",
+      size: "1.9 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/barrett.svg",
     alt: "Barrett (generated cover)",

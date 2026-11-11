@@ -14,7 +14,7 @@ export const pokemonRubyRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.0.11", date: "2026-11-11" },
   sources: ["https://github.com/mstan/RubySapphireRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
@@ -25,6 +25,18 @@ export const pokemonRubyRecomp: Port = {
     "Static recompilation of Pokémon Ruby (GBA) with the gbarecomp framework. It requires the original game.",
   notesEs:
     "Recompilación estática de Pokémon Ruby (GBA) con el framework gbarecomp. Requiere el juego original.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/RubySapphireRecomp/releases/download/v0.0.11/RubyRecomp-windows-x64-v0.0.11.zip",
+      size: "56.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/RubySapphireRecomp/releases/download/v0.0.11/SapphireRecomp-windows-x64-v0.0.11.zip",
+      size: "57.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20-%20Ruby%20Version%20(USA).png",
     alt: "Pokémon Ruby (box art)",

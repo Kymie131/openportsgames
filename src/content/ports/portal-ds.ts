@@ -20,6 +20,13 @@ export const portalDs: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "ASDS_r1",
+      url: "https://github.com/smealum/portalDS/releases/download/r1/ASDS_r1.zip",
+      size: "1.3 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/400/header.jpg",
     alt: "Portal (cover art)",

@@ -23,6 +23,13 @@ export const basara4Pc: Port = {
   originalSystems: ["PlayStation 4"],
   summary: "Sengoku Basara 4: Sumeragi is a 2015 hack-and-slash game developed and published by Capcom for PlayStation 4. It expands Sengoku Basara 4 with new characters, stages and story routes set in a stylised Warring States Japan.",
   summaryEs: "Sengoku Basara 4: Sumeragi es un videojuego de acción y hack and slash de 2015 desarrollado y publicado por Capcom para PlayStation 4. Amplía Sengoku Basara 4 con nuevos personajes, escenarios y rutas argumentales ambientadas en un Japón feudal estilizado.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/razzconnect/basara4-native-pc/releases/download/v1.0.8/basara4-windows-v1.08.zip",
+      size: "82.9 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/sengoku-basara-4-sumeragi.svg",
     alt: "Sengoku Basara 4: Sumeragi (generated cover)",

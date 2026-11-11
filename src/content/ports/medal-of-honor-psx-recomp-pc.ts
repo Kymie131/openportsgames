@@ -23,6 +23,13 @@ export const medalOfHonorPsxRecompPc: Port = {
   originalSystems: ["PlayStation"],
   summary: "Medal of Honor is a 2010 first-person shooter game developed by Danger Close Games and DICE and published by Electronic Arts. It is a reboot of the Medal of Honor video game series and the thirteenth installment in the series. The game was released for Microsoft Windows, PlayStation 3, Xbox 360 and J2ME in October 2010. While the previous titles were set during World War II, Medal of Honor takes place during the War in Afghanistan. The game is loosely based on parts of Operation Anaconda; specifically, the events surrounding the Battle of Roberts Ridge.",
   summaryEs: "Medal of Honor es un videojuego de disparos en primera persona de la serie de videojuegos Medal of Honor, desarrollado por EA Los Angeles y DICE para las plataformas de Windows, Xbox 360 y PlayStation 3 y publicado el 12 de octubre de 2010. Este videojuego marca un reinicio en la serie, con un nuevo escenario en el Afganistán contemporáneo. Su campaña de un jugador usa una versión ampliamente modificada del motor del videojuego Unreal Engine 3, mientras que el modo multijugador hace uso del motor Frostbite Engine.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/FractalEngineer/Medal-Of-Honor-PSX-Recomp/releases/download/v0.1.7/moh-0.1.7-windows-x64.zip",
+      size: "26.1 MB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/47790/header.jpg?t=1777494872",
     alt: "Medal of Honor (Steam header)",

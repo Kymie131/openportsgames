@@ -38,6 +38,18 @@ export const doom64ExPlus: Port = {
     "Complete source port of Doom 64. The project is archived on GitHub and its license is a custom Limited Use Software License, so the terms are not an OSI license. The upstream repository is archived (read-only).",
   notesEs:
     "Port de código fuente completo de Doom 64. El proyecto está archivado en GitHub y su licencia es una Limited Use Software License propia, por lo que sus términos no son una licencia OSI. El repositorio original está archivado (solo lectura).",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/atsb/Doom64EX-Plus/releases/download/5.2.0.0/doom64ex-plus-5.2.0.0-win64.zip",
+      size: "3.9 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/atsb/Doom64EX-Plus/releases/download/5.2.0.0/DOOM64EXPlus-5.2.0.0.dmg",
+      size: "9.1 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Doom%2064%20(USA).png",
     alt: "Doom 64 (box art)",

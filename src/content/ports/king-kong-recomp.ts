@@ -14,7 +14,7 @@ export const kingKongRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.1.3", date: "2026-11-09" },
   sources: ["https://github.com/TekRantGaming/king-kong-recompiled"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -26,6 +26,18 @@ export const kingKongRecomp: Port = {
     "Static recompilation of Peter Jackson's King Kong (the official game of the movie) for Windows. It needs your own copy of the game.",
   notesEs:
     "Recompilación estática de King Kong de Peter Jackson (el videojuego oficial de la película) para Windows. Necesita tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/TekRantGaming/king-kong-recompiled/releases/download/v2.1.3/KingKong-linux-x86_64.AppImage",
+      size: "217.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/TekRantGaming/king-kong-recompiled/releases/download/v2.1.3/KingKong-v2.1.3-windows-x64.zip",
+      size: "401.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Peter%20Jackson's%20King%20Kong%20-%20The%20Official%20Game%20of%20the%20Movie%20(Europe,%20Australia)%20(En,Fr,De,Es,It,Nl,Sv,No,Da,Fi).png",
     alt: "Peter Jackson's King Kong (box art)",

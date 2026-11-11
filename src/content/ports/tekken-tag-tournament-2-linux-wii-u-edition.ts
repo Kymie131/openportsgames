@@ -14,12 +14,29 @@ export const tekkenTagTournament2LinuxWiiUEdition: Port = {
   originalGameLicense: "proprietary",
   platforms: ["linux"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.5.1", date: "2026-11-03" },
   sources: ["https://github.com/Petexy/Tekken-Tag-2-Recompiled"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Wii U"],
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition/releases/download/v0.5.1/Ultimate_Launcher-x86_64.AppImage",
+      size: "3.2 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition/releases/download/v0.5.1/Ultimate_Launcher-x86_64.exe",
+      size: "7.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition/releases/download/v0.5.1/Ultimate_Launcher-x86_64.tar.gz",
+      size: "2.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/5c/Tekken_TT2_console.png",
     alt: "Tekken Tag Tournament 2 (box art)",

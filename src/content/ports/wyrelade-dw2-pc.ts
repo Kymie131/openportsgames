@@ -21,6 +21,18 @@ export const wyreladeDw2Pc: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "DW2-PC-linux-x64",
+      url: "https://github.com/Wyrelade/DW2-PC/releases/download/v1.0.0-beta/DW2-PC-linux-x64.zip",
+      size: "1.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Wyrelade/DW2-PC/releases/download/v1.0.0-beta/DW2-PC-windows-x64.zip",
+      size: "3.5 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Digimon%20World%202%20(USA).png",
     alt: "Digimon World 2 (box art)",

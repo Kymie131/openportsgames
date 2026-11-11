@@ -21,6 +21,13 @@ export const mercuryworkshopTerrariaWasm: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "terraria-wasm-build",
+      url: "https://github.com/MercuryWorkshop/terraria-wasm/releases/download/1.0/terraria-wasm-build.zip",
+      size: "34.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/1a/Terraria_Steam_artwork.jpg",
     alt: "Terraria (box art)",

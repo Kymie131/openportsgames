@@ -14,12 +14,19 @@ export const ghostshipAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.1", date: "2026-01-29" },
   sources: ["https://github.com/izzy2lost/Ghostship"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/izzy2lost/Ghostship/releases/download/1.0.1/app-release.apk",
+      size: "22.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
     alt: "Super Mario 64 (box art)",

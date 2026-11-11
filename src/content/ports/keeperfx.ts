@@ -37,6 +37,13 @@ export const keeperFx: Port = {
     "Started as a Dungeon Keeper decompilation and is now a full rewrite plus a fan expansion. Windows only, with native cross-platform builds listed as future work. Requires the original Dungeon Keeper files.",
   notesEs:
     "Empezó como decompilación de Dungeon Keeper y hoy es una reescritura completa más una expansión fan. Solo Windows, con builds nativas multiplataforma anunciadas como trabajo futuro. Requiere los archivos originales de Dungeon Keeper.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/dkfans/keeperfx/releases/download/v1.4.0/keeperfx_1_4_0_complete.7z",
+      size: "357.2 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Dungeon%20Keeper.png",
     alt: "Dungeon Keeper (box art)",

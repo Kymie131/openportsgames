@@ -20,6 +20,13 @@ export const birdAndBeansWii: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo DS"],
+  downloads: [
+    {
+      label: "Bird-and-Beans-GX",
+      url: "https://github.com/cmyksoda/Bird-and-Beans-GX/releases/download/v1.1.0/Bird-and-Beans-GX.zip",
+      size: "2.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/62/Bird_%26_Beans_Cover.png",
     alt: "Bird & Beans (box art)",

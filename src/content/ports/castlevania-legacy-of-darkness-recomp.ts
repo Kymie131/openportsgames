@@ -14,13 +14,25 @@ export const castlevaniaLegacyOfDarknessRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows","android"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.2.31", date: "2026-09-29" },
   sources: ["https://github.com/sergiomanzur/cvlod_recomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["castlevania-64-recomp"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/sergiomanzur/cvlod_recomp/releases/download/v0.2.31/LodRecomp-v0.2.31-android.apk",
+      size: "83.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/sergiomanzur/cvlod_recomp/releases/download/v0.2.31/LodRecomp-v0.2.31-windows-x64.zip",
+      size: "28.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/37/Castlevania_Legacy_of_Darkness.jpg",
     alt: "Castlevania: Legacy of Darkness (box art)",

@@ -14,13 +14,30 @@ export const marioKartWiiAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.4.0", date: "2026-11-02" },
   sources: ["https://github.com/dorPXP/driftdroid"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Wii"],
   related: ["wiicompiled"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/dorPXP/driftdroid/releases/download/v1.4.0/DriftDroid-Builder-1.4.0-linux.zip",
+      size: "132.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/dorPXP/driftdroid/releases/download/v1.4.0/DriftDroid-Builder-1.4.0-windows.zip",
+      size: "135.7 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/dorPXP/driftdroid/releases/download/v1.4.0/DriftDroid-v1.4.0.apk",
+      size: "190.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png",
     alt: "Mario Kart Wii (box art)",

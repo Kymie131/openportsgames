@@ -42,6 +42,23 @@ export const twoShip: Port = {
       "Lanza el port; los datos del juego se leen localmente desde o2r.otr y nunca se redistribuyen.",
     ],
   },
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/2ship2harkinian/2ship2harkinian/releases/download/5.0.1/2Ship-Battler-Bravo-Linux.zip",
+      size: "15.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/2ship2harkinian/2ship2harkinian/releases/download/5.0.1/2Ship-Battler-Bravo-Mac.zip",
+      size: "25.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/2ship2harkinian/2ship2harkinian/releases/download/5.0.1/2Ship-Battler-Bravo-Win64.zip",
+      size: "42.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg",
     alt: "The Legend of Zelda: Majora's Mask (box art)",

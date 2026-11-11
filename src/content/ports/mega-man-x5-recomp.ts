@@ -14,7 +14,7 @@ export const megaManX5Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.0-alpha", date: "2026-09-12" },
   sources: ["https://github.com/mstan/MegaManX5Recomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
@@ -25,6 +25,18 @@ export const megaManX5Recomp: Port = {
     "Native recompilation of Mega Man X5 (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Mega Man X5 (PlayStation). El jugador aporta su propio material obtenido legalmente (imagen de disco); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/mstan/MegaManX5Recomp/releases/download/v0.1.0-alpha/MegaManX5Recomp-v0.1.0-alpha-linux-x86_64.AppImage",
+      size: "40.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/MegaManX5Recomp/releases/download/v0.1.0-alpha/MegaManX5Recomp-v0.1.0-alpha-windows-x64.zip",
+      size: "36.3 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Mega%20Man%20X5%20(USA).png",
     alt: "Mega Man X5 (box art)",

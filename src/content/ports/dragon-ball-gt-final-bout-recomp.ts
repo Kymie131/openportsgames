@@ -14,7 +14,7 @@ export const dragonBallGtFinalBoutRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.1", date: "2026-09-26" },
   sources: ["https://github.com/novapowers0/DB-Final-Bout-Recomp"],
   license: { spdx: "MIT" },
   verified: false,
@@ -26,6 +26,13 @@ export const dragonBallGtFinalBoutRecomp: Port = {
     "Static recompilation of Dragon Ball GT: Final Bout (PlayStation, SLUS-00493) for Windows, with widescreen, Vulkan and LAN/direct-IP netplay. Bring your own disc.",
   notesEs:
     "Recompilación estática de Dragon Ball GT: Final Bout (PlayStation, SLUS-00493) para Windows, con panorámico, Vulkan y netplay por LAN/IP directa. Aporta tu propio disco.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/novapowers0/DB-Final-Bout-Recomp/releases/download/v0.1.1/dbfb-0.1.1-setup-host-win64.zip",
+      size: "31.5 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Dragon%20Ball%20GT%20-%20Final%20Bout%20(USA).png",
     alt: "Dragon Ball GT: Final Bout (cover)",

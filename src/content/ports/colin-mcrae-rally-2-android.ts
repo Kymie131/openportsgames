@@ -21,6 +21,38 @@ export const colinMcraeRally2Android: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/pablocpas/OpenCMR2/releases/download/v1.8.7/OpenCMR2-Android.apk",
+      size: "14.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/pablocpas/OpenCMR2/releases/download/v1.8.7/OpenCMR2-Linux-arm64.tar.gz",
+      size: "8.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/pablocpas/OpenCMR2/releases/download/v1.8.7/OpenCMR2-Linux-i686.tar.gz",
+      size: "9.3 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/pablocpas/OpenCMR2/releases/download/v1.8.7/OpenCMR2-Linux-x86_64.tar.gz",
+      size: "9.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/pablocpas/OpenCMR2/releases/download/v1.8.7/OpenCMR2-macOS-arm64.zip",
+      size: "2.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/pablocpas/OpenCMR2/releases/download/v1.8.7/OpenCMR2-Windows-x64.zip",
+      size: "2.8 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Colin%20McRae%20Rally%202.0%20(Europe)%20(En,Fr,De,Es,It)%20(Rev%201).png",
     alt: "Colin McRae Rally 2.0 (box art)",

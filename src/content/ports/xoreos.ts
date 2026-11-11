@@ -14,7 +14,7 @@ export const Xoreos: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.0.6", date: "2020-08-03" },
   sources: ["https://github.com/xoreos/xoreos"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -23,6 +23,38 @@ export const Xoreos: Port = {
   summary: "xoreos is a action-adventure game, released in 2000.",
   summaryEs: "xoreos es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/xoreos/xoreos/releases/download/v0.0.6/xoreos-0.0.6-linux32.tar.gz",
+      size: "16.6 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/xoreos/xoreos/releases/download/v0.0.6/xoreos-0.0.6-linux64.tar.gz",
+      size: "16.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/xoreos/xoreos/releases/download/v0.0.6/xoreos-0.0.6-mac64.tar.gz",
+      size: "31.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/xoreos/xoreos/releases/download/v0.0.6/xoreos-0.0.6-win32.zip",
+      size: "9.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/xoreos/xoreos/releases/download/v0.0.6/xoreos-0.0.6-win64.zip",
+      size: "8.5 MB",
+    },
+    {
+      label: "xoreos-0.0.6",
+      url: "https://github.com/xoreos/xoreos/releases/download/v0.0.6/xoreos-0.0.6.tar.gz",
+      size: "4.2 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/xoreos.svg",
     alt: "xoreos (generated cover)",

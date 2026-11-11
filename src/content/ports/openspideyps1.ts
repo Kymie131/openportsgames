@@ -23,6 +23,13 @@ export const Openspideyps1: Port = {
   summary: "OpenSpideyPS1 is a action-adventure game for PlayStation, released in 2000.",
   summaryEs: "OpenSpideyPS1 es un videojuego de acci�n y aventura para PlayStation, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/GTTeancum/SpideyPS1recomp/releases/download/sm2-v1.1/Spider-Man-2-1.1-Windows-x64.zip",
+      size: "171.4 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/openspideyps1.svg",
     alt: "OpenSpideyPS1 (generated cover)",

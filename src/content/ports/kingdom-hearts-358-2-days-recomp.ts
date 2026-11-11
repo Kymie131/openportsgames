@@ -14,7 +14,7 @@ export const kingdomHearts3582DaysRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.5", date: "2026-11-06" },
   sources: ["https://github.com/Yokimitsuro/khdays-port"],
   license: { spdx: "MIT" },
   verified: false,
@@ -26,6 +26,18 @@ export const kingdomHearts3582DaysRecomp: Port = {
     "Experimental native PC runtime for Kingdom Hearts 358/2 Days (Nintendo DS). It needs your own copy of the game.",
   notesEs:
     "Runtime nativo experimental para PC de Kingdom Hearts 358/2 Days (Nintendo DS). Necesita tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Yokimitsuro/khdays-port/releases/download/v0.1.5/KH-Studio-0.1.5.zip",
+      size: "4.1 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/Yokimitsuro/khdays-port/releases/download/v0.1.5/KH358-2-Days-Port-Setup-0.1.5.exe",
+      size: "30.4 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Kingdom%20Hearts%20-%20358-2%20Days%20(Europe)%20(En,Fr,De,Es,It).png",
     alt: "Kingdom Hearts 358/2 Days (box art)",

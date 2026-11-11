@@ -14,13 +14,20 @@ export const goldeneye007Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.2.4", date: "2026-06-18" },
   sources: ["https://github.com/SunJaycy/GoldenEye-Recomp"],
   license: { spdx: "Unlicense" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["goldeneye-64-recompiled","goldeneye-007-xbla-recomp"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/SunJaycy/GoldenEye-Recomp/releases/download/Goldeneye1.2.4/GoldenEye-Recomp-Win.rar",
+      size: "9.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/13/GoldenEye_007_N64_cover.jpg",
     alt: "GoldenEye 007 (box art)",

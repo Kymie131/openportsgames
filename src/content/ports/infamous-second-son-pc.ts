@@ -14,12 +14,24 @@ export const infamousSecondSonPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0", date: "2026-10-22" },
   sources: ["https://github.com/HayatoG/iss_pc"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 4"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/HayatoG/iss_pc/releases/download/v1.0/infamous-linux-x86_64.tar.gz",
+      size: "93.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/HayatoG/iss_pc/releases/download/v1.0/infamous-windows-x86_64.zip",
+      size: "117.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/34/Infamous_second_son_boxart.jpg",
     alt: "inFAMOUS Second Son (box art)",

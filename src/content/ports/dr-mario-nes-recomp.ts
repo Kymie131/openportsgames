@@ -14,7 +14,7 @@ export const drMarioNesRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.3.1", date: "2026-10-19" },
   sources: ["https://github.com/mstan/DrMarioNesRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
@@ -25,6 +25,18 @@ export const drMarioNesRecomp: Port = {
     "Static recompilation of Dr. Mario (NES) with the NESRecomp framework. Playable: title screen, options menu and 1-player mode, with separate builds for the USA (Rev 1) and European ROMs.",
   notesEs:
     "Recompilación estática de Dr. Mario (NES) con el framework NESRecomp. Jugable: pantalla de título, menú de opciones y el modo de un jugador, con builds separadas para la ROM USA (Rev 1) y la europea.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/DrMarioNesRecomp/releases/download/v1.3.1/DrMarioRecomp-eu-windows-x64.zip",
+      size: "4.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/DrMarioNesRecomp/releases/download/v1.3.1/DrMarioRecomp-usa-windows-x64.zip",
+      size: "4.5 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Dr.%20Mario%20(USA)%20(Beta).png",
     alt: "Dr. Mario (box art)",

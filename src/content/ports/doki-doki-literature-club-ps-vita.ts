@@ -14,12 +14,19 @@ export const dokiDokiLiteratureClubPsVita: Port = {
   originalGameLicense: "proprietary",
   platforms: ["psvita"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.2.3", date: "2021-09-16" },
   sources: ["https://github.com/LukeZGD/DDLC-LOVE"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "DDLC-LOVE-PSP",
+      url: "https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.2.3/DDLC-LOVE-PSP.zip",
+      size: "83.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/7c/Doki_Doki_Literature_Club_Cover.jpg",
     alt: "Doki Doki Literature Club! (box art)",

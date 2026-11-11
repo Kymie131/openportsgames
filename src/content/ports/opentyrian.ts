@@ -27,6 +27,33 @@ export const openTyrian: Port = {
     "Open source port of the vertical scrolling shooter Tyrian. The game data is not included and must be supplied by the player.",
   notesEs:
     "Port de código abierto del shooter de desplazamiento vertical Tyrian. Los datos del juego no se incluyen y debe aportarlos el jugador.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/opentyrian/opentyrian/releases/download/v2.1.20260913/opentyrian-v2.1.20260913-linux-arm64.tar.gz",
+      size: "5.7 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/opentyrian/opentyrian/releases/download/v2.1.20260913/opentyrian-v2.1.20260913-linux-x86_64.tar.gz",
+      size: "5.7 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/opentyrian/opentyrian/releases/download/v2.1.20260913/opentyrian-v2.1.20260913-macos-universal.zip",
+      size: "6.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/opentyrian/opentyrian/releases/download/v2.1.20260913/opentyrian-v2.1.20260913-windows-arm64.zip",
+      size: "5.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/opentyrian/opentyrian/releases/download/v2.1.20260913/opentyrian-v2.1.20260913-windows-x86_64.zip",
+      size: "5.8 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Tyrian.png",
     alt: "Tyrian (box art)",

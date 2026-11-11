@@ -14,7 +14,7 @@ export const marioKartSuperCircuitRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.13", date: "2026-11-01" },
   sources: ["https://github.com/mstan/MarioKartSuperCircuitRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
@@ -25,6 +25,18 @@ export const marioKartSuperCircuitRecomp: Port = {
     "Static recompilation of Mario Kart: Super Circuit (GBA, USA) with the gbarecomp framework. It needs the ROM and the GBA BIOS; it adds optional 60 FPS and adaptive widescreen mods, plus two-player netplay over an emulated link cable.",
   notesEs:
     "Recompilación estática de Mario Kart: Super Circuit (GBA, USA) con el framework gbarecomp. Necesita la ROM y la BIOS de GBA; añade mods opcionales de 60 FPS y widescreen adaptativo, y netplay de dos jugadores por cable link emulado.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/mstan/MarioKartSuperCircuitRecomp/releases/download/v0.1.13/MarioKartSuperCircuitRecomp-linux-x86_64-v0.1.13.AppImage",
+      size: "19.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/MarioKartSuperCircuitRecomp/releases/download/v0.1.13/MarioKartSuperCircuitRecomp-windows-x64-v0.1.13.zip",
+      size: "20.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Mario%20Kart%20-%20Super%20Circuit%20(USA).png",
     alt: "Mario Kart: Super Circuit (box art)",

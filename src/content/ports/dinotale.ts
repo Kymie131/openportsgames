@@ -14,7 +14,7 @@ export const dinoTale: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.8", date: "2026-11-10" },
   sources: ["https://github.com/wootbeer/dinotale"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -26,6 +26,18 @@ export const dinoTale: Port = {
     "Native recompilation of Yoshi's Story (Nintendo 64) built with N64Recomp and rendered with RT64, for Windows and Linux including the Steam Deck. The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Yoshi's Story (Nintendo 64) creada con N64Recomp y renderizada con RT64, para Windows y Linux, incluida Steam Deck. El jugador aporta su ROM obtenida legalmente; el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/wootbeer/dinotale/releases/download/0.1.8/DinoTale-0.1.8-linux.tar.gz",
+      size: "7.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/wootbeer/dinotale/releases/download/0.1.8/DinoTale-0.1.8-windows.zip",
+      size: "17.3 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Yoshi%27s%20Story%20(USA)%20(En,Ja).png",
     alt: "Yoshi's Story (box art)",

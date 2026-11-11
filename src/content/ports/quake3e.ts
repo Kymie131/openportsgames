@@ -23,6 +23,38 @@ export const Quake3e: Port = {
   summary: "Quake3e is a shooter game, released in 2000.",
   summaryEs: "Quake3e es un videojuego de disparos, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/ec-/Quake3e/releases/download/latest/quake3e-linux-arm64.zip",
+      size: "2.0 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/ec-/Quake3e/releases/download/latest/quake3e-linux-x86.zip",
+      size: "2.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/ec-/Quake3e/releases/download/latest/quake3e-linux-x86_64.zip",
+      size: "2.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/ec-/Quake3e/releases/download/latest/quake3e-macos-aarch64.zip",
+      size: "3.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/ec-/Quake3e/releases/download/latest/quake3e-macos-x86_64.zip",
+      size: "3.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/ec-/Quake3e/releases/download/latest/quake3e-windows-mingw-x86.zip",
+      size: "2.2 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/quake3e.svg",
     alt: "Quake3e (generated cover)",

@@ -14,12 +14,24 @@ export const twilightPrincessSwitchAlekSEdition: Port = {
   originalGameLicense: "proprietary",
   platforms: ["switch"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1.3", date: "2026-11-10" },
   sources: ["https://github.com/Alexgg1014/The-Legend-of-Zelda-Twilight-Princess-Alek-s-Ultimate-NX-Edition"],
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
+  downloads: [
+    {
+      label: "Switch",
+      url: "https://github.com/Alexgg1014/The-Legend-of-Zelda-Twilight-Princess-Alek-s-Ultimate-NX-Edition/releases/download/v1.1.3/Alek-Ultimate-NX-v1.1.3.zip",
+      size: "104.9 MB",
+    },
+    {
+      label: "Switch NRO",
+      url: "https://github.com/Alexgg1014/The-Legend-of-Zelda-Twilight-Princess-Alek-s-Ultimate-NX-Edition/releases/download/v1.1.3/dusklight.nro",
+      size: "170.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/0e/The_Legend_of_Zelda_Twilight_Princess_Game_Cover.jpg",
     alt: "The Legend of Zelda: Twilight Princess (box art)",

@@ -14,12 +14,19 @@ export const deadOrAliveXtremeBeachVolleyballAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.4.2-ru-USA6-Beach", date: "2026-10-12" },
   sources: ["https://github.com/Wannamingo/DoAXBV"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Wannamingo/DoAXBV/releases/download/v0.4.2-ru-USA6-Beach/DOAXBV.apk",
+      size: "49.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/8d/Doaxbvbox.jpg",
     alt: "Dead or Alive: Xtreme Beach Volleyball (box art)",

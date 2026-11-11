@@ -14,7 +14,7 @@ export const naughtyBearRestuff: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.5.1", date: "2026-09-10" },
   sources: ["https://github.com/MaxDeadBear/NaughtyBear_ReStuff"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,18 @@ export const naughtyBearRestuff: Port = {
     "Native recompilation of Naughty Bear (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Naughty Bear (Xbox 360). El jugador aporta su propio material obtenido legalmente (volcado del disco); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/MaxDeadBear/NaughtyBear_ReStuff/releases/download/release_v1.5.1/ReStuff-linux-x64.tar.gz",
+      size: "59.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/MaxDeadBear/NaughtyBear_ReStuff/releases/download/release_v1.5.1/restuff-win-x64.zip",
+      size: "35.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/0f/Naughty_Bear.jpg",
     alt: "Naughty Bear (box art)",

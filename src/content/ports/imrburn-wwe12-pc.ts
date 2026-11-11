@@ -23,6 +23,18 @@ export const imrburnWwe12Pc: Port = {
   originalSystems: ["Xbox 360"],
   summary: "WWE '12 is a professional wrestling video game developed by Yuke's and published by THQ for the PlayStation 3, Wii, and Xbox 360. It was released on November 22, 2011, in North America, November 25 in Europe, and on January 26, 2012, in Japan. A Europe-exclusive WWE '12 WrestleMania Edition was released on May 25, 2012.",
   summaryEs: "WWE '12 es un videojuego de lucha libre profesional desarrollado por Yuke's y publicado por THQ para los sistemas PlayStation 3, Wii y Xbox 360. Es el primer juego de la serie WWE, el décimo cuarto en la serie combinada y es la secuela de WWE SmackDown vs. Raw 2011. Fue lanzado el 22 de noviembre de 2011 en América del Norte y el 25 de noviembre en el Reino Unido.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/iMrBurn/wwe12-pc/releases/download/v1.2.0/WWE12-PC-Android-v1.2.0.apk",
+      size: "38.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/iMrBurn/wwe12-pc/releases/download/v1.2.0/WWE12-PC-v1.2.0.zip",
+      size: "104.6 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/wwe-12.svg",
     alt: "WWE '12 (generated cover)",

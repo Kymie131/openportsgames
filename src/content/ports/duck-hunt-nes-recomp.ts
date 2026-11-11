@@ -14,7 +14,7 @@ export const duckHuntNesRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.2.1", date: "2026-10-19" },
   sources: ["https://github.com/mstan/DuckHuntNESRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
@@ -25,6 +25,13 @@ export const duckHuntNesRecomp: Port = {
     "Static recompilation of Duck Hunt (NES) with the NESRecomp framework. Playable, and the Zapper is driven by the mouse: you aim with the cursor and fire with the left click.",
   notesEs:
     "Recompilación estática de Duck Hunt (NES) con el framework NESRecomp. Jugable, y el Zapper se maneja con el ratón: apuntas con el cursor y disparas con el clic izquierdo.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/DuckHuntNESRecomp/releases/download/v1.2.1/DuckHuntRecomp-windows-x64.zip",
+      size: "4.3 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Duck%20Hunt%20(World).png",
     alt: "Duck Hunt (box art)",

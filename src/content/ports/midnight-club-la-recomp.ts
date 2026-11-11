@@ -14,7 +14,7 @@ export const midnightClubLaRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.14", date: "2026-10-29" },
   sources: ["https://github.com/holdmysocks/mcla-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -26,6 +26,13 @@ export const midnightClubLaRecomp: Port = {
     "Static recompilation of Midnight Club: Los Angeles (Xbox 360) for PC and PS5. No game data included.",
   notesEs:
     "Recompilación estática de Midnight Club: Los Angeles (Xbox 360) para PC y PS5. No incluye datos del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/holdmysocks/mcla-recomp/releases/download/v1.0.14/mcla-recomp-v1.0.14.zip",
+      size: "544 KB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/ea/Midnight_Club-Los_Angeles.jpg",
     alt: "Midnight Club: Los Angeles (box art)",

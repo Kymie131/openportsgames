@@ -14,13 +14,20 @@ export const minishCapAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.2", date: "2026-08-19" },
   sources: ["https://github.com/samyost1/tmc-android"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy Advance"],
   related: ["project-picori","minish-cap"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/samyost1/tmc-android/releases/download/v1.2/tmc-dual-screen-v1.2.apk",
+      size: "27.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/0a/TLOZ-_Minish_Cap_NA_Box_art.png",
     alt: "The Legend of Zelda: The Minish Cap (box art)",

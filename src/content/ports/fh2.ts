@@ -62,6 +62,38 @@ export const fh2: Port = {
       credit: "fheroes2",
     },
   ],
+  downloads: [
+    {
+      label: "Android",
+      url: "https://github.com/ihhub/fheroes2/releases/download/1.1.18/fheroes2_android.zip",
+      size: "26.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/ihhub/fheroes2/releases/download/1.1.18/fheroes2_macos_x86-64_SDL2.zip",
+      size: "5.1 MB",
+    },
+    {
+      label: "fheroes2_psv",
+      url: "https://github.com/ihhub/fheroes2/releases/download/1.1.18/fheroes2_psv.zip",
+      size: "14.3 MB",
+    },
+    {
+      label: "Switch",
+      url: "https://github.com/ihhub/fheroes2/releases/download/1.1.18/fheroes2_switch.zip",
+      size: "8.5 MB",
+    },
+    {
+      label: "fheroes2_ubuntu_arm64_SDL2",
+      url: "https://github.com/ihhub/fheroes2/releases/download/1.1.18/fheroes2_ubuntu_arm64_SDL2.zip",
+      size: "5.4 MB",
+    },
+    {
+      label: "fheroes2_ubuntu_x86-64_SDL2",
+      url: "https://github.com/ihhub/fheroes2/releases/download/1.1.18/fheroes2_ubuntu_x86-64_SDL2.zip",
+      size: "5.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/90/Heroes_2_cover.jpg",
     alt: "Heroes of Might and Magic II (box art)",

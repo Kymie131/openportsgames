@@ -14,12 +14,19 @@ export const beatBangerPsVita: Port = {
   originalGameLicense: "proprietary",
   platforms: ["psvita"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.99", date: "2025-10-06" },
   sources: ["https://github.com/masteroga101/Beat-Banger-PsVita-"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "BeatBangerPatcher",
+      url: "https://github.com/masteroga101/Beat-Banger-PsVita-/releases/download/v0.99/BeatBangerPatcher.7z",
+      size: "87.5 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1813430/header.jpg",
     alt: "Beat Banger (cover art)",

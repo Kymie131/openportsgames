@@ -22,6 +22,13 @@ export const gravityRushRemasteredPc: Port = {
   originalSystems: ["PlayStation 4"],
   summary: "Gravity Rush Remastered is a 2015 action-adventure game developed by SIE Japan Studio and Bluepoint Games and published by Sony Computer Entertainment for PlayStation 4. It follows Kat, a young woman who can manipulate gravity, as she protects the floating city of Hekseville.",
   summaryEs: "Gravity Rush Remastered es un videojuego de acción y aventura de 2015 desarrollado por SIE Japan Studio y Bluepoint Games y publicado por Sony Computer Entertainment para PlayStation 4. Sigue a Kat, una joven capaz de manipular la gravedad, mientras protege la ciudad flotante de Hekseville.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/LucaPazienza/gravityrush_pc/releases/download/v0.1.15/GravityRush-PC-0.1.15-Windows.zip",
+      size: "107.0 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/gravity-rush-remastered.svg",
     alt: "Gravity Rush Remastered (generated cover)",

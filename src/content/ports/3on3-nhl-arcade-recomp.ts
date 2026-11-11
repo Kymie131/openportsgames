@@ -14,12 +14,19 @@ export const _3on3NhlArcadeRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.1", date: "2026-10-06" },
   sources: ["https://github.com/Wndwsqrrl/3on3NHL-recomp"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Wndwsqrrl/3on3NHL-recomp/releases/download/v0.1.1/3on3NHL-recomp-v0.1.1-win64.zip",
+      size: "87.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/ea/3_on_3_NHL_Arcade_cover.jpg",
     alt: "3 on 3 NHL Arcade (box art)",

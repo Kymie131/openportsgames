@@ -14,12 +14,24 @@ export const falloutPs3: Port = {
   originalGameLicense: "proprietary",
   platforms: ["ps3"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.0", date: "2026-08-04" },
   sources: ["https://github.com/akinozgen/fallout1-ce-ps3"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
+  downloads: [
+    {
+      label: "Macos",
+      url: "https://github.com/akinozgen/fallout1-ce-ps3/releases/download/v0.1.0/fallout1-ce-ps3-hen.pkg",
+      size: "1.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/akinozgen/fallout1-ce-ps3/releases/download/v0.1.0/fallout1-ce-ps3-rpcs3.pkg",
+      size: "1.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/af/Fallout.jpg",
     alt: "Fallout (box art)",

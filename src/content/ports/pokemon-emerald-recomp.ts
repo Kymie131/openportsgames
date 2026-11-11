@@ -14,7 +14,7 @@ export const pokemonEmeraldRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.5", date: "2026-11-01" },
   sources: ["https://github.com/mstan/EmeraldRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
@@ -25,6 +25,23 @@ export const pokemonEmeraldRecomp: Port = {
     "Static recompilation of Pokémon Emerald (GBA) with the gbarecomp framework. It requires your own game files.",
   notesEs:
     "Recompilación estática de Pokémon Emerald (GBA) con el framework gbarecomp. Requiere tus propios archivos del juego.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/mstan/EmeraldRecomp/releases/download/v0.1.5/EmeraldRecomp-android-arm64-v0.1.5.apk",
+      size: "57.7 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/mstan/EmeraldRecomp/releases/download/v0.1.5/EmeraldRecomp-linux-x86_64-v0.1.5.AppImage",
+      size: "73.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/EmeraldRecomp/releases/download/v0.1.5/EmeraldRecomp-windows-x64-v0.1.5.zip",
+      size: "78.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20-%20Emerald%20Version%20(USA,%20Europe).png",
     alt: "Pokémon Emerald (box art)",

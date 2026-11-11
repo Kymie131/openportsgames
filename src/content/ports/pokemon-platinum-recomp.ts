@@ -14,7 +14,7 @@ export const pokemonPlatinumRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.2.1", date: "2026-11-07" },
   sources: ["https://github.com/cybervisi0n/pokeplatinum"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,28 @@ export const pokemonPlatinumRecomp: Port = {
     "64-bit PC port of Pokémon Platinum based on the pret decompilation and the libntr suite. It needs a copy of the game.",
   notesEs:
     "Port para PC de 64 bits de Pokémon Platinum basado en la decompilación de pret y la suite libntr. Necesita una copia del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/cybervisi0n/pokeplatinum/releases/download/v0.2.1/release_linux.zip",
+      size: "69.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/cybervisi0n/pokeplatinum/releases/download/v0.2.1/release_nx.zip",
+      size: "6.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/cybervisi0n/pokeplatinum/releases/download/v0.2.1/release_ps5.zip",
+      size: "15.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/cybervisi0n/pokeplatinum/releases/download/v0.2.1/release_win64.zip",
+      size: "41.1 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Pokemon%20-%20Platinum%20Version%20(USA).png",
     alt: "Pokémon Platinum (box art)",

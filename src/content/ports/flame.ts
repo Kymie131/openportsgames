@@ -21,6 +21,18 @@ export const Flame: Port = {
   originalSystems: ["Unknown"],
   summary: "The Flame in the Flood is a 2016 roguelike survival adventure video game developed by The Molasses Flood and published by Curve Digital. The game was developed for Microsoft Windows, macOS, and Xbox One. A PlayStation 4 version was released on January 17, 2017. A Nintendo Switch version was released on October 12, 2017. Publishing rights were moved to CD Projekt after its acquisition of The Molasses Flood.",
   summaryEs: "Flame Con es una convención anual multigénero de cómics y entretenimiento de dos días, enfocada en fanáticos y creadores de la cultura pop que son lesbianas, gays, bisexuales, transgénero y queer (LGBTQ). Lanzada en 2015, es la primera convención de cómics LGBTQ en la ciudad de Nueva York, y la convención de cómics LGBTIQ más grande del mundo.",
+  downloads: [
+    {
+      label: "Flame-1.7.0-260228",
+      url: "https://github.com/DiaLight/Flame/releases/download/v260206/Flame-1.7.0-260228.zip",
+      size: "2.8 MB",
+    },
+    {
+      label: "Quuz-LevelFixes-LordsOnly-20261029",
+      url: "https://github.com/DiaLight/Flame/releases/download/v260206/Quuz-LevelFixes-LordsOnly-20261029.zip",
+      size: "20 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/flame.svg",
     alt: "Flame (generated cover)",

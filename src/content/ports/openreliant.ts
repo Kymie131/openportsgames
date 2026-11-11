@@ -24,6 +24,38 @@ export const openreliant: Port = {
     "StarLancer is a space combat simulation developed by Digital Anvil and published by Microsoft in 2000. It follows a volunteer squadron fighting a war against the Coalition.",
   summaryEs:
     "StarLancer es una simulación de combate espacial desarrollada por Digital Anvil y publicada por Microsoft en 2000. Sigue a un escuadrón de voluntarios que lucha contra la Coalición.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/OpenReliant/openreliant/releases/download/v1.0.0/openreliant-v1.0.0-linux-aarch64.tar.gz",
+      size: "9.4 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/OpenReliant/openreliant/releases/download/v1.0.0/openreliant-v1.0.0-linux-x86_64.tar.gz",
+      size: "10.0 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/OpenReliant/openreliant/releases/download/v1.0.0/openreliant-v1.0.0-macos-aarch64.tar.gz",
+      size: "9.0 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/OpenReliant/openreliant/releases/download/v1.0.0/openreliant-v1.0.0-macos-x86_64.tar.gz",
+      size: "9.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/OpenReliant/openreliant/releases/download/v1.0.0/openreliant-v1.0.0-windows-aarch64.zip",
+      size: "8.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/OpenReliant/openreliant/releases/download/v1.0.0/openreliant-v1.0.0-windows-x86_64.zip",
+      size: "9.7 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/openreliant.svg",
     alt: "StarLancer (generated cover)",

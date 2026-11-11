@@ -14,13 +14,30 @@ export const kartpad: Port = {
   originalGameLicense: "proprietary",
   platforms: ["ios","android","macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.8.10", date: "2026-11-09" },
   sources: ["https://github.com/chrissotraidis/kartpad"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Wii"],
   related: ["mario-kart-wii-android"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.10/KartPad-v0.8.10-android.apk",
+      size: "67.3 MB",
+    },
+    {
+      label: "iOS IPA",
+      url: "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.10/KartPad-v0.8.10-ios-for-padmint.ipa",
+      size: "9.0 MB",
+    },
+    {
+      label: "KartPad-v0.8.10-notices",
+      url: "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.10/KartPad-v0.8.10-notices.zip",
+      size: "31 KB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png",
     alt: "Mario Kart Wii (box art)",

@@ -14,7 +14,7 @@ export const hacxClassicCoreEngines: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "3.6.0", date: "2026-11-11" },
   sources: ["https://github.com/sandstranger/com.mobilerpgpack.phone"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -22,6 +22,18 @@ export const hacxClassicCoreEngines: Port = {
   originalSystems: ["Unknown"],
   summary: "Doom modding is the practice of creating modifications for games in the first-person shooter franchise Doom developed by id Software, such as the original Doom and its sequel, Doom II: Hell on Earth. These modifications allow players to design new levels, change graphics and sounds, and adjust gameplay mechanics.",
   summaryEs: "HacX es un videojuego de disparos.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/sandstranger/com.mobilerpgpack.phone/releases/download/3.6.0/Classic_Core_fdroid_release_arm64-v8a_v3.6.0_b142_2026_11_11_15_18.apk",
+      size: "152.0 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/sandstranger/com.mobilerpgpack.phone/releases/download/3.6.0/Classic_Core_fdroid_release_armeabi-v7a_v3.6.0_b142_2026_11_11_15_18.apk",
+      size: "151.4 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/hacx.svg",
     alt: "HacX (generated cover)",

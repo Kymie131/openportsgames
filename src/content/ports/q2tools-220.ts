@@ -23,6 +23,23 @@ export const Q2tools220: Port = {
   summary: "q2tools-220 is a shooter game, released in 2000.",
   summaryEs: "q2tools-220 es un videojuego de disparos, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/qbism/q2tools-220/releases/download/v05-30-26/Linux.7z",
+      size: "138 KB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/qbism/q2tools-220/releases/download/v05-30-26/macOS.7z",
+      size: "108 KB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/qbism/q2tools-220/releases/download/v05-30-26/Windows-MinGW.7z",
+      size: "140 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/q2tools-220.svg",
     alt: "q2tools-220 (generated cover)",

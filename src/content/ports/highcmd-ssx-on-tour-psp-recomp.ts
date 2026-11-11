@@ -23,6 +23,13 @@ export const highcmdSsxOnTourPspRecomp: Port = {
   originalSystems: ["PlayStation Portable"],
   summary: "SSX on Tour is a 2005 sports video game developed by EA Canada and published by Electronic Arts under the EA Sports BIG label for the GameCube, PlayStation 2, Xbox and PlayStation Portable. It is the fourth title in the SSX series.",
   summaryEs: "SSX on Tour es un videojuego de snowboarding, el 4º título de la serie de juegos SSX para Nintendo GameCube, PlayStation 2, PSP y Xbox. Fue lanzado en Norteamérica el 11 de octubre de 2005 y en el Reino Unido el 21 de octubre de 2005. La versión para la PSP fue lanzada en Reino Unido el 28 de octubre de 2005. A diferencia de su predecesor SSX 3, On Tour no es compatible con versiones anteriores de la Xbox 360.",
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/highcmd/ssx-on-tour-psp-recomp/releases/download/v0.2.2/SSXLauncher.exe",
+      size: "13.7 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/ssx-on-tour.svg",
     alt: "SSX On Tour (generated cover)",

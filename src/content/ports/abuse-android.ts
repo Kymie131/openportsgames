@@ -14,7 +14,7 @@ export const abuseAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1", date: "2026-10-05" },
   sources: ["https://github.com/ShadowPilotX/Abuse-Android"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -22,6 +22,13 @@ export const abuseAndroid: Port = {
   originalSystems: ["MS-DOS"],
   summary: "Abuse is a run and gun video game developed by Crack dot Com and published by Electronic Arts in North America and Origin Systems in Europe. It was released on February 29, 1996 for MS-DOS. A Mac OS port of the game was published by Bungie and released on March 5, 1997. The game's source code, along with some of the shareware content, has been in the public domain since the late 1990s and has been ported to Linux and many other platforms.",
   summaryEs: "Abuse es un videojuego de plataformas desarrollado por Crack dot Com y publicado por Electronic Arts en América del Norte y Origin Systems en Europa. Fue lanzado en 29 de febrero de 1996 para DOS. Una versión para Mac OS fue publicada por Bungie en 5 de marzo de 1997. El código de fuente del juego, junto con algo del contenido shareware, ha sido de dominio público desde 1990s y ha sido portado a Linux y otras plataformas.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/ShadowPilotX/Abuse-Android/releases/download/v1.1/Abuse-Android-v1.1-release.apk",
+      size: "37.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/d/d4/Abuse_-_launch_grenade_on_flyer.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
     alt: "Abuse (box art)",

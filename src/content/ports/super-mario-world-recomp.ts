@@ -36,6 +36,13 @@ export const superMarioWorldRecomp: Port = {
     "Super Mario World recompiled for the Super Nintendo with snesrecomp; the player supplies their own legally obtained game.",
   notesEs:
     "Super Mario World recompilado para Super Nintendo con snesrecomp; el jugador aporta su propio juego obtenido legalmente.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/SuperMarioWorldRecomp/releases/download/v0.15.9/SuperMarioWorldRecomp-windows-x64-v0.15.9.zip",
+      size: "25.5 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Mario%20World%20(USA).png",
     alt: "Super Mario World (box art)",

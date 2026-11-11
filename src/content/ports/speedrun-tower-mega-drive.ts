@@ -15,7 +15,7 @@ export const speedrunTowerMegaDrive: Port = {
   category: "homebrew",
   platforms: ["genesis"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0", date: "2022-07-16" },
   sources: ["https://github.com/huguesjohnson/speedrun-tower"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -24,6 +24,13 @@ export const speedrunTowerMegaDrive: Port = {
   summary: "Speedrun Tower is a platform game published by Homebrew, released in 2022.",
   summaryEs: "Speedrun Tower es un videojuego de plataformas publicado por Homebrew, lanzado en 2022.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "SpeedrunTower",
+      url: "https://github.com/huguesjohnson/speedrun-tower/releases/download/SG-1.0/SpeedrunTower.zip",
+      size: "88 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/speedrun-tower.svg",
     alt: "Speedrun Tower (generated cover)",

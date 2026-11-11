@@ -14,12 +14,34 @@ export const fttaRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.1", date: "2026-10-23" },
   sources: ["https://github.com/james2doyle/ffta-recomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy Advance"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/james2doyle/ffta-recomp/releases/download/v2.1/FFTARecomp-v2.1-android-arm64-v8a.apk",
+      size: "32.7 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/james2doyle/ffta-recomp/releases/download/v2.1/FFTARecomp-v2.1-linux-x64.zip",
+      size: "39.6 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/james2doyle/ffta-recomp/releases/download/v2.1/FFTARecomp-v2.1-linux-x86_64.AppImage",
+      size: "33.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/james2doyle/ffta-recomp/releases/download/v2.1/FFTARecomp-v2.1-windows-x64.zip",
+      size: "39.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c4/FinalFantasyTacticsAdvanceGBACoverArtUS.jpg",
     alt: "Final Fantasy Tactics Advance (box art)",

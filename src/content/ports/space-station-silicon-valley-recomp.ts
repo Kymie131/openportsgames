@@ -29,6 +29,23 @@ export const spaceStationSiliconValleyRecomp: Port = {
     "Recompilation of Space Station Silicon Valley; the player supplies their own legally obtained game.",
   notesEs:
     "Recompilación de Space Station Silicon Valley; el jugador aporta su propio juego obtenido legalmente.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Cellenseres/SSSV_Recomp/releases/download/v0.2.0/SSSVRecompiled_v0.2.0_Linux.tar.gz",
+      size: "30.7 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Cellenseres/SSSV_Recomp/releases/download/v0.2.0/SSSVRecompiled_v0.2.0_macOS.zip",
+      size: "63.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Cellenseres/SSSV_Recomp/releases/download/v0.2.0/SSSVRecompiled_v0.2.0_Windows.zip",
+      size: "44.4 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/SpaceStation%20Silicon%20Valley%20(USA)%20(Rev%201).png",
     alt: "Space Station Silicon Valley (box art)",

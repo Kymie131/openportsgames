@@ -21,6 +21,38 @@ export const openphantomOpenphantom: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/OpenPhantom/OpenPhantom/releases/download/i2.0.1/dsoal-r694-5c65e5fe.tar.gz",
+      size: "362 KB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/OpenPhantom/OpenPhantom/releases/download/i2.0.1/ffmpeg-9.0-d32b387f2b.tar.gz",
+      size: "16.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/OpenPhantom/OpenPhantom/releases/download/i2.0.1/openal-soft-r10633-2dc741b5.tar.gz",
+      size: "1.5 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/OpenPhantom/OpenPhantom/releases/download/i2.0.1/OpenPhantom_Installer.exe",
+      size: "40.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/OpenPhantom/OpenPhantom/releases/download/i2.0.1/vlc-3.0.23.tar.xz",
+      size: "25.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/OpenPhantom/OpenPhantom/releases/download/i2.0.1/x264-v0.165.3223-0480cb05.tar.gz",
+      size: "1023 KB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Star%20Wars%20-%20Episode%20I%20-%20The%20Phantom%20Menace%20(Europe).png",
     alt: "Star Wars Episode I: The Phantom Menace (box art)",

@@ -21,6 +21,18 @@ export const bomberman64Switch: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["bomberman-64-recomp"],
+  downloads: [
+    {
+      label: "Switch NRO",
+      url: "https://github.com/paulodiasred/BM64Switch/releases/download/v1.0.0/BM64Recompiled-v1.0.0.nro",
+      size: "20.4 MB",
+    },
+    {
+      label: "Switch",
+      url: "https://github.com/paulodiasred/BM64Switch/releases/download/v1.0.0/BM64Recompiled-v1.0.0.nsp",
+      size: "11.5 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Bomberman%2064%20(USA).png",
     alt: "Bomberman 64 (box art)",

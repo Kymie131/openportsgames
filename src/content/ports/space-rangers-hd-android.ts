@@ -21,6 +21,23 @@ export const spaceRangersHdAndroid: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/pakompom/SpaceRangersHD_FPC/releases/download/build-20261015-163828-1d1835a1e6b3/SpaceRangersHD-Android-arm64.apk",
+      size: "5.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/pakompom/SpaceRangersHD_FPC/releases/download/build-20261015-163828-1d1835a1e6b3/SpaceRangersHD-Linux-x86_64.tar.gz",
+      size: "9.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/pakompom/SpaceRangersHD_FPC/releases/download/build-20261015-163828-1d1835a1e6b3/SpaceRangersHD-Windows-x86_64.zip",
+      size: "11.1 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/214730/header.jpg",
     alt: "Space Rangers HD: A War Apart (box art)",

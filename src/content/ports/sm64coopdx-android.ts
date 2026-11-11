@@ -14,12 +14,19 @@ export const sm64coopdxAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.5.1", date: "2026-06-01" },
   sources: ["https://github.com/ManIsCat2/sm64coopdx"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/ManIsCat2/sm64coopdx/releases/download/Av1.5.1/sm64coopdx.apk",
+      size: "148.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
     alt: "Super Mario 64 (box art)",

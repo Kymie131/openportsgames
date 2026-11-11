@@ -22,6 +22,38 @@ export const deivid22srkPinyonShiftAndroid: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "build33",
+      url: "https://github.com/deivid22srk/pinyon-shift-android/releases/download/Log/build33.zip",
+      size: "4.8 MB",
+    },
+    {
+      label: "build37",
+      url: "https://github.com/deivid22srk/pinyon-shift-android/releases/download/Log/build37.zip",
+      size: "16.0 MB",
+    },
+    {
+      label: "build42",
+      url: "https://github.com/deivid22srk/pinyon-shift-android/releases/download/Log/build42.zip",
+      size: "1.4 MB",
+    },
+    {
+      label: "log",
+      url: "https://github.com/deivid22srk/pinyon-shift-android/releases/download/Log/log.zip",
+      size: "1.4 MB",
+    },
+    {
+      label: "log2",
+      url: "https://github.com/deivid22srk/pinyon-shift-android/releases/download/Log/log2.zip",
+      size: "12.0 MB",
+    },
+    {
+      label: "log3",
+      url: "https://github.com/deivid22srk/pinyon-shift-android/releases/download/Log/log3.zip",
+      size: "4.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/77/Forza_Horizon_boxart.jpg",
     alt: "Forza Horizon (box art)",

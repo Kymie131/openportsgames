@@ -14,7 +14,7 @@ export const Opensc2k: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.3.0", date: "2026-10-09" },
   sources: ["https://github.com/OpenSC2K/OpenSC2K"],
   license: { spdx: "MIT" },
   verified: false,
@@ -23,6 +23,38 @@ export const Opensc2k: Port = {
   summary: "OpenSC2K is a simulation game, released in 2000.",
   summaryEs: "OpenSC2K es un videojuego de simulaci�n, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/OpenSC2K/OpenSC2K/releases/download/v0.3.0/OpenSC2K-0.3.0-linux-arm64.tar.gz",
+      size: "53.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/OpenSC2K/OpenSC2K/releases/download/v0.3.0/OpenSC2K-0.3.0-linux-x64.tar.gz",
+      size: "54.6 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/OpenSC2K/OpenSC2K/releases/download/v0.3.0/OpenSC2K-0.3.0-macos-universal.dmg",
+      size: "94.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/OpenSC2K/OpenSC2K/releases/download/v0.3.0/OpenSC2K-0.3.0-windows-arm64-portable.zip",
+      size: "43.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/OpenSC2K/OpenSC2K/releases/download/v0.3.0/OpenSC2K-0.3.0-windows-arm64.zip",
+      size: "43.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/OpenSC2K/OpenSC2K/releases/download/v0.3.0/OpenSC2K-0.3.0-windows-x64-portable.zip",
+      size: "52.7 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/opensc2k.svg",
     alt: "OpenSC2K (generated cover)",

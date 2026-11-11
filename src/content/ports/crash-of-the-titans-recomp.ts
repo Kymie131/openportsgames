@@ -14,7 +14,7 @@ export const crashOfTheTitansRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.1.0", date: "2026-10-06" },
   sources: ["https://github.com/OAleex/MojoRecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,23 @@ export const crashOfTheTitansRecomp: Port = {
     "Recompilation of Crash of the Titans (Xbox 360) for Windows, still in an early state. It requires your own game files.",
   notesEs:
     "Recompilación de Crash of the Titans (Xbox 360) para Windows, todavía en un estado temprano. Requiere tus propios archivos del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/OAleex/MojoRecomp/releases/download/v1.1.0/MojoRecomp-COT-Localization-Pack-1.0.0.zip",
+      size: "2.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/OAleex/MojoRecomp/releases/download/v1.1.0/MojoRecomp-COT-Runtime-0.2.0-alpha-windows-x64.zip",
+      size: "14.6 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/OAleex/MojoRecomp/releases/download/v1.1.0/MojoRecomp-Launcher-1.1.0-windows-x64.exe",
+      size: "67.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/98/Crash_of_the_Titans_cover.jpg",
     alt: "Crash of the Titans (box art)",

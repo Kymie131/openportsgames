@@ -14,7 +14,7 @@ export const dragonBallZBurstLimitRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.7.3-alpha", date: "2026-10-27" },
   sources: ["https://github.com/iExplosiveRage/DBZ-Burst-Limit-Recompiled"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -26,6 +26,18 @@ export const dragonBallZBurstLimitRecomp: Port = {
     "Native recompilation of Dragon Ball Z: Burst Limit (Xbox 360) for Windows. It needs your own copy of the game.",
   notesEs:
     "Recompilación nativa de Dragon Ball Z: Burst Limit (Xbox 360) para Windows. Necesita tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/iExplosiveRage/DBZ-Burst-Limit-Recompiled/releases/download/v0.7.3-alpha/DBZ-Burst-Limit-Recompiled-v0.7.3-alpha-linux.zip",
+      size: "68.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/iExplosiveRage/DBZ-Burst-Limit-Recompiled/releases/download/v0.7.3-alpha/DBZ-Burst-Limit-Recompiled-v0.7.3-alpha.zip",
+      size: "63.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/55/Dragon_Ball_Z_Burst_Limit.jpg",
     alt: "Dragon Ball Z: Burst Limit (cover)",

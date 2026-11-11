@@ -14,7 +14,7 @@ export const starfoxEnhanced: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos", "android"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.0.8.8.3", date: "2026-11-01" },
   sources: ["https://github.com/kandowontu2/starfox-enhanced"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -27,6 +27,38 @@ export const starfoxEnhanced: Port = {
     "Native C++/SDL3 port of the open-source UltraStarFox codebase, with high frame rates, widescreen and optional visual enhancements. It validates your own Star Fox ROM and runs on desktop and mobile.",
   notesEs:
     "Port nativo en C++/SDL3 del código abierto de UltraStarFox, con altas tasas de refresco, widescreen y mejoras visuales opcionales. Valida tu propia ROM de Star Fox y funciona en escritorio y móvil.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/kandowontu2/starfox-enhanced/releases/download/v0.0.8.8.3/StarFoxAssetBuilder-0.0.8.8.3-windows-x64.zip",
+      size: "1.9 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/kandowontu2/starfox-enhanced/releases/download/v0.0.8.8.3/StarFoxEnhanced-0.0.8.8.3-android-arm64.apk",
+      size: "66.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/kandowontu2/starfox-enhanced/releases/download/v0.0.8.8.3/StarFoxEnhanced-0.0.8.8.3-dlss-windows-x64.zip",
+      size: "30.7 MB",
+    },
+    {
+      label: "iOS IPA",
+      url: "https://github.com/kandowontu2/starfox-enhanced/releases/download/v0.0.8.8.3/StarFoxEnhanced-0.0.8.8.3-ios-arm64-unsigned.ipa",
+      size: "65.4 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/kandowontu2/starfox-enhanced/releases/download/v0.0.8.8.3/StarFoxEnhanced-0.0.8.8.3-linux-x64.zip",
+      size: "68.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/kandowontu2/starfox-enhanced/releases/download/v0.0.8.8.3/StarFoxEnhanced-0.0.8.8.3-macos-universal.zip",
+      size: "136.9 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Star%20Fox%20(Japan)%20(Rev%201).png",
     alt: "Star Fox (box art)",

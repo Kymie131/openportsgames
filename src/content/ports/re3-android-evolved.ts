@@ -14,12 +14,19 @@ export const re3AndroidEvolved: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.7", date: "2026-09-15" },
   sources: ["https://github.com/codepdbh/re3-android-port-evolved"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/codepdbh/re3-android-port-evolved/releases/download/v1.0.7/RE3-Android-Evolved-v1.0.7.apk",
+      size: "9.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/be/GTA3boxcover.jpg",
     alt: "Grand Theft Auto III (box art)",

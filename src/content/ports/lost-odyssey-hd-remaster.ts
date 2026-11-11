@@ -21,6 +21,13 @@ export const lostOdysseyHdRemaster: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/faligame/lost-odyssey-hd-remaster/releases/download/v0.2.0/LostOdysseyHD-0.2.0-win64.zip",
+      size: "79.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/09/Lost_Odyssey_cover.jpg",
     alt: "Lost Odyssey (box art)",

@@ -15,7 +15,7 @@ export const battleGrounds3Psp: Port = {
   category: "homebrew",
   platforms: ["psp"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.5.0", date: "2017-04-17" },
   sources: ["https://github.com/xfacter/battlegrounds3"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -24,6 +24,13 @@ export const battleGrounds3Psp: Port = {
   summary: "Battle Grounds 3 is a shooter game published by Homebrew, released in 2020.",
   summaryEs: "Battle Grounds 3 es un videojuego de disparos publicado por Homebrew, lanzado en 2020.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "bg3-v0.5.0",
+      url: "https://github.com/xfacter/battlegrounds3/releases/download/v0.5.0/bg3-v0.5.0.zip",
+      size: "2.6 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/battle-grounds-3.svg",
     alt: "Battle Grounds 3 (generated cover)",

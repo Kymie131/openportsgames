@@ -14,7 +14,7 @@ export const marathonAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.2.0", date: "2021-05-21" },
   sources: ["https://github.com/daniele-rapagnani/alephone-android"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -25,6 +25,23 @@ export const marathonAndroid: Port = {
     "Android port of the Aleph One engine, used to run the Marathon games with their original data. It builds on the open-source Aleph One codebase.",
   notesEs:
     "Port a Android del motor Aleph One, usado para ejecutar los juegos Marathon con sus datos originales. Se basa en el código abierto de Aleph One.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/daniele-rapagnani/alephone-android/releases/download/v0.2.0/marathon-inf-signed.apk",
+      size: "199.8 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/daniele-rapagnani/alephone-android/releases/download/v0.2.0/marathon-signed.apk",
+      size: "61.6 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/daniele-rapagnani/alephone-android/releases/download/v0.2.0/marathon2-signed.apk",
+      size: "78.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/87/Marathon_%28video_game%29.jpg",
     alt: "Marathon (box art)",

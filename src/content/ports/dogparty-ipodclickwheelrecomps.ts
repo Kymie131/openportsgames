@@ -23,6 +23,38 @@ export const dogpartyIpodclickwheelrecomps: Port = {
   originalSystems: ["Unknown"],
   summary: "Lost is a role-playing game published by Gameloft in 2007.",
   summaryEs: "Lost es un videojuego de rol publicado por Gameloft en 2007.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/DogParty/iPodClickWheelRecomps/releases/download/v1.0.1/bowling-1.0.1-linux-x86_64.zip",
+      size: "1.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/DogParty/iPodClickWheelRecomps/releases/download/v1.0.1/bowling-1.0.1-macos.zip",
+      size: "4.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/DogParty/iPodClickWheelRecomps/releases/download/v1.0.1/bowling-1.0.1-windows-x64.zip",
+      size: "11.8 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/DogParty/iPodClickWheelRecomps/releases/download/v1.0.1/cubis-1.0.1-linux-x86_64.zip",
+      size: "822 KB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/DogParty/iPodClickWheelRecomps/releases/download/v1.0.1/cubis-1.0.1-macos.zip",
+      size: "4.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/DogParty/iPodClickWheelRecomps/releases/download/v1.0.1/cubis-1.0.1-windows-x64.zip",
+      size: "9.5 MB",
+    },
+  ],
   cover: {
     src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/London_After_Midnight_Poster_1927_MGM_%28cropped_to_content%29.jpg/960px-London_After_Midnight_Poster_1927_MGM_%28cropped_to_content%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     alt: "Lost (box art)",

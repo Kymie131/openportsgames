@@ -21,6 +21,13 @@ export const residentEvil3Revisited: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/BrazilianHobbyist/Project-RE-Visited-RE3/releases/download/v2.3.0/Project_RE_Visited_Resident_Evil_3_v2.3.0_Win64.zip",
+      size: "40.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a5/Resident_Evil_3_Cover.jpg",
     alt: "Resident Evil 3: Nemesis (box art)",

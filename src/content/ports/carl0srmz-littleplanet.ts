@@ -25,6 +25,33 @@ export const carl0srmzLittleplanet: Port = {
   summaryEs: "Sonic the Hedgehog CD es un juego de plataformas de 1993 desarrollado por Sega para ser usado mediante el periférico Sega CD/Mega-CD acoplado en la videoconsola Mega Drive/Genesis. Como Sonic the Hedgehog, el jugador intenta proteger un cuerpo extraterrestre, Little Planet, del Doctor Ivo Robotnik. Como en otros juegos de Sonic, Sonic recorre niveles temáticos mientras recoge anillos y derrota robots. Sonic CD introduce el viaje en el tiempo como mecánica de juego.",
   notes: "Sonic CD: static recompilation by carl0srmz for Windows. Bring your own copy of the game.",
   notesEs: "Sonic CD: recompilación estática de carl0srmz para Windows. Aporta tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/carl0srmz/littleplanet/releases/download/1.0/littleplanet-linux-aarch64.AppImage",
+      size: "153.5 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/carl0srmz/littleplanet/releases/download/1.0/littleplanet-linux.AppImage",
+      size: "153.9 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/carl0srmz/littleplanet/releases/download/1.0/littleplanet-macos.dmg",
+      size: "170.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/carl0srmz/littleplanet/releases/download/1.0/littleplanet-windows-portable.zip",
+      size: "152.1 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/carl0srmz/littleplanet/releases/download/1.0/littleplanet.exe",
+      size: "174.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e1/Sonic_CD_North_American_cover_art.jpg",
     alt: "Sonic CD (box art)",

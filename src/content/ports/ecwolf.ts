@@ -38,6 +38,38 @@ export const ecWolf: Port = {
     "Wolf4SDL-based source port with ZDoom editing tools pulled across, maintained by Blzut3. Distributed from the project site rather than from GitHub releases. Needs Wolfenstein 3D data or the shareware files.",
   notesEs:
     "Port de código fuente basado en Wolf4SDL con herramientas de edición tipo ZDoom portadas, mantenido por Blzut3. Se distribuye desde el sitio del proyecto y no desde las releases de GitHub. Necesita los datos de Wolfenstein 3D o los archivos shareware.",
+  downloads: [
+    {
+      label: "macOS DMG",
+      url: "https://github.com/ECWolfEngine/ECWolf/releases/download/1.4.2/ecwolf-1.4.2.dmg",
+      size: "7.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/ECWolfEngine/ECWolf/releases/download/1.4.2/ecwolf-1.4.2_amd64.deb",
+      size: "1.1 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/ECWolfEngine/ECWolf/releases/download/1.4.2/ecwolf-1.4.2_arm64-v8a.apk",
+      size: "6.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/ECWolfEngine/ECWolf/releases/download/1.4.2/ecwolf-1.4.2_arm64.deb",
+      size: "1.0 MB",
+    },
+    {
+      label: "ecwolf-1.4.2_arm64",
+      url: "https://github.com/ECWolfEngine/ECWolf/releases/download/1.4.2/ecwolf-1.4.2_arm64.zip",
+      size: "2.0 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/ECWolfEngine/ECWolf/releases/download/1.4.2/ecwolf-1.4.2_armeabi-v7a.apk",
+      size: "5.9 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Wolfenstein%203D.png",
     alt: "Wolfenstein 3D (box art)",

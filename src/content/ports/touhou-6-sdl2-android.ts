@@ -21,6 +21,28 @@ export const touhou6Sdl2Android: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "Android",
+      url: "https://github.com/CNTianQi233/th06-sdl2/releases/download/Archived-fix1.1.0/th06-sdl2-game-data.zip",
+      size: "54.0 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/CNTianQi233/th06-sdl2/releases/download/Archived-fix1.1.0/th06_sdl-v1.1.0-android-armeabi-v7a-vulkan.apk",
+      size: "49.8 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/CNTianQi233/th06-sdl2/releases/download/Archived-fix1.1.0/th06_sdl-v1.1.0-linux-i386-vulkan.zip",
+      size: "7.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/CNTianQi233/th06-sdl2/releases/download/Archived-fix1.1.0/th06_sdl-v1.1.0-windows-x86-vulkan.zip",
+      size: "13.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/8b/Th06cover.jpg",
     alt: "Touhou 6: The Embodiment of Scarlet Devil (box art)",

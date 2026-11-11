@@ -14,7 +14,7 @@ export const rTypeDeltaRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.1", date: "2026-09-30" },
   sources: ["https://github.com/alexbeavs-ps1-ports/r-type-delta-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,28 @@ export const rTypeDeltaRecomp: Port = {
     "Bare recompilation of R-Type Delta (PlayStation) from the PSXRecomp toolkit. It builds for Windows, Linux and macOS and needs your own disc plus a BIOS.",
   notesEs:
     "Recompilación básica de R-Type Delta (PlayStation) con el kit PSXRecomp. Compila para Windows, Linux y macOS y necesita tu propio disco y una BIOS.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/alexbeavs-ps1-ports/r-type-delta-recomp/releases/download/v0.1.1/r-type-delta-0.1.1-linux-x64.zip",
+      size: "23.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/alexbeavs-ps1-ports/r-type-delta-recomp/releases/download/v0.1.1/r-type-delta-0.1.1-macos-arm64.zip",
+      size: "21.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/alexbeavs-ps1-ports/r-type-delta-recomp/releases/download/v0.1.1/r-type-delta-0.1.1-macos-x64.zip",
+      size: "22.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/alexbeavs-ps1-ports/r-type-delta-recomp/releases/download/v0.1.1/r-type-delta-0.1.1-windows-x64.zip",
+      size: "25.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/R-Type%20Delta%20(Europe).png",
     alt: "R-Type Delta (box art)",

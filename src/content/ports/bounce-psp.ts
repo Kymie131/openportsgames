@@ -14,7 +14,7 @@ export const bouncePsp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["psp"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1", date: "2026-01-22" },
   sources: ["https://github.com/amdray/bounce_zero"],
   license: { spdx: "MIT" },
   verified: false,
@@ -22,6 +22,13 @@ export const bouncePsp: Port = {
   originalSystems: ["Other"],
   summary: "Bounce or The Bounce may refer to:Deflection (physics), the event where an object collides with and bounces against a plane surface",
   summaryEs: "Bounce puede referirse a:Bounce álbum de Bon Jovi. Bounce Tour, gira musical de Bon Jovi. Bounce (película), dirigida por Don Roos en el año 2000. «Bounce», canción de Raven-Symoné de 1999. «Bounce», canción de Calvin Harris de 2011. «Bounce», canción de Iggy Azalea de 2013. Bounce, videojuego del 2001.",
+  downloads: [
+    {
+      label: "BounceZero-v1.1",
+      url: "https://github.com/amdray/bounce_zero/releases/download/v1.1/BounceZero-v1.1.zip",
+      size: "161 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/bounce.svg",
     alt: "Bounce (generated cover)",

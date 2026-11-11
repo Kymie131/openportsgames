@@ -24,6 +24,18 @@ export const pacificRimRecomp: Port = {
   summary: "Pacific Rim: The Video Game is a fighting game published by Yuke's for Xbox 360, released in 2013.",
   summaryEs: "Pacific Rim: The Video Game es un videojuego de lucha publicado por Yuke's para Xbox 360, lanzado en 2013.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/thefixinhixon/PacificRimRecomp/releases/download/v1.0/PacificRim-Linux-v1.0.zip",
+      size: "72.0 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/thefixinhixon/PacificRimRecomp/releases/download/v1.0/PacificRim-x86_64-v1.0.AppImage",
+      size: "72.7 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/pacific-rim-the-video-game.svg",
     alt: "Pacific Rim: The Video Game (generated cover)",

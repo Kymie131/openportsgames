@@ -25,6 +25,18 @@ export const gundamBattleMaster2Recomp: Port = {
     "Recompilation of Gundam: The Battle Master 2 (PS1) in progress with PSXRecomp. It requires your own disc and boots with OpenBIOS; the project is still under development.",
   notesEs:
     "Recompilación en progreso de Gundam: The Battle Master 2 (PS1) con PSXRecomp. Requiere tu propio disco y arranca con OpenBIOS; el proyecto sigue en desarrollo.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/omegakatana92/GundamBattleMaster2Recomp/releases/download/v1.0.0/Gundam_Battle_Master_2_Recompiled-v1.0.0-linux-x86_64.AppImage",
+      size: "7.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/omegakatana92/GundamBattleMaster2Recomp/releases/download/v1.0.0/Gundam_Battle_Master_2_Recomp_Windows.zip",
+      size: "8.9 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Gundam%20the%20Battle%20Master%202%20(Japan).png",
     alt: "Gundam: The Battle Master 2 (box art)",

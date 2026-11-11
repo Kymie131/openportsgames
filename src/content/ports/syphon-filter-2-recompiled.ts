@@ -14,7 +14,7 @@ export const syphonFilter2Recompiled: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.2.0", date: "2026-09-23" },
   sources: ["https://github.com/alexbeavs-ps1-ports/syphon-filter-2-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,28 @@ export const syphonFilter2Recompiled: Port = {
     "Experimental recompilation of Syphon Filter 2 (PS1, USA, two discs, SCUS-94451) with PSXRecomp. A build-it-yourself Windows kit: a SETUP.bat detects the disc, downloads the tools and compiles, with no need for Visual Studio or Git. It is still an alpha (v0.1.2).",
   notesEs:
     "Recompilación experimental de Syphon Filter 2 (PS1, USA, dos discos, SCUS-94451) con PSXRecomp. Kit de compilación propia en Windows: un SETUP.bat detecta el disco, descarga las herramientas y compila, sin necesidad de Visual Studio ni Git. Todavía es una alpha (v0.1.2).",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/alexbeavs-ps1-ports/syphon-filter-2-recomp/releases/download/v0.2.0/syphon-filter-2-recomp-0.2.0-linux-x64.zip",
+      size: "25.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/alexbeavs-ps1-ports/syphon-filter-2-recomp/releases/download/v0.2.0/syphon-filter-2-recomp-0.2.0-macos-arm64.zip",
+      size: "24.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/alexbeavs-ps1-ports/syphon-filter-2-recomp/releases/download/v0.2.0/syphon-filter-2-recomp-0.2.0-macos-x64.zip",
+      size: "24.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/alexbeavs-ps1-ports/syphon-filter-2-recomp/releases/download/v0.2.0/syphon-filter-2-recomp-0.2.0-windows-x64.zip",
+      size: "27.3 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Syphon%20Filter%202%20(Europe)%20(Rev%201).png",
     alt: "Syphon Filter 2 (box art)",

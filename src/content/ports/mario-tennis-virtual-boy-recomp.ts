@@ -14,7 +14,7 @@ export const marioTennisVirtualBoyRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.2.3", date: "2026-10-19" },
   sources: ["https://github.com/mstan/MarioTennisVirtualBoyRecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const marioTennisVirtualBoyRecomp: Port = {
     "Static recompilation of Mario's Tennis (Virtual Boy) using the vbrecomp toolkit. It requires your own ROM and does not include the game.",
   notesEs:
     "Recompilación estática de Mario's Tennis (Virtual Boy) con el kit vbrecomp. Requiere tu propia ROM y no incluye el juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/MarioTennisVirtualBoyRecomp/releases/download/v0.2.3/MarioTennisVirtualBoyRecomp-windows-x64.zip",
+      size: "7.8 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Virtual%20Boy/Named_Boxarts/Mario's%20Tennis%20(Japan,%20USA)%20(En).png",
     alt: "Mario's Tennis (box art)",

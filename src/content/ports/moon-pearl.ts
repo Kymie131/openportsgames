@@ -14,12 +14,19 @@ export const moonPearl: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.0", date: "2026-10-07" },
   sources: ["https://github.com/DoutorRaposo/moonpearl"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Super Nintendo"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/DoutorRaposo/moonpearl/releases/download/v1.0.0/moonpearl-1.0.0.apk",
+      size: "10.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg",
     alt: "The Legend of Zelda: A Link to the Past (box art)",

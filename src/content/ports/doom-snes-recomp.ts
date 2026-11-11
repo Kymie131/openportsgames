@@ -14,12 +14,39 @@ export const doomSnesRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows","linux","macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.04", date: "2026-10-22" },
   sources: ["https://github.com/Cacodemontube/DoomSNESRecomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Super Nintendo"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Cacodemontube/DoomSNESRecomp/releases/download/v0.04/DoomSNESRecomp-v0.04-Linux-x64.zip",
+      size: "4.6 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Cacodemontube/DoomSNESRecomp/releases/download/v0.04/DoomSNESRecomp-v0.04-macOS-arm64.zip",
+      size: "3.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Cacodemontube/DoomSNESRecomp/releases/download/v0.04/DoomSNESRecomp-v0.04-macOS-x64.zip",
+      size: "4.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Cacodemontube/DoomSNESRecomp/releases/download/v0.04/DoomSNESRecomp-v0.04-Windows-x64.zip",
+      size: "5.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Cacodemontube/DoomSNESRecomp/releases/download/v0.04/DoomSNESRecomp-v0.04-Windows-x86.zip",
+      size: "5.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg",
     alt: "Doom (box art)",

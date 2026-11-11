@@ -14,12 +14,29 @@ export const BossRally: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.991", date: "2026-11-05" },
   sources: ["https://github.com/jeff-strutb/brally"],
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/jeff-strutb/brally/releases/download/v0.991/RallyBuilder-0.991-Linux-x86_64.AppImage",
+      size: "18.3 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/jeff-strutb/brally/releases/download/v0.991/RallyBuilder-0.991-macOS.zip",
+      size: "10.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/jeff-strutb/brally/releases/download/v0.991/RallyBuilder-0.991-Windows.zip",
+      size: "14.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e6/Boss_Rally_PC_Cover.jpeg",
     alt: "Boss Rally (box art)",

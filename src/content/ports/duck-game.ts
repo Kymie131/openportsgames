@@ -14,12 +14,19 @@ export const DuckGame: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.4.8.4", date: "2026-11-01" },
   sources: ["https://github.com/TheFlyingFoool/DuckGameRebuilt"],
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "DuckGameRebuilt",
+      url: "https://github.com/TheFlyingFoool/DuckGameRebuilt/releases/download/v1.4.8.4/DuckGameRebuilt.zip",
+      size: "190.8 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/312530/header.jpg",
     alt: "Duck Game (cover art)",

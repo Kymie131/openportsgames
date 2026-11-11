@@ -14,7 +14,7 @@ export const strikersAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.2.0", date: "2026-09-19" },
   sources: ["https://github.com/luisxl15/Strikers-Android-Port"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const strikersAndroid: Port = {
     "Community Android port of Super Mario Strikers (GameCube). It needs the game itself and its files.",
   notesEs:
     "Port comunitario para Android de Super Mario Strikers (GameCube). Necesita el propio juego y sus archivos.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/luisxl15/Strikers-Android-Port/releases/download/v1.2.0/strikers-android-1.2.0-arm64.apk",
+      size: "10.4 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Super%20Mario%20Strikers%20(Japan).png",
     alt: "Super Mario Strikers (box art)",

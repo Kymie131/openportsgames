@@ -30,6 +30,13 @@ export const smwRev: Port = {
     "SNES ROM reimplementation. The project publishes no game assets, so a legally obtained copy of Super Mario World is required.",
   notesEs:
     "Reimplementación de la ROM de SNES. El proyecto no publica recursos del juego, así que se requiere una copia de Super Mario World obtenida legalmente.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/snesrev/smw/releases/download/v0.1/smw_0.1.zip",
+      size: "1.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Mario%20World%20(USA).png",
     alt: "Super Mario World (box art)",

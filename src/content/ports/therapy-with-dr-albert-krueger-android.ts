@@ -14,7 +14,7 @@ export const therapyWithDrAlbertKruegerAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.2", date: "2025-04-15" },
   sources: ["https://github.com/Unkzittys/TherapyWithDrAlbertKrueger_AndroidPort"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -22,6 +22,13 @@ export const therapyWithDrAlbertKruegerAndroid: Port = {
   originalSystems: ["Windows"],
   summary: "Therapy With Dr. Albert Krueger is a role-playing game.",
   summaryEs: "Therapy With Dr. Albert Krueger es un videojuego de rol.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Unkzittys/TherapyWithDrAlbertKrueger_AndroidPort/releases/download/1.0.2/TherapyWithDrAlbertKrueger.apk",
+      size: "90.9 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/therapy-with-dr-albert-krueger.svg",
     alt: "Therapy With Dr. Albert Krueger (generated cover)",

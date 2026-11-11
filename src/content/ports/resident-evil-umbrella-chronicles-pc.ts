@@ -29,6 +29,18 @@ export const residentEvilUmbrellaChroniclesPc: Port = {
     "Static recompilation of the Wii rail shooter for Windows, Linux and Steam Deck. Version 0.1.1 is an early build with unlocked FPS, ultrawide support, mouse, gamepad, light-gun and Wii Remote aiming, DLSS and FSR 3.1 with frame generation, ray-traced shadows, HDR, mods and online co-op. Requires your own NTSC-U disc image (game ID RBUE08) in ISO, WBFS, CISO, WDF or WIA format; RVZ files must be converted in Dolphin first. PAL and Japanese versions are not supported. No game files are included.",
   notesEs:
     "Recompilación estática del shooter sobre raíles de Wii para Windows, Linux y Steam Deck. La versión 0.1.1 es una build temprana con FPS desbloqueados, ultrapanorámico, puntería con ratón, mando, pistola de luz y Wii Remote, DLSS y FSR 3.1 con generación de fotogramas, sombras trazadas, HDR, mods y cooperativo online. Requiere tu propia imagen de disco NTSC-U (ID RBUE08) en formato ISO, WBFS, CISO, WDF o WIA; los archivos RVZ deben convertirse antes en Dolphin. Las versiones PAL y japonesa no son compatibles. No incluye archivos del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/solleo95/reuc-recomp/releases/download/0.3.0/UC-Linux-0.3.0.zip",
+      size: "34.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/solleo95/reuc-recomp/releases/download/0.3.0/UC-Windows-0.3.0.zip",
+      size: "134.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b5/Resident_Evil%2C_The_Umbrella_Chronicles_%282007_video_game%29.jpg",
     alt: "Resident Evil: The Umbrella Chronicles (box art)",

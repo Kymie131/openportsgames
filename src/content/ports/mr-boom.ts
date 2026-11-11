@@ -14,7 +14,7 @@ export const MrBoom: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "5.5", date: "2024-05-19" },
   sources: ["https://github.com/Javanaise/mrboom-libretro"],
   license: { spdx: "MIT" },
   verified: false,
@@ -23,6 +23,13 @@ export const MrBoom: Port = {
   summary: "Mr.Boom is a action-adventure game for Atari, released in 2000.",
   summaryEs: "Mr.Boom es un videojuego de acci�n y aventura para Atari, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "MrBoom-src-5.5",
+      url: "https://github.com/Javanaise/mrboom-libretro/releases/download/5.5/MrBoom-src-5.5.tar.gz",
+      size: "7.8 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/mr-boom.svg",
     alt: "Mr.Boom (generated cover)",

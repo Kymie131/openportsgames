@@ -23,6 +23,13 @@ export const rottexpr: Port = {
   summaryEs: "Rise Of The Triad es un videojuego de disparos en primera persona desarrollado y distribuido por 3D Realms. El juego narra las aventuras de un grupo de soldados pertenecientes a un grupo llamado HUNT quienes son enviados a la isla de San Nicolás a espiar las actividades de un clan liderado por un hombre que se hace llamar El Oscuro.",
   notes: "Experimental Rise of the Triad engine rewrite.",
   notesEs: "Reescritura experimental del motor de Rise of the Triad.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/LTCHIPS/rottexpr/releases/download/v0.01/rottexpr-win-binaries.zip",
+      size: "7.4 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Rise%20of%20the%20Triad%20-%20Dark%20War.png",
     alt: "Rise of the Triad (box art)",

@@ -24,6 +24,13 @@ export const betterspades: Port = {
     "Ace of Spades is a multiplayer first-person shooter with voxel-based destructible environments. It began as a free browser game in 2011 and was later published by Jagex in 2012.",
   summaryEs:
     "Ace of Spades es un shooter multijugador en primera persona con entornos destruibles basados en vóxeles. Empezó como un juego gratuito de navegador en 2011 y Jagex lo publicó en 2012.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/xtreme8000/BetterSpades/releases/download/v0.1.5/betterspades_win32_v0.1.5.zip",
+      size: "6.7 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/betterspades.svg",
     alt: "Ace of Spades (generated cover)",

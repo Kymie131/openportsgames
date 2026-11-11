@@ -21,6 +21,23 @@ export const jorjbarbosaNarutoRiseRecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/jorjbarbosa/naruto-rise-recomp/releases/download/v0.4.2-beta/naruto-rise-recomp-win-amd64.zip",
+      size: "51.0 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/jorjbarbosa/naruto-rise-recomp/releases/download/v0.4.2-beta/NarutoRise-0.4.2-beta-Linux-x86_64.AppImage",
+      size: "65.1 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/jorjbarbosa/naruto-rise-recomp/releases/download/v0.4.2-beta/NarutoRiseInstaller.exe",
+      size: "34.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/fa/Naruto_ROANfront.jpg",
     alt: "Naruto: Rise of a Ninja (box art)",

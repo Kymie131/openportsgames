@@ -21,6 +21,13 @@ export const teamBeefStudiosDoom3quest: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Team-Beef-Studios/Doom3Quest/releases/download/v1.4.8/doom3quest148.apk",
+      size: "443.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/4e/Doom3box.jpg",
     alt: "Doom 3 (box art)",

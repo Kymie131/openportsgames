@@ -23,6 +23,28 @@ export const massEffectNx: Port = {
   originalSystems: ["Xbox 360"],
   summary: "Mass Effect is a military science fiction media franchise created by Casey Hudson. The franchise depicts a distant future where humanity and several alien civilizations have colonized the galaxy using technology left behind by advanced precursor civilizations.",
   summaryEs: "Mass Effect era una franquicia de medios de ciencia ficción militar creada por Casey Hudson. La franquicia representa un futuro lejano donde la humanidad y varias civilizaciones alienígenas han colonizado la Vía Láctea utilizando tecnología dejada por las civilizaciones precursoras avanzadas.",
+  downloads: [
+    {
+      label: "Switch",
+      url: "https://github.com/nebadasSwifty/masseffect-nx/releases/download/v0.2.1/masseffect-nx-forwarder.nsp",
+      size: "303 KB",
+    },
+    {
+      label: "Switch NRO",
+      url: "https://github.com/nebadasSwifty/masseffect-nx/releases/download/v0.2.1/masseffect-nx-rus.nro",
+      size: "59.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/nebadasSwifty/masseffect-nx/releases/download/v0.2.1/masseffect-nx-starter.zip",
+      size: "24.2 MB",
+    },
+    {
+      label: "Switch NRO",
+      url: "https://github.com/nebadasSwifty/masseffect-nx/releases/download/v0.2.1/masseffect-nx.nro",
+      size: "59.3 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/mass-effect.svg",
     alt: "Mass Effect (generated cover)",

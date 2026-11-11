@@ -14,12 +14,19 @@ export const lighthouseAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.2", date: "2026-08-07" },
   sources: ["https://github.com/izzy2lost/Lighthouse"],
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/izzy2lost/Lighthouse/releases/download/1.0.2/app-release.apk",
+      size: "30.9 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Banjo-Kazooie%20(USA).png",
     alt: "Banjo-Kazooie (box art)",

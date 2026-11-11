@@ -24,6 +24,18 @@ export const nbaHangtimeRecomp: Port = {
   summary: "NBA Hangtime is a sports game published by Midway for Nintendo 64, released in 1997.",
   summaryEs: "NBA Hangtime es un videojuego de deportes publicado por Midway para Nintendo 64, lanzado en 1997.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/8bitninja64/HangtimeRecomp/releases/download/v0.1.1/HangtimeRecomp-linux-x86_64-0.1.1.tar.gz",
+      size: "49.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/8bitninja64/HangtimeRecomp/releases/download/v0.1.1/HangtimeRecomp-win64-0.1.1.zip",
+      size: "89.4 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/NBA%20Hangtime%20(USA).png",
     alt: "NBA Hangtime (box art)",

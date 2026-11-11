@@ -23,6 +23,28 @@ export const jorioBugdom2: Port = {
   originalSystems: ["Windows"],
   summary: "Bugdom is a 1999 platform video game developed and published by Pangea Software for Mac OS 9. It was included with the iMac DV 2000 and later iBook models.",
   summaryEs: "Bugdom 2 es un videojuego de plataformas publicado por Pangea Software en 1999.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/jorio/Bugdom2/releases/download/v4.0.0/Bugdom2-4.0.0-linux-aarch64.AppImage",
+      size: "128.7 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/jorio/Bugdom2/releases/download/v4.0.0/Bugdom2-4.0.0-linux-x86_64.AppImage",
+      size: "128.9 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/jorio/Bugdom2/releases/download/v4.0.0/Bugdom2-4.0.0-mac.dmg",
+      size: "138.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/jorio/Bugdom2/releases/download/v4.0.0/Bugdom2-4.0.0-windows-x64.zip",
+      size: "134.4 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/bugdom-2.svg",
     alt: "Bugdom 2 (generated cover)",

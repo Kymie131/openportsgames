@@ -14,7 +14,7 @@ export const fateUnlimitedCodesRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.0.5", date: "2026-09-16" },
   sources: ["https://github.com/elprogramadorloco-arch/fuc-recomp"],
   license: { spdx: "MIT" },
   verified: false,
@@ -26,6 +26,13 @@ export const fateUnlimitedCodesRecomp: Port = {
     "Hybrid native project for Fate/Unlimited Codes that combines a PSP static recompilation of the gameplay with PS2 assets and controls, still in development. It ships no game files and needs your own copy.",
   notesEs:
     "Proyecto nativo híbrido de Fate/Unlimited Codes que combina una recompilación estática de PSP del gameplay con recursos y controles de PS2, todavía en desarrollo. No incluye archivos del juego y necesita tu propia copia.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/elprogramadorloco-arch/fuc-recomp/releases/download/v0.0.5/FateUnlimitedCodesRecomp-update.zip",
+      size: "316 KB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/5d/Fate-unlimited_codes_arcade_flyer.jpg",
     alt: "Fate/Unlimited Codes (box art)",

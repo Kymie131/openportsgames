@@ -63,6 +63,28 @@ export const daggerfallUnity: Port = {
       "Elige los mods opcionales y las opciones de dificultad clásica que prefieras y, después, inicia el juego.",
     ],
   },
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Interkarma/daggerfall-unity/releases/download/v1.1.1-cve-2025/dfu_linux_64bit-v1.1.1.zip",
+      size: "56.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Interkarma/daggerfall-unity/releases/download/v1.1.1-cve-2025/dfu_mac_universal-v1.1.1.zip",
+      size: "49.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Interkarma/daggerfall-unity/releases/download/v1.1.1-cve-2025/dfu_windows_32bit-v1.1.1.zip",
+      size: "45.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Interkarma/daggerfall-unity/releases/download/v1.1.1-cve-2025/dfu_windows_64bit-v1.1.1.zip",
+      size: "47.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a4/Daggerfall_Cover_art.gif",
     alt: "The Elder Scrolls II: Daggerfall (box art)",

@@ -14,13 +14,20 @@ export const goemon64RecompiledAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.8", date: "2026-10-04" },
   sources: ["https://github.com/ogdanimal/Goemon64Recomp-Android"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["goemon-64-recompiled"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/ogdanimal/Goemon64Recomp-Android/releases/download/v1.0.8/Goemon64Recomp-1.0.8-arm64-v8a.apk",
+      size: "24.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/9e/MysticalNinjaStarringGoemon.jpg",
     alt: "Mystical Ninja Starring Goemon (box art)",

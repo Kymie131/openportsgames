@@ -14,7 +14,7 @@ export const nhl2k8Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.4.0", date: "2026-11-06" },
   sources: ["https://github.com/anishchandra24/NHL2K8-Recompiled"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -24,6 +24,13 @@ export const nhl2k8Recomp: Port = {
   summary: "NHL 2K8 is a sports game published by 2K Sports for Xbox 360, released in 2007.",
   summaryEs: "NHL 2K8 es un videojuego de deportes publicado por 2K Sports para Xbox 360, lanzado en 2007.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/anishchandra24/NHL2K8-Recompiled/releases/download/v1.4.0/NHL2K8-Recompiled-Setup.exe",
+      size: "138 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/nhl-2k8.svg",
     alt: "NHL 2K8 (generated cover)",

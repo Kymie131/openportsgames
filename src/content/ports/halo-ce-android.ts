@@ -21,6 +21,13 @@ export const haloCeAndroid: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["Xbox"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/FulGerNet/halo-ce-android/releases/download/4.0/Halo-CE-build-4195.apk",
+      size: "36.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg",
     alt: "Halo: Combat Evolved (box art)",

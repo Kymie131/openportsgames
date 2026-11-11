@@ -25,6 +25,38 @@ export const yeoldpressAlttpDx: Port = {
   summaryEs: "The Legend of Zelda: A Link to the Past, conocido en Japón como Zelda no Densetsu: Kamigami no Triforce , también conocido como Zelda 3 y Zelda III, es un juego de acción y aventuras desarrollado y publicado por Nintendo para la consola Super Nintendo Entertainment System y años después a la Game Boy Advance junto a The Legend of Zelda: Four Swords, siendo lanzado el 3 de diciembre del 2002, siendo la tercera entrega de la saga de videojuegos The Legend of Zelda.",
   notes: "The Legend of Zelda: A Link to the Past: source port by YeOldPress for Windows. Bring your own copy of the game.",
   notesEs: "The Legend of Zelda: A Link to the Past: source port de YeOldPress para Windows. Aporta tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Macos",
+      url: "https://github.com/YeOldPress/alttp-dx/releases/download/v1.8/alttp-dx-v1.8-macos-arm64.zip",
+      size: "2.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/YeOldPress/alttp-dx/releases/download/v1.8/alttp-dx-v1.8-windows-x86_64.zip",
+      size: "3.9 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/YeOldPress/alttp-dx/releases/download/v1.8/alttp-dx-v1.8-x86_64.AppImage",
+      size: "7.3 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/YeOldPress/alttp-dx/releases/download/v1.8/zelda3-tools-v1.8-macos-arm64.zip",
+      size: "1.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/YeOldPress/alttp-dx/releases/download/v1.8/zelda3-tools-v1.8-windows-x86_64.zip",
+      size: "2.6 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/YeOldPress/alttp-dx/releases/download/v1.8/zelda3-tools-v1.8-x86_64.AppImage",
+      size: "4.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg",
     alt: "The Legend of Zelda: A Link to the Past (box art)",

@@ -14,7 +14,7 @@ export const mortalKombat4Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.3.5", date: "2026-08-31" },
   sources: ["https://github.com/alexbeavs-ps1-ports/mortal-kombat-4-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,28 @@ export const mortalKombat4Recomp: Port = {
     "Recompilation of Mortal Kombat 4 (PS1, USA SLUS-00605) with PSXRecomp. The releases are build-it-yourself kits: you supply your disc and a compatible BIOS, and the game is generated and compiled on your machine. It is the framework's base recompilation, with no per-game enhancements.",
   notesEs:
     "Recompilación de Mortal Kombat 4 (PS1, USA SLUS-00605) con PSXRecomp. Las releases son kits de compilación propia: aportas tu disco y una BIOS compatible, y el juego se genera y compila en tu equipo. Es la recompilación base del framework, sin mejoras por juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/alexbeavs-ps1-ports/mortal-kombat-4-recomp/releases/download/v0.3.5/mortal-kombat-4-recomp-0.3.5-linux-x64.zip",
+      size: "26.8 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/alexbeavs-ps1-ports/mortal-kombat-4-recomp/releases/download/v0.3.5/mortal-kombat-4-recomp-0.3.5-macos-arm64.zip",
+      size: "24.3 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/alexbeavs-ps1-ports/mortal-kombat-4-recomp/releases/download/v0.3.5/mortal-kombat-4-recomp-0.3.5-macos-x64.zip",
+      size: "24.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/alexbeavs-ps1-ports/mortal-kombat-4-recomp/releases/download/v0.3.5/mortal-kombat-4-recomp-0.3.5-windows-x64.zip",
+      size: "28.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Mortal%20Kombat%204%20(Europe).png",
     alt: "Mortal Kombat 4 (box art)",

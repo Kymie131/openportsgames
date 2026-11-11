@@ -14,7 +14,7 @@ export const yoshiNesRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.2.1", date: "2026-10-19" },
   sources: ["https://github.com/mstan/YoshiNESRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
@@ -25,6 +25,13 @@ export const yoshiNesRecomp: Port = {
     "Native recompilation of Yoshi (Nintendo Entertainment System). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Yoshi (Nintendo Entertainment System). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/YoshiNESRecomp/releases/download/v1.2.1/YoshiRecomp-USA-v1.2.1-windows-x64.zip",
+      size: "4.6 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Yoshi%20(USA).png",
     alt: "Yoshi (box art)",

@@ -14,7 +14,7 @@ export const bloodborneAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "2.2.1", date: "2026-11-08" },
   sources: ["https://github.com/ducvd89/Bloodborne-Android"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -30,6 +30,13 @@ export const bloodborneAndroid: Port = {
     minimum:
       "Android 9 or newer with a Snapdragon 8 Gen 2 / 8 Elite class SoC, Vulkan and 4 KB memory pages.",
   },
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/ducvd89/Bloodborne-Android/releases/download/android-2.2.1/Bloodborne-2.2.1.apk",
+      size: "60.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
     alt: "Bloodborne (box art)",

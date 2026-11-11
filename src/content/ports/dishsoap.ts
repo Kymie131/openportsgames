@@ -14,7 +14,7 @@ export const dishsoap: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.1", date: "2026-10-21" },
   sources: ["https://github.com/Hdmaniak/DishSoap"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -26,6 +26,13 @@ export const dishsoap: Port = {
     "Community Android port of The Dishwasher: Dead Samurai (Xbox 360). It needs the original game.",
   notesEs:
     "Port comunitario para Android de The Dishwasher: Dead Samurai (Xbox 360). Necesita el juego original.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Hdmaniak/DishSoap/releases/download/v1.0.1/dishwasher-public-arm64-1.0.1.apk",
+      size: "8.9 MB",
+    },
+  ],
   cover: {
     src: "https://raw.githubusercontent.com/Hdmaniak/DishSoap/refs/heads/master/docs/assets/icon-512.png",
     alt: "The Dishwasher: Dead Samurai (cover)",

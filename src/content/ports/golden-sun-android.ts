@@ -14,7 +14,7 @@ export const goldenSunAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.5", date: "2026-11-07" },
   sources: ["https://github.com/wootbeer/gsrandroid"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -26,6 +26,13 @@ export const goldenSunAndroid: Port = {
     "Android recompiled port of Golden Sun (Game Boy Advance), based on GSRecomp and brought over with the Descore framework. The player supplies their own legally obtained ROM; the app contains no game code, ROM or assets.",
   notesEs:
     "Port recompilado de Golden Sun (Game Boy Advance) para Android, basado en GSRecomp y llevado con el framework Descore. El jugador aporta su propia ROM obtenida legalmente; la app no contiene código, ROM ni recursos del juego.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/wootbeer/gsrandroid/releases/download/0.5/gsrandroid-release.apk",
+      size: "5.5 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Golden%20Sun%20(USA,%20Europe).png",
     alt: "Golden Sun (box art)",

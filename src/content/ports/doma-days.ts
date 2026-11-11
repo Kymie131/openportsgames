@@ -14,7 +14,7 @@ export const DomaDays: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.02", date: "2025-04-02" },
   sources: ["https://github.com/iestyn129/DOMADays"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -23,6 +23,13 @@ export const DomaDays: Port = {
   summary: "DOMA Days is a action-adventure game, released in 2000.",
   summaryEs: "DOMA Days es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "DOMADays.v1.02",
+      url: "https://github.com/iestyn129/DOMADays/releases/download/1.02/DOMADays.v1.02.zip",
+      size: "194.7 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/doma-days.svg",
     alt: "DOMA Days (generated cover)",

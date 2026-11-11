@@ -14,12 +14,19 @@ export const NeedForSpeedCarbonCodepdbh: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.3.3", date: "2026-10-12" },
   sources: ["https://github.com/codepdbh/NFS-CARBON-360-ANDROID-RECOMP"],
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/codepdbh/NFS-CARBON-360-ANDROID-RECOMP/releases/download/v0.3.3/NFSCarbon-Android-v0.3.3-arm64.apk",
+      size: "36.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a4/Need_for_Speed_Carbon_Game_Cover.jpg",
     alt: "Need for Speed Carbon (cover)",

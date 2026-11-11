@@ -66,6 +66,28 @@ export const openmw: Port = {
       "Inicia el juego desde el lanzador; OpenMW reproduce los recursos originales con renderizado moderno.",
     ],
   },
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/OpenMW/openmw/releases/download/openmw-0.51.0/openmw-0.51.0-Linux-64Bit.tar.gz",
+      size: "90.1 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/OpenMW/openmw/releases/download/openmw-0.51.0/OpenMW-0.51.0-macOS-arm64.dmg",
+      size: "131.1 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/OpenMW/openmw/releases/download/openmw-0.51.0/OpenMW-0.51.0-macOS-x86_64.dmg",
+      size: "139.0 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/OpenMW/openmw/releases/download/openmw-0.51.0/OpenMW-0.51.0-Windows-x64.exe",
+      size: "69.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/53/MorrowindCOVER.jpg",
     alt: "The Elder Scrolls III: Morrowind (box art)",

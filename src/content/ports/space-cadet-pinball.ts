@@ -33,6 +33,28 @@ export const spaceCadetPinball: Port = {
     "Open source recreation of the Windows 95 Space Cadet pinball game, released under CC0 by Microsoft.",
   notesEs:
     "Recreación de código abierto del pinball Space Cadet de Windows 95, publicado bajo CC0 por Microsoft.",
+  downloads: [
+    {
+      label: "Macos",
+      url: "https://github.com/k4zmu2a/SpaceCadetPinball/releases/download/Release_2.1.0/SpaceCadetPinballMac.zip",
+      size: "5.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/k4zmu2a/SpaceCadetPinball/releases/download/Release_2.1.0/SpaceCadetPinballx64Win.zip",
+      size: "1.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/k4zmu2a/SpaceCadetPinball/releases/download/Release_2.1.0/SpaceCadetPinballx86Win.zip",
+      size: "1.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/k4zmu2a/SpaceCadetPinball/releases/download/Release_2.1.0/SpaceCadetPinballx86WinXP.zip",
+      size: "1.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Space-cadet.png",
     alt: "3D Pinball for Windows: Space Cadet (screenshot)",

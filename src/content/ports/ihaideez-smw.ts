@@ -21,6 +21,13 @@ export const ihaideezSmw: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo Switch"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/iHaiDeeZ/SMW/releases/download/v00.30/SMW-Maker-v00.30.zip",
+      size: "259.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a3/Mariowonder.png",
     alt: "Super Mario Bros. Wonder (box art)",

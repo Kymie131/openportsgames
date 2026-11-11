@@ -14,12 +14,24 @@ export const mystDs: Port = {
   originalGameLicense: "proprietary",
   platforms: ["ds"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.0", date: "2026-08-11" },
   sources: ["https://github.com/Warioware64/myst-nds-port"],
   license: { spdx: "Apache-2.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Warioware64/myst-nds-port/releases/download/v1.0.0/myst-converter-linux-x86_64.zip",
+      size: "47.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Warioware64/myst-nds-port/releases/download/v1.0.0/myst-converter-windows-amd64.zip",
+      size: "28.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6a/MystCover.png",
     alt: "MYST (box art)",

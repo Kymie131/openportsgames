@@ -14,7 +14,7 @@ export const doraemon64Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.4", date: "2026-09-25" },
   sources: ["https://github.com/citrongames/Dora64"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -26,6 +26,23 @@ export const doraemon64Recomp: Port = {
     "Native recompilation of Doraemon: Nobita to Mittsu no Seireiseki (Nintendo 64) for Windows. It needs your own copy of the game.",
   notesEs:
     "Recompilación nativa de Doraemon: Nobita to Mittsu no Seireiseki (Nintendo 64) para Windows. Necesita tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Android",
+      url: "https://github.com/citrongames/Dora64/releases/download/v1.0.4/Dora64-1.0.3-Android-arm64.zip",
+      size: "7.3 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/citrongames/Dora64/releases/download/v1.0.4/Dora64-1.0.5-Linux-x86_64.tar.gz",
+      size: "5.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/citrongames/Dora64/releases/download/v1.0.4/Dora64-1.0.5-Windows-x64.zip",
+      size: "14.5 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Doraemon%20-%20Nobita%20to%203tsu%20no%20Seireiseki%20(Japan).png",
     alt: "Doraemon 64 (box art)",

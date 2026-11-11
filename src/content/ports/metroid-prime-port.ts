@@ -14,7 +14,7 @@ export const metroidPrimePort: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.45.0", date: "2026-11-10" },
   sources: ["https://github.com/Odrannnn/MetroidPrimePort"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,38 @@ export const metroidPrimePort: Port = {
     "Decompilation-based native port of Metroid Prime (GameCube). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:
     "Port nativo basado en decompilación de Metroid Prime (GameCube). El jugador aporta su propio material obtenido legalmente (disc image); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Odrannnn/MetroidPrimePort/releases/download/v0.45.0/metroid-prime-port-0.45.0-android-arm64.apk",
+      size: "19.4 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Odrannnn/MetroidPrimePort/releases/download/v0.45.0/metroid-prime-port-0.45.0-linux-aarch64.tar.gz",
+      size: "17.6 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Odrannnn/MetroidPrimePort/releases/download/v0.45.0/metroid-prime-port-0.45.0-linux-x86_64.tar.gz",
+      size: "18.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Odrannnn/MetroidPrimePort/releases/download/v0.45.0/metroid-prime-port-0.45.0-macos-arm64.zip",
+      size: "18.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Odrannnn/MetroidPrimePort/releases/download/v0.45.0/metroid-prime-port-0.45.0-windows-arm64.zip",
+      size: "70.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Odrannnn/MetroidPrimePort/releases/download/v0.45.0/metroid-prime-port-0.45.0-windows-x86_64.zip",
+      size: "72.9 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Metroid%20Prime%20(USA).png",
     alt: "Metroid Prime (box art)",

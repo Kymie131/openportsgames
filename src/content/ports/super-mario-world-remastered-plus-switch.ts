@@ -14,12 +14,19 @@ export const superMarioWorldRemasteredPlusSwitch: Port = {
   originalGameLicense: "proprietary",
   platforms: ["switch"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.2", date: "2026-09-02" },
   sources: ["https://github.com/delsonazevedo/Super-Mario-World-Remastered-Plus-Switch"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Super Nintendo"],
+  downloads: [
+    {
+      label: "Switch NRO",
+      url: "https://github.com/delsonazevedo/Super-Mario-World-Remastered-Plus-Switch/releases/download/1.0.2/smwr.nro",
+      size: "6.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png",
     alt: "Super Mario World (box art)",

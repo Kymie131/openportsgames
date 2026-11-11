@@ -41,6 +41,28 @@ export const woofPort: Port = {
       credit: "fabiangreffrath",
     },
   ],
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/fabiangreffrath/woof/releases/download/woof_16.0.0/Woof-16.0.0-Linux.AppImage",
+      size: "13.4 MB",
+    },
+    {
+      label: "Woof-16.0.0-uni",
+      url: "https://github.com/fabiangreffrath/woof/releases/download/woof_16.0.0/Woof-16.0.0-uni.zip",
+      size: "15.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/fabiangreffrath/woof/releases/download/woof_16.0.0/Woof-16.0.0-win32.zip",
+      size: "4.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/fabiangreffrath/woof/releases/download/woof_16.0.0/Woof-16.0.0-win64.zip",
+      size: "5.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg",
     alt: "Doom (box art)",

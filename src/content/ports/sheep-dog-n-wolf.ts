@@ -14,12 +14,19 @@ export const SheepDogNWolf: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1", date: "2026-09-27" },
   sources: ["https://github.com/SDW-Community/sdw-decomp"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "sdw-mod-loader-v0.1",
+      url: "https://github.com/SDW-Community/sdw-decomp/releases/download/v0.1/sdw-mod-loader-v0.1.zip",
+      size: "115 KB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/8c/Sheep_Dog_n_Wolf.jpg",
     alt: "Sheep, Dog 'n' Wolf (box art)",

@@ -13,9 +13,7 @@ export const donkeyKongBananzaPc: Port = {
   openSource: true,
   originalGameLicense: "proprietary",
   platforms: ["windows"],
-  status: "alpha",
-  wip: true,
-  release: { version: null, date: null },
+  status: "alpha",  release: { version: "0.2.0", date: "2026-11-09" },
   sources: ["https://github.com/Lucas-blip-png/dkb-pc-recomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -32,6 +30,23 @@ export const donkeyKongBananzaPc: Port = {
     "Recompilación estática del juego de Nintendo Switch 2 a Windows x86-64 nativo con renderizador Vulkan. El código ARM64 se traduce a C y las llamadas gráficas NVN 2 se reimplementan en PC. Arranca, pasa por la pantalla de título y llega a la cueva del tutorial, donde Donkey Kong puede caminar y golpear, pero se cierra tras unos minutos en tarjetas NVIDIA y faltan muchos efectos. No hay release: un instalador compila el juego a partir de tu propio volcado. No incluye archivos del juego.",
   warning: "Early alpha: the game crashes after a few minutes and many effects are missing.",
   warningEs: "Alfa temprana: el juego se cierra tras unos minutos y faltan muchos efectos.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Lucas-blip-png/dkb-pc-recomp/releases/download/v0.2.0/DKB-Setup-0.2.0%2B33f8bbc-linux-x86_64.tar.gz",
+      size: "2.6 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Lucas-blip-png/dkb-pc-recomp/releases/download/v0.2.0/DKB-Setup-0.2.0%2B33f8bbc-macos-arm64.zip",
+      size: "2.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Lucas-blip-png/dkb-pc-recomp/releases/download/v0.2.0/DKB-Setup-0.2.0%2B33f8bbc-windows.zip",
+      size: "123.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/01/Donkey_Kong_Bananza_updated_box_art.png",
     alt: "Donkey Kong Bananza (box art)",

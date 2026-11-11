@@ -14,12 +14,19 @@ export const rockNRollRacingPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.0", date: "2026-09-03" },
   sources: ["https://github.com/Junior-Jones/Rock-N-Roll-Racing-SNES-Static-Recomp"],
   license: { spdx: "Zlib" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Super Nintendo"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Junior-Jones/Rock-N-Roll-Racing-SNES-Static-Recomp/releases/download/v1.0.0/Rock-N-Roll-Racing-SNES-Static-Recomp-1.0.0-Windows-x64.zip",
+      size: "2.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/ef/Rock_N%27_Roll_Racing_Cover.jpg",
     alt: "Rock n' Roll Racing (box art)",

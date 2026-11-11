@@ -14,13 +14,40 @@ export const sm64coopdx: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows","linux","macos"],
   status: "stable",
-  release: { version: null, date: null },
+  release: { version: "1.5.1", date: "2026-06-01" },
   sources: ["https://github.com/coop-deluxe/sm64coopdx"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["sm64ex","sm64plus"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/coop-deluxe/sm64coopdx/releases/download/v1.5.1/sm64coopdx_Linux.zip",
+      size: "52.8 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/coop-deluxe/sm64coopdx/releases/download/v1.5.1/sm64coopdx_macOS_ARM.zip",
+      size: "43.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/coop-deluxe/sm64coopdx/releases/download/v1.5.1/sm64coopdx_macOS_Intel.zip",
+      size: "42.4 MB",
+    },
+    {
+      label: "sm64coopdx_SteamOS",
+      url: "https://github.com/coop-deluxe/sm64coopdx/releases/download/v1.5.1/sm64coopdx_SteamOS.zip",
+      size: "52.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/coop-deluxe/sm64coopdx/releases/download/v1.5.1/sm64coopdx_Windows.zip",
+      size: "39.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
     alt: "Super Mario 64 (box art)",

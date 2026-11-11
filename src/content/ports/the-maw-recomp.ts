@@ -24,6 +24,18 @@ export const theMawRecomp: Port = {
   summary: "The Maw is a action-adventure game published by Microsoft Studios for Xbox 360, released in 2009.",
   summaryEs: "The Maw es un videojuego de acci�n y aventura publicado por Microsoft Studios para Xbox 360, lanzado en 2009.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/thefixinhixon/TheMawRecomp/releases/download/v1.0/TheMaw-Linux-v1.0.zip",
+      size: "66.7 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/thefixinhixon/TheMawRecomp/releases/download/v1.0/TheMaw-x86_64-v1.0.AppImage",
+      size: "67.3 MB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/26000/header.jpg?t=1776350668",
     alt: "The Maw (Steam header)",

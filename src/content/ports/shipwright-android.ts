@@ -14,12 +14,19 @@ export const shipwrightAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "9.2.3-android.4.3", date: "2026-05-20" },
   sources: ["https://github.com/please-be-nice/Shipwright-android"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube","Nintendo 64"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/please-be-nice/Shipwright-android/releases/download/v9.2.3-android.4.3/soh-v9.2.3-android.4.3.apk",
+      size: "50.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
     alt: "The Legend of Zelda: Ocarina of Time (box art)",

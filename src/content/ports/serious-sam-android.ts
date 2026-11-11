@@ -14,7 +14,7 @@ export const seriousSamAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.05.3", date: "2022-11-26" },
   sources: ["https://github.com/Skyrimus/Serious-Sam-Android"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,18 @@ export const seriousSamAndroid: Port = {
     "Android port of Serious Sam: The First Encounter and The Second Encounter, built on the released Serious Engine source. It needs the original game files.",
   notesEs:
     "Port a Android de Serious Sam: The First Encounter y The Second Encounter, construido sobre el código liberado del motor Serious Engine. Necesita los archivos del juego original.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Skyrimus/Serious-Sam-Android/releases/download/v1.05.3/SeriousSamAndroid-v1.05.3-TFE-release.apk",
+      size: "7.0 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/Skyrimus/Serious-Sam-Android/releases/download/v1.05.3/SeriousSamAndroid-v1.05.3-TSE-release.apk",
+      size: "12.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b4/Serious_Sam_-_The_First_Encounter.jpg",
     alt: "Serious Sam: The First Encounter (box art)",

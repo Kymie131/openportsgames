@@ -23,6 +23,28 @@ export const RotpFusion: Port = {
   summary: "Rotp-Fusion is a action-adventure game, released in 1993.",
   summaryEs: "Rotp-Fusion es un videojuego de acci�n y aventura, lanzado en 1993.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "BitmapGalaxyExamples",
+      url: "https://github.com/BrokenRegistry/Rotp-Fusion/releases/download/2026/11/09/1854/BitmapGalaxyExamples.zip",
+      size: "4.7 MB",
+    },
+    {
+      label: "rotp-Fusion-2026-11-09-mini",
+      url: "https://github.com/BrokenRegistry/Rotp-Fusion/releases/download/2026/11/09/1854/rotp-Fusion-2026-11-09-mini.jar",
+      size: "299.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/BrokenRegistry/Rotp-Fusion/releases/download/2026/11/09/1854/rotp-Fusion-2026-11-09-windows.zip",
+      size: "352.8 MB",
+    },
+    {
+      label: "rotp-Fusion-2026-11-09",
+      url: "https://github.com/BrokenRegistry/Rotp-Fusion/releases/download/2026/11/09/1854/rotp-Fusion-2026-11-09.jar",
+      size: "1080.1 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/rotp-fusion.svg",
     alt: "Rotp-Fusion (generated cover)",

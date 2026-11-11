@@ -14,7 +14,7 @@ export const sonic1Forever: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.5.1", date: "2024-10-16" },
   sources: ["https://github.com/ElspethThePict/S1Forever"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -23,6 +23,23 @@ export const sonic1Forever: Port = {
   summary: "Sonic 1 Forever is a platform game published by Sega, released in 1991.",
   summaryEs: "Sonic 1 Forever es un videojuego de plataformas publicado por Sega, lanzado en 1991.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Android",
+      url: "https://github.com/ElspethThePict/S1Forever/releases/download/1.5.1/SonicForever_1.5.1_Android.zip",
+      size: "18.6 MB",
+    },
+    {
+      label: "Switch",
+      url: "https://github.com/ElspethThePict/S1Forever/releases/download/1.5.1/SonicForever_1.5.1_Switch.zip",
+      size: "18.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/ElspethThePict/S1Forever/releases/download/1.5.1/SonicForever_1.5.1_Windows.zip",
+      size: "17.1 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/sonic-1-forever.svg",
     alt: "Sonic 1 Forever (generated cover)",

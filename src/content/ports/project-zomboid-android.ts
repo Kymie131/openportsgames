@@ -25,6 +25,13 @@ export const projectZomboidAndroid: Port = {
     "Unofficial Android launcher for Project Zomboid. It needs a purchased copy of the desktop game and its files.",
   notesEs:
     "Lanzador no oficial para Android de Project Zomboid. Necesita una copia comprada del juego de escritorio y sus archivos.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/udarmolota/zomdroid/releases/download/v1.5.3/zomdroid-release-1.5.3.apk",
+      size: "154.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/0c/Boxshot_of_video_game_Project_zomboid.jpg",
     alt: "Project Zomboid (box art)",

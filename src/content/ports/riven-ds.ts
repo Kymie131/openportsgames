@@ -14,12 +14,24 @@ export const rivenDs: Port = {
   originalGameLicense: "proprietary",
   platforms: ["ds"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.0", date: "2026-08-17" },
   sources: ["https://github.com/Warioware64/Riven-The-Sequel-Of-Myst-NDS-Port"],
   license: { spdx: "Apache-2.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Warioware64/Riven-The-Sequel-Of-Myst-NDS-Port/releases/download/v1.0.0/riven-ds-v1.0.0-linux.tar.gz",
+      size: "25.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Warioware64/Riven-The-Sequel-Of-Myst-NDS-Port/releases/download/v1.0.0/riven-ds-v1.0.0-windows.zip",
+      size: "22.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/32/Riven_Coverart.png",
     alt: "Riven (box art)",

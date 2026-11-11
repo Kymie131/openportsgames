@@ -21,6 +21,23 @@ export const diegodediosAlienrerecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/DiegoDeDios/AlienReRecomp/releases/download/v0.2.0/AlienResurrection-0.2.0-linux-x86_64.tar.gz",
+      size: "7.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/DiegoDeDios/AlienReRecomp/releases/download/v0.2.0/AlienResurrection-0.2.0-macos.zip",
+      size: "8.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/DiegoDeDios/AlienReRecomp/releases/download/v0.2.0/AlienResurrection-0.2.0-windows-x64.zip",
+      size: "7.6 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Alien%20Resurrection%20(Europe)%20(En,Fr,De,Es,It).png",
     alt: "Alien Resurrection (box art)",

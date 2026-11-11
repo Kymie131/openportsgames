@@ -14,12 +14,19 @@ export const halfLifePs5: Port = {
   originalGameLicense: "proprietary",
   platforms: ["ps5"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.3", date: "2026-10-08" },
   sources: ["https://github.com/GordonProsperoMan/xash3d-ps5"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "PPSA19111",
+      url: "https://github.com/GordonProsperoMan/xash3d-ps5/releases/download/v1.3/PPSA19111.zip",
+      size: "30.3 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/70/header.jpg",
     alt: "Half-Life (cover art)",

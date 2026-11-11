@@ -14,7 +14,7 @@ export const megaManZeroRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.0.11", date: "2026-11-01" },
   sources: ["https://github.com/mstan/MegaManZeroRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
@@ -25,6 +25,13 @@ export const megaManZeroRecomp: Port = {
     "Static recompilation of Mega Man Zero (GBA) with the gbarecomp framework. It requires your own game files.",
   notesEs:
     "Recompilación estática de Mega Man Zero (GBA) con el framework gbarecomp. Requiere tus propios archivos del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/MegaManZeroRecomp/releases/download/v0.0.11/MegaManZeroRecomp-windows-x64-v0.0.11.zip",
+      size: "17.5 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Mega%20Man%20Zero%20(USA)%20(Virtual%20Console).png",
     alt: "Mega Man Zero (box art)",

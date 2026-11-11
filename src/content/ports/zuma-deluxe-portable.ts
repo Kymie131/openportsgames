@@ -21,6 +21,33 @@ export const zumaDeluxePortable: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/abduznik/ZumaPortable/releases/download/v0.1.1/zuma-portable-android-arm64-v8a.apk",
+      size: "7.7 MB",
+    },
+    {
+      label: "zuma-portable-wasm",
+      url: "https://github.com/abduznik/ZumaPortable/releases/download/v0.1.1/zuma-portable-wasm.zip",
+      size: "1.7 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/abduznik/ZumaPortable/releases/download/v0.1.1/zuma-portable-windows-msvc-x64-static.exe",
+      size: "6.1 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/abduznik/ZumaPortable/releases/download/v0.1.1/zuma-portable-windows-msvc-x86-static.exe",
+      size: "5.3 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/abduznik/ZumaPortable/releases/download/v0.1.1/zuma-portable-windows-ucrt64-static.exe",
+      size: "10.2 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/3330/header.jpg",
     alt: "Zuma Deluxe (box art)",

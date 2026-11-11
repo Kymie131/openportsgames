@@ -21,6 +21,13 @@ export const openttdAndroid: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["MS-DOS"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/pelya/openttd-android/releases/download/1.9.1.77/OpenTTD-1.9.1.77.apk",
+      size: "52.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/7f/Transport_Tycoon_Coverart.jpg",
     alt: "Transport Tycoon Deluxe (box art)",

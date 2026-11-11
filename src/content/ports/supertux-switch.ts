@@ -14,12 +14,19 @@ export const supertuxSwitch: Port = {
   originalGameLicense: "open",
   platforms: ["switch"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.1b", date: "2022-03-29" },
   sources: ["https://github.com/headshot2017/supertux-switch"],
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "Switch",
+      url: "https://github.com/headshot2017/supertux-switch/releases/download/v0.1.1b/supertux-switch.zip",
+      size: "11.3 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1572920/header.jpg",
     alt: "SuperTux (cover art)",

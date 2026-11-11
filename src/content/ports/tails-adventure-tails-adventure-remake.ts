@@ -14,7 +14,7 @@ export const TailsAdventureTailsAdventureRemake: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.3.2-1", date: "2026-04-22" },
   sources: ["https://github.com/mechakotik/tails-adventure"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -23,6 +23,23 @@ export const TailsAdventureTailsAdventureRemake: Port = {
   summary: "Tails Adventure (Tails Adventure Remake) is a action-adventure game for Game Gear, released in 2000.",
   summaryEs: "Tails Adventure (Tails Adventure Remake) es un videojuego de acci�n y aventura para Game Gear, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/mechakotik/tails-adventure/releases/download/v0.3.2-1/tails-adventure-v0.3.2-1-android.apk",
+      size: "11.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/mechakotik/tails-adventure/releases/download/v0.3.2-1/tails-adventure-v0.3.2-1-linux-amd64.tar.xz",
+      size: "4.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/mechakotik/tails-adventure/releases/download/v0.3.2-1/tails-adventure-v0.3.2-1-windows.zip",
+      size: "6.3 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/tails-adventure-tails-adventure-remake.svg",
     alt: "Tails Adventure (Tails Adventure Remake) (generated cover)",

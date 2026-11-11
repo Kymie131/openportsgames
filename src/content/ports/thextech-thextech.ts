@@ -23,6 +23,38 @@ export const thextechThextech: Port = {
   originalSystems: ["Windows"],
   summary: "Super Mario Bros. X is a platform game in 2009.",
   summaryEs: "Super Mario Bros. X es un videojuego de plataformas en 2009.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/TheXTech/TheXTech/releases/download/v1.7.4.1/adventures-of-demo-thextech-v1.7.4.1-linux-generic-u14.04-amd64.tar.gz",
+      size: "33.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/TheXTech/TheXTech/releases/download/v1.7.4.1/adventures-of-demo-thextech-v1.7.4.1-linux-generic-u14.04-i386.tar.gz",
+      size: "33.6 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/TheXTech/TheXTech/releases/download/v1.7.4.1/adventures-of-demo-thextech-v1.7.4.1-linux-generic-u16.04-amd64.tar.gz",
+      size: "34.4 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/TheXTech/TheXTech/releases/download/v1.7.4.1/adventures-of-demo-thextech-v1.7.4.1-linux-generic-u16.04-i386.tar.gz",
+      size: "34.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/TheXTech/TheXTech/releases/download/v1.7.4.1/adventures-of-demo-thextech-v1.7.4.1-linux-generic-u18.04-amd64.tar.gz",
+      size: "34.4 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/TheXTech/TheXTech/releases/download/v1.7.4.1/adventures-of-demo-thextech-v1.7.4.1-linux-generic-u20.04-aarch64.tar.gz",
+      size: "33.8 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/super-mario-bros-x.svg",
     alt: "Super Mario Bros. X (generated cover)",

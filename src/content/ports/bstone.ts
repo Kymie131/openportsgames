@@ -24,6 +24,28 @@ export const bstone: Port = {
     "Blake Stone: Aliens of Gold is a first-person shooter developed by JAM Productions and published by Apogee Software in 1993. Agent Blake Stone infiltrates a lunar base overrun by Dr. Goldfire's alien army.",
   summaryEs:
     "Blake Stone: Aliens of Gold es un shooter en primera persona desarrollado por JAM Productions y publicado por Apogee Software en 1993. El agente Blake Stone se infiltra en una base lunar tomada por el ejército alienígena del Dr. Goldfire.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/bibendovsky/bstone/releases/download/v1.3.4/bstone-1.3.4%2Be65a6b40-Darwin.zip",
+      size: "1.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/bibendovsky/bstone/releases/download/v1.3.4/bstone-1.3.4%2Be65a6b40-Linux.zip",
+      size: "2.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/bibendovsky/bstone/releases/download/v1.3.4/bstone-1.3.4%2Be65a6b40-win32.zip",
+      size: "2.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/bibendovsky/bstone/releases/download/v1.3.4/bstone-1.3.4%2Be65a6b40-win64.zip",
+      size: "2.0 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/bstone.svg",
     alt: "Blake Stone: Aliens of Gold (generated cover)",

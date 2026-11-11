@@ -14,7 +14,7 @@ export const burnout3Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.0", date: "2026-10-20" },
   sources: ["https://github.com/sp00nznet/burnout3"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const burnout3Recomp: Port = {
     "Static recompilation of Burnout 3: Takedown (Xbox) with ReXGlue. It requires a copy of the game.",
   notesEs:
     "Recompilación estática de Burnout 3: Takedown (Xbox) con ReXGlue. Requiere una copia del juego.",
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/sp00nznet/burnout3/releases/download/v0.1.0/Burnout3-Installer-windows-x64.exe",
+      size: "18.3 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Burnout%203%20-%20Takedown%20(USA).png",
     alt: "Burnout 3: Takedown (box art)",

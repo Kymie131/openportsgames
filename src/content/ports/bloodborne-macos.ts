@@ -14,12 +14,24 @@ export const bloodborneMacos: Port = {
   originalGameLicense: "proprietary",
   platforms: ["macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.5.15", date: "2026-11-10" },
   sources: ["https://github.com/Wooloomooloo2/bloodborne_mac_port"],
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 4"],
+  downloads: [
+    {
+      label: "Macos",
+      url: "https://github.com/Wooloomooloo2/bloodborne_mac_port/releases/download/mac-v0.5.15/Bloodborne-macOS-0.5.15.zip",
+      size: "46.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Wooloomooloo2/bloodborne_mac_port/releases/download/mac-v0.5.15/pkg_extract-macOS.zip",
+      size: "553 KB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
     alt: "Bloodborne (box art)",

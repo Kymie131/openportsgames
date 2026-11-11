@@ -23,6 +23,13 @@ export const sp00nznetVig8: Port = {
   originalSystems: ["Xbox 360"],
   summary: "Vigilante 8 Arcade is a vehicular combat video game developed by Isopod Labs and published by Activision. It was released on November 5, 2008, for Xbox 360 through Xbox Live Arcade. Isopod Labs was formed by three former members of Luxoflux, developer of the original Vigilante 8 series. A remake of Vigilante 8 with some elements of Vigilante 8: Second Offense included, Vigilante 8 Arcade features online play for up to eight players.",
   summaryEs: "Vigilante 8: Arcade es un videojuego de combate vehicular desarrollado por Isopod Labs y publicado por Activision. Fue anunciado el 14 de febrero de 2008 y lanzado el 5 de noviembre de 2008 para Xbox Live Arcade en la Xbox 360. Isopod Labs fue formado por tres exmiembros de Luxoflux, desarrolladora de la serie Vigilante 8 original. Un remake de Vigilante 8 con algunos elementos de la secuela también incluidos, Vigilante 8: Arcade puede jugarse en línea hasta para ocho jugadores.",
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/sp00nznet/vig8/releases/download/v0.1.0/Vig8-Installer-windows-x64.exe",
+      size: "18.3 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/vigilante-8-arcade.svg",
     alt: "Vigilante 8 Arcade (generated cover)",

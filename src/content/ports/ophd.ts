@@ -14,7 +14,7 @@ export const Ophd: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.8.10", date: "2026-06-01" },
   sources: ["https://github.com/OutpostUniverse/OPHD"],
   license: { spdx: "BSD-3-Clause" },
   verified: false,
@@ -23,6 +23,13 @@ export const Ophd: Port = {
   summary: "OPHD is a action-adventure game, released in 2000.",
   summaryEs: "OPHD es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/OutpostUniverse/OPHD/releases/download/v0.8.10/ophd_v0.8.10_win64.zip",
+      size: "39.2 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/ophd.svg",
     alt: "OPHD (generated cover)",

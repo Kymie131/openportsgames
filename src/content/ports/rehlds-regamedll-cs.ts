@@ -21,6 +21,13 @@ export const rehldsRegamedllCs: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/rehlds/ReGameDLL_CS/releases/download/5.30.0.814/regamedll-bin-5.30.0.814.zip",
+      size: "2.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/67/Counter-Strike_Box.jpg",
     alt: "Counter-Strike (box art)",

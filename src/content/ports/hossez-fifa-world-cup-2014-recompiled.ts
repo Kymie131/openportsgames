@@ -23,6 +23,18 @@ export const hossezFifaWorldCup2014Recompiled: Port = {
   originalSystems: ["Xbox 360"],
   summary: "2014 FIFA World Cup Brazil is the official video game for the 2014 FIFA World Cup, published by EA Sports for PlayStation 3 and Xbox 360. It was released on 15 April 2014 in North America, and 17 April 2014 in Europe, as was the case with the 2010 edition.",
   summaryEs: "2014 FIFA World Cup es el videojuego oficial de la Copa Mundial de Fútbol de 2014, disputada en Brasil. Es el octavo juego con licencia oficial de la FIFA y el quinto que apareció bajo la marca EA Sports. Está dentro de la serie FIFA World Cup. Fue desarrollado por EA Canada para PlayStation 3 y Xbox 360. Se había anunciado en febrero de 2014 y salió a la venta el 15 de abril en América del Norte, el 17 de abril en Europa y Australia, y el 24 de abril en Japón.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/HossEz/fifa-world-cup-2014-recompiled/releases/download/v0.2.1/fifa-world-cup-2014-recompiled-0.2.1-portable.zip",
+      size: "46.1 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/HossEz/fifa-world-cup-2014-recompiled/releases/download/v0.2.1/fifa-world-cup-2014-recompiled-0.2.1-setup.exe",
+      size: "29.3 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/2014-fifa-world-cup-brazil.svg",
     alt: "2014 FIFA World Cup Brazil (generated cover)",

@@ -14,7 +14,7 @@ export const unciv: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos", "android", "ios"],
   status: "stable",
-  release: { version: null, date: null },
+  release: { version: "4.22.19", date: "2026-11-10" },
   sources: ["https://github.com/yairm210/Unciv"],
   license: { spdx: "MPL-2.0" },
   verified: false,
@@ -25,6 +25,38 @@ export const unciv: Port = {
     "Open-source remake of Civilization V for Android and desktop, also available on iOS. It is a turn-based strategy game that does not use the original game's assets.",
   notesEs:
     "Remake libre de Civilization V para Android y escritorio, también disponible en iOS. Es un juego de estrategia por turnos que no usa los recursos del juego original.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/yairm210/Unciv/releases/download/4.22.19/linuxFilesForJar.zip",
+      size: "1 KB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/yairm210/Unciv/releases/download/4.22.19/Unciv-Linux64.zip",
+      size: "103.9 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/yairm210/Unciv/releases/download/4.22.19/Unciv-signed.apk",
+      size: "26.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/yairm210/Unciv/releases/download/4.22.19/Unciv-Windows64.zip",
+      size: "100.2 MB",
+    },
+    {
+      label: "Unciv",
+      url: "https://github.com/yairm210/Unciv/releases/download/4.22.19/Unciv.jar",
+      size: "55.3 MB",
+    },
+    {
+      label: "Windows MSI",
+      url: "https://github.com/yairm210/Unciv/releases/download/4.22.19/Unciv.msi",
+      size: "86.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/5c/CIVILIZATION-V-FRONT-OF-BOX.jpg",
     alt: "Civilization V (box art)",

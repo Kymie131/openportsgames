@@ -27,6 +27,33 @@ export const fZeroXRecomp: Port = {
     "G-Diffuser is a native port of F-Zero X built on the inspectredc matching decompilation and the libultraship runtime. Version 1.2.2 ships Windows, Linux, macOS and Android builds and adds support for the Japan-only 64DD Expansion Kit, plus widescreen, an in-game enhancements menu, post-process shaders, mod packs, shareable tracks and machines, and ROM hack support. Requires your own F-Zero X ROM and, for the expansion content, your own 64DD disk dump. No game files are included.",
   notesEs:
     "G-Diffuser es un port nativo de F-Zero X basado en la decompilación matching de inspectredc y el runtime libultraship. La versión 1.2.2 incluye builds para Windows, Linux, macOS y Android y añade compatibilidad con el Expansion Kit de 64DD exclusivo de Japón, además de pantalla panorámica, menú de mejoras, shaders de postprocesado, packs de mods, pistas y máquinas compartibles y soporte de ROM hacks. Requiere tu propia ROM de F-Zero X y, para el contenido de la expansión, tu propio volcado del disco de 64DD. No incluye archivos del juego.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Zorkats/G-Diffuser/releases/download/v1.2.3/G-Diffuser-v1.2.3-android-arm64.apk",
+      size: "25.0 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Zorkats/G-Diffuser/releases/download/v1.2.3/G-Diffuser-v1.2.3-linux-arm64.tar.gz",
+      size: "10.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Zorkats/G-Diffuser/releases/download/v1.2.3/G-Diffuser-v1.2.3-linux-x64.tar.gz",
+      size: "10.7 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Zorkats/G-Diffuser/releases/download/v1.2.3/G-Diffuser-v1.2.3-macos-arm64.tar.gz",
+      size: "8.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Zorkats/G-Diffuser/releases/download/v1.2.3/G-Diffuser-v1.2.3-windows-x64.zip",
+      size: "7.8 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/F-Zero%20X%20(Europe).png",
     alt: "F-Zero X (box art)",

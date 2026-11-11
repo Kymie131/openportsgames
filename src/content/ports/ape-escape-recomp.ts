@@ -14,7 +14,7 @@ export const apeEscapeRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.5.7", date: "2026-11-07" },
   sources: ["https://github.com/mstan/ApeEscapeRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
@@ -25,6 +25,13 @@ export const apeEscapeRecomp: Port = {
     "Static recompilation of Ape Escape (USA, SCUS-94423) with PSXRecomp. The releases precompile 47 disc overlays and two minigames; two archive members remain unresolved.",
   notesEs:
     "Recompilación estática de Ape Escape (USA, SCUS-94423) con PSXRecomp. Las releases precompilan 47 overlays del disco y dos minijuegos; quedan dos miembros de archivo sin resolver.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/ApeEscapeRecomp/releases/download/v0.5.7/ApeEscapeRecomp-v0.5.7-windows-x64.zip",
+      size: "44.5 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Ape%20Escape%20(USA).png",
     alt: "Ape Escape (box art)",

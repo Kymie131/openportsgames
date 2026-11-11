@@ -14,13 +14,45 @@ export const projectPicori: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows","linux","macos","android"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.9.6", date: "2026-10-20" },
   sources: ["https://github.com/999sian/tmc"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy Advance"],
   related: ["minish-cap","zelda-tmc-3ds"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/999sian/tmc/releases/download/v0.9.6/tmc-multi-android-v0.9.6.apk",
+      size: "102.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/999sian/tmc/releases/download/v0.9.6/tmc-multi-linux-arm64-v0.9.6.tar.gz",
+      size: "22.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/999sian/tmc/releases/download/v0.9.6/tmc-multi-linux-x86_64-v0.9.6.tar.gz",
+      size: "22.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/999sian/tmc/releases/download/v0.9.6/tmc-multi-macos-arm64-v0.9.6.tar.gz",
+      size: "4.0 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/999sian/tmc/releases/download/v0.9.6/tmc-multi-macos-x86_64-v0.9.6.tar.gz",
+      size: "4.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/999sian/tmc/releases/download/v0.9.6/tmc-multi-windows-arm64-v0.9.6.tar.gz",
+      size: "16.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/0a/TLOZ-_Minish_Cap_NA_Box_art.png",
     alt: "The Legend of Zelda: The Minish Cap (box art)",

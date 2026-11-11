@@ -14,7 +14,7 @@ export const unleashedrecompNx: Port = {
   originalGameLicense: "proprietary",
   platforms: ["switch"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.0.3", date: "2026-07-30" },
   sources: ["https://github.com/NaGaa95/UnleashedRecomp-NX"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -26,6 +26,13 @@ export const unleashedrecompNx: Port = {
     "Unofficial Nintendo Switch homebrew port of the Xbox 360 version of Sonic Unleashed, created through static recompilation. Requires your own copy of the game. The upstream repository is archived (read-only).",
   notesEs:
     "Port homebrew no oficial para Nintendo Switch de la versión de Xbox 360 de Sonic Unleashed, hecho mediante recompilación estática. Requiere tu propia copia del juego. El repositorio original está archivado (solo lectura).",
+  downloads: [
+    {
+      label: "Switch NRO",
+      url: "https://github.com/NaGaa95/UnleashedRecomp-NX/releases/download/0.0.3/UnleashedRecomp.nro",
+      size: "78.5 MB",
+    },
+  ],
   cover: {
     src: "https://raw.githubusercontent.com/NaGaa95/UnleashedRecomp-NX/refs/heads/main/icon.jpg",
     alt: "Sonic Unleashed (cover)",

@@ -21,6 +21,28 @@ export const unchigaYugiohforbiddenmemoriesrecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp/releases/download/v0.6.2/ygofm-0.6.2-linux-x64.zip",
+      size: "31.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp/releases/download/v0.6.2/ygofm-0.6.2-macos-arm64.zip",
+      size: "28.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp/releases/download/v0.6.2/ygofm-0.6.2-macos-x64.zip",
+      size: "29.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp/releases/download/v0.6.2/ygofm-0.6.2-win-x64.zip",
+      size: "33.2 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Yu-Gi-Oh!%20Forbidden%20Memories%20(Europe).png",
     alt: "Yu-Gi-Oh! Forbidden Memories (box art)",

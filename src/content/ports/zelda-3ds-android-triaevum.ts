@@ -14,12 +14,19 @@ export const zelda3dsAndroidTriaevum: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.0-android", date: "2026-09-22" },
   sources: ["https://github.com/WINDROID-EMU/RECOMP-ZELDA-3DS-ANDROID"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 3DS"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/WINDROID-EMU/RECOMP-ZELDA-3DS-ANDROID/releases/download/v1.0.0-android/TriAevum-Oot3D-Android-arm64-v8a.apk",
+      size: "109.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/30/The_Legend_of_Zelda_Ocarina_of_Time_3D_box_art.png",
     alt: "The Legend of Zelda: Ocarina of Time 3D (box art)",

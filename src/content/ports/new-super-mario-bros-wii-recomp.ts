@@ -14,7 +14,7 @@ export const newSuperMarioBrosWiiRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.5.0", date: "2026-11-08" },
   sources: ["https://github.com/WitherBlitz/NSMB-Wii-Multiplayer-Recompilation"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -26,6 +26,28 @@ export const newSuperMarioBrosWiiRecomp: Port = {
     "Static recompilation of New Super Mario Bros. Wii built on WiiCompiled, running natively on Windows and Android, with multiplayer. It needs your own game data.",
   notesEs:
     "Recompilación estática de New Super Mario Bros. Wii construida sobre WiiCompiled, que corre de forma nativa en Windows y Android, con multijugador. Necesita tus propios datos del juego.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/WitherBlitz/NSMB-Wii-Recompilation/releases/download/v0.5.0/NSMBW-0.5.0-android-arm64.apk",
+      size: "126.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/WitherBlitz/NSMB-Wii-Recompilation/releases/download/v0.5.0/NSMBW-0.5.0-linux-x86_64.tar.gz",
+      size: "147.0 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/WitherBlitz/NSMB-Wii-Recompilation/releases/download/v0.5.0/NSMBW-0.5.0-newer-android-arm64.zip",
+      size: "49.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/WitherBlitz/NSMB-Wii-Recompilation/releases/download/v0.5.0/NSMBW-0.5.0-windows-x64.zip",
+      size: "132.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/8f/NewSuperMarioBrosWiiBoxart.png",
     alt: "New Super Mario Bros. Wii (cover)",

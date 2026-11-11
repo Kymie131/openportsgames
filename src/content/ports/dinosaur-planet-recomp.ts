@@ -27,6 +27,23 @@ export const dinosaurPlanetRecomp: Port = {
     "Static recompilation of the unreleased 2000 Dinosaur Planet prototype by Rare. The original game was never commercially released, so this entry documents a prototype rather than a shipped title; the original prototype build is required to play.",
   notesEs:
     "Recompilación estática del prototipo inédito Dinosaur Planet (Rare, 2000). El juego original nunca se lanzó comercialmente, así que esta ficha documenta un prototipo y no un título publicado; se necesita la build original del prototipo para jugar.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/DinosaurPlanetRecomp/dino-recomp/releases/download/v0.3.0/DinosaurPlanetRecompiled-v0.3.0-Linux-x64.AppImage",
+      size: "14.6 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/DinosaurPlanetRecomp/dino-recomp/releases/download/v0.3.0/DinosaurPlanetRecompiled-v0.3.0-Linux-x64.tar.gz",
+      size: "9.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/DinosaurPlanetRecomp/dino-recomp/releases/download/v0.3.0/DinosaurPlanetRecompiled-v0.3.0-Windows-x64.zip",
+      size: "20.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Dinosaur%20Planet%20(USA)%20(Proto)%20(2000-12-01).png",
     alt: "Dinosaur Planet (box art)",

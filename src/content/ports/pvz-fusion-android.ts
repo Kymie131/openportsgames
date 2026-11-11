@@ -25,6 +25,13 @@ export const pvzFusionAndroid: Port = {
     "Android version of Plants vs. Zombies Fusion, a fan mod of the original Plants vs. Zombies. It needs the original game files.",
   notesEs:
     "Versión para Android de Plants vs. Zombies Fusion, un mod hecho por fans del Plants vs. Zombies original. Necesita los archivos del juego original.",
+  downloads: [
+    {
+      label: "Android",
+      url: "https://github.com/Teyliu/PVZF-Translation/releases/download/4.0.5_alpha/PvZ.Fusion.Multi-lang.4.0.5.2.Alpha.by.Blooms.zip",
+      size: "649.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/9c/PlantsvsZombiesCoverArt.jpg",
     alt: "Plants vs. Zombies (box art)",

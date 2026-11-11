@@ -20,6 +20,18 @@ export const SuperMarioLand3WarioLand: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy"],
+  downloads: [
+    {
+      label: "Super.Mario.Land.3.-.Wario.Land.USA",
+      url: "https://github.com/omegakatana92/Super-Mario-Land-3-Wario-Land-Recomp-/releases/download/recomp/Super.Mario.Land.3.-.Wario.Land.USA.zip",
+      size: "22.9 MB",
+    },
+    {
+      label: "Super.Mario.Land.3.Wario.Land.1.2",
+      url: "https://github.com/omegakatana92/Super-Mario-Land-3-Wario-Land-Recomp-/releases/download/recomp/Super.Mario.Land.3.Wario.Land.1.2.zip",
+      size: "23.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b8/Wario_Land_Super_Mario_Land_3_cover.png",
     alt: "Super Mario Land 3: Wario Land (box art)",

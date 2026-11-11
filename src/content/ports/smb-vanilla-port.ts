@@ -14,7 +14,7 @@ export const smbVanillaPort: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.0", date: "2026-10-03" },
   sources: ["https://github.com/nukep/SMB-Vanilla"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,18 @@ export const smbVanillaPort: Port = {
     "Decompilation-based native port of Super Mario Bros. (Nintendo Entertainment System). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:
     "Port nativo basado en decompilación de Super Mario Bros. (Nintendo Entertainment System). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/nukep/SMB-Vanilla/releases/download/v0.1.0/smb-vanilla-linux-x64_0.1.0.tar.gz",
+      size: "706 KB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/nukep/SMB-Vanilla/releases/download/v0.1.0/smb-vanilla-win32-x64_0.1.0.zip",
+      size: "2.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Mario%20Bros.%20(World).png",
     alt: "Super Mario Bros. (box art)",

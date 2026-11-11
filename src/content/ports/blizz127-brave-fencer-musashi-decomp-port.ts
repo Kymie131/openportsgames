@@ -22,6 +22,13 @@ export const blizz127BraveFencerMusashiDecompPort: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Blizz127/Brave-Fencer-Musashi-decomp-port/releases/download/bfm-r38-61c60516d/bfm-r38-61c60516d-linux-x86_64.tar.gz",
+      size: "9.2 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Brave%20Fencer%20Musashi%20(USA).png",
     alt: "Brave Fencer Musashi (box art)",

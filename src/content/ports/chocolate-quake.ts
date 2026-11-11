@@ -14,7 +14,7 @@ export const ChocolateQuake: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "2.1.0", date: "2026-02-22" },
   sources: ["https://github.com/Henrique194/chocolate-quake"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -23,6 +23,18 @@ export const ChocolateQuake: Port = {
   summary: "Chocolate Quake is a shooter game for MS-DOS, released in 2000.",
   summaryEs: "Chocolate Quake es un videojuego de disparos para MS-DOS, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Henrique194/chocolate-quake/releases/download/chocolate-quake-2.1.0/chocolate-quake-2.1.0-windows-x86.zip",
+      size: "9.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Henrique194/chocolate-quake/releases/download/chocolate-quake-2.1.0/chocolate-quake-2.1.0-windows-x86_64.zip",
+      size: "9.9 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/chocolate-quake.svg",
     alt: "Chocolate Quake (generated cover)",

@@ -15,7 +15,7 @@ export const slitherlinknxSwitch: Port = {
   category: "homebrew",
   platforms: ["switch"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1", date: "2019-10-13" },
   sources: ["https://github.com/Tardigrade-nx/SlitherlinkNX"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -23,6 +23,13 @@ export const slitherlinknxSwitch: Port = {
   originalSystems: ["Unknown"],
   summary: "SlitherLink is a kind of mathematical intelligence game, which consists of a checkerboard and a number in the checkerboard. When solving the problem, you must use the clues provided by the numbers to connect an uninterrupted closed loop on the checkerboard line.",
   summaryEs: "Slitherlink es un videojuego de puzles publicado por Vector Game en 2018.",
+  downloads: [
+    {
+      label: "Switch",
+      url: "https://github.com/Tardigrade-nx/SlitherlinkNX/releases/download/1.1/SlitherlinkNX_v1.1.zip",
+      size: "5.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/b/b6/Slitherlink-example.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
     alt: "Slitherlink (box art)",

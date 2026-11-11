@@ -14,7 +14,7 @@ export const saintsRowRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.2.2", date: "2026-10-02" },
   sources: ["https://github.com/whompay/SaintsReborn"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -24,6 +24,13 @@ export const saintsRowRecomp: Port = {
   notes: "A ReXGlue-based static recompilation of Saints Row (Xbox 360). Requires your own copy.",
   notesEs:
     "Recompilación estática de Saints Row (Xbox 360) basada en ReXGlue. Requiere tu propia copia.",
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/whompay/SaintsReborn/releases/download/V1.2.2/SaintsReborn-Setup.exe",
+      size: "12.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/59/Saints_Row_Box_Art.jpg",
     alt: "Saints Row (cover)",

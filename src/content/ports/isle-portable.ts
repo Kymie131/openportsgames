@@ -26,6 +26,38 @@ export const islePortable: Port = {
     "Source-based reimplementation of LEGO Island. The only GitHub release is a rolling continuous build rather than a numbered version.",
   notesEs:
     "Reimplementación basada en código fuente de LEGO Island. La única release de GitHub es una build continua y no una versión numerada.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/isledecomp/isle-portable/releases/download/continuous/app-release.apk",
+      size: "12.0 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/isledecomp/isle-portable/releases/download/continuous/isle-0.1-Darwin-arm64.dmg",
+      size: "22.5 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/isledecomp/isle-portable/releases/download/continuous/isle-0.1-Darwin-x64.dmg",
+      size: "23.0 MB",
+    },
+    {
+      label: "isle-0.1-DOS-x86",
+      url: "https://github.com/isledecomp/isle-portable/releases/download/continuous/isle-0.1-DOS-x86.tar.gz",
+      size: "2.3 MB",
+    },
+    {
+      label: "isle-0.1-Emscripten-emscripten",
+      url: "https://github.com/isledecomp/isle-portable/releases/download/continuous/isle-0.1-Emscripten-emscripten.tar.gz",
+      size: "1003 KB",
+    },
+    {
+      label: "isle-0.1-FreeBSD-x64",
+      url: "https://github.com/isledecomp/isle-portable/releases/download/continuous/isle-0.1-FreeBSD-x64.tar.gz",
+      size: "3.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a1/Lego-island.jpg",
     alt: "LEGO Island (box art)",

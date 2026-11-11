@@ -14,12 +14,24 @@ export const gdroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.30", date: "2026-10-20" },
   sources: ["https://github.com/tinsarfal/GDroid"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/tinsarfal/GDroid/releases/download/0.1.30/GDroid-0.1.30-armv7.apk",
+      size: "55.6 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/tinsarfal/GDroid/releases/download/0.1.30/GDroid-0.1.30.apk",
+      size: "55.2 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/4000/header.jpg",
     alt: "Garry's Mod (cover art)",

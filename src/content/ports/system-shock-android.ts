@@ -14,13 +14,20 @@ export const systemShockAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.0", date: "2026-08-24" },
   sources: ["https://github.com/raposomiguel50/system-shock-android"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
   related: ["shockolate"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/raposomiguel50/system-shock-android/releases/download/v1.0.0/SystemShock-Android-v1.0.0-arm64-v8a.apk",
+      size: "3.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/93/Sysshock.jpg",
     alt: "System Shock (box art)",

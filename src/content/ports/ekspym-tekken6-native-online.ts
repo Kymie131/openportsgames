@@ -21,6 +21,18 @@ export const ekspymTekken6NativeOnline: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Ekspym/Tekken6-native-online/releases/download/v3.1.5/tekken6_native_online.zip",
+      size: "190.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Ekspym/Tekken6-native-online/releases/download/v3.1.5/tekken6_native_online_patch.zip",
+      size: "67.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/21/Tekken_6_Box_Art.jpg",
     alt: "Tekken 6 (box art)",

@@ -14,7 +14,7 @@ export const Thinker: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "5.5", date: "2026-08-16" },
   sources: ["https://github.com/induktio/thinker"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -23,6 +23,13 @@ export const Thinker: Port = {
   summary: "thinker is a action-adventure game, released in 2000.",
   summaryEs: "thinker es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Thinker_v5.5",
+      url: "https://github.com/induktio/thinker/releases/download/v5.5/Thinker_v5.5.zip",
+      size: "738 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/thinker.svg",
     alt: "thinker (generated cover)",

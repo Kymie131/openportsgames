@@ -14,12 +14,19 @@ export const armoredCoreForAnswerPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.7.5", date: "2026-11-04" },
   sources: ["https://github.com/SulphurS16/ACFA-Port"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 3"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/SulphurS16/ACFA-Port/releases/download/v0.7.5/ACFA-Port-0.7.5.zip",
+      size: "2.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/29/Armored_Core_for_Answer_cover_art.PNG",
     alt: "Armored Core: For Answer (box art)",

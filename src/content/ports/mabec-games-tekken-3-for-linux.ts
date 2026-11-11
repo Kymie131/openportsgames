@@ -21,6 +21,13 @@ export const mabecGamesTekken3ForLinux: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/Mabec-games/Tekken-3-for-Linux/releases/download/v1.0/Tekken_3_for_Linux-x86_64.AppImage",
+      size: "77.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/7d/Tekken_3_flyer.jpg",
     alt: "Tekken 3 (box art)",

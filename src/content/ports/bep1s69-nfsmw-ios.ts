@@ -21,6 +21,13 @@ export const bep1s69NfsmwIos: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "iOS IPA",
+      url: "https://github.com/bep1s69/nfsmw-ios/releases/download/v0.6.0/NFSMW.ipa",
+      size: "29.2 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1262560/header.jpg",
     alt: "Need for Speed: Most Wanted (box art)",

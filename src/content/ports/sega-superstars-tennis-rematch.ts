@@ -14,7 +14,7 @@ export const segaSuperstarsTennisRematch: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.6.1", date: "2026-10-24" },
   sources: ["https://github.com/m1ndcrap/Sega-Superstars-Tennis-ReMatch"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,18 @@ export const segaSuperstarsTennisRematch: Port = {
     "Recompilation of Sega Superstars Tennis (Xbox 360) to native Windows via ReXGlue. You supply the game files.",
   notesEs:
     "Recompilación de Sega Superstars Tennis (Xbox 360) a Windows nativo mediante ReXGlue. Tú aportas los archivos.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/m1ndcrap/Sega-Superstars-Tennis-ReMatch/releases/download/v0.6.1/sst_rematch_linux.tar.gz",
+      size: "82.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/m1ndcrap/Sega-Superstars-Tennis-ReMatch/releases/download/v0.6.1/sst_rematch_windows.zip",
+      size: "177.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/10/SEGA_Superstars_Tennis.jpg",
     alt: "Sega Superstars Tennis (box art)",

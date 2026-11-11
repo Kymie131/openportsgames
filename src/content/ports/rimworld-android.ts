@@ -14,7 +14,7 @@ export const rimworldAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.3.2", date: "2026-11-11" },
   sources: ["https://github.com/udarmolota/rimdroid"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -25,6 +25,13 @@ export const rimworldAndroid: Port = {
     "Android launcher that runs RimWorld on phones and tablets. It requires the desktop game files from your own copy.",
   notesEs:
     "Lanzador para Android que ejecuta RimWorld en teléfonos y tablets. Requiere los archivos del juego de escritorio de tu propia copia.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/udarmolota/RimDroid/releases/download/0.3.2/rimdroid-release-0.3.2.apk",
+      size: "133.9 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/294100/header.jpg",
     alt: "RimWorld (cover)",

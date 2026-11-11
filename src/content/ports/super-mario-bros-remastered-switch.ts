@@ -14,12 +14,19 @@ export const superMarioBrosRemasteredSwitch: Port = {
   originalGameLicense: "proprietary",
   platforms: ["switch"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.0", date: "2026-07-28" },
   sources: ["https://github.com/delsonazevedo/Super-Mario-Bros.-Remastered-Switch"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo Entertainment System"],
+  downloads: [
+    {
+      label: "Switch NRO",
+      url: "https://github.com/delsonazevedo/Super-Mario-Bros.-Remastered-Switch/releases/download/1.0.0/smbr.nro",
+      size: "5.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png",
     alt: "Super Mario Bros. (box art)",

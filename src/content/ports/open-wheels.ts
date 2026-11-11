@@ -14,7 +14,7 @@ export const openWheels: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.3.0", date: "2026-10-08" },
   sources: ["https://github.com/officialmelon/OpenWheels"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -22,6 +22,18 @@ export const openWheels: Port = {
   originalSystems: ["Unknown"],
   summary: "Happy Wheels is a side-scrolling ragdoll physics-based platform browser game developed and published by Fancy Force. Created in 2010 by video game designer Jim Bonacci, the game features several player characters using various and often atypical vehicles to traverse the game's many user-generated levels. The game is best known for its graphic violence and the amount of user-generated content its players produce on a regular basis, with game maps shared on a public server.",
   summaryEs: "Happy Wheels es un juego de navegador basado en la física ragdoll desarrollado y publicado por Fancy Force. Creado por el diseñador de videojuegos Jim Bonacci en 2010, el juego cuenta con varios personajes, que utilizan vehículos diferentes, a veces anormales, para atravesar muchos niveles del juego. El juego es conocido por su violencia gráfica y la cantidad de contenido generado por el usuario, que sus jugadores producen sobre una base regular, con los mapas de juego compartidos en un servidor público.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/officialmelon/OpenWheels/releases/download/v0.3.0/OpenWheels-release.apk",
+      size: "97.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/officialmelon/OpenWheels/releases/download/v0.3.0/OpenWheels-windows.zip",
+      size: "62.6 MB",
+    },
+  ],
   cover: {
     src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Happy_Wheels_Logo.png/960px-Happy_Wheels_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     alt: "Happy Wheels (box art)",

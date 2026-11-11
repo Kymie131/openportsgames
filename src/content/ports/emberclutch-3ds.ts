@@ -15,7 +15,7 @@ export const emberclutch3ds: Port = {
   category: "homebrew",
   platforms: ["3ds"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.2", date: "2026-10-05" },
   sources: ["https://github.com/RedLynx101/emberclutch"],
   license: { spdx: "MIT" },
   verified: false,
@@ -24,6 +24,13 @@ export const emberclutch3ds: Port = {
   summary: "Emberclutch is a role-playing game published by Homebrew, released in 2026.",
   summaryEs: "Emberclutch es un videojuego de rol publicado por Homebrew, lanzado en 2026.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "emberclutch-1.0.2",
+      url: "https://github.com/RedLynx101/emberclutch/releases/download/v1.0.2/emberclutch-1.0.2.zip",
+      size: "98.0 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/emberclutch.svg",
     alt: "Emberclutch (generated cover)",

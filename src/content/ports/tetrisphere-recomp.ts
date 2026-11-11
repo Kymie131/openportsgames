@@ -14,7 +14,7 @@ export const tetrisphereRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1.0", date: "2026-10-11" },
   sources: ["https://github.com/djultra64/Blocksphere"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,18 @@ export const tetrisphereRecomp: Port = {
     "Static recompilation of Tetrisphere (N64) with N64Recomp and the RT64 renderer. It requires a copy of the game.",
   notesEs:
     "Recompilación estática de Tetrisphere (N64) con N64Recomp y el renderizador RT64. Requiere una copia del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/djultra64/Blocksphere/releases/download/v1.1.0/blocksphere-1.1.0-linux-x86_64.tar.gz",
+      size: "4.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/djultra64/Blocksphere/releases/download/v1.1.0/blocksphere-1.1.0-windows-x86_64.zip",
+      size: "12.6 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Tetrisphere%20(Europe).png",
     alt: "Tetrisphere (box art)",

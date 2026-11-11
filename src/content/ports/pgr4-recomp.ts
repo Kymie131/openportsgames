@@ -14,7 +14,7 @@ export const pgr4Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.2.2", date: "2026-10-17" },
   sources: ["https://github.com/beatrixzy/PGR4-Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const pgr4Recomp: Port = {
     "Static recompilation of Project Gotham Racing 4 (Xbox 360) built with ReXGlue. Bring your own game data.",
   notesEs:
     "Recompilación estática de Project Gotham Racing 4 (Xbox 360) con ReXGlue. Aporta tus propios datos del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/beatrixzy/PGR4-Recomp/releases/download/v1.2.2/PGR4-Recomp-v1.2.2.zip",
+      size: "15.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/88/PGR4boxart.jpg",
     alt: "Project Gotham Racing 4 (box art)",

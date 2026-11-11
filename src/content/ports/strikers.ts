@@ -14,7 +14,7 @@ export const strikers: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos", "switch"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.0.0", date: "2026-11-09" },
   sources: ["https://github.com/new-coke/strikers"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -26,6 +26,38 @@ export const strikers: Port = {
     "Super Mario Strikers ported to PC, macOS, Linux and Nintendo Switch from its decompiled code (not a recompilation). Requires your own game.",
   notesEs:
     "Super Mario Strikers portado a PC, macOS, Linux y Nintendo Switch desde su código decompilado (no es una recompilación). Requiere tu propio juego.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/new-coke/strikers/releases/download/v2.0.0/strikers-linux-arm64.AppImage",
+      size: "42.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/new-coke/strikers/releases/download/v2.0.0/strikers-linux-arm64.tar.gz",
+      size: "11.1 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/new-coke/strikers/releases/download/v2.0.0/strikers-linux-x86_64.AppImage",
+      size: "43.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/new-coke/strikers/releases/download/v2.0.0/strikers-linux-x86_64.tar.gz",
+      size: "11.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/new-coke/strikers/releases/download/v2.0.0/strikers-macos-arm64.tar.gz",
+      size: "26.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/new-coke/strikers/releases/download/v2.0.0/strikers-windows-x86_64.zip",
+      size: "28.8 MB",
+    },
+  ],
   cover: {
     src: "https://raw.githubusercontent.com/new-coke/strikers/refs/heads/main/smstrikers-port/assets/icon/strikers.ico",
     alt: "Super Mario Strikers (cover)",

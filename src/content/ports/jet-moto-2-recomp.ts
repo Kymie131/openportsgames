@@ -14,7 +14,7 @@ export const jetMoto2Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.5", date: "2026-10-21" },
   sources: ["https://github.com/goodshepherd23/JetMoto2-Recomp"],
   license: { spdx: "MIT" },
   verified: false,
@@ -22,6 +22,13 @@ export const jetMoto2Recomp: Port = {
   originalSystems: ["PlayStation"],
   summary: "Jet Moto 2 is a racing video game developed by Sony Interactive Studios America and SingleTrac and published by Sony Computer Entertainment for the PlayStation. It is the second installment in the Jet Moto series and the sequel to the 1996 game Jet Moto. It was released in North America on November 11, 1997, in Europe in April 1998, and in Japan on August 6, 1998. In January 2008 Jet Moto 2 was made available for the PlayStation Portable and PlayStation 3 via the PlayStation Network.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/goodshepherd23/JetMoto2-Recomp/releases/download/v0.1.5/JetMoto2-Recomp-v0.1.5-windows-x64.zip",
+      size: "15.2 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Jet%20Moto%202%20-%20Championship%20Edition%20(USA).png",
     alt: "Jet Moto 2: Championship Edition (box art)",

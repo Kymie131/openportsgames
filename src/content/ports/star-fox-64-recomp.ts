@@ -14,7 +14,7 @@ export const starFox64Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.3", date: "2025-12-30" },
   sources: ["https://github.com/sonicdcer/Starfox64Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,38 @@ export const starFox64Recomp: Port = {
     "Static recompilation of Star Fox 64 (N64, USA v1.1 Rev A) with N64Recomp and RT64. It adds widescreen, unlocked framerate, mods (with a Thunderstore page) and instant load times.",
   notesEs:
     "Recompilación estática de Star Fox 64 (N64, USA v1.1 Rev A) con N64Recomp y RT64. Añade widescreen, framerate libre, mods (con página en Thunderstore) y cargas instantáneas.",
+  downloads: [
+    {
+      label: "SF64Recomp-Dev-Cheats",
+      url: "https://github.com/sonicdcer/Starfox64Recomp/releases/download/1.0.3/SF64Recomp-Dev-Cheats.zip",
+      size: "72 KB",
+    },
+    {
+      label: "Starfox64Recompiled-v1.0.3-Flatpak-X64-Release",
+      url: "https://github.com/sonicdcer/Starfox64Recomp/releases/download/1.0.3/Starfox64Recompiled-v1.0.3-Flatpak-X64-Release.zip",
+      size: "9.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/sonicdcer/Starfox64Recomp/releases/download/1.0.3/Starfox64Recompiled-v1.0.3-Linux-ARM64-Release.zip",
+      size: "13.4 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/sonicdcer/Starfox64Recomp/releases/download/1.0.3/Starfox64Recompiled-v1.0.3-Linux-X64-Release.zip",
+      size: "13.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/sonicdcer/Starfox64Recomp/releases/download/1.0.3/Starfox64Recompiled-v1.0.3-macOS-Release.zip",
+      size: "21.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/sonicdcer/Starfox64Recomp/releases/download/1.0.3/Starfox64Recompiled-v1.0.3-Windows-RelWithDebInfo.zip",
+      size: "23.3 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Star%20Fox%2064%20(USA).png",
     alt: "Star Fox 64 (box art)",

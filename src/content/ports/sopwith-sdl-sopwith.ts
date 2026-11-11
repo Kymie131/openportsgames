@@ -14,7 +14,7 @@ export const SopwithSdlSopwith: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "2.9.0", date: "2025-12-06" },
   sources: ["https://github.com/fragglet/sdl-sopwith"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -23,6 +23,38 @@ export const SopwithSdlSopwith: Port = {
   summary: "Sopwith (SDL Sopwith) is a action-adventure game, released in 2000.",
   summaryEs: "Sopwith (SDL Sopwith) es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "sdl-sopwith-2.9.0-js",
+      url: "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-2.9.0/sdl-sopwith-2.9.0-js.zip",
+      size: "1.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-2.9.0/sdl-sopwith-2.9.0-macos-arm64.zip",
+      size: "1.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-2.9.0/sdl-sopwith-2.9.0-macos-x86_64.zip",
+      size: "1.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-2.9.0/sdl-sopwith-2.9.0-win32.zip",
+      size: "1.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-2.9.0/sdl-sopwith-2.9.0-win64.zip",
+      size: "1.1 MB",
+    },
+    {
+      label: "sdl-sopwith-2.9.0",
+      url: "https://github.com/fragglet/sdl-sopwith/releases/download/sdl-sopwith-2.9.0/sdl-sopwith-2.9.0.tar.gz",
+      size: "1.0 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/sopwith-sdl-sopwith.svg",
     alt: "Sopwith (SDL Sopwith) (generated cover)",

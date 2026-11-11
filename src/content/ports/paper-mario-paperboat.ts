@@ -14,7 +14,7 @@ export const paperMarioPaperboat: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.3", date: "2026-10-11" },
   sources: ["https://github.com/HarbourMasters/PaperBoat"],
   license: { spdx: "CC0-1.0" },
   verified: false,
@@ -25,6 +25,23 @@ export const paperMarioPaperboat: Port = {
     "Decompilation-based native port of Paper Mario (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:
     "Port nativo basado en decompilación de Paper Mario (Nintendo 64). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/HarbourMasters/PaperBoat/releases/download/1.0.3/Paperboat-Mulberry-Delta-Linux.zip",
+      size: "20.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/HarbourMasters/PaperBoat/releases/download/1.0.3/Paperboat-Mulberry-Delta-Mac.zip",
+      size: "15.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/HarbourMasters/PaperBoat/releases/download/1.0.3/Paperboat-Mulberry-Delta-Win64.zip",
+      size: "26.2 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Paper%20Mario%20(USA).png",
     alt: "Paper Mario (box art)",

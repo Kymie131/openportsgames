@@ -14,7 +14,7 @@ export const linksAwakeningRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.0", date: "2026-10-21" },
   sources: ["https://github.com/sp00nznet/LinksAwakening"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const linksAwakeningRecomp: Port = {
     "Static recompilation of The Legend of Zelda: Link's Awakening DX to a native app, with portable builds for PS4, PS3 and 3DS alongside Windows. The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:
     "Recompilación estática de The Legend of Zelda: Link's Awakening DX a una app nativa, con builds portátiles para PS4, PS3 y 3DS junto a Windows. El jugador aporta su propia ROM obtenida legalmente; el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/sp00nznet/LinksAwakening/releases/download/v0.1.0/LinksAwakening-Recomp-Installer-windows-x64.exe",
+      size: "18.3 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Link's%20Awakening%20DX%20-%20Redux%20(USA).png",
     alt: "The Legend of Zelda: Link's Awakening DX (box art)",

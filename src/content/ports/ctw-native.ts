@@ -14,7 +14,7 @@ export const CtwNative: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.5.0", date: "2026-11-01" },
   sources: ["https://github.com/official-kryo-to/ctw-native"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -24,6 +24,18 @@ export const CtwNative: Port = {
   summary: "CTW-Native is a open-world game, released in 2000.",
   summaryEs: "CTW-Native es un videojuego de mundo abierto, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/official-kryo-to/ctw-native/releases/download/v0.5.0/CTW-Native-Linux-x86_64.tar.gz",
+      size: "4.4 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/official-kryo-to/ctw-native/releases/download/v0.5.0/CTW-Native-Porter.exe",
+      size: "18.8 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/ctw-native.svg",
     alt: "CTW-Native (generated cover)",

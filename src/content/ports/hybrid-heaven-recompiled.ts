@@ -14,12 +14,29 @@ export const hybridHeavenRecompiled: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.1", date: "2026-10-04" },
   sources: ["https://github.com/ogdanimal/HybridHeaven-Recomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/ogdanimal/HybridHeaven-Recomp/releases/download/v1.0.1/HybridHeaven-1.0.1-android-arm64-v8a.apk",
+      size: "27.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/ogdanimal/HybridHeaven-Recomp/releases/download/v1.0.1/HybridHeaven-1.0.1-linux-x86_64.tar.gz",
+      size: "18.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/ogdanimal/HybridHeaven-Recomp/releases/download/v1.0.1/HybridHeaven-1.0.1-windows-x64.zip",
+      size: "27.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/db/Hybridheaven.jpg",
     alt: "Hybrid Heaven (box art)",

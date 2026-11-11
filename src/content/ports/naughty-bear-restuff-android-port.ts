@@ -14,12 +14,19 @@ export const naughtyBearRestuffAndroidPort: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1.0", date: "2026-09-13" },
   sources: ["https://github.com/deivid22srk/naughtybear-restuff-android"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/deivid22srk/naughtybear-restuff-android/releases/download/v1.1.0/NaughtyBear-ReStuff-v1.1.0-arm64-release.apk",
+      size: "68.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/0f/Naughty_Bear.jpg",
     alt: "Naughty Bear (box art)",

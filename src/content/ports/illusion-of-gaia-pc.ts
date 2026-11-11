@@ -14,12 +14,44 @@ export const illusionOfGaiaPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows","linux","macos","switch","android","3ds","psvita"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0", date: "2026-10-16" },
   sources: ["https://github.com/mrOt4/babel-recomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Super Nintendo"],
+  downloads: [
+    {
+      label: "babel-recomp-1.0-3ds",
+      url: "https://github.com/mrOt4/babel-recomp/releases/download/v1.0/babel-recomp-1.0-3ds.zip",
+      size: "2.4 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/mrOt4/babel-recomp/releases/download/v1.0/babel-recomp-1.0-android-arm64.apk",
+      size: "7.7 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/mrOt4/babel-recomp/releases/download/v1.0/babel-recomp-1.0-linux-x86_64.zip",
+      size: "4.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/mrOt4/babel-recomp/releases/download/v1.0/babel-recomp-1.0-macos-arm64.zip",
+      size: "3.9 MB",
+    },
+    {
+      label: "Switch",
+      url: "https://github.com/mrOt4/babel-recomp/releases/download/v1.0/babel-recomp-1.0-switch.zip",
+      size: "7.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/mrOt4/babel-recomp/releases/download/v1.0/babel-recomp-1.0-windows-x86_64.zip",
+      size: "4.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/1a/Iogbox.jpg",
     alt: "Illusion of Gaia (box art)",

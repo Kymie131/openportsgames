@@ -14,13 +14,20 @@ export const perfectDarkAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.0.0", date: "2026-08-27" },
   sources: ["https://github.com/izzy2lost/perfect_dark"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["perfect-dark-port"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/izzy2lost/perfect_dark/releases/download/2.0.0/app-release.apk",
+      size: "14.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg",
     alt: "Perfect Dark (box art)",

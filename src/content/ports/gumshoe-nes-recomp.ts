@@ -14,7 +14,7 @@ export const gumshoeNesRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.5.3", date: "2026-11-01" },
   sources: ["https://github.com/mstan/GumshoeNESRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
@@ -25,6 +25,13 @@ export const gumshoeNesRecomp: Port = {
     "Static recompilation of Gumshoe (NES) with the NESRecomp framework. Playable end-to-end with the Zapper on the mouse; one known cosmetic bug remains in the corner timer and shot counter.",
   notesEs:
     "Recompilación estática de Gumshoe (NES) con el framework NESRecomp. Jugable de principio a fin con el Zapper en el ratón; queda un fallo cosmético conocido en el marcador de tiempo y disparos de la esquina.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/GumshoeNESRecomp/releases/download/v1.5.3/GumshoeRecomp-windows-x64.zip",
+      size: "7.8 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Gumshoe%20(USA%2C%20Europe).png",
     alt: "Gumshoe (box art)",

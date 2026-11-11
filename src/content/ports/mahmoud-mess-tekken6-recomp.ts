@@ -22,6 +22,13 @@ export const mahmoudMessTekken6Recomp: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mahmoud-mess/tekken6-recomp/releases/download/Iterate/Tekken6-Builder-Windows-0.9.4.zip",
+      size: "367.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/21/Tekken_6_Box_Art.jpg",
     alt: "Tekken 6 (box art)",

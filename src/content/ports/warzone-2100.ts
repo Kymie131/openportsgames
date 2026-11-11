@@ -14,7 +14,7 @@ export const warzone2100: Port = {
   originalGameLicense: "open",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
-  release: { version: null, date: null },
+  release: { version: "4.7.0", date: "2026-04-07" },
   sources: ["https://github.com/Warzone2100/warzone2100"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -26,6 +26,38 @@ export const warzone2100: Port = {
     "Open-source continuation of the real-time strategy game Warzone 2100, released by Eidos in 2004. Free and self-contained.",
   notesEs:
     "Continuación de código abierto del juego de estrategia en tiempo real Warzone 2100, liberado por Eidos en 2004. Gratis y autónomo.",
+  downloads: [
+    {
+      label: "Macos",
+      url: "https://github.com/Warzone2100/warzone2100/releases/download/4.7.0/warzone2100_macOS_universal.zip",
+      size: "1066.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Warzone2100/warzone2100/releases/download/4.7.0/warzone2100_macOS_universal_novideos.zip",
+      size: "521.0 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Warzone2100/warzone2100/releases/download/4.7.0/warzone2100_ubuntu22.04_amd64.deb",
+      size: "374.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Warzone2100/warzone2100/releases/download/4.7.0/warzone2100_ubuntu24.04_amd64.deb",
+      size: "374.9 MB",
+    },
+    {
+      label: "warzone2100_web_wasm32_archive",
+      url: "https://github.com/Warzone2100/warzone2100/releases/download/4.7.0/warzone2100_web_wasm32_archive.zip",
+      size: "95.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Warzone2100/warzone2100/releases/download/4.7.0/warzone2100_win_arm64_archive.zip",
+      size: "373.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/01/Warzone_2100_cover.png",
     alt: "Warzone 2100 (cover)",

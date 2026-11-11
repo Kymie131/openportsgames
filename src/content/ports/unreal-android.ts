@@ -14,7 +14,7 @@ export const unrealAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.3.1", date: "2026-11-04" },
   sources: ["https://github.com/Andiweli/Unreal-Android"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -22,6 +22,13 @@ export const unrealAndroid: Port = {
   originalSystems: ["Windows"],
   summary: "Unreal is a 1998 first-person shooter game developed by Epic MegaGames and Digital Extremes and published by GT Interactive for Microsoft Windows. Set in a science-fiction universe, the player controls a prisoner whose prison spacecraft crash-lands on a mysterious planet, where they must find a way to escape while combatting the occupying alien empire. It is the first entry in the Unreal game series and was powered by the titular Unreal Engine. The game reached sales of 1.5 million units by 2002.",
   summaryEs: "Unreal es un videojuego de disparos en primera persona creado por Epic MegaGames, Digital Extremes y publicado por GT Interactive en el año 1998. Dispone de versiones para las plataformas GNU/Linux, Microsoft Windows y Apple Macintosh. Es el origen de la serie de videojuegos Unreal y de su motor Unreal Engine. El motor de juego del Unreal original sería la base de muchos otros juegos de la época. Su expansión, Return to Na Pali, fue lanzada el 1999.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Andiweli/Unreal-Android/releases/download/v2.3.1/Unreal-Android-OUYA.2.3.1.apk",
+      size: "5.1 MB",
+    },
+  ],
   cover: {
     src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Unreal_Engine_Logo_%28new_typeface%29.svg/960px-Unreal_Engine_Logo_%28new_typeface%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     alt: "Unreal (box art)",

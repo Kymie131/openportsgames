@@ -23,6 +23,23 @@ export const sebsebseb1982CrusaderNoRemorseDecomp: Port = {
   originalSystems: ["MS-DOS"],
   summary: "Crusader: No Remorse is an action game developed by Origin Systems and published by Electronic Arts. It was first released in 1995 for MS-DOS, with the Sony PlayStation and Sega Saturn ports following in 1997. Set in a dystopian future 22nd century, the game centers on The Captain, a special ops officer and supersoldier, who defects from the tyrannical world government, the World Economic Consortium (WEC), and joins the Resistance rebels.",
   summaryEs: "Crusader: No Remorse es un videojuego de acción y aventura publicado por Electronic Arts en 1995.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/sebsebseb1982/crusader-no-remorse-decomp/releases/download/v1.36.0/crusader-1.36.0-linux-x64.tar.gz",
+      size: "2.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/sebsebseb1982/crusader-no-remorse-decomp/releases/download/v1.36.0/crusader-1.36.0-portmaster-aarch64.zip",
+      size: "5.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/sebsebseb1982/crusader-no-remorse-decomp/releases/download/v1.36.0/crusader-1.36.0-windows-x64.zip",
+      size: "2.2 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/crusader-no-remorse.svg",
     alt: "Crusader: No Remorse (generated cover)",

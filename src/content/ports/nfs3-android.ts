@@ -14,7 +14,7 @@ export const nfs3Android: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.78", date: "2026-11-04" },
   sources: ["https://github.com/ZloiKILLER/nfs3recompiled-android"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const nfs3Android: Port = {
     "Recompilation of Need for Speed III: Hot Pursuit that runs on Android. It needs your own game files.",
   notesEs:
     "Recompilación de Need for Speed III: Hot Pursuit que funciona en Android. Necesita tus propios archivos del juego.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/ZloiKILLER/nfs3recompiled-android/releases/download/v0.78/nfs3hp-release-0.78.apk",
+      size: "32.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a6/NFS_III_Hot_Pursuit_%28PC%2C_US%29_cover_art.jpg",
     alt: "Need for Speed III: Hot Pursuit (box art)",

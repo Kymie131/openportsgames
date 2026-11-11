@@ -14,7 +14,7 @@ export const rageRacerPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.6.15-alpha", date: "2026-11-05" },
   sources: ["https://github.com/khasinski/rage-racer-pc"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,38 @@ export const rageRacerPc: Port = {
     "Native recompilation of Rage Racer (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Rage Racer (PlayStation). El jugador aporta su propio material obtenido legalmente (imagen de disco); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/khasinski/rage-racer-pc/releases/download/0.6.15-alpha/Rage-Racer-0.6.15-alpha-linux-x86_64.zip",
+      size: "3.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/khasinski/rage-racer-pc/releases/download/0.6.15-alpha/Rage-Racer-0.6.15-alpha-macos-arm64.zip",
+      size: "3.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/khasinski/rage-racer-pc/releases/download/0.6.15-alpha/Rage-Racer-0.6.15-alpha-windows-x86_64.zip",
+      size: "2.6 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/khasinski/rage-racer-pc/releases/download/0.6.15-alpha/Rage-Racer-Editor-0.6.15-alpha-linux-amd64.deb",
+      size: "95.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/khasinski/rage-racer-pc/releases/download/0.6.15-alpha/Rage-Racer-Editor-0.6.15-alpha-linux-x86_64.zip",
+      size: "128.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/khasinski/rage-racer-pc/releases/download/0.6.15-alpha/Rage-Racer-Editor-0.6.15-alpha-macos-arm64.zip",
+      size: "129.5 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Rage%20Racer%20(USA).png",
     alt: "Rage Racer (box art)",

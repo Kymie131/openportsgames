@@ -20,6 +20,13 @@ export const BumpysArcadeFantasy: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Arcade"],
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/GeReV/bumpy-reverse/releases/download/latest/BUMPYP.EXE",
+      size: "297 KB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/0d/Bumpy_Cover_Art.jpg",
     alt: "Bumpy's Arcade Fantasy (cover)",

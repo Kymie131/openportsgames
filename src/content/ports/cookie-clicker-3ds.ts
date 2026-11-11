@@ -14,12 +14,19 @@ export const cookieClicker3ds: Port = {
   originalGameLicense: "proprietary",
   platforms: ["3ds"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.6.0", date: "2017-06-16" },
   sources: ["https://github.com/GabrielRRussell/CookieCollector-3DS-"],
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Other"],
+  downloads: [
+    {
+      label: "ExtractToRoot",
+      url: "https://github.com/GabrielRRussell/CookieCollector-3DS-/releases/download/v1.6.0/ExtractToRoot.zip",
+      size: "99 KB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1454400/header.jpg",
     alt: "Cookie Clicker (cover art)",

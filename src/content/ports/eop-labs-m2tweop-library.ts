@@ -23,6 +23,13 @@ export const eopLabsM2tweopLibrary: Port = {
   originalSystems: ["Unknown"],
   summary: "Medieval II: Total War is a strategy video game developed by the since-disbanded Australian branch of The Creative Assembly and published by Sega. It was released for Microsoft Windows on 10 November 2006. Feral Interactive published versions of the game for macOS and Linux on 14 January 2016. It is the sequel to 2002's Medieval: Total War and the fourth title in the Total War series.",
   summaryEs: "Medieval II: Total War es la secuela indirecta al videojuego de 2002 Medieval: Total War, y el cuarto videojuego de la aclamada serie Total War de The Creative Assembly. Fue anunciado el 20 de enero de 2006 y salió a la venta el 10 de noviembre en Europa y el 14 de noviembre en Norteamérica. Una demostración del videojuego salió el 10 de octubre de 2006, mostrando un tutorial, la batalla de Pavía y la batalla de Agincourt. Una guía de estrategia salió a la venta el 7 de noviembre como una previa ayuda en el videojuego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/EOP-Labs/M2TWEOP-library/releases/download/M2TWEOP-3.3.1/M2TWEOP-3.3.1.zip",
+      size: "187.8 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/medieval-ii-total-war.svg",
     alt: "Medieval II: Total War (generated cover)",

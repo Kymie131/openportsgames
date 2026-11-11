@@ -14,12 +14,19 @@ export const skate2PcRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.1", date: "2026-10-12" },
   sources: ["https://github.com/christianortel/skate2-recompile-pc"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/christianortel/skate2-recompile-pc/releases/download/v0.1.1/Skate2-PC-v0.1.1-Windows-x64.zip",
+      size: "22.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/bb/Skate_2_Cover.jpg",
     alt: "Skate 2 (box art)",

@@ -14,12 +14,19 @@ export const halo1TouchControlFork: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "4.0", date: "2026-10-11" },
   sources: ["https://github.com/theLlamaNet/halo-ce-android"],
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/FulGerNet/halo-ce-android/releases/download/4.0/Halo-CE-build-4195.apk",
+      size: "36.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg",
     alt: "Halo: Combat Evolved (box art)",

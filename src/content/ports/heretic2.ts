@@ -23,6 +23,18 @@ export const Heretic2: Port = {
   summary: "heretic2 is a action-adventure game, released in 2000.",
   summaryEs: "heretic2 es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/0lvin/heretic2/releases/download/8.71H16/yquake2remaster-win32-8.71H16.tar.gz",
+      size: "8.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/0lvin/heretic2/releases/download/8.71H16/yquake2remaster-win64-8.71H16.tar.gz",
+      size: "8.4 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/heretic2.svg",
     alt: "heretic2 (generated cover)",

@@ -14,12 +14,24 @@ export const pspRecompMsae: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.2.0", date: "2026-10-09" },
   sources: ["https://github.com/coole42-pixel/PSPRecomp-MSAE"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/coole42-pixel/PSPRecomp-MSAE/releases/download/v0.2.0/MotorStorm-0.2.0-android-arm64-release.apk",
+      size: "22.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/coole42-pixel/PSPRecomp-MSAE/releases/download/v0.2.0/MotorStorm-0.2.0-windows-x64.zip",
+      size: "66.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/f7/MotorStorm_Arctic_Edge.jpg",
     alt: "MotorStorm: Arctic Edge (box art)",

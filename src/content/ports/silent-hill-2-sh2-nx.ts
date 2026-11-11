@@ -21,6 +21,13 @@ export const silentHill2Sh2Nx: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["PlayStation 2"],
+  downloads: [
+    {
+      label: "Switch NRO",
+      url: "https://github.com/cutarev/sh2-nx/releases/download/v1.03/sh2-nx.nro",
+      size: "37.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/95/Silent_Hill_2.jpg",
     alt: "Silent Hill 2 (box art)",

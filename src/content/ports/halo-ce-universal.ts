@@ -25,6 +25,28 @@ export const haloCeUniversal: Port = {
     "Decompilation-based native port of Halo: Combat Evolved (Xbox) for Windows, Linux and Android. The player supplies their own legally obtained Xbox disc image; the repository ships no game content. The Android build targets arm64 with OpenGL ES 3 and SDL3, needs Android 9 or later and plays best with a Bluetooth or USB gamepad; system-link multiplayer works across Windows, Linux and Android.",
   notesEs:
     "Port nativo basado en decompilación de Halo: Combat Evolved (Xbox) para Windows, Linux y Android. El jugador aporta su propia imagen de disco de Xbox obtenida legalmente; el repositorio no incluye contenido del juego. La build de Android es para arm64 con OpenGL ES 3 y SDL3, requiere Android 9 o superior y se juega mejor con un mando Bluetooth o USB; el multijugador por system link funciona entre Windows, Linux y Android.",
+  downloads: [
+    {
+      label: "Android",
+      url: "https://github.com/OpenCommunityEdition/OpenCE/releases/download/build-343/halo-android-release.zip",
+      size: "18.6 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/OpenCommunityEdition/OpenCE/releases/download/build-343/halo-linux-release.zip",
+      size: "23.3 MB",
+    },
+    {
+      label: "halo-web-release",
+      url: "https://github.com/OpenCommunityEdition/OpenCE/releases/download/build-343/halo-web-release.zip",
+      size: "12.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/OpenCommunityEdition/OpenCE/releases/download/build-343/halo-windows-release.zip",
+      size: "14.5 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Halo%20-%20Combat%20Evolved%20(USA).png",
     alt: "Halo: Combat Evolved (box art)",

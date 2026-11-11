@@ -20,6 +20,13 @@ export const LegoRacers: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/isledecomp/racers/releases/download/continuous/LEGORacers.exe",
+      size: "784 KB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/91/Lego_Racers_cover.png",
     alt: "Lego Racers (cover)",

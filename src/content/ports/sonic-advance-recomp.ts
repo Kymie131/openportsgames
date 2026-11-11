@@ -26,6 +26,13 @@ export const sonicAdvanceRecomp: Port = {
     "Static recompilation of Sonic Advance (Game Boy Advance) for Windows. It needs your own copy of the game.",
   notesEs:
     "Recompilación estática de Sonic Advance (Game Boy Advance) para Windows. Necesita tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/smiluredev/SonicAdvanceRecomp/releases/download/V1/SonicAdvanceRecomp_Linux1-0-0.tar.xz",
+      size: "5.6 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Sonic%20Advance%20(USA)%20(En,Ja).png",
     alt: "Sonic Advance (box art)",

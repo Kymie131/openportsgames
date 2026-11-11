@@ -14,7 +14,7 @@ export const voyagerEliteForceAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.2.0-linux", date: "2026-11-03" },
   sources: ["https://github.com/imjustadudegamer/VoyagerSP-Android"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -25,6 +25,13 @@ export const voyagerEliteForceAndroid: Port = {
     "Android single-player port of Star Trek: Voyager - Elite Force, built on idTech3/Quake3e with a Vulkan renderer. It needs the original game files.",
   notesEs:
     "Port a Android para un jugador de Star Trek: Voyager - Elite Force, construido sobre idTech3/Quake3e con renderizador Vulkan. Necesita los archivos del juego original.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/imjustadudegamer/VoyagerSP-Android/releases/download/v1.2.0-linux/VoyagerSP-1.2.0-x86_64.AppImage",
+      size: "3.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/48/Star_Trek_Voyager_Elite_Force.jpg",
     alt: "Star Trek: Voyager - Elite Force (box art)",

@@ -42,6 +42,13 @@ export const pokemonStadiumRecomp: Port = {
       credit: "mstan/PokemonStadiumRecomp",
     },
   ],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/PokemonStadiumRecomp/releases/download/v0.4.7-beta/PokemonStadiumRecomp-v0.4.7-beta-win64.zip",
+      size: "109.9 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Pokemon%20Stadium%20(Europe)%20(Rev%201).png",
     alt: "Pokémon Stadium (box art)",

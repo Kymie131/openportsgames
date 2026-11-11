@@ -23,6 +23,28 @@ export const mrFinsterVf3Recomp: Port = {
   originalSystems: ["Arcade"],
   summary: "Virtua Fighter 3 is a 1996 fighting video game developed and published by Sega, the sequel to 1994's Virtua Fighter 2 as part of the Virtua Fighter series. Released originally in arcades, Virtua Fighter 3 was the first arcade game to run on the Sega Model 3 system board. The use of this new hardware gave the game revolutionary graphics for its time. Two new characters were added to the roster: Aoi and Taka-Arashi, both of whom are oriented around traditional Japanese martial arts.",
   summaryEs: "Virtua Fighter 3 es un juego de lucha desarrollado por Sega-AM2, y lanzado en 1996 para la placa arcade Model 3. Es el tercer juego de la serie Virtua Fighter, que incluye a dos nuevos personajes: Aoi Umenoji, una luchadora japonesa del estilo Aiki-Jujutsu, y Taka-Arashi, un luchador de sumo, ambos provenientes de Japón. Taka Arashi no volvería a aparecer en los juegos de la serie hasta la versión R de Virtua Fighter 5.",
+  downloads: [
+    {
+      label: "VirtuaFighter3Recomp-deck",
+      url: "https://github.com/mr-finster/vf3-recomp/releases/download/v0.1.21-alpha/VirtuaFighter3Recomp-deck.tar.gz",
+      size: "7.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/mr-finster/vf3-recomp/releases/download/v0.1.21-alpha/VirtuaFighter3Recomp-linux-arm64.tar.gz",
+      size: "6.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/mr-finster/vf3-recomp/releases/download/v0.1.21-alpha/VirtuaFighter3Recomp-mac.zip",
+      size: "9.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/mr-finster/vf3-recomp/releases/download/v0.1.21-alpha/VirtuaFighter3Recomp-windows.zip",
+      size: "7.6 MB",
+    },
+  ],
   cover: {
     src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Virtua_Fighter_2024_Logo.png/960px-Virtua_Fighter_2024_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     alt: "Virtua Fighter 3 (box art)",

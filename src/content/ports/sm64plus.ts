@@ -21,6 +21,13 @@ export const sm64plus: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["sm64ex","sm64coopdx"],
+  downloads: [
+    {
+      label: "SM64Plus",
+      url: "https://github.com/MorsGames/sm64plus/releases/download/LauncherMirror/SM64Plus.zip",
+      size: "6.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
     alt: "Super Mario 64 (box art)",

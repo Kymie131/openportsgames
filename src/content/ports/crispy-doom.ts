@@ -36,6 +36,28 @@ export const crispyDoom: Port = {
     "Modern source port that keeps the vanilla Doom 1 experience while adding optional enhancements.",
   notesEs:
     "Port de código fuente moderno que conserva la experiencia del Doom 1 original añadiendo mejoras opcionales.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/fabiangreffrath/crispy-doom/releases/download/crispy-doom-7.2/crispy-doom-7.2.0-win64.zip",
+      size: "9.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/fabiangreffrath/crispy-doom/releases/download/crispy-doom-7.2/crispy-heretic-7.2.0-win64.zip",
+      size: "9.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/fabiangreffrath/crispy-doom/releases/download/crispy-doom-7.2/crispy-hexen-7.2.0-win64.zip",
+      size: "9.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/fabiangreffrath/crispy-doom/releases/download/crispy-doom-7.2/crispy-strife-7.2.0-win64.zip",
+      size: "9.4 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Doom.png",
     alt: "Doom (box art)",

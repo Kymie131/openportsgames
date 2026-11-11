@@ -13,9 +13,7 @@ export const Ultima7Decomp: Port = {
   openSource: true,
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
-  status: "alpha",
-  wip: true,
-  release: { version: null, date: null },
+  status: "alpha",  release: { version: "0.5.1", date: "2026-10-24" },
   sources: ["https://github.com/Kitrinx/Ultima7_Decomp"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -24,6 +22,38 @@ export const Ultima7Decomp: Port = {
   summary: "Ultima 7 Decomp is a action-adventure game, released in 2000.",
   summaryEs: "Ultima 7 Decomp es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Kitrinx/Ultima7_Decomp/releases/download/v0.5.1/ultima7-modern-v0.5.1-linux-x64.zip",
+      size: "1.5 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/Kitrinx/Ultima7_Decomp/releases/download/v0.5.1/ultima7-modern-v0.5.1-macos-arm64.dmg",
+      size: "2.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Kitrinx/Ultima7_Decomp/releases/download/v0.5.1/ultima7-modern-v0.5.1-windows-x64.zip",
+      size: "1.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Kitrinx/Ultima7_Decomp/releases/download/v0.5.1/ultima7-portable-v0.5.1-linux-x64.zip",
+      size: "2.2 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/Kitrinx/Ultima7_Decomp/releases/download/v0.5.1/ultima7-portable-v0.5.1-macos-arm64.dmg",
+      size: "3.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Kitrinx/Ultima7_Decomp/releases/download/v0.5.1/ultima7-portable-v0.5.1-windows-x64.zip",
+      size: "1.7 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/ultima-7-decomp.svg",
     alt: "Ultima 7 Decomp (generated cover)",

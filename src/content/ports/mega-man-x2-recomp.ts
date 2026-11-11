@@ -14,7 +14,7 @@ export const megaManX2Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.2.2", date: "2026-11-01" },
   sources: ["https://github.com/mstan/MegaManX2Recomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
@@ -25,6 +25,13 @@ export const megaManX2Recomp: Port = {
     "Native recompilation of Mega Man X2 for the Super Nintendo. The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Mega Man X2 para Super Nintendo. El jugador aporta su propia ROM obtenida legalmente; el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/MegaManX2Recomp/releases/download/v0.2.2/MegaManX2SNESRecomp-windows-x64-v0.2.2.zip",
+      size: "12.5 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mega%20Man%20X2%20(USA).png",
     alt: "Mega Man X2 (box art)",

@@ -16,7 +16,7 @@ export const tailscaleNxSwitchSysmodule: Port = {
   kind: "tool",
   platforms: ["switch"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.3.0", date: "2026-11-09" },
   sources: ["https://github.com/UnderwaterOverground/tailscale-nx"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -24,6 +24,13 @@ export const tailscaleNxSwitchSysmodule: Port = {
   originalSystems: ["Unknown"],
   summary: "The Nintendo Switch 2 is a video game console developed by Nintendo and released in most regions on June 5, 2025. Like the original Nintendo Switch, it can be used as a handheld, as a tablet, or connected via the dock to an external display. The Joy-Con 2 controllers can be used while magnetically attached or detached from the console, are larger than the previous Joy-Con controllers, and include computer mouse functionality. Compared to the original Switch, the Switch 2 has a larger liquid-crystal display (LCD), more internal storage, updated graphics, and social features.",
   summaryEs: "Nintendo Switch es una consola de videojuegos lanzada a mediados de la octava generación de consolas que fue desarrollada por Nintendo y fabricada por Foxconn. Lanzada a nivel mundial en la mayoría de las regiones el 3 de marzo de 2017, la Switch sucedió a Wii U y compitió con PlayStation 4 de Sony y Xbox One de Microsoft; también compite con las consolas de novena generación, la PlayStation 5 y Xbox Series X/S.",
+  downloads: [
+    {
+      label: "Switch",
+      url: "https://github.com/UnderwaterOverground/tailscale-nx/releases/download/v1.3.0/tailscale-nx-1.3.0.zip",
+      size: "801 KB",
+    },
+  ],
   cover: {
     src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Nintendo_Switch_2_logo.svg/960px-Nintendo_Switch_2_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     alt: "Nintendo Switch (box art)",

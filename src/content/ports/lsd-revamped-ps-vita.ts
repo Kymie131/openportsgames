@@ -14,12 +14,19 @@ export const lsdRevampedPsVita: Port = {
   originalGameLicense: "proprietary",
   platforms: ["psvita"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0", date: "2026-10-18" },
   sources: ["https://github.com/arielxflores/LSDRevamped-Vita"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/arielxflores/LSDRevamped-Vita/releases/download/v1.0/LSDRevamped-Vita-DataBuilder-win64.zip",
+      size: "154.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a9/LSD_Coverart.png",
     alt: "LSD: Dream Emulator (box art)",

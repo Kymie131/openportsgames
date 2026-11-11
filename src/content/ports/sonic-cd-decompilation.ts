@@ -21,6 +21,33 @@ export const sonicCdDecompilation: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["Sega CD / Mega-CD"],
+  downloads: [
+    {
+      label: "Android",
+      url: "https://github.com/RSDKModding/RSDKv3-Decompilation/releases/download/1.3.3/v3-android.zip",
+      size: "2.4 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/RSDKModding/RSDKv3-Decompilation/releases/download/1.3.3/v3-linux.zip",
+      size: "325 KB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/RSDKModding/RSDKv3-Decompilation/releases/download/1.3.3/v3-mac.zip",
+      size: "6.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/RSDKModding/RSDKv3-Decompilation/releases/download/1.3.3/v3-windows-x64.zip",
+      size: "1.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/RSDKModding/RSDKv3-Decompilation/releases/download/1.3.3/v3-windows.zip",
+      size: "1.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e1/Sonic_CD_North_American_cover_art.jpg",
     alt: "Sonic CD (box art)",

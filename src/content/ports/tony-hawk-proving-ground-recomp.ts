@@ -14,7 +14,7 @@ export const tonyHawkProvingGroundRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.1.1", date: "2026-11-10" },
   sources: ["https://github.com/Newbie1337x/ProvingGroundRecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -24,6 +24,13 @@ export const tonyHawkProvingGroundRecomp: Port = {
   summary: "Tony Hawk's Proving Ground is a sports game published by Activision for Xbox 360, released in 2007.",
   summaryEs: "Tony Hawk's Proving Ground es un videojuego de deportes publicado por Activision para Xbox 360, lanzado en 2007.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Newbie1337x/ProvingGroundRecomp/releases/download/v1.1.1/ProvingGroundRecomp-1.1.1-windows-x64.zip",
+      size: "39.4 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/tony-hawk-s-proving-ground.svg",
     alt: "Tony Hawk's Proving Ground (generated cover)",

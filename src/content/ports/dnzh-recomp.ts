@@ -14,7 +14,7 @@ export const dnzhRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.0.3", date: "2025-11-01" },
   sources: ["https://github.com/sonicdcer/DNZHRecomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -25,6 +25,33 @@ export const dnzhRecomp: Port = {
     "Native recompilation of Duke Nukem: Zero Hour (Nintendo 64). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Duke Nukem: Zero Hour (Nintendo 64). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "DNZHRecompiled-0.0.3-Flatpak-X64-Release",
+      url: "https://github.com/sonicdcer/DNZHRecomp/releases/download/0.0.3/DNZHRecompiled-0.0.3-Flatpak-X64-Release.zip",
+      size: "9.3 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/sonicdcer/DNZHRecomp/releases/download/0.0.3/DNZHRecompiled-0.0.3-Linux-ARM64-Release.zip",
+      size: "12.6 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/sonicdcer/DNZHRecomp/releases/download/0.0.3/DNZHRecompiled-0.0.3-Linux-X64-Release.zip",
+      size: "12.7 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/sonicdcer/DNZHRecomp/releases/download/0.0.3/DNZHRecompiled-0.0.3-macOS-Release.zip",
+      size: "20.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/sonicdcer/DNZHRecomp/releases/download/0.0.3/DNZHRecompiled-0.0.3-Windows-RelWithDebInfo.zip",
+      size: "22.9 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Duke%20Nukem%20-%20Zero%20Hour%20(USA).png",
     alt: "Duke Nukem: Zero Hour (box art)",

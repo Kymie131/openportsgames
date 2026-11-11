@@ -24,6 +24,13 @@ export const projectSylpheedRecomp: Port = {
   summary: "Project Sylpheed is a shooter game published by Square Enix for Xbox 360, released in 2006.",
   summaryEs: "Project Sylpheed es un videojuego de disparos publicado por Square Enix para Xbox 360, lanzado en 2006.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/icey9527/ProjectSylpheedRecomp/releases/download/1/ProjectSylpheedRecomp.zip",
+      size: "22.0 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/project-sylpheed.svg",
     alt: "Project Sylpheed (generated cover)",

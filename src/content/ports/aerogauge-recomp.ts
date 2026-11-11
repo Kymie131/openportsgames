@@ -14,7 +14,7 @@ export const aerogaugeRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.7.0", date: "2026-10-26" },
   sources: ["https://github.com/alondero/aerogauge-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,28 @@ export const aerogaugeRecomp: Port = {
     "Static recompilation of AeroGauge (N64) with N64Recomp and the RT64 renderer. It requires your own game files.",
   notesEs:
     "Recompilación estática de AeroGauge (N64) con N64Recomp y el renderizador RT64. Requiere tus propios archivos del juego.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/alondero/aerogauge-recomp/releases/download/v0.7.0/aerogauge-recomp-android-arm64.apk",
+      size: "7.3 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/alondero/aerogauge-recomp/releases/download/v0.7.0/aerogauge-recomp-linux-arm64.zip",
+      size: "13.8 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/alondero/aerogauge-recomp/releases/download/v0.7.0/aerogauge-recomp-linux-x64.zip",
+      size: "14.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/alondero/aerogauge-recomp/releases/download/v0.7.0/aerogauge-recomp-windows-x64.zip",
+      size: "26.5 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/AeroGauge%20(Europe)%20(En,Fr,De).png",
     alt: "AeroGauge (box art)",

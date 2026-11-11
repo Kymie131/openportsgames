@@ -26,6 +26,38 @@ export const dragonQuestViiiRecomp: Port = {
     "Static recompilation of Dragon Quest VIII: Journey of the Cursed King (PlayStation 2) for Windows. It needs your own copy of the game.",
   notesEs:
     "Recompilación estática de Dragon Quest VIII: El periplo del rey maldito (PlayStation 2) para Windows. Necesita tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Sinan-Karakaya/DQ8-Recompiled/releases/download/f6dfd96/DQ8Recomp-f6dfd96-Linux-arm64.tar.gz",
+      size: "88.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Sinan-Karakaya/DQ8-Recompiled/releases/download/f6dfd96/DQ8Recomp-f6dfd96-Linux-x86_64.tar.gz",
+      size: "93.0 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Sinan-Karakaya/DQ8-Recompiled/releases/download/f6dfd96/DQ8Recomp-f6dfd96-macOS-arm64.zip",
+      size: "100.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Sinan-Karakaya/DQ8-Recompiled/releases/download/f6dfd96/DQ8Recomp-f6dfd96-macOS-x86_64.zip",
+      size: "99.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Sinan-Karakaya/DQ8-Recompiled/releases/download/f6dfd96/DQ8Recomp-f6dfd96-Windows-x86_64.zip",
+      size: "80.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Sinan-Karakaya/DQ8-Recompiled/releases/download/f6dfd96/ffmpeg-7.1.5.tar.xz",
+      size: "10.5 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Dragon%20Quest%20VIII%20-%20Journey%20of%20the%20Cursed%20King%20(USA).png",
     alt: "Dragon Quest VIII (box art)",

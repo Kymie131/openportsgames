@@ -14,12 +14,19 @@ export const tenkaichi3decompAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.1", date: "2026-11-11" },
   sources: ["https://github.com/dfdx047/Tenkaichi3DecompAndroid"],
   license: { spdx: "AGPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/dfdx047/Tenkaichi3DecompAndroid/releases/download/android-v1.0.1/DragonRage-1.0.1.apk",
+      size: "28.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Dragon%20Ball%20Z%20-%20Budokai%20Tenkaichi%203%20(Europe,%20Australia)%20(En,Fr,De,Es,It).png",
     alt: "Dragon Ball Z: Budokai Tenkaichi 3 (box art)",

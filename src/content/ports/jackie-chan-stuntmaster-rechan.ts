@@ -14,13 +14,25 @@ export const jackieChanStuntmasterRechan: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.1", date: "2026-07-19" },
   sources: ["https://github.com/SilverwireGames/ReChan"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
   related: ["jackie-chan-stuntmaster-recomp"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/SilverwireGames/ReChan/releases/download/v1.0.1/rechan-linux64.tar.gz",
+      size: "7.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/SilverwireGames/ReChan/releases/download/v1.0.1/rechan-win64.zip",
+      size: "7.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e6/JackieChanStuntmaster.jpg",
     alt: "Jackie Chan Stuntmaster (box art)",

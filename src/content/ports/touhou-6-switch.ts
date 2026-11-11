@@ -20,6 +20,13 @@ export const touhou6Switch: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "Switch NRO",
+      url: "https://github.com/saekaze/th06-switch/releases/download/v1.02h-r2/touhou6.nro",
+      size: "9.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/8b/Th06cover.jpg",
     alt: "Touhou 6: The Embodiment of Scarlet Devil (box art)",

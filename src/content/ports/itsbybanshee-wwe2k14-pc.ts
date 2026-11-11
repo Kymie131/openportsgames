@@ -21,6 +21,13 @@ export const itsbybansheeWwe2k14Pc: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/itsbybanshee/wwe2k14-pc/releases/download/v1.2.2/WWE2K14-PC-v1.2.2.zip",
+      size: "94.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/ec/WWE_2K14_cover.jpg",
     alt: "WWE 2K14 (box art)",

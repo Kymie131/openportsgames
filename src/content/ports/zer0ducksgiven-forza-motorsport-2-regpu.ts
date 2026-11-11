@@ -23,6 +23,23 @@ export const zer0ducksgivenForzaMotorsport2Regpu: Port = {
   originalSystems: ["Xbox 360"],
   summary: "Forza Motorsport 2 is a 2007 simulation racing video game developed by Turn 10 Studios for the Xbox 360 console. It is the second title in the Forza series, and is the sequel to the original Forza Motorsport (2005) and was followed by Forza Motorsport 3 (2009).",
   summaryEs: "Forza Motorsport 2 es la secuela del videojuego de simulación de carreras Forza Motorsport para Xbox, desarrollado por Microsoft Game Studios para la consola Xbox 360.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/zer0ducksgiven/Forza-Motorsport-2-ReGPU/releases/download/v0.11.0/FM2-0.11.0-patch.zip",
+      size: "41.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/zer0ducksgiven/Forza-Motorsport-2-ReGPU/releases/download/v0.11.0/FM2-Linux-0.11.0.tar.gz",
+      size: "126.0 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/zer0ducksgiven/Forza-Motorsport-2-ReGPU/releases/download/v0.11.0/FM2-Setup-0.11.0.exe",
+      size: "126.9 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/forza-motorsport-2.svg",
     alt: "Forza Motorsport 2 (generated cover)",

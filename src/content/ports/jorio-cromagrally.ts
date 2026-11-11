@@ -23,6 +23,28 @@ export const jorioCromagrally: Port = {
   originalSystems: ["Windows"],
   summary: "Cro-Mag Rally is a kart racing game developed by Pangea Software and published by Aspyr, which takes place in caveman times. It was originally released for Mac OS 9 and Mac OS X, and was later ported to iOS, Xbox 360, Android, and Windows Phone 7.",
   summaryEs: "Cro-Mag Rally es un videojuego de carreras en 2008.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/jorio/CroMagRally/releases/download/3.0.1/CroMagRally-3.0.1-linux-aarch64.AppImage",
+      size: "126.3 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/jorio/CroMagRally/releases/download/3.0.1/CroMagRally-3.0.1-linux-x86_64.AppImage",
+      size: "126.4 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/jorio/CroMagRally/releases/download/3.0.1/CroMagRally-3.0.1-mac.dmg",
+      size: "128.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/jorio/CroMagRally/releases/download/3.0.1/CroMagRally-3.0.1-windows-x64.zip",
+      size: "125.5 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/cro-mag-rally.svg",
     alt: "Cro-Mag Rally (generated cover)",

@@ -14,12 +14,24 @@ export const slaytheamethyst: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.6.5", date: "2026-11-08" },
   sources: ["https://github.com/ModinMobileSTS/SlayTheAmethystModded"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/ModinMobileSTS/SlayTheAmethystModded/releases/download/v1.6.5/SlayTheAmethyst-release-1.6.5-full.apk",
+      size: "98.1 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/ModinMobileSTS/SlayTheAmethystModded/releases/download/v1.6.5/SlayTheAmethyst-release-1.6.5.apk",
+      size: "25.9 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/646570/header.jpg",
     alt: "Slay the Spire (cover art)",

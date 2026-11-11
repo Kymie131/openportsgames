@@ -14,7 +14,7 @@ export const prisonArchitectAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.4", date: "2026-11-07" },
   sources: ["https://github.com/udarmolota/pridroid"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -25,6 +25,13 @@ export const prisonArchitectAndroid: Port = {
     "Android launcher for Prison Architect, based on the desktop game. It needs the game itself files.",
   notesEs:
     "Lanzador para Android de Prison Architect, basado en el juego de escritorio. Necesita tu propia copia de los archivos del juego.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/udarmolota/pridroid/releases/download/0.1.4/pridroid-release-0.1.4.apk",
+      size: "77.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/7b/Prison_Architect_Logo.jpg",
     alt: "Prison Architect (box art)",

@@ -14,7 +14,7 @@ export const tomba2Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.2.1", date: "2026-10-13" },
   sources: ["https://github.com/mstan/Tomba2Recomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
@@ -25,6 +25,18 @@ export const tomba2Recomp: Port = {
     "Native recompilation of Tomba! 2 (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Tomba! 2 (PlayStation). El jugador aporta su propia imagen de disco obtenida legalmente; el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/mstan/Tomba2Recomp/releases/download/v0.2.1/Tomba2Recomp-v0.2.1-linux-x86_64.AppImage",
+      size: "66.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/Tomba2Recomp/releases/download/v0.2.1/Tomba2Recomp-v0.2.1-windows-x64.zip",
+      size: "70.8 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Tomba!%202%20-%20The%20Evil%20Swine%20Return%20(USA).png",
     alt: "Tomba! 2: The Evil Swine Return (box art)",

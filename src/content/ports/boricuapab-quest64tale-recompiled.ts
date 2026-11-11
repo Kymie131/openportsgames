@@ -21,6 +21,18 @@ export const boricuapabQuest64taleRecompiled: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/boricuapab/quest64tale-recompiled/releases/download/v1.1.6/quest64tale-recompiled-linux_v1.1.6.zip",
+      size: "12.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/boricuapab/quest64tale-recompiled/releases/download/v1.1.6/quest64tale-recompiled-win_v1.1.6.zip",
+      size: "21.6 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Quest%2064%20(USA).png",
     alt: "Quest 64 (box art)",

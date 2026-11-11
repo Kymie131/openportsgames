@@ -14,12 +14,29 @@ export const budokaiTenkaichi3Pc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.39.6", date: "2026-11-03" },
   sources: ["https://github.com/z3xox/Tenkaichi3Decomp"],
   license: { spdx: "AGPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 2"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/z3xox/Tenkaichi3Decomp/releases/download/v0.1.39.6/Tenkaichi3Decomp-linux-x64.zip",
+      size: "12.0 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/z3xox/Tenkaichi3Decomp/releases/download/v0.1.39.6/Tenkaichi3Decomp-macos-arm64.zip",
+      size: "11.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/z3xox/Tenkaichi3Decomp/releases/download/v0.1.39.6/Tenkaichi3Decomp-windows-x64.zip",
+      size: "12.1 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Dragon%20Ball%20Z%20-%20Budokai%20Tenkaichi%203%20(Europe,%20Australia)%20(En,Fr,De,Es,It).png",
     alt: "Dragon Ball Z: Budokai Tenkaichi 3 (box art)",

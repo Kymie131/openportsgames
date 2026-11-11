@@ -20,6 +20,38 @@ export const Simutrans: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "makeobj-arm-nightly",
+      url: "https://github.com/simutrans/simutrans/releases/download/Nightly/makeobj-arm-nightly.zip",
+      size: "95 KB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/simutrans/simutrans/releases/download/Nightly/makeobj-win-nightly.zip",
+      size: "377 KB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/simutrans/simutrans/releases/download/Nightly/makeobj_linux-x64-nightly.zip",
+      size: "129 KB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/simutrans/simutrans/releases/download/Nightly/simuandroid-nightly.apk",
+      size: "77.7 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/simutrans/simutrans/releases/download/Nightly/simulinux-x64-nightly.zip",
+      size: "17.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/simutrans/simutrans/releases/download/Nightly/simumac-arm-nightly.zip",
+      size: "7.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/4/4a/Simutrans-full.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
     alt: "simutrans (cover)",

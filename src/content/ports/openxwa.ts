@@ -14,7 +14,7 @@ export const Openxwa: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.0.17", date: "2026-08-31" },
   sources: ["https://github.com/elyosh/OpenXWA"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -23,6 +23,23 @@ export const Openxwa: Port = {
   summary: "OpenXWA is a action-adventure game, released in 2000.",
   summaryEs: "OpenXWA es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/elyosh/OpenXWA/releases/download/v0.0.17/openxwa-0.0.17-linux-x86_64-release.tar.xz",
+      size: "4.4 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/elyosh/OpenXWA/releases/download/v0.0.17/openxwa-0.0.17-macos-arm64-release.dmg",
+      size: "6.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/elyosh/OpenXWA/releases/download/v0.0.17/openxwa-0.0.17-windows-x86_64-release.zip",
+      size: "14.2 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/openxwa.svg",
     alt: "OpenXWA (generated cover)",

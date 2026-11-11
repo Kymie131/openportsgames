@@ -14,12 +14,24 @@ export const starWarsBattlefrontRenegadeSquadronPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.9.1", date: "2026-10-28" },
   sources: ["https://github.com/GTTeancum/StarWars-RenegadeSquadron-PC"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation Portable"],
+  downloads: [
+    {
+      label: "RenegadeSquadronPC-0.9.1-linux-ubuntu26.04-x86_64",
+      url: "https://github.com/GTTeancum/StarWars-RenegadeSquadron-PC/releases/download/v0.9.1/RenegadeSquadronPC-0.9.1-linux-ubuntu26.04-x86_64.tar.gz",
+      size: "27.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/GTTeancum/StarWars-RenegadeSquadron-PC/releases/download/v0.9.1/RenegadeSquadronPC-0.9.1.zip",
+      size: "53.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/d3/Star_Wars_Battlefront_-_Renegade_Squadron_Coverart.png",
     alt: "Star Wars Battlefront: Renegade Squadron (box art)",

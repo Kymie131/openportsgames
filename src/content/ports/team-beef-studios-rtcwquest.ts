@@ -21,6 +21,13 @@ export const teamBeefStudiosRtcwquest: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Team-Beef-Studios/RTCWQuest/releases/download/v1.4.1/rtcwquest-1.4.1.apk",
+      size: "119.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b0/Return_to_Castle_Wolfenstein_Coverart.jpg",
     alt: "Return to Castle Wolfenstein (box art)",

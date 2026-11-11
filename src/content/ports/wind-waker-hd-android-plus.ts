@@ -14,13 +14,20 @@ export const windWakerHdAndroidPlus: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.14", date: "2026-10-23" },
   sources: ["https://github.com/Nycolazs/WindWakerHD-Android-Plus"],
   license: { spdx: "MPL-2.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Wii U"],
   related: ["zeldawwhdrecompandroid","switch-waker-hd","wind-waker-hd-recomp"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Nycolazs/WindWakerHD-Android-Plus/releases/download/v1.14/WindWakerHD-Android-Plus-v1.14.apk",
+      size: "62.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
     alt: "The Legend of Zelda: The Wind Waker HD (box art)",

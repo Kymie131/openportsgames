@@ -45,6 +45,38 @@ export const namcoSystem22TokyoWars: Port = {
     "Decompilation of the 1996 Namco arcade tank combat game for PC. Single ROM set, no separate sound board data required.",
   notesEs:
     "Decompilación del juego arcade de combate de tanques de Namco de 1996 para PC. Un único set de ROM, sin datos de placa de sonido aparte.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/AceDriver-x86_64.AppImage",
+      size: "3.4 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/AnglerKing-x86_64.AppImage",
+      size: "4.8 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/ArmadilloRacing-x86_64.AppImage",
+      size: "3.4 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/CrisisZone-x86_64.AppImage",
+      size: "12.9 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/CyberCommando-x86_64.AppImage",
+      size: "3.9 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/CyberSled-x86_64.AppImage",
+      size: "3.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/94/TokyoWarsArcadeFlyer.jpg",
     alt: "Tokyo Wars (box art)",

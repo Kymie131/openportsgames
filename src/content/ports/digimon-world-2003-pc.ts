@@ -14,12 +14,24 @@ export const digimonWorld2003Pc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.6.1", date: "2026-10-29" },
   sources: ["https://github.com/gascarcella/dw2003recomp"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/gascarcella/dw2003recomp/releases/download/v0.6.1/dw2003-0.6.1-windows-x86_64.zip",
+      size: "5.7 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/gascarcella/dw2003recomp/releases/download/v0.6.1/dw2003-0.6.1-x86_64.AppImage",
+      size: "6.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/43/Digimonworld3boxart.jpg",
     alt: "Digimon World 3 (box art)",

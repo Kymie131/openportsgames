@@ -14,7 +14,7 @@ export const Sonic06Demo: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1", date: "2026-02-26" },
   sources: ["https://github.com/PranchaD/re-Sonic06Demo"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -23,6 +23,13 @@ export const Sonic06Demo: Port = {
   summary: "Sonic 06 Demo is a platform game, released in 2000.",
   summaryEs: "Sonic 06 Demo es un videojuego de plataformas, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/PranchaD/re-Sonic06Demo/releases/download/v0.1/sonic06demo.exe",
+      size: "103.8 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/sonic-06-demo.svg",
     alt: "Sonic 06 Demo (generated cover)",

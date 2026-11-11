@@ -14,7 +14,7 @@ export const touhou8Psp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["psp"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.4.1", date: "2026-09-28" },
   sources: ["https://github.com/kan8223-dotcom/th08-psp-native"],
   license: { spdx: "MIT" },
   verified: false,
@@ -22,6 +22,18 @@ export const touhou8Psp: Port = {
   originalSystems: ["Windows"],
   summary: "Touhou Eiyashou ~ Imperishable Night. is a 2004 vertical bullet hell scrolling shoot 'em up video game developed by Team Shanghai Alice. It is the eighth game in the Touhou Project series, and the third main Touhou Project game to be released specifically for the Windows operating system.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  downloads: [
+    {
+      label: "LICENSES-v0.4.1",
+      url: "https://github.com/kan8223-dotcom/th08-psp-native/releases/download/v0.4.1/LICENSES-v0.4.1.zip",
+      size: "56 KB",
+    },
+    {
+      label: "TH08PSP-Go-v0.4.1-scarletfix",
+      url: "https://github.com/kan8223-dotcom/th08-psp-native/releases/download/v0.4.1/TH08PSP-Go-v0.4.1-scarletfix.zip",
+      size: "5.9 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/touhou-8-imperishable-night.svg",
     alt: "Touhou 8: Imperishable Night (generated cover)",

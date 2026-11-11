@@ -13,7 +13,7 @@ export const ShortlineRailroad: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.1.3", date: "2026-08-08" },
   sources: ["https://github.com/konovalov-aleks/reSL"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -22,6 +22,18 @@ export const ShortlineRailroad: Port = {
   summary: "Shortline railroad is a action-adventure game, released in 2000.",
   summaryEs: "Shortline railroad es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/konovalov-aleks/reSL/releases/download/release-1.1.3/resl-1.1.3-android.apk",
+      size: "6.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/konovalov-aleks/reSL/releases/download/release-1.1.3/resl-1.1.3-windows.zip",
+      size: "863 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/shortline-railroad.svg",
     alt: "Shortline railroad (generated cover)",

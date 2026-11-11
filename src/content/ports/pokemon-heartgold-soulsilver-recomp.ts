@@ -21,6 +21,28 @@ export const pokemonHeartgoldSoulsilverRecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["Nintendo DS"],
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/ClickingMaster/ssrecomp/releases/download/v0.4.2/ssrecomp-setup-linux-aarch64.AppImage",
+      size: "29.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/ClickingMaster/ssrecomp/releases/download/v0.4.2/ssrecomp-setup-macos-arm64.zip",
+      size: "15.3 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/ClickingMaster/ssrecomp/releases/download/v0.4.2/ssrecomp-setup-macos-x86_64.zip",
+      size: "15.9 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/ClickingMaster/ssrecomp/releases/download/v0.4.2/ssrecomp-setup-windows-x86_64.exe",
+      size: "16.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/cb/PokemonHGSSBox.jpg",
     alt: "Pokémon HeartGold and SoulSilver (box art)",

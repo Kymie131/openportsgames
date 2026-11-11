@@ -22,6 +22,13 @@ export const godOfWar2HdRecomp: Port = {
   originalSystems: ["PlayStation 3"],
   summary: "God of War II HD is a action-adventure game in 2009.",
   summaryEs: "God of War II HD es un videojuego de acción y aventura en 2009.",
+  downloads: [
+    {
+      label: "Macos",
+      url: "https://github.com/andrebrumdev/gow2-recomp/releases/download/kit-macos-20260930/gow2-recomp-kit-macos-20260930-b323750.zip",
+      size: "14.5 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/god-of-war-ii-hd.svg",
     alt: "God of War II HD (generated cover)",

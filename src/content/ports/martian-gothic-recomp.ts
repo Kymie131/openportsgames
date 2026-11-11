@@ -14,7 +14,7 @@ export const martianGothicRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.1", date: "2026-09-30" },
   sources: ["https://github.com/alexbeavs-ps1-ports/martian-gothic-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,28 @@ export const martianGothicRecomp: Port = {
     "Bare recompilation of Martian Gothic: Unification (PlayStation) built with the PSXRecomp toolkit and recomp-ui. It ships no game content and needs your own disc plus a BIOS.",
   notesEs:
     "Recompilación básica de Martian Gothic: Unification (PlayStation) construida con el kit PSXRecomp y recomp-ui. No incluye contenido del juego y necesita tu propio disco y una BIOS.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/alexbeavs-ps1-ports/martian-gothic-recomp/releases/download/v0.1.1/martian-gothic-0.1.1-linux-x64.zip",
+      size: "23.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/alexbeavs-ps1-ports/martian-gothic-recomp/releases/download/v0.1.1/martian-gothic-0.1.1-macos-arm64.zip",
+      size: "21.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/alexbeavs-ps1-ports/martian-gothic-recomp/releases/download/v0.1.1/martian-gothic-0.1.1-macos-x64.zip",
+      size: "22.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/alexbeavs-ps1-ports/martian-gothic-recomp/releases/download/v0.1.1/martian-gothic-0.1.1-windows-x64.zip",
+      size: "25.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Martian%20Gothic%20-%20Unification%20(Europe)%20(En,Fr,Es,It).png",
     alt: "Martian Gothic: Unification (box art)",

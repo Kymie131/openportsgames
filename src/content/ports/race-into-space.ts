@@ -14,7 +14,7 @@ export const RaceIntoSpace: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "2.0.0", date: "2025-03-27" },
   sources: ["https://github.com/raceintospace/raceintospace"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -22,6 +22,38 @@ export const RaceIntoSpace: Port = {
   originalSystems: ["Unknown"],
   summary: "Race into Space is a action-adventure game.",
   summaryEs: "Race into Space es un videojuego de acción y aventura.",
+  downloads: [
+    {
+      label: "macOS DMG",
+      url: "https://github.com/raceintospace/raceintospace/releases/download/v2.0.0/raceintospace-2.0.0-Darwin.dmg",
+      size: "77.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/raceintospace/raceintospace/releases/download/v2.0.0/raceintospace-2.0.0-Debian12.deb",
+      size: "103.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/raceintospace/raceintospace/releases/download/v2.0.0/raceintospace-2.0.0-Linux.deb",
+      size: "103.4 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/raceintospace/raceintospace/releases/download/v2.0.0/raceintospace-2.0.0-Linux.rpm",
+      size: "103.6 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/raceintospace/raceintospace/releases/download/v2.0.0/raceintospace-2.0.0-Linux.tar.gz",
+      size: "103.5 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/raceintospace/raceintospace/releases/download/v2.0.0/raceintospace-2.0.0-win32.exe",
+      size: "103.5 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/race-into-space.svg",
     alt: "Race into Space (generated cover)",

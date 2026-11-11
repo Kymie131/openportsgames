@@ -14,13 +14,20 @@ export const godOfWar3Android: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "2.7.0-nixport-v1", date: "2026-11-01" },
   sources: ["https://github.com/zFitness/gow3_android"],
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 4"],
   related: ["god-of-war-3-recomp"],
+  downloads: [
+    {
+      label: "Android",
+      url: "https://github.com/zFitness/gow3_android/releases/download/v2.7.0-nixport-v1/SpartanPort.nixport.2.7.0.zip",
+      size: "88.0 MB",
+    },
+  ],
   cover: {
     src: "https://images.launchbox-app.com//1eb8d6bc-e4f2-4296-8e44-42c6e698528d.jpg",
     alt: "God of War III Remastered (box art)",

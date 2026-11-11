@@ -21,6 +21,13 @@ export const vasist15SourceNfsCarbonMac: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "macOS DMG",
+      url: "https://github.com/vasist15-source/nfs-carbon-mac/releases/download/v0.9.0/NFS-Carbon-Setup-0.9.0.dmg",
+      size: "32.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a4/Need_for_Speed_Carbon_Game_Cover.jpg",
     alt: "Need for Speed: Carbon (box art)",

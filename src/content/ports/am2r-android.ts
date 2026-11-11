@@ -14,7 +14,7 @@ export const am2rAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.5.5.14", date: "2026-11-01" },
   sources: ["https://github.com/am2r-android/AM2R-Autopatcher-Android"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const am2rAndroid: Port = {
     "Android tool that patches the fan remake AM2R 1.1 into a modern Android build. It works with your own copy of the AM2R files.",
   notesEs:
     "Herramienta para Android que aplica un parche al remake AM2R 1.1 para convertirlo en una build moderna. Funciona con tu propia copia de los archivos de AM2R.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/PatchDev-AM2ARM/AM2R-Autopatcher-Android/releases/download/v1.5.5.14/AM2R-Autopatcher-1.5.5.14.apk",
+      size: "615.1 MB",
+    },
+  ],
   cover: {
     src: "https://randovania.org/assets/games/am2r.png",
     alt: "Another Metroid 2 Remake (cover)",

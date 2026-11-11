@@ -23,6 +23,23 @@ export const Surrealengine: Port = {
   summary: "SurrealEngine is a action-adventure game, released in 2000.",
   summaryEs: "SurrealEngine es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/dpjudas/SurrealEngine/releases/download/nightly/SurrealEngine-linux-prerelease.zip",
+      size: "15.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/dpjudas/SurrealEngine/releases/download/nightly/SurrealEngine-macos-prerelease.zip",
+      size: "9.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/dpjudas/SurrealEngine/releases/download/nightly/SurrealEngine-windows-prerelease.zip",
+      size: "23.0 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/surrealengine.svg",
     alt: "SurrealEngine (generated cover)",

@@ -14,7 +14,7 @@ export const Emperorreborn: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "2.5", date: "2026-06-17" },
   sources: ["https://github.com/azmawee/EmperorReborn"],
   license: { spdx: "MIT-0" },
   verified: false,
@@ -23,6 +23,13 @@ export const Emperorreborn: Port = {
   summary: "EmperorReborn is a strategy game, released in 2000.",
   summaryEs: "EmperorReborn es un videojuego de estrategia, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "EmperorReborn-v2.5",
+      url: "https://github.com/azmawee/EmperorReborn/releases/download/v2.5/EmperorReborn-v2.5.zip",
+      size: "372 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/emperorreborn.svg",
     alt: "EmperorReborn (generated cover)",

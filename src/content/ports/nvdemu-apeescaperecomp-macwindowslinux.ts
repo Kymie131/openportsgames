@@ -21,6 +21,38 @@ export const nvdemuApeescaperecompMacwindowslinux: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/nvd123-YT/ApeEscapeRecompiled/releases/download/macos-nightly/ApeEscapeRecomp-v2.0.0-linux-x86_64.AppImage",
+      size: "47.0 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/nvd123-YT/ApeEscapeRecompiled/releases/download/macos-nightly/ApeEscapeRecomp-v2.0.0-macos-arm64.dmg",
+      size: "69.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/nvd123-YT/ApeEscapeRecompiled/releases/download/macos-nightly/ApeEscapeRecomp-v2.0.0-macos-arm64.zip",
+      size: "47.2 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/nvd123-YT/ApeEscapeRecompiled/releases/download/macos-nightly/ApeEscapeRecomp-v2.0.0-macos-x86_64.dmg",
+      size: "78.0 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/nvd123-YT/ApeEscapeRecompiled/releases/download/macos-nightly/ApeEscapeRecomp-v2.0.0-macos-x86_64.zip",
+      size: "56.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/nvd123-YT/ApeEscapeRecompiled/releases/download/macos-nightly/ApeEscapeRecomp-v2.0.0-windows-x64.zip",
+      size: "44.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Ape%20Escape%20(USA).png",
     alt: "Ape Escape (box art)",

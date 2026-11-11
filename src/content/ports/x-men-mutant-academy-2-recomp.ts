@@ -14,7 +14,7 @@ export const xMenMutantAcademy2Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1", date: "2026-09-08" },
   sources: ["https://github.com/GTTeancum/xmen-mutant-academy-2-pc"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
@@ -26,6 +26,13 @@ export const xMenMutantAcademy2Recomp: Port = {
     "Listed on the PortsDR community index with no public repository. You need your own game data.",
   notesEs:
     "Listado en el índice comunitario PortsDR, sin repositorio público. Necesitas tus propios datos del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/GTTeancum/xmen-mutant-academy-2-pc/releases/download/v1.1/XMenMA2-portable.zip",
+      size: "186.4 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/X-Men%20-%20Mutant%20Academy%202%20(Europe).png",
     alt: "X-Men: Mutant Academy 2 (box art)",

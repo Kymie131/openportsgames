@@ -14,12 +14,24 @@ export const OutpostKalokiX: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.1.1", date: "2026-10-18" },
   sources: ["https://github.com/TekRantGaming/outpost-kaloki-x-recompiled"],
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/TekRantGaming/outpost-kaloki-x-recompiled/releases/download/v1.1.1/OutpostKalokiX-v1.1.1-linux-x86_64.AppImage",
+      size: "15.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/TekRantGaming/outpost-kaloki-x-recompiled/releases/download/v1.1.1/OutpostKalokiX-v1.1.1-windows-x64.zip",
+      size: "9.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/70/OutpostkalokiXcover.jpg",
     alt: "Outpost Kaloki X (cover)",

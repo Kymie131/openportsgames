@@ -14,13 +14,30 @@ export const linksAwakeningDxPortable: Port = {
   originalGameLicense: "proprietary",
   platforms: ["ps3","ps4","3ds","wii"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.2.0", date: "2026-10-30" },
   sources: ["https://github.com/sp00nznet/linksawakening-portable"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy Color"],
   related: ["links-awakening-recomp"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/sp00nznet/linksawakening-portable/releases/download/v0.2.0/LinksAwakening-Consoles-Installer-linux-x64.tar.gz",
+      size: "9.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/sp00nznet/linksawakening-portable/releases/download/v0.2.0/LinksAwakening-Consoles-Installer-macos-arm64.zip",
+      size: "9.1 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/sp00nznet/linksawakening-portable/releases/download/v0.2.0/LinksAwakening-Consoles-Installer-windows-x64.exe",
+      size: "18.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/5c/The_Legend_of_Zelda_-_Link%27s_Awakening_DX_box_art.png",
     alt: "The Legend of Zelda: Link's Awakening DX (box art)",

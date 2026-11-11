@@ -14,7 +14,7 @@ export const elliSHouse3dsPspGba: Port = {
   originalGameLicense: "proprietary",
   platforms: ["3ds","psp","gba"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.0-port-preview", date: "2026-09-12" },
   sources: ["https://github.com/glacialmoongames/EllisHouseCpp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -23,6 +23,28 @@ export const elliSHouse3dsPspGba: Port = {
   summary: "Elli's House is a action-adventure game published by Glacial Moon Games for Windows, released in 2021.",
   summaryEs: "Elli's House es un videojuego de acci�n y aventura publicado por Glacial Moon Games para Windows, lanzado en 2021.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "EllisHouse-3DSX",
+      url: "https://github.com/glacialmoongames/EllisHouseCpp/releases/download/v0.1.0-port-preview/EllisHouse-3DSX.zip",
+      size: "24.9 MB",
+    },
+    {
+      label: "EllisHouse-Covers",
+      url: "https://github.com/glacialmoongames/EllisHouseCpp/releases/download/v0.1.0-port-preview/EllisHouse-Covers.zip",
+      size: "2.0 MB",
+    },
+    {
+      label: "EllisHouse-PSP",
+      url: "https://github.com/glacialmoongames/EllisHouseCpp/releases/download/v0.1.0-port-preview/EllisHouse-PSP.zip",
+      size: "93.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/glacialmoongames/EllisHouseCpp/releases/download/v0.1.0-port-preview/EllisHouse-Windows.zip",
+      size: "15.6 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/elli-s-house.svg",
     alt: "Elli's House (generated cover)",

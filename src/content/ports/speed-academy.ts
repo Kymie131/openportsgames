@@ -14,7 +14,7 @@ export const SpeedAcademy: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.10", date: "2026-07-29" },
   sources: ["https://github.com/kugelrund/Speed-Academy"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -23,6 +23,13 @@ export const SpeedAcademy: Port = {
   summary: "Speed-Academy is a racing game, released in 2000.",
   summaryEs: "Speed-Academy es un videojuego de carreras, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/kugelrund/Speed-Academy/releases/download/v1.10/jasp.exe",
+      size: "1.5 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/speed-academy.svg",
     alt: "Speed-Academy (generated cover)",

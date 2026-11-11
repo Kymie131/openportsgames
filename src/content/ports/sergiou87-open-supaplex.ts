@@ -23,6 +23,38 @@ export const sergiou87OpenSupaplex: Port = {
   originalSystems: ["Unknown"],
   summary: "Supaplex is a video game created by Philip Jespersen and Michael Stopp, two Swiss students, and published by Digital Integration in 1991. It is an extended clone of Boulder Dash.",
   summaryEs: "Supaplex es un videojuego de lógica creado por Michael Stopp y Philip Jespersen, dos estudiantes suizos, y publicado por Digital Integration en 1991. Es un clon mejorado de Boulder Dash.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/sergiou87/open-supaplex/releases/download/v7.2.2/OpenSupaplex-3ds.zip",
+      size: "9.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/sergiou87/open-supaplex/releases/download/v7.2.2/OpenSupaplex-linux.zip",
+      size: "3.8 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/sergiou87/open-supaplex/releases/download/v7.2.2/OpenSupaplex-macOS.zip",
+      size: "8.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/sergiou87/open-supaplex/releases/download/v7.2.2/OpenSupaplex-psp.zip",
+      size: "4.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/sergiou87/open-supaplex/releases/download/v7.2.2/OpenSupaplex-riscos.zip",
+      size: "4.4 MB",
+    },
+    {
+      label: "Switch",
+      url: "https://github.com/sergiou87/open-supaplex/releases/download/v7.2.2/OpenSupaplex-switch.zip",
+      size: "6.9 MB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/833140/header.jpg?t=1694005824",
     alt: "Supaplex (Steam header)",

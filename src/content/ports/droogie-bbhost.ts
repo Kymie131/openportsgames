@@ -25,6 +25,28 @@ export const droogieBbhost: Port = {
   summaryEs: "Bloodborne es un videojuego de rol de acción dirigido por Hidetaka Miyazaki, desarrollado por From Software y distribuido por JapanStudio y Sony Computer Entertainment para la plataforma de PlayStation 4. El videojuego sigue las acciones del personaje del jugador, el Cazador, a través de Yharnam, una ciudad ficticia de estilo victoriano, cuyos habitantes han sido afectados con una enfermedad de transmisión sanguínea anormal.",
   notes: "Bloodborne: source port by droogie for Windows. Bring your own copy of the game.",
   notesEs: "Bloodborne: source port de droogie para Windows. Aporta tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/droogie/bbhost/releases/download/v0.2.32/bbhost-linux-v0.2.32.tar.gz",
+      size: "62.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/droogie/bbhost/releases/download/v0.2.32/bbhost-steamdeck-v0.2.32.tar.gz",
+      size: "32.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/droogie/bbhost/releases/download/v0.2.32/bbhost-win-v0.2.32.zip",
+      size: "106.2 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/droogie/bbhost/releases/download/v0.2.32/bbhost.exe",
+      size: "45.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
     alt: "Bloodborne (box art)",

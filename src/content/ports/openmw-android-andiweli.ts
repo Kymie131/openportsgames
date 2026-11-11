@@ -21,6 +21,13 @@ export const openmwAndroidAndiweli: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Andiweli/OpenMW-Android/releases/download/0.51.0-14/OpenMW.0.51-14.apk",
+      size: "42.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/53/MorrowindCOVER.jpg",
     alt: "The Elder Scrolls III: Morrowind (box art)",

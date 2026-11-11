@@ -20,6 +20,13 @@ export const sonicTheHedgehog4EpisodeIiSwitch: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Switch NRO",
+      url: "https://github.com/boraeskicioglu/s4ep2-nx/releases/download/s4ep2_nx-0.2/s4ep2_nx.nro",
+      size: "19.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/1f/S4E2_Boxart.png",
     alt: "Sonic the Hedgehog 4: Episode II (box art)",

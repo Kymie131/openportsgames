@@ -23,6 +23,13 @@ export const asiekierkaReconstructionOfSuperZzt: Port = {
   originalSystems: ["MS-DOS"],
   summary: "ZZT is a 1991 action-adventure puzzle video game and game creation system developed and published by Potomac Computer Systems for MS-DOS. It was later released as freeware in 1997. It is an early game allowing user-generated content using object-oriented programming. Players control a smiley face to battle various creatures and solve puzzles in different grid-based boards in a chosen world. It has four worlds where players explore different boards and interact with objects such as ammo, bombs, and scrolls to reach the end of the game.",
   summaryEs: "Super ZZT es un videojuego de acción y aventura en 1992.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/asiekierka/reconstruction-of-super-zzt/releases/download/v1.0/RecSZZT.zip",
+      size: "52 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/super-zzt.svg",
     alt: "Super ZZT (generated cover)",

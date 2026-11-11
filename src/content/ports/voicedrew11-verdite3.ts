@@ -23,6 +23,23 @@ export const voicedrew11Verdite3: Port = {
   originalSystems: ["PlayStation"],
   summary: "King's Field II is a 1995 action role-playing game developed and published by FromSoftware for the PlayStation. It is the second entry in the King's Field series and the first one to be released internationally; it was released as simply King's Field as the previous game was never released outside Japan.",
   summaryEs: "King's Field II es un videojuego de acción y aventura publicado por Sony Interactive Entertainment en 1995.",
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/Voicedrew11/verdite3/releases/download/v0.3.0/Verdite3-0.3.0-win-x64-setup.exe",
+      size: "33.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Voicedrew11/verdite3/releases/download/v0.3.0/Verdite3-0.3.0-win-x64.zip",
+      size: "45.9 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/Voicedrew11/verdite3/releases/download/v0.3.0/Verdite3-0.3.0-x86_64.AppImage",
+      size: "41.2 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/King's%20Field%20II%20(USA).png",
     alt: "King's Field II (box art)",

@@ -20,6 +20,18 @@ export const ssf2tHdRemixRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/saulob/ssf2t-hd-remix-recompiled/releases/download/v0.4.0/SSF2THDRemix-v0.4.0-windows-x64.zip",
+      size: "34.1 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/saulob/ssf2t-hd-remix-recompiled/releases/download/v0.4.0/SSF2THDRemix-v0.4.0-x86_64.AppImage",
+      size: "29.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/9b/SSF_HD_Remix_Boxart.jpg",
     alt: "Super Street Fighter II Turbo HD Remix (box art)",

@@ -14,7 +14,7 @@ export const _2048Psp: Port = {
   originalGameLicense: "open",
   platforms: ["psp"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.0", date: "2026-09-15" },
   sources: ["https://github.com/violinmelody/2048PSP"],
   license: { spdx: "MIT" },
   verified: false,
@@ -22,6 +22,13 @@ export const _2048Psp: Port = {
   originalSystems: ["Other"],
   summary: "THE ORIGINAL MADE BETTER | 2048 is a classic puzzle with the simple goal of reaching 2048. Move your tiles around the board – When two tiles with the same number touch, they merge into one!",
   summaryEs: "2048 es un videojuego de puzles publicado por LA\\VA en 2018.",
+  downloads: [
+    {
+      label: "PSP",
+      url: "https://github.com/violinmelody/2048PSP/releases/download/1.0.0/PSP.zip",
+      size: "93 KB",
+    },
+  ],
   cover: {
     src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/960px-2048_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     alt: "2048 (box art)",

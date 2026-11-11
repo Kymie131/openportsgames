@@ -14,13 +14,25 @@ export const alienResurrectionRecompHero: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.3.0", date: "2026-10-01" },
   sources: ["https://github.com/Heromachine/AlienResurrection-Recompilation"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
   related: ["alien-resurrection-recomp"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Heromachine/AlienResurrection-Recompilation/releases/download/v0.3.0/AlienResurrectionRecompilation-v0.3.0-linux-x64.zip",
+      size: "44.7 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/Heromachine/AlienResurrection-Recompilation/releases/download/v0.3.0/AlienResurrectionRecompilation-v0.3.0-x86_64.AppImage",
+      size: "41.2 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Alien%20Resurrection%20(Europe)%20(En,Fr,De,Es,It).png",
     alt: "Alien Resurrection (box art)",

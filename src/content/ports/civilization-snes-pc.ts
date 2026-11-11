@@ -14,7 +14,7 @@ export const civilizationSnesPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.3.0", date: "2026-09-03" },
   sources: ["https://github.com/Junior-Jones/Civilization-SNES-Static-Recomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -22,6 +22,13 @@ export const civilizationSnesPc: Port = {
   originalSystems: ["Super Nintendo"],
   summary: "Sid Meier's Civilization is a 1991 turn-based strategy 4X video game developed and published by MicroProse. The game was originally developed for MS-DOS running on a PC, and it has undergone numerous revisions for various platforms. The player is tasked with leading an entire human civilization over the course of several millennia by controlling various areas such as urban development, exploration, government, trade, research, and military. The player can control individual units and advance the exploration, conquest and settlement of the game's world.",
   summaryEs: "Sid Meier's Civilization o Civilization I es un videojuego de estrategia por turnos creado por Sid Meier y publicado por MicroProse en 1991 para las plataformas MS-DOS, Microsoft Windows, Apple Macintosh, Commodore Amiga, Atari ST y Super NES.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Junior-Jones/Civilization-SNES-Static-Recomp/releases/download/v1.3.0/Civilization-SNES-Static-Recomp-1.3.0-Windows-x64.zip",
+      size: "2.3 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/civilization.svg",
     alt: "Civilization (generated cover)",

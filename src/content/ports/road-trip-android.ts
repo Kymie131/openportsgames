@@ -23,6 +23,33 @@ export const roadTripAndroid: Port = {
   originalSystems: ["PlayStation 2"],
   summary: "Road Trip is a racing game in 2022.",
   summaryEs: "Road Trip es un videojuego de carreras en 2022.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/silentsudin/RoadTripAdventure-recomp/releases/download/v0.2.3/RoadTripRecomp-0.2.3-Android-arm64.apk",
+      size: "49.8 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/silentsudin/RoadTripAdventure-recomp/releases/download/v0.2.3/RoadTripRecomp-0.2.3-macOS.dmg",
+      size: "9.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/silentsudin/RoadTripAdventure-recomp/releases/download/v0.2.3/RoadTripRecomp-0.2.3-Windows-x64-DLSS-XeSS-addon.zip",
+      size: "85.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/silentsudin/RoadTripAdventure-recomp/releases/download/v0.2.3/RoadTripRecomp-0.2.3-Windows-x64-portable.zip",
+      size: "87.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/silentsudin/RoadTripAdventure-recomp/releases/download/v0.2.3/RoadTripRecomp-0.2.3-Windows-x64.zip",
+      size: "87.6 MB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1998390/header.jpg?t=1653589274",
     alt: "Road Trip (Steam header)",

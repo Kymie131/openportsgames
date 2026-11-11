@@ -20,6 +20,28 @@ export const halo1DecompFork: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox"],
+  downloads: [
+    {
+      label: "Android",
+      url: "https://github.com/thelinkin3000/SlipstreamCE/releases/download/build-141/halo-android-release.zip",
+      size: "914 KB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/thelinkin3000/SlipstreamCE/releases/download/build-141/halo-ps5-release.zip",
+      size: "54.7 MB",
+    },
+    {
+      label: "Switch",
+      url: "https://github.com/thelinkin3000/SlipstreamCE/releases/download/build-141/halo-switch-release.zip",
+      size: "32.1 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/thelinkin3000/SlipstreamCE/releases/download/build-141/slipstreamce-android-release.zip",
+      size: "35.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg",
     alt: "Halo: Combat Evolved (box art)",

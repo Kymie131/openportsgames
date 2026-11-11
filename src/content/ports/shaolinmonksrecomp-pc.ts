@@ -21,6 +21,18 @@ export const shaolinmonksrecompPc: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["Xbox"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/OAleex/OpenShao/releases/download/v0.5.1/OpenShao-0.5.1-Linux-x64.tar.gz",
+      size: "11.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/OAleex/OpenShao/releases/download/v0.5.1/OpenShao-0.5.1-Windows-x64.zip",
+      size: "10.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/29/PS2MKSM.JPG",
     alt: "Mortal Kombat: Shaolin Monks (box art)",

@@ -21,6 +21,13 @@ export const linksAwakeningAndroidPlus: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["Nintendo Switch"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Nycolazs/LASRecomp-Android-Plus/releases/download/android-v1.2.0/LASRecomp-Android-1.2.0.apk",
+      size: "76.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c1/Link%27s_Awakening.png",
     alt: "The Legend of Zelda: Link's Awakening (box art)",

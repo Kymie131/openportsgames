@@ -21,6 +21,13 @@ export const lancesweatpantsStrikersQuestMr: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo GameCube"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/LanceSweatpants/Strikers-Quest-MR/releases/download/v0.1.18-alpha1/QuestStrikers-alpha1.18.apk",
+      size: "219.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b3/Supermariostrikersbox.jpg",
     alt: "Super Mario Strikers (box art)",

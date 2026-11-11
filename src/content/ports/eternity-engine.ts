@@ -31,6 +31,28 @@ export const eternityEngine: Port = {
   summaryEs: "Doom es un videojuego de disparos en primera persona desarrollado y publicado por id Software. Lanzado el 10 de diciembre de 1993 para DOS, es la primera entrega de la franquicia Doom. El jugador asume el papel de un marine espacial, más tarde conocido extraoficialmente como Doomguy, que lucha contra hordas de humanos no muertos y demonios invasores. El juego comienza en las lunas de Marte y termina en el infierno, y el jugador atraviesa cada nivel para encontrar la salida o derrotar a su jefe final.",
   notes: "Extended Doom engine kept in active development for advanced community maps.",
   notesEs: "Motor de Doom extendido y en desarrollo activo para mapas comunitarios avanzados.",
+  downloads: [
+    {
+      label: "macOS DMG",
+      url: "https://github.com/team-eternity/eternity/releases/download/4.06.00/ee-4.06.00-applesilicon.dmg",
+      size: "6.9 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/team-eternity/eternity/releases/download/4.06.00/ee-4.06.00-intel.dmg",
+      size: "7.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/team-eternity/eternity/releases/download/4.06.00/ee-4.06.00-win32.zip",
+      size: "7.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/team-eternity/eternity/releases/download/4.06.00/ee-4.06.00-win64.zip",
+      size: "8.4 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Doom.png",
     alt: "Doom (box art)",

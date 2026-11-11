@@ -23,6 +23,23 @@ export const superMarioLand2Recomp: Port = {
   originalSystems: ["Game Boy"],
   summary: "Super Mario Land 2: 6 Golden Coins is a 1992 platform game developed and published by Nintendo for the Game Boy. It is the sequel to Super Mario Land. In Super Mario Land 2, the player assumes the role of the protagonist Mario, whose main objective is to reclaim his personal island, Mario Land, from the clutches of his greedy rival Wario. The gameplay builds and expands on that of its precursor with innovations carried over from Super Mario World and Super Mario Bros. 3.",
   summaryEs: "Super Mario Land 2: 6 Golden Coins es un videojuego desarrollado por Nintendo para la videoconsola portátil Game Boy en 1992. Creado por Gunpei Yokoi, supone la continuación de la saga de plataformas Super Mario Land para esa consola y es uno de los juegos más largos de Game Boy, con 2MB.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/mstan/SuperMarioLand2Recomp/releases/download/v0.2.0/SuperMarioLand2Recomp-android-arm64-v0.2.0.apk",
+      size: "57.8 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/mstan/SuperMarioLand2Recomp/releases/download/v0.2.0/SuperMarioLand2Recomp-linux-0.2.0-x86_64.AppImage",
+      size: "22.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/SuperMarioLand2Recomp/releases/download/v0.2.0/SuperMarioLand2Recomp-windows-x64-v0.2.0.zip",
+      size: "28.8 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/super-mario-land-2-6-golden-coins.svg",
     alt: "Super Mario Land 2: 6 Golden Coins (generated cover)",

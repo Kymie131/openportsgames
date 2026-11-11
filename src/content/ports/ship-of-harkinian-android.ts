@@ -14,13 +14,30 @@ export const shipOfHarkinianAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "9.3.1-ports.2", date: "2026-10-30" },
   sources: ["https://github.com/linkzenic/Shipwright-Android"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["ship-of-harkinian"],
+  downloads: [
+    {
+      label: "iOS IPA",
+      url: "https://github.com/linkzenic/Shipwright-Ports/releases/download/v9.3.1-ports.2/Ship-of-Harkinian-9.3.1-iOS-unsigned.ipa",
+      size: "37.1 MB",
+    },
+    {
+      label: "iOS IPA",
+      url: "https://github.com/linkzenic/Shipwright-Ports/releases/download/v9.3.1-ports.2/Ship-of-Harkinian-9.3.1-tvOS-unsigned.ipa",
+      size: "37.1 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/linkzenic/Shipwright-Ports/releases/download/v9.3.1-ports.2/soh_release_v9.3.1-android.4.apk",
+      size: "56.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
     alt: "The Legend of Zelda: Ocarina of Time (box art)",

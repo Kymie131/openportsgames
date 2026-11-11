@@ -23,6 +23,18 @@ export const KirbysReturnToDreamLandKirbyWiiRecomp: Port = {
   summary: "Kirby's Return to Dream Land (Kirby Wii Recomp) is a action-adventure game for GameCube, released in 2000.",
   summaryEs: "Kirby's Return to Dream Land (Kirby Wii Recomp) es un videojuego de acci�n y aventura para GameCube, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/ExpansionPak/ModernGekko/releases/download/kirby/KirbyWiiRecomp-Linux-x86_64.zip",
+      size: "44.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/ExpansionPak/ModernGekko/releases/download/kirby/KirbyWiiRecomp-Windows-x86_64.zip",
+      size: "42.1 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/kirby-s-return-to-dream-land-kirby-wii-recomp.svg",
     alt: "Kirby's Return to Dream Land (Kirby Wii Recomp) (generated cover)",

@@ -14,7 +14,7 @@ export const openq4: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.13.2", date: "2026-09-14" },
   sources: ["https://github.com/themuffinator/openQ4"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -26,6 +26,38 @@ export const openq4: Port = {
     "Modern source port of Quake 4 based on the released id Tech 4 code. It needs your own copy of the game.",
   notesEs:
     "Port de código fuente moderno de Quake 4 basado en el código de id Tech 4 publicado. Necesita tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/themuffinator/openQ4/releases/download/v0.13.2/openq4-0.13.2-linux-arm64-preview.tar.xz",
+      size: "641.3 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/themuffinator/openQ4/releases/download/v0.13.2/openq4-0.13.2-linux-x64.tar.xz",
+      size: "642.7 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/themuffinator/openQ4/releases/download/v0.13.2/openq4-0.13.2-macos-arm64-metal-unsigned.tar.gz",
+      size: "640.7 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/themuffinator/openQ4/releases/download/v0.13.2/openq4-0.13.2-macos-arm64-opengl-unsigned.tar.gz",
+      size: "640.7 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/themuffinator/openQ4/releases/download/v0.13.2/openq4-0.13.2-preview-aarch64.AppImage",
+      size: "659.7 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/themuffinator/openQ4/releases/download/v0.13.2/openq4-0.13.2-windows-arm64-setup.exe",
+      size: "658.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6c/Quake4box.jpg",
     alt: "Quake 4 (cover)",

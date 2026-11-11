@@ -21,6 +21,13 @@ export const andrewnakasSkate3IosSetup: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "iOS IPA",
+      url: "https://github.com/andrewnakas/skate3-ios-setup/releases/download/v2.7.1/skate3.ipa",
+      size: "32.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/84/Skate-3-Boxart.jpg",
     alt: "Skate 3 (box art)",

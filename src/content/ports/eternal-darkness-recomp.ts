@@ -14,12 +14,29 @@ export const eternalDarknessRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows","macos","linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.9.6", date: "2026-10-24" },
   sources: ["https://github.com/griches/EternalDarknessRecomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/griches/EternalDarknessRecomp/releases/download/v0.9.6/EternalDarkness-linux-x86_64-202610242126-e9ff8d6.tar.gz",
+      size: "105.7 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/griches/EternalDarknessRecomp/releases/download/v0.9.6/EternalDarkness-mac-202610200024-1cb3fe6.zip",
+      size: "76.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/griches/EternalDarknessRecomp/releases/download/v0.9.6/EternalDarkness-windows-x64-202610200024-1cb3fe6.zip",
+      size: "44.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/8d/Eternal_Darkness_box.jpg",
     alt: "Eternal Darkness: Sanity's Requiem (box art)",

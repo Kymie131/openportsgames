@@ -14,7 +14,7 @@ export const doa3Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.7", date: "2026-10-24" },
   sources: ["https://github.com/parkerallan/doa3-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const doa3Recomp: Port = {
     "Static recompilation of Dead or Alive 3 (Xbox) with ReXGlue. It requires a copy of the game.",
   notesEs:
     "Recompilación estática de Dead or Alive 3 (Xbox) con ReXGlue. Requiere una copia del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/parkerallan/doa3-recomp/releases/download/v1.0.7/DOA3-v1.0.7-win64.zip",
+      size: "7.8 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Dead%20or%20Alive%203%20(USA).png",
     alt: "Dead or Alive 3 (box art)",

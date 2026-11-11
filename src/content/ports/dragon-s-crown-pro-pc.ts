@@ -14,7 +14,7 @@ export const dragonSCrownProPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1.1", date: "2026-11-08" },
   sources: ["https://github.com/saulob/dragons-crown-pro-pc"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -22,6 +22,18 @@ export const dragonSCrownProPc: Port = {
   originalSystems: ["PlayStation 4"],
   summary: "Dragon's Crown is a 2013 action role-playing game developed by Vanillaware for the PlayStation 3 and PlayStation Vita. The game was published in Japan and North America by Atlus and in PAL regions by NIS America. A high-definition port for PlayStation 4, Dragon's Crown Pro, was released by Atlus in 2018. Players navigate environments from a side-scrolling perspective, choosing from six character classes to fight in the style of a beat 'em up and acquiring loot through repeated dungeon exploration.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/saulob/dragons-crown-pro-pc/releases/download/v1.1.1/DragonsCrownProPC-v1.1.1-windows-x64.zip",
+      size: "31.9 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/saulob/dragons-crown-pro-pc/releases/download/v1.1.1/DragonsCrownProPC-v1.1.1-x86_64.AppImage",
+      size: "27.3 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/dragon-s-crown-pro.svg",
     alt: "Dragon's Crown Pro (generated cover)",

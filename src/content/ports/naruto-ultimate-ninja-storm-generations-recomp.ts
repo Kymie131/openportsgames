@@ -14,12 +14,19 @@ export const narutoStormGenerationsRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android", "windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.4.16", date: "2026-11-03" },
   sources: ["https://github.com/Masterllgod/naruto-storm-generations-port-nativo"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Masterllgod/naruto-storm-generations-port-nativo/releases/download/v0.4.16/NarutoStormGenerations-PortNativo-v0.4.16-arm64.apk",
+      size: "15.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b7/Naruto-generations-ps3-pegi-pack-resize.jpg",
     alt: "Naruto Shippuden: Ultimate Ninja Storm Generations (box art)",

@@ -14,13 +14,30 @@ export const mother3RecompAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows","linux","android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.8", date: "2026-10-28" },
   sources: ["https://github.com/josiahg2502-glitch/Mother3Recomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy Advance"],
   related: ["mother-3-recomp"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/josiahg2502-glitch/Mother3Recomp/releases/download/v1.0.8/Mother3Recomp-v1.0.8-android.apk",
+      size: "49.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/josiahg2502-glitch/Mother3Recomp/releases/download/v1.0.8/Mother3Recomp-v1.0.8-linux-x86_64.tar.gz",
+      size: "32.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/josiahg2502-glitch/Mother3Recomp/releases/download/v1.0.8/Mother3Recomp-v1.0.8-windows-x64.zip",
+      size: "35.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/ee/Deluxe_package.jpg",
     alt: "MOTHER 3 (box art)",

@@ -14,12 +14,44 @@ export const pvzPortable: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.2.7", date: "2026-11-07" },
   sources: ["https://github.com/wszqkzqk/PvZ-Portable"],
   license: { spdx: "LGPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/wszqkzqk/PvZ-Portable/releases/download/0.2.7/pvz-portable-android-arm64-v8a.apk",
+      size: "12.4 MB",
+    },
+    {
+      label: "iOS IPA",
+      url: "https://github.com/wszqkzqk/PvZ-Portable/releases/download/0.2.7/pvz-portable-ios-arm64.ipa",
+      size: "4.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/wszqkzqk/PvZ-Portable/releases/download/0.2.7/pvz-portable-macos-aarch64.zip",
+      size: "3.5 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/wszqkzqk/PvZ-Portable/releases/download/0.2.7/pvz-portable-wasm.zip",
+      size: "2.2 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/wszqkzqk/PvZ-Portable/releases/download/0.2.7/pvz-portable-windows-msvc-x64-static.exe",
+      size: "7.6 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/wszqkzqk/PvZ-Portable/releases/download/0.2.7/pvz-portable-windows-msvc-x86-static.exe",
+      size: "6.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/9c/PlantsvsZombiesCoverArt.jpg",
     alt: "Plants vs Zombies (box art)",

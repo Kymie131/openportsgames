@@ -15,7 +15,7 @@ export const jokerPokerPsp: Port = {
   category: "homebrew",
   platforms: ["psp"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.40", date: "2025-08-25" },
   sources: ["https://github.com/kwerenta/joker-poker"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -23,6 +23,13 @@ export const jokerPokerPsp: Port = {
   originalSystems: ["Unknown"],
   summary: "Joker Poker is a puzzle game.",
   summaryEs: "Joker Poker es un videojuego de puzles.",
+  downloads: [
+    {
+      label: "joker-poker",
+      url: "https://github.com/kwerenta/joker-poker/releases/download/v0.40/joker-poker.zip",
+      size: "5.4 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/joker-poker.svg",
     alt: "Joker Poker (generated cover)",

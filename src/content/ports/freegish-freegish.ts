@@ -21,6 +21,13 @@ export const freegishFreegish: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/freegish/freegish/releases/download/v2.0.0/v2.0.0.zip",
+      size: "15.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/55/Gish_%28video_game%29.jpg",
     alt: "Gish (box art)",

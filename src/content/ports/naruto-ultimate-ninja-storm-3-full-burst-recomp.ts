@@ -14,7 +14,7 @@ export const narutoStorm3FullBurstRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android", "windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.6.16", date: "2026-11-03" },
   sources: ["https://github.com/Masterllgod/naruto-storm-3-full-burst-port-nativo"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -22,6 +22,13 @@ export const narutoStorm3FullBurstRecomp: Port = {
   originalSystems: ["Xbox 360"],
   summary: "Naruto Shippuden: Ultimate Ninja Storm 3, known in Japan as Naruto Shippūden: Narutimate Storm 3 , the fourth installment of the Ultimate Ninja Storm series, is a fighting game developed by CyberConnect2 as part of the Naruto: Ultimate Ninja video-game series based on Masashi Kishimoto's Naruto manga. It was first released for PlayStation 3 and Xbox 360 by Namco Bandai Games in March 2013 in North America and in Europe, and in April 2013 in Japan.",
   summaryEs: "Naruto Shippūden: Ultimate Ninja Storm 3, conocido en Japón como Naruto Narutimate Storm 3 , es un videojuego del anime Naruto Shippūden desarrollado por CyberConnect2 para las consolas PlayStation 3 y Xbox 360. Hasta ese momento, era el juego más largo de la saga Naruto Ultimate Ninja y tiene un número de 80 personajes. La fecha exacta de lanzamiento fue el 5 de marzo en América del Norte y el 8 de marzo en Europa. Japón ocupó su fecha de lanzamiento el 18 de abril de 2013.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Masterllgod/naruto-storm-3-full-burst-port-nativo/releases/download/v0.6.16/NarutoStorm3FullBurst-PortNativo-v0.6.16-arm64.apk",
+      size: "22.1 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/naruto-shippuden-ultimate-ninja-storm-3-full-burst.svg",
     alt: "Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst (generated cover)",

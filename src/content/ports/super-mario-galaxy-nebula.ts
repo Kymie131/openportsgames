@@ -14,7 +14,7 @@ export const superMarioGalaxyNebula: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.0.2", date: "2026-10-27" },
   sources: ["https://github.com/keepvaibin/nebula"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -25,6 +25,13 @@ export const superMarioGalaxyNebula: Port = {
     source: "https://github.com/keepvaibin/nebula",
     quote: "Nebula was built with AI coding agents (Anthropic's Claude).",
   },
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/keepvaibin/nebula/releases/download/v1.0.2/Nebula-Setup.exe",
+      size: "13.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/76/SuperMarioGalaxy.jpg",
     alt: "Super Mario Galaxy (box art)",

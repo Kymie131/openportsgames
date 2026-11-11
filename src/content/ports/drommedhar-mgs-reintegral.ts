@@ -21,6 +21,18 @@ export const drommedharMgsReintegral: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Drommedhar/mgs-reintegral/releases/download/v0.3.1/reintegral-0.3.1-windows-x86.zip",
+      size: "15.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Drommedhar/mgs-reintegral/releases/download/v0.3.1/reintegral-sdk-0.3.1-windows-x86.zip",
+      size: "15.6 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Metal%20Gear%20Solid%20(Europe).png",
     alt: "Metal Gear Solid (box art)",

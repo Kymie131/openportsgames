@@ -14,13 +14,35 @@ export const valkyrieProfileRecompEd1z19: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.1", date: "2026-09-04" },
   sources: ["https://github.com/Ed1z19/ValkyrieRecomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
   related: ["valkyrie-profile-recomp"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Ed1z19/ValkyrieRecomp/releases/download/v1.0.1/ValkyrieRecomp-1.0.1-linux-x64.zip",
+      size: "30.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Ed1z19/ValkyrieRecomp/releases/download/v1.0.1/ValkyrieRecomp-1.0.1-macos-arm64.zip",
+      size: "28.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Ed1z19/ValkyrieRecomp/releases/download/v1.0.1/ValkyrieRecomp-1.0.1-macos-x64.zip",
+      size: "28.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Ed1z19/ValkyrieRecomp/releases/download/v1.0.1/ValkyrieRecomp-1.0.1-windows-x64.zip",
+      size: "32.6 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Valkyrie%20Profile%20(Japan)%20(Rev%201).png",
     alt: "Valkyrie Profile (box art)",

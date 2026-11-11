@@ -36,6 +36,38 @@ export const bomberman64Recomp: Port = {
     "Bomberman 64 rebuilt with N64: Recompiled. The repository and its releases contain no game assets, so the player must supply their own legally obtained game.",
   notesEs:
     "Bomberman 64 reconstruido con N64: Recompiled. El repositorio y sus releases no contienen recursos del juego, así que el jugador debe aportar su propio juego obtenido legalmente.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/RevoSucks/BM64Recomp/releases/download/v1.0.0/BM64Recompiled-AppImage-ARM64-Release.zip",
+      size: "41.0 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/RevoSucks/BM64Recomp/releases/download/v1.0.0/BM64Recompiled-AppImage-X64-Release.zip",
+      size: "41.7 MB",
+    },
+    {
+      label: "BM64Recompiled-Flatpak-X64-Release",
+      url: "https://github.com/RevoSucks/BM64Recomp/releases/download/v1.0.0/BM64Recompiled-Flatpak-X64-Release.zip",
+      size: "9.8 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/RevoSucks/BM64Recomp/releases/download/v1.0.0/BM64Recompiled-Linux-ARM64-Release.zip",
+      size: "15.3 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/RevoSucks/BM64Recomp/releases/download/v1.0.0/BM64Recompiled-Linux-X64-Release.zip",
+      size: "15.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/RevoSucks/BM64Recomp/releases/download/v1.0.0/BM64Recompiled-macOS-Release.zip",
+      size: "25.8 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Bomberman%2064%20(USA).png",
     alt: "Bomberman 64 (box art)",

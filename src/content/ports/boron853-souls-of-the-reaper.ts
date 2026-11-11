@@ -23,6 +23,13 @@ export const boron853SoulsOfTheReaper: Port = {
   originalSystems: ["Xbox 360"],
   summary: "Diablo III is a 2012 action role-playing game developed and published by Blizzard Entertainment as the third installment in the Diablo franchise. It was released for Microsoft Windows and OS X in May 2012, PlayStation 3 and Xbox 360 in September 2013, PlayStation 4 and Xbox One in August 2014, and Nintendo Switch in November 2018. Set 20 years after the events of Diablo II, players control one of seven character classes – Barbarian, Crusader, Demon Hunter, Monk, Necromancer, Witch Doctor, or Wizard – and are tasked with defeating Diablo.",
   summaryEs: "Diablo III es un videojuego de rol de acción (ARPG), desarrollado por Blizzard Entertainment. Ésta es la continuación de Diablo II y la tercera parte de la serie que fue creada por la compañía estadounidense Blizzard. Su temática es de fantasía oscura y terrorífica. Su aparición fue anunciada el 28 de junio de 2008 en el Blizzard Entertainment Worldwide Invitational en París, Francia. Blizzard anunció que el lanzamiento se realizaría el 15 de mayo de 2012.",
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/Boron853/Souls-of-the-Reaper/releases/download/beta-1.3/SoulsOfTheReaper_Setup.exe",
+      size: "22.3 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/diablo-iii.svg",
     alt: "Diablo III (generated cover)",

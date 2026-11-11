@@ -14,12 +14,24 @@ export const earthwormJimHdPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows","linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.0", date: "2026-09-30" },
   sources: ["https://github.com/devEx780/earthworm-jim-hd-recomp"],
   license: { spdx: "BSD-3-Clause" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/devEx780/earthworm-jim-hd-recomp/releases/download/v0.1.0/ewj-hd-linux.tar.gz",
+      size: "32.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/devEx780/earthworm-jim-hd-recomp/releases/download/v0.1.0/ewj-hd-windows.zip",
+      size: "26.6 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/38480/header.jpg",
     alt: "Earthworm Jim (cover art)",

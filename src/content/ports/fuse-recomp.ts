@@ -24,6 +24,18 @@ export const fuseRecomp: Port = {
   summary: "Fuse is a shooter game published by Electronic Arts for Xbox 360, released in 2013.",
   summaryEs: "Fuse es un videojuego de disparos publicado por Electronic Arts para Xbox 360, lanzado en 2013.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/nikolaygorb/FuseRecomp/releases/download/1.3/Fuse-lin64.zip",
+      size: "79.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/nikolaygorb/FuseRecomp/releases/download/1.3/Fuse-win64.zip",
+      size: "35.7 MB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4033000/2d9a9e974d60b33204c2eceecf61ff7b6eff8855/header.jpg?t=1773919731",
     alt: "Fuse (Steam header)",

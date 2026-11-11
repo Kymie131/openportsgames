@@ -14,12 +14,19 @@ export const generalszhAndroidPort: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.4.2", date: "2026-11-01" },
   sources: ["https://github.com/MYSOREZ/GeneralsZH-Android-Port"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/MYSOREZ/GeneralsZH-Android-Port/releases/download/v1.4.2/GeneralsXZH-android-v1.4.2.apk",
+      size: "88.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/20/Cncgzh-win-cover.jpg",
     alt: "Command & Conquer: Generals: Zero Hour (box art)",

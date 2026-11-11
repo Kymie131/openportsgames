@@ -14,7 +14,7 @@ export const fearAndHungerAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.4", date: "2023-11-19" },
   sources: ["https://github.com/Chokage/Fear-And-Hunger-Android-Application"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,38 @@ export const fearAndHungerAndroid: Port = {
     "Android version of Fear & Hunger that runs the game without an emulator. It is a community port distributed as an app and needs a copy of the game.",
   notesEs:
     "Versión para Android de Fear & Hunger que ejecuta el juego sin emulador. Es un port comunitario distribuido como app y necesita una copia del juego.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Chokage/Fear-And-Hunger-Android-Application/releases/download/v1.0.4/Fear.and.Hunger-.Espanol.apk",
+      size: "688.6 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/Chokage/Fear-And-Hunger-Android-Application/releases/download/v1.0.4/Fear.and.Hunger-.Modded.apk",
+      size: "633.3 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/Chokage/Fear-And-Hunger-Android-Application/releases/download/v1.0.4/Fear.and.Hunger.apk",
+      size: "633.3 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/Chokage/Fear-And-Hunger-Android-Application/releases/download/v1.0.4/Fear.and.Hunger_.CONTROLLER_verA.apk",
+      size: "633.2 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/Chokage/Fear-And-Hunger-Android-Application/releases/download/v1.0.4/Fear.and.Hunger_.CONTROLLER_verB.apk",
+      size: "633.3 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/Chokage/Fear-And-Hunger-Android-Application/releases/download/v1.0.4/Fear.and.Hunger_.Espanol-CONTROLLER_verA.apk",
+      size: "688.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/69/Fear_%26_Hunger.jpg",
     alt: "Fear & Hunger (box art)",

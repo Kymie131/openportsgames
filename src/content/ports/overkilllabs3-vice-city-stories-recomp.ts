@@ -21,6 +21,23 @@ export const overkilllabs3ViceCityStoriesRecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation Portable"],
+  downloads: [
+    {
+      label: "Macos",
+      url: "https://github.com/OverkillLabs3/vice-city-stories-recomp/releases/download/v1.0.0/VCSNative-macOS.zip",
+      size: "19.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/OverkillLabs3/vice-city-stories-recomp/releases/download/v1.0.0/VCSNative-Windows.zip",
+      size: "19.9 MB",
+    },
+    {
+      label: "VCSTexturePack",
+      url: "https://github.com/OverkillLabs3/vice-city-stories-recomp/releases/download/v1.0.0/VCSTexturePack.zip",
+      size: "625.4 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Grand%20Theft%20Auto%20-%20Vice%20City%20Stories%20(USA).png",
     alt: "Grand Theft Auto: Vice City Stories (box art)",

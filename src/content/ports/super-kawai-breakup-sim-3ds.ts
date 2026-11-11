@@ -23,6 +23,13 @@ export const superKawaiBreakupSim3ds: Port = {
   summary: "Super Kawai Breakup Sim is a simulation game published by Fan game for Other, released in 2020.",
   summaryEs: "Super Kawai Breakup Sim es un videojuego de simulaci�n publicado por Fan game para Other, lanzado en 2020.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "BreakupSimulator3DS",
+      url: "https://github.com/Dangerbites/BreakupSimulator3DS/releases/download/Major/BreakupSimulator3DS.zip",
+      size: "29.6 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/super-kawai-breakup-sim.svg",
     alt: "Super Kawai Breakup Sim (generated cover)",

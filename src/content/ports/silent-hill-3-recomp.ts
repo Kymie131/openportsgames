@@ -14,7 +14,7 @@ export const silentHill3Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["switch"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.06", date: "2026-10-22" },
   sources: ["https://github.com/cutarev/sh3-nx"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -26,6 +26,13 @@ export const silentHill3Recomp: Port = {
     "Silent Hill 3 (PlayStation 2) statically recompiled for the Nintendo Switch. It needs your own copy of the game.",
   notesEs:
     "Silent Hill 3 (PlayStation 2) recompilado de forma estática para Nintendo Switch. Necesita tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Switch NRO",
+      url: "https://github.com/cutarev/sh3-nx/releases/download/v0.06/sh3-nx.nro",
+      size: "33.1 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Silent%20Hill%203%20(USA)%20(En,Ja,Fr,De,Es,It,Ko).png",
     alt: "Silent Hill 3 (box art)",

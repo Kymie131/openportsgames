@@ -14,7 +14,7 @@ export const snowboardKidsRecompiled: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1.0", date: "2026-09-27" },
   sources: ["https://github.com/boricuapab/snowboardkids-recompiled"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,18 @@ export const snowboardKidsRecompiled: Port = {
     "Static recompilation of Snowboard Kids (N64) with N64Recomp and the RT64 renderer. It requires your own game files.",
   notesEs:
     "Recompilación estática de Snowboard Kids (N64) con N64Recomp y el renderizador RT64. Requiere tus propios archivos del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/boricuapab/snowboardkids-recompiled/releases/download/v1.1.0/SnowboardKidsRecompiled-Linux-1.1.0.zip",
+      size: "5.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/boricuapab/snowboardkids-recompiled/releases/download/v1.1.0/SnowboardKidsRecompiled-Windows-1.1.0.zip",
+      size: "15.1 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Snowboard%20Kids%20(Europe,%20Australia).png",
     alt: "Snowboard Kids (box art)",

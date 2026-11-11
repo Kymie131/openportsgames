@@ -14,12 +14,34 @@ export const wweSmackdownVsRaw2011Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.2.3", date: "2026-11-11" },
   sources: ["https://github.com/KaikoClanworth1/wwe-svr2011-pc"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/KaikoClanworth1/wwe-svr2011-pc/releases/download/v2.2.3/SvR2011-Android-v2.2.3.apk",
+      size: "92.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/KaikoClanworth1/wwe-svr2011-pc/releases/download/v2.2.3/SvR2011-Mods-v2.2.3.zip",
+      size: "352.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/KaikoClanworth1/wwe-svr2011-pc/releases/download/v2.2.3/SvR2011-PC-v2.2.3.zip",
+      size: "498.2 MB",
+    },
+    {
+      label: "Switch",
+      url: "https://github.com/KaikoClanworth1/wwe-svr2011-pc/releases/download/v2.2.3/SvR2011-Switch-v2.2.3.nsp",
+      size: "77.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/79/Wwe_svr_11_cover_art.jpg",
     alt: "WWE SmackDown vs. Raw 2011 (box art)",

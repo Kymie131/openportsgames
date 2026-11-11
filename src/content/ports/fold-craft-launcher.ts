@@ -15,12 +15,39 @@ export const foldCraftLauncher: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.3.4.5", date: "2026-11-07" },
   sources: ["https://github.com/FCL-Team/FoldCraftLauncher"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/FCL-Team/FoldCraftLauncher/releases/download/1.3.4.5/FCL-release-1.3.4.5-all.apk",
+      size: "307.2 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/FCL-Team/FoldCraftLauncher/releases/download/1.3.4.5/FCL-release-1.3.4.5-arm64-v8a.apk",
+      size: "160.9 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/FCL-Team/FoldCraftLauncher/releases/download/1.3.4.5/FCL-release-1.3.4.5-armeabi-v7a.apk",
+      size: "153.8 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/FCL-Team/FoldCraftLauncher/releases/download/1.3.4.5/FCL-release-1.3.4.5-x86.apk",
+      size: "156.1 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/FCL-Team/FoldCraftLauncher/releases/download/1.3.4.5/FCL-release-1.3.4.5-x86_64.apk",
+      size: "165.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/f/f4/Caves_%26_Cliffs_II_-_Alex_%26_Steve_I.png",
     alt: "Minecraft Java Edition (box art)",

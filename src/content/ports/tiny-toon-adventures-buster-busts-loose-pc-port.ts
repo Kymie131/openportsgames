@@ -14,7 +14,7 @@ export const TinyToonAdventuresBusterBustsLoosePcPort: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.0", date: "2026-09-28" },
   sources: ["https://github.com/Darhkfox/BusterBustsLoose"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -23,6 +23,13 @@ export const TinyToonAdventuresBusterBustsLoosePcPort: Port = {
   summary: "Tiny Toon Adventures: Buster Busts Loose! (PC port) is a music game for Super Nintendo, released in 2000.",
   summaryEs: "Tiny Toon Adventures: Buster Busts Loose! (PC port) es un videojuego de m�sica para Super Nintendo, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Darhkfox/BusterBustsLoose/releases/download/v1.0/BusterBustsLoose-V1.0-win64.zip",
+      size: "1.0 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/tiny-toon-adventures-buster-busts-loose-pc-port.svg",
     alt: "Tiny Toon Adventures: Buster Busts Loose! (PC port) (generated cover)",

@@ -14,12 +14,19 @@ export const zomdroidLiamelui: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.2.0", date: "2025-07-11" },
   sources: ["https://github.com/liamelui/zomdroid"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/liamelui/zomdroid/releases/download/v1.2.0/zomdroid-release-1.2.0.apk",
+      size: "85.6 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/108600/header.jpg",
     alt: "Project Zomboid (cover art)",

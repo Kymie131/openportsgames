@@ -24,6 +24,38 @@ export const playopenzOpenz: Port = {
   summary: "OpenZ is a action-adventure game, released in 1996.",
   summaryEs: "OpenZ es un videojuego de acci�n y aventura, lanzado en 1996.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/playopenz/OpenZ/releases/download/v1.4/OpenZ_1.4_linux_EXPERIMENTAL_part1_of_2.tar.xz",
+      size: "1600.0 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/playopenz/OpenZ/releases/download/v1.4/OpenZ_1.4_linux_EXPERIMENTAL_part2_of_2.tar.xz",
+      size: "287.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/playopenz/OpenZ/releases/download/v1.4/OpenZ_1.4_mac_EXPERIMENTAL_part1_of_2.tar.xz",
+      size: "1642.0 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/playopenz/OpenZ/releases/download/v1.4/OpenZ_1.4_mac_EXPERIMENTAL_part2_of_2.tar.xz",
+      size: "507.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/playopenz/OpenZ/releases/download/v1.4/OpenZ_1.4_win64_part1_of_2.zip",
+      size: "1894.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/playopenz/OpenZ/releases/download/v1.4/OpenZ_1.4_win64_part2_of_2.zip",
+      size: "670.8 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/openz.svg",
     alt: "OpenZ (generated cover)",

@@ -14,7 +14,7 @@ export const theLordOfTheRingsTheTwoTowersPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.0.0", date: "2026-11-08" },
   sources: ["https://github.com/Gumpolas/TooTawersRecomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -22,6 +22,33 @@ export const theLordOfTheRingsTheTwoTowersPc: Port = {
   originalSystems: ["Xbox"],
   summary: "The Lord of the Rings: The Two Towers is a 2002 epic fantasy film directed by Peter Jackson from a screenplay by Fran Walsh, Philippa Boyens, Stephen Sinclair, and Jackson, based on 1954's The Two Towers, the second volume of the novel The Lord of the Rings by J. R. R. Tolkien. The sequel to 2001's The Lord of the Rings: The Fellowship of the Ring, the film is the second instalment in the Lord of the Rings trilogy.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Gumpolas/TooTawersRecomp/releases/download/2.0.0/readmeslanguages.zip",
+      size: "449 KB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Gumpolas/TooTawersRecomp/releases/download/2.0.0/TwoTowers-Recompiled-v2.0.0-linux-x86_64.tar.gz",
+      size: "170.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Gumpolas/TooTawersRecomp/releases/download/2.0.0/TwoTowers-Recompiled-v2.0.0-macos-x86_64.tar.gz",
+      size: "165.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Gumpolas/TooTawersRecomp/releases/download/2.0.0/TwoTowers-Recompiled-v2.0.0-win64.zip",
+      size: "169.8 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/Gumpolas/TooTawersRecomp/releases/download/2.0.0/TwoTowers-Recompiled-v2.0.0-x86_64.AppImage",
+      size: "172.4 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/the-lord-of-the-rings-the-two-towers.svg",
     alt: "The Lord of the Rings: The Two Towers (generated cover)",

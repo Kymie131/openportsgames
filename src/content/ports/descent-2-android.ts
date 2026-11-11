@@ -14,7 +14,7 @@ export const descent2Android: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.12", date: "2026-10-29" },
   sources: ["https://github.com/wootbeer/Descent2-Android"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -26,6 +26,28 @@ export const descent2Android: Port = {
     "Source port of Descent II (MS-DOS) for Android, with touch controls, add-on mission packs and optional redbook music support. It needs the player's own copy of the game files.",
   notesEs:
     "Port del código fuente de Descent II (MS-DOS) para Android, con controles táctiles, paquetes de misiones adicionales y soporte opcional de la música redbook. Necesita los archivos del juego original del jugador.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/wootbeer/Descent2-Android/releases/download/v0.12/Descent2-Android-0.12-arm64-v8a-release.apk",
+      size: "823 KB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/wootbeer/Descent2-Android/releases/download/v0.12/Descent2-Android-0.12-armeabi-v7a-release.apk",
+      size: "780 KB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/wootbeer/Descent2-Android/releases/download/v0.12/Descent2-Android-0.12-x86-release.apk",
+      size: "830 KB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/wootbeer/Descent2-Android/releases/download/v0.12/Descent2-Android-0.12-x86_64-release.apk",
+      size: "852 KB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Descent%20II%20(1996).png",
     alt: "Descent II (box art)",

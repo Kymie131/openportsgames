@@ -14,12 +14,24 @@ export const hybridHeavenPcDanielgomesvieira2000: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.2.0", date: "2026-09-19" },
   sources: ["https://github.com/danielgomesvieira2000/hybrid-heaven-recomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/danielgomesvieira2000/hybrid-heaven-recomp/releases/download/v0.2.0/hybrid-heaven-recomp-0.2.0-linux-x86_64.tar.gz",
+      size: "8.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/danielgomesvieira2000/hybrid-heaven-recomp/releases/download/v0.2.0/hybrid-heaven-recomp-0.2.0-windows-x64.zip",
+      size: "18.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/db/Hybridheaven.jpg",
     alt: "Hybrid Heaven (box art)",

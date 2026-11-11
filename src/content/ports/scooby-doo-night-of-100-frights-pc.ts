@@ -14,12 +14,19 @@ export const scoobyDooNightOf100FrightsPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.2", date: "2026-10-18" },
   sources: ["https://github.com/josiahg2502-glitch/Scooby-Doo-Refrightened"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/josiahg2502-glitch/Scooby-Doo-Refrightened/releases/download/v1.0.2/ScoobyDooRefrightened.zip",
+      size: "661.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/9b/Scooby-Doo%21_Night_of_100_Frights_Coverart.png",
     alt: "Scooby-Doo! Night of 100 Frights (box art)",

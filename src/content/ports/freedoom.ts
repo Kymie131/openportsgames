@@ -14,7 +14,7 @@ export const Freedoom: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.13.0", date: "2024-01-29" },
   sources: ["https://github.com/freedoom/freedoom"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -23,6 +23,18 @@ export const Freedoom: Port = {
   summary: "Freedoom is a shooter game, released in 2000.",
   summaryEs: "Freedoom es un videojuego de disparos, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "freedm-0.13.0",
+      url: "https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedm-0.13.0.zip",
+      size: "10.8 MB",
+    },
+    {
+      label: "freedoom-0.13.0",
+      url: "https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedoom-0.13.0.zip",
+      size: "23.0 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/freedoom.svg",
     alt: "Freedoom (generated cover)",

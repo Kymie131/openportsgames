@@ -14,12 +14,19 @@ export const ridgeRacer6Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.5", date: "2026-10-09" },
   sources: ["https://github.com/Sirhalo23/RidgeRacer6-Recompilation"],
   license: { spdx: "BSD-3-Clause" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Sirhalo23/RidgeRacer6-Recompilation/releases/download/v0.1.5/RidgeRacer6-PC-v0.1.5.zip",
+      size: "10.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/57/Ridge_Racer_6.jpg",
     alt: "Ridge Racer 6 (box art)",

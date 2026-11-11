@@ -14,7 +14,7 @@ export const slashemAndroid: Port = {
   originalGameLicense: "open",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.6.6", date: "2020-06-13" },
   sources: ["https://github.com/gurrhack/SlashEM-Android"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -30,6 +30,13 @@ export const slashemAndroid: Port = {
       src: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Slash%27_EM.jpg",
       alt: "SLASH'EM (screenshot)",
       credit: "Wikimedia Commons",
+    },
+  ],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/gurrhack/SlashEM-Android/releases/download/v2.6.6/slex-2.6.6.apk",
+      size: "15.7 MB",
     },
   ],
   cover: {

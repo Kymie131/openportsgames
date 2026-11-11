@@ -23,6 +23,18 @@ export const callOfDuty15Android: Port = {
   originalSystems: ["Windows"],
   summary: "Call of Duty (CoD) is a first-person shooter video game series and media franchise published by Activision, starting in 2003. The games were first developed by Infinity Ward, then by Treyarch, Sledgehammer Games and Raven Software. Several spin-off and handheld games were made by other developers. The most recent game, Call of Duty: Black Ops 7, was released on November 14, 2025. The next game, Call of Duty: Modern Warfare 4, is scheduled for release on October 23, 2026.",
   summaryEs: "Call of Duty es una serie de videojuegos de disparos en primera persona, de estilo bélico, desarrollada principal e inicialmente por Infinity Ward, Treyarch, Sledgehammer Games y en menor proporción Raven Software y distribuida por Activision.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Dr3amyBerry/callofrecomp/releases/download/v0.2.4/callofrecomp-arm64.apk",
+      size: "47.9 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/Dr3amyBerry/callofrecomp/releases/download/v0.2.4/callofrecomp-x86_64.apk",
+      size: "60.4 MB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/23af6cf41e2d09620caa07700a4cb3288dbcbaa8/header.jpg?t=1792807032",
     alt: "Call of Duty (Steam header)",

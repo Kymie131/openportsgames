@@ -14,13 +14,20 @@ export const sonicCdPsp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["psp"],
   status: "stable",
-  release: { version: null, date: null },
+  release: { version: "2.0", date: "2026-09-17" },
   sources: ["https://github.com/Koichive/RSDKv3-PSP"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Sega CD / Mega-CD"],
   related: ["rsdkv3-decompilation"],
+  downloads: [
+    {
+      label: "RSDKv3-PSP-v2",
+      url: "https://github.com/Koichive/RSDKv3-PSP/releases/download/2.0/RSDKv3-PSP-v2.zip",
+      size: "1.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e1/Sonic_CD_North_American_cover_art.jpg",
     alt: "Sonic CD (box art)",

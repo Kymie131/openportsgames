@@ -14,12 +14,19 @@ export const starWarsDarkForces3ds: Port = {
   originalGameLicense: "proprietary",
   platforms: ["3ds"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.0", date: "2026-10-01" },
   sources: ["https://github.com/benny04131985-lab/DarkForces3DS"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
+  downloads: [
+    {
+      label: "DF3DS-v1.0.0-3DS",
+      url: "https://github.com/benny04131985-lab/DarkForces3DS/releases/download/v1.0.0/DF3DS-v1.0.0-3DS.zip",
+      size: "1.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/4f/Dark_Forces_box_cover.jpg",
     alt: "Star Wars: Dark Forces (box art)",

@@ -22,6 +22,28 @@ export const Runescape2003: Port = {
   originalSystems: ["Unknown"],
   summary: "RuneScape is a fantasy massively multiplayer online role-playing game (MMORPG) developed and published by Jagex. Created by Andrew Gower with assistance from his brother Paul Gower, it was first released on 4 January 2001 as a Java-based browser game; the original Java client was later largely replaced by the standalone C++ NXT client in 2016. The game is set in the medieval fantasy world of Gielinor, where players control customisable avatars and pursue open-ended activities such as questing, combat, skill training, trading, socialising, minigames and cooperative play.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/2003scape/rsc-c/releases/download/mudclient177-rev1/mudclient177-linux-x86_64.tar.gz",
+      size: "1.5 MB",
+    },
+    {
+      label: "mudclient177-web",
+      url: "https://github.com/2003scape/rsc-c/releases/download/mudclient177-rev1/mudclient177-web.zip",
+      size: "3.9 MB",
+    },
+    {
+      label: "mudclient177-wii",
+      url: "https://github.com/2003scape/rsc-c/releases/download/mudclient177-rev1/mudclient177-wii.zip",
+      size: "2.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/2003scape/rsc-c/releases/download/mudclient177-rev1/mudclient177-windows-x86_64.zip",
+      size: "2.2 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/runescape-2003.svg",
     alt: "Runescape (2003) (generated cover)",

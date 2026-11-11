@@ -21,6 +21,13 @@ export const omegakatana92ArmoredCoreRecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/omegakatana92/Armored-Core-Recomp/releases/download/v1.0.0/Armored.Core.zip",
+      size: "12.8 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Armored%20Core%20(Europe)%20(En,Fr,De,Es,It).png",
     alt: "Armored Core (box art)",

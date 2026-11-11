@@ -21,6 +21,13 @@ export const twilightPrincessDusklightDualScreen: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["GameCube"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/igawa6/dusklight/releases/download/v2.0.3-ds-3.0.3/dusklight-v2.0.3-ds-3.0.3.apk",
+      size: "61.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/0e/The_Legend_of_Zelda_Twilight_Princess_Game_Cover.jpg",
     alt: "The Legend of Zelda: Twilight Princess (box art)",

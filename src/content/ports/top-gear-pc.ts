@@ -14,7 +14,7 @@ export const topGearPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.2.0", date: "2026-11-10" },
   sources: ["https://github.com/Junior-Jones/Top-Gear-SNES-Static-Recomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -22,6 +22,13 @@ export const topGearPc: Port = {
   originalSystems: ["Super Nintendo"],
   summary: "Top Gear is a 1992 racing video game developed by Gremlin Graphics and published by Kemco for the Super Nintendo Entertainment System. The objective of the game is to become the fastest driver in the world by racing other drivers across several nations.",
   summaryEs: "Top Gear Pocket, conocido en Europa como Top Gear Rally, es un videojuego de carreras desarrollado por Kemco y lanzado para la consola portátil Game Boy Color en 1999. Una secuela, \"Top Gear Pocket 2\", fue lanzada en 2000.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Junior-Jones/Top-Gear-SNES-Static-Recomp/releases/download/v2.2.0/Top-Gear-Definitive-Edition-2.2.0-Windows-x64.zip",
+      size: "4.4 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Top%20Gear%20(USA).png",
     alt: "Top Gear (box art)",

@@ -24,6 +24,23 @@ export const nautilusbitsSkynetGodot: Port = {
   summary: "The Terminator: SkyNET is a shooter game, released in 1996.",
   summaryEs: "The Terminator: SkyNET es un videojuego de disparos, lanzado en 1996.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/nautilusbits/skynet-godot/releases/download/v0.5.0/SkyNET.apk",
+      size: "83.6 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/nautilusbits/skynet-godot/releases/download/v0.5.0/SkyNET.exe",
+      size: "105.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/nautilusbits/skynet-godot/releases/download/v0.5.0/SkyNET.zip",
+      size: "59.0 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/the-terminator-skynet.svg",
     alt: "The Terminator: SkyNET (generated cover)",

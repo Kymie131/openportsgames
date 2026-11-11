@@ -14,7 +14,7 @@ export const marioKart64Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.9.2", date: "2026-02-13" },
   sources: ["https://github.com/sonicdcer/MarioKart64Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,33 @@ export const marioKart64Recomp: Port = {
     "Static recompilation of Mario Kart 64 (N64, USA) with N64Recomp and the RT64 renderer. It loads the assets from your own copy directly, with no separate extraction step, and adds widescreen, unlocked framerate and mod support.",
   notesEs:
     "Recompilación estática de Mario Kart 64 (N64, USA) con N64Recomp y el renderizador RT64. Carga los recursos de tu copia directamente, sin extracción aparte, y añade widescreen, framerate libre y soporte de mods.",
+  downloads: [
+    {
+      label: "MarioKart64Recompiled-v0.9.2-Flatpak-X64-Release",
+      url: "https://github.com/sonicdcer/MarioKart64Recomp/releases/download/v0.9.2/MarioKart64Recompiled-v0.9.2-Flatpak-X64-Release.zip",
+      size: "9.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/sonicdcer/MarioKart64Recomp/releases/download/v0.9.2/MarioKart64Recompiled-v0.9.2-Linux-ARM64-Release.zip",
+      size: "12.6 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/sonicdcer/MarioKart64Recomp/releases/download/v0.9.2/MarioKart64Recompiled-v0.9.2-Linux-X64-Release.zip",
+      size: "12.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/sonicdcer/MarioKart64Recomp/releases/download/v0.9.2/MarioKart64Recompiled-v0.9.2-macOS-Release.zip",
+      size: "20.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/sonicdcer/MarioKart64Recomp/releases/download/v0.9.2/MarioKart64Recompiled-v0.9.2-Windows-RelWithDebInfo.zip",
+      size: "22.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Mario%20Kart%2064%20(USA).png",
     alt: "Mario Kart 64 (box art)",

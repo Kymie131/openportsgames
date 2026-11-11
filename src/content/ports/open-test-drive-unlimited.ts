@@ -14,12 +14,44 @@ export const openTestDriveUnlimited: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1", date: "2026-11-02" },
   sources: ["https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited/releases/download/v0.1/opentdu_v0.1_linux_vulkan.zip",
+      size: "19.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited/releases/download/v0.1/opentdu_v0.1_macos_vulkan.zip",
+      size: "21.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited/releases/download/v0.1/opentdu_v0.1_windows_Win32_latest_vulkan.zip",
+      size: "16.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited/releases/download/v0.1/opentdu_v0.1_windows_Win32_Win7_vulkan.zip",
+      size: "16.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited/releases/download/v0.1/opentdu_v0.1_windows_x64_latest_vulkan.zip",
+      size: "17.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited/releases/download/v0.1/opentdu_v0.1_windows_x64_Win7_vulkan.zip",
+      size: "17.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/63/Test_Drive_Unlimited_boxart.jpg",
     alt: "Test Drive Unlimited (box art)",

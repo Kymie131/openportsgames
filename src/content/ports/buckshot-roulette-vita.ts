@@ -21,6 +21,18 @@ export const buckshotRouletteVita: Port = {
   sourceVerified: true,
   originalSystems: ["Windows"],
   related: ["buckshot-roulette-mobile"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/voidchecksam/BuckshotRoulettePortable-BSHT/releases/download/v1.0.3/bsht-desktop-v1.0.3-windows.zip",
+      size: "2.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/voidchecksam/BuckshotRoulettePortable-BSHT/releases/download/v1.0.3/bsht-extract-v1.0.3-windows.zip",
+      size: "54.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/72/Buckshot_Roulette_Cover.jpg",
     alt: "Buckshot Roulette (box art)",

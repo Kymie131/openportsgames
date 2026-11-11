@@ -14,7 +14,7 @@ export const Maxr: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.2.17", date: "2024-11-07" },
   sources: ["https://github.com/maxr-dot-org/maxr"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -23,6 +23,18 @@ export const Maxr: Port = {
   summary: "maxr is a strategy game, released in 2000.",
   summaryEs: "maxr es un videojuego de estrategia, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/maxr-dot-org/maxr/releases/download/release-0.2.17/maxr-0.2.17.exe",
+      size: "17.8 MB",
+    },
+    {
+      label: "maxr_pdbs",
+      url: "https://github.com/maxr-dot-org/maxr/releases/download/release-0.2.17/maxr_pdbs.zip",
+      size: "23.0 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/maxr.svg",
     alt: "maxr (generated cover)",

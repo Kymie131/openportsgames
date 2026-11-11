@@ -14,7 +14,7 @@ export const ninjaGaidenBlackRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows","linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.9.58", date: "2026-11-05" },
   sources: ["https://github.com/gamboozino/ngbrecomp"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -22,6 +22,23 @@ export const ninjaGaidenBlackRecomp: Port = {
   originalSystems: ["Xbox"],
   summary: "Ninja Gaiden Black is a action-adventure game in 2005.",
   summaryEs: "Ninja Gaiden Black es un videojuego hackanslash y aventura desarrollado por Team Ninja y distribuido por Tecmo en 2005.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/gamboozino/ngbrecomp/releases/download/v0.9.58/NinjaGaidenBlack-android-arm64.apk",
+      size: "15.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/gamboozino/ngbrecomp/releases/download/v0.9.58/NinjaGaidenBlack-windows-x64.zip",
+      size: "19.8 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/gamboozino/ngbrecomp/releases/download/v0.9.58/NinjaGaidenBlack-x86_64.AppImage",
+      size: "40.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Ninja%20Gaiden%20Black%20(USA).png",
     alt: "Ninja Gaiden Black (box art)",

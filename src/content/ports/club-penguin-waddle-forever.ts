@@ -14,7 +14,7 @@ export const ClubPenguinWaddleForever: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.5.1", date: "2026-09-07" },
   sources: ["https://github.com/nhaar/Waddle-Forever"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -22,6 +22,33 @@ export const ClubPenguinWaddleForever: Port = {
   originalSystems: ["Unknown"],
   summary: "Club Penguin was a massively multiplayer online game (MMO) that ran from 2005 to 2017. The game featured a virtual world that included a wide range of online games and activities. It was created by New Horizon Interactive. Players used cartoon penguin avatars and played in an Antarctic-themed open world. After beta-testing, Club Penguin was available for the general public on October 24, 2005. It expanded into a large online community, such that by late 2007, Club Penguin reported that there were more than 30 million user accounts.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  downloads: [
+    {
+      label: "clothing",
+      url: "https://github.com/nhaar/Waddle-Forever/releases/download/v1.5.1/clothing.zip",
+      size: "625.7 MB",
+    },
+    {
+      label: "default",
+      url: "https://github.com/nhaar/Waddle-Forever/releases/download/v1.5.1/default.zip",
+      size: "1031.1 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/nhaar/Waddle-Forever/releases/download/v1.5.1/WaddleForever-1.5.1.dmg",
+      size: "112.3 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/nhaar/Waddle-Forever/releases/download/v1.5.1/WaddleForever-Setup-1.5.1.exe",
+      size: "84.2 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/nhaar/Waddle-Forever/releases/download/v1.5.1/WaddleForeverClient-1.5.1.AppImage",
+      size: "107.2 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/club-penguin-waddle-forever.svg",
     alt: "Club Penguin (Waddle Forever) (generated cover)",

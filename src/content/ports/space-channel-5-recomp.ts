@@ -14,7 +14,7 @@ export const spaceChannel5Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.0-preview.2", date: "2026-09-17" },
   sources: ["https://github.com/ZoomiesZaggy/Space-Channel-5"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
@@ -26,6 +26,33 @@ export const spaceChannel5Recomp: Port = {
     "A PortsDR community listing; no repository or release is public. The original game is required.",
   notesEs:
     "Ficha comunitaria de PortsDR; no hay repositorio ni release públicos. Hace falta el juego original.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/ZoomiesZaggy/Space-Channel-5/releases/download/v0.1.0-preview.2/SpaceChannel5-v0.1.0-preview.2-Linux-ARM64.tar.gz",
+      size: "184.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/ZoomiesZaggy/Space-Channel-5/releases/download/v0.1.0-preview.2/SpaceChannel5-v0.1.0-preview.2-Linux-X64.tar.gz",
+      size: "229.3 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/ZoomiesZaggy/Space-Channel-5/releases/download/v0.1.0-preview.2/SpaceChannel5-v0.1.0-preview.2-macOS-ARM64.zip",
+      size: "168.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/ZoomiesZaggy/Space-Channel-5/releases/download/v0.1.0-preview.2/SpaceChannel5-v0.1.0-preview.2-macOS-X64.zip",
+      size: "219.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/ZoomiesZaggy/Space-Channel-5/releases/download/v0.1.0-preview.2/SpaceChannel5-v0.1.0-preview.2-Windows-X64.zip",
+      size: "232.8 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sega%20-%20Dreamcast/Named_Boxarts/Space%20Channel%205%20(Europe)%20(En,Fr,De,Es).png",
     alt: "Space Channel 5 (box art)",

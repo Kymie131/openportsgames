@@ -34,6 +34,23 @@ export const shockolate: Port = {
       credit: "Interrupt",
     },
   ],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Interrupt/systemshock/releases/download/v0.7.7/shockolate-linux.tgz",
+      size: "29.0 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/Interrupt/systemshock/releases/download/v0.7.7/shockolate-osx.tgz",
+      size: "28.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Interrupt/systemshock/releases/download/v0.7.7/systemshock-windows.zip",
+      size: "29.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6b/System_Shock_remake_cover.jpg",
     alt: "System Shock (box art)",

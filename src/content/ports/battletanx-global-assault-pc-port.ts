@@ -21,6 +21,13 @@ export const battletanxGlobalAssaultPcPort: Port = {
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["battletanx-global-assault-recomp","battletanx-global-assault"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PC-Port/releases/download/v0.2.5/BattleTanxGA-0.2.5-windows-x64-portable.zip",
+      size: "12.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/d4/BattleTanx_-_Global_Assault.jpg",
     alt: "BattleTanx: Global Assault (box art)",

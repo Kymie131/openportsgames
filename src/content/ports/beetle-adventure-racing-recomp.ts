@@ -36,6 +36,13 @@ export const beetleAdventureRacingRecomp: Port = {
     "Static recompilation of Beetle Adventure Racing! (N64, USA) with N64Recomp and RT64. Playable: it boots through the menus into races at 60 fps, with widescreen, a 1x/2x/4x draw distance and internal-resolution scaling.",
   notesEs:
     "Recompilación estática de Beetle Adventure Racing! (N64, USA) con N64Recomp y RT64. Jugable: arranca, pasa por los menús y llega a las carreras a 60 fps, con widescreen, distancia de dibujado de 1x/2x/4x y escalado de resolución interna.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/danielgomesvieira2000/beetle-adventure-racing-recomp/releases/download/v0.4.2-alpha/beetle-adventure-racing-recomp-v0.4.2-alpha-windows-x64.zip",
+      size: "17.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Beetle%20Adventure%20Racing!%20(USA)%20(En%2CFr%2CDe).png",
     alt: "Beetle Adventure Racing (box art)",

@@ -14,7 +14,7 @@ export const SheepDogNWolfRewooled: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.1.3", date: "2026-10-19" },
   sources: ["https://github.com/SDW-Community/Sheep-Dog-n-Wolf-Rewooled"],
   license: { spdx: "MIT" },
   verified: false,
@@ -23,6 +23,23 @@ export const SheepDogNWolfRewooled: Port = {
   summary: "Sheep Dog n Wolf: Rewooled is a action-adventure game for PlayStation, released in 2000.",
   summaryEs: "Sheep Dog n Wolf: Rewooled es un videojuego de acci�n y aventura para PlayStation, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/SDW-Community/Sheep-Dog-n-Wolf-Rewooled/releases/download/v1.1.3/Rewooled-Linux-x86_64-1.1.3.zip",
+      size: "4.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/SDW-Community/Sheep-Dog-n-Wolf-Rewooled/releases/download/v1.1.3/Rewooled-macOS-arm64-1.1.3.zip",
+      size: "4.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/SDW-Community/Sheep-Dog-n-Wolf-Rewooled/releases/download/v1.1.3/Rewooled-Windows-x64-1.1.3.zip",
+      size: "3.9 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/sheep-dog-n-wolf-rewooled.svg",
     alt: "Sheep Dog n Wolf: Rewooled (generated cover)",

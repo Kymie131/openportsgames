@@ -24,6 +24,38 @@ export const julius: Port = {
     "Open-source re-implementation of Caesar III that runs with the original game files. On top of the stable releases, the project publishes continuous (weekly) builds.",
   notesEs:
     "Reimplementación de código abierto de Caesar III que funciona con los archivos del juego original. Además de las releases estables, el proyecto publica builds continuas (semanales).",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/bvschaik/julius/releases/download/v1.8.0/julius-1.8.0-android.apk",
+      size: "8.9 MB",
+    },
+    {
+      label: "julius-1.8.0-emscripten",
+      url: "https://github.com/bvschaik/julius/releases/download/v1.8.0/julius-1.8.0-emscripten.zip",
+      size: "1.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/bvschaik/julius/releases/download/v1.8.0/julius-1.8.0-linux-x86_64.zip",
+      size: "726 KB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/bvschaik/julius/releases/download/v1.8.0/julius-1.8.0-linux.AppImage",
+      size: "7.7 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/bvschaik/julius/releases/download/v1.8.0/julius-1.8.0-mac.dmg",
+      size: "5.1 MB",
+    },
+    {
+      label: "Switch",
+      url: "https://github.com/bvschaik/julius/releases/download/v1.8.0/julius-1.8.0-switch.zip",
+      size: "3.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/56/Caeser_III_Coverart.jpg",
     alt: "Caesar III (box art)",

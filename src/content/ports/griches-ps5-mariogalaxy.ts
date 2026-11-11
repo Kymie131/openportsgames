@@ -21,6 +21,18 @@ export const grichesPs5Mariogalaxy: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Wii"],
+  downloads: [
+    {
+      label: "Macos",
+      url: "https://github.com/griches/PS5_MarioGalaxy/releases/download/v1.1.0/SuperMarioGalaxy-PS5-Builder-1.1.0-mac.zip",
+      size: "210.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/griches/PS5_MarioGalaxy/releases/download/v1.1.0/SuperMarioGalaxy-PS5-Builder-1.1.0-windows.zip",
+      size: "174.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/Super%20Mario%20Galaxy%20(Europe).png",
     alt: "Super Mario Galaxy (box art)",

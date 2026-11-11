@@ -23,6 +23,38 @@ export const dreamcastHomebrewCollectionDreamcast: Port = {
   originalSystems: ["Unknown"],
   summary: "The Dreamcast is the final home video game console manufactured by Sega. It was released in Japan on November 27, 1998, and worldwide in late 1999. It succeeded the Sega Saturn and was the first sixth-generation console, preceding Sony's PlayStation 2, Nintendo's GameCube, and Microsoft's Xbox.",
   summaryEs: "Dreamcast es la quinta y última videoconsola de sobremesa producida por Sega. Perteneciente a la sexta generación de videoconsolas, es la sucesora directa de Sega Saturn. Salió al mercado el 27 de noviembre de 1998 en Japón, el 9 de septiembre de 1999 en Norteamérica, el 14 de octubre de 1999 en Europa y el 30 de noviembre de 1999 en Oceanía. Durante la transición entre generaciones, llegó a competir contra PlayStation, Nintendo 64 y PlayStation 2.",
+  downloads: [
+    {
+      label: "chroma-circuit-cdr",
+      url: "https://github.com/richstokes/dreamcast-homebrew/releases/download/continuous/chroma-circuit-cdr.zip",
+      size: "1.5 MB",
+    },
+    {
+      label: "dcvmu-client-cdr",
+      url: "https://github.com/richstokes/dreamcast-homebrew/releases/download/continuous/dcvmu-client-cdr.zip",
+      size: "2.8 MB",
+    },
+    {
+      label: "dreamcast-basic-cdr",
+      url: "https://github.com/richstokes/dreamcast-homebrew/releases/download/continuous/dreamcast-basic-cdr.zip",
+      size: "1.8 MB",
+    },
+    {
+      label: "dreamcast-browser-cdr",
+      url: "https://github.com/richstokes/dreamcast-homebrew/releases/download/continuous/dreamcast-browser-cdr.zip",
+      size: "2.9 MB",
+    },
+    {
+      label: "dreamcast-irc-cdr",
+      url: "https://github.com/richstokes/dreamcast-homebrew/releases/download/continuous/dreamcast-irc-cdr.zip",
+      size: "1.8 MB",
+    },
+    {
+      label: "dreamkarts-cdr",
+      url: "https://github.com/richstokes/dreamcast-homebrew/releases/download/continuous/dreamkarts-cdr.zip",
+      size: "241.3 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/dreamcast-homebrew-collection.svg",
     alt: "Dreamcast Homebrew Collection (generated cover)",

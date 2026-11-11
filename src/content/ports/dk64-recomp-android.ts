@@ -14,13 +14,20 @@ export const dk64RecompAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.0.3-android-r7", date: "2026-09-05" },
   sources: ["https://github.com/deivid22srk/dk64-recomp-android"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["dk64-recompiled"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/deivid22srk/dk64-recomp-android/releases/download/v1.0.3-android-r7/dk64recomp-android-v1.0.3-android-r7.apk",
+      size: "10.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/ae/DonkeyKong64CoverArt.jpg",
     alt: "Donkey Kong 64 (box art)",

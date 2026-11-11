@@ -14,12 +14,19 @@ export const Splatterhouse: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.3", date: "2026-10-20" },
   sources: ["https://github.com/0c0de/splatterhouse-decomp"],
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "splatterhouse-decomp-release",
+      url: "https://github.com/0c0de/splatterhouse-decomp/releases/download/v0.3/splatterhouse-decomp-release.zip",
+      size: "34.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/70/Splatterhouse_arcadeflyer.png",
     alt: "Splatterhouse (box art)",

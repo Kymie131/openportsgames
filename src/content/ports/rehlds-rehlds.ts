@@ -21,6 +21,18 @@ export const rehldsRehlds: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/rehlds/ReHLDS/releases/download/3.15.0.896/rehlds-bin-3.15.0.896.zip",
+      size: "3.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/rehlds/ReHLDS/releases/download/3.15.0.896/rehlds-dbg-3.15.0.896.7z",
+      size: "4.7 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/70/header.jpg",
     alt: "Half-Life (box art)",

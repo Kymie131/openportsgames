@@ -21,6 +21,13 @@ export const defJamVendettaRecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["PlayStation 2"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/jcsix694/def-jam-vendetta-recomp/releases/download/v0.6.2/Def-Jam-Vendetta-Recompiled-Windows.zip",
+      size: "130.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/f7/Def_Jam_Vendetta_-_Front_Cover_-_NTSC_-_Gamecube.jpg",
     alt: "Def Jam Vendetta (box art)",

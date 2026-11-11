@@ -45,6 +45,38 @@ export const doukutsuRs: Port = {
       credit: "doukutsu-rs",
     },
   ],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/doukutsu-rs/doukutsu-rs/releases/download/1.0.0/doukutsu-rs_android_1.0.0.universal.apk",
+      size: "24.3 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/doukutsu-rs/doukutsu-rs/releases/download/1.0.0/doukutsu-rs_macos_1.0.0.arm64.zip",
+      size: "3.8 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/doukutsu-rs/doukutsu-rs/releases/download/1.0.0/doukutsu-rs_macos_1.0.0.x86_64.zip",
+      size: "4.1 MB",
+    },
+    {
+      label: "Switch NRO",
+      url: "https://github.com/doukutsu-rs/doukutsu-rs/releases/download/1.0.0/doukutsu-rs_switch_1.0.0.arm64.nro",
+      size: "6.4 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/doukutsu-rs/doukutsu-rs/releases/download/1.0.0/doukutsu-rs_windows_1.0.0.i686.exe",
+      size: "7.1 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/doukutsu-rs/doukutsu-rs/releases/download/1.0.0/doukutsu-rs_windows_1.0.0.x86_64.exe",
+      size: "8.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/83/Cave_Story_title_screen.png",
     alt: "Cave Story (box art)",

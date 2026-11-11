@@ -14,7 +14,7 @@ export const streetFighterAlpha3Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.2.16", date: "2026-10-01" },
   sources: ["https://github.com/TechnicallyComputers/Street-Fighter-Alpha-3-Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,28 @@ export const streetFighterAlpha3Recomp: Port = {
     "Static recompilation of Street Fighter Alpha 3 (PlayStation) built with the PSXRecomp toolkit. It requires a copy of the game.",
   notesEs:
     "Recompilación estática de Street Fighter Alpha 3 (PlayStation) construida con el kit PSXRecomp. Requiere una copia del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/TechnicallyComputers/Street-Fighter-Alpha-3-Recomp/releases/download/v0.2.16/sfa-0.2.16-linux-x64.zip",
+      size: "50.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/TechnicallyComputers/Street-Fighter-Alpha-3-Recomp/releases/download/v0.2.16/sfa-0.2.16-macos-arm64.zip",
+      size: "26.7 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/TechnicallyComputers/Street-Fighter-Alpha-3-Recomp/releases/download/v0.2.16/sfa-0.2.16-macos-x64.zip",
+      size: "27.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/TechnicallyComputers/Street-Fighter-Alpha-3-Recomp/releases/download/v0.2.16/sfa-0.2.16-windows-x64.zip",
+      size: "28.5 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Street%20Fighter%20Alpha%203%20(Europe).png",
     alt: "Street Fighter Alpha 3 (box art)",

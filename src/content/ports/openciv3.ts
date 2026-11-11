@@ -14,7 +14,7 @@ export const Openciv3: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.3-dutch-2", date: "2026-10-31" },
   sources: ["https://github.com/C7-Game/OpenCiv3"],
   license: { spdx: "MIT" },
   verified: false,
@@ -23,6 +23,23 @@ export const Openciv3: Port = {
   summary: "OpenCiv3 is a platform game, released in 2000.",
   summaryEs: "OpenCiv3 es un videojuego de plataformas, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/C7-Game/OpenCiv3/releases/download/v0.3-dutch-2/OpenCiv3_v0.3-Dutch-2-Linux-x86_64.zip",
+      size: "154.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/C7-Game/OpenCiv3/releases/download/v0.3-dutch-2/OpenCiv3_v0.3-Dutch-2-Mac.zip",
+      size: "217.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/C7-Game/OpenCiv3/releases/download/v0.3-dutch-2/OpenCiv3_v0.3-Dutch-2-Windows.zip",
+      size: "164.2 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/openciv3.svg",
     alt: "OpenCiv3 (generated cover)",

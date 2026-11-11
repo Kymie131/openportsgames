@@ -14,7 +14,7 @@ export const tonyHawksProject8Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.3.0", date: "2026-08-24" },
   sources: ["https://github.com/theokyr/Project8Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,23 @@ export const tonyHawksProject8Recomp: Port = {
     "A ReXGlue-based static recompilation of Tony Hawk's Project 8 (Xbox 360). Requires your own copy.",
   notesEs:
     "Recompilación estática de Tony Hawk's Project 8 (Xbox 360) basada en ReXGlue. Requiere tu propia copia.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/theokyr/Project8Recomp/releases/download/v0.3.0/Project8Recomp-v0.3.0-linux-x86_64.zip",
+      size: "24.6 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/theokyr/Project8Recomp/releases/download/v0.3.0/Project8Recomp-v0.3.0-macos-arm64.zip",
+      size: "25.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/theokyr/Project8Recomp/releases/download/v0.3.0/Project8Recomp-v0.3.0-windows-x86_64.zip",
+      size: "20.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/8c/Tony_Hawk%27s_Project_8_cover.jpg",
     alt: "Tony Hawk's Project 8 (box art)",

@@ -24,6 +24,18 @@ export const worldDriverChampionshipRecomp: Port = {
   summary: "World Driver Championship is a racing game published by Midway for Nintendo 64, released in 1999.",
   summaryEs: "World Driver Championship es un videojuego de carreras publicado por Midway para Nintendo 64, lanzado en 1999.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/alondero/worlddriverchampionship-recomp/releases/download/v0.2.0/worlddriverchampionship-recomp-linux-x64.zip",
+      size: "11.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/alondero/worlddriverchampionship-recomp/releases/download/v0.2.0/worlddriverchampionship-recomp-windows-x64.zip",
+      size: "23.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/World%20Driver%20Championship%20(USA).png",
     alt: "World Driver Championship (box art)",

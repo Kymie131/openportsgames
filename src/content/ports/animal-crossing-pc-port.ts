@@ -14,7 +14,7 @@ export const animalCrossingPcPort: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.0", date: "2026-11-02" },
   sources: ["https://github.com/flyngmt/ACGC-PC-Port"],
   license: { spdx: "CC0-1.0" },
   verified: false,
@@ -25,6 +25,38 @@ export const animalCrossingPcPort: Port = {
     "Native port of Animal Crossing (GameCube, USA Rev 0) built on the ac-decomp decompilation: the original C code runs on x86 and a translation layer swaps the GX graphics API for OpenGL 3.3. It reads assets directly from your disc image and supports Dolphin-format texture packs.",
   notesEs:
     "Port nativo de Animal Crossing (GameCube, USA Rev 0) construido sobre la decompilación ac-decomp: el código original en C corre en x86 y una capa de traducción cambia la API gráfica GX por OpenGL 3.3. Lee los recursos directamente de tu imagen de disco y admite texture packs en formato Dolphin.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/flyngmt/Nookery/releases/download/v1.0.0/Nookery-v1.0.0-android-arm64.apk",
+      size: "43.6 MB",
+    },
+    {
+      label: "iOS IPA",
+      url: "https://github.com/flyngmt/Nookery/releases/download/v1.0.0/Nookery-v1.0.0-ios-arm64.ipa",
+      size: "16.7 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/flyngmt/Nookery/releases/download/v1.0.0/Nookery-v1.0.0-linux-arm64.AppImage",
+      size: "22.4 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/flyngmt/Nookery/releases/download/v1.0.0/Nookery-v1.0.0-linux-x86_64.AppImage",
+      size: "23.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/flyngmt/Nookery/releases/download/v1.0.0/Nookery-v1.0.0-macos-arm64.zip",
+      size: "16.8 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/flyngmt/Nookery/releases/download/v1.0.0/Nookery-v1.0.0-macos-x86_64.zip",
+      size: "18.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Animal%20Crossing%20(USA).png",
     alt: "Animal Crossing (box art)",

@@ -21,6 +21,13 @@ export const kernaltrap8WorPlus: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/kernaltrap8/WoR-Plus/releases/download/v0.8b/WoR%2BBeta0.8b.zip",
+      size: "11.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/bb/Guitar_Hero_Warriors_of_Rock_Game_Cover.jpg",
     alt: "Guitar Hero: Warriors of Rock (box art)",

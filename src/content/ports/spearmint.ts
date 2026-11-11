@@ -13,7 +13,7 @@ export const Spearmint: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.0.3", date: "2020-07-10" },
   sources: ["https://github.com/clover-moe/spearmint"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -21,6 +21,28 @@ export const Spearmint: Port = {
   originalSystems: ["Unknown"],
   summary: "Mint or The Mint may refer to:",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  downloads: [
+    {
+      label: "spearmint-1.0.3-data",
+      url: "https://github.com/clover-moe/spearmint/releases/download/release-1.0.3/spearmint-1.0.3-data.tar.xz",
+      size: "7.8 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/clover-moe/spearmint/releases/download/release-1.0.3/spearmint-1.0.3-linux.tar.xz",
+      size: "13.6 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/clover-moe/spearmint/releases/download/release-1.0.3/spearmint-1.0.3-macosx.dmg",
+      size: "21.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/clover-moe/spearmint/releases/download/release-1.0.3/spearmint-1.0.3-windows.zip",
+      size: "19.5 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/spearmint.svg",
     alt: "spearmint (generated cover)",

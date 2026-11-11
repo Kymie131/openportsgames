@@ -14,7 +14,7 @@ export const SimpsonsWrestlingRecompiled: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.0.0", date: "2026-10-07" },
   sources: ["https://github.com/TekRantGaming/simpsons-wrestling-recompiled"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -23,6 +23,18 @@ export const SimpsonsWrestlingRecompiled: Port = {
   summary: "Simpsons Wrestling Recompiled is a shooter game for PlayStation, released in 2000.",
   summaryEs: "Simpsons Wrestling Recompiled es un videojuego de disparos para PlayStation, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/TekRantGaming/simpsons-wrestling-recompiled/releases/download/v1.0.0/SimpsonsWrestling-v1.0.0-linux-x86_64.AppImage",
+      size: "14.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/TekRantGaming/simpsons-wrestling-recompiled/releases/download/v1.0.0/SimpsonsWrestling-v1.0.0-windows-x64.zip",
+      size: "14.9 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/simpsons-wrestling-recompiled.svg",
     alt: "Simpsons Wrestling Recompiled (generated cover)",

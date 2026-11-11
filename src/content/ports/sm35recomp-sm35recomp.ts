@@ -23,6 +23,28 @@ export const sm35recompSm35recomp: Port = {
   originalSystems: ["Nintendo Switch"],
   summary: "Super Mario Bros. 35 was a 2020 online multiplayer battle royale platform game developed by Arika and published by Nintendo for the Nintendo Switch. Part of the celebration of the 35th anniversary of Super Mario Bros. (1985) in 2020, it was released as a free downloadable game for members of the Nintendo Switch Online service on October 1, 2020. Its servers were shut down on April 1, 2021, following the official end of the anniversary. The game was similar in concept to Tetris 99 (2019).",
   summaryEs: "Super Mario Bros. 35 es un videojuego de plataformas competitivo online con elementos de battle royale. Fue desarrollado por Arika y publicado por Nintendo y estuvo disponible exclusivamente en el servicio on-line de Nintendo Switch desde el 1 de octubre de 2020 hasta su retiro de la plataforma el 1 de abril de 2021. Se creó para celebrar el 35.º aniversario de Super Mario Bros.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/sm35recomp/sm35recomp/releases/download/v0.4.0/SM35Recomp-linux-aarch64.tar.gz",
+      size: "100.0 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/sm35recomp/sm35recomp/releases/download/v0.4.0/SM35Recomp-linux-x86_64.tar.gz",
+      size: "108.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/sm35recomp/sm35recomp/releases/download/v0.4.0/SM35Recomp-macos-arm64.zip",
+      size: "90.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/sm35recomp/sm35recomp/releases/download/v0.4.0/SM35Recomp-windows-x86_64.zip",
+      size: "108.0 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/super-mario-bros-35.svg",
     alt: "Super Mario Bros. 35 (generated cover)",

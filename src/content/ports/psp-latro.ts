@@ -24,6 +24,13 @@ export const pspLatro: Port = {
     "The original project was removed from GitHub after a DMCA takedown by Balatro's author. This fork only archives it and the port is limited: it is not the full game.",
   warningEs:
     "El proyecto original fue retirado de GitHub tras una reclamación DMCA del autor de Balatro. Este fork solo lo archiva y el port es limitado: no es el juego completo.",
+  downloads: [
+    {
+      label: "PSPalatro-build",
+      url: "https://github.com/GreenNinja2525/PSP-latro/releases/download/latest/PSPalatro-build.zip",
+      size: "786 KB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/89/Balatro_cover.jpg",
     alt: "Balatro (box art)",

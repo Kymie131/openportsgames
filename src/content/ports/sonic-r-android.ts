@@ -14,7 +14,7 @@ export const sonicRAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.3.1", date: "2026-10-21" },
   sources: ["https://github.com/ZinexDa/sonic-r-android"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const sonicRAndroid: Port = {
     "Native Android port of the Sonic R PC decompilation, with a GLES2 renderer, 60 FPS and touch controls. It requires your own PC game files and includes no retail assets.",
   notesEs:
     "Port nativo para Android de la decompilación de Sonic R de PC, con renderizador GLES2, 60 FPS y controles táctiles. Requiere tus propios archivos del juego de PC y no incluye recursos comerciales.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/ZinexDa/sonic-r-android/releases/download/v1.3.1/SonicR-release.apk",
+      size: "13.1 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Sonic%20R%20(Europe).png",
     alt: "Sonic R (box art)",

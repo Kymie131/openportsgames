@@ -14,12 +14,34 @@ export const virtuaFighter2Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "macos", "linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.22", date: "2026-11-10" },
   sources: ["https://github.com/mr-finster/vf2-recomp"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Arcade"],
+  downloads: [
+    {
+      label: "VirtuaFighter2Recomp-deck",
+      url: "https://github.com/mr-finster/vf2-recomp/releases/download/v0.1.22/VirtuaFighter2Recomp-deck.tar.gz",
+      size: "8.4 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/mr-finster/vf2-recomp/releases/download/v0.1.22/VirtuaFighter2Recomp-linux-arm64.tar.gz",
+      size: "7.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/mr-finster/vf2-recomp/releases/download/v0.1.22/VirtuaFighter2Recomp-mac.zip",
+      size: "11.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/mr-finster/vf2-recomp/releases/download/v0.1.22/VirtuaFighter2Recomp-windows.zip",
+      size: "8.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/01/Virtua-fighter-2-box.jpg",
     alt: "Virtua Fighter 2 (box art)",

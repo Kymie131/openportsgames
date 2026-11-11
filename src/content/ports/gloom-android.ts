@@ -14,7 +14,7 @@ export const gloomAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "09.2026", date: "2026-08-28" },
   sources: ["https://github.com/Andiweli/ZGloom-Android"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const gloomAndroid: Port = {
     "Modern source port of the Amiga FPS Gloom with an improved renderer, focused on Android. It needs the original game data.",
   notesEs:
     "Source port moderno del FPS de Amiga Gloom con un renderizador mejorado, centrado en Android. Necesita los datos del juego original.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Andiweli/ZGloom-Android/releases/download/v09.2026/ZGloom.Collection.09.2026.apk",
+      size: "24.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/fb/Gloom_front.jpg",
     alt: "Gloom (box art)",

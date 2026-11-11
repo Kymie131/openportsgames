@@ -21,6 +21,13 @@ export const bc160201983UnchartedTheNathanDrakeCollectionPcPort: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation 4"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port/releases/download/v0.8.4/Uncharted-windows.zip",
+      size: "115.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c9/Nathan_Drake_Collection_cover_art.png",
     alt: "Uncharted: The Nathan Drake Collection (box art)",

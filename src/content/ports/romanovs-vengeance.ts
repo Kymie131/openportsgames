@@ -23,6 +23,38 @@ export const RomanovsVengeance: Port = {
   summary: "Romanov's Vengeance is a action-adventure game, released in 2000.",
   summaryEs: "Romanov's Vengeance es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20241215/Romanovs.Vengeance-playtest-20241215-x64-winportable.zip",
+      size: "135.9 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20241215/Romanovs.Vengeance-playtest-20241215-x64.exe",
+      size: "106.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20241215/Romanovs.Vengeance-playtest-20241215-x86-winportable.zip",
+      size: "132.9 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20241215/Romanovs.Vengeance-playtest-20241215-x86.exe",
+      size: "104.3 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20241215/Romanovs.Vengeance-playtest-20241215-x86_64.AppImage",
+      size: "134.7 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20241215/Romanovs.Vengeance-playtest-20241215.dmg",
+      size: "177.5 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/romanov-s-vengeance.svg",
     alt: "Romanov's Vengeance (generated cover)",

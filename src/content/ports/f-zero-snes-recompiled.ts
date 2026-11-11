@@ -59,6 +59,18 @@ export const fZeroSnesRecompiled: Port = {
     "Native recompilation of the Super Nintendo classic F-Zero. Requires the player's own legally dumped F-Zero ROM; the port also supports optional BS F-Zero Deluxe content and MSU-1 music expansions.",
   notesEs:
     "Recompilación nativa del clásico de Super Nintendo F-Zero. Requiere la ROM de F-Zero volcada legalmente por el jugador; el port también admite contenido opcional de BS F-Zero Deluxe y expansiones musicales MSU-1.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/RetroPortingToolKit/FZeroSNESRecomp/releases/download/v0.19.1/F-Zero-Forever-0.19.1-windows-x64-with-msu.zip",
+      size: "886.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/RetroPortingToolKit/FZeroSNESRecomp/releases/download/v0.19.1/F-Zero-Forever-0.19.1-windows-x64-without-msu.zip",
+      size: "42.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/F-Zero%20(Europe).png",
     alt: "F-Zero (box art)",

@@ -14,7 +14,7 @@ export const Madnesspatch: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "4.0.3", date: "2026-10-31" },
   sources: ["https://github.com/Wemino/MadnessPatch"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -23,6 +23,13 @@ export const Madnesspatch: Port = {
   summary: "MadnessPatch is a action-adventure game, released in 2000.",
   summaryEs: "MadnessPatch es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "MadnessPatch",
+      url: "https://github.com/Wemino/MadnessPatch/releases/download/4.0.3/MadnessPatch.zip",
+      size: "1.1 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/madnesspatch.svg",
     alt: "MadnessPatch (generated cover)",

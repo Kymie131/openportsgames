@@ -14,12 +14,19 @@ export const silksongandroidDualScren: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.0.1", date: "2026-11-09" },
   sources: ["https://github.com/jakobkhansen/SilksongAndroid"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/jakobkhansen/SilksongAndroid/releases/download/v2.0.1/SilksongAndroid-2.0.1.apk",
+      size: "66.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/05/Silksong.jpg",
     alt: "Hollow Knight: Silksong (box art)",

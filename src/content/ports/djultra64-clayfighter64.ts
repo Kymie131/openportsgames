@@ -23,6 +23,18 @@ export const djultra64Clayfighter64: Port = {
   originalSystems: ["Nintendo 64"],
   summary: "ClayFighter 63⅓ is a 1997 fighting game developed and published by Interplay Productions for the Nintendo 64. It is the third installment in the ClayFighter series. The title is a parody of the 64 suffix common in Nintendo 64 games, and a reference to Naked Gun 33 1/3.",
   summaryEs: "ClayFighter 63⅓ es un videojuego de lucha lanzado para Nintendo 64 por Interplay en 1997. Originalmente se había planeado lanzarlo junto con la Panasonic M2 de la compañía 3DO, pero luego de la repentina cancelación del estreno de la consola, el videojuego se adaptó para la empresa Nintendo.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/djultra64/ClayFighter64/releases/download/v2.1.1/clayfighter64-2.1.1-linux-x86_64.tar.gz",
+      size: "29.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/djultra64/ClayFighter64/releases/download/v2.1.1/clayfighter64-2.1.1-windows-x86_64.zip",
+      size: "27.3 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/clayfighter-631-3.svg",
     alt: "ClayFighter 63⅓ (generated cover)",

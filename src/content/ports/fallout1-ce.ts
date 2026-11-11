@@ -27,6 +27,38 @@ export const fallout1Ce: Port = {
     "Community engine for Fallout rebuilt for modern operating systems. Requires the original Fallout game files.",
   notesEs:
     "Motor comunitario de Fallout adaptado a sistemas operativos modernos. Requiere los archivos del juego original de Fallout.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/alexbatalov/fallout1-ce/releases/download/v1.1.0/fallout-ce-android.apk",
+      size: "5.0 MB",
+    },
+    {
+      label: "iOS IPA",
+      url: "https://github.com/alexbatalov/fallout1-ce/releases/download/v1.1.0/fallout-ce-ios.ipa",
+      size: "7.0 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/alexbatalov/fallout1-ce/releases/download/v1.1.0/fallout-ce-linux-x64.tar.gz",
+      size: "3.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/alexbatalov/fallout1-ce/releases/download/v1.1.0/fallout-ce-linux-x86.tar.gz",
+      size: "3.3 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/alexbatalov/fallout1-ce/releases/download/v1.1.0/fallout-ce-macos.dmg",
+      size: "4.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/alexbatalov/fallout1-ce/releases/download/v1.1.0/fallout-ce-windows-x64.zip",
+      size: "1.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/af/Fallout.jpg",
     alt: "Fallout (box art)",

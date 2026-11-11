@@ -15,12 +15,19 @@ export const sts2MobileLauncher: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.11", date: "2026-10-02" },
   sources: ["https://github.com/ModinMobileSTS/Sts2MobileLauncher"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/ModinMobileSTS/Sts2MobileLauncher/releases/download/v0.1.11/sts2-re-v0.1.11-importer.apk",
+      size: "68.6 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/2868840/header.jpg",
     alt: "Slay The Spire 2 (box art)",

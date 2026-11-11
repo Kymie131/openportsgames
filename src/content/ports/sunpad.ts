@@ -14,13 +14,20 @@ export const sunpad: Port = {
   originalGameLicense: "proprietary",
   platforms: ["ios","macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.3.1", date: "2026-11-11" },
   sources: ["https://github.com/chrissotraidis/sunpad"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
   related: ["super-mario-sunshine-pc","super-mario-sunshine-android"],
+  downloads: [
+    {
+      label: "iOS IPA",
+      url: "https://github.com/chrissotraidis/sunpad/releases/download/v0.3.1/SunPad-v0.3.1-ios-unsigned.ipa",
+      size: "12.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/05/Super_Mario_Sunshine_Box_Art.png",
     alt: "Super Mario Sunshine (box art)",

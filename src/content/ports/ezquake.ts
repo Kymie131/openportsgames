@@ -24,6 +24,23 @@ export const ezquake: Port = {
     "QuakeWorld is the multiplayer-focused version of Quake released by id Software in 1996. It improves network play with client-side prediction and dedicated servers.",
   summaryEs:
     "QuakeWorld es la versión de Quake centrada en el multijugador publicada por id Software en 1996. Mejora el juego en red con predicción en el cliente y servidores dedicados.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/QW-Group/ezquake-source/releases/download/3.6.9/ezQuake-linux-x86_64.zip",
+      size: "21.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/QW-Group/ezquake-source/releases/download/3.6.9/ezQuake-macOS-universal.zip",
+      size: "8.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/QW-Group/ezquake-source/releases/download/3.6.9/ezQuake-windows-x64.zip",
+      size: "3.9 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/ezquake.svg",
     alt: "QuakeWorld (generated cover)",

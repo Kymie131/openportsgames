@@ -21,6 +21,13 @@ export const nfs3HotPursuitAndroidEvolved: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/codepdbh/NFS3-HP-AndroidEvolved/releases/download/v0.3.2/NFS3-HP-AndroidEvolved-v0.3.2-arm64.apk",
+      size: "18.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a6/NFS_III_Hot_Pursuit_%28PC%2C_US%29_cover_art.jpg",
     alt: "Need for Speed III: Hot Pursuit (box art)",

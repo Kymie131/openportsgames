@@ -14,7 +14,7 @@ export const naughtyBearPanicInParadiseRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.1", date: "2026-06-27" },
   sources: ["https://github.com/MaxDeadBear/restuff_inParadise"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -23,6 +23,13 @@ export const naughtyBearPanicInParadiseRecomp: Port = {
   related: ["naughty-bear-restuff"],
   summary: "Naughty Bear: Panic in Paradise is a action-adventure game in 2012.",
   summaryEs: "Naughty Bear: Panic in Paradise es un videojuego de acción y aventura en 2012.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/MaxDeadBear/restuff_inParadise/releases/download/release_v1.1/restuff_inparadise-win-x64.zip",
+      size: "21.4 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/naughty-bear-panic-in-paradise.svg",
     alt: "Naughty Bear: Panic in Paradise (generated cover)",

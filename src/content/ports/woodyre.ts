@@ -14,12 +14,34 @@ export const woodyre: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.12", date: "2026-11-05" },
   sources: ["https://github.com/jjmhalew/WoodyRE"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/jjmhalew/WoodyRE/releases/download/v1.0.12/WoodyRE-v1.0.12-linux-x86_64.tar.gz",
+      size: "513 KB",
+    },
+    {
+      label: "Switch",
+      url: "https://github.com/jjmhalew/WoodyRE/releases/download/v1.0.12/WoodyRE-v1.0.12-switch.zip",
+      size: "2.8 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/jjmhalew/WoodyRE/releases/download/v1.0.12/WoodyRE-v1.0.12.apk",
+      size: "4.9 MB",
+    },
+    {
+      label: "Android",
+      url: "https://github.com/jjmhalew/WoodyRE/releases/download/v1.0.12/WoodyRE-v1.0.12.zip",
+      size: "693 KB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a6/Woody_Woodpecker_-_Escape_from_Buzz_Buzzard_Park.jpg",
     alt: "Woody Woodpecker: Escape from Buzz Buzzard Park (box art)",

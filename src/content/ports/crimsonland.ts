@@ -14,12 +14,19 @@ export const Crimsonland: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.24.0", date: "2026-10-31" },
   sources: ["https://github.com/banteg/crimson"],
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "crimsonland-0.24.0",
+      url: "https://github.com/banteg/crimson/releases/download/v0.24.0/crimsonland-0.24.0.tar.gz",
+      size: "725 KB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/2f/Crimsonland.jpg",
     alt: "Crimsonland (box art)",

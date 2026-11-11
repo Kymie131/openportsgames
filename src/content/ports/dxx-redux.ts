@@ -14,7 +14,7 @@ export const DxxRedux: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.1", date: "2025-01-25" },
   sources: ["https://github.com/dxx-redux/dxx-redux"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -23,6 +23,38 @@ export const DxxRedux: Port = {
   summary: "dxx-redux is a action-adventure game, released in 2000.",
   summaryEs: "dxx-redux es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/dxx-redux/dxx-redux/releases/download/v1.1/d1x-redux-1.1-linux-sdl12compat.tar.gz",
+      size: "15.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/dxx-redux/dxx-redux/releases/download/v1.1/d1x-redux-1.1-linux.tar.gz",
+      size: "16.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/dxx-redux/dxx-redux/releases/download/v1.1/d1x-redux-1.1-mac-arm.zip",
+      size: "3.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/dxx-redux/dxx-redux/releases/download/v1.1/d1x-redux-1.1-mac.zip",
+      size: "3.7 MB",
+    },
+    {
+      label: "d1x-redux-1.1-sdl12compat",
+      url: "https://github.com/dxx-redux/dxx-redux/releases/download/v1.1/d1x-redux-1.1-sdl12compat.zip",
+      size: "4.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/dxx-redux/dxx-redux/releases/download/v1.1/d1x-redux-1.1-win-32bit.zip",
+      size: "3.9 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/dxx-redux.svg",
     alt: "dxx-redux (generated cover)",

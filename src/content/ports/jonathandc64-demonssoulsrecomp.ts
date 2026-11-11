@@ -21,6 +21,18 @@ export const jonathandc64Demonssoulsrecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation 3"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/JonathanDC64/Soulbrandt/releases/download/v0.1.2/DemonsSoulsRecomp-0.1.2-linux.tar.xz",
+      size: "11.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/JonathanDC64/Soulbrandt/releases/download/v0.1.2/DemonsSoulsRecomp-0.1.2-windows.zip",
+      size: "9.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/91/Demon%27s_Souls_Cover.jpg",
     alt: "Demon's Souls (box art)",

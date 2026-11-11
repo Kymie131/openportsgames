@@ -14,7 +14,7 @@ export const Serioussamalpharemake: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.5.3", date: "2023-10-22" },
   sources: ["https://github.com/tx00100xt/SeriousSamAlphaRemake"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -23,6 +23,38 @@ export const Serioussamalpharemake: Port = {
   summary: "SeriousSamAlphaRemake is a action-adventure game, released in 2000.",
   summaryEs: "SeriousSamAlphaRemake es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "SeriousSamAlphaRemake-1.5.3-alpine-x86-bin",
+      url: "https://github.com/tx00100xt/SeriousSamAlphaRemake/releases/download/v1.5.3/SeriousSamAlphaRemake-1.5.3-alpine-x86-bin.tar.xz",
+      size: "862 KB",
+    },
+    {
+      label: "SeriousSamAlphaRemake-1.5.3-alpne-x86_64-bin",
+      url: "https://github.com/tx00100xt/SeriousSamAlphaRemake/releases/download/v1.5.3/SeriousSamAlphaRemake-1.5.3-alpne-x86_64-bin.tar.xz",
+      size: "838 KB",
+    },
+    {
+      label: "SeriousSamAlphaRemake-1.5.3-bsd-amd64-bin",
+      url: "https://github.com/tx00100xt/SeriousSamAlphaRemake/releases/download/v1.5.3/SeriousSamAlphaRemake-1.5.3-bsd-amd64-bin.tar.xz",
+      size: "781 KB",
+    },
+    {
+      label: "SeriousSamAlphaRemake-1.5.3-lnx-amd64-bin",
+      url: "https://github.com/tx00100xt/SeriousSamAlphaRemake/releases/download/v1.5.3/SeriousSamAlphaRemake-1.5.3-lnx-amd64-bin.tar.xz",
+      size: "845 KB",
+    },
+    {
+      label: "SeriousSamAlphaRemake-1.5.3-lnx-glibc-2.24-amd64-bin",
+      url: "https://github.com/tx00100xt/SeriousSamAlphaRemake/releases/download/v1.5.3/SeriousSamAlphaRemake-1.5.3-lnx-glibc-2.24-amd64-bin.tar.xz",
+      size: "946 KB",
+    },
+    {
+      label: "SeriousSamAlphaRemake-1.5.3-lnx-glibc-2.24-i386-bin",
+      url: "https://github.com/tx00100xt/SeriousSamAlphaRemake/releases/download/v1.5.3/SeriousSamAlphaRemake-1.5.3-lnx-glibc-2.24-i386-bin.tar.xz",
+      size: "975 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/serioussamalpharemake.svg",
     alt: "SeriousSamAlphaRemake (generated cover)",

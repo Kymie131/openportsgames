@@ -14,7 +14,7 @@ export const oraclesrecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.0.6", date: "2026-11-02" },
   sources: ["https://github.com/kirby-letsgo/oracles-decomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -22,6 +22,28 @@ export const oraclesrecomp: Port = {
   originalSystems: ["Game Boy Color"],
   summary: "The Legend of Zelda: Oracle of Seasons and The Legend of Zelda: Oracle of Ages are 2001 action-adventure games developed by Flagship and published by Nintendo for the Game Boy Color. They are the seventh and eighth installments in the Legend of Zelda series.",
   summaryEs: "The Legend of Zelda: Oracle of Seasons y The Legend of Zelda: Oracle of Ages, conocidos en Japón como Zelda no Densetsu: Fushigi no Ki no Mi Daichi no Shō y Zelda no Densetsu: Fushigi no Ki no Mi Jikū no Shō , son dos juegos de acción-aventura desarrollados por Flagship y publicados por Nintendo, así como los títulos séptimo y octavo de la serie de videojuegos The Legend of Zelda. Fueron lanzados el 27 de febrero de 2001 en Japón; el 13 de mayo de 2001 en Norteamérica; y el 5 de octubre de 2001 en Europa y Australia para la videoconsola portátil Nintendo Game Boy Color.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/kirby-letsgo/oracles-decomp/releases/download/v1.0.6/Oracles-android.apk",
+      size: "26.4 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/kirby-letsgo/oracles-decomp/releases/download/v1.0.6/Oracles-linux-x86_64.AppImage",
+      size: "9.8 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/kirby-letsgo/oracles-decomp/releases/download/v1.0.6/Oracles-macOS.dmg",
+      size: "19.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/kirby-letsgo/oracles-decomp/releases/download/v1.0.6/Oracles-windows-x64.zip",
+      size: "10.5 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-oracle-of-ages.svg",
     alt: "The Legend of Zelda: Oracle of Ages (generated cover)",

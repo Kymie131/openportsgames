@@ -14,7 +14,7 @@ export const doomRpgRe: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.2.2", date: "2024-01-24" },
   sources: ["https://github.com/Erick194/DoomRPG-RE"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -22,6 +22,13 @@ export const doomRpgRe: Port = {
   originalSystems: ["Mobile"],
   summary: "Doom RPG is a 2005 role-playing video game developed by Fountainhead Entertainment and published by JAMDAT Mobile for mobile phones. It combines the Doom first-person shooter franchise with role-playing elements. The storyline incorporates many similar events of Doom 3, but involves different characters than those in the third game.",
   summaryEs: "Doom RPG es un videojuego para teléfonos móviles desarrollado por Fountainhead Entertainment y publicado por JAMDAT Mobile. Combina la franquicia Doom con elementos de un videojuego de rol. La historia incorpora muchos eventos similares a Doom 3, pero involucra personajes diferentes a los del tercer juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Erick194/DoomRPG-RE/releases/download/v.0.2.2/DoomRPG_Port.-.v.0.2.2.zip",
+      size: "5.4 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/doom-rpg.svg",
     alt: "Doom RPG (generated cover)",

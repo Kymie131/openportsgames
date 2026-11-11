@@ -14,7 +14,7 @@ export const ootPsp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["psp"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0", date: "2026-08-30" },
   sources: ["https://github.com/z2442/oot-PSP"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -26,6 +26,13 @@ export const ootPsp: Port = {
     "Port of Ocarina of Time to the PlayStation Portable, based on the decompilation. Requires your own ROM.",
   notesEs:
     "Port de Ocarina of Time a la PlayStation Portable, basado en la decompilación. Requiere tu propia ROM.",
+  downloads: [
+    {
+      label: "OOTPSP",
+      url: "https://github.com/z2442/oot-PSP/releases/download/1.0/OOTPSP.zip",
+      size: "2.6 MB",
+    },
+  ],
   cover: {
     src: "https://cdn2.steamgriddb.com/icon_thumb/a896144046a1b5bd6e3e034d00b4f73a.png",
     alt: "The Legend of Zelda: Ocarina of Time (cover)",

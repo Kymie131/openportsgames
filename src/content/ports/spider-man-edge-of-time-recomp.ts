@@ -14,7 +14,7 @@ export const spiderManEdgeOfTimeRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
-  release: { version: null, date: null },
+  release: { version: "1.1", date: "2026-10-30" },
   sources: ["https://github.com/goliathret/EdgeOfTimeRecomp"],
   license: { spdx: "BSD-3-Clause" },
   verified: false,
@@ -25,6 +25,28 @@ export const spiderManEdgeOfTimeRecomp: Port = {
     "Native recompilation of Spider-Man: Edge of Time (Xbox 360). The player supplies their own legally obtained disc dump; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Spider-Man: Edge of Time (Xbox 360). El jugador aporta su propio material obtenido legalmente (disc dump); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/goliathret/EdgeOfTimeRecomp/releases/download/v1.1/EdgeOfTimeRecomp-v1.0.0-20261030_1818-x86_64.AppImage",
+      size: "140.1 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/goliathret/EdgeOfTimeRecomp/releases/download/v1.1/EdgeOfTimeRecomp-v1.0.0-20261030_1828-mac-arm64.dmg",
+      size: "139.0 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/goliathret/EdgeOfTimeRecomp/releases/download/v1.1/EdgeOfTimeRecomp-v1.0.0-20261030_1828-mac-arm64.zip",
+      size: "137.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/goliathret/EdgeOfTimeRecomp/releases/download/v1.1/EdgeOfTimeRecomp-v1.0.0-20261030_1906-win-amd64.zip",
+      size: "183.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/df/Spider-Man_Edge_of_Time.jpg",
     alt: "Spider-Man: Edge of Time (box art)",

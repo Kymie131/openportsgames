@@ -14,7 +14,7 @@ export const Remc2: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.99", date: "2021-04-15" },
   sources: ["https://github.com/turican0/remc2"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -23,6 +23,13 @@ export const Remc2: Port = {
   summary: "remc2 is a platform game, released in 2000.",
   summaryEs: "remc2 es un videojuego de plataformas, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Release_0.99",
+      url: "https://github.com/turican0/remc2/releases/download/0.99/Release_0.99.zip",
+      size: "251.4 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/remc2.svg",
     alt: "remc2 (generated cover)",

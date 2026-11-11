@@ -21,6 +21,38 @@ export const dubrovskiyYevhenStakelogicGt2Pc: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "macOS DMG",
+      url: "https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/releases/download/v0.9.2/GT2-0.9.2-macos-arm64.dmg",
+      size: "5.8 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/releases/download/v0.9.2/GT2-0.9.2-macos-arm64.zip",
+      size: "5.2 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/releases/download/v0.9.2/GT2-0.9.2-macos-x86_64.dmg",
+      size: "6.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/releases/download/v0.9.2/GT2-0.9.2-macos-x86_64.zip",
+      size: "5.7 MB",
+    },
+    {
+      label: "Windows MSI",
+      url: "https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/releases/download/v0.9.2/GT2-0.9.2-windows-x64.msi",
+      size: "12.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/releases/download/v0.9.2/GT2-0.9.2-windows-x64.zip",
+      size: "12.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6b/GranTurismo2.jpg",
     alt: "Gran Turismo 2 (box art)",

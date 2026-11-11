@@ -25,6 +25,13 @@ export const skate2Recomp: Port = {
   summaryEs: "Skate 2 es un videojuego de patinaje sobre ruedas desarrollado por la compañía Black Box Games y distribuido por Electronic Arts. Es la secuela del juego de 2007 Skate. Skate 2 fue publicado en enero de 2009 para PlayStation 3 y Xbox 360. El videojuego ha sido calificado con un 16+ en el PEGI por violencia, y con un T en el ESRB por razones bastante más notables que en el juego original, como las actividades delictivas, por los retos de la Sala del Dolor, Campeonatos, Dominar los Spot, Carreras, etc.",
   notes: "Skate 2 Recompiled: native recompilation of Skate 2 for windows. Bring your own copy of the game.",
   notesEs: "Skate 2 Recompiled: recompilación nativo de Skate 2 para windows. Aporta tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/cookingwithsimon/Skate2Recompiled/releases/download/v0.2.0/Skate2-PC-v0.2.0.zip",
+      size: "20.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/bb/Skate_2_Cover.jpg",
     alt: "Skate 2 (box art)",

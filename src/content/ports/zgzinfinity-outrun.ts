@@ -23,6 +23,13 @@ export const zgzinfinityOutrun: Port = {
   originalSystems: ["Unknown"],
   summary: "OutRun is a racing game in 2024.",
   summaryEs: "OutRun es un videojuego de carreras en 2024.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/ZgzInfinity/OutRun/releases/download/v5.0-Windows/outrun-5.0-W64.zip",
+      size: "88.7 MB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3187540/header.jpg?t=1734090727",
     alt: "OutRun (Steam header)",

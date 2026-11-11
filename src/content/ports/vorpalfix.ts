@@ -14,7 +14,7 @@ export const Vorpalfix: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "4.2.1", date: "2026-10-22" },
   sources: ["https://github.com/Wemino/VorpalFix"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -23,6 +23,13 @@ export const Vorpalfix: Port = {
   summary: "VorpalFix is a action-adventure game, released in 2011.",
   summaryEs: "VorpalFix es un videojuego de acci�n y aventura, lanzado en 2011.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "VorpalFix",
+      url: "https://github.com/Wemino/VorpalFix/releases/download/4.2.1/VorpalFix.zip",
+      size: "2.8 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/vorpalfix.svg",
     alt: "VorpalFix (generated cover)",

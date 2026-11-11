@@ -14,7 +14,7 @@ export const ridgeRacerType4Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.2.0", date: "2026-10-24" },
   sources: ["https://github.com/tetrisgm/RidgeRacerType4Recomp"],
   license: { spdx: "MIT" },
   verified: false,
@@ -25,6 +25,23 @@ export const ridgeRacerType4Recomp: Port = {
     "Native recompilation of R4: Ridge Racer Type 4 (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de R4: Ridge Racer Type 4 (PlayStation). El jugador aporta su propio material obtenido legalmente (disc image); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Macos",
+      url: "https://github.com/tetrisgm/RidgeRacerType4Recomp/releases/download/v0.2.0/r4-0.2.0-macos-arm64.zip",
+      size: "41.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/tetrisgm/RidgeRacerType4Recomp/releases/download/v0.2.0/r4-0.2.0-macos-x64.zip",
+      size: "41.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/tetrisgm/RidgeRacerType4Recomp/releases/download/v0.2.0/r4-0.2.0-windows-x64.zip",
+      size: "31.2 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/R4%20-%20Ridge%20Racer%20Type%204%20(USA).png",
     alt: "R4: Ridge Racer Type 4 (box art)",

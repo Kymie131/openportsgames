@@ -32,6 +32,28 @@ export const librelancer: Port = {
     "Engine reimplementation for Freelancer. The repository ships an MIT LICENSE file even though the GitHub license field reports NOASSERTION. The upstream repository is archived (read-only).",
   notesEs:
     "Reimplementación del motor de Freelancer. El repositorio incluye un archivo LICENSE MIT aunque el campo de licencia de GitHub informa NOASSERTION. El repositorio original está archivado (solo lectura).",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Librelancer/Librelancer/releases/download/2025.11/librelancer-2025.11-ubuntu-amd64.tar.gz",
+      size: "40.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Librelancer/Librelancer/releases/download/2025.11/librelancer-2025.11-win64.zip",
+      size: "47.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Librelancer/Librelancer/releases/download/2025.11/librelancer-sdk-2025.11-ubuntu-amd64.tar.gz",
+      size: "46.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Librelancer/Librelancer/releases/download/2025.11/librelancer-sdk-2025.11-win64.zip",
+      size: "53.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/4d/Fl_box.jpg",
     alt: "Freelancer (box art)",

@@ -24,6 +24,38 @@ export const asteroidsTerraSegaSaturn: Port = {
   summary: "Asteroids Terra is a shooter game published by Homebrew, released in 2021.",
   summaryEs: "Asteroids Terra es un videojuego de disparos publicado por Homebrew, lanzado en 2021.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "asteroid.part01",
+      url: "https://github.com/mxfolken/AsteroidsTerra/releases/download/1/asteroid.part01.rar",
+      size: "20.0 MB",
+    },
+    {
+      label: "asteroid.part02",
+      url: "https://github.com/mxfolken/AsteroidsTerra/releases/download/1/asteroid.part02.rar",
+      size: "20.0 MB",
+    },
+    {
+      label: "asteroid.part03",
+      url: "https://github.com/mxfolken/AsteroidsTerra/releases/download/1/asteroid.part03.rar",
+      size: "20.0 MB",
+    },
+    {
+      label: "asteroid.part04",
+      url: "https://github.com/mxfolken/AsteroidsTerra/releases/download/1/asteroid.part04.rar",
+      size: "20.0 MB",
+    },
+    {
+      label: "asteroid.part05",
+      url: "https://github.com/mxfolken/AsteroidsTerra/releases/download/1/asteroid.part05.rar",
+      size: "20.0 MB",
+    },
+    {
+      label: "asteroid.part06",
+      url: "https://github.com/mxfolken/AsteroidsTerra/releases/download/1/asteroid.part06.rar",
+      size: "10.7 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/asteroids-terra.svg",
     alt: "Asteroids Terra (generated cover)",

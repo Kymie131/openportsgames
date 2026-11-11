@@ -65,6 +65,13 @@ export const wipeoutPhantomEdition: Port = {
       credit: "Wipeout Phantom Edition",
     },
   ],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/wipeout-phantom-edition/wipeout-phantom-edition/releases/download/v1.2.256/wipeout-x64-release.zip",
+      size: "3.5 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/WipEout%20(Europe)%20(Rev%201).png",
     alt: "WipeOut (box art)",

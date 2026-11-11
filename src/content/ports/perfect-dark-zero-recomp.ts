@@ -14,7 +14,7 @@ export const perfectDarkZeroRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.0", date: "2026-11-05" },
   sources: ["https://github.com/nikolaygorb/PerfectDarkZeroRecomp"],
   license: { spdx: "MIT" },
   verified: false,
@@ -26,6 +26,18 @@ export const perfectDarkZeroRecomp: Port = {
     "Static recompilation of Perfect Dark Zero (Xbox 360) for Windows. It needs your own copy of the game.",
   notesEs:
     "Recompilación estática de Perfect Dark Zero (Xbox 360) para Windows. Necesita tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/nikolaygorb/PerfectDarkZeroRecomp/releases/download/2.0/PDZrecomp-lin64.zip",
+      size: "56.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/nikolaygorb/PerfectDarkZeroRecomp/releases/download/2.0/PDZrecomp-win64.zip",
+      size: "26.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b7/Perfect_Dark_Zero_Coverart.png",
     alt: "Perfect Dark Zero (cover)",

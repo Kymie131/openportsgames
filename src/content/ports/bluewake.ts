@@ -14,13 +14,30 @@ export const bluewake: Port = {
   originalGameLicense: "proprietary",
   platforms: ["macos","ios","windows","linux","android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.11.0", date: "2026-11-08" },
   sources: ["https://github.com/chrissotraidis/bluewake"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
   related: ["wind-waker-recomp","wind-waker-hd-recomp"],
+  downloads: [
+    {
+      label: "iOS IPA",
+      url: "https://github.com/chrissotraidis/bluewake/releases/download/v0.11.0/BlueWake-v0.11.0-ios-unsigned.ipa",
+      size: "5.8 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/chrissotraidis/bluewake/releases/download/v0.11.0/BlueWake-v0.11.0-linux-x86_64.AppImage",
+      size: "231.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/chrissotraidis/bluewake/releases/download/v0.11.0/BlueWake-v0.11.0-windows-x64.zip",
+      size: "202.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
     alt: "The Legend of Zelda: The Wind Waker (box art)",

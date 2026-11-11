@@ -14,7 +14,7 @@ export const dkc2Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.0.8", date: "2026-09-13" },
   sources: ["https://github.com/elliotttate/DKC2Recomp"],
   license: { spdx: "MIT" },
   verified: false,
@@ -25,6 +25,18 @@ export const dkc2Recomp: Port = {
     "Static recompilation of Donkey Kong Country 2 (SNES) with snesrecomp. The original repository is archived; active development moved to elliotttate/DKC2Recomp.",
   notesEs:
     "Recompilación estática de Donkey Kong Country 2 (SNES) con snesrecomp. El repositorio original está archivado; el desarrollo activo pasó a elliotttate/DKC2Recomp.",
+  downloads: [
+    {
+      label: "Macos",
+      url: "https://github.com/elliotttate/DKC2Recomp/releases/download/v0.0.8/DKC2Recomp-v0.0.6-macOS-arm64.zip",
+      size: "9.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/elliotttate/DKC2Recomp/releases/download/v0.0.8/DKC2Recomp-v0.0.8-Windows-x64.zip",
+      size: "11.1 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Donkey%20Kong%20Country%202%20-%20Diddy's%20Kong%20Quest%20(USA)%20(En%2CFr).png",
     alt: "Donkey Kong Country 2: Diddy's Kong Quest (box art)",

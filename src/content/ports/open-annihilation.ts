@@ -14,7 +14,7 @@ export const OpenAnnihilation: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.9.0", date: "2026-11-06" },
   sources: ["https://github.com/open-annihilation/open-annihilation"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -23,6 +23,38 @@ export const OpenAnnihilation: Port = {
   summary: "Open Annihilation is a action-adventure game, released in 2000.",
   summaryEs: "Open Annihilation es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/open-annihilation/open-annihilation/releases/download/v0.9.0/open-annihilation-v0.9.0-linux-arm64.zip",
+      size: "25.3 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/open-annihilation/open-annihilation/releases/download/v0.9.0/open-annihilation-v0.9.0-linux-armhf.zip",
+      size: "22.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/open-annihilation/open-annihilation/releases/download/v0.9.0/open-annihilation-v0.9.0-linux-x86_64.zip",
+      size: "26.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/open-annihilation/open-annihilation/releases/download/v0.9.0/open-annihilation-v0.9.0-macos-universal.pkg",
+      size: "37.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/open-annihilation/open-annihilation/releases/download/v0.9.0/open-annihilation-v0.9.0-macos-universal.zip",
+      size: "37.2 MB",
+    },
+    {
+      label: "open-annihilation-v0.9.0-steam-deck",
+      url: "https://github.com/open-annihilation/open-annihilation/releases/download/v0.9.0/open-annihilation-v0.9.0-steam-deck.zip",
+      size: "27.3 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/open-annihilation.svg",
     alt: "Open Annihilation (generated cover)",

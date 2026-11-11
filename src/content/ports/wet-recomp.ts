@@ -14,7 +14,7 @@ export const wetRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.6", date: "2026-11-05" },
   sources: ["https://github.com/nikolaygorb/WetRecomp"],
   license: { spdx: "MIT" },
   verified: false,
@@ -25,6 +25,18 @@ export const wetRecomp: Port = {
     "Static recompilation of WET (2009, Xbox 360) with the ReXGlue SDK. Fully playable: video, audio, gameplay, achievements and progression.",
   notesEs:
     "Recompilación estática de WET (2009, Xbox 360) con el SDK ReXGlue. Completamente jugable: vídeo, audio, gameplay, logros y progresión.",
+  downloads: [
+    {
+      label: "wet-recomp-lin64",
+      url: "https://github.com/nikolaygorb/WetRecomp/releases/download/1.6/wet-recomp-lin64.zip",
+      size: "56.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/nikolaygorb/WetRecomp/releases/download/1.6/wet-recomp-win64.zip",
+      size: "27.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/98/Wet_game.jpg",
     alt: "Wet (box art)",

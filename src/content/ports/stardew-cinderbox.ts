@@ -14,7 +14,7 @@ export const stardewCinderbox: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.8.1", date: "2026-08-16" },
   sources: ["https://github.com/Ekyso/Cinderbox"],
   license: { spdx: "MIT" },
   verified: false,
@@ -25,6 +25,13 @@ export const stardewCinderbox: Port = {
     "Native Android launcher for the desktop version of Stardew Valley, distributed as Cinderbox. It requires your own game data.",
   notesEs:
     "Lanzador nativo para Android de la versión de escritorio de Stardew Valley, distribuido como Cinderbox. Requiere tus propios datos del juego.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Ekyso/Cinderbox/releases/download/0.8.1/Cinderbox-v0.8.1.apk",
+      size: "60.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/fd/Logo_of_Stardew_Valley.png",
     alt: "Stardew Valley (box art)",

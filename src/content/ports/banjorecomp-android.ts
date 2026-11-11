@@ -14,7 +14,7 @@ export const BanjorecompAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.1", date: "2026-06-14" },
   sources: ["https://github.com/AurelioB/BanjoRecomp-Android"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -23,6 +23,13 @@ export const BanjorecompAndroid: Port = {
   summary: "BanjoRecomp Android is a action-adventure game for Nintendo 64, released in 2000.",
   summaryEs: "BanjoRecomp Android es un videojuego de acci�n y aventura para Nintendo 64, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/AurelioB/BanjoRecomp-Android/releases/download/android-v0.1.1/BanjoRecompiled-v0.1.1-Android-ARM64.apk",
+      size: "8.3 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/banjorecomp-android.svg",
     alt: "BanjoRecomp Android (generated cover)",

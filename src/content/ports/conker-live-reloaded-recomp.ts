@@ -29,6 +29,18 @@ export const conkerLiveReloadedRecomp: Port = {
     "Launcher and enhanced build of Live & Recompiled, the native recompilation of the original Xbox game by giacomozama and TGP482. Version 1.4 extracts and compiles the game from your own disc image on first run. It adds aspect ratios up to 32:9, render scale up to 400%, 60 to 240 fps or the original 30 with frame interpolation, MSAA, SMAA, ambient occlusion, per-pixel lighting, softer fur, extended grass and water effects, and skippable cutscenes. Supports four-player split screen and online rooms with six-word codes. No part of the game is included.",
   notesEs:
     "Lanzador y build mejorada de Live & Recompiled, la recompilación nativa del juego de Xbox original de giacomozama y TGP482. La versión 1.4 extrae y compila el juego desde tu propia imagen de disco en el primer arranque. Añade relaciones de aspecto hasta 32:9, escala de renderizado hasta 400%, 60 a 240 fps o los 30 originales con interpolación de fotogramas, MSAA, SMAA, oclusión ambiental, iluminación por píxel, pelaje más suave, hierba y agua ampliadas, y cinemáticas omitibles. Admite pantalla dividida para cuatro jugadores y salas online con códigos de seis palabras. No incluye ninguna parte del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Mabec-games/Conker-Recomped-and-Reloaded/releases/download/v1.4.2/ConkerRecompedReloaded-windows-x64.zip",
+      size: "132.6 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/Mabec-games/Conker-Recomped-and-Reloaded/releases/download/v1.4.2/ConkerRecompedReloaded-x86_64.AppImage",
+      size: "127.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/3f/Conker_-_Live_%26_Reloaded_Coverart.png",
     alt: "Conker: Live & Reloaded (box art)",

@@ -14,7 +14,7 @@ export const ftlPocketWormhole: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.2.7", date: "2026-10-11" },
   sources: ["https://github.com/adamkulik/pocket-wormhole"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -25,6 +25,13 @@ export const ftlPocketWormhole: Port = {
     "Native Android port of Project Wormhole, the open-source FTL engine implementation. It runs FTL: Faster Than Light on Android using your own game files.",
   notesEs:
     "Port nativo para Android de Project Wormhole, la implementación libre del motor de FTL. Ejecuta FTL: Faster Than Light en Android usando tus propios archivos del juego.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/adamkulik/pocket-wormhole/releases/download/v0.2.7/PocketWormhole-v0.2.7.apk",
+      size: "2.2 MB",
+    },
+  ],
   cover: {
     src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/FTL_Faster_Than_Light_Logo.svg/960px-FTL_Faster_Than_Light_Logo.svg.png",
     alt: "FTL: Faster Than Light (box art)",

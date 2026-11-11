@@ -23,6 +23,38 @@ export const nsmbuRecompNsmbuRecomp: Port = {
   originalSystems: ["Wii U"],
   summary: "New Super Mario Bros. U is a 2012 platform game developed and published by Nintendo as a launch title for the Wii U. A sequel to New Super Mario Bros. Wii and the fourth and final entry in the New Super Mario Bros. series, following New Super Mario Bros. 2, it is the first Super Mario game to feature high-definition graphics. The plot follows Mario on his way to rescue Princess Peach and her castle from Bowser. The game retains the cooperative multiplayer mode from its prior entry.",
   summaryEs: "New Super Mario Bros. U es un videojuego de plataformas de 2012 desarrollado y publicado por Nintendo como título de lanzamiento para Wii U. Es la secuela de New Super Mario Bros. Wii y la cuarta y última entrega de la serie New Super Mario Bros., tras New Super Mario Bros. 2. En el juego, el jugador asume el papel de Mario en su camino para rescatar a la Princesa Peach y su castillo de Bowser. También es la primera entrega de la serie Super Mario en presentar gráficos de alta definición; el juego conserva el modo multijugador cooperativo de la entrega anterior.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/nsmbu-recomp/nsmbu-recomp/releases/download/v0.9.1/NSMBU-v0.9.1-android-arm64.apk",
+      size: "132.0 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/nsmbu-recomp/nsmbu-recomp/releases/download/v0.9.1/NSMBU-v0.9.1-android-x86_64.apk",
+      size: "134.9 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/nsmbu-recomp/nsmbu-recomp/releases/download/v0.9.1/NSMBU-v0.9.1-linux-aarch64.AppImage",
+      size: "33.8 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/nsmbu-recomp/nsmbu-recomp/releases/download/v0.9.1/NSMBU-v0.9.1-linux-aarch64.zip",
+      size: "39.6 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/nsmbu-recomp/nsmbu-recomp/releases/download/v0.9.1/NSMBU-v0.9.1-linux-x86_64.AppImage",
+      size: "33.8 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/nsmbu-recomp/nsmbu-recomp/releases/download/v0.9.1/NSMBU-v0.9.1-linux-x86_64.zip",
+      size: "39.2 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Wii%20U/Named_Boxarts/New%20Super%20Mario%20Bros.%20U%20(Japan).png",
     alt: "New Super Mario Bros. U (box art)",

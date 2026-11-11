@@ -21,6 +21,13 @@ export const bayonetta2Recomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["Nintendo Switch"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/K0NL/B2recomp/releases/download/v0.3.3/B2recomp-builder-26c45d7.zip",
+      size: "100.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b1/Bayonetta_2_box_artwork.png",
     alt: "Bayonetta 2 (box art)",

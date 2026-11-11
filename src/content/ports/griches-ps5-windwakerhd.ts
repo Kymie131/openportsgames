@@ -21,6 +21,13 @@ export const grichesPs5Windwakerhd: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Wii U"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/griches/PS5_WindWakerHD/releases/download/v1.1.0/wwhd-ps5-kit-1.1.0.zip",
+      size: "33.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
     alt: "The Legend of Zelda: The Wind Waker HD (box art)",

@@ -14,7 +14,7 @@ export const battletanxGlobalAssaultRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.10", date: "2026-11-10" },
   sources: ["https://github.com/wootbeer/btgarecomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -26,6 +26,18 @@ export const battletanxGlobalAssaultRecomp: Port = {
     "Native recompilation of BattleTanx: Global Assault (Nintendo 64) with N64Recomp and RT64, in super-beta state for Windows and Linux. An Android build is planned. It needs the player's own legally obtained game dump.",
   notesEs:
     "Recompilación nativa de BattleTanx: Global Assault (Nintendo 64) con N64Recomp y RT64, en estado super-beta para Windows y Linux. Se planea una build para Android. Necesita el volcado del juego obtenido legalmente por el jugador.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/wootbeer/btgarecomp/releases/download/v0.1.10/BattleTanxGARecompiled-0.1.10-linux-x86_64.tar.gz",
+      size: "5.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/wootbeer/btgarecomp/releases/download/v0.1.10/BattleTanxGARecompiled-0.1.10-windows.zip",
+      size: "15.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/BattleTanx%20-%20Global%20Assault%20(USA).png",
     alt: "BattleTanx: Global Assault (box art)",

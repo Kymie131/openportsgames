@@ -23,6 +23,28 @@ export const tanepiperUnbanished: Port = {
   originalSystems: ["Unknown"],
   summary: "In this city-building strategy game, you control a group of exiled travelers who decide to restart their lives in a new land. They have only the clothes on their backs and a cart filled with supplies from their homeland. The townspeople of Banished are your primary resource.",
   summaryEs: "Banished es un videojuego de simulación publicado por Shining Rock Software LLC en 2014.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/tanepiper/unbanished/releases/download/v0.5.0/unbanished-0.5.0-linux-x64.zip",
+      size: "10.3 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/tanepiper/unbanished/releases/download/v0.5.0/unbanished-0.5.0-macos-arm64.zip",
+      size: "8.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/tanepiper/unbanished/releases/download/v0.5.0/unbanished-0.5.0-macos-x64.zip",
+      size: "8.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/tanepiper/unbanished/releases/download/v0.5.0/unbanished-0.5.0-windows-x64.zip",
+      size: "8.4 MB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242920/header.jpg?t=1667584747",
     alt: "Banished (Steam header)",

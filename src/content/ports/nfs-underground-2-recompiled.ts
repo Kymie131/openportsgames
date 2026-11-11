@@ -14,12 +14,24 @@ export const nfsUnderground2Recompiled: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.14.14", date: "2026-11-10" },
   sources: ["https://github.com/codepdbh/nfsu2-recompiled"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/codepdbh/nfsu2-recompiled/releases/download/v0.14.14/NFSU2-AndroidEvolved-v0.14.14-arm64.apk",
+      size: "67.1 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/codepdbh/nfsu2-recompiled/releases/download/v0.14.14/NFSU2-AndroidEvolved-v0.14.14-armeabi-v7a.apk",
+      size: "77.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/10/Nfsu2-win-cover.jpg",
     alt: "Need for Speed: Underground 2 (box art)",

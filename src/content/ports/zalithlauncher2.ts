@@ -15,12 +15,39 @@ export const zalithlauncher2: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.8.2", date: "2026-11-06" },
   sources: ["https://github.com/ZalithLauncher/ZalithLauncher2"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.2/ZalithLauncher-2.8.2-arm64-v8a.apk",
+      size: "176.2 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.2/ZalithLauncher-2.8.2-armeabi-v7a.apk",
+      size: "168.2 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.2/ZalithLauncher-2.8.2-x86.apk",
+      size: "158.0 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.2/ZalithLauncher-2.8.2-x86_64.apk",
+      size: "182.1 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.8.2/ZalithLauncher-2.8.2.apk",
+      size: "355.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/f/f4/Caves_%26_Cliffs_II_-_Alex_%26_Steve_I.png",
     alt: "Minecraft Java Edition (box art)",

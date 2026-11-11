@@ -14,7 +14,7 @@ export const pokemonSurvivorBurstAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "9.0", date: "2026-10-12" },
   sources: ["https://github.com/TryTheSauceBoss/pokemon-survivorburst-android"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -23,6 +23,23 @@ export const pokemonSurvivorBurstAndroid: Port = {
   summary: "Pokémon Survivor Burst is a role-playing game published by TryTheSauceBoss, released in 2024.",
   summaryEs: "Pokémon Survivor Burst es un videojuego de rol publicado por TryTheSauceBoss, lanzado en 2024.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/TryTheSauceBoss/Pokemon-Survivorburst-Android/releases/download/v9.0/Pokemon.Survivor.Burst.-.v9.0.-.Right.Stick.Shoot.apk",
+      size: "597.9 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/TryTheSauceBoss/Pokemon-Survivorburst-Android/releases/download/v9.0/Pokemon.Survivor.Burst.-.v9.0.-.RT.Shoot.apk",
+      size: "597.9 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/TryTheSauceBoss/Pokemon-Survivorburst-Android/releases/download/v9.0/Pokemon.Survivor.Burst.-.v9.0.apk",
+      size: "597.9 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/pokemon-survivor-burst.svg",
     alt: "Pokémon Survivor Burst (generated cover)",

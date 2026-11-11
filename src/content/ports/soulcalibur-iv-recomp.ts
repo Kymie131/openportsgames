@@ -14,7 +14,7 @@ export const soulcaliburIvRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.9.1", date: "2026-07-07" },
   sources: ["https://github.com/FluffyQuack/rexglue-SoulCaliburIV"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -26,6 +26,23 @@ export const soulcaliburIvRecomp: Port = {
     "Static recompilation of Soulcalibur IV (Xbox 360) using the ReXGlue SDK, for Windows. It needs your own copy of the game.",
   notesEs:
     "Recompilación estática de Soulcalibur IV (Xbox 360) con el SDK ReXGlue, para Windows. Necesita tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/FluffyQuack/rexglue-SoulCaliburIV/releases/download/v0.9.1/rexglue-sdk-0.9.1-linux-amd64.zip",
+      size: "142.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/FluffyQuack/rexglue-SoulCaliburIV/releases/download/v0.9.1/rexglue-sdk-0.9.1-win-amd64.zip",
+      size: "41.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/FluffyQuack/rexglue-SoulCaliburIV/releases/download/v0.9.1/SCIV-Recomp.zip",
+      size: "13.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6c/Soulcalibur_IV_cover.png",
     alt: "Soulcalibur IV (cover)",

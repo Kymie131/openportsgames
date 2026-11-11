@@ -14,7 +14,7 @@ export const starWarsMastersOfTerasKasiRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.3.17", date: "2026-10-01" },
   sources: ["https://github.com/TechnicallyComputers/MastersOfTerasKasiRecomp"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
@@ -25,6 +25,28 @@ export const starWarsMastersOfTerasKasiRecomp: Port = {
   notes: "PortsDR lists this recompilation without a public repository. Own the game to play it.",
   notesEs:
     "PortsDR lista esta recompilación sin repositorio público. Necesitas el juego para jugarla.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/TechnicallyComputers/MastersOfTerasKasiRecomp/releases/download/v0.3.17/motk-0.3.17-linux-x64.zip",
+      size: "49.8 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/TechnicallyComputers/MastersOfTerasKasiRecomp/releases/download/v0.3.17/motk-0.3.17-macos-arm64.zip",
+      size: "26.7 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/TechnicallyComputers/MastersOfTerasKasiRecomp/releases/download/v0.3.17/motk-0.3.17-macos-x64.zip",
+      size: "27.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/TechnicallyComputers/MastersOfTerasKasiRecomp/releases/download/v0.3.17/motk-0.3.17-windows-x64.zip",
+      size: "28.5 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Star%20Wars%20-%20Masters%20of%20Teras%20Kasi%20(Europe).png",
     alt: "Star Wars: Masters of Teras Kasi (box art)",

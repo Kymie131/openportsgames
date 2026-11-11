@@ -14,7 +14,7 @@ export const vvvvvv: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
-  release: { version: null, date: null },
+  release: { version: "2.4.4", date: "2026-04-21" },
   sources: ["https://github.com/TerryCavanagh/VVVVVV"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -26,6 +26,13 @@ export const vvvvvv: Port = {
     "Official open source release of VVVVVV, the gravity-flipping platformer by Terry Cavanagh. The source builds the full game, which you own.",
   notesEs:
     "Publicación oficial de código abierto de VVVVVV, el plataformas de gravedad invertida de Terry Cavanagh. El código compila el juego completo, que posees.",
+  downloads: [
+    {
+      label: "VVVVVV-2.4.4",
+      url: "https://github.com/TerryCavanagh/VVVVVV/releases/download/2.4.4/VVVVVV-2.4.4.zip",
+      size: "10.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/5/52/VVVVVV_-_The_Tomb_of_Mad_Carew.png",
     alt: "VVVVVV (artwork)",

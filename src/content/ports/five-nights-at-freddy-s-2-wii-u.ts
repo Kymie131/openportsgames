@@ -20,6 +20,13 @@ export const fiveNightsAtFreddyS2WiiU: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "Five.Nights.at.Freddy.s.2.Wii.U.Edition.FNF2TM",
+      url: "https://github.com/wikiblog0/FNaF-2-WiiU/releases/download/v1.0h1/Five.Nights.at.Freddy.s.2.Wii.U.Edition.FNF2TM.zip",
+      size: "109.8 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/332800/header.jpg",
     alt: "Five Nights at Freddy's 2 (cover art)",

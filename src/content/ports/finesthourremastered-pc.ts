@@ -21,6 +21,13 @@ export const finesthourremasteredPc: Port = {
   sourceVerified: true,
   addedAt: "2026-10-21",
   originalSystems: ["Xbox"],
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/crazyriddler/FinestHourRemastered/releases/download/update/FinestHourRemasteredUpdate.exe",
+      size: "258.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/31/Codfhbox.jpg",
     alt: "Call of Duty: Finest Hour (box art)",

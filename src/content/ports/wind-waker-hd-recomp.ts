@@ -14,7 +14,7 @@ export const windWakerHdRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.5.1", date: "2026-11-06" },
   sources: ["https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp"],
   license: { spdx: "MPL-2.0" },
   verified: false,
@@ -25,6 +25,38 @@ export const windWakerHdRecomp: Port = {
     "Recompilation of The Legend of Zelda: The Wind Waker HD (Wii U) that currently targets macOS. It needs your own game data.",
   notesEs:
     "Recompilación de The Legend of Zelda: The Wind Waker HD (Wii U) que por ahora apunta a macOS. Necesita tus propios datos del juego.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/releases/download/v0.5.1/WindWakerHD-v0.5.1-android-arm64.apk",
+      size: "148.3 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/releases/download/v0.5.1/WindWakerHD-v0.5.1-android-x86_64.apk",
+      size: "151.3 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/releases/download/v0.5.1/WindWakerHD-v0.5.1-linux-aarch64.AppImage",
+      size: "120.5 MB",
+    },
+    {
+      label: "WindWakerHD-v0.5.1-linux-aarch64",
+      url: "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/releases/download/v0.5.1/WindWakerHD-v0.5.1-linux-aarch64.zip",
+      size: "141.9 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/releases/download/v0.5.1/WindWakerHD-v0.5.1-linux-x86_64.AppImage",
+      size: "119.2 MB",
+    },
+    {
+      label: "WindWakerHD-v0.5.1-linux-x86_64",
+      url: "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/releases/download/v0.5.1/WindWakerHD-v0.5.1-linux-x86_64.zip",
+      size: "139.1 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Wii%20U/Named_Boxarts/Legend%20of%20Zelda,%20The%20-%20The%20Wind%20Waker%20HD%20(USA,%20Asia)%20(En,Fr,Es).png",
     alt: "The Legend of Zelda: The Wind Waker HD (cover)",

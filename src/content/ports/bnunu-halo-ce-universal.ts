@@ -21,6 +21,18 @@ export const bnunuHaloCeUniversal: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox"],
+  downloads: [
+    {
+      label: "HaloFallbackTest",
+      url: "https://github.com/bnunu/halo-ce-universal/releases/download/launcher-v1.8/HaloFallbackTest.zip",
+      size: "7.8 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/bnunu/halo-ce-universal/releases/download/launcher-v1.8/HaloLauncher.exe",
+      size: "172 KB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg",
     alt: "Halo: Combat Evolved (box art)",

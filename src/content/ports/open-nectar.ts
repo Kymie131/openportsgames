@@ -14,7 +14,7 @@ export const openNectar: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.2", date: "2026-11-08" },
   sources: ["https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -30,6 +30,28 @@ export const openNectar: Port = {
     source: "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port#readme",
     quote: "This project was developed with the assistance of AI tools.",
   },
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/releases/download/1.2/nectar-linux.tar.gz",
+      size: "30.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/releases/download/1.2/nectar-windows.zip",
+      size: "24.1 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/releases/download/1.2/Open_Nectar-x86_64.AppImage",
+      size: "28.4 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/releases/download/1.2/open_nectar_1.2.apk",
+      size: "60.6 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Pikmin%20(USA).png",
     alt: "Pikmin (box art)",

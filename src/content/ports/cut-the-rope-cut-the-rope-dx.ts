@@ -14,7 +14,7 @@ export const CutTheRopeCutTheRopeDx: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "2.50.1", date: "2026-10-10" },
   sources: ["https://github.com/yell0wsuit/cuttherope-dx"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -23,6 +23,28 @@ export const CutTheRopeCutTheRopeDx: Port = {
   summary: "Cut the Rope (Cut the Rope: DX) is a action-adventure game, released in 2000.",
   summaryEs: "Cut the Rope (Cut the Rope: DX) es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "macOS DMG",
+      url: "https://github.com/yell0wsuit/cuttherope-dx/releases/download/v2.50.1/CutTheRopeDX-v2.50.1-macOS-arm64-avfoundation.dmg",
+      size: "297.2 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/yell0wsuit/cuttherope-dx/releases/download/v2.50.1/CutTheRopeDX-v2.50.1-macOS-arm64-ffmpeg.dmg",
+      size: "311.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/yell0wsuit/cuttherope-dx/releases/download/v2.50.1/CutTheRopeDX-v2.50.1-Windows-x64.7z",
+      size: "307.5 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/yell0wsuit/cuttherope-dx/releases/download/v2.50.1/CutTheRopeDX-v2.50.1-x86_64.AppImage",
+      size: "360.8 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/cut-the-rope-cut-the-rope-dx.svg",
     alt: "Cut the Rope (Cut the Rope: DX) (generated cover)",

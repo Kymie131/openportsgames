@@ -15,7 +15,7 @@ export const coquiSnes: Port = {
   category: "homebrew",
   platforms: ["snes"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1", date: "2026-09-23" },
   sources: ["https://github.com/VibezZzCoder/coqui-snes"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -24,6 +24,13 @@ export const coquiSnes: Port = {
   summary: "Coqui is a platform game published by Homebrew, released in 2026.",
   summaryEs: "Coqui es un videojuego de plataformas publicado por Homebrew, lanzado en 2026.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "coqui-al-anochecer-v1.1",
+      url: "https://github.com/VibezZzCoder/coqui-snes/releases/download/v1.1/coqui-al-anochecer-v1.1.zip",
+      size: "3.5 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/coqui.svg",
     alt: "Coqui (generated cover)",

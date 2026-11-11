@@ -23,6 +23,28 @@ export const rubymatrixXiOnAnything: Port = {
   originalSystems: ["Unknown"],
   summary: "Final Fantasy XI, also known as Final Fantasy XI Online, is a massively multiplayer online role-playing game (MMORPG), originally developed and published by Square and then published by Square Enix as the eleventh main installment of the Final Fantasy series. Designed and produced by Hiromichi Tanaka, it was released in Japan on May 16, 2002, for PlayStation 2 and Microsoft Windows-based personal computers in November of that year. The game was the first MMORPG to offer cross-platform play between PlayStation 2 and Windows. It was later released for the Xbox 360 in April 2006.",
   summaryEs: "Final Fantasy XI , inicialmente conocido como Final Fantasy XI Online, es un videojuego de rol multijugador masivo en línea desarrollado y publicado por Square como parte de la saga Final Fantasy. Fue lanzado en Japón para Sony PlayStation 2 el 16 de mayo de 2002, y para los computadores basados en tecnología de Microsoft Windows en noviembre de 2002. La versión PC fue lanzada en Estados Unidos en 28 de octubre de 2003 y la de PlayStation 2 en marzo de 23 de 2004. En Europa la versión Windows fue lanzada el 17 de septiembre de 2004.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/rubymatrix/xi-on-anything/releases/download/v0.2.9/XI-on-Anything-linux-x86_64.AppImage",
+      size: "125.5 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/rubymatrix/xi-on-anything/releases/download/v0.2.9/XI-on-Anything-windows-x64-setup.exe",
+      size: "47.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/rubymatrix/xi-on-anything/releases/download/v0.2.9/XI-on-Mac-macos-arm64.app.tar.gz",
+      size: "47.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/rubymatrix/xi-on-anything/releases/download/v0.2.9/XI-on-Mac-macos-arm64.zip",
+      size: "48.8 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/final-fantasy-xi.svg",
     alt: "Final Fantasy XI (generated cover)",

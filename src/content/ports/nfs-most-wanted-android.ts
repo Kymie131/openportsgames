@@ -14,13 +14,20 @@ export const nfsMostWantedAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.8.2", date: "2026-10-27" },
   sources: ["https://github.com/codepdbh/nfsmw-android"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["nfs-most-wanted-recomp","nfs-most-wanted-decomp"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/codepdbh/nfsmw-android/releases/download/v0.8.2/NFSMW-Android-Evolved-v0.8.2-arm64.apk",
+      size: "30.4 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1262560/header.jpg",
     alt: "Need for Speed: Most Wanted (box art)",

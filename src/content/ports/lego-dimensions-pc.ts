@@ -14,12 +14,24 @@ export const legoDimensionsPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "3.0", date: "2026-11-11" },
   sources: ["https://github.com/vascon-es/lego-dimensions-pc"],
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 4"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/vascon-es/lego-dimensions-pc/releases/download/v3.0/LEGO_Dimensions_PC_portatil.zip",
+      size: "137.6 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/vascon-es/lego-dimensions-pc/releases/download/v3.0/LEGO_Dimensions_PC_Setup.exe",
+      size: "138.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/ff/Lego_Dimensions_PS4_Box_Cover.jpg",
     alt: "LEGO Dimensions (box art)",

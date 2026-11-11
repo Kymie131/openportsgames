@@ -14,12 +14,24 @@ export const midtownMadness3: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.6.3", date: "2026-11-11" },
   sources: ["https://github.com/lakshya16157/midtown-madness-3-PC-Native"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/lakshya16157/midtown-madness-3-PC-Native/releases/download/v2.6.3/MM3-Linux-x86_64.tar.gz",
+      size: "40.7 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/lakshya16157/midtown-madness-3-PC-Native/releases/download/v2.6.3/MM3-Setup.exe",
+      size: "64.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/47/Midtown_Madness_3_Coverart.png",
     alt: "Midtown Madness 3 (box art)",

@@ -25,6 +25,18 @@ export const teamBeefStudiosQuestzdoom: Port = {
   summaryEs: "Doom es un videojuego de disparos en primera persona desarrollado y publicado por id Software. Lanzado el 10 de diciembre de 1993 para DOS, es la primera entrega de la franquicia Doom. El jugador asume el papel de un marine espacial, más tarde conocido extraoficialmente como Doomguy, que lucha contra hordas de humanos no muertos y demonios invasores. El juego comienza en las lunas de Marte y termina en el infierno, y el jugador atraviesa cada nivel para encontrar la salida o derrotar a su jefe final.",
   notes: "Doom: source port by Team-Beef-Studios for Windows. Bring your own copy of the game.",
   notesEs: "Doom: source port de Team-Beef-Studios para Windows. Aporta tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Team-Beef-Studios/QuestZDoom/releases/download/1.6.2/questzdoom-1.6.2.apk",
+      size: "32.1 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/Team-Beef-Studios/QuestZDoom/releases/download/1.6.2/questzdoom_launcher_106.apk",
+      size: "55.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg",
     alt: "Doom (box art)",

@@ -24,6 +24,13 @@ export const beatlesRockBandPc: Port = {
   summary: "The Beatles: Rock Band is a music game published by MTV Games for Xbox 360, released in 2009.",
   summaryEs: "The Beatles: Rock Band es un videojuego de m�sica publicado por MTV Games para Xbox 360, lanzado en 2009.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mercurialw0rld/thebeatlesrockband-pcport/releases/download/v0.7.3/BeatlesRockBand-PC-v0.7.3-preview-portable.zip",
+      size: "17.9 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/the-beatles-rock-band.svg",
     alt: "The Beatles: Rock Band (generated cover)",

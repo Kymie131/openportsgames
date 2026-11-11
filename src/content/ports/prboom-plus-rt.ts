@@ -47,6 +47,13 @@ export const prBoomPlusRt: Port = {
     "Linux fork of PrBoom-Plus that adds the real-time ray-traced Doom renderer, with packaging fixes for current Mesa drivers. Requires the original game's WAD files, which the player must own.",
   notesEs:
     "Fork para Linux de PrBoom-Plus que añade el renderizador de Doom con trazado de rayos en tiempo real, con arreglos de empaquetado para drivers Mesa actuales. Requiere los archivos WAD del juego original, que el jugador debe poseer.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/tomboylover93/prboom-plus-rt/releases/download/v2.6.1-rt1.0.7/prboom-rt-1.0.7.tar.gz",
+      size: "34.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Doom.png",
     alt: "Doom / Doom II (cover)",

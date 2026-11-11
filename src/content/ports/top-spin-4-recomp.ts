@@ -29,6 +29,13 @@ export const topSpin4Recomp: Port = {
     "Static recompilation of the Xbox 360 game to native x86-64 with ReXGlue. Version 1.0.0 translates the game's Direct3D 9 calls to Vulkan, with a Xenia-style Classic GPU path as a fallback. Exhibition singles and doubles, Career, Top Spin Academy, King of the Court, local multiplayer and saves work at 60 fps; online modes do not. Requires your own disc image and Title Update 1. Tested only on an AMD RX 7900 XT; NVIDIA, Intel and Steam Deck are untested. No game files are included.",
   notesEs:
     "Recompilación estática del juego de Xbox 360 a x86-64 nativo con ReXGlue. La versión 1.0.0 traduce las llamadas Direct3D 9 del juego a Vulkan, con una ruta gráfica Classic estilo Xenia como respaldo. Los partidos individuales y dobles, el modo carrera, Top Spin Academy, King of the Court, el multijugador local y las partidas guardadas funcionan a 60 fps; los modos online no. Requiere tu propia imagen de disco y la Title Update 1. Solo se ha probado en una AMD RX 7900 XT; NVIDIA, Intel y Steam Deck no están verificados. No incluye archivos del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/shaneomac1337/Top-Spin-4-Recomp/releases/download/v1.0.1/TopSpin4Recomp-1.0.1.zip",
+      size: "81.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/4d/Top_Spin_4_cover.jpg",
     alt: "Top Spin 4 (box art)",

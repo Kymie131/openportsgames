@@ -25,6 +25,18 @@ export const slyCooperRecomp: Port = {
   notes: "PortsDR lists this recompilation without a public repository. Own the game to play it.",
   notesEs:
     "PortsDR lista esta recompilación sin repositorio público. Necesitas el juego para jugarla.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/theclub654/ProjectCane/releases/download/decompilation/ProjectCane-Linux-x64.rar",
+      size: "45.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/theclub654/ProjectCane/releases/download/decompilation/ProjectCane-Windows-x64.rar",
+      size: "58.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/8e/SlyCooper2002cover.jpg",
     alt: "Sly Cooper and the Thievius Raccoonus (box art)",

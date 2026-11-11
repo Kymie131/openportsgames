@@ -20,6 +20,13 @@ export const libertyrecompandroid: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/vaduur/LibertyRecompAndroid/releases/download/v0.5.9.3/LibertyRecompAndroid-v0.5.9.3.apk",
+      size: "45.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b7/Grand_Theft_Auto_IV_cover.jpg",
     alt: "Grand Theft Auto IV (box art)",

@@ -26,6 +26,38 @@ export const silentHillPc: Port = {
     "Native PC port of the original PlayStation Silent Hill, built on the silent-hill-decomp decompilation with PsyCross (a PsyQ SDK compatibility layer). It runs as a real Windows/Linux executable compiled from the decompiled C source, not an emulator or a static recompilation, and is playable start to finish with widescreen, high resolution, uncapped FPS, alternate cameras and mod support. Development is openly AI-assisted (Claude) over reviewed, hand-directed edits; you must supply your own game dump.",
   notesEs:
     "Port nativo para PC del Silent Hill original de PlayStation, construido sobre la decompilación silent-hill-decomp con PsyCross (una capa de compatibilidad del SDK PsyQ). Se ejecuta como un binario real de Windows/Linux compilado desde el código C decompilado, no es un emulador ni una recompilación estática, y es jugable de principio a fin con panorámico, alta resolución, FPS sin límite, cámaras alternativas y soporte de mods. El desarrollo es abiertamente asistido por IA (Claude) sobre ediciones revisadas y dirigidas a mano; debes aportar tu propio volcado del juego.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/SlickAmogus/silent-hill-decomp/releases/download/crossplatform-beta/SHAndroid_100926_OLD.apk",
+      size: "13.2 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/SlickAmogus/silent-hill-decomp/releases/download/crossplatform-beta/SHAndroid_101226b.apk",
+      size: "10.3 MB",
+    },
+    {
+      label: "iOS IPA",
+      url: "https://github.com/SlickAmogus/silent-hill-decomp/releases/download/crossplatform-beta/SHiOS_100726b_OLD.ipa",
+      size: "4.1 MB",
+    },
+    {
+      label: "iOS IPA",
+      url: "https://github.com/SlickAmogus/silent-hill-decomp/releases/download/crossplatform-beta/SHiOS_100926.ipa",
+      size: "4.1 MB",
+    },
+    {
+      label: "SHPC-linux-x64_2026.09.27.1",
+      url: "https://github.com/SlickAmogus/silent-hill-decomp/releases/download/crossplatform-beta/SHPC-linux-x64_2026.09.27.1.tar.gz",
+      size: "17.4 MB",
+    },
+    {
+      label: "SHPC-macos-arm64_2026.09.27.1",
+      url: "https://github.com/SlickAmogus/silent-hill-decomp/releases/download/crossplatform-beta/SHPC-macos-arm64_2026.09.27.1.zip",
+      size: "15.2 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Silent%20Hill%20(USA).png",
     alt: "Silent Hill (box art)",

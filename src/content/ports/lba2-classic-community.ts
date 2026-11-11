@@ -14,7 +14,7 @@ export const Lba2ClassicCommunity: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.13.2", date: "2026-10-22" },
   sources: ["https://github.com/LBALab/lba2-classic-community"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -23,6 +23,38 @@ export const Lba2ClassicCommunity: Port = {
   summary: "lba2-classic-community is a action-adventure game, released in 2000.",
   summaryEs: "lba2-classic-community es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/LBALab/lba2-classic-community/releases/download/v0.13.2/lba2cc-0.13.2-android-arm64-v8a.apk",
+      size: "6.3 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/LBALab/lba2-classic-community/releases/download/v0.13.2/lba2cc-0.13.2-android-armeabi-v7a.apk",
+      size: "4.8 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/LBALab/lba2-classic-community/releases/download/v0.13.2/lba2cc-0.13.2-anylinux-aarch64.AppImage",
+      size: "17.5 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/LBALab/lba2-classic-community/releases/download/v0.13.2/lba2cc-0.13.2-anylinux-x86_64.AppImage",
+      size: "18.4 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/LBALab/lba2-classic-community/releases/download/v0.13.2/lba2cc-0.13.2-linux-aarch64.tar.gz",
+      size: "2.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/LBALab/lba2-classic-community/releases/download/v0.13.2/lba2cc-0.13.2-linux-x86_64.tar.gz",
+      size: "2.4 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/lba2-classic-community.svg",
     alt: "lba2-classic-community (generated cover)",

@@ -14,13 +14,20 @@ export const bloodbornePcWindows: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.9.8.4", date: "2026-11-08" },
   sources: ["https://github.com/Supermedo/bloodborne_pc"],
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation 4"],
   related: ["bloodborne-pc","bloodborne-android"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Supermedo/bloodborne_pc/releases/download/windows-v1.9.8.4/Bloodborne-Windows.zip",
+      size: "195.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
     alt: "Bloodborne (box art)",

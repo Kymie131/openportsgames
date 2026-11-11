@@ -14,12 +14,24 @@ export const marioKartWii3ds: Port = {
   originalGameLicense: "proprietary",
   platforms: ["3ds"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.7.0", date: "2026-11-09" },
   sources: ["https://github.com/MiniBandit/MKW-3DS"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Wii"],
+  downloads: [
+    {
+      label: "Macos",
+      url: "https://github.com/MiniBandit/MKW-3DS/releases/download/v0.7.0/MKW-3DS-Builder-v0.7.0-macOS.zip",
+      size: "6.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/MiniBandit/MKW-3DS/releases/download/v0.7.0/MKW-3DS-Builder-v0.7.0-Windows.zip",
+      size: "6.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png",
     alt: "Mario Kart Wii (box art)",

@@ -26,6 +26,28 @@ export const fteTeamFteqw: Port = {
   summaryEs: "Quake es un videojuego de disparos en primera persona publicado por id Software el 22 de junio de 1996. Introdujo algunos de los mayores avances en el género de los videojuegos en 3D: utiliza modelos tridimensionales para los jugadores y los monstruos en vez de sprites bidimensionales; y el mundo donde el juego tiene lugar está creado como un verdadero espacio tridimensional, en vez de ser un mapa bidimensional con información sobre la altura representada en tres dimensiones.",
   notes: "Quake: source port by fte-team for Windows. Bring your own copy of the game.",
   notesEs: "Quake: source port de fte-team para Windows. Aporta tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/fte-team/fteqw/releases/download/2025-09-27/fteqw-linux64-c781d13.zip",
+      size: "5.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/fte-team/fteqw/releases/download/2025-09-27/fteqw-web-c781d13.zip",
+      size: "2.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/fte-team/fteqw/releases/download/2025-09-27/fteqw-win32-c781d13.zip",
+      size: "5.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/fte-team/fteqw/releases/download/2025-09-27/fteqw-win64-c781d13.zip",
+      size: "5.4 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Quake%20(1996).png",
     alt: "Quake (box art)",

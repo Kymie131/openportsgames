@@ -22,6 +22,38 @@ export const Ares: Port = {
   originalSystems: ["Unknown"],
   summary: "ARES is a VR Milsim platform with interactive features, simulated combat scenarios, and customization options. Play solo or online with other players in different gamemodes across an open milsim sandbox experience rooted deep in player-driven campaigns missions, &amp; scenarios. Gear up and embark!",
   summaryEs: "ares es un videojuego de plataformas publicado por Prelancer Studios.",
+  downloads: [
+    {
+      label: "Macos",
+      url: "https://github.com/ares-emulator/ares/releases/download/v148/ares-macos-universal-dSYMs.zip",
+      size: "73.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/ares-emulator/ares/releases/download/v148/ares-macos-universal.zip",
+      size: "76.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/ares-emulator/ares/releases/download/v148/ares-windows-clang-cl-arm64-PDBs.zip",
+      size: "27.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/ares-emulator/ares/releases/download/v148/ares-windows-clang-cl-arm64.zip",
+      size: "60.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/ares-emulator/ares/releases/download/v148/ares-windows-x64-PDBs.zip",
+      size: "8.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/ares-emulator/ares/releases/download/v148/ares-windows-x64.zip",
+      size: "61.8 MB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3766840/6b8c5030472eabaf77c81093199104fdc98608aa/header.jpg?t=1785399408",
     alt: "ares (Steam header)",

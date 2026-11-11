@@ -21,6 +21,13 @@ export const dbzBurstLimitRecompAndroid: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/dfdx047/Dragon-Burst/releases/download/v0.2.2/DragonBurst-v0.2.2.apk",
+      size: "114.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/55/Dragon_Ball_Z_Burst_Limit.jpg",
     alt: "Dragon Ball Z: Burst Limit (box art)",

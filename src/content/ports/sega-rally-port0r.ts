@@ -21,6 +21,13 @@ export const segaRallyPort0r: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Arcade"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/jacquesdupontd/port0r/releases/download/scud-v0.2.3/Port0r-ScudRaceVR-v0.2.3-quest3.apk",
+      size: "226.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/eb/Sega_Rally_flyer.jpg",
     alt: "Sega Rally Championship (box art)",

@@ -14,12 +14,34 @@ export const finalFantasyTacticsAdvanceRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows","linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "3.1", date: "2026-11-01" },
   sources: ["https://github.com/Jorge262007/FFTARecomp"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy Advance"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Jorge262007/FFTARecomp/releases/download/3.1/FFTARecomp-android-arm64.apk",
+      size: "15.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Jorge262007/FFTARecomp/releases/download/3.1/FFTARecomp-linux-x86_64.tar.gz",
+      size: "14.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Jorge262007/FFTARecomp/releases/download/3.1/FFTARecomp-SteamDeck-linux-x86_64.tar.gz",
+      size: "14.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Jorge262007/FFTARecomp/releases/download/3.1/FFTARecomp-windows-x86_64.zip",
+      size: "10.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c4/FinalFantasyTacticsAdvanceGBACoverArtUS.jpg",
     alt: "Final Fantasy Tactics Advance (box art)",

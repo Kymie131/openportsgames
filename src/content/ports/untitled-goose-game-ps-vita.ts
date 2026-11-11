@@ -14,12 +14,19 @@ export const untitledGooseGamePsVita: Port = {
   originalGameLicense: "proprietary",
   platforms: ["psvita"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1", date: "2024-02-21" },
   sources: ["https://github.com/PatnosDD/Untitled-Goose-Game-PS-VITA"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "GooseGameVITA",
+      url: "https://github.com/PatnosDD/Untitled-Goose-Game-PS-VITA/releases/download/v0.1/GooseGameVITA.zip",
+      size: "149.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/b/b2/Untitled_Goose_Game_Cover_art.jpg",
     alt: "Untitled Goose Game (box art)",

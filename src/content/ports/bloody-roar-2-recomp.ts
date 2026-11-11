@@ -14,7 +14,7 @@ export const bloodyRoar2Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.7.1", date: "2026-09-26" },
   sources: ["https://github.com/novapowers0/BloodyRoar2Recomp"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
@@ -26,6 +26,18 @@ export const bloodyRoar2Recomp: Port = {
     "A PortsDR community listing; no repository or release is public. The original game is required.",
   notesEs:
     "Ficha comunitaria de PortsDR; no hay repositorio ni release públicos. Hace falta el juego original.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/novapowers0/BloodyRoar2Recomp/releases/download/v0.7.1/BloodyRoar2-linux-x64-0.7.1.zip",
+      size: "18.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/novapowers0/BloodyRoar2Recomp/releases/download/v0.7.1/BloodyRoar2-v0.7.1.zip",
+      size: "19.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Bloody%20Roar%202%20-%20Bringer%20of%20the%20New%20Age%20(Europe).png",
     alt: "Bloody Roar 2 (box art)",

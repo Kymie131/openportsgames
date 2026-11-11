@@ -14,13 +14,30 @@ export const streetFighterIii3rdStrikeXbox: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.21", date: "2026-10-23" },
   sources: ["https://github.com/Manya3084/SF33RDSXBRecompo"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox"],
   related: ["street-fighter-iii-3rd-strike-3sx"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Manya3084/SF33RDSXBRecompo/releases/download/v1.21/sf33rdsxb-android-arm64.apk",
+      size: "12.6 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Manya3084/SF33RDSXBRecompo/releases/download/v1.21/sf33rdsxb-linux-x86_64.tar.gz",
+      size: "6.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Manya3084/SF33RDSXBRecompo/releases/download/v1.21/sf33rdsxb-windows-x86_64.zip",
+      size: "11.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e6/Street_Fighter_III_3rd_Strike_%28flyer%29.png",
     alt: "Street Fighter III: 3rd Strike (box art)",

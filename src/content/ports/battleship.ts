@@ -14,7 +14,7 @@ export const battleship: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.6", date: "2026-08-12" },
   sources: ["https://github.com/JRickey/BattleShip"],
   license: { spdx: "MIT" },
   verified: false,
@@ -25,6 +25,38 @@ export const battleship: Port = {
     "PC port of Super Smash Bros. (N64) for the USA and Japanese releases, built on the ssb-decomp-re decompilation with libultraship. It runs on Windows, Linux, macOS and Android, and adds widescreen, texture packs, C mods and competitive options.",
   notesEs:
     "Port a PC de Super Smash Bros. (N64) para las versiones USA y japonesa, sobre la decompilación ssb-decomp-re con libultraship. Corre en Windows, Linux, macOS y Android, y añade widescreen, packs de texturas, mods en C y opciones competitivas.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/JRickey/BattleShip/releases/download/v1.6/BattleShip-android-armeabi-v7a.apk",
+      size: "107.1 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/JRickey/BattleShip/releases/download/v1.6/BattleShip-android.apk",
+      size: "123.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/JRickey/BattleShip/releases/download/v1.6/BattleShip-JP-windows.zip",
+      size: "6.2 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/JRickey/BattleShip/releases/download/v1.6/BattleShip-JP-x86_64.AppImage",
+      size: "15.7 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/JRickey/BattleShip/releases/download/v1.6/BattleShip-JP.dmg",
+      size: "13.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/JRickey/BattleShip/releases/download/v1.6/BattleShip-windows.zip",
+      size: "8.4 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Super%20Smash%20Bros.%20(USA).png",
     alt: "Super Smash Bros. (box art)",

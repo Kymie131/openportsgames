@@ -14,7 +14,7 @@ export const puyoPuyoBoxRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.1", date: "2026-09-07" },
   sources: ["https://github.com/kirby1237/PuyoPuyoBoxRecomp"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
@@ -24,6 +24,13 @@ export const puyoPuyoBoxRecomp: Port = {
   summaryEs: "Puyo Puyo BOX es un videojuego compilatorio desarrollado por Compile para Sony PlayStation. Es el último título reconocido de Compile de Puyo Puyo en la serie antes de que Sega, que anteriormente solo poseía los derechos de los personajes, obtuviera los derechos de la serie. Puyo Puyo BOX, al ser una compilación, consiste principalmente en juegos anteriores de Puyo Puyo, pero también contiene contenido original.",
   notes: "Community entry from PortsDR. No repository is public; the game is not included.",
   notesEs: "Entrada comunitaria de PortsDR. No hay repositorio público; el juego no se incluye.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/kirby1237/PuyoPuyoBoxRecomp/releases/download/v.0.1.1/PuyoPuyoBoxRecomp_Windows.zip",
+      size: "28.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Puyo%20Puyo%20Box%20(Japan).png",
     alt: "Puyo Puyo Box (box art)",

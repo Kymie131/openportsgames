@@ -41,6 +41,18 @@ export const dkcRecompiled: Port = {
     "Recompilation trilogy covering Donkey Kong Country, Donkey Kong Country 2: Diddy's Kong Quest and Donkey Kong Country 3: Dixie Kong's Double Trouble, each from its own repository. Requires the player's own legally dumped ROM per game.",
   notesEs:
     "Trilogía de recompilaciones que cubre Donkey Kong Country, Donkey Kong Country 2: Diddy's Kong Quest y Donkey Kong Country 3: Dixie Kong's Double Trouble, cada una desde su propio repositorio. Requiere la ROM de cada juego volcada legalmente por el propio jugador.",
+  downloads: [
+    {
+      label: "Macos",
+      url: "https://github.com/elliotttate/DKC1Recomp/releases/download/v0.0.17/DKC1Recomp-v0.0.15-macOS-arm64-HD-Preview.zip",
+      size: "840.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/elliotttate/DKC1Recomp/releases/download/v0.0.17/DKC1Recomp-v0.0.17-Windows-x64.zip",
+      size: "12.3 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Donkey%20Kong%20Country%20(USA).png",
     alt: "Donkey Kong Country (box art)",

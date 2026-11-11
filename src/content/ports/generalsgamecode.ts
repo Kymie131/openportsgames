@@ -23,6 +23,18 @@ export const Generalsgamecode: Port = {
   summary: "GeneralsGameCode is a strategy game, released in 2000.",
   summaryEs: "GeneralsGameCode es un videojuego de estrategia, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "generals-weekly-2026-11-06",
+      url: "https://github.com/TheSuperHackers/GeneralsGameCode/releases/download/weekly-2026-11-06/generals-weekly-2026-11-06.zip",
+      size: "30.1 MB",
+    },
+    {
+      label: "generalszh-weekly-2026-11-06",
+      url: "https://github.com/TheSuperHackers/GeneralsGameCode/releases/download/weekly-2026-11-06/generalszh-weekly-2026-11-06.zip",
+      size: "31.9 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/generalsgamecode.svg",
     alt: "GeneralsGameCode (generated cover)",

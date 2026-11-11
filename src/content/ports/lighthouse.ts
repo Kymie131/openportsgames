@@ -37,6 +37,23 @@ export const lighthouse: Port = {
     "Native PC port of Banjo-Kazooie for the libultraship engine, by the HarbourMasters team. Requires the player's own legally obtained Banjo-Kazooie ROM; the launcher extracts the game data from it.",
   notesEs:
     "Port nativo para PC de Banjo-Kazooie para el motor libultraship, del equipo HarbourMasters. Requiere la ROM de Banjo-Kazooie obtenida legalmente por el jugador; el lanzador extrae los datos del juego a partir de ella.",
+  downloads: [
+    {
+      label: "Macos",
+      url: "https://github.com/HarbourMasters/Lighthouse/releases/download/1.2.2/Lighthouse-Montauk-Charlie-Mac.zip",
+      size: "14.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/HarbourMasters/Lighthouse/releases/download/1.2.2/Lighthouse-Montauk-Charlie-Win64.zip",
+      size: "34.9 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/HarbourMasters/Lighthouse/releases/download/1.2.2/lighthouse.appimage",
+      size: "13.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Banjo-Kazooie%20(USA).png",
     alt: "Banjo-Kazooie (box art)",

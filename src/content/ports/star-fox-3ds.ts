@@ -14,12 +14,19 @@ export const starFox3ds: Port = {
   originalGameLicense: "proprietary",
   platforms: ["3ds"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1", date: "2026-10-19" },
   sources: ["https://github.com/EstebanPdN/starwing-3ds"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Super Nintendo"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/EstebanPdN/starwing-3ds/releases/download/v1.1/Starwing-3DS-Homebrew.zip",
+      size: "2.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Star%20Fox%20(Japan)%20(Rev%201).png",
     alt: "Star Fox (box art)",

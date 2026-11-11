@@ -25,6 +25,13 @@ export const edw590F1dp: Port = {
   summaryEs: "Fallout es una serie de videojuegos de rol publicados originalmente por Interplay, posteriormente por Bethesda Softworks y actualmente por Xbox Game Studios. Aunque las tramas de los videojuegos se desarrollan en los siglos XXII y XXIII, prevalece una gran influencia de la cultura de posguerra desarrollada en los años 1950 en Estados Unidos, así como la combinación de esperanza y progreso tecnológico, junto con el miedo a la aniquilación nuclear y los efectos de una tercera guerra mundial a finales del siglo XXI y posterior.",
   notes: "Fallout: decompilation by Edw590 for Windows. Bring your own copy of the game.",
   notesEs: "Fallout: decompilación de Edw590 para Windows. Aporta tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Edw590/F1DP/releases/download/v1.3/F1DP_v1.3.zip",
+      size: "93 KB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/af/Fallout.jpg",
     alt: "Fallout (box art)",

@@ -35,6 +35,33 @@ export const gzdoom: Port = {
     "Feature-centric source port for all Doom-engine games, with an official Android build. Requires an IWAD (the freedoom project provides assets).",
   notesEs:
     "Port de código fuente centrado en características para todos los juegos del motor Doom, con build oficial para Android. Requiere un IWAD (el proyecto freedoom ofrece recursos).",
+  downloads: [
+    {
+      label: "Macos",
+      url: "https://github.com/ZDoom/gzdoom/releases/download/g4.14.2/gzdoom-4-14-2-macos.zip",
+      size: "34.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/ZDoom/gzdoom/releases/download/g4.14.2/gzdoom-4-14-2-windows-pdb.7z",
+      size: "12.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/ZDoom/gzdoom/releases/download/g4.14.2/gzdoom-4-14-2-windows.zip",
+      size: "20.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/ZDoom/gzdoom/releases/download/g4.14.2/gzdoom_4.14.2_amd64.deb",
+      size: "18.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/ZDoom/gzdoom/releases/download/g4.14.2/gzdoom_4.14.2_arm64.deb",
+      size: "17.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg",
     alt: "Doom (box art)",

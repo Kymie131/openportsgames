@@ -14,7 +14,7 @@ export const SnailMail: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.4.0", date: "2026-10-18" },
   sources: ["https://github.com/banteg/snail"],
   license: { spdx: "NOASSERTION" },
   verified: false,
@@ -22,6 +22,18 @@ export const SnailMail: Port = {
   originalSystems: ["Unknown"],
   summary: "Race to deliver THE letter first in this strategic, card-based, online board game for 2 or 4 players. Invite your friends for free with a Friend's Pass! 🐌 Use powerful ability cards to speed ahead or sabotage rivals. Build your own customized decks for a fresh, chaotic challenge every game! ⚔️",
   summaryEs: "Snail Mail es un videojuego de acción y aventura publicado por WASD Studios en 2025.",
+  downloads: [
+    {
+      label: "snail-port-assets-v4",
+      url: "https://github.com/banteg/snail/releases/download/v0.4.0/snail-port-assets-v4.tar.gz",
+      size: "12.9 MB",
+    },
+    {
+      label: "snail-port-assets-v5",
+      url: "https://github.com/banteg/snail/releases/download/v0.4.0/snail-port-assets-v5.tar.gz",
+      size: "13.8 MB",
+    },
+  ],
   cover: {
     src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Snail_Mail_Treefort_2022_%28cropped%29.jpg/960px-Snail_Mail_Treefort_2022_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     alt: "Snail Mail (box art)",

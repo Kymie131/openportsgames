@@ -14,7 +14,7 @@ export const bombermanFantasyRaceRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.3", date: "2026-10-01" },
   sources: ["https://github.com/TechnicallyComputers/Bomberman-Fantasy-Race-Recomp"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
@@ -24,6 +24,28 @@ export const bombermanFantasyRaceRecomp: Port = {
   summaryEs: "Bomberman Fantasy Race es un videojuego de carreras desarrollado por Graphis Research Inc., lanzado en 6 de agosto de 1998 en Japón para PlayStation por publicador Hudson Soft. Fue lanzado en 31 de marzo de 1999 en Norteamérica por Atlus y en julio de 2000 en Europa por Virgin Interactive. Es un Spin-off de la serie Bomberman.",
   notes: "Tracked by PortsDR. No public repo is linked yet, and you supply the game files.",
   notesEs: "Seguido por PortsDR. Todavía no hay repo público, y tú aportas los archivos del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/TechnicallyComputers/Bomberman-Fantasy-Race-Recomp/releases/download/v0.1.3/bfr-0.1.3-linux-x64.zip",
+      size: "52.6 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/TechnicallyComputers/Bomberman-Fantasy-Race-Recomp/releases/download/v0.1.3/bfr-0.1.3-macos-arm64.zip",
+      size: "28.3 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/TechnicallyComputers/Bomberman-Fantasy-Race-Recomp/releases/download/v0.1.3/bfr-0.1.3-macos-x64.zip",
+      size: "28.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/TechnicallyComputers/Bomberman-Fantasy-Race-Recomp/releases/download/v0.1.3/bfr-0.1.3-windows-x64.zip",
+      size: "31.1 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Bomberman%20Fantasy%20Race%20(Europe)%20(En,Fr,De,Es).png",
     alt: "Bomberman Fantasy Race (box art)",

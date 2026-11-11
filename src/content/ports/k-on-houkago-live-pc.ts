@@ -14,7 +14,7 @@ export const kOnHoukagoLivePc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.2.0", date: "2026-10-28" },
   sources: ["https://github.com/EDGX73/KOn-Houkago-Live-Recompiled"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -23,6 +23,23 @@ export const kOnHoukagoLivePc: Port = {
   summary: "K-On! Houkago Live!! is a music game published by Sega for PlayStation Portable, released in 2010.",
   summaryEs: "K-On! Houkago Live!! es un videojuego de m�sica publicado por Sega para PlayStation Portable, lanzado en 2010.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/EDGX73/KOn-Houkago-Live-Recompiled/releases/download/v0.2.0/K-On.Houkago.Live.Recompiled-v0.2.0-actualizacion.zip",
+      size: "4.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/EDGX73/KOn-Houkago-Live-Recompiled/releases/download/v0.2.0/K-On.Houkago.Live.Recompiled-v0.2.0-windows.zip",
+      size: "86.8 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/EDGX73/KOn-Houkago-Live-Recompiled/releases/download/v0.2.0/KOn-Houkago-Live-Recompiled-0.2.0-android.apk",
+      size: "98.4 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/k-on-houkago-live.svg",
     alt: "K-On! Houkago Live!! (generated cover)",

@@ -14,7 +14,7 @@ export const blakeStoneRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.2.0", date: "2026-10-22" },
   sources: ["https://github.com/sp00nznet/blakestone"],
   license: { spdx: "MIT" },
   verified: false,
@@ -22,6 +22,23 @@ export const blakeStoneRecomp: Port = {
   originalSystems: ["MS-DOS"],
   summary: "Blake Stone: Aliens of Gold is a first-person shooter for DOS created by JAM Productions and published by Apogee Software on December 5, 1993. The following year, a sequel called Blake Stone: Planet Strike was released, which continues where Aliens of Gold leaves off. Some copies of the game provided a Command Control Gravis Gamepad.",
   summaryEs: "Blake Stone: Aliens of Gold es un shooter en primera persona creado por JAM Productions y publicado por Apogee Software. Utiliza el motor gráfico de Wolfenstein 3D, al cual le añade muchas características tales como texturas de suelo y techo. La versión shareware del juego fue publicado el 3 de diciembre de 1993. Con la versión registrada de Blake Stone se incluía un cómic, el cual funcionaba como introducción al juego. En 1994 se publica Blake Stone: Planet Strike, una secuela continuación directa del primer título.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/sp00nznet/blakestone/releases/download/v0.2.0/BlakeStone-Recomp-Installer-linux-x64.tar.gz",
+      size: "9.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/sp00nznet/blakestone/releases/download/v0.2.0/BlakeStone-Recomp-Installer-macos-arm64.zip",
+      size: "9.1 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/sp00nznet/blakestone/releases/download/v0.2.0/BlakeStone-Recomp-Installer-windows-x64.exe",
+      size: "18.3 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/blake-stone-aliens-of-gold-planet-strike.svg",
     alt: "Blake Stone: Aliens of Gold / Planet Strike (generated cover)",

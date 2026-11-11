@@ -14,12 +14,19 @@ export const tombaRecompDsDualScreen: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.0", date: "2026-09-12" },
   sources: ["https://github.com/igawa6/Tomba2RecompDS"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/igawa6/Tomba2RecompDS/releases/download/v0.1.0/Tomba2RecompDS-v0.1.0-arm64-v8a.apk",
+      size: "117.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/ff/Tomba%21_2_-_The_Evil_Swine_Return_Coverart.png",
     alt: "Tomba! 2: The Evil Swine Return (box art)",

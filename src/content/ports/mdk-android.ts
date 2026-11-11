@@ -21,6 +21,33 @@ export const mdkAndroid: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/nautilusbits/mdk-sdl/releases/download/v1.2.6/mdk-android.apk",
+      size: "18.3 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/nautilusbits/mdk-sdl/releases/download/v1.2.6/mdk-linux-arm64.tar.gz",
+      size: "4.7 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/nautilusbits/mdk-sdl/releases/download/v1.2.6/mdk-linux-x64.tar.gz",
+      size: "4.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/nautilusbits/mdk-sdl/releases/download/v1.2.6/mdk-osx-arm64.zip",
+      size: "4.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/nautilusbits/mdk-sdl/releases/download/v1.2.6/mdk-win-x64.zip",
+      size: "4.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/MDK%20(Europe)%20(En,Fr,De,Es,It).png",
     alt: "MDK (box art)",

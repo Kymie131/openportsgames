@@ -14,7 +14,7 @@ export const vandalHeartsRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.1.0", date: "2026-08-31" },
   sources: ["https://github.com/HalmyLyseas/VandalHearts-PcPort"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -25,6 +25,28 @@ export const vandalHeartsRecomp: Port = {
     "Native PC port of Vandal Hearts built on a byte-exact matching decompilation. It builds for Windows and Linux and needs your own disc.",
   notesEs:
     "Port nativo para PC de Vandal Hearts construido sobre una decompilación byte-exact. Compila para Windows y Linux y necesita tu propio disco.",
+  downloads: [
+    {
+      label: "VandalHearts-v2.1.0-hdpack-SLPM-86007",
+      url: "https://github.com/HalmyLyseas/VandalHearts-PcPort/releases/download/v2.1.0/VandalHearts-v2.1.0-hdpack-SLPM-86007.zip",
+      size: "333.2 MB",
+    },
+    {
+      label: "VandalHearts-v2.1.0-hdpack-SLUS-00447",
+      url: "https://github.com/HalmyLyseas/VandalHearts-PcPort/releases/download/v2.1.0/VandalHearts-v2.1.0-hdpack-SLUS-00447.zip",
+      size: "330.6 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/HalmyLyseas/VandalHearts-PcPort/releases/download/v2.1.0/VandalHearts-v2.1.0-linux-x86_64.AppImage",
+      size: "9.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/HalmyLyseas/VandalHearts-PcPort/releases/download/v2.1.0/VandalHearts-v2.1.0-windows-x64.zip",
+      size: "5.5 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Vandal%20Hearts%20(Europe)%20(En,Fr,De).png",
     alt: "Vandal Hearts (box art)",

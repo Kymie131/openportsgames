@@ -14,13 +14,35 @@ export const deadRising2CaseZeroRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1.3", date: "2026-10-14" },
   sources: ["https://github.com/wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
   originalSystems: ["Xbox 360"],
   summary: "Dead Rising 2: Case Zero is a action-adventure game in 2010.",
   summaryEs: "Dead Rising 2: Case Zero es un videojuego de acción y aventura en 2010.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp/releases/download/v1.1.3/CaseZeroRecomp-linux-x86_64.AppImage",
+      size: "29.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp/releases/download/v1.1.3/CaseZeroRecomp-macos-arm64.zip",
+      size: "26.9 MB",
+    },
+    {
+      label: "CaseZeroRecomp-steamdeck-x86_64",
+      url: "https://github.com/wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp/releases/download/v1.1.3/CaseZeroRecomp-steamdeck-x86_64.tar.gz",
+      size: "30.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp/releases/download/v1.1.3/CaseZeroRecomp-windows-x86_64.zip",
+      size: "23.8 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/dead-rising-2-case-zero.svg",
     alt: "Dead Rising 2: Case Zero (generated cover)",

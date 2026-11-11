@@ -22,6 +22,13 @@ export const ctrToolsCtrModsdk: Port = {
   wip: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/CTR-tools/CTR-ModSDK/releases/download/r11/CTR-ModSDK.Mod.Collection.zip",
+      size: "22.1 MB",
+    },
+  ],
   cover: {
     src: "https://cdn2.steamgriddb.com/thumb/afa10814865d47b74741b44d8fcbb37b.jpg",
     alt: "Crash Team Racing (box art)",

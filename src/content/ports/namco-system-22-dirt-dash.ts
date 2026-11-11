@@ -45,6 +45,38 @@ export const namcoSystem22DirtDash: Port = {
     "Decompilation of the 1995 Namco arcade rally game for PC. All five tracks are finished, which is more than the arcade original shipped with.",
   notesEs:
     "Decompilación del juego arcade de rally de Namco de 1995 para PC. Las cinco pistas están terminadas, más de las que incluía el arcade original.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/AceDriver-x86_64.AppImage",
+      size: "3.4 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/AnglerKing-x86_64.AppImage",
+      size: "4.8 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/ArmadilloRacing-x86_64.AppImage",
+      size: "3.4 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/CrisisZone-x86_64.AppImage",
+      size: "12.9 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/CyberCommando-x86_64.AppImage",
+      size: "3.9 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/CyberSled-x86_64.AppImage",
+      size: "3.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/df/Dirt_Dash_arcade_flyer.jpg",
     alt: "Dirt Dash (box art)",

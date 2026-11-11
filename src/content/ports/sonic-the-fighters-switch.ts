@@ -14,12 +14,19 @@ export const sonicTheFightersSwitch: Port = {
   originalGameLicense: "proprietary",
   platforms: ["switch"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.8.3", date: "2026-10-09" },
   sources: ["https://github.com/boraeskicioglu/sonic_the_fighters_nx"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Arcade"],
+  downloads: [
+    {
+      label: "Switch NRO",
+      url: "https://github.com/boraeskicioglu/sonic_the_fighters_nx/releases/download/0.8.3/sonic_fighters_nx.nro",
+      size: "6.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/5b/Sonic_the_Fighters.png",
     alt: "Sonic the Fighters (box art)",

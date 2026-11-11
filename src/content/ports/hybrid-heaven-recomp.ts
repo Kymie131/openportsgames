@@ -14,13 +14,25 @@ export const hybridHeavenRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows","linux"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.7.3", date: "2026-10-05" },
   sources: ["https://github.com/hunkstalker/hybrid-heaven-recomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   aiDisclosure: {"source":"https://github.com/hunkstalker/hybrid-heaven-recomp","quote":"Unofficial AI native PC port of Hybrid Heaven"},
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/hunkstalker/hybrid-heaven-recomp/releases/download/v0.7.3/HybridHeavenRecomp-Linux.tar.gz",
+      size: "11.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/hunkstalker/hybrid-heaven-recomp/releases/download/v0.7.3/HybridHeavenRecomp-Windows.zip",
+      size: "18.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/db/Hybridheaven.jpg",
     alt: "Hybrid Heaven (box art)",

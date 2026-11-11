@@ -14,7 +14,7 @@ export const goGoAckmanPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0", date: "2026-10-15" },
   sources: ["https://github.com/catmidori/gogoackman1recomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -22,6 +22,13 @@ export const goGoAckmanPc: Port = {
   originalSystems: ["Super Nintendo"],
   summary: "Go Go Ackman is a platform game published by Banpresto in 1994.",
   summaryEs: "Go Go Ackman es un videojuego de plataformas publicado por Banpresto en 1994.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/catmidori/gogoackman1recomp/releases/download/v1.0/GoGoAckmanRecompiled-1.0-Windows-x86-64.zip",
+      size: "4.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Go%20Go%20Ackman%20(Japan).png",
     alt: "Go Go Ackman (box art)",

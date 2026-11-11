@@ -14,12 +14,19 @@ export const superMarioSunshinePs5: Port = {
   originalGameLicense: "proprietary",
   platforms: ["ps5"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.10.0", date: "2026-10-14" },
   sources: ["https://github.com/griches/PS5_Sunshine"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
+  downloads: [
+    {
+      label: "Sunshine-PS5-v0.10.0",
+      url: "https://github.com/griches/PS5_Sunshine/releases/download/v0.10.0/Sunshine-PS5-v0.10.0.zip",
+      size: "20.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/05/Super_Mario_Sunshine_Box_Art.png",
     alt: "Super Mario Sunshine (box art)",

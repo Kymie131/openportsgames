@@ -22,6 +22,38 @@ export const ShatteredParadise: Port = {
   originalSystems: ["Unknown"],
   summary: "Shattered Paradise is a dark turn-based roguelike RPG inspired by The Divine Comedy. Descend through Inferno, Purgatory and Paradise in the aftermath of a rebellion that shattered creation itself. Prepare to challenge God... and live with everything that follows.",
   summaryEs: "Shattered Paradise es un videojuego de acción y aventura publicado por TBD.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/ABrandau/Shattered-Paradise-SDK/releases/download/playtest-20241231/ShatteredParadise-playtest-20241231-x64-winportable.zip",
+      size: "243.7 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/ABrandau/Shattered-Paradise-SDK/releases/download/playtest-20241231/ShatteredParadise-playtest-20241231-x64.exe",
+      size: "206.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/ABrandau/Shattered-Paradise-SDK/releases/download/playtest-20241231/ShatteredParadise-playtest-20241231-x86-winportable.zip",
+      size: "240.6 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/ABrandau/Shattered-Paradise-SDK/releases/download/playtest-20241231/ShatteredParadise-playtest-20241231-x86.exe",
+      size: "203.6 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/ABrandau/Shattered-Paradise-SDK/releases/download/playtest-20241231/ShatteredParadise-playtest-20241231-x86_64.AppImage",
+      size: "239.3 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/ABrandau/Shattered-Paradise-SDK/releases/download/playtest-20241231/ShatteredParadise-playtest-20241231.dmg",
+      size: "286.2 MB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3970040/a966d7269d9b10e078402adb777de1b74878946c/header.jpg?t=1779039032",
     alt: "Shattered Paradise (Steam header)",

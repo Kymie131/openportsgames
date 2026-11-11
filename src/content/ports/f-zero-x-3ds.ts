@@ -14,12 +14,44 @@ export const fZeroX3ds: Port = {
   originalGameLicense: "proprietary",
   platforms: ["3ds"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.2.0", date: "2026-11-04" },
   sources: ["https://github.com/cruxxxxxx/gdx-3ds"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "G-Diffuser-3DS-N3DS-EK-v1.2.0",
+      url: "https://github.com/cruxxxxxx/gdx-3ds/releases/download/v1.2.0/G-Diffuser-3DS-N3DS-EK-v1.2.0.zip",
+      size: "5.3 MB",
+    },
+    {
+      label: "G-Diffuser-3DS-N3DS-v1.2.0",
+      url: "https://github.com/cruxxxxxx/gdx-3ds/releases/download/v1.2.0/G-Diffuser-3DS-N3DS-v1.2.0.zip",
+      size: "4.7 MB",
+    },
+    {
+      label: "G-Diffuser-3DS-O3DS-EK-v1.2.0",
+      url: "https://github.com/cruxxxxxx/gdx-3ds/releases/download/v1.2.0/G-Diffuser-3DS-O3DS-EK-v1.2.0.zip",
+      size: "5.3 MB",
+    },
+    {
+      label: "G-Diffuser-3DS-O3DS-v1.2.0",
+      url: "https://github.com/cruxxxxxx/gdx-3ds/releases/download/v1.2.0/G-Diffuser-3DS-O3DS-v1.2.0.zip",
+      size: "4.7 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/cruxxxxxx/gdx-3ds/releases/download/v1.2.0/gdx-extract-linux-x64.zip",
+      size: "2.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/cruxxxxxx/gdx-3ds/releases/download/v1.2.0/gdx-extract-macos-universal.zip",
+      size: "3.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/21/F-Zero_X_box_art.jpg",
     alt: "F-Zero X (box art)",

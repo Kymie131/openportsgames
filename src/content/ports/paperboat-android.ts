@@ -14,12 +14,19 @@ export const paperboatAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1.0-airx.1", date: "2026-09-25" },
   sources: ["https://github.com/chris43123/PaperBoat"],
   license: { spdx: "CC0-1.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/chris43123/PaperBoat/releases/download/v1.1.0-airx.1/Paperboat-1.1.0-airx.1-arm64.apk",
+      size: "39.4 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Paper%20Mario%20(USA).png",
     alt: "Paper Mario (box art)",

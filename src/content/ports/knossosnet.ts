@@ -15,12 +15,44 @@ export const knossosnet: Port = {
   originalGameLicense: "open",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.3.14", date: "2026-11-08" },
   sources: ["https://github.com/KnossosNET/Knossos.NET"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/KnossosNET/Knossos.NET/releases/download/v1.3.14/com.knossosnet.knossosnet-Signed.apk",
+      size: "83.5 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/KnossosNET/Knossos.NET/releases/download/v1.3.14/Knossos.NET-1.3.14-arm64.exe",
+      size: "42.9 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/KnossosNET/Knossos.NET/releases/download/v1.3.14/Knossos.NET-1.3.14-x64.exe",
+      size: "44.1 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/KnossosNET/Knossos.NET/releases/download/v1.3.14/Knossos.NET-1.3.14-x86.exe",
+      size: "41.6 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/KnossosNET/Knossos.NET/releases/download/v1.3.14/Knossos.NET-1.3.14.dmg",
+      size: "85.7 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/KnossosNET/Knossos.NET/releases/download/v1.3.14/Knossos.NET-aarch64.AppImage",
+      size: "38.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/0d/Freespace2box.jpg",
     alt: "Freespace 2 (box art)",

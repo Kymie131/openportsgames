@@ -14,12 +14,19 @@ export const wweAllStarsRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.0.0", date: "2026-11-07" },
   sources: ["https://github.com/shaneomac1337/WWE-AllStars-Recomp"],
   license: { spdx: "BSD-3-Clause" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/shaneomac1337/WWE-AllStars-Recomp/releases/download/v2.0.0/WWEAllStarsRecomp-2.0.0-9c265f1-win-x64.zip",
+      size: "60.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/54/WWEAllStarsCoverArt.png",
     alt: "WWE All Stars (box art)",

@@ -14,7 +14,7 @@ export const battlezoneRiseOfTheBlackDogsRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.2-beta", date: "2026-11-10" },
   sources: ["https://github.com/wootbeer/bzrecomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -26,6 +26,18 @@ export const battlezoneRiseOfTheBlackDogsRecomp: Port = {
     "Native recompilation of Battlezone: Rise of the Black Dogs (Nintendo 64) with N64Recomp and RT64, released as beta for Windows and Linux. It needs the player's own legally obtained game dump and ships no game data.",
   notesEs:
     "Recompilación nativa de Battlezone: Rise of the Black Dogs (Nintendo 64) con N64Recomp y RT64, publicada como beta para Windows y Linux. Necesita el volcado del juego obtenido legalmente por el jugador y no incluye datos del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/wootbeer/bzrecomp/releases/download/v0.1.2-beta/BattlezoneRecompiled-0.1.2-beta-linux.tar.gz",
+      size: "12.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/wootbeer/bzrecomp/releases/download/v0.1.2-beta/BattlezoneRecompiled-0.1.2-beta-windows.zip",
+      size: "16.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Battlezone%20-%20Rise%20of%20the%20Black%20Dogs%20(USA).png",
     alt: "Battlezone: Rise of the Black Dogs (box art)",

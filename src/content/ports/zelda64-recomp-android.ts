@@ -14,13 +14,25 @@ export const zelda64RecompAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.6.10", date: "2026-07-29" },
   sources: ["https://github.com/linkzenic/Zelda64Recomp-Android"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["zelda64-recomp","maskpad"],
+  downloads: [
+    {
+      label: "Android",
+      url: "https://github.com/linkzenic/Zelda64Recomp-Android/releases/download/0.6.10/MMRecompRando-Android-Mod-arm64-v0.9.5-android.2.zip",
+      size: "1.2 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/linkzenic/Zelda64Recomp-Android/releases/download/0.6.10/Zelda64-Recompiled-Android-App-0.6.10.apk",
+      size: "35.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg",
     alt: "The Legend of Zelda: Majora's Mask (box art)",

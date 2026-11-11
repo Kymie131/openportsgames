@@ -14,12 +14,44 @@ export const titanicGodot30thAnniversaryEdition: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.6.0", date: "2026-10-09" },
   sources: ["https://github.com/itskenny0/titanic-godot"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/itskenny0/titanic-godot/releases/download/v0.6.0/titanic-android-arm64-release.apk",
+      size: "16.6 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/itskenny0/titanic-godot/releases/download/v0.6.0/titanic-linux-arm64-static.tar.gz",
+      size: "20.1 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/itskenny0/titanic-godot/releases/download/v0.6.0/titanic-linux-arm64.AppImage",
+      size: "19.0 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/itskenny0/titanic-godot/releases/download/v0.6.0/titanic-linux-arm64.deb",
+      size: "15.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/itskenny0/titanic-godot/releases/download/v0.6.0/titanic-linux-arm64.tar.gz",
+      size: "20.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/itskenny0/titanic-godot/releases/download/v0.6.0/titanic-linux-x86_64-static.tar.gz",
+      size: "21.1 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/785480/header.jpg",
     alt: "Titanic: Adventure Out of Time (cover art)",

@@ -14,13 +14,40 @@ export const medievilRecompBlacklabel: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows","linux","macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.0.3", date: "2026-11-02" },
   sources: ["https://github.com/BlackLabelHQ/MediEvilRecomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
   related: ["medievil-recomp","medievil-ii-recomp"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/BlackLabelHQ/MediEvilRecomp/releases/download/v1.0.3/MediEvilRecomp-v1.0.3-linux-x64.tar.gz",
+      size: "41.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/BlackLabelHQ/MediEvilRecomp/releases/download/v1.0.3/MediEvilRecomp-v1.0.3-macos-arm64.zip",
+      size: "39.8 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/BlackLabelHQ/MediEvilRecomp/releases/download/v1.0.3/MediEvilRecomp-v1.0.3-macos-x64.zip",
+      size: "40.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/BlackLabelHQ/MediEvilRecomp/releases/download/v1.0.3/MediEvilRecomp-v1.0.3-windows-arm64.zip",
+      size: "39.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/BlackLabelHQ/MediEvilRecomp/releases/download/v1.0.3/MediEvilRecomp-v1.0.3-windows-x64.zip",
+      size: "40.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/d3/Medievil_cover.jpg",
     alt: "MediEvil (box art)",

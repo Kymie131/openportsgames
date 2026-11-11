@@ -14,7 +14,7 @@ export const theFifthElementRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.1", date: "2026-09-30" },
   sources: ["https://github.com/alexbeavs-ps1-ports/the-fifth-element-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,28 @@ export const theFifthElementRecomp: Port = {
     "Recompilation of The Fifth Element (PS1, Europe SCES-01285) with PSXRecomp and the recomp-ui launcher. You bring your disc and a European SCPH-5502/5552 BIOS, and the wizard compiles the game on your machine. For now it is the 0.1.0 release candidate, with gameplay not closed.",
   notesEs:
     "Recompilación de The Fifth Element (PS1, Europa SCES-01285) con PSXRecomp y el lanzador recomp-ui. Aportas tu disco y una BIOS europea SCPH-5502/5552, y el asistente compila el juego en tu equipo. Por ahora es la candidata 0.1.0, con el gameplay sin cerrar.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/alexbeavs-ps1-ports/the-fifth-element-recomp/releases/download/v0.1.1/the-fifth-element-0.1.1-linux-x64.zip",
+      size: "23.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/alexbeavs-ps1-ports/the-fifth-element-recomp/releases/download/v0.1.1/the-fifth-element-0.1.1-macos-arm64.zip",
+      size: "21.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/alexbeavs-ps1-ports/the-fifth-element-recomp/releases/download/v0.1.1/the-fifth-element-0.1.1-macos-x64.zip",
+      size: "22.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/alexbeavs-ps1-ports/the-fifth-element-recomp/releases/download/v0.1.1/the-fifth-element-0.1.1-windows-x64.zip",
+      size: "25.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/8f/The_Fifth_Element%2C_video_game_cover_for_Playstation.jpg",
     alt: "The Fifth Element (box art)",

@@ -22,6 +22,38 @@ export const heartOfDarknessPort: Port = {
   originalSystems: ["Windows", "PlayStation"],
   summary: "Heart of Darkness is a cinematic platform video game developed by French developer Amazing Studio for the PlayStation and Microsoft Windows.",
   summaryEs: "Heart of Darkness es un videojuego de Amazing Studio, publicado en 1998 por Infogrames e Interplay para Microsoft Windows en PC y PlayStation. Para Game Boy Advance se anunció en 2001, pero nunca fue lanzado. Es el primer juego que tuvo una orquesta para hacer la banda sonora; pero, debido a los retrasos, no logró ser el primero en ser lanzado con esta novedad. A pesar de que su público principal son niños, el juego muestra varias escenas de muerte y, además, es considerado uno de los juegos más difíciles.",
+  downloads: [
+    {
+      label: "Android",
+      url: "https://github.com/MaximLopez/HeartOfDarkness-SDL/releases/download/0.2.9/HeartOfDarkness_SDL-Android-0.2.9.zip",
+      size: "53.3 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/MaximLopez/HeartOfDarkness-SDL/releases/download/0.2.9/HeartOfDarkness_SDL-Linux-0.2.9.zip",
+      size: "817 KB",
+    },
+    {
+      label: "HeartOfDarkness_SDL-PSP-0.2.9",
+      url: "https://github.com/MaximLopez/HeartOfDarkness-SDL/releases/download/0.2.9/HeartOfDarkness_SDL-PSP-0.2.9.zip",
+      size: "332 KB",
+    },
+    {
+      label: "HeartOfDarkness_SDL-PSVita-0.2.9",
+      url: "https://github.com/MaximLopez/HeartOfDarkness-SDL/releases/download/0.2.9/HeartOfDarkness_SDL-PSVita-0.2.9.zip",
+      size: "675 KB",
+    },
+    {
+      label: "Switch",
+      url: "https://github.com/MaximLopez/HeartOfDarkness-SDL/releases/download/0.2.9/HeartOfDarkness_SDL-Switch-0.2.9.zip",
+      size: "2.9 MB",
+    },
+    {
+      label: "HeartOfDarkness_SDL-Wii-0.2.9",
+      url: "https://github.com/MaximLopez/HeartOfDarkness-SDL/releases/download/0.2.9/HeartOfDarkness_SDL-Wii-0.2.9.zip",
+      size: "420 KB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/4/4a/Blackwood%27s_Magazine_-_1899_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
     alt: "Heart of Darkness (box art)",

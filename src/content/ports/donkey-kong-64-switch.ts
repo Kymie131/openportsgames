@@ -14,12 +14,19 @@ export const donkeyKong64Switch: Port = {
   originalGameLicense: "proprietary",
   platforms: ["switch"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1.2", date: "2026-10-11" },
   sources: ["https://github.com/Trinalord777/DK64Recomp-NX"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "Switch",
+      url: "https://github.com/Trinalord777/DK64Recomp-NX/releases/download/v1.1.2/DK64Recomp-NX-v1.1.2.zip",
+      size: "6.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/ae/DonkeyKong64CoverArt.jpg",
     alt: "Donkey Kong 64 (box art)",

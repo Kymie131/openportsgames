@@ -20,6 +20,13 @@ export const undeadNeighborEatersAndroidNativePort: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Super Nintendo"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/sirdankz/Undead-Neighbor-Eaters-Droid/releases/download/DROID/UndeadNeighborEatersV2.apk",
+      size: "1.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/75/Zombies_Ate_My_Neighbors_box.jpg",
     alt: "Zombies Ate My Neighbors (box art)",

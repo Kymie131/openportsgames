@@ -21,6 +21,23 @@ export const matheovignaudTmc: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Game Boy Advance"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/MatheoVignaud/tmc/releases/download/0.2.0-pre/app-arm64-v8a-release.apk",
+      size: "10.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/MatheoVignaud/tmc/releases/download/0.2.0-pre/tmc-usa-linux-20260517-0932-52701ac.zip",
+      size: "15.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/MatheoVignaud/tmc/releases/download/0.2.0-pre/tmc-usa-windows-20260517-0932-52701ac.zip",
+      size: "17.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/0a/TLOZ-_Minish_Cap_NA_Box_art.png",
     alt: "The Legend of Zelda: The Minish Cap (box art)",

@@ -23,6 +23,23 @@ export const princeOfPersiaSandsOfTimeAndroid: Port = {
   originalSystems: ["Xbox"],
   summary: "Prince of Persia: The Sands of Time is a action-adventure game in 2003.",
   summaryEs: "Prince of Persia: The Sands of Time es un videojuego de acción y aventura en 2003.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/FulGerNet/rePOP/releases/download/reSOTv0.5.0/reSOT-android.apk",
+      size: "31.0 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/FulGerNet/rePOP/releases/download/reSOTv0.5.0/sot-xbox-demo.exe",
+      size: "40.7 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/FulGerNet/rePOP/releases/download/reSOTv0.5.0/sot-xbox-retail.exe",
+      size: "49.7 MB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13600/header.jpg?t=1720535333",
     alt: "Prince of Persia: The Sands of Time (Steam header)",

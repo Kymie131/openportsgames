@@ -20,6 +20,13 @@ export const armyOfTwoPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/OpenPortroid/ArmyOfTwoRecompilation/releases/download/v1.5.0/ArmyOfTwo-v1.5.0.zip",
+      size: "34.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/72/ArmyofTwo_front-1-.jpg",
     alt: "Army of Two (box art)",

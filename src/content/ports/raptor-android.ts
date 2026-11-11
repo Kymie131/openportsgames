@@ -23,6 +23,33 @@ export const raptorAndroid: Port = {
   originalSystems: ["MS-DOS"],
   summary: "Raptor: Call of the Shadows is a vertically scrolling shooter developed by Cygnus Studios and published by Apogee Software. Its working title was \"Mercenary 2029\". It was released on April 1, 1994 for MS-DOS compatible systems. The first episode of the game, \"Bravo Sector\", was distributed as shareware, while the other two episodes were sold commercially.",
   summaryEs: "Raptor: Call of the Shadows es un videojuego de aviones en 2D diseñado para el computador X86 y escrito para el sistema operativo DOS. Producido por la compañía de juegos de vídeo Cygnus Studios, el juego fue lanzado al mercado por la empresa Apogee Software el 1 de abril de 1994.",
+  downloads: [
+    {
+      label: "macOS DMG",
+      url: "https://github.com/skynettx/raptor/releases/download/v0.8.2/raptor-0.8.2-aarch64.dmg",
+      size: "1.9 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/skynettx/raptor/releases/download/v0.8.2/raptor-0.8.2-android.apk",
+      size: "4.3 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/skynettx/raptor/releases/download/v0.8.2/raptor-0.8.2-win32.exe",
+      size: "1.2 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/skynettx/raptor/releases/download/v0.8.2/raptor-0.8.2-win64.exe",
+      size: "1.3 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/skynettx/raptor/releases/download/v0.8.2/raptor-0.8.2-x86-64.dmg",
+      size: "1.9 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/raptor-call-of-the-shadows.svg",
     alt: "Raptor: Call of the Shadows (generated cover)",

@@ -14,7 +14,7 @@ export const callOfDutyMw2Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.8.2", date: "2026-10-27" },
   sources: ["https://github.com/PaulCombal/mw2-recompiled"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,38 @@ export const callOfDutyMw2Recomp: Port = {
     "Recompilation of Call of Duty: Modern Warfare 2 (Xbox 360) to native Windows and Linux. It requires the game itself.",
   notesEs:
     "Recompilación de Call of Duty: Modern Warfare 2 (Xbox 360) a Windows y Linux nativos. Requiere el propio juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/PaulCombal/mw2-recompiled/releases/download/v0.8.2/mw2-v0.8.2-linux-lan.tar.gz",
+      size: "20.3 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/PaulCombal/mw2-recompiled/releases/download/v0.8.2/mw2-v0.8.2-linux-steam.tar.gz",
+      size: "20.3 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/PaulCombal/mw2-recompiled/releases/download/v0.8.2/mw2-v0.8.2-linux.tar.gz",
+      size: "20.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/PaulCombal/mw2-recompiled/releases/download/v0.8.2/mw2-v0.8.2-windows-lan.zip",
+      size: "18.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/PaulCombal/mw2-recompiled/releases/download/v0.8.2/mw2-v0.8.2-windows-steam.zip",
+      size: "18.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/PaulCombal/mw2-recompiled/releases/download/v0.8.2/mw2-v0.8.2-windows.zip",
+      size: "18.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/52/Call_of_Duty_Modern_Warfare_2_%282009%29_cover.png",
     alt: "Call of Duty: Modern Warfare 2 (box art)",

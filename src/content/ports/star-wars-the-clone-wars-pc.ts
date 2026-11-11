@@ -14,7 +14,7 @@ export const starWarsTheCloneWarsPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.9.1b", date: "2026-11-02" },
   sources: ["https://github.com/GTTeancum/StarWars-CloneWars-PC"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -22,6 +22,13 @@ export const starWarsTheCloneWarsPc: Port = {
   originalSystems: ["Xbox"],
   summary: "Star Wars: The Clone Wars is a 2002 action game set in the Star Wars universe, developed by Pandemic Studios and published by LucasArts for GameCube, PlayStation 2 and Xbox. Additionally, the game can be purchased from the Xbox digital store and played on Xbox One and Xbox Series consoles through the Xbox backwards compatibility program.",
   summaryEs: "Star Wars: The Clone Wars puede referirse a:",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/GTTeancum/StarWars-CloneWars-PC/releases/download/v0.9.1b/CloneWars-PC.zip",
+      size: "8.4 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Star%20Wars%20-%20The%20Clone%20Wars%20(USA).png",
     alt: "Star Wars: The Clone Wars (box art)",

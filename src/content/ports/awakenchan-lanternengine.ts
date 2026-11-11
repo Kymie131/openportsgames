@@ -21,6 +21,28 @@ export const awakenchanLanternengine: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation 4"],
+  downloads: [
+    {
+      label: "Windows EXE",
+      url: "https://github.com/Awakenchan/LanternEngine/releases/download/v0.9.42/Bloodborne.Launcher.exe",
+      size: "50.7 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/Awakenchan/LanternEngine/releases/download/v0.9.42/Lantern.Engine.exe",
+      size: "50.7 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/Awakenchan/LanternEngine/releases/download/v0.9.42/LanternEngine-v0.9.42-linux-x64.tar.gz",
+      size: "80.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Awakenchan/LanternEngine/releases/download/v0.9.42/LanternEngine-v0.9.42-win64.zip",
+      size: "180.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
     alt: "Bloodborne (box art)",

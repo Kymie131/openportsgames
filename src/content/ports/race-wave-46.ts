@@ -14,7 +14,7 @@ export const raceWave46: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.0", date: "2026-09-16" },
   sources: ["https://github.com/DomazinUS/RaceWave46"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -22,6 +22,13 @@ export const raceWave46: Port = {
   originalSystems: ["Nintendo 64"],
   related: ["wave-race-64-recompiled","wave-race-64-decomp"],
   aiDisclosure: {"source":"https://github.com/DomazinUS/RaceWave46","quote":"An AI-assisted Wave Race 64 recompilation for Windows"},
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/DomazinUS/RaceWave46/releases/download/v1.0.0/RaceWave46-Windows-x64-v1.0.0.zip",
+      size: "34.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e6/Wave_Race_64_Coverart.png",
     alt: "Wave Race 64 (box art)",

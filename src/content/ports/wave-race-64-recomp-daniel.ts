@@ -14,7 +14,7 @@ export const waveRace64RecompDaniel: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "1.0.2", date: "2026-09-14" },
   sources: ["https://github.com/danielgomesvieira2000/wave-race-64-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -22,6 +22,18 @@ export const waveRace64RecompDaniel: Port = {
   originalSystems: ["Nintendo 64"],
   related: ["wave-race-64-recompiled","race-wave-46"],
   aiDisclosure: {"source":"https://github.com/danielgomesvieira2000/wave-race-64-recomp","quote":"An AI-coded PC port of the Nintendo 64 game 'Wave Race 64'."},
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/danielgomesvieira2000/wave-race-64-recomp/releases/download/v1.0.2/WaveRace64Recomp-1.0.2-linux-x86_64.tar.gz",
+      size: "6.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/danielgomesvieira2000/wave-race-64-recomp/releases/download/v1.0.2/WaveRace64Recomp-1.0.2-windows-x64.zip",
+      size: "16.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e6/Wave_Race_64_Coverart.png",
     alt: "Wave Race 64 (box art)",

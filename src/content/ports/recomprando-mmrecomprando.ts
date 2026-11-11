@@ -21,6 +21,13 @@ export const recomprandoMmrecomprando: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/RecompRando/MMRecompRando/releases/download/v0.9.5a/MMRecompRando.zip",
+      size: "22.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg",
     alt: "The Legend of Zelda: Majora's Mask (box art)",

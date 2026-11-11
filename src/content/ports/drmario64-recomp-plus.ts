@@ -14,7 +14,7 @@ export const drMario64RecompPlus: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.0", date: "2025-12-18" },
   sources: ["https://github.com/theboy181/drmario64_recomp_plus"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const drMario64RecompPlus: Port = {
     "Native recompilation of Dr. Mario 64 with extra quality-of-life additions. The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Dr. Mario 64 con mejoras de calidad de vida. El jugador aporta su propia ROM obtenida legalmente; el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/theboy181/drmario64_recomp_plus/releases/download/1.0.0/Dr.Mario.64.Recompiled-v1.0.0-Windows.zip",
+      size: "23.1 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Dr.%20Mario%2064%20(USA).png",
     alt: "Dr. Mario 64 (box art)",

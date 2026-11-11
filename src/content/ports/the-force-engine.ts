@@ -32,6 +32,18 @@ export const theForceEngine: Port = {
     "Engine reimplementation targeting the games built on the Dark Forces engine. Original game assets are not distributed.",
   notesEs:
     "Reimplementación del motor orientada a los juegos construidos con el motor Dark Forces. Los recursos del juego original no se distribuyen.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.22.420/TheForceEngine-PDB-v1.22.420.zip",
+      size: "7.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/TheForceEngine/TheForceEngine/releases/download/v1.22.420/TheForceEngine-v1.22.420.zip",
+      size: "10.1 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/DOS/Named_Boxarts/Star%20Wars%20-%20Dark%20Forces.png",
     alt: "Star Wars: Dark Forces (box art)",

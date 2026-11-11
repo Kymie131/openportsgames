@@ -21,6 +21,13 @@ export const ral1009Nsmbwiicompiled: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Wii"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/ral1009/NSMBWiicompiled/releases/download/v0.2.2/NSMBWCompiled-v0.2.2-32e8f44.zip",
+      size: "80.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/8f/NewSuperMarioBrosWiiBoxart.png",
     alt: "New Super Mario Bros. Wii (box art)",

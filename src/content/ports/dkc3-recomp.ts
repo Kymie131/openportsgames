@@ -14,7 +14,7 @@ export const dkc3Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.0.6", date: "2026-09-13" },
   sources: ["https://github.com/elliotttate/DKC3Recomp"],
   license: { spdx: "MIT" },
   verified: false,
@@ -25,6 +25,18 @@ export const dkc3Recomp: Port = {
     "Static recompilation of Donkey Kong Country 3 (SNES, USA En/Fr) with snesrecomp. It is in bring-up: it covers boot, the launcher, save states and Lakeside Limbo, with verified 16:10, 16:9 and 21:9 widescreen.",
   notesEs:
     "Recompilación estática de Donkey Kong Country 3 (SNES, USA En/Fr) con snesrecomp. Está en fase de puesta en marcha: cubre el arranque, el lanzador, los estados de guardado y Lakeside Limbo, con widescreen de 16:10, 16:9 y 21:9 verificado.",
+  downloads: [
+    {
+      label: "Macos",
+      url: "https://github.com/elliotttate/DKC3Recomp/releases/download/v0.0.6/DKC3Recomp-v0.0.4-macOS-arm64.zip",
+      size: "7.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/elliotttate/DKC3Recomp/releases/download/v0.0.6/DKC3Recomp-v0.0.6-windows-x64.zip",
+      size: "5.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Donkey%20Kong%20Country%203%20-%20Dixie%20Kong's%20Double%20Trouble!%20(USA)%20(En%2CFr).png",
     alt: "Donkey Kong Country 3: Dixie Kong's Double Trouble (box art)",

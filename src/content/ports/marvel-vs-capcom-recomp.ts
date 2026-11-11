@@ -14,7 +14,7 @@ export const marvelVsCapcomRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.3.19", date: "2026-10-01" },
   sources: [
     "https://github.com/TechnicallyComputers/Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp",
   ],
@@ -26,6 +26,28 @@ export const marvelVsCapcomRecomp: Port = {
   summaryEs: "Marvel vs. Capcom: Clash of Super Heroes, o simplemente conocido como \"Marvel Vs. Capcom\" o \"MVC\", es un videojuego de lucha crossovers entre las compañías Marvel Comics y Capcom lanzado a principios de 1998. Para el videojuego se rescatan muchos personajes clásicos de esta última compañía, tales como Mega Man, Strider Hiryū o Captain Commando. Es la tercera entrega de la serie Marvel vs. Capcom.",
   notes: "Indexed by PortsDR. No official repository is available, and it needs your own copy.",
   notesEs: "Indexado en PortsDR. No hay repositorio oficial disponible y necesita tu propia copia.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/TechnicallyComputers/Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp/releases/download/v0.3.19/mccsh-0.3.19-linux-x64.zip",
+      size: "52.0 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/TechnicallyComputers/Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp/releases/download/v0.3.19/mccsh-0.3.19-macos-arm64.zip",
+      size: "28.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/TechnicallyComputers/Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp/releases/download/v0.3.19/mccsh-0.3.19-macos-x64.zip",
+      size: "28.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/TechnicallyComputers/Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp/releases/download/v0.3.19/mccsh-0.3.19-windows-x64.zip",
+      size: "30.5 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Marvel%20vs.%20Capcom%20-%20Clash%20of%20Super%20Heroes%20(Europe).png",
     alt: "Marvel vs. Capcom: Clash of Super Heroes (box art)",

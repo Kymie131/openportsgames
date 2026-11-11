@@ -30,6 +30,13 @@ export const conan2007Recomp: Port = {
     source: "https://github.com/crazyriddler/Conan2007Recomp#readme",
     quote: "I've relied on Claude to carry out this project",
   },
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/crazyriddler/Conan2007Recomp/releases/download/Release-FIXED/Conan.Beta1.FIXED.zip",
+      size: "101.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/d/d7/Conan_%282004_video_game%29.jpg",
     alt: "Conan (box art)",

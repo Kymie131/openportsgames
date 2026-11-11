@@ -24,6 +24,38 @@ export const cncnetTsPatches: Port = {
   originalSystems: ["Unknown"],
   summary: "Command & Conquer: Tiberian Sun is a 1999 real-time strategy video game developed by Westwood Studios, published by Electronic Arts, and released exclusively for Windows in August 1999. The game is the sequel to the 1995 game Command & Conquer. It featured new semi-3D graphics, a more futuristic sci-fi setting, and new gameplay features such as vehicles capable of hovering or burrowing.",
   summaryEs: "Command & Conquer: Tiberian Sun es un videojuego de estrategia en tiempo real que pertenece a la serie de Command & Conquer, desarrollado por Westwood Studios y lanzado en 1999 por Electronic Arts.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/CnCNet/ts-patches/releases/download/latest/ts-patches-MOD_DTA-master-f59bb50.zip",
+      size: "4.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/CnCNet/ts-patches/releases/download/latest/ts-patches-MOD_FD-master-f59bb50.zip",
+      size: "6.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/CnCNet/ts-patches/releases/download/latest/ts-patches-MOD_RUBICON-master-f59bb50.zip",
+      size: "8.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/CnCNet/ts-patches/releases/download/latest/ts-patches-MOD_SD-master-f59bb50.zip",
+      size: "5.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/CnCNet/ts-patches/releases/download/latest/ts-patches-MOD_TI-master-f59bb50.zip",
+      size: "4.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/CnCNet/ts-patches/releases/download/latest/ts-patches-MOD_TO-master-f59bb50.zip",
+      size: "5.6 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/command-conquer-tiberian-sun.svg",
     alt: "Command & Conquer: Tiberian Sun (generated cover)",

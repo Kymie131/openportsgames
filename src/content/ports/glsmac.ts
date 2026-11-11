@@ -14,7 +14,7 @@ export const Glsmac: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.3-db4dbc9", date: "2026-05-31" },
   sources: ["https://github.com/afwbkbc/glsmac"],
   license: { spdx: "AGPL-3.0" },
   verified: false,
@@ -23,6 +23,23 @@ export const Glsmac: Port = {
   summary: "GLSMAC is a action-adventure game, released in 2000.",
   summaryEs: "GLSMAC es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Macos",
+      url: "https://github.com/afwbkbc/glsmac/releases/download/v0.3-db4dbc9/glsmac-ubuntu64-v0.3-db4dbc9.tar.gz",
+      size: "3.7 MB",
+    },
+    {
+      label: "glsmac-win64-v0.3-db4dbc9",
+      url: "https://github.com/afwbkbc/glsmac/releases/download/v0.3-db4dbc9/glsmac-win64-v0.3-db4dbc9.zip",
+      size: "3.5 MB",
+    },
+    {
+      label: "scanbuild-report-No-bugs",
+      url: "https://github.com/afwbkbc/glsmac/releases/download/v0.3-db4dbc9/scanbuild-report-No-bugs.zip",
+      size: "3 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/glsmac.svg",
     alt: "GLSMAC (generated cover)",

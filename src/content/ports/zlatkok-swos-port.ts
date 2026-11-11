@@ -23,6 +23,13 @@ export const zlatkokSwosPort: Port = {
   originalSystems: ["Unknown"],
   summary: "Sensible World of Soccer 96/97 is a sports game in 1996.",
   summaryEs: "Sensible World of Soccer 96/97 es un videojuego de deportes en 1996.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/zlatkok/swos-port/releases/download/swpe-0.99.2026/swpe-0.99.2026.zip",
+      size: "689 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/sensible-world-of-soccer-96-97.svg",
     alt: "Sensible World of Soccer 96/97 (generated cover)",

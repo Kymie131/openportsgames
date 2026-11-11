@@ -22,6 +22,13 @@ export const lookingGlass: Port = {
   originalSystems: ["Windows"],
   warning: "This Android port distributes the game's own files, so it is not built from a copy you own. Its legal situation differs from the rest of the catalog and it may be removed.",
   warningEs: "Este port de Android distribuye los archivos del propio juego, así que no se construye desde una copia tuya. Su situación legal es distinta a la del resto del catálogo y puede ser retirada.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Player124413/Looking-Glass-android-edition/releases/download/Four/LookingGlass-v0.32.0.87-android.apk",
+      size: "40.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a9/American_McGee_Alice_cover.png",
     alt: "American McGee's Alice (box art)",

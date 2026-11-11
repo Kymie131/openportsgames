@@ -14,7 +14,7 @@ export const shadowOfTheColossusPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.74.1", date: "2026-11-10" },
   sources: ["https://github.com/AjncSystem/ShadowOfTheColossus-PC"],
   license: { spdx: "GPL-2.0" },
   verified: false,
@@ -29,6 +29,13 @@ export const shadowOfTheColossusPc: Port = {
   requirements: {
     minimum: "Windows 10/11 with a Vulkan-capable GPU, plus your own decrypted CUSA08809 copy.",
   },
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/download/v0.74.1/SotC-PC.zip",
+      size: "147.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a4/ShadowOfTheColossus2018.jpg",
     alt: "Shadow of the Colossus (box art)",

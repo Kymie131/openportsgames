@@ -14,12 +14,19 @@ export const pokemonRedBlue3dsGen1recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["3ds"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.0.1", date: "2026-09-26" },
   sources: ["https://github.com/cohako/gen1recomp-lua-native-3ds-port"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy"],
+  downloads: [
+    {
+      label: "gen1recomp-0.0.1-3ds",
+      url: "https://github.com/cohako/gen1recomp-lua-native-3ds-port/releases/download/v0.0.1/gen1recomp-0.0.1-3ds.zip",
+      size: "15.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Pokemon%20-%20Red%20Version%20(USA,%20Europe)%20(SGB%20Enhanced).png",
     alt: "Pokemon Red (box art)",

@@ -14,12 +14,24 @@ export const crashBandicoot2Pc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.0", date: "2026-09-03" },
   sources: ["https://github.com/omegakatana92/CrashBandicoot2Recomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/omegakatana92/CrashBandicoot2Recomp/releases/download/v1.0.0/Crash_Bandicoot_2_Recompiled-v1.0.0-linux-x86_64.AppImage",
+      size: "6.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/omegakatana92/CrashBandicoot2Recomp/releases/download/v1.0.0/Crash_Bandicoot_2_Recomp_Windows.zip",
+      size: "6.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e6/Crash_Bandicoot_2_Cortex_Strikes_Back_Game_Cover.jpg",
     alt: "Crash Bandicoot 2: Cortex Strikes Back (box art)",

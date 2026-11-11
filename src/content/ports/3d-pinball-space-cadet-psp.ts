@@ -14,7 +14,7 @@ export const _3dPinballSpaceCadetPsp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["psp"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.2", date: "2026-09-16" },
   sources: ["https://github.com/kira97-fdroid/SpaceCadetPinball-PSP"],
   license: { spdx: "MIT" },
   verified: false,
@@ -23,6 +23,13 @@ export const _3dPinballSpaceCadetPsp: Port = {
   summary: "3D Pinball for Windows is a puzzle game published by Microsoft for Windows, released in 1995.",
   summaryEs: "3D Pinball for Windows es un videojuego de puzles publicado por Microsoft para Windows, lanzado en 1995.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "SpaceCadetPinball_PSP_v1.0.2_source",
+      url: "https://github.com/kira97-fdroid/SpaceCadetPinball-PSP/releases/download/v1.0.2/SpaceCadetPinball_PSP_v1.0.2_source.zip",
+      size: "73 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/3d-pinball-for-windows.svg",
     alt: "3D Pinball for Windows (generated cover)",

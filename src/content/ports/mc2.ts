@@ -14,7 +14,7 @@ export const Mc2: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.3", date: "2026-05-04" },
   sources: ["https://github.com/alariq/mc2"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -23,6 +23,13 @@ export const Mc2: Port = {
   summary: "mc2 is a action-adventure game, released in 2000.",
   summaryEs: "mc2 es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/alariq/mc2/releases/download/v0.1.3/mc2-win64-v0.1.3.zip",
+      size: "603.1 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/mc2.svg",
     alt: "mc2 (generated cover)",

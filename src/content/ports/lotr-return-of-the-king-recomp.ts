@@ -23,6 +23,13 @@ export const lotrReturnOfTheKingRecomp: Port = {
   related: ["lotr-two-towers-recomp"],
   summary: "The Lord of the Rings: The Return of the King is a 2003 hack and slash game developed by EA Redwood Shores for the PlayStation 2 and Windows. It was ported to the GameCube and Xbox by Hypnos Entertainment, to the Game Boy Advance by Griptonite Games, to mobile by ImaginEngine, and to Mac OS X by Beenox. The game was published by Electronic Arts. It is the sequel to the 2002 game The Lord of the Rings: The Two Towers.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Shagg88/Athelas/releases/download/1.8.2/Athelas-1.8.2.zip",
+      size: "153.2 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/the-lord-of-the-rings-the-return-of-the-king.svg",
     alt: "The Lord of the Rings: The Return of the King (generated cover)",

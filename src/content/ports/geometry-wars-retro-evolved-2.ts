@@ -14,12 +14,24 @@ export const GeometryWarsRetroEvolved2: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.6.1", date: "2026-10-25" },
   sources: ["https://github.com/saulob/geometry-wars-retro-evolved-2-recompiled"],
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/saulob/geometry-wars-retro-evolved-2-recompiled/releases/download/v0.6.1/GeometryWarsRetroEvolved2-v0.6.1-windows-x64.zip",
+      size: "9.2 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/saulob/geometry-wars-retro-evolved-2-recompiled/releases/download/v0.6.1/GeometryWarsRetroEvolved2Recompiled-v0.6.1-x86_64.AppImage",
+      size: "10.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/4b/Geometrywars2cover.jpg",
     alt: "Geometry Wars: Retro Evolved 2 (cover)",

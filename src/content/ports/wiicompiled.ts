@@ -44,6 +44,28 @@ export const wiiCompiled: Port = {
       credit: "patchzyy",
     },
   ],
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/patchzyy/Wiicompiled/releases/download/v0.9.4/WiiCompiled-Setup-aarch64.AppImage",
+      size: "244.5 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/patchzyy/Wiicompiled/releases/download/v0.9.4/WiiCompiled-Setup-x86_64.AppImage",
+      size: "236.0 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/patchzyy/Wiicompiled/releases/download/v0.9.4/WiiCompiled-Setup.exe",
+      size: "374.3 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/patchzyy/Wiicompiled/releases/download/v0.9.4/WiiCompiled-Setup.pkg",
+      size: "225.9 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/Mario%20Kart%20Wii%20(Europe).png",
     alt: "Mario Kart Wii (box art)",

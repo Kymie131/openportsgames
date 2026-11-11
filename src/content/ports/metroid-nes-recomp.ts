@@ -14,7 +14,7 @@ export const metroidNesRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.2.5", date: "2026-11-01" },
   sources: ["https://github.com/mstan/MetroidNESRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
@@ -25,6 +25,13 @@ export const metroidNesRecomp: Port = {
     "Static recompilation of Metroid (NES) with the nesrecomp framework: the 6502 code is translated to C and compiled natively. It ships separate USA/NTSC and Europe/PAL builds, each one only with its matching ROM.",
   notesEs:
     "Recompilación estática de Metroid (NES) con el framework nesrecomp: el código 6502 se traduce a C y se compila a nativo. Trae builds separadas para USA/NTSC y Europa/PAL, cada una solo con su ROM correspondiente.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/MetroidNESRecomp/releases/download/v0.2.5/MetroidNESRecomp-0.2.5-USA-NTSC-windows-x64.zip",
+      size: "9.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Metroid%20(USA).png",
     alt: "Metroid (box art)",

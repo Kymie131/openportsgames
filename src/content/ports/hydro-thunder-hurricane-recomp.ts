@@ -14,12 +14,19 @@ export const hydroThunderHurricaneRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "2.2.0", date: "2026-10-30" },
   sources: ["https://github.com/visibou/htrecomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/visibou/htrecomp/releases/download/2.2.0/HydroThunderHurricane-Recompiled-v2.2.0.zip",
+      size: "17.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/1e/Hydro-thunder-hurricane-cover-01.png",
     alt: "Hydro Thunder Hurricane (box art)",

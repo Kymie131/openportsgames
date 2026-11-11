@@ -14,13 +14,20 @@ export const isaacRebirthAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android","linux"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.3", date: "2026-10-23" },
   sources: ["https://github.com/caos-obliquo/tboi-recomp"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
   related: ["the-binding-of-isaac-repentance","the-browsing-of-isaac","isaac-flash-recomp"],
+  downloads: [
+    {
+      label: "tboi-recomp-v0.1.3",
+      url: "https://github.com/caos-obliquo/tboi-recomp/releases/download/v0.1.3/tboi-recomp-v0.1.3.tar.gz",
+      size: "39 KB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/e1/The_Binding_of_Issac_Rebirth_cover.jpg",
     alt: "The Binding of Isaac: Rebirth (box art)",

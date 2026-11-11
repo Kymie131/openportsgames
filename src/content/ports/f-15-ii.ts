@@ -14,7 +14,7 @@ export const F15Ii: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.9.3", date: "2026-06-22" },
   sources: ["https://github.com/neuviemeporte/f15se2-re"],
   license: { spdx: "MIT" },
   verified: false,
@@ -23,6 +23,18 @@ export const F15Ii: Port = {
   summary: "F-15 II is a action-adventure game for MS-DOS, released in 2000.",
   summaryEs: "F-15 II es un videojuego de acci�n y aventura para MS-DOS, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "f15_se2-v0.9.3",
+      url: "https://github.com/neuviemeporte/f15se2-re/releases/download/v0.9.3/f15_se2-v0.9.3.zip",
+      size: "96 KB",
+    },
+    {
+      label: "f15_se2-v0.9.3_noasm",
+      url: "https://github.com/neuviemeporte/f15se2-re/releases/download/v0.9.3/f15_se2-v0.9.3_noasm.zip",
+      size: "106 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/f-15-ii.svg",
     alt: "F-15 II (generated cover)",

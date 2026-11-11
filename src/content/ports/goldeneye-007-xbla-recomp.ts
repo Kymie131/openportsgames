@@ -14,13 +14,20 @@ export const goldeneye007XblaRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.9.7a", date: "2026-11-06" },
   sources: ["https://github.com/CaiusCodes/GoldenEye-007-XBLA-PC-Recomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["goldeneye-64-recompiled","goldeneye-pc-port"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/CaiusCodes/GoldenEye-007-XBLA-PC-Recomp/releases/download/v0.9.7a/GoldenEye-007-XBLA-PC-Recomp-v0.9.7a.zip",
+      size: "24.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/13/GoldenEye_007_N64_cover.jpg",
     alt: "GoldenEye 007 (box art)",

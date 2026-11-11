@@ -14,12 +14,34 @@ export const bodyHarvestPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.0", date: "2026-10-03" },
   sources: ["https://github.com/mcsoderh/BodyHarvestRecomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/mcsoderh/BodyHarvestRecomp/releases/download/v1.0.0/BodyHarvestRecompiled-v1.0.0-Linux-ARM64.tar.gz",
+      size: "7.6 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/mcsoderh/BodyHarvestRecomp/releases/download/v1.0.0/BodyHarvestRecompiled-v1.0.0-Linux-X64.tar.gz",
+      size: "7.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/mcsoderh/BodyHarvestRecomp/releases/download/v1.0.0/BodyHarvestRecompiled-v1.0.0-macOS.zip",
+      size: "16.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/mcsoderh/BodyHarvestRecomp/releases/download/v1.0.0/BodyHarvestRecompiled-v1.0.0-Windows.zip",
+      size: "17.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a3/Body_Harvest.jpg",
     alt: "Body Harvest (box art)",

@@ -14,12 +14,24 @@ export const blastCorpsPowerDozer: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows","linux"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.84", date: "2026-10-12" },
   sources: ["https://github.com/djultra64/Power-Dozer"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/djultra64/Power-Dozer/releases/download/v0.84/power-dozer-v0.84-linux-x86_64.tar.gz",
+      size: "17.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/djultra64/Power-Dozer/releases/download/v0.84/power-dozer-v0.84-windows-x86_64.zip",
+      size: "13.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/83/Blast_Corps_Coverart.png",
     alt: "Blast Corps (box art)",

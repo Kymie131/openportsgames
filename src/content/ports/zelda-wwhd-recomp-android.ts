@@ -14,13 +14,20 @@ export const zeldaWwhdRecompAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.9.9c", date: "2026-11-06" },
   sources: ["https://github.com/GreenNaugahyde/ZeldaWWHDRecompAndroid"],
   license: { spdx: "MPL-2.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Wii U"],
   related: ["zeldawwhdrecompandroid","wind-waker-hd-android-plus","switch-waker-hd"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/GreenNaugahyde/ZeldaWWHDRecompAndroid/releases/download/v0.9.9c/tloz_tww_hd_recomp-0.9.9c.apk",
+      size: "73.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
     alt: "The Legend of Zelda: The Wind Waker HD (box art)",

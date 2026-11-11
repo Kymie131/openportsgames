@@ -14,12 +14,29 @@ export const splosionManPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows","linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.2", date: "2026-11-09" },
   sources: ["https://github.com/thefixinhixon/SplosionManRecomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/thefixinhixon/SplosionManRecomp/releases/download/v2.2/SplosionMan-Linux-v2.2.zip",
+      size: "60.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/thefixinhixon/SplosionManRecomp/releases/download/v2.2/SplosionMan-Windows-v2.2.zip",
+      size: "49.5 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/thefixinhixon/SplosionManRecomp/releases/download/v2.2/SplosionMan-x86_64-v2.2.AppImage",
+      size: "60.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/22/Splosion_Man.jpg",
     alt: "'Splosion Man (box art)",

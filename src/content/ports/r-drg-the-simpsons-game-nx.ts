@@ -21,6 +21,13 @@ export const rDrgTheSimpsonsGameNx: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Switch NRO",
+      url: "https://github.com/R-drg/the-simpsons-game-nx/releases/download/v1.0.1/the_simpsons_game.nro",
+      size: "74.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a2/The_Simpsons_Game_XBOX_360_Cover.jpg",
     alt: "The Simpsons Game (box art)",

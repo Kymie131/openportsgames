@@ -31,6 +31,23 @@ export const houseOfTheDeadRewrithe: Port = {
     "Reescritura en C++ que combina el original arcade de Sega Model 2 Revisión A con el port de PC de 1998, eligiendo la mejor versión sistema a sistema y permitiendo usar cualquiera de los dos conjuntos de modelos y texturas. La versión 1.1.0 permite jugar todos los capítulos de principio a fin. Requiere tu propio set de ROMs hotd de MAME (Revisión A) y tu propia instalación del juego de PC de 1998; un script de configuración compila el ejecutable jugable. El paquete actual es para Windows x64; las builds de Linux y macOS están documentadas. No incluye datos del juego.",
   warning: "Contains flashing lights and horror violence.",
   warningEs: "Contiene luces intermitentes y violencia de terror.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/TawhidI-602/The-House-of-the-Dead-ReWrithe/releases/download/v1.3.1/hotd-rewrithe-v1.3.1-linux-x86_64.tar.gz",
+      size: "24.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/TawhidI-602/The-House-of-the-Dead-ReWrithe/releases/download/v1.3.1/hotd-rewrithe-v1.3.1-macos-universal.zip",
+      size: "28.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/TawhidI-602/The-House-of-the-Dead-ReWrithe/releases/download/v1.3.1/hotd-rewrithe-v1.3.1-win64.zip",
+      size: "25.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/2a/House_of_the_Dead_arcade_flyer.jpg",
     alt: "The House of the Dead (arcade flyer)",

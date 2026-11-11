@@ -14,7 +14,7 @@ export const openCrystalCaves: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.7.0", date: "2026-08-29" },
   sources: ["https://github.com/OpenCrystalCaves/OpenCrystalCaves"],
   license: { spdx: "MIT" },
   verified: false,
@@ -26,6 +26,18 @@ export const openCrystalCaves: Port = {
     "Unofficial open-source engine reimplementation of Crystal Caves (MS-DOS). It needs your own copy of the game.",
   notesEs:
     "Reimplementación no oficial de código abierto del motor de Crystal Caves (MS-DOS). Necesita tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/OpenCrystalCaves/OpenCrystalCaves/releases/download/0.7.0/OpenCrystalCaves-0.7.0-Linux-occ.tar.gz",
+      size: "507 KB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/OpenCrystalCaves/OpenCrystalCaves/releases/download/0.7.0/OpenCrystalCaves-0.7.0-win64-occ.zip",
+      size: "1.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/cf/Crystal_Caves_CD_Cover.jpg",
     alt: "Crystal Caves (cover)",

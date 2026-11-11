@@ -21,6 +21,18 @@ export const nfsUndergroundAndroid: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["PlayStation 2"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/codepdbh/nfsu1-recompiled/releases/download/v0.2.12/NFSU1-AndroidEvolved-v0.2.12-arm64.apk",
+      size: "41.5 MB",
+    },
+    {
+      label: "Android APK",
+      url: "https://github.com/codepdbh/nfsu1-recompiled/releases/download/v0.2.12/NFSU1-AndroidEvolved-v0.2.12-armeabi-v7a.apk",
+      size: "49.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/52/Need_for_Speed_Underground_cover.jpg",
     alt: "Need for Speed: Underground (box art)",

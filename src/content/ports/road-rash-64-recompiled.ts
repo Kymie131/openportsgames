@@ -37,6 +37,18 @@ export const roadRash64Recompiled: Port = {
     "Native recompilation of Road Rash 64. The README discloses that AI was used extensively during development, including code changes, debugging and launcher artwork. Requires the player's own legally obtained ROM.",
   notesEs:
     "Recompilación nativa de Road Rash 64. El README declara que se usó IA de forma extensiva durante el desarrollo, incluidos cambios de código, depuración y arte del lanzador. Requiere la ROM obtenida legalmente por el jugador.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/linkssy2/RoadRash64Recompiled/releases/download/v1.4.9/RoadRash64Recompiled-v1.4.9-Linux-Experimental.zip",
+      size: "561.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/linkssy2/RoadRash64Recompiled/releases/download/v1.4.9/RoadRash64Recompiled-v1.4.9-Win64.zip",
+      size: "45.1 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Road%20Rash%2064%20(USA).png",
     alt: "Road Rash 64 (box art)",

@@ -14,7 +14,7 @@ export const dragonBallZBuusFuryRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.0.4", date: "2026-10-18" },
   sources: ["https://github.com/mstan/DragonBallZBuusFuryRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
@@ -25,6 +25,13 @@ export const dragonBallZBuusFuryRecomp: Port = {
     "Static recompilation of Dragon Ball Z: Buu's Fury (GBA) with the gbarecomp framework. It requires your own game data.",
   notesEs:
     "Recompilación estática de Dragon Ball Z: Buu's Fury (GBA) con el framework gbarecomp. Requiere tus propios datos del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/DragonBallZBuusFuryRecomp/releases/download/v0.0.4/DragonBallZBuusFuryRecomp-windows-x64-v0.0.4.zip",
+      size: "13.4 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Dragon%20Ball%20Z%20-%20Buu's%20Fury%20(USA).png",
     alt: "Dragon Ball Z: Buu's Fury (box art)",

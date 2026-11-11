@@ -14,12 +14,29 @@ export const redAlert2Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.3", date: "2026-10-27" },
   sources: ["https://github.com/sp00nznet/redalert2-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/sp00nznet/redalert2-recomp/releases/download/v0.1.3/RA2-Recomp-Installer-linux-x64.tar.gz",
+      size: "9.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/sp00nznet/redalert2-recomp/releases/download/v0.1.3/RA2-Recomp-Installer-macos-arm64.zip",
+      size: "9.1 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/sp00nznet/redalert2-recomp/releases/download/v0.1.3/RA2-Recomp-Installer-windows-x64.exe",
+      size: "18.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/11/Cncra2-win-cover.jpg",
     alt: "Command & Conquer: Red Alert 2 (box art)",

@@ -14,7 +14,7 @@ export const gen2recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos", "android", "ios"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.8.57", date: "2026-11-09" },
   sources: ["https://github.com/UNDERdecoded/Gen2Recomped"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,38 @@ export const gen2recomp: Port = {
     "Recompilation project for the second-generation Pokémon games, forked from Gen1Recomp. It runs on desktop and Android with your own game data.",
   notesEs:
     "Proyecto de recompilación de los Pokémon de segunda generación, derivado de Gen1Recomp. Funciona en escritorio y Android con tus propios datos del juego.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.57/Gen2Recomped-0.8.57-android.apk",
+      size: "127.8 MB",
+    },
+    {
+      label: "iOS IPA",
+      url: "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.57/Gen2Recomped-0.8.57-ios.ipa",
+      size: "33.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.57/Gen2Recomped-0.8.57-linux.zip",
+      size: "94.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.57/Gen2Recomped-0.8.57-macos.zip",
+      size: "53.3 MB",
+    },
+    {
+      label: "Gen2Recomped-0.8.57-rg34xxsp-stockos64-mod",
+      url: "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.57/Gen2Recomped-0.8.57-rg34xxsp-stockos64-mod.zip",
+      size: "68.1 MB",
+    },
+    {
+      label: "Switch",
+      url: "https://github.com/UNDERdecoded/Gen2Recomped/releases/download/v0.8.57/Gen2Recomped-0.8.57-switch.zip",
+      size: "32.2 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Boxarts/Pokemon%20-%20Gold%20Version%20(USA,%20Europe)%20(SGB%20Enhanced)%20(GB%20Compatible).png",
     alt: "Pokémon Gold (box art)",

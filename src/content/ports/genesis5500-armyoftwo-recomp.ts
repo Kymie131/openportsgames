@@ -21,6 +21,13 @@ export const genesis5500ArmyoftwoRecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Genesis5500/ArmyOfTwo-Recomp/releases/download/v0.1.0/ArmyOfTwo-Recomp-v0.1.0-win-x64.zip",
+      size: "27.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/72/ArmyofTwo_front-1-.jpg",
     alt: "Army of Two (box art)",

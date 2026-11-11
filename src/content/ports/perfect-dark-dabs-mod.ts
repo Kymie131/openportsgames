@@ -37,6 +37,33 @@ export const perfectDarkDabsMod: Port = {
     "Community decompilation of Perfect Dark with extended mod features, published as 'Dab's Mod'. The repository documents its AI-assisted development process. Requires the player's own legally obtained Perfect Dark ROM.",
   notesEs:
     "Decompilación comunitaria de Perfect Dark con funciones de mod ampliadas, publicada como 'Dab's Mod'. El repositorio documenta su proceso de desarrollo asistido por IA. Requiere la ROM de Perfect Dark obtenida legalmente por el jugador.",
+  downloads: [
+    {
+      label: "Macos",
+      url: "https://github.com/DabDavis/perfect-dark-dabs-mod/releases/download/v3.15.1/pd-dabs-mod-arm64-osx.tar.xz",
+      size: "4.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/DabDavis/perfect-dark-dabs-mod/releases/download/v3.15.1/pd-dabs-mod-x86_64-linux.tar.gz",
+      size: "8.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/DabDavis/perfect-dark-dabs-mod/releases/download/v3.15.1/pd-dabs-mod-x86_64-osx.tar.xz",
+      size: "4.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/DabDavis/perfect-dark-dabs-mod/releases/download/v3.15.1/pd-dabs-mod-x86_64-windows.zip",
+      size: "10.0 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/DabDavis/perfect-dark-dabs-mod/releases/download/v3.15.1/pd.x86_64-windows.exe",
+      size: "26.2 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Perfect%20Dark%20(USA).png",
     alt: "Perfect Dark (box art)",

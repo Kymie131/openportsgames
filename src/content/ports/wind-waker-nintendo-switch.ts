@@ -14,12 +14,29 @@ export const windWakerNintendoSwitch: Port = {
   originalGameLicense: "proprietary",
   platforms: ["switch"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.2", date: "2026-10-27" },
   sources: ["https://github.com/centollOS/SwitchWaker"],
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
+  downloads: [
+    {
+      label: "Switch",
+      url: "https://github.com/centollOS/SwitchWaker/releases/download/v1.0.2/SwitchWaker-v1.0.2-switch-eur.zip",
+      size: "9.3 MB",
+    },
+    {
+      label: "Switch",
+      url: "https://github.com/centollOS/SwitchWaker/releases/download/v1.0.2/SwitchWaker-v1.0.2-switch.zip",
+      size: "9.3 MB",
+    },
+    {
+      label: "Switch",
+      url: "https://github.com/centollOS/SwitchWaker/releases/download/v1.0.2/SwitchWaker-v1.0.2.zip",
+      size: "10.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
     alt: "The Legend of Zelda: The Wind Waker (box art)",

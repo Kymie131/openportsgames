@@ -14,12 +14,24 @@ export const superPaperMarioPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.0.8", date: "2026-11-01" },
   sources: ["https://github.com/josiahg2502-glitch/NewSuperPaperBros"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Wii"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/josiahg2502-glitch/NewSuperPaperBros/releases/download/v1.0.8/NewSuperPaperBros-linux.tar.gz",
+      size: "334.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/josiahg2502-glitch/NewSuperPaperBros/releases/download/v1.0.8/NewSuperPaperBros.zip",
+      size: "356.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c9/Super_Paper_Mario_cover.jpg",
     alt: "Super Paper Mario (box art)",

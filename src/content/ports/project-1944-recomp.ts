@@ -14,7 +14,7 @@ export const project1944Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.1", date: "2026-10-29" },
   sources: ["https://github.com/zenit2893-cmyk/project-1944"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const project1944Recomp: Port = {
     "A separate recompilation of Call of Duty 3 (Xbox 360) by another developer. It builds for Windows and needs your own game data.",
   notesEs:
     "Una recompilación distinta de Call of Duty 3 (Xbox 360) hecha por otro desarrollador. Compila para Windows y necesita tus propios datos del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/zenit2893-cmyk/Call-of-Duty-3-PC-Editon/releases/download/2.1/cod3-pc-full.zip",
+      size: "378.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/51/Call_of_Duty_3_Game_Cover.jpg",
     alt: "Call of Duty 3 (box art)",

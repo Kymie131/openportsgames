@@ -45,6 +45,38 @@ export const namcoSystem22RaveRacer: Port = {
     "Decompilation of the 1995 Namco arcade racer for PC. This one also needs the separate sound board ROM set (namcoc74.zip) alongside the game ROM.",
   notesEs:
     "Decompilación del arcade de carreras de Namco de 1995 para PC. Este además necesita el set de ROM de la placa de sonido (namcoc74.zip) junto con la ROM del juego.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/AceDriver-x86_64.AppImage",
+      size: "3.4 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/AnglerKing-x86_64.AppImage",
+      size: "4.8 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/ArmadilloRacing-x86_64.AppImage",
+      size: "3.4 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/CrisisZone-x86_64.AppImage",
+      size: "12.9 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/CyberCommando-x86_64.AppImage",
+      size: "3.9 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/spacestate1/namco22-decompile/releases/download/0.10.3/CyberSled-x86_64.AppImage",
+      size: "3.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/3c/Rave_Racer_Flyer.png",
     alt: "Rave Racer (box art)",

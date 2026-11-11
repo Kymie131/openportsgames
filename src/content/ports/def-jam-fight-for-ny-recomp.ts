@@ -20,6 +20,23 @@ export const defJamFightForNyRecomp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox"],
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/vyanhursky/DefJamFFNY-recomp/releases/download/v1.1.1/DefJamRecompiled-1.1.1-linux-x86_64.AppImage",
+      size: "195.0 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/vyanhursky/DefJamFFNY-recomp/releases/download/v1.1.1/DefJamRecompiled-1.1.1-macos-arm64.zip",
+      size: "68.3 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/vyanhursky/DefJamFFNY-recomp/releases/download/v1.1.1/DefJamRecompiled-1.1.1-windows-x64.exe",
+      size: "63.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/3a/Def_Jam_Fight_for_NY.jpg",
     alt: "Def Jam: Fight for NY (box art)",

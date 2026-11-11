@@ -16,7 +16,7 @@ export const psp5GameLauncherForPsp: Port = {
   kind: "tool",
   platforms: ["psp"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.1.3", date: "2026-11-11" },
   sources: ["https://github.com/08Weber/psp5"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -24,6 +24,28 @@ export const psp5GameLauncherForPsp: Port = {
   originalSystems: ["Unknown"],
   summary: "The PlayStation Portable (PSP) is a handheld game console developed and marketed by Sony Computer Entertainment. It was first released in Japan on December 12, 2004, in North America on March 24, 2005, and in PAL regions on September 1, 2005, and is the first handheld installment in the PlayStation line of consoles. As a seventh generation console, the PSP mainly competed with the Nintendo DS.",
   summaryEs: "PlayStation Portable (PSP) es una videoconsola portátil de la multinacional japonesa Sony, y la cuarta consola de la compañía en ser diseñada por Ken Kutaragi. Aparte de jugar videojuegos, podía conectarse a internet y reproducir multimedia. Se trata de la primera consola portátil a nivel mundial de Sony y la segunda lanzada en Japón.",
+  downloads: [
+    {
+      label: "psp5-v2.1.3-ARK4",
+      url: "https://github.com/08Weber/psp5/releases/download/v2.1.3/psp5-v2.1.3-ARK4.zip",
+      size: "1.2 MB",
+    },
+    {
+      label: "psp5-v2.1.3-ARK5",
+      url: "https://github.com/08Weber/psp5/releases/download/v2.1.3/psp5-v2.1.3-ARK5.zip",
+      size: "1.2 MB",
+    },
+    {
+      label: "psp5-v2.1.3-PSPGo-ARK4",
+      url: "https://github.com/08Weber/psp5/releases/download/v2.1.3/psp5-v2.1.3-PSPGo-ARK4.zip",
+      size: "1.2 MB",
+    },
+    {
+      label: "psp5-v2.1.3-PSPGo-ARK5",
+      url: "https://github.com/08Weber/psp5/releases/download/v2.1.3/psp5-v2.1.3-PSPGo-ARK5.zip",
+      size: "1.2 MB",
+    },
+  ],
   cover: {
     src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/PSP-1000.png/960px-PSP-1000.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     alt: "PlayStation Portable (box art)",

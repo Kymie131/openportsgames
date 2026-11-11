@@ -14,13 +14,20 @@ export const wetRecompWindows: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.6.0", date: "2026-10-05" },
   sources: ["https://github.com/Supermedo/wet-recomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["wet-recomp"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Supermedo/wet-recomp/releases/download/v0.6.0/wet-recomp-windows-x64.zip",
+      size: "27.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/98/Wet_game.jpg",
     alt: "WET (box art)",

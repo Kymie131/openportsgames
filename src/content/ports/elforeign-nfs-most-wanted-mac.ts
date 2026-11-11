@@ -21,6 +21,13 @@ export const elforeignNfsMostWantedMac: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "macOS DMG",
+      url: "https://github.com/elforeign/nfs-most-wanted-mac/releases/download/v4.5.0/NFS-Most-Wanted-Native-Setup-v4.5.0.dmg",
+      size: "110.1 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1262560/header.jpg",
     alt: "Need for Speed: Most Wanted (box art)",

@@ -34,6 +34,23 @@ export const gravityRushRemasteredGrr: Port = {
     minimum:
       "Windows 10/11 64-bit or Linux x86-64, a Vulkan 1.3 GPU with 4 GB VRAM and 9.5 GB free for game data",
   },
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/rodrigojacarei/grr_pc/releases/download/v2026.10.30-1856116/GravityRushRemastered-x86_64.AppImage",
+      size: "76.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/rodrigojacarei/grr_pc/releases/download/v2026.10.30-1856116/grr-linux-x86_64.tar.gz",
+      size: "84.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/rodrigojacarei/grr_pc/releases/download/v2026.10.30-1856116/grr-windows-x86_64.zip",
+      size: "110.4 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/gravity-rush-remastered.svg",
     alt: "Gravity Rush Remastered (generated cover)",

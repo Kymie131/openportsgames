@@ -14,7 +14,7 @@ export const earthwormJimHdRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.9.6", date: "2026-10-18" },
   sources: ["https://github.com/TekRantGaming/earthworm-jim-hd-recompiled"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -26,6 +26,18 @@ export const earthwormJimHdRecomp: Port = {
     "Static recompilation of Earthworm Jim HD for Windows. It needs your own copy of the game.",
   notesEs:
     "Recompilación estática de Earthworm Jim HD para Windows. Necesita tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/TekRantGaming/earthworm-jim-hd-recompiled/releases/download/v0.9.6/EarthwormJimHD-v0.9.6-linux-x86_64.AppImage",
+      size: "53.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/TekRantGaming/earthworm-jim-hd-recompiled/releases/download/v0.9.6/EarthwormJimHD-v0.9.6-windows-x64.zip",
+      size: "30.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6f/Earthworm_Jim_Neutral_Cover.jpg",
     alt: "Earthworm Jim (cover)",

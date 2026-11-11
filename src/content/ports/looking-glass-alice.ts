@@ -14,7 +14,7 @@ export const lookingGlassAlice: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.33.0-preview.1", date: "2026-11-08" },
   sources: ["https://github.com/skulitom/LookingGlass"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const lookingGlassAlice: Port = {
     "Rust reimplementation of American McGee's Alice that runs the full campaign on Windows with controller support and modern display options. It is an experimental preview and needs your own game data.",
   notesEs:
     "Reimplementación en Rust de American McGee's Alice que ejecuta la campaña completa en Windows con soporte de mando y opciones de pantalla modernas. Es una preview experimental y necesita tus propios datos del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/looking-glass-project/LookingGlass/releases/download/v0.33.0-preview.1/LookingGlass-Windows-x64-v0.33.0-preview.1.zip",
+      size: "13.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a9/American_McGee_Alice_cover.png",
     alt: "American McGee's Alice (box art)",

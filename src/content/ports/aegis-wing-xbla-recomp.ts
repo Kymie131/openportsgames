@@ -14,7 +14,7 @@ export const aegisWingXblaRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.9", date: "2026-11-10" },
   sources: ["https://github.com/CaiusCodes/Aegis-Wing-XBLA-PC-Recomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -22,6 +22,13 @@ export const aegisWingXblaRecomp: Port = {
   originalSystems: ["Xbox 360"],
   summary: "Aegis Wing is a 2007 scrolling shooter video game developed by Carbonated Games and three independent Microsoft interns for the Xbox Live Arcade. The game was released worldwide on May 16, 2007, available free to all Xbox Live members in North America.",
   summaryEs: "Aegis Wing es un videojuego de disparos de desplazamiento lateral de 2007 desarrollado por Carbonated Games y tres becarios independientes de Microsoft para Xbox Live Arcade, publicado por Microsoft Game Studios. El juego se lanzó a nivel mundial el 16 de mayo de 2007 y estuvo disponible de forma gratuita para todos los miembros de Xbox Live en Norteamérica.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/CaiusCodes/Aegis-Wing-XBLA-PC-Recomp/releases/download/v0.9/Aegis-Wing-XBLA-Recomp-v0.9.zip",
+      size: "11.9 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/aegis-wing.svg",
     alt: "Aegis Wing (generated cover)",

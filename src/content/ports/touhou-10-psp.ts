@@ -14,7 +14,7 @@ export const touhou10Psp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["psp"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1.1", date: "2026-10-23" },
   sources: ["https://github.com/kan8223-dotcom/th10-psp-native"],
   license: { spdx: "MIT" },
   verified: false,
@@ -23,6 +23,13 @@ export const touhou10Psp: Port = {
   related: ["touhou-6-psp"],
   summary: "Touhou Fūjinroku ~ Mountain of Faith. is a 2007 bullet hell scrolling shooter developed by Team Shanghai Alice. It is the tenth main game in the Touhou Project, and the twelfth game overall. As with the other main Touhou Project games, Mountain of Faith is a vertically scrolling shooter. Mountain of Faith was released in the Comiket 72 in August 2007, and released on Steam in June 2020.",
   summaryEs: "El término null, nulo o nil es a menudo utilizado en la computación para hacer referencia a la nada. Su significado y uso varía según el lenguaje de programación.",
+  downloads: [
+    {
+      label: "th10-psp-native-v1.1.1",
+      url: "https://github.com/kan8223-dotcom/th10-psp-native/releases/download/v1.1.1/th10-psp-native-v1.1.1.zip",
+      size: "2.4 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/touhou-10-mountain-of-faith.svg",
     alt: "Touhou 10: Mountain of Faith (generated cover)",

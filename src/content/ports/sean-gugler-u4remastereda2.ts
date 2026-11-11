@@ -23,6 +23,13 @@ export const seanGuglerU4remastereda2: Port = {
   originalSystems: ["Unknown"],
   summary: "Ultima IV: Quest of the Avatar, first released in 1985 for the Apple II, is the fourth in the series of Ultima role-playing video games. It is the first in the \"Age of Enlightenment\" trilogy, shifting the series from the hack and slash, dungeon crawl gameplay of its \"Age of Darkness\" predecessors towards an ethically nuanced, story-driven approach. Ultima IV has a much larger game world than its predecessors, with an overworld map sixteen times the size of Ultima III and puzzle-filled dungeon rooms to explore.",
   summaryEs: "Ultima IV: Quest of the Avatar fue lanzado por primera vez en 1985 para la Apple II. Es la cuarta entrega de la serie de juegos de rol Ultima y el primero de la segunda trilogía, denominada \"La Era de la Iluminación\", en la que sin abandonar el estilo hack and slash, dungeon crawl de sus predecesores de \"La Era de la Oscuridad\", introduce una revolucionaria orientación hacia una historia con un importante matiz ético.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/sean-gugler/u4remasteredA2/releases/download/v1.2.12/u4remasteredA2_v1212.zip",
+      size: "230 KB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/ultima-iv-quest-of-the-avatar.svg",
     alt: "Ultima IV: Quest of the Avatar (generated cover)",

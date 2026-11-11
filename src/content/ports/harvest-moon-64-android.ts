@@ -14,13 +14,20 @@ export const harvestMoon64Android: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.2.0", date: "2026-08-07" },
   sources: ["https://github.com/igawa6/HarvestMoon64Recomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["harvest-moon-64-recomp"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/igawa6/HarvestMoon64Recomp/releases/download/v0.2.0/hm64recomp-android-0.2.0.apk",
+      size: "6.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6a/Harvest_Moon_64_Coverart.png",
     alt: "Harvest Moon 64 (box art)",

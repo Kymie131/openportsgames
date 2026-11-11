@@ -14,7 +14,7 @@ export const eternalSonataReprise: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos", "android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.3.9", date: "2026-11-09" },
   sources: ["https://github.com/birabittoh/EternalSonataReprise"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,38 @@ export const eternalSonataReprise: Port = {
     "Static recompilation of Eternal Sonata (Xbox 360) with ReXGlue. It converts the PPC executable to native x86_64 and wraps it in a small host runtime with overlays and hooks for mods; builds for Windows, Linux, macOS and Android.",
   notesEs:
     "Recompilación estática de Eternal Sonata (Xbox 360) con ReXGlue. Convierte el ejecutable PPC en código x86_64 nativo y lo envuelve en un runtime propio con overlays y hooks para mods; builds para Windows, Linux, macOS y Android.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/birabittoh/EternalSonataReprise/releases/download/v1.3.9/eternalsonata-v1.3.9-android-arm64.apk",
+      size: "34.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/birabittoh/EternalSonataReprise/releases/download/v1.3.9/eternalsonata-v1.3.9-linux-amd64.tar.gz",
+      size: "28.8 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/birabittoh/EternalSonataReprise/releases/download/v1.3.9/eternalsonata-v1.3.9-linux-arm64.tar.gz",
+      size: "29.4 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/birabittoh/EternalSonataReprise/releases/download/v1.3.9/eternalsonata-v1.3.9-mac-amd64.dmg",
+      size: "29.8 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/birabittoh/EternalSonataReprise/releases/download/v1.3.9/eternalsonata-v1.3.9-mac-arm64.dmg",
+      size: "28.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/birabittoh/EternalSonataReprise/releases/download/v1.3.9/eternalsonata-v1.3.9-win-amd64.zip",
+      size: "25.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/aa/Eternal_Sonata.jpg",
     alt: "Eternal Sonata (box art)",

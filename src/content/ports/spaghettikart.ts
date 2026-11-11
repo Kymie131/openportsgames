@@ -46,6 +46,28 @@ export const spaghettiKart: Port = {
       credit: "HarbourMasters",
     },
   ],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/HarbourMasters/SpaghettiKart/releases/download/1.0.0/spaghetti-linux.zip",
+      size: "11.8 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/HarbourMasters/SpaghettiKart/releases/download/1.0.0/spaghetti-mac-arm64.zip",
+      size: "7.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/HarbourMasters/SpaghettiKart/releases/download/1.0.0/spaghetti-mac-intel-x64.zip",
+      size: "7.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/HarbourMasters/SpaghettiKart/releases/download/1.0.0/spaghetti-windows.zip",
+      size: "7.4 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Mario%20Kart%2064%20(Europe)%20(Rev%201).png",
     alt: "Mario Kart 64 (box art)",

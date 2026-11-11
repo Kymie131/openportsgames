@@ -25,6 +25,13 @@ export const riotashley81JpgVagrantstoryRecomp: Port = {
   summaryEs: "Vagrant Story es un juego JRPG desarrollado y publicado por Square Co., Ltd., para la consola de videojuegos PlayStation. El juego fue lanzado en el año 2000, y ha sido relanzado a través de la PlayStation Network para las consolas PlayStation 3 y PlayStation Portable. Se caracteriza por su fascinante argumento, la creación/modificación de armas, resolución de acertijos y el uso de Magia. Vagrant Story fue desarrollado principalmente por el equipo responsable de Final Fantasy Tactics, con Yasumi Matsuno como productor, escritor y director.",
   notes: "VagrantStory: static recompilation by riotashley81-jpg for Windows. Bring your own copy of the game.",
   notesEs: "VagrantStory: recompilación estática de riotashley81-jpg para Windows. Aporta tu propia copia del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/riotashley81-jpg/vagrantstory_recomp/releases/download/v0.1.11/VagrantStoryRecompiled-0.1.11-win-x64.zip",
+      size: "43.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a3/Vagrantstorybox.jpg",
     alt: "Vagrant Story (box art)",

@@ -14,7 +14,7 @@ export const ghostInTheShellRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.1", date: "2026-09-30" },
   sources: ["https://github.com/alexbeavs-ps1-ports/ghost-in-the-shell-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,28 @@ export const ghostInTheShellRecomp: Port = {
     "Recompilation of Ghost in the Shell (PS1, Europe SCES-01050) with PSXRecomp and the recomp-ui launcher. It requires your own disc and a European SCPH-5502/5552 BIOS; the game is compiled on your machine. Release candidate 0.1.0, still without gameplay acceptance.",
   notesEs:
     "Recompilación de Ghost in the Shell (PS1, Europa SCES-01050) con PSXRecomp y el lanzador recomp-ui. Requiere tu propio disco y una BIOS europea SCPH-5502/5552; el juego se compila en tu máquina. Candidata 0.1.0, todavía sin aceptación de gameplay.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/alexbeavs-ps1-ports/ghost-in-the-shell-recomp/releases/download/v0.1.1/ghost-in-the-shell-0.1.1-linux-x64.zip",
+      size: "23.1 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/alexbeavs-ps1-ports/ghost-in-the-shell-recomp/releases/download/v0.1.1/ghost-in-the-shell-0.1.1-macos-arm64.zip",
+      size: "21.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/alexbeavs-ps1-ports/ghost-in-the-shell-recomp/releases/download/v0.1.1/ghost-in-the-shell-0.1.1-macos-x64.zip",
+      size: "22.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/alexbeavs-ps1-ports/ghost-in-the-shell-recomp/releases/download/v0.1.1/ghost-in-the-shell-0.1.1-windows-x64.zip",
+      size: "25.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Ghost%20in%20the%20Shell%20(Europe).png",
     alt: "Ghost in the Shell (box art)",

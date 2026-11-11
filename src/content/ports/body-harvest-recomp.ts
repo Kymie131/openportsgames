@@ -14,7 +14,7 @@ export const bodyHarvestRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.0", date: "2026-09-17" },
   sources: ["https://github.com/danielgomesvieira2000/body-harvest-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,18 @@ export const bodyHarvestRecomp: Port = {
     "Static recompilation of Body Harvest (N64) with N64Recomp and the RT64 renderer. It requires the game itself.",
   notesEs:
     "Recompilación estática de Body Harvest (N64) con N64Recomp y el renderizador RT64. Requiere el propio juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/danielgomesvieira2000/body-harvest-recomp/releases/download/v0.1.0/body-harvest-recomp-0.1.0-linux-x86_64.tar.gz",
+      size: "6.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/danielgomesvieira2000/body-harvest-recomp/releases/download/v0.1.0/body-harvest-recomp-0.1.0-windows-x64.zip",
+      size: "17.1 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Body%20Harvest%20(Europe)%20(En,Fr,De).png",
     alt: "Body Harvest (box art)",

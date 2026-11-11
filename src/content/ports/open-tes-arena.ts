@@ -34,6 +34,28 @@ export const openTesaArena: Port = {
       credit: "OpenTESArena",
     },
   ],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/afritz1/OpenTESArena/releases/download/opentesarena-0.18.0/opentesarena-0.18.0-linux_rpi5.tar.gz",
+      size: "68.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/afritz1/OpenTESArena/releases/download/opentesarena-0.18.0/opentesarena-0.18.0-linux_x86-64.tar.gz",
+      size: "71.0 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/afritz1/OpenTESArena/releases/download/opentesarena-0.18.0/opentesarena-0.18.0-macos_arm64.dmg",
+      size: "8.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/afritz1/OpenTESArena/releases/download/opentesarena-0.18.0/opentesarena-0.18.0-windows_x86-64.zip",
+      size: "4.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/8/89/Elder_Scrolls_Arena_Cover.jpg",
     alt: "The Elder Scrolls: Arena (box art)",

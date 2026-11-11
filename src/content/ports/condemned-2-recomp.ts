@@ -26,6 +26,13 @@ export const condemned2Recomp: Port = {
     "Static recompilation of Condemned 2: Bloodshot (Xbox 360) with ReXGlue, with mouse look and graphics settings. Playable start to finish, still with rough edges.",
   notesEs:
     "Recompilación estática de Condemned 2: Bloodshot (Xbox 360) con ReXGlue, con ratón y ajustes gráficos. Jugable de principio a fin, todavía con bordes por pulir.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/psxrestore/Condemned2Recomp/releases/download/0.6.0/condemned2recompV0.6.0_windows.zip",
+      size: "23.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/4/42/Condemned_2_Bloodshot.jpg",
     alt: "Condemned 2: Bloodshot (box art)",

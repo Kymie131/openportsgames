@@ -14,7 +14,7 @@ export const streetsOfRageRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.7.1", date: "2026-11-06" },
   sources: ["https://github.com/RuiNelson/StreetsOfRageProject"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,33 @@ export const streetsOfRageRecomp: Port = {
     "Native recompilation of Streets of Rage (Sega Mega Drive / Genesis). The player supplies their own legally obtained ROM; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Streets of Rage (Sega Mega Drive / Genesis). El jugador aporta su propio material obtenido legalmente (ROM); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/RuiNelson/StreetsOfRageProject/releases/download/0.7.1/StreetsOfRageBuilder-0.7.1-aarch64.AppImage",
+      size: "77.9 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/RuiNelson/StreetsOfRageProject/releases/download/0.7.1/StreetsOfRageBuilder-0.7.1-macos-universal.dmg",
+      size: "16.6 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/RuiNelson/StreetsOfRageProject/releases/download/0.7.1/StreetsOfRageBuilder-0.7.1-windows-arm64.exe",
+      size: "8.9 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/RuiNelson/StreetsOfRageProject/releases/download/0.7.1/StreetsOfRageBuilder-0.7.1-windows-x64.exe",
+      size: "10.5 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/RuiNelson/StreetsOfRageProject/releases/download/0.7.1/StreetsOfRageBuilder-0.7.1-x86_64.AppImage",
+      size: "79.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sega%20-%20Mega%20Drive%20-%20Genesis/Named_Boxarts/Streets%20of%20Rage%20(USA).png",
     alt: "Streets of Rage (box art)",

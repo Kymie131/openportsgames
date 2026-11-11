@@ -14,7 +14,7 @@ export const StarWarsEpisode1Racer: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.17", date: "2026-08-28" },
   sources: ["https://github.com/tim-tim707/SW_RACER_RE"],
   license: { spdx: "AGPL-3.0" },
   verified: false,
@@ -23,6 +23,13 @@ export const StarWarsEpisode1Racer: Port = {
   summary: "Star Wars Episode 1: Racer is a action-adventure game, released in 2000.",
   summaryEs: "Star Wars Episode 1: Racer es un videojuego de acci�n y aventura, lanzado en 2000.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "community_improvement_mod_v0_17",
+      url: "https://github.com/tim-tim707/SW_RACER_RE/releases/download/v0.17/community_improvement_mod_v0_17.zip",
+      size: "83.4 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/star-wars-episode-1-racer.svg",
     alt: "Star Wars Episode 1: Racer (generated cover)",

@@ -14,13 +14,20 @@ export const mk64Portable: Port = {
   originalGameLicense: "proprietary",
   platforms: ["psp"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.7", date: "2026-09-29" },
   sources: ["https://github.com/beckerd/psp_mk64_portable"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Nintendo 64"],
   related: ["mario-kart-64-recomp"],
+  downloads: [
+    {
+      label: "MK64Portable-1.7",
+      url: "https://github.com/beckerd/psp_mk64_portable/releases/download/v1.7/MK64Portable-1.7.zip",
+      size: "1.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a1/Mario_Kart_64.jpg",
     alt: "Mario Kart 64 (box art)",

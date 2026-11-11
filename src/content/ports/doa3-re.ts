@@ -14,13 +14,30 @@ export const doa3Re: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.6.2", date: "2026-11-04" },
   sources: ["https://github.com/NoRain211/doa3-re"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox"],
   related: ["doaxbv-re"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/NoRain211/doa3-re/releases/download/v0.6.2/DOA3-0.6.2-Linux.tar.gz",
+      size: "9.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/NoRain211/doa3-re/releases/download/v0.6.2/DOA3-0.6.2-macOS.tar.gz",
+      size: "9.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/NoRain211/doa3-re/releases/download/v0.6.2/DOA3-0.6.2.zip",
+      size: "10.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/2/26/Dead_or_Alive_3_cover_art.png",
     alt: "Dead or Alive 3 (box art)",

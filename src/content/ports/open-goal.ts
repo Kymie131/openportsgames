@@ -34,6 +34,33 @@ export const openGoal: Port = {
   ],
   summary: "Jak and Daxter is a platform video game franchise created by Andy Gavin and Jason Rubin and owned by Sony Interactive Entertainment. The series was originally developed by Naughty Dog with a number of installments being outsourced to Ready at Dawn and High Impact Games. The first game, Jak and Daxter: The Precursor Legacy, released on December 4, 2001, was one of the earliest titles for the PlayStation 2, and the series collectively is regarded as a defining franchise for the console.",
   summaryEs: "Jak and Daxter es una serie de videojuegos creada por Naughty Dog. Hay tres juegos de la serie principal y tres spin-off, aunque estos también se consideran parte del argumento de la serie principal.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/open-goal/jak-project/releases/download/v0.3.9/opengoal-linux-v0.3.9.tar.gz",
+      size: "41.5 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/open-goal/jak-project/releases/download/v0.3.9/opengoal-lsp-windows-v0.3.9.exe",
+      size: "16.3 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/open-goal/jak-project/releases/download/v0.3.9/opengoal-macos-arm-v0.3.9.tar.gz",
+      size: "39.3 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/open-goal/jak-project/releases/download/v0.3.9/opengoal-macos-intel-v0.3.9.tar.gz",
+      size: "40.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/open-goal/jak-project/releases/download/v0.3.9/opengoal-windows-v0.3.9.zip",
+      size: "40.6 MB",
+    },
+  ],
   cover: {
     src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Jak_and_Daxter_logo_black.svg/960px-Jak_and_Daxter_logo_black.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     alt: "Jak and Daxter / Jak II / Jak 3 (box art)",

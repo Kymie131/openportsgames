@@ -27,6 +27,38 @@ export const fallout2Ce: Port = {
     "Community engine for Fallout 2 rebuilt for modern operating systems. Requires the original Fallout 2 game files.",
   notesEs:
     "Motor comunitario de Fallout 2 adaptado a sistemas operativos modernos. Requiere los archivos del juego original de Fallout 2.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/alexbatalov/fallout2-ce/releases/download/v1.3.0/fallout2-ce-android.apk",
+      size: "6.2 MB",
+    },
+    {
+      label: "iOS IPA",
+      url: "https://github.com/alexbatalov/fallout2-ce/releases/download/v1.3.0/fallout2-ce-ios.ipa",
+      size: "6.4 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/alexbatalov/fallout2-ce/releases/download/v1.3.0/fallout2-ce-linux-x64.tar.gz",
+      size: "5.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/alexbatalov/fallout2-ce/releases/download/v1.3.0/fallout2-ce-linux-x86.tar.gz",
+      size: "4.9 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/alexbatalov/fallout2-ce/releases/download/v1.3.0/fallout2-ce-macos.dmg",
+      size: "4.7 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/alexbatalov/fallout2-ce/releases/download/v1.3.0/fallout2-ce-windows-x64.zip",
+      size: "1.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/c/c3/PC_Game_Fallout_2.jpg",
     alt: "Fallout 2 (box art)",

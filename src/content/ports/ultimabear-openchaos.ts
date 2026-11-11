@@ -23,6 +23,23 @@ export const ultimabearOpenchaos: Port = {
   originalSystems: ["Unknown"],
   summary: "Urban Chaos is the debut video game of English developer Mucky Foot Productions with its initial release in 1999 on Microsoft Windows. It was subsequently released on the PlayStation and Dreamcast. The game was published by Eidos Interactive.",
   summaryEs: "Urban Chaos es un videojuego de acción y aventura publicado por Eidos Interactive en 1999.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/UltimaBeaR/OpenChaos/releases/download/v1.0.2/OpenChaos-v1.0.2-linux-x64.zip",
+      size: "41.0 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/UltimaBeaR/OpenChaos/releases/download/v1.0.2/OpenChaos-v1.0.2-macos-arm64.zip",
+      size: "10.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/UltimaBeaR/OpenChaos/releases/download/v1.0.2/OpenChaos-v1.0.2-windows-x64.zip",
+      size: "10.1 MB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/243060/header.jpg?t=1596846329",
     alt: "Urban Chaos (Steam header)",

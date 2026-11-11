@@ -15,12 +15,19 @@ export const rotatingArtLauncher: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "2.1.1", date: "2026-04-28" },
   sources: ["https://github.com/FireworkSky/RotatingartLauncher"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/FireworkSky/RotatingartLauncher/releases/download/v2.1.1/RotatingArtLauncher.2.1.1.apk",
+      size: "105.1 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Celeste_box_art_full.png",
     alt: "Celeste (box art)",

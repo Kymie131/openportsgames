@@ -27,6 +27,38 @@ export const openJk: Port = {
     "Community engine for Jedi Academy (and Jedi Outcast single-player) released by Raven Software. Distributed as a rolling 'latest' release. Requires original game files.",
   notesEs:
     "Motor comunitario de Jedi Academy (y el modo un jugador de Jedi Outcast) publicado por Raven Software. Se distribuye como release continua 'latest'. Requiere los archivos del juego original.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/JACoders/OpenJK/releases/download/latest/OpenJK-linux-x86.tar.gz",
+      size: "7.9 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/JACoders/OpenJK/releases/download/latest/OpenJK-linux-x86_64.tar.gz",
+      size: "7.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/JACoders/OpenJK/releases/download/latest/OpenJK-macos-arm64.tar.gz",
+      size: "7.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/JACoders/OpenJK/releases/download/latest/OpenJK-macos-x86_64.tar.gz",
+      size: "8.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/JACoders/OpenJK/releases/download/latest/OpenJK-windows-x86.zip",
+      size: "5.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/JACoders/OpenJK/releases/download/latest/OpenJK-windows-x86_64.zip",
+      size: "6.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/9/90/Jabox.jpg",
     alt: "Star Wars Jedi Knight: Jedi Academy (box art)",

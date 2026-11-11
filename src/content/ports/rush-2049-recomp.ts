@@ -26,6 +26,18 @@ export const rush2049Recomp: Port = {
   summaryEs:
     "San Francisco Rush 2049 es un videojuego de carreras publicado por Midway para Nintendo 64, lanzado en 1999.",
   summaryGenerated: true,
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/n64hub/rush-2049-recomp/releases/download/v0.1.63/Rush2049Recompiled-v0.1.63-linux-x64.tar.gz",
+      size: "10.4 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/n64hub/rush-2049-recomp/releases/download/v0.1.63/Rush2049Recompiled-v0.1.63-windows-x64.zip",
+      size: "35.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/San%20Francisco%20Rush%202049%20(USA).png",
     alt: "San Francisco Rush 2049 (box art)",

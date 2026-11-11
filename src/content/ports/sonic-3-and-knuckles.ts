@@ -14,12 +14,44 @@ export const Sonic3AndKnuckles: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.8.1", date: "2026-11-11" },
   sources: ["https://github.com/mstan/Sonic3AndKnucklesRecomp"],
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Sega Mega Drive / Genesis"],
+  downloads: [
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/mstan/Sonic3AndKnucklesRecomp/releases/download/v0.8.1/Sonic3KRecomp-linux-x86_64-v0.8.1.AppImage",
+      size: "40.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/Sonic3AndKnucklesRecomp/releases/download/v0.8.1/Sonic3KRecomp-windows-x64-v0.8.1.zip",
+      size: "36.4 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/mstan/Sonic3AndKnucklesRecomp/releases/download/v0.8.1/Sonic3Recomp-linux-x86_64-v0.8.1.AppImage",
+      size: "15.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/Sonic3AndKnucklesRecomp/releases/download/v0.8.1/Sonic3Recomp-windows-x64-v0.8.1.zip",
+      size: "9.2 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/mstan/Sonic3AndKnucklesRecomp/releases/download/v0.8.1/SonicAndKnucklesRecomp-linux-x86_64-v0.8.1.AppImage",
+      size: "19.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/Sonic3AndKnucklesRecomp/releases/download/v0.8.1/SonicAndKnucklesRecomp-windows-x64-v0.8.1.zip",
+      size: "13.3 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/07/Sonic3-box-us-225.jpg",
     alt: "Sonic 3 & Knuckles (box art)",

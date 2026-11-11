@@ -14,12 +14,19 @@ export const wwe2k14Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1", date: "2026-10-15" },
   sources: ["https://github.com/mikeflare007/wwe2k14-recomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mikeflare007/wwe2k14-recomp/releases/download/v1.1/WWE2K14-Recomp-v1.1.zip",
+      size: "31.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/e/ec/WWE_2K14_cover.jpg",
     alt: "WWE 2K14 (box art)",

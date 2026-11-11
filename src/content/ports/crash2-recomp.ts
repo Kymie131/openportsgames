@@ -14,7 +14,7 @@ export const crash2Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.9.6", date: "2026-10-08" },
   sources: ["https://github.com/Zumbo06/Crash2Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -25,6 +25,13 @@ export const crash2Recomp: Port = {
     "Native port of Crash Bandicoot 2: Cortex Strikes Back (PS1, USA, SCUS-94154) with psxrecomp. A launcher builds the game from your own disc image (no BIOS needed, OpenBIOS is included) and it is completable start to finish, still as a preview.",
   notesEs:
     "Port nativo de Crash Bandicoot 2: Cortex Strikes Back (PS1, USA, SCUS-94154) con psxrecomp. Un lanzador compila el juego desde tu propia imagen de disco (no hace falta BIOS, incluye OpenBIOS) y es completable de principio a fin, todavía como preview.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/Zumbo06/Crash2Recomp/releases/download/v0.9.6/Crash2Recompiled-0.9.6-windows-x64.zip",
+      size: "218.2 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Crash%20Bandicoot%202%20-%20Cortex%20Strikes%20Back%20(USA).png",
     alt: "Crash Bandicoot 2: Cortex Strikes Back (box art)",

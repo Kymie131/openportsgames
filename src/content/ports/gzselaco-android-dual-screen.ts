@@ -14,12 +14,19 @@ export const gzselacoAndroidDualScreen: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.2.0", date: "2026-09-26" },
   sources: ["https://github.com/danillogical/GZSelaco-android"],
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Unknown"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/danillogical/GZSelaco-android/releases/download/v0.2.0/Selaco-android-0.2.0.apk",
+      size: "12.2 MB",
+    },
+  ],
   cover: {
     src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1592280/header.jpg",
     alt: "Selaco (cover art)",

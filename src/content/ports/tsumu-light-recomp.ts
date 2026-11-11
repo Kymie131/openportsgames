@@ -14,7 +14,7 @@ export const tsumuLightRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.1.1", date: "2026-10-31" },
   sources: ["https://github.com/mstan/TsumuLightRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
@@ -26,6 +26,13 @@ export const tsumuLightRecomp: Port = {
     "Native recompilation of Tsumu Light (PlayStation). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:
     "Recompilación nativa de Tsumu Light (PlayStation). El jugador aporta su propio material obtenido legalmente (disc image); el repositorio no incluye contenido del juego.",
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/TsumuLightRecomp/releases/download/v0.1.1/TsumuLightRecomp-v0.1.1-windows-x64.zip",
+      size: "29.1 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Tsumu%20Light%20(Japan).png",
     alt: "Tsumu Light (box art)",

@@ -14,7 +14,7 @@ export const lostOdysseyRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.1.0", date: "2026-10-26" },
   sources: ["https://github.com/freefrank/LostOdysseyRecomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,
@@ -25,6 +25,28 @@ export const lostOdysseyRecomp: Port = {
     "Native recompilation of Lost Odyssey (Xbox 360). Builds for Windows x64, Linux x64, macOS arm64 and Android arm64, with Direct3D 12, Vulkan or Metal.",
   notesEs:
     "Recompilación nativa de Lost Odyssey (Xbox 360). Builds para Windows x64, Linux x64, macOS arm64 y Android arm64, con Direct3D 12, Vulkan o Metal.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/freefrank/LostOdysseyRecomp/releases/download/v1.1.0/LostOdysseyRecomp-android-arm64-v1.1.0.apk",
+      size: "45.4 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/freefrank/LostOdysseyRecomp/releases/download/v1.1.0/LostOdysseyRecomp-linux-x64-v1.1.0.AppImage",
+      size: "85.5 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/freefrank/LostOdysseyRecomp/releases/download/v1.1.0/LostOdysseyRecomp-macos-arm64-v1.1.0.dmg",
+      size: "62.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/freefrank/LostOdysseyRecomp/releases/download/v1.1.0/LostOdysseyRecomp-windows-x64-v1.1.0.zip",
+      size: "147.5 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/09/Lost_Odyssey_cover.jpg",
     alt: "Lost Odyssey (box art)",

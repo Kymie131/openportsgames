@@ -38,6 +38,33 @@ export const banjoKazooieRecomp: Port = {
     "Native recompilation of Banjo-Kazooie produced with N64Recomp. The player loads their own legally obtained N64 ROM; the port recompiles the game code instead of emulating it.",
   notesEs:
     "Recompilación nativa de Banjo-Kazooie realizada con N64Recomp. El jugador carga su propia ROM de N64 obtenida legalmente; el port recompila el código del juego en lugar de emularlo.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/BanjoRecomp/BanjoRecomp/releases/download/v1.0.2/BanjoRecompiled-v1.0.2-Linux-ARM64.tar.gz",
+      size: "8.0 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/BanjoRecomp/BanjoRecomp/releases/download/v1.0.2/BanjoRecompiled-v1.0.2-Linux-Flatpak-X64.zip",
+      size: "5.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/BanjoRecomp/BanjoRecomp/releases/download/v1.0.2/BanjoRecompiled-v1.0.2-Linux-X64.tar.gz",
+      size: "8.0 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/BanjoRecomp/BanjoRecomp/releases/download/v1.0.2/BanjoRecompiled-v1.0.2-macOS.zip",
+      size: "16.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/BanjoRecomp/BanjoRecomp/releases/download/v1.0.2/BanjoRecompiled-v1.0.2-Windows.zip",
+      size: "17.8 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Banjo-Kazooie%20(USA).png",
     alt: "Banjo-Kazooie (box art)",

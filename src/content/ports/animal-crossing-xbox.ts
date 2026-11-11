@@ -14,12 +14,19 @@ export const animalCrossingXbox: Port = {
   originalGameLicense: "proprietary",
   platforms: ["xbox"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "1.2", date: "2026-10-30" },
   sources: ["https://github.com/TechProGabe/OpenCrossing-Xbox"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
+  downloads: [
+    {
+      label: "OpenCrossing-Xbox-v1.2",
+      url: "https://github.com/TechProGabe/OpenCrossing-Xbox/releases/download/v1.2/OpenCrossing-Xbox-v1.2.zip",
+      size: "3.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Animal%20Crossing%20(USA).png",
     alt: "Animal Crossing (box art)",

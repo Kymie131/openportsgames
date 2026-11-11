@@ -21,6 +21,13 @@ export const mstanSupermario64dsrecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Nintendo DS"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/mstan/supermario64dsrecomp/releases/download/v0.0.3/SuperMario64DSRecomp-windows-x64-v0.0.3.zip",
+      size: "37.8 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/1/12/Super_Mario_64_DS_Coverart.png",
     alt: "Super Mario 64 DS (box art)",

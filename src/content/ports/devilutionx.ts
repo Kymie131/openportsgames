@@ -49,6 +49,38 @@ export const devilutionX: Port = {
       "Lanza devilutionx; el motor moderno ejecuta los datos originales del juego.",
     ],
   },
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/diasurgical/DevilutionX/releases/download/1.5.5/devilutionx-android.apk",
+      size: "18.0 MB",
+    },
+    {
+      label: "iOS IPA",
+      url: "https://github.com/diasurgical/DevilutionX/releases/download/1.5.5/devilutionx-iOS.ipa",
+      size: "8.2 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/diasurgical/DevilutionX/releases/download/1.5.5/devilutionx-linux-aarch64.tar.xz",
+      size: "20.8 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/diasurgical/DevilutionX/releases/download/1.5.5/devilutionx-linux-i386.tar.xz",
+      size: "21.5 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/diasurgical/DevilutionX/releases/download/1.5.5/devilutionx-linux-x86_64.appimage",
+      size: "13.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/diasurgical/DevilutionX/releases/download/1.5.5/devilutionx-linux-x86_64.tar.xz",
+      size: "27.2 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/3a/Diablo_Coverart.png",
     alt: "Diablo (box art)",

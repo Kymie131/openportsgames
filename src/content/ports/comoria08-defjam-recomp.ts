@@ -21,6 +21,23 @@ export const comoria08DefjamRecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["Xbox"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/comoria08/defjam_recomp/releases/download/v1.2.0/DJFFNY-Recomp-Clang-complet.zip",
+      size: "100.9 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/comoria08/defjam_recomp/releases/download/v1.2.0/DJFFNY-Recomp-MSVC-DLSS.zip",
+      size: "1.5 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/comoria08/defjam_recomp/releases/download/v1.2.0/DJFFNY.exe",
+      size: "2.9 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/3/3a/Def_Jam_Fight_for_NY.jpg",
     alt: "Def Jam: Fight for NY (box art)",

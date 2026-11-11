@@ -39,6 +39,38 @@ export const freeSpace2: Port = {
     "Open source engine for FreeSpace 2. The newest tag is a release candidate, so the last stable release is recorded. Licensing is governed by a custom Copying.md with additional terms rather than a standard OSI license.",
   notesEs:
     "Motor de código abierto para FreeSpace 2. La etiqueta más reciente es una release candidate, así que se registra la última release estable. La licencia se rige por un Copying.md propio con términos adicionales en lugar de una licencia OSI estándar.",
+  downloads: [
+    {
+      label: "fs2_open_26_2_0-builds-ARM64",
+      url: "https://github.com/scp-fs2open/fs2open.github.com/releases/download/release_26_2_0/fs2_open_26_2_0-builds-ARM64.zip",
+      size: "70.8 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/scp-fs2open/fs2open.github.com/releases/download/release_26_2_0/fs2_open_26_2_0-builds-Linux-arm64.tar.gz",
+      size: "101.1 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/scp-fs2open/fs2open.github.com/releases/download/release_26_2_0/fs2_open_26_2_0-builds-Linux-x86_64.tar.gz",
+      size: "105.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/scp-fs2open/fs2open.github.com/releases/download/release_26_2_0/fs2_open_26_2_0-builds-Mac-arm64.tar.gz",
+      size: "172.4 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/scp-fs2open/fs2open.github.com/releases/download/release_26_2_0/fs2_open_26_2_0-builds-Mac-x86_64.tar.gz",
+      size: "176.0 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/scp-fs2open/fs2open.github.com/releases/download/release_26_2_0/fs2_open_26_2_0-builds-Win32-AVX.zip",
+      size: "35.4 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/0/0d/Freespace2box.jpg",
     alt: "FreeSpace 2 (box art)",

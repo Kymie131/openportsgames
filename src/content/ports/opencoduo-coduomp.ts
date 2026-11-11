@@ -24,6 +24,38 @@ export const opencoduoCoduomp: Port = {
   originalSystems: ["Unknown"],
   summary: "Call of Duty: United Offensive is an expansion pack for the first-person shooter video game Call of Duty. It was developed by Gray Matter Studios, with contributions from Pi Studios, and published by Activision. It was released for Microsoft Windows on September 14, 2004, and for Mac OS X on November 22, 2004.",
   summaryEs: "Call of Duty: United Offensive es un pack de expansión para el famoso juego FPS Call of Duty. Ha sido desarrollado por Gray Matter Interactive, con contribuciones de Pi Studios, y distribuido por Activision. Fue lanzado para Microsoft Windows el 14 de septiembre de 2004.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/opencoduo/coduomp/releases/download/7/opencoduo-linux-x86_64-e23642dc5.tar.gz",
+      size: "1.9 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/opencoduo/coduomp/releases/download/7/opencoduo-macos-arm64-e23642dc5.zip",
+      size: "4.3 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/opencoduo/coduomp/releases/download/7/opencoduo-server-linux-i386-e23642dc5.tar.gz",
+      size: "621 KB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/opencoduo/coduomp/releases/download/7/opencoduo-server-linux-x86_64-e23642dc5.tar.gz",
+      size: "652 KB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/opencoduo/coduomp/releases/download/7/opencoduo-server-windows-i686-e23642dc5.zip",
+      size: "659 KB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/opencoduo/coduomp/releases/download/7/opencoduo-windows-i686-e23642dc5.zip",
+      size: "2.8 MB",
+    },
+  ],
   cover: {
     src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2640/header.jpg?t=1780962034",
     alt: "Call of Duty: United Offensive (Steam header)",

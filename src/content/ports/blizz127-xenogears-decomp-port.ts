@@ -21,6 +21,13 @@ export const blizz127XenogearsDecompPort: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/Blizz127/xenogears-decomp-port/releases/download/v0.5.0-r5/xenogears-port-linux-x86_64-r5-e1625759.tar.gz",
+      size: "5.7 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Xenogears%20(USA).png",
     alt: "Xenogears (box art)",

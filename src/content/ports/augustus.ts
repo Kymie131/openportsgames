@@ -14,12 +14,39 @@ export const augustus: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "4.0.0", date: "2023-12-28" },
   sources: ["https://github.com/Keriew/augustus"],
   license: { spdx: "AGPL-3.0" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Keriew/augustus/releases/download/v4.0.0/augustus-4.0.0-android.apk",
+      size: "22.5 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/Keriew/augustus/releases/download/v4.0.0/augustus-4.0.0-linux.AppImage",
+      size: "20.0 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/Keriew/augustus/releases/download/v4.0.0/augustus-4.0.0-mac.dmg",
+      size: "16.5 MB",
+    },
+    {
+      label: "Switch NRO",
+      url: "https://github.com/Keriew/augustus/releases/download/v4.0.0/augustus-4.0.0-switch.nro",
+      size: "22.1 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/Keriew/augustus/releases/download/v4.0.0/augustus-4.0.0-windows.zip",
+      size: "24.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/56/Caeser_III_Coverart.jpg",
     alt: "Caesar III (box art)",

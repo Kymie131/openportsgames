@@ -23,6 +23,33 @@ export const ultima5Android: Port = {
   originalSystems: ["MS-DOS"],
   summary: "Ultima V: Warriors of Destiny is the fifth entry in the role-playing video game series Ultima released in March 1988. It is the second in the \"Age of Enlightenment\" trilogy. The game's story takes a darker turn from its predecessor Ultima IV. Britannia's king Lord British is missing, replaced by a tyrant named Lord Blackthorn. The player must navigate a totalitarian world bent on enforcing its virtues through draconian means.",
   summaryEs: "Ultima V: Warriors of Destiny (1988) es La Quinta Parte de la serie Ultima de juegos de rol.",
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/synthwave-pixel/ultima5/releases/download/v1.1.198/Ultima-V-1.1.198-android.apk",
+      size: "66.8 MB",
+    },
+    {
+      label: "macOS DMG",
+      url: "https://github.com/synthwave-pixel/ultima5/releases/download/v1.1.198/Ultima-V-1.1.198-mac-arm64.dmg",
+      size: "193.4 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/synthwave-pixel/ultima5/releases/download/v1.1.198/Ultima-V-1.1.198-win-x64-portable.exe",
+      size: "183.3 MB",
+    },
+    {
+      label: "Windows EXE",
+      url: "https://github.com/synthwave-pixel/ultima5/releases/download/v1.1.198/Ultima-V-1.1.198-win-x64-setup.exe",
+      size: "183.5 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/synthwave-pixel/ultima5/releases/download/v1.1.198/ultima5-sp-x86_64.AppImage",
+      size: "189.7 MB",
+    },
+  ],
   cover: {
     src: "https://openportsgames.com/covers/generated/ultima-v-warriors-of-destiny.svg",
     alt: "Ultima V: Warriors of Destiny (generated cover)",

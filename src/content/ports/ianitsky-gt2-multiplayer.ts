@@ -21,6 +21,23 @@ export const ianitskyGt2Multiplayer: Port = {
   sourceVerified: true,
   addedAt: "2026-10-23",
   originalSystems: ["PlayStation"],
+  downloads: [
+    {
+      label: "Windows",
+      url: "https://github.com/ianitsky/gt2-multiplayer/releases/download/1.0.1/1.0.1-game-win.zip",
+      size: "62.5 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/ianitsky/gt2-multiplayer/releases/download/1.0.1/1.0.1-relay-linux-x64.zip",
+      size: "30.6 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/ianitsky/gt2-multiplayer/releases/download/1.0.1/1.0.1-relay-win-x64.zip",
+      size: "30.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/6/6b/GranTurismo2.jpg",
     alt: "Gran Turismo 2 (box art)",

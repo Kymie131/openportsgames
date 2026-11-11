@@ -41,6 +41,28 @@ export const theSimpsonsGameRecomp: Port = {
     "Work in progress: the recompilation is incomplete. Releases ship no game content, so an Xbox 360 copy of the game is required.",
   notesEs:
     "Trabajo en curso: la recompilación está incompleta. Las releases no incluyen contenido del juego, así que se requiere una copia de Xbox 360 del juego.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/YesterMester/TheSimpsonsGameRecomp/releases/download/v0.0.6.5/TheSimpsonsGame-Recompiled-Linux-x64-NoAVX2.tar.gz",
+      size: "156.4 MB",
+    },
+    {
+      label: "Linux",
+      url: "https://github.com/YesterMester/TheSimpsonsGameRecomp/releases/download/v0.0.6.5/TheSimpsonsGame-Recompiled-Linux-x64.tar.gz",
+      size: "156.3 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/YesterMester/TheSimpsonsGameRecomp/releases/download/v0.0.6.5/TheSimpsonsGame-Recompiled-Windows-x64-NoAVX2.zip",
+      size: "372.5 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/YesterMester/TheSimpsonsGameRecomp/releases/download/v0.0.6.5/TheSimpsonsGame-Recompiled-Windows-x64.zip",
+      size: "372.7 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/a/a2/The_Simpsons_Game_XBOX_360_Cover.jpg",
     alt: "The Simpsons Game (box art)",

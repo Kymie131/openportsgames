@@ -14,12 +14,24 @@ export const needForSpeedUndergroundSwitch: Port = {
   originalGameLicense: "proprietary",
   platforms: ["switch"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.4.0", date: "2026-10-15" },
   sources: ["https://github.com/antoxa2584x/nfsu1-sw"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox"],
+  downloads: [
+    {
+      label: "Switch",
+      url: "https://github.com/antoxa2584x/nfsu1-sw/releases/download/v0.4.0/NFS.Underground.Xbox.recomp.0108c1f564c00000.nsp",
+      size: "403 KB",
+    },
+    {
+      label: "Switch",
+      url: "https://github.com/antoxa2584x/nfsu1-sw/releases/download/v0.4.0/nfsu1x.zip",
+      size: "10.0 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/52/Need_for_Speed_Underground_cover.jpg",
     alt: "Need for Speed: Underground (box art)",

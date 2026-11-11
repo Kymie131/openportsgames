@@ -14,7 +14,7 @@ export const klonoaDoorToPhantomileRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.1.4", date: "2026-10-01" },
   sources: ["https://github.com/TechnicallyComputers/Klonoa-Door-to-Phantomile"],
   license: { spdx: "NOASSERTION", note: "no public repository or license" },
   verified: false,
@@ -26,6 +26,28 @@ export const klonoaDoorToPhantomileRecomp: Port = {
     "A PortsDR community listing; no repository or release is public. The original game is required.",
   notesEs:
     "Ficha comunitaria de PortsDR; no hay repositorio ni release públicos. Hace falta el juego original.",
+  downloads: [
+    {
+      label: "Linux",
+      url: "https://github.com/TechnicallyComputers/Klonoa-Door-to-Phantomile/releases/download/v0.1.4/kdp-0.1.4-linux-x64.zip",
+      size: "46.5 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/TechnicallyComputers/Klonoa-Door-to-Phantomile/releases/download/v0.1.4/kdp-0.1.4-macos-arm64.zip",
+      size: "24.2 MB",
+    },
+    {
+      label: "Macos",
+      url: "https://github.com/TechnicallyComputers/Klonoa-Door-to-Phantomile/releases/download/v0.1.4/kdp-0.1.4-macos-x64.zip",
+      size: "24.8 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/TechnicallyComputers/Klonoa-Door-to-Phantomile/releases/download/v0.1.4/kdp-0.1.4-windows-x64.zip",
+      size: "25.0 MB",
+    },
+  ],
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Klonoa%20-%20Door%20to%20Phantomile%20(Europe).png",
     alt: "Klonoa: Door to Phantomile (box art)",

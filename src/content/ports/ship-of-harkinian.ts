@@ -50,6 +50,23 @@ export const shipOfHarkinian: Port = {
       "Lanza el port; los datos del juego se leen localmente desde oot.otr y nunca se redistribuyen.",
     ],
   },
+  downloads: [
+    {
+      label: "Macos",
+      url: "https://github.com/HarbourMasters/Shipwright/releases/download/9.3.1/SoH-Dewey-Bravo-Mac.zip",
+      size: "47.2 MB",
+    },
+    {
+      label: "Windows",
+      url: "https://github.com/HarbourMasters/Shipwright/releases/download/9.3.1/SoH-Dewey-Bravo-Win64.zip",
+      size: "69.6 MB",
+    },
+    {
+      label: "Linux AppImage",
+      url: "https://github.com/HarbourMasters/Shipwright/releases/download/9.3.1/SoH-Dewey-Bravo.appimage",
+      size: "30.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/7/7a/OcarinaofTime2026.jpeg",
     alt: "The Legend of Zelda: Ocarina of Time (box art)",

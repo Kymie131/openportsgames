@@ -14,12 +14,19 @@ export const narutoRiseOfANinjaRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android", "windows"],
   status: "alpha",
-  release: { version: null, date: null },
+  release: { version: "0.2", date: "2026-10-14" },
   sources: ["https://github.com/Masterllgod/naruto-rise-of-a-ninja-port-nativo"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
+  downloads: [
+    {
+      label: "Android APK",
+      url: "https://github.com/Masterllgod/naruto-rise-of-a-ninja-port-nativo/releases/download/v0.2/NarutoRiseOfANinja-PortNativo-v0.2-arm64.apk",
+      size: "38.6 MB",
+    },
+  ],
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/f/fa/Naruto_ROANfront.jpg",
     alt: "Naruto: Rise of a Ninja (box art)",
