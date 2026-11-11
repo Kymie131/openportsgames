@@ -17,6 +17,7 @@ export const aerofoilAndroid: Port = {
   release: { version: "1.1.2", date: "2021-11-10" },
   sources: ["https://github.com/elasota/Aerofoil"],
   license: { spdx: "GPL-2.0" },
+  noOriginalGameRequired: true,
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-22",
