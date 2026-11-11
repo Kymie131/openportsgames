@@ -21,6 +21,7 @@ const flag = (name, fallback) => {
 const QUERIES = flag("queries", join("scripts", "port-video-queries.json"));
 const OUTPUT = flag("output", join("src", "content", "port-extras", "videos.json"));
 const PER_PORT = Number(flag("per-port", "2"));
+const DELAY = Number(flag("delay", "1200"));
 const FORCE = args.includes("--force");
 const HEADERS = {
   "user-agent":
@@ -89,6 +90,7 @@ function score(title, candidate) {
 }
 
 for (const candidate of candidates) {
+  if (candidate.skip) continue;
   if (!FORCE && existing[candidate.portId]?.videos?.length) continue;
 
   let ids = [];
@@ -134,6 +136,7 @@ for (const candidate of candidates) {
   for (const video of picked) used.add(video.url);
   existing[candidate.portId] = { ...(existing[candidate.portId] ?? {}), videos: picked };
   console.log(`${candidate.portId}: ${picked.map((video) => video.title).join(" | ")}`);
+  await sleep(DELAY);
 }
 
 const sorted = Object.fromEntries(Object.entries(existing).sort(([a], [b]) => a.localeCompare(b)));

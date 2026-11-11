@@ -97,6 +97,14 @@ const selected = [...repos.values()]
   .sort((a, b) => b.date.localeCompare(a.date) || a.repo.localeCompare(b.repo))
   .slice(OFFSET, OFFSET + (ONLY.length > 0 ? ONLY.length : LIMIT));
 
+if (args.includes("--dry-run")) {
+  for (const entry of selected) {
+    console.log(`${entry.date || "----------"}  ${entry.repo} -> ${entry.ids.join(", ")}`);
+  }
+  console.log(`\n${selected.length} repositories selected (dry run, nothing written).`);
+  process.exit(0);
+}
+
 let existing = {};
 try {
   existing = JSON.parse(readFileSync(OUTPUT, "utf-8"));

@@ -79,6 +79,26 @@
       }
     ]
   },
+  "dead-or-alive-4-recomp": {
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=GWPvFvfHB_Y",
+        "title": "Dead or Alive 4 Online PC Recomp Netplay Match",
+        "author": "dwreck",
+        "thumbnail": "https://i.ytimg.com/vi/GWPvFvfHB_Y/hqdefault.jpg"
+      }
+    ]
+  },
+  "demons-souls-soulbrandt": {
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=Lq1XBVfE-nQ",
+        "title": "Demon's Souls (Soulbrandt - Native PC Port) - THE FIRST HOUR!",
+        "author": "POWER'D UP!",
+        "thumbnail": "https://i.ytimg.com/vi/Lq1XBVfE-nQ/hqdefault.jpg"
+      }
+    ]
+  },
   "gears-of-war-2-pc": {
     "videos": [
       {
@@ -105,6 +125,38 @@
       }
     ]
   },
+  "metroid-samus-returns-pc": {
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=5wP1UeYbkNM",
+        "title": "Metroid: Samus Returns (Native PC Port) - THE FIRST HOUR",
+        "author": "POWER'D UP!",
+        "thumbnail": "https://i.ytimg.com/vi/5wP1UeYbkNM/hqdefault.jpg"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=pVmtV6K0Sq8",
+        "title": "Fantastic Metroid Samus Returns (3DS) PC Port - Single screen, 4K 120 FPS, HD Textures",
+        "author": "Gaming Mode",
+        "thumbnail": "https://i.ytimg.com/vi/pVmtV6K0Sq8/hqdefault.jpg"
+      }
+    ]
+  },
+  "midnight-club-3-dub-remix": {
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=1RA7DpBaCY8",
+        "title": "Midnight Club 3 OFFICIALLY Now Has a PC PORT 😍 (Recomp)",
+        "author": "$𝖊𝖑𝖋'𝖒𝖎𝖓𝖉𝖊𝖉 ♔",
+        "thumbnail": "https://i.ytimg.com/vi/1RA7DpBaCY8/hqdefault.jpg"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=LugrJF0wUmc",
+        "title": "Midnight Club 3: DUB Edition PC Port (Xbox Classic)",
+        "author": "Gaming Mode",
+        "thumbnail": "https://i.ytimg.com/vi/LugrJF0wUmc/hqdefault.jpg"
+      }
+    ]
+  },
   "n64decomp-perfect-dark": {
     "videos": [
       {
@@ -112,6 +164,22 @@
         "title": "Perfect Dark PC Port - Unlocked Framerate Support",
         "author": "Graslu00",
         "thumbnail": "https://i.ytimg.com/vi/sAMY8c1ihvo/hqdefault.jpg"
+      }
+    ]
+  },
+  "panzer-dragoon-orta-recompiled": {
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=anEuBbFNsSU",
+        "title": "PANZER DRAGOON ORTA IS FINALLY ON PC! 🐉🔥 Xbox Native Recompilation | DOWNLOAD",
+        "author": "KordeliaYT",
+        "thumbnail": "https://i.ytimg.com/vi/anEuBbFNsSU/hqdefault.jpg"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=MNAQCNYGVeE",
+        "title": "Panzer Dragoon Orta Got Two Native PC Ports in Nine Days",
+        "author": "NeuralDisc",
+        "thumbnail": "https://i.ytimg.com/vi/MNAQCNYGVeE/hqdefault.jpg"
       }
     ]
   },
@@ -183,6 +251,32 @@
       }
     ]
   },
+  "street-fighter-iii-3rd-strike-oe": {
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=an7ePrziy80",
+        "title": "Street Fighter 3 Third Strike Online Edition (Xbox360) Recompiled For Pc",
+        "author": "Özgür Güvenç",
+        "thumbnail": "https://i.ytimg.com/vi/an7ePrziy80/hqdefault.jpg"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Kg8WvFUVAOs",
+        "title": "Street Fighter 3 - 3rd Strike (PS2) Recompilado: Rodando nativamente no PC",
+        "author": "Arquivista . exe",
+        "thumbnail": "https://i.ytimg.com/vi/Kg8WvFUVAOs/hqdefault.jpg"
+      }
+    ]
+  },
+  "super-monkey-ball-deluxe-recomp": {
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=JbCg952KZls",
+        "title": "(Pc Port) Super Monkey Ball Deluxe - v2.0 (By timftw21)",
+        "author": "Dominater01",
+        "thumbnail": "https://i.ytimg.com/vi/JbCg952KZls/hqdefault.jpg"
+      }
+    ]
+  },
   "twilight-princess-dusklight-dual-screen": {
     "videos": [
       {
@@ -196,6 +290,48 @@
         "title": "How to play the new Twilight Princess pc port (Dusklight)",
         "author": "N-tertainment X-tended",
         "thumbnail": "https://i.ytimg.com/vi/0BwalqTBSDM/hqdefault.jpg"
+      }
+    ]
+  },
+  "xc2-recomp": {
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=ejKWqI7MP0M",
+        "title": "Xenoblade Chronicles 2 Native PC port (XC2 Recomp 0.1.0)",
+        "author": "r1r2",
+        "thumbnail": "https://i.ytimg.com/vi/ejKWqI7MP0M/hqdefault.jpg"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=X25eNvYrS98",
+        "title": "Xenoblade Chronicles 2 Native PC Port (Recomp 0.1.11)",
+        "author": "r1r2",
+        "thumbnail": "https://i.ytimg.com/vi/X25eNvYrS98/hqdefault.jpg"
+      }
+    ]
+  },
+  "xcx-recomp": {
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=twuPlSeIBrQ",
+        "title": "Xenoblade Chronicles X Definitive Edition | NATIVE PC PORT | RYZEN 5 5600 | AMD RX 6800",
+        "author": "DanGamingandTweaks",
+        "thumbnail": "https://i.ytimg.com/vi/twuPlSeIBrQ/hqdefault.jpg"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=W3U67cen50k",
+        "title": "Xenoblade Chronicles X: Definitive Edition PC Port on GTX 1650 Super",
+        "author": "Irpan Hilmi",
+        "thumbnail": "https://i.ytimg.com/vi/W3U67cen50k/hqdefault.jpg"
+      }
+    ]
+  },
+  "xenoblade-chronicles-de": {
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=WeJnOffuzFY",
+        "title": "Recomp Xenoblade DE native on PC",
+        "author": "Mo Fu",
+        "thumbnail": "https://i.ytimg.com/vi/WeJnOffuzFY/hqdefault.jpg"
       }
     ]
   }
