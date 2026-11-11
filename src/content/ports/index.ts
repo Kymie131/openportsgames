@@ -2801,6 +2801,22 @@ import { knackIiPc } from "./knack-ii-pc";
 import { metroidSamusReturnsPc } from "./metroid-samus-returns-pc";
 import { metroidPrime4BeyondRecomp } from "./metroid-prime-4-beyond-recomp";
 import { miniNinjasSwitch } from "./mini-ninjas-switch";
+import { mgrNxDeko } from "./mgr-nx-deko";
+import { superMarioWonderRecomp } from "./super-mario-wonder-recomp";
+import { rogueGalaxyRecomp } from "./rogue-galaxy-recomp";
+import { battleStadiumDon } from "./battle-stadium-don";
+import { cricket07Browser } from "./cricket07-browser";
+import { rerevved } from "./rerevved";
+import { incredibleHulkRecompiled } from "./incredible-hulk-recompiled";
+import { concreteJunglePc } from "./concrete-jungle-pc";
+import { whoppingRecompilationCollection } from "./whopping-recompilation-collection";
+import { southParkTenormansRevenge } from "./south-park-tenormans-revenge";
+import { hpCosXboxRecomp } from "./hp-cos-xbox-recomp";
+import { princeOfPersia2Windows } from "./prince-of-persia-2-windows";
+import { clashOfNinjaRecomp } from "./clash-of-ninja-recomp";
+import { openh3m } from "./openh3m";
+import { perfectDarkXblaPcRecomp } from "./perfect-dark-xbla-pc-recomp";
+import { unchartedWatersNewHorizonsRecomp } from "./uncharted-waters-new-horizons-recomp";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5601,4 +5617,20 @@ export const portCases: Port[] = [
   metroidSamusReturnsPc,
   metroidPrime4BeyondRecomp,
   miniNinjasSwitch,
+  mgrNxDeko,
+  superMarioWonderRecomp,
+  rogueGalaxyRecomp,
+  battleStadiumDon,
+  cricket07Browser,
+  rerevved,
+  incredibleHulkRecompiled,
+  concreteJunglePc,
+  whoppingRecompilationCollection,
+  southParkTenormansRevenge,
+  hpCosXboxRecomp,
+  princeOfPersia2Windows,
+  clashOfNinjaRecomp,
+  openh3m,
+  perfectDarkXblaPcRecomp,
+  unchartedWatersNewHorizonsRecomp,
 ];
