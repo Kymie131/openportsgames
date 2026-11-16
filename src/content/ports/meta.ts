@@ -806,6 +806,7 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "grognardsfromhell-templeplus": ["Unknown"],
   "gsrecomp": ["Game Boy Advance"],
   "gt-advance-3-pro-concept-racing": ["Game Boy Advance"],
+  "gta-iii-psp": ["PlayStation 2"],
   "gta-iv-ios-ipados": ["Xbox 360"],
   "gta-iv-liberty-recomp": ["Xbox 360"],
   "gta-liberty-city-stories-ps-vita": ["PlayStation Portable"],

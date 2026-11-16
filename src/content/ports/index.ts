@@ -805,6 +805,7 @@ import { grichesPs5Windwakerhd } from "./griches-ps5-windwakerhd";
 import { grognardsfromhellTempleplus } from "./grognardsfromhell-templeplus";
 import { Gsrecomp } from "./gsrecomp";
 import { GtAdvance3ProConceptRacing } from "./gt-advance-3-pro-concept-racing";
+import { gtaIiiPsp } from "./gta-iii-psp";
 import { gtaIvIosIpados } from "./gta-iv-ios-ipados";
 import { gtaIvLibertyRecomp } from "./gta-iv-liberty-recomp";
 import { gtaLibertyCityStoriesPsVita } from "./gta-liberty-city-stories-ps-vita";
@@ -3625,6 +3626,7 @@ export const portCases: Port[] = [
   grognardsfromhellTempleplus,
   Gsrecomp,
   GtAdvance3ProConceptRacing,
+  gtaIiiPsp,
   gtaIvIosIpados,
   gtaIvLibertyRecomp,
   gtaLibertyCityStoriesPsVita,
