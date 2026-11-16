@@ -14,7 +14,7 @@ export const whiteAlbum2Android: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android", "windows"],
   status: "alpha",
-  release: { version: "0.3.0-beta", date: "2026-08-31" },
+  release: { "version": "0.2.83", "date": "2026-11-12" },
   sources: ["https://github.com/dorakyuraduang/whitealbum2-Android"],
   license: { spdx: "MIT" },
   verified: false,
@@ -26,7 +26,7 @@ export const whiteAlbum2Android: Port = {
   downloads: [
     {
       label: "Android",
-      url: "https://github.com/dorakyuraduang/whitealbum2-Android/releases/download/r0.2.80/WA2-arm64-0.2.80-shared-aot.apk",
+      url: "https://github.com/dorakyuraduang/whitealbum2-Android/releases/download/r0.2.83/WA2-arm64-0.2.83-shared-aot.apk",
       size: "7.7 MB",
     },
   ],

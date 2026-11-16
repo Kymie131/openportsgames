@@ -23,7 +23,7 @@ export const halo1Decomp: Port = {
   downloads: [
     {
       label: "Android",
-      url: "https://github.com/OpenCommunityEdition/OpenCE/releases/download/build-343/halo-android-release.zip",
+      url: "https://github.com/OpenCommunityEdition/OpenCE/releases/download/build-374/halo-android-release.zip",
       size: "18.6 MB",
     },
   ],

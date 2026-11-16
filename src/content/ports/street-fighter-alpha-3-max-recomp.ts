@@ -14,16 +14,14 @@ export const streetFighterAlpha3MaxRecomp: Port = {
   "genre": "fighting",
   "openSource": true,
   "originalGameLicense": "proprietary",
+  "wip": true,
   "platforms": [
     "windows",
     "linux",
     "macos"
   ],
   "status": "beta",
-  "release": {
-    "version": "0.52.0",
-    "date": "2026-11-06"
-  },
+  "release": { "version": null, "date": null },
   "sources": [
     "https://github.com/theweathervane/sfa3max-decomp"
   ],
@@ -32,6 +30,7 @@ export const streetFighterAlpha3MaxRecomp: Port = {
   },
   "verified": false,
   "sourceVerified": true,
+  "sourceDead": true,
   "addedAt": "2026-11-09",
   "originalSystems": [
     "PlayStation Portable"
@@ -49,21 +48,7 @@ export const streetFighterAlpha3MaxRecomp: Port = {
     "Builds nativas para Windows, Linux y macOS.",
     "Port de descompilación del juego de PSP.",
     "Necesita tus propios archivos del juego."
-  ],
-  "downloads": [
-    {
-      "label": "Windows",
-      "url": "https://github.com/theweathervane/sfa3max-decomp/releases/download/v0.52.0/sfa3max-decomp-0.52.0-windows-x64.zip",
-    },
-    {
-      "label": "Linux",
-      "url": "https://github.com/theweathervane/sfa3max-decomp/releases/download/v0.52.0/sfa3max-decomp-0.52.0-linux-x64.zip",
-    },
-    {
-      "label": "macOS",
-      "url": "https://github.com/theweathervane/sfa3max-decomp/releases/download/v0.52.0/sfa3max-decomp-0.52.0-macos-arm64.zip",
-    },
-  ],
+  ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/street-fighter-alpha-3-max-recomp.png",
     alt: "Street Fighter Alpha 3 MAX (PlayStation Portable box art)",

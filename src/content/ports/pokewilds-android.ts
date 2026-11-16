@@ -14,7 +14,7 @@ export const pokewildsAndroid: Port = {
   originalGameLicense: "open",
   platforms: ["android"],
   status: "beta",
-  release: { version: null, date: null },
+  release: { version: "0.10", date: "2026-10-17" },
   sources: ["https://github.com/TryTheSauceBoss/Pokewilds-Godot"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -29,7 +29,7 @@ export const pokewildsAndroid: Port = {
   downloads: [
     {
       label: "Android",
-      url: "https://github.com/TryTheSauceBoss/Pokewilds-Godot/releases/download/vFinal/Pokewilds.-.Final.apk",
+      url: "https://github.com/TryTheSauceBoss/Pokewilds-Godot/releases/download/v0.10/Pokewilds.-.0.10.apk",
       size: "272.1 MB",
     },
   ],

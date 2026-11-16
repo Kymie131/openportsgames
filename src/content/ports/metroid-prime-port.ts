@@ -12,9 +12,10 @@ export const metroidPrimePort: Port = {
   genre: "action-adventure",
   openSource: true,
   originalGameLicense: "proprietary",
+  "wip": true,
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: "0.45.0", date: "2026-11-10" },
+  "release": { "version": null, "date": null },
   sources: ["https://github.com/Odrannnn/MetroidPrimePort"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
@@ -24,34 +25,7 @@ export const metroidPrimePort: Port = {
   notes:
     "Decompilation-based native port of Metroid Prime (GameCube). The player supplies their own legally obtained disc image; the repository ships no game content.",
   notesEs:
-    "Port nativo basado en decompilación de Metroid Prime (GameCube). El jugador aporta su propio material obtenido legalmente (disc image); el repositorio no incluye contenido del juego.",
-  downloads: [
-    {
-      label: "Windows x64",
-      url: "https://github.com/Odrannnn/MetroidPrimePort/releases/download/v0.45.0/metroid-prime-port-0.45.0-windows-x86_64.zip",
-      size: "72.9 MB",
-    },
-    {
-      label: "Windows arm64",
-      url: "https://github.com/Odrannnn/MetroidPrimePort/releases/download/v0.45.0/metroid-prime-port-0.45.0-windows-arm64.zip",
-      size: "70.8 MB",
-    },
-    {
-      label: "Linux x64",
-      url: "https://github.com/Odrannnn/MetroidPrimePort/releases/download/v0.45.0/metroid-prime-port-0.45.0-linux-x86_64.tar.gz",
-      size: "18.5 MB",
-    },
-    {
-      label: "macOS",
-      url: "https://github.com/Odrannnn/MetroidPrimePort/releases/download/v0.45.0/metroid-prime-port-0.45.0-macos-arm64.zip",
-      size: "18.3 MB",
-    },
-    {
-      label: "Linux arm64",
-      url: "https://github.com/Odrannnn/MetroidPrimePort/releases/download/v0.45.0/metroid-prime-port-0.45.0-linux-aarch64.tar.gz",
-      size: "17.6 MB",
-    },
-  ],
+    "Port nativo basado en decompilación de Metroid Prime (GameCube). El jugador aporta su propio material obtenido legalmente (disc image); el repositorio no incluye contenido del juego.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Metroid%20Prime%20(USA).png",
     alt: "Metroid Prime (box art)",

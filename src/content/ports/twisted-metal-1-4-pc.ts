@@ -14,7 +14,7 @@ export const twistedMetal14Pc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: "1.0.0", date: "2026-10-13" },
+  release: { "version": "1.0.1", "date": "2026-11-13" },
   sources: ["https://github.com/jcoker85/TwistedMetal1234Recomp"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
@@ -25,7 +25,7 @@ export const twistedMetal14Pc: Port = {
   downloads: [
     {
       label: "Windows",
-      url: "https://github.com/jcoker85/TwistedMetal1234Recomp/releases/download/v1.0.0/TwistedMetal1234Recomp-1.0.0.zip",
+      url: "https://github.com/jcoker85/TwistedMetal1234Recomp/releases/download/v1.0.1/TwistedMetal1234Recomp-1.0.1.zip",
       size: "39.3 MB",
     },
   ],
@@ -34,6 +34,6 @@ export const twistedMetal14Pc: Port = {
     alt: "Twisted Metal (generated cover)",
     credit: "OpenPortsGames",
   },
-  notes: "Twisted Metal (Sony Computer Entertainment, 1995) running on Windows through static recompilation. Latest release: v1.0.0. You need your own copy of the game.",
-  notesEs: "Twisted Metal (Sony Computer Entertainment, 1995) en Windows mediante recompilación estática. Última release: v1.0.0. Necesitas tu propia copia del juego.",
+  notes: "Twisted Metal (Sony Computer Entertainment, 1995) running on Windows through static recompilation. Latest release: v1.0.1. You need your own copy of the game.",
+  notesEs: "Twisted Metal (Sony Computer Entertainment, 1995) en Windows mediante recompilación estática. Última release: v1.0.1. Necesitas tu propia copia del juego.",
 };

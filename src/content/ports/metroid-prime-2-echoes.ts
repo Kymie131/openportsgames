@@ -14,16 +14,14 @@ export const metroidPrime2Echoes: Port = {
   "genre": "action-adventure",
   "openSource": true,
   "originalGameLicense": "proprietary",
+  "wip": true,
   "platforms": [
     "windows",
     "linux",
     "macos"
   ],
   "status": "beta",
-  "release": {
-    "version": "0.11.0",
-    "date": "2026-11-04"
-  },
+  "release": { "version": null, "date": null },
   "sources": [
     "https://github.com/Odrannnn/MetroidPrime2Port"
   ],
@@ -33,6 +31,7 @@ export const metroidPrime2Echoes: Port = {
   },
   "verified": false,
   "sourceVerified": true,
+  "sourceDead": true,
   "addedAt": "2026-11-05",
   "originalSystems": [
     "Nintendo GameCube"
@@ -50,21 +49,7 @@ export const metroidPrime2Echoes: Port = {
     "Builds nativas para Windows, Linux y macOS.",
     "Construido desde la descompilación PrimeDecomp.",
     "Necesita tu propia imagen de disco de GameCube."
-  ],
-  "downloads": [
-    {
-      "label": "Windows",
-      "url": "https://github.com/Odrannnn/MetroidPrime2Port/releases/download/v0.11.0/metroid-prime2-port-0.11.0-windows-x86_64.zip",
-    },
-    {
-      "label": "Linux",
-      "url": "https://github.com/Odrannnn/MetroidPrime2Port/releases/download/v0.11.0/metroid-prime2-port-0.11.0-linux-x86_64.tar.gz",
-    },
-    {
-      "label": "macOS",
-      "url": "https://github.com/Odrannnn/MetroidPrime2Port/releases/download/v0.11.0/metroid-prime2-port-0.11.0-macos-arm64.zip",
-    },
-  ],
+  ],
   "cover": {
     "src": "https://openportsgames.com/covers/generated/metroid-prime-2-echoes.svg",
     "alt": "Metroid Prime 2: Echoes (generated cover)",

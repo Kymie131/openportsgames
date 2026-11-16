@@ -14,15 +14,13 @@ export const hookshot: Port = {
   "genre": "action-adventure",
   "openSource": true,
   "originalGameLicense": "proprietary",
+  "wip": true,
   "platforms": [
     "windows",
     "linux"
   ],
   "status": "beta",
-  "release": {
-    "version": "2.0.11",
-    "date": "2026-11-09"
-  },
+  "release": { "version": null, "date": null },
   "sources": [
     "https://github.com/NotRexed/Hookshot"
   ],
@@ -31,6 +29,7 @@ export const hookshot: Port = {
   },
   "verified": false,
   "sourceVerified": true,
+  "sourceDead": true,
   "addedAt": "2026-11-09",
   "originalSystems": [
     "Nintendo Switch 2"
@@ -48,17 +47,7 @@ export const hookshot: Port = {
     "Builds nativas para Windows y Linux.",
     "Compila desde tu propia copia de Switch 2.",
     "No incluye archivos del juego."
-  ],
-  "downloads": [
-    {
-      "label": "Windows",
-      "url": "https://github.com/NotRexed/Hookshot/releases/download/v2.0.11/HookshotBuilder.exe",
-    },
-    {
-      "label": "Linux",
-      "url": "https://github.com/NotRexed/Hookshot/releases/download/v2.0.11/Hookshot-v2.0.11-x86_64.AppImage",
-    },
-  ],
+  ],
   cover: {
     src: "https://openportsgames.com/covers/boxart/hookshot.jpg",
     alt: "The Legend of Zelda: Ocarina of Time (Nintendo Switch 2 box art)",

@@ -19,8 +19,8 @@ export const thps2xRecompiled: Port = {
   ],
   "status": "beta",
   "release": {
-    "version": "1.2.1",
-    "date": "2026-11-07"
+    "version": "1.2.6",
+    "date": "2026-11-15"
   },
   "sources": [
     "https://github.com/almost-drowned-rat/THPS2X-Recompiled"
@@ -37,8 +37,8 @@ export const thps2xRecompiled: Port = {
   ],
   "summary": "Tony Hawk's Pro Skater 2x is a 2001 enhanced port of Tony Hawk's Pro Skater 1 and 2 for the Xbox. It adds levels, skaters and improved visuals.",
   "summaryEs": "Tony Hawk's Pro Skater 2x es un port mejorado de 2001 de Tony Hawk's Pro Skater 1 y 2 para Xbox. Añade niveles, patinadores y gráficos mejorados.",
-  "notes": "Native recompilation of Tony Hawk's Pro Skater 2x (Xbox) for Windows. Bring your own game files; no game data is included. Latest release: v1.2.1.",
-  "notesEs": "Recompilación nativa de Tony Hawk's Pro Skater 2x (Xbox) para Windows. Aporta tus propios archivos; no incluye datos del juego. Última release: v1.2.1.",
+  "notes": "Native recompilation of Tony Hawk's Pro Skater 2x (Xbox) for Windows. Bring your own game files; no game data is included. Latest release: v1.2.6.",
+  "notesEs": "Recompilación nativa de Tony Hawk's Pro Skater 2x (Xbox) para Windows. Aporta tus propios archivos; no incluye datos del juego. Última release: v1.2.6.",
   "features": [
     "Native Windows build.",
     "Static recompilation of the Xbox game.",
@@ -52,7 +52,7 @@ export const thps2xRecompiled: Port = {
   "downloads": [
     {
       "label": "Windows",
-      "url": "https://github.com/almost-drowned-rat/THPS2X-Recompiled/releases/download/v1.2.1/THPS2X-Recompiled-v1.2.1-win64.zip",
+      "url": "https://github.com/almost-drowned-rat/THPS2X-Recompiled/releases/download/v1.2.6/THPS2X-Recompiled-v1.2.6-win64.zip",
     },
   ],
   cover: {

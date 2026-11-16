@@ -28,17 +28,17 @@ export const haloCeUniversal: Port = {
   downloads: [
     {
       label: "Linux",
-      url: "https://github.com/OpenCommunityEdition/OpenCE/releases/download/build-343/halo-linux-release.zip",
+      url: "https://github.com/OpenCommunityEdition/OpenCE/releases/download/build-374/halo-linux-release.zip",
       size: "23.3 MB",
     },
     {
       label: "Android",
-      url: "https://github.com/OpenCommunityEdition/OpenCE/releases/download/build-343/halo-android-release.zip",
+      url: "https://github.com/OpenCommunityEdition/OpenCE/releases/download/build-374/halo-android-release.zip",
       size: "18.6 MB",
     },
     {
       label: "Windows",
-      url: "https://github.com/OpenCommunityEdition/OpenCE/releases/download/build-343/halo-windows-release.zip",
+      url: "https://github.com/OpenCommunityEdition/OpenCE/releases/download/build-374/halo-windows-release.zip",
       size: "14.5 MB",
     },
   ],

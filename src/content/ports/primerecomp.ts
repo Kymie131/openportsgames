@@ -22,8 +22,8 @@ export const primerecomp: Port = {
   ],
   "status": "beta",
   "release": {
-    "version": "0.0.9",
-    "date": "2026-11-09"
+    "version": "0.1.0",
+    "date": "2026-11-14"
   },
   "sources": [
     "https://github.com/gminustwo/primerecomp"
@@ -40,8 +40,8 @@ export const primerecomp: Port = {
   ],
   "summary": "Metroid Prime Remastered is a 2023 remaster of the 2002 action-adventure game developed by Retro Studios and published by Nintendo. Samus explores Tallon IV in first person.",
   "summaryEs": "Metroid Prime Remastered es la remasterización de 2023 del videojuego de acción y aventura de 2002 desarrollado por Retro Studios y publicado por Nintendo. Samus explora Tallon IV en primera persona.",
-  "notes": "Native recompilation of Metroid Prime Remastered for Windows, Linux, macOS and Android. Bring your own game files; no game data is included. Latest release: v0.0.9.",
-  "notesEs": "Recompilación nativa de Metroid Prime Remastered para Windows, Linux, macOS y Android. Aporta tus propios archivos del juego; no incluye datos del juego. Última release: v0.0.9.",
+  "notes": "Native recompilation of Metroid Prime Remastered for Windows, Linux, macOS and Android. Bring your own game files; no game data is included. Latest release: v0.1.0.",
+  "notesEs": "Recompilación nativa de Metroid Prime Remastered para Windows, Linux, macOS y Android. Aporta tus propios archivos del juego; no incluye datos del juego. Última release: v0.1.0.",
   "features": [
     "Native Windows, Linux, macOS and Android builds.",
     "Remastered Switch version recompiled.",
@@ -55,19 +55,19 @@ export const primerecomp: Port = {
   "downloads": [
     {
       "label": "Windows",
-      "url": "https://github.com/gminustwo/primerecomp/releases/download/v0.0.9/PrimeRecomp-v0.0.9-windows.zip",
+      "url": "https://github.com/gminustwo/primerecomp/releases/download/v0.1.0/PrimeRecomp-v0.1.0-windows.zip",
     },
     {
       "label": "Linux",
-      "url": "https://github.com/gminustwo/primerecomp/releases/download/v0.0.9/PrimeRecomp-v0.0.9-linux-x86_64.AppImage",
+      "url": "https://github.com/gminustwo/primerecomp/releases/download/v0.1.0/PrimeRecomp-v0.1.0-linux-x86_64.AppImage",
     },
     {
       "label": "macOS",
-      "url": "https://github.com/gminustwo/primerecomp/releases/download/v0.0.9/PrimeRecomp-v0.0.9-macOS.dmg",
+      "url": "https://github.com/gminustwo/primerecomp/releases/download/v0.1.0/PrimeRecomp-v0.1.0-macOS.dmg",
     },
     {
       "label": "Android",
-      "url": "https://github.com/gminustwo/primerecomp/releases/download/v0.0.9/PrimeRecomp-v0.0.9-android.apk",
+      "url": "https://github.com/gminustwo/primerecomp/releases/download/v0.1.0/PrimeRecomp-v0.1.0-android.apk",
     },
   ],
   cover: {
