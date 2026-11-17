@@ -19,8 +19,6 @@ export const pepsimanRecompiled: Port = {
   website: "https://pepsiman.ol.mr",
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
-  warning: "The repository and the public site are no longer available.",
-  warningEs: "El repositorio y la web pública ya no están disponibles.",
   originalSystems: ["PlayStation"],
   summary: "Pepsiman may refer to:Pepsiman (character), a mascot character for Pepsi Pepsiman , a 1999 PlayStation video game featuring the character",
   summaryEs: "Pepsiman（ペプシマン; Hepburn Pepushiman) es una mascota oficial de la rama corporativa de Pepsi en Japón. Apareció por primera vez entre los años 1994 y 1995 como una estrategia comercial de la compañía para captar una nueva audiencia. Protagonizó un total de doce anuncios publicitarios televisivos, además de su propia serie de cómics llamada «Pepsiman: Seigi no tame no tōsō» y un videojuego homónimo. La compañía también lanzó toda clase de artículos promocionales, como llaveros, figuras de acción, calendarios y botellas de edición limitada.",
