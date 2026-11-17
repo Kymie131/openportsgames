@@ -9,7 +9,7 @@ export const ledheadWii: Port = {
   publisher: "Peter Hirschberg",
   originalYear: 2001,
   portType: "source-port",
-  genre: "simulation",
+  genre: "puzzle",
   openSource: true,
   originalGameLicense: "proprietary",
   platforms: ["wii"],
@@ -20,10 +20,8 @@ export const ledheadWii: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
-  summary: "LedHEAD is a simulation game published by Peter Hirschberg for Windows, released in 2001.",
-  summaryEs: "LedHEAD es un videojuego de simulaci�n publicado por Peter Hirschberg para Windows, lanzado en 2001.",
-  summaryGenerated: true,
-  downloads: [
+  summary: "LedHEAD is a 2001 handheld LED game simulation by Peter Hirschberg. It recreates the look and feel of classic LED handhelds with simple, timing-based challenges.",
+  summaryEs: "LedHEAD es una simulación de juego LED portátil de 2001 creada por Peter Hirschberg. Recrea el aspecto de las clásicas consolas LED con desafíos sencillos basados en el tiempo.",  downloads: [
     {
       label: "Wii",
       url: "https://github.com/nebiun/ledHeadWii/releases/download/1.2/ledHeadWii_1.2.zip",

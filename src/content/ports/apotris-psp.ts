@@ -7,7 +7,7 @@ export const apotrisPsp: Port = {
   game: "Apotris",
   developers: ["dadcapgamer"],
   publisher: "Akouzoukos",
-  originalYear: 2021,
+  originalYear: 2022,
   portType: "source-port",
   genre: "puzzle",
   openSource: true,
@@ -20,10 +20,8 @@ export const apotrisPsp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Game Boy Advance"],
-  summary: "Apotris is a puzzle game published by Akouzoukos for Game Boy Advance, released in 2021.",
-  summaryEs: "Apotris es un videojuego de puzles publicado por Akouzoukos para Game Boy Advance, lanzado en 2021.",
-  summaryGenerated: true,
-  downloads: [
+  summary: "Apotris is a 2022 homebrew falling-block puzzle game developed by Akouzoukos for the Game Boy Advance. It follows modern Tetris rules with holds, ghost pieces and 7-bag randomization.",
+  summaryEs: "Apotris es un juego de puzles de bloques de 2022 creado por Akouzoukos para Game Boy Advance. Sigue las reglas modernas de Tetris con reserva, pieza fantasma y aleatorización de bolsa de 7.",  downloads: [
     {
       label: "Psp",
       url: "https://github.com/dadcapgamer/apotrisPSP/releases/download/v4.1.0-psp1/apotrisPSP-v4.1.0-psp1.zip",
